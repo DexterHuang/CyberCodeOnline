@@ -18,5 +18,9 @@ however this also means we need to do a soft-reset on all players (meaning you k
 #### Tutorial Markdowns
 1. Added basic tutorial markdown file, thanks to [Hildjj](https://github.com/hildjj)'s contribution! 
 2. markdown files open sourced at our Github page so if you wanna add anything, feel free to create a pull request :)
+#### Auto Update
+New client should automatically update when there is a update available without requiring player to hit the refresh button manually
+#### Update Note
+This update note should automatically popup when client updated
 #### Tons of Bug Fixes and Quality of Life Improvements
 there are so many...
