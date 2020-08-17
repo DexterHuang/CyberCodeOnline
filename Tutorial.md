@@ -4,15 +4,15 @@ Put yourself in the mindframe of a developer using [Visual Studio Code](https://
 
 ## Logging in
 
-![Login Screenshot](login.png)
+![Login Screenshot](resources/login.png)
 
 Click between the double quotes, enter the required information, then click on the function name `signUp` to "execute" it.  Your password must be at least 8 characters long.
 
-![Sign up](signup.png)
+![Sign up](resources/signup.png)
 
 Enter the name you want to show up for everyone, and click `save`.
 
-![Enter display name](displayname.png)
+![Enter display name](resources/displayname.png)
 
 CyberCodeOnline is laid out like the popular code editor VSCode. On the left-hand side you will find several icons. The top one is the most important, as that is the Explorer where you access the actual code files for the game. The game is played as if you were a developer editing a project in your code editor!
 
