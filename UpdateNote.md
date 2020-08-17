@@ -12,6 +12,9 @@
  4. In dungeons, player's health will not automatically heal to max once out of combat
  5. Players can collaborate on dungeon to more easily defeat it (it is harder as you don't regen)
  6. Higher level regions now requires `SecretKey` to access, `SecretKeys` needs to crafted by combining 3 different `SecretKeyFragment` which can be acquired at the end of each dungeons.
+#### Item Update
+ 1. Now you can compare any time with the one your equipped  
+ 2. All equipment item now have a `Quality` attribute, this indicate the quality of the item, this allows players to know if they have got a "Good Roll"
 #### Major Rebalance
 All the stats, level exp growth rate, enemy health and damage, are all re-adjusted, and should be (hopefully) more balanced.
 however this also means we need to do a soft-reset on all players (meaning you keep your account and names, but stats and items are reset)
