@@ -6,6 +6,7 @@
 ### **18/08/2020 - v0.07**
 
 #### Bug Fixes
+ * fix dungeon loot room generation issue
  * Fix issue with displaying online players 
  * show level on upgrade module
  * inventory quick equip and unequip by left click
