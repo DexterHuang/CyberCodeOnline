@@ -3,7 +3,7 @@
 
 **CyberCode Online** is currently onder very early and heavy development stage, which means many changes and new features are being added everyday! that also means many stats are being adjusted all the time. So, if you have any suggestion please feel free to [create a issue](https://github.com/DexterHuang/CyberCodeOnline/issues), if it is good it will very likely end up in this list ;)
 
-### **18/08/2020 - v0.01**
+### **18/08/2020 - v0.05**
 
 #### Dungeon Update
  1. Added dungeons to each level segment in the map
