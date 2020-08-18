@@ -25,5 +25,8 @@ however this also means we need to do a soft-reset on all players (meaning you k
 New client should automatically update when there is a update available without requiring player to hit the refresh button manually
 #### Update Note
 This update note should automatically popup when client updated
+#### New Quests
+ 1. Join Dungeon: Join other player's dungeon
+ 2. Deal Damage: deal x amount of damage to enemy
 #### Tons of Bug Fixes and Quality of Life Improvements
 there are so many...
