@@ -3,6 +3,14 @@
 
 **CyberCode Online** is currently onder very early and heavy development stage, which means many changes and new features are being added everyday! that also means many stats are being adjusted all the time. So, if you have any suggestion please feel free to [create a issue](https://github.com/DexterHuang/CyberCodeOnline/issues), if it is good it will very likely end up in this list ;)
 
+### **18/08/2020 - v0.07**
+
+#### Bug Fixes
+ 1. fix dungeon item issue
+ 2. now selling items give correct amount of money
+ 3. selling item amount slider now max at amount you have
+ 4. fix dungeon size
+
 ### **18/08/2020 - v0.05**
 
 #### Dungeon Update
