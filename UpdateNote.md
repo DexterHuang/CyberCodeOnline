@@ -6,12 +6,13 @@
 ### **18/08/2020 - v0.07**
 
 #### Bug Fixes
- 1. fix dungeon item issue
- 2. now selling items give correct amount of money
- 3. selling item amount slider now max at amount you have
- 4. fix dungeon size
- 5. fix issue with tier drop
- 6. inventory quick equip and unequip by left click
+ * show level on upgrade module
+ * inventory quick equip and unequip by left click
+ * fix issue with tier drop
+ * fix dungeon item issue
+ * now selling items give correct amount of money
+ * selling item amount slider now max at amount you have
+ * fix dungeon size
 
 ### **18/08/2020 - v0.05**
 
