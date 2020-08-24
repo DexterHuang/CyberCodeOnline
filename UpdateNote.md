@@ -3,6 +3,9 @@
 
 **CyberCode Online** is currently onder very early and heavy development stage, which means many changes and new features are being added everyday! that also means many stats are being adjusted all the time. So, if you have any suggestion please feel free to [create a issue](https://github.com/DexterHuang/CyberCodeOnline/issues), if it is good it will very likely end up in this list ;)
 
+### **2020/08/20 - v0.16**
+ * Increase inventory slot size
+ 
 ### **2020/08/20 - v0.14**
  * Massive increase printing exp given
 
