@@ -4,6 +4,9 @@
 **CyberCode Online** is currently onder very early and heavy development stage, which means many changes and new features are being added everyday! that also means many stats are being adjusted all the time. So, if you have any suggestion please feel free to [create a issue](https://github.com/DexterHuang/CyberCodeOnline/issues), if it is good it will very likely end up in this list ;)
 
 ### **2020/08/29 - v0.17**
+ #### Invenetory
+ Increase inv size again to 32 slots
+ 
  #### Job System
  * Added Job Hub location, where most AFK jobs can be executed, to level up levels
  * work in printing factory, increase printing level (same as practice printing)
