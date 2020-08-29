@@ -37,6 +37,8 @@
  * ESCAPE chance stat will increase chance chance to escap from dungeon enemy
  * escap stat is available in upgreade modules, boots and pants
  
+ #### Procedural names
+ * adjusted how names in the game is generate 
  
 ### **2020/08/20 - v0.16**
  * Increase inventory slot size
