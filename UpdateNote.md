@@ -24,6 +24,7 @@
  * Ammunition tech parts, used to craft ammo
  
  #### Dungeon
+ * Joining dungeon now checks for level requirement
  * Added send invite to global chat button
  * Dungeons now have chance to drop Experience Memory
  * Challenge dungeons are added to each zone, challenge dungeon are harder, and contains a boss at the loot room
