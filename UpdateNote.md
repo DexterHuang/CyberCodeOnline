@@ -5,7 +5,7 @@
 
 ### **2020/08/29 - v0.17**
  #### Invenetory
- Increase inv size again to 32 slots
+ * Increase inv size again to 32 slots
  
  #### Job System
  * Added Job Hub location, where most AFK jobs can be executed, to level up levels
