@@ -3,6 +3,41 @@
 
 **CyberCode Online** is currently onder very early and heavy development stage, which means many changes and new features are being added everyday! that also means many stats are being adjusted all the time. So, if you have any suggestion please feel free to [create a issue](https://github.com/DexterHuang/CyberCodeOnline/issues), if it is good it will very likely end up in this list ;)
 
+### **2020/08/29 - v0.17**
+ #### Job System
+ * Added Job Hub location, where most AFK jobs can be executed, to level up levels
+ * work in printing factory, increase printing level (same as practice printing)
+ * apprentice in body-mod clinic, increase medical science level 
+ * Scavenge, not done in job hub, but you are able to scavange in each enemy zone, 
+ higher level allows you to unlock better scavange area
+ #### New levels
+ * Medical Science, unlocks higher level healing item crafting
+ * Ammo Crafting, unlocks higher amount of ammo crafted
+ * Scavange, unlocks scavange area 
+ 
+ #### Added player market
+ * new location near hub, allowing player to open their stall and sell or buy item from each other
+ 
+ #### New Items
+ * Experience memory, when used increase exp
+ * Medical tech parts, used to craft healing items
+ * Ammunition tech parts, used to craft ammo
+ 
+ #### Dungeon
+ * Added send invite to global chat button
+ * Dungeons now have chance to drop Experience Memory
+ * Challenge dungeons are added to each zone, challenge dungeon are harder, and contains a boss at the loot room
+ * Now escape from dungeon enemy is chance based, ESCAPE stat will influence the chance
+ * Playe shields will be replenished after defeating an enemy, health will remain and need to be healed with healing items 
+ 
+ #### Increase max level to 80
+ * added locations, dungeons and enemy zones to level 80
+ 
+ #### ESCAPE Stat
+ * ESCAPE chance stat will increase chance chance to escap from dungeon enemy
+ * escap stat is available in upgreade modules, boots and pants
+ 
+ 
 ### **2020/08/20 - v0.16**
  * Increase inventory slot size
  
