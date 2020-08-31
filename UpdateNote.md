@@ -5,6 +5,7 @@
 ### **2020/08/31 - v0.23**
  * Now you can see in combat players in dungeon highlighted
  * BUG FIX: fix stuck in dungeon issue
+ * fix invalid travel link issue
  
 ### **2020/08/29 - v0.18**
  #### Minor Change
