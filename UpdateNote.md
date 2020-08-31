@@ -2,7 +2,9 @@
 # Update Notes
 
 **CyberCode Online** is currently onder very early and heavy development stage, which means many changes and new features are being added everyday! that also means many stats are being adjusted all the time. So, if you have any suggestion please feel free to [create a issue](https://github.com/DexterHuang/CyberCodeOnline/issues), if it is good it will very likely end up in this list ;)
-
+### **2020/08/31 - v0.21**
+ * BUG FIX: fix stuck in dungeon issue
+ 
 ### **2020/08/29 - v0.18**
  #### Minor Change
  * selling item with only 1 amount no longer shows amount slider
