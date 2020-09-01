@@ -4,6 +4,7 @@
 **CyberCode Online** is currently onder very early and heavy development stage, which means many changes and new features are being added everyday! that also means many stats are being adjusted all the time. So, if you have any suggestion please feel free to [create a issue](https://github.com/DexterHuang/CyberCodeOnline/issues), if it is good it will very likely end up in this list ;)
 
 ### **2020/09/01 - v0.28**
+ * fix scavenge on level 1 ~ 3 loc has no drop
  * added random loot box (captcha)
  * updated recipe display
  
