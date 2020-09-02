@@ -1,5 +1,5 @@
 This document is contributed by [mr_moe](https://github.com/donburks ) and [hildjj](https://github.com/hildjj)
-if you would like to help maintain it please feel free to create PR at https://github.com/DexterHuang/CyberCodeOnline
+if you would like to help maintain it please feel free to create PR at [Our Github](https://github.com/DexterHuang/CyberCodeOnline)
 
 # Getting Started in CyberCodeOnline
 
