@@ -6,6 +6,7 @@
 ## Contributers: 
  * [mr_mor](https://github.com/donburks)
  * [hildjj](https://github.com/hildjj)
+ * [Kimi Leta](https://github.com/kimileta)
  
 If you would like to help maintaining CyberCode Online, please feel free to submit a PR at [our github reop](https://github.com/DexterHuang/CyberCodeOnline).
 currently only tutorial and tips are available for community contribution, remember to add your name in this doc when you create PR : )
