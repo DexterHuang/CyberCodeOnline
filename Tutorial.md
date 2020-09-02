@@ -1,3 +1,6 @@
+This document is contributed by [mr_moe](https://github.com/donburks ) and [hildjj](https://github.com/hildjj)
+if you would like to help maintain it please feel free to create PR at https://github.com/DexterHuang/CyberCodeOnline
+
 # Getting Started in CyberCodeOnline
 
 Put yourself in the mindframe of a developer using [Visual Studio Code](https://code.visualstudio.com/).  That's what it will look like to people walking past you can see your screen, but who don't look closely.
