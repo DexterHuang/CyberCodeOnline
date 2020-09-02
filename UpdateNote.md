@@ -106,7 +106,7 @@
 All the stats, level exp growth rate, enemy health and damage, are all re-adjusted, and should be (hopefully) more balanced.
 however this also means we need to do a soft-reset on all players (meaning you keep your account and names, but stats and items are reset)
 #### Tutorial Markdowns
-1. Added basic tutorial markdown file, thanks to [Hildjj](https://github.com/hildjj)'s contribution! 
+1. Added basic tutorial markdown file, thanks to [Hildjj](https://github.com/hildjj) and [mr_moe](https://github.com/donburks)'s contribution! 
 2. markdown files open sourced at our Github page so if you wanna add anything, feel free to create a pull request :)
 #### Auto Update
 New client will show notification for player to update when there is a update available
