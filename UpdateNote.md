@@ -13,7 +13,10 @@ currently only tutorial and tips are available for community contribution, remem
 
 ## Recent Updates:
 
-### **2020/09/03 - v0.36**
+### **2020/09/03 - v0.37**
+ * update health display effect
+ * Show realtime player health in all battles
+ * Enemy Optimization
  * show realtime player health in dungeon
  * serverside optimization
 
