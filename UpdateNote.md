@@ -20,6 +20,7 @@ currently only tutorial and tips are available for community contribution, remem
  * now when enemy killed by other player, will auto refresh
 
 #### Misc 
+ * update markup style
  * update health display effect
  * Show realtime player health in all battles
  * Enemy Optimization
