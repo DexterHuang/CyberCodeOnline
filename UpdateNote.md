@@ -13,7 +13,11 @@ currently only tutorial and tips are available for community contribution, remem
 
 ## Recent Updates:
 
-### **2020/09/01 - v0.35**
+### **2020/09/03 - v0.36**
+ * show realtime player health in dungeon
+ * serverside optimization
+
+### **2020/09/02 - v0.35**
  * fix incorrect cache name
  
 ### **2020/09/01 - v0.28**
