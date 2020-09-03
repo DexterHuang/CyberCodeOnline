@@ -13,7 +13,13 @@ currently only tutorial and tips are available for community contribution, remem
 
 ## Recent Updates:
 
-### **2020/09/03 - v0.37**
+### **2020/09/03 - v0.38**
+## Realtime communication
+ * now able to see message when other player damages enemy you are fighting together
+ * now will recieve notification when item is sold in player market
+ * now when enemy killed by other player, will auto refresh
+
+## Misc 
  * update health display effect
  * Show realtime player health in all battles
  * Enemy Optimization
