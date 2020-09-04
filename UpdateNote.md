@@ -7,7 +7,7 @@
  * [mr_moe](https://github.com/donburks)
  * [hildjj](https://github.com/hildjj)
  * [Kimi Leta](https://github.com/kimileta)
- * [RubenVerg](https://gihtub.com/rubenverg) (well I fixed some typos)
+ * [RubenVerg](https://github.com/rubenverg) (well I fixed some typos)
  
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 Currently, only tutorial and tips are available for community contribution, remember to add your name in this doc when you create a PR : )
