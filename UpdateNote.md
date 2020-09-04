@@ -14,6 +14,8 @@ currently only tutorial and tips are available for community contribution, remem
 ## Recent Updates:
 
 ### **2020/09/04 - v0.40**
+ * (Buff) Incrase higher level health item crafted amount
+ * (Nerf) Decrease higher level ammo crafted amount
  * optimization
  
 ### **2020/09/03 - v0.38**
