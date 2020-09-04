@@ -13,6 +13,9 @@ currently only tutorial and tips are available for community contribution, remem
 
 ## Recent Updates:
 
+### **2020/09/04 - v0.40**
+ * optimization
+ 
 ### **2020/09/03 - v0.38**
 #### Realtime communication
  * now able to see message when other player damages enemy you are fighting together
