@@ -21,6 +21,8 @@ CyberCodeOnline is laid out like the popular code editor VSCode. On the left-han
 
 In the File Explorer, the left-hand column is where you will find various "files" that will open up on the right-hand side which allow you to access various parts of your character and the game. The default file is `Surrounding.ts` which describes your surroundings, wherever you are geographically in the game. It will have your location and current player status defined as variables. Below that, it will let you know if there are **Actions** you can do, if there are **Enemies** or **Allies** nearby, and where you can **Travel**.
 
+## Locations
+
 You start off in Shangri La, in the City Center. To leave the City Center, you're going to want to get on the **Subway**. Down at the bottom of the "file view" will be a function called `goToShangriLaSubwayStation()`. Clicking on this will "run" that function, taking you to the subway. From there, you can explore the various regions by going to different subway stations. 
 
 Here are the various areas and some information about each one.
@@ -77,7 +79,15 @@ Maybe the inmates want to play some sports. Maybe you should play whack-a-con. Y
 
 This is where the white collar criminals are locked up. Opponents here are the strongest in the prison, from levels 28 - 30. 
 
-## Your first fight!
+## Combat
+
+In every location, there are enemies you can fight. You'll see a list of Nearby Enemies, as well as multiple Dungeons you can enter.
+
+![Neaby enemies](resources/nearbyenemies.png)
+
+Click on any of the listed enemies to enter combat. Or, click on `scanNearbyEnemies` to refresh the list.
+
+The combat screen will show you how much health and shield you and your opponent both have, as well as the amount of ammo you have for each of your weapons and the approximate damage they can do.
 
 ## Types of resources
 
@@ -94,6 +104,7 @@ Your Special Weapon uses Energy Cells. You can find Energy Cells as drops after 
 Your Destructive Weapon uses Anti Matter Charges. You can find them as drops (less often than Energy Cells), or by crafting them from `militaryAmmunitionTechParts`.
 
 
+
 ## Equipment
 
 ## Molecular Printing
@@ -101,6 +112,8 @@ Your Destructive Weapon uses Anti Matter Charges. You can find them as drops (le
 In the City Center, there is the Molecular 3D Printer, which is going to become your best friend. It will be in the `nearby` section of the `Surrounding.ts` file when you are in Shangri La City Center. Clicking on it will open another "file view" where you will be shown what available recipes you have in your inventory. It costs bitcoin to print, so make sure you have enough. It will tell you when you hover over the recipe how much it will cost.
 
 Recipes are the objects in your inventory with the word `cache` in their name. For example `commonHelmetCache_x1` is an example of a recipe to print a Common helmet, and you only have one of them.
+
+![Caches Screenshot](resources/caches.png)
 
 In the Molecular Printer screen, you can hover over any of the recipes and click `Molecular Print` which will bring up a dialog if you have multiple items that are the same, asking how many you want to print.
 
