@@ -15,6 +15,7 @@ Currently, only tutorial and tips are available for community contribution, reme
 ## Recent Updates:
 
 ### **2020/09/04 - v0.40**
+ * fix crashing issue
  * fix average level calculation
  * (buff) increase higher level health item crafted amount
  * (nerf) decrease higher level ammo crafted amount optimization
