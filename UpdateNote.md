@@ -34,6 +34,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  #### Bot prevention update
  * You can now pass lock box (captcha) even when your inv is full
  * Added level cap at nearby enemy area, high level player cant use low level enemy to farm (cap with player level and average item level) 
+ 
+ #### Misc
+ * added description for exp memory and tech scrap
 
 ### **2020/09/04 - v0.46**
  * fix crashing issue
