@@ -21,6 +21,12 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 
 ### **2020/09/05 - v0.51**
+ #### Durability Update
+ * Only "nearby enemy" will cost durability, dungeon enemy is not affected
+ * Now all equipment has durability
+ * you can easily repaire all equipments in Weapon Smith with a little btc
+ * items that are broken will not contribute any stat
+ 
  #### Dungeon
  * all dungeons now drop ammo and ammo material
  * massively increase challenge dungeon loot and exp
