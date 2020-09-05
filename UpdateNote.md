@@ -21,6 +21,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 
 ### **2020/09/05 - v0.50**
+ #### Balancing
+ * Big buff to item stats (only affects new items)
+ * Nerf higher level enemies
+ 
  #### Bot prevention update
  * You can now pass lock box (captcha) even when your inv is full
  * Added level cap at nearby enemy area, high level player cant use low level enemy to farm (cap with player level and average item level) 
