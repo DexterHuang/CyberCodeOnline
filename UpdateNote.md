@@ -4,13 +4,18 @@
 **CyberCode Online** is currently under an early and heavy development stage, which means many changes and new features are being added every day! That also means many stats are being adjusted all the time. So, if you have anything to suggest, feel free to [create an issue](https://github.com/DexterHuang/CyberCodeOnline/issues), if it is good it will very likely end up in this list ;)
 
 ## Contributors: 
+ * [Kimi Leta](https://github.com/kimileta)
  * [mr_moe](https://github.com/donburks)
  * [hildjj](https://github.com/hildjj)
- * [Kimi Leta](https://github.com/kimileta)
- * [RubenVerg](https://github.com/rubenverg) (well I fixed some typos)
+ * [RubenVerg](https://github.com/rubenverg) 
  
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
-Currently, only tutorial and tips are available for community contribution, remember to add your name in this doc when you create a PR : )
+#### Need help: 
+ * Tips.md
+ * Tutorial.md
+ * Or anything you see we should add into the repo
+
+*remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates:
 
