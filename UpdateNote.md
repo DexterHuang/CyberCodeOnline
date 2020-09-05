@@ -20,7 +20,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ## Recent Updates:
 
 
-### **2020/09/05 - v0.50**
+### **2020/09/05 - v0.51**
  #### Dungeon
  * all dungeons now drop ammo and ammo material
  * massively increase challenge dungeon loot and exp
