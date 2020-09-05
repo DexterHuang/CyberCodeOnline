@@ -21,6 +21,12 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 
 ### **2020/09/05 - v0.50**
+ #### Dungeon
+ * all dungeons now drop ammo and ammo material
+ * massively increase challenge dungeon loot and exp
+ * increase challenge dungeon boss exp and btc
+ * dungeon invite message now include dungeon type
+ 
  #### Balancing
  * Big buff to item stats (only affects new items)
  * Nerf higher level enemies
