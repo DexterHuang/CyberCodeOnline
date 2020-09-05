@@ -20,7 +20,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ## Recent Updates:
 
 
-### **2020/09/05 - v0.51**
+### **2020/09/05 - v0.54**
  #### Durability Update
  * Only "nearby enemy" will cost durability, dungeon enemy is not affected
  * Now all equipment has durability
