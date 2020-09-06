@@ -20,6 +20,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ## Recent Updates:
 
 ### **2020/09/06 - v0.57**
+ * High level player can now join low level challenge dungeon, but cannot interact with anything
  * Dungeon display is slightly changed
  * chat termninal now resizable 🎉
  
