@@ -19,7 +19,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates:
 
-
+### **2020/09/06 - v0.57**
+ * chat termninal now resizable 🎉
+ 
 ### **2020/09/05 - v0.56**
  * durability has been buffed, now durability decreases much slower
  
