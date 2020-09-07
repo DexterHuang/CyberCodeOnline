@@ -20,6 +20,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ## Recent Updates:
 
 ### **2020/09/07 - v0.58**
+#### dungeon balance
+ * dungeon boss exp and loot is increased, dungeon small enemy exp is reduced
+
+#### misc
  * You now cannot join the same dungeon instance again after you have quit or died in that dungeon instance
  * Removed lootbox captcha
  * fix doing afk actions while inventory is full will cause action unable to complete issue
