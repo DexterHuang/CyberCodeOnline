@@ -21,6 +21,8 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ### **2020/09/07 - v0.58**
  * You now cannot join the same dungeon instance again after you have quit or died in that dungeon instance
+ * Removed lootbox captcha
+ * fix doing afk actions while inventory is full will cause action unable to complete issue
 
 ### **2020/09/06 - v0.57**
  * High level player can now join low level challenge dungeon, but cannot interact with anything
