@@ -20,7 +20,8 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ## Recent Updates:
 
 ### **2020/09/07 - v0.58**
-#### dungeon balance
+#### dungeon update
+ * you can now send invite even when you are in dungeon battle
  * dungeon boss exp and loot is increased, dungeon small enemy exp is reduced
 
 #### misc
