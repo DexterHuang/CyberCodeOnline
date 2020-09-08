@@ -23,6 +23,8 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * remove "join Dungeon" quest
  * added several dungeon related quests
  * updated UI to show instruction on hover
+ * only level 8 or above will receive dungeon quest
+ 
 #### Misc
  * Now health items can only be used in dungeon
  * Fix UI related issue
