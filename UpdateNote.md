@@ -18,7 +18,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates:
-
+### **2020/09/08 - v0.68**
+ * Fix shielded enemy damage calculation issue
+ 
 ### **2020/09/07 - v0.58**
 #### dungeon update
  * you can now send invite even when you are in dungeon battle
