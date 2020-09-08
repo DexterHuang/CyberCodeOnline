@@ -19,6 +19,8 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates:
 ### **2020/09/08 - v0.68**
+ * Now health items can only be used in dungeon
+ * Fix UI related issue
  * Fix shielded enemy damage calculation issue
  
 ### **2020/09/07 - v0.58**
