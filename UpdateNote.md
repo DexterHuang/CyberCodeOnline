@@ -20,7 +20,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ## Recent Updates:
 ### **2020/09/08 - v0.68**
 #### Quest Minor Update
- * Remvoed "join Dungeon" quest
+ * remove "join Dungeon" quest
  * added several dungeon related quests
  * updated UI to show instruction on hover
 #### Misc
