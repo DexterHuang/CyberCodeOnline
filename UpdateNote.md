@@ -19,6 +19,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates:
 ### **2020/09/08 - v0.68**
+#### Quest Minor Update
+ * Remvoed "join Dungeon" quest
+ * added several dungeon related quests
+ * updated UI to show instruction on hover
+#### Misc
  * Now health items can only be used in dungeon
  * Fix UI related issue
  * Fix shielded enemy damage calculation issue
