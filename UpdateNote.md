@@ -20,7 +20,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ## Recent Updates:
 ### **2020/09/08 - v0.73**
 #### Item update
- * Added a suit of healing items and their recipes
+ * Added a suit of healing items and their recipes (You can now heal your teammates in dungeon combat with those items)
  * Added ability to use area effect item, all item with area effect will apply the same effect to everyone in the same combat
  
 #### Bug fix
