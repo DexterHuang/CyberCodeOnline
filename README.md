@@ -2,7 +2,7 @@
 # CyberCodeOnline
 ![enter image description here](https://github.com/DexterHuang/CyberCodeOnline/raw/master/resources/logo-black.png)
 
-*CyberCode Online is a **browser MMORPG game** that is designed to **disguised as VS Code***
+*CyberCode Online is a **browser based MMORPG game** that is **disguised as VS Code***
 *where you click functions and variable in the ever changing source code to navigate your character in a Cyber Punk inspired world*
 
 it is meant to be played casually with many AFK leveling, Crafting, Procedural item/monster/dungeon generation mechanisms, and provides a platform for developers alike to chitchat and slack :)
