@@ -19,6 +19,8 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates:
+### **2020/09/11 - v0.79**
+* Attempt fix dungeon refuse to complete even when all enemies are killed (please let me know if you still face this issue) 
 
 ### **2020/09/10 - v0.77**
  * Dungeon now shows if dungeon is completed as a variable
