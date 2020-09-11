@@ -20,7 +20,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates:
 ### **2020/09/11 - v0.79**
-* Fix dungeon generates room but no way to get to the room issue
+* Fix dungeon generates room but no way to get to the room issue (Fixes dungeon unable to complete issue)
 
 ### **2020/09/10 - v0.77**
  * Dungeon now shows if dungeon is completed as a variable
