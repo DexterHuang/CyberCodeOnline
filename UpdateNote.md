@@ -19,6 +19,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates:
+### **2020/09/13 - v0.79**
+ * Market UI update, you can now view all items, and sort by item type
+
 ### **2020/09/11 - v0.79**
 * Fix dungeon generates room but no way to get to the room issue (Fixes dungeon unable to complete issue)
 
