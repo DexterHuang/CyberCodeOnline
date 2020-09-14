@@ -20,7 +20,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates:
 
-### **2020/09/14 - v0.84**
+### **2020/09/14 - v0.85**
  * Added sort functionality to player market
  * Now shows `My Stall` at player market, so you can easily manage your stall
  * remove unnecessary price tag in shop items
