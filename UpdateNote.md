@@ -27,7 +27,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * Added `Equipment Cache` category to market item filter
  * Now AFK actions repeat slider shows how long it will take in minutes or hours
  * You can now close tab using middle mouse button
- * Dungeon enemy and loot now have slight level variation, challenge dungone bigger variation
+ * Dungeon enemy and loot now have slight level variation, with challenge dungeons having more variance.
  * Fixed bug where you can interact with npc or shops even you have left the area
  * Fix printer shows wrong names for weapons
 
