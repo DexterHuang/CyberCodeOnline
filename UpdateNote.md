@@ -25,14 +25,14 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * Now shows `My Stall` at player market, so you can easily manage your stall
  * remove unnecessary price tag in shop items
  * Added `Equipment Cache` category to market item filter
-
-### **2020/09/13 - v0.79**
- * Market UI update, you can now view all items, and sort by item type
  * Now AFK actions repeat slider shows how long it will take in minutes or hours
  * You can now close tab using middle mouse button
  * Dungeon enemy and loot now have slight level variation, challenge dungone bigger variation
  * Fixed bug where you can interact with npc or shops even you have left the area
  * Fix printer shows wrong names for weapons
+
+### **2020/09/13 - v0.79**
+ * Market UI update, you can now view all items, and sort by item type
  
 ### **2020/09/11 - v0.79**
 * Fix dungeon generates room but no way to get to the room issue (Fixes dungeon unable to complete issue)
