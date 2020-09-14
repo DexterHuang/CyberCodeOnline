@@ -23,6 +23,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ### **2020/09/14 - v0.83**
  * Now shows `My Stall` at player market, so you can easily manage your stall
  * remove unnecessary price tag in shop items
+ * Added `Equipment Cache` category to market item filter
 
 ### **2020/09/13 - v0.79**
  * Market UI update, you can now view all items, and sort by item type
