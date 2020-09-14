@@ -9,6 +9,7 @@
  * [hildjj](https://github.com/hildjj)
  * [RubenVerg](https://github.com/rubenverg) 
  * [AdmiralDiemos](https://github.com/danofsatx)
+ * [Archibaald](https://github.com/Archibaald-dev) 
  
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 #### Need help: 
