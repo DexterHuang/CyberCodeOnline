@@ -21,6 +21,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates:
 ### **2020/09/16 - v0.87**
+ * Msic mobile web UI enhancement
  * Online player list now shows platform
  * Mobile version is mostly complete
 
