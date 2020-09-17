@@ -20,6 +20,14 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates:
+### **2020/09/17 - v0.90**
+#### NEW ITEM STATS
+ * Stun Chance: Chance of you stunning your enemy when dealing damage, 
+    causing them not able to respond to your attack
+ * Evade: Chance of you dodging enemy's attack
+ * Bargain: Influence on the price you buy and sell from stores and npc
+ * Added crit chance and crit damag back to upgrade modules
+ 
 ### **2020/09/16 - v0.87**
  * Msic mobile web UI enhancement
  * Online player list now shows platform
