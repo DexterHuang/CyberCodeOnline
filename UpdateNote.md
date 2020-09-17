@@ -21,7 +21,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates:
 ### **2020/09/17 - v0.90**
- * Added repaire to mobile weapons smith
+ * Added (missing) repair function to the mobile weaponsmith
 #### NEW ITEM STATS
  * Stun Chance: Chance of you stunning your enemy when dealing damage, 
     causing them not able to respond to your attack
