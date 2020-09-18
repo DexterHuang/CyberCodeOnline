@@ -21,6 +21,8 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates:
 ### **2020/09/18 - v0.94**
+ * Armor and upgrades have chance to drop with `Pocket` stat, increases inventory slot
+ * Fix mobile UI issue
  * Fixed mobile ios chat page keyboard layout issue
  * Fix mobile my stall page showing incorrect price issue
  
