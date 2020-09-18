@@ -20,6 +20,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates:
+### **2020/09/18 - v0.94**
+ * Fixed mobile ios chat page keyboard layout issue
+ * Fix mobile my stall page showing incorrect price issue
+ 
 ### **2020/09/17 - v0.90**
  * Now when item is sold in player market, seller player will recieve email from system as notification 
  * Added (missing) repair function to the mobile weaponsmith
