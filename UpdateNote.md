@@ -20,6 +20,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates:
+### **2020/09/20 - v0.96**
+ * Added notification support
+ 
 ### **2020/09/18 - v0.94**
  * Mobile now can modify item upgrades and see item durability
  * Armor and upgrades have chance to drop with `Pocket` stat, increases inventory slot
