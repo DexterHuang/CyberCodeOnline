@@ -21,6 +21,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates:
 ### **2020/09/21 - v0.99**
+ * Added quick use item button on mobile battle UI
  * fix notification not showing correctly sometimes
  * fix notification displaying wrong message
  * Fix issue with item max stack amount
