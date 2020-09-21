@@ -20,7 +20,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates:
-### **2020/09/21 - v0.96**
+### **2020/09/21 - v0.99**
+ * fix notification not showing correctly sometimes
+ * fix notification displaying wrong message
+ * Fix issue with item max stack amount
  * Now item detail shows upgrades and base values
  * Fix mobile issue
  
