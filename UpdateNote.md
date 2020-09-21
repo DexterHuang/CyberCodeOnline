@@ -21,6 +21,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates:
 ### **2020/09/21 - v0.96**
+ * Now item detail shows upgrades and base values
  * Fix mobile issue
  
 ### **2020/09/20 - v0.96**
