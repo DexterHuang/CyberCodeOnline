@@ -22,6 +22,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ## Recent Updates:
 
 ### **2020/09/22 - v0.102**
+ * Fix minor crafting bug
  * Added bitcoin display on mobile, in inventory page and Me page
  * Show list of secret key in mobile inventory page
  
