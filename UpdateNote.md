@@ -20,6 +20,8 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates:
+### **2020/09/23 - v0.103**
+ * Added reward video to mobile version
 
 ### **2020/09/22 - v0.102**
  * Fix minor crafting bug
