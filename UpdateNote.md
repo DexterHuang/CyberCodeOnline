@@ -20,7 +20,12 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates:
-### **2020/09/23 - v0.103**
+### **2020/09/23 - v0.104**
+#### Auto Farm
+ * Added `AI Core` item, can be obtained in dungeon loot room, or rarely drop from enemies
+ * Added AFK farming to all zones, consumes 1 AI Core per 15 min
+ 
+#### Mobile
  * Added reward video to mobile version
 
 ### **2020/09/22 - v0.102**
