@@ -23,7 +23,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ### **2020/09/23 - v0.104**
 #### Auto Farm
  * Added `AI Core` item, can be obtained in dungeon loot room, or rarely drop from enemies
- * Added AFK farming to all zones, consumes 1 AI Core per 15 min
+ * Added AFK farming to all zones, consumes 1 AI Core per 15 min, this gets you exp, bitcon and items just like as if you have killed many enemies
  
 #### Mobile
  * Added reward video to mobile version
