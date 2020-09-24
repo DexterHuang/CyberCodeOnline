@@ -21,6 +21,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates:
 ### **2020/09/24 - v0.106**
+ * Now when you mention someone, they will get a notification if you they have accepted to recieve notifications
  * 👏Added mention feature on desktop chat use `@playerName` syntax to include other player's name, 
   player must be online (it is expected you see markup syntax in your input)
  * Fix mobile skip AFK time feature
