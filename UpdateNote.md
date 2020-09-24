@@ -22,6 +22,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ## Recent Updates:
 ### **2020/09/24 - v0.106**
  * Fix mobile skip AFK time feature
+ * You can now sell and see `AI Core` in player market with `Materials` filter
  
 ### **2020/09/23 - v0.104**
 #### Auto Farm
