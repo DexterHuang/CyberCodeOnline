@@ -20,6 +20,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates:
+### **2020/09/24 - v0.106**
+ * Fix mobile skip AFK time feature
+ 
 ### **2020/09/23 - v0.104**
 #### Auto Farm
  * Added `AI Core` item, can be obtained in dungeon loot room, or rarely drop from enemies
