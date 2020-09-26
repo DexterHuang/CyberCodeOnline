@@ -22,7 +22,8 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ## Recent Updates:
 
 ### **2020/09/26 - v0.112**
- * *Now you can see yourself and other players in dungeon, in realtime*
+ * 🎉 Now you can see yourself and other players in dungeon, in realtime
+ * 🎉 You can now skip quest on mobile version by watching AD
  * Multiple bug fixes :)
  
 
