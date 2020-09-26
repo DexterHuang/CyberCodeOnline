@@ -20,6 +20,12 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates:
+
+### **2020/09/26 - v0.112**
+ * *Now you can see yourself and other players in dungeon, in realtime*
+ * Multiple bug fixes :)
+ 
+
 ### **2020/09/24 - v0.106**
  * Now when you mention someone, they will get a notification if you they have accepted to recieve notifications
  * 👏Added mention feature on desktop chat use `@playerName` syntax to include other player's name, 
