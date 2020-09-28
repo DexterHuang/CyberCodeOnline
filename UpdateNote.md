@@ -23,6 +23,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ## Recent Updates:
 
 ### **2020/09/29 - v0.118**
+ * Added more obvious effect to claim quest button, so you will notice it easier
  * Added more tutorial for Desktop UI
  * Mobile now shows small circle badge when there is unread global chat
  * Added some tutorial popups
