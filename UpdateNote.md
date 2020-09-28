@@ -23,6 +23,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ## Recent Updates:
 
 ### **2020/09/29 - v0.118**
+ * Mobile now shows small circle badge when there is unread global chat
  * Added some tutorial popups
  * Mention system enhancement, you can press 'Tab' to complete, press 'Escape' to close popup
  * Added profanity filters to player name and chat
