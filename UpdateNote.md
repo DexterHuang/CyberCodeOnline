@@ -22,6 +22,13 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates:
 ### **2020/09/29 - v0.123**
+#### Bitcoin Mining
+ * Added `Hash Processor`, can be obtained in dungeon and rarely droped by enemy
+ * Added Bitcoin Mining job in `[JOB HUB]`, costs `Hash Processor` but gets doubled amount of Bitcoin compares to `AI Core` auto farm
+ 
+#### Misc
+ * Increase Late game printing price
+ * Extra info on repeatable action, now shows the amount of comsumable (eg AI Core, Tech Scrap) needed to start action base of repeat amount
  * Added number input for all number selecting modal, (selling, selecting job repeating amount)
  * Added a prompt before selling Rare and above items to shop, preventing accidentally sold to npc 
  * Added more instruction on reverse engineering on Tech Scrap
