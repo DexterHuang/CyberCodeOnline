@@ -22,6 +22,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates:
 ### **2020/09/29 - v0.123**
+ * Added Tips display at buttom bar (*Please help contrubute to Tip.md*)
 #### Bitcoin Mining
  * Added `Hash Processor`, can be obtained in dungeon and rarely droped by enemy
  * Added Bitcoin Mining job in `[JOB HUB]`, costs `Hash Processor` but gets doubled amount of Bitcoin compares to `AI Core` auto farm
