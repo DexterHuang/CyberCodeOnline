@@ -21,8 +21,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates:
+### **2020/09/29 - v0.123**
+ * Added more instruction on reverse engineering on Tech Scrap
 
-### **2020/09/29 - v0.118**
+### **2020/09/28 - v0.118**
  * add more tutorial
  * Fix player shield not regen bug
  * prevent player stack on top of enemeis in dungeon
