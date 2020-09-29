@@ -22,6 +22,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates:
 ### **2020/09/29 - v0.125**
+ * Added mention to mobile version
  * Added Tips display at buttom bar (*Please help contrubute to Tip.md*)
  * Updated markdown display in game
 #### Bitcoin Mining
