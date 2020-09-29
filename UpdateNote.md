@@ -22,6 +22,8 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates:
 ### **2020/09/29 - v0.123**
+ * Added number input for all number selecting modal, (selling, selecting job repeating amount)
+ * Added a prompt before selling Rare and above items to shop, preventing accidentally sold to npc 
  * Added more instruction on reverse engineering on Tech Scrap
 
 ### **2020/09/28 - v0.118**
