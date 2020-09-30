@@ -23,7 +23,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ## Recent Updates:
 
 ### **2020/09/30 - v0.128**
- * You can now long press to take multiple item from enemy loot after combat
+ * You can now long press on mobile to take multiple item from enemy loot after combat
  * You can now long press on mobile inventory to select multiple items to destory/scrap
  * Added sort by name in player market, so it is easier to find items
  
