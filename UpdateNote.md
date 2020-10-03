@@ -21,6 +21,8 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates:
+### **2020/10/03 - v0.134**
+ * Added pull to refresh on mobile `Area` tab, it syncs your data with server
 
 ### **2020/09/30 - v0.128**
  * major update design on mobile
