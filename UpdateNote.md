@@ -22,6 +22,8 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates
 ### **2020/10/04 - v0.134**
+ * You can now view player details on mobile
+ * You can now join dungeon by clicking link on mobile
  * Added multi select for desktop version on inventory to take and scrap all selected item at once 
  * Normal dungeon now also have level restriction, High level player are allowed to join but not interact with objects
  
