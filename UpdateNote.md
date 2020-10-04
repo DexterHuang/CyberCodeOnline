@@ -23,7 +23,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ## Recent Updates
 ### **2020/10/04 - v0.134**
  * Added multi select for desktop version on inventory to take and scrap all selected item at once 
- * Normal dungeon now also have level restriction, player are allowed to join but not interact with objects
+ * Normal dungeon now also have level restriction, High level player are allowed to join but not interact with objects
  
 ### **2020/10/03 - v0.134**
  * Added pull to refresh on mobile `Area` tab, it syncs your data with server
