@@ -22,6 +22,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates
 ### **2020/10/04 - v0.134**
+ * Fixed a bug where it prevents quality to take effect correctly and prevents some best stat to be droped 
  * Minor mobile UI adjustment
  * Updated mobile tutorial ui
  * You can now view player details on mobile
