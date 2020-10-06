@@ -21,6 +21,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates
+### **2020/10/04 - v0.138**
+ * Added new questing system, for now I only added one quest for new players 
+ 
 ### **2020/10/04 - v0.134**
  * Fixed a bug where it prevents quality to take effect correctly and prevents some best stat to be droped 
  * Minor mobile UI adjustment
