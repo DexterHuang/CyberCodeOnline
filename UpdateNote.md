@@ -21,6 +21,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates
+### **2020/10/08 - v0.141**
+ * Added one more quest for new player
+ * now quest pannel is scrollable
+ * Added description for quests
+ 
 ### **2020/10/06 - v0.138**
  * Remove 'god' and 'damn' from banned word list
  * Added new questing system, for now I only added one quest for new players 
