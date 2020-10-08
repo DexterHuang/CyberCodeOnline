@@ -22,6 +22,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates
 ### **2020/10/08 - v0.141**
+ * Fix issue with ad
  * Fixed sheild damage calculation error
  * Added one more quest for new player
  * now quest pannel is scrollable
