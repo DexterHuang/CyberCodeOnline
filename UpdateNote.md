@@ -25,6 +25,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * Added procedurally generated quest to dungeons, quest npc has certain chance to appear in dungeons, denoted with `?` symbol, you can choose to accept or reject the quest from npc, when quest is completed, you will get item and exp as reward
  * Mobile back button issue is fixed
  * Mobile popup modal (the card) can be dismissed with back button now
+ * Hide location if level is too high relative to player to avoid confusing new players
  
 ### **2020/10/08 - v0.141**
  * Fix issue with ad
