@@ -21,6 +21,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates
+### **2020/10/11 - v0.144**
+ * Added procedurally generated quest to dungeons, quest npc has certain chance to appear in dungeons, denoted with `?` symbol, you can choose to accept or reject the quest from npc, when quest is completed, you will get item and exp as reward
+ * Mobile back button issue is fixed
+ * Mobile popup modal (the card) can be dismissed with back button now
+ 
 ### **2020/10/08 - v0.141**
  * Fix issue with ad
  * Fixed sheild damage calculation error
