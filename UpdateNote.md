@@ -24,6 +24,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ### **2020/10/11 - v0.148**
  * Now player name tags shows what platform they are on
+ * Add discord and github link on mobile stat page
  
 ### **2020/10/11 - v0.144**
  * Added procedurally generated quest to dungeons, quest npc has certain chance to appear in dungeons, denoted with `?` symbol, you can choose to accept or reject the quest from npc, when quest is completed, you will get item and exp as reward
