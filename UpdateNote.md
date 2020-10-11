@@ -28,6 +28,8 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * Mobile back button issue is fixed
  * Mobile popup modal (the card) can be dismissed with back button now
  * Hide location if level is too high relative to player to avoid confusing new players
+ * Mobile item detail page now shows the item slot type
+ * mobile battle ui now shows remaining ammo amount
  
 ### **2020/10/08 - v0.141**
  * Fix issue with ad
