@@ -14,9 +14,9 @@
  
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 #### Need help: 
+ * ContributeContent.md <== really need help with this, specially if you are good at creative wording and stuff :)
  * Tips.md
  * Tutorial.md
- * Or anything you see we should add into the repo
 
 *remember to add your name in this doc when you create a PR : )*
 
