@@ -23,6 +23,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ## Recent Updates
 
 ### **2020/10/11 - v0.148**
+ * Fixed first time login redirection issue
  * Fixed new player crashing issue
  * Now player name tags shows what platform they are on
  * Add discord and github link on mobile stat page
