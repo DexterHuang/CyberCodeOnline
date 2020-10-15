@@ -27,7 +27,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * Changed how enemy name is displayed on mobile
  * Minor adjustment for mobile battle ui
  
-### **2020/10/11 - v0.148**
+### **2020/10/15 - v0.148**
  * Fixed mobile exisiting user login page broken issue
  * Fixed first time login redirection issue
  * Fixed new player crashing issue
