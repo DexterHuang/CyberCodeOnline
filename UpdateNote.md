@@ -24,6 +24,8 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ### **2020/10/16 - v0.154**
  * Added mail to mobile
  * complete rewrite of email system
+ * Changed how enemy name is displayed on mobile
+ * Minor adjustment for mobile battle ui
  
 ### **2020/10/11 - v0.148**
  * Fixed mobile exisiting user login page broken issue
