@@ -22,6 +22,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates
 ### **2020/10/16 - v0.154**
+ * You can now send direct message to player from their detail page
  * Added mail to mobile
  * complete rewrite of email system
  * Changed how enemy name is displayed on mobile
