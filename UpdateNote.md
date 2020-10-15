@@ -21,7 +21,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates
-
+### **2020/10/16 - v0.154**
+ * Added mail to mobile
+ * complete rewrite of email system
+ 
 ### **2020/10/11 - v0.148**
  * Fixed mobile exisiting user login page broken issue
  * Fixed first time login redirection issue
