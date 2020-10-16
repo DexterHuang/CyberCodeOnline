@@ -21,6 +21,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates
+### **2020/10/17 - v0.156**
+ * Fixes huge bug where it prevents new player from registering (SAD)
+ * Fiex mail related issue
+ * fiex message player button on desktop
+
 ### **2020/10/16 - v0.154**
  * You can now send direct message to player from their detail page
  * Added mail to mobile
