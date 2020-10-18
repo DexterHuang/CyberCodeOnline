@@ -22,6 +22,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates
 ### **2020/10/18 - v0.157**
+ * Fix pull to refresh on mobile
  * Hot fixes for bugs intoduced by previous update
  * Update texts in contributeContent, thanks to [Kimi Leta](https://github.com/kimileta), 
  next time someone update it please help me rename it to contribute_content.json haha
