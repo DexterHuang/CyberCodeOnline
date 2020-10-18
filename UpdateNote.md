@@ -22,6 +22,8 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates
 ### **2020/10/18 - v0.157**
+ * Update texts in contributeContent, thanks to [Kimi Leta](https://github.com/kimileta), 
+ next time someone update it please help me rename it to contribute_content.json haha
  * Major optimization aming to reduce mobile load time
  
 ### **2020/10/17 - v0.156**
