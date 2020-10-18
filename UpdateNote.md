@@ -21,6 +21,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates
+### **2020/10/18 - v0.157**
+ * Major optimization aming to reduce mobile load time
+ 
 ### **2020/10/17 - v0.156**
  * Fixes huge bug where it prevents new player from registering (SAD)
  * Fiex mail related issue
