@@ -21,6 +21,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates
+### **2020/10/19 - v0.167**
+ * Added more clear description for AFK action reward on mobile
+ 
 ### **2020/10/18 - v0.157**
  * Fix pull to refresh on mobile
  * Hot fixes for bugs intoduced by previous update
