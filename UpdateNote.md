@@ -4,6 +4,8 @@
 **CyberCode Online** is currently under an early and heavy development stage, which means many changes and new features are being added every day! That also means many stats are being adjusted all the time. So, if you have anything to suggest, feel free to [create an issue](https://github.com/DexterHuang/CyberCodeOnline/issues), if it is good it will very likely end up in this list ;)
 
 ## Contributors: 
+ * [Arky](https://www.instagram.com/andreiarky)
+ * [levi middleton](https://github.com/levi-middleton)
  * [Kimi Leta](https://github.com/kimileta)
  * [mr_moe](https://github.com/donburks)
  * [hildjj](https://github.com/hildjj)
