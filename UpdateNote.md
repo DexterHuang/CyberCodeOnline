@@ -22,6 +22,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates
 ### **2020/10/19 - v0.167**
+ * Added new Inventory Icon on mobile thanks to [Arky](https://www.instagram.com/andreiarky)
  * Improve bug splash report screen
  * Added more clear description for AFK action reward on mobile
  
