@@ -16,7 +16,7 @@
  
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 #### Need help: 
- * ContributeContent.md <== really need help with this, specially if you are good at creative wording and stuff :)
+ * ContributeContent.json <== really need help with this, specially if you are good at creative wording and stuff :)
  * Tips.md
  * Tutorial.md
 
@@ -24,6 +24,8 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates
 ### **2020/10/19 - v0.167**
+ * open equipment names to contribution; you may make a PR to ContributeContent.json to add more names for equipments
+ * Added many new NPC scripts thanks to [levi middleton](https://github.com/levi-middleton)'s contribution to ContributeContent.json
  * Added new Inventory Icon on mobile thanks to [Arky](https://www.instagram.com/andreiarky)
  * Improve bug splash report screen
  * Added more clear description for AFK action reward on mobile
