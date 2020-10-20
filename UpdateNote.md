@@ -23,6 +23,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates
+### **2020/10/20 - v0.168**
+ * Shows stats cap at mobile player details
+ * fix security related issue 
+
 ### **2020/10/19 - v0.167**
  * open equipment names to contribution; you may make a PR to ContributeContent.json to add more names for equipments
  * Added many new NPC scripts thanks to [levi middleton](https://github.com/levi-middleton)'s contribution to ContributeContent.json
