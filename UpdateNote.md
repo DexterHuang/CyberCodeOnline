@@ -23,6 +23,14 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates
+### **2020/10/22 - v0.173**
+ * Added background music
+ * Modified mobile Area tab interface (shows player name, level and exp)
+ * Added some new tutorial on mobile
+ * Fix dungeon navigation bug
+ * Fix dungeon loading dark screen
+ * Fix stuck in dungeon issue
+ 
 ### **2020/10/20 - v0.168**
  * Shows stats cap at mobile player details
  * fix security related issue 
