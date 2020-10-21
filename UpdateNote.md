@@ -30,6 +30,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * Fix dungeon navigation bug
  * Fix dungeon loading dark screen
  * Fix stuck in dungeon issue
+ * Fix music doesnt stop when app is hidden
  
 ### **2020/10/20 - v0.168**
  * Shows stats cap at mobile player details
