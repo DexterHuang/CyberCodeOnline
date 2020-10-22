@@ -23,7 +23,12 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates
-### **2020/10/22 - v0.173**
+### **2020/10/22 - v0.178**
+ * Added level gate to job hub and player market to avoid confusing new players with too many options
+ * display health in dungeon
+ * minor UI adjustments
+ 
+### **2020/10/21 - v0.173**
  * Added background music
  * Modified mobile Area tab interface (shows player name, level and exp)
  * Added some new tutorial on mobile
