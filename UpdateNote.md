@@ -4,6 +4,7 @@
 **CyberCode Online** is currently under an early and heavy development stage, which means many changes and new features are being added every day! That also means many stats are being adjusted all the time. So, if you have anything to suggest, feel free to [create an issue](https://github.com/DexterHuang/CyberCodeOnline/issues), if it is good it will very likely end up in this list ;)
 
 ## Contributors: 
+ * [l33t4ng3l](https://github.com/tinamilford)
  * [Arky](https://www.instagram.com/andreiarky)
  * [levi middleton](https://github.com/levi-middleton)
  * [Kimi Leta](https://github.com/kimileta)
@@ -24,6 +25,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates
 ### **2020/10/22 - v0.178**
+ * Added even more names to equipments thanks to [l33t4ng3l](https://github.com/tinamilford)'s contribution to ContributeContent.json
  * Added mutilple new names to location and equipments thanks to [Kimi Leta](https://github.com/kimileta)'s contribution to ContributeContent.json
  * Added level gate to job hub and player market to avoid confusing new players with too many options
  * display health in dungeon
