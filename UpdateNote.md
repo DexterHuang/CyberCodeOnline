@@ -24,6 +24,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates
 ### **2020/10/22 - v0.178**
+ * Added mutilple new names to location and equipments thanks to [Kimi Leta](https://github.com/kimileta)'s contribution to ContributeContent.json
  * Added level gate to job hub and player market to avoid confusing new players with too many options
  * display health in dungeon
  * minor UI adjustments
