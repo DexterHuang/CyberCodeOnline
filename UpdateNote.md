@@ -26,6 +26,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ## Recent Updates
 
 ### **2020/10/23 - v0.178**
+ * Boss names are now contributable content :)
  * Removed combat notification, as it is annoying 
  * You can now swipe left and right on chat and inventory to switch view
  * Updated descriptions for actions like travel and scavenge, hopfully is clearer
