@@ -24,6 +24,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates
+
+### **2020/10/23 - v0.178**
+ * Updated descriptions for actions like travel and scavenge, hopfully is clearer
+ * change travel details to darker color on mobile
+ 
 ### **2020/10/22 - v0.178**
  * Added even more names to equipments thanks to [l33t4ng3l](https://github.com/tinamilford)'s contribution to ContributeContent.json
  * Added mutilple new names to location and equipments thanks to [Kimi Leta](https://github.com/kimileta)'s contribution to ContributeContent.json
