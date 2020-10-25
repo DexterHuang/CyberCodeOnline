@@ -25,6 +25,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates
 ### **2020/10/25 - v0.184**
+ * mobile you can now see other player's name in dungeon
  * Added Update note to mobile (at `Me` tab)
  * Added Tutorial to mobile (at `Me` tab)
  
