@@ -24,7 +24,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates
-
+### **2020/10/25 - v0.184**
+ * Added Update note to mobile (at `Me` tab)
+ * Added Tutorial to mobile (at `Me` tab)
+ 
 ### **2020/10/23 - v0.178**
  * Boss names are now contributable content :)
  * Removed combat notification, as it is annoying 
