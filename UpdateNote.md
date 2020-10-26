@@ -24,6 +24,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates
+### **2020/10/27 - v0.187**
+ * New global chat UI on mobile :)
+ 
 ### **2020/10/25 - v0.184**
  * mobile you can now see other player's name in dungeon
  * Added Update note to mobile (at `Me` tab)
