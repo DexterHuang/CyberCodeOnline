@@ -25,6 +25,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates
 ### **2020/10/27 - v0.187**
+ * Major Optimization, player who experience lag during page change should see some improvement
  * New global chat UI on mobile :)
  
 ### **2020/10/25 - v0.184**
