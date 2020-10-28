@@ -24,6 +24,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates
+
+### **2020/10/28 - v0.194**
+ * update item details ui on mobile
+ 
 ### **2020/10/27 - v0.187**
  * fix caching issue with audio 
  * Fix issue with chat display
