@@ -26,6 +26,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ## Recent Updates
 
 ### **2020/10/28 - v0.194**
+ * Items are now shorted in NPC shop
  * update item details ui on mobile, now stat compared to equipped item is showing in details
  
 ### **2020/10/27 - v0.187**
