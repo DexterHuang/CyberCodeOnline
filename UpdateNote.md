@@ -24,7 +24,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates
-
+### **2020/10/30 - v0.194**
+ * Fix compability issue with order devices
+ * Added contributed names to ContributeContent.json by [l33t4ng3l](https://github.com/tinamilford) and [Kimi Leta](https://github.com/kimileta)
 ### **2020/10/28 - v0.194**
  * Items are now shorted in NPC shop
  * update item details ui on mobile, now stat compared to equipped item is showing in details
