@@ -25,6 +25,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates
 ### **2020/11/01 - v0.196**
+ * You can now long press to select multiple item and sell them in NPC store (mobile)
  * Added category selection to mobile inventory display :)
  
 ### **2020/10/30 - v0.194**
