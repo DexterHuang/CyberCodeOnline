@@ -25,6 +25,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates
 ### **2020/11/05 - v0.199**
+ * Your bitcoins now shows on several pages, such as market and NPC interaction page (Mobile)
  * Market item now will exipre in 7 days and automatically return to you
  * Added item inbox, use to store item send to you by system and future gifting system
 
