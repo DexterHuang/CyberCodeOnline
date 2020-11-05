@@ -24,6 +24,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates
+### **2020/11/05 - v0.199**
+ * Market item now will exipre in 7 days and automatically return to you
+ * Added item inbox, use to store item send to you by system and future gifting system
+
 ### **2020/11/01 - v0.196**
  * Added several new icons for inventory UI created by [Arky](https://www.instagram.com/andreiarky)!
  * You can now long press to select multiple item and sell them in NPC store (mobile)
