@@ -14,8 +14,10 @@
  * [AdmiralDiemos](https://github.com/danofsatx)
  * [Archibaald](https://github.com/Archibaald-dev)
  * [Blackstormx](https://github.com/blackstormx)
+ * [s3rvant](https://github.com/s3rvant)
 
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
+
 #### Need help:
  * ContributeContent.json <-- really need help with this, specially if you are good at creative wording and stuff :)
  * Tips.txt
@@ -26,6 +28,10 @@ For those new to Git please see the tutorial series by Digital Ocean: [An Introd
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates
+### **2020/11/08 - v0.201**
+ * You can now send gift (items) to players by clicking the send gift button in player details
+ * Fix issue with displaying tips on web
+ 
 ### **2020/11/05 - v0.199**
  * Your bitcoins now shows on several pages, such as market and NPC interaction page (Mobile)
  * Market item now will exipre in 7 days and automatically return to you
