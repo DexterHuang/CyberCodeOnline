@@ -27,6 +27,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ## Recent Updates
 ### **2020/11/08 - v0.201**
  * You can now send gift (items) to players by clicking the send gift button in player details
+ * Fix issue with displaying tips on web
  
 ### **2020/11/05 - v0.199**
  * Your bitcoins now shows on several pages, such as market and NPC interaction page (Mobile)
