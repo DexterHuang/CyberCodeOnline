@@ -25,6 +25,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates
+### **2020/11/09 - v0.202**
+ * Fix item inbox issue
+ * added bank bunker, you can now store items in bank
+
 ### **2020/11/08 - v0.201**
  * You can now send gift (items) to players by clicking the send gift button in player details
  * Fix issue with displaying tips on web
