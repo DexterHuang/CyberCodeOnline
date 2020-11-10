@@ -18,9 +18,9 @@
 
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 #### Need help:
- * ContributeContent.json <== really need help with this, specially if you are good at creative wording and stuff :)
+ * ContributeContent.json <-- really need help with this, specially if you are good at creative wording and stuff :)
  * Tips.md
- * Tutorial.md
+ * Tutorial.md <-- now replaced with separate files in tutorial folder
 
 *remember to add your name in this doc when you create a PR : )*
 
@@ -30,7 +30,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * Max level is open till 160
  * Rebalance on ammo crafting and scavange
  * fix issue with bank price
- 
+
 ### **2020/11/09 - v0.202**
  * Fix item inbox issue
  * added bank bunker, you can now store items in bank
@@ -38,7 +38,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ### **2020/11/08 - v0.201**
  * You can now send gift (items) to players by clicking the send gift button in player details
  * Fix issue with displaying tips on web
- 
+
 ### **2020/11/05 - v0.199**
  * Your bitcoins now shows on several pages, such as market and NPC interaction page (Mobile)
  * Market item now will exipre in 7 days and automatically return to you
