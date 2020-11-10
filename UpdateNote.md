@@ -26,6 +26,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates
 ### **2020/11/09 - v0.202**
+ * Adjust bank storage price
  * Max level is open till 160
  * Rebalance on ammo crafting and scavange
  * fix issue with bank price
