@@ -26,6 +26,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates
 ### **2020/11/09 - v0.202**
+ * Rebalance on ammo crafting and scavange
+ * fix issue with bank price
+ 
+### **2020/11/09 - v0.202**
  * Fix item inbox issue
  * added bank bunker, you can now store items in bank
 
