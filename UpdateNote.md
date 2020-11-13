@@ -25,6 +25,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates
+### **2020/11/13 - v0.206**
+ * New UI design for action card (mobile)
+ 
 ### **2020/11/09 - v0.202**
  * Adjust bank storage price, now one slot is 1000 btc regardless of item
  * Max level is open till 160
