@@ -25,6 +25,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates
+### **2020/11/14 - v0.208**
+ * Added new tutorial for web thanks to [s3rvant](https://github.com/s3rvant)'s contribution!
+ * Ads are back on mobile
+ * added indication of if whatching ads is available on map page header as `TIME SKIP READY`, so you know time skip is available
 ### **2020/11/13 - v0.206**
  * New UI design for action card (mobile)
  
