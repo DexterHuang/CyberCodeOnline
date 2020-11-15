@@ -2,17 +2,27 @@
 
 *Plan to detail the city, what's available (printing, player market, etc.) and how/where to travel from here.*
 
+<br />
+
 You start off in Shangri La, in the City Center. To leave the City Center, you're going to want to get on the **Subway**. Down at the bottom of the "file view" will be a function called `goToShangriLaSubwayStation()`. Clicking on this will "run" that function, taking you to the subway. From there, you can explore the various regions by going to different subway stations.
 
+<br />
+
 Here are the various areas and some information about each one.
+
+<br />
 
 ### Shangri La City Center
 
 This is the main hub, or home, to which you will often return. This is where you will respawn when you die, and where you will come back to when you need to get ready for your next run. This is where the Molecular Printer, the Weaponsmith are, and where you can train your printing skill and reverse engineer any tech scraps you have.
 
+<br />
+
 ### Shangri La Outskirts
 
 This is the rural area of Shangri La City, a place where crime and low-life gangs rule the region. This is where you will do your first battles, and is contains opponents up to level 10. There are three areas within the Outskirts.
+
+<br />
 
 **Shangri La Slums**\
 This is the entrance to the slum and ghetto areas. This is where the lowest-level scum can be found, between levels 1 - 3.
@@ -23,9 +33,13 @@ A bit harder than the entrance to the slums, this area has enemies from levels 4
 **Underground Sewer**\
 This is a really gross area, and has opponents level 8 - 10. These are the hardest opponents in the Outskirts.
 
+<br />
+
 ### Minoham Station
 
 This is the industrial area of Shangri La city, and is where you will find the old E-Crop Automaton factory. This area is good if you are wanting to fight opponents from levels 11 - 20. You can enter the lobby of the factory and choose which area of the sprawling building to explore.
+
+<br />
 
 **Security Office**\
 This used to be offices where automaton factory employees worked, but now it is overrun with random automatons that have been left behind. Here you will find robots levels 11 - 13.
@@ -39,6 +53,8 @@ This is where all the automatons used to be assembled. This is where the stronge
 ### Chihiroi Station
 
 Chihiroi Station takes you out to where the Federal Prison is. This is a great area if you are looking for much harder enemies, levels 20 - 30. From here, you can enter the Federal Prison and explore the areas there, deciding what kind of "justice" you're going to dispense.
+
+<br />
 
 **Perimeter**\
 The outer ring of the prison, opponents here are milling about, waiting to be brought to justice. They are level 20 - 23.
