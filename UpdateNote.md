@@ -25,6 +25,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates
+### **2020/11/17 - v0.210**
+ * Added combat log to combat UI on mobile
+ 
 ### **2020/11/14 - v0.208**
  * Added new tutorial for web thanks to [s3rvant](https://github.com/s3rvant)'s contribution!
  * Ads are back on mobile
