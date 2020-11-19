@@ -25,6 +25,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates
+### **2020/11/19 - v0.212**
+ * Reduced storage price
+ 
 ### **2020/11/18 - v0.211**
  * Added haptic feeback (vibration) when atacking on mobile 
  
