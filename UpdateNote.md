@@ -25,6 +25,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates
+### **2020/11/21 - v0.213**
+ * increase medical tech part earn from from scavange by 3 time
+ * increase medical tech part earn at lower level 
+ 
 ### **2020/11/19 - v0.212**
  * Reduced storage price
  
