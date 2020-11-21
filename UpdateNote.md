@@ -26,6 +26,8 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates
 ### **2020/11/21 - v0.213**
+ * You can now gain status effect by completing quest from dungeon
+ * Status effect for enemies added
  * increase medical tech part earn from from scavange by 3 time
  * increase medical tech part earn at lower level 
  
