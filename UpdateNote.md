@@ -25,6 +25,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates
+### **2020/11/25 - v0.213**
+ * 🎊🎊🎊🎊IOS Version available now!🎊🎊🎊🎊
+ 
 ### **2020/11/21 - v0.213**
  * You can now gain status effect by completing quest from dungeon
  * Status effect for enemies added
