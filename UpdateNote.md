@@ -26,6 +26,8 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates
 ### **2020/11/25 - v0.219**
+ * Added easier access to go back to previous location at top of screen on mobile
+ * Rewrite Ad loading functions to be compatible with ios
  * Now enemy level is showing when fighting enemy
  * Room level now is shown in dungeon
  * Fix ios long press issue
