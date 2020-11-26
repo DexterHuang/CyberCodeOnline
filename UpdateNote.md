@@ -28,6 +28,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ### **2020/11/25 - v0.219**
  * Now enemy level is showing when fighting enemy
  * Room level now is shown in dungeon
+ * Fix ios long press issue
  * fix ios related issues
  
 ### **2020/11/25 - v0.213**
