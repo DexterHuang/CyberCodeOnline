@@ -25,6 +25,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates
+### **2020/11/27 - v0.219**
+ * 🎉 Now all players contribute 25% or above to a fight will recive rewards from defeating the enemy
+ * Fixed ios zoom issue
+ 
 ### **2020/11/25 - v0.219**
  * Added easier access to go back to previous location at top of screen on mobile
  * Rewrite Ad loading functions to be compatible with ios
