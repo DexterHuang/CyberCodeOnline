@@ -26,6 +26,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates
 ### **2020/11/28 - v0.219**
+ * System will not show confirmation before scrap item
  * Add words from contribute
  * Redesigned mobile popup UI
  * 🎉 Now all players contribute 25% or above to a fight will recive rewards from defeating the enemy
