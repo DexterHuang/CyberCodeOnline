@@ -25,7 +25,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates
-### **2020/11/28 - v0.229**
+### **2020/11/29 - v0.229**
  * Fix popup bug
  
 ### **2020/11/28 - v0.219**
