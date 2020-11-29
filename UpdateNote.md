@@ -26,6 +26,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates
 ### **2020/11/29 - v0.229**
+ * Fix game crash issue
  * Fix popup bug
  
 ### **2020/11/28 - v0.219**
