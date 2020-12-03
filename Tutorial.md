@@ -103,8 +103,6 @@ Your Special Weapon uses Energy Cells. You can find Energy Cells as drops after 
 
 Your Destructive Weapon uses Anti Matter Charges. You can find them as drops (less often than Energy Cells), or by crafting them from `militaryAmmunitionTechParts`.
 
-
-
 ## Equipment
 
 ## Molecular Printing
@@ -128,6 +126,14 @@ Once you have printed all your recipes, you'll want to head over to your Invento
 The Weaponsmith is a vendor in Shangri La City Center that allows you to sell items for bitcoin, and they often have items for purchase. 
 
 When you are in the Weaponsmith screen, hover over anything in your inventory and choose the `Sell` option. Alternately, you will see the items available for sale at the top. You can hover over any of them and choose `Buy` if you can afford them.
+
+## Shangri-La State Bank
+
+In addition to your inventory, each player also has access to the Shangri-La State Bank, which is located in the Central Hub (Shangri-La State City Center). 
+
+Currently you are restricted to 6 item slots. However multiples of the same item can be stacked, so for example if you hit the 1k limit on an item, you can store excess in the bank.
+
+Depositing items will cost 100 BTC per slot. However taking items back out is free. Therefore it's a good idea to use it as storage for items you won't be using for a while like Legendary's and overflow.
 
 ## Experience
 
