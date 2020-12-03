@@ -26,6 +26,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates
+### **2020/12/03 - v0.229**
+ * Minor Optimization
+ 
 ### **2020/11/29 - v0.229**
  * Fix issue with modal popup
  * Fix game crash issue
