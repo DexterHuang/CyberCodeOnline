@@ -10,8 +10,15 @@ It is meant to be played casually with many AFK leveling, Crafting, Procedural i
 ## Click [CyberCode Online](https://cybercodeonline.com/) to start your adventure now!
 
 ### Demo Screenshots
+
+Web
 ![demo1](https://github.com/DexterHuang/CyberCodeOnline/raw/master/resources/demo.png)
 ![demo2](https://github.com/DexterHuang/CyberCodeOnline/raw/master/resources/demo2.png)
+
+Mobile
+![mobile1](https://github.com/DexterHuang/CyberCodeOnline/raw/master/resources/mobile1.png)
+![mobile2](https://github.com/DexterHuang/CyberCodeOnline/raw/master/resources/mobile2.png)
+
 ### Bug Report / Suggestion
 If you have any bugs, requests or suggestions please feel free to create an Issue on this repo :) 
 
