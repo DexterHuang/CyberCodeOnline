@@ -13,6 +13,7 @@
  * [l33t4ng3l](https://github.com/tinamilford)
  * [levi middleton](https://github.com/levi-middleton)
  * [mr_moe](https://github.com/donburks)
+ * [PotatoMan](https://github.com/PotatoMan145)
  * [RubenVerg](https://github.com/rubenverg)
  * [s3rvant](https://github.com/s3rvant)
  * [Tripplehelix](https://github.com/tripplehelix)
