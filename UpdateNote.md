@@ -27,6 +27,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates
+### **2020/12/12 - v0.239**
+ * Clan is added to game, currently only include basic functionality 
+ 
 ### **2020/12/03 - v0.229**
  * Minor Optimization
  
