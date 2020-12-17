@@ -27,6 +27,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates
+### **2020/12/17 - v0.239**
+ * Fix scrolling on mobile will trigger long press on item list
+ * Performance optimization
+ * You can now mention offline players
+ 
 ### **2020/12/12 - v0.239**
  * Clan is added to game, currently only include basic functionality 
  
