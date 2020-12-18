@@ -27,6 +27,12 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates
+### **2020/12/18 - v0.242**
+ * Mobile button UI change
+ * Mobile popup UI change
+ * Mobile map page header display UI change
+ * Fix mobile gang chat out of order issue
+ 
 ### **2020/12/17 - v0.239**
  * Fix scrolling on mobile will trigger long press on item list
  * Performance optimization
