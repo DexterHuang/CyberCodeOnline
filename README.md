@@ -26,5 +26,6 @@ If there is a serious exploit please don't create an issue here, email me direct
 
 ## Fan Arts
 ### l33t4ng3l
-![demo1](https://github.com/DexterHuang/CyberCodeOnline/raw/master/resources/art/l33t4ng3l/l33t4ng3l.jpg)
-![demo1](https://github.com/DexterHuang/CyberCodeOnline/raw/master/resources/art/l33t4ng3l/worzel.jpg)
+![l33t4ng3l](https://github.com/DexterHuang/CyberCodeOnline/raw/master/resources/art/l33t4ng3l/l33t4ng3l.jpg)
+![worzel](https://github.com/DexterHuang/CyberCodeOnline/raw/master/resources/art/l33t4ng3l/worzel.jpg)
+![tripplehelix](https://github.com/DexterHuang/CyberCodeOnline/raw/master/resources/art/l33t4ng3l/tripplehelix.jpg)
