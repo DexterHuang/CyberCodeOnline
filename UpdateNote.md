@@ -30,6 +30,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ### **2020/12/19 - v0.245**
  * Mobile button UI improvement
  * Mobile input box UI inprovement
+ * Fix item inbox item disappearing issue
  
 ### **2020/12/18 - v0.242**
  * Mobile button UI change
