@@ -27,6 +27,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates
+### **2020/12/19 - v0.245**
+ * Mobile button UI improvement
+ * Mobile input box UI inprovement
+ 
 ### **2020/12/18 - v0.242**
  * Mobile button UI change
  * Mobile popup UI change
