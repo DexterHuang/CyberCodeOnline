@@ -28,6 +28,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates
 ### **2020/12/20 - v0.247**
+ * Added new rarity "EPIC", it is a very rare drop but much more powerful in terms of stat, also +1 upgrade module slot for all EPIC items 
  * Mobile inventory UI update
  
 ### **2020/12/19 - v0.245**
