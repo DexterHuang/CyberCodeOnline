@@ -16,8 +16,9 @@ Web
 ![demo2](https://github.com/DexterHuang/CyberCodeOnline/raw/master/resources/demo2.png)
 
 Mobile
-<img src="https://github.com/DexterHuang/CyberCodeOnline/raw/master/resources/screenshot/2.jpg" width="526">
-<img src="https://github.com/DexterHuang/CyberCodeOnline/raw/master/resources/screenshot/6.jpg" width="526"> 
+
+<img src="https://github.com/DexterHuang/CyberCodeOnline/raw/master/resources/screenshot/2.jpg" width="256">
+<img src="https://github.com/DexterHuang/CyberCodeOnline/raw/master/resources/screenshot/6.jpg" width="256"> 
 
 ### Bug Report / Suggestion
 If you have any bugs, requests or suggestions please feel free to create an Issue on this repo :) 
