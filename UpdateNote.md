@@ -27,6 +27,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates
+### **2020/12/22 - v0.254**
+ * Fix ingame mail notification now showing sender name
+ * Show confirm box before aborting afk task, to avoid accidental abortion ;)
+ * Added more clear instruction on how to go to next area in mobile
+ 
 ### **2020/12/21 - v0.253**
  * Added durability display to mobile inv equiped items
  * modified where close button for opened inventory located, to avoid missclicks
