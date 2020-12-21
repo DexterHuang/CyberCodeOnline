@@ -27,6 +27,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates
+### **2020/12/21 - v0.253**
+ * Added durability display to mobile inv equiped items
+ * modified where close button for opened inventory located, to avoid missclicks
+ * Minor performance enhancement on mail page
+ 
 ### **2020/12/20 - v0.247**
  * Added new rarity "EPIC", it is a very rare drop but much more powerful in terms of stat, also +1 upgrade module slot for all EPIC items 
  * Mobile inventory UI update
