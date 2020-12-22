@@ -27,6 +27,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates
+### **2020/12/23 - v0.257**
+ * Show player health on map in dungeon
+ * Adjuest layout of opened inventory on mobile again
+ * Optimizations
+ 
 ### **2020/12/22 - v0.254**
  * Fix ingame mail notification now showing sender name
  * Show confirm box before aborting afk task, to avoid accidental abortion ;)
