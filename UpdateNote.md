@@ -28,6 +28,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates
 ### **2020/12/23 - v0.257**
+ * Added prompt to confirm before closing inventory
+ * Remove backdrop blur effect for popup on desktop mode
+ * Fix UI issue for selling item on market
  * Added AOE healing items to Tinoky Mart
  * low level healing item now slightly cheaper in Tinoky Mart
  * Increased inventory size to 50
