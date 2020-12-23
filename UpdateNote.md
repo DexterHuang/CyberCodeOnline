@@ -28,6 +28,8 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates
 ### **2020/12/23 - v0.257**
+ * Added AOE healing items to Tinoky Mart
+ * low level healing item now slightly cheaper in Tinoky Mart
  * Increased inventory size to 50
  * Show player health on map in dungeon
  * Adjuest layout of opened inventory on mobile again
