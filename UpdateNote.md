@@ -28,6 +28,8 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates
 ### **2020/12/23 - v0.257**
+ * Fix small chance of items having same id, thus causes weird issue
+ * Fixed notification dot not working properly 
  * Added prompt to confirm before closing inventory
  * Remove backdrop blur effect for popup on desktop mode
  * Fix UI issue for selling item on market
