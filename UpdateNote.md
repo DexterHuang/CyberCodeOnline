@@ -1,7 +1,7 @@
 
 # Update Notes
 
-**CyberCode Online** is currently under an early and heavy development stage, which means many changes and new features are being added every day! That also means many stats are being adjusted all the time. So, if you have anything to suggest, feel free to [create an issue](https://github.com/DexterHuang/CyberCodeOnline/issues), if it is good it will very likely end up in this list ;)
+**CyberCode Online** is currently under an early and heavy development stage, which means many changes and new features are being added every day! That also means many stats are being adjusted all the time. So, if you have anything to suggest, feel free to [create an issue](https://github.com/DexterHuang/CyberCodeOnline/issues), if it is good it will very likely end up in this list.
 
 ## Contributors:
  * [AdmiralDiemos](https://github.com/danofsatx)
@@ -14,18 +14,18 @@
  * [levi middleton](https://github.com/levi-middleton)
  * [mr_moe](https://github.com/donburks)
  * [PotatoMan](https://github.com/PotatoMan145)
+ * [Omnipotent_God](https://github.com/Omnipotent-God)
  * [RubenVerg](https://github.com/rubenverg)
  * [s3rvant](https://github.com/s3rvant)
  * [Tripplehelix](https://github.com/tripplehelix)
- * [Omnipotent-God](https://github.com/Omnipotent-God)
 
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 #### Need help:
- * ContributeContent.json <-- really need help with this, specially if you are good at creative wording and stuff :)
+ * ContributeContent.json <-- really need help with this, specially if you are good at creative wording and stuff
  * Tips.md
- * Tutorial.md <-- now replaced with separate files in tutorial folder
+ * Tutorial.md <-- now replaced with separate files in the tutorial folder and mobile-tutorial folder
 
-*remember to add your name in this doc when you create a PR : )*
+**remember to add your name in this doc when you create a PR**
 
 ## Recent Updates
 ### **2020/12/24 - v0.257**
