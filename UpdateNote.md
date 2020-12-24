@@ -13,8 +13,8 @@
  * [l33t4ng3l](https://github.com/tinamilford)
  * [levi middleton](https://github.com/levi-middleton)
  * [mr_moe](https://github.com/donburks)
- * [PotatoMan](https://github.com/PotatoMan145)
  * [Omnipotent_God](https://github.com/Omnipotent-God)
+ * [PotatoMan](https://github.com/PotatoMan145)
  * [RubenVerg](https://github.com/rubenverg)
  * [s3rvant](https://github.com/s3rvant)
  * [Tripplehelix](https://github.com/tripplehelix)
@@ -29,7 +29,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates
 ### **2020/12/24 - v0.257**
- * Clan not available on web version
+ * Clan is now available on web version
  
 ### **2020/12/23 - v0.257**
  * Fix small chance of items having same id, thus causes weird issue
