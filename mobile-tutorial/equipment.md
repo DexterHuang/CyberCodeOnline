@@ -54,5 +54,5 @@ You can craft medical items via in-game crafting function.
 
 -----
 Update on 24/12/2020 UTC +-0
-Omnipotent God
+Omnipotent_God
 Will update further if details are missed.
