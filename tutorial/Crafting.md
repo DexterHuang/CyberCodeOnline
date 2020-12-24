@@ -4,6 +4,8 @@
 
 <br />
 
+Crafting can be found by going to `src > Player > Crafting.ts` for the Web version and `Inventory > Crafting` for Mobile players.
+
 ### Ammo
 
 Your Special Weapon and Destructive Weapon both require ammo to use.
