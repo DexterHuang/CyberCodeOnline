@@ -6,6 +6,7 @@ Common (white)
 High Quality (green)
 Rare (yellow)
 Legendary (purplish pink)
+Epic (Red)
 The higher the quality,the better the gear is.
 Higher level gears are better than lower level gears when their quality is same.
 
@@ -19,6 +20,7 @@ Common (white)
 High Quality (green)
 Rare (yellow)
 Legendary (purplish pink)
+Epic (Red)
 The higher the quality,the better the uograde module is.
 Higher level upgrade modules are better than lower level upgrade modules when their quality is same.
 
