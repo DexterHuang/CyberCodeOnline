@@ -28,6 +28,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 *remember to add your name in this doc when you create a PR : )*
 
 ## Recent Updates
+### **2020/12/24 - v0.257**
+ * Clan not available on web version
+ 
 ### **2020/12/23 - v0.257**
  * Fix small chance of items having same id, thus causes weird issue
  * Fixed notification dot not working properly 
