@@ -14,7 +14,7 @@
  * [levi middleton](https://github.com/levi-middleton)
  * [mr_moe](https://github.com/donburks)
  * [PotatoMan](https://github.com/PotatoMan145)
- * [Omnipotent-God](https://github.com/Omnipotent-God)
+ * [Omnipotent_God](https://github.com/Omnipotent-God)
  * [RubenVerg](https://github.com/rubenverg)
  * [s3rvant](https://github.com/s3rvant)
  * [Tripplehelix](https://github.com/tripplehelix)
