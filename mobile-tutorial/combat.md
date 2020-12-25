@@ -38,6 +38,10 @@ The player can also pick up modifiers by speaking to the good guy in the dungeon
 
 Player modifiers are as follows,
 
-**Overcharged I** gives the player +XX% damage.  
+**Overcharged I** gives the player +5% damage.  
 **Overcharged II** gives the player +10% damage.  
-**Overcharged III** gives the player +XX% damage.  
+**Overcharged III** gives the player +15% damage.  
+
+**Reinforced I** gives the player +5% defence.  
+**Reinforced II** gives the player +10% defence.  
+**Reinforced III** gives the player +15% defence.  
