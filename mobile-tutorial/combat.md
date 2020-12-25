@@ -45,3 +45,6 @@ Player modifiers are as follows,
 **Reinforced I** gives the player +5% defence.  
 **Reinforced II** gives the player +10% defence.  
 **Reinforced III** gives the player +15% defence.  
+
+**Extra Information**
+You cannot join the dungeon if your character level is 12 levels higher or 10 levels lower.
