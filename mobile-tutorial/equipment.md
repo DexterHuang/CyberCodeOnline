@@ -29,6 +29,7 @@ Printing will give you printing experience which is used to level up your printi
 Gears and upgrade modules printed will have the same lwvel as your printing level.
 Other ways of obtaining gears and upgrade modules are loot and player market.
 All gears and upgrade modules have a index of quality out of 100. The higher the quality index, the better the gear/upgrade module.
+Printed legendary gear have quality index of at least 80.
 # **Consumables**
 1. **Cache**
 You can obtain gear and upgrade module cache.
