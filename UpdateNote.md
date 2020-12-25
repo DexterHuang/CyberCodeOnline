@@ -28,8 +28,12 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 **remember to add your name in this doc when you create a PR**
 
 ## Recent Updates
+### **2020/12/25 - v0.257**
+ * Now gang name will show up on player mentions
+ * Fix issue with web gang chat
+ 
 ### **2020/12/24 - v0.257**
- * Clan is now available on web version
+ * Gnag is now available on web version
  
 ### **2020/12/23 - v0.257**
  * Fix small chance of items having same id, thus causes weird issue
