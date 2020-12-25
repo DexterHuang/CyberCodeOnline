@@ -1,0 +1,2 @@
+# **Keys**
+You can obtain key fragments in dungeons. By completing and obtaining all fragments of the same sector, you can merge the fragments at terminal, which you can find in city centre. Each sector includes a range of levels, when your gear score is higher than recommended level you will not receive rewards from fighting enemies in dungeon. If your gear score is much higher, you cannot interact with objects in that dungeon. You can check your gear score at 'me' tab at bottom right corner.
