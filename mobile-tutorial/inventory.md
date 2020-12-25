@@ -1,6 +1,19 @@
 ## Inventory
 
-*Plan to detail the inventory page here with focus on equipping gear / upgrades and where to go to handle the others such as crafting and printing. Also add a note about `ItemInbox.ts`.*
+You can access your inventory by clicking the option at the bottom menu bar. In your inventory, you can see all items that you own, including gears, upgrade modules, ammo, medical items, secret keys, cache, and other consumables. By clicking on the item, you can see the details of that item. You can choose to equip your gear by clicking the equip button. Equipped gear will be highlighted on the top of inventory page. By clicking on gears, you can choose to install upgrade modules that will enhance certain values of that gear. To remove installed upgrade modules, simply click on the installed module. Better quality gear have more upgrade module slots than lower quality gear. 
+Your cache in your inventory can be onsumed to print out gear using molecular printing function in City Centre.
+Medical items can be consumed in dungeons to regenerate health (since your character cannot automatically regenerate health in dungeons).
+Ammo can be used to perform special attacks and destructive attacks during combat.
+Secret key fragments that you obtained in dungeon chests can be merged into a secret key by brute-force in terminal, which can be found in the City Centre. Secret keys will grant you access to higher level enemy spawns and dungeons.
+Other consumables, for example Hash Processors and AI Cores can be used to perform AFK tasks.
+By clicking the icon above your inventory list, you can filter out specified inventory.
+You will have 50 space, equipping gears with extra pocket status will give you more inventory space.
+To get rid of gears and upgrade modules, you can click on the **scrap** button. Every item scrapped will give you a tech scrap.
+To get rid of other items, you can click on the **destroy** button. Destroyed items will not give you anything in return so be cautious when performing this action.
+**Item Inbox**
+Items that other players send will be automatically placed in your item inbox and will move to your main inventory when you have enough space for these items.
+**Crafting**
+This tab in your inventory allows you to craft medical items and ammo using medical tech parts and ammunition tech parts.
 
 <br />
 
