@@ -1,6 +1,7 @@
 ## Crafting
 
-*Planning to add details about the various resources and how to craft them.*
+Crafting is an important part of this game. With this function you can sustain yourself, supplying yourself with sufficient ammo and medical items. All resources needed can be looted from dungeon chests or scavenging. Crafting have independent level system, please refer to experience part of mobile tutorial for more information on these levels.
+Details on what you can craft and what materials you need are listed below.
 
 <br />
 
