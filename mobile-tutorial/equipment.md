@@ -52,7 +52,6 @@ If health after regeneration exceeds your maximum health, you will regenerate to
 You can craft medical items via in-game crafting function.
 
 4. **Other Consumables**
-Secret key fragments that you obtained in dungeon chests can be merged into a secret key by brute-force in terminal, which can be found in the City Centre. Secret keys will grant you access to higher level enemy spawns and dungeons.
 Other consumables, for example Hash Processors and AI Cores can be used to perform AFK tasks.
 
 
