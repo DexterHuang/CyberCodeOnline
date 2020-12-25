@@ -1,34 +1,34 @@
 # **Gears**
 You can equip gears that you own, as long as the gear level you wish to equip is not higher than your current character level.
-All gears are divided by quality:
+All gears are divided by rank:
 Trash (grey)
 Common (white)
 High Quality (green)
 Rare (yellow)
 Legendary (purplish pink)
 Epic (Red)
-The higher the quality,the better the gear is.
-Higher level gears are better than lower level gears when their quality is same.
+The higher the rank, the better the gear is.
+Higher level gears are better than lower level gears.
 
 # **Upgrade Modules**
 You can install upgrade modules on your gears. Higher quality gears have more upgrade module slots.
 You can remove modules at any time you want by tapping on the installed module.
 You can install modules that you own, as long as the upgrade module level you wish to install is not higher than your current character level.
-All upgrade modules are divided by quality:
+All upgrade modules are divided by rank:
 Trash (grey)
 Common (white)
 High Quality (green)
 Rare (yellow)
 Legendary (purplish pink)
 Epic (Red)
-The higher the quality,the better the uograde module is.
-Higher level upgrade modules are better than lower level upgrade modules when their quality is same.
+The higher the rank, the better the upgrade module is.
+Higher level upgrade modules are better than lower level upgrade modules.
 
 Things mentioned above can be printed using specific cache using 3D molecular printer.
 Printing will give you printing experience which is used to level up your printing level.
 Gears and upgrade modules printed will have the same lwvel as your printing level.
 Other ways of obtaining gears and upgrade modules are loot and player market.
-
+All gears and upgrade modules have a index of quality out of 100. The higher the quality index, the better the gear/upgrade module.
 # **Consumables**
 1. **Cache**
 You can obtain gear and upgrade module cache.
