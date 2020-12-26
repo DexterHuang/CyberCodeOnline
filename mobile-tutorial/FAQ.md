@@ -20,4 +20,8 @@ You will lose part of your experience and BTC, however your inventory will not d
 ### Will higher level enemies give more rewards?
 Yes. Higher level enemies give you more BTC and experience after you defeat them.
 
+### What should I do if my inventory is full?
+You can either scrap/destroy some of your items or storing items in the bank located at City Centre. Also equipping gears with pocket status will expand your inventory.
 
+### Where can I craft items?
+You can craft items in your inventory page. Crafting option is at the top menu bar of that page.
