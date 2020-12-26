@@ -1,9 +1,10 @@
 ## Crafting
 
-Crafting is an important part of this game. With this function you can sustain yourself, supplying yourself with sufficient ammo and medical items. All resources needed can be looted from dungeon chests or scavenging. Crafting have independent level system, please refer to experience part of mobile tutorial for more information on these levels.
-Details on what you can craft and what materials you need are listed below.
+*Planning to add details about the various resources and how to craft them.*
 
 <br />
+
+Crafting can be found by going to `src > Player > Crafting.ts` for the Web version and `Inventory > Crafting` for Mobile players.
 
 ### Ammo
 
@@ -21,6 +22,7 @@ Your Special Weapon uses Energy Cells. You can find Energy Cells as drops after 
 
 Your Destructive Weapon uses Anti Matter Charges. You can find them as drops (less often than Energy Cells), or by crafting them from `militaryAmmunitionTechParts`.
 
+<br />
 
 ### Medical
 
@@ -30,9 +32,16 @@ For example the lowest level medicine that can be crafted is the `painAway` spra
 
 There are two categories of medicine that can be crafted, single heals and group heals. 
 
+<br />
+
+
 #### Single Heals
 
 As the name suggests, Single heals will only heal yourself for the specified amount. Single heals medicine are items such as `painAway` and anything ending with `Bot` (ex.: `nanoMedicBot`). In order to craft Single heals, you need the specified medical science level and `medicalTechParts`
+
+<br />
+
+
 
 #### Group Heals
 
