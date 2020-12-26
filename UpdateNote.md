@@ -29,6 +29,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 **remember to add your name in this doc when you create a PR**
 
 ## Recent Updates
+### **2020/12/25 - v0.264**
+ * You can now upgrade your bunker size at bank
+ 
 ### **2020/12/25 - v0.257**
  * Now gang name will show up on player mentions
  * Fix issue with web gang chat
