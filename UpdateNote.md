@@ -13,11 +13,12 @@
  * [l33t4ng3l](https://github.com/tinamilford)
  * [levi middleton](https://github.com/levi-middleton)
  * [mr_moe](https://github.com/donburks)
- * [PotatoMan](https://github.com/PotatoMan145)
  * [Omnipotent_God](https://github.com/Omnipotent-God)
+ * [PotatoMan](https://github.com/PotatoMan145)
  * [RubenVerg](https://github.com/rubenverg)
  * [s3rvant](https://github.com/s3rvant)
  * [Tripplehelix](https://github.com/tripplehelix)
+ * [Humboer](https://github.com/stphnhng)
 
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 #### Need help:
@@ -28,8 +29,12 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 **remember to add your name in this doc when you create a PR**
 
 ## Recent Updates
+### **2020/12/25 - v0.257**
+ * Now gang name will show up on player mentions
+ * Fix issue with web gang chat
+ 
 ### **2020/12/24 - v0.257**
- * Clan not available on web version
+ * Gnag is now available on web version
  
 ### **2020/12/23 - v0.257**
  * Fix small chance of items having same id, thus causes weird issue

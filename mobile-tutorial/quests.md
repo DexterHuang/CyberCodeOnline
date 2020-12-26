@@ -4,3 +4,5 @@ Quests can be found on the Explorer tab, in the left-hand column. Here is where 
 Hovering over the individual quest will show you what you have to do to achieve it. For example, a Gain experience quest may want you to get 1000 experience points. You'll be able to see your total by hovering, and it may say something like 125 / 1000 (12%).
 
 Once you have completed a quest, a Claim link will appear next to the quest. Click on that to get your reward, and be assigned a new quest.
+
+If you wish to get a new quest you can click on unfinished quest and watch an AD to refresh it.
