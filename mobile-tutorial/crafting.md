@@ -4,7 +4,7 @@
 
 <br />
 
-Crafting can be found by going to `src > Player > Crafting.ts` for the Web version and `Inventory > Crafting` for Mobile players.
+Crafting can be found by going to `Inventory > Crafting` for Mobile players.
 
 ### Ammo
 
