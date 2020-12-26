@@ -3,7 +3,11 @@ When in a dungeon you can click 'Send invite to global chat' and a message will 
 
 Upon defeating all of the monsters, loot is different for each individual player so crates cannot be stolen by other players!
 
-In order to join another player's Co-op dungeon, players need to be +/- 10 gear score levels.
+In order to join another player's Co-op dungeon, players' level needs to be less than 12 levels higher than the dungeon and 9 levels lower than the dungeon. That is to say the level entrance requirement is:
+
+`dungeon level - 10` < `player level` < `dungeon level + 12`
+
+<br />
 
 ## Gangs
 Currently gangs are just a private area for a group of up to 10 friends to communicate but there are future plans for more to come of this.
