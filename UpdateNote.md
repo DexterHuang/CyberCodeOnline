@@ -29,7 +29,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 **remember to add your name in this doc when you create a PR**
 
 ## Recent Updates
-### **2020/12/25 - v0.264**
+### **2020/12/27 - v0.264**
+ * You can now craft AI Core with Hash Processors
+ 
+### **2020/12/26 - v0.264**
  * You can now upgrade your bunker size at bank
  * Fix issue with window sizing on certain screen resolution on web
  * Typo fix
