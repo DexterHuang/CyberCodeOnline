@@ -30,6 +30,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates
 ### **2020/12/27 - v0.264**
+ * Double exp gained from crypto mining AFK task
  * You can now craft AI Core with Hash Processors
  
 ### **2020/12/26 - v0.264**
