@@ -47,6 +47,6 @@ Player modifiers are as follows,
 **Reinforced II** gives the player +10% defence.  
 **Reinforced III** gives the player +15% defence. 
 
-**Shield Enhance I** gives the player +5% Shield.  
-**Shield Enhance II** gives the player +10% Shield.  
-**Shield Enhance III** gives the player +15% Shield. 
+**Shield Enhance I** gives the player +5% shield multiplier.  
+**Shield Enhance II** gives the player +10% shield multiplier.  
+**Shield Enhance III** gives the player +15% shield multiplier. 
