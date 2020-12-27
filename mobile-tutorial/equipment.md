@@ -40,10 +40,10 @@ Items printed will share the same quality as the cache used.
 
 2. **Ammo**
 Ammo are used to fire special attacks and desctructive attacks.
-Special attacks use cell battery.
+Special attacks use energy cell.
 Destructive attacks use anti matter charge.
 Each fire will consume one of the ammos.
-You can at most own 1000 cells batteries and 1000 anti matter charge each in your pocket.
+You can at most own 1000 energy cells and 1000 anti matter charge each in your pocket.
 You can craft ammo via in-game crafting function.
 
 3. **Medical**
