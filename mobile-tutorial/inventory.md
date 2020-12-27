@@ -19,23 +19,20 @@ This tab in your inventory allows you to craft medical items and ammo using medi
 
 ### Molecular Printing
 
-In the City Center, there is the Molecular 3D Printer, which is going to become your best friend. It will be in the `nearby` section of the `Surrounding.ts` file when you are in Shangri La City Center. Clicking on it will open another "file view" where you will be shown what available recipes you have in your inventory. It costs bitcoin to print, so make sure you have enough. It will tell you when you hover over the recipe how much it will cost.
+In the City Center, there is the Molecular 3D Printer, which can be used to print out gears from cache. It will appear when you are in Shangri La City Center. Clicking on it will bring you to the printing panel which lists all cache you have. It costs bitcoin to print, so make sure you have enough. All details including BTC cost and experience it will give will be listed on the cache printing panel.
+Information on printing levels read the experience page.
 
 <br />
 
-Recipes are the objects in your inventory with the word `cache` in their name. For example `commonHelmetCache_x1` is an example of a recipe to print a Common helmet, and you only have one of them.
-
-![Caches Screenshot](../resources/caches.png)
+Cache are the objects in your inventory which can be consumed to print gears. for more information please refer to equipment tutorial page.
 
 <br />
 
-In the Molecular Printer screen, you can hover over any of the recipes and click `Molecular Print` which will bring up a dialog if you have multiple items that are the same, asking how many you want to print.
+In the Molecular Printer screen, you can click on the cache you wish to print which will bring up a dialog if you have multiple items that are the same, asking how many you want to print.
 
 <br />
 
-A good strategy here is to print all the `trash` items first, then the `common`, saving `rare` and `legendary` for the end. The reason for this is printing the more common and useless items first boosts your Printing Level, giving you a better chance to print more powerful gear with any Rare and Legendary recipes you may have found.
-
-> **Tip:** If you have a lot of bitcoin, you can just click on each recipe to bring up the quantity dialog and get it printed. This saves time on hovering.
+A good strategy here is to print all the `trash` items first, then the `common`, saving `rare` and `legendary` for the end. The reason for this is printing the more common and useless items first boosts your Printing Level, giving you a better chance to print more powerful gear with any Rare and Legendary caches you may have found.
 
 <br />
 
@@ -45,8 +42,9 @@ Once you have printed all your recipes, you'll want to head over to your Invento
 
 ## The WeaponSmith
 
-The Weaponsmith is a vendor in Shangri La City Center that allows you to sell items for bitcoin, and they often have items for purchase.
+The Weaponsmith is a vendor in Shangri La City Center that allows you to sell items for BTC, and they often have items for purchase.
 
 <br />
 
-When you are in the Weaponsmith screen, hover over anything in your inventory and choose the `Sell` option. Alternately, you will see the items available for sale at the top. You can hover over any of them and choose `Buy` if you can afford them.
+When you are in the Weaponsmith screen, click over anything in your inventory and choose the `Sell` option. Alternately, you will see the items available for sale at the top. You can clcik on any of them and choose `Buy` if you can afford them.
+If you equip gears with **bargain** status you have a higher chance of getting a better deal.
