@@ -21,6 +21,7 @@ If you failed to escape, you will then be attacked my the enemy without dealing 
 
 The combat screen will show you how much health and shield you and your opponent both have, as well as the amount of ammo you have for each of your weapons and the approximate damage they can do.
 
+You cannot join the dungeon if your character level is 12 levels higher or 10 levels lower. If players gear score is four levels above the enemy they won't receive xp or loot.
 
 # Modifiers
 
@@ -44,7 +45,8 @@ Player modifiers are as follows,
 
 **Reinforced I** gives the player +5% defence.  
 **Reinforced II** gives the player +10% defence.  
-**Reinforced III** gives the player +15% defence.  
+**Reinforced III** gives the player +15% defence. 
 
-**Extra Information**
-You cannot join the dungeon if your character level is 12 levels higher or 10 levels lower.
+**Shield Enhance I** gives the player +5% Shield.  
+**Shield Enhance II** gives the player +10% Shield.  
+**Shield Enhance III** gives the player +15% Shield. 
