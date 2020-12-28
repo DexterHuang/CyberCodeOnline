@@ -8,6 +8,7 @@
  * [Archibaald](https://github.com/Archibaald-dev)
  * [Arky](https://www.instagram.com/andreiarky)
  * [Blackstormx](https://github.com/blackstormx)
+ * [Humboer](https://github.com/stphnhng)
  * [hildjj](https://github.com/hildjj)
  * [Kimi Leta](https://github.com/kimileta)
  * [l33t4ng3l](https://github.com/tinamilford)
@@ -18,7 +19,6 @@
  * [RubenVerg](https://github.com/rubenverg)
  * [s3rvant](https://github.com/s3rvant)
  * [Tripplehelix](https://github.com/tripplehelix)
- * [Humboer](https://github.com/stphnhng)
 
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 #### Need help:
@@ -29,6 +29,19 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 **remember to add your name in this doc when you create a PR**
 
 ## Recent Updates
+### **2020/12/28 - v0.264**
+ * Update android icon to the newest one
+ * Added facebook mediation to ad service, should increase amount of ads you get
+ 
+### **2020/12/27 - v0.264**
+ * Double exp gained from crypto mining AFK task
+ * You can now craft AI Core with Hash Processors
+ 
+### **2020/12/26 - v0.264**
+ * You can now upgrade your bunker size at bank
+ * Fix issue with window sizing on certain screen resolution on web
+ * Typo fix
+ 
 ### **2020/12/25 - v0.257**
  * Now gang name will show up on player mentions
  * Fix issue with web gang chat
