@@ -29,6 +29,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 **remember to add your name in this doc when you create a PR**
 
 ## Recent Updates
+### **2020/12/28 - v0.264**
+ * Update android icon to the newest one
+ * Added facebook mediation to ad service, should increase amount of ads you get
+ 
 ### **2020/12/27 - v0.264**
  * Double exp gained from crypto mining AFK task
  * You can now craft AI Core with Hash Processors
