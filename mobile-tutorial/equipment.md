@@ -1,62 +1,50 @@
-# **Gears**
-You can equip gears that you own, as long as the gear level you wish to equip is not higher than your current character level.
-All gears are divided by rarity:
-Trash (grey)
-Common (white)
-High Quality (green)
-Rare (yellow)
-Legendary (purplish pink)
-Epic (Red)
-The higher the rarity, the better the gear is.
-Higher level gears are better than lower level gears.
+# Equipment 
+You can equip gear that you own, as long as the gear level you wish to equip is not higher than your current player level. All equipment is divided into rarities:  
 
-# **Upgrade Modules**
-You can install upgrade modules on your gears. Higher quality gears have more upgrade module slots.
-You can remove modules at any time you want by tapping on the installed module.
-You can install modules that you own, as long as the upgrade module level you wish to install is not higher than your current character level.
-All upgrade modules are divided by rarity:
-Trash (grey)
-Common (white)
-High Quality (green)
-Rare (yellow)
-Legendary (purplish pink)
-Epic (Red)
-The higher the rarity, the better the upgrade module is.
-Higher level upgrade modules are better than lower level upgrade modules.
+ 1. Trash (grey)
+ 2. Common (white)
+ 3. High Quality (green)
+ 4. Rare (yellow)  
+ 5. Legendary (purplish pink)  
+ 6. Epic (Red)  
 
-Things mentioned above can be printed using specific cache using 3D molecular printer.
-Printing will give you printing experience which is used to level up your printing level.
-Gears and upgrade modules printed will have the same lwvel as your printing level.
-Other ways of obtaining gears and upgrade modules are loot and player market.
-All gears and upgrade modules have a index of quality out of 100. The higher the quality index, the better the gear/upgrade module.
-Printed legendary gear have quality index of at least 80.
+Higher rarities, will usually give a higher quality item. Higher level equipment will give better stats. Higher rarity equipment usually has more upgrade module slots.  
 
-# **Consumables**
-1. **Cache**
-You can obtain gear and upgrade module cache.
-Cache can be used to print gear equivalent to your current printing level.
-All cache are divided by quality, please see above for reference.
-Items printed will share the same quality as the cache used.
+# Upgrade Modules
 
-2. **Ammo**
-Ammo are used to fire special attacks and desctructive attacks.
-Special attacks use energy cell.
-Destructive attacks use anti matter charge.
-Each fire will consume one of the ammos.
-You can at most own 1000 energy cells and 1000 anti matter charge each in your pocket.
-You can craft ammo via in-game crafting function.
+You can install upgrade modules on your equipment, they must be your player level or lower. You can remove modules at any time you want by tapping on the installed module. All upgrade modules have rarity's the same as equipment. It's always best to check the quality and stats of any upgrade module as the rarity doesn't play as big a part. But a higher level upgrade will usually be better than a lower level one.  
 
-3. **Medical**
-Medical items can be used to regenerate health in dungeons.
-There are two types of medical items, self-use and AOE.
-After using the item your health regenerates according to the amount described.
-If health after regeneration exceeds your maximum health, you will regenerate to your maximum health.
-You can craft medical items via in-game crafting function.
+# Finding Equipment
 
+You can find preprinted equipment in the dungeons or when fighting individual enemies. You are also able to acquire cache in this way, as well as from using AI Cores. Cache is printed in the molecular 3d printer which is found in the city centre. When printing cache, the resulting equipment will have your print level.  
 
+You are also able to use the player market once you are level 10 to purchase specific items.  
 
+# Consumables
 
------
-Update on 24/12/2020 UTC +-0
-Omnipotent_God
-Will update further if details are missed.
+### Cache  
+You can obtain gear and upgrade module cache.  
+Cache can be used to print gear equivalent to your current printing level.  
+All cache are divided by quality, please see above for reference.  
+Items printed will share the same quality as the cache used.  
+
+### Ammo  
+Ammo are used to fire special attacks and destructive attacks.  
+Special attacks use energy cells.  
+Destructive attacks use antimatter charge.  
+Each fire will consume one of the ammos.  
+You can at most own 1000 energy cells and 1000 antimatter charge each in your pocket.  
+You can craft ammo via in-game crafting function.  
+
+### Medical
+Medical items can be used to regenerate health in dungeons.  
+There are two types of medical items, self-use and AOE.  
+After using the item your health regenerates according to the amount described.  
+Your health will cap at your max health stat.  
+You can craft medical items via in-game crafting function.  
+
+### XP  
+Experience memories can be used from your inventory or when in a fight.  
+Experience memories will have a level, higher levels give more XP.  
+After using you will gain player XP, this can be a good way to quickly level.  
+You can find Experience Memories in dungeons.  
