@@ -8,7 +8,7 @@ There are different options that you can choose during a combat.
 1. **Primary Attack**
 Attack the enemy with your equipped primary weapon. No ammo consumed.
 2. **Special Attack**
-Attack the enemy with your equipped special weapon. Consumes one cell battery for each shot.
+Attack the enemy with your equipped special weapon. Consumes one energy cell for each shot.
 3. **Destructive Attack**
 Attack the enemy with your equipped destructive weapon. Consumes one anti matter charge.
 4. **Use Item**
