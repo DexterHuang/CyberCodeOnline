@@ -2,6 +2,18 @@
 
 *Plan to detail the inventory page here with focus on equipping gear / upgrades and where to go to handle the others such as crafting and printing. Also add a note about `ItemInbox.ts`.*
 
+### Equipment
+
+In your Inventory you can see your currently equipped items, secret keys, and all items in your inventory. 
+
+In order to equip items, click on the equipment in your inventory. To equip upgrades to your equipment if they allow it (hover over an equipment and see whether the `upgradeSlots` is non-empty.), hover over the equipment and click the `Details`/`Upgrade Modules` box at the bottom of the popup. There, you can see the upgrades you have currently equipped and upgrades that you can equip. To equip or remove an upgrade, click on it.
+
+### Scrapping
+
+Players can also scrap equipment or destroy caches in their inventory. Do so by hovering over the equipment/cache and clicking on `Scrap`/`Destroy`. If you would like to scrap multiple items at the same time, click on the `false` in `multiSelectMode=false`. This will turn into `multiSelectMode=true` and little boxes will pop up next to your inventory's items. Click on those boxes to select them and then click `scrapSelected` to scrap all selected. 
+
+Furthermore there is an `autoScrap()` button below your inventory which will scrap equipment that are trash/common and worse than your current equipment. 
+
 <br />
 
 ### Molecular Printing
