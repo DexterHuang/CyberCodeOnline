@@ -11,6 +11,16 @@ In addition to your inventory, each player also has access to the Shangri-La Sta
 To start with, you have 6 item slots. You can choose to permanently expand slots by paying BTC per slot. Multiples of the same item can be stacked, so for example if you hit the 1k limit on an item, you can store overflowed items in the bank.
 Depositing items will cost 100 BTC per slot. However taking items back out is free. Therefore it's a good idea to use it as storage for items you won't be using for a while like Legendary's and overflowed items.
 
+**Molecular Printing**
+In the City Center, there is the Molecular 3D Printer, which can be used to print out gears from cache. It will appear when you are in Shangri La City Center. Clicking on it will bring you to the printing panel which lists all cache you have. It costs bitcoin to print, so make sure you have enough. All details including BTC cost and experience it will give will be listed on the cache printing panel.
+Information on printing levels read the experience page.
+
+**Weaponsmith**
+At weaponsmith you can use BTC to buy gears on the shelf or repair your own gear with a small amount of BTC.
+
+**Terminal**
+At terminal you can merge the fragments of keys you have into a key. With the key you can access higher level enemy swapns. More information refer to progression page.
+
 ## Commercial Area
 At this location you can look for jobs (AFK tasks). You do not need to do anything during these tasks and it will be finished automatically after the timer runs out.
 You can get printing experience, ammo/medical crafting experience, and BTC.
