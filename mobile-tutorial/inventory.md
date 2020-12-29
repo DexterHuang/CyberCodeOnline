@@ -31,9 +31,12 @@ You will have 50 space, equipping gears with extra pocket status will give you m
 To get rid of gears and upgrade modules, you can click on the **scrap** button. Every item scrapped will give you a tech scrap.
 
 To get rid of other items, you can click on the **destroy** button. Destroyed items will not give you anything in return so be cautious when performing this action.
+
 **Item Inbox**
 
 Items that other players send will be automatically placed in your item inbox and will move to your main inventory when you have enough space for these items.
+Note: Items will be moved to main inventory after you perform a inventory update.
+
 **Crafting**
 
 This tab in your inventory allows you to craft medical items and ammo using medical tech parts and ammunition tech parts.
