@@ -42,11 +42,17 @@ Player modifiers are as follows,
 **Overcharged I** gives the player +5% damage.  
 **Overcharged II** gives the player +10% damage.  
 **Overcharged III** gives the player +15% damage.  
+**Overcharged IV** gives the player +20% damage.  
+**Overcharged V** gives the player +25% damage.  
 
 **Reinforced I** gives the player +5% defence.  
 **Reinforced II** gives the player +10% defence.  
 **Reinforced III** gives the player +15% defence. 
+**Reinforced IV** gives the player +20% defence. 
+**Reinforced V** gives the player +25% defence. 
 
 **Shield Enhance I** gives the player +5% shield multiplier.  
 **Shield Enhance II** gives the player +10% shield multiplier.  
 **Shield Enhance III** gives the player +15% shield multiplier. 
+**Shield Enhance IV** gives the player +20% shield multiplier. 
+**Shield Enhance V** gives the player +25% shield multiplier. 
