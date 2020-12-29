@@ -29,13 +29,19 @@ You can either scrap/destroy some of your items or storing items in the bank loc
 You can craft items in `Crafting.ts` which can be found in `src > Player > Crafting.ts`. it can be accessed at any location.
 
 ### How do I increase my printing rank?
-There are 3 ways to increase your printing rank.
-1.Print caches. Each cache you print increases your rank. It's item you print earns you the same rank so the best possible way to increase your rank with this way is to print many trash caches , because they cost less to print.
-2.AFK Printing Training . In the `Commercial Area` there is an afk job that increases your printing rank.
-3.Reverse engineer equipment scraps. In the `Commercial Area` there is an afk job called reverseEngineerScraps which uses tech scraps to increase your printing rank. This is by far the fasters way to increase your rank , and you can combine it with the first way (print caches and then scrap them for tech scraps)
+There are 3 ways to increase your printing rank.\
+**1.** Print caches. Each cache you print increases your rank. It's item you print earns you the same rank so the best possible way to increase your rank with this way is to print many trash caches , because they cost less to print.\
+**2.** AFK Printing Training . In the `Commercial Area` there is an afk job that increases your printing rank.\
+**3.** Reverse engineer equipment scraps. In the `Commercial Area` there is an afk job called reverseEngineerScraps which uses tech scraps to increase your printing rank. This is by far the fasters way to increase your rank , and you can combine it with the first way (print caches and then scrap them for tech scraps)
 
 ### How do I increase my Scavenge Skill?
 In every area with enemies there is there is an action with the name scavenge in it (the whole name change depending on the area) . You can find it after the `deployFarmBot` action.
 
 ### What is the Gear Score?
 Gear Score is the average level of your equipment you wear.
+
+### What is the pocket Stat?
+Pockets increase your inventory size. I pocket means 1 extra additional space.
+
+### What is the bargain Stat?
+Bargain gives you better deals in the weapoSmith and the trinokyMart.You can sell your items for better prices and buy items cheaper.
