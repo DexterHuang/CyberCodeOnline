@@ -21,6 +21,9 @@ At weaponsmith you can use BTC to buy gears on the shelf or repair your own gear
 **Terminal**
 At terminal you can merge the fragments of keys you have into a key. With the key you can access higher level enemy swapns. More information refer to progression page.
 
+**Trinoky Mart**
+At this location you can buy medical items with BTC.
+
 ## Commercial Area
 At this location you can look for jobs (AFK tasks). You do not need to do anything during these tasks and it will be finished automatically after the timer runs out.
 You can get printing experience, ammo/medical crafting experience, and BTC.
