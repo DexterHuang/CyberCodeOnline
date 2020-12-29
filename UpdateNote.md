@@ -29,6 +29,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 **remember to add your name in this doc when you create a PR**
 
 ## Recent Updates
+### **2020/12/29 - v0.269**
+ * Fix web version leave for long time will cause lag issue
+ * Added max health and max shield display at player detail on mobile
+ 
 ### **2020/12/28 - v0.264**
  * Update android icon to the newest one
  * Added facebook mediation to ad service, should increase amount of ads you get
