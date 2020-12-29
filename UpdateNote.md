@@ -30,6 +30,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates
 ### **2020/12/29 - v0.269**
+ * Remove title when in dungeon, reduce chance of having to scroll to view the map
  * Bunker rename to "Vault"
  * Now Apple login is supported on web version
  * Fix web version leave for long time will cause lag issue
