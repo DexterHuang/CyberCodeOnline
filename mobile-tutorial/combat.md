@@ -1,6 +1,6 @@
 # Combat
 
-In every adventure location, you'll see a list of Nearby Enemies, as well as two Dungeons you can enter. The areas are seperated by level groups, when you complete all three normal dungeon levels you should have three keys which you can use to unlock the next area.  
+In every adventure location, you'll see a list of Nearby Enemies, as well as two Dungeons you can enter. The areas are separated by level groups, when you complete all three normal dungeon levels you should have three keys which you can use to unlock the next area.  
 
 Click on any of the listed enemies to enter combat. When in a dungeon, clicking on a bad guy, represented by a '@' will draw you into combat with it.  
 
@@ -10,11 +10,11 @@ Attack the enemy with your equipped primary weapon. No ammo consumed.
 2. **Special Attack**
 Attack the enemy with your equipped special weapon. Consumes one energy cell for each shot.
 3. **Destructive Attack**
-Attack the enemy with your equipped destructive weapon. Consumes one anti matter charge.
+Attack the enemy with your equipped destructive weapon. Consumes one antimatter charge.
 4. **Use Item**
 This option is only available in dungeons. You are able to select from medical items to heal yourself and other players to outlast the enemies. You are also able to use xp memories to level up your player if you so choose.
 5. **Escape**
-With this option you can try to escape from combat. The success rate of escaping combat outside a dungeon is 100%. However if you are fighting inside a dungeon and try to escape, the chance will be based off your escape % which is taken from your armour and upgrade stats. If you fail to escape, you will then be attacked my the enemy without dealing any damage.  
+With this option you can try to escape from combat. The success rate of escaping combat outside a dungeon is 100%. However if you are fighting inside a dungeon and try to escape, the chance will be based on your escape % which is taken from your armour and upgrade stats. If you fail to escape, you will then be attacked by the enemy without dealing any damage.  
 
 The combat screen will show you how much health and shield you and your opponent both have, as well as the amount of ammo you have for each of your weapons and the approximate damage they can do.  
 
