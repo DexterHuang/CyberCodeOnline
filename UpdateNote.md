@@ -29,6 +29,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 **remember to add your name in this doc when you create a PR**
 
 ## Recent Updates
+### **2020/12/30 - v0.269**
+ * Updated the button of update modal
+ * Now the system message for recieving gift will include item amount
+ 
 ### **2020/12/29 - v0.269**
  * Remove title when in dungeon, reduce chance of having to scroll to view the map
  * Bunker rename to "Vault"
