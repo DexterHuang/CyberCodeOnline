@@ -1,6 +1,6 @@
 
 # CyberCodeOnline
-![enter image description here](https://github.com/DexterHuang/CyberCodeOnline/raw/master/resources/logo-black.png)
+![enter image description here](/resources/logo-black.png)
 
 *CyberCode Online is a **browser based MMORPG game** that is **disguised as VS Code***
 *where you click functions and variables in the ever changing source code to navigate your character in a Cyber Punk inspired world*
@@ -12,8 +12,8 @@ It is meant to be played casually with many AFK leveling, Crafting, Procedural i
 ### Demo Screenshots
 
 Web
-![demo1](https://github.com/DexterHuang/CyberCodeOnline/raw/master/resources/demo.png)
-![demo2](https://github.com/DexterHuang/CyberCodeOnline/raw/master/resources/demo2.png)
+![demo1](/resources/demo.png)
+![demo2](/resources/demo2.png)
 
 Mobile
 
@@ -27,6 +27,6 @@ If there is a serious exploit please don't create an issue here, email me direct
 
 ## Fan Arts
 ### l33t4ng3l
-![l33t4ng3l](https://github.com/DexterHuang/CyberCodeOnline/raw/master/resources/art/l33t4ng3l/l33t4ng3l.jpg)
-![worzel](https://github.com/DexterHuang/CyberCodeOnline/raw/master/resources/art/l33t4ng3l/worzel.jpg)
-![tripplehelix](https://github.com/DexterHuang/CyberCodeOnline/raw/master/resources/art/l33t4ng3l/tripplehelix.jpg)
+![l33t4ng3l](/resources/art/l33t4ng3l/l33t4ng3l.jpg)
+![worzel](/resources/art/l33t4ng3l/worzel.jpg)
+![tripplehelix](/resources/art/l33t4ng3l/tripplehelix.jpg)
