@@ -26,7 +26,7 @@ If you have any bugs, requests or suggestions please feel free to create an Issu
 If there is a serious exploit please don't create an issue here, email me directly at ching.huang.dexter@gmail.com
 
 ## Fan Arts
-### l33t4ng3l
+### by l33t4ng3l
 ![l33t4ng3l](/resources/art/l33t4ng3l/l33t4ng3l-resize.jpg)
 ![worzel](/resources/art/l33t4ng3l/worzel-resize.jpg)
 ![tripplehelix](/resources/art/l33t4ng3l/tripplehelix-resize.jpg)
