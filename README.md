@@ -27,6 +27,6 @@ If there is a serious exploit please don't create an issue here, email me direct
 
 ## Fan Arts
 ### l33t4ng3l
-![l33t4ng3l](/resources/art/l33t4ng3l/l33t4ng3l.jpg)
-![worzel](/resources/art/l33t4ng3l/worzel.jpg)
-![tripplehelix](/resources/art/l33t4ng3l/tripplehelix.jpg)
+![l33t4ng3l](/resources/art/l33t4ng3l/l33t4ng3l-resize.jpg)
+![worzel](/resources/art/l33t4ng3l/worzel-resize.jpg)
+![tripplehelix](/resources/art/l33t4ng3l/tripplehelix-resize.jpg)
