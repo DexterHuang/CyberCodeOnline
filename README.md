@@ -17,8 +17,8 @@ Web
 
 Mobile
 
-![2](https://github.com/DexterHuang/CyberCodeOnline/raw/master/resources/screenshot/2.jpg)
-![6](https://github.com/DexterHuang/CyberCodeOnline/raw/master/resources/screenshot/6.jpg)
+![2](/resources/screenshot/2.jpg)
+![6](/resources/screenshot/6.jpg)
 
 ### Bug Report / Suggestion
 If you have any bugs, requests or suggestions please feel free to create an Issue on this repo :) 
