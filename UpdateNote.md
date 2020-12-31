@@ -29,6 +29,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 **remember to add your name in this doc when you create a PR**
 
 ## Recent Updates
+### **2020/12/30 - v0.275**
+ * Fix android back button issue
+
 ### **2020/12/30 - v0.269**
  * Now visited door in dungeons will be marked greyed out
  * Updated the button of update modal
