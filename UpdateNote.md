@@ -20,6 +20,7 @@
  * [RubenVerg](https://github.com/rubenverg)
  * [s3rvant](https://github.com/s3rvant)
  * [Tripplehelix](https://github.com/tripplehelix)
+ * [Deckeeper](https://github.com/deckeeper)
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 #### Need help:
  * ContributeContent.json <-- really need help with this, specially if you are good at creative wording and stuff
