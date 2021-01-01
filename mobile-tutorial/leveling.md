@@ -4,9 +4,7 @@ This is where all your other levels will cap out. You can increase your player l
 
 # Printing Rank
 
-Printing level determines the level of the equipment you will print. Meaning if you have a printing level of 10, you will print lvl 10 equipment. Printing level can never go higher than your player level. You can level your printing rank by printing equipment, reverse Engineering in Job Hub or printing AFK Task in Job Hub.  
-
-Use your trash caches to bring you print level up before printing the items you want to print, then you can scrap them and then reverse engineer those scraps to increase your level.
+Printing level determines the level of the equipment you will print. Meaning if you have a printing level of 10, you will print lvl 10 equipment. Printing level can never go higher than your player level. You can level your printing rank by printing equipment, reverse Engineering in Job Hub or printing AFK Task in Job Hub. 
 
 # Medical Science
 
@@ -22,4 +20,4 @@ With higher scavenge level you can scavenge for tech parts in higher level locat
 
 # Mining Skill
 
-With higher mining level you can earn more BTC per 15 minutes of afk mining. You can get mining experience by completing the afking mining job.
+With higher mining level you can earn more BTC per 15 minutes of afk mining. You can get mining experience by completing the afking mining job. With higher mining level, you can craft AI cores more efficiently.

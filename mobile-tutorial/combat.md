@@ -27,7 +27,7 @@ Enemies can have modifiers, which are indicated by an adjective before the bad g
 **Mad** gives the bad guy +10% damage.  
 **Angry** gives the bad guy +10% damage.  
 **Tough** gives the bad guy +20% defence.  
-**Agile** gives the bad guy +20% stun evade.  
+**Agile** gives the bad guy +20% stun evade and a shield.  
 **Shielded** gives the bad guy a large shield.  
 
 The player can also pick up modifiers by speaking to the good guy in the dungeons who is represented as a '?', these modifiers are as follows,
