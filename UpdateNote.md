@@ -31,6 +31,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Recent Updates
 ### **2021/01/01- v0.276** 
+ * Added image to Weapon Smith on mobile (drawn by [l33t4ng3l](https://github.com/tinamilford))
  * New Tutorial is added to mobile
  
 ### **2020/12/31 - v0.275** 
