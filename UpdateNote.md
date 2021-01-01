@@ -8,6 +8,7 @@
  * [Archibaald](https://github.com/Archibaald-dev)
  * [Arky](https://www.instagram.com/andreiarky)
  * [Blackstormx](https://github.com/blackstormx)
+ * [CMDR7](https://github.com/cmdr7)
  * [Humboer](https://github.com/stphnhng)
  * [hildjj](https://github.com/hildjj)
  * [Kimi Leta](https://github.com/kimileta)
@@ -19,7 +20,6 @@
  * [RubenVerg](https://github.com/rubenverg)
  * [s3rvant](https://github.com/s3rvant)
  * [Tripplehelix](https://github.com/tripplehelix)
-
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 #### Need help:
  * ContributeContent.json <-- really need help with this, specially if you are good at creative wording and stuff
