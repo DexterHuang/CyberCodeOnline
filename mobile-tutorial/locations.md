@@ -1,22 +1,22 @@
-# Locations
+## Locations
 You start off in Shangri La, in the City Center.From there, you can explore the various regions by going to different subway stations. 
 
 ## Shangri La City Center  
 This is the main hub, to which you will often return. This is where you will respawn when you die, and where you will come back to after filling your inventory with loot. You will also find everything listed below here.  
 
-- 3D Molecular Printer  
+## 3D Molecular Printer  
 In the City Center, there is the Molecular 3D Printer, which can be used on your caches. It costs BTC to print, so make sure you have enough. All details including BTC cost and experience it will give will be listed on the cache printing panel.  
 
-- Weaponsmith  
+## Weaponsmith  
 The weaponsmith allows you to buy weapons and equipment or repair your gear with a small amount of BTC.  
 
-- Trinoky Mart  
+## Trinoky Mart  
 Here you can buy medical items with BTC. Prices are completely separate from the player market, so be sure to check both!  
 
-- Terminal  
+## Terminal  
 The terminal is used to merge key fragments into a key to unlock the next train station.  
 
-- Shangri-La State Bank  
+## Shangri-La State Bank  
 In addition to your inventory, each player also has access to a vault in the Shangri-La State Bank, which is located in the Central Hub (Shangri-La State City Center). To start with, you have 6 item slots. You can choose to permanently expand slots by paying BTC. Multiples of the items can be stacked just like your inventory. Each deposit will cost 100 BTC, however taking items back out is free.  
 
 ## Hyper Train Central Station  
