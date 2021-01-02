@@ -1,35 +1,41 @@
 
 # Update Notes
 
-**CyberCode Online** is currently under an early and heavy development stage, which means many changes and new features are being added every day! That also means many stats are being adjusted all the time. So, if you have anything to suggest, feel free to [create an issue](https://github.com/DexterHuang/CyberCodeOnline/issues), if it is good it will very likely end up in this list.
+**CyberCode Online** is currently under an early and heavy development stage, which means many changes and new features are being added every day! That also means many stats are being adjusted all the time. So, if you have anything to suggest, feel free to [create an issue](https://github.com/DexterHuang/CyberCodeOnline/issues) or [join our discord](https://discord.gg/JREx8xz).
 
-## Contributors:
- * [AdmiralDiemos](https://github.com/danofsatx)
- * [Archibaald](https://github.com/Archibaald-dev)
- * [Arky](https://www.instagram.com/andreiarky)
- * [Blackstormx](https://github.com/blackstormx)
- * [CMDR7](https://github.com/cmdr7)
- * [Humboer](https://github.com/stphnhng)
- * [hildjj](https://github.com/hildjj)
- * [Kimi Leta](https://github.com/kimileta)
- * [l33t4ng3l](https://github.com/tinamilford)
- * [levi middleton](https://github.com/levi-middleton)
- * [mr_moe](https://github.com/donburks)
- * [Omnipotent_God](https://github.com/Omnipotent-God)
- * [PotatoMan](https://github.com/PotatoMan145)
- * [RubenVerg](https://github.com/rubenverg)
- * [s3rvant](https://github.com/s3rvant)
- * [Tripplehelix](https://github.com/tripplehelix)
- * [Deckeeper](https://github.com/deckeeper)
-If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
+## Contributors:  
+
+[AdmiralDiemos](https://github.com/danofsatx)  
+[Archibaald](https://github.com/Archibaald-dev)  
+[Arky](https://www.instagram.com/andreiarky)  
+[Blackstormx](https://github.com/blackstormx)  
+[CMDR7](https://github.com/cmdr7)  
+[Deckeeper](https://github.com/deckeeper) 
+[Humboer](https://github.com/stphnhng)  
+[hildjj](https://github.com/hildjj)  
+[Kimi Leta](https://github.com/kimileta)  
+[l33t4ng3l](https://github.com/tinamilford)  
+[levi middleton](https://github.com/levi-middleton)  
+[mr_moe](https://github.com/donburks)  
+[Omnipotent_God](https://github.com/Omnipotent-God)  
+[PotatoMan](https://github.com/PotatoMan145)  
+[RubenVerg](https://github.com/rubenverg)  
+[s3rvant](https://github.com/s3rvant)  
+[Tripplehelix](https://github.com/tripplehelix)  
+
+  
+If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).  
+
 #### Need help:
- * ContributeContent.json <-- really need help with this, specially if you are good at creative wording and stuff
- * Tips.md
- * Tutorial.md <-- now replaced with separate files in the tutorial folder and mobile-tutorial folder
+ * ContributeContent.json <-- Really need help with this, specially if you are good at creative wording.  
+ * Tips.md  
+ * mobile-tutorial/*  
+ * tutorial/*  
 
-**remember to add your name in this doc when you create a PR**
+**Remember to add your name in this doc when you create a PR**
 
-## Recent Updates
+## Updates Log  
+
 ### **2021/01/01- v0.276** 
  * Added image to Weapon Smith on mobile (drawn by [l33t4ng3l](https://github.com/tinamilford))
  * New Tutorial is added to mobile
