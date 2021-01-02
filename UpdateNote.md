@@ -36,6 +36,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log  
 
+### **2021/01/03- v0.276** 
+ * Fix issue with iOS app couldnt start (need to download new version from appstore)
+ * Fix iOS swipeback going to broken page
+ 
 ### **2021/01/01- v0.276** 
  * Added image to Weapon Smith on mobile (drawn by [l33t4ng3l](https://github.com/tinamilford))
  * New Tutorial is added to mobile
