@@ -24,9 +24,11 @@ With this option you can try to escape from combat. The success rate of escaping
   
 The combat screen will show you how much health and shield you and your opponent both have, as well as the amount of ammo you have for each of your weapons and the approximate damage they can do.  
   
-## Modifiers
+## Enemy Modifiers
   
 Enemies can have modifiers, which are indicated by an adjective before the bad guys name e.g. "**Mad** Serial Killer", these modifiers are as follows,
+
+
 
 ### Mad
 Gives the bad guy +10% damage.
@@ -38,6 +40,8 @@ Gives the bad guy +20% defence.
 Gives the bad guy +20% stun evade and a shield.
 ### Shielded
 Gives the bad guy a large shield.
+  
+## Player Modifiers
   
 The player can also pick up modifiers by speaking to the good guy in the dungeons who is represented as a '?', these modifiers are as follows,  
   
