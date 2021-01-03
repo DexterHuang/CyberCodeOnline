@@ -21,7 +21,7 @@
 [PotatoMan](https://github.com/PotatoMan145) 
 [RubenVerg](https://github.com/rubenverg) 
 [s3rvant](https://github.com/s3rvant) 
-[Tripplehelix](https://github.com/tripplehelix) 
+[Tripplehelix](https://github.com/tripplehelix)  
 
 
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).  
