@@ -28,8 +28,6 @@ The combat screen will show you how much health and shield you and your opponent
   
 Enemies can have modifiers, which are indicated by an adjective before the bad guys name e.g. "**Mad** Serial Killer", these modifiers are as follows,
 
-
-
 ### Mad
 Gives the bad guy +10% damage.
 ###  Angry
@@ -55,7 +53,8 @@ Gives the player +15% damage.
 Gives the player +20% damage.  
 ### Overcharged V
 Gives the player +25% damage.  
-<br />
+  
+  
 ### Reinforced I
 Gives the player +5% defence.
 ### Reinforced II
@@ -66,7 +65,8 @@ Gives the player +15% defence.
 Gives the player +20% defence.
 ### Reinforced V
 Gives the player +25% defence.  
-<br />
+  
+  
 ### Shield Enhance I
 Gives the player +5% shield multiplier.
 ### Shield Enhance II
