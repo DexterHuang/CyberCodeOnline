@@ -36,6 +36,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 **Remember to add your name in this doc when you create a PR**
 
 ## Updates Log  
+### **2021/01/06- v0.283**
+ * Remove exp gained from crafting painway 
+ 
 ### **2021/01/05- v0.283** 
  * Added dungeon listing page, you can now see all public dungeons to join
  * You may create dungeon with public or private setting
