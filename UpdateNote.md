@@ -20,6 +20,7 @@ Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee
 * [l33t4ng3l](https://github.com/tinamilford)
 * [levi middleton](https://github.com/levi-middleton) 
 * [mr_moe](https://github.com/donburks) 
+* [mxjoda](https://github.com/mxjoda)
 * [Omnipotent_God](https://github.com/Omnipotent-God)
 * [PotatoMan](https://github.com/PotatoMan145) 
 * [RubenVerg](https://github.com/rubenverg) 
