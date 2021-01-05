@@ -37,7 +37,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log  
 ### **2021/01/06- v0.283**
- * Remove exp gained from crafting painway 
+ * Reduce Medical Tech Part drop rate from scrapping PainAway
  
 ### **2021/01/05- v0.283** 
  * Added dungeon listing page, you can now see all public dungeons to join
