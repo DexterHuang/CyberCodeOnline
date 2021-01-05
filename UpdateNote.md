@@ -36,6 +36,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 **Remember to add your name in this doc when you create a PR**
 
 ## Updates Log  
+### **2021/01/05- v0.283** 
+ * Added dungeon listing page, you can now see all public dungeons to join
+ * You may create dungeon with public or private setting
+ * You may create password protected dungeon, to ensure only you friends enters the dungeon
+ 
 ### **2021/01/04- v0.276** 
  * You now can scrap PainAway to Medical Tech Parts 
 
