@@ -39,6 +39,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log  
 ### **2021/01/06- v0.283**
+ * Fix chance based scrap
  * Added back send dungeon invite to global chat
  * Reduce Medical Tech Part drop rate from scrapping PainAway
  
