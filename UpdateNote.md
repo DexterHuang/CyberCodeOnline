@@ -3,6 +3,8 @@
 
 **CyberCode Online** is currently under an early and heavy development stage, which means many changes and new features are being added every day! That also means many stats are being adjusted all the time. So, if you have anything to suggest, feel free to [create an issue](https://github.com/DexterHuang/CyberCodeOnline/issues) or [join our discord](https://discord.gg/JREx8xz).
 
+Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee.com/cybercodeonline).
+
 ## Contributors:  
 
 * [AdmiralDiemos](https://github.com/danofsatx) 
@@ -11,22 +13,21 @@
 * [Blackstormx](https://github.com/blackstormx) 
 * [CMDR7](https://github.com/cmdr7) 
 * [Deckeeper](https://github.com/deckeeper) 
+* [DexterHuang](https://github.com/DexterHuang)
 * [Humboer](https://github.com/stphnhng) 
 * [hildjj](https://github.com/hildjj) 
 * [Kimi Leta](https://github.com/kimileta) 
-* [l33t4ng3l](https://github.com/tinamilford) 
+* [l33t4ng3l](https://github.com/tinamilford)
 * [levi middleton](https://github.com/levi-middleton) 
 * [mr_moe](https://github.com/donburks) 
-* [Omnipotent_God](https://github.com/Omnipotent-God) 
+* [Omnipotent_God](https://github.com/Omnipotent-God)
 * [PotatoMan](https://github.com/PotatoMan145) 
 * [RubenVerg](https://github.com/rubenverg) 
 * [s3rvant](https://github.com/s3rvant) 
-* [Tripplehelix](https://github.com/tripplehelix)  
-
-
+* [Tripplehelix](https://github.com/tripplehelix)
+  
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).  
-
-
+  
 #### Need help:
  * ContributeContent.json <-- Really need help with this, specially if you are good at creative wording.  
  * Tips.md  
