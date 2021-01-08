@@ -38,6 +38,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 **Remember to add your name in this doc when you create a PR**
 
 ## Updates Log
+### **2021/01/08- v0.283**
+ * Fix bug related to player market
+ * Now systme will send an email when item is being returned from market to inbox
+ 
 ### **2021/01/07- v0.283**
  * The system will also send you a email when sending a gift
  * display hint to update browser when in older broswer such as IE11 or very old Android phone
