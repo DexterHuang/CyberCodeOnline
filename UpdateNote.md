@@ -39,6 +39,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log
 ### **2021/01/08- v0.283**
+ * Added Market Capacity stat, increases max item can be sold in market, drops on armor rare +
+ * When click on stat in item detail, description text will pop
+ * Added descrptions to all stats
+ * Mobile item detail page minor UI fix
  * Fix bug related to player market
  * Now systme email when item is being returned from market to inbox will include item names
  
