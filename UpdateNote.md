@@ -40,7 +40,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ## Updates Log
 ### **2021/01/08- v0.283**
  * Fix bug related to player market
- * Now systme will send an email when item is being returned from market to inbox
+ * Now systme email when item is being returned from market to inbox will include item names
  
 ### **2021/01/07- v0.283**
  * The system will also send you a email when sending a gift
