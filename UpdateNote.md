@@ -39,6 +39,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log
 ### **2021/01/08- v0.283**
+ * Player platform icon is now updated
  * Fix sorting issue in some inventory
  * Added Healing Multiplier stat, increase amount you heal yourself or your allies, drops on armor rare + 
  * Healing item can now be used outside combat
