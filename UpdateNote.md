@@ -38,6 +38,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 **Remember to add your name in this doc when you create a PR**
 
 ## Updates Log
+### **2021/01/09- v0.283**
+ * Now its not possible to create chracter with names that has only capitalization difference with other player
+ 
 ### **2021/01/08- v0.283**
  * Player platform icon is now updated
  * Fix sorting issue in some inventory
