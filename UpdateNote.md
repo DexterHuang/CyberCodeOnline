@@ -39,6 +39,8 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log
 ### **2021/01/09- v0.283**
+ * Changed logo to new version on mobile login screen
+ * Added review popup
  * Now its not possible to create chracter with names that has only capitalization difference with other player
  
 ### **2021/01/08- v0.283**
