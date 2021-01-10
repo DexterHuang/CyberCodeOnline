@@ -39,6 +39,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log
 ### **2021/01/10- v0.283**
+ * Possible fix on dungeon desync issue
  * Fix backdrop blur effect on ios
 
 ### **2021/01/09- v0.283**
