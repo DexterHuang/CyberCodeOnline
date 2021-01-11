@@ -38,6 +38,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 **Remember to add your name in this doc when you create a PR**
 
 ## Updates Log
+### **2021/01/11- v0.290**
+ * Added quick slots, you can assign usable item to your quickslot, and can be used with one click during combat (mobile only)
+ 
 ### **2021/01/10- v0.283**
  * Possible fix on dungeon desync issue
  * Fix backdrop blur effect on ios
