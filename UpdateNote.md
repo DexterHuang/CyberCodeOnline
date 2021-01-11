@@ -39,6 +39,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log
 ### **2021/01/11- v0.290**
+ * Updated combat UI on mobile
  * Added quick slots, you can assign usable item to your quickslot, and can be used with one click during combat (mobile only)
  
 ### **2021/01/10- v0.283**
