@@ -11,6 +11,7 @@ Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee
 * [Archibaald](https://github.com/Archibaald-dev) 
 * [Arky](https://www.instagram.com/andreiarky) 
 * [Blackstormx](https://github.com/blackstormx) 
+* [CelesMeh](https://www.instagram.com/celesmeh) 
 * [CMDR7](https://github.com/cmdr7) 
 * [Deckeeper](https://github.com/deckeeper) 
 * [DexterHuang](https://github.com/DexterHuang)
