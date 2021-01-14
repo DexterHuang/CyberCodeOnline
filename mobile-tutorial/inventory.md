@@ -28,7 +28,8 @@ Items that other players send will be automatically placed in your item inbox an
 
 ## Crafting
 
-This tab in your inventory allows you to craft medical items and ammo using medical tech parts and ammunition tech parts.  
+This tab in your inventory allows you to craft three different types of items: medical, ammo, and material. Medical crafting uses medical tech parts. Ammo crafting uses both ammo tech parts and military ammo tech parts. Material crafting uses hash processor and turns them into ai cores. As you level up the relevant skills (medical science, ammo crafting, and mining) you will open new recipes and be more proficient, allowing you to craft more and better items.
+ 
 
 ## Molecular Printing
 
