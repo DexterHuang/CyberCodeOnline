@@ -4,12 +4,12 @@
 
 #### Sales and Marketing
 
-The MeshNet terminal chimed with a request and a set of co-ordinates. 
+The `MeshNet` terminal chimed with a request and a set of co-ordinates. 
 
 _"Hmmmm.."_
 
 Humming, Sera' packed up a full load-out of caseless, some armour-piercing
-and their new demo model (because she was in sales after all), put up the
+and their new demo model (she was in sales after all), put up the
 `GON OUT BIZY BACK SON` sign and happily locked the door to the _Wepponne
 Shoppe_. 
 
@@ -20,7 +20,7 @@ up a full set of mags.
 
 _"6 mags of ordinary on your left, 2 armour piercing on your right, should be
 enough .. oh, and I brought you this to try out.."_  
-_"Thanks, you're an **angel**!"_  
+_"Thanks, you're an angel!"_  
 _"Duh!! A seraphim is an angel, dummy! Sign here.."_. 
 
 He reached back an arm without looking and she scanned the QR code tattooed on his wrist.

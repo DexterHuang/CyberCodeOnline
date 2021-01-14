@@ -23,7 +23,7 @@ Down at the warehouse it had basically degenerated into trench warfare.
 
 _"Street!"_
 
-He sprinted along the ledge and leaped, deploying his matte black combat canopy almost immediately. The building was just barely high enough, leaving not very much margin for error. Kinda like life really. Beta touched down just behind him and they leap-frogged up the street to come up just behind the goons. 
+He sprinted along the ledge and leaped, deploying the matte black combat canopy almost immediately. The building was just barely high enough, leaving not very much margin for error. Kinda like life really. Beta touched down just behind him and they leap-frogged up the street to come up just behind the goons. 
 
 After that, not much..
 

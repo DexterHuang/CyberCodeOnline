@@ -12,7 +12,8 @@ up from behind the counter.
   up a bit later though."_
 
 She glanced down towards the end where the single customer was oblivious to anything
-other than the bells and lights and flippers of the Palace's ancient and only pachinko table. Kinda cute though. Rena was laughing at her:
+other than the bells and lights and flippers of the _Palace_'s ancient and only pachinko
+table. Kinda cute though. Rena was laughing at her:
 
   _"Rule #1, do not do the clientele"_  
   _".. on the pachinko table."_ she chimed in with a grin. Rena picked up her stuff and
