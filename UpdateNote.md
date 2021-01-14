@@ -39,6 +39,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 **Remember to add your name in this doc when you create a PR**
 
 ## Updates Log
+### **2021/01/14- v0.296**
+ * Major under-the-hood update, item disappearing in transit should be fixed now
+ 
 ### **2021/01/11- v0.290**
  * Updated combat UI on mobile
  * Added quick slots, you can assign usable item to your quickslot, and can be used with one click during combat (mobile only)
