@@ -41,6 +41,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log
 ### **2021/01/14- v0.296**
+ * Merged contributed word list into game 
  * Added lock feature, you can lock your item to prevent it from being scrapped or sold to npc accidentally
  * Major under-the-hood update, item disappearing in transit should be fixed now
  
