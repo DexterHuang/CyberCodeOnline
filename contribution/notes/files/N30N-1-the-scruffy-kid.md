@@ -1,9 +1,12 @@
-##### The Scruffy Kid
+# N30N C1RCUS
+
+#### Tales from the Hangout
+
+##### The Scruffy Kid's Lucky Day
 
 A slap echoed down the alley..
 
-  _"Gimme dose! Where'd ya get 'em anyway?"_
-
+  _"Gimme dose! Where'd ya get 'em anyway?"_  
  _"Traded for em, honest, I did"_ came the sniffled reply.
 
 The goon made to move off down the darkened street, stopped a moment, thought, and
@@ -38,8 +41,7 @@ As the shadow detached itself from the wall and started away the kid called out:
 A hand reached out to take them and the whisper again, this time with the ghost of
 a smile:
 
-  _"Seems like a good deal to me"_
-
-  _"Miste, what's a Worzel?"_
+  _"Seems like a good deal to me"_  
+  _"Mister, what's a Worzel?"_
 
 But there wasn't anything or anybody there to answer.

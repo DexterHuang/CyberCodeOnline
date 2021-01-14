@@ -1,3 +1,7 @@
+# N30N C1RCUS
+
+#### DecKeeper: Origins
+
 Once there was a.. - wait no. It doesn't seem right. Okay. Once upon a tim.. no it isn't this either. Okay, time.
 Well how **do** you open up a story?
 
@@ -39,15 +43,15 @@ to Flori Station.
 
 My next actions are really vague in my memory. The last thing I remember is me and the kid hiding in a dirty sleeping room of a train. The Kid suddenly woke up and panicked.
 
-_"Where are we ?"_
-_"On a train."_
-_"Where are we going?"_
-_"To my hometown."_
+_"Where are we ?"_  
+_"On a train."_  
+_"Where are we going?"_  
+_"To my hometown."_  
 
 He was in absolute shock. After a few seconds he started remembering me and what happened.
 
-_"You.. You saved me."_
-_"Yes I did."_
+_"You.. You saved me."_  
+_"Yes I did."_  
 _"Thank you so much!"_
 
 I didn't respond. Thankfully the train horn started making it's usual annoying noise. This means we were near the City Center. I started running towards the exit door and the Kid followed me. I tried to lose him in the crowd but he somehow managed to keep up with me.
@@ -60,8 +64,7 @@ _"You will need them if you want to visit the Flori areas again. You can print t
 
 I once again tried to lose him in the crowd. His soft voice stopped me once again.
 
-_"YOU DIDN’T TELL ME YOUR NAME !"_
-
+_"YOU DIDN’T TELL ME YOUR NAME !"_  
 _"My name is Deckeeper. Welcome to Shangri-La !"_
 
 TO BE CONTINUED ! 

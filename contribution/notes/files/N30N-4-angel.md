@@ -1,4 +1,8 @@
-##### The 4ng3l
+# N30N C1RCUS
+
+#### Tales from the Hangout
+
+##### Str33t 4ng3l
 
 People unobtrusively made way for her as she sashayed down the street. It was a good
 sashay she thought, the kind that separated the girls from the boys, and there was
@@ -12,11 +16,11 @@ went white as his buddy kicked his shin - **hard** - and whispered a warning.
 
   _"What?!? This lil' ol' thing here? It isn't even loaded"_ she said, placing the somewhat ornate but nonetheless pretty amnesia laser on the bar top.
 
-  He laughed: _"That one might not be! All the rest definitely are .. your usual?"".
+  He laughed: _"That one might not be! All the rest definitely are .. your usual?"_.
 
 She sipped her drink until it was time and then left quietly. Outside, she slipped into
 the shadows, moving economically. Biz time.
 
 Inside, a guy at the other end of the bar asked wonderingly: _"Uh, was that l33t4ng3l?"_
 
-_"Yup. You met the 4ng3l!"_said Frank. _"And lived to tell your friends!"_ he lied, sliding a rohypnol laced beer across the counter. One question too many.
+_"Yup. You met the 4ng3l!"_ said Frank. _"And lived to tell your friends!"_ he lied, sliding a rohypnol laced beer across the counter. One question too many.

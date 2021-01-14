@@ -1,3 +1,7 @@
+# N30N C1RCUS
+
+#### Tales from the Hangout
+
 #### Sales and Marketing
 
 The MeshNet terminal chimed with a request and a set of co-ordinates. 
@@ -15,12 +19,11 @@ cheerfully, she leopard-crawled across below the parapet, and helpfully loaded
 up a full set of mags.
 
 _"6 mags of ordinary on your left, 2 armour piercing on your right, should be
-enough .. oh, and I brought you this to try out.."_
+enough .. oh, and I brought you this to try out.."_  
+_"Thanks, you're an **angel**!"_  
+_"Duh!! A seraphim is an angel, dummy! Sign here.."_. 
 
-_"Thanks, you're an **angel**!"
-
-_"Duh!! A seraphim is an angel, dummy! Sign here.."_. He reached back an arm
-without looking and she scanned the QR code tattooed on his wrist.
+He reached back an arm without looking and she scanned the QR code tattooed on his wrist.
 
 _"'k, be good!"_. 
 
@@ -28,5 +31,5 @@ She patted him affectionately on the butt and made her way back across to the
 fire escape, pausing ever so briefly to drop a frag grenade down the stairwell
 as a friendly welcome gift for the hoods trying to sneak up on a regular customer.
 
-_"No charge"_ she called back over her shoulder, and skipped happily out of there,
+_"No charge"_ she called back over her shoulder, skipping happily out of there,
 her good deed for the day all done.
