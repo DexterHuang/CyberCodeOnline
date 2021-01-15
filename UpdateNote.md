@@ -40,6 +40,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 **Remember to add your name in this doc when you create a PR**
 
 ## Updates Log
+### **2021/01/15- v0.296**
+ * Fix issue with AFK task not getting any loot sometimes
+ * Merged word list into game
+ 
 ### **2021/01/14- v0.296**
  * Merged contributed word list into game 
  * Added lock feature, you can lock your item to prevent it from being scrapped or sold to npc accidentally
