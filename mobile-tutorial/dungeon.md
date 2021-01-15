@@ -13,7 +13,7 @@ These are the two dungeons you are able to enter. The [normal] dungeon will incl
   
 Here you can see the first room of a dungeon. The icon on the bottom middle is a way out of the dungeon and does the same thing as the 'Quit Dungeon' button. You can also see a door in the middle at the top which will take you to another room of the dungeon. You can find these doors on all sides of the dungeon.  
 
-This is also an example of a room that has been completed, note the greyed out crates, signifying that they have been used. Also see the door on the right wall is also greyed out, meaning you have already been though it. This is a good way to not get lost when exploring the dungeons. 
+This is also an example of a room that has been completed, note the greyed out crates, signifying that they have been used. Also see the door on the right wall is also greyed out, meaning you have already been through it. This is a good way to not get lost when exploring the dungeons. 
 
 ### Enemies
   
@@ -37,7 +37,7 @@ Something else that's different in this image is the '?'. This represents the go
   
 ![DungeonGoodguy2](/resources/mobile-tutorial/DungeonGoodguy2.png)
   
-Here is an example of the dialoue that pops up after clicking on the '?'. They will usually ask for one item in return for another item or power up. It is up to you to decide if the trade is worth while, however if you can afford it, it is always worth taking for the xp it provides. Some of the text on this screen is randomly generated from a file, so you may get odd references or funny dialogues.
+Here is an example of the dialogue that pops up after clicking on the '?'. They will usually ask for one item in return for another item or power up. It is up to you to decide if the trade is worthwhile, however if you can afford it, it is always worth taking for the xp it provides. Some of the text on this screen is randomly generated from a file, so you may get odd references or funny dialogues.
 
 ### Treasure / Boss Room
   
@@ -59,4 +59,4 @@ In the second image, at the bottom under the 'quit dungeon' button you will find
 ![DungeonCoop4](/resources/mobile-tutorial/DungeonCoop4.png)
 ![DungeonCoop3](/resources/mobile-tutorial/DungeonCoop3.png)
   
-When creating a dungeon you may have noticed you get to name it and choose if its public or not, this is for these screens. In the first image you can see I have pressed the floating button in the bottom right, this is where you can view the list of currently open dungeons. Clicking on it will open the second image. In the top right you can find the dungeon level and in the middle you can see a list of players and their status. At the bottom it shows how many enemies are left, if you wish you can join a nearly empty dungeon to claim all the loot or look for a new one for the xp.
+When creating a dungeon you may have noticed you get to name it and choose if its public or not, this is for these screens. In the first image you can see I have pressed the floating button in the bottom right, this is where you can view the list of currently open dungeons. Clicking on it will open the second image. In the top right you can find the dungeon level and in the middle you can see a list of players and their status. At the bottom it shows how many enemies are left, if you wish you can join a nearly empty dungeon to claim all the loot or look for a new one for the xp
