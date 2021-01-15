@@ -6,3 +6,5 @@ So for a screenshot of a coop dungeon you would put;
 `dungeoncoop.jpg`
   
 This will keep everything organised and easy to find.  
+
+Images are a standard 500px across.
