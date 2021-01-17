@@ -21,6 +21,7 @@ Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee
 * [Kimi Leta](https://github.com/kimileta) 
 * [l33t4ng3l](https://github.com/tinamilford)
 * [levi middleton](https://github.com/levi-middleton) 
+* [Luako](https://github.com/luako)
 * [mr_moe](https://github.com/donburks) 
 * [mxjoda](https://github.com/mxjoda)
 * [Omnipotent_God](https://github.com/Omnipotent-God)
