@@ -40,6 +40,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 **Remember to add your name in this doc when you create a PR**
 
 ## Updates Log
+### **2021/01/17- v0.296**
+ * Change "By Me a Coffee" to Patreon
+ * Added new progression quest lines
+ 
 ### **2021/01/16- v0.296**
  * Added notes into dungeon, you should see random notes (Community Contributed) in dungeons
  
