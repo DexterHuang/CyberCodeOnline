@@ -42,8 +42,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ## Updates Log
 ### **2021/01/16- v0.296**
  * Added notes into dungeon, you should see random notes (Community Contributed) in dungeons
- * Added over 150+ new enemies 
- * You can now see useful tips on the mobile version while AFK
+ * Added over 150+ new enemies  
  * You can now encounter "!" in dungeons to read CCO Lore pages and tablets
  
 ### **2021/01/15- v0.296**
