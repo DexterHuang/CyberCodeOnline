@@ -21,6 +21,7 @@ Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee
 * [Kimi Leta](https://github.com/kimileta) 
 * [l33t4ng3l](https://github.com/tinamilford)
 * [levi middleton](https://github.com/levi-middleton) 
+* [Luako](https://github.com/luako)
 * [mr_moe](https://github.com/donburks) 
 * [mxjoda](https://github.com/mxjoda)
 * [Omnipotent_God](https://github.com/Omnipotent-God)
@@ -40,8 +41,16 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 **Remember to add your name in this doc when you create a PR**
 
 ## Updates Log
+### **2021/01/17- v0.296**
+ * Change "By Me a Coffee" to Patreon
+ * added placeholder image for mart
+ * Added new progression quest lines
+ * Added more healing items
+ 
 ### **2021/01/16- v0.296**
  * Added notes into dungeon, you should see random notes (Community Contributed) in dungeons
+ * Added over 150+ new enemies  
+ * You can now encounter "!" in dungeons to read CCO Lore pages and tablets
  
 ### **2021/01/15- v0.296**
  * Fix issue with AFK task not getting any loot sometimes

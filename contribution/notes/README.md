@@ -5,3 +5,7 @@
 3. Create PR, once merged, the new entry will be included in the game automatically
 4. ????
 5. Profit
+
+# Usefull Resourse 
+
+- Markdown Editor: https://stackedit.io/app#
