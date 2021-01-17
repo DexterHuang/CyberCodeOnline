@@ -43,9 +43,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ## Updates Log
 ### **2021/01/17- v0.296**
  * Change "By Me a Coffee" to Patreon
- * added placeholder image for mart
+ * Added placeholder image for mart
  * Added new progression quest lines
  * Added more healing items
+ * Over 100+ new sub-locations
  
 ### **2021/01/16- v0.296**
  * Added notes into dungeon, you should see random notes (Community Contributed) in dungeons
