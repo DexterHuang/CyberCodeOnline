@@ -48,6 +48,8 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  
 ### **2021/01/16- v0.296**
  * Added notes into dungeon, you should see random notes (Community Contributed) in dungeons
+ * Added over 150+ new enemies  
+ * You can now encounter "!" in dungeons to read CCO Lore pages and tablets
  
 ### **2021/01/15- v0.296**
  * Fix issue with AFK task not getting any loot sometimes
