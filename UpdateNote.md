@@ -42,6 +42,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log
 ### **2021/01/18- v0.296**
+ * Fix `Null` player name show up when its system message on web
  * You can now upgrade market slot
  
 ### **2021/01/17- v0.296**
