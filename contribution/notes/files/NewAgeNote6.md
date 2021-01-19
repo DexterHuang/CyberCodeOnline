@@ -1,6 +1,6 @@
->You pick up and E-corder with a video paused on
+[You pick up and E-corder with a video paused on
 the screen. It appears someone was recording 
-something
+something]
 
 (screen flickers)"Hi, my faithful followers!!! I'm SO 
 excited for the very first (audio cuts out slightly, 
@@ -13,4 +13,4 @@ meeeeeeee (the woman takes a quick camera pan of the rooms,
 showing a large group of people clad in red,grey and black 
 robes) 
 
-[The video cuts out abrutly as the E-corder powers off]
+>[The video cuts out abrutly as the E-corder powers off]
