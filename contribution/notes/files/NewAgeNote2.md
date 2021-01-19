@@ -1,6 +1,6 @@
 [A paper-thin E-pamphlet sits on the ground]
 
-##JOIN THE NEW AGE CHILDREN OF ENLIGHTMENT TODAY!!##
+#JOIN THE NEW AGE CHILDREN OF ENLIGHTMENT TODAY!!#
 
 [You open the E-pamphlet and see faded illustrations of
 a group of robed figures claded in red,black, and grey.]
