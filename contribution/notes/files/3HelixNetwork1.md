@@ -1,0 +1,27 @@
+[A librarium datadisk. Looks like its been left here a 
+long time. You pick it up and begin playing the media 
+stored on the disk.]
+
+>You can hear a crowd of people have gathered here. Noise
+of the tv with the news on can be heard.
+
+**Woman's voice:**"Happy Birthday sweetheart!"
+**Child's voice:**"Thanks mom!"
+**Woman's voice:**"Make a wis---"
+
+>The woman's voice is loudly interrupted by a crackling
+and high-pitched toned
+
+**Deep Man's Voice**:"Citizen of Shangri-La. You have been
+decieved. You cannot trust your government or even you 
+"supposed" free and open information source to be relied on.
+You have been brainwashed and lied to. At this very moment, 
+your mayor is making a shady, backalley deal with one of the most
+corrupted finacial institution here in the city. You media news
+outlets has been paid to deceive and lies to its citizens, intending
+to cover up the story so the mayor can appear to bring the city 
+into a new age of technology. This has been a courtesy announcement, 
+and wake up call from The 3Helix Network. We have given you the 
+information. Do what you will."
+
+>The announcement cuts off just as the media playback stops.
