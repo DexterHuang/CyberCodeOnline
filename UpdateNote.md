@@ -42,8 +42,8 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log
 ### **2021/01/19- v0.296**
- * Increase item max stack size to 2000
  * UI update on links page
+ * New CCO Lore "New Age: Children of Enlightenment"
  
 ### **2021/01/18- v0.296**
  * Fix `Null` player name show up when its system message on web
