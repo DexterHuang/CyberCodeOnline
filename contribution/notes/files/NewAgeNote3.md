@@ -1,11 +1,15 @@
-##Entrant Name: [Redacted] Marcochev
+#Entrant Name: [Redacted] Marcochev
+
 #Entrant Date: [Redacted]
+
 #Entrant Title: [Redacted]
+
 #Entrant NDCE Rank: Initiate
 
 >LOG DETAIL
+
 >I don't know if I can take anymore of this. At first I
-thought the New Day Enlightment thing was great. I came 
+thought the New Day Enlightenment thing was great. I came 
 off the street after losing my job and my wife left me.
 I found one of their E-pamphlets when I was looking at 
 the assignment board at the station. Free room and board,
