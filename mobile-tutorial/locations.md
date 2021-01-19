@@ -16,7 +16,7 @@ Here you can buy medical items with BTC. Prices are completely separate from the
 ## Terminal  
 The terminal is used to merge key fragments into a key to unlock the next train station.  
 
-## Shangri-La State Bank  
+## Bank of Arasaka
 In addition to your inventory, each player also has access to a vault in the Shangri-La State Bank, which is located in the Central Hub (Shangri-La State City Center). To start with, you have 6 item slots. You can choose to permanently expand slots by paying BTC. Multiples of the items can be stacked just like your inventory. Each deposit will cost 100 BTC, however taking items back out is free.  
 
 ## Hyper Train Central Station  
