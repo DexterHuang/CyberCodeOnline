@@ -1,8 +1,8 @@
 [A digital Record Table flickers slowly in the dark]
 
-## NEW AGE CHILDREN OF ENLIGHTMENT DOCTRINE NO.001 ##
+# NEW AGE CHILDREN OF ENLIGHTENMENT DOCTRINE NO.001 #
 
-  "We, Founding member of New Age Children of Enlightment,
+  "We, Founding member of New Age Children of Enlightenment,
   do hereby swear ... ... life as it is given to us. To ...
   ... the unknown new world. To end ... ... ... that tarnish 
   the bounty of this new age. Those ... ... suffer no  more 
