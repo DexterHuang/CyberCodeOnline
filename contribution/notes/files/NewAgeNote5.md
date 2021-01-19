@@ -1,4 +1,4 @@
-[Archived entry from a personal hospital terminal]
+>[Archived entry from a personal hospital terminal]
 
 I... I can't believe I got away from those crazy nut
 jobs. The last thing I remembered was my hand being
@@ -20,4 +20,4 @@ someone from the body mod shop that can get me a new hand.
 I'm just grateful i am alive. I hope whoever helped me are
 ok too. 
 
-[User has logged off the terminal...]
+>[User has logged off the terminal...]
