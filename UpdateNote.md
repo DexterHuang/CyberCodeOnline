@@ -46,6 +46,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * Major battery usage improvement, app should use less resource while idle now
  
 ### **2021/01/19- v0.296**
+ * Increase item max stack size to 2000
  * UI update on links page
  * New CCO Lore "New Age: Children of Enlightenment"
  
