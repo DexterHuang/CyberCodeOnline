@@ -17,8 +17,8 @@ decieved. You cannot trust your government or even you
 "supposed" free and open information source to be relied on.
 You have been brainwashed and lied to. At this very moment, 
 your mayor is making a shady, backalley deal with one of the most
-corrupted finacial institution here in the city. You media news
-outlets has been paid to deceive and lies to its citizens, intending
+corrupted finacial institution here in the city. Your media news 
+outlets have been paid to deceive and lie to its citizens, intending
 to cover up the story so the mayor can appear to bring the city 
 into a new age of technology. This has been a courtesy announcement, 
 and wake up call from The 3Helix Network. We have given you the 
