@@ -26,6 +26,6 @@ _"Tripp"_
 
 She half-listened as they moved away, rabbiting on about crits and BTC. Boy talk. 15 pages later she sighed, put the book down, because clearly Anna was not going to jump Alexei any time soon, and wandered down to reset the machine.
 
-Out of habit she glanced at the score list. `TRPLHLX`. Dude was clearly a bit shy around vowels and girls, and then narrowed her eyes at the actual score. Vowels or no vowels, the guy must have the reflexes of a cat. _"Bet I could make him purr like one too"_ she giggled.
+Out of habit she glanced at the score list. `TRPLHLX`. Dude seemed to be a bit shy around vowels and girls. And then narrowed her eyes at the actual score. Vowels or no vowels, the guy must have the reflexes of a cat. _"Bet I could make him purr like one too"_ she giggled.
 
 She gave the machine a wipe and went back to snow falling in Moscow. Maybe he'd be back. Maybe he wouldn't.
