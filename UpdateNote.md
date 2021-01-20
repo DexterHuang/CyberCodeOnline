@@ -41,6 +41,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 **Remember to add your name in this doc when you create a PR**
 
 ## Updates Log
+### **2021/01/20- v0.296**
+ * Added street dealer graphic, thanks to [l33t4ng3l](https://github.com/tinamilford) for the awesome art work!
+ 
 ### **2021/01/19- v0.296**
  * UI update on links page
  * New CCO Lore "New Age: Children of Enlightenment"
