@@ -1,3 +1,6 @@
+>Slightly cold from the dungeon, you try to find something to set on fire in an attempt to
+get warmed up. A sound looking board catches your attention.
+
 >You find a lone moldy wooden board in the middle of the room. It's not attached to anything,
 not to a post, or a skeleton. You walk up to it and picked it up. Moss and mildew covered the
 erroded board, with some faint writing "Looking to buy GF, 100000G". You are not sure what it 
