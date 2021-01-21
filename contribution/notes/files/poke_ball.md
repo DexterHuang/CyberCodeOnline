@@ -1,3 +1,5 @@
+>A small glint in the room catches your eye. You get closer to see what it is.
+
 >A circular device. Perfectly round, fits in the palm of your hand like a glove.
 You wonder how this ended up in the middle of nowhere. You look at the ball in your
 hand. Some kind of button in the middle of the device. You click it. Nothing happens.
@@ -7,5 +9,5 @@ was meant to transport something. Small, of course. You tossed the ball at the w
 be silly, hoping something would pop out. You were soundly met with disappointment.
 It fell to back on the ground after hitting the wall with a "tink" sound.
 
-You leave the ball where it fell. Leaving it for the next person to be met with the 
+>You leave the ball where it fell. Leaving it for the next person to be met with the 
 same disappointment you found yourself in.
