@@ -1,51 +1,42 @@
 ## Inventory
 
-*Plan to detail the inventory page here with focus on equipping gear / upgrades and where to go to handle the others such as crafting and printing. Also add a note about `ItemInbox.ts`.*
+You can access your inventory by clicking the option at the left menu bar. In your inventory, you can see all items that you own, including gears, upgrade modules, ammo, medical items, secret keys, cache, and other consumables. By clicking on the item, you can see the details of that item.  
 
-### Equipment
+You can choose to equip your gear by clicking the item. Equipped gear will be highlighted on the top of the inventory page. By clicking on your equipped gears, you can choose to install upgrade modules that will enhance certain values of that gear.  
 
-In your Inventory you can see your currently equipped items, secret keys, and all items in your inventory. 
+To remove installed upgrade modules, simply click on the installed module. Better quality gear have more upgrade module slots than lower quality gear.  
 
-In order to equip items, click on the equipment in your inventory. To equip upgrades to your equipment if they allow it (hover over an equipment and see whether the `upgradeSlots` is non-empty.), hover over the equipment and click the `Details`/`Upgrade Modules` box at the bottom of the popup. There, you can see the upgrades you have currently equipped and upgrades that you can equip. To equip or remove an upgrade, click on it.
+## Items in your Inventory
 
-### Scrapping
+Your cache in your inventory can be consumed to print out gear using the molecular printing function in City Centre.  
 
-Players can also scrap equipment or destroy caches in their inventory. Do so by hovering over the equipment/cache and clicking on `Scrap`/`Destroy`. If you would like to scrap multiple items at the same time, click on the `false` in `multiSelectMode=false`. This will turn into `multiSelectMode=true` and little boxes will pop up next to your inventory's items. Click on those boxes to select them and then click `scrapSelected` to scrap all selected. 
+Medical items can be consumed in dungeons to regenerate health (since your character cannot automatically regenerate health in dungeons).  
 
-Furthermore there is an `autoScrap()` button below your inventory which will scrap equipment that are trash/common and worse than your current equipment. 
+Ammo can be used to perform special attacks and destructive attacks during combat.
 
-<br />
+Secret key fragments that you obtained in dungeon chests can be merged into a secret key by brute-force in the terminal, which can be found in the City Centre. Secret keys will grant you access to higher level enemy spawns and dungeons.  
 
-### Molecular Printing
+Other consumables, for example Hash Processors and AI Cores can be used to perform AFK tasks.
 
-In the City Center, there is the Molecular 3D Printer, which is going to become your best friend. It will be in the `nearby` section of the `Surrounding.ts` file when you are in Shangri La City Center. Clicking on it will open another "file view" where you will be shown what available recipes you have in your inventory. It costs bitcoin to print, so make sure you have enough. It will tell you when you hover over the recipe how much it will cost.
+## Functions in your Inventory
 
-<br />
+By clicking the icons above your inventory list, you can filter out specific inventory. You will have 50 space, equipping gears with extra pocket status will give you more inventory space. To get rid of gears and upgrade modules, you can click on the **scrap** button. Every item scrapped will give you a tech scrap. To get rid of other items, you can click on the **destroy** button. Destroyed items will not give you anything in return so be cautious when performing this action.  
 
-Recipes are the objects in your inventory with the word `cache` in their name. For example `commonHelmetCache_x1` is an example of a recipe to print a Common helmet, and you only have one of them.
+## Item Inbox
 
-![Caches Screenshot](../resources/caches.png)
+Items that other players send will be automatically placed in your item inbox and will move to your main inventory when you have enough space for these items. Items will be moved to the main inventory after you perform an in-game action if you have the space.
 
-<br />
+## Crafting
 
-In the Molecular Printer screen, you can hover over any of the recipes and click `Molecular Print` which will bring up a dialog if you have multiple items that are the same, asking how many you want to print.
+This tab in your inventory allows you to craft three different types of items: medical, ammo, and material. Medical crafting uses medical tech parts. Ammo crafting uses both ammo tech parts and military ammo tech parts. Material crafting uses hash processor and turns them into ai cores. As you level up the relevant skills (medical science, ammo crafting, and mining) you will open new recipes and be more proficient, allowing you to craft more and better items.
+ 
 
-<br />
+## Molecular Printing
 
-A good strategy here is to print all the `trash` items first, then the `common`, saving `rare` and `legendary` for the end. The reason for this is printing the more common and useless items first boosts your Printing Level, giving you a better chance to print more powerful gear with any Rare and Legendary recipes you may have found.
+In the City Center, there is the Molecular 3D Printer, which can be used to print out gears from cache. It will appear when you are in Shangri La City Center. Clicking on it will bring you to the printing panel which lists all cache you have. It costs bitcoin to print, so make sure you have enough. All details including BTC cost and experience it will give will be listed on the cache printing panel.  
 
-> **Tip:** If you have a lot of bitcoin, you can just click on each recipe to bring up the quantity dialog and get it printed. This saves time on hovering.
-
-<br />
-
-Once you have printed all your recipes, you'll want to head over to your Inventory screen and see how much you can scrap and how much you can use.
-
-<br />
+In the Molecular Printer screen, you can click on the cache you wish to print which will bring up a dialog if you have multiple items that are the same, asking how many you want to print. A good strategy here is to print all the trash items first, then the common, saving rare and legendary for the end. The reason for this is printing the more common and useless items first boosts your Printing Level, giving you a better chance to print more powerful gear with any Rare and Legendary caches you may have found.  
 
 ## The WeaponSmith
 
-The Weaponsmith is a vendor in Shangri La City Center that allows you to sell items for bitcoin, and they often have items for purchase.
-
-<br />
-
-When you are in the Weaponsmith screen, hover over anything in your inventory and choose the `Sell` option. Alternately, you will see the items available for sale at the top. You can hover over any of them and choose `Buy` if you can afford them.
+The Weaponsmith is a vendor in Shangri La City Center that allows you to sell items for BTC, and they often have items for purchase. When you are in the Weaponsmith screen, click over anything in your inventory and choose the Sell option. Alternately, you will see the items available for sale at the top. You can click on any of them and choose Buy if you can afford them. If you equip gears with **bargain** status you have a higher chance of getting a better deal.  
