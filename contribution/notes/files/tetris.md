@@ -1,4 +1,7 @@
->A wooden board, with some wooden puzzle pieces. You find a wooden puzzle set left in the 
+>Stepping carefully into the room, you spot a pile of something wooden. And a flat board.
+Not passing up the chance to take a break, you gingerly step towards the pile.
+
+>You find a wooden board, with some wooden puzzle pieces. A puzzle set left in the 
 middle of nowhere. You wonder if someone was playing with it and left it behind in a 
 hurry. You look at the pieces of the puzzle. One is shaped like the letter "L", another
 piece is shaped the letter "t". In total, there are seven different puzzle pieces here.
