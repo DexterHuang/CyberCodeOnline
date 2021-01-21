@@ -1,3 +1,6 @@
+>Making an abrupt entrance, you noticed a pile of oddly shaped metal. Trying to
+distract yourself from the 5 monsters you just killed, you walk up for a closer look.
+
 > A pile of what appears to be throwing weapons. You recall an old E-file from the
 Librarium. There seems to be two different types here. A "kunai", or a throwing knife,
 and a "shuriken", or a throwing star. You take a closer look at these relics. You wonder
