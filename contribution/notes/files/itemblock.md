@@ -1,3 +1,7 @@
+>Upon entering the room, a huge shadow cast in the corner of the room makes you wonder what could
+possibly be over there. Your sense of discovery brings you closer to the object without you realizing
+it.
+
 >A metalic box. A weird box with a weird weight to it. You shake it. Clearly something is inside,
 tumbling around. You take a good look at it with what dim light you could find. A once bright yellow
 color has long faded to a more muted shade. The "?" symbol etched on the four sides of the box felt
