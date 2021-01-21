@@ -1,3 +1,7 @@
+>Ducking around a rusty door, a patch of moldy plantation grabs hold of your nature 
+curiosity. Before long, you were kneeling down next to it as if your legs has moved on their
+own.
+
 >A handful of dried mushroom. Very dried, to be specific. The top of these mushrooms are 
 covered green with dots of whites. At least, it WAS green and white. Now its more grey and
 the white is not even noticable. You take a closer look. You sniffed. Doesn't smell like 
