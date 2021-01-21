@@ -1,3 +1,6 @@
+>As your enter the room, an oddly shaped piece of rock catches your curiosity.
+You walk up to it for closer inspection.
+
 > A heart-shaped stone statue. Upon closer inspection, theres a smaller heart
 etched within the stone heart in greater detail. You are not sure how this 
 artistic piece of work ended up here. You stare at this statue at great length.
