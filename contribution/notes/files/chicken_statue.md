@@ -1,3 +1,6 @@
+>A funny shaped stone of some sort cathces your eyes. You get closer to take a 
+better look.
+
 >A petrified chicken. You are not sure how it ended up here, or what it
 is doing in the middle of nowhere to begin with. A small chicken, it seems,
 peaceful, harmless looking ordinary chicken. However, you get an eerie feeling 
