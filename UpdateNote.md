@@ -43,6 +43,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ## Updates Log
 ### **2021/01/21- v0.309**
  * Increase gang capacity to 16
+ * New "!" objects in dungeons
  
 ### **2021/01/20- v0.296**
  * Added street dealer graphic, thanks to [l33t4ng3l](https://github.com/tinamilford) for the awesome art work!
