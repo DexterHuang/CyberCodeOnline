@@ -2,6 +2,6 @@
 use and acceptance of Bitcoins came to be. A thin piece of paper, you suspect, made from a 
 blend of materials. What was once green has long been faded by the surrounding environment 
 and time. You can faintly make out the number "1" and "0". A tagline of sorts is not longer
-legible, not without the help of a microscope and perharps a historian on the subject.
-
->You put the bank note back on the ground for someone else to appriciate it's history.
+legible, not without the help of a microscope and perhaps a historian on the subject.  
+  
+>You put the bank note back on the ground for someone else to appreciate its history.  
