@@ -1,4 +1,7 @@
-> A pile of oddly shaped crystal. You take a look around. You wonder if someone left them here
+>Closing the door behind you as you enter this new room, a pool of prismatic light lures
+in your sense of wonderment. You walk towards the pool of light, trying to catch it.
+
+>What you find is a pile of oddly shaped crystal. You take a look around. You wonder if someone left them here
 on purpose. You pick one up and held it to what little light there was. Nothing spectular upon
 first impression. In fact, not much of an impression at all. The only thing that were remarkable
 about these crystals is the fact that they came in a multitude of color. Faded with age beside,
