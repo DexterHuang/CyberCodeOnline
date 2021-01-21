@@ -41,6 +41,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 **Remember to add your name in this doc when you create a PR**
 
 ## Updates Log
+### **2021/01/21- v0.309**
+ * Increase gang capacity to 16
+ 
 ### **2021/01/20- v0.296**
  * Added street dealer graphic, thanks to [l33t4ng3l](https://github.com/tinamilford) for the awesome art work!
  * Major battery usage improvement, app should use less resource while idle now
