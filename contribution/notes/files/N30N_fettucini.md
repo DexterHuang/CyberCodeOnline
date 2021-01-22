@@ -13,15 +13,13 @@ Fettucini looked at the dude, baffled:
 _"Uh, sure dat's nice man, but what's it gotta do wit' me?"_  
 _"Oh, nothing much. Just thought you might find it interesting"_
 
-Fettucini was not generally regarded as being the brightest candle on the cake but even so, what he did next was so indescribably stupid that even he was not all that surprised to find himself sitting on the floor with his back against the counter, looking at the spreading stain on his chest.
+Fettucini was not generally regarded as being the brightest candle on the cake but what he did next was so indescribably stupid that even he was not all that surprised to find himself sitting on the floor with his back against the counter, looking at the spreading stain on his chest.
 
   _".. cybersomethin' sights, hand-loaded .. "_ he thought, _".. good to know"_, before everything faded.
 
 _Hui_ pushed a brown bag of takeout across the counter:
 
-  _"Your order Mr Worzel sir. No charge!"_
-  
-  _"Nonsense Hui, of course I'll pay for it! And sorry about the mess - this should cover it!"_, sliding two hash across the counter.
-  
-  _"No worries, Mr Worzel sir. You have good evening, Mr Worzel sir"_
+_"Your order Mr Worzel sir. No charge!"_  
+_"Nonsense Hui, of course I'll pay for it! And sorry about the mess - this should cover it!"_, sliding two hash across the counter.  
+_"No worries, Mr Worzel sir. You have good evening, Mr Worzel sir"_  
   
