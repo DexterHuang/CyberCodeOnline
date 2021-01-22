@@ -9,7 +9,7 @@ It is meant to be played casually with many AFK leveling, Crafting, Procedural i
 
 ## Click [CyberCode Online](https://cybercodeonline.com/) to start your adventure now!
 
-[<img src="/resources/GooglePlayBadge.png" alt="Google Play Store">](https://play.google.com/store/apps/details?id=com.cybercodeonline.cybercode)   [<img src="/resources/AppStoreBadge.png">](https://apps.apple.com/us/app/cybercode-online-text-mmo/id1541691332)
+[<img src="/resources/GooglePlayBadge.png">](https://play.google.com/store/apps/details?id=com.cybercodeonline.cybercode) [<img src="/resources/AppStoreBadge.png">](https://apps.apple.com/us/app/cybercode-online-text-mmo/id1541691332)
 
 ### Demo Screenshots
 
