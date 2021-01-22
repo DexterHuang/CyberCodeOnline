@@ -19,7 +19,7 @@ Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee
 * [Humboer](https://github.com/stphnhng) 
 * [hildjj](https://github.com/hildjj) 
 * [Kimi Leta](https://github.com/kimileta) 
-* [l33t4ng3l](https://github.com/tinamilford)
+* [l33t4ng3l](https://github.com/l33t4ng3l)
 * [levi middleton](https://github.com/levi-middleton) 
 * [Luako](https://github.com/luako)
 * [mr_moe](https://github.com/donburks) 
@@ -46,7 +46,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * New "!" objects in dungeons
  
 ### **2021/01/20- v0.296**
- * Added street dealer graphic, thanks to [l33t4ng3l](https://github.com/tinamilford) for the awesome art work!
+ * Added street dealer graphic, thanks to [l33t4ng3l](https://github.com/l33t4ng3l) for the awesome art work!
  * Major battery usage improvement, app should use less resource while idle now
  
 ### **2021/01/19- v0.296**
@@ -112,7 +112,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  
 ### **2021/01/06- v0.283**
  * Renamed bank to `Bank of Arasaka`
- * Added graphic for bank, thanks to [l33t4ng3l](https://github.com/tinamilford) for the awesome art work!
+ * Added graphic for bank, thanks to [l33t4ng3l](https://github.com/l33t4ng3l) for the awesome art work!
  * Dungeon names now will go though bad word sensorship :)
  * Fix duplicated max shield at stat page
  * Fix chance based scrap
@@ -132,7 +132,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * Fix iOS swipeback going to broken page
  
 ### **2021/01/01- v0.276** 
- * Added image to Weapon Smith on mobile (drawn by [l33t4ng3l](https://github.com/tinamilford))
+ * Added image to Weapon Smith on mobile (drawn by [l33t4ng3l](https://github.com/l33t4ng3l))
  * New Tutorial is added to mobile
  
 ### **2020/12/31 - v0.275** 
@@ -293,7 +293,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ### **2020/10/30 - v0.194**
  * Fix compability issue with order devices
- * Added contributed names to ContributeContent.json by [l33t4ng3l](https://github.com/tinamilford) and [Kimi Leta](https://github.com/kimileta)
+ * Added contributed names to ContributeContent.json by [l33t4ng3l](https://github.com/l33t4ng3l) and [Kimi Leta](https://github.com/kimileta)
 ### **2020/10/28 - v0.194**
  * Items are now shorted in NPC shop
  * update item details ui on mobile, now stat compared to equipped item is showing in details
@@ -318,7 +318,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * change travel details to darker color on mobile
 
 ### **2020/10/22 - v0.178**
- * Added even more names to equipments thanks to [l33t4ng3l](https://github.com/tinamilford)'s contribution to ContributeContent.json
+ * Added even more names to equipments thanks to [l33t4ng3l](https://github.com/l33t4ng3l)'s contribution to ContributeContent.json
  * Added mutilple new names to location and equipments thanks to [Kimi Leta](https://github.com/kimileta)'s contribution to ContributeContent.json
  * Added level gate to job hub and player market to avoid confusing new players with too many options
  * display health in dungeon
