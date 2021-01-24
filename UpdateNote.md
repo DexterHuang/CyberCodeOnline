@@ -41,6 +41,12 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 **Remember to add your name in this doc when you create a PR**
 
 ## Updates Log
+### **2021/01/25- v0.309**
+ * Added framed chat box (donator only)
+ * Added custom profile image (elite only)
+ * added title 
+ * Added basic IAP support (WIP)
+ 
 ### **2021/01/21- v0.309**
  * Increase gang capacity to 16
  * New "!" objects in dungeons
