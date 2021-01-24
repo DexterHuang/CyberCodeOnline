@@ -3,7 +3,7 @@
 
 **CyberCode Online** is currently under an early and heavy development stage, which means many changes and new features are being added every day! That also means many stats are being adjusted all the time. So, if you have anything to suggest, feel free to [create an issue](https://github.com/DexterHuang/CyberCodeOnline/issues) or [join our discord](https://discord.gg/JREx8xz).
 
-Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee.com/cybercodeonline) or [subscibe my Patreon](https://www.patreon.com/cybercodeonline/).
+Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee.com/cybercodeonline) or [subscibe to my Patreon](https://www.patreon.com/cybercodeonline/).
 
 ## Contributors:  
 
