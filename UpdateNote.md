@@ -42,6 +42,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log
 ### **2021/01/25- v0.309**
+ * Added new background music
  * Added framed chat box (donator only)
  * Added custom profile image (elite only)
  * added title 
