@@ -1,5 +1,3 @@
-[How do I redeem my BitCoins?](#how-do-i-redeem-my-bitcoins)
-
 ### How do I redeem my BitCoins?
 You can't, but you can donate to the project at [buy me a coffee](https://www.buymeacoffee.com/cybercodeonline) or [Patreon](https://www.patreon.com/cybercodeonline)
 
