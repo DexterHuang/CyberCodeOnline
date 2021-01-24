@@ -1,6 +1,6 @@
 #### N30N C1RCUS: Str33t 4ng3l  
 
-![CyberCode Online Logo](/resources/art/l33t4ng3l/l33t4ng3l-resize.jpg)
+![CyberCode Online Logo](/resources/art/l33t4ng3l/l33tlore.png)
 
 People unobtrusively made way for her as she sashayed down the street. It was a good sashay she thought, the kind that separated the girls from the boys, and there was just time for a quick one at Joe's. The rube who was about to whistle his appreciation went white as his buddy kicked his shin - **hard** - and whispered a warning.  
   
