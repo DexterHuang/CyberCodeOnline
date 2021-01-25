@@ -1,4 +1,4 @@
-#30780528 Phone Call Elin  
+> #30780528 Phone Call Elin  
   
 "Bebo, we sold to them." Elin was crying. She sat in her office and could hear her brother on the other line. They didn't talk like this In fact- she never called him. Even after she'd dropped her Mother off at home she'd just sent him a text. but she knew he'd want to know. "I checked the logs."  She said, sniffling, "When I looked into the camera- I saw them. Our own weapons. in their hands."  
   
