@@ -41,6 +41,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 **Remember to add your name in this doc when you create a PR**
 
 ## Updates Log
+### **2021/01/26- v0.309**
+ * added better loading screen
+ 
 ### **2021/01/25- v0.309**
  * Added new background music
  * Added framed chat box (donator only)
