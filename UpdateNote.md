@@ -42,6 +42,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log
 ### **2021/01/26- v0.309**
+ * You can now transfer gang leadership
  * added better loading screen
  
 ### **2021/01/25- v0.309**
