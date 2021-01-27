@@ -43,6 +43,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ## Updates Log
 ### **2021/01/27- v0.316**
  * IAP Donations should be available now (need to update from playstore, IOS is not available yet, I don't have my macbook with me.)
+ * Updated donation benefits
  * Now allies will show up in combat screen
  
 ### **2021/01/26- v0.309**
