@@ -42,6 +42,8 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log
 ### **2021/01/27- v0.316**
+ * Reduced price of `member` donation tier to 2.99 usd, and includes custom profile to all tiers, higher tiers will have recieve benefits in future updates 
+ * Added donation shortcut to floating button
  * IAP Donations should be available now (need to update from playstore, IOS is not available yet, I don't have my macbook with me.)
  * Updated donation benefits
  * Now allies will show up in combat screen
