@@ -41,6 +41,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 **Remember to add your name in this doc when you create a PR**
 
 ## Updates Log
+### **2021/01/27- v0.316**
+ * IAP Donations should be available now (need to update from playstore, IOS is not available yet, I don't have my macbook with me.)
+ * Now allies will show up in combat screen
+ 
 ### **2021/01/26- v0.309**
  * You can now transfer gang leadership
  * added better loading screen
