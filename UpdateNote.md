@@ -41,6 +41,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 **Remember to add your name in this doc when you create a PR**
 
 ## Updates Log
+### **2021/01/28- v0.316**
+ * Fixed issue with fake donation, now its not possible to exploit anymore 
+
 ### **2021/01/27- v0.316**
  * Reduced price of `member` donation tier to 2.99 usd, and includes custom profile to all tiers, higher tiers will have recieve benefits in future updates 
  * Added donation shortcut to floating button
