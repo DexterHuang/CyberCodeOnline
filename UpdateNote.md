@@ -42,6 +42,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log
 ### **2021/01/30- v0.316**
+ * Fix issue where sometimes donator benefit suddenly disappears
  * Added `Synaptic Acceleration` status effect - increases AFK tasks speed
  * Added new Item `Synaptic Acceleration Transmitter` - when used gives all player Synaptic Acceleration for 10 minutes (Stackable), Can be aquired in dungeon loot crate
  
