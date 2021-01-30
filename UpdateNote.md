@@ -41,6 +41,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 **Remember to add your name in this doc when you create a PR**
 
 ## Updates Log
+### **2021/01/30- v0.316**
+ * Added `Synaptic Acceleration` status effect - increases AFK tasks speed
+ * Added Synaptic Acceleration Transmitter - when used gives all player Synaptic Acceleration for 10 minutes (Stackable)
+ 
 ### **2021/01/28- v0.316**
  * Fixed issue with fake donation, now its not possible to exploit anymore 
 
