@@ -22,15 +22,18 @@ You are also able to use the player market once you are level 10 to purchase spe
 
 ## Consumables
 
-## Cache  
+### Cache  
 You can obtain gear and upgrade module cache. Cache can be used to print gear equivalent to your current printing level. All cache are divided by quality, please see above for reference. Items printed will share the same quality as the cache used.  
 
-## Ammo  
+### Ammo  
 Ammo are used to fire special attacks and destructive attacks. Special attacks use energy cells. Destructive attacks use antimatter charge. Each fire will consume one of the ammos. You can at most own 1000 energy cells and 1000 antimatter charge each in your pocket. You can craft ammo via in-game crafting function.  
 
-## Medical
+### Medical
 Medical items can be used to regenerate health in dungeons. There are two types of medical items, self-use and AOE. After using the item your health regenerates according to the amount described. Your health will cap at your max health stat.  
 You can craft medical items via in-game crafting function.  
 
-## XP  
+### Experience memories  
 Experience memories can be used from your inventory or when in a fight. Experience memories will have a level, higher levels give more XP. After using you will gain player XP, this can be a good way to quickly level. You can find Experience Memories in dungeons.  
+
+### Synaptic Acceleration Transmitter
+The Synaptic Acceleration Transmitter is used to speed up AFK jobs. The item will give everyone a buff which will spawn a notification on the web ui. Each transmitter will add +5% speed to tasks. Only tasks that are started when the buff is active will be buffed, tasks already running will not be affected. This item can be used multiple times to stack the effect upto +80%. The effect will last for 10 minutes however the time will reset each time one is used.
