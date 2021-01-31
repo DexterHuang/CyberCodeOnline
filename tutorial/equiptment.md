@@ -32,5 +32,8 @@ Ammo are used to fire special attacks and destructive attacks. Special attacks u
 Medical items can be used to regenerate health in dungeons. There are two types of medical items, self-use and AOE. After using the item your health regenerates according to the amount described. Your health will cap at your max health stat.  
 You can craft medical items via in-game crafting function.  
 
-## XP  
+## Experience memories  
 Experience memories can be used from your inventory or when in a fight. Experience memories will have a level, higher levels give more XP. After using you will gain player XP, this can be a good way to quickly level. You can find Experience Memories in dungeons.  
+
+## Synaptic Acceleration Transmitter
+The Synaptic Acceleration Transmitter is used to speed up AFK jobs. The item will give everyone a buff which will spawn a notification on the web ui. Each transmitter will add +5% speed to tasks. Only tasks that are started when the buff is active will be buffed, tasks already running will not be affected. This item can be used multiple times to stack the effect upto +80%. The effect will last for 10 minutes however the time will reset each time one is used.
