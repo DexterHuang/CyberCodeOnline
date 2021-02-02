@@ -8,3 +8,6 @@ You will then be taken to a screen asking you to pick a player name. Make sure y
 ## Logging in
 
 If you have already made an account, click "have an account" at the bottom of the page. Here you will then be able to sign in with your email and password or click the buttons to use google or apple.
+
+
+## If you wanna change your password DM DexterHuang
