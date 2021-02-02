@@ -42,6 +42,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log
 ### **2021/02/02- v0.323**
+ * Added new store `Arasaka Unit Exchange`
  * Remove Esport gammer from bad guy list
  * Server optimization
  
