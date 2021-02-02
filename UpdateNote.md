@@ -52,7 +52,8 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  
 ### **2021/01/31- v0.316**
  * Added `Rare Synaptic Acceleration Transmitter` in Trinoky Mart, increases speed for 40% for 20 min, instead of 5% for 10 min, also stackable
- * Added `Unit` currency, used to purchase rare items, you can only aquire this currency through IAP 
+ * Added `Unit` currency, used to purchase rare items, you can only aquire this currency through IAP
+ * New NPC Dialogues at the Trinoky Mart
  
 ### **2021/01/30- v0.316**
  * Fix issue where sometimes donator benefit suddenly disappears
