@@ -41,6 +41,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 **Remember to add your name in this doc when you create a PR**
 
 ## Updates Log
+### **2021/02/02- v0.323**
+ * Remove Esport gammer from bad guy list
+ * Server optimization
+ 
 ### **2021/02/01- v0.323**
  * Server Optimization
  * Now when `Rare Synaptic Acceleration Transmitter` is activated, a notification will be sent to all players
