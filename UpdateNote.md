@@ -41,6 +41,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 **Remember to add your name in this doc when you create a PR**
 
 ## Updates Log
+### **2021/02/03- v0.323**
+ * Added temporary image for `Arasaka Unit Exchange`
+ * You now cannot use item while in combat outside dungeon (it use to be able to use, but no effect)
+ 
 ### **2021/02/02- v0.323**
  * Added new store `Arasaka Unit Exchange`
  * Remove Esport gammer from bad guy list
