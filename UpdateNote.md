@@ -43,6 +43,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ## Updates Log
 ### **2021/02/03- v0.323**
  * Profile UI updated!
+ * Moderator color has been change to PINK!
  * Added temporary image for `Arasaka Unit Exchange`
  * You now cannot use item while in combat outside dungeon (it use to be able to use, but no effect)
  
