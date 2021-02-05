@@ -41,6 +41,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 **Remember to add your name in this doc when you create a PR**
 
 ## Updates Log
+### **2021/02/05- v0.323**
+ * Optimization, should drastically increase battery life 
+ 
 ### **2021/02/03- v0.323**
  * Profile UI updated!
  * Moderator color has been change to PINK!
