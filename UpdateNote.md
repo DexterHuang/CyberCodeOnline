@@ -42,7 +42,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log
 ### **2021/02/05- v0.323**
- * Optimization, should drastically increase battery life 
+ * Optimization, should drastically increase battery life on chat page
  
 ### **2021/02/03- v0.323**
  * Profile UI updated!
