@@ -42,6 +42,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log
 ### **2021/02/05- v0.323**
+ * Added image for `Molecular Printer` thanks to [l33t4ng3l](https://github.com/l33t4ng3l) for the awesome art work!
  * Optimization, should drastically increase battery life on chat page
  
 ### **2021/02/03- v0.323**
