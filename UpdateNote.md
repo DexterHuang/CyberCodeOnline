@@ -41,6 +41,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 **Remember to add your name in this doc when you create a PR**
 
 ## Updates Log
+### **2021/02/06- v0.323**
+ * Fix issue with inventory scroll
+ 
 ### **2021/02/05- v0.323**
  * Added image for `Molecular Printer` thanks to [l33t4ng3l](https://github.com/l33t4ng3l) for the awesome art work!
  * Fix chat laginess
