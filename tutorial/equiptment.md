@@ -48,14 +48,6 @@ You can install upgrade modules on your equipment, they must be your player leve
  5. Legendary: 2 Slots
  6. Epic: 3 Slots
 
-### Helmet
- 1. Trash: 0 to 1 Slots
- 2. Common: 1 to 2 Slots
- 3. High Quality: 2 Slots
- 4. Rare: 2 Slots
- 5. Legendary: 2 Slots
- 6. Epic: 3 Slots
-
 ### Upper Armor
  1. Trash: 0 to 1 Slots
  2. Common: 1 to 2 Slots
