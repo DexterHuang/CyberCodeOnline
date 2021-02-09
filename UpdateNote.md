@@ -5,139 +5,140 @@
 
 Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee.com/cybercodeonline) or [subscibe to my Patreon](https://www.patreon.com/cybercodeonline/).
 
-## Contributors:  
+## Contributors:
 
-* [AdmiralDiemos](https://github.com/danofsatx) 
-* [Archibaald](https://github.com/Archibaald-dev) 
-* [Arky](https://www.instagram.com/andreiarky) 
-* [Blackstormx](https://github.com/blackstormx) 
+* [AdmiralDiemos](https://github.com/danofsatx)
+* [alfaice](https://github.com/alfaice)
+* [Archibaald](https://github.com/Archibaald-dev)
+* [Arky](https://www.instagram.com/andreiarky)
+* [Blackstormx](https://github.com/blackstormx)
 * [byakkozen](https://github.com/byakkozen)
-* [CelesMeh](https://www.instagram.com/celesmeh) 
-* [CMDR7](https://github.com/cmdr7) 
-* [Deckeeper](https://github.com/deckeeper) 
+* [CelesMeh](https://www.instagram.com/celesmeh)
+* [CMDR7](https://github.com/cmdr7)
+* [Deckeeper](https://github.com/deckeeper)
 * [DexterHuang](https://github.com/DexterHuang)
-* [Humboer](https://github.com/stphnhng) 
-* [hildjj](https://github.com/hildjj) 
-* [Kimi Leta](https://github.com/kimileta) 
+* [Humboer](https://github.com/stphnhng)
+* [hildjj](https://github.com/hildjj)
+* [Kimi Leta](https://github.com/kimileta)
 * [l33t4ng3l](https://github.com/l33t4ng3l)
-* [levi middleton](https://github.com/levi-middleton) 
+* [levi middleton](https://github.com/levi-middleton)
 * [Luako](https://github.com/luako)
-* [mr_moe](https://github.com/donburks) 
+* [mr_moe](https://github.com/donburks)
 * [mxjoda](https://github.com/mxjoda)
 * [Omnipotent_God](https://github.com/Omnipotent-God)
-* [PotatoMan](https://github.com/PotatoMan145) 
-* [RubenVerg](https://github.com/rubenverg) 
-* [s3rvant](https://github.com/s3rvant) 
+* [PotatoMan](https://github.com/PotatoMan145)
+* [RubenVerg](https://github.com/rubenverg)
+* [s3rvant](https://github.com/s3rvant)
 * [Tripplehelix](https://github.com/tripplehelix)
-  
-If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).  
-  
+
+If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
+
 #### Need help:
- * ContributeContent.json <-- Really need help with this, specially if you are good at creative wording.  
- * Tips.md  
- * mobile-tutorial/*  
- * tutorial/*  
+ * ContributeContent.json <-- Really need help with this, specially if you are good at creative wording.
+ * Tips.md
+ * mobile-tutorial/*
+ * tutorial/*
 
 **Remember to add your name in this doc when you create a PR**
 
 ## Updates Log
 ### **2021/02/06- v0.323**
  * Fix issue with inventory scroll
- 
+
 ### **2021/02/05- v0.323**
  * Added image for `Molecular Printer` thanks to [l33t4ng3l](https://github.com/l33t4ng3l) for the awesome art work!
  * Fix chat laginess
  * Optimization, should drastically increase battery life on chat page
- 
+
 ### **2021/02/03- v0.323**
  * Profile UI updated!
  * Moderator color has been change to PINK!
  * Added temporary image for `Arasaka Unit Exchange`
  * You now cannot use item while in combat outside dungeon (it use to be able to use, but no effect)
- 
+
 ### **2021/02/02- v0.323**
  * Added new store `Arasaka Unit Exchange`
  * Remove Esport gammer from bad guy list
  * Server optimization
- 
+
 ### **2021/02/01- v0.323**
  * Server Optimization
  * Now when `Rare Synaptic Acceleration Transmitter` is activated, a notification will be sent to all players
- 
+
 ### **2021/01/31- v0.316**
  * Added `Rare Synaptic Acceleration Transmitter` in Trinoky Mart, increases speed for 40% for 20 min, instead of 5% for 10 min, also stackable
  * Added `Unit` currency, used to purchase rare items, you can only aquire this currency through IAP
- 
+
 ### **2021/01/30- v0.316**
  * Fix issue where sometimes donator benefit suddenly disappears
  * Added `Synaptic Acceleration` status effect - increases AFK tasks speed
  * Added new Item `Synaptic Acceleration Transmitter` - when used gives all player Synaptic Acceleration for 10 minutes (Stackable), Can be aquired in dungeon loot crate
- 
+
 ### **2021/01/28- v0.316**
- * Fixed issue with fake donation, now its not possible to exploit anymore 
+ * Fixed issue with fake donation, now its not possible to exploit anymore
 
 ### **2021/01/27- v0.316**
- * Reduced price of `member` donation tier to 2.99 usd, and includes custom profile to all tiers, higher tiers will have recieve benefits in future updates 
+ * Reduced price of `member` donation tier to 2.99 usd, and includes custom profile to all tiers, higher tiers will have recieve benefits in future updates
  * Added donation shortcut to floating button
  * IAP Donations should be available now (need to update from playstore, IOS is not available yet, I don't have my macbook with me.)
  * Updated donation benefits
  * Now allies will show up in combat screen
- 
+
 ### **2021/01/26- v0.309**
  * You can now transfer gang leadership
  * added better loading screen
- 
+
 ### **2021/01/25- v0.309**
  * Added new background music
  * Added framed chat box (donator only)
  * Added custom profile image (elite only)
- * added title 
+ * added title
  * Added basic IAP support (WIP)
- 
+
 ### **2021/01/21- v0.309**
  * Increase gang capacity to 16
  * New "!" objects in dungeons
- 
+
 ### **2021/01/20- v0.296**
  * Added street dealer graphic, thanks to [l33t4ng3l](https://github.com/l33t4ng3l) for the awesome art work!
  * Major battery usage improvement, app should use less resource while idle now
- 
+
 ### **2021/01/19- v0.296**
  * Increase item max stack size to 2000
  * UI update on links page
  * New CCO Lore "New Age: Children of Enlightenment"
- 
+
 ### **2021/01/18- v0.296**
  * Fix `Null` player name show up when its system message on web
  * You can now upgrade market slot
- 
+
 ### **2021/01/17- v0.296**
  * Change "By Me a Coffee" to Patreon
  * Added placeholder image for mart
  * Added new progression quest lines
  * Added more healing items
  * Over 100+ new sub-locations
- 
+
 ### **2021/01/16- v0.296**
  * Added notes into dungeon, you should see random notes (Community Contributed) in dungeons
- * Added over 150+ new enemies  
+ * Added over 150+ new enemies
  * You can now encounter "!" in dungeons to read CCO Lore pages and tablets
- 
+
 ### **2021/01/15- v0.296**
  * Fix issue with AFK task not getting any loot sometimes
  * Merged word list into game
  * Added many city structure, weather and climate themed building prefixes.
- 
+
 ### **2021/01/14- v0.296**
- * Merged contributed word list into game 
+ * Merged contributed word list into game
  * New dialouge featured for both Weapon Smith and Bank NPC on mobile
  * Added lock feature, you can lock your item to prevent it from being scrapped or sold to npc accidentally
  * Major under-the-hood update, item disappearing in transit should be fixed now
- 
+
 ### **2021/01/11- v0.290**
  * Updated combat UI on mobile
  * Added quick slots, you can assign usable item to your quickslot, and can be used with one click during combat (mobile only)
- 
+
 ### **2021/01/10- v0.283**
  * Possible fix on dungeon desync issue
  * Fix backdrop blur effect on ios
@@ -146,11 +147,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * Changed logo to new version on mobile login screen
  * Added review popup
  * Now its not possible to create chracter with names that has only capitalization difference with other player
- 
+
 ### **2021/01/08- v0.283**
  * Player platform icon is now updated
  * Fix sorting issue in some inventory
- * Added Healing Multiplier stat, increase amount you heal yourself or your allies, drops on armor rare + 
+ * Added Healing Multiplier stat, increase amount you heal yourself or your allies, drops on armor rare +
  * Healing item can now be used outside combat
  * Added Market Capacity stat, increases max item can be sold in market, drops on armor rare +
  * When click on stat in item detail, description text will pop
@@ -158,11 +159,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * Mobile item detail page minor UI fix
  * Fix bug related to player market
  * Now system email when item is being returned from market to inbox will include item names
- 
+
 ### **2021/01/07- v0.283**
  * The system will also send you a email when sending a gift
  * Display hint to update browser when in older broswer such as IE11 or very old Android phone
- 
+
 ### **2021/01/06- v0.283**
  * Renamed bank to `Bank of Arasaka`
  * Added graphic for bank, thanks to [l33t4ng3l](https://github.com/l33t4ng3l) for the awesome art work!
@@ -171,61 +172,61 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * Fix chance based scrap
  * Added back send dungeon invite to global chat
  * Reduce Medical Tech Part drop rate from scrapping PainAway
- 
-### **2021/01/05- v0.283** 
+
+### **2021/01/05- v0.283**
  * Added dungeon listing page, you can now see all public dungeons to join
  * You may create dungeon with public or private setting
  * You may create password protected dungeon, to ensure only you friends enters the dungeon
- 
-### **2021/01/04- v0.276** 
- * You now can scrap PainAway to Medical Tech Parts 
 
-### **2021/01/03- v0.276** 
+### **2021/01/04- v0.276**
+ * You now can scrap PainAway to Medical Tech Parts
+
+### **2021/01/03- v0.276**
  * Fix issue with iOS app couldnt start (need to download new version from appstore)
  * Fix iOS swipeback going to broken page
- 
-### **2021/01/01- v0.276** 
+
+### **2021/01/01- v0.276**
  * Added image to Weapon Smith on mobile (drawn by [l33t4ng3l](https://github.com/l33t4ng3l))
  * New Tutorial is added to mobile
- 
-### **2020/12/31 - v0.275** 
+
+### **2020/12/31 - v0.275**
  * Fix android back button issue
 
 ### **2020/12/30 - v0.269**
  * Now visited door in dungeons will be marked greyed out
  * Updated the button of update modal
  * Now the system message for recieving gift will include item amount
- 
+
 ### **2020/12/29 - v0.269**
  * Remove title when in dungeon, reduce chance of having to scroll to view the map
  * Bunker rename to "Vault"
  * Now Apple login is supported on web version
  * Fix web version leave for long time will cause lag issue
  * Added max health and max shield display at player detail on mobile
- 
+
 ### **2020/12/28 - v0.264**
  * Update android icon to the newest one
  * Added facebook mediation to ad service, should increase amount of ads you get
- 
+
 ### **2020/12/27 - v0.264**
  * Double exp gained from crypto mining AFK task
  * You can now craft AI Core with Hash Processors
- 
+
 ### **2020/12/26 - v0.264**
  * You can now upgrade your bunker size at bank
  * Fix issue with window sizing on certain screen resolution on web
  * Typo fix
- 
+
 ### **2020/12/25 - v0.257**
  * Now gang name will show up on player mentions
  * Fix issue with web gang chat
- 
+
 ### **2020/12/24 - v0.257**
  * Gnag is now available on web version
- 
+
 ### **2020/12/23 - v0.257**
  * Fix small chance of items having same id, thus causes weird issue
- * Fixed notification dot not working properly 
+ * Fixed notification dot not working properly
  * Added prompt to confirm before closing inventory
  * Remove backdrop blur effect for popup on desktop mode
  * Fix UI issue for selling item on market
@@ -235,58 +236,58 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * Show player health on map in dungeon
  * Adjuest layout of opened inventory on mobile again
  * Optimizations
- 
+
 ### **2020/12/22 - v0.254**
  * Fix ingame mail notification now showing sender name
  * Show confirm box before aborting afk task, to avoid accidental abortion ;)
  * Added more clear instruction on how to go to next area in mobile
- 
+
 ### **2020/12/21 - v0.253**
  * Added durability display to mobile inv equiped items
  * modified where close button for opened inventory located, to avoid missclicks
  * Minor performance enhancement on mail page
- 
+
 ### **2020/12/20 - v0.247**
- * Added new rarity "EPIC", it is a very rare drop but much more powerful in terms of stat, also +1 upgrade module slot for all EPIC items 
+ * Added new rarity "EPIC", it is a very rare drop but much more powerful in terms of stat, also +1 upgrade module slot for all EPIC items
  * Mobile inventory UI update
- 
+
 ### **2020/12/19 - v0.245**
  * Mobile button UI improvement
  * Mobile input box UI inprovement
  * Fix item inbox item disappearing issue
- 
+
 ### **2020/12/18 - v0.242**
  * Mobile button UI change
  * Mobile popup UI change
  * Mobile map page header display UI change
  * Fix mobile gang chat out of order issue
- 
+
 ### **2020/12/17 - v0.239**
  * Fix scrolling on mobile will trigger long press on item list
  * Performance optimization
  * You can now mention offline players
- 
+
 ### **2020/12/12 - v0.239**
- * Clan is added to game, currently only include basic functionality 
- 
+ * Clan is added to game, currently only include basic functionality
+
 ### **2020/12/03 - v0.229**
  * Minor Optimization
- 
+
 ### **2020/11/29 - v0.229**
  * Fix issue with modal popup
  * Fix game crash issue
  * Fix popup bug
- 
+
 ### **2020/11/28 - v0.219**
  * System will not show confirmation before scrap item
  * Add words from contribute
  * Redesigned mobile popup UI
  * 🎉 Now all players contribute 25% or above to a fight will recive rewards from defeating the enemy
  * Chat notification dot not disapearing issue has been fixed
- 
+
 ### **2020/11/27 - v0.219**
  * Fixed ios zoom issue
- 
+
 ### **2020/11/25 - v0.219**
  * Added easier access to go back to previous location at top of screen on mobile
  * Rewrite Ad loading functions to be compatible with ios
@@ -294,32 +295,32 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * Room level now is shown in dungeon
  * Fix ios long press issue
  * fix ios related issues
- 
+
 ### **2020/11/25 - v0.213**
  * 🎊🎊🎊🎊IOS Version available now!🎊🎊🎊🎊
- 
+
 ### **2020/11/21 - v0.213**
  * You can now gain status effect by completing quest from dungeon
  * Status effect for enemies added
  * increase medical tech part earn from from scavange by 3 time
- * increase medical tech part earn at lower level 
- 
+ * increase medical tech part earn at lower level
+
 ### **2020/11/19 - v0.212**
  * Reduced storage price
- 
+
 ### **2020/11/18 - v0.211**
- * Added haptic feeback (vibration) when atacking on mobile 
- 
+ * Added haptic feeback (vibration) when atacking on mobile
+
 ### **2020/11/17 - v0.210**
  * Added combat log to combat UI on mobile
- 
+
 ### **2020/11/14 - v0.208**
  * Added new tutorial for web thanks to [s3rvant](https://github.com/s3rvant)'s contribution!
  * Ads are back on mobile
  * added indication of if whatching ads is available on map page header as `TIME SKIP READY`, so you know time skip is available
 ### **2020/11/13 - v0.206**
  * New UI design for action card (mobile)
- 
+
 ### **2020/11/09 - v0.202**
  * Adjust bank storage price, now one slot is 1000 btc regardless of item
  * Max level is open till 160
