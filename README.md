@@ -11,7 +11,15 @@ It is meant to be played casually with many AFK leveling, Crafting, Procedural i
 
 [![Google Play Store](/resources/readme/GooglePlayBadge.png)](https://play.google.com/store/apps/details?id=com.cybercodeonline.cybercode)    [![Apple App Store](/resources/readme/AppStoreBadge.png)](https://apps.apple.com/us/app/cybercode-online-text-mmo/id1541691332)
 
-### Demo Screenshots
+### Bug Report / Suggestion
+
+For Bugs and Issues [create an isse on this repo](https://github.com/DexterHuang/CyberCodeOnline/issues).
+
+If there is a serious exploit please **don't** create an issue here, email me directly at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)
+
+Requests and suggestions can be left on the [Discord](https://discord.gg/JREx8xz).
+
+### Screenshots
 
 #### Web
 
@@ -23,18 +31,8 @@ It is meant to be played casually with many AFK leveling, Crafting, Procedural i
 ![mobile-demo1](/resources/readme/mobile-demo.png)
 ![mobile-demo2](/resources/readme/mobile-demo2.png)
 
-### Bug Report / Suggestion
-
-For Bugs and Issues [create an isse on this repo](https://github.com/DexterHuang/CyberCodeOnline/issues).
-
-If there is a serious exploit please **don't** create an issue here, email me directly at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)
-
-Requests and suggestions can be left on the [Discord](https://discord.gg/JREx8xz).
-
-
-
 ### Fan Arts
-### by [l33t4ng3l](https://github.com/l33t4ng3l)  
+#### by [l33t4ng3l](https://github.com/l33t4ng3l)  
 ![l33t4ng3l](/resources/art/l33t4ng3l/l33t4ng3l-resize.jpg)
 ![worzel](/resources/art/l33t4ng3l/worzel-resize.jpg)
 ![tripplehelix](/resources/art/l33t4ng3l/tripplehelix-resize.jpg)
