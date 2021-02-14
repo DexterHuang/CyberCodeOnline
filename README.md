@@ -23,13 +23,13 @@ Requests and suggestions can be left on the [Discord](https://discord.gg/JREx8xz
 
 #### Web
 
-![desktop-demo1](/resources/readme/desktop-screenshot.png)
-![desktop-demo2](/resources/readme/desktop-screenshot2.png)
+![desktop-screenshot1](/resources/readme/desktop-screenshot.png)
+![desktop-screenshot2](/resources/readme/desktop-screenshot2.png)
 
 #### Mobile
 
-![mobile-demo1](/resources/readme/mobile-screenshot.png)
-![mobile-demo2](/resources/readme/mobile-screenshot2.png)
+![mobile-demo1](/resources/readme/mobile-demo.png)
+![mobile-demo2](/resources/readme/mobile-demo2.png)
 
 ### Fan Arts
 #### by [l33t4ng3l](https://github.com/l33t4ng3l)  
