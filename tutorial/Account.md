@@ -16,10 +16,10 @@ Be sure to check the other tutorial pages for info discussing the features of th
 
 You can login with your Google account by clicking `signInWithGoogle()` and then enter your email and password. Once logged in type a `displayName` between the quotes `""` and click `save()`.
 
-![Login with Google](../resources/google_create.gif)
+![Login with Google](../resources/desktop-tutorial/google_create.gif)
 
 <br />
 
 Alternatively create an account using your email address by typing it between the quotes `""` in the `const email="";` section of `signUp()` area as well as a password in both `const password="";` and `const passwordConfirm="";` then click `signUp()` itself to finalize the account creation.  Once account is created type a `displayName` and click `save()`.
 
-![Sign up](../resources/email_create.gif)
+![Sign up](../resources/desktop-tutorial/email_create.gif)
