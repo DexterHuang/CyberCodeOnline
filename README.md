@@ -15,13 +15,13 @@ It is meant to be played casually with many AFK leveling, Crafting, Procedural i
 
 #### Web
 
-![demo1](/resources/demo.png)
-![demo2](/resources/demo2.png)
+![desktop-demo1](/resources/readme/desktop-demo.png)
+![desktop-demo2](/resources/readme/desktop-demo2.png)
 
 #### Mobile
 
-![2](/resources/screenshot/2.jpg)
-![6](/resources/screenshot/6.jpg)
+![mobile-demo1](/resources/readme/mobile-demo.png)
+![mobile-demo2](/resources/readme/mobile-demo2.png)
 
 ### Bug Report / Suggestion
 
