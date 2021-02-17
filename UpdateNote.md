@@ -42,6 +42,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 **Remember to add your name in this doc when you create a PR**
 
 ## Updates Log
+### **2021/02/18- v0.359**
+ * Normal dungeon enemy level is reduced 
+
 ### **2021/02/17- v0.359**
  * Dungeon now has custom structures, structures can be contributed via GitHub
  * Players in dungeon now uses path finding, will walk accroding to the path necessary instead of teleporting where you click
