@@ -37,7 +37,7 @@ Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee
 
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
-#### Need help:
+### Help Needed:
  * contribution/words.json - Random Names
  * CyberCodeOnline/contribution/dungeon/layout/structure-mask.json - Dungeon Layouts
  * contribution/mobile/tips.md - Tips for Mobile
