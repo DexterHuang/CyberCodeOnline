@@ -7,29 +7,33 @@ Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee
 
 ## Contributors:
 
-* [AdmiralDiemos](https://github.com/danofsatx)
-* [alfaice](https://github.com/alfaice)
-* [Archibaald](https://github.com/Archibaald-dev)
-* [Arky](https://www.instagram.com/andreiarky)
-* [Blackstormx](https://github.com/blackstormx)
-* [byakkozen](https://github.com/byakkozen)
-* [CelesMeh](https://www.instagram.com/celesmeh)
-* [CMDR7](https://github.com/cmdr7)
-* [Deckeeper](https://github.com/deckeeper)
-* [DexterHuang](https://github.com/DexterHuang)
-* [Humboer](https://github.com/stphnhng)
-* [hildjj](https://github.com/hildjj)
-* [Kimi Leta](https://github.com/kimileta)
-* [l33t4ng3l](https://github.com/l33t4ng3l)
-* [levi middleton](https://github.com/levi-middleton)
-* [Luako](https://github.com/luako)
-* [mr_moe](https://github.com/donburks)
-* [mxjoda](https://github.com/mxjoda)
-* [Omnipotent_God](https://github.com/Omnipotent-God)
-* [PotatoMan](https://github.com/PotatoMan145)
-* [RubenVerg](https://github.com/rubenverg)
-* [s3rvant](https://github.com/s3rvant)
-* [Tripplehelix](https://github.com/tripplehelix)
+
+|                   Developer                         |                    Art                              |               Music                             |
+| :-------------------------------------------------- | :-------------------------------------------------- | :---------------------------------------------- |
+| [DexterHuang](https://github.com/DexterHuang)       | [l33t4ng3l](https://github.com/l33t4ng3l)           | [CMDR7](https://github.com/cmdr7)               |
+|                   Tutorial                          |                    Lore                             |                   Words.json                    |
+| [alfaice](https://github.com/alfaice)               | [byakkozen](https://github.com/byakkozen)           | [bvcxz](https://github.com/bvcxz-cybercode)     |
+| [byakkozen](https://github.com/byakkozen)           | [Deckeeper](https://github.com/deckeeper)           | [byakkozen](https://github.com/byakkozen)       |
+| [Deckeeper](https://github.com/deckeeper)           | [CelesMeh](https://www.instagram.com/celesmeh)      | [Deckeeper](https://github.com/deckeeper)       |
+| [DexterHuang](https://github.com/DexterHuang)       | [twystd](https://github.com/twystd)                 | [DexterHuang](https://github.com/DexterHuang)   |
+| [Humboer](https://github.com/stphnhng)              |                                                     | [Luako](https://github.com/luako)               |
+| [Omnipotent_God](https://github.com/Omnipotent-God) |                                                     | [me505](https://github.com/me505)               | 
+| [PotatoMan](https://github.com/PotatoMan145)        |                                                     | [Ryujin](Ryujin-cybercode)                      |
+| [s3rvant](https://github.com/s3rvant)               |                                                     | [Tripplehelix](https://github.com/tripplehelix) |
+| [Tripplehelix](https://github.com/tripplehelix)     |                                                     |                                                 |
+|                Dungeon Layout                       |                      Other                          |                                                 |
+| [alfaice](https://github.com/alfaice)               | [AdmiralDiemos](https://github.com/danofsatx)       |                                                 |
+| [Deckeeper](https://github.com/deckeeper)           | [Archibaald](https://github.com/Archibaald-dev)     |                                                 |
+| [DexterHuang](https://github.com/DexterHuang)       | [Arky](https://www.instagram.com/andreiarky)        |                                                 |
+| [Tripplehelix](https://github.com/tripplehelix)     | [Blackstormx](https://github.com/blackstormx)       |                                                 |
+|                                                     | [hildjj](https://github.com/hildjj)                 |                                                 |
+|                                                     | [Kimi Leta](https://github.com/kimileta)            |                                                 |
+|                                                     | [levi middleton](https://github.com/levi-middleton) |                                                 |
+|                                                     | [mr_moe](https://github.com/donburks)               |                                                 |
+|                                                     | [mxjoda](https://github.com/mxjoda)                 |                                                 |
+|                                                     | [RubenVerg](https://github.com/rubenverg)           |                                                 |
+
+**Remember to add your name in this doc when you create a PR**
 
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
@@ -40,9 +44,6 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * contribution/notes/* - In Dungeon Lore
  * mobile-tutorial/* - Mobile Tutorial
  * tutorial/* - Desktop Tutorial
- * 
-
-**Remember to add your name in this doc when you create a PR**
 
 ## Updates Log
 ### **2021/02/22- v0.359**
