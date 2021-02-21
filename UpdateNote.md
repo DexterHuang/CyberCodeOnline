@@ -34,24 +34,27 @@ Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 #### Need help:
- * ContributeContent.json <-- Really need help with this, specially if you are good at creative wording.
- * Tips.md
- * mobile-tutorial/*
- * tutorial/*
+ * contribution/words.json - Random Names
+ * CyberCodeOnline/contribution/dungeon/layout/structure-mask.json - Dungeon Layouts
+ * contribution/mobile/tips.md - Tips for Mobile
+ * contribution/notes/* - In Dungeon Lore
+ * mobile-tutorial/* - Mobile Tutorial
+ * tutorial/* - Desktop Tutorial
+ * 
 
 **Remember to add your name in this doc when you create a PR**
 
 ## Updates Log
 ### **2021/02/22- v0.359**
- * Fix error popup on start app
- * fix ios toggle component look weird
+ * Fix error popup on app start
+ * fix ios toggle component looking weird
 
 ### **2021/02/21- v0.359**
- * ios related fiex
+ * ios related fix
  * iOS IAP update - appstore still pending apple approval
  
 ### **2021/02/20- v0.359**
- * Update dungeon enemy icon, because some oder ios device cannot render the old one properly
+ * Update dungeon enemy icon, because some older ios devices cannot render the old one properly
  
 ### **2021/02/18- v0.359**
  * Normal dungeon enemy level is reduced 
