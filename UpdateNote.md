@@ -5,7 +5,7 @@
 
 Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee.com/cybercodeonline) or [subscibe to my Patreon](https://www.patreon.com/cybercodeonline/).
 
-## Contributors:
+## Credits:
 
 
 |                   Developer                         |                    Art                              |               Music                             |
