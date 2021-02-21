@@ -7,8 +7,6 @@ Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee
 
 ## Contributors:
 
-Test | Test | Test | Test | Test | Test | Test | Test | Test | Test | Test | Test | Test | Test | 
-
 * [AdmiralDiemos](https://github.com/danofsatx)
 * [alfaice](https://github.com/alfaice)
 * [Archibaald](https://github.com/Archibaald-dev)
