@@ -42,6 +42,17 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 **Remember to add your name in this doc when you create a PR**
 
 ## Updates Log
+### **2021/02/22- v0.359**
+ * Fix error popup on start app
+ * fix ios toggle component look weird
+
+### **2021/02/21- v0.359**
+ * ios related fiex
+ * iOS IAP update - appstore still pending apple approval
+ 
+### **2021/02/20- v0.359**
+ * Update dungeon enemy icon, because some oder ios device cannot render the old one properly
+ 
 ### **2021/02/18- v0.359**
  * Normal dungeon enemy level is reduced 
 
