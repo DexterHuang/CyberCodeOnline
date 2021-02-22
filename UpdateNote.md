@@ -45,6 +45,13 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log
 ### **2021/02/22- v0.359**
+ * New Items `Experience Shard [mining/Scavange/Medical Science/ammo crafting/printing skill]` same as normal `Experince Shard` but for other levels
+ * Item Rename `Experience Memory` => `Experience Shard`
+ * Scraping items with upgrades installs will now drop the upgrade's scrap drop as well
+ * Minor change to player detail page UI
+ * Now crafting popup only let you select up to your free inventory slot (it won't let you craft more then you can hold)
+ * You can now see other player's clan player list and stats
+ * Updated clan display on player details page
  * Fix error popup on app start
  * fix ios toggle component looking weird
 
