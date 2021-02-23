@@ -44,6 +44,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * tutorial/* - Desktop Tutorial
 
 ## Updates Log
+### **2021/02/23- v0.369**
+ * Updated mobile combat UI, should be more compat and less messy
+ * Updated progress bar text color
+ 
 ### **2021/02/22- v0.359**
  * New Items `Experience Shard [mining/Scavange/Medical Science/ammo crafting/printing skill]` same as normal `Experince Shard` but for other levels
  * Item Rename `Experience Memory` => `Experience Shard`
