@@ -19,6 +19,7 @@ Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee
 [DexterHuang](https://github.com/DexterHuang)  
 [Humboer](https://github.com/stphnhng)  
 [hildjj](https://github.com/hildjj)  
+[JEricaM](https://github.com/JEricaM)
 [Kimi Leta](https://github.com/kimileta)  
 [l33t4ng3l](https://github.com/l33t4ng3l)  
 [levi middleton](https://github.com/levi-middleton)  
