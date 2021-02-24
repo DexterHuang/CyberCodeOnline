@@ -45,6 +45,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * tutorial/* - Desktop Tutorial
 
 ## Updates Log
+### **2021/02/25- v0.369**
+ * Now other player equiped items in their detail page is rendered with new UI element
+ * Fix typo for `Military Drone` recipe
+ * Fix update page exceeding the screen width issue
+   
 ### **2021/02/24- v0.369**
  * Progress bar text now is THICC
  * IOS update been rejected by Apple, pushes some updates for that
