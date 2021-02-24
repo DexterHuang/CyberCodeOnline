@@ -45,6 +45,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * tutorial/* - Desktop Tutorial
 
 ## Updates Log
+### **2021/02/24- v0.369**
+ * Progress bar text now is THICC
+ * IOS update been rejected by Apple, pushes some updates for that
+
 ### **2021/02/23- v0.369**
  * Updated mobile combat UI, should be more compat and less messy
  * Updated progress bar text color 
