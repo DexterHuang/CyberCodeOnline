@@ -7,32 +7,32 @@ Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee
 
 ## Contributors:
 
-[AdmiralDiemos](https://github.com/danofsatx)
-[alfaice](https://github.com/alfaice)
-[Archibaald](https://github.com/Archibaald-dev)
-[Arky](https://www.instagram.com/andreiarky)
-[Blackstormx](https://github.com/blackstormx)
-[byakkozen](https://github.com/byakkozen)
-[CelesMeh](https://www.instagram.com/celesmeh)
-[CMDR7](https://github.com/cmdr7)
-[Deckeeper](https://github.com/deckeeper)
-[DexterHuang](https://github.com/DexterHuang)
-Dzylx
-[Humboer](https://github.com/stphnhng)
-[hildjj](https://github.com/hildjj)
+[AdmiralDiemos](https://github.com/danofsatx)  
+[alfaice](https://github.com/alfaice)  
+[Archibaald](https://github.com/Archibaald-dev)  
+[Arky](https://www.instagram.com/andreiarky)  
+[Blackstormx](https://github.com/blackstormx)  
+[byakkozen](https://github.com/byakkozen)  
+[CelesMeh](https://www.instagram.com/celesmeh)  
+[CMDR7](https://github.com/cmdr7)  
+[Deckeeper](https://github.com/deckeeper)  
+[DexterHuang](https://github.com/DexterHuang)  
+Dzylx  
+[Humboer](https://github.com/stphnhng)  
+[hildjj](https://github.com/hildjj)  
 [JEricaM](https://github.com/JEricaM)
-[Kimi Leta](https://github.com/kimileta)
-[l33t4ng3l](https://github.com/l33t4ng3l)
-[levi middleton](https://github.com/levi-middleton)
-[Luako](https://github.com/luako)
-[mr_moe](https://github.com/donburks)
-[mxjoda](https://github.com/mxjoda)
-[Omnipotent_God](https://github.com/Omnipotent-God)
-pikkon85
-[PotatoMan](https://github.com/PotatoMan145)
-[RubenVerg](https://github.com/rubenverg)
-[s3rvant](https://github.com/s3rvant)
-[Tripplehelix](https://github.com/tripplehelix)
+[Kimi Leta](https://github.com/kimileta)  
+[l33t4ng3l](https://github.com/l33t4ng3l)  
+[levi middleton](https://github.com/levi-middleton)  
+[Luako](https://github.com/luako)  
+[mr_moe](https://github.com/donburks)  
+[mxjoda](https://github.com/mxjoda)  
+[Omnipotent_God](https://github.com/Omnipotent-God)  
+pikkon85  
+[PotatoMan](https://github.com/PotatoMan145)  
+[RubenVerg](https://github.com/rubenverg)  
+[s3rvant](https://github.com/s3rvant)  
+[Tripplehelix](https://github.com/tripplehelix)  
 
 **Remember to add your name in this doc when you create a PR**
 
@@ -51,17 +51,17 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * Now other player equiped items in their detail page is rendered with new UI element
  * Fix typo for `Military Drone` recipe
  * Fix update page exceeding the screen width issue
-
+   
 ### **2021/02/24- v0.369**
  * Progress bar text now is THICC
  * IOS update been rejected by Apple, pushes some updates for that
 
 ### **2021/02/23- v0.369**
  * Updated mobile combat UI, should be more compat and less messy
- * Updated progress bar text color
- * Improve time sync mechanic
- * Fix typo on crafting recipe
-
+ * Updated progress bar text color 
+ * Improve time sync mechanic 
+ * Fix typo on crafting recipe 
+ 
 ### **2021/02/22- v0.359**
  * New Items `Experience Shard [mining/Scavange/Medical Science/ammo crafting/printing skill]` same as normal `Experince Shard` but for other levels
  * Item Rename `Experience Memory` => `Experience Shard`
@@ -76,12 +76,12 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ### **2021/02/21- v0.359**
  * ios related fix
  * iOS IAP update - appstore still pending apple approval
-
+ 
 ### **2021/02/20- v0.359**
  * Update dungeon enemy icon, because some older ios devices cannot render the old one properly
-
+ 
 ### **2021/02/18- v0.359**
- * Normal dungeon enemy level is reduced
+ * Normal dungeon enemy level is reduced 
 
 ### **2021/02/17- v0.359**
  * Dungeon now has custom structures, structures can be contributed via GitHub
