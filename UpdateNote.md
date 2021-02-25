@@ -17,6 +17,7 @@ Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee
 [CMDR7](https://github.com/cmdr7)  
 [Deckeeper](https://github.com/deckeeper)  
 [DexterHuang](https://github.com/DexterHuang)  
+Dzylx  
 [Humboer](https://github.com/stphnhng)  
 [hildjj](https://github.com/hildjj)  
 [JEricaM](https://github.com/JEricaM)
@@ -27,6 +28,7 @@ Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee
 [mr_moe](https://github.com/donburks)  
 [mxjoda](https://github.com/mxjoda)  
 [Omnipotent_God](https://github.com/Omnipotent-God)  
+pikkon85  
 [PotatoMan](https://github.com/PotatoMan145)  
 [RubenVerg](https://github.com/rubenverg)  
 [s3rvant](https://github.com/s3rvant)  
