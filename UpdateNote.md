@@ -48,6 +48,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log
 ### **2021/02/26- v0.369**
+ * Fix upgrade module visual bug on item details
  * Simple details of items now shows in inventory page
  * UI update for item details page
 
