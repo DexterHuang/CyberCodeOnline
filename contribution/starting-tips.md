@@ -1,4 +1,6 @@
-# Welcome! Here are some starting tips:
+# Welcome! 
+
+### Here are some starting tips:
 
 * To begin with, take the Hyper Train Central Station [Adventure] to the level 1-10 area and attack the bad guys.
 * Wait till your average equipment is at level 8 (check your profile) or so to do the first dungeon.
