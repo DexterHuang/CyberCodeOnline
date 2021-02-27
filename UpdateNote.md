@@ -25,6 +25,7 @@ Dzylx
 [l33t4ng3l](https://github.com/l33t4ng3l)  
 [levi middleton](https://github.com/levi-middleton)  
 [Luako](https://github.com/luako)  
+[Misaki](https://github.com/Cyber-nun2)
 [mr_moe](https://github.com/donburks)  
 [mxjoda](https://github.com/mxjoda)  
 [Omnipotent_God](https://github.com/Omnipotent-God)  
@@ -33,7 +34,6 @@ pikkon85
 [RubenVerg](https://github.com/rubenverg)  
 [s3rvant](https://github.com/s3rvant)  
 [Tripplehelix](https://github.com/tripplehelix)  
-[Misaki](https://github.com/Cyber-nun2)
 
 **Remember to add your name in this doc when you create a PR**
 
