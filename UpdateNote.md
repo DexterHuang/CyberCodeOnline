@@ -20,14 +20,14 @@ Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee
 Dzylx  
 [Humboer](https://github.com/stphnhng)  
 [hildjj](https://github.com/hildjj)  
-[JEricaM](https://github.com/JEricaM)
+[JEricaM](https://github.com/JEricaM)  
 [Kimi Leta](https://github.com/kimileta)  
 [l33t4ng3l](https://github.com/l33t4ng3l)  
 [levi middleton](https://github.com/levi-middleton)  
 [Luako](https://github.com/luako)  
 [mr_moe](https://github.com/donburks)  
-[mxjoda](https://github.com/mxjoda)
-[Misaki](https://github.com/cybernun2) 
+[mxjoda](https://github.com/mxjoda)  
+[Misaki](https://github.com/cybernun2)  
 [Omnipotent_God](https://github.com/Omnipotent-God)  
 pikkon85  
 [PotatoMan](https://github.com/PotatoMan145)  
