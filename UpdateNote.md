@@ -33,6 +33,7 @@ pikkon85
 [RubenVerg](https://github.com/rubenverg)  
 [s3rvant](https://github.com/s3rvant)  
 [Tripplehelix](https://github.com/tripplehelix)  
+[RaykouTJ](https://github.com/HoneySyrup)  
 
 **Remember to add your name in this doc when you create a PR**
 
