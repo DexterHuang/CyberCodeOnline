@@ -19,6 +19,17 @@ If there is a serious exploit please **don't** create an issue here, email me di
 
 Requests and suggestions can be left on the [Discord](https://discord.gg/JREx8xz).
 
+If you would like to help to maintain CyberCode Online, please feel free to submit a PR.
+
+### Help Needed:
+ * contribution/words.json - Random Names
+ * contribution/dungeon/layout/structure-mask.json - Dungeon Layouts
+ * contribution/mobile/tips.md - Tips for Mobile
+ * tips.txt - Tips for desktop 
+ * contribution/notes/* - In Dungeon Lore
+ * mobile-tutorial/* - Mobile Tutorial
+ * tutorial/* - Desktop Tutorial
+
 ### Screenshots
 
 #### Web

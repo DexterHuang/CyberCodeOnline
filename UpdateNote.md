@@ -20,16 +20,18 @@ Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee
 Dzylx  
 [Humboer](https://github.com/stphnhng)  
 [hildjj](https://github.com/hildjj)  
-[JEricaM](https://github.com/JEricaM)
+[JEricaM](https://github.com/JEricaM)  
 [Kimi Leta](https://github.com/kimileta)  
 [l33t4ng3l](https://github.com/l33t4ng3l)  
 [levi middleton](https://github.com/levi-middleton)  
 [Luako](https://github.com/luako)  
+[Misaki](https://github.com/Cyber-nun2)  
 [mr_moe](https://github.com/donburks)  
 [mxjoda](https://github.com/mxjoda)  
 [Omnipotent_God](https://github.com/Omnipotent-God)  
 pikkon85  
 [PotatoMan](https://github.com/PotatoMan145)  
+[RaykouTJ](https://github.com/HoneySyrup)  
 [RubenVerg](https://github.com/rubenverg)  
 [s3rvant](https://github.com/s3rvant)  
 [Tripplehelix](https://github.com/tripplehelix)  
@@ -40,13 +42,18 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ### Help Needed:
  * contribution/words.json - Random Names
- * CyberCodeOnline/contribution/dungeon/layout/structure-mask.json - Dungeon Layouts
+ * contribution/dungeon/layout/structure-mask.json - Dungeon Layouts
  * contribution/mobile/tips.md - Tips for Mobile
+ * tips.txt - Tips for desktop 
  * contribution/notes/* - In Dungeon Lore
  * mobile-tutorial/* - Mobile Tutorial
  * tutorial/* - Desktop Tutorial
 
 ## Updates Log
+### **2021/02/27- v0.369**
+ * Fix ios start up error issue
+ * Fix ios profile pic upload bug 
+
 ### **2021/02/26- v0.369**
  * Fix upgrade module visual bug on item details
  * Simple details of items now shows in inventory page
@@ -76,10 +83,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * You can now see other player's clan player list and stats
  * Updated clan display on player details page
  * Fix error popup on app start
- * fix ios toggle component looking weird
+ * fix iOS toggle component looking weird
 
 ### **2021/02/21- v0.359**
- * ios related fix
+ * iOS related fix
  * iOS IAP update - appstore still pending apple approval
  
 ### **2021/02/20- v0.359**
@@ -90,14 +97,14 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ### **2021/02/17- v0.359**
  * Dungeon now has custom structures, structures can be contributed via GitHub
- * Players in dungeon now uses path finding, will walk accroding to the path necessary instead of teleporting where you click
+ * Players in dungeon now uses path finding, will walk according to the path necessary instead of teleporting where you click
  * You can now see players in other room in the same dungeon at the edge of your map
 
 ### **2021/02/06- v0.323**
  * Fix issue with inventory scroll
 
 ### **2021/02/05- v0.323**
- * Added image for `Molecular Printer` thanks to [l33t4ng3l](https://github.com/l33t4ng3l) for the awesome art work!
+ * Added image for `Molecular Printer` thanks to [l33t4ng3l](https://github.com/l33t4ng3l) for the awesome artwork!
  * Fix chat laginess
  * Optimization, should drastically increase battery life on chat page
 
@@ -105,11 +112,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * Profile UI updated!
  * Moderator color has been change to PINK!
  * Added temporary image for `Arasaka Unit Exchange`
- * You now cannot use item while in combat outside dungeon (it use to be able to use, but no effect)
+ * You now cannot use item while in combat outside dungeon (it used to be able to use, but no effect)
 
 ### **2021/02/02- v0.323**
  * Added new store `Arasaka Unit Exchange`
- * Remove Esport gammer from bad guy list
+ * Removed Esport gammer from bad guy list
  * Server optimization
 
 ### **2021/02/01- v0.323**
@@ -137,13 +144,13 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ### **2021/01/26- v0.309**
  * You can now transfer gang leadership
- * added better loading screen
+ * Added better loading screen
 
 ### **2021/01/25- v0.309**
  * Added new background music
  * Added framed chat box (donator only)
  * Added custom profile image (elite only)
- * added title
+ * Added title
  * Added basic IAP support (WIP)
 
 ### **2021/01/21- v0.309**
@@ -164,9 +171,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * You can now upgrade market slot
 
 ### **2021/01/17- v0.296**
- * Change "By Me a Coffee" to Patreon
+ * Change "Buy Me a Coffee" to Patreon
  * Added placeholder image for mart
- * Added new progression quest lines
+ * Added new progression quest-lines
  * Added more healing items
  * Over 100+ new sub-locations
 
@@ -192,12 +199,12 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ### **2021/01/10- v0.283**
  * Possible fix on dungeon desync issue
- * Fix backdrop blur effect on ios
+ * Fix backdrop blur effect on iOS
 
 ### **2021/01/09- v0.283**
  * Changed logo to new version on mobile login screen
  * Added review popup
- * Now its not possible to create chracter with names that has only capitalization difference with other player
+ * Now it's not possible to create character with names that has only capitalization difference with other player
 
 ### **2021/01/08- v0.283**
  * Player platform icon is now updated
@@ -213,11 +220,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ### **2021/01/07- v0.283**
  * The system will also send you a email when sending a gift
- * Display hint to update browser when in older broswer such as IE11 or very old Android phone
+ * Display hint to update browser when in older broswer such as IE11 or very old Android phones
 
 ### **2021/01/06- v0.283**
  * Renamed bank to `Bank of Arasaka`
- * Added graphic for bank, thanks to [l33t4ng3l](https://github.com/l33t4ng3l) for the awesome art work!
+ * Added graphic for bank, thanks to [l33t4ng3l](https://github.com/l33t4ng3l) for the awesome artwork!
  * Dungeon names now will go though bad word sensorship :)
  * Fix duplicated max shield at stat page
  * Fix chance based scrap
@@ -227,14 +234,14 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ### **2021/01/05- v0.283**
  * Added dungeon listing page, you can now see all public dungeons to join
  * You may create dungeon with public or private setting
- * You may create password protected dungeon, to ensure only you friends enters the dungeon
+ * You may create password protected dungeon, to ensure only your friends enters the dungeon
 
 ### **2021/01/04- v0.276**
- * You now can scrap PainAway to Medical Tech Parts
+ * You now can scrap Pain Away to Medical Tech Parts
 
 ### **2021/01/03- v0.276**
- * Fix issue with iOS app couldnt start (need to download new version from appstore)
- * Fix iOS swipeback going to broken page
+ * Fix issue with iOS app couldn't start (need to download new version from app store)
+ * Fix iOS swipe-back going to broken page
 
 ### **2021/01/01- v0.276**
  * Added image to Weapon Smith on mobile (drawn by [l33t4ng3l](https://github.com/l33t4ng3l))
@@ -244,20 +251,20 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * Fix android back button issue
 
 ### **2020/12/30 - v0.269**
- * Now visited door in dungeons will be marked greyed out
+ * Now visited door in dungeons will be greyed out
  * Updated the button of update modal
  * Now the system message for recieving gift will include item amount
 
 ### **2020/12/29 - v0.269**
  * Remove title when in dungeon, reduce chance of having to scroll to view the map
- * Bunker rename to "Vault"
+ * Bunker renamed to "Vault"
  * Now Apple login is supported on web version
  * Fix web version leave for long time will cause lag issue
  * Added max health and max shield display at player detail on mobile
 
 ### **2020/12/28 - v0.264**
  * Update android icon to the newest one
- * Added facebook mediation to ad service, should increase amount of ads you get
+ * Added Facebook mediation to ad service, should increase amount of ads you get
 
 ### **2020/12/27 - v0.264**
  * Double exp gained from crypto mining AFK task
@@ -273,29 +280,29 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * Fix issue with web gang chat
 
 ### **2020/12/24 - v0.257**
- * Gnag is now available on web version
+ * Gang is now available on web version
 
 ### **2020/12/23 - v0.257**
- * Fix small chance of items having same id, thus causes weird issue
- * Fixed notification dot not working properly
+ * Fix small chance of items having same id, thus causing weird issue
+ * Fixed notifications not working properly
  * Added prompt to confirm before closing inventory
- * Remove backdrop blur effect for popup on desktop mode
+ * Remove backdrop blur effect for pop-up on desktop mode
  * Fix UI issue for selling item on market
  * Added AOE healing items to Tinoky Mart
- * low level healing item now slightly cheaper in Tinoky Mart
+ * Low level healing item now slightly cheaper in Tinoky Mart
  * Increased inventory size to 50
  * Show player health on map in dungeon
- * Adjuest layout of opened inventory on mobile again
+ * Adjusted layout of opened inventory on mobile
  * Optimizations
 
 ### **2020/12/22 - v0.254**
- * Fix ingame mail notification now showing sender name
+ * Fix in-game mail notification now showing sender name
  * Show confirm box before aborting afk task, to avoid accidental abortion ;)
  * Added more clear instruction on how to go to next area in mobile
 
 ### **2020/12/21 - v0.253**
- * Added durability display to mobile inv equiped items
- * modified where close button for opened inventory located, to avoid missclicks
+ * Added durability display to mobile inventory equiped items
+ * Modified the location of the closing button for opened inventory, to avoid missclicks
  * Minor performance enhancement on mail page
 
 ### **2020/12/20 - v0.247**
@@ -325,27 +332,27 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * Minor Optimization
 
 ### **2020/11/29 - v0.229**
- * Fix issue with modal popup
+ * Fix issue with modal pop-up
  * Fix game crash issue
- * Fix popup bug
+ * Fix pop-up bug
 
 ### **2020/11/28 - v0.219**
  * System will not show confirmation before scrap item
- * Add words from contribute
- * Redesigned mobile popup UI
- * 🎉 Now all players contribute 25% or above to a fight will recive rewards from defeating the enemy
- * Chat notification dot not disapearing issue has been fixed
+ * Added player contribution
+ * Redesigned mobile pop-up UI
+ * 🎉 Now all players who contribute 25% or above to a fight will recive rewards from defeating the enemy
+ * Chat notification not disapearing issue has been fixed
 
 ### **2020/11/27 - v0.219**
- * Fixed ios zoom issue
+ * Fixed iOS zoom issue
 
 ### **2020/11/25 - v0.219**
- * Added easier access to go back to previous location at top of screen on mobile
- * Rewrite Ad loading functions to be compatible with ios
- * Now enemy level is showing when fighting enemy
+ * Added easier access to previous location at top of the screen on mobile
+ * Rewrite Ad loading functions to be compatible with iOS
+ * Enemy level is showing when fighting enemy now
  * Room level now is shown in dungeon
- * Fix ios long press issue
- * fix ios related issues
+ * Fix iOS long press issue
+ * fix iOS related issues
 
 ### **2020/11/25 - v0.213**
  * 🎊🎊🎊🎊IOS Version available now!🎊🎊🎊🎊
@@ -353,8 +360,8 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ### **2020/11/21 - v0.213**
  * You can now gain status effect by completing quest from dungeon
  * Status effect for enemies added
- * increase medical tech part earn from from scavange by 3 time
- * increase medical tech part earn at lower level
+ * Increased medical tech parts earned from from scavange by 3 times
+ * Increased medical tech parts earned at lower level
 
 ### **2020/11/19 - v0.212**
  * Reduced storage price
@@ -368,191 +375,191 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ### **2020/11/14 - v0.208**
  * Added new tutorial for web thanks to [s3rvant](https://github.com/s3rvant)'s contribution!
  * Ads are back on mobile
- * added indication of if whatching ads is available on map page header as `TIME SKIP READY`, so you know time skip is available
+ * Added indication of the availability of ads on map page header as `TIME SKIP READY`, so players know time skip is available
 ### **2020/11/13 - v0.206**
  * New UI design for action card (mobile)
 
 ### **2020/11/09 - v0.202**
- * Adjust bank storage price, now one slot is 1000 btc regardless of item
+ * Adjust bank storage price, now one slot is 1000 BTC regardless of item
  * Max level is open till 160
  * Rebalance on ammo crafting and scavange
- * fix issue with bank price
+ * Fixed issue with bank price
 
 ### **2020/11/09 - v0.202**
- * Fix item inbox issue
- * added bank bunker, you can now store items in bank
+ * Fixed item inbox issue
+ * Added bank bunker, you can now store items in bank
 
 ### **2020/11/08 - v0.201**
- * You can now send gift (items) to players by clicking the send gift button in player details
- * Fix issue with displaying tips on web
+ * Players can now send gift (items) to other players by clicking the send gift button in player profile
+ * Fixed issue with displaying tips on web
 
 ### **2020/11/05 - v0.199**
- * Your bitcoins now shows on several pages, such as market and NPC interaction page (Mobile)
- * Market item now will exipre in 7 days and automatically return to you
- * Added item inbox, use to store item send to you by system and future gifting system
+ * Bitcoins are now showing on several pages, such as market and NPC interaction page (Mobile)
+ * Market item now will exipre in 7 days and automatically return to the player
+ * Added item inbox, used to store item send to the player by the system and future gifting system
 
 ### **2020/11/01 - v0.196**
  * Added several new icons for inventory UI created by [Arky](https://www.instagram.com/andreiarky)!
- * You can now long press to select multiple item and sell them in NPC store (mobile)
+ * Players can now long press to select multiple item and sell them in NPC store (mobile)
  * Added category selection to mobile inventory display :)
 
 ### **2020/10/30 - v0.194**
- * Fix compability issue with order devices
- * Added contributed names to ContributeContent.json by [l33t4ng3l](https://github.com/l33t4ng3l) and [Kimi Leta](https://github.com/kimileta)
+ * Fix compatibility issue with other devices
+ * Added contribution names to ContributeContent.json by [l33t4ng3l](https://github.com/l33t4ng3l) and [Kimi Leta](https://github.com/kimileta)
 ### **2020/10/28 - v0.194**
  * Items are now shorted in NPC shop
- * update item details ui on mobile, now stat compared to equipped item is showing in details
+ * Update item details UI on mobile, now the stat compared to equipped item is showing in details
 
 ### **2020/10/27 - v0.187**
- * fix caching issue with audio
- * Fix issue with chat display
- * Added bitcon display on area page on in mobile
- * Major Optimization, player who experience lag during page change should see some improvement
+ * Fixed caching issue with audio
+ * Fixed issue with chat display
+ * Added bitcon display on area page on mobile
+ * Major Optimization. Players who experience lag during page change should now see some improvement
  * New global chat UI on mobile :)
 
 ### **2020/10/25 - v0.184**
- * mobile you can now see other player's name in dungeon
+ * Players can see other player's names in a dungeon, in the mobile version
  * Added Update note to mobile (at `Me` tab)
  * Added Tutorial to mobile (at `Me` tab)
 
 ### **2020/10/23 - v0.178**
  * Boss names are now contributable content :)
- * Removed combat notification, as it is annoying
- * You can now swipe left and right on chat and inventory to switch view
+ * Removed combat notification, since it is annoying
+ * Players can now swipe left and right on chat and inventory to switch view
  * Updated descriptions for actions like travel and scavenge, hopfully is clearer
- * change travel details to darker color on mobile
+ * Changed travel details to darker color on mobile
 
 ### **2020/10/22 - v0.178**
  * Added even more names to equipments thanks to [l33t4ng3l](https://github.com/l33t4ng3l)'s contribution to ContributeContent.json
- * Added mutilple new names to location and equipments thanks to [Kimi Leta](https://github.com/kimileta)'s contribution to ContributeContent.json
+ * Added multiple new names to location and equipments thanks to [Kimi Leta](https://github.com/kimileta)'s contribution to ContributeContent.json
  * Added level gate to job hub and player market to avoid confusing new players with too many options
- * display health in dungeon
- * minor UI adjustments
+ * Health is now displayed in dungeon
+ * Minor UI adjustments
 
 ### **2020/10/21 - v0.173**
  * Added background music
  * Modified mobile Area tab interface (shows player name, level and exp)
- * Added some new tutorial on mobile
- * Fix dungeon navigation bug
- * Fix dungeon loading dark screen
- * Fix stuck in dungeon issue
- * Fix music doesnt stop when app is hidden
+ * Added new tutorial on mobile
+ * Fixed dungeon navigation bug
+ * Fixed dungeon loading dark screen
+ * Fixed stuck in dungeon issue
+ * Fixed music doesnt stop when app is hidden
 
 ### **2020/10/20 - v0.168**
  * Shows stats cap at mobile player details
- * fix security related issue
+ * Fixed security related issue
 
 ### **2020/10/19 - v0.167**
- * open equipment names to contribution; you may make a PR to ContributeContent.json to add more names for equipments
+ * Open equipment names to contribution; you may make a PR to ContributeContent.json to add more names for equipments
  * Added many new NPC scripts thanks to [levi middleton](https://github.com/levi-middleton)'s contribution to ContributeContent.json
  * Added new Inventory Icon on mobile thanks to [Arky](https://www.instagram.com/andreiarky)
  * Improve bug splash report screen
- * Added more clear description for AFK action reward on mobile
+ * Added more clearer description for AFK action reward on mobile
 
 ### **2020/10/18 - v0.157**
- * Fix pull to refresh on mobile
+ * Fixed the page refresh on mobile
  * Hot fixes for bugs intoduced by previous update
- * Update texts in contributeContent, thanks to [Kimi Leta](https://github.com/kimileta),
- next time someone update it please help me rename it to contribute_content.json haha
- * Major optimization aming to reduce mobile load time
+ * Updated texts in contributeContent, thanks to [Kimi Leta](https://github.com/kimileta),
+ Next time someone update it please help me rename it to contribute_content.json haha
+ * Major optimization aiming to reduce mobile load time
 
 ### **2020/10/17 - v0.156**
- * Fixes huge bug where it prevents new player from registering (SAD)
- * Fiex mail related issue
- * fiex message player button on desktop
+ * Fixed huge bug where it prevents new player from registering (SAD)
+ * Fixed mail related issue
+ * Fixed message player button on desktop
 
 ### **2020/10/16 - v0.154**
- * You can now send direct message to player from their detail page
- * Added mail to mobile
- * complete rewrite of email system
+ * Players can now send direct message to other players from their profile page
+ * Added Mail to mobile
+ * Complete rewrite of email system
  * Changed how enemy name is displayed on mobile
- * Minor adjustment for mobile battle ui
+ * Minor adjustment for mobile battle UI
 
 ### **2020/10/14 - v0.148**
  * Fixed mobile exisiting user login page broken issue
  * Fixed first time login redirection issue
  * Fixed new player crashing issue
- * Now player name tags shows what platform they are on
- * Add discord and github link on mobile stat page
+ * Now player name tags shows the platform they are on
+ * Added Discord and GitHUB links on mobile at the Links page
 
 ### **2020/10/11 - v0.144**
- * Added procedurally generated quest to dungeons, quest npc has certain chance to appear in dungeons, denoted with `?` symbol, you can choose to accept or reject the quest from npc, when quest is completed, you will get item and exp as reward
- * add discord and bug report button on mobile
- * Show quest descriptions on mobile
+ * Added procedurally generated quests to dungeons, the quest npc has certain chance to appear in dungeons, denoted with `?` symbol, you can choose to accept or reject the quest from npc, when quest is completed, you will get item and exp as reward
+ * Added Discord and bug report button on mobile
+ * Added quest descriptions on mobile
  * Mobile back button issue is fixed
- * Mobile popup modal (the card) can be dismissed with back button now
- * Hide location if level is too high relative to player to avoid confusing new players
+ * Mobile pop-up modal (the card) can be dismissed with back button now
+ * High level locations are now hidden for new players if the level is too high relative to player in order to avoid confusing new players
  * Mobile item detail page now shows the item slot type
- * mobile battle ui now shows remaining ammo amount
+ * Mobile battle UI now shows remaining ammo amount
 
 ### **2020/10/08 - v0.141**
- * Fix issue with ad
- * Fixed sheild damage calculation error
- * Added one more quest for new player
- * now quest pannel is scrollable
+ * Fixed issue with ads
+ * Fixed shield damage calculation error
+ * Added an additional quest for new players
+ * Now quest pannel is scrollable
  * Added description for quests
 
 ### **2020/10/06 - v0.138**
- * Remove 'god' and 'damn' from banned word list
- * Added new questing system, for now I only added one quest for new players
- * Now you can click on quest to see the rewards
+ * Removed 'god' and 'damn' from banned word list
+ * Added new questing system, for now I only add one quest for new players
+ * Now quests displays the rewards
 
 ### **2020/10/04 - v0.134**
  * Fixed a bug where it prevents quality to take effect correctly and prevents some best stat to be droped
  * Minor mobile UI adjustment
- * Updated mobile tutorial ui
- * You can now view player details on mobile
- * You can now join dungeon by clicking link on mobile
+ * Updated mobile tutorial UI
+ * Players can now view player details on mobile
+ * Players can now join dungeon by clicking link on mobile
  * Added multi select for desktop version on inventory to take and scrap all selected item at once
- * Normal dungeon now also have level restriction, High level player are allowed to join but not interact with objects
+ * Normal dungeon now also have level restriction. High level player are allowed to join but not interact with objects
 
 ### **2020/10/03 - v0.134**
  * Added pull to refresh on mobile `Area` tab, it syncs your data with server
 
 ### **2020/09/30 - v0.128**
- * major update design on mobile
- * You can now long press on mobile to take multiple item from enemy loot after combat
- * You can now long press on mobile inventory to select multiple items to destory/scrap
+ * Major update design on mobile
+ * Players can now long press on mobile to take multiple item from enemy loot after combat
+ * Players can now long press on mobile inventory to select multiple items to destory/scrap
  * Added sort by name in player market, so it is easier to find items
 
 ### **2020/09/29 - v0.125**
  * Added mention to mobile version
- * Added Tips display at buttom bar (*Please help contrubute to Tip.md*)
+ * Added Tips display at bottom bar (*Please help contrubute to Tip.md*)
  * Updated markdown display in game
 #### Bitcoin Mining
  * Added `Hash Processor`, can be obtained in dungeon and rarely droped by enemy
- * Added Bitcoin Mining job in `[JOB HUB]`, costs `Hash Processor` but gets doubled amount of Bitcoin compares to `AI Core` auto farm
+ * Added Bitcoin Mining job in `[JOB HUB]`, costs `Hash Processor` but gets double amount of Bitcoin compared to `AI Core` auto farm
 
 #### Misc
- * Increase Late game printing price
+ * Increased endgame printing price
  * Extra info on repeatable action, now shows the amount of comsumable (eg AI Core, Tech Scrap) needed to start action base of repeat amount
  * Added number input for all number selecting modal, (selling, selecting job repeating amount)
- * Added a prompt before selling Rare and above items to shop, preventing accidentally sold to npc
+ * Added a prompt before selling Rare and above items to shop, preventing to be accidentally sold to npc
  * Added more instruction on reverse engineering on Tech Scrap
 
 ### **2020/09/28 - v0.118**
- * add more tutorial
- * Fix player shield not regen bug
- * prevent player stack on top of enemeis in dungeon
+ * Added more tutorial
+ * Fixed player shield not regenerating bug
+ * Prevented player stack on top of enemies in dungeon
  * Added more obvious effect to claim quest button, so you will notice it easier
  * Added more tutorial for Desktop UI
- * Mobile now shows small circle badge when there is unread global chat
- * Added some tutorial popups
- * Mention system enhancement, you can press 'Tab' to complete, press 'Escape' to close popup
+ * Mobile now shows small circle badge when it is unreaded global chat
+ * Added some tutorial pop-ups
+ * Mention system enhancement, players can press 'Tab' to complete, press 'Escape' to close pop-up
  * Added profanity filters to player name and chat
 
 ### **2020/09/26 - v0.112**
- * 🎉 Now you can see yourself and other players in dungeon, in realtime
- * 🎉 You can now skip quest on mobile version by watching AD
+ * 🎉 Now you can see yourself and other players in dungeon, in real time
+ * 🎉 Players can now skip quest on mobile version by watching AD
  * Multiple bug fixes :)
 
 
 ### **2020/09/24 - v0.106**
  * Now when you mention someone, they will get a notification if you they have accepted to recieve notifications
- * 👏Added mention feature on desktop chat use `@playerName` syntax to include other player's name,
-  player must be online (it is expected you see markup syntax in your input)
- * Fix mobile skip AFK time feature
- * You can now sell and see `AI Core` in player market with `Materials` filter
+ * 👏 Added mention feature on desktop chat use `@playerName` syntax to include other player's name,
+  Player must be online (it is expected you see markup syntax in your input)
+ * Fixed mobile skip AFK time feature
+ * Players can now sell and see `AI Core` in player market with `Materials` filter
 
 ### **2020/09/23 - v0.104**
 #### Auto Farm
@@ -563,7 +570,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * Added reward video to mobile version
 
 ### **2020/09/22 - v0.102**
- * Fix minor crafting bug
+ * Fixed minor crafting bug
  * Added bitcoin display on mobile, in inventory page and Me page
  * Show list of secret key in mobile inventory page
 
@@ -571,30 +578,30 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * Include option to never ask for notification permission again
  * Added two more tiers of healing items
  * Added quick use item button on mobile battle UI
- * fix notification not showing correctly sometimes
- * fix notification displaying wrong message
- * Fix issue with item max stack amount
+ * Fixed notification not showing correctly sometimes
+ * Fixed notification displaying wrong message
+ * Fixed issue with item max stack amount
  * Now item detail shows upgrades and base values
- * Fix mobile issue
+ * Fixed mobile issue
 
 ### **2020/09/20 - v0.96**
  * Added notification support
 
 ### **2020/09/18 - v0.94**
- * Mobile now can modify item upgrades and see item durability
- * Armor and upgrades have chance to drop with `Pocket` stat, increases inventory slot
- * Fix mobile UI issue
+ * Mobile players now can modify item upgrades and see item durability
+ * Armor and upgrades have a chance to drop with `Pocket` stat, increases inventory slot
+ * Fixed mobile UI issue
  * Fixed mobile ios chat page keyboard layout issue
- * Fix mobile my stall page showing incorrect price issue
+ * Fixed mobile 'My stall' page showing incorrect price issue
 
 ### **2020/09/17 - v0.90**
  * Now when item is sold in player market, seller player will recieve email from system as notification
- * Added (missing) repair function to the mobile weaponsmith
+ * Added (missing) repair function to the mobile Weaponsmith
 #### NEW ITEM STATS
  * Stun Chance: Chance of you stunning your enemy when dealing damage,
-    causing them not able to respond to your attack
- * Evade: Chance of you dodging enemy's attack
- * Bargain: Influence on the price you buy and sell from stores and npc
+    causing them to not able to respond to your attack
+ * Evade: Chance of players dodging enemy's attack
+ * Bargain: Influence on the price players buy and sell from stores and NPC
  * Added crit chance and crit damag back to upgrade modules
 
 ### **2020/09/16 - v0.87**
@@ -604,11 +611,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ### **2020/09/14 - v0.85**
  * Added sort functionality to player market
- * Now shows `My Stall` at player market, so you can easily manage your stall
- * remove unnecessary price tag in shop items
+ * Now shows `My Stall` at player market, so players can easily manage your stall
+ * Removed unnecessary price tag in shop items
  * Added `Equipment Cache` category to market item filter
  * Now AFK actions repeat slider shows how long it will take in minutes or hours
- * You can now close tab using middle mouse button
+ * Players can now close tab using middle mouse button
  * Dungeon enemy and loot now have slight level variation, with challenge dungeons having more variance.
  * Fixed bug where you can interact with npc or shops even you have left the area
  * Fix printer shows wrong names for weapons
@@ -617,7 +624,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * Market UI update, you can now view all items, and sort by item type
 
 ### **2020/09/11 - v0.79**
-* Fix dungeon generates room but no way to get to the room issue (Fixes dungeon unable to complete issue)
+* Fixed dungeon generates room but no way to get to the room issue (Fixes dungeon unable to complete issue)
 
 ### **2020/09/10 - v0.77**
  * Dungeon now shows if dungeon is completed as a variable
@@ -629,122 +636,123 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * Added ability to use area effect item, all item with area effect will apply the same effect to everyone in the same combat
 
 #### Bug fix
- * Fixed firefox chat terminal scroll issue
+ * Fixed Firefox chat terminal scroll issue
 #### Quest Minor Update
- * remove "join Dungeon" quest
- * added several dungeon related quests
- * updated UI to show instruction on hover
- * only level 8 or above will receive dungeon quest
+ * Ro
+ * Removed "join Dungeon" quest
+ * Added several dungeon related quests
+ * Updated UI to show instruction on hover
+ * Only level 8 or above will receive dungeon quest
 
 #### Misc
- * Now health items can only be used in dungeon
- * Fix UI related issue
- * Fix shielded enemy damage calculation issue
+ * Now health items can only be used in the dungeon
+ * Fixed UI related issue
+ * Fixed shielded enemy damage calculation issue
 
 ### **2020/09/07 - v0.58**
 #### dungeon update
- * you can now send invite even when you are in dungeon battle
- * dungeon boss exp and loot is increased, dungeon small enemy exp is reduced
+ * Players can now send invite even when they are in dungeon battle
+ * Dungeon boss exp and loot is increased, dungeon small enemy exp is reduced
 
 #### misc
- * You now cannot join the same dungeon instance again after you have quit or died in that dungeon instance
+ * Players now cannot join the same dungeon instance again after players have quit or died in that dungeon instance
  * Removed lootbox captcha
- * fix doing afk actions while inventory is full will cause action unable to complete issue
+ * Fixed doing afk actions while inventory is full will cause action unable to complete issue
 
 ### **2020/09/06 - v0.57**
  * High level player can now join low level challenge dungeon, but cannot interact with anything
  * Dungeon display is slightly changed
- * chat termninal now resizable 🎉
+ * Chat termninal now resizable 🎉
 
 ### **2020/09/05 - v0.56**
- * durability has been buffed, now durability decreases much slower
+ * Durability has been buffed, now durability decreases much slower
 
  #### Durability Update
  * Only "nearby enemy" will cost durability, dungeon enemy is not affected
  * Now all equipment has durability
- * you can easily repaire all equipments in Weapon Smith with a little btc
- * items that are broken will not contribute any stat
+ * Players can easily repair all equipments in Weaponsmith with a little BTC
+ * Items that are broken will not contribute towards any stat
 
  #### Dungeon
- * all dungeons now drop ammo and ammo material
- * massively increase challenge dungeon loot and exp
- * increase challenge dungeon boss exp and btc
- * dungeon invite message now include dungeon type
+ * All dungeons now drop ammo and ammo material
+ * Massively increased challenge dungeon loot and exp
+ * Increased challenge dungeon boss exp and BTC drops
+ * Dungeon invite message now includes dungeon type
 
  #### Balancing
  * Big buff to item stats (only affects new items)
- * Nerf higher level enemies
+ * Nerfed higher level enemies
 
  #### Bot prevention update
- * You can now pass lock box (captcha) even when your inv is full
- * Added level cap at nearby enemy area, high level player cant use low level enemy to farm (cap with player level and average item level)
+ * Players can now pass lock box (captcha) even when inventory is full
+ * Added level cap at nearby enemy area, high level player can't farm low level enemy (cap with player level and average item level)
 
  #### Misc
- * added description for exp memory and tech scrap
+ * Added description for exp memory and tech scrap
 
 ### **2020/09/04 - v0.46**
- * fix crashing issue
- * fix average level calculation
- * (buff) increase higher level health item crafted amount
- * (nerf) decrease higher level ammo crafted amount optimization
+ * Fixed crashing issue
+ * Fixed average level calculation
+ * (buff) Increased the crafted ammount of the higher level health items
+ * (nerf) Decreased the amount of higher level ammo crafted
 
 ### **2020/09/03 - v0.38**
 #### Realtime communication
- * messages are now sent when other player damages enemy you are also fighting
- * notifications are now sent when items are sold in player markets
- * now when enemies are killed by other players, they are auto-refreshed
+ * Messages can be sent now when other player damages enemy and you are fighting
+ * Notifications are now sent when items are sold in Player Market
+ * Enemies auto-refresh when killed by other players
 #### Misc
- * updated markup style
- * updated health display effect
- * show realtime player health in all battles
- * enemy optimization
- * show realtime player health in dungeons
- * serverside optimizations
+ * Updated markup style
+ * Updated health display effect
+ * Player's health is showed in realtime across all battles
+ * Enemy optimization
+ * Player's health is showed in realtime, in dungeons
+ * Serverside optimizations
 
 ### **2020/09/03 - v0.36**
- * show realtime player health in dungeon
- * serverside optimization
+ * Player's health is showed in realtime, in dungeon
+ * Serverside optimization
 
 ### **2020/09/02 - v0.35**
- * fix incorrect cache name
+ * Fixed incorrect cache name
 
 ### **2020/09/01 - v0.28**
- * fix anti-matter ammo crafting issue
- * now clicking on a recipe will craft it, instead of needing to hover and click craft
- * fix some player gets no exp bug
- * fix scavenging on level 1 ~ 3 loc has no drop
- * added random loot box (captcha)
- * updated recipe display
+ * Fixed anti-matter ammo crafting issue
+ * Clicking on a recipe will now craft it, instead of needing to hover and click craft
+ * Fixed bug where some players gets no experience
+ * Fixed scavenging drops on level 1 ~ 3 (location has no drop)
+ * Added random loot box (captcha)
+ * Updated recipe display
 
 ### **2020/08/31 - v0.23**
- * Now you can see in combat players in dungeon highlighted
- * BUGFIX: fix stuck in dungeon issue
- * fix invalid travel link issue
+ * Now players can see other players highlighted in combat (in the dungeon)
+ * BUGFIX: fixed players being stuck in dungeon issue
+ * Fixed invalid travel link issue
 
 ### **2020/08/29 - v0.18**
  #### Minor Change
- * selling item with only 1 amount no longer shows amount slider
- * add more description for dungeons
+ * Selling item with only 1 amount no longer shows amount slider
+ * Added more description for dungeons
 
  #### Player Shield
- * added new stat player shield, the shield will regenerate in dungeons
+ * Added new stat player 'Shield', the shield will regenerate in dungeons
 
  #### Invenetory
- * increased inv size again to 32 slots
+ * Increased inventory size again to 32 slots
 
  #### Job System
- * added Job Hub location, where most AFK jobs can be executed, to level up levels
- * work in a printing factory, increase printing level (same as practice printing)
- * apprentice in a body-mod clinic, increase medical science level
- * scavenging, not done in job hub, but you can scavenge in each enemy zone,
- a higher level allows you to unlock better scavenging areas
+ * Added Job Hub location, where most AFK jobs can be executed, to level up levels
+ * 'Work in a Printing Factory', increases printing level (same as practice printing)
+ * Apprentice in a body-mod clinic, increase medical science level
+ * Removed Scavenging from job hub, but players can scavenge in each enemy zone,
+ A higher level allows you to unlock better scavenging areas
  #### New levels
  * Medical Science: unlocks higher-level healing item crafting
  * Ammo Crafting: unlocks higher amount of ammo crafted
  * Scavenge: unlocks scavenging areas
 
  #### Added player market
- * new location near the hub, allowing players to open their stall and sell or buy items from each other
+ * New location near the hub, allowing players to open their stall and sell or buy items from each other
 
  #### New Items
  * Experience memory: when used increases exp
@@ -752,56 +760,56 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * Ammunition tech parts: used to craft ammo
 
  #### Dungeon
- * joining dungeon now checks for level requirement
- * added a «Send Invite to Global Chat» button
- * dungeons now have chance to drop Experience Memory
- * challenge dungeons added to each zone, they are harder than their normal counterpart and contain a boss in the loot room
- * now escape from dungeon enemy is chance-based, ESCAPE stat will influence the chance
- * player shields will be replenished after defeating an enemy, health will remain and need to be healed with healing items
+ * Dungeons now checks for level requirement when joining one
+ * Added a «Send Invite to Global Chat» button
+ * Dungeons now have chance to drop Experience Memory
+ * Challenge dungeons added to each zone, they are harder than their normal counterpart and contain a boss in the loot room
+ * Escape from dungeon enemy is now chance-based, 'ESCAPE' stat will influence the chance
+ * Player shields will be replenished after defeating an enemy, health will remain and needed to be healed with healing items
 
  #### Increase max level to 80
- * added locations, dungeons, and enemy zones to level 80
+ * Added locations, dungeons, and enemy zones to level 80
 
  #### ESCAPE Stat
  * ESCAPE chance stat will increase the chance to escape from dungeon enemies
  * ESCAPE stat is available in upgrade modules, boots, and pants
 
  #### Procedural names
- * adjusted how names in the game are generated
+ * Adjusted how names in the game are generated
 
 ### **2020/08/20 - v0.16**
- * increase inventory slot size
+ * Increase inventory slot size
 
 ### **2020/08/20 - v0.14**
- * massive increase of exp given by printing
+ * Massive increase of exp given by printing
 
 ### **2020/08/19 - v0.12**
- * added small comments for dungeon usage
- * fix printing upgrade module only results in an item issue
+ * Added small comments for dungeon usage
+ * Fixed item isdue with printing upgrade modules
 
 ### **2020/08/18 - v0.11**
 
 #### Bug Fixes
- * fix tech upgrade (?)
- * fix dungeon loot room generation issue
- * fix issue with displaying online players
- * show level on upgrade module
- * inventory quick equip and unequip by left click
- * fix issue with tier drop
- * fix dungeon item issue
- * now selling items give the correct amount of money
- * selling item amount slider now maxed at the amount you have
- * fix dungeon size
+ * Fixed tech upgrade (?)
+ * Fixed an generation issue with the dungeon loot room
+ * Fixed issue with displaying online players
+ * Show level on upgrade module
+ * Inventory quick equip and unequip by left click
+ * Fixed issue with tier drop
+ * Fixed dungeon item issue
+ * Now selling items give the correct amount of money
+ * Selling item amount slider now maxed at the amount you have
+ * Fix dungeon size
 
 ### **18/08/2020 - v0.05**
 
 #### Dungeon Update
- * added dungeons to each level segment in the map
- * added convenient store in the main city
- * added serval healing items, you can purchase them at a convenience store
- * in dungeons, the player's health will not automatically heal to max once out of combat
- * players can collaborate on dungeons to more easily defeat it (they're harder as you don't regen)
- * higher-level regions now require `SecretKey` to access, `SecretKey`s need to crafted by combining 3 different `SecretKeyFragment`s which can be acquired at the end of each dungeon.
+ * Added dungeons to each level segment in the map
+ * Added convenient store in the main city
+ * Added serval healing items, you can purchase them at a convenience store
+ * In dungeons, the player's health will not automatically heal to max once out of combat
+ * Players can collaborate on dungeons to clear it more quickly (dungeons are harder as you don't regenerate)
+ * Higher-level regions now require `SecretKey` to access, `SecretKey`s need to crafted by combining 3 different `SecretKeyFragment`s which can be acquired at the end of each dungeon.
 #### Item Update
  * Now you can compare any time with the one you are wearing
  * All equipment items now have a `Quality` attribute that indicates the quality of the item, it allows players to know if they got a "good roll" when printing.
@@ -810,13 +818,13 @@ All the stats, level exp growth rate, enemy health, and damage, are all re-adjus
 However, this also meant we had to do a soft-reset on all players (meaning you keep your account and names, but stats and items are reset)
 #### Tutorial Markdowns
 * Added basic tutorial markdown file, thanks to [Hildjj](https://github.com/hildjj) and [mr_moe](https://github.com/donburks)'s contribution!
-* markdown files open-sourced at our Github page so if you wanna add anything, feel free to create a pull request :)
+* Markdown files open-sourced at our Github page so if you wanna add anything, feel free to create a pull request :)
 #### Auto Update
 The new client will show a notification when there is an update available
 #### Update Note
-This update note should automatically popup when the client is updated
+This update note should automatically pop-up when the client is updated
 #### New Quests
  * Join Dungeon: Join another player's dungeon
  * Deal Damage: Deal x amount of damage to enemy
 #### Tons of Bug Fixes and Quality of Life Improvements
-there are so many to list...
+There are so many to list...
