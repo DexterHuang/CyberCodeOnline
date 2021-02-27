@@ -26,7 +26,8 @@ Dzylx
 [levi middleton](https://github.com/levi-middleton)  
 [Luako](https://github.com/luako)  
 [mr_moe](https://github.com/donburks)  
-[mxjoda](https://github.com/mxjoda)  
+[mxjoda](https://github.com/mxjoda)
+[Misaki](https://github.com/Cyber-nun2)
 [Omnipotent_God](https://github.com/Omnipotent-God)  
 pikkon85  
 [PotatoMan](https://github.com/PotatoMan145)  
