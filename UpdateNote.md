@@ -50,7 +50,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * tutorial/* - Desktop Tutorial
 
 ## Updates Log
-### **2021/02/27- v0.369**
+### **2021/02/28- v0.369**
+ * Added images for locations
+
+### **2021/02/27- v0.369** 
  * Fix ios start up error issue
  * Fix ios profile pic upload bug 
 
