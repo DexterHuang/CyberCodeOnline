@@ -28,7 +28,6 @@ Dzylx
 [Misaki](https://github.com/Cyber-nun2)  
 [mr_moe](https://github.com/donburks)  
 [mxjoda](https://github.com/mxjoda)  
-[Misaki](https://github.com/cybernun2)  
 [Omnipotent_God](https://github.com/Omnipotent-God)  
 pikkon85  
 [PotatoMan](https://github.com/PotatoMan145)  
