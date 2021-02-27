@@ -47,6 +47,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * tutorial/* - Desktop Tutorial
 
 ## Updates Log
+### **2021/02/27- v0.369**
+ * Fix ios start up error issue
+ * Fix ios profile pic upload bug 
+
 ### **2021/02/26- v0.369**
  * Fix upgrade module visual bug on item details
  * Simple details of items now shows in inventory page
