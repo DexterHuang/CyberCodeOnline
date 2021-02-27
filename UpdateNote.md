@@ -41,7 +41,7 @@ pikkon85
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 ### Help Needed:
- * contribution/words.json - Random Names
+ * contribution/words.json - Random Words
  * contribution/dungeon/layout/structure-mask.json - Dungeon Layouts
  * contribution/mobile/tips.md - Tips for Mobile
  * tips.txt - Tips for desktop 
