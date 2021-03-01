@@ -53,6 +53,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ### **2021/03/01- v0.369**
  * Added `Transaction Exploit Transmitter` - Increase Bitcoin gained by 40% (stackable) (global), can be purchased with Units
  * Added `Frontal Cortex Optimization Transmitter` - Increase Exp gained by 80% (global), can be purchased with Units
+ * Doubled Exp Shard's exp amount
  * Multiple typo fix
 
 ### **2021/02/28- v0.369**
