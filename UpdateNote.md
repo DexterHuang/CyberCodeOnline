@@ -50,6 +50,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * tutorial/* - Desktop Tutorial
 
 ## Updates Log
+### **2021/03/02- v0.386**
+ * Added word list from contribution 
+ * Increase max level to 250
+
 ### **2021/03/01- v0.369**
  * Added `Transaction Exploit Transmitter` - Increase Bitcoin gained by 40% (stackable) (global), can be purchased with Units
  * Added `Frontal Cortex Optimization Transmitter` - Increase Exp gained by 80% (global), can be purchased with Units
