@@ -51,6 +51,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log
 ### **2021/03/02- v0.386**
+ * `Anti Matter Charge` and `Energy Cell` is now scrapble, having a low chance of getting ammo tech parts
+ * You can now craft `Military ammunition tech parts` from `Ammunition tech parts`
+ * You can now craft `Hash Processor` from various tech parts
+ * Increase the cost of crafting high level med item
+ * lower the drop rate of `Military ammunition tech parts`
  * Added word list from contribution 
  * Increase max level to 250
 
