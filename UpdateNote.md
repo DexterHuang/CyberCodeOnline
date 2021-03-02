@@ -50,6 +50,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * tutorial/* - Desktop Tutorial
 
 ## Updates Log
+### **2021/03/03- v0.386**
+ * Added `,` in numbers making it easier to prase
+
 ### **2021/03/02- v0.386**
  * Increased anti-matter charge drop rate on scavange 
  * Added friend list
