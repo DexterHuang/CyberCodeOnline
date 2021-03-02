@@ -44,8 +44,8 @@ These are the same as the regular Synaptic Acceleration Transmitter but don't st
 
 ### Transaction Exploit Transmitter
 
-The Transaction Exploit Transmitter is used to boost bitcoin gains works the same as the transmitter in that you can use multiple to stack the potency and prolong the timer. Each Transaction Exploit Transmitter will provide a +40% boost to btc gain for 20 minutes. This item is not stackable.
+The Transaction Exploit Transmitter is used to boost bitcoin gains works the same as the transmitter in that you can use multiple to stack the potency and prolong the timer. Each Transaction Exploit Transmitter will provide a +40% boost to btc gain for 20 minutes. This item is not stackable. Stacking maxes out at 100%.
 
 ### Frontal Cortex Optimization Transmitter
 
-The Frontal Cortex Optimization Transmitter is used to boost xp gains. Each Frontal Cortex Optimization Transmitter will provide a +80% boost to xp gain for 20 minutes. Stacking maxes out at 100%.
+The Frontal Cortex Optimization Transmitter is used to boost xp gains. Each Frontal Cortex Optimization Transmitter will provide a +80% boost to xp gain for 20 minutes. This item is not stackable.
