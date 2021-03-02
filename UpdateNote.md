@@ -51,7 +51,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log
 ### **2021/03/03- v0.386**
- * Added decimal separators in numbers to improve readability. 
+ * Added decimal separators in numbers to improve readability
 
 ### **2021/03/02- v0.386**
  * Increased anti-matter charge drop rate on scavange 
