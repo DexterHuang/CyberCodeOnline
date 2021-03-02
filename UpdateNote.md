@@ -51,6 +51,8 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log
 ### **2021/03/02- v0.386**
+ * Increased anti-matter charge drop rate on scavange 
+ * Added friend list
  * `Anti Matter Charge` and `Energy Cell` is now scrapble, having a low chance of getting ammo tech parts
  * Cost of crafting `Military ammunition tech parts` from `Ammunition tech parts` is increased
  * You can now craft `Hash Processor` from various tech parts
