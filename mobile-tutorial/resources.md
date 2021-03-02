@@ -32,7 +32,7 @@ Group heals can heal the entire group in a dungeon when used but will heal less 
 
 ### Synaptic Acceleration Transmitter
 
-This item will boost afk time by 5% for 10 minutes, stackable to 80%. You can use another to extend the duration of the boost, if this is done the timer will reset. To use this, you just need to begin an AFK session while the boost is active. This item is global and will affect and stack with other people. This does not stack with the rare version.
+This item will boost afk time by +5% for 10 minutes, stackable to +80%. You can use another to extend the duration of the boost, if this is done the timer will reset. To use this, you just need to begin an AFK session while the boost is active. This item is global and will affect and stack with other people. This does not stack with the rare version.
 
 ## Global Paid Items
 
@@ -40,12 +40,12 @@ Can be purchased in the Arasaka Unit Exchange. These items are global and will g
 
 ### Rare Synaptic Acceleration Transmitter
 
-These are the same as the regular Synaptic Acceleration Transmitter but don't stack with it. The rare version will instantly boost afk time by 40% for 20 minutes, stackable to 80%. You can use another to extend the duration of the boost, if this is done the timer will reset. To use this, you just need to begin an AFK session while the boost is active. This item is global and will affect and stack with other people.
+These are the same as the regular Synaptic Acceleration Transmitter but don't stack with it. The rare version will instantly boost afk time by +40% for 20 minutes, stackable to +80%. You can use another to extend the duration of the boost, if this is done the timer will reset. To use this, you just need to begin an AFK session while the boost is active. This item is global and will affect and stack with other people.
 
 ### Transaction Exploit Transmitter
 
-The Transaction Exploit Transmitter is used to boost bitcoin gains works the same as the transmitterin that you can use multiple to stack the potency and prolong the timer. Each Transaction Exploit Transmitter will provide a 40% boost to btc gain for 20 minutes. Stacking maxes out at 100%.
+The Transaction Exploit Transmitter is used to boost bitcoin gains works the same as the transmitter in that you can use multiple to stack the potency and prolong the timer. Each Transaction Exploit Transmitter will provide a +40% boost to btc gain for 20 minutes. This item is not stackable.
 
 ### Frontal Cortex Optimization Transmitter
 
-The Frontal Cortex Optimization Transmitter is used to boost xp gains. Each Frontal Cortex Optimization Transmitter will provide a 180% boost to xp gain for 20 minutes. Stacking maxes out at 100%.
+The Frontal Cortex Optimization Transmitter is used to boost xp gains. Each Frontal Cortex Optimization Transmitter will provide a +80% boost to xp gain for 20 minutes. Stacking maxes out at 100%.
