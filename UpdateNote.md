@@ -51,6 +51,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log
 ### **2021/03/03- v0.386**
+ * Player details now have more details ;)
  * Added decimal separators in numbers to improve readability
 
 ### **2021/03/02- v0.386**
