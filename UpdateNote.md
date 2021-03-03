@@ -52,7 +52,8 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ## Updates Log
 ### **2021/03/04- v0.386**
  * Buffed ammo crafting again, may have nerfed too much yesterday
- * `AI Core` auto farming can now only be activated when your level is lower then the location max level 
+ * `AI Core` auto farming can now only be activated when your level is lower then the location max level, 
+this is to prevent people from out-leveling the area too much, result in soft lock
  * Fixed multiple typo
 
 ### **2021/03/03- v0.386**
