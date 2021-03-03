@@ -50,6 +50,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * tutorial/* - Desktop Tutorial
 
 ## Updates Log
+### **2021/03/04- v0.386**
+ * Buffed ammo crafting again, may have nerfed too much yesterday
+ * Fixed multiple typo
+
 ### **2021/03/03- v0.386**
  * Player details now have more details ;)
  * Added decimal separators in numbers to improve readability
