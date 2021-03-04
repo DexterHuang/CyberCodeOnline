@@ -50,6 +50,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * tutorial/* - Desktop Tutorial
 
 ## Updates Log
+### **2021/03/05- v0.386**
+ * Added damage indicator
+
 ### **2021/03/04- v0.386**
  * Buffed ammo crafting again, may have nerfed too much yesterday
  * `AI Core` auto farming can now only be activated when your level is lower then the location max level, 
