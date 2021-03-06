@@ -43,9 +43,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ### Help Needed:
  * contribution/words.json - Random Words
  * contribution/dungeon/layout/structure-mask.json - Dungeon Layouts
+ * contribution/notes/* - In Dungeon Lore
  * contribution/mobile/tips.md - Tips for Mobile
  * tips.txt - Tips for desktop 
- * contribution/notes/* - In Dungeon Lore
  * mobile-tutorial/* - Mobile Tutorial
  * tutorial/* - Desktop Tutorial
 
