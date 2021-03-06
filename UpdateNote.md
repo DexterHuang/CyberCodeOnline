@@ -50,6 +50,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * tutorial/* - Desktop Tutorial
 
 ## Updates Log
+### **2021/03/06- v0.386**
+ * Updated popup notification UI
+
 ### **2021/03/05- v0.386**
  * Added damage indicator
 
