@@ -51,6 +51,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log
 ### **2021/03/07- v0.386**
+ * Change send gift default amount to 1 to prevent accidentally send whole stack of item
  * Improved image caching
 
 ### **2021/03/06- v0.386**
