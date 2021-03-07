@@ -34,6 +34,7 @@ pikkon85
 [RaykouTJ](https://github.com/HoneySyrup)  
 [RubenVerg](https://github.com/rubenverg)  
 [s3rvant](https://github.com/s3rvant)  
+Satan  
 [Tripplehelix](https://github.com/tripplehelix)  
 
 **Remember to add your name in this doc when you create a PR**
