@@ -5,7 +5,7 @@ The `MeshNet` terminal chimed with a request and a set of co-ordinates.
 _"Hmmmm.."_
 
 Sera' packed up a full load-out of caseless, some armour-piercing and their new demo model (her being in sales 'n all), put up the
-`GON OUT BIZY BACK SON` sign and happily locked the door to the _Wepponne Shoppe_. 
+`GON` `OUT` `BIZY` `BACK` `SON` sign and happily locked the door to the _Wepponne Shoppe_. 
 
 Tripp' was lying behind a low concrete parapet, swapping shots with somebody on a roof across the river. And yup, he was running low, the \*\*\*hole. Humming cheerfully, she leopard-crawled across below the parapet, and helpfully loaded up a full set of mags.
 
