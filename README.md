@@ -1,6 +1,6 @@
 
 # CyberCodeOnline
-![CyberCode Online Logo](/resources/logo-black.png)
+![CyberCode Online Logo](/resources/readme/logo-black.png)
 
 *CyberCode Online is a **browser based MMORPG game** that is **disguised as VS Code***
 *where you click functions and variables in the ever changing source code to navigate your character in a Cyber Punk inspired world*
@@ -9,19 +9,7 @@ It is meant to be played casually with many AFK leveling, Crafting, Procedural i
 
 ### Click [CyberCode Online](https://cybercodeonline.com/) or download the mobile app to start your adventure now!
 
-[![Google Play Store](/resources/GooglePlayBadge.png)](https://play.google.com/store/apps/details?id=com.cybercodeonline.cybercode)    [![Apple App Store](/resources/AppStoreBadge.png)](https://apps.apple.com/us/app/cybercode-online-text-mmo/id1541691332)
-
-### Demo Screenshots
-
-#### Web
-
-![demo1](/resources/demo.png)
-![demo2](/resources/demo2.png)
-
-#### Mobile
-
-![2](/resources/screenshot/2.jpg)
-![6](/resources/screenshot/6.jpg)
+[![Google Play Store](/resources/readme/GooglePlayBadge.png)](https://play.google.com/store/apps/details?id=com.cybercodeonline.cybercode)    [![Apple App Store](/resources/readme/AppStoreBadge.png)](https://apps.apple.com/us/app/cybercode-online-text-mmo/id1541691332)
 
 ### Bug Report / Suggestion
 
@@ -31,10 +19,31 @@ If there is a serious exploit please **don't** create an issue here, email me di
 
 Requests and suggestions can be left on the [Discord](https://discord.gg/JREx8xz).
 
+If you would like to help to maintain CyberCode Online, please feel free to submit a PR.
 
+### Help Needed:
+ * contribution/words.json - Random Words
+ * contribution/dungeon/layout/structure-mask.json - Dungeon Layouts
+ * contribution/notes/* - In Dungeon Lore
+ * contribution/mobile/tips.md - Tips for Mobile
+ * tips.txt - Tips for desktop 
+ * mobile-tutorial/* - Mobile Tutorial
+ * tutorial/* - Desktop Tutorial
+
+### Screenshots
+
+#### Web
+
+![desktop-screenshot1](/resources/readme/desktop-screenshot.png)
+![desktop-screenshot2](/resources/readme/desktop-screenshot2.png)
+
+#### Mobile
+
+![mobile-demo1](/resources/readme/mobile-demo.png)
+![mobile-demo2](/resources/readme/mobile-demo2.png)
 
 ### Fan Arts
-### by [l33t4ng3l](https://github.com/l33t4ng3l)  
+#### by [l33t4ng3l](https://github.com/l33t4ng3l)  
 ![l33t4ng3l](/resources/art/l33t4ng3l/l33t4ng3l-resize.jpg)
 ![worzel](/resources/art/l33t4ng3l/worzel-resize.jpg)
 ![tripplehelix](/resources/art/l33t4ng3l/tripplehelix-resize.jpg)

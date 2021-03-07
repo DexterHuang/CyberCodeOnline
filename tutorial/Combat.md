@@ -2,7 +2,7 @@
 
 In every adventure location, you'll see a list of Nearby Enemies, as well as two Dungeons you can enter. The areas are separated by level groups, when you complete all three normal dungeon levels you should have three keys which you can use to unlock the next area.  
 
-![Neaby enemies](../resources/nearbyenemies.png)
+![Neaby enemies](../resources/desktop-tutorial/nearbyenemies.png)
 
   
 Click on any of the listed enemies to enter combat. When in a dungeon, clicking on a bad guy, represented by a '@' will draw you into combat with it.  

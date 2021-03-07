@@ -4,3 +4,6 @@ Dungeons can be found in the 'Adventure' area underneath the list of enemies. Wh
 
 ## Gangs
 Currently gangs are just a private area for a group of up to 10 friends to communicate but there are future plans for more to come of this.
+
+## Friends
+To access your personal friends list, click on the floating menu and choose the 'friends' icon. You can add friends by going into a users profile, scrolling down and clicking 'Add to Friend List'. Similarly you can do the same to remove a friend by clicking the 'Remove From Friend List' button. Viewing the list of your friends will allow you to see if they are online, idle or offline.
