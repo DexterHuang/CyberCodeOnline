@@ -51,6 +51,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * tutorial/* - Desktop Tutorial
 
 ## Updates Log
+### **2021/03/08- v0.401**
+ * Added new NPC for donation
+
 ### **2021/03/07- v0.386**
  * Added leader board
  * Optimize background dungeon loading
