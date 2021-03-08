@@ -52,6 +52,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log
 ### **2021/03/08- v0.401**
+ * NPC now have entry animation
  * Added new NPC for donation
 
 ### **2021/03/07- v0.386**
