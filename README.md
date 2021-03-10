@@ -13,7 +13,7 @@ It is meant to be played casually with many AFK leveling, Crafting, Procedural i
 
 ### Bug Report / Suggestion
 
-For Bugs and Issues [create an isse on this repo](https://github.com/DexterHuang/CyberCodeOnline/issues).
+For Bugs and Issues [create an issue on this repo](https://github.com/DexterHuang/CyberCodeOnline/issues).
 
 If there is a serious exploit please **don't** create an issue here, email me directly at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)
 
