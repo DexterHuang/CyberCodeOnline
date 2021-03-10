@@ -2,7 +2,7 @@
   
 From: Elin Blackburn <eblackburm@arasaka.com>  
 Sent: Friday, January 8, 3078 2:35 PM  
-To: Abi Ross <aross@arasake.com>  
+To: Abi Ross <aross@arasaka.com>  
 Subject: RE: Holiday Weekend  
   
 Hey Abi, I am so sorry to bother you but I wanted to know if you could check why my time for the holidays wasn't approved?  
@@ -13,7 +13,7 @@ Elin
   
 ____________________________________  
   
-From:  Abi Ross <aross@arasake.com>  
+From:  Abi Ross <aross@arasaka.com>  
 Sent: Friday, January 8, 3078 2:37 PM  
 To: Elin Blackburn <eblackburm@arasaka.com>  
 Subject: RE: Holiday Weekend  
