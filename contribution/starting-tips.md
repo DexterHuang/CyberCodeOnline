@@ -6,7 +6,7 @@
 * Follow the quests to learn the game mechanics
 * Wait till your equipment level is at least 8 or so to do the first dungeon
 * Items you print will be the level of you Printing Rank
-* Print and scrap trash equipment (grey) for increasing your printing level
+* Print and scrap trash equipment (grey) to increase your printing level
 * There is a tutorial on the profile tab in the bottom right 
 * A good start in the tutorial is the Equipment, Leveling, Combat and Dungeon pages
 * There is no pay to win, all purchases either affect everyone or are cosmetic
