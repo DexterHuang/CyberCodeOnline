@@ -1,16 +1,16 @@
 # Credits:
 
 ## Developer
-[DexterHuang](https://github.com/DexterHuang)  
+* [DexterHuang](https://github.com/DexterHuang)  
 
 ### Moderators
-[alfaice](https://github.com/alfaice)  
-[CMDR7](https://github.com/cmdr7)  
-[Deckeeper](https://github.com/deckeeper)  
-[l33t4ng3l](https://github.com/l33t4ng3l) 
-[PotatoMan](https://github.com/PotatoMan145)  
-[Tripplehelix](https://github.com/tripplehelix)  
-Worzel  
+* [alfaice](https://github.com/alfaice)  
+* [CMDR7](https://github.com/cmdr7)  
+* [Deckeeper](https://github.com/deckeeper)  
+* [l33t4ng3l](https://github.com/l33t4ng3l) 
+* [PotatoMan](https://github.com/PotatoMan145)  
+* [Tripplehelix](https://github.com/tripplehelix)  
+* Worzel  
 
 ### Music
 
