@@ -28,7 +28,7 @@ Dzylx
 [Misaki](https://github.com/Cyber-nun2)  
 [mr_moe](https://github.com/donburks)  
 [mxjoda](https://github.com/mxjoda)  
-SabeTron  
+SaberTron  
 StellaSheep  
 [Omnipotent_God](https://github.com/Omnipotent-God)  
 pikkon85  
