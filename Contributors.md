@@ -1,6 +1,6 @@
 # Credits:
 
-## Developer
+### Developer
 * [DexterHuang](https://github.com/DexterHuang)  
 
 ### Moderators
@@ -17,6 +17,8 @@
 ### Art
 
 ### Lore
+* SaberTron
+* [CelesMeh](https://www.instagram.com/celesmeh)  
 
 ### Dungeons
 
@@ -34,7 +36,7 @@
 [Arky](https://www.instagram.com/andreiarky)  
 [Blackstormx](https://github.com/blackstormx)  
 [byakkozen](https://github.com/byakkozen)  
-[CelesMeh](https://www.instagram.com/celesmeh)  
+
 Dzylx  
 [Humboer](https://github.com/stphnhng)  
 [hildjj](https://github.com/hildjj)  
@@ -45,8 +47,6 @@ Dzylx
 [Misaki](https://github.com/Cyber-nun2)  
 [mr_moe](https://github.com/donburks)  
 [mxjoda](https://github.com/mxjoda)  
-SabeTron  
-
 pikkon85  
 [RaykouTJ](https://github.com/HoneySyrup)  
 [RubenVerg](https://github.com/rubenverg)  
