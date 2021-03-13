@@ -29,6 +29,7 @@ Dzylx
 [mr_moe](https://github.com/donburks)  
 [mxjoda](https://github.com/mxjoda)  
 SabeTron  
+StellaSheep  
 [Omnipotent_God](https://github.com/Omnipotent-God)  
 pikkon85  
 [PotatoMan](https://github.com/PotatoMan145)  
