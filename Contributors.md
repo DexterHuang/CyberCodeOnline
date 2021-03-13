@@ -25,7 +25,7 @@
 * [Tripplehelix](https://github.com/tripplehelix)  
 
 ### Tips
-StellaSheep
+* StellaSheep
 
 
 
