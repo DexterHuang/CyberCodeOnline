@@ -28,6 +28,7 @@ Dzylx
 [Misaki](https://github.com/Cyber-nun2)  
 [mr_moe](https://github.com/donburks)  
 [mxjoda](https://github.com/mxjoda)  
+OndraM  
 [Omnipotent_God](https://github.com/Omnipotent-God)  
 pikkon85  
 [PotatoMan](https://github.com/PotatoMan145)  
@@ -36,6 +37,7 @@ pikkon85
 [s3rvant](https://github.com/s3rvant)  
 Satan  
 [Tripplehelix](https://github.com/tripplehelix)  
+x123456789  
 
 **Remember to add your name in this doc when you create a PR**
 
