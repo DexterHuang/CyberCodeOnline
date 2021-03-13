@@ -20,10 +20,16 @@
 
 ### Dungeons
 
-### Other
+### Tutorial
+* [Omnipotent_God](https://github.com/Omnipotent-God)  
+* [Tripplehelix](https://github.com/tripplehelix)  
+
+### Tips
+StellaSheep
+
+
 
 [AdmiralDiemos](https://github.com/danofsatx)  
-
 [Archibaald](https://github.com/Archibaald-dev)  
 [Arky](https://www.instagram.com/andreiarky)  
 [Blackstormx](https://github.com/blackstormx)  
@@ -40,7 +46,7 @@ Dzylx
 [mr_moe](https://github.com/donburks)  
 [mxjoda](https://github.com/mxjoda)  
 SabeTron  
-[Omnipotent_God](https://github.com/Omnipotent-God)  
+
 pikkon85  
 [RaykouTJ](https://github.com/HoneySyrup)  
 [RubenVerg](https://github.com/rubenverg)  
