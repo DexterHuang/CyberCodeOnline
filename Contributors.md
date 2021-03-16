@@ -60,14 +60,14 @@
 * [Tripplehelix](https://github.com/tripplehelix)  
 
 ### Other Contributors
-[AdmiralDiemos](https://github.com/danofsatx)  
-[Arky](https://www.instagram.com/andreiarky)  
-[Blackstormx](https://github.com/blackstormx)  
-Dzylx  
-[hildjj](https://github.com/hildjj)  
-[Luako](https://github.com/luako)  
-[mr_moe](https://github.com/donburks)  
-[mxjoda](https://github.com/mxjoda)  
-pikkon85  
-[RubenVerg](https://github.com/rubenverg)  
-Satan  
+* [AdmiralDiemos](https://github.com/danofsatx)  
+* [Arky](https://www.instagram.com/andreiarky)  
+* [Blackstormx](https://github.com/blackstormx)  
+* Dzylx  
+* [hildjj](https://github.com/hildjj)  
+* [Luako](https://github.com/luako)  
+* [mr_moe](https://github.com/donburks)  
+* [mxjoda](https://github.com/mxjoda)  
+* pikkon85  
+* [RubenVerg](https://github.com/rubenverg)  
+* Satan  
