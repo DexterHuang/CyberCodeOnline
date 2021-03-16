@@ -23,6 +23,10 @@ This option is only available in dungeons. You are able to select from medical i
 With this option you can try to escape from combat. The success rate of escaping combat outside a dungeon is 100%. However if you are fighting inside a dungeon and try to escape, the chance will be based on your escape % which is taken from your armour and upgrade stats. If you fail to escape, you will then be attacked by the enemy without dealing any damage.  
   
 The combat screen will show you how much health and shield you and your opponent both have, as well as the amount of ammo you have for each of your weapons and the approximate damage they can do.  
+
+## Death
+
+If you die, you won't lose any of their items. However you will lose 10% of all the btc you are currently holding. You will also lose 10% of the XP needed for your current level. This means you can lose a level if you die too much.
   
 ## Enemy Modifiers
   
