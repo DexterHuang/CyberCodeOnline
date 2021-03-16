@@ -41,7 +41,7 @@ Satan
 [Tripplehelix](https://github.com/tripplehelix)  
 x123456789  
 
-**Remember to add your name in this doc when you create a PR**
+**Remember to add your name to the ['Contributors.md'](https://github.com/DexterHuang/CyberCodeOnline/blob/master/Contributors.md) doc when you create a PR**
 
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
