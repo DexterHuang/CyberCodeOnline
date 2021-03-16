@@ -13,44 +13,61 @@
 * Worzel  
 
 ### Music
+* [CMDR7](https://github.com/cmdr7) 
 
 ### Art
+* [l33t4ng3l](https://github.com/l33t4ng3l) 
+* Proxxie
 
 ### Lore
-* SaberTron
+* [byakkozen](https://github.com/byakkozen)  
+* [bvcxz](https://github.com/bvcxz-cybercode)
 * [CelesMeh](https://www.instagram.com/celesmeh)  
+* SaberTron
+* [Tripplehelix](https://github.com/tripplehelix)
+* [twystd](https://github.com/twystd)
+* x123456789  
 
 ### Dungeons
+* [alfaice](https://github.com/alfaice)  
+* [Deckeeper](https://github.com/deckeeper) 
+* [DexterHuang](https://github.com/DexterHuang) 
+* [JEricaM](https://github.com/JEricaM)  
+* [Tripplehelix](https://github.com/tripplehelix)
 
 ### Tutorial
+* [alfaice](https://github.com/alfaice)  
+* [byakkozen](https://github.com/byakkozen)  
+* [Deckeeper](https://github.com/deckeeper)  
+* [DexterHuang](https://github.com/DexterHuang) 
 * HBUnknown
 * [Omnipotent_God](https://github.com/Omnipotent-God)
+* [s3rvant](https://github.com/s3rvant)  
+* [Humboer](https://github.com/stphnhng) 
 * [Tripplehelix](https://github.com/tripplehelix)
 
 ### Tips
+* [Archibaald](https://github.com/Archibaald-dev)  
+* [byakkozen](https://github.com/byakkozen)  
+* [DexterHuang](https://github.com/DexterHuang) 
+* [Kimi Leta](https://github.com/kimileta)  
+* [RaykouTJ](https://github.com/HoneySyrup)  
+* [levi middleton](https://github.com/levi-middleton)  
+* [Misaki](https://github.com/Cyber-nun2)  
+* [Russ Hammett](https://github.com/Kritner)
+* [s3rvant](https://github.com/s3rvant)  
 * StellaSheep
+* [Tripplehelix](https://github.com/tripplehelix)  
 
-
-
+### Other Contributors
 [AdmiralDiemos](https://github.com/danofsatx)  
-[Archibaald](https://github.com/Archibaald-dev)  
 [Arky](https://www.instagram.com/andreiarky)  
 [Blackstormx](https://github.com/blackstormx)  
-[byakkozen](https://github.com/byakkozen)  
-
 Dzylx  
-[Humboer](https://github.com/stphnhng)  
 [hildjj](https://github.com/hildjj)  
-[JEricaM](https://github.com/JEricaM)  
-[Kimi Leta](https://github.com/kimileta)  
-[levi middleton](https://github.com/levi-middleton)  
 [Luako](https://github.com/luako)  
-[Misaki](https://github.com/Cyber-nun2)  
 [mr_moe](https://github.com/donburks)  
 [mxjoda](https://github.com/mxjoda)  
 pikkon85  
-[RaykouTJ](https://github.com/HoneySyrup)  
 [RubenVerg](https://github.com/rubenverg)  
-[s3rvant](https://github.com/s3rvant)  
 Satan  
-x123456789  
