@@ -57,6 +57,7 @@
 * [JEricaM](https://github.com/JEricaM)  
 * [Luako](https://github.com/luako)  
 * [me505](https://github.com/me505)
+* [mxjoda](https://twitter.com/mxjoda)  
 * [Ryujin](https://github.com/Ryujin-cybercode)
 * [Tripplehelix](https://github.com/tripplehelix)  
 
@@ -80,7 +81,7 @@
 * Dzylx  
 * [hildjj](https://github.com/hildjj)  
 * [mr_moe](https://github.com/donburks)  
-* [mxjoda](https://github.com/mxjoda)  
+
 * pikkon85  
 * [RubenVerg](https://github.com/rubenverg)  
 * Satan  
