@@ -40,7 +40,7 @@
 * [byakkozen](https://github.com/byakkozen)  
 * [Deckeeper](https://github.com/deckeeper)  
 * [DexterHuang](https://github.com/DexterHuang) 
-* HBUnknown
+* [HBUnknown](https://www.facebook.com/john.bostwick.31)
 * [Omnipotent_God](https://github.com/Omnipotent-God)
 * [s3rvant](https://github.com/s3rvant)  
 * [Humboer](https://github.com/stphnhng) 
