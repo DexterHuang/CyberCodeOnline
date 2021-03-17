@@ -18,6 +18,7 @@ Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee
 [Deckeeper](https://github.com/deckeeper)  
 [DexterHuang](https://github.com/DexterHuang)  
 Dzylx  
+[Hally](https://twitter.com/g_hally1996)
 [Humboer](https://github.com/stphnhng)  
 HBUnknown  
 [hildjj](https://github.com/hildjj)  
