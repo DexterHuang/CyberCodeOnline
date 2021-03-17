@@ -53,7 +53,7 @@
 * [Deckeeper](https://github.com/deckeeper) 
 * [DexterHuang](https://github.com/DexterHuang) 
 * [ghosted-bot](https://github.com/ghosted-bot)
-* [Hally]([Hally](https://twitter.com/g_hally1996)
+* [Hally](https://twitter.com/g_hally1996)
 * [JEricaM](https://github.com/JEricaM)  
 * [Luako](https://github.com/luako)  
 * [me505](https://github.com/me505)
