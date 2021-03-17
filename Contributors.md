@@ -46,6 +46,20 @@
 * [Humboer](https://github.com/stphnhng) 
 * [Tripplehelix](https://github.com/tripplehelix)
 
+### Words
+* [bvcxz](https://github.com/bvcxz-cybercode)
+* [byakkozen](https://github.com/byakkozen)  
+* [Misaki](https://github.com/Cyber-nun2)  
+* [Deckeeper](https://github.com/deckeeper) 
+* [DexterHuang](https://github.com/DexterHuang) 
+* [ghosted-bot](https://github.com/ghosted-bot)
+* [Hally]([Hally](https://twitter.com/g_hally1996)
+* [JEricaM](https://github.com/JEricaM)  
+* [Luako](https://github.com/luako)  
+* [me505](https://github.com/me505)
+* [Ryujin](https://github.com/Ryujin-cybercode)
+* [Tripplehelix](https://github.com/tripplehelix)  
+
 ### Tips
 * [Archibaald](https://github.com/Archibaald-dev)  
 * [byakkozen](https://github.com/byakkozen)  
@@ -65,7 +79,6 @@
 * [Blackstormx](https://github.com/blackstormx)  
 * Dzylx  
 * [hildjj](https://github.com/hildjj)  
-* [Luako](https://github.com/luako)  
 * [mr_moe](https://github.com/donburks)  
 * [mxjoda](https://github.com/mxjoda)  
 * pikkon85  
