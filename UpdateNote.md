@@ -5,47 +5,6 @@
 
 Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee.com/cybercodeonline) or [subscibe to my Patreon](https://www.patreon.com/cybercodeonline/).
 
-## Contributors:
-
-[AdmiralDiemos](https://github.com/danofsatx)  
-[alfaice](https://github.com/alfaice)  
-[Archibaald](https://github.com/Archibaald-dev)  
-[Arky](https://www.instagram.com/andreiarky)  
-[Blackstormx](https://github.com/blackstormx)  
-[byakkozen](https://github.com/byakkozen)  
-[CelesMeh](https://www.instagram.com/celesmeh)  
-[CMDR7](https://github.com/cmdr7)  
-[Deckeeper](https://github.com/deckeeper)  
-[DexterHuang](https://github.com/DexterHuang)  
-Dzylx  
-[Hally](https://twitter.com/g_hally1996)
-[Humboer](https://github.com/stphnhng)  
-HBUnknown  
-[hildjj](https://github.com/hildjj)  
-[JEricaM](https://github.com/JEricaM)  
-[Kimi Leta](https://github.com/kimileta)  
-[l33t4ng3l](https://github.com/l33t4ng3l)  
-[levi middleton](https://github.com/levi-middleton)  
-[Luako](https://github.com/luako)  
-[Misaki](https://github.com/Cyber-nun2)  
-[mr_moe](https://github.com/donburks)  
-[mxjoda](https://github.com/mxjoda)  
-SaberTron  
-StellaSheep  
-[Omnipotent_God](https://github.com/Omnipotent-God)  
-pikkon85  
-[PotatoMan](https://github.com/PotatoMan145)  
-[RaykouTJ](https://github.com/HoneySyrup)  
-[RubenVerg](https://github.com/rubenverg)  
-[s3rvant](https://github.com/s3rvant)  
-Satan  
-[Tripplehelix](https://github.com/tripplehelix)  
-x123456789  
-
-**Remember to add your name to the ['Contributors.md'](https://github.com/DexterHuang/CyberCodeOnline/blob/master/Contributors.md) doc when you create a PR**
-
-If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
-
 ### Help Needed:
  * contribution/words.json - Random Words
  * contribution/dungeon/layout/structure-mask.json - Dungeon Layouts
@@ -54,6 +13,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * tips.txt - Tips for desktop 
  * mobile-tutorial/* - Mobile Tutorial
  * tutorial/* - Desktop Tutorial
+
+**Remember to add your name to the ['Contributors.md'](https://github.com/DexterHuang/CyberCodeOnline/blob/master/Contributors.md) doc when you create a PR**
+
+If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Updates Log
 ### **2021/03/08- v0.401**
