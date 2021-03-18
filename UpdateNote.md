@@ -14,7 +14,7 @@ Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee
  * mobile-tutorial/* - Mobile Tutorial
  * tutorial/* - Desktop Tutorial
 
-**Remember to add your name to the ['Contributors.md'](https://github.com/DexterHuang/CyberCodeOnline/blob/master/Contributors.md) doc when you create a PR**
+**Remember to add your name to the ['Contributors.md'](https://github.com/DexterHuang/CyberCodeOnline/blob/master/Credits.md) doc when you create a PR**
 
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
