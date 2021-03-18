@@ -41,13 +41,16 @@
 * [byakkozen](https://github.com/byakkozen)  
 * [Deckeeper](https://github.com/deckeeper)  
 * [DexterHuang](https://github.com/DexterHuang) 
+* Dzylx  
 * [HBUnknown](https://www.facebook.com/john.bostwick.31)
 * [Omnipotent_God](https://github.com/Omnipotent-God)
 * [s3rvant](https://github.com/s3rvant)  
 * [Humboer](https://github.com/stphnhng) 
+* pikkon85  
 * [Tripplehelix](https://github.com/tripplehelix)
 
 ### Words
+* App2
 * [bvcxz](https://github.com/bvcxz-cybercode)
 * [byakkozen](https://github.com/byakkozen)  
 * [Misaki](https://github.com/Cyber-nun2)  
@@ -79,10 +82,7 @@
 * [AdmiralDiemos](https://github.com/danofsatx)  
 * [Arky](https://www.instagram.com/andreiarky)  
 * [Blackstormx](https://github.com/blackstormx)  
-* Dzylx  
 * [hildjj](https://github.com/hildjj)  
 * [mr_moe](https://github.com/donburks)  
-
-* pikkon85  
 * [RubenVerg](https://github.com/rubenverg)  
 * Satan  
