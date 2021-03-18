@@ -24,6 +24,7 @@
 * [bvcxz](https://github.com/bvcxz-cybercode)
 * [CelesMeh](https://www.instagram.com/celesmeh)  
 * SaberTron
+* Satan  
 * [Tripplehelix](https://github.com/tripplehelix)
 * [twystd](https://github.com/twystd)
 * x123456789  
@@ -63,6 +64,7 @@
 * [me505](https://github.com/me505)
 * [mxjoda](https://twitter.com/mxjoda)  
 * [Ryujin](https://github.com/Ryujin-cybercode)
+* Satan  
 * [Tripplehelix](https://github.com/tripplehelix)  
 
 ### Tips
@@ -85,4 +87,3 @@
 * [hildjj](https://github.com/hildjj)  
 * [mr_moe](https://github.com/donburks)  
 * [RubenVerg](https://github.com/rubenverg)  
-* Satan  
