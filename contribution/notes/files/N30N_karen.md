@@ -10,7 +10,7 @@ _"We got his foot back this morning"_ he added, gesturing to the carrier bag he 
 
 She looked at him appraisingly for several moments, considering.
 
-_"He was your ami, qui? Bien! Sergei, I should like to have a talk with this .. Citron person. Perhaps it will be more .. fruitful than the other conversation. The one with Le Escargot."_
+_"He was your ami, oui? Bien! Sergei, I should like to have a talk with this .. Citron person. Perhaps it will be more .. fruitful than the other conversation. The one with Le Escargot."_
 
 Sergei winced, remembering. That had been a **very** expensive conversation! They'd had to replace the entire carpet for one thing. And redecorate.
 
