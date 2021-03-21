@@ -10,7 +10,7 @@ When starting a dungeon, you can leave it as Public (if you swipe it, the dungeo
 All public dungeons can be seen and joined if you access the floating menu (the 3 horizontal lines menu) anywhere from the game, besides the General Chat and click on the 2 buildings symbol.
 
 ## Gangs
-Currently gangs are just a private area for a group of up to 16 friends to communicate but there are future plans for more to come of this.
+Currently gangs are just a private chat area for a group of up to 16 friends to communicate but there are future plans for more to come to this.
 
 As Gang Leader, you will have 3 additional options, when visiting one of your gang members profiles:
 * [KICK] - you can kick the gang member from the gang;
