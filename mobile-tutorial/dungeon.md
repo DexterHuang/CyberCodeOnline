@@ -39,6 +39,10 @@ Something else that's different in this image is the '?'. This represents the go
   
 Here is an example of the dialogue that pops up after clicking on the '?'. They will usually ask for one item in return for another item or power up. It is up to you to decide if the trade is worthwhile, however if you can afford it, it is always worth taking for the xp it provides. Some of the text on this screen is randomly generated from a file, so you may get odd references or funny dialogues.
 
+### Lore (!)
+
+There are exclamation marks dotted around dungeons, these are snippets of lore that you can read if you wish.
+
 ### Treasure / Boss Room
   
 ![DungeonBossTreasureCoop](/resources/mobile-tutorial/DungeonBossTreasureCoop.png)
