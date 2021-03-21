@@ -44,6 +44,7 @@
 * [DexterHuang](https://github.com/DexterHuang) 
 * Dzylx  
 * [HBUnknown](https://www.facebook.com/john.bostwick.31)
+* [Misaki](https://github.com/Cyber-nun2)  
 * [Omnipotent_God](https://github.com/Omnipotent-God)
 * [s3rvant](https://github.com/s3rvant)  
 * [Humboer](https://github.com/stphnhng) 
