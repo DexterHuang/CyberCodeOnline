@@ -49,7 +49,7 @@
 * [Humboer](https://github.com/stphnhng) 
 * pikkon85  
 * [Tripplehelix](https://github.com/tripplehelix)
-* [Misaki](https://github.com/Cyber-nun2)
+* [Misaki](https://github.com/Misaki290)
 
 ### Words
 * App2
