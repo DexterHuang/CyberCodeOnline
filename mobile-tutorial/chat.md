@@ -8,6 +8,6 @@ In Cyber Code Online, there's 3 types of chat:
 In order to mention (or tag) someone in the Global chat, you can use '@' and the name of the user.
 As you type their name, a list will appear and you can select the desired name from that list.
 
-The player mentioned by you, in case they're not inside the game, will receive a notification on their phone knowing that you wanted to talk to him/her.
+The player mentioned by you, will receive a notification on their phone knowing that you wanted to talk to him/her.
 
 The mention function does not work in the Private Message (Mail) chat because the person whom you're writing, will receive a notification about the messages every time when you are writing to him/her.
