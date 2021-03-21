@@ -44,18 +44,18 @@
 * [DexterHuang](https://github.com/DexterHuang) 
 * Dzylx  
 * [HBUnknown](https://www.facebook.com/john.bostwick.31)
-* [Misaki](https://github.com/Cyber-nun2)  
 * [Omnipotent_God](https://github.com/Omnipotent-God)
 * [s3rvant](https://github.com/s3rvant)  
 * [Humboer](https://github.com/stphnhng) 
 * pikkon85  
 * [Tripplehelix](https://github.com/tripplehelix)
+* [Misaki](https://github.com/Misaki290)
 
 ### Words
 * App2
 * [bvcxz](https://github.com/bvcxz-cybercode)
 * [byakkozen](https://github.com/byakkozen)  
-* [Misaki](https://github.com/Cyber-nun2)  
+* [Misaki](https://github.com/Misaki290)  
 * [Deckeeper](https://github.com/deckeeper) 
 * [DexterHuang](https://github.com/DexterHuang) 
 * [ghosted-bot](https://github.com/ghosted-bot)
@@ -75,7 +75,7 @@
 * [Kimi Leta](https://github.com/kimileta)  
 * [RaykouTJ](https://github.com/HoneySyrup)  
 * [levi middleton](https://github.com/levi-middleton)  
-* [Misaki](https://github.com/Cyber-nun2)  
+* [Misaki](https://github.com/Misaki290)  
 * [Russ Hammett](https://github.com/Kritner)
 * [s3rvant](https://github.com/s3rvant)  
 * StellaSheep
