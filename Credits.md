@@ -10,7 +10,6 @@
 * [l33t4ng3l](https://github.com/l33t4ng3l) 
 * [PotatoMan](https://github.com/PotatoMan145)  
 * [Tripplehelix](https://github.com/tripplehelix)  
-* Worzel  
 
 ### Music
 * [CMDR7](https://github.com/cmdr7) 
