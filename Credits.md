@@ -72,6 +72,7 @@
 * [Archibaald](https://github.com/Archibaald-dev)  
 * [byakkozen](https://github.com/byakkozen)  
 * [DexterHuang](https://github.com/DexterHuang) 
+* [Hally](https://twitter.com/g_hally1996)
 * [Kimi Leta](https://github.com/kimileta)  
 * [RaykouTJ](https://github.com/HoneySyrup)  
 * [levi middleton](https://github.com/levi-middleton)  
