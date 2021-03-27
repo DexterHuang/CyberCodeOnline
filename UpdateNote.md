@@ -20,7 +20,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log
 ### **2021/03/27- v0.401**
- * Fixed hard lock on map page due to dungeon issue
+ * Fixed hard lock on map page due to dungeon issue, press `leave dungeon` when it keeps loading none stop
 
 ### **2021/03/08- v0.401**
  * NPC now have entry animation
