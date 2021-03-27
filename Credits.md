@@ -77,6 +77,7 @@
 * [RaykouTJ](https://github.com/HoneySyrup)  
 * [levi middleton](https://github.com/levi-middleton)  
 * [Misaki](https://github.com/Misaki290)  
+* Mobius-1
 * [Russ Hammett](https://github.com/Kritner)
 * [s3rvant](https://github.com/s3rvant)  
 * StellaSheep
