@@ -19,6 +19,9 @@ Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Updates Log
+### **2021/03/27- v0.401**
+ * Fixed hard lock on map page due to dungeon issue
+
 ### **2021/03/08- v0.401**
  * NPC now have entry animation
  * Added new NPC for donation
