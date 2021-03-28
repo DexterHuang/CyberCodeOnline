@@ -19,6 +19,9 @@ Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Updates Log
+### **2021/03/28- v0.401**
+ * Added PayPal payment to browser (including mobile view) to purchase Units (**Donation Tiers will come later**)
+ 
 ### **2021/03/27- v0.401**
  * Fixed hard lock on map page due to dungeon issue, press `leave dungeon` when it keeps loading none stop
 
