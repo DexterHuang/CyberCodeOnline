@@ -20,6 +20,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log 
 
+### **2021/04/03- v0.410**
+ * Fix IAP purchase saying Insufficient Unit when player has exact same amount 
+
 ### **2021/04/02- v0.408**
  * Android IAP is fixed
 
