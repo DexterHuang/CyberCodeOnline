@@ -20,6 +20,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log 
 
+### **2021/04/04- v0.410**
+ * Server Optimization
+  
 ### **2021/04/03- v0.410**
  * Now Tier 3 Unit package is cheaper (140% bonus)
  * Fix IAP purchase saying Insufficient Unit when player has exact same amount 
