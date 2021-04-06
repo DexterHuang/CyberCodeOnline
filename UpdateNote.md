@@ -19,6 +19,9 @@ Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Updates Log 
+### **2021/04/06- v0.414**
+ * Remove live update on dungeon list page
+ * Added `Credits` tab on profile
 
 ### **2021/04/04- v0.410**
  * Fix health bar display issue
