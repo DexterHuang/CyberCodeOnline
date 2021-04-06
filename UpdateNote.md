@@ -20,6 +20,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log 
 ### **2021/04/06- v0.414**
+ * Now market item will expire in 3 days instead of 7 (To reduce server load)
  * Remove live update on dungeon list page
  * Added `Credits` tab on profile
 
