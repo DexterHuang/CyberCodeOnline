@@ -1,9 +1,7 @@
-## Credits:
-
-### Developer
+## Developer
 [DexterHuang](https://github.com/DexterHuang)  
 
-### Moderators
+## Moderators
 [alfaice](https://github.com/alfaice)  
 [CMDR7](https://github.com/cmdr7)  
 [Deckeeper](https://github.com/deckeeper)  
@@ -12,14 +10,14 @@
 [Tripplehelix](https://github.com/tripplehelix)  
 Unca_Feddit  
 
-### Music
+## Music
 [CMDR7](https://github.com/cmdr7)  
 
-### Art
+## Art
 [l33t4ng3l](https://github.com/l33t4ng3l)  
 Proxxie
 
-### Lore
+## Lore
 [byakkozen](https://github.com/byakkozen)  
 [bvcxz](https://github.com/bvcxz-cybercode)  
 [CelesMeh](https://www.instagram.com/celesmeh)  
@@ -29,7 +27,7 @@ Satan
 [twystd](https://github.com/twystd)  
 x123456789  
 
-### Dungeons
+## Dungeons
 [alfaice](https://github.com/alfaice)  
 [Deckeeper](https://github.com/deckeeper)  
 [DexterHuang](https://github.com/DexterHuang)  
@@ -37,7 +35,7 @@ x123456789
 [JEricaM](https://github.com/JEricaM)  
 [Tripplehelix](https://github.com/tripplehelix)  
 
-### Tutorial
+## Tutorial
 [alfaice](https://github.com/alfaice)  
 [byakkozen](https://github.com/byakkozen)   
 [Deckeeper](https://github.com/deckeeper)  
@@ -50,7 +48,7 @@ Dzylx
 [Humboer](https://github.com/stphnhng)  
 [Tripplehelix](https://github.com/tripplehelix)  
 
-### Words
+## Words
 App2  
 [bvcxz](https://github.com/bvcxz-cybercode)  
 [byakkozen](https://github.com/byakkozen)   
@@ -67,7 +65,7 @@ App2
 Satan  
 [Tripplehelix](https://github.com/tripplehelix)  
 
-### Tips
+## Tips
 [Archibaald](https://github.com/Archibaald-dev)  
 [byakkozen](https://github.com/byakkozen)  
 [DexterHuang](https://github.com/DexterHuang)  
@@ -83,7 +81,7 @@ Pikkon85
 StellaSheep   
 [Tripplehelix](https://github.com/tripplehelix)  
 
-### Other Contributors
+## Other Contributors
 [AdmiralDiemos](https://github.com/danofsatx)  
 [Arky](https://www.instagram.com/andreiarky)  
 [Blackstormx](https://github.com/blackstormx)  
