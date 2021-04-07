@@ -19,6 +19,9 @@ Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Updates Log 
+### **2021/04/07- v0.414**
+ * Added chat preview on map page
+
 ### **2021/04/06- v0.414**
  * Now market item will expire in 3 days instead of 7 (To reduce server load)
  * Remove live update on dungeon list page
