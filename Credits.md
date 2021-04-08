@@ -63,7 +63,8 @@ App2
 [mxjoda](https://twitter.com/mxjoda)  
 [Ryujin](https://github.com/Ryujin-cybercode)  
 Satan  
-[Tripplehelix](https://github.com/tripplehelix)  
+[Tripplehelix](https://github.com/tripplehelix)
+[MarcelWeidum](https://github.com/MarcelWeidum) 
 
 ## Tips
 [Archibaald](https://github.com/Archibaald-dev)  
