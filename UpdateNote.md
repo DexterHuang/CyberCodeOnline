@@ -19,6 +19,10 @@ Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Updates Log 
+### **2021/04/08- v0.414**
+ * Added global time skip using Unit
+ * Fixed Paypal on web
+
 ### **2021/04/07- v0.414**
  * Added chat preview on map page
 
