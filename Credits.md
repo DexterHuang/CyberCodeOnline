@@ -59,6 +59,7 @@ App2
 [Hally](https://twitter.com/g_hally1996)  
 [JEricaM](https://github.com/JEricaM)  
 [Luako](https://github.com/luako)  
+[MarcelWeidum](https://github.com/MarcelWeidum)  
 [me505](https://github.com/me505)  
 [mxjoda](https://twitter.com/mxjoda)  
 [Ryujin](https://github.com/Ryujin-cybercode)  
