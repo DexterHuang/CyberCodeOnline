@@ -53,7 +53,7 @@ Your printed gear will have the same level as the one from your 'Printing Rank'.
 As it was already explained in the previous question, the caches you get scale only to your Printing Rank.
 It doesn't matter if you print your caches now or later.
 The gear that you will obtain from them, whether it is weapon or armor, it will always have the same exact level as your Printing Rank.
-The only caches that are recommended to keep for later levels (lvl 30 - 40+) are the legendary ones and of course, epic obes, if it ever happens to get one as a drop.
+The only caches that are recommended to keep for later levels (lvl 30 - 40+) are the legendary ones and of course, epic ones, if it ever happens to get one as a drop.
 Legendary caches are much more expensive to craft than Rare ones, have much better stats than Rare and it will last longer, meaning that you don't have to switch them out for another piece of gear until you are 9 or 10 levels above the level of the legendary gear that you are wearing.
 
 ### How do I increase my printing rank?
