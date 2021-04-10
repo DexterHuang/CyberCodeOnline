@@ -17,6 +17,19 @@ You can have a custom profile picture in your profile, a Title and a coloured ch
 ### Can I change my name?
 No, currently you can't do that. You are stuck with your username.
 
+### Can I search the usernames of other people?
+No, you can't search for other people. Currently there's no way to do that.
+
+### What are Gangs and how do I create one?
+Gangs here are the equivalent of clans or guilds in other MMORPGs.
+You can create one if you go to Chat, then Gang tab and pay 100,000 BTC. 
+Other than a separate chat from the global chat, guilds don't have any other functions.
+Gangs also allow you to have a tag of 3 letters that you chose when you created the gang, in your chat border.
+
+### How do I search for a Gang? How do I join one?
+Currently, you can't see a current list of gangs in the game.
+You can join one if you create one yourself or if you get invited by the gang leader or if gang leader allowed the members of the gang to invite others inside.
+
 ### Does the game support trading among players?
 Yes, partially. You can gift items to other players but there isn't a system that forces the other person to give something in exchange.
 You can't currently gift BTC to someone. Only items.
@@ -25,20 +38,24 @@ You can't gift key fragments to anyone. Not even sell them.
 ### Does this game have PvP?
 No. PvP is not currently available in the game.
 
-### What are Transmitters?
-They are special items that can be bought only with Units (premium currency).
-The only exception is with the normal afk transmitter that drops from dungeons and can reduce the afk time only to 5%.
-They have a global effect meaning that once activated all players on the server benefits their effects.
-Their effects can range from reducing the time on an afk job or activity to increased BTC gain.
+### What are caches and what should I do with them?
+Caches are like lootboxes, except you don't pay for them. They contain random weapons and armor.
+You can use them to craft your equipment.
 
-### How do I redeem my BitCoins?
-BitCoin is just the game's currency, so the Bitcoin (BTC) here isn't the same as the one from the real world.
+# What is BitCoin (BTC) and how do I redeem it?
+BitCoin (BTC) is just the game's currency, so the Bitcoin here isn't the same as the one from the real world.
 
 However, if you want to support the game, you can [buy me a coffee](https://www.buymeacoffee.com/cybercodeonline) or buy a [Patreon](https://www.patreon.com/cybercodeonline) monthly subscription.
 
 ### How do I get more Bitcoins?
 You can get more by mining 'Hash Processors' (that drops from dungeons) at the [Job Hub].
 You can also get Bitcoins by selling caches, gear, crafting itmes and other types of items in the Player Market.
+
+### What are Transmitters?
+They are special items that can be bought only with Units (premium currency).
+The only exception is with the normal afk transmitter that drops from dungeons and can reduce the afk time only to 5%.
+They have a global effect meaning that once activated all players on the server benefits their effects.
+Their effects can range from reducing the time on an afk job or activity to increased BTC gain.
 
 ### Where is the Player Market?
 When your character reaches level 5 the player market will be unlocked. It will show up in the 'Central Hub'. 
