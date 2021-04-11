@@ -18,7 +18,7 @@ You can have a custom profile picture in your profile, a Title and a coloured ch
 No, currently you can't do that. You are stuck with your username.
 
 ### Can I search the usernames of other people?
-No, you can't search for other people. Currently there's no way to do that.
+Currently, the only way to search for a user is to type @ in chat followed by their name. e.g @tripplehelix
 
 ### What are Gangs and how do I create one?
 Gangs here are the equivalent of clans or guilds in other MMORPGs.
