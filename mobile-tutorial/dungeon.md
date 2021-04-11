@@ -70,5 +70,3 @@ In the first image you can see I have pressed the floating button in the bottom 
 When an enemy is killed with the help from a friend, everyone who dealt 20% damage or more is given xp and a chance at a reward. All crates are unique to each player. In order to join another player's Co-op dungeon, the player's level cannot be 12 levels higher than the dungeon and 9 levels lower than the dungeon.
 
 When you die in a dungeon, regular enemy or boss, you cannot rejoin your dungeon.
-
-All public dungeons can be seen and joined if you access the floating menu (the 3 horizontal lines menu) anywhere from the game, besides the General Chat and click on the 2 buildings symbol.
