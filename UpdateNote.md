@@ -20,6 +20,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log 
 ### **2021/04/12- v0.414**
+ * Chat backend update
  * Dungeon backend update (if you cannot see or move your chracter, please leave the dungeon and restart your app)
 
 ### **2021/04/11- v0.414**
