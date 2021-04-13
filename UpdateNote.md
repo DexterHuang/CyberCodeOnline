@@ -22,6 +22,8 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ### **2021/04/13- v0.414**
  * Added Radar chart view to player detail page
  * Added social tutorial and removed co-op tutorial page
+ * Chat bug fix
+ * Global time skip optimization (hopefully everyone will get skipped normally) 
 
 ### **2021/04/12- v0.414**
  * Chat backend update
