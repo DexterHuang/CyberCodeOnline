@@ -19,6 +19,9 @@ Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Updates Log 
+### **2021/04/13- v0.414**
+ * Added Radar chart view to player detail page
+
 ### **2021/04/12- v0.414**
  * Chat backend update
  * Dungeon backend update (if you cannot see or move your chracter, please leave the dungeon and restart your app)
