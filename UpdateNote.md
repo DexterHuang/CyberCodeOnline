@@ -20,6 +20,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log 
 ### **2021/04/13- v0.414**
+ * Added `Street Cred` to leaderboard
  * Added `Street Cred` you may give 1 street cred to any player per day, give it to someone who deserve your respect!
  * Added icons for equpment items in inventory
  * Added Radar chart view to player detail page
