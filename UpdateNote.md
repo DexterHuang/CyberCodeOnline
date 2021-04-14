@@ -20,6 +20,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log 
 ### **2021/04/14- v0.414**
+ * Performance optimization, should see battery improvement
  * Now `Secret Key Fragments` will drop seperately in dungeon, you can always open the box, hopefully this will resolve the soft-lock issue
 
 ### **2021/04/13- v0.414**
