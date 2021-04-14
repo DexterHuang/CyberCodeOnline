@@ -93,14 +93,14 @@ When your character reaches level 5 the player market will be unlocked. It will 
 You can repair your equipment by paying a small amount of BTC at the Weaponsmith which you can find in the City Centre.
 
 ### Can I upgrade or level up my weapons and armours?
-You can't modify the quality (e.g. from Rare to transform to Legendary) of a weapon or armour, nor you cannot level it up your old weapons or armours to your current level.
+You can't modify the rarity (e.g. from Rare to transform in Legendary) of a weapon or armour, nor you can level it up your old weapons or armours to your current level.
 You can however print new weapons and armours or buy them off from Player Market.
 
 ### Can I remove installed upgrade modules?
 Yes. Just click on the installed upgrade module to remove it from the equipment.
 
 ### What "Quality" on weapons and armor means?
-High quality (e. g. 96) on an weapon or armor means that weapon or armor will have excellent stats.
+High Quality (e. g. 96) on an weapon or armor means that weapon or armor will have excellent stats.
 Low quality means that stats on the equipment will perform poorly.
 You can't change the Quality of an weapon or armor.
 
