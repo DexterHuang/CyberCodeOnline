@@ -19,6 +19,9 @@ Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Updates Log 
+### **2021/04/14- v0.414**
+ * Now `Secret Key Fragments` will drop seperately in dungeon, you can always open the box, hopefully this will resolve the soft-lock issue
+
 ### **2021/04/13- v0.414**
  * Added `Street Cred` to leaderboard
  * Added `Street Cred` you may give 1 street cred to any player per day, give it to someone who deserves your respect!
