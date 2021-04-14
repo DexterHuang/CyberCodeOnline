@@ -50,6 +50,7 @@ Dzylx
 
 ## Words
 App2  
+Aquacky
 [bvcxz](https://github.com/bvcxz-cybercode)  
 [byakkozen](https://github.com/byakkozen)   
 [Misaki](https://github.com/Misaki290)  
