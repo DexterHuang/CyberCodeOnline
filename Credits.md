@@ -24,7 +24,7 @@ Proxxie
 [CelesMeh](https://www.instagram.com/celesmeh)  
 SaberTron  
 Satan  
-[Talos](https://silvercrowstation.wordpress.com/)
+[Talos](https://silvercrowstation.wordpress.com/)  
 [Tripplehelix](https://github.com/tripplehelix)  
 [twystd](https://github.com/twystd)  
 x123456789  
