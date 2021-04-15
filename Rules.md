@@ -6,7 +6,7 @@
 
 ## Game Rules
 * No botting 
-* Tool assistance
+* No Tool assistance
 * Keep alts to a minimum
 * Don't exploit bugs
 * Keep names family friendly
