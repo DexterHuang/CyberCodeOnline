@@ -19,6 +19,12 @@ Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Updates Log 
+### **2021/04/15- v0.414**
+ * New Donation Tiers `Legendary` (Purple) and `Cybernetic Potato` (Potato)
+ * More unit purchase options
+ * Attemp to fix global time skip issue
+ * Fix Paypal issue
+
 ### **2021/04/14- v0.414**
  * Performance optimization, should see battery improvement
  * Now `Secret Key Fragments` will drop seperately in dungeon, you can always open the box, hopefully this will resolve the soft-lock issue
