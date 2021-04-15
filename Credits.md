@@ -3,7 +3,7 @@
 
 ## Moderators
 [alfaice](https://github.com/alfaice)  
-[BruteDeity](https://github.com/BruteDeity)
+[BruteDeity](https://github.com/BruteDeity)  
 [CMDR7](https://github.com/cmdr7)  
 [Deckeeper](https://github.com/deckeeper)  
 [l33t4ng3l](https://github.com/l33t4ng3l)  
