@@ -63,6 +63,7 @@ Aquacky
 [Luako](https://github.com/luako)  
 [MarcelWeidum](https://github.com/MarcelWeidum)  
 [me505](https://github.com/me505)  
+[Montero](https://github.com/CCOLucille2)
 [mxjoda](https://twitter.com/mxjoda)  
 [Ryujin](https://github.com/Ryujin-cybercode)  
 Satan  
