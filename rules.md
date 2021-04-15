@@ -9,4 +9,4 @@
 - Don't impersonate others
 - No botting or tool assistance
 
-If you feel someone is violating one of the rules and no mods are around, take a screen shot and report it via DM on the [disocrd](https://discord.gg/JREx8xz).
+If you feel someone is violating one of the rules and no mods are around, take a screenshot and report it via DM on the [discord](https://discord.gg/JREx8xz).
