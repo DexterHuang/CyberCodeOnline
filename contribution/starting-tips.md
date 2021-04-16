@@ -11,5 +11,5 @@
 * Read the Tutorial and FAQ to learn the game mechanics. 
 * The Tutorial can be found on the Profile tab at the bottom right part of the screen.
 * A good start in the Tutorial is the Equipment, Leveling, Combat and Dungeon pages.
-* There is no pay to win, all purchases either affect everyone or are purely cosmetic.
+* There is no Pay to Win, all purchases (Units or subscriptions) either affect everyone or are purely cosmetic.
 * Lastly, you can always ask questions in the global chat and remember to check out our [Discord server](https://discord.gg/JREx8xz).
