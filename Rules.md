@@ -26,7 +26,7 @@
 * Vulgar discussions are prohibited. (18+)
 * Any kind of call to suicide is prohibited.
 * Messages that humiliate human dignity, incite ethnic hatred, or discriminate against people on religious or other grounds are prohibited.
-### Gang services
+### Gang
 * Gang names and prefixes containing obscene expressions or advertising are prohibited.
 ### Paid services
 * All purchases are charity and are made at your request.
