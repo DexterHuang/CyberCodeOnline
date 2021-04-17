@@ -7,7 +7,7 @@
 ### Game Rules
 * No botting 
 * No Tool assistance
-* Keep alts to a minimum
+* No excessive alts
 * Don't exploit bugs
 * Keep names family friendly
 ### Chat Rules
