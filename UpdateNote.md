@@ -18,7 +18,64 @@ Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee
 
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
-## Updates Log
+## Updates Log 
+### **2021/04/15- v0.414**
+ * Updated background graphic for `Cybernetic Potato`
+ * New Donation Tiers `Legendary` (Purple) and `Cybernetic Potato` (Potato)
+ * More unit purchase options
+ * Attemp to fix global time skip issue
+ * Fix Paypal issue
+
+### **2021/04/14- v0.414**
+ * Performance optimization, should see battery improvement
+ * Now `Secret Key Fragments` will drop seperately in dungeon, you can always open the box, hopefully this will resolve the soft-lock issue
+
+### **2021/04/13- v0.414**
+ * Added `Street Cred` to leaderboard
+ * Added `Street Cred` you may give 1 street cred to any player per day, give it to someone who deserves your respect!
+ * Added icons for equpment items in inventory
+ * Added Radar chart view to player detail page
+ * Added social tutorial and removed co-op tutorial page
+ * Chat bug fix
+ * Global time skip optimization (hopefully everyone will get skipped normally) 
+
+### **2021/04/12- v0.414**
+ * Chat backend update
+ * Dungeon backend update (if you cannot see or move your chracter, please leave the dungeon and restart your app)
+
+### **2021/04/11- v0.414**
+ * Global time skip will now affect all players doing AFK tasks (but will have small delay before everyone is processed by system)
+ * tons of under-the-hood server improvement 
+
+### **2021/04/09- v0.414**
+ * Global time skip is changed to max 50 player randomly (until i fix the network issue)
+
+### **2021/04/08- v0.414**
+ * Added global time skip using Unit
+ * Fixed Paypal on web
+
+### **2021/04/07- v0.414**
+ * Added chat preview on map page
+
+### **2021/04/06- v0.414**
+ * Now market item will expire in 3 days instead of 7 (To reduce server load)
+ * Remove live update on dungeon list page
+ * Added `Credits` tab on profile
+
+### **2021/04/04- v0.410**
+ * Fix health bar display issue
+ * Server Optimization
+  
+### **2021/04/03- v0.410**
+ * Now Tier 3 Unit package is cheaper (140% bonus)
+ * Fix IAP purchase saying Insufficient Unit when player has exact same amount 
+
+### **2021/04/02- v0.408**
+ * Android IAP is fixed
+
+### **2021/03/28- v0.401**
+ * Added PayPal payment to browser (including mobile view) to purchase Units (**Donation Tiers will come later**)
+ 
 ### **2021/03/27- v0.401**
  * Fixed hard lock on map page due to dungeon issue, press `leave dungeon` when it keeps loading none stop
 

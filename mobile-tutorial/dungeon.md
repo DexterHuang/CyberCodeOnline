@@ -56,11 +56,17 @@ In this screenshot you can also see other players helping out, this is especiall
 ![DungeonCoop](/resources/mobile-tutorial/DungeonCoop.png)
 ![DungeonCoop2](/resources/mobile-tutorial/DungeonCoop2.png)
   
-As you can see here we have a number of players in the same dungeon. The rules are the same as single player except other people are able to help you out. When using heals, it is usually advised to use the multi user heals as you will then heal both yourself and your co-op partners. You can see everyone's health bars above the player icons.  
+As you can see here we have a number of players in the same dungeon. The rules are the same as single player except other people are able to help you out. When using heals, it is usually advised to use the multi user heals (such as Pain Away Spray) as you will then heal both yourself and your co-op partners. You can see everyone's health bars above the player icons.  
 
-In the second image, at the bottom under the 'quit dungeon' button you will find a button called 'Send invite to global chat'. This will do as it states and list your dungeon and its level in global chat so others can join easily.
+In the second image, at the bottom under the '[QUIT DUNGEON]' button you will find a button called '[Send invite to global chat]'. This will do as it states and list your dungeon and it's level in the global chat so others can join easily. Anyone around your level can join and help you out. You can also click the dungeon link in chat to join other peoples dungeons.  
   
 ![DungeonCoop4](/resources/mobile-tutorial/DungeonCoop4.png)
 ![DungeonCoop3](/resources/mobile-tutorial/DungeonCoop3.png)
   
-When creating a dungeon you may have noticed you get to name it and choose if its public or not, this is for these screens. In the first image you can see I have pressed the floating button in the bottom right, this is where you can view the list of currently open dungeons. Clicking on it will open the second image. In the top right you can find the dungeon level and in the middle you can see a list of players and their status. At the bottom it shows how many enemies are left, if you wish you can join a nearly empty dungeon to claim all the loot or look for a new one for the xp.
+When creating a dungeon you may have noticed you can name it and choose to leave it as Public (by not swiping the button) or you can swipe it and make it Private, only for you to solo it. You can also choose to protect the dungeon with a password. This way only the people who knows the password (gang members or friends) can join your dungeon.
+
+In the first image you can see I have pressed the floating button in the bottom right, so you can view the list of currently open dungeons. Clicking on it will open the second image. In the top right you can find the dungeon level and in the middle you can see a list of players and their status. At the bottom it shows how many enemies are left, if you wish you can join a nearly empty dungeon to claim all the loot or look for a new one for the xp.
+ 
+When an enemy is killed with the help from a friend, everyone who dealt 20% damage or more is given xp and a chance at a reward. All crates are unique to each player. In order to join another player's Co-op dungeon, the player's level cannot be 12 levels higher than the dungeon and 9 levels lower than the dungeon.
+
+When you die in a dungeon, regular enemy or boss, you cannot rejoin your dungeon.
