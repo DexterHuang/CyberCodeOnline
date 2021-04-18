@@ -20,6 +20,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log 
 ### **2021/04/15- v0.414**
+ * Updated background graphic for `Cybernetic Potato`
  * New Donation Tiers `Legendary` (Purple) and `Cybernetic Potato` (Potato)
  * More unit purchase options
  * Attemp to fix global time skip issue

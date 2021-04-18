@@ -3,6 +3,7 @@
 
 ## Moderators
 [alfaice](https://github.com/alfaice)  
+[BruteDeity](https://github.com/BruteDeity)  
 [CMDR7](https://github.com/cmdr7)  
 [Deckeeper](https://github.com/deckeeper)  
 [l33t4ng3l](https://github.com/l33t4ng3l)  
@@ -23,6 +24,7 @@ Proxxie
 [CelesMeh](https://www.instagram.com/celesmeh)  
 SaberTron  
 Satan  
+[Talos](https://silvercrowstation.wordpress.com/)  
 [Tripplehelix](https://github.com/tripplehelix)  
 [twystd](https://github.com/twystd)  
 x123456789  
@@ -50,7 +52,7 @@ Dzylx
 
 ## Words
 App2  
-Aquacky
+Aquacky  
 [bvcxz](https://github.com/bvcxz-cybercode)  
 [byakkozen](https://github.com/byakkozen)   
 [Misaki](https://github.com/Misaki290)  
@@ -62,6 +64,7 @@ Aquacky
 [Luako](https://github.com/luako)  
 [MarcelWeidum](https://github.com/MarcelWeidum)  
 [me505](https://github.com/me505)  
+[Montero](https://github.com/CCOLucille2)
 [mxjoda](https://twitter.com/mxjoda)  
 [Ryujin](https://github.com/Ryujin-cybercode)  
 Satan  
