@@ -20,6 +20,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log 
 ### **2021/04/19- v0.440**
+ * Changed time skip batch skip size to 50 per min to reduce server load (the weird chat bug is due to server could not handle too much player in one go)
+ * Added new dungeon room design from contributed content
+ * Added many new names from contributed content (Words.json)
  * Bug fixes on `Global Time Skip`, should fix rare issue where sometimes not everyone got skipped
 
 ### **2021/04/15- v0.414**
