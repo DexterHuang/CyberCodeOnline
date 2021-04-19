@@ -19,6 +19,9 @@ Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Updates Log 
+### **2021/04/19- v0.440**
+ * Bug fixes on `Global Time Skip`, should fix rare issue where sometimes not everyone got skipped
+
 ### **2021/04/15- v0.414**
  * Updated background graphic for `Cybernetic Potato`
  * New Donation Tiers `Legendary` (Purple) and `Cybernetic Potato` (Potato)
