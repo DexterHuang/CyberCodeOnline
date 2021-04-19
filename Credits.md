@@ -35,6 +35,7 @@ x123456789
 [Deckeeper](https://github.com/deckeeper)  
 [DexterHuang](https://github.com/DexterHuang)  
 [Hally](https://twitter.com/g_hally1996)  
+NinkPT  
 [JEricaM](https://github.com/JEricaM)  
 [Tripplehelix](https://github.com/tripplehelix)  
 zomg  
