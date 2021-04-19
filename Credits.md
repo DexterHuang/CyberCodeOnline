@@ -38,7 +38,7 @@ x123456789
 NinkPT  
 [JEricaM](https://github.com/JEricaM)  
 [Tripplehelix](https://github.com/tripplehelix)  
-Vega Efsunborn  
+Vega_Efsunborn  
 zomg  
 
 ## Tutorial
