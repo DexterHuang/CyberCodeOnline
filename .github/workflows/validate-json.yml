@@ -1,7 +1,15 @@
-
-uses: anyone-developer/anyone-validate-json@main
-with:
-  file-extension: '.json'
-  ignore-files: 'README.md'
-  ignore-directories: '.git'
-  read-path: '/'
+name: PROD_CI
+on:
+    push:
+        branches:
+            - "releases/**" # Push events to branches matching refs/heads/releases/10
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+          - uses: anyone-developer/anyone-validate-json@main
+          - with:
+              file-extension: '.json'
+              ignore-files: 'README.md'
+              ignore-directories: '.git'
+              read-path: '/'
