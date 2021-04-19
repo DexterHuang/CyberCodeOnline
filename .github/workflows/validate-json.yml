@@ -21,7 +21,9 @@ jobs:
                       ${{ runner.os }}-build-${{ env.cache-name }}-
                       ${{ runner.os }}-build-
                       ${{ runner.os }}-
-            - name: Install Client
+            - name: npm install
               run: |
-                  npm i 
+                  npm i
+            - name: Validate JSON
+              run: |
                   npm start
