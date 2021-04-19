@@ -63,6 +63,7 @@ Aquacky
 [DexterHuang](https://github.com/DexterHuang)  
 [ghosted-bot](https://github.com/ghosted-bot)  
 [Hally](https://twitter.com/g_hally1996)  
+HumbleServant  
 [JEricaM](https://github.com/JEricaM)  
 [Luako](https://github.com/luako)  
 [MarcelWeidum](https://github.com/MarcelWeidum)  
