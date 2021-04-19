@@ -36,6 +36,7 @@ x123456789
 [Hally](https://twitter.com/g_hally1996)  
 [JEricaM](https://github.com/JEricaM)  
 [Tripplehelix](https://github.com/tripplehelix)  
+zomg  
 
 ## Tutorial
 [alfaice](https://github.com/alfaice)  
