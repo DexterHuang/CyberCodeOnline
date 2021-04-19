@@ -1,8 +1,9 @@
 name: PROD_CI
 on:
-    push:
-        branches:
-            - "*" # Push events to branches matching refs/heads/releases/10
+    pull_request:
+     branches:
+       - "*"
+     types: ['opened', 'edited', 'reopened', 'synchronize']
 jobs:
     build:
         runs-on: ubuntu-latest
