@@ -83,6 +83,7 @@ Satan
 [Misaki](https://github.com/Misaki290)  
 Mobius-1  
 Pikkon85  
+roucoupute2  
 [Russ Hammett](https://github.com/Kritner)  
 [s3rvant](https://github.com/s3rvant)  
 StellaSheep   
