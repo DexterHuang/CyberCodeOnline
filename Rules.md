@@ -10,6 +10,7 @@
 * No excessive alts
 * Don't exploit bugs
 * Keep names family friendly
+
 ### Chat Rules
 * Stay family friendly
 * Be kind
@@ -17,3 +18,5 @@
   - Spam  
   - Advertise  
   - Impersonate others  
+  - Beg. Anything in the game can be obtaninable through some work or if you have enough BTC.  
+  - Complain unnecessary about things. If you have any issues talk to a mod or directly with the dev.  
