@@ -71,6 +71,7 @@ HumbleServant
 [me505](https://github.com/me505)  
 [Montero](https://github.com/CCOLucille2)
 [mxjoda](https://twitter.com/mxjoda)  
+[PsyB34R](www.instagram.com/psybearr)  
 [Ryujin](https://github.com/Ryujin-cybercode)  
 Satan  
 [Tripplehelix](https://github.com/tripplehelix)  
