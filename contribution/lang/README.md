@@ -11,5 +11,5 @@
  2.  Edit the file with appropriate translations using the following format:
 - `trans`  	-> the actuall translated text, this is the only field you need to modify
 - `eng` 		-> pre-generated english text for reference, do not change it
-- `vars` 		-> list of variable available for this translation, a example would be `the price is ${cost} dollar` when the var is `["cost"]`
+- `vars` 		-> list of variable available for this translation, a example would be `the price is ${cost} dollar` when the var is `["cost"]`. also for reference only, do not change this
 3. Submit the PR, when your PR is approved, the translation will be live in 5 ~ 15 minutes automatically
