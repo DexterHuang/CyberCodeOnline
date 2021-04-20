@@ -13,7 +13,10 @@
 ### Chat Rules
 * Stay family friendly
 * Be kind
-* Don't:  
+* Don't: 
+  - Be a jerk
   - Spam  
   - Advertise  
   - Impersonate others  
+  - Unnecessarily complain about the game  
+  - Talk in other languages other than English in the Global Chat  
