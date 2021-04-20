@@ -21,6 +21,7 @@ Proxxie
 ## Translations
 [alfaice](https://github.com/alfaice)  
 [CynexXT](https://github.com/CynexXT)  
+[Murfex](https://github.com/Murfex)  
 [PsyB34R](https://www.instagram.com/psybearr)  
 
 ## Lore
