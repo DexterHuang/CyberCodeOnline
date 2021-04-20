@@ -22,7 +22,7 @@ Proxxie
 [byakkozen](https://github.com/byakkozen)  
 [bvcxz](https://github.com/bvcxz-cybercode)  
 [CelesMeh](https://www.instagram.com/celesmeh)  
-PsyB34R  
+[PsyB34R](www.instagram.com/psybearr)  
 SaberTron  
 Satan  
 [Talos](https://silvercrowstation.wordpress.com/)  
@@ -77,6 +77,7 @@ Satan
 
 ## Tips
 [Archibaald](https://github.com/Archibaald-dev)  
+Bronzer  
 [byakkozen](https://github.com/byakkozen)  
 [DexterHuang](https://github.com/DexterHuang)  
 [Hally](https://twitter.com/g_hally1996)  
