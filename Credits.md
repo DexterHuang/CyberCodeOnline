@@ -18,11 +18,16 @@ Unca_Feddit
 [l33t4ng3l](https://github.com/l33t4ng3l)  
 Proxxie
 
+## Translations
+[alfaice](https://github.com/alfaice)  
+[CynexXT](https://github.com/CynexXT)  
+[PsyB34R](https://www.instagram.com/psybearr)  
+
 ## Lore
 [byakkozen](https://github.com/byakkozen)  
 [bvcxz](https://github.com/bvcxz-cybercode)  
 [CelesMeh](https://www.instagram.com/celesmeh)  
-[PsyB34R](www.instagram.com/psybearr)  
+[PsyB34R](https://www.instagram.com/psybearr)  
 SaberTron  
 Satan  
 [Talos](https://silvercrowstation.wordpress.com/)  
@@ -71,6 +76,7 @@ HumbleServant
 [me505](https://github.com/me505)  
 [Montero](https://github.com/CCOLucille2)
 [mxjoda](https://twitter.com/mxjoda)  
+[PsyB34R](https://www.instagram.com/psybearr)  
 [Ryujin](https://github.com/Ryujin-cybercode)  
 Satan  
 [Tripplehelix](https://github.com/tripplehelix)  
