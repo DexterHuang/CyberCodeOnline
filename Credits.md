@@ -21,8 +21,13 @@ Proxxie
 ## Translations
 [alfaice](https://github.com/alfaice)  
 [CynexXT](https://github.com/CynexXT)  
+Fremad  
+[kt0t0wh0](https://github.com/kt0t0Sudd3n)
 [Murfex](https://github.com/Murfex)  
+NinkPT  
 [PsyB34R](https://www.instagram.com/psybearr)  
+Rinelle  
+Unfairissimo  
 
 ## Lore
 [byakkozen](https://github.com/byakkozen)  
