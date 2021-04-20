@@ -13,7 +13,9 @@
 ### Chat Rules
 * Stay family friendly
 * Be kind
-* Don't:  
+* Use English in global chat if possible
+* Don't: 
+  - Be a jerk
   - Spam  
   - Advertise  
   - Impersonate others  
