@@ -22,6 +22,7 @@ Proxxie
 [byakkozen](https://github.com/byakkozen)  
 [bvcxz](https://github.com/bvcxz-cybercode)  
 [CelesMeh](https://www.instagram.com/celesmeh)  
+PsyB34R  
 SaberTron  
 Satan  
 [Talos](https://silvercrowstation.wordpress.com/)  
@@ -34,8 +35,11 @@ x123456789
 [Deckeeper](https://github.com/deckeeper)  
 [DexterHuang](https://github.com/DexterHuang)  
 [Hally](https://twitter.com/g_hally1996)  
+NinkPT  
 [JEricaM](https://github.com/JEricaM)  
 [Tripplehelix](https://github.com/tripplehelix)  
+Vega_Efsunborn  
+zomg  
 
 ## Tutorial
 [alfaice](https://github.com/alfaice)  
@@ -60,6 +64,7 @@ Aquacky
 [DexterHuang](https://github.com/DexterHuang)  
 [ghosted-bot](https://github.com/ghosted-bot)  
 [Hally](https://twitter.com/g_hally1996)  
+HumbleServant  
 [JEricaM](https://github.com/JEricaM)  
 [Luako](https://github.com/luako)  
 [MarcelWeidum](https://github.com/MarcelWeidum)  
@@ -81,6 +86,7 @@ Satan
 [Misaki](https://github.com/Misaki290)  
 Mobius-1  
 Pikkon85  
+roucoupute2  
 [Russ Hammett](https://github.com/Kritner)  
 [s3rvant](https://github.com/s3rvant)  
 StellaSheep   
