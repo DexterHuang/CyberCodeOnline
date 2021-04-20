@@ -18,6 +18,11 @@ Unca_Feddit
 [l33t4ng3l](https://github.com/l33t4ng3l)  
 Proxxie
 
+## Translations
+[alfaice](https://github.com/alfaice)  
+[CynexXT](https://github.com/CynexXT)  
+[PsyB34R](https://www.instagram.com/psybearr)  
+
 ## Lore
 [byakkozen](https://github.com/byakkozen)  
 [bvcxz](https://github.com/bvcxz-cybercode)  
