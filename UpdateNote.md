@@ -19,6 +19,10 @@ Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Updates Log 
+### **2021/04/21- v0.443**
+ * Increase gang max player count from 16 to 32
+ * Major client optimization (hopefully you will see reduce in battery useage)
+
 ### **2021/04/19- v0.440**
  * Changed time skip batch skip size to 50 per min to reduce server load (the weird chat bug is due to server could not handle too much player in one go)
  * Added new dungeon room design from contributed content
