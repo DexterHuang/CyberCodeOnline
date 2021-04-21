@@ -1,471 +1,759 @@
 {
-	"tabs": {
-		"map": {
-			"trans": "Карта",
-			"eng": "Map"
-		},
-		"inventory": {
-			"trans": "Инвентарь",
-			"eng": "Inventory"
-		},
-		"quest": {
-			"trans": "Задачи",
-			"eng": "Quest"
-		},
-		"chat": {
-			"trans": "Чат",
-			"eng": "Chat"
-		},
-		"profile": {
-			"trans": "Профиль",
-			"eng": "Profile"
-		}
-	},
-	"levelType": {
-		"normal": {
-			"name": {
-				"trans": "уровень",
-				"eng": "level"
-			}
-		},
-		"print": {
-			"name": {
-				"trans": "уровень печати",
-				"eng": "printing rank"
-			}
-		},
-		"medical": {
-			"name": {
-				"trans": "создание медицинских припасов",
-				"eng": "medical science"
-			}
-		},
-		"ammo": {
-			"name": {
-				"trans": "создание боеприпасов",
-				"eng": "ammo crafting"
-			}
-		}
-	},
-	"location": {
-		"mainHub": {
-			"name": {
-				"trans": "Центральный район Шангри-Ла",
-				"eng": "Shangri-La City center"
-			},
-			"description": {
-				"trans": "[Центр]\r\n        Один из самых занятых городов материка, тут ты встретишь самых разных людей со всей планеты.",
-				"eng": "[Central Hub]\r\n        One of the busiest cities in the continent, here you can find all sorts of people from around the globe."
-			},
-			"toStation": {
-				"name": {
-					"trans": "Направиться в Центральному вокзалу Гиперпоездов",
-					"eng": "Go to Hyper Train Central Station"
-				},
-				"tut": {
-					"trans": "Начни свое приключение за эпическими предметами",
-					"eng": "Start your adventure to epic loots here"
-				},
-				"description": {
-					"trans": "Направиться в Центральному вокзалу Гиперпоездов",
-					"eng": "Go to Hyper Train Central Station"
-				}
-			},
-			"toJob": {
-				"name": {
-					"trans": "Направиться в Деловой район Шангри-Ла",
-					"eng": "Go to Shangri-La Commercial Area"
-				},
-				"tut": {
-					"trans": "Работай AFK для улучшения своих навыков",
-					"eng": "You can complete AFK jobs to increase your skills here"
-				}
-			},
-			"toMarket": {
-				"name": {
-					"trans": "Направиться на Торговую площадь Шангри-Ла",
-					"eng": "Go to Shangri-La Market Street"
-				},
-				"tut": {
-					"trans": "Здесь можно торговать с другими игроками",
-					"eng": "You can sell or buy items from other players here"
-				}
-			}
-		},
-		"job": {
-			"name": {
-				"trans": "Деловой район Шангри-Ла",
-				"eng": "Shangri-La Commercial Area"
-			},
-			"description": {
-				"trans": "[Работа]\r\n        Разные виды магазинов и предприятий, лучшее место для проверки своих навыков.",
-				"eng": "[Job Hub]\r\n        Many shops and Businesses, a perfect location to try out your skills."
-			},
-			"toMainHub": {
-				"name": {
-					"trans": "Вернуться в Центральный район Шангри-Ла",
-					"eng": "Return to Shangri-La City Center"
-				}
-			}
-		},
-		"market": {
-			"name": {
-				"trans": "Торговая площадь Шангри-Ла",
-				"eng": "Shangri-La Market Street"
-			},
-			"description": {
-				"trans": "[Торговый Рынок Игроков]\r\n        Знаменитая торговая площаль в Шангри-Ла. Площадь заполнена прилавками.\r\n        Подбери что-нибудь для себя или продавай сам.",
-				"eng": "[Player Market]\r\n        The famous market street in Shangri-La. Loads of market stalls fill the street.\r\n        Maybe you can find something you need or set up shop yourself."
-			},
-			"toMainHub": {
-				"name": {
-					"trans": "Вернуться в Центральный район Шангри-Ла",
-					"eng": "Return to Shangri-La City Center"
-				}
-			}
-		},
-		"station": {
-			"name": {
-				"trans": "Центральный вокзал Гиперпоездов",
-				"eng": "Hyper Train Central Station"
-			},
-			"description": {
-				"trans": "[Приключение]\r\n        С помощью вакуумного поезда можно с легкостью перемещаться по материку с большой скоростью.",
-				"eng": "[Adventure]\r\n        Using the hyperloop you can travel at super speed across the continent with ease."
-			}
-		},
-		"zone": {
-			"backToMainHub": {
-				"name": {
-					"trans": "Вернуться в Центр города",
-					"eng": "Return to ${mainHubName}",
-					"vars": ["mainHubName"]
-				}
-			},
-			"toSegment": {
-				"name": {
-					"vars": ["segmentStationName"],
-					"trans": "вернуться на ${segmentStationName}",
-					"eng": "back to ${segmentStationName}"
-				},
-				"description": {
-					"vars": ["segmentStationName"],
-					"trans": "вернуться на ${segmentStationName}",
-					"eng": "return to ${segmentStationName}"
-				}
-			},
-			"toStation": {
-				"description": {
-					"trans": "Вернуться на Станцию Гиперпоездов",
-					"eng": "Return to Hyper Train Station"
-				},
-				"name": {
-					"trans": "вернуться на Станцию Гиперпоездов",
-					"eng": "back to Hyper Train Station"
-				}
-			}
-		},
-		"segment": {
-			"locked": {
-				"description": {
-					"trans": "Собери все 3 Фрагмента Ключа из Данжей на трех зонах на предыдущей станции, \r\n                    а после найди [Терминал], чтобы создать нужный ключ",
-					"eng": "Gather all 3 different Key Fragments from Dungeons in each 3 zones in previous station, \r\n                    then go to [Terminal] at City Center [Hub] to brute-force (Craft) the key required to unlock this area"
-				}
-			},
-			"tut": {
-				"trans": "Начни в зоне уровнями от 1 до 10",
-				"eng": "Start with level 1 to 10 area"
-			},
-			"toZone": {
-				"tut": {
-					"vars": ["segmentStationName"],
-					"trans": "Сразись здесь с противником 1 уровня",
-					"eng": "Continue here to fight level 1 enemy"
-				},
-				"description": {
-					"vars": ["zoneName"],
-					"trans": "Отправиться в ${zoneName}",
-					"eng": "Go to ${zoneName}"
-				}
-			}
-		}
-	},
-	"npc": {
-		"unitExchange": {
-			"name": {
-				"trans": "Разменный пункт Арасака",
-				"eng": "Arasaka Unit Exchange"
-			},
-			"tut": {
-				"trans": "Здесь ты можешь приобрести бонусы, распространяющиеся на всех игроков",
-				"eng": "You can purchase global buff items here"
-			}
-		},
-		"cosmetic": {
-			"name": {
-				"trans": "Косметические Киберимпланты",
-				"eng": "Cosmetic Cyberwear"
-			},
-			"tut": {
-				"trans": "Если понравилась игра, можете задонатить :)",
-				"eng": "If you liked the game, please consider donation :)"
-			}
-		},
-		"printer": {
-			"name": {
-				"trans": "Молекулярный 3D Принтер",
-				"eng": "Molecular 3d Printer"
-			},
-			"tut": {
-				"trans": "Используй Чертежи, чтобы напечатать новую экипировку",
-				"eng": "You can use your Cache to print new equipment here"
-			}
-		},
-		"weaponSmith": {
-			"name": {
-				"trans": "Оружейная",
-				"eng": "Weapon Smith"
-			}
-		},
-		"terminal": {
-			"name": {
-				"trans": "Терминал",
-				"eng": "Terminal"
-			},
-			"tut": {
-				"trans": "Чтобы перейти в следующую локацию, тебе понадобится использовать Секретные Части Ключей из данжей \r\n        и запустить Терминал, чтобы взломать ключ к следующей локации",
-				"eng": "To progress to next area, you need to use get Secret Key Fragments from dungeons, \r\n        and use Terminal to Brute Force the key for next area"
-			}
-		},
-		"store": {
-			"name": {
-				"trans": "Магазин Триноки",
-				"eng": "Trinoky Mart"
-			}
-		},
-		"bank": {
-			"name": {
-				"trans": "Банк Арасака",
-				"eng": "Bank of Arasaka"
-			}
-		}
-	},
-	"action": {
-		"increasePrint": {
-			"name": {
-				"trans": "работать на печатной фабрике",
-				"eng": "work in printing factory"
-			},
-			"description": {
-				"trans": "Повысь свой Уровень Печати, не растрачиваясь на металлолом, это поможет увеличить уровень напечатанной тобой экипировки.",
-				"eng": "Improve Printing Rank without sacrificing tech scrap, this may help to increase the level of your prints."
-			}
-		},
-		"increaseMedical": {
-			"name": {
-				"trans": "Взломать Клинику модификаций тела",
-				"eng": "Hack a Body Mod Clinic"
-			},
-			"description": {
-				"trans": "Скачивай данные местной клиники модификаций тела, чтобы создавать медицинсккие припасы более высокого уровня.",
-				"eng": "Download useful data from a local body mod clinic to craft higher quality medical bots and drones."
-			}
-		},
-		"increaseAmmo": {
-			"name": {
-				"trans": "Улучшить Боезапас",
-				"eng": "Improve Ammunition"
-			},
-			"description": {
-				"trans": "Изучай боеприпасы, чтобы узнать о более совершенных методах их создавать.",
-				"eng": "Tinker with ammunition, to find more effective ways of crafting it."
-			}
-		},
-		"reverseEngineer": {
-			"name": {
-				"trans": "Разобрать металлолом",
-				"eng": "Reverse engineer tech scrap to improve your Print Rank. \r\n        You’ll need to sacrifice some of your tech scrap."
-			}
-		},
-		"reverseMining": {
-			"name": {
-				"trans": "начать криптодобычу",
-				"eng": "initiate crypto mining"
-			},
-			"description": {
-				"trans": "С помощью криптодобычи ты заработаешь Биткоины, однако из-за слишком большой нагрузки Хэш Процессоры, более известные как КВМ (Квантовые Вычислительные Машины) часто выгорают.",
-				"eng": "Engaging in crypto mining will earn you Bitcoins, however due to the intense use of the Hash Processors, the Quantum Processing Unit, otherwise known as the QPU, will often burn out."
-			}
-		},
-		"autoFarm": {
-			"name": {
-				"trans": "Запустить автоматического сборщика",
-				"eng": "Deploy farm bot"
-			},
-			"description": {
-				"trans": "[AFK Фарм опыта]\r\n        ИИ отправляется в данж за тебя. Использует одно Ядро ИИ, которое чаще всего имеет билет в один конец.",
-				"eng": "[AFK Exp Farm]\r\n        Deploys an AI to dungeon for you. This will use up an AI Core, they usually only just manage the one trip."
-			},
-			"tut": {
-				"trans": "Используй свое Ядро ИИ, чтобы автоматически побеждать противников",
-				"eng": "You can use your AI Core to Auto-Farm enemies while you AFK"
-			}
-		},
-		"scavenge": {
-			"name": {
-				"vars": ["zoneName"],
-				"trans": "Собирать мусор в ${zoneName}",
-				"eng": "Scavenge in ${zoneName}"
-			},
-			"description": {
-				"vars": ["zoneName"],
-				"trans": "[AFK Сбор ресурсов]\r\n                    Осмотрись в ${zoneName} и поищи полезные предметы в мусоре.\r\n                    Кто знает, вдруг тебе повезет!",
-				"eng": "[AFK Resource Gather]\r\n                    Search around in ${zoneName} and scavenge for useful items.\r\n                    Who knows, maybe you'll get lucky!"
-			}
-		}
-	},
-	"receive": {
-		"item": {
-			"vars": ["amount", "itemName"],
-			"trans": "Получено ${amount} ${itemName}",
-			"eng": "You received ${amount} ${itemName}"
-		}
-	},
-	"tier": {
-		"trash": {
-			"name": {
-				"trans": "плохого качества",
-				"eng": "trash"
-			}
-		},
-		"common": {
-			"name": {
-				"trans": "обычного качества",
-				"eng": "common"
-			}
-		},
-		"highQuality": {
-			"name": {
-				"trans": "высокого качества",
-				"eng": "high quality"
-			}
-		},
-		"rare": {
-			"name": {
-				"trans": "редкого качества",
-				"eng": "rare"
-			}
-		},
-		"legendary": {
-			"name": {
-				"trans": "легендарного качества",
-				"eng": "legendary"
-			}
-		},
-		"epic": {
-			"name": {
-				"trans": "эпического качества",
-				"eng": "epic"
-			}
-		}
-	},
-	"item": {
-		"experienceShard": {
-			"name": {
-				"vars": ["levelName"],
-				"trans": "Осколок Опыта [${levelName}]",
-				"eng": "Experience Shard [${levelName}]"
-			},
-			"description": {
-				"vars": ["levelName"],
-				"trans": "Осколок, содержащий чьи-то память и опыт, при использовании будет получено  ${levelName} опыта",
-				"eng": "A shard that contains someone's memory and experience, if used you may gain ${levelName} experience from this"
-			}
-		},
-		"keyFragment": {
-			"name": {
-				"vars": ["segmentDisplayName", "fragmentNum"],
-				"trans": "${segmentDisplayName} Фрагмент Ключа ${fragmentNum}",
-				"eng": "${segmentDisplayName} Key Fragment ${fragmentNum}"
-			},
-			"description": {
-				"vars": ["segmentDisplayName"],
-				"trans": "Фрагмент Ключа используется для создания секретного ключа.\r\n                                Используй Терминал в центре города, чтобы создать секретный ключ ${segmentDisplayName}.\r\n                                Ты можешь получить каждый из 3 необходимых ключей в соответствующих данжах (и обычном, и испытательном),\r\n                                При получении всех трех фрагментов, используй Терминал для создания ключа к следующей локации",
-				"eng": "Secret key Fragment Use to brute-force a secret key.\r\n                                Use the Terminal at city center [Hub] to brute-force a ${segmentDisplayName} secret key.\r\n                                You can acquire each of the 3 required keys in each dungeon (both normal or challenge),\r\n                                when you acquired 3 keys, you may use Terminal to brute-force (Craft) a key to the next area"
-			}
-		},
-		"cache": {
-			"name": {
-				"vars": ["tierName", "typeName"],
-				"trans": "${tierName} ${typeName} чертеж",
-				"eng": "${tierName} ${typeName} cache"
-			},
-			"description": {
-				"vars": ["typeName"],
-				"trans": "Чертеж ${typeName} содержит информацию, необходимую для печати этого предмета, \r\n                    Создай ${typeName} с помощью [Молекулярный 3D Принтер] в Центре города.\r\n                    \r\n                    Совет: Уровень созданного предмета на 3D Принтере определяется твоим Уровнем Печати,\r\n                    так что всегда печатай сначала плохие, поскольку стоят они меньше и полезны для увеличения твоего Уровня Печати",
-				"eng": "A ${typeName} cache contains information used for Molecular 3D Printing, \r\n                    You can create a ${typeName} with the [Molecular 3d Printer] at [Central Hub].\r\n                    \r\n                    Pro tip: The level of item you get from printing is determined by your Printing Rank,\r\n                    so always print the trash ones first, as they cost less and useful to level up your Printing Rank"
-			}
-		}
-	},
-	"dungeon": {
-		"normal": {
-			"description": {
-				"vars": ["expMultiplier", "keyFragmentDisplayName"],
-				"trans": "Рекомендуемый уровень:　${maxLevel}\r\n                    ${expMultiplier}х опыта!\r\n                    Можно найти ${keyFragmentDisplayName}",
-				"eng": "Recommended Level:　${maxLevel}\r\n                    ${expMultiplier}x times more EXP!\r\n                    Drops ${keyFragmentDisplayName}"
-			},
-			"startName": {
-				"vars": ["zoneName"],
-				"trans": "Исследовать ${zoneName}",
-				"eng": "Explore ${zoneName}"
-			},
-			"tut": {
-				"vars": ["zoneName"],
-				"trans": "Пройди данж, чтобы получить больше опыта и предметов!\r\n                        Не забудь купить лечащие предметы, ведь ты не сможешь регенерировать в данже!",
-				"eng": "Dive into dungeon to get even more exp and loot!\r\n                        remember to buy some healing item! you won\"t regen after battle in dungeon"
-			}
-		},
-		"challenge": {
-			"description": {
-				"vars": ["maxLevel", "keyFragmentDisplayName", "expMultiplier"],
-				"trans": "Рекомендуемый Уровень:　${maxLevel}+ с другими игроками\r\n                    ${expMultiplier}x опыта!\r\n                    Усложненный данж с дополнительным лутом и опытом.\r\n                    Можно найти ${keyFragmentDisplayName}\r\n                    Не рекомендуется проходить при слишком низком уровне",
-				"eng": "Recommended Level:　${maxLevel}+ with co-op\r\n                    ${expMultiplier}x more EXP!\r\n                    Challenge mode dungeon, extra loot and exp.\r\n                    Drops ${keyFragmentDisplayName}\r\n                    Not advised to enter if your level is too low"
-			},
-			"tut": {
-				"trans": "Насколько ты силен? Проверь в Усложненном Данже!,\r\n                        много лута и сложный босс ждут тебя в самом конце!\r\n                        Рекомендуется проходить с другими игроками.",
-				"eng": "Are you strong enough? try it out on Challenge Dungeon,\r\n                        there is a strong boss and tons of loot at the end waiting for you!\r\n                        Its recommended to attempt this with other players."
-			},
-			"startName": {
-				"vars": ["zoneName"],
-				"trans": "атаковать ${zoneName}",
-				"eng": "attack ${zoneName}"
-			}
-		}
-	},
-	"secretKey": {
-		"name": {
-			"vars": ["segmentDisplayName"],
-			"trans": "${segmentDisplayName} Секретный Ключ",
-			"eng": "${segmentDisplayName} Secret Key"
-		},
-		"unlockVerb": {
-			"trans": "создание",
-			"eng": "brute-force"
-		}
-	},
-	"quest": {
-		"progression": {
-			"vars": ["segmentDisplayName"],
-			"trans": "Получи 3 разных Фрагментов Ключа в соответствующих данжах, расположенных в ${progressionId}",
-			"eng": "Acquire 3 different Key Fragments from each dungeons located in ${segmentDisplayName},\r\n                these are used to create the key to next zone.\r\n                To craft the key, go to terminal in [HUB]"
-		}
-	},
-	"ui": {
-		"header": {
-			"playerOnline": {
-				"trans": "игроки в сети",
-				"eng": "players online"
-			}
-		}
-	}
+ 	"tabs": {
+ 	 	"map": {
+ 	 	 	"trans": "Карта",
+ 	 	 	"eng": "Map"
+ 	 	},
+ 	 	"inventory": {
+ 	 	 	"trans": "Инвентарь",
+ 	 	 	"eng": "Inventory"
+ 	 	},
+ 	 	"quest": {
+ 	 	 	"trans": "Задачи",
+ 	 	 	"eng": "Quest"
+ 	 	},
+ 	 	"chat": {
+ 	 	 	"trans": "Чат",
+ 	 	 	"eng": "Chat"
+ 	 	},
+ 	 	"profile": {
+ 	 	 	"trans": "Профиль",
+ 	 	 	"eng": "Profile"
+ 	 	}
+ 	},
+ 	"levelType": {
+ 	 	"normal": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "уровень",
+ 	 	 	 	"eng": "level"
+ 	 	 	}
+ 	 	},
+ 	 	"print": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "уровень печати",
+ 	 	 	 	"eng": "printing rank"
+ 	 	 	}
+ 	 	},
+ 	 	"medical": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "создание медицинских припасов",
+ 	 	 	 	"eng": "medical science"
+ 	 	 	}
+ 	 	},
+ 	 	"ammo": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "создание боеприпасов",
+ 	 	 	 	"eng": "ammo crafting"
+ 	 	 	}
+ 	 	},
+ 	 	"scavenge": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "scavenge skill",
+ 	 	 	 	"eng": "scavenge skill"
+ 	 	 	}
+ 	 	},
+ 	 	"mining": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "mining skill",
+ 	 	 	 	"eng": "mining skill"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"location": {
+ 	 	"mainHub": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Центральный район Шангри-Ла",
+ 	 	 	 	"eng": "Shangri-La City center"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "[Центр]\r\n        Один из самых занятых городов материка, тут ты встретишь самых разных людей со всей планеты.",
+ 	 	 	 	"eng": "[Central Hub]\r\n        One of the busiest cities in the continent, here you can find all sorts of people from around the globe."
+ 	 	 	},
+ 	 	 	"toStation": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "Направиться в Центральному вокзалу Гиперпоездов",
+ 	 	 	 	 	"eng": "Go to Hyper Train Central Station"
+ 	 	 	 	},
+ 	 	 	 	"tut": {
+ 	 	 	 	 	"trans": "Начни свое приключение за эпическими предметами",
+ 	 	 	 	 	"eng": "Start your adventure to epic loots here"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Направиться в Центральному вокзалу Гиперпоездов",
+ 	 	 	 	 	"eng": "Go to Hyper Train Central Station"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"toJob": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "Направиться в Деловой район Шангри-Ла",
+ 	 	 	 	 	"eng": "Go to Shangri-La Commercial Area"
+ 	 	 	 	},
+ 	 	 	 	"tut": {
+ 	 	 	 	 	"trans": "Работай AFK для улучшения своих навыков",
+ 	 	 	 	 	"eng": "You can complete AFK jobs to increase your skills here"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"toMarket": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "Направиться на Торговую площадь Шангри-Ла",
+ 	 	 	 	 	"eng": "Go to Shangri-La Market Street"
+ 	 	 	 	},
+ 	 	 	 	"tut": {
+ 	 	 	 	 	"trans": "Здесь можно торговать с другими игроками",
+ 	 	 	 	 	"eng": "You can sell or buy items from other players here"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"job": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Деловой район Шангри-Ла",
+ 	 	 	 	"eng": "Shangri-La Commercial Area"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "[Работа]\r\n        Разные виды магазинов и предприятий, лучшее место для проверки своих навыков.",
+ 	 	 	 	"eng": "[Job Hub]\r\n        Many shops and Businesses, a perfect location to try out your skills."
+ 	 	 	},
+ 	 	 	"toMainHub": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "Вернуться в Центральный район Шангри-Ла",
+ 	 	 	 	 	"eng": "Return to Shangri-La City Center"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"market": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Торговая площадь Шангри-Ла",
+ 	 	 	 	"eng": "Shangri-La Market Street"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "[Торговый Рынок Игроков]\r\n        Знаменитая торговая площаль в Шангри-Ла. Площадь заполнена прилавками.\r\n        Подбери что-нибудь для себя или продавай сам.",
+ 	 	 	 	"eng": "[Player Market]\r\n        The famous market street in Shangri-La. Loads of market stalls fill the street.\r\n        Maybe you can find something you need or set up shop yourself."
+ 	 	 	},
+ 	 	 	"toMainHub": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "Вернуться в Центральный район Шангри-Ла",
+ 	 	 	 	 	"eng": "Return to Shangri-La City Center"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"station": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Центральный вокзал Гиперпоездов",
+ 	 	 	 	"eng": "Hyper Train Central Station"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "[Приключение]\r\n        С помощью вакуумного поезда можно с легкостью перемещаться по материку с большой скоростью.",
+ 	 	 	 	"eng": "[Adventure]\r\n        Using the hyperloop you can travel at super speed across the continent with ease."
+ 	 	 	}
+ 	 	},
+ 	 	"zone": {
+ 	 	 	"backToMainHub": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "Вернуться в Центр города",
+ 	 	 	 	 	"eng": "Return to ${mainHubName}",
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"mainHubName"
+ 	 	 	 	 	]
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"toSegment": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"segmentStationName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "вернуться на ${segmentStationName}",
+ 	 	 	 	 	"eng": "back to ${segmentStationName}"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"segmentStationName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "вернуться на ${segmentStationName}",
+ 	 	 	 	 	"eng": "return to ${segmentStationName}"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"toStation": {
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Вернуться на Станцию Гиперпоездов",
+ 	 	 	 	 	"eng": "Return to Hyper Train Station"
+ 	 	 	 	},
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "вернуться на Станцию Гиперпоездов",
+ 	 	 	 	 	"eng": "back to Hyper Train Station"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"segment": {
+ 	 	 	"locked": {
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Собери все 3 Фрагмента Ключа из Данжей на трех зонах на предыдущей станции, \r\n                    а после найди [Терминал], чтобы создать нужный ключ",
+ 	 	 	 	 	"eng": "Gather all 3 different Key Fragments from Dungeons in each 3 zones in previous station, \r\n                    then go to [Terminal] at City Center [Hub] to brute-force (Craft) the key required to unlock this area"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"tut": {
+ 	 	 	 	"trans": "Начни в зоне уровнями от 1 до 10",
+ 	 	 	 	"eng": "Start with level 1 to 10 area"
+ 	 	 	},
+ 	 	 	"toZone": {
+ 	 	 	 	"tut": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"segmentStationName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Сразись здесь с противником 1 уровня",
+ 	 	 	 	 	"eng": "Continue here to fight level 1 enemy"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"zoneName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Отправиться в ${zoneName}",
+ 	 	 	 	 	"eng": "Go to ${zoneName}"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"npc": {
+ 	 	"unitExchange": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Разменный пункт Арасака",
+ 	 	 	 	"eng": "Arasaka Unit Exchange"
+ 	 	 	},
+ 	 	 	"tut": {
+ 	 	 	 	"trans": "Здесь ты можешь приобрести бонусы, распространяющиеся на всех игроков",
+ 	 	 	 	"eng": "You can purchase global buff items here"
+ 	 	 	}
+ 	 	},
+ 	 	"cosmetic": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Косметические Киберимпланты",
+ 	 	 	 	"eng": "Cosmetic Cyberwear"
+ 	 	 	},
+ 	 	 	"tut": {
+ 	 	 	 	"trans": "Если понравилась игра, можете задонатить :)",
+ 	 	 	 	"eng": "If you liked the game, please consider donation :)"
+ 	 	 	}
+ 	 	},
+ 	 	"printer": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Молекулярный 3D Принтер",
+ 	 	 	 	"eng": "Molecular 3d Printer"
+ 	 	 	},
+ 	 	 	"tut": {
+ 	 	 	 	"trans": "Используй Чертежи, чтобы напечатать новую экипировку",
+ 	 	 	 	"eng": "You can use your Cache to print new equipment here"
+ 	 	 	}
+ 	 	},
+ 	 	"weaponSmith": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Оружейная",
+ 	 	 	 	"eng": "Weapon Smith"
+ 	 	 	}
+ 	 	},
+ 	 	"terminal": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Терминал",
+ 	 	 	 	"eng": "Terminal"
+ 	 	 	},
+ 	 	 	"tut": {
+ 	 	 	 	"trans": "Чтобы перейти в следующую локацию, тебе понадобится использовать Секретные Части Ключей из данжей \r\n        и запустить Терминал, чтобы взломать ключ к следующей локации",
+ 	 	 	 	"eng": "To progress to next area, you need to use get Secret Key Fragments from dungeons, \r\n        and use Terminal to Brute Force the key for next area"
+ 	 	 	}
+ 	 	},
+ 	 	"store": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Магазин Триноки",
+ 	 	 	 	"eng": "Trinoky Mart"
+ 	 	 	}
+ 	 	},
+ 	 	"bank": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Банк Арасака",
+ 	 	 	 	"eng": "Bank of Arasaka"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"action": {
+ 	 	"increasePrint": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "работать на печатной фабрике",
+ 	 	 	 	"eng": "work in printing factory"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Повысь свой Уровень Печати, не растрачиваясь на металлолом, это поможет увеличить уровень напечатанной тобой экипировки.",
+ 	 	 	 	"eng": "Improve Printing Rank without sacrificing tech scrap, this may help to increase the level of your prints."
+ 	 	 	}
+ 	 	},
+ 	 	"increaseMedical": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Взломать Клинику модификаций тела",
+ 	 	 	 	"eng": "Hack a Body Mod Clinic"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Скачивай данные местной клиники модификаций тела, чтобы создавать медицинсккие припасы более высокого уровня.",
+ 	 	 	 	"eng": "Download useful data from a local body mod clinic to craft higher quality medical bots and drones."
+ 	 	 	}
+ 	 	},
+ 	 	"increaseAmmo": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Улучшить Боезапас",
+ 	 	 	 	"eng": "Improve Ammunition"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Изучай боеприпасы, чтобы узнать о более совершенных методах их создавать.",
+ 	 	 	 	"eng": "Tinker with ammunition, to find more effective ways of crafting it."
+ 	 	 	}
+ 	 	},
+ 	 	"reverseEngineer": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Разобрать металлолом",
+ 	 	 	 	"eng": "Reverse engineer tech scrap to improve your Print Rank. \r\n        You’ll need to sacrifice some of your tech scrap."
+ 	 	 	}
+ 	 	},
+ 	 	"reverseMining": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "начать криптодобычу",
+ 	 	 	 	"eng": "initiate crypto mining"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "С помощью криптодобычи ты заработаешь Биткоины, однако из-за слишком большой нагрузки Хэш Процессоры, более известные как КВМ (Квантовые Вычислительные Машины) часто выгорают.",
+ 	 	 	 	"eng": "Engaging in crypto mining will earn you Bitcoins, however due to the intense use of the Hash Processors, the Quantum Processing Unit, otherwise known as the QPU, will often burn out."
+ 	 	 	}
+ 	 	},
+ 	 	"autoFarm": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Запустить автоматического сборщика",
+ 	 	 	 	"eng": "Deploy farm bot"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "[AFK Фарм опыта]\r\n        ИИ отправляется в данж за тебя. Использует одно Ядро ИИ, которое чаще всего имеет билет в один конец.",
+ 	 	 	 	"eng": "[AFK Exp Farm]\r\n        Deploys an AI to dungeon for you. This will use up an AI Core, they usually only just manage the one trip."
+ 	 	 	},
+ 	 	 	"tut": {
+ 	 	 	 	"trans": "Используй свое Ядро ИИ, чтобы автоматически побеждать противников",
+ 	 	 	 	"eng": "You can use your AI Core to Auto-Farm enemies while you AFK"
+ 	 	 	}
+ 	 	},
+ 	 	"scavenge": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"zoneName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Собирать мусор в ${zoneName}",
+ 	 	 	 	"eng": "Scavenge in ${zoneName}"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"zoneName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "[AFK Сбор ресурсов]\r\n                    Осмотрись в ${zoneName} и поищи полезные предметы в мусоре.\r\n                    Кто знает, вдруг тебе повезет!",
+ 	 	 	 	"eng": "[AFK Resource Gather]\r\n                    Search around in ${zoneName} and scavenge for useful items.\r\n                    Who knows, maybe you'll get lucky!"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"receive": {
+ 	 	"item": {
+ 	 	 	"vars": [
+ 	 	 	 	"amount",
+ 	 	 	 	"itemName"
+ 	 	 	],
+ 	 	 	"trans": "Получено ${amount} ${itemName}",
+ 	 	 	"eng": "You received ${amount} ${itemName}"
+ 	 	}
+ 	},
+ 	"tier": {
+ 	 	"trash": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "плохого качества",
+ 	 	 	 	"eng": "trash"
+ 	 	 	}
+ 	 	},
+ 	 	"common": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "обычного качества",
+ 	 	 	 	"eng": "common"
+ 	 	 	}
+ 	 	},
+ 	 	"highQuality": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "высокого качества",
+ 	 	 	 	"eng": "high quality"
+ 	 	 	}
+ 	 	},
+ 	 	"rare": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "редкого качества",
+ 	 	 	 	"eng": "rare"
+ 	 	 	}
+ 	 	},
+ 	 	"legendary": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "легендарного качества",
+ 	 	 	 	"eng": "legendary"
+ 	 	 	}
+ 	 	},
+ 	 	"epic": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "эпического качества",
+ 	 	 	 	"eng": "epic"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"item": {
+ 	 	"experienceShard": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"levelName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Осколок Опыта [${levelName}]",
+ 	 	 	 	"eng": "Experience Shard [${levelName}]"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"levelName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Осколок, содержащий чьи-то память и опыт, при использовании будет получено  ${levelName} опыта",
+ 	 	 	 	"eng": "A shard that contains someone's memory and experience, if used you may gain ${levelName} experience from this"
+ 	 	 	}
+ 	 	},
+ 	 	"keyFragment": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"segmentDisplayName",
+ 	 	 	 	 	"fragmentNum"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${segmentDisplayName} Фрагмент Ключа ${fragmentNum}",
+ 	 	 	 	"eng": "${segmentDisplayName} Key Fragment ${fragmentNum}"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"segmentDisplayName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Фрагмент Ключа используется для создания секретного ключа.\r\n                                Используй Терминал в центре города, чтобы создать секретный ключ ${segmentDisplayName}.\r\n                                Ты можешь получить каждый из 3 необходимых ключей в соответствующих данжах (и обычном, и испытательном),\r\n                                При получении всех трех фрагментов, используй Терминал для создания ключа к следующей локации",
+ 	 	 	 	"eng": "Secret key Fragment Use to brute-force a secret key.\r\n                                Use the Terminal at city center [Hub] to brute-force a ${segmentDisplayName} secret key.\r\n                                You can acquire each of the 3 required keys in each dungeon (both normal or challenge),\r\n                                when you acquired 3 keys, you may use Terminal to brute-force (Craft) a key to the next area"
+ 	 	 	}
+ 	 	},
+ 	 	"cache": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"tierName",
+ 	 	 	 	 	"typeName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${tierName} ${typeName} чертеж",
+ 	 	 	 	"eng": "${tierName} ${typeName} cache"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"typeName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Чертеж ${typeName} содержит информацию, необходимую для печати этого предмета, \r\n                    Создай ${typeName} с помощью [Молекулярный 3D Принтер] в Центре города.\r\n                    \r\n                    Совет: Уровень созданного предмета на 3D Принтере определяется твоим Уровнем Печати,\r\n                    так что всегда печатай сначала плохие, поскольку стоят они меньше и полезны для увеличения твоего Уровня Печати",
+ 	 	 	 	"eng": "A ${typeName} cache contains information used for Molecular 3D Printing, \r\n                    You can create a ${typeName} with the [Molecular 3d Printer] at [Central Hub].\r\n                    \r\n                    Pro tip: The level of item you get from printing is determined by your Printing Rank,\r\n                    so always print the trash ones first, as they cost less and useful to level up your Printing Rank"
+ 	 	 	}
+ 	 	},
+ 	 	"helmet": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "helmet",
+ 	 	 	 	"eng": "helmet"
+ 	 	 	}
+ 	 	},
+ 	 	"upperArmor": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "upper armor",
+ 	 	 	 	"eng": "upper armor"
+ 	 	 	}
+ 	 	},
+ 	 	"lowerArmor": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "lower armor",
+ 	 	 	 	"eng": "lower armor"
+ 	 	 	}
+ 	 	},
+ 	 	"boots": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "boots",
+ 	 	 	 	"eng": "boots"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeModule": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "upgrade module",
+ 	 	 	 	"eng": "upgrade module"
+ 	 	 	}
+ 	 	},
+ 	 	"healing1": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Pain Away",
+ 	 	 	 	"eng": "Pain Away"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Do you have headache? use Pain Away™ to relief your pain!",
+ 	 	 	 	"eng": "Do you have headache? use Pain Away™ to relief your pain!"
+ 	 	 	}
+ 	 	},
+ 	 	"healing2": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Degraded Nano Repair Bot",
+ 	 	 	 	"eng": "Degraded Nano Repair Bot"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Old nano repair bot, usually used to repair small tech devices",
+ 	 	 	 	"eng": "Old nano repair bot, usually used to repair small tech devices"
+ 	 	 	}
+ 	 	},
+ 	 	"healing3": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Degraded Nano Medic Bot",
+ 	 	 	 	"eng": "Degraded Nano Medic Bot"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Old nano Medic bot, inject it to cure any(*conditions apply) injury!",
+ 	 	 	 	"eng": "Old nano Medic bot, inject it to cure any(*conditions apply) injury!"
+ 	 	 	}
+ 	 	},
+ 	 	"healing4": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Nano Medic Bot",
+ 	 	 	 	"eng": "Nano Medic Bot"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "inject it to cure any(*conditions apply) injury!",
+ 	 	 	 	"eng": "inject it to cure any(*conditions apply) injury!"
+ 	 	 	}
+ 	 	},
+ 	 	"healing5": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Military Nano Medic Bot",
+ 	 	 	 	"eng": "Military Nano Medic Bot"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Injectable nano machines that are standard issue for military use, capable of patching injuries while in combat.",
+ 	 	 	 	"eng": "Injectable nano machines that are standard issue for military use, capable of patching injuries while in combat."
+ 	 	 	}
+ 	 	},
+ 	 	"healing6": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Advanced Nano Medic Bot",
+ 	 	 	 	"eng": "Advanced Nano Medic Bot"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Injectable nano machines that are used in the military. They are capable of patching injuries while in combat.",
+ 	 	 	 	"eng": "Injectable nano machines that are used in the military. They are capable of patching injuries while in combat."
+ 	 	 	}
+ 	 	},
+ 	 	"healing7": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "High Quality Nano Medic Bot",
+ 	 	 	 	"eng": "High Quality Nano Medic Bot"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "injectable nano machines that is for advance military use, capable of patching injury in combat situation",
+ 	 	 	 	"eng": "injectable nano machines that is for advance military use, capable of patching injury in combat situation"
+ 	 	 	}
+ 	 	},
+ 	 	"healing8": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Rare Nano Medic Bot",
+ 	 	 	 	"eng": "Rare Nano Medic Bot"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "injectable nano machines that is for advance military use, capable of patching injury in combat situation",
+ 	 	 	 	"eng": "injectable nano machines that is for advance military use, capable of patching injury in combat situation"
+ 	 	 	}
+ 	 	},
+ 	 	"healingArea1": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Pain Away Spray",
+ 	 	 	 	"eng": "Do you and your friend have headache together? use Pain Away Spray™ to relief your pain!"
+ 	 	 	}
+ 	 	},
+ 	 	"healingArea2": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Degraded Repair drone",
+ 	 	 	 	"eng": "Old repair drone, capable of repair or heal nearby players"
+ 	 	 	}
+ 	 	},
+ 	 	"healingArea3": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Degraded nano medic drone",
+ 	 	 	 	"eng": "Old nano drone, capable of dispatching thousands of nano machines to heal nearby players"
+ 	 	 	}
+ 	 	},
+ 	 	"healingArea4": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Nano medic drone",
+ 	 	 	 	"eng": "capable of dispatching thousands of nano machines to heal nearby players"
+ 	 	 	}
+ 	 	},
+ 	 	"healingArea5": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Military Nano medic drone",
+ 	 	 	 	"eng": "capable of dispatching thousands of military nano machines to heal nearby players"
+ 	 	 	}
+ 	 	},
+ 	 	"healingArea6": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Advance Nano medic drone",
+ 	 	 	 	"eng": "capable of dispatching thousands of advanced nano machines to heal nearby players"
+ 	 	 	}
+ 	 	},
+ 	 	"healingArea7": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "High Quality Nano medic drone",
+ 	 	 	 	"eng": "capable of dispatching thousands of advanced nano machines to heal nearby players"
+ 	 	 	}
+ 	 	},
+ 	 	"healingArea8": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Rare Nano medic drone",
+ 	 	 	 	"eng": "capable of dispatching thousands of advanced nano machines to heal nearby players"
+ 	 	 	}
+ 	 	},
+ 	 	"medicalTechParts": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Medical Tech Parts",
+ 	 	 	 	"eng": "Medical Tech Parts"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Bits and pieces of used medical tech, this can be used to craft healing items if you understand how",
+ 	 	 	 	"eng": "Bits and pieces of used medical tech, this can be used to craft healing items if you understand how"
+ 	 	 	}
+ 	 	},
+ 	 	"expMemory": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Experience Memory",
+ 	 	 	 	"eng": "Experience Memory"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Memory bank contains someone's memory, if used you may gain experience from this",
+ 	 	 	 	"eng": "Memory bank contains someone's memory, if used you may gain experience from this"
+ 	 	 	}
+ 	 	},
+ 	 	"hashProcessor": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Hash Processor",
+ 	 	 	 	"eng": "Hash Processor"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Can be used as a dedicated hardware for BitCoin mining, \r\n        however due to overclocking, the processor is easily burntout,\r\n        You may use this to mine BitCoin at [JOB HUB]",
+ 	 	 	 	"eng": "Can be used as a dedicated hardware for BitCoin mining, \r\n        however due to overclocking, the processor is easily burntout,\r\n        You may use this to mine BitCoin at [JOB HUB]"
+ 	 	 	}
+ 	 	},
+ 	 	"afkAcceleration": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Synaptic Acceleration Transmitter",
+ 	 	 	 	"eng": "Synaptic Acceleration Transmitter"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Broadcasts exploits to all cybernetically connected users, overclock their synaptic processors thus allowing super-human mental capacity for short period of time.\r\n        \r\n        When used, gives Global Buff to all players online, allowing them to complete AFK tasks in +5% speed for 10 minutes (stackable)",
+ 	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, overclock their synaptic processors thus allowing super-human mental capacity for short period of time.\r\n        \r\n        When used, gives Global Buff to all players online, allowing them to complete AFK tasks in +5% speed for 10 minutes (stackable)"
+ 	 	 	}
+ 	 	},
+ 	 	"afkAcceleration2": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Rare Synaptic Acceleration Transmitter",
+ 	 	 	 	"eng": "Rare Synaptic Acceleration Transmitter"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Broadcasts exploits to all cybernetically connected users, overclock their synaptic processors thus allowing super-human mental capacity for short period of time.\r\n        \r\n        When used, gives Global Buff to all players online, allowing them to complete AFK tasks in +40% speed for 20 minutes (stackable)",
+ 	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, overclock their synaptic processors thus allowing super-human mental capacity for short period of time.\r\n        \r\n        When used, gives Global Buff to all players online, allowing them to complete AFK tasks in +40% speed for 20 minutes (stackable)"
+ 	 	 	}
+ 	 	},
+ 	 	"expMultiplier": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Frontal Cortex Optimization Transmitter",
+ 	 	 	 	"eng": "Frontal Cortex Optimization Transmitter"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Broadcasts exploits to all cybernetically connected users, enhance their Frontal Cortex integration with cyberwares installed, thus increase memory capability of the user.\r\n\r\n        When used, gives Global Buff to all players online, increase EXP gained to 180% for 20 minutes\r\n        ",
+ 	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, enhance their Frontal Cortex integration with cyberwares installed, thus increase memory capability of the user.\r\n\r\n        When used, gives Global Buff to all players online, increase EXP gained to 180% for 20 minutes\r\n        "
+ 	 	 	}
+ 	 	},
+ 	 	"btcMultiplier": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Transaction Exploit Transmitter",
+ 	 	 	 	"eng": "Transaction Exploit Transmitter"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Broadcasts exploits to all cybernetically connected users, argument their transaction algorithm temporary, allowing user to receive bonus  ${Config.CURRENCY_NAME}.\r\n\r\n        When used, gives Global Buff to all players online, increase BitCoin gained by 40% for 20 minutes (stackable)\r\n        ",
+ 	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, argument their transaction algorithm temporary, allowing user to receive bonus  ${Config.CURRENCY_NAME}.\r\n\r\n        When used, gives Global Buff to all players online, increase BitCoin gained by 40% for 20 minutes (stackable)\r\n        "
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"dungeon": {
+ 	 	"normal": {
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"expMultiplier",
+ 	 	 	 	 	"keyFragmentDisplayName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Рекомендуемый уровень:　${maxLevel}\r\n                    ${expMultiplier}х опыта!\r\n                    Можно найти ${keyFragmentDisplayName}",
+ 	 	 	 	"eng": "Recommended Level:　${maxLevel}\r\n                    ${expMultiplier}x times more EXP!\r\n                    Drops ${keyFragmentDisplayName}"
+ 	 	 	},
+ 	 	 	"startName": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"zoneName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Исследовать ${zoneName}",
+ 	 	 	 	"eng": "Explore ${zoneName}"
+ 	 	 	},
+ 	 	 	"tut": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"zoneName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Пройди данж, чтобы получить больше опыта и предметов!\r\n                        Не забудь купить лечащие предметы, ведь ты не сможешь регенерировать в данже!",
+ 	 	 	 	"eng": "Dive into dungeon to get even more exp and loot!\r\n                        remember to buy some healing item! you won\"t regen after battle in dungeon"
+ 	 	 	}
+ 	 	},
+ 	 	"challenge": {
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"maxLevel",
+ 	 	 	 	 	"keyFragmentDisplayName",
+ 	 	 	 	 	"expMultiplier"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Рекомендуемый Уровень:　${maxLevel}+ с другими игроками\r\n                    ${expMultiplier}x опыта!\r\n                    Усложненный данж с дополнительным лутом и опытом.\r\n                    Можно найти ${keyFragmentDisplayName}\r\n                    Не рекомендуется проходить при слишком низком уровне",
+ 	 	 	 	"eng": "Recommended Level:　${maxLevel}+ with co-op\r\n                    ${expMultiplier}x more EXP!\r\n                    Challenge mode dungeon, extra loot and exp.\r\n                    Drops ${keyFragmentDisplayName}\r\n                    Not advised to enter if your level is too low"
+ 	 	 	},
+ 	 	 	"tut": {
+ 	 	 	 	"trans": "Насколько ты силен? Проверь в Усложненном Данже!,\r\n                        много лута и сложный босс ждут тебя в самом конце!\r\n                        Рекомендуется проходить с другими игроками.",
+ 	 	 	 	"eng": "Are you strong enough? try it out on Challenge Dungeon,\r\n                        there is a strong boss and tons of loot at the end waiting for you!\r\n                        Its recommended to attempt this with other players."
+ 	 	 	},
+ 	 	 	"startName": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"zoneName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "атаковать ${zoneName}",
+ 	 	 	 	"eng": "attack ${zoneName}"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"secretKey": {
+ 	 	"name": {
+ 	 	 	"vars": [
+ 	 	 	 	"segmentDisplayName"
+ 	 	 	],
+ 	 	 	"trans": "${segmentDisplayName} Секретный Ключ",
+ 	 	 	"eng": "${segmentDisplayName} Secret Key"
+ 	 	},
+ 	 	"unlockVerb": {
+ 	 	 	"trans": "создание",
+ 	 	 	"eng": "brute-force"
+ 	 	}
+ 	},
+ 	"quest": {
+ 	 	"progression": {
+ 	 	 	"vars": [
+ 	 	 	 	"segmentDisplayName"
+ 	 	 	],
+ 	 	 	"trans": "Получи 3 разных Фрагментов Ключа в соответствующих данжах, расположенных в ${progressionId}",
+ 	 	 	"eng": "Acquire 3 different Key Fragments from each dungeons located in ${segmentDisplayName},\r\n                these are used to create the key to next zone.\r\n                To craft the key, go to terminal in [HUB]"
+ 	 	}
+ 	},
+ 	"ui": {
+ 	 	"header": {
+ 	 	 	"playerOnline": {
+ 	 	 	 	"trans": "игроки в сети",
+ 	 	 	 	"eng": "players online"
+ 	 	 	}
+ 	 	}
+ 	}
 }
