@@ -20,6 +20,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log 
 ### **2021/04/21- v0.443**
+ * Increase gang max player count from 16 to 32
  * Major client optimization (hopefully you will see reduce in battery useage)
 
 ### **2021/04/19- v0.440**
