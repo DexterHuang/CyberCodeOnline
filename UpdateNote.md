@@ -13,6 +13,7 @@ Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee
  * tips.txt - Tips for desktop 
  * mobile-tutorial/* - Mobile Tutorial
  * tutorial/* - Desktop Tutorial
+ * contribution/lang/ - Localisations
 
 **Remember to add your name to the ['Credits.md'](https://github.com/DexterHuang/CyberCodeOnline/blob/master/Credits.md) doc when you create a PR**
 
