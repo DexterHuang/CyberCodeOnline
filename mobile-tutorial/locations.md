@@ -1,6 +1,10 @@
 ## Locations
 You start off in Shangri La, in the City Center.From there, you can explore the various regions by going to different subway stations. 
 
+## City Map
+
+![Map](/resources/mobile-tutorial/Map.png)
+
 ## Shangri La City Center  
 This is the main hub, to which you will often return. This is where you will respawn when you die, and where you will come back to after filling your inventory with loot. You will also find everything listed below here.  
 
