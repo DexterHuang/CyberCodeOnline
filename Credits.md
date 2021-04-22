@@ -64,6 +64,7 @@ Dzylx
 [s3rvant](https://github.com/s3rvant)  
 [Humboer](https://github.com/stphnhng)  
 [Tripplehelix](https://github.com/tripplehelix)  
+Vega_Efsunborn  
 
 ## Words
 App2  
