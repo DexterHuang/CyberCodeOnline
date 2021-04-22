@@ -21,6 +21,7 @@ Proxxie
 ## Translations
 [alfaice](https://github.com/alfaice)  
 [CynexXT](https://github.com/CynexXT)  
+EV_Jack  
 Fremad  
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)
 [Murfex](https://github.com/Murfex)  
