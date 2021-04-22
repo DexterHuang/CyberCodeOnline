@@ -21,13 +21,17 @@ Proxxie
 ## Translations
 [alfaice](https://github.com/alfaice)  
 [CynexXT](https://github.com/CynexXT)  
-EV_Jack  
+[EV_Jack](https://github.com/EvJack)  
+[EV_Jack](https://github.com/Fremadico)  
 Fremad  
-[kt0t0wh0](https://github.com/kt0t0Sudd3n)
+[kt0t0wh0](https://github.com/kt0t0Sudd3n)  
+[Kraken-Juice](https://github.com/Kraken-Juice)
 [Murfex](https://github.com/Murfex)  
 NinkPT  
 [PsyB34R](https://www.instagram.com/psybearr)  
 Rinelle  
+[SnRetro](https://github.com/SnRetro)  
+[nopeholmes](https://github.com/nopeholmes)
 Unfairissimo  
 
 ## Lore
