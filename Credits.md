@@ -22,7 +22,7 @@ Proxxie
 [alfaice](https://github.com/alfaice)  
 [CynexXT](https://github.com/CynexXT)  
 [EV_Jack](https://github.com/EvJack)  
-[EV_Jack](https://github.com/Fremadico)  
+[Fremadico](https://github.com/Fremadico)  
 Fremad  
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)  
 [Kraken-Juice](https://github.com/Kraken-Juice)
