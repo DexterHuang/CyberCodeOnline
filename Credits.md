@@ -80,20 +80,23 @@ Aquacky
 [Misaki](https://github.com/Misaki290)  
 [Deckeeper](https://github.com/deckeeper)  
 [DexterHuang](https://github.com/DexterHuang)  
+FoxHunt  
 [ghosted-bot](https://github.com/ghosted-bot)  
 [Hally](https://twitter.com/g_hally1996)  
 HumbleServant  
 [JEricaM](https://github.com/JEricaM)  
+Kaktusmonas  
 [Luako](https://github.com/luako)  
 [MarcelWeidum](https://github.com/MarcelWeidum)  
 [me505](https://github.com/me505)  
-[Montero](https://github.com/CCOLucille2)
+[Montero](https://github.com/CCOLucille2)  
 [mxjoda](https://twitter.com/mxjoda)  
+NinkPT  
 [PsyB34R](https://www.instagram.com/psybearr)  
 [Ryujin](https://github.com/Ryujin-cybercode)  
 Satan  
 [Tripplehelix](https://github.com/tripplehelix)  
-[Veyrin](https://github.com/darkrevelations)
+[Veyrin](https://github.com/darkrevelations)  
 
 ## Tips
 [Archibaald](https://github.com/Archibaald-dev)  
