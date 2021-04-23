@@ -21,12 +21,16 @@ Proxxie
 ## Translations
 [alfaice](https://github.com/alfaice)  
 [CynexXT](https://github.com/CynexXT)  
-Fremad  
-[kt0t0wh0](https://github.com/kt0t0Sudd3n)
+[EV_Jack](https://github.com/EvJack)  
+[Fremad](https://github.com/Fremadico)  
+[kt0t0wh0](https://github.com/kt0t0Sudd3n)  
+[Kraken-Juice](https://github.com/Kraken-Juice)
 [Murfex](https://github.com/Murfex)  
 NinkPT  
 [PsyB34R](https://www.instagram.com/psybearr)  
 Rinelle  
+[SnRetro](https://github.com/SnRetro)  
+[nopeholmes](https://github.com/nopeholmes)
 Unfairissimo  
 
 ## Lore
@@ -64,6 +68,7 @@ Dzylx
 [s3rvant](https://github.com/s3rvant)  
 [Humboer](https://github.com/stphnhng)  
 [Tripplehelix](https://github.com/tripplehelix)  
+Vega_Efsunborn  
 
 ## Words
 App2  
@@ -100,9 +105,9 @@ Bronzer
 Mobius-1  
 Pikkon85  
 roucoupute2  
+RsKaiser  
 [Russ Hammett](https://github.com/Kritner)  
 [s3rvant](https://github.com/s3rvant)  
-StellaSheep   
 [Tripplehelix](https://github.com/tripplehelix)  
 
 ## Other Contributors
