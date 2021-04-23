@@ -20,6 +20,10 @@ Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Updates Log 
+### **2021/04/24- v0.444**
+ * Fix killing enemy outside dungeon not receieving exp issue
+ * Fix item not showing up in market
+
 ### **2021/04/23- v0.444**
  * Fix sometimes killing enemy outside dungeon does not get exp or reward
  * Major reweite of player market code, please help test, don't sell very valuable items just yet, if there is any issue DM me on discrod
