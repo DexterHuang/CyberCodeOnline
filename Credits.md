@@ -24,7 +24,7 @@ Proxxie
 [EV_Jack](https://github.com/EvJack)  
 [Fremad](https://github.com/Fremadico)  
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)  
-[Kraken-Juice](https://github.com/Kraken-Juice)
+[Kraken-Juice](https://github.com/Kraken-Juice)  
 [Murfex](https://github.com/Murfex)  
 NinkPT  
 [PsyB34R](https://www.instagram.com/psybearr)  
