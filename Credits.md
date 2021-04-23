@@ -55,6 +55,7 @@ NinkPT
 [Tripplehelix](https://github.com/tripplehelix)  
 Vega_Efsunborn  
 zomg  
+[Veyrin](https://github.com/darkrevelations)
 
 ## Tutorial
 [alfaice](https://github.com/alfaice)  
@@ -91,6 +92,7 @@ HumbleServant
 [Ryujin](https://github.com/Ryujin-cybercode)  
 Satan  
 [Tripplehelix](https://github.com/tripplehelix)  
+[Veyrin](https://github.com/darkrevelations)
 
 ## Tips
 [Archibaald](https://github.com/Archibaald-dev)  
