@@ -52,8 +52,11 @@ x123456789
 [Hally](https://twitter.com/g_hally1996)  
 JashinL  
 [JEricaM](https://github.com/JEricaM)  
+mika  
+Negative  
 NinkPT  
 RezaRnew100  
+SitiSchu  
 [Tripplehelix](https://github.com/tripplehelix)  
 Vega_Efsunborn  
 zomg  
