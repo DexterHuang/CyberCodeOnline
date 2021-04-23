@@ -21,6 +21,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log 
 ### **2021/04/23- v0.444**
+ * Fix sometimes killing enemy outside dungeon does not get exp or reward
  * Major reweite of player market code, please help test, don't sell very valuable items just yet, if there is any issue DM me on discrod
  * Performance optimization
  * Fix gang max player count
