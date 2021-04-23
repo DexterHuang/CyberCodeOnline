@@ -27,6 +27,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * tips.txt - Tips for desktop 
  * mobile-tutorial/* - Mobile Tutorial
  * tutorial/* - Desktop Tutorial
+ * contribution/lang/ - Localisations
 
 ### Screenshots
 

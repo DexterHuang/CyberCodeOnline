@@ -10,6 +10,7 @@ Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee
  * contribution/dungeon/layout/structure-mask.json - Dungeon Layouts
  * contribution/notes/* - In Dungeon Lore
  * contribution/mobile/tips.md - Tips for Mobile
+ * contribution/lang/* - Localisations
  * tips.txt - Tips for desktop 
  * mobile-tutorial/* - Mobile Tutorial
  * tutorial/* - Desktop Tutorial
@@ -19,6 +20,19 @@ Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Updates Log 
+### **2021/04/24- v0.444**
+ * Fix killing enemy outside dungeon not receieving exp issue
+ * Fix item not showing up in market
+
+### **2021/04/23- v0.444**
+ * Fix sometimes killing enemy outside dungeon does not get exp or reward
+ * Major reweite of player market code, please help test, don't sell very valuable items just yet, if there is any issue DM me on discrod
+ * Performance optimization
+ * Fix gang max player count
+
+### **2021/04/22- v0.443**
+ * Optimization
+
 ### **2021/04/21- v0.443**
  * Increase gang max player count from 16 to 32
  * Major client optimization (hopefully you will see reduce in battery useage)

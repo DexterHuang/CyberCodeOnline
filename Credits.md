@@ -21,12 +21,16 @@ Proxxie
 ## Translations
 [alfaice](https://github.com/alfaice)  
 [CynexXT](https://github.com/CynexXT)  
-Fremad  
-[kt0t0wh0](https://github.com/kt0t0Sudd3n)
+[EV_Jack](https://github.com/EvJack)  
+[Fremad](https://github.com/Fremadico)  
+[kt0t0wh0](https://github.com/kt0t0Sudd3n)  
+[Kraken-Juice](https://github.com/Kraken-Juice)  
 [Murfex](https://github.com/Murfex)  
 NinkPT  
 [PsyB34R](https://www.instagram.com/psybearr)  
 Rinelle  
+[SnRetro](https://github.com/SnRetro)  
+[nopeholmes](https://github.com/nopeholmes)  
 Unfairissimo  
 
 ## Lore
@@ -46,11 +50,17 @@ x123456789
 [Deckeeper](https://github.com/deckeeper)  
 [DexterHuang](https://github.com/DexterHuang)  
 [Hally](https://twitter.com/g_hally1996)  
-NinkPT  
+JashinL  
 [JEricaM](https://github.com/JEricaM)  
+mika  
+Negative  
+NinkPT  
+RezaRnew100  
+SitiSchu  
 [Tripplehelix](https://github.com/tripplehelix)  
 Vega_Efsunborn  
 zomg  
+[Veyrin](https://github.com/darkrevelations)  
 
 ## Tutorial
 [alfaice](https://github.com/alfaice)  
@@ -64,6 +74,7 @@ Dzylx
 [s3rvant](https://github.com/s3rvant)  
 [Humboer](https://github.com/stphnhng)  
 [Tripplehelix](https://github.com/tripplehelix)  
+Vega_Efsunborn  
 
 ## Words
 App2  
@@ -73,19 +84,23 @@ Aquacky
 [Misaki](https://github.com/Misaki290)  
 [Deckeeper](https://github.com/deckeeper)  
 [DexterHuang](https://github.com/DexterHuang)  
+FoxHunt  
 [ghosted-bot](https://github.com/ghosted-bot)  
 [Hally](https://twitter.com/g_hally1996)  
 HumbleServant  
 [JEricaM](https://github.com/JEricaM)  
+Kaktusmonas  
 [Luako](https://github.com/luako)  
 [MarcelWeidum](https://github.com/MarcelWeidum)  
 [me505](https://github.com/me505)  
-[Montero](https://github.com/CCOLucille2)
+[Montero](https://github.com/CCOLucille2)  
 [mxjoda](https://twitter.com/mxjoda)  
+NinkPT  
 [PsyB34R](https://www.instagram.com/psybearr)  
 [Ryujin](https://github.com/Ryujin-cybercode)  
 Satan  
 [Tripplehelix](https://github.com/tripplehelix)  
+[Veyrin](https://github.com/darkrevelations)  
 
 ## Tips
 [Archibaald](https://github.com/Archibaald-dev)  
@@ -100,9 +115,10 @@ Bronzer
 Mobius-1  
 Pikkon85  
 roucoupute2  
+RsKaiser  
 [Russ Hammett](https://github.com/Kritner)  
 [s3rvant](https://github.com/s3rvant)  
-StellaSheep   
+spyd3r  
 [Tripplehelix](https://github.com/tripplehelix)  
 
 ## Other Contributors
