@@ -50,12 +50,13 @@ x123456789
 [Deckeeper](https://github.com/deckeeper)  
 [DexterHuang](https://github.com/DexterHuang)  
 [Hally](https://twitter.com/g_hally1996)  
-NinkPT  
 [JEricaM](https://github.com/JEricaM)  
+NinkPT  
+RezaRnew100  
 [Tripplehelix](https://github.com/tripplehelix)  
 Vega_Efsunborn  
 zomg  
-[Veyrin](https://github.com/darkrevelations)
+[Veyrin](https://github.com/darkrevelations)  
 
 ## Tutorial
 [alfaice](https://github.com/alfaice)  
