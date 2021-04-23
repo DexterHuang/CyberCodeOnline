@@ -30,7 +30,7 @@ NinkPT
 [PsyB34R](https://www.instagram.com/psybearr)  
 Rinelle  
 [SnRetro](https://github.com/SnRetro)  
-[nopeholmes](https://github.com/nopeholmes)
+[nopeholmes](https://github.com/nopeholmes)  
 Unfairissimo  
 
 ## Lore
