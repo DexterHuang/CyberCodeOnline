@@ -44,6 +44,13 @@ Satan
 [Tripplehelix](https://github.com/tripplehelix)  
 [twystd](https://github.com/twystd)  
 x123456789  
+siruelionn  
+Dragonmaster84  
+RezaRnew100  
+[Veyrin](https://github.com/darkrevelations)  
+WoLoLoiK  
+JashinL
+
 
 ## Dungeons
 [alfaice](https://github.com/alfaice)  
