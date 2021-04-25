@@ -37,7 +37,7 @@ There are two categories of medicine that can be crafted, single heals and group
 
 #### Single Heals
 
-As the name suggests, Single heals will only heal yourself for the specified amount. Single heals medicine are items such as `painAway` and anything ending with `Bot` (ex.: `nanoMedicBot`). In order to craft Single heals, you need the specified medical science level and `medicalTechParts`
+As the name suggests, Single heals will only heal yourself for the specified amount. Single heals medicine are items such as `painAway` and anything ending with `Bot` (ex. `nanoMedicBot`). In order to craft Single heals, you need the specified medical science level and `medicalTechParts`
 
 <br />
 

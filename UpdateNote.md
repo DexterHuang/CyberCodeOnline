@@ -1,9 +1,9 @@
 
 # Update Notes
 
-**CyberCode Online** is currently under an early and heavy development stage, which means many changes and new features are being added every day! That also means many stats are being adjusted all the time. So, if you have anything to suggest, feel free to [create an issue](https://github.com/DexterHuang/CyberCodeOnline/issues) or join our [discord.link/cco](https://discord.link/cco).
+**CyberCode Online** is currently under an early and heavy development stage, which means many changes and new features are being added every day! That also means many stats are being adjusted all the time. So, if you have anything to suggest, feel free to [create an issue](https://github.com/DexterHuang/CyberCodeOnline/issues) or join our [Discord server](https://discord.link/cco).
 
-Fancy helping out with running costs, [buy me a potato](https://www.buymeacoffee.com/cybercodeonline) or [subscibe to my Patreon](https://www.patreon.com/cybercodeonline/).
+Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee.com/cybercodeonline) or [subscibe to my Patreon](https://www.patreon.com/cybercodeonline/).
 
 ### Help Needed:
  * contribution/words.json - Random Words
@@ -21,20 +21,20 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log 
 ### **2021/04/24- v0.444**
- * Fix killing enemy outside dungeon not receieving exp issue
- * Fix item not showing up in market
+ * Fixed killing enemy outside dungeon not receieving EXP issue
+ * Fixed item not showing up in the market
 
 ### **2021/04/23- v0.444**
- * Fix sometimes killing enemy outside dungeon does not get exp or reward
- * Major reweite of player market code, please help test, don't sell very valuable items just yet, if there is any issue DM me on discrod
+ * Fix sometimes killing enemy outside dungeon does not get EXP or reward
+ * Major rewrite of player market code, please help test, don't sell very valuable items just yet, if there is any issue DM me on discrod
  * Performance optimization
- * Fix gang max player count
+ * Fixed gang max player count
 
 ### **2021/04/22- v0.443**
  * Optimization
 
 ### **2021/04/21- v0.443**
- * Increase gang max player count from 16 to 32
+ * Increased gang max player count from 16 to 32
  * Major client optimization (hopefully you will see reduce in battery useage)
 
 ### **2021/04/19- v0.440**
@@ -44,11 +44,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * Bug fixes on `Global Time Skip`, should fix rare issue where sometimes not everyone got skipped
 
 ### **2021/04/15- v0.414**
- * Updated background graphic for `Cybernetic Potato`
+ * Updated background graphics for `Cybernetic Potato`
  * New Donation Tiers `Legendary` (Purple) and `Cybernetic Potato` (Potato)
  * More unit purchase options
  * Attemp to fix global time skip issue
- * Fix Paypal issue
+ * Fixed Paypal issue
 
 ### **2021/04/14- v0.414**
  * Performance optimization, should see battery improvement
