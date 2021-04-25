@@ -11,9 +11,9 @@
 * Don't exploit bugs
 * Keep names family friendly
 ### Chat Rules
+* Chat is for everyone, no one is excluded unless you break these rules
 * Stay family friendly
 * Be kind
-* English is encuraged on global chat, but any language is allowed and welcomed
 * Don't: 
   - Be a jerk
   - Spam  
