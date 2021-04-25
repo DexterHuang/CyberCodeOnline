@@ -1,7 +1,7 @@
->#### **(TYPE_OFFILE):**  CLASSIFIED  
->#### **(SENDER):**  A.  IOHANNIS  
->#### **(RECEIVER):**   HIGH  CONGRESS  REPUBLIC  
->#### **(DATE):**  16  0- 3-4--€√Y##??  
+>#### **(TYPE_OFFILE):** ##### CLASSIFIED  
+>#### **(SENDER):** ##### A.  IOHANNIS  
+>#### **(RECEIVER):** #####  HIGH  CONGRESS  REPUBLIC  
+>#### **(DATE):** #### 16  0- 3-4--€√Y##??  
 >  
 >***(SUBJECT):** "Imminent war against the Empire."  
   
@@ -24,11 +24,11 @@
 >  
 >I take my leave for now. We will keep in touch. Contact me as soon as possible once you have thought about it. Goodbye."  
 
->#### **(SENDER):**   HIGH  CONGRESS  REPUBLIC  
->#### **(RECEIVER):**   A.  IOHANNIS  
->***(SUBJECT):** " : Imminent war against the Empire."  
+>#### **(SENDER):** #####  HIGH  CONGRESS  REPUBLIC  
+>#### **(RECEIVER):**  ##### A.  IOHANNIS  
+>***(SUBJECT):** " Reply: Imminent war against the Empire."  
 >#### **(MESSAGE):**
-
+>  
 >"So, uhm... I think I have some work for ya, Jack.  
 >  
 >There's this document I found in a trip yesterday... It talks about a Republic? I assume that it is the Old Republic of Shangri-La, so this is outdated af.  
