@@ -5,7 +5,7 @@
 >  
 >***(SUBJECT):** "Imminent war against the Empire."  
   
->#### **(MESSAGE):**  
+>####(MESSAGE):  
 >  
 >  
 >"I have a very valuable piece of information that I must communicate to the senior members of the High Congress immediately.  
@@ -23,13 +23,12 @@
 >If the Glyph is found, the entire species will be at risk. We are reverse engineering God, gentlemen, this is no trifle.  
 >  
 >I take my leave for now. We will keep in touch. Contact me as soon as possible once you have thought about it. Goodbye."  
-  
+
 >#### **(SENDER):**   HIGH  CONGRESS  REPUBLIC  
 >#### **(RECEIVER):**   A.  IOHANNIS  
 >***(SUBJECT):** " : Imminent war against the Empire."  
-  
 >#### **(MESSAGE):**
->  
+
 >"So, uhm... I think I have some work for ya, Jack.  
 >  
 >There's this document I found in a trip yesterday... It talks about a Republic? I assume that it is the Old Republic of Shangri-La, so this is outdated af.  
