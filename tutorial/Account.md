@@ -1,6 +1,6 @@
-# Getting Started in CyberCodeOnline
+# Getting Started in CyberCode Online
 
-CyberCodeOnline is laid out like the popular code editor [Visual Studio Code](https://code.visualstudio.com/). On the left-hand side you will find several icons. The top one is the most important, as that is the Explorer where you access the actual code files for the game. The game is played as if you were a developer editing a project in your code editor!
+CyberCode Online is laid out like the popular code editor [Visual Studio Code](https://code.visualstudio.com/). On the left-hand side you will find several icons. The top one is the most important, as that is the Explorer where you access the actual code files for the game. The game is played as if you were a developer editing a project in your code editor!
 
 <br />
 
