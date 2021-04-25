@@ -13,7 +13,7 @@
 ### Chat Rules
 * Stay family friendly
 * Be kind
-* Use English in global chat if possible
+* English is encuraged on global chat, but any language is allowed and welcomed
 * Don't: 
   - Be a jerk
   - Spam  
