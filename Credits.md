@@ -37,6 +37,7 @@ Unfairissimo
 [byakkozen](https://github.com/byakkozen)  
 [bvcxz](https://github.com/bvcxz-cybercode)  
 [CelesMeh](https://www.instagram.com/celesmeh)  
+NinkPT
 [PsyB34R](https://www.instagram.com/psybearr)  
 SaberTron  
 Satan  
