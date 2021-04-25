@@ -128,6 +128,9 @@ RsKaiser
 spyd3r  
 [Tripplehelix](https://github.com/tripplehelix)  
 
+## Proofreader
+[The_Wayfarrer](https://github.com/epixinvites)
+
 ## Other Contributors
 [AdmiralDiemos](https://github.com/danofsatx)  
 [Arky](https://www.instagram.com/andreiarky)  
