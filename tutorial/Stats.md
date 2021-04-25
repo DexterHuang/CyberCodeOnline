@@ -18,19 +18,19 @@ Health regenerated after a battle in a dungeon. The health regenerated is the sp
 The total damage given by your equipment. It is calculated by adding up the damage modifiers given by equipment and equipment upgrades.  
   
 ## Crit Chance
-The chance of the player critically striking upon an attack. The max critChance is 70%.  
+The chance of the player critically striking upon an attack. The max `critChance` is 70%.  
   
 ## Crit Damage
-The multiplier to your normal damage upon a critical strike. The max critDamage multiplier is 200%.  
+The multiplier to your normal damage upon a critical strike. The max `critDamage` multiplier is 200%.  
   
 ## Escape
 The chance of escape from an enemy encounter. The max escape chance is 80%.  
   
 ## Stun Chance
-Chance of stunning an enemy. If an enemy is stunned they cannot perform a response action next turn. stunChance is capped at 20%.  
+Chance of stunning an enemy. If an enemy is stunned, they cannot perform a response action for the next turn. `stunChance` is capped at 20%.  
   
 ## evade
-Chance of evading an enemy attack. evade is capped at 40%.  
+Chance of evading an enemy attack. `evade` is capped at 40%.  
   
 ## Bargain
 Percent discount or bonus when buying or selling from the mart. The max bargain is 40%.  
