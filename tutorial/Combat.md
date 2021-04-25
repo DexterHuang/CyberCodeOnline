@@ -5,7 +5,7 @@ In every adventure location, you'll see a list of Nearby Enemies, as well as two
 ![Neaby enemies](../resources/desktop-tutorial/nearbyenemies.png)
 
   
-Click on any of the listed enemies to enter combat. When in a dungeon, clicking on a bad guy, represented by a '@' will draw you into combat with it.  
+Click on any of the listed enemies to enter combat. When in a dungeon, clicking on an enemy, represented by a '@' will draw you into combat with it.  
   
 There are different options that you can choose during a combat.
 
@@ -28,14 +28,14 @@ The combat screen will show you how much health and shield you and your opponent
   
 ## Enemy Modifiers
   
-Enemies can have modifiers, which are indicated by an adjective before the bad guys name e.g. "**Mad** Serial Killer", these modifiers are as follows,
+Enemies can have modifiers, which are indicated by an adjective before the enemy's name e.g. "**Mad** Serial Killer", these modifiers are as follows,
   
   
-Mad - Gives the bad guy +10% damage  
-Angry - Gives the bad guy +10% damage  
-Tough - Gives the bad guy +20% defence  
-Agile - Gives the bad guy +20% stun evade and a shield  
-Shielded - Gives the bad guy a large shield  
+Mad - Gives the enemy +10% damage  
+Angry - Gives the enemy +10% damage  
+Tough - Gives the enemy +20% defence  
+Agile - Gives the enemy +20% stun evade and a shield  
+Shielded - Gives the enemy a large shield  
   
 ## Player Modifiers
   
