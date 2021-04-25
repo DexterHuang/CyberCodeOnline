@@ -77,6 +77,7 @@ zomg
 [DexterHuang](https://github.com/DexterHuang)  
 Dzylx  
 [HBUnknown](https://www.facebook.com/john.bostwick.31)  
+Living Dead
 [Misaki](https://github.com/Misaki290)  
 [Omnipotent_God](https://github.com/Omnipotent-God)  
 [s3rvant](https://github.com/s3rvant)  
