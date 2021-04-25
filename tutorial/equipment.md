@@ -76,7 +76,7 @@ You can install upgrade modules on your equipment, but the level of the module u
 
 You can find preprinted equipment and caches in the dungeons or when fighting individual enemies, or as well as from using AI Cores. Caches are printed via the Molecular 3D Printer which is found in the city centre. When printing caches, the resulting equipment will be the same as your printing level.
 
-You can use the player market once you are above level 10 to purchase specific items.
+You can use the player market to purchase specific items once you are above player level 5.
 
 ## Consumables
 
