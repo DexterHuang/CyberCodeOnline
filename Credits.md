@@ -32,6 +32,7 @@ Rinelle
 [SnRetro](https://github.com/SnRetro)  
 [nopeholmes](https://github.com/nopeholmes)  
 Unfairissimo  
+Ryugarret
 
 ## Lore
 [byakkozen](https://github.com/byakkozen)  
