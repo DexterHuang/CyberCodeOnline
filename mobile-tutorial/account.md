@@ -1,7 +1,7 @@
 ## Creating an Account
 
-Currently you are able to use Google, Apple or any email account to register.
-You will then be taken to a screen where you pick your username. Make sure to choose wisely as this is permanent and cannot be changed for now.
+Currently you can only use Google, Apple or any email accounts to register.
+You will be then taken to a screen where you will choose your username. Please make sure to choose wisely as this is permanent and cannot be changed for now.
 
 ## Logging in
 
