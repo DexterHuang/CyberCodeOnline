@@ -32,40 +32,32 @@ If you die, you won't lose any of your items. However you will lose 10% of your 
 Enemies can have modifiers, which are indicated by an adjective before the enemies name e.g. "**Mad** Serial Killer", these modifiers are as follows,
   
   
-Mad - Gives the enemy +10% damage  
-Angry - Gives the enemy +10% damage  
-Tough - Gives the enemy +20% defence  
-Agile - Gives the enemy +20% stun evade and a shield  
-Shielded - Gives the enemy a large shield  
+ - Mad - Gives the enemy +10% damage  
+ - Angry - Gives the enemy +10% damage  
+ - Tough - Gives the enemy +20% defence  
+ - Agile - Gives the enemy +20% stun evade and a shield  
+ - Shielded - Gives the enemy a large shield  
   
 ## Player Modifiers
   
 The player can also pick up modifiers by interacting with the quest giver in the dungeon, which is represented by a '?', these modifiers are as follows:  
   
-Overcharged I - Gives the player +5% damage  
-Overcharged II - Gives the player +10% damage  
-Overcharged III - Gives the player +15% damage  
-Overcharged IV - Gives the player +20% damage  
-Overcharged V - Gives the player +25% damage  
+ - Overcharged I - Gives the player +5% damage  
+ - Overcharged II - Gives the player +10% damage  
+ - Overcharged III - Gives the player +15% damage  
+ - Overcharged IV - Gives the player +20% damage  
+ - Overcharged V - Gives the player +25% damage  
   
   
-Reinforced I - Gives the player +5% defence  
-Reinforced II - Gives the player +10% defence  
-Reinforced III  
-Gives the player +15% defence  
-Reinforced IV  
-Gives the player +20% defence  
-Reinforced V  
-Gives the player +25% defence  
+ - Reinforced I - Gives the player +5% defence  
+ - Reinforced II - Gives the player +10% defence  
+ - Reinforced III - Gives the player +15% defence  
+ - Reinforced IV - Gives the player +20% defence  
+ - Reinforced V - Gives the player +25% defence  
   
   
-Shield Enhance I  
-Gives the player +5% shield multiplier  
-Shield Enhance II  
-Gives the player +10% shield multiplier  
-Shield Enhance III  
-Gives the player +15% shield multiplier  
-Shield Enhance IV  
-Gives the player +20% shield multiplier  
-Shield Enhance V  
-Gives the player +25% shield multiplier  
+ - Shield Enhance I - Gives the player +5% shield multiplier  
+ - Shield Enhance II - Gives the player +10% shield multiplier  
+ - Shield Enhance III - Gives the player +15% shield multiplier  
+ - Shield Enhance IV - Gives the player +20% shield multiplier  
+ - Shield Enhance V - Gives the player +25% shield multiplier  
