@@ -1,5 +1,5 @@
 ## Gangs
-Currently gangs are just a private chat area for a group of up to 16 friends to communicate but there are future plans for more to come to this.
+Currently gangs are just a private chat area for a group of up to 32 friends to communicate but there are future plans for more to come to this.
 
 As Gang Leader, you will have 3 additional options, when visiting one of your gang members profiles:
 * [KICK] - you can kick the gang member from the gang;
