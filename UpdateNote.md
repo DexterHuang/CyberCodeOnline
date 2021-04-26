@@ -20,6 +20,10 @@ Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Updates Log 
+### **2021/04/24- v0.452**
+ * Dungeon movement should be smooth now
+ * Major optimization older phone should see big improvement
+
 ### **2021/04/24- v0.444**
  * Fixed killing enemy outside dungeon not receieving EXP issue
  * Fixed item not showing up in the market
