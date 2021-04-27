@@ -26,9 +26,10 @@ Proxxie
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)  
 [Kraken-Juice](https://github.com/Kraken-Juice)  
 [Murfex](https://github.com/Murfex)  
-NinkPT  
+MontyPython   
 [PsyB34R](https://www.instagram.com/psybearr)  
 Rinelle  
+[Seo-na](https://github.com/Seo-na)  
 [SnRetro](https://github.com/SnRetro)  
 [nopeholmes](https://github.com/nopeholmes)  
 Unfairissimo  
@@ -38,7 +39,7 @@ Ryugarret
 [byakkozen](https://github.com/byakkozen)  
 [bvcxz](https://github.com/bvcxz-cybercode)  
 [CelesMeh](https://www.instagram.com/celesmeh)  
-NinkPT
+MontyPython  
 [PsyB34R](https://www.instagram.com/psybearr)  
 SaberTron  
 Satan  
@@ -61,13 +62,15 @@ JashinL
 [Hally](https://twitter.com/g_hally1996)  
 JashinL  
 [JEricaM](https://github.com/JEricaM)  
+kt0t0wh0  
 mika  
 Negative  
-NinkPT  
+MontyPython   
 RezaRnew100  
 SitiSchu  
 [Tripplehelix](https://github.com/tripplehelix)  
 Vega_Efsunborn  
+Willbur  
 zomg  
 [Veyrin](https://github.com/darkrevelations)  
 
@@ -77,8 +80,8 @@ zomg
 [Deckeeper](https://github.com/deckeeper)  
 [DexterHuang](https://github.com/DexterHuang)  
 Dzylx  
-[HBUnknown](https://www.facebook.com/john.bostwick.31)  
-Living Dead
+HBUNKNOWN  
+Livingdead  
 [Misaki](https://github.com/Misaki290)  
 [Omnipotent_God](https://github.com/Omnipotent-God)  
 [s3rvant](https://github.com/s3rvant)  
@@ -105,7 +108,7 @@ Kaktusmonas
 [me505](https://github.com/me505)  
 [Montero](https://github.com/CCOLucille2)  
 [mxjoda](https://twitter.com/mxjoda)  
-NinkPT  
+MontyPython   
 [PsyB34R](https://www.instagram.com/psybearr)  
 [Ryujin](https://github.com/Ryujin-cybercode)  
 Satan  
@@ -117,12 +120,14 @@ Satan
 Bronzer  
 [byakkozen](https://github.com/byakkozen)  
 [DexterHuang](https://github.com/DexterHuang)  
+Exca  
 [Hally](https://twitter.com/g_hally1996)  
 [Kimi Leta](https://github.com/kimileta)  
+KingRiver  
 [RaykouTJ](https://github.com/HoneySyrup)  
 [levi middleton](https://github.com/levi-middleton)   
 [Misaki](https://github.com/Misaki290)  
-Mobius-1  
+Mobius_One  
 Pikkon85  
 roucoupute2  
 RsKaiser  
