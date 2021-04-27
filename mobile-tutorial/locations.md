@@ -13,7 +13,7 @@ In the City Center, there is the Molecular 3D Printer, which can be used on your
 
 ## Weaponsmith  
 The weaponsmith allows you to buy weapons and equipment or repair your gear with a small amount of BTC.  
-If you equip gears with **bargain** status you have a higher chance of getting a better deal.  
+If you equip equipment with **bargain** status you will get a better deal.  
 
 
 ## Trinoky Mart  
