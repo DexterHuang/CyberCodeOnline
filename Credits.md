@@ -38,6 +38,7 @@ Ryugarret
 [byakkozen](https://github.com/byakkozen)  
 [bvcxz](https://github.com/bvcxz-cybercode)  
 [CelesMeh](https://www.instagram.com/celesmeh)  
+Exca  
 MontyPython  
 [PsyB34R](https://www.instagram.com/psybearr)  
 SaberTron  
