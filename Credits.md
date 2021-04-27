@@ -30,15 +30,20 @@ MontyPython
 [nopeholmes](https://github.com/nopeholmes)  
 [PsyB34R](https://www.instagram.com/psybearr)  
 Rinelle  
+Ryugarret  
 [Seo-na](https://github.com/Seo-na)  
 [SnRetro](https://github.com/SnRetro)  
 Unfairissimo  
-Ryugarret
+Wanna  
+
+## Proofreader
+[The_Wayfarrer](https://github.com/epixinvites)  
 
 ## Lore
 [byakkozen](https://github.com/byakkozen)  
 [bvcxz](https://github.com/bvcxz-cybercode)  
 [CelesMeh](https://www.instagram.com/celesmeh)  
+JashinL  
 MontyPython  
 [PsyB34R](https://www.instagram.com/psybearr)  
 SaberTron  
@@ -52,8 +57,6 @@ Dragonmaster84
 RezaRnew100  
 [Veyrin](https://github.com/darkrevelations)  
 WoLoLoiK  
-JashinL  
-
 
 ## Dungeons
 [alfaice](https://github.com/alfaice)  
@@ -136,9 +139,6 @@ RsKaiser
 [s3rvant](https://github.com/s3rvant)  
 spyd3r  
 [Tripplehelix](https://github.com/tripplehelix)  
-
-## Proofreader
-[The_Wayfarrer](https://github.com/epixinvites)
 
 ## Other Contributors
 [AdmiralDiemos](https://github.com/danofsatx)  
