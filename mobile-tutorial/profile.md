@@ -1,11 +1,24 @@
 ## Profile
 In your Profile there's several information and options at your disposal.
 
-You can view your Alias (username), BTC (Bitcoin), Gear level, Location, System Link (Online or Offline), Status, your general level, Skills and Stats, Gang (if you are in one, otherwise this section won't exist in your profile), Inventory and Secret Keys.
+Here is what you can see from your profile
+ - Alias
+ - Amount of Bitcoins
+ - Average Gear Level
+ - Current location
+ - Online/Offline Status
+ - Your levels
+ - Skills
+ - Stats
+ - Gang
+ - Inventory
+ - Secret Keys
 
 At the [STATS] you can see the 'Global Effects' of an activated Transmitter (whether it is a Synaptic Accelerator, Exploit or Frontal Cortex Optimization one).
 
 Here you can also see, in case you get muted by the moderators, how long the [MUTED] status will last (how long it will take until you can chat again in the Global chat, Gang or send PMs).
+
+**You will need to scroll down below stats to see these**
 
 You also have an option to:
 
@@ -28,19 +41,18 @@ On other players profile, you will encounter different options:
 
 ### Player Level
 
-This is where all your other levels will cap out. You can increase your player level by fighting in dungeons, fighting enemies and using Experience Memories. For the highest efficiency you want to keep all your levels in-line with your player level.
+This is where all your other levels will be capped at. You can increase your player level by fighting in dungeons, fighting enemies and using Experience Memories. For the highest efficiency you want to keep all your levels in-line with your player level (This is recommended).
 
 ### Printing Rank
 
-Printing level determines the level of the equipment you will print. Meaning if you have a printing level of 10, you will print lvl 10 equipment. Printing level can never go higher than your player level. You can level your printing rank by printing equipment, reverse Engineering in Job Hub or 'WORK IN PRINTING FACTORY' afk task in Job Hub. 
+Printing level determines the level of the equipment you will print. Your printing level can never go higher than your player level. You can level your printing rank by printing equipment, either by Reverse Engineering Tech Scraps or Working at a Printing Factory (These are all AFK jobs) at the Job Hub. 
 
 ### Medical Science
-
-With higher medical crafting level you can craft better medical items. Crafting medical items will give you medical crafting experience. You can get a job in the commercial area to increase medical experience.
+Crafting medical items or intiating a job at the Job Hub will give you medical crafting experience. You will need these levels to craft better heal items.
 
 ### Ammo Crafting
 
-With a higher ammo crafting level you can craft ammo more efficiently. Crafting ammo will give you ammo crafting experience. You can get a job in the commercial area to increase ammo crafting experience.
+Crafting ammo or initiating a job at the Job Hub will give you ammo crafting experience. Its useful to craft more ammos with lesser materials.
 
 ### Scavenge Skill
 
@@ -52,23 +64,23 @@ Higher scavenge level will allow you to scavenge for (ammunition, military ammun
 
 Mining can be done only with 'Hash Processors' that drops from both normal and challenge dungeons.
 
-Higher mining level can earn you more BTC per 15 minutes of afk mining, that being the minimum duration at which you can start mining. You can get mining experience by completing the afking mining job. With higher mining level, you can craft AI cores more efficiently.
+Higher mining level can earn you more BTC per 15 minutes of afk mining, that being the minimum duration at which you can start mining. You can get mining experience by completing the mining job. With higher mining levels, you can craft AI cores more efficiently.
 
 ## Stats
 
 Every player has 20 different Stats.  
 
 ### Max Shield
-The maximum shield that the player has. Upon receiving an attack, the shield is hit first before the player's health.  
+The maximum shield that the player has. Upon receiving an attack, the shield is hit first before the player's health gets deducted.  
   
 ### Max Health
 The maximum health that the player has. Determined by player equipment and equipment upgrades.  
   
 ### Armor
-The armor that the player has. It reduces damage by the specified amount.  
+The armor that the player has. It reduces damage by that specified amount.  
   
 ### Health Regen
-Health regenerated after a battle in a dungeon. The health regenerated is the specified amount.  
+Health regenerated after a battle in a dungeon. 
    
 ### Damage (dmg)
 The total damage given by your equipment. It is calculated by adding up the damage modifiers given by equipment and equipment upgrades.  
