@@ -106,12 +106,12 @@ Kaktusmonas
 [Montero](https://github.com/CCOLucille2)  
 [mxjoda](https://twitter.com/mxjoda)  
 MontyPython   
+[nopeholmes](https://github.com/nopeholmes)  
 [PsyB34R](https://www.instagram.com/psybearr)  
 [Ryujin](https://github.com/Ryujin-cybercode)  
 Satan  
 [Tripplehelix](https://github.com/tripplehelix)  
 [Veyrin](https://github.com/darkrevelations)  
-[nopeholmes](https://github.com/nopeholmes)  
 
 ## Tips
 [Archibaald](https://github.com/Archibaald-dev)  
