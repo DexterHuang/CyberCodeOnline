@@ -15,8 +15,6 @@ As the name suggests, someone with the 'MUTED' status will have the ability to c
 
 The 'MUTED' status is applied by the moderators (mods) to a player who broke the rules of the game or the ones related to the chat. 
 
-It can range from 0 to 5,000,000 minutes (aprox. 9,5 years) depending on how grave the offense is.
-
 You also have an option to:
 
 - [DONATE] - which will take you to the Donation Tiers;
@@ -36,14 +34,11 @@ On other players profile, you will encounter different options:
 
 - [SEND STREET CRED] - this allows you to give 1 Street Cred point to other players.
 
-Street Cred is a point system similar to the "karma" one found on Reddit. It's meant to indicate how trustful or helpful a player is but unfortunately Street Cred became nothing more than 'popularity points".
+Street Cred is a point system similar to the "karma" one found on Reddit. It's meant to indicate how trustful or helpful a player is.
 
 You're limited to send only 1 Street Cred per day. You are not limited in receiving Street Cred from other players.
 
-The maximum amount of Street Cred someone can have is currently limited to 200 points.
-
-Performance Score shows how well the game performs on your device. Generally speaking, you would want to have a score that's under 2000.
-Between 2000 - 3000 game might lag and phone might heat up. Everything that is above 3000 is a really poor Performance Score.
+Performance Score shows how well the game performs on your device.
 
 Performance score is visible only by you and the developer.
 
