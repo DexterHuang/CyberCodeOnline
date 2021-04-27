@@ -29,6 +29,7 @@ Proxxie
 MontyPython   
 [PsyB34R](https://www.instagram.com/psybearr)  
 Rinelle  
+[Seo-na](https://github.com/Seo-na)  
 [SnRetro](https://github.com/SnRetro)  
 [nopeholmes](https://github.com/nopeholmes)  
 Unfairissimo  
