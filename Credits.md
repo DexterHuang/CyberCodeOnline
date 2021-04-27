@@ -117,8 +117,10 @@ Satan
 Bronzer  
 [byakkozen](https://github.com/byakkozen)  
 [DexterHuang](https://github.com/DexterHuang)  
+Exca  
 [Hally](https://twitter.com/g_hally1996)  
 [Kimi Leta](https://github.com/kimileta)  
+KingRiver  
 [RaykouTJ](https://github.com/HoneySyrup)  
 [levi middleton](https://github.com/levi-middleton)   
 [Misaki](https://github.com/Misaki290)  
