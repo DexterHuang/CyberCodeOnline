@@ -12,7 +12,8 @@ This is the main hub, to which you will often return to. This is also where you 
 In the City Center, there is a Molecular 3D Printer, which can be used on your caches. It costs BTC to print, so make sure you have enough. All details including BTC cost and experience it will give will be listed on the cache printing panel.  
 
 ## Weaponsmith  
-The weaponsmith allows you to buy weapons and equipment, or to repair your gear using a small amount of BTC.  
+The weaponsmith allows you to buy weapons and equipment or repair your gear with a small amount of BTC.  
+If you equip equipment with **bargain** status you will get a better deal.  
 
 ## Trinoky Mart  
 Here you can buy medical items with BTC. Prices are completely separate from the player market, so be sure to check both!  

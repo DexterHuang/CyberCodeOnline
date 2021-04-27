@@ -19,13 +19,13 @@ Attack the enemy with your equipped destructive weapon. Consumes one Antimatter 
 This option is exclusively for dungeons. You will need to bind the item in the Inventory interface to use them, and only medical items can be binded. XP Memories are used to increase your Player XP.
 
 ## Escape
-With this option you can try to escape from combat. The success rate of escaping combat outside a dungeon is always 100%. However if you are fighting inside a dungeon and try to escape, the chance will be based on your escape sta,t which is taken from your armour and upgrade stats. If you fail to escape, you will then be attacked by the enemy without dealing any damage.  
+With this option you can try to escape from combat. The success rate of escaping combat outside a dungeon is always 100%. However if you are fighting inside a dungeon and try to escape, the chance will be based on your escape stats which is taken from your armour and upgrade stats. If you fail to escape, you will then be attacked by the enemy without dealing any damage.  
   
 The combat screen will show you how much health and shield you and your opponent both have, as well as the amount of ammo you have left for each of your weapons and the approximate damage they can do.  
 
 ## Death
 
-If you die, you won't lose any of your items. However you will lose 10% of your total BTC and Plyaer XP. This means you might lose a level if you die too much.
+If you die, you won't lose any of your items. However you will lose 10% of your total BTC and Player XP. This means you might lose a level if you die too much.
   
 ## Enemy Modifiers
   

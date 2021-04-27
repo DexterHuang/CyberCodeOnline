@@ -27,10 +27,11 @@ Proxxie
 [Kraken-Juice](https://github.com/Kraken-Juice)  
 [Murfex](https://github.com/Murfex)  
 MontyPython   
+[nopeholmes](https://github.com/nopeholmes)  
 [PsyB34R](https://www.instagram.com/psybearr)  
 Rinelle  
+[Seo-na](https://github.com/Seo-na)  
 [SnRetro](https://github.com/SnRetro)  
-[nopeholmes](https://github.com/nopeholmes)  
 Unfairissimo  
 Ryugarret
 
@@ -61,6 +62,7 @@ JashinL
 [Hally](https://twitter.com/g_hally1996)  
 JashinL  
 [JEricaM](https://github.com/JEricaM)  
+kt0t0wh0  
 mika  
 Negative  
 MontyPython   
@@ -68,6 +70,7 @@ RezaRnew100
 SitiSchu  
 [Tripplehelix](https://github.com/tripplehelix)  
 Vega_Efsunborn  
+Willbur  
 zomg  
 [Veyrin](https://github.com/darkrevelations)  
 
@@ -106,6 +109,7 @@ Kaktusmonas
 [Montero](https://github.com/CCOLucille2)  
 [mxjoda](https://twitter.com/mxjoda)  
 MontyPython   
+[nopeholmes](https://github.com/nopeholmes)  
 [PsyB34R](https://www.instagram.com/psybearr)  
 [Ryujin](https://github.com/Ryujin-cybercode)  
 Satan  
@@ -117,8 +121,10 @@ Satan
 Bronzer  
 [byakkozen](https://github.com/byakkozen)  
 [DexterHuang](https://github.com/DexterHuang)  
+Exca  
 [Hally](https://twitter.com/g_hally1996)  
 [Kimi Leta](https://github.com/kimileta)  
+KingRiver  
 [RaykouTJ](https://github.com/HoneySyrup)  
 [levi middleton](https://github.com/levi-middleton)   
 [Misaki](https://github.com/Misaki290)  

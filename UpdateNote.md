@@ -20,6 +20,12 @@ Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Updates Log 
+### **2021/04/27- v0.465**
+ * Global skip now needs to wait until the last skip process is completed before starting a new skip
+ * Added global skip queue list (in floaty menu)
+ * Massive internal update (fondation for global skip rework)
+ * Performance optimization
+
 ### **2021/04/24- v0.452**
  * Dungeon movement should be smooth now
  * Major optimization older phone should see big improvement
