@@ -38,7 +38,6 @@ Ryugarret
 [byakkozen](https://github.com/byakkozen)  
 [bvcxz](https://github.com/bvcxz-cybercode)  
 [CelesMeh](https://www.instagram.com/celesmeh)  
-Exca  
 MontyPython  
 [PsyB34R](https://www.instagram.com/psybearr)  
 SaberTron  
@@ -62,6 +61,7 @@ JashinL
 [Hally](https://twitter.com/g_hally1996)  
 JashinL  
 [JEricaM](https://github.com/JEricaM)  
+kt0t0wh0  
 mika  
 Negative  
 MontyPython   
@@ -69,6 +69,7 @@ RezaRnew100
 SitiSchu  
 [Tripplehelix](https://github.com/tripplehelix)  
 Vega_Efsunborn  
+Willbur  
 zomg  
 [Veyrin](https://github.com/darkrevelations)  
 
