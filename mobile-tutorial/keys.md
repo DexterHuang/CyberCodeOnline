@@ -5,4 +5,4 @@ Additional key fragments can be either discarded (in a dungeon) or destroyed (fr
 
 Key fragments cannot be sent to other people nor be sold on the Player Market.
 
-This is the main progression of the game and dungeons will continue to level with you. However, if your player level is 10 levels below the dungeon's recommended level or more than 13 levels, you won't be able to join it. If you are 13 levels above the recommended dungeon level, you won't be able to interact with anything, including doors, quest givers or loot.
+This is the main progression of the game and dungeons will continue to level with you. However, if your player level is 10 levels below the dungeon's recommended level or more than 12 levels, you won't be able to join it. If you are 12 levels above the recommended dungeon level, you won't be able to interact with anything, including doors, quest givers or loot.
