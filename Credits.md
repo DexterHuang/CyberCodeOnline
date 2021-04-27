@@ -36,7 +36,7 @@ Ryugarret
 Unfairissimo  
 Wanna  
 
-## Proofreader
+## Proofreading
 [The_Wayfarrer](https://github.com/epixinvites)  
 
 ## Lore
