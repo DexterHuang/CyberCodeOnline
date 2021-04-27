@@ -111,6 +111,7 @@ MontyPython
 Satan  
 [Tripplehelix](https://github.com/tripplehelix)  
 [Veyrin](https://github.com/darkrevelations)  
+[nopeholmes](https://github.com/nopeholmes)  
 
 ## Tips
 [Archibaald](https://github.com/Archibaald-dev)  
