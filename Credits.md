@@ -27,11 +27,11 @@ Proxxie
 [Kraken-Juice](https://github.com/Kraken-Juice)  
 [Murfex](https://github.com/Murfex)  
 MontyPython   
+[nopeholmes](https://github.com/nopeholmes)  
 [PsyB34R](https://www.instagram.com/psybearr)  
 Rinelle  
 [Seo-na](https://github.com/Seo-na)  
 [SnRetro](https://github.com/SnRetro)  
-[nopeholmes](https://github.com/nopeholmes)  
 Unfairissimo  
 Ryugarret
 
@@ -109,6 +109,7 @@ Kaktusmonas
 [Montero](https://github.com/CCOLucille2)  
 [mxjoda](https://twitter.com/mxjoda)  
 MontyPython   
+[nopeholmes](https://github.com/nopeholmes)  
 [PsyB34R](https://www.instagram.com/psybearr)  
 [Ryujin](https://github.com/Ryujin-cybercode)  
 Satan  
