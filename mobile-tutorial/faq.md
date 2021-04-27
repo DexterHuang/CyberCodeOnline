@@ -133,7 +133,7 @@ They can also be purchased from the Player Market.
 Ai Cores are items required to AFK farm dungeons. Basically they allow you to farm XP, items and a small amount of BTC.
 
 ### What are Hash Processors?
-Hash Processors ('hash' for short) are items that is required to activate an AFK job that yields high amounts of BTC (bitcoin). 
+Hash Processors ('hash' for short) are items that are required to activate an AFK job that yields high amounts of BTC (bitcoin). 
 They drop from normal and challenge dungeons.
 
 ### What's the benefit of having a high level Medical skill?
