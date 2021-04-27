@@ -27,10 +27,10 @@ Proxxie
 [Kraken-Juice](https://github.com/Kraken-Juice)  
 [Murfex](https://github.com/Murfex)  
 MontyPython   
+[nopeholmes](https://github.com/nopeholmes)  
 [PsyB34R](https://www.instagram.com/psybearr)  
 Rinelle  
 [SnRetro](https://github.com/SnRetro)  
-[nopeholmes](https://github.com/nopeholmes)  
 Unfairissimo  
 Ryugarret
 
