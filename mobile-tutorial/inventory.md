@@ -29,14 +29,3 @@ Items that other players send will be automatically placed in your item inbox an
 ## Crafting
 
 This tab in your inventory allows you to craft three different types of items: medical, ammo, and material. Medical crafting uses medical tech parts. Ammo crafting uses both ammo tech parts and military ammo tech parts. Material crafting uses hash processor and turns them into ai cores. As you level up the relevant skills (medical science, ammo crafting, and mining) you will open new recipes and be more proficient, allowing you to craft more and better items.
- 
-
-## Molecular Printing
-
-In the City Center, there is the Molecular 3D Printer, which can be used to print out gears from cache. It will appear when you are in Shangri La City Center. Clicking on it will bring you to the printing panel which lists all cache you have. It costs bitcoin to print, so make sure you have enough. All details including BTC cost and experience it will give will be listed on the cache printing panel.  
-
-In the Molecular Printer screen, you can click on the cache you wish to print which will bring up a dialog if you have multiple items that are the same, asking how many you want to print. A good strategy here is to print all the trash items first, then the common, saving rare and legendary for the end. The reason for this is printing the more common and useless items first boosts your Printing Level, giving you a better chance to print more powerful gear with any Rare and Legendary caches you may have found.  
-
-## The WeaponSmith
-
-The Weaponsmith is a vendor in Shangri La City Center that allows you to sell items for BTC, and they often have items for purchase. When you are in the Weaponsmith screen, click over anything in your inventory and choose the Sell option. Alternately, you will see the items available for sale at the top. You can click on any of them and choose Buy if you can afford them. If you equip gears with **bargain** status you have a higher chance of getting a better deal.  
