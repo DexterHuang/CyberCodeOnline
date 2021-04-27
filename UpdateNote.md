@@ -21,6 +21,8 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log 
 ### **2021/04/27- v0.465**
+ * Global skip now needs to wait until the last skip process is completed before starting a new skip
+ * Added global skip queue list (in floaty menu)
  * Massive internal update (fondation for global skip rework)
  * Performance optimization
 
