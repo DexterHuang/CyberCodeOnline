@@ -3,6 +3,7 @@
 "Beware, anyone who enters this dungeon."  
   
 > The paper had a note written on the back. You flip it and read it,  
+
 "Nothing [Redacted] Happening In Here. For anyone who enters the dungeon don't be afraid. Brave yourself and nothing can stop you."  
   
 > You say to yourself with an hesitatant and deep voice:   
