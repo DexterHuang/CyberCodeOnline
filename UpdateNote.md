@@ -21,14 +21,14 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log 
 ### **2021/04/27- v0.465**
- * Global skip now needs to wait until the last skip process is completed before starting a new skip
- * Added global skip queue list (in floaty menu)
- * Massive internal update (fondation for global skip rework)
+ * Global skips update: New skips cannot be activated until the previous skip is completed
+ * Added global skip queue list (in the floating menu)
+ * Massive internal update (foundation for global skip rework)
  * Performance optimization
 
 ### **2021/04/24- v0.452**
- * Dungeon movement should be smooth now
- * Major optimization older phone should see big improvement
+ * Dungeon movements should be smooth now
+ * Major optimization, older phones should see significant improvements
 
 ### **2021/04/24- v0.444**
  * Fixed killing enemy outside dungeon not receieving EXP issue
