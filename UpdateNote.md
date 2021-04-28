@@ -22,7 +22,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ## Updates Log 
 ### **2021/04/27- v0.465**
  * Global skips update: New skips cannot be activated until the previous skip is completed
- * Added global skip queue list (in the floating menu)
+ * Added a global skip player queue list (in the floating menu)
  * Massive internal update (foundation for global skip rework)
  * Performance optimization
 
