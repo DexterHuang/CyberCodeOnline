@@ -126,6 +126,7 @@ Satan
 [Archibaald](https://github.com/Archibaald-dev)  
 Bronzer  
 [byakkozen](https://github.com/byakkozen)  
+Crescent_Grey  
 [DexterHuang](https://github.com/DexterHuang)  
 Exca  
 [Hally](https://twitter.com/g_hally1996)  
