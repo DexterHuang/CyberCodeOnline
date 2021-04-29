@@ -21,9 +21,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log 
 ### **2021/04/29- v0.465**
- * Fixed some type of item in market doesn't show up
- * Market captcha now is easier 
- * Market performance should be better, especially on slower devices
+ * Fixed the bug where some items don't show up in the market
+ * Market captchas are now easier 
+ * Market performance is better, especially on slower devices
 
 ### **2021/04/27- v0.465**
  * Global skips update: New skips cannot be activated until the previous skip is completed
