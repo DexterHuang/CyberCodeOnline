@@ -22,7 +22,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ## Updates Log 
 ### **2021/04/29- v0.465**
  * Market captcha now is easier 
- * Markt performance should be better specaially on slower devices
+ * Market performance should be better, especially on slower devices
 
 ### **2021/04/27- v0.465**
  * Global skips update: New skips cannot be activated until the previous skip is completed
