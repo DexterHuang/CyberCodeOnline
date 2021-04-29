@@ -20,6 +20,9 @@ Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Updates Log 
+### **2021/04/30- v0.472**
+ * Fixed background music double play bug 
+
 ### **2021/04/29- v0.465**
  * Languages support is finnally online - click the gear icon to change language (still need help translating!)
  * Fixed some type of item in market doesn't show up
