@@ -21,6 +21,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log 
 ### **2021/04/29- v0.465**
+ * Languages support is finnally online - click the gear icon to change language (still need help translating!)
  * Fixed some type of item in market doesn't show up
  * Market captcha now is easier 
  * Market performance should be better, especially on slower devices
