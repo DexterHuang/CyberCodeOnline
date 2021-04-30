@@ -1,0 +1,4 @@
+# The Invention of AICORE
+> (Part 5 of 8 aicore series)
+
+Artificial Intelligence Cerebral Operation and Replication Engine or AICORE for short are sophisticated self aware AI that is an indispensable part of our daily lives. We now take for granted the AICOREs that help us make decisions, automatically control our electronic devices without even consciously thinking, and allow us to obtain the ability to do certain tasks skillfully even without any prior experience or training. AICOREs also has the ability to have your body in "autopilot" by letting the AICORE control your body while you can detach your consciousness and go to the CyberNet. AICORE first started development in 2057 as a japanese military project to enable pilots that control complicated Mecha Suits that usually require two operators to be piloted solo. By 2060 the first functional AICORE was completed and successfully allowed the first instance of true multitasking in a human brain.
