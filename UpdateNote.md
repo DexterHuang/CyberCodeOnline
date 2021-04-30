@@ -21,15 +21,15 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log 
 ### **2021/04/30- v0.472**
- * Fix in some language swiching tab causes crash
- * Fix bank and terminal disapearing
- * Fixed background music double play bug 
+ * Fixed the crash during language tab switching
+ * Fixed the bank and terminal from disappearing
+ * Fixed the bug where the background music plays twice
 
 ### **2021/04/29- v0.465**
- * Languages support is finnally online - click the gear icon to change language (still need help translating!)
- * Fixed some type of item in market doesn't show up
- * Market captcha now is easier 
- * Market performance should be better, especially on slower devices
+ * Language changing has been turned into a setting
+ * Fixed missing items in the market
+ * Market captchas are now easier 
+ * Market performance is better, especially on slower devices
 
 ### **2021/04/27- v0.465**
  * Global skips update: New skips cannot be activated until the previous skip is completed
