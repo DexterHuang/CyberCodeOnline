@@ -21,6 +21,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log 
 ### **2021/04/30- v0.472**
+ * Fix in some language swiching tab causes crash
  * Fix bank and terminal disapearing
  * Fixed background music double play bug 
 
