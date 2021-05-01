@@ -220,10 +220,17 @@
  	 	 	"backToMainHub": {
  	 	 	 	"name": {
  	 	 	 	 	"trans": "Back to city center",
- 	 	 	 	 	"eng": "Return to ${mainHubName}",
+ 	 	 	 	 	"eng": "Back to city center",
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"mainHubName"
  	 	 	 	 	]
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"mainHubName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Return to ${mainHubName}",
+ 	 	 	 	 	"eng": "Return to ${mainHubName}"
  	 	 	 	}
  	 	 	},
  	 	 	"toSegment": {
@@ -279,6 +286,21 @@
  	 	 	 	 	"trans": "Go to ${zoneName}",
  	 	 	 	 	"eng": "Go to ${zoneName}"
  	 	 	 	}
+ 	 	 	},
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"segmentDisplayName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${segmentDisplayName} station",
+ 	 	 	 	"eng": "${segmentDisplayName} station"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"segment",
+ 	 	 	 	 	"segmentMaxLevel"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Level ${segment} to ${segmentMaxLevel}",
+ 	 	 	 	"eng": "Level ${segment} to ${segmentMaxLevel}"
  	 	 	}
  	 	}
  	},
@@ -777,7 +799,65 @@
  	 	 	 	"segmentDisplayName"
  	 	 	],
  	 	 	"trans": "Progression-${progressionId}",
- 	 	 	"eng": "Acquire 3 different Key Fragments from each dungeons located in ${segmentDisplayName},\r\n                these are used to create the key to next zone.\r\n                To craft the key, go to terminal in [HUB]"
+ 	 	 	"eng": "Acquire 3 different Key Fragments from each dungeons located in ${segmentDisplayName},\r\n                these are used to create the key to next zone.\r\n                To craft the key, go to terminal in [HUB]",
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"progressionId"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Progression-${progressionId}",
+ 	 	 	 	"eng": "Progression-${progressionId}"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"segmentDisplayName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Acquire 3 different Key Fragments from each dungeons located in ${segmentDisplayName},\r\n                these are used to create the key to next zone.\r\n                To craft the key, go to terminal in [HUB]",
+ 	 	 	 	"eng": "Acquire 3 different Key Fragments from each dungeons located in ${segmentDisplayName},\r\n                these are used to create the key to next zone.\r\n                To craft the key, go to terminal in [HUB]"
+ 	 	 	}
+ 	 	},
+ 	 	"random": {
+ 	 	 	"clearChallengeDungeon": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "dungeon warrior",
+ 	 	 	 	 	"eng": "dungeon warrior"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"clearDungeonCoOp": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "dungeon friends",
+ 	 	 	 	 	"eng": "dungeon friends"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"clearDungeon": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "dungeon crawler",
+ 	 	 	 	 	"eng": "dungeon crawler"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"dealDamage": {
+ 	 	 	 	"trans": "Deal Damage",
+ 	 	 	 	"eng": "Deal Damage"
+ 	 	 	},
+ 	 	 	"exp": {
+ 	 	 	 	"trans": "Gain exp",
+ 	 	 	 	"eng": "Gain exp"
+ 	 	 	},
+ 	 	 	"joinDungeon": {
+ 	 	 	 	"trans": "Join Dungeon",
+ 	 	 	 	"eng": "Join Dungeon"
+ 	 	 	},
+ 	 	 	"killEnemy": {
+ 	 	 	 	"trans": "Kill enemy",
+ 	 	 	 	"eng": "Kill enemy"
+ 	 	 	},
+ 	 	 	"getMoney": {
+ 	 	 	 	"trans": "Acquire Bitcoin",
+ 	 	 	 	"eng": "Acquire Bitcoin"
+ 	 	 	},
+ 	 	 	"print": {
+ 	 	 	 	"trans": "Molecular Printing",
+ 	 	 	 	"eng": "Molecular Printing"
+ 	 	 	}
  	 	}
  	},
  	"ui": {
@@ -786,12 +866,407 @@
  	 	 	 	"trans": "Aktif Oyuncu",
  	 	 	 	"eng": "players online"
  	 	 	}
+ 	 	},
+ 	 	"mobileQuestPage": {
+ 	 	 	"receiveReward": {
+ 	 	 	 	"trans": "Click to receive reward",
+ 	 	 	 	"eng": "Click to receive reward"
+ 	 	 	},
+ 	 	 	"inProgress": {
+ 	 	 	 	"trans": "Request in progress...",
+ 	 	 	 	"eng": "Request in progress..."
+ 	 	 	},
+ 	 	 	"watchAdRefresh": {
+ 	 	 	 	"trans": "Watch an AD to refresh quest",
+ 	 	 	 	"eng": "Watch an AD to refresh quest"
+ 	 	 	}
+ 	 	},
+ 	 	"map": {
+ 	 	 	"interactable": {
+ 	 	 	 	"trans": "Interactable",
+ 	 	 	 	"eng": "Interactable"
+ 	 	 	},
+ 	 	 	"travel": {
+ 	 	 	 	"trans": "Travel",
+ 	 	 	 	"eng": "Travel"
+ 	 	 	}
+ 	 	},
+ 	 	"playerDetails": {
+ 	 	 	"alias": {
+ 	 	 	 	"trans": "Alias",
+ 	 	 	 	"eng": "Alias"
+ 	 	 	},
+ 	 	 	"title": {
+ 	 	 	 	"trans": "title",
+ 	 	 	 	"eng": "title"
+ 	 	 	},
+ 	 	 	"gearScore": {
+ 	 	 	 	"trans": "Gear Score",
+ 	 	 	 	"eng": "Gear Score"
+ 	 	 	},
+ 	 	 	"location": {
+ 	 	 	 	"trans": "location",
+ 	 	 	 	"eng": "location"
+ 	 	 	},
+ 	 	 	"onlineStatus": {
+ 	 	 	 	"trans": "system link",
+ 	 	 	 	"eng": "system link"
+ 	 	 	},
+ 	 	 	"streetCred": {
+ 	 	 	 	"trans": "Street Cred",
+ 	 	 	 	"eng": "Street Cred"
+ 	 	 	},
+ 	 	 	"status": {
+ 	 	 	 	"trans": "Status",
+ 	 	 	 	"eng": "Status"
+ 	 	 	},
+ 	 	 	"numOfMember": {
+ 	 	 	 	"trans": "Number of members",
+ 	 	 	 	"eng": "Number of members"
+ 	 	 	},
+ 	 	 	"gangAction": {
+ 	 	 	 	"label": {
+ 	 	 	 	 	"trans": "Gang Actions",
+ 	 	 	 	 	"eng": "Gang Actions"
+ 	 	 	 	},
+ 	 	 	 	"kick": {
+ 	 	 	 	 	"trans": "Kick",
+ 	 	 	 	 	"eng": "Kick"
+ 	 	 	 	},
+ 	 	 	 	"transferLeadership": {
+ 	 	 	 	 	"trans": "Transfer Leadership",
+ 	 	 	 	 	"eng": "Transfer Leadership"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"playerActions": {
+ 	 	 	 	"label": {
+ 	 	 	 	 	"trans": "Player Actions",
+ 	 	 	 	 	"eng": "Player Actions"
+ 	 	 	 	},
+ 	 	 	 	"sendPrivateMsg": {
+ 	 	 	 	 	"trans": "Send private message",
+ 	 	 	 	 	"eng": "Send private message"
+ 	 	 	 	},
+ 	 	 	 	"sendGift": {
+ 	 	 	 	 	"trans": "Send Gift",
+ 	 	 	 	 	"eng": "Send Gift"
+ 	 	 	 	},
+ 	 	 	 	"inviteToGang": {
+ 	 	 	 	 	"trans": "Invite to Gang",
+ 	 	 	 	 	"eng": "Invite to Gang"
+ 	 	 	 	},
+ 	 	 	 	"addToFriend": {
+ 	 	 	 	 	"trans": "add to Friend List",
+ 	 	 	 	 	"eng": "add to Friend List"
+ 	 	 	 	},
+ 	 	 	 	"removeFromFriend": {
+ 	 	 	 	 	"trans": "Remove from Friend List",
+ 	 	 	 	 	"eng": "Remove from Friend List"
+ 	 	 	 	},
+ 	 	 	 	"giveStreetCred": {
+ 	 	 	 	 	"trans": "Give Street Cred",
+ 	 	 	 	 	"eng": "Give Street Cred"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"market": {
+ 	 	 	"lookAround": {
+ 	 	 	 	"trans": "Look around",
+ 	 	 	 	"eng": "Look around"
+ 	 	 	},
+ 	 	 	"myStall": {
+ 	 	 	 	"trans": "My Stall",
+ 	 	 	 	"eng": "My Stall"
+ 	 	 	},
+ 	 	 	"increaseSlot": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"nextSlotSize"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Increase slot to ${nextSlotSize}",
+ 	 	 	 	"eng": "Increase slot to ${nextSlotSize}"
+ 	 	 	}
+ 	 	},
+ 	 	"chat": {
+ 	 	 	"chat": {
+ 	 	 	 	"trans": "chat",
+ 	 	 	 	"eng": "chat"
+ 	 	 	},
+ 	 	 	"gang": {
+ 	 	 	 	"trans": "gang",
+ 	 	 	 	"eng": "gang"
+ 	 	 	},
+ 	 	 	"mail": {
+ 	 	 	 	"trans": "mail",
+ 	 	 	 	"eng": "mail"
+ 	 	 	},
+ 	 	 	"noti": {
+ 	 	 	 	"trans": "noti.",
+ 	 	 	 	"eng": "noti."
+ 	 	 	}
+ 	 	},
+ 	 	"profile": {
+ 	 	 	"profile": {
+ 	 	 	 	"trans": "Profile",
+ 	 	 	 	"eng": "Profile"
+ 	 	 	},
+ 	 	 	"update": {
+ 	 	 	 	"trans": "Updates",
+ 	 	 	 	"eng": "Updates"
+ 	 	 	},
+ 	 	 	"tutorial": {
+ 	 	 	 	"trans": "tutorial",
+ 	 	 	 	"eng": "tutorial"
+ 	 	 	},
+ 	 	 	"credits": {
+ 	 	 	 	"trans": "credits",
+ 	 	 	 	"eng": "credits"
+ 	 	 	}
+ 	 	},
+ 	 	"tutorial": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Tutorial",
+ 	 	 	 	"eng": "Tutorial"
+ 	 	 	}
+ 	 	},
+ 	 	"setting": {
+ 	 	 	"language": {
+ 	 	 	 	"trans": "Language",
+ 	 	 	 	"eng": "Language"
+ 	 	 	},
+ 	 	 	"langWarning": {
+ 	 	 	 	"trans": "This language pack is open source and contributed by our players, the text may not be fully translated and could contain mistakes. please feel free to edit and contribute from our Github page",
+ 	 	 	 	"eng": "This language pack is open source and contributed by our players, the text may not be fully translated and could contain mistakes. please feel free to edit and contribute from our Github page"
+ 	 	 	},
+ 	 	 	"playBackgroundMusic": {
+ 	 	 	 	"trans": "Mute background music",
+ 	 	 	 	"eng": "Mute background music"
+ 	 	 	},
+ 	 	 	"restartRequired": {
+ 	 	 	 	"trans": "App will self restart after save",
+ 	 	 	 	"eng": "App will self restart after save"
+ 	 	 	},
+ 	 	 	"save": {
+ 	 	 	 	"trans": "save",
+ 	 	 	 	"eng": "save"
+ 	 	 	},
+ 	 	 	"langGithub": {
+ 	 	 	 	"trans": "Help with translating the game",
+ 	 	 	 	"eng": "Help with translating the game"
+ 	 	 	}
  	 	}
  	},
  	"misc": {
  	 	"missing": {
  	 	 	"trans": "missing",
  	 	 	"eng": "missing"
+ 	 	},
+ 	 	"name": {
+ 	 	 	"trans": "Name",
+ 	 	 	"eng": "Name"
+ 	 	},
+ 	 	"tag": {
+ 	 	 	"trans": "Tag",
+ 	 	 	"eng": "Tag"
+ 	 	},
+ 	 	"donate": {
+ 	 	 	"trans": "Donate",
+ 	 	 	"eng": "Donate"
+ 	 	},
+ 	 	"noSecretKey": {
+ 	 	 	"trans": " No secret key",
+ 	 	 	"eng": " No secret key"
+ 	 	}
+ 	},
+ 	"statsType": {
+ 	 	"health": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Health",
+ 	 	 	 	"eng": "Health"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Increases maximum health",
+ 	 	 	 	"eng": "Increases maximum health"
+ 	 	 	}
+ 	 	},
+ 	 	"armor": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Armor",
+ 	 	 	 	"eng": "Armor"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Decrease damage taken from enemy",
+ 	 	 	 	"eng": "Decrease damage taken from enemy"
+ 	 	 	}
+ 	 	},
+ 	 	"healthRegen": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Health regen",
+ 	 	 	 	"eng": "Health regen"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Amount of health regenerated after end of combat",
+ 	 	 	 	"eng": "Amount of health regenerated after end of combat"
+ 	 	 	}
+ 	 	},
+ 	 	"damage": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Damage",
+ 	 	 	 	"eng": "Damage"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Directly influences amount of damage dealt by you",
+ 	 	 	 	"eng": "Directly influences amount of damage dealt by you"
+ 	 	 	}
+ 	 	},
+ 	 	"critChance": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Crit chance",
+ 	 	 	 	"eng": "Crit chance"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Chance of you executing a critical attack",
+ 	 	 	 	"eng": "Chance of you executing a critical attack"
+ 	 	 	}
+ 	 	},
+ 	 	"critDamage": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Crit damage",
+ 	 	 	 	"eng": "Crit damage"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Influence the critical attack damage you deal to the enemy",
+ 	 	 	 	"eng": "Influence the critical attack damage you deal to the enemy"
+ 	 	 	}
+ 	 	},
+ 	 	"maxShield": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "MaxShield",
+ 	 	 	 	"eng": "MaxShield"
+ 	 	 	}
+ 	 	},
+ 	 	"description": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Increases your shield capacity",
+ 	 	 	 	"eng": "Increases inventory capacity"
+ 	 	 	}
+ 	 	},
+ 	 	"escape": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Escape",
+ 	 	 	 	"eng": "Escape"
+ 	 	 	}
+ 	 	},
+ 	 	"stunChance": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Stun chance",
+ 	 	 	 	"eng": "Stun chance"
+ 	 	 	}
+ 	 	},
+ 	 	"evade": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Evade",
+ 	 	 	 	"eng": "Evade"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Chance of you dodging an enemies attack",
+ 	 	 	 	"eng": "Chance of you dodging an enemies attack"
+ 	 	 	}
+ 	 	},
+ 	 	"bargain": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Bargain",
+ 	 	 	 	"eng": "Bargain"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Influences the price when buying and selling from npc's or stores.",
+ 	 	 	 	"eng": "Influences the price when buying and selling from npc's or stores."
+ 	 	 	}
+ 	 	},
+ 	 	"pocket": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Pocket",
+ 	 	 	 	"eng": "Pocket"
+ 	 	 	}
+ 	 	},
+ 	 	"damageMultiplier": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Damage multiplier",
+ 	 	 	 	"eng": "Damage multiplier"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Increases damage by percentage",
+ 	 	 	 	"eng": "Increases damage by percentage"
+ 	 	 	}
+ 	 	},
+ 	 	"defenceMultiplier": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Defence multiplier",
+ 	 	 	 	"eng": "Defence multiplier"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Decreases damage received by percentage",
+ 	 	 	 	"eng": "Decreases damage received by percentage"
+ 	 	 	}
+ 	 	},
+ 	 	"stunEvade": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Stun evade",
+ 	 	 	 	"eng": "Stun evade"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Decreases chance of getting stunned",
+ 	 	 	 	"eng": "Decreases chance of getting stunned"
+ 	 	 	}
+ 	 	},
+ 	 	"shieldMultiplier": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Shield multiplier",
+ 	 	 	 	"eng": "Shield multiplier"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Increase strength of shield by percentage",
+ 	 	 	 	"eng": "Increase strength of shield by percentage"
+ 	 	 	}
+ 	 	},
+ 	 	"healMultiplier": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Healing multiplier",
+ 	 	 	 	"eng": "Healing multiplier"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Increases the potency of your heals",
+ 	 	 	 	"eng": "Increases the potency of your heals"
+ 	 	 	}
+ 	 	},
+ 	 	"timeReduction": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Time reduction",
+ 	 	 	 	"eng": "Time reduction"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Reduce AFK task required time",
+ 	 	 	 	"eng": "Reduce AFK task required time"
+ 	 	 	}
+ 	 	},
+ 	 	"expMultiplier": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Exp multiplier",
+ 	 	 	 	"eng": "Exp multiplier"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Increase EXP you receive",
+ 	 	 	 	"eng": "Increase EXP you receive"
+ 	 	 	}
+ 	 	},
+ 	 	"btcMultiplier": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "BTC multiplier",
+ 	 	 	 	"eng": "BTC multiplier"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Increase Bitcoins you receive",
+ 	 	 	 	"eng": "Increase Bitcoins you receive"
+ 	 	 	}
  	 	}
  	}
 }

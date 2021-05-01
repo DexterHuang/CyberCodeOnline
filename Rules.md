@@ -1,8 +1,8 @@
 
 
-#### Here at cco we have a friendly community. In order for everyone to have fun and enjoy the game please familiarise yourself with the rules. 
+#### Here at CCO, we hope to maintain a friendly community. In order for everyone to have fun and enjoy the game, please familiarise yourself with the rules. 
 
-> If you feel someone is violating one of the rules and no mods are around, take a screenshot and report it via DM on the [discord](https://discord.gg/JREx8xz).
+> If you feel someone is violating one of the rules and no moderators are around, take a screenshot and report it via direct messaging the moderators in the [Discord server](https://discord.gg/JREx8xz).
 
 ### Game Rules
 * No botting 
@@ -11,9 +11,9 @@
 * Don't exploit bugs
 * Keep names family friendly
 ### Chat Rules
+* Chat is for everyone, no one is excluded unless you break these rules
 * Stay family friendly
 * Be kind
-* Use English in global chat if possible
 * Don't: 
   - Be a jerk
   - Spam  

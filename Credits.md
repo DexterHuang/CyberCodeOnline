@@ -26,17 +26,26 @@ Proxxie
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)  
 [Kraken-Juice](https://github.com/Kraken-Juice)  
 [Murfex](https://github.com/Murfex)  
-NinkPT  
+MontyPython   
+[nopeholmes](https://github.com/nopeholmes)  
 [PsyB34R](https://www.instagram.com/psybearr)  
 Rinelle  
+Ryugarret  
+[Seo-na](https://github.com/Seo-na)  
 [SnRetro](https://github.com/SnRetro)  
-[nopeholmes](https://github.com/nopeholmes)  
 Unfairissimo  
+Wanna  
+
+## Proofreading
+[The_Wayfarrer](https://github.com/epixinvites)  
 
 ## Lore
 [byakkozen](https://github.com/byakkozen)  
 [bvcxz](https://github.com/bvcxz-cybercode)  
 [CelesMeh](https://www.instagram.com/celesmeh)  
+Exca  
+JashinL  
+MontyPython  
 [PsyB34R](https://www.instagram.com/psybearr)  
 SaberTron  
 Satan  
@@ -44,21 +53,29 @@ Satan
 [Tripplehelix](https://github.com/tripplehelix)  
 [twystd](https://github.com/twystd)  
 x123456789  
+siruelionn  
+Dragonmaster84  
+RezaRnew100  
+[Veyrin](https://github.com/darkrevelations)  
+WoLoLoiK  
 
 ## Dungeons
 [alfaice](https://github.com/alfaice)  
 [Deckeeper](https://github.com/deckeeper)  
 [DexterHuang](https://github.com/DexterHuang)  
+Dragonmaster84 
 [Hally](https://twitter.com/g_hally1996)  
 JashinL  
 [JEricaM](https://github.com/JEricaM)  
+kt0t0wh0  
 mika  
 Negative  
-NinkPT  
+MontyPython   
 RezaRnew100  
 SitiSchu  
 [Tripplehelix](https://github.com/tripplehelix)  
 Vega_Efsunborn  
+Willbur  
 zomg  
 [Veyrin](https://github.com/darkrevelations)  
 
@@ -68,7 +85,8 @@ zomg
 [Deckeeper](https://github.com/deckeeper)  
 [DexterHuang](https://github.com/DexterHuang)  
 Dzylx  
-[HBUnknown](https://www.facebook.com/john.bostwick.31)  
+HBUNKNOWN  
+Livingdead  
 [Misaki](https://github.com/Misaki290)  
 [Omnipotent_God](https://github.com/Omnipotent-God)  
 [s3rvant](https://github.com/s3rvant)  
@@ -81,7 +99,7 @@ App2
 Aquacky  
 [bvcxz](https://github.com/bvcxz-cybercode)  
 [byakkozen](https://github.com/byakkozen)   
-[Misaki](https://github.com/Misaki290)  
+Crescent_Grey  
 [Deckeeper](https://github.com/deckeeper)  
 [DexterHuang](https://github.com/DexterHuang)  
 FoxHunt  
@@ -93,10 +111,13 @@ Kaktusmonas
 [Luako](https://github.com/luako)  
 [MarcelWeidum](https://github.com/MarcelWeidum)  
 [me505](https://github.com/me505)  
+[Misaki](https://github.com/Misaki290)  
 [Montero](https://github.com/CCOLucille2)  
 [mxjoda](https://twitter.com/mxjoda)  
-NinkPT  
+MontyPython   
+[nopeholmes](https://github.com/nopeholmes)  
 [PsyB34R](https://www.instagram.com/psybearr)  
+Redinator  
 [Ryujin](https://github.com/Ryujin-cybercode)  
 Satan  
 [Tripplehelix](https://github.com/tripplehelix)  
@@ -106,13 +127,16 @@ Satan
 [Archibaald](https://github.com/Archibaald-dev)  
 Bronzer  
 [byakkozen](https://github.com/byakkozen)  
+Crescent_Grey  
 [DexterHuang](https://github.com/DexterHuang)  
+Exca  
 [Hally](https://twitter.com/g_hally1996)  
 [Kimi Leta](https://github.com/kimileta)  
+KingRiver  
 [RaykouTJ](https://github.com/HoneySyrup)  
 [levi middleton](https://github.com/levi-middleton)   
 [Misaki](https://github.com/Misaki290)  
-Mobius-1  
+Mobius_One  
 Pikkon85  
 roucoupute2  
 RsKaiser  

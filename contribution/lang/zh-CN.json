@@ -220,10 +220,17 @@
  	 	 	"backToMainHub": {
  	 	 	 	"name": {
  	 	 	 	 	"trans": "返回${mainHubName}",
- 	 	 	 	 	"eng": "Return to ${mainHubName}",
+ 	 	 	 	 	"eng": "Back to city center",
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"mainHubName"
  	 	 	 	 	]
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"mainHubName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Return to ${mainHubName}",
+ 	 	 	 	 	"eng": "Return to ${mainHubName}"
  	 	 	 	}
  	 	 	},
  	 	 	"toSegment": {
@@ -279,6 +286,21 @@
  	 	 	 	 	"trans": "前往${zoneName}",
  	 	 	 	 	"eng": "Go to ${zoneName}"
  	 	 	 	}
+ 	 	 	},
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"segmentDisplayName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${segmentDisplayName} station",
+ 	 	 	 	"eng": "${segmentDisplayName} station"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"segment",
+ 	 	 	 	 	"segmentMaxLevel"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Level ${segment} to ${segmentMaxLevel}",
+ 	 	 	 	"eng": "Level ${segment} to ${segmentMaxLevel}"
  	 	 	}
  	 	}
  	},
@@ -411,7 +433,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"levelName"
  	 	 	 	],
- 	 	 	 	"trans": "一个承载了某个单位的记忆与经验的碎片, 使用后你将会获得其中关于 ${levelName} 的经验。",
+ 	 	 	 	"trans": "一个承载了某个单位的记忆与经验的碎片, 使用后你将会获得其中关于${levelName}的经验。",
  	 	 	 	"eng": "A shard that contains someone's memory and experience, if used you may gain ${levelName} experience from this"
  	 	 	}
  	 	},
@@ -421,7 +443,7 @@
  	 	 	 	 	"segmentDisplayName",
  	 	 	 	 	"fragmentNum"
  	 	 	 	],
- 	 	 	 	"trans": "${segmentDisplayName} 密钥 ${fragmentNum}",
+ 	 	 	 	"trans": "${segmentDisplayName}密钥 ${fragmentNum}",
  	 	 	 	"eng": "${segmentDisplayName} Key Fragment ${fragmentNum}"
  	 	 	},
  	 	 	"description": {
@@ -438,14 +460,14 @@
  	 	 	 	 	"tierName",
  	 	 	 	 	"typeName"
  	 	 	 	],
- 	 	 	 	"trans": "${tierName} ${typeName} 缓存体",
+ 	 	 	 	"trans": "${tierName}${typeName}缓存体",
  	 	 	 	"eng": "${tierName} ${typeName} cache"
  	 	 	},
  	 	 	"description": {
  	 	 	 	"vars": [
  	 	 	 	 	"typeName"
  	 	 	 	],
- 	 	 	 	"trans": "一个含有 ${typeName} 信息的分子合成缓存, \r\n                    你可以去市中心使用三维分子合成机来通过它打印一个 ${typeName}。\r\n                    \r\n                    来自前者的建议：合成装备的等级将取决于你分子合成等级技术的高低,\r\n                    所以最好先使用低等级的缓存体, 因为合成它们需要更少的比特币并且对提升你的分子合成等级有帮助。",
+ 	 	 	 	"trans": "一个含有${typeName}信息的分子合成缓存, \r\n                    你可以去市中心使用三维分子合成机来通过它打印一个${typeName}。\r\n                    \r\n                    来自前者的建议：合成装备的等级将取决于你分子合成等级技术的高低,\r\n                    所以最好先使用低等级的缓存体, 因为合成它们需要更少的比特币并且对提升你的分子合成等级有帮助。",
  	 	 	 	"eng": "A ${typeName} cache contains information used for Molecular 3D Printing, \r\n                    You can create a ${typeName} with the [Molecular 3d Printer] at [Central Hub].\r\n                    \r\n                    Pro tip: The level of item you get from printing is determined by your Printing Rank,\r\n                    so always print the trash ones first, as they cost less and useful to level up your Printing Rank"
  	 	 	}
  	 	},
@@ -481,11 +503,11 @@
  	 	},
  	 	"healing1": {
  	 	 	"name": {
- 	 	 	 	"trans": "消痛灵",
+ 	 	 	 	"trans": "痛立消",
  	 	 	 	"eng": "Pain Away"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "腰酸背痛腿抽筋？消痛灵™！消痛必灵！",
+ 	 	 	 	"trans": "腰酸背痛腿抽筋？快用痛立消™，用后痛必消！",
  	 	 	 	"eng": "Do you have headache? use Pain Away™ to relief your pain!"
  	 	 	}
  	 	},
@@ -551,161 +573,161 @@
  	 	},
  	 	"healing8": {
  	 	 	"name": {
- 	 	 	 	"trans": "Rare Nano Medic Bot",
+ 	 	 	 	"trans": "稀有纳米医疗机器人",
  	 	 	 	"eng": "Rare Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "injectable nano machines that is for advance military use, capable of patching injury in combat situation",
+ 	 	 	 	"trans": "军队内部为特殊情况生产的注射性纳米机器, 可以在战斗中对身体进行全面的修复。",
  	 	 	 	"eng": "injectable nano machines that is for advance military use, capable of patching injury in combat situation"
  	 	 	}
  	 	},
  	 	"healingArea1": {
  	 	 	"name": {
- 	 	 	 	"trans": "Pain Away Spray",
+ 	 	 	 	"trans": "痛立消喷雾",
  	 	 	 	"eng": "Pain Away Spray"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Do you and your friend have headache together? use Pain Away Spray™ to relief your pain!",
+ 	 	 	 	"trans": "你和你的朋友腰都酸背都痛腿都抽筋？快用痛立消喷雾™，治疗多人不当误!",
  	 	 	 	"eng": "Do you and your friend have headache together? use Pain Away Spray™ to relief your pain!"
  	 	 	}
  	 	},
  	 	"healingArea2": {
  	 	 	"name": {
- 	 	 	 	"trans": "Degraded Repair drone",
+ 	 	 	 	"trans": "降级的维护无人机",
  	 	 	 	"eng": "Degraded Repair drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Old repair drone, capable of repair or heal nearby players",
+ 	 	 	 	"trans": "老式的维护无人机，有着在战斗中恢复附近玩家的能力。",
  	 	 	 	"eng": "Old repair drone, capable of repair or heal nearby players"
  	 	 	}
  	 	},
  	 	"healingArea3": {
  	 	 	"name": {
- 	 	 	 	"trans": "Degraded nano medic drone",
+ 	 	 	 	"trans": "降级的纳米医疗无人机",
  	 	 	 	"eng": "Degraded nano medic drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Old nano drone, capable of dispatching thousands of nano machines to heal nearby players",
+ 	 	 	 	"trans": "老式的纳米医疗无人机，有着在战斗中恢复附近玩家的能力。",
  	 	 	 	"eng": "Old nano drone, capable of dispatching thousands of nano machines to heal nearby players"
  	 	 	}
  	 	},
  	 	"healingArea4": {
  	 	 	"name": {
- 	 	 	 	"trans": "Nano medic drone",
+ 	 	 	 	"trans": "纳米医疗无人机",
  	 	 	 	"eng": "Nano medic drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "capable of dispatching thousands of nano machines to heal nearby players",
+ 	 	 	 	"trans": "可以在空中分布上千个纳米机器人，恢复附近的玩家。",
  	 	 	 	"eng": "capable of dispatching thousands of nano machines to heal nearby players"
  	 	 	}
  	 	},
  	 	"healingArea5": {
  	 	 	"name": {
- 	 	 	 	"trans": "Military Nano medic drone",
+ 	 	 	 	"trans": "军用纳米医疗无人机",
  	 	 	 	"eng": "Military Nano medic drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "capable of dispatching thousands of military nano machines to heal nearby players",
+ 	 	 	 	"trans": "可以在空气中部署上千个军用纳米机器人，治疗附近的玩家。",
  	 	 	 	"eng": "capable of dispatching thousands of military nano machines to heal nearby players"
  	 	 	}
  	 	},
  	 	"healingArea6": {
  	 	 	"name": {
- 	 	 	 	"trans": "Advance Nano medic drone",
+ 	 	 	 	"trans": "进阶纳米医疗无人机",
  	 	 	 	"eng": "Advance Nano medic drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "capable of dispatching thousands of advanced nano machines to heal nearby players",
+ 	 	 	 	"trans": "可以在空气中部署上千个精制军用纳米机器人，更高效地治疗附近的玩家。",
  	 	 	 	"eng": "capable of dispatching thousands of advanced nano machines to heal nearby players"
  	 	 	}
  	 	},
  	 	"healingArea7": {
  	 	 	"name": {
- 	 	 	 	"trans": "High Quality Nano medic drone",
+ 	 	 	 	"trans": "高级纳米医疗无人机",
  	 	 	 	"eng": "High Quality Nano medic drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "capable of dispatching thousands of advanced nano machines to heal nearby players",
+ 	 	 	 	"trans": "可以在空气中部署上千个高级军用纳米机器人，快速并高效地治疗附近的玩家。",
  	 	 	 	"eng": "capable of dispatching thousands of advanced nano machines to heal nearby players"
  	 	 	}
  	 	},
  	 	"healingArea8": {
  	 	 	"name": {
- 	 	 	 	"trans": "Rare Nano medic drone",
+ 	 	 	 	"trans": "稀有纳米医疗无人机",
  	 	 	 	"eng": "Rare Nano medic drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "capable of dispatching thousands of advanced nano machines to heal nearby players",
+ 	 	 	 	"trans": "可以在空气中部署成千上万的个稀有纳米机器人，全面地治疗附近的玩家。",
  	 	 	 	"eng": "capable of dispatching thousands of advanced nano machines to heal nearby players"
  	 	 	}
  	 	},
  	 	"medicalTechParts": {
  	 	 	"name": {
- 	 	 	 	"trans": "Medical Tech Parts",
+ 	 	 	 	"trans": "医疗学元件",
  	 	 	 	"eng": "Medical Tech Parts"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Bits and pieces of used medical tech, this can be used to craft healing items if you understand how",
+ 	 	 	 	"trans": "用过的医疗仪器的碎片和元件，如果知道方法的话，你可以用它们来制造医疗物品。",
  	 	 	 	"eng": "Bits and pieces of used medical tech, this can be used to craft healing items if you understand how"
  	 	 	}
  	 	},
  	 	"expMemory": {
  	 	 	"name": {
- 	 	 	 	"trans": "Experience Memory",
+ 	 	 	 	"trans": "经验内存单元",
  	 	 	 	"eng": "Experience Memory"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Memory bank contains someone's memory, if used you may gain experience from this",
+ 	 	 	 	"trans": "内含某个单位记忆的存储体，融合后你也许会获得其中的经验。",
  	 	 	 	"eng": "Memory bank contains someone's memory, if used you may gain experience from this"
  	 	 	}
  	 	},
  	 	"hashProcessor": {
  	 	 	"name": {
- 	 	 	 	"trans": "Hash Processor",
+ 	 	 	 	"trans": "散列处理器",
  	 	 	 	"eng": "Hash Processor"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Can be used as a dedicated hardware for BitCoin mining, \r\n        however due to overclocking, the processor is easily burntout,\r\n        You may use this to mine BitCoin at [JOB HUB]",
+ 	 	 	 	"trans": "一个有效的比特币挖取硬件, \r\n        可惜超频的使用会让其轻易地烧毁,\r\n        你可以在[工作中心]消耗它来获取比特币。",
  	 	 	 	"eng": "Can be used as a dedicated hardware for BitCoin mining, \r\n        however due to overclocking, the processor is easily burntout,\r\n        You may use this to mine BitCoin at [JOB HUB]"
  	 	 	}
  	 	},
  	 	"afkAcceleration": {
  	 	 	"name": {
- 	 	 	 	"trans": "Synaptic Acceleration Transmitter",
+ 	 	 	 	"trans": "神经突触加速指令发射器",
  	 	 	 	"eng": "Synaptic Acceleration Transmitter"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Broadcasts exploits to all cybernetically connected users, overclock their synaptic processors thus allowing super-human mental capacity for short period of time.\r\n        \r\n        When used, gives Global Buff to all players online, allowing them to complete AFK tasks in +5% speed for 10 minutes (stackable)",
+ 	 	 	 	"trans": "向所有接入神经集成服务器的用户传输神经元开发指令，让他们的突触处理器进行超频运作，从而在短时间内使他们获得更高的思维能力。\r\n        \r\n        此模组激发后将会对所有线上玩家给予加持，在十分钟内使他们的工作效率增加百分之五（可叠加）。",
  	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, overclock their synaptic processors thus allowing super-human mental capacity for short period of time.\r\n        \r\n        When used, gives Global Buff to all players online, allowing them to complete AFK tasks in +5% speed for 10 minutes (stackable)"
  	 	 	}
  	 	},
  	 	"afkAcceleration2": {
  	 	 	"name": {
- 	 	 	 	"trans": "Rare Synaptic Acceleration Transmitter",
+ 	 	 	 	"trans": "高级神经突触加速指令发射器",
  	 	 	 	"eng": "Rare Synaptic Acceleration Transmitter"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Broadcasts exploits to all cybernetically connected users, overclock their synaptic processors thus allowing super-human mental capacity for short period of time.\r\n        \r\n        When used, gives Global Buff to all players online, allowing them to complete AFK tasks in +40% speed for 20 minutes (stackable)",
+ 	 	 	 	"trans": "向所有接入神经集成服务器的用户传输高级神经元开发指令，让他们的突触处理器进行超频运作，从而在短时间内提供远超常人的思维能力。\r\n        \r\n        此模组激发后将会对所有线上玩家给予加持，在二十分钟内使他们的工作效率增加百分之四十（可叠加）。",
  	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, overclock their synaptic processors thus allowing super-human mental capacity for short period of time.\r\n        \r\n        When used, gives Global Buff to all players online, allowing them to complete AFK tasks in +40% speed for 20 minutes (stackable)"
  	 	 	}
  	 	},
  	 	"expMultiplier": {
  	 	 	"name": {
- 	 	 	 	"trans": "Frontal Cortex Optimization Transmitter",
+ 	 	 	 	"trans": "额叶皮层优化指令发射器",
  	 	 	 	"eng": "Frontal Cortex Optimization Transmitter"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Broadcasts exploits to all cybernetically connected users, enhance their Frontal Cortex integration with cyberwares installed, thus increase memory capability of the user.\r\n\r\n        When used, gives Global Buff to all players online, increase EXP gained to 180% for 20 minutes\r\n        ",
+ 	 	 	 	"trans": "向所有接入神经集成服务器的用户传输脑部开发指令，激发用户额叶皮层的潜能，与植入物一体化，以此来增强个体的记忆储存能力。\r\n\r\n        此模组激发后将会对所有线上玩家给予加持，在二十分钟内使他们的经验获取量增加至百分之一百八十。\r\n        ",
  	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, enhance their Frontal Cortex integration with cyberwares installed, thus increase memory capability of the user.\r\n\r\n        When used, gives Global Buff to all players online, increase EXP gained to 180% for 20 minutes\r\n        "
  	 	 	}
  	 	},
  	 	"btcMultiplier": {
  	 	 	"name": {
- 	 	 	 	"trans": "Transaction Exploit Transmitter",
+ 	 	 	 	"trans": "交易算法扩展指令发射器",
  	 	 	 	"eng": "Transaction Exploit Transmitter"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Broadcasts exploits to all cybernetically connected users, argument their transaction algorithm temporary, allowing user to receive bonus  ${Config.CURRENCY_NAME}.\r\n\r\n        When used, gives Global Buff to all players online, increase BitCoin gained by 40% for 20 minutes (stackable)\r\n        ",
+ 	 	 	 	"trans": "向所有接入神经集成服务器的用户传输交易算法开发指令，短时间内扩展并改进用户们的交易算法，让用户获得更多的${Config.CURRENCY_NAME}.\r\n\r\n        此模组激发后将会对所有线上玩家给予加持， 在二十分钟内使他们的比特币获取量增加百分之四十（可叠加）。\r\n        ",
  	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, argument their transaction algorithm temporary, allowing user to receive bonus  ${Config.CURRENCY_NAME}.\r\n\r\n        When used, gives Global Buff to all players online, increase BitCoin gained by 40% for 20 minutes (stackable)\r\n        "
  	 	 	}
  	 	}
@@ -773,8 +795,66 @@
  	 	 	"vars": [
  	 	 	 	"segmentDisplayName"
  	 	 	],
- 	 	 	"trans": "Progression-${progressionId}",
- 	 	 	"eng": "Acquire 3 different Key Fragments from each dungeons located in ${segmentDisplayName},\r\n                these are used to create the key to next zone.\r\n                To craft the key, go to terminal in [HUB]"
+ 	 	 	"trans": "在${segmentDisplayName}的各副本中获取共三个密钥碎片，\r\n                通过它们来获取进入下个区域的通行密钥\r\n                请去位于[市中心]的[终端机]来破解并获得密钥。",
+ 	 	 	"eng": "Acquire 3 different Key Fragments from each dungeons located in ${segmentDisplayName},\r\n                these are used to create the key to next zone.\r\n                To craft the key, go to terminal in [HUB]",
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"progressionId"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Progression-${progressionId}",
+ 	 	 	 	"eng": "Progression-${progressionId}"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"segmentDisplayName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Acquire 3 different Key Fragments from each dungeons located in ${segmentDisplayName},\r\n                these are used to create the key to next zone.\r\n                To craft the key, go to terminal in [HUB]",
+ 	 	 	 	"eng": "Acquire 3 different Key Fragments from each dungeons located in ${segmentDisplayName},\r\n                these are used to create the key to next zone.\r\n                To craft the key, go to terminal in [HUB]"
+ 	 	 	}
+ 	 	},
+ 	 	"random": {
+ 	 	 	"clearChallengeDungeon": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "dungeon warrior",
+ 	 	 	 	 	"eng": "dungeon warrior"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"clearDungeonCoOp": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "dungeon friends",
+ 	 	 	 	 	"eng": "dungeon friends"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"clearDungeon": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "dungeon crawler",
+ 	 	 	 	 	"eng": "dungeon crawler"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"dealDamage": {
+ 	 	 	 	"trans": "Deal Damage",
+ 	 	 	 	"eng": "Deal Damage"
+ 	 	 	},
+ 	 	 	"exp": {
+ 	 	 	 	"trans": "Gain exp",
+ 	 	 	 	"eng": "Gain exp"
+ 	 	 	},
+ 	 	 	"joinDungeon": {
+ 	 	 	 	"trans": "Join Dungeon",
+ 	 	 	 	"eng": "Join Dungeon"
+ 	 	 	},
+ 	 	 	"killEnemy": {
+ 	 	 	 	"trans": "Kill enemy",
+ 	 	 	 	"eng": "Kill enemy"
+ 	 	 	},
+ 	 	 	"getMoney": {
+ 	 	 	 	"trans": "Acquire Bitcoin",
+ 	 	 	 	"eng": "Acquire Bitcoin"
+ 	 	 	},
+ 	 	 	"print": {
+ 	 	 	 	"trans": "Molecular Printing",
+ 	 	 	 	"eng": "Molecular Printing"
+ 	 	 	}
  	 	}
  	},
  	"ui": {
@@ -783,12 +863,407 @@
  	 	 	 	"trans": "在线玩家",
  	 	 	 	"eng": "players online"
  	 	 	}
+ 	 	},
+ 	 	"mobileQuestPage": {
+ 	 	 	"receiveReward": {
+ 	 	 	 	"trans": "Click to receive reward",
+ 	 	 	 	"eng": "Click to receive reward"
+ 	 	 	},
+ 	 	 	"inProgress": {
+ 	 	 	 	"trans": "Request in progress...",
+ 	 	 	 	"eng": "Request in progress..."
+ 	 	 	},
+ 	 	 	"watchAdRefresh": {
+ 	 	 	 	"trans": "Watch an AD to refresh quest",
+ 	 	 	 	"eng": "Watch an AD to refresh quest"
+ 	 	 	}
+ 	 	},
+ 	 	"map": {
+ 	 	 	"interactable": {
+ 	 	 	 	"trans": "Interactable",
+ 	 	 	 	"eng": "Interactable"
+ 	 	 	},
+ 	 	 	"travel": {
+ 	 	 	 	"trans": "Travel",
+ 	 	 	 	"eng": "Travel"
+ 	 	 	}
+ 	 	},
+ 	 	"playerDetails": {
+ 	 	 	"alias": {
+ 	 	 	 	"trans": "Alias",
+ 	 	 	 	"eng": "Alias"
+ 	 	 	},
+ 	 	 	"title": {
+ 	 	 	 	"trans": "title",
+ 	 	 	 	"eng": "title"
+ 	 	 	},
+ 	 	 	"gearScore": {
+ 	 	 	 	"trans": "Gear Score",
+ 	 	 	 	"eng": "Gear Score"
+ 	 	 	},
+ 	 	 	"location": {
+ 	 	 	 	"trans": "location",
+ 	 	 	 	"eng": "location"
+ 	 	 	},
+ 	 	 	"onlineStatus": {
+ 	 	 	 	"trans": "system link",
+ 	 	 	 	"eng": "system link"
+ 	 	 	},
+ 	 	 	"streetCred": {
+ 	 	 	 	"trans": "Street Cred",
+ 	 	 	 	"eng": "Street Cred"
+ 	 	 	},
+ 	 	 	"status": {
+ 	 	 	 	"trans": "Status",
+ 	 	 	 	"eng": "Status"
+ 	 	 	},
+ 	 	 	"numOfMember": {
+ 	 	 	 	"trans": "Number of members",
+ 	 	 	 	"eng": "Number of members"
+ 	 	 	},
+ 	 	 	"gangAction": {
+ 	 	 	 	"label": {
+ 	 	 	 	 	"trans": "Gang Actions",
+ 	 	 	 	 	"eng": "Gang Actions"
+ 	 	 	 	},
+ 	 	 	 	"kick": {
+ 	 	 	 	 	"trans": "Kick",
+ 	 	 	 	 	"eng": "Kick"
+ 	 	 	 	},
+ 	 	 	 	"transferLeadership": {
+ 	 	 	 	 	"trans": "Transfer Leadership",
+ 	 	 	 	 	"eng": "Transfer Leadership"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"playerActions": {
+ 	 	 	 	"label": {
+ 	 	 	 	 	"trans": "Player Actions",
+ 	 	 	 	 	"eng": "Player Actions"
+ 	 	 	 	},
+ 	 	 	 	"sendPrivateMsg": {
+ 	 	 	 	 	"trans": "Send private message",
+ 	 	 	 	 	"eng": "Send private message"
+ 	 	 	 	},
+ 	 	 	 	"sendGift": {
+ 	 	 	 	 	"trans": "Send Gift",
+ 	 	 	 	 	"eng": "Send Gift"
+ 	 	 	 	},
+ 	 	 	 	"inviteToGang": {
+ 	 	 	 	 	"trans": "Invite to Gang",
+ 	 	 	 	 	"eng": "Invite to Gang"
+ 	 	 	 	},
+ 	 	 	 	"addToFriend": {
+ 	 	 	 	 	"trans": "add to Friend List",
+ 	 	 	 	 	"eng": "add to Friend List"
+ 	 	 	 	},
+ 	 	 	 	"removeFromFriend": {
+ 	 	 	 	 	"trans": "Remove from Friend List",
+ 	 	 	 	 	"eng": "Remove from Friend List"
+ 	 	 	 	},
+ 	 	 	 	"giveStreetCred": {
+ 	 	 	 	 	"trans": "Give Street Cred",
+ 	 	 	 	 	"eng": "Give Street Cred"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"market": {
+ 	 	 	"lookAround": {
+ 	 	 	 	"trans": "Look around",
+ 	 	 	 	"eng": "Look around"
+ 	 	 	},
+ 	 	 	"myStall": {
+ 	 	 	 	"trans": "My Stall",
+ 	 	 	 	"eng": "My Stall"
+ 	 	 	},
+ 	 	 	"increaseSlot": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"nextSlotSize"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Increase slot to ${nextSlotSize}",
+ 	 	 	 	"eng": "Increase slot to ${nextSlotSize}"
+ 	 	 	}
+ 	 	},
+ 	 	"chat": {
+ 	 	 	"chat": {
+ 	 	 	 	"trans": "chat",
+ 	 	 	 	"eng": "chat"
+ 	 	 	},
+ 	 	 	"gang": {
+ 	 	 	 	"trans": "gang",
+ 	 	 	 	"eng": "gang"
+ 	 	 	},
+ 	 	 	"mail": {
+ 	 	 	 	"trans": "mail",
+ 	 	 	 	"eng": "mail"
+ 	 	 	},
+ 	 	 	"noti": {
+ 	 	 	 	"trans": "noti.",
+ 	 	 	 	"eng": "noti."
+ 	 	 	}
+ 	 	},
+ 	 	"profile": {
+ 	 	 	"profile": {
+ 	 	 	 	"trans": "Profile",
+ 	 	 	 	"eng": "Profile"
+ 	 	 	},
+ 	 	 	"update": {
+ 	 	 	 	"trans": "Updates",
+ 	 	 	 	"eng": "Updates"
+ 	 	 	},
+ 	 	 	"tutorial": {
+ 	 	 	 	"trans": "tutorial",
+ 	 	 	 	"eng": "tutorial"
+ 	 	 	},
+ 	 	 	"credits": {
+ 	 	 	 	"trans": "credits",
+ 	 	 	 	"eng": "credits"
+ 	 	 	}
+ 	 	},
+ 	 	"tutorial": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Tutorial",
+ 	 	 	 	"eng": "Tutorial"
+ 	 	 	}
+ 	 	},
+ 	 	"setting": {
+ 	 	 	"language": {
+ 	 	 	 	"trans": "Language",
+ 	 	 	 	"eng": "Language"
+ 	 	 	},
+ 	 	 	"langWarning": {
+ 	 	 	 	"trans": "This language pack is open source and contributed by our players, the text may not be fully translated and could contain mistakes. please feel free to edit and contribute from our Github page",
+ 	 	 	 	"eng": "This language pack is open source and contributed by our players, the text may not be fully translated and could contain mistakes. please feel free to edit and contribute from our Github page"
+ 	 	 	},
+ 	 	 	"playBackgroundMusic": {
+ 	 	 	 	"trans": "Mute background music",
+ 	 	 	 	"eng": "Mute background music"
+ 	 	 	},
+ 	 	 	"restartRequired": {
+ 	 	 	 	"trans": "App will self restart after save",
+ 	 	 	 	"eng": "App will self restart after save"
+ 	 	 	},
+ 	 	 	"save": {
+ 	 	 	 	"trans": "save",
+ 	 	 	 	"eng": "save"
+ 	 	 	},
+ 	 	 	"langGithub": {
+ 	 	 	 	"trans": "Help with translating the game",
+ 	 	 	 	"eng": "Help with translating the game"
+ 	 	 	}
  	 	}
  	},
  	"misc": {
  	 	"missing": {
- 	 	 	"trans": "missing",
+ 	 	 	"trans": "缺少",
  	 	 	"eng": "missing"
+ 	 	},
+ 	 	"name": {
+ 	 	 	"trans": "Name",
+ 	 	 	"eng": "Name"
+ 	 	},
+ 	 	"tag": {
+ 	 	 	"trans": "Tag",
+ 	 	 	"eng": "Tag"
+ 	 	},
+ 	 	"donate": {
+ 	 	 	"trans": "Donate",
+ 	 	 	"eng": "Donate"
+ 	 	},
+ 	 	"noSecretKey": {
+ 	 	 	"trans": " No secret key",
+ 	 	 	"eng": " No secret key"
+ 	 	}
+ 	},
+ 	"statsType": {
+ 	 	"health": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Health",
+ 	 	 	 	"eng": "Health"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Increases maximum health",
+ 	 	 	 	"eng": "Increases maximum health"
+ 	 	 	}
+ 	 	},
+ 	 	"armor": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Armor",
+ 	 	 	 	"eng": "Armor"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Decrease damage taken from enemy",
+ 	 	 	 	"eng": "Decrease damage taken from enemy"
+ 	 	 	}
+ 	 	},
+ 	 	"healthRegen": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Health regen",
+ 	 	 	 	"eng": "Health regen"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Amount of health regenerated after end of combat",
+ 	 	 	 	"eng": "Amount of health regenerated after end of combat"
+ 	 	 	}
+ 	 	},
+ 	 	"damage": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Damage",
+ 	 	 	 	"eng": "Damage"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Directly influences amount of damage dealt by you",
+ 	 	 	 	"eng": "Directly influences amount of damage dealt by you"
+ 	 	 	}
+ 	 	},
+ 	 	"critChance": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Crit chance",
+ 	 	 	 	"eng": "Crit chance"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Chance of you executing a critical attack",
+ 	 	 	 	"eng": "Chance of you executing a critical attack"
+ 	 	 	}
+ 	 	},
+ 	 	"critDamage": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Crit damage",
+ 	 	 	 	"eng": "Crit damage"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Influence the critical attack damage you deal to the enemy",
+ 	 	 	 	"eng": "Influence the critical attack damage you deal to the enemy"
+ 	 	 	}
+ 	 	},
+ 	 	"maxShield": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "MaxShield",
+ 	 	 	 	"eng": "MaxShield"
+ 	 	 	}
+ 	 	},
+ 	 	"description": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Increases your shield capacity",
+ 	 	 	 	"eng": "Increases inventory capacity"
+ 	 	 	}
+ 	 	},
+ 	 	"escape": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Escape",
+ 	 	 	 	"eng": "Escape"
+ 	 	 	}
+ 	 	},
+ 	 	"stunChance": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Stun chance",
+ 	 	 	 	"eng": "Stun chance"
+ 	 	 	}
+ 	 	},
+ 	 	"evade": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Evade",
+ 	 	 	 	"eng": "Evade"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Chance of you dodging an enemies attack",
+ 	 	 	 	"eng": "Chance of you dodging an enemies attack"
+ 	 	 	}
+ 	 	},
+ 	 	"bargain": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Bargain",
+ 	 	 	 	"eng": "Bargain"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Influences the price when buying and selling from npc's or stores.",
+ 	 	 	 	"eng": "Influences the price when buying and selling from npc's or stores."
+ 	 	 	}
+ 	 	},
+ 	 	"pocket": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Pocket",
+ 	 	 	 	"eng": "Pocket"
+ 	 	 	}
+ 	 	},
+ 	 	"damageMultiplier": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Damage multiplier",
+ 	 	 	 	"eng": "Damage multiplier"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Increases damage by percentage",
+ 	 	 	 	"eng": "Increases damage by percentage"
+ 	 	 	}
+ 	 	},
+ 	 	"defenceMultiplier": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Defence multiplier",
+ 	 	 	 	"eng": "Defence multiplier"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Decreases damage received by percentage",
+ 	 	 	 	"eng": "Decreases damage received by percentage"
+ 	 	 	}
+ 	 	},
+ 	 	"stunEvade": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Stun evade",
+ 	 	 	 	"eng": "Stun evade"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Decreases chance of getting stunned",
+ 	 	 	 	"eng": "Decreases chance of getting stunned"
+ 	 	 	}
+ 	 	},
+ 	 	"shieldMultiplier": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Shield multiplier",
+ 	 	 	 	"eng": "Shield multiplier"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Increase strength of shield by percentage",
+ 	 	 	 	"eng": "Increase strength of shield by percentage"
+ 	 	 	}
+ 	 	},
+ 	 	"healMultiplier": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Healing multiplier",
+ 	 	 	 	"eng": "Healing multiplier"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Increases the potency of your heals",
+ 	 	 	 	"eng": "Increases the potency of your heals"
+ 	 	 	}
+ 	 	},
+ 	 	"timeReduction": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Time reduction",
+ 	 	 	 	"eng": "Time reduction"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Reduce AFK task required time",
+ 	 	 	 	"eng": "Reduce AFK task required time"
+ 	 	 	}
+ 	 	},
+ 	 	"expMultiplier": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Exp multiplier",
+ 	 	 	 	"eng": "Exp multiplier"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Increase EXP you receive",
+ 	 	 	 	"eng": "Increase EXP you receive"
+ 	 	 	}
+ 	 	},
+ 	 	"btcMultiplier": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "BTC multiplier",
+ 	 	 	 	"eng": "BTC multiplier"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Increase Bitcoins you receive",
+ 	 	 	 	"eng": "Increase Bitcoins you receive"
+ 	 	 	}
  	 	}
  	}
 }

@@ -1,7 +1,7 @@
 ![CyberCode Online Logo](/resources/readme/logo-black.png)
 
 *CyberCode Online is a **browser & mobile based MMORPG game** that is **disguised as VS Code in the browser***
-*where you click functions and variables in the ever changing source code to navigate your character in a Cyber Punk inspired world*
+*where you click functions and variables in the ever changing source code to navigate your character in a Cyber Punk inspired world.*
 
 It is meant to be played casually with AFK tasks, leveling and Crafting. Includes a huge array of randomly generated enemies, dungeons and locations pulled from a user contributed list. The game provides a platform for everyone to chitchat and slack!
 
@@ -13,9 +13,9 @@ It is meant to be played casually with AFK tasks, leveling and Crafting. Include
 
 For Bugs and Issues [create an issue on this repo](https://github.com/DexterHuang/CyberCodeOnline/issues).
 
-If there is a serious exploit please **don't** create an issue here, email me directly at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com)
+If there is a serious exploit please **don't** create an issue here, email me directly at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com).
 
-Requests and suggestions can be left on the [discord.link/cco](https://discord.link/cco).
+Requests and suggestions can be left on the [Discord server](https://discord.link/cco).
 
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR.
 

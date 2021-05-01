@@ -1,7 +1,7 @@
 {
  	"tabs": {
  	 	"inventory": {
- 	 	 	"trans": "Inventory",
+ 	 	 	"trans": "Inventor",
  	 	 	"eng": "Inventory"
  	 	},
  	 	"quest": {
@@ -9,22 +9,22 @@
  	 	 	"eng": "Quest"
  	 	},
  	 	"chat": {
- 	 	 	"trans": "Chat",
+ 	 	 	"trans": "Obrolan",
  	 	 	"eng": "Chat"
  	 	},
  	 	"profile": {
- 	 	 	"trans": "Profile",
+ 	 	 	"trans": "Profil",
  	 	 	"eng": "Profile"
  	 	},
  	 	"map": {
- 	 	 	"trans": "Map",
+ 	 	 	"trans": "Peta",
  	 	 	"eng": "Map"
  	 	}
  	},
  	"npc": {
  	 	"unitExchange": {
  	 	 	"name": {
- 	 	 	 	"trans": "Arasaka Unit Exchange",
+ 	 	 	 	"trans": "Penukaran Unit Arasaka",
  	 	 	 	"eng": "Arasaka Unit Exchange"
  	 	 	},
  	 	 	"tut": {
@@ -64,7 +64,7 @@
  	 	 	 	"eng": "Terminal"
  	 	 	},
  	 	 	"tut": {
- 	 	 	 	"trans": "Untuk melanjutkan ke area selanjutnya, kamu membutuhkan Secret Key Fragments dari dungeons, \r\n        dan gunakan Terminal untuk Brute Force untuk mendapatkan kunci ke area selanjutnya",
+ 	 	 	 	"trans": "Untuk melanjutkan ke area selanjutnya, kamu membutuhkan Secret Key Fragments dari dungeon, \r\n        dan gunakan Terminal untuk Brute Force untuk mendapatkan kunci ke area selanjutnya",
  	 	 	 	"eng": "To progress to next area, you need to use get Secret Key Fragments from dungeons, \r\n        and use Terminal to Brute Force the key for next area"
  	 	 	}
  	 	},
@@ -132,7 +132,7 @@
  	"location": {
  	 	"mainHub": {
  	 	 	"name": {
- 	 	 	 	"trans": "Shangri-La City center",
+ 	 	 	 	"trans": "Pusat Kota Shangri-la",
  	 	 	 	"eng": "Shangri-La City center"
  	 	 	},
  	 	 	"description": {
@@ -212,18 +212,25 @@
  	 	 	 	"eng": "Hyper Train Central Station"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "[Adventure]\r\n        Menggunakan hyperloop kamu dapat bepergian dengan kecepatan tinggi dalam benua dengan mudah.",
+ 	 	 	 	"trans": "[Adventure]\r\n        dengan enggunakan hyperloop, kamu dapat bepergian dengan kecepatan tinggi dalam benua dengan mudah.",
  	 	 	 	"eng": "[Adventure]\r\n        Using the hyperloop you can travel at super speed across the continent with ease."
  	 	 	}
  	 	},
  	 	"zone": {
  	 	 	"backToMainHub": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "Kembali ke city center",
- 	 	 	 	 	"eng": "Return to ${mainHubName}",
+ 	 	 	 	 	"trans": "Kembali ke Pusat Kota",
+ 	 	 	 	 	"eng": "Back to city center",
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"mainHubName"
  	 	 	 	 	]
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"mainHubName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Kembali ke ${mainHubName}",
+ 	 	 	 	 	"eng": "Return to ${mainHubName}"
  	 	 	 	}
  	 	 	},
  	 	 	"toSegment": {
@@ -256,7 +263,7 @@
  	 	"segment": {
  	 	 	"locked": {
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "kumpulkan 3 Key Fragments yang berbeda dari Dungeons pada 3 Zona pada stasiun sebelumnya, \r\n                    Kemudian pergi ke [Terminal] di City Center [Hub] untuk brute-force (Craft) key yang dibutuhkan untuk membuka area ini",
+ 	 	 	 	 	"trans": "kumpulkan 3 Key Fragments yang berbeda dari Dungeon pada 3 Zona pada stasiun sebelumnya, \r\n                    Kemudian pergi ke [Terminal] di City Center [Hub] untuk brute-force (Craft) key yang dibutuhkan untuk membuka area ini",
  	 	 	 	 	"eng": "Gather all 3 different Key Fragments from Dungeons in each 3 zones in previous station, \r\n                    then go to [Terminal] at City Center [Hub] to brute-force (Craft) the key required to unlock this area"
  	 	 	 	}
  	 	 	},
@@ -279,6 +286,21 @@
  	 	 	 	 	"trans": "Pergi ke ${zoneName}",
  	 	 	 	 	"eng": "Go to ${zoneName}"
  	 	 	 	}
+ 	 	 	},
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"segmentDisplayName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${segmentDisplayName} station",
+ 	 	 	 	"eng": "${segmentDisplayName} station"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"segment",
+ 	 	 	 	 	"segmentMaxLevel"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Level ${segment} to ${segmentMaxLevel}",
+ 	 	 	 	"eng": "Level ${segment} to ${segmentMaxLevel}"
  	 	 	}
  	 	}
  	},
@@ -295,7 +317,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"levelName"
  	 	 	 	],
- 	 	 	 	"trans": "Shard yang mengandung memori and exp seseorang, jika digunakan akan meningkatkan ${levelName} experience",
+ 	 	 	 	"trans": "Shard yang mengandung memori and exp seseorang, jika digunakan akan meningkatkan ${levelName} experience kamu",
  	 	 	 	"eng": "A shard that contains someone's memory and experience, if used you may gain ${levelName} experience from this"
  	 	 	}
  	 	},
@@ -329,31 +351,31 @@
  	 	 	 	"vars": [
  	 	 	 	 	"typeName"
  	 	 	 	],
- 	 	 	 	"trans": "sebuah ${typeName} cache mengandung informasi untuk Molecular 3D Printing, \r\n                    Kamu dapat membuat sebuah ${typeName} dengan [Molecular 3d Printer] di [Central Hub].\r\n                    \r\n                    Pro tip: level item yang kamu dapatkan tergantung pada Printing Rank anda,\r\n                    jadi selalu print dengan level trash dulu, karena murah dan berguna untuk menaikkan Printing Rank kamu",
+ 	 	 	 	"trans": "sebuah ${typeName} cache mengandung informasi untuk dicetak di Molecular 3D Printing, \r\n                    Kamu dapat membuat sebuah ${typeName} dengan [Molecular 3d Printer] di [Central Hub].\r\n                    \r\n                    Pro tip: level item yang kamu dapatkan tergantung pada Printing Rank kamu,\r\n                    jadi selalu print dengan level trash dulu, karena murah dan berguna untuk menaikkan Printing Rank kamu",
  	 	 	 	"eng": "A ${typeName} cache contains information used for Molecular 3D Printing, \r\n                    You can create a ${typeName} with the [Molecular 3d Printer] at [Central Hub].\r\n                    \r\n                    Pro tip: The level of item you get from printing is determined by your Printing Rank,\r\n                    so always print the trash ones first, as they cost less and useful to level up your Printing Rank"
  	 	 	}
  	 	},
  	 	"helmet": {
  	 	 	"name": {
- 	 	 	 	"trans": "helmet",
+ 	 	 	 	"trans": "helm",
  	 	 	 	"eng": "helmet"
  	 	 	}
  	 	},
  	 	"upperArmor": {
  	 	 	"name": {
- 	 	 	 	"trans": "upper armor",
+ 	 	 	 	"trans": "armor atas",
  	 	 	 	"eng": "upper armor"
  	 	 	}
  	 	},
  	 	"lowerArmor": {
  	 	 	"name": {
- 	 	 	 	"trans": "lower armor",
+ 	 	 	 	"trans": "armor bawah",
  	 	 	 	"eng": "lower armor"
  	 	 	}
  	 	},
  	 	"boots": {
  	 	 	"name": {
- 	 	 	 	"trans": "boots",
+ 	 	 	 	"trans": "sepatu",
  	 	 	 	"eng": "boots"
  	 	 	}
  	 	},
@@ -449,7 +471,7 @@
  	 	 	 	"eng": "Pain Away Spray"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Do you and your friend have headache together? use Pain Away Spray™ to relief your pain!",
+ 	 	 	 	"trans": "Apakah kamu dan teman kamu sakit kepala? gunakan Pain Away Spray™ untuk meredakan nyeri!",
  	 	 	 	"eng": "Do you and your friend have headache together? use Pain Away Spray™ to relief your pain!"
  	 	 	}
  	 	},
@@ -459,7 +481,7 @@
  	 	 	 	"eng": "Degraded Repair drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Old repair drone, capable of repair or heal nearby players",
+ 	 	 	 	"trans": "Old repair drone, dapat memperbaiki atau menyembuhkan pemain lain didekatmu",
  	 	 	 	"eng": "Old repair drone, capable of repair or heal nearby players"
  	 	 	}
  	 	},
@@ -469,7 +491,7 @@
  	 	 	 	"eng": "Degraded nano medic drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Old nano drone, capable of dispatching thousands of nano machines to heal nearby players",
+ 	 	 	 	"trans": "Old nano drone, dapat menyebarkan ribuan mesin nano untuk menyembuhkan pemain lain di dekatmu",
  	 	 	 	"eng": "Old nano drone, capable of dispatching thousands of nano machines to heal nearby players"
  	 	 	}
  	 	},
@@ -479,7 +501,7 @@
  	 	 	 	"eng": "Nano medic drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "capable of dispatching thousands of nano machines to heal nearby players",
+ 	 	 	 	"trans": "dapat menyebarkan ribuan mesin nano untuk menyembuhkan pemain lain di dekatmu",
  	 	 	 	"eng": "capable of dispatching thousands of nano machines to heal nearby players"
  	 	 	}
  	 	},
@@ -489,7 +511,7 @@
  	 	 	 	"eng": "Military Nano medic drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "capable of dispatching thousands of military nano machines to heal nearby players",
+ 	 	 	 	"trans": "dapat menyebarkan ribuan mesin nano militernuntuk menyembuhkan pemain lain di dekatmu",
  	 	 	 	"eng": "capable of dispatching thousands of military nano machines to heal nearby players"
  	 	 	}
  	 	},
@@ -499,7 +521,7 @@
  	 	 	 	"eng": "Advance Nano medic drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "capable of dispatching thousands of advanced nano machines to heal nearby players",
+ 	 	 	 	"trans": "dapat menyebarkan ribuan mesin nano tingkat tinggi untuk menyembuhkan pemain lain di dekatmu",
  	 	 	 	"eng": "capable of dispatching thousands of advanced nano machines to heal nearby players"
  	 	 	}
  	 	},
@@ -509,7 +531,7 @@
  	 	 	 	"eng": "High Quality Nano medic drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "capable of dispatching thousands of advanced nano machines to heal nearby players",
+ 	 	 	 	"trans": "dapat menyebarkan ribuan mesin nano tingkat tinggi untuk menyembuhkan pemain lain di dekatmu",
  	 	 	 	"eng": "capable of dispatching thousands of advanced nano machines to heal nearby players"
  	 	 	}
  	 	},
@@ -519,7 +541,7 @@
  	 	 	 	"eng": "Rare Nano medic drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "capable of dispatching thousands of advanced nano machines to heal nearby players",
+ 	 	 	 	"trans": "dapat menyebarkan ribuan mesin nano tingkat tinggi untuk menyembuhkan pemain lain di dekatmu",
  	 	 	 	"eng": "capable of dispatching thousands of advanced nano machines to heal nearby players"
  	 	 	}
  	 	},
@@ -631,7 +653,7 @@
  	 	},
  	 	"increaseAmmo": {
  	 	 	"name": {
- 	 	 	 	"trans": "Improve Ammunition",
+ 	 	 	 	"trans": "Meningkatkan amunisi",
  	 	 	 	"eng": "Improve Ammunition"
  	 	 	},
  	 	 	"description": {
@@ -660,7 +682,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"zoneName"
  	 	 	 	],
- 	 	 	 	"trans": "Scavenge in ${zoneName}",
+ 	 	 	 	"trans": "Scavenge di ${zoneName}",
  	 	 	 	"eng": "Scavenge in ${zoneName}"
  	 	 	},
  	 	 	"description": {
@@ -675,37 +697,37 @@
  	"tier": {
  	 	"trash": {
  	 	 	"name": {
- 	 	 	 	"trans": "trash",
+ 	 	 	 	"trans": "sampah",
  	 	 	 	"eng": "trash"
  	 	 	}
  	 	},
  	 	"common": {
  	 	 	"name": {
- 	 	 	 	"trans": "common",
+ 	 	 	 	"trans": "Biasa",
  	 	 	 	"eng": "common"
  	 	 	}
  	 	},
  	 	"highQuality": {
  	 	 	"name": {
- 	 	 	 	"trans": "high quality",
+ 	 	 	 	"trans": "Kualitas tinggi",
  	 	 	 	"eng": "high quality"
  	 	 	}
  	 	},
  	 	"rare": {
  	 	 	"name": {
- 	 	 	 	"trans": "rare",
+ 	 	 	 	"trans": "Langka",
  	 	 	 	"eng": "rare"
  	 	 	}
  	 	},
  	 	"legendary": {
  	 	 	"name": {
- 	 	 	 	"trans": "legendary",
+ 	 	 	 	"trans": "Legendaris",
  	 	 	 	"eng": "legendary"
  	 	 	}
  	 	},
  	 	"epic": {
  	 	 	"name": {
- 	 	 	 	"trans": "epic",
+ 	 	 	 	"trans": "Epik",
  	 	 	 	"eng": "epic"
  	 	 	}
  	 	}
@@ -724,14 +746,14 @@
  	 	 	 	"vars": [
  	 	 	 	 	"zoneName"
  	 	 	 	],
- 	 	 	 	"trans": "Explore ${zoneName}",
+ 	 	 	 	"trans": "Jelajahi ${zoneName}",
  	 	 	 	"eng": "Explore ${zoneName}"
  	 	 	},
  	 	 	"tut": {
  	 	 	 	"vars": [
  	 	 	 	 	"zoneName"
  	 	 	 	],
- 	 	 	 	"trans": "Masuk ke dungeon untuk mendapatkan exp dan loot lebih banyak!\r\n                        ingat untuk membeli beberapa healing item! anda tidak dapat regenerasi setelah pertarungan di dungeon",
+ 	 	 	 	"trans": "Masuk ke dungeon untuk mendapatkan exp dan loot lebih banyak!\r\n                        ingat untuk membeli beberapa item heal! anda tidak dapat regenerasi setelah pertarungan di dungeon",
  	 	 	 	"eng": "Dive into dungeon to get even more exp and loot!\r\n                        remember to buy some healing item! you won\"t regen after battle in dungeon"
  	 	 	}
  	 	},
@@ -742,11 +764,11 @@
  	 	 	 	 	"keyFragmentDisplayName",
  	 	 	 	 	"expMultiplier"
  	 	 	 	],
- 	 	 	 	"trans": "Level Rekomendasi:　${maxLevel}+ dengan co-op\r\n                    ${expMultiplier}x kali lebih banyak EXP!\r\n                    Challenge mode dungeon, extra loot dan exp.\r\n                    Drops ${keyFragmentDisplayName}\r\n                    Tidak disarankan jika levelmu terlalu rendah",
+ 	 	 	 	"trans": "Level Rekomendasi:　${maxLevel}+ dengan co-op\r\n                    ${expMultiplier}x kali lebih banyak EXP!\r\n                    Challenge mode dungeon, lebih banyak loot dan exp.\r\n                    Menjatuhkan ${keyFragmentDisplayName}\r\n                    Tidak disarankan jika levelmu terlalu rendah",
  	 	 	 	"eng": "Recommended Level:　${maxLevel}+ with co-op\r\n                    ${expMultiplier}x more EXP!\r\n                    Challenge mode dungeon, extra loot and exp.\r\n                    Drops ${keyFragmentDisplayName}\r\n                    Not advised to enter if your level is too low"
  	 	 	},
  	 	 	"tut": {
- 	 	 	 	"trans": "Are you strong enough? try it out on Challenge Dungeon,\r\n                        Ada boss yang kuat sedang menunggumu!\r\n                        Direkomendasikan untuk bersama pemain lain.",
+ 	 	 	 	"trans": "Apakah kamu cukup kuat? coba untuk bermain di Challenge Dungeon,\r\n                        Ada boss yang kuat sedang menunggumu!\r\n                        Direkomendasikan untuk bersama pemain lain.",
  	 	 	 	"eng": "Are you strong enough? try it out on Challenge Dungeon,\r\n                        there is a strong boss and tons of loot at the end waiting for you!\r\n                        Its recommended to attempt this with other players."
  	 	 	},
  	 	 	"startName": {
@@ -776,8 +798,66 @@
  	 	 	"vars": [
  	 	 	 	"segmentDisplayName"
  	 	 	],
- 	 	 	"trans": "Progression-${progressionId}",
- 	 	 	"eng": "Acquire 3 different Key Fragments from each dungeons located in ${segmentDisplayName},\r\n                these are used to create the key to next zone.\r\n                To craft the key, go to terminal in [HUB]"
+ 	 	 	"trans": "Progress-${progressionId}",
+ 	 	 	"eng": "Acquire 3 different Key Fragments from each dungeons located in ${segmentDisplayName},\r\n                these are used to create the key to next zone.\r\n                To craft the key, go to terminal in [HUB]",
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"progressionId"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Progress-${progressionId}",
+ 	 	 	 	"eng": "Progression-${progressionId}"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"segmentDisplayName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Dapatkan 3 Key Fragments berbeda dari tiap dungeon yang berlokasi di ${segmentDisplayName},\r\n                hal ini digunakan untuk membuat key untuk zona selanjutnya.\r\n                untuk membuat key, pergi ke terminal id [HUB]",
+ 	 	 	 	"eng": "Acquire 3 different Key Fragments from each dungeons located in ${segmentDisplayName},\r\n                these are used to create the key to next zone.\r\n                To craft the key, go to terminal in [HUB]"
+ 	 	 	}
+ 	 	},
+ 	 	"random": {
+ 	 	 	"clearChallengeDungeon": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "kesatria dungeon",
+ 	 	 	 	 	"eng": "dungeon warrior"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"clearDungeonCoOp": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "teman dungeon",
+ 	 	 	 	 	"eng": "dungeon friends"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"clearDungeon": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "perambah dungeon",
+ 	 	 	 	 	"eng": "dungeon crawler"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"dealDamage": {
+ 	 	 	 	"trans": "menghasilkan damage",
+ 	 	 	 	"eng": "Deal Damage"
+ 	 	 	},
+ 	 	 	"exp": {
+ 	 	 	 	"trans": "Mendapatkan exp",
+ 	 	 	 	"eng": "Gain exp"
+ 	 	 	},
+ 	 	 	"joinDungeon": {
+ 	 	 	 	"trans": "Gabung ke Dungeon",
+ 	 	 	 	"eng": "Join Dungeon"
+ 	 	 	},
+ 	 	 	"killEnemy": {
+ 	 	 	 	"trans": "Bunuh musuh",
+ 	 	 	 	"eng": "Kill enemy"
+ 	 	 	},
+ 	 	 	"getMoney": {
+ 	 	 	 	"trans": "Dapatkan Bitcoin",
+ 	 	 	 	"eng": "Acquire Bitcoin"
+ 	 	 	},
+ 	 	 	"print": {
+ 	 	 	 	"trans": "Molecular Printing",
+ 	 	 	 	"eng": "Molecular Printing"
+ 	 	 	}
  	 	}
  	},
  	"ui": {
@@ -786,12 +866,407 @@
  	 	 	 	"trans": "pemain online",
  	 	 	 	"eng": "players online"
  	 	 	}
+ 	 	},
+ 	 	"mobileQuestPage": {
+ 	 	 	"receiveReward": {
+ 	 	 	 	"trans": "klik untuk mendapatkan reward",
+ 	 	 	 	"eng": "Click to receive reward"
+ 	 	 	},
+ 	 	 	"inProgress": {
+ 	 	 	 	"trans": "Permintaan sedang di proses...",
+ 	 	 	 	"eng": "Request in progress..."
+ 	 	 	},
+ 	 	 	"watchAdRefresh": {
+ 	 	 	 	"trans": "Lihat iklan untuk memperbarui quest",
+ 	 	 	 	"eng": "Watch an AD to refresh quest"
+ 	 	 	}
+ 	 	},
+ 	 	"map": {
+ 	 	 	"interactable": {
+ 	 	 	 	"trans": "dapat berinteraksi",
+ 	 	 	 	"eng": "Interactable"
+ 	 	 	},
+ 	 	 	"travel": {
+ 	 	 	 	"trans": "Perjalanan",
+ 	 	 	 	"eng": "Travel"
+ 	 	 	}
+ 	 	},
+ 	 	"playerDetails": {
+ 	 	 	"alias": {
+ 	 	 	 	"trans": "Alias",
+ 	 	 	 	"eng": "Alias"
+ 	 	 	},
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Judul",
+ 	 	 	 	"eng": "title"
+ 	 	 	},
+ 	 	 	"gearScore": {
+ 	 	 	 	"trans": "Skor Gear",
+ 	 	 	 	"eng": "Gear Score"
+ 	 	 	},
+ 	 	 	"location": {
+ 	 	 	 	"trans": "lokasi",
+ 	 	 	 	"eng": "location"
+ 	 	 	},
+ 	 	 	"onlineStatus": {
+ 	 	 	 	"trans": "tautan sistem",
+ 	 	 	 	"eng": "system link"
+ 	 	 	},
+ 	 	 	"streetCred": {
+ 	 	 	 	"trans": "Street Cred",
+ 	 	 	 	"eng": "Street Cred"
+ 	 	 	},
+ 	 	 	"status": {
+ 	 	 	 	"trans": "Status",
+ 	 	 	 	"eng": "Status"
+ 	 	 	},
+ 	 	 	"numOfMember": {
+ 	 	 	 	"trans": "Jumlah anggota",
+ 	 	 	 	"eng": "Number of members"
+ 	 	 	},
+ 	 	 	"gangAction": {
+ 	 	 	 	"label": {
+ 	 	 	 	 	"trans": "Aksi Gang",
+ 	 	 	 	 	"eng": "Gang Actions"
+ 	 	 	 	},
+ 	 	 	 	"kick": {
+ 	 	 	 	 	"trans": "Kick",
+ 	 	 	 	 	"eng": "Kick"
+ 	 	 	 	},
+ 	 	 	 	"transferLeadership": {
+ 	 	 	 	 	"trans": "Mentransfer Leadership",
+ 	 	 	 	 	"eng": "Transfer Leadership"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"playerActions": {
+ 	 	 	 	"label": {
+ 	 	 	 	 	"trans": "Aksi Player",
+ 	 	 	 	 	"eng": "Player Actions"
+ 	 	 	 	},
+ 	 	 	 	"sendPrivateMsg": {
+ 	 	 	 	 	"trans": "Kirim PM/Japri",
+ 	 	 	 	 	"eng": "Send private message"
+ 	 	 	 	},
+ 	 	 	 	"sendGift": {
+ 	 	 	 	 	"trans": "Kirim Hadiah",
+ 	 	 	 	 	"eng": "Send Gift"
+ 	 	 	 	},
+ 	 	 	 	"inviteToGang": {
+ 	 	 	 	 	"trans": "Ajak untuk bergabung ke Gang",
+ 	 	 	 	 	"eng": "Invite to Gang"
+ 	 	 	 	},
+ 	 	 	 	"addToFriend": {
+ 	 	 	 	 	"trans": "Tambah ke Daftar teman",
+ 	 	 	 	 	"eng": "add to Friend List"
+ 	 	 	 	},
+ 	 	 	 	"removeFromFriend": {
+ 	 	 	 	 	"trans": "Hapus dari Daftar teman",
+ 	 	 	 	 	"eng": "Remove from Friend List"
+ 	 	 	 	},
+ 	 	 	 	"giveStreetCred": {
+ 	 	 	 	 	"trans": "Beri Street Cred",
+ 	 	 	 	 	"eng": "Give Street Cred"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"market": {
+ 	 	 	"lookAround": {
+ 	 	 	 	"trans": "Lihat Sekeliling",
+ 	 	 	 	"eng": "Look around"
+ 	 	 	},
+ 	 	 	"myStall": {
+ 	 	 	 	"trans": "Lapak Saya",
+ 	 	 	 	"eng": "My Stall"
+ 	 	 	},
+ 	 	 	"increaseSlot": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"nextSlotSize"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Tambah slot sebesar ${nextSlotSize}",
+ 	 	 	 	"eng": "Increase slot to ${nextSlotSize}"
+ 	 	 	}
+ 	 	},
+ 	 	"chat": {
+ 	 	 	"chat": {
+ 	 	 	 	"trans": "Obrolan",
+ 	 	 	 	"eng": "chat"
+ 	 	 	},
+ 	 	 	"gang": {
+ 	 	 	 	"trans": "Gang",
+ 	 	 	 	"eng": "gang"
+ 	 	 	},
+ 	 	 	"mail": {
+ 	 	 	 	"trans": "Surat",
+ 	 	 	 	"eng": "mail"
+ 	 	 	},
+ 	 	 	"noti": {
+ 	 	 	 	"trans": "Notif.",
+ 	 	 	 	"eng": "noti."
+ 	 	 	}
+ 	 	},
+ 	 	"profile": {
+ 	 	 	"profile": {
+ 	 	 	 	"trans": "Profil",
+ 	 	 	 	"eng": "Profile"
+ 	 	 	},
+ 	 	 	"update": {
+ 	 	 	 	"trans": "Pembaruan",
+ 	 	 	 	"eng": "Updates"
+ 	 	 	},
+ 	 	 	"tutorial": {
+ 	 	 	 	"trans": "Tutorial",
+ 	 	 	 	"eng": "tutorial"
+ 	 	 	},
+ 	 	 	"credits": {
+ 	 	 	 	"trans": "Kredit",
+ 	 	 	 	"eng": "credits"
+ 	 	 	}
+ 	 	},
+ 	 	"tutorial": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Tutorial",
+ 	 	 	 	"eng": "Tutorial"
+ 	 	 	}
+ 	 	},
+ 	 	"setting": {
+ 	 	 	"language": {
+ 	 	 	 	"trans": "Bahasa",
+ 	 	 	 	"eng": "Language"
+ 	 	 	},
+ 	 	 	"langWarning": {
+ 	 	 	 	"trans": "Bahasa ini open source dan kontribusi dari pemain, beberapa teks mungkin belum diterjemahkan secara penuh dan mungkin mengandung kesalahan. silakan edit dan berkontribusi di laman Github kami",
+ 	 	 	 	"eng": "This language pack is open source and contributed by our players, the text may not be fully translated and could contain mistakes. please feel free to edit and contribute from our Github page"
+ 	 	 	},
+ 	 	 	"playBackgroundMusic": {
+ 	 	 	 	"trans": "Bisukan Musik Latar Belakang",
+ 	 	 	 	"eng": "Mute background music"
+ 	 	 	},
+ 	 	 	"restartRequired": {
+ 	 	 	 	"trans": "Apl akan merestart sendiri setelah tersimpan",
+ 	 	 	 	"eng": "App will self restart after save"
+ 	 	 	},
+ 	 	 	"save": {
+ 	 	 	 	"trans": "Simpan",
+ 	 	 	 	"eng": "save"
+ 	 	 	},
+ 	 	 	"langGithub": {
+ 	 	 	 	"trans": "Bantu untuk menerjemahkan game ini",
+ 	 	 	 	"eng": "Help with translating the game"
+ 	 	 	}
  	 	}
  	},
  	"misc": {
  	 	"missing": {
- 	 	 	"trans": "missing",
+ 	 	 	"trans": "hilang",
  	 	 	"eng": "missing"
+ 	 	},
+ 	 	"name": {
+ 	 	 	"trans": "Nama",
+ 	 	 	"eng": "Name"
+ 	 	},
+ 	 	"tag": {
+ 	 	 	"trans": "Tag",
+ 	 	 	"eng": "Tag"
+ 	 	},
+ 	 	"donate": {
+ 	 	 	"trans": "Donasi",
+ 	 	 	"eng": "Donate"
+ 	 	},
+ 	 	"noSecretKey": {
+ 	 	 	"trans": " Bukan secret key",
+ 	 	 	"eng": " No secret key"
+ 	 	}
+ 	},
+ 	"statsType": {
+ 	 	"health": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Health",
+ 	 	 	 	"eng": "Health"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Meningkatkan Maksimum Health",
+ 	 	 	 	"eng": "Increases maximum health"
+ 	 	 	}
+ 	 	},
+ 	 	"armor": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Armor",
+ 	 	 	 	"eng": "Armor"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Mengurangi damage dari musuh",
+ 	 	 	 	"eng": "Decrease damage taken from enemy"
+ 	 	 	}
+ 	 	},
+ 	 	"healthRegen": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Regen health",
+ 	 	 	 	"eng": "Health regen"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Jumlah health yang diregenerasi setelah pertarungan",
+ 	 	 	 	"eng": "Amount of health regenerated after end of combat"
+ 	 	 	}
+ 	 	},
+ 	 	"damage": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Damage",
+ 	 	 	 	"eng": "Damage"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Secara langsung memengaruhi jumlah damage yang kamu terima",
+ 	 	 	 	"eng": "Directly influences amount of damage dealt by you"
+ 	 	 	}
+ 	 	},
+ 	 	"critChance": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Crit chance",
+ 	 	 	 	"eng": "Crit chance"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Kemungkinan kamu melakukan serangan critical",
+ 	 	 	 	"eng": "Chance of you executing a critical attack"
+ 	 	 	}
+ 	 	},
+ 	 	"critDamage": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Crit damage",
+ 	 	 	 	"eng": "Crit damage"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "mempengaruhi critical attack damage yang mengenai musuh",
+ 	 	 	 	"eng": "Influence the critical attack damage you deal to the enemy"
+ 	 	 	}
+ 	 	},
+ 	 	"maxShield": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "MaxShield",
+ 	 	 	 	"eng": "MaxShield"
+ 	 	 	}
+ 	 	},
+ 	 	"description": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Meningkatkan kapasitas Inventori",
+ 	 	 	 	"eng": "Increases inventory capacity"
+ 	 	 	}
+ 	 	},
+ 	 	"escape": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Lari",
+ 	 	 	 	"eng": "Escape"
+ 	 	 	}
+ 	 	},
+ 	 	"stunChance": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Stun chance",
+ 	 	 	 	"eng": "Stun chance"
+ 	 	 	}
+ 	 	},
+ 	 	"evade": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Menghindar",
+ 	 	 	 	"eng": "Evade"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Kemungkinan anda menghindari serangan musuh",
+ 	 	 	 	"eng": "Chance of you dodging an enemies attack"
+ 	 	 	}
+ 	 	},
+ 	 	"bargain": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Tawar",
+ 	 	 	 	"eng": "Bargain"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Mempengaruhi harga ketika membeli dan menjual dari NPC atau lapak.",
+ 	 	 	 	"eng": "Influences the price when buying and selling from npc's or stores."
+ 	 	 	}
+ 	 	},
+ 	 	"pocket": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Saku",
+ 	 	 	 	"eng": "Pocket"
+ 	 	 	}
+ 	 	},
+ 	 	"damageMultiplier": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Damage multiplier",
+ 	 	 	 	"eng": "Damage multiplier"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Meningkatkan prosentase damage",
+ 	 	 	 	"eng": "Increases damage by percentage"
+ 	 	 	}
+ 	 	},
+ 	 	"defenceMultiplier": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Defence multiplier",
+ 	 	 	 	"eng": "Defence multiplier"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Mengurangi prosentase damage yang diterima",
+ 	 	 	 	"eng": "Decreases damage received by percentage"
+ 	 	 	}
+ 	 	},
+ 	 	"stunEvade": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Stun evade",
+ 	 	 	 	"eng": "Stun evade"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Mengurangi kemungkinan kena stun",
+ 	 	 	 	"eng": "Decreases chance of getting stunned"
+ 	 	 	}
+ 	 	},
+ 	 	"shieldMultiplier": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Shield multiplier",
+ 	 	 	 	"eng": "Shield multiplier"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Meningkatkan prosentase kekuatan shield",
+ 	 	 	 	"eng": "Increase strength of shield by percentage"
+ 	 	 	}
+ 	 	},
+ 	 	"healMultiplier": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Healing multiplier",
+ 	 	 	 	"eng": "Healing multiplier"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Meningkatkan potensi heal kamu",
+ 	 	 	 	"eng": "Increases the potency of your heals"
+ 	 	 	}
+ 	 	},
+ 	 	"timeReduction": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Time reduction",
+ 	 	 	 	"eng": "Time reduction"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Menurunkan waktu yang diperlukan untuk AFK",
+ 	 	 	 	"eng": "Reduce AFK task required time"
+ 	 	 	}
+ 	 	},
+ 	 	"expMultiplier": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Exp multiplier",
+ 	 	 	 	"eng": "Exp multiplier"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Meningkatkan EXP yang kamu terima",
+ 	 	 	 	"eng": "Increase EXP you receive"
+ 	 	 	}
+ 	 	},
+ 	 	"btcMultiplier": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "BTC multiplier",
+ 	 	 	 	"eng": "BTC multiplier"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Meningkatkan Bitcoin yang kamu terima",
+ 	 	 	 	"eng": "Increase Bitcoins you receive"
+ 	 	 	}
  	 	}
  	}
 }
