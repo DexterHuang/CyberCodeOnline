@@ -34,7 +34,15 @@ Ryugarret
 [Seo-na](https://github.com/Seo-na)  
 [SnRetro](https://github.com/SnRetro)  
 Unfairissimo  
-Wanna  
+Wanna 
+[siruelionn](https://github.com/siruelionn)
+[PedroCisnerosSantana](https://github.com/PedroCisnerosSantana)
+[ruliou](https://github.com/ruliou)
+[JEricaM](https://github.com/JEricaM)
+[un-amico](https://github.com/un-amico)
+[Destro9000](https://github.com/Destro9000)
+roucoupute2
+SKIFFI
 
 ## Proofreading
 [The_Wayfarrer](https://github.com/epixinvites)  
