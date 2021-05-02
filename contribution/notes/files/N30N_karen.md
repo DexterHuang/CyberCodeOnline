@@ -1,6 +1,6 @@
 #### N30N C1RCUS: Difficult Conversations
 
-卡倫 was staring silently out the window the window when Sergei walked into the conference room. This was going to be awkward - another shipment had gone missing yesterday and he had no answers for her.
+卡倫 was staring silently out the window when Sergei walked into the conference room. This was going to be awkward - another shipment had gone missing yesterday and he had no answers for her.
 
 _"Sergei, what the hell is happening in my city?"_ she asked, without turning.
 
