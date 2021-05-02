@@ -21,20 +21,28 @@ Proxxie
 ## Translations
 [alfaice](https://github.com/alfaice)  
 [CynexXT](https://github.com/CynexXT)  
+[Destro9000](https://github.com/Destro9000)  
 [EV_Jack](https://github.com/EvJack)  
 [Fremad](https://github.com/Fremadico)  
+[JEricaM](https://github.com/JEricaM)  
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)  
 [Kraken-Juice](https://github.com/Kraken-Juice)  
 [Murfex](https://github.com/Murfex)  
 MontyPython   
 [nopeholmes](https://github.com/nopeholmes)  
+[PedroCisnerosSantana](https://github.com/PedroCisnerosSantana)  
 [PsyB34R](https://www.instagram.com/psybearr)  
+roucoupute2  
 Rinelle  
+[ruliou](https://github.com/ruliou)  
 Ryugarret  
 [Seo-na](https://github.com/Seo-na)  
+[siruelionn](https://github.com/siruelionn)  
+SKIFFI  
 [SnRetro](https://github.com/SnRetro)  
+[un-amico](https://github.com/un-amico)  
 Unfairissimo  
-Wanna  
+Wanna 
 
 ## Proofreading
 [The_Wayfarrer](https://github.com/epixinvites)  
