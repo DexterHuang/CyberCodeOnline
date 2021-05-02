@@ -25,6 +25,7 @@ Proxxie
 [EV_Jack](https://github.com/EvJack)  
 [Fremad](https://github.com/Fremadico)  
 [JEricaM](https://github.com/JEricaM)  
+[kj415j45](https://github.com/kj415j45)  
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)  
 [Kraken-Juice](https://github.com/Kraken-Juice)  
 [Murfex](https://github.com/Murfex)  
