@@ -20,6 +20,13 @@ Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Updates Log 
+### **2021/05/03- v0.472**
+ * Dungeon optimization
+ * Fix rare chance when using global skip system take away more units then displayed (due to small time difference)
+ * Minor text bug fixes
+ * Added more translation to config json
+ * Minor UI adjustment
+
 ### **2021/04/30- v0.472**
  * Fixed the crash during language tab switching
  * Fixed the bank and terminal from disappearing
