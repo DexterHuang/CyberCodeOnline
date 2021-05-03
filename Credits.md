@@ -70,6 +70,7 @@ WoLoLoiK
 
 ## Dungeons
 [alfaice](https://github.com/alfaice)  
+Alice  
 [Deckeeper](https://github.com/deckeeper)  
 [DexterHuang](https://github.com/DexterHuang)  
 Dragonmaster84 
@@ -85,6 +86,7 @@ SitiSchu
 [Tripplehelix](https://github.com/tripplehelix)  
 Vega_Efsunborn  
 Willbur  
+Xalaram  
 zomg  
 [Veyrin](https://github.com/darkrevelations)  
 
