@@ -21,9 +21,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log 
 ### **2021/05/03- v0.472**
- * Fix rare chance when using global skip system take away more units then displayed (due to small time difference)
+ * Fixed the bug where excess units were deducted after activating the global skip (due to a small time difference)
  * Minor text bug fixes
- * Added more translation to config json
+ * Added more translation to `config.json`
  * Minor UI adjustment
 
 ### **2021/04/30- v0.472**
