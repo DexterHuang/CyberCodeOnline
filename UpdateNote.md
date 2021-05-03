@@ -23,7 +23,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ### **2021/05/03- v0.472**
  * Dungeon optimization
  * Fixed the bug where excess units were deducted after activating a global skip (due to a small time difference)
- * Minor text bug fixes
+ * Minor fixes to the text
  * Added more translations to config.json
  * Minor UI adjustment
 
