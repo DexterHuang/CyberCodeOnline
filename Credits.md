@@ -153,6 +153,7 @@ roucoupute2
 RsKaiser  
 [Russ Hammett](https://github.com/Kritner)  
 [s3rvant](https://github.com/s3rvant)  
+SKIFFI  
 spyd3r  
 [Tripplehelix](https://github.com/tripplehelix)  
 
