@@ -73,7 +73,7 @@ WoLoLoiK
 Alice  
 [Deckeeper](https://github.com/deckeeper)  
 [DexterHuang](https://github.com/DexterHuang)  
-Dragonmaster84 
+Dragonmaster84  
 [Hally](https://twitter.com/g_hally1996)  
 JashinL  
 [JEricaM](https://github.com/JEricaM)  
