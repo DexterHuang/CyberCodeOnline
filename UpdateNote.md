@@ -21,6 +21,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log 
 ### **2021/05/03- v0.472**
+ * Dungeon optimization
  * Fix rare chance when using global skip system take away more units then displayed (due to small time difference)
  * Minor text bug fixes
  * Added more translation to config json
