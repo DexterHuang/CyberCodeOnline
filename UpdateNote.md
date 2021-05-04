@@ -20,6 +20,9 @@ Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Updates Log 
+### **2021/05/04- v0.472**
+ * Dugeon optimization
+
 ### **2021/05/03- v0.472**
  * Dungeon optimization
  * Fix rare chance when using global skip system take away more units then displayed (due to small time difference)
