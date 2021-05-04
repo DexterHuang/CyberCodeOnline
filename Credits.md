@@ -79,9 +79,11 @@ JashinL
 [JEricaM](https://github.com/JEricaM)  
 kt0t0wh0  
 mika  
+MontyPython  
 Negative  
-MontyPython   
+[nopeholmes](https://github.com/nopeholmes)   
 RezaRnew100  
+romain22222  
 RookieBob  
 SitiSchu  
 SKIFFI  
