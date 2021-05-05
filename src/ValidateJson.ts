@@ -14,4 +14,15 @@ for (const path of paths) {
     throw new Error(`${path} is invalid JSON, ${e}`);
   }
 }
+
+const maskStr = FileHelper.getFile('./contribution/dungeon/layout/structure-mask.json');
+const mask: { rooms: { tiles: string[] }[] } = JSON.parse(maskStr);
+index = 1;
+for (const room of mask.rooms) {
+  if (room.tiles.length !== 225) {
+    throw `Room number ${index} has invalid room config, ${room.tiles.length}`;
+  }
+  index++;
+}
+
 console.log(`JSON Validation complete.`)
