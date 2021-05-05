@@ -22,6 +22,11 @@ for (const room of mask.rooms) {
   if (room.tiles.length !== 225) {
     throw `Room number ${index} has invalid room config, ${room.tiles.length}`;
   }
+  for (const tile of room.tiles) {
+    if (tile !== " " && tile !== "#") {
+      throw `Room number ${index} contains invalid character, '${tile}' is not a valid tile symbol`;
+    }
+  }
   index++;
 }
 
