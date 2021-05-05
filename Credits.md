@@ -151,6 +151,7 @@ KingRiver
 [RaykouTJ](https://github.com/HoneySyrup)  
 [levi middleton](https://github.com/levi-middleton)   
 [Misaki](https://github.com/Misaki290)  
+Mist  
 Mobius_One  
 Pikkon85  
 roucoupute2  
