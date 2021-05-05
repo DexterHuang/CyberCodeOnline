@@ -24,6 +24,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * Added TONS of new dungeon designs (all contributed by dear players like you!) you will be kick out of dungeon if you were in the older version dungeon before update
  * Added `Locked Container`, `Locked Rare Container` and `Locked Legendary Container` these can be found in dungeon with various drop rate, you may unlock the container with `Terminal` (requires time and `Tech Scrap`), rarer container has better drop (duhh)
  * Added image for `Terminal`
+ * Increase the amount of `Hash Processor` you craft from 1 to 4, but added 5 min crafting time to each craft
 
 ### **2021/05/04- v0.472**
  * Dugeon optimization
