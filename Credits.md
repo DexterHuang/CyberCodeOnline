@@ -51,6 +51,7 @@ Wanna
 ## Lore
 [byakkozen](https://github.com/byakkozen)  
 [bvcxz](https://github.com/bvcxz-cybercode)  
+CeceCat  
 [CelesMeh](https://www.instagram.com/celesmeh)  
 Exca  
 JashinL  
