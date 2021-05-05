@@ -20,6 +20,24 @@ Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Updates Log 
+### **2021/05/05- v0.487**
+ * Added a time preview for crafting
+ * Minor fixes for locked containers
+ * Added TONS of new dungeon designs (all contributed by dear players like you!). You will be kicked out of the dungeons that were created before the update.
+ * Added `Locked Container`, `Locked Rare Container` and `Locked Legendary Container`. These can be found in dungeons with various drop rates, you may unlock the containers in the `Terminal` (requires time and `Tech Scrap`), rarer containera have better drops (duhh)
+ * Added image for the `Terminal`
+ * Increased the amount of `Hash Processors` you can craft from 1 to 4, but an additional 5 minutes will be required for each craft
+
+### **2021/05/04- v0.472**
+ * Dugeon optimization
+
+### **2021/05/03- v0.472**
+ * Dungeon optimization
+ * Fixed the bug where excess units were deducted after activating a global skip (due to a small time difference)
+ * Minor fixes to the text
+ * Added more translations to config.json
+ * Minor UI adjustment
+
 ### **2021/04/30- v0.472**
  * Fixed the crash during language tab switching
  * Fixed the bank and terminal from disappearing

@@ -70,21 +70,27 @@ WoLoLoiK
 
 ## Dungeons
 [alfaice](https://github.com/alfaice)  
+Alice  
 [Deckeeper](https://github.com/deckeeper)  
 [DexterHuang](https://github.com/DexterHuang)  
-Dragonmaster84 
+Dragonmaster84  
 [Hally](https://twitter.com/g_hally1996)  
 JashinL  
 [JEricaM](https://github.com/JEricaM)  
 kt0t0wh0  
 mika  
+MontyPython  
 Negative  
-MontyPython   
+[nopeholmes](https://github.com/nopeholmes)   
 RezaRnew100  
+romain22222  
+RookieBob  
 SitiSchu  
+SKIFFI  
 [Tripplehelix](https://github.com/tripplehelix)  
 Vega_Efsunborn  
 Willbur  
+Xalaram  
 zomg  
 [Veyrin](https://github.com/darkrevelations)  
 
@@ -151,6 +157,7 @@ roucoupute2
 RsKaiser  
 [Russ Hammett](https://github.com/Kritner)  
 [s3rvant](https://github.com/s3rvant)  
+SKIFFI  
 spyd3r  
 [Tripplehelix](https://github.com/tripplehelix)  
 
