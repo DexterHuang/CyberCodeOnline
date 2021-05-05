@@ -20,6 +20,11 @@ Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Updates Log 
+### **2021/05/05- v0.472**
+ * Added TONS of new dungeon designs (all contributed by dear players like you!) you will be kick out of dungeon if you were in the older version dungeon before update
+ * Added `Locked Container`, `Locked Rare Container` and `Locked Legendary Container` these can be found in dungeon with various drop rate, you may unlock the container with `Terminal` (requires time and `Tech Scrap`), rarer container has better drop (duhh)
+ * Added image for `Terminal`
+
 ### **2021/05/04- v0.472**
  * Dugeon optimization
 
