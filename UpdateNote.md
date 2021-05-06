@@ -28,6 +28,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * Added an image for the `Terminal`
  * Increased the amount of `Hash Processors` you can craft from 1 to 4, but an additional 5 minutes will be required for each craft
 
+### **2021/05/07- v0.472**
+ * Fixed dungeon kicking you out very fast bug
+ * Added max craft amount for `Locked Containers`
+
 ### **2021/05/04- v0.472**
  * Dugeon optimization
 
