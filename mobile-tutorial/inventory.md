@@ -36,6 +36,8 @@ This tab in your inventory allows you to craft different types of items: medical
 
 Medical crafting uses medical tech parts.  
 
+Ammo can use either Ammunition tech parts (Energy Cells) or Military ammunition tech parts (Anti Matter Charge).
+
 Hash Processors uses Military ammunition tech parts, Medical tech parts and Tech Scraps.  
 
 Ai Cores uses Hash Processors and Tech Scraps.  
