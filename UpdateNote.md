@@ -24,8 +24,8 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * Added a time preview for crafting
  * Minor fixes for locked containers
  * Added TONS of new dungeon designs (all contributed by dear players like you!). You will be kicked out of the dungeons that were created before the update.
- * Added `Locked Container`, `Locked Rare Container` and `Locked Legendary Container`. These can be found in dungeons with various drop rates, you may unlock the containers in the `Terminal` (requires time and `Tech Scrap`), rarer containera have better drops (duhh)
- * Added image for the `Terminal`
+ * Added `Locked Container`, `Locked Rare Container` and `Locked Legendary Container`. These can be found in dungeons with various drop rates, you may unlock the containers in the `Terminal` (requires time and `Tech Scrap`), rarer containers have better drops (duhh)
+ * Added an image for the `Terminal`
  * Increased the amount of `Hash Processors` you can craft from 1 to 4, but an additional 5 minutes will be required for each craft
 
 ### **2021/05/04- v0.472**
