@@ -14,29 +14,30 @@ Medical items can be consumed in dungeons to regenerate health (since your chara
 
 Ammo can be used to perform special attacks and destructive attacks during combat.
 
-Secret key fragments that you obtained in dungeon chests can be merged into a secret key by brute-forcing it in the Terminal. Secret keys will grant you access to higher level enemy spawns and dungeons.  
+Locked containers (✧) can be found in dungeons and can be unlocked using Tech Scraps.  
+These can be unlocked only at Terminal, in the main HUB.  
+Depending on the quality of the locked container the ammount if Tech Scrap needed for unlocking it, can be smaller or greater, starting from 32 Tech Scraps.  
+
+Secret key fragments that you obtained in special dungeon chests (a crate with key in it) can be merged into a secret key by brute-forcing it at the Terminal. Secret keys will grant you access to higher level enemy areas and dungeons.  
 
 Other consumables, for example Hash Processors and AI Cores can be used to perform AFK tasks.
 
 ## Functions in your Inventory
 
-By clicking the icons above your inventory list, you can filter out specific items. You will have 50 empty slots, equipping gears with extra pocket status will give you more inventory space. To get rid of gears and upgrade modules, you can click on the **scrap** button. Every item scrapped will give you a tech scrap. To get rid of other items, you can click on the **destroy** button. Destroyed items will not give you anything in return so be cautious when performing this action.  
+By clicking the icons above your inventory list, you can filter out specific items. You will have 50 empty slots, equipping gears with extra **pocket stat** will give you more inventory space. To get rid of gears and upgrade modules, you can click on the item itself and then on the **SCRAP** button. Alternatively, you can hold click on one item, check-mark every item that you want to scrap and then press the **SCRAP** button that's above the item list.  Every item scrapped will give you a Tech Scrap. To get rid of other items that are not scrapable, you can click on the **DESTROY** button. Destroyed items will not give you anything in return so be cautious when performing this action.  
 
 ## Item Inbox
 
-Items that other players send will be automatically placed in your item inbox and will be automatically be moved to your main inventory when you have enough space for these items.
+Items that other players send will be automatically placed in your item inbox and once you have enough space, they will be moved automatically to your inventory.  
 
 ## Crafting
 
-This tab in your inventory allows you to craft three different types of items: medical, ammo, and material. Medical crafting uses medical tech parts. Ammo crafting uses both ammo tech parts and military ammo tech parts. Material crafting uses hash processor and turns them into ai cores. As you level up the relevant skills (medical science, ammo crafting, and mining) you will open new recipes and be more proficient, allowing you to craft more and better items.
- 
+This tab in your inventory allows you to craft different types of items: medical, ammo, Hash Processors and Ai Cores.  
 
-## Molecular Printing
+Medical crafting uses medical tech parts.  
 
-In the City Center, you can find the Molecular 3D Printer, which will be used to print out gears from caches. It will appear when you are in Shangri La City Center. Clicking on it will bring you to the printing panel which lists all caches you have. It costs bitcoin to print, so make sure you have enough. All details including BTC cost and experience it will give will be listed on the cache printing panel.  
+Hash Processors uses Military ammunition tech parts, Medical tech parts and Tech Scraps.  
 
-In the Molecular Printer screen, you can click on the cache you wish to print which will bring up a dialog if you have multiple items that are the same, asking how many you want to print. A good strategy here is to print all the trash items first, then the common, saving rare and legendary for the end. The reason for this is printing the more common and useless items first boosts your Printing Level, giving you a better chance to print more powerful gear with any Rare and Legendary caches you may have found.  
+Ai Cores uses Hash Processors and Tech Scraps.  
 
-## The WeaponSmith
-
-The Weaponsmith is a vendor in Shangri La City Center that allows you to sell items for BTC, and they often have items for purchase. When you are in the Weaponsmith screen, click over anything in your inventory and choose the Sell option. Alternately, you will see the items available for sale at the top. You can click on any of them and choose Buy if you can afford them. If you equip gears with **bargain** status you have a higher chance of getting a better deal. You can repair your items there too, since your equipments have their durabilities lowered the more you use them. It costs very little to repair them to mint condition, so be sure to repair them frequently.  
+As you level up the relevant skills (medical science, ammo crafting, and mining) you will open new recipes and be more proficient, allowing you to craft more and better items.
