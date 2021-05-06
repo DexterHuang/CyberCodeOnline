@@ -3,7 +3,7 @@ The game takes place in Shangri-La, City Center. From there, you can explore the
 
 ## City Map
 
-![Map](/resources/mobile-tutorial/DungeonTypes.png)
+![Map](/resources/mobile-tutorial/Map.png)
 
 ## Shangri La City Center  
 ![Shangri-La City Center](/resources/mobile-tutorial/Shangri-LaCityCenter.png)  
