@@ -66,6 +66,10 @@
  	 	 	"tut": {
  	 	 	 	"trans": "请从各地牢中获取其中的密钥碎片, 通过终端机进行暴力破解, 以获得开放下个区域的完整密钥",
  	 	 	 	"eng": "To progress to next area, you need to use get Secret Key Fragments from dungeons, \r\n        and use Terminal to Brute Force the key for next area"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Your personal computer, although its a little outdated, it could get the job done with enough patient",
+ 	 	 	 	"eng": "Your personal computer, although its a little outdated, it could get the job done with enough patient"
  	 	 	}
  	 	},
  	 	"store": {
@@ -812,6 +816,36 @@
  	 	 	 	"trans": "毁灭武器",
  	 	 	 	"eng": "Destructive Weapon"
  	 	 	}
+ 	 	},
+ 	 	"lootBox1": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "locked container",
+ 	 	 	 	"eng": "locked container"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container",
+ 	 	 	 	"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container"
+ 	 	 	}
+ 	 	},
+ 	 	"lootBox2": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "locked rare container",
+ 	 	 	 	"eng": "locked rare container"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container",
+ 	 	 	 	"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container"
+ 	 	 	}
+ 	 	},
+ 	 	"lootBox3": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "locked legendary container",
+ 	 	 	 	"eng": "locked legendary container"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container",
+ 	 	 	 	"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container"
+ 	 	 	}
  	 	}
  	},
  	"dungeon": {
@@ -1169,6 +1203,18 @@
  	 	"confirm": {
  	 	 	"trans": "确认",
  	 	 	"eng": "Confirm"
+ 	 	},
+ 	 	"requires": {
+ 	 	 	"trans": "Requires",
+ 	 	 	"eng": "Requires"
+ 	 	},
+ 	 	"receives": {
+ 	 	 	"trans": "Receives",
+ 	 	 	"eng": "Receives"
+ 	 	},
+ 	 	"amount": {
+ 	 	 	"trans": "Amount",
+ 	 	 	"eng": "Amount"
  	 	}
  	},
  	"statsType": {
@@ -1381,6 +1427,70 @@
  	 	 	 	"trans": "生命值上限",
  	 	 	 	"eng": "Maximum health capacity"
  	 	 	}
+ 	 	}
+ 	},
+ 	"craft": {
+ 	 	"maxAmountText": {
+ 	 	 	"vars": [
+ 	 	 	 	"verb",
+ 	 	 	 	"amount"
+ 	 	 	],
+ 	 	 	"trans": "You can ${verb} ${amount} times",
+ 	 	 	"eng": "You can ${verb} ${amount} times"
+ 	 	},
+ 	 	"timeRequiredText": {
+ 	 	 	"vars": [
+ 	 	 	 	"verb",
+ 	 	 	 	"timeStr"
+ 	 	 	],
+ 	 	 	"trans": "Time required to ${verb}: ${timeStr}",
+ 	 	 	"eng": "Time required to ${verb}: ${timeStr}"
+ 	 	}
+ 	},
+ 	"recipe": {
+ 	 	"unlockLootBox1": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Unlock Container",
+ 	 	 	 	"eng": "Unlock Container"
+ 	 	 	}
+ 	 	},
+ 	 	"unlock": {
+ 	 	 	"trans": "Unlock",
+ 	 	 	"eng": "Unlock"
+ 	 	},
+ 	 	"unlockLootBox2": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Unlock Rare Container",
+ 	 	 	 	"eng": "Unlock Rare Container"
+ 	 	 	}
+ 	 	},
+ 	 	"unlockLootBox3": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Unlock Legendary Container",
+ 	 	 	 	"eng": "Unlock Legendary Container"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"market": {
+ 	 	"priceConfirm": {
+ 	 	 	"vars": [
+ 	 	 	 	"amountStr",
+ 	 	 	 	"priceStr",
+ 	 	 	 	"itemName"
+ 	 	 	],
+ 	 	 	"trans": "You are selling ${amountStr} ${itemName}(s), at the price of ${priceStr} Per Item",
+ 	 	 	"eng": "You are selling ${amountStr} ${itemName}(s), at the price of ${priceStr} Per Item"
+ 	 	},
+ 	 	"totalConfirm": {
+ 	 	 	"vars": [
+ 	 	 	 	"total"
+ 	 	 	],
+ 	 	 	"trans": "If all of them are sold, you will earn ${total} BitCoins",
+ 	 	 	"eng": "If all of them are sold, you will earn ${total} BitCoins"
+ 	 	},
+ 	 	"sellAmountModalTitle": {
+ 	 	 	"trans": "How many would you like to sell?",
+ 	 	 	"eng": "How many would you like to sell?"
  	 	}
  	}
 }
