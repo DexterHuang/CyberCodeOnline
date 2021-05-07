@@ -19,7 +19,13 @@ Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee
 
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
-## Updates Log 
+## Updates Log  
+### **2021/05/07- v0.487**
+ * Added animation for attacking and reciving damage
+ * Added indication for when health is low during combat
+ * Now unlocking containers also requires bitcoins
+ * Added hard cap on how many container you could unlock in one go
+
 ### **2021/05/05- v0.487**
  * Added a time preview for crafting
  * Minor fixes for locked containers
