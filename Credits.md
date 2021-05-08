@@ -40,11 +40,11 @@ Ryugarret
 [Seo-na](https://github.com/Seo-na)  
 [siruelionn](https://github.com/siruelionn)  
 SKIFFI  
-[SnRetro](https://github.com/SnRetro)  
+[SnRetro](https://github.com/SnRetro)
+[TheBrainReal](https://github.com/lucasknook)    
 [un-amico](https://github.com/un-amico)  
 Unfairissimo  
 Wanna 
-[TheBrainReal](https://github.com/lucasknook)
 
 ## Proofreading
 [The_Wayfarrer](https://github.com/epixinvites)  
