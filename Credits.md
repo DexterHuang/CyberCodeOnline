@@ -48,8 +48,9 @@ Unfairissimo
 Wanna 
 
 ## Proofreading
+[Skippayy](https://github.com/skippayyyy)  
 [The_Wayfarrer](https://github.com/epixinvites)  
-[Skippayy](https://github.com/skippayyyy)
+
 ## Lore
 [byakkozen](https://github.com/byakkozen)  
 [bvcxz](https://github.com/bvcxz-cybercode)  
@@ -93,10 +94,10 @@ SitiSchu
 SKIFFI  
 [Tripplehelix](https://github.com/tripplehelix)  
 Vega_Efsunborn  
+[Veyrin](https://github.com/darkrevelations)  
 Willbur  
 Xalaram  
 zomg  
-[Veyrin](https://github.com/darkrevelations)  
 
 ## Tutorial
 [alfaice](https://github.com/alfaice)  
@@ -139,9 +140,9 @@ MontyPython
 Redinator  
 [Ryujin](https://github.com/Ryujin-cybercode)  
 Satan  
+[Skippayy](https://github.com/skippayyyy)  
 [Tripplehelix](https://github.com/tripplehelix)  
 [Veyrin](https://github.com/darkrevelations)  
-[Skippayy](https://github.com/skippayyyy)
 
 ## Tips
 [Archibaald](https://github.com/Archibaald-dev)  
