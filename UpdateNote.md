@@ -24,6 +24,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * Updated AFK progress bar design
  * Updated level stats display
  * Added Icons for NPCs
+ * Minor `AI Core` nerf
  * Added Bio to profile (available only to donation tier `Elite` and above)
  * Added barcode decoraction (available only to donation tier `Elite` and above)
  * Added Level up screen
