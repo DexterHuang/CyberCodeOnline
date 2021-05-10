@@ -46,6 +46,7 @@ SKIFFI
 [un-amico](https://github.com/un-amico)  
 Unfairissimo  
 Wanna 
+[f4tih-0z3r](https://github.com/f4tih-0z3r)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)  
