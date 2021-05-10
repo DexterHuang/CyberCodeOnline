@@ -19,6 +19,11 @@ Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Updates Log
+### **2021/05/10- v0.487**
+ * Added Level up screen
+ * Fixed sometimes enemy broke causes player to crash untill dungeon expires
+ * Fixed dungeon stuck in map
+
 ### **2021/05/07- v0.487**
  * Added an animation for attacking and receiving damage
  * Added an indication when health is low during combat
