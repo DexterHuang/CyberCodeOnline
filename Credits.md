@@ -49,7 +49,7 @@ Wanna
 
 ## Proofreading
 [The_Wayfarrer](https://github.com/epixinvites)  
-
+[Skippayy](https://github.com/skippayyyy)
 ## Lore
 [byakkozen](https://github.com/byakkozen)  
 [bvcxz](https://github.com/bvcxz-cybercode)  
@@ -141,6 +141,7 @@ Redinator
 Satan  
 [Tripplehelix](https://github.com/tripplehelix)  
 [Veyrin](https://github.com/darkrevelations)  
+[Skippayy](https://github.com/skippayyyy)
 
 ## Tips
 [Archibaald](https://github.com/Archibaald-dev)  
