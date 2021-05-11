@@ -51,6 +51,7 @@ Wanna
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)  
 [The_Wayfarrer](https://github.com/epixinvites)  
+Laani
 
 ## Lore
 [byakkozen](https://github.com/byakkozen)  
