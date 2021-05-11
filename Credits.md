@@ -45,7 +45,7 @@ SKIFFI
 [TheBrainReal](https://github.com/lucasknook)    
 [un-amico](https://github.com/un-amico)  
 Unfairissimo  
-Wanna 
+Wanna  
 [f4tih-0z3r](https://github.com/f4tih-0z3r)
 
 ## Proofreading
