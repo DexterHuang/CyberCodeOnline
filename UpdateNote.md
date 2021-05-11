@@ -20,11 +20,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log
 ### **2021/05/11- v0.487**
- * Added icons for travel
- * Added a prompt to change language when your system language isnt english
- * Fix the bug where you can click edit bio at other player's profile
- * Make circuit background more noticeable
- * Change color of AFK loading bar to improve readability
+ * Added icons for travelling
+ * Added a prompt to change language when your system language isn't english
+ * Fix the bug where you can click edit bio on other player's profile
+ * Made the circuit background more noticeable
+ * Changed the color of the AFK loading bar to improve readability
  * Change the brightness of red to increase readability
 
 ### **2021/05/10- v0.487**
@@ -36,8 +36,8 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * Added Bio to profile (available only to donation tier `Elite` and above)
  * Added barcode decoraction (available only to donation tier `Elite` and above)
  * Added Level up screen
- * Fixed sometimes enemy broke causes player to crash untill dungeon expires
- * Fixed dungeon stuck in map
+ * Fixed bugged enemies, causing the player to crash until the dungeon expires
+ * Fixed bugged dungeons stuck in the map
 
 ### **2021/05/07- v0.487**
  * Added an animation for attacking and receiving damage
