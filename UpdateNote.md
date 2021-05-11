@@ -20,6 +20,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log
 ### **2021/05/11- v0.487**
+ * Fix the bug where you can click edit bio at other player's profile
  * Make circuit background more noticeable
  * Change color of AFK loading bar to improve readability
  * Change the brightness of red to increase readability
