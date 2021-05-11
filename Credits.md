@@ -24,6 +24,7 @@ Proxxie
 [CynexXT](https://github.com/CynexXT)  
 [Destro9000](https://github.com/Destro9000)  
 [EV_Jack](https://github.com/EvJack)  
+[f4tih-0z3r](https://github.com/f4tih-0z3r)  
 [Fremad](https://github.com/Fremadico)  
 [JEricaM](https://github.com/JEricaM)  
 [kj415j45](https://github.com/kj415j45)  
@@ -45,8 +46,7 @@ SKIFFI
 [TheBrainReal](https://github.com/lucasknook)    
 [un-amico](https://github.com/un-amico)  
 Unfairissimo  
-Wanna  
-[f4tih-0z3r](https://github.com/f4tih-0z3r)
+Wanna 
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)  
