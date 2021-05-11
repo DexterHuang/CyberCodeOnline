@@ -19,6 +19,10 @@ Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Updates Log
+### **2021/05/11- v0.487**
+ * Change color of AFK loading bar to improve readability
+ * Change the brightness of red to increase readability
+
 ### **2021/05/10- v0.487**
  * New Death Screen design
  * Updated AFK progress bar design
