@@ -20,6 +20,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log
 ### **2021/05/12- v0.487**
+ * Nametags now have color if tagged player is donator
  * Potential fix to dungeon crash issue
  * Updated level exp bar UI at profile page
 
