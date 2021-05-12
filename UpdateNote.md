@@ -19,6 +19,11 @@ Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Updates Log
+### **2021/05/12- v0.487**
+ * Potential fix to dungeon crash issue
+ * Updated level exp bar UI at profile page
+
+
 ### **2021/05/11- v0.487**
  * Added icons for travel
  * Added a prompt to change language when your system language isnt english
