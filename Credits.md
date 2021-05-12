@@ -34,7 +34,8 @@ Proxxie
 MontyPython   
 [nopeholmes](https://github.com/nopeholmes)  
 [PedroCisnerosSantana](https://github.com/PedroCisnerosSantana)  
-[PsyB34R](https://www.instagram.com/psybearr)  
+[PsyB34R](https://www.instagram.com/psybearr)
+[QuiteABitofAll](https://github.com/QuiteaBitofAll)
 roucoupute2  
 Rinelle  
 [ruliou](https://github.com/ruliou)  
