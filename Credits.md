@@ -24,6 +24,7 @@ Proxxie
 [CynexXT](https://github.com/CynexXT)  
 [Destro9000](https://github.com/Destro9000)  
 [EV_Jack](https://github.com/EvJack)  
+[f4tih-0z3r](https://github.com/f4tih-0z3r)  
 [Fremad](https://github.com/Fremadico)  
 [JEricaM](https://github.com/JEricaM)  
 [kj415j45](https://github.com/kj415j45)  
@@ -33,7 +34,8 @@ Proxxie
 MontyPython   
 [nopeholmes](https://github.com/nopeholmes)  
 [PedroCisnerosSantana](https://github.com/PedroCisnerosSantana)  
-[PsyB34R](https://www.instagram.com/psybearr)  
+[PsyB34R](https://www.instagram.com/psybearr)
+[QuiteABitofAll](https://github.com/QuiteaBitofAll)
 roucoupute2  
 Rinelle  
 [ruliou](https://github.com/ruliou)  
@@ -46,7 +48,6 @@ SKIFFI
 [un-amico](https://github.com/un-amico)  
 Unfairissimo  
 Wanna 
-[f4tih-0z3r](https://github.com/f4tih-0z3r)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)  
@@ -163,6 +164,7 @@ KingRiver
 Mist  
 Mobius_One  
 Pikkon85  
+Polemo03
 roucoupute2  
 RsKaiser  
 [Russ Hammett](https://github.com/Kritner)  
