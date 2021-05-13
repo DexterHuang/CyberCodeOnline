@@ -19,6 +19,9 @@ Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Updates Log
+### **2021/05/13- v0.487**
+ * Remove units for player details page on desktop
+
 ### **2021/05/12- v0.487**
  * Nametags now have color if tagged player is donator
  * Potential fix to dungeon crash issue
