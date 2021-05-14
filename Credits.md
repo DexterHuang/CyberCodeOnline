@@ -19,7 +19,7 @@ Unca_Feddit
 [l33t4ng3l](https://github.com/l33t4ng3l)  
 Proxxie
 
-## Translations
+## Translators
 [alfaice](https://github.com/alfaice)  
 [CynexXT](https://github.com/CynexXT)  
 [Destro9000](https://github.com/Destro9000)  
@@ -117,7 +117,7 @@ Livingdead
 [Tripplehelix](https://github.com/tripplehelix)  
 Vega_Efsunborn  
 
-## Words
+## Game resources (words)
 App2  
 Aquacky  
 [bvcxz](https://github.com/bvcxz-cybercode)  
