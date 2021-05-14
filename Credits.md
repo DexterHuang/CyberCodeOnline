@@ -19,7 +19,7 @@ Unca_Feddit
 [l33t4ng3l](https://github.com/l33t4ng3l)  
 Proxxie
 
-## Translations
+## Translators
 [alfaice](https://github.com/alfaice)  
 [CynexXT](https://github.com/CynexXT)  
 [Destro9000](https://github.com/Destro9000)  
@@ -30,6 +30,7 @@ Proxxie
 [kj415j45](https://github.com/kj415j45)  
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)  
 [Kraken-Juice](https://github.com/Kraken-Juice)  
+[Misaki](https://github.com/Misaki290)  
 [Murfex](https://github.com/Murfex)  
 MontyPython   
 [nopeholmes](https://github.com/nopeholmes)  
@@ -116,7 +117,7 @@ Livingdead
 [Tripplehelix](https://github.com/tripplehelix)  
 Vega_Efsunborn  
 
-## Words
+## Game resources (words)
 App2  
 Aquacky  
 [bvcxz](https://github.com/bvcxz-cybercode)  
