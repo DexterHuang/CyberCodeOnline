@@ -20,12 +20,12 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log
 ### **2021/05/13- v0.487**
- * Remove units for player details page on desktop
+ * Removed unit amount from player profiles on the web version
 
 ### **2021/05/12- v0.487**
- * Nametags now have color if tagged player is donator
+ * Nametags now have distinct colors if the tagged player is a donator
  * Potential fix to dungeon crash issue
- * Updated level exp bar UI at profile page
+ * Updated level exp bar UI on the profile page
 
 
 ### **2021/05/11- v0.487**
