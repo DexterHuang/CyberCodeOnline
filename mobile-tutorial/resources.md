@@ -49,3 +49,11 @@ The Transaction Exploit Transmitter is used to boost BitCoin gains and works the
 ### Frontal Cortex Optimization Transmitter
 
 The Frontal Cortex Optimization Transmitter is used to boost EXP gains. Each Frontal Cortex Optimization Transmitter will provide a +80% boost to EXP gain for 20 minutes.
+
+### Global Time Skips
+
+Although these aren't items, players can also purchase global skips from their AFK screen (the Map tab when an AFK task is in progress). Skippers can choose from a range of 15 minutes to 180 minutes to skip. The time skips work with boosts, so it's more cost-efficient to use skips when boosts are already running.
+
+As with all other paid items, time skips apply to everyone on the server. However, since they skip time immediately, only players who have started AFK tasks before the button is pressed will receive the benefit. Often it can be helpful to coordinate in global chat so people are ready to tag along.
+
+The benefit is also applied to all AFK players one-by-one, so it may take 1 ~ 3 minutes for the effects to apply for everyone. Most regular skippers will recommend waiting around 1 minute after the skip button becomes available again, and purchasing 30-minute skips is the most popular choice when boosts are also running.

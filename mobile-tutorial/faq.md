@@ -4,7 +4,7 @@ Basically you adventure around 'Train Stations' and either defeat individual ene
 ### Is this game P2W (Pay-to-Win)?
 No. There's no element in this game that would benefit or offer additional advantages to some players over others.
 
-The Transmitters sold in the Arasaka Unit Exchange have a global effect, which means once it is activated, all players on the server will benefit from the effect that it gives.
+The Transmitters sold in the Arasaka Unit Exchange have a global effect, which means once it is activated, all players on the server will benefit from the effect that it gives. Similarly, the Global Skips that can be purchased apply to all players who have started AFK tasks.
 
 The developer intends to keep the game non-P2W into the future.
 
@@ -13,7 +13,7 @@ All user-contributed content can be found on the [Github](https://github.com/Dex
 
 ### Does this game have any social media?
 Yes. You can find our community on [Discord](
-https://discord.com/invite/JREx8xz) and on [Reddit](https://www.reddit.com/r/CyberCode_Online/).
+https://discord.link/cco) and on [Reddit](https://www.reddit.com/r/CyberCode_Online/).
 
 The developer (DexterHuang) also has a [Patreon](https://www.patreon.com/cybercodeonline) for which donations will help support and maintain the game.
 
