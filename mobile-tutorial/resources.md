@@ -2,11 +2,11 @@
 
 ### Energy Cells  
 
-Your Special Weapon uses Energy Cells. You can find Energy Cells as drops after winning fights or by crafting them using Ammunition Tech Parts. You can carry a maximum of 1000 Energy Cells at a time.
+Your Special Weapon uses Energy Cells. You can find Energy Cells as drops after winning fights or by crafting them using Ammunition Tech Parts. You can carry a maximum of 2000 Energy Cells at a time.
 
 ### Antimatter Charges 
 
-Your Destructive Weapon uses Antimatter Charges. You can find them as drops (less often than Energy Cells) or by crafting them from Military Ammunition Tech Parts. You can carry a maximum of 1000 Antimatter Charges at a time.
+Your Destructive Weapon uses Antimatter Charges. You can find them as drops (less often than Energy Cells) or by crafting them from Military Ammunition Tech Parts. You can carry a maximum of 2000 Antimatter Charges at a time.
 
 ## Tech Parts  
 You can use tech parts (ammo and medical) to craft corresponding items via in the game crafting functions located in your Inventory menu.  
