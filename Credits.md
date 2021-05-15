@@ -53,7 +53,7 @@ Wanna
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)  
 [The_Wayfarrer](https://github.com/epixinvites)  
-Laani
+[Laani](https://github.com/Laani)
 
 ## Lore
 [byakkozen](https://github.com/byakkozen)  
@@ -117,7 +117,7 @@ Livingdead
 [Humboer](https://github.com/stphnhng)  
 [Tripplehelix](https://github.com/tripplehelix)  
 Vega_Efsunborn
-Laani  
+[Laani](https://github.com/Laani)
 
 ## Game resources (words)
 App2  
