@@ -1,5 +1,5 @@
 ## Developer
-[DexterHuang](https://github.com/DexterHuang)  
+[Crypt0r3n3g4d3](https://github.com/crypt0r3n3g4d3)  
 
 ## Moderators
 [alfaice](https://github.com/alfaice)  
