@@ -116,7 +116,8 @@ Livingdead
 [s3rvant](https://github.com/s3rvant)  
 [Humboer](https://github.com/stphnhng)  
 [Tripplehelix](https://github.com/tripplehelix)  
-Vega_Efsunborn  
+Vega_Efsunborn
+Laani  
 
 ## Game resources (words)
 App2  
