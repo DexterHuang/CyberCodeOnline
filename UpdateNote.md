@@ -20,9 +20,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log
 ### **2021/05/16- v0.487**
- * Added `Gang Headquarter` location
- * Gangs now need an upkeep fee and resource, the fee and resource required scales depending on member count
- * Added `Gather Resouce` action in `Gang Headquarter` this action gives resource to your gang
+ * Added `Gang Headquarter`
+ * Gangs now require an upkeep fee and resource, the fee and resources required depends on the member count
+ * Added `Gather Resouce` action in `Gang Headquarter`. This action gives resource to your gang
  * Added `Gang Dungeon`, a more difficult dungeon that is bigger and deeper with a stronger boss, the boss has guaranteed rare+ drops and requires `Gang Invasion Transmitter`, only accessible to gang members
  * Added `Gang Invasion Transmitter`, it only drops in challenge dungeon loot room, use this to enter the gang dungeon
  * Added gang level, now gangs have a level that can be leveled up based on players actions
