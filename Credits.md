@@ -53,6 +53,7 @@ Wanna
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)  
 [The_Wayfarrer](https://github.com/epixinvites)  
+[Sans3108](https://github.com/sans3108)  
 [Laani](https://github.com/Laani)
 
 ## Lore
