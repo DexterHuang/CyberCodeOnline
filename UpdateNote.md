@@ -19,6 +19,12 @@ Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Updates Log
+### **2021/05/16- v0.487**
+ * Added `Gang Headquarter` location
+ * Gangs now need upkeep fee and resource, fee and resource required scales depending on member count
+ * Added `Gather Resouce` action in `Gang Headquarter` this action gives resource to your gang
+ * Added `Gang Dungeon` a more difficult dungeon that is bigger and deeper with stronger boss, the boss has guaranteed rare+ drops 
+
 ### **2021/05/13- v0.487**
  * Removed unit amount from player profiles on the web version
 
