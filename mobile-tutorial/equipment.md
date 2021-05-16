@@ -1,5 +1,5 @@
 ## Equipment
-You can equip gear that you own, as long as the gear level you wish to equip is not higher than your current player level. All equipment is divided into rarities:
+You can equip gear that you own as long as the gear level you wish to equip is not higher than your current player level. All equipment will be one of the following rarities:
 
   - Trash (grey)
   - Common (white)
@@ -8,11 +8,21 @@ You can equip gear that you own, as long as the gear level you wish to equip is 
   - Legendary (purplish pink)
   - Epic (Red)
 
-Higher rarities will give a higher quality item with better stats and more module upgrade slots. Higher level equipment will give better stats compared to lower level ones, so save up your Rare and Legendary Caches.
+Higher rarities will give higher quality items with better stats and more module upgrade slots. Higher level equipment will give better stats compared to lower level ones, so save up your Rare+ caches.
+
+## Finding Equipment
+
+You can find equipment and equipment caches in the dungeons or when fighting individual enemies.
+
+You are also able to use the Player Market once you are level 5 to purchase specific items.
+
+## Printing Equipment
+
+Caches can be used to print equipment at your current Printing Rank at the Molecular 3D Printer in the City Center. The level of the printed gear will be the same as your printing level, not your player level, so make sure you keep your printing rank caught up.
 
 ## Upgrade Modules
 
-You can install upgrade modules on your equipment. To equip the upgrade modules, the module upgrade's level cannot be higher than the equipment's level. Upgrade modules can be removed any time.
+You can install upgrade modules on your equipment. To equip the upgrade modules, the module upgrade's level cannot be higher than the equipment's level. Upgrade modules can be removed at any time.
 
 ## Upgrade Slots
 
@@ -72,25 +82,5 @@ You can install upgrade modules on your equipment. To equip the upgrade modules,
  - Legendary: 2 Slots
  - Epic: 3 Slots
 
-## Finding Equipment
-
-You can find equipment and equipment caches in the dungeons or when fighting individual enemies.
-
-You are also able to use the player market once you are level 5 to purchase specific items.
-
-## Consumables
-
-### Cache
-Caches can be used to print gear equivalent to your current printing level at the Molecular 3D Printer. The level of the printed gear will be the same as your printing level.
-
-### Ammo
-Ammo are used to fire special attacks and destructive attacks. Special attacks use Energy Cells while Destructive attacks use Antimatter Charges. Each fire will consume one ammo. You can own a maximum of 1000 Energy Cells and 1000 Antimatter Charges each in your pocket. You can craft ammo via the in-game crafting function or by defeating enemies.
-
-### Medical
-Medical items can be used to regenerate health in dungeons. There are two types of medical items, self-use and AOE. After using the item your health regenerates according to the amount described. Your health will not be healed beyond your maximum health capacity. Medical items can be either crafted via the in-game crafting function or by defeating enemies.
-
-### Experience memories
-Higher level Experience Memories yield more XP and can be used during fights. Experience Memories are mostly found in dungeons.
-
-### Synaptic Acceleration Transmitter
-The Synaptic Acceleration Transmitter is used to speed up AFK jobs. The item will give everyone a buff which will show on your profile under 'Global Effects'. Each transmitter will add +5% speed to tasks. Only tasks that are started when the buff is active will be buffed, tasks already running will not be affected. This item can be used multiple times to stack the effect up to +80%. The effect will last for 20 minutes, however the time will reset each time one is used.
+## Other Items
+You can learn more about other items, such as consumables, in the Inventory and Resources tutorials.

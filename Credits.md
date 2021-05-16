@@ -54,6 +54,7 @@ Wanna
 [Skippayy](https://github.com/skippayyyy)  
 [The_Wayfarrer](https://github.com/epixinvites)  
 [Sans3108](https://github.com/sans3108)  
+[Laani](https://github.com/Laani)
 
 ## Lore
 [byakkozen](https://github.com/byakkozen)  
@@ -116,7 +117,8 @@ Livingdead
 [s3rvant](https://github.com/s3rvant)  
 [Humboer](https://github.com/stphnhng)  
 [Tripplehelix](https://github.com/tripplehelix)  
-Vega_Efsunborn  
+Vega_Efsunborn
+[Laani](https://github.com/Laani)
 
 ## Game resources (words)
 App2  
