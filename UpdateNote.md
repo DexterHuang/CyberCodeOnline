@@ -19,6 +19,12 @@ Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Updates Log
+### **2021/05/17- v0.487**
+ * Entering gang dungeon will now consume `Gang Invasion Order Transmitter`
+ * Entering gang dungeon created by gang member will no longer require you to have `Gang Invasion Order Transmitter`
+ * Optimization
+ * Fix issue with loading name changed or banned player in gang member page
+
 ### **2021/05/16- v0.487**
  * Added `Gang Headquarter`.
  * Gangs now require an upkeep fee and resource, the fee and resources required depends on the member count
