@@ -32,5 +32,33 @@ if (errors.length == 0) {
     console.log('Dungeons validation complete.')
 }
 else {
+  addLineNumbersToErrors(errors, maskStr);
+    console.error('Found invalid dungeon rooms');
+    errors.forEach((e) => {
+      console.error(e);
+    })
     throw new Error(`Dungeons validation not successful! errors: ${JSON.stringify(errors)}`);
+}
+
+function addLineNumbersToErrors(errorRooms: ErrorRoom[], maskStr: string) {
+  const splitLines = maskStr.split(/\r?\n/);
+  const preparedSplitted = splitLines.map((s, i) => {
+    const searchRegExp = /"tiles"\s*:/g;
+    const replaceWith = `"lineNumber": ${i + 1},"tiles":`;
+    const replaced = s.replace(searchRegExp, replaceWith);
+    return replaced;
+  });
+  const prepared = preparedSplitted.join('\n');
+  const dungeonsWithLineNumber: { rooms: DungeonWithLineNumber[], bossRooms: DungeonWithLineNumber[] } = JSON.parse(prepared);
+
+  errorRooms.forEach((e) => {
+    e['lineNumber'] = getLineNumber(e, dungeonsWithLineNumber);
+  });
+}
+function getLineNumber(errorRoom: ErrorRoom, dungeonsWithLineNumber: { rooms: DungeonWithLineNumber[], bossRooms: DungeonWithLineNumber[] }): number {
+  const dungeonWithLineNumber: DungeonWithLineNumber[] = dungeonsWithLineNumber[errorRoom.type];
+  return dungeonWithLineNumber[errorRoom.roomNumber].lineNumber;
+}
+interface DungeonWithLineNumber extends Dungeon {
+  lineNumber: number
 }

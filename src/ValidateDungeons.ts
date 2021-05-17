@@ -1,4 +1,3 @@
-import { FileHelper } from "./FileHelper";
 import * as PF from 'pathfinding'
 
 export class DungeonValidator {
@@ -18,12 +17,11 @@ export class DungeonValidator {
 
         for (const dungeon of dungeons) {
             try {
-                const key = this.validateGenKey(dungeon);
+                const key = this.validateAndGenerateKey(dungeon);
                 if (dungeonMap.has(key)) {
                     errors.push({
                         type: type, roomNumber: index,
-                        message: `Duplicate found! room number ${index} is a duplicate of room number ${dungeonMap.get(key)}!`,
-                        lineNumber: this.getLineNumberByIndex(index), dungeon
+                        message: `Duplicate found! room number ${index} is a duplicate of room number ${dungeonMap.get(key)}!`, dungeon: dungeon
                     });
                 }
                 else {
@@ -32,8 +30,7 @@ export class DungeonValidator {
             }
             catch (e) {
                 errors.push({
-                    type: type, roomNumber: index, message: e.message,
-                    lineNumber: this.getLineNumberByIndex(index), dungeon
+                    type: type, roomNumber: index, message: e.message, dungeon: dungeon
                 });
             }
 
@@ -42,10 +39,7 @@ export class DungeonValidator {
 
         return errors;
     }
-    private getLineNumberByIndex(index: number) {
-        return (index * 19) + 4
-    }
-    private validateGenKey(dungeon: Dungeon): string {
+    private validateAndGenerateKey(dungeon: Dungeon): string {
 
         if (!dungeon || !dungeon.tiles) {
             throw new Error(`Dungeon is not valid! Cannot find tiles!`);
@@ -60,7 +54,6 @@ export class DungeonValidator {
             layout.push([]);
         }
         for (let i = 0; i < dungeon.tiles.length; ++i) {
-            const column = [];
             if (dungeon.tiles[i] !== ' ' && dungeon.tiles[i] !== '#') {
                 throw new Error(`Tiles has a unkown character! possible character: " ", "#"`);
             }
@@ -164,6 +157,5 @@ export interface ErrorRoom {
     type: string,
     roomNumber: number,
     message: string,
-    lineNumber: number,
     dungeon: Dungeon
 }
