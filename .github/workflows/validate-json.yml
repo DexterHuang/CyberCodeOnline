@@ -2,8 +2,9 @@ name: JSON_VALIDATION
 on:
     pull_request:
         branches:
-            - "*"
-            - "!master"
+            - "*"        # matches every branch that doesn't contain a '/'
+            - '*/*'       # matches every branch containing a single '/'
+            - '**'
         types: ["opened", "edited", "reopened", "synchronize"]
 jobs:
     validate:
