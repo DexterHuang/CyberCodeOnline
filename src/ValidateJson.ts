@@ -1,4 +1,5 @@
 import { FileHelper } from "./FileHelper";
+import {Dungeon, ErrorRoom, DungeonValidator } from "./ValidateDungeons"
 
 
 const paths = FileHelper.getAllFiles('./contribution').filter(fileName => fileName.endsWith('.json'));
@@ -15,19 +16,21 @@ for (const path of paths) {
   }
 }
 
-const maskStr = FileHelper.getFile('./contribution/dungeon/layout/structure-mask.json');
-const mask: { rooms: { tiles: string[] }[] } = JSON.parse(maskStr);
-index = 1;
-for (const room of mask.rooms) {
-  if (room.tiles.length !== 225) {
-    throw `Room number ${index} has invalid room config, ${room.tiles.length}`;
-  }
-  for (const tile of room.tiles) {
-    if (tile !== " " && tile !== "#") {
-      throw `Room number ${index} contains invalid character, '${tile}' is not a valid tile symbol`;
-    }
-  }
-  index++;
-}
-
 console.log(`JSON Validation complete.`)
+
+const maskStr = FileHelper.getFile('./contribution/dungeon/layout/structure-mask.json');
+const mask: { rooms: Dungeon[], bossRooms: Dungeon[] } = JSON.parse(maskStr);
+
+const dungeonValidator = new DungeonValidator(15);
+
+const errors: ErrorRoom[] = [];
+
+errors.push(...dungeonValidator.validateDungeons(mask.rooms, 'rooms'));
+errors.push(...dungeonValidator.validateDungeons(mask.bossRooms, 'bossRooms'));
+
+if (errors.length == 0) {
+    console.log('Dungeons validation complete.')
+}
+else {
+    throw new Error(`Dungeons validation not successful! errors: ${JSON.stringify(errors)}`);
+}
