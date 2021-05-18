@@ -1,28 +1,52 @@
 ## Equipment
-You can equip gear that you own as long as the gear level you wish to equip is not higher than your current player level. All equipment will be one of the following rarities:
+You can equip the gear that you own as long as the gear level you wish to equip is not higher than your current player level.  
+All equipment will be one of the following rarities:
 
-  - Trash (grey)
-  - Common (white)
-  - High Quality (green)
-  - Rare (yellow)
-  - Legendary (purplish pink)
-  - Epic (Red)
+  - Trash (Grey)
+  - Common (White)
+  - High Quality (Green)
+  - Rare (Yellow)
+  - Legendary (Fuchsia, Deep Pink)
+  - Epic (Dark Red)
 
-Higher rarities will give higher quality items with better stats and more module upgrade slots. Higher level equipment will give better stats compared to lower level ones, so save up your Rare+ caches.
+Higher rarities will have better stats and more module upgrade slots, depending on the piece of equipment.  
+High level equipment will give better stats compared to lower level ones.  
+
+Completing the "Say Hello to the Global Chat" quest will offer a complete random level 1 gear.  
+
+🔹 As a newbie, it's important to craft and equip trash quality gear since it's the cheapest one to print.  
+🔹 Starting from level 5 up to level 10, you can start printing common quality caches.  
+🔹 From level 10 to 20, you will have enough BTC to start using High Quality gear.  
+🔹 From level 20 to 40 - 50, you can print and wear Rare Quality gear.  
+🔹 And from level 40 - 50, you can print out and wear Legendary Quality gear.  
+🔹 From level 90 - 100+, if you ever have the chance to get one or to buy one or more, you can print out and wear Epic Quality gear, which is the highest quality and rarest in the whole game.  
+
+These are not rules on how you should manage different types of quality equipment but rather they are recommendations on what type of equipment you should have at different levels.
+
 
 ## Finding Equipment
 
-You can find equipment and equipment caches in the dungeons or when fighting individual enemies.
+You can find equipment and equipment caches in the dungeons or when fighting individual enemies (street fights).  
 
-You are also able to use the Player Market once you are level 5 to purchase specific items.
+Once you are level 5, you will be able to use the Player Market to purchase different types of equipment, crafting materials and other items.
 
 ## Printing Equipment
 
-Caches can be used to print equipment at your current Printing Rank at the Molecular 3D Printer in the City Center. The level of the printed gear will be the same as your printing level, not your player level, so make sure you keep your printing rank caught up.
+Caches can be used to print equipment at your current Printing Rank at the Molecular 3D Printer in the City Center.  
+
+The level of the printed gear will be the same as your Printing Rank, so make sure to keep your Printing Rank at the same level as your player level.  
 
 ## Upgrade Modules
 
-You can install upgrade modules on your equipment. To equip the upgrade modules, the module upgrade's level cannot be higher than the equipment's level. Upgrade modules can be removed at any time.
+You can install upgrade modules in your equipment. In order to equip the module, it's level cannot be higher than the equipment's level.  
+E.g.: you cannot install an lvl 20 upgrade module in level 5 gloves.  
+
+Upgrade modules can be removed at any time.  
+Removed upgrade modules will take space in your inventory so pay attention to that.  
+Make sure you have enough space in your inventory before removing any upgrades.  
+
+Scrapping a piece of equipment that have an upgrade module installed in it, will also delete the said module!  
+You will not recover it!  
 
 ## Upgrade Slots
 
