@@ -21,7 +21,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ## Updates Log
 ### **2021/05/18- v0.487**
  * Fixed `Gang Memory Shard` not spawning correctly
- * Upgraded the email server (All your mail history will be lost, its expected)
+ * Upgraded the email server (All your mail history will be lost, it's expected)
  * Boss XP gain has been doubled in dungeons
 
 ### **2021/05/17- v0.487**
