@@ -209,5 +209,3 @@ Currently hidden, your performance score is a (developer) stat that represents h
 
 A performance score that's under 2000 means that your device can handle the game pretty well.
 A performance score that's between 2000 - 4000 means that your device handles the game pretty poorly, and it will heat up and drain the battery faster.  
-
-Currently,the Performance Score is hidden from player view.
