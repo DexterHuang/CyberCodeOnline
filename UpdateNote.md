@@ -21,16 +21,16 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ## Updates Log
 ### **2021/05/18- v0.487**
  * Fixed `Gang Memory Shard` not spawning correctly
- * Upgraded email server (All your mail history will be lost, its expected)
- * Doubled enemy boss exp in dungeons
+ * Upgraded the email server (All your mail history will be lost, its expected)
+ * Boss XP gain has been doubled in dungeons
 
 ### **2021/05/17- v0.487**
- * Updated Donation NPC `Jen`'s character image
- * Now clicking on player's gang tag in chat message title will navigate you to gang details page
- * Entering gang dungeon will now consume `Gang Invasion Order Transmitter`
- * Entering gang dungeon created by gang member will no longer require you to have `Gang Invasion Order Transmitter`
- * Optimization
- * Fix issue with loading name changed or banned player in gang member page
+ * Now clicking on player's gang tag in chat message title will navigate you to the respective gang's details page
+ * Entering gang dungeons will now consume a `Gang Invasion Order Transmitter`
+ * Entering gang dungeons created by a gang member will no longer require you to have `Gang Invasion Order Transmitter`
+ * More optimization
+ * Fixed an issue regarding loading a name which is either changed or the player is already banned in the gang member page
+
 
 ### **2021/05/16- v0.487**
  * Added `Gang Headquarter`.
