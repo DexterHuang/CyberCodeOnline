@@ -20,6 +20,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log
 ### **2021/05/18- v0.487**
+ * Decreased gang related item droprate in crates, but drastically increase on boss drops
  * Fixed `Gang Memory Shard` not spawning correctly
  * Upgraded email server (All your mail history will be lost, its expected)
  * Doubled enemy boss exp in dungeons
