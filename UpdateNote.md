@@ -31,7 +31,6 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * More optimization
  * Fixed an issue regarding loading a name which is either changed or the player is already banned in the gang member page
 
-
 ### **2021/05/16- v0.487**
  * Added `Gang Headquarter`.
  * Gangs now require an upkeep fee and resource, the fee and resources required depends on the member count
