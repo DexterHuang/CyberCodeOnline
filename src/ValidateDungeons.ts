@@ -60,9 +60,9 @@ export class DungeonValidator {
             const x = i % this.size;
             const y = Math.floor(i / this.size);
             const value = dungeon.tiles[i] === '#';
-            // if (this.isBorder(x, y) && !value) {
-            //     throw new Error(`Border is not correct! (${x},${y})`);
-            // } I cant find where the problem is :( so i comment this out firsts
+            if (this.isBorder(x, y) && !value) {
+                throw new Error(`Border is not correct! (${x},${y})`);
+            }
             if (this.isDoor(x, y) && value) {
                 throw new Error(`Doors are not correct! (${x},${y})`);
             }
