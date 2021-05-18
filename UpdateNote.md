@@ -19,6 +19,10 @@ Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Updates Log
+### **2021/05/18- v0.487**
+ * Upgraded email server
+ * Doubled enemy boss exp in dungeons
+
 ### **2021/05/17- v0.487**
  * Updated Donation NPC `Jen`'s character image
  * Now clicking on player's gang tag in chat message title will navigate you to gang details page
