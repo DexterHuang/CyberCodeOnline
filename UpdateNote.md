@@ -19,6 +19,9 @@ Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Updates Log
+### **2021/05/20- v0.487**
+ * Increase AI Core bitcoin drop by 30%
+
 ### **2021/05/19- v0.487**
  * Increase exp gain in dungeon enemy by 10%
  * Decresed Bitcoin gain from AI Cores
