@@ -6,6 +6,8 @@
 [BruteDeity](https://github.com/BruteDeity)  
 [CMDR7](https://github.com/cmdr7)  
 [Deckeeper](https://github.com/deckeeper)  
+Fudgee  
+[kt0t0wh0](https://github.com/kt0t0Sudd3n)  
 [l33t4ng3l](https://github.com/l33t4ng3l)  
 [PotatoMan](https://github.com/PotatoMan145)  
 [Tripplehelix](https://github.com/tripplehelix)  
@@ -18,21 +20,24 @@ Unca_Feddit
 [l33t4ng3l](https://github.com/l33t4ng3l)  
 Proxxie
 
-## Translations
+## Translators
 [alfaice](https://github.com/alfaice)  
 [CynexXT](https://github.com/CynexXT)  
 [Destro9000](https://github.com/Destro9000)  
 [EV_Jack](https://github.com/EvJack)  
+[f4tih-0z3r](https://github.com/f4tih-0z3r)  
 [Fremad](https://github.com/Fremadico)  
 [JEricaM](https://github.com/JEricaM)  
 [kj415j45](https://github.com/kj415j45)  
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)  
 [Kraken-Juice](https://github.com/Kraken-Juice)  
+[Misaki](https://github.com/Misaki290)  
 [Murfex](https://github.com/Murfex)  
 MontyPython   
 [nopeholmes](https://github.com/nopeholmes)  
 [PedroCisnerosSantana](https://github.com/PedroCisnerosSantana)  
-[PsyB34R](https://www.instagram.com/psybearr)  
+[PsyB34R](https://www.instagram.com/psybearr)
+[QuiteABitofAll](https://github.com/QuiteaBitofAll)
 roucoupute2  
 Rinelle  
 [ruliou](https://github.com/ruliou)  
@@ -40,13 +45,17 @@ Ryugarret
 [Seo-na](https://github.com/Seo-na)  
 [siruelionn](https://github.com/siruelionn)  
 SKIFFI  
-[SnRetro](https://github.com/SnRetro)  
+[SnRetro](https://github.com/SnRetro)
+[TheBrainReal](https://github.com/lucasknook)    
 [un-amico](https://github.com/un-amico)  
 Unfairissimo  
 Wanna 
 
 ## Proofreading
+[Skippayy](https://github.com/skippayyyy)  
 [The_Wayfarrer](https://github.com/epixinvites)  
+[Sans3108](https://github.com/sans3108)  
+[Laani](https://github.com/Laani)
 
 ## Lore
 [byakkozen](https://github.com/byakkozen)  
@@ -72,6 +81,7 @@ WoLoLoiK
 ## Dungeons
 [alfaice](https://github.com/alfaice)  
 Alice  
+AndyCandy  
 [Deckeeper](https://github.com/deckeeper)  
 [DexterHuang](https://github.com/DexterHuang)  
 Dragonmaster84  
@@ -90,10 +100,10 @@ SitiSchu
 SKIFFI  
 [Tripplehelix](https://github.com/tripplehelix)  
 Vega_Efsunborn  
+[Veyrin](https://github.com/darkrevelations)  
 Willbur  
 Xalaram  
 zomg  
-[Veyrin](https://github.com/darkrevelations)  
 
 ## Tutorial
 [alfaice](https://github.com/alfaice)  
@@ -108,9 +118,10 @@ Livingdead
 [s3rvant](https://github.com/s3rvant)  
 [Humboer](https://github.com/stphnhng)  
 [Tripplehelix](https://github.com/tripplehelix)  
-Vega_Efsunborn  
+Vega_Efsunborn
+[Laani](https://github.com/Laani)
 
-## Words
+## Game resources (words)
 App2  
 Aquacky  
 [bvcxz](https://github.com/bvcxz-cybercode)  
@@ -136,11 +147,13 @@ MontyPython
 Redinator  
 [Ryujin](https://github.com/Ryujin-cybercode)  
 Satan  
+[Skippayy](https://github.com/skippayyyy)  
 [Tripplehelix](https://github.com/tripplehelix)  
 [Veyrin](https://github.com/darkrevelations)  
 
 ## Tips
 [Archibaald](https://github.com/Archibaald-dev)  
+Beepbeepimajeep
 Bronzer  
 [byakkozen](https://github.com/byakkozen)  
 Crescent_Grey  
@@ -155,6 +168,7 @@ KingRiver
 Mist  
 Mobius_One  
 Pikkon85  
+Polemo03
 roucoupute2  
 RsKaiser  
 [Russ Hammett](https://github.com/Kritner)  

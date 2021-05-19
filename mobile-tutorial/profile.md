@@ -1,128 +1,126 @@
 ## Profile
-In your Profile there's several information and options at your disposal.
+In your Profile, there are several pieces of information and options at your disposal.
 
 Here is what you can see from your profile
  - Alias
- - Amount of Bitcoins
- - Average Gear Level
+ - Title and profile picture (if applicable)
+ - Amount of BitCoins
+ - Average gear level (Gear Score)
  - Current location
- - Online/Offline Status
- - Your levels
- - Skills
+ - Online/Offline status (System Link)
+ - Street Cred
+ - Your current activity (Status)
+ - Your level
+ - Crafting ranks
+ - Skill levels
  - Stats
  - Gang
- - Inventory
  - Secret Keys
 
-At the [STATS] you can see the 'Global Effects' of an activated Transmitter (whether it is a Synaptic Accelerator, Exploit or Frontal Cortex Optimization one).
+In the [STATS] section, you can see the 'Global Effects' of an activated Transmitter (or boost).
 
 Here you can also see how long the [MUTED] status will last.
 
-As the name suggests, someone with the 'MUTED' status will have the ability to comunicate with others disabled for a certain amount of time.
+As the name suggests, someone with the 'MUTED' status will not be able to communication with others for a certain amount of time.
 
-'MUTED' status affects all kinds of chats, both Global, Gang and Mail (Private Messaging).
+The 'MUTED' status affects all kinds of chats: both Global, Gang and Mail (Private Messaging).
 
-'MUTED' status does not affect the ability to receive or send items to other players or the ability to play the game. You will be able to continue to play the game but without the interaction with other players.
+The 'MUTED' status does not affect the ability to receive or send items to other players or the ability to play the game.
 
-The 'MUTED' status is applied by the moderators (mods) to a player who broke the rules of the game or the ones related to the chat. 
+The 'MUTED' status is applied by the moderators (mods) to a player who has broken the rules of the game or the ones related to the chat. 
 
-**You will need to scroll down below stats to see these**
+At the bottom of your profile, you will see a few additional options:
 
-You also have an option to:
+- [DONATE] - this will take you to the donation tiers (Cosmetics);
 
-- [DONATE] - which will take you to the Donation Tiers;
-
-- [QUIT GANG] - in case you are in a gang;
+- [QUIT GANG] - this will leave your gang, if you are in one;
 
 - [LOGOUT] - this will log you out of the game.
 
-On other players profile, you will encounter different options:
-- [SEND PRIVATE MESSAGE] - it allows you to send a private message through the in-game Mail.
+On other players' profiles, you will encounter different options:
 
-- [SEND GIFT] - it allows you to send items (caches, healing items, ammo etc.) from your inventory to the other players inventory. You cannot send Secret Key Fragments to other players.
+- [SEND PRIVATE MESSAGE] - send a private message to the player through in-game Mail.
 
-- [INVITE TO GANG] - you can invite the player only if you are the leader of the gang or you, as the leader, gave permission to each gang members to invite others players into the gang.
+- [SEND GIFT] - send items (caches, healing items, ammo, etc.) from your inventory to the other player's inventory. You cannot send Secret Key Fragments to other players.
 
-- [ADD TO FRIEND LIST] - this will simply add the player to your friend list (without needing an acceptance from the player) and if the player is not inside the game, they will also receive a notification about the fact that you added him/her as friend.
+- [INVITE TO GANG] - invite the player to your gang, only if you are the Leader or you have the permission to invite others players into the gang.
 
-- [SEND STREET CRED] - this allows you to give 1 Street Cred point to other players.
+- [ADD TO FRIEND LIST] - add the player to your friend list, and if the player is not currenty online, they will also receive a notification about the fact that you added them as a friend.
 
-Street Cred is a point system similar to the "karma" one found on Reddit. It's meant to indicate how trustful or helpful a player is.
+- [SEND STREET CRED] - give 1 Street Cred point to the player.
 
-You're limited to send only 1 Street Cred per day. You are not limited in receiving Street Cred from other players.
+Street Cred is a point system similar to "Karma" found on Reddit. It's meant to indicate how trustful or helpful a player is.
 
-Performance Score shows how well the game performs on your device.
-
-Performance score is visible only by you and the developer.
+You're limited to sending only 1 Street Cred per day. You are not limited in how much Street Cred you receive from other players.
 
 ## Types of levels
 
 ### Player Level
 
-This is where all your other levels will be capped at. You can increase your player level by fighting in dungeons, fighting enemies and using Experience Memories. For the highest efficiency you want to keep all your levels in-line with your player level (This is recommended).
+This is the level all your other skills will be capped at. You can increase your player level by fighting in dungeons, fighting enemies and using Experience Memories. For the highest efficiency, you want to keep all your levels about even with your player level. This is recommended.
 
 ### Printing Rank
 
-Printing level determines the level of the equipment you will print. Your printing level can never go higher than your player level. You can level your printing rank by printing equipment, either by Reverse Engineering Tech Scraps or Working at a Printing Factory (These are all AFK jobs) at the Job Hub. 
+Printing rank determines the level of the equipment you will print at the 3D Molecular Printer. You can level your printing rank by printing equipment, Reverse Engineering Tech Scraps or working at a Printing Factory. The latter two options are AFK jobs at the Job Hub.
 
 ### Medical Science
-Crafting medical items or intiating a job at the Job Hub will give you medical crafting experience. You will need these levels to craft better heal items.
+Crafting medical items or initiating the relevant job at the Job Hub will give you medical crafting experience. You will need these levels to craft better healing items.
 
 ### Ammo Crafting
 
-Crafting ammo or initiating a job at the Job Hub will give you ammo crafting experience. Its useful to craft more ammos with lesser materials.
+Crafting ammo or initiating a job at the Job Hub will give you ammo crafting experience. It's useful to craft more ammo with less materials.
 
 ### Scavenge Skill
 
-To start Scavenging, you must start scavenging from the lower levels areas (Flori Station, Grandiose Parking Lot 1 - 4) up to the higher ones. 
+To start scavenging, you must start at the lowest level area (Flori Station, Grandiose Parking Lot 1 - 4). As your scavenge skill improves, you can start to scavenge at higher levels. The level requirements are listed in those areas.
 
-Higher scavenge level will allow you to scavenge for (ammunition, military ammunition and medical) tech parts in higher level locations, which will grant you better rewards. You gain scavenge experience by scavenging.
+Higher scavenge levels will also grant you better rewards of (ammunition, military ammunition and medical) tech parts. You can only gain scavenge experience by scavenging.
 
 ### Mining Skill
 
-Mining can be done only with 'Hash Processors' that drops from both normal and challenge dungeons.
+Mining can be done only with 'Hash Processors' that drop from both normal and challenge dungeons.
 
-Higher mining level can earn you more BTC per 15 minutes of afk mining, that being the minimum duration at which you can start mining. You can get mining experience by completing the mining job. With higher mining levels, you can craft AI cores more efficiently.
+Higher mining levels can earn you more BTC per 15 minutes of AFK mining. You can get mining experience by completing mining jobs at the Job Hub. With higher mining levels, you can craft AI cores more efficiently as well.
 
 ## Stats
 
-Every player has 20 different Stats.  
+Every player has 20 different Stats. 
 
 ### Max Shield
-The maximum shield that the player has. Upon receiving an attack, the shield is hit first before the player's health gets deducted.  
+The maximum shield that the player has. Upon receiving an attack, the shield is hit first before deducting from the player's health.
  
 ### Max Health
 The maximum health that the player has. Determined by player equipment and equipment upgrades.  
   
 ### Armor
-The armor that the player has. It reduces damage by that specified amount.  
+The armor that the player has. It reduces damage taken by that specified amount.  
   
 ### Health Regen
 Health regenerated after a battle in a dungeon. 
    
 ### Damage (dmg)
-The total damage given by your equipment. It is calculated by adding up the damage modifiers given by equipment and equipment upgrades.  
+The total damage the player deals. Your damage is calculated by adding up the damage modifiers given by equipment and equipment upgrades.  
   
 ### Crit Chance
-The chance of the player critically striking upon an attack. The max critChance is 70%.  
+The chance of the player critically striking when attacking. The max crit chance is 70%.  
   
 ### Crit Damage
-The multiplier to your normal damage upon a critical strike. The max critDamage multiplier is 200%.  
+The multiplier to your damage when critically striking. The max crit damage multiplier is 200%.  
   
 ### Escape
-The chance of escape from an enemy encounter. The max escape chance is 80%.  
+The chance of escaping from an enemy encounter. The max escape chance is 80%.  
   
 ### Stun Chance
-Chance of stunning an enemy. If an enemy is stunned they cannot perform a response action next turn. stunChance is capped at 20%.  
+The chance of stunning an enemy. If an enemy is stunned, they cannot perform a response action during that turn. The max stun chance is 20%.  
   
 ### Evade
-Chance of evading an enemy attack. evade is capped at 40%.  
+The chance of evading an enemy attack, taking no damage. The max evade chance is 40%.  
   
 ### Bargain
-Percent discount or bonus when buying or selling from the mart. The max bargain is 40%.  
+The percentage the price is discounted or increased when buying or selling from the mart. The max bargain percentage is 40%.  
   
 ### Pocket
-Amount of additional inventory space. The max additional pocket space is 32.  
+The amount of additional inventory space. The max additional pocket space is 32.  
   
 ### Damage Multiplier
 A percent multiplier to attacks. The max multiplier is 40%.  
@@ -131,19 +129,19 @@ A percent multiplier to attacks. The max multiplier is 40%.
 A percent multiplier to your armor. The max multiplier is 40%.  
   
 ### Stun Evade
-Chance of evading an enemy stun. The max chance is 40%.  
+The chance of evading an enemy stun. The max chance is 40%.  
   
 ### Shield Multiplier
 A percent multiplier to your shield. The max multiplier is 40%.  
 
 ### Healing Multiplier
-A percent multiplier to your heals. The max multiplier is 100%.
+A percent multiplier to heals received from healing items. The max multiplier is 100%.
 
 ### Time Reduction
-Shows how much are reduced all afk activities, in percentage. The max time reduction is 80%.
+A percent multiplier for how much time is reduced during AFK activities. The max time reduction is 80%.
 
-### Experience (exp) Multiplier
-A percent multiplier showing how much XP you can additionally gain. The max multiplier is 100%.
+### Experience Multiplier
+A percent multiplier showing how much EXP you can additionally gain. The max multiplier is 100%.
 
-### Bitcoin (Btc) Multiplier
-A percent multiplier showing how much bitcoin you can additionally gain. The max multiplier is 100%.
+### BitCoin (BTC) Multiplier
+A percent multiplier showing how much BitCoin you can additionally gain. The max multiplier is 100%.

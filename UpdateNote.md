@@ -1,4 +1,3 @@
-
 # Update Notes
 
 **CyberCode Online** is currently under an early and heavy development stage, which means many changes and new features are being added every day! That also means many stats are being adjusted all the time. So, if you have anything to suggest, feel free to [create an issue](https://github.com/DexterHuang/CyberCodeOnline/issues) or join our [Discord server](https://discord.link/cco).
@@ -11,7 +10,7 @@ Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee
  * contribution/notes/* - In Dungeon Lore
  * contribution/mobile/tips.md - Tips for Mobile
  * contribution/lang/* - Localisations
- * tips.txt - Tips for desktop 
+ * tips.txt - Tips for desktop
  * mobile-tutorial/* - Mobile Tutorial
  * tutorial/* - Desktop Tutorial
 
@@ -19,7 +18,68 @@ Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee
 
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
-## Updates Log 
+## Updates Log
+### **2021/05/19- v0.487**
+ * Increase exp gain in dungeon enemy by 10%
+ * Decresed Bitcoin gain from AI Cores
+
+### **2021/05/18- v0.487**
+ * Decreased gang related item droprate in crates, but drastically increase on boss drops
+ * Fixed `Gang Memory Shard` not spawning correctly
+ * Upgraded the email server (All your mail history will be lost, it's expected)
+ * Boss XP gain has been doubled in dungeons
+
+### **2021/05/17- v0.487**
+ * Now clicking on player's gang tag in chat message title will navigate you to the respective gang's details page
+ * Entering gang dungeons will now consume a `Gang Invasion Order Transmitter`
+ * Entering gang dungeons created by a gang member will no longer require you to have `Gang Invasion Order Transmitter`
+ * More optimization
+ * Fixed an issue regarding loading a name which is either changed or the player is already banned in the gang member page
+
+### **2021/05/16- v0.487**
+ * Added `Gang Headquarter`.
+ * Gangs now require an upkeep fee and resource, the fee and resources required depends on the member count
+ * Added `Gather Resouce` action in `Gang Headquarter`. This action gives resource to your gang
+ * Added `Gang Dungeon`, a high difficulty dungeon, that is bigger and deeper with a stronger boss. The boss is guaranteed for rare+ drops and requires `Gang Invasion Transmitter`, and only accessible to gang members.
+ * Added `Gang Invasion Transmitter`, it only drops in the loot room of challenge dungeons, use this to enter the gang dungeon
+ * Added gang levels, now gangs can be leveled up based on players actions
+ * Player tag now shows gang level
+
+### **2021/05/13- v0.487**
+ * Removed unit amount from player profiles on the web version
+
+### **2021/05/12- v0.487**
+ * Nametags now have distinct colors if the tagged player is a donator
+ * Potential fix to dungeon crash issue
+ * Updated level exp bar UI on the profile page
+
+
+### **2021/05/11- v0.487**
+ * Added icons for travelling
+ * Added a prompt to change language when your system language isn't english
+ * Fix the bug where you can click edit bio on other player's profile
+ * Made the circuit background more noticeable
+ * Changed the color of the AFK loading bar to improve readability
+ * Change the brightness of red to increase readability
+
+### **2021/05/10- v0.487**
+ * New Death Screen design
+ * Updated AFK progress bar design
+ * Updated level stats display
+ * Added Icons for NPCs
+ * Minor `AI Core` nerf
+ * Added Bio to profile (available only to donation tier `Elite` and above)
+ * Added barcode decoraction (available only to donation tier `Elite` and above)
+ * Added Level up screen
+ * Fixed bugged enemies, causing the player to crash until the dungeon expires
+ * Fixed bugged dungeons stuck in the map
+
+### **2021/05/07- v0.487**
+ * Added an animation for attacking and receiving damage
+ * Added an indication when health is low during combat
+ * Bitcoins are now required to unlock all Locked Containers
+ * Added a limit to the number of Locked Containers that can be unlocked in one go
+
 ### **2021/05/05- v0.487**
  * Added a time preview for crafting
  * Minor fixes for locked containers
@@ -27,6 +87,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * Added `Locked Container`, `Locked Rare Container` and `Locked Legendary Container`. These can be found in dungeons with various drop rates, you may unlock the containers in the `Terminal` (requires time and `Tech Scrap`), rarer containers have better drops (duhh)
  * Added an image for the `Terminal`
  * Increased the amount of `Hash Processors` you can craft from 1 to 4, but an additional 5 minutes will be required for each craft
+
+### **2021/05/07- v0.472**
+ * Fixed the issue which made dungeons unplayable
+ * Added max craft amount for all `Locked Containers`
 
 ### **2021/05/04- v0.472**
  * Dugeon optimization
@@ -46,7 +110,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ### **2021/04/29- v0.465**
  * Language changing has been turned into a setting
  * Fixed missing items in the market
- * Market captchas are now easier 
+ * Market captchas are now easier
  * Market performance is better, especially on slower devices
 
 ### **2021/04/27- v0.465**
@@ -100,7 +164,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * Added Radar chart view to player detail page
  * Added social tutorial and removed co-op tutorial page
  * Chat bug fix
- * Global time skip optimization (hopefully everyone will get skipped normally) 
+ * Global time skip optimization (hopefully everyone will get skipped normally)
 
 ### **2021/04/12- v0.414**
  * Chat backend update
@@ -108,7 +172,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ### **2021/04/11- v0.414**
  * Global time skip will now affect all players doing AFK tasks (but will have small delay before everyone is processed by system)
- * tons of under-the-hood server improvement 
+ * tons of under-the-hood server improvement
 
 ### **2021/04/09- v0.414**
  * Global time skip is changed to max 50 player randomly (until i fix the network issue)
@@ -128,17 +192,17 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ### **2021/04/04- v0.410**
  * Fix health bar display issue
  * Server Optimization
-  
+
 ### **2021/04/03- v0.410**
  * Now Tier 3 Unit package is cheaper (140% bonus)
- * Fix IAP purchase saying Insufficient Unit when player has exact same amount 
+ * Fix IAP purchase saying Insufficient Unit when player has exact same amount
 
 ### **2021/04/02- v0.408**
  * Android IAP is fixed
 
 ### **2021/03/28- v0.401**
  * Added PayPal payment to browser (including mobile view) to purchase Units (**Donation Tiers will come later**)
- 
+
 ### **2021/03/27- v0.401**
  * Fixed hard lock on map page due to dungeon issue, press `leave dungeon` when it keeps loading none stop
 
@@ -160,7 +224,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ### **2021/03/04- v0.386**
  * Buffed ammo crafting again, may have nerfed too much yesterday
- * `AI Core` auto farming can now only be activated when your level is lower then the location max level, 
+ * `AI Core` auto farming can now only be activated when your level is lower then the location max level,
 this is to prevent people from out-leveling the area too much, result in soft lock
  * Fixed multiple typo
 
@@ -169,14 +233,14 @@ this is to prevent people from out-leveling the area too much, result in soft lo
  * Added decimal separators in numbers to improve readability
 
 ### **2021/03/02- v0.386**
- * Increased anti-matter charge drop rate on scavange 
+ * Increased anti-matter charge drop rate on scavange
  * Added friend list
  * `Anti Matter Charge` and `Energy Cell` is now scrapble, having a low chance of getting ammo tech parts
  * Cost of crafting `Military ammunition tech parts` from `Ammunition tech parts` is increased
  * You can now craft `Hash Processor` from various tech parts
  * Increase the cost of crafting high level med item
  * lower the drop rate of `Military ammunition tech parts`
- * Added word list from contribution 
+ * Added word list from contribution
  * Increase max level to 250
 
 ### **2021/03/01- v0.369**
@@ -188,9 +252,9 @@ this is to prevent people from out-leveling the area too much, result in soft lo
 ### **2021/02/28- v0.369**
  * Added images for locations
 
-### **2021/02/27- v0.369** 
+### **2021/02/27- v0.369**
  * Fix ios start up error issue
- * Fix ios profile pic upload bug 
+ * Fix ios profile pic upload bug
 
 ### **2021/02/26- v0.369**
  * Fix upgrade module visual bug on item details
@@ -201,17 +265,17 @@ this is to prevent people from out-leveling the area too much, result in soft lo
  * Now other player equiped items in their detail page is rendered with new UI element
  * Fix typo for `Military Drone` recipe
  * Fix update page exceeding the screen width issue
-   
+
 ### **2021/02/24- v0.369**
  * Progress bar text now is THICC
  * IOS update been rejected by Apple, pushes some updates for that
 
 ### **2021/02/23- v0.369**
  * Updated mobile combat UI, should be more compat and less messy
- * Updated progress bar text color 
- * Improve time sync mechanic 
- * Fix typo on crafting recipe 
- 
+ * Updated progress bar text color
+ * Improve time sync mechanic
+ * Fix typo on crafting recipe
+
 ### **2021/02/22- v0.359**
  * New Items `Experience Shard [mining/Scavange/Medical Science/ammo crafting/printing skill]` same as normal `Experince Shard` but for other levels
  * Item Rename `Experience Memory` => `Experience Shard`
@@ -226,12 +290,12 @@ this is to prevent people from out-leveling the area too much, result in soft lo
 ### **2021/02/21- v0.359**
  * iOS related fix
  * iOS IAP update - appstore still pending apple approval
- 
+
 ### **2021/02/20- v0.359**
  * Update dungeon enemy icon, because some older ios devices cannot render the old one properly
- 
+
 ### **2021/02/18- v0.359**
- * Normal dungeon enemy level is reduced 
+ * Normal dungeon enemy level is reduced
 
 ### **2021/02/17- v0.359**
  * Dungeon now has custom structures, structures can be contributed via GitHub

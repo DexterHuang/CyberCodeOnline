@@ -1,4 +1,4 @@
-![CyberCode Online Logo](/resources/readme/logo-black.png)
+![CyberCode Online Logo](/resources/readme/CyberCode%20Online.png)
 
 *CyberCode Online is a **browser & mobile based MMORPG game** that is **disguised as VS Code in the browser***
 *where you click functions and variables in the ever changing source code to navigate your character in a Cyber Punk inspired world.*
