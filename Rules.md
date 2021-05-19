@@ -17,5 +17,5 @@
 * Don't: 
   - Be a jerk
   - Spam  
-  - Advertise  
+  - Advertise other games 
   - Impersonate others  
