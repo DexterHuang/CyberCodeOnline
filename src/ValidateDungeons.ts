@@ -8,7 +8,7 @@ export class DungeonValidator {
         this.middle = Math.floor(size / 2);
     }
 
-    public validateDungeons(dungeons: Dungeon[], type: string): ErrorRoom[] {
+    public validateDungeons(dungeons: Dungeon[]): ErrorRoom[] {
 
         const errors: ErrorRoom[] = [];
         const dungeonMap = new Map();
@@ -20,7 +20,7 @@ export class DungeonValidator {
                 const key = this.validateAndGenerateKey(dungeon);
                 if (dungeonMap.has(key)) {
                     errors.push({
-                        type: type, roomNumber: index,
+                        roomNumber: index,
                         message: `Duplicate found! room number ${index} is a duplicate of room number ${dungeonMap.get(key)}!`, dungeon: dungeon
                     });
                 }
@@ -30,7 +30,7 @@ export class DungeonValidator {
             }
             catch (e) {
                 errors.push({
-                    type: type, roomNumber: index, message: e.message, dungeon: dungeon
+                    roomNumber: index, message: e.message, dungeon: dungeon
                 });
             }
 
@@ -154,7 +154,6 @@ export interface Dungeon {
 }
 
 export interface ErrorRoom {
-    type: string,
     roomNumber: number,
     message: string,
     dungeon: Dungeon
