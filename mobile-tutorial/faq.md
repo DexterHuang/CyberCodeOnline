@@ -203,9 +203,3 @@ You can make the dungeon Private so that it's invisible to other players and onl
 Instead of making your dungeon private, you can choose to protect it with a password by swiping the 'Dungeon password' button to activate and type in a password.
 
 Password protected dungeons can be seen by other players but they cannot join unless they know the password. This is useful if you want to clear a dungeon with specific friends. Just share the password in Gang chat or through Mail.
-
-### What is "Performance score"?
-Currently hidden, your performance score is a (developer) stat that represents how well your device can handle the game.  
-
-A performance score that's under 2000 means that your device can handle the game pretty well.
-A performance score that's between 2000 - 4000 means that your device handles the game pretty poorly, and it will heat up and drain the battery faster.  
