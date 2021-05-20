@@ -20,6 +20,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log
 ### **2021/05/20- v0.487**
+ * Decreases all skill required exp to level up!
  * Increase AI Core bitcoin drop by 30%
 
 ### **2021/05/19- v0.487**
