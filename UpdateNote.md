@@ -28,7 +28,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
  * Decresed Bitcoin gain from AI Cores
 
 ### **2021/05/18- v0.487**
- * Decreased gang related item droprate in crates, but drastically increase on boss drops
+ * Decreased gang related item's droprate in crates, but drastic increase in boss drops
  * Fixed `Gang Memory Shard` not spawning correctly
  * Upgraded the email server (All your mail history will be lost, it's expected)
  * Boss XP gain has been doubled in dungeons
