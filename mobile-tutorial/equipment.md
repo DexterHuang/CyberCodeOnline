@@ -10,9 +10,6 @@ All equipment will be one of the following rarities:
   - Epic (Dark Red)
 
 Higher rarities will have better stats and more module upgrade slots, depending on the piece of equipment.  
-High level equipment will give better stats compared to lower level ones.  
-
-Completing the "Say Hello to the Global Chat" quest will offer a complete random level 1 gear.  
 
 🔹 As a newbie, it's important to craft and equip trash quality gear since it's the cheapest one to print.  
 🔹 Starting from level 5 up to level 10, you can start printing common quality caches.  
