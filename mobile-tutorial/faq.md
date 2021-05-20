@@ -1,5 +1,7 @@
 ### What is this game, and what do I do?
-Basically you adventure around 'Train Stations' and either defeat individual enemies or conquer entire dungeons. You'll randomly receive items, equipment or caches after defeating enemies. **You will receive BTC and EXP after each battle, but items don't drop after every single battle.**
+Basically you adventure around 'Train Stations' and either defeat individual enemies or conquer entire dungeons.  
+You'll randomly receive items, equipment or caches after defeating enemies.  
+**You will receive BTC and EXP inside a battle, but items won't drop after every single battle.**
 
 ### Is this game P2W (Pay-to-Win)?
 No. There's no element in this game that would benefit or offer additional advantages to some players over others.
@@ -9,50 +11,71 @@ The Transmitters sold in the Arasaka Unit Exchange have a global effect, which m
 The developer intends to keep the game non-P2W into the future.
 
 ### How can I help out?
-All user-contributed content can be found on the [Github](https://github.com/DexterHuang/CyberCodeOnline). Feel free to submit a PR (Pull Request).
+All user-contributed content can be found on the [Github](https://github.com/DexterHuang/CyberCodeOnline).  
+Feel free to submit a PR (Pull Request).
 
 ### Does this game have any social media?
 Yes. You can find our community on [Discord](
 https://discord.link/cco) and on [Reddit](https://www.reddit.com/r/CyberCode_Online/).
 
-The developer (DexterHuang) also has a [Patreon](https://www.patreon.com/cybercodeonline) for which donations will help support and maintain the game.
+The developer (DexterHuang) also has a [Patreon](https://www.patreon.com/cybercodeonline) for donations that will help support and maintain the game.
 
-These social links can also be found by accessing the floating menu and clicking on the chain link symbol on mobile or by accessing the respective platform icons on the left side of the web view.
+These social links can also be found by accessing ☰ and clicking on the chain link symbol on mobile or by accessing the respective platform icons on the left side of the web view.  
 
 ### What programs or languages are being used for the creation of this game?
 CyberCode Online is a game developed using [ReactJS](https://reactjs.org/) with player contributions from [Github](https://github.com/DexterHuang/CyberCodeOnline).
 
 ### Is there any customization in the game?
-You can have a custom profile picture in your profile, a Title and a coloured chat border if you decide to subscribe to one of the 5 Donation Tiers available. These benefits are purely cosmetic.
+You can have a custom profile picture in your profile, a Title and a coloured chat border if you decide to subscribe to one of the 5 Donation Tiers available.  
+These benefits are purely cosmetic.
 
 ### Can I change my name?
-No, you can't change your name. Your username is permanent for now.
+No, you can't change your name.  
+Your username is permanent for now.
 
 ### How do I tag someone? Can I search the usernames of other people?
-You can tag and search for a user by typing @ in chat followed by their name (for example, type @DexterHuang). They will show up even if they are not online and may receive a notification.
+You can tag and search for a user by typing @ in chat followed by their name (for example, type @DexterHuang).  
+
+They will show up even if they are not online and they will receive a notification.
 
 ### What is Street Cred?
 Street Cred (Street Credit) is a way to appreciate someone you like or who has helped you. They are similar to "Karma" points on Reddit. 
-You can only give 1 Street Cred per day. To give Street Cred, all you have to do is to go to the person's profile, scroll down to 'Player Actions' and click on [GIVE STREET CRED] located under [ADD TO FRIEND LIST].
+
+You can give only 1 Street Cred per day. To give Street Cred, all you have to do is to go to the person's profile, scroll down to 'Player Actions' and click on [GIVE STREET CRED] located under [ADD TO FRIEND LIST].  
+
 You should consider giving some Street Credit to the people that contributed to this game. You can view the list at Profile - > Credits.
 
 ### What are Gangs and how do I create one?
-Gangs are the equivalent of clans or guilds in other MMORPGs.
-You can create one if you go to Chat, then the Gang tab and pay 100,000 BTC. 
-Other than a separate chat from the global chat, guilds don't have any other functions currently.
-Gangs also allow you to have a tag of 3 letters, chosen when the gang was created, in your chat border.
+Gangs are the equivalent of clans or guilds in other MMORPGs.  
+
+You can create one if you go to Chat, then the Gang tab and pay 100,000 BTC.  
+
+Gangs allow you to have a tag of 3 letters, chosen when the gang was created, in your chat border.
+
+Players that are in gangs can access a much higher difficulty dungeon, a gang dungeon, with guaranteed rare quality cache drops or higher.  
+The gang dungeon can be accessed only with a Gang Transmitter found in challenge dungeons.  
 
 ### How do I search for a Gang? How do I join one?
-Currently, you can't see a list of gangs in the game.
+Currently, you can't see a list of gangs in the game.  
 You can join one by creating it yourself or by receiving an invite from the Gang Leader or a gang member granted permissions to invite others to the gang.
 
 ### Can I rename my Gang? Can I have the same tag as another Gang has?
-Currently, you can't rename your own gang. 
-It's forbidden to have the same tag as other gangs. All gangs should have different tags in order to avoid confusion.
+Currently, you can't rename your own gang.  
+It's forbidden to have the same tag as other gangs.  
+All gangs should have different tags in order to avoid confusion.  
+
+### Where's my gang headquarters (HQ)? What can I do there?
+Gang HQ is located in the main HUB, under [Player Market].  
+
+Here you can donate bitcoins and gather resources for the upkeep of your gang.  
+
+Here you can also decrypt Memory Shards that will give an equipment cache, mining EXP and gang EXP.
 
 ### Does the game support trading among players?
-Yes, partially. You can send items to other players, but there isn't a system that forces the other person to give something in exchange. Most trades are conducted with trust.
-You can't gift BTC to someone for now. Only items.
+Yes, partially. You can send items to other players, but there isn't a system that forces the other person to give something in exchange. Most trades are conducted with trust.  
+
+You can't gift BTC to someone for now.  
+Only items.  
 You can't gift key fragments to anyone or sell them on the Player Market.
 
 ### Does this game have PvP?
@@ -70,18 +93,23 @@ Legendary and Epic caches are much more expensive to craft than Rare ones, but t
 
 ### How do I unlock Locked Containers?
 Locked containers (✧) can be found in dungeons and can be unlocked using Tech Scraps at the Terminal in the main HUB.  
-Depending on the quality of the locked container, the amount of Tech Scrap needed for unlocking it may be greater, starting at 32. If you don't see the option for unlocking the container at the Terminal, it means you do not have enough Tech Scraps.
+
+Depending on the quality of the locked container, the amount of Tech Scrap needed for unlocking it depends on the quality of the container, starting from 32 Tech Scraps for common container, 64 for rare containers and 128 for legendary ones.  
+
+If you don't see the option for unlocking the container at the Terminal, it means you do not have enough Tech Scraps.
 
 ### What is BitCoin (BTC) and how do I redeem it?
 BitCoin (BTC) is just the game's currency, so the BitCoin here isn't the same as the one from the real world. (We would all be richer than Elon Musk if it was equivalent.)
 
 ### How do I get more BitCoins?
-You can get more by mining with 'Hash Processors' (that drop from dungeons) at the [Job Hub].
+You can get more by mining with 'Hash Processors' (that drop from dungeons) at the [Job Hub].  
 You can also get BitCoins by selling items in the Player Market or receiving them from defeating mobs or dungeons.
 
 ### What are Transmitters?
 These are special items that can be bought only with Units (premium currency) and provide global benefits to all players on the server.
+
 The only exception is the normal transmitter that drops from dungeons, which is less effective than the paid versions.
+
 Their effects range from reducing the time on AFK job or activities to increasing BTC or EXP gain.
 
 ### Where is the Player Market?
@@ -165,7 +193,7 @@ Bargain gives you better deals at the Weapon Smith and Trinoky Mart, which can b
 - "?" represents a "good guy" giving a quest. You can access accepted quests in your Quest tab.
 - "!" represents lore.
 - Crates are represented by small white boxes. There are special crates containing key fragments as well.
-- The yellow star icon is a crate containing a locked container.
+- The yellow ✧ is a crate containing a locked container.
 - The alien looking icons represent monsters inside the dungeon.
 
 ### What are Public and Private Dungeons? What are Password Protected Dungeons?
@@ -177,6 +205,7 @@ Instead of making your dungeon private, you can choose to protect it with a pass
 Password protected dungeons can be seen by other players but they cannot join unless they know the password. This is useful if you want to clear a dungeon with specific friends. Just share the password in Gang chat or through Mail.
 
 ### What is "Performance score"?
-Currently hidden, your performance score is a (developer) stat that represents how well your device can handle the game.
+Currently hidden, your performance score is a (developer) stat that represents how well your device can handle the game.  
+
 A performance score that's under 2000 means that your device can handle the game pretty well.
-A performance score that's between 2000 - 4000 means that your device handles the game pretty poorly, and it will heat up and drain the battery faster.
+A performance score that's between 2000 - 4000 means that your device handles the game pretty poorly, and it will heat up and drain the battery faster.  
