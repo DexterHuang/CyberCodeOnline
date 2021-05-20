@@ -20,6 +20,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log
 ### **2021/05/20- v0.487**
+ * You can now join gang dungeon with no level requirement
+ * Remove exp memory from gang dungeon
+
+### **2021/05/20- v0.487**
  * Decreases all skill required exp to level up!
  * Increase AI Core bitcoin drop by 30%
 
