@@ -36,7 +36,7 @@ The level of the printed gear will be the same as your Printing Rank, so make su
 ## Upgrade Modules
 
 You can install upgrade modules in your equipment. In order to equip the module, it's level cannot be higher than the equipment's level.  
-E.g.: you cannot install an lvl 20 upgrade module in level 5 gloves.  
+E.g.: you cannot install a lvl 20 upgrade module in level 5 gloves.  
 
 Upgrade modules can be removed at any time.  
 Removed upgrade modules will take space in your inventory so pay attention to that.  
