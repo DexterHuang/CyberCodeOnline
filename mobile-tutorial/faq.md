@@ -12,26 +12,35 @@ The Transmitters sold in the Arasaka Unit Exchange have a global effect, which m
 The developer intends to keep the game non-P2W into the future.
 
 ### How can I help out?
-All user-contributed content can be found on the [Github]([1].
+All user-contributed content can be found on the [Github](https://github.com/DexterHuang/CyberCodeOnline).  
 Feel free to submit a PR (Pull Request).
 
 ### Does this game have any social media?
-Yes. You can find our community on [Discord](
-[2] and on [Reddit]([3].
+Yes. You can find our community on [Discord](https://discord.link/cco) and on [Reddit](https://www.reddit.com/r/CyberCode_Online/).
 
-The developer (DexterHuang) also has a [Patreon]([4] for donations that will help support and maintain the game.
+The developer (DexterHuang) also has a [Patreon](https://www.patreon.com/cybercodeonline) for donations that will help support and maintain the game.
 
 These social links can also be found by accessing ☰ and clicking on the chain link symbol on mobile or by accessing the respective platform icons on the left side of the web view.
 
 ### What programs or languages are being used for the creation of this game?
-CyberCode Online is a game developed using [ReactJS]([5] with player contributions from [Github]([6].
+CyberCode Online is a game developed using [ReactJS](https://reactjs.org/) with player contributions from [Github](https://github.com/DexterHuang/CyberCodeOnline).
+
+### Is the game translated in other languages?
+Yes. This game is translated currently in 15 languages.
+To change the language of the game go to Map and in the upper right part of the screen, near your level bar, you will find ⚙️. Click on it and then select the desired language.
+
+Please notice that the translations might contain mistakes, be incomplete or some parts of the game might be completely untranslated.
+If the game is not translated in your language or you want to improve the current translations, please head out to our [Github](https://github.com/DexterHuang/CyberCodeOnline).
 
 ### Is there any customization in the game?
-You can have a custom profile picture in your profile, a Title and a coloured chat border if you decide to subscribe to one of the 5 Donation Tiers available.
+You can have a custom profile picture in your profile, a Title and a coloured chat border, if you decide to subscribe to one of the 5 Donation Tiers available.
+
+Elite Tier and higher, will have access to a bio on their profile and a barcode.  
+
 These benefits are purely cosmetic.
 
 ### Can I change my name?
-No, you can't change your name.
+No, you can't change your name.  
 Your username is permanent for now.
 
 ### How do I tag someone? Can I search the usernames of other people?
@@ -39,14 +48,23 @@ You can tag and search for a user by typing @ in chat followed by their name (fo
 
 They will show up even if they are not online and they will receive a notification.
 
+### Does the chat support emojis and kaomojis?
+Yup 🤠 ฅ^•ﻌ•^ฅ.
+
+Please don't overuse or spam these, as this kind of practice is against the Chat Rules.
+
 ### Does this game have PvP?
 No. PvP is not currently available in the game.
+
+### What is the fastest way to level up in this game?
+The fastest and best way to level up in this game is to have an Frontal Cortex Transmitter (XP booster) active and to complete challenge dungeons.
 
 ### What will happen if I die?
 You will lose some of your experience and BTC (around 10%); however your inventory will be safe.
 
 ### Where is the Player Market?
-When your character reaches level 5, the player market will be unlocked. It will show up as a new destination in the 'Central Hub'.
+When your character reaches level 5, the player market will be unlocked.  
+It will show up as a new destination in the 'Central Hub'.
 
 ### Does the game support trading among players?
 Yes, partially. You can send items to other players, but there isn't a system that forces the other person to give something in exchange. Most trades are conducted with trust.
@@ -64,8 +82,12 @@ You can also temporarily increase your inventory capacity with the 'Pocket' stat
 At the top of the Inventory page, you will find a tab called 'Crafting'.
 
 ### Where can I get healing items?
-Healing items can be crafted, found when defeating an enemy or when looting a crate in a dungeon, or purchased at the Trinoky Mart in the City Center.
+Healing items can be crafted, found when defeating an enemy or when looting a crate in a dungeon, or purchased at the Trinoky Mart in the City Center.  
 They can also be purchased from the Player Market.
+
+### Why my Special and Destructive weapons have no ammo?
+Special weapon uses Energy Cells and Destructive, Anti-Matter Charges.  
+Both these kind of ammo need to be either looted from enemies or crafted in the Crafting tab, inside Inventory.
 
 ### Can I upgrade or level up my weapons and armour?
 You can't modify the rarity (e.g. from Rare to Legendary) of a weapon or armour, nor you can level up your old weapons or armours to your current level.
@@ -109,8 +131,9 @@ Legendary and Epic caches are much more expensive to craft than Rare ones, but t
 ### Will higher level enemies give more rewards?
 Yes. Higher level enemies give you more BTC and experience after you defeat them.
 
-### How do I unlock Locked Containers?
-Locked containers (✧) can be found in dungeons and can be unlocked using Tech Scraps at the Terminal in the main HUB.
+### What are Locked Containers and how do I unlock them?
+Locked containers (✧) are special crates that can be found and picked up from dungeons and can be unlocked using Tech Scraps at the Terminal in the main HUB.
+They contain various rewards from Tech Scraps to Legendary gear.
 
 Depending on the quality of the locked container, the amount of Tech Scrap needed for unlocking it depends on the quality of the container, starting from 32 Tech Scraps for common containers, 64 for rare containers and 128 for legendary ones.
 
@@ -149,6 +172,9 @@ Currently, you can't rename your own gang.
 It's forbidden to have the same tag as other gangs.
 All gangs should have different tags in order to avoid confusion.
 
+### How can I level up my gang?
+To be able to maintain your gang and to level it up, each member of the gang will have to gather resources (through an AFK task in the Gang Headquarters) and will also have to donate bitcoins to it.
+
 ### Where's my gang headquarters (HQ)? What can I do there?
 Gang HQ is located in the main HUB, under [Player Market].
 
@@ -171,11 +197,30 @@ Instead of making your dungeon private, you can choose to protect it with a pass
 
 Password protected dungeons can be seen by other players but they cannot join unless they know the password. This is useful if you want to clear a dungeon with specific friends. Just share the password in Gang chat or through Mail.
 
+### People are looting my stuff. Help!
+The loot in the dungeons is instanced for each player, meaning that the loot in the crates is randomly generated for each player.
+Therefore is impossible for someone to steal your loot.
+
+### What are Tech Scraps?
+Tech Scraps are resources obtained from scrapping caches and printed gear.
+
+They can be used to level up Printing Rank faster, to craft Ai Cores and Hash Processors and to unlock Locked Containers.
+
+The best way to get Tech Scrap is to mass print Trash Caches or Common Caches and then mass scrap the obtained gear.
+
 ### What are AI Cores?
 AI Cores are items required to AFK farm dungeons. Basically they allow you to farm EXP, items and a small amount of BTC. They can be acquired as drops or crafted from Hash Processors.
 
 ### What are Hash Processors?
 Hash Processors ('hash' for short) are items that are required to activate an AFK job that yields high amounts of BTC (BitCoin). They drop from normal and challenge dungeons.
+
+### What are Gang Memory Shards?
+Upon deciphering them, these items will give you a random cache, mining experience and gang experience.
+
+### What are Gang Invasion Transmitters?
+Gang invasion transmitters are special items that drops only from a boss of a challenge dungeon.
+They are required to be able to open a Gang Dungeon.
+Everyone who wishes to enter in the Gang Dungeon will have to have a Gang Invasion Transmitter in their inventory.
 
 ### What are Transmitters?
 These are special items that can be bought only with Units (premium currency) and provide global benefits to all players on the server.
