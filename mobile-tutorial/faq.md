@@ -252,3 +252,4 @@ Pockets increase your inventory size. 1 pocket means 1 additional inventory slot
 
 ### What is the Bargain Stat?
 Bargain gives you better deals at the Weapon Smith and Trinoky Mart, which can be found in the Central Hub. You can both sell and buy your items for better prices.
+ 
