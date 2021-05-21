@@ -20,6 +20,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log 
 
+### **2021/05/20- v0.531**
+ * NEW - `Item Calibration`, you may now access `Equipment Workbench` from your `Gang Headquarter`, insert a `Equipment Calibration Core` to activate the wrokbench, once activated, you may use it to `Calibrate` one of item of your choice
+ * Added `Equipment Calibration Core` drops from enemies, used for item calibration
+
+
 ### **2021/05/20- v0.487**
  * Fixed typo on dungeon 2.5x exp -> 2.0x exp, its not a nerf its wrong since long ago (exp is unchanged only increased by 10% from previous patch)
  * You can now join gang dungeon with no level requirement
