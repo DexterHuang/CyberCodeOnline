@@ -16,7 +16,7 @@ Higher rarities will have better stats and more module upgrade slots, depending 
 🔹 From level 10 to 20, you will have enough BTC to start using High Quality gear.  
 🔹 From level 20 to 40 - 50, you can print and wear Rare Quality gear.  
 🔹 And from level 40 - 50, you can print and wear Legendary Quality gear.  
-🔹 From level 90 - 100+, if you ever have the chance to get or to buy one or more, you can print out and wear Epic Quality gear, which is the highest and rarest type of gear.  
+🔹 From level 90 - 100+, if you ever have the chance to get or to buy one or more, you can print and wear Epic Quality gear, which is the highest and rarest type of gear in the game.  
 
 These are not rules on how you should manage different types of quality equipment but they are rather recommendations on what type of equipment you should have at different levels.
 
