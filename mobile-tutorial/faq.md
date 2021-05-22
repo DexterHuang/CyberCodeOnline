@@ -26,8 +26,8 @@ These social links can also be found by accessing ☰ and clicking on the chain 
 CyberCode Online is a game developed using [ReactJS](https://reactjs.org/) with player contributions from [Github](https://github.com/DexterHuang/CyberCodeOnline).
 
 ### Is the game translated in other languages?
-Yes. This game is currently translated in  
-15 languages.
+Yes. This game is currently translated  
+in 15 languages.
 
 To change the language of the game,  
 go to Map and click on ⚙️.
