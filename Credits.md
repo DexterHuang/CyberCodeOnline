@@ -12,7 +12,7 @@ Fudgee
 [PotatoMan](https://github.com/PotatoMan145)  
 [Tripplehelix](https://github.com/tripplehelix)  
 Unca_Feddit  
-WhirlingDervish  
+[WhirlingDervish](https://github.com/NickN5)  
 
 ## Music
 [CMDR7](https://github.com/cmdr7)  
