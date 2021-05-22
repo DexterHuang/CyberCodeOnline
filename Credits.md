@@ -38,7 +38,7 @@ MontyPython
 [nopeholmes](https://github.com/nopeholmes)  
 [PedroCisnerosSantana](https://github.com/PedroCisnerosSantana)  
 PsyB34R  
-[QuiteABitofAll](https://github.com/QuiteaBitofAll)
+[QuiteABitofAll](https://github.com/QuiteaBitofAll)  
 roucoupute2  
 Rinelle  
 [ruliou](https://github.com/ruliou)  
@@ -46,13 +46,14 @@ Ryugarret
 [Seo-na](https://github.com/Seo-na)  
 [siruelionn](https://github.com/siruelionn)  
 SKIFFI  
-[SnRetro](https://github.com/SnRetro)
-[TheBrainReal](https://github.com/lucasknook)    
+[SnRetro](https://github.com/SnRetro)  
+[TheBrainReal](https://github.com/lucasknook)   
 [un-amico](https://github.com/un-amico)  
 Unfairissimo  
 Wanna 
 
 ## Proofreading
+[Misaki](https://github.com/Misaki290)  
 [Skippayy](https://github.com/skippayyyy)  
 [The_Wayfarrer](https://github.com/epixinvites)  
 [Sans3108](https://github.com/sans3108)  
@@ -87,7 +88,7 @@ AndyCandy
 [DexterHuang](https://github.com/DexterHuang)  
 Dragonmaster84  
 Hally  
-HeyaItsLuna 
+HeyaItsLuna  
 JashinL  
 [JEricaM](https://github.com/JEricaM)  
 kt0t0wh0  
@@ -120,7 +121,7 @@ Livingdead
 [s3rvant](https://github.com/s3rvant)  
 [Humboer](https://github.com/stphnhng)  
 [Tripplehelix](https://github.com/tripplehelix)  
-Vega_Efsunborn
+Vega_Efsunborn  
 [Laani](https://github.com/Laani)
 
 ## Game resources (words)
@@ -133,7 +134,7 @@ Crescent_Grey
 [DexterHuang](https://github.com/DexterHuang)  
 FoxHunt  
 [ghosted-bot](https://github.com/ghosted-bot)  
-Hally 
+Hally  
 HumbleServant  
 [JEricaM](https://github.com/JEricaM)  
 Kaktusmonas  
@@ -145,7 +146,7 @@ Kaktusmonas
 mxjoda  
 MontyPython   
 [nopeholmes](https://github.com/nopeholmes)  
-PsyB34R 
+PsyB34R  
 Redinator  
 [Ryujin](https://github.com/Ryujin-cybercode)  
 Satan  
@@ -155,13 +156,13 @@ Satan
 
 ## Tips
 [Archibaald](https://github.com/Archibaald-dev)  
-Beepbeepimajeep
+Beepbeepimajeep  
 Bronzer  
 [byakkozen](https://github.com/byakkozen)  
 Crescent_Grey  
 [DexterHuang](https://github.com/DexterHuang)  
 Exca  
-Hally 
+Hally  
 [Kimi Leta](https://github.com/kimileta)  
 KingRiver  
 [RaykouTJ](https://github.com/HoneySyrup)  
@@ -170,7 +171,7 @@ KingRiver
 Mist  
 Mobius_One  
 Pikkon85  
-Polemo03
+Polemo03  
 roucoupute2  
 RsKaiser  
 [Russ Hammett](https://github.com/Kritner)  
@@ -181,7 +182,7 @@ spyd3r
 
 ## Other Contributors
 [AdmiralDiemos](https://github.com/danofsatx)  
-ArkyROU
+ArkyROU  
 [Blackstormx](https://github.com/blackstormx)  
 [hildjj](https://github.com/hildjj)  
 [mr_moe](https://github.com/donburks)  
