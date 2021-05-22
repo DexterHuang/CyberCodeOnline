@@ -26,8 +26,11 @@ These social links can also be found by accessing ☰ and clicking on the chain 
 CyberCode Online is a game developed using [ReactJS](https://reactjs.org/) with player contributions from [Github](https://github.com/DexterHuang/CyberCodeOnline).
 
 ### Is the game translated in other languages?
-Yes. This game is translated currently in 15 languages.
-To change the language of the game go to Map and in the upper right part of the screen, near your level bar, you will find ⚙️. Click on it and then select the desired language.
+Yes. This game is currently translated in  
+15 languages.
+
+To change the language of the game,  
+go to Map and click on ⚙️.
 
 Please notice that the translations might contain mistakes, be incomplete or some parts of the game might be completely untranslated.
 If the game is not translated in your language or you want to improve the current translations, please head out to our [Github](https://github.com/DexterHuang/CyberCodeOnline).
@@ -85,13 +88,19 @@ At the top of the Inventory page, you will find a tab called 'Crafting'.
 Healing items can be crafted, found when defeating an enemy or when looting a crate in a dungeon, or purchased at the Trinoky Mart in the City Center.  
 They can also be purchased from the Player Market.
 
+### How do I use my healing items?
+To equip and use your healing items, go to your inventory and under your equipment you will find 3 'Quick Slots'.  
+Click on one of them and assign your desired healing item to it.  
+Healing items can be used only inside dungeons.  
+
 ### Why my Special and Destructive weapons have no ammo?
 Special weapon uses Energy Cells and Destructive, Anti-Matter Charges.  
 Both these kind of ammo need to be either looted from enemies or crafted in the Crafting tab, inside Inventory.
 
-### Can I upgrade or level up my weapons and armour?
-You can't modify the rarity (e.g. from Rare to Legendary) of a weapon or armour, nor you can level up your old weapons or armours to your current level.
-You can however print new weapons and armours or buy them from the Player Market.
+### Can I upgrade the stats of my weapons and armour?
+Yes you can. You need to be part of a gang to able to access the Gang Headquarters.  
+After that you will need to have an Equipment Calibration Core.  
+To calibrate (upgrade) your weapons and armor, all you need to do, once you have the Calibration Core, is to head out to your Gang Headquarters, and click on 'CALIBRATION STATION'.
 
 ### What does "Quality" on weapons and armor means?
 The quality of the armor will contribute a lot on the stat it gives; the higher the quality, the better the stats.
@@ -185,7 +194,8 @@ Here you can also decrypt Memory Shards that will give an equipment cache, minin
 ### What do all the different symbols mean in dungeons?
 - "?" represents a "good guy" giving a quest. You can access accepted quests in your Quest tab.
 - "!" represents lore.
-- Crates are represented by small white boxes. There are special crates containing key fragments as well.
+- Crates are represented by small white boxes.  
+- Crates that have a "+" inside them are special crates containing key fragments.
 - The yellow ✧ is a crate containing a locked container.
 - The alien looking icons represent monsters inside the dungeon.
 
@@ -228,6 +238,12 @@ These are special items that can be bought only with Units (premium currency) an
 The only exception is the normal transmitter that drops from dungeons, which is less effective than the paid versions.
 
 Their effects range from reducing the time on AFK job or activities to increasing BTC or EXP gain.
+
+### What are Equipment Calibration Cores?
+These are items that help you in upgrading your weapons and armor.
+
+### What are Calibration Ai Shards?
+These items offers a stackable buff that increase the success of chance of calibration.
 
 ### What's the benefit of leveling my crafting skills?
 Your crafting skills allow you to create useful consumables, including medicine and ammo.
