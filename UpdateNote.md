@@ -33,15 +33,15 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 
 ### **2021/05/20- v0.487**
- * Fixed typo on dungeon 2.5x exp -> 2.0x exp, its not a nerf its wrong since long ago (exp is unchanged only increased by 10% from previous patch)
- * You can now join gang dungeon with no level requirement
- * Remove exp memory from gang dungeon 
- * Decreases all skill required exp to level up!
- * Increase AI Core bitcoin drop by 30%
+ * Fixed typo on dungeon description (2.5x exp -> 2.0x exp) NOTE: its not a nerf, it has been wrong since a long time ago (exp is unchanged, only increased by 10% from previous patch)
+ * Gang dungeon's level requirement has been removed
+ * Removed EXP Memory Shards from gang dungeons 
+ * Decreased the EXP required to level up for all skills
+ * Increased AI Core bitcoin drop by 30%
 
 ### **2021/05/19- v0.487**
- * Increase exp gain from killing enemies by 10%
- * Decresed Bitcoin gain from AI Cores
+ * Increased EXP gained from killing enemies by 10%
+ * Decreased Bitcoin gain from AI Cores
 
 ### **2021/05/18- v0.487**
  * Decreased gang related item's droprate in crates, but drastic increase in boss drops
