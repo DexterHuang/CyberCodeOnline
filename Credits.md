@@ -12,6 +12,7 @@ Fudgee
 [PotatoMan](https://github.com/PotatoMan145)  
 [Tripplehelix](https://github.com/tripplehelix)  
 Unca_Feddit  
+WhirlingDervish  
 
 ## Music
 [CMDR7](https://github.com/cmdr7)  
@@ -36,7 +37,7 @@ Proxxie
 MontyPython   
 [nopeholmes](https://github.com/nopeholmes)  
 [PedroCisnerosSantana](https://github.com/PedroCisnerosSantana)  
-[PsyB34R](https://www.instagram.com/psybearr)
+PsyB34R  
 [QuiteABitofAll](https://github.com/QuiteaBitofAll)
 roucoupute2  
 Rinelle  
@@ -61,11 +62,11 @@ Wanna
 [byakkozen](https://github.com/byakkozen)  
 [bvcxz](https://github.com/bvcxz-cybercode)  
 CeceCat  
-[CelesMeh](https://www.instagram.com/celesmeh)  
+CelesMeh  
 Exca  
 JashinL  
 MontyPython  
-[PsyB34R](https://www.instagram.com/psybearr)  
+PsyB34R  
 SaberTron  
 Satan  
 [Talos](https://silvercrowstation.wordpress.com/)  
@@ -85,7 +86,7 @@ AndyCandy
 [Deckeeper](https://github.com/deckeeper)  
 [DexterHuang](https://github.com/DexterHuang)  
 Dragonmaster84  
-[Hally](https://twitter.com/g_hally1996) 
+Hally  
 HeyaItsLuna 
 JashinL  
 [JEricaM](https://github.com/JEricaM)  
@@ -132,7 +133,7 @@ Crescent_Grey
 [DexterHuang](https://github.com/DexterHuang)  
 FoxHunt  
 [ghosted-bot](https://github.com/ghosted-bot)  
-[Hally](https://twitter.com/g_hally1996)  
+Hally 
 HumbleServant  
 [JEricaM](https://github.com/JEricaM)  
 Kaktusmonas  
@@ -141,10 +142,10 @@ Kaktusmonas
 [me505](https://github.com/me505)  
 [Misaki](https://github.com/Misaki290)  
 [Montero](https://github.com/CCOLucille2)  
-[mxjoda](https://twitter.com/mxjoda)  
+mxjoda  
 MontyPython   
 [nopeholmes](https://github.com/nopeholmes)  
-[PsyB34R](https://www.instagram.com/psybearr)  
+PsyB34R 
 Redinator  
 [Ryujin](https://github.com/Ryujin-cybercode)  
 Satan  
@@ -160,7 +161,7 @@ Bronzer
 Crescent_Grey  
 [DexterHuang](https://github.com/DexterHuang)  
 Exca  
-[Hally](https://twitter.com/g_hally1996)  
+Hally 
 [Kimi Leta](https://github.com/kimileta)  
 KingRiver  
 [RaykouTJ](https://github.com/HoneySyrup)  
@@ -180,7 +181,7 @@ spyd3r
 
 ## Other Contributors
 [AdmiralDiemos](https://github.com/danofsatx)  
-[Arky](https://www.instagram.com/andreiarky)  
+ArkyROU
 [Blackstormx](https://github.com/blackstormx)  
 [hildjj](https://github.com/hildjj)  
 [mr_moe](https://github.com/donburks)  
