@@ -20,13 +20,13 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log 
 ### **2021/05/23- v0.531**
- * Clan and player name tags loading optimization (reduces calls to server)
+ * Gang and player name tags loading optimization (reduces calls to server)
 
 ### **2021/05/22- v0.531**
- * NEW - `Item Calibration`, you may now access `Equipment Workbench` from your `Gang Headquarter`, insert a `Equipment Calibration Core` to activate the wrokbench, once activated, you may use it to `Calibrate` one of item of your choice, each item has differen `Calibration Capacity` varies base on thier Tier, 
- * *IMPORTANT* if calibration fails, your item will be destoryed, ireversable 
- * Added `Calibration AI Shard`, after activating this you will get a stackable buff that increase the success chance of calibration
- * Added `Equipment Calibration Core` drops from enemies, used for item calibration
+ * NEW - `Item Calibration`, you may now access `Equipment Workbench` from your `Gang Headquarter`, insert a `Equipment Calibration Core` to activate the workbench, once activated, you may use it to `Calibrate` one of item of your choice, each item has differen `Calibration Capacity` varies base on thier Tier, 
+ * *IMPORTANT* if calibration fails, your item will be destoryed, irreversable 
+ * Added `Calibration AI Shard`, after activating this you will get a stackable buff that increases the success rate of calibration
+ * Added `Equipment Calibration Core`, drops from enemies, used for item calibration
  * Updated item detail UI, now shows clearly where each attribution is coming from:
     - white - total
     - grey - attachment
