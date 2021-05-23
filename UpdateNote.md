@@ -19,8 +19,10 @@ Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Updates Log 
+### **2021/05/23- v0.531**
+ * Clan and player name tags loading optimization (reduces calls to server)
 
-### **2021/05/20- v0.531**
+### **2021/05/22- v0.531**
  * NEW - `Item Calibration`, you may now access `Equipment Workbench` from your `Gang Headquarter`, insert a `Equipment Calibration Core` to activate the wrokbench, once activated, you may use it to `Calibrate` one of item of your choice, each item has differen `Calibration Capacity` varies base on thier Tier, 
  * *IMPORTANT* if calibration fails, your item will be destoryed, ireversable 
  * Added `Calibration AI Shard`, after activating this you will get a stackable buff that increase the success chance of calibration
