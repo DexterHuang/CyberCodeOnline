@@ -19,6 +19,9 @@ Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Updates Log 
+### **2021/05/26- v0.531**
+ * Peformance update, should run smother on older devices
+
 ### **2021/05/24- v0.531**
  * You can now inspect other player's item
 
