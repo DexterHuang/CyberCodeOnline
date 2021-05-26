@@ -20,6 +20,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log 
 ### **2021/05/26- v0.531**
+ * small calibration curve adjustment, +4 fail chance is lowered, +5 fail chance increased but also increase the power 🍔
  * Peformance update, should run smother on older devices
 
 ### **2021/05/24- v0.531**
