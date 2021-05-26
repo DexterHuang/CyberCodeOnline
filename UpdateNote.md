@@ -20,6 +20,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log 
 ### **2021/05/26- v0.531**
+ * Notification setting! you can now turn on and off notification from different channel
  * small calibration curve adjustment, +4 fail chance is lowered, +5 fail chance increased but also increase the power, also, +5 above is buffed 🍔
  * Peformance update, should run smother on older devices
 
