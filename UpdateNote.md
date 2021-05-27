@@ -22,15 +22,15 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ### **2021/05/27- v0.531**
  * Global chat optimization
  * Small global chat UI change
- * Fix common container not showing at terminal when you dont have enough tech scrap
+ * Fixed common containers not showing in the terminal when you dont have enough tech scrap
 
 ### **2021/05/26- v0.531**
  * CHAT IS SPEED 🚀
- * Gang can now invite more the 32 people base on the clan level they have
- * Resources and funding needed for gang upkeep is decreased at lower player count, and increased for higher player count, it is no longer static
- * Notification setting! you can now turn on and off notification from different channel
- * small calibration curve adjustment, +4 fail chance is lowered, +5 fail chance increased but also increase the power, also, +5 above is buffed 🍔
- * Peformance update, should run smother on older devices
+ * Gang can now invite more than 32 people based on the clan level
+ * Resources and funding needed for gang upkeep is decreased for gangs with lesser players, and increased for gangs with more members
+ * Notification settings! You can now choose which kind of notifications you want to receive
+ * Small calibration curve adjustment, +4 fail chance is lowered, +5 fail chance increased but also increase the power, also, +5 above is buffed 🍔
+ * Peformance update, should run smoother on older devices
 
 ### **2021/05/24- v0.531**
  * You can now inspect other player's item
