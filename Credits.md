@@ -28,7 +28,6 @@ Proxxie
 [EV_Jack](https://github.com/EvJack)  
 [f4tih-0z3r](https://github.com/f4tih-0z3r)  
 [Fremad](https://github.com/Fremadico)
-[VerySmashing](https://github.com/VerySmashing)
 [JEricaM](https://github.com/JEricaM)  
 [kj415j45](https://github.com/kj415j45)  
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)  
@@ -50,7 +49,8 @@ SKIFFI
 [SnRetro](https://github.com/SnRetro)
 [TheBrainReal](https://github.com/lucasknook)    
 [un-amico](https://github.com/un-amico)  
-Unfairissimo  
+Unfairissimo 
+[VerySmashing](https://github.com/VerySmashing) 
 Wanna 
 
 ## Proofreading
