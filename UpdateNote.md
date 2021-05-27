@@ -19,6 +19,11 @@ Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Updates Log 
+### **2021/05/27- v0.531**
+ * Global chat optimization
+ * Small global chat UI change
+ * Fix common container not showing at terminal when you dont have enough tech scrap
+
 ### **2021/05/26- v0.531**
  * CHAT IS SPEED 🚀
  * Gang can now invite more the 32 people base on the clan level they have
