@@ -24,6 +24,7 @@ Proxxie
 [alfaice](https://github.com/alfaice)  
 [CynexXT](https://github.com/CynexXT)  
 [Destro9000](https://github.com/Destro9000)  
+[Divadriel](https://github.com/Divadriel)  
 [EV_Jack](https://github.com/EvJack)  
 [f4tih-0z3r](https://github.com/f4tih-0z3r)  
 [Fremad](https://github.com/Fremadico)  
