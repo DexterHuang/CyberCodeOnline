@@ -20,6 +20,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log 
 ### **2021/05/27- v0.531**
+ * Updated Unit Exchange character image
+ * Fixed system log issue
+ * Updated Travel button UI
  * Global chat optimization
  * Small global chat UI change
  * Fix common container not showing at terminal when you dont have enough tech scrap
