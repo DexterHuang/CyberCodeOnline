@@ -19,6 +19,9 @@ Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Updates Log 
+### **2021/05/28- v0.531**
+ * Travel button is now THICC
+
 ### **2021/05/27- v0.531**
  * Updated Unit Exchange character image
  * Fixed system log issue
