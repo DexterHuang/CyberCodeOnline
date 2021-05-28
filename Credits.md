@@ -91,7 +91,7 @@ Dragonmaster84
 HeyaItsLuna 
 JashinL  
 [JEricaM](https://github.com/JEricaM)  
-kt0t0wh0  
+[kt0t0wh0](https://github.com/kt0t0Sudd3n)  
 mika  
 MontyPython  
 Negative  
@@ -137,7 +137,8 @@ FoxHunt
 [Hally](https://twitter.com/g_hally1996)  
 HumbleServant  
 [JEricaM](https://github.com/JEricaM)  
-Kaktusmonas  
+Kaktusmonas
+[kt0t0wh0](https://github.com/kt0t0Sudd3n)  
 [Luako](https://github.com/luako)  
 [MarcelWeidum](https://github.com/MarcelWeidum)  
 [me505](https://github.com/me505)  
@@ -164,7 +165,8 @@ Crescent_Grey
 Exca  
 [Hally](https://twitter.com/g_hally1996)  
 [Kimi Leta](https://github.com/kimileta)  
-KingRiver  
+KingRiver
+[kt0t0wh0](https://github.com/kt0t0Sudd3n)  
 [RaykouTJ](https://github.com/HoneySyrup)  
 [levi middleton](https://github.com/levi-middleton)   
 [Misaki](https://github.com/Misaki290)  
