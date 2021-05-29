@@ -19,6 +19,11 @@ Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Updates Log 
+
+### **2021/05/28- v0.566**
+ * Major dungeon enemy system code rewrite, should be faster and comsumes less battery and data in dungeons
+ * Added healing thingy in dungeons
+
 ### **2021/05/28- v0.531**
  * Travel button is now THICC
 
