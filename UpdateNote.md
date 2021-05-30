@@ -19,6 +19,9 @@ Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Updates Log 
+### **2021/05/30- v0.566**
+ * Fixed clear dungeon quest not registering issue
+ * Now only normal dungeon will have healing thingy
 
 ### **2021/05/28- v0.566**
  * Major dungeon enemy system code rewrite, should be faster and comsumes less battery and data in dungeons
