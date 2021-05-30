@@ -20,6 +20,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log 
 ### **2021/05/30- v0.566**
+ * fixed calibrated item not becoming untradable issue
  * Increase max price you can sell cali core at market
  * Fixed clear dungeon quest not registering issue
  * Now only normal dungeon will have healing thingy
