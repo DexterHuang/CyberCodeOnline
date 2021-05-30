@@ -22,6 +22,7 @@ Proxxie
 
 ## Translators
 [alfaice](https://github.com/alfaice)  
+[ArbiwReist](https://github.com/Meawresion)
 [CynexXT](https://github.com/CynexXT)  
 [Destro9000](https://github.com/Destro9000)  
 [Divadriel](https://github.com/Divadriel)  
