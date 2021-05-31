@@ -20,7 +20,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ## Updates Log 
 ### **2021/05/31 v0.566**
- * Added forgot password page, you can now reset your password by entering you email
+ * Added forgot password page, you can now reset your password by entering your email
 
 ### **2021/05/30- v0.566**
  * fixed calibrated item not becoming untradable issue
