@@ -19,6 +19,9 @@ Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Updates Log 
+### **2021/05/31 v0.566**
+ * Added forgot password page, you can now reset your password by entering you email
+
 ### **2021/05/30- v0.566**
  * fixed calibrated item not becoming untradable issue
  * Increase max price you can sell cali core at market
