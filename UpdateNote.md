@@ -18,6 +18,8 @@ Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee
 
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
+Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
+
 ## Updates Log 
 ### **2021/05/31 v0.566**
  * Added forgot password page, you can now reset your password by entering your email
