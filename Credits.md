@@ -53,6 +53,7 @@ SKIFFI
 Unfairissimo 
 [VerySmashing](https://github.com/VerySmashing) 
 Wanna 
+[AlphaC58](https://github.com/AlphaC58)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)  
