@@ -22,7 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates Log  
 ### **2021/06/01 v0.566**
- * Rewrite inbox items, now items should not disappear when gifting to other players
+ * Rewrite inbox items, now items should not disappear when gifting to other players, Because of this rewritem, the items in your old item inbox will disappear, but not gone, it will still return to your inventory when there is space
  * Fix issue with sometimes money not recieved by seller when item is sold on market
 
 ### **2021/05/31 v0.566**
