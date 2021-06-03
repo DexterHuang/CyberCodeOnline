@@ -21,6 +21,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates Log  
+### **2021/06/03 v0.566**
+ * Added mutiple `Backpacks`, you can craft them from `Lee's Trading Post`
+ * Fix some dungeon stability issue
+ * Expired market item now will correctly go to new item inbox
+
 ### **2021/06/01 v0.566**
  * Fixed issue with calibration item stat display
  * Rewrite inbox items, now items should not disappear when gifting to other players, Because of this rewritem, the items in your old item inbox will disappear, but not gone, it will still return to your inventory when there is space
