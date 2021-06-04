@@ -21,6 +21,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates Log  
+### **2021/06/04 v0.566**
+ * NEW - `Automatic Recycler` 
+       You may use this to recycle `Medical Tech Part` and any kind of equipment `Cache` to `Tech Scrap`, the recycler take time to process the items, but produces more then simply scraping, there is also chance of getting extra `Tech Scrap`
+       
 ### **2021/06/03 v0.566**
  * Added mutiple `Backpacks`, you can craft them from `Lee's Trading Post`
  * Fix some dungeon stability issue
