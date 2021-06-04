@@ -23,7 +23,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ## Updates Log  
 ### **2021/06/04 v0.566**
  * NEW - `Automatic Recycler` 
-       You may use this to recycle `Medical Tech Part` and any kind of equipment `Cache` to `Tech Scrap`, the recycler take time to process the items, but produces more then simply scraping, there is also chance of getting extra `Tech Scrap`
+       You may use this to recycle `Medical Tech Part` and any kind of equipment `Cache` to `Tech Scrap`, the recycler take time to process the items, but produces more then simply scraping, there is also chance of getting extra `Tech Scrap`. The Recycler is located at `Gang Headquarter` only player in a gang can access it
        
 ### **2021/06/03 v0.566**
  * Added mutiple `Backpacks`, you can craft them from `Lee's Trading Post`
