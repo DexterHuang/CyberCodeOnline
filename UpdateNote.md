@@ -21,6 +21,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates Log  
+### **2021/06/05 v0.566**
+ * Updated floaty menu
+
 ### **2021/06/04 v0.566**
  * NEW - `Automatic Recycler` 
        You may use this to recycle `Medical Tech Part` and any other kind of equipment `Cache` to `Tech Scrap`, the recycler takes time to process the items, but produces more then simply scrapping, there is also chance of getting extra `Tech Scrap`. The Recycler is located at `Gang Headquarter`, only player in a gang can access it
