@@ -20,7 +20,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
-## Updates Log  
+## Updates Log
+### **2021/06/06 v0.566**
+ * Added two new language, Thai and Pirate Speak!
+
 ### **2021/06/05 v0.566**
  * Updated floaty menu
 
