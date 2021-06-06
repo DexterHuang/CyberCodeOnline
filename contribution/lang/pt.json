@@ -83,6 +83,36 @@
  	 	 	 	"trans": "Banco de Arasaka",
  	 	 	 	"eng": "Bank of Arasaka"
  	 	 	}
+ 	 	},
+ 	 	"equipmentUpgrade": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Calibration Station",
+ 	 	 	 	"eng": "Calibration Station"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "A workbench with necessary tools allows you to tinker with your equipment.",
+ 	 	 	 	"eng": "A workbench with necessary tools allows you to tinker with your equipment."
+ 	 	 	}
+ 	 	},
+ 	 	"storageMerchant": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Lee's Trading Post",
+ 	 	 	 	"eng": "Lee's Trading Post"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "A family run trading shop that lets you trade with what they have found while scavenging",
+ 	 	 	 	"eng": "A family run trading shop that lets you trade with what they have found while scavenging"
+ 	 	 	}
+ 	 	},
+ 	 	"recycleMachine": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Automatic Recycler",
+ 	 	 	 	"eng": "Automatic Recycler"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Fully automated recycler, capable of recycling items to their basic scrap form",
+ 	 	 	 	"eng": "Fully automated recycler, capable of recycling items to their basic scrap form"
+ 	 	 	}
  	 	}
  	},
  	"receive": {
@@ -175,6 +205,12 @@
  	 	 	 	"tut": {
  	 	 	 	 	"trans": "Você pode vender e comprar items de outros jogadores aqui",
  	 	 	 	 	"eng": "You can sell or buy items from other players here"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"toGang": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "Go to gang headquarter",
+ 	 	 	 	 	"eng": "Go to gang headquarter"
  	 	 	 	}
  	 	 	}
  	 	},
@@ -305,6 +341,23 @@
  	 	 	 	],
  	 	 	 	"trans": "Level ${segment} á ${segmentMaxLevel}",
  	 	 	 	"eng": "Level ${segment} to ${segmentMaxLevel}"
+ 	 	 	},
+ 	 	 	"goTo": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"segmentStationName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "go to ${segmentStationName}",
+ 	 	 	 	"eng": "go to ${segmentStationName}"
+ 	 	 	}
+ 	 	},
+ 	 	"gang": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Gang Headquarter",
+ 	 	 	 	"eng": "Gang Headquarter"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "[Gang]\r\n        The headquarter for you and your gang members to plan and execute your next operation",
+ 	 	 	 	"eng": "[Gang]\r\n        The headquarter for you and your gang members to plan and execute your next operation"
  	 	 	}
  	 	}
  	},
@@ -726,6 +779,146 @@
  	 	 	 	"trans": "Um recipiente reforçado com trava de criptografia biométrica, parece conter itens importantes no interior.\r\n        Felizmente, o microcomputador da trava usa um firmware ultrapassado, pode ser facilmente hackeado, vá até o [Terminal] para desbloquear este cofre",
  	 	 	 	"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container"
  	 	 	}
+ 	 	},
+ 	 	"clanDungeonKey": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Gang Invasion Order Transmitter",
+ 	 	 	 	"eng": "Gang Invasion Order Transmitter"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "A simple transmitter device that can be bind to your gang encrypted channel and give out invasion order.\r\n        This item is required to activate Gang Dungeons",
+ 	 	 	 	"eng": "A simple transmitter device that can be bind to your gang encrypted channel and give out invasion order.\r\n        This item is required to activate Gang Dungeons"
+ 	 	 	}
+ 	 	},
+ 	 	"clanResource": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Supply Crate [Gang]",
+ 	 	 	 	"eng": "Supply Crate [Gang]"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Contains misc items and resources for a gang to stay functional,\r\n        Click use to send it to your gang headquarter",
+ 	 	 	 	"eng": "Contains misc items and resources for a gang to stay functional,\r\n        Click use to send it to your gang headquarter"
+ 	 	 	}
+ 	 	},
+ 	 	"clanExp": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "encrypted gang memory shard",
+ 	 	 	 	"eng": "encrypted gang memory shard"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "A memory shard contains encrypted gang secrets, \r\n        decrypt this in your gang headquarter to gain useful intel (requires to be in a gang)",
+ 	 	 	 	"eng": "A memory shard contains encrypted gang secrets, \r\n        decrypt this in your gang headquarter to gain useful intel (requires to be in a gang)"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeActivator": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Equipment Calibration Core",
+ 	 	 	 	"eng": "Equipment Calibration Core"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "A black market memory shard contains highly encrypted algorithm and schematic that is crucial in the process of upgrading equipments",
+ 	 	 	 	"eng": "A black market memory shard contains highly encrypted algorithm and schematic that is crucial in the process of upgrading equipments"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeChanceIncreaser0": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Calibration AI Shard (5%)",
+ 	 	 	 	"eng": "Calibration AI Shard (5%)"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 5% (stackable) for 5 minutes.",
+ 	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 5% (stackable) for 5 minutes."
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeChanceIncreaser1": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Calibration AI Shard (10%)",
+ 	 	 	 	"eng": "Calibration AI Shard (10%)"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 10% (stackable) for 5 minutes.",
+ 	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 10% (stackable) for 5 minutes."
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeChanceIncreaser2": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Calibration AI Shard (50%)",
+ 	 	 	 	"eng": "Calibration AI Shard (50%)"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 50% (stackable) for 5 minutes. This effect will apply to all players online",
+ 	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 50% (stackable) for 5 minutes. This effect will apply to all players online"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeChanceIncreaser3": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Calibration AI Shard (100%)",
+ 	 	 	 	"eng": "Calibration AI Shard (100%)"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 100% (stackable) for 5 minutes. This effect will apply to all players online",
+ 	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 100% (stackable) for 5 minutes. This effect will apply to all players online"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeNoBreak": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Calibration Safety Nano Bots",
+ 	 	 	 	"eng": "Calibration Safety Nano Bots"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Experimental nano machines designed to reduces and negate the destructive effect when failing calibration, \r\n        when this is activated, all calibration fails will not destroy the item for 5 minutes",
+ 	 	 	 	"eng": "Experimental nano machines designed to reduces and negate the destructive effect when failing calibration, \r\n        when this is activated, all calibration fails will not destroy the item for 5 minutes"
+ 	 	 	}
+ 	 	},
+ 	 	"backpack1": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Old Pouch",
+ 	 	 	 	"eng": "Old Pouch"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "A forgotten ancient pouch, \r\n        there is a weird cartoon frog with big mouth and red lips drawing at the side of it,\r\n        the meaning of the ancient ominous drawing is unknown, but it is handy for keep some small object in it.\r\n        increase inventory space when equipped.",
+ 	 	 	 	"eng": "A forgotten ancient pouch, \r\n        there is a weird cartoon frog with big mouth and red lips drawing at the side of it,\r\n        the meaning of the ancient ominous drawing is unknown, but it is handy for keep some small object in it.\r\n        increase inventory space when equipped."
+ 	 	 	}
+ 	 	},
+ 	 	"backpack2": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Fanny Pack",
+ 	 	 	 	"eng": "Fanny Pack"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Cool and fashionable Fanny Pack, signed by a legend called The Rock himself from decades ago.\r\n        increase inventory space when equipped.",
+ 	 	 	 	"eng": "Cool and fashionable Fanny Pack, signed by a legend called The Rock himself from decades ago.\r\n        increase inventory space when equipped."
+ 	 	 	}
+ 	 	},
+ 	 	"backpack3": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Explorer's Backpack",
+ 	 	 	 	"eng": "Explorer's Backpack"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "An old Kindergarten looking Purple 'Explorer' Backpack, it has a name tag with the previous owner's name \"Dora\" written on it, you look fabulous wearing it.\r\n        increase inventory space when equipped",
+ 	 	 	 	"eng": "An old Kindergarten looking Purple 'Explorer' Backpack, it has a name tag with the previous owner's name \"Dora\" written on it, you look fabulous wearing it.\r\n        increase inventory space when equipped"
+ 	 	 	}
+ 	 	},
+ 	 	"backpack4": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Employee Office Case",
+ 	 	 	 	"eng": "Employee Office Case"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "An standard issue office case, it has a label with whit print with \"Arasaka\" on it, \r\n        while it is specious and has some high tech compartment and slots for document storage, it is not not very suitable for carrying weapons\r\n        increase inventory space when equipped",
+ 	 	 	 	"eng": "An standard issue office case, it has a label with whit print with \"Arasaka\" on it, \r\n        while it is specious and has some high tech compartment and slots for document storage, it is not not very suitable for carrying weapons\r\n        increase inventory space when equipped"
+ 	 	 	}
+ 	 	},
+ 	 	"backpack5": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Autonomous Storage Unit",
+ 	 	 	 	"eng": "Autonomous Storage Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "An military used bot designed to carry your equipments and follows you autonomously,\r\n        with it's six strong legs that imitates the movement of spiders and a advance onboard AI, \r\n        it can follow you swiftly and quietly while it avoids get in the way of whatever mission you are performing",
+ 	 	 	 	"eng": "An military used bot designed to carry your equipments and follows you autonomously,\r\n        with it's six strong legs that imitates the movement of spiders and a advance onboard AI, \r\n        it can follow you swiftly and quietly while it avoids get in the way of whatever mission you are performing"
+ 	 	 	}
  	 	}
  	},
  	"action": {
@@ -807,6 +1000,26 @@
  	 	 	 	],
  	 	 	 	"trans": "[Recolher Recursos AFK]\r\n                    procura ao redor do(a) ${zoneName} e coletar itens úteis.\r\n                    Quem sabe, talvez você tenha sorte!",
  	 	 	 	"eng": "[AFK Resource Gather]\r\n                    Search around in ${zoneName} and scavenge for useful items.\r\n                    Who knows, maybe you'll get lucky!"
+ 	 	 	}
+ 	 	},
+ 	 	"clanResource": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Gather Clan Resource",
+ 	 	 	 	"eng": "Gather Clan Resource"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Help gather and manage needed resources for your clan",
+ 	 	 	 	"eng": "Help gather and manage needed resources for your clan"
+ 	 	 	}
+ 	 	},
+ 	 	"clanDecryptShard": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Decrypt memory shard",
+ 	 	 	 	"eng": "Decrypt memory shard"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Decrypt memory shard you found to retrieve useful intel",
+ 	 	 	 	"eng": "Decrypt memory shard you found to retrieve useful intel"
  	 	 	}
  	 	}
  	},
@@ -894,6 +1107,24 @@
  	 	 	 	],
  	 	 	 	"trans": "Atacar ${zoneName}",
  	 	 	 	"eng": "attack ${zoneName}"
+ 	 	 	}
+ 	 	},
+ 	 	"gang": {
+ 	 	 	"startName": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"zoneName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "invade ${zoneName}",
+ 	 	 	 	"eng": "invade ${zoneName}"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"maxLevel",
+ 	 	 	 	 	"keyFragmentDisplayName",
+ 	 	 	 	 	"expMultiplier"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Recommended Level:　${maxLevel}+ with co-op\r\n                    ${expMultiplier}x more EXP!\r\n                    Gang mode dungeon, extra loot and exp. \r\n                    Boss drops are rare+ \r\n                    Not advised to enter if your level is too low",
+ 	 	 	 	"eng": "Recommended Level:　${maxLevel}+ with co-op\r\n                    ${expMultiplier}x more EXP!\r\n                    Gang mode dungeon, extra loot and exp. \r\n                    Boss drops are rare+ \r\n                    Not advised to enter if your level is too low"
  	 	 	}
  	 	}
  	},
@@ -1177,6 +1408,14 @@
  	 	 	"langGithub": {
  	 	 	 	"trans": "Ajudar na tradução do jogo",
  	 	 	 	"eng": "Help with translating the game"
+ 	 	 	},
+ 	 	 	"receiveClanNotification": {
+ 	 	 	 	"trans": "Receive Gang Notification",
+ 	 	 	 	"eng": "Receive Gang Notification"
+ 	 	 	},
+ 	 	 	"receiveGlobalNotification": {
+ 	 	 	 	"trans": "Receive Global Buff Notification",
+ 	 	 	 	"eng": "Receive Global Buff Notification"
  	 	 	}
  	 	},
  	 	"captcha": {
@@ -1211,6 +1450,241 @@
  	 	 	"title": {
  	 	 	 	"trans": "Insira sua bio",
  	 	 	 	"eng": "Enter your bio"
+ 	 	 	}
+ 	 	},
+ 	 	"clan": {
+ 	 	 	"selectDepositAmount": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Please enter amount you want to deposit",
+ 	 	 	 	 	"eng": "Please enter amount you want to deposit"
+ 	 	 	 	},
+ 	 	 	 	"detail": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"amount"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${amount} bitcoin will be deposit into your gang account, this cannot be reversed",
+ 	 	 	 	 	"eng": "${amount} bitcoin will be deposit into your gang account, this cannot be reversed"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"deposit": {
+ 	 	 	 	"trans": "Deposit Bitcoin",
+ 	 	 	 	"eng": "Deposit Bitcoin"
+ 	 	 	},
+ 	 	 	"level": {
+ 	 	 	 	"trans": "Gang Level",
+ 	 	 	 	"eng": "Gang Level"
+ 	 	 	},
+ 	 	 	"resource": {
+ 	 	 	 	"trans": "Resource",
+ 	 	 	 	"eng": "Resource"
+ 	 	 	},
+ 	 	 	"funding": {
+ 	 	 	 	"trans": "funding",
+ 	 	 	 	"eng": "funding"
+ 	 	 	},
+ 	 	 	"memberCount": {
+ 	 	 	 	"trans": "members",
+ 	 	 	 	"eng": "members"
+ 	 	 	},
+ 	 	 	"nextUpkeepDate": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"nextUpkeepDate"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Next upkeep Date: ${nextUpkeepDate}",
+ 	 	 	 	"eng": "Next upkeep Date: ${nextUpkeepDate}"
+ 	 	 	},
+ 	 	 	"insufficientError": {
+ 	 	 	 	"trans": "resource critical",
+ 	 	 	 	"eng": "resource critical"
+ 	 	 	},
+ 	 	 	"insufficientFound": {
+ 	 	 	 	"trans": "Insufficient Found",
+ 	 	 	 	"eng": "Insufficient Found"
+ 	 	 	},
+ 	 	 	"insufficientResource": {
+ 	 	 	 	"trans": "Insufficient Resource",
+ 	 	 	 	"eng": "Insufficient Resource"
+ 	 	 	},
+ 	 	 	"members": {
+ 	 	 	 	"trans": "Members",
+ 	 	 	 	"eng": "Members"
+ 	 	 	}
+ 	 	},
+ 	 	"equipmentDisplay": {
+ 	 	 	"empty": {
+ 	 	 	 	"trans": "Empty",
+ 	 	 	 	"eng": "Empty"
+ 	 	 	}
+ 	 	},
+ 	 	"fab": {
+ 	 	 	"dungeonList": {
+ 	 	 	 	"trans": "Dungeon List",
+ 	 	 	 	"eng": "Dungeon List"
+ 	 	 	},
+ 	 	 	"links": {
+ 	 	 	 	"trans": "links",
+ 	 	 	 	"eng": "links"
+ 	 	 	},
+ 	 	 	"premiumShop": {
+ 	 	 	 	"trans": "Premium Shop",
+ 	 	 	 	"eng": "Premium Shop"
+ 	 	 	},
+ 	 	 	"friendList": {
+ 	 	 	 	"trans": "Friend List",
+ 	 	 	 	"eng": "Friend List"
+ 	 	 	},
+ 	 	 	"leaderBoard": {
+ 	 	 	 	"trans": "Leader Board",
+ 	 	 	 	"eng": "Leader Board"
+ 	 	 	},
+ 	 	 	"skipQueue": {
+ 	 	 	 	"trans": "Skip Queue",
+ 	 	 	 	"eng": "Skip Queue"
+ 	 	 	},
+ 	 	 	"settings": {
+ 	 	 	 	"trans": "Settings",
+ 	 	 	 	"eng": "Settings"
+ 	 	 	}
+ 	 	},
+ 	 	"machineCrafting": {
+ 	 	 	"titleBox": {
+ 	 	 	 	"tile": {
+ 	 	 	 	 	"trans": "system idle",
+ 	 	 	 	 	"eng": "system idle"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"trans": "Please inset an item",
+ 	 	 	 	 	"eng": "Please inset an item"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"selectItemButton": {
+ 	 	 	 	"trans": "Recycle Item",
+ 	 	 	 	"eng": "Recycle Item"
+ 	 	 	},
+ 	 	 	"selectAmount": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Please select amount",
+ 	 	 	 	 	"eng": "Please select amount"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"timeStr"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "This will take ${timeStr}",
+ 	 	 	 	 	"eng": "This will take ${timeStr}"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"modal": {
+ 	 	 	"upgradeFailed": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Error",
+ 	 	 	 	 	"eng": "Error"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"trans": "Destructive failure accrued",
+ 	 	 	 	 	"eng": "Destructive failure accrued"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"upgradeSuccess": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Calibration Success",
+ 	 	 	 	 	"eng": "Calibration Success"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"trans": "No error detected",
+ 	 	 	 	 	"eng": "No error detected"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"leaveDungeon": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Are you sure you want to leave this dungeon?",
+ 	 	 	 	 	"eng": "Are you sure you want to leave this dungeon?"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"trans": "You will not be able to enter this dungeon instance again",
+ 	 	 	 	 	"eng": "You will not be able to enter this dungeon instance again"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"equipmentUpgrade": {
+ 	 	 	"notActivated": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Core not found",
+ 	 	 	 	 	"eng": "Core not found"
+ 	 	 	 	},
+ 	 	 	 	"subTitle": {
+ 	 	 	 	 	"trans": "Please insert Calibration Core",
+ 	 	 	 	 	"eng": "Please insert Calibration Core"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"activate": {
+ 	 	 	 	"trans": "Insert Core",
+ 	 	 	 	"eng": "Insert Core"
+ 	 	 	},
+ 	 	 	"activating": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Processing",
+ 	 	 	 	 	"eng": "Processing"
+ 	 	 	 	},
+ 	 	 	 	"subTitle": {
+ 	 	 	 	 	"trans": "Decrypting shard",
+ 	 	 	 	 	"eng": "Decrypting shard"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"noEquipment": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "equipment not found",
+ 	 	 	 	 	"eng": "equipment not found"
+ 	 	 	 	},
+ 	 	 	 	"subTitle": {
+ 	 	 	 	 	"trans": "Select an equipment to continue",
+ 	 	 	 	 	"eng": "Select an equipment to continue"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"haveEquipment": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Compatible Item Identified",
+ 	 	 	 	 	"eng": "Compatible Item Identified"
+ 	 	 	 	},
+ 	 	 	 	"subTitle": {
+ 	 	 	 	 	"trans": "All system ready",
+ 	 	 	 	 	"eng": "All system ready"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"failureRate": {
+ 	 	 	 	"trans": "Chance of destructive failure",
+ 	 	 	 	"eng": "Chance of destructive failure"
+ 	 	 	},
+ 	 	 	"selectEquipmentTitle": {
+ 	 	 	 	"trans": "Please select an item to calibrate",
+ 	 	 	 	"eng": "Please select an item to calibrate"
+ 	 	 	},
+ 	 	 	"upgradeButton": {
+ 	 	 	 	"trans": "Calibrate",
+ 	 	 	 	"eng": "Calibrate"
+ 	 	 	}
+ 	 	},
+ 	 	"itemInbox": {
+ 	 	 	"getAllItems": {
+ 	 	 	 	"trans": "Get All Items",
+ 	 	 	 	"eng": "Get All Items"
+ 	 	 	}
+ 	 	},
+ 	 	"linkPage": {
+ 	 	 	"forum": {
+ 	 	 	 	"trans": "Official Forum",
+ 	 	 	 	"eng": "Official Forum"
+ 	 	 	}
+ 	 	},
+ 	 	"noPrintableCaches": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Equipment Cache not found",
+ 	 	 	 	"eng": "Equipment Cache not found"
+ 	 	 	},
+ 	 	 	"subTitle": {
+ 	 	 	 	"trans": "gather the caches from enemies and dungeons to print your new weapons and armor",
+ 	 	 	 	"eng": "gather the caches from enemies and dungeons to print your new weapons and armor"
  	 	 	}
  	 	}
  	},
@@ -1266,6 +1740,18 @@
  	 	"statusEffect": {
  	 	 	"trans": "Efeitos do status",
  	 	 	"eng": "Status Effects"
+ 	 	},
+ 	 	"notTradable": {
+ 	 	 	"trans": "not tradable",
+ 	 	 	"eng": "not tradable"
+ 	 	},
+ 	 	"itemUpgradeCapacity": {
+ 	 	 	"trans": "Calibration Capacity",
+ 	 	 	"eng": "Collaboration Capacity"
+ 	 	},
+ 	 	"systemStandby": {
+ 	 	 	"trans": "System standby",
+ 	 	 	"eng": "System standby"
  	 	}
  	},
  	"statsType": {
@@ -1484,6 +1970,26 @@
  	 	 	 	"trans": "Capacidade máxima de vida",
  	 	 	 	"eng": "Maximum health capacity"
  	 	 	}
+ 	 	},
+ 	 	"upgradeChance": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Calibration Chance",
+ 	 	 	 	"eng": "Calibration Chance"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Reduces chance of destructive failure when calibrating items",
+ 	 	 	 	"eng": "Reduces chance of destructive failure when calibrating items"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeNoBreak": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Calibration Safety",
+ 	 	 	 	"eng": "Calibration Safety"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Calibration fails will not destroy the item",
+ 	 	 	 	"eng": "Calibration fails will not destroy the item"
+ 	 	 	}
  	 	}
  	},
  	"craft": {
@@ -1525,6 +2031,40 @@
  	 	 	"name": {
  	 	 	 	"trans": "Desbloquear Cofre Lendário",
  	 	 	 	"eng": "Unlock Legendary Container"
+ 	 	 	}
+ 	 	},
+ 	 	"backpack1": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Old Pouch",
+ 	 	 	 	"eng": "Old Pouch"
+ 	 	 	}
+ 	 	},
+ 	 	"trade": {
+ 	 	 	"trans": "Trade",
+ 	 	 	"eng": "Trade"
+ 	 	},
+ 	 	"backpack2": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Fanny Pack",
+ 	 	 	 	"eng": "Fanny Pack"
+ 	 	 	}
+ 	 	},
+ 	 	"backpack3": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Explorer's Backpack",
+ 	 	 	 	"eng": "Explorer's Backpack"
+ 	 	 	}
+ 	 	},
+ 	 	"backpack4": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Employee Office Case",
+ 	 	 	 	"eng": "Employee Office Case"
+ 	 	 	}
+ 	 	},
+ 	 	"backpack5": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Autonomous Storage Unit",
+ 	 	 	 	"eng": "Autonomous Storage Unit"
  	 	 	}
  	 	}
  	},
@@ -1580,6 +2120,29 @@
  	 	 	],
  	 	 	"trans": "Este é um exemplo da moldura de bate-papo do nível ${tierName}",
  	 	 	"eng": "This is an example chat frame of ${tierName} Tier"
+ 	 	}
+ 	},
+ 	"reward": {
+ 	 	"gangResource": {
+ 	 	 	"vars": [
+ 	 	 	 	"clanResource"
+ 	 	 	],
+ 	 	 	"trans": "${clanResource} gang resource",
+ 	 	 	"eng": "${clanResource} gang resource"
+ 	 	},
+ 	 	"gangExp": {
+ 	 	 	"vars": [
+ 	 	 	 	"clanExp"
+ 	 	 	],
+ 	 	 	"trans": "${clanExp} gang exp",
+ 	 	 	"eng": "${clanExp} gang exp"
+ 	 	},
+ 	 	"gangFunding": {
+ 	 	 	"vars": [
+ 	 	 	 	"clanMoney"
+ 	 	 	],
+ 	 	 	"trans": "${clanMoney} gang funding",
+ 	 	 	"eng": "${clanMoney} gang funding"
  	 	}
  	}
 }
