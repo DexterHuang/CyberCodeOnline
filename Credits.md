@@ -12,6 +12,7 @@ Fudgee
 [PotatoMan](https://github.com/PotatoMan145)  
 [Tripplehelix](https://github.com/tripplehelix)  
 Unca_Feddit  
+[WhirlingDervish](https://github.com/NickN5)  
 
 ## Music
 [CMDR7](https://github.com/cmdr7)  
@@ -21,15 +22,15 @@ Unca_Feddit
 Proxxie
 
 ## Translators
-[alfaice](https://github.com/alfaice)
-[AlphaC58](https://github.com/AlphaC58)
-[ArbiwReist](https://github.com/Meawresion)
+[alfaice](https://github.com/alfaice)  
+[AlphaC58](https://github.com/AlphaC58)  
+[ArbiwReist](https://github.com/Meawresion)  
 [CynexXT](https://github.com/CynexXT)  
 [Destro9000](https://github.com/Destro9000)  
 [Divadriel](https://github.com/Divadriel)  
 [EV_Jack](https://github.com/EvJack)  
 [f4tih-0z3r](https://github.com/f4tih-0z3r)  
-[Fremad](https://github.com/Fremadico)
+[Fremad](https://github.com/Fremadico)  
 [JEricaM](https://github.com/JEricaM)  
 [kj415j45](https://github.com/kj415j45)  
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)  
@@ -39,21 +40,21 @@ Proxxie
 MontyPython   
 [nopeholmes](https://github.com/nopeholmes)  
 [PedroCisnerosSantana](https://github.com/PedroCisnerosSantana)  
-[PsyB34R](https://www.instagram.com/psybearr)
-[QuiteABitofAll](https://github.com/QuiteaBitofAll)
+[PsyB34R](https://www.instagram.com/psybearr)  
+[QuiteABitofAll](https://github.com/QuiteaBitofAll)  
 roucoupute2  
-Rinelle  
+Rinelle   
 [ruliou](https://github.com/ruliou)  
 Ryugarret  
 [Seo-na](https://github.com/Seo-na)  
 [siruelionn](https://github.com/siruelionn)  
 SKIFFI  
-[SnRetro](https://github.com/SnRetro)
-[TheBrainReal](https://github.com/lucasknook)    
+[SnRetro](https://github.com/SnRetro)  
+[TheBrainReal](https://github.com/lucasknook)     
 [un-amico](https://github.com/un-amico)  
-Unfairissimo 
-[VerySmashing](https://github.com/VerySmashing) 
-Wanna 
+Unfairissimo  
+[VerySmashing](https://github.com/VerySmashing)  
+Wanna  
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)  
@@ -89,8 +90,8 @@ Alice
 [Deckeeper](https://github.com/deckeeper)  
 [DexterHuang](https://github.com/DexterHuang)  
 Dragonmaster84  
-[Hally](https://twitter.com/g_hally1996) 
-HeyaItsLuna 
+[Hally](https://twitter.com/g_hally1996)  
+HeyaItsLuna  
 JashinL  
 [JEricaM](https://github.com/JEricaM)  
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)  
@@ -123,8 +124,8 @@ Livingdead
 [s3rvant](https://github.com/s3rvant)  
 [Humboer](https://github.com/stphnhng)  
 [Tripplehelix](https://github.com/tripplehelix)  
-Vega_Efsunborn
-[Laani](https://github.com/Laani)
+Vega_Efsunborn  
+[Laani](https://github.com/Laani)  
 
 ## Game resources (words)
 App2  
@@ -139,7 +140,7 @@ FoxHunt
 [Hally](https://twitter.com/g_hally1996)  
 HumbleServant  
 [JEricaM](https://github.com/JEricaM)  
-Kaktusmonas
+Kaktusmonas  
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)  
 [Luako](https://github.com/luako)  
 [MarcelWeidum](https://github.com/MarcelWeidum)  
@@ -159,7 +160,7 @@ Satan
 
 ## Tips
 [Archibaald](https://github.com/Archibaald-dev)  
-Beepbeepimajeep
+Beepbeepimajeep  
 Bronzer  
 [byakkozen](https://github.com/byakkozen)  
 Crescent_Grey  
@@ -167,15 +168,15 @@ Crescent_Grey
 Exca  
 [Hally](https://twitter.com/g_hally1996)  
 [Kimi Leta](https://github.com/kimileta)  
-KingRiver
+KingRiver  
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)  
 [RaykouTJ](https://github.com/HoneySyrup)  
-[levi middleton](https://github.com/levi-middleton)   
+[levi-middleton](https://github.com/levi-middleton)   
 [Misaki](https://github.com/Misaki290)  
 Mist  
 Mobius_One  
 Pikkon85  
-Polemo03
+Polemo03  
 roucoupute2  
 RsKaiser  
 [Russ Hammett](https://github.com/Kritner)  
