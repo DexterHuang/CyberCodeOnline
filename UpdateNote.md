@@ -22,6 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates Log
 ### **2021/06/06 v0.566**
+ * Make player mention on offline players work better 
  * Added two new language, Thai and Pirate Speak!
 
 ### **2021/06/05 v0.566**
