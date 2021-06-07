@@ -21,6 +21,12 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates Log
+### **2021/06/07 v0.566**
+ * Increased max stack of items to 5000
+ * you can now recycle `Ammunition tech parts` and `Military ammunition tech parts` to `Tech Scrap`
+ * Now when you are using `Pirate Speak` language, whatever you say in chat will be automatically translated to pirate speak :)
+ * Server stability optimization
+
 ### **2021/06/06 v0.566**
  * Make player mention on offline players work better 
  * Added two new language, Thai and Pirate Speak!
