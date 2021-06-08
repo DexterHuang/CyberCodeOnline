@@ -23,7 +23,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ## Updates Log
 ### **2021/06/08 v0.592**
  * NEW - You can now deposit and withdraw from `Bank of Arasaka`
- * NEW - `Chat exploit transmitter [PIRATE]` Activate to enable priate chat mode globaly 
+ * NEW - `Chat exploit transmitter [PIRATE]` Activate to enable pirate chat mode globaly 
  * ***IMPORTANT*** Items in `Item Inbox` will now expire automatically in 7 days, please make the necessary arrangement, or your items WILL get deleted in 7 days. you can see the expiry date at item inbox
 
 ### **2021/06/07 v0.566**
