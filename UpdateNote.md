@@ -22,6 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates Log
 ### **2021/06/09 v0.592**
+ * Fixed graphical glith where it says enemy is dead in dungeon but its not
  * Added warning box for items that is broken
 
 ### **2021/06/08 v0.592**
