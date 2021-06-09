@@ -24,7 +24,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ### **2021/06/09 v0.592**
  * NEW - You can now `Factory Reset` your calibrated equipments by going to the item details page and click Factory Reset, this requires a `Factory Reset Shard`
  * NEW - Added `Factory Reset Shard` this drops rarely when scavange
- * Fixed graphical glith where it says enemy is dead in dungeon but its not
+ * Fixed graphical glicth where it says enemy is dead in dungeon but its not
  * Added warning box for items that is broken
 
 ### **2021/06/08 v0.592**
