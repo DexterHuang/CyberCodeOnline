@@ -21,6 +21,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates Log
+### **2021/06/09 v0.592**
+ * Added warning box for items that is broken
+
 ### **2021/06/08 v0.592**
  * NEW - You can now deposit and withdraw from `Bank of Arasaka`
  * NEW - `Chat exploit transmitter [PIRATE]` Activate to enable pirate chat mode globaly 
