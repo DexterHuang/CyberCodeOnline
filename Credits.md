@@ -53,7 +53,8 @@ SKIFFI
 [TheBrainReal](https://github.com/lucasknook)     
 [un-amico](https://github.com/un-amico)  
 Unfairissimo  
-[VerySmashing](https://github.com/VerySmashing)  
+[VerySmashing](https://github.com/VerySmashing)
+[JoaoGabrielMenezes](https://github.com/JoaoGabrielMenezes)
 Wanna  
 
 ## Proofreading
