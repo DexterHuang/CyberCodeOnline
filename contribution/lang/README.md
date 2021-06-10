@@ -3,7 +3,7 @@
 ## General Rules
 
  - Please stay family friendly
- - Please be *Imersive* with the translation 
+ - Please be *Immersive* with the translation 
 
 ## How to contribute
 
