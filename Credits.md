@@ -55,6 +55,7 @@ SKIFFI
 Unfairissimo  
 [VerySmashing](https://github.com/VerySmashing)  
 Wanna  
+[EinHawk](https://github.com/MrNandang)  
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)  
