@@ -21,6 +21,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates Log
+### **2021/06/11 v0.592**
+ * Major UI refresh
+ * Fixed glang invite not showing properly 
+
 ### **2021/06/10 v0.592**
  * Fix rare chance of double skip, this should be just a display bug, I dont think the person actually paid doubled unit. let me know if I am wrong on this
  * Fix rare chance of losing item when getting them from item inbox
