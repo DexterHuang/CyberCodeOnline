@@ -23,7 +23,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ## Updates Log
 ### **2021/06/11 v0.592**
  * Major UI refresh
- * Fixed glang invite not showing properly 
+ * Fixed gang invite not showing properly 
 
 ### **2021/06/10 v0.592**
  * Fix rare chance of double skip, this should be just a display bug, I dont think the person actually paid doubled unit. let me know if I am wrong on this
