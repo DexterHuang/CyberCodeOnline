@@ -10,6 +10,7 @@
 * No excessive alts
 * Don't exploit bugs
 * Keep names family friendly
+* Selling account/items for IRL money is not allowed
 ### Chat Rules
 * Chat is for everyone, no one is excluded unless you break these rules
 * Stay family friendly
