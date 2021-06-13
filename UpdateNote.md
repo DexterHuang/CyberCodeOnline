@@ -21,6 +21,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates Log
+### **2021/06/13 v0.592**
+ * IP ban and auto chat spam mute is implemented 
+
 ### **2021/06/11 v0.592**
  * Major UI refresh
  * Fixed gang invite not showing properly 
