@@ -25,6 +25,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  * Added automatic alt detection, it has been brought to my attention that there is some kind of mass alt farming operation happenning. in order to protect market and fairness of the game, it is clear that its necessary to limit amount of alts, specailly large scale ones for mass farming. 
 I will be perma-banning abvious malicious alt accounts. 
 With the backpack update, btc bank, there is no legit reason for alt anymore, therefore we will be gradurally stopping the use of alt. If you have less then 4 alts you will still be able to send and move your stuff to main, BUT if you have 4 or more alts, you wont be banned unless you are doing serious exploits, but you will certainly not be able to send item to your alts anymore. 
+ * Now muted players cannot sell you item in market
 
 ### **2021/06/13 v0.592**
  * IP ban and auto chat spam mute is implemented 
