@@ -35,7 +35,8 @@ Proxxie
 [kj415j45](https://github.com/kj415j45)  
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)  
 [Kraken-Juice](https://github.com/Kraken-Juice)  
-[Misaki](https://github.com/Misaki290)  
+[Misaki](https://github.com/Misaki290)
+[MrNandang](https://github.com/MrNandang)  
 [Murfex](https://github.com/Murfex)  
 MontyPython   
 [nopeholmes](https://github.com/nopeholmes)  
