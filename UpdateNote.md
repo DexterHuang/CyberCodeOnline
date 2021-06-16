@@ -21,6 +21,29 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates Log
+### **2021/06/15 v0.592**
+ * Added automatic alt detection, it has been brought to my attention that there is some kind of mass alt farming operation happenning. in order to protect market and fairness of the game, it is clear that its necessary to limit amount of alts, specailly large scale ones for mass farming. 
+I will be perma-banning abvious malicious alt accounts. 
+With the backpack update, btc bank, there is no legit reason for alt anymore, therefore we will be gradurally stopping the use of alt. If you have less then 4 alts you will still be able to send and move your stuff to main, BUT if you have 4 or more alts, you wont be banned unless you are doing serious exploits, but you will certainly not be able to send item to your alts anymore. 
+ * Now muted players cannot sell you item in market
+
+### **2021/06/13 v0.592**
+ * IP ban and auto chat spam mute is implemented 
+
+### **2021/06/11 v0.592**
+ * Major UI refresh
+ * Fixed gang invite not showing properly 
+
+### **2021/06/10 v0.592**
+ * Fix rare chance of double skip, this should be just a display bug, I dont think the person actually paid doubled unit. let me know if I am wrong on this
+ * Fix rare chance of losing item when getting them from item inbox
+
+### **2021/06/09 v0.592**
+ * NEW - You can now `Factory Reset` your calibrated equipments by going to the item details page and click Factory Reset, this requires a `Factory Reset Shard`
+ * NEW - Added `Factory Reset Shard` this drops rarely when scavange
+ * Fixed graphical glicth where it says enemy is dead in dungeon but its not
+ * Added warning box for items that is broken
+
 ### **2021/06/08 v0.592**
  * NEW - You can now deposit and withdraw from `Bank of Arasaka`
  * NEW - `Chat exploit transmitter [PIRATE]` Activate to enable pirate chat mode globaly 

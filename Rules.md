@@ -5,13 +5,14 @@
 > If you feel someone is violating one of the rules and no moderators are around, take a screenshot and report it via direct messaging the moderators in the [Discord server](https://discord.gg/JREx8xz).
 
 ### Game Rules
-* No botting 
-* No Tool assistance
-* No excessive alts
-* Don't exploit bugs
-* Keep names family friendly
+* No use of bots or scripts 
+* No tool assistance
+* No more than 1 alt account
+* Don't exploit bugs, report them
+* Keep usernames family friendly
+* Selling account/items for IRL money not allowed
 ### Chat Rules
-* Chat is for everyone, no one is excluded unless you break these rules
+* Chat is for everyone, no one is excluded unless you break these rules:
 * Stay family friendly
 * Be kind
 * Don't: 
@@ -19,3 +20,4 @@
   - Spam  
   - Advertise other games 
   - Impersonate others  
+  - Place links in chat
