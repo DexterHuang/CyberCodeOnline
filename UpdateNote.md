@@ -23,6 +23,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ## Updates Log
 
 ### **2021/06/17 v0.592**
+ * Updated iOS app, now notification should work as expected on iOS devices
  * Updated mobile mode on tablet screen, now when you have lagrer screen, chat and inventory will show on the sides to take advantage of larger space :)
  * You can now switch to mobile mode when you are on desktop by clicking on "Enable Cyberpunk Mode", you can switch back in the mobile setting page
  * Fix notification dots on the bottom tab is now fixed
