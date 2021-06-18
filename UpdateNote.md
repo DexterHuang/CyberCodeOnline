@@ -22,7 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates Log
 ### **2021/06/18 v0.592**
- * Fix after recycle starts on desktop cyberpunk mode doesn't show progress bar
+ * Fix after recycle starts on desktop cyberpunk mode doesn't show progress interface
  * Added chracter graphic for Lee
  * Player details page now shows only stats that the player have, those the player doesn't have will be hidden
  * Inventory and equipment is now splited to different tabs, to reduce annoying constant scrolling and improve performance
