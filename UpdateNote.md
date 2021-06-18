@@ -21,6 +21,12 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates Log
+### **2021/06/18 v0.592**
+ * Added chracter graphic for Lee
+ * Player details page now shows only stats that the player have, those the player doesn't have will be hidden
+ * Inventory and equipment is now splited to different tabs, to reduce annoying constant scrolling and improve performance
+ * Secret key list is now collapsed by default to imrpove performance
+ * player inventory is now collapsed by default in player details to imrpove performance
 
 ### **2021/06/17 v0.592**
  * Updated iOS app, now notification should work as expected on iOS devices
