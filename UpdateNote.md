@@ -27,6 +27,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  * Inventory and equipment is now splited to different tabs, to reduce annoying constant scrolling and improve performance
  * Secret key list is now collapsed by default to imrpove performance
  * player inventory is now collapsed by default in player details to imrpove performance
+ * Improved performance for inventory list
 
 ### **2021/06/17 v0.592**
  * Updated iOS app, now notification should work as expected on iOS devices
