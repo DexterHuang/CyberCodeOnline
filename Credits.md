@@ -38,6 +38,7 @@ Proxxie
 [Misaki](https://github.com/Misaki290)  
 [Murfex](https://github.com/Murfex)  
 MontyPython   
+[MrNandang](https://github.com/mrnandang)
 [nopeholmes](https://github.com/nopeholmes)  
 [PedroCisnerosSantana](https://github.com/PedroCisnerosSantana)  
 [PsyB34R](https://www.instagram.com/psybearr)  
