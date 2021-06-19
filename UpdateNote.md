@@ -21,6 +21,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates Log
+### **2021/06/19 v0.592**
+ * Fix desktop cyberpunk mode UI issues
+ * Fixed collapsible inventory not clickable
+
 ### **2021/06/18 v0.592**
  * Fix after recycle starts on desktop cyberpunk mode doesn't show progress interface
  * Added chracter graphic for Lee
