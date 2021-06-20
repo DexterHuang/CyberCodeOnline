@@ -21,6 +21,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates Log
+### **2021/06/20 v0.592**
+ * Added two new healing item for higher level player
+ * Fix issue with some player couldnt purchase item from market
+
 ### **2021/06/19 v0.592**
  * Fix desktop cyberpunk mode UI issues
  * Fixed collapsible inventory not clickable
