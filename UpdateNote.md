@@ -22,6 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates Log
 ### **2021/06/21 v0.592**
+ * Fix sometimes mail doesnt update when app is inactive
  * Fix rare chance of skip gets stuck
  * NEW - Added gnag leader board
 
