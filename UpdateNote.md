@@ -22,6 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates Log
 ### **2021/06/22 v0.592**
+ * BUFF - `Supply Crate [Gang]` drop rate from enemy has been tripled 
  * NEW - Added gang occupation control to leader board
  * NEW - gang image and motto will now show in gang details page
  * NEW - elite donator tier and above can now set gang image and motto (You will be banned if you put inappropriate image or text, this is more serious than simple chat)
