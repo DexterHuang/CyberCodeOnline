@@ -4,7 +4,7 @@
 
 > If you feel someone is violating one of the rules and no moderators are around, take a screenshot and report it via direct messaging the moderators in the [Discord server](https://discord.gg/JREx8xz).
 ### Important Guideline
-* it is recommanded to have only 1 account per person, system will flag you if you have many accounts preventing you from sending items between your accounts
+* it is strongly recommanded to play with only one account per person, system will flag your accounts preventing you from sending items between your accounts,  if it thinks you have too many accounts. 
 
 ### Game Rules
 * No use of bots or scripts 
