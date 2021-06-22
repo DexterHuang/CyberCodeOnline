@@ -9,6 +9,7 @@
 ### Game Rules
 * No use of bots or scripts 
 * No tool assistance
+* No excessive alts
 * Don't exploit bugs, report them
 * Keep usernames family friendly
 * Selling account/items for IRL money not allowed
