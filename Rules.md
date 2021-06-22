@@ -7,7 +7,7 @@
 ### Game Rules
 * No use of bots or scripts 
 * No tool assistance
-* No more than 1 account per person
+* it is recommanded to have only 1 account per person, system will flag you if you have too many accounts
 * Don't exploit bugs, report them
 * Keep usernames family friendly
 * Selling account/items for IRL money not allowed
