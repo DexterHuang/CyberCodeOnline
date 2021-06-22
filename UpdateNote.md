@@ -25,7 +25,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  * NEW - elite donator tier and above can now set gang image and motto (You will be banned if you put inappropriate image or text, this is more serious than simple chat)
  * NEW - `Supply Crate [Gang]` useage will result in less resource, but you can now use it in the gang headquater to gain more resource
  * BUFF -  `Supply Crate [Gang]` drop rate has been increased, and now it will also drop when scavenging
- * NEW - gangs now can "Occupy" the Shangri-la city by performing occupation AFK task in headquarter, the highest power gang will be shown in the city to all players (with image and motto if applicable)
+ * NEW - gangs now can "Occupy" the Shangri-la city by performing occupation AFK task in headquarter, the highest power gang will be shown in the city to all players (with image and motto if applicable), occupy status will be restarted everyday, so everyone and new gangs will always have chance
  * NEW - Added gang level leader board
 
 ### **2021/06/21 v0.592**
