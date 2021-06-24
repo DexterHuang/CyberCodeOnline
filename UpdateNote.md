@@ -22,6 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates Log
 ### **2021/06/24 v0.592**
+ * NEW - Added exclusive AFK task for members of the TOP GANG (the gang that currently occupies shangri-la)
  * Updated the alt detection algorithm 
  * App performance improvement 
 
