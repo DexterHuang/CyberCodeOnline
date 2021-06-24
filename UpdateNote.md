@@ -21,6 +21,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates Log
+### **2021/06/24 v0.592**
+ * Updated the alt detection algorithm 
+ * App performance improvement 
+
 ### **2021/06/22 v0.592**
  * BUFF - `Supply Crate [Gang]` drop rate from enemy has been tripled, scavange also has big chance of getting it
  * NEW - Added gang occupation control to leader board
