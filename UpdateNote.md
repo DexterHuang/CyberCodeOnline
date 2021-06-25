@@ -23,7 +23,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ## Updates Log
 ### **2021/06/25 v0.592**
  * BUFF - Occupation exclusive AFK task now allows top 2 gangs to use it, instead of the top 1 previously
- * BUFF - Increased the loop drops for `Collect Protection Fees`
+ * BUFF - Increased the loot drops for `Collect Protection Fees`, but increases the required cost, now it requires `Gnag Resource Crate`, this is to increase the chacne of other gang catching up since the top gangs will need to use up some of their resource if they want to collect protection fee
  * NEW - Added l33t Spe4k exploit, can be purchased in unit shop, changes all chat in global to leet speak for 10 min
 
 ### **2021/06/24 v0.592**
