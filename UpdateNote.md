@@ -21,6 +21,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates Log
+### **2021/06/25 v0.592**
+ * NEW - Added l33t Spe4k exploit, can be purchased in unit shop, changes all chat in global to leet speak for 10 min
+
 ### **2021/06/24 v0.592**
  * NEW - Added exclusive AFK task for members of the TOP GANG (the gang that currently occupies shangri-la)
  * Updated the alt detection algorithm 
