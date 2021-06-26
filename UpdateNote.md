@@ -21,7 +21,8 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates Log
-### **2021/06/26 v0.592**
+### **2021/06/27 v0.592**
+ * Age of UwU Rawr xD has arrived, old man
  * Fixed donation and Unit npc not showing properly on Cyberpunk mode 
 
 ### **2021/06/25 v0.592**
