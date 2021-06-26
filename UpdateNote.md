@@ -21,6 +21,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates Log
+### **2021/06/26 v0.592**
+ * Fixed donation and Unit npc not showing properly on Cyberpunk mode 
+
 ### **2021/06/25 v0.592**
  * Muted player can no longer delete their account
  * UI - Afk button now will show more detailed reward list, incalculable chance will be shown as `(??%)`
