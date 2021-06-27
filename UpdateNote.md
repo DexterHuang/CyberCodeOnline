@@ -26,22 +26,22 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  * Age of UwU Rawr xD has arrived, old man
 
 ### **2021/06/26 v0.592** 
- * Fixed donation and Unit npc not showing properly on Cyberpunk mode 
+ * Fixed the Donation and Unit NPC showing incorrectly on Cyberpunk mode 
 
 ### **2021/06/25 v0.592**
- * Muted player can no longer delete their account
- * UI - Afk button now will show more detailed reward list, incalculable chance will be shown as `(??%)`
- * BUFF - Occupation exclusive AFK task now allows top 2 gangs to use it, instead of the top 1 previously
- * BUFF - Increased the loot drops for `Collect Protection Fees`, but increases the required cost, now it requires `Gang Resource Crate`, this is to increase the chacne of other gang catching up since the top gangs will need to use up some of their resource if they want to collect protection fee
- * NEW - Added l33t Spe4k exploit, can be purchased in unit shop, changes all chat in global to leet speak for 10 min
+ * Muted players can no longer delete their account
+ * UI - AFK button will now show a more detailed reward list, incalculable chances will be shown as `(??%)`
+ * BUFF - Occupation exclusive AFK task now allows the top 2 gangs in the occupation control leaders to use it, instead of the top 1 previously
+ * BUFF - Increased the loot drops for `Collect Protection Fees`, along with the required cost, now it requires `Gang Resource Crate`. This is to increase the chance of other gangs catching up since the top gangs will need to use up some of their resource if they want to collect protection fees
+ * NEW - Added l33t Spe4k exploit, can be purchased in the Unit shop, it changes all chat in global to leet speak for 10 minutes
 
 ### **2021/06/24 v0.592**
  * NEW - Added exclusive AFK task for members of the TOP GANG (the gang that currently occupies shangri-la)
- * Updated the alt detection algorithm 
- * App performance improvement 
+ * Updated the alternate account detection algorithm 
+ * Improved overall app performance
 
 ### **2021/06/22 v0.592**
- * BUFF - `Supply Crate [Gang]` drop rate from enemy has been tripled, scavange also has big chance of getting it
+ * BUFF - `Supply Crate [Gang]` drop rates from enemy has been tripled, scavenging now yields a big chance of dropping
  * NEW - Added gang occupation control to leader board
  * NEW - gang image and motto will now show in gang details page
  * NEW - elite donator tier and above can now set gang image and motto (You will be banned if you put inappropriate image or text, this is more serious than simple chat)
