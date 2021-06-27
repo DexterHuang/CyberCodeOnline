@@ -22,6 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates Log
 ### **2021/06/27 v0.592**
+ * Improved automatic error reporting 
  * Age of UwU Rawr xD has arrived, old man
 
 ### **2021/06/26 v0.592** 
