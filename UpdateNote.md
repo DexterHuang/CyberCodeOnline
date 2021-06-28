@@ -85,20 +85,20 @@ With the backpack update, btc bank, there is no legit reason for having alts any
  * Now muted players cannot sell you items in the market
 
 ### **2021/06/13 v0.592**
- * IP ban and auto chat spam mute is implemented 
+ * IP bans and auto chat spamming mutes are implemented 
 
 ### **2021/06/11 v0.592**
- * Major UI refresh
- * Fixed gang invite not showing properly 
+ * Major UI rewrite
+ * Fixed gang invites not showing properly 
 
 ### **2021/06/10 v0.592**
- * Fix rare chance of double skip, this should be just a display bug, I dont think the person actually paid doubled unit. let me know if I am wrong on this
- * Fix rare chance of losing item when getting them from item inbox
+ * Fix rare chances of double skips, this should be just a display bug, I dont think the person actually paid doubled units. Let me know if I am wrong on this
+ * Fix rare chances of losing items while retrieving it from the item inbox
 
 ### **2021/06/09 v0.592**
- * NEW - You can now `Factory Reset` your calibrated equipments by going to the item details page and click Factory Reset, this requires a `Factory Reset Shard`
- * NEW - Added `Factory Reset Shard` this drops rarely when scavange
- * Fixed graphical glicth where it says enemy is dead in dungeon but its not
+ * NEW - You can now `Factory Reset` your calibrated equipments by going to the item details page and clicking Factory Reset, this requires a `Factory Reset Shard`
+ * NEW - Added `Factory Reset Shard` this drops rarely when scavange runs
+ * Fixed graphical glitch where it says enemy is defeated in dungeons while its not
  * Added warning box for items that is broken
 
 ### **2021/06/08 v0.592**
