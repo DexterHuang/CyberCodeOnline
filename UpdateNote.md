@@ -29,79 +29,79 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  * Age of UwU Rawr xD has arrived, old man
 
 ### **2021/06/26 v0.592** 
- * Fixed donation and Unit npc not showing properly on Cyberpunk mode 
+ * Fixed the Donation and Unit NPC showing incorrectly on Cyberpunk mode 
 
 ### **2021/06/25 v0.592**
- * Muted player can no longer delete their account
- * UI - Afk button now will show more detailed reward list, incalculable chance will be shown as `(??%)`
- * BUFF - Occupation exclusive AFK task now allows top 2 gangs to use it, instead of the top 1 previously
- * BUFF - Increased the loot drops for `Collect Protection Fees`, but increases the required cost, now it requires `Gang Resource Crate`, this is to increase the chacne of other gang catching up since the top gangs will need to use up some of their resource if they want to collect protection fee
- * NEW - Added l33t Spe4k exploit, can be purchased in unit shop, changes all chat in global to leet speak for 10 min
+ * Muted players can no longer delete their account
+ * UI - AFK button will now show a more detailed reward list, incalculable chances will be shown as `(??%)`
+ * BUFF - Occupation exclusive AFK task now allows the top 2 gangs in the occupation control leaders to use it, instead of the top 1 previously
+ * BUFF - Increased the loot drops for `Collect Protection Fees`, along with the required cost, now it requires `Gang Resource Crate`. This is to increase the chance of other gangs catching up since the top gangs will need to use up some of their resource if they want to collect protection fees
+ * NEW - Added l33t Spe4k exploit, can be purchased in the Unit shop, it changes all chat in global to leet speak for 10 minutes
 
 ### **2021/06/24 v0.592**
  * NEW - Added exclusive AFK task for members of the TOP GANG (the gang that currently occupies shangri-la)
- * Updated the alt detection algorithm 
- * App performance improvement 
+ * Updated the alternate account detection algorithm 
+ * Improved overall app performance
 
 ### **2021/06/22 v0.592**
- * BUFF - `Supply Crate [Gang]` drop rate from enemy has been tripled, scavange also has big chance of getting it
- * NEW - Added gang occupation control to leader board
- * NEW - gang image and motto will now show in gang details page
- * NEW - elite donator tier and above can now set gang image and motto (You will be banned if you put inappropriate image or text, this is more serious than simple chat)
- * NEW - `Supply Crate [Gang]` useage will result in less resource, but you can now use it in the gang headquater to gain more resource
+ * BUFF - Drop rates for `Supply Crate [Gang]` from enemies has been tripled, and scavenging now yields a big chance of dropping it
+ * NEW - Added gang occupation control to leaderboard
+ * NEW - Gang image and motto is now visible in the gang details page
+ * NEW - Elite donator tier and above can now set gang image and motto (You will be banned if you put inappropriate images or text, this is a very serious offence)
+ * NEW - `Supply Crate [Gang]` usage will result in less resources, but you can now use it in the gang headquater to gain more resources
  * BUFF -  `Supply Crate [Gang]` drop rate has been increased, and now it will also drop when scavenging
- * NEW - gangs now can "Occupy" the Shangri-la city by performing occupation AFK task in headquarter, the highest power gang will be shown in the city to all players (with image and motto if applicable), occupy status will be restarted week, so everyone and new gangs will always have chance
- * NEW - Added gang level leader board
+ * NEW - Gangs now can "Occupy" the Shangri-la city by performing occupation AFK tasks in the headquarter, the gang with the highest power will be shown in the city to all players (with image and motto if available), occupation status will be refreshed weekly, so everyone will always have a chance
+ * NEW - Added a leaderboard for gang levels
 
 ### **2021/06/21 v0.592**
- * Fix sometimes mail doesnt update when app is inactive
- * Fix rare chance of skip gets stuck
- * NEW - Added gnag leader board
+ * Fixed a bug where mails don't update when the app is closed
+ * Fixed rare chances of freezing when applying skips
+ * NEW - Added gang leaderboard
 
 ### **2021/06/20 v0.592**
- * Added two new healing item for higher level player
- * Fix issue with some player couldnt purchase item from market
+ * Added two new healing items for higher level players
+ * Fix an issue where some players cannot purchase items from the market
 
 ### **2021/06/19 v0.592**
  * Fix desktop cyberpunk mode UI issues
  * Fixed collapsible inventory not clickable
 
 ### **2021/06/18 v0.592**
- * Fix after recycle starts on desktop cyberpunk mode doesn't show progress interface
- * Added chracter graphic for Lee
+ * Fixed the problem where progress isn't visible after starting recycle on desktop cyberpunk mode
+ * Added chracter graphics for Lee
  * Player details page now shows only stats that the player have, those the player doesn't have will be hidden
- * Inventory and equipment is now splited to different tabs, to reduce annoying constant scrolling and improve performance
- * Secret key list is now collapsed by default to imrpove performance
- * player inventory is now collapsed by default in player details to imrpove performance
+ * Inventory and equipment is now split into different tabs, reduces the constant scrolling and improving performance
+ * Secret key list is now collapsed by default to improve performance
+ * Player inventory is now collapsed by default in player details to improve performance
  * Improved performance for inventory list
 
 ### **2021/06/17 v0.592**
  * Updated iOS app, now notification should work as expected on iOS devices
  * Updated mobile mode on tablet screen, now when you have lagrer screen, chat and inventory will show on the sides to take advantage of larger space :)
  * You can now switch to mobile mode when you are on desktop by clicking on "Enable Cyberpunk Mode", you can switch back in the mobile setting page
- * Fix notification dots on the bottom tab is now fixed
+ * Notification dots on the bottom tab is now fixed
 
 ### **2021/06/15 v0.592**
- * Added automatic alt detection, it has been brought to my attention that there is some kind of mass alt farming operation happenning. in order to protect market and fairness of the game, it is clear that its necessary to limit amount of alts, specailly large scale ones for mass farming. 
-I will be perma-banning abvious malicious alt accounts. 
-With the backpack update, btc bank, there is no legit reason for alt anymore, therefore we will be gradurally stopping the use of alt. If you have less then 4 alts you will still be able to send and move your stuff to main, BUT if you have 4 or more alts, you wont be banned unless you are doing serious exploits, but you will certainly not be able to send item to your alts anymore. 
- * Now muted players cannot sell you item in market
+ * Added automatic alt detection, it has been brought to my attention that there is some kind of mass alt farming operation happenning. In order to protect the market and fairness of the game, it is clear that its necessary to limit amount of alts, specially large scale ones for mass farming. 
+I will be perma-banning malicious alt accounts. 
+With the backpack update, btc bank, there is no legit reason for having alts anymore, therefore we will be gradually prohibiting the use of alts. If you have less then 4 alts you will still be able to send and move your stuff to main, BUT if you have 4 or more alts, you wont be banned unless you are doing serious exploits, but you will certainly not be able to send items to your alts anymore. 
+ * Now muted players cannot sell you items in the market
 
 ### **2021/06/13 v0.592**
- * IP ban and auto chat spam mute is implemented 
+ * IP bans and auto chat spamming mutes are implemented 
 
 ### **2021/06/11 v0.592**
- * Major UI refresh
- * Fixed gang invite not showing properly 
+ * Major UI rewrite
+ * Fixed gang invites not showing properly 
 
 ### **2021/06/10 v0.592**
- * Fix rare chance of double skip, this should be just a display bug, I dont think the person actually paid doubled unit. let me know if I am wrong on this
- * Fix rare chance of losing item when getting them from item inbox
+ * Fix rare chances of double skips, this should be just a display bug, I dont think the person actually paid doubled units. Let me know if I am wrong on this
+ * Fix rare chances of losing items while retrieving it from the item inbox
 
 ### **2021/06/09 v0.592**
- * NEW - You can now `Factory Reset` your calibrated equipments by going to the item details page and click Factory Reset, this requires a `Factory Reset Shard`
- * NEW - Added `Factory Reset Shard` this drops rarely when scavange
- * Fixed graphical glicth where it says enemy is dead in dungeon but its not
+ * NEW - You can now `Factory Reset` your calibrated equipments by going to the item details page and clicking Factory Reset, this requires a `Factory Reset Shard`
+ * NEW - Added `Factory Reset Shard` this drops rarely when scavange runs
+ * Fixed graphical glitch where it says enemy is defeated in dungeons while its not
  * Added warning box for items that is broken
 
 ### **2021/06/08 v0.592**
