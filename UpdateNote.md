@@ -41,42 +41,42 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  * Improved overall app performance
 
 ### **2021/06/22 v0.592**
- * BUFF - `Supply Crate [Gang]` drop rates from enemy has been tripled, scavenging now yields a big chance of dropping
- * NEW - Added gang occupation control to leader board
- * NEW - gang image and motto will now show in gang details page
- * NEW - elite donator tier and above can now set gang image and motto (You will be banned if you put inappropriate image or text, this is more serious than simple chat)
- * NEW - `Supply Crate [Gang]` useage will result in less resource, but you can now use it in the gang headquater to gain more resource
+ * BUFF - Drop rates for `Supply Crate [Gang]` from enemies has been tripled, and scavenging now yields a big chance of dropping it
+ * NEW - Added gang occupation control to leaderboard
+ * NEW - Gang image and motto is now visible in the gang details page
+ * NEW - Elite donator tier and above can now set gang image and motto (You will be banned if you put inappropriate images or text, this is a very serious offence)
+ * NEW - `Supply Crate [Gang]` usage will result in less resources, but you can now use it in the gang headquater to gain more resources
  * BUFF -  `Supply Crate [Gang]` drop rate has been increased, and now it will also drop when scavenging
- * NEW - gangs now can "Occupy" the Shangri-la city by performing occupation AFK task in headquarter, the highest power gang will be shown in the city to all players (with image and motto if applicable), occupy status will be restarted week, so everyone and new gangs will always have chance
- * NEW - Added gang level leader board
+ * NEW - Gangs now can "Occupy" the Shangri-la city by performing occupation AFK tasks in the headquarter, the gang with the highest power will be shown in the city to all players (with image and motto if available), occupation status will be refreshed weekly, so everyone will always have a chance
+ * NEW - Added a leaderboard for gang levels
 
 ### **2021/06/21 v0.592**
- * Fix sometimes mail doesnt update when app is inactive
- * Fix rare chance of skip gets stuck
- * NEW - Added gnag leader board
+ * Fixed a bug where mails don't update when the app is closed
+ * Fixed rare chances of freezing when applying skips
+ * NEW - Added gang leaderboard
 
 ### **2021/06/20 v0.592**
- * Added two new healing item for higher level player
- * Fix issue with some player couldnt purchase item from market
+ * Added two new healing items for higher level players
+ * Fix an issue where some players cannot purchase items from the market
 
 ### **2021/06/19 v0.592**
  * Fix desktop cyberpunk mode UI issues
  * Fixed collapsible inventory not clickable
 
 ### **2021/06/18 v0.592**
- * Fix after recycle starts on desktop cyberpunk mode doesn't show progress interface
- * Added chracter graphic for Lee
+ * Fixed the problem where progress isn't visible after starting recycle on desktop cyberpunk mode
+ * Added chracter graphics for Lee
  * Player details page now shows only stats that the player have, those the player doesn't have will be hidden
- * Inventory and equipment is now splited to different tabs, to reduce annoying constant scrolling and improve performance
- * Secret key list is now collapsed by default to imrpove performance
- * player inventory is now collapsed by default in player details to imrpove performance
+ * Inventory and equipment is now split into different tabs, reduces the constant scrolling and improving performance
+ * Secret key list is now collapsed by default to improve performance
+ * Player inventory is now collapsed by default in player details to improve performance
  * Improved performance for inventory list
 
 ### **2021/06/17 v0.592**
  * Updated iOS app, now notification should work as expected on iOS devices
  * Updated mobile mode on tablet screen, now when you have lagrer screen, chat and inventory will show on the sides to take advantage of larger space :)
  * You can now switch to mobile mode when you are on desktop by clicking on "Enable Cyberpunk Mode", you can switch back in the mobile setting page
- * Fix notification dots on the bottom tab is now fixed
+ * Notification dots on the bottom tab is now fixed
 
 ### **2021/06/15 v0.592**
  * Added automatic alt detection, it has been brought to my attention that there is some kind of mass alt farming operation happenning. in order to protect market and fairness of the game, it is clear that its necessary to limit amount of alts, specailly large scale ones for mass farming. 
