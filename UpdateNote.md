@@ -22,6 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates Log
 ### **2021/06/28 v0.592**
+ * Fix sometimes dungeon will be blank issue
  * General crash bug fixes
 
 ### **2021/06/27 v0.592**
