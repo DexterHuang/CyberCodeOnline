@@ -22,6 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates Log
 ### **2021/06/29 v0.592** 
+ * `Collect Protection Fees` now have much higher chance of getting Rare+ items
  * Changed floaty menu icon to phone, and added `Apps` Icon
  * Added playing Pachinko in `Apps` menu, spend some btc to win random rewards (instant and can be used while AFKing)
 
