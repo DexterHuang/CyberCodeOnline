@@ -21,6 +21,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates Log
+### **2021/06/29 v0.592** 
+ * Changed floaty menu icon to phone, and added `Apps` Icon
+ * Added playing Pachinko in `Apps` menu, spend 1000 btc to win random rewards
+
 ### **2021/06/28 v0.592**
  * Improved stability
  * Fix sometimes dungeon will be blank issue
