@@ -22,14 +22,14 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates Log
 ### **2021/06/29 v0.592** 
- * `Collect Protection Fees` now have much higher chance of getting Rare+ items
- * Changed floaty menu icon to phone, and added `Apps` Icon
- * Added playing Pachinko in `Apps` menu, spend some btc to win random rewards (instant and can be used while AFKing)
+ * `Collect Protection Fees` now has significant chances of getting Rare+ items
+ * Changed icon for the floating menu, and added a new subcategory `Apps`
+ * Added Pachinko in the `Apps` submenu, spend some btc to win random rewards (instant and can be used while AFKing)
 
 ### **2021/06/28 v0.592**
  * Improved stability
- * Fix sometimes dungeon will be blank issue
- * General crash bug fixes
+ * Fixed blank dungeons
+ * General bug fixes
 
 ### **2021/06/27 v0.592**
  * Improved automatic error reporting 
