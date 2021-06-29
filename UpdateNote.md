@@ -23,7 +23,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ## Updates Log
 ### **2021/06/29 v0.592** 
  * Changed floaty menu icon to phone, and added `Apps` Icon
- * Added playing Pachinko in `Apps` menu, spend 1000 btc to win random rewards
+ * Added playing Pachinko in `Apps` menu, spend 1000 btc to win random rewards (instant and can be used while AFKing)
 
 ### **2021/06/28 v0.592**
  * Improved stability
