@@ -23,6 +23,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ## Updates Log
 ### **2021/06/30 v0.592** 
  * Added daily rewards, can be access in the `All Apps` Menu
+ * Changed pachinko to be NOT instant (cuz it was op) and cannot used while AFK (technical limitation) 
 
 ### **2021/06/29 v0.592** 
  * `Collect Protection Fees` now has significant chances of getting Rare+ items
