@@ -21,6 +21,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates Log
+### **2021/07/01 v0.592**
+ * OPTIMIZATION -  Big chungus optimization item list multiselect is much faster
+ * OPTIMIZATION - player profile should load much more efficiently now
+
 ### **2021/06/31 v0.592** 
  * Now bad word filter list is contributable via github
 
