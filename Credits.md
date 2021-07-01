@@ -37,6 +37,7 @@ Proxxie
 [Kraken-Juice](https://github.com/Kraken-Juice)  
 [Misaki](https://github.com/Misaki290)  
 [Murfex](https://github.com/Murfex)  
+[legiorange](https://github.com/legiorange)
 MontyPython   
 [MrNandang](https://github.com/mrnandang)
 [nopeholmes](https://github.com/nopeholmes)  
