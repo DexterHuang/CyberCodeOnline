@@ -12,7 +12,7 @@
 * No excessive alts
 * Don't exploit bugs, report them instead
 * Keep usernames family friendly
-* Advertising (global chat/disord/bio/gang motto) of Selling/Buying account/items for IRL money (both directly or indirectly) is not allowed
+* Advertising (global chat/discord/bio/gang motto) of Selling/Buying account/items for IRL money (both directly or indirectly) is not allowed
 
 ### Chat Rules
 * Chat is for everyone, no one is excluded unless you break these rules:
