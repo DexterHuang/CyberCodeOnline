@@ -20,7 +20,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
-## Updates Log
+## Updates 
+### **2021/07/02 v0.639**
+ * OPTIMIZATION - now market rendering is much faster
+ * OPTIMZATION - press back from market list and player profile is much faster
+
 ### **2021/07/01 v0.592**
  * OPTIMIZATION -  Big chungus optimization item list multiselect is much faster
  * OPTIMIZATION - player profile should load much more efficiently now
