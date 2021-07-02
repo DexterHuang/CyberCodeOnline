@@ -22,8 +22,10 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates 
 ### **2021/07/02 v0.639**
+ * UPDATE - New graphic for Bank of Arasaka 
+ * OPTIMIZATION - making rendering item list faster
  * OPTIMIZATION - now market rendering is much faster
- * OPTIMZATION - press back from market list and player profile is much faster
+ * OPTIMIZATION - press back from market list and player profile is much faster
 
 ### **2021/07/01 v0.592**
  * OPTIMIZATION -  Big chungus optimization item list multiselect is much faster
