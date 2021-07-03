@@ -42,6 +42,9 @@ Upgrade modules can be removed at any time.
 Removed upgrade modules will take space in your inventory so pay attention to that.  
 Make sure you have enough space in your inventory before removing any upgrades.  
 
+If your inventory is getting cluttered with upgrade modules you can't bear to get rid of, remember you can store unused modules in any unused equipment in your inventory. 
+Level rules still apply, and remember to remove them before getting rid of the equipment. 
+
 Scrapping a piece of equipment that have an upgrade module installed in it, will also delete the said module!  
 You will not recover it!  
 
