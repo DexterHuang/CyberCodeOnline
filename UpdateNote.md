@@ -21,6 +21,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/07/03 v0.639**
+ * FIX - fixed rare crashes happens when starting new afk tasks
+
 ### **2021/07/02 v0.639**
  * UPDATE - New graphic for Bank of Arasaka 
  * OPTIMIZATION - making rendering item list faster
