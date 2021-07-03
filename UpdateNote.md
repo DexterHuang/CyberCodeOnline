@@ -28,11 +28,11 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  * OPTIMIZATION - press back from market list and player profile is much faster
 
 ### **2021/07/01 v0.592**
- * OPTIMIZATION -  Big chungus optimization item list multiselect is much faster
- * OPTIMIZATION - player profile should load much more efficiently now
+ * OPTIMIZATION - Big chungus optimization ~ Multiselect in item lists are now much faster
+ * OPTIMIZATION - Player profiles will now load faster and more efficiently
 
 ### **2021/06/31 v0.592** 
- * Now bad word filter list is contributable via github
+ * The word censor list is now contributable via github
 
 ### **2021/06/30 v0.592** 
  * Added daily rewards, can be access in the `All Apps` Menu
