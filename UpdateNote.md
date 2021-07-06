@@ -27,6 +27,8 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  * NEW - Enemies now will deal variable damag 5%+-
  * NEW - Update combat log text, hopfully its easier to read
  * FIX - Updated realtime liberary, this should fix sometimes chat doesnt show up correctly
+ * OPTIMIZATION - Item selection popup should be much more performan now
+ * OPTIMIZATION - @Mention search should be much faster now as it shows less possible result (you cant see them anyway)
 
 ### **2021/07/05 v0.639**
  * Removed player tag loading animation (it is taxing on old devices, will change to a better one in future)
