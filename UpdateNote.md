@@ -22,10 +22,10 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates 
 ### **2021/07/06 v0.639**
- * NEW - (Marksman) trait enemies now will now crit 10% crit chance 50% crit damage
- * NEW - Combat now has a bar that determind the extra damage you deal based on timing (5%+ damage), you can disable this and hide the bar to disable this feature in the setting menu if you dont want time based combat :)
- * NEW - Enemies now will deal variable damag 5%+-
- * NEW - Update combat log text, hopfully its easier to read
+ * NEW - (Marksman) trait enemies will now crit : 10% crit chance 50% crit damage
+ * NEW - Combat now has a bar that determine the extra damage you deal based on timing (5%+ damage), you can disable this and hide the bar to disable this feature in the settings menu if you dont want time based combat :)
+ * NEW - Enemies will now deal variable damage 5%+-
+ * NEW - Updated combat log text, hopefully it's easier to read
  * FIX - Updated realtime liberary, this should fix sometimes chat doesnt show up correctly
  * OPTIMIZATION - Item selection popup should be much more performan now
  * OPTIMIZATION - @Mention search should be much faster now as it shows less possible result (you cant see them anyway)
