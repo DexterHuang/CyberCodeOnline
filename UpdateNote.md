@@ -24,7 +24,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ### **2021/07/06 v0.639**
  * NEW - Enemies now will deal variable damag 5%+-
  * NEW - Combat now has a bar that determind the damage you deal based on timing
- * NEW - Enemies now will now crit
+ * NEW - Enemies now will now crit 10% crit chance 50% crit damage
  * NEW - Update combat log text, hopfully its easier to read
  * FIX - Updated realtime liberary, this should fix sometimes chat doesnt show up correctly
 
