@@ -29,6 +29,9 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  * Added member contribution history for gang
 
 ### **2021/07/03 v0.639**
+ * NEW - Combat now has a bar that determind the damage you deal based on timing
+ * NEW - Enemies now will now crit
+ * NEW - Update combat log text, hopfully its easier to read
  * FIX - fixed rare crashes happens when starting new afk tasks
 
 ### **2021/07/02 v0.639**
