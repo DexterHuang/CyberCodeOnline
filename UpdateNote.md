@@ -21,6 +21,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/07/06 v0.639**
+ * FIX - Updated realtime liberary, this should fix sometimes chat doesnt show up correctly
+
 ### **2021/07/05 v0.639**
  * Removed player tag loading animation (it is taxing on old devices, will change to a better one in future)
  * Added member contribution history for gang
