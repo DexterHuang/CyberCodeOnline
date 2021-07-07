@@ -22,6 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates 
 ### **2021/07/07 v0.639**
+ * UPDATE - global status timer will now update more frequently (each 60 sec => 10 sec)
  * UI - Updated how inventory is rendered to reduce load (this will be big improvement specially when there is alot of item in inventory)
  * UI - Now bank vault item deposit and withdraw will have their own page, to reduce load on device when list is big
  * UI - Now sell to merchant npc will have its own page as well
