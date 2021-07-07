@@ -22,6 +22,11 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates 
 ### **2021/07/06 v0.639**
+ * UI - Updated how inventory is rendered to reduce load (this will be big improvement specially when there is alot of item in inventory)
+ * UI - Now bank vault item deposit and withdraw will have their own page, to reduce load on device when list is big
+ * UI - Now sell to merchant npc will have its own page as well
+
+### **2021/07/06 v0.639**
  * NEW - (Marksman) trait enemies will now crit : 10% crit chance 50% crit damage
  * NEW - Combat now has a bar that determine the extra damage you deal based on timing (5%+ damage), you can disable this and hide the bar to disable this feature in the settings menu if you dont want time based combat :)
  * NEW - Enemies will now deal variable damage 5%+-
