@@ -21,7 +21,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
-### **2021/07/06 v0.639**
+### **2021/07/07 v0.639**
  * UI - Updated how inventory is rendered to reduce load (this will be big improvement specially when there is alot of item in inventory)
  * UI - Now bank vault item deposit and withdraw will have their own page, to reduce load on device when list is big
  * UI - Now sell to merchant npc will have its own page as well
