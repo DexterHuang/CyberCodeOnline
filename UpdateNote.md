@@ -22,6 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates 
 ### **2021/07/08 v0.639**
+ * FIX - Fixed Inventory wonky behaviour and it should be very smooth when scroll now
  * FIX - Fixed market not removing old items
  * FIX - Hopfully fixed some chat sometimes stuck at bottom or display wrongly
 
