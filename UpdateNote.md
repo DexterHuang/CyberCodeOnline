@@ -21,6 +21,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/07/08 v0.639**
+ * FIX - Hopfully fixed some chat sometimes stuck at bottom or display wrongly
+
 ### **2021/07/07 v0.639**
  * UPDATE - global status timer will now update more frequently (each 60 sec => 10 sec)
  * UI - Updated how inventory is rendered to reduce load (this will be big improvement specially when there is alot of item in inventory)
