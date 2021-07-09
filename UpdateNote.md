@@ -21,7 +21,8 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
-### **2021/07/09 v0.639**
+### **2021/07/09 v0.666**
+ * FIX - Fix chat keeps disconnecting
  * BALANCE - reduced Marksman enemy crit damage from 50% to 40% 
  * OPTIMIZATION - opening player profile should now be much smoother
 
