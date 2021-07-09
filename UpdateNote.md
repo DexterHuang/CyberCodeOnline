@@ -22,6 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates 
 ### **2021/07/09 v0.666**
+ * OPTIMIZATION - Dungeon should be smoother now 
  * FIX - Fix chat keeps disconnecting
  * BALANCE - reduced Marksman enemy crit damage from 50% to 40% 
  * OPTIMIZATION - opening player profile should now be much smoother
