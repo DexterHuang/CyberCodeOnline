@@ -22,7 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates 
 ### **2021/07/09 v0.639**
- * BALANCE - reduced Marksman enemy crit damage from 50% to 20% 
+ * BALANCE - reduced Marksman enemy crit damage from 50% to 30% 
  * OPTIMIZATION - opening player profile should now be much smoother
 
 ### **2021/07/08 v0.639**
