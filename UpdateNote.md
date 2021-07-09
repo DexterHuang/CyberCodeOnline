@@ -21,6 +21,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/07/09 v0.639**
+ * OPTIMIZATION - opening player profile should now be much smoother
+
 ### **2021/07/08 v0.639**
  * NEW - Added reconnecting message for global chat (this might not work, let me know if it works @@)
  * OPTIMIZATION - optimized page transistion
