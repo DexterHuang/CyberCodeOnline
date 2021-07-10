@@ -22,7 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates 
 ### **2021/07/10 v0.666**
- * You can now long press on gang player list to kick player (if you have the permission that is)
+ * FEATURE - You can now long press on gang player list to kick player (if you have the permission that is)
 
 ### **2021/07/09 v0.666**
  * FIX - Now mentioning non-exiting player in chat will not work
