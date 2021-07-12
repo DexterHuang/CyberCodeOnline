@@ -21,6 +21,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/07/12 v0.666**
+ * FEATURE - Added locked safe box (Captcha Reward), the system will give the player a safe box, upon unlock you will receive a small reward, the appearance of this safe box is depending on your behaviour, this is introduced because there is still player using bots. this is unfortunate that the inconsiderate individuals are forcing the implementation of captcha, but I will always try to balance the detection algorithm to reduce interruptions to the normal players to the minimal 
+ * NEW - Merged new dungeon layout from github to game
+
 ### **2021/07/10 v0.666**
  * FEATURE - You can now long press on gang player list to kick player (if you have the permission that is)
 
