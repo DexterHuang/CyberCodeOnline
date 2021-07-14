@@ -21,6 +21,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/07/14 v0.666**
+ * FIX - fixed chat tag broken during chat exploit 
+
 ### **2021/07/13 v0.666**
  * OPTIMIZATION - Fix chat becomes slower when kept for long
 
