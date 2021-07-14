@@ -22,6 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates 
 ### **2021/07/14 v0.666**
+ * UPDATE - removed some layouts from dungeon and added some new ones
  * FIX - fixed chat tag broken during chat exploit 
 
 ### **2021/07/13 v0.666**
