@@ -22,6 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates 
 ### **2021/07/15 v0.666**
+ * FIX - multiple security patch and bug fixes
  * FIX - updated how enemy tile is rendered, it should show up correctly without issue on all devices
  * UPDATE- removed display of dungeon id on web version
  * OPTIMIZATION - changed how email is sent in the backend
