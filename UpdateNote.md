@@ -21,6 +21,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/07/15 v0.666**
+ * FIX - updated how enemy tile is rendered, it should show up correctly without issue on all devices
+ * OPTIMIZATION - changed how email is sent in the backend
+
 ### **2021/07/14 v0.666**
  * UPDATE - removed some layouts from dungeon and added some new ones
  * FIX - fixed chat tag broken during chat exploit 
