@@ -57,6 +57,7 @@ SKIFFI
 Unfairissimo  
 [VerySmashing](https://github.com/VerySmashing)  
 Wanna  
+[Neshaiy](https://github.com/Neshaiy)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)  
