@@ -21,6 +21,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/07/17 v0.666**
+ * UPDATE - Reduced max length of chat message to 128
+
 ### **2021/07/15 v0.666**
  * FIX - multiple security patch and bug fixes
  * FIX - updated how enemy tile is rendered, it should show up correctly without issue on all devices
