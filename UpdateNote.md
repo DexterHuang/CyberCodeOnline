@@ -21,6 +21,12 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/07/21 v0.674**
+ * Changed chat character limit to 256
+ * Now you cannot type more then the character limit into chat input box
+ * Merged new names from github
+ * Added many more translatable content 
+
 ### **2021/07/17 v0.666**
  * UPDATE - Reduced max length of chat message to 128
 
