@@ -22,6 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates 
 ### **2021/07/21 v0.674**
+ * Reduced `Energy Cell` drop in scavange, since there are way too many now
  * Changed chat character limit to 256
  * Now you cannot type more then the character limit into chat input box
  * Merged new names from github
