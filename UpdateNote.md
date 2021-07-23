@@ -21,6 +21,14 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/07/23 v0.674**
+ * FIX - rare crash in items page
+ * FIX - fix crash on desktop gang details page 
+ * FIX - fix crash on opening notification tab on desktop in rare cases
+ * UPDATE - increases max price you can sell for all `Locked Containers`
+ * FIX - fixed typo on pachinko prcing 10k -> 5k
+ * FIX - fix rare crash on mobile player market stall page
+
 ### **2021/07/21 v0.674**
  * Reduced `Energy Cell` drop in scavange, since there are way too many now
  * Changed chat character limit to 256
