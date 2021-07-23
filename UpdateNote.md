@@ -22,6 +22,8 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates 
 ### **2021/07/23 v0.674**
+ * UI - Added Icons for bank actions and market actions
+ * OPTIMIZATION - optimized how images are cached
  * FIX - rare crash in items page
  * FIX - fix crash on desktop gang details page 
  * FIX - fix crash on opening notification tab on desktop in rare cases
