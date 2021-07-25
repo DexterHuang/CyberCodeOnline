@@ -22,6 +22,8 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates 
 ### **2021/07/25 v0.674**
+ * UI - Minor adjustment for icon buttons 
+ * UI - Added description to bank menus
  * UPDATE - Decreassed max price of `AI Core` and `Hash Processor` in market to prevent people using it as storage
 
 ### **2021/07/23 v0.674**
