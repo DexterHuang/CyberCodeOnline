@@ -21,6 +21,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/07/25 v0.674**
+ * UPDATE - Decreassed max price of `AI Core` and `Hash Processor` in market to prevent people using it as storage
+
 ### **2021/07/23 v0.674**
  * UI - Added Icons for bank actions and market actions
  * OPTIMIZATION - optimized how images are cached
