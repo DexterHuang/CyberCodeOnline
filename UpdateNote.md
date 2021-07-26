@@ -22,6 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates 
 ### **2021/07/26 v0.674**
+ * UPDATE - `AI Core` and `Hash Processor` drop rate in common container is slightly lowered in favor of other drops, since it is observed people are having too much of it now
  * UI - Required time on recipes now will hide if the recipe is instant craft instead of showing `less then 5 seconds` (such as cache printing)
  * FIX - Fixed Npc talk bubble sometimes changes during page transision 
  * OPTIMIZATION - Optimized svg loading, takes up less resources to render svgs
