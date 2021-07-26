@@ -21,6 +21,12 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/07/26 v0.674**
+ * OPTIMIZATION - Optimized svg loading, takes up less resources to render svgs
+ * FIX - Fixed Npc talk bubble sometimes changes during page transision 
+ * OPTIMIZATION - Cache printing npc page now should render faster
+ * UI - Required time on recipes now will hide if the recipe is instant craft instead of showing `less then 5 seconds` (such as cache printing)
+
 ### **2021/07/25 v0.674**
  * UI - Minor adjustment for icon buttons 
  * UI - Added description to bank menus
