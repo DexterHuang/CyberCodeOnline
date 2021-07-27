@@ -21,6 +21,41 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/07/27 v0.674**
+ * NEW - Added auto scrap button to mobile, open inventory and expand the filter dropdown (system will automatically scrap item it thinks you dont need, use at your own risk)
+ * UPDATE - Slightly increase drop of  `AI Core` and `Hash Processor` on `rare locked containers‵
+ * Added confirmation when quiting dunegone by clicking back arrow
+
+### **2021/07/26 v0.674**
+ * UPDATE - `AI Core` and `Hash Processor` drop rate in common container is slightly lowered in favor of other drops, since it is observed people are having too much of it now
+ * UI - Required time on recipes now will hide if the recipe is instant craft instead of showing `less then 5 seconds` (such as cache printing)
+ * FIX - Fixed Npc talk bubble sometimes changes during page transision 
+ * OPTIMIZATION - Optimized svg loading, takes up less resources to render svgs
+ * OPTIMIZATION - Cache printing npc page now should render faster
+ * OPTIMIZATION - Bank UI should render more smoothly now
+
+### **2021/07/25 v0.674**
+ * UI - Minor adjustment for icon buttons 
+ * UI - Added description to bank menus
+ * UPDATE - Decreassed max price of `AI Core` and `Hash Processor` in market to prevent people using it as storage
+
+### **2021/07/23 v0.674**
+ * UI - Added Icons for bank actions and market actions
+ * OPTIMIZATION - optimized how images are cached
+ * FIX - rare crash in items page
+ * FIX - fix crash on desktop gang details page 
+ * FIX - fix crash on opening notification tab on desktop in rare cases
+ * UPDATE - increases max price you can sell for all `Locked Containers`
+ * FIX - fixed typo on pachinko prcing 10k -> 5k
+ * FIX - fix rare crash on mobile player market stall page
+
+### **2021/07/21 v0.674**
+ * Reduced `Energy Cell` drop in scavange, since there are way too many now
+ * Changed chat character limit to 256
+ * Now you cannot type more then the character limit into chat input box
+ * Merged new names from github
+ * Added many more translatable content 
+
 ### **2021/07/17 v0.666**
  * UPDATE - Reduced max length of chat message to 128
 
