@@ -21,6 +21,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/07/27 v0.674**
+ * UPDATE - Slightly increase drop of  `AI Core` and `Hash Processor` on `rare locked containers‵
+ * Added confirmation when quiting dunegone by clicking back arrow
+
 ### **2021/07/26 v0.674**
  * UPDATE - `AI Core` and `Hash Processor` drop rate in common container is slightly lowered in favor of other drops, since it is observed people are having too much of it now
  * UI - Required time on recipes now will hide if the recipe is instant craft instead of showing `less then 5 seconds` (such as cache printing)
