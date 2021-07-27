@@ -29,7 +29,6 @@ Proxxie
 [Destro9000](https://github.com/Destro9000)  
 [Divadriel](https://github.com/Divadriel)  
 [EV_Jack](https://github.com/EvJack)  
-[Eziyo](https://github.com/eziyoo)  
 [f4tih-0z3r](https://github.com/f4tih-0z3r)  
 [Fremad](https://github.com/Fremadico)  
 [JEricaM](https://github.com/JEricaM)  
@@ -58,13 +57,13 @@ SKIFFI
 Unfairissimo  
 [VerySmashing](https://github.com/VerySmashing)  
 Wanna  
-[Neshaiy](https://github.com/Neshaiy)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)  
 [The_Wayfarrer](https://github.com/epixinvites)  
 [Sans3108](https://github.com/sans3108)  
 [Laani](https://github.com/Laani)
+[QonoS](https://github.com/danholden4006)
 
 ## Lore
 [byakkozen](https://github.com/byakkozen)  
