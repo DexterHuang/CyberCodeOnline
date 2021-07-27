@@ -22,6 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates 
 ### **2021/07/27 v0.674**
+ * NEW - Added auto scrap button to mobile, open inventory and expand the filter dropdown (system will automatically scrap item it thinks you dont need, use at your own risk)
  * UPDATE - Slightly increase drop of  `AI Core` and `Hash Processor` on `rare locked containers‵
  * Added confirmation when quiting dunegone by clicking back arrow
 
