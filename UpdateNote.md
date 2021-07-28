@@ -20,47 +20,206 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
-## Updates Log
+## Updates 
+### **2021/07/27 v0.674**
+ * NEW - Added auto scrap button to mobile, open inventory and expand the filter dropdown (system will automatically scrap item it thinks you dont need, use at your own risk)
+ * UPDATE - Slightly increase drop of  `AI Core` and `Hash Processor` on `rare locked containers‵
+ * Added confirmation when quiting dunegone by clicking back arrow
+
+### **2021/07/26 v0.674**
+ * UPDATE - `AI Core` and `Hash Processor` drop rate in common container is slightly lowered in favor of other drops, since it is observed people are having too much of it now
+ * UI - Required time on recipes now will hide if the recipe is instant craft instead of showing `less then 5 seconds` (such as cache printing)
+ * FIX - Fixed Npc talk bubble sometimes changes during page transision 
+ * OPTIMIZATION - Optimized svg loading, takes up less resources to render svgs
+ * OPTIMIZATION - Cache printing npc page now should render faster
+ * OPTIMIZATION - Bank UI should render more smoothly now
+
+### **2021/07/25 v0.674**
+ * UI - Minor adjustment for icon buttons 
+ * UI - Added description to bank menus
+ * UPDATE - Decreassed max price of `AI Core` and `Hash Processor` in market to prevent people using it as storage
+
+### **2021/07/23 v0.674**
+ * UI - Added Icons for bank actions and market actions
+ * OPTIMIZATION - optimized how images are cached
+ * FIX - rare crash in items page
+ * FIX - fix crash on desktop gang details page 
+ * FIX - fix crash on opening notification tab on desktop in rare cases
+ * UPDATE - increases max price you can sell for all `Locked Containers`
+ * FIX - fixed typo on pachinko prcing 10k -> 5k
+ * FIX - fix rare crash on mobile player market stall page
+
+### **2021/07/21 v0.674**
+ * Reduced `Energy Cell` drop in scavange, since there are way too many now
+ * Changed chat character limit to 256
+ * Now you cannot type more then the character limit into chat input box
+ * Merged new names from github
+ * Added many more translatable content 
+
+### **2021/07/17 v0.666**
+ * UPDATE - Reduced max length of chat message to 128
+
+### **2021/07/15 v0.666**
+ * FIX - multiple security patch and bug fixes
+ * FIX - updated how enemy tile is rendered, it should show up correctly without issue on all devices
+ * UPDATE- removed display of dungeon id on web version
+ * OPTIMIZATION - changed how email is sent in the backend
+
+### **2021/07/14 v0.666**
+ * UPDATE - removed some layouts from dungeon and added some new ones
+ * FIX - fixed chat tag broken during chat exploit 
+
+### **2021/07/13 v0.666**
+ * OPTIMIZATION - Fix chat becomes slower when kept for long
+
+### **2021/07/12 v0.666**
+ * FEATURE - Added locked safe box (Captcha Reward), the system will give the player a safe box, upon unlock you will receive a small reward, the appearance of this safe box is depending on your behaviour, this is introduced because there is still player using bots. this is unfortunate that the inconsiderate individuals are forcing the implementation of captcha, but I will always try to balance the detection algorithm to reduce interruptions to the normal players to the minimal 
+ * NEW - Merged new dungeon layout from github to game
+
+### **2021/07/10 v0.666**
+ * FEATURE - You can now long press on gang player list to kick player (if you have the permission that is)
+
+### **2021/07/09 v0.666**
+ * FIX - Now mentioning non-exiting player in chat will not work
+ * OPTIMIZATION - Dungeon should be smoother now 
+ * FIX - Fix chat keeps disconnecting
+ * BALANCE - reduced Marksman enemy crit damage from 50% to 40% 
+ * OPTIMIZATION - opening player profile should now be much smoother
+
+### **2021/07/08 v0.639**
+ * NEW - Added reconnecting message for global chat (this might not work, let me know if it works @@)
+ * OPTIMIZATION - optimized page transistion
+ * FIX - Fixed Inventory wonky behaviour and it should be very smooth when scroll now
+ * FIX - Fixed market not removing old items
+ * FIX - Hopfully fixed some chat sometimes stuck at bottom or display wrongly
+
+### **2021/07/07 v0.639**
+ * UPDATE - global status timer will now update more frequently (each 60 sec => 10 sec)
+ * UI - Updated how inventory is rendered to reduce load (this will be big improvement specially when there is alot of item in inventory)
+ * UI - Now bank vault item deposit and withdraw will have their own page, to reduce load on device when list is big
+ * UI - Now sell to merchant npc will have its own page as well
+
+### **2021/07/06 v0.639**
+ * NEW - (Marksman) trait enemies will now crit : 10% crit chance 50% crit damage
+ * NEW - Combat now has a bar that determine the extra damage you deal based on timing (5%+ damage), you can disable this and hide the bar to disable this feature in the settings menu if you dont want time based combat :)
+ * NEW - Enemies will now deal variable damage 5%+-
+ * NEW - Updated combat log text, hopefully it's easier to read
+ * FIX - Updated realtime liberary, this should fix sometimes chat doesnt show up correctly
+ * OPTIMIZATION - Item selection popup should be much more performan now
+ * OPTIMIZATION - @Mention search should be much faster now as it shows less possible result (you cant see them anyway)
+
+### **2021/07/05 v0.639**
+ * Removed player tag loading animation (it is taxing on old devices, will change to a better one in future)
+ * Added member contribution history for gang
+
+### **2021/07/03 v0.639**
+ * FIX - fixed rare crashes happens when starting new afk tasks
+
+### **2021/07/02 v0.639**
+ * UPDATE - New graphic for Bank of Arasaka 
+ * OPTIMIZATION - making rendering item list faster
+ * OPTIMIZATION - now market rendering is much faster
+ * OPTIMIZATION - press back from market list and player profile is much faster
+
+### **2021/07/01 v0.592**
+ * OPTIMIZATION - Big chungus optimization ~ Multiselect in item lists are now much faster
+ * OPTIMIZATION - Player profiles will now load faster and more efficiently
+
+### **2021/06/31 v0.592** 
+ * The word censor list is now contributable via github
+
+### **2021/06/30 v0.592** 
+ * Added daily rewards, can be access in the `All Apps` Menu
+ * Changed pachinko to be NOT instant (cuz it was op) and cannot used while AFK (technical limitation) 
+
+### **2021/06/29 v0.592** 
+ * `Collect Protection Fees` now has significant chances of getting Rare+ items
+ * Changed icon for the floating menu, and added a new subcategory `Apps`
+ * Added Pachinko in the `Apps` submenu, spend some btc to win random rewards (instant and can be used while AFKing)
+
+### **2021/06/28 v0.592**
+ * Improved stability
+ * Fixed blank dungeons
+ * General bug fixes
+
+### **2021/06/27 v0.592**
+ * Improved automatic error reporting 
+ * Age of UwU Rawr xD has arrived, old man
+
+### **2021/06/26 v0.592** 
+ * Fixed the Donation and Unit NPC showing incorrectly on Cyberpunk mode 
+
+### **2021/06/25 v0.592**
+ * Muted players can no longer delete their account
+ * UI - AFK button will now show a more detailed reward list, incalculable chances will be shown as `(??%)`
+ * BUFF - Occupation exclusive AFK task now allows the top 2 gangs in the occupation control leaders to use it, instead of the top 1 previously
+ * BUFF - Increased the loot drops for `Collect Protection Fees`, along with the required cost, now it requires `Gang Resource Crate`. This is to increase the chance of other gangs catching up since the top gangs will need to use up some of their resource if they want to collect protection fees
+ * NEW - Added l33t Spe4k exploit, can be purchased in the Unit shop, it changes all chat in global to leet speak for 10 minutes
+
+### **2021/06/24 v0.592**
+ * NEW - Added exclusive AFK task for members of the TOP GANG (the gang that currently occupies shangri-la)
+ * Updated the alternate account detection algorithm 
+ * Improved overall app performance
+
+### **2021/06/22 v0.592**
+ * BUFF - Drop rates for `Supply Crate [Gang]` from enemies has been tripled, and scavenging now yields a big chance of dropping it
+ * NEW - Added gang occupation control to leaderboard
+ * NEW - Gang image and motto is now visible in the gang details page
+ * NEW - Elite donator tier and above can now set gang image and motto (You will be banned if you put inappropriate images or text, this is a very serious offence)
+ * NEW - `Supply Crate [Gang]` usage will result in less resources, but you can now use it in the gang headquater to gain more resources
+ * BUFF -  `Supply Crate [Gang]` drop rate has been increased, and now it will also drop when scavenging
+ * NEW - Gangs now can "Occupy" the Shangri-la city by performing occupation AFK tasks in the headquarter, the gang with the highest power will be shown in the city to all players (with image and motto if available), occupation status will be refreshed weekly, so everyone will always have a chance
+ * NEW - Added a leaderboard for gang levels
+
+### **2021/06/21 v0.592**
+ * Fixed a bug where mails don't update when the app is closed
+ * Fixed rare chances of freezing when applying skips
+ * NEW - Added gang leaderboard
+
+### **2021/06/20 v0.592**
+ * Added two new healing items for higher level players
+ * Fix an issue where some players cannot purchase items from the market
+
 ### **2021/06/19 v0.592**
  * Fix desktop cyberpunk mode UI issues
  * Fixed collapsible inventory not clickable
 
 ### **2021/06/18 v0.592**
- * Fix after recycle starts on desktop cyberpunk mode doesn't show progress interface
- * Added chracter graphic for Lee
+ * Fixed the problem where progress isn't visible after starting recycle on desktop cyberpunk mode
+ * Added chracter graphics for Lee
  * Player details page now shows only stats that the player have, those the player doesn't have will be hidden
- * Inventory and equipment is now splited to different tabs, to reduce annoying constant scrolling and improve performance
- * Secret key list is now collapsed by default to imrpove performance
- * player inventory is now collapsed by default in player details to imrpove performance
+ * Inventory and equipment is now split into different tabs, reduces the constant scrolling and improving performance
+ * Secret key list is now collapsed by default to improve performance
+ * Player inventory is now collapsed by default in player details to improve performance
  * Improved performance for inventory list
 
 ### **2021/06/17 v0.592**
  * Updated iOS app, now notification should work as expected on iOS devices
  * Updated mobile mode on tablet screen, now when you have lagrer screen, chat and inventory will show on the sides to take advantage of larger space :)
  * You can now switch to mobile mode when you are on desktop by clicking on "Enable Cyberpunk Mode", you can switch back in the mobile setting page
- * Fix notification dots on the bottom tab is now fixed
+ * Notification dots on the bottom tab is now fixed
 
 ### **2021/06/15 v0.592**
- * Added automatic alt detection, it has been brought to my attention that there is some kind of mass alt farming operation happenning. in order to protect market and fairness of the game, it is clear that its necessary to limit amount of alts, specailly large scale ones for mass farming. 
-I will be perma-banning abvious malicious alt accounts. 
-With the backpack update, btc bank, there is no legit reason for alt anymore, therefore we will be gradurally stopping the use of alt. If you have less then 4 alts you will still be able to send and move your stuff to main, BUT if you have 4 or more alts, you wont be banned unless you are doing serious exploits, but you will certainly not be able to send item to your alts anymore. 
- * Now muted players cannot sell you item in market
+ * Added automatic alt detection, it has been brought to my attention that there is some kind of mass alt farming operation happenning. In order to protect the market and fairness of the game, it is clear that its necessary to limit amount of alts, specially large scale ones for mass farming. 
+I will be perma-banning malicious alt accounts. 
+With the backpack update, btc bank, there is no legit reason for having alts anymore, therefore we will be gradually prohibiting the use of alts. If you have less then 4 alts you will still be able to send and move your stuff to main, BUT if you have 4 or more alts, you wont be banned unless you are doing serious exploits, but you will certainly not be able to send items to your alts anymore. 
+ * Now muted players cannot sell you items in the market
 
 ### **2021/06/13 v0.592**
- * IP ban and auto chat spam mute is implemented 
+ * IP bans and auto chat spamming mutes are implemented 
 
 ### **2021/06/11 v0.592**
- * Major UI refresh
- * Fixed gang invite not showing properly 
+ * Major UI rewrite
+ * Fixed gang invites not showing properly 
 
 ### **2021/06/10 v0.592**
- * Fix rare chance of double skip, this should be just a display bug, I dont think the person actually paid doubled unit. let me know if I am wrong on this
- * Fix rare chance of losing item when getting them from item inbox
+ * Fix rare chances of double skips, this should be just a display bug, I dont think the person actually paid doubled units. Let me know if I am wrong on this
+ * Fix rare chances of losing items while retrieving it from the item inbox
 
 ### **2021/06/09 v0.592**
- * NEW - You can now `Factory Reset` your calibrated equipments by going to the item details page and click Factory Reset, this requires a `Factory Reset Shard`
- * NEW - Added `Factory Reset Shard` this drops rarely when scavange
- * Fixed graphical glicth where it says enemy is dead in dungeon but its not
+ * NEW - You can now `Factory Reset` your calibrated equipments by going to the item details page and clicking Factory Reset, this requires a `Factory Reset Shard`
+ * NEW - Added `Factory Reset Shard` this drops rarely when scavange runs
+ * Fixed graphical glitch where it says enemy is defeated in dungeons while its not
  * Added warning box for items that is broken
 
 ### **2021/06/08 v0.592**

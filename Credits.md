@@ -29,6 +29,7 @@ Proxxie
 [Destro9000](https://github.com/Destro9000)  
 [Divadriel](https://github.com/Divadriel)  
 [EV_Jack](https://github.com/EvJack)  
+[Eziyo](https://github.com/eziyoo)  
 [f4tih-0z3r](https://github.com/f4tih-0z3r)  
 [Fremad](https://github.com/Fremadico)  
 [JEricaM](https://github.com/JEricaM)  
@@ -37,6 +38,7 @@ Proxxie
 [Kraken-Juice](https://github.com/Kraken-Juice)  
 [Misaki](https://github.com/Misaki290)  
 [Murfex](https://github.com/Murfex)  
+[legiorange](https://github.com/legiorange)
 MontyPython   
 [MrNandang](https://github.com/mrnandang)
 [nopeholmes](https://github.com/nopeholmes)  
@@ -56,6 +58,7 @@ SKIFFI
 Unfairissimo  
 [VerySmashing](https://github.com/VerySmashing)  
 Wanna  
+[Neshaiy](https://github.com/Neshaiy)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)  
