@@ -21,6 +21,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/07/28 v0.674**
+ * UPDATE - Hides most of the stations that is out of range of player's level
+ * UPDATE - Updated message for new players when their level isnt enough to unlock areas and NPCs
+ * OPTIMIZATION - Switch dungeon combat to use Google server to have more stability 
+
 ### **2021/07/27 v0.674**
  * NEW - Added auto scrap button to mobile, open inventory and expand the filter dropdown (system will automatically scrap item it thinks you dont need, use at your own risk)
  * UPDATE - Slightly increase drop of  `AI Core` and `Hash Processor` on `rare locked containers‵
