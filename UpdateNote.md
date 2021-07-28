@@ -22,6 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates 
 ### **2021/07/28 v0.674**
+ * UPDATE - Mods will no longer be affected by chat exploits
  * UPDATE - Hides most of the stations that is out of range of player's level
  * UPDATE - Updated message for new players when their level isnt enough to unlock areas and NPCs
  * OPTIMIZATION - Switch dungeon combat to use Google server to have more stability 
