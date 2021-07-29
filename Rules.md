@@ -16,10 +16,11 @@
 
 ### Chat Rules
 * Chat is for everyone, no one is excluded unless you break these rules:
+* Politic, Religion, COVID topic is not banned, BUT be friendly, respectful to others opinion and non-offensive otherwise is deem breach of rules
 * Stay family friendly
 * Be kind
-* Don't: 
-  - Be a jerk
+* Don't be offensive/disrespectful/hostile/passive aggressive to any other players, no unfriendly message allowed in global chat
+* Don't:  
   - Spam  
   - Advertise other games 
   - Impersonate others  
