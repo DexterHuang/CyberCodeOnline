@@ -21,6 +21,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/07/30 v0.674**
+ * UPDATE - Added language option in login page
+ * UPDATE - Translated all untranslated in ontributable lang config with Google Translate, there are still alot of mistakes. Please feel free to submit edits to fixes those mistakes :D [Language config here]https://github.com/DexterHuang/CyberCodeOnline/tree/master/contribution/lang
+
 ### **2021/07/28 v0.674**
  * UPDATE - Mods will no longer be affected by chat exploits
  * UPDATE - Hides most of the stations that is out of range of player's level
