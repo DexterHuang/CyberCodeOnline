@@ -21,6 +21,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/07/31 v0.674**
+ * NEW - Hacking SL Data Fortress - using `AI Core` in `Gang Headquarter` to hack SL Data Fortress (Global Task) once SL Data Fortress is hacked, random global buff will be deployed, you may see the progress in quest page (the progress is reset daily)
+ * UI - Updated how the AFK screen looks like
+ 
 ### **2021/07/30 v0.674**
  * UPDATE - Added language option in login page
  * UPDATE - Translated all untranslated in ontributable lang config with Google Translate, there are still alot of mistakes. Please feel free to submit edits to fixes those mistakes :D [Language config here]https://github.com/DexterHuang/CyberCodeOnline/tree/master/contribution/lang
