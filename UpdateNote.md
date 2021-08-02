@@ -21,6 +21,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/08/02 v0.674**
+ * BALANACE - Increased drop rate of `AI Core` from common container abit after the last nerf
+ * UPDATE - `Hacking SL Data Fortress` points will not carry over to the next one if there is overflow
+ * UI - Minor adjustment on AFK screen
+
 ### **2021/07/31 v0.674**
  * NEW - Hacking SL Data Fortress - using `AI Core` in `Gang Headquarter` to hack SL Data Fortress (Global Task) once SL Data Fortress is hacked, random global buff will be deployed, you may see the progress in quest page (the progress is reset daily)
  * UI - Updated how the AFK screen looks like
