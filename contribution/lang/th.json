@@ -1033,6 +1033,16 @@
  	 	 	 	"trans": "เศษเก็บข้อมูลเริ่มต้นและอัลกอริทึมสำหรับอุปกรณ์นี้ใช้สำหรับการรีเซ็ตโรงงานของคุณ",
  	 	 	 	"eng": "A shard stores default settings and algorithm for equipments, this is used for factory-resetting your equipments"
  	 	 	}
+ 	 	},
+ 	 	"timeSkipPersonal": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "ตัวเร่ง synaptic ส่วนบุคคล",
+ 	 	 	 	"eng": "Personal Synaptic Accelerator"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "เมื่อใช้แล้วข้ามไป 60 นาทีในงาน AFK \r\n         จะต้องใช้ที่หน้าจอ AFK",
+ 	 	 	 	"eng": "When used, skip 60 minutes on AFK tasks.\r\n        must be used at AFK screen"
+ 	 	 	}
  	 	}
  	},
  	"action": {
@@ -1164,6 +1174,16 @@
  	 	 	"description": {
  	 	 	 	"trans": "ขำขานเจ้าหน้าที่ของรัฐและ SLPD และเก็บค่าธรรมเนียมการคุ้มครองจากเจ้าของธุรกิจและประชาชนใน Shangri-Lah บางทีคุณอาจจะได้รับรายการมหากาพย์จากพวกเขา? (ยอดสองแก๊งสุดพิเศษ)",
  	 	 	 	"eng": "Bribe Government officials and SLPD and Collect Protection Fees from business owner and citizens in Shangri-lah. maybe you will get some EPIC items from them? (Top Two Gang Exclusive)"
+ 	 	 	}
+ 	 	},
+ 	 	"globalQuest": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Hack SL Data Fortress",
+ 	 	 	 	"eng": "Hack SL Data Fortress"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "เปิดตัวการโจมตีที่ทำงานร่วมกันในไซเบอร์สเปซที่กำหนดเป้าหมายไปที่ป้อมปราการข้อมูลแชงกรีล่า \r\n         หากการโจมตีจะประสบความสำเร็จในการบังคับให้บังคับให้ป้อมปราการส่งสัญญาณไปยังผู้ใช้ที่เชื่อมต่ออินเทอร์เน็ตไซเบอร์เน็ตทั้งหมด",
+ 	 	 	 	"eng": "Launch a collaborated attack in cyberspace targeting the Shangri-La Data Fortress\r\n        if attack were to succeed its possible to force the Data Fortress to transmit exploits to all cybernetically connected users"
  	 	 	}
  	 	}
  	},
@@ -2087,7 +2107,7 @@
  	 	 	},
  	 	 	"noKeysSubtitle": {
  	 	 	 	"trans": "คุณสามารถรับรหัสลับจากดันเจี้ยน",
- 	 	 	 	"eng": "You can obtain secrete key from Dungeons"
+ 	 	 	 	"eng": "You can obtain secret keys from Dungeons"
  	 	 	}
  	 	},
  	 	"npc": {
@@ -2278,6 +2298,90 @@
  	 	 	 	"description": {
  	 	 	 	 	"trans": "คุณจะถูกปิดเสียงหากคุณใช้ชื่อที่ไม่เหมาะสมหรือไม่เหมาะสม",
  	 	 	 	 	"eng": "you will be muted if you use offensive or inappropriate names."
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"timeSkip": {
+ 	 	 	"unitTimeSkipButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"timeSkipMinutes",
+ 	 	 	 	 	 	"timeSkipCost"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Global Skip (${timeSkipMinutes} ขั้นต่ำราคา ${timeSkipCost})",
+ 	 	 	 	 	"eng": "Global Skip (${timeSkipMinutes} Min, Cost ${timeSkipCost} Units)"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Global Skip ช่วยให้คุณข้ามเวลารอ AFK และเสร็จสิ้นทันที \n     เอฟเฟกต์นี้จะถูกนำไปใช้กับผู้เล่นทุกคนที่ทำภารกิจ AFK",
+ 	 	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\n    this effect will be applied to all player performing AFK task"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"itemTimeSkipButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemSkipMinutes"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "เวลาว่างข้าม (${itemSkipMinutes} นาที)",
+ 	 	 	 	 	"eng": "Free time skip (${itemSkipMinutes} Min)"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"timeSkipItemName",
+ 	 	 	 	 	 	"itemSkipMinutes"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "ใช้หนึ่งใน ${timeSkipItemName} ของคุณเพื่อข้าม ${itemSkipMinutes} นาที",
+ 	 	 	 	 	"eng": "Use one of your ${timeSkipItemName} to skip ${itemSkipMinutes} minutes"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"inProgressBox": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "ข้ามโลกกำลังดำเนินการ",
+ 	 	 	 	 	"eng": "Global Skip in progress"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"skippingPlayerCount"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "เร่งผู้ใช้ ${skippingPlayerCount} ..",
+ 	 	 	 	 	"eng": "Accelerating ${skippingPlayerCount} users.."
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Global Skip ช่วยให้คุณข้ามเวลารอ AFK และเสร็จสิ้นทันที \n     เอฟเฟกต์นี้จะถูกนำไปใช้กับผู้เล่นทุกคนที่ทำภารกิจ AFK",
+ 	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\n    this effect will be applied to all player performing AFK task"
+ 	 	 	}
+ 	 	},
+ 	 	"afkTask": {
+ 	 	 	"abort": {
+ 	 	 	 	"trans": "ยกเลิก",
+ 	 	 	 	"eng": "Abort"
+ 	 	 	}
+ 	 	},
+ 	 	"quest": {
+ 	 	 	"globalQuest": {
+ 	 	 	 	"progressTitle": {
+ 	 	 	 	 	"trans": "SL-Data Fortress Breach",
+ 	 	 	 	 	"eng": "SL-Data Fortress Breach"
+ 	 	 	 	},
+ 	 	 	 	"infoBox": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "การแฮ็คไซเบอร์สเปซ",
+ 	 	 	 	 	 	"eng": "Cyberspace hacking in progress"
+ 	 	 	 	 	},
+ 	 	 	 	 	"subtitle": {
+ 	 	 	 	 	 	"trans": "เข้าร่วมบังคับกับ Netrunners คนอื่น ๆ เพื่อฝ่าฝืนป้อมปราการ SL เพื่อให้ผู้เล่นทุกคนด้วย Buff",
+ 	 	 	 	 	 	"eng": "Join force with other Netrunners to breach the SL-Data Fortress to grant all players with buff"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"completeBox": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "การละเมิดการดำเนินการเสร็จสมบูรณ์",
+ 	 	 	 	 	 	"eng": "Breach operation completed"
+ 	 	 	 	 	},
+ 	 	 	 	 	"subtitle": {
+ 	 	 	 	 	 	"trans": "การปรับใช้การใช้ประโยชน์จากระยะไกลโปรดรอสักครู่ ...",
+ 	 	 	 	 	 	"eng": "Remote exploit deploying, please wait..."
+ 	 	 	 	 	}
  	 	 	 	}
  	 	 	}
  	 	}
@@ -2756,6 +2860,13 @@
  	 	 	],
  	 	 	"trans": "${clanOccupationPoint} ควบคุมอาชีพ",
  	 	 	"eng": "${clanOccupationPoint} Occupation Control"
+ 	 	},
+ 	 	"globalQuestPoint": {
+ 	 	 	"vars": [
+ 	 	 	 	"globalQuestPoint"
+ 	 	 	],
+ 	 	 	"trans": "${globalQuestPoint} SL Dating Fortress Breach",
+ 	 	 	"eng": "${globalQuestPoint} SL Data Fortress breach progress"
  	 	}
  	},
  	"cost": {

@@ -1033,6 +1033,16 @@
  	 	 	 	"trans": "Un Shard stochează setările implicite și algoritmul pentru echipamente, acesta este utilizat pentru resetarea fabricațiilor dvs.",
  	 	 	 	"eng": "A shard stores default settings and algorithm for equipments, this is used for factory-resetting your equipments"
  	 	 	}
+ 	 	},
+ 	 	"timeSkipPersonal": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Accelerator personal sinaptic",
+ 	 	 	 	"eng": "Personal Synaptic Accelerator"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Când este folosit, săriți la 60 de minute pe sarcini AFK. \r\n         trebuie să fie utilizat la ecranul AFK",
+ 	 	 	 	"eng": "When used, skip 60 minutes on AFK tasks.\r\n        must be used at AFK screen"
+ 	 	 	}
  	 	}
  	},
  	"action": {
@@ -1164,6 +1174,16 @@
  	 	 	"description": {
  	 	 	 	"trans": "Funcționarii guvernamentali de mită și SLPD și colectează taxe de protecție de la proprietarul de afaceri și cetățenii din Shangri-Lah. Poate veți obține niște obiecte epice de la ei? (Top două bande exclusive)",
  	 	 	 	"eng": "Bribe Government officials and SLPD and Collect Protection Fees from business owner and citizens in Shangri-lah. maybe you will get some EPIC items from them? (Top Two Gang Exclusive)"
+ 	 	 	}
+ 	 	},
+ 	 	"globalQuest": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Hack SL Cetatea de date",
+ 	 	 	 	"eng": "Hack SL Data Fortress"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Lansați un atac colaborat în spațiul cibernetic care vizează cetatea de date Shangri-la \r\n         Dacă atacat ar fi reușit să forțeze cetatea de date să transmită exploatări tuturor utilizatorilor conectați cibernetic",
+ 	 	 	 	"eng": "Launch a collaborated attack in cyberspace targeting the Shangri-La Data Fortress\r\n        if attack were to succeed its possible to force the Data Fortress to transmit exploits to all cybernetically connected users"
  	 	 	}
  	 	}
  	},
@@ -2087,7 +2107,7 @@
  	 	 	},
  	 	 	"noKeysSubtitle": {
  	 	 	 	"trans": "Puteți obține cheia secretă din Dungeons",
- 	 	 	 	"eng": "You can obtain secrete key from Dungeons"
+ 	 	 	 	"eng": "You can obtain secret keys from Dungeons"
  	 	 	}
  	 	},
  	 	"npc": {
@@ -2278,6 +2298,90 @@
  	 	 	 	"description": {
  	 	 	 	 	"trans": "Veți fi dezactivați dacă utilizați nume ofensive sau inadecvate.",
  	 	 	 	 	"eng": "you will be muted if you use offensive or inappropriate names."
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"timeSkip": {
+ 	 	 	"unitTimeSkipButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"timeSkipMinutes",
+ 	 	 	 	 	 	"timeSkipCost"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Global Skip (${timeSkipMinutes} min, cost ${timeSkipCost} Unități)",
+ 	 	 	 	 	"eng": "Global Skip (${timeSkipMinutes} Min, Cost ${timeSkipCost} Units)"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Global Skip vă permite să săriți timpul de așteptare AFK și să îl terminați instantaneu. \n     Acest efect va fi aplicat tuturor jucătorului care efectuează sarcina AFK",
+ 	 	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\n    this effect will be applied to all player performing AFK task"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"itemTimeSkipButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemSkipMinutes"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Timp liber Skip (${itemSkipMinutes} Min)",
+ 	 	 	 	 	"eng": "Free time skip (${itemSkipMinutes} Min)"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"timeSkipItemName",
+ 	 	 	 	 	 	"itemSkipMinutes"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Utilizați unul din ${timeSkipItemName} pentru a sări peste ${itemSkipMinutes} minute",
+ 	 	 	 	 	"eng": "Use one of your ${timeSkipItemName} to skip ${itemSkipMinutes} minutes"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"inProgressBox": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Global Skip în curs",
+ 	 	 	 	 	"eng": "Global Skip in progress"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"skippingPlayerCount"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Accelerarea utilizatorilor ${skippingPlayerCount} ..",
+ 	 	 	 	 	"eng": "Accelerating ${skippingPlayerCount} users.."
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Global Skip vă permite să săriți timpul de așteptare AFK și să îl terminați instantaneu. \n     Acest efect va fi aplicat tuturor jucătorului care efectuează sarcina AFK",
+ 	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\n    this effect will be applied to all player performing AFK task"
+ 	 	 	}
+ 	 	},
+ 	 	"afkTask": {
+ 	 	 	"abort": {
+ 	 	 	 	"trans": "Abort",
+ 	 	 	 	"eng": "Abort"
+ 	 	 	}
+ 	 	},
+ 	 	"quest": {
+ 	 	 	"globalQuest": {
+ 	 	 	 	"progressTitle": {
+ 	 	 	 	 	"trans": "SL-Data Cetatea Breach",
+ 	 	 	 	 	"eng": "SL-Data Fortress Breach"
+ 	 	 	 	},
+ 	 	 	 	"infoBox": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Cyberspace hacking în desfășurare",
+ 	 	 	 	 	 	"eng": "Cyberspace hacking in progress"
+ 	 	 	 	 	},
+ 	 	 	 	 	"subtitle": {
+ 	 	 	 	 	 	"trans": "Alăturați-vă Forței cu alți NetNunners pentru a încălca cetatea SL-Data pentru a acorda toți jucătorii cu Buff",
+ 	 	 	 	 	 	"eng": "Join force with other Netrunners to breach the SL-Data Fortress to grant all players with buff"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"completeBox": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Funcționarea de încălcare a fost finalizată",
+ 	 	 	 	 	 	"eng": "Breach operation completed"
+ 	 	 	 	 	},
+ 	 	 	 	 	"subtitle": {
+ 	 	 	 	 	 	"trans": "Exploatarea de la distanță Implementarea, vă rugăm să așteptați ...",
+ 	 	 	 	 	 	"eng": "Remote exploit deploying, please wait..."
+ 	 	 	 	 	}
  	 	 	 	}
  	 	 	}
  	 	}
@@ -2756,6 +2860,13 @@
  	 	 	],
  	 	 	"trans": "${clanOccupationPoint} Controlul ocupației",
  	 	 	"eng": "${clanOccupationPoint} Occupation Control"
+ 	 	},
+ 	 	"globalQuestPoint": {
+ 	 	 	"vars": [
+ 	 	 	 	"globalQuestPoint"
+ 	 	 	],
+ 	 	 	"trans": "${globalQuestPoint} SL Cetatea de date breach progres",
+ 	 	 	"eng": "${globalQuestPoint} SL Data Fortress breach progress"
  	 	}
  	},
  	"cost": {

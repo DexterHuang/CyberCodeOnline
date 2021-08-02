@@ -505,6 +505,16 @@
  	 	 	 	"trans": "賄賂政府職員とSLPDとShangri-Lahの事業主と市民からの保護料を収集します。 たぶんあなたはそれらからいくつかの叙事詩のアイテムを得るでしょうか？ （トップ2ギャング専用）",
  	 	 	 	"eng": "Bribe Government officials and SLPD and Collect Protection Fees from business owner and citizens in Shangri-lah. maybe you will get some EPIC items from them? (Top Two Gang Exclusive)"
  	 	 	}
+ 	 	},
+ 	 	"globalQuest": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "HACK SLデータ要塞",
+ 	 	 	 	"eng": "Hack SL Data Fortress"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Shangri-LAデータ要塞をターゲットにしたサイバースペースでの共同攻撃を開始 \r\n         データ要塞がすべてのサイバナリックに接続されているユーザーに悪用を送信するように強制することが可能である場合",
+ 	 	 	 	"eng": "Launch a collaborated attack in cyberspace targeting the Shangri-La Data Fortress\r\n        if attack were to succeed its possible to force the Data Fortress to transmit exploits to all cybernetically connected users"
+ 	 	 	}
  	 	}
  	},
  	"receive": {
@@ -1202,6 +1212,16 @@
  	 	 	"description": {
  	 	 	 	"trans": "シャードストア設備のためのデフォルト設定とアルゴリズムは、機器の再設定に使用されます。",
  	 	 	 	"eng": "A shard stores default settings and algorithm for equipments, this is used for factory-resetting your equipments"
+ 	 	 	}
+ 	 	},
+ 	 	"timeSkipPersonal": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "個人用シナプスアクセラレータ",
+ 	 	 	 	"eng": "Personal Synaptic Accelerator"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "使用されると、AFKタスクで60分間スキップしてください。 \r\n         AFKスクリーンで使用する必要があります",
+ 	 	 	 	"eng": "When used, skip 60 minutes on AFK tasks.\r\n        must be used at AFK screen"
  	 	 	}
  	 	}
  	},
@@ -2087,7 +2107,7 @@
  	 	 	},
  	 	 	"noKeysSubtitle": {
  	 	 	 	"trans": "あなたはダンジョンから秘密鍵を入手できます",
- 	 	 	 	"eng": "You can obtain secrete key from Dungeons"
+ 	 	 	 	"eng": "You can obtain secret keys from Dungeons"
  	 	 	}
  	 	},
  	 	"npc": {
@@ -2278,6 +2298,90 @@
  	 	 	 	"description": {
  	 	 	 	 	"trans": "あなたが攻撃的または不適切な名前を使用するならば、あなたはミュートされます。",
  	 	 	 	 	"eng": "you will be muted if you use offensive or inappropriate names."
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"timeSkip": {
+ 	 	 	"unitTimeSkipButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"timeSkipMinutes",
+ 	 	 	 	 	 	"timeSkipCost"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "グローバルスキップ（${timeSkipMinutes}分、${timeSkipCost}単位）",
+ 	 	 	 	 	"eng": "Global Skip (${timeSkipMinutes} Min, Cost ${timeSkipCost} Units)"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "グローバルスキップAFK待ち時間をスキップして即座に終了することができます。 \n     この効果はAFKタスクを実行するすべてのプレイヤーに適用されます。",
+ 	 	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\n    this effect will be applied to all player performing AFK task"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"itemTimeSkipButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemSkipMinutes"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "空き時間スキップ（${itemSkipMinutes}分）",
+ 	 	 	 	 	"eng": "Free time skip (${itemSkipMinutes} Min)"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"timeSkipItemName",
+ 	 	 	 	 	 	"itemSkipMinutes"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${itemSkipMinutes}をスキップするには、${timeSkipItemName}の1つを使用します。",
+ 	 	 	 	 	"eng": "Use one of your ${timeSkipItemName} to skip ${itemSkipMinutes} minutes"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"inProgressBox": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "グローバルスキップ進行中の",
+ 	 	 	 	 	"eng": "Global Skip in progress"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"skippingPlayerCount"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${skippingPlayerCount}ユーザーの加速",
+ 	 	 	 	 	"eng": "Accelerating ${skippingPlayerCount} users.."
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "グローバルスキップAFK待ち時間をスキップして即座に終了することができます。 \n     この効果はAFKタスクを実行するすべてのプレイヤーに適用されます。",
+ 	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\n    this effect will be applied to all player performing AFK task"
+ 	 	 	}
+ 	 	},
+ 	 	"afkTask": {
+ 	 	 	"abort": {
+ 	 	 	 	"trans": "アボート",
+ 	 	 	 	"eng": "Abort"
+ 	 	 	}
+ 	 	},
+ 	 	"quest": {
+ 	 	 	"globalQuest": {
+ 	 	 	 	"progressTitle": {
+ 	 	 	 	 	"trans": "SLデータ要塞違反",
+ 	 	 	 	 	"eng": "SL-Data Fortress Breach"
+ 	 	 	 	},
+ 	 	 	 	"infoBox": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "進行中のサイバースペースハッキング",
+ 	 	 	 	 	 	"eng": "Cyberspace hacking in progress"
+ 	 	 	 	 	},
+ 	 	 	 	 	"subtitle": {
+ 	 	 	 	 	 	"trans": "他のネットランナーとの結合に参加してSLデータの要塞を違反して、すべてのプレーヤーをバフで付与する",
+ 	 	 	 	 	 	"eng": "Join force with other Netrunners to breach the SL-Data Fortress to grant all players with buff"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"completeBox": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "違反操作完了",
+ 	 	 	 	 	 	"eng": "Breach operation completed"
+ 	 	 	 	 	},
+ 	 	 	 	 	"subtitle": {
+ 	 	 	 	 	 	"trans": "リモートエクスプロイトのデプロイ、お待ちください...",
+ 	 	 	 	 	 	"eng": "Remote exploit deploying, please wait..."
+ 	 	 	 	 	}
  	 	 	 	}
  	 	 	}
  	 	}
@@ -2756,6 +2860,13 @@
  	 	 	],
  	 	 	"trans": "${clanOccupationPoint}職業管理",
  	 	 	"eng": "${clanOccupationPoint} Occupation Control"
+ 	 	},
+ 	 	"globalQuestPoint": {
+ 	 	 	"vars": [
+ 	 	 	 	"globalQuestPoint"
+ 	 	 	],
+ 	 	 	"trans": "${globalQuestPoint} SLデータ要塞侵害の進捗状況",
+ 	 	 	"eng": "${globalQuestPoint} SL Data Fortress breach progress"
  	 	}
  	},
  	"cost": {
