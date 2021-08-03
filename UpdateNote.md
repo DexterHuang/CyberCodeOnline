@@ -21,6 +21,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/08/03 v0.680**
+ * NEW - Added `CyberTunnel VPN` When used allows you to ignore exploit for 1 hour
+ * UI - Updated lore note interface in dungeon
+ * UI - now time display on AFK screen and action button will display more accurate time
+
 ### **2021/08/02 v0.674**
  * BALANACE - Increased drop rate of `AI Core` from common container abit after the last nerf
  * UPDATE - `Hacking SL Data Fortress` points will not carry over to the next one if there is overflow
