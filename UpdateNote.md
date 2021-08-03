@@ -22,7 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates 
 ### **2021/08/03 v0.680**
- * NEW - Added `CyberTunnel VPN` When used allows you to ignore exploit for 1 hour
+ * NEW - Added `CyberTunnel VPN` When used allows you to ignore exploit for 1 hour, this will drop from rare+ `Locked Container` and can be brought from unit shop
  * UI - Updated lore note interface in dungeon
  * UI - now time display on AFK screen and action button will display more accurate time
 
