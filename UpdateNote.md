@@ -21,6 +21,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/08/04 v0.680**
+ * FIX - fixed `CyberTunnel VPN` applying to everyone, it should only apply to the person who used it only
+
 ### **2021/08/03 v0.680**
  * NEW - Added `CyberTunnel VPN` When used allows you to ignore exploit for 1 hour, this will drop from rare+ `Locked Container` and can be brought from unit shop
  * UI - Updated lore note interface in dungeon
