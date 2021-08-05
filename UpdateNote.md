@@ -22,6 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates 
 ### **2021/08/05 v0.680**
+ * UI - Updated review popup UI and added translation for text
  * FIX - fix  `CyberTunnel VPN` not working
 
 ### **2021/08/04 v0.680**
