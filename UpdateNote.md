@@ -21,6 +21,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/08/05 v0.680**
+ * FIX - fix  `CyberTunnel VPN` not working
+
 ### **2021/08/04 v0.680**
  * FIX - fixed `CyberTunnel VPN` applying to everyone, it should only apply to the person who used it only
 
