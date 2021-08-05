@@ -22,7 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates 
 ### **2021/08/05 v0.680**
- * BALANCE -  `AI Core` afk farming will also drop `Gang Invasion Order Transmitter`
+ * BALANCE -  `AI Core` afk farming will also drop `Gang Invasion Order Transmitter` and `Locked Container`
  * BALANCE -  `AI Core` exp increased
  * BALANCE - Gang dungeon boss exp and drop rate of `AI Core` is increased, normal enemy in gang dungeon exp is reduced in gang dungeon, but still higher then normal enemy 
 
