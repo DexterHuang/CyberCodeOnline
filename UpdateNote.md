@@ -21,6 +21,90 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/08/05 v0.680**
+ * BALANCE -  `AI Core` afk farming will also drop `Gang Invasion Order Transmitter` and `Locked Container`
+ * BALANCE -  `AI Core` exp increased
+ * BALANCE - Gang dungeon boss exp and drop rate of `AI Core` is increased, normal enemy in gang dungeon exp is reduced in gang dungeon, but still higher then normal enemy 
+
+### **2021/08/05 v0.680**
+ * UI - Updated review popup UI and added translation for text
+ * FIX - fix  `CyberTunnel VPN` not working
+
+### **2021/08/04 v0.680**
+ * FIX - fixed `CyberTunnel VPN` applying to everyone, it should only apply to the person who used it only
+
+### **2021/08/03 v0.680**
+ * NEW - Added `CyberTunnel VPN` When used allows you to ignore exploit for 1 hour, this will drop from rare+ `Locked Container` and can be brought from unit shop
+ * UI - Updated lore note interface in dungeon
+ * UI - now time display on AFK screen and action button will display more accurate time
+
+### **2021/08/02 v0.674**
+ * BALANACE - Increased drop rate of `AI Core` from common container abit after the last nerf
+ * UPDATE - `Hacking SL Data Fortress` points will not carry over to the next one if there is overflow
+ * UI - Minor adjustment on AFK screen
+
+### **2021/07/31 v0.674**
+ * NEW - Hacking SL Data Fortress - using `AI Core` in `Gang Headquarter` to hack SL Data Fortress (Global Task) once SL Data Fortress is hacked, random global buff will be deployed, you may see the progress in quest page (the progress is reset daily)
+ * UI - Updated how the AFK screen looks like
+ 
+### **2021/07/30 v0.674**
+ * UPDATE - Added language option in login page
+ * UPDATE - Translated all untranslated in ontributable lang config with Google Translate, there are still alot of mistakes. Please feel free to submit edits to fixes those mistakes :D [Language config here]https://github.com/DexterHuang/CyberCodeOnline/tree/master/contribution/lang
+
+### **2021/07/28 v0.674**
+ * UPDATE - Mods will no longer be affected by chat exploits
+ * UPDATE - Hides most of the stations that is out of range of player's level
+ * UPDATE - Updated message for new players when their level isnt enough to unlock areas and NPCs
+ * OPTIMIZATION - Switch dungeon combat to use Google server to have more stability 
+
+### **2021/07/27 v0.674**
+ * NEW - Added auto scrap button to mobile, open inventory and expand the filter dropdown (system will automatically scrap item it thinks you dont need, use at your own risk)
+ * UPDATE - Slightly increase drop of  `AI Core` and `Hash Processor` on `rare locked containers‵
+ * Added confirmation when quiting dunegone by clicking back arrow
+
+### **2021/07/26 v0.674**
+ * UPDATE - `AI Core` and `Hash Processor` drop rate in common container is slightly lowered in favor of other drops, since it is observed people are having too much of it now
+ * UI - Required time on recipes now will hide if the recipe is instant craft instead of showing `less then 5 seconds` (such as cache printing)
+ * FIX - Fixed Npc talk bubble sometimes changes during page transision 
+ * OPTIMIZATION - Optimized svg loading, takes up less resources to render svgs
+ * OPTIMIZATION - Cache printing npc page now should render faster
+ * OPTIMIZATION - Bank UI should render more smoothly now
+
+### **2021/07/25 v0.674**
+ * UI - Minor adjustment for icon buttons 
+ * UI - Added description to bank menus
+ * UPDATE - Decreassed max price of `AI Core` and `Hash Processor` in market to prevent people using it as storage
+
+### **2021/07/23 v0.674**
+ * UI - Added Icons for bank actions and market actions
+ * OPTIMIZATION - optimized how images are cached
+ * FIX - rare crash in items page
+ * FIX - fix crash on desktop gang details page 
+ * FIX - fix crash on opening notification tab on desktop in rare cases
+ * UPDATE - increases max price you can sell for all `Locked Containers`
+ * FIX - fixed typo on pachinko prcing 10k -> 5k
+ * FIX - fix rare crash on mobile player market stall page
+
+### **2021/07/21 v0.674**
+ * Reduced `Energy Cell` drop in scavange, since there are way too many now
+ * Changed chat character limit to 256
+ * Now you cannot type more then the character limit into chat input box
+ * Merged new names from github
+ * Added many more translatable content 
+
+### **2021/07/17 v0.666**
+ * UPDATE - Reduced max length of chat message to 128
+
+### **2021/07/15 v0.666**
+ * FIX - multiple security patch and bug fixes
+ * FIX - updated how enemy tile is rendered, it should show up correctly without issue on all devices
+ * UPDATE- removed display of dungeon id on web version
+ * OPTIMIZATION - changed how email is sent in the backend
+
+### **2021/07/14 v0.666**
+ * UPDATE - removed some layouts from dungeon and added some new ones
+ * FIX - fixed chat tag broken during chat exploit 
+
 ### **2021/07/13 v0.666**
  * OPTIMIZATION - Fix chat becomes slower when kept for long
 
