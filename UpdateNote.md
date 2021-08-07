@@ -21,6 +21,12 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/08/07 v0.680**
+ * FIX - fixed the small delay on attck timing bar
+ * UI - Now you can long press on back button (at map tab, top left) to go back to city with once click
+ * OPTIMIZATION - Combat UI now renders faster and should be less likly to crash on low end devices
+ * OPTIMIZATION - Many general optimization 
+ 
 ### **2021/08/05 v0.680**
  * BALANCE -  `AI Core` afk farming will also drop `Gang Invasion Order Transmitter` and `Locked Container`
  * BALANCE -  `AI Core` exp increased
