@@ -22,6 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates 
 ### **2021/08/07 v0.680**
+ * FIX - The weird 'Enemy is dead' screen should not show up anymore
  * FIX - fixed sometimes street fight becomes not responsive after first attck
  * FIX - fixed the small delay on attck timing bar
  * UI - Now you can long press on back button (at map tab, top left) to go back to city with once click
