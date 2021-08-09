@@ -22,6 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates 
 ### **2021/08/09 v0.680**
+ * UI - Updated dungeon list display
  * REWORK - After listening alot of player feedbacks and long discussions with both players and mod team, many have suggested making gnag dungeon to be harder but gives more exp then challange dungeon so it can be a better candiate for level grinding. So, in this update, there are several changes for gang dungeon to address that:
    * Reduced number of rooms - one of the concern was that there were too many rooms making it less viable then challange dungeon causing it to have less exp gang overal, so number of rooms is reduced to exactly same as challenge dungeon
    * Increased EXP - now all exp from gang dungeon has been increased to 130% of challange dungeon, with all other factors equal (same amount of rooms & enemies) this increase of EXP should directly reflect the amount of exp gained compare to challange dungeon
