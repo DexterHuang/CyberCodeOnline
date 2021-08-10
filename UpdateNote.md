@@ -23,6 +23,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ## Updates 
 ### **2021/08/10 v0.687**
  * BALANACE - With many player request, gang dungeon boss will now drop `Locked Container` and a guaranteed rare+ item, but overal exp is reduced from +30% of challange dungeon to +20%
+ * FIX - Fixed `!` and `?` in dungeon
  * UI - Fix fullscreen popup on device doesnt support backdrop-blur css property
  * UI - Fix fullscreen popup looks weird on big screen
  * UI - Updated tutorial popover logic
