@@ -26,6 +26,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  * UI - Fix fullscreen popup on device doesnt support backdrop-blur css property
  * UI - Fix fullscreen popup looks weird on big screen
  * UI - Updated tutorial popover logic
+ * FIX - fixed issue with dungeon spam
 
 ### **2021/08/09 v0.680**
  * UI - Updated dungeon list display
