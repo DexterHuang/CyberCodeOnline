@@ -21,6 +21,12 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/08/10 v0.687**
+ * BALANACE - With many player request, gang dungeon boss will now drop `Locked Container` and a guaranteed rare+ item, but overal exp is reduced from +30% of challange dungeon to +20%
+ * UI - Fix fullscreen popup on device doesnt support backdrop-blur css property
+ * UI - Fix fullscreen popup looks weird on big screen
+ * UI - Updated tutorial popover logic
+
 ### **2021/08/09 v0.680**
  * UI - Updated dungeon list display
  * REWORK - After listening alot of player feedbacks and long discussions with both players and mod team, many have suggested making gnag dungeon to be harder but gives more exp then challange dungeon so it can be a better candiate for level grinding. So, in this update, there are several changes for gang dungeon to address that:
