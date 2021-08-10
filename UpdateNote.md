@@ -21,6 +21,19 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/08/09 v0.680**
+ * UI - Updated dungeon list display
+ * REWORK - After listening alot of player feedbacks and long discussions with both players and mod team, many have suggested making gnag dungeon to be harder but gives more exp then challange dungeon so it can be a better candiate for level grinding. So, in this update, there are several changes for gang dungeon to address that:
+   * Reduced number of rooms - one of the concern was that there were too many rooms making it less viable then challange dungeon causing it to have less exp gang overal, so number of rooms is reduced to exactly same as challenge dungeon
+   * Increased EXP - now all exp from gang dungeon has been increased to 130% of challange dungeon, with all other factors equal (same amount of rooms & enemies) this increase of EXP should directly reflect the amount of exp gained compare to challange dungeon
+   * Increased in difficultiy - With many feedback regarding to gang dungeon was way too easiy and wanted more challange, also with the increase in EXP, the difficulty is increased, effectively gang dungeon is now "Challange++", you should have good (rare+) with full upgrade module attached and decent calibration on your equipments to run this dungeon fast
+   * Reduced drops - now that we want to transform gang dungeon into a grind dungeon, drops must be reduced to ensure we dont have too much overflow of loots, it will still drop gang specific items such as `Gang Resource Crate` but the amount has been reduced
+   * Gang specific drops will now also drop in AI Farm and Scavange - with gang dungeon becoming a ✌Challange ++✌ dungeon, the gang specific items will now drop in AFK tasks to ensure that players with no amazing gears can still aquire those items
+   * Increases `Gang Invasion Order Transmitter` drop rate - now gang dungeon becomes a grind dungeon the drop rate can be increased:
+     * Callange dungeom boss has 20% chance of droping 1
+     * `AI Core` farming has 0.2% chance of dropping 1
+     * Scavange has small amount of chance of dropping 1 at location above level 50
+
 ### **2021/08/07 v0.680**
  * FIX - The weird 'Enemy is dead' screen should not show up anymore
  * FIX - fixed sometimes street fight becomes not responsive after first attck
