@@ -59,6 +59,7 @@ Unfairissimo
 [VerySmashing](https://github.com/VerySmashing)  
 Wanna  
 [Neshaiy](https://github.com/Neshaiy)
+[Karl-B-Heintz](https://github.com/Karl-B-Heinz)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)  
