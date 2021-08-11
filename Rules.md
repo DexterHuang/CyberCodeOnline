@@ -13,6 +13,7 @@
 * Don't exploit bugs, report them instead
 * Keep usernames family friendly
 * Advertising (global chat/discord/bio/gang motto) of Selling/Buying account/items for IRL money (both directly or indirectly) is not allowed
+* Tagging/mentioning people for fun or with no real purpose is not allowed, this is to prevent people from creating accounts just so they can tag them (doing so will also breach the "No exceesive alts" rule) 
 
 ### Chat Rules
 * Chat is for everyone, no one is excluded unless you break these rules:
