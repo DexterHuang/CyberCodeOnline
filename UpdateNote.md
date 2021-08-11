@@ -21,6 +21,65 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/08/11 v0.687**
+ * OPTIMIZATION - Chat message optimization
+ * FIX - fixed enter dungeon screen not scrollable on smaller screens
+
+### **2021/08/10 v0.687**
+ * BALANACE - With many player request, gang dungeon boss will now drop `Locked Container` and a guaranteed rare+ item, but overal exp is reduced from +30% of challange dungeon to +20%
+ * FIX - Fixed `!` and `?` in dungeon
+ * UI - Fix fullscreen popup on device doesnt support backdrop-blur css property
+ * UI - Fix fullscreen popup looks weird on big screen
+ * UI - Updated tutorial popover logic
+ * FIX - fixed issue with dungeon spam
+
+### **2021/08/09 v0.680**
+ * UI - Updated dungeon list display
+ * REWORK - After listening alot of player feedbacks and long discussions with both players and mod team, many have suggested making gnag dungeon to be harder but gives more exp then challange dungeon so it can be a better candiate for level grinding. So, in this update, there are several changes for gang dungeon to address that:
+   * Reduced number of rooms - one of the concern was that there were too many rooms making it less viable then challange dungeon causing it to have less exp gang overal, so number of rooms is reduced to exactly same as challenge dungeon
+   * Increased EXP - now all exp from gang dungeon has been increased to 130% of challange dungeon, with all other factors equal (same amount of rooms & enemies) this increase of EXP should directly reflect the amount of exp gained compare to challange dungeon
+   * Increased in difficultiy - With many feedback regarding to gang dungeon was way too easiy and wanted more challange, also with the increase in EXP, the difficulty is increased, effectively gang dungeon is now "Challange++", you should have good (rare+) with full upgrade module attached and decent calibration on your equipments to run this dungeon fast
+   * Reduced drops - now that we want to transform gang dungeon into a grind dungeon, drops must be reduced to ensure we dont have too much overflow of loots, it will still drop gang specific items such as `Gang Resource Crate` but the amount has been reduced
+   * Gang specific drops will now also drop in AI Farm and Scavange - with gang dungeon becoming a ✌Challange ++✌ dungeon, the gang specific items will now drop in AFK tasks to ensure that players with no amazing gears can still aquire those items
+   * Increases `Gang Invasion Order Transmitter` drop rate - now gang dungeon becomes a grind dungeon the drop rate can be increased:
+     * Callange dungeom boss has 20% chance of droping 1
+     * `AI Core` farming has 0.2% chance of dropping 1
+     * Scavange has small amount of chance of dropping 1 at location above level 50
+
+### **2021/08/07 v0.680**
+ * FIX - The weird 'Enemy is dead' screen should not show up anymore
+ * FIX - fixed sometimes street fight becomes not responsive after first attck
+ * FIX - fixed the small delay on attck timing bar
+ * UI - Now you can long press on back button (at map tab, top left) to go back to city with once click
+ * OPTIMIZATION - Combat UI now renders faster and should be less likly to crash on low end devices
+ * OPTIMIZATION - Many general optimization 
+ 
+### **2021/08/05 v0.680**
+ * BALANCE -  `AI Core` afk farming will also drop `Gang Invasion Order Transmitter` and `Locked Container`
+ * BALANCE -  `AI Core` exp increased
+ * BALANCE - Gang dungeon boss exp and drop rate of `AI Core` is increased, normal enemy in gang dungeon exp is reduced in gang dungeon, but still higher then normal enemy 
+
+### **2021/08/05 v0.680**
+ * UI - Updated review popup UI and added translation for text
+ * FIX - fix  `CyberTunnel VPN` not working
+
+### **2021/08/04 v0.680**
+ * FIX - fixed `CyberTunnel VPN` applying to everyone, it should only apply to the person who used it only
+
+### **2021/08/03 v0.680**
+ * NEW - Added `CyberTunnel VPN` When used allows you to ignore exploit for 1 hour, this will drop from rare+ `Locked Container` and can be brought from unit shop
+ * UI - Updated lore note interface in dungeon
+ * UI - now time display on AFK screen and action button will display more accurate time
+
+### **2021/08/02 v0.674**
+ * BALANACE - Increased drop rate of `AI Core` from common container abit after the last nerf
+ * UPDATE - `Hacking SL Data Fortress` points will not carry over to the next one if there is overflow
+ * UI - Minor adjustment on AFK screen
+
+### **2021/07/31 v0.674**
+ * NEW - Hacking SL Data Fortress - using `AI Core` in `Gang Headquarter` to hack SL Data Fortress (Global Task) once SL Data Fortress is hacked, random global buff will be deployed, you may see the progress in quest page (the progress is reset daily)
+ * UI - Updated how the AFK screen looks like
+ 
 ### **2021/07/30 v0.674**
  * UPDATE - Added language option in login page
  * UPDATE - Translated all untranslated in ontributable lang config with Google Translate, there are still alot of mistakes. Please feel free to submit edits to fixes those mistakes :D [Language config here]https://github.com/DexterHuang/CyberCodeOnline/tree/master/contribution/lang

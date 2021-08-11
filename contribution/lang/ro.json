@@ -1033,6 +1033,36 @@
  	 	 	 	"trans": "Un Shard stochează setările implicite și algoritmul pentru echipamente, acesta este utilizat pentru resetarea fabricațiilor dvs.",
  	 	 	 	"eng": "A shard stores default settings and algorithm for equipments, this is used for factory-resetting your equipments"
  	 	 	}
+ 	 	},
+ 	 	"timeSkipPersonal": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Accelerator personal sinaptic",
+ 	 	 	 	"eng": "Personal Synaptic Accelerator"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Când este folosit, săriți la 60 de minute pe sarcini AFK. \r\n         trebuie să fie utilizat la ecranul AFK",
+ 	 	 	 	"eng": "When used, skip 60 minutes on AFK tasks.\r\n        must be used at AFK screen"
+ 	 	 	}
+ 	 	},
+ 	 	"chatExploitLove": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Chat Exploit Transmițător [Dragoste]",
+ 	 	 	 	"eng": "Chat exploit transmitter [Love]"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Ai o dragoste și vei primi dragoste! Toată lumea primește o dragoste!. \r\n         Când se folosește, toată lumea se iubește reciproc \r\n         Acest lucru efecte pe toți jucătorii de 10 minute",
+ 	 	 	 	"eng": "You get some love, and you get some love! everyone gets some love!.\r\n        When used everyone loves each other\r\n        This effects all players fow 10 minutes"
+ 	 	 	}
+ 	 	},
+ 	 	"chatExploitProtect": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Cybertunnel VPN",
+ 	 	 	 	"eng": "CyberTunnel VPN"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Îngrijorat fratele mare, spionându-vă în timp ce navigați pe spațiul cibernetic? \r\n         Interfonii dvs. sunt întotdeauna hacked de atacuri rău intenționate? \r\n         Utilizați Cybertunnel VPN pentru a proteja și cripta experiența dvs. neferning! \r\n        \r\n         Odată activat, ignoră orice chat exploatează timp de 1 oră",
+ 	 	 	 	"eng": "Worried the Big Brother spying on you while you browse the cyberspace?\r\n        your intercoms always get hacked by malicious attacks? \r\n        use CyberTunnel VPN to protect and encrypt your netrunning experience! \r\n        \r\n        Once activated, ignores any chat exploit for 1 hour"
+ 	 	 	}
  	 	}
  	},
  	"action": {
@@ -1164,6 +1194,16 @@
  	 	 	"description": {
  	 	 	 	"trans": "Funcționarii guvernamentali de mită și SLPD și colectează taxe de protecție de la proprietarul de afaceri și cetățenii din Shangri-Lah. Poate veți obține niște obiecte epice de la ei? (Top două bande exclusive)",
  	 	 	 	"eng": "Bribe Government officials and SLPD and Collect Protection Fees from business owner and citizens in Shangri-lah. maybe you will get some EPIC items from them? (Top Two Gang Exclusive)"
+ 	 	 	}
+ 	 	},
+ 	 	"globalQuest": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Hack SL Cetatea de date",
+ 	 	 	 	"eng": "Hack SL Data Fortress"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Lansați un atac colaborat în spațiul cibernetic care vizează cetatea de date Shangri-la \r\n         Dacă atacat ar fi reușit să forțeze cetatea de date să transmită exploatări tuturor utilizatorilor conectați cibernetic",
+ 	 	 	 	"eng": "Launch a collaborated attack in cyberspace targeting the Shangri-La Data Fortress\r\n        if attack were to succeed its possible to force the Data Fortress to transmit exploits to all cybernetically connected users"
  	 	 	}
  	 	}
  	},
@@ -2087,7 +2127,7 @@
  	 	 	},
  	 	 	"noKeysSubtitle": {
  	 	 	 	"trans": "Puteți obține cheia secretă din Dungeons",
- 	 	 	 	"eng": "You can obtain secrete key from Dungeons"
+ 	 	 	 	"eng": "You can obtain secret keys from Dungeons"
  	 	 	}
  	 	},
  	 	"npc": {
@@ -2280,6 +2320,90 @@
  	 	 	 	 	"eng": "you will be muted if you use offensive or inappropriate names."
  	 	 	 	}
  	 	 	}
+ 	 	},
+ 	 	"timeSkip": {
+ 	 	 	"unitTimeSkipButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"timeSkipMinutes",
+ 	 	 	 	 	 	"timeSkipCost"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Global Skip (${timeSkipMinutes} min, cost ${timeSkipCost} Unități)",
+ 	 	 	 	 	"eng": "Global Skip (${timeSkipMinutes} Min, Cost ${timeSkipCost} Units)"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Global Skip vă permite să săriți timpul de așteptare AFK și să îl terminați instantaneu. \n     Acest efect va fi aplicat tuturor jucătorului care efectuează sarcina AFK",
+ 	 	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\n    this effect will be applied to all player performing AFK task"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"itemTimeSkipButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemSkipMinutes"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Timp liber Skip (${itemSkipMinutes} Min)",
+ 	 	 	 	 	"eng": "Free time skip (${itemSkipMinutes} Min)"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"timeSkipItemName",
+ 	 	 	 	 	 	"itemSkipMinutes"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Utilizați unul din ${timeSkipItemName} pentru a sări peste ${itemSkipMinutes} minute",
+ 	 	 	 	 	"eng": "Use one of your ${timeSkipItemName} to skip ${itemSkipMinutes} minutes"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"inProgressBox": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Global Skip în curs",
+ 	 	 	 	 	"eng": "Global Skip in progress"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"skippingPlayerCount"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Accelerarea utilizatorilor ${skippingPlayerCount} ..",
+ 	 	 	 	 	"eng": "Accelerating ${skippingPlayerCount} users.."
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Global Skip vă permite să săriți timpul de așteptare AFK și să îl terminați instantaneu. \n     Acest efect va fi aplicat tuturor jucătorului care efectuează sarcina AFK",
+ 	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\n    this effect will be applied to all player performing AFK task"
+ 	 	 	}
+ 	 	},
+ 	 	"afkTask": {
+ 	 	 	"abort": {
+ 	 	 	 	"trans": "Abort",
+ 	 	 	 	"eng": "Abort"
+ 	 	 	}
+ 	 	},
+ 	 	"quest": {
+ 	 	 	"globalQuest": {
+ 	 	 	 	"progressTitle": {
+ 	 	 	 	 	"trans": "SL-Data Cetatea Breach",
+ 	 	 	 	 	"eng": "SL-Data Fortress Breach"
+ 	 	 	 	},
+ 	 	 	 	"infoBox": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Cyberspace hacking în desfășurare",
+ 	 	 	 	 	 	"eng": "Cyberspace hacking in progress"
+ 	 	 	 	 	},
+ 	 	 	 	 	"subtitle": {
+ 	 	 	 	 	 	"trans": "Alăturați-vă Forței cu alți NetNunners pentru a încălca cetatea SL-Data pentru a acorda toți jucătorii cu Buff",
+ 	 	 	 	 	 	"eng": "Join force with other Netrunners to breach the SL-Data Fortress to grant all players with buff"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"completeBox": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Funcționarea de încălcare a fost finalizată",
+ 	 	 	 	 	 	"eng": "Breach operation completed"
+ 	 	 	 	 	},
+ 	 	 	 	 	"subtitle": {
+ 	 	 	 	 	 	"trans": "Exploatarea de la distanță Implementarea, vă rugăm să așteptați ...",
+ 	 	 	 	 	 	"eng": "Remote exploit deploying, please wait..."
+ 	 	 	 	 	}
+ 	 	 	 	}
+ 	 	 	}
  	 	}
  	},
  	"misc": {
@@ -2354,6 +2478,10 @@
  	 	"password": {
  	 	 	"trans": "Parola",
  	 	 	"eng": "Password"
+ 	 	},
+ 	 	"close": {
+ 	 	 	"trans": "închide",
+ 	 	 	"eng": "close"
  	 	}
  	},
  	"statsType": {
@@ -2713,6 +2841,40 @@
  	 	 	 	"trans": "${de la} => ${spre}",
  	 	 	 	"eng": "${from} => ${to}"
  	 	 	}
+ 	 	},
+ 	 	"review": {
+ 	 	 	"title1": {
+ 	 	 	 	"trans": "Sunt Dexter, dezvoltatorul acestui joc și sper să cunosc experiența dvs. până acum.",
+ 	 	 	 	"eng": "I'm Dexter, the developer of this game, and I am hoping to know your experience so far."
+ 	 	 	},
+ 	 	 	"title2": {
+ 	 	 	 	"trans": "Câte stele ați da?",
+ 	 	 	 	"eng": "How many stars would you give?"
+ 	 	 	},
+ 	 	 	"badReview": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Îmi pare atât de rău, vă rog să-mi spuneți unde mă pot îmbunătăți",
+ 	 	 	 	 	"eng": "I am so sorry, please let me know where I can improve"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"goodReview": {
+ 	 	 	 	"title1": {
+ 	 	 	 	 	"trans": "Wow mulțumesc atât de mult! im onorat, vă rugăm să faceți oficial lăsându-i pe pagina noastră de magazin :)",
+ 	 	 	 	 	"eng": "Wow thanks so much! im honored, please make it official by leaving them on our store page :)"
+ 	 	 	 	},
+ 	 	 	 	"title2": {
+ 	 	 	 	 	"trans": "Revizuirea dvs. bună mă va ajuta foarte mult și să aduc mai mulți jucători în comunitatea noastră!",
+ 	 	 	 	 	"eng": "Your good review is going to help me very and bring more players into our community!"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"dontAskMeAgain": {
+ 	 	 	 	"trans": "Nu mă întreba din nou",
+ 	 	 	 	"eng": "Don't ask me again"
+ 	 	 	},
+ 	 	 	"reviewLater": {
+ 	 	 	 	"trans": "Revizuiți mai târziu",
+ 	 	 	 	"eng": "review later"
+ 	 	 	}
  	 	}
  	},
  	"cosmetic": {
@@ -2756,6 +2918,13 @@
  	 	 	],
  	 	 	"trans": "${clanOccupationPoint} Controlul ocupației",
  	 	 	"eng": "${clanOccupationPoint} Occupation Control"
+ 	 	},
+ 	 	"globalQuestPoint": {
+ 	 	 	"vars": [
+ 	 	 	 	"globalQuestPoint"
+ 	 	 	],
+ 	 	 	"trans": "${globalQuestPoint} SL Cetatea de date breach progres",
+ 	 	 	"eng": "${globalQuestPoint} SL Data Fortress breach progress"
  	 	}
  	},
  	"cost": {
@@ -2780,6 +2949,14 @@
  	 	"UwU": {
  	 	 	"trans": "Chat Exploit [UWU]",
  	 	 	"eng": "Chat Exploit [UwU]"
+ 	 	},
+ 	 	"love": {
+ 	 	 	"trans": "Chat Exploit [Dragoste]",
+ 	 	 	"eng": "Chat Exploit [LOVE]"
+ 	 	},
+ 	 	"chatExploitProtect": {
+ 	 	 	"trans": "Criptare de chat",
+ 	 	 	"eng": "Chat Encryption"
  	 	}
  	},
  	"inventory": {

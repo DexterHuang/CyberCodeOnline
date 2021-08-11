@@ -1,6 +1,7 @@
 import { FileHelper } from "./FileHelper";
-import {Dungeon, ErrorRoom, DungeonValidator } from "./ValidateDungeons"
+import { Dungeon, ErrorRoom, DungeonValidator } from "./ValidateDungeons"
 import { StructurMaskUtils, StructureMaskLineNumbers } from "./StructurMaskUtils"
+import { ValidateLoreNote } from "./ValidateLoreNote";
 
 
 const paths = FileHelper.getAllFiles('./contribution').filter(fileName => fileName.endsWith('.json'));
@@ -28,7 +29,7 @@ const roomErrors = dungeonValidator.validateDungeons(mask.rooms);
 const bossRoomsErrors = dungeonValidator.validateDungeons(mask.bossRooms);
 
 if (roomErrors.length == 0 && bossRoomsErrors.length == 0) {
-    console.log('Dungeons validation complete.');
+  console.log('Dungeons validation complete.');
 }
 else {
   const structureMaskLineNumbers: StructureMaskLineNumbers = StructurMaskUtils.getStructureMaskLineNumbers(maskStr);
@@ -43,7 +44,7 @@ else {
 }
 function printDungeonErrorInfo(e: ErrorRoom, type: string, lineNumbers: number[]) {
   const lineNumber = lineNumbers[e.roomNumber];
-  console.log(JSON.stringify({type: type, roomNumber: e.roomNumber, lineNumber: lineNumber, message: e.message}));
+  console.log(JSON.stringify({ type: type, roomNumber: e.roomNumber, lineNumber: lineNumber, message: e.message }));
   console.log(dungeonToString(e));
   console.log('');
 }
@@ -53,3 +54,4 @@ function dungeonToString(errorRoom: ErrorRoom): string {
   const lines = StructurMaskUtils.chunkString(preparedArray.join(','), partSize * 15);
   return lines.join('\n');
 }
+ValidateLoreNote.start();

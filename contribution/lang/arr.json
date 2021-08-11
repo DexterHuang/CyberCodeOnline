@@ -1033,6 +1033,36 @@
  	 	 	 	"trans": "A shard stores default settings and algorithm for equipments, this is used for factory-resetting your equipments",
  	 	 	 	"eng": "A shard stores default settings and algorithm for equipments, this is used for factory-resetting your equipments"
  	 	 	}
+ 	 	},
+ 	 	"timeSkipPersonal": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Personal Synaptic Accelerator",
+ 	 	 	 	"eng": "Personal Synaptic Accelerator"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "When used, skip 60 minutes on AFK tasks.\r\n        must be used at AFK screen",
+ 	 	 	 	"eng": "When used, skip 60 minutes on AFK tasks.\r\n        must be used at AFK screen"
+ 	 	 	}
+ 	 	},
+ 	 	"chatExploitLove": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Chat exploit transmitter [Love]",
+ 	 	 	 	"eng": "Chat exploit transmitter [Love]"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "You get some love, and you get some love! everyone gets some love!.\r\n        When used everyone loves each other\r\n        This effects all players fow 10 minutes",
+ 	 	 	 	"eng": "You get some love, and you get some love! everyone gets some love!.\r\n        When used everyone loves each other\r\n        This effects all players fow 10 minutes"
+ 	 	 	}
+ 	 	},
+ 	 	"chatExploitProtect": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "CyberTunnel VPN",
+ 	 	 	 	"eng": "CyberTunnel VPN"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Worried the Big Brother spying on you while you browse the cyberspace?\r\n        your intercoms always get hacked by malicious attacks? \r\n        use CyberTunnel VPN to protect and encrypt your netrunning experience! \r\n        \r\n        Once activated, ignores any chat exploit for 1 hour",
+ 	 	 	 	"eng": "Worried the Big Brother spying on you while you browse the cyberspace?\r\n        your intercoms always get hacked by malicious attacks? \r\n        use CyberTunnel VPN to protect and encrypt your netrunning experience! \r\n        \r\n        Once activated, ignores any chat exploit for 1 hour"
+ 	 	 	}
  	 	}
  	},
  	"action": {
@@ -1164,6 +1194,16 @@
  	 	 	"description": {
  	 	 	 	"trans": "Bribe Government officials and SLPD and Collect Protection Fees from business owner and citizens in Shangri-lah. maybe you will get some EPIC items from them? (Top Two Gang Exclusive)",
  	 	 	 	"eng": "Bribe Government officials and SLPD and Collect Protection Fees from business owner and citizens in Shangri-lah. maybe you will get some EPIC items from them? (Top Two Gang Exclusive)"
+ 	 	 	}
+ 	 	},
+ 	 	"globalQuest": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Hack SL Data Fortress",
+ 	 	 	 	"eng": "Hack SL Data Fortress"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Launch a collaborated attack in cyberspace targeting the Shangri-La Data Fortress\r\n        if attack were to succeed its possible to force the Data Fortress to transmit exploits to all cybernetically connected users",
+ 	 	 	 	"eng": "Launch a collaborated attack in cyberspace targeting the Shangri-La Data Fortress\r\n        if attack were to succeed its possible to force the Data Fortress to transmit exploits to all cybernetically connected users"
  	 	 	}
  	 	}
  	},
@@ -1939,7 +1979,7 @@
  	 	 	},
  	 	 	"noKeysSubtitle": {
  	 	 	 	"trans": "You can obtain secrete key from Dungeons",
- 	 	 	 	"eng": "You can obtain secrete key from Dungeons"
+ 	 	 	 	"eng": "You can obtain secret keys from Dungeons"
  	 	 	}
  	 	},
  	 	"machineCrafting": {
@@ -2280,6 +2320,90 @@
  	 	 	 	 	"eng": "you will be muted if you use offensive or inappropriate names."
  	 	 	 	}
  	 	 	}
+ 	 	},
+ 	 	"timeSkip": {
+ 	 	 	"unitTimeSkipButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"timeSkipMinutes",
+ 	 	 	 	 	 	"timeSkipCost"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Global Skip (${timeSkipMinutes} Min, Cost ${timeSkipCost} Units)",
+ 	 	 	 	 	"eng": "Global Skip (${timeSkipMinutes} Min, Cost ${timeSkipCost} Units)"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\n    this effect will be applied to all player performing AFK task",
+ 	 	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\n    this effect will be applied to all player performing AFK task"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"itemTimeSkipButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemSkipMinutes"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Free time skip (${itemSkipMinutes} Min)",
+ 	 	 	 	 	"eng": "Free time skip (${itemSkipMinutes} Min)"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"timeSkipItemName",
+ 	 	 	 	 	 	"itemSkipMinutes"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Use one of your ${timeSkipItemName} to skip ${itemSkipMinutes} minutes",
+ 	 	 	 	 	"eng": "Use one of your ${timeSkipItemName} to skip ${itemSkipMinutes} minutes"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"inProgressBox": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Global Skip in progress",
+ 	 	 	 	 	"eng": "Global Skip in progress"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"skippingPlayerCount"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Accelerating ${skippingPlayerCount} users..",
+ 	 	 	 	 	"eng": "Accelerating ${skippingPlayerCount} users.."
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\n    this effect will be applied to all player performing AFK task",
+ 	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\n    this effect will be applied to all player performing AFK task"
+ 	 	 	}
+ 	 	},
+ 	 	"afkTask": {
+ 	 	 	"abort": {
+ 	 	 	 	"trans": "Abort",
+ 	 	 	 	"eng": "Abort"
+ 	 	 	}
+ 	 	},
+ 	 	"quest": {
+ 	 	 	"globalQuest": {
+ 	 	 	 	"progressTitle": {
+ 	 	 	 	 	"trans": "SL-Data Fortress Breach",
+ 	 	 	 	 	"eng": "SL-Data Fortress Breach"
+ 	 	 	 	},
+ 	 	 	 	"infoBox": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Cyberspace hacking in progress",
+ 	 	 	 	 	 	"eng": "Cyberspace hacking in progress"
+ 	 	 	 	 	},
+ 	 	 	 	 	"subtitle": {
+ 	 	 	 	 	 	"trans": "Join force with other Netrunners to breach the SL-Data Fortress to grant all players with buff",
+ 	 	 	 	 	 	"eng": "Join force with other Netrunners to breach the SL-Data Fortress to grant all players with buff"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"completeBox": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Breach operation completed",
+ 	 	 	 	 	 	"eng": "Breach operation completed"
+ 	 	 	 	 	},
+ 	 	 	 	 	"subtitle": {
+ 	 	 	 	 	 	"trans": "Remote exploit deploying, please wait...",
+ 	 	 	 	 	 	"eng": "Remote exploit deploying, please wait..."
+ 	 	 	 	 	}
+ 	 	 	 	}
+ 	 	 	}
  	 	}
  	},
  	"misc": {
@@ -2354,6 +2478,10 @@
  	 	"password": {
  	 	 	"trans": "Password",
  	 	 	"eng": "Password"
+ 	 	},
+ 	 	"close": {
+ 	 	 	"trans": "close",
+ 	 	 	"eng": "close"
  	 	}
  	},
  	"statsType": {
@@ -2713,6 +2841,40 @@
  	 	 	 	"trans": "${from} => ${to}",
  	 	 	 	"eng": "${from} => ${to}"
  	 	 	}
+ 	 	},
+ 	 	"review": {
+ 	 	 	"title1": {
+ 	 	 	 	"trans": "I'm Dexter, the developer of this game, and I am hoping to know your experience so far.",
+ 	 	 	 	"eng": "I'm Dexter, the developer of this game, and I am hoping to know your experience so far."
+ 	 	 	},
+ 	 	 	"title2": {
+ 	 	 	 	"trans": "How many stars would you give?",
+ 	 	 	 	"eng": "How many stars would you give?"
+ 	 	 	},
+ 	 	 	"badReview": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "I am so sorry, please let me know where I can improve",
+ 	 	 	 	 	"eng": "I am so sorry, please let me know where I can improve"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"goodReview": {
+ 	 	 	 	"title1": {
+ 	 	 	 	 	"trans": "Wow thanks so much! im honored, please make it official by leaving them on our store page :)",
+ 	 	 	 	 	"eng": "Wow thanks so much! im honored, please make it official by leaving them on our store page :)"
+ 	 	 	 	},
+ 	 	 	 	"title2": {
+ 	 	 	 	 	"trans": "Your good review is going to help me very and bring more players into our community!",
+ 	 	 	 	 	"eng": "Your good review is going to help me very and bring more players into our community!"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"dontAskMeAgain": {
+ 	 	 	 	"trans": "Don't ask me again",
+ 	 	 	 	"eng": "Don't ask me again"
+ 	 	 	},
+ 	 	 	"reviewLater": {
+ 	 	 	 	"trans": "review later",
+ 	 	 	 	"eng": "review later"
+ 	 	 	}
  	 	}
  	},
  	"cosmetic": {
@@ -2766,6 +2928,13 @@
  	 	 	],
  	 	 	"trans": "${clanOccupationPoint} Occupation Control",
  	 	 	"eng": "${clanOccupationPoint} Occupation Control"
+ 	 	},
+ 	 	"globalQuestPoint": {
+ 	 	 	"vars": [
+ 	 	 	 	"globalQuestPoint"
+ 	 	 	],
+ 	 	 	"trans": "${globalQuestPoint} SL Data Fortress breach progress",
+ 	 	 	"eng": "${globalQuestPoint} SL Data Fortress breach progress"
  	 	}
  	},
  	"statusEffect": {
@@ -2780,6 +2949,14 @@
  	 	"UwU": {
  	 	 	"trans": "Chat Exploit [UwU]",
  	 	 	"eng": "Chat Exploit [UwU]"
+ 	 	},
+ 	 	"love": {
+ 	 	 	"trans": "Chat Exploit [LOVE]",
+ 	 	 	"eng": "Chat Exploit [LOVE]"
+ 	 	},
+ 	 	"chatExploitProtect": {
+ 	 	 	"trans": "Chat Encryption",
+ 	 	 	"eng": "Chat Encryption"
  	 	}
  	},
  	"inventory": {
