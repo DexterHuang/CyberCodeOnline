@@ -60,6 +60,7 @@ Unfairissimo
 Wanna
 [Neshaiy](https://github.com/Neshaiy)
 [Sakura](https://github.com/lux-sakura)
+[Karl-B-Heintz](https://github.com/Karl-B-Heinz)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
