@@ -21,6 +21,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/08/15 v0.687**
+ * OPTIMIZATION - Reduced memory useage overal 
+ * OPTIMIZATION - Reduced chat message rendering time 
+ * FIX - Fixed incorrect inv slot count display
+ 
 ### **2021/08/12 v0.687**
  * OPTIMIZATION - Major improvement on inventory rendering speed
 
