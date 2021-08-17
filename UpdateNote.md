@@ -21,6 +21,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/08/17 v0.687**
+ * OPTIMIZATION - General optimization for faster loading
+ * OPTIMIZATION - Improved mail list rendering 
+
 ### **2021/08/15 v0.687**
  * OPTIMIZATION - Reduced memory useage overal 
  * OPTIMIZATION - Reduced chat message rendering time 
