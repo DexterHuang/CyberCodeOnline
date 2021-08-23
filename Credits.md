@@ -59,6 +59,7 @@ Unfairissimo
 [VerySmashing](https://github.com/VerySmashing)
 Wanna
 [Neshaiy](https://github.com/Neshaiy)
+[Sakura](https://github.com/lux-sakura)
 [Karl-B-Heintz](https://github.com/Karl-B-Heinz)
 
 ## Proofreading
@@ -66,6 +67,7 @@ Wanna
 [The_Wayfarrer](https://github.com/epixinvites)
 [Sans3108](https://github.com/sans3108)
 [Laani](https://github.com/Laani)
+[Sakura](https://github.com/lux-sakura)
 
 ## Lore
 [byakkozen](https://github.com/byakkozen)
@@ -117,6 +119,7 @@ Willbur
 Xalaram
 zomg
 [Vult](https://github.com/Vult-source)
+[Sakura](https://github.com/lux-sakura)
 
 ## Tutorial
 [alfaice](https://github.com/alfaice)
