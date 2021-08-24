@@ -15,13 +15,14 @@
 * Keep usernames family friendly
 * Advertising (global chat/discord/bio/gang motto) of Selling/Buying account/items for IRL money (both directly or indirectly) is not allowed
 * Tagging/mentioning people for fun or with no real purpose is not allowed, this is to prevent people from creating accounts just so they can tag them (doing so will also breach the "No exceesive alts" rule) 
+* Any illegal activities will get you insta banned, including but not limited to harrassing underage person in met in game
 
 ### Chat Rules
 * Chat is for everyone, no one is excluded unless you break these rules:
 * Politic, Religion, COVID topic is not banned, BUT be friendly, respectful to others opinion and non-offensive otherwise is deem breach of rules
 * Stay family friendly
 * Be kind
-* Don't be offensive/disrespectful/hostile/passive aggressive to any other players, no unfriendly message allowed in global chat
+* Don't be offensive/disrespectful/hostile/passive aggressive to any other players, no unfriendly message allowed in global chat, including but not limited to racists and homophobic comments
 * Don't:  
   - Spam  
   - Advertise other games 
