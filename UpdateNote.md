@@ -21,6 +21,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/08/27 v0.687**
+ * FIX - Fix some server-side bugs
+ * OPTIMIZATION - Improved chat message rendering
+
 ### **2021/08/24 v0.687**
  * NEW - Added @Moderators tag, only use it when moderator is needed urgently, (misuse of mentions and tags can get your banned/muted, please refer to rules)
 ### **2021/08/18 v0.687**
