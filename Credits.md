@@ -168,6 +168,7 @@ Satan
 [Skippayy](https://github.com/skippayyyy)
 [Tripplehelix](https://github.com/tripplehelix)
 [Veyrin](https://github.com/darkrevelations)
+[Sakura](https://github.com/lux-sakura)
 
 ## Tips
 [Archibaald](https://github.com/Archibaald-dev)

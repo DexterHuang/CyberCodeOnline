@@ -22,13 +22,13 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates 
 ### **2021/08/28 v0.687**
- * UI - Makes travel button loading background darker, so its easier to read the text
- * OPTIMIZATION - Background music should now load much faster, special on slower internet
- * UPDATE - Added sound for attack and being attacked, each weapon type has different sound
- * UPDATE - Added sound for button click interaction
+ * UI - Makes travel button loading background darker, so it's easier to read the text.
+ * OPTIMIZATION - Background music should now load faster, especially on slower internet.
+ * UPDATE - Added sound for attack and being attacked. Each weapon type has a different sound.
+ * UPDATE - Added sound for button click interaction.
  * UPDATE - Added new setting `endable sound effect`
- * UPDATE - Changed the old setting `disable background music` to `enable background music` to avoid confusion (backgroubd music will play until you disable this setting, this is expected)
- * FIX - Fixed after assigning quickslot some times it becomes unclickable for a short time
+ * UPDATE - Changed the old setting `disable background music` to `enable background music` to avoid confusion. (Background music will play until you disable this setting. This is expected)
+ * FIX - Sometimes after assigning a quickslot it becomes unclickable for a short time.
  
 ### **2021/08/27 v0.687**
  * FIX - Fix some server-side bugs
