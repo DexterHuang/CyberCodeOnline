@@ -27,7 +27,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  * UPDATE - Added sound for attack and being attacked, each weapon type has different sound
  * UPDATE - Added sound for button click interaction
  * UPDATE - Added new setting `endable sound effect`
- * UPDATE - Changed the old setting `disable background music` to `enable background music` to avoid confusion 
+ * UPDATE - Changed the old setting `disable background music` to `enable background music` to avoid confusion (backgroubd music will play until you disable this setting, this is expected)
  * FIX - Fixed after assigning quickslot some times it becomes unclickable for a short time
  
 ### **2021/08/27 v0.687**
