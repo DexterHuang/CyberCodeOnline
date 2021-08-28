@@ -21,6 +21,15 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/08/28 v0.687**
+ * UI - Makes travel button loading background darker, so its easier to read the text
+ * OPTIMIZATION - Background music should now load much faster, special on slower internet
+ * UPDATE - Added sound for attack and being attacked, each weapon type has different sound
+ * UPDATE - Added sound for button click interaction
+ * UPDATE - Added new setting `endable sound effect`
+ * UPDATE - Changed the old setting `disable background music` to `enable background music` to avoid confusion (backgroubd music will play until you disable this setting, this is expected)
+ * FIX - Fixed after assigning quickslot some times it becomes unclickable for a short time
+ 
 ### **2021/08/27 v0.687**
  * FIX - Fix some server-side bugs
  * OPTIMIZATION - Improved chat message rendering
