@@ -21,6 +21,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/08/30 v0.687**
+ * FIX - Fixed attack sound effect cannot be disabled via setting
+ * UI - Added simple enemy graphic on battle UI
+
 ### **2021/08/28 v0.687**
  * UI - Makes travel button loading background darker, so its easier to read the text
  * OPTIMIZATION - Background music should now load much faster, special on slower internet
