@@ -22,6 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates 
 ### **2021/08/30 v0.687**
+ * BUFF - Now common container will drop ‵Gang Supply Crate‵
  * FIX - Fixed attack sound effect cannot be disabled via setting
  * UI - Added simple enemy graphic on battle UI
 
