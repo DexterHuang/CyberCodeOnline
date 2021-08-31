@@ -61,6 +61,7 @@ Wanna
 [Neshaiy](https://github.com/Neshaiy)
 [Sakura](https://github.com/lux-sakura)
 [Karl-B-Heintz](https://github.com/Karl-B-Heinz)
+[Lordsem](https://github.com/Lordsem)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
