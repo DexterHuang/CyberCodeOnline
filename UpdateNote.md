@@ -22,8 +22,8 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates 
 ### **2021/09/09 v0.687**
- * BUFF - Now `SL Data fortress breah` task will no longer reset everyday
- * BUFF - Now `SL Data fortress breah` task will have chance to give `Calibration Precision (Common)` effect
+ * BUFF - Now `SL Data fortress breach` task will no longer reset everyday
+ * BUFF - Now `SL Data fortress breach` task will have chance to give `Calibration Precision (Common)` effect
  * BUFF - Now `Collect protection fee` task will have high chance of dropping `Locked containers`
  * BUFF - Now `Collect protection fee` allows to repeat maximun 2 times instead of 1 previously
 
