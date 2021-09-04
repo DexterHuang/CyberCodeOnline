@@ -22,7 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates 
 ### **2021/09/09 v0.687**
- * BUFF - Now `Collect protection fee` task will hive high chance of dropping `Locked containers`
+ * BUFF - Now `Collect protection fee` task will have high chance of dropping `Locked containers`
  * BUFF - Now `Collect protection fee` allows to repeat maximun 2 times instead of 1 previously
 
 ### **2021/09/02 v0.687**
