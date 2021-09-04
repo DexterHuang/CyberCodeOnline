@@ -21,6 +21,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/09/09 v0.687**
+ * BUFF - Now `Collect protection fee` task will hive high chance of dropping `Locked containers`
+ * BUFF - Now `Collect protection fee` allows to repeat maximun 2 times instead of 1 previously
+
 ### **2021/09/02 v0.687**
  * OPTIMIZATION - Server optimization and code clean up
  * UPDATE - if you have more then one donation active, the higher tier one will take priority (for example, from paypal + playstore)
