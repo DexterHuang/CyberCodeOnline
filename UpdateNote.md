@@ -21,6 +21,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/09/05 v0.687**
+ * UI - Added fixed tip on AFK screen explaining closing game will not interupt AFK process 
+
 ### **2021/09/04 v0.687**
  * BUFF - Now `SL Data fortress breach` task will no longer reset everyday
  * BUFF - Now `SL Data fortress breach` task will have chance to give `Calibration Precision (Common)` effect
