@@ -22,6 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates 
 ### **2021/09/05 v0.687**
+ * UI - Added filter in dungeon list to show only dungeons you can join
  * UI - Added fixed tip on AFK screen explaining closing game will not interupt AFK process 
 
 ### **2021/09/04 v0.687**
