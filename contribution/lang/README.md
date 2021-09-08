@@ -15,5 +15,5 @@
 3. Submit the PR, when your PR is approved, the translation will be live in 5 ~ 15 minutes automatically
 
 ## Simple Video Tutorial
-(https://youtu.be/u-fvMsyJKH4)https://youtu.be/u-fvMsyJKH4
+https://youtu.be/u-fvMsyJKH4
 If anyone has time to make a better one, please let me know :D
