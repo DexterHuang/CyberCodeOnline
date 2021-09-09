@@ -22,7 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates 
 ### **2021/09/09 v0.687**
- * UPDATE - Increased drop rate of `Locked Safe Box (Captcha)` and also added `Locked Container` to drop table
+ * UPDATE - Increased drop rate of `Locked Safe Box (Captcha)` on street fights and also added `Locked Container` to drop table
 
 ### **2021/09/07 v0.687**
  * UPDATE - Added `Cringe Kids Prevention Mesures (CKPM)` System will automatically detect Cringe Kids who wants to come troll and prevent them from sending chat message before they are level 5 prevent, also prevents players from deleting accounts as soon as it is created
