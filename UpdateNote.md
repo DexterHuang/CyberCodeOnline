@@ -21,6 +21,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/09/10 v0.687**
+ * UI - Added one more enemy image for combat UI
+
 ### **2021/09/09 v0.687**
  * UPDATE - Increased drop rate of `Locked Safe Box (Captcha)` on street fights and also added `Locked Container` to drop table
  * Android - Updated the apk file on Playstore, the file size is reduced from 7MB to 3MB
