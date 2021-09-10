@@ -22,6 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates 
 ### **2021/09/10 v0.687**
+ * UI - New backpack mechant image (previous one was too similar to Cyberpunk 2077's character)
  * UI - Added one more enemy image for combat UI
 
 ### **2021/09/09 v0.687**
