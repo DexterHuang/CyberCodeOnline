@@ -19,7 +19,7 @@
 
 ### Chat Rules
 * Chat is for everyone. No one is excluded unless you breach the following topics:
-* Politic, Religion, or COVID. While discussing COVID is not a bannable offence, be friendly, respectful to others opinion and non-offensive otherwise is deem breach of rules
+* While discussing Politic, Religion, or COVID is not a bannable offence, be friendly, respectful to others opinion and non-offensive otherwise is deem breach of rules
 * Stay family friendly
 * Be kind
 * Don't be offensive/disrespectful/hostile/passive aggressive to any other players. No unfriendly messages allowed in global chat -- including but not limited to -- racists and homophobic comments
