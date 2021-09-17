@@ -23,7 +23,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ## Updates 
 ### **2021/09/15 v0.687**
  * UPDATE - Rework background music system, now supports multiple track base on player location. 
- * UPDATE - Added new track for `Market` location, credits to @Sakura 💗
+ * UPDATE - Added new track for `Market` location, credits to [Sakura](https://cybercodeonline.com/player?playerName=Sakura) 💗
  
 ### **2021/09/10 v0.687**
  * UI - New backpack mechant image (previous one was too similar to Cyberpunk 2077's character)
