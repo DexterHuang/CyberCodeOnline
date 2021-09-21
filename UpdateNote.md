@@ -21,6 +21,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/09/21 v0.687**
+ * BUFF - Gang dungeon boss exp has been increased by 10%
+ * BUFF - Gang dungeon boss now drops more `Rare`+ items, also `Locked Container` now is also `Rare`+
+
 ### **2021/09/19 v0.687**
  * FIX - Fixed minor bug related to the new music system
  * FIX - Fixed multiple typo thanks to @Azure
