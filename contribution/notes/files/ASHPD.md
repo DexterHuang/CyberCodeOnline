@@ -1,3 +1,5 @@
+###### The story was brought to you by: Hafizdkren
+
 There was a gun that being made by scientist, It was nothing but a rumour.
 Some people believe that this devices is exist and be successfully breaktrought the boundaries of science, and some even say it was a bullshit that people think it exist.
 
