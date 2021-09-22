@@ -24,7 +24,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ### **2021/09/21 v0.687**
  * NEW - Added `Protocol Breach Shard`, drops in `Common Locked Container` and enemies 
  * BUFF - `Hack SL Data Fortress` now requires `Protocol Breach Shard` instead of `AI Core`
- * BUFF - Now recycling `Energy Cells` takes much less time
+ * BUFF - Now recycling `Ammo Tech Parts` takes much less time
 
 ### **2021/09/21 v0.687**
  * BUFF - Gang dungeon boss exp has been increased by 10%
