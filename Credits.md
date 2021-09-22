@@ -149,6 +149,7 @@ Crescent_Grey
 [DexterHuang](https://github.com/DexterHuang)
 FoxHunt
 [ghosted-bot](https://github.com/ghosted-bot)
+[Hafizdkren](https://github.com/hafizdkren)
 [Hally](https://twitter.com/g_hally1996)
 HumbleServant
 [JEricaM](https://github.com/JEricaM)
