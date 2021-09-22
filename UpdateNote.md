@@ -21,7 +21,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
-### **2021/09/21 v0.687**
+### **2021/09/21 v0.699**
+ * UPDATE - Daily reward will now reset after you have claimed all rewards
+ * UI - Daily reward interface is updated
  * NEW - Added `Protocol Breach Shard`, drops in `Common Locked Container` and enemies 
  * BUFF - `Hack SL Data Fortress` now requires `Protocol Breach Shard` instead of `AI Core`
  * BUFF - Now recycling `Ammo Tech Parts` takes much less time
