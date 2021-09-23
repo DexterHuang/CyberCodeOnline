@@ -1,4 +1,4 @@
-﻿> ##Cascade Conundrum
+﻿> Cascade Conundrum
 
 There was a distortion in the air, crispness harsher than an impending lightning strike that preceded the event of dimensional forces themselves being torn asunder, sands of time bleeding outward like faint echoes.
 
