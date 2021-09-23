@@ -21,7 +21,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
-### **2021/09/21 v0.699**
+### **2021/09/23 v0.699**
+ * UPDATE - Unit purchases with PayPal will now give 10% additional units 
+ * UI - Updated unit purchase UI
+
+### **2021/09/22 v0.699**
  * UPDATE - Daily reward will now reset after you have claimed all rewards
  * UI - Daily reward interface is updated
  * NEW - Added `Protocol Breach Shard`, drops in `Common Locked Container` and enemies 
