@@ -22,7 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates 
 ### **2021/09/27 v0.700**
- * UPDATE - Now `Destrutive Weapons` will deal reduced damage (50%) to enemy shield but `Special Weapons` will deal increased damage (20%) to enemy health, this is to encurage switching weapon and increase stratigical elements in the game
+ * UPDATE - Now `Destrutive Weapons` will deal reduced damage (50%) to enemy shield but `Special Weapons` will deal increased damage (20%) to enemy shield, this is to encurage switching weapon and increase stratigical elements in the game
  * NEW - Added `BERSERKER` enemies, this enemy has increased health, shield, damag and EXP. but is rarer to appear compare to other trait
  * UPDATE - Reduced gang creation cost from 100,000 to 50,000 btc
  * UI - Added color for trait enemy in street fight UI
