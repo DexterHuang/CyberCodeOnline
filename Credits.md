@@ -72,6 +72,7 @@ Wanna
 [Sakura](https://github.com/lux-sakura)
 
 ## Lore
+[Ayanna](https://github.com/JustACloud)
 [byakkozen](https://github.com/byakkozen)
 [bvcxz](https://github.com/bvcxz-cybercode)
 CeceCat
