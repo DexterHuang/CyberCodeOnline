@@ -21,6 +21,14 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/09/27 v0.700**
+ * UPDATE - Now `Destrutive Weapons` will deal reduced damage (50%) to enemy shield but `Energy Weapons` will deal increased damage (20%) to enemy health, this is to encurage switching weapon and increase stratigical elements in the game
+ * NEW - Added `BRESERKER` enemies, this enemy has increased health, shield, damag and EXP. but is rarer to appear compare to other trait
+ * UPDATE - Reduced gang creation cost from 100,000 to 50,000 btc
+ * UI - Added color for trait enemy in street fight UI
+ * UI - Added block prompt for newbiews trying to enter dungeon without having `Pain Away` in their inventory
+ * UI - Now players lower then level 10 cannot fight enemy that has level too much higher then the player in street fight, to prevent newbie from dying without knowing they need to fight lower level enemies 
+
 ### **2021/09/23 v0.699**
  * UPDATE - Unit purchases with PayPal will now give 10% additional units 
  * UI - Updated unit purchase UI
