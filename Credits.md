@@ -122,6 +122,7 @@ Xalaram
 zomg
 [Vult](https://github.com/Vult-source)
 [Sakura](https://github.com/lux-sakura)
+[Manz](https://github.com/manztellen)
 
 ## Tutorial
 [alfaice](https://github.com/alfaice)
