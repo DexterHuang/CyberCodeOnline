@@ -21,6 +21,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/09/28 v0.700**
+ * UPDATE - Merged multiple new dungeon design from github contribution 
+
 ### **2021/09/27 v0.700**
  * UPDATE - Now `Destructive Weapons` will deal reduced damage (50%) to enemy shield but `Special Weapons` will deal increased damage (20%) to enemy shield, this is to encurage switching weapon and increase stratigical elements in the game
  * NEW - Added `BERSERKER` enemies, this enemy has increased health, shield, damag and EXP. but is rarer to appear compare to other trait
