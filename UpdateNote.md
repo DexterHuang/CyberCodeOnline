@@ -22,7 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates 
 ### **2021/09/28 v0.700**
- * HELP NEEDED - Added new contributable content for item lore, if you are good at creative writing please feel free to help by adding interesting lore to be shown in items by editing this file -> https://github.com/DexterHuang/CyberCodeOnline/blob/master/contribution/item/lore.json
+ * HELP NEEDED - Added new contributable content for item lore, if you are good at creative writing please feel free to help by adding interesting lore to be shown in items by editing this file -> [https://github.com/DexterHuang/CyberCodeOnline/blob/master/contribution/item/lore.json](https://github.com/DexterHuang/CyberCodeOnline/blob/master/contribution/item/lore.json)
  * UPDATE - Merged multiple new dungeon design from github contribution 
  * NEW - Added more translable config to lang config on github
 
