@@ -22,6 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates 
 ### **2021/09/29 v0.700**
+ * NEW - Added item lore, all items have certain chance of having lore attach to it, all lores are contributed by players :)
  * NEW - You can now disable gift receiving, to prevent people from sending you unwanted items. this setting can be changed in setting menu
 
 ### **2021/09/28 v0.700**
