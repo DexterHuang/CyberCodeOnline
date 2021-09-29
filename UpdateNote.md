@@ -21,6 +21,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/09/29 v0.700**
+ * NEW - You can now disable gift receiving, to prevent people from sending you unwanted items. this setting can be changed in setting menu
+
 ### **2021/09/28 v0.700**
  * HELP NEEDED - Added new contributable content for item lore, if you are good at creative writing please feel free to help by adding interesting lore to be shown in items by editing this file -> [https://github.com/DexterHuang/CyberCodeOnline/blob/master/contribution/item/lore.json](https://github.com/DexterHuang/CyberCodeOnline/blob/master/contribution/item/lore.json)
  * UPDATE - Merged multiple new dungeon design from github contribution 
