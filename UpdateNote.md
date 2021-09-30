@@ -21,6 +21,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/09/30 v0.700**
+ * UPDATE - Now daily rewards will reset and allows you to claim again from the begining when you missed a day
+
 ### **2021/09/29 v0.700**
  * NEW - Added item lore, all items have certain chance of having lore attach to it, all lores are contributed by players :)
  * NEW - You can now disable gift receiving, to prevent people from sending you unwanted items. this setting can be changed in setting menu
