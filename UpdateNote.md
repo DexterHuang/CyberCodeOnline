@@ -22,6 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates 
 ### **2021/09/30 v0.700**
+ * UPDATE - Item lore now will show up when item quality is > 80, instead of random
  * UPDATE - Now daily rewards will reset and allows you to claim again from the begining when you missed a day
 
 ### **2021/09/29 v0.700**
