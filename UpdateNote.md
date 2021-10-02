@@ -21,6 +21,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/10/02 v0.700**
+ * FIX - Fixed Google Login asking for unused info from user (normal stuff like gender and such), this was caused by a bug in the liberary I used, CCO has never look at or track those infomation. Now it no longer ask those info :)
+
 ### **2021/09/30 v0.700**
  * UPDATE - Item lore now will show up when item quality is > 80, instead of random
  * UPDATE - Now daily rewards will reset and allows you to claim again from the begining when you missed a day
