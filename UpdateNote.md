@@ -22,6 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates 
 ### **2021/10/04 v0.700**
+ * NEW - You can now use your hardware back button on Android to go back to previous are on map tab
  * NEW - Added location indicator at map tab, you can see previous location at top of back button, hopfully will be less confusing for new players
  * NEW - Merged tons of contributed words from words.json
  * UPDATE - Added new words to translate in translation configs
