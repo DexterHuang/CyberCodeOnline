@@ -21,7 +21,8 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
-### **2021/10/04 v0.700**
+### **2021/10/04 v0.703**
+ * UPDATE - Removed 5 sec waiting time to go back to city directly
  * NEW - You can now use your hardware back button on Android to go back to previous are on map tab
  * NEW - Added location indicator at map tab, you can see previous location at top of back button, hopfully will be less confusing for new players
  * NEW - Merged tons of contributed words from words.json
