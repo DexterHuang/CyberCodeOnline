@@ -21,6 +21,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/10/04 v0.700**
+ * NEW - Added location indicator at map tab, you can see previous location at top of back button, hopfully will be less confusing for new players
+ * NEW - Merged tons of contributed words from words.json
+ * UPDATE - Added new words to translate in translation configs
+ 
 ### **2021/10/02 v0.700**
  * FIX - Fixed Google Login asking for unused info from user (normal stuff like gender and such), this was caused by a bug in the liberary I used, CCO has never look at or track those infomation. Now it no longer ask those info :)
 
