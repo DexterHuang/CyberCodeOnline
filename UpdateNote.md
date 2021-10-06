@@ -21,6 +21,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/10/06 v0.703**
+ * NEW - Now a level up screen will show up when your character level up
+ * NEW - Now a Victory screen will show up when you have defeated your enemy, showing how much exp and btc you earned from the fight
+
 ### **2021/10/04 v0.703**
  * UPDATE - Removed 5 sec waiting time to go back to city directly
  * NEW - You can now use your hardware back button on Android to go back to previous are on map tab
