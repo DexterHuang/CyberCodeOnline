@@ -70,6 +70,7 @@ Wanna
 [Sans3108](https://github.com/sans3108)
 [Laani](https://github.com/Laani)
 [Sakura](https://github.com/lux-sakura)
+[Kimi Leta](https://github.com/kimileta)
 
 ## Lore
 [Ayanna](https://github.com/JustACloud)
@@ -156,6 +157,7 @@ FoxHunt
 HumbleServant
 [JEricaM](https://github.com/JEricaM)
 Kaktusmonas
+[Kimi Leta](https://github.com/kimileta)
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)
 [Luako](https://github.com/luako)
 [MarcelWeidum](https://github.com/MarcelWeidum)
