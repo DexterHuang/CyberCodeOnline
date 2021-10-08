@@ -21,6 +21,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/10/08 v0.704**
+ * FIX - Fixed sometimes when dead on street fights, victory screen still shows up
+
 ### **2021/10/07 v0.703**
  * NEW - Added option to disable victory screen after combat
 
