@@ -1,8 +1,8 @@
 [A display is showing financial news]
 
-Today spotlight is on the biohazard accident that hit IntelliCo. Neural Implants Manufacturing Facility in Shangri-La Depot 33 district.
+Today's spotlight is on the biohazard accident that hit IntelliCo. Neural Implants Manufacturing Facility in Shangri-La Depot 33 district.
 
-Police is blaming human error, apparently originating from the company lax safety practices released an airborne nerve agent in the office building. 
+Police are blaming human error, apparently originating from the company's lax safety practices. As a result of company negligence, an airborne nerve agent was inadvertently released in the office building. 
 
 400 employees are dead, among them the whole research department. A serious blow for the rapidly growing company.
 

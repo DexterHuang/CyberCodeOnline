@@ -20,7 +20,7 @@ Elin began to make calculations in her head. A trauma team would be too aggressi
   
 Elin had known her brother would protest, but she also knew their love for their mother would win in the end.  
   
-"Goddammit bebo we can't do this right now. I want her to have the best."  
+"Goddammit, Bebo, we can't do this right now. I want her to have the best."  
   
 "And what? the best is your money? You can't throw money at everything Elin- You haven't even visited in months! And what you wanna swoop in now? " 
   

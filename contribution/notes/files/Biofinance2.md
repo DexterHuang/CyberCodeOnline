@@ -16,10 +16,10 @@ H: Cheng lǎobǎn, we currently hold close to 300 millions BTC in short position
 
 C: Mr. Xu?
 
-X: Shipment is ready at New Hangzou laboratory. The lab has been aquired through intermediaries, no paper trail.
+X: Shipment is ready at New Hangzou laboratory. The lab has been acquired through intermediaries, no paper trail.
 
 H: We took care of the financial aspect. We are in the clear.  
 
-X: Extra insurance has been bought on the plant, after the fire we will recoup most of the expenses. We have a direct line with the media to control the narrative. Police has been paid out.
+X: Extra insurance has been bought on the plant, after the fire we will recoup most of the expenses. We have a direct line with the media to control the narrative. Police have been paid out.
 
 C: Very well, please proceed as agreed. 
