@@ -6,7 +6,7 @@ Two blocks away, Finel held his breath and gently squeezed the trigger. The roun
 
 The elevator reached the 16th floor and didn't stop. The bridged safety circuit let the motors pull it into the headgear and then rip the cables from their mountings. And the mechanical safety wedges that would ordinarily have stopped it falling more than a metre or two had been removed for 'routine maintenance'.
 
-Finel heard the crash while packing away the last few bits and pieces. He thumbsed up without looking up and headed down to the street. Frank looked up as he quietly pushed through the door into Joe's, and slid a beer across the counter, grunting *"The AI said to put this on it's tab"*.
+Finel heard the crash while packing away the last few bits and pieces. He thumbsed up without looking up and headed down to the street. Frank looked up as he quietly pushed through the door into Joe's, and slid a beer across the counter, grunting *"The AI said to put this on its tab"*.
 
 *"DOGES runs a tab ??"*  
 *"Any day now damn thing's going to in here crying into's pretzels on a Friday night like the rest of ya"*  
