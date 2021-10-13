@@ -2,7 +2,7 @@
 
 **CyberCode Online** is currently under an early and heavy development stage, which means many changes and new features are being added every day! That also means many stats are being adjusted all the time. So, if you have anything to suggest, feel free to [create an issue](https://github.com/DexterHuang/CyberCodeOnline/issues) or join our [Discord server](https://discord.link/cco).
 
-Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee.com/cybercodeonline) or [subscibe to my Patreon](https://www.patreon.com/cybercodeonline/).
+Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee.com/cybercodeonline) or [subscribe to my Patreon](https://www.patreon.com/cybercodeonline/).
 
 ### Help Needed:
  * contribution/words.json - Random Words
@@ -21,6 +21,133 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/10/13 v0.704**
+ * UPDATE - Moved `Calibaration Station` to city center, so it is easier for newbies to notice
+ * UI - Added animation to login page background
+
+### **2021/10/12 v0.704**
+ * FIX - Fixed that sounds effects will not pause music playing on devices (like spotify), background music will still pauses spotify but sound effects wont 
+
+### **2021/10/10 v0.704**
+ * FIX - Fixed level up screen showing incorrect level
+ 
+### **2021/10/08 v0.704**
+ * FIX - Fixed sometimes when dead on street fights, victory screen still shows up
+
+### **2021/10/07 v0.703**
+ * NEW - Added option to disable victory screen after combat
+
+### **2021/10/06 v0.703**
+ * NEW - Now a level up screen will show up when your character level up
+ * NEW - Now a Victory screen will show up when you have defeated your enemy, showing how much exp and btc you earned from the fight
+
+### **2021/10/04 v0.703**
+ * UPDATE - Removed 5 sec waiting time to go back to city directly
+ * NEW - You can now use your hardware back button on Android to go back to previous are on map tab
+ * NEW - Added location indicator at map tab, you can see previous location at top of back button, hopfully will be less confusing for new players
+ * NEW - Merged tons of contributed words from words.json
+ * UPDATE - Added new words to translate in translation configs
+ 
+### **2021/10/02 v0.700**
+ * FIX - Fixed Google Login asking for unused info from user (normal stuff like gender and such), this was caused by a bug in the liberary I used, CCO has never look at or track those infomation. Now it no longer ask those info :)
+
+### **2021/09/30 v0.700**
+ * UPDATE - Item lore now will show up when item quality is > 80, instead of random
+ * UPDATE - Now daily rewards will reset and allows you to claim again from the begining when you missed a day
+
+### **2021/09/29 v0.700**
+ * NEW - Added item lore, all items have certain chance of having lore attach to it, all lores are contributed by players :)
+ * NEW - You can now disable gift receiving, to prevent people from sending you unwanted items. this setting can be changed in setting menu
+
+### **2021/09/28 v0.700**
+ * HELP NEEDED - Added new contributable content for item lore, if you are good at creative writing please feel free to help by adding interesting lore to be shown in items by editing this file -> [https://github.com/DexterHuang/CyberCodeOnline/blob/master/contribution/item/lore.json](https://github.com/DexterHuang/CyberCodeOnline/blob/master/contribution/item/lore.json)
+ * UPDATE - Merged multiple new dungeon design from github contribution 
+ * NEW - Added more translable config to lang config on github
+
+### **2021/09/27 v0.700**
+ * UPDATE - Now `Destructive Weapons` will deal reduced damage (50%) to enemy shield but `Special Weapons` will deal increased damage (20%) to enemy shield, this is to encurage switching weapon and increase stratigical elements in the game
+ * NEW - Added `BERSERKER` enemies, this enemy has increased health, shield, damag and EXP. but is rarer to appear compare to other trait
+ * UPDATE - Reduced gang creation cost from 100,000 to 50,000 btc
+ * UI - Added color for trait enemy in street fight UI
+ * UI - Added block prompt for newbiews trying to enter dungeon without having `Pain Away` in their inventory
+ * UI - Now players lower then level 10 cannot fight enemy that has level too much higher then the player in `Nearby Enemies`, to prevent newbie from dying without knowing they need to fight lower level enemies 
+
+### **2021/09/23 v0.699**
+ * UPDATE - Unit purchases with PayPal will now give 10% additional units 
+ * UI - Updated unit purchase UI
+
+### **2021/09/22 v0.699**
+ * UPDATE - Daily reward will now reset after you have claimed all rewards
+ * UI - Daily reward interface is updated
+ * NEW - Added `Protocol Breach Shard`, drops in `Common Locked Container` and enemies 
+ * BUFF - `Hack SL Data Fortress` now requires `Protocol Breach Shard` instead of `AI Core`
+ * BUFF - Now recycling `Ammo Tech Parts` takes much less time
+
+### **2021/09/21 v0.687**
+ * BUFF - Gang dungeon boss exp has been increased by 10%
+ * BUFF - Gang dungeon boss now drops more `Rare`+ items, also `Locked Container` now is also `Rare`+
+
+### **2021/09/19 v0.687**
+ * FIX - Fixed minor bug related to the new music system
+ * FIX - Fixed multiple typo thanks to @Azure
+
+### **2021/09/15 v0.687**
+ * UPDATE - Rework background music system, now supports multiple track base on player location. 
+ * UPDATE - Added new track for `Market` location, credits to [Sakura](https://cybercodeonline.com/player?playerName=Sakura) 💗
+ 
+### **2021/09/10 v0.687**
+ * UI - New backpack mechant image (previous one was too similar to Cyberpunk 2077's character)
+ * UI - Added one more enemy image for combat UI
+
+### **2021/09/09 v0.687**
+ * UPDATE - Increased drop rate of `Locked Safe Box (Captcha)` on street fights and also added `Locked Container` to drop table
+ * Android - Updated the apk file on Playstore, the file size is reduced from 7MB to 3MB
+
+### **2021/09/07 v0.687**
+ * UPDATE - Added `Cringe Kids Prevention Mesures (CKPM)` System will automatically detect Cringe Kids who wants to come troll and prevent them from sending chat message before they are level 5 prevent, also prevents players from deleting accounts as soon as it is created
+ * UPDATE - System auto mute for spam will no longer announce on global chat
+
+### **2021/09/05 v0.687**
+ * UI - Added filter in dungeon list to show only dungeons you can join
+ * UI - Added fixed tip on AFK screen explaining closing game will not interupt AFK process 
+
+### **2021/09/04 v0.687**
+ * BUFF - Now `SL Data fortress breach` task will no longer reset everyday
+ * BUFF - Now `SL Data fortress breach` task will have chance to give `Calibration Precision (Common)` effect
+ * BUFF - Now `Collect protection fee` task will have high chance of dropping `Locked containers`
+ * BUFF - Now `Collect protection fee` allows to repeat maximun 2 times instead of 1 previously
+
+### **2021/09/02 v0.687**
+ * OPTIMIZATION - Server optimization and code clean up
+ * UPDATE - if you have more then one donation active, the higher tier one will take priority (for example, from paypal + playstore)
+### **2021/08/30 v0.687**
+ * FIX - Fixed after crafting any backpack if equppting the same backpack, the new backpack will not show up untill you unequip your current backpack
+ * BUFF - Now common container will drop ‵Gang Supply Crate‵
+ * FIX - Fixed attack sound effect cannot be disabled via setting
+ * UI - Added simple enemy graphic on battle UI
+
+### **2021/08/28 v0.687**
+ * UI - Makes travel button loading background darker, so it's easier to read the text.
+ * OPTIMIZATION - Background music should now load faster, especially on slower internet.
+ * UPDATE - Added sound for attack and being attacked. Each weapon type has a different sound.
+ * UPDATE - Added sound for button click interaction.
+ * UPDATE - Added new setting `endable sound effect`
+ * UPDATE - Changed the old setting `disable background music` to `enable background music` to avoid confusion. (Background music will play until you disable this setting. This is expected)
+ * FIX - Sometimes after assigning a quickslot it becomes unclickable for a short time.
+ 
+### **2021/08/27 v0.687**
+ * FIX - Fix some server-side bugs
+ * OPTIMIZATION - Improved chat message rendering
+
+### **2021/08/24 v0.687**
+ * NEW - Added @Moderators tag, only use it when moderator is needed urgently, (misuse of mentions and tags can get your banned/muted, please refer to rules)
+### **2021/08/18 v0.687**
+ * FIX - Fixed time skip estimated time and cost is incorrect (just display issue, deduction was correct)
+
+### **2021/08/17 v0.687**
+ * OPTIMIZATION - General optimization for faster loading
+ * OPTIMIZATION - Improved mail list rendering 
+
 ### **2021/08/15 v0.687**
  * OPTIMIZATION - Reduced memory useage overal 
  * OPTIMIZATION - Reduced chat message rendering time 

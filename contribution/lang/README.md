@@ -13,3 +13,8 @@
 - `eng` 		-> pre-generated english text for reference, do not change it
 - `vars` 		-> list of variable available for this translation, a example would be `the price is ${cost} dollar` when the var is `["cost"]`. also for reference only, do not change this
 3. Submit the PR, when your PR is approved, the translation will be live in 5 ~ 15 minutes automatically
+
+## Simple Video Tutorial
+https://youtu.be/u-fvMsyJKH4
+
+If anyone has time to make a better one, please let me know :D

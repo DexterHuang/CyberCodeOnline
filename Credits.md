@@ -16,6 +16,7 @@ Unca_Feddit
 
 ## Music
 [CMDR7](https://github.com/cmdr7)
+[Sakura](https://github.com/lux-sakura)
 
 ## Art
 [l33t4ng3l](https://github.com/l33t4ng3l)
@@ -59,15 +60,20 @@ Unfairissimo
 [VerySmashing](https://github.com/VerySmashing)
 Wanna
 [Neshaiy](https://github.com/Neshaiy)
+[Sakura](https://github.com/lux-sakura)
 [Karl-B-Heintz](https://github.com/Karl-B-Heinz)
+[Lordsem](https://github.com/Lordsem)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
 [The_Wayfarrer](https://github.com/epixinvites)
 [Sans3108](https://github.com/sans3108)
 [Laani](https://github.com/Laani)
+[Sakura](https://github.com/lux-sakura)
+[Kimi Leta](https://github.com/kimileta)
 
 ## Lore
+[Ayanna](https://github.com/JustACloud)
 [byakkozen](https://github.com/byakkozen)
 [bvcxz](https://github.com/bvcxz-cybercode)
 CeceCat
@@ -117,6 +123,8 @@ Willbur
 Xalaram
 zomg
 [Vult](https://github.com/Vult-source)
+[Sakura](https://github.com/lux-sakura)
+[Manz](https://github.com/manztellen)
 
 ## Tutorial
 [alfaice](https://github.com/alfaice)
@@ -144,10 +152,12 @@ Crescent_Grey
 [DexterHuang](https://github.com/DexterHuang)
 FoxHunt
 [ghosted-bot](https://github.com/ghosted-bot)
+[Hafizdkren](https://github.com/hafizdkren)
 [Hally](https://twitter.com/g_hally1996)
 HumbleServant
 [JEricaM](https://github.com/JEricaM)
 Kaktusmonas
+[Kimi Leta](https://github.com/kimileta)
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)
 [Luako](https://github.com/luako)
 [MarcelWeidum](https://github.com/MarcelWeidum)
@@ -165,6 +175,7 @@ Satan
 [Skippayy](https://github.com/skippayyyy)
 [Tripplehelix](https://github.com/tripplehelix)
 [Veyrin](https://github.com/darkrevelations)
+[Sakura](https://github.com/lux-sakura)
 
 ## Tips
 [Archibaald](https://github.com/Archibaald-dev)

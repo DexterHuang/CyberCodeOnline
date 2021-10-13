@@ -1,4 +1,4 @@
-# How to add new entry of note
+# How to add new note entry
 
 1. Create a new Markdown file with sensible name with dash-case in the files directory
 2. Add the new file name (without '.md') to index.json
@@ -6,6 +6,6 @@
 4. ????
 5. Profit
 
-# Usefull Resourse 
+# Useful Resource 
 
 - Markdown Editor: https://stackedit.io/app#
