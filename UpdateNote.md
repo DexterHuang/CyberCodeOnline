@@ -21,6 +21,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates 
+### **2021/10/13 v0.704**
+ * UPDATE - Moved `Calibaration Station` to city center, so it is easier for newbies to notice
+ * UI - Added animation to login page background
+
 ### **2021/10/12 v0.704**
  * FIX - Fixed that sounds effects will not pause music playing on devices (like spotify), background music will still pauses spotify but sound effects wont 
 
