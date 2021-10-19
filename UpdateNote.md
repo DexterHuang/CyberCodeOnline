@@ -20,7 +20,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
-## Updates 
+## Updates  
+### **2021/10/19 v0.704**
+ * UI - Hides locked NPC for new players to avoid confusion
+ * UI - Now travel options that is locked will show red text below 
+
 ### **2021/10/13 v0.704**
  * UPDATE - Moved `Calibaration Station` to city center, so it is easier for newbies to notice
  * UI - Added animation to login page background
