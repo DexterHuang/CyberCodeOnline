@@ -1,6 +1,8 @@
 >[Part 1 of 8 of BioFinance series]  
 
 [A crumpled sheet catches your attention. It's a bill of lading for some sort of delivery.]  
+
+![EdgeRunner Biocouriers Corporation](/resources/lore/edgerunnerbiocorp.png)
   
 **CONSIGNEE:**  
 IntelliCo. Neural Implants Manufacturing Facility - Depot 33. Shangri-La.
