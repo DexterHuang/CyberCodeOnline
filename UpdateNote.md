@@ -22,6 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates  
 ### **2021/10/20 v0.708**
+ * UI - Now selecting amount when purchasing item from market will default and max to the max amount you could buy 
  * UI - Added NPC image for calibration station
 
 ### **2021/10/19 v0.704**
