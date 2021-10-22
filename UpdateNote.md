@@ -21,6 +21,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates  
+### **2021/10/22 v0.708**
+ * FIX - Fixed in some case daily reward cannot be claimed untill you have killed an enemy or moved location, even when the UI shows it as available
+
 ### **2021/10/20 v0.708**
  * FIX - Fixed daily reward not register if your phone does not remove the game from background (can happen with devices with alots of RAM like high-end android phone), now server will register your daily on any interaction (except for chat)
  * UI - Now selecting amount when purchasing item from market will default and max to the max amount you could buy 
