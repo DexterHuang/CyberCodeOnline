@@ -21,6 +21,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates  
+### **2021/10/24 v0.710**
+ * UPDATE - Now you can select the amount of item you want to deposit to the bank vault 
+
 ### **2021/10/22 v0.708**
  * FIX - Fixed in some case daily reward cannot be claimed untill you have killed an enemy or moved location, even when the UI shows it as available
 
