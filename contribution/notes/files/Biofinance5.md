@@ -1,5 +1,7 @@
 >[Part 5 of 8 of BioFinance series]  
 
+![EdgeRunner holo](/resources/lore/edgerunner%20holo.png)
+
 [A black-market advertising holocube. Someone forgot to turn encryption back on]
 
 2-HOUR GUARANTEED DELIVERY OF CRITICAL DOCUMENTS AND PARCELS WORLDWIDE. NO QUESTIONS ASKED.
