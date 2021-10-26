@@ -22,6 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates    
 ### **2021/10/26 v0.710**
+ * FIX - Fixed AFK time display wrongly after finished a AFK task previously
  * NEW - Added dungeon scavange scenario, a short text will appear whenever you loot the "crates" in dungeon, the content is contributable, please see [here](https://github.com/DexterHuang/CyberCodeOnline/blob/master/contribution/scenario/enemy-drop.json)
  * NEW - Added enemy drop scenario, a short text will appear whenever enemy dies and drops item, the content is completly contributable, please check [here](https://github.com/DexterHuang/CyberCodeOnline/blob/master/contribution/scenario/dungeon-crate.json)
  * UI - Updated looting interface
