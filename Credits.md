@@ -71,6 +71,7 @@ Wanna
 [Laani](https://github.com/Laani)
 [Sakura](https://github.com/lux-sakura)
 [Kimi Leta](https://github.com/kimileta)
+[Yahishiro](https://github.com/Yahishiro)
 
 ## Lore
 [Ayanna](https://github.com/JustACloud)
@@ -176,6 +177,7 @@ Satan
 [Tripplehelix](https://github.com/tripplehelix)
 [Veyrin](https://github.com/darkrevelations)
 [Sakura](https://github.com/lux-sakura)
+[Yahishiro](https://github.com/Yahishiro)
 
 ## Tips
 [Archibaald](https://github.com/Archibaald-dev)
