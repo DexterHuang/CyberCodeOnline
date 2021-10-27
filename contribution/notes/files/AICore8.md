@@ -1,6 +1,6 @@
 *[You find a textbook and flip to a random page.]*
 
-![AI Textbook](/resources/lore/textbookAI440.png)
+![AI Textbook](/resources/lore/textbookAI2.png)
 
 # Coexisting With an AI in Your Brain
 > (Part 8 of 8 aicore series)
