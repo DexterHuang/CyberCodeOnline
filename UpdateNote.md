@@ -21,6 +21,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates    
+### **2021/10/27 v0.710**
+ * NEW - Added background music for dungeon 
+
 ### **2021/10/26 v0.710**
  * FIX - Fixed AFK time display wrongly after finished a AFK task previously
  * NEW - Added dungeon scavange scenario, a short text will appear whenever you loot the "crates" in dungeon, the content is contributable, please see [here](https://github.com/DexterHuang/CyberCodeOnline/blob/master/contribution/scenario/enemy-drop.json)
