@@ -1,5 +1,5 @@
 *[You pull a textbook from a shelf and flip to a random page.]*  
-![World Government: an Introduction](/resources/lore/textbookgov25.png)
+![World Government: an Introduction](/resources/lore/textbookgov2.png)
 
 # The Dawn of a Unified Global Government
 > (Part 4 of 6 WGO Series)
