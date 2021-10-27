@@ -1,3 +1,6 @@
+*[You pull a textbook from a shelf and flip to a random page.]*  
+![World Government: an Introduction](/resources/lore/textbookgov25.png)
+
 # Proponents of the Unified Global Government
 > (Part 2 of 6 WGO Series)
 
