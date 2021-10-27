@@ -1,3 +1,6 @@
+*[You find a textbook and flip to a random page.]*
+
+![AI Textbook](/resources/lore/textbookAI440.png)
 # Breaking the Barrier of Human Multitasking
 > (Part 7 of 8 aicore series)
 
