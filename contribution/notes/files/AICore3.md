@@ -1,6 +1,6 @@
 *[You find a textbook and flip to a random page.]*
 
-![AI Textbook](/resources/lore/textbookAI440.png)
+![AI Textbook](/resources/lore/textbookAI2.png)
 # The Invention of Cerebral Acceleration
 > (Part 3 of 8 aicore series)
 
