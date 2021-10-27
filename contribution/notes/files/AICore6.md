@@ -1,3 +1,6 @@
+*[You find a textbook and flip to a random page.]*
+
+![AI Textbook](/resources/lore/textbookAI440.png)
 # Auto Pilot for the Human Brain
 > (Part 6 of 8 aicore series)
 
