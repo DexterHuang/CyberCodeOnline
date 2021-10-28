@@ -1,3 +1,8 @@
+*[You pull a textbook from a shelf and flip to a random page.]*  
+![World Government: an Introduction](/resources/lore/textbookgov25.png)
+
+*[Something about this page seems... off. The font and design aren't quite the same as the other pages, and it almost seems like... ah! A sticker with a large block of text has been affixed to one of the pages, seemingly covering up whatever was previously written. Whoever placed it there did it with professional efficacy, too - there's no way you could peel it off and find out what the original text said.]*
+
 # Life Under the Rule of a Unified Global Government
 > (Part 5 of 6 WGO Series)
 

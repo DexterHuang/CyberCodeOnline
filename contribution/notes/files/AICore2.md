@@ -1,4 +1,7 @@
-# The Brain Computer Interface Perfected
+*[You find a textbook and flip to a random page.]*
+
+![AI Textbook](/resources/lore/textbookAI440.png)
+# The Brain-Computer Interface Perfected
 > (Part 2 of 8 aicore series)
 
 A brain–computer interface (BCI) is a direct communication pathway between an enhanced or wired brain and an external device. BCIs are often directed at researching, augmenting, or repairing human cognitive or sensory-motor functions. 

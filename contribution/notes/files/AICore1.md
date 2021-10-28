@@ -1,3 +1,6 @@
+*[You find a textbook and flip to a random page.]*
+
+![AI Textbook](/resources/lore/textbookAI440.png)
 # Mass Adoption of AI in Daily Life
 > (Part 1 of 8 aicore series)
 
