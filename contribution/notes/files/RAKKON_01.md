@@ -1,6 +1,6 @@
 
-_You find a datapad with an Audiolog file pulled up._
-
+_You find a datapad with an Audiolog file pulled up._  
+![Audiolog datapad](/resources/lore/dpad1@0.25x.png)  
 [Recovered Data Entry - Audiolog of Billy Braxton - Scav]
 
 **START OF AUDIOLOG**
