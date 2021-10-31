@@ -21,6 +21,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates    
+### **2021/10/31 v0.710**
+ * UI - Reduced space taken by buttons at looting UI, so phone with smaller screen will have easier time seeing stuff
+ * UI - Disabled pull to refresh at inventory and street fight screen
+
 ### **2021/10/27 v0.710**
  * NEW - Added background music for dungeon 
 
