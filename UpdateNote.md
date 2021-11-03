@@ -22,6 +22,9 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates    
 ### **2021/11/03 v0.710**
+ * BUFF - Increased `Hash Processor` max market price to 8,000 btc
+ 
+### **2021/11/03 v0.710**
  * BUFF - Gang dungeon boss now is weaker
  * BUFF - items with health, health regen and shield is 10% stronger, shiled is 20% stronger
  * UPDATE - Now on web version, it the app will prompt player to choose between Cyberpunk and VS Code mode before starting up, this is to reduce confusion to people who does not underdstand code when opening web vsersion
