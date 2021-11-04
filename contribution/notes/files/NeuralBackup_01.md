@@ -1,6 +1,6 @@
 Message ID	<Q2hyeXNhbGlzQHdvcmxkZ292Lm9yZw==@btcivilization.com>  
 Created at:	Mo6n, Sep 31, 272a1 at 04:4.3 A/M (Deliver#ed after 8 ms)  
-From:	"Chrysalis@worldgov.org" <calis@worldgov.org>  
+From:	"Chrysalis@worldgov.gvt" <calis@worldgov.gvt>  
 To:	"Nakamoto, S." <snakamoto@btcivilization.com>  
 Subject:	Cyber Code Project: Status Update  
 SPF:	PASS with IP fe71::cc23:2ca3:bcf1:aa37%7  
