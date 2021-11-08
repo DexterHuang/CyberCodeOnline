@@ -21,6 +21,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates    
+### **2021/11/08 v0.715**
+ * BUFF - Gang dungeon now will drop more `Medical Tech Scrap` amount increases base on dungeon level
+ * UI - Minor adjustment on enemy drop and dungeon crate lore UI
+
 ### **2021/11/04 v0.710**
  * BUFF - Increased `Hash Processor` max market price to 8,000 btc
  
