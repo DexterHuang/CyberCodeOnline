@@ -21,6 +21,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates    
+### **2021/11/11 v0.718**
+ * UPDATE - You can now send respect (similar to likes/heart) to skipper while skip is active, when sending respect you will also automatically enter lottery, and have rare chance to earn rewards ranging from 100 `AI Cores` to `Explorer's Backpack` and `Legendary Container` (the faster you click, the higher chance you have). This feature can be disabled in the setting menu
+ * BUFF - Attack timing bar now maximun give you +10% + 16 flat damage
+ 
 ### **2021/11/09 v0.715**
  * BUFF - Gang dungeon enenmy will also drop more `Medical Tech Scrap` amount increases base on dungeon level
 ### **2021/11/08 v0.715**
