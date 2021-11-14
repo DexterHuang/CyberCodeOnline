@@ -21,7 +21,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates    
-### **2021/11/11 v0.718**
+### **2021/11/14 v0.718**
+ * OPTIMIZATION - Fixed spkie lag when clicking skip respect heart button 
+ * UPDATE - Increased chance of winning lottery when clicking respect heart, also added rare `EPIC` item drop.
+ 
+### **2021/11/12 v0.718**
  * UPDATE - You can now send respect (similar to likes/heart) to skipper while skip is active, when sending respect you will also automatically enter lottery, and have rare chance to earn rewards ranging from 100 `AI Cores` to `Explorer's Backpack` and `Legendary Container` (the faster you click, the higher chance you have). This feature can be disabled in the setting menu
  * BUFF - Attack timing bar now maximun give you +10% + 16 flat damage
  
