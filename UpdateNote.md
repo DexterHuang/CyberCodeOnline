@@ -21,6 +21,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates    
+### **2021/11/16 v0.718**
+ * NEW - `Amadon` button added to AFK screen, you can use it to View market items, but it is stricly Look but don't touch policy
+ * OPTIMIZATION - Skip heart performance improvement
+
 ### **2021/11/15 v0.718**
  * OPTIMIZATION - Performance improvement
 
