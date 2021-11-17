@@ -21,6 +21,12 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates    
+### **2021/11/17 v0.718**
+ * UPDATE - Added more Unit purchase tiers (only on browser with PayPal)
+ * UI - Updated Unit purchase UI
+ * UI - Updated item details page UI
+ * LANG - Added more langauge translation configs
+
 ### **2021/11/16 v0.718**
  * UI - You can now see player level on chat messages
  * FIX - Now the game will "fail gracefully" when the device does not support webgl, those device wont crash but cannot display skip hearts
