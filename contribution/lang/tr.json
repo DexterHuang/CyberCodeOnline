@@ -33,7 +33,7 @@
  	 	 	},
  	 	 	"canAccessError": {
  	 	 	 	"trans": "Birim değişimine erişmek için en az 5. seviyede olmalısınız",
- 	 	 	 	"eng": "You need to be at least level 5 to access unit exchange"
+ 	 	 	 	"eng": "You need to be at least level 3 to access unit exchange"
  	 	 	}
  	 	},
  	 	"cosmetic": {
@@ -47,7 +47,7 @@
  	 	 	},
  	 	 	"canAccessError": {
  	 	 	 	"trans": "Kozmetik satıcısına erişmek için en az 5. seviyede olmalısınız",
- 	 	 	 	"eng": "You need to be at least level 5 to access cosmetic merchant"
+ 	 	 	 	"eng": "You need to be at least level 3 to access cosmetic merchant"
  	 	 	}
  	 	},
  	 	"printer": {
@@ -108,6 +108,10 @@
  	 	 	"description": {
  	 	 	 	"trans": "Gerekli araçlara sahip bir tezgah, ekipmanınızı geliştirmenizi sağlar.",
  	 	 	 	"eng": "A workbench with the necessary tools allows you to tinker with your equipment."
+ 	 	 	},
+ 	 	 	"canAccessError": {
+ 	 	 	 	"trans": "Kalibrasyon istasyonuna erişmek için en az 10 seviye 10 olmalısınız",
+ 	 	 	 	"eng": "You need to be at least level 10 to access Calibration Station"
  	 	 	}
  	 	},
  	 	"storageMerchant": {
@@ -143,6 +147,21 @@
  	 	 	],
  	 	 	"trans": "Şunları aldın: ${amount} ${itemName}",
  	 	 	"eng": "You received ${amount} ${itemName}"
+ 	 	},
+ 	 	"money": {
+ 	 	 	"vars": [
+ 	 	 	 	"money"
+ 	 	 	],
+ 	 	 	"trans": "${money} BTC aldı",
+ 	 	 	"eng": "You received ${money} BTC"
+ 	 	},
+ 	 	"exp": {
+ 	 	 	"vars": [
+ 	 	 	 	"amount",
+ 	 	 	 	"levelName"
+ 	 	 	],
+ 	 	 	"trans": "${amount} ${levelName} deneyim noktalarını aldın",
+ 	 	 	"eng": "You received ${amount} ${levelName} experience points"
  	 	}
  	},
  	"levelType": {
@@ -1446,6 +1465,20 @@
  	 	 	"travel": {
  	 	 	 	"trans": "Seyahat",
  	 	 	 	"eng": "Travel"
+ 	 	 	},
+ 	 	 	"hiddenNpcTip": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"hiddenCount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${hiddenCount} Daha fazla etkileşim, bu konumda kilidini açabilir, onları kilidini açmak için.",
+ 	 	 	 	"eng": "${hiddenCount} more interactables can be unlocked at this location, level up to unlock them."
+ 	 	 	},
+ 	 	 	"travelHiddenLinks": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"hiddenCount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${hiddenCount} Daha fazla seyahat seçeneğinin kilidini açabilir",
+ 	 	 	 	"eng": "${hiddenCount} more travel options can be unlocked"
  	 	 	}
  	 	},
  	 	"playerDetails": {
@@ -1702,6 +1735,28 @@
  	 	 	 	"title": {
  	 	 	 	 	"trans": "ALMA HEDİYELERİ DISABLE",
  	 	 	 	 	"eng": "Disable receiving gifts"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"disableVictoryScreen": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Zafer ekranını devre dışı bırak",
+ 	 	 	 	 	"eng": "Disable Victory Screen"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"disableSkipRespectNoti": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Saygı bildirimini atla",
+ 	 	 	 	 	"eng": "Disable Skip Respect Notification"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"disableChatEffect": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Sohbet Etkisini Devre Dışı Bırak",
+ 	 	 	 	 	"eng": "Disable Chat Effect"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Sohbet sekmesi atlamalar sırasında geciktiğinde devre dışı bırakın",
+ 	 	 	 	 	"eng": "Disable if chat tab lags during skips"
  	 	 	 	}
  	 	 	}
  	 	},
@@ -2049,6 +2104,14 @@
  	 	 	 	"selectWithdraw": {
  	 	 	 	 	"trans": "Ne kadar çekmek istersiniz?",
  	 	 	 	 	"eng": "How much would you like to withdraw?"
+ 	 	 	 	},
+ 	 	 	 	"selectDepositItem": {
+ 	 	 	 	 	"trans": "Kasaya kaç tane koymak istersiniz?",
+ 	 	 	 	 	"eng": "How many would you like to put in the vault?"
+ 	 	 	 	},
+ 	 	 	 	"selectWithdrawItem": {
+ 	 	 	 	 	"trans": "Bankadan kaç tane geri çekmek istersiniz?",
+ 	 	 	 	 	"eng": "How many would you like to withdraw from the bank?"
  	 	 	 	}
  	 	 	},
  	 	 	"noBalance": {
@@ -2173,6 +2236,18 @@
  	 	 	"lock": {
  	 	 	 	"trans": "Kilit",
  	 	 	 	"eng": "Lock"
+ 	 	 	},
+ 	 	 	"upgradeModuleTitle": {
+ 	 	 	 	"trans": "Yükseltme",
+ 	 	 	 	"eng": "Upgrades"
+ 	 	 	},
+ 	 	 	"lockDescription": {
+ 	 	 	 	"trans": "Yanlışlıkla satış veya yok edilmesini önler",
+ 	 	 	 	"eng": "Prevents accidental selling or destroying"
+ 	 	 	},
+ 	 	 	"attachableUpgradesTitle": {
+ 	 	 	 	"trans": "Takılabilir yükseltmeler",
+ 	 	 	 	"eng": "Attachable Upgrades"
  	 	 	}
  	 	},
  	 	"secretKey": {
@@ -2226,6 +2301,10 @@
  	 	 	"coupon": {
  	 	 	 	"trans": "Kuponu talep et",
  	 	 	 	"eng": "Claim Coupon"
+ 	 	 	},
+ 	 	 	"referral": {
+ 	 	 	 	"trans": "Başvuru programı",
+ 	 	 	 	"eng": "Referral Program"
  	 	 	}
  	 	},
  	 	"gang": {
@@ -2382,6 +2461,43 @@
  	 	 	 	 	"trans": "Saldırgan veya uygunsuz isimler kullanırsanız sessize alınırsınız.",
  	 	 	 	 	"eng": "you will be muted if you use an offensive or inappropriate name."
  	 	 	 	}
+ 	 	 	},
+ 	 	 	"welcomeTo": {
+ 	 	 	 	"trans": "Hoşgeldiniz",
+ 	 	 	 	"eng": "Welcome to"
+ 	 	 	},
+ 	 	 	"setCharacterNameTitle": {
+ 	 	 	 	"trans": "Karakterini adlandır",
+ 	 	 	 	"eng": "Name your character"
+ 	 	 	},
+ 	 	 	"hasRefererCheckbox": {
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Sadece bir referansınız olup olmadığını kontrol edin (isteğe bağlı)",
+ 	 	 	 	 	"eng": "Only check if you have a referer (Optional)"
+ 	 	 	 	},
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Bir referansım var",
+ 	 	 	 	 	"eng": "I have a referer"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"refererModal": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Referansın kim?",
+ 	 	 	 	 	"eng": "Who referred you?"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Lütfen arama yapın ve size başvuran oyuncuyu seçin",
+ 	 	 	 	 	"eng": "Please search and select the player who referred you"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"referral": {
+ 	 	 	 	"description": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"name"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Referanınız olarak ${name} ayarladınız",
+ 	 	 	 	 	"eng": "You have set ${name} as your referer"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"timeSkip": {
@@ -2456,6 +2572,12 @@
  	 	 	"abortWarning": {
  	 	 	 	"trans": "Bunu iptal ederek herhangi bir ödül alamayacaksınız ve kullanılmış malzeme iade edilmeyecek",
  	 	 	 	"eng": "By aborting this you won\\'t receive any reward and the material used won\\'t be returned"
+ 	 	 	},
+ 	 	 	"marketShortcut": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Amadon",
+ 	 	 	 	 	"eng": "Amadon"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"quest": {
@@ -2681,6 +2803,32 @@
  	 	"moderators": {
  	 	 	"trans": "moderatörler",
  	 	 	"eng": "moderators"
+ 	 	},
+ 	 	"level": {
+ 	 	 	"trans": "seviye",
+ 	 	 	"eng": "level"
+ 	 	},
+ 	 	"requirements": {
+ 	 	 	"trans": "Gereksinimler",
+ 	 	 	"eng": "Requirements"
+ 	 	},
+ 	 	"characterNameError": {
+ 	 	 	"hasSpace": {
+ 	 	 	 	"trans": "İsim boşluk içeremez, boşluğu \"_\" ile değiştirebilirsiniz",
+ 	 	 	 	"eng": "Name cannot contain spaces, you may replace the space with \"_\""
+ 	 	 	},
+ 	 	 	"tooShort": {
+ 	 	 	 	"trans": "İsim en az 4 karakter uzunluğunda olmalıdır",
+ 	 	 	 	"eng": "Name must be at least 4 characters long"
+ 	 	 	},
+ 	 	 	"tooLong": {
+ 	 	 	 	"trans": "İsim 16 karakterden az olmalıdır",
+ 	 	 	 	"eng": "Name must be less than 16 characters long"
+ 	 	 	},
+ 	 	 	"invalidChar": {
+ 	 	 	 	"trans": "İsim yalnızca İngilizce harfleri, sayıları ve \"_\" içerebilir",
+ 	 	 	 	"eng": "Name can only contain English letters, numbers and \"_\""
+ 	 	 	}
  	 	}
  	},
  	"statsType": {
@@ -3017,6 +3165,23 @@
  	 	"sellAmountModalTitle": {
  	 	 	"trans": "Kaç adet satmak istiyorsun?",
  	 	 	"eng": "How many would you like to sell?"
+ 	 	},
+ 	 	"amountSelectModal": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Kaç tane satın almak istersiniz?",
+ 	 	 	 	"eng": "How many would you like to purchase?"
+ 	 	 	},
+ 	 	 	"totalPrice": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"total"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Toplam {0} Bitcoin $ 'a mal olacak",
+ 	 	 	 	"eng": "it will cost ${total} Bitcoin total"
+ 	 	 	}
+ 	 	},
+ 	 	"notEnoughMoney": {
+ 	 	 	"trans": "Bitcoin yetersiz",
+ 	 	 	"eng": "Insufficient bitcoin"
  	 	}
  	},
  	"modal": {
@@ -3073,6 +3238,51 @@
  	 	 	"reviewLater": {
  	 	 	 	"trans": "Daha sonra inceleyin",
  	 	 	 	"eng": "review later"
+ 	 	 	}
+ 	 	},
+ 	 	"contributionModal": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Oyuncu katkıda bulundu",
+ 	 	 	 	"eng": "Player contributed content"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Github sayfamızdaki Config dosyalarını düzenleyerek de böyle içeriğe katkıda bulunabilirsiniz.",
+ 	 	 	 	"eng": "You can contribute to content like this and many more too by editing the config files in our GitHub page."
+ 	 	 	},
+ 	 	 	"confirm": {
+ 	 	 	 	"trans": "Gitub'a git",
+ 	 	 	 	"eng": "Go to GitHub"
+ 	 	 	},
+ 	 	 	"cancel": {
+ 	 	 	 	"trans": "Tamam",
+ 	 	 	 	"eng": "ok"
+ 	 	 	}
+ 	 	},
+ 	 	"playerSearch": {
+ 	 	 	"searchPlayerHint": {
+ 	 	 	 	"trans": "Aramak için oyuncu adını girin",
+ 	 	 	 	"eng": "Enter player name to search"
+ 	 	 	}
+ 	 	},
+ 	 	"resultScreen": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Level up",
+ 	 	 	 	"eng": "Victory"
+ 	 	 	},
+ 	 	 	"subTitle": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"levelName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Tebrik, ${levelName}!",
+ 	 	 	 	"eng": "Congratulation, you have leveled up your ${levelName}!"
+ 	 	 	},
+ 	 	 	"fromTo": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"from",
+ 	 	 	 	 	"to"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${from} => ${to}",
+ 	 	 	 	"eng": "${from} => ${to}"
  	 	 	}
  	 	}
  	},
@@ -3179,12 +3389,16 @@
  	 	 	"mostEfficient": {
  	 	 	 	"trans": "En verimli!",
  	 	 	 	"eng": "Most Efficient!"
+ 	 	 	},
+ 	 	 	"paypalExclusive": {
+ 	 	 	 	"trans": "PayPal Exclusive!",
+ 	 	 	 	"eng": "PayPal Exclusive!"
  	 	 	}
  	 	},
  	 	"paypal": {
  	 	 	"paypalBonusTitle": {
  	 	 	 	"trans": "Tüm PayPal alımları% 10 ek birimlere hitap ediyor!",
- 	 	 	 	"eng": "All PayPal purchases grants 10% additional Units!"
+ 	 	 	 	"eng": "All PayPal purchases grants 10% additional Units! You may use paypal only on website version, simply login with your browser."
  	 	 	},
  	 	 	"paypalBonus": {
  	 	 	 	"trans": "PayPal Satın Alma ile% 10 daha fazla ünite alacaksınız",
@@ -3198,6 +3412,10 @@
  	 	"total": {
  	 	 	"trans": "Toplam",
  	 	 	"eng": "total"
+ 	 	},
+ 	 	"receive": {
+ 	 	 	"trans": "Almak",
+ 	 	 	"eng": "Receive"
  	 	}
  	},
  	"itemLore": {
@@ -3228,6 +3446,187 @@
  	 	"destroy": {
  	 	 	"trans": "tahrip etmek",
  	 	 	"eng": "destroy"
+ 	 	}
+ 	},
+ 	"statusInventory": {
+ 	 	"takeAll": {
+ 	 	 	"trans": "Hepsini al",
+ 	 	 	"eng": "Take all"
+ 	 	},
+ 	 	"discard": {
+ 	 	 	"trans": "Atmak",
+ 	 	 	"eng": "Discard"
+ 	 	},
+ 	 	"discardPrompt": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Atıklamak istediğinize emin misiniz?",
+ 	 	 	 	"eng": "Are you sure you want to discard?"
+ 	 	 	},
+ 	 	 	"confirm": {
+ 	 	 	 	"trans": "Atmak",
+ 	 	 	 	"eng": "Discard"
+ 	 	 	},
+ 	 	 	"warning": {
+ 	 	 	 	"trans": "Yukarıdaki öğe / öğeler atılır ve envanterinize yerleştirilmez. Bu işlem geri dönüşü değil.",
+ 	 	 	 	"eng": "The item/items above will be discarded and not be placed into your inventory. This action is irreversible."
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"iapCurrency": {
+ 	 	"currency1": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} birim",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Receive ${unit} Unit",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency2": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} birim",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	}
+ 	 	},
+ 	 	"currency3": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} birim",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} birimi (${bonus} bonus) alın",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency4": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} birim",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} birimi (${bonus} bonus) alın",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency5": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} birim",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} birimi (${bonus} bonus) alın",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency6": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} birim",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} birimi (${bonus} bonus) alın",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency7": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} birim",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} birimi (${bonus} bonus) alın",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency8": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} birim",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} birimi (${bonus} bonus) alın",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency9": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} birim",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} birimi (${bonus} bonus) alın",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"skipLike": {
+ 	 	"likeNotification": {
+ 	 	 	"vars": [
+ 	 	 	 	"likerName",
+ 	 	 	 	"amount"
+ 	 	 	],
+ 	 	 	"trans": "${likerName} ${amount} adresini gönder",
+ 	 	 	"eng": "${likerName} has send you ${amount} respects for your skip"
  	 	}
  	}
 }

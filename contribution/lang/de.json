@@ -33,7 +33,7 @@
  	 	 	},
  	 	 	"canAccessError": {
  	 	 	 	"trans": "Du benötigst mindestens Level 5, um Zugriff auf den Austausch von Units zu erhalten",
- 	 	 	 	"eng": "You need to be at least level 5 to access unit exchange"
+ 	 	 	 	"eng": "You need to be at least level 3 to access unit exchange"
  	 	 	}
  	 	},
  	 	"cosmetic": {
@@ -47,7 +47,7 @@
  	 	 	},
  	 	 	"canAccessError": {
  	 	 	 	"trans": "Du benötigst mindestens Level 5, um auf den kosmetischen Händler zuzugreifen",
- 	 	 	 	"eng": "You need to be at least level 5 to access cosmetic merchant"
+ 	 	 	 	"eng": "You need to be at least level 3 to access cosmetic merchant"
  	 	 	}
  	 	},
  	 	"printer": {
@@ -108,6 +108,10 @@
  	 	 	"description": {
  	 	 	 	"trans": "Eine Werkbank mit allen notwendigen Werkzeugen, um an deiner Ausrüstung zu basteln.",
  	 	 	 	"eng": "A workbench with the necessary tools allows you to tinker with your equipment."
+ 	 	 	},
+ 	 	 	"canAccessError": {
+ 	 	 	 	"trans": "Sie müssen mindestens Level 10 sein, um auf die Kalibrierungsstation zuzugreifen",
+ 	 	 	 	"eng": "You need to be at least level 10 to access Calibration Station"
  	 	 	}
  	 	},
  	 	"storageMerchant": {
@@ -143,6 +147,21 @@
  	 	 	],
  	 	 	"trans": "Du hast ${amount} ${itemName} erhalten",
  	 	 	"eng": "You received ${amount} ${itemName}"
+ 	 	},
+ 	 	"money": {
+ 	 	 	"vars": [
+ 	 	 	 	"money"
+ 	 	 	],
+ 	 	 	"trans": "Sie haben ${money} BTC erhalten",
+ 	 	 	"eng": "You received ${money} BTC"
+ 	 	},
+ 	 	"exp": {
+ 	 	 	"vars": [
+ 	 	 	 	"amount",
+ 	 	 	 	"levelName"
+ 	 	 	],
+ 	 	 	"trans": "Sie haben ${amount} ${levelName} Erfahrungspunkte erhalten",
+ 	 	 	"eng": "You received ${amount} ${levelName} experience points"
  	 	}
  	},
  	"levelType": {
@@ -1446,6 +1465,20 @@
  	 	 	"travel": {
  	 	 	 	"trans": "Reise",
  	 	 	 	"eng": "Travel"
+ 	 	 	},
+ 	 	 	"hiddenNpcTip": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"hiddenCount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${hiddenCount} Weitere Interaktables können an diesem Ort freigeschaltet werden, deren Level auf den Entriegeln ist, um sie freizuschalten.",
+ 	 	 	 	"eng": "${hiddenCount} more interactables can be unlocked at this location, level up to unlock them."
+ 	 	 	},
+ 	 	 	"travelHiddenLinks": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"hiddenCount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${hiddenCount} Weitere Reiseoptionen können freigeschaltet werden",
+ 	 	 	 	"eng": "${hiddenCount} more travel options can be unlocked"
  	 	 	}
  	 	},
  	 	"playerDetails": {
@@ -1702,6 +1735,28 @@
  	 	 	 	"title": {
  	 	 	 	 	"trans": "Empfangsgeschenke deaktivieren",
  	 	 	 	 	"eng": "Disable receiving gifts"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"disableVictoryScreen": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Den Siegschirm deaktivieren",
+ 	 	 	 	 	"eng": "Disable Victory Screen"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"disableSkipRespectNoti": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Deaktivieren Sie Überspringen Respektbenachrichtigung",
+ 	 	 	 	 	"eng": "Disable Skip Respect Notification"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"disableChatEffect": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Chat-Effekt deaktivieren",
+ 	 	 	 	 	"eng": "Disable Chat Effect"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Deaktivieren Sie, ob die Registerkarte des Chat-Registers während des Sprachts verzögert",
+ 	 	 	 	 	"eng": "Disable if chat tab lags during skips"
  	 	 	 	}
  	 	 	}
  	 	},
@@ -2049,6 +2104,14 @@
  	 	 	 	"selectWithdraw": {
  	 	 	 	 	"trans": "Wie viel möchtest du abheben?",
  	 	 	 	 	"eng": "How much would you like to withdraw?"
+ 	 	 	 	},
+ 	 	 	 	"selectDepositItem": {
+ 	 	 	 	 	"trans": "Wie viele möchten Sie in den Tresor legen?",
+ 	 	 	 	 	"eng": "How many would you like to put in the vault?"
+ 	 	 	 	},
+ 	 	 	 	"selectWithdrawItem": {
+ 	 	 	 	 	"trans": "Wie viele möchten Sie sich von der Bank zurückziehen?",
+ 	 	 	 	 	"eng": "How many would you like to withdraw from the bank?"
  	 	 	 	}
  	 	 	},
  	 	 	"noBalance": {
@@ -2173,6 +2236,18 @@
  	 	 	"lock": {
  	 	 	 	"trans": "Sperren",
  	 	 	 	"eng": "Lock"
+ 	 	 	},
+ 	 	 	"upgradeModuleTitle": {
+ 	 	 	 	"trans": "Upgrades",
+ 	 	 	 	"eng": "Upgrades"
+ 	 	 	},
+ 	 	 	"lockDescription": {
+ 	 	 	 	"trans": "Verhindert versehentlicher Verkauf oder Zerstörung",
+ 	 	 	 	"eng": "Prevents accidental selling or destroying"
+ 	 	 	},
+ 	 	 	"attachableUpgradesTitle": {
+ 	 	 	 	"trans": "Ansteckbare Upgrades",
+ 	 	 	 	"eng": "Attachable Upgrades"
  	 	 	}
  	 	},
  	 	"secretKey": {
@@ -2226,6 +2301,10 @@
  	 	 	"coupon": {
  	 	 	 	"trans": "Gutschein beanspruchen",
  	 	 	 	"eng": "Claim Coupon"
+ 	 	 	},
+ 	 	 	"referral": {
+ 	 	 	 	"trans": "Empfehlungsprogramm",
+ 	 	 	 	"eng": "Referral Program"
  	 	 	}
  	 	},
  	 	"gang": {
@@ -2382,6 +2461,43 @@
  	 	 	 	 	"trans": "Du wirst stummgeschaltet, wenn du einen anstößigen oder unangemessenen Namen verwendest.",
  	 	 	 	 	"eng": "you will be muted if you use an offensive or inappropriate name."
  	 	 	 	}
+ 	 	 	},
+ 	 	 	"welcomeTo": {
+ 	 	 	 	"trans": "Willkommen zu",
+ 	 	 	 	"eng": "Welcome to"
+ 	 	 	},
+ 	 	 	"setCharacterNameTitle": {
+ 	 	 	 	"trans": "Benenne deinen Charakter",
+ 	 	 	 	"eng": "Name your character"
+ 	 	 	},
+ 	 	 	"hasRefererCheckbox": {
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Überprüfen Sie nur, ob Sie einen Versprecher haben (optional)",
+ 	 	 	 	 	"eng": "Only check if you have a referer (Optional)"
+ 	 	 	 	},
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Ich habe einen Versprecher",
+ 	 	 	 	 	"eng": "I have a referer"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"refererModal": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Wer hat dich verwiesen?",
+ 	 	 	 	 	"eng": "Who referred you?"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Bitte suchen Sie und wählen Sie den Spieler aus, der Sie überwiesen hat",
+ 	 	 	 	 	"eng": "Please search and select the player who referred you"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"referral": {
+ 	 	 	 	"description": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"name"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Sie haben ${name} als Ihr Referen aufgestellt",
+ 	 	 	 	 	"eng": "You have set ${name} as your referer"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"timeSkip": {
@@ -2456,6 +2572,12 @@
  	 	 	"abortWarning": {
  	 	 	 	"trans": "Durch Abbruch dieses Sie haben keine Belohnung erhalten, und das verwendete Material wurde gewonnen, der gewonnen wurde",
  	 	 	 	"eng": "By aborting this you won\\'t receive any reward and the material used won\\'t be returned"
+ 	 	 	},
+ 	 	 	"marketShortcut": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Amadon",
+ 	 	 	 	 	"eng": "Amadon"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"quest": {
@@ -2681,6 +2803,32 @@
  	 	"moderators": {
  	 	 	"trans": "Moderatorinnen",
  	 	 	"eng": "moderators"
+ 	 	},
+ 	 	"level": {
+ 	 	 	"trans": "Niveau",
+ 	 	 	"eng": "level"
+ 	 	},
+ 	 	"requirements": {
+ 	 	 	"trans": "Anforderungen",
+ 	 	 	"eng": "Requirements"
+ 	 	},
+ 	 	"characterNameError": {
+ 	 	 	"hasSpace": {
+ 	 	 	 	"trans": "Der Name darf keine Leerzeichen enthalten, Sie können den Raum mit \"_\" ersetzen",
+ 	 	 	 	"eng": "Name cannot contain spaces, you may replace the space with \"_\""
+ 	 	 	},
+ 	 	 	"tooShort": {
+ 	 	 	 	"trans": "Der Name muss mindestens 4 Zeichen lang sein",
+ 	 	 	 	"eng": "Name must be at least 4 characters long"
+ 	 	 	},
+ 	 	 	"tooLong": {
+ 	 	 	 	"trans": "Der Name muss weniger als 16 Zeichen lang sein",
+ 	 	 	 	"eng": "Name must be less than 16 characters long"
+ 	 	 	},
+ 	 	 	"invalidChar": {
+ 	 	 	 	"trans": "Name kann nur englische Buchstaben, Zahlen und \"_\" enthalten",
+ 	 	 	 	"eng": "Name can only contain English letters, numbers and \"_\""
+ 	 	 	}
  	 	}
  	},
  	"statsType": {
@@ -3017,6 +3165,23 @@
  	 	"sellAmountModalTitle": {
  	 	 	"trans": "Wieviele möchtest du verkaufen?",
  	 	 	"eng": "How many would you like to sell?"
+ 	 	},
+ 	 	"amountSelectModal": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Wie viele möchten Sie kaufen?",
+ 	 	 	 	"eng": "How many would you like to purchase?"
+ 	 	 	},
+ 	 	 	"totalPrice": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"total"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Es kostet ${total} Bitcoin insgesamt",
+ 	 	 	 	"eng": "it will cost ${total} Bitcoin total"
+ 	 	 	}
+ 	 	},
+ 	 	"notEnoughMoney": {
+ 	 	 	"trans": "Unzureichendes Bitcoin",
+ 	 	 	"eng": "Insufficient bitcoin"
  	 	}
  	},
  	"modal": {
@@ -3073,6 +3238,51 @@
  	 	 	"reviewLater": {
  	 	 	 	"trans": "später überprüfen",
  	 	 	 	"eng": "review later"
+ 	 	 	}
+ 	 	},
+ 	 	"contributionModal": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Spieler beigetragenen Inhalten",
+ 	 	 	 	"eng": "Player contributed content"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Sie können auch dazu beitragen, solche Inhalte und vieles mehr dazu beizuteilen, indem Sie die Konfigurationsdateien in unserer GitHub-Seite bearbeiten.",
+ 	 	 	 	"eng": "You can contribute to content like this and many more too by editing the config files in our GitHub page."
+ 	 	 	},
+ 	 	 	"confirm": {
+ 	 	 	 	"trans": "Gehe nach Github",
+ 	 	 	 	"eng": "Go to GitHub"
+ 	 	 	},
+ 	 	 	"cancel": {
+ 	 	 	 	"trans": "OK",
+ 	 	 	 	"eng": "ok"
+ 	 	 	}
+ 	 	},
+ 	 	"playerSearch": {
+ 	 	 	"searchPlayerHint": {
+ 	 	 	 	"trans": "Geben Sie den Namen des Spielers ein, um zu suchen",
+ 	 	 	 	"eng": "Enter player name to search"
+ 	 	 	}
+ 	 	},
+ 	 	"resultScreen": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Level up",
+ 	 	 	 	"eng": "Victory"
+ 	 	 	},
+ 	 	 	"subTitle": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"levelName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Glückwunsch, Sie haben Ihre ${levelName} aufbereitet!",
+ 	 	 	 	"eng": "Congratulation, you have leveled up your ${levelName}!"
+ 	 	 	},
+ 	 	 	"fromTo": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"from",
+ 	 	 	 	 	"to"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${from} => ${to}",
+ 	 	 	 	"eng": "${from} => ${to}"
  	 	 	}
  	 	}
  	},
@@ -3179,12 +3389,16 @@
  	 	 	"mostEfficient": {
  	 	 	 	"trans": "Höchsteffizient!",
  	 	 	 	"eng": "Most Efficient!"
+ 	 	 	},
+ 	 	 	"paypalExclusive": {
+ 	 	 	 	"trans": "Paypal Exclusive!",
+ 	 	 	 	"eng": "PayPal Exclusive!"
  	 	 	}
  	 	},
  	 	"paypal": {
  	 	 	"paypalBonusTitle": {
  	 	 	 	"trans": "Alle Paypal-Käufe gewährt 10% zusätzliche Einheiten!",
- 	 	 	 	"eng": "All PayPal purchases grants 10% additional Units!"
+ 	 	 	 	"eng": "All PayPal purchases grants 10% additional Units! You may use paypal only on website version, simply login with your browser."
  	 	 	},
  	 	 	"paypalBonus": {
  	 	 	 	"trans": "Sie erhalten zusätzliche 10% mehr Einheiten mit Paypal-Kauf",
@@ -3198,6 +3412,10 @@
  	 	"total": {
  	 	 	"trans": "gesamt",
  	 	 	"eng": "total"
+ 	 	},
+ 	 	"receive": {
+ 	 	 	"trans": "Erhalten",
+ 	 	 	"eng": "Receive"
  	 	}
  	},
  	"itemLore": {
@@ -3228,6 +3446,187 @@
  	 	"destroy": {
  	 	 	"trans": "zerstören",
  	 	 	"eng": "destroy"
+ 	 	}
+ 	},
+ 	"statusInventory": {
+ 	 	"takeAll": {
+ 	 	 	"trans": "Nimm alles",
+ 	 	 	"eng": "Take all"
+ 	 	},
+ 	 	"discard": {
+ 	 	 	"trans": "Verwerfen",
+ 	 	 	"eng": "Discard"
+ 	 	},
+ 	 	"discardPrompt": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Sind Sie sicher, dass Sie sicherstellen möchten?",
+ 	 	 	 	"eng": "Are you sure you want to discard?"
+ 	 	 	},
+ 	 	 	"confirm": {
+ 	 	 	 	"trans": "Verwerfen",
+ 	 	 	 	"eng": "Discard"
+ 	 	 	},
+ 	 	 	"warning": {
+ 	 	 	 	"trans": "Der obige Artikel / Elemente wird verworfen und nicht in Ihr Inventar eingefügt. Diese Aktion ist irreversibel.",
+ 	 	 	 	"eng": "The item/items above will be discarded and not be placed into your inventory. This action is irreversible."
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"iapCurrency": {
+ 	 	"currency1": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} Einheit",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Receive ${unit} Unit",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency2": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} Einheit",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	}
+ 	 	},
+ 	 	"currency3": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} Einheit",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Erhalten Sie ${unit} Einheit (${bonus} Bonus)",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency4": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} Einheit",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Erhalten Sie ${unit} Einheit (${bonus} Bonus)",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency5": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} Einheit",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Erhalten Sie ${unit} Einheit (${bonus} Bonus)",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency6": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} Einheit",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Erhalten Sie ${unit} Einheit (${bonus} Bonus)",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency7": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} Einheit",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Erhalten Sie ${unit} Einheit (${bonus} Bonus)",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency8": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} Einheit",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Erhalten Sie ${unit} Einheit (${bonus} Bonus)",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency9": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} Einheit",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Erhalten Sie ${unit} Einheit (${bonus} Bonus)",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"skipLike": {
+ 	 	"likeNotification": {
+ 	 	 	"vars": [
+ 	 	 	 	"likerName",
+ 	 	 	 	"amount"
+ 	 	 	],
+ 	 	 	"trans": "${likerName} hat Ihnen ${amount} Respekt für Ihren Überspringen gesendet",
+ 	 	 	"eng": "${likerName} has send you ${amount} respects for your skip"
  	 	}
  	}
 }

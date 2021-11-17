@@ -33,7 +33,7 @@
  	 	 	},
  	 	 	"canAccessError": {
  	 	 	 	"trans": "U hebt ten minste niveau 5 nodig om toegang te krijgen tot eenheidsuitwisseling",
- 	 	 	 	"eng": "You need to be at least level 5 to access unit exchange"
+ 	 	 	 	"eng": "You need to be at least level 3 to access unit exchange"
  	 	 	}
  	 	},
  	 	"cosmetic": {
@@ -47,7 +47,7 @@
  	 	 	},
  	 	 	"canAccessError": {
  	 	 	 	"trans": "Je hebt op zijn minst niveau 5 nodig om toegang te krijgen tot cosmetische handelaar",
- 	 	 	 	"eng": "You need to be at least level 5 to access cosmetic merchant"
+ 	 	 	 	"eng": "You need to be at least level 3 to access cosmetic merchant"
  	 	 	}
  	 	},
  	 	"printer": {
@@ -108,6 +108,10 @@
  	 	 	"description": {
  	 	 	 	"trans": "Met een werkbank met de nodige gereedschappen kunt u met uw apparatuur sleutelen.",
  	 	 	 	"eng": "A workbench with the necessary tools allows you to tinker with your equipment."
+ 	 	 	},
+ 	 	 	"canAccessError": {
+ 	 	 	 	"trans": "U moet op zijn minst niveau 10 zijn om toegang te krijgen tot kalibratiestation",
+ 	 	 	 	"eng": "You need to be at least level 10 to access Calibration Station"
  	 	 	}
  	 	},
  	 	"storageMerchant": {
@@ -143,6 +147,21 @@
  	 	 	],
  	 	 	"trans": "Je hebt ${amount} ${itemName} ontvangen",
  	 	 	"eng": "You received ${amount} ${itemName}"
+ 	 	},
+ 	 	"money": {
+ 	 	 	"vars": [
+ 	 	 	 	"money"
+ 	 	 	],
+ 	 	 	"trans": "U ontving ${money} BTC",
+ 	 	 	"eng": "You received ${money} BTC"
+ 	 	},
+ 	 	"exp": {
+ 	 	 	"vars": [
+ 	 	 	 	"amount",
+ 	 	 	 	"levelName"
+ 	 	 	],
+ 	 	 	"trans": "U ontving ${amount} ${levelName} ervaringspunten",
+ 	 	 	"eng": "You received ${amount} ${levelName} experience points"
  	 	}
  	},
  	"levelType": {
@@ -1446,6 +1465,20 @@
  	 	 	"travel": {
  	 	 	 	"trans": "Reis",
  	 	 	 	"eng": "Travel"
+ 	 	 	},
+ 	 	 	"hiddenNpcTip": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"hiddenCount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${hiddenCount} meer interactables kunnen op deze locatie worden ontgrendeld, level op om ze te ontgrendelen.",
+ 	 	 	 	"eng": "${hiddenCount} more interactables can be unlocked at this location, level up to unlock them."
+ 	 	 	},
+ 	 	 	"travelHiddenLinks": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"hiddenCount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${hiddenCount} Meer reistopties kunnen worden ontgrendeld",
+ 	 	 	 	"eng": "${hiddenCount} more travel options can be unlocked"
  	 	 	}
  	 	},
  	 	"playerDetails": {
@@ -1703,6 +1736,28 @@
  	 	 	 	 	"trans": "Schakel het ontvangen van geschenken",
  	 	 	 	 	"eng": "Disable receiving gifts"
  	 	 	 	}
+ 	 	 	},
+ 	 	 	"disableVictoryScreen": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Schakel het scherm van de overwinning uit",
+ 	 	 	 	 	"eng": "Disable Victory Screen"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"disableSkipRespectNoti": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Schakel de kennisgeving van Skip Research uit",
+ 	 	 	 	 	"eng": "Disable Skip Respect Notification"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"disableChatEffect": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Schakel chat-effect uit",
+ 	 	 	 	 	"eng": "Disable Chat Effect"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Uitschakelen als chat-tabbladen tijdens Skips blijft",
+ 	 	 	 	 	"eng": "Disable if chat tab lags during skips"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"captcha": {
@@ -1762,7 +1817,7 @@
  	 	 	 	"eng": "Gang Level"
  	 	 	},
  	 	 	"resource": {
- 	 	 	 	"trans": "Resource",
+ 	 	 	 	"trans": "Bron",
  	 	 	 	"eng": "Resource"
  	 	 	},
  	 	 	"funding": {
@@ -1804,7 +1859,7 @@
  	 	 	 	 	}
  	 	 	 	},
  	 	 	 	"button": {
- 	 	 	 	 	"trans": "Edit Gang Motto",
+ 	 	 	 	 	"trans": "Bewerk gang motto",
  	 	 	 	 	"eng": "Edit Gang Motto"
  	 	 	 	}
  	 	 	},
@@ -2049,6 +2104,14 @@
  	 	 	 	"selectWithdraw": {
  	 	 	 	 	"trans": "Hoeveel wil je terugtrekken?",
  	 	 	 	 	"eng": "How much would you like to withdraw?"
+ 	 	 	 	},
+ 	 	 	 	"selectDepositItem": {
+ 	 	 	 	 	"trans": "Hoeveel wil je in de kluis plaatsen?",
+ 	 	 	 	 	"eng": "How many would you like to put in the vault?"
+ 	 	 	 	},
+ 	 	 	 	"selectWithdrawItem": {
+ 	 	 	 	 	"trans": "Hoeveel wil je terugtrekken van de bank?",
+ 	 	 	 	 	"eng": "How many would you like to withdraw from the bank?"
  	 	 	 	}
  	 	 	},
  	 	 	"noBalance": {
@@ -2173,6 +2236,18 @@
  	 	 	"lock": {
  	 	 	 	"trans": "Slot",
  	 	 	 	"eng": "Lock"
+ 	 	 	},
+ 	 	 	"upgradeModuleTitle": {
+ 	 	 	 	"trans": "Upgrades",
+ 	 	 	 	"eng": "Upgrades"
+ 	 	 	},
+ 	 	 	"lockDescription": {
+ 	 	 	 	"trans": "Voorkomt toevallig verkopen of vernietigen",
+ 	 	 	 	"eng": "Prevents accidental selling or destroying"
+ 	 	 	},
+ 	 	 	"attachableUpgradesTitle": {
+ 	 	 	 	"trans": "Bevestigbare upgrades",
+ 	 	 	 	"eng": "Attachable Upgrades"
  	 	 	}
  	 	},
  	 	"secretKey": {
@@ -2226,6 +2301,10 @@
  	 	 	"coupon": {
  	 	 	 	"trans": "Claimcoupon",
  	 	 	 	"eng": "Claim Coupon"
+ 	 	 	},
+ 	 	 	"referral": {
+ 	 	 	 	"trans": "Verwijzingsprogramma",
+ 	 	 	 	"eng": "Referral Program"
  	 	 	}
  	 	},
  	 	"gang": {
@@ -2382,6 +2461,43 @@
  	 	 	 	 	"trans": "U wordt gedempt als u offensieve of ongepaste namen gebruikt.",
  	 	 	 	 	"eng": "you will be muted if you use an offensive or inappropriate name."
  	 	 	 	}
+ 	 	 	},
+ 	 	 	"welcomeTo": {
+ 	 	 	 	"trans": "Welkom bij",
+ 	 	 	 	"eng": "Welcome to"
+ 	 	 	},
+ 	 	 	"setCharacterNameTitle": {
+ 	 	 	 	"trans": "Noem je personage",
+ 	 	 	 	"eng": "Name your character"
+ 	 	 	},
+ 	 	 	"hasRefererCheckbox": {
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Controleer alleen of u een refersier hebt (optioneel)",
+ 	 	 	 	 	"eng": "Only check if you have a referer (Optional)"
+ 	 	 	 	},
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Ik heb een refersier",
+ 	 	 	 	 	"eng": "I have a referer"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"refererModal": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Wie heeft je aangeduid?",
+ 	 	 	 	 	"eng": "Who referred you?"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Zoek en selecteer de speler die u heeft verwezen",
+ 	 	 	 	 	"eng": "Please search and select the player who referred you"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"referral": {
+ 	 	 	 	"description": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"name"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "U hebt ${name} ingesteld als uw refersier",
+ 	 	 	 	 	"eng": "You have set ${name} as your referer"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"timeSkip": {
@@ -2456,6 +2572,12 @@
  	 	 	"abortWarning": {
  	 	 	 	"trans": "Door dit te aborteren, ontvangt u niet de beloning en het gebruikte materiaal dat wordt gebruikt, wordt niet geretourneerd",
  	 	 	 	"eng": "By aborting this you won\\'t receive any reward and the material used won\\'t be returned"
+ 	 	 	},
+ 	 	 	"marketShortcut": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Amadon",
+ 	 	 	 	 	"eng": "Amadon"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"quest": {
@@ -2681,6 +2803,32 @@
  	 	"moderators": {
  	 	 	"trans": "moderators",
  	 	 	"eng": "moderators"
+ 	 	},
+ 	 	"level": {
+ 	 	 	"trans": "peil",
+ 	 	 	"eng": "level"
+ 	 	},
+ 	 	"requirements": {
+ 	 	 	"trans": "Vereisten",
+ 	 	 	"eng": "Requirements"
+ 	 	},
+ 	 	"characterNameError": {
+ 	 	 	"hasSpace": {
+ 	 	 	 	"trans": "Naam kan geen spaties bevatten, u kunt de ruimte vervangen door \"_\"",
+ 	 	 	 	"eng": "Name cannot contain spaces, you may replace the space with \"_\""
+ 	 	 	},
+ 	 	 	"tooShort": {
+ 	 	 	 	"trans": "Naam moet minimaal 4 tekens lang zijn",
+ 	 	 	 	"eng": "Name must be at least 4 characters long"
+ 	 	 	},
+ 	 	 	"tooLong": {
+ 	 	 	 	"trans": "Naam moet minder dan 16 tekens lang zijn",
+ 	 	 	 	"eng": "Name must be less than 16 characters long"
+ 	 	 	},
+ 	 	 	"invalidChar": {
+ 	 	 	 	"trans": "Naam kan alleen Engelse letters, cijfers en \"_\" bevatten",
+ 	 	 	 	"eng": "Name can only contain English letters, numbers and \"_\""
+ 	 	 	}
  	 	}
  	},
  	"statsType": {
@@ -3017,6 +3165,23 @@
  	 	"sellAmountModalTitle": {
  	 	 	"trans": "Hoeveel wil je er verkopen?",
  	 	 	"eng": "How many would you like to sell?"
+ 	 	},
+ 	 	"amountSelectModal": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Hoeveel wil je kopen?",
+ 	 	 	 	"eng": "How many would you like to purchase?"
+ 	 	 	},
+ 	 	 	"totalPrice": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"total"
+ 	 	 	 	],
+ 	 	 	 	"trans": "het kost ${total} bitcoin totaal",
+ 	 	 	 	"eng": "it will cost ${total} Bitcoin total"
+ 	 	 	}
+ 	 	},
+ 	 	"notEnoughMoney": {
+ 	 	 	"trans": "Onvoldoende bitcoin",
+ 	 	 	"eng": "Insufficient bitcoin"
  	 	}
  	},
  	"modal": {
@@ -3073,6 +3238,51 @@
  	 	 	"reviewLater": {
  	 	 	 	"trans": "Beoordeel later",
  	 	 	 	"eng": "review later"
+ 	 	 	}
+ 	 	},
+ 	 	"contributionModal": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Speler bijgedragen inhoud",
+ 	 	 	 	"eng": "Player contributed content"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "U kunt een bijdrage leveren aan inhoud zoals deze en nog veel meer door de configuratie-bestanden in onze GitHub-pagina te bewerken.",
+ 	 	 	 	"eng": "You can contribute to content like this and many more too by editing the config files in our GitHub page."
+ 	 	 	},
+ 	 	 	"confirm": {
+ 	 	 	 	"trans": "Ga naar Github",
+ 	 	 	 	"eng": "Go to GitHub"
+ 	 	 	},
+ 	 	 	"cancel": {
+ 	 	 	 	"trans": "Oke",
+ 	 	 	 	"eng": "ok"
+ 	 	 	}
+ 	 	},
+ 	 	"playerSearch": {
+ 	 	 	"searchPlayerHint": {
+ 	 	 	 	"trans": "Voer de naam van de speler in om te zoeken",
+ 	 	 	 	"eng": "Enter player name to search"
+ 	 	 	}
+ 	 	},
+ 	 	"resultScreen": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Level up",
+ 	 	 	 	"eng": "Victory"
+ 	 	 	},
+ 	 	 	"subTitle": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"levelName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Felicitatie, je hebt je ${levelName} geëist!",
+ 	 	 	 	"eng": "Congratulation, you have leveled up your ${levelName}!"
+ 	 	 	},
+ 	 	 	"fromTo": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"from",
+ 	 	 	 	 	"to"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${from} => ${to}",
+ 	 	 	 	"eng": "${from} => ${to}"
  	 	 	}
  	 	}
  	},
@@ -3179,12 +3389,16 @@
  	 	 	"mostEfficient": {
  	 	 	 	"trans": "Meest efficiënt!",
  	 	 	 	"eng": "Most Efficient!"
+ 	 	 	},
+ 	 	 	"paypalExclusive": {
+ 	 	 	 	"trans": "PayPal Exclusief!",
+ 	 	 	 	"eng": "PayPal Exclusive!"
  	 	 	}
  	 	},
  	 	"paypal": {
  	 	 	"paypalBonusTitle": {
  	 	 	 	"trans": "Alle Paypal-aankopen verleent 10% extra eenheden!",
- 	 	 	 	"eng": "All PayPal purchases grants 10% additional Units!"
+ 	 	 	 	"eng": "All PayPal purchases grants 10% additional Units! You may use paypal only on website version, simply login with your browser."
  	 	 	},
  	 	 	"paypalBonus": {
  	 	 	 	"trans": "U ontvangt nog eens 10% meer eenheden met PayPal-aankoop",
@@ -3198,6 +3412,10 @@
  	 	"total": {
  	 	 	"trans": "totaal",
  	 	 	"eng": "total"
+ 	 	},
+ 	 	"receive": {
+ 	 	 	"trans": "Ontvangen",
+ 	 	 	"eng": "Receive"
  	 	}
  	},
  	"itemLore": {
@@ -3228,6 +3446,187 @@
  	 	"destroy": {
  	 	 	"trans": "kapot maken",
  	 	 	"eng": "destroy"
+ 	 	}
+ 	},
+ 	"statusInventory": {
+ 	 	"takeAll": {
+ 	 	 	"trans": "Alles nemen",
+ 	 	 	"eng": "Take all"
+ 	 	},
+ 	 	"discard": {
+ 	 	 	"trans": "Weggooien",
+ 	 	 	"eng": "Discard"
+ 	 	},
+ 	 	"discardPrompt": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Weet je zeker dat je wilt weggooien?",
+ 	 	 	 	"eng": "Are you sure you want to discard?"
+ 	 	 	},
+ 	 	 	"confirm": {
+ 	 	 	 	"trans": "Weggooien",
+ 	 	 	 	"eng": "Discard"
+ 	 	 	},
+ 	 	 	"warning": {
+ 	 	 	 	"trans": "Het artikel / items hierboven zal worden weggegooid en worden niet in uw inventaris geplaatst. Deze actie is onomkeerbaar.",
+ 	 	 	 	"eng": "The item/items above will be discarded and not be placed into your inventory. This action is irreversible."
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"iapCurrency": {
+ 	 	"currency1": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} eenheid",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Receive ${unit} Unit",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency2": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} eenheid",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	}
+ 	 	},
+ 	 	"currency3": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} eenheid",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Ontvang ${unit} eenheid (${bonus} bonus)",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency4": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} eenheid",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Ontvang ${unit} eenheid (${bonus} bonus)",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency5": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} eenheid",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Ontvang ${unit} eenheid (${bonus} bonus)",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency6": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} eenheid",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Ontvang ${unit} eenheid (${bonus} bonus)",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency7": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} eenheid",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Ontvang ${unit} eenheid (${bonus} bonus)",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency8": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} eenheid",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Ontvang ${unit} eenheid (${bonus} bonus)",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency9": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} eenheid",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Ontvang ${unit} eenheid (${bonus} bonus)",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"skipLike": {
+ 	 	"likeNotification": {
+ 	 	 	"vars": [
+ 	 	 	 	"likerName",
+ 	 	 	 	"amount"
+ 	 	 	],
+ 	 	 	"trans": "${likerName} heeft u verzonden ${amount} respect voor uw skip",
+ 	 	 	"eng": "${likerName} has send you ${amount} respects for your skip"
  	 	}
  	}
 }

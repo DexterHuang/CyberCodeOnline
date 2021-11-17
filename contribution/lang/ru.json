@@ -273,7 +273,7 @@
  	 	 	},
  	 	 	"canAccessError": {
  	 	 	 	"trans": "Вы должны быть как минимум 5-го уровня для доступа к разменному пункту",
- 	 	 	 	"eng": "You need to be at least level 5 to access unit exchange"
+ 	 	 	 	"eng": "You need to be at least level 3 to access unit exchange"
  	 	 	}
  	 	},
  	 	"cosmetic": {
@@ -287,7 +287,7 @@
  	 	 	},
  	 	 	"canAccessError": {
  	 	 	 	"trans": "Вы должны быть как минимум 5-го уровня для доступа к косметическому продавцу",
- 	 	 	 	"eng": "You need to be at least level 5 to access cosmetic merchant"
+ 	 	 	 	"eng": "You need to be at least level 3 to access cosmetic merchant"
  	 	 	}
  	 	},
  	 	"printer": {
@@ -348,6 +348,10 @@
  	 	 	"description": {
  	 	 	 	"trans": "Верстак с необходимыми инструментами, позволяющий возиться с вашим оборудованием.",
  	 	 	 	"eng": "A workbench with the necessary tools allows you to tinker with your equipment."
+ 	 	 	},
+ 	 	 	"canAccessError": {
+ 	 	 	 	"trans": "Вы должны быть не менее 10 уровня для доступа к калибровочной станции",
+ 	 	 	 	"eng": "You need to be at least level 10 to access Calibration Station"
  	 	 	}
  	 	},
  	 	"storageMerchant": {
@@ -525,6 +529,21 @@
  	 	 	],
  	 	 	"trans": "Получено ${amount} ${itemName}",
  	 	 	"eng": "You received ${amount} ${itemName}"
+ 	 	},
+ 	 	"money": {
+ 	 	 	"vars": [
+ 	 	 	 	"money"
+ 	 	 	],
+ 	 	 	"trans": "Вы получили ${money} BTC",
+ 	 	 	"eng": "You received ${money} BTC"
+ 	 	},
+ 	 	"exp": {
+ 	 	 	"vars": [
+ 	 	 	 	"amount",
+ 	 	 	 	"levelName"
+ 	 	 	],
+ 	 	 	"trans": "Вы получили ${amount} ${levelName} очки опыта",
+ 	 	 	"eng": "You received ${amount} ${levelName} experience points"
  	 	}
  	},
  	"tier": {
@@ -1446,6 +1465,20 @@
  	 	 	"travel": {
  	 	 	 	"trans": "Идти",
  	 	 	 	"eng": "Travel"
+ 	 	 	},
+ 	 	 	"hiddenNpcTip": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"hiddenCount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${hiddenCount} Больше взаимодейтов можно разблокировать в этом месте, уровень вверх, чтобы разблокировать их.",
+ 	 	 	 	"eng": "${hiddenCount} more interactables can be unlocked at this location, level up to unlock them."
+ 	 	 	},
+ 	 	 	"travelHiddenLinks": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"hiddenCount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${hiddenCount} Варианты путешествий могут быть разблокированы",
+ 	 	 	 	"eng": "${hiddenCount} more travel options can be unlocked"
  	 	 	}
  	 	},
  	 	"playerDetails": {
@@ -1702,6 +1735,28 @@
  	 	 	 	"title": {
  	 	 	 	 	"trans": "Отключить приемные подарки",
  	 	 	 	 	"eng": "Disable receiving gifts"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"disableVictoryScreen": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Отключить экран победы",
+ 	 	 	 	 	"eng": "Disable Victory Screen"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"disableSkipRespectNoti": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Отключить уведомление о проверке уважения",
+ 	 	 	 	 	"eng": "Disable Skip Respect Notification"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"disableChatEffect": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Отключить эффект чата",
+ 	 	 	 	 	"eng": "Disable Chat Effect"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Отключить, если вкладка чата отстает во время пропуска",
+ 	 	 	 	 	"eng": "Disable if chat tab lags during skips"
  	 	 	 	}
  	 	 	}
  	 	},
@@ -2049,6 +2104,14 @@
  	 	 	 	"selectWithdraw": {
  	 	 	 	 	"trans": "Сколько бы вы хотели снять?",
  	 	 	 	 	"eng": "How much would you like to withdraw?"
+ 	 	 	 	},
+ 	 	 	 	"selectDepositItem": {
+ 	 	 	 	 	"trans": "Сколько вы хотели бы поставить в хранилище?",
+ 	 	 	 	 	"eng": "How many would you like to put in the vault?"
+ 	 	 	 	},
+ 	 	 	 	"selectWithdrawItem": {
+ 	 	 	 	 	"trans": "Сколько вы хотели бы выйти из банка?",
+ 	 	 	 	 	"eng": "How many would you like to withdraw from the bank?"
  	 	 	 	}
  	 	 	},
  	 	 	"noBalance": {
@@ -2173,6 +2236,18 @@
  	 	 	"lock": {
  	 	 	 	"trans": "Замок",
  	 	 	 	"eng": "Lock"
+ 	 	 	},
+ 	 	 	"upgradeModuleTitle": {
+ 	 	 	 	"trans": "Обновления",
+ 	 	 	 	"eng": "Upgrades"
+ 	 	 	},
+ 	 	 	"lockDescription": {
+ 	 	 	 	"trans": "Предотвращает случайную продажу или уничтожение",
+ 	 	 	 	"eng": "Prevents accidental selling or destroying"
+ 	 	 	},
+ 	 	 	"attachableUpgradesTitle": {
+ 	 	 	 	"trans": "Прикрепляемые обновления",
+ 	 	 	 	"eng": "Attachable Upgrades"
  	 	 	}
  	 	},
  	 	"secretKey": {
@@ -2226,6 +2301,10 @@
  	 	 	"coupon": {
  	 	 	 	"trans": "Использовать Купон",
  	 	 	 	"eng": "Claim Coupon"
+ 	 	 	},
+ 	 	 	"referral": {
+ 	 	 	 	"trans": "Реферальная программа",
+ 	 	 	 	"eng": "Referral Program"
  	 	 	}
  	 	},
  	 	"gang": {
@@ -2382,6 +2461,43 @@
  	 	 	 	 	"trans": "Вы будете приглушены, если вы используете оскорбительные или неуместные имена.",
  	 	 	 	 	"eng": "you will be muted if you use an offensive or inappropriate name."
  	 	 	 	}
+ 	 	 	},
+ 	 	 	"welcomeTo": {
+ 	 	 	 	"trans": "Добро пожаловать в",
+ 	 	 	 	"eng": "Welcome to"
+ 	 	 	},
+ 	 	 	"setCharacterNameTitle": {
+ 	 	 	 	"trans": "Назовите свой характер",
+ 	 	 	 	"eng": "Name your character"
+ 	 	 	},
+ 	 	 	"hasRefererCheckbox": {
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Проверьте, если у вас есть респорту (необязательно)",
+ 	 	 	 	 	"eng": "Only check if you have a referer (Optional)"
+ 	 	 	 	},
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "У меня есть респорту",
+ 	 	 	 	 	"eng": "I have a referer"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"refererModal": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Кто вас отправил?",
+ 	 	 	 	 	"eng": "Who referred you?"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Пожалуйста, ищите и выберите игрок, который отправил вам",
+ 	 	 	 	 	"eng": "Please search and select the player who referred you"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"referral": {
+ 	 	 	 	"description": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"name"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Вы установили ${name} в качестве вашего референера",
+ 	 	 	 	 	"eng": "You have set ${name} as your referer"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"timeSkip": {
@@ -2456,6 +2572,12 @@
  	 	 	"abortWarning": {
  	 	 	 	"trans": "Преподавая это, вы не получили никакой награды, а материал, используемый выигранный \\",
  	 	 	 	"eng": "By aborting this you won\\'t receive any reward and the material used won\\'t be returned"
+ 	 	 	},
+ 	 	 	"marketShortcut": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Амадон",
+ 	 	 	 	 	"eng": "Amadon"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"quest": {
@@ -2681,6 +2803,32 @@
  	 	"moderators": {
  	 	 	"trans": "модераторы",
  	 	 	"eng": "moderators"
+ 	 	},
+ 	 	"level": {
+ 	 	 	"trans": "уровень",
+ 	 	 	"eng": "level"
+ 	 	},
+ 	 	"requirements": {
+ 	 	 	"trans": "Требования",
+ 	 	 	"eng": "Requirements"
+ 	 	},
+ 	 	"characterNameError": {
+ 	 	 	"hasSpace": {
+ 	 	 	 	"trans": "Имя не может содержать пробелы, вы можете заменить пространство «_»",
+ 	 	 	 	"eng": "Name cannot contain spaces, you may replace the space with \"_\""
+ 	 	 	},
+ 	 	 	"tooShort": {
+ 	 	 	 	"trans": "Имя должно быть не менее 4 символов",
+ 	 	 	 	"eng": "Name must be at least 4 characters long"
+ 	 	 	},
+ 	 	 	"tooLong": {
+ 	 	 	 	"trans": "Имя должно быть меньше 16 символов",
+ 	 	 	 	"eng": "Name must be less than 16 characters long"
+ 	 	 	},
+ 	 	 	"invalidChar": {
+ 	 	 	 	"trans": "Имя может содержать только английские буквы, цифры и «_»",
+ 	 	 	 	"eng": "Name can only contain English letters, numbers and \"_\""
+ 	 	 	}
  	 	}
  	},
  	"statsType": {
@@ -3017,6 +3165,23 @@
  	 	"sellAmountModalTitle": {
  	 	 	"trans": "Сколько бы вы хотели продать?",
  	 	 	"eng": "How many would you like to sell?"
+ 	 	},
+ 	 	"amountSelectModal": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Сколько бы вы хотели купить?",
+ 	 	 	 	"eng": "How many would you like to purchase?"
+ 	 	 	},
+ 	 	 	"totalPrice": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"total"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Это будет стоить ${total} Bitcoin всего",
+ 	 	 	 	"eng": "it will cost ${total} Bitcoin total"
+ 	 	 	}
+ 	 	},
+ 	 	"notEnoughMoney": {
+ 	 	 	"trans": "Недостаточный биткойн",
+ 	 	 	"eng": "Insufficient bitcoin"
  	 	}
  	},
  	"modal": {
@@ -3073,6 +3238,51 @@
  	 	 	"reviewLater": {
  	 	 	 	"trans": "обзор позже",
  	 	 	 	"eng": "review later"
+ 	 	 	}
+ 	 	},
+ 	 	"contributionModal": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Игрок внес вклад",
+ 	 	 	 	"eng": "Player contributed content"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Вы можете внести свой вклад в контент, как это, и еще многое также, отредактировав файлы конфигурации на нашей странице GitHub.",
+ 	 	 	 	"eng": "You can contribute to content like this and many more too by editing the config files in our GitHub page."
+ 	 	 	},
+ 	 	 	"confirm": {
+ 	 	 	 	"trans": "Перейти к Github",
+ 	 	 	 	"eng": "Go to GitHub"
+ 	 	 	},
+ 	 	 	"cancel": {
+ 	 	 	 	"trans": "Ok",
+ 	 	 	 	"eng": "ok"
+ 	 	 	}
+ 	 	},
+ 	 	"playerSearch": {
+ 	 	 	"searchPlayerHint": {
+ 	 	 	 	"trans": "Введите имя игрока в поиск",
+ 	 	 	 	"eng": "Enter player name to search"
+ 	 	 	}
+ 	 	},
+ 	 	"resultScreen": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Level up",
+ 	 	 	 	"eng": "Victory"
+ 	 	 	},
+ 	 	 	"subTitle": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"levelName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Поздравляю, вы выровняли свой ${levelName}!",
+ 	 	 	 	"eng": "Congratulation, you have leveled up your ${levelName}!"
+ 	 	 	},
+ 	 	 	"fromTo": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"from",
+ 	 	 	 	 	"to"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${from} => ${to}",
+ 	 	 	 	"eng": "${from} => ${to}"
  	 	 	}
  	 	}
  	},
@@ -3179,12 +3389,16 @@
  	 	 	"mostEfficient": {
  	 	 	 	"trans": "Наиболее эффективным!",
  	 	 	 	"eng": "Most Efficient!"
+ 	 	 	},
+ 	 	 	"paypalExclusive": {
+ 	 	 	 	"trans": "PayPal Exclusive!",
+ 	 	 	 	"eng": "PayPal Exclusive!"
  	 	 	}
  	 	},
  	 	"paypal": {
  	 	 	"paypalBonusTitle": {
  	 	 	 	"trans": "Все покупки PayPal предоставляют 10% дополнительных подразделений!",
- 	 	 	 	"eng": "All PayPal purchases grants 10% additional Units!"
+ 	 	 	 	"eng": "All PayPal purchases grants 10% additional Units! You may use paypal only on website version, simply login with your browser."
  	 	 	},
  	 	 	"paypalBonus": {
  	 	 	 	"trans": "Вы получите дополнительные на 10% больше единиц с покупкой PayPal",
@@ -3198,6 +3412,10 @@
  	 	"total": {
  	 	 	"trans": "общий",
  	 	 	"eng": "total"
+ 	 	},
+ 	 	"receive": {
+ 	 	 	"trans": "Получать",
+ 	 	 	"eng": "Receive"
  	 	}
  	},
  	"itemLore": {
@@ -3228,6 +3446,187 @@
  	 	"destroy": {
  	 	 	"trans": "разрушать",
  	 	 	"eng": "destroy"
+ 	 	}
+ 	},
+ 	"statusInventory": {
+ 	 	"takeAll": {
+ 	 	 	"trans": "Взять все",
+ 	 	 	"eng": "Take all"
+ 	 	},
+ 	 	"discard": {
+ 	 	 	"trans": "Отказаться",
+ 	 	 	"eng": "Discard"
+ 	 	},
+ 	 	"discardPrompt": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Вы уверены, что хотите отбрасывать?",
+ 	 	 	 	"eng": "Are you sure you want to discard?"
+ 	 	 	},
+ 	 	 	"confirm": {
+ 	 	 	 	"trans": "Отказаться",
+ 	 	 	 	"eng": "Discard"
+ 	 	 	},
+ 	 	 	"warning": {
+ 	 	 	 	"trans": "Предмет / предметы выше будут отброшены и не быть помещены в ваш инвентарь. Это действие необратимо.",
+ 	 	 	 	"eng": "The item/items above will be discarded and not be placed into your inventory. This action is irreversible."
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"iapCurrency": {
+ 	 	"currency1": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} блок",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Receive ${unit} Unit",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency2": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} блок",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	}
+ 	 	},
+ 	 	"currency3": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} блок",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Получайте единицу ${unit} (${bonus} бонус)",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency4": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} блок",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Получайте единицу ${unit} (${bonus} бонус)",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency5": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} блок",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Получайте единицу ${unit} (${bonus} бонус)",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency6": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} блок",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Получайте единицу ${unit} (${bonus} бонус)",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency7": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} блок",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Получайте единицу ${unit} (${bonus} бонус)",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency8": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} блок",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Получайте единицу ${unit} (${bonus} бонус)",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency9": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit} блок",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Получайте единицу ${unit} (${bonus} бонус)",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"skipLike": {
+ 	 	"likeNotification": {
+ 	 	 	"vars": [
+ 	 	 	 	"likerName",
+ 	 	 	 	"amount"
+ 	 	 	],
+ 	 	 	"trans": "${likerName} отправляет вам ${amount} уважения для вашего пропуска",
+ 	 	 	"eng": "${likerName} has send you ${amount} respects for your skip"
  	 	}
  	}
 }

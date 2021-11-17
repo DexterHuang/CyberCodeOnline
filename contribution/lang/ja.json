@@ -273,7 +273,7 @@
  	 	 	},
  	 	 	"canAccessError": {
  	 	 	 	"trans": "ユニット交換にアクセスするにはレベル5以上が必要です",
- 	 	 	 	"eng": "You need to be at least level 5 to access unit exchange"
+ 	 	 	 	"eng": "You need to be at least level 3 to access unit exchange"
  	 	 	}
  	 	},
  	 	"cosmetic": {
@@ -287,7 +287,7 @@
  	 	 	},
  	 	 	"canAccessError": {
  	 	 	 	"trans": "コスメティックマーチャントにアクセスするにはレベル5以上が必要です",
- 	 	 	 	"eng": "You need to be at least level 5 to access cosmetic merchant"
+ 	 	 	 	"eng": "You need to be at least level 3 to access cosmetic merchant"
  	 	 	}
  	 	},
  	 	"printer": {
@@ -348,6 +348,10 @@
  	 	 	"description": {
  	 	 	 	"trans": "必要なツールを備えたワークベンチを使って装備に手を加えることができる",
  	 	 	 	"eng": "A workbench with the necessary tools allows you to tinker with your equipment."
+ 	 	 	},
+ 	 	 	"canAccessError": {
+ 	 	 	 	"trans": "校正ステーションにアクセスするには少なくともレベル10になる必要があります",
+ 	 	 	 	"eng": "You need to be at least level 10 to access Calibration Station"
  	 	 	}
  	 	},
  	 	"storageMerchant": {
@@ -525,6 +529,21 @@
  	 	 	],
  	 	 	"trans": "${amount}個の${itemName}を受け取りました",
  	 	 	"eng": "You received ${amount} ${itemName}"
+ 	 	},
+ 	 	"money": {
+ 	 	 	"vars": [
+ 	 	 	 	"money"
+ 	 	 	],
+ 	 	 	"trans": "あなたは${money} BTCを受け取りました",
+ 	 	 	"eng": "You received ${money} BTC"
+ 	 	},
+ 	 	"exp": {
+ 	 	 	"vars": [
+ 	 	 	 	"amount",
+ 	 	 	 	"levelName"
+ 	 	 	],
+ 	 	 	"trans": "${amount} ${levelName}エクスペリエンスポイントを受け取りました",
+ 	 	 	"eng": "You received ${amount} ${levelName} experience points"
  	 	}
  	},
  	"tier": {
@@ -1446,6 +1465,20 @@
  	 	 	"travel": {
  	 	 	 	"trans": "トラベル",
  	 	 	 	"eng": "Travel"
+ 	 	 	},
+ 	 	 	"hiddenNpcTip": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"hiddenCount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${hiddenCount}この場所では、この場所ではそのロックを解除することができ、それらをロック解除することができます。",
+ 	 	 	 	"eng": "${hiddenCount} more interactables can be unlocked at this location, level up to unlock them."
+ 	 	 	},
+ 	 	 	"travelHiddenLinks": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"hiddenCount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${hiddenCount}その他の旅行オプションはロック解除できます",
+ 	 	 	 	"eng": "${hiddenCount} more travel options can be unlocked"
  	 	 	}
  	 	},
  	 	"playerDetails": {
@@ -1702,6 +1735,28 @@
  	 	 	 	"title": {
  	 	 	 	 	"trans": "受信ギフトを無効にします",
  	 	 	 	 	"eng": "Disable receiving gifts"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"disableVictoryScreen": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "勝利画面を無効にします",
+ 	 	 	 	 	"eng": "Disable Victory Screen"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"disableSkipRespectNoti": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "スキップ尊重通知を無効にします",
+ 	 	 	 	 	"eng": "Disable Skip Respect Notification"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"disableChatEffect": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "チャット効果を無効にします",
+ 	 	 	 	 	"eng": "Disable Chat Effect"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "スキップ中にチャットタブが遅れると無効にします",
+ 	 	 	 	 	"eng": "Disable if chat tab lags during skips"
  	 	 	 	}
  	 	 	}
  	 	},
@@ -2049,6 +2104,14 @@
  	 	 	 	"selectWithdraw": {
  	 	 	 	 	"trans": "いくつ取り出しますか？",
  	 	 	 	 	"eng": "How much would you like to withdraw?"
+ 	 	 	 	},
+ 	 	 	 	"selectDepositItem": {
+ 	 	 	 	 	"trans": "金庫室にはいくつありますか？",
+ 	 	 	 	 	"eng": "How many would you like to put in the vault?"
+ 	 	 	 	},
+ 	 	 	 	"selectWithdrawItem": {
+ 	 	 	 	 	"trans": "あなたは銀行からどのくらい撤退したいですか？",
+ 	 	 	 	 	"eng": "How many would you like to withdraw from the bank?"
  	 	 	 	}
  	 	 	},
  	 	 	"noBalance": {
@@ -2173,6 +2236,18 @@
  	 	 	"lock": {
  	 	 	 	"trans": "ロック",
  	 	 	 	"eng": "Lock"
+ 	 	 	},
+ 	 	 	"upgradeModuleTitle": {
+ 	 	 	 	"trans": "アップグレード",
+ 	 	 	 	"eng": "Upgrades"
+ 	 	 	},
+ 	 	 	"lockDescription": {
+ 	 	 	 	"trans": "偶発的な販売または破壊を防ぎます",
+ 	 	 	 	"eng": "Prevents accidental selling or destroying"
+ 	 	 	},
+ 	 	 	"attachableUpgradesTitle": {
+ 	 	 	 	"trans": "取り付け可能なアップグレード",
+ 	 	 	 	"eng": "Attachable Upgrades"
  	 	 	}
  	 	},
  	 	"secretKey": {
@@ -2226,6 +2301,10 @@
  	 	 	"coupon": {
  	 	 	 	"trans": "クーポン",
  	 	 	 	"eng": "Claim Coupon"
+ 	 	 	},
+ 	 	 	"referral": {
+ 	 	 	 	"trans": "紹介プログラム",
+ 	 	 	 	"eng": "Referral Program"
  	 	 	}
  	 	},
  	 	"gang": {
@@ -2382,6 +2461,43 @@
  	 	 	 	 	"trans": "不快な名前や不適切な名前を使用すると、ミュートされます。",
  	 	 	 	 	"eng": "you will be muted if you use an offensive or inappropriate name."
  	 	 	 	}
+ 	 	 	},
+ 	 	 	"welcomeTo": {
+ 	 	 	 	"trans": "歓迎する",
+ 	 	 	 	"eng": "Welcome to"
+ 	 	 	},
+ 	 	 	"setCharacterNameTitle": {
+ 	 	 	 	"trans": "あなたのキャラクターに名前を付けます",
+ 	 	 	 	"eng": "Name your character"
+ 	 	 	},
+ 	 	 	"hasRefererCheckbox": {
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "参照先があるかどうかを確認してください（オプション）",
+ 	 	 	 	 	"eng": "Only check if you have a referer (Optional)"
+ 	 	 	 	},
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "参考文献があります",
+ 	 	 	 	 	"eng": "I have a referer"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"refererModal": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "誰があなたを参照していますか？",
+ 	 	 	 	 	"eng": "Who referred you?"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "紹介したプレイヤーを検索して選択してください",
+ 	 	 	 	 	"eng": "Please search and select the player who referred you"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"referral": {
+ 	 	 	 	"description": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"name"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "あなたの参照として${name}を設定しました",
+ 	 	 	 	 	"eng": "You have set ${name} as your referer"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"timeSkip": {
@@ -2456,6 +2572,12 @@
  	 	 	"abortWarning": {
  	 	 	 	"trans": "これを中止することによって、あなたは賞を受賞しました、そして使用された材料はwon \\ 'tが返されます",
  	 	 	 	"eng": "By aborting this you won\\'t receive any reward and the material used won\\'t be returned"
+ 	 	 	},
+ 	 	 	"marketShortcut": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "アマドン",
+ 	 	 	 	 	"eng": "Amadon"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"quest": {
@@ -2681,6 +2803,32 @@
  	 	"moderators": {
  	 	 	"trans": "モデレータ",
  	 	 	"eng": "moderators"
+ 	 	},
+ 	 	"level": {
+ 	 	 	"trans": "レベル",
+ 	 	 	"eng": "level"
+ 	 	},
+ 	 	"requirements": {
+ 	 	 	"trans": "要件",
+ 	 	 	"eng": "Requirements"
+ 	 	},
+ 	 	"characterNameError": {
+ 	 	 	"hasSpace": {
+ 	 	 	 	"trans": "名前にスペースを含めることができない場合は、スペースを \"_\"に置き換えることができます。",
+ 	 	 	 	"eng": "Name cannot contain spaces, you may replace the space with \"_\""
+ 	 	 	},
+ 	 	 	"tooShort": {
+ 	 	 	 	"trans": "名前は4文字以上でなければなりません",
+ 	 	 	 	"eng": "Name must be at least 4 characters long"
+ 	 	 	},
+ 	 	 	"tooLong": {
+ 	 	 	 	"trans": "名前は16文字未満でなければなりません",
+ 	 	 	 	"eng": "Name must be less than 16 characters long"
+ 	 	 	},
+ 	 	 	"invalidChar": {
+ 	 	 	 	"trans": "名前は英語の文字、数字、「_」のみを含めることができます",
+ 	 	 	 	"eng": "Name can only contain English letters, numbers and \"_\""
+ 	 	 	}
  	 	}
  	},
  	"statsType": {
@@ -3017,6 +3165,23 @@
  	 	"sellAmountModalTitle": {
  	 	 	"trans": "いくつ売却しますか？",
  	 	 	"eng": "How many would you like to sell?"
+ 	 	},
+ 	 	"amountSelectModal": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "あなたはどのくらい購入しますか？",
+ 	 	 	 	"eng": "How many would you like to purchase?"
+ 	 	 	},
+ 	 	 	"totalPrice": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"total"
+ 	 	 	 	],
+ 	 	 	 	"trans": "それは${total} Bitcoin Totalのコストです",
+ 	 	 	 	"eng": "it will cost ${total} Bitcoin total"
+ 	 	 	}
+ 	 	},
+ 	 	"notEnoughMoney": {
+ 	 	 	"trans": "ビットコインが足りない",
+ 	 	 	"eng": "Insufficient bitcoin"
  	 	}
  	},
  	"modal": {
@@ -3044,7 +3209,7 @@
  	 	"review": {
  	 	 	"title1": {
  	 	 	 	"trans": "私はこのゲームの開発者であるDexterです、ぜひCyberCodeOnlineについての評価をお願いします。",
- 	 	 	 	"eng": "I'm Dexter, the developer of this game, and I am hoping to know your experience so far."
+ 	 	 	 	"eng": "I'm Dexter, the developer of this game, and I hope to know your experience so far."
  	 	 	},
  	 	 	"title2": {
  	 	 	 	"trans": "星何個ですか？",
@@ -3059,11 +3224,11 @@
  	 	 	"goodReview": {
  	 	 	 	"title1": {
  	 	 	 	 	"trans": "わーい！ありがとうございます！ 光栄です！私たちのストアページにそれらを残すことによって、公式にしてください:)",
- 	 	 	 	 	"eng": "Wow thanks so much! im honored, please make it official by leaving them on our store page :)"
+ 	 	 	 	 	"eng": "Wow, thanks so much! I'm honored, please make it official by leaving them on our store page :)"
  	 	 	 	},
  	 	 	 	"title2": {
  	 	 	 	 	"trans": "あなたの良いレビューは、非常に大きな私の助けになり、私たちのコミュニティに多くのプレーヤーをもたらします！",
- 	 	 	 	 	"eng": "Your good review is going to help me very and bring more players into our community!"
+ 	 	 	 	 	"eng": "Your good review is going to help me much and bring more players into our community!"
  	 	 	 	}
  	 	 	},
  	 	 	"dontAskMeAgain": {
@@ -3073,6 +3238,51 @@
  	 	 	"reviewLater": {
  	 	 	 	"trans": "後で",
  	 	 	 	"eng": "review later"
+ 	 	 	}
+ 	 	},
+ 	 	"contributionModal": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "プレイヤーはコンテンツを寄付しました",
+ 	 	 	 	"eng": "Player contributed content"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "GitHubページで設定ファイルを編集することで、このようなコンテンツにも貢献できます。",
+ 	 	 	 	"eng": "You can contribute to content like this and many more too by editing the config files in our GitHub page."
+ 	 	 	},
+ 	 	 	"confirm": {
+ 	 	 	 	"trans": "Githubに行きます",
+ 	 	 	 	"eng": "Go to GitHub"
+ 	 	 	},
+ 	 	 	"cancel": {
+ 	 	 	 	"trans": "わかった",
+ 	 	 	 	"eng": "ok"
+ 	 	 	}
+ 	 	},
+ 	 	"playerSearch": {
+ 	 	 	"searchPlayerHint": {
+ 	 	 	 	"trans": "検索するプレーヤー名を入力してください",
+ 	 	 	 	"eng": "Enter player name to search"
+ 	 	 	}
+ 	 	},
+ 	 	"resultScreen": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Level up",
+ 	 	 	 	"eng": "Victory"
+ 	 	 	},
+ 	 	 	"subTitle": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"levelName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "おめでとうございます、あなたはあなたの${levelName}を平準化しました！",
+ 	 	 	 	"eng": "Congratulation, you have leveled up your ${levelName}!"
+ 	 	 	},
+ 	 	 	"fromTo": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"from",
+ 	 	 	 	 	"to"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${from} => ${to}",
+ 	 	 	 	"eng": "${from} => ${to}"
  	 	 	}
  	 	}
  	},
@@ -3179,12 +3389,16 @@
  	 	 	"mostEfficient": {
  	 	 	 	"trans": "最も効率的です！",
  	 	 	 	"eng": "Most Efficient!"
+ 	 	 	},
+ 	 	 	"paypalExclusive": {
+ 	 	 	 	"trans": "ペイパルの排他的！",
+ 	 	 	 	"eng": "PayPal Exclusive!"
  	 	 	}
  	 	},
  	 	"paypal": {
  	 	 	"paypalBonusTitle": {
  	 	 	 	"trans": "すべてのPayPalの購入は10％追加のユニットを付与します！",
- 	 	 	 	"eng": "All PayPal purchases grants 10% additional Units!"
+ 	 	 	 	"eng": "All PayPal purchases grants 10% additional Units! You may use paypal only on website version, simply login with your browser."
  	 	 	},
  	 	 	"paypalBonus": {
  	 	 	 	"trans": "PayPalの購入でさらに10％多いユニットを受け取ります",
@@ -3198,6 +3412,10 @@
  	 	"total": {
  	 	 	"trans": "合計",
  	 	 	"eng": "total"
+ 	 	},
+ 	 	"receive": {
+ 	 	 	"trans": "受け取る",
+ 	 	 	"eng": "Receive"
  	 	}
  	},
  	"itemLore": {
@@ -3228,6 +3446,187 @@
  	 	"destroy": {
  	 	 	"trans": "破壊する",
  	 	 	"eng": "destroy"
+ 	 	}
+ 	},
+ 	"statusInventory": {
+ 	 	"takeAll": {
+ 	 	 	"trans": "すべて取ります",
+ 	 	 	"eng": "Take all"
+ 	 	},
+ 	 	"discard": {
+ 	 	 	"trans": "破棄",
+ 	 	 	"eng": "Discard"
+ 	 	},
+ 	 	"discardPrompt": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "あなたは確実に捨てたいですか？",
+ 	 	 	 	"eng": "Are you sure you want to discard?"
+ 	 	 	},
+ 	 	 	"confirm": {
+ 	 	 	 	"trans": "破棄",
+ 	 	 	 	"eng": "Discard"
+ 	 	 	},
+ 	 	 	"warning": {
+ 	 	 	 	"trans": "上記の項目/項目は廃棄され、在庫に配置されません。 この行動は不可能です。",
+ 	 	 	 	"eng": "The item/items above will be discarded and not be placed into your inventory. This action is irreversible."
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"iapCurrency": {
+ 	 	"currency1": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit}単位",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Receive ${unit} Unit",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency2": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit}単位",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	}
+ 	 	},
+ 	 	"currency3": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit}単位",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit}単位を受け取る（${bonus}ボーナス）",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency4": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit}単位",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit}単位を受け取る（${bonus}ボーナス）",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency5": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit}単位",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit}単位を受け取る（${bonus}ボーナス）",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency6": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit}単位",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit}単位を受け取る（${bonus}ボーナス）",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency7": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit}単位",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit}単位を受け取る（${bonus}ボーナス）",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency8": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit}単位",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit}単位を受け取る（${bonus}ボーナス）",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency9": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit}単位",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit}単位を受け取る（${bonus}ボーナス）",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"skipLike": {
+ 	 	"likeNotification": {
+ 	 	 	"vars": [
+ 	 	 	 	"likerName",
+ 	 	 	 	"amount"
+ 	 	 	],
+ 	 	 	"trans": "${likerName}はあなたのスキップのために${amount}尊敬を送りました",
+ 	 	 	"eng": "${likerName} has send you ${amount} respects for your skip"
  	 	}
  	}
 }
