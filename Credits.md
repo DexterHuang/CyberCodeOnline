@@ -126,6 +126,7 @@ zomg
 [Vult](https://github.com/Vult-source)
 [Sakura](https://github.com/lux-sakura)
 [Manz](https://github.com/manztellen)
+[xmonkx](https://github.com/xmonkx)
 
 ## Tutorial
 [alfaice](https://github.com/alfaice)
