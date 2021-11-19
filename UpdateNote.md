@@ -21,6 +21,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates    
+### **2021/11/19 v0.718**
+ * FIX - Fixed gang dungeon enemies and boss not dropping any cache and other drops they are suppose to drop, such as equipment caches and others (I have no idea this bug exists!)
+
 ### **2021/11/17 v0.718**
  * UPDATE - Added more Unit purchase tiers (only on browser with PayPal)
  * UI - Updated Unit purchase UI
