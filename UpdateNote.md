@@ -21,6 +21,19 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates    
+### **2021/11/20 v0.718**
+ * OPTIMIZATION - Simplified full screen popup rendering, should be easier on potatoes 
+ * UPDATE - Now when you travel between location, your page will automatically scroll to top
+ * UI - Tutorial popup will automatically scroll into view
+ * UI - Starting tips tutorial UI updated
+ * UI - Now locked interactables will show as gray-out with a small lockpad icon
+ * UPDATE - Street enemy below level 3 will not spawn with special trait, to prevent newbies get destroyed.
+ * UI - Updated error toast UI
+ * LANG - Updated synaptic item usaged notification text, before was long and abit confusing
+ * UI - `Secret Key` brute forcing interface now only shows secretkeys thats newer your level
+ * UI - Adjust NPC dialog box so on smaller screen it won't get blocked by NPC image
+ * Other UI fixes
+
 ### **2021/11/19 v0.718**
  * FIX - Fixed gang dungeon enemies and boss not dropping any cache and other drops they are suppose to drop, such as equipment caches and others (I have no idea this bug exists!)
 
