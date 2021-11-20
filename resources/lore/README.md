@@ -6,4 +6,5 @@ If your file name has a space in it, you may need to change the space to %20 whe
 ![my image](/resources/lore/my%20image.jpeg)
 ```
 Or, save yourself the hassle and just don't use spaces in your file names. :P
+
 use "-" or "_" instead of spaces
