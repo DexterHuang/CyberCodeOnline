@@ -73,7 +73,7 @@
  	 	 	},
  	 	 	"tut": {
  	 	 	 	"trans": "请从各地牢中获取其中的密钥碎片, 通过终端机进行暴力破解, 以获得开放下个区域的完整密钥",
- 	 	 	 	"eng": "To progress to the next area, you need to use get Secret Key Fragments from dungeons, \r\n        and use the Terminal to Brute Force the key for next area"
+ 	 	 	 	"eng": "To progress to the next area, you need to get Secret Key Fragments from dungeons, \r\n        and use the Terminal to Brute Force the key for next area"
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "你的个人电脑。尽管稍微有些旧，但是如果肯耐心等一下的话还是很好用的。",
@@ -1353,6 +1353,17 @@
  	 	"unlockVerb": {
  	 	 	"trans": "暴力破解",
  	 	 	"eng": "brute-force"
+ 	 	},
+ 	 	"bruteForce": {
+ 	 	 	"title": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"segmentDisplayName",
+ 	 	 	 	 	"segmentMinLevel",
+ 	 	 	 	 	"segmentMaxLevel"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${segmentDisplayName}秘密密钥（LV ${segmentMinLevel}  -  ${segmentMaxLevel}）",
+ 	 	 	 	"eng": "${segmentDisplayName} Secret Key (lv ${segmentMinLevel} - ${segmentMaxLevel})"
+ 	 	 	}
  	 	}
  	},
  	"quest": {
@@ -2047,6 +2058,18 @@
  	 	 	 	],
  	 	 	 	"trans": "在${date}到期",
  	 	 	 	"eng": "Expires in ${date}"
+ 	 	 	},
+ 	 	 	"title": {
+ 	 	 	 	"trans": "项目收件箱",
+ 	 	 	 	"eng": "Item Inbox"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "一旦有足够的空间，这里的物品将自动移动到您的库存。",
+ 	 	 	 	"eng": "Items here will be automatically moved to your inventory once you have enough space."
+ 	 	 	},
+ 	 	 	"empty": {
+ 	 	 	 	"trans": "您的商品收件箱中没有项目",
+ 	 	 	 	"eng": "There is no item in your item inbox"
  	 	 	}
  	 	},
  	 	"linkPage": {
@@ -2706,6 +2729,12 @@
  	 	 	 	"trans": "占用",
  	 	 	 	"eng": "Occupied by"
  	 	 	}
+ 	 	},
+ 	 	"craftingPage": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "制作",
+ 	 	 	 	"eng": "Crafting"
+ 	 	 	}
  	 	}
  	},
  	"misc": {
@@ -2826,6 +2855,14 @@
  	 	 	 	"trans": "名称只能包含英文字母，数字和“_”",
  	 	 	 	"eng": "Name can only contain English letters, numbers and \"_\""
  	 	 	}
+ 	 	},
+ 	 	"escape": {
+ 	 	 	"trans": "逃脱",
+ 	 	 	"eng": "escape"
+ 	 	},
+ 	 	"equipped": {
+ 	 	 	"trans": "装备",
+ 	 	 	"eng": "Equipped"
  	 	}
  	},
  	"statsType": {
@@ -3134,6 +3171,20 @@
  	 	 	 	"trans": "自主存储单位",
  	 	 	 	"eng": "Autonomous Storage Unit"
  	 	 	}
+ 	 	},
+ 	 	"ammo1": {
+ 	 	 	"vars": [
+ 	 	 	 	"minLevel"
+ 	 	 	],
+ 	 	 	"trans": "能量电池（LV ${minLevel}）",
+ 	 	 	"eng": "Energy Cell (lv${minLevel})"
+ 	 	},
+ 	 	"ammo2": {
+ 	 	 	"vars": [
+ 	 	 	 	"minLevel"
+ 	 	 	],
+ 	 	 	"trans": "反事项费（LV ${minLevel}）",
+ 	 	 	"eng": "Anti Matter Charge (lv${minLevel})"
  	 	}
  	},
  	"market": {
@@ -3275,6 +3326,28 @@
  	 	 	 	"trans": "${from} => ${to}",
  	 	 	 	"eng": "${from} => ${to}"
  	 	 	}
+ 	 	},
+ 	 	"newbieTutorial": {
+ 	 	 	"welcomeMsg": {
+ 	 	 	 	"trans": "欢迎来到最好的文字MMORPG",
+ 	 	 	 	"eng": "Welcome to the best Text MMORPG"
+ 	 	 	},
+ 	 	 	"noShowToggle": {
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "您可以在Profile> Tutorial选项卡上查看完整教程",
+ 	 	 	 	 	"eng": "You can see the full tutorial at Profile > Tutorial tab"
+ 	 	 	 	},
+ 	 	 	 	"label": {
+ 	 	 	 	 	"trans": "不要再展示这一点",
+ 	 	 	 	 	"eng": "Don't show this again"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"closeButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "关闭",
+ 	 	 	 	 	"eng": "Close"
+ 	 	 	 	}
+ 	 	 	}
  	 	}
  	},
  	"cosmetic": {
@@ -3373,6 +3446,22 @@
  	 	"localCombatButton": {
  	 	 	"trans": "点击此处扫描街头敌人",
  	 	 	"eng": "Click here to scan for street enemies"
+ 	 	},
+ 	 	"localCombat": {
+ 	 	 	"trans": "您将在击败敌人时收到exp，${config.currency_name}和loots， \n                 试试吧！",
+ 	 	 	"eng": "you will receive exp, ${Config.CURRENCY_NAME} and loots when you defeat enemies,\n                give it a try now!"
+ 	 	},
+ 	 	"primaryAttack": {
+ 	 	 	"trans": "点击这里攻击敌人",
+ 	 	 	"eng": "Click here to attack the enemy"
+ 	 	},
+ 	 	"statusInv": {
+ 	 	 	"trans": "点击“拿所有”以获取所有的抢劫",
+ 	 	 	"eng": "Click 'TAKE ALL' to get all the loots"
+ 	 	},
+ 	 	"dungeonQuest": {
+ 	 	 	"trans": "点击“接受任务”接受任务，您可以随时完成或放弃任务",
+ 	 	 	"eng": "Click 'ACCEPT QUEST' to accept the quest, you may complete or abandon the quest at any time"
  	 	}
  	},
  	"IAP": {
@@ -3618,6 +3707,248 @@
  	 	 	],
  	 	 	"trans": "${likerName}已向您发送{1}跳过{1}",
  	 	 	"eng": "${likerName} has send you ${amount} respects for your skip"
+ 	 	}
+ 	},
+ 	"donation": {
+ 	 	"donation1": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "“会员”捐赠标题",
+ 	 	 	 	 	"eng": "\"Member\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "解锁个人资料图片定制",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "基本聊天框架（无动画和没有特殊颜色）",
+ 	 	 	 	 	"eng": "Basic Chat Frame (no animation & no special color)"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation2": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "“捐赠者”捐赠标题",
+ 	 	 	 	 	"eng": "\"Donator\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "解锁个人资料图片定制",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "绿色聊天框架（带动画）",
+ 	 	 	 	 	"eng": "Green Chat Frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "绿色框架简介",
+ 	 	 	 	 	"eng": "Green Framed Profile"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation3": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "“精英”捐赠标题",
+ 	 	 	 	 	"eng": "\"Elite\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "解锁个人资料图片定制",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "金聊天框架（带动画）",
+ 	 	 	 	 	"eng": "Gold chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "金框架概况（有动画）",
+ 	 	 	 	 	"eng": "Gold Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "解锁定制生物",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "配置文件的条形码装饰",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "定制帮派座右铭",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "自定义帮派图像",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "更新的更新",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation4": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "“传奇”捐赠标题",
+ 	 	 	 	 	"eng": "\"Legendary\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "解锁个人资料图片定制",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "紫色聊天框架（带动画）",
+ 	 	 	 	 	"eng": "Purple chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "紫色框架配置文件（有动画）",
+ 	 	 	 	 	"eng": "Purple Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "解锁定制生物",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "配置文件的条形码装饰",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "定制帮派座右铭",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "自定义帮派图像",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "更新的更新",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation5": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "网上薯土豆",
+ 	 	 	 	 	"eng": "Cybernetic Potato"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "“网络感染土豆”捐赠标题",
+ 	 	 	 	 	"eng": "\"Cybernetic Potato\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "解锁个人资料图片定制",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "成为一个数字土豆",
+ 	 	 	 	 	"eng": "Become a Cybernetic Potato"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "土豆聊天框架（有动画）",
+ 	 	 	 	 	"eng": "Potato chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "土豆框架的概况（有动画）",
+ 	 	 	 	 	"eng": "Potato Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "解锁定制生物",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "配置文件的条形码装饰",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "定制帮派座右铭",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"10": {
+ 	 	 	 	 	"trans": "自定义帮派图像",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"11": {
+ 	 	 	 	 	"trans": "更新的更新",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	},
+ 	 	 	 	"12": {
+ 	 	 	 	 	"trans": "我提到你可能是一个控制论坛吗？",
+ 	 	 	 	 	"eng": "Did I mention you could be a Cybernetic Potato?"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"EquipmentSlot": {
+ 	 	"primaryWeapon": {
+ 	 	 	"trans": "主要武器",
+ 	 	 	"eng": "primary weapon"
+ 	 	},
+ 	 	"secondaryWeapon": {
+ 	 	 	"trans": "特殊武器",
+ 	 	 	"eng": "special weapon"
+ 	 	},
+ 	 	"tertiaryWeapon": {
+ 	 	 	"trans": "破坏性武器",
+ 	 	 	"eng": "destructive weapon"
+ 	 	},
+ 	 	"helmet": {
+ 	 	 	"trans": "头盔",
+ 	 	 	"eng": "helmet"
+ 	 	},
+ 	 	"upperArmor": {
+ 	 	 	"trans": "上盔甲",
+ 	 	 	"eng": "upper armor"
+ 	 	},
+ 	 	"lowerArmor": {
+ 	 	 	"trans": "较低的盔甲",
+ 	 	 	"eng": "lower armor"
+ 	 	},
+ 	 	"boots": {
+ 	 	 	"trans": "靴子",
+ 	 	 	"eng": "boots"
+ 	 	},
+ 	 	"backpack": {
+ 	 	 	"trans": "背包",
+ 	 	 	"eng": "backpack"
+ 	 	}
+ 	},
+ 	"dungeonList": {
+ 	 	"newbieTip": {
+ 	 	 	"trans": "在地下城的每次战斗后，你不会治愈，记得用你的治疗物品。",
+ 	 	 	"eng": "You will not heal after each fight in dungeon, remember to use your healing items."
+ 	 	}
+ 	},
+ 	"donationPage": {
+ 	 	"message": {
+ 	 	 	"content1": {
+ 	 	 	 	"trans": "你好，亲爱的球员！",
+ 	 	 	 	"eng": "Hello, dear players!"
+ 	 	 	},
+ 	 	 	"content2": {
+ 	 	 	 	"trans": "我是德克斯特，网络码的开发商在线。",
+ 	 	 	 	"eng": "I am Dexter, the developer of CyberCode Online."
+ 	 	 	},
+ 	 	 	"content3": {
+ 	 	 	 	"trans": "如果您有一些备用变更，如果您可以捐赠持续的支持和开发游戏，这将是非常有帮助的。",
+ 	 	 	 	"eng": "If you have some spare change it would be very helpful if you could donate to help with continued support and development of the game."
+ 	 	 	},
+ 	 	 	"content4": {
+ 	 	 	 	"trans": "请只捐赠如果您感到舒服，所有的福利都是为所有玩家提供公平的，并且不会在游戏玩法中提供优势。",
+ 	 	 	 	"eng": "Please only donate if you are comfortable, all benefits are designed to be fair for all players and will not give an edge in gameplay."
+ 	 	 	}
+ 	 	},
+ 	 	"monthlySubscription": {
+ 	 	 	"trans": "每月订阅",
+ 	 	 	"eng": "Monthly Subscription"
+ 	 	},
+ 	 	"benefits": {
+ 	 	 	"trans": "好处",
+ 	 	 	"eng": "benefits"
+ 	 	},
+ 	 	"TiersTitle": {
+ 	 	 	"trans": "捐赠层",
+ 	 	 	"eng": "Donation Tiers"
  	 	}
  	}
 }
