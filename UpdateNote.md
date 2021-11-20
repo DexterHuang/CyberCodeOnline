@@ -22,6 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates    
 ### **2021/11/20 v0.718**
+ * BUFF - Gang dungeon boss now has guaranteed drop of `Gang Resource Crate`, `Gang Memory Shard` and `Hash Processor` and drop chance of those items on normal enemies has also been increased
  * OPTIMIZATION - Simplified full screen popup rendering, should be easier on potatoes 
  * UPDATE - Now when you travel between location, your page will automatically scroll to top
  * UI - Tutorial popup will automatically scroll into view
