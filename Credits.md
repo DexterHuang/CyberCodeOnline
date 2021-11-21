@@ -63,6 +63,7 @@ Wanna
 [Sakura](https://github.com/lux-sakura)
 [Karl-B-Heintz](https://github.com/Karl-B-Heinz)
 [Lordsem](https://github.com/Lordsem)
+[xmonkx](https://github.com/xmonkx)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
