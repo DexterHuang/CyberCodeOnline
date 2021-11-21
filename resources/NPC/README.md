@@ -1,0 +1,1 @@
+## Used for npc assets

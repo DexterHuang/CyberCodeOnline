@@ -73,7 +73,7 @@
  	 	 	},
  	 	 	"tut": {
  	 	 	 	"trans": "Pour accéder à la zone suivante, vous devez utiliser des Fragments de clé secrète obtenus dans les donjons, \r\n        et utiliser le Terminal pour cracker la clé de la zone suivante",
- 	 	 	 	"eng": "To progress to the next area, you need to use get Secret Key Fragments from dungeons, \r\n        and use the Terminal to Brute Force the key for next area"
+ 	 	 	 	"eng": "To progress to the next area, you need to get Secret Key Fragments from dungeons, \r\n        and use the Terminal to Brute Force the key for next area"
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Votre ordinateur personnel, quoique un peu vieillissant, peut faire le boulot avec assez de patience",
@@ -1356,6 +1356,17 @@
  	 	"unlockVerb": {
  	 	 	"trans": "cracker",
  	 	 	"eng": "brute-force"
+ 	 	},
+ 	 	"bruteForce": {
+ 	 	 	"title": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"segmentDisplayName",
+ 	 	 	 	 	"segmentMinLevel",
+ 	 	 	 	 	"segmentMaxLevel"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${segmentDisplayName} Touche secrète (LV ${segmentMinLevel} - ${segmentMaxLevel})",
+ 	 	 	 	"eng": "${segmentDisplayName} Secret Key (lv ${segmentMinLevel} - ${segmentMaxLevel})"
+ 	 	 	}
  	 	}
  	},
  	"quest": {
@@ -2050,6 +2061,18 @@
  	 	 	 	],
  	 	 	 	"trans": "Expire en ${date}",
  	 	 	 	"eng": "Expires in ${date}"
+ 	 	 	},
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Boîte de réception",
+ 	 	 	 	"eng": "Item Inbox"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Les éléments ici seront automatiquement déplacés dans votre inventaire une fois que vous avez suffisamment d'espace.",
+ 	 	 	 	"eng": "Items here will be automatically moved to your inventory once you have enough space."
+ 	 	 	},
+ 	 	 	"empty": {
+ 	 	 	 	"trans": "Il n'y a pas d'article dans votre boîte de réception de votre article",
+ 	 	 	 	"eng": "There is no item in your item inbox"
  	 	 	}
  	 	},
  	 	"linkPage": {
@@ -2709,6 +2732,12 @@
  	 	 	 	"trans": "Occupé par",
  	 	 	 	"eng": "Occupied by"
  	 	 	}
+ 	 	},
+ 	 	"craftingPage": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Façade",
+ 	 	 	 	"eng": "Crafting"
+ 	 	 	}
  	 	}
  	},
  	"misc": {
@@ -2829,6 +2858,14 @@
  	 	 	 	"trans": "Le nom ne peut contenir que des lettres anglaises, des chiffres et \"_\"",
  	 	 	 	"eng": "Name can only contain English letters, numbers and \"_\""
  	 	 	}
+ 	 	},
+ 	 	"escape": {
+ 	 	 	"trans": "échapper",
+ 	 	 	"eng": "escape"
+ 	 	},
+ 	 	"equipped": {
+ 	 	 	"trans": "Équipé",
+ 	 	 	"eng": "Equipped"
  	 	}
  	},
  	"statsType": {
@@ -3143,6 +3180,20 @@
  	 	 	 	"trans": "Unité de stockage autonome",
  	 	 	 	"eng": "Autonomous Storage Unit"
  	 	 	}
+ 	 	},
+ 	 	"ammo1": {
+ 	 	 	"vars": [
+ 	 	 	 	"minLevel"
+ 	 	 	],
+ 	 	 	"trans": "Cellule d'énergie (LV ${minLevel})",
+ 	 	 	"eng": "Energy Cell (lv${minLevel})"
+ 	 	},
+ 	 	"ammo2": {
+ 	 	 	"vars": [
+ 	 	 	 	"minLevel"
+ 	 	 	],
+ 	 	 	"trans": "Charge anti-matière (LV ${minLevel})",
+ 	 	 	"eng": "Anti Matter Charge (lv${minLevel})"
  	 	}
  	},
  	"market": {
@@ -3284,6 +3335,28 @@
  	 	 	 	"trans": "${from} => ${to}",
  	 	 	 	"eng": "${from} => ${to}"
  	 	 	}
+ 	 	},
+ 	 	"newbieTutorial": {
+ 	 	 	"welcomeMsg": {
+ 	 	 	 	"trans": "Bienvenue dans le meilleur texte MMORPG",
+ 	 	 	 	"eng": "Welcome to the best Text MMORPG"
+ 	 	 	},
+ 	 	 	"noShowToggle": {
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Vous pouvez voir le tutoriel complet au profil> Tutoriel",
+ 	 	 	 	 	"eng": "You can see the full tutorial at Profile > Tutorial tab"
+ 	 	 	 	},
+ 	 	 	 	"label": {
+ 	 	 	 	 	"trans": "Ne montre plus ça",
+ 	 	 	 	 	"eng": "Don't show this again"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"closeButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "proche",
+ 	 	 	 	 	"eng": "Close"
+ 	 	 	 	}
+ 	 	 	}
  	 	}
  	},
  	"cosmetic": {
@@ -3382,6 +3455,26 @@
  	 	"localCombatButton": {
  	 	 	"trans": "Cliquez ici pour scanner les ennemis de rue",
  	 	 	"eng": "Click here to scan for street enemies"
+ 	 	},
+ 	 	"localCombat": {
+ 	 	 	"trans": "Vous recevrez exp, ${config.Currency_name} et loots lorsque vous vaincuez les ennemis, \n                 Essayez-vous maintenant!",
+ 	 	 	"eng": "you will receive exp, ${Config.CURRENCY_NAME} and loots when you defeat enemies,\n                give it a try now!"
+ 	 	},
+ 	 	"primaryAttack": {
+ 	 	 	"trans": "Cliquez ici pour attaquer l'ennemi",
+ 	 	 	"eng": "Click here to attack the enemy"
+ 	 	},
+ 	 	"statusInv": {
+ 	 	 	"trans": "Cliquez sur 'Prendre tous' pour obtenir tous les buts",
+ 	 	 	"eng": "Click 'TAKE ALL' to get all the loots"
+ 	 	},
+ 	 	"dungeonQuest": {
+ 	 	 	"trans": "Cliquez sur \"Accepter la quête\" pour accepter la quête, vous pouvez compléter ou abandonner la quête à tout moment",
+ 	 	 	"eng": "Click 'ACCEPT QUEST' to accept the quest, you may complete or abandon the quest at any time"
+ 	 	},
+ 	 	"localCombatTip": {
+ 	 	 	"trans": "Vous recevrez EXP, Bitcoin et des butins lorsque vous vaincuez les ennemis, \n                 Essayez-vous maintenant!",
+ 	 	 	"eng": "you will receive exp, Bitcoin and loots when you defeat enemies,\n                give it a try now!"
  	 	}
  	},
  	"IAP": {
@@ -3627,6 +3720,248 @@
  	 	 	],
  	 	 	"trans": "${likerName} vous a envoyé ${amount} respects pour votre saut",
  	 	 	"eng": "${likerName} has send you ${amount} respects for your skip"
+ 	 	}
+ 	},
+ 	"donation": {
+ 	 	"donation1": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "Titre de don \"membre\"",
+ 	 	 	 	 	"eng": "\"Member\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "Déverrouiller la personnalisation de la photo de profil",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Cadre de chat de base (aucune animation et couleur spéciale)",
+ 	 	 	 	 	"eng": "Basic Chat Frame (no animation & no special color)"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation2": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "Titre de don \"Donator\"",
+ 	 	 	 	 	"eng": "\"Donator\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "Déverrouiller la personnalisation de la photo de profil",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Cadre de chat vert (avec animation)",
+ 	 	 	 	 	"eng": "Green Chat Frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Profil encadré vert",
+ 	 	 	 	 	"eng": "Green Framed Profile"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation3": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "Titre de don \"Elite\"",
+ 	 	 	 	 	"eng": "\"Elite\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "Déverrouiller la personnalisation de la photo de profil",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Cadre de chat d'or (avec animation)",
+ 	 	 	 	 	"eng": "Gold chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Profil encadré or (avec animation)",
+ 	 	 	 	 	"eng": "Gold Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "Déverrouiller la biographie personnalisée",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Décoration de code à barres sur profil",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "Personnaliser la devise gang",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Personnaliser l'image gang",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Plus à venir à la mise à jour future",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation4": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "Titre de don \"légendaire\"",
+ 	 	 	 	 	"eng": "\"Legendary\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "Déverrouiller la personnalisation de la photo de profil",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Cadre de chat violet (avec animation)",
+ 	 	 	 	 	"eng": "Purple chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Profil encadré violet (avec animation)",
+ 	 	 	 	 	"eng": "Purple Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "Déverrouiller la biographie personnalisée",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Décoration de code à barres sur profil",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "Personnaliser la devise gang",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Personnaliser l'image gang",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Plus à venir à la mise à jour future",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation5": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "Pomme de terre cybernétique",
+ 	 	 	 	 	"eng": "Cybernetic Potato"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "Titre de don \"Cybernétique Potato\"",
+ 	 	 	 	 	"eng": "\"Cybernetic Potato\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Déverrouiller la personnalisation de la photo de profil",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Devenir une pomme de terre cybernétique",
+ 	 	 	 	 	"eng": "Become a Cybernetic Potato"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "Cadre de chat de pommes de terre (avec animation)",
+ 	 	 	 	 	"eng": "Potato chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Profil encadré de pommes de terre (avec animation)",
+ 	 	 	 	 	"eng": "Potato Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "Déverrouiller la biographie personnalisée",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Décoration de code à barres sur profil",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Personnaliser la devise gang",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"10": {
+ 	 	 	 	 	"trans": "Personnaliser l'image gang",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"11": {
+ 	 	 	 	 	"trans": "Plus à venir à la mise à jour future",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	},
+ 	 	 	 	"12": {
+ 	 	 	 	 	"trans": "Ai-je mentionné que vous pourriez être une pomme de terre cybernétique?",
+ 	 	 	 	 	"eng": "Did I mention you could be a Cybernetic Potato?"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"EquipmentSlot": {
+ 	 	"primaryWeapon": {
+ 	 	 	"trans": "arme principale",
+ 	 	 	"eng": "primary weapon"
+ 	 	},
+ 	 	"secondaryWeapon": {
+ 	 	 	"trans": "arme spéciale",
+ 	 	 	"eng": "special weapon"
+ 	 	},
+ 	 	"tertiaryWeapon": {
+ 	 	 	"trans": "arme destructive",
+ 	 	 	"eng": "destructive weapon"
+ 	 	},
+ 	 	"helmet": {
+ 	 	 	"trans": "casque",
+ 	 	 	"eng": "helmet"
+ 	 	},
+ 	 	"upperArmor": {
+ 	 	 	"trans": "armure supérieure",
+ 	 	 	"eng": "upper armor"
+ 	 	},
+ 	 	"lowerArmor": {
+ 	 	 	"trans": "armure inférieure",
+ 	 	 	"eng": "lower armor"
+ 	 	},
+ 	 	"boots": {
+ 	 	 	"trans": "bottes",
+ 	 	 	"eng": "boots"
+ 	 	},
+ 	 	"backpack": {
+ 	 	 	"trans": "sac à dos",
+ 	 	 	"eng": "backpack"
+ 	 	}
+ 	},
+ 	"dungeonList": {
+ 	 	"newbieTip": {
+ 	 	 	"trans": "Vous ne guérirez pas après chaque combat dans le donjon, n'oubliez pas d'utiliser vos objets de guérison.",
+ 	 	 	"eng": "You will not heal after each fight in dungeon, remember to use your healing items."
+ 	 	}
+ 	},
+ 	"donationPage": {
+ 	 	"message": {
+ 	 	 	"content1": {
+ 	 	 	 	"trans": "Bonjour, chers joueurs!",
+ 	 	 	 	"eng": "Hello, dear players!"
+ 	 	 	},
+ 	 	 	"content2": {
+ 	 	 	 	"trans": "Je suis Dexter, le développeur de CyberCode en ligne.",
+ 	 	 	 	"eng": "I am Dexter, the developer of CyberCode Online."
+ 	 	 	},
+ 	 	 	"content3": {
+ 	 	 	 	"trans": "Si vous avez des changements de rechange, il serait très utile que vous puissiez faire un don pour vous aider avec le soutien et le développement continu du jeu.",
+ 	 	 	 	"eng": "If you have some spare change it would be very helpful if you could donate to help with continued support and development of the game."
+ 	 	 	},
+ 	 	 	"content4": {
+ 	 	 	 	"trans": "Veuillez uniquement faire un don Si vous êtes à l'aise, tous les avantages sont conçus pour être juste pour tous les joueurs et ne donneront pas d'avantage au gameplay.",
+ 	 	 	 	"eng": "Please only donate if you are comfortable, all benefits are designed to be fair for all players and will not give an edge in gameplay."
+ 	 	 	}
+ 	 	},
+ 	 	"monthlySubscription": {
+ 	 	 	"trans": "Souscription mensuelle",
+ 	 	 	"eng": "Monthly Subscription"
+ 	 	},
+ 	 	"benefits": {
+ 	 	 	"trans": "avantages",
+ 	 	 	"eng": "benefits"
+ 	 	},
+ 	 	"TiersTitle": {
+ 	 	 	"trans": "Niveaux de donation",
+ 	 	 	"eng": "Donation Tiers"
  	 	}
  	}
 }
