@@ -22,6 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates    
 ### **2021/11/23 v0.718**
+ * NEW - Now once in a while, there is small chance server will drop a free random global buff when someone send a chat to global chat
  * NEW - Added two more image for enemy, if you are interested feel free to commit your image to github `resources/enemy/`
  * OPTIMIZATION - Server and client optimization
 
