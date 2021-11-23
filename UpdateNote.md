@@ -21,6 +21,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates    
+### **2021/11/23 v0.718**
+ * NEW - Added two more image for enemy, if you are interested feel free to commit your image to github `resources/enemy/`
+ * OPTIMIZATION - Server and client optimization
+
 ### **2021/11/21 v0.718**
  * NEW - Added community item lore, now anyone can easily add lore or tips to specific item by editing/adding file to GitHub
  * UI - Now if you have broken equipment when fighting street fight, system will notify you with error message
