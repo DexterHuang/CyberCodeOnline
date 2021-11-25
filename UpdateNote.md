@@ -21,6 +21,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates    
+### **2021/11/25 v0.718**
+ * NEW - Better newbie spam prevention
+ * FIX - Fixed npc shop issues
+ 
 ### **2021/11/24 v0.718**
  * NEW - Updated character naming scree
  * NEW - Added chat rule popup for newbies
