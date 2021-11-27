@@ -81,6 +81,7 @@ Wanna
 [bvcxz](https://github.com/bvcxz-cybercode)
 CeceCat
 [CelesMeh](https://www.instagram.com/celesmeh)
+[DiGiTiZeD](https://github.com/digitizedresistance)
 Exca
 JashinL
 MontyPython
