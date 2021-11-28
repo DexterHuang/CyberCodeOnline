@@ -65,6 +65,7 @@ Wanna
 [Karl-B-Heintz](https://github.com/Karl-B-Heinz)
 [Lordsem](https://github.com/Lordsem)
 [xmonkx](https://github.com/xmonkx)
+[FreddyAmonov](https://github.com/FreddyAmonov)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
