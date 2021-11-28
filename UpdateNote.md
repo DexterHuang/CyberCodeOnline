@@ -21,6 +21,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates    
+### **2021/11/28 v0.718**
+ * UI - Updated quest page UI
+ * UI - Added quick menu when you click on player message
+
 ### **2021/11/27 v0.718**
  * UI - Added tutorial button to phone menu
  * OPTIMIZATION - Optimized skip like rendering
