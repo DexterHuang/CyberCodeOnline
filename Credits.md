@@ -209,6 +209,7 @@ RsKaiser
 SKIFFI
 spyd3r
 [Tripplehelix](https://github.com/tripplehelix)
+[K4LM3D](https://github.com/mksalada)
 
 ## Security Bug Reporters
 [0xF61](https://github.com/0xF61)
