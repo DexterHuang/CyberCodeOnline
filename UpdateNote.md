@@ -21,6 +21,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates    
+### **2021/11/30 v0.718**
+ * OPTIMIZATION - Alot of optimization on the server side to ensure it does not explode again
+ * NEW - Added sever notice, allows me to show popup for important message to all players 
+
 ### **2021/11/28 v0.718**
  * UI - Updated quest page UI
  * UI - Added quick menu when you click on player message
