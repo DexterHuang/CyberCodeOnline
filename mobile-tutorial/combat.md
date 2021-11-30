@@ -1,25 +1,23 @@
 ## Combat
 
-In every adventure location, you will see a list of Nearby Enemies, as well as two Dungeons which you can enter. The areas are separated by level groups, and when you complete all three normal dungeon levels you should have three keys which will be used to unlock the next area.  
+In every location, you will see a list of Nearby Enemies and three Dungeons which you can enter. Locations are separated by level groups.  To unlock new areas, you'll have to gather three key fragments from the dungeons. You can then brute force a new key with your key fragments at the Terminal.
   
-Click on any of the listed enemies to enter combat. While inside a dungeon, clicking on the enemy, represented by an alien logo will draw you into combat with it.  
-  
-There are different options that you can choose during a combat.
+To fight Nearby Enemies, select any of the listed enemies to enter combat.  You are unable to heal while fighting Nearby Enemies, but if you are about to die, click Escape in the top left. While inside a dungeon, clicking on the enemy, represented by an alien logo will draw you into combat with it.  
 
 ## Primary Attack
-Attack the enemy with your equipped primary weapon. No ammo consumed.
+Attack the enemy with your equipped primary weapon. This weapon does not use ammo.
 
 ## Special Attack
-Attack the enemy with your equipped special weapon. Consumes one Energy Cell for each shot.
+Attack the enemy with your equipped special weapon. Deal 120% damage to shields. This weapon consumes one Energy Cell per shot.
 
 ## Destructive Attack
-Attack the enemy with your equipped destructive weapon. Consumes one Antimatter charge.
+Attack the enemy with your equipped destructive weapon. Deal 50% damage to shields. This weapon consumes one Antimatter charge per shot.
 
 ## Use Item
-This option is exclusively for dungeons. You will need to bind the item in the Inventory interface to use them, and only medical items can be binded. XP Memories are used to increase your Player XP.
+You have 3 Use Item slots.  You can bind medical supplies to these slots and use them inside of Dungeons.  You can bind Experience Memories, but this is not necessary since you can use them directly from your inventory to gain Player Experience.
 
 ## Escape
-With this option you can try to escape from combat. The success rate of escaping combat outside a dungeon is always 100%. However if you are fighting inside a dungeon and try to escape, the chance will be based on your escape stats which is taken from your armour and upgrade stats. If you fail to escape, you will then be attacked by the enemy without dealing any damage.  
+You can attempt to escape from combat by clicking Escape in the top left. The success rate for escaping combat outside a dungeon is always 100%. However if you are fighting inside a dungeon and try to escape, the chance will be based on your escape stat which is taken from your armour and upgrade stats. If you fail to escape, you will then be attacked by the enemy without dealing any damage.  
   
 The combat screen will show you how much health and shield you and your opponent both have, as well as the amount of ammo you have left for each of your weapons and the approximate damage they can do.  
 
