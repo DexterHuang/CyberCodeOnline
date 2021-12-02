@@ -21,7 +21,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates    
-### **2021/12/32 v0.718**
+### **2021/12/2 v0.718**
+ * FIX - Fixed soem non-english character fail to send to chat due to a 3rd party library got updated unexpectedly, and the update contains bug, reverted to older version of the liberay 
+### **2021/12/1 v0.718**
  * NEW - Added quick mute menu for moderators, system will now memorize mute record and suggest appropriate mute time base on records
  * UI - Added skip queue to `All Apps` menu 
  * NEW - Added ability to temperary disable dungeon when server is being fixed
