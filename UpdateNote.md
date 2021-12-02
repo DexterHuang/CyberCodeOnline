@@ -24,6 +24,8 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ### **2021/12/32 v0.718**
  * NEW - Added quick mute menu for moderators
  * UI - Added skip queue to `All Apps` menu 
+ * NEW - Added ability to temperary disable dungeon when server is being fixed
+ * NEW - Added server popup notification for emmergency notice
 
 ### **2021/11/30 v0.718**
  * OPTIMIZATION - Alot of optimization on the server side to ensure it does not explode again
