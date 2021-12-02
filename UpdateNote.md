@@ -22,7 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates    
 ### **2021/12/32 v0.718**
- * NEW - Added quick mute menu for moderators
+ * NEW - Added quick mute menu for moderators, system will now memorize mute record and suggest appropriate mute time base on records
  * UI - Added skip queue to `All Apps` menu 
  * NEW - Added ability to temperary disable dungeon when server is being fixed
  * NEW - Added server popup notification for emmergency notice
