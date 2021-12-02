@@ -21,6 +21,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates    
+### **2021/12/32 v0.718**
+ * NEW - Added quick mute menu for moderators
+ * UI - Added skip queue to `All Apps` menu 
+
 ### **2021/11/30 v0.718**
  * OPTIMIZATION - Alot of optimization on the server side to ensure it does not explode again
  * NEW - Added sever notice, allows me to show popup for important message to all players 
