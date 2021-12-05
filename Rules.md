@@ -18,7 +18,7 @@
 * Any illegal activities will get you instantly banned -- including but not limited to -- harrassing underage person you met in game
 
 ### Chat Rules
-## Not Allowed: 
+#### Not Allowed: 
 * unfriendly, disrespectful to others opinion / offensive or pssive agressive messages (Expample, racist, sexist comments)
 * non-family-friendly chat
 * Spam / Troll 
@@ -26,7 +26,7 @@
 * Impersonate others  
 * Place links in chat
 
-## Allowed(as long as you don't breach the rules above):
+#### Allowed(as long as you don't breach the rules above):
 * Emoji😃 / Kaomoji ~ヾ(＾∇＾) / 𝕹𝖔𝖓𝖊-𝖘𝖙𝖆𝖓𝖉𝖆𝖗𝖉 𝕱𝖔𝖓𝖙𝖘 (Must be easily readble and does not create chaos)
 * Roleplay
 * Discussing Politic, Religion, or COVID
