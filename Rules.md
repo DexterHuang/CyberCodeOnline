@@ -19,12 +19,13 @@
 
 ### Chat Rules
 * Chat is for everyone. No one is excluded unless you breach the following topics:
-* While discussing Politic, Religion, or COVID is not a bannable offence, be friendly, respectful to others opinion and non-offensive otherwise is deem breach of rules
+* While discussing Politic, Religion, or COVID is allowed, be friendly, respectful to others opinion and non-offensive otherwise is deem breach of rules
 * Stay family friendly
-* Be kind
+* Emoji, Kaomoji, none-standard font is allowed. spamming or trolling with them will still breach the spam and troll rule (duh)
 * Don't be offensive/disrespectful/hostile/passive aggressive to any other players. No unfriendly messages allowed in global chat -- including but not limited to -- racists and homophobic comments
 * Don't:  
-  - Spam  
+  - Spam
+  - Troll
   - Advertise other games 
   - Impersonate others  
   - Place links in chat
