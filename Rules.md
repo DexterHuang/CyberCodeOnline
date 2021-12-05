@@ -18,6 +18,7 @@
 * Any illegal activities will get you instantly banned -- including but not limited to -- harrassing underage person you met in game
 
 ### Chat Rules
+**All rules are listed here, there is NO "unwritten rules", but be respectful and stop if other players don't like what you are sending in chat**
 #### Not Allowed: 
 * unfriendly, disrespectful to others opinion / offensive or pssive agressive messages (Expample, racist, sexist comments)
 * non-family-friendly chat
@@ -31,4 +32,3 @@
 * Roleplay
 * Discussing Politic, Religion, or COVID
 * Using any language in any chat channel
-  
