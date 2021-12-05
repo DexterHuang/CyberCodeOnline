@@ -18,15 +18,17 @@
 * Any illegal activities will get you instantly banned -- including but not limited to -- harrassing underage person you met in game
 
 ### Chat Rules
-* Chat is for everyone. No one is excluded unless you breach the following topics:
-* While discussing Politic, Religion, or COVID is allowed, be friendly, respectful to others opinion and non-offensive otherwise is deem breach of rules
-* Stay family friendly
-* Emoji, Kaomoji, none-standard font is allowed. spamming or trolling with them will still breach the spam and troll rule (duh)
-* Don't be offensive/disrespectful/hostile/passive aggressive to any other players. No unfriendly messages allowed in global chat -- including but not limited to -- racists and homophobic comments
-* Don't:  
-  - Spam
-  - Troll
-  - Advertise other games 
-  - Impersonate others  
-  - Place links in chat
+## Not Allowed: 
+* unfriendly, disrespectful to others opinion / offensive or pssive agressive messages (Expample, racist, sexist comments)
+* non-family-friendly chat
+* Spam / Troll 
+* Advertise / Mention of other game 
+* Impersonate others  
+* Place links in chat
+
+## Allowed(as long as you don't breach the rules above):
+* Emoji😃 / Kaomoji ~ヾ(＾∇＾) / 𝕹𝖔𝖓𝖊-𝖘𝖙𝖆𝖓𝖉𝖆𝖗𝖉 𝕱𝖔𝖓𝖙𝖘 (Must be easily readble and does not create chaos)
+* Roleplay
+* Discussing Politic, Religion, or COVID
+* Using any language in any chat channel
   
