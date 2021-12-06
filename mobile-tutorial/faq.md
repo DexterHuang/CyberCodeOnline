@@ -92,27 +92,27 @@ To equip and use your healing items, go to your inventory and under your equipme
 Click on one of them and assign your desired healing item to it.  
 Healing items can be used only inside dungeons.  
 
-### Why my Special and Destructive weapons have no ammo?
-Special weapon uses Energy Cells and Destructive, Anti-Matter Charges.  
-Both these kind of ammo need to be either looted from enemies or crafted in the Crafting tab, inside Inventory.
+### Why can't I use my Special and Destructive weapons?
+These weapons require ammo. Special weapons uses Energy Cells and Destructive weapons use Anti-Matter Charges.  
+Ammo can be looted form enemies, crafted in your Inventory, or bought on the player market. 
 
 ### Can I upgrade the stats of my weapons and armour?
-Yes you can. You need to be part of a gang to able to access the Gang Headquarters.  
-After that you will need to have an Equipment Calibration Core.  
-To calibrate (upgrade) your weapons and armor, all you need to do, once you have the Calibration Core, is to head out to your Gang Headquarters, and click on 'CALIBRATION STATION'.
+Yes, you can upgrade your weapons at the Calibration Station found in your main map.  The Calibration Station requires an Equiptment Calibration Core.
+Calibration has a chance of destruction, so be on the lookout for Calibration buffs which lower destruction chance.
 
 ### What does "Quality" on weapons and armor means?
 The quality of the armor will contribute a lot on the stat it gives; the higher the quality, the better the stats.
+Quality tiers go from Trash > Common > High Quality > Rare > Legendary > Epic.
 You cannot change the Quality of a weapon or armor.
 
 ### What does "Durability" on weapons and armor means?
-Durability is the ability of an equipment to remain functional, without requiring excessive maintenance or repair, when faced with the challenges of normal operation over it's designed lifetime. (Wikipedia)
+Durability is the ability of an equipment to remain functional, without requiring excessive maintenance or repair, when faced with the challenges of normal operation over it's designed lifetime. (Wikipedia).  Durability only decreases when fighting Nearby Enemies.  Durability is not impacted when fighting in dungeons.
 
 ### How do I repair my equipment's durability?
-You can repair your equipment by paying a small amount of BTC at the Weaponsmith which you can find in the City Center.
+You can repair your equipment by paying a small amount of BTC at the Weapon Shop located in the City Center.
 
 ### Can I remove installed upgrade modules?
-Yes. Just click on the installed upgrade module to remove it from the equipment.
+Yes. Click on the installed upgrade module to remove it from the equipment.
 
 ### Why is the equipment I print the wrong level?
 Your printed gear will have the same level as the one from your 'Printing Rank'. It does not scale with player level.
@@ -120,60 +120,53 @@ Your printed gear will have the same level as the one from your 'Printing Rank'.
 ### How do I increase my printing rank?
 There are 3 ways to increase your printing rank.
 
-1. Print caches. Each cache you print increases your rank. So the best possible way to increase your rank with this is to print all your trash caches, as they cost less to print.
+1. Print caches at the 3D Printing Module. Each cache you print gives you printing exp. Trash caches are the cheapest to print and the printed gear can be scrapped for Tech Scrap.
 
-2. AFK Printing Training. There is an AFK job in the Commercial Area called 'Work in Printing Factory' that increases your printing rank.
+2. AFK Printing Training. There is an AFK job in the Commercial Area called 'Work in Printing Factory' that gives you printing exp.
 
-3. Reverse engineering Tech Scraps. In the Commercial Area there is a short AFK job called 'Reverse Engineer Scraps' which uses Tech Scraps to increase your printing rank. This is by far the fastest way to increase your rank. By printing caches then scrapping them for Tech Scraps, you'll be able to level up your printing rank quickly.
+3. Reverse engineering Tech Scraps. In the Commercial Area there is a short AFK job called 'Reverse Engineer Scraps' which uses Tech Scraps to increase your printing rank. This is the fastest way to increase your rank. 
 
 ### What are caches and what should I do with them?
-You can use them to craft equipment at the Molecular 3D Printer.
+You can use them to craft equipment at the Molecular 3D Printer.  It is not recommended to scrap your caches because they are more valuable to print or sell.
 
 ### Do caches scale with my level? Should I keep them for later?
-The caches you get scale only to your Printing Rank.
-The gear that you obtain from them, whether weapons, armor or upgrade modules, will always have the same level as your Printing Rank. Make sure to level your Printing Rank to your current player level to always receive the best equipment possible from printing.
+The caches you print scale with your Printing Rank.
+The gear that you obtain from them will always have the same level as your Printing Rank. Make sure to level your Printing Rank to your current player level to always receive the best equipment possible from printing.
 
-It doesn't matter if you print your caches now or later, but it's recommended to keep for later levels (lvl 30 - 40+) the Legendary and Epic ones, if you ever happen to find them as drops.
-Legendary and Epic caches are much more expensive to craft than Rare ones, but the items have much better stats so the equipment will be relevant to you longer. If you have a set of Legendary equipment, you won't be switching off too soon.
+It doesn't matter if you print your caches now or later, but it's recommended to keep your Legendary caches for levels 30-40+.  If you happen to find an Epic cache, hold onto it until level 100+.
+Legendary and Epic caches are much more expensive to craft than Rare ones, but the items have much better stats.  Higher quality items can last you for a long time, and are often worth calibrating at the Calibration Station.
 
 ### Will higher level enemies give more rewards?
 Yes. Higher level enemies give you more BTC and experience after you defeat them.
 
 ### What are Locked Containers and how do I unlock them?
-Locked containers (✧) are special crates that can be found and picked up from dungeons and can be unlocked using Tech Scraps at the Terminal in the main HUB.
-They contain various rewards from Tech Scraps to Legendary gear.
+Locked containers (✧) can be found and picked up from dungeons. They can be unlocked using Tech Scraps at the Terminal in the main HUB, and contain various rewards ranging from Tech Scrap to Legendary gear.
 
-Depending on the quality of the locked container, the amount of Tech Scrap needed for unlocking it depends on the quality of the container, starting from 32 Tech Scraps for common containers, 64 for rare containers and 128 for legendary ones.
+Tech scrap costs for opening the containers are 32 Tech Scrap for common containers, 64 for rare containers, and 128 for legendary ones.
 
 If you don't see the option for unlocking the container at the Terminal, it means you do not have enough Tech Scraps.
 
 ### What is BitCoin (BTC) and how do I redeem it?
-BitCoin (BTC) is just the game's currency, so the BitCoin here isn't the same as the one from the real world. (We would all be richer than Elon Musk if it was equivalent.)
+BitCoin (BTC) is the game's currency.  Your in game BitCoin isn't the same as the one from the real world. If it was, we would all be richer than Elon Musk!
 
 ### How do I get more BitCoins?
-You can get more by mining with 'Hash Processors' (that drop from dungeons) at the [Job Hub].
-You can also get BitCoins by selling items in the Player Market or receiving them from defeating mobs or dungeons.
+BitCoin is obtained when defeating enemies, selling items in the Player Market, and by mining with Hash Processors.  Hash Processors are found in dungeons and may be usd to mine BitCoin at the [Job Hub].
 
 ### What is Street Cred?
 Street Cred (Street Credit) is a way to appreciate someone you like or who has helped you. They are similar to "Karma" points on Reddit.
 
-You can give only 1 Street Cred per day. To give Street Cred, all you have to do is to go to the person's profile, scroll down to 'Player Actions' and click on [GIVE STREET CRED] located under [ADD TO FRIEND LIST].
+You can give 1 Street Cred per day. To give Street Cred, go to the person's profile, scroll down to 'Player Actions' and click on [GIVE STREET CRED] located under [ADD TO FRIEND LIST].
 
-You should consider giving some Street Credit to the people that contributed to this game. You can view the list at Profile - > Credits.
+Consider giving some Street Credit to the people that contributed to this game! You can view the list at Profile - > Credits.
 
 ### What are Gangs and how do I create one?
-Gangs are the equivalent of clans or guilds in other MMORPGs.
+Gangs are similar to guilds or clans in other MMORPGs.  Joining a gang gives you access to new AFK tasks, a recycler to make tech scrap, and gang chat!  You also gain access to gang dungeons, which have a high level of difficulty but greater rewards than the regular dungeons.
 
-You can create one if you go to Chat, then the Gang tab and pay 100,000 BTC.
-
-Gangs allow you to have a tag of 3 letters, chosen when the gang was created, in your chat border.
-
-Players that are in gangs can access a much higher difficulty dungeon, a gang dungeon, with guaranteed rare quality cache drops or higher.
-The gang dungeon can be accessed only with a Gang Transmitter found in challenge dungeons.
+You can create one by selecting the Gang chat.  The cost to create a gang is 50,000 BTC.  Gangs have a weekly upkeep cost that must be met to avoid being disbanded. Gangs allow you to have a tag of 3 letters, chosen when the gang was created, in your chat border.
 
 ### How do I search for a Gang? How do I join one?
 Currently, you can't see a list of gangs in the game.
-You can join one by creating it yourself or by receiving an invite from the Gang Leader or a gang member granted permissions to invite others to the gang.
+You can join one by creating it yourself or by receiving an invite from a gang.
 
 ### Can I rename my Gang? Can I have the same tag as another Gang has?
 Currently, you can't rename your own gang.
@@ -183,84 +176,72 @@ All gangs should have different tags in order to avoid confusion.
 ### How can I level up my gang?
 To be able to maintain your gang and to level it up, each member of the gang will have to gather resources (through an AFK task in the Gang Headquarters) and will also have to donate bitcoins to it.
 
-### Where's my gang headquarters (HQ)? What can I do there?
-Gang HQ is located in the main HUB, under [Player Market].
+### Where are the Gang Headquarters (HQ)? What can I do there?
+Gang HQ is located in the main HUB, under [Player Market].  At the Gang HQ you're able to donate bitcoin, gather resources, and do a varitety of AFK tasks.
 
-Here you can donate bitcoins and gather resources for the upkeep of your gang.
-
-Here you can also decrypt Memory Shards that will give an equipment cache, mining EXP and gang EXP.
-
-### What do all the different symbols mean in dungeons?
-- "?" represents a "good guy" giving a quest. You can access accepted quests in your Quest tab.
+### What are the symbols in dungeons?
+- "?" represents a quest. You can access accepted quests in your Quest tab.
 - "!" represents lore.
 - Crates are represented by small white boxes.  
-- Crates that have a "+" inside them are special crates containing key fragments.
-- The yellow ✧ is a crate containing a locked container.
+- Crates that have a "+" inside them contain key fragments.
+- The yellow ✧ contains a locked container.
 - The alien looking icons represent monsters inside the dungeon.
 
 ### What are Public and Private Dungeons? What are Password Protected Dungeons?
-A dungeon is Public by default when creating one. Public Dungeons are available to everyone to see and join (if they meet the level requirements) by accessing the list of dungeons.
-You can make the dungeon Private so that it's invisible to other players and only you can play in the dungeon.
+When creating a dungeon, it will default to Public.  This means that anyone can see and join your dungeon as long as they meet the level requirements. If you make your dungeon Private, it will be invisible and inaccessible to other players.
 
-Instead of making your dungeon private, you can choose to protect it with a password by swiping the 'Dungeon password' button to activate and type in a password.
-
-Password protected dungeons can be seen by other players but they cannot join unless they know the password. This is useful if you want to clear a dungeon with specific friends. Just share the password in Gang chat or through Mail.
+You may also create a password for your dungeon so that it is only accessible by users who know the password.
 
 ### People are looting my stuff. Help!
-The loot in the dungeons is instanced for each player, meaning that the loot in the crates is randomly generated for each player.
-Therefore is impossible for someone to steal your loot.
+The loot in the crates is randomly generated for each player. Therefore, it's impossible for someone to steal your loot.
 
 ### What are Tech Scraps?
-Tech Scraps are resources obtained from scrapping caches and printed gear.
+Tech Scraps are resources obtained from scrapping caches and printed gear.  They can also be generated at with the Gang Recycler.
 
-They can be used to level up Printing Rank faster, to craft Ai Cores and Hash Processors and to unlock Locked Containers.
+They can be used to level up Printing Rank faster, craft Ai Cores and Hash Processors, and to open Locked Containers.
 
 The best way to get Tech Scrap is to mass print Trash Caches or Common Caches and then mass scrap the obtained gear.
 
 ### What are AI Cores?
-AI Cores are items required to AFK farm dungeons. Basically they allow you to farm EXP, items and a small amount of BTC. They can be acquired as drops or crafted from Hash Processors.
+AI Cores are items required to AFK farm dungeons.  AFK farming provides EXP, items, and a small amount of BTC. AI cores can be acquired as drops or crafted from Hash Processors.
 
 ### What are Hash Processors?
 Hash Processors ('hash' for short) are items that are required to activate an AFK job that yields high amounts of BTC (BitCoin). They drop from normal and challenge dungeons.
 
 ### What are Gang Memory Shards?
-Upon deciphering them, these items will give you a random cache, mining experience and gang experience.
+Upon deciphering them, these items will give you a random cache, along with mining and gang experience.
 
-### What are Gang Invasion Transmitters?
-Gang invasion transmitters are special items that drops only from a boss of a challenge dungeon.
-They are required to be able to open a Gang Dungeon.
-Everyone who wishes to enter in the Gang Dungeon will have to have a Gang Invasion Transmitter in their inventory.
+### What are Gang Invasion Order Transmitters?
+Gang invasion transmitters are special items that drop from the boss in challenge dungeons.
+They are required to open a Gang Dungeon.
 
 ### What are Transmitters?
-These are special items that can be bought only with Units (premium currency) and provide global benefits to all players on the server.
+These are special items that can be bought with Units (premium currency) and provide global benefits to all players on the server.  Their effects range from reducing the time on AFK job or activities to increasing BTC or EXP gain. These are untradeable.
 
-The only exception is the normal transmitter that drops from dungeons, which is less effective than the paid versions.
-
-Their effects range from reducing the time on AFK job or activities to increasing BTC or EXP gain.
+There are also normal transmitters that drops from dungeons, but are less effective than the paid version.
 
 ### What are Equipment Calibration Cores?
-These are items that help you in upgrading your weapons and armor.
+Equipment Calibration Cores are used at the Calibration Station to upgrade your gear.
 
-### What are Calibration Ai Shards?
-These items offers a stackable buff that increase the success of chance of calibration.
+### What are Calibration AI Shards?
+These items offers a stackable buff that increase the chance of success when calibrating.
 
 ### What's the benefit of leveling my crafting skills?
 Your crafting skills allow you to create useful consumables, including medicine and ammo.
 Higher levels allow you to craft more types of items and also craft more efficiently. For example, higher-level healing items will heal for more health.
 
 ### How do I increase my Scavenge Skill?
-In every area with enemies, there is an action called AFK Resource Gather near the bottom of the list.
-It's located under the dungeon selections.
+In every area with enemies, there is an action called AFK Resource Gather near the bottom of the list, under the dungeon selections.
 You'll need to increase your scavenging level starting from earlier train stations (Level 1 - 4) before being able to scavenge at higher level sites.
 
 ### What's mining and how do I increase my mining skill?
-Mining is the skill that allows you to farm BTC (BitCoin) more easily.
-It also allows you to craft level 10 and level 20 AI Cores.
+Mining is the skill that allows you to farm BTC (BitCoin). It also allows you to craft AI Cores.
 To mine, you need to have Hash Processors which drop from dungeons.
 If you want to start mining, simply go to the [Job Hub] and scroll down until you see the option to mine.
+You also receive mining experience when gather resources for your gang.
 
 ### What is the Gear Score?
-Gear Score is the average level of the equipment you wear. This doesn't take into account anything but the equipment levels.
+Gear Score is the average level of the equipment you wear. This is calculated by averaging every non-weapon gear you have equipped, plus the highest level weapon you have (excluding destructive).
 
 ### What is the Pocket Stat?
 Pockets increase your inventory size. 1 pocket means 1 additional inventory slot.

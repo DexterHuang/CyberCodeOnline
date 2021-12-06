@@ -1,0 +1,3 @@
+Oh yeah, there is something rattling around in there and clearly valuable enough to warrant a bio-encryption lock. Giving it a quick EMF scan you are pretty sure you recognize the chipset signature, likely a Synthcore controller from a few generations back or, better yet, one of those Archtech runs with the floating point errors.  Either way, you can bypass this older firmware and whatever was valuable enough to lock up will be yours soon enough.
+
+That old data sliver kit you picked up in Hawker's Alley would pop it right open, shame you lost it in one of those late night dungeon crawls. Should be short work to bypass the lock at a terminal back in City Center though. Maybe grab a hot bowl of pho while at it.

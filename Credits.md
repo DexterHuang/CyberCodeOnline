@@ -130,6 +130,7 @@ zomg
 [Sakura](https://github.com/lux-sakura)
 [Manz](https://github.com/manztellen)
 [xmonkx](https://github.com/xmonkx)
+[Wootles](https://github.com/Wootles)
 
 ## Tutorial
 [alfaice](https://github.com/alfaice)
@@ -210,6 +211,7 @@ SKIFFI
 spyd3r
 [Tripplehelix](https://github.com/tripplehelix)
 [K4LM3D](https://github.com/mksalada)
+[Wootles](https://github.com/Wootles)
 
 ## Security Bug Reporters
 [0xF61](https://github.com/0xF61)

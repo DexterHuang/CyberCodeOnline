@@ -21,6 +21,30 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates    
+### **2021/12/6 v0.718**
+ * OPTIMIZATION - Increase rendering speed for chat effect
+ * OPTIMIZATION - Increase rendering speed for inventory page
+ * UPDATE - Re-enable the split view on web browser, but still disabled on tablets, due to slow down concerns
+
+### **2021/12/3 v0.718**
+ * NEW - Added language based chat channels, you can switch channel on the chat page, Global remains international and all langauge is welcome there
+ * UPDATE - Now new player's language and chat channel will default to their device language if it is available
+ * UI - Updated `Arasaka Unit Exchange` character art
+
+### **2021/12/2 v0.718**
+ * FIX - Fixed soem non-english character fail to send to chat due to a 3rd party library got updated unexpectedly, and the update contains bug, reverted to older version of the liberay 
+ * FIX - Reduce the likly hook of `[Object Object]` error when too many people sending chat
+
+### **2021/12/1 v0.718**
+ * NEW - Added quick mute menu for moderators, system will now memorize mute record and suggest appropriate mute time base on records
+ * UI - Added skip queue to `All Apps` menu 
+ * NEW - Added ability to temperary disable dungeon when server is being fixed
+ * NEW - Added server popup notification for emmergency notice
+
+### **2021/11/30 v0.718**
+ * OPTIMIZATION - Alot of optimization on the server side to ensure it does not explode again
+ * NEW - Added sever notice, allows me to show popup for important message to all players 
+
 ### **2021/11/28 v0.718**
  * UI - Updated quest page UI
  * UI - Added quick menu when you click on player message
