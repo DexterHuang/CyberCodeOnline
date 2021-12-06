@@ -22,6 +22,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates    
 ### **2021/12/6 v0.718**
+ * UPDATE - implemented a custom profanity detection, instead of using 3rd party lib
  * OPTIMIZATION - Increase rendering speed for chat effect
  * OPTIMIZATION - Increase rendering speed for inventory page
  * UPDATE - Re-enable the split view on web browser, but still disabled on tablets, due to slow down concerns
