@@ -131,6 +131,7 @@ zomg
 [Manz](https://github.com/manztellen)
 [xmonkx](https://github.com/xmonkx)
 [Wootles](https://github.com/Wootles)
+[K4LM3D](https://github.com/mksalada)
 
 ## Tutorial
 [alfaice](https://github.com/alfaice)
