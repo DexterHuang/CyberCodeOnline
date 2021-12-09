@@ -224,3 +224,4 @@ spyd3r
 [hildjj](https://github.com/hildjj)
 [mr_moe](https://github.com/donburks)
 [RubenVerg](https://github.com/rubenverg)
+[NTHiG](https://github.com/NTHGiT)
