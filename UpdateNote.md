@@ -21,6 +21,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates    
+### **2021/12/9 v0.749 - CHRISTMAS UPDATE**
+ * NEW - Added `Mysterious Container` this will only drop during Christmas from dungeon boss and AI Core AFK task, the loots are similar with `Rare locked container` but require less item to open.
+ * NEW - Added new buff `RNG interferer`, give everyone additional chance of getting extra EPIC and Legendary equipment when you open a `Legendary locked container`, **this WILL NOT interfer** with ther normal drops from `Lefendary locked container` and the loot table for it was **not** changed. in addition, during christmass season, there will alos be chance of getting `Mysterious Container` as well. (Please note, this global buff might be too OP, so it is possible it will get nerfed soon, so please do not purchase if you don't plan to use it right away)
+ * Added some easter-eggs :)
+
 ### **2021/12/6 v0.718**
  * UPDATE - implemented a custom profanity detection, instead of using 3rd party lib
  * OPTIMIZATION - Increase rendering speed for chat effect
