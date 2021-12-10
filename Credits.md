@@ -132,6 +132,7 @@ zomg
 [xmonkx](https://github.com/xmonkx)
 [Wootles](https://github.com/Wootles)
 [K4LM3D](https://github.com/mksalada)
+[NTHiG](https://github.com/NTHGiT)
 
 ## Tutorial
 [alfaice](https://github.com/alfaice)
@@ -224,3 +225,4 @@ spyd3r
 [hildjj](https://github.com/hildjj)
 [mr_moe](https://github.com/donburks)
 [RubenVerg](https://github.com/rubenverg)
+[NTHiG](https://github.com/NTHGiT)
