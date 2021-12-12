@@ -51,6 +51,7 @@ roucoupute2
 Rinelle
 [ruliou](https://github.com/ruliou)
 Ryugarret
+[Satour](https://github.com/satour)
 [Seo-na](https://github.com/Seo-na)
 [siruelionn](https://github.com/siruelionn)
 SKIFFI
