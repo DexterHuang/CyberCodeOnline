@@ -24,6 +24,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ### **2021/12/13 v0.749
  * UPDATE - Now `RNG interferer` register when you start your task, meaning as long as you start your task while `RNG interferer` is active, even if the buff has expired by the time its your turn to skip, you will still get the benefit of the buff, this way there is no need of worrying about the time and amount of people skipping
  * UPDATE - Added many more possible drops to `RNG interferer` drop table this **WILL NOT** affect the chance of `EPIC` and `Legendary`, it adds additional drops only, at the sasme time `EPIC` drop rate is lowered to 0.5 per `RNG interferer` max at 1% chance, with 4 Legendary unlock in one skip, you will have 4% chance of getting epic and very high chance of getting `Legendary` and other loots, this Buff is still very experimental and might be still very OP, so please do not purchase if you don't intent using it rightaway 
+ * OPTIMIZATION - General app optimization
 
 ### **2021/12/9 v0.749 - CHRISTMAS UPDATE**
  * NEW - Added `Mysterious Container` this will only drop during Christmas from dungeon boss and AI Core AFK task, the loots are similar with `Rare locked container` but require less item to open.
