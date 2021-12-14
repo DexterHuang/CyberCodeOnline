@@ -21,6 +21,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates    
+### **2021/12/14 v0.749
+ * OPTIMIZATION - optimized some algorithm, prinitng and crafting page should be faster
+
 ### **2021/12/13 v0.749
  * NEW - Added translable tutorial files, tips file is also added but not working yet, if you are interested please feel free to translate it to your language :)
  * UPDATE - Now `RNG interferer` register when you start your task, meaning as long as you start your task while `RNG interferer` is active, even if the buff has expired by the time its your turn to skip, you will still get the benefit of the buff, this way there is no need of worrying about the time and amount of people skipping
