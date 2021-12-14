@@ -1,250 +1,250 @@
-### What is this game, and what do I do?
-Basically you adventure around 'Train Stations' and either defeat individual enemies or conquer entire dungeons.
-You'll randomly receive items, equipment or caches after defeating enemies.
+### 이 게임은 무엇이며 어떻게 해야 하나요?
+기본적으로 당신은 '기차역' 주변을 모험하며 적을 물리치거나 던전을 정복합니다.
+적을 물리친 후 무작위로 아이템, 장비 또는 캐시를 받게 됩니다.
 
-**You will receive BTC and EXP inside a battle, but items won't drop after every single battle.**
+**전투 중에 BTC와 EXP를 받게 되지만 매 전투마다 아이템이 떨어지지는 않습니다.**
 
-### Is this game P2W (Pay-to-Win)?
-No. There's no element in this game that would benefit or offer additional advantages to some players over others.
+### P2W(Pay-to-Win) 게임인가요?
+아니요. 이 게임에는 다른 플레이어보다 일부 플레이어가 유리해지거나 추가 이점을 제공하는 요소가 없습니다.
 
-The Transmitters sold in the Arasaka Unit Exchange have a global effect, which means once it is activated, all players on the server will benefit from the effect that it gives. Similarly, the Global Skips that can be purchased apply to all players who have started AFK tasks.
+아라사카 유닛 거래소에서 판매되는 송신기는 글로벌 효과입니다. 즉, 활성화되면 서버의 모든 플레이어가 효과를 얻을 수 있습니다. 마찬가지로 구매할 수 있는 글로벌 건너뛰기는 AFK 작업을 시작한 모든 플레이어에게 적용됩니다.
 
-The developer intends to keep the game non-P2W into the future.
+개발자는 앞으로 게임을 non-P2W로 유지하려고 합니다.
 
-### How can I help out?
-All user-contributed content can be found on the [Github](https://github.com/DexterHuang/CyberCodeOnline).  
-Feel free to submit a PR (Pull Request).
+### 도와 드릴것이 있나요?
+모든 사용자 기여 콘텐츠는 [Github](https://github.com/DexterHuang/CyberCodeOnline) 에서 찾을 수 있습니다.
+자유롭게 PR (Pull Request) 을 제출하십시오.
 
-### Does this game have any social media?
-Yes. You can find our community on [Discord](https://discord.link/cco) and on [Reddit](https://www.reddit.com/r/CyberCode_Online/).
+### 이 게임에 소셜 미디어가 있습니까?
+예. [Discord](https://discord.link/cco) 및 [Reddit](https://www.reddit.com/r/CyberCode_Online/)에서 커뮤니티를 찾을 수 있습니다.
 
-The developer (DexterHuang) also has a [Patreon](https://www.patreon.com/cybercodeonline) for donations that will help support and maintain the game.
+또한 개발자(DexterHuang)는 게임을 지원하고 유지할 수 있도록 기부받고 있는 [Patreon](https://www.patreon.com/cybercodeonline) 을 가지고 있습니다.
 
-These social links can also be found by accessing ☰ and clicking on the chain link symbol on mobile or by accessing the respective platform icons on the left side of the web view.
+이러한 소셜 링크는 모바일의 ☰에서 연결된 링크를 클릭하거나 웹 보기의 왼쪽에 있는 각 플랫폼 아이콘에 액세스하여 찾을 수도 있습니다.
 
-### What programs or languages are being used for the creation of this game?
-CyberCode Online is a game developed using [ReactJS](https://reactjs.org/) with player contributions from [Github](https://github.com/DexterHuang/CyberCodeOnline).
+### 이 게임을 만드는 데 사용되는 프로그램이나 언어는 무엇입니까?
+CyberCode Online은 [ReactJS](https://reactjs.org/) 를 사용하여  [Github](https://github.com/DexterHuang/CyberCodeOnline) 의 플레이어들의 기여와 함께 개발된 게임입니다.
 
-### Is the game translated in other languages?
-Yes. This game is currently translated in 15 languages.
+### 게임이 다른 언어로 번역되나요?
+예. 이 게임은 현재 15개 언어로 번역되어 있습니다.
 
-To change the language of the game,  
-go to Map and click on ⚙️.
+게임의 언어를 변경하려면
+지도로 이동하여 ⚙️를 클릭하십시오.
 
-Please notice that the translations might contain mistakes, be incomplete or some parts of the game might be completely untranslated.
-If the game is not translated in your language or you want to improve the current translations, please head out to our [Github](https://github.com/DexterHuang/CyberCodeOnline).
+번역에 실수가 있거나 불완전하거나 게임의 일부가 완전히 번역되지 않았을 수 있습니다.
+게임이 귀하의 언어로 번역되지 않았거나 현재 번역을 개선하려면 [Github](https://github.com/DexterHuang/CyberCodeOnline) 으로 이동하십시오.
 
-### Is there any customization in the game?
-You can have a custom profile picture in your profile, a Title and a coloured chat border, if you decide to subscribe to one of the 5 Donation Tiers available.
+### 게임에 커스터마이징이 있나요?
+사용 가능한 5가지 기부 구독 중 하나에 등록하면 프로필에 사용자 프로필 사진, 타이틀 및 컬러 채팅 테두리를 가질 수 있습니다.
 
-Elite Tier and higher, will have access to a bio on their profile and a barcode.  
+엘리트 등급 이상은 프로필의 자기소개와 고유 바코드에 액세스할 수 있습니다.
 
-These benefits are purely cosmetic.
+이러한 이점은 순전히 외관적인 요소입니다.
 
-### Can I change my name?
-No, you can't change your name.  
-Your username is permanent for now.
+### 이름을 변경할 수 있나요?
+아니요, 이름을 변경할 수 없습니다.
+사용자 이름은 현재 영구적입니다.
 
-### How do I tag someone? Can I search the usernames of other people?
-You can tag and search for a user by typing @ in chat followed by their name (for example, type @DexterHuang).
+### 누군가를 태그하려면? 다른 사람의 사용자 이름을 검색할 수 있습니까?
+채팅에서 @ 뒤에 이름을 입력하여 사용자를 태그하고 검색할 수 있습니다(예: @DexterHuang 입력).
 
-They will show up even if they are not online and they will receive a notification.
+온라인 상태가 아니더라도 표시되며 푸시알림을 받게 됩니다.
 
-### Does the chat support emojis and kaomojis?
-Yup 🤠 ฅ^•ﻌ•^ฅ.
+### 채팅은 이모티콘과 카오모지를 지원하나요?
+네 🤠 ฅ^•ﻌ•^ฅ.
 
-Please don't overuse or spam these, as this kind of practice is against the Chat Rules.
+남용하거나 도배하지 마세요. 채팅 규칙에 어긋나는 행위입니다.
 
-### Does this game have PvP?
-No. PvP is not currently available in the game.
+### 이 게임에 PvP가 있나요?
+아니요. 현재 게임에서 PvP를 이용할 수 없습니다.
 
-### What is the fastest way to level up in this game?
-The fastest and best way to level up in this game is to have an Frontal Cortex Transmitter (XP booster) active and to complete challenge dungeons.
+### 이 게임에서 레벨을 올리는 가장 빠른 방법은 무엇입니까?
+이 게임에서 레벨을 올리는 가장 빠르고 좋은 방법은 준두엽 피질 최적화 송신기(경험치 부스터)를 활성화하고 챌린지 던전을 정복하는 것입니다.
 
-### What will happen if I die?
-You will lose some of your experience and BTC (around 10%); however your inventory will be safe.
+### 내가 죽으면 어떻게 되요?
+경험치와 BTC(약 10%)를 잃게 됩니다. 그러나 인벤토리는 안전합니다.
 
-### Where is the Player Market?
-When your character reaches level 5, the player market will be unlocked.  
-It will show up as a new destination in the 'Central Hub'.
+### 플레이어 마켓은 어디에 있습니까?
+캐릭터가 레벨 5에 도달하면 플레이어 마켓이 잠금 해제됩니다.
+'도심부'에 새로운 목적지가 표시됩니다.
 
-### Does the game support trading among players?
-Yes, partially. You can send items to other players, but there isn't a system that forces the other person to give something in exchange. Most trades are conducted with trust.
+### 게임이 플레이어 간 거래를 지원합니까?
+예, 부분적으로 지원합니다. 아이템을 다른 플레이어에게 보낼 수는 있지만, 대가로 무언가를 주도록 강제하는 시스템은 없습니다. 대부분의 거래는 신뢰를 바탕으로 이루어집니다.
 
-You can't gift BTC and key fragments to other players.
+BTC 및 열쇠 조각을 다른 플레이어에게 선물할 수 없습니다.
 
-Only healing items, ammo, materials, Hash Processors, Ai Cores and other types of items.
+회복 아이템, 탄약, 재료, 해시 프로세서, Ai 코어 및 기타 유형의 아이템만 가능합니다.
 
-### What should I do if my inventory is full?
-You can either scrap, destroy or store items in the bank located in the City Center. Note that the fee for each item you deposit in the bank is 100 BTC. It doesn't cost anything to take the item back out.
+### 인벤토리가 가득 차면 어떻게 해야 하나요?
+도심에 있는 은행에 아이템을 폐기하거나 파괴하거나 저장할 수 있습니다. 은행에 보관하는 수수료는 100 BTC입니다. 다시 꺼내는 데 비용이 들지 않습니다.
 
-You can also temporarily increase your inventory capacity with the 'Pocket' stat found on equipment and upgrade modules.
+장비 및 업그레이드 모듈에 있는 '포켓' 능력치로 인벤토리 용량을 일시적으로 늘릴 수도 있습니다.
 
-### How do I craft items?
-At the top of the Inventory page, you will find a tab called 'Crafting'.
+### 아이템은 어떻게 제작하나요?
+인벤토리 페이지 상단에 '제작'이라는 탭이 있습니다.
 
-### Where can I get healing items?
-Healing items can be crafted, found when defeating an enemy or when looting a crate in a dungeon, or purchased at the Trinoky Mart in the City Center.  
-They can also be purchased from the Player Market.
+### 회복 아이템은 어디서 얻을 수 있나요?
+회복 아이템은 제작할 수 있으며, 적을 처치하거나 던전에서 상자를 약탈할 때 발견하거나 도심부의 트리노키 마트에서 구입할 수 있습니다.
+플레이어 마켓에서도 구입할 수 있습니다.
 
-### How do I use my healing items?
-To equip and use your healing items, go to your inventory and under your equipment you will find 3 'Quick Slots'.  
-Click on one of them and assign your desired healing item to it.  
-Healing items can be used only inside dungeons.  
+### 회복 아이템은 어떻게 사용하나요?
+회복 아이템을 장착하고 사용하려면 인벤토리에서 장비 탭의 3개의 '퀵 슬롯'을 찾을 수 있습니다.
+그 중 하나를 클릭하고 원하는 회복 아이템을 등록하십시오.
+회복 아이템은 던전 내에서만 사용할 수 있습니다.
 
-### Why can't I use my Special and Destructive weapons?
-These weapons require ammo. Special weapons uses Energy Cells and Destructive weapons use Anti-Matter Charges.  
-Ammo can be looted form enemies, crafted in your Inventory, or bought on the player market. 
+### 특수 무기와 파괴 무기를 사용할 수 없는 이유는 무엇입니까?
+이 무기에는 탄약이 필요합니다. 특수 무기는 에너지 셀을 사용하고 파괴 무기는 반물질 탄환을 사용합니다.
+탄약은 적에게서 약탈하거나 인벤토리에서 제작하거나 플레이어 마켓에서 구입할 수 있습니다.
 
-### Can I upgrade the stats of my weapons and armour?
-Yes, you can upgrade your weapons at the Calibration Station found in your main map.  The Calibration Station requires an Equiptment Calibration Core.
-Calibration has a chance of destruction, so be on the lookout for Calibration buffs which lower destruction chance.
+### 무기와 방어구의 능력치를 업그레이드할 수 있나요?
+네, 메인 맵에 있는 장비 교정소에서 무기를 업그레이드할 수 있습니다. 장비 교정소에는 장비 교정 코어가 필요합니다.
+교정은 파괴될 가능성이 있으므로 파괴 확률을 낮추는 교정 정밀화 버프를 찾아보세요.
 
-### What does "Quality" on weapons and armor means?
-The quality of the armor will contribute a lot on the stat it gives; the higher the quality, the better the stats.
-Quality tiers go from Trash > Common > High Quality > Rare > Legendary > Epic.
-You cannot change the Quality of a weapon or armor.
+### 무기와 방어구의 "품질"은 무엇을 의미합니까?
+장비의 품질은 그것이 주는 능력치에 많은 기여를 합니다. 품질이 높을수록 능력치가 더 좋습니다.
+품질 등급은 조잡한 > 평범한 > 고급 > 희귀 > 전설 > 에픽 순입니다.
+무기나 방어구의 품질은 변경할 수 없습니다.
 
-### What does "Durability" on weapons and armor means?
-Durability is the ability of an equipment to remain functional, without requiring excessive maintenance or repair, when faced with the challenges of normal operation over it's designed lifetime. (Wikipedia).  Durability only decreases when fighting Nearby Enemies.  Durability is not impacted when fighting in dungeons.
+### 무기와 방어구의 "내구도"는 무엇을 의미합니까?
+내구도은 설계된 수명 동안 정상적인 작동의 문제에 직면했을 때 과도한 유지 관리 또는 수리 없이 기능을 유지하는 장비의 능력입니다. (출처 위키피디아). 내구도는 주변의 적과 싸울 때만 감소합니다. 던전에서 전투 시 내구도는 영향을 받지 않습니다.
 
-### How do I repair my equipment's durability?
-You can repair your equipment by paying a small amount of BTC at the Weapon Shop located in the City Center.
+### 장비의 내구도는 어떻게 수리하나요?
+도심부에 위치한 무기 대장장이에게서 소량의 BTC를 지불하면 장비를 수리할 수 있습니다.
 
-### Can I remove installed upgrade modules?
-Yes. Click on the installed upgrade module to remove it from the equipment.
+### 장착된 업그레이드 모듈을 제거할 수 있습니까?
+예. 장착된 업그레이드 모듈을 클릭하여 장비에서 제거합니다.
 
-### Why is the equipment I print the wrong level?
-Your printed gear will have the same level as the one from your 'Printing Rank'. It does not scale with player level.
+### 잘못된 레벨의 장비가 인쇄되는 이유는 무엇입니까?
+인쇄된 장비는 '인쇄 랭크'와 동일한 레벨이 됩니다. 플레이어 레벨에 따라 조정되지 않습니다.
 
-### How do I increase my printing rank?
-There are 3 ways to increase your printing rank.
+### 인쇄 순위를 높이려면 어떻게 해야 합니까?
+인쇄 순위를 높이는 3가지 방법이 있습니다.
 
-1. Print caches at the 3D Printing Module. Each cache you print gives you printing exp. Trash caches are the cheapest to print and the printed gear can be scrapped for Tech Scrap.
+1. 분자 3D 프린터에서 캐시를 인쇄합니다. 인쇄하는 각 캐시는 인쇄 경험치를 제공합니다. 조잡한 캐시는 인쇄 비용이 가장 저렴하며 인쇄된 장비는 공학 조각으로 분해 할 수 있습니다.
 
-2. AFK Printing Training. There is an AFK job in the Commercial Area called 'Work in Printing Factory' that gives you printing exp.
+2. AFK 인쇄 작업. 상업 지구에는 '인쇄 공장작업'라는 AFK 작업이 있어 인쇄 경험치를 제공합니다.
 
-3. Reverse engineering Tech Scraps. In the Commercial Area there is a short AFK job called 'Reverse Engineer Scraps' which uses Tech Scraps to increase your printing rank. This is the fastest way to increase your rank. 
+3. 공학 조각 역변환. 상업 지구에는 공학 조각을 사용하여 인쇄 랭크를 높이는 '공학 조각 역변환'이라는 짧은 AFK 작업이 있습니다. 이것은 인쇄 랭크를 높이는 가장 빠른 방법입니다.
 
-### What are caches and what should I do with them?
-You can use them to craft equipment at the Molecular 3D Printer.  It is not recommended to scrap your caches because they are more valuable to print or sell.
+### 캐시란 무엇이며 어떻게 해야 합니까?
+분자 3D 프린터에서 장비를 제작하는 데 사용할 수 있습니다. 인쇄하거나 판매하는게 더 가치가 있으므로 캐시를 분해하지 않는 것이 좋습니다.
 
-### Do caches scale with my level? Should I keep them for later?
-The caches you print scale with your Printing Rank.
-The gear that you obtain from them will always have the same level as your Printing Rank. Make sure to level your Printing Rank to your current player level to always receive the best equipment possible from printing.
+### 캐시는 내 레벨에 따라 올라가나요? 나중을 위해 보관해야 합니까?
+인쇄하는 캐시는 인쇄 랭크에 따라 조정됩니다.
+인쇄하는 장비는 항상 당신의 인쇄 랭크와 같은 레벨을 가질 것입니다. 인쇄 랭크을 현재 플레이어의 레벨과 동일한 수준으로 조정하여 항상 최상의 장비를 인쇄 할 수 있도록 하십시오.
 
-It doesn't matter if you print your caches now or later, but it's recommended to keep your Legendary caches for levels 30-40+.  If you happen to find an Epic cache, hold onto it until level 100+.
-Legendary and Epic caches are much more expensive to craft than Rare ones, but the items have much better stats.  Higher quality items can last you for a long time, and are often worth calibrating at the Calibration Station.
+지금 또는 나중에 캐시를 인쇄하는 것은 중요하지 않지만 레벨 30-40+에는 전설 캐시를 모아 두는것이 좋습니다. 만약 에픽 캐시를 발견하면 레벨 100+가 될 때까지 보관하십시오.
+전설 및 에픽 캐시는 희귀 캐시보다 제작 비용이 훨씬 더 많이 들지만 능력치가 훨씬 좋습니다. 고품질 아이템은 오랫동안 사용할 수 있으며 장비교정소에서 교정할 가치가 있는 경우가 많습니다.
 
-### Will higher level enemies give more rewards?
-Yes. Higher level enemies give you more BTC and experience after you defeat them.
+### 더 높은 레벨의 적이 더 많은 보상을 주나요?
+예. 더 높은 레벨의 적들은 그들을 물리친 후 더 많은 BTC와 경험치를 제공합니다.
 
-### What are Locked Containers and how do I unlock them?
-Locked containers (✧) can be found and picked up from dungeons. They can be unlocked using Tech Scraps at the Terminal in the main HUB, and contain various rewards ranging from Tech Scrap to Legendary gear.
+### 잠긴 상자란 무엇이며 어떻게 잠금을 해제합니까?
+잠긴 상자(✧)는 던전에서 찾을 수 있습니다. 도심부의 터미널에서 공학 조각을 사용하여 잠금 해제할 수 있으며 공학 조각에서 전설 장비까지 이르는 다양한 보상이 포함되어 있습니다.
 
-Tech scrap costs for opening the containers are 32 Tech Scrap for common containers, 64 for rare containers, and 128 for legendary ones.
+상자를 여는 데 드는 공학 조각 비용은 일반 상자의 경우 32개의 공학 조각, 희귀 상자의 경우 64, 전설적인 상자의 경우 128입니다.
 
-If you don't see the option for unlocking the container at the Terminal, it means you do not have enough Tech Scraps.
+터미널에 상자 잠금 해제 옵션이 표시되지 않으면 공학 조각이 충분하지 않다는 의미입니다.
 
-### What is BitCoin (BTC) and how do I redeem it?
-BitCoin (BTC) is the game's currency.  Your in game BitCoin isn't the same as the one from the real world. If it was, we would all be richer than Elon Musk!
+### BitCoin(BTC)이란 무엇이며 어떻게 사용합니까?
+BitCoin(BTC)은 게임의 통화입니다. 게임 내 BitCoin은 현실 세계의 것과 동일하지 않습니다. 그렇다면 우리는 모두 일론 머스크보다 부자가 될 것입니다!
 
-### How do I get more BitCoins?
-BitCoin is obtained when defeating enemies, selling items in the Player Market, and by mining with Hash Processors.  Hash Processors are found in dungeons and may be usd to mine BitCoin at the [Job Hub].
+### 더 많은 BitCoin을 얻으려면 어떻게 해야 합니까?
+BitCoin은 적을 물리칠 때, 플레이어 마켓에서 아이템을 판매할 때, 해시 프로세서로 채굴할 때 얻을 수 있습니다. 해시 프로세서는 던전에서 발견되며 [일자리 중심지]에서 BitCoin을 채굴하는 데 사용할 수 있습니다.
 
-### What is Street Cred?
-Street Cred (Street Credit) is a way to appreciate someone you like or who has helped you. They are similar to "Karma" points on Reddit.
+### 명성이 무엇인가요?
+명성(Street Cred)는 당신이 좋아하거나 당신을 도와준 사람에게 감사하는 방법입니다. Reddit의 "Karma" 포인트와 유사합니다.
 
-You can give 1 Street Cred per day. To give Street Cred, go to the person's profile, scroll down to 'Player Actions' and click on [GIVE STREET CRED] located under [ADD TO FRIEND LIST].
+하루에 1 명성치를 줄 수 있습니다. 명성치를 주려면 해당 플레이어의 프로필로 이동하여 아래로 스크롤한 다음 [친구 리스트에 추가] 아래에 있는 [명성 주기]를 클릭합니다.
 
-Consider giving some Street Credit to the people that contributed to this game! You can view the list at Profile - > Credits.
+이 게임에 기여한 사람들에게 명성을 주는 것을 고려해보세요! 프로필 -> 크레딧에서 목록을 볼 수 있습니다.
 
-### What are Gangs and how do I create one?
-Gangs are similar to guilds or clans in other MMORPGs.  Joining a gang gives you access to new AFK tasks, a recycler to make tech scrap, and gang chat!  You also gain access to gang dungeons, which have a high level of difficulty but greater rewards than the regular dungeons.
+### 갱단이란 무엇이며 어떻게 생성합니까?
+갱단은 다른 MMORPG의 길드나 클랜과 유사합니다. 갱에 가입하면 새로운 AFK 작업, 공학 조각을 만드는 재활용 및 갱 채팅을 사용 할 수 있습니다! 또한 일반 던전보다 난이도가 높지만 보상이 더 큰 갱 던전에 입장할 수 있습니다.
 
-You can create one by selecting the Gang chat.  The cost to create a gang is 50,000 BTC.  Gangs have a weekly upkeep cost that must be met to avoid being disbanded. Gangs allow you to have a tag of 3 letters, chosen when the gang was created, in your chat border.
+메뉴 하단의 갱 채팅을 클릭하여 만들 수 있습니다. 갱을 만드는 데 드는 비용은 50,000 BTC입니다. 갱단이 해산되지 않기 위해서 필요한 주간 유지 비용이 있습니다. 갱의 멤버가 되면 갱이 생성될 때 입력한 3글자의 태그를 채팅 테두리에 추가할 수 있습니다.
 
-### How do I search for a Gang? How do I join one?
-Currently, you can't see a list of gangs in the game.
-You can join one by creating it yourself or by receiving an invite from a gang.
+### 갱을 검색하려면 어떻게 해야 하나요? 어떻게 가입합니까?
+현재 게임에서 갱 목록을 볼 수는 없습니다.
+직접 만들거나 갱단의 초대를 받아 가입할 수 있습니다.
 
-### Can I rename my Gang? Can I have the same tag as another Gang has?
-Currently, you can't rename your own gang.
-It's forbidden to have the same tag as other gangs.
-All gangs should have different tags in order to avoid confusion.
+### 내 갱의 이름을 바꿀 수 있나요? 다른 Gang이 가지고 있는 것과 동일한 태그를 가질 수 있습니까?
+현재 자신의 갱의 이름을 바꿀 수 없습니다.
+다른 갱단과 같은 태그를 갖는 것은 금지되어 있습니다.
+모든 갱단은 혼동을 피하기 위해 다른 태그를 가져야 합니다.
 
-### How can I level up my gang?
-To be able to maintain your gang and to level it up, each member of the gang will have to gather resources (through an AFK task in the Gang Headquarters) and will also have to donate bitcoins to it.
+### 내 갱의 레벨을 올리려면 어떻게 해야 하나요?
+갱을 유지하고 레벨을 올리려면 갱의 각 구성원이 자원을 수집해야 하며(갱 본부에서 AFK 작업을 통해) 비트코인을 기부해야 합니다.
 
-### Where are the Gang Headquarters (HQ)? What can I do there?
-Gang HQ is located in the main HUB, under [Player Market].  At the Gang HQ you're able to donate bitcoin, gather resources, and do a varitety of AFK tasks.
+### 갱단 본부(HQ)는 어디에 있습니까? 거기서 무엇을 할 수 있습니까?
+갱단 본부는 도심부의 [샹그릴라 시장] 아래에 있습니다. 갱단 본부에서 비트코인을 기부하고, 자원을 수집하고, 다양한 AFK 작업을 수행할 수 있습니다.
 
-### What are the symbols in dungeons?
-- "?" represents a quest. You can access accepted quests in your Quest tab.
-- "!" represents lore.
-- Crates are represented by small white boxes.  
-- Crates that have a "+" inside them contain key fragments.
-- The yellow ✧ contains a locked container.
-- The alien looking icons represent monsters inside the dungeon.
+### 던전의 상징은 무엇입니까?
+- "?" 퀘스트를 나타냅니다. 퀘스트 탭에서 수락한 퀘스트를 볼 수 있습니다.
+- "!"  로어를 나타냅니다. Dungeon 튜토리얼을 참조하세요
+- 상자는 작은 흰색 상자로 표시됩니다.
+- 안에 "+"가 있는 창문 모양의 상자에는 열쇠 조각이 들어 있습니다.
+- 노란색 ✧에는 잠긴 상자가 들어 있습니다.
+- 외계인 모양의 아이콘은 던전 내부의 몬스터를 나타냅니다.
 
-### What are Public and Private Dungeons? What are Password Protected Dungeons?
-When creating a dungeon, it will default to Public.  This means that anyone can see and join your dungeon as long as they meet the level requirements. If you make your dungeon Private, it will be invisible and inaccessible to other players.
+### 공개 및 비공개 던전이 무엇인가요? 암호로 보호된 던전이란 무엇입니까?
+던전을 생성할 때는 기본적으로 공개로 설정됩니다. 즉, 레벨 요구 사항을 충족하는 한 누구나 던전을 보고 참여할 수 있습니다. 던전을 비공개로 설정하면 다른 플레이어가 참여 할 수 없습니다.
 
-You may also create a password for your dungeon so that it is only accessible by users who know the password.
+또한 던전의 비밀번호를 생성하여 비밀번호를 알고 있는 사용자만 액세스할 수 있도록 할 수도 있습니다.
 
-### People are looting my stuff. Help!
-The loot in the crates is randomly generated for each player. Therefore, it's impossible for someone to steal your loot.
+### 사람들이 내 아이템을 훔쳐가고 있어요. 도움!
+던전 상자의 전리품은 각 플레이어 마다 독립적으로, 무작위로 생성됩니다. 따라서 누군가가 당신의 전리품을 훔치는 것은 불가능합니다.
 
-### What are Tech Scraps?
-Tech Scraps are resources obtained from scrapping caches and printed gear.  They can also be generated at with the Gang Recycler.
+### 공학 조각이란 무엇입니까?
+공학 조각은 캐시와 인쇄된 장비를 분해하여 얻은 자원입니다. 그들은 또한 갱단의 재활용기계로 생성할 수 있습니다.
 
-They can be used to level up Printing Rank faster, craft Ai Cores and Hash Processors, and to open Locked Containers.
+인쇄 랭크를 더 빨리 올리고, Ai 코어 및 해시 프로세서를 제작하고, 잠긴 상자를 여는 데 사용할 수 있습니다.
 
-The best way to get Tech Scrap is to mass print Trash Caches or Common Caches and then mass scrap the obtained gear.
+Tech Scrap을 얻는 가장 좋은 방법은 Trash Caches 또는 Common Caches를 대량 인쇄한 다음 얻은 장비를 대량 폐기하는 것입니다.
 
-### What are AI Cores?
-AI Cores are items required to AFK farm dungeons.  AFK farming provides EXP, items, and a small amount of BTC. AI cores can be acquired as drops or crafted from Hash Processors.
+### AI 코어란 무엇입니까?
+AI 코어는 AFK 파밍에 필요한 아이템입니다. AFK 파밍은 경험치, 아이템, 소량의 BTC를 제공합니다. AI 코어는 드롭으로 획득하거나 해시 프로세서로 제작할 수 있습니다.
 
-### What are Hash Processors?
-Hash Processors ('hash' for short) are items that are required to activate an AFK job that yields high amounts of BTC (BitCoin). They drop from normal and challenge dungeons.
+### 해시 프로세서란 무엇입니까?
+해시 프로세서(줄여서 '해시')는 많은 양의 BTC(BitCoin)를 생성하는 AFK 작업을 시작하는 데 필요한 아이템입니다. 그들은 일반 및 챌린지 던전에서 떨어집니다.
 
-### What are Gang Memory Shards?
-Upon deciphering them, these items will give you a random cache, along with mining and gang experience.
+### 암호화된 갱단 메모리 샤드란 무엇입니까?
+이 아이템을 해독하면 채굴 및 갱단 경험치와 함께 무작위 캐시를 얻을 수 있습니다.
 
-### What are Gang Invasion Order Transmitters?
-Gang invasion transmitters are special items that drop from the boss in challenge dungeons.
-They are required to open a Gang Dungeon.
+### 갱단 침공 명령 전송기란 무엇입니까?
+갱단 침공 명령 전송기는 챌린지 던전의 보스에게서 드랍되는 특별한 아이템입니다.
+갱 던전을 여는 데 필요합니다.
 
-### What are Transmitters?
-These are special items that can be bought with Units (premium currency) and provide global benefits to all players on the server.  Their effects range from reducing the time on AFK job or activities to increasing BTC or EXP gain. These are untradeable.
+### 송신기란 무엇입니까?
+유닛(프리미엄 재화)으로 구매할 수 있는 특별한 아이템으로 서버의 모든 플레이어에게 글로벌 혜택을 제공합니다. 그 효과는 AFK 작업 또는 시간을 줄이는 것부터 BTC 또는 경험치 획득을 늘리는 것까지 다양합니다. 이것들은 거래할 수 없습니다.
 
-There are also normal transmitters that drops from dungeons, but are less effective than the paid version.
+던전에서 드랍되는 일반 송신기도 있지만 유료 버전보다 효율이 떨어집니다.
 
-### What are Equipment Calibration Cores?
-Equipment Calibration Cores are used at the Calibration Station to upgrade your gear.
+### 장비 교정 코어란 무엇입니까?
+장비 보정 코어는 장비 교정소에서 장비를 업그레이드하는 데 사용됩니다.
 
-### What are Calibration AI Shards?
-These items offers a stackable buff that increase the chance of success when calibrating.
+### 교정 AI 샤드란 무엇입니까?
+이 항목은 교정 시 성공 확률을 높이는 중첩 가능한 버프를 제공합니다.
 
-### What's the benefit of leveling my crafting skills?
-Your crafting skills allow you to create useful consumables, including medicine and ammo.
-Higher levels allow you to craft more types of items and also craft more efficiently. For example, higher-level healing items will heal for more health.
+### 제작 스킬(의학/탄약)을 올리면 어떤 이점이 있나요?
+제작 스킬을 통해 약과 탄약을 비롯한 유용한 소모품을 만들 수 있습니다.
+레벨이 높을수록 더 많은 유형의 아이템을 제작할 수 있고 더 효율적으로 제작할 수 있습니다. 예를 들어, 더 높은 레벨의 회복 아이템은 더 많은 체력을 회복합니다.
 
-### How do I increase my Scavenge Skill?
-In every area with enemies, there is an action called AFK Resource Gather near the bottom of the list, under the dungeon selections.
-You'll need to increase your scavenging level starting from earlier train stations (Level 1 - 4) before being able to scavenge at higher level sites.
+### 내 탐색 능력을 높이려면 어떻게 해야 하나요?
+모든 역의 지역에는 던전 목록 아래에 'AFK 자원 수집'이라는 작업이 있습니다.
+더 높은 레벨의 장소에서 탐색하기 전에 이전 기차역(레벨 1 - 4)부터 탐색 레벨을 높여 두어야 합니다.
 
-### What's mining and how do I increase my mining skill?
-Mining is the skill that allows you to farm BTC (BitCoin). It also allows you to craft AI Cores.
-To mine, you need to have Hash Processors which drop from dungeons.
-If you want to start mining, simply go to the [Job Hub] and scroll down until you see the option to mine.
-You also receive mining experience when gather resources for your gang.
+### 채굴이란 무엇이며 채굴 스킬을 어떻게 높이나요?
+채굴은 BTC(BitCoin)를 파밍할 수 있는 기술입니다. 또한 AI 코어를 제작할 수 있습니다.
+채굴하려면 던전에서 드롭되는 해시 프로세서가 필요합니다.
+채굴을 시작하려면 [일자리 중심지]로 이동하여 채굴이 표시될 때까지 아래로 스크롤하십시오.
+또한 소속된 갱단을 위한 자원을 수집할 때에도 채굴 경험치를 얻습니다.
 
-### What is the Gear Score?
-Gear Score is the average level of the equipment you wear. This is calculated by averaging every non-weapon gear you have equipped, plus the highest level weapon you have (excluding destructive).
+### 장비레벨은 무엇입니까?
+착용하는 장비의 평균 레벨입니다. 이것은 당신이 장비한 모든 비무기 장비와 가장 높은 레벨의 무기(파괴 제외)를 평균하여 계산됩니다.
 
-### What is the Pocket Stat?
-Pockets increase your inventory size. 1 pocket means 1 additional inventory slot.
+### 포켓 능력치가 무엇인가요?
+포켓 능력치는 인벤토리 크기를 증가시킵니다. 1개의 포켓은 1개의 추가 인벤토리 슬롯을 의미합니다.
 
-### What is the Bargain Stat?
-Bargain gives you better deals at the Weapon Smith and Trinoky Mart, which can be found in the Central Hub. You can both sell and buy your items for better prices.
+### 흥정 능력치란 무엇입니까?
+도심부에서 찾을 수 있는 무기 대장장이와 트리노키 마트에서 더 효율적인 거래를 할 수 있습니다.. 당신은 더 나은 가격에 판매하고 구입할 수 있습니다.

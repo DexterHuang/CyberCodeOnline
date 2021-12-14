@@ -1,9 +1,9 @@
 
-## How to refer someone?
-Simply give the person your in game name, and when they create a new character, they simply need to select you as referrer at the character creation screen (where you name your character).
+## 추천인 등록하는 방법?
+게임 내 이름을 친구에게 알려주면 친구가 새 캐릭터 생성 화면(캐릭터의 이름을 지정하는 곳)에서 당신 이름을 추천인으로 입력하면 됩니다.
 
-##  Referral Benefits
-1. Whenever the player you referred purchased unit, you will also receive 10% of it, for example when the player you referred purchased 2000 Unit, you would receieve 200 Unit automatically.
-3. When ever a player you referred reached level `20`, you will receieve some rewards: 
-	- 1 `Fanny Pack`
-	- 1`Locked Rare Container`
+## 추천 혜택
+1. 추천한 플레이어가 유닛을 구매할 때마다 10%를 받게 됩니다. 예를 들어, 추천한 플레이어가 2,000 유닛을 구매하면 자동으로 200 유닛을 받게 됩니다.
+3. 추천한 플레이어가 레벨 '20'에 도달하면 다음과 같은 보상을 받게 됩니다.
+- 1 '패니 팩'
+- 1`잠긴 희귀 상자`

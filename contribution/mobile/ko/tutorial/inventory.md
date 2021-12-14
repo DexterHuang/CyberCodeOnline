@@ -1,46 +1,46 @@
-## Inventory
+## 인벤토리
 
-You can access your inventory by clicking the option at the bottom menu bar. In your inventory, you can see all items that you own, including equipment, upgrade modules, ammo, medical items, secret keys, caches, and other consumables. By clicking on the item, you can see the details of that item.  
+하단 메뉴에서 인벤토리를 클릭하여 열 수 있습니다. 인벤토리에서 장비, 업그레이드 모듈, 탄약, 의료, 비밀 열쇠, 캐시 및 기타 소모품 등 소유한 모든 항목을 볼 수 있습니다. 항목을 클릭하면 해당 항목의 상세 정보를 볼 수 있습니다.  
 
-You can choose to equip gear by choosing the equip button. Equipped gear will be highlighted at the top of the inventory page. By clicking on gears, you can also choose to install upgrade modules that will enhance certain values of that item.
+장비 버튼을 선택하여 장착 여부를 선택할 수 있습니다. 장착된 장비는 인벤토리 페이지 상단에 강조 표시됩니다. 장비를 클릭하여 특정 능력치를 향상시키는 업그레이드 모듈을 장착하도록 선택할 수도 있습니다.
 
-To remove installed upgrade modules, simply click on the installed module. Better quality equipment have more upgrade module slots.
+장착된 업그레이드 모듈을 제거하려면 장착된 모듈을 클릭하십시오. 더 나은 품질의 장비는 더 많은 업그레이드 모듈 슬롯을 가집니다.
 
-## Items in your Inventory
+## 인벤토리의 항목
 
-Your caches in your inventory can be consumed to print gear using the Molecular 3D Printer in the City Center.  
+인벤토리에 있는 캐시를 사용하여 도심부에 있는 분자 3D 프린터로 장비를 인쇄할 수 있습니다.
 
-Medical items can be consumed in dungeons to regenerate health (your character will not automatically regenerate health in dungeons as they would after normal battles in a train station).  
+의료 아이템은 던전에서 체력을 회복할 수 있습니다 (던전에서 주변의 적과 전투 후처럼 자동으로 체력을 회복하지 않습니다).
 
-Ammo can be used to perform special attacks and destructive attacks during combat.
+탄약은 전투 중 특수 무기와 파괴 무기로 공격하는 데 사용할 수 있습니다.
 
-Locked containers (✧) can be found in dungeons and can be unlocked using Tech Scraps at the Terminal in the main HUB.  
-Depending on the quality of the locked container, the amount of Tech Scrap needed for unlocking it may be greater; the required Tech Scraps start at 32. If you don't see the option for unlocking the container at the Terminal, it means you do not have enough Tech Scraps.
+잠긴 상자(✧)는 던전에서 찾을 수 있으며 도심부의 터미널에서 공학 조각을 사용하여 잠금 해제할 수 있습니다.
+잠긴 상자의 품질에 따라 잠금 해제에 필요한 공학 조각의 양이 더 많을 수 있습니다. 필요한 공학 조각은 32에서 시작합니다. 터미널에 잠긴 상자 잠금 해제 옵션이 표시되지 않으면 공학 조각이 충분하지 않다는 의미입니다.
 
-Secret key fragments that you obtained in special dungeon chests can be merged into a secret key by brute-forcing it at the Terminal. Secret keys will grant you access to higher level enemy areas and dungeons.  
+던전에서 얻은 비밀 열쇠 조각은 터미널에서 무차별 대입하여 비밀 열쇠로 병합할 수 있습니다. 비밀 열쇠를 사용하면 더 높은 레벨의 지역과 던전에 접근 할 수 있습니다.
 
-Other consumables, such as Hash Processors and AI Cores, can be used to perform AFK tasks.
+해시 프로세서 및 AI 코어와 같은 기타 소모품을 사용하여 AFK 작업을 수행할 수 있습니다.
 
-Learn more about all the different types of resources in the Resources Tutorial.
+Resources 튜토리얼에서 다양한 유형의 자원에 대해 자세히 알아보세요.
 
-## Functions in your Inventory
+## 인벤토리의 기능
 
-By clicking the icons above your inventory list, you can filter out specific items. You will start with 50 empty slots; equipping gear with the **pocket** stat will give you more inventory space. To get rid of equipment and upgrade modules, you can click on the item itself and then on the **SCRAP** button. Alternatively, you can hold click on one item, select every item you want to scrap, then press the **SCRAP** button that will appear at the top left of the item list. Every item scrapped will give you Tech Scrap. To get rid of other items that are not scrappable, you can click on the **DESTROY** button. Destroyed items will not give you anything in return, so be cautious when performing this action.  
+인벤토리 목록 위의 아이콘을 클릭하여 특정 항목을 필터링 할 수 있습니다. 인벤토리는 50개의 슬롯으로 시작합니다. **포켓** 능력치를 장비에 장착하면 더 많은 인벤토리 공간을 확보할 수 있습니다. 장비나 업그레이드 모듈을 제거하려면 아이템 자체를 클릭한 다음 **분해** 버튼을 클릭합니다. 또는 하나의 아이템을 길게 클릭하고 분해하려는 모든 항목을 선택한 다음, 아이템 목록의 왼쪽 상단에 표시되는 **분해** 버튼을 누를 수 있습니다. 분해된 모든 아이템은 공학 조각을 제공합니다. 분해할 수 없는 다른 항목을 제거하려면 **파괴** 버튼을 클릭할 수 있습니다. 파괴된 아이템은 대가로 아무것도 제공하지 않으므로 이 작업을 수행할 때 주의하십시오.
 
-## Item Inbox
+## 아이템 우편함
 
-Items that other players send will be automatically placed in your item inbox. Once you have enough space in your inventory, they will be moved automatically to your inventory. There is sometimes a delay before this happens.
+다른 플레이어가 보낸 아이템은 자동으로 아이템 우편함에 보관됩니다. 인벤토리에 충분한 공간이 있으면 자동으로 인벤토리로 이동됩니다. 가끔씩 지연되는 경우도 있습니다.
 
-## Crafting
+## 제작
 
-This tab in your inventory allows you to craft different types of items: medicine, ammo, Hash Processors and AI Cores.  
+인벤토리의 이 탭을 사용하면 회복약, 탄약, 해시 프로세서 및 AI 코어와 같은 다양한 아이템을 제작할 수 있습니다.
 
-Medical crafting uses medical tech parts.  
+의료품은 의료 공학 조각을 사용합니다.
 
-Ammo crafting can use either ammunition tech parts (for Energy Cells) or military ammunition tech parts (for Anti Matter Charges).
+탄약제작은 탄약 공학 조각(에너지 셀용) 또는 군용 탄약 공학 조각(반물질 탄환용)을 사용할 수 있습니다.
 
-Hash Processors use military ammunition tech parts, medical tech parts and Tech Scraps.  
+해시 프로세서는 군용 탄약 공학 조각, 의료 공학 조각 및 공학 조각을 사용합니다.
 
-AI Cores use Hash Processors and Tech Scraps.  
+AI 코어는 해시 프로세서와 공학 조각을 사용합니다.
 
-As you level up the relevant skills (medical science, ammo crafting, and mining), you will unlock new recipes and become more proficient, allowing you to craft more and better items.
+관련 기술들 (의학, 탄약 제조, 채굴)의 레벨을 올리면 새로운 레시피가 잠금 해제되고 더 많고 더 나은 아이템을 제작할 수 있습니다.

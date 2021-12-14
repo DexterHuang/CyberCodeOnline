@@ -1,19 +1,21 @@
-## Gangs
-Currently gangs are just a private chat area for a group of up to 32 friends to communicate, but there are future plans for features to be added.
+## 갱스
 
-As Gang Leader, you will have 3 additional options when visiting one of your gang members' profiles:
- - [KICK] - you can kick the gang member from the gang;
- - [PERMISSIONS] - here you can grant permissions to the gang member:
-   - Invite - it allows the gang member to invite other players to the gang;
-   - Kick  - it allows the gang member to kick other gang members;
-   - Manage - it allows the gang member to add or remove other gang members' permissions.
- - [TRANSFER LEADERSHIP] - you can set another gang member as the leader in case you don't want to be the leader anymore or want to leave the gang.
+현재 갱단은 최대 32명의 친구들로 구성된 그룹이 소통할 수 있는 사적인 채팅 공간일 뿐이지만, 향후 기능 추가 계획이 있습니다.
 
-Also as the Leader, in the Gang chat, if you click on the numbers of players in the gang on the top right, you will be able to [DELETE GANG] there.
+갱 리더는 갱 구성원 중 한 명의 프로필을 방문할 때 다음의 세 가지 추가 옵션을 사용할 수 있습니다.
 
+- [추방] - 갱 멤버를 갱에서 쫓아낼 수 있습니다.
+- [권한] - 갱 멤버에게 사용 권한을 부여할 수 있습니다.
+  - 초대 - 갱 구성원이 다른 플레이어를 갱에 초대할 수 있습니다.
+  - 추방 - 갱 구성원이 다른 갱 멤버를 추방 할 수 있습니다.
+  - 관리 - 갱 구성원이 다른 갱 멤버의 사용 권한을 추가하거나 제거할 수 있습니다.
+- [리더 변경] - 더 이상 리더가 되고 싶지 않거나 갱을 탈퇴하고 싶은 경우 다른 갱 멤버를 리더로 설정할 수 있습니다.
 
-## Friends
-To access your personal friends list, click on the floating menu and choose the 'people' icon. 
-You can add friends by going into a user's profile, scrolling down and clicking 'Add to Friend List'. You can do the same to remove a friend by clicking the 'Remove From Friend List' button.
-Adding someone to your friends list will not require the other person to accept the request. They will simply be added to your friends list.
-Viewing your friends list will allow you to see if they are online, idle or offline.
+리더인 경우, 갱 채팅에서 오른쪽 상단에 있는 갱의 플레이어 수를 클릭하면 표시되는 화면에서 [갱단 해체]를 실행할 수 있습니다.
+
+## 친구
+
+개인 친구 목록을 열려면 오른쪽 하단, 핸드폰 모양의 플로팅 메뉴를 클릭하고 '사람' 아이콘을 선택하십시오.
+사용자의 프로필로 이동하여 아래로 스크롤한뒤 '친구 리스트에 추가'를 클릭하여 친구를 추가할 수 있습니다. '친구 리스트에서 제거' 버튼을 클릭하여 친구를 제거할 수 있습니다.
+친구 목록에 다른 사람을 추가하기위해 다른 사람이 요청을 수락할 필요는 없습니다. 친구 목록에 추가하기만 하면 됩니다.
+친구 목록에서는 친구들이 온라인, IDLE 또는 오프라인 상태인지 확인할 수 있습니다.

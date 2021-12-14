@@ -1,2 +1,3 @@
-## Quests
-Quests can be found in the Quest tab at the bottom of the screen. Here is where you are given specific tasks that will earn you extra experience points and BitCoins. There are a variety of tasks available, such as printing equipment, killing enemies, and gaining experience or BitCoins. Once you have completed a quest, click on it to claim the rewards. In most cases, you will also be given a new quest. You can also acquire quests inside dungeons by speaking to the quest giver, which is marked as a '?'.  
+## 퀘스트
+
+퀘스트는 화면 하단의 퀘스트 탭에서 확인할 수 있습니다. 여기에서는 추가 경험치와 비트코인을 얻을 수 있는 특정 퀘스트들이 주어집니다. 장비 인쇄, 적 처치, 경험치 또는 비트코인 획득 등 다양한 퀘스트가 가능합니다. 퀘스트를 완료한 후에는 클릭하여 보상을 받으십시오. 완료 후에는 대부분 새로운 퀘스트가 주어집니다. '?'로 표시되어 있는 퀘스트 제공자 (굿가이) 에게 말을 걸어 던전 안에서 퀘스트를 획득할 수도 있습니다.

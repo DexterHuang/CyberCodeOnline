@@ -1,86 +1,86 @@
-## Locations
-The game begins in Shangri-La City Center. From there, you can explore various areas by going to different subway stations. 
+## 위치
+게임은 샹그릴라 도심부 에서 시작됩니다. 도심부에서 다른 지하철역으로 이동하여 다양한 지역을 탐색할 수 있습니다.
 
-## City Map
+## 도시 지도
 
 ![Map](/resources/mobile-tutorial/Map.png)
 
-## Shangri-La City Center  
+## 샹그릴라 도심부
 ![Shangri-La City Center](/resources/mobile-tutorial/Shangri-LaCityCenter.png)  
-This is the Main HUB to which you will often return to after you die, to print equipment, to make purchases and for various other activities.
+이곳은 당신이 죽은 후 돌아와 장비를 인쇄하고, 구매하고, 기타 다양한 활동을 하기 위해 자주 방문하게 될 메인 허브입니다.
 
-## 3D Molecular Printer  
+## 분자 3D 프린터
 ![3D Molecular Printer](/resources/mobile-tutorial/Molecular3DPrinter.png)  
-In the City Center, you can find the Molecular 3D Printer, which will be used to print your equipment from various caches.
+도심부 에서는 다양한 캐시로 장비를 인쇄할 수 있는 분자r 3D 프린터를 찾을 수 있습니다.
 
-Clicking on the printer option will bring you to the printing panel which lists all the caches you have.  
-It costs BitCoin to print, so make sure you have enough. All details including BTC cost and printing experience given will be listed on the cache printing panel.  
-If you wish to print a cache, all you need to do is to click on the cache you wish to print. If you have multiple caches of the same quality and type, it will bring up a dialog asking how many you want to print.  
+프린터 클릭하면 가지고 있는 모든 캐시를 보여주는 인쇄 패널로 이동합니다.
+인쇄하려면 비트코인이 필요하므로 충분히 가지고 있는지 확인하십시오. BTC 비용 및 인쇄 경험을 포함한 모든 세부 정보는 캐시 인쇄 패널에 표시됩니다.
+인쇄하려면 인쇄할 캐시를 클릭하기만 하면 됩니다. 동일한 캐시가 여러 개 있는 경우 인쇄할 캐시 수를 묻는 대화 상자가 나타납니다.
 
-A good strategy is to print all the trash items first then the common, saving rare, legendary and epic for later levels. The reason for this is that printing trash and common quality items first will provide you with printing experience; these items can then be scrapped to acquire Tech Scraps, which can also boost your Printing Level or be used to craft other items and unlock locked containers.
+좋은 전략중 하나는 모든 조잡한 항목을 먼저 인쇄한 다음 평범한 항목을 인쇄하고 이후 레벨을 위해 희귀, 전설 및 에픽은 보존하는 것입니다. 그 이유는 조잡한 과 평범한 품질의 캐시를 먼저 인쇄하는 만큼 인쇄 경험치가 제공되기 때문입니다. 인쇄한 평범한 장비들을 분해하여 나온 공학 조각은 역변환하여 인쇄 레벨을 높이거나, 다른 아이템을 제작하거나 잠긴 상자를 잠금 해제하는 데 사용할 수 있습니다.
 
-## Weaponsmith  
+## 무기 대장장이
 ![Weaponsmith](/resources/mobile-tutorial/WeaponSmith.png)  
-The Weaponsmith is a vendor in Shangri-La City Center who has items for sale and allows you to sell your items for BTC. You will see the items available for sale at the top. You can click on any of them and choose Buy if you can afford them.  
-If you have equipment with the **bargain** stat, you will get a better deal.  
+무기대장장이는 샹그릴라 도심부에 있는 상인으로, 판매용 아이템을 보유하고 있으며 플레이어의 아이템을 판매하여 BTC를 얻을 수도 있습니다. 상점에 판매 가능한 품목이 표시됩니다. 그들 중 하나를 클릭하고 여유가 있다면 구매할 수 있습니다.
+**흥정** 능력치가 있는 장비가 있으면 더 이득이 높은 거래할 수 있습니다.
 
-If you want to sell something to the Weaponsmith, you will need to open your inventory, click on any item you wish to sell and choose the Sell option. For some items, it may be more worth it to sell them at the player market.
+무기제작자에게 무언가를 판매하려면 인벤토리를 열고 판매하려는 항목을 클릭한 다음 판매를 선택해야 합니다. 일부 항목의 경우 플레이어 시장에서 판매하는 것이 더 가치가 있을 수 있습니다.
 
-You can repair your items here too. You lose durability the more you use your equipment. It costs very little to repair them to mint condition, so be sure to repair frequently as needed.
+여기서도 아이템을 수리할 수 있습니다. 장비를 사용할수록 내구도가 떨어집니다. 원래 상태로 수리하는 데 비용이 거의 들지 않으므로 필요할 때마다 자주 수리하십시오.
 
-## Trinoky Mart  
+## 트리노키 마트
 ![Trinoky Mart](/resources/mobile-tutorial/TrinokyMart.png)  
-Here you can buy medical items with BTC. Prices are completely separate from the player market, so be sure to check both!  
+여기에서 BTC로 의료 용품을 구입할 수 있습니다. 가격은 플레이어 마켓과 완전히 별개이니 두 가지 모두 꼭 확인하세요!
 
-## Terminal 
+## 터미널
 ![Terminal](/resources/mobile-tutorial/Terminal.png)  
-The terminal is used to merge key fragments into secret keys to unlock higher-level train stations.
+터미널은 열쇠 조각을 비밀 열쇠로 조합하여 더 높은 레벨의 지역역을 잠금 해제하는 데 사용됩니다.
 
-Here you can also unlock locked containers (found in dungeons) with the Tech Scrap that you have.
+여기에서 보유한 공학 조각으로 잠긴 상자(던전에서 찾을 수 있음)를 잠금 해제할 수도 있습니다.
 
-## Bank of Arasaka
+## 아라사카 은행
 ![Bank of Arasaka](/resources/mobile-tutorial/BankOfArasaka.png)  
-In addition to your inventory, each player also has access to a vault in the Shangri-La State Bank.
+인벤토리 외에도 샹그릴라 주 은행의 창고를 사용할 수 있습니다.
 
-Initially you have 6 bank slots. You can choose to permanently expand slots by paying BTC. Keep in mind that the cost of the slots you buy will increase with each purchase.  
+처음에는 6개의 은행 슬롯이 있습니다. BTC를 지불하여 슬롯을 영구적으로 확장할 수 있습니다. 슬롯의 비용은 구매할 때마다 증가합니다.
 
-Items that are stackable will occupy only one bank slot just like in your inventory. Each deposit will cost 100 BTC, but taking something out is free of charge.  
+중첩 가능한 항목은 인벤토리와 마찬가지로 하나의 슬롯만 차지합니다. 보관 시에는 100 BTC가 소모되지만 물건을 꺼내는 것은 무료입니다.
 
-## Hyper Train Central Station  
+## 고속철 중앙역
 ![Hyper Train Station](/resources/mobile-tutorial/HyperTrainCentralStation.png)  
-This is where your adventure begins. The train can take you to multiple stations. Each station has three areas full of enemies of different levels. This is also where you will find dungeons. Gather 3 unique key fragments from the dungeons to unlock the next train station.  
+여기에서 당신의 모험이 시작됩니다. 기차는 여러 역으로 이동할 수 있습니다. 각 스테이션에는 각기 다른 레벨의 적으로 가득 찬 세 개의 영역이 있습니다. 또한 이곳에서는 던전을 찾을 수 있습니다. 던전에서 3개의 열쇠 조각을 모아 다음 기차역을 잠금 해제하세요.
 
-In each station, you can also use your AI Cores to farm EXP and scavenge for materials that are needed for crafting healing items and ammo.
+각 스테이션에서 AI 코어를 사용하여 경험치를 얻거나 회복 아이템과 탄약을 만드는 데 필요한 자원을 수집할 수도 있습니다.
 
-## Shangri-La Commercial Area (Job Hub)  
+## 샹그릴라 상업지구(일자리 중심지)
 ![Commercial Area](/resources/mobile-tutorial/Shangri-LaCommercialArea.png)  
-At this location, you can look for jobs to increase your printing level, ammo/medical crafting levels, and mining level. Each job (AFK activity) contains details on what you can accomplish with it.
+여기에서 인쇄 레벨, 탄약/의료 지식 레벨 및 채굴 레벨을 높이는 작업을 할 수 있습니다. 각 작업(AFK작업)에는 해당 작업에 대한 세부 정보가 포함되어 있습니다.
 
-## Shangri-La Market Street  
+## 샹그릴라 시장
 ![Street Market](/resources/mobile-tutorial/Shangri-laMarketStreet.png)  
-Here you can sell and purchase items to and from other players within the game for BTC.  
+여기에서 BTC로 게임 내 다른 플레이어와 아이템을 판매하고 구매할 수 있습니다.
 
-Keep in mind that whenever you want to sell or buy an item on the market, you will have to complete a captcha of 4 numbers.  
-This is in place to prevent bots from using and manipulating the player market.
+시장에서 물건을 팔거나 살 때마다 4자리 숫자의 보안 문자를 작성해야 합니다.
+이것은 봇이 플레이어 시장을 조작하는 것을 방지하기 위한 것입니다.
 
-## Cosmetic Cyberwear  
+## 사이버웨어 미용실
 ![Cosmetic Cyberwear](/resources/mobile-tutorial/CosmeticCyberwear.png)  
-In this location you can buy in-game subscriptions for real money.  
+여기에서는 실제 현금으로 게임 내 구독서비스를 구입할 수 있습니다.
 
-These subscriptions help maintain the cost of the game and allows you, depending on the type of subscription, to have a coloured chat border, a background animation for your profile, a title and the ability to upload a custom profile picture.
+이러한 구독서비스는 게임 서버 비용을 유지하는 데 도움이 되며 구독 유형에 따라 컬러 채팅 테두리, 프로필의 배경 애니메이션, 타이틀 및 사용자 지정 프로필 사진을 업로드할 수 있는 기능을 제공합니다.
 
-Please keep in mind that you are not forced to purchase these subscriptions at all and **these subscriptions offer no P2W benefits**.  
-These subscription benefits are purely cosmetic.  
-You can still play the game without subscribing.
+이러한 구독을 강제로 구매해야 하는 것은 아니며 **이 구독들은 P2W (Pay-to-Win) 혜택을 제공하지 않습니다**.
+구독의 혜택은 순전히 외관상 혜택입니다.
+구독하지 않아도 게임을 계속 플레이할 수 있습니다.
 
-## Arasaka Unit Exchange
+## 아라사카 유닛 거래소
 ![Arasaka Exchange](/resources/mobile-tutorial/ArasakaUnitExchange.png)  
-Here you can buy Transmitters that have various effects. These Transmitters are purchaseable only with Units (premium currency).  
+여기에서 다양한 효과가 있는 송신기를 구입할 수 있습니다. 이 송신기는 유닛(프리미엄 재화)로만 구매할 수 있습니다.
 
-Keep in mind that if one player activates a Transmitter, every player on the server will benefit from it.  
-**They are not P2W.**  
-They can't offer an advantage to only one player. Everyone benefits from the effects.  
+한 플레이어가 송신기를 활성화하면 서버의 모든 플레이어가 송신기의 효과를 누릴 수 있음을 명심하십시오.
+**P2W이 아닙니다.**
+송신기는 한 플레이어에게만 혜택을 제공하지 않습니다. 모두가 효과의 혜택을 받습니다.
 
-Here you can also purchase Units, the in-game premium currency, with real money.
-In the Android/Apple application, the prices of Units will appear in your local currency.  
-In the browser version (both mobile or desktop views), the prices will appear in USD only.
+여기에서 실제 현금으로 게임 내 프리미엄 재화인 유닛 을 구입할 수도 있습니다.
+Android/Apple 애플리케이션에서 유닛 가격은 현지 통화로 표시됩니다.
+브라우저 버전(모바일 또는 데스크톱 보기 모두)에서 가격은 USD로만 표시됩니다.

@@ -1,147 +1,147 @@
-## Profile
-In your Profile, there are several pieces of information and options at your disposal.
+## 프로필
+프로필에는 당신에 대한 몇가지 정보와 사용할 수 있는 옵션이 표시됩니다
 
-Here is what you can see from your profile
- - Alias
- - Title and profile picture (if applicable)
- - Amount of BitCoins
- - Average gear level (Gear Score)
- - Current location
- - Online/Offline status (System Link)
- - Street Cred
- - Your current activity (Status)
- - Your level
- - Crafting ranks
- - Skill levels
- - Stats
- - Gang
- - Secret Keys
+프로필에서 볼 수 있는 내용은 다음과 같습니다.
+ - 별칭
+ - 제목 및 프로필 사진 (해당되는 경우에만)
+ - 비트코인의 양
+ - 평균 장비 레벨 (Gear Score)
+ - 현재 위치
+ - 온라인/오프라인 상태(시스템 링크)
+ - 명성 (Street Cred)
+ - 현재 활동 (상태)
+ - 당신의 레벨
+ - 제작 등급
+ - 스킬 레벨
+ - 능력치 (STATS)
+ - 갱단
+ - 비밀 열쇠
 
-In the [STATS] section, you can see the 'Global Effects' of an activated Transmitter (or boost).
+[STATS] 섹션에서 활성화된 송신기(또는 부스트)의 '글로벌 버프'를 볼 수 있습니다.
 
-Here you can also see how long the [MUTED] status will last.
+여기에서 [음소거] 상태가 지속되는 기간도 확인할 수 있습니다.
 
-As the name suggests, someone with the 'MUTED' status will not be able to communication with others for a certain amount of time.
+이름에서 알 수 있듯이 '음소거' 상태인 사람은 일정 시간 동안 다른 사람과 대화할 수 없습니다.
 
-The 'MUTED' status affects all kinds of chats: both Global, Gang and Mail (Private Messaging).
+'음소거' 상태는 모든 종류의 채팅에 영향을 줍니다: 글로벌, 갱채팅 및 메일 (비공개 메시지).
 
-The 'MUTED' status does not affect the ability to receive or send items to other players or the ability to play the game.
+'음소거' 상태는 다른 플레이어에게 아이템을 받거나 보내는 기능이나 게임을 플레이하는 기능에는 영향을 미치지 않습니다.
 
-The 'MUTED' status is applied by the moderators (mods) to a player who has broken the rules of the game or the ones related to the chat. 
+'음소거' 상태는 모더레이터가 게임의 규칙이나 채팅과 관련된 규칙을 어긴 플레이어에게 적용합니다.
 
-At the bottom of your profile, you will see a few additional options:
+프로필 하단에 몇 가지 추가 옵션이 표시됩니다.
 
-- [DONATE] - this will take you to the donation tiers (Cosmetics);
+- [기부] - 기부 (사이버웨어 미용실)로 이동합니다.
 
-- [QUIT GANG] - this will leave your gang, if you are in one;
+- [QUIT GANG] - 갱단에 속해 있다면 갱단을 떠나게 됩니다.
 
-- [LOGOUT] - this will log you out of the game.
+- [LOGOUT] - 게임에서 로그아웃됩니다.
 
-On other players' profiles, you will encounter different options:
+다른 플레이어의 프로필에는 다음과 같은 다양한 옵션이 있습니다.
 
-- [SEND PRIVATE MESSAGE] - send a private message to the player through in-game Mail.
+- [개인 메시지 보내기] - 게임 내 메일을 통해 플레이어에게 개인 메시지를 보냅니다.
 
-- [SEND GIFT] - send items (caches, healing items, ammo, etc.) from your inventory to the other player's inventory. You cannot send Secret Key Fragments to other players.
+- [선물 보내기] - 다른 플레이어에게 아이템(캐시, 치유 아이템, 탄약 등)을 보냅니다. 비밀 열쇠 조각은 보낼 수 없습니다.
 
-- [INVITE TO GANG] - invite the player to your gang, only if you are the Leader or you have the permission to invite others players into the gang.
+- [갱단에 초대하기] - 자신이 리더이거나 초대 권한이 있는 경우, 다른 플레이어를 갱에 초대합니다.
 
-- [ADD TO FRIEND LIST] - add the player to your friend list, and if the player is not currenty online, they will also receive a notification about the fact that you added them as a friend.
+- [친구 리스트에 추가] - 친구 목록에 플레이어를 추가하고, 대상이 현재 온라인 상태가 아닌 경우 친구 추가에 대한 알림도 전달합니다.
 
-- [SEND STREET CRED] - give 1 Street Cred point to the player.
+- [명성 주기] - 플레이어에게 1 명성(Street Cred) 포인트를 줍니다.
 
-Street Cred is a point system similar to "Karma" found on Reddit. It's meant to indicate how trustful or helpful a player is.
+명성 레딧Reddit에서 볼 수 있는 "Karma"와 유사한 포인트 시스템입니다. 플레이어가 얼마나 신뢰할 수 있거나 도움이 되는지를 나타내기 위한 것입니다.
 
-You're limited to sending only 1 Street Cred per day. You are not limited in how much Street Cred you receive from other players.
+하루에 1개의 명성만 보낼 수 있습니다. 다른 플레이어로부터 받는 명성의 양에는 제한이 없습니다.
 
-## Types of levels
+## 레벨 유형
 
-### Player Level
+### 플레이어 레벨
 
-This is the level all your other skills will be capped at. You can increase your player level by fighting in dungeons, fighting enemies and using Experience Memories. For the highest efficiency, you want to keep all your levels about even with your player level. This is recommended.
+플레이어의 레벨은 다른 모든 기술레벨의 상한선입니다. 던전이나 주변의 적과 싸우고, 경험치 메모리를 사용하여 플레이어 레벨을 높일 수 있습니다. 최고의 효율을 위해 모든 기술 레벨을 플레이어 레벨과 동일하게 유지하는것이 권장됩니다.
 
-### Printing Rank
+### 인쇄 레벨
 
-Printing rank determines the level of the equipment you will print at the 3D Molecular Printer. You can level your printing rank by printing equipment, Reverse Engineering Tech Scraps or working at a Printing Factory. The latter two options are AFK jobs at the Job Hub.
+인쇄 레벨은 '분자 3D 프린터'에서 인쇄할 장비의 수준을 결정합니다. 장비를 인쇄하거나, '공학 조각 역변환' 또는 '인쇄 공장 작업'에서 인쇄 레벨을 올릴 수 있습니다. 뒤에 설명한 두 가지 옵션은 일자리 중심지의 AFK 작업입니다.
 
-### Medical Science
-Crafting medical items or initiating the relevant job at the Job Hub will give you medical crafting experience. You will need these levels to craft better healing items.
+### 의학 지식
+의료 아이템을 제작하거나 일자리 중심지에서 해당 작업을 시작하면 의료 지식 경험치를 얻을 수 있습니다. 더 나은 회복 아이템을 제작하려면 더 높은 의학 레벨이 필요합니다.
 
-### Ammo Crafting
+### 탄약 제조
 
-Crafting ammo or initiating a job at the Job Hub will give you ammo crafting experience. It's useful to craft more ammo with less materials.
+탄약을 제작하거나 일자리 중심지에서 작업을 시작하면 탄약 제조 경험을 얻을 수 있습니다. 레벨이 높을수록 적은 재료로 더 많은 탄약을 만들 수 있으므로 유용합니다.
 
-### Scavenge Skill
+### 탐색 능력
 
-To start scavenging, you must start at the lowest level area (Flori Station, Grandiose Parking Lot 1 - 4). As your scavenge skill improves, you can start to scavenge at higher levels. The level requirements are listed in those areas.
+탐색를 시작하려면 가장 낮은 레벨의 지역 ( FLORI 역, GRECIAN SYNAGOGUE 1~4)에서 시작해야 합니다. 탐색 능력이 향상되면 더 높은 레벨의 지역에서 탐색을 시작할 수 있습니다. 레벨 요구 사항은 해당 지역에 표시되어 있습니다.
 
-Higher scavenge levels will also grant you better rewards of (ammunition, military ammunition and medical) tech parts. You can only gain scavenge experience by scavenging.
+더 높은 탐색 능력은 더 많은 탄약, 군용 탄약 및 의료 공학 조각을 얻을 수 있습니다. 탐색를 통해서만 탐색 경험치를 얻을 수 있습니다.
 
-### Mining Skill
+### 채굴 기술
 
-Mining can be done only with 'Hash Processors' that drop from both normal and challenge dungeons.
+일반 던전과 챌린지 던전 모두에서 드랍되는 '해시 프로세서'로만 채굴이 가능합니다.
 
-Higher mining levels can earn you more BTC per 15 minutes of AFK mining. You can get mining experience by completing mining jobs at the Job Hub. With higher mining levels, you can craft AI cores more efficiently as well.
+더 높은 채굴 레벨은 AFK 채굴 15분당 더 많은 BTC를 얻을 수 있습니다. 일자리 중심지에서  채굴 작업을 완료하면 채굴 경험치를 얻을 수 있습니다. 채굴 레벨이 높을수록 AI 코어를 더 효율적으로 제작할 수도 있습니다.
 
-## Stats
+## 능력치
 
-Every player has 20 different Stats. 
+모든 플레이어는 20개의 각기 다른 능력치를 가지고 있습니다.
 
-### Max Shield
-The maximum shield that the player has. Upon receiving an attack, the shield is hit first before deducting from the player's health.
- 
-### Max Health
-The maximum health that the player has. Determined by player equipment and equipment upgrades.  
+### 방어막 최대지
+플레이어가 가지고 있는 최대 방어막. 공격을 받으면 플레이어의 체력에서 차감되기 전에 방어막이 먼저 차감됩니다.
+
+### 최대 체력
+플레이어의 최대 체력. 플레이어 장비 및 장비 업그레이드에 따라 결정됩니다.
   
-### Armor
-The armor that the player has. It reduces damage taken by that specified amount.  
-  
-### Health Regen
-Health regenerated after a battle in a dungeon. 
+### 방어력
+플레이어가 가지고 있는 방어력. 특정 수치만큼 받는 데미지를 경감한다.
+
+### 재생
+던전에서 전투 후 체력이 회복됩니다.
    
-### Damage (dmg)
-The total damage the player deals. Your damage is calculated by adding up the damage modifiers given by equipment and equipment upgrades.  
+### 피해 (dmg)
+플레이어가 입히는 총 피해량입니다. 당신의 피해량은 장비와 장비 업그레이드에 의한 피해 수정치를 합산하여 계산됩니다.
   
-### Crit Chance
-The chance of the player critically striking when attacking. The max crit chance is 70%.  
+### 치명타 확률
+공격 시 플레이어가 치명타를 입힐 확률입니다. 최대 치명타 확률은 70%입니다.
   
-### Crit Damage
-The multiplier to your damage when critically striking. The max crit damage multiplier is 200%.  
+### 치명타 피해
+치명타를 입힐 때의 피해 배율. 최대 치명타 피해 배율은 200%입니다.  
   
-### Escape
-The chance of escaping from an enemy encounter. The max escape chance is 80%.  
+### 도주
+적과의 전투에서 도주할 수 있는 성공률. 최대 도주 확률은 80%입니다.
   
-### Stun Chance
-The chance of stunning an enemy. If an enemy is stunned, they cannot perform a response action during that turn. The max stun chance is 20%.  
+### 기절 확률
+적을 기절시킬 확률. 적이 기절하면 그 턴에 반격을 할 수 없습니다. 최대 기절 확률은 20%입니다.
   
-### Evade
-The chance of evading an enemy attack, taking no damage. The max evade chance is 40%.  
+### 회피
+적의 공격을 회피할 확률. 회피하면 피해를 입지 않습니다. 최대 회피 확률은 40%입니다.
   
-### Bargain
-The percentage the price is discounted or increased when buying or selling from the mart. The max bargain percentage is 40%.  
+### 흥정
+마트에서 사거나 팔 때 가격이 할인되거나 인상되는 비율입니다. 최대 할인율은 40%입니다.
   
-### Pocket
-The amount of additional inventory space. The max additional pocket space is 32.  
+### 포켓
+추가 인벤토리 공간의 양입니다. 최대 추가 포켓 공간은 128입니다.
   
-### Damage Multiplier
-A percent multiplier to attacks. The max multiplier is 40%.  
+### 피해 배수
+공격에 대한 퍼센트 배율. 최대 배율은 40%입니다.
   
-### Defence Multiplier
-A percent multiplier to your armor. The max multiplier is 40%.  
+### 방어 배수
+갑옷의 퍼센트 배율. 최대 배율은 40%입니다.
   
-### Stun Evade
-The chance of evading an enemy stun. The max chance is 40%.  
+### 기절 회피율
+적의 기절을 피할 확률. 최대 확률은 40%입니다.
   
-### Shield Multiplier
-A percent multiplier to your shield. The max multiplier is 40%.  
+### 쉴드 배수
+방패의 퍼센트 배율입니다. 최대 배율은 40%입니다.
 
-### Healing Multiplier
-A percent multiplier to heals received from healing items. The max multiplier is 100%.
+### 회복 배수
+치유 아이템으로 받는 치유의 퍼센트 배율입니다. 최대 승수는 100%입니다.
 
-### Time Reduction
-A percent multiplier for how much time is reduced during AFK activities. The max time reduction is 80%.
+### 시간 단축
+AFK 활동 중에 얼마나 많은 시간이 단축되는지에 대한 백분율입니다. 최대 시간 감소는 80%입니다.
 
-### Experience Multiplier
-A percent multiplier showing how much EXP you can additionally gain. The max multiplier is 100%.
+### 경험치 배율
+추가로 얻을 수 있는 EXP를 나타내는 백분율입니다. 최대 100%입니다.
 
-### BitCoin (BTC) Multiplier
-A percent multiplier showing how much BitCoin you can additionally gain. The max multiplier is 100%.
+### 비트코인(BTC) 배율
+추가로 얻을 수 있는 BitCoin의 양을 보여주는 백분율. 최대 100%입니다.
