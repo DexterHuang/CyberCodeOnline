@@ -23,6 +23,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ## Updates    
 ### **2021/12/14 v0.749
  * OPTIMIZATION - optimized some algorithm, prinitng and crafting page should be faster
+ * NEW - Added icon for caches
 
 ### **2021/12/13 v0.749
  * NEW - Added translable tutorial files, tips file is also added but not working yet, if you are interested please feel free to translate it to your language :)
