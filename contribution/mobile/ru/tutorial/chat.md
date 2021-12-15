@@ -1,12 +1,12 @@
-## Chat
+## Чат
 
-There are 3 types of chat rooms in CyberCode Online currently: 
-- Global (or General Chat) - Where everyone can chat freely and interact with each other.
-- Gang - Only the members of your gang can chat and see the messages sent in that channel. You can tag other people in the gang chat as well.
-- Private Messages (Mail) - Where you can privately chat with people. You will also receive notifications as in a form of Mail from the System after you sent items to someone or vice versa, when someone bought your listings on the Player Market or when you receive a Street Cred from someone.
+В CyberCode Online существует 3 типа чатов: 
+- Глобальный (или общий чат) - где все могут свободно общаться и взаимодействовать друг с другом.
+- Чат Банды - только члены вашей банды могут общаться и видеть сообщения, отправленные в этом канале. Вы все ещё можете упоминать других игроков в чате банды.
+- Личные сообщения (почта) - здесь вы можете приватно общаться с людьми. Вы также будете получать уведомления в виде системного сообщения после того, как вы отправили кому-то предметы или наоборот, когда кто-то купил ваши лоты на Рынке игроков или когда кто-то повысил вам репутацию.
 
-In order to mention (or tag) someone in the Global chat, you can use '@' and the name of the user. As you type their name, a list will appear and you can select the desired name from that list.
+Чтобы упомянуть (или отметить) кого-то в Глобальном чате, вы можете использовать '@' и имя пользователя. Когда вы начнёте вводить имя, появится список, и вы сможете выбрать нужное из него.
 
-The player mentioned by you will receive a notification that you mentioned them. 
+Упомянутый вами игрок получит уведомление о том, что вы его упомянули. 
 
-Note: You can't mention (tag) someone in the private chat for obvious reasons.
+Примечание: Вы не можете упомянуть (отметить) кого-либо в личном чате по очевидным причинам.

@@ -1,8 +1,8 @@
-## Creating an Account
+## Регистрация
 
-Currently you can use Google, Apple or any email accounts to register.
-You will be then taken to a screen where you will choose your username. Make sure to choose wisely as this is permanent and cannot be changed.
+В настоящее время для регистрации можно использовать учетные записи Google, Apple или любую электронную почту.
+После регистрации вы попадете на экран, где вам нужно будет выбрать имя пользователя. Выбирайте его с умом, так как оно является постоянным и не может быть изменено.
 
-## Logging in
+## Вход
 
-If you already have an account, fill in the respective blanks to sign in or by clicking on the Google/Apple sign in buttons.
+Если у вас уже есть аккаунт, заполните соответствующие поля или войдите при помощи Google/Apple.
