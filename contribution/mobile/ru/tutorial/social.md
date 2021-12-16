@@ -1,19 +1,19 @@
-## Gangs
-Currently gangs are just a private chat area for a group of up to 32 friends to communicate, but there are future plans for features to be added.
+## Банды
+В настоящее время банды - это приватная зона чата для общения группы до 32 человек, но в будущем планируется добавить новые функции.
 
-As Gang Leader, you will have 3 additional options when visiting one of your gang members' profiles:
- - [KICK] - you can kick the gang member from the gang;
- - [PERMISSIONS] - here you can grant permissions to the gang member:
-   - Invite - it allows the gang member to invite other players to the gang;
-   - Kick  - it allows the gang member to kick other gang members;
-   - Manage - it allows the gang member to add or remove other gang members' permissions.
- - [TRANSFER LEADERSHIP] - you can set another gang member as the leader in case you don't want to be the leader anymore or want to leave the gang.
+В качестве лидера банды у вас будет 3 варианта при просмотре профилей одного из членов вашей банды:
+ - [ВЫГНАТЬ] - вы можете выгнать игрока из вашей банды;
+ - [ПРАВА] - здесь вы можете выдать права члену банды;
+    - Пригласить - позволяет члену банды приглашать других игроков в банду;
+    - Выгнать - позволяет члену банды выгонять других членов банды;
+    - Управление - позволяет члену банды добавлять или удалять права других членов банды.
+ - [ПЕРЕДАТЬ ЛИДЕРСТВО] - вы можете назначить лидером другого члена банды, если вы больше не хотите быть лидером или хотите покинуть банду.
 
-Also as the Leader, in the Gang chat, if you click on the numbers of players in the gang on the top right, you will be able to [DELETE GANG] there.
+Также как Лидер, в чате Банды, если вы нажмете на количество игроков в правом верхнем углу, вы сможете [УДАЛИТЬ БАНДУ] там.
 
 
-## Friends
-To access your personal friends list, click on the floating menu and choose the 'people' icon. 
-You can add friends by going into a user's profile, scrolling down and clicking 'Add to Friend List'. You can do the same to remove a friend by clicking the 'Remove From Friend List' button.
-Adding someone to your friends list will not require the other person to accept the request. They will simply be added to your friends list.
-Viewing your friends list will allow you to see if they are online, idle or offline.
+## Друзья
+Чтобы получить доступ к своему списку друзей, щелкните на кнопку плавающего меню и выберите пункт «список друзей».
+Вы можете добавить друзей, зайдя в профиль пользователя, прокрутив вниз и нажав «Добавить в список друзей». Вы можете сделать то же самое, чтобы удалить друга, нажав кнопку «Удалить из списка друзей».
+Добавление кого-либо в список друзей не требует, чтобы другой человек принял запрос. Они просто будут добавлены в ваш список друзей.
+Просмотр списка друзей позволит вам увидеть, находятся ли они в сети, бездействуют или отсутсвуют.
