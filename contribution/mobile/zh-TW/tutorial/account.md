@@ -1,8 +1,8 @@
-## Creating an Account
+## 創建帳戶
 
-Currently you can use Google, Apple or any email accounts to register.
-You will be then taken to a screen where you will choose your username. Make sure to choose wisely as this is permanent and cannot be changed.
+目前你可以使用Google, Apple或任何電子郵件帳戶進行註冊。
+然後你將被帶到一個頁面，你將在其中選擇你的用戶名。 請務必明智地選擇，因為這是永久的，無法更改的。
 
-## Logging in
+## 登錄
 
-If you already have an account, fill in the respective blanks to sign in or by clicking on the Google/Apple sign in buttons.
+如果你已有帳戶，請填入對應資訊進行登錄,或點擊Google/Apple按鈕進行登錄。
