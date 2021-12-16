@@ -21,6 +21,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates    
+### **2021/12/16 v0.749
+ * UPDATE - Now if chat message list will show a small popup if you are not at the bottom, clicking the popup will scroll to bottom, this should fix chat not scolling with new message issue :)
+ * UPDATE - Tip box will now use translated version if avaiable 
+ * UI - Updated buttons in player details page
+
 ### **2021/12/14 v0.749
  * OPTIMIZATION - optimized some algorithm, prinitng and crafting page should be faster
  * NEW - Added icon for caches
