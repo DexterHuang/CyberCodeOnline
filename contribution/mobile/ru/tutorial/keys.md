@@ -1,10 +1,10 @@
-## Secret Keys
-Leveling areas of the game are called 'Stations'. Each Station has 3 mini-areas, each with mobs within a certain level range and normal and challenge dungeons. Every dungeon has a boss room, with either lots of tough mobs which are higher level or a super boss which has a lot of hitpoints, potentially defeating players in one hit.
+## Секретные ключи
+Уровневые зоны в игре называются "Станции". На каждой станции есть 3 подзоны, в каждой из которых есть мобы определенного уровня, а также обычные и сложные подземелья. В каждом подземелье есть комната босса, в которой либо много сложных мобов более высокого уровня, либо супербосс, у которого много хитпоинтов, и он может победить игрока одним ударом.
 
-After defeating all of the enemies in the boss room of a challenge dungeon, you will find a key fragment which is represented by a window icon in the room. Once you have all 3 fragments from one station, you can craft a Secret Key at the Terminal, which is found at the Shangri-La City Center (main HUB area of the game). Each Secret Key will grant you access to a new Station and a new list of higher-level enemies and dungeons to explore.  
+После победы над всеми врагами в комнате босса в подземелье с испытаниями вы найдете фрагмент ключа, который представлен значком окна в комнате. Как только у вас будут все три фрагмента с одной станции, вы сможете изготовить Секретный ключ в Терминале, который находится в Центре города Шангри-Ла (главная зона игры). Каждый секретный ключ открывает доступ к новой станции и новому списку врагов более высокого уровня и подземелий, которые необходимо исследовать.  
 
-Additional key fragments can either be discarded (when interacting with the icon in the dungeon) or destroyed (from your inventory).
+Дополнительные фрагменты ключей можно либо не брать (при взаимодействии в подземелье), либо уничтожить (из инвентаря).
 
-Key fragments cannot be sent to other people nor be sold on the Player Market.
+Фрагменты ключей нельзя передавать или продавать на рынке игроков.
 
-This is the main progression mechanic of the game and dungeons will continue to increase in level and difficulty with you. However, if your player level is 10 levels below the dungeon's recommended level, you won't be able to join it. If you are too many levels above a mob, you also won't receive any loot rewards on defeating the enemy. If you are 12 levels above the recommended dungeon level, you won't be able to interact with anything, including doors, quest givers and loot.
+Это основная механика продвижения в игре и подземелья будут продолжать расти в уровне и сложности вместе с вами. Однако если ваш уровень игрока на 10 уровней ниже рекомендуемого уровня подземелья, вы не сможете в него попасть. Если вы на много уровней превосходите моба, то вы не получите награду за победу над ним. Если вы на 12 уровней выше рекомендуемого уровня подземелья, вы не сможете взаимодействовать ни с чем, включая двери, квестодателей и добычу.
