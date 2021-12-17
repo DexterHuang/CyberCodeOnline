@@ -1,0 +1,2 @@
+## Quests
+Quests can be found in the Quest tab at the bottom o' the screen. Here be where ye be given specific tasks that shall earn ye extra experience points 'n BitCoins. Thar are a variety o' tasks available, such as printin' equipment, scuttlin' enemies, 'n gainin' experience or BitCoins. Once ye 'ave completed a quest, skewer on it t' claim the rewards. In most cases, ye will also be given a new quest. Ye can also acquire quests inside dungeons by speakin' t' the quest giver, which be marked as a '?'.  
