@@ -1,75 +1,73 @@
-## Dungeons
+## Данжи
 
-## Types of Dungeons
+## Типы данжей
   
 ![DungeonTypes](/resources/mobile-tutorial/DungeonTypes.png)
   
-These are the three types of dungeons that you are able to enter. The [normal] dungeon will include a key fragment in the treasure room and no boss. The [challenge] dungeon is a lot harder but includes more crates for loot and has a boss in the treasure room that gives a lot of EXP.  The [gang] dungeon is the hardest of all and requires that you are in a gang and have a Gang Invasion Order Transmitter.  Enemies are 4-5x stronger than normal dungeons but has greater rewards.
-
-## Creating / Joining a Dungeon
+Это три типа данжей, в которые вы можете войти. [Обычное] подземелье будет включать фрагмент ключа в сокровищнице и без босса. Подземелье [испытание] намного сложнее, но включает в себя больше ящиков для добычи и имеет босса в комнате сокровищ, который дает много опыта. Подземелье [банды] является самым сложным из всех и требует, чтобы вы были в банде и имели передатчик приказа о вторжении банды. Враги в 4-5 раз сильнее обычных подземелий, но имеют большие награды.
+## Создание / присоединение к игровой комнате
   
-When creating a dungeon, select the dungeon you want to create. You can name it and choose to make it Public or Private. You can also protect the dungeon with a password.
+При создании игровой комнаты выберите данж, который вы хотите создать. Вы можете назвать её и сделать общедоступным или частным. Вы также можете защитить комнату паролем.
 
-Public Dungeons are available to everyone to see and join (if they meet the level requirements) by accessing the list of dungeons. 
+Общедоступные комнаты доступны каждому, увидеть и присоединиться к ним (если они соответствуют требованиям уровня) можно открыв список данжей.
 
-Password protected dungeons can be seen by other players but they cannot join unless they know the password. This is useful if you want to clear a dungeon with specific friends. Share the password in Gang chat or through Mail.
+Защищенные паролем комнаты могут видеть другие игроки, но они не могут присоединиться, если не знают пароль. Это полезно, если вы хотите очистить данж с друзьями. Поделитесь паролем в чате банды или через почту.
 
 ![DungeonCoop4](/resources/mobile-tutorial/DungeonCoop4.png)
 ![DungeonCoop3](/resources/mobile-tutorial/DungeonCoop3.png)
 
-If you'd rather join an existing dungeon, you can press the floating menu button at the bottom right, then select the buildings icon to view a list of open dungeons, as shown above in the screenshots.
-
-At the top right of each dungeon panel, you can find the dungeon level. Each panel includes a list of players and their status in the dungeon. At the bottom, you can see how many enemies are left. You can choose to join a fresher dungeon to gain more EXP or enter empty dungeons to claim loot.
+Если вы хотите присоединиться к существующей комнате, вы можете нажать кнопку плавающего меню в правом нижнем углу, а затем выбрать значок здания, чтобы просмотреть список открытых комнат, как показано на скриншотах выше.
+В правом верхнем углу каждой панели комнаты вы можете найти уровень данжа. Каждая панель включает в себя список игроков и их статус в комнате. Внизу вы можете увидеть, сколько врагов осталось. Вы можете присоединиться к более свежему данжу, чтобы получить больше опыта, или войти в пустые данжи, чтобы получить добычу.
  
 ![DungeonCoop](/resources/mobile-tutorial/DungeonCoop.png)
   
-As shown in the images above, there are several players in the same dungeon. The rules are the same regardless of how many players are in a dungeon; the only difference is that players can help each other out. When using heals, it is usually advised to use the AOE items (such as Pain Away Spray) to heal both yourself and your co-op partners. You can see everyone's health bars above the player icons.  
+Как показано на изображениях выше, в одном данже находится несколько игроков. Правила одинаковы независимо от того, сколько игроков находится в данже; единственная разница в том, что игроки могут помогать друг другу. При использовании исцеления обычно рекомендуется использовать AOE-предметы (например, Pain Away Spray), чтобы лечить себя и своих партнеров по прохождению. Вы можете увидеть полоски здоровья каждого над значками игроков.
 
-When an enemy is killed with the help from a friend, everyone who dealt 20% or more damage is given EXP and a chance for a reward, as long as their level isn't too high for the mob. All crates and loot are unique to each player, so you don't need to worry about sharing loot or having yours stolen. Grab everything you want and discard the rest!
+Когда враг убит с помощью друга, каждому, кто нанес 20% или более урона, дается EXP и шанс на награду, если их уровень не слишком высок для моба. Все ящики и добыча уникальны для каждого игрока, поэтому вам не нужно беспокоиться о разделении добычи или о краже вашей. Хватай все, что хочешь, а остальное выброси!
 
 ![DungeonCoop2](/resources/mobile-tutorial/DungeonCoop2.png)
 
-In this image, at the bottom under the '[QUIT DUNGEON]' button, you will find a button labeled '[Send invite to global chat]'. This will send an invite to the global chat so others can join easily by clicking on the message. Anyone around your level can join and help you out as long as they are within 10 levels below or 12 levels above your dungeon.
+На этом изображении внизу под кнопкой «[ПОКИНУТЬ ДАНЖ]» вы найдете кнопку с надписью «[Отправить приглашение в общий чат]». Это отправит приглашение в чат, чтобы другие могли легко присоединиться, нажав на сообщение. Игрок может присоединиться и помочь вам, если он находится в пределах 10 уровней ниже или 12 уровней выше вашего данжа.
 
-You can also click on messages from other players to join their dungeon.
+Вы также можете нажимать на сообщения от других игроков, чтобы присоединиться к их комнате.
 
-After a player dies or leaves, they cannot rejoin the dungeon.
+После смерти или ухода игрока он не может вернуться в данж.
   
-## Entrance and Icons
+## Вход и знаки
   
 ![DungeonEntranceUsed](/resources/mobile-tutorial/DungeonEntranceUsed.png)
   
-Here you can see the first room of a dungeon. There are doors which will take you to another room in the dungeon. You can find these doors on all sides of the dungeon rooms.  You cannot enter a new room until you have killed all enemies in the current room.
+Здесь вы можете увидеть первую комнату темницы. Есть двери, через которые вы можете попасть в другую комнату данжа. Вы можете найти эти двери со всех сторон комнат данжей. Вы не можете войти в новую комнату, пока не убьете всех врагов в текущей комнате.
 
-This also shows an example of a room that has been completed. Note the greyed out crates, indicating that they have been looted already. The door on the right wall is also greyed out, which means you have already been through it. This is essential to not get lost while exploring the dungeon. 
+Здесь также показан пример комнаты, которая была зачищена. Обратите внимание на серые ящики, это означает, что они уже разграблены. Дверь в правой стене также неактивна, что означает, что вы уже прошли через нее. Это важно, чтобы не заблудиться при исследовании данжа.
 
-### Enemies
+### Враги
   
 ![DungeonEnemies](/resources/mobile-tutorial/DungeonEnemies.png)
   
-There are four alien looking icons spread across the room, and these are the enemies you have to defeat before proceeding to the next room or accessing the crates in the room. Click on one of them to fight them.
+По комнате разбросаны четыре значка, выглядящие как инопланетяне это враги, которых вам нужно победить, прежде чем перейти в следующую комнату или получить доступ к ящикам в комнате. Нажмите на одного из них, чтобы сразиться с ними.
   
 ![DungeonFight](/resources/mobile-tutorial/DungeonFight.png)
   
-Rules are slightly different in the dungeons when you fight enemies. You will have a row of 3 buttons above your attack options which you can assign to usable items from your inventory. You should assign medical items to this hotbar since your health doesn't regenerate automatically after each fight.
+Когда вы сражаетесь с врагами, в данжах правила немного другие. У вас будет ряд из 3 кнопок над вашими вариантами атаки, которые вы можете назначить для использования предметов из своего инвентаря. Вы должны назначить медицинские предметы на эту панель быстрого доступа, так как ваше здоровье не восстанавливается автоматически после каждого боя.
 
-You also have an 'Escape' button on the top left. The success rate of you escaping is based on your player 'escape' stat.  
+У вас также есть кнопка «Сбежать» в левом верхнем углу. Вероятность вашего побега зависит от характеристики побега вашего персонажа.
  
-### Good Guy (?)
+### Хороший парень (?)
   
 ![DungeonGoodguy](/resources/mobile-tutorial/DungeonGoodguy.png)
   
-Here, you can see the '?' icon, indicating a quest if you choose to accept it. You can find one quest giver per dungeon, and they are usually placed randomly in one of the rooms.
+Здесь вы можете увидеть "?" Значок, обозначающий квест, который вы можете принять. Квестодателя возможно найти в каждом подземелье, они обычно случайным образом размещаются в одной из комнат.
   
 ![DungeonGoodguy2](/resources/mobile-tutorial/DungeonGoodguy2.png)
   
-Here is an example of the dialogue that pops up after clicking on the '?'. They will ask for items in return for other items or power-ups. It is up to you to decide if the trade is worthwhile; however, if you can afford it, it is usually worth accepting for the extra EXP you gain from completing it. Some of the text on this screen is randomly generated from a file, so you may get odd or funny references, if it makes any sense at all.
+Вот пример диалога, который появляется после нажатия на «?». Они будут просить предметы взамен на другие предметы или бонусы. Вам решать, стоит ли торговать, однако если вы можете себе это позволить, обычно стоит согласиться на дополнительный опыт, который вы получите после завершения квеста. Часть текста на этом экране генерируется случайным образом из файла, поэтому вы можете получить странные или забавные ссылки, если они вообще имеют смысл.
 
-### Lore (!)
+### Игровой сюжет (!)
 
-There are exclamation marks dotted around dungeons that provide snippets of game lore. These don't have an impact on your game or the dungeon but may be interesting to read.
+По данжу расставлены восклицательные знаки, которые предоставляют отрывки из истории игры. Они не влияют на вашу игру или прохождение данжа, но могут быть интересны для чтения.
 
-### Treasure / Boss Room
+### Сокровищница / Комната с боссом
   
 ![DungeonBossTreasureCoop](/resources/mobile-tutorial/DungeonBossTreasureCoop.png)
   
