@@ -1,250 +1,250 @@
-### What is this game, and what do I do?
-Basically you adventure around 'Train Stations' and either defeat individual enemies or conquer entire dungeons.
-You'll randomly receive items, equipment or caches after defeating enemies.
+### Что это за игра и что мне делать?
+В основном вы путешествуете по "железнодорожным станциям" и, либо побеждаете отдельных врагов, либо завоевываете целые подземелья.
+После победы над врагами вы будете случайным образом получать предметы, снаряжение или чертежи.
 
-**You will receive BTC and EXP inside a battle, but items won't drop after every single battle.**
+**Вы будете получать BTC и опыт во время битвы, но предметы не будут выпадать после каждой битвы.**
 
-### Is this game P2W (Pay-to-Win)?
-No. There's no element in this game that would benefit or offer additional advantages to some players over others.
+### Является ли эта игра P2W (Pay-to-Win)?
+Нет. В этой игре нет никаких элементов, которые могли бы принести пользу или дать дополнительные преимущества одним игрокам по сравнению с другими.
 
-The Transmitters sold in the Arasaka Unit Exchange have a global effect, which means once it is activated, all players on the server will benefit from the effect that it gives. Similarly, the Global Skips that can be purchased apply to all players who have started AFK tasks.
+Передатчики, продаваемые в Обменном Пункте Арасаки, имеют глобальный эффект, то есть после их активации все игроки на сервере получат бонус от эффекта, который они дают. Аналогично, глобальные скипы, которые можно приобрести, распространяются на всех игроков, которые начали выполнять AFK-задания.
 
-The developer intends to keep the game non-P2W into the future.
+Разработчик намерен сохранять игру не-P2W в будущем.
 
-### How can I help out?
-All user-contributed content can be found on the [Github](https://github.com/DexterHuang/CyberCodeOnline).  
-Feel free to submit a PR (Pull Request).
+### Как я могу помочь?
+Весь пользовательский контент находится на [Github](https://github.com/DexterHuang/CyberCodeOnline).  
+Не стесняйтесь залить и свой PR (Pull Request).
 
-### Does this game have any social media?
-Yes. You can find our community on [Discord](https://discord.link/cco) and on [Reddit](https://www.reddit.com/r/CyberCode_Online/).
+### Эта игра есть в соцсетях?
+Да. У нас есть сообщество в [Discord](https://discord.link/cco) и на [Reddit](https://www.reddit.com/r/CyberCode_Online/).
 
-The developer (DexterHuang) also has a [Patreon](https://www.patreon.com/cybercodeonline) for donations that will help support and maintain the game.
+Разработчик (DexterHuang) так же имеет свой [Patreon](https://www.patreon.com/cybercodeonline) для пожертвований, которые идут на поддержку и обслуживание игры.
 
-These social links can also be found by accessing ☰ and clicking on the chain link symbol on mobile or by accessing the respective platform icons on the left side of the web view.
+Эти ссылки также можно найти, зайдя в меню ☰ и нажав на символ ссылки на мобильном телефоне или зайдя на соответствующие иконки платформ в левой части веб-интерфейса.
 
-### What programs or languages are being used for the creation of this game?
-CyberCode Online is a game developed using [ReactJS](https://reactjs.org/) with player contributions from [Github](https://github.com/DexterHuang/CyberCodeOnline).
+### Какие программы или языки используются для создания этой игры?
+CyberCode Online - это игра, разработанная с использованием [ReactJS](https://reactjs.org/) с вкладом игроков с [Github](https://github.com/DexterHuang/CyberCodeOnline).
 
-### Is the game translated in other languages?
-Yes. This game is currently translated in 15 languages.
+### Переведена ли игра на другие языки?
+Да. В настоящее время игра переведена на 15 языков.
 
-To change the language of the game,  
-go to Map and click on ⚙️.
+Чтобы изменить язык игры,  
+перейдите в раздел Карта и нажмите на ⚙️.
 
-Please notice that the translations might contain mistakes, be incomplete or some parts of the game might be completely untranslated.
-If the game is not translated in your language or you want to improve the current translations, please head out to our [Github](https://github.com/DexterHuang/CyberCodeOnline).
+Обратите внимание, что переводы могут содержать ошибки, быть неполными или некоторые части игры могут быть полностью не переведены.
+Если игра не переведена на ваш язык или вы хотите улучшить текущий перевод, пожалуйста, зайдите на наш [Github](https://github.com/DexterHuang/CyberCodeOnline).
 
-### Is there any customization in the game?
-You can have a custom profile picture in your profile, a Title and a coloured chat border, if you decide to subscribe to one of the 5 Donation Tiers available.
+### Есть ли в игре кастомизация?
+Если вы решите поддержать игру одним из 5 доступных уровней платной подписки, вам станет доступна пользовательская картинка в профиле, титул и цветная рамка чата.
 
-Elite Tier and higher, will have access to a bio on their profile and a barcode.  
+Участники уровня Elite и выше получат доступ к биографии и штрих-коду в профиле.  
 
-These benefits are purely cosmetic.
+Эти преимущества носят чисто декоративный характер.
 
-### Can I change my name?
-No, you can't change your name.  
-Your username is permanent for now.
+### Могу ли я изменить свое имя?
+Нет, вы не можете изменить свое имя.  
+Ваше имя пользователя пока остается постоянным.
 
-### How do I tag someone? Can I search the usernames of other people?
-You can tag and search for a user by typing @ in chat followed by their name (for example, type @DexterHuang).
+### Как упомянуть кого-то? Могу ли я искать по именам других людей?
+Вы можете упомянуть или найти пользователя, набрав @ в чате, а затем его имя (например, @DexterHuang).
 
-They will show up even if they are not online and they will receive a notification.
+Игроки будут показаны, даже если их нет в сети, и они получат уведомление.
 
-### Does the chat support emojis and kaomojis?
-Yup 🤠 ฅ^•ﻌ•^ฅ.
+### Чат поддерживает эмоджи или каомоджи?
+Ага 🤠 ฅ^•ﻌ•^ฅ.
 
-Please don't overuse or spam these, as this kind of practice is against the Chat Rules.
+Пожалуйста, не злоупотребляйте ими и не флудите, так как такая практика противоречит Правилам чата.
 
-### Does this game have PvP?
-No. PvP is not currently available in the game.
+### Есть ли в этой игре PvP?
+Нет. PvP в игре на данный момент отсутствует.
 
-### What is the fastest way to level up in this game?
-The fastest and best way to level up in this game is to have an Frontal Cortex Transmitter (XP booster) active and to complete challenge dungeons.
+### Какой самый быстрый способ повышения уровня в этой игре?
+Самый быстрый и лучший способ повысить уровень в этой игре - иметь активный Передатчик фронтальной коры (он же бустер опыта) и проходить сложные подземелья.
 
-### What will happen if I die?
-You will lose some of your experience and BTC (around 10%); however your inventory will be safe.
+### Что произойдет, если я умру?
+Вы потеряете часть опыта и BTC (около 10%), однако ваш инвентарь будет в безопасности.
 
-### Where is the Player Market?
-When your character reaches level 5, the player market will be unlocked.  
-It will show up as a new destination in the 'Central Hub'.
+### Где находится рынок игроков?
+Когда ваш персонаж достигнет 5 уровня, рынок игроков будет разблокирован.  
+Он появится как новый пункт назначения в центре города.
 
-### Does the game support trading among players?
-Yes, partially. You can send items to other players, but there isn't a system that forces the other person to give something in exchange. Most trades are conducted with trust.
+### Поддерживает ли игра торговлю между игроками?
+Да, частично. Вы можете отправлять предметы другим игрокам, но в игре нет системы, которая заставляла бы другого человека давать что-то в обмен. Большинство сделок совершается на доверии.
 
-You can't gift BTC and key fragments to other players.
+Вы не можете дарить BTC и фрагменты ключей другим игрокам.
 
-Only healing items, ammo, materials, Hash Processors, Ai Cores and other types of items.
+Только лечащие предметы, аммуницию, материалы, хэш-процессоры, ядра ИИ и другие типы предметов.
 
-### What should I do if my inventory is full?
-You can either scrap, destroy or store items in the bank located in the City Center. Note that the fee for each item you deposit in the bank is 100 BTC. It doesn't cost anything to take the item back out.
+### Что делать, если мой инвентарь переполнен?
+Вы можете либо переработать предметы в металлолом, либо уничтожить их, либо хранить в банке, расположенном в Центре города. Обратите внимание, что плата за каждый предмет, который вы кладете в банк, составляет 100 BTC. Забирать предмет обратно ничего не стоит.
 
-You can also temporarily increase your inventory capacity with the 'Pocket' stat found on equipment and upgrade modules.
+Вы также можете временно увеличить вместимость своего инвентаря с помощью модификатора "Карман" ("Pocket"), которым обладают предметы снаряжения и модули модернизации.
 
-### How do I craft items?
-At the top of the Inventory page, you will find a tab called 'Crafting'.
+### Как создавать предметы?
+В верхней части страницы инвентаря вы найдете вкладку "Создание".
 
-### Where can I get healing items?
-Healing items can be crafted, found when defeating an enemy or when looting a crate in a dungeon, or purchased at the Trinoky Mart in the City Center.  
-They can also be purchased from the Player Market.
+### Где я могу получить лечащие предметы?
+Лечщие предметы можно изготовить, найти при победе над врагом или в ящиках в подземелье, а также купить в Триноки-маркете в центре города.  
+Их также можно приобрести на рынке игроков.
 
-### How do I use my healing items?
-To equip and use your healing items, go to your inventory and under your equipment you will find 3 'Quick Slots'.  
-Click on one of them and assign your desired healing item to it.  
-Healing items can be used only inside dungeons.  
+### Как использовать лечащие предметы?
+Чтобы экипировать и использовать лечащие предметы, зайдите в инвентарь и под снаряжением найдите 3 "быстрых слота".  
+Нажмите на один из них и назначьте на него нужный вам предмет.  
+Лечащие предметы можно использовать только в подземельях.  
 
-### Why can't I use my Special and Destructive weapons?
-These weapons require ammo. Special weapons uses Energy Cells and Destructive weapons use Anti-Matter Charges.  
-Ammo can be looted form enemies, crafted in your Inventory, or bought on the player market. 
+### Почему я не могу использовать специальное и разрушительное оружие?
+Для этого оружия нужны патроны. Специальное оружие использует энергоячейки, а разрушительное - заряды антиматерии.  
+Патроны можно получить у врагов, создать в инвентаре или купить на рынке игроков. 
 
-### Can I upgrade the stats of my weapons and armour?
-Yes, you can upgrade your weapons at the Calibration Station found in your main map.  The Calibration Station requires an Equiptment Calibration Core.
-Calibration has a chance of destruction, so be on the lookout for Calibration buffs which lower destruction chance.
+### Можно ли повысить характеристики оружия и брони?
+Да, вы можете улучшить свое оружие на Калибровочной станции, расположенной на главной странице карты. Для работы станции калибровки требуется Калибровочное ядро.
+Калибровка имеет шанс разрушить предмет, поэтому следите за баффами калибровки, которые снижают шанс разрушения.
 
-### What does "Quality" on weapons and armor means?
-The quality of the armor will contribute a lot on the stat it gives; the higher the quality, the better the stats.
-Quality tiers go from Trash > Common > High Quality > Rare > Legendary > Epic.
-You cannot change the Quality of a weapon or armor.
+### Что означает "Качество" на оружии и броне?
+Качество брони во многом зависит от того, какие статы она дает; чем выше качество, тем лучше статы.
+Уровни качества варьируются в следующем порядке Мусорное > Обычное > Высококачественное > Редкое > Легендарное > Эпическое.
+Вы не можете изменить качество оружия или доспехов.
 
-### What does "Durability" on weapons and armor means?
-Durability is the ability of an equipment to remain functional, without requiring excessive maintenance or repair, when faced with the challenges of normal operation over it's designed lifetime. (Wikipedia).  Durability only decreases when fighting Nearby Enemies.  Durability is not impacted when fighting in dungeons.
+### Что означает "Долговечность" на оружии и броне?
+Долговечность - это способность оборудования сохранять работоспособность, не требуя чрезмерного обслуживания или ремонта, при столкновении с трудностями нормальной эксплуатации в течение расчетного срока службы. (Википедия).  Долговечность снижается только при сражении с ближайшими противниками.  Долговечность не уменьшается при сражении в подземельях.
 
-### How do I repair my equipment's durability?
-You can repair your equipment by paying a small amount of BTC at the Weapon Shop located in the City Center.
+### Как восстановить долговечность снаряжения?
+Вы можете отремонтировать свое снаряжение, заплатив небольшую сумму BTC в оружейной мастерской, расположенной в Центре города.
 
-### Can I remove installed upgrade modules?
-Yes. Click on the installed upgrade module to remove it from the equipment.
+### Могу ли я снимать установленные модули модернизации?
+Да. Нажмите на установленный модуль модернизации, чтобы снять его с предмета.
 
-### Why is the equipment I print the wrong level?
-Your printed gear will have the same level as the one from your 'Printing Rank'. It does not scale with player level.
+### Почему снаряжение, которое я печатаю, имеет неправильный уровень?
+Ваше напечатанное снаряжение будет иметь тот же уровень, что и уровень вашего "Навыка печати". Он не зависит от уровня игрока.
 
-### How do I increase my printing rank?
-There are 3 ways to increase your printing rank.
+### Как повысить свой уровень навыка печати?
+Есть 3 способа повысить свой навык печати.
 
-1. Print caches at the 3D Printing Module. Each cache you print gives you printing exp. Trash caches are the cheapest to print and the printed gear can be scrapped for Tech Scrap.
+1. Печатать чертежи в модуле 3D-печати. Каждый напечатанный чертеж дает вам опыт печати. Мусорные чертежи самые дешевые для печати, а напечатанное снаряжение можно сдать в металлолом.
 
-2. AFK Printing Training. There is an AFK job in the Commercial Area called 'Work in Printing Factory' that gives you printing exp.
+2. AFK-обучение печати. В Коммерческой зоне есть AFK-задание под названием "Работа на фабрике печати", которое дает вам опыт печати.
 
-3. Reverse engineering Tech Scraps. In the Commercial Area there is a short AFK job called 'Reverse Engineer Scraps' which uses Tech Scraps to increase your printing rank. This is the fastest way to increase your rank. 
+3. Разбор металлолома. В Коммерческой зоне есть короткое задание AFK под названием "Разбор металлолома", которое использует металлолом для повышения навыка печати. Это самый быстрый способ повысить уровень этого навыка. 
 
-### What are caches and what should I do with them?
-You can use them to craft equipment at the Molecular 3D Printer.  It is not recommended to scrap your caches because they are more valuable to print or sell.
+### Что такое чертежи и что с ними делать?
+Вы можете использовать их для изготовления оборудования в Молекулярном 3D-принтере.  Не рекомендуется выбрасывать чертежи, так как они более ценны для печати или продажи.
 
-### Do caches scale with my level? Should I keep them for later?
-The caches you print scale with your Printing Rank.
-The gear that you obtain from them will always have the same level as your Printing Rank. Make sure to level your Printing Rank to your current player level to always receive the best equipment possible from printing.
+### Масштабируются ли чертежи с моим уровнем? Стоит ли мне сохранить их на потом?
+Чертежи, которые вы печатаете, увеличивают свой уровень с вашим уровнем печати.
+Предметы, которые вы получаете из них, всегда будут иметь тот же уровень, что и ваш навык печати. Убедитесь, что ваш уровень печати соответствует вашему текущему уровню игрока, чтобы всегда получать лучшее снаряжение при печати.
 
-It doesn't matter if you print your caches now or later, but it's recommended to keep your Legendary caches for levels 30-40+.  If you happen to find an Epic cache, hold onto it until level 100+.
-Legendary and Epic caches are much more expensive to craft than Rare ones, but the items have much better stats.  Higher quality items can last you for a long time, and are often worth calibrating at the Calibration Station.
+Неважно, будете ли вы печатать чертежи сейчас или позже, но рекомендуется хранить Легендарные чертежи до 30-40+ уровня. Если вы найдете Эпический чертеж, храните его до 100+ уровня.
+Легендарные и эпические чертежи намного дороже, чем редкие, но предметы из них имеют гораздо лучшие характеристики. Предметы более высокого качества могут прослужить вам долгое время, и их часто стоит калибровать на Калибровочной станции.
 
-### Will higher level enemies give more rewards?
-Yes. Higher level enemies give you more BTC and experience after you defeat them.
+### Будут ли враги более высокого уровня давать больше наград?
+Да. Враги более высокого уровня дают вам больше BTC и опыта после победы над ними.
 
-### What are Locked Containers and how do I unlock them?
-Locked containers (✧) can be found and picked up from dungeons. They can be unlocked using Tech Scraps at the Terminal in the main HUB, and contain various rewards ranging from Tech Scrap to Legendary gear.
+### Что такое запертые контейнеры и как их отпереть?
+Запертые контейнеры (✧) можно найти и забрать из подземелий. Их можно открыть с помощью металлолома на терминале в главном хабе, и они содержат различные награды - от металлолома до легендарного снаряжения.
 
-Tech scrap costs for opening the containers are 32 Tech Scrap for common containers, 64 for rare containers, and 128 for legendary ones.
+Для открытия контейнеров требуется 32 металлолома для обычных контейнеров, 64 - для редких и 128 - для легендарных.
 
-If you don't see the option for unlocking the container at the Terminal, it means you do not have enough Tech Scraps.
+Если у вас возможности открыть контейнер на Терминале, значит, у вас недостаточно металлолома.
 
-### What is BitCoin (BTC) and how do I redeem it?
-BitCoin (BTC) is the game's currency.  Your in game BitCoin isn't the same as the one from the real world. If it was, we would all be richer than Elon Musk!
+### Что такое BitCoin (BTC) и как его обменять?
+BitCoin (BTC) - это игровая валюта. Ваш игровой BitCoin не является тем же, что есть в реальном мире. Если бы это было так, мы все были бы богаче Илона Маска!
 
-### How do I get more BitCoins?
-BitCoin is obtained when defeating enemies, selling items in the Player Market, and by mining with Hash Processors.  Hash Processors are found in dungeons and may be usd to mine BitCoin at the [Job Hub].
+### Как получить больше BitCoin?
+BitCoin можно получить, побеждая врагов, продавая предметы на рынке игроков и добывая с помощью хэш-процессоров. Хэш-процессоры можно найти в подземельях и использовать для добычи BitCoin в [Деловом центре].
 
-### What is Street Cred?
-Street Cred (Street Credit) is a way to appreciate someone you like or who has helped you. They are similar to "Karma" points on Reddit.
+### Что такое Street Cred?
+Street Cred (уличная валюта) - это способ выразить уважение человеку, который вам нравится или который вам помог. Они похожи на очки "Кармы" на Reddit.
 
-You can give 1 Street Cred per day. To give Street Cred, go to the person's profile, scroll down to 'Player Actions' and click on [GIVE STREET CRED] located under [ADD TO FRIEND LIST].
+Вы можете дать 1 Street Cred в день. Чтобы дать Street Cred, зайдите в профиль человека, прокрутите вниз до "Действия игрока" и нажмите на [ПОВЫСИТЬ РЕПУТАЦИЮ], под [ДОБАВИТЬ В СПИСОК ДРУЗЕЙ].
 
-Consider giving some Street Credit to the people that contributed to this game! You can view the list at Profile - > Credits.
+Подумайте о том, чтобы дать немного "уличных кредитов" людям, которые внесли свой вклад в эту игру! Вы можете просмотреть список в разделе Профиль -> Благодарность.
 
-### What are Gangs and how do I create one?
-Gangs are similar to guilds or clans in other MMORPGs.  Joining a gang gives you access to new AFK tasks, a recycler to make tech scrap, and gang chat!  You also gain access to gang dungeons, which have a high level of difficulty but greater rewards than the regular dungeons.
+### Что такое банды и как создать свою?
+Банды похожи на гильдии или кланы в других MMORPG. Вступив в банду, вы получаете доступ к новым AFK-заданиям, утилизатору для получения металлолома и групповому чату! Вы также получаете доступ к подземельям банды, которые имеют высокий уровень сложности, но дают больше наград, чем обычные подземелья.
 
-You can create one by selecting the Gang chat.  The cost to create a gang is 50,000 BTC.  Gangs have a weekly upkeep cost that must be met to avoid being disbanded. Gangs allow you to have a tag of 3 letters, chosen when the gang was created, in your chat border.
+Вы можете создать банду, выбрав чат банды. Стоимость создания банды составляет 50 000 BTC. Банды имеют еженедельную стоимость содержания, которую необходимо вносить, чтобы не банду не распустили. Банды позволяют вам иметь метку из 3 букв, выбранную при создании банды, в рамках ваших сообщений чата.
 
-### How do I search for a Gang? How do I join one?
-Currently, you can't see a list of gangs in the game.
-You can join one by creating it yourself or by receiving an invite from a gang.
+### Как найти банду? Как присоединиться к ней?
+В настоящее время вы не можете увидеть список банд в игре.
+Вы можете присоединиться к ней, создав ее самостоятельно или получив приглашение от другого участника банды.
 
-### Can I rename my Gang? Can I have the same tag as another Gang has?
-Currently, you can't rename your own gang.
-It's forbidden to have the same tag as other gangs.
-All gangs should have different tags in order to avoid confusion.
+### Могу ли я переименовать свою банду? Могу ли я иметь тот же тег, что и у другой банды?
+В настоящее время вы не можете переименовать свою банду.
+Запрещено иметь тот же тег, что и у других банд.
+Все банды должны иметь разные теги, чтобы избежать путаницы.
 
-### How can I level up my gang?
-To be able to maintain your gang and to level it up, each member of the gang will have to gather resources (through an AFK task in the Gang Headquarters) and will also have to donate bitcoins to it.
+### Как я могу повысить уровень своей банды?
+Чтобы поддерживать свою банду и повышать ее уровень, каждый член банды должен будет собирать ресурсы (через AFK-задание в Штабе банды), а также жертвовать биткоины.
 
-### Where are the Gang Headquarters (HQ)? What can I do there?
-Gang HQ is located in the main HUB, under [Player Market].  At the Gang HQ you're able to donate bitcoin, gather resources, and do a varitety of AFK tasks.
+### Где находится штаб банды (HQ)? Что я могу там делать?
+Штаб банды находится в главном хабе, под разделом [Рынок игроков]. В штабе банды вы можете пожертвовать биткоины, собирать ресурсы и выполнять различные AFK-задания.
 
-### What are the symbols in dungeons?
-- "?" represents a quest. You can access accepted quests in your Quest tab.
-- "!" represents lore.
-- Crates are represented by small white boxes.  
-- Crates that have a "+" inside them contain key fragments.
-- The yellow ✧ contains a locked container.
-- The alien looking icons represent monsters inside the dungeon.
+### Что за символы в подземельях?
+- "?" отображает квест. Вы можете просмотреть взятые квесты на вкладке квестов.
+- "!" отображает точки с игровым лором.
+- Ящики показаны маленькими белыми квадратами.  
+- Ящики имеющие "+" содержат фрагменты ключей.
+- Желтые ✧ содержат закрытые контейнеры.
+- Иконки пришельцев отображают противников.
 
-### What are Public and Private Dungeons? What are Password Protected Dungeons?
-When creating a dungeon, it will default to Public.  This means that anyone can see and join your dungeon as long as they meet the level requirements. If you make your dungeon Private, it will be invisible and inaccessible to other players.
+### Что такое публичные и приватные подземелья? Что такое "подземелья защищенные паролем"?
+При создании подземелья будут публичными по умолчанию. Это означает, что любой может увидеть и присоединиться к вашему подземелью, если он соответствует требованиям по уровню. Если вы сделаете свое подземелье приватным, оно будет невидимым и недоступным для других игроков.
 
-You may also create a password for your dungeon so that it is only accessible by users who know the password.
+Вы также можете создать пароль для своего подземелья, чтобы оно было доступно только тем пользователям, которые знают пароль.
 
-### People are looting my stuff. Help!
-The loot in the crates is randomly generated for each player. Therefore, it's impossible for someone to steal your loot.
+### Люди воруют мои добычу. Помогите!
+Лут в ящиках генерируется случайным образом для каждого игрока. Поэтому никто не сможет украсть вашу добычу.
 
-### What are Tech Scraps?
-Tech Scraps are resources obtained from scrapping caches and printed gear.  They can also be generated at with the Gang Recycler.
+### Что такое металлолом?
+Металлолом - это ресурс, получаемый при утилизации чертежей и снаряжения. Он также могут быть получены с помощью утилизатора в штабе банды.
 
-They can be used to level up Printing Rank faster, craft Ai Cores and Hash Processors, and to open Locked Containers.
+Его можно использовать для ускоренного повышения навыка печати, изготовления ядер ИИ и Хэш-процессоров, а также для открытия запертых контейнеров.
 
-The best way to get Tech Scrap is to mass print Trash Caches or Common Caches and then mass scrap the obtained gear.
+Лучший способ получить металлолом - массово печатать Мусорные или Обычные чертежи, а затем массово перерабатывать полученное снаряжение.
 
-### What are AI Cores?
-AI Cores are items required to AFK farm dungeons.  AFK farming provides EXP, items, and a small amount of BTC. AI cores can be acquired as drops or crafted from Hash Processors.
+### Что такое ядра ИИ?
+Ядра ИИ - это предметы, необходимые для AFK-фарма в подземельях. AFK-фарм дает опыт, предметы и небольшое количество BTC. Ядра ИИ можно получить в виде дропа или изготовить из хэш-процессоров.
 
-### What are Hash Processors?
-Hash Processors ('hash' for short) are items that are required to activate an AFK job that yields high amounts of BTC (BitCoin). They drop from normal and challenge dungeons.
+### Что такое хэш-процессоры?
+Хэш-процессоры (сокращенно "хэши") - это предметы, необходимые для активации AFK-задания, которое приносит большое количество BTC (BitCoin). Они выпадают в обычных и сложных подземельях.
 
-### What are Gang Memory Shards?
-Upon deciphering them, these items will give you a random cache, along with mining and gang experience.
+### Что такое Фрагменты памяти банды?
+После их расшифровки эти предметы дадут вам случайный чертеж опыт банды и повышение навыка майнинга.
 
-### What are Gang Invasion Order Transmitters?
-Gang invasion transmitters are special items that drop from the boss in challenge dungeons.
-They are required to open a Gang Dungeon.
+### Что такое Передатчики приказов о вторжении банды?
+Передатчики приказа о вторжении банды - это специальные предметы, которые выпадают из босса в сложных подземельях.
+Они необходимы, чтобы открыть подземелье банды.
 
-### What are Transmitters?
-These are special items that can be bought with Units (premium currency) and provide global benefits to all players on the server.  Their effects range from reducing the time on AFK job or activities to increasing BTC or EXP gain. These are untradeable.
+### Что такое передатчики?
+Это специальные предметы, которые можно купить за Юниты (премиум-валюта) и которые дают глобальные преимущества всем игрокам на сервере. Их эффект варьируется от сокращения времени на AFK-деятельность до увеличения множителя BTC или опыта. Ими нельзя торговать.
 
-There are also normal transmitters that drops from dungeons, but are less effective than the paid version.
+Существуют также простые передатчики, которые выпадают из подземелий, но они менее эффективны, чем их платная версия.
 
-### What are Equipment Calibration Cores?
-Equipment Calibration Cores are used at the Calibration Station to upgrade your gear.
+### Что такое калибровочные ядра?
+Калибровочные ядра используются на станции калибровки для улучшения снаряжения.
 
-### What are Calibration AI Shards?
-These items offers a stackable buff that increase the chance of success when calibrating.
+### Что такое Осколки калибровки ИИ?
+Эти предметы дают накопительный бафф, увеличивающий шанс успеха при калибровке.
 
-### What's the benefit of leveling my crafting skills?
-Your crafting skills allow you to create useful consumables, including medicine and ammo.
-Higher levels allow you to craft more types of items and also craft more efficiently. For example, higher-level healing items will heal for more health.
+### Какая польза от повышения уровня навыков ремесла?
+Навык ремесла позволяет создавать полезные расходные материалы, включая лекарства и патроны.
+Более высокие уровни позволяют создавать больше типов предметов, а также делает это более эффективным. Например, лечащие предметы более высокого уровня будут восстанавливать больше здоровья.
 
-### How do I increase my Scavenge Skill?
-In every area with enemies, there is an action called AFK Resource Gather near the bottom of the list, under the dungeon selections.
-You'll need to increase your scavenging level starting from earlier train stations (Level 1 - 4) before being able to scavenge at higher level sites.
+### Как повысить навык мусорщика?
+В каждой зоне есть действие под названием "AFK сбор мусора", расположенное в нижней части списка, под выбором подземелья.
+Вам нужно будет повысить свой уровень сбора мусора, начиная с ранних станций (уровень 1 - 4), прежде чем вы сможете собирать мусор в местах более высокого уровня.
 
-### What's mining and how do I increase my mining skill?
-Mining is the skill that allows you to farm BTC (BitCoin). It also allows you to craft AI Cores.
-To mine, you need to have Hash Processors which drop from dungeons.
-If you want to start mining, simply go to the [Job Hub] and scroll down until you see the option to mine.
-You also receive mining experience when gather resources for your gang.
+### Что такое майнинг и как повысить свой навык майнинга?
+Майнинг - это навык, который позволяет вам добывать BTC (BitCoin). Он также позволяет создавать ядра ИИ.
+Для майнинга вам нужны хэш-процессоры, которые выпадают в подземельях.
+Если вы хотите начать добычу, просто зайдите в [Центр занятости] и прокрутите страницу вниз, пока не увидите кнопку майнинга.
+Вы также получаете опыт за манинг, когда собираете ресурсы для своей банды.
 
-### What is the Gear Score?
-Gear Score is the average level of the equipment you wear. This is calculated by averaging every non-weapon gear you have equipped, plus the highest level weapon you have (excluding destructive).
+### Что такое Gear Score?
+Gear Score - это средний уровень экипировки, которую вы носите. Этот показатель рассчитывается путем усреднения всех экипированных предметов, не относящихся к оружию, плюс оружие самого высокого уровня, которое у вас есть (за исключением разрушительного).
 
-### What is the Pocket Stat?
-Pockets increase your inventory size. 1 pocket means 1 additional inventory slot.
+### Что за характеристика "Pocket"?
+Pocket - "Карман", она увеличивает размер вашего инвентаря. 1 карман означает 1 дополнительный слот инвентаря.
 
-### What is the Bargain Stat?
-Bargain gives you better deals at the Weapon Smith and Trinoky Mart, which can be found in the Central Hub. You can both sell and buy your items for better prices.
+### Что за характеристика торговли?
+Эта стата дает возможность заключать более выгодные сделки в Оружейной и лавке Триноки, которые можно найти в Центральном районе. Вы можете как продавать, так и покупать свои предметы по более выгодным ценам.
