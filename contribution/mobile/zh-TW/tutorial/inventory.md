@@ -1,46 +1,46 @@
-## Inventory
+## 背包
 
-You can access your inventory by clicking the option at the bottom menu bar. In your inventory, you can see all items that you own, including equipment, upgrade modules, ammo, medical items, secret keys, caches, and other consumables. By clicking on the item, you can see the details of that item.  
+你可以通過單擊底部菜單欄中的選項來訪問你的背包。 在你的背包中，你可以看到你擁有的所有物品，包括裝備、升級模組、彈藥、醫療物品、密鑰、快取記憶體和其他消耗品。 通過單擊該項目，你可以查看該項目的詳細信息。
 
-You can choose to equip gear by choosing the equip button. Equipped gear will be highlighted at the top of the inventory page. By clicking on gears, you can also choose to install upgrade modules that will enhance certain values of that item.
+你可以通過選擇裝備按鈕來選擇裝備裝備。 裝備好的裝備將在背包頁面的頂部突出顯示。 通過單擊齒輪，你還可以選擇安裝升級模組，以提高該項目的某些價值。
 
-To remove installed upgrade modules, simply click on the installed module. Better quality equipment have more upgrade module slots.
+要刪除已安裝的升級模組，只需單擊已安裝的模組。 質量更好的裝備有更多的升級模組插槽。
 
-## Items in your Inventory
+## 背包里的裝備
 
-Your caches in your inventory can be consumed to print gear using the Molecular 3D Printer in the City Center.  
+你背包中的緩存可用於使用市中心的分子 3D 打印機打印裝備。
 
-Medical items can be consumed in dungeons to regenerate health (your character will not automatically regenerate health in dungeons as they would after normal battles in a train station).  
+可以在地下城中消耗醫療物品來恢復生命值（你的角色不會像在火車站的正常戰鬥後那樣在地下城中自動恢復生命值）。
 
-Ammo can be used to perform special attacks and destructive attacks during combat.
+彈藥可用於在戰鬥中進行特殊攻擊和破壞性攻擊。
 
-Locked containers (✧) can be found in dungeons and can be unlocked using Tech Scraps at the Terminal in the main HUB.  
-Depending on the quality of the locked container, the amount of Tech Scrap needed for unlocking it may be greater; the required Tech Scraps start at 32. If you don't see the option for unlocking the container at the Terminal, it means you do not have enough Tech Scraps.
+鎖定的容器 (✧) 可以在地下城中找到，並且可以在主 HUB 的終端使用 科技碎片 解鎖。
+根據上鎖容器的質量，解鎖所需的 Tech Scrap 數量可能會更多；所需的 科技碎片 從 32 開始。如果你沒有在終端看到解鎖容器的選項，則表示你沒有足夠的 科技碎片。
 
-Secret key fragments that you obtained in special dungeon chests can be merged into a secret key by brute-forcing it at the Terminal. Secret keys will grant you access to higher level enemy areas and dungeons.  
+你在特殊地下城箱子中獲得的秘鑰碎片可以通過在終端進行暴力破解來合併為秘鑰。秘密鑰匙將授予你訪問更高級別的敵人區域和地下城的權限。
 
-Other consumables, such as Hash Processors and AI Cores, can be used to perform AFK tasks.
+其他消耗品，例如雜凑處理器和 AI 核心，可用於執行 AFK 任務。
 
-Learn more about all the different types of resources in the Resources Tutorial.
+在資源教程中了解有關所有不同類型資源的更多信息。
 
-## Functions in your Inventory
+## 背包中的功能
 
-By clicking the icons above your inventory list, you can filter out specific items. You will start with 50 empty slots; equipping gear with the **pocket** stat will give you more inventory space. To get rid of equipment and upgrade modules, you can click on the item itself and then on the **SCRAP** button. Alternatively, you can hold click on one item, select every item you want to scrap, then press the **SCRAP** button that will appear at the top left of the item list. Every item scrapped will give you Tech Scrap. To get rid of other items that are not scrappable, you can click on the **DESTROY** button. Destroyed items will not give you anything in return, so be cautious when performing this action.  
+通過單擊背包列表上方的圖標，你可以過濾掉特定項目。你將從 50 個空位開始；為裝備裝備 **pocket** stat 將為你提供更多的背包空間。要擺脫裝備和升級模塊，你可以單擊項目本身，然後單擊**SCRAP** 按鈕。或者，你可以按住一個項目，選擇你想要報廢的每個項目，然後按將出現在項目列表左上角的**SCRAP** 按鈕。報廢的每件物品都會給你科技碎片。要擺脫其他不可報廢的項目，你可以單擊 **DESTROY** 按鈕。被毀壞的物品不會給你任何回報，所以在執行此操作時要小心。
 
-## Item Inbox
+## 物品收件箱
 
-Items that other players send will be automatically placed in your item inbox. Once you have enough space in your inventory, they will be moved automatically to your inventory. There is sometimes a delay before this happens.
+其他玩家發送的物品將自動放入你的物品收件箱。一旦你的背包中有足夠的空間，它們將自動移動到你的背包中。在發生這種情況之前有時會有延遲。
 
-## Crafting
+## 製作
 
-This tab in your inventory allows you to craft different types of items: medicine, ammo, Hash Processors and AI Cores.  
+你背包中的此選項卡可讓你製作不同類型的物品：藥品、彈藥、雜凑處理器和 AI 核心。
 
-Medical crafting uses medical tech parts.  
+醫療工藝使用醫療技術碎片。
 
-Ammo crafting can use either ammunition tech parts (for Energy Cells) or military ammunition tech parts (for Anti Matter Charges).
+彈藥製造可以使用彈藥技術碎片（用於能量電池）或軍用彈藥技術碎片（用於反物質電荷）。
 
-Hash Processors use military ammunition tech parts, medical tech parts and Tech Scraps.  
+雜凑處理器使用軍用彈藥技術碎片、醫療技術碎片和科技碎片。
 
-AI Cores use Hash Processors and Tech Scraps.  
+AI 核心使用雜凑處理器和科技碎片。
 
-As you level up the relevant skills (medical science, ammo crafting, and mining), you will unlock new recipes and become more proficient, allowing you to craft more and better items.
+隨著你提升相關技能（醫學、彈藥製作和採礦），你將解鎖新配方並變得更加熟練，從而可以製作更多更好的物品。
