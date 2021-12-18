@@ -1,78 +1,81 @@
-## Dungeons
+## 地下城
 
-## Types of Dungeons
+## 地下城的類型
   
 ![DungeonTypes](/resources/mobile-tutorial/DungeonTypes.png)
   
-These are the three types of dungeons that you are able to enter. The [normal] dungeon will include a key fragment in the treasure room and no boss. The [challenge] dungeon is a lot harder but includes more crates for loot and has a boss in the treasure room that gives a lot of EXP.  The [gang] dungeon is the hardest of all and requires that you are in a gang and have a Gang Invasion Order Transmitter.  Enemies are 4-5x stronger than normal dungeons but has greater rewards.
+這些是你可以進入的三種類型的地下城。
+[正常] 地牢將存在一個密鑰碎片在藏寶室，並且沒有BOSS。 
+[挑戰] 地牢要困難得多，但含有更多的戰利品箱，並且在寶藏室有一個BOSS，可以提供很多經驗。 
+[公會] 地牢是最難的，需要你在公會中並擁有 公會入侵指令發送器。敵人將比普通地牢強 4-5 倍，但獎勵更多。
 
-## Creating / Joining a Dungeon
+## 創建/加入地下城
   
-When creating a dungeon, select the dungeon you want to create. You can name it and choose to make it Public or Private. You can also protect the dungeon with a password.
+創建地下城時，選擇要創建的地下城。你可以為其命名並選擇將其設為公開或私有。你還可以使用密碼保護地下城。
 
-Public Dungeons are available to everyone to see and join (if they meet the level requirements) by accessing the list of dungeons. 
+每個人都可以通過訪問 地下城列表 來查看和加入（如果滿足級別要求）公共地下城。 
 
-Password protected dungeons can be seen by other players but they cannot join unless they know the password. This is useful if you want to clear a dungeon with specific friends. Share the password in Gang chat or through Mail.
+其他玩家可以看到受密碼保護的地下城，但除非知道密碼，否則無法加入。如果你想與特定朋友一起清除地下城，這將非常有用。可以在群聊中或通過郵件共享密碼。
 
 ![DungeonCoop4](/resources/mobile-tutorial/DungeonCoop4.png)
 ![DungeonCoop3](/resources/mobile-tutorial/DungeonCoop3.png)
 
-If you'd rather join an existing dungeon, you can press the floating menu button at the bottom right, then select the buildings icon to view a list of open dungeons, as shown above in the screenshots.
+如果你想加入現有的地牢，可以按右下角的浮動菜單按鈕，然後選擇建築物圖標以打開查看地下城列表，如上圖所示。
 
-At the top right of each dungeon panel, you can find the dungeon level. Each panel includes a list of players and their status in the dungeon. At the bottom, you can see how many enemies are left. You can choose to join a fresher dungeon to gain more EXP or enter empty dungeons to claim loot.
+在每個地下城檔案的右上角，你可以看到地下城難度和等級。   每個檔案都包含玩家列表及其在地下城中的狀態。 在底部，你可以看到還剩多少敵人。 你可以選擇加入更新鮮的地下城以獲得更多經驗值或進入空的地下城以獲取戰利品。
  
 ![DungeonCoop](/resources/mobile-tutorial/DungeonCoop.png)
   
-As shown in the images above, there are several players in the same dungeon. The rules are the same regardless of how many players are in a dungeon; the only difference is that players can help each other out. When using heals, it is usually advised to use the AOE items (such as Pain Away Spray) to heal both yourself and your co-op partners. You can see everyone's health bars above the player icons.  
+如上圖所示，同一個地下城中有多個玩家。 不管一個地下城裡有多少玩家，規則都是一樣的； 唯一的區別是玩家可以互相幫助。 使用治療時，通常建議使用 AOE 物品（例如疼痛消除噴霧）來治療你和夥伴。你可以在玩家圖標上方看到每個玩家的生命值。  
 
-When an enemy is killed with the help from a friend, everyone who dealt 20% or more damage is given EXP and a chance for a reward, as long as their level isn't too high for the mob. All crates and loot are unique to each player, so you don't need to worry about sharing loot or having yours stolen. Grab everything you want and discard the rest!
+當敵人在朋友的幫助下被殺死時，所有造成20%或更多傷害的玩家都會獲得EXP並有機會獲得獎勵，只要他們的等級對敵人來說不是太高。 每個玩家的板條箱和戰利品都是獨一無二的，因此你無需擔心共享戰利品或被搶。 拿走你想要的一切，丟棄其餘不要的吧！
 
 ![DungeonCoop2](/resources/mobile-tutorial/DungeonCoop2.png)
 
-In this image, at the bottom under the '[QUIT DUNGEON]' button, you will find a button labeled '[Send invite to global chat]'. This will send an invite to the global chat so others can join easily by clicking on the message. Anyone around your level can join and help you out as long as they are within 10 levels below or 12 levels above your dungeon.
+在這張圖片中，在'[退出地下城]'按鈕下方，你會發現一個'[發送邀請到聊天室]'的按鈕。這將向聊天室發送邀請，以便其他人可以通過點擊消息輕鬆加入。只要與你的地牢低10級或高12級，與你等級接近的任何人都可以加入並幫助你。
 
-You can also click on messages from other players to join their dungeon.
+你也可以點擊其他玩家的消息加入他們的地下城。
 
-After a player dies or leaves, they cannot rejoin the dungeon.
+玩家死亡或離開後，將無法再度加入地下城。
   
-## Entrance and Icons
+## 入口和圖標
   
 ![DungeonEntranceUsed](/resources/mobile-tutorial/DungeonEntranceUsed.png)
   
-Here you can see the first room of a dungeon. There are doors which will take you to another room in the dungeon. You can find these doors on all sides of the dungeon rooms.  You cannot enter a new room until you have killed all enemies in the current room.
+在這裡你可以看到加入地下城的第一個房間。 有門可以帶你到加入地下城中的另一個房間。 你可以在加入地下城房間的四面八方找到這些門。 在你殺死當前房間內的所有敵人之前，你無法進入新房間。
 
-This also shows an example of a room that has been completed. Note the greyed out crates, indicating that they have been looted already. The door on the right wall is also greyed out, which means you have already been through it. This is essential to not get lost while exploring the dungeon. 
+這已顯示一個已經完成的房間的例子。 注意灰色的板條箱，表示它們已經被洗劫一空。 右邊牆上的門也是灰色的，這意味著你已經走過了它。 這對於在探索地下城時不會迷路至關重要。 
 
-### Enemies
+### 敵人
   
 ![DungeonEnemies](/resources/mobile-tutorial/DungeonEnemies.png)
   
-There are four alien looking icons spread across the room, and these are the enemies you have to defeat before proceeding to the next room or accessing the crates in the room. Click on one of them to fight them.
+房間裡散佈著四個看起來像外星人的圖標，這些是你在前往下一個房間或搜索板條箱之前必須擊敗的敵人。點擊其中之一即可與他們戰鬥。
   
 ![DungeonFight](/resources/mobile-tutorial/DungeonFight.png)
   
-Rules are slightly different in the dungeons when you fight enemies. You will have a row of 3 buttons above your attack options which you can assign to usable items from your inventory. You should assign medical items to this hotbar since your health doesn't regenerate automatically after each fight.
+與敵人戰鬥時，地下城中的規則略有不同。 你在攻擊選項上方會有3個按鈕，你可以將這些按鈕分配給背包中的可用物品。建議你將醫療物品分配給這些快捷欄，因為你的生命值不會在每次戰鬥後自動恢復。
 
-You also have an 'Escape' button on the top left. The success rate of you escaping is based on your player 'escape' stat.  
+左上角還有一個'逃脫'按鈕。 你逃脫的成功率取決於你的玩家“逃脫機率”數值。  
  
-### Good Guy (?)
+### 好家夥 (?)
   
 ![DungeonGoodguy](/resources/mobile-tutorial/DungeonGoodguy.png)
   
-Here, you can see the '?' icon, indicating a quest if you choose to accept it. You can find one quest giver per dungeon, and they are usually placed randomly in one of the rooms.
+在這裡，你可以看到'?'圖標表示任務，你可以選擇是否接受任務。你可以在每個地下城中找到一名任務委托人，他們通常隨機出現在其中一個房間中。
   
 ![DungeonGoodguy2](/resources/mobile-tutorial/DungeonGoodguy2.png)
   
-Here is an example of the dialogue that pops up after clicking on the '?'. They will ask for items in return for other items or power-ups. It is up to you to decide if the trade is worthwhile; however, if you can afford it, it is usually worth accepting for the extra EXP you gain from completing it. Some of the text on this screen is randomly generated from a file, so you may get odd or funny references, if it makes any sense at all.
+這是點擊'?'後彈出的對話框的示例。他們會索要物品以換取其他物品或道具。交易是否值得由你決定；如果你負擔得起，通常很推薦你接受並完成它獲得的額外的EXP。對話框上的某些内容是從隨機生成的，因此你可能會得到奇怪或有趣的對話，如果它有任何意義的話。
 
-### Lore (!)
+### 傳聞 (!)
 
-There are exclamation marks dotted around dungeons that provide snippets of game lore. These don't have an impact on your game or the dungeon but may be interesting to read.
+地下城周圍點綴著感嘆號，提供遊戲傳聞的片段。這些不會對你的遊戲或地下城產生影響，但可能會很有趣。
 
-### Treasure / Boss Room
+### 寶物/BOSS房
   
 ![DungeonBossTreasureCoop](/resources/mobile-tutorial/DungeonBossTreasureCoop.png)
   
-This room is special, as you can tell from the increased number of crates. The crate that looks like a window contains a key fragment that can be used for crafting Secret Keys that unlock new areas.
+你可以從變多的板條箱數量看出，這個房間很特別。看起來像一個百葉窗的板條箱包含一個密鑰碎片，可用於製作解鎖新區域的密鑰。
 
-In this screenshot, you can also see other players helping out. This is especially advised at low levels and when attempting a challenge dungeon, as the boss of challenge dungeons has greatly increased health and power in return for more EXP.
+在此圖中，你還可以看到其他玩家的助力。在低級別和嘗試挑戰地下城時尤其建議這樣做，因為挑戰地下城的BOSS已經大大增加了生命值和攻擊作爲更多的經驗代價。
