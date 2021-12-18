@@ -1,250 +1,250 @@
-### What is this game, and what do I do?
-Basically you adventure around 'Train Stations' and either defeat individual enemies or conquer entire dungeons.
-You'll randomly receive items, equipment or caches after defeating enemies.
+### 這是什麼遊戲，我該怎麼做？
+基本上，你在“列車站”周圍冒險，或者擊敗個別敵人或征服整個地下城。
+擊敗敵人後，你將隨機獲得物品、裝備或快取記憶體。
 
-**You will receive BTC and EXP inside a battle, but items won't drop after every single battle.**
+**你將在一場戰鬥中收到BTC和EXP，但不一定會在每場戰鬥後掉落物品。**
 
-### Is this game P2W (Pay-to-Win)?
-No. There's no element in this game that would benefit or offer additional advantages to some players over others.
+### 這個游戲是P2W (Pay-to-Win)嗎?
+不是。這個遊戲中沒有任何元素可以使某些玩家比其他玩家受益或提供額外的優勢。
 
-The Transmitters sold in the Arasaka Unit Exchange have a global effect, which means once it is activated, all players on the server will benefit from the effect that it gives. Similarly, the Global Skips that can be purchased apply to all players who have started AFK tasks.
+荒坂貨幣換匯 中出售的發射器具有全球效果，這意味著一旦激活它，服務器上的所有玩家都將從它所提供的效果中受益。 同樣，可以購買的全局跳過適用於所有已開始 AFK 任務的玩家。
 
-The developer intends to keep the game non-P2W into the future.
+開發人員未來打算將游戲保持在非 P2W 的模式。
 
-### How can I help out?
-All user-contributed content can be found on the [Github](https://github.com/DexterHuang/CyberCodeOnline).  
-Feel free to submit a PR (Pull Request).
+### 我該如何幫忙？
+所有用戶貢獻的內容都可以在 [Github](https://github.com/DexterHuang/CyberCodeOnline) 上找到。
+隨時提交 PR（拉取請求）。
 
-### Does this game have any social media?
-Yes. You can find our community on [Discord](https://discord.link/cco) and on [Reddit](https://www.reddit.com/r/CyberCode_Online/).
+### 這個遊戲有社交媒體嗎？
+是的。 你可以在 [Discord](https://discord.link/cco) 和 [Reddit](https://www.reddit.com/r/CyberCode_Online/) 上找到我們的社區。
 
-The developer (DexterHuang) also has a [Patreon](https://www.patreon.com/cybercodeonline) for donations that will help support and maintain the game.
+開發者 (DexterHuang) 也有一個 [Patreon](https://www.patreon.com/cybercodeonline) 用於捐贈，以幫助支持和維護遊戲。
 
-These social links can also be found by accessing ☰ and clicking on the chain link symbol on mobile or by accessing the respective platform icons on the left side of the web view.
+這些社交鏈接也可以通過訪問 ☰ 並單擊移動裝備上的鍊式鏈接符號或訪問 Web 視圖左側的相應平台圖標來找到。
 
-### What programs or languages are being used for the creation of this game?
-CyberCode Online is a game developed using [ReactJS](https://reactjs.org/) with player contributions from [Github](https://github.com/DexterHuang/CyberCodeOnline).
+### 使用哪些程序或語言來創建此遊戲？
+CyberCode Online 是一款使用 [ReactJS](https://reactjs.org/) 開發的遊戲，玩家貢獻來自 [Github](https://github.com/DexterHuang/CyberCodeOnline)。
 
-### Is the game translated in other languages?
-Yes. This game is currently translated in 15 languages.
+### 遊戲是否翻譯成其他語言？
+是的。 該遊戲目前已翻譯成 15 種語言。
 
-To change the language of the game,  
-go to Map and click on ⚙️.
+要更改遊戲語言，
+前往地圖並點擊⚙️。
 
-Please notice that the translations might contain mistakes, be incomplete or some parts of the game might be completely untranslated.
-If the game is not translated in your language or you want to improve the current translations, please head out to our [Github](https://github.com/DexterHuang/CyberCodeOnline).
+請注意，翻譯可能包含錯誤、不完整或遊戲的某些部分可能完全未翻譯。
+如果遊戲沒有翻譯成你的語言，或者你想改進當前的翻譯，請前往我們的 [Github](https://github.com/DexterHuang/CyberCodeOnline)。
 
-### Is there any customization in the game?
-You can have a custom profile picture in your profile, a Title and a coloured chat border, if you decide to subscribe to one of the 5 Donation Tiers available.
+### 遊戲中是否有任何自定義？
+如果你決定訂閱可用的5個捐贈級別之一，你可以在你的個人資料中添加自定義個人資料圖片、標題和彩色聊天邊框。
 
-Elite Tier and higher, will have access to a bio on their profile and a barcode.  
+精英級別及更高級別，將可以訪問其個人資料和條形碼上的個人簡介。
 
-These benefits are purely cosmetic.
+這些好處純粹是裝飾性的。
 
-### Can I change my name?
-No, you can't change your name.  
-Your username is permanent for now.
+### 我可以改名嗎？
+不，你不能改變你的名字。
+你的用戶名是對於現在來説是永久的。
 
-### How do I tag someone? Can I search the usernames of other people?
-You can tag and search for a user by typing @ in chat followed by their name (for example, type @DexterHuang).
+### 我如何標記某人？ 我可以搜索其他人的用戶名嗎？
+你可以通過在聊天中鍵入 @ 後跟他們的姓名（例如，鍵入 @DexterHuang）來標記和搜索用戶。
 
-They will show up even if they are not online and they will receive a notification.
+即使他們不在線，他們也會出現並收到通知。
 
-### Does the chat support emojis and kaomojis?
-Yup 🤠 ฅ^•ﻌ•^ฅ.
+### 聊天是否支持表情符號和顏文字？
+是的🤠ฅ^•ﻌ•^ฅ。
 
-Please don't overuse or spam these, as this kind of practice is against the Chat Rules.
+請不要過度使用或發送垃圾郵件，因為這種做法違反了聊天規則。
 
-### Does this game have PvP?
-No. PvP is not currently available in the game.
+### 這遊戲有PvP嗎？
+不可以。PvP 目前在遊戲中不可用。
 
-### What is the fastest way to level up in this game?
-The fastest and best way to level up in this game is to have an Frontal Cortex Transmitter (XP booster) active and to complete challenge dungeons.
+### 在這個遊戲中升級最快的方法是什麼？
+在這個遊戲中升級的最快和最好的方法是激活額葉皮層發射器（XP 助推器）並完成挑戰地下城。
 
-### What will happen if I die?
-You will lose some of your experience and BTC (around 10%); however your inventory will be safe.
+### 如果我死了會怎樣？
+你會失去一些經驗和 BTC（大約 10%）； 但是你的背包會是安全的。
 
-### Where is the Player Market?
-When your character reaches level 5, the player market will be unlocked.  
-It will show up as a new destination in the 'Central Hub'.
+### 玩家市集在哪裡？
+當你的角色達到 5 級時，玩家市集將解鎖。
+它將在“市中心”中顯示為新目的地。
 
-### Does the game support trading among players?
-Yes, partially. You can send items to other players, but there isn't a system that forces the other person to give something in exchange. Most trades are conducted with trust.
+### 遊戲是否支持玩家之間的交易？
+是的，部分。 你可以將物品發送給其他玩家，但沒有一個系統可以強制對方提供一些東西作為交換。 大多數交易都是在信任的情況下進行的。
 
-You can't gift BTC and key fragments to other players.
+你不能將 BTC 和密鑰碎片贈送給其他玩家。
 
-Only healing items, ammo, materials, Hash Processors, Ai Cores and other types of items.
+僅治療物品、彈藥、材料、雜凑處理器、AI核心和其他類型的物品。
 
-### What should I do if my inventory is full?
-You can either scrap, destroy or store items in the bank located in the City Center. Note that the fee for each item you deposit in the bank is 100 BTC. It doesn't cost anything to take the item back out.
+### 如果我的背包已滿，我該怎麼辦？
+你可以報廢、銷毀或將物品存放在位於市中心的銀行中。 請注意，你存入銀行的每件物品的費用為 100 BTC。 取回物品不需要任何費用。
 
-You can also temporarily increase your inventory capacity with the 'Pocket' stat found on equipment and upgrade modules.
+你還可以使用裝備和升級模組上的“背包”數值暫時增加背包容量。
 
-### How do I craft items?
-At the top of the Inventory page, you will find a tab called 'Crafting'.
+### 我如何製作物品？
+在背包頁面的頂部，你會找到一個名為“製作”的標籤。
 
-### Where can I get healing items?
-Healing items can be crafted, found when defeating an enemy or when looting a crate in a dungeon, or purchased at the Trinoky Mart in the City Center.  
-They can also be purchased from the Player Market.
+### 我在哪裡可以獲得治療物品？
+治療物品可以製作，在擊敗敵人時或在地下城中掠奪寳箱時找到，或在市中心的 藥商 購買。
+它們也可以從玩家市集購買。
 
-### How do I use my healing items?
-To equip and use your healing items, go to your inventory and under your equipment you will find 3 'Quick Slots'.  
-Click on one of them and assign your desired healing item to it.  
-Healing items can be used only inside dungeons.  
+### 我如何使用我的治療物品？
+要裝備和使用你的治療物品，請前往你的物品欄，在你的裝備下方，你會找到 3 個“快速插槽”。
+單擊其中之一併將你想要的治療項目分配給它。
+治療物品只能在地下城內使用。  
 
-### Why can't I use my Special and Destructive weapons?
-These weapons require ammo. Special weapons uses Energy Cells and Destructive weapons use Anti-Matter Charges.  
-Ammo can be looted form enemies, crafted in your Inventory, or bought on the player market. 
+### 為什麼我不能使用我的特殊和破壞性武器？
+這些武器需要彈藥。 特殊武器使用能量電池，而破壞性武器使用反物質電荷。
+彈藥可以從敵人身上掠奪，在你的背包中製作，或在玩家市集上購買。 
 
-### Can I upgrade the stats of my weapons and armour?
-Yes, you can upgrade your weapons at the Calibration Station found in your main map.  The Calibration Station requires an Equiptment Calibration Core.
-Calibration has a chance of destruction, so be on the lookout for Calibration buffs which lower destruction chance.
+### 我可以升級我的武器和裝甲的數值數據嗎？
+是的，你可以在主地圖中的校準站升級你的武器。 校準站需要一個裝備校準核心。
+校準有可能被破壞，所以要注意降低破壞機率的校準增益。
 
-### What does "Quality" on weapons and armor means?
-The quality of the armor will contribute a lot on the stat it gives; the higher the quality, the better the stats.
-Quality tiers go from Trash > Common > High Quality > Rare > Legendary > Epic.
-You cannot change the Quality of a weapon or armor.
+### 武器和裝甲上的“質量”是什麼意思？
+裝甲的質量對其提供的屬性有很大貢獻； 質量越高，數值數據就越好。
+質量等級從廢棄 > 普通 > 高級 > 稀有 > 傳奇 > 史詩。
+你不能改變武器或裝甲的質量。
 
-### What does "Durability" on weapons and armor means?
-Durability is the ability of an equipment to remain functional, without requiring excessive maintenance or repair, when faced with the challenges of normal operation over it's designed lifetime. (Wikipedia).  Durability only decreases when fighting Nearby Enemies.  Durability is not impacted when fighting in dungeons.
+### 武器和裝甲上的“耐久性”是什麼意思？
+耐用性是指裝備在其設計使用壽命期間面臨正常運行挑戰時，無需過度維護或維修即可保持正常運行的能力。 （維基百科）。 耐久度只會在與附近的敵人戰鬥時才會降低。 在地下城中戰鬥時，耐久性不會受到影響。
 
-### How do I repair my equipment's durability?
-You can repair your equipment by paying a small amount of BTC at the Weapon Shop located in the City Center.
+### 如何修復裝備的耐用性？
+你可以通過在位於市中心的武器商店支付少量 BTC 來修理你的裝備。
 
-### Can I remove installed upgrade modules?
-Yes. Click on the installed upgrade module to remove it from the equipment.
+### 我可以刪除已安裝的升級模組嗎？
+是的。 單擊已安裝的升級模組將其從裝備中移除。
 
-### Why is the equipment I print the wrong level?
-Your printed gear will have the same level as the one from your 'Printing Rank'. It does not scale with player level.
+### 為什麼我列印的裝備等級不對？
+你的印刷裝備將與你的“印刷等級”中的裝備具有相同的等級。 它不隨玩家等級而變化。
 
-### How do I increase my printing rank?
-There are 3 ways to increase your printing rank.
+### 如何提高列印等級？
+有 3 種方法可以提高你的列印等級。
 
-1. Print caches at the 3D Printing Module. Each cache you print gives you printing exp. Trash caches are the cheapest to print and the printed gear can be scrapped for Tech Scrap.
+1. 在 3D 列印模塊列印快取記憶體。你列印的每個快取記憶體都會為你提供列印 exp。垃圾快取記憶體列印成本最低，列印的裝備可以報廢為 科技碎片。
 
-2. AFK Printing Training. There is an AFK job in the Commercial Area called 'Work in Printing Factory' that gives you printing exp.
+2. AFK印刷培訓。商業區有一個 AFK 工作，叫做“在印刷廠工作”，可以為你提供印刷經驗。
 
-3. Reverse engineering Tech Scraps. In the Commercial Area there is a short AFK job called 'Reverse Engineer Scraps' which uses Tech Scraps to increase your printing rank. This is the fastest way to increase your rank. 
+3. 科技碎片進行反向工程。在商業區有一個簡短的 AFK 作業叫做“科技碎片進行反向工程”，它使用科技碎片來提高你的印刷等級。這是提高排名的最快方法。
 
-### What are caches and what should I do with them?
-You can use them to craft equipment at the Molecular 3D Printer.  It is not recommended to scrap your caches because they are more valuable to print or sell.
+### 什麼是快取記憶體，我應該如何處理它們？
+你可以使用它們在分子 3D 列印機上製作裝備。不建議廢棄你的快取記憶體，因為它們列印或出售更有價值。
 
-### Do caches scale with my level? Should I keep them for later?
-The caches you print scale with your Printing Rank.
-The gear that you obtain from them will always have the same level as your Printing Rank. Make sure to level your Printing Rank to your current player level to always receive the best equipment possible from printing.
+### 快取記憶體是否與我的級別成比例？我應該保留它們以備後用嗎？
+你列印的快取記憶體隨你的列印等級而變化。
+你從他們那裡獲得的裝備將始終與你的印刷等級相同。確保將你的列印等級提升到你當前的玩家級別，以便始終從列印中獲得最好的裝備。
 
-It doesn't matter if you print your caches now or later, but it's recommended to keep your Legendary caches for levels 30-40+.  If you happen to find an Epic cache, hold onto it until level 100+.
-Legendary and Epic caches are much more expensive to craft than Rare ones, but the items have much better stats.  Higher quality items can last you for a long time, and are often worth calibrating at the Calibration Station.
+現在或以後列印快取記憶體都沒有關係，但建議保留 30-40 級以上的傳奇快取記憶體。如果你碰巧找到 史詩 快取記憶體，請堅持到 100+ 級。
+傳奇和史詩寶箱的製作成本比稀有寶箱高得多，但這些物品的數值數據要好得多。更高質量的物品可以讓你使用很長時間，並且通常值得在校準站校準。
 
-### Will higher level enemies give more rewards?
-Yes. Higher level enemies give you more BTC and experience after you defeat them.
+### 更高等級的敵人會給予更多獎勵嗎？
+是的。更高級別的敵人在你擊敗他們後為你提供更多 BTC 和經驗。
 
-### What are Locked Containers and how do I unlock them?
-Locked containers (✧) can be found and picked up from dungeons. They can be unlocked using Tech Scraps at the Terminal in the main HUB, and contain various rewards ranging from Tech Scrap to Legendary gear.
+### 什麼是鎖定容器以及如何解鎖它們？
+可以從地下城中找到並撿起上鎖的容器 (✧)。它們可以在主 HUB 的終端機使用 科技碎片 解鎖，並包含從 科技碎片 到傳奇裝備的各種獎勵。
 
-Tech scrap costs for opening the containers are 32 Tech Scrap for common containers, 64 for rare containers, and 128 for legendary ones.
+打開容器的科技碎片成本為普通容器 32 科技碎片，稀有容器 64 科技碎片，傳奇容器 128 科技碎片。
 
-If you don't see the option for unlocking the container at the Terminal, it means you do not have enough Tech Scraps.
+如果你沒有在終端機看到解鎖容器的選項，則表示你沒有足夠的 科技碎片s。
 
-### What is BitCoin (BTC) and how do I redeem it?
-BitCoin (BTC) is the game's currency.  Your in game BitCoin isn't the same as the one from the real world. If it was, we would all be richer than Elon Musk!
+### 什麼是比特幣 (BTC)，我該如何兌換？
+比特幣 (BTC) 是遊戲的貨幣。你在遊戲中的比特幣與現實世界中的比特幣不同。如果是這樣，我們都會比埃隆馬斯克更富有！
 
-### How do I get more BitCoins?
-BitCoin is obtained when defeating enemies, selling items in the Player Market, and by mining with Hash Processors.  Hash Processors are found in dungeons and may be usd to mine BitCoin at the [Job Hub].
+### 如何獲得更多比特幣？
+比特幣是在擊敗敵人、在玩家市集出售物品以及使用雜凑處理器挖礦時獲得的。雜凑處理器可在地下城中找到，可用於在 [職缺中心] 挖掘比特幣。
 
-### What is Street Cred?
-Street Cred (Street Credit) is a way to appreciate someone you like or who has helped you. They are similar to "Karma" points on Reddit.
+### 什麼是街頭信譽？
+街頭榮譽 (街頭榮譽) 是一種感謝你喜歡的人或幫助過你的人的方式。它們類似於 Reddit 上的“Karma”點。
 
-You can give 1 Street Cred per day. To give Street Cred, go to the person's profile, scroll down to 'Player Actions' and click on [GIVE STREET CRED] located under [ADD TO FRIEND LIST].
+你每天可以贈送 1 個 街頭榮譽。要獲得 街頭榮譽，請轉到此人的個人資料，向下滾動到“玩家操作”並單擊位於 [添加到好友列表] 下的 [GIVE 街頭榮譽]。
 
-Consider giving some Street Credit to the people that contributed to this game! You can view the list at Profile - > Credits.
+考慮向為這款遊戲做出貢獻的人們提供一些街頭信用！你可以在“個人資料”->“積分”中查看該列表。
 
-### What are Gangs and how do I create one?
-Gangs are similar to guilds or clans in other MMORPGs.  Joining a gang gives you access to new AFK tasks, a recycler to make tech scrap, and gang chat!  You also gain access to gang dungeons, which have a high level of difficulty but greater rewards than the regular dungeons.
+### 什麼是公會以及如何創建公會？
+公會類似於其他 MMORPG 中的公會或氏族。加入公會可以讓你獲得新的 AFK 任務、製造科技碎片的回收站以及公會聊天！你還可以進入公會地下城，該地下城難度高，但獎勵比普通地下城更高。
 
-You can create one by selecting the Gang chat.  The cost to create a gang is 50,000 BTC.  Gangs have a weekly upkeep cost that must be met to avoid being disbanded. Gangs allow you to have a tag of 3 letters, chosen when the gang was created, in your chat border.
+你可以通過選擇群聊來創建一個。創建一個團伙的成本是 50,000 BTC。公會有每週的維護費用，必須支付才能避免被解散。公會允許你在聊天邊框中擁有 3 個字母的標籤，在創建公會時選擇。
 
-### How do I search for a Gang? How do I join one?
-Currently, you can't see a list of gangs in the game.
-You can join one by creating it yourself or by receiving an invite from a gang.
+### 如何搜索公會？我如何加入？
+目前，你無法在遊戲中看到公會列表。
+你可以通過自己創建或收到公會邀請來加入其中。
 
-### Can I rename my Gang? Can I have the same tag as another Gang has?
-Currently, you can't rename your own gang.
-It's forbidden to have the same tag as other gangs.
-All gangs should have different tags in order to avoid confusion.
+### 我可以重命名我的公會嗎？我可以擁有與另一個公會相同的標籤嗎？
+目前，你無法重命名自己的公會。
+禁止與其他公會有相同的標籤。
+所有公會都應該有不同的標籤，以避免混淆。
 
-### How can I level up my gang?
-To be able to maintain your gang and to level it up, each member of the gang will have to gather resources (through an AFK task in the Gang Headquarters) and will also have to donate bitcoins to it.
+### 如何升級我的公會？
+為了能夠維持你的公會併升級它，公會的每個成員都必須收集資源（通過公會總部的 AFK 任務），並且還必須向它捐贈比特幣。
 
-### Where are the Gang Headquarters (HQ)? What can I do there?
-Gang HQ is located in the main HUB, under [Player Market].  At the Gang HQ you're able to donate bitcoin, gather resources, and do a varitety of AFK tasks.
+### 公會總部（HQ）在哪裡？我可以在那裡做什麼？
+公會總部位於主 HUB，在 [玩家市集] 下。在公會總部，你可以捐贈比特幣、收集資源並執行各種 AFK 任務。
 
-### What are the symbols in dungeons?
-- "?" represents a quest. You can access accepted quests in your Quest tab.
-- "!" represents lore.
-- Crates are represented by small white boxes.  
-- Crates that have a "+" inside them contain key fragments.
-- The yellow ✧ contains a locked container.
-- The alien looking icons represent monsters inside the dungeon.
+### 地下城中的符號是什麼？
+- “？”代表一種追求。你可以在“任務”選項卡中訪問已接受的任務。
+——“！”代表傳聞。
+- 寳箱由小白框表示。
+- 內部帶有“+”的寳箱包含密鑰碎片。
+- 黃色 ✧ 包含一個上鎖的容器。
+- 外星人外觀的圖標代表地下城內的怪物。
 
-### What are Public and Private Dungeons? What are Password Protected Dungeons?
-When creating a dungeon, it will default to Public.  This means that anyone can see and join your dungeon as long as they meet the level requirements. If you make your dungeon Private, it will be invisible and inaccessible to other players.
+### 什麼是公共地下城和私人地下城？什麼是受密碼保護的地下城？
+創建地下城時，它將默認為公共。這意味著只要滿足級別要求，任何人都可以查看和加入你的地下城。如果你將地下城設為私有，其他玩家將無法看到和訪問它。
 
-You may also create a password for your dungeon so that it is only accessible by users who know the password.
+你還可以為地下城創建一個密碼，以便只有知道密碼的用戶才能訪問它。
 
-### People are looting my stuff. Help!
-The loot in the crates is randomly generated for each player. Therefore, it's impossible for someone to steal your loot.
+### 人們在搶劫我的東西。幫助！
+寳箱中的戰利品是為每個玩家隨機生成的。因此，不可能有人偷你的戰利品。
 
-### What are Tech Scraps?
-Tech Scraps are resources obtained from scrapping caches and printed gear.  They can also be generated at with the Gang Recycler.
+### 什麼是科技碎片？
+科技碎片是從廢棄快取記憶體和印刷裝備中獲得的資源。它們也可以使用 公會回收器 生成。
 
-They can be used to level up Printing Rank faster, craft Ai Cores and Hash Processors, and to open Locked Containers.
+它們可用於更快地升級列印等級，製作AI核心和雜凑處理器，以及打開鎖定容器。
 
-The best way to get Tech Scrap is to mass print Trash Caches or Common Caches and then mass scrap the obtained gear.
+獲得 科技碎片 的最佳方法是大量列印 廢棄 快取記憶體 或 普通 快取記憶體，然後大量廢棄獲得的裝備。
 
-### What are AI Cores?
-AI Cores are items required to AFK farm dungeons.  AFK farming provides EXP, items, and a small amount of BTC. AI cores can be acquired as drops or crafted from Hash Processors.
+### 什麼是 AI 核心？
+AI 核心是 AFK 農場地下城所需的物品。 AFK 農場提供 EXP、物品和少量 BTC。 AI 核心可以通過掉落獲得或通過雜凑處理器製作。
 
-### What are Hash Processors?
-Hash Processors ('hash' for short) are items that are required to activate an AFK job that yields high amounts of BTC (BitCoin). They drop from normal and challenge dungeons.
+### 什麼是雜凑處理器？
+雜凑處理器（簡稱“雜凑”）是激活可產生大量 BTC（比特幣）的 AFK 作業所需的項目。他們從普通地下城掉落並挑戰地下城。
 
-### What are Gang Memory Shards?
-Upon deciphering them, these items will give you a random cache, along with mining and gang experience.
+### 什麼是公會內存碎片？
+破譯它們後，這些物品將為你提供隨機快取記憶體，以及挖礦和公會經驗。
 
-### What are Gang Invasion Order Transmitters?
-Gang invasion transmitters are special items that drop from the boss in challenge dungeons.
-They are required to open a Gang Dungeon.
+### 什麼是公會入侵命令發送器？
+公會入侵發射器是在挑戰地下城中從 Boss 處掉落的特殊物品。
+他們需要打開一個公會地下城。
 
-### What are Transmitters?
-These are special items that can be bought with Units (premium currency) and provide global benefits to all players on the server.  Their effects range from reducing the time on AFK job or activities to increasing BTC or EXP gain. These are untradeable.
+### 什麼是發射器？
+這些是可以用單位（高級貨幣）購買的特殊物品，並為服務器上的所有玩家提供全球利益。它們的影響範圍從減少 AFK 工作或活動的時間到增加 BTC 或 EXP 收益。這些是不可交易的。
 
-There are also normal transmitters that drops from dungeons, but are less effective than the paid version.
+也有從地下城掉落的普通發射器，但不如付費版本有效。
 
-### What are Equipment Calibration Cores?
-Equipment Calibration Cores are used at the Calibration Station to upgrade your gear.
+### 什麼是裝備校準核心？
+裝備校準核心用於在校準站升級你的裝備。
 
-### What are Calibration AI Shards?
-These items offers a stackable buff that increase the chance of success when calibrating.
+### 什麼是校準 AI 碎片？
+這些物品提供可堆疊的增益效果，可增加校準成功的機會。
 
-### What's the benefit of leveling my crafting skills?
-Your crafting skills allow you to create useful consumables, including medicine and ammo.
-Higher levels allow you to craft more types of items and also craft more efficiently. For example, higher-level healing items will heal for more health.
+### 提升我的製作技能有什麼好處？
+你的製作技能使你可以製造有用的消耗品，包括藥品和彈藥。
+更高的級別可以讓你製作更多類型的物品，也可以更高效地製作。例如，更高級別的治療物品將治療更多的健康。
 
-### How do I increase my Scavenge Skill?
-In every area with enemies, there is an action called AFK Resource Gather near the bottom of the list, under the dungeon selections.
-You'll need to increase your scavenging level starting from earlier train stations (Level 1 - 4) before being able to scavenge at higher level sites.
+### 如何提高我的搜索技能？
+在每個有敵人的區域，在列表底部附近的地下城選項下都有一個稱為 AFK 資源搜索 的動作。
+你需要從較低級的車站（1 - 4 級）開始提高你的搜索等級，然後才能在更高級別的站點進行搜索。
 
-### What's mining and how do I increase my mining skill?
-Mining is the skill that allows you to farm BTC (BitCoin). It also allows you to craft AI Cores.
-To mine, you need to have Hash Processors which drop from dungeons.
-If you want to start mining, simply go to the [Job Hub] and scroll down until you see the option to mine.
-You also receive mining experience when gather resources for your gang.
+### 什麼是挖礦以及如何提高挖礦技能？
+挖礦是一項可以讓你種植 BTC（比特幣）的技能。它還允許你製作 AI 核心。
+要挖礦，你需要擁有從地下城中掉落的雜凑處理器。
+如果你想開始挖礦，只需轉到 [職缺中心] 並向下滾動，直到看到挖礦選項。
+為你的公會收集資源時，你還會獲得挖礦經驗。
 
-### What is the Gear Score?
-Gear Score is the average level of the equipment you wear. This is calculated by averaging every non-weapon gear you have equipped, plus the highest level weapon you have (excluding destructive).
+### 什麼是裝備評級？
+裝備評級 是你穿戴的裝備的平均水平。這是通過平均你裝備的每個非武器裝備加上你擁有的最高級別武器（不包括破壞性）來計算的。
 
-### What is the Pocket Stat?
-Pockets increase your inventory size. 1 pocket means 1 additional inventory slot.
+### 什麼是背包數值？
+口袋會增加你的背包大小。 1 個口袋意味著 1 個額外的物品欄位。
 
-### What is the Bargain Stat?
-Bargain gives you better deals at the Weapon Smith and Trinoky Mart, which can be found in the Central Hub. You can both sell and buy your items for better prices.
+### 什麼是討價還價數值？
+討價還價在武器史密斯和 藥商 為你提供更好的交易，它們可以在中央樞紐找到。你可以以更優惠的價格出售和購買你的物品。
