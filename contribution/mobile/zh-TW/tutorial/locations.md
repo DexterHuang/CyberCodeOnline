@@ -1,86 +1,86 @@
-## Locations
-The game begins in Shangri-La City Center. From there, you can explore various areas by going to different subway stations. 
+## 站點
+比賽在香格里拉市中心開始。從那裡，你可以前往不同的地鐵站探索各個區域。
 
-## City Map
+## 城市地圖
 
-![Map](/resources/mobile-tutorial/Map.png)
+![地圖](/resources/mobile-tutorial/Map.png)
 
-## Shangri-La City Center  
-![Shangri-La City Center](/resources/mobile-tutorial/Shangri-LaCityCenter.png)  
-This is the Main HUB to which you will often return to after you die, to print equipment, to make purchases and for various other activities.
+## 香格里拉市中心
+![香格里拉市中心](/resources/mobile-tutorial/Shangri-LaCityCenter.png)
+這是你死後經常返回的主要中心，用於列印裝備、購買和進行各種其他活動。
 
-## 3D Molecular Printer  
-![3D Molecular Printer](/resources/mobile-tutorial/Molecular3DPrinter.png)  
-In the City Center, you can find the Molecular 3D Printer, which will be used to print your equipment from various caches.
+## 3D 分子列印機
+![3D 分子列印機](/resources/mobile-tutorial/Molecular3DPrinter.png)
+在市中心，你可以找到分子 3D 列印機，它將用於從各種快取記憶體中列印你的裝備。
 
-Clicking on the printer option will bring you to the printing panel which lists all the caches you have.  
-It costs BitCoin to print, so make sure you have enough. All details including BTC cost and printing experience given will be listed on the cache printing panel.  
-If you wish to print a cache, all you need to do is to click on the cache you wish to print. If you have multiple caches of the same quality and type, it will bring up a dialog asking how many you want to print.  
+點擊列印機選項會將你帶到列印面板，其中列出了你擁有的所有快取記憶體。
+列印比特幣需要花費比特幣，因此請確保你有足夠的比特幣。快取記憶體列印面板上將列出所有詳細信息，包括 BTC 成本和列印經驗。
+如果你希望列印快取記憶體，你只需點擊要列印的快取記憶體。如果你有多個相同質量和類型的快取記憶體，它會彈出一個對話框，詢問你要列印多少個。
 
-A good strategy is to print all the trash items first then the common, saving rare, legendary and epic for later levels. The reason for this is that printing trash and common quality items first will provide you with printing experience; these items can then be scrapped to acquire Tech Scraps, which can also boost your Printing Level or be used to craft other items and unlock locked containers.
+一個好的策略是先列印所有廢棄物品，然後是普通物品，為以後的級別保存稀有、傳奇和史詩。這樣做的原因是首先列印廢棄和普通質量的項目將為你提供列印體驗；然後可以將這些物品報廢以獲取技術碎片，這也可以提高你的列印水平或用於製作其他物品和解鎖鎖定的容器。
 
-## Weaponsmith  
-![Weaponsmith](/resources/mobile-tutorial/WeaponSmith.png)  
-The Weaponsmith is a vendor in Shangri-La City Center who has items for sale and allows you to sell your items for BTC. You will see the items available for sale at the top. You can click on any of them and choose Buy if you can afford them.  
-If you have equipment with the **bargain** stat, you will get a better deal.  
+## 武器匠
+![Weaponsmith](/resources/mobile-tutorial/WeaponSmith.png)
+武器匠是香格里拉市中心的供應商，有出售物品並允許你以 BTC 出售你的物品。你將在頂部看到可供出售的物品。如果你負擔得起，你可以點擊其中任何一個並選擇“購買”。
+如果你擁有具有 **討價還價** 屬性的裝備，你將獲得更好的交易。  
 
-If you want to sell something to the Weaponsmith, you will need to open your inventory, click on any item you wish to sell and choose the Sell option. For some items, it may be more worth it to sell them at the player market.
+如果你想賣東西給武器匠，你需要打開你的背包，點擊你想賣的任何物品，然後選擇賣選項。對於某些物品，在玩家市場上出售它們可能更值得。
 
-You can repair your items here too. You lose durability the more you use your equipment. It costs very little to repair them to mint condition, so be sure to repair frequently as needed.
+你也可以在這裡修理你的物品。裝備使用次數越多，耐久度就越低。將它們修復到完好狀態的成本非常低，因此請務必根據需要經常修復。
 
-## Trinoky Mart  
-![Trinoky Mart](/resources/mobile-tutorial/TrinokyMart.png)  
-Here you can buy medical items with BTC. Prices are completely separate from the player market, so be sure to check both!  
+## 藥商
+![Trinoky Mart](/resources/mobile-tutorial/TrinokyMart.png)
+在這裡你可以使用 BTC 購買醫療用品。價格與玩家市場完全分開，所以一定要檢查兩者！
 
-## Terminal 
-![Terminal](/resources/mobile-tutorial/Terminal.png)  
-The terminal is used to merge key fragments into secret keys to unlock higher-level train stations.
+## 終端
+![終端](/resources/mobile-tutorial/Terminal.png)
+終端用於將密鑰碎片合併為秘密密鑰，以解鎖更高級別的火車站。
 
-Here you can also unlock locked containers (found in dungeons) with the Tech Scrap that you have.
+在這裡，你還可以使用你擁有的科技碎片解鎖鎖定的容器（在地下城中找到）。
 
-## Bank of Arasaka
-![Bank of Arasaka](/resources/mobile-tutorial/BankOfArasaka.png)  
-In addition to your inventory, each player also has access to a vault in the Shangri-La State Bank.
+## 荒坂銀行
+![荒坂銀行](/resources/mobile-tutorial/BankOfArasaka.png)
+除了你的物品欄外，每位玩家還可以使用香格里拉國家銀行的金庫。
 
-Initially you have 6 bank slots. You can choose to permanently expand slots by paying BTC. Keep in mind that the cost of the slots you buy will increase with each purchase.  
+最初你有 6 個銀行插槽。你可以選擇通過支付 BTC 來永久擴展插槽。請記住，你購買的欄位的成本會隨著每次購買而增加。
 
-Items that are stackable will occupy only one bank slot just like in your inventory. Each deposit will cost 100 BTC, but taking something out is free of charge.  
+可堆疊的物品將只佔用一個銀行槽，就像在你的背包中一樣。每筆存款將花費 100 BTC，但取出東西是免費的。
 
-## Hyper Train Central Station  
-![Hyper Train Station](/resources/mobile-tutorial/HyperTrainCentralStation.png)  
-This is where your adventure begins. The train can take you to multiple stations. Each station has three areas full of enemies of different levels. This is also where you will find dungeons. Gather 3 unique key fragments from the dungeons to unlock the next train station.  
+## 超迴路列車總站
+![超級火車站](/resources/mobile-tutorial/HyperTrainCentralStation.png)
+這就是你的冒險開始的地方。火車可以帶你到多個車站。每個站點都有三個區域，裡面充滿了不同級別的敵人。這也是你可以找到地下城的地方。從地下城中收集 3 個獨特的鑰匙碎片以解鎖下一個火車站。  
 
-In each station, you can also use your AI Cores to farm EXP and scavenge for materials that are needed for crafting healing items and ammo.
+在每個站點中，你還可以使用 AI 核心來增加 EXP 並尋找製作治療物品和彈藥所需的材料。
 
-## Shangri-La Commercial Area (Job Hub)  
-![Commercial Area](/resources/mobile-tutorial/Shangri-LaCommercialArea.png)  
-At this location, you can look for jobs to increase your printing level, ammo/medical crafting levels, and mining level. Each job (AFK activity) contains details on what you can accomplish with it.
+## 香格里拉商圈（就業中心）
+![商業區](/resources/mobile-tutorial/Shangri-LaCommercialArea.png)
+在這個位置，你可以尋找工作來提高你的列印水平、彈藥/醫療製造水平和採礦水平。每個作業（AFK 活動）都包含有關你可以使用它完成的任務的詳細信息。
 
-## Shangri-La Market Street  
-![Street Market](/resources/mobile-tutorial/Shangri-laMarketStreet.png)  
-Here you can sell and purchase items to and from other players within the game for BTC.  
+## 香格里拉市場街
+![街市](/resources/mobile-tutorial/Shangri-laMarketStreet.png)
+在這裡，你可以用 BTC 向遊戲內的其他玩家買賣物品。
 
-Keep in mind that whenever you want to sell or buy an item on the market, you will have to complete a captcha of 4 numbers.  
-This is in place to prevent bots from using and manipulating the player market.
+請記住，無論何時你想在市場上出售或購買商品，你都必須完成 4 個數字的驗證碼。
+這是為了防止機器人使用和操縱玩家市場。
 
-## Cosmetic Cyberwear  
+## 化妝品網絡服裝
 ![Cosmetic Cyberwear](/resources/mobile-tutorial/CosmeticCyberwear.png)  
-In this location you can buy in-game subscriptions for real money.  
+在這個位置，你可以用真錢購買遊戲內訂閱。
 
-These subscriptions help maintain the cost of the game and allows you, depending on the type of subscription, to have a coloured chat border, a background animation for your profile, a title and the ability to upload a custom profile picture.
+這些訂閱有助於維持遊戲的成本，並允許你根據訂閱類型擁有彩色聊天邊框、個人資料的背景動畫、標題以及上傳自定義個人資料圖片的能力。
 
-Please keep in mind that you are not forced to purchase these subscriptions at all and **these subscriptions offer no P2W benefits**.  
-These subscription benefits are purely cosmetic.  
-You can still play the game without subscribing.
+請記住，你根本不會被迫購買這些訂閱，**這些訂閱不提供 P2W 好處**。
+這些訂閱權益純粹是裝飾性的。
+你仍然可以在不訂閱的情況下玩遊戲。
 
-## Arasaka Unit Exchange
-![Arasaka Exchange](/resources/mobile-tutorial/ArasakaUnitExchange.png)  
-Here you can buy Transmitters that have various effects. These Transmitters are purchaseable only with Units (premium currency).  
+## 荒坂單位交換
+![荒坂交易所](/resources/mobile-tutorial/ArasakaUnitExchange.png)
+在這裡你可以購買具有各種效果的發射器。這些發射器只能以單位（高級貨幣）購買。
 
-Keep in mind that if one player activates a Transmitter, every player on the server will benefit from it.  
-**They are not P2W.**  
-They can't offer an advantage to only one player. Everyone benefits from the effects.  
+請記住，如果一個玩家激活發射器，服務器上的每個玩家都會從中受益。
+**他們不是 P2W。**
+他們不能只為一名球員提供優勢。每個人都從效果中受益。
 
-Here you can also purchase Units, the in-game premium currency, with real money.
-In the Android/Apple application, the prices of Units will appear in your local currency.  
-In the browser version (both mobile or desktop views), the prices will appear in USD only.
+在這裡，你還可以用真錢購買遊戲內高級貨幣單位。
+在 Android/Apple 應用程序中，單位價格將以你的當地貨幣顯示。
+在瀏覽器版本（移動或桌面視圖）中，價格將僅以美元顯示。
