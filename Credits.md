@@ -68,6 +68,7 @@ Wanna
 [xmonkx](https://github.com/xmonkx)
 [FreddyAmonov](https://github.com/FreddyAmonov)
 [Makasin22](https://github.com/Makasin22)
+[ZHAama](https://github.com/ZHAama)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
