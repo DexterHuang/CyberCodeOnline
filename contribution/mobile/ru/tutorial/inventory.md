@@ -1,46 +1,46 @@
-## Inventory
+## Инвентарь
 
-You can access your inventory by clicking the option at the bottom menu bar. In your inventory, you can see all items that you own, including equipment, upgrade modules, ammo, medical items, secret keys, caches, and other consumables. By clicking on the item, you can see the details of that item.  
+Вы можете попасть в свой инвентарь, нажав на соответствующую вкладку в нижней строке меню. В инвентаре можно увидеть все имеющиеся у вас предметы, включая снаряжение, модули улучшений, патроны, лечащие предметы, секретные ключи, чертежи и другие расходники. Нажав на предмет, вы можете просмотреть подробную информацию о нем.  
 
-You can choose to equip gear by choosing the equip button. Equipped gear will be highlighted at the top of the inventory page. By clicking on gears, you can also choose to install upgrade modules that will enhance certain values of that item.
+Вы можете экипировать предмет снаряжения нажав соответствующую кнопку. Экипированное снаряжение будет выделено в верхней части страницы инвентаря. Нажав на уже экипированный предмет снаряжения, вы сможете установить на него модули улучшений, которые повысят определенные характеристики этого предмета.
 
-To remove installed upgrade modules, simply click on the installed module. Better quality equipment have more upgrade module slots.
+Чтобы удалить установленный модуль, просто щёлкните по нему. Более качественное снаряжение имеет больше слотов для модулей улучшений.
 
-## Items in your Inventory
+## Пердметы в инвентаре
 
-Your caches in your inventory can be consumed to print gear using the Molecular 3D Printer in the City Center.  
+Чертежи могут быть использованы для печати снаряжения с помощью молекулярного 3D-принтера в Центре города.  
 
-Medical items can be consumed in dungeons to regenerate health (your character will not automatically regenerate health in dungeons as they would after normal battles in a train station).  
+Лечащие предметы можно использовать в подземельях для восстановления здоровья (ваш персонаж не будет автоматически восстанавливать здоровье в подземельях, как после обычных сражений).  
 
-Ammo can be used to perform special attacks and destructive attacks during combat.
+Патроны можно использовать для выполнения атак специальным и разрушительным оружием.
 
-Locked containers (✧) can be found in dungeons and can be unlocked using Tech Scraps at the Terminal in the main HUB.  
-Depending on the quality of the locked container, the amount of Tech Scrap needed for unlocking it may be greater; the required Tech Scraps start at 32. If you don't see the option for unlocking the container at the Terminal, it means you do not have enough Tech Scraps.
+Запертые контейнеры (✧) можно найти в подземельях и разблокировать потратив металлолом в терминале.  
+В зависимости от качества запертого контейнера, для его разблокировки может потребоваться большее количество металлолома, начиная с 32-х штук. Если вы не видите возможности разблокировать контейнер в терминале, значит, у вас недостаточно металлолома.
 
-Secret key fragments that you obtained in special dungeon chests can be merged into a secret key by brute-forcing it at the Terminal. Secret keys will grant you access to higher level enemy areas and dungeons.  
+Фрагменты секретных ключей, которые вы получили в специальных сундуках в подземелье, можно объединить в секретный ключ в терминале. Секретные ключи открывают доступ к вражеским зонам и подземельям более высокого уровня.  
 
-Other consumables, such as Hash Processors and AI Cores, can be used to perform AFK tasks.
+Другие расходные материалы, такие как хэш-процессоры и ядра ИИ, можно использовать для выполнения AFK-заданий.
 
-Learn more about all the different types of resources in the Resources Tutorial.
+Узнайте больше о различных ресурсах в разделе про ресурсы.
 
-## Functions in your Inventory
+## Функционал инвентаря
 
-By clicking the icons above your inventory list, you can filter out specific items. You will start with 50 empty slots; equipping gear with the **pocket** stat will give you more inventory space. To get rid of equipment and upgrade modules, you can click on the item itself and then on the **SCRAP** button. Alternatively, you can hold click on one item, select every item you want to scrap, then press the **SCRAP** button that will appear at the top left of the item list. Every item scrapped will give you Tech Scrap. To get rid of other items that are not scrappable, you can click on the **DESTROY** button. Destroyed items will not give you anything in return, so be cautious when performing this action.  
+Нажимая на значки над списком инвентаря, вы можете отфильтровать предметы. В начале у вас будет 50 пустых ячеек; экипировка со статусом **POCKET** даст вам больше места в инвентаре. Чтобы избавиться от снаряжения и модулей улучшений, вы можете нажать на сам предмет, а затем на кнопку **SCRAP**. Также вы можете сперва нажать на один предмет, выбрать все предметы, от которых хотите избавиться, и уже затем нажать на кнопку **SCRAP**, которая появится слева вверху списка предметов. Каждый удаленный так предмет даст вам металлолом. Чтобы избавиться от других предметов, которые не подлежат утилизации, вы можете нажать на кнопку **DESTROY**. Уничтоженные предметы не дадут вам ничего взамен, поэтому будьте осторожны при выполнении этого действия.  
 
-## Item Inbox
+## Почта в инвентаре
 
-Items that other players send will be automatically placed in your item inbox. Once you have enough space in your inventory, they will be moved automatically to your inventory. There is sometimes a delay before this happens.
+Предметы, которые вы получаете от других игроков, автоматически помещаются в раздел "Почта". Как только в вашем инвентаре появится достаточно места, они будут автоматически перемещены туда. Иногда бывает задержка, прежде чем это произойдет.
 
-## Crafting
+## Создание предметов
 
-This tab in your inventory allows you to craft different types of items: medicine, ammo, Hash Processors and AI Cores.  
+В отдельной вкладке "Создание" у вас есть возможность создавать различные типы предметов: лекарства, боеприпасы, хэш-процессоры и ядра ИИ.  
 
-Medical crafting uses medical tech parts.  
+При создании медикаментов используются медицинские детали.  
 
-Ammo crafting can use either ammunition tech parts (for Energy Cells) or military ammunition tech parts (for Anti Matter Charges).
+При создании боеприпасов можно использовать либо детали боеприпасов (для энергоячеек), либо военные детали боеприпасов (для антиматериальных зарядов).
 
-Hash Processors use military ammunition tech parts, medical tech parts and Tech Scraps.  
+Хэш-процессоры создаются из деталей военных боеприпасов, медецинских деталей и металлолома.  
 
-AI Cores use Hash Processors and Tech Scraps.  
+Для создания Ядер ИИ понадобятся хэш-процессоры и металлолом.  
 
-As you level up the relevant skills (medical science, ammo crafting, and mining), you will unlock new recipes and become more proficient, allowing you to craft more and better items.
+По мере развития соответствующих навыков крафта (медикаменты, боеприпасы и майнинг) вы будете открывать новые рецепты, что позволит вам создавать все более совершенные предметы.
