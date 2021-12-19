@@ -1,61 +1,61 @@
-## Combat
+## 戰鬥
 
-In every location, you will see a list of Nearby Enemies and three Dungeons which you can enter. Locations are separated by level groups.  To unlock new areas, you'll have to gather three key fragments from the dungeons. You can then brute force a new key with your key fragments at the Terminal.
+在每個站點，你都會看到附近敵人的列表和可以進入的三個地牢。站點由等級分組區隔。要解鎖新區域，你必須從地城中收集三個密鑰碎片。然後在終端用密鑰碎片暴力破解以得到新密鑰。
   
-To fight Nearby Enemies, select any of the listed enemies to enter combat.  You are unable to heal while fighting Nearby Enemies, but if you are about to die, click Escape in the top left. While inside a dungeon, clicking on the enemy, represented by an alien logo will draw you into combat with it.  
+要與附近的敵人戰鬥的話，點擊列表列出的敵人即可進入戰鬥。與附近的敵人戰鬥時你無法恢復生命，如果你即將死亡，可以點擊左上角的逃生以避免死亡。在地城中，點擊由外星人標誌代表的敵人你就會與它進行戰鬥。  
 
-## Primary Attack
-Attack the enemy with your equipped primary weapon. This weapon does not use ammo.
+## 主要攻擊
+使用裝備的 主武器 攻擊敵人。該武器不使用彈藥。
 
-## Special Attack
-Attack the enemy with your equipped special weapon. Deal 120% damage to shields. This weapon consumes one Energy Cell per shot.
+## 特殊攻擊
+使用裝備的 特殊武器 攻擊敵人。對護盾造成120%的傷害。該武器每次射擊消耗一個 能量電池。
 
-## Destructive Attack
-Attack the enemy with your equipped destructive weapon. Deal 50% damage to shields. This weapon consumes one Antimatter charge per shot.
+## 破壞性攻擊
+使用裝備的 破壞性武器 攻擊敵人。對護盾造成50%的傷害。這種武器每次射擊消耗一個 反物質電池。
 
-## Use Item
-You have 3 Use Item slots.  You can bind medical supplies to these slots and use them inside of Dungeons.  You can bind Experience Memories, but this is not necessary since you can use them directly from your inventory to gain Player Experience.
+## 使用物品
+你有3個物品插槽。 你可以將醫療用品綁定到這些插槽並在地下城內使用它們。你可以綁定經驗記憶，但這不是必要步驟，你也可以直接從背包中使用它們來獲得經驗。
 
-## Escape
-You can attempt to escape from combat by clicking Escape in the top left. The success rate for escaping combat outside a dungeon is always 100%. However if you are fighting inside a dungeon and try to escape, the chance will be based on your escape stat which is taken from your armour and upgrade stats. If you fail to escape, you will then be attacked by the enemy without dealing any damage.  
+## 逃脫
+您可以通過點擊左上角的 逃脫 來嘗試逃離戰鬥。 在地城外逃脫戰鬥的成功率始終為 100%。 但是，如果在地牢中戰鬥並試圖逃跑，則成功率將取決於你的 逃脫機率，該數據基於你的裝甲和升級模組。如果你逃脫失敗，你就會被敵人攻擊且不會對敵人造成任何傷害。  
   
-The combat screen will show you how much health and shield you and your opponent both have, as well as the amount of ammo you have left for each of your weapons and the approximate damage they can do.  
+戰鬥頁面會顯示你和你的對手各有多少生命值和護盾，以及你每件武器的彈藥量以及它們可以造成的大致傷害。 
 
-## Death
+## 死亡
 
-If you die, you won't lose any of your items. However you will lose 10% of your total BTC and Player XP. This means you might lose a level if you die too much.
+如果你死了，你不會丟失任何物品。 但你將損失 身上的總 BTC 和 玩家 XP 的 10%。 這意味著如果你死太多，你可能會降一個級別。
   
-## Enemy Modifiers
+## 敵人修飾符
   
-Enemies can have modifiers, which are indicated by an adjective before the enemies name e.g. "**Mad** Serial Killer", these modifiers are as follows,
-  
-  
- - Mad - Gives the enemy +10% damage  
- - Angry - Gives the enemy +10% damage  
- - Tough - Gives the enemy +20% defence  
- - Agile - Gives the enemy +20% stun evade and a shield  
- - Shielded - Gives the enemy a large shield  
-  
-## Player Modifiers
-  
-The player can also pick up modifiers by interacting with the quest giver in the dungeon, which is represented by a '?', these modifiers are as follows:  
-  
- - Overcharged I - Gives the player +5% damage  
- - Overcharged II - Gives the player +10% damage  
- - Overcharged III - Gives the player +15% damage  
- - Overcharged IV - Gives the player +20% damage  
- - Overcharged V - Gives the player +25% damage  
+有些敵人會擁有修飾符，由敵人名稱前的形容詞表示，例如 "**Mad** Serial Killer"，這些修飾符效果如下，
   
   
- - Reinforced I - Gives the player +5% defence  
- - Reinforced II - Gives the player +10% defence  
- - Reinforced III - Gives the player +15% defence  
- - Reinforced IV - Gives the player +20% defence  
- - Reinforced V - Gives the player +25% defence  
+ - Mad - 給予敵人+10%傷害  
+ - Angry - 給予敵人+10%傷害  
+ - Tough - 給予敵人+20%防禦  
+ - Agile - 給予敵人 +20% 眩暈閃避和護盾  
+ - Shielded - 給敵人一個高額護盾  
+  
+## 玩家修飾符
+  
+玩家可以通過在地城中的 任務委托人（用“？”表示） 與其互動來得到修飾符，這些修飾符效果如下：  
+  
+ - Overcharged I - 給予玩家+5%傷害  
+ - Overcharged II - 給予玩家+10%傷害  
+ - Overcharged III - 給予玩家+15%傷害  
+ - Overcharged IV - 給予玩家+20%傷害  
+ - Overcharged V - 給予玩家+25%傷害  
   
   
- - Shield Enhance I - Gives the player +5% shield multiplier  
- - Shield Enhance II - Gives the player +10% shield multiplier  
- - Shield Enhance III - Gives the player +15% shield multiplier  
- - Shield Enhance IV - Gives the player +20% shield multiplier  
- - Shield Enhance V - Gives the player +25% shield multiplier  
+ - Reinforced I - 給予玩家+5%防禦  
+ - Reinforced II - 給予玩家+10%防禦  
+ - Reinforced III - 給予玩家+15%防禦  
+ - Reinforced IV - 給予玩家+20%防禦  
+ - Reinforced V - 給予玩家+25%防禦  
+  
+  
+ - Shield Enhance I - 給予玩家提供+5%護盾加成  
+ - Shield Enhance II - 給予玩家提供+10%護盾加成  
+ - Shield Enhance III - 給予玩家提供+15%護盾加成  
+ - Shield Enhance IV - 給予玩家提供+20%護盾加成 
+ - Shield Enhance V - 給予玩家提供+25%護盾加成  
