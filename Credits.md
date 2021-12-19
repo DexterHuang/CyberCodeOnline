@@ -155,6 +155,8 @@ Vega_Efsunborn
 [Laani](https://github.com/Laani)
 
 ## Game resources (words)
+
+[apetro](https://github.com/apetro/)
 App2
 Aquacky
 [bvcxz](https://github.com/bvcxz-cybercode)
