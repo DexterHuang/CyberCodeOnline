@@ -1,110 +1,110 @@
-## Equipment
-You can equip the gear that you own as long as the gear level you wish to equip is not higher than your current player level.  
-All equipment will be one of the following rarities:
+## 裝備
+你希望裝備的裝備等級只要不高於你當前的玩家等級，你就可以裝備您擁有的裝備。  
+所有裝備將會是以下稀有度之一：
 
-  - Trash (Grey)
-  - Common (White)
-  - High Quality (Green)
-  - Rare (Yellow)
-  - Legendary (Fuchsia, Deep Pink)
-  - Epic (Dark Red)
+  - 廢棄 (灰色)
+  - 普通 (白色)
+  - 高級 (綠色)
+  - 稀有 (黃色)
+  - 傳奇 (紫紅/深粉色)
+  - 史詩 (深紅色)
 
-Higher rarities will have better stats and more module upgrade slots, depending on the piece of equipment.  
+更高的稀有度將有更好的數值和更多的升級模組插槽，具體取決於設備。  
 
-🔹 As a newbie, it's important to craft and equip trash quality gear since it's the cheapest one to print.  
-🔹 Starting from level 5 up to level 10, you can start printing common quality caches.  
-🔹 From level 10 to 20, you will have enough BTC to start using High Quality gear.  
-🔹 From level 20 to 40 - 50, you can print and wear Rare Quality gear.  
-🔹 And from level 40 - 50, you can print and wear Legendary Quality gear.  
-🔹 From level 90 - 100+, if you ever have the chance to get or to buy one or more, you can print and wear Epic Quality gear, which is the highest and rarest type of gear in the game.  
+🔹 作為新手，製作 廢棄 裝備很重要，因為它是最便宜的打印裝備。  
+🔹 從5級到10級，建議你可以開始打印 普通 質量的快取記憶體。  
+🔹 從10級到20級，你將擁有足夠的BTC。建議開始使用 高級 裝備。  
+🔹 從20級到40級，建議你可以開始使用 稀有 裝備。  
+🔹 從40級到50級，建議你可以開始使用 傳奇 裝備。  
+🔹 從90級到100級以上，如果你有機會獲得或購買一件或多件，你可以打印和佩戴 史詩 裝備，這是遊戲中最高和最稀有的裝備類型。  
 
-These are not rules on how you should manage different types of quality equipment but they are rather recommendations on what type of equipment you should have at different levels.
+以上不是此游戲的規則，而是對於你應該在不同級別使用什麼類型的裝備的建議。
 
 
-## Finding Equipment
+## 尋找裝備備
 
-You can find equipment and equipment caches in the dungeons or when fighting individual enemies (street fights).  
+你可以在地下城中或與單個敵人戰鬥（附近的敵人）中找到裝備備和裝備快取記憶體。  
 
-Once you are level 5, you will be able to use the Player Market to purchase different types of equipment, crafting materials and other items.
+達到5級後，你將能夠使用 玩家市集 購買不同類型的裝備、製作材料和其他物品。
 
-## Printing Equipment
+## 列印裝備
 
-Caches can be used to print equipment at your current Printing Rank at the Molecular 3D Printer in the City Center.  
+快去記憶體可用於在市中心的 3D分子利印機 以您當前的列印等級列印裝備。  
 
-The level of the printed gear will be the same as your Printing Rank, so make sure to keep your Printing Rank at the same level as your player level.  
+列印的裝備的等級會與你的列印等級相同，因此請確保你的列印等級與你的玩家等級保持一致。  
 
-## Upgrade Modules
+## 升級模組
 
-You can install upgrade modules in your equipment. In order to equip the module, it's level cannot be higher than the equipment's level.  
-E.g.: you cannot install a level 20 upgrade module in level 5 gloves.  
+你可以在你的裝備中安裝升級模組。但裝備的升級模組，它的等級不能高於裝備等級。
+例如：你不能在5級武器中安裝20級升級模塊。  
 
-Upgrade modules can be removed at any time.  
-Removed upgrade modules will take space in your inventory so pay attention to that.  
-Make sure you have enough space in your inventory before removing any upgrades.  
+升級模組可以隨時移除。  
+移除的升級模組會佔用你的背包空間。請注意這一點。 
+在移除任何升級模組之前，請確保你的背包中有足夠的空間。  
 
-If your inventory is getting cluttered with upgrade modules you can't bear to get rid of, remember you can store unused modules in any unused equipment in your inventory. 
-Level rules still apply, and remember to remove them before getting rid of the equipment. 
+如果你的背包中堆滿了你不想丟掉的升級模組，請記住，你可以將升級模組先存放在背包中任何未使用的裝備中。
+等級規則仍然適用，並記得在丟掉設備之前移除它們。
 
-Scrapping a piece of equipment that have an upgrade module installed in it, will also delete the said module!  
-You will not recover it!  
+回收安裝了升級模組的裝備，也會刪除該模組！
+而你將無法恢復它！  
 
-## Upgrade Slots
+## 升級模組槽位
 
-### Primary Weapon
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 to 3 Slots
- - Rare: 3 Slots
- - Legendary: 3 Slots
- - Epic: 4 Slots
+### 主武器
+ - 廢棄: 0 到 1 槽位
+ - 普通: 1 到 2 槽位
+ - 高級: 2 到 3 槽位
+ - 稀有: 3 槽位
+ - 傳奇: 3 槽位
+ - 史詩: 4 槽位
 
-### Special Weapon
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 Slots
- - Rare: 2 Slots
- - Legendary: 2 Slots
- - Epic: 3 Slots
+### 特殊武器
+ - 廢棄: 0 到 1 槽位
+ - 普通: 1 到 2 槽位
+ - 高級: 2 槽位
+ - 稀有: 2 槽位
+ - 傳奇: 2 槽位
+ - 史詩: 3 槽位
 
-### Destructive Weapon
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 Slots
- - Rare: 2 Slots
- - Legendary: 2 Slots
- - Epic: 3 Slots
+### 破壞性武器
+ - 廢棄: 0 到 1 槽位
+ - 普通: 1 到 2 槽位
+ - 高級: 2 槽位
+ - 稀有: 2 槽位
+ - 傳奇: 2 槽位
+ - 史詩: 3 槽位
 
-### Helmet
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 Slots
- - Rare: 2 Slots
- - Legendary: 2 Slots
- - Epic: 3 Slots
+### 頭盔
+ - 廢棄: 0 到 1 槽位
+ - 普通: 1 到 2 槽位
+ - 高級: 2 槽位
+ - 稀有: 2 槽位
+ - 傳奇: 2 槽位
+ - 史詩: 3 槽位
 
-### Upper Armor
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 to 3 Slots
- - Rare: 3 to 4 Slots
- - Legendary: 4 Slots
- - Epic: 5 Slots
+### 上身裝甲
+ - 廢棄: 0 到 1 槽位
+ - 普通: 1 到 2 槽位
+ - 高級: 2 到 3 槽位
+ - 稀有: 3 到 4 槽位
+ - 傳奇: 4 槽位
+ - 史詩: 5 槽位
 
-### Lower Armor
- - Trash: 0 to 1 Slots
- - Common: 1 Slot
- - High Quality: 2 Slots
- - Rare: 3 Slots
- - Legendary: 3 Slots
- - Epic: 4 Slots
+### 下身裝甲
+ - 廢棄: 0 到 1 槽位
+ - 普通: 1 槽位
+ - 高級: 2 槽位
+ - 稀有: 3 槽位
+ - 傳奇: 3 槽位
+ - 史詩: 4 槽位
 
-### Boots
- - Trash: 0 to 1 Slots
- - Common: 1 Slot
- - High Quality: 2 Slots
- - Rare: 2 Slots
- - Legendary: 2 Slots
- - Epic: 3 Slots
+### 靴子
+ - 廢棄: 0 到 1 槽位
+ - 普通: 1 槽位
+ - 高級: 2 槽位
+ - 稀有: 2 槽位
+ - 傳奇: 2 槽位
+ - 史詩: 3 槽位
 
-## Other Items
-You can learn more about other items, such as consumables, in the Inventory and Resources tutorials.
+## 其他物品
+你可以在背包和資源教程中了解有關其他項目（例如消耗品）的更多信息。
