@@ -1,147 +1,148 @@
-## Profile
-In your Profile, there are several pieces of information and options at your disposal.
+## Профиль
+В профиле вам доступна различная информация и опции.
 
-Here is what you can see from your profile
- - Alias
- - Title and profile picture (if applicable)
- - Amount of BitCoins
- - Average gear level (Gear Score)
- - Current location
- - Online/Offline status (System Link)
- - Street Cred
- - Your current activity (Status)
- - Your level
- - Crafting ranks
- - Skill levels
- - Stats
- - Gang
- - Secret Keys
+Вот что вы можете увидеть в своем профиле:
+ - Никнейм
+ - Титул и изображение профиля (если имеется)
+ - Количество BitCoins
+ - Средний уровень снаряжения (Gear Score)
+ - Текущее местоположение
+ - Статус онлайн/оффлайн
+ - Уличная репутация (Street Cred)
+ - Ваша текущая активность
+ - Ваш уровень
+ - Уровни навыков
+ - Уровни умений
+ - Характеристики
+ - Банда
+ - Секретные ключи
 
-In the [STATS] section, you can see the 'Global Effects' of an activated Transmitter (or boost).
+В разделе [ХАРАКТЕРИСТИКИ] можно увидеть глобальные эффекты активированного передатчика (они же "усиления").
 
-Here you can also see how long the [MUTED] status will last.
+Здесь вы также можете увидеть, как долго будет действовать статус [MUTED].
 
-As the name suggests, someone with the 'MUTED' status will not be able to communication with others for a certain amount of time.
+Как следует из названия, игрок со статусом [MUTED] не сможет общаться с другими в течение определенного времени.
 
-The 'MUTED' status affects all kinds of chats: both Global, Gang and Mail (Private Messaging).
+Статус "MUTED" влияет на все виды чатов: глобальный, групповой и личные сообщения.
 
-The 'MUTED' status does not affect the ability to receive or send items to other players or the ability to play the game.
+Статус "MUTED" не влияет на возможность получать или отправлять предметы другим игрокам или на возможность играть в игру.
 
-The 'MUTED' status is applied by the moderators (mods) to a player who has broken the rules of the game or the ones related to the chat. 
+Статус "MUTED" применяется модераторами к игроку, который нарушил правила игры или правила, относящиеся к чату. 
 
-At the bottom of your profile, you will see a few additional options:
+В нижней части вашего профиля вы увидите несколько дополнительных кнопок:
 
-- [DONATE] - this will take you to the donation tiers (Cosmetics);
+- [DONATE] - это приведет вас в меню пожертвований;
 
-- [QUIT GANG] - this will leave your gang, if you are in one;
+- [QUIT GANG] - покинуть банду, если вы в ней состоите;
 
-- [LOGOUT] - this will log you out of the game.
+- [LOGOUT] - выход из аккаунта.
 
-On other players' profiles, you will encounter different options:
+В профилях других игроков вы найдете другие функции:
 
-- [SEND PRIVATE MESSAGE] - send a private message to the player through in-game Mail.
+- [ОТПРАВИТЬ ЛИЧНОЕ СООБЩЕНИЕ] - отправить личное сообщение игроку через внутриигровую почту.
 
-- [SEND GIFT] - send items (caches, healing items, ammo, etc.) from your inventory to the other player's inventory. You cannot send Secret Key Fragments to other players.
+- [ОТПРАВИТЬ ПОДАРОК] - отправить предметы (чертежи, лечащие предметы, патроны и т.д.) из своего инвентаря в инвентарь другого игрока. Вы не можете отправлять фрагменты секретных ключей другим игрокам.
 
-- [INVITE TO GANG] - invite the player to your gang, only if you are the Leader or you have the permission to invite others players into the gang.
+- [ПРИГЛАСИТЬ В БАНДУ] - пригласить игрока в свою банду, но только если вы являетесь лидером или имеете право приглашать других игроков.
 
-- [ADD TO FRIEND LIST] - add the player to your friend list, and if the player is not currenty online, they will also receive a notification about the fact that you added them as a friend.
+- [ДОБАВИТЬ В СПИСОК ДРУЗЕЙ] - добавить игрока в список друзей, и если игрок в данный момент не находится в сети, он также получит уведомление о том, что вы добавили его в друзья.
 
-- [SEND STREET CRED] - give 1 Street Cred point to the player.
+- [ПОВЫСИТЬ РЕПУТАЦИЮ] - дать игроку 1 очко Уличного Уважения.
 
-Street Cred is a point system similar to "Karma" found on Reddit. It's meant to indicate how trustful or helpful a player is.
+Уличное Уважение - это система баллов, аналогичная "Карме" на Reddit. Она призвана показать, насколько игрок заслуживает доверия или полезен.
 
-You're limited to sending only 1 Street Cred per day. You are not limited in how much Street Cred you receive from other players.
+Вы можете повышать репутацию только один раз в день. Вы не ограничены в том, сколько очков Уважения вы получаете от других игроков.
 
-## Types of levels
+## Разновидности уровней
 
-### Player Level
+### Уровень Игрока
 
-This is the level all your other skills will be capped at. You can increase your player level by fighting in dungeons, fighting enemies and using Experience Memories. For the highest efficiency, you want to keep all your levels about even with your player level. This is recommended.
+Этим уровнем ограничены все остальные навыки. Вы можете повысить свой уровень игрока, сражаясь в подземельях, сражаясь с врагами и используя Фрагменты Памяти. Для наибольшей эффективности стремитесь к тому, чтобы все ваши уровни были примерно равны уровню игрока. Это рекомендуется.
 
-### Printing Rank
+### Уровень Навыка Печати
 
 Printing rank determines the level of the equipment you will print at the 3D Molecular Printer. You can level your printing rank by printing equipment, Reverse Engineering Tech Scraps or working at a Printing Factory. The latter two options are AFK jobs at the Job Hub.
 
-### Medical Science
-Crafting medical items or initiating the relevant job at the Job Hub will give you medical crafting experience. You will need these levels to craft better healing items.
+### Уровень Навыка Создания Медикаментов
 
-### Ammo Crafting
+Создавая медицинские препараты или выполняя соответствующую работу в Центре занятости, вы получите опыт медицинского ремесла. Эти уровни понадобятся вам для создания более совершенных предметов для восстановления здоровья.
 
-Crafting ammo or initiating a job at the Job Hub will give you ammo crafting experience. It's useful to craft more ammo with less materials.
+### Уровень Навыка Создания Боеприпасов
 
-### Scavenge Skill
+Создавая боеприпасы или выполняя задание в Центре занятости, вы получите опыт создания боеприпасов. Это полезно для создания большего количества боеприпасов из меньшего количества материалов.
 
-To start scavenging, you must start at the lowest level area (Flori Station, Grandiose Parking Lot 1 - 4). As your scavenge skill improves, you can start to scavenge at higher levels. The level requirements are listed in those areas.
+### Уровень Навыка Мусорщика
 
-Higher scavenge levels will also grant you better rewards of (ammunition, military ammunition and medical) tech parts. You can only gain scavenge experience by scavenging.
+Чтобы начать собирать мусор, вы должны начать с территории самого низкого уровня (станция Флори, автостоянка 1-4). По мере совершенствования навыка сбора мусора вы сможете начать собирать мусор в местах более высокго уровня. Требования к уровню указаны в этих зонах.
 
-### Mining Skill
+Более высокие уровни также дадут вам большее количество различных материалов. Вы можете получить опыт за сбор мусора, только занимаясь сбором мусора.
 
-Mining can be done only with 'Hash Processors' that drop from both normal and challenge dungeons.
+### Уровень Навыка Майнинга
 
-Higher mining levels can earn you more BTC per 15 minutes of AFK mining. You can get mining experience by completing mining jobs at the Job Hub. With higher mining levels, you can craft AI cores more efficiently as well.
+Майнить можно только с помощью "хэш-процессоров", которые выпадают как в обычных, так и в сложных подземельях.
 
-## Stats
+Более высокие уровни майнинга позволяют заработать больше BTC за 15 минут AFK-майнинга. Опыт майнинга можно получить, выполняя задания по майнингу в Центре заданий. С более высокими уровнями добычи вы также сможете более эффективно создавать ядра ИИ.
 
-Every player has 20 different Stats. 
+## Характеристики
 
-### Max Shield
-The maximum shield that the player has. Upon receiving an attack, the shield is hit first before deducting from the player's health.
+Каждый игрок имеет 20 различных характеристик. 
+
+### Максимум Щита
+Максимальное количество щита, которое есть у игрока. При получении урона щит расходуется первым, прежде чем здоровья игрока.
  
-### Max Health
-The maximum health that the player has. Determined by player equipment and equipment upgrades.  
+### Максимум Здоровья
+Максимальное количество здоровья игрока. Определяется экипировкой игрока и улучшениями экипировки.  
   
-### Armor
-The armor that the player has. It reduces damage taken by that specified amount.  
+### Броня
+Броня, которую имеет игрок. Она уменьшает получаемый урон на указанное количество.  
   
-### Health Regen
-Health regenerated after a battle in a dungeon. 
-   
-### Damage (dmg)
-The total damage the player deals. Your damage is calculated by adding up the damage modifiers given by equipment and equipment upgrades.  
-  
-### Crit Chance
-The chance of the player critically striking when attacking. The max crit chance is 70%.  
-  
-### Crit Damage
-The multiplier to your damage when critically striking. The max crit damage multiplier is 200%.  
-  
-### Escape
-The chance of escaping from an enemy encounter. The max escape chance is 80%.  
-  
-### Stun Chance
-The chance of stunning an enemy. If an enemy is stunned, they cannot perform a response action during that turn. The max stun chance is 20%.  
-  
-### Evade
-The chance of evading an enemy attack, taking no damage. The max evade chance is 40%.  
-  
-### Bargain
-The percentage the price is discounted or increased when buying or selling from the mart. The max bargain percentage is 40%.  
-  
-### Pocket
-The amount of additional inventory space. The max additional pocket space is 32.  
-  
-### Damage Multiplier
-A percent multiplier to attacks. The max multiplier is 40%.  
-  
-### Defence Multiplier
-A percent multiplier to your armor. The max multiplier is 40%.  
-  
-### Stun Evade
-The chance of evading an enemy stun. The max chance is 40%.  
-  
-### Shield Multiplier
-A percent multiplier to your shield. The max multiplier is 40%.  
+### Регенерация
+Количество здоровья, которое восстанавливается после битвы в подземелье. 
 
-### Healing Multiplier
-A percent multiplier to heals received from healing items. The max multiplier is 100%.
+### Урон
+Общий урон, наносимый игроком. Ваш урон рассчитывается путем сложения модификаторов урона, которые дают снаряжение и улучшения снаряжения.  
+  
+### Шанс Крита
+Шанс нанесения игроком критического удара при атаке. Максимальный шанс критического удара составляет 70%.  
+  
+### Урон Крита
+Множитель урона при нанесении критического удара. Максимальный множитель критического урона составляет 200%.  
+  
+### Побег
+Шанс сбежать из боевого столкновения. Максимальный шанс побега составляет 80%.  
+  
+### Шанс Оглушения
+Шанс оглушить противника. Если враг оглушен, он не может выполнить ответное действие в течение этого хода. Максимальный шанс оглушения составляет 20%.  
+  
+### Уклонение
+Шанс уклониться от атаки противника, не получив при этом урона. Максимальный шанс уклонения составляет 40%.  
+  
+### Торговля
+Процент снижения или повышения цены при покупке или продаже в магазине соответственно. Максимальный процент скидки составляет 40%.  
+  
+### Карманы
+Количество дополнительных слотов в инвентаре. Максимальное количество "карманов" - 32.  
+  
+### Множитель Урона
+Процентный множитель к атакам. Максимальный множитель составляет 40%.  
+  
+### Множитель Защиты
+Процентный множитель к вашей броне. Максимальный множитель составляет 40%.  
+  
+### Уклонение от оглушения
+Шанс уклониться от оглушения противника. Максимальный шанс составляет 40%.  
+  
+### Множитель щита
+Процентный множитель к вашему щиту. Максимальный множитель - 40%.  
 
-### Time Reduction
-A percent multiplier for how much time is reduced during AFK activities. The max time reduction is 80%.
+### Множитель исцеления
+Процентный множитель к исцелению, получаемому от лечебных предметов. Максимальный множитель - 100%.
 
-### Experience Multiplier
-A percent multiplier showing how much EXP you can additionally gain. The max multiplier is 100%.
+### Сокращение времени
+Процентный множитель, определяющий, насколько сокращается время при выполнении действий AFK. Максимальное сокращение времени составляет 80%.
 
-### BitCoin (BTC) Multiplier
-A percent multiplier showing how much BitCoin you can additionally gain. The max multiplier is 100%.
+### Множитель опыта
+Процентный множитель, показывающий, сколько опыта вы можете получить дополнительно. Максимальный множитель - 100%.
+
+### Множитель BitCoin (BTC)
+Процентный множитель, показывающий, сколько BitCoin вы можете получить дополнительно. Максимальный множитель - 100%.
