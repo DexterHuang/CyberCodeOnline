@@ -106,9 +106,11 @@ LieRenThePope
 [alfaice](https://github.com/alfaice)
 Alice
 [AndyCandy](https://github.com/andycandy-de)
+Brownin89
 [Deckeeper](https://github.com/deckeeper)
 [DexterHuang](https://github.com/DexterHuang)
 Dragonmaster84
+ElectricSoldier323
 [Hally](https://twitter.com/g_hally1996)
 HeyaItsLuna
 JashinL
