@@ -1,9 +1,9 @@
+## 如何邀請他人？
 
-## How to refer someone?
-Simply give the person your in game name, and when they create a new character, they simply need to select you as referrer at the character creation screen (where you name your character).
+只需給他你的角色名稱，當他們建立角色時，他們只需在角色建立畫面（為角色命名的畫面）輸入你作為推薦人即可。
 
-##  Referral Benefits
-1. Whenever the player you referred purchased unit, you will also receive 10% of it, for example when the player you referred purchased 2000 Unit, you would receieve 200 Unit automatically.
-3. When ever a player you referred reached level `20`, you will receieve some rewards: 
-	- 1 `Fanny Pack`
-	- 1`Locked Rare Container`
+##  推薦人福利
+1. 每當你推薦的玩家購買單位時，你也將獲得10%的單位，例如當你推薦的玩家購買2000單位時，你將自動獲得200單位。
+3. 當你推薦的玩家達到等級 `20` 時，你將獲得一些獎勵：
+	- 1 個`腰包`
+	- 1 個`稀有已加密容器`
