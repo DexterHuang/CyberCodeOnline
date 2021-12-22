@@ -23,9 +23,10 @@
 * unfriendly, disrespectful to others opinion / offensive or pssive agressive messages (Expample, racist, sexist comments)
 * non-family-friendly chat
 * Spam / Troll 
-* Advertise / Mention of other game 
+* Advertise / Mention of other game or anything else
 * Impersonate others  
 * Place links in chat
+* Posting ads about your market sales more then once in 15 minutes
 
 #### Allowed(as long as you don't breach the rules above):
 * Emoji😃 / Kaomoji ~ヾ(＾∇＾) / 𝕹𝖔𝖓𝖊-𝖘𝖙𝖆𝖓𝖉𝖆𝖗𝖉 𝕱𝖔𝖓𝖙𝖘 (Must be easily readble and does not create chaos)

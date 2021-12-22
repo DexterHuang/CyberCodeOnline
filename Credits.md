@@ -106,14 +106,17 @@ LieRenThePope
 [alfaice](https://github.com/alfaice)
 Alice
 [AndyCandy](https://github.com/andycandy-de)
+Brownin89
 [Deckeeper](https://github.com/deckeeper)
 [DexterHuang](https://github.com/DexterHuang)
 Dragonmaster84
+ElectricSoldier323
 [Hally](https://twitter.com/g_hally1996)
 HeyaItsLuna
 JashinL
 [JEricaM](https://github.com/JEricaM)
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)
+LitFill
 mika
 MontyPython
 Negative
