@@ -1,2 +1,10 @@
-## Quests
-Quests can be found in the Quest tab at the bottom of the screen. Here is where you are given specific tasks that will earn you extra experience points and BitCoins. There are a variety of tasks available, such as printing equipment, killing enemies, and gaining experience or BitCoins. Once you have completed a quest, click on it to claim the rewards. In most cases, you will also be given a new quest. You can also acquire quests inside dungeons by speaking to the quest giver, which is marked as a '?'.  
+## 任務
+任務可以在螢幕下方的任務選項找到。
+
+在這裡，你將獲得特定任務，完成這些任務將獲得額外的經驗值和比特幣。
+
+有各種各樣的任務可用，例如列印裝備、擊敗敵人、獲得固定的經驗或比特幣。
+
+完成任務後，點擊它即可領取獎勵。在大多數情況下，你會收到下一個新任務。
+
+你還可以通過與地下城中的「？」標記互動，來得到額外的一次任務。
