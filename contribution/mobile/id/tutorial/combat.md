@@ -1,61 +1,59 @@
-## Combat
+## Tempur
+Di setiap lokasi, Anda akan melihat daftar Musuh Terdekat dan tiga Dungeon yang dapat Anda masuki. Lokasi dipisahkan oleh grup level. Untuk membuka kunci area baru, Anda harus mengumpulkan tiga fragmen kunci dari ruang bawah tanah. Anda kemudian dapat memaksa kunci baru dengan fragmen kunci Anda di Terminal.
 
-In every location, you will see a list of Nearby Enemies and three Dungeons which you can enter. Locations are separated by level groups.  To unlock new areas, you'll have to gather three key fragments from the dungeons. You can then brute force a new key with your key fragments at the Terminal.
-  
-To fight Nearby Enemies, select any of the listed enemies to enter combat.  You are unable to heal while fighting Nearby Enemies, but if you are about to die, click Escape in the top left. While inside a dungeon, clicking on the enemy, represented by an alien logo will draw you into combat with it.  
+Untuk melawan Musuh Terdekat, pilih salah satu musuh yang terdaftar untuk memasuki pertempuran. Anda tidak dapat menyembuhkan saat melawan Musuh Terdekat, tetapi jika Anda akan mati, klik Escape di kiri atas. Saat berada di dalam penjara bawah tanah, mengklik musuh, yang diwakili oleh logo alien akan menarik Anda ke dalam pertempuran dengannya.
 
-## Primary Attack
-Attack the enemy with your equipped primary weapon. This weapon does not use ammo.
+## Serangan Utama
+Serang musuh dengan senjata utama Anda yang dilengkapi. Senjata ini tidak menggunakan amunisi.
 
-## Special Attack
-Attack the enemy with your equipped special weapon. Deal 120% damage to shields. This weapon consumes one Energy Cell per shot.
+## Serangan Spesial
+Serang musuh dengan senjata khusus Anda yang dilengkapi. Menangani 120% kerusakan pada perisai. Senjata ini mengkonsumsi satu Sel Energi per tembakan.
 
-## Destructive Attack
-Attack the enemy with your equipped destructive weapon. Deal 50% damage to shields. This weapon consumes one Antimatter charge per shot.
+## Serangan Destruktif
+Serang musuh dengan senjata penghancur yang Anda miliki. Menangani 50% kerusakan pada perisai. Senjata ini menghabiskan satu muatan Antimateri per tembakan.
 
-## Use Item
-You have 3 Use Item slots.  You can bind medical supplies to these slots and use them inside of Dungeons.  You can bind Experience Memories, but this is not necessary since you can use them directly from your inventory to gain Player Experience.
+## Gunakan Barang
+Anda memiliki 3 slot Gunakan Item. Anda dapat mengikat persediaan medis ke slot ini dan menggunakannya di dalam Dungeon. Anda dapat mengikat Kenangan Pengalaman, tetapi ini tidak perlu karena Anda dapat menggunakannya langsung dari inventaris Anda untuk mendapatkan Pengalaman Pemain.
 
-## Escape
-You can attempt to escape from combat by clicking Escape in the top left. The success rate for escaping combat outside a dungeon is always 100%. However if you are fighting inside a dungeon and try to escape, the chance will be based on your escape stat which is taken from your armour and upgrade stats. If you fail to escape, you will then be attacked by the enemy without dealing any damage.  
-  
-The combat screen will show you how much health and shield you and your opponent both have, as well as the amount of ammo you have left for each of your weapons and the approximate damage they can do.  
+## Melarikan diri
+Anda dapat mencoba melarikan diri dari pertempuran dengan mengklik Melarikan diri di kiri atas. Tingkat keberhasilan untuk melarikan diri dari pertempuran di luar Rubanah selalu 100%. Namun jika Anda bertarung di dalam Rubanah dan mencoba melarikan diri, peluangnya akan didasarkan pada statistik pelarian Anda yang diambil dari armor Anda dan statistik peningkatan. Jika Anda gagal melarikan diri, Anda akan diserang oleh musuh tanpa memberikan kerusakan apa pun.
 
-## Death
+Layar pertempuran akan menunjukkan berapa banyak darah dan perisai yang Anda dan lawan Anda miliki, serta jumlah amunisi yang tersisa untuk masing-masing senjata Anda dan perkiraan kerusakan yang dapat mereka lakukan.
 
-If you die, you won't lose any of your items. However you will lose 10% of your total BTC and Player XP. This means you might lose a level if you die too much.
+## Mati
+
+Jika Anda mati, Anda tidak akan kehilangan barang-barang Anda. Namun Anda akan kehilangan 10% dari total BTC dan Player XP Anda. Ini berarti Anda mungkin kehilangan level jika Anda mati terlalu banyak.
+
+## Pengubah Musuh
   
-## Enemy Modifiers
+Musuh dapat memiliki pengubah, yang ditunjukkan oleh kata sifat sebelum nama musuh mis. "**Mad** Serial Killer", modifikator ini adalah sebagai berikut,
+
+ - Mad - Memberi musuh +10% kerusakan
+ - Angry - Memberi musuh +10% kerusakan
+ - Tough - Memberi musuh +20% pertahanan
+ - Agile - Memberi musuh +20% stun evade dan perisai
+ - Shielded -  Memberi musuh perisai besar
   
-Enemies can have modifiers, which are indicated by an adjective before the enemies name e.g. "**Mad** Serial Killer", these modifiers are as follows,
+## Pengubah Pemain
   
-  
- - Mad - Gives the enemy +10% damage  
- - Angry - Gives the enemy +10% damage  
- - Tough - Gives the enemy +20% defence  
- - Agile - Gives the enemy +20% stun evade and a shield  
- - Shielded - Gives the enemy a large shield  
-  
-## Player Modifiers
-  
-The player can also pick up modifiers by interacting with the quest giver in the dungeon, which is represented by a '?', these modifiers are as follows:  
-  
- - Overcharged I - Gives the player +5% damage  
- - Overcharged II - Gives the player +10% damage  
- - Overcharged III - Gives the player +15% damage  
- - Overcharged IV - Gives the player +20% damage  
- - Overcharged V - Gives the player +25% damage  
-  
-  
- - Reinforced I - Gives the player +5% defence  
- - Reinforced II - Gives the player +10% defence  
- - Reinforced III - Gives the player +15% defence  
- - Reinforced IV - Gives the player +20% defence  
- - Reinforced V - Gives the player +25% defence  
+Pemain juga dapat mengambil modifier dengan cara berinteraksi dengan pemberi quest di dungeon yang dilambangkan dengan tanda '?', modifier tersebut adalah sebagai berikut:
+
+ - Overcharged I - Memberi pemain +5% kerusakan
+ - Overcharged II - Memberi pemain +10% kerusakan  
+ - Overcharged III - Memberi pemain +15% kerusakan  
+ - Overcharged IV - Memberi pemain +20% kerusakan  
+ - Overcharged V - Memberi pemain +25% kerusakan  
   
   
- - Shield Enhance I - Gives the player +5% shield multiplier  
- - Shield Enhance II - Gives the player +10% shield multiplier  
- - Shield Enhance III - Gives the player +15% shield multiplier  
- - Shield Enhance IV - Gives the player +20% shield multiplier  
- - Shield Enhance V - Gives the player +25% shield multiplier  
+ - Reinforced I - Memberi pemain +5% pertahanan  
+ - Reinforced II - Memberi pemain +10% pertahanan  
+ - Reinforced III - Memberi pemain +15% pertahanan  
+ - Reinforced IV - Memberi pemain +20% pertahanan  
+ - Reinforced V - Memberi pemain +25% pertahanan 
+  
+  
+ - Shield Enhance I - Memberi pemain +5% pengganda perisai  
+ - Shield Enhance II - Memberi pemain +10% pengganda perisai  
+ - Shield Enhance III - Memberi pemain +15% pengganda perisai  
+ - Shield Enhance IV - Memberi pemain +20% pengganda perisai  
+ - Shield Enhance V - Memberi pemain +25% pengganda perisai  
