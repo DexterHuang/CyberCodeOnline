@@ -1,110 +1,109 @@
-## Equipment
-You can equip the gear that you own as long as the gear level you wish to equip is not higher than your current player level.  
-All equipment will be one of the following rarities:
+## Peralatan
+Anda dapat melengkapi perlengkapan yang Anda miliki selama tingkat roda gigi yang ingin Anda lengkapi tidak lebih tinggi dari tingkat pemain Anda saat ini.
+Semua peralatan akan menjadi salah satu dari kelangkaan berikut:
 
-  - Trash (Grey)
-  - Common (White)
-  - High Quality (Green)
-  - Rare (Yellow)
-  - Legendary (Fuchsia, Deep Pink)
-  - Epic (Dark Red)
+  - Sampah (Abu-Abu)
+  - Umum (Putih)
+  - Kualitas Tinggi (Hijau)
+  - Langka (Kuning)
+  - Legendaris (Fuchsia,  Merah Muda Tua)
+  - Epik (Merah Gelap)
 
-Higher rarities will have better stats and more module upgrade slots, depending on the piece of equipment.  
+Kelangkaan yang lebih tinggi akan memiliki statistik yang lebih baik dan slot peningkatan modul yang lebih banyak, tergantung pada peralatannya.
 
-🔹 As a newbie, it's important to craft and equip trash quality gear since it's the cheapest one to print.  
-🔹 Starting from level 5 up to level 10, you can start printing common quality caches.  
-🔹 From level 10 to 20, you will have enough BTC to start using High Quality gear.  
-🔹 From level 20 to 40 - 50, you can print and wear Rare Quality gear.  
-🔹 And from level 40 - 50, you can print and wear Legendary Quality gear.  
-🔹 From level 90 - 100+, if you ever have the chance to get or to buy one or more, you can print and wear Epic Quality gear, which is the highest and rarest type of gear in the game.  
+🔹 Sebagai pemula, penting untuk membuat dan melengkapi perlengkapan berkualitas sampah karena ini adalah yang termurah untuk dicetak.
+🔹 Mulai dari tingkat 5 hingga tingkat 10, Anda dapat mulai mencetak cache kualitas umum.
+🔹 Dari tingkat 10 - 20, Anda akan memiliki cukup BTC untuk mulai menggunakan peralatan Kualitas Tinggi.
+🔹 Dari tingkat 20 - 40 - 50, Anda dapat mencetak dan memakai perlengkapan Kualitas Langka.
+🔹 Dari tingkat 40 - 50, Anda dapat mencetak dan memakai perlengkapan Kualitas Lengendaris.  
+🔹 Dari tingakt 90 - 100+, jika Anda pernah memiliki kesempatan untuk mendapatkan atau membeli satu atau lebih, Anda dapat mencetak dan memakai perlengkapan Kualitas Epik, yang merupakan jenis perlengkapan tertinggi dan paling murni dalam permainan.  
 
-These are not rules on how you should manage different types of quality equipment but they are rather recommendations on what type of equipment you should have at different levels.
+Ini bukan aturan tentang bagaimana Anda harus mengelola berbagai jenis peralatan berkualitas tetapi ini lebih merupakan rekomendasi tentang jenis peralatan apa yang harus Anda miliki di tingkat yang berbeda.
 
+## Menemukan Peralatan
 
-## Finding Equipment
+Anda dapat menemukan peralatan dan cache peralatan di rubanah atau saat melawan musuh individu (perkelahian jalanan).
+  
+Setelah Anda mencapai tingkat 5, Anda akan dapat menggunakan Pasar Pemain untuk membeli berbagai jenis peralatan, bahan kerajinan, dan barang lainnya.
 
-You can find equipment and equipment caches in the dungeons or when fighting individual enemies (street fights).  
+## Peralatan Percetakan
 
-Once you are level 5, you will be able to use the Player Market to purchase different types of equipment, crafting materials and other items.
+Cache dapat digunakan untuk mencetak peralatan pada Peringkat Pencetakan Anda saat ini di Printer 3D Molekuler di Pusat Kota.
 
-## Printing Equipment
+Tingkat dari perlengkapan yang dicetak akan sama dengan Peringkat Pencetakan Anda, jadi pastikan untuk menjaga Peringkat Pencetakan Anda pada tingkat yang sama dengan tingkat pemain Anda.
 
-Caches can be used to print equipment at your current Printing Rank at the Molecular 3D Printer in the City Center.  
+## Modul Upgrade
 
-The level of the printed gear will be the same as your Printing Rank, so make sure to keep your Printing Rank at the same level as your player level.  
+Anda dapat menginstal modul pemutakhiran di peralatan Anda. Untuk melengkapi modul, tingkatnya tidak boleh lebih tinggi dari tingkat peralatan.  
+Misalnya: Anda tidak dapat memasang modul peningkatan tingkat 20 di sarung tangan tingkat 5.  
 
-## Upgrade Modules
+Modul peningkatan dapat dihapus kapan saja.  
+Modul pemutakhiran yang dihapus akan memakan tempat di inventaris Anda, jadi perhatikan itu.  
+Pastikan Anda memiliki cukup ruang di inventaris Anda sebelum menghapus peningkatan apa pun.  
 
-You can install upgrade modules in your equipment. In order to equip the module, it's level cannot be higher than the equipment's level.  
-E.g.: you cannot install a level 20 upgrade module in level 5 gloves.  
+Jika inventaris Anda semakin berantakan dengan modul pemutakhiran yang tidak dapat Anda singkirkan, ingatlah bahwa Anda dapat menyimpan modul yang tidak digunakan di peralatan yang tidak digunakan di inventaris Anda.  
+Aturan tingkat masih berlaku, dan ingat untuk menghapusnya sebelum membuang peralatan.
 
-Upgrade modules can be removed at any time.  
-Removed upgrade modules will take space in your inventory so pay attention to that.  
-Make sure you have enough space in your inventory before removing any upgrades.  
+Memotong peralatan yang memiliki modul pemutakhiran terpasang di dalamnya, juga akan menghapus modul tersebut!
+Anda tidak akan memulihkannya!
 
-If your inventory is getting cluttered with upgrade modules you can't bear to get rid of, remember you can store unused modules in any unused equipment in your inventory. 
-Level rules still apply, and remember to remove them before getting rid of the equipment. 
+## Tingkat Slot
 
-Scrapping a piece of equipment that have an upgrade module installed in it, will also delete the said module!  
-You will not recover it!  
+### Senjata utama
+ - Sampah: 0 to 1 Slots
+ - Umum: 1 to 2 Slots
+ - Kualitas Tinggi: 2 to 3 Slots
+ - Langka: 3 Slots
+ - Legendaris: 3 Slots
+ - Epik: 4 Slots
 
-## Upgrade Slots
+### Senjata Spesial
+ - Sampah: 0 to 1 Slots
+ - Umum: 1 to 2 Slots
+ - Kualutas Tinggi: 2 Slots
+ - Langka: 2 Slots
+ - Legendaris: 2 Slots
+ - Epik: 3 Slots
 
-### Primary Weapon
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 to 3 Slots
- - Rare: 3 Slots
- - Legendary: 3 Slots
- - Epic: 4 Slots
+### Senjata Penghancur
+ - Sampah: 0 to 1 Slots
+ - Umum: 1 to 2 Slots
+ - Kualitas Tinggi: 2 Slots
+ - Langka: 2 Slots
+ - Legendaris: 2 Slots
+ - Epik: 3 Slots
 
-### Special Weapon
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 Slots
- - Rare: 2 Slots
- - Legendary: 2 Slots
- - Epic: 3 Slots
+### Helm
+ - Sampah: 0 to 1 Slots
+ - Umum: 1 to 2 Slots
+ - Kualitas Tinggi: 2 Slots
+ - Langka: 2 Slots
+ - Legendaris: 2 Slots
+ - Epik: 3 Slots
 
-### Destructive Weapon
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 Slots
- - Rare: 2 Slots
- - Legendary: 2 Slots
- - Epic: 3 Slots
+### Armor Atas
+ - Sampah: 0 to 1 Slots
+ - Umum: 1 to 2 Slots
+ - Kualitas Tinggi: 2 to 3 Slots
+ - Langka: 3 to 4 Slots
+ - Legendaris: 4 Slots
+ - Epik: 5 Slots
 
-### Helmet
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 Slots
- - Rare: 2 Slots
- - Legendary: 2 Slots
- - Epic: 3 Slots
+### Armor Bawah
+ - Sampah: 0 to 1 Slots
+ - Umum: 1 Slot
+ - Kualitas Tinggi: 2 Slots
+ - Langka: 3 Slots
+ - Legendaris: 3 Slots
+ - Epik: 4 Slots
 
-### Upper Armor
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 to 3 Slots
- - Rare: 3 to 4 Slots
- - Legendary: 4 Slots
- - Epic: 5 Slots
+### Sepatu
+ - Sampah: 0 to 1 Slots
+ - Umum: 1 Slot
+ - Kualitas Tinggi: 2 Slots
+ - Langka: 2 Slots
+ - Legendaris: 2 Slots
+ - Epik: 3 Slots
 
-### Lower Armor
- - Trash: 0 to 1 Slots
- - Common: 1 Slot
- - High Quality: 2 Slots
- - Rare: 3 Slots
- - Legendary: 3 Slots
- - Epic: 4 Slots
-
-### Boots
- - Trash: 0 to 1 Slots
- - Common: 1 Slot
- - High Quality: 2 Slots
- - Rare: 2 Slots
- - Legendary: 2 Slots
- - Epic: 3 Slots
-
-## Other Items
-You can learn more about other items, such as consumables, in the Inventory and Resources tutorials.
+## Barang Lain
+Anda dapat mempelajari lebih lanjut tentang barang lain, seperti bahan habis pakai, di tutorial Inventaris dan Sumber Daya.
