@@ -1,34 +1,36 @@
 
 
-#### Here at CCO, we hope to maintain a friendly community. In order for everyone to have fun and enjoy the game, please familiarise yourself with the rules. 
+#### Di sini, di CCO, kami berharap dapat mempertahankan komunitas yang ramah. Agar semua orang bersenang-senang dan menikmati permainan, harap biasakan diri Anda dengan peraturan yang ada disini.
 
-> If you feel someone is violating one of the rules and no moderators are around, take a screenshot and report it via direct messaging the moderators in the [Discord server](https://discord.gg/JREx8xz).
-### Important Guideline
-* It is strongly recommended to play with only one account per person, as our system will flag alt accounts, preventing you from sending items between your accounts. *this can happen even if you only have one alt* (We will not help you move your items or unlock the account if the system flags you.)
-* Never ever use in-game chat (including email) to send any kind of sensitive/personal information. Game chat is NOT encrypted and NOT secure. CCO does not bare any responsibility to protect your information you write in chat. Bear in mind that moderators have access to the chat log for moderation purposes. 
+> Jika Anda merasa seseorang melanggar salah satu aturan dan tidak ada moderator, ambil tangkapan layar dan laporkan melalui pesan langsung ke moderator di [server Perselisihan](https://discord.gg/JREx8xz).
 
-### Game Rules
-* The use of bots and scripts are prohibited
-* No tool assistance
-* No excessive alts.
-* Don't exploit bugs, report them instead
-* Keep usernames family friendly
-* Advertising (global chat/discord/bio/gang motto) of Selling/Buying account/items for IRL money (both directly or indirectly) is not allowed
+### Pedoman Penting
+* Sangat disarankan untuk bermain hanya dengan satu akun per orang, karena sistem kami akan menandai akun alternatif, mencegah Anda mengirim item antar akun Anda. *ini dapat terjadi bahkan jika Anda hanya memiliki satu alt* (Kami tidak akan membantu Anda memindahkan item atau membuka kunci akun jika sistem menandai Anda.)
+* Jangan pernah menggunakan obrolan dalam game (termasuk email) untuk mengirim segala jenis informasi sensitif/pribadi. Obrolan game TIDAK dienkripsi dan TIDAK aman. CCO tidak bertanggung jawab untuk melindungi informasi Anda yang Anda tulis dalam obrolan. Ingatlah bahwa moderator memiliki akses ke log obrolan untuk tujuan moderasi.
+
+
+### Aturan Permainan
+* Dilarang menggunakan bot dan skrip
+* Tidak ada bantuan alat
+* Tidak ada alt yang berlebihan.
+* Jangan mengeksploitasi bug, laporkan saja
+* Gunakan nama pengguna yang tetap ramah keluarga
+* Iklan (global chat/discord/bio/geng motto) Akun Jual/Beli/item untuk uang IRL (baik langsung maupun tidak langsung) tidak diperbolehkan
 * Tagging people for fun or with no real purpose is not allowed. This is to prevent people from creating accounts just so they can tag them (doing so will also breach the "No exceesive alts" rule) 
-* Any illegal activities will get you instantly banned -- including but not limited to -- harrassing underage person you met in game
+* membuat Anda langsung dilarang -- termasuk namun tidak terbatas pada -- melecehkan orang di bawah umur yang Anda temui dalam game
 
-### Chat Rules
-**All rules are listed here, there is NO "unwritten rules", but be respectful and stop if other players don't like what you are sending in chat**
-#### Not Allowed: 
-* unfriendly, disrespectful to others opinion / offensive or pssive agressive messages (Expample, racist, sexist comments)
-* non-family-friendly chat
+### Aturan Obrolan
+**Semua aturan tercantum di sini, TIDAK ADA "aturan tidak tertulis", tetapi hormatilah dan hentikan jika pemain lain tidak menyukai apa yang Anda kirimkan dalam obrolan**
+#### Tidak Diizinkan:  
+* tidak ramah, tidak menghargai pendapat orang lain / menyinggung atau pesan agresif pasif (Contoh, komentar rasis, seksis) 
+* obrolan yang tidak ramah keluarga 
 * Spam / Troll 
-* Advertise / Mention of other game 
-* Impersonate others  
-* Place links in chat
+* Iklankan / Sebutkan game lain 
+* Meniru orang lain 
+* Tempatkan tautan di obrolan 
 
-#### Allowed(as long as you don't breach the rules above):
-* Emoji😃 / Kaomoji ~ヾ(＾∇＾) / 𝕹𝖔𝖓𝖊-𝖘𝖙𝖆𝖓𝖉𝖆𝖗𝖉 𝕱𝖔𝖓𝖙𝖘 (Must be easily readble and does not create chaos)
+#### Diizinkan (selama Anda tidak melanggar aturan di atas):
+* Emoji😃 / Kaomoji ~ヾ(＾∇＾) / -𝖘𝖙𝖆𝖓𝖉𝖆𝖗𝖉 (Harus mudah dibaca dan tidak menimbulkan kekacauan) 
 * Roleplay
-* Discussing Politic, Religion, or COVID
-* Using any language in any chat channel
+* Membahas Politik, Agama, atau COVID
+* Menggunakan bahasa apa pun di saluran obrolan apa pun 
