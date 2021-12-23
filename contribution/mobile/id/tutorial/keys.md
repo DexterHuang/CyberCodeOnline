@@ -1,10 +1,10 @@
-## Secret Keys
-Leveling areas of the game are called 'Stations'. Each Station has 3 mini-areas, each with mobs within a certain level range and normal and challenge dungeons. Every dungeon has a boss room, with either lots of tough mobs which are higher level or a super boss which has a lot of hitpoints, potentially defeating players in one hit.
+## Kunci Rahasia
+Area tingkatan game disebut 'Stasiun'. Setiap Stasiun memiliki 3 mini-area, masing-masing dengan monster dalam kisaran tingkat tertentu dan rubanah normal dan tantangan. Setiap rubanah memiliki ruang pemimpin, dengan banyak monster tangguh yang tingkatnya lebih tinggi atau pemimpin super yang memiliki banyak hitpoint, berpotensi mengalahkan pemain dalam satu pukulan.
+  
+Setelah mengalahkan semua musuh di ruang bos dari rubanah tantangan, Anda akan menemukan fragmen kunci yang diwakili oleh ikon jendela di dalam ruangan. Setelah Anda memiliki semua 3 fragmen dari satu stasiun, Anda dapat membuat Kunci Rahasia di Terminal, yang dapat ditemukan di Pusat Kota Shangri-La (area HUB utama permainan). Setiap Kunci Rahasia akan memberi Anda akses ke Stasiun baru dan daftar baru musuh dan rubanah tingkat tinggi untuk dijelajahi.
 
-After defeating all of the enemies in the boss room of a challenge dungeon, you will find a key fragment which is represented by a window icon in the room. Once you have all 3 fragments from one station, you can craft a Secret Key at the Terminal, which is found at the Shangri-La City Center (main HUB area of the game). Each Secret Key will grant you access to a new Station and a new list of higher-level enemies and dungeons to explore.  
+Fragmen kunci tambahan dapat dibuang (saat berinteraksi dengan ikon di ruang bawah tanah) atau dihancurkan (dari inventaris Anda).
 
-Additional key fragments can either be discarded (when interacting with the icon in the dungeon) or destroyed (from your inventory).
+Fragmen kunci tidak dapat dikirim ke orang lain atau dijual di Pasar Pemain.
 
-Key fragments cannot be sent to other people nor be sold on the Player Market.
-
-This is the main progression mechanic of the game and dungeons will continue to increase in level and difficulty with you. However, if your player level is 10 levels below the dungeon's recommended level, you won't be able to join it. If you are too many levels above a mob, you also won't receive any loot rewards on defeating the enemy. If you are 12 levels above the recommended dungeon level, you won't be able to interact with anything, including doors, quest givers and loot.
+Ini adalah mekanisme perkembangan utama permainan dan ruang bawah tanah akan terus meningkat dalam level dan kesulitan dengan Anda. Namun, jika level pemain Anda 10 level di bawah level dungeon yang direkomendasikan, Anda tidak akan bisa bergabung. Jika Anda terlalu banyak level di atas monster, Anda juga tidak akan menerima hadiah loot saat mengalahkan musuh. Jika Anda 12 level di atas level dungeon yang direkomendasikan, Anda tidak akan dapat berinteraksi dengan apa pun, termasuk pintu, pemberi pencarian, dan jarahan.
