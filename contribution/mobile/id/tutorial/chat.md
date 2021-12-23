@@ -1,12 +1,12 @@
 ## Chat
 
-There are 3 types of chat rooms in CyberCode Online currently: 
-- Global (or General Chat) - Where everyone can chat freely and interact with each other.
-- Gang - Only the members of your gang can chat and see the messages sent in that channel. You can tag other people in the gang chat as well.
-- Private Messages (Mail) - Where you can privately chat with people. You will also receive notifications as in a form of Mail from the System after you sent items to someone or vice versa, when someone bought your listings on the Player Market or when you receive a Street Cred from someone.
+Ada 3 jenis chat room di dalam CyberCode Online saat ini:
+- Global (atau Obrolan Umum) - Di mana setiap orang dapat mengobrol dengan bebas dan berinteraksi satu sama lain.
+- Geng - Hanya anggota geng Anda yang dapat mengobrol dan melihat pesan yang dikirim di saluran itu. Anda dapat menandai orang lain di obrolan geng juga.
+- Pesan Pribadi (Mail) - Di mana Anda dapat mengobrol secara pribadi dengan orang-orang. Anda juga akan menerima pemberitahuan dalam bentuk Surat dari Sistem setelah Anda mengirim barang ke seseorang atau sebaliknya, ketika seseorang membeli daftar Anda di Pasar Pemain atau ketika Anda menerima Kredi Jalan dari seseorang.
 
-In order to mention (or tag) someone in the Global chat, you can use '@' and the name of the user. As you type their name, a list will appear and you can select the desired name from that list.
+Untuk menyebutkan (atau menandai) seseorang di obrolan Global, Anda dapat menggunakan '@' dan nama pengguna. Saat Anda mengetik nama mereka, daftar akan muncul dan Anda dapat memilih nama yang diinginkan dari daftar itu.
 
-The player mentioned by you will receive a notification that you mentioned them. 
+Pemain yang Anda sebutkan akan menerima pemberitahuan bahwa Anda menyebut mereka.
 
-Note: You can't mention (tag) someone in the private chat for obvious reasons.
+Catatan: Anda tidak dapat menyebutkan (menandai) seseorang di obrolan pribadi karena alasan yang jelas.
