@@ -1,8 +1,9 @@
-## Creating an Account
+## Membuat Akun
 
-Currently you can use Google, Apple or any email accounts to register.
-You will be then taken to a screen where you will choose your username. Make sure to choose wisely as this is permanent and cannot be changed.
+Saat ini Anda dapat menggunakan Google, Apple, atau akun email apa pun untuk mendaftar.
+Anda kemudian akan dibawa ke layar di mana Anda akan memilih nama pengguna Anda. Pastikan untuk memilih dengan bijak karena ini permanen dan tidak dapat diubah.
 
-## Logging in
+## Masuk
 
-If you already have an account, fill in the respective blanks to sign in or by clicking on the Google/Apple sign in buttons.
+
+Jika Anda sudah memiliki akun, isi bagian yang kosong untuk masuk atau dengan mengeklik tombol masuk Google/Apple.
