@@ -21,6 +21,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates    
+### **2021/12/23 v0.754
+ * NEW - Added NPC image for terminal
+ * NEW - You can now translate/add npc lines from the translation file 
+
 ### **2021/12/21 v0.749
  * NEW - Equipments are now translatable, this requires mobile/{lang}/procedural-names.json to be translated, only tw-zh is enabled for new. once others are translated i will enable them manually
 
