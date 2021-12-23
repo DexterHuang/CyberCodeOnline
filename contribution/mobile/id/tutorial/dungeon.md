@@ -1,78 +1,78 @@
-## Dungeons
+## Rubanah
 
-## Types of Dungeons
+## Jenis Rubanah
   
 ![DungeonTypes](/resources/mobile-tutorial/DungeonTypes.png)
   
-These are the three types of dungeons that you are able to enter. The [normal] dungeon will include a key fragment in the treasure room and no boss. The [challenge] dungeon is a lot harder but includes more crates for loot and has a boss in the treasure room that gives a lot of EXP.  The [gang] dungeon is the hardest of all and requires that you are in a gang and have a Gang Invasion Order Transmitter.  Enemies are 4-5x stronger than normal dungeons but has greater rewards.
+Inilah tiga jenis rubanah yang bisa Anda masuki. Rubanah [normal] akan menyertakan fragmen kunci di ruang harta karun dan tidak ada bos. Rubanah [tantangan] jauh lebih sulit tetapi mencakup lebih banyak peti untuk menjarah dan memiliki bos di ruang harta yang memberikan banyak EXP. Rubanah [geng] adalah yang paling sulit dari semuanya dan mengharuskan Anda berada dalam sebuah geng dan memiliki Pemancar Perintah Invasi Gang. Musuh 4-5x lebih kuat dari rubanah biasa tetapi memiliki imbalan yang lebih besar.
 
-## Creating / Joining a Dungeon
+## Membuat / Bergabung dengan Rubanah
   
-When creating a dungeon, select the dungeon you want to create. You can name it and choose to make it Public or Private. You can also protect the dungeon with a password.
+Saat membuat rubanah, pilih rubanah yang ingin Anda buat. Anda dapat menamainya dan memilih untuk menjadikannya Publik atau Pribadi. Anda juga dapat melindungi rubanah dengan kata sandi.
 
-Public Dungeons are available to everyone to see and join (if they meet the level requirements) by accessing the list of dungeons. 
+Rubanah Umum tersedia bagi semua orang untuk dilihat dan bergabung (jika mereka memenuhi persyaratan tingkat) dengan mengakses daftar rubanah.
 
-Password protected dungeons can be seen by other players but they cannot join unless they know the password. This is useful if you want to clear a dungeon with specific friends. Share the password in Gang chat or through Mail.
+Rubanah yang dilindungi kata sandi dapat dilihat oleh pemain lain tetapi mereka tidak dapat bergabung kecuali mereka mengetahui kata sandinya. Ini berguna jika Anda ingin menyelesaikan rubanah dengan teman-teman tertentu. Bagikan kata sandi di obrolan Gang atau melalui Mail.
 
 ![DungeonCoop4](/resources/mobile-tutorial/DungeonCoop4.png)
 ![DungeonCoop3](/resources/mobile-tutorial/DungeonCoop3.png)
 
-If you'd rather join an existing dungeon, you can press the floating menu button at the bottom right, then select the buildings icon to view a list of open dungeons, as shown above in the screenshots.
+Jika Anda lebih suka bergabung dengan rubanah yang ada, Anda dapat menekan tombol menu mengambang di kanan bawah, lalu pilih ikon bangunan untuk melihat daftar rubanah terbuka, seperti yang ditunjukkan di atas pada tangkapan layar.
 
-At the top right of each dungeon panel, you can find the dungeon level. Each panel includes a list of players and their status in the dungeon. At the bottom, you can see how many enemies are left. You can choose to join a fresher dungeon to gain more EXP or enter empty dungeons to claim loot.
- 
+Di kanan atas setiap panel rubanah, Anda dapat menemukan tingkat rubanah. Setiap panel menyertakan daftar pemain dan status mereka di rubanah. Di bagian bawah, Anda dapat melihat berapa banyak musuh yang tersisa. Anda dapat memilih untuk bergabung dengan rubanah yang lebih baru untuk mendapatkan lebih banyak EXP atau memasuki rubanah kosong untuk mengklaim jarahan.
+
 ![DungeonCoop](/resources/mobile-tutorial/DungeonCoop.png)
   
-As shown in the images above, there are several players in the same dungeon. The rules are the same regardless of how many players are in a dungeon; the only difference is that players can help each other out. When using heals, it is usually advised to use the AOE items (such as Pain Away Spray) to heal both yourself and your co-op partners. You can see everyone's health bars above the player icons.  
+Seperti yang ditunjukkan pada gambar di atas, ada beberapa pemain di rubanah yang sama. Aturannya sama terlepas dari berapa banyak pemain di rubanah; satu-satunya perbedaan adalah bahwa pemain dapat saling membantu. Saat menggunakan penyembuhan, biasanya disarankan untuk menggunakan item AOE (seperti Pain Away Spray) untuk menyembuhkan diri sendiri dan mitra kerja sama Anda. Anda dapat melihat bilah kesehatan semua orang di atas ikon pemain.
 
-When an enemy is killed with the help from a friend, everyone who dealt 20% or more damage is given EXP and a chance for a reward, as long as their level isn't too high for the mob. All crates and loot are unique to each player, so you don't need to worry about sharing loot or having yours stolen. Grab everything you want and discard the rest!
+Ketika musuh terbunuh dengan bantuan dari seorang teman, setiap orang yang memberikan 20% atau lebih kerusakan diberikan EXP dan kesempatan untuk hadiah, selama tingkat mereka tidak terlalu tinggi untuk massa. Semua peti dan jarahan unik untuk setiap pemain, jadi Anda tidak perlu khawatir berbagi jarahan atau mencuri milik Anda. Raih semua yang Anda inginkan dan buang sisanya!
 
 ![DungeonCoop2](/resources/mobile-tutorial/DungeonCoop2.png)
 
-In this image, at the bottom under the '[QUIT DUNGEON]' button, you will find a button labeled '[Send invite to global chat]'. This will send an invite to the global chat so others can join easily by clicking on the message. Anyone around your level can join and help you out as long as they are within 10 levels below or 12 levels above your dungeon.
+Pada gambar ini, di bagian bawah di bawah tombol '[Keluar dari rubanah]', Anda akan menemukan tombol berlabel '[Kirim undangan ke obrolan global]'. Ini akan mengirim dan mengundang ke obrolan global sehingga orang lain dapat bergabung dengan mudah dengan mengklik pesan. Siapa pun di sekitar tingkat Anda dapat bergabung dan membantu Anda selama mereka berada dalam 10 tingkat di bawah atau 12 tingkat di atas rubanah Anda.
 
-You can also click on messages from other players to join their dungeon.
+Anda juga dapat mengklik pesan dari pemain lain untuk bergabung dengan rubanah mereka.
 
-After a player dies or leaves, they cannot rejoin the dungeon.
-  
-## Entrance and Icons
+Setelah pemain meninggal atau pergi, mereka tidak dapat bergabung kembali dengan rubanah.
+
+## Pintu Masuk dan Ikon
   
 ![DungeonEntranceUsed](/resources/mobile-tutorial/DungeonEntranceUsed.png)
   
-Here you can see the first room of a dungeon. There are doors which will take you to another room in the dungeon. You can find these doors on all sides of the dungeon rooms.  You cannot enter a new room until you have killed all enemies in the current room.
+Di sini Anda dapat melihat ruang pertama rubanah. Ada pintu yang akan membawa Anda ke ruangan lain di rubanah. Anda dapat menemukan pintu-pintu ini di semua sisi rubanah. Anda tidak dapat memasuki ruangan baru sampai Anda membunuh semua musuh di ruangan saat ini.
 
-This also shows an example of a room that has been completed. Note the greyed out crates, indicating that they have been looted already. The door on the right wall is also greyed out, which means you have already been through it. This is essential to not get lost while exploring the dungeon. 
+Ini juga menunjukkan contoh ruangan yang telah selesai. Perhatikan peti berwarna abu-abu, yang menunjukkan bahwa peti tersebut telah dijarah. Pintu di dinding kanan juga berwarna abu-abu, yang berarti Anda telah melewatinya. Ini penting agar tidak tersesat saat menjelajahi rubanah.
 
-### Enemies
+### Musuh
   
 ![DungeonEnemies](/resources/mobile-tutorial/DungeonEnemies.png)
   
-There are four alien looking icons spread across the room, and these are the enemies you have to defeat before proceeding to the next room or accessing the crates in the room. Click on one of them to fight them.
+Ada empat ikon yang tampak asing tersebar di seluruh ruangan, dan ini adalah musuh yang harus Anda kalahkan sebelum melanjutkan ke kamar sebelah atau mengakses peti di dalam ruangan. Klik salah satu dari mereka untuk melawan mereka.
   
 ![DungeonFight](/resources/mobile-tutorial/DungeonFight.png)
   
-Rules are slightly different in the dungeons when you fight enemies. You will have a row of 3 buttons above your attack options which you can assign to usable items from your inventory. You should assign medical items to this hotbar since your health doesn't regenerate automatically after each fight.
-
-You also have an 'Escape' button on the top left. The success rate of you escaping is based on your player 'escape' stat.  
+Aturannya sedikit berbeda di rubanah saat Anda melawan musuh. Anda akan memiliki deretan 3 tombol di atas opsi serangan Anda yang dapat Anda tetapkan ke barang yang dapat digunakan dari inventaris Anda. Anda harus menetapkan barang medis ke hotbar ini karena kesehatan Anda tidak beregenerasi secara otomatis setelah setiap pertarungan.  
  
-### Good Guy (?)
+Anda juga memiliki tombol 'Melarikan diri' di kiri atas. Tingkat keberhasilan Anda melarikan diri didasarkan pada stat pemain Anda 'melarikan diri'.
+  
+### Orang Baik (?)
   
 ![DungeonGoodguy](/resources/mobile-tutorial/DungeonGoodguy.png)
   
-Here, you can see the '?' icon, indicating a quest if you choose to accept it. You can find one quest giver per dungeon, and they are usually placed randomly in one of the rooms.
+Di sini, Anda dapat melihat '?' ikon, menunjukkan pencarian jika Anda memilih untuk menerimanya. Anda dapat menemukan satu pemberi pencarian per rubanah, dan mereka biasanya ditempatkan secara acak di salah satu kamar.
   
 ![DungeonGoodguy2](/resources/mobile-tutorial/DungeonGoodguy2.png)
   
-Here is an example of the dialogue that pops up after clicking on the '?'. They will ask for items in return for other items or power-ups. It is up to you to decide if the trade is worthwhile; however, if you can afford it, it is usually worth accepting for the extra EXP you gain from completing it. Some of the text on this screen is randomly generated from a file, so you may get odd or funny references, if it makes any sense at all.
+Berikut adalah contoh dialog yang muncul setelah mengklik '?'. Mereka akan meminta barang sebagai imbalan untuk barang lain atau power-up. Terserah Anda untuk memutuskan apakah perdagangan itu bermanfaat; namun, jika Anda mampu membelinya, biasanya layak menerima EXP tambahan yang Anda peroleh dari menyelesaikannya. Beberapa teks di layar ini dihasilkan secara acak dari sebuah file, jadi Anda mungkin mendapatkan referensi aneh atau lucu, jika memang masuk akal.
+  
+### Pengetahuan (!)
 
-### Lore (!)
-
-There are exclamation marks dotted around dungeons that provide snippets of game lore. These don't have an impact on your game or the dungeon but may be interesting to read.
-
-### Treasure / Boss Room
+Ada tanda seru yang tersebar di sekitar rumah yang menyediakan potongan pengetahuan permainan. Ini tidak berdampak pada permainan Anda atau rubanah tetapi mungkin menarik untuk dibaca.
+  
+### Ruang Harta Karun / Boss Ruangan
   
 ![DungeonBossTreasureCoop](/resources/mobile-tutorial/DungeonBossTreasureCoop.png)
   
-This room is special, as you can tell from the increased number of crates. The crate that looks like a window contains a key fragment that can be used for crafting Secret Keys that unlock new areas.
+Ruangan ini spesial, terlihat dari jumlah peti yang bertambah. Peti yang terlihat seperti jendela berisi fragmen kunci yang dapat digunakan untuk membuat Kunci Rahasia yang membuka kunci area baru.
 
-In this screenshot, you can also see other players helping out. This is especially advised at low levels and when attempting a challenge dungeon, as the boss of challenge dungeons has greatly increased health and power in return for more EXP.
+Dalam tangkapan layar ini, Anda juga dapat melihat pemain lain membantu. Ini terutama disarankan pada level rendah dan ketika mencoba rubanah tantangan, karena bos rubanah tantangan telah sangat meningkatkan kesehatan dan kekuatan dengan imbalan lebih banyak EXP.
