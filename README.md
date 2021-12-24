@@ -30,7 +30,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 -   contribution/mobile/{lang}/item/lore - item lore
 -   tips.txt - Tips for desktop
 -   tutorial/\* - Desktop Tutorial
--   contribution/lang/ - Localisations
+-   contribution/lang/ - Localizations
 
 ### Screenshots
 
