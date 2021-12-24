@@ -2,7 +2,7 @@
 
 It seems like you have equipment caches but havn't use it to print any equipment yet!
 it is very easy to turn your caches into actual equipment you can use:
-1. return to `City Center` by long pressing the `back to city` button.
+1. return to `City Center` by long pressing the `Back` button.
 
 ![Screenshot 2021-12-24 102019](https://user-images.githubusercontent.com/18545294/147307871-bb6a8ab2-bd0f-48d2-a4b7-99efaceafcbf.png)
 
