@@ -27,10 +27,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 -   contribution/mobile/{lang}/tips.md - Tips for Mobile
 -   contribution/mobile/{lang}/tutorial/\*.md - Tutorial
 -   contribution/mobile/{lang}/procedural-names - equipment names
+-   contribution/mobile/{lang}/item/lore - item lore
 -   tips.txt - Tips for desktop
 -   tutorial/\* - Desktop Tutorial
 -   contribution/lang/ - Localisations
--   contribution/item/lore - item lore
 
 ### Screenshots
 
