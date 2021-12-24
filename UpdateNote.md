@@ -9,11 +9,14 @@ Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee
 -   contribution/words.json - Random Words
 -   contribution/dungeon/layout/structure-mask.json - Dungeon Layouts
 -   contribution/notes/\* - In Dungeon Lore
--   contribution/mobile/tips.md - Tips for Mobile
--   contribution/lang/\* - Localisations
+-   contribution/mobile/{lang}/tips.md - Tips for Mobile
+-   contribution/mobile/{lang}/tutorial/\*.md - Tutorial
+-   contribution/mobile/{lang}/procedural-names - equipment names
+-   contribution/mobile/{lang}/item/lore - item lore
+-   contribution/mobile/{lang}/scenario/\*\* - drop lore
 -   tips.txt - Tips for desktop
--   mobile-tutorial/\* - Mobile Tutorial
 -   tutorial/\* - Desktop Tutorial
+-   contribution/lang/ - Localizations
 
 **Remember to add your name to the ['Credits.md'](https://github.com/DexterHuang/CyberCodeOnline/blob/master/Credits.md) doc when you create a PR**
 

@@ -28,6 +28,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 -   contribution/mobile/{lang}/tutorial/\*.md - Tutorial
 -   contribution/mobile/{lang}/procedural-names - equipment names
 -   contribution/mobile/{lang}/item/lore - item lore
+-   contribution/mobile/{lang}/scenario/\*\* - drop lore
 -   tips.txt - Tips for desktop
 -   tutorial/\* - Desktop Tutorial
 -   contribution/lang/ - Localizations
