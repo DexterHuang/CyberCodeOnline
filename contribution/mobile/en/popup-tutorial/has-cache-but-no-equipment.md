@@ -1,7 +1,10 @@
 # How to get Equipments?
 
 It seems like you have equipment caches but havn't use it to print any equipment yet!
-it is very easy to turn your caches into actual equipment you can use:
+they look like this in your inventory: 
+![image](https://user-images.githubusercontent.com/18545294/147308888-70f5d24b-258c-429b-8daa-7a1fa7822d0a.png)
+
+it is very easy to turn your caches into actual equipment, you simply need to:
 
 ![Screenshot 2021-12-24 102019](https://user-images.githubusercontent.com/18545294/147307871-bb6a8ab2-bd0f-48d2-a4b7-99efaceafcbf.png)
 
