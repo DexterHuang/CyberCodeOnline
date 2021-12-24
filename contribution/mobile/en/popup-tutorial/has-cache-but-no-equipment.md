@@ -14,6 +14,8 @@ it is very easy to turn your caches into actual equipment, you simply need to:
 
 2. When you are in `City Center` you will see an NPC called `Molecular 3d Printer`, click on it to interact with it 
 
+![image](https://user-images.githubusercontent.com/18545294/147308950-d5e10150-6abd-4e46-b2c3-f2c448f9af37.png)
+
 3. Now simply click on the cache you want to print to print it into a real equipment!
 
 # What is a cache
