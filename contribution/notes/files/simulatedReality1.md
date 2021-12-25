@@ -1,0 +1,1 @@
+"It's all just a simulation. It has to be. Think about it. Admins, moderators, and people just disappearing into nowhere. I feel like I'm living in a matrix right now. There's no way this is real. No power on earth could make a man simply vanish before my eyes. None that I believe in. Not unless we're all in a program. Just think about it..."
