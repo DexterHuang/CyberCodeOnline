@@ -1,0 +1,2 @@
+## Misi
+• Misi dapat ditemukan di tab Misi di bagian bawah layar. Di sinilah Anda diberi tugas khusus yang akan memberi Anda poin pengalaman ekstra dan BitCoin. Ada berbagai tugas yang tersedia, seperti peralatan pencetakan, membunuh musuh, dan mendapatkan pengalaman atau BitCoin. Setelah Anda menyelesaikan misi, klik untuk mengklaim hadiahnya. Dalam kebanyakan kasus, Anda juga akan diberikan misi baru. Anda juga dapat memperoleh misi di dalam rubanah dengan berbicara kepada pemberi Misi, yang ditandai sebagai '?'.

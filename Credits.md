@@ -40,6 +40,7 @@ Proxxie
 [Misaki](https://github.com/Misaki290)
 [Murfex](https://github.com/Murfex)
 [legiorange](https://github.com/legiorange)
+[FallOfComet](https://github.com/FallOfComet)
 MontyPython
 [MrNandang](https://github.com/mrnandang)
 [nopeholmes](https://github.com/nopeholmes)
@@ -50,6 +51,7 @@ roucoupute2
 Rinelle
 [ruliou](https://github.com/ruliou)
 Ryugarret
+[Satour](https://github.com/satour)
 [Seo-na](https://github.com/Seo-na)
 [siruelionn](https://github.com/siruelionn)
 SKIFFI
@@ -63,6 +65,10 @@ Wanna
 [Sakura](https://github.com/lux-sakura)
 [Karl-B-Heintz](https://github.com/Karl-B-Heinz)
 [Lordsem](https://github.com/Lordsem)
+[xmonkx](https://github.com/xmonkx)
+[FreddyAmonov](https://github.com/FreddyAmonov)
+[Makasin22](https://github.com/Makasin22)
+[ZHAama](https://github.com/ZHAama)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
@@ -70,8 +76,11 @@ Wanna
 [Sans3108](https://github.com/sans3108)
 [Laani](https://github.com/Laani)
 [Sakura](https://github.com/lux-sakura)
+[Kimi Leta](https://github.com/kimileta)
+[Yahishiro](https://github.com/Yahishiro)
 
 ## Lore
+[Ayanna](https://github.com/JustACloud)
 [byakkozen](https://github.com/byakkozen)
 [bvcxz](https://github.com/bvcxz-cybercode)
 CeceCat
@@ -91,19 +100,23 @@ Dragonmaster84
 RezaRnew100
 [Veyrin](https://github.com/darkrevelations)
 WoLoLoiK
+LieRenThePope
 
 ## Dungeons
 [alfaice](https://github.com/alfaice)
 Alice
 [AndyCandy](https://github.com/andycandy-de)
+Brownin89
 [Deckeeper](https://github.com/deckeeper)
 [DexterHuang](https://github.com/DexterHuang)
 Dragonmaster84
+ElectricSoldier323
 [Hally](https://twitter.com/g_hally1996)
 HeyaItsLuna
 JashinL
 [JEricaM](https://github.com/JEricaM)
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)
+LitFill
 mika
 MontyPython
 Negative
@@ -123,6 +136,10 @@ zomg
 [Vult](https://github.com/Vult-source)
 [Sakura](https://github.com/lux-sakura)
 [Manz](https://github.com/manztellen)
+[xmonkx](https://github.com/xmonkx)
+[Wootles](https://github.com/Wootles)
+[K4LM3D](https://github.com/mksalada)
+[NTHiG](https://github.com/NTHGiT)
 
 ## Tutorial
 [alfaice](https://github.com/alfaice)
@@ -141,6 +158,8 @@ Vega_Efsunborn
 [Laani](https://github.com/Laani)
 
 ## Game resources (words)
+
+[apetro](https://github.com/apetro/)
 App2
 Aquacky
 [bvcxz](https://github.com/bvcxz-cybercode)
@@ -155,6 +174,7 @@ FoxHunt
 HumbleServant
 [JEricaM](https://github.com/JEricaM)
 Kaktusmonas
+[Kimi Leta](https://github.com/kimileta)
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)
 [Luako](https://github.com/luako)
 [MarcelWeidum](https://github.com/MarcelWeidum)
@@ -173,6 +193,7 @@ Satan
 [Tripplehelix](https://github.com/tripplehelix)
 [Veyrin](https://github.com/darkrevelations)
 [Sakura](https://github.com/lux-sakura)
+[Yahishiro](https://github.com/Yahishiro)
 
 ## Tips
 [Archibaald](https://github.com/Archibaald-dev)
@@ -200,6 +221,8 @@ RsKaiser
 SKIFFI
 spyd3r
 [Tripplehelix](https://github.com/tripplehelix)
+[K4LM3D](https://github.com/mksalada)
+[Wootles](https://github.com/Wootles)
 
 ## Security Bug Reporters
 [0xF61](https://github.com/0xF61)
@@ -211,3 +234,4 @@ spyd3r
 [hildjj](https://github.com/hildjj)
 [mr_moe](https://github.com/donburks)
 [RubenVerg](https://github.com/rubenverg)
+[NTHiG](https://github.com/NTHGiT)

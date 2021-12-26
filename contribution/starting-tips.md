@@ -1,5 +1,3 @@
-# Welcome to CyberCode Online! 
-
 ### Here are some starting tips:
 
 #### Please take a look at the rules found under the 'Profile' tab, then under 'Tutorial' at the top.

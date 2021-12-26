@@ -28,7 +28,7 @@ Yes. Higher level enemies give you more BTC and experience after you defeat them
 ### What should I do if my inventory is full?
 You can either scrap, destroy or store them in the bank located in the City Centre. You can increase the number of items you can carry with the 'pocket' stat found on equipments and module upgrades.
 
-### Hwo do I craft items?
+### How do I craft items?
 On top of the Inventory section, you will find a tab called `Crafting`.
 
 ### Where can I get heals?

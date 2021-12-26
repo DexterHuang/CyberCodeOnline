@@ -1,3 +1,6 @@
+*[You pull a textbook from a shelf and flip to a random page.]*  
+![World Government: an Introduction](/resources/lore/textbookgov25.png)
+
 # The Dream of a Unified Global Government
 > (Part 1 of 6 WGO Series)
 

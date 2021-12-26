@@ -1,0 +1,1 @@
+Fragments of shared experiences seem to flicker within its depths, tantalizingly complex in design. This shard likely holds data a gang could use, though enclosed in a lattice of quantum ciphers, it'll take some effort to decrypt. You get the distinct feeling it will be worth the trouble.
