@@ -26,6 +26,8 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 ### 2021/12/26 v0.754
+- UPDATE - Block links from sending to chat
+- FIX - Backend bug fixes
 - UPDATE - Chaptchas will be easier to read now
 - OPTIMIZATION - Serverside optimizations
 
