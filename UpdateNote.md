@@ -25,9 +25,17 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates
+### 2021/12/26 v0.754
+- UPDATE - Block links from sending to chat
+- FIX - Backend bug fixes
+- UPDATE - Chaptchas will be easier to read now
+- OPTIMIZATION - Serverside optimizations
 
-### 2021/12/24 v0.754
+### 2021/12/25 v0.754
+-  OPTIMIZATION - Optimized chat room typing performance for slower devices
+-  OPTIMIZATION - Optimized some UI component rendering
 
+### 2021/12/24 v0.754 
 -   NEW - Added tutorial popup for when clicking on empty equipment when there is no equipment available in inventory,
     this is to help newbies to understand how to obtain equipments from cache, please help me with translation :D
     file is at `/mobile/${lang}/popup-tutorial/**`
