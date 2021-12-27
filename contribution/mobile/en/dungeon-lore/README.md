@@ -9,4 +9,5 @@ If you would like to use more advanced formatting then please take a look at htt
 You do not need to make your lines fit to the screen manually. The page will do that itself, make sure that 'Soft Wrap' is selected in the top right option box.  
 
 ## small tips:
-images are allowed, simply drop the image into the editor if you are editing on github website
+- You are allowed to edit this file to help other players
+- Images are allowed, simply drop the image into the editor if you are editing on github website
