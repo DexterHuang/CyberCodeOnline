@@ -17,7 +17,7 @@ The higher tiers are request by kind players who would like to donate more.
 
 Just like most other donation mechanism there is **No upper limit** on how much one are allowed donate.
 
-for expamle: Patreon/Buy Me a coffee and most other donation service to creators does not have upper limit on how much one could choose to donate
+for expamle: Patreon/Buy Me a coffee and most other donation service to creators does not have upper limit on how a person could choose to donate
 
 but due to Google Play & Apple policies I am not allowed to have links to external donation sites in the app, 
 so the only option for me was to have tiers for the common amount.
