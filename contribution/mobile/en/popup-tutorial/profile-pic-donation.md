@@ -15,7 +15,7 @@ No, you can cancel the donation at any time easily via your store.
 ## The highest tier is so expensive, you greedy @$%#^#$!
 The higher tiers are request by kind players who would like to donate more. 
 
-Just like most other donation mechanism there is *No upper limit* on how much one are allowed donate.
+Just like most other donation mechanism there is **No upper limit** on how much one are allowed donate.
 
 for expamle: Patreon/Buy Me a coffee and most other donation service to creators does not have upper limit on how much one could choose to donate
 
