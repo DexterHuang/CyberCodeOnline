@@ -14,6 +14,7 @@ Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee
 -   contribution/mobile/{lang}/procedural-names - equipment names
 -   contribution/mobile/{lang}/item/lore - item lore
 -   contribution/mobile/{lang}/scenario/\*\* - drop lore
+-   contribution/mobile/{lang}/dungeon-lore/** - dungeon lore
 -   tips.txt - Tips for desktop
 -   tutorial/\* - Desktop Tutorial
 -   contribution/lang/ - Localizations
