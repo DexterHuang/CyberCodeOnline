@@ -1,4 +1,4 @@
-# Profile image customization
+# Donation
 To provide the best No Pay-to-Win experience to you, it is necessary that all paid features are cosmetic like profile images & chat frames, 
 or global buffs that benefits everyone in game :) 
 
