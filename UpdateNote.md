@@ -27,6 +27,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ## Updates
 ### 2021/12/27 v0.754
 - UPDATE - Dungeon lores are now translatable and moved to `mobile/${lang}/dungeon-lore`, and index.json is no longer needed, simply add your file into the folder, the game will automatically detect it. For none-english version, please feel free to add new story to your language only, lores and story does not need to be sync between languages. Need at least 5 lores for it to be activated, otherwise english version is used.
+- NEW - Added popup notice for donation when none-donator clicked on profile picture, to explain why the feature is donator only (this file is translatable at `mobile/{lang}/popup-tutorial/donation.md`)
 
 ### 2021/12/26 v0.754
 - UPDATE - Block links from sending to chat
