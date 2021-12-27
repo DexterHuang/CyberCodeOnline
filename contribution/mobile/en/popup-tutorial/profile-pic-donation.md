@@ -26,4 +26,5 @@ so the only option for me was to have tiers for the common amount.
 No. I strongly suggest you to **Not** donate if you are not confortable with it.
 
 donation does not provide any gameplay benefit, it is purely cosmetic. 
+
 So please don't donate unless you want to support the game!  
