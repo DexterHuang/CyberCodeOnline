@@ -3,7 +3,7 @@ To provide the best No Pay-to-Win experience to you, it is necessary that all pa
 or global buffs that benefits everyone in game :) 
 
 ## Why profile picture is donation-only?
-Because this game is a MMORPG and **NOT a dating app** (I know it could be confusing sometimes 😅), therefore profile picture is not standard nor required feature. 
+Because this a MMORPG game and **NOT a dating app** (I know it could be confusing sometimes 😅), therefore profile picture is not standard nor required feature. 
 
 **Profile image is served as a token of thanks for the donators**
 
