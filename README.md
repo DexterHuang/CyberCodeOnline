@@ -37,10 +37,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ### Screenshots
 
 #### Mobile
-![cybercodeonline com_(Pixel 2 XL) (5)](https://user-images.githubusercontent.com/18545294/147461182-98dea590-6485-4f76-b5e8-f957975d4851.png)
-![cybercodeonline com_(Pixel 2 XL)](https://user-images.githubusercontent.com/18545294/147461199-620fe98b-628d-48fa-85c2-ade1c397c1a5.png)
-![localhost_3000_tabs_map(Pixel 2 XL) (2)](https://user-images.githubusercontent.com/18545294/147461203-09883f28-a522-43da-a385-726326efeda1.png)
-![cybercodeonline com_(Pixel 2 XL) (4)](https://user-images.githubusercontent.com/18545294/147461213-9784906f-e093-432e-aac9-d8cc3b41401f.png)
+![cybercodeonline com_(Pixel 2 XL)](https://user-images.githubusercontent.com/18545294/147470402-d725f303-686e-46ea-92f5-de3d5d045807.jpg)
+![localhost_3000_tabs_map(Pixel 2 XL) (2)](https://user-images.githubusercontent.com/18545294/147470407-cc691f5c-006e-4a24-a008-696d0c7cf1f4.jpg)
+![cybercodeonline com_(Pixel 2 XL) (5)](https://user-images.githubusercontent.com/18545294/147470410-7e8c1de2-87c5-4c76-b2c8-5f9466cf63c2.jpg)
+
 
 #### Web
 
