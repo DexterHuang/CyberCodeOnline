@@ -25,6 +25,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates
+### 2021/12/27 v0.754
+- UPDATE - Dungeon lores are now translatable and moved to `mobile/${lang}/dungeon-lore`, and index.json is no longer needed, simply add your file into the folder, the game will automatically detect it. For none-english version, please feel free to add new story to your language only, lores and story does not need to be sync between languages. Need at least 5 lores for it to be activated, otherwise english version is used.
+
 ### 2021/12/26 v0.754
 - UPDATE - Block links from sending to chat
 - FIX - Backend bug fixes
