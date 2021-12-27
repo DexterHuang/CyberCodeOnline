@@ -7,7 +7,7 @@ Because this game is a MMORPG and **NOT a dating app** (I know it could be confu
 
 **Profile image is served as a token of thanks for the donators**
 
-**Fun Fact: 99% of the MMORPG does not have profile picture feeature, even with donation or their P2W system🤯**
+**Fun Fact: 99% of the MMORPG does not have profile picture feature, even with donation or their P2W system🤯**
 
 ## Do I need to donate for my whole life?
 No, you can cancel the donation at any time easily via your store.
