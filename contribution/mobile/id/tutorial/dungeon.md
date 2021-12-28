@@ -67,6 +67,8 @@ Berikut adalah contoh dialog yang muncul setelah mengklik '?'. Mereka akan memin
   
 ### Pengetahuan (!)
 
+![DungeonLoreguy](/resources/mobile-tutorial/DungeonLoreguy.png)
+
 Ada tanda seru yang tersebar di sekitar rumah yang menyediakan potongan pengetahuan permainan. Ini tidak berdampak pada permainan Anda atau rubanah tetapi mungkin menarik untuk dibaca.
   
 ### Ruang Harta Karun / Boss Ruangan
