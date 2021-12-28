@@ -67,6 +67,8 @@
 
 ### 로어-도시전설 (!)
 
+![DungeonLoreguy](/resources/mobile-tutorial/DungeonLoreguy.png)
+
 던전에는 게임의 배경지식을 토막글로 알려주는 느낌표가 점찍혀 있습니다. 이것들은 게임이나 던전에 영향을 미치지 않지만 흥미롭게 읽을 수 있습니다.
 
 ### 보물 / 보스룸
