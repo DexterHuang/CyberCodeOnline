@@ -7,8 +7,7 @@ Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee
 ### Help Needed:
 
 -   contribution/words.json - Random Words
--   contribution/dungeon/layout/structure-mask.json - Dungeon Layouts
--   contribution/notes/\* - In Dungeon Lore
+-   contribution/dungeon/layout/structure-mask.json - Dungeon Layouts 
 -   contribution/mobile/{lang}/tips.md - Tips for Mobile
 -   contribution/mobile/{lang}/tutorial/\*.md - Tutorial
 -   contribution/mobile/{lang}/procedural-names - equipment names
