@@ -22,8 +22,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 ### Help Needed:
 
 -   contribution/words.json - Random Words
--   contribution/dungeon/layout/structure-mask.json - Dungeon Layouts
--   contribution/notes/\* - In Dungeon Lore
+-   contribution/dungeon/layout/structure-mask.json - Dungeon Layouts 
 -   contribution/mobile/{lang}/tips.md - Tips for Mobile
 -   contribution/mobile/{lang}/tutorial/\*.md - Tutorial
 -   contribution/mobile/{lang}/procedural-names - equipment names
