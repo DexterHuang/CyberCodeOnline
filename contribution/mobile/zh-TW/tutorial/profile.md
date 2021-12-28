@@ -1,147 +1,148 @@
-## Profile
-In your Profile, there are several pieces of information and options at your disposal.
+## 個人檔案
+在你的個人檔案頁面當中，包含了以下列出的資訊及選項。
 
-Here is what you can see from your profile
- - Alias
- - Title and profile picture (if applicable)
- - Amount of BitCoins
- - Average gear level (Gear Score)
- - Current location
- - Online/Offline status (System Link)
- - Street Cred
- - Your current activity (Status)
- - Your level
- - Crafting ranks
- - Skill levels
- - Stats
- - Gang
- - Secret Keys
+以下為你可以在你的個人檔案看到的資訊：
+ - 暱稱
+ - 稱號及個人檔案圖像（如適用）
+ - 比特幣數量
+ - 平均裝備等級（裝備評級）
+ - 目前位置
+ - 上線／離線狀態（系統連線）
+ - 街頭聲望
+ - 目前的活動（狀態）
+ - 你的等級
+ - 列印等級
+ - 技能等級
+ - 數值
+ - 公會
+ - 密鑰
 
-In the [STATS] section, you can see the 'Global Effects' of an activated Transmitter (or boost).
+在 [數值] 區塊，你可以看到正在啟用中的發射器或增益的「全球效應」。
 
-Here you can also see how long the [MUTED] status will last.
+你也可以在這裡看到剩餘的 [禁言] 時間有多久。
 
-As the name suggests, someone with the 'MUTED' status will not be able to communication with others for a certain amount of time.
+如同字面上的意思，具有「禁言」狀態的玩家，在一定期間內無法與其他玩家溝通。
 
-The 'MUTED' status affects all kinds of chats: both Global, Gang and Mail (Private Messaging).
+「禁言」狀態會影響所有類型的聊天室：包括全球聊天室、公會聊天室及收件箱（私人訊息）。
 
-The 'MUTED' status does not affect the ability to receive or send items to other players or the ability to play the game.
+「禁言」狀態不會影響你向其他玩家寄送道具或自其他玩家接受道具的功能，也不會影響遊戲的進行。
 
-The 'MUTED' status is applied by the moderators (mods) to a player who has broken the rules of the game or the ones related to the chat. 
+「禁言」狀態來自於管理者（mods），因為管理者認定玩家違反了遊戲規則或是聊天室規則。
 
-At the bottom of your profile, you will see a few additional options:
+在你的個人檔案頁面底部，你將會看到一些額外選項：
 
-- [DONATE] - this will take you to the donation tiers (Cosmetics);
+- [贊助] - 這個選項將會帶你前往贊助分級表（裝飾商店）；
 
-- [QUIT GANG] - this will leave your gang, if you are in one;
+- [退出公會] - 如果你已加入公會，這個選項將使你退出公會；
 
-- [LOGOUT] - this will log you out of the game.
+- [登出] - 這個選項將使你登出遊戲。
 
-On other players' profiles, you will encounter different options:
+在其他玩家的個人檔案頁面當中，你將看到不同的選項：
 
-- [SEND PRIVATE MESSAGE] - send a private message to the player through in-game Mail.
+- [寄送私人訊息] - 透過遊戲中的郵件系統，寄送私人訊息給這名玩家。
 
-- [SEND GIFT] - send items (caches, healing items, ammo, etc.) from your inventory to the other player's inventory. You cannot send Secret Key Fragments to other players.
+- [寄送禮物] - 從你的背包寄送道具（快取記憶體、治療道具、彈藥等）至這名玩家的背包。你不能寄送密鑰碎片給其他玩家。
 
-- [INVITE TO GANG] - invite the player to your gang, only if you are the Leader or you have the permission to invite others players into the gang.
+- [邀請加入公會] - 邀請這名玩家加入公會。僅限於公會會長或是有邀請權限的公會成員才能使用這個選項。
 
-- [ADD TO FRIEND LIST] - add the player to your friend list, and if the player is not currenty online, they will also receive a notification about the fact that you added them as a friend.
+- [加入好友名單] - 將這名玩家加入你的好友名單。如果這名玩家目前不在線上，他仍會收到你將他加為好友的通知。
 
-- [SEND STREET CRED] - give 1 Street Cred point to the player.
+- [給予街頭聲望] - 給予這名玩家 1 點街頭聲望。
 
-Street Cred is a point system similar to "Karma" found on Reddit. It's meant to indicate how trustful or helpful a player is.
+街頭聲望是一種類似於 Reddit 的「Karma」的點數系統，它用來彰顯一名玩家值得信任或樂於助人的程度。
 
-You're limited to sending only 1 Street Cred per day. You are not limited in how much Street Cred you receive from other players.
+你一天只能給予 1 點街頭聲望，但你從其他玩家獲得的街頭聲望則不受限制。
 
-## Types of levels
+## 等級種類
 
-### Player Level
+### 玩家等級
 
-This is the level all your other skills will be capped at. You can increase your player level by fighting in dungeons, fighting enemies and using Experience Memories. For the highest efficiency, you want to keep all your levels about even with your player level. This is recommended.
+玩家等級等同於你的其他所有技能的等級上限。你可以透過在地下城戰鬥、與附近敵人戰鬥、或者使用經驗記憶提升玩家等級。為了最大化成長效率，建議你將所有其他技能等級保持在與玩家等級相仿的水平。
 
-### Printing Rank
+### 分子列印等級
 
-Printing rank determines the level of the equipment you will print at the 3D Molecular Printer. You can level your printing rank by printing equipment, Reverse Engineering Tech Scraps or working at a Printing Factory. The latter two options are AFK jobs at the Job Hub.
+分子列印等級決定了你自 3D 分子列印機列印出的裝備等級。你可以透過列印裝備、科技碎片逆向工程、或者在分子列印工廠打工提升分子列印等級，後二者為職缺中心的 AFK 工作。
 
-### Medical Science
-Crafting medical items or initiating the relevant job at the Job Hub will give you medical crafting experience. You will need these levels to craft better healing items.
+### 醫學等級
 
-### Ammo Crafting
+製作醫療道具或在職缺中心進行相關工作將使你獲得醫學經驗值。你會需要更高的醫學等級去製作更好的醫療道具。
 
-Crafting ammo or initiating a job at the Job Hub will give you ammo crafting experience. It's useful to craft more ammo with less materials.
+### 彈藥製作等級
 
-### Scavenge Skill
+製作彈藥或在職缺中心進行相關工作將使你獲得彈藥製作經驗值。你可以用更少的材料製作更多的彈藥。
 
-To start scavenging, you must start at the lowest level area (Flori Station, Grandiose Parking Lot 1 - 4). As your scavenge skill improves, you can start to scavenge at higher levels. The level requirements are listed in those areas.
+### 搜索等級
 
-Higher scavenge levels will also grant you better rewards of (ammunition, military ammunition and medical) tech parts. You can only gain scavenge experience by scavenging.
+若要開始搜索，你必須從最低等級的區域開始（Flori站，Grecian Synagogue 1 - 4）。隨著你的搜索技能逐漸提升，你可以搜索更高等級的區域。每個區域都會顯示該區域的最低搜索等級門檻。
 
-### Mining Skill
+更高的搜索等級，會使你找到更好的零件獎勵（探要零件、軍用彈藥零件、醫療科技零件）。你只能夠過搜索獲得搜索經驗值。
 
-Mining can be done only with 'Hash Processors' that drop from both normal and challenge dungeons.
+### 挖礦等級
 
-Higher mining levels can earn you more BTC per 15 minutes of AFK mining. You can get mining experience by completing mining jobs at the Job Hub. With higher mining levels, you can craft AI cores more efficiently as well.
+挖礦只能透過普通或挑戰地下城掉落的「雜湊處理器」進行。
 
-## Stats
+更高的挖礦等級使你能在 15 分鐘的 AFK 挖礦當中獲得更多比特幣。你可以透過在職缺中心完成挖礦工作獲得挖礦經驗值。此外，更高的挖礦等級能使你更有效率地製造 AI 核心。
 
-Every player has 20 different Stats. 
+## 數值
 
-### Max Shield
-The maximum shield that the player has. Upon receiving an attack, the shield is hit first before deducting from the player's health.
+每一名玩家具有 20 種不同的數值。
+
+### 最大護盾值
+該名玩家所具有的最大護盾值。受到攻擊時，護盾值會先於生命值遭到消耗。
  
-### Max Health
-The maximum health that the player has. Determined by player equipment and equipment upgrades.  
+### 最大生命值
+該名玩家所具有的最大生命值。最大生命值由玩家的裝備及升級模組所決定。 
   
-### Armor
-The armor that the player has. It reduces damage taken by that specified amount.  
+### 護甲
+該名玩家所具有的護甲值。護甲能減少等同於護甲值的所受傷害。 
   
-### Health Regen
-Health regenerated after a battle in a dungeon. 
+### 生命回復
+在地下城的每一場戰鬥結束後所回復的生命值。 
    
-### Damage (dmg)
-The total damage the player deals. Your damage is calculated by adding up the damage modifiers given by equipment and equipment upgrades.  
+### 傷害（dmg）
+該名玩家所能造成的總傷害量。傷害由裝備及升級模組的傷害因子加總所決定。 
   
-### Crit Chance
-The chance of the player critically striking when attacking. The max crit chance is 70%.  
+### 暴擊機率
+該名玩家進行攻擊時造成暴擊的機率。暴擊機率的上限為 70%。 
   
-### Crit Damage
-The multiplier to your damage when critically striking. The max crit damage multiplier is 200%.  
+### 暴擊傷害
+暴擊的傷害增幅。暴擊傷害增幅的上限為 200%。 
   
-### Escape
-The chance of escaping from an enemy encounter. The max escape chance is 80%.  
+### 逃脫
+戰鬥中成功逃離敵人的機率。逃脫機率的上限為 80%。 
   
-### Stun Chance
-The chance of stunning an enemy. If an enemy is stunned, they cannot perform a response action during that turn. The max stun chance is 20%.  
+### 暈眩機率
+造成敵人暈眩的機率。若一名敵人遭受暈眩，該名敵人於該回合無法行動。暈眩機率的上限為 20%。 
   
-### Evade
-The chance of evading an enemy attack, taking no damage. The max evade chance is 40%.  
+### 閃避
+成功閃避敵人的攻擊、避免承受傷害的機率。閃避機率的上限為 40%。 
   
-### Bargain
-The percentage the price is discounted or increased when buying or selling from the mart. The max bargain percentage is 40%.  
+### 討價還價
+在商店買東西的價格減少幅度或賣東西的價格增加幅度。討價還價比例上限為 40%。 
   
-### Pocket
-The amount of additional inventory space. The max additional pocket space is 32.  
+### 口袋
+額外的背包空間。額外口袋空間的上限為 32。 
   
-### Damage Multiplier
-A percent multiplier to attacks. The max multiplier is 40%.  
+### 傷害增幅
+玩家的攻擊增幅比例。上限為 40%。 
   
-### Defence Multiplier
-A percent multiplier to your armor. The max multiplier is 40%.  
+### 防禦增幅
+玩家的護甲增幅比例。上限為 40%。 
   
-### Stun Evade
-The chance of evading an enemy stun. The max chance is 40%.  
+### 暈眩閃避
+成功閃避敵人的暈眩的機率。機率上限為 40%。 
   
-### Shield Multiplier
-A percent multiplier to your shield. The max multiplier is 40%.  
+### 護盾增幅
+玩家的護盾增幅比例。上限為 40%。 
 
-### Healing Multiplier
-A percent multiplier to heals received from healing items. The max multiplier is 100%.
+### 治療增幅
+玩家自治療道具獲得的治療量增幅比例。上限為 100%。
 
-### Time Reduction
-A percent multiplier for how much time is reduced during AFK activities. The max time reduction is 80%.
+### 時間加速
+玩家的 AFK 活動所需時間的減少比例。所需時間減少幅度上限為 80%。 
 
-### Experience Multiplier
-A percent multiplier showing how much EXP you can additionally gain. The max multiplier is 100%.
+### 經驗增幅
+玩家額外獲得經驗值的比例。上限為 100%。
 
-### BitCoin (BTC) Multiplier
-A percent multiplier showing how much BitCoin you can additionally gain. The max multiplier is 100%.
+### 比特幣（BTC）增幅
+玩家額外獲得比特幣的比例。上限為 100%。
