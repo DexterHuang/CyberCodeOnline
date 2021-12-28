@@ -67,6 +67,8 @@ Here be an example o' th' dialogue that pops up aft jabbin' on th' '?'. They wil
 
 ### Lore (!)
 
+![DungeonLoreguy](/resources/mobile-tutorial/DungeonLoreguy.png)
+
 There are exclamation marks dotted around dungeons that provide snippets o' game lore. These don't 'ave an impact on yer game or th' dungeon but may be interestin' t' read.
 
 ### Treasure / Boss Room
