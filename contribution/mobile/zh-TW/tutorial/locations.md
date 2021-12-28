@@ -57,7 +57,7 @@
 在這個位置，你可以尋找工作來提高你的列印水平、彈藥/醫療製造水平和採礦水平。每個作業（AFK 活動）都包含有關你可以使用它完成的任務的詳細信息。
 
 ## 香格里拉市場街
-![街市](/resources/mobile-tutorial/Shangri-laMarketStreet.png)
+![街市](/resources/mobile-tutorial/Shangri-LaMarketStreet.png)
 在這裡，你可以用 BTC 向遊戲內的其他玩家買賣物品。
 
 請記住，無論何時你想在市場上出售或購買商品，你都必須完成 4 個數字的驗證碼。
