@@ -57,7 +57,7 @@
 여기에서 인쇄 레벨, 탄약/의료 지식 레벨 및 채굴 레벨을 높이는 작업을 할 수 있습니다. 각 작업(AFK작업)에는 해당 작업에 대한 세부 정보가 포함되어 있습니다.
 
 ## 샹그릴라 시장
-![Street Market](/resources/mobile-tutorial/Shangri-laMarketStreet.png)  
+![Street Market](/resources/mobile-tutorial/Shangri-LaMarketStreet.png)  
 여기에서 BTC로 게임 내 다른 플레이어와 아이템을 판매하고 구매할 수 있습니다.
 
 시장에서 물건을 팔거나 살 때마다 4자리 숫자의 보안 문자를 작성해야 합니다.
