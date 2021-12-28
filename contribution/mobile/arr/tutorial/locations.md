@@ -56,7 +56,7 @@ In each station, ye can also use yer AI Cores t' farm EXP 'n scavenge fer materi
 At this location, ye can look fer jobs t' increase yer printin' level, ammo/medical craftin' levels, 'n minin' level. Each job (AFK activity) contains details on wha' ye can accomplish wit' it.
 
 ## Shangri-La Market Street  
-![Street Market](/resources/mobile-tutorial/Shangri-laMarketStreet.png)  
+![Street Market](/resources/mobile-tutorial/Shangri-LaMarketStreet.png)  
 Here ye can sell 'n purchase items t' 'n from other crewmates within the game fer BTC.  
 
 Keep in mind that whenever ye wants t' sell or buy an item on the market, ye will 'ave t' complete a captcha o' 4 numbers.  'tis in ship t' prevent bots from usin' 'n manipulatin' the crewmate market.
