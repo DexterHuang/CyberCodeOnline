@@ -70,6 +70,8 @@
 
 ### 傳聞 (!)
 
+![DungeonLoreguy](/resources/mobile-tutorial/DungeonLoreguy.png)
+
 地下城周圍點綴著感嘆號，提供遊戲傳聞的片段。這些不會對你的遊戲或地下城產生影響，但可能會很有趣。
 
 ### 寶物/BOSS房
