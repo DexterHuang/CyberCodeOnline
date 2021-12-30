@@ -26,6 +26,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 ### 2021/12/30 v0.754
+- NEW - Added time skip tutorial thanks to `ManzTellen`'s contribution
 - UI - Updated npc page UI
 - UI - Updated login page UI 
 - NEW - You can now only show craftable receipts in crafting menu 
