@@ -23,7 +23,7 @@
 * unfriendly, disrespectful to others opinion / offensive or pssive agressive messages (Expample, racist, sexist comments)
 * non-family-friendly chat
 * Spamming / Trolling 
-* Advertising / Mentioning of other games or anything else
+* Advertising / Mentioning other games or anything else
 * Impersonating others  
 * Placing links in chat
 * Posting ads about your market sales more then once in 15 minutes
@@ -31,5 +31,5 @@
 #### Allowed(as long as you don't breach the rules above):
 * Emojis😃 / Kaomoji ~ヾ(＾∇＾) / 𝕹𝖔𝖓𝖊-𝖘𝖙𝖆𝖓𝖉𝖆𝖗𝖉 𝕱𝖔𝖓𝖙𝖘 (Must be easily readble and does not create chaos)
 * Roleplay / Roleplaying
-* Discussing Politics, Religions, or COVID-19
-* Using any language in any chat channel
+* Discussing Politics, Religions, or COVID-19 (and any major events)
+* Using any language in any chat channel.
