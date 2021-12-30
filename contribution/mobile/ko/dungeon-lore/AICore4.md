@@ -1,0 +1,11 @@
+*[You find a textbook and flip to a random page.]*
+
+![AI Textbook](/resources/lore/textbookAI440.png)
+# Ethical and Religious Concerns with Cybernetic Cerebral Enhancements
+> (Part 4 of 8 aicore series)
+
+In the year 2071, the World Government Organization (WGO) passed the CAPABLE Act (Cerebral Accelerator Potentiated Ability at Birth or by Lawful Equipment Act), requiring every newborn baby to be implanted with a Cerebral Accelerator, and granting all legal citizens of the United World the right to receive an implant. This new law sparked a lot of controversy from human rights organizations and highly religious citizens. Human rights organizations argued that forcing people to get implanted is a violation of human rights, including the right to privacy and the right to bodily autonomy. The WGO press conference addressed this issue, stating that having everyone implanted would be crucial for improving every citizen's quality of life; Cerebral Accelerator implants are meant to benefit the users, and are provided at no cost by the WGO. 
+
+Highly religious groups voiced concern that improving, modifying, and going beyond the capabilities of the human brain given by God is blasphemy and represents an attempt to surpass Him. Many of these groups started "outreach" efforts to pregnant people, producing pamphlets and delivering speeches emphasizing that failing to fight implantation guaranteed their eternal damnation. Some religious sects even began engaging in organized harassment campaigns—which more than occasionally took a violent turn—targeting hospital workers thought to be "accomplices" to implantation. These confrontations invited the attention and attendance of counterprotesters intending to protect hospital workers and support the vision of intellectual equality promised by the original law.
+
+Because of all the controversy and civil unrest, the WGO amended the CAPABLE Act in 2072 to make optional the previously mandatory Cerebral Accelerator implants while tying certain benefits to possession of the implant. Those who opt to receive a Cerebral Accelerator will receive free healthcare, higher Universal Basic Income, access to cortex transfers in case the user's body suddenly is unable to keep the brain alive, and ability to use AICOREs to automate their lives.

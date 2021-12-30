@@ -1,0 +1,9 @@
+*[You pull a textbook from a shelf and flip to a random page.]*  
+![World Government: an Introduction](/resources/lore/textbookgov25.png)
+
+*[Something about this page seems... off. The font and design aren't quite the same as the other pages, and it almost seems like... ah! A sticker with a large block of text has been affixed to one of the pages, seemingly covering up whatever was previously written. Whoever placed it there did it with professional efficacy, too - there's no way you could peel it off and find out what the original text said.]*
+
+# Life Under the Rule of a Unified Global Government
+> (Part 5 of 6 WGO Series)
+
+Since the formation of the World Governing Organization (WGO) the world has now entered an era of relative peace and harmony. There are of course still some small insurgences happening all over the world, but they are usually quelled quickly by the cybernetically enhanced global mercenary organization "Cyber Code" members. Long has gone the sight of homeless people in poverty, mass unemployment, high crime rates, and countries with outdated technological advances. All citizens now recieve something called "Universal Basic Income" where everyone is guaranteed to have enough BitCoin to sustain their daily lives. Housing and daily necessities are provided free of charge by WGO authorized retailers, while for luxury items that are not essential for survival you would need to get a job to own them. Looking for jobs after the WGO has been established has never been easier since everyone now has a cyberneural implant, a very advanced AI can determine with 99.9999973% accuracy the best suited job for a specific individual, their level of talent, skill and growth potential by doing a short 5 minute neural sync. Some form of economical gap still exists in the form of rich talented people, but every individual under WGO government are guaranteed to have a basic fulfilling life.
