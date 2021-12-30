@@ -25,6 +25,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates
+### 2021/12/30 v0.754
+- UI - Updated npc page UI
+- UI - Updated login page UI 
+- NEW - You can now only show craftable receipts in crafting menu 
+
 ### 2021/12/28 v0.754
 - NEW - Calibration tutorial contributed by community is added to tutorial menu
 
