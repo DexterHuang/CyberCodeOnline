@@ -70,6 +70,7 @@ Wanna
 [FreddyAmonov](https://github.com/FreddyAmonov)
 [Makasin22](https://github.com/Makasin22)
 [ZHAama](https://github.com/ZHAama)
+[Alysson](https://github.com/alyssonmonteiro)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
