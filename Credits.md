@@ -24,7 +24,6 @@ Proxxie
 
 ## Translators
 [alfaice](https://github.com/alfaice)
-[Alysson](https://github.com/alyssonmonteiro)
 [AlphaC58](https://github.com/AlphaC58)
 [ArbiwReist](https://github.com/Meawresion)
 [CynexXT](https://github.com/CynexXT)
