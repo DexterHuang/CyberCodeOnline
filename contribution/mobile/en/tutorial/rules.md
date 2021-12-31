@@ -8,8 +8,8 @@
 * Never ever use in-game chat (including email) to send any kind of sensitive/personal information. Game chat is NOT encrypted and NOT secure. CCO does not bare any responsibility to protect your information you write in chat. Bear in mind that moderators have access to the chat log for moderation purposes. 
 
 ### Game Rules
-* The use of bots and scripts are prohibited
-* No tool assistance
+* The use of bots and scripts are prohibited.
+* No tool assistance.
 * No excessive alts.
 * Don't exploit bugs, report them instead
 * Keep usernames family friendly
@@ -22,14 +22,14 @@
 #### Not Allowed: 
 * unfriendly, disrespectful to others opinion / offensive or pssive agressive messages (Expample, racist, sexist comments)
 * non-family-friendly chat
-* Spam / Troll 
-* Advertise / Mention of other game 
-* Impersonate others  
-* Place links in chat
+* Spamming / Trolling 
+* Advertising / Mentioning other games or anything else
+* Impersonating others  
+* Placing links in chat
 * Posting ads about your market sales more then once in 15 minutes
 
 #### Allowed(as long as you don't breach the rules above):
-* Emoji😃 / Kaomoji ~ヾ(＾∇＾) / 𝕹𝖔𝖓𝖊-𝖘𝖙𝖆𝖓𝖉𝖆𝖗𝖉 𝕱𝖔𝖓𝖙𝖘 (Must be easily readble and does not create chaos)
-* Roleplay
-* Discussing Politic, Religion, or COVID
-* Using any language in any chat channel
+* Emojis😃 / Kaomoji ~ヾ(＾∇＾) / 𝕹𝖔𝖓𝖊-𝖘𝖙𝖆𝖓𝖉𝖆𝖗𝖉 𝕱𝖔𝖓𝖙𝖘 (Must be easily readble and doesn't create chaos)
+* Roleplay / Roleplaying
+* Discussing Politics, Religions, or COVID-19 (and any major events)
+* Using any language in any chat channel.
