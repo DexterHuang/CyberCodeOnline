@@ -1,12 +1,12 @@
-## Chat
+## チャット
 
-There are 3 types of chat rooms in CyberCode Online currently: 
-- Global (or General Chat) - Where everyone can chat freely and interact with each other.
-- Gang - Only the members of your gang can chat and see the messages sent in that channel. You can tag other people in the gang chat as well.
-- Private Messages (Mail) - Where you can privately chat with people. You will also receive notifications as in a form of Mail from the System after you sent items to someone or vice versa, when someone bought your listings on the Player Market or when you receive a Street Cred from someone.
+CyberCode Onlineには、現在3種類のチャットルームがあります。
+・グローバル（または一般的なチャット） - 誰もが自由にチャットし、互いに交流できる場所
+・ギャング - ギャングのメンバーだけがチャットをすることができ、そのチャンネルで送信されたメッセージを見ることができます。ギャングチャットでは、他の人をタグ付けすることもできます。
+・プライベートメッセージ（メール） - プライベートなチャットができる場所です。また、アイテムを送った時や逆に送った時、プレイヤーマーケットに出品した商品が買われた時、ストリートクレジットを受け取った時などにシステムからメールという形で通知が届きます。
 
-In order to mention (or tag) someone in the Global chat, you can use '@' and the name of the user. As you type their name, a list will appear and you can select the desired name from that list.
+グローバルチャットで誰かにメンション（タグ付け）するには、「＠」とユーザー名を使用します。名前を入力するとリストが表示され、その中から希望する名前を選択することができます。
 
-The player mentioned by you will receive a notification that you mentioned them. 
+あなたがメンションしたプレイヤーには、あなたがメンションしたことが通知されます。
 
-Note: You can't mention (tag) someone in the private chat for obvious reasons.
+注：プライベートチャットでは、明らかな理由により、誰かをメンション（タグ付け）することはできません。
