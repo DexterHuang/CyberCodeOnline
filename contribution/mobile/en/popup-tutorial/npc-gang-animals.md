@@ -1,1 +1,0 @@
-Animals gang focuses on physical strength and rejects using of any cybernetic enhancement,  therefore to combat them the best way is fight them head on with stronger brutality. Lethality based user deals 10% to them. Deals 10% damage to Disruptor based user
