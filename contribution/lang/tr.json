@@ -1212,6 +1212,19 @@
  	 	 	 	"trans": "Yüksek tier eşyalarının rastgele düşüş şansını arttırmak için tasarlanmış avans istismarlarını içeren bir Shard. Efsanevi konteynerlerin (istiflenmez) {3} dakikalar için (istiflenmez) eklenmesi için ek bırakma olasılığı (${legendaryChance}%}%}) ve epik (${epicChance}%) öğeleri kazanır. * ÖNEMLİ: Buff, buff etkinken yalnızca kilit açma işlemi başlatıldığında uygulanır *.",
  	 	 	 	"eng": "A shard that contains advance exploits designed to increase random drop chance of high tier items. Gains additional drop chance of Legendary (${legendaryChance}%) and Epic (${epicChance}%) items when unlocking Legendary containers (Not stackable) for ${time} minute. *IMPORTANT: The buff will only apply when the unlocking process is started while the buff is active*."
  	 	 	}
+ 	 	},
+ 	 	"flashGrenade": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Flaş bombası",
+ 	 	 	 	"eng": "Flash Grenade"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"escape"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Düşmanları kör etmek için kullanılabilecek bir flaş bombası. Kaçış şansınızı ${escape}%",
+ 	 	 	 	"eng": "A flash grenade that can be used to blind enemies. increasing your chance of escape by ${escape}%"
+ 	 	 	}
  	 	}
  	},
  	"action": {
@@ -2567,7 +2580,10 @@
  	 	 	},
  	 	 	"upgradeModuleTitle": {
  	 	 	 	"trans": "Yükseltme",
- 	 	 	 	"eng": "Upgrades"
+ 	 	 	 	"eng": "upgrade slot ${index}",
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"index"
+ 	 	 	 	]
  	 	 	},
  	 	 	"lockDescription": {
  	 	 	 	"trans": "Yanlışlıkla satış veya yok edilmesini önler",
@@ -2633,6 +2649,10 @@
  	 	 	 	},
  	 	 	 	"trans": "Fabrika ayarları",
  	 	 	 	"eng": "Factory Reset"
+ 	 	 	},
+ 	 	 	"quality": {
+ 	 	 	 	"trans": "kalite",
+ 	 	 	 	"eng": "quality"
  	 	 	}
  	 	},
  	 	"apps": {
@@ -3158,6 +3178,14 @@
  	 	 	"lowPrintLevelTip2": {
  	 	 	 	"trans": "Daha fazla önbellek yazarak daha güçlü silahlar oluşturmak için baskı sıralamanızı arttırın",
  	 	 	 	"eng": "Increase your Printing Rank to create more powerful weapons by printing more caches"
+ 	 	 	},
+ 	 	 	"quickSlots": {
+ 	 	 	 	"trans": "Hızlı yuvalar",
+ 	 	 	 	"eng": "Quick Slots"
+ 	 	 	},
+ 	 	 	"equipped": {
+ 	 	 	 	"trans": "Donanımlı",
+ 	 	 	 	"eng": "Equipped"
  	 	 	}
  	 	},
  	 	"quickSlot": {
@@ -3672,6 +3700,66 @@
  	 	 	"description": {
  	 	 	 	"trans": "Konteynerlerden ek epik damla şansı",
  	 	 	 	"eng": "Additional epic drop chance from containers"
+ 	 	 	}
+ 	 	},
+ 	 	"m1Dmg": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Hayvanlar Nemesis",
+ 	 	 	 	"eng": "Animals Nemesis"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Hayvan çetesinin düşmanlarına zarar verir",
+ 	 	 	 	"eng": "Increases damage to Enemies of Animals gang"
+ 	 	 	}
+ 	 	},
+ 	 	"m2Dmg": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Voodoo nemesis",
+ 	 	 	 	"eng": "Voodoo Nemesis"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Voodoo erkek çetesinin düşmanlarına zarar verir",
+ 	 	 	 	"eng": "Increases damage to Enemies of Voodoo Boys gang"
+ 	 	 	}
+ 	 	},
+ 	 	"m3Dmg": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Scavengers Nemesis",
+ 	 	 	 	"eng": "Scavengers Nemesis"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Scavengers çetesinin düşmanlarına zarar verir",
+ 	 	 	 	"eng": "Increases damage to Enemies of Scavengers gang"
+ 	 	 	}
+ 	 	},
+ 	 	"m1V": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Lethal",
+ 	 	 	 	"eng": "Lethal"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Scavengers çetesinin düşmanları size hasar arttırır",
+ 	 	 	 	"eng": "Enemies of Scavengers gang deals increased damage to you"
+ 	 	 	}
+ 	 	},
+ 	 	"m2V": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Kırıcı",
+ 	 	 	 	"eng": "Disruptor"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Hayvanların düşmanları çete size hasar arttırır",
+ 	 	 	 	"eng": "Enemies of Animals gang deals increased damage to you"
+ 	 	 	}
+ 	 	},
+ 	 	"m3V": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Geçici",
+ 	 	 	 	"eng": "Makeshift"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Voodoo Boys Gang'in düşmanları size hasar arttırır",
+ 	 	 	 	"eng": "Enemies of Voodoo Boys gang deals increased damage to you"
  	 	 	}
  	 	}
  	},
@@ -4200,6 +4288,10 @@
  	 	"rngInterferer": {
  	 	 	"trans": "Rng girişim",
  	 	 	"eng": "RNG Interference"
+ 	 	},
+ 	 	"flashGrenade": {
+ 	 	 	"trans": "Flaş bombası",
+ 	 	 	"eng": "Flash Grenade"
  	 	}
  	},
  	"inventory": {
@@ -5023,6 +5115,50 @@
  	 	 	 	],
  	 	 	 	"trans": "${tierPart} ${name}",
  	 	 	 	"eng": "${tierPart} ${name}"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"misc,durability": {
+ 	 	"trans": "dayanıklılık",
+ 	 	"eng": "durability"
+ 	},
+ 	"equipmentMarks": {
+ 	 	"mark1": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "Lethal",
+ 	 	 	 	"eng": "Lethal"
+ 	 	 	}
+ 	 	},
+ 	 	"mark2": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "Kırıcı",
+ 	 	 	 	"eng": "Disruptor"
+ 	 	 	}
+ 	 	},
+ 	 	"mark3": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "Geçici",
+ 	 	 	 	"eng": "Makeshift"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"npcGangs": {
+ 	 	"gang1": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "Hayvanlar",
+ 	 	 	 	"eng": "Animals"
+ 	 	 	}
+ 	 	},
+ 	 	"gang2": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "Voodoo çocuklar",
+ 	 	 	 	"eng": "Voodoo boys"
+ 	 	 	}
+ 	 	},
+ 	 	"gang3": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "Çöpçü",
+ 	 	 	 	"eng": "Scavengers"
  	 	 	}
  	 	}
  	}

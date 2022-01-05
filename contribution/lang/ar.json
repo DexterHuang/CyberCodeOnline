@@ -1212,6 +1212,19 @@
  	 	 	 	"trans": "قشرة تحتوي على استغلال متقدم مصممة لزيادة فرصة انخفاض عشوائي للعناصر عالية المستوى. تكسب فرصة إسقاط إضافية للأسطوري (${legendaryChance}٪) والعناصر الملحمية (٪ {{$}٪) عند فتح الحاويات الأسطورية (غير تكديس) لمدة {3} دقيقة. * هام: سيتم تطبيق BIP فقط عند بدء تشغيل عملية إلغاء القفل أثناء نشط BIFC *.",
  	 	 	 	"eng": "A shard that contains advance exploits designed to increase random drop chance of high tier items. Gains additional drop chance of Legendary (${legendaryChance}%) and Epic (${epicChance}%) items when unlocking Legendary containers (Not stackable) for ${time} minute. *IMPORTANT: The buff will only apply when the unlocking process is started while the buff is active*."
  	 	 	}
+ 	 	},
+ 	 	"flashGrenade": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "قنبلة يدوية",
+ 	 	 	 	"eng": "Flash Grenade"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"escape"
+ 	 	 	 	],
+ 	 	 	 	"trans": "قنابل فلاش التي يمكن استخدامها لأعداء أعمى. زيادة فرصتك للهروب بمقدار {0}٪",
+ 	 	 	 	"eng": "A flash grenade that can be used to blind enemies. increasing your chance of escape by ${escape}%"
+ 	 	 	}
  	 	}
  	},
  	"action": {
@@ -2567,7 +2580,10 @@
  	 	 	},
  	 	 	"upgradeModuleTitle": {
  	 	 	 	"trans": "ترقيات",
- 	 	 	 	"eng": "Upgrades"
+ 	 	 	 	"eng": "upgrade slot ${index}",
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"index"
+ 	 	 	 	]
  	 	 	},
  	 	 	"lockDescription": {
  	 	 	 	"trans": "يمنع البيع العرضي أو التدمير",
@@ -2633,6 +2649,10 @@
  	 	 	 	},
  	 	 	 	"trans": "اعدادات المصنع",
  	 	 	 	"eng": "Factory Reset"
+ 	 	 	},
+ 	 	 	"quality": {
+ 	 	 	 	"trans": "جودة",
+ 	 	 	 	"eng": "quality"
  	 	 	}
  	 	},
  	 	"apps": {
@@ -3158,6 +3178,14 @@
  	 	 	"lowPrintLevelTip2": {
  	 	 	 	"trans": "زيادة رتبة الطباعة الخاصة بك لإنشاء أسلحة أكثر قوة عن طريق طباعة المزيد من المخابرات",
  	 	 	 	"eng": "Increase your Printing Rank to create more powerful weapons by printing more caches"
+ 	 	 	},
+ 	 	 	"quickSlots": {
+ 	 	 	 	"trans": "فتحات سريعة",
+ 	 	 	 	"eng": "Quick Slots"
+ 	 	 	},
+ 	 	 	"equipped": {
+ 	 	 	 	"trans": "مسلح",
+ 	 	 	 	"eng": "Equipped"
  	 	 	}
  	 	},
  	 	"quickSlot": {
@@ -3672,6 +3700,66 @@
  	 	 	"description": {
  	 	 	 	"trans": "فرصة إسقاط ملحمة إضافية من الحاويات",
  	 	 	 	"eng": "Additional epic drop chance from containers"
+ 	 	 	}
+ 	 	},
+ 	 	"m1Dmg": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "عدو الحيوانات",
+ 	 	 	 	"eng": "Animals Nemesis"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "يزيد من الضرر لأعداء عصابات الحيوانات",
+ 	 	 	 	"eng": "Increases damage to Enemies of Animals gang"
+ 	 	 	}
+ 	 	},
+ 	 	"m2Dmg": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "فودو عدو",
+ 	 	 	 	"eng": "Voodoo Nemesis"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "يزيد من الأضرار التي لحقت أعداء عصابة الأولاد الفودو",
+ 	 	 	 	"eng": "Increases damage to Enemies of Voodoo Boys gang"
+ 	 	 	}
+ 	 	},
+ 	 	"m3Dmg": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "سكاليد العدو",
+ 	 	 	 	"eng": "Scavengers Nemesis"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "يزيد من الأضرار التي لحقت أعداء عصابات الزبالين",
+ 	 	 	 	"eng": "Increases damage to Enemies of Scavengers gang"
+ 	 	 	}
+ 	 	},
+ 	 	"m1V": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "قاتلة",
+ 	 	 	 	"eng": "Lethal"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "أعداء النجماء عصابات يتعامل مع الضرر المتزايد لك",
+ 	 	 	 	"eng": "Enemies of Scavengers gang deals increased damage to you"
+ 	 	 	}
+ 	 	},
+ 	 	"m2V": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "التعطيل",
+ 	 	 	 	"eng": "Disruptor"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "أعداء الحيوانات يتعامل عصابات زيادة الضرر لك",
+ 	 	 	 	"eng": "Enemies of Animals gang deals increased damage to you"
+ 	 	 	}
+ 	 	},
+ 	 	"m3V": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "makeshift",
+ 	 	 	 	"eng": "Makeshift"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "أعداء Voodoo Boyn Gang يتعامل مع الضرر المتزايد لك",
+ 	 	 	 	"eng": "Enemies of Voodoo Boys gang deals increased damage to you"
  	 	 	}
  	 	}
  	},
@@ -4200,6 +4288,10 @@
  	 	"rngInterferer": {
  	 	 	"trans": "تداخل RNG",
  	 	 	"eng": "RNG Interference"
+ 	 	},
+ 	 	"flashGrenade": {
+ 	 	 	"trans": "قنبلة يدوية",
+ 	 	 	"eng": "Flash Grenade"
  	 	}
  	},
  	"inventory": {
@@ -5023,6 +5115,50 @@
  	 	 	 	],
  	 	 	 	"trans": "${tierPart} ${name}",
  	 	 	 	"eng": "${tierPart} ${name}"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"misc,durability": {
+ 	 	"trans": "متانة",
+ 	 	"eng": "durability"
+ 	},
+ 	"equipmentMarks": {
+ 	 	"mark1": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "قاتلة",
+ 	 	 	 	"eng": "Lethal"
+ 	 	 	}
+ 	 	},
+ 	 	"mark2": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "التعطيل",
+ 	 	 	 	"eng": "Disruptor"
+ 	 	 	}
+ 	 	},
+ 	 	"mark3": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "makeshift",
+ 	 	 	 	"eng": "Makeshift"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"npcGangs": {
+ 	 	"gang1": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "الحيوانات",
+ 	 	 	 	"eng": "Animals"
+ 	 	 	}
+ 	 	},
+ 	 	"gang2": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "الفودو الأولاد",
+ 	 	 	 	"eng": "Voodoo boys"
+ 	 	 	}
+ 	 	},
+ 	 	"gang3": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "الزبال",
+ 	 	 	 	"eng": "Scavengers"
  	 	 	}
  	 	}
  	}

@@ -1212,6 +1212,19 @@
  	 	 	 	"trans": "เศษที่มีการหาประโยชน์ล่วงหน้าที่ออกแบบมาเพื่อเพิ่มโอกาสแบบสุ่มของรายการระดับสูง ได้รับโอกาสลดลงเพิ่มเติมของตำนาน (${legendaryChance}%) และมหากาพย์ (${epicChance}%) เมื่อปลดล็อกคอนเทนเนอร์ในตำนาน (ไม่สามารถวางซ้อนกันได้) สำหรับ ${time} นาที * สำคัญ: Buff จะใช้เมื่อกระบวนการปลดล็อกเริ่มทำงานในขณะที่บัฟเฟอร์เปิดใช้งาน *",
  	 	 	 	"eng": "A shard that contains advance exploits designed to increase random drop chance of high tier items. Gains additional drop chance of Legendary (${legendaryChance}%) and Epic (${epicChance}%) items when unlocking Legendary containers (Not stackable) for ${time} minute. *IMPORTANT: The buff will only apply when the unlocking process is started while the buff is active*."
  	 	 	}
+ 	 	},
+ 	 	"flashGrenade": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "ระเบิดมือแฟลช",
+ 	 	 	 	"eng": "Flash Grenade"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"escape"
+ 	 	 	 	],
+ 	 	 	 	"trans": "ระเบิดมือแฟลชที่สามารถใช้ในการตาบอดศัตรู เพิ่มโอกาสในการหลบหนีจาก ${escape}%",
+ 	 	 	 	"eng": "A flash grenade that can be used to blind enemies. increasing your chance of escape by ${escape}%"
+ 	 	 	}
  	 	}
  	},
  	"action": {
@@ -2567,7 +2580,10 @@
  	 	 	},
  	 	 	"upgradeModuleTitle": {
  	 	 	 	"trans": "การอัพเกรด",
- 	 	 	 	"eng": "Upgrades"
+ 	 	 	 	"eng": "upgrade slot ${index}",
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"index"
+ 	 	 	 	]
  	 	 	},
  	 	 	"lockDescription": {
  	 	 	 	"trans": "ป้องกันการขายหรือการทำลายโดยไม่ตั้งใจ",
@@ -2633,6 +2649,10 @@
  	 	 	 	},
  	 	 	 	"trans": "รีเซ็ตเป็นค่าจากโรงงาน",
  	 	 	 	"eng": "Factory Reset"
+ 	 	 	},
+ 	 	 	"quality": {
+ 	 	 	 	"trans": "คุณภาพ",
+ 	 	 	 	"eng": "quality"
  	 	 	}
  	 	},
  	 	"apps": {
@@ -3158,6 +3178,14 @@
  	 	 	"lowPrintLevelTip2": {
  	 	 	 	"trans": "เพิ่มอันดับการพิมพ์ของคุณเพื่อสร้างอาวุธที่ทรงพลังมากขึ้นโดยการพิมพ์แคชมากขึ้น",
  	 	 	 	"eng": "Increase your Printing Rank to create more powerful weapons by printing more caches"
+ 	 	 	},
+ 	 	 	"quickSlots": {
+ 	 	 	 	"trans": "สล็อตด่วน",
+ 	 	 	 	"eng": "Quick Slots"
+ 	 	 	},
+ 	 	 	"equipped": {
+ 	 	 	 	"trans": "ติดตั้ง",
+ 	 	 	 	"eng": "Equipped"
  	 	 	}
  	 	},
  	 	"quickSlot": {
@@ -3672,6 +3700,66 @@
  	 	 	"description": {
  	 	 	 	"trans": "โอกาสที่หยดมหากาพย์เพิ่มเติมจากภาชนะบรรจุ",
  	 	 	 	"eng": "Additional epic drop chance from containers"
+ 	 	 	}
+ 	 	},
+ 	 	"m1Dmg": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "สัตว์ซวย",
+ 	 	 	 	"eng": "Animals Nemesis"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "เพิ่มความเสียหายให้กับศัตรูของแก๊งสัตว์",
+ 	 	 	 	"eng": "Increases damage to Enemies of Animals gang"
+ 	 	 	}
+ 	 	},
+ 	 	"m2Dmg": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "วู้ดวูดู",
+ 	 	 	 	"eng": "Voodoo Nemesis"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "เพิ่มความเสียหายให้กับศัตรูของ Voodoo Boys Gang",
+ 	 	 	 	"eng": "Increases damage to Enemies of Voodoo Boys gang"
+ 	 	 	}
+ 	 	},
+ 	 	"m3Dmg": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Scavengers Nemesis",
+ 	 	 	 	"eng": "Scavengers Nemesis"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "เพิ่มความเสียหายให้กับศัตรูของ Scavengers Gang",
+ 	 	 	 	"eng": "Increases damage to Enemies of Scavengers gang"
+ 	 	 	}
+ 	 	},
+ 	 	"m1V": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "ร้ายแรง",
+ 	 	 	 	"eng": "Lethal"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "ศัตรูของ Scavengers Gang ข้อเสนอเพิ่มความเสียหายให้กับคุณ",
+ 	 	 	 	"eng": "Enemies of Scavengers gang deals increased damage to you"
+ 	 	 	}
+ 	 	},
+ 	 	"m2V": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "ขัดขวาง",
+ 	 	 	 	"eng": "Disruptor"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "ศัตรูของสัตว์ Gang ข้อตกลงเพิ่มความเสียหายให้กับคุณ",
+ 	 	 	 	"eng": "Enemies of Animals gang deals increased damage to you"
+ 	 	 	}
+ 	 	},
+ 	 	"m3V": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "การชั่วคราว",
+ 	 	 	 	"eng": "Makeshift"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "ศัตรูของ Voodoo Boys Gang ข้อเสนอเพิ่มความเสียหายให้กับคุณ",
+ 	 	 	 	"eng": "Enemies of Voodoo Boys gang deals increased damage to you"
  	 	 	}
  	 	}
  	},
@@ -4200,6 +4288,10 @@
  	 	"rngInterferer": {
  	 	 	"trans": "การรบกวน rng",
  	 	 	"eng": "RNG Interference"
+ 	 	},
+ 	 	"flashGrenade": {
+ 	 	 	"trans": "ระเบิดมือแฟลช",
+ 	 	 	"eng": "Flash Grenade"
  	 	}
  	},
  	"inventory": {
@@ -5023,6 +5115,50 @@
  	 	 	 	],
  	 	 	 	"trans": "${tierPart} ${name}",
  	 	 	 	"eng": "${tierPart} ${name}"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"misc,durability": {
+ 	 	"trans": "ความทนทาน",
+ 	 	"eng": "durability"
+ 	},
+ 	"equipmentMarks": {
+ 	 	"mark1": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "ร้ายแรง",
+ 	 	 	 	"eng": "Lethal"
+ 	 	 	}
+ 	 	},
+ 	 	"mark2": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "ขัดขวาง",
+ 	 	 	 	"eng": "Disruptor"
+ 	 	 	}
+ 	 	},
+ 	 	"mark3": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "การชั่วคราว",
+ 	 	 	 	"eng": "Makeshift"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"npcGangs": {
+ 	 	"gang1": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "สัตว์",
+ 	 	 	 	"eng": "Animals"
+ 	 	 	}
+ 	 	},
+ 	 	"gang2": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "เด็กชายวูดู",
+ 	 	 	 	"eng": "Voodoo boys"
+ 	 	 	}
+ 	 	},
+ 	 	"gang3": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "สกาฟเจอร์ส",
+ 	 	 	 	"eng": "Scavengers"
  	 	 	}
  	 	}
  	}
