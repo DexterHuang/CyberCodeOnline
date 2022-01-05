@@ -1,8 +1,8 @@
-## Creating an Account
+## アカウントの作成
 
-Currently you can use Google, Apple or any email accounts to register.
-You will be then taken to a screen where you will choose your username. Make sure to choose wisely as this is permanent and cannot be changed.
+現在、Google、Apple、または任意のメールアカウントを使用して登録することができます。
+その後、ユーザー名を選択する画面になります。このユーザーネームは永久に変更することができませんので、慎重にお選びください。
 
-## Logging in
+## ログイン
 
-If you already have an account, fill in the respective blanks to sign in or by clicking on the Google/Apple sign in buttons.
+すでにアカウントをお持ちの方は、それぞれの空欄を埋めてログインするか、GoogleまたはAppleのサインインボタンをクリックしてください。
