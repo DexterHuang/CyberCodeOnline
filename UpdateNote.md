@@ -25,6 +25,20 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates
+### 2022/01/05 v0.754
+#### Enemy Gangs 
+All enemies has a gang that it belongs to, each area will have different 'dominant' gang.
+Enemy gangs can include: 
+- `Animals`: Increased damage to `Disruptor` players
+- `Voodoo boys`: Increased damage to `Makeshift` players
+- `Scavengers`: Increased damage to `Lethal` players
+
+#### Equipment marks
+All equipment (Except backpacks) have a `Mark`, each mark has different effect:
+- `Lethal`: Increase damage to Animals enemies
+- `Disruptor`: Increase damage to Voodoo boys enemies
+- `Makeshift`: Increase damage to Scavengers enemies
+
 ### 2022/01/02 v0.754
  - BALANCE - `RNG Interferer` is now not stackable and time is reduced to 2 minutes, however unlocking task started while the buff is active will get the buff even when by the time task is completed the buff is already long gone. This is to ensure that each of the `RNG Interferer` is only one use, to mitigate the issue of sometimes skip takes longer to finish base on server status and amount of players; this way, the value of `RNG Interferer` stays exactly the same regardless of how many people are skipping or how fast the server is skipping players.
 
