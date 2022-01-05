@@ -33,6 +33,12 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 -   tutorial/\* - Desktop Tutorial
 -   contribution/lang/ - Localizations
 
+### Simply edit file tutorial
+
+https://youtu.be/u-fvMsyJKH4
+
+If anyone has time to make a better one, please let me know :D
+
 ### Screenshots
 
 #### Mobile
