@@ -41,6 +41,7 @@ All equipment (Except backpacks) have a `Mark`, each mark has different effect:
 You `Mark` is determined by the most mark you have
 - UI - Updated item details page
 - UI - List of attachable upgrade module is removed, insetad click on empty slot to select upgrade module
+- NEW - Enemy names and boss names are now available for translation in `mobil/{lang}/procedural-names.json`
 
 ### 2022/01/02 v0.754
  - BALANCE - `RNG Interferer` is now not stackable and time is reduced to 2 minutes, however unlocking task started while the buff is active will get the buff even when by the time task is completed the buff is already long gone. This is to ensure that each of the `RNG Interferer` is only one use, to mitigate the issue of sometimes skip takes longer to finish base on server status and amount of players; this way, the value of `RNG Interferer` stays exactly the same regardless of how many people are skipping or how fast the server is skipping players.
