@@ -16,7 +16,7 @@ In summary, enemy gangs name & trait as follows:
 
 One of the few ways to know which gangs are dominating the area is through **Nearby Enemies** or surfing around **Dungeon**. By seeing their gang name on the top of its health bar, you can notify who's who very quickly. Players can still change their gear in-fight stance if they think the enemies will benefit from its **Mark** spots.
 
-## Justifying Mark
+## Equipment Mark
 
 All gear / equipment (Except backpacks & modules) has a **Mark** that attach to it, which has a different effect depending on their enemy's influence.
 
@@ -29,6 +29,8 @@ In summary, marks name & trait as follows:
 - **Makeshift**: Increase damage to **Scavengers** enemies (up to 10%)
 
 Keep in mind that every gear that gain via print or drop either before or after **2022/01/05 update**, will have random Mark that's automaticly attached to it.
+
+## Knowing Your Designated Mark
 
 ![EnemyGangMark](/resources/mobile-tutorial/EnemyGangMark.png)
 
