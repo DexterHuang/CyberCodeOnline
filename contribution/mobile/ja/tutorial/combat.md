@@ -1,61 +1,61 @@
-## Combat
+## 戦闘
 
-In every location, you will see a list of Nearby Enemies and three Dungeons which you can enter. Locations are separated by level groups.  To unlock new areas, you'll have to gather three key fragments from the dungeons. You can then brute force a new key with your key fragments at the Terminal.
+各駅から行くことのできるロケーションには、「近くの敵」と入場可能な3つのダンジョンのリストが表示されます。ロケーションはレベルグループごとに分かれています。新しいエリアのロックを解除するためには、ダンジョンにある3つのキーのかけらを集める必要があります。ターミナルにて、集めたキーのかけらを使ってブルートフォースアタックをすることで、次のエリアのキーを奪取することができます。
   
-To fight Nearby Enemies, select any of the listed enemies to enter combat.  You are unable to heal while fighting Nearby Enemies, but if you are about to die, click Escape in the top left. While inside a dungeon, clicking on the enemy, represented by an alien logo will draw you into combat with it.  
+近くの敵と戦うには、リストにある敵を選んで戦闘を開始します。近くの敵との戦闘中は回復することができませんが、HPが尽きそうになったら左上の「エスケープ」をクリックしてください。ダンジョン内では、エイリアンのマークで表される敵をクリックすると、その敵との戦闘になります。
 
-## Primary Attack
-Attack the enemy with your equipped primary weapon. This weapon does not use ammo.
+## メインウェポンでの攻撃（main）
+装備したメインウェポンで敵を攻撃します。この武器は弾薬を消費しません。
 
-## Special Attack
-Attack the enemy with your equipped special weapon. Deal 120% damage to shields. This weapon consumes one Energy Cell per shot.
+## スペシャルウェポンでの攻撃（special）
+装備したスペシャルウェポンで敵を攻撃します。この攻撃はシールドに対して120%のダメージを与えます。またこの武器は1発につきエナジーセルを1つ消費します。
 
-## Destructive Attack
-Attack the enemy with your equipped destructive weapon. Deal 50% damage to shields. This weapon consumes one Antimatter charge per shot.
+## 量子兵器での攻撃（quantum）
+装備した量子兵器で敵を攻撃します。この攻撃はシールドに対して50%のダメージを与えます。またこの武器は1発につきアンチマターチャージを1つ消費します。
 
-## Use Item
-You have 3 Use Item slots.  You can bind medical supplies to these slots and use them inside of Dungeons.  You can bind Experience Memories, but this is not necessary since you can use them directly from your inventory to gain Player Experience.
+## アイテムの使用
+アイテムを使用するクイックスロットが3つあります。このスロットに回復アイテムを装備して、ダンジョン内で使用することができます。エクスペリエンスメモリーを装備することもできますが、インベントリから直接使用することでレベルEXPを得ることができるため、装備する必要はありません。
 
-## Escape
-You can attempt to escape from combat by clicking Escape in the top left. The success rate for escaping combat outside a dungeon is always 100%. However if you are fighting inside a dungeon and try to escape, the chance will be based on your escape stat which is taken from your armour and upgrade stats. If you fail to escape, you will then be attacked by the enemy without dealing any damage.  
+## エスケープ
+左上の「エスケープ」をクリックすると、戦闘からの離脱を試みることができます。ダンジョン外でのエスケープの成功率は常に100％です。しかし、ダンジョン内で戦闘しているときにエスケープを試みる場合、その成功率は装備とアップグレードモジュールのステータスのうち、エスケープ（escape）のステータスに基づいて決定されます。エスケープに失敗した場合、ダメージを与えられないまま敵の攻撃を受けることになります。
   
-The combat screen will show you how much health and shield you and your opponent both have, as well as the amount of ammo you have left for each of your weapons and the approximate damage they can do.  
+戦闘画面では、自分と相手のHPやシールドの量、各武器の残弾数、およそのダメージ量が表示されます。 
 
-## Death
+## 死亡（心停止）
 
-If you die, you won't lose any of your items. However you will lose 10% of your total BTC and Player XP. This means you might lose a level if you die too much.
+死亡した場合、アイテムは失われません。しかし、BTCとレベルEXPの合計の10％を失うことになります。つまり、死亡しすぎるとレベルが下がる可能性があります。
   
-## Enemy Modifiers
+## 敵の追加効果
   
-Enemies can have modifiers, which are indicated by an adjective before the enemies name e.g. "**Mad** Serial Killer", these modifiers are as follows,
-  
-  
- - Mad - Gives the enemy +10% damage  
- - Angry - Gives the enemy +10% damage  
- - Tough - Gives the enemy +20% defence  
- - Agile - Gives the enemy +20% stun evade and a shield  
- - Shielded - Gives the enemy a large shield  
-  
-## Player Modifiers
-  
-The player can also pick up modifiers by interacting with the quest giver in the dungeon, which is represented by a '?', these modifiers are as follows:  
-  
- - Overcharged I - Gives the player +5% damage  
- - Overcharged II - Gives the player +10% damage  
- - Overcharged III - Gives the player +15% damage  
- - Overcharged IV - Gives the player +20% damage  
- - Overcharged V - Gives the player +25% damage  
+敵には追加効果があり、敵の名前の前に形容詞で表示されます（例：**Mad** Serial Killer）。これらの効果は以下の通りです：
   
   
- - Reinforced I - Gives the player +5% defence  
- - Reinforced II - Gives the player +10% defence  
- - Reinforced III - Gives the player +15% defence  
- - Reinforced IV - Gives the player +20% defence  
- - Reinforced V - Gives the player +25% defence  
+ - Mad - 敵が与えるダメージ量が+10％になります。
+ - Angry - 敵が与えるダメージ量が+10％になります。
+ - Tough - 敵に+20%の防御力を付与します。
+ - Agile - 敵に+20%のスタン、回避率のステータスとシールドを付与します。
+ - Shielded - 敵に高いシールド量を持つシールドを付与します。
+  
+## プレイヤーの追加効果
+  
+ダンジョン内で「?」で表されるクエストの提供者に話しかけ、得られたクエストの報酬によっては、プレイヤーは追加効果を得ることができます。これらの効果は以下の通りです：
+  
+ - Overcharged I - プレイヤーが与えるダメージ量が+5%になります。
+ - Overcharged II - プレイヤーが与えるダメージ量が+10%になります。
+ - Overcharged III - プレイヤーが与えるダメージ量が+15%になります。
+ - Overcharged IV - プレイヤーが与えるダメージ量が+20%になります。
+ - Overcharged V - プレイヤーが与えるダメージ量が+25%になります。
   
   
- - Shield Enhance I - Gives the player +5% shield multiplier  
- - Shield Enhance II - Gives the player +10% shield multiplier  
- - Shield Enhance III - Gives the player +15% shield multiplier  
- - Shield Enhance IV - Gives the player +20% shield multiplier  
- - Shield Enhance V - Gives the player +25% shield multiplier  
+ - Reinforced I - プレイヤーに+5%の防御力を付与します。 
+ - Reinforced II - プレイヤーに+10%の防御力を付与します。
+ - Reinforced III - プレイヤーに+15%の防御力を付与します。
+ - Reinforced IV - プレイヤーに+20%の防御力を付与します。
+ - Reinforced V - プレイヤーに+25%の防御力を付与します。
+  
+  
+ - Shield Enhance I - プレイヤーに+5%のシールド倍率を付与します。
+ - Shield Enhance II - プレイヤーに+10%のシールド倍率を付与します。
+ - Shield Enhance III - プレイヤーに+15%のシールド倍率を付与します。
+ - Shield Enhance IV - プレイヤーに+20%のシールド倍率を付与します。
+ - Shield Enhance V - プレイヤーに+25%のシールド倍率を付与します。
