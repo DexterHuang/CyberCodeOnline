@@ -90,6 +90,7 @@ CeceCat
 [CelesMeh](https://www.instagram.com/celesmeh)
 Exca
 JashinL
+[MagicCookie](https://github.com/GooseGooseStop)
 MontyPython
 [PsyB34R](https://www.instagram.com/psybearr)
 SaberTron
@@ -120,6 +121,7 @@ JashinL
 [JEricaM](https://github.com/JEricaM)
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)
 LitFill
+[MagicCookie](https://github.com/GooseGooseStop)
 mika
 MontyPython
 Negative
@@ -180,6 +182,7 @@ Kaktusmonas
 [Kimi Leta](https://github.com/kimileta)
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)
 [Luako](https://github.com/luako)
+[MagicCookie](https://github.com/GooseGooseStop)
 [Majeye](https://github.com/TeejayParker)
 [MarcelWeidum](https://github.com/MarcelWeidum)
 [me505](https://github.com/me505)
@@ -211,6 +214,7 @@ Exca
 [Kimi Leta](https://github.com/kimileta)
 KingRiver
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)
+[MagicCookie](https://github.com/GooseGooseStop)
 [RaykouTJ](https://github.com/HoneySyrup)
 [levi-middleton](https://github.com/levi-middleton)
 [Misaki](https://github.com/Misaki290)
