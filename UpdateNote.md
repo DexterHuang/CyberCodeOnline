@@ -25,6 +25,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates
+### 2022/01/07 v0.754
+- UPDATE - Enabled translated equipment names for Korean
+- UPDATE - Enemy names are translated for zh-tw thanks to johnruby
+
 ### 2022/01/05 v0.754
 #### Enemy Gangs 
 All enemies has a gang that it belongs to, each area will have different 'dominant' gang.
