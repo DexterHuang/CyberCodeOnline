@@ -27,6 +27,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ## Updates
 ### 2022/01/07 v0.754
 - UPDATE - Enabled translated equipment names for Korean
+- UPDATE - Enemy names are translated for zh-tw thanks to johnruby
 
 ### 2022/01/05 v0.754
 #### Enemy Gangs 
