@@ -26,6 +26,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 ### 2022/01/10 v0.754
+- UI - Remove gang level display on chat messages, to reducing server load
 - OPTIMIZATION - Client and server optimization
 
 ### 2022/01/07 v0.754
