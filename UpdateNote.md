@@ -25,6 +25,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates
+### 2022/01/10 v0.754
+- OPTIMIZATION - Client and server optimization
+
 ### 2022/01/07 v0.754
 - UPDATE - Enabled translated equipment names for Korean
 - UPDATE - Enemy names are translated for zh-tw thanks to johnruby
