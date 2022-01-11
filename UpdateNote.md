@@ -25,6 +25,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates
+### 2022/01/11 v0.754
+- UI - Updated donation npc image
+
 ### 2022/01/10 v0.754
 - UI - Remove gang level display on chat messages, to reducing server load
 - OPTIMIZATION - Client and server optimization
