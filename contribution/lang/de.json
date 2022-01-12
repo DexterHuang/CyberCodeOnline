@@ -783,8 +783,11 @@
  	 	 	 	"eng": "Transaction Exploit Transmitter"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Sendet Exploits an alle kybernetisch verbundenen Benutzer, erweitert deren Transaktionsalgorithmus temporär und gewährt zusätzliche ${Config.CURRENCY_NAME}.\r\n\r\n        Wenn er benutzt wird, gibt er allen aktiven Spielern einen globalen Buff, der die gewonnenen Bitcoin 20 Minuten lang um +40% erhöht (stapelbar).\r\n        ",
- 	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, argument their transaction algorithm temporary, allowing user to receive bonus  ${Config.CURRENCY_NAME}.\r\n\r\n        When used, gives Global Buff to all players online, increase BitCoin gained by 40% for 20 minutes (stackable)\r\n        "
+ 	 	 	 	"trans": "Sendet Exploits an alle kybernetisch verbundenen Benutzer, erweitert deren Transaktionsalgorithmus temporär und gewährt zusätzliche ${currencyName}.\r\n\r\n        Wenn er benutzt wird, gibt er allen aktiven Spielern einen globalen Buff, der die gewonnenen Bitcoin 20 Minuten lang um +40% erhöht (stapelbar).\r\n        ",
+ 	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, argument their transaction algorithm temporary, allowing user to receive bonus  ${currencyName}.\r\n\r\n        When used, gives Global Buff to all players online, increase BitCoin gained by 40% for 20 minutes (stackable)\r\n        ",
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"currencyName"
+ 	 	 	 	]
  	 	 	}
  	 	},
  	 	"aiCore": {
@@ -982,7 +985,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Experimentelle Nanomaschinen, die den zerstörerischen Effekt reduzieren und aufheben, wenn die Kalibrierung fehlschlägt, \r\n        Wenn dies aktiviert ist, wird der Gegenstand 5 Minuten lang nicht zerstört, wenn die Kalibrierung fehlschlägt",
- 	 	 	 	"eng": "Experimental nano machines designed to reduces and negate the destructive effect when failing calibration, \r\n        when this is activated, all calibration fails will not destroy the item for 5 minutes"
+ 	 	 	 	"eng": "Experimental nano machines designed to reduces and negate the destructive effect when failing calibration, \r\n        when this is activated, all calibration fails will not destroy the item for 5 minutes (Applies to all players)"
  	 	 	}
  	 	},
  	 	"backpack1": {
@@ -1198,6 +1201,29 @@
  	 	 	 	],
  	 	 	 	"trans": "Ein Splitter, der vorausbezogene Exploits enthält, um die zufällige Dropchance auf Elemente höheren Tiers zu erhöhen. Bietet zusätzliche Dropchance von legendären (${legendaryChance}%) und epischen (${epicChance}%) Elementen, wenn legendäre Container freigeschaltet werden (Kann bis zu ${maxStack} mal gestackt werden) für 3 Minuten. Extrachance in der Weihnachtszeit Mystery-Container zu bekommen.",
  	 	 	 	"eng": "A shard that contains advance exploits designed to increase random drop chance of high tier items. Gains additional drop chance of Legendary (${legendaryChance}%) and Epic (${epicChance}%) items when unlocking Legendary containers (stack up to ${maxStack} times) for ${time} minutes. Extra chance to get Mystery Container during Christmas season."
+ 	 	 	},
+ 	 	 	"descriptionv3": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"epicChance",
+ 	 	 	 	 	"legendaryChance",
+ 	 	 	 	 	"maxStack",
+ 	 	 	 	 	"time"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Eine SHARD, die vorausbezogene Exploits enthält, um die zufällige Tropfenchance auf hohe Tierelemente zu erhöhen. Gewinne zusätzliche Tropfen-Chance des legendären (${legendaryChance}%) und episch (${epicChance}%) Elemente, wenn er legendäre Container entsperrt (nicht stapelbar) für ${time} Minute. * WICHTIG: Der BUFF gilt nur, wenn der Entriegelungsprozess gestartet wird, während der Buff aktiv ist *.",
+ 	 	 	 	"eng": "A shard that contains advance exploits designed to increase random drop chance of high tier items. Gains additional drop chance of Legendary (${legendaryChance}%) and Epic (${epicChance}%) items when unlocking Legendary containers (Not stackable) for ${time} minute (Applies to all players). *IMPORTANT: The buff will only apply when the unlocking process is started while the buff is active*."
+ 	 	 	}
+ 	 	},
+ 	 	"flashGrenade": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Flash Granate",
+ 	 	 	 	"eng": "Flash Grenade"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"escape"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Eine Flash-Granate, die zum blinden Feinden verwendet werden kann. Erhöhen Sie Ihre Chance für die Flucht um $ 0}%",
+ 	 	 	 	"eng": "A flash grenade that can be used to blind enemies. increasing your chance of escape by ${escape}%"
  	 	 	}
  	 	}
  	},
@@ -1916,6 +1942,13 @@
  	 	 	"linksNotAllowed": {
  	 	 	 	"trans": "Links sind nicht erlaubt",
  	 	 	 	"eng": "Links are not allowed"
+ 	 	 	},
+ 	 	 	"replyTo": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"playerName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Antwort auf ${playerName}",
+ 	 	 	 	"eng": "Replying to ${playerName}"
  	 	 	}
  	 	},
  	 	"profile": {
@@ -2547,7 +2580,10 @@
  	 	 	},
  	 	 	"upgradeModuleTitle": {
  	 	 	 	"trans": "Upgrades",
- 	 	 	 	"eng": "Upgrades"
+ 	 	 	 	"eng": "upgrade slot ${index}",
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"index"
+ 	 	 	 	]
  	 	 	},
  	 	 	"lockDescription": {
  	 	 	 	"trans": "Verhindert versehentlicher Verkauf oder Zerstörung",
@@ -2613,6 +2649,10 @@
  	 	 	 	},
  	 	 	 	"trans": "Werkseinstellungen zurückgesetzt",
  	 	 	 	"eng": "Factory Reset"
+ 	 	 	},
+ 	 	 	"quality": {
+ 	 	 	 	"trans": "Qualität",
+ 	 	 	 	"eng": "quality"
  	 	 	}
  	 	},
  	 	"apps": {
@@ -3138,6 +3178,14 @@
  	 	 	"lowPrintLevelTip2": {
  	 	 	 	"trans": "Erhöhen Sie Ihren Druckrang, um leistungsfähigere Waffen zu erstellen, indem Sie mehr Caches drucken",
  	 	 	 	"eng": "Increase your Printing Rank to create more powerful weapons by printing more caches"
+ 	 	 	},
+ 	 	 	"quickSlots": {
+ 	 	 	 	"trans": "Schnelle Schlitze",
+ 	 	 	 	"eng": "Quick Slots"
+ 	 	 	},
+ 	 	 	"equipped": {
+ 	 	 	 	"trans": "Ausgestattet",
+ 	 	 	 	"eng": "Equipped"
  	 	 	}
  	 	},
  	 	"quickSlot": {
@@ -3218,6 +3266,10 @@
  	 	 	"calibration": {
  	 	 	 	"trans": "Kalibrierung",
  	 	 	 	"eng": "calibration"
+ 	 	 	},
+ 	 	 	"enemyGangsAndMark": {
+ 	 	 	 	"trans": "Feind Banden und Ausrüstungsmarken",
+ 	 	 	 	"eng": "Enemy Gangs and Equipment Marks"
  	 	 	}
  	 	},
  	 	"tipsBox": {
@@ -3403,6 +3455,10 @@
  	 	"craft": {
  	 	 	"trans": "Handwerk",
  	 	 	"eng": "craft"
+ 	 	},
+ 	 	"ok": {
+ 	 	 	"trans": "OK",
+ 	 	 	"eng": "OK"
  	 	}
  	},
  	"statsType": {
@@ -3652,6 +3708,66 @@
  	 	 	"description": {
  	 	 	 	"trans": "Zusätzlicher epischer Tropfenchancen von Containern",
  	 	 	 	"eng": "Additional epic drop chance from containers"
+ 	 	 	}
+ 	 	},
+ 	 	"m1Dmg": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Tiere Nemesis",
+ 	 	 	 	"eng": "Animals Nemesis"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Erhöht den Schaden an Feinden von Tierenbanden",
+ 	 	 	 	"eng": "Increases damage to Enemies of Animals gang"
+ 	 	 	}
+ 	 	},
+ 	 	"m2Dmg": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Voodoo Nemesis",
+ 	 	 	 	"eng": "Voodoo Nemesis"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Erhöht den Schaden an Feinden der Voodoo-Boys-Bande",
+ 	 	 	 	"eng": "Increases damage to Enemies of Voodoo Boys gang"
+ 	 	 	}
+ 	 	},
+ 	 	"m3Dmg": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Scavengers Nemesis",
+ 	 	 	 	"eng": "Scavengers Nemesis"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Erhöht den Schaden an Feinden der Fängerbande",
+ 	 	 	 	"eng": "Increases damage to Enemies of Scavengers gang"
+ 	 	 	}
+ 	 	},
+ 	 	"m1V": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Tödlich",
+ 	 	 	 	"eng": "Lethal"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Feinde der Facavenger-Bande befürworten Ihnen einen erhöhten Schaden",
+ 	 	 	 	"eng": "Enemies of Scavengers gang deals increased damage to you"
+ 	 	 	}
+ 	 	},
+ 	 	"m2V": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Disruptor",
+ 	 	 	 	"eng": "Disruptor"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Feinde der Tiere-Bande befassen sich an Ihnen erhöhten Schaden",
+ 	 	 	 	"eng": "Enemies of Animals gang deals increased damage to you"
+ 	 	 	}
+ 	 	},
+ 	 	"m3V": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Provisorisch",
+ 	 	 	 	"eng": "Makeshift"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Feinde der Voodoo-Jungen-Banden befürworten Ihnen einen erhöhten Schaden",
+ 	 	 	 	"eng": "Enemies of Voodoo Boys gang deals increased damage to you"
  	 	 	}
  	 	}
  	},
@@ -3979,6 +4095,10 @@
  	 	 	"sendPrivateMessage": {
  	 	 	 	"trans": "sende eine private Nachricht",
  	 	 	 	"eng": "Send Private Message"
+ 	 	 	},
+ 	 	 	"reply": {
+ 	 	 	 	"trans": "Antwort",
+ 	 	 	 	"eng": "Reply"
  	 	 	}
  	 	},
  	 	"promotion": {
@@ -4043,7 +4163,7 @@
  	 	},
  	 	"equipmentQuickMenu": {
  	 	 	"unequip": {
- 	 	 	 	"trans": "unruhig",
+ 	 	 	 	"trans": "ablegen",
  	 	 	 	"eng": "unequip"
  	 	 	},
  	 	 	"viewDetails": {
@@ -4051,8 +4171,25 @@
  	 	 	 	"eng": "View Details"
  	 	 	},
  	 	 	"swap": {
- 	 	 	 	"trans": "Ausrüstung ersetzen",
+ 	 	 	 	"trans": "Ausrüstung austauschen",
  	 	 	 	"eng": "replace equipment"
+ 	 	 	}
+ 	 	},
+ 	 	"unitDonationConfirm": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Spende bestätigen",
+ 	 	 	 	"eng": "Confirm donation"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"amount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Dies spendet ${amount} -Eineinheit von Ihrem Konto",
+ 	 	 	 	"eng": "This will donate ${amount} Unit from your account"
+ 	 	 	},
+ 	 	 	"notEnough": {
+ 	 	 	 	"trans": "Sie haben nicht genug Einheit, um zu spenden.",
+ 	 	 	 	"eng": "You do not have enough Unit to donate."
  	 	 	}
  	 	}
  	},
@@ -4176,6 +4313,10 @@
  	 	"rngInterferer": {
  	 	 	"trans": "RNG-Interferenz",
  	 	 	"eng": "RNG Interference"
+ 	 	},
+ 	 	"flashGrenade": {
+ 	 	 	"trans": "Flash Granate",
+ 	 	 	"eng": "Flash Grenade"
  	 	}
  	},
  	"inventory": {
@@ -4200,8 +4341,8 @@
  	 	 	"eng": "Click here to scan for street enemies"
  	 	},
  	 	"localCombat": {
- 	 	 	"trans": "Sie erhalten exp, ${config.currency_name} und plündern, wenn Sie Feinde besiegen, \n                 Gib es einen Versuch jetzt!",
- 	 	 	"eng": "you will receive exp, ${Config.CURRENCY_NAME} and loots when you defeat enemies,\n                give it a try now!"
+ 	 	 	"trans": "Sie erhalten exp, ${currencyName} und plündern, wenn Sie Feinde besiegen, \n                 Gib es einen Versuch jetzt!",
+ 	 	 	"eng": "you will receive exp, ${currencyName} and loots when you defeat enemies,\n                give it a try now!"
  	 	},
  	 	"primaryAttack": {
  	 	 	"trans": "Klicken Sie hier, um den Feind anzugreifen",
@@ -4640,6 +4781,46 @@
  	 	 	 	 	"eng": "Did I mention you could be a Cybernetic Potato?"
  	 	 	 	}
  	 	 	}
+ 	 	},
+ 	 	"donation6": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "Titel \"Prestige\"",
+ 	 	 	 	 	"eng": "\"Prestige\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "Profilbild-Anpassung freischalten",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Blauer Neon-Chat-Rahmen (mit Animation)",
+ 	 	 	 	 	"eng": "Blue Neon chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Blaues Neonrahmenprofil (mit Animation)",
+ 	 	 	 	 	"eng": "Blue Neon Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "Entsperren Sie benutzerdefinierte Bio",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Barcode-Dekoration auf Profil",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "Passen Sie Bandmotto an",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Anpassen von Bandabbild",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Mehr in zukünftiges Update kommen",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
  	 	}
  	},
  	"EquipmentSlot": {
@@ -4712,6 +4893,17 @@
  	 	"TiersTitle": {
  	 	 	"trans": "Spendenreihen",
  	 	 	"eng": "Donation Tiers"
+ 	 	},
+ 	 	"unitPrice": {
+ 	 	 	"vars": [
+ 	 	 	 	"price"
+ 	 	 	],
+ 	 	 	"trans": "${price} Einheit",
+ 	 	 	"eng": "${price} Unit"
+ 	 	},
+ 	 	"permanentDescription": {
+ 	 	 	"trans": "Dieser Titel läuft niemals aus. \\ Nit bleibt für immer mit Ihrem Konto.",
+ 	 	 	"eng": "This title will never expire.\\nIt stays with your account forever."
  	 	}
  	},
  	"Quest": {
@@ -5000,6 +5192,96 @@
  	 	 	 	"trans": "${tierPart} ${name}",
  	 	 	 	"eng": "${tierPart} ${name}"
  	 	 	}
+ 	 	}
+ 	},
+ 	"misc,durability": {
+ 	 	"trans": "Haltbarkeit",
+ 	 	"eng": "durability"
+ 	},
+ 	"equipmentMarks": {
+ 	 	"mark1": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "Tödlich",
+ 	 	 	 	"eng": "Lethal"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "befasst sich mit erhöhter Schäden an Tiere. Erhält erhöhte Schäden an der Fängerbande.",
+ 	 	 	 	"eng": "deals increased damage to Animals gang. receives increased damage from Scavengers gang."
+ 	 	 	}
+ 	 	},
+ 	 	"mark2": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "Disruptor",
+ 	 	 	 	"eng": "Disruptor"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "befasst sich mit erhöhter Schäden an Voodoo Boys Gang. erhält erhöhte Schäden an der Tierebande.",
+ 	 	 	 	"eng": "deals increased damage to Voodoo Boys gang. receives increased damage from Animals gang."
+ 	 	 	}
+ 	 	},
+ 	 	"mark3": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "Provisorisch",
+ 	 	 	 	"eng": "Makeshift"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "befasst sich mit erhöhter Schäden an der Fängerbande. Erhält erhöhte Schäden von Voodoo Boys Gang.",
+ 	 	 	 	"eng": "deals increased damage to Scavengers gang. receives increased damage from Voodoo Boys gang."
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"npcGangs": {
+ 	 	"gang1": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "Tiere",
+ 	 	 	 	"eng": "Animals"
+ 	 	 	}
+ 	 	},
+ 	 	"gang2": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "Voodoo-Jungs",
+ 	 	 	 	"eng": "Voodoo boys"
+ 	 	 	}
+ 	 	},
+ 	 	"gang3": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "Sänger",
+ 	 	 	 	"eng": "Scavengers"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"donationType": {
+ 	 	"donation1": {
+ 	 	 	"trans": "Mitglied",
+ 	 	 	"eng": "Member"
+ 	 	},
+ 	 	"donation2": {
+ 	 	 	"trans": "Spenderin",
+ 	 	 	"eng": "Donator"
+ 	 	},
+ 	 	"donation3": {
+ 	 	 	"trans": "Elite",
+ 	 	 	"eng": "Elite"
+ 	 	},
+ 	 	"donation4": {
+ 	 	 	"trans": "Legendär",
+ 	 	 	"eng": "Legendary"
+ 	 	},
+ 	 	"donation5": {
+ 	 	 	"trans": "Cybernetic-Kartoffel",
+ 	 	 	"eng": "Cybernetic Potato"
+ 	 	},
+ 	 	"donation6": {
+ 	 	 	"trans": "Prestige",
+ 	 	 	"eng": "Prestige"
+ 	 	},
+ 	 	"moderator": {
+ 	 	 	"trans": "Moderatorin",
+ 	 	 	"eng": "Moderator"
+ 	 	},
+ 	 	"admin": {
+ 	 	 	"trans": "Administratorin",
+ 	 	 	"eng": "Admin"
  	 	}
  	}
 }

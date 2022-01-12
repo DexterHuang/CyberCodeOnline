@@ -963,8 +963,11 @@
  	 	 	 	"eng": "Transaction Exploit Transmitter"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "向所有接入神经集成服务器的用户传输交易算法开发指令，短时间内扩展并改进用户们的交易算法，让用户获得更多的${Config.CURRENCY_NAME}.\r\n\r\n        此模组激发后将会对所有线上玩家给予加持， 在二十分钟内使他们的比特币获取量增加百分之四十（可叠加）\r\n        ",
- 	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, argument their transaction algorithm temporary, allowing user to receive bonus  ${Config.CURRENCY_NAME}.\r\n\r\n        When used, gives Global Buff to all players online, increase BitCoin gained by 40% for 20 minutes (stackable)\r\n        "
+ 	 	 	 	"trans": "向所有接入神经集成服务器的用户传输交易算法开发指令，短时间内扩展并改进用户们的交易算法，让用户获得更多的${currencyName}.\r\n\r\n        此模组激发后将会对所有线上玩家给予加持， 在二十分钟内使他们的比特币获取量增加百分之四十（可叠加）\r\n        ",
+ 	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, argument their transaction algorithm temporary, allowing user to receive bonus  ${currencyName}.\r\n\r\n        When used, gives Global Buff to all players online, increase BitCoin gained by 40% for 20 minutes (stackable)\r\n        ",
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"currencyName"
+ 	 	 	 	]
  	 	 	}
  	 	},
  	 	"aiCore": {
@@ -1162,7 +1165,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "实验纳米机器设计用于减少和否定失效校准时的破坏性效果， \r\n         激活此后，所有校准都不会破坏项目5分钟",
- 	 	 	 	"eng": "Experimental nano machines designed to reduces and negate the destructive effect when failing calibration, \r\n        when this is activated, all calibration fails will not destroy the item for 5 minutes"
+ 	 	 	 	"eng": "Experimental nano machines designed to reduces and negate the destructive effect when failing calibration, \r\n        when this is activated, all calibration fails will not destroy the item for 5 minutes (Applies to all players)"
  	 	 	}
  	 	},
  	 	"backpack1": {
@@ -1378,6 +1381,29 @@
  	 	 	 	],
  	 	 	 	"trans": "一个碎片，包含预先利用，旨在增加高层物品随机降落的机会。 在解锁传奇容器（最多${maxStack}时间）以获得${time}分钟时，可以获得传奇（${legendaryChance}％）和epic（${epicChance}％）项目的额外丢弃机会。 在圣诞节季节期间获得神秘集装箱的额外机会。",
  	 	 	 	"eng": "A shard that contains advance exploits designed to increase random drop chance of high tier items. Gains additional drop chance of Legendary (${legendaryChance}%) and Epic (${epicChance}%) items when unlocking Legendary containers (stack up to ${maxStack} times) for ${time} minutes. Extra chance to get Mystery Container during Christmas season."
+ 	 	 	},
+ 	 	 	"descriptionv3": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"epicChance",
+ 	 	 	 	 	"legendaryChance",
+ 	 	 	 	 	"maxStack",
+ 	 	 	 	 	"time"
+ 	 	 	 	],
+ 	 	 	 	"trans": "一个碎片，包含预先利用，旨在增加高层物品随机降落的机会。 在解锁传奇容器（不可堆叠）以获得${time}分钟时，可以获得传奇（${legendaryChance}％）和史诗（${epicChance}％）项目的额外可能。 *重要提示：在BUFF处于活动状态时启动解锁过程时，BUFF将仅适用。",
+ 	 	 	 	"eng": "A shard that contains advance exploits designed to increase random drop chance of high tier items. Gains additional drop chance of Legendary (${legendaryChance}%) and Epic (${epicChance}%) items when unlocking Legendary containers (Not stackable) for ${time} minute (Applies to all players). *IMPORTANT: The buff will only apply when the unlocking process is started while the buff is active*."
+ 	 	 	}
+ 	 	},
+ 	 	"flashGrenade": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "闪光手榴弹",
+ 	 	 	 	"eng": "Flash Grenade"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"escape"
+ 	 	 	 	],
+ 	 	 	 	"trans": "闪光手榴弹可用于盲目。 增加你的机会{0}％",
+ 	 	 	 	"eng": "A flash grenade that can be used to blind enemies. increasing your chance of escape by ${escape}%"
  	 	 	}
  	 	}
  	},
@@ -1913,6 +1939,13 @@
  	 	 	"linksNotAllowed": {
  	 	 	 	"trans": "链接不允许",
  	 	 	 	"eng": "Links are not allowed"
+ 	 	 	},
+ 	 	 	"replyTo": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"playerName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "回复${playerName}",
+ 	 	 	 	"eng": "Replying to ${playerName}"
  	 	 	}
  	 	},
  	 	"profile": {
@@ -2544,7 +2577,10 @@
  	 	 	},
  	 	 	"upgradeModuleTitle": {
  	 	 	 	"trans": "升级",
- 	 	 	 	"eng": "Upgrades"
+ 	 	 	 	"eng": "upgrade slot ${index}",
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"index"
+ 	 	 	 	]
  	 	 	},
  	 	 	"lockDescription": {
  	 	 	 	"trans": "防止意外卖出或摧毁",
@@ -2610,6 +2646,10 @@
  	 	 	 	},
  	 	 	 	"trans": "出厂重置",
  	 	 	 	"eng": "Factory Reset"
+ 	 	 	},
+ 	 	 	"quality": {
+ 	 	 	 	"trans": "质量",
+ 	 	 	 	"eng": "quality"
  	 	 	}
  	 	},
  	 	"apps": {
@@ -3135,6 +3175,14 @@
  	 	 	"lowPrintLevelTip2": {
  	 	 	 	"trans": "通过打印更多缓存来增加您的印刷级别以创建更强大的武器",
  	 	 	 	"eng": "Increase your Printing Rank to create more powerful weapons by printing more caches"
+ 	 	 	},
+ 	 	 	"quickSlots": {
+ 	 	 	 	"trans": "快速插槽",
+ 	 	 	 	"eng": "Quick Slots"
+ 	 	 	},
+ 	 	 	"equipped": {
+ 	 	 	 	"trans": "装备",
+ 	 	 	 	"eng": "Equipped"
  	 	 	}
  	 	},
  	 	"quickSlot": {
@@ -3215,6 +3263,10 @@
  	 	 	"calibration": {
  	 	 	 	"trans": "校准",
  	 	 	 	"eng": "calibration"
+ 	 	 	},
+ 	 	 	"enemyGangsAndMark": {
+ 	 	 	 	"trans": "敌人的帮派和设备标记",
+ 	 	 	 	"eng": "Enemy Gangs and Equipment Marks"
  	 	 	}
  	 	},
  	 	"tipsBox": {
@@ -3400,6 +3452,10 @@
  	 	"craft": {
  	 	 	"trans": "工艺",
  	 	 	"eng": "craft"
+ 	 	},
+ 	 	"ok": {
+ 	 	 	"trans": "行",
+ 	 	 	"eng": "OK"
  	 	}
  	},
  	"statsType": {
@@ -3643,6 +3699,66 @@
  	 	 	"description": {
  	 	 	 	"trans": "容器的额外史诗可能",
  	 	 	 	"eng": "Additional epic drop chance from containers"
+ 	 	 	}
+ 	 	},
+ 	 	"m1Dmg": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "动物克尼斯",
+ 	 	 	 	"eng": "Animals Nemesis"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "增加动物帮派敌人的伤害",
+ 	 	 	 	"eng": "Increases damage to Enemies of Animals gang"
+ 	 	 	}
+ 	 	},
+ 	 	"m2Dmg": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "巫毒克尼斯",
+ 	 	 	 	"eng": "Voodoo Nemesis"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "对伏都教男孩团伙的敌人造成伤害",
+ 	 	 	 	"eng": "Increases damage to Enemies of Voodoo Boys gang"
+ 	 	 	}
+ 	 	},
+ 	 	"m3Dmg": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "清除剂克尼斯",
+ 	 	 	 	"eng": "Scavengers Nemesis"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "对清理工人团伙的敌人造成伤害",
+ 	 	 	 	"eng": "Increases damage to Enemies of Scavengers gang"
+ 	 	 	}
+ 	 	},
+ 	 	"m1V": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "致命",
+ 	 	 	 	"eng": "Lethal"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "清除者团伙的敌人对你的伤害增加了造成的伤害",
+ 	 	 	 	"eng": "Enemies of Scavengers gang deals increased damage to you"
+ 	 	 	}
+ 	 	},
+ 	 	"m2V": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "干扰",
+ 	 	 	 	"eng": "Disruptor"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "动物帮派的敌人对你的伤害增加了造成的伤害",
+ 	 	 	 	"eng": "Enemies of Animals gang deals increased damage to you"
+ 	 	 	}
+ 	 	},
+ 	 	"m3V": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "临时",
+ 	 	 	 	"eng": "Makeshift"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "伏都教男孩团伙的敌人对你的伤害增加了造成的伤害",
+ 	 	 	 	"eng": "Enemies of Voodoo Boys gang deals increased damage to you"
  	 	 	}
  	 	}
  	},
@@ -3970,6 +4086,10 @@
  	 	 	"sendPrivateMessage": {
  	 	 	 	"trans": "发送私人消息",
  	 	 	 	"eng": "Send Private Message"
+ 	 	 	},
+ 	 	 	"reply": {
+ 	 	 	 	"trans": "回复",
+ 	 	 	 	"eng": "Reply"
  	 	 	}
  	 	},
  	 	"promotion": {
@@ -4044,6 +4164,23 @@
  	 	 	"swap": {
  	 	 	 	"trans": "更换设备",
  	 	 	 	"eng": "replace equipment"
+ 	 	 	}
+ 	 	},
+ 	 	"unitDonationConfirm": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "确认捐赠",
+ 	 	 	 	"eng": "Confirm donation"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"amount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "这将从您的帐户中捐赠${amount}单位",
+ 	 	 	 	"eng": "This will donate ${amount} Unit from your account"
+ 	 	 	},
+ 	 	 	"notEnough": {
+ 	 	 	 	"trans": "你没有足够的单位捐赠。",
+ 	 	 	 	"eng": "You do not have enough Unit to donate."
  	 	 	}
  	 	}
  	},
@@ -4167,6 +4304,10 @@
  	 	"rngInterferer": {
  	 	 	"trans": "rng干扰",
  	 	 	"eng": "RNG Interference"
+ 	 	},
+ 	 	"flashGrenade": {
+ 	 	 	"trans": "闪光手榴弹",
+ 	 	 	"eng": "Flash Grenade"
  	 	}
  	},
  	"inventory": {
@@ -4191,8 +4332,8 @@
  	 	 	"eng": "Click here to scan for street enemies"
  	 	},
  	 	"localCombat": {
- 	 	 	"trans": "您将在击败敌人时收到exp，${config.currency_name}和loots， \n                 试试吧！",
- 	 	 	"eng": "you will receive exp, ${Config.CURRENCY_NAME} and loots when you defeat enemies,\n                give it a try now!"
+ 	 	 	"trans": "您将在击败敌人时收到exp，${currencyName}和loots， \n                 试试吧！",
+ 	 	 	"eng": "you will receive exp, ${currencyName} and loots when you defeat enemies,\n                give it a try now!"
  	 	},
  	 	"primaryAttack": {
  	 	 	"trans": "点击这里攻击敌人",
@@ -4631,6 +4772,46 @@
  	 	 	 	 	"eng": "Did I mention you could be a Cybernetic Potato?"
  	 	 	 	}
  	 	 	}
+ 	 	},
+ 	 	"donation6": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "“威望”捐赠标题",
+ 	 	 	 	 	"eng": "\"Prestige\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "解锁个人资料图片定制",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "蓝霓虹聊天框架（有动画）",
+ 	 	 	 	 	"eng": "Blue Neon chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "蓝色霓虹灯框架配置文件（有动画）",
+ 	 	 	 	 	"eng": "Blue Neon Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "解锁定制生物",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "配置文件的条形码装饰",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "定制帮派座右铭",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "自定义帮派图像",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "更新的更新",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
  	 	}
  	},
  	"EquipmentSlot": {
@@ -4703,6 +4884,17 @@
  	 	"TiersTitle": {
  	 	 	"trans": "捐赠层",
  	 	 	"eng": "Donation Tiers"
+ 	 	},
+ 	 	"unitPrice": {
+ 	 	 	"vars": [
+ 	 	 	 	"price"
+ 	 	 	],
+ 	 	 	"trans": "${price}单位",
+ 	 	 	"eng": "${price} Unit"
+ 	 	},
+ 	 	"permanentDescription": {
+ 	 	 	"trans": "这个标题永远不会过期。\\ nit永远留在您的帐户。",
+ 	 	 	"eng": "This title will never expire.\\nIt stays with your account forever."
  	 	}
  	},
  	"Quest": {
@@ -4991,6 +5183,96 @@
  	 	 	 	"trans": "${tierPart} ${name}",
  	 	 	 	"eng": "${tierPart} ${name}"
  	 	 	}
+ 	 	}
+ 	},
+ 	"misc,durability": {
+ 	 	"trans": "耐久性",
+ 	 	"eng": "durability"
+ 	},
+ 	"equipmentMarks": {
+ 	 	"mark1": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "致命",
+ 	 	 	 	"eng": "Lethal"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "对动物帮派造成的伤害增加。 收到扫名者团伙的伤害增加。",
+ 	 	 	 	"eng": "deals increased damage to Animals gang. receives increased damage from Scavengers gang."
+ 	 	 	}
+ 	 	},
+ 	 	"mark2": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "干扰",
+ 	 	 	 	"eng": "Disruptor"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "对伏都教男孩团伙造成的伤害增加了损害。 接受动物帮派造成的增加。",
+ 	 	 	 	"eng": "deals increased damage to Voodoo Boys gang. receives increased damage from Animals gang."
+ 	 	 	}
+ 	 	},
+ 	 	"mark3": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "临时",
+ 	 	 	 	"eng": "Makeshift"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "对扫除者团伙的损害增加了造成的增加。 从伏都教男孩帮派受到增加的伤害。",
+ 	 	 	 	"eng": "deals increased damage to Scavengers gang. receives increased damage from Voodoo Boys gang."
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"npcGangs": {
+ 	 	"gang1": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "动物",
+ 	 	 	 	"eng": "Animals"
+ 	 	 	}
+ 	 	},
+ 	 	"gang2": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "伏都教男孩",
+ 	 	 	 	"eng": "Voodoo boys"
+ 	 	 	}
+ 	 	},
+ 	 	"gang3": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "扫除者",
+ 	 	 	 	"eng": "Scavengers"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"donationType": {
+ 	 	"donation1": {
+ 	 	 	"trans": "成员",
+ 	 	 	"eng": "Member"
+ 	 	},
+ 	 	"donation2": {
+ 	 	 	"trans": "捐赠者",
+ 	 	 	"eng": "Donator"
+ 	 	},
+ 	 	"donation3": {
+ 	 	 	"trans": "精英",
+ 	 	 	"eng": "Elite"
+ 	 	},
+ 	 	"donation4": {
+ 	 	 	"trans": "传奇的",
+ 	 	 	"eng": "Legendary"
+ 	 	},
+ 	 	"donation5": {
+ 	 	 	"trans": "网上薯土豆",
+ 	 	 	"eng": "Cybernetic Potato"
+ 	 	},
+ 	 	"donation6": {
+ 	 	 	"trans": "声望",
+ 	 	 	"eng": "Prestige"
+ 	 	},
+ 	 	"moderator": {
+ 	 	 	"trans": "主持人",
+ 	 	 	"eng": "Moderator"
+ 	 	},
+ 	 	"admin": {
+ 	 	 	"trans": "行政",
+ 	 	 	"eng": "Admin"
  	 	}
  	}
 }

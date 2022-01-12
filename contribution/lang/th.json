@@ -783,8 +783,11 @@
  	 	 	 	"eng": "Transaction Exploit Transmitter"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "ประกาศกระจายไปยังผู้ใช้งานที่กำลังเชื่อมต่อกับไซเบอร์เนติกส์อยู่ทั้งหมด ส่งผลให้เสริมอัลกอริทึมธุรกรรมชั่วคราว ยินยอมให้ผู้ใช้งานได้รับโบนัส  ${Config.CURRENCY_NAME}.\r\n\r\n        เมื่อใช้งาน เสริมความสามารถอย่างแพร่หลายไปทั่วโลกไปยังผู้เล่นที่กำลังใช้งานอยู่ เพิ่มการได้รับบิตคอยน์ 40% (ซ้อนทับกันได้)\r\n        ",
- 	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, argument their transaction algorithm temporary, allowing user to receive bonus  ${Config.CURRENCY_NAME}.\r\n\r\n        When used, gives Global Buff to all players online, increase BitCoin gained by 40% for 20 minutes (stackable)\r\n        "
+ 	 	 	 	"trans": "ประกาศกระจายไปยังผู้ใช้งานที่กำลังเชื่อมต่อกับไซเบอร์เนติกส์อยู่ทั้งหมด ส่งผลให้เสริมอัลกอริทึมธุรกรรมชั่วคราว ยินยอมให้ผู้ใช้งานได้รับโบนัส  ${currencyName}.\r\n\r\n        เมื่อใช้งาน เสริมความสามารถอย่างแพร่หลายไปทั่วโลกไปยังผู้เล่นที่กำลังใช้งานอยู่ เพิ่มการได้รับบิตคอยน์ 40% (ซ้อนทับกันได้)\r\n        ",
+ 	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, argument their transaction algorithm temporary, allowing user to receive bonus  ${currencyName}.\r\n\r\n        When used, gives Global Buff to all players online, increase BitCoin gained by 40% for 20 minutes (stackable)\r\n        ",
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"currencyName"
+ 	 	 	 	]
  	 	 	}
  	 	},
  	 	"aiCore": {
@@ -982,7 +985,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "เครื่องนาโนทดลองที่ออกแบบมาเพื่อลดและลบล้างผลการทำลายล้างเมื่อการสอบเทียบล้มเหลว \r\n         เมื่อเปิดใช้งานนี้การสอบเทียบทั้งหมดล้มเหลวจะไม่ทำลายไอเท็มเป็นเวลา 5 นาที",
- 	 	 	 	"eng": "Experimental nano machines designed to reduces and negate the destructive effect when failing calibration, \r\n        when this is activated, all calibration fails will not destroy the item for 5 minutes"
+ 	 	 	 	"eng": "Experimental nano machines designed to reduces and negate the destructive effect when failing calibration, \r\n        when this is activated, all calibration fails will not destroy the item for 5 minutes (Applies to all players)"
  	 	 	}
  	 	},
  	 	"backpack1": {
@@ -1198,6 +1201,29 @@
  	 	 	 	],
  	 	 	 	"trans": "เศษที่มีการหาประโยชน์ล่วงหน้าที่ออกแบบมาเพื่อเพิ่มโอกาสแบบสุ่มของรายการระดับสูง ได้รับโอกาสลดลงเพิ่มเติมของตำนาน (${legendaryChance}%) และมหากาพย์ ($ 0}%) เมื่อปลดล็อกคอนเทนเนอร์ในตำนาน (สแต็กขึ้นเป็น ${maxStack} ครั้ง) สำหรับ ${time} นาที โอกาสพิเศษในการรับตู้คอนเทนเนอร์ลึกลับในช่วงเทศกาลคริสต์มาส",
  	 	 	 	"eng": "A shard that contains advance exploits designed to increase random drop chance of high tier items. Gains additional drop chance of Legendary (${legendaryChance}%) and Epic (${epicChance}%) items when unlocking Legendary containers (stack up to ${maxStack} times) for ${time} minutes. Extra chance to get Mystery Container during Christmas season."
+ 	 	 	},
+ 	 	 	"descriptionv3": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"epicChance",
+ 	 	 	 	 	"legendaryChance",
+ 	 	 	 	 	"maxStack",
+ 	 	 	 	 	"time"
+ 	 	 	 	],
+ 	 	 	 	"trans": "เศษที่มีการหาประโยชน์ล่วงหน้าที่ออกแบบมาเพื่อเพิ่มโอกาสแบบสุ่มของรายการระดับสูง ได้รับโอกาสลดลงเพิ่มเติมของตำนาน (${legendaryChance}%) และมหากาพย์ (${epicChance}%) เมื่อปลดล็อกคอนเทนเนอร์ในตำนาน (ไม่สามารถวางซ้อนกันได้) สำหรับ ${time} นาที * สำคัญ: Buff จะใช้เมื่อกระบวนการปลดล็อกเริ่มทำงานในขณะที่บัฟเฟอร์เปิดใช้งาน *",
+ 	 	 	 	"eng": "A shard that contains advance exploits designed to increase random drop chance of high tier items. Gains additional drop chance of Legendary (${legendaryChance}%) and Epic (${epicChance}%) items when unlocking Legendary containers (Not stackable) for ${time} minute (Applies to all players). *IMPORTANT: The buff will only apply when the unlocking process is started while the buff is active*."
+ 	 	 	}
+ 	 	},
+ 	 	"flashGrenade": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "ระเบิดมือแฟลช",
+ 	 	 	 	"eng": "Flash Grenade"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"escape"
+ 	 	 	 	],
+ 	 	 	 	"trans": "ระเบิดมือแฟลชที่สามารถใช้ในการตาบอดศัตรู เพิ่มโอกาสในการหลบหนีจาก ${escape}%",
+ 	 	 	 	"eng": "A flash grenade that can be used to blind enemies. increasing your chance of escape by ${escape}%"
  	 	 	}
  	 	}
  	},
@@ -1916,6 +1942,13 @@
  	 	 	"linksNotAllowed": {
  	 	 	 	"trans": "ไม่อนุญาตลิงก์",
  	 	 	 	"eng": "Links are not allowed"
+ 	 	 	},
+ 	 	 	"replyTo": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"playerName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "ตอบกลับถึง ${playerName}",
+ 	 	 	 	"eng": "Replying to ${playerName}"
  	 	 	}
  	 	},
  	 	"profile": {
@@ -2547,7 +2580,10 @@
  	 	 	},
  	 	 	"upgradeModuleTitle": {
  	 	 	 	"trans": "การอัพเกรด",
- 	 	 	 	"eng": "Upgrades"
+ 	 	 	 	"eng": "upgrade slot ${index}",
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"index"
+ 	 	 	 	]
  	 	 	},
  	 	 	"lockDescription": {
  	 	 	 	"trans": "ป้องกันการขายหรือการทำลายโดยไม่ตั้งใจ",
@@ -2613,6 +2649,10 @@
  	 	 	 	},
  	 	 	 	"trans": "รีเซ็ตเป็นค่าจากโรงงาน",
  	 	 	 	"eng": "Factory Reset"
+ 	 	 	},
+ 	 	 	"quality": {
+ 	 	 	 	"trans": "คุณภาพ",
+ 	 	 	 	"eng": "quality"
  	 	 	}
  	 	},
  	 	"apps": {
@@ -3138,6 +3178,14 @@
  	 	 	"lowPrintLevelTip2": {
  	 	 	 	"trans": "เพิ่มอันดับการพิมพ์ของคุณเพื่อสร้างอาวุธที่ทรงพลังมากขึ้นโดยการพิมพ์แคชมากขึ้น",
  	 	 	 	"eng": "Increase your Printing Rank to create more powerful weapons by printing more caches"
+ 	 	 	},
+ 	 	 	"quickSlots": {
+ 	 	 	 	"trans": "สล็อตด่วน",
+ 	 	 	 	"eng": "Quick Slots"
+ 	 	 	},
+ 	 	 	"equipped": {
+ 	 	 	 	"trans": "ติดตั้ง",
+ 	 	 	 	"eng": "Equipped"
  	 	 	}
  	 	},
  	 	"quickSlot": {
@@ -3218,6 +3266,10 @@
  	 	 	"calibration": {
  	 	 	 	"trans": "การปรับเทียบ",
  	 	 	 	"eng": "calibration"
+ 	 	 	},
+ 	 	 	"enemyGangsAndMark": {
+ 	 	 	 	"trans": "แก๊งศัตรูและเครื่องหมายอุปกรณ์",
+ 	 	 	 	"eng": "Enemy Gangs and Equipment Marks"
  	 	 	}
  	 	},
  	 	"tipsBox": {
@@ -3403,6 +3455,10 @@
  	 	"craft": {
  	 	 	"trans": "หัตถกรรม",
  	 	 	"eng": "craft"
+ 	 	},
+ 	 	"ok": {
+ 	 	 	"trans": "ตกลง",
+ 	 	 	"eng": "OK"
  	 	}
  	},
  	"statsType": {
@@ -3652,6 +3708,66 @@
  	 	 	"description": {
  	 	 	 	"trans": "โอกาสที่หยดมหากาพย์เพิ่มเติมจากภาชนะบรรจุ",
  	 	 	 	"eng": "Additional epic drop chance from containers"
+ 	 	 	}
+ 	 	},
+ 	 	"m1Dmg": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "สัตว์ซวย",
+ 	 	 	 	"eng": "Animals Nemesis"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "เพิ่มความเสียหายให้กับศัตรูของแก๊งสัตว์",
+ 	 	 	 	"eng": "Increases damage to Enemies of Animals gang"
+ 	 	 	}
+ 	 	},
+ 	 	"m2Dmg": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "วู้ดวูดู",
+ 	 	 	 	"eng": "Voodoo Nemesis"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "เพิ่มความเสียหายให้กับศัตรูของ Voodoo Boys Gang",
+ 	 	 	 	"eng": "Increases damage to Enemies of Voodoo Boys gang"
+ 	 	 	}
+ 	 	},
+ 	 	"m3Dmg": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Scavengers Nemesis",
+ 	 	 	 	"eng": "Scavengers Nemesis"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "เพิ่มความเสียหายให้กับศัตรูของ Scavengers Gang",
+ 	 	 	 	"eng": "Increases damage to Enemies of Scavengers gang"
+ 	 	 	}
+ 	 	},
+ 	 	"m1V": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "ร้ายแรง",
+ 	 	 	 	"eng": "Lethal"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "ศัตรูของ Scavengers Gang ข้อเสนอเพิ่มความเสียหายให้กับคุณ",
+ 	 	 	 	"eng": "Enemies of Scavengers gang deals increased damage to you"
+ 	 	 	}
+ 	 	},
+ 	 	"m2V": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "ขัดขวาง",
+ 	 	 	 	"eng": "Disruptor"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "ศัตรูของสัตว์ Gang ข้อตกลงเพิ่มความเสียหายให้กับคุณ",
+ 	 	 	 	"eng": "Enemies of Animals gang deals increased damage to you"
+ 	 	 	}
+ 	 	},
+ 	 	"m3V": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "การชั่วคราว",
+ 	 	 	 	"eng": "Makeshift"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "ศัตรูของ Voodoo Boys Gang ข้อเสนอเพิ่มความเสียหายให้กับคุณ",
+ 	 	 	 	"eng": "Enemies of Voodoo Boys gang deals increased damage to you"
  	 	 	}
  	 	}
  	},
@@ -3979,6 +4095,10 @@
  	 	 	"sendPrivateMessage": {
  	 	 	 	"trans": "ส่งข้อความส่วนตัว",
  	 	 	 	"eng": "Send Private Message"
+ 	 	 	},
+ 	 	 	"reply": {
+ 	 	 	 	"trans": "ตอบกลับ",
+ 	 	 	 	"eng": "Reply"
  	 	 	}
  	 	},
  	 	"promotion": {
@@ -4053,6 +4173,23 @@
  	 	 	"swap": {
  	 	 	 	"trans": "เปลี่ยนอุปกรณ์",
  	 	 	 	"eng": "replace equipment"
+ 	 	 	}
+ 	 	},
+ 	 	"unitDonationConfirm": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "ยืนยันการบริจาค",
+ 	 	 	 	"eng": "Confirm donation"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"amount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "สิ่งนี้จะบริจาคหน่วย ${amount} จากบัญชีของคุณ",
+ 	 	 	 	"eng": "This will donate ${amount} Unit from your account"
+ 	 	 	},
+ 	 	 	"notEnough": {
+ 	 	 	 	"trans": "คุณไม่มีหน่วยเพียงพอที่จะบริจาค",
+ 	 	 	 	"eng": "You do not have enough Unit to donate."
  	 	 	}
  	 	}
  	},
@@ -4176,6 +4313,10 @@
  	 	"rngInterferer": {
  	 	 	"trans": "การรบกวน rng",
  	 	 	"eng": "RNG Interference"
+ 	 	},
+ 	 	"flashGrenade": {
+ 	 	 	"trans": "ระเบิดมือแฟลช",
+ 	 	 	"eng": "Flash Grenade"
  	 	}
  	},
  	"inventory": {
@@ -4200,8 +4341,8 @@
  	 	 	"eng": "Click here to scan for street enemies"
  	 	},
  	 	"localCombat": {
- 	 	 	"trans": "คุณจะได้รับ EXP, ${config.currency_name} และ loots เมื่อคุณเอาชนะศัตรู \n                 ลองตอนนี้!",
- 	 	 	"eng": "you will receive exp, ${Config.CURRENCY_NAME} and loots when you defeat enemies,\n                give it a try now!"
+ 	 	 	"trans": "คุณจะได้รับ EXP, ${currencyName} และ loots เมื่อคุณเอาชนะศัตรู \n                 ลองตอนนี้!",
+ 	 	 	"eng": "you will receive exp, ${currencyName} and loots when you defeat enemies,\n                give it a try now!"
  	 	},
  	 	"primaryAttack": {
  	 	 	"trans": "คลิกที่นี่เพื่อโจมตีศัตรู",
@@ -4640,6 +4781,46 @@
  	 	 	 	 	"eng": "Did I mention you could be a Cybernetic Potato?"
  	 	 	 	}
  	 	 	}
+ 	 	},
+ 	 	"donation6": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "ชื่อการบริจาค \"Prestige\"",
+ 	 	 	 	 	"eng": "\"Prestige\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "ปลดล็อคการปรับแต่งรูปภาพโปรไฟล์",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "กรอบการแชทสีฟ้านีออน (มีภาพเคลื่อนไหว)",
+ 	 	 	 	 	"eng": "Blue Neon chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "โปรไฟล์กรอบนีออนสีฟ้า (มีภาพเคลื่อนไหว)",
+ 	 	 	 	 	"eng": "Blue Neon Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "ปลดล็อกไบโอที่กำหนดเอง",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "ตกแต่งบาร์โค้ดในโปรไฟล์",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "ปรับแต่งคำขวัญแก๊งค์",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "ปรับแต่งภาพแก๊งค์",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "เพิ่มเติมในการอัพเดทในอนาคต",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
  	 	}
  	},
  	"EquipmentSlot": {
@@ -4712,6 +4893,17 @@
  	 	"TiersTitle": {
  	 	 	"trans": "เทียร์บริจาค",
  	 	 	"eng": "Donation Tiers"
+ 	 	},
+ 	 	"unitPrice": {
+ 	 	 	"vars": [
+ 	 	 	 	"price"
+ 	 	 	],
+ 	 	 	"trans": "${price} หน่วย",
+ 	 	 	"eng": "${price} Unit"
+ 	 	},
+ 	 	"permanentDescription": {
+ 	 	 	"trans": "ชื่อนี้จะไม่มีวันหมดอายุ \\ nit กับบัญชีของคุณตลอดไป",
+ 	 	 	"eng": "This title will never expire.\\nIt stays with your account forever."
  	 	}
  	},
  	"Quest": {
@@ -5000,6 +5192,96 @@
  	 	 	 	"trans": "${tierPart} ${name}",
  	 	 	 	"eng": "${tierPart} ${name}"
  	 	 	}
+ 	 	}
+ 	},
+ 	"misc,durability": {
+ 	 	"trans": "ความทนทาน",
+ 	 	"eng": "durability"
+ 	},
+ 	"equipmentMarks": {
+ 	 	"mark1": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "ร้ายแรง",
+ 	 	 	 	"eng": "Lethal"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "ข้อตกลงเพิ่มความเสียหายต่อแก๊งสัตว์ ได้รับความเสียหายที่เพิ่มขึ้นจากแก๊งค์สกาฟอร์ส",
+ 	 	 	 	"eng": "deals increased damage to Animals gang. receives increased damage from Scavengers gang."
+ 	 	 	}
+ 	 	},
+ 	 	"mark2": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "ขัดขวาง",
+ 	 	 	 	"eng": "Disruptor"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "ข้อตกลงเพิ่มความเสียหายให้กับแก๊ง Voodoo Boys ได้รับความเสียหายที่เพิ่มขึ้นจากแก๊งสัตว์",
+ 	 	 	 	"eng": "deals increased damage to Voodoo Boys gang. receives increased damage from Animals gang."
+ 	 	 	}
+ 	 	},
+ 	 	"mark3": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "การชั่วคราว",
+ 	 	 	 	"eng": "Makeshift"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "ข้อตกลงเพิ่มความเสียหายต่อแก๊งค์สกาฟอร์ส รับความเสียหายที่เพิ่มขึ้นจาก Goodoo Boys Gang",
+ 	 	 	 	"eng": "deals increased damage to Scavengers gang. receives increased damage from Voodoo Boys gang."
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"npcGangs": {
+ 	 	"gang1": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "สัตว์",
+ 	 	 	 	"eng": "Animals"
+ 	 	 	}
+ 	 	},
+ 	 	"gang2": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "เด็กชายวูดู",
+ 	 	 	 	"eng": "Voodoo boys"
+ 	 	 	}
+ 	 	},
+ 	 	"gang3": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "สกาฟเจอร์ส",
+ 	 	 	 	"eng": "Scavengers"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"donationType": {
+ 	 	"donation1": {
+ 	 	 	"trans": "สมาชิก",
+ 	 	 	"eng": "Member"
+ 	 	},
+ 	 	"donation2": {
+ 	 	 	"trans": "ผู้บริจาค",
+ 	 	 	"eng": "Donator"
+ 	 	},
+ 	 	"donation3": {
+ 	 	 	"trans": "ผู้ลากมากดี",
+ 	 	 	"eng": "Elite"
+ 	 	},
+ 	 	"donation4": {
+ 	 	 	"trans": "ตำนาน",
+ 	 	 	"eng": "Legendary"
+ 	 	},
+ 	 	"donation5": {
+ 	 	 	"trans": "มันฝรั่งไซเบอร์เนติก",
+ 	 	 	"eng": "Cybernetic Potato"
+ 	 	},
+ 	 	"donation6": {
+ 	 	 	"trans": "ศักดิ์ศรี",
+ 	 	 	"eng": "Prestige"
+ 	 	},
+ 	 	"moderator": {
+ 	 	 	"trans": "พิธีกร",
+ 	 	 	"eng": "Moderator"
+ 	 	},
+ 	 	"admin": {
+ 	 	 	"trans": "ผู้ดูแลระบบ",
+ 	 	 	"eng": "Admin"
  	 	}
  	}
 }

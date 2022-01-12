@@ -1,250 +1,248 @@
-### What is this game, and what do I do?
-Basically you adventure around 'Train Stations' and either defeat individual enemies or conquer entire dungeons.
-You'll randomly receive items, equipment or caches after defeating enemies.
+### このゲームは何ですか、どうすればよいですか？
+基本的には「駅」を中心に冒険し、個々の敵を倒すか、ダンジョン全体を攻略していくことになります。
+敵を倒すとランダムでアイテムや装備、キャッシュを入手することができます。
 
-**You will receive BTC and EXP inside a battle, but items won't drop after every single battle.**
+**戦闘中はBTCとEXPがもらえますが、戦闘のたびにアイテムがドロップするとは限りません。**
 
-### Is this game P2W (Pay-to-Win)?
-No. There's no element in this game that would benefit or offer additional advantages to some players over others.
+### このゲームはP2W（Pay-to-Win）なのですか？
+いいえ。このゲームには、一部のプレイヤーが他のプレイヤーより有利になる、あるいは追加でアドバンテージを得るような要素はありません。
 
-The Transmitters sold in the Arasaka Unit Exchange have a global effect, which means once it is activated, all players on the server will benefit from the effect that it gives. Similarly, the Global Skips that can be purchased apply to all players who have started AFK tasks.
+アラサカUNIT交換所で販売されているトランスミッターは、グローバル効果を持っており、一度起動するとサーバー上のすべてのプレイヤーがその与える効果の恩恵を受けることができます。同様に、購入できる「グローバルスキップ」は、AFKタスクを開始した全プレイヤーに適用されます。
 
-The developer intends to keep the game non-P2W into the future.
+開発者は、将来にわたってこのゲームをP2Wにならないようにする意向を示しています。
 
-### How can I help out?
-All user-contributed content can be found on the [Github](https://github.com/DexterHuang/CyberCodeOnline).  
-Feel free to submit a PR (Pull Request).
+### どうしたらこのゲームのお手伝いができますか？
+ユーザーから提供されたコンテンツはすべて[Github](https://github.com/DexterHuang/CyberCodeOnline)で見ることができます。 
+PR (Pull Request)はお気軽にどうぞ。
 
-### Does this game have any social media?
-Yes. You can find our community on [Discord](https://discord.link/cco) and on [Reddit](https://www.reddit.com/r/CyberCode_Online/).
+### このゲームにソーシャルメディアはありますか？
+はい。[Discord](https://discord.link/cco) と [Reddit](https://www.reddit.com/r/CyberCode_Online/) で私たちのコミュニティを見つけることができます。
 
-The developer (DexterHuang) also has a [Patreon](https://www.patreon.com/cybercodeonline) for donations that will help support and maintain the game.
+また、開発者（DexterHuang）は、ゲームのサポートと維持に役立つ寄付のための[Patreon](https://www.patreon.com/cybercodeonline)を開設しています。
 
-These social links can also be found by accessing ☰ and clicking on the chain link symbol on mobile or by accessing the respective platform icons on the left side of the web view.
+これらのソーシャルリンクは、モバイル版で☰にアクセスしてチェーンリンクのマークをクリックするか、ウェブビューの左側にあるそれぞれのプラットフォームアイコンにアクセスすることでも見つけることができます。
 
-### What programs or languages are being used for the creation of this game?
-CyberCode Online is a game developed using [ReactJS](https://reactjs.org/) with player contributions from [Github](https://github.com/DexterHuang/CyberCodeOnline).
+### このゲームの制作には、どのようなプログラムや言語が使われているのでしょうか？
+CyberCode Onlineは、[ReactJS](https://reactjs.org/)を使って開発されたゲームで、プレイヤーは[Github](https://github.com/DexterHuang/CyberCodeOnline)からコントリビュートしています。
 
-### Is the game translated in other languages?
-Yes. This game is currently translated in 15 languages.
+### 他の言語にも翻訳されているのですか？
+はい。現在15ヶ国語に翻訳されています。
 
-To change the language of the game,  
-go to Map and click on ⚙️.
+ゲームの言語を変更するには、「マップ」に行き⚙️をクリックします。
 
-Please notice that the translations might contain mistakes, be incomplete or some parts of the game might be completely untranslated.
-If the game is not translated in your language or you want to improve the current translations, please head out to our [Github](https://github.com/DexterHuang/CyberCodeOnline).
+なお、翻訳には誤りや不完全な点があり、また、ゲームの一部が完全に翻訳されていない可能性がありますことをご了承ください。
+もし、ゲームがあなたの言語に翻訳されていない場合や、現在の翻訳を改善したい場合は、私たちの[Github](https://github.com/DexterHuang/CyberCodeOnline)にアクセスしてください。
 
-### Is there any customization in the game?
-You can have a custom profile picture in your profile, a Title and a coloured chat border, if you decide to subscribe to one of the 5 Donation Tiers available.
+### ゲーム内でのカスタマイズは可能ですか？
+5つの寄付ティアに加入すると、プロフィールの写真、称号、チャットのフレームをカスタマイズすることができます。
 
-Elite Tier and higher, will have access to a bio on their profile and a barcode.  
+ELITEティア以上の方は、プロフィールのbio欄とバーコードをカスタマイズすることができるようになります。
 
-These benefits are purely cosmetic.
+これらの利点は、純粋に外見的なものです。
 
-### Can I change my name?
-No, you can't change your name.  
-Your username is permanent for now.
+### 名前を変更することはできますか？
+いいえ。名前を変更することはできません。 
+あなたのユーザーネームは、今のところ永久なものです。
 
-### How do I tag someone? Can I search the usernames of other people?
-You can tag and search for a user by typing @ in chat followed by their name (for example, type @DexterHuang).
+### タグを付けるにはどうすればよいですか？他の人のユーザーネームを検索することはできますか？
+チャットで＠を入力し、その後に名前を入力することで、タグ付けや検索ができます（例：＠DexterHuangと入力）。
 
-They will show up even if they are not online and they will receive a notification.
+オンラインでなくても表示されますし、通知も届きます。
 
-### Does the chat support emojis and kaomojis?
-Yup 🤠 ฅ^•ﻌ•^ฅ.
+### 絵文字や顔文字に対応していますか？
+はい🤠ฅ^•ﻌ•^ฅ。
 
-Please don't overuse or spam these, as this kind of practice is against the Chat Rules.
+使いすぎやスパムはチャットルールに反する行為であるので、しないようにしましょう。
 
-### Does this game have PvP?
-No. PvP is not currently available in the game.
+### このゲームにPvPはありますか？
+いいえ。現在、PvPはゲーム内で利用できません。
 
-### What is the fastest way to level up in this game?
-The fastest and best way to level up in this game is to have an Frontal Cortex Transmitter (XP booster) active and to complete challenge dungeons.
+### このゲームで一番早くレベルアップする方法は何ですか？
+このゲームでは、前頭皮質トランスミッター（EXPブースター）をアクティブにして、チャレンジダンジョンをクリアすることが、最も早く、最も良いレベルアップの方法です。
 
-### What will happen if I die?
-You will lose some of your experience and BTC (around 10%); however your inventory will be safe.
+### 死亡したらどうなるのでしょうか？
+経験値とBTCの一部（約10%）を失いますが、インベントリは安全に保管されます。
 
-### Where is the Player Market?
-When your character reaches level 5, the player market will be unlocked.  
-It will show up as a new destination in the 'Central Hub'.
+### プレイヤーマーケットはどこにありますか？
+キャラクターがレベル5になると、プレイヤーマーケットがアンロックされます。 
+［セントラルハブ］の新しい目的地として表示されます。
 
-### Does the game support trading among players?
-Yes, partially. You can send items to other players, but there isn't a system that forces the other person to give something in exchange. Most trades are conducted with trust.
+### プレイヤー間の取引は可能ですか？
+はい、部分的に。他のプレイヤーにアイテムを送ることはできますが、その代わりに相手に交換のために何かを強制的に送らせるようなシステムはありません。ほとんどの取引は、信頼関係で行われています。
+BTCやキーのかけらを他のプレイヤーに贈ることはできません。
 
-You can't gift BTC and key fragments to other players.
+回復アイテム、弾薬、素材、ハッシュプロセッサー、Aiコアなどの種類に限ります。
 
-Only healing items, ammo, materials, Hash Processors, Ai Cores and other types of items.
+### インベントリが一杯の場合はどうすればよいですか？
+アイテムをスクラップ、破棄、またはシティセンターにある銀行での保管のいずれかにすることができます。なお、銀行に預けるアイテムの手数料は、1つにつき100BTCです。アイテムを持ち帰るにはお金はかかりません。
 
-### What should I do if my inventory is full?
-You can either scrap, destroy or store items in the bank located in the City Center. Note that the fee for each item you deposit in the bank is 100 BTC. It doesn't cost anything to take the item back out.
+また、装備品やアップグレードモジュールにある「ポケット（pocket）」のステータスで、一時的にインベントリの容量を増やすことができます。
 
-You can also temporarily increase your inventory capacity with the 'Pocket' stat found on equipment and upgrade modules.
+### アイテムをクラフトするにはどうすればよいですか？
+インベントリページの上部に、「クラフト」というタブがあります。
 
-### How do I craft items?
-At the top of the Inventory page, you will find a tab called 'Crafting'.
+### 回復アイテムはどこで手に入りますか？
+回復アイテムは、クラフトや敵を倒したとき、ダンジョンでクレートを拾ったときに手に入るほか、街の中心部にある「トリノキーマート」で購入することも可能です。
+また、プレイヤーマーケットから購入することも可能です。
 
-### Where can I get healing items?
-Healing items can be crafted, found when defeating an enemy or when looting a crate in a dungeon, or purchased at the Trinoky Mart in the City Center.  
-They can also be purchased from the Player Market.
+### 回復アイテムはどのように使うのですか？
+回復アイテムを装備して使用するには、インベントリから、装備品の上にある3つの「クイックスロット」を使用します。  
+そのうちの一つをクリックし、希望の回復アイテムを割り当てます。 
+回復アイテムはダンジョン内でのみ使用可能です。
 
-### How do I use my healing items?
-To equip and use your healing items, go to your inventory and under your equipment you will find 3 'Quick Slots'.  
-Click on one of them and assign your desired healing item to it.  
-Healing items can be used only inside dungeons.  
+### スペシャルウェポンや量子兵器が使えないのはなぜですか？
+これらの武器は弾薬を必要とします。スペシャルウェポンはエネルギーセルを、量子兵器はアンチマターチャージを使用します。 
+弾薬は、敵から戦利品として手に入れたり、インベントリでクラフトしたり、プレイヤーマーケットで購入することができます。
 
-### Why can't I use my Special and Destructive weapons?
-These weapons require ammo. Special weapons uses Energy Cells and Destructive weapons use Anti-Matter Charges.  
-Ammo can be looted form enemies, crafted in your Inventory, or bought on the player market. 
+### 武器や防具のステータスをアップグレードすることはできますか？
+はい、メインマップにあるキャリブレーションステーションで武器のアップグレードが可能です。 キャリブレーションステーションには、装備キャリブレーションコアが必要です。
+キャリブレーションには破壊的な失敗が発生することがあるので、破壊確率を下げるキャリブレーションバフに目を配りましょう。
 
-### Can I upgrade the stats of my weapons and armour?
-Yes, you can upgrade your weapons at the Calibration Station found in your main map.  The Calibration Station requires an Equiptment Calibration Core.
-Calibration has a chance of destruction, so be on the lookout for Calibration buffs which lower destruction chance.
+### 武器や防具の「品質（Quality）」とはどういう意味ですか？
+装備の品質は、それが与えるステータスに大きく貢献します。品質が高ければ高いほど、ステータスは良くなります。
+品質のティアは、ゴミみたいな>普通の>高品質>レア>伝説の>英雄のとなります。
+武器や防具の品質を変更することはできません。
 
-### What does "Quality" on weapons and armor means?
-The quality of the armor will contribute a lot on the stat it gives; the higher the quality, the better the stats.
-Quality tiers go from Trash > Common > High Quality > Rare > Legendary > Epic.
-You cannot change the Quality of a weapon or armor.
+### 武器や防具の「耐久性（Durability）」とは、どのような意味ですか？
+耐久性とは、ある機器が設計された耐用年数の間、通常の操作に直面したときに、過度の保守や修理を必要とせずに、機能を維持する能力のことである。（Wikipediaより引用）耐久度は近くの敵と戦ったときのみ減少します。ダンジョン内での戦闘では、耐久度は影響しません。
 
-### What does "Durability" on weapons and armor means?
-Durability is the ability of an equipment to remain functional, without requiring excessive maintenance or repair, when faced with the challenges of normal operation over it's designed lifetime. (Wikipedia).  Durability only decreases when fighting Nearby Enemies.  Durability is not impacted when fighting in dungeons.
+### 装備の耐久性を修理するにはどうしたらいいですか？
+シティセンターにある装備屋で少額のBTCを支払うことで、装備品を修理することができます。
 
-### How do I repair my equipment's durability?
-You can repair your equipment by paying a small amount of BTC at the Weapon Shop located in the City Center.
+### 装着したアップグレードモジュールを取り外すことはできますか？
+はい。装着したアップグレードモジュールをクリックして、装備から取り外しましょう。
 
-### Can I remove installed upgrade modules?
-Yes. Click on the installed upgrade module to remove it from the equipment.
+### なぜプリントする装備のレベルが違うのですか？
+プリントされた装備は、クラフトスキルのものと同じレベルになります。プレイヤーレベルには比例しません。
 
-### Why is the equipment I print the wrong level?
-Your printed gear will have the same level as the one from your 'Printing Rank'. It does not scale with player level.
+### クラフトスキルを上げるにはどうすればよいですか？
+クラフトスキルを上げるには3つの方法があります。
 
-### How do I increase my printing rank?
-There are 3 ways to increase your printing rank.
+1. 分子合成式3Dプリンタでキャッシュをプリントします。キャッシュをプリントするごとにクラフトスキルのEXPがもらえます。ゴミみたいなキャッシュは最も安くプリントでき、プリントした装備はテックスクラップとして廃棄できます。
 
-1. Print caches at the 3D Printing Module. Each cache you print gives you printing exp. Trash caches are the cheapest to print and the printed gear can be scrapped for Tech Scrap.
+2. AFK印刷のトレーニングを行います。商業地区に「分子合成式3Dプリンタ工場で働く」というAFKジョブがあり、クラフトスキルのEXPを得ることができます。
 
-2. AFK Printing Training. There is an AFK job in the Commercial Area called 'Work in Printing Factory' that gives you printing exp.
+3. テックスクラップをリバースエンジニアリングします。商業地区には「スクラップのリバースエンジニアリング」という短いAFKジョブがあり、テックスクラップを使用してクラフトスキルを上げることができます。これが一番手っ取り早くクラフトスキルを上げる方法です。
 
-3. Reverse engineering Tech Scraps. In the Commercial Area there is a short AFK job called 'Reverse Engineer Scraps' which uses Tech Scraps to increase your printing rank. This is the fastest way to increase your rank. 
+### キャッシュとは何ですか、キャッシュをどうすればよいですか？
+分子合成式3Dプリンタで装備をクラフトするのに使うことができます。キャッシュはプリントや売却した方が価値が高いため、スクラップすることはおすすめしません。
 
-### What are caches and what should I do with them?
-You can use them to craft equipment at the Molecular 3D Printer.  It is not recommended to scrap your caches because they are more valuable to print or sell.
+### キャッシュはレベルに応じて増えるのですか？後々のために取っておいた方が良いですか？
+プリントするキャッシュは、クラフトスキルに比例して増加します。
+そこから得られる装備は、常にクラフトスキルと同じレベルになっています。クラフトスキルを現在のプレイヤーレベルに合わせておくと、常に最高の装備品をプリントすることができます。
 
-### Do caches scale with my level? Should I keep them for later?
-The caches you print scale with your Printing Rank.
-The gear that you obtain from them will always have the same level as your Printing Rank. Make sure to level your Printing Rank to your current player level to always receive the best equipment possible from printing.
+キャッシュをプリントするのは今からでも構いませんが、伝説のキャッシュはレベル30～40以上でプリントを行うことをおすすめします。もし、英雄のキャッシュを見つけた場合は、レベル100以上まで持っていてください。
+伝説と英雄のキャッシュはプリントのコストがレアよりはるかに高価ですが、アイテムははるかに良いステータスを持っています。高品質なアイテムは長く使うことができ、しばしばキャリブレーションステーションで調整する価値があります。
 
-It doesn't matter if you print your caches now or later, but it's recommended to keep your Legendary caches for levels 30-40+.  If you happen to find an Epic cache, hold onto it until level 100+.
-Legendary and Epic caches are much more expensive to craft than Rare ones, but the items have much better stats.  Higher quality items can last you for a long time, and are often worth calibrating at the Calibration Station.
+### レベルの高い敵ほど報酬が多くなるのですか？
+はい。高レベルの敵を倒すと、より多くのBTCと経験値を得ることができます。
 
-### Will higher level enemies give more rewards?
-Yes. Higher level enemies give you more BTC and experience after you defeat them.
+### 鍵のかかったコンテナとは何ですか、またどのようにロックを解除するのですか？
+鍵のかかったコンテナ（✧）は、ダンジョンで見つけたり拾ったりすることができます。メインハブにある「ターミナル」でテックスクラップを使ってアンロックすることができ、テックスクラップから伝説の装備まで、さまざまな報酬が入っています。
 
-### What are Locked Containers and how do I unlock them?
-Locked containers (✧) can be found and picked up from dungeons. They can be unlocked using Tech Scraps at the Terminal in the main HUB, and contain various rewards ranging from Tech Scrap to Legendary gear.
+コンテナを開けるのに必要なテックスクラップは、普通のコンテナが32個、レアコンテナが64個、伝説のコンテナが128個です。
 
-Tech scrap costs for opening the containers are 32 Tech Scrap for common containers, 64 for rare containers, and 128 for legendary ones.
+ターミナルでコンテナのロックを解除する項目が表示されない場合は、テックスクラップが不足していることを意味します。
 
-If you don't see the option for unlocking the container at the Terminal, it means you do not have enough Tech Scraps.
+### ビットコイン（BTC）とは何ですか、どのように換金するのですか？
+ビットコイン（BTC）はゲーム内の通貨です。ゲーム内のビットコインは現実世界のビットコインと同じではありません。もしそうなら、私たちは皆、イーロン・マスクよりお金持ちになっているはずです！
 
-### What is BitCoin (BTC) and how do I redeem it?
-BitCoin (BTC) is the game's currency.  Your in game BitCoin isn't the same as the one from the real world. If it was, we would all be richer than Elon Musk!
+### ビットコインを増やすにはどうすればよいですか？
+ビットコインは、敵を倒したとき、プレイヤーマーケットでアイテムを売ったとき、ハッシュプロセッサーでマイニングしたときに手に入れることができます。ハッシュプロセッサーはダンジョンで見つけることができ、［ジョブハブ］でビットコインをマイニングすることができます。
 
-### How do I get more BitCoins?
-BitCoin is obtained when defeating enemies, selling items in the Player Market, and by mining with Hash Processors.  Hash Processors are found in dungeons and may be usd to mine BitCoin at the [Job Hub].
+### リスペクトとは何ですか？
+リスペクトとは、好きな人やお世話になった人に感謝するためのものです。Redditの「Karma」ポイントに似ています。
 
-### What is Street Cred?
-Street Cred (Street Credit) is a way to appreciate someone you like or who has helped you. They are similar to "Karma" points on Reddit.
+1日に1回、リスペクトを送ることができます。リスペクトを送るには、相手のプロフィールを表示し、「プレイヤーアクション」までスクロールして、「フレンドリストに追加」の下にある「リスペクトを送る」をクリックします。
 
-You can give 1 Street Cred per day. To give Street Cred, go to the person's profile, scroll down to 'Player Actions' and click on [GIVE STREET CRED] located under [ADD TO FRIEND LIST].
+このゲームに貢献した人たちにリスペクトを送ることを検討してください！このリストはプロフィール>クレジットで見ることができます。
 
-Consider giving some Street Credit to the people that contributed to this game! You can view the list at Profile - > Credits.
+### ギャングとは何ですか、またどのように作成するのですか？
+ギャングとは、他のMMORPGでいうギルドやクランに近いものです。ギャングに参加すると、新しいAFKタスク、テックスクラップを作るためのリサイクラー、そしてギャングチャットを利用することができます。また、通常のダンジョンよりも難易度が高いですが、より大きな報酬が得られるギャングダンジョンにもアクセスできるようになります。
 
-### What are Gangs and how do I create one?
-Gangs are similar to guilds or clans in other MMORPGs.  Joining a gang gives you access to new AFK tasks, a recycler to make tech scrap, and gang chat!  You also gain access to gang dungeons, which have a high level of difficulty but greater rewards than the regular dungeons.
+ギャングチャットを選択することでギャングを作成することができます。ギャングの作成には50,000BTCが必要です。ギャングは毎週維持費が発生し、解散されないようにするために維持しなければなりません。ギャングは、チャット欄に作成時に選択した3文字のタグを付けることができます
 
-You can create one by selecting the Gang chat.  The cost to create a gang is 50,000 BTC.  Gangs have a weekly upkeep cost that must be met to avoid being disbanded. Gangs allow you to have a tag of 3 letters, chosen when the gang was created, in your chat border.
+### ギャングを探すには？参加するにはどうすればよいですか？
+現在、ゲーム内ではギャングの一覧を見ることができません。
+自分で作成するか、ギャングから招待を受けることで加入することができます。
 
-### How do I search for a Gang? How do I join one?
-Currently, you can't see a list of gangs in the game.
-You can join one by creating it yourself or by receiving an invite from a gang.
+### 自分のギャングの名前を変更できますか？他のギャングが持っているのと同じタグを持つことはできますか？
+現在、自分のギャングの名前を変更することはできません。
+また他のギャングと同じタグを持つことは禁止されています。
+混乱を避けるため、すべてのギャングは異なるタグを持つべきです。
 
-### Can I rename my Gang? Can I have the same tag as another Gang has?
-Currently, you can't rename your own gang.
-It's forbidden to have the same tag as other gangs.
-All gangs should have different tags in order to avoid confusion.
+### ギャングのレベルを上げるにはどうすればよいですか？
+ギャングを維持し、レベルアップさせるためには、ギャングの各メンバーが（ギャング本部のAFKタスクを通じて）リソースを集め、またビットコインを寄付する必要があります。
 
-### How can I level up my gang?
-To be able to maintain your gang and to level it up, each member of the gang will have to gather resources (through an AFK task in the Gang Headquarters) and will also have to donate bitcoins to it.
+### ギャング本部はどこにあるのですか？そこで何ができるのですか？
+ギャング本部は、メインハブの［プレイヤーマーケット］の下にあります。ギャング本部では、ビットコインの寄付、リソースの収集、様々なAFKタスクが可能です。
 
-### Where are the Gang Headquarters (HQ)? What can I do there?
-Gang HQ is located in the main HUB, under [Player Market].  At the Gang HQ you're able to donate bitcoin, gather resources, and do a varitety of AFK tasks.
+### ダンジョンにあるシンボルは何ですか？
+- 「?」はクエストを表します。受諾したクエストは、「クエスト」タブでアクセスすることができます。
+- 「!」はLoreを表します。
+- クレートは小さな白い箱で表されています。  
+- 「+」が付いているクレートには、キーのかけらが入っています。
+- 黄色い✧には、鍵のかかったコンテナが入っています。
+- エイリアンのようなアイコンは、ダンジョン内の敵を表しています。
 
-### What are the symbols in dungeons?
-- "?" represents a quest. You can access accepted quests in your Quest tab.
-- "!" represents lore.
-- Crates are represented by small white boxes.  
-- Crates that have a "+" inside them contain key fragments.
-- The yellow ✧ contains a locked container.
-- The alien looking icons represent monsters inside the dungeon.
+### パブリックダンジョンやプライベートダンジョンとは何ですか？パスワードで保護されたダンジョンとは何ですか？
+ダンジョンを作成すると、デフォルトで公開（パブリックダンジョン）になります。これは、レベル要件を満たしている限り、誰でもあなたのダンジョンを見ることができ、参加できることを意味します。ダンジョンを非公開（プライベートダンジョン）にすると、他のプレイヤーはダンジョンを見ることができなくなります。
 
-### What are Public and Private Dungeons? What are Password Protected Dungeons?
-When creating a dungeon, it will default to Public.  This means that anyone can see and join your dungeon as long as they meet the level requirements. If you make your dungeon Private, it will be invisible and inaccessible to other players.
+また、ダンジョンにパスワードを設定し、パスワードを知っているユーザーしかアクセスできないようにすることもできます。
 
-You may also create a password for your dungeon so that it is only accessible by users who know the password.
+### 人々が私の戦利品を略奪しています。助けてください！
+クレートの中の戦利品は、各プレイヤーごとにランダムに生成されます。したがって、誰かがあなたの戦利品を盗むことは不可能です。
 
-### People are looting my stuff. Help!
-The loot in the crates is randomly generated for each player. Therefore, it's impossible for someone to steal your loot.
+### テックスクラップとは何ですか？
+テックスクラップは、キャッシュやプリントされた装備をスクラップすることで得られるアイテムです。また、オートマチックリサイクラーで生成することもできます。
 
-### What are Tech Scraps?
-Tech Scraps are resources obtained from scrapping caches and printed gear.  They can also be generated at with the Gang Recycler.
+クラフトスキルを早く上げる、AIコアやハッシュプロセッサーをクラフトする、鍵のかかったコンテナを開ける、などの用途で使用することができます。
 
-They can be used to level up Printing Rank faster, craft Ai Cores and Hash Processors, and to open Locked Containers.
+テックスクラップを入手するには、ゴミみたいなキャッシュやを大量に印刷し、入手したギアを大量にスクラップするのが一番です。
 
-The best way to get Tech Scrap is to mass print Trash Caches or Common Caches and then mass scrap the obtained gear.
+### AIコアとは何ですか？
+AIコアは、ダンジョンをAFKファームするために必要なアイテムです。AFKファームでは、EXPやアイテム、少額のBTCを入手することができます。AIコアはドロップで入手できるほか、ハッシュプロセッサーからクラフトすることも可能です。
 
-### What are AI Cores?
-AI Cores are items required to AFK farm dungeons.  AFK farming provides EXP, items, and a small amount of BTC. AI cores can be acquired as drops or crafted from Hash Processors.
+### ハッシュプロセッサーとは何ですか？
+ハッシュプロセッサー（略称：ハッシュ）は、BTC（ビットコイン）を大量に獲得できるAFKジョブを行うために必要なアイテムです。通常のダンジョンやチャレンジダンジョンからドロップします。
 
-### What are Hash Processors?
-Hash Processors ('hash' for short) are items that are required to activate an AFK job that yields high amounts of BTC (BitCoin). They drop from normal and challenge dungeons.
+### 暗号化ギャングメモリのかけらとは何ですか？
+解読すると、ランダムでキャッシュが手に入り、マイニングスキルのEXPやギャングEXPが手に入ります。
 
-### What are Gang Memory Shards?
-Upon deciphering them, these items will give you a random cache, along with mining and gang experience.
+### ギャング侵略指令送信機とは何ですか？
+ギャング侵略指令送信機は、チャレンジダンジョンでボスからドロップする特別なアイテムです。
+ギャングダンジョンを開く際に必要となります。
 
-### What are Gang Invasion Order Transmitters?
-Gang invasion transmitters are special items that drop from the boss in challenge dungeons.
-They are required to open a Gang Dungeon.
+### トランスミッターとは何ですか？
+UNIT（プレミアム通貨）で購入できる特別なアイテムで、サーバー上のすべてのプレイヤーにグローバルなメリットを提供します。その効果は、AFKジョブやアクティビティの時間を短縮したり、BTCやEXPの獲得量を増加させたりと様々です。これらはトレード不可です。
 
-### What are Transmitters?
-These are special items that can be bought with Units (premium currency) and provide global benefits to all players on the server.  Their effects range from reducing the time on AFK job or activities to increasing BTC or EXP gain. These are untradeable.
+ダンジョンからドロップする通常のトランスミッターもありますが、有料版と比べると効果は劣ります。
 
-There are also normal transmitters that drops from dungeons, but are less effective than the paid version.
+### 装備キャリブレーションコアとは何ですか？
+装備キャリブレーションコアは、キャリブレーションステーションで使用することができ、装備のアップグレードを行うことができます。
 
-### What are Equipment Calibration Cores?
-Equipment Calibration Cores are used at the Calibration Station to upgrade your gear.
+### キャリブレーションAIのかけらとは何ですか？
+これらのアイテムは、キャリブレーションの成功確率を上げるスタック可能なバフを提供します。
 
-### What are Calibration AI Shards?
-These items offers a stackable buff that increase the chance of success when calibrating.
+### 医療スキルや弾薬作成スキルをレベルアップさせるメリットは何ですか？
+それらのスキルによって、医薬品や弾薬などの便利な消耗品を作ることができます。
+レベルが上がると、より多くの種類のアイテムをクラフトできるようになり、また、より効率的にクラフトできるようになります。例えば、レベルの高い回復アイテムは、より多くのHPを回復します。
 
-### What's the benefit of leveling my crafting skills?
-Your crafting skills allow you to create useful consumables, including medicine and ammo.
-Higher levels allow you to craft more types of items and also craft more efficiently. For example, higher-level healing items will heal for more health.
+### 収集スキルを上げるにはどうすればよいですか？
+敵がいるすべてのエリアで、ダンジョン選択の下の、リストの一番下にAFKリソース収集というアクションがあります。
+レベル1～4までの駅を拠点に、レベルを上げていくと、より高いレベルの場所を探索できるようになります。
 
-### How do I increase my Scavenge Skill?
-In every area with enemies, there is an action called AFK Resource Gather near the bottom of the list, under the dungeon selections.
-You'll need to increase your scavenging level starting from earlier train stations (Level 1 - 4) before being able to scavenge at higher level sites.
+### マイニングスキルとは何ですか？マイニングスキルを上げるにはどうしたらよいですか？
+マイニングスキルとは、BTC（ビットコイン）をファームアップするためのスキルです。また、AIコアをクラフトすることも可能です。
+マイニングには、ダンジョンからドロップするハッシュプロセッサーが必要です。
+マイニングを始めるには、［ジョブハブ］に行って、クリプトマイニングの項目が表示されるまで下にスクロールするだけです。
+また、自分のギャングのためにリソースを集めると、マイニングスキルのEXPがもらえます。
 
-### What's mining and how do I increase my mining skill?
-Mining is the skill that allows you to farm BTC (BitCoin). It also allows you to craft AI Cores.
-To mine, you need to have Hash Processors which drop from dungeons.
-If you want to start mining, simply go to the [Job Hub] and scroll down until you see the option to mine.
-You also receive mining experience when gather resources for your gang.
+### ギアスコアとは何ですか？
+ギアスコアは、あなたが身に着けている装備の平均レベルです。これは、あなたが装備している武器以外のすべての装備と、あなたが持っている中で最もレベルの高い武器（量子兵器を除く）の平均値で計算されます。
 
-### What is the Gear Score?
-Gear Score is the average level of the equipment you wear. This is calculated by averaging every non-weapon gear you have equipped, plus the highest level weapon you have (excluding destructive).
+### ポケット（pocket）のステータスは何を意味していますか？
+ポケットのステータスがあると、インベントリのサイズが大きくなります。ポケットが1であることは、1つのインベントリスロットを追加することを意味します。
 
-### What is the Pocket Stat?
-Pockets increase your inventory size. 1 pocket means 1 additional inventory slot.
-
-### What is the Bargain Stat?
-Bargain gives you better deals at the Weapon Smith and Trinoky Mart, which can be found in the Central Hub. You can both sell and buy your items for better prices.
+### バーゲン（bargain）のステータスは何を意味していますか？
+バーゲンのステータスがあると、セントラルハブにある装備屋やトリノキーマートで、よりお得な買い物をすることができます。より良い価格で売却・購入ができます。
