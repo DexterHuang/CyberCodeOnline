@@ -29,7 +29,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 - NEW - `Prestige` donation tier is added, this tier is redeemable by donating Unit directly and is permanent, meaning once aquired, it stays with your account forever
 - FIX - Fixed crashing on some older player profile page
 - FIX - Fixed some phone does not show item details page properly
-- OPTIMIZATION - attempt on increasing skip speed, please let me know if it works well
+- OPTIMIZATION - attempt on increasing skip queue speed, please let me know if it works well
 
 ### 2022/01/11 v0.754
 - UI - Updated donation npc image
