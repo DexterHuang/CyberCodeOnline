@@ -1,16 +1,16 @@
-# Calibration
+# Calibrage
 ![CalibrationStation](/resources/mobile-tutorial/CalibrationStation.png)
 
-**Calibration** permet aux joueurs d'améliorer leurs équipements jusqu'à un certain point, avec dans l'idée la longévité et l'utilité de l'équipement à plus haut niveau. Calibrer un équipement n'augmente pas son niveau, Ça augmente ses statistiques de base jusqu'à un certain tiers de calibration.
+**Calibrage** permet aux joueurs d'améliorer leurs équipements jusqu'à un certain point, avec dans l'idée la longévité et l'utilité de l'équipement à plus haut niveau. Calibrer un équipement n'augmente pas son niveau, Ça augmente ses statistiques de base jusqu'à un certain tiers de calibrage.
 
-Il est conseillé de commencer à calibrer son équipement vers le niveau 50, car avant l'équipement est dépassé plus rapidement, rendant l'équipement calibré inutile à court terme. Il est aussi conseillé de calibrer des équipements au moins de qualité 'Rare' (jusqu'à Epique) car une qualité plus élevée donne accès à plus de tiers de calibration.
+Il est conseillé de commencer à calibrer son équipement vers le niveau 50, car avant l'équipement est dépassé plus rapidement, rendant l'équipement calibré inutile à court terme. Il est aussi conseillé de calibrer des équipements au moins de qualité 'Rare' (jusqu'à Epique) car une qualité plus élevée donne accès à plus de tiers de calibrage.
 
-Pour faire de la calibration, les joueurs doivent aller à la station de calibration se trouvant au centre-ville de Shangri-La.
+Pour faire du calibrage, les joueurs doivent aller à la station de calibrage se trouvant au centre-ville de Shangri-La.
 
-## Faire de la Calibration
+## Faire du Calibrage
 ![CalibrationStation2](/resources/mobile-tutorial/CalibrationStation2.png)
 
-Dans la **Station de Calibration**, Il sera demandé au joueur d'insérer le **Noyaux de calibration de l'équipement** pour démarrer le processus. Après avoir inséré le noyau, Il faudra attendre 30 minutes avant que la station permette au joueur de calibrer l'équipement (**Cette attente n'est pas affectée par les buffs/skip globaux, incluant les accélérateur d'AFK[Synaptic Acceleration Transmitter]**).
+Dans la **Station de Calibrage**, Il sera demandé au joueur d'insérer le **Noyaux de Calibrage de l'équipement** pour démarrer le processus. Après avoir inséré le noyau, Il faudra attendre 30 minutes avant que la station permette au joueur de calibrer l'équipement (**Cette attente n'est pas affectée par les buffs/skip globaux, incluant les accélérateur d'AFK[Synaptic Acceleration Transmitter]**).
 
 ![CalibrationStation3](/resources/mobile-tutorial/CalibrationStation3.png)
 
@@ -20,7 +20,7 @@ Après 30 minutes, Les joueurs peuvent calibrer n'importe quel équippement (exc
 
 ![CalibrationStation4](/resources/mobile-tutorial/CalibrationStation4.png)
 
-Dans le process de calibration, il y a un pourcentage de chance d’échec, avec pour résultat la destruction de l'équipement. Le pourcentage d'échec est indiqué en rouge au-dessus de l'équipement sélectionné. 
+Dans le process de calibrage, il y a un pourcentage de chance d’échec, avec pour résultat la destruction de l'équipement. Le pourcentage d'échec est indiqué en rouge au-dessus de l'équipement sélectionné. 
 
 Il est conseillé de retirer les modules d'améliorations qui sont attachés à l'équipement avant de le calibrer, car ils seront détruit sinon lors d'un échec destructif.
 
@@ -39,9 +39,9 @@ En général, la capacité de l'équippement / le poucentage d'échec de chaque 
 | Epique | +10 | 666% |
 
 ## Passer outre les chances
-Toute +6 calibration et plus est *impossible* sans utiliser un **Calibration Boost**. Ils réduisent le pourcentage d'échec et s'ajoutent les uns avec les autres.  
+Tout calibrage +6 et plus est *impossible* sans utiliser un **Boost de Calibrage**. Ils réduisent le pourcentage d'échec et s'ajoutent les uns avec les autres.  
 
-En général, les tiers des boosts de calibration (et où les trouver) sont ainsi:
+En général, les tiers des boosts de calibrage (et où les trouver) sont ainsi:
 - **Calibration AI Shard (Common)** réduit les chances d'échec de 5%; seulement pour une utilisation personelle; peut être trouvé dans les conteneurs rares vérouillés
 - **Calibration AI Shard (Rare)** réduit les chances d'échec de 10%; effet global; Ne peut être acheté qu'au bureau d'échange d'Arasaka
 - **Calibration AI Shard (Legendary)** réduit les chances d'échec de 50%; effet global; Ne peut être acheté qu'au bureau d'échange d'Arasaka
