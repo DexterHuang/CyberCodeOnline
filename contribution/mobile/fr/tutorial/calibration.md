@@ -51,5 +51,5 @@ Les joueurs peuvent aussi réduire l'effet de destruction en activant **Calibrat
 
 Gardez à l'esprit que le boost **ne durera que 5 min**. Il est préférable d'être préparé avant de booster.
 
-##  2changer / vendre de l'équipement calibré 
-L'équipement calibré n'est plsu vendable ou échangeable. Pour le vendre / l'échanger, les joueurs doivent **réinitialiser** L'équipement calibré en utilisant **Factory Reset Shard** (qui peut être trouvé en fouillant ou sur le marché).
+##  Echanger / vendre de l'équipement calibré 
+L'équipement calibré n'est plus vendable ou échangeable. Pour le vendre / l'échanger, les joueurs doivent **réinitialiser** L'équipement calibré en utilisant **Factory Reset Shard** (qui peut être trouvé en fouillant ou sur le marché).
