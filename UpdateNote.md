@@ -25,6 +25,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates
+### 2022/01/14 v0.754
+- OPTIMIZATION - Server side optimization
+
 ### 2022/01/12 v0.754
 - NEW - `Prestige` donation tier is added, this tier is redeemable by donating Unit directly and is permanent, meaning once aquired, it stays with your account forever
 - FIX - Fixed crashing on some older player profile page
