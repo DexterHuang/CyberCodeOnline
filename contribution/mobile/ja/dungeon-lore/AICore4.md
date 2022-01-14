@@ -1,6 +1,6 @@
 *[あなたは教科書を見つけ、適当にページをめくる]*
 
-[AI教科書](/resources/lore/textbookAI440.png)
+![AI教科書](/resources/lore/textbookAI440.png)
 # サイバネティック脳機能拡張の倫理的および宗教的懸念
 > [AICoreシリーズ全8回]（第4回)
 
