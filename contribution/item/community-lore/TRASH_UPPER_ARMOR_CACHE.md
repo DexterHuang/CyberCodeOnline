@@ -6,4 +6,4 @@ Just ignore the cough and sneezes when your printer is reading the cache.
 
 No. the printer isn't alive. And the gear isn't going to damage you physically.
 
-What do you mean by 'Does something live inside the Corrupted schoolgirl Uniform'?"
+What do you mean by 'Does something live inside the Corrupted Schoolgirl Uniform'?"
