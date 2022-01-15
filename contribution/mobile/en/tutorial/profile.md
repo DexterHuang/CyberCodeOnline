@@ -117,7 +117,7 @@ A percent multiplier to heals received from healing items. The max multiplier is
 A percent multiplier for how much time is reduced during AFK activities. The max time reduction is 80%.
 
 ### Experience Multiplier
-A percent multiplier showing how much EXP you can additionally gain. The max multiplier is 100%.
+A percent multiplier showing how much EXP you can additionally gain. The max multiplier is 80%.
 
 ### BitCoin (BTC) Multiplier
 A percent multiplier showing how much BitCoin you can additionally gain. The max multiplier is 100%.
