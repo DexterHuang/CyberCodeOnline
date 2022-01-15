@@ -1,6 +1,4 @@
-> This FAQ (Frequently Asked Question) were compiled based on major
-> question thats been asked by community and new player in general. Feel
-> free to edit & add more FAQ-related content on [Github](https://github.com/DexterHuang/CyberCodeOnline).
+> This FAQ (Frequently Asked Question) were compiled based on major question thats been asked by community and new player in general. Feel free to edit & add more FAQ-related content on [Github](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Starting Point
 
@@ -14,6 +12,15 @@ More in-depth explanation can be found on dedicated Tutorial section.
 You'll receive in-game currency called **BTC** and in-game experience called **EXP** inside a battle. You'll randomly receive items, equipment or caches after defeating enemies.
 
 **[You'll always be receive BTC and EXP in a battle, but items won't drop after every single battle.]** 
+
+### What is the Fastest Way to Level Up (Character) in this Game?
+On **lower level (1-7)**, the fastest and best way to level up is to fight **Nearby Enemies** constantly. Defeating the **yellow enemies** will result in more EXP gain, while also risking in having a harder fight than a normal enemies.
+
+**After reaching level 7**, try to equip / print a gear that has same gear level as your character level, and jumps into solo **Normal Dungeon**. Player can also join other players Dungeon via **Dungeon List** feature on **Map > Phone Icon > Dungeon List**. Finishing a dungeon will gain more EXP yield than Nearby Enemies.
+
+For best result, try to compelete **Challenge Dungeons** while having an active **Frontal Cortex Transmitter** (EXP Buff / Booster) on a go.
+
+Note: You could also level up by doing AFK Task (**Deploy Farm Bot**) that requires **AI Core**. These task takes time (up to 2 hours) & only be profitable if a Global Skip event is happening, which recudes the task time (making it the most efficient way to level up). Explanation around Time Skip can be found on [Time Skip's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fglobal_skip.md)
 
 ### What Is Skills? How to Level Up "X" Skills?
 There are 5 skills that player can develop & it has it's own perk upon doing so. In summary, here's how to level up certain skills:
@@ -47,13 +54,6 @@ No. Character Level is the max / boundary of player's skill level.
 ### Can I Use Gear that's higher than our Character Level?
 No. player can't use gear that's higher than it's current character level.
 
-### What is the fastest way to level up in this game?
-On **lower level (1-7)**, the fastest and best way to level up is to fight **Nearby Enemies** constantly. Defeating the **yellow enemies** will result in more EXP gain, while also risking in having a harder fight than a normal enemies.
-
-**After reaching level 7**, try to equip / print a gear that has same gear level as your character level, and jumps into solo **Normal Dungeon**. Player can also join other players Dungeon via **Dungeon List** feature on **Map > Phone Icon > Dungeon List**. Finishing a dungeon will gain more EXP yield than Nearby Enemies.
-
-For best result, try to compelete **Challenge Dungeons** while having an active **Frontal Cortex Transmitter** (EXP Buff / Booster) on a go.
-
 ### What will happen if I Die / Flatlined?
 You will lose 10% of your unbanked BTC and EXP; however your inventory will be safe. It is advisable to keep your BTC in **Arasaka Bank** in order to prevent major losses.
 
@@ -82,7 +82,13 @@ Explanation around Resources can be found on [Resource's Tutorial](https://cyber
 ## Advanced / Gameplay Related
 
 ### What is the Gear Score?
-Gear Score is the average level of the equipment you wear. This is calculated by averaging every non-weapon gear you have equipped, plus the highest level weapon you have (excluding destructive).
+**Gear Score** is the average level of the equipment you wear. This is calculated by averaging every non-weapon gear you have equipped, plus the highest level weapon you have (excluding destructive).
+
+### Hmm.. Why Am I Leveling so Slow?
+At most cases (such as Deploy Farm Bot task), your **Gear Score** affects your EXP Gain exponentially. It is advised to have your Gear Score closer to your Character Level so that you gain more optimal EXP Gain. 
+
+### What is Global Skip?
+Explanation around Global / Time Skip can be found on [Time Skip's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fglobal_skip.md)
 
 ### Does the game support trading among players?
 Yes, partially. You can send items to other players, but there isn't a system that forces the other person to give something in exchange. Most trades are conducted with trust. You can't gift BTC and key fragments to other players. Only Healing Items, Ammo, Materials, Hash Processors, AI Cores and other types of items.
@@ -92,8 +98,7 @@ You can either scrap, destroy or store items in the bank located in the City Cen
 
 ### What does "Quality" on weapons and armor means?
 The quality of the armor will contribute a lot on the stat it gives; the higher the quality, the better the stats.
-Quality tiers go from Trash > Common > High Quality > Rare > Legendary > Epic.
-You cannot change the Quality of a weapon or armor.
+Quality tiers go from Trash > Common > High Quality > Rare > Legendary > Epic. You cannot change the Quality of a weapon or armor.
 
 ### What does "Durability" on weapons and armor means?
 Durability is the ability of an equipment to remain functional, without requiring excessive maintenance or repair, when faced with the challenges of normal operation over it's designed lifetime. (Wikipedia).  Durability only decreases when fighting Nearby Enemies.  Durability is not impacted when fighting in dungeons.
