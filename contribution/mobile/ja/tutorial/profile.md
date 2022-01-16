@@ -1,147 +1,147 @@
-## Profile
-In your Profile, there are several pieces of information and options at your disposal.
+## プロフィール
+プロフィール画面では、あなたの情報と操作可能なオプションが存在します。
 
-Here is what you can see from your profile
- - Alias
- - Title and profile picture (if applicable)
- - Amount of BitCoins
- - Average gear level (Gear Score)
- - Current location
- - Online/Offline status (System Link)
- - Street Cred
- - Your current activity (Status)
- - Your level
- - Crafting ranks
- - Skill levels
- - Stats
- - Gang
- - Secret Keys
+プロフィールの内容は以下の通りです
+ - エイリアス
+ - タイトルとプロフィール画像(該当者のみ)
+ - 所持しているBTC
+ - ギアの平均レベル(ギアスコア)
+ - 現在地(ロケーション)
+ - オンライン/オフライン (システムリンク)
+ - リスペクト
+ - 実行中のタスク (ステータス)
+ - レベル
+ - 製作ランク
+ - スキルレベル
+ - STATS
+ - ギャング
+ - シークレットキー
+[STATS] では、有効化されたグローバルエフェクトを見ることができます。
 
-In the [STATS] section, you can see the 'Global Effects' of an activated Transmitter (or boost).
+ここでは、 [MUTED] ステータスが続く期間も見ることができます。
 
-Here you can also see how long the [MUTED] status will last.
+名前が示すように、 'MUTED' ステータスの人は一定期間ほかのプレイヤーとの通信が禁止されます。
 
-As the name suggests, someone with the 'MUTED' status will not be able to communication with others for a certain amount of time.
+'MUTED' ステータスはすべてのチャットに影響します(グローバル、ギャング、個人メールなど)。
 
-The 'MUTED' status affects all kinds of chats: both Global, Gang and Mail (Private Messaging).
+'MUTED' ステータスはアイテムの送受信やゲームプレイには影響しません。
 
-The 'MUTED' status does not affect the ability to receive or send items to other players or the ability to play the game.
+'MUTED' ステータスはゲームやチャットのルールに違反した罪深きプレイヤーに対し、モデレーター(mods)によって与えられます。
 
-The 'MUTED' status is applied by the moderators (mods) to a player who has broken the rules of the game or the ones related to the chat. 
+プロフィールの下部では、以下のオプションが存在します
 
-At the bottom of your profile, you will see a few additional options:
+- [DONATE] - 寄付の画面に移動します (コスメティックサイバーウェア)。
 
-- [DONATE] - this will take you to the donation tiers (Cosmetics);
+- [QUIT GANG] - あなたの所属するギャングを離脱します。
 
-- [QUIT GANG] - this will leave your gang, if you are in one;
+- [LOGOUT] - ゲームからログアウトします。
 
-- [LOGOUT] - this will log you out of the game.
+他のプレイヤーのプロフィール画面では、別のオプションが存在します
 
-On other players' profiles, you will encounter different options:
+- [プライベートメッセージを送る] - そのプレイヤーにゲーム内メールを送ります。
 
-- [SEND PRIVATE MESSAGE] - send a private message to the player through in-game Mail.
+- [ギフトを送る] - あなたのインベントリからそのプレイヤーにアイテムを送ります(キャッシュ、回復アイテム、弾薬など) 。 シークレットキーの欠片を送ることはできません。
 
-- [SEND GIFT] - send items (caches, healing items, ammo, etc.) from your inventory to the other player's inventory. You cannot send Secret Key Fragments to other players.
+- [ギャングに招待する] - あなたがギャングのリーダー、もしくは権限がある場合のみ、そのプレイヤーをあなたの所属するギャングに招待します。
 
-- [INVITE TO GANG] - invite the player to your gang, only if you are the Leader or you have the permission to invite others players into the gang.
+- [フレンドリストに追加] - プレイヤーをフレンドに追加します。そのプレイヤーがオフラインであった場合、フレンドリストに追加したという旨の通知が送信されます。
 
-- [ADD TO FRIEND LIST] - add the player to your friend list, and if the player is not currenty online, they will also receive a notification about the fact that you added them as a friend.
+- [リスペクトを送る] - プレイヤーに対してリスペクトを送信します。
 
-- [SEND STREET CRED] - give 1 Street Cred point to the player.
+リスペクトは、Redditにおける "Karma" に似たシステムです。これはプレイヤーがどれだけ信頼できるか示すことを目的としています。
 
-Street Cred is a point system similar to "Karma" found on Reddit. It's meant to indicate how trustful or helpful a player is.
+1日に送信できるリスペクトは1回までですが、1日に受信できる数に上限はありません。
 
-You're limited to sending only 1 Street Cred per day. You are not limited in how much Street Cred you receive from other players.
+## レベルの種類
 
-## Types of levels
+### プレイヤーレベル
 
-### Player Level
+これはあなたの基本となるレベルで、他のスキルはこの数値以上に成長できません。ダンジョンに潜ったり、敵と戦ったり、特定のアイテムを使うことで上げられます。最高の効率を得るためには、他のレベルをこれと同等にするといいでしょう。優先して上げるべきレベルです。
 
-This is the level all your other skills will be capped at. You can increase your player level by fighting in dungeons, fighting enemies and using Experience Memories. For the highest efficiency, you want to keep all your levels about even with your player level. This is recommended.
+### クラフトスキル
 
-### Printing Rank
+クラフトスキルは、分子合成式3Dプリンタで印刷するアイテムのレベルに影響します。装備の印刷、テックスクラップのリバースエンジニアリング、印刷工場で働くことによって上げることができます。後者の2つはジョブハブでのAFKタスクです。
 
-Printing rank determines the level of the equipment you will print at the 3D Molecular Printer. You can level your printing rank by printing equipment, Reverse Engineering Tech Scraps or working at a Printing Factory. The latter two options are AFK jobs at the Job Hub.
+### 医療スキル
 
-### Medical Science
-Crafting medical items or initiating the relevant job at the Job Hub will give you medical crafting experience. You will need these levels to craft better healing items.
+回復アイテムを作成するか、ジョブハブで関連する仕事をすると、経験を得られます。よりよい回復アイテムを作るためにはこのスキルを上げる必要があります。
 
-### Ammo Crafting
+### 弾薬作成スキル
 
-Crafting ammo or initiating a job at the Job Hub will give you ammo crafting experience. It's useful to craft more ammo with less materials.
+弾薬の作成やジョブハブで関連する仕事をすると、経験を得られます。より少ない材料でより多くの弾薬を作れるようになります。
 
-### Scavenge Skill
+### 収集スキル
 
-To start scavenging, you must start at the lowest level area (Flori Station, Grandiose Parking Lot 1 - 4). As your scavenge skill improves, you can start to scavenge at higher levels. The level requirements are listed in those areas.
+収集スキルを上げるためには、最下層のエリア(Flori駅のGRECIAN SYNAGOGUE)から始める必要があります。収集スキルが上がると、上のエリアでも収集が可能になります。ダンジョンなどが表示されている画面の一番下に収集の項目があります。AFKタスクです。
 
-Higher scavenge levels will also grant you better rewards of (ammunition, military ammunition and medical) tech parts. You can only gain scavenge experience by scavenging.
+このスキルが高いほど、報酬も多くなります。収集を行うことでのみ、このスキルを上げることができます。
 
-### Mining Skill
+### マイニングスキル
 
-Mining can be done only with 'Hash Processors' that drop from both normal and challenge dungeons.
+マイニングは通常及びチャレンジダンジョンからドロップする「ハッシュプロセッサ」を使用することでのみ実行できます。
 
-Higher mining levels can earn you more BTC per 15 minutes of AFK mining. You can get mining experience by completing mining jobs at the Job Hub. With higher mining levels, you can craft AI cores more efficiently as well.
+ジョブハブでのマイニング(AFKタスク)で経験値を得ることができます。マイニングスキルが高いほど、1回のマイニングで得られるBTCが多くなります。また、AIコアを効率的に作成できるようになります。
 
-## Stats
+## STATS
 
-Every player has 20 different Stats. 
+プレイヤーは20種類のステータスを持っています。
 
-### Max Shield
-The maximum shield that the player has. Upon receiving an attack, the shield is hit first before deducting from the player's health.
- 
-### Max Health
-The maximum health that the player has. Determined by player equipment and equipment upgrades.  
+### シールド最大値
+プレイヤーの持つシールドの最大値です。攻撃を受けた際に、HPより先にこの数値が削られます。
+
+### 最大HP
+プレイヤーの最大HPです。プレイヤーの装備とそのアップグレードによって決まります。ご存じの通り、0になると心停止します。
   
-### Armor
-The armor that the player has. It reduces damage taken by that specified amount.  
-  
-### Health Regen
-Health regenerated after a battle in a dungeon. 
+### アーマー
+プレイヤーの防御力です。この数値に等しいダメージを軽減します。
+
+### 自動回復
+ダンジョンで戦闘後にこの数値だけHPを回復します。
    
-### Damage (dmg)
-The total damage the player deals. Your damage is calculated by adding up the damage modifiers given by equipment and equipment upgrades.  
+### ダメージ
+プレイヤーが与えるダメージです。これは装備とそのアップグレードによるダメージ修正を合計して得られる数値です。
   
-### Crit Chance
-The chance of the player critically striking when attacking. The max crit chance is 70%.  
+### クリティカル率
+プレイヤーが攻撃したときにクリティカルが発生する確率です。最大は70%です。
   
-### Crit Damage
-The multiplier to your damage when critically striking. The max crit damage multiplier is 200%.  
+### クリティカルダメージ
+クリティカルが発生した時のダメージ倍率です。 最大は200%です。
   
-### Escape
-The chance of escaping from an enemy encounter. The max escape chance is 80%.  
+### エスケープ
+敵との戦闘から逃走できる確率です。最大は80%です。
   
-### Stun Chance
-The chance of stunning an enemy. If an enemy is stunned, they cannot perform a response action during that turn. The max stun chance is 20%.  
+### スタン率
+敵をスタンさせる確率です。スタンした敵は、そのターン中行動できません。最大は20%です。
   
-### Evade
-The chance of evading an enemy attack, taking no damage. The max evade chance is 40%.  
+### 回避
+敵の攻撃を回避してノーダメージにできる確率です。最大は40%です。 
   
-### Bargain
-The percentage the price is discounted or increased when buying or selling from the mart. The max bargain percentage is 40%.  
+### バーゲン
+売買する際に割引もしくは増額される割合です。 最大は40%です。
   
-### Pocket
-The amount of additional inventory space. The max additional pocket space is 32.  
+### ポケット
+インベントリの拡張スロット数です。最大は32個です。
   
-### Damage Multiplier
-A percent multiplier to attacks. The max multiplier is 40%.  
+### ダメージ倍率
+あなたの与えるダメージが増幅される割合です。最大は40%です。 
   
-### Defence Multiplier
-A percent multiplier to your armor. The max multiplier is 40%.  
+### 防御倍率
+あなたのアーマーが増幅される割合です。最大は40%です。 
   
-### Stun Evade
-The chance of evading an enemy stun. The max chance is 40%.  
+### スタン回避
+敵からのスタンを回避する確率です。最大は40%です。
   
-### Shield Multiplier
-A percent multiplier to your shield. The max multiplier is 40%.  
+### シールド倍率
+あなたのシールドが増幅される割合です。最大は40%です。 
 
-### Healing Multiplier
-A percent multiplier to heals received from healing items. The max multiplier is 100%.
+### 回復倍率
+回復アイテムを使用した際に増幅される倍率です。最大は100%です。
 
-### Time Reduction
-A percent multiplier for how much time is reduced during AFK activities. The max time reduction is 80%.
+### 時間短縮
+あなたのAFKタスクが短縮される割合です。 最大は80%です。
 
-### Experience Multiplier
-A percent multiplier showing how much EXP you can additionally gain. The max multiplier is 100%.
+### EXP倍率
+あなたが追加で得られる経験値の割合です。 最大は100%です。
 
-### BitCoin (BTC) Multiplier
-A percent multiplier showing how much BitCoin you can additionally gain. The max multiplier is 100%.
+### BTC倍率
+あなたが追加で得られるBTCの割合です。 最大は100%です。
