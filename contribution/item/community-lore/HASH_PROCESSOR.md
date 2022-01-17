@@ -8,7 +8,7 @@ You found an ancient tape media labeled "Hash Processors" and put it into some o
 *User WDYMIMNUB has entered Secret Silicate Shop*
 
 **\[WDYMIMNUB\]** Hello, shopkeeper, I am going to work and I want your fastest hash processors.  
-**\[Shopkeeper\]** "My hash processors are too fast for you, customer.  
+**\[Shopkeeper\]** My hash processors are too fast for you, customer.  
 **\[WDYMIMNUB\]** Shopkeeper, I tell you I am going to work, and I want only your fastest hash processors.  
 **\[Shopkeeper\]** You can't handle my hash processors. They're too fast for you.  
 **\[WDYMIMNUB\]** Shopkeeper, listen to me; I want only your fastest hash processors.  
@@ -19,7 +19,7 @@ You found an ancient tape media labeled "Hash Processors" and put it into some o
 **\[Shopkeeper\]** You don't know what you ask, customer. My fastest hash processors will destroy a supercomputer, let alone a man. You need a shop that sells slower hash processors, because my hash processors are too fast.  
 **\[WDYMIMNUB\]** Shopkeeper, I'm telling you I need your fastest hash processors. I'm going to work! I'm going to work and I need your fastest hash processors!  
 **\[Shopkeeper\]** You can't handle my fastest hash processors! No one can! My fastest hash processors aren't fit for a supercomputer let alone a man.  
-User WDYMIMNUB: Shopkeeper, what do I have to tell you to get your hash processors? Why won't you trust me with your fastest hash processors, shopkeeper? I need them if I'm to be successful in my work!  
+**\[WDYMIMNUB\]** Shopkeeper, what do I have to tell you to get your hash processors? Why won't you trust me with your fastest hash processors, shopkeeper? I need them if I'm to be successful in my work!  
 **\[Shopkeeper\]** I can't give you my fastest hash processors because my fastest hash processors are only for the cleverest beings and you are of the dumbest.  
 **\[WDYMIMNUB\]** Well then that's it, shopkeeper. I'll go elsewhere. I'll go elsewhere for my hash processors.  
 **\[Shopkeeper\]** That's what you'd better do.  
@@ -32,4 +32,4 @@ User WDYMIMNUB: Shopkeeper, what do I have to tell you to get your hash processo
 
 > Playback ended
 
-You realize that the date was deliberately erased, and the username in the record was tampered. Who on earth is putting a joke in it?
+You realize the username in the record was tampered.
