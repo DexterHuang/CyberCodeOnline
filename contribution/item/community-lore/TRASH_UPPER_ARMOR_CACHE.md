@@ -14,4 +14,4 @@
 **\[H4N7-AI\]** I  
 *H4N7-AI has left chat*  
 *H4N7-AI has left Molecular 3D Printer Center*  
-*HA4N7-AI is muted for 30 minutes*
+*H4N7-AI is muted for 30 minutes*
