@@ -30,6 +30,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 - FIX - Fixed crash issue when deleting account
 - UPDATE - Changed skip like back to heart
 - OPTIMIZATION - Several server optimization
+- OPTIMIZATION - Dungeon performance optimization
 
 ### 2022/01/14 v0.754
 - OPTIMIZATION - Server side optimization
