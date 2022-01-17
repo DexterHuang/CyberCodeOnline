@@ -49,9 +49,9 @@ function printDungeonErrorInfo(e: ErrorRoom, type: string, lineNumbers: number[]
   console.log('');
 }
 function dungeonToString(errorRoom: ErrorRoom): string {
-  const preparedArray = errorRoom.dungeon.tiles.map(s => `"${s}"`);
-  const partSize = preparedArray[0].length + 1;
-  const lines = StructurMaskUtils.chunkString(preparedArray.join(','), partSize * 15);
+  const room = errorRoom.dungeon;
+  const partSize = room.tiles[0].length + 1;
+  const lines = StructurMaskUtils.chunkString(room.tiles.join(' '), partSize * 15);
   return lines.join('\n');
 }
 ValidateLoreNote.start();
