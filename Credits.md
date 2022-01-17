@@ -91,6 +91,7 @@ CeceCat
 [CelesMeh](https://www.instagram.com/celesmeh)
 Exca
 JashinL
+[Johnruby](https://github.com/johnruby)
 [MagicCookie](https://github.com/GooseGooseStop)
 MontyPython
 [PsyB34R](https://www.instagram.com/psybearr)
