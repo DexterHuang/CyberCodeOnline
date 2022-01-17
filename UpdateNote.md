@@ -25,6 +25,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates
+### 2022/01/17 v0.754
+- FIX - Fixed referral player search could not search some player if the player's name is too short
+- FIX - Fixed crash issue when deleting account
+
 ### 2022/01/14 v0.754
 - OPTIMIZATION - Server side optimization
 
