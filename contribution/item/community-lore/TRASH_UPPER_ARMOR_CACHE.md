@@ -9,9 +9,9 @@
 **\[Judy\]** Treat it as some trash processing noise.  
 **\[N008-AI\]** Is it really alright?  
 **\[Judy\]** It looks identical and is as enduring as epic gears, so no worries.  
-**\[H4N7-AI\]** Is something growing inside that Corrupted Schoolgirl Uniform?  
+**\[H4N7-AI\]** Is something growing inside that Schoolgirl Uniform?  
 **\[Judy\]** No, what?  
 **\[H4N7-AI\]** I  
 *H4N7-AI has left chat*  
-*H4N7-AI has left Molecular 3D Printer center*  
+*H4N7-AI has left Molecular 3D Printer Center*  
 *HA4N7-AI is muted for 30 minutes*
