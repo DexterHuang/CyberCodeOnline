@@ -26,6 +26,7 @@ Proxxie
 [alfaice](https://github.com/alfaice)
 [AlphaC58](https://github.com/AlphaC58)
 [ArbiwReist](https://github.com/Meawresion)
+[clsc](https://github.com/claaaaassic)
 [CynexXT](https://github.com/CynexXT)
 [Destro9000](https://github.com/Destro9000)
 [Divadriel](https://github.com/Divadriel)
