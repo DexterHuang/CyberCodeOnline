@@ -72,8 +72,9 @@ Wanna
 [Makasin22](https://github.com/Makasin22)
 [ZHAama](https://github.com/ZHAama)
 [Alysson](https://github.com/alyssonmonteiro)
-[Jeremy2801](https://github.com/Jeremy2801)
-[shangho](https://github.com/5h4ngho)
+[Jeremy2801](https://github.com/Jeremy2801) 
+[shangho](https://github.com/5h4ngho) 
+[Voth](https://github.com/Vothcito) 
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
