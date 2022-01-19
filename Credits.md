@@ -72,6 +72,7 @@ Wanna
 [ZHAama](https://github.com/ZHAama)
 [Alysson](https://github.com/alyssonmonteiro)
 [Jeremy2801](https://github.com/Jeremy2801)
+[Voth](https://github.com/Vothcito)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
