@@ -31,5 +31,3 @@ You found an ancient tape media labeled "Hash Processors" and put it into some o
 *User WDYMIMNUB has left chat*
 
 > Playback ended
-
-You realize the username in the record was tampered.
