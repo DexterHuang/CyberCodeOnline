@@ -25,6 +25,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates
+### 2022/01/19 v0.754
+- UPDATE - Updated tag syste, now tagging and searching player when tagging is smarter, you should be able to reply to players in chat easier now
+- UI - Now the `View Gang` button no longer has a delay on showing up when opening message quick action popup 
+- OPTIMIZATION - Serverside optimization
+
 ### 2022/01/17 v0.754
 - FIX - Fixed referral player search could not search some player if the player's name is too short
 - FIX - Fixed crash issue when deleting account
