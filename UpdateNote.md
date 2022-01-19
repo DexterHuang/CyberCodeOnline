@@ -26,7 +26,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 ### 2022/01/20 v0.754
-- ANTI-CHEAT - Now auto clicker will get you flagged automatically by the server and flagged account will lose the ability to ever win rewards from sending skip likes, even if you has stopped using auto clickers. this is also done silently with no notice to the cheater.
+- ANTI-CHEAT - Now auto clicker will get you flagged automatically by the server and flagged account will lose the ability to ever win rewards from sending skip likes, even if you have stopped using auto clickers. this is also done silently with no notice to the cheater and irreversible.
 - FIX - fixed system message with wrong sequence
 
 ### 2022/01/19 v0.754
