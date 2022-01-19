@@ -25,6 +25,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates
+### 2022/01/20 v0.754
+- ANTI-CHEAT - Now auto clicker will get you flagged automatically by the server and flagged account will lose the ability to ever win rewards from sending skip likes, even if you has stopped using auto clickers. this is also done silently with no notice to the cheater.
+- FIX - fixed system message with wrong sequence
+
 ### 2022/01/19 v0.754
 - UPDATE - Updated tag syste, now tagging and searching player when tagging is smarter, you should be able to reply to players in chat easier now
 - UI - Now the `View Gang` button no longer has a delay on showing up when opening message quick action popup 
