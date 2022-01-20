@@ -1,9 +1,8 @@
+## Как пригласить кого-то?
+Просто назовите человеку свой игровой никнейм и когда он создаст нового персонажа, ему просто нужно будет выбрать вас в качестве реферера на экране создания персонажа (где вы называете своего персонажа).
 
-## How to refer someone?
-Simply give the person your in game name, and when they create a new character, they simply need to select you as referrer at the character creation screen (where you name your character).
-
-##  Referral Benefits
-1. Whenever the player you referred purchased unit, you will also receive 10% of it, for example when the player you referred purchased 2000 Unit, you would receieve 200 Unit automatically.
-3. When ever a player you referred reached level `20`, you will receieve some rewards: 
-	- 1 `Fanny Pack`
-	- 1`Locked Rare Container`
+## Преимущества рефералов
+1. Всякий раз, когда игрок, которого вы пригласили, купил юнит, вы также получите 10% от этой суммы, например, когда игрок, которого вы пригласили, купил 2000 юнитов, вы автоматически получите 200 юнитов.
+3. Когда игрок, которого вы пригласили, достиг 20-го уровня, вы получите некоторые награды:
+- 1 `Поясная Сумка`
+- 1 `Закрытый Редкий Контейнер` 
