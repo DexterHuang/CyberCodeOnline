@@ -36,6 +36,7 @@ Angry - Gives the enemy +10% damage
 Tough - Gives the enemy +20% defence  
 Agile - Gives the enemy +20% stun evade and a shield  
 Shielded - Gives the enemy a large shield  
+Precise - Gives the enemy +10% crit chance and +40% crit damage
   
 ## Player Modifiers
   
