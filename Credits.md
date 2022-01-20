@@ -62,6 +62,7 @@ SKIFFI
 [TheBrainReal](https://github.com/lucasknook)
 [un-amico](https://github.com/un-amico)
 Unfairissimo
+[versebrik](https://github.com/versebrik)
 [VerySmashing](https://github.com/VerySmashing)
 Wanna
 [Neshaiy](https://github.com/Neshaiy)
