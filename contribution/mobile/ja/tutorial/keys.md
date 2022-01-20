@@ -1,10 +1,10 @@
-## Secret Keys
-Leveling areas of the game are called 'Stations'. Each Station has 3 mini-areas, each with mobs within a certain level range and normal and challenge dungeons. Every dungeon has a boss room, with either lots of tough mobs which are higher level or a super boss which has a lot of hitpoints, potentially defeating players in one hit.
+## シークレットキー
+ゲームのレベリングエリアは「駅」と呼ばれています。各駅には3つのミニエリアがあり、それぞれに一定のレベル範囲内の敵が存在し、通常のダンジョンとチャレンジダンジョンがあります。各ダンジョンにはボスの部屋があり、高レベルの手強い敵が多数登場するほか、HPが多く一撃で倒される可能性のあるスーパーボスが登場します。
 
-After defeating all of the enemies in the boss room of a challenge dungeon, you will find a key fragment which is represented by a window icon in the room. Once you have all 3 fragments from one station, you can craft a Secret Key at the Terminal, which is found at the Shangri-La City Center (main HUB area of the game). Each Secret Key will grant you access to a new Station and a new list of higher-level enemies and dungeons to explore.  
+ダンジョンのボス部屋で敵をすべて倒すと、部屋にある窓のアイコンで表されるキーのかけらを見つけることができます。1つの駅のキーのかけらを3つ揃えると、シャングリ・ラシティセンター（メインハブエリア）にあるターミナルでシークレットキーをクラフトすることができます。シークレットキーをクラフトすると、新しい駅にアクセスできるようになり、上位の敵やダンジョンが出現するようになります。
 
-Additional key fragments can either be discarded (when interacting with the icon in the dungeon) or destroyed (from your inventory).
+余分なキーのかけらは、捨てる（ダンジョン内でアイコンを操作したとき）か、破壊する（インベントリから）ことができます。
 
-Key fragments cannot be sent to other people nor be sold on the Player Market.
+キーフラグメントは他人に送ったり、プレイヤーマーケットで売ったりすることはできません。
 
-This is the main progression mechanic of the game and dungeons will continue to increase in level and difficulty with you. However, if your player level is 10 levels below the dungeon's recommended level, you won't be able to join it. If you are too many levels above a mob, you also won't receive any loot rewards on defeating the enemy. If you are 12 levels above the recommended dungeon level, you won't be able to interact with anything, including doors, quest givers and loot.
+これはこのゲームの主な進行メカニズムであり、ダンジョンはあなたと共にレベルと難易度を上げ続けます。ただし、プレイヤーレベルがダンジョンの推奨レベルより10レベル低い場合は、ダンジョンに参加することができません。また、敵よりレベルが高すぎる場合も、敵を倒しても戦利品の報酬を受け取ることができません。ダンジョン推奨レベルより12レベル以上高い場合、扉、クエスト提供者、戦利品など、すべてのアイテムに触れることができません。

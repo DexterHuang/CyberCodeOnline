@@ -783,8 +783,11 @@
  	 	 	 	"eng": "Transaction Exploit Transmitter"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Broadcasts exploits to all cybernetically-connected users, augmenting their transaction algorithm temporarily, allowing user to receive bonus  ${Config.CURRENCY_NAME}.\r\n\r\n        When used, gives a Global Buff to all players online, increasing Bitcoin gained by 40% for 20 minutes (stackable)\r\n        ",
- 	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, argument their transaction algorithm temporary, allowing user to receive bonus  ${Config.CURRENCY_NAME}.\r\n\r\n        When used, gives Global Buff to all players online, increase BitCoin gained by 40% for 20 minutes (stackable)\r\n        "
+ 	 	 	 	"trans": "Broadcasts exploits to all cybernetically-connected users, augmenting their transaction algorithm temporarily, allowing user to receive bonus  ${currencyName}.\r\n\r\n        When used, gives a Global Buff to all players online, increasing Bitcoin gained by 40% for 20 minutes (stackable)\r\n        ",
+ 	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, argument their transaction algorithm temporary, allowing user to receive bonus  ${currencyName}.\r\n\r\n        When used, gives Global Buff to all players online, increase BitCoin gained by 40% for 20 minutes (stackable)\r\n        ",
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"currencyName"
+ 	 	 	 	]
  	 	 	}
  	 	},
  	 	"aiCore": {
@@ -982,7 +985,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Experimental nano machines designed to reduce and negate the destructive effect when failing calibration, \r\n        when this is activated, all calibration fails will not destroy the item for 5 minutes",
- 	 	 	 	"eng": "Experimental nano machines designed to reduces and negate the destructive effect when failing calibration, \r\n        when this is activated, all calibration fails will not destroy the item for 5 minutes"
+ 	 	 	 	"eng": "Experimental nano machines designed to reduces and negate the destructive effect when failing calibration, \r\n        when this is activated, all calibration fails will not destroy the item for 5 minutes (Applies to all players)"
  	 	 	}
  	 	},
  	 	"backpack1": {
@@ -1198,6 +1201,29 @@
  	 	 	 	],
  	 	 	 	"trans": "قشرة تحتوي على استغلال متقدم مصممة لزيادة فرصة انخفاض عشوائي للعناصر عالية المستوى. تكسب فرصة إسقاط إضافية للأسطوري (${legendaryChance}٪) والعناصر الملحمية (٪ {{{{$}٪) عند فتح الحاويات الأسطورية (مكدس تصل إلى {2} Times) لمدة {3} دقيقة. فرصة إضافية للحصول على حاوية الغموض خلال موسم عيد الميلاد.",
  	 	 	 	"eng": "A shard that contains advance exploits designed to increase random drop chance of high tier items. Gains additional drop chance of Legendary (${legendaryChance}%) and Epic (${epicChance}%) items when unlocking Legendary containers (stack up to ${maxStack} times) for ${time} minutes. Extra chance to get Mystery Container during Christmas season."
+ 	 	 	},
+ 	 	 	"descriptionv3": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"epicChance",
+ 	 	 	 	 	"legendaryChance",
+ 	 	 	 	 	"maxStack",
+ 	 	 	 	 	"time"
+ 	 	 	 	],
+ 	 	 	 	"trans": "قشرة تحتوي على استغلال متقدم مصممة لزيادة فرصة انخفاض عشوائي للعناصر عالية المستوى. تكسب فرصة إسقاط إضافية للأسطوري (${legendaryChance}٪) والعناصر الملحمية (٪ {{$}٪) عند فتح الحاويات الأسطورية (غير تكديس) لمدة {3} دقيقة. * هام: سيتم تطبيق BIP فقط عند بدء تشغيل عملية إلغاء القفل أثناء نشط BIFC *.",
+ 	 	 	 	"eng": "A shard that contains advance exploits designed to increase random drop chance of high tier items. Gains additional drop chance of Legendary (${legendaryChance}%) and Epic (${epicChance}%) items when unlocking Legendary containers (Not stackable) for ${time} minute (Applies to all players). *IMPORTANT: The buff will only apply when the unlocking process is started while the buff is active*."
+ 	 	 	}
+ 	 	},
+ 	 	"flashGrenade": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "قنبلة يدوية",
+ 	 	 	 	"eng": "Flash Grenade"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"escape"
+ 	 	 	 	],
+ 	 	 	 	"trans": "قنابل فلاش التي يمكن استخدامها لأعداء أعمى. زيادة فرصتك للهروب بمقدار {0}٪",
+ 	 	 	 	"eng": "A flash grenade that can be used to blind enemies. increasing your chance of escape by ${escape}%"
  	 	 	}
  	 	}
  	},
@@ -1912,6 +1938,17 @@
  	 	 	"notAtBottom": {
  	 	 	 	"trans": "أنت تبحث في الرسائل القديمة",
  	 	 	 	"eng": "You are looking at old messages"
+ 	 	 	},
+ 	 	 	"linksNotAllowed": {
+ 	 	 	 	"trans": "لا يسمح الروابط",
+ 	 	 	 	"eng": "Links are not allowed"
+ 	 	 	},
+ 	 	 	"replyTo": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"playerName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "الرد على {0}",
+ 	 	 	 	"eng": "Replying to ${playerName}"
  	 	 	}
  	 	},
  	 	"profile": {
@@ -2265,6 +2302,12 @@
  	 	 	 	 	"trans": "لن تتمكن من إدخال هذا المثيل المحصن مرة أخرى",
  	 	 	 	 	"eng": "You will not be able to enter this dungeon instance again"
  	 	 	 	}
+ 	 	 	},
+ 	 	 	"changePicture": {
+ 	 	 	 	"confirm": {
+ 	 	 	 	 	"trans": "اني اتفهم",
+ 	 	 	 	 	"eng": "I understand"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"equipmentUpgrade": {
@@ -2537,7 +2580,10 @@
  	 	 	},
  	 	 	"upgradeModuleTitle": {
  	 	 	 	"trans": "ترقيات",
- 	 	 	 	"eng": "Upgrades"
+ 	 	 	 	"eng": "upgrade slot ${index}",
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"index"
+ 	 	 	 	]
  	 	 	},
  	 	 	"lockDescription": {
  	 	 	 	"trans": "يمنع البيع العرضي أو التدمير",
@@ -2546,6 +2592,14 @@
  	 	 	"attachableUpgradesTitle": {
  	 	 	 	"trans": "ترقيات المرفق",
  	 	 	 	"eng": "Attachable Upgrades"
+ 	 	 	},
+ 	 	 	"cantEquip": {
+ 	 	 	 	"trans": "مستواك منخفض جدا لهذا البند",
+ 	 	 	 	"eng": "Your level is too low for this item"
+ 	 	 	},
+ 	 	 	"noAttachableUpgrades": {
+ 	 	 	 	"trans": "ليس لديك حاليا وحدات ترقية",
+ 	 	 	 	"eng": " You currently do not have any upgrade modules"
  	 	 	}
  	 	},
  	 	"secretKey": {
@@ -2595,6 +2649,10 @@
  	 	 	 	},
  	 	 	 	"trans": "اعدادات المصنع",
  	 	 	 	"eng": "Factory Reset"
+ 	 	 	},
+ 	 	 	"quality": {
+ 	 	 	 	"trans": "جودة",
+ 	 	 	 	"eng": "quality"
  	 	 	}
  	 	},
  	 	"apps": {
@@ -3072,6 +3130,10 @@
  	 	 	"title": {
  	 	 	 	"trans": "صياغة",
  	 	 	 	"eng": "Crafting"
+ 	 	 	},
+ 	 	 	"onlyShowCraftable": {
+ 	 	 	 	"trans": "إخفاء الوصفات التي لا يمكنك الحرفية",
+ 	 	 	 	"eng": "Hide recipes that you can\\'t craft"
  	 	 	}
  	 	},
  	 	"communityItemLore": {
@@ -3116,6 +3178,14 @@
  	 	 	"lowPrintLevelTip2": {
  	 	 	 	"trans": "زيادة رتبة الطباعة الخاصة بك لإنشاء أسلحة أكثر قوة عن طريق طباعة المزيد من المخابرات",
  	 	 	 	"eng": "Increase your Printing Rank to create more powerful weapons by printing more caches"
+ 	 	 	},
+ 	 	 	"quickSlots": {
+ 	 	 	 	"trans": "فتحات سريعة",
+ 	 	 	 	"eng": "Quick Slots"
+ 	 	 	},
+ 	 	 	"equipped": {
+ 	 	 	 	"trans": "مسلح",
+ 	 	 	 	"eng": "Equipped"
  	 	 	}
  	 	},
  	 	"quickSlot": {
@@ -3188,6 +3258,18 @@
  	 	 	"account": {
  	 	 	 	"trans": "الحساب",
  	 	 	 	"eng": "account"
+ 	 	 	},
+ 	 	 	"timeSkip": {
+ 	 	 	 	"trans": "الوقت تخطي",
+ 	 	 	 	"eng": "time skip"
+ 	 	 	},
+ 	 	 	"calibration": {
+ 	 	 	 	"trans": "معايرة",
+ 	 	 	 	"eng": "calibration"
+ 	 	 	},
+ 	 	 	"enemyGangsAndMark": {
+ 	 	 	 	"trans": "عصابات العدو وعلامات المعدات",
+ 	 	 	 	"eng": "Enemy Gangs and Equipment Marks"
  	 	 	}
  	 	},
  	 	"tipsBox": {
@@ -3204,6 +3286,50 @@
  	 	 	"buy": {
  	 	 	 	"trans": "متجر (اشتر)",
  	 	 	 	"eng": "Shop (buy)"
+ 	 	 	}
+ 	 	},
+ 	 	"communityContentBox": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "محتوى المجتمع",
+ 	 	 	 	"eng": "Community Content"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "هذا المحتوى يساهم به المجتمع. انقر هنا للمساهمة المحتوى الخاص بك.",
+ 	 	 	 	"eng": "This content is contributed by the community. click here to contribute your own content."
+ 	 	 	}
+ 	 	},
+ 	 	"actionList": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "أجراءات",
+ 	 	 	 	"eng": "Actions"
+ 	 	 	}
+ 	 	},
+ 	 	"chatPreview": {
+ 	 	 	"notConnected": {
+ 	 	 	 	"trans": "نظام الدردشة غير متصل",
+ 	 	 	 	"eng": "chat system not connected"
+ 	 	 	}
+ 	 	},
+ 	 	"suspended": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "موقوف عن العمل",
+ 	 	 	 	"eng": "Suspended"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "تم تعليق حسابك تلقائيا بواسطة النظام بسبب النشاط المشبوه",
+ 	 	 	 	"eng": "Your account has been suspended automatically by the system due to Suspicious Activity"
+ 	 	 	},
+ 	 	 	"content": {
+ 	 	 	 	"trans": "إذا كان لديك أي أسئلة فلا تتردد في الاتصال ب Dexter مباشرة عبر النقص الرسمي (يمكن العثور على الرابط في القائمة العائمة -> الروابط) أو البريد الإلكتروني إلى Ching.huang.dexter@gmail.com",
+ 	 	 	 	"eng": "If you have any questions please feel free to contact Dexter directly via official Discord (Link can be found in Floating Menu -> Links) or email to ching.huang.dexter@gmail.com"
+ 	 	 	}
+ 	 	},
+ 	 	"richInput": {
+ 	 	 	"searchOfflineSearchbox": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "البحث في جميع اللاعبين",
+ 	 	 	 	 	"eng": "Search all players"
+ 	 	 	 	}
  	 	 	}
  	 	}
  	},
@@ -3357,6 +3483,10 @@
  	 	"craft": {
  	 	 	"trans": "حرفة",
  	 	 	"eng": "craft"
+ 	 	},
+ 	 	"ok": {
+ 	 	 	"trans": "موافق",
+ 	 	 	"eng": "OK"
  	 	}
  	},
  	"statsType": {
@@ -3607,6 +3737,66 @@
  	 	 	 	"trans": "فرصة إسقاط ملحمة إضافية من الحاويات",
  	 	 	 	"eng": "Additional epic drop chance from containers"
  	 	 	}
+ 	 	},
+ 	 	"m1Dmg": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "عدو الحيوانات",
+ 	 	 	 	"eng": "Animals Nemesis"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "يزيد من الضرر لأعداء عصابات الحيوانات",
+ 	 	 	 	"eng": "Increases damage to Enemies of Animals gang"
+ 	 	 	}
+ 	 	},
+ 	 	"m2Dmg": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "فودو عدو",
+ 	 	 	 	"eng": "Voodoo Nemesis"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "يزيد من الأضرار التي لحقت أعداء عصابة الأولاد الفودو",
+ 	 	 	 	"eng": "Increases damage to Enemies of Voodoo Boys gang"
+ 	 	 	}
+ 	 	},
+ 	 	"m3Dmg": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "سكاليد العدو",
+ 	 	 	 	"eng": "Scavengers Nemesis"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "يزيد من الأضرار التي لحقت أعداء عصابات الزبالين",
+ 	 	 	 	"eng": "Increases damage to Enemies of Scavengers gang"
+ 	 	 	}
+ 	 	},
+ 	 	"m1V": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "قاتلة",
+ 	 	 	 	"eng": "Lethal"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "أعداء النجماء عصابات يتعامل مع الضرر المتزايد لك",
+ 	 	 	 	"eng": "Enemies of Scavengers gang deals increased damage to you"
+ 	 	 	}
+ 	 	},
+ 	 	"m2V": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "التعطيل",
+ 	 	 	 	"eng": "Disruptor"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "أعداء الحيوانات يتعامل عصابات زيادة الضرر لك",
+ 	 	 	 	"eng": "Enemies of Animals gang deals increased damage to you"
+ 	 	 	}
+ 	 	},
+ 	 	"m3V": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "makeshift",
+ 	 	 	 	"eng": "Makeshift"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "أعداء Voodoo Boyn Gang يتعامل مع الضرر المتزايد لك",
+ 	 	 	 	"eng": "Enemies of Voodoo Boys gang deals increased damage to you"
+ 	 	 	}
  	 	}
  	},
  	"craft": {
@@ -3822,6 +4012,13 @@
  	 	 	"searchPlayerHint": {
  	 	 	 	"trans": "أدخل اسم اللاعب للبحث",
  	 	 	 	"eng": "Enter player name to search"
+ 	 	 	},
+ 	 	 	"noPlayerFound": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"search"
+ 	 	 	 	],
+ 	 	 	 	"trans": "لم يتم العثور على لاعب مع اسم \"${search}\"",
+ 	 	 	 	"eng": "No player with named \"${search}\" found"
  	 	 	}
  	 	},
  	 	"resultScreen": {
@@ -3933,6 +4130,10 @@
  	 	 	"sendPrivateMessage": {
  	 	 	 	"trans": "إرسال رسالة خاصة",
  	 	 	 	"eng": "Send Private Message"
+ 	 	 	},
+ 	 	 	"reply": {
+ 	 	 	 	"trans": "رد",
+ 	 	 	 	"eng": "Reply"
  	 	 	}
  	 	},
  	 	"promotion": {
@@ -4007,6 +4208,23 @@
  	 	 	"swap": {
  	 	 	 	"trans": "استبدال المعدات",
  	 	 	 	"eng": "replace equipment"
+ 	 	 	}
+ 	 	},
+ 	 	"unitDonationConfirm": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "تأكيد التبرع",
+ 	 	 	 	"eng": "Confirm donation"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"amount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "سيتبرع بهذا وحدة {0} من حسابك",
+ 	 	 	 	"eng": "This will donate ${amount} Unit from your account"
+ 	 	 	},
+ 	 	 	"notEnough": {
+ 	 	 	 	"trans": "ليس لديك وحدة كافية للتبرع.",
+ 	 	 	 	"eng": "You do not have enough Unit to donate."
  	 	 	}
  	 	}
  	},
@@ -4130,6 +4348,10 @@
  	 	"rngInterferer": {
  	 	 	"trans": "تداخل RNG",
  	 	 	"eng": "RNG Interference"
+ 	 	},
+ 	 	"flashGrenade": {
+ 	 	 	"trans": "قنبلة يدوية",
+ 	 	 	"eng": "Flash Grenade"
  	 	}
  	},
  	"inventory": {
@@ -4138,6 +4360,12 @@
  	 	 	 	"noItem": {
  	 	 	 	 	"trans": "لا يوجد عنصر خردة السيارات",
  	 	 	 	 	"eng": "No item to auto scrap"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"useItem": {
+ 	 	 	 	"localFightCantUseItem": {
+ 	 	 	 	 	"trans": "لا يمكنك استخدام العنصر أثناء معارك الشوارع، والعناصر متاحة فقط أثناء الأبراج المحصنة",
+ 	 	 	 	 	"eng": "You cannot use item during street fights, items are only available during dungeons"
  	 	 	 	}
  	 	 	}
  	 	}
@@ -4148,8 +4376,8 @@
  	 	 	"eng": "Click here to scan for street enemies"
  	 	},
  	 	"localCombat": {
- 	 	 	"trans": "you will receive exp, ${Config.CURRENCY_NAME} and loots when you defeat enemies,\n                give it a try now!",
- 	 	 	"eng": "you will receive exp, ${Config.CURRENCY_NAME} and loots when you defeat enemies,\n                give it a try now!"
+ 	 	 	"trans": "you will receive exp, ${currencyName} and loots when you defeat enemies,\n                give it a try now!",
+ 	 	 	"eng": "you will receive exp, ${currencyName} and loots when you defeat enemies,\n                give it a try now!"
  	 	},
  	 	"primaryAttack": {
  	 	 	"trans": "انقر هنا لمهاجمة العدو",
@@ -4588,6 +4816,46 @@
  	 	 	 	 	"eng": "Did I mention you could be a Cybernetic Potato?"
  	 	 	 	}
  	 	 	}
+ 	 	},
+ 	 	"donation6": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "\"بريستيج\" لقب التبرع",
+ 	 	 	 	 	"eng": "\"Prestige\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "فتح صورة الشخصية تخصيص",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "إطار دردشة النيون الأزرق (مع الرسوم المتحركة)",
+ 	 	 	 	 	"eng": "Blue Neon chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "الملف الشخصي الأزرق النيون (مع الرسوم المتحركة)",
+ 	 	 	 	 	"eng": "Blue Neon Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "فتح مخصص الحيوية",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "الديكور الباركود على الملف الشخصي",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "تخصيص شعار العصابات",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "تخصيص عصابة صورة",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "أكثر قادمة في التحديث في المستقبل",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
  	 	}
  	},
  	"EquipmentSlot": {
@@ -4660,6 +4928,17 @@
  	 	"TiersTitle": {
  	 	 	"trans": "تيير التبرع",
  	 	 	"eng": "Donation Tiers"
+ 	 	},
+ 	 	"unitPrice": {
+ 	 	 	"vars": [
+ 	 	 	 	"price"
+ 	 	 	],
+ 	 	 	"trans": "{0} وحدة",
+ 	 	 	"eng": "${price} Unit"
+ 	 	},
+ 	 	"permanentDescription": {
+ 	 	 	"trans": "لن ينتهي هذا العنوان أبدا. \\ NIT يبقى مع حسابك إلى الأبد.",
+ 	 	 	"eng": "This title will never expire.\\nIt stays with your account forever."
  	 	}
  	},
  	"Quest": {
@@ -4948,6 +5227,96 @@
  	 	 	 	"trans": "${tierPart} ${name}",
  	 	 	 	"eng": "${tierPart} ${name}"
  	 	 	}
+ 	 	}
+ 	},
+ 	"misc,durability": {
+ 	 	"trans": "متانة",
+ 	 	"eng": "durability"
+ 	},
+ 	"equipmentMarks": {
+ 	 	"mark1": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "قاتلة",
+ 	 	 	 	"eng": "Lethal"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "صفقات زيادة الأضرار التي لحقت حيوانات العصابات. يتلقى زيادة أضرار من عصابات الزبالجين.",
+ 	 	 	 	"eng": "deals increased damage to Animals gang. receives increased damage from Scavengers gang."
+ 	 	 	}
+ 	 	},
+ 	 	"mark2": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "التعطيل",
+ 	 	 	 	"eng": "Disruptor"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "صفقات زيادة الأضرار التي لحقت عصابة الأولاد الفودو. يتلقى زيادة ضرر من عصابات الحيوانات.",
+ 	 	 	 	"eng": "deals increased damage to Voodoo Boys gang. receives increased damage from Animals gang."
+ 	 	 	}
+ 	 	},
+ 	 	"mark3": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "makeshift",
+ 	 	 	 	"eng": "Makeshift"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "صفقات زيادة الأضرار التي لحقت العصابات الزبالين. يتلقى زيادة ضرر من عصابة الفودو الأولاد.",
+ 	 	 	 	"eng": "deals increased damage to Scavengers gang. receives increased damage from Voodoo Boys gang."
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"npcGangs": {
+ 	 	"gang1": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "الحيوانات",
+ 	 	 	 	"eng": "Animals"
+ 	 	 	}
+ 	 	},
+ 	 	"gang2": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "الفودو الأولاد",
+ 	 	 	 	"eng": "Voodoo boys"
+ 	 	 	}
+ 	 	},
+ 	 	"gang3": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "الزبال",
+ 	 	 	 	"eng": "Scavengers"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"donationType": {
+ 	 	"donation1": {
+ 	 	 	"trans": "عضو",
+ 	 	 	"eng": "Member"
+ 	 	},
+ 	 	"donation2": {
+ 	 	 	"trans": "المبرد",
+ 	 	 	"eng": "Donator"
+ 	 	},
+ 	 	"donation3": {
+ 	 	 	"trans": "نخبة",
+ 	 	 	"eng": "Elite"
+ 	 	},
+ 	 	"donation4": {
+ 	 	 	"trans": "أسطوري",
+ 	 	 	"eng": "Legendary"
+ 	 	},
+ 	 	"donation5": {
+ 	 	 	"trans": "بطاطس إلكترونية",
+ 	 	 	"eng": "Cybernetic Potato"
+ 	 	},
+ 	 	"donation6": {
+ 	 	 	"trans": "هيبة",
+ 	 	 	"eng": "Prestige"
+ 	 	},
+ 	 	"moderator": {
+ 	 	 	"trans": "مشرف",
+ 	 	 	"eng": "Moderator"
+ 	 	},
+ 	 	"admin": {
+ 	 	 	"trans": "مشرف",
+ 	 	 	"eng": "Admin"
  	 	}
  	}
 }

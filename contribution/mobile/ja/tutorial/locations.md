@@ -57,7 +57,7 @@ In each station, you can also use your AI Cores to farm EXP and scavenge for mat
 At this location, you can look for jobs to increase your printing level, ammo/medical crafting levels, and mining level. Each job (AFK activity) contains details on what you can accomplish with it.
 
 ## Shangri-La Market Street  
-![Street Market](/resources/mobile-tutorial/Shangri-laMarketStreet.png)  
+![Street Market](/resources/mobile-tutorial/Shangri-LaMarketStreet.png)  
 Here you can sell and purchase items to and from other players within the game for BTC.  
 
 Keep in mind that whenever you want to sell or buy an item on the market, you will have to complete a captcha of 4 numbers.  

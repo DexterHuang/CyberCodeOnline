@@ -13,6 +13,7 @@ Fudgee
 [Tripplehelix](https://github.com/tripplehelix)
 Unca_Feddit
 [WhirlingDervish](https://github.com/NickN5)
+HLYGD
 
 ## Music
 [CMDR7](https://github.com/cmdr7)
@@ -26,6 +27,7 @@ Proxxie
 [alfaice](https://github.com/alfaice)
 [AlphaC58](https://github.com/AlphaC58)
 [ArbiwReist](https://github.com/Meawresion)
+[clsc](https://github.com/claaaaassic)
 [CynexXT](https://github.com/CynexXT)
 [Destro9000](https://github.com/Destro9000)
 [Divadriel](https://github.com/Divadriel)
@@ -34,6 +36,7 @@ Proxxie
 [f4tih-0z3r](https://github.com/f4tih-0z3r)
 [Fremad](https://github.com/Fremadico)
 [JEricaM](https://github.com/JEricaM)
+[Johnruby](https://github.com/johnruby)
 [kj415j45](https://github.com/kj415j45)
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)
 [Kraken-Juice](https://github.com/Kraken-Juice)
@@ -69,12 +72,17 @@ Wanna
 [FreddyAmonov](https://github.com/FreddyAmonov)
 [Makasin22](https://github.com/Makasin22)
 [ZHAama](https://github.com/ZHAama)
+[Alysson](https://github.com/alyssonmonteiro)
+[Jeremy2801](https://github.com/Jeremy2801) 
+[shangho](https://github.com/5h4ngho) 
+[Voth](https://github.com/Vothcito) 
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
 [The_Wayfarrer](https://github.com/epixinvites)
 [Sans3108](https://github.com/sans3108)
 [Laani](https://github.com/Laani)
+[Majeye](https://github.com/TeejayParker)
 [Sakura](https://github.com/lux-sakura)
 [Kimi Leta](https://github.com/kimileta)
 [Yahishiro](https://github.com/Yahishiro)
@@ -87,6 +95,8 @@ CeceCat
 [CelesMeh](https://www.instagram.com/celesmeh)
 Exca
 JashinL
+[Johnruby](https://github.com/johnruby)
+[MagicCookie](https://github.com/GooseGooseStop)
 MontyPython
 [PsyB34R](https://www.instagram.com/psybearr)
 SaberTron
@@ -117,11 +127,15 @@ JashinL
 [JEricaM](https://github.com/JEricaM)
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)
 LitFill
+[MagicCookie](https://github.com/GooseGooseStop)
 mika
+Mmmmmmmfood
 MontyPython
 Negative
 [nopeholmes](https://github.com/nopeholmes)
+Nyoon
 PoopBalloon
+Punxi8__
 RezaRnew100
 romain22222
 RookieBob
@@ -177,6 +191,8 @@ Kaktusmonas
 [Kimi Leta](https://github.com/kimileta)
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)
 [Luako](https://github.com/luako)
+[MagicCookie](https://github.com/GooseGooseStop)
+[Majeye](https://github.com/TeejayParker)
 [MarcelWeidum](https://github.com/MarcelWeidum)
 [me505](https://github.com/me505)
 [Misaki](https://github.com/Misaki290)
@@ -207,6 +223,7 @@ Exca
 [Kimi Leta](https://github.com/kimileta)
 KingRiver
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)
+[MagicCookie](https://github.com/GooseGooseStop)
 [RaykouTJ](https://github.com/HoneySyrup)
 [levi-middleton](https://github.com/levi-middleton)
 [Misaki](https://github.com/Misaki290)
