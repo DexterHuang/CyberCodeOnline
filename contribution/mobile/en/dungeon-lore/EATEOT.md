@@ -4,7 +4,7 @@ The very first thing you catch glimpse of is an old gramophone on the top of dra
 
 The gramophone is loaded with a old large disk, and several labels are crudely labeled at the sides of the machine, all with old fonts written on it.
 
-You see every label are written with:
+You see every label is written with:
 
 > E. A. T. E. O. T
 
