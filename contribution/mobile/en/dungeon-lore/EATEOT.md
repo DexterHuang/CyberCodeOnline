@@ -8,8 +8,8 @@ You see every label are written with:
 
 > E. A. T. E. O. T
 
-This looks like as if some sort of maniac was desperately trying to name the gramophone, but all the labels strangely avoid the disc at a good distance. You also notice the top of drawers are scribed with incomprehensible letters.
+This looks like as if some sort of maniac was desperately trying to name the gramophone, but all the labels strangely avoid the disc at a good distance. You also notice the top of drawers is scribed with incomprehensible letters.
 
-Out of curiosity, you press the play button the gramophone and it soon plays some sort of ancient music with slightly muffled noise. As you look around the room and across the door window, a sudden unbearable pain cracks into your skull, as if something sharp just invades your brain from an impossible angle.
+Out of curiosity, you press the play button ib the gramophone and it soon plays some sort of ancient music with slightly muffled noise. As you look around the room and across the door window, a sudden unbearable pain cracks into your skull, as if something sharp just invades your brain from an impossible angle.
 
 You stumble to stop the gramophone before the music gets louder and louder, and crawls out of the room, still dizzy of its tone.
