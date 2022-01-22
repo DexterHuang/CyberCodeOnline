@@ -244,6 +244,9 @@ spyd3r
 
 ## Security Bug Reporters
 [0xF61](https://github.com/0xF61)
+[Lighty](https://github.com/FILLMEIN)
+[Enkidu99](https://github.com/FILLMEIN)
+[Spellchaser](https://github.com/Aergonus)
 
 ## Other Contributors
 [AdmiralDiemos](https://github.com/danofsatx)
