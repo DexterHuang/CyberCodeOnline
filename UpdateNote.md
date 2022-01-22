@@ -26,6 +26,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 ### 2022/01/22 v0.754
+- NEW - Added auto sell on npc shop
 - BALANCE - Fixed calibration can be stacked indefinitely resulting in being able to use 10% buff to stack to a maximum of 666%, in order to fix this exploit, the flowing changes are made: 
   - All calibration shards now only stack up to 2 times, this is to prevent only use of the lowest tier multiple times to reach the highest tier effect, just use the higher tier instead
   - Added a new 300% calibration shard since the shards can only stack 2 times 
