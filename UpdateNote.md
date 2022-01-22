@@ -25,6 +25,13 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates
+### 2022/01/22 v0.754
+- BLANACE - Fixed calibration can be stackacted indefinatly resulting in able to use 10% buff to stack to maximun of 666%, to fix this exploit, the flowing changes are made:
+  - All calibration shard duration is adjusted to 2 minutes (this should not matter as its meant to be used once and not for dragging the buff to 4 hours)
+  - All calibration shard now only stack up to 2 times, this is to prevent only use of the lowest tier multiple times to reach highest tier effect, just use the higher tier instead
+  - Added new 300% calibration shard since the shards can only stack 2 times
+  - Adjust the max `Calibration Chance` to 600% instead of 666%, this means from +9 to +10 is harder, as it has chane of failing, you still can prevent it from breaking with the safety bot
+
 ### 2022/01/21 v0.754
 - LANG - Enabled equipment translation for Japanese and French
 - UI - Connect to chat by default again, after checking the stats, it does not effect the server much.
