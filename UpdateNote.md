@@ -31,6 +31,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
   - All calibration shard now only stack up to 2 times, this is to prevent only use of the lowest tier multiple times to reach highest tier effect, just use the higher tier instead
   - Added new 300% calibration shard since the shards can only stack 2 times
   - Adjust the max `Calibration Chance` to 600% instead of 666%, this means from +9 to +10 is harder, as it has chane of failing, you still can prevent it from breaking with the safety bot
+- UI - Updated dungeon lobby UI to match with other dungeon displays
 
 ### 2022/01/21 v0.754
 - LANG - Enabled equipment translation for Japanese and French
