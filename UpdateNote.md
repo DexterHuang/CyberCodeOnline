@@ -25,6 +25,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates
+### 2022/01/23 v0.754
+- FIX - 5% calibration shard is stackable unlimited. it was a bug
+- UPDATE - 300% calibration shard price is been set to 6144 unit
+
 ### 2022/01/22 v0.754
 - NEW - Added auto sell on npc shop
 - BALANCE - Fixed calibration can be stacked indefinitely resulting in being able to use 10% buff to stack to a maximum of 666%, in order to fix this exploit, the flowing changes are made: 
