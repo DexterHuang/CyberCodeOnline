@@ -26,7 +26,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 ### 2022/01/23 v0.754
-- FIX - 5% calibration shard is stackable unlimited. it was a bug
+- FIX - 5% calibration shard is fixed, now stackable unlimited. it was a bug
 - UPDATE - 300% calibration shard price is been set to 6144 unit
 
 ### 2022/01/22 v0.754
