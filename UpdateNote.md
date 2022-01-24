@@ -25,6 +25,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates
+### 2022/01/24 v0.754
+- FIX - Fixed chat message rendering related issue, device with issue rendering chat message (jumpy or broken) should be fixed now, older device would render chat faster as well. if you are still facing issue with chat rendering please report to me
+
 ### 2022/01/23 v0.754
 - FIX - 5% calibration shard is fixed, now stackable unlimited. it was a bug
 - UPDATE - 300% calibration shard price is been set to 6144 unit
