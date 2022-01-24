@@ -244,8 +244,9 @@ spyd3r
 
 ## Security Bug Reporters
 [0xF61](https://github.com/0xF61)
-[Lighty](https://github.com/Lightyin4k)
 Enkidu99
+[Lighty](https://github.com/Lightyin4k)
+[MagicCookie](https://github.com/GooseGooseStop)
 [Spellchaser](https://github.com/Spellchaser)
 
 ## Other Contributors
