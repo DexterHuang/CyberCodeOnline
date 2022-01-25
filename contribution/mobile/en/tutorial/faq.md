@@ -1,6 +1,4 @@
-> This FAQ (Frequently Asked Question) were compiled based on major
-> question thats been asked by community and new player in general. Feel
-> free to edit & add more FAQ-related content on [Github](https://github.com/DexterHuang/CyberCodeOnline).
+> This FAQ (Frequently Asked Question) were compiled based on major question thats been asked by community and new player in general. Feel free to edit & add more FAQ-related content on [Github](https://github.com/DexterHuang/CyberCodeOnline).
 
 ## Starting Point
 
@@ -54,6 +52,11 @@ On **lower level (1-7)**, the fastest and best way to level up is to fight **Nea
 
 For best result, try to compelete **Challenge Dungeons** while having an active **Frontal Cortex Transmitter** (EXP Buff / Booster) on a go.
 
+Note: You could also level up by doing AFK Task (**Deploy Farm Bot**) that requires **AI Core**. These task takes time (up to 2 hours) & only be profitable if a Global Skip event is happening, which recudes the task time (making it the most efficient way to level up). Explanation around Time Skip can be found on [Time Skip's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fglobal_skip.md)
+
+### I Need more BTC. Help!
+You can yield / gain BTC quickly by selling certain items on **Shangri-La Market Street**. At the start, its recommended to sell your Medical Tech Parts, Tech Scrap, and Hash Processor onto the market following the current market price. Specifically for Hash Processor, as a lower level player, it's best to sell Hash Processor at the start rather than using it for **Crypto Mining** task as it yields for less BTC than it's actual market price. 
+
 ### What will happen if I Die / Flatlined?
 You will lose 10% of your unbanked BTC and EXP; however your inventory will be safe. It is advisable to keep your BTC in **Arasaka Bank** in order to prevent major losses.
 
@@ -82,7 +85,13 @@ Explanation around Item / Resources can be found on both [Inventory](https://cyb
 ## Advanced / Gameplay Related
 
 ### What is the Gear Score?
-Gear Score is the average level of the equipment you wear. This is calculated by averaging every non-weapon gear you have equipped, plus the highest level weapon you have (excluding destructive).
+**Gear Score** is the average level of the equipment you wear. This is calculated by averaging every non-weapon gear you have equipped, plus the highest level weapon you have (excluding destructive).
+
+### Hmm.. Why Am I Leveling so Slow?
+At most cases (such as Deploy Farm Bot task), your **Gear Score** affects your EXP Gain exponentially. It is advised to have your Gear Score closer to your Character Level so that you gain more optimal EXP Gain. 
+
+### What is Global Skip?
+Explanation around Global / Time Skip can be found on [Time Skip's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fglobal_skip.md)
 
 ### Does the game support trading among players?
 Yes, partially. You can send items to other players, but there isn't a system that forces the other person to give something in exchange. Most trades are conducted with trust. You can't gift BTC and key fragments to other players. Only Healing Items, Ammo, Materials, Hash Processors, AI Cores and other types of items.
@@ -92,8 +101,7 @@ You can either scrap, destroy or store items in the bank located in the City Cen
 
 ### What does "Quality" on weapons and armor means?
 The quality of the armor will contribute a lot on the stat it gives; the higher the quality, the better the stats.
-Quality tiers go from Trash > Common > High Quality > Rare > Legendary > Epic.
-You cannot change the Quality of a weapon or armor.
+Quality tiers go from Trash > Common > High Quality > Rare > Legendary > Epic. You cannot change the Quality of a weapon or armor.
 
 ### What does "Durability" on weapons and armor means?
 Durability is the ability of an equipment to remain functional, without requiring excessive maintenance or repair, when faced with the challenges of normal operation over it's designed lifetime. (Wikipedia).  Durability only decreases when fighting Nearby Enemies.  Durability is not impacted when fighting in dungeons.
@@ -109,7 +117,7 @@ It doesn't matter if you print your caches now or later, but it's recommended to
 Legendary and Epic caches are much more expensive to craft than Rare ones, but the items have much better stats.  Higher quality items can last you for a long time, and are often worth calibrating at the Calibration Station.
 
 ### Can I upgrade the stats of my weapons and armour?
-Yes, you can upgrade your weapons at the Calibration Station found in your main map. Explanation around Calibration can be found on [Resource's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
+Yes, you can upgrade your weapons at the Calibration Station found in your main map. Explanation around Calibration can be found on [Calibration's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
 
 ### Can I remove installed upgrade modules?
 Yes. Click on the installed upgrade module to remove it from the equipment.
@@ -137,6 +145,9 @@ It's been told that whenever a player taps the button (indicated by colored hear
 
 ## Advanced / Dungeon Related
 
+### What is "X" in Dungeon?
+Explanation around Dungeon can be found on [Dungeon's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fdungeon.md)
+
 ### How to Exit Dungeon?
 You can exit a dungeon by clicking **Leave Dungeon** button whenever you wants (as long as you're not in a fighting / inventory state).
 
@@ -159,6 +170,9 @@ The loot in the crates is randomly generated for each player. Therefore, it's im
 
 
 ## Advance / Gang Related
+
+### What is "X" in Gang?
+Explanation around Gang can be found on [Gang's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fgangs.md)
 
 ### What are Gangs and how do I create one?
 Gangs are similar to guilds or clans in other MMORPGs.  Joining a gang gives you access to new AFK tasks, a recycler to make tech scrap, and gang chat!  You also gain access to gang dungeons, which have a high level of difficulty but greater rewards than the regular dungeons.
