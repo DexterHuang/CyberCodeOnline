@@ -3,7 +3,7 @@ Le jeu commence au centre-ville de Shangri-La. De là, vous pouvez explorer diff
 
 ## Carte de la ville
 
-![Carte](/resources/mobile-tutorial/Carte.png)
+![Carte](/resources/mobile-tutorial/Map.png)
 
 ## Centre-ville de Shangri-La
 ![Shangri-La City Center](/resources/mobile-tutorial/Shangri-LaCityCenter.png)
