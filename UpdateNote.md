@@ -26,6 +26,10 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 ### 2022/01/25 v0.754
+- OPTIMZIATION - Serverside optimization
+- UI - Purchase system message will now tag buyer player
+
+### 2022/01/25 v0.754
 - FIX - fixed chat rare broken issue
 - NEW - Added seperated chat log channel in discord for Korean, Japan and Russia.
 
