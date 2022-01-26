@@ -131,9 +131,6 @@ Yes. Higher level enemies give you more BTC and experience after you defeat them
 ### What are Locked Containers and how do I unlock them?
 Locked containers (✧) can be found and picked up from dungeons or by doing Scavenge Task. They can be unlocked using Tech Scraps at the Terminal in the main HUB, and contain various rewards ranging from Tech Scrap to Legendary gear. Tech scrap costs for opening the containers are 32 Tech Scrap for common containers, 64 for rare containers, and 128 for legendary ones. If you don't see the option for unlocking the container at the Terminal, it means you do not have enough Tech Scraps.
 
-### How do I get more BitCoins?
-BitCoin is obtained when defeating enemies, selling items in the Player Market, and by mining with Hash Processors. Hash Processors are found in dungeons and may be usd to mine BitCoin at the **Job Hub**. Player can also get more BitCoin by selling items on Player's Market (Shangri-La Market Street).
-
 ### What is Street Cred?
 Street Cred (Street Credit) is a way to appreciate someone you like or who has helped you. They are similar to "Karma" points on Reddit. You can give 1 Street Cred per day. To give Street Cred, go to the person's profile, scroll down to 'Player Actions' and click on **Give Street Cred** option that's located under **Add to Friend List** button. Consider giving some Street Credit to the people that contributed to this game! You can view the list at Profile > Phone Icon > Leaderboard > Street Cred.
 

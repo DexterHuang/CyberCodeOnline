@@ -11,13 +11,18 @@ All equipment (and equipment caches) rarities, as follows:
 
 Keep in mind that higher rarities will have better stats and more module upgrade slots, depending on the piece of equipment.  
 
-##Knowing Your Caches
+## Knowing Your Caches
 Here's a couple of guiding point on how or when to print certain caches:
 > From level 1 to 5, it's recommended to print / uses **Trash** caches for your gear set as it's the cheapest one of all
+ 
 > From level 5 to 15, it's recommended to print / uses **Common** caches for your gear set
+
 > From level 15 to 30, it's recommended to print / uses **High Quality** caches for your gear set
+
 > From level 30 to 50, it's recommended to print / uses **Rare** caches for your gear set
+
 > From level 50+, it's recommended to print / uses **Legendary** caches for your gear set
+
 > From level 100+, it's recommended to print / uses **Epic** caches for your gear set (if player ever have a chance to find or buy one, as it's the rarest cache / gear of all)
 
 Keep in mind that these guidance were only served as a reference rather than enforcing players into managing certain plays. Also, **Gear Quality** reflects the stats on the gear itself perspectively, thus inspecting it's quality is essential for optimal gear stats.

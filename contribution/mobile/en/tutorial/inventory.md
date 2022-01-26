@@ -8,10 +8,15 @@ Explanation about item / resources, can be found on [Resource's Tutorial](https:
 Here's a few tips that players can utilize around inventory feature, as follows:
 
 > By clicking the icons above your inventory list, you can filter out specific items. This option ranged from alphabetical sort up to item filter.
+
 > You will start with 50 inventory slots; equipping **Backpack** or gear / upgrade modules with **pocket** stat will give you more inventory space. 
+
 > To get rid of equipment and upgrade modules, you can click on the item itself and then on the **Scrap** button. Alternatively, you can hold click on one item, select every item you want to scrap, then press the **Scrap** button that will appear at the top left of the item list. 
+
 > There's a dedicated **Auto Scrap** button which players can find by clicking the dropdown button on the right side of the filter icon. Auto Scrap will only be scrapping Common or Trash rarity gear while ignoring any Upgrade Module of any rarity.
+
 > Every item that the player can scrap will yield **Tech Scrap** in return. However, some item does give you other items such as **Medical Tech Parts** (which can only be gained by scrapping **Pain Away**) or **Ammunition Tech Parts** (which can only be gained by scrapping either **Anti Matter Charge** or **Energy Cell**). Not only that, some items (such as Pain Away and **Equipment Caches**) aren't guaranteed to yield either Tech Scrap or Med Tech, with a 50% chance to yield one.
+
 > To get rid of other items that are not scrappable, you can click on the **Destroy** button. Destroyed items will not give you anything in return, so be cautious when performing this action.  
 
 ## Item Inbox
