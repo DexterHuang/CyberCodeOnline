@@ -26,6 +26,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 ### 2022/01/25 v0.754
+- FIX - Buff effect stackable logic error casuing it to stack 1 more then specified, 10% cali description says stack 2 times but could stack 3 times instead, now is fixed. 
 - UPDATE - Updated image for Mr. Lee
 - UI - UI Update on email list, now tags will render correctly in message previews
 - OPTIMZIATION - Serverside optimization
