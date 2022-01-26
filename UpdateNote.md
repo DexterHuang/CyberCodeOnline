@@ -25,7 +25,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates
-### 2022/01/25 v0.754
+### 2022/01/27 v0.754
+- UPDATE - Updated chat connection code, hopefully it will be more stable
+
+### 2022/01/26 v0.754
 - FIX - Buff effect stackable logic error casuing it to stack 1 more then specified, 10% cali description says stack 2 times but could stack 3 times instead, now is fixed. 
 - UPDATE - Updated image for Mr. Lee
 - UI - UI Update on email list, now tags will render correctly in message previews
