@@ -95,6 +95,7 @@ Wanna
 CeceCat
 [CelesMeh](https://www.instagram.com/celesmeh)
 Exca
+[Grrimnir](https://github.com/kevinguyer)
 JashinL
 [Johnruby](https://github.com/johnruby)
 [MagicCookie](https://github.com/GooseGooseStop)
