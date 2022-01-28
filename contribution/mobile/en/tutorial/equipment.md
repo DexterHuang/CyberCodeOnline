@@ -1,7 +1,7 @@
 # Equipment / Gears
-You can equip an equipment (/ gear) that you own as long as the gear level that you wish to equip is not higher than your current character level.  
+You can equip an equipment (gear) that you own as long as the gear level that you wish to equip is not higher than your current character level.  
 
-All equipment (and equipment caches) rarities, as follows:
+All equipment (and equipment caches) have rarities, as follows:
 - Trash (Grey)
 - Common (White)
 - High Quality (Green)
@@ -13,19 +13,19 @@ Keep in mind that higher rarities will have better stats and more module upgrade
 
 ## Knowing Your Caches
 Here's a couple of guiding point on how or when to print certain caches:
-> From level 1 to 5, it's recommended to print / uses **Trash** caches for your gear set as it's the cheapest one of all
+> From level 1 to 5, it's recommended to print / use **Trash** caches for your gear set as it's the cheapest one of all
  
-> From level 5 to 15, it's recommended to print / uses **Common** caches for your gear set
+> From level 5 to 15, it's recommended to print / use **Common** caches for your gear set
 
-> From level 15 to 30, it's recommended to print / uses **High Quality** caches for your gear set
+> From level 15 to 30, it's recommended to print / use **High Quality** caches for your gear set
 
-> From level 30 to 50, it's recommended to print / uses **Rare** caches for your gear set
+> From level 30 to 50, it's recommended to print / use **Rare** caches for your gear set
 
-> From level 50+, it's recommended to print / uses **Legendary** caches for your gear set
+> From level 50+, it's recommended to print / use **Legendary** caches for your gear set
 
-> From level 100+, it's recommended to print / uses **Epic** caches for your gear set (if player ever have a chance to find or buy one, as it's the rarest cache / gear of all)
+> From level 100+, it's recommended to print / use **Epic** caches for your gear set (if a player ever gets the chance to find or buy one, as it's the rarest cache / gear of all)
 
-Keep in mind that these guidance were only served as a reference rather than enforcing players into managing certain plays. Also, **Gear Quality** reflects the stats on the gear itself perspectively, thus inspecting it's quality is essential for optimal gear stats.
+Keep in mind that this guidance were only served as a reference rather than enforcing players into managing certain plays. Also, **Gear Quality** reflects the stats on the gear itself perspectively, thus inspecting it's quality is essential for optimal gear stats.
 
 ## Finding Your Equipment
 You can find both gear and equipment caches in dungeons or when fighting individual enemies (street fights). Once you are level 5, you will be able to use the Player Market to purchase different types of gears, crafting materials and other items.
@@ -34,16 +34,16 @@ You can find both gear and equipment caches in dungeons or when fighting individ
 Caches can be used to print equipment at your current Printing Rank at the Molecular 3D Printer in the City Center. The level of the printed gear will be the same as your Printing Rank, so make sure to keep your Printing Rank at the same level as your player level.
 
 ## Repairing Your Equipment
-When a player can't use their equipment (labeled by red text / color), it's indicated that player needs to repair their equipment for further uses. In order to repair your equipment, player needs visit **Weapon Smith** that can be found on **Shangri-La City Center**. After entering Weapon Smith, an option to **Repair Equipment** can be found below the **Sell** option. This option can only be availiable if player equipped the damaged gear & the gear's **Durability** are below 100%.
+When a player can't use their equipment (labeled by red text / color), it's indicated that player needs to repair their equipment for further uses. In order to repair your equipment, player needs to visit **Weapon Smith** that can be found in **Shangri-La City Center**. After entering the Weapon Smith, an option to **Repair Equipment** can be found below the **Sell** option. This option can only be availiable if player the equipped damaged gear & the gear's **Durability** are below 100%.
 
 ## Upgrade Modules
 You can attach **Upgrade Modules** onto your equipment. In order to equip the module, the module level cannot be higher than the equipment's level (For example: you can't attach a level 20 upgrade module onto level 5 primary weapon).  
 
 Upgrade modules can be removed at any time. Removed upgrade modules will take space in your inventory (it has a same unique inventory treatment as gear / equipment). Make sure you have enough space in your inventory before removing any upgrades.  
 
-If your inventory is getting cluttered with upgrade modules that you can't rid of, you can always store unused module onto your Bank Item Storage. 
+If your inventory is getting cluttered with upgrade modules that you can't rid of, you can always store unused module into your Bank Item Storage. 
 
-It is advisable to remove the upgrade module before scrapping your unused gear as scrapping a piece of gear with module on, will only accounts as a module deletion. Always keep an eye on which item that you'll scrapped as it's not recoverable.  
+It is advisable to remove the upgrade module before scrapping your unused gear as scrapping a piece of gear with module in it will only accounts as a module deletion. Always keep an eye on which item that you'll scrap as it's not recoverable.  
 
 ## Upgrade Slots
 Each equipment has a dedicated **Upgrade Slots** depending on it's rarity and quality, which can be summarized as follows:
