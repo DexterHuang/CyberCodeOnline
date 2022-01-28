@@ -78,6 +78,7 @@ Wanna
 [shangho](https://github.com/5h4ngho) 
 [Voth](https://github.com/Vothcito) 
 [WhiteKr](https://github.com/WhiteKr) 
+[Chino](https://github.com/Chino-wid) 
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
