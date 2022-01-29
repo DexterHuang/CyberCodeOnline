@@ -1,24 +1,24 @@
-## Equipment
-You can equip the gear that you own as long as the gear level you wish to equip is not higher than your current player level.  
-All equipment will be one of the following rarities:
+## 装備
+装備のレベルが現在のプレイヤーレベル以下であれば装備可能です。  
+全ての装備は以下レアリティのどれかとなります:
 
-  - Trash (Grey)
-  - Common (White)
-  - High Quality (Green)
-  - Rare (Yellow)
-  - Legendary (Fuchsia, Deep Pink)
-  - Epic (Dark Red)
+  - ゴミ (灰色)
+  - 一般 (白色)
+  - 高品質 (緑色)
+  - レア (黄色)
+  - 伝説 (赤紫色、濃いピンク色)
+  - 英雄 (えんじ色)
 
-Higher rarities will have better stats and more module upgrade slots, depending on the piece of equipment.  
+装備によっては、高いレアリティのものは良い性能と多くのアップグレードモジュールスロットがあります。  
 
-🔹 As a newbie, it's important to craft and equip trash quality gear since it's the cheapest one to print.  
-🔹 Starting from level 5 up to level 10, you can start printing common quality caches.  
-🔹 From level 10 to 20, you will have enough BTC to start using High Quality gear.  
-🔹 From level 20 to 40 - 50, you can print and wear Rare Quality gear.  
-🔹 And from level 40 - 50, you can print and wear Legendary Quality gear.  
-🔹 From level 90 - 100+, if you ever have the chance to get or to buy one or more, you can print and wear Epic Quality gear, which is the highest and rarest type of gear in the game.  
+🔹 初心者は、ゴミレアリティの製作と装備が重要になります。プリントにかかる費用が最も安いためです。  
+🔹 レベル5～10では、一般品質のキャッシュのプリントができるようになっていきます。  
+🔹 レベル10～20では、あなたは十分なBTCを持っているため、高品質レアリティの装備を使い始めるでしょう。  
+🔹 レベル20～40,50では、レア品質の装備をプリントし、装備できるようになっていきます。  
+🔹 またレベル40～50では、伝説品質の装備をプリントし、装備できるようになっていきます。  
+🔹 レベル90～100以上では、もしあなたがこれまで入手または購入する機会があったのなら、ゲーム内で最も高価で貴重な英雄品質の装備をプリントして装備できます。  
 
-These are not rules on how you should manage different types of quality equipment but they are rather recommendations on what type of equipment you should have at different levels.
+これらは、あなたが各品質の装備をどのように扱うべきかを決めているのではなく、各レベル帯でどの品質の装備を扱った方がよいかを推奨するものです。
 
 
 ## Finding Equipment
