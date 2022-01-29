@@ -1,19 +1,19 @@
-## Gangs
-Currently gangs are just a private chat area for a group of up to 32 friends to communicate, but there are future plans for features to be added.
+## ギャング
+現在、ギャングは32人までの仲間と会話を行うためのプライベートチャット機能のみですが、いずれは機能を追加する予定です。
 
-As Gang Leader, you will have 3 additional options when visiting one of your gang members' profiles:
- - [KICK] - you can kick the gang member from the gang;
- - [PERMISSIONS] - here you can grant permissions to the gang member:
-   - Invite - it allows the gang member to invite other players to the gang;
-   - Kick  - it allows the gang member to kick other gang members;
-   - Manage - it allows the gang member to add or remove other gang members' permissions.
- - [TRANSFER LEADERSHIP] - you can set another gang member as the leader in case you don't want to be the leader anymore or want to leave the gang.
+ギャングリーダーは、メンバーのプロフィールにて3つの操作が行えます:
+ - [キック] - ギャングからそのメンバーを追放できます。
+ - [権限] - メンバーに許可を与えることができます。
+   - 招待 - 他プレイヤーをギャングに招待することを許可します。
+   - キック - ギャングからメンバーを追放することを許可します。
+   - 管理 - メンバーに許可の付与、剥奪を行うことを許可します。
+ - [リーダーシップを変更] - もしあなたがリーダーをこれ以上やりたくない、またはギャングから抜けるといった場合に、他メンバーをリーダーにすることができます。
 
-Also as the Leader, in the Gang chat, if you click on the numbers of players in the gang on the top right, you will be able to [DELETE GANG] there.
+また、リーダーは右上のギャング内のプレイヤー数をクリックすることで、[ギャングの削除]が可能です。
 
 
-## Friends
-To access your personal friends list, click on the floating menu and choose the 'people' icon. 
-You can add friends by going into a user's profile, scrolling down and clicking 'Add to Friend List'. You can do the same to remove a friend by clicking the 'Remove From Friend List' button.
-Adding someone to your friends list will not require the other person to accept the request. They will simply be added to your friends list.
-Viewing your friends list will allow you to see if they are online, idle or offline.
+## フレンド
+右下のフローティングメニューから'人'のアイコンを選択することで、フレンドリストにアクセスできます。  
+フレンドは他プレイヤーのプロフィールを下にスクロールし、'フレンドリストに追加'を選択することで追加できます。同様に、'フレンドリストから削除'を選択することでフレンドを削除できます。  
+フレンドリストに追加したプレイヤーからの許可は必要ありません。あなたのフレンドリストに追加されるだけです。  
+フレンドリストを表示すると、相手がオンライン、放置中、オフラインであるかを確認できます。
