@@ -20,11 +20,11 @@
 ### Chat Rules
 **All rules are listed here, there is NO "unwritten rules", but be respectful and stop if other players don't like what you are sending in chat**
 #### Not Allowed: 
-* unfriendly, disrespectful to others opinion / offensive or passive agressive messages (Expample, racist, sexist comments)
+* unfriendly, disrespectful to others opinion / offensive or passive agressive messages (Example: racist, sexist comments)
 * non-family-friendly chat
 * Spamming / Trolling 
 * Advertising / Mentioning other games or anything else
-* Impersonating others  
+* Impersonating others
 * Placing links in chat
 * Posting ads about your market sales more then once in 15 minutes
 
@@ -33,3 +33,11 @@
 * Roleplay / Roleplaying
 * Discussing Politics, Religions, or COVID-19 (and any major events)
 * Using any language in any chat channel.
+
+#### Negotiatiable (Inside grey areas of being allowed and disallowed, please ask mods and other players, and in general be civil)
+* Preaching
+  > (Forcing opinions onto others is frowned at and might get you muted, while expressing religion opinion is allowed)
+* Mentioning other games without discussing its content in depth, or well, make the topic unrelated to those games
+  > This is to reduce the chance of accidental muting, please don't play around the rules and advertise other games
+* Repeatedly asking for same kind of advice / response / assistance (includes begging)
+  > Please respect players who provide skips, global effects or any assistance. They are not obliged to do that and you can keep the game environment friendly
