@@ -26,6 +26,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 ### 2022/01/29 v0.754
+- NEW - Market and Auction channel is added, this is could be changed/removed in the future, see how it goes :)
 - OPTIMIZATION - Serverside optimization
 - UI - removed new player welcome system message (too many new players joining now, might enable it when things returns to normal)
 
