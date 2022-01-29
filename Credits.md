@@ -77,7 +77,7 @@ Wanna
 [Jeremy2801](https://github.com/Jeremy2801) 
 [shangho](https://github.com/5h4ngho) 
 [Voth](https://github.com/Vothcito) 
-[WhiteKr](https://github.com/WhiteKr) 
+[WhiteKr](https://github.com/WhiteKr)
 [Chino](https://github.com/Chino-wid) 
 
 ## Proofreading
@@ -169,6 +169,7 @@ HBUNKNOWN
 Livingdead
 [Misaki](https://github.com/Misaki290)
 [Omnipotent_God](https://github.com/Omnipotent-God)
+[WhiteKr](https://github.com/WhiteKr)
 [s3rvant](https://github.com/s3rvant)
 [Humboer](https://github.com/stphnhng)
 [Tripplehelix](https://github.com/tripplehelix)
