@@ -25,6 +25,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates
+### 2022/01/29 v0.754
+- OPTIMIZATION - Serverside optimization
+- UI - removed new player welcome system message (too many new players joining now, might enable it when things returns to normal)
+
 ### 2022/01/27 v0.754
 - UPDATE - Updated chat connection code, hopefully it will be more stable
 
