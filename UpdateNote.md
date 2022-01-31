@@ -24,7 +24,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
-## Updates 
+## Updates  
+### 2022/01/31 v0.754
+- FIX - Fixed status effect (buffs) display incorrectly sometimes
+
 ### 2022/01/29 v0.754
 - NEW - Market and Auction channel is added, this is could be changed/removed in the future, see how it goes :)
 - OPTIMIZATION - Serverside optimization
