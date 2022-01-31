@@ -24,7 +24,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
-## Upcoming update notice- 
+## Upcoming update preview 
 Captchas in dungeons will be randomly replaced by more engaing minigames, the begining will be only one minigame, adding more in the future, so sometiems, instead of captcha code, you will play a simple minigame instead.
 
 ### AFQ: 
