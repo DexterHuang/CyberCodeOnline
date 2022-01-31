@@ -28,7 +28,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 Captchas in dungeons will be randomly replaced by more engaing minigames, i the begining will be only one game, so sometiems, instead of captcha code, 
 you will play a minigame instead.
 
-###AFQ: 
+### AFQ: 
 
 - Why? isnt there many important bugs or feature to add?
 Because this is one of the important thing to add. this feature is aimed to address several issues:
