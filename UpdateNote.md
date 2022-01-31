@@ -41,7 +41,7 @@ Captchas in dungeons will be randomly replaced by more engaing minigames, the be
 - Is there reward if you beat the game? 
   - Yes, my plan is to increase the reward for minigame
 
-- Is this all termined and not subject to change?
+- Is this all determined and not subject to change?
   - Absolutly NOT, if you think it should be adjust or anything after the its deployment, please be involved in discussion with other player, me and the mods in Discord, so we can make adjustments to make it better. I do not expect it to be perfect on launch, you shouldnt too :) 
 **So, please do not feakout and be super ultra instinct angry if you dont like some part of it** just join discussion and I will always hear it.
 
