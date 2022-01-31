@@ -24,6 +24,23 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
+## Upcoming update notice- 
+Captchas in dungeons will be randomly replaced by more engaing minigames, i the begining will be only one game, so sometiems, instead of captcha code, 
+you will play a minigame instead.
+###AFQ: 
+- Why? isnt there many important bugs or feature to add?
+Because this is one of the important thing to add. this feature is aimed to address several issues:
+  - To increase the difficulty of making dungeon auto farm bot/script, to reduce server load created by botters, also reduce the time I spend banning them.
+  - Increase dungeon variety, this is the first step of a series of stuff I want to add to dungeon making it more interesting, from choiced based events to minigames like this, dungeon being only "keep fighting enemies none stop" is one of the constructive criticism I receive from players.
+  - Add a tiny bit of skill based element to the game, currently dungeon crawlers is differenciated by how fast your internet is and so you can click the buttons faster. this way even if you goal is to speed-run dungeon, who runs faster will be determinded by individual's skill rather then how fast the internet/server is. overal this should be fair to everyone
+
+- Is this all termined and not subject to change? 
+Absolutly NOT, if you think it should be adjust or anything after the its deployment, please be involved in discussion with other player, me and the mods in Discord, so we can make adjustments to make it better. I do not expect it to be perfect on lunch, you shouldnt too :) 
+**So, please do not feakout and be super ultra instinct angry if you dont like some part of it** just join discussion and I will always hear it.
+
+- Why put up notice? is this a HUGE update?
+No, not at all, shouldnt matter too much actually, its because I am worry people get mad when they see change without even giving me or the game some time to fixe stuff.
+
 ## Updates  
 ### 2022/01/31 v0.754
 - FIX - Fixed status effect (buffs) display incorrectly sometimes
