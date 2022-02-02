@@ -10,6 +10,7 @@ Fudgee
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)
 [l33t4ng3l](https://github.com/l33t4ng3l)
 [PotatoMan](https://github.com/PotatoMan145)
+[SSKubyshkin](https://github.com/SSKubyshkin)
 [Tripplehelix](https://github.com/tripplehelix)
 Unca_Feddit
 [WhirlingDervish](https://github.com/NickN5)
