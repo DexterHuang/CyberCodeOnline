@@ -10,7 +10,6 @@ Fudgee
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)
 [l33t4ng3l](https://github.com/l33t4ng3l)
 [PotatoMan](https://github.com/PotatoMan145)
-[SSKubyshkin](https://github.com/SSKubyshkin)
 [Tripplehelix](https://github.com/tripplehelix)
 Unca_Feddit
 [WhirlingDervish](https://github.com/NickN5)
@@ -60,6 +59,7 @@ Ryugarret
 [siruelionn](https://github.com/siruelionn)
 SKIFFI
 [SnRetro](https://github.com/SnRetro)
+[SSKubyshkin](https://github.com/SSKubyshkin)
 [TheBrainReal](https://github.com/lucasknook)
 [un-amico](https://github.com/un-amico)
 Unfairissimo
