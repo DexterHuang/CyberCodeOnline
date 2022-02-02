@@ -1,28 +1,28 @@
-## Gangs
-Gangs are a great way to join forces with your friends.  Members gain the ability to access gang headquarters, dungeons, and chat. Gangs can be created and joined once you're level 3.  Creating a gang costs 50,000BTC and then has a weekly upkeep fee of resources and BTC.  
+## Gangues
+As gangues são uma ótima maneira de unir forças com seus amigos. Os membros ganham a capacidade de acessar a sede da gangue, masmorras e bate-papo. Gangues podem ser criadas e unidas quando você estiver no nível 3. Criar uma gangue custa 50.000 BTC e, em seguida, tem uma taxa de manutenção semanal de recursos e BTC.
 
-## Gang HQ
-The gang headquarters show your gang level, necessary upkeep, amount of members, and control over Shangri-La.  It also has new AFK tasks and an automatic recycler.  
+## QG da gangue
+A sede da gangue mostra seu nível de gangue, manutenção necessária, quantidade de membros e controle sobre Shangri-La. Também possui novas tarefas AFK e um reciclador automático.
 
-Gang level impacts how many members can be in a gang.  To level up, collect gang Exp with the AFK tasks 'Gather Gang Resource' and 'Decrypt Memory Shard'.  There is a leaderboard for gangs, ranked by level.
+O nível de gangue afeta quantos membros podem estar em uma gangue. Para subir de nível, colete Exp de gangue com as tarefas AFK 'Reúna Recurso de Gangue' e 'Descriptografar Fragmento de Memória'. Há uma tabela de classificação para gangues, classificadas por nível.
 
-There's a weekly upkeep due for all gangs. If the upkeep quota isn't met, the gang will be automatically disbanded.  Upkeep amounts are based on the number of members the gang has -- so the more members there are, the more resources and BitCoin are needed.  Minimize the amount of inactive players in your gang to keep upkeep goals lower.
+Há uma manutenção semanal para todas as gangues. Se a cota de manutenção não for atingida, a gangue será automaticamente dissolvida. Os valores de manutenção são baseados no número de membros que a gangue tem - então, quanto mais membros houver, mais recursos e BitCoin serão necessários. Minimize a quantidade de jogadores inativos em sua gangue para manter as metas de manutenção mais baixas.
 
-Occupation gives gangs control over different areas of Shangri-La.  If a gang is in the top two gangs on the Occupation Leaderboard, those members have access to a task called 'Collect Protection Fees'.  Control is gained by performing the 'Reinforce Occupation at Shangri-La' task, which consumes one gang supply crate.  It is recommended to discuss with your gang whether you want to gather occupation points or not.
+A ocupação dá às gangues o controle sobre diferentes áreas de Shangri-La. Se uma gangue estiver entre as duas principais na Tabela de Líderes de Ocupação, esses membros terão acesso a uma tarefa chamada 'Cobrar Taxas de Proteção'. O controle é obtido executando a tarefa 'Reforçar a ocupação em Shangri-La', que consome uma caixa de suprimentos de gangue. Recomenda-se discutir com sua gangue se você deseja coletar pontos de ocupação ou não.
 
-The automatic recycler will break down various items like med tech or caches into tech scrap. This can be an efficient way to create tech scrap.  Each item that's being recycled has a different timer and tech scrap payout, so be sure to consider the return on tech scrap and time.  
+O reciclador automático quebrará vários itens, como tecnologia médica ou caches, em sucata tecnológica. Essa pode ser uma maneira eficiente de criar sucata tecnológica. Cada item que está sendo reciclado tem um cronômetro e pagamento de refugo técnico diferentes, portanto, certifique-se de considerar o retorno do refugo técnico e o tempo.
 
-The final AFK task available to gang members is 'Hack SL Data Fortress'.  This task uses Protocal Breach Shards to make progress on the SL-Data Fortress Breach.  Total progress can be seen in the Quest tab.  When a Breach has been completed, a global buff will go into effect.  
+A tarefa final do AFK disponível para membros de gangues é 'Hackear Fortaleza de Dados do SL'. Esta tarefa usa Fragmentos de Violação de Protocal para progredir na Violação da Fortaleza de Dados do SL. O progresso total pode ser visto na guia Quest. Quando uma violação for concluída, um bônus global entrará em vigor.
 
-## Gang Dungeons
-Gang dungeon consumes a Gang Invasion Order Transmitter when being created.  After the dungeon has been created, anyone in the gang can join, regardless of their level. Enemies are 4-5x stronger than regular enemies and give 2x the exp.  Bosses are guaranteed to drop a Rare Locked Container, Rare equipment, and some Gang Supply Crates.
+## Masmorras de Gangues
+A masmorra de gangue consome um Transmissor de Ordem de Invasão de Gangue ao ser criada. Depois que a masmorra for criada, qualquer pessoa da gangue pode entrar, independentemente do nível. Inimigos são 4-5x mais fortes que inimigos normais e dão 2x mais exp. Os chefes têm a garantia de dropar um Contêiner Fechado Raro, Equipamento raro e Alguns Caixotes de Abastecimento de Gangues.
 
-As Gang Leader, you will have 3 additional options when visiting one of your gang members' profiles:
- - [KICK] - you can kick the gang member from the gang;
- - [PERMISSIONS] - here you can grant permissions to the gang member:
-   - Invite - it allows the gang member to invite other players to the gang;
-   - Kick  - it allows the gang member to kick other gang members;
-   - Manage - it allows the gang member to add or remove other gang members' permissions.
- - [TRANSFER LEADERSHIP] - you can set another gang member as the leader in case you don't want to be the leader anymore or want to leave the gang.
+Como Líder de Gangue, você terá 3 opções adicionais ao visitar o perfil de um dos membros de sua gangue:
+ - [EXPULSAR] - você pode chutar o membro da gangue da gangue;
+ - [PERMISSÕES] - aqui você pode conceder permissões ao membro da gangue:
+   - Convidar - permite que o membro da gangue convide outros jogadores para a gangue;
+   - Expulsar - permite que o membro da gangue chute outros membros da gangue;
+   - Gerenciar - permite que o membro da gangue adicione ou remova as permissões de outros membros da gangue.
+ - [TRANFERIR LIDERANÇA] - você pode definir outro membro da gangue como líder caso não queira mais ser o líder ou queira deixar a gangue.
 
-Also as the Leader, in the Gang chat, if you click on the numbers of players in the gang on the top right, you will be able to [DELETE GANG] there.
+Também como Líder, no bate-papo da gangue, se você clicar nos números de jogadores da gangue no canto superior direito, poderá [EXCLUIR GANGUE] lá.
