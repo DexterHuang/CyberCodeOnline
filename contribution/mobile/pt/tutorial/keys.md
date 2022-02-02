@@ -1,10 +1,10 @@
-## Secret Keys
-Leveling areas of the game are called 'Stations'. Each Station has 3 mini-areas, each with mobs within a certain level range and normal and challenge dungeons. Every dungeon has a boss room, with either lots of tough mobs which are higher level or a super boss which has a lot of hitpoints, potentially defeating players in one hit.
+## Chaves Secretas
+As áreas de nivelamento do jogo são chamadas de 'Estações'. Cada estação tem 3 mini-áreas, cada uma com mobs dentro de um certo intervalo de nível e masmorras normais e de desafio. Cada calabouço tem uma sala de chefe, com muitos mobs difíceis que são de nível mais alto ou um super chefe que tem muitos pontos de vida, potencialmente derrotando jogadores em um golpe.
 
-After defeating all of the enemies in the boss room of a challenge dungeon, you will find a key fragment which is represented by a window icon in the room. Once you have all 3 fragments from one station, you can craft a Secret Key at the Terminal, which is found at the Shangri-La City Center (main HUB area of the game). Each Secret Key will grant you access to a new Station and a new list of higher-level enemies and dungeons to explore.  
+Depois de derrotar todos os inimigos na sala do chefe de uma masmorra de desafio, você encontrará um fragmento de chave que é representado por um ícone de janela na sala. Uma vez que você tenha todos os 3 fragmentos de uma estação, você pode criar uma Chave Secreta no Terminal, que se encontra no Centro da Cidade Shangri-La (área HUB principal do jogo). Cada Chave Secreta lhe dará acesso a uma nova Estação e uma nova lista de inimigos de nível superior e masmorras para explorar.
 
-Additional key fragments can either be discarded (when interacting with the icon in the dungeon) or destroyed (from your inventory).
+Fragmentos de chave adicionais podem ser descartados (ao interagir com o ícone na masmorra) ou destruídos (do seu inventário).
 
-Key fragments cannot be sent to other people nor be sold on the Player Market.
+Fragmentos de chave não podem ser enviados a outras pessoas nem vendidos no Mercado de Jogador.
 
-This is the main progression mechanic of the game and dungeons will continue to increase in level and difficulty with you. However, if your player level is 10 levels below the dungeon's recommended level, you won't be able to join it. If you are too many levels above a mob, you also won't receive any loot rewards on defeating the enemy. If you are 12 levels above the recommended dungeon level, you won't be able to interact with anything, including doors, quest givers and loot.
+Esta é a principal mecânica de progressão do jogo e as masmorras continuarão a aumentar em nível e dificuldade com você. No entanto, se o seu nível de jogador estiver 10 níveis abaixo do nível recomendado da masmorra, você não poderá entrar nela. Se você estiver muitos níveis acima de uma multidão, também não receberá recompensas de saque ao derrotar o inimigo. Se você estiver 12 níveis acima do nível recomendado da masmorra, não poderá interagir com nada, incluindo portas, doadores de missões e saques.
