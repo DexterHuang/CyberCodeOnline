@@ -1,9 +1,10 @@
 
-## How to refer someone?
-Simply give the person your in game name, and when they create a new character, they simply need to select you as referrer at the character creation screen (where you name your character).
+## Como indicar alguém?
+Basta dar à pessoa o seu nome no jogo e, quando eles criarem um novo personagem, eles simplesmente precisam selecioná-lo como referenciador na tela de criação de personagem (onde você nomeia seu personagem).
 
-##  Referral Benefits
-1. Whenever the player you referred purchased unit, you will also receive 10% of it, for example when the player you referred purchased 2000 Unit, you would receieve 200 Unit automatically.
-3. When ever a player you referred reached level `20`, you will receieve some rewards: 
-	- 1 `Fanny Pack`
-	- 1`Locked Rare Container`
+## Benefícios de referência
+1. Sempre que o jogador que você indicou comprar uma unidade, você também receberá 10%, por exemplo, quando o jogador que você indicou comprou 2000 unidades, você receberia 200 unidades automaticamente.
+3. Sempre que um jogador que você indicou atingir o nível 20, você receberá algumas recompensas:
+	- 1 `Pacote Fanny`
+	- 1 `Contêiner Raro Trancado`
+
