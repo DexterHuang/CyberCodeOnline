@@ -1,82 +1,80 @@
-## ダンジョン
+## Dungeons
 
-## ダンジョンの種類
+## Types of Dungeons
   
 ![DungeonTypes](/resources/mobile-tutorial/DungeonTypes.png)
   
-ダンジョンには3種類存在します。[normal]ダンジョンはトレジャールームにキーフラグメントがあり、ボスがいないダンジョンです。[challenge]ダンジョンはとても難しいですが、クレートが多くなり、多くのEXPを獲得できるボスがトレジャールームに出現します。[gang]ダンジョンは最も難しく、ギャングに所属していることと、ギャング侵略指令送信機が必要です。敵はnormalダンジョンの4-5倍強いですが、多くの報酬を得られます。
+These are the three types of dungeons that you are able to enter. The [normal] dungeon will include a key fragment in the treasure room and no boss. The [challenge] dungeon is a lot harder but includes more crates for loot and has a boss in the treasure room that gives a lot of EXP.  The [gang] dungeon is the hardest of all and requires that you are in a gang and have a Gang Invasion Order Transmitter.  Enemies are 4-5x stronger than normal dungeons but has greater rewards.
 
-## ダンジョンの作成 / 参加
+## Creating / Joining a Dungeon
   
-ダンジョンを作成する際、どのダンジョンを作成するかを選択できます。ダンジョンには、名前の設定とパブリックまたはプライベートで作成するかを選択できます。また、パスワードをかけることもできます。
+When creating a dungeon, select the dungeon you want to create. You can name it and choose to make it Public or Private. You can also protect the dungeon with a password.
 
-パブリックダンジョンはダンジョンリストにアクセスすることで、誰でも表示および参加(レベル条件を満たしている場合)ができます。 
+Public Dungeons are available to everyone to see and join (if they meet the level requirements) by accessing the list of dungeons. 
 
-~~パスワードで保護されたダンジョンは他のプレイヤーにも表示されますが、パスワードを知らない限り参加できません。これは、特定の友人とダンジョンを攻略したい場合に便利です。パスワードはギャングチャットまたはメールで共有します。~~
-
-現在、パスワードで保護されたダンジョンは作成したプレイヤー以外は参加することが**できません。**
+Password protected dungeons can be seen by other players but they cannot join unless they know the password. This is useful if you want to clear a dungeon with specific friends. Share the password in Gang chat or through Mail.
 
 ![DungeonCoop4](/resources/mobile-tutorial/DungeonCoop4.png)
 ![DungeonCoop3](/resources/mobile-tutorial/DungeonCoop3.png)
 
-既に存在するダンジョンに参加したいのであれば、右下のフローティングメニューボタンをクリックします。そして、上のスクリーンショットの通りに建物アイコンを選択し、開いているダンジョン一覧を表示します。
+If you'd rather join an existing dungeon, you can press the floating menu button at the bottom right, then select the buildings icon to view a list of open dungeons, as shown above in the screenshots.
 
-各ダンジョンパネルには推奨レベルとダンジョン内のプレイヤー数、取得できるキーフラグメントが表示されます。
+At the top right of each dungeon panel, you can find the dungeon level. Each panel includes a list of players and their status in the dungeon. At the bottom, you can see how many enemies are left. You can choose to join a fresher dungeon to gain more EXP or enter empty dungeons to claim loot.
  
 ![DungeonCoop](/resources/mobile-tutorial/DungeonCoop.png)
   
-上の画像では、同じダンジョンに複数のプレイヤーが存在しています。ダンジョン内のプレイヤー数に関係なく、ルールは同じです。1つだけ違うのはプレイヤーはお互いに助け合えることです。回復アイテムを使う時は、通常、AOEアイテム(アスピリンスプレーなど)を使用して、あなたと仲間の両方を回復することをお勧めします。プレイヤーアイコンの上には体力が表示されます。  
+As shown in the images above, there are several players in the same dungeon. The rules are the same regardless of how many players are in a dungeon; the only difference is that players can help each other out. When using heals, it is usually advised to use the AOE items (such as Pain Away Spray) to heal both yourself and your co-op partners. You can see everyone's health bars above the player icons.  
 
-仲間の助けを借りて敵を倒した時、敵に20%あるいはそれ以上のダメージを与えた人全員に対して、EXPと報酬入手の機会が得られます(レベルが敵より高すぎない場合)。全てのクレートと戦利品は各プレイヤーごとに存在するので、戦利品を分け合うことや奪われることを心配する必要はありません。必要なものすべてを手に入れ、残りは捨てましょう!
+When an enemy is killed with the help from a friend, everyone who dealt 20% or more damage is given EXP and a chance for a reward, as long as their level isn't too high for the mob. All crates and loot are unique to each player, so you don't need to worry about sharing loot or having yours stolen. Grab everything you want and discard the rest!
 
 ![DungeonCoop2](/resources/mobile-tutorial/DungeonCoop2.png)
 
-この画像では、「ダンジョンを離れる」ボタンの下に「チャットに招待を送信する」と書かれたボタンが表示されています。これはチャットに招待を送信するため、他の人がその招待を選択することで簡単にダンジョンへ参加することができます。ダンジョンに参加する人があなたのいるダンジョンのレベルより、下が10レベル、上が12レベルまでの範囲内であれば、誰でもダンジョンに参加して助けることができます。
+In this image, at the bottom under the '[QUIT DUNGEON]' button, you will find a button labeled '[Send invite to global chat]'. This will send an invite to the global chat so others can join easily by clicking on the message. Anyone around your level can join and help you out as long as they are within 10 levels below or 12 levels above your dungeon.
 
-また、他のプレイヤーからの招待をクリックすることで、ダンジョンに参加することもできます。
+You can also click on messages from other players to join their dungeon.
 
-プレイヤーが死ぬかダンジョンから離れた後は、同じダンジョンに再参加することはできません。
+After a player dies or leaves, they cannot rejoin the dungeon.
   
-## 入り口とアイコン
+## Entrance and Icons
   
 ![DungeonEntranceUsed](/resources/mobile-tutorial/DungeonEntranceUsed.png)
   
-これはダンジョンに入ってすぐの部屋です。他の部屋に行くためのドアがあり、これらは部屋の四方に表示されます。  今いる部屋の全ての敵を倒すまでは、新しい部屋に入ることはできません。
+Here you can see the first room of a dungeon. There are doors which will take you to another room in the dungeon. You can find these doors on all sides of the dungeon rooms.  You cannot enter a new room until you have killed all enemies in the current room.
 
-上の画像は、全ての行動を行った後の部屋でもあります。灰色で表示されたクレートに注意してください。これは既に取得済みであることを表しています。右側のドアも灰色となっており、同様に既に通過済みであることを意味します。これはダンジョン探索中、迷わないためにとても重要です。 
+This also shows an example of a room that has been completed. Note the greyed out crates, indicating that they have been looted already. The door on the right wall is also greyed out, which means you have already been through it. This is essential to not get lost while exploring the dungeon. 
 
-### 敵
+### Enemies
   
 ![DungeonEnemies](/resources/mobile-tutorial/DungeonEnemies.png)
   
-エイリアンに見える4つのアイコンが部屋中にいます。これらの敵は、次の部屋に進むかクレートを開ける前に倒す必要があります。どれか1体を選択して戦います。
+There are four alien looking icons spread across the room, and these are the enemies you have to defeat before proceeding to the next room or accessing the crates in the room. Click on one of them to fight them.
   
 ![DungeonFight](/resources/mobile-tutorial/DungeonFight.png)
   
-ダンジョン内で敵と戦うときのルールは少し異なります。攻撃オプションの上に3つのボタンが表示され、インベントリから使用可能なアイテムを割り当てることができます。戦闘ごとに自動回復はしないため、ここには回復アイテムを割り当てることを推奨します。
+Rules are slightly different in the dungeons when you fight enemies. You will have a row of 3 buttons above your attack options which you can assign to usable items from your inventory. You should assign medical items to this hotbar since your health doesn't regenerate automatically after each fight.
 
-左上には'エスケープ'ボタンが表示されています。エスケープ(逃走)の成功率は、プレイヤーの'エスケープ'ステータスに基づいて決定されます。  
+You also have an 'Escape' button on the top left. The success rate of you escaping is based on your player 'escape' stat.  
  
-### いい人 (?)
+### Good Guy (?)
   
 ![DungeonGoodguy](/resources/mobile-tutorial/DungeonGoodguy.png)
   
-この画像では、'?'アイコンが表示されています。クエストを受領するを選択した場合は、クエストが追加されます。 ダンジョンごとに1人のクエスト提供者が存在し、通常、彼らはランダムでいずれかの部屋に配置されます。
+Here, you can see the '?' icon, indicating a quest if you choose to accept it. You can find one quest giver per dungeon, and they are usually placed randomly in one of the rooms.
   
 ![DungeonGoodguy2](/resources/mobile-tutorial/DungeonGoodguy2.png)
   
-これは'?'を選択した後に表示されるダイアログの例です。彼らはアイテムや追加効果と引き換えにアイテムを要求します。 その取引に価値があるかを決めるのはあなた次第です。ただし、クエストを完了することで追加EXPを得るため、アイテムに余裕があるのなら価値はあります。 画面上に表示される文章の一部はファイルからランダムに生成されるので、それらが意味を成すのであれば変な文章や面白い文章になるかもしれません。
+Here is an example of the dialogue that pops up after clicking on the '?'. They will ask for items in return for other items or power-ups. It is up to you to decide if the trade is worthwhile; however, if you can afford it, it is usually worth accepting for the extra EXP you gain from completing it. Some of the text on this screen is randomly generated from a file, so you may get odd or funny references, if it makes any sense at all.
 
-### 知識 (!)
+### Lore (!)
 
 ![DungeonLoreguy](/resources/mobile-tutorial/DungeonLoreguy.png)
 
-ゲーム内知識の断片をもたらすエクスクラメーションマークは、ダンジョンのあちこちに点在します。それらはゲームやダンジョンに影響ありませんが、読み物として面白いかもしれません。
+There are exclamation marks dotted around dungeons that provide snippets of game lore. These don't have an impact on your game or the dungeon but may be interesting to read.
 
-### トレジャー / ボスルーム
+### Treasure / Boss Room
   
 ![DungeonBossTreasureCoop](/resources/mobile-tutorial/DungeonBossTreasureCoop.png)
   
-クレートの数が増えたことからも分かるように、この部屋は特別です。窓のように見えるクレートには、新しいエリアをアンロックするシークレットキーを作るためのキーフラグメントが入っています。
+This room is special, as you can tell from the increased number of crates. The crate that looks like a window contains a key fragment that can be used for crafting Secret Keys that unlock new areas.
 
-このスクリーンショットでは、他のプレイヤーが協力していることが分かります。チャレンジダンジョンのボスは多くのEXPと引き換えに、体力と攻撃力が大きく増加しているので、低いレベルでチャレンジダンジョンに挑戦する時には協力がおすすめです。
+In this screenshot, you can also see other players helping out. This is especially advised at low levels and when attempting a challenge dungeon, as the boss of challenge dungeons has greatly increased health and power in return for more EXP.
