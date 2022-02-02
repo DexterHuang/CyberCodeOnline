@@ -28,13 +28,13 @@ In summary, marks name & trait as follows:
 
 - **Makeshift**: Increase damage to **Scavengers** enemies (up to 10%)
 
-Keep in mind that every gear that gain via print or drop either before or after **2022/01/05 update**, will have random Mark that's automaticly attached to it.
+Keep in mind that every gear that players gain via print or drop either before or after **2022/01/05 update**, will have random Mark that's automaticly attached to it.
 
 ## Knowing Your Designated Mark
 
 ![EnemyGangMark](/resources/mobile-tutorial/EnemyGangMark.png)
 
-Every player has a different **Mark**, determined by the majority of gear mark's that you have as your arsenal (you can see your designated **Mark** at the **Equipped** section on **Inventory** tab). For example, if your equipped gear were dominated by **Makeshift** mark, then Makeshift is your classified Mark.
+Every player has a different **Mark**, determined by the majority of the gear mark's that you have as your arsenal (you can see your designated **Mark** at the **Equipped** section on **Inventory** tab). For example, if your equipped gear were dominated by **Makeshift** mark, then Makeshift is your classified Mark.
 
 ![EnemyGangStats](/resources/mobile-tutorial/EnemyGangStats.png)
 

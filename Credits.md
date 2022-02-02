@@ -13,6 +13,7 @@ Fudgee
 [Tripplehelix](https://github.com/tripplehelix)
 Unca_Feddit
 [WhirlingDervish](https://github.com/NickN5)
+HLYGD
 
 ## Music
 [CMDR7](https://github.com/cmdr7)
@@ -26,6 +27,7 @@ Proxxie
 [alfaice](https://github.com/alfaice)
 [AlphaC58](https://github.com/AlphaC58)
 [ArbiwReist](https://github.com/Meawresion)
+[clsc](https://github.com/claaaaassic)
 [CynexXT](https://github.com/CynexXT)
 [Destro9000](https://github.com/Destro9000)
 [Divadriel](https://github.com/Divadriel)
@@ -60,6 +62,7 @@ SKIFFI
 [TheBrainReal](https://github.com/lucasknook)
 [un-amico](https://github.com/un-amico)
 Unfairissimo
+[versebrik](https://github.com/versebrik)
 [VerySmashing](https://github.com/VerySmashing)
 Wanna
 [Neshaiy](https://github.com/Neshaiy)
@@ -71,7 +74,11 @@ Wanna
 [Makasin22](https://github.com/Makasin22)
 [ZHAama](https://github.com/ZHAama)
 [Alysson](https://github.com/alyssonmonteiro)
-[Jeremy2801](https://github.com/Jeremy2801)
+[Jeremy2801](https://github.com/Jeremy2801) 
+[shangho](https://github.com/5h4ngho) 
+[Voth](https://github.com/Vothcito) 
+[WhiteKr](https://github.com/WhiteKr)
+[Chino](https://github.com/Chino-wid) 
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
@@ -90,7 +97,9 @@ Wanna
 CeceCat
 [CelesMeh](https://www.instagram.com/celesmeh)
 Exca
+[Grrimnir](https://github.com/kevinguyer)
 JashinL
+[Johnruby](https://github.com/johnruby)
 [MagicCookie](https://github.com/GooseGooseStop)
 MontyPython
 [PsyB34R](https://www.instagram.com/psybearr)
@@ -141,6 +150,7 @@ Vega_Efsunborn
 [Veyrin](https://github.com/darkrevelations)
 Willbur
 Xalaram
+xRavenx
 zomg
 [Vult](https://github.com/Vult-source)
 [Sakura](https://github.com/lux-sakura)
@@ -160,6 +170,7 @@ HBUNKNOWN
 Livingdead
 [Misaki](https://github.com/Misaki290)
 [Omnipotent_God](https://github.com/Omnipotent-God)
+[WhiteKr](https://github.com/WhiteKr)
 [s3rvant](https://github.com/s3rvant)
 [Humboer](https://github.com/stphnhng)
 [Tripplehelix](https://github.com/tripplehelix)
@@ -238,6 +249,10 @@ spyd3r
 
 ## Security Bug Reporters
 [0xF61](https://github.com/0xF61)
+Enkidu99
+[Lighty](https://github.com/Lightyin4k)
+[MagicCookie](https://github.com/GooseGooseStop)
+[Spellchaser](https://github.com/Spellchaser)
 
 ## Other Contributors
 [AdmiralDiemos](https://github.com/danofsatx)

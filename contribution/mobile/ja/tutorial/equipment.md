@@ -1,110 +1,110 @@
-## Equipment
-You can equip the gear that you own as long as the gear level you wish to equip is not higher than your current player level.  
-All equipment will be one of the following rarities:
+## 装備
+装備のレベルが現在のプレイヤーレベル以下であれば装備可能です。  
+全ての装備は以下レアリティのどれかとなります:
 
-  - Trash (Grey)
-  - Common (White)
-  - High Quality (Green)
-  - Rare (Yellow)
-  - Legendary (Fuchsia, Deep Pink)
-  - Epic (Dark Red)
+  - ゴミ (灰色)
+  - 一般 (白色)
+  - 高品質 (緑色)
+  - レア (黄色)
+  - 伝説 (赤紫色、濃いピンク色)
+  - 英雄 (えんじ色)
 
-Higher rarities will have better stats and more module upgrade slots, depending on the piece of equipment.  
+装備によっては、高いレアリティほど良い性能と多くのアップグレードモジュールスロットがあります。  
 
-🔹 As a newbie, it's important to craft and equip trash quality gear since it's the cheapest one to print.  
-🔹 Starting from level 5 up to level 10, you can start printing common quality caches.  
-🔹 From level 10 to 20, you will have enough BTC to start using High Quality gear.  
-🔹 From level 20 to 40 - 50, you can print and wear Rare Quality gear.  
-🔹 And from level 40 - 50, you can print and wear Legendary Quality gear.  
-🔹 From level 90 - 100+, if you ever have the chance to get or to buy one or more, you can print and wear Epic Quality gear, which is the highest and rarest type of gear in the game.  
+🔹 初心者は、ゴミレアリティの製作と装備が重要になります。プリントにかかる費用が最も安いためです。  
+🔹 レベル5-10では、一般品質のキャッシュのプリントができるようになっていきます。  
+🔹 レベル10-20では、あなたは十分なBTCを持っているため、高品質レアリティの装備を使い始めるでしょう。  
+🔹 レベル20-40,50では、レア品質の装備をプリントし、装備できるようになっていきます。  
+🔹 また、レベル40-50では、伝説品質の装備をプリントし、装備できるようになっていきます。  
+🔹 レベル90-100以上では、もしあなたがこれまで入手または購入する機会があったのなら、ゲーム内で最も高価で貴重な英雄品質の装備をプリントして装備できます。  
 
-These are not rules on how you should manage different types of quality equipment but they are rather recommendations on what type of equipment you should have at different levels.
+これらは、各品質の装備をどのように使うべきかを決めているのではなく、各レベル帯でどの品質の装備を使った方がよいかを推奨するものです。
 
 
-## Finding Equipment
+## 装備の発見
 
-You can find equipment and equipment caches in the dungeons or when fighting individual enemies (street fights).  
+ダンジョン、または敵単体と戦うこと(路上戦闘)で装備や装備キャッシュを見つけることができます。  
 
-Once you are level 5, you will be able to use the Player Market to purchase different types of equipment, crafting materials and other items.
+レベル5になると、他品質の装備、製作材料や他アイテムを購入するためのプレイヤーマーケットを利用することができます。
 
-## Printing Equipment
+## 装備のプリント
 
-Caches can be used to print equipment at your current Printing Rank at the Molecular 3D Printer in the City Center.  
+キャッシュは中心街の分子合成式3Dプリンタにて、クラフトスキルと同じレベルの装備のプリントに使用することができます。  
 
-The level of the printed gear will be the same as your Printing Rank, so make sure to keep your Printing Rank at the same level as your player level.  
+プリントされた装備のレベルはクラフトスキルのレベルと同じになるため、クラフトスキルのレベルはプレイヤーレベルと同じにするようにしてください。  
 
-## Upgrade Modules
+## アップグレードモジュール
 
-You can install upgrade modules in your equipment. In order to equip the module, it's level cannot be higher than the equipment's level.  
-E.g.: you cannot install a level 20 upgrade module in level 5 gloves.  
+装備にはアップグレードモジュールを装着することができます。モジュールを装着するためには、モジュールのレベルが装備レベル以下である必要があります。  
+例: レベル5のグローブに、レベル20のアップグレードモジュールを装着することはできません。  
 
-Upgrade modules can be removed at any time.  
-Removed upgrade modules will take space in your inventory so pay attention to that.  
-Make sure you have enough space in your inventory before removing any upgrades.  
+アップグレードモジュールはいつでも取り外すことができます。  
+取り外したアップグレードモジュールは、インベントリに格納されるので空きスペースに注意してください。  
+取り外す前にインベントリに十分な空きがあるかを確認してください。  
 
-If your inventory is getting cluttered with upgrade modules you can't bear to get rid of, remember you can store unused modules in any unused equipment in your inventory. 
-Level rules still apply, and remember to remove them before getting rid of the equipment. 
+もし、インベントリが捨てられないアップグレードモジュールでいっぱいになった場合、インベントリ内の使っていない装備に未装着のモジュールを装着できることを覚えておいてください。  
+装着レベルのルールは適用されます。また、装備を捨てる前に外すことを忘れないでください。 
 
-Scrapping a piece of equipment that have an upgrade module installed in it, will also delete the said module!  
-You will not recover it!  
+アップグレードモジュールが装着されている装備をスクラップにすると、そのモジュールも削除されます!  
+復元することはできません!  
 
-## Upgrade Slots
+## アップグレードスロット
 
-### Primary Weapon
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 to 3 Slots
- - Rare: 3 Slots
- - Legendary: 3 Slots
- - Epic: 4 Slots
+### メインウェポン
+ - ゴミ: 0 - 1 スロット
+ - 一般: 1 - 2 スロット
+ - 高品質: 2 - 3 スロット
+ - レア: 3 スロット
+ - 伝説: 3 スロット
+ - 英雄: 4 スロット
 
-### Special Weapon
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 Slots
- - Rare: 2 Slots
- - Legendary: 2 Slots
- - Epic: 3 Slots
+### スペシャルウェポン
+ - ゴミ: 0 - 1 スロット
+ - 一般: 1 - 2 スロット
+ - 高品質: 2 スロット
+ - レア: 2 スロット
+ - 伝説: 2 スロット
+ - 英雄: 3 スロット
 
-### Destructive Weapon
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 Slots
- - Rare: 2 Slots
- - Legendary: 2 Slots
- - Epic: 3 Slots
+### 量子兵器
+ - ゴミ: 0 - 1 スロット
+ - 一般: 1 - 2 スロット
+ - 高品質: 2 スロット
+ - レア: 2 スロット
+ - 伝説: 2 スロット
+ - 英雄: 3 スロット
 
-### Helmet
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 Slots
- - Rare: 2 Slots
- - Legendary: 2 Slots
- - Epic: 3 Slots
+### ヘルメット
+ - ゴミ: 0 - 1 スロット
+ - 一般: 1 - 2 スロット
+ - 高品質: 2 スロット
+ - レア: 2 スロット
+ - 伝説: 2 スロット
+ - 英雄: 3 スロット
 
-### Upper Armor
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 to 3 Slots
- - Rare: 3 to 4 Slots
- - Legendary: 4 Slots
- - Epic: 5 Slots
+### アーマージャケット
+ - ゴミ: 0 - 1 スロット
+ - 一般: 1 - 2 スロット
+ - 高品質: 2 - 3 スロット
+ - レア: 3 - 4 スロット
+ - 伝説: 4 スロット
+ - 英雄: 5 スロット
 
-### Lower Armor
- - Trash: 0 to 1 Slots
- - Common: 1 Slot
- - High Quality: 2 Slots
- - Rare: 3 Slots
- - Legendary: 3 Slots
- - Epic: 4 Slots
+### アーマーパンツ
+ - ゴミ: 0 - 1 スロット
+ - 一般: 1 Slot
+ - 高品質: 2 スロット
+ - レア: 3 スロット
+ - 伝説: 3 スロット
+ - 英雄: 4 スロット
 
-### Boots
- - Trash: 0 to 1 Slots
- - Common: 1 Slot
- - High Quality: 2 Slots
- - Rare: 2 Slots
- - Legendary: 2 Slots
- - Epic: 3 Slots
+### ブーツ
+ - ゴミ: 0 - 1 スロット
+ - 一般: 1 Slot
+ - 高品質: 2 スロット
+ - レア: 2 スロット
+ - 伝説: 2 スロット
+ - 英雄: 3 スロット
 
-## Other Items
-You can learn more about other items, such as consumables, in the Inventory and Resources tutorials.
+## その他のアイテム
+消耗品のような他のアイテムについては、インベントリやアイテムのチュートリアルを確認してください。

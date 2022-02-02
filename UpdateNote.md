@@ -1,6 +1,6 @@
 # Update Notes
 
-**CyberCode Online** is currently under an early and heavy development stage, which means many changes and new features are being added every day! That also means many stats are being adjusted all the time. So, if you have anything to suggest, feel free to [create an issue](https://github.com/DexterHuang/CyberCodeOnline/issues) or join our [Discord server](https://discord.link/cco).
+**CyberCode Online** is currently under an early and heavy development stage, which means many changes and new features are being added every day! That also means many stats are being adjusted all the time. So if you have anything to suggest, feel free to [create an issue](https://github.com/DexterHuang/CyberCodeOnline/issues) or join our [Discord server](https://discord.link/cco).
 
 Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee.com/cybercodeonline) or [subscribe to my Patreon](https://www.patreon.com/cybercodeonline/).
 
@@ -24,14 +24,95 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
-## Updates
+## Upcoming update preview 
+Captchas in dungeons will be randomly replaced by more engaging minigames!! In the begining there will only be one minigame, and adding more in the future. So that sometimes, instead of a captcha code, you will play a simple minigame instead.
+
+### AFQ: 
+
+- Why? isnt there many important bugs or feature to add?
+  - Because this is one of the more important things to add. This feature is aimed to address several different issues:
+  - To increase the difficulty of making dungeon auto farm bot/scripts, to also reduce server load created by botters, also reduce the time I spend banning them.
+  - Increase dungeon variety, this is the first step of a series of elements I want to add into dungeons making them more interesting. From choiced based events to minigames like this, dungeons being only "keep fighting enemies non-stop" is one of the constructive criticism I receive from players.
+  - Adds a tiny bit of skill based element to the game, currently dungeon crawlers are differentiated by how fast your internet is and are able to click the buttons faster. This way even if your goal is to speed-run dungeons, whoever runs faster will be determinded by an individual's skill rather then how fast their internet/server is. Overal this should be fair to everyone.
+
+- How long does it take to finish the minigame?
+  - It should take under a minute, even if you are very bad at video games, it will be easy enough for all players, but you will play better if you are more skilled.
+
+- Is there a reward if you beat the minigame? 
+  - Yes, my plan is to increase the reward for minigame.
+
+- Is this all Permanent and not subject to change?
+  - Absolutly NOT. If you think it should be adjusted or anything after its deployment, please be involved in discussion with other players, Myself and the Moderators in the Discord, so that we can make adjustments to mimprove playability. I do not expect it to be perfect on launch so nor should you :) 
+**So, please do not feakout and be super ultra instinct angry if you dont like some part of it** just join the discussion and I will always hear it.
+
+- Why put up notice? is this a HUGE update?
+  - No, not at all, it shouldnt matter too much actually it is because I am worried that players may get mad when they see changes happen without being giving me or the game some time to fix stuff.
+
+## Updates  
+### 2022/01/31 v0.754
+- FIX - Fixed status effect (buffs) display incorrectly sometimes.
+
+### 2022/01/29 v0.754
+- NEW - Market and Auction channel is added, this is and could be changed/removed in the future, so lets see how it goes :)
+- OPTIMIZATION - Serverside optimization
+- UI - removed new player welcome system message (too many new players joining now, might enable it when things returns to normal)
+
+### 2022/01/27 v0.754
+- UPDATE - Updated chat connection code, hopefully it will be more stable in the future.
+
+### 2022/01/26 v0.754
+- FIX - Buff effect stackable logic error casuing it to stack 1 more then specified, 10% cali description says stack 2 times but could stack 3 times instead, now is fixed. 
+- UPDATE - Updated image for Mr. Lee
+- UI - UI Update on email list, now tags will render correctly in message previews
+- OPTIMZIATION - Serverside optimization
+- UI - Purchase system message will now tag buyer player
+
+### 2022/01/25 v0.754
+- FIX - fixed chat rare broken issue
+- NEW - Added seperate chat log channels in discord for Korean, Japan and Russia.
+
+### 2022/01/24 v0.754
+- FIX - Fixed chat message rendering related issue, device with issue rendering chat message (jumpy or broken) should be fixed now, older devices would render chat faster as well. If you are still facing issue with chat rendering please report to me.
+
+### 2022/01/23 v0.754
+- FIX - 5% calibration shard is fixed, now stackable unlimited. It was a bug
+- UPDATE - 300% calibration shard price has been set to 6144 unit
+
+### 2022/01/22 v0.754
+- NEW - Added auto sell in the npc shop
+- BALANCE - Fixed calibration where it could be stacked indefinitely resulting in being able to use 10% buff to stack to a maximum of 666%, in order to fix this exploit, the flowing changes are made: 
+  - All calibration shards now only stack up to 2 times, this is to prevent only use of the lowest tier multiple times to reach the highest tier effect, just use the higher tier instead as intended.
+  - Added a new 300% calibration shard since the shards can only stack 2 times 
+- UI - Updated dungeon lobby UI to match with other dungeon displays 
+
+### 2022/01/21 v0.754
+- LANG - Enabled equipment translation for Japanese and French
+- UI - Connect to chat by default again, after checking the stats, it does not effect the server much.
+
+### 2022/01/20 v0.754 
+- ANTI-CHEAT - Now auto clicker will get you flagged automatically by the server and flagged account will lose the ability to ever win rewards from sending skip likes, even if you have stopped using auto clickers. This is also done silently with no notice to the cheater and irreversible.
+- OPTIMIZATION - Now the game will not load chat message until chat tab is open. this is to save server resource
+- FIX - fixed system message with wrong sequence
+
+### 2022/01/19 v0.754
+- UPDATE - Updated tag system, now tagging and searching player when tagging is smarter, you should be able to reply to players in chat easier now
+- UI - Now the `View Gang` button no longer has a delay on showing up when opening message quick action popup 
+- OPTIMIZATION - Serverside optimization
+
+### 2022/01/17 v0.754
+- FIX - Fixed referral player search. Could not search some players if the players name is too short
+- FIX - Fixed crash issue when deleting account
+- UPDATE - Changed skip like back to hearts
+- OPTIMIZATION - Several server optimization
+- OPTIMIZATION - Dungeon performance optimization
+
 ### 2022/01/14 v0.754
 - OPTIMIZATION - Server side optimization
 
 ### 2022/01/12 v0.754
-- NEW - `Prestige` donation tier is added, this tier is redeemable by donating Unit directly and is permanent, meaning once aquired, it stays with your account forever
-- FIX - Fixed crashing on some older player profile page
-- FIX - Fixed some phone does not show item details page properly
+- NEW - `Prestige` donation tier is added, this tier is redeemable by donating Units directly and it is permanent, meaning once aquired, it stays with your account forever
+- FIX - Fixed crashing on some older players profile page
+- FIX - Fixed some phones do not show item details page properly
 - OPTIMIZATION - attempt on increasing skip queue speed, please let me know if it works well
 
 ### 2022/01/11 v0.754
@@ -47,7 +128,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ### 2022/01/05 v0.754
 #### Enemy Gangs 
-All enemies has a gang that it belongs to, each area will have different 'dominant' gang.
+All enemies has a gang that it belongs to, each area will have different 'dominant' gangs.
 Enemy gangs can include: 
 - `Animals`: Increased damage to `Disruptor` players
 - `Voodoo boys`: Increased damage to `Makeshift` players
@@ -58,17 +139,17 @@ All equipment (Except backpacks) have a `Mark`, each mark has different effect:
 - `Lethal`: Increase damage to Animals enemies
 - `Disruptor`: Increase damage to Voodoo boys enemies
 - `Makeshift`: Increase damage to Scavengers enemies
-You `Mark` is determined by the most mark you have
+You `Mark` is determined by the most marks you have equipped.
 - UI - Updated item details page
-- UI - List of attachable upgrade module is removed, insetad click on empty slot to select upgrade module
-- NEW - Enemy names and boss names are now available for translation in `mobil/{lang}/procedural-names.json`
+- UI - List of attachable upgrade module is removed, instead click an empty slot to select upgrade module
+- NEW - Enemy names and boss names are now available for translation in `mobile/{lang}/procedural-names.json`
 
 ### 2022/01/02 v0.754
- - BALANCE - `RNG Interferer` is now not stackable and time is reduced to 2 minutes, however unlocking task started while the buff is active will get the buff even when by the time task is completed the buff is already long gone. This is to ensure that each of the `RNG Interferer` is only one use, to mitigate the issue of sometimes skip takes longer to finish base on server status and amount of players; this way, the value of `RNG Interferer` stays exactly the same regardless of how many people are skipping or how fast the server is skipping players.
+ - BALANCE - `RNG Interferer` is now not stackable and time is reduced to 2 minutes. However unlocking tasks started while the buff is active will get the buff even when the time for the task is completed and the buff is already long gone. This is to ensure that each of the `RNG Interferer` is only one use, to mitigate the issue of sometimes skip takes longer to finish base on server status and amount of players; this way, the value of `RNG Interferer` stays exactly the same regardless of how many people are skipping or how fast the server is skipping players.
 
 ### 2021/12/31 v0.754
-- NEW - Added `Reply` button when click on playe message 
-- UPDATE - Respect heart now shows more accurate count and hearts
+- NEW - Added `Reply` button when click on player message 
+- UPDATE - Respect heart now shows more accurate counter and hearts
 
 ### 2021/12/30 v0.754
 - NEW - Added time skip tutorial thanks to `ManzTellen`'s contribution
@@ -80,11 +161,11 @@ You `Mark` is determined by the most mark you have
 - NEW - Calibration tutorial contributed by community is added to tutorial menu
 
 ### 2021/12/27 v0.754
-- UPDATE - Dungeon lores are now translatable and moved to `mobile/${lang}/dungeon-lore`, and index.json is no longer needed, simply add your file into the folder, the game will automatically detect it. For none-english version, please feel free to add new story to your language only, lores and story does not need to be sync between languages. Need at least 5 lores for it to be activated, otherwise english version is used.
-- NEW - Added popup notice for donation when none-donator clicked on profile picture, to explain why the feature is donator only (this file is translatable at `mobile/{lang}/popup-tutorial/donation.md`)
+- UPDATE - Dungeon lores are now translatable and moved to `mobile/${lang}/dungeon-lore`, and index.json is no longer needed, simply add your file into the folder, the game will automatically detect it. For none-english version, please feel free to add any new stories to your language only. Lores and story does not need to be in-sync between languages. Need at least 5 lores for it to be activated, otherwise english version is used.
+- NEW - Added popup notice for donation when non-donator clicked on profile picture, to explain why the feature is donator only (this file is translatable at `mobile/{lang}/popup-tutorial/donation.md`)
 
 ### 2021/12/26 v0.754
-- UPDATE - Block links from sending to chat
+- UPDATE - Blocked links from sending to chat
 - FIX - Backend bug fixes
 - UPDATE - Chaptchas will be easier to read now
 - OPTIMIZATION - Serverside optimizations
@@ -95,9 +176,9 @@ You `Mark` is determined by the most mark you have
 
 ### 2021/12/24 v0.754 
 -   NEW - Added tutorial popup for when clicking on empty equipment when there is no equipment available in inventory,
-    this is to help newbies to understand how to obtain equipments from cache, please help me with translation :D
+    this is to help new players to understand how to obtain equipments from cache, please help me with translation :D
     file is at `/mobile/${lang}/popup-tutorial/**`
--   NEW - Now `item lore`, `dungeon-crate` and `enemy-drop` config file has been moved to language specific location and therefore can be translated to other language, please edit them in `mobile/${lang}/scenario/**` and `mobile/${lang}/item/**`, if file does not exist in your language, please just copy it from english version
+-   NEW - Now `item lore`, `dungeon-crate` and `enemy-drop` config file has been moved to language specific location and therefore can be translated to other languages, please edit them in `mobile/${lang}/scenario/**` and `mobile/${lang}/item/**`, if file does not exist in your language, please just copy it from english version
 -   BUFF - Newbie quest now gives level 4 equipment instead of 1, since by the time the quest is completed, player is already level 3
 
 ### 2021/12/23 v0.754
@@ -111,7 +192,7 @@ You `Mark` is determined by the most mark you have
 
 ### 2021/12/16 v0.749
 
--   UPDATE - Now if chat message list will show a small popup if you are not at the bottom, clicking the popup will scroll to bottom, this should fix chat not scolling with new message issue :)
+-   UPDATE - Now chat message list will show a small popup if you are not at the bottom, clicking the popup will scroll to bottom, this should fix chat not scolling with new message issue :)
 -   UPDATE - Tip box will now use translated version if avaiable
 -   UI - Updated buttons in player details page
 
@@ -142,20 +223,20 @@ You `Mark` is determined by the most mark you have
 
 ### 2021/12/3 v0.718
 
--   NEW - Added language based chat channels, you can switch channel on the chat page, Global remains international and all langauge is welcome there
+-   NEW - Added language based chat channels, you can switch channel on the chat page, Global remains international and all langauges are welcome there
 -   UPDATE - Now new player's language and chat channel will default to their device language if it is available
 -   UI - Updated `Arasaka Unit Exchange` character art
 
 ### 2021/12/2 v0.718
 
--   FIX - Fixed soem non-english character fail to send to chat due to a 3rd party library got updated unexpectedly, and the update contains bug, reverted to older version of the liberay
--   FIX - Reduce the likly hook of `[Object Object]` error when too many people sending chat
+-   FIX - Fixed some non-english characters that fail to send to chat due to a 3rd party library that got updated unexpectedly, and the update contains bug, reverted to older version of the library
+-   FIX - Reduce the likely hood of `[Object Object]` error when too many people sending chat
 
 ### 2021/12/1 v0.718
 
 -   NEW - Added quick mute menu for moderators, system will now memorize mute record and suggest appropriate mute time base on records
 -   UI - Added skip queue to `All Apps` menu
--   NEW - Added ability to temperary disable dungeon when server is being fixed
+-   NEW - Added ability to temporarily disable dungeon when server is being fixed
 -   NEW - Added server popup notification for emmergency notice
 
 ### 2021/11/30 v0.718
@@ -181,8 +262,8 @@ You `Mark` is determined by the most mark you have
 
 ### 2021/11/24 v0.718
 
--   NEW - Updated character naming scree
--   NEW - Added chat rule popup for newbies
+-   NEW - Updated character naming screen
+-   NEW - Added chat rule popup for new players
 
 ### 2021/11/23 v0.718
 
@@ -204,16 +285,16 @@ You `Mark` is determined by the most mark you have
 -   UI - Tutorial popup will automatically scroll into view
 -   UI - Starting tips tutorial UI updated
 -   UI - Now locked interactables will show as gray-out with a small lockpad icon
--   UPDATE - Street enemy below level 3 will not spawn with special trait, to prevent newbies get destroyed.
+-   UPDATE - Street enemy below level 3 will not spawn with special trait, to prevent newbies getting destroyed.
 -   UI - Updated error toast UI
--   LANG - Updated synaptic item usaged notification text, before was long and abit confusing
--   UI - `Secret Key` brute forcing interface now only shows secretkeys thats newer your level
+-   LANG - Updated synaptic item usaged notification text, before was long and a bit confusing
+-   UI - `Secret Key` brute forcing interface now only shows secret keys thats closer to your level
 -   UI - Adjust NPC dialog box so on smaller screen it won't get blocked by NPC image
 -   Other UI fixes
 
 ### 2021/11/19 v0.718
 
--   FIX - Fixed gang dungeon enemies and boss not dropping any cache and other drops they are suppose to drop, such as equipment caches and others (I have no idea this bug exists!)
+-   FIX - Fixed gang dungeon enemies and bosses not dropping any cache and other drops that they are suppose to drop, such as equipment caches and others (I have no idea this bug exists!)
 
 ### 2021/11/17 v0.718
 
@@ -225,7 +306,7 @@ You `Mark` is determined by the most mark you have
 ### 2021/11/16 v0.718
 
 -   UI - You can now see player level on chat messages
--   FIX - Now the game will "fail gracefully" when the device does not support webgl, those device wont crash but cannot display skip hearts
+-   FIX - Now the game will "fail gracefully" when the device does not support webgl, those devices wont crash but cannot display skip hearts
 -   NEW - `Amadon` button added to AFK screen, you can use it to View market items, but it is stricly Look but don't touch policy
 -   OPTIMIZATION - Skip heart performance improvement
 
@@ -235,7 +316,7 @@ You `Mark` is determined by the most mark you have
 
 ### 2021/11/14 v0.718
 
--   OPTIMIZATION - Fixed spkie lag when clicking skip respect heart button
+-   OPTIMIZATION - Fixed spike lag when clicking skip respect heart button
 -   UPDATE - Increased chance of winning lottery when clicking respect heart, also added rare `EPIC` item drop.
 
 ### 2021/11/12 v0.718
@@ -245,11 +326,11 @@ You `Mark` is determined by the most mark you have
 
 ### 2021/11/09 v0.715
 
--   BUFF - Gang dungeon enenmy will also drop more `Medical Tech Scrap` amount increases base on dungeon level
+-   BUFF - Gang dungeon enenmy will also drop more `Medical Tech Scrap` amount increases based on dungeon level
 
 ### 2021/11/08 v0.715
 
--   BUFF - Gang dungeon now will drop more `Medical Tech Scrap` amount increases base on dungeon level
+-   BUFF - Gang dungeon now will drop more `Medical Tech Scrap` amount increases based on dungeon level
 -   UI - Minor adjustment on enemy drop and dungeon crate lore UI
 
 ### 2021/11/04 v0.710
@@ -259,8 +340,8 @@ You `Mark` is determined by the most mark you have
 ### 2021/11/03 v0.710
 
 -   BUFF - Gang dungeon boss now is weaker
--   BUFF - items with health, health regen and shield is 10% stronger, shiled is 20% stronger
--   UPDATE - Now on web version, it the app will prompt player to choose between Cyberpunk and VS Code mode before starting up, this is to reduce confusion to people who does not underdstand code when opening web vsersion
+-   BUFF - items with health, health regen and shield is 10% stronger, shield is 20% stronger
+-   UPDATE - Now on web version, the app will prompt players to choose between Cyberpunk and VS Code mode before starting up, this is to reduce confusion to people who do not underdstand code when opening web version
 
 ### 2021/11/02 v0.710
 

@@ -13,15 +13,6 @@ You'll receive in-game currency called **BTC** and in-game experience called **E
 
 **[You'll always be receive BTC and EXP in a battle, but items won't drop after every single battle.]** 
 
-### What is the Fastest Way to Level Up (Character) in this Game?
-On **lower level (1-7)**, the fastest and best way to level up is to fight **Nearby Enemies** constantly. Defeating the **yellow enemies** will result in more EXP gain, while also risking in having a harder fight than a normal enemies.
-
-**After reaching level 7**, try to equip / print a gear that has same gear level as your character level, and jumps into solo **Normal Dungeon**. Player can also join other players Dungeon via **Dungeon List** feature on **Map > Phone Icon > Dungeon List**. Finishing a dungeon will gain more EXP yield than Nearby Enemies.
-
-For best result, try to compelete **Challenge Dungeons** while having an active **Frontal Cortex Transmitter** (EXP Buff / Booster) on a go.
-
-Note: You could also level up by doing AFK Task (**Deploy Farm Bot**) that requires **AI Core**. These task takes time (up to 2 hours) & only be profitable if a Global Skip event is happening, which recudes the task time (making it the most efficient way to level up). Explanation around Time Skip can be found on [Time Skip's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fglobal_skip.md)
-
 ### What Is Skills? How to Level Up "X" Skills?
 There are 5 skills that player can develop & it has it's own perk upon doing so. In summary, here's how to level up certain skills:
 
@@ -54,6 +45,18 @@ No. Character Level is the max / boundary of player's skill level.
 ### Can I Use Gear that's higher than our Character Level?
 No. player can't use gear that's higher than it's current character level.
 
+### What is the fastest way to level up in this game?
+On **lower level (1-7)**, the fastest and best way to level up is to fight **Nearby Enemies** constantly. Defeating the **yellow enemies** will result in more EXP gain, while also risking in having a harder fight than a normal enemies.
+
+**After reaching level 7**, try to equip / print a gear that has same gear level as your character level, and jumps into solo **Normal Dungeon**. Player can also join other players Dungeon via **Dungeon List** feature on **Map > Phone Icon > Dungeon List**. Finishing a dungeon will gain more EXP yield than Nearby Enemies.
+
+For best result, try to compelete **Challenge Dungeons** while having an active **Frontal Cortex Transmitter** (EXP Buff / Booster) on a go.
+
+Note: You could also level up by doing AFK Task (**Deploy Farm Bot**) that requires **AI Core**. These task takes time (up to 2 hours) & only be profitable if a Global Skip event is happening, which recudes the task time (making it the most efficient way to level up). Explanation around Time Skip can be found on [Time Skip's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fglobal_skip.md)
+
+### I Need more BTC. Help!
+You can yield / gain BTC quickly by selling certain items on **Shangri-La Market Street**. At the start, its recommended to sell your Medical Tech Parts, Tech Scrap, and Hash Processor onto the market following the current market price. Specifically for Hash Processor, as a lower level player, it's best to sell Hash Processor at the start rather than using it for **Crypto Mining** task as it yields for less BTC than it's actual market price. 
+
 ### What will happen if I Die / Flatlined?
 You will lose 10% of your unbanked BTC and EXP; however your inventory will be safe. It is advisable to keep your BTC in **Arasaka Bank** in order to prevent major losses.
 
@@ -76,7 +79,7 @@ At the top of the Inventory page, you will find a tab called 'Crafting'.
 Explanation around Game Area can be found on [Location's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Flocations.md)
 
 ### What is "X" Item?
-Explanation around Resources can be found on [Resource's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md)
+Explanation around Item / Resources can be found on both [Inventory](https://cybercodeonline.com/markdown?path=tutorial%2Finventory.md) and [Resource's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md)
 
 
 ## Advanced / Gameplay Related
@@ -114,7 +117,7 @@ It doesn't matter if you print your caches now or later, but it's recommended to
 Legendary and Epic caches are much more expensive to craft than Rare ones, but the items have much better stats.  Higher quality items can last you for a long time, and are often worth calibrating at the Calibration Station.
 
 ### Can I upgrade the stats of my weapons and armour?
-Yes, you can upgrade your weapons at the Calibration Station found in your main map. Explanation around Calibration can be found on [Resource's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
+Yes, you can upgrade your weapons at the Calibration Station found in your main map. Explanation around Calibration can be found on [Calibration's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
 
 ### Can I remove installed upgrade modules?
 Yes. Click on the installed upgrade module to remove it from the equipment.
@@ -128,9 +131,6 @@ Yes. Higher level enemies give you more BTC and experience after you defeat them
 ### What are Locked Containers and how do I unlock them?
 Locked containers (✧) can be found and picked up from dungeons or by doing Scavenge Task. They can be unlocked using Tech Scraps at the Terminal in the main HUB, and contain various rewards ranging from Tech Scrap to Legendary gear. Tech scrap costs for opening the containers are 32 Tech Scrap for common containers, 64 for rare containers, and 128 for legendary ones. If you don't see the option for unlocking the container at the Terminal, it means you do not have enough Tech Scraps.
 
-### How do I get more BitCoins?
-BitCoin is obtained when defeating enemies, selling items in the Player Market, and by mining with Hash Processors. Hash Processors are found in dungeons and may be usd to mine BitCoin at the **Job Hub**. Player can also get more BitCoin by selling items on Player's Market (Shangri-La Market Street).
-
 ### What is Street Cred?
 Street Cred (Street Credit) is a way to appreciate someone you like or who has helped you. They are similar to "Karma" points on Reddit. You can give 1 Street Cred per day. To give Street Cred, go to the person's profile, scroll down to 'Player Actions' and click on **Give Street Cred** option that's located under **Add to Friend List** button. Consider giving some Street Credit to the people that contributed to this game! You can view the list at Profile > Phone Icon > Leaderboard > Street Cred.
 
@@ -141,6 +141,9 @@ It's been told that whenever a player taps the button (indicated by colored hear
 
 
 ## Advanced / Dungeon Related
+
+### What is "X" in Dungeon?
+Explanation around Dungeon can be found on [Dungeon's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fdungeon.md)
 
 ### How to Exit Dungeon?
 You can exit a dungeon by clicking **Leave Dungeon** button whenever you wants (as long as you're not in a fighting / inventory state).
@@ -164,6 +167,9 @@ The loot in the crates is randomly generated for each player. Therefore, it's im
 
 
 ## Advance / Gang Related
+
+### What is "X" in Gang?
+Explanation around Gang can be found on [Gang's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fgangs.md)
 
 ### What are Gangs and how do I create one?
 Gangs are similar to guilds or clans in other MMORPGs.  Joining a gang gives you access to new AFK tasks, a recycler to make tech scrap, and gang chat!  You also gain access to gang dungeons, which have a high level of difficulty but greater rewards than the regular dungeons.

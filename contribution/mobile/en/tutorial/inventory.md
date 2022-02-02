@@ -1,46 +1,34 @@
-## Inventory
+# Inventory
+You can access your **Inventory** by clicking the option at the bottom menu bar. In your inventory, you can see all items that you own, ranging from **Equipment** (which also includes **Upgrade Modules** and **Equipment Caches**), **Ammo**, **Medical Items**, **Crafting Ingredients**, **Key Fragment / Secret Keys**, **Global Boost**, and other consumables. By clicking on the item, you can see the details and lores of that item respectively.
 
-You can access your inventory by clicking the option at the bottom menu bar. In your inventory, you can see all items that you own, including equipment, upgrade modules, ammo, medical items, secret keys, caches, and other consumables. By clicking on the item, you can see the details of that item.  
+Explanation about item / resources, can be found on [Resource's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md)
 
-You can choose to equip gear by choosing the equip button. Equipped gear will be highlighted at the top of the inventory page. By clicking on gears, you can also choose to install upgrade modules that will enhance certain values of that item.
 
-To remove installed upgrade modules, simply click on the installed module. Better quality equipment have more upgrade module slots.
+## Functionality on Inventory
+Here's a few tips that players can utilize around inventory feature, as follows:
 
-## Items in your Inventory
+> By clicking the icons above your inventory list, you can filter out specific items. This option ranged from alphabetical sort up to item filter.
 
-Your caches in your inventory can be consumed to print gear using the Molecular 3D Printer in the City Center.  
+> You will start with 50 inventory slots; equipping **Backpack** or gear / upgrade modules with **pocket** stat will give you more inventory space. 
 
-Medical items can be consumed in dungeons to regenerate health (your character will not automatically regenerate health in dungeons as they would after normal battles in a train station).  
+> To get rid of equipment and upgrade modules, you can click on the item itself and then on the **Scrap** button. Alternatively, you can hold click on one item, select every item you want to scrap, then press the **Scrap** button that will appear at the top left of the item list. 
 
-Ammo can be used to perform special attacks and destructive attacks during combat.
+> There's a dedicated **Auto Scrap** button which players can find by clicking the dropdown button on the right side of the filter icon. Auto Scrap will only be scrapping Common or Trash rarity gear while ignoring any Upgrade Module of any rarity.
 
-Locked containers (✧) can be found in dungeons and can be unlocked using Tech Scraps at the Terminal in the main HUB.  
-Depending on the quality of the locked container, the amount of Tech Scrap needed for unlocking it may be greater; the required Tech Scraps start at 32. If you don't see the option for unlocking the container at the Terminal, it means you do not have enough Tech Scraps.
+> Every item that the player can scrap will yield **Tech Scrap** in return. However, some item does give you other items such as **Medical Tech Parts** (which can only be gained by scrapping **Pain Away**) or **Ammunition Tech Parts** (which can only be gained by scrapping either **Anti Matter Charge** or **Energy Cell**). Not only that, some items (such as Pain Away and **Equipment Caches**) aren't guaranteed to yield either Tech Scrap or Med Tech, with a 50% chance to yield one.
 
-Secret key fragments that you obtained in special dungeon chests can be merged into a secret key by brute-forcing it at the Terminal. Secret keys will grant you access to higher level enemy areas and dungeons.  
-
-Other consumables, such as Hash Processors and AI Cores, can be used to perform AFK tasks.
-
-Learn more about all the different types of resources in the Resources Tutorial.
-
-## Functions in your Inventory
-
-By clicking the icons above your inventory list, you can filter out specific items. You will start with 50 empty slots; equipping gear with the **pocket** stat will give you more inventory space. To get rid of equipment and upgrade modules, you can click on the item itself and then on the **SCRAP** button. Alternatively, you can hold click on one item, select every item you want to scrap, then press the **SCRAP** button that will appear at the top left of the item list. Every item scrapped will give you Tech Scrap. To get rid of other items that are not scrappable, you can click on the **DESTROY** button. Destroyed items will not give you anything in return, so be cautious when performing this action.  
+> To get rid of other items that are not scrappable, you can click on the **Destroy** button. Destroyed items will not give you anything in return, so be cautious when performing this action.  
 
 ## Item Inbox
-
-Items that other players send will be automatically placed in your item inbox. Once you have enough space in your inventory, they will be moved automatically to your inventory. There is sometimes a delay before this happens.
+Items that other players send (or sent back from **Player Market** & claimed from **Daily Reward**) will automatically be placed in your **Item Inbox**. Once you have enough space in your inventory, they will be moved automatically to your inventory by clicking **Get All Items** option. Keep in mind that items stored in Item Inbox will expire in 7 days if not claimed. 
 
 ## Crafting
+Crafting allows you to craft different types of items such as **Medicine**, **Ammo**, **Item Ingredient**, and other consumables (such as **Hash Processor** and **AI Core**).  
 
-This tab in your inventory allows you to craft different types of items: medicine, ammo, Hash Processors and AI Cores.  
+On Medical Tab, most heal item relies on **Medical Tech Parts** and **Medical Science Level** to craft one. For example, to craft 4 Nano Medic Bot, players need to have 8 Medical Tech Parts while also on a Medical Science level 30 (or higher). Some heal items will also require **Tech Scrap** in order to make a **Medical Drone** version of it. For example, in order to make Nano Medic Drone, players must have both Nano Medic Bot and Tech Scrap on their inventory (while also on a Medical Science level 40 (or higher)). 
 
-Medical crafting uses medical tech parts.  
+On Ammo Tab, each ammo requires a different ingredient to craft. For **Energy Cells**, a player must have **Ammunition Tech Parts** to make one, and as for **Anti Matter Charge**, plater must have **Military Ammunition Tech Parts**. Players can also make Military Ammunition Tech Parts by combining a minimum of 20 Ammunition Tech Parts to make one. Since there are only two types of ammo, the role of **Ammo Crafting Skill** revolves around the ammo quantity that the player can get per 10 levels. For example, on Ammo Crafting Level 20, players can get 3 Energy Cells for every 1 Ammunition Tech Parts (3:1 ratio), and by level 30, players will get 1 more Energy Cells with the same amount of Ammunition Tech Parts. The same case applies to making Anti Matter Charge.   
 
-Ammo crafting can use either ammunition tech parts (for Energy Cells) or military ammunition tech parts (for Anti Matter Charges).
+On Material Tab, players can craft **Hash Processor** and **AI Core** for their needs. Specifically for AI Core, it is advisable for players to level up their Mining Skills to level 190 first to get an even crafting rate (20 Hash Processor : 20 AI Core) as lower-level AI crafting aren't profitable while consuming even more ingredient than it's needed. This doesn't apply to Hash Processor crafting as it's always at the same rate.  
 
-Hash Processors use military ammunition tech parts, medical tech parts and Tech Scraps.  
-
-AI Cores use Hash Processors and Tech Scraps.  
-
-As you level up the relevant skills (medical science, ammo crafting, and mining), you will unlock new recipes and become more proficient, allowing you to craft more and better items.
+In summary, as you level up the relevant skills (Medical Science, Ammo Crafting, and Mining Skill), you will unlock new recipes and become more proficient, allowing you to craft more and better items.

@@ -1,86 +1,86 @@
-## Locations
-The game begins in Shangri-La City Center. From there, you can explore various areas by going to different subway stations. 
+## Места
+Игра начинается в центре города Шангри-Ла. Оттуда вы можете исследовать различные районы, отправляясь на разные станции метро.
 
-## City Map
+## Карта Города
 
-![Map](/resources/mobile-tutorial/Map.png)
+![Карта](/resources/mobile-tutorial/Map.png)
 
 ## Shangri-La City Center  
-![Shangri-La City Center](/resources/mobile-tutorial/Shangri-LaCityCenter.png)  
-This is the Main HUB to which you will often return to after you die, to print equipment, to make purchases and for various other activities.
+![Центр Шангри-Ла](/resources/mobile-tutorial/Shangri-LaCityCenter.png)  
+Это главное место, куда вы часто будете возвращаться после смерти, чтобы распечатать оборудование, сделать покупки и заняться другими делами.
 
-## 3D Molecular Printer  
-![3D Molecular Printer](/resources/mobile-tutorial/Molecular3DPrinter.png)  
-In the City Center, you can find the Molecular 3D Printer, which will be used to print your equipment from various caches.
+## Молекулярный 3D-принтер
+![Молекулярный 3D-принтер](/resources/mobile-tutorial/Molecular3DPrinter.png)  
+В Центре города вы можете найти Молекулярный 3D-принтер, который будет использоваться для печати вашей экипировки из различных тайников.
 
-Clicking on the printer option will bring you to the printing panel which lists all the caches you have.  
-It costs BitCoin to print, so make sure you have enough. All details including BTC cost and printing experience given will be listed on the cache printing panel.  
-If you wish to print a cache, all you need to do is to click on the cache you wish to print. If you have multiple caches of the same quality and type, it will bring up a dialog asking how many you want to print.  
+Нажав на опцию принтера, вы попадете на панель печати, в которой перечислены все имеющиеся у вас чертежи.
+Для печати нужны биткоины, поэтому убедитесь, что у вас их достаточно. Все детали, включая стоимость биткоинов и предоставленный опыт печати, будут перечислены на панели печати чертежа.
+Если вы хотите распечатать чертеж, все, что вам нужно сделать, это щелкнуть на чертеж, который вы хотите распечатать. Если у вас есть несколько чертежей одинакового качества и типа, появится диалоговое окно с вопросом, сколько вы хотите напечатать.
 
-A good strategy is to print all the trash items first then the common, saving rare, legendary and epic for later levels. The reason for this is that printing trash and common quality items first will provide you with printing experience; these items can then be scrapped to acquire Tech Scraps, which can also boost your Printing Level or be used to craft other items and unlock locked containers.
+Хорошая стратегия состоит в том, чтобы сначала распечатать все мусорные предметы, а затем обычные, сохраняя редкие, легендарные и эпические предметы для более поздних уровней. Причина этого в том, что сначала печать хлама и предметов обычного качества даст вам опыт печати; эти предметы затем можно разобрать, чтобы получить металлолом, который также может повысить ваш уровень печати или использоваться для создания других предметов и разблокировки запертых контейнеров.
 
-## Weaponsmith  
-![Weaponsmith](/resources/mobile-tutorial/WeaponSmith.png)  
-The Weaponsmith is a vendor in Shangri-La City Center who has items for sale and allows you to sell your items for BTC. You will see the items available for sale at the top. You can click on any of them and choose Buy if you can afford them.  
-If you have equipment with the **bargain** stat, you will get a better deal.  
+## Оружейный Магазин  
+![Оружейный Магазин](/resources/mobile-tutorial/WeaponSmith.png)  
+Оружейник — это продавец в центре города Шангри-Ла, у которого есть предметы на продажу, и он позволяет вам продавать свои предметы за биткоины. Вверху вы увидите товары, доступные для продажи. Вы можете нажать на любой из них и выбрать «Купить», если вы можете себе это позволить.
+Если у вас есть снаряжение с параметром **торговля**, вы получите более выгодную сделку.
 
-If you want to sell something to the Weaponsmith, you will need to open your inventory, click on any item you wish to sell and choose the Sell option. For some items, it may be more worth it to sell them at the player market.
+Если вы хотите продать что-то оружейнику, вам нужно будет открыть свой инвентарь, щелкнуть любой предмет, который вы хотите продать, и выбрать опцию «Продать». Для некоторых предметов может быть выгоднее продать их на рынке игрока.
 
-You can repair your items here too. You lose durability the more you use your equipment. It costs very little to repair them to mint condition, so be sure to repair frequently as needed.
+Здесь же можно отремонтировать свои вещи. Чем чаще вы используете свое снаряжение, тем больше прочности оно теряет. Их ремонт до идеального состояния стоит очень мало, поэтому ремонтируйте их часто по мере необходимости.
 
-## Trinoky Mart  
-![Trinoky Mart](/resources/mobile-tutorial/TrinokyMart.png)  
-Here you can buy medical items with BTC. Prices are completely separate from the player market, so be sure to check both!  
+## Магазин Триноки
+![Магазин триноки](/resources/mobile-tutorial/TrinokyMart.png)  
+Здесь вы можете купить медицинские товары за биткоины. Цены полностью отделены от рынка игроков, поэтому обязательно проверьте оба!
 
-## Terminal 
-![Terminal](/resources/mobile-tutorial/Terminal.png)  
-The terminal is used to merge key fragments into secret keys to unlock higher-level train stations.
+## Терминал 
+![Терминал](/resources/mobile-tutorial/Terminal.png)  
+Терминал используется для объединения фрагментов ключей в шифры для разблокировки станций более высокого уровня.
 
-Here you can also unlock locked containers (found in dungeons) with the Tech Scrap that you have.
+Здесь вы также можете разблокировать запертые контейнеры (найденные в подземельях) с помощью металлолома, который у вас есть.
 
-## Bank of Arasaka
-![Bank of Arasaka](/resources/mobile-tutorial/BankOfArasaka.png)  
-In addition to your inventory, each player also has access to a vault in the Shangri-La State Bank.
+## Банк Арасаки
+![Банк Арасаки](/resources/mobile-tutorial/BankOfArasaka.png)  
+В дополнение к вашему инвентарю, каждый игрок также имеет доступ к хранилищу в Государственном банке Шангри-Ла.
 
-Initially you have 6 bank slots. You can choose to permanently expand slots by paying BTC. Keep in mind that the cost of the slots you buy will increase with each purchase.  
+Изначально у вас есть 6 банковских слотов. Вы можете постоянно расширять слоты, платя биткоины. Имейте в виду, что стоимость слотов, которые вы покупаете, будет увеличиваться с каждой покупкой.
 
-Items that are stackable will occupy only one bank slot just like in your inventory. Each deposit will cost 100 BTC, but taking something out is free of charge.  
+Предметы, которые можно складывать, будут занимать только один слот в банке, как и в вашем инвентаре. Каждый депозит будет стоить 100 биткоинов, но вывод чего-либо будет бесплатным.
 
-## Hyper Train Central Station  
-![Hyper Train Station](/resources/mobile-tutorial/HyperTrainCentralStation.png)  
-This is where your adventure begins. The train can take you to multiple stations. Each station has three areas full of enemies of different levels. This is also where you will find dungeons. Gather 3 unique key fragments from the dungeons to unlock the next train station.  
+## Центральный Вокзал Гиперпоездов 
+![Центральный Вокзал Гиперпоездов](/resources/mobile-tutorial/HyperTrainCentralStation.png)  
+Здесь начинается ваше приключение. Поезд может доставить вас на несколько станций. На каждой станции есть три области, полные врагов разного уровня. Здесь вы также найдете подземелья. Соберите 3 уникальных фрагмента ключа из подземелий, чтобы открыть следующую железнодорожную станцию.
 
-In each station, you can also use your AI Cores to farm EXP and scavenge for materials that are needed for crafting healing items and ammo.
+На каждой станции вы также можете использовать свои ядра ИИ для получения опыта и сбора материалов, необходимых для изготовления лечебных предметов и боеприпасов.
 
-## Shangri-La Commercial Area (Job Hub)  
-![Commercial Area](/resources/mobile-tutorial/Shangri-LaCommercialArea.png)  
-At this location, you can look for jobs to increase your printing level, ammo/medical crafting levels, and mining level. Each job (AFK activity) contains details on what you can accomplish with it.
+## Деловой Район Шангри-Ла (Место работы) 
+![Деловой Район](/resources/mobile-tutorial/Shangri-LaCommercialArea.png)  
+В этом месте вы можете искать задания, чтобы повысить уровень печати, уровень изготовления боеприпасов/медицинских препаратов и уровень добычи. Каждое задание (активность AFK) содержит подробные сведения о том, что вы можете с его помощью выполнить.
 
-## Shangri-La Market Street  
-![Street Market](/resources/mobile-tutorial/Shangri-LaMarketStreet.png)  
-Here you can sell and purchase items to and from other players within the game for BTC.  
+## Торговая Площадь Шангри-Ла
+![Торговая Площадь](/resources/mobile-tutorial/Shangri-LaMarketStreet.png)  
+Здесь вы можете продавать и покупать предметы у других игроков в игре за биткоины.
 
-Keep in mind that whenever you want to sell or buy an item on the market, you will have to complete a captcha of 4 numbers.  
-This is in place to prevent bots from using and manipulating the player market.
+Имейте в виду, что всякий раз, когда вы хотите продать или купить предмет на рынке, вам нужно будет ввести капчу из 4 цифр.
+Это делается для того, чтобы боты не могли использовать и манипулировать рынком игроков.
 
-## Cosmetic Cyberwear  
-![Cosmetic Cyberwear](/resources/mobile-tutorial/CosmeticCyberwear.png)  
-In this location you can buy in-game subscriptions for real money.  
+## Косметические Киберимпланты
+![Косметические Киберимпланты](/resources/mobile-tutorial/CosmeticCyberwear.png)  
+В этом месте вы можете купить внутриигровые подписки за реальные деньги.
 
-These subscriptions help maintain the cost of the game and allows you, depending on the type of subscription, to have a coloured chat border, a background animation for your profile, a title and the ability to upload a custom profile picture.
+Эти подписки помогают поддерживать стоимость игры и позволяют, в зависимости от типа подписки, иметь цветную рамку чата, фоновую анимацию для вашего профиля, заголовок и возможность загружать собственное изображение профиля.
 
-Please keep in mind that you are not forced to purchase these subscriptions at all and **these subscriptions offer no P2W benefits**.  
-These subscription benefits are purely cosmetic.  
-You can still play the game without subscribing.
+Имейте в виду, что вы вовсе не обязаны покупать эти подписки, и **эти подписки не дают никаких преимуществ P2W**.
+Эти преимущества подписки носят чисто косметический характер.
+Вы по-прежнему можете играть в игру без подписки.
 
-## Arasaka Unit Exchange
-![Arasaka Exchange](/resources/mobile-tutorial/ArasakaUnitExchange.png)  
-Here you can buy Transmitters that have various effects. These Transmitters are purchaseable only with Units (premium currency).  
+## Обменный Пункт Арасаки
+![Обменный Пункт Арасаки](/resources/mobile-tutorial/ArasakaUnitExchange.png)  
+Здесь вы можете купить передатчики с различными эффектами. Эти передатчики можно приобрести только за Юниты (донатная валюта).
 
-Keep in mind that if one player activates a Transmitter, every player on the server will benefit from it.  
-**They are not P2W.**  
-They can't offer an advantage to only one player. Everyone benefits from the effects.  
+Имейте в виду, что если один игрок активирует передатчик, каждый игрок на сервере получит от этого выгоду.
+**Они не P2W.**
+Они не могут дать преимущество только одному игроку. От эффектов выигрывают все.
 
-Here you can also purchase Units, the in-game premium currency, with real money.
-In the Android/Apple application, the prices of Units will appear in your local currency.  
-In the browser version (both mobile or desktop views), the prices will appear in USD only.
+Здесь вы также можете приобрести Юниты, внутриигровую премиальную валюту, за реальные деньги.
+В приложении Android/Apple цены на Единицы отображаются в вашей местной валюте.
+В браузерной версии (как для мобильных, так и для настольных компьютеров) цены будут отображаться только в долларах США.

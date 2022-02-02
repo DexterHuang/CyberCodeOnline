@@ -1,9 +1,9 @@
 
-## How to refer someone?
-Simply give the person your in game name, and when they create a new character, they simply need to select you as referrer at the character creation screen (where you name your character).
+## 誰かにゲームを紹介する方法は？
+相手にゲーム内の名前を伝え、その人が新しいキャラクターを作る時に、キャラクター作成画面(キャラクター名をつける画面)であなたを紹介者として選択するだけです。
 
-##  Referral Benefits
-1. Whenever the player you referred purchased unit, you will also receive 10% of it, for example when the player you referred purchased 2000 Unit, you would receieve 200 Unit automatically.
-3. When ever a player you referred reached level `20`, you will receieve some rewards: 
-	- 1 `Fanny Pack`
-	- 1`Locked Rare Container`
+##  紹介特典
+1. 紹介したプレイヤーがUnitを購入する度に、あなたはその10%を受け取ります。例えば、紹介したプレイヤーが2000Unitを購入した際、あなたは自動的に200Unitを受け取ります。
+2. 紹介したプレイヤーがレベル`20`に達した際、あなたはいくらかの報酬を受け取ります: 
+	- 1 `奇抜なバッグ`
+	- 1`鍵のかかった珍しいコンテナ`

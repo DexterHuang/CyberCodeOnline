@@ -1,35 +1,35 @@
 
 
-#### Here at CCO, we hope to maintain a friendly community. In order for everyone to have fun and enjoy the game, please familiarise yourself with the rules. 
+#### サイバーコードオンライン（CCO）では、フレンドリーなコミュニティを維持することを望んでいます。みんなが楽しくゲームをするために、ルールをよく理解してください。
 
-> If you feel someone is violating one of the rules and no moderators are around, take a screenshot and report it via direct messaging the moderators in the [Discord server](https://discord.gg/JREx8xz).
-### Important Guideline
-* It is strongly recommended to play with only one account per person, as our system will flag alt accounts, preventing you from sending items between your accounts. *this can happen even if you only have one alt* (We will not help you move your items or unlock the account if the system flags you.)
-* Never ever use in-game chat (including email) to send any kind of sensitive/personal information. Game chat is NOT encrypted and NOT secure. CCO does not bare any responsibility to protect your information you write in chat. Bear in mind that moderators have access to the chat log for moderation purposes. 
+> 誰かがルールに違反していると感じたとき、周りにモデレーターがいない場合は、スクリーンショットを撮り、[Discordサーバー](https://discord.gg/JREx8xz)のモデレーターに直接メッセージで報告してください。
+### 重要なガイドライン
+* 1人1アカウントでプレイすることを強く推奨します。システムによってサブアカウントにフラグが立つと、アカウント間でアイテムを送ることができなくなります。 *サブアカウントが１つしかない場合でも発生することがあります。* （システムからフラグが立った場合、商品の移動、アカウントのロック解除のお手伝いはいたしません。）
+* ゲーム内のチャット（メールを含む）では、いかなる種類の機密情報や個人情報も絶対に送信しないでください。ゲーム内のチャットは暗号化されておらず、安全ではありません。CCOはチャットで書き込まれた情報を保護する責任を負いません。モデレーターは、モデレーションのためにチャットログにアクセスすることができます。
 
-### Game Rules
-* The use of bots and scripts are prohibited
-* No tool assistance
-* No excessive alts.
-* Don't exploit bugs, report them instead
-* Keep usernames family friendly
-* Advertising (global chat/discord/bio/gang motto) of Selling/Buying account/items for IRL money (both directly or indirectly) is not allowed
-* Tagging people for fun or with no real purpose is not allowed. This is to prevent people from creating accounts just so they can tag them (doing so will also breach the "No exceesive alts" rule) 
-* Any illegal activities will get you instantly banned -- including but not limited to -- harrassing underage person you met in game
+### ゲームのルール
+* ボットやスクリプトを使用しないでください。
+* ツールアシストを使用しないでください。
+* 過度なサブアカウントの作成はしないでください。
+* バグは悪用するのではなく、報告するようにしてください。
+* ユーザーネームは一般的なものにしてください。
+* グローバルチャット、Discord、Bio欄、ギャングモットーにおいて、IRLマネー（現実世界の貨幣）でアカウントやアイテムを売る、または買う宣伝を直接的または間接的に行うことは禁止されています。
+* 遊びのためや目的もなくメンションをすることは禁止されています。これは、メンションのためだけにアカウントを作成することを防ぐためです（このような行為は、「過度なサブアカウント作成の禁止」ルールにも反します）。
+* ゲーム内で知り合った未成年の方への嫌がらせなど、違法行為は即刻BAN対象となります。
 
-### Chat Rules
-**All rules are listed here, there is NO "unwritten rules", but be respectful and stop if other players don't like what you are sending in chat**
-#### Not Allowed: 
-* unfriendly, disrespectful to others opinion / offensive or pssive agressive messages (Expample, racist, sexist comments)
-* non-family-friendly chat
-* Spam / Troll 
-* Advertise / Mention of other game 
-* Impersonate others  
-* Place links in chat
-* Posting ads about your market sales more then once in 15 minutes
+### チャットのルール
+**すべてのルールはここに記載されています。「不文律」は存在しませんが、自身がチャットで送信した内容に他のプレイヤーが苦言を呈した場合は、そのプレイヤーに敬意を払い、やめるようにしてください。**
+#### 許可されていないこと: 
+* 非友好的、他人の意見を尊重しない、不快または攻撃的なメッセージ（例：人種差別的、性差別的なコメント）
+* 一般的ではないチャット
+* スパムや荒らし
+* 他ゲームの宣伝、言及
+* 他人へのなりすまし  
+* チャットでのリンクの添付
+* プレイヤー間の取引に関する広告を15分以内に複数回掲載すること
 
-#### Allowed(as long as you don't breach the rules above):
-* Emoji😃 / Kaomoji ~ヾ(＾∇＾) / 𝕹𝖔𝖓𝖊-𝖘𝖙𝖆𝖓𝖉𝖆𝖗𝖉 𝕱𝖔𝖓𝖙𝖘 (Must be easily readble and does not create chaos)
-* Roleplay
-* Discussing Politic, Religion, or COVID
-* Using any language in any chat channel
+#### 許可されていること(但し、上記のルールに違反しない限り):
+* 絵文字😃 / 顔文字 ~ヾ(＾∇＾) / 𝕹𝖔𝖓𝖊-𝖘𝖙𝖆𝖓𝖉𝖆𝖗𝖉 𝕱𝖔𝖓𝖙𝖘　標準的ではないフォント（読みやすく、混乱しないようなもの）
+* ロールプレイ
+* 政治、宗教、COVIDについての議論
+* どのチャットチャンネルにおいても、あらゆる言語を使用すること

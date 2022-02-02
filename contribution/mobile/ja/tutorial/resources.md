@@ -1,59 +1,59 @@
-## Ammo
+## 弾薬
 
-### Energy Cells  
+### エネルギーセル  
 
-Your Special Weapon uses Energy Cells. You can find Energy Cells as drops after winning fights or by crafting them using Ammunition Tech Parts. You can carry a maximum of 5000 Energy Cells at a time.
+あなたのスペシャルウェポンはエネルギーセルを使用しています。戦闘勝利時の報酬や、弾薬技術パーツを使用してそれらを作成することにより、エネルギーセルを手に入れることができます。一度に最大5000個のエネルギーセルを所持できます。
 
-### Antimatter Charges 
+### アンチマターチャージ
 
-Your Destructive Weapon uses Antimatter Charges. You can find them as drops (less often than Energy Cells) or by crafting them from Military Ammunition Tech Parts. You can carry a maximum of 5000 Antimatter Charges at a time.
+あなたの量子兵器はアンチマターチャージを使用しています。それらは戦闘勝利時の報酬（※エネルギーセルよりも手に入りにくいです）、または軍用弾薬技術部品から作成することで手に入れることができます。一度に最大5000個のアンチマターチャージを所持できます。
 
-## Tech Parts  
-You can use tech parts (ammo and medical) to craft corresponding items via in the game crafting functions located in your Inventory menu.  
+##  技術部品
+ インベントリメニューの中にあるクラフトメニューを開いてください。そこで技術部品（医療／弾薬／軍用弾薬）を使用することで、必要なアイテムを作成できます。
 
-### Tech Scrap  
-Carry out reverse engineering (uses one Tech Scrap per job) to gain printing experience after a short period of time.
+###  テックスクラップ 
+テックスクラップを使用することで、リバースエンジニアリングが実行できます。そうすることで、短時間で大量のクラフトの経験を積むことができます。
 
-## Medical  
+## 医療 
 
-Players can use Medical Tech Parts and Tech Scrap to craft medicine for use in dungeons. In order to craft better medicine, players need to improve their medical science levels which can be done by performing the associated job training or by crafting medicine. Furthermore, better medicine requires players to use more Medical Tech Parts. For example, the lowest level medicine that can be crafted is the Pain Away for 1 Medical Tech Part while the Degraded Nano Repair Bot needs 2 Medical Tech Parts and a medical science level of 10.  
-  
-There are two categories of medicine that can be crafted: single heals and group heals.
+プレイヤーは、医療機器パーツとテックスクラップを使用して、薬を作成できます。できた薬はダンジョンで使用できます。より良い薬を作るためには医療スキルを向上させなくてはいけません。医療スキルは、シャングリ・ラ商業地区で必要な訓練を行うか、薬をクラフトすることによって向上します。また、良い薬を作るためには多くの医療機器パーツが必要になります。たとえば、最低レベルの薬は1つの医療機器パーツで作成できますが、上位の薬である「劣化したナノメディックボット」の作成には2つの医療技術パーツと医療レベルが１０必要です。
 
-### Single Heals  
+また作成できる薬には、単体回復と全体回復の2つのカテゴリがあります。
 
-As the name suggests, single heals will only heal yourself for the specified amount. Single heal medicines are items such as Pain Away and anything ending with Bot (e.g. Nano Medic Bot). In order to craft single heals, you need the specified medical science level and Medical Tech Parts.  
+### 単体回復薬
 
-### Group Heals  
+ 名前が示すように、単体回復薬は指定された量だけ自分自身を回復します。単体回復薬は、アスピリンやボットで終わるもの（例：ナノメディックボットなど）などのアイテムです。単体回復薬を作成するには、指定された医療レベルと医療機器パーツが必要です。
 
-Group heals can heal the entire group in a dungeon when used but will heal each person less than single heals of the same tier. Group heals are items such as Pain Away Spray and anything ending with Drone (e.g. Nano Medic Drone). In order to craft group heals, you need the same level single heal and the associated number of Tech Scrap. For instance, to make Pain Away Spray you need 1 Pain Away and 1 Tech Scrap.  
+###  全体回復薬
 
-## Boosts
+ 全体回復薬は、使用時にダンジョン内のグループ全体を回復できます。ただし一人当たりの回復量は同じティアの単体回復薬よりも少ないです。全体回復薬は、スプレーやドローンで終わるもの（例：ナノメディックドローン）などのアイテムです。全体回復薬を作成するには、同じレベルの単体回復薬とそれに関連する数のテックスプラップが必要です。たとえば、アスピリンスプレーを作成するには、1つのアスピリンと1つのテックスプラップが必要です。
 
-### Synaptic Acceleration Transmitter
+## ブースト
 
-This item will boost how quickly AFK time passes by +5% for 10 minutes, stackable to +80%. You can use another to extend the duration of the boost, resetting the timer. To make use of the boost, you just need to begin an AFK session while the boost is active. This item is global and will affect and stack with other people. This does not stack with the rare version.
+### シナプス加速送信機
 
-## Global Paid Items
+このアイテムは、AFK時間を10分間、+ 5％加速させます。そして、その効果は+ 80％まで重複可能です。別のシナプス加速送信機を使用してブーストの期間を延長し、タイマーをリセットできます。ブーストを利用するには、ブーストがアクティブなときにAFKセッションを開始する必要があります。このアイテムは全世界の他の人のシナプス加速送信機と重複し、影響を与えます。なお、珍しいシナプス加速送信機とは重複しません。
 
-These items can be purchased in the Arasaka Unit Exchange. The effects are global and will give everyone the benefits.
+## グローバル有料アイテム
 
-### Rare Synaptic Acceleration Transmitter
+これらの商品はアラサカＵＮＩＴ交換所で購入できます。使用すれば、自分だけでなく、世界中すべての人に恩恵があります。
 
-These are similar to regular Synaptic Acceleration Transmitters but don't stack with them. The rare version will instantly boost how quickly AFK time passes by +40% for 20 minutes, stackable to +80%. You can use another to extend the duration of the boost, resetting the timer. To make use of the boost, you just need to begin an AFK session while the boost is active. This item is global and will affect and stack with other people.
+### 珍しいシナプス加速送信機
 
-### Transaction Exploit Transmitter
+これは通常のシナプス加速送信機に似ていますが、それとは重複しません。珍しいシナプス加速送信機は、AFK時間を20分間で+ 40％加速します。またその効果は+ 80％まで重複可能です。別の珍しいシナプス加速送信機を使用してブーストの期間を延長し、タイマーをリセットできます。ブーストを利用するには、ブーストがアクティブなときにAFKセッションを開始する必要があります。このアイテムは全世界の他の人の珍しいシナプス加速送信機と重複し、影響を与えます。
 
-The Transaction Exploit Transmitter is used to boost BitCoin gains and works the same way as the transmitters in that you can use multiple to stack the effect and prolong the timer. Each Transaction Exploit Transmitter will provide a +40% boost to BitCoin gain for 20 minutes. Stacking maxes out at 100%.
+### トランザクションエクスプロイト送信機
 
-### Frontal Cortex Optimization Transmitter
+トランザクションエクスプロイト送信機は、ビットコインの獲得量を上げるために使用され、その効果を重複させてタイマーを延長するために複数を使用できるという点で、シナプス加速送信機と同じように機能します。各トランザクションエクスプロイト送信機は、20分間ビットコインの獲得量を+ 40％ブーストします。効果の重複は100％で最大になります。
 
-The Frontal Cortex Optimization Transmitter is used to boost EXP gains. Each Frontal Cortex Optimization Transmitter will provide a +80% boost to EXP gain for 20 minutes.
+### 前頭皮質最適化送信機
 
-### Global Time Skips
+前頭皮質最適化送信機は、EXPの獲得量を高めるために使用されます。各前頭皮質最適化送信機は、20分間のEXPの獲得量に+ 80％のブーストを提供します。
 
-Although these aren't items, players can also purchase global skips from their AFK screen (the Map tab when an AFK task is in progress). Skippers can choose from a range of 15 minutes to 180 minutes to skip. The time skips work with boosts, so it's more cost-efficient to use skips when boosts are already running.
+### グローバルタイムスキップ
 
-As with all other paid items, time skips apply to everyone on the server. However, since they skip time immediately, only players who have started AFK tasks before the button is pressed will receive the benefit. Often it can be helpful to coordinate in global chat so people are ready to tag along.
+これはアイテムではありませんが、プレイヤーはAFK画面（AFKタスクの進行中の[マップ]タブ）からグローバルスキップを購入することもできます。スキッパーは15分から180分の範囲からスキップすることができます。時間スキップはブーストで機能するため、ブーストがすでに実行されている場合はスキップを使用する方がコスト効率が高くなります。
 
-The benefit is also applied to all AFK players one-by-one, so it may take 1 ~ 3 minutes for the effects to apply for everyone. Most regular skippers will recommend waiting around 1 minute after the skip button becomes available again, and purchasing 30-minute skips is the most popular choice when boosts are also running.
+他のすべての有料アイテムと同様に、タイムスキップはサーバー上のすべてのユーザーに適用されます。ただし、すぐに時間をスキップするため、ボタンを押す前にAFKタスクを開始したプレイヤーのみが特典を受け取ります。多くの場合、人々が一緒にタグを付ける準備ができるように、グローバルチャットで調整することが役立つ場合があります。
+
+この特典は、すべてのAFKプレイヤーに1つずつ適用されるため、効果がすべての人に適用されるまでに1〜3分かかる場合があります。ほとんどの通常のスキッパーは、スキップボタンが再び使用可能になってから約1分待つことをお勧めします。ブーストも実行されている場合は、30分のスキップを購入するのが最も一般的な選択肢です。

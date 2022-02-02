@@ -1,28 +1,28 @@
-## Gangs
-Gangs are a great way to join forces with your friends.  Members gain the ability to access gang headquarters, dungeons, and chat. Gangs can be created and joined once you're level 3.  Creating a gang costs 50,000BTC and then has a weekly upkeep fee of resources and BTC.  
+## Банды
+Банды - это отличный способ объединиться с друзьями.  Участники получают доступ к штаб-квартире банды, подземельям и чату. Банды можно создавать и вступать в них, как только вы достигнете 3-го уровня.  Создание банды стоит 50 000BTC, а затем еженедельно нужно платить за ее содержание ресурсами и BTC.  
 
-## Gang HQ
-The gang headquarters show your gang level, necessary upkeep, amount of members, and control over Shangri-La.  It also has new AFK tasks and an automatic recycler.  
+## Штаб-квартира банды
+Штаб-квартира банды показывает уровень вашей банды, необходимое содержание, количество членов и контроль над Шангри-Ла.  В ней также есть новые задания AFK и автоматический переработчик.  
 
-Gang level impacts how many members can be in a gang.  To level up, collect gang Exp with the AFK tasks 'Gather Gang Resource' and 'Decrypt Memory Shard'.  There is a leaderboard for gangs, ranked by level.
+Уровень банды влияет на то, сколько членов может быть в банде.  Чтобы повысить уровень, накопите опыт банды с помощью заданий AFK "Собрать ресурсы банды" и "Расшифровать осколок памяти".  Существует таблица лидеров для банд, ранжированных по уровню.
 
-There's a weekly upkeep due for all gangs. If the upkeep quota isn't met, the gang will be automatically disbanded.  Upkeep amounts are based on the number of members the gang has -- so the more members there are, the more resources and BitCoin are needed.  Minimize the amount of inactive players in your gang to keep upkeep goals lower.
+Для всех банд существует еженедельный сбор за содержание. Если квота (необходимый минимум) не будет выполнена, банда будет автоматически распущена.  Сумма взноса зависит от количества членов банды - чем больше членов, тем больше ресурсов и BTC требуется. Сведите к минимуму количество неактивных игроков в вашей банде, чтобы снизить квоту на содержание.
 
-Occupation gives gangs control over different areas of Shangri-La.  If a gang is in the top two gangs on the Occupation Leaderboard, those members have access to a task called 'Collect Protection Fees'.  Control is gained by performing the 'Reinforce Occupation at Shangri-La' task, which consumes one gang supply crate.  It is recommended to discuss with your gang whether you want to gather occupation points or not.
+Оккупация дает бандам контроль над различными районами Шангри-Ла.  Если банда занимает два первых места в таблице лидеров оккупации, ее члены получают доступ к заданию "Сбор платы за защиту".  Контроль можно получить, выполнив задание "Усилить оккупацию в Шангри-Ла", в ходе которого расходуется один ящик с припасами для банды.  Рекомендуется обсудить со своей бандой, хотите ли вы собирать очки оккупации или нет.
 
-The automatic recycler will break down various items like med tech or caches into tech scrap. This can be an efficient way to create tech scrap.  Each item that's being recycled has a different timer and tech scrap payout, so be sure to consider the return on tech scrap and time.  
+Автоматический переработчик разложит различные предметы, такие как медтехника или ящики, чертежи экипировки в металлолом. Это один из эффективных способов создания металлолома.  У каждого перерабатываемого предмета есть свое время переработки и количество получаемого металлолома, поэтому обязательно учитывайте соотношение цены и  затраченного времени. 
 
-The final AFK task available to gang members is 'Hack SL Data Fortress'.  This task uses Protocal Breach Shards to make progress on the SL-Data Fortress Breach.  Total progress can be seen in the Quest tab.  When a Breach has been completed, a global buff will go into effect.  
+Последнее задание AFK, доступное членам банды, — «Взлом Крепости Данных Шангри-Ла. В этом задании используются фрагменты взлома протокола, чтобы добиться прогресса во взломе Крепости Данных Шангри-Ла. Общий прогресс можно увидеть во вкладке «Квесты». Когда взлом завершен, вступает в силу глобальный бафф.
 
-## Gang Dungeons
-Gang dungeon consumes a Gang Invasion Order Transmitter when being created.  After the dungeon has been created, anyone in the gang can join, regardless of their level. Enemies are 4-5x stronger than regular enemies and give 2x the exp.  Bosses are guaranteed to drop a Rare Locked Container, Rare equipment, and some Gang Supply Crates.
+## Подземелья банды
+При создании подземелья банда расходует передатчик банде о вторжении.  После создания подземелья любой член банды может присоединиться к нему, независимо от своего уровня. Враги в 4-5 раз сильнее обычных врагов и дают в 2 раза больше опыта.  С боссов гарантированно выпадает редкий закрытый контейнер, редкое снаряжение и несколько ящиков с припасами для банды.
 
-As Gang Leader, you will have 3 additional options when visiting one of your gang members' profiles:
- - [KICK] - you can kick the gang member from the gang;
- - [PERMISSIONS] - here you can grant permissions to the gang member:
-   - Invite - it allows the gang member to invite other players to the gang;
-   - Kick  - it allows the gang member to kick other gang members;
-   - Manage - it allows the gang member to add or remove other gang members' permissions.
- - [TRANSFER LEADERSHIP] - you can set another gang member as the leader in case you don't want to be the leader anymore or want to leave the gang.
+Как лидер банды, у вас будет 3 дополнительные опции при посещении профиля одного из членов вашей банды:
+ - [Выгнать] - вы можете выгнать члена банды из банды;
+ - [Разрешения] - здесь вы можете предоставить права члену банды:
+   - Пригласить - позволяет члену банды приглашать других игроков в банду;
+   - Выгнать - позволяет члену банды кикать других членов банды;
+   - Управлять - позволяет члену банды добавлять или удалять разрешения других членов банды.
+ - [Передать лидерство] - вы можете назначить другого члена банды лидером, если вы больше не хотите быть лидером или хотите покинуть банду.
 
-Also as the Leader, in the Gang chat, if you click on the numbers of players in the gang on the top right, you will be able to [DELETE GANG] there.
+Также, как Лидер, в чате банды, если вы нажмете на количество игроков в банде справа вверху, вы сможете [УДАЛИТЬ БАНДУ].
