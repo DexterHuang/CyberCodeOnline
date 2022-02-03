@@ -1,250 +1,250 @@
-### What is this game, and what do I do?
-Basically you adventure around 'Train Stations' and either defeat individual enemies or conquer entire dungeons.
-You'll randomly receive items, equipment or caches after defeating enemies.
+### O que é esse jogo e o que eu faço?
+Basicamente, você se aventura em torno de 'Estações de trem' e derrota inimigos individuais ou conquista masmorras inteiras.
+Você receberá itens, equipamentos ou caches aleatoriamente após derrotar os inimigos.
 
-**You will receive BTC and EXP inside a battle, but items won't drop after every single battle.**
+**Você receberá BTC e EXP dentro de uma batalha, mas os itens não cairão após cada batalha.**
 
-### Is this game P2W (Pay-to-Win)?
-No. There's no element in this game that would benefit or offer additional advantages to some players over others.
+### Este jogo é P2W (Pay-to-Win)?
+Não. Não há nenhum elemento neste jogo que beneficie ou ofereça vantagens adicionais a alguns jogadores em relação a outros.
 
-The Transmitters sold in the Arasaka Unit Exchange have a global effect, which means once it is activated, all players on the server will benefit from the effect that it gives. Similarly, the Global Skips that can be purchased apply to all players who have started AFK tasks.
+Os Transmissores vendidos na Arasaka Unit Exchange têm um efeito global, o que significa que, uma vez ativado, todos os jogadores no servidor se beneficiarão do efeito que ele dá. Da mesma forma, os Saltos Globais que podem ser comprados se aplicam a todos os jogadores que iniciaram tarefas AFK.
 
-The developer intends to keep the game non-P2W into the future.
+O desenvolvedor pretende manter o jogo não-P2W no futuro.
 
-### How can I help out?
-All user-contributed content can be found on the [Github](https://github.com/DexterHuang/CyberCodeOnline).  
-Feel free to submit a PR (Pull Request).
+### Como posso ajudar?
+Todo o conteúdo de contribuição do usuário pode ser encontrado no [Github](https://github.com/DexterHuang/CyberCodeOnline).  
+Sinta-se à vontade para enviar um PR (Pull Request).
 
-### Does this game have any social media?
-Yes. You can find our community on [Discord](https://discord.link/cco) and on [Reddit](https://www.reddit.com/r/CyberCode_Online/).
+### Este jogo tem alguma rede social?
+Sim, você pode encontrar nossa comunidade em [Discord](https://discord.link/cco) e no [Reddit](https://www.reddit.com/r/CyberCode_Online/).
 
-The developer (DexterHuang) also has a [Patreon](https://www.patreon.com/cybercodeonline) for donations that will help support and maintain the game.
+O desenvolvedor (Dexter Huang) também tem um [Patreon](https://www.patreon.com/cybercodeonline) por doações que ajudarão a apoiar e manter o jogo.
 
-These social links can also be found by accessing ☰ and clicking on the chain link symbol on mobile or by accessing the respective platform icons on the left side of the web view.
+Esses links sociais também podem ser encontrados acessando ☰ e clicando no símbolo do elo da corrente no celular ou acessando os respectivos ícones da plataforma no lado esquerdo da visualização da web.
 
-### What programs or languages are being used for the creation of this game?
-CyberCode Online is a game developed using [ReactJS](https://reactjs.org/) with player contributions from [Github](https://github.com/DexterHuang/CyberCodeOnline).
+### Quais programas ou linguagens estão sendo usados para a criação deste jogo?
+CyberCode Online é um jogo desenvolvido usando [ReactJS](https://reactjs.org/) com contribuições de jogadores de [Github](https://github.com/DexterHuang/CyberCodeOnline).
 
-### Is the game translated in other languages?
-Yes. This game is currently translated in 15 languages.
+### O jogo está traduzido em outros idiomas?
+sim. Este jogo está atualmente traduzido em 15 idiomas.
 
-To change the language of the game,  
-go to Map and click on ⚙️.
+Para alterar o idioma do jogo,
+vá para Mapa e clique em ⚙️.
 
-Please notice that the translations might contain mistakes, be incomplete or some parts of the game might be completely untranslated.
-If the game is not translated in your language or you want to improve the current translations, please head out to our [Github](https://github.com/DexterHuang/CyberCodeOnline).
+Observe que as traduções podem conter erros, estar incompletas ou algumas partes do jogo podem estar completamente não traduzidas.
+Se o jogo não estiver traduzido em seu idioma ou você quiser melhorar as traduções atuais, acesse nosso [Github](https://github.com/DexterHuang/CyberCodeOnline).
 
-### Is there any customization in the game?
-You can have a custom profile picture in your profile, a Title and a coloured chat border, if you decide to subscribe to one of the 5 Donation Tiers available.
+### Existe alguma personalização no jogo?
+Você pode ter uma foto de perfil personalizada em seu perfil, um título e uma borda de bate-papo colorida, se decidir se inscrever em um dos 5 níveis de doação disponíveis.
 
-Elite Tier and higher, will have access to a bio on their profile and a barcode.  
+Elite Tier e superior, terão acesso a uma biografia em seu perfil e um código de barras.
 
-These benefits are purely cosmetic.
+Esses benefícios são puramente cosméticos.
 
-### Can I change my name?
-No, you can't change your name.  
-Your username is permanent for now.
+### Posso mudar meu nome?
+Não, você não pode mudar seu nome.
+Seu nome de usuário é permanente por enquanto.
 
-### How do I tag someone? Can I search the usernames of other people?
-You can tag and search for a user by typing @ in chat followed by their name (for example, type @DexterHuang).
+### Como faço para marcar alguém? Posso pesquisar os nomes de usuário de outras pessoas?
+Você pode marcar e pesquisar um usuário digitando @ no chat seguido de seu nome (por exemplo, digite @DexterHuang).
 
-They will show up even if they are not online and they will receive a notification.
+Eles aparecerão mesmo que não estejam online e receberão uma notificação.
 
-### Does the chat support emojis and kaomojis?
-Yup 🤠 ฅ^•ﻌ•^ฅ.
+### O chat suporta emojis e kaomojis?
+Sim 🤠 ฅ^•ﻌ•^ฅ.
 
-Please don't overuse or spam these, as this kind of practice is against the Chat Rules.
+Por favor, não use demais ou envie spam, pois esse tipo de prática é contra as Regras do Chat.
 
-### Does this game have PvP?
-No. PvP is not currently available in the game.
+### Este jogo tem PvP?
+Não. O PvP não está disponível no jogo no momento.
 
-### What is the fastest way to level up in this game?
-The fastest and best way to level up in this game is to have an Frontal Cortex Transmitter (XP booster) active and to complete challenge dungeons.
+### Qual é a maneira mais rápida de subir de nível neste jogo?
+A maneira mais rápida e melhor de subir de nível neste jogo é ter um Transmissor de Cortex Frontal (reforço de XP) ativo e completar as masmorras de desafio.
 
-### What will happen if I die?
-You will lose some of your experience and BTC (around 10%); however your inventory will be safe.
+### O que acontecerá se eu morrer?
+Você perderá parte da sua experiência e BTC (cerca de 10%); no entanto, seu inventário estará seguro.
 
-### Where is the Player Market?
-When your character reaches level 5, the player market will be unlocked.  
-It will show up as a new destination in the 'Central Hub'.
+### Onde fica o Mercado de Jogadores?
+Quando seu personagem atingir o nível 5, o mercado de jogadores será desbloqueado.
+Ele aparecerá como um novo destino no 'Central Hub'.
 
-### Does the game support trading among players?
-Yes, partially. You can send items to other players, but there isn't a system that forces the other person to give something in exchange. Most trades are conducted with trust.
+### O jogo suporta trocas entre jogadores?
+Sim, parcialmente. Você pode enviar itens para outros jogadores, mas não existe um sistema que obrigue a outra pessoa a dar algo em troca. A maioria das negociações são conduzidas com confiança.
 
-You can't gift BTC and key fragments to other players.
+Você não pode presentear BTC e fragmentos de chave para outros jogadores.
 
-Only healing items, ammo, materials, Hash Processors, Ai Cores and other types of items.
+Apenas itens de cura, munição, materiais, Hash Processors, Ai Cores e outros tipos de itens.
 
-### What should I do if my inventory is full?
-You can either scrap, destroy or store items in the bank located in the City Center. Note that the fee for each item you deposit in the bank is 100 BTC. It doesn't cost anything to take the item back out.
+### O que devo fazer se meu inventário estiver cheio?
+Você pode sucatear, destruir ou armazenar itens no banco localizado no centro da cidade. Observe que a taxa para cada item que você deposita no banco é de 100 BTC. Não custa nada retirar o item.
 
-You can also temporarily increase your inventory capacity with the 'Pocket' stat found on equipment and upgrade modules.
+Você também pode aumentar temporariamente sua capacidade de inventário com a estatística 'Pocket' encontrada em equipamentos e módulos de atualização.
 
-### How do I craft items?
-At the top of the Inventory page, you will find a tab called 'Crafting'.
+### Como faço para criar itens?
+No topo da página do Inventário, você encontrará uma guia chamada 'Crafting'.
 
-### Where can I get healing items?
-Healing items can be crafted, found when defeating an enemy or when looting a crate in a dungeon, or purchased at the Trinoky Mart in the City Center.  
-They can also be purchased from the Player Market.
+### Onde posso conseguir itens de cura?
+Itens de cura podem ser criados, encontrados ao derrotar um inimigo ou ao saquear uma caixa em uma masmorra, ou comprados no Trinoky Mart no centro da cidade.
+Eles também podem ser comprados no Player Market.
 
-### How do I use my healing items?
-To equip and use your healing items, go to your inventory and under your equipment you will find 3 'Quick Slots'.  
-Click on one of them and assign your desired healing item to it.  
-Healing items can be used only inside dungeons.  
+### Como uso meus itens de cura?
+Para equipar e usar seus itens de cura, vá ao seu inventário e sob seu equipamento você encontrará 3 'Slots Rápidos'.
+Clique em um deles e atribua o item de cura desejado a ele.
+Itens de cura só podem ser usados dentro de masmorras.
 
-### Why can't I use my Special and Destructive weapons?
-These weapons require ammo. Special weapons uses Energy Cells and Destructive weapons use Anti-Matter Charges.  
-Ammo can be looted form enemies, crafted in your Inventory, or bought on the player market. 
+### Por que não posso usar minhas armas especiais e destrutivas?
+Essas armas requerem munição. Armas especiais usam células de energia e armas destrutivas usam cargas de antimatéria.
+A munição pode ser saqueada de inimigos, criada em seu inventário ou comprada no mercado de jogadores.
 
-### Can I upgrade the stats of my weapons and armour?
-Yes, you can upgrade your weapons at the Calibration Station found in your main map.  The Calibration Station requires an Equiptment Calibration Core.
-Calibration has a chance of destruction, so be on the lookout for Calibration buffs which lower destruction chance.
+### Posso atualizar as estatísticas das minhas armas e armaduras?
+Sim, você pode atualizar suas armas na Estação de Calibração encontrada em seu mapa principal. A estação de calibração requer um núcleo de calibração de equipamento.
+A calibração tem uma chance de destruição, então fique atento aos buffs de calibração que diminuem a chance de destruição.
 
-### What does "Quality" on weapons and armor means?
-The quality of the armor will contribute a lot on the stat it gives; the higher the quality, the better the stats.
-Quality tiers go from Trash > Common > High Quality > Rare > Legendary > Epic.
-You cannot change the Quality of a weapon or armor.
+### O que significa "Qualidade" em armas e armaduras?
+A qualidade da armadura contribuirá muito no stat que ela dá; quanto maior a qualidade, melhores as estatísticas.
+Os níveis de qualidade vão de Lixo > Comum > Alta Qualidade > Raro > Lendário > Épico.
+Você não pode alterar a Qualidade de uma arma ou armadura.
 
-### What does "Durability" on weapons and armor means?
-Durability is the ability of an equipment to remain functional, without requiring excessive maintenance or repair, when faced with the challenges of normal operation over it's designed lifetime. (Wikipedia).  Durability only decreases when fighting Nearby Enemies.  Durability is not impacted when fighting in dungeons.
+### O que significa "Durabilidade" em armas e armaduras?
+Durabilidade é a capacidade de um equipamento permanecer funcional, sem exigir manutenção ou reparos excessivos, quando confrontado com os desafios da operação normal ao longo de sua vida útil projetada. (Wikipédia). A durabilidade só diminui ao lutar contra inimigos próximos. A durabilidade não é afetada ao lutar em masmorras.
 
-### How do I repair my equipment's durability?
-You can repair your equipment by paying a small amount of BTC at the Weapon Shop located in the City Center.
+### Como faço para reparar a durabilidade do meu equipamento?
+Você pode consertar seu equipamento pagando uma pequena quantia de BTC na Loja de Armas localizada no Centro da Cidade.
 
-### Can I remove installed upgrade modules?
-Yes. Click on the installed upgrade module to remove it from the equipment.
+### Posso remover os módulos de atualização instalados?
+sim. Clique no módulo de atualização instalado para removê-lo do equipamento.
 
-### Why is the equipment I print the wrong level?
-Your printed gear will have the same level as the one from your 'Printing Rank'. It does not scale with player level.
+### Por que o equipamento que eu imprimo está no nível errado?
+Seu equipamento impresso terá o mesmo nível do seu 'Nível de impressão'. Não escala com o nível do jogador.
 
-### How do I increase my printing rank?
-There are 3 ways to increase your printing rank.
+### Como faço para aumentar minha classificação de impressão?
+Existem 3 maneiras de aumentar sua classificação de impressão.
 
-1. Print caches at the 3D Printing Module. Each cache you print gives you printing exp. Trash caches are the cheapest to print and the printed gear can be scrapped for Tech Scrap.
+1. Imprima caches no Módulo de Impressão 3D. Cada cache que você imprime lhe dá exp de impressão. Caches de lixo são os mais baratos para imprimir e os equipamentos impressos podem ser descartados para o Sucatas de Tecnologia.
 
-2. AFK Printing Training. There is an AFK job in the Commercial Area called 'Work in Printing Factory' that gives you printing exp.
+2. Treinamento de impressão AFK. Existe um trabalho AFK na Área Comercial chamado 'Work in Printing Factory' que lhe dá exp de impressão.
 
-3. Reverse engineering Tech Scraps. In the Commercial Area there is a short AFK job called 'Reverse Engineer Scraps' which uses Tech Scraps to increase your printing rank. This is the fastest way to increase your rank. 
+3. Resíduos de tecnologia de engenharia reversa. Na Área Comercial há um pequeno trabalho AFK chamado 'Reverse Engineer Scraps' que usa Sucatas de Tecnologia para aumentar sua classificação de impressão. Esta é a maneira mais rápida de aumentar sua classificação.
 
-### What are caches and what should I do with them?
-You can use them to craft equipment at the Molecular 3D Printer.  It is not recommended to scrap your caches because they are more valuable to print or sell.
+### O que são caches e o que devo fazer com eles?
+Você pode usá-los para criar equipamentos na Molecular 3D Printer. Não é recomendado sucatear seus caches porque eles são mais valiosos para imprimir ou vender.
 
-### Do caches scale with my level? Should I keep them for later?
-The caches you print scale with your Printing Rank.
-The gear that you obtain from them will always have the same level as your Printing Rank. Make sure to level your Printing Rank to your current player level to always receive the best equipment possible from printing.
+### Os caches são dimensionados com o meu nível? Devo guardá-los para mais tarde?
+Os caches que você imprime são dimensionados com sua Classificação de impressão.
+O equipamento que você obtém deles sempre terá o mesmo nível do seu Rank de Impressão. Certifique-se de nivelar sua classificação de impressão para o seu nível de jogador atual para sempre receber o melhor equipamento possível da impressão.
 
-It doesn't matter if you print your caches now or later, but it's recommended to keep your Legendary caches for levels 30-40+.  If you happen to find an Epic cache, hold onto it until level 100+.
-Legendary and Epic caches are much more expensive to craft than Rare ones, but the items have much better stats.  Higher quality items can last you for a long time, and are often worth calibrating at the Calibration Station.
+Não importa se você imprime seus caches agora ou depois, mas é recomendável manter seus caches lendários para os níveis 30-40+. Se você encontrar um cache épico, segure-o até o nível 100+.
+Caches lendários e épicos são muito mais caros para criar do que os raros, mas os itens têm estatísticas muito melhores. Itens de maior qualidade podem durar muito tempo e geralmente vale a pena calibrar na estação de calibração.
 
-### Will higher level enemies give more rewards?
-Yes. Higher level enemies give you more BTC and experience after you defeat them.
+### Os inimigos de nível mais alto darão mais recompensas?
+sim. Inimigos de nível mais alto oferecem mais BTC e experiência depois de derrotá-los.
 
-### What are Locked Containers and how do I unlock them?
-Locked containers (✧) can be found and picked up from dungeons. They can be unlocked using Tech Scraps at the Terminal in the main HUB, and contain various rewards ranging from Tech Scrap to Legendary gear.
+### O que são Contêineres Bloqueados e como faço para desbloqueá-los?
+Recipientes trancados (✧) podem ser encontrados e recolhidos nas masmorras. Eles podem ser desbloqueados usando Sucatas de Tecnologia no Terminal no HUB principal e contêm várias recompensas que variam de Sucatas de Tecnologia a equipamentos lendários.
 
-Tech scrap costs for opening the containers are 32 Tech Scrap for common containers, 64 for rare containers, and 128 for legendary ones.
+Os custos de sucata tecnológica para abrir os contêineres são 32 sucata tecnológica para contêineres comuns, 64 para contêineres raros e 128 para contêineres lendários.
 
-If you don't see the option for unlocking the container at the Terminal, it means you do not have enough Tech Scraps.
+Se você não vir a opção de desbloquear o contêiner no Terminal, isso significa que você não tem Sucatas de Tecnologia suficientes.
 
-### What is BitCoin (BTC) and how do I redeem it?
-BitCoin (BTC) is the game's currency.  Your in game BitCoin isn't the same as the one from the real world. If it was, we would all be richer than Elon Musk!
+### O que é BitCoin (BTC) e como resgatá-lo?
+BitCoin (BTC) é a moeda do jogo. Seu BitCoin no jogo não é o mesmo que o do mundo real. Se fosse, todos seríamos mais ricos que Elon Musk!
 
-### How do I get more BitCoins?
-BitCoin is obtained when defeating enemies, selling items in the Player Market, and by mining with Hash Processors.  Hash Processors are found in dungeons and may be usd to mine BitCoin at the [Job Hub].
+### Como consigo mais BitCoins?
+O BitCoin é obtido ao derrotar inimigos, vender itens no Player Market e minerar com Hash Processors. Processadores de hash são encontrados em masmorras e podem ser usados para minerar BitCoin no [Centro de Trabalho].
 
-### What is Street Cred?
-Street Cred (Street Credit) is a way to appreciate someone you like or who has helped you. They are similar to "Karma" points on Reddit.
+### O que é Street Cred?
+Street Cred (Crédito de Rua) é uma forma de apreciar alguém que você gosta ou que o ajudou. Eles são semelhantes aos pontos "Karma" no Reddit.
 
-You can give 1 Street Cred per day. To give Street Cred, go to the person's profile, scroll down to 'Player Actions' and click on [GIVE STREET CRED] located under [ADD TO FRIEND LIST].
+Você pode dar 1 Street Cred por dia. Para dar Street Cred, vá ao perfil da pessoa, role para baixo até 'Player Actions' e clique em [GIVE STREET CRED] localizado em [ADICIONAR À LISTA DE AMIGOS].
 
-Consider giving some Street Credit to the people that contributed to this game! You can view the list at Profile - > Credits.
+Considere dar algum crédito de rua para as pessoas que contribuíram para este jogo! Você pode ver a lista em Perfil -> Créditos.
 
-### What are Gangs and how do I create one?
-Gangs are similar to guilds or clans in other MMORPGs.  Joining a gang gives you access to new AFK tasks, a recycler to make tech scrap, and gang chat!  You also gain access to gang dungeons, which have a high level of difficulty but greater rewards than the regular dungeons.
+### O que são gangues e como crio uma?
+As gangues são semelhantes às guildas ou clãs em outros MMORPGs. Juntar-se a uma gangue dá acesso a novas tarefas AFK, um reciclador para fazer sucata de tecnologia e bate-papo de gangue! Você também ganha acesso a masmorras de gangues, que têm um alto nível de dificuldade, mas recompensas maiores do que as masmorras normais.
 
-You can create one by selecting the Gang chat.  The cost to create a gang is 50,000 BTC.  Gangs have a weekly upkeep cost that must be met to avoid being disbanded. Gangs allow you to have a tag of 3 letters, chosen when the gang was created, in your chat border.
+Você pode criar um selecionando o bate-papo do grupo. O custo para criar uma gangue é de 50.000 BTC. As gangues têm um custo de manutenção semanal que deve ser pago para evitar ser dissolvida. As gangues permitem que você tenha uma tag de 3 letras, escolhida quando a gangue foi criada, na borda do seu chat.
 
-### How do I search for a Gang? How do I join one?
-Currently, you can't see a list of gangs in the game.
-You can join one by creating it yourself or by receiving an invite from a gang.
+### Como faço para procurar uma gangue? Como faço para participar de um?
+Atualmente, você não pode ver uma lista de gangues no jogo.
+Você pode participar de um criando você mesmo ou recebendo um convite de uma gangue.
 
-### Can I rename my Gang? Can I have the same tag as another Gang has?
-Currently, you can't rename your own gang.
-It's forbidden to have the same tag as other gangs.
-All gangs should have different tags in order to avoid confusion.
+### Posso renomear minha gangue? Posso ter a mesma tag que outra Gang tem?
+Atualmente, você não pode renomear sua própria gangue.
+É proibido ter a mesma tag que outras gangues.
+Todas as gangues devem ter etiquetas diferentes para evitar confusão.
 
-### How can I level up my gang?
-To be able to maintain your gang and to level it up, each member of the gang will have to gather resources (through an AFK task in the Gang Headquarters) and will also have to donate bitcoins to it.
+### Como posso subir de nível na minha gangue?
+Para poder manter sua gangue e subir de nível, cada membro da gangue terá que coletar recursos (através de uma tarefa AFK na sede da gangue) e também terá que doar bitcoins para ela.
 
-### Where are the Gang Headquarters (HQ)? What can I do there?
-Gang HQ is located in the main HUB, under [Player Market].  At the Gang HQ you're able to donate bitcoin, gather resources, and do a varitety of AFK tasks.
+### Onde fica a Sede da Gangue (HQ)? O que posso fazer lá?
+Gang HQ está localizado no HUB principal, em [Player Market]. No Gang HQ, você pode doar bitcoin, reunir recursos e realizar uma variedade de tarefas AFK.
 
-### What are the symbols in dungeons?
-- "?" represents a quest. You can access accepted quests in your Quest tab.
-- "!" represents lore.
-- Crates are represented by small white boxes.  
-- Crates that have a "+" inside them contain key fragments.
-- The yellow ✧ contains a locked container.
-- The alien looking icons represent monsters inside the dungeon.
+### Quais são os símbolos nas masmorras?
+- "?" representa uma busca. Você pode acessar as missões aceitas na guia Quest.
+- "!" representa a sabedoria.
+- As caixas são representadas por pequenas caixas brancas.
+- As caixas que têm um "+" dentro delas contêm fragmentos de chave.
+- O ✧ amarelo contém um contêiner trancado.
+- Os ícones de aparência alienígena representam monstros dentro da masmorra.
 
-### What are Public and Private Dungeons? What are Password Protected Dungeons?
-When creating a dungeon, it will default to Public.  This means that anyone can see and join your dungeon as long as they meet the level requirements. If you make your dungeon Private, it will be invisible and inaccessible to other players.
+### O que são Masmorras Públicas e Privadas? O que são Masmorras Protegidas por Senha?
+Ao criar uma masmorra, o padrão será Público. Isso significa que qualquer pessoa pode ver e entrar em sua masmorra, desde que atenda aos requisitos de nível. Se você tornar sua masmorra Privada, ela ficará invisível e inacessível para outros jogadores.
 
-You may also create a password for your dungeon so that it is only accessible by users who know the password.
+Você também pode criar uma senha para sua masmorra para que ela seja acessível apenas por usuários que conheçam a senha.
 
-### People are looting my stuff. Help!
-The loot in the crates is randomly generated for each player. Therefore, it's impossible for someone to steal your loot.
+### As pessoas estão saqueando minhas coisas. Ajuda!
+O saque nas caixas é gerado aleatoriamente para cada jogador. Portanto, é impossível alguém roubar seu saque.
 
-### What are Tech Scraps?
-Tech Scraps are resources obtained from scrapping caches and printed gear.  They can also be generated at with the Gang Recycler.
+### O que são sucatas de tecnologia?
+ Sucatas de Tecnologia são recursos obtidos de caches de sucata e equipamentos impressos. Eles também podem ser gerados com o Gang Recycler.
 
-They can be used to level up Printing Rank faster, craft Ai Cores and Hash Processors, and to open Locked Containers.
+Eles podem ser usados para aumentar o nível de impressão mais rapidamente, criar núcleos Ai e processadores de hash e abrir contêineres bloqueados.
 
-The best way to get Tech Scrap is to mass print Trash Caches or Common Caches and then mass scrap the obtained gear.
+A melhor maneira de obter Sucatas de Tecnologia é imprimir em massa Caches de Lixo ou Caches Comuns e depois descartar em massa o equipamento obtido.
 
-### What are AI Cores?
-AI Cores are items required to AFK farm dungeons.  AFK farming provides EXP, items, and a small amount of BTC. AI cores can be acquired as drops or crafted from Hash Processors.
+### O que são Núcleos de IA?
+AI Cores são itens necessários para as masmorras da fazenda AFK. A agricultura AFK fornece EXP, itens e uma pequena quantidade de BTC. Os núcleos de IA podem ser adquiridos como drops ou criados a partir de processadores de hash.
 
-### What are Hash Processors?
-Hash Processors ('hash' for short) are items that are required to activate an AFK job that yields high amounts of BTC (BitCoin). They drop from normal and challenge dungeons.
+### O que são processadores de hash?
+Processadores de hash ('hash' para abreviar) são itens necessários para ativar um trabalho AFK que produz grandes quantidades de BTC (BitCoin). Eles caem de masmorras normais e desafiadoras.
 
-### What are Gang Memory Shards?
-Upon deciphering them, these items will give you a random cache, along with mining and gang experience.
+### O que são fragmentos de memória de gangue?
+Ao decifrá-los, esses itens fornecerão um cache aleatório, juntamente com experiência de mineração e gangue.
 
-### What are Gang Invasion Order Transmitters?
-Gang invasion transmitters are special items that drop from the boss in challenge dungeons.
-They are required to open a Gang Dungeon.
+### O que são Transmissores de Ordem de Invasão de Gangues?
+Transmissores de invasão de gangues são itens especiais que caem do chefe em masmorras de desafio.
+Eles são obrigados a abrir um Gang Dungeon.
 
-### What are Transmitters?
-These are special items that can be bought with Units (premium currency) and provide global benefits to all players on the server.  Their effects range from reducing the time on AFK job or activities to increasing BTC or EXP gain. These are untradeable.
+### O que são transmissores?
+São itens especiais que podem ser comprados com Unidades (moeda premium) e proporcionam benefícios globais a todos os jogadores do servidor. Seus efeitos variam desde a redução do tempo no trabalho ou atividades do AFK até o aumento do ganho de BTC ou EXP. Estes são inegociáveis.
 
-There are also normal transmitters that drops from dungeons, but are less effective than the paid version.
+Existem também transmissores normais que caem das masmorras, mas são menos eficazes que a versão paga.
 
-### What are Equipment Calibration Cores?
-Equipment Calibration Cores are used at the Calibration Station to upgrade your gear.
+### O que são Núcleos de Calibração de Equipamentos?
+Os Núcleos de Calibração de Equipamentos são usados na Estação de Calibração para atualizar seu equipamento.
 
-### What are Calibration AI Shards?
-These items offers a stackable buff that increase the chance of success when calibrating.
+### O que são fragmentos de IA de calibração?
+Esses itens oferecem um bônus empilhável que aumenta a chance de sucesso ao calibrar.
 
-### What's the benefit of leveling my crafting skills?
-Your crafting skills allow you to create useful consumables, including medicine and ammo.
-Higher levels allow you to craft more types of items and also craft more efficiently. For example, higher-level healing items will heal for more health.
+### Qual é o benefício de nivelar minhas habilidades de artesanato?
+Suas habilidades de artesanato permitem que você crie consumíveis úteis, incluindo remédios e munição.
+Níveis mais altos permitem que você crie mais tipos de itens e também crie com mais eficiência. Por exemplo, itens de cura de nível superior irão curar por mais saúde.
 
-### How do I increase my Scavenge Skill?
-In every area with enemies, there is an action called AFK Resource Gather near the bottom of the list, under the dungeon selections.
-You'll need to increase your scavenging level starting from earlier train stations (Level 1 - 4) before being able to scavenge at higher level sites.
+### Como faço para aumentar minha habilidade de coleta?
+Em todas as áreas com inimigos, há uma ação chamada AFK Resource Gather perto do final da lista, nas seleções de masmorras.
+Você precisará aumentar seu nível de coleta a partir de estações de trem anteriores (Níveis 1 - 4) antes de poder limpar em locais de nível mais alto.
 
-### What's mining and how do I increase my mining skill?
-Mining is the skill that allows you to farm BTC (BitCoin). It also allows you to craft AI Cores.
-To mine, you need to have Hash Processors which drop from dungeons.
-If you want to start mining, simply go to the [Job Hub] and scroll down until you see the option to mine.
-You also receive mining experience when gather resources for your gang.
+### O que é mineração e como faço para aumentar minha habilidade de mineração?
+A mineração é a habilidade que permite farmar BTC (BitCoin). Também permite criar núcleos de IA.
+Para minerar, você precisa ter processadores de hash que caem das masmorras.
+Se você quiser começar a minerar, basta acessar o [Centro de Trabalho] e rolar para baixo até ver a opção de minerar.
+Você também recebe experiência de mineração ao coletar recursos para sua gangue.
 
-### What is the Gear Score?
-Gear Score is the average level of the equipment you wear. This is calculated by averaging every non-weapon gear you have equipped, plus the highest level weapon you have (excluding destructive).
+### Qual é a pontuação do equipamento?
+Gear Score é o nível médio do equipamento que você usa. Isso é calculado pela média de todos os equipamentos que não são armas que você equipou, mais a arma de nível mais alto que você possui (excluindo destrutiva).
 
-### What is the Pocket Stat?
-Pockets increase your inventory size. 1 pocket means 1 additional inventory slot.
+### O que é o Pocket Stat?
+Os bolsos aumentam o tamanho do seu inventário. 1 bolso significa 1 slot de inventário adicional.
 
-### What is the Bargain Stat?
-Bargain gives you better deals at the Weapon Smith and Trinoky Mart, which can be found in the Central Hub. You can both sell and buy your items for better prices.
+### O que é a estatística de barganha?
+Barganhar oferece melhores ofertas no Armeiro e no Trinoky Mart, que podem ser encontrados no Hub Central. Você pode vender e comprar seus itens por preços melhores.
