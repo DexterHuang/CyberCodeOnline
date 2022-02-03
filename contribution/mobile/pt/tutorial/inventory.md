@@ -1,46 +1,46 @@
-## Inventory
+## Inventário
 
-You can access your inventory by clicking the option at the bottom menu bar. In your inventory, you can see all items that you own, including equipment, upgrade modules, ammo, medical items, secret keys, caches, and other consumables. By clicking on the item, you can see the details of that item.  
+Você pode acessar seu inventário clicando na opção na barra de menu inferior. Em seu inventário, você pode ver todos os itens que possui, incluindo equipamentos, módulos de atualização, munição, itens médicos, chaves secretas, caches e outros consumíveis. Ao clicar no item, você pode ver os detalhes desse item.
 
-You can choose to equip gear by choosing the equip button. Equipped gear will be highlighted at the top of the inventory page. By clicking on gears, you can also choose to install upgrade modules that will enhance certain values of that item.
+Você pode escolher equipar equipamentos escolhendo o botão equipar. O equipamento equipado será destacado na parte superior da página do inventário. Ao clicar nas engrenagens, você também pode optar por instalar módulos de atualização que aprimorarão determinados valores desse item.
 
-To remove installed upgrade modules, simply click on the installed module. Better quality equipment have more upgrade module slots.
+Para remover os módulos de atualização instalados, basta clicar no módulo instalado. Equipamentos de melhor qualidade têm mais slots de módulo de atualização.
 
-## Items in your Inventory
+## Itens em seu inventário
 
-Your caches in your inventory can be consumed to print gear using the Molecular 3D Printer in the City Center.  
+Seus caches em seu inventário podem ser consumidos para imprimir equipamentos usando a Molecular 3D Printer no Centro da Cidade.
 
-Medical items can be consumed in dungeons to regenerate health (your character will not automatically regenerate health in dungeons as they would after normal battles in a train station).  
+Itens médicos podem ser consumidos nas masmorras para regenerar a saúde (seu personagem não irá regenerar automaticamente a saúde nas masmorras como faria após as batalhas normais em uma estação de trem).
 
-Ammo can be used to perform special attacks and destructive attacks during combat.
+A munição pode ser usada para realizar ataques especiais e ataques destrutivos durante o combate.
 
-Locked containers (✧) can be found in dungeons and can be unlocked using Tech Scraps at the Terminal in the main HUB.  
-Depending on the quality of the locked container, the amount of Tech Scrap needed for unlocking it may be greater; the required Tech Scraps start at 32. If you don't see the option for unlocking the container at the Terminal, it means you do not have enough Tech Scraps.
+Recipientes trancados (✧) podem ser encontrados em masmorras e podem ser desbloqueados usando Sucata de Tecnologia no Terminal no HUB principal.
+Dependendo da qualidade do container bloqueado, a quantidade de Sucata de Tecnologia necessária para desbloqueá-lo pode ser maior; os Sucata de Tecnologia necessários começam em 32. Se você não vir a opção para desbloquear o contêiner no Terminal, isso significa que você não tem Sucata de Tecnologia suficientes.
 
-Secret key fragments that you obtained in special dungeon chests can be merged into a secret key by brute-forcing it at the Terminal. Secret keys will grant you access to higher level enemy areas and dungeons.  
+Fragmentos de chave secreta que você obteve em baús de masmorras especiais podem ser fundidos em uma chave secreta forçando-a no Terminal. Chaves secretas lhe darão acesso a áreas e masmorras inimigas de nível mais alto.
 
-Other consumables, such as Hash Processors and AI Cores, can be used to perform AFK tasks.
+Outros consumíveis, como processadores de hash e núcleos de IA, podem ser usados para executar tarefas AFK.
 
-Learn more about all the different types of resources in the Resources Tutorial.
+Saiba mais sobre todos os diferentes tipos de recursos no Tutorial de Recursos.
 
-## Functions in your Inventory
+## Funções em seu inventário
 
-By clicking the icons above your inventory list, you can filter out specific items. You will start with 50 empty slots; equipping gear with the **pocket** stat will give you more inventory space. To get rid of equipment and upgrade modules, you can click on the item itself and then on the **SCRAP** button. Alternatively, you can hold click on one item, select every item you want to scrap, then press the **SCRAP** button that will appear at the top left of the item list. Every item scrapped will give you Tech Scrap. To get rid of other items that are not scrappable, you can click on the **DESTROY** button. Destroyed items will not give you anything in return, so be cautious when performing this action.  
+Ao clicar nos ícones acima da sua lista de inventário, você pode filtrar itens específicos. Você começará com 50 slots vazios; equipar equipamentos com a estatística **bolso** lhe dará mais espaço no inventário. Para se livrar de equipamentos e módulos de atualização, você pode clicar no próprio item e depois no botão **SUCATEAR**. Como alternativa, você pode clicar em um item, selecionar todos os itens que deseja descartar e pressionar o botão **SUCATEAR** que aparecerá no canto superior esquerdo da lista de itens. Cada item sucateado lhe dará Sucata de Tecnologia. Para se livrar de outros itens que não podem ser descartados, você pode clicar no botão **DESTRUIR**. Itens destruídos não lhe darão nada em troca, então seja cauteloso ao realizar esta ação.
 
-## Item Inbox
+## Caixa de entrada de itens
 
-Items that other players send will be automatically placed in your item inbox. Once you have enough space in your inventory, they will be moved automatically to your inventory. There is sometimes a delay before this happens.
+Itens que outros jogadores enviarem serão automaticamente colocados na sua caixa de entrada de itens. Quando você tiver espaço suficiente em seu inventário, eles serão movidos automaticamente para seu inventário. Às vezes há um atraso antes que isso aconteça.
 
-## Crafting
+## Construindo
 
-This tab in your inventory allows you to craft different types of items: medicine, ammo, Hash Processors and AI Cores.  
+Esta guia em seu inventário permite que você crie diferentes tipos de itens: remédios, munição, processadores de hash e núcleos de IA.
 
-Medical crafting uses medical tech parts.  
+O artesanato médico usa peças de tecnologia médica.
 
-Ammo crafting can use either ammunition tech parts (for Energy Cells) or military ammunition tech parts (for Anti Matter Charges).
+A fabricação de munição pode usar peças de tecnologia de munição (para células de energia) ou peças de tecnologia de munição militar (para cargas antimatéria).
 
-Hash Processors use military ammunition tech parts, medical tech parts and Tech Scraps.  
+Os processadores de hash usam peças de tecnologia de munição militar, peças de tecnologia médica e sucatas de tecnologia.
 
-AI Cores use Hash Processors and Tech Scraps.  
+Os núcleos de IA usam processadores de hash e sucatas de tecnologia.
 
-As you level up the relevant skills (medical science, ammo crafting, and mining), you will unlock new recipes and become more proficient, allowing you to craft more and better items.
+À medida que você aumenta o nível das habilidades relevantes (ciência médica, fabricação de munição e mineração), você desbloqueia novas receitas e se torna mais proficiente, permitindo criar mais e melhores itens.
