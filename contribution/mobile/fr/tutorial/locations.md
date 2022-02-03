@@ -33,7 +33,7 @@ Vous pouvez également réparer vos objets ici. Plus vous utilisez votre équipe
 Ici, vous pouvez acheter des articles médicaux avec des BTC. Les prix sont complètement séparés du marché des joueurs, alors assurez-vous de vérifier les deux !
 
 ## Terminal
-![Terminal](/ressources/tutoriel-mobile/Terminal.png)
+![Terminal](/resources/mobile-tutorial/Terminal.png)
 Le terminal est utilisé pour fusionner des fragments de clé en clés secrètes pour déverrouiller les gares de niveau supérieur.
 
 Ici, vous pouvez également déverrouiller des conteneurs verrouillés (trouvés dans les donjons) avec les Débris Technologiques que vous avez.
@@ -57,7 +57,7 @@ Dans chaque station, vous pouvez également utiliser vos Noyaux IA pour farmer d
 À cet endroit, vous pouvez rechercher des emplois pour augmenter votre rang d'impression, vos niveaux de fabrication de munitions / médicales et votre niveau de compétence minière. Chaque travail (activité AFK) contient des détails sur ce que vous pouvez accomplir avec.
 
 ## Marché aux puces de Shangri-La
-![Marché de rue](/ressources/tutoriel-mobile/Shangri-LaMarketStreet.png)
+![Street Market](/resources/mobile-tutorial/Shangri-LaMarketStreet.png)  
 Ici, vous pouvez vendre et acheter des objets à d'autres joueurs dans le jeu pour des BTC.
 
 Gardez à l'esprit que chaque fois que vous souhaitez vendre ou acheter un article sur le marché, vous devrez remplir un captcha de 4 chiffres.

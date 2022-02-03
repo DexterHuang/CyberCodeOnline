@@ -1,46 +1,46 @@
-## Inventory
+## インベントリ
 
-You can access your inventory by clicking the option at the bottom menu bar. In your inventory, you can see all items that you own, including equipment, upgrade modules, ammo, medical items, secret keys, caches, and other consumables. By clicking on the item, you can see the details of that item.  
+下のメニューバーから「インベントリ」をタップすると、インベントリにアクセスできます。インベントリには、装備品/アップグレードモジュール/弾薬/医療品/シークレットキー/キャッシュ/その他の消耗品など、所有しているすべてのアイテムが表示されます。アイテムをクリックすると、そのアイテムの詳細が表示されます。
 
-You can choose to equip gear by choosing the equip button. Equipped gear will be highlighted at the top of the inventory page. By clicking on gears, you can also choose to install upgrade modules that will enhance certain values of that item.
+装備ボタンを選択することで、ギアを装備することができます。装備したギアは、インベントリページの上部にハイライト表示されます。また、ギアをタップするとそのアイテムの特定の値を強化するアップグレードモジュールを装着することができます。
 
-To remove installed upgrade modules, simply click on the installed module. Better quality equipment have more upgrade module slots.
+装着されているアップグレードモジュールを取り外すには、現在装着しているモジュールをタップするだけです。レアリティの高いギアほど、アップグレードモジュールのスロットが多くなっています。
 
-## Items in your Inventory
 
-Your caches in your inventory can be consumed to print gear using the Molecular 3D Printer in the City Center.  
+## インベントリ内のアイテム
 
-Medical items can be consumed in dungeons to regenerate health (your character will not automatically regenerate health in dungeons as they would after normal battles in a train station).  
+シティセンターにある「分子合成式3Dプリンタ」では、インベントリにある「キャッシュ」を消費してレアリティに応じたギアを作成することができます。  
 
-Ammo can be used to perform special attacks and destructive attacks during combat.
+医療アイテムはダンジョン内で消費して体力を回復させることができます。（ダンジョン内では、駅での通常の戦闘（近くの敵）後のようにキャラクターが自動的に体力を回復することはありません）
+弾薬は、戦闘中に特殊な攻撃や破壊的な攻撃を行うために使用することができます。
 
-Locked containers (✧) can be found in dungeons and can be unlocked using Tech Scraps at the Terminal in the main HUB.  
-Depending on the quality of the locked container, the amount of Tech Scrap needed for unlocking it may be greater; the required Tech Scraps start at 32. If you don't see the option for unlocking the container at the Terminal, it means you do not have enough Tech Scraps.
+取得した鍵のかかったコンテナ（ダンジョン内:✧）は、シティセンターのターミナルで「テックスクラップ」を使って解除することができます。  
+ロックされているコンテナの品質によっては、ロック解除に必要な「テックスクラップ」の量が多くなります。必要な「スクラップ」は最低32個からです。ターミナルにロック解除のオプションが表示されていない場合は、「テックスクラップ」が不足していることを意味します。
 
-Secret key fragments that you obtained in special dungeon chests can be merged into a secret key by brute-forcing it at the Terminal. Secret keys will grant you access to higher level enemy areas and dungeons.  
+特別なダンジョンチェストで入手したシークレットキーの断片は、ターミナルでブルートフォースすることでシークレットキーに合体させることができます。シークレットキーを使用すると、より高いレベルの敵エリアやダンジョンにアクセスできるようになります。 
 
-Other consumables, such as Hash Processors and AI Cores, can be used to perform AFK tasks.
+その他、ハッシュプロセッサーやAIコアなどの消耗品は、AFKタスクの実行に使用することができます。
 
-Learn more about all the different types of resources in the Resources Tutorial.
+さまざまな種類のリソースについて詳しくは、リソースチュートリアルをご覧ください。
 
-## Functions in your Inventory
+## インベントリの機能
 
-By clicking the icons above your inventory list, you can filter out specific items. You will start with 50 empty slots; equipping gear with the **pocket** stat will give you more inventory space. To get rid of equipment and upgrade modules, you can click on the item itself and then on the **SCRAP** button. Alternatively, you can hold click on one item, select every item you want to scrap, then press the **SCRAP** button that will appear at the top left of the item list. Every item scrapped will give you Tech Scrap. To get rid of other items that are not scrappable, you can click on the **DESTROY** button. Destroyed items will not give you anything in return, so be cautious when performing this action.  
+インベントリリスト上部にあるアイコンをクリックすることで、特定のアイテムを絞り込むことができます。**ポケット**のステータスを持つ装備を装備すると、より多くのインベントリスペースが与えられます。必要ない装備品やアップグレードモジュールを取り除くには、アイテムをタップし、次に**スクラップ**ボタンをタップしましょう。 または、1つの項目を長押し（ホールドタップ）して、スクラップにしたいアイテムをすべて選択し、アイテムリストの左上に表示される**スクラップ**ボタンを押すことでも可能です。 アイテムをスクラップするごとに、テックスクラップがもらえます。スクラップ不可のアイテムは、**破壊する**ボタンをタップすることで処分することができます。破壊されたアイテムは見返りがありませんので慎重に操作してください。 
 
-## Item Inbox
+## アイテム受信箱
 
-Items that other players send will be automatically placed in your item inbox. Once you have enough space in your inventory, they will be moved automatically to your inventory. There is sometimes a delay before this happens.
+他のプレイヤーが送ったアイテムは、自動的にあなたのアイテム受信箱に置かれます。インベントリに十分なスペースがあれば、自動的にインベントリに移動されます。反映されるまでに時間がかかる場合があります。
 
-## Crafting
+## クラフト
 
-This tab in your inventory allows you to craft different types of items: medicine, ammo, Hash Processors and AI Cores.  
+インベントリのこのタブでは、薬/弾薬/ハッシュプロセッサー/AIコア という異なる種類のアイテムをクラフトすることができます。  
 
-Medical crafting uses medical tech parts.  
+医薬品のクラフトには、医療機器パーツを使用します。 
 
-Ammo crafting can use either ammunition tech parts (for Energy Cells) or military ammunition tech parts (for Anti Matter Charges).
+弾薬類のクラフトには、弾薬技術部品（エネルギーセル用）または軍用弾薬技術部品（アンチマターチャージ用）のいずれかを使用します。
 
-Hash Processors use military ammunition tech parts, medical tech parts and Tech Scraps.  
+ハッシュプロセッサーのクラフトには、軍用弾薬技術部品、医療機器パーツ、テックスクラップを使用します。  
 
-AI Cores use Hash Processors and Tech Scraps.  
+AIコアのクラフトには、ハッシュプロセッサーと技術スクラップを使用します。  
 
-As you level up the relevant skills (medical science, ammo crafting, and mining), you will unlock new recipes and become more proficient, allowing you to craft more and better items.
+関連するスキル（医療/弾薬作成/マイニング）をレベルアップさせると熟練度が上がり、新しいレシピがアンロックされてより良いアイテムを製造できるようになります。
