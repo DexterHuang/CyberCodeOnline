@@ -1,19 +1,19 @@
-## Gangs
-Currently gangs are just a private chat area for a group of up to 32 friends to communicate, but there are future plans for features to be added.
+## Gangues
+Atualmente, as gangues são apenas uma área de bate-papo privada para um grupo de até 32 amigos se comunicar, mas há planos futuros para que recursos sejam adicionados.
 
-As Gang Leader, you will have 3 additional options when visiting one of your gang members' profiles:
- - [KICK] - you can kick the gang member from the gang;
- - [PERMISSIONS] - here you can grant permissions to the gang member:
-   - Invite - it allows the gang member to invite other players to the gang;
-   - Kick  - it allows the gang member to kick other gang members;
-   - Manage - it allows the gang member to add or remove other gang members' permissions.
- - [TRANSFER LEADERSHIP] - you can set another gang member as the leader in case you don't want to be the leader anymore or want to leave the gang.
+Como Líder de Gangue, você terá 3 opções adicionais ao visitar o perfil de um dos membros de sua gangue:
+ - [EXPULSAR] - você pode chutar o membro da gangue da gangue;
+ - [PERMISSÕES] - aqui você pode conceder permissões ao membro da gangue:
+   - Convidar - permite que o membro da gangue convide outros jogadores para a gangue;
+   - Expulsar - permite que o membro da gangue chute outros membros da gangue;
+   - Gerenciar - permite que o membro da gangue adicione ou remova as permissões de outros membros da gangue.
+ - [TRANSFERIR LIDERANÇA] - você pode definir outro membro da gangue como líder caso não queira mais ser o líder ou queira deixar a gangue.
 
-Also as the Leader, in the Gang chat, if you click on the numbers of players in the gang on the top right, you will be able to [DELETE GANG] there.
+Também como Líder, no bate-papo da gangue, se você clicar nos números de jogadores da gangue no canto superior direito, poderá [EXCLUIR GANGUE] lá.
 
+## Amigos
 
-## Friends
-To access your personal friends list, click on the floating menu and choose the 'people' icon. 
-You can add friends by going into a user's profile, scrolling down and clicking 'Add to Friend List'. You can do the same to remove a friend by clicking the 'Remove From Friend List' button.
-Adding someone to your friends list will not require the other person to accept the request. They will simply be added to your friends list.
-Viewing your friends list will allow you to see if they are online, idle or offline.
+Para acessar sua lista de amigos pessoais, clique no menu flutuante e escolha o ícone 'pessoas'.
+Você pode adicionar amigos entrando no perfil de um usuário, rolando para baixo e clicando em 'Adicionar à lista de amigos'. Você pode fazer o mesmo para remover um amigo clicando no botão 'Remover da lista de amigos'.
+Adicionar alguém à sua lista de amigos não exigirá que a outra pessoa aceite o pedido. Eles serão simplesmente adicionados à sua lista de amigos.
+Ver sua lista de amigos permitirá que você veja se eles estão online, inativos ou offline.
