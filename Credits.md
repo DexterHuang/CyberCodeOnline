@@ -117,6 +117,7 @@ WoLoLoiK
 LieRenThePope
 
 ## Dungeons
+Alecto
 [alfaice](https://github.com/alfaice)
 Alice
 [AndyCandy](https://github.com/andycandy-de)
