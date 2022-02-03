@@ -1,86 +1,87 @@
-## Locations
-The game begins in Shangri-La City Center. From there, you can explore various areas by going to different subway stations. 
+## Localizações
+O jogo começa no centro da cidade de Shangri-La. De lá, você pode explorar várias áreas indo para diferentes estações de metrô.
 
-## City Map
+## Mapa da cidade
 
 ![Map](/resources/mobile-tutorial/Map.png)
 
 ## Shangri-La City Center  
 ![Shangri-La City Center](/resources/mobile-tutorial/Shangri-LaCityCenter.png)  
-This is the Main HUB to which you will often return to after you die, to print equipment, to make purchases and for various other activities.
+Este é o HUB Principal para o qual você retornará frequentemente depois de morrer, para imprimir equipamentos, fazer compras e várias outras atividades.
 
 ## 3D Molecular Printer  
 ![3D Molecular Printer](/resources/mobile-tutorial/Molecular3DPrinter.png)  
-In the City Center, you can find the Molecular 3D Printer, which will be used to print your equipment from various caches.
+No Centro da Cidade, poderá encontrar a Impressora 3D Molecular, que será utilizada para imprimir o seu equipamento a partir de várias caches.
 
-Clicking on the printer option will bring you to the printing panel which lists all the caches you have.  
-It costs BitCoin to print, so make sure you have enough. All details including BTC cost and printing experience given will be listed on the cache printing panel.  
-If you wish to print a cache, all you need to do is to click on the cache you wish to print. If you have multiple caches of the same quality and type, it will bring up a dialog asking how many you want to print.  
+Clicar na opção de impressora o levará ao painel de impressão que lista todos os caches que você possui.
+Custa BitCoin imprimir, portanto, certifique-se de ter o suficiente. Todos os detalhes, incluindo o custo do BTC e a experiência de impressão, serão listados no painel de impressão do cache.
+Se você deseja imprimir um cache, tudo o que você precisa fazer é clicar no cache que deseja imprimir. Se você tiver vários caches da mesma qualidade e tipo, aparecerá uma caixa de diálogo perguntando quantos você deseja imprimir.
 
-A good strategy is to print all the trash items first then the common, saving rare, legendary and epic for later levels. The reason for this is that printing trash and common quality items first will provide you with printing experience; these items can then be scrapped to acquire Tech Scraps, which can also boost your Printing Level or be used to craft other items and unlock locked containers.
+Uma boa estratégia é imprimir todos os itens de lixo primeiro e depois os comuns, salvando os raros, lendários e épicos para os níveis posteriores. A razão para isso é que imprimir lixo e itens comuns de qualidade primeiro fornecerá a você experiência de impressão; esses itens podem ser descartados para adquirir Tech Scraps, que também podem aumentar seu nível de impressão ou ser usados ​​para criar outros itens e desbloquear contêineres bloqueados.
 
-## Weaponsmith  
+## Armeiro 
 ![Weaponsmith](/resources/mobile-tutorial/WeaponSmith.png)  
-The Weaponsmith is a vendor in Shangri-La City Center who has items for sale and allows you to sell your items for BTC. You will see the items available for sale at the top. You can click on any of them and choose Buy if you can afford them.  
-If you have equipment with the **bargain** stat, you will get a better deal.  
+O Armeiro é um vendedor no centro da cidade de Shangri-La que tem itens à venda e permite que você venda seus itens por BTC. Você verá os itens disponíveis para venda no topo. Você pode clicar em qualquer um deles e escolher Comprar se puder comprá-los.
+Se você tiver equipamentos com a estatística **pechincha**, conseguirá um negócio melhor.
 
-If you want to sell something to the Weaponsmith, you will need to open your inventory, click on any item you wish to sell and choose the Sell option. For some items, it may be more worth it to sell them at the player market.
+Se você quiser vender algo para o Armeiro, você precisará abrir seu inventário, clicar em qualquer item que deseja vender e escolher a opção Vender. Para alguns itens, pode valer a pena vendê-los no mercado de jogadores.
 
-You can repair your items here too. You lose durability the more you use your equipment. It costs very little to repair them to mint condition, so be sure to repair frequently as needed.
+Você pode reparar seus itens aqui também. Você perde durabilidade quanto mais você usa seu equipamento. Custa muito pouco para repará-los à condição de hortelã, por isso certifique-se de reparar com freqüência, conforme necessário.
 
-## Trinoky Mart  
+## Mercado Trinoky
 ![Trinoky Mart](/resources/mobile-tutorial/TrinokyMart.png)  
-Here you can buy medical items with BTC. Prices are completely separate from the player market, so be sure to check both!  
+Aqui você pode comprar itens médicos com BTC. Os preços são completamente separados do mercado de jogadores, então não deixe de conferir os dois!
 
-## Terminal 
+## Terminal
 ![Terminal](/resources/mobile-tutorial/Terminal.png)  
-The terminal is used to merge key fragments into secret keys to unlock higher-level train stations.
+O terminal é usado para mesclar fragmentos de chaves em chaves secretas para desbloquear estações de trem de nível superior.
 
-Here you can also unlock locked containers (found in dungeons) with the Tech Scrap that you have.
+Aqui você também pode desbloquear contêineres bloqueados (encontrados em masmorras) com o Sucata de Tecnologia que você possui.
 
-## Bank of Arasaka
+## Banco de Arasaka
 ![Bank of Arasaka](/resources/mobile-tutorial/BankOfArasaka.png)  
-In addition to your inventory, each player also has access to a vault in the Shangri-La State Bank.
+Além do seu inventário, cada jogador também tem acesso a um cofre no Shangri-La State Bank.
 
-Initially you have 6 bank slots. You can choose to permanently expand slots by paying BTC. Keep in mind that the cost of the slots you buy will increase with each purchase.  
+Inicialmente você tem 6 slots de banco. Você pode optar por expandir permanentemente os slots pagando BTC. Tenha em mente que o custo dos slots que você compra aumentará a cada compra.
 
-Items that are stackable will occupy only one bank slot just like in your inventory. Each deposit will cost 100 BTC, but taking something out is free of charge.  
+Itens que são empilháveis ​​ocuparão apenas um slot de banco, assim como em seu inventário. Cada depósito custará 100 BTC, mas retirar algo é gratuito.
 
-## Hyper Train Central Station  
+## Estação Central do Hipercomboio
 ![Hyper Train Station](/resources/mobile-tutorial/HyperTrainCentralStation.png)  
-This is where your adventure begins. The train can take you to multiple stations. Each station has three areas full of enemies of different levels. This is also where you will find dungeons. Gather 3 unique key fragments from the dungeons to unlock the next train station.  
+É aqui que sua aventura começa. O trem pode levá-lo a várias estações. Cada estação tem três áreas cheias de inimigos de diferentes níveis. É também aqui que você encontrará masmorras. Reúna 3 fragmentos de chave exclusivos das masmorras para desbloquear a próxima estação de trem.
 
-In each station, you can also use your AI Cores to farm EXP and scavenge for materials that are needed for crafting healing items and ammo.
+Em cada estação, você também pode usar seus núcleos de IA para cultivar EXP e buscar materiais necessários para criar itens de cura e munição.
 
-## Shangri-La Commercial Area (Job Hub)  
+## Área Comercial Shangri-La (Centro de Empregos)
+## Shangri-La Commercial Area (Centro de Trabalho)  
 ![Commercial Area](/resources/mobile-tutorial/Shangri-LaCommercialArea.png)  
-At this location, you can look for jobs to increase your printing level, ammo/medical crafting levels, and mining level. Each job (AFK activity) contains details on what you can accomplish with it.
+Nesse local, você pode procurar trabalhos para aumentar seu nível de impressão, níveis de fabricação de munição/médica e nível de mineração. Cada trabalho (atividade AFK) contém detalhes sobre o que você pode realizar com ele.
 
-## Shangri-La Market Street  
+## Rua do Mercado Shangri-La
 ![Street Market](/resources/mobile-tutorial/Shangri-LaMarketStreet.png)  
-Here you can sell and purchase items to and from other players within the game for BTC.  
+Aqui você pode vender e comprar itens de e para outros jogadores dentro do jogo para BTC.
 
-Keep in mind that whenever you want to sell or buy an item on the market, you will have to complete a captcha of 4 numbers.  
-This is in place to prevent bots from using and manipulating the player market.
+Tenha em mente que sempre que você quiser vender ou comprar um item no mercado, você terá que completar um captcha de 4 números.
+Isso está em vigor para impedir que os bots usem e manipulem o mercado de jogadores.
 
-## Cosmetic Cyberwear  
+## Cyberwear cosmético
 ![Cosmetic Cyberwear](/resources/mobile-tutorial/CosmeticCyberwear.png)  
-In this location you can buy in-game subscriptions for real money.  
+Neste local, você pode comprar assinaturas no jogo com dinheiro real.
 
-These subscriptions help maintain the cost of the game and allows you, depending on the type of subscription, to have a coloured chat border, a background animation for your profile, a title and the ability to upload a custom profile picture.
+Essas assinaturas ajudam a manter o custo do jogo e permitem que você, dependendo do tipo de assinatura, tenha uma borda de bate-papo colorida, uma animação de fundo para seu perfil, um título e a capacidade de fazer upload de uma foto de perfil personalizada.
 
-Please keep in mind that you are not forced to purchase these subscriptions at all and **these subscriptions offer no P2W benefits**.  
-These subscription benefits are purely cosmetic.  
-You can still play the game without subscribing.
+Lembre-se de que você não é obrigado a comprar essas assinaturas e **essas assinaturas não oferecem benefícios P2W**.
+Esses benefícios de assinatura são puramente cosméticos.
+Você ainda pode jogar o jogo sem se inscrever.
 
-## Arasaka Unit Exchange
+## Troca de Unidade Arasaka
 ![Arasaka Exchange](/resources/mobile-tutorial/ArasakaUnitExchange.png)  
-Here you can buy Transmitters that have various effects. These Transmitters are purchaseable only with Units (premium currency).  
+Aqui você pode comprar Transmissores que possuem vários efeitos. Esses Transmissores podem ser adquiridos apenas com Unidades (moeda premium).
 
-Keep in mind that if one player activates a Transmitter, every player on the server will benefit from it.  
-**They are not P2W.**  
-They can't offer an advantage to only one player. Everyone benefits from the effects.  
+Tenha em mente que se um jogador ativar um Transmissor, todos os jogadores no servidor se beneficiarão dele.
+**Eles não são P2W.**
+Eles não podem oferecer uma vantagem a apenas um jogador. Todos se beneficiam dos efeitos.
 
-Here you can also purchase Units, the in-game premium currency, with real money.
-In the Android/Apple application, the prices of Units will appear in your local currency.  
-In the browser version (both mobile or desktop views), the prices will appear in USD only.
+Aqui você também pode comprar Unidades, a moeda premium do jogo, com dinheiro real.
+No aplicativo Android/Apple, os preços das Unidades aparecerão em sua moeda local.
+Na versão do navegador (tanto para celular quanto para desktop), os preços aparecerão apenas em USD.
