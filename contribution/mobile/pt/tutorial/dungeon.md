@@ -1,80 +1,80 @@
-## Dungeons
+## Masmorras
 
-## Types of Dungeons
+## Tipos de masmorras
   
 ![DungeonTypes](/resources/mobile-tutorial/DungeonTypes.png)
   
-These are the three types of dungeons that you are able to enter. The [normal] dungeon will include a key fragment in the treasure room and no boss. The [challenge] dungeon is a lot harder but includes more crates for loot and has a boss in the treasure room that gives a lot of EXP.  The [gang] dungeon is the hardest of all and requires that you are in a gang and have a Gang Invasion Order Transmitter.  Enemies are 4-5x stronger than normal dungeons but has greater rewards.
+Estes são os três tipos de masmorras que você pode entrar. A masmorra [normal] incluirá um fragmento de chave na sala do tesouro e nenhum chefe. A masmorra [desafio] é muito mais difícil, mas inclui mais caixas para saque e tem um chefe na sala do tesouro que dá muita EXP. A masmorra [gangue] é a mais difícil de todas e requer que você esteja em uma gangue e tenha um transmissor de ordem de invasão de gangue. Os inimigos são 4-5x mais fortes que as masmorras normais, mas têm recompensas maiores.
 
-## Creating / Joining a Dungeon
-  
-When creating a dungeon, select the dungeon you want to create. You can name it and choose to make it Public or Private. You can also protect the dungeon with a password.
+## Criando / Entrando em uma Masmorra
 
-Public Dungeons are available to everyone to see and join (if they meet the level requirements) by accessing the list of dungeons. 
+Ao criar uma masmorra, selecione a masmorra que deseja criar. Você pode nomeá-lo e optar por torná-lo Público ou Privado. Você também pode proteger a masmorra com uma senha.
 
-Password protected dungeons can be seen by other players but they cannot join unless they know the password. This is useful if you want to clear a dungeon with specific friends. Share the password in Gang chat or through Mail.
+As Masmorras Públicas estão disponíveis para todos verem e participarem (se cumprirem os requisitos de nível) acessando a lista de masmorras.
+
+Masmorras protegidas por senha podem ser vistas por outros jogadores, mas eles não podem entrar a menos que saibam a senha. Isso é útil se você quiser limpar uma masmorra com amigos específicos. Compartilhe a senha no bate-papo do Gang ou pelo Mail.
 
 ![DungeonCoop4](/resources/mobile-tutorial/DungeonCoop4.png)
 ![DungeonCoop3](/resources/mobile-tutorial/DungeonCoop3.png)
 
-If you'd rather join an existing dungeon, you can press the floating menu button at the bottom right, then select the buildings icon to view a list of open dungeons, as shown above in the screenshots.
+Se você preferir entrar em uma masmorra existente, pressione o botão do menu flutuante no canto inferior direito e selecione o ícone de edifícios para ver uma lista de masmorras abertas, conforme mostrado acima nas capturas de tela.
 
-At the top right of each dungeon panel, you can find the dungeon level. Each panel includes a list of players and their status in the dungeon. At the bottom, you can see how many enemies are left. You can choose to join a fresher dungeon to gain more EXP or enter empty dungeons to claim loot.
+No canto superior direito de cada painel da masmorra, você pode encontrar o nível da masmorra. Cada painel inclui uma lista de jogadores e seus status na masmorra. Na parte inferior, você pode ver quantos inimigos restam. Você pode optar por entrar em uma masmorra mais nova para ganhar mais EXP ou entrar em masmorras vazias para reivindicar itens.
  
 ![DungeonCoop](/resources/mobile-tutorial/DungeonCoop.png)
   
-As shown in the images above, there are several players in the same dungeon. The rules are the same regardless of how many players are in a dungeon; the only difference is that players can help each other out. When using heals, it is usually advised to use the AOE items (such as Pain Away Spray) to heal both yourself and your co-op partners. You can see everyone's health bars above the player icons.  
+Como mostrado nas imagens acima, existem vários jogadores na mesma masmorra. As regras são as mesmas independentemente de quantos jogadores estão em uma masmorra; a única diferença é que os jogadores podem ajudar uns aos outros. Ao usar curas, geralmente é aconselhável usar os itens AOE (como Pain Away Spray) para curar você e seus parceiros cooperativos. Você pode ver as barras de saúde de todos acima dos ícones do jogador.
 
-When an enemy is killed with the help from a friend, everyone who dealt 20% or more damage is given EXP and a chance for a reward, as long as their level isn't too high for the mob. All crates and loot are unique to each player, so you don't need to worry about sharing loot or having yours stolen. Grab everything you want and discard the rest!
+Quando um inimigo é morto com a ajuda de um amigo, todos que causaram 20% ou mais de dano recebem EXP e uma chance de recompensa, desde que seu nível não seja muito alto para a multidão. Todas as caixas e loots são únicos para cada jogador, então você não precisa se preocupar em compartilhar loot ou ter o seu roubado. Pegue tudo o que quiser e descarte o resto!
 
 ![DungeonCoop2](/resources/mobile-tutorial/DungeonCoop2.png)
 
-In this image, at the bottom under the '[QUIT DUNGEON]' button, you will find a button labeled '[Send invite to global chat]'. This will send an invite to the global chat so others can join easily by clicking on the message. Anyone around your level can join and help you out as long as they are within 10 levels below or 12 levels above your dungeon.
+Nesta imagem, na parte inferior do botão '[QUIT DUNGEON]', você encontrará um botão chamado '[Enviar convite para bate-papo global]'. Isso enviará um convite para o bate-papo global para que outras pessoas possam participar facilmente clicando na mensagem. Qualquer pessoa no seu nível pode se juntar e ajudá-lo, desde que esteja 10 níveis abaixo ou 12 níveis acima de sua masmorra.
 
-You can also click on messages from other players to join their dungeon.
+Você também pode clicar nas mensagens de outros jogadores para entrar em suas masmorras.
 
-After a player dies or leaves, they cannot rejoin the dungeon.
+Depois que um jogador morre ou sai, ele não pode voltar à masmorra.
   
-## Entrance and Icons
+## Entrada e ícones
   
 ![DungeonEntranceUsed](/resources/mobile-tutorial/DungeonEntranceUsed.png)
   
-Here you can see the first room of a dungeon. There are doors which will take you to another room in the dungeon. You can find these doors on all sides of the dungeon rooms.  You cannot enter a new room until you have killed all enemies in the current room.
+Aqui você pode ver a primeira sala de uma masmorra. Há portas que o levarão a outra sala na masmorra. Você pode encontrar essas portas em todos os lados das salas da masmorra. Você não pode entrar em uma nova sala até ter matado todos os inimigos na sala atual.
 
-This also shows an example of a room that has been completed. Note the greyed out crates, indicating that they have been looted already. The door on the right wall is also greyed out, which means you have already been through it. This is essential to not get lost while exploring the dungeon. 
+Isso também mostra um exemplo de uma sala que foi concluída. Observe as caixas acinzentadas, indicando que elas já foram saqueadas. A porta na parede direita também está acinzentada, o que significa que você já passou por ela. Isso é essencial para não se perder ao explorar a masmorra.
 
-### Enemies
+### Inimigos
   
 ![DungeonEnemies](/resources/mobile-tutorial/DungeonEnemies.png)
   
-There are four alien looking icons spread across the room, and these are the enemies you have to defeat before proceeding to the next room or accessing the crates in the room. Click on one of them to fight them.
+Existem quatro ícones de aparência alienígena espalhados pela sala, e esses são os inimigos que você deve derrotar antes de prosseguir para a próxima sala ou acessar as caixas na sala. Clique em um deles para combatê-los.
   
 ![DungeonFight](/resources/mobile-tutorial/DungeonFight.png)
   
-Rules are slightly different in the dungeons when you fight enemies. You will have a row of 3 buttons above your attack options which you can assign to usable items from your inventory. You should assign medical items to this hotbar since your health doesn't regenerate automatically after each fight.
+As regras são ligeiramente diferentes nas masmorras quando você luta contra inimigos. Você terá uma linha de 3 botões acima de suas opções de ataque que você pode atribuir a itens utilizáveis do seu inventário. Você deve atribuir itens médicos a este hotbar, pois sua saúde não se regenera automaticamente após cada luta.
 
-You also have an 'Escape' button on the top left. The success rate of you escaping is based on your player 'escape' stat.  
+Você também tem um botão 'Escape' no canto superior esquerdo. A taxa de sucesso de você escapar é baseada na estatística de 'escape' do seu jogador.
  
-### Good Guy (?)
+### Bom rapaz (?)
   
 ![DungeonGoodguy](/resources/mobile-tutorial/DungeonGoodguy.png)
   
-Here, you can see the '?' icon, indicating a quest if you choose to accept it. You can find one quest giver per dungeon, and they are usually placed randomly in one of the rooms.
-  
+Aqui, você pode ver o '?' ícone, indicando uma missão se você optar por aceitá-la. Você pode encontrar um doador de missões por masmorra, e eles geralmente são colocados aleatoriamente em uma das salas.
+
 ![DungeonGoodguy2](/resources/mobile-tutorial/DungeonGoodguy2.png)
   
-Here is an example of the dialogue that pops up after clicking on the '?'. They will ask for items in return for other items or power-ups. It is up to you to decide if the trade is worthwhile; however, if you can afford it, it is usually worth accepting for the extra EXP you gain from completing it. Some of the text on this screen is randomly generated from a file, so you may get odd or funny references, if it makes any sense at all.
+Aqui está um exemplo do diálogo que aparece depois de clicar no '?'. Eles pedirão itens em troca de outros itens ou power-ups. Cabe a você decidir se a negociação vale a pena; no entanto, se você puder pagar, geralmente vale a pena aceitar a EXP extra que você ganha ao completá-lo. Parte do texto nesta tela é gerado aleatoriamente a partir de um arquivo, então você pode obter referências estranhas ou engraçadas, se fizer algum sentido.
 
 ### Lore (!)
 
 ![DungeonLoreguy](/resources/mobile-tutorial/DungeonLoreguy.png)
 
-There are exclamation marks dotted around dungeons that provide snippets of game lore. These don't have an impact on your game or the dungeon but may be interesting to read.
+Aqui, você pode ver o '?' ícone, indicando uma missão se você optar por aceitá-la. Você pode encontrar um masador de missões, e eles vão buscarmorra aleatoriamente em uma das salas.
 
 ### Treasure / Boss Room
   
 ![DungeonBossTreasureCoop](/resources/mobile-tutorial/DungeonBossTreasureCoop.png)
   
-This room is special, as you can tell from the increased number of crates. The crate that looks like a window contains a key fragment that can be used for crafting Secret Keys that unlock new areas.
+Esta sala é especial, como você pode ver pelo aumento do número de caixas. A caixa que parece uma janela contém um fragmento de chave que pode ser usado para criar Chaves Secretas que desbloqueiam novas áreas.
 
-In this screenshot, you can also see other players helping out. This is especially advised at low levels and when attempting a challenge dungeon, as the boss of challenge dungeons has greatly increased health and power in return for more EXP.
+Nesta captura de tela, você também pode ver outros jogadores ajudando. Isso é especialmente recomendado em níveis baixos e ao tentar uma masmorra de desafio, pois o chefe das masmorras de desafio aumentou muito a saúde e o poder em troca de mais EXP.

@@ -66,14 +66,20 @@ These weapons require ammo. Special weapons uses Energy Cells and Destructive we
 ### What are caches and what should I do with them?
 Cache is an item that you can use to craft equipment at the Molecular 3D Printer.  It is not recommended to scrap your caches as it has 50% chance of giving Tech Scrap & also more valuable to print or sell.
 
+### When do I Print "X" cache"?
+Explanation around Cache printing can be found on [Equipment's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fequipment.md)
+
 ### Where can I get healing items?
-Healing items can be crafted, found when defeating an enemy or when looting a crate in a dungeon, or purchased at the Trinoky Mart in the City Center.  They can also be purchased from the Player Market.
+Healing items can be crafted (which can be found on Inventory > Crafting > Medical), found when defeating an enemy or when looting a crate in a dungeon, or purchased at the Trinoky Mart in the City Center. They can also be purchased from the Player Market. Full detail around heal amount can be found on [Resource's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md)
 
 ### How do I use my healing items?
 To equip and use your healing items, go to your inventory and under Equipped tab, you will find 3 'Quick Slots' (on top of your equipped weapon slot). Click on one of them and assign your desired healing item to it. Healing items can be used only inside dungeons.  
 
 ### How do I craft "X" items?
 At the top of the Inventory page, you will find a tab called 'Crafting'.
+
+### Someone Sending Me Item / Gift. Where Can I Find Them?
+All the item that been sent or removed from Market Stall, can be found on Inventory page, on a tab called 'Item Inbox'. 
 
 ### Where is "X" Place?
 Explanation around Game Area can be found on [Location's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Flocations.md)
@@ -92,6 +98,9 @@ At most cases (such as Deploy Farm Bot task), your **Gear Score** affects your E
 
 ### What is Global Skip?
 Explanation around Global / Time Skip can be found on [Time Skip's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fglobal_skip.md)
+
+### What is Calibration?
+Explanation around Calibration can be found on [Calibration's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
 
 ### Does the game support trading among players?
 Yes, partially. You can send items to other players, but there isn't a system that forces the other person to give something in exchange. Most trades are conducted with trust. You can't gift BTC and key fragments to other players. Only Healing Items, Ammo, Materials, Hash Processors, AI Cores and other types of items.
@@ -151,16 +160,21 @@ You can exit a dungeon by clicking **Leave Dungeon** button whenever you wants (
 ### How to Invite Someone onto my Dungeon?
 You can invite anyone into your dungeon by clicking **Invite To Chat** button (keep in mind that the invite sends globally).
 
-### What are Public and Private Dungeons? What are Password Protected Dungeons?
-When creating a dungeon, it will default to Public.  This means that anyone can see and join your dungeon as long as they meet the level requirements. If you make your dungeon Private, it will be invisible and inaccessible to other players. You may also create a password for your dungeon so that it is only accessible by users who know the password.
+### What are Public and Private Dungeons, and Password Protected Dungeons?
+When creating a dungeon, it will default to Private.  This means that it will be invisible and inaccessible to other players. If you make your dungeon Public, This means that anyone can see and join your dungeon as long as they meet the level requirements. You may also create a password for your dungeon so that it is only accessible by users who know the password.
+
+### How to find Public Dungeons?
+You can find Public Dungeon via Dungeon List option (which found on Profile > Phone Icon > Dungeon List).
 
 ### What are the symbols in dungeons?
 - "?" represents a quest. You can access accepted quests in your Quest tab.
 - "!" represents lore.
 - Crates are represented by small white boxes.  
 - Crates that have a "+" inside them contain key fragments.
-- The yellow ✧ contains a locked container.
-- The alien looking icons represent monsters inside the dungeon.
+- The yellow stars / ✧ contains a locked container.
+- The "alien looking icons" represent monsters inside the dungeon.
+
+### These mobs has a high HP & damage 
 
 ### People are looting my stuff. Help!
 The loot in the crates is randomly generated for each player. Therefore, it's impossible for someone to steal your loot.
@@ -177,16 +191,13 @@ Gangs are similar to guilds or clans in other MMORPGs.  Joining a gang gives you
 You can create one by selecting the Gang chat.  The cost to create a gang is 50,000 BTC.  Gangs have a weekly upkeep cost that must be met to avoid being disbanded. Gangs allow you to have a tag of 3 letters, chosen when the gang was created, in your chat border.
 
 ### How do I search for a Gang? How do I join one?
-Currently, you can't see a list of gangs in the game.
-You can join one by creating it yourself or by receiving an invite from a gang.
+Currently, you can't see a list of gangs in the game. You can join one by creating it yourself or by receiving an invite from a gang.
 
 ### Where are the Gang Headquarters (HQ)? What can I do there?
 Gang HQ is located in the main HUB, under [Player Market].  At the Gang HQ you're able to donate bitcoin, gather resources, and do a varitety of AFK tasks.
 
 ### Can I rename my Gang? Can I have the same tag as another Gang has?
-Currently, you can't rename your own gang.
-It's forbidden to have the same tag as other gangs.
-All gangs should have different tags in order to avoid confusion.
+Currently, you can't rename your own gang. It's forbidden to have the same tag as other gangs. All gangs should have different / unique tags in order to avoid confusion.
 
 ### How can I level up my gang?
 To be able to maintain your gang and to level it up, each member of the gang will have to gather resources (through an AFK task in the Gang Headquarters) and will also have to donate bitcoins to it.
@@ -209,9 +220,7 @@ BitCoin (BTC) is the game's currency.  Your in game BitCoin isn't the same as th
 All user-contributed content can be found on the [Github](https://github.com/DexterHuang/CyberCodeOnline). Feel free to submit a PR (Pull Request).
 
 ### Does this game have any social media?
-Yes. You can find our community on [Discord](https://discord.link/cco) and on [Reddit](https://www.reddit.com/r/CyberCode_Online/).
-
-The developer (DexterHuang) also has a [Patreon](https://www.patreon.com/cybercodeonline) for donations that will help support and maintain the game.
+Yes. You can find our community on [Discord](https://discord.link/cco) and on [Reddit](https://www.reddit.com/r/CyberCode_Online/). The developer (DexterHuang) also has a [Patreon](https://www.patreon.com/cybercodeonline) for donations that will help support and maintain the game.
 
 These social links can also be found by accessing ☰ and clicking on the chain link symbol on mobile or by accessing the respective platform icons on the left side of the web view.
 
@@ -219,9 +228,8 @@ These social links can also be found by accessing ☰ and clicking on the chain 
 CyberCode Online is a game developed using [ReactJS](https://reactjs.org/) with player contributions from [Github](https://github.com/DexterHuang/CyberCodeOnline).
 
 ### Is the game translated in other languages?
-Yes. This game is currently translated in 15 languages (and more!). To change the language of the game, go to Map and click on ⚙️.
+Yes. This game is currently translated in 15 languages (and more!). To change the language of the game, go to Map and click on ⚙️. Please notice that the translations might contain mistakes, be incomplete or some parts of the game might be completely untranslated.
 
-Please notice that the translations might contain mistakes, be incomplete or some parts of the game might be completely untranslated.
 If the game is not translated in your language or you want to improve the current translations, please head out to our [Github](https://github.com/DexterHuang/CyberCodeOnline).
 
 ### Can I change my name?

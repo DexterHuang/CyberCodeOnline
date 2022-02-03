@@ -1,61 +1,59 @@
-## Combat
+## Combate
 
-In every location, you will see a list of Nearby Enemies and three Dungeons which you can enter. Locations are separated by level groups.  To unlock new areas, you'll have to gather three key fragments from the dungeons. You can then brute force a new key with your key fragments at the Terminal.
+Em cada local, você verá uma lista de Inimigos Próximos e três Dungeons nas quais você pode entrar. Os locais são separados por grupos de níveis. Para desbloquear novas áreas, você terá que coletar três fragmentos de chaves das masmorras. Você pode então forçar uma nova chave com seus fragmentos de chave no Terminal.
   
-To fight Nearby Enemies, select any of the listed enemies to enter combat.  You are unable to heal while fighting Nearby Enemies, but if you are about to die, click Escape in the top left. While inside a dungeon, clicking on the enemy, represented by an alien logo will draw you into combat with it.  
+Para lutar contra inimigos próximos, selecione qualquer um dos inimigos listados para entrar em combate. Você não pode curar enquanto luta contra inimigos próximos, mas se estiver prestes a morrer, clique em Escape no canto superior esquerdo. Enquanto estiver dentro de uma masmorra, clicar no inimigo, representado por um logotipo alienígena, o atrairá para o combate.
 
-## Primary Attack
-Attack the enemy with your equipped primary weapon. This weapon does not use ammo.
+## Ataque Primário
+Ataque o inimigo com sua arma primária equipada. Esta arma não usa munição.
 
-## Special Attack
-Attack the enemy with your equipped special weapon. Deal 120% damage to shields. This weapon consumes one Energy Cell per shot.
+## Ataque especial
+Ataque o inimigo com sua arma especial equipada. Cause 120% de dano aos escudos. Esta arma consome uma célula de energia por tiro.
 
-## Destructive Attack
-Attack the enemy with your equipped destructive weapon. Deal 50% damage to shields. This weapon consumes one Antimatter charge per shot.
+## Ataque Destrutivo
+Ataque o inimigo com sua arma destrutiva equipada. Cause 50% de dano aos escudos. Esta arma consome uma carga de Antimatéria por tiro.
 
-## Use Item
-You have 3 Use Item slots.  You can bind medical supplies to these slots and use them inside of Dungeons.  You can bind Experience Memories, but this is not necessary since you can use them directly from your inventory to gain Player Experience.
+## Usar item
+Você tem 3 slots de item de uso. Você pode vincular suprimentos médicos a esses slots e usá-los dentro das Masmorras. Você pode vincular Memórias de Experiência, mas isso não é necessário, pois você pode usá-las diretamente do seu inventário para ganhar Experiência do Jogador.
 
-## Escape
-You can attempt to escape from combat by clicking Escape in the top left. The success rate for escaping combat outside a dungeon is always 100%. However if you are fighting inside a dungeon and try to escape, the chance will be based on your escape stat which is taken from your armour and upgrade stats. If you fail to escape, you will then be attacked by the enemy without dealing any damage.  
+## Fuga
+Você pode tentar escapar do combate clicando em Escape no canto superior esquerdo. A taxa de sucesso para escapar do combate fora de uma masmorra é sempre 100%. No entanto, se você estiver lutando dentro de uma masmorra e tentar escapar, a chance será baseada em sua estatística de fuga, que é tirada de sua armadura e estatísticas de atualização. Se você não conseguir escapar, você será atacado pelo inimigo sem causar nenhum dano.
   
-The combat screen will show you how much health and shield you and your opponent both have, as well as the amount of ammo you have left for each of your weapons and the approximate damage they can do.  
+A tela de combate mostrará quanta saúde e escudo você e seu oponente têm, bem como a quantidade de munição que resta para cada uma de suas armas e o dano aproximado que elas podem causar.
 
-## Death
+## Morte
 
-If you die, you won't lose any of your items. However you will lose 10% of your total BTC and Player XP. This means you might lose a level if you die too much.
+Se você morrer, você não perderá nenhum de seus itens. No entanto, você perderá 10% do seu total de BTC e Player XP. Isso significa que você pode perder um nível se morrer demais.
   
-## Enemy Modifiers
+## Modificadores de inimigos
   
-Enemies can have modifiers, which are indicated by an adjective before the enemies name e.g. "**Mad** Serial Killer", these modifiers are as follows,
+Os inimigos podem ter modificadores, que são indicados por um adjetivo antes do nome do inimigo, por exemplo "**Mad** Serial Killer", esses modificadores são os seguintes:
+
+- Mad - Dá ao inimigo +10% de dano
+- Angry - Dá ao inimigo +10% de dano
+- Tough - Dá ao inimigo +20% de defesa
+- Agile - Dá ao inimigo +20% de evasão de atordoamento e um escudo
+- Shielded - Dá ao inimigo um grande escudo
   
+## Modificadores de jogador
   
- - Mad - Gives the enemy +10% damage  
- - Angry - Gives the enemy +10% damage  
- - Tough - Gives the enemy +20% defence  
- - Agile - Gives the enemy +20% stun evade and a shield  
- - Shielded - Gives the enemy a large shield  
+O jogador também pode pegar modificadores interagindo com o doador de missões na masmorra, que é representado por um '?', esses modificadores são os seguintes:
   
-## Player Modifiers
-  
-The player can also pick up modifiers by interacting with the quest giver in the dungeon, which is represented by a '?', these modifiers are as follows:  
-  
- - Overcharged I - Gives the player +5% damage  
- - Overcharged II - Gives the player +10% damage  
- - Overcharged III - Gives the player +15% damage  
- - Overcharged IV - Gives the player +20% damage  
- - Overcharged V - Gives the player +25% damage  
-  
-  
- - Reinforced I - Gives the player +5% defence  
- - Reinforced II - Gives the player +10% defence  
- - Reinforced III - Gives the player +15% defence  
- - Reinforced IV - Gives the player +20% defence  
- - Reinforced V - Gives the player +25% defence  
+- Overcharged I - Dá ao jogador +5% de dano
+- Overcharged II - Dá ao jogador +10% de dano
+- Overcharged III - Dá ao jogador +15% de dano
+- Overcharged IV - Dá ao jogador +20% de dano
+- Overcharged V - Dá ao jogador +25% de dano
   
   
- - Shield Enhance I - Gives the player +5% shield multiplier  
- - Shield Enhance II - Gives the player +10% shield multiplier  
- - Shield Enhance III - Gives the player +15% shield multiplier  
- - Shield Enhance IV - Gives the player +20% shield multiplier  
- - Shield Enhance V - Gives the player +25% shield multiplier  
+- Reinforced I - Dá ao jogador +5% de defesa
+- Reinforced II - Dá ao jogador +10% de defesa
+- Reinforced III - Dá ao jogador +15% de defesa
+- Reinforced IV - Dá ao jogador +20% de defesa
+- Reinforced V - Dá ao jogador +25% de defesa
+  
+- Shield Enhance I - Dá ao jogador +5% de multiplicador de escudo
+- Shield Enhance II - Dá ao jogador +10% de multiplicador de escudo
+- Shield Enhance III - Dá ao jogador +15% de multiplicador de escudo
+- Shield Enhance IV - Dá ao jogador +20% de multiplicador de escudo
+- Shield Enhance V - Dá ao jogador +25% de multiplicador de escudo
