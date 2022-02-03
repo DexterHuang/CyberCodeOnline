@@ -44,12 +44,13 @@ Any +6 calibration and beyond is *impossible to achieve* without the use of **Ca
 In general, the calibration boost tier (and where to find them) is as follows:
 - **Calibration AI Shard (Common)** reduce the chance of failure by 5%; only for Personal Use; can be found in Rare Locked Containers
 - **Calibration AI Shard (Rare)** reduce the chance of failure by 10%; Global Buff; can only be bought in the Arasaka Unit Exchange
-- **Calibration AI Shard (Legendary)** reduce the chance of failure by 50% & 100%; Global Buff; can only be bought in the Arasaka Unit Exchange
-- **Calibration AI Shard (Epic)** reduce the chance of failure by 300%; Global Buff; can only be bought in the Arasaka Unit Exchange 
+- **Calibration AI Shard (Legendary)** reduce the chance of failure by 50%; Global Buff; can only be bought in the Arasaka Unit Exchange
+- **Calibration AI Shard (Legendary)** reduce the chance of failure by 100%; Global Buff; can only be bought in the Arasaka Unit Exchange
+- **Calibration AI Shard (Prestige)** reduce the chance of failure by 300%; Global Buff; can only be bought in the Arasaka Unit Exchange 
 
 Players can also negate the destructive effect by activating **Calibration Safety Nano Bots** (which can be found in Mysterious Containers / or bought in the Arasaka Unit Exchange) before calibrating the gear.
 
-Keep in mind that the boosts **will only last for 5 min** & each tier / rarity of boost can only be stacked twice (excluding Common Shard). It's best to be prepared before boosting.
+Keep in mind that the boosts **will only last for 5 min** & each tier / rarity of boost **can only be stacked twice** (excluding Common Shard). It's best to be prepared before boosting.
 
 ##  Trade / Sell Calibrated Gear 
 Players can't trade / sell their calibrated gear. To trade / sell related gear, players need to **Reset** the calibrated gear by using **Factory Reset Shard** (that can be found on Scavenge or Market).
