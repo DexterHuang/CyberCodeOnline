@@ -130,6 +130,7 @@ ElectricSoldier323
 HeyaItsLuna
 JashinL
 [JEricaM](https://github.com/JEricaM)
+krolik
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)
 LitFill
 [MagicCookie](https://github.com/GooseGooseStop)
