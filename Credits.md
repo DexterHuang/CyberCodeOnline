@@ -117,6 +117,7 @@ WoLoLoiK
 LieRenThePope
 
 ## Dungeons
+Alecto
 [alfaice](https://github.com/alfaice)
 Alice
 [AndyCandy](https://github.com/andycandy-de)
@@ -129,6 +130,7 @@ ElectricSoldier323
 HeyaItsLuna
 JashinL
 [JEricaM](https://github.com/JEricaM)
+krolik
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)
 LitFill
 [MagicCookie](https://github.com/GooseGooseStop)
@@ -206,6 +208,7 @@ Kaktusmonas
 [mxjoda](https://twitter.com/mxjoda)
 MontyPython
 [nopeholmes](https://github.com/nopeholmes)
+Poetics
 PoopBalloon
 [PsyB34R](https://www.instagram.com/psybearr)
 Redinator

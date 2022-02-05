@@ -1,110 +1,110 @@
-## Equipment
-You can equip the gear that you own as long as the gear level you wish to equip is not higher than your current player level.  
-All equipment will be one of the following rarities:
+## Equipamento
+Você pode equipar o equipamento que possui, desde que o nível de equipamento que deseja equipar não seja maior do que o seu nível de jogador atual.
+Todos os equipamentos serão uma das seguintes raridades:
 
-  - Trash (Grey)
-  - Common (White)
-  - High Quality (Green)
-  - Rare (Yellow)
-  - Legendary (Fuchsia, Deep Pink)
-  - Epic (Dark Red)
+  - Lixo (cinza)
+  - Comum (Branco)
+  - Alta Qualidade (Verde)
+  - Raro (Amarelo)
+  - Lendário (Fúcsia, Rosa Profundo)
+  - Épico (Vermelho Escuro)
 
-Higher rarities will have better stats and more module upgrade slots, depending on the piece of equipment.  
+Raridades mais altas terão melhores estatísticas e mais slots de atualização de módulo, dependendo do equipamento.
 
-🔹 As a newbie, it's important to craft and equip trash quality gear since it's the cheapest one to print.  
-🔹 Starting from level 5 up to level 10, you can start printing common quality caches.  
-🔹 From level 10 to 20, you will have enough BTC to start using High Quality gear.  
-🔹 From level 20 to 40 - 50, you can print and wear Rare Quality gear.  
-🔹 And from level 40 - 50, you can print and wear Legendary Quality gear.  
-🔹 From level 90 - 100+, if you ever have the chance to get or to buy one or more, you can print and wear Epic Quality gear, which is the highest and rarest type of gear in the game.  
+🔹 Como um novato, é importante criar e equipar equipamentos de qualidade lixo, pois é o mais barato para imprimir.
+🔹 A partir do nível 5 até o nível 10, você pode começar a imprimir caches de qualidade comum.
+🔹 Do nível 10 ao 20, você terá BTC suficiente para começar a usar equipamentos de alta qualidade.
+🔹 Do nível 20 ao 40 - 50, você pode imprimir e usar equipamentos de qualidade rara.
+🔹 E do nível 40 ao 50, você pode imprimir e usar equipamentos de qualidade lendária.
+🔹 Do nível 90 - 100+, se você tiver a chance de obter ou comprar um ou mais, poderá imprimir e usar equipamentos de qualidade épica, que é o tipo de equipamento mais alto e mais raro do jogo.
 
-These are not rules on how you should manage different types of quality equipment but they are rather recommendations on what type of equipment you should have at different levels.
+Estas não são regras sobre como você deve gerenciar diferentes tipos de equipamentos de qualidade, mas sim recomendações sobre que tipo de equipamento você deve ter em diferentes níveis.
 
 
-## Finding Equipment
+## Encontrando Equipamentos
 
-You can find equipment and equipment caches in the dungeons or when fighting individual enemies (street fights).  
+Você pode encontrar equipamentos e caches de equipamentos nas masmorras ou ao lutar contra inimigos individuais (lutas de rua).
 
-Once you are level 5, you will be able to use the Player Market to purchase different types of equipment, crafting materials and other items.
+Quando estiver no nível 5, você poderá usar o Mercado de Jogadores para comprar diferentes tipos de equipamentos, materiais de artesanato e outros itens.
 
-## Printing Equipment
+## Equipamento de impressão
 
-Caches can be used to print equipment at your current Printing Rank at the Molecular 3D Printer in the City Center.  
+Caches podem ser usados ​​para imprimir equipamentos em seu Ranking de Impressão atual na Impressora 3D Molecular no Centro da Cidade.
 
-The level of the printed gear will be the same as your Printing Rank, so make sure to keep your Printing Rank at the same level as your player level.  
+O nível do equipamento impresso será o mesmo do seu Ranking de Impressão, portanto, certifique-se de manter seu Rank de Impressão no mesmo nível do seu nível de jogador.
 
-## Upgrade Modules
+## Módulos de atualização
 
-You can install upgrade modules in your equipment. In order to equip the module, it's level cannot be higher than the equipment's level.  
-E.g.: you cannot install a level 20 upgrade module in level 5 gloves.  
+Você pode instalar módulos de atualização em seu equipamento. Para equipar o módulo, seu nível não pode ser superior ao nível do equipamento.
+Por exemplo: você não pode instalar um módulo de atualização de nível 20 em luvas de nível 5.
 
-Upgrade modules can be removed at any time.  
-Removed upgrade modules will take space in your inventory so pay attention to that.  
-Make sure you have enough space in your inventory before removing any upgrades.  
+Os módulos de atualização podem ser removidos a qualquer momento.
+Módulos de atualização removidos ocuparão espaço em seu inventário, então preste atenção nisso.
+Certifique-se de ter espaço suficiente em seu inventário antes de remover qualquer atualização.
 
-If your inventory is getting cluttered with upgrade modules you can't bear to get rid of, remember you can store unused modules in any unused equipment in your inventory. 
-Level rules still apply, and remember to remove them before getting rid of the equipment. 
+Se o seu inventário estiver cheio de módulos de atualização dos quais você não consegue se livrar, lembre-se de que você pode armazenar módulos não utilizados em qualquer equipamento não utilizado em seu inventário.
+As regras de nível ainda se aplicam e lembre-se de removê-las antes de se livrar do equipamento.
 
-Scrapping a piece of equipment that have an upgrade module installed in it, will also delete the said module!  
-You will not recover it!  
+Descartar um equipamento que tenha um módulo de atualização instalado nele também excluirá o referido módulo!
+Você não vai recuperá-lo!
 
-## Upgrade Slots
+## Atualizar Slots
 
-### Primary Weapon
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 to 3 Slots
- - Rare: 3 Slots
- - Legendary: 3 Slots
- - Epic: 4 Slots
+### Arma primária
+ - Lixo: 0 a 1 Slots
+ - Comum: 1 a 2 Slots
+ - Alta qualidade: 2 a 3 slots
+ - Raro: 3 slots
+ - Lendário: 3 Slots
+ - Épico: 4 slots
 
-### Special Weapon
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 Slots
- - Rare: 2 Slots
- - Legendary: 2 Slots
- - Epic: 3 Slots
+### Arma Especial
+ - Lixo: 0 a 1 Slots
+ - Comum: 1 a 2 Slots
+ - Alta qualidade: 2 slots
+ - Raro: 2 slots
+ - Lendário: 2 Slots
+ - Épico: 3 slots
 
-### Destructive Weapon
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 Slots
- - Rare: 2 Slots
- - Legendary: 2 Slots
- - Epic: 3 Slots
+### Arma Destrutiva
+ - Lixo: 0 a 1 Slots
+ - Comum: 1 a 2 Slots
+ - Alta qualidade: 2 slots
+ - Raro: 2 slots
+ - Lendário: 2 Slots
+ - Épico: 3 slots
 
-### Helmet
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 Slots
- - Rare: 2 Slots
- - Legendary: 2 Slots
- - Epic: 3 Slots
+### Capacete
+ - Lixo: 0 a 1 Slots
+ - Comum: 1 a 2 Slots
+ - Alta qualidade: 2 slots
+ - Raro: 2 slots
+ - Lendário: 2 Slots
+ - Épico: 3 slots
 
-### Upper Armor
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 to 3 Slots
- - Rare: 3 to 4 Slots
- - Legendary: 4 Slots
- - Epic: 5 Slots
+### Armadura Superior
+ - Lixo: 0 a 1 Slots
+ - Comum: 1 a 2 Slots
+ - Alta qualidade: 2 a 3 slots
+ - Raro: 3 a 4 slots
+ - Lendário: 4 Slots
+ - Épico: 5 slots
 
-### Lower Armor
- - Trash: 0 to 1 Slots
- - Common: 1 Slot
- - High Quality: 2 Slots
- - Rare: 3 Slots
- - Legendary: 3 Slots
- - Epic: 4 Slots
+### Armadura Inferior
+ - Lixo: 0 a 1 Slots
+ - Comum: 1 Ranhura
+ - Alta qualidade: 2 slots
+ - Raro: 3 slots
+ - Lendário: 3 Slots
+ - Épico: 4 slots
 
-### Boots
- - Trash: 0 to 1 Slots
- - Common: 1 Slot
- - High Quality: 2 Slots
- - Rare: 2 Slots
- - Legendary: 2 Slots
- - Epic: 3 Slots
+### Botas
+ - Lixo: 0 a 1 Slots
+ - Comum: 1 Ranhura
+ - Alta qualidade: 2 slots
+ - Raro: 2 slots
+ - Lendário: 2 Slots
+ - Épico: 3 slots
 
-## Other Items
-You can learn more about other items, such as consumables, in the Inventory and Resources tutorials.
+## Outros itens
+Você pode aprender mais sobre outros itens, como consumíveis, nos tutoriais de Inventário e Recursos.

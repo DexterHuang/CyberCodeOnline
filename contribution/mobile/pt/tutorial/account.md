@@ -1,8 +1,8 @@
-## Creating an Account
+## Criando uma conta
 
-Currently you can use Google, Apple or any email accounts to register.
-You will be then taken to a screen where you will choose your username. Make sure to choose wisely as this is permanent and cannot be changed.
+Atualmente você pode usar o Google, Apple ou qualquer conta de e-mail para se registrar.
+Você será levado a uma tela onde você escolherá seu nome de usuário. Certifique-se de escolher com sabedoria, pois isso é permanente e não pode ser alterado.
 
-## Logging in
+## Fazendo login
 
-If you already have an account, fill in the respective blanks to sign in or by clicking on the Google/Apple sign in buttons.
+Se você já possui uma conta, preencha os respectivos espaços em branco para fazer login ou clicando nos botões de login do Google/Apple.
