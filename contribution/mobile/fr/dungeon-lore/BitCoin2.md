@@ -1,0 +1,4 @@
+# BitCoin comme nouvelle monnaie
+> (Partie 2 sur 4 de la série sur le bitcoin)
+
+Les BitCoins ont été créés en récompense d'un processus connu sous le nom de minage. Ils peuvent être échangés contre d'autres devises, produits et services, mais la valeur réelle de la pièce avant son adoption officielle en 2071 était extrêmement volatile. Les utilisateurs ont choisi de participer à la monnaie numérique volatile pour un certain nombre de raisons : des idéologies telles que l'engagement envers l'anarchisme, la décentralisation et le libertarianisme, la commodité, l'utilisation de la monnaie comme investissement et le pseudo-anonymat des transactions. L'utilisation accrue a conduit les gouvernements à souhaiter une réglementation afin de taxer, de faciliter l'utilisation légale dans le commerce et pour d'autres raisons jusqu'à ce que l'Organisation mondiale du gouvernement l'adopte finalement comme monnaie mondiale officielle.
