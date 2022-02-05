@@ -1,86 +1,86 @@
-## Locations
-The game begins in Shangri-La City Center. From there, you can explore various areas by going to different subway stations. 
+## シャングリ・ラの紹介
+このゲームはシャングリ・ラ中心街から始まります。あなたは、ここからさまざまな地下鉄駅に行くことで、さまざまなエリアを探索していくことになります。
 
-## City Map
+## 市街図
 
 ![Map](/resources/mobile-tutorial/Map.png)
 
-## Shangri-La City Center  
+## シャングリ・ラ中心街 
 ![Shangri-La City Center](/resources/mobile-tutorial/Shangri-LaCityCenter.png)  
-This is the Main HUB to which you will often return to after you die, to print equipment, to make purchases and for various other activities.
+ここはあらゆる行為を行うための拠点です。死んだ後に復活したり、3Dプリンタで装備を製造したり、装備を購入したり……。あなたはここに何度もやって来ることになるでしょう。
 
-## 3D Molecular Printer  
+##  分子合成式3Dプリンタ 
 ![3D Molecular Printer](/resources/mobile-tutorial/Molecular3DPrinter.png)  
-In the City Center, you can find the Molecular 3D Printer, which will be used to print your equipment from various caches.
+中心街には分子合成式3Dプリンタが設置されています。この機械を使えば、各種キャッシュからそれに対応した装備を生産することができます。
 
-Clicking on the printer option will bring you to the printing panel which lists all the caches you have.  
-It costs BitCoin to print, so make sure you have enough. All details including BTC cost and printing experience given will be listed on the cache printing panel.  
-If you wish to print a cache, all you need to do is to click on the cache you wish to print. If you have multiple caches of the same quality and type, it will bring up a dialog asking how many you want to print.  
+分子合成式3Dプリンタをクリックすると、あなたが持っているすべてのキャッシュが一覧で表示されます。
+装備を生産するためにはキャッシュのほかにBTCが必要です。十分な所持金があるか確認してください。必要な費用と手に入るクラフトスキル経験値の詳細は、一覧で表示されます。
+装備を作りたい時には、使用するキャッシュを選択してください。なお、同じキャッシュを複数所持していれば、作成する個数を尋ねるダイアログが表示されるので、その数を指定してください。 
 
-A good strategy is to print all the trash items first then the common, saving rare, legendary and epic for later levels. The reason for this is that printing trash and common quality items first will provide you with printing experience; these items can then be scrapped to acquire Tech Scraps, which can also boost your Printing Level or be used to craft other items and unlock locked containers.
+ゲームを始めたばかりのあなたに、装備の生産のコツをお教えします。まず何といってもクラフトスキルを上げることが重要です。そのためには、クラフトスキルの経験値を獲得しなくてはなりません。だから、最初はゴミみたいなキャッシュ⇒普通⇒高品質のキャッシュの順に装備を生産しましょう。珍しいキャッシュや伝説のキャッシュ、そして英雄のキャッシュは、ある程度レベルが上がるまで保存しておきましょう。なお、生産した装備を廃棄すればテックスクラップが取得できます。テックスクラップは、クラフトスキルを上げたり、他のアイテムを作成したり、ロックされたコンテナを開けるときに使用できます。
 
-## Weaponsmith  
+## 装備屋  
 ![Weaponsmith](/resources/mobile-tutorial/WeaponSmith.png)  
-The Weaponsmith is a vendor in Shangri-La City Center who has items for sale and allows you to sell your items for BTC. You will see the items available for sale at the top. You can click on any of them and choose Buy if you can afford them.  
-If you have equipment with the **bargain** stat, you will get a better deal.  
+装備屋はシャングリ・ラ中心街に住む商人です。彼女はアイテムの販売及び買い取りを行っています。装備屋に行くとあなたが購入可能なアイテムが表示されます。もしあなたが十分なBTCを持っていれば、そのアイテムをクリックして購入できます
+もしあなたの装備している武器や防具にバーゲンの特性が付与されていれば、購入の際にあなたは割引を受けることができます。 
 
-If you want to sell something to the Weaponsmith, you will need to open your inventory, click on any item you wish to sell and choose the Sell option. For some items, it may be more worth it to sell them at the player market.
+武器屋に何かを売りたい場合は、「**売る**」をクリックしてインベントリを開き、売りたいアイテムをクリックしてください。ただし、シャングリ・ラ商店街で他のプレーヤーに販売する方が高く売れることも多々あります。
 
-You can repair your items here too. You lose durability the more you use your equipment. It costs very little to repair them to mint condition, so be sure to repair frequently as needed.
+ここでは、アイテムを修理することもできます。近くの敵に対して戦闘を繰り返すと、次第に装備品の耐久性が失われます。ほとんど費用をかけずに新品同様に修理できるので、こまめに修理してください。
 
-## Trinoky Mart  
+## トリノキーマート 
 ![Trinoky Mart](/resources/mobile-tutorial/TrinokyMart.png)  
-Here you can buy medical items with BTC. Prices are completely separate from the player market, so be sure to check both!  
+BTCで回復アイテムを購入できます。価格はシャングリ・ラ商店街で他のプレーヤーから購入するほうが安いこともあるので、両方をチェックしましょう。
 
-## Terminal 
+## ターミナル
 ![Terminal](/resources/mobile-tutorial/Terminal.png)  
-The terminal is used to merge key fragments into secret keys to unlock higher-level train stations.
+ターミナルでは、必要なキーフラグメントを揃えてシークレットキーを作れます。シークレットキーがあれば、さらに上位のレベルの駅に行けるようになります。
 
-Here you can also unlock locked containers (found in dungeons) with the Tech Scrap that you have.
+ここでは、ダンジョンなどで手に入れたロックされたコンテナを開けることができます。その際、BTCとテックスクラップが必要になります。
 
-## Bank of Arasaka
+## アラサカ銀行
 ![Bank of Arasaka](/resources/mobile-tutorial/BankOfArasaka.png)  
-In addition to your inventory, each player also has access to a vault in the Shangri-La State Bank.
+多くのプレイヤーが、金庫室にアイテムを預けにやってきます。そうすることでインベントリの不足に対応できるからです。また、BTCを預けることも可能であり、銀行に預けているBTCはデスペナルティの影響を受けません。ダンジョンに潜ったり、強敵と戦うときには、BTCをあらかじめ預けておくことを推奨します。
 
-Initially you have 6 bank slots. You can choose to permanently expand slots by paying BTC. Keep in mind that the cost of the slots you buy will increase with each purchase.  
+以下、アイテムの預けかたについて説明します。最初は６枠までアイテムを預けられます。その数を増やしたければ、 BTCを払って金庫のスロット数をアップグレードしてください。預けられる数を永久的に増やすことができます。必要な費用は、金庫のスロット数が増えるごとに高額になるので注意してください。
 
-Items that are stackable will occupy only one bank slot just like in your inventory. Each deposit will cost 100 BTC, but taking something out is free of charge.  
+同じアイテムを複数預ける場合、そのアイテムはインベントリと同じように1つの枠にまとめられます。アイテムを預ける際、取り出すのは無料ですが、預けるたびに手数料として１００BTCが必要になる点には注意してください。
 
-## Hyper Train Central Station  
+## ハイパーループセントラルステーション 
 ![Hyper Train Station](/resources/mobile-tutorial/HyperTrainCentralStation.png)  
-This is where your adventure begins. The train can take you to multiple stations. Each station has three areas full of enemies of different levels. This is also where you will find dungeons. Gather 3 unique key fragments from the dungeons to unlock the next train station.  
+あなたの冒険はここから始まります。ここから電車でいろんな駅に行くことができます。各駅には3つのエリアがあり、いずれもさまざまなレベルの敵がいっぱいいます。また、ここにはダンジョンもあります。ダンジョンからそれぞれの駅ごとに必要な3つのキーフラグメントを収集することで、次の駅のロックを解除できます。  
 
-In each station, you can also use your AI Cores to farm EXP and scavenge for materials that are needed for crafting healing items and ammo.
+各ステーションではEXPファームとリソース収集も可能です。EXPファームはAIコアを使用して経験値を稼ぎながら、様々なアイテムを集めることができます。また、リソース収集では経験値は稼げませんが、AIコアを使用せずに、回復アイテムや弾薬を作成するために必要な材料など様々なアイテムを獲得できます。またリソース収集を実行すれば、収集スキルの経験値も取得できます。
 
-## Shangri-La Commercial Area (Job Hub)  
+##  シャングリ・ラ商業地区（短期職業訓練）
 ![Commercial Area](/resources/mobile-tutorial/Shangri-LaCommercialArea.png)  
-At this location, you can look for jobs to increase your printing level, ammo/medical crafting levels, and mining level. Each job (AFK activity) contains details on what you can accomplish with it.
+ここでは、各種スキル（クラフト／弾薬作成／医療／マイニング）を訓練できます。選んだ仕事によって、獲得できるスキル経験値や報酬は異なります。得られるスキル経験値や報酬の詳細も一覧で表示されるので、確認したうえで訓練を受けましょう。
 
-## Shangri-La Market Street  
+##  シャングリ・ラ商店街
 ![Street Market](/resources/mobile-tutorial/Shangri-LaMarketStreet.png)  
-Here you can sell and purchase items to and from other players within the game for BTC.  
+ここでは、他のプレイヤーとアイテムを売買できます。取引にはBTCを使います。
 
-Keep in mind that whenever you want to sell or buy an item on the market, you will have to complete a captcha of 4 numbers.  
-This is in place to prevent bots from using and manipulating the player market.
+なお、市場でアイテムを販売または購入する場合には、毎回指定された4桁の数字を入力する必要があります。 
+これは、ボットなどが不当にプレーヤー市場に参入し、価格などを操作することを防ぐためのものです。
 
-## Cosmetic Cyberwear  
+## コスメティックサイバーウェア 
 ![Cosmetic Cyberwear](/resources/mobile-tutorial/CosmeticCyberwear.png)  
-In this location you can buy in-game subscriptions for real money.  
+ここでは、定額サービスを現実世界のお金で購入できます。
 
-These subscriptions help maintain the cost of the game and allows you, depending on the type of subscription, to have a coloured chat border, a background animation for your profile, a title and the ability to upload a custom profile picture.
+定額サービスの種類に応じて、色付きのチャットボーダー、プロファイルの背景アニメーション、タイトル、およびカスタムプロファイル画像をアップロードする機能が追加されます。これらの定額サービスによって、このゲームはサーバーの維持費などをまかなっています。
 
-Please keep in mind that you are not forced to purchase these subscriptions at all and **these subscriptions offer no P2W benefits**.  
-These subscription benefits are purely cosmetic.  
-You can still play the game without subscribing.
+これらの定期購入は購入する必要はまったくありません。また、**これらの定期購入によって、ゲームの進行において、ほかの人より有利になることはありません**。その点はご注意ください。 
+これらの定期購入のメリットは、純粋にビジュアルだけのものです。
+購入しなくてもゲームのプレイには全く問題はありません。
 
-## Arasaka Unit Exchange
+## アラサカUnit交換所
 ![Arasaka Exchange](/resources/mobile-tutorial/ArasakaUnitExchange.png)  
-Here you can buy Transmitters that have various effects. These Transmitters are purchaseable only with Units (premium currency).  
+ここでは、世界にさまざまな影響を与えるトランスミッター装置を購入できます。これらの装置はBTCでは購入できません。Unitというプレミアム通貨でのみ購入できます。
 
-Keep in mind that if one player activates a Transmitter, every player on the server will benefit from it.  
-**They are not P2W.**  
-They can't offer an advantage to only one player. Everyone benefits from the effects.  
+1人のプレーヤーがトランスミッター装置を使用すると、サーバー上のすべてのプレーヤーがその恩恵を受けられます。 
+**使った人だけが得をするわけではありません。**  
+あなたが装置を使用すればみんなが得をします。ほかの人が装置を使用してもみんなが得をします。すべての人が効果の恩恵を受けます。
 
-Here you can also purchase Units, the in-game premium currency, with real money.
-In the Android/Apple application, the prices of Units will appear in your local currency.  
-In the browser version (both mobile or desktop views), the prices will appear in USD only.
+ここでは、Unitを現実世界のお金を使って購入可能です。
+Android / Appleのアプリケーションでは、Unitの価格は現地の通貨で表示されます。
+ブラウザ版（モバイルビュー/デスクトップビュー）では、価格は米ドルでのみ表示されます。
