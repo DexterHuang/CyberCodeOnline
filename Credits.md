@@ -79,6 +79,7 @@ Wanna
 [Voth](https://github.com/Vothcito) 
 [WhiteKr](https://github.com/WhiteKr)
 [Chino](https://github.com/Chino-wid) 
+[UGA_UGA](https://github.com/mdendena2000) 
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
