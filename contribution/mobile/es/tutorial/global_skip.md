@@ -1,4 +1,4 @@
-#Salto Global
+# Salto Global
 
 **Salto Global** es una característica del juego que permite a los jugadores acelerar los tiempos AFK hasta una determinada duración. Cuando un jugador activa el Salto Global, afecta a todos los jugadores que comenzaron su tarea AFK con anterioridad. Como el beneficio se aplica a todos los jugadores AFK, se añade al sistema de colas y progresa uno por uno. Los efectos tardan entre 1 y 3 minutos en aplicarse a todos (puede tardar incluso más dependiendo de lo grande que sea la cola).
 
