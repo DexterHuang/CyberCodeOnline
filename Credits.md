@@ -82,7 +82,7 @@ Wanna
 [shangho](https://github.com/5h4ngho) 
 [Voth](https://github.com/Vothcito) 
 [WhiteKr](https://github.com/WhiteKr)
-[Chino](https://github.com/Chino-wid) 
+[Chino](https://github.com/Chino-wid)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
@@ -120,6 +120,7 @@ RezaRnew100
 [Veyrin](https://github.com/darkrevelations)
 WoLoLoiK
 LieRenThePope
+[DOUNODEWAE](https://github.com/js147896325)
 
 ## Dungeons
 Alecto
