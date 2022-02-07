@@ -31,6 +31,7 @@ Proxxie
 [alfaice](https://github.com/alfaice)
 [AlphaC58](https://github.com/AlphaC58)
 [ArbiwReist](https://github.com/Meawresion)
+[Baronfolgado](https://github.com/Baronfolgado)
 [clsc](https://github.com/claaaaassic)
 [CynexXT](https://github.com/CynexXT)
 [Destro9000](https://github.com/Destro9000)
