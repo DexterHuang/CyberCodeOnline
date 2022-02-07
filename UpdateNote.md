@@ -50,6 +50,7 @@ Captchas in dungeons will be randomly replaced by more engaging minigames!! In t
 
 ## Updates  
 ### 2022/02/07 v0.780
+- UPDATE - Updated alt detection algorithm
 - UI - Added discount display for unit based donation
 - FIX - Fixed personal cali stacking issue
 - FIX - Fixed some subscription related bug.
