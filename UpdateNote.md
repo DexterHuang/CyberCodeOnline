@@ -49,6 +49,10 @@ Captchas in dungeons will be randomly replaced by more engaging minigames!! In t
   - No, not at all, it shouldnt matter too much actually it is because I am worried that players may get mad when they see changes happen without being giving me or the game some time to fix stuff.
 
 ## Updates  
+### 2022/02/07 v0.780
+- FIX - Fixed some subscription related bug.
+- CHANGE - `Exp memory` are now temporarily removed from drop list as it is causing some issue serverside.
+
 ### 2022/02/05 v0.780
 - OPTIMIZATION - Major serverside optimization, this should reduce size of packets receive by the client, saves data on your mobile also reduce load on the server
 
