@@ -14,6 +14,10 @@ Fudgee
 Unca_Feddit
 [WhirlingDervish](https://github.com/NickN5)
 HLYGD
+Prodam
+Tear1
+Keevin
+Krolik
 
 ## Music
 [CMDR7](https://github.com/cmdr7)
@@ -89,6 +93,7 @@ Wanna
 [Sakura](https://github.com/lux-sakura)
 [Kimi Leta](https://github.com/kimileta)
 [Yahishiro](https://github.com/Yahishiro)
+[Prodam](https://github.com/Pr0dam)
 
 ## Lore
 [Ayanna](https://github.com/JustACloud)
@@ -219,6 +224,7 @@ Satan
 [Veyrin](https://github.com/darkrevelations)
 [Sakura](https://github.com/lux-sakura)
 [Yahishiro](https://github.com/Yahishiro)
+[Prodam]
 
 ## Tips
 [Archibaald](https://github.com/Archibaald-dev)
