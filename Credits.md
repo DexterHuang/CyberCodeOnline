@@ -14,6 +14,10 @@ Fudgee
 Unca_Feddit
 [WhirlingDervish](https://github.com/NickN5)
 HLYGD
+Prodam
+Tear1
+Keevin
+Krolik
 
 ## Music
 [CMDR7](https://github.com/cmdr7)
@@ -27,6 +31,7 @@ Proxxie
 [alfaice](https://github.com/alfaice)
 [AlphaC58](https://github.com/AlphaC58)
 [ArbiwReist](https://github.com/Meawresion)
+[Baronfolgado](https://github.com/Baronfolgado)
 [clsc](https://github.com/claaaaassic)
 [CynexXT](https://github.com/CynexXT)
 [Destro9000](https://github.com/Destro9000)
@@ -77,9 +82,9 @@ Wanna
 [Jeremy2801](https://github.com/Jeremy2801) 
 [shangho](https://github.com/5h4ngho) 
 [Voth](https://github.com/Vothcito) 
-[WhiteKr](https://github.com/WhiteKr)
+[WhiteKr](https://github.com/WhiteKr) 
 [Chino](https://github.com/Chino-wid) 
-[UGA_UGA](https://github.com/mdendena2000) 
+[UGA_UGA](https://github.com/mdendena2000)    
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
@@ -90,6 +95,7 @@ Wanna
 [Sakura](https://github.com/lux-sakura)
 [Kimi Leta](https://github.com/kimileta)
 [Yahishiro](https://github.com/Yahishiro)
+[Prodam](https://github.com/Pr0dam)
 
 ## Lore
 [Ayanna](https://github.com/JustACloud)
@@ -116,6 +122,7 @@ RezaRnew100
 [Veyrin](https://github.com/darkrevelations)
 WoLoLoiK
 LieRenThePope
+[DOUNODEWAE](https://github.com/js147896325)
 
 ## Dungeons
 Alecto
@@ -220,6 +227,7 @@ Satan
 [Veyrin](https://github.com/darkrevelations)
 [Sakura](https://github.com/lux-sakura)
 [Yahishiro](https://github.com/Yahishiro)
+[Prodam]
 
 ## Tips
 [Archibaald](https://github.com/Archibaald-dev)

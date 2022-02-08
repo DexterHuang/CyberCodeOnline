@@ -82,9 +82,9 @@ En general, el artículo de curación / cantidad de curación / requisito de niv
 
 > **Bot Nano Médico Degradado** (6001+ Salud) - Ciencia Médica 20 ; 4 Tecnología Médica
 
-**Bot Nano Médico** (12001+ Salud) - Ciencia Médica 30 ; 8 Tecnología Médica
+> **Bot Nano Médico** (12001+ Salud) - Ciencia Médica 30 ; 8 Tecnología Médica
 
-**Bot Nano Médico Militar** (26001+ Salud) - Ciencia Médica 40 ; 16 Tecnología Médica
+> **Bot Nano Médico Militar** (26001+ Salud) - Ciencia Médica 40 ; 16 Tecnología Médica
 
 > **Bot Nano Médico Avanzado** (54001+ Salud) - Ciencia Médica 50 ; 32 Tecnología Médica
 
@@ -93,7 +93,8 @@ En general, el artículo de curación / cantidad de curación / requisito de niv
 > **Bot Nano Médico Raro** (240001+ Salud) - Ciencia Médica 90 ; 128 Tecnología Médica
 
 > **Bot Nano Médico Legendario** (480001+ Salud) - Ciencia Médica 110 ; 256 Tecnología Médica
-**Bot Nano Médico Épico** (1000001+ Salud) - Ciencia Médica 130 ; 256 Tecnología Médica
+
+> **Bot Nano Médico Épico** (1000001+ Salud) - Ciencia Médica 130 ; 256 Tecnología Médica
 
 ### Curas en grupo  
 Las curaciones de grupo pueden curar a todo el grupo en una mazmorra cuando se usan, pero curarán a cada persona menos que las curaciones individuales del mismo nivel. Las curaciones de grupo son objetos como el Spray Antidolor y cualquier cosa que contenga Drone (por ejemplo, Drone Nano Médico). Para fabricar curaciones de grupo, necesitas la curación individual del mismo nivel y el número asociado de chatarra tecnológica. Por ejemplo, para fabricar el Spray Antidolor necesitas 1 Pain Away y 1 Chatarra Tecnológica. 
@@ -102,23 +103,23 @@ En general, el ítem de curación / cantidad de curación / requisito de nivel m
 
 > **Spray Antidolor** (301+ Salud) - Ciencia Médica 10 ; 1 Antidolor y 1 Chatarra Tecnológica
 
-> Drone de Reparación Degradado** (901+ Salud) - Ciencia Médica 20 ; 1 Nano Bot de Reparación Degradado & 1 Chatarra Tecnológica
+> **Drone de Reparación Degradado** (901+ Salud) - Ciencia Médica 20 ; 1 Nano Bot de Reparación Degradado & 1 Chatarra Tecnológica
 
-> Drone Nano Médico Degradado** (4001+ Salud) - Ciencia Médica 30 ; 1 Bot Nano Médico Degradado & 1 Chatarra Tecnológica
+> **Drone Nano Médico Degradado** (4001+ Salud) - Ciencia Médica 30 ; 1 Bot Nano Médico Degradado & 1 Chatarra Tecnológica
 
 > **Drone Nano Médico** (10001+ Salud) - Ciencia Médica 40 ; 1 Bot Nano Médico & 1 Chatarra Tecnológica
 
-**Drone Nano Médico Militar** (20001+ Salud) - Ciencia Médica 50; 1 Bot Nano Médico Militar y 1 Chatarra Tecnológica
+> **Drone Nano Médico Militar** (20001+ Salud) - Ciencia Médica 50; 1 Bot Nano Médico Militar y 1 Chatarra Tecnológica
 
 > **Drone Nano Médico Avanzado** (40001+ Salud) - Ciencia Médica 60 ; 1 Bot Médico Nano Avanzado y 1 Chatarra Tecnológica
 
-**Drone Nano Médico de Alta Calidad** (80001+ Salud) - Ciencia Médica 80; 1 Bot Nano Médico de Alta Calidad y 1 Chatarra Tecnológica
+> **Drone Nano Médico de Alta Calidad** (80001+ Salud) - Ciencia Médica 80; 1 Bot Nano Médico de Alta Calidad y 1 Chatarra Tecnológica
 
-> Drone Nano Médico Raro** (160001+ Salud) - Ciencia Médica 100 ; 1 Bot Nano Médico Raro & 1 Chatarra Tecnológica
+> **Drone Nano Médico Raro** (160001+ Salud) - Ciencia Médica 100 ; 1 Bot Nano Médico Raro & 1 Chatarra Tecnológica
 
-**Drone Nano Médico Legendario** (320001+ Salud) - Ciencia Médica 120 ; 1 Bot Nano Médico Legendario y 1 Chatarra Tecnológica
+> **Drone Nano Médico Legendario** (320001+ Salud) - Ciencia Médica 120 ; 1 Bot Nano Médico Legendario y 1 Chatarra Tecnológica
 
-**Drone Nano Médico Épico** (640001+ Salud) - Ciencia Médica 140 ; 1 Bot Nano Médico Épico y 1 Chatarra Tecnológica
+> **Drone Nano Médico Épico** (640001+ Salud) - Ciencia Médica 140 ; 1 Bot Nano Médico Épico y 1 Chatarra Tecnológica
 
 
 ## Consumibles
@@ -138,8 +139,8 @@ El **Procesador de Hash** es esencial para los jugadores como una forma de ganar
 - Para propósitos de mercado, los jugadores pueden vender estos artículos en **Calle del Mercado Shangri-La**, siguiendo los precios actuales del mercado. 
 - Para propósitos de comercio, los jugadores pueden intercambiar su Procesador Hash por varios artículos con otros jugadores, tales como partes de tecnología médica, núcleos de IA, contenedores, etc. 
 
-### Memoria de Experiencia / Fragmento
-**La memoria de experiencia es un objeto que los jugadores pueden utilizar para ganar EXP al instante. La diferencia entre Memoria y Fragmento es el tipo de EXP, ya que la Memoria gana EXP de Personaje y el Fragmento gana EXP de Habilidades respectivamente. Estos objetos no son negociables y es mejor utilizarlos cuando el **Transmisor de Mejora de la Corteza Frontal** o el **Buffing de EXP** estaban en efecto.
+### Capsula de Experiencia / Fragmento
+La **capsula de experiencia** es un objeto que los jugadores pueden utilizar para ganar EXP al instante. La diferencia entre Memoria y Fragmento es el tipo de EXP, ya que la Memoria gana EXP de Personaje y el Fragmento gana EXP de Habilidades respectivamente. Estos objetos no son negociables y es mejor utilizarlos cuando el **Transmisor de Mejora de la Corteza Frontal** o el **Buffing de EXP** estaban en efecto.
 
 ### Contenedores
 Los **Contenedores** son esenciales para los jugadores como una forma alternativa de encontrar Procesador de IA / Hash, un ítem de valor de Mercado y Moneda de Comercio.  
@@ -149,7 +150,7 @@ Para abrir Contenedores bloqueados, los jugadores deben visitar la **Terminal** 
 Los jugadores también pueden utilizar el Contenedor como un artículo de mercado o como moneda de cambio, lo que beneficia a los jugadores a través de BTC u otros artículos comercializados.
 
 ### Núcleo de Calibración de Equipo
-**El Núcleo de Calibración de Equipo** se utilizaba como objeto de calibración. Cada vez que un jugador intenta hacer una calibración, los jugadores deben insertar el Núcleo de Calibración de Equipo antes de proceder a la calibración del equipo. La explicación en torno a la Calibración se puede encontrar en [Calibration's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
+El **Núcleo de Calibración de Equipo** se utilizaba como objeto de calibración. Cada vez que un jugador intenta hacer una calibración, los jugadores deben insertar el Núcleo de Calibración de Equipo antes de proceder a la calibración del equipo. La explicación en torno a la Calibración se puede encontrar en [Calibration's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
 
 Los jugadores también pueden usar el Núcleo de Calibración de Equipo como un ítem del Mercado o como Moneda de Intercambio, los cuales benefician a los jugadores a través de BTC u otros ítems intercambiados.
 
@@ -208,11 +209,11 @@ Este ítem afecta globalmente y se usa para aumentar el BitCoin. Cada Transmisor
 ### Transmisor de Mejora de la Corteza Frontal
 Este objeto afecta globalmente y se utiliza para aumentar las ganancias de EXP. Cada Transmisor de Optimización de la Corteza Frontal proporcionará un aumento de +80% en la ganancia de EXP durante 20 minutos. El apilamiento no hace nada más que reiniciar su temporizador debido a su impulso máximo. Puedes usar otro para extender la duración del impulso, reiniciando así el temporizador.
 
-### Fragmento de Calibración
+### Capsula de Calibración
 Este ítem afecta globalmente. Sólo afecta durante 5 minutos con el propósito de minimizar la posibilidad de fallo de calibración (que va del 10% al 300%). Sólo se apila dos veces con cada rareza (por ejemplo, el 10% (o llamado Rare Shard) sólo puede apilarse con el otro 10% y no con otras variaciones como el 50% o incluso el 100%). La explicación en torno a la Calibración se puede encontrar en [Calibration's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
 
-### Seguridad Nano Calibración Bot
-Este elemento afecta globalmente. Sólo afecta durante 5 minutos con el propósito de anular el fallo de calibración (hasta el 100%). Se apila con otros Nano de Seguridad. La explicación sobre la Calibración se puede encontrar en [Calibration's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
+### Nano Bot de Calibración Segura
+Este elemento afecta globalmente. Sólo afecta durante 5 minutos con el propósito de anular el fallo de calibración (hasta el 100%). Se apila con otros Nano Bots de Seguridad. La explicación sobre la Calibración se puede encontrar en [Calibration's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
 
 ### Chat Exploit
 Este elemento no da al jugador ningún beneficio aparte de alterar el texto del chat. Afecta globalmente y puede ser interrumpido usando **CyberTunnel VPN**. El Chat Exploit en sí tiene una variedad de alteraciones que van desde UwU (que UwU-ifica el texto) hasta Pirate (que altera el texto en lenguaje pirata).
@@ -227,7 +228,7 @@ Estos **Modificadores** sólo se pueden encontrar en la mazmorra, aceptando una 
 Los tipos / clases de modificadores se pueden resumir de la siguiente manera:
 
 ### Sobrecarga
-**La sobrecarga afecta al daño del jugador en un periodo de tiempo determinado. Los modificadores de daño van desde el +5% (**Sobrecarga I**) hasta el +25% (**Sobrecarga V**)
+La **sobrecarga** afecta al daño del jugador en un periodo de tiempo determinado. Los modificadores de daño van desde el +5% (**Sobrecarga I**) hasta el +25% (**Sobrecarga V**)
 
 ### Reforzado
 **Reforzar** afecta a la defensa del jugador en un periodo de tiempo determinado. Los modificadores de defensa van desde +5% (**Reforzado I**) hasta +25% (**Reforzado V**)
