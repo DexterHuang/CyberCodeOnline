@@ -82,8 +82,9 @@ Wanna
 [Jeremy2801](https://github.com/Jeremy2801) 
 [shangho](https://github.com/5h4ngho) 
 [Voth](https://github.com/Vothcito) 
-[WhiteKr](https://github.com/WhiteKr)
-[Chino](https://github.com/Chino-wid)
+[WhiteKr](https://github.com/WhiteKr) 
+[Chino](https://github.com/Chino-wid) 
+[UGA_UGA](https://github.com/mdendena2000)    
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
