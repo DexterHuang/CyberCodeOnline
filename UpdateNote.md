@@ -51,7 +51,7 @@ Captchas in dungeons will be randomly replaced by more engaging minigames!! In t
 ## Updates  
 ### 2022/02/08 v0.780
 - UI - Removed skip like counter, its eating up too much server resource without being very meaningful 
-- UI - Optimized skip queue counter, it now shows less accurate (less realtime) counter to save server resource and reduce mobile data usage
+- UI - Optimized skip queue counter, it now shows less accurate (less realtime) counter to save server resource and reduce mobile data usage, this update only affects client UI, does not speed up or slow down the queue itself. skipping code is not touched.
 
 ### 2022/02/07 v0.780
 - UPDATE - Updated alt detection algorithm
