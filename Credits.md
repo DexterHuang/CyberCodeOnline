@@ -159,6 +159,7 @@ SKIFFI
 [Tripplehelix](https://github.com/tripplehelix)
 Vega_Efsunborn
 [Veyrin](https://github.com/darkrevelations)
+[Visper22](https://github.com/Visper22)
 Willbur
 Xalaram
 xRavenx
