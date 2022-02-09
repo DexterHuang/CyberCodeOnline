@@ -18,6 +18,7 @@ Prodam
 Tear1
 Keevin
 Krolik
+[Mancipi](https://github.com/Mancipi)
 
 ## Music
 [CMDR7](https://github.com/cmdr7)
@@ -84,7 +85,8 @@ Wanna
 [Voth](https://github.com/Vothcito) 
 [WhiteKr](https://github.com/WhiteKr) 
 [Chino](https://github.com/Chino-wid) 
-[UGA_UGA](https://github.com/mdendena2000)    
+[UGA_UGA](https://github.com/mdendena2000)
+[Mancipi](https://github.com/Mancipi)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
