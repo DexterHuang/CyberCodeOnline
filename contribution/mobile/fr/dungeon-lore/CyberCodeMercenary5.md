@@ -1,0 +1,6 @@
+# La nouvelle race de surhumains est parmi nous
+> (partie 5 de 12 série des mercenaires du Cyber Code)
+
+Après de nombreuses expériences ratées causant la perte de plusieurs vies humaines, le premier super soldat a finalement été créé le 29 octobre 2062. Équipé d'un endosquelette entièrement en alliage de titane, de membres modulaires entièrement reconfigurables, de capteurs optiques et acoustiques remplaçables, d'un accélérateur cérébral de qualité militaire et d'une sauvegarde neuronale toujours en ligne avec plusieurs corps de sauvegarde répartis sur plusieurs bases militaires, le résultat du projet Cyber ​​Code est juste en deçà d'un super soldat immortel. La seule façon de les tuer définitivement est de détruire les 262 usines de sauvegarde de Cyber Code dans les 10 secondes nécessaires à une sauvegarde cérébrale complète. Cela marque la première création du premier super soldat de l'histoire.
+
+Après que le succès du projet Cyber Code ait été repris par l'Organisation du Gouvernement Mondial, une quantité massive de financement a été allouée pour commencer à augmenter les soldats avec les résultats de recherche du projet Cyber Code. Le groupe de soldats d'élite qui a reçu une force surhumaine avec une prise de décision et des temps de réaction ultra rapides s'appelait The Cyber Code Mercenaries.
