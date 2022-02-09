@@ -49,6 +49,10 @@ Captchas in dungeons will be randomly replaced by more engaging minigames!! In t
   - No, not at all, it shouldnt matter too much actually it is because I am worried that players may get mad when they see changes happen without being giving me or the game some time to fix stuff.
 
 ## Updates  
+### 2022/02/09 v0.780
+- FIX - Fixed health regen not updating health UI
+- NEW - Added block feeature, you can now block players
+
 ### 2022/02/08 v0.780
 - UI - Removed skip like counter, its eating up too much server resource without being very meaningful 
 - UI - Optimized skip queue counter, it now shows less accurate (less realtime) counter to save server resource and reduce mobile data usage, this update only affects client UI, does not speed up or slow down the queue itself. skipping code is not touched.
