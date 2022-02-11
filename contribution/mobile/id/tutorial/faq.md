@@ -1,250 +1,246 @@
-### What is this game, and what do I do?
-Basically you adventure around 'Train Stations' and either defeat individual enemies or conquer entire dungeons.
-You'll randomly receive items, equipment or caches after defeating enemies.
+### Game apa ini, dan apa yang harus saya lakukan?
+Pada dasarnya Anda berpetualang disekitar 'Stasiun Kereta' dan mengalahkan musuh atau menaklukkan seluruh Dungeon.
 
-**You will receive BTC and EXP inside a battle, but items won't drop after every single battle.**
+Anda akan mendapatkan item acak, perlengkapan atau cache setelah mengalahkan musuh.
 
-### Is this game P2W (Pay-to-Win)?
-No. There's no element in this game that would benefit or offer additional advantages to some players over others.
+**Anda akan mendapatkan BTC and EXP didalam pertarungan, tapi item tidak tentu didrop disetiap pertarungan.**
 
-The Transmitters sold in the Arasaka Unit Exchange have a global effect, which means once it is activated, all players on the server will benefit from the effect that it gives. Similarly, the Global Skips that can be purchased apply to all players who have started AFK tasks.
+### Apakah game ini P2W (Pay-to-Win)?
+Tidak. Tidak ada unsur didalam game ini yang bisa menguntungkan atau menawarkan keuntungan lebih ke beberapa pemain tertentu.
+Pemancar (transmitter) dijual di Kantor Bursa Arasaka memiliki Efek Global, yang berarti setelah diaktifkan, semua pemain di server akan mendapatkan keuntungan dari efek tersebut. Demikian juga, Global Skip yang bisa dibeli diterapkan ke semua pemain yang memulai tugas AFK.
 
-The developer intends to keep the game non-P2W into the future.
+Developer bermaksud untuk tetap menjadikan game ini non-P2W kedepannya. 
 
-### How can I help out?
-All user-contributed content can be found on the [Github](https://github.com/DexterHuang/CyberCodeOnline).  
-Feel free to submit a PR (Pull Request).
+### Bagaimana saya bisa membantu?
+Semua konten kontribusi-pemain bisa ditemukan di [Github](https://github.com/DexterHuang/CyberCodeOnline).  
+Jangan ragu untuk menyerahkan PR (Pull Request).
 
-### Does this game have any social media?
-Yes. You can find our community on [Discord](https://discord.link/cco) and on [Reddit](https://www.reddit.com/r/CyberCode_Online/).
+### Apakah game ini punya sosial media?
+Ya. Anda bisa menemukan komunitas kami di [Discord](https://discord.link/cco) dan di [Reddit](https://www.reddit.com/r/CyberCode_Online/).
 
-The developer (DexterHuang) also has a [Patreon](https://www.patreon.com/cybercodeonline) for donations that will help support and maintain the game.
+Developer (DexterHuang) juga punya [Patreon](https://www.patreon.com/cybercodeonline) untuk donasi yang akan membantu mendukung dan merawat gamenya.   
 
-These social links can also be found by accessing ☰ and clicking on the chain link symbol on mobile or by accessing the respective platform icons on the left side of the web view.
+Link sosial ini juga bisa ditemukan dengan mengakses ☰ dan mengklik bagian simbol rantai di ponsel atau dengan mengakses masing-masing ikon platform di sisi kiri tampilan web.
 
-### What programs or languages are being used for the creation of this game?
-CyberCode Online is a game developed using [ReactJS](https://reactjs.org/) with player contributions from [Github](https://github.com/DexterHuang/CyberCodeOnline).
+### Program apa atau bahasa apa yang digunakan dalam pembuatan game ini?
+CyberCode Online adalah sebuah game yang dikembangkan menggunakan [ReactJS](https://reactjs.org/) dengan kontribusi pemain dari [Github](https://github.com/DexterHuang/CyberCodeOnline).
 
-### Is the game translated in other languages?
-Yes. This game is currently translated in 15 languages.
+### Apakah gamenya di terjemahkan ke bahasa lain?
+Ya. Saat ini gamenya diterjemahkan ke dalam 15 bahasa.
 
-To change the language of the game,  
-go to Map and click on ⚙️.
+Untuk mengganti bahasa game, pergi Peta dan klik ⚙️.
 
-Please notice that the translations might contain mistakes, be incomplete or some parts of the game might be completely untranslated.
-If the game is not translated in your language or you want to improve the current translations, please head out to our [Github](https://github.com/DexterHuang/CyberCodeOnline).
+Tolong diperhatikan bahwa terjemahan mungkin salah, tidak lengkap atau beberapa bagian dari game tidak diterjemahkan seluruhnya.
+Jika gamenya tidak diterjemahkan dalam bahasa Anda atau mungkin Anda ingin memperbaiki terjemahan saat ini, tolong pergi ke [Github](https://github.com/DexterHuang/CyberCodeOnline).
 
-### Is there any customization in the game?
-You can have a custom profile picture in your profile, a Title and a coloured chat border, if you decide to subscribe to one of the 5 Donation Tiers available.
+### Apakah disini ada kostumisasi dalam gamenya? 
+Anda bisa memiliki foto profil kostum, sebuah Gelar dan kotak batas pesan berwarna, jika Anda memutuskan untuk berlangganan salah satu dari 5 Tingkat Donasi yang tersedia. 
 
-Elite Tier and higher, will have access to a bio on their profile and a barcode.  
+Tingkat Elit dan lebih tinggi, akan memiliki akses bio di profil mereka dan sebuah barcode. 
+Keuntungan ini murni hanya untuk hiasan. 
 
-These benefits are purely cosmetic.
+### Bisakah saya mengganti nama?
+Tidak, Anda tidak bisa mengganti nama Anda. 
+Nama pemain Anda permanen untuk sekarang.
 
-### Can I change my name?
-No, you can't change your name.  
-Your username is permanent for now.
+### Bagaimana saya menandai seseorang? Apakah saya bisa mencari nama pengguna lain? 
+Anda bisa menandai dan mencari pengguna dengan mengetik @ di chat diikuti dengan nama mereka (sebagai contoh, ketik @DexterHuang).
 
-### How do I tag someone? Can I search the usernames of other people?
-You can tag and search for a user by typing @ in chat followed by their name (for example, type @DexterHuang).
+Nama mereka akan tetap muncul walaupun mereka sedang tidak online dan mereka akan mendapatkan notifikasi.
 
-They will show up even if they are not online and they will receive a notification.
+### Apakah chat mendukung emoji dan kaomoji? 
+Yap 🤠 ฅ^•ﻌ•^ฅ.
 
-### Does the chat support emojis and kaomojis?
-Yup 🤠 ฅ^•ﻌ•^ฅ.
+Tolong jangan berlebihan dalam menggunakannya atau melakukan spam dengan ini, karena perilaku ini melanggar Peraturan Chat.
 
-Please don't overuse or spam these, as this kind of practice is against the Chat Rules.
+### Apakah game ini ada PvP? 
+Tidak. Untuk sekarang PvP tidak tersedia didalam game.
 
-### Does this game have PvP?
-No. PvP is not currently available in the game.
+### Apa cara paling cepat untuk menaikkan level di game ini?
+Cara paling cepat dan terbaik untuk menaikkan level di game ini adalah memiliki sebuah Pemancar Optimasi Korteks Frontal (XP booster) dalam keadaan aktif dan menyelesaikan tantangan Dungeon.
 
-### What is the fastest way to level up in this game?
-The fastest and best way to level up in this game is to have an Frontal Cortex Transmitter (XP booster) active and to complete challenge dungeons.
+### Apa yang akan terjadi bila saya mati? 
+Anda akan kehilangan beberapa poin pengalaman dan BTC (sekitar 10%); Namun, inventaris Anda akan tetap aman.
 
-### What will happen if I die?
-You will lose some of your experience and BTC (around 10%); however your inventory will be safe.
+### Dimana Player Market?
+Ketika karakter Anda mencapai level 5, Player Market akan terbuka.
+Akan muncul sebagai destinasi baru di 'Central Hub'.
 
-### Where is the Player Market?
-When your character reaches level 5, the player market will be unlocked.  
-It will show up as a new destination in the 'Central Hub'.
+### Apakah game ini mendukung perdagangan jual beli antar pemain?
+Ya, sebagian. Anda bisa mengirim beberapa item ke pemain lain, tapi tidak ada sistem yang memaksa orang lain untuk memberikan sesuatu sebagai gantinya. Sebagian besar perdagangan dilakukan dengan kepercayaan.
 
-### Does the game support trading among players?
-Yes, partially. You can send items to other players, but there isn't a system that forces the other person to give something in exchange. Most trades are conducted with trust.
+Anda tidak bisa memberikan BTC dan Kepingan Kunci ke pemain lain.
 
-You can't gift BTC and key fragments to other players.
+Hanya item penyembuh, amunisi, material, Hash Prosesor, Inti AI dan beberapa tipe barang lainnya.
 
-Only healing items, ammo, materials, Hash Processors, Ai Cores and other types of items.
+### Apa yang harus saya lakukan jika inventaris saya penuh?
+Anda bisa meng-scrap, menghancurkan atau menaruh item tersebut di bank yang berlokasi di Pusat Kota. Perlu diingat bahwa biaya untuk setiap item yang Anda depositkan di bank adalah 100 BTC. Item yang disimpan tidak memakan biaya ketika akan diambil kembali. 
 
-### What should I do if my inventory is full?
-You can either scrap, destroy or store items in the bank located in the City Center. Note that the fee for each item you deposit in the bank is 100 BTC. It doesn't cost anything to take the item back out.
+Anda juga bisa meningkatkan sementara kapasitas inventaris menggunakan 'Pocket' stat yang ditemukan di Perlengkapan dan modul upgrade.
 
-You can also temporarily increase your inventory capacity with the 'Pocket' stat found on equipment and upgrade modules.
+### Bagaimana cara saya membuat item?
+Diatas halaman inventaris, Anda akan menemukan sebuah tab yang bertuliskan 'Membuat'.
 
-### How do I craft items?
-At the top of the Inventory page, you will find a tab called 'Crafting'.
+### Dimana saya bisa mendapatkan item penyembuhan?
+Item penyembuhan bisa dibuat, ditemukan ketika mengalahkan musuh atau ketika membuka crate di dungeon, atau dibeli di Toko Trinoki di Pusat Kota. 
+Bisa juga dibeli dari Player Market.
 
-### Where can I get healing items?
-Healing items can be crafted, found when defeating an enemy or when looting a crate in a dungeon, or purchased at the Trinoky Mart in the City Center.  
-They can also be purchased from the Player Market.
+### Bagaimana saya menggunakan item penyembuhan saya?
+Untuk melengkapi dan menggunakan item penyembuhan Anda, pergi ke inventaris dan dibagian perlengkapan, Anda akan menemukan 3 'Slot Cepat'
+Klik salah satunya dan pilih item penyembuhan yang anda inginkan.
+Item penyembuhan hanya bisa digunakan didalam Dungeon.
 
-### How do I use my healing items?
-To equip and use your healing items, go to your inventory and under your equipment you will find 3 'Quick Slots'.  
-Click on one of them and assign your desired healing item to it.  
-Healing items can be used only inside dungeons.  
+### Kenapa saya tidak bisa menggunakan senjata spesial dan penghancur saya?
+Senjata ini memerlukan amunisi. Senjata Spesial menggunakan Sel Energi dan Senjata Penghancur menggunakan Muatan Anti Materi. 
+Amunisi bisa didapatkan dari musuh, dibuat di inventaris Anda, atau dibeli dari Player Market.
 
-### Why can't I use my Special and Destructive weapons?
-These weapons require ammo. Special weapons uses Energy Cells and Destructive weapons use Anti-Matter Charges.  
-Ammo can be looted form enemies, crafted in your Inventory, or bought on the player market. 
+### Bisakah saya meningkatkan stat senjata dan armor saya? 
+Ya, Anda bisa meningkatkan senjata Anda di Stasiun Kalibrasi yang bisa ditemukan di peta utama Anda. Stasiun Kalibrasi membutuhkan sebuah Inti Kalibrasi Perlengkapan. 
+Kalibrasi memiliki peluang kehancuran, jadi waspadalah terhadap buff Kalibrasi yang peluang kehancurannya lebih rendah.
+### Apa artinya "Kualitas" pada senjata dan armor?
+Kualitas dari armor akan mempengaruhi statnya diberikannya; semakin tinggi kualitasnya, semakin bagus statnya.
+Tingkat Kualitas dimulai dari Sampah > Umum > Kualitas Tinggi > Langka > Legendaris > Epik.
+Anda tidak bisa mengubah kualitas dari senjata atau armor.
 
-### Can I upgrade the stats of my weapons and armour?
-Yes, you can upgrade your weapons at the Calibration Station found in your main map.  The Calibration Station requires an Equiptment Calibration Core.
-Calibration has a chance of destruction, so be on the lookout for Calibration buffs which lower destruction chance.
+###Apa artinya "Daya Tahan" pada senjata dan armor? 
+Daya Tahan adalah kemampuan suatu perlengkapan untuk tetap berfungsi, tanpa memerlukan perawatan atau perbaikan yang berlebihan, ketika menghadapi tantangan operasi normal selama masa pakai yang dirancang (Wikipedia).  Daya Tahan hanya berkurang saat melawan Musuh Terdekat.  Daya tahan tidak terpengaruh saat bertarung di Dungeons.
 
-### What does "Quality" on weapons and armor means?
-The quality of the armor will contribute a lot on the stat it gives; the higher the quality, the better the stats.
-Quality tiers go from Trash > Common > High Quality > Rare > Legendary > Epic.
-You cannot change the Quality of a weapon or armor.
+###Bagaimana saya memperbaiki Daya Tahan senjata saya?
+Anda bisa memperbaiki perlengkapan Anda dengan membayar sedikit BTC di Toko Senjata yang berlokasi di Pusat Kota.
 
-### What does "Durability" on weapons and armor means?
-Durability is the ability of an equipment to remain functional, without requiring excessive maintenance or repair, when faced with the challenges of normal operation over it's designed lifetime. (Wikipedia).  Durability only decreases when fighting Nearby Enemies.  Durability is not impacted when fighting in dungeons.
+### Bisakah saya melepas modul upgrade yang terpasang? 
+Ya. Klik modul upgrade yang terpasang untuk melepasnya dari perlengkapan.
 
-### How do I repair my equipment's durability?
-You can repair your equipment by paying a small amount of BTC at the Weapon Shop located in the City Center.
+### Kenapa perlengkapan yang saya cetak levelnya tidak sesuai? 
+Perlengkapan yang Anda cetak akan mempunyai level yang sama seperti 'Tingkat Mencetak' Anda. Levelnya tidak akan berskala sama dengan level pemain.
 
-### Can I remove installed upgrade modules?
-Yes. Click on the installed upgrade module to remove it from the equipment.
+### Bagaimana saya meningkatkan Tingkat Mencetak saya?
+Ada 3 cara untuk meningkatkan Tingkat Mencetak Anda.
 
-### Why is the equipment I print the wrong level?
-Your printed gear will have the same level as the one from your 'Printing Rank'. It does not scale with player level.
+1. Cetak cache di Printer 3D Molekuler. Setiap cache yang Anda cetak memberi anda poin pengalaman mencetak. Cache Sampah merupakan yang termurah untuk dicetak dan peralatan yang telah dicetak bisa di-scrap untuk mendapatkan Kepingan Teknologi.
 
-### How do I increase my printing rank?
-There are 3 ways to increase your printing rank.
+2. Pelatihan Mencetak AFK. Ada tugas AFK di Area Komersial yaitu 'Bekerja di Pabrik Percetakan' yang akan memberikan Anda poin pengalaman mencetak.
 
-1. Print caches at the 3D Printing Module. Each cache you print gives you printing exp. Trash caches are the cheapest to print and the printed gear can be scrapped for Tech Scrap.
+3. Kepingan Teknologi Rekayasa Balik. Di Area Komersial ada pekerjaan AFK singkat yaitu 'Kepingan Rekayasa Balik' yang menggunakan Kepingan Teknologi untuk meningkatkan Tingkat Mencetak Anda.  Ini adalah cara tercepat untuk meningkatkan peringkat Anda.
 
-2. AFK Printing Training. There is an AFK job in the Commercial Area called 'Work in Printing Factory' that gives you printing exp.
+### Apa itu cache dan apa yang harus saya lakukan dengan itu?
+ Anda dapat menggunakannya untuk membuat peralatan di Printer 3D Molekuler. Tidak disarankan untuk membuang cache Anda karena cache tersebut lebih berharga untuk dicetak atau dijual.
 
-3. Reverse engineering Tech Scraps. In the Commercial Area there is a short AFK job called 'Reverse Engineer Scraps' which uses Tech Scraps to increase your printing rank. This is the fastest way to increase your rank. 
+### Apakah skala level cache sama dengan level saya?  Haruskah saya menyimpannya untuk nanti?
+Cache yang Anda cetak berskala sama dengan Tingkat Mencetak Anda.
+Peralatan yang Anda dapatkan dari mencetak akan selalu memiliki level yang sama dengan Tingkat Mencetak Anda.  Pastikan untuk menaikkan Tingkat Mencetak Anda ke level pemain Anda saat ini, untuk mendapatkan peralatan terbaik dari pencetakan.
 
-### What are caches and what should I do with them?
-You can use them to craft equipment at the Molecular 3D Printer.  It is not recommended to scrap your caches because they are more valuable to print or sell.
+Tidak masalah jika Anda ingin mencetak cache Anda sekarang atau nanti, tapi Anda disarankan untuk menyimpan cache Legendaris untuk level 30-40+. Jika anda memiliki cache Epik, tunggu dan simpan sampai level 100+.
+Cache Legendaris dan Epik lebih mahal ketika dibuat daripada yang Langka, tapi item tersebut memiliki stat yang jauh lebih baik. Item kualitas yang lebih tinggi bisa bertahan cukup lama, dan sepadan dikalibrasi di Stasiun Kalibrasi. 
 
-### Do caches scale with my level? Should I keep them for later?
-The caches you print scale with your Printing Rank.
-The gear that you obtain from them will always have the same level as your Printing Rank. Make sure to level your Printing Rank to your current player level to always receive the best equipment possible from printing.
+### Apakah musuh dengan level yang tinggi memberikan hadiah yang lebih banyak? 
+Ya. Musuh dengan level yang tinggi memberikan Anda lebih banyak BTC dan poin pengalaman setelah Anda mengalahkan mereka. 
+### Apa itu Kontainer Terkunci dan bagaimana saya membukanya? 
+Kontainer Terkunci (✧) bisa ditemukan dan didapatkan dari Dungeon. Kontainer tersebut bisa dibuka menggunakan Kepingan Teknologi di Terminal di Central HUB, dan berisi bermacam-macam hadiah, mulai dari Kepingan Teknologi sampai peralatan Legendaris. 
 
-It doesn't matter if you print your caches now or later, but it's recommended to keep your Legendary caches for levels 30-40+.  If you happen to find an Epic cache, hold onto it until level 100+.
-Legendary and Epic caches are much more expensive to craft than Rare ones, but the items have much better stats.  Higher quality items can last you for a long time, and are often worth calibrating at the Calibration Station.
+Kepingan Teknologi yang dibutuhkan untuk membuka Kontainer adalah 32 Kepingan Teknologi untuk kontainer biasa, 64 keping untuk kontainer langka, dan 128 keping untuk  Legendaris.
 
-### Will higher level enemies give more rewards?
-Yes. Higher level enemies give you more BTC and experience after you defeat them.
+Jika Anda tidak melihat pilihan untuk membuka Kontainer di Terminal, berarti Anda tidak mempunyai Kepingan Teknologi yang cukup.
 
-### What are Locked Containers and how do I unlock them?
-Locked containers (✧) can be found and picked up from dungeons. They can be unlocked using Tech Scraps at the Terminal in the main HUB, and contain various rewards ranging from Tech Scrap to Legendary gear.
+### Apa itu BitCoin (BTC) dan bagaimana saya menukarkannya?
+BitCoin (BTC) disini adalah mata uang didalam game. BitCoin didalam game Anda tidak sama seperti yang ada didunia nyata. Kalaupun memang benar, kita semua akan menjadi lebih kaya daripada Elon Musk!
 
-Tech scrap costs for opening the containers are 32 Tech Scrap for common containers, 64 for rare containers, and 128 for legendary ones.
+### Bagaimana saya mendapatkan lebih banyak BitCoins? 
+BitCoin didapatkan ketika mengalahkan musuh, menjual item di Player Market, dan dengan menambang menggunakan Hash Prosesor. Hash Prosesor ditemukan di Dungeon dan dapat digunakan untuk menambang BitCoin di [Job Hub].
 
-If you don't see the option for unlocking the container at the Terminal, it means you do not have enough Tech Scraps.
+### Apa itu Street Cred?
+Street Cred (Street Credit) merupakan suatu cara untuk mengapresiasi seseorang yang Anda suka atau membantu Anda. Serupa dengan "Karma" poin di Reddit.
 
-### What is BitCoin (BTC) and how do I redeem it?
-BitCoin (BTC) is the game's currency.  Your in game BitCoin isn't the same as the one from the real world. If it was, we would all be richer than Elon Musk!
+Anda bisa memberikan 1 Street Cred per hari. Untuk memberikan Street Cred, pergi ke profil orang yang dituju, gulir ke bawah menuju 'Aksi Pemain' dan klik [BERI STREET CRED] yang terletak dibawah [TAMBAH KE DAFTAR PERTEMANAN]. 
 
-### How do I get more BitCoins?
-BitCoin is obtained when defeating enemies, selling items in the Player Market, and by mining with Hash Processors.  Hash Processors are found in dungeons and may be usd to mine BitCoin at the [Job Hub].
+Pertimbangkan untuk memberi beberapa Street Credit kepada orang yang berkontribusi dalam game ini! Anda bisa melihat listnya di Profil - > Kredit.
 
-### What is Street Cred?
-Street Cred (Street Credit) is a way to appreciate someone you like or who has helped you. They are similar to "Karma" points on Reddit.
+### Apa itu Gang dan bagaimana saya membuatnya?
+Gang serupa dengan Serikat (Guild) atau Klan (Clan) di MMORPGs lain. Bergabung dengan suatu Gang memberikan Anda tugas AFK yang baru, sebuah pendaur ulang untuk membuat Kepingan Teknologi, dan chat Gang! Anda juga mendapatkan akses ke Gang Dungeon, yang dimana memiliki tingkat kesulitan lebih tinggi, tapi dengan hadiah yang lebih bagus daripada Dungeon biasa.
 
-You can give 1 Street Cred per day. To give Street Cred, go to the person's profile, scroll down to 'Player Actions' and click on [GIVE STREET CRED] located under [ADD TO FRIEND LIST].
+Anda bisa membuat Gang dengan memilih Gang chat. Biaya untuk membuat sebuah Gang adalah 50,000 BTC. Gang memiliki biaya pemeliharaan mingguan yang harus dipenuhi untuk menghindari pembubaran. Gang memungkinkan Anda untuk memiliki tag 3 huruf, ditentukan saat geng dibuat, dibatas kotak obrolan Anda.
 
-Consider giving some Street Credit to the people that contributed to this game! You can view the list at Profile - > Credits.
+### Bagaimana saya mencari Gang? Bagaimana saya dapat bergabung?
+Untuk saat ini, Anda tidak bisa melihat list Gang yang ada di game. 
+Anda bisa bergabung dengan suatu Hang dengan membuatnya sendiri atau dengan menerima undangan dari sebuah Gang.
 
-### What are Gangs and how do I create one?
-Gangs are similar to guilds or clans in other MMORPGs.  Joining a gang gives you access to new AFK tasks, a recycler to make tech scrap, and gang chat!  You also gain access to gang dungeons, which have a high level of difficulty but greater rewards than the regular dungeons.
+### Bisakah saya mengubah nama Gang saya? Apakah saya bisa memiliki tag yang sama seperti Gang lain miliki? 
+Untuk saat ini, Anda tidak bisa mengubah nama Gang Anda. 
+Mempunyai tag yang sama dengan Gang lain itu dilarang. 
+Semua Gang harus mempunyai tag yang berbeda untuk menghindari kebingungan.
 
-You can create one by selecting the Gang chat.  The cost to create a gang is 50,000 BTC.  Gangs have a weekly upkeep cost that must be met to avoid being disbanded. Gangs allow you to have a tag of 3 letters, chosen when the gang was created, in your chat border.
+### Bagaimana saya meningkatkan Gang saya? 
+Untuk bisa mengatur Gang Anda dan meningkatkannya, setiap anggota Gang harus mengumpulkan sumber daya (dari tugas AFK Markas Gang) dan juga harus mendonasikan BitCoin di Gang.
 
-### How do I search for a Gang? How do I join one?
-Currently, you can't see a list of gangs in the game.
-You can join one by creating it yourself or by receiving an invite from a gang.
+### Dimana Markas Gang (HQ) berada? Apa yang saya lakukan disana?  
+Markas Gang terletak di Central HUB, dibawah [Player Market]. Di Markas Gang Anda bisa mendonasikan BitCoin, mengumpulkan sumber daya, dan melakukan bermacam-macam tugas AFK.
 
-### Can I rename my Gang? Can I have the same tag as another Gang has?
-Currently, you can't rename your own gang.
-It's forbidden to have the same tag as other gangs.
-All gangs should have different tags in order to avoid confusion.
+### Apa arti simbol-simbol di Dungeon? 
+- "?" representasi sebuah misi. Anda dapat mengakses misi yang Anda terima di tab Misi. 
+- "!" representasi pengetahuan.
+- Peti di representasikan sebagai box kecil berwarna putih. 
+- Peti yang memiliki tanda "+" didalamnya berisi Kepingan Kunci. 
+- Ikon ✧ berwarna kuning berisi Kontainer Terkunci. 
+- Ikon yang berbentuk seperti alien merupakan representasi dari monster yang ada didalam Dungeon. 
 
-### How can I level up my gang?
-To be able to maintain your gang and to level it up, each member of the gang will have to gather resources (through an AFK task in the Gang Headquarters) and will also have to donate bitcoins to it.
+### Apa itu Publik dan Privat Dungeon? Apa itu Dungeon yang dilindungi kata sandi? 
+Ketika membuat sebuah Dungeon, secara default menjadi Publik Dungeon. Artinya, siapa saja bisa melihat dan bergabung kedalam Dungeon Anda selama mereka memenuhi persyaratan level. Jika Anda membuat Privat Dungeon, Dungeon tersebut tidak akan terlihat dan tidak dapat diakses oleh pemain lain. 
 
-### Where are the Gang Headquarters (HQ)? What can I do there?
-Gang HQ is located in the main HUB, under [Player Market].  At the Gang HQ you're able to donate bitcoin, gather resources, and do a varitety of AFK tasks.
+Anda juga bisa membuat kata sandi untuk Dungeon Anda agar hanya dapat diakses oleh pengguna yang mengetahui kata sandinya. 
 
-### What are the symbols in dungeons?
-- "?" represents a quest. You can access accepted quests in your Quest tab.
-- "!" represents lore.
-- Crates are represented by small white boxes.  
-- Crates that have a "+" inside them contain key fragments.
-- The yellow ✧ contains a locked container.
-- The alien looking icons represent monsters inside the dungeon.
+### Orang-orang menjarah barang saya. Tolong! 
+Barang jarahan di peti muncul secara acak untuk setiap pemain. Oleh karena itu, tidak mungkin seseorang mencuri barang jarahanmu.
 
-### What are Public and Private Dungeons? What are Password Protected Dungeons?
-When creating a dungeon, it will default to Public.  This means that anyone can see and join your dungeon as long as they meet the level requirements. If you make your dungeon Private, it will be invisible and inaccessible to other players.
+### Apa itu Kepingan Teknologi? 
+Kepingan Teknologi adalah sumber daya didapatkan dari meng-scrap cache dan peralatan cetak. Kepingan Teknologi juga dapat dihasilkan dari pendaur ulang Gang. 
 
-You may also create a password for your dungeon so that it is only accessible by users who know the password.
+Kepingan Teknologi bisa digunakan untuk meningkatkan level Tingkat Mencetak lebih cepat, membuat inti AI dan Hash Prosesor, dan untuk membuka Kontainer Terkunci.
 
-### People are looting my stuff. Help!
-The loot in the crates is randomly generated for each player. Therefore, it's impossible for someone to steal your loot.
+Cara terbaik untuk mendapatkan Kepingan Teknologi adalah mencetak massal Cache Sampah atau Cache Biasa dan kemudian meng-scrap massal peralatan yang didapat.
 
-### What are Tech Scraps?
-Tech Scraps are resources obtained from scrapping caches and printed gear.  They can also be generated at with the Gang Recycler.
+### Apa itu inti AI?
+Inti AI merupakan item yang diperlukan untuk farm AFK Dungeon. Farming AFK menyediakan poin pengalaman, item, dan sejumlah kecil BTC. Inti AI bisa diperoleh dari drop atau dibuat dari Hash Prosesor.
 
-They can be used to level up Printing Rank faster, craft Ai Cores and Hash Processors, and to open Locked Containers.
+### Apa itu Hash Prosesor? 
+Hash Prosesor ('hash' singkatnya) adalah item yang diperlukan untuk mengaktifkan tugas AFK yang menghasilkan BTC dalam jumlah besar. Hash didapatkan dari drop normal dan challenge Dungeon.
 
-The best way to get Tech Scrap is to mass print Trash Caches or Common Caches and then mass scrap the obtained gear.
+### Apa itu Pecahan Memori Gang? 
+Setelah menguraikannya, item-item ini akan memberi Anda cache acak, bersamaan dengan pengalaman menambang dan Gang.
 
-### What are AI Cores?
-AI Cores are items required to AFK farm dungeons.  AFK farming provides EXP, items, and a small amount of BTC. AI cores can be acquired as drops or crafted from Hash Processors.
+### Apa itu Pemancar Perintah Invasi Geng? 
+Pemancar Invasi Geng adalah item spesial yang didapatkan dari drop di boss challenge Dungeon. 
+Pemancar Invasi Geng tersebut diperlukan untuk membuka Dungeon Gang. 
 
-### What are Hash Processors?
-Hash Processors ('hash' for short) are items that are required to activate an AFK job that yields high amounts of BTC (BitCoin). They drop from normal and challenge dungeons.
+### Apa itu Pemancar? 
+Ini adalah item spesial yang dapat dibeli menggunakan Unit (mata uang premium) dan menyediakan keuntungan global ke semua pemain di server. Efeknya mulai dari mengurangi waktu pengerjaan tugas AFK atau aktivitas untuk menaikkan tingkat pendapatan BTC atau poin pengalaman. Pemancar tidak dapat diperjualbelikan.
 
-### What are Gang Memory Shards?
-Upon deciphering them, these items will give you a random cache, along with mining and gang experience.
+Ada juga Pemancar normal yang didapatkan dari drop Dungeon, tapi kurang efektif daripada versi yang berbayar. 
 
-### What are Gang Invasion Order Transmitters?
-Gang invasion transmitters are special items that drop from the boss in challenge dungeons.
-They are required to open a Gang Dungeon.
+### Apa itu Perlengkapan Inti Kalibrasi?
+Perlengkapan Inti Kalibrasi digunakan di Stasiun Kalibrasi untuk meningkatkan senjata Anda. 
 
-### What are Transmitters?
-These are special items that can be bought with Units (premium currency) and provide global benefits to all players on the server.  Their effects range from reducing the time on AFK job or activities to increasing BTC or EXP gain. These are untradeable.
+### Apa itu AI Pecahan Kalibrasi? 
+Item ini adalah buff yang dapat di-stack untuk meningkatkan kemungkinan sukses ketika mengkalibrasi. 
 
-There are also normal transmitters that drops from dungeons, but are less effective than the paid version.
+### Apa keuntungannya meningkatkan level pembuatan saya?  
+Kemampuan pembuatan Anda memungkinkan anda untuk membuat barang habis pakai, termasuk obat-obatan dan amunisi. 
+Level yang lebih tinggi memungkinkan Anda untuk membuat lebih banyak item dan lebih efisien. Contohnya, item penyembuhan level-tinggi akan menyembuhkan lebih banyak darah.
 
-### What are Equipment Calibration Cores?
-Equipment Calibration Cores are used at the Calibration Station to upgrade your gear.
+### Bagaimana saya meningkatkan Keahlian Mencari saya? 
+Di setiap area dengan musuh, ada sebuah aksi yang disebut AFK Resource Gather di bagian bawah list, dibawah pilihan Dungeon.
+Anda perlu meningkatkan level Keahlian Mencari anda mulai dari awal Train Stations (Level 1 - 4) sebelum dapat memulung di tempat dengan level lebih tinggi.
 
-### What are Calibration AI Shards?
-These items offers a stackable buff that increase the chance of success when calibrating.
+### Apa itu menambang dan bagaimana saya meningkatkan kemampuan menambang saya? 
+Menambang adalah skill yang memungkinkan Anda untuk farm BTC (BitCoin). Juga memungkinkan Anda untuk membuat inti AI. 
+Untuk menambang, Anda harus memiliki Hash Prosesor yang dimana didapatkan dari drop Dungeon. 
+Jika anda ingin mulai menambang, pergi ke [Job Hub] dan gulir kebawah sampai Anda menemukan pilihan untuk menambang. 
+Anda juga mendapatkan poin pengalaman ketika mengumpulkan sumber daya untuk Gang Anda. 
 
-### What's the benefit of leveling my crafting skills?
-Your crafting skills allow you to create useful consumables, including medicine and ammo.
-Higher levels allow you to craft more types of items and also craft more efficiently. For example, higher-level healing items will heal for more health.
+### Apa itu Skor Perlengkapan? 
+Skor Perlengkapan adalah level rata-rata dari perlengkapan yang anda pakai. Skor ini dihitung dengan menghitung rata-rata setiap perlengkapan non-senjata yang Anda gunakan, ditambah senjata tingkat tertinggi yang Anda miliki (tidak termasuk destruktif).
 
-### How do I increase my Scavenge Skill?
-In every area with enemies, there is an action called AFK Resource Gather near the bottom of the list, under the dungeon selections.
-You'll need to increase your scavenging level starting from earlier train stations (Level 1 - 4) before being able to scavenge at higher level sites.
+### Apa itu stat Saku?
+Saku meningkatkan kapasitas inventaris Anda. 1 saku berarti menambah 1 slot inventaris.
 
-### What's mining and how do I increase my mining skill?
-Mining is the skill that allows you to farm BTC (BitCoin). It also allows you to craft AI Cores.
-To mine, you need to have Hash Processors which drop from dungeons.
-If you want to start mining, simply go to the [Job Hub] and scroll down until you see the option to mine.
-You also receive mining experience when gather resources for your gang.
-
-### What is the Gear Score?
-Gear Score is the average level of the equipment you wear. This is calculated by averaging every non-weapon gear you have equipped, plus the highest level weapon you have (excluding destructive).
-
-### What is the Pocket Stat?
-Pockets increase your inventory size. 1 pocket means 1 additional inventory slot.
-
-### What is the Bargain Stat?
-Bargain gives you better deals at the Weapon Smith and Trinoky Mart, which can be found in the Central Hub. You can both sell and buy your items for better prices.
+### Apa itu stat Tawar? 
+Tawar memberi Anda penawaran yang lebih baik di Toko Senjata dan Toko Trinoky, yang dapat ditemukan di Central Hub. Anda bisa menjual dan membeli barang-barang Anda dengan harga yang lebih baik.
