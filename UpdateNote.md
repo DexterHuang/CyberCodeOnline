@@ -23,12 +23,17 @@ Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
+ 
 
-## Upcoming update preview 
+## Updates  
+
 Captchas in dungeons will be randomly replaced by more engaging minigames!! In the begining there will only be one minigame, and adding more in the future. So that sometimes, instead of a captcha code, you will play a simple minigame instead.
 
 ### AFQ: 
 
+### 2022/02/08 v0.780 
+- UI - Updated Weapons Smith chracter - keeps the original design by OG l33t4ng3l while aligning the art style with rest of NPCs 
+- Minigame Enabled
 - Why? isnt there many important bugs or feature to add?
   - Because this is one of the more important things to add. This feature is aimed to address several different issues:
   - To increase the difficulty of making dungeon auto farm bot/scripts, to also reduce server load created by botters, also reduce the time I spend banning them.
@@ -47,8 +52,6 @@ Captchas in dungeons will be randomly replaced by more engaging minigames!! In t
 
 - Why put up notice? is this a HUGE update?
   - No, not at all, it shouldnt matter too much actually it is because I am worried that players may get mad when they see changes happen without being giving me or the game some time to fix stuff.
-
-## Updates  
 ### 2022/02/09 v0.780
 - FIX - Fixed health regen not updating health UI
 - NEW - Added block feeature, you can now block players
