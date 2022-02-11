@@ -8,7 +8,7 @@ To activate Global Skip, players must acquire a premium currency called Units wh
 
 ![GlobalSkip2](/resources/mobile-tutorial/GlobalSkip2.png)
 
-Players can do Global Skip for up to 8 hours AFK task, which costs 2048 Units upon purchase. It is advisable to wait for at least 1 minute before applying Global Skip so that other players can gain the benefit at times.
+Players can do Global Skip for up to 8 hours AFK task, which costs 2048 Units upon purchase. Once purchased, no new skips can be purchased until the skip is completed.
 
 ## Global Skip & Efficiency
 
