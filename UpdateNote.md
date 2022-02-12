@@ -30,8 +30,10 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 Captchas in dungeons will be randomly replaced by more engaging minigames!! In the begining there will only be one minigame, and adding more in the future. So that sometimes, instead of a captcha code, you will play a simple minigame instead.
 
 ### AFQ: 
+### 2022/02/12 v0.780 
+- BUFF - Color minigame reward has now been increased, now with garanteed reward on completion & only drops `AI Cores`, `Hash Processors` and `Anti-matter cell`
 
-### 2022/02/08 v0.780 
+### 2022/02/11 v0.780 
 - UI - Updated Weapons Smith chracter - keeps the original design by OG l33t4ng3l while aligning the art style with rest of NPCs 
 - Minigame Enabled
 - Why? isnt there many important bugs or feature to add?
