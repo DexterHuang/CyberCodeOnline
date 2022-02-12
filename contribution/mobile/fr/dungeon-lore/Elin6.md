@@ -1,0 +1,7 @@
+> #30780528 Appel Téléphonique Elin  
+  
+"Bebo, nous avons trafiqué avec eux." Éline pleurait. Elle était assise dans son bureau et pouvait entendre son frère à l'autre bout du fil. Ils n'avaient pas parlé comme ça en fait, elle ne l'avait jamais appelé. Même après avoir déposé sa mère à la maison, elle venait de lui envoyer un texto. mais elle savait qu'il voudrait savoir. "J'ai vérifié les images." Elle a dit, en reniflant, "Quand j'ai regardé les images de la caméra- je les ai vus. Nos propres armes. dans leurs mains."
+  
+"Calme. Écoute, j'ai regardé ici aussi. Ils achètent depuis un moment. Ne t'inquiète pas, j'ai envoyé des gars du WAP pour garder le magasin. Mais honnêtement, chaque jour, les Mambas sont plus forts..." elle pouvait l'entendre penser. Elle n'avait jamais approuvé ses gangs, mais maintenant, eh bien maintenant, elle savait. Elle savait ce qui se cachait derrière ces gangs. C'était la même chose. Son entreprise ? Même connerie.
+  
+A travers ses larmes, elle s'est préparée. Elle avait parlé à Maggie et elles avaient élaboré un plan. Elle avait obtenu le numéro d'un vendeur, l'un des leurs. Ensemble, elles avaient fait passer une proposition. "Le Projet de restauration communautaire d'Arasaka" le programme visait à investir dans les communautés locales. Investir dans la communauté leur permettrait de vendre des armes. Et la première communauté avec laquelle ils s'étaient associés ? Market Street.
