@@ -127,6 +127,7 @@ WoLoLoiK
 LieRenThePope 
 Experiencedkk7t 
 [DOUNODEWAE](https://github.com/js147896325) 
+[zolir](https://github.com/ZolirAsure)
 
 ## Dungeons
 Alecto
