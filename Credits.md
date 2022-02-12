@@ -13,10 +13,12 @@ Fudgee
 [Tripplehelix](https://github.com/tripplehelix)
 Unca_Feddit
 [WhirlingDervish](https://github.com/NickN5)
+AlphaC58
 Ayanna
 HLYGD
 [Prodam](https://github.com/Pr0dam)
 Tear1
+YANDEREsenpaiXD
 Keevin
 Krolik
 [Mancipi](https://github.com/Mancipi)
