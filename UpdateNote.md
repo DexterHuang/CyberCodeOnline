@@ -31,6 +31,7 @@ Captchas in dungeons will be randomly replaced by more engaging minigames!! In t
 
 ### AFQ: 
 ### 2022/02/12 v0.780 
+- BUFF - Color minigame normal and hard difficulty is removed, now only EASY will show up (the one with 3 colors)
 - BUFF - Color minigame reward has now been increased, now with garanteed reward on completion & only drops `AI Cores`, `Hash Processors` and `Anti-matter cell`
 
 ### 2022/02/11 v0.780 
