@@ -85,7 +85,7 @@ Once in a while, a minigame will show up after defeating an enemy, to insinuate 
 
 ![DungeonMinigame1](/resources/mobile-tutorial/DungeonMinigame1.png)
 
-The minigame itself consists of 3 colors (red, yellow, and red; with added symbols as an accessibility add-on) that need to be clicked on in sequence (40 times) in 60 seconds.
+The minigame itself consists of 3 colors (red, green, and yellow; with added symbols as an accessibility add-on) that need to be clicked on in sequence (40 times) in 60 seconds.
 
 ![DungeonMinigameFail1](/resources/mobile-tutorial/DungeonMinigameFail1.png)
 
