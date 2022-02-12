@@ -89,4 +89,4 @@ The minigame itself consists of 3 colors (red, yellow, and red; with added symbo
 
 ![DungeonMinigameFail1](/resources/mobile-tutorial/DungeonMinigameFail1.png)
 
-Failing a minigame will result in a 'DECRYPTION FAILED' screen, stating that a player fails to pick a correct color in sequence. Players were able to redo the minigame by clicking the **Try Again** button.
+Failing a minigame will result in a `DECRYPTION FAILED` screen, stating that a player fails to pick a correct color in sequence. Players were able to redo the minigame by clicking the **Try Again** button.
