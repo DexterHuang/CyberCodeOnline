@@ -1,5 +1,5 @@
 ### Game apa ini, dan apa yang harus saya lakukan?
-Pada dasarnya Anda berpetualang disekitar 'Stasiun Kereta' dan mengalahkan musuh atau menaklukkan seluruh Dungeon.
+Pada dasarnya Anda berpetualang disekitar ‘Stasiun Kereta’ dan mengalahkan musuh atau menaklukkan seluruh Dungeon.
 
 Anda akan mendapatkan item acak, perlengkapan atau cache setelah mengalahkan musuh.
 
@@ -28,7 +28,7 @@ CyberCode Online adalah sebuah game yang dikembangkan menggunakan [ReactJS](http
 ### Apakah gamenya di terjemahkan ke bahasa lain?
 Ya. Saat ini gamenya diterjemahkan ke dalam 15 bahasa.
 
-Untuk mengganti bahasa game, pergi Peta dan klik ⚙️.
+Untuk mengganti bahasa game, pergi ke Peta dan klik ⚙️.
 
 Tolong diperhatikan bahwa terjemahan mungkin salah, tidak lengkap atau beberapa bagian dari game tidak diterjemahkan seluruhnya.
 Jika gamenya tidak diterjemahkan dalam bahasa Anda atau mungkin Anda ingin memperbaiki terjemahan saat ini, tolong pergi ke [Github](https://github.com/DexterHuang/CyberCodeOnline).
@@ -64,7 +64,7 @@ Anda akan kehilangan beberapa poin pengalaman dan BTC (sekitar 10%); Namun, inve
 
 ### Dimana Player Market?
 Ketika karakter Anda mencapai level 5, Player Market akan terbuka.
-Akan muncul sebagai destinasi baru di 'Central Hub'.
+Akan muncul sebagai destinasi baru di ‘Central Hub’.
 
 ### Apakah game ini mendukung perdagangan jual beli antar pemain?
 Ya, sebagian. Anda bisa mengirim beberapa item ke pemain lain, tapi tidak ada sistem yang memaksa orang lain untuk memberikan sesuatu sebagai gantinya. Sebagian besar perdagangan dilakukan dengan kepercayaan.
@@ -76,17 +76,17 @@ Hanya item penyembuh, amunisi, material, Hash Prosesor, Inti AI dan beberapa tip
 ### Apa yang harus saya lakukan jika inventaris saya penuh?
 Anda bisa meng-scrap, menghancurkan atau menaruh item tersebut di bank yang berlokasi di Pusat Kota. Perlu diingat bahwa biaya untuk setiap item yang Anda depositkan di bank adalah 100 BTC. Item yang disimpan tidak memakan biaya ketika akan diambil kembali. 
 
-Anda juga bisa meningkatkan sementara kapasitas inventaris menggunakan 'Pocket' stat yang ditemukan di Perlengkapan dan modul upgrade.
+Anda juga bisa meningkatkan sementara kapasitas inventaris menggunakan ‘Pocket’ stat yang ditemukan di Perlengkapan dan modul upgrade.
 
 ### Bagaimana cara saya membuat item?
-Diatas halaman inventaris, Anda akan menemukan sebuah tab yang bertuliskan 'Membuat'.
+Diatas halaman inventaris, Anda akan menemukan sebuah tab yang bertuliskan ‘Membuat’.
 
 ### Dimana saya bisa mendapatkan item penyembuhan?
 Item penyembuhan bisa dibuat, ditemukan ketika mengalahkan musuh atau ketika membuka crate di dungeon, atau dibeli di Toko Trinoki di Pusat Kota. 
 Bisa juga dibeli dari Player Market.
 
 ### Bagaimana saya menggunakan item penyembuhan saya?
-Untuk melengkapi dan menggunakan item penyembuhan Anda, pergi ke inventaris dan dibagian perlengkapan, Anda akan menemukan 3 'Slot Cepat'
+Untuk melengkapi dan menggunakan item penyembuhan Anda, pergi ke inventaris dan dibagian perlengkapan, Anda akan menemukan 3 ‘Slot Cepat’
 Klik salah satunya dan pilih item penyembuhan yang anda inginkan.
 Item penyembuhan hanya bisa digunakan didalam Dungeon.
 
@@ -97,31 +97,32 @@ Amunisi bisa didapatkan dari musuh, dibuat di inventaris Anda, atau dibeli dari 
 ### Bisakah saya meningkatkan stat senjata dan armor saya? 
 Ya, Anda bisa meningkatkan senjata Anda di Stasiun Kalibrasi yang bisa ditemukan di peta utama Anda. Stasiun Kalibrasi membutuhkan sebuah Inti Kalibrasi Perlengkapan. 
 Kalibrasi memiliki peluang kehancuran, jadi waspadalah terhadap buff Kalibrasi yang peluang kehancurannya lebih rendah.
-### Apa artinya "Kualitas" pada senjata dan armor?
+
+### Apa artinya “Kualitas” pada senjata dan armor?
 Kualitas dari armor akan mempengaruhi statnya diberikannya; semakin tinggi kualitasnya, semakin bagus statnya.
 Tingkat Kualitas dimulai dari Sampah > Umum > Kualitas Tinggi > Langka > Legendaris > Epik.
 Anda tidak bisa mengubah kualitas dari senjata atau armor.
 
-###Apa artinya "Daya Tahan" pada senjata dan armor? 
+### Apa artinya “Daya Tahan” pada senjata dan armor? 
 Daya Tahan adalah kemampuan suatu perlengkapan untuk tetap berfungsi, tanpa memerlukan perawatan atau perbaikan yang berlebihan, ketika menghadapi tantangan operasi normal selama masa pakai yang dirancang (Wikipedia).  Daya Tahan hanya berkurang saat melawan Musuh Terdekat.  Daya tahan tidak terpengaruh saat bertarung di Dungeons.
 
-###Bagaimana saya memperbaiki Daya Tahan senjata saya?
+### Bagaimana saya memperbaiki Daya Tahan senjata saya?
 Anda bisa memperbaiki perlengkapan Anda dengan membayar sedikit BTC di Toko Senjata yang berlokasi di Pusat Kota.
 
 ### Bisakah saya melepas modul upgrade yang terpasang? 
 Ya. Klik modul upgrade yang terpasang untuk melepasnya dari perlengkapan.
 
 ### Kenapa perlengkapan yang saya cetak levelnya tidak sesuai? 
-Perlengkapan yang Anda cetak akan mempunyai level yang sama seperti 'Tingkat Mencetak' Anda. Levelnya tidak akan berskala sama dengan level pemain.
+Perlengkapan yang Anda cetak akan mempunyai level yang sama seperti ‘Tingkat Mencetak’ Anda. Levelnya tidak akan berskala sama dengan level pemain.
 
 ### Bagaimana saya meningkatkan Tingkat Mencetak saya?
 Ada 3 cara untuk meningkatkan Tingkat Mencetak Anda.
 
-1. Cetak cache di Printer 3D Molekuler. Setiap cache yang Anda cetak memberi anda poin pengalaman mencetak. Cache Sampah merupakan yang termurah untuk dicetak dan peralatan yang telah dicetak bisa di-scrap untuk mendapatkan Kepingan Teknologi.
+1.	Cetak cache di Printer 3D Molekuler. Setiap cache yang Anda cetak memberi anda poin pengalaman mencetak. Cache Sampah merupakan yang termurah untuk dicetak dan peralatan yang telah dicetak bisa di-scrap untuk mendapatkan Kepingan Teknologi.
 
-2. Pelatihan Mencetak AFK. Ada tugas AFK di Area Komersial yaitu 'Bekerja di Pabrik Percetakan' yang akan memberikan Anda poin pengalaman mencetak.
+2.	Pelatihan Mencetak AFK. Ada tugas AFK di Area Komersial yaitu ‘Bekerja di Pabrik Percetakan’ yang akan memberikan Anda poin pengalaman mencetak.
 
-3. Kepingan Teknologi Rekayasa Balik. Di Area Komersial ada pekerjaan AFK singkat yaitu 'Kepingan Rekayasa Balik' yang menggunakan Kepingan Teknologi untuk meningkatkan Tingkat Mencetak Anda.  Ini adalah cara tercepat untuk meningkatkan peringkat Anda.
+3.	Kepingan Teknologi Rekayasa Balik. Di Area Komersial ada pekerjaan AFK singkat yaitu ‘Kepingan Rekayasa Balik’ yang menggunakan Kepingan Teknologi untuk meningkatkan Tingkat Mencetak Anda.  Ini adalah cara tercepat untuk meningkatkan peringkat Anda.
 
 ### Apa itu cache dan apa yang harus saya lakukan dengan itu?
  Anda dapat menggunakannya untuk membuat peralatan di Printer 3D Molekuler. Tidak disarankan untuk membuang cache Anda karena cache tersebut lebih berharga untuk dicetak atau dijual.
@@ -134,9 +135,10 @@ Tidak masalah jika Anda ingin mencetak cache Anda sekarang atau nanti, tapi Anda
 Cache Legendaris dan Epik lebih mahal ketika dibuat daripada yang Langka, tapi item tersebut memiliki stat yang jauh lebih baik. Item kualitas yang lebih tinggi bisa bertahan cukup lama, dan sepadan dikalibrasi di Stasiun Kalibrasi. 
 
 ### Apakah musuh dengan level yang tinggi memberikan hadiah yang lebih banyak? 
-Ya. Musuh dengan level yang tinggi memberikan Anda lebih banyak BTC dan poin pengalaman setelah Anda mengalahkan mereka. 
+Ya. Musuh dengan level yang tinggi memberikan Anda lebih banyak BTC dan poin pengalaman setelah Anda mengalahkan mereka.
+
 ### Apa itu Kontainer Terkunci dan bagaimana saya membukanya? 
-Kontainer Terkunci (✧) bisa ditemukan dan didapatkan dari Dungeon. Kontainer tersebut bisa dibuka menggunakan Kepingan Teknologi di Terminal di Central HUB, dan berisi bermacam-macam hadiah, mulai dari Kepingan Teknologi sampai peralatan Legendaris. 
+Kontainer Terkunci (✧) bisa ditemukan dan didapatkan dari Dungeon. Kontainer tersebut bisa dibuka menggunakan Kepingan Teknologi di Terminal di Central Hub, dan berisi bermacam-macam hadiah, mulai dari Kepingan Teknologi sampai peralatan Legendaris. 
 
 Kepingan Teknologi yang dibutuhkan untuk membuka Kontainer adalah 32 Kepingan Teknologi untuk kontainer biasa, 64 keping untuk kontainer langka, dan 128 keping untuk  Legendaris.
 
@@ -149,9 +151,9 @@ BitCoin (BTC) disini adalah mata uang didalam game. BitCoin didalam game Anda ti
 BitCoin didapatkan ketika mengalahkan musuh, menjual item di Player Market, dan dengan menambang menggunakan Hash Prosesor. Hash Prosesor ditemukan di Dungeon dan dapat digunakan untuk menambang BitCoin di [Job Hub].
 
 ### Apa itu Street Cred?
-Street Cred (Street Credit) merupakan suatu cara untuk mengapresiasi seseorang yang Anda suka atau membantu Anda. Serupa dengan "Karma" poin di Reddit.
+Street Cred (Street Credit) merupakan suatu cara untuk mengapresiasi seseorang yang Anda suka atau membantu Anda. Serupa dengan “Karma” poin di Reddit.
 
-Anda bisa memberikan 1 Street Cred per hari. Untuk memberikan Street Cred, pergi ke profil orang yang dituju, gulir ke bawah menuju 'Aksi Pemain' dan klik [BERI STREET CRED] yang terletak dibawah [TAMBAH KE DAFTAR PERTEMANAN]. 
+Anda bisa memberikan 1 Street Cred per hari. Untuk memberikan Street Cred, pergi ke profil orang yang dituju, gulir ke bawah menuju ‘Aksi Pemain’ dan klik [BERI STREET CRED] yang terletak dibawah [TAMBAH KE DAFTAR PERTEMANAN]. 
 
 Pertimbangkan untuk memberi beberapa Street Credit kepada orang yang berkontribusi dalam game ini! Anda bisa melihat listnya di Profil - > Kredit.
 
@@ -173,13 +175,13 @@ Semua Gang harus mempunyai tag yang berbeda untuk menghindari kebingungan.
 Untuk bisa mengatur Gang Anda dan meningkatkannya, setiap anggota Gang harus mengumpulkan sumber daya (dari tugas AFK Markas Gang) dan juga harus mendonasikan BitCoin di Gang.
 
 ### Dimana Markas Gang (HQ) berada? Apa yang saya lakukan disana?  
-Markas Gang terletak di Central HUB, dibawah [Player Market]. Di Markas Gang Anda bisa mendonasikan BitCoin, mengumpulkan sumber daya, dan melakukan bermacam-macam tugas AFK.
+Markas Gang terletak di Central Hub, dibawah [Player Market]. Di Markas Gang Anda bisa mendonasikan BitCoin, mengumpulkan sumber daya, dan melakukan bermacam-macam tugas AFK.
 
 ### Apa arti simbol-simbol di Dungeon? 
-- "?" representasi sebuah misi. Anda dapat mengakses misi yang Anda terima di tab Misi. 
-- "!" representasi pengetahuan.
+- “?” representasi sebuah misi. Anda dapat mengakses misi yang Anda terima di tab Misi. 
+- “!” representasi pengetahuan.
 - Peti di representasikan sebagai box kecil berwarna putih. 
-- Peti yang memiliki tanda "+" didalamnya berisi Kepingan Kunci. 
+- Peti yang memiliki tanda “+” didalamnya berisi Kepingan Kunci. 
 - Ikon ✧ berwarna kuning berisi Kontainer Terkunci. 
 - Ikon yang berbentuk seperti alien merupakan representasi dari monster yang ada didalam Dungeon. 
 
@@ -189,7 +191,7 @@ Ketika membuat sebuah Dungeon, secara default menjadi Publik Dungeon. Artinya, s
 Anda juga bisa membuat kata sandi untuk Dungeon Anda agar hanya dapat diakses oleh pengguna yang mengetahui kata sandinya. 
 
 ### Orang-orang menjarah barang saya. Tolong! 
-Barang jarahan di peti muncul secara acak untuk setiap pemain. Oleh karena itu, tidak mungkin seseorang mencuri barang jarahanmu.
+Barang jarahan di peti muncul secara acak untuk setiap pemain. Oleh karena itu, tidak mungkin seseorang mencuri barang jarahan Anda.
 
 ### Apa itu Kepingan Teknologi? 
 Kepingan Teknologi adalah sumber daya didapatkan dari meng-scrap cache dan peralatan cetak. Kepingan Teknologi juga dapat dihasilkan dari pendaur ulang Gang. 
@@ -202,7 +204,7 @@ Cara terbaik untuk mendapatkan Kepingan Teknologi adalah mencetak massal Cache S
 Inti AI merupakan item yang diperlukan untuk farm AFK Dungeon. Farming AFK menyediakan poin pengalaman, item, dan sejumlah kecil BTC. Inti AI bisa diperoleh dari drop atau dibuat dari Hash Prosesor.
 
 ### Apa itu Hash Prosesor? 
-Hash Prosesor ('hash' singkatnya) adalah item yang diperlukan untuk mengaktifkan tugas AFK yang menghasilkan BTC dalam jumlah besar. Hash didapatkan dari drop normal dan challenge Dungeon.
+Hash Prosesor (‘hash’ singkatnya) adalah item yang diperlukan untuk mengaktifkan tugas AFK yang menghasilkan BTC dalam jumlah besar. Hash didapatkan dari drop normal dan challenge Dungeon.
 
 ### Apa itu Pecahan Memori Gang? 
 Setelah menguraikannya, item-item ini akan memberi Anda cache acak, bersamaan dengan pengalaman menambang dan Gang.
@@ -228,7 +230,7 @@ Level yang lebih tinggi memungkinkan Anda untuk membuat lebih banyak item dan le
 
 ### Bagaimana saya meningkatkan Keahlian Mencari saya? 
 Di setiap area dengan musuh, ada sebuah aksi yang disebut AFK Resource Gather di bagian bawah list, dibawah pilihan Dungeon.
-Anda perlu meningkatkan level Keahlian Mencari anda mulai dari awal Train Stations (Level 1 - 4) sebelum dapat memulung di tempat dengan level lebih tinggi.
+Anda perlu meningkatkan level Keahlian Mencari anda mulai dari awal Stasiun Kereta  (Level 1 – 4) sebelum dapat memulung di tempat dengan level lebih tinggi.
 
 ### Apa itu menambang dan bagaimana saya meningkatkan kemampuan menambang saya? 
 Menambang adalah skill yang memungkinkan Anda untuk farm BTC (BitCoin). Juga memungkinkan Anda untuk membuat inti AI. 
@@ -243,4 +245,5 @@ Skor Perlengkapan adalah level rata-rata dari perlengkapan yang anda pakai. Skor
 Saku meningkatkan kapasitas inventaris Anda. 1 saku berarti menambah 1 slot inventaris.
 
 ### Apa itu stat Tawar? 
-Tawar memberi Anda penawaran yang lebih baik di Toko Senjata dan Toko Trinoky, yang dapat ditemukan di Central Hub. Anda bisa menjual dan membeli barang-barang Anda dengan harga yang lebih baik.
+Tawar memberi Anda penawaran yang lebih baik di Toko Senjata dan Toko Trinok, yang dapat ditemukan di Central Hub. Anda bisa menjual dan membeli barang-barang Anda dengan harga yang lebih baik.
+
