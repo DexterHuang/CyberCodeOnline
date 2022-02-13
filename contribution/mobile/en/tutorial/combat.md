@@ -27,7 +27,7 @@ You can attempt to escape from combat by clicking Escape in the top left. The su
 
 ## Death
 
-Also named "FLATLINE", your character is rendered unable to do anything until a brief timer runs out. If you die, you won't lose any of your items. However you will lose 10% of your total BTC and Player XP. If your current XP out of full Level progress is less than 10%, you may lose a level.
+Also named "FLATLINE", your character is rendered unable to do anything until a brief timer runs out. If you die, you won't lose any of your items. However, if your level is greater then 10, you will lose 10%  of your total BTC and Player XP. If your current XP out of full Level progress is less than 10%, you may lose a level.
   
 ## Enemy Modifiers
   
