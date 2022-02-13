@@ -16,6 +16,20 @@ To access your personal friends list, click on the floating menu and choose the 
 
 Adding someone to your friends list will not require the other person to accept the request. They will simply be added to your friends list. Viewing your friends list will allow you to see if they are online, idle or offline.
 
+## Block Feature
+
+![BlockFeature1](/resources/mobile-tutorial/BlockFeature1.png)
+
+Players were able to block other players when necessary. To do so, a player needs to click their Username (in chat) and pick **Block Option** that's below the Profile option. When a player got blocked, other player can't see their message until other player unblocks them.
+
+![BlockFeature2](/resources/mobile-tutorial/BlockFeature2.png)
+
+To unblock other players, a player needs to find **Block List** option, which can be found on Profile / Map > Phone Icon > All Apps > Block List. After that, pick players that need to be unblocked and click **Unblock** button that's on the right side of the player's name.
+
+![BlockFeature3](/resources/mobile-tutorial/BlockFeature3.png)
+
+After picking out which player will be unblocked, a pop-up will be shown, to confirm player's action on unblocking the stated player. Clicking on **YES** button implies that the stated player will be unblocked and its chat can be seen again.
+
 ## Player Trading
 While there is no official feature to trade, **Sending Gift to Player** works in a way bridge out the way of trading in this game. To initialize a trade, both players arrange a deal via **Private Message** with a sense of trust on both sides. Once a deal is approved, both players trade their goods and thank each other when a deal is done.
 
