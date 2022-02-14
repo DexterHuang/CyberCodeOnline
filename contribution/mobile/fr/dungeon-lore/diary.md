@@ -1,0 +1,11 @@
+> *Vous trouvez une série de ce qui ressemble à des lignes d'un journal sur un morceau de papier déchiré.*
+
+1-5 : Ma fille... Ma pauvre innocente jeune Eve. Elle ne le méritait pas. J'aurais dû être là mais mon stupide travail de retournement m'a forcé à être ailleurs, laissant ma petite fille de six ans toute seule pendant des heures pendant que je faisais un travail idiot et abrutissant. J'ai besoin de devenir plus fort. Je dois l'être.
+
+Je suis allé a Shangri-La. J'ai entendu dire que toute personne qui veut être forte doit commencer ici. Sur cette note, l'implant que tout le monde ici a l'air d'avoir semble me permettre de communiquer avec d'autres personnes et de créer des munitions et des médicaments. C'est quelque chose que j'aurais aimé avoir plus tôt. J'ai remarqué que je devais me donner un nouveau nom pour ce nouveau serveur de communication qui semble être automatiquement connecté maintenant. Il m'a fallu un certain temps pour y réfléchir avant de le choisir, mais j'ai fini par trouver un nouveau nom génial. Ma petite fille aurait été fière.
+
+1-6 : Avec l'aide de mes nouveaux collègues du serveur (?) (peut-être des amis ?), j'ai fini par devenir physiquement fort assez rapidement. Cela aide que je continue à aller dans plusieurs donjons qui m'aident grandement à me rendre physiquement fort. Ces gens sont vraiment sympathiques. L'un d'eux m'a même donné des objets que je n'aurais jamais pu obtenir sans son  aide. Sa gentillesse ne sera jamais oubliée... Elle les aurait aimés.
+
+J'ai été gravement blessé et presque à l'article de la mort dans l'un des plus anciens donjons selon les personnes âgées qui m'ont pratiquement pris sous leur aile comme si j'étais un enfant, mais juste avant ma mort, quelqu'un m'avait emmené quelque part où tout a commencé. Ils ont pris une partie de mon argent. Je vais les chercher pour ça... J'ai essayé de poser des questions sur cet étranger à mes amis mais il semble qu'ils ne savent pas non plus qui les amène au Centre. Je devrais me rappeler d'être plus prudent la prochaine fois. L'étranger pourrait être dangereux.
+
+> *Le reste des mots sur le papier ressemble plus à des gribouillis illisibles qu'à des mots et vous le remettez là pour que la personne suivante le lise.*
