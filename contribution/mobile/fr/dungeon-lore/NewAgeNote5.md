@@ -1,0 +1,6 @@
+
+>[Donnée archivée d'un terminal d'hôpital personnel]
+  
+Je... Je n'arrive pas à croire que j'ai échappé à ces boulots dingues. La dernière chose dont je me souvienne, c'est qu'on m'a coupé la main et jeté dans la rue. Doc m'a dit qu'un inconnu au hasard m'avait amené à l'hôpital mais je pense que c'est un autre ex-membre qui a comploté pour renverser cette organisation insensée. Ces... Les gens des Lumières du Nouvel Âge sont sérieux au sujet de ce qu'ils prêchent ; à propos du partage de la générosité de "The Great Father Earth", que tous sont égaux à ses yeux... jusqu'à ce qu'eux-mêmes ne vous jugent pas égal... quelque chose de moins qu'un être humain. Je ne pensais pas qu'ils le prendraient si littéralement. C'était juste une réunion normale, il y avait un nombre exact de rafraîchissements prévu, et je veux dire EXACT au nombre de membres présents vérifiés à la porte. Je ne pensais pas qu'ils me couperaient la main pour avoir pris une tasse de plus... mais me voilà à l'hôpital. Le Doc a dit qu'ils connaissaient quelqu'un du magasin de carrosserie qui pourrait me trouver une nouvelle main. Je suis juste reconnaissant d'être en vie. J'espère que celui qui m'a aidé va bien aussi.
+  
+>[L'utilisateur s'est déconnecté du terminal...]
