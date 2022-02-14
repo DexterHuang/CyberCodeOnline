@@ -25,11 +25,12 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
  
 
-## Updates  
+## Updates    
+### 2022/02/14 v0.780 
+- FIX - Server issue
+- UI - Color minigame color brightness has been lowered, and updated the UI
+- FIX - Now dungeon list shows correct title
 
-Captchas in dungeons will be randomly replaced by more engaging minigames!! In the begining there will only be one minigame, and adding more in the future. So that sometimes, instead of a captcha code, you will play a simple minigame instead.
-
-### AFQ: 
 ### 2022/02/12 v0.780 
 - BUFF - Color minigame normal and hard difficulty is removed, now only EASY will show up (the one with 3 colors)
 - BUFF - Color minigame reward has now been increased, now with garanteed reward on completion & only drops `AI Cores`, `Hash Processors` and `Anti-matter cell`
