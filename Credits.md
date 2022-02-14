@@ -88,7 +88,7 @@ Wanna
 [UGA_UGA](https://github.com/mdendena2000)
 [Mancipi] （https://github.com/Mancipi）
 [sugar-choco](https://github.com/sugar-choco)
-。
+
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
 [The_Wayfarrer](https://github.com/epixinvites)
