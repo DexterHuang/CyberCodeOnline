@@ -16,6 +16,7 @@
       * Your main account has been bugged and becomes unplayable
     * Example of obviously not valid 'reason': 
       * for fun 
+      * I want to create alts so I can trade faster then normal players
       * I want to create alts to store unlimited amount of items
       * I want to create alts so I can AFK with unlimited parallel tasks
       * I want to create alts so I can scam people with new names
