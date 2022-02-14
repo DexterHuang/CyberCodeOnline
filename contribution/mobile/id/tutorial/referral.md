@@ -1,9 +1,9 @@
+## Bagaimana cara merujuk seseorang?
+Cukup berikan nama dalam permainan Anda kepada orang tersebut, dan ketika mereka membuat karakter baru, mereka hanya perlu memilih Anda sebagai perujuk di layar pembuatan karakter (tempat Anda memberi nama karakter Anda).
 
-## How to refer someone?
-Simply give the person your in game name, and when they create a new character, they simply need to select you as referrer at the character creation screen (where you name your character).
+## Manfaat Referensi
+1. Setiap kali pemain yang Anda referensikan membeli unit, Anda juga akan menerima 10% dari unit tersebut, misalnya ketika pemain yang Anda referensikan membeli 2000 Unit, Anda akan menerima 200 Unit secara otomatis.
 
-##  Referral Benefits
-1. Whenever the player you referred purchased unit, you will also receive 10% of it, for example when the player you referred purchased 2000 Unit, you would receieve 200 Unit automatically.
-3. When ever a player you referred reached level `20`, you will receieve some rewards: 
-	- 1 `Fanny Pack`
-	- 1`Locked Rare Container`
+2. Ketika pemain yang Anda referensikan mencapai level `20`, Anda akan menerima beberapa hadiah:
+ - 1 `Fanny Pack`
+ - 1`Kontainer Terkunci Langka`

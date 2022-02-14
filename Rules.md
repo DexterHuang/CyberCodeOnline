@@ -10,7 +10,15 @@
 ### Game Rules
 * The use of bots and scripts are prohibited
 * No tool assistance
-* No excessive alts
+* No excessive alts (**Unless you provide a reason to justify the necessity of creating an alt, it is deemed unnecessary, therefore excessive**) 
+    * Example of valid reason:
+      * You forgot the password of your main, and got locked out of account
+      * Your main account has been bugged and becomes unplayable
+    * Example of "cheating is not a valid reason":  
+      * I want to create alts so I can trade faster then normal players
+      * I want to create alts to store unlimited amount of items
+      * I want to create alts so I can AFK with unlimited parallel tasks
+      * I want to create alts so I can scam people with new names
 * Don't exploit bugs, report them instead
 * Keep usernames family friendly (No cuss words, etc)
 * Advertising (global chat/discord/bio/gang motto) of Selling/Buying account/items for IRL money (both directly or indirectly) is not allowed

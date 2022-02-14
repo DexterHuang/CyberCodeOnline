@@ -78,3 +78,15 @@ There are exclamation marks dotted around dungeons that provide snippets of game
 This room is special, as you can tell from the increased number of crates. The crate that looks like a window contains a key fragment that can be used for crafting Secret Keys that unlock new areas.
 
 In this screenshot, you can also see other players helping out. This is especially advised at low levels and when attempting a challenge dungeon, as the boss of challenge dungeons has greatly increased health and power in return for more EXP.
+
+### Minigame
+
+Once in a while, a minigame will show up after defeating an enemy, to insinuate a variety of dungeon dwellings. At the current state (as of 11-02-2022 / v.0780 Update), there's only 1 minigame that's been implemented to the game, called **Color Scheme Minigame**.
+
+![DungeonMinigame1](/resources/mobile-tutorial/DungeonMinigame1.png)
+
+The minigame itself consists of 3 colors (red, green, and yellow; with added symbols as an accessibility add-on) that need to be clicked on in sequence (40 times) in 60 seconds.
+
+![DungeonMinigameFail1](/resources/mobile-tutorial/DungeonMinigameFail1.png)
+
+Failing a minigame will result in a `DECRYPTION FAILED` screen, stating that a player fails to pick a correct color in sequence. Players were able to redo the minigame by clicking the **Try Again** button.
