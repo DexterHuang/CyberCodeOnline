@@ -41,6 +41,7 @@ Proxxie
 [CynexXT](https://github.com/CynexXT)
 [Destro9000](https://github.com/Destro9000)
 [Divadriel](https://github.com/Divadriel)
+[DragonSinns](https://github.com/Xx-DragonSinns-xX)
 [EV_Jack](https://github.com/EvJack)
 [Eziyo](https://github.com/eziyoo)
 [f4tih-0z3r](https://github.com/f4tih-0z3r)
