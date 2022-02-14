@@ -10,7 +10,7 @@
 ### Game Rules
 * The use of bots and scripts are prohibited
 * No tool assistance
-* No excessive alts (excessive: more than is necessary)
+* No excessive alts (Unless you provide a reason to justify the necessity of creating an alt, it is deemed unnecessary, therefore excessive)
 * Don't exploit bugs, report them instead
 * Keep usernames family friendly (No cuss words, etc)
 * Advertising (global chat/discord/bio/gang motto) of Selling/Buying account/items for IRL money (both directly or indirectly) is not allowed
