@@ -73,6 +73,6 @@
   
 ![DungeonBossTreasureCoop](/resources/mobile-tutorial/DungeonBossTreasureCoop.png)
   
-This room is special, as you can tell from the increased number of crates. The crate that looks like a window contains a key fragment that can be used for crafting Secret Keys that unlock new areas.
+Эта комната особенная, как вы можете судить по увеличенному количеству ящиков. Ящик, похожий на окно, содержит фрагмент ключа, который можно использовать для создания секретных ключей, открывающих новые области.
 
-In this screenshot, you can also see other players helping out. This is especially advised at low levels and when attempting a challenge dungeon, as the boss of challenge dungeons has greatly increased health and power in return for more EXP.
+На этом снимке экрана вы также можете увидеть, как другие игроки помогают. Это особенно рекомендуется на низких уровнях и при попытке пройти подземелье испытаний, так как босс подземелий испытаний значительно увеличил здоровье и силу в обмен на больше опыта.
