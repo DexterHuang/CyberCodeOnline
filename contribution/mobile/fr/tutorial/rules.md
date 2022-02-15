@@ -10,7 +10,15 @@
 ### Règles du jeu
 * L'utilisation de bots ou de scripts est interdite.
 * Pas d'outil d'assistance.
-* Pas de comptes alternatifs.
+* Pas de compte alternatifs excessifs (**Sauf si vous fournissez une raison justifiant la nécessité de créer un alternatif, il est jugé inutile, donc excessif**)
+     * Exemple de raison valable :
+       * Vous avez oublié le mot de passe de votre compte principal et votre compte a été verrouillé
+       * Votre compte principal a été buggé et devient injouable
+     * Exemple de "tricherie qui n'est pas une raison valable":
+       * Je veux créer des alternatifs pour pouvoir échanger plus rapidement que les joueurs normaux
+       * Je veux créer des alternatifs pour stocker un nombre illimité d'articles
+       * Je veux créer des alternatifs pour pouvoir AFK avec des tâches parallèles illimitées
+       * Je veux créer des alternatifs pour pouvoir arnaquer les gens avec de nouveaux noms
 * Nexploitez pas les bugs, signalez-les plutôt
 * Garder les noms de joueurs conviviaux
 * La publicité (tchat global/discord/bio/devise de gang) pour vendre/acheter des comptes/objets pour de l'argent réelle (directement ou indirectement) n'est pas autorisée
