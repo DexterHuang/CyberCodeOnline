@@ -26,6 +26,9 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  
 
 ## Updates    
+### 2022/02/15 v0.780 
+- FIX - Market bug fixes 
+
 ### 2022/02/14 v0.780 
 - FIX - Server issue
 - UI - Color minigame color brightness has been lowered, and updated the UI
