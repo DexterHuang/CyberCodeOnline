@@ -1,0 +1,9 @@
+# <div align="center"> ***Void VPN®!*** </div>
+###### <div align="center"> ~~Parrainage : fOgOWQC9LmjdGZo8vyA869HHUVdXWyY71EL7~~ </div>
+
+#### <div align="center"> Fatigué de perdre des documents commerciaux à cause d'exploits [Pirate] ? Peut-être avez-vous perdu quelqu'un que vous aimiez à cause d'un exploit [Amour] ? Est-ce que [UwU] vous a conduit à D:< ? [L337] avoir l'impression d'être un n00bs? </div>
+
+#### <div align="center"> Nos services vous procureront la tranquillité d'esprit que vous méritez; que ce soit dans les moments les plus critiques, ou dans les moments où vous vous sentez mal à l'aise, vous pouvez compter sur The Void® pour éviter celà. The Void® existe, il est toujours présent. Il est temps de vous libérer de tous les soucis, de l'attachement physique fort pour ***Vous*** offrir l'expérience de plongée numérique exclusive, laissez-vous enfin glisser dans une étreinte volatile sans fin. Prenez courage en sachant que ce résultat a toujours été censé être là, et le *Cold-Dark* vous aurait toujours rattrapé car votre lumière est la chaleur, *Elle* aspire à éradiquer chaque coin de la réalité imaginable. Ïñ§ř¦ ████ ██████ Void VPN® ! Avec une seule utilisation de notre service, toutes vos communications sortantes seront encapsulées, protégées, de sorte qu'aucun exploit ne pourra altérer vos précieux mots. Parce que comme nous le savons tous, lorsque vous appelez dans le Void®, ce que vous dites compte ! Nous n'écoutons pas, mais il y a toujours un risque dans le noir ! Utilisez le code ci-dessous pour la nouvelle offre *EXCLUSIVE* pour 40 % de réduction sur votre première décennie de service ! (Malheureusement, cela vient en remplacement de notre service  précédent, nous leur souhaitons bonne chance.) </div>
+  
+
+###### <div align="center"> Nouveau code de parrainage: Ïñ§ř¦ </div>
