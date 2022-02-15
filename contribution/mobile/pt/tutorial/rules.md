@@ -10,7 +10,15 @@
 ### Regras do jogo
 * É proibido o uso de bots e scripts
 * Sem assistência de ferramentas
-* Sem alts excessivos.
+* Sem alts excessivos. (**A menos que você providencie uma razão que justifique a necessidade de criar um alt, é considerado desnecessário, logo excessivo**)
+    * Exaemplo de uma razão válida:
+      * Você esqueceu a sua palavra-chave e ficou bloqueado fora da conta
+      * Sua conta principal está bugada e não consegue usar mais ela
+    * Exemplo de uma razão inválida:  
+      * Eu quero criar alts para que eu possa trocar items mais rápido que os outros players
+      * Eu quero criar alts para guardar quantias ilimitadas de itens
+      * Eu quero criar alts para que eu possa fazer várias tarefas AFK paralelas sem limite
+      * Eu quero criar alts para que eu possa scammar pessoas com novos nomes
 * Não explore bugs, reporte-os em vez disso
 * Mantenha os nomes de usuário adequados para a família
 * Não é permitida a publicidade (chat global/discord/bio/gang lema) de vender/comprar contas/itens por dinheiro IRL (direta ou indiretamente)
@@ -27,9 +35,10 @@
 * Anuncie / Menção de outro jogo
 * Personificar outros
 * Colocar links no chat
+* Postar anúncios das suas vendas de mercado (em qualquer chat) mais do que uma vez em 15 minutos
 
 #### Permitido(desde que você não viole as regras acima):
-* Emoji😃 / Kaomoji ~ヾ(＾∇＾) / 𝕹𝖔𝖓𝖊-𝖘𝖙𝖆𝖓𝖉𝖆𝖗𝖉 𝕱𝖔𝖓𝖙𝖘 (Deve ser de fácil leitura e não cria caos)
-* Encenação
+* Emoji😃 / Kaomoji ~ヾ(＾∇＾) / 𝕹𝖔𝖓𝖊-𝖘𝖙𝖆𝖓𝖉𝖆𝖗𝖉 𝕱𝖔𝖓𝖙𝖘 (Deve ser de fácil leitura e não criar caos)
+* Encenação / Roleplay
 * Discutir política, religião ou COVID
-* Usando qualquer idioma em qualquer canal de bate-papo
+* Usar qualquer idioma em qualquer canal de bate-papo
