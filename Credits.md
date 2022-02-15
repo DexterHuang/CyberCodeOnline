@@ -255,6 +255,7 @@ Exca
 [Kimi Leta](https://github.com/kimileta)
 KingRiver
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)
+[Lance0](https://github.com/Lance0-32)
 [MagicCookie](https://github.com/GooseGooseStop)
 [RaykouTJ](https://github.com/HoneySyrup)
 [levi-middleton](https://github.com/levi-middleton)
