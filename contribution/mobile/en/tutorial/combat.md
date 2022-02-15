@@ -2,7 +2,7 @@
 
 In every location you will see a list of Nearby Enemies and three Dungeons in which you can enter. Locations are separated by level groups.  To unlock new areas, you'll have to gather three key fragments from the dungeons. You can then brute force a new key with your key fragments at the Terminal (Map).
   
-To fight Nearby Enemies, select any of the listed enemies to enter combat. While inside a dungeon, clicking on the enemy, represented by an alien logo will draw you into combat with it.  
+To fight Nearby Enemies, select any of the listed enemies to enter combat. You can't heal while fighting nearby enemies, however, you can click on **Escape** button on the top left corner of the screen to exit the battle. While inside a dungeon, clicking on the enemy, represented by an alien logo will draw you into combat with it.  
 
 ## Combat screen
   
@@ -12,10 +12,10 @@ The combat screen will show you how much health and shield you and your opponent
 Attack the enemy with your equipped primary weapon. This weapon does not use ammo.
 
 ## Special Attack
-Attack the enemy with your equipped special weapon. Deal 120% damage if an enemy has shield, excess damage appllies to health without reduction. This weapon consumes one Energy Cell per shot.
+Attack the enemy with your equipped special weapon. Deal 120% damage if an enemy has shield, excess damage appllies to health without reduction. This weapon consumes one **Energy Cell** per shot.
 
 ## Destructive Attack
-Attack the enemy with your equipped destructive weapon. Deal 50% damage to shields. If enemy has less shield than damage amount, excess damage will not scale back to 100%. This weapon consumes one Antimatter charge per shot.
+Attack the enemy with your equipped destructive weapon. Deal 50% damage to shields. If enemy has less shield than damage amount, excess damage will not scale back to 100%. This weapon consumes one **Antimatter Charge** per shot.
 
 ## Use Item
 You have 3 Use Item slots. You can bind medical supplies, supply create or experience memories and use them. However practically you should only bind medical supplies because all items can also be used outside combat and outside dungeons. There is no automatic sorting to slots.
@@ -77,6 +77,6 @@ You can also pick up modifiers by interacting with the quest giver in the dungeo
  - Shield Enhance IV - Gives the player +20% shield multiplier  
  - Shield Enhance V - Gives the player +25% shield multiplier  
 
-The modifier only starts counting down when you complete the quest by exchanging the requested items from your inventory. You can accept a quest in a dungeon and wait until a later time to start it. Every quests reward will specify the exact modifier you will gain.
+The modifier only starts counting down when you complete the quest by exchanging the requested items on Quest Tab (yellow text when completed). You can accept a quest in a dungeon and wait until a later time to start it. Every quests reward will specify the exact modifier you will gain.
 
-Also, you can stack any number of different player modifiers, for example, you can have Overcharged I, Overcharged II at the same time, resulting in +15% damage. If you gain a modifier you have already enabled, it resets the timer.
+Also, you can stack any number of different player modifiers, for example, you can have Overcharged I, Overcharged II at the same time, resulting in +15% damage. If you gain a modifier you have already enabled (for instance, activating Overcharged I two times), it resets the timer.
