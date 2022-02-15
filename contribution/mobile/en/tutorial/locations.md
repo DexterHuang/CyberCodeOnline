@@ -1,4 +1,4 @@
-## Locations
+# Locations
 The game begins in Shangri-La City Center. From there, you can explore various areas by going to different subway stations. 
 
 ## City Map
@@ -37,6 +37,10 @@ Here you can buy medical items with BTC. Prices are completely separate from the
 The terminal is used to merge key fragments into secret keys to unlock higher-level train stations.
 
 Here you can also unlock locked containers (found in dungeons) with the Tech Scrap that you have.
+
+## Lee's Trading Post
+![LeesTradePost](/resources/mobile-tutorial/LeesTradingPost.png)
+Here you can trade both BTC and Tech Scrap to gain a backpack (only applicable to Old Pouch). Higher backpacks required a fair amount of lower tier backpacks in order to gain one.
 
 ## Bank of Arasaka
 ![Bank of Arasaka](/resources/mobile-tutorial/BankOfArasaka.png)  
