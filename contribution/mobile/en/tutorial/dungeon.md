@@ -81,7 +81,7 @@ In this screenshot, you can also see other players helping out. This is especial
 
 ### Minigame
 
-Once in a while, a minigame will show up after defeating an enemy, to insinuate a variety of dungeon dwellings. At the current state (as of 11-02-2022 / v.0780 Update), there's only 1 minigame that's been implemented to the game, called **Color Scheme Minigame**.
+Once in a while, a minigame will show up after defeating an enemy, when trying to loot a box, or when entering another room, to insinuate a variety of dungeon dwellings. At the current state (as of 11-02-2022 / v.0780 Update), there's only 1 minigame that's been implemented to the game, called **Color Scheme Minigame**.
 
 ![DungeonMinigame1](/resources/mobile-tutorial/DungeonMinigame1.png)
 
@@ -89,4 +89,4 @@ The minigame itself consists of 3 colors (red, green, and yellow; with added sym
 
 ![DungeonMinigameFail1](/resources/mobile-tutorial/DungeonMinigameFail1.png)
 
-Failing a minigame will result in a `DECRYPTION FAILED` screen, stating that a player fails to pick a correct color in sequence. Players were able to redo the minigame by clicking the **Try Again** button.
+Failing a minigame will result in a `DECRYPTION FAILED` screen, stating that a player failed to pick a correct color in sequence. Players are able to redo the minigame by clicking the **Try Again** button.
