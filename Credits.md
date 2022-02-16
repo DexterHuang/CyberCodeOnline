@@ -93,7 +93,7 @@ Wanna
 [WhiteKr](https://github.com/WhiteKr) 
 [Chino](https://github.com/Chino-wid) 
 [UGA_UGA](https://github.com/mdendena2000)
-[Mancipi] （https://github.com/Mancipi）
+[Mancipi](https://github.com/Mancipi）
 [sugar-choco](https://github.com/sugar-choco)
 
 ## Proofreading
