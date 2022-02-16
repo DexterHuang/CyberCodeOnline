@@ -1,0 +1,4 @@
+# Trabalho em equipe ruim entre os mercenários de código cibernético
+> CCO Evento #2 : Sobrevivente (2 of 2)
+
+Outro acampamento de treinamento foi realizado pela UPS superior em 10 de maio de 2077 para abordar a má cooperação e o trabalho em equipe entre os mercenários do Cyber Code.Desta vez, os mercenários foram encarregados de fazer guerrilheiros de guerra assimétrica.Cada mercenário participante é encarregado de tirar um grupo de resistência ao bolso e neutralizar sua força, assumindo seu líder e matando os principais alvos o mais rápido possível.Os mercenários do Cyber Code que falharam na última tarefa de treinamento estavam ansiosos para provar suas habilidades ao operar solo, enquanto os veteranos esperam que isso ensinasse as dificuldades de operar sozinhas, e a importância de trabalhar em conjunto como uma equipe.O Mercenary com o tempo de conclusão da missão mais rápida recebeu suprimentos extras para apoiar implantações futuras.

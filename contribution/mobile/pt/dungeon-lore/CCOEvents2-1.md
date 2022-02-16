@@ -1,0 +1,4 @@
+# Trabalho em equipe ruim entre os mercenários de código cibernético
+> CCO Evento #2: Sobrevivente (1 de 2)
+
+Um novo anúncio veio sobre o desempenho do Cyber Code Mercenário no campo, e é um problema bem conhecido que eles não têm um trabalho de equipe muito bom.Esse problema foi feito aparente quando o primeiro exercício conjunto agrupando-os em equipes aleatórias de até 9 membros falharam miseravelmente.Sua tarefa era derrotar as forças inimigas de maneira rápida e graciosa.O que acabou acontecendo quando chegaram à localização da missão, todos os grupos começaram a ter uns aos outros sobre o melhor método para despachar o inimigo, o que acabou com a derrota completa quando os membros da equipe acabam dividindo e fazendo tarefas solo.Os participantes foram chamados e repreendidos por suas ações, a maioria deles deu uma observação de que eles poderiam ter feito melhor sozinho.UPS mais alto decidiu provar que erraram e mostrar trabalho em equipe é crucial.

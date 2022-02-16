@@ -1,39 +1,32 @@
 # Doação
-To provide the best No Pay-to-Win experience to you, it is necessary that all paid features are cosmetic such as profile images & chat frames, 
-or global buffs that benefit everyone in-game :) 
+Para fornecer a melhor experiência sem pagamento para você, é necessário que todos os recursos pagos sejam cosméticos, como imagens de perfil e quadros de bate-papo,
+ou buffs globais que beneficiam todos no jogo :)
 
-Para assegurar a melhor experiência sem Pay-To-Win, é necessário que todos os recursos pagos sejam cosméticos, como a foto de perfil e molduras de chat. 
+## Por que a foto do perfil é apenas para doação?
+Porque este é um jogo MMORPG e **NÃO é um aplicativo de namoro** (sei que às vezes pode ser confuso 😅), portanto, uma foto de perfil não é um recurso padrão nem obrigatório.
 
-## Porque é que a foto de perfil é apenas acessível por doação?
+**As imagens do perfil são servidas como agradecimento aos doadores**
 
-Porque este jogo é um MMORPG e **NÃO uma dating app** (Eu sei que pode parecer confuso por vezes 😅), portanto as fotos de perfil não são o padrão ou um recurso necessários.
+**Curiosidade: 99% dos MMORPGs não possuem recurso de foto de perfil, mesmo com doação ou sistema P2W🤯**
 
-**Fotos de perfil servem como uma forma de agradecer aos jogadores pela doação**
+## Preciso doar por toda a minha vida?
+Não, você pode cancelar a doação a qualquer momento facilmente através de sua loja.
 
-**Facto engraçado: 99% dos MMORPGs não têm um recurso de foto de perfil, mesmo através de doação ou através dos seys sistemas P2W 🤯**
+## O nível mais alto é tão caro, seu ganancioso @$%#^#$!
+Os níveis mais altos são solicitados por jogadores gentis que gostariam de doar mais.
 
-## Eu preciso doar por toda minha vida?
-No, you can cancel the donation at any time easily via your store.
-Não, você pode cancelar a doação a qualquer momento através da google/apple store. 
+Assim como a maioria dos outros mecanismos de doação, **Sem limite máximo** de quanto uma pessoa pode doar.
 
-## O grau mais elevado é muito caro, seu @$%#^#$ ganancioso!
-Os graus de doação mais elevados foram pedidos por jogadores atenciosos que gostariam de doar mais. :)
+(se você deseja doar mais do que está disponível no aplicativo, pode me enviar uma mensagem diretamente 😃)
 
-Tal como outros mecanismos de doação, **não há um limite máximo** sobre quanto um jogador pode doar. 
+por exemplo: Patreon/Compre-me um café e a maioria dos outros serviços de doação para criadores não têm um limite máximo de quanto uma pessoa pode escolher doar,
 
-(Se você desejar doar mais do que é possível através da app, pode me mandar mensagem diretamente 😃)
+mas devido às políticas do Google Play e da Apple, não tenho permissão para ter links para sites de doação externos no aplicativo,
+então a única opção para mim era ter níveis para o valor comum.
 
-Por exemplo: Patreon/Me compre um café e grande parte de outros serviços de doações para criadores de conteúdo não têm um limite máximo de quanto uma pessoa pode escolher doar. 
+## Preciso doar?
+Não. Eu sugiro fortemente que você **Não** doe se você não estiver confortável com isso.
 
-mas devido às políticas da Google Play & Apple, não posso ter links para sites externos de doação na aplicação, 
+A doação não oferece nenhum benefício de jogo; é puramente cosmético.
 
-então a única opção para mim foi ter vários graus de doação para as quantias mais comuns. 
-
-## Eu preciso doar?
-
-Não. Eu sugiro fortemente que você **Não** doe se você não estiver confortável para fazê-lo. 
-
-Doar não providencia nenhum benefício no jogo; é puramente cosmético. 
-
-Por favor, não doe a menos que você queira suportar o jogo!
-
+Então, por favor, não doe a menos que você queira apoiar o jogo!

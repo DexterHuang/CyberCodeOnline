@@ -1,0 +1,5 @@
+> Fechando a porta atrás de você enquanto entra nesta nova sala, uma piscina de curtas de luz prismática em sua sensação de admiração.Você anda em direção à piscina de luz, tentando pegá-lo.
+  
+> O que você acha é uma pilha de cristais estranhos.Você dá uma olhada em volta.Você se pergunta se alguém os deixou aqui de propósito.Você escolhe um e segure-o com que pouca luz existe.Nada espetacular na primeira impressão.Na verdade, não há muito uma impressão em tudo.A única coisa que foi notável sobre esses cristais é o fato de que eles vieram em uma infinidade de cores.Desvaneceu-se com a idade ao lado, você pode fazer algumas cores distintas: vermelho, branco, verde, roxo, até mesmo um azul.Eles ainda estão brilhantes, apesar de serem deixados para o elemento por um longo tempo.Deixando de lado o fato de que eles são um pouco rachados e um tad dulled, eles mantiveram seu estado muito bem, você observar.
+  
+> Você deixa a pilha de cristal onde está, deixando-os para a próxima pessoa a apreciar seu timeworn, mas sem idade, beleza.

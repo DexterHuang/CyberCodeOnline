@@ -1,0 +1,6 @@
+# A história da mineração de Bitcoin
+> (Parte 1 de 8 Série de Processadores Hash)
+
+A mineração de Bitcoin é o processo pelo qual novas bitcoins são adicionadas à circulação, mas também é um componente crítico da manutenção e desenvolvimento do Ledger Blockchain.É realizado usando computadores muito sofisticados que resolvem problemas de matemática computacional extremamente complexos.
+
+A mineração de criptocorrência é meticulosa, cara e raramente gratificante.No entanto, a mineração tem um apelo enorme para muitos investidores interessados em criptocorrência por causa do fato de que os mineiros são recompensados por seu trabalho com fichas criptográficas.Isso pode ser porque tipos empreendedores vêem mineração como centavos do céu. Os mineiros de Bitcoin recebem Bitcoin como recompensa para completar "blocos" de transações verificadas que são adicionadas ao blockchain.Recompensas de mineração são pagas ao mineiro que descobre uma solução para um complexo quebra-cabeça matemático primeiro, e a probabilidade de que um participante achará a solução é proporcional à quantidade de mineração na rede.

@@ -78,15 +78,3 @@ Aqui, você pode ver o '?' ícone, indicando uma missão se você optar por acei
 Esta sala é especial, como você pode ver pelo aumento do número de caixas. A caixa que parece uma janela contém um fragmento de chave que pode ser usado para criar Chaves Secretas que desbloqueiam novas áreas.
 
 Nesta captura de tela, você também pode ver outros jogadores ajudando. Isso é especialmente recomendado em níveis baixos e ao tentar uma masmorra de desafio, pois o chefe das masmorras de desafio aumentou muito a saúde e o poder em troca de mais EXP.
-
-### Minijogo
-
-De vez em quando, um minijogo vai aparecer após derrotar um inimigo, entrar numa nova sala, ou tentar abrir uma caixa, para insinuar uma variedade de exploração da masmorra. No estado atual (de 11-02-2022 / v.0780 update), apenas há 1 minijogo que está a ser implementado no jogo, chamado de **Minigame de Esquema de Cores**.
-
-![DungeonMinigame1](/resources/mobile-tutorial/DungeonMinigame1.png)
-
-O minijogo em si consiste em 3 cores (vermelho, verde e amarelo; com simbolos adicionais como uma adição de acessibilidade) que necesitam de ser clicados em sequência (40 vezes) em 60 segundos. 
-
-![DungeonMinigameFail1](/resources/mobile-tutorial/DungeonMinigameFail1.png)
-
-Falhar um minigo resulta num ecrã de `DESINCRIPTAÇÃO FALHADA`, indicando que o jogador falhou em escolher a cor correta em sequência. Os jogadores podem repetir o minijo ao clicar no botão de **Tentar Novamente**
