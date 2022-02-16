@@ -38,6 +38,10 @@ Le terminal est utilisé pour fusionner des fragments de clé en clés secrètes
 
 Ici, vous pouvez également déverrouiller des conteneurs verrouillés (trouvés dans les donjons) avec les Débris Technologiques que vous avez.
 
+## Comptoir de Lee
+![LeesTradePost](/resources/mobile-tutorial/LeesTradingPost.png)
+Ici, vous pouvez échanger à la fois BTC et des Déchets Techniques pour gagner un sac à dos (applicable uniquement à "Vieille Pochette"). Les sacs à dos supérieurs nécessitent une bonne quantité de sacs à dos de niveau inférieur pour en obtenir un.
+
 ## Banque d'Arasaka
 ![Banque d'Arasaka](/resources/mobile-tutorial/BankOfArasaka.png)
 En plus de votre inventaire, chaque joueur a également accès à un coffre-fort de la Banque d'Etat de Shangri-La.
