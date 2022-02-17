@@ -26,7 +26,8 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  
 
 ## Updates    
-### 2022/02/18 v0.780\
+### 2022/02/18 v0.780
+- UPDATE - VScode UI has been disabled, as it is very outdated and not very much used.
 - UPDATE - On hit exp has been moved to on kill exp, total exp should be same
 
 ### 2022/02/17 v0.780
