@@ -27,6 +27,9 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates    
 ### 2022/02/17 v0.780
+- FIX - Possible fix of dungeon fight issues
+- OPTIMIZATION - Serverside optimization
+- FIX - fixed minigame and locked box event not firing in street fight
 - FIX - Removed my gang from gang leaderboard, it showed up because a bug introduced by another unrelated fix a aday ago.
 
 ### 2022/02/16 v0.780
