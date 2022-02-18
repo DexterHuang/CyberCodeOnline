@@ -27,6 +27,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates    
 ### 2022/02/18 v0.780
+- FIX - Fixed a bug when you dont have an inventory open but client thinks it does cause by desync, you wont be able to syn-up unless you refresh 
 - UPDATE - VScode UI has been disabled, as it is very outdated and not very much used.
 - UPDATE - On hit exp has been moved to on kill exp, total exp should be same
 
