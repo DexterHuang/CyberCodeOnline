@@ -27,6 +27,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates    
 ### 2022/02/19 v0.780
+- UPDATE - Decreased amount of times random events like minigame or locked box pin would show up in street fights
 - FIX - Fixed locked box pin code not showing correctly issue 
 
 ### 2022/02/18 v0.780
