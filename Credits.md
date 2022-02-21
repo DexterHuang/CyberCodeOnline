@@ -93,7 +93,7 @@ Wanna
 [WhiteKr](https://github.com/WhiteKr) 
 [Chino](https://github.com/Chino-wid) 
 [UGA_UGA](https://github.com/mdendena2000)
-[Mancipi](https://github.com/Mancipi）
+[Mancipi](https://github.com/Mancipi)
 [sugar-choco](https://github.com/sugar-choco)
 
 ## Proofreading
@@ -117,6 +117,7 @@ Exca
 [Grrimnir](https://github.com/kevinguyer)
 JashinL
 [Johnruby](https://github.com/johnruby)
+[Leviaiz](https://github.com/rewlf2)
 [MagicCookie](https://github.com/GooseGooseStop)
 MontyPython
 [PsyB34R](https://www.instagram.com/psybearr)
@@ -152,6 +153,7 @@ JashinL
 [JEricaM](https://github.com/JEricaM)
 krolik
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)
+[Leviaiz](https://github.com/rewlf2)
 LitFill
 [MagicCookie](https://github.com/GooseGooseStop)
 mika
@@ -219,6 +221,7 @@ HumbleServant
 Kaktusmonas
 [Kimi Leta](https://github.com/kimileta)
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)
+[Leviaiz](https://github.com/rewlf2)
 [Luako](https://github.com/luako)
 [MagicCookie](https://github.com/GooseGooseStop)
 [Majeye](https://github.com/TeejayParker)
