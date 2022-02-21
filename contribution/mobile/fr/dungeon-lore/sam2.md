@@ -1,0 +1,9 @@
+`[Partie 2 sur 4]`
+
+On peut voir Sam jeter un coup d'œil par la fenêtre de son appartement, transpirant visiblement. Sa main libre tremble légèrement, alors qu'il utilise son autre main pour couvrir ses yeux de la lumière aveuglante du soleil. « Merde », lance-t-il. "J'espère vraiment que Dan s'en sortira. Je ne peux pas passer le reste de ma vie comme ça." Il s'éloigne rapidement de la fenêtre et fait les cent pas dans la pièce en marmonnant. "Et s'il ne peut rien faire ? Et s'il est déjà trop tard et que les Blitzers sont en route ? Et si..."
+
+Il s'arrête un instant. Il regarde à nouveau la fenêtre, la fixant. Il s'approche lentement de la fenêtre en regardant par là. Il penche la tête en avant, remarquant une étrange camionnette garée devant son appartement. "Je n'ai jamais vu cette camionnette. J'ai... je n'ai jamais vu cette camionnette. *Je-je ne l'ai jamais vue avant.* Oh mon Dieu. Ils sont là. Je suis tellement foutu. Je "Je vais mourir. Je vais être la prochaine victime. ***Oh mon dieu non.***" Il commence à se précipiter dans son appartement, trébuchant sur sa table basse et se cognant contre son mur. Il hurle d'agonie, tenant son épaule avec son bras droit. Il s'approche lentement de la porte d'entrée, espérant que les Blitzers ne sont pas déjà de l'autre côté.
+
+Il se lève jusqu'à la porte, gardant la tête hors du judas. Sa respiration commence à s'accélérer. Il se tient la poitrine et peut sentir son cœur battre la chamade. Il ferme les yeux et respire longuement et profondément. "Eh bien... si je dois mourir, autant y faire face." Il prend un moment, puis plonge son œil dans le judas. S'attendant à une réponse armée, Sam est surpris du néant habituel de l'autre côté. Il s'effondre sur le sol, sa respiration s'accélérant à nouveau. Il était en sécurité, pour le moment.
+
+**C'était seulement jusqu'à ce que la porte s'ouvre soudainement.**
