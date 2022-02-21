@@ -96,6 +96,8 @@ Wanna
 [UGA_UGA](https://github.com/mdendena2000)
 [Mancipi](https://github.com/Mancipi)
 [sugar-choco](https://github.com/sugar-choco)
+[fusiondesu](https://github.com/fusion-desu)
+[McKnight](https://github.com/ReILIaX)
 
 
 ## Proofreading
