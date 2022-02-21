@@ -51,6 +51,7 @@ Proxxie
 [kj415j45](https://github.com/kj415j45)
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)
 [Kraken-Juice](https://github.com/Kraken-Juice)
+[Mazoom](https://github.com/mazoom81)
 [Misaki](https://github.com/Misaki290)
 [Murfex](https://github.com/Murfex)
 [legiorange](https://github.com/legiorange)
@@ -95,6 +96,7 @@ Wanna
 [UGA_UGA](https://github.com/mdendena2000)
 [Mancipi](https://github.com/Mancipi)
 [sugar-choco](https://github.com/sugar-choco)
+
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
