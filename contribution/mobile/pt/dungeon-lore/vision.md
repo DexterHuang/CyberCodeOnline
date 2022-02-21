@@ -1,9 +1,9 @@
-> Você ouve um clique debaixo de seus pés e está surpreso com uma visão de um 'humano?'na frente de você.Ao voltar, a visão fica mais clara.A visão glitchy quebra depois de cada sentença que você ouve.
+> Você ouve um clique sob seus pés e se assusta com a visão de um 'humano?' na sua frente. À medida que você recua, a visão se torna mais clara. A visão pisca e treme após cada frase que você ouve.
 
-"Ajuda .. Me! Ajude .. Mim .. ajuda .. Me! Eles são torturais ..."
+"Me.. Ajude! Me.. Ajude.. Me.. Ajude! Eles estão tortur-.."
 
-> A voz distorcida soa como uma mulher.A visão se rompe e se recupera.Parece mais claro agora como você vê um holograma de uma mulher na frente de você.Ela tem um chip na esquina da testa.Ela hesitantemente conserta o que você adivinha é o gravador e continua.
+> A voz distorcida soa como a de uma mulher. A visão vai e volta. Parece mais claro agora que você vê o holograma de uma mulher na sua frente. Ela tem um chip no canto da testa. Ela hesitantemente conserta o que você acha que é o gravador e continua.
 
-"Eles sequestraram-me e minha irmã. Eu estou em Yames - .. visão quebra - ... Célula trancada em alguma ... ... ..- Quarte - .."
+"Eles sequestraram a mim e minha irmã. Estou em Yames-.. A imagem pisca -..Tação. Cela trancada em algum-.. ... ..- Quarte -.."
 
-> A visão blurs e você percebe que o dispositivo foi desligado.
+> A imagem fica turva e você percebe que o dispositivo foi desligado.
