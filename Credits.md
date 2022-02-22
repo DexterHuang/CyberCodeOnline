@@ -51,6 +51,7 @@ Proxxie
 [kj415j45](https://github.com/kj415j45)
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)
 [Kraken-Juice](https://github.com/Kraken-Juice)
+[Mazoom](https://github.com/mazoom81)
 [Misaki](https://github.com/Misaki290)
 [Murfex](https://github.com/Murfex)
 [legiorange](https://github.com/legiorange)
@@ -93,8 +94,11 @@ Wanna
 [WhiteKr](https://github.com/WhiteKr) 
 [Chino](https://github.com/Chino-wid) 
 [UGA_UGA](https://github.com/mdendena2000)
-[Mancipi](https://github.com/Mancipi）
+[Mancipi](https://github.com/Mancipi)
 [sugar-choco](https://github.com/sugar-choco)
+[fusiondesu](https://github.com/fusion-desu)
+[McKnight](https://github.com/ReILIaX)
+[B3llial](https://github.com/B3lli4l)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
@@ -106,6 +110,7 @@ Wanna
 [Kimi Leta](https://github.com/kimileta)
 [Yahishiro](https://github.com/Yahishiro)
 [Prodam](https://github.com/Pr0dam)
+[B3llial](https://github.com/B3lli4l)
 
 ## Lore
 [Ayanna](https://github.com/JustACloud)
@@ -117,6 +122,7 @@ Exca
 [Grrimnir](https://github.com/kevinguyer)
 JashinL
 [Johnruby](https://github.com/johnruby)
+[Leviaiz](https://github.com/rewlf2)
 [MagicCookie](https://github.com/GooseGooseStop)
 MontyPython
 [PsyB34R](https://www.instagram.com/psybearr)
@@ -152,6 +158,7 @@ JashinL
 [JEricaM](https://github.com/JEricaM)
 krolik
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)
+[Leviaiz](https://github.com/rewlf2)
 LitFill
 [MagicCookie](https://github.com/GooseGooseStop)
 mika
@@ -219,6 +226,7 @@ HumbleServant
 Kaktusmonas
 [Kimi Leta](https://github.com/kimileta)
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)
+[Leviaiz](https://github.com/rewlf2)
 [Luako](https://github.com/luako)
 [MagicCookie](https://github.com/GooseGooseStop)
 [Majeye](https://github.com/TeejayParker)

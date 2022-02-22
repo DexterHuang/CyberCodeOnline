@@ -96,6 +96,12 @@ Explanation around Item / Resources can be found on both [Inventory](https://cyb
 ### Hmm.. Why Am I Leveling so Slow?
 At most cases (such as Deploy Farm Bot task), your **Gear Score** affects your EXP Gain exponentially. It is advised to have your Gear Score closer to your Character Level so that you gain more optimal EXP Gain. 
 
+### What is the Max Item / Stack?
+You can carry up to 10000 items (same amount applies to Bank, Market, and Item Inbox) into your Inventory, exluding Gear & Upgrade Modules.
+
+### What is the amount of Inventory Slot that we can acquired?
+At the start, players will have the base of 50 Inventory Slot. Players can increase the amount of slot by equipping backpack (which can be acquired via Lee's Trading Post, Player Market, and Player Trade) and using gear or modules that has a **Pocket** stats. The max Inventory Slots are 178.
+
 ### What is Global Skip?
 Explanation around Global / Time Skip can be found on [Time Skip's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fglobal_skip.md)
 

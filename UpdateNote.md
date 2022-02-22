@@ -25,7 +25,26 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
  
 
-## Updates    
+## Updates        
+### 2022/02/22 v0.780
+- UPDATE - Item stack max amount is increased to 10,000
+- UPDATE - `Prestige` donation tier is now on discount with the up coming `228 incident` day in Taiwan
+
+### 2022/02/19 v0.780
+- UPDATE - Decreased amount of times random events like minigame or locked box pin would show up in street fights
+- FIX - Fixed locked box pin code not showing correctly issue 
+
+### 2022/02/18 v0.780
+- FIX - Fixed a bug when you dont have an inventory open but client thinks it does cause by desync, you wont be able to syn-up unless you refresh 
+- UPDATE - VScode UI has been disabled, as it is very outdated and not very much used.
+- UPDATE - On hit exp has been moved to on kill exp, total exp should be same
+
+### 2022/02/17 v0.780
+- FIX - Possible fix of dungeon fight issues
+- OPTIMIZATION - Serverside optimization
+- FIX - fixed minigame and locked box event not firing in street fight
+- FIX - Removed my gang from gang leaderboard, it showed up because a bug introduced by another unrelated fix a aday ago.
+
 ### 2022/02/16 v0.780
 - OPTIMIZATION - Serverside optimization
 
