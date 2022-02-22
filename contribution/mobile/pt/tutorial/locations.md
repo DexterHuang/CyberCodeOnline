@@ -36,7 +36,11 @@ Aqui você pode comprar itens médicos com BTC. Os preços são completamente se
 ![Terminal](/resources/mobile-tutorial/Terminal.png)  
 O terminal é usado para mesclar fragmentos de chaves em chaves secretas para desbloquear estações de trem de nível superior.
 
-Aqui você também pode desbloquear contêineres bloqueados (encontrados em masmorras) com o Sucata de Tecnologia que você possui.
+Aqui você também pode desbloquear cofres bloqueados (encontrados em masmorras) com o Sucata de Tecnologia que você possui.
+
+## Posto de Troca do Lee
+![LeesTradePost](/resources/mobile-tutorial/LeesTradingPost.png)
+Aqui você pode trocar tanto BTC como Sucata Tecnológica para ganhar uma mochila (apenas aplicável para Bolsa Velha). Mochilas maiores requerem uma quantidade grande de mochilas de baixo grau para conseguir fazer uma. 
 
 ## Banco de Arasaka
 ![Bank of Arasaka](/resources/mobile-tutorial/BankOfArasaka.png)  
@@ -52,8 +56,7 @@ Itens que são empilháveis ​​ocuparão apenas um slot de banco, assim como 
 
 Em cada estação, você também pode usar seus núcleos de IA para cultivar EXP e buscar materiais necessários para criar itens de cura e munição.
 
-## Área Comercial Shangri-La (Centro de Empregos)
-## Shangri-La Commercial Area (Centro de Trabalho)  
+## Área Comercial Shangri-La (Centro de Empregos) 
 ![Commercial Area](/resources/mobile-tutorial/Shangri-LaCommercialArea.png)  
 Nesse local, você pode procurar trabalhos para aumentar seu nível de impressão, níveis de fabricação de munição/médica e nível de mineração. Cada trabalho (atividade AFK) contém detalhes sobre o que você pode realizar com ele.
 
