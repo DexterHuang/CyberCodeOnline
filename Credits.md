@@ -98,7 +98,7 @@ Wanna
 [sugar-choco](https://github.com/sugar-choco)
 [fusiondesu](https://github.com/fusion-desu)
 [McKnight](https://github.com/ReILIaX)
-
+[B3llial](https://github.com/B3lli4l)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
@@ -110,6 +110,7 @@ Wanna
 [Kimi Leta](https://github.com/kimileta)
 [Yahishiro](https://github.com/Yahishiro)
 [Prodam](https://github.com/Pr0dam)
+[B3llial](https://github.com/B3lli4l)
 
 ## Lore
 [Ayanna](https://github.com/JustACloud)
