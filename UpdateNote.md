@@ -25,7 +25,14 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
  
 
-## Updates    
+## Updates        
+### 2022/02/23 v0.780
+- UPDATE - Color minigame required taps has been reduced
+
+### 2022/02/22 v0.780
+- UPDATE - Item stack max amount is increased to 10,000
+- UPDATE - `Prestige` donation tier is now on discount with the up coming `228 incident` day in Taiwan
+
 ### 2022/02/19 v0.780
 - UPDATE - Decreased amount of times random events like minigame or locked box pin would show up in street fights
 - FIX - Fixed locked box pin code not showing correctly issue 
