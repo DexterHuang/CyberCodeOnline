@@ -26,6 +26,9 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  
 
 ## Updates        
+### 2022/02/23 v0.780
+- UPDATE - Color minigame required taps has been reduced
+
 ### 2022/02/22 v0.780
 - UPDATE - Item stack max amount is increased to 10,000
 - UPDATE - `Prestige` donation tier is now on discount with the up coming `228 incident` day in Taiwan
