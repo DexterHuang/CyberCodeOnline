@@ -111,6 +111,7 @@ Wanna
 [Yahishiro](https://github.com/Yahishiro)
 [Prodam](https://github.com/Pr0dam)
 [B3llial](https://github.com/B3lli4l)
+Kalinka
 
 ## Lore
 [Ayanna](https://github.com/JustACloud)
@@ -141,6 +142,7 @@ LieRenThePope
 Experiencedkk7t 
 [DOUNODEWAE](https://github.com/js147896325) 
 [zolir](https://github.com/ZolirAsure)
+Kalinka
 
 ## Dungeons
 Alecto
