@@ -199,6 +199,7 @@ zomg
 [DexterHuang](https://github.com/DexterHuang)
 Dzylx
 HBUNKNOWN
+[Lance0](https://github.com/Lance0-32)
 Livingdead
 [Misaki](https://github.com/Misaki290)
 [Omnipotent_God](https://github.com/Omnipotent-God)
