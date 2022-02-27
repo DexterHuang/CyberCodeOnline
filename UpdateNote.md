@@ -26,6 +26,10 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  
 
 ## Updates        
+### 2022/02/27 v0.780
+- UPDATE - Market UI have been re-done.
+- UPDATE - Now blocked user cannot send gift to you
+
 ### 2022/02/23 v0.780
 - UPDATE - Color minigame required taps has been reduced
 
