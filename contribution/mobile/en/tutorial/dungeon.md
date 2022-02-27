@@ -23,7 +23,7 @@ At the top right of each dungeon panel, you can find the dungeon level. Each pan
  
 ![DungeonCoop](/resources/mobile-tutorial/DungeonCoop.png)
   
-As shown in the images above, there are several players in the same dungeon. The rules are the same regardless of how many players are in a dungeon; the only difference is that players can help each other out. When using heals, it is usually advised to use the AOE items (such as Pain Away Spray) to heal both yourself and your co-op partners. You can see everyone's health bars above the player icons.  
+As shown in the images above, there are several players in the same dungeon. The rules are the same regardless of how many players are in a dungeon; the only difference is that players can help each other out. When using heals, players may use the AOE items (such as Pain Away Spray) to heal both yourself and your co-op partners. You can see everyone's health bars above the player icons. Players may also help dungeonmates by killing the enemy, as the HPs of dungeons enemies are shared by the whole co-op.
 
 When an enemy is killed with the help from a friend, everyone who dealt 20% or more damage is given EXP and a chance for a reward, as long as their level isn't too high for the mob. All crates and loot are unique to each player, so you don't need to worry about sharing loot or having yours stolen. Grab everything you want and discard the rest!
 
@@ -47,7 +47,7 @@ This also shows an example of a room that has been completed. Note the greyed ou
   
 ![DungeonEnemies](/resources/mobile-tutorial/DungeonEnemies.png)
   
-There are four alien looking icons spread across the room, and these are the enemies you have to defeat before proceeding to the next room or accessing the crates in the room. Click on one of them to fight them.
+There are at most four alien looking icons spread across the room, and these are the enemies you have to defeat before proceeding to the next room or accessing the crates in the room. Click on one of them to fight them.
   
 ![DungeonFight](/resources/mobile-tutorial/DungeonFight.png)
   
@@ -85,7 +85,7 @@ Once in a while, a minigame will show up after defeating an enemy, when trying t
 
 ![DungeonMinigame1](/resources/mobile-tutorial/DungeonMinigame1.png)
 
-The minigame itself consists of 3 colors (red, green, and yellow; with added symbols as an accessibility add-on) that need to be clicked on in sequence (40 times) in 60 seconds.
+The minigame itself consists of 3 colors (red, green, and yellow; with added symbols as an accessibility add-on) that need to be clicked on in sequence (40 times) in 60 seconds. You can also see the upcoming 2 colors as thinner color strips.
 
 ![DungeonMinigameFail1](/resources/mobile-tutorial/DungeonMinigameFail1.png)
 
