@@ -7,4 +7,4 @@ Now, the replica is available only for 999,999 BTC. Comes in customizable size, 
 Ideal for personal defense, gifting and collectors.  
 Just pop the cache into the 3D printer and voila!
 
-\* **Condition applies. We bear no responsibility for any damage caused by unintended usage.**
+/* **Condition applies. We bear no responsibility for any damage caused by unintended usage.**
