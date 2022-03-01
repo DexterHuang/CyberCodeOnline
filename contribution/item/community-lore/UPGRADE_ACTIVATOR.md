@@ -1,4 +1,4 @@
-Honestly, you dont see these too often... A high end proprietary data storage crystal, or rather a somewhat convincing copy of one. Still, someone really did not want
-whatever data this thing holds to be found out but, hey, finders-keepers right? Might as well have Komiko in Shangri-La center reverse engineer it. No one would go 
-through something as complicated as copying one of these, one fiber set delicately into the crystal's matrix at a time unless there was something somebody was ready to
-pay dearly for. Etched into the top of the housing are the words : "Glaz Security Corp. #1874: Part 14" 
+Честно говоря, вы не слишком часто видите это... Высококлассный проприетарный кристалл для хранения данных, или, скорее, несколько убедительная копия одного из них. Тем не менее, кто-то действительно не хотел
+, чтобы какие-либо данные, хранящиеся в этой штуке, были обнаружены, но, эй, искатели-хранители, верно? С таким же успехом можно было бы попросить Комико в центре Шангри-Ла перепроектировать его. Никто не стал бы проходить
+через что-то столь сложное, как копирование одного из них, по одному волокну, аккуратно вставленному в матрицу кристалла за раз, если бы не было чего-то, за что кто-то был готов
+дорого заплатить. В верхней части корпуса выгравированы слова: "Корпорация безопасности Glaz № 1874: Часть 14".
