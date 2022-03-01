@@ -1,7 +1,4 @@
-**Anti Matter Charge**. 
+Заряд Антиматерии.
 
-
-
-"When Anti Matter Charge comes into contact with matter it annihilates: the mass of the particle and its antiparticle are converted into pure energy.
-
+"Когда заряд антивещества вступает в контакт с материей, он аннигилирует: масса частицы и ее античастицы преобразуются в чистую энергию.
 ![my image](/resources/lore/AMMO_2.jpg)
