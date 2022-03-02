@@ -26,6 +26,9 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  
 
 ## Updates        
+### 2022/03/02 v0.780
+- FIX - Fixed exp related issue 
+
 ### 2022/02/27 v0.780
 - UPDATE - Market UI have been re-done.
 - UPDATE - Now blocked user cannot send gift to you
