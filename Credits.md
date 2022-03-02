@@ -47,6 +47,7 @@ Proxxie
 [f4tih-0z3r](https://github.com/f4tih-0z3r)
 [Fremad](https://github.com/Fremadico)
 [JEricaM](https://github.com/JEricaM)
+[Jognatan](https://github.com/Jognatan)
 [Johnruby](https://github.com/johnruby)
 [kj415j45](https://github.com/kj415j45)
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)
@@ -262,6 +263,7 @@ Crescent_Grey
 [DexterHuang](https://github.com/DexterHuang)
 Exca
 [Hally](https://twitter.com/g_hally1996)
+[Jognatan](https://github.com/Jognatan)
 [Kimi Leta](https://github.com/kimileta)
 KingRiver
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)
