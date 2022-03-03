@@ -26,6 +26,9 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  
 
 ## Updates        
+### 2022/03/03 v0.780
+- UPDATE - Added check for client desyn when calibrating equipments, to prevent accidental breaking when desync from buff display
+
 ### 2022/03/02 v0.780
 - FIX - Fixed exp related issue 
 
