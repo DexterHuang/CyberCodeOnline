@@ -66,7 +66,7 @@ These weapons require ammo. Special weapons uses Energy Cells and Destructive we
 ### What are caches and what should I do with them?
 Cache is an item that you can use to craft equipment at the Molecular 3D Printer.  It is not recommended to scrap your caches as it has 50% chance of giving Tech Scrap & also more valuable to print or sell.
 
-### When do I Print "X" cache"?
+### When do I Print "X" cache?
 Explanation around Cache printing can be found on [Equipment's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fequipment.md)
 
 ### Where can I get healing items?
