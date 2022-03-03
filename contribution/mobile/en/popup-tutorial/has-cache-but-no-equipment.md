@@ -1,6 +1,6 @@
 # How to get Equipments?
 
-It seems like you have equipment caches but havn't used them to print any equipment yet!
+It seems like you have equipment caches but haven't used them to print any equipment yet!
 They look like this in your inventory: 
 ![image](https://user-images.githubusercontent.com/18545294/147308888-70f5d24b-258c-429b-8daa-7a1fa7822d0a.png)
 
