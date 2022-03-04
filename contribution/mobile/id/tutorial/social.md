@@ -1,19 +1,18 @@
 ## Gangs
-Currently gangs are just a private chat area for a group of up to 32 friends to communicate, but there are future plans for features to be added.
+Untuk saat ini geng hanya untuk area  obrolan kelompok pribadi hingga 32 orang teman untuk berkomunikasi, tetapi rencana di masa depan fitur akan ditambahkan.
 
-As Gang Leader, you will have 3 additional options when visiting one of your gang members' profiles:
- - [KICK] - you can kick the gang member from the gang;
- - [PERMISSIONS] - here you can grant permissions to the gang member:
-   - Invite - it allows the gang member to invite other players to the gang;
-   - Kick  - it allows the gang member to kick other gang members;
-   - Manage - it allows the gang member to add or remove other gang members' permissions.
- - [TRANSFER LEADERSHIP] - you can set another gang member as the leader in case you don't want to be the leader anymore or want to leave the gang.
+Sebagai ketua gang , kamu memiliki 3 opsi tambahan saat melihat salah satu profil anggota gang mu :
+ - [MENGELUARKAN] - Kamu bisa mengeluarkan anggota dari gang 
+ - [PERIZINAN] - Perizinan untuk memberikan akses kepada anggota:
+   - Undang - Memberi hak ke anggota untuk mengundang ke gang
+   - Mengeluarkan - Memberi hak ke anggota untuk mengeluarkan anggota lain dari gang
+   - Manage - Memberi hak ke anggota untuk menambah dan menghapus izin akses anggota lain di gang
+ - [TRANSFER KEPEMIMPINAN] -  Memberi hak 'Ketua gang' ke seseorang disaat kamu tidak ingin menjadi ketua atau ingin keluar dari gang tsb
 
-Also as the Leader, in the Gang chat, if you click on the numbers of players in the gang on the top right, you will be able to [DELETE GANG] there.
+Sebagai Ketua Gang , Di dalam kolom chat gang , jika kamu menekan jumlah anggota di pojok kanan atas, kamu bisa [HAPUS GANG] disana.
 
-
-## Friends
-To access your personal friends list, click on the floating menu and choose the 'people' icon. 
-You can add friends by going into a user's profile, scrolling down and clicking 'Add to Friend List'. You can do the same to remove a friend by clicking the 'Remove From Friend List' button.
-Adding someone to your friends list will not require the other person to accept the request. They will simply be added to your friends list.
-Viewing your friends list will allow you to see if they are online, idle or offline.
+## Teman
+Untuk mengakses ke Daftar teman, Click menu mengapung dan pilih logo 'orang'
+Untuk menambah Teman , Klik Profil User , Geser kebawah dan klik tombol ' tambahkan teman ' . kamu juga bisa menghapus teman dengan Klik tombol ' Hapus pertemanan '
+Menambah teman tidak memperlukan persetujuan ,dan Itu akan langsung masuk ke daftar teman.
+melihat daftar teman juga bisa menampilkan keterangan ' Online ' , 'Idle' , ataupun 'Offline'.

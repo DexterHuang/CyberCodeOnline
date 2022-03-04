@@ -9,16 +9,16 @@ To fight Nearby Enemies, select any of the listed enemies to enter combat. You c
 The combat screen will show you how much health and shield you and your opponent both have, as well as the amount of ammo you have left for each of your weapons and the approximate damage they can do.  
 
 ## Primary Attack
-Attack the enemy with your equipped primary weapon. This weapon does not use ammo.
+Attack the enemy with your equipped primary weapon. This weapon does not use ammo, but deals the least damage amongst the weapons among weapons of the same level and tier.
 
 ## Special Attack
-Attack the enemy with your equipped special weapon. Deal 120% damage if an enemy has shield, excess damage appllies to health without reduction. This weapon consumes one **Energy Cell** per shot.
+Attack the enemy with your equipped special weapon. Deal 120% damage if an enemy has shield, excess damage appllies to health without reduction. This weapon consumes one **Energy Cell** per shot and deals damage between a primary and desructive weapon of the same level and tier.
 
 ## Destructive Attack
-Attack the enemy with your equipped destructive weapon. Deal 50% damage to shields. If enemy has less shield than damage amount, excess damage will not scale back to 100%. This weapon consumes one **Antimatter Charge** per shot.
+Attack the enemy with your equipped destructive weapon. Deal 50% damage to shields. If enemy has less shield than damage amount, excess damage will not scale back to 100%. This weapon consumes one **Antimatter Charge** per shot and deals the most damage before modifiers to shields amongst weapons of the same level and tier.
 
 ## Use Item
-You have 3 Use Item slots. You can bind medical supplies, supply create or experience memories and use them. However practically you should only bind medical supplies because all items can also be used outside combat and outside dungeons. There is no automatic sorting to slots.
+You have 3 Use Item slots. You can bind medical supplies, supply create or experience memories and use them. However practically you should only bind medical supplies because all items that can be immediately used work outside combat and outside dungeons, and only medical supplies need to be used in dungeons. There is no automatic sorting to slots.
 
 You can only use items in Dungeons. This means you cannot heal when fighting nearby enemies.
 
@@ -36,21 +36,22 @@ Enemies can have modifiers, which are indicated by an adjective before the enemi
  - Mad - Gives the enemy +20% damage  
  - Angry - Gives the enemy +10% damage  
  - Tough - Gives the enemy +20% defence  
-   - Also gives the enemy significantly more health (Not in tooltips)
+   - Also gives the enemy significantly more health and slightly more damage (Not in tooltips)
  - Agile - Gives the enemy +20% stun evade and a shield  
    - The Shield amount is always equal to half of enemy's health
  - Shielded - Gives the enemy a large shield  
    - The Shield amount is always equal to double of enemy's health
+   - Note however that shielded enemies have slightly lower health to compensate.
  - Precise - Gives the enemy +10% crit chance and +40% crit damage
    - Also gives the enemy a shield (Not in tooltips)
  - Berserker - Gives the enemy significantly more health, shield and damage.
-   - No tooltip exists for it, but the significantly higher shield and health (they are also equal) is very easy to notice
+   - No tooltip exists for it, but the significantly higher shield and health (which are also almost equal, except for bosses) is very easy to notice
 
 Some important notes about modifiers:
 
 1. The damage from enemy is multiplied by the factor, then subtracted by your armor before deducting from your health. This means enemies might deal significantly more damage than no-modifier counterparts. 
 2. Similar calculation results also apply to defense. Tough enemies can take much more shots to kill.
-3. Agile enemies have "Stun Evade", not "Evade". You will not miss an attack towards such enemy, but you may need to heal slightly more.
+3. Agile enemies have "Stun Evade" (i.e. Only 80% of your stun value is used, e.g. 20% stun becomes 16% stun.), rather than "Evade" (i.e. chance for your attack to not hit at all). You may need to heal slightly more from such enemies hitting you when you normally stun them, but you will not have to heal from missing a shot completely.
 
   
 ## Player Modifiers
@@ -79,4 +80,4 @@ You can also pick up modifiers by interacting with the quest giver in the dungeo
 
 The modifier only starts counting down when you complete the quest by exchanging the requested items on Quest Tab (yellow text when completed). You can accept a quest in a dungeon and wait until a later time to start it. Every quests reward will specify the exact modifier you will gain.
 
-Also, you can stack any number of different player modifiers, for example, you can have Overcharged I, Overcharged II at the same time, resulting in +15% damage. If you gain a modifier you have already enabled (for instance, activating Overcharged I two times), it resets the timer.
+Also, player modifiers of different tiers stack additively. For example, you can have Overcharged I, Overcharged II at the same time, resulting in +15% damage. However if you gain a modifier you have already enabled (for instance, activating Overcharged I two times), it resets the timer.
