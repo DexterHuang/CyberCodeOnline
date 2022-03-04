@@ -22,22 +22,22 @@ There are 5 skills that player can develop & it has it's own perk upon doing so.
 
 > For **Ammo Crafting Skills**, player can level up by doing **Ammo Crafting Task** on **Commercial Area** (/ Job Hub) or by crafting Ammo on **Inventory > Crafting > Ammo** (Needs to be atleast level 10 Ammo Crafting before doing so).  
 
-> For **Scavenge Skills**, player can level up by doing **Scavenge Task**. Player can find Scavenge task below **Deploy Farm Bot** Task on each area. 
+> For **Scavenge Skills**, player can level up by doing **Scavenge Task**. Player can find Scavenge task below **Deploy Farm Bot** Task on each area. It is important to note that starting out, you must start at the level 1-4 area due to the requirements on scavenging level of later areas.
 
 > For **Mining Skills**, player can level up by doing **Crypto Mining Task** on **Commercial Area** (/ Job Hub) or by doing **Gang Task** that player can find on their Gang Headquarters.
 
 ### What's the Benefit of Leveling Up "X" Skills?
 There are 5 skills that player can develop & it has it's own perk upon doing so. In summary, here's the benefit of leveling up certain skills:
 
-> For **Printing Skills**, player can print a better yet higher level gear. Having a better gear onto player's arsenal adds better stats into players favour, making fight less difficult. 
+> For **Printing Skills**, player can print a better and higher level gear. Having a better gear onto player's arsenal adds better stats into players favour, making fight less difficult. 
 
-> For **Medical Skills**, player can craft a better meds into their arsenal (up to Epic Nano Medic Bots), helping player on a longer run while also providing better health pool per usage.
+> For **Medical Skills**, player can craft better meds into their arsenal (up to Epic Nano Medic Bots), helping player on a longer run while also providing better health pool per usage.
 
-> For **Ammo Crafting Skills**, player can craft higher rates of ammo craft per level with a same ingredient ratio.
+> For **Ammo Crafting Skills**, player can craft more ammo per 10 levels with the same amount of ingredients.
 
-> For **Scavenge Skills**, player can do higher Scavenge Task, which allows player to get an even better item drop rate. 
+> For **Scavenge Skills**, player can do higher level Scavenge Task, which allows player to get an even better item drop rate. 
 
-> For **Mining Skills**, player can get better BTC amount per 1 Crypto Mining task and also higher rates of AI craft per level with a same ingredient ratio.
+> For **Mining Skills**, player can get better BTC amount per 1 Crypto Mining task and also higher output of AI craft per level with the same amount of ingredients.
 
 ### Can Skills Level be higher than our Character Level?
 No. Character Level is the max / boundary of player's skill level.
@@ -50,7 +50,7 @@ On **lower level (1-7)**, the fastest and best way to level up is to fight **Nea
 
 **After reaching level 7**, try to equip / print a gear that has same gear level as your character level, and jumps into solo **Normal Dungeon**. Player can also join other players Dungeon via **Dungeon List** feature on **Map > Phone Icon > Dungeon List**. Finishing a dungeon will gain more EXP yield than Nearby Enemies.
 
-For best result, try to compelete **Challenge Dungeons** while having an active **Frontal Cortex Transmitter** (EXP Buff / Booster) on a go.
+For best results, try to compelete **Challenge Dungeons** at rare and below gear or **Gang Dungeons** at legendary or above gear while having an active **Frontal Cortex Transmitter** (EXP Buff / Booster).
 
 Note: You could also level up by doing AFK Task (**Deploy Farm Bot**) that requires **AI Core**. These task takes time (up to 2 hours) & only be profitable if a Global Skip event is happening, which recudes the task time (making it the most efficient way to level up). Explanation around Time Skip can be found on [Time Skip's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fglobal_skip.md)
 
@@ -127,7 +127,7 @@ You can repair your equipment by paying a small amount of BTC at the Weapon Shop
 ### Do caches scale with my level? Should I keep them for later?
 The caches you print scale with your Printing Rank. The gear that you obtain from them will always have the same level as your Printing Rank. Make sure to level your Printing Rank to your current player level to always receive the best equipment possible from printing.
 
-It doesn't matter if you print your caches now or later, but it's recommended to keep your Legendary caches for level 50 / 60+. If you happen to find an Epic cache, hold onto it until level 100+.
+It doesn't matter if you print your caches now or later, but it's recommended to keep your Legendary caches for level 50 / 60+. If you happen to find an Epic cache, hold onto it until level 100+ or sell it to other players.
 
 Legendary and Epic caches are much more expensive to craft than Rare ones, but the items have much better stats.  Higher quality items can last you for a long time, and are often worth calibrating at the Calibration Station.
 
@@ -179,8 +179,6 @@ You can find Public Dungeon via Dungeon List option (which found on Profile > Ph
 - Crates that have a "+" inside them contain key fragments.
 - The yellow stars / ✧ contains a locked container.
 - The "alien looking icons" represent monsters inside the dungeon.
-
-### These mobs has a high HP & damage 
 
 ### People are looting my stuff. Help!
 The loot in the crates is randomly generated for each player. Therefore, it's impossible for someone to steal your loot.
