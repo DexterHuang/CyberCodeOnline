@@ -86,6 +86,12 @@ Le **Score d'Equipement** est le niveau moyen de l'équipement que vous portez. 
 ### Hmm... Pourquoi je met tant de temps à monter de niveau ?
 Dans la plupart des cas (comme la tâche Deploy Farm Bot), votre **Score d'Equipement** affecte votre gain d'EXP de manière exponentielle. Il est conseillé d'avoir votre score d'équipement plus proche de votre niveau de personnage afin d'obtenir un gain d'EXP plus optimal.
 
+###  Quel est le nombre maximum d'objets que l'on peut stocker ?
+Vous pouvez transporter jusqu'à 10 000 objets (le même nombre s'applique à la banque, au marché et à la boîte de réception d'objets) dans votre inventaire, à l'exception des modules d'équipement et de mise à niveau.  
+
+###  Quelle est la quantité d'emplacements d'inventaire que l'on peut avoir ?  
+Au début, les joueurs disposent de 50 emplacements d'inventaire. Les joueurs peuvent augmenter le nombre d'emplacements en s'équipant d'un sac à dos (qui peut être acheté au Comptoir de  Lee, Le Marché des joueurs, en échangeant avec d'autres joueurs) et en utilisant des équipements ou des modules dotés de la capacité **Poche**. Le nombre maximum d'emplacements d'inventaire est de 178.  
+
 ### Qu'est-ce que le Skip Global ?
 L'explication autour de Global / Time Skip peut être trouvée sur [Time Skip's Tutorial] (https://cybercodeonline.com/markdown?path=tutorial%2Fglobal_skip.md)
 

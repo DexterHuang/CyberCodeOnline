@@ -21,9 +21,9 @@
       * Eu quero criar alts para que eu possa scammar pessoas com novos nomes
 * Não explore bugs, reporte-os em vez disso
 * Mantenha os nomes de usuário adequados para a família
-* Não é permitida a publicidade (chat global/discord/bio/gang lema) de vender/comprar contas/itens por dinheiro IRL (direta ou indiretamente)
+* Não é permitida a publicidade (chat global/discord/bio/bio da gangue) de vender/comprar contas/itens por dinheiro real (direta ou indiretamente)
 * Marcar pessoas por diversão ou sem propósito real não é permitido. Isso é para evitar que as pessoas criem contas apenas para que possam marcá-las (isso também violará a regra "Sem alts excessivos")
-* Qualquer atividade ilegal fará com que você seja banido instantaneamente - incluindo, mas não limitado a - assediar um menor de idade que você conheceu no jogo
+* Qualquer atividade ilegal fará com que você seja banido instantaneamente - incluindo, mas não limitado a - assediar um menor de idade que você conheceu no jogo.
 
 ### Regras de bate-papo
 **Todas as regras estão listadas aqui, NÃO há "regras não escritas", mas seja respeitoso e pare se outros jogadores não gostarem do que você está enviando no chat**
@@ -32,7 +32,7 @@
 * hostil, desrespeitoso com a opinião dos outros / mensagens ofensivas ou passivas agressivas (Exemplo, comentários racistas, sexistas)
 * bate-papo não familiar
 * Spam / Troll
-* Anuncie / Menção de outro jogo
+* Anúncio / Menção de outro jogo ou qualquer outra coisa
 * Personificar outros
 * Colocar links no chat
 * Postar anúncios das suas vendas de mercado (em qualquer chat) mais do que uma vez em 15 minutos
