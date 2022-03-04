@@ -28,7 +28,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ## Updates        
 ### 2022/03/04 v0.780
 - UPDATE - Updated calibration interface and equipement UI
-- UPDATE - Top gang display at `Flori Station` will be temporarely replaced by `stop war` banner, in support of people who are suffering due to the war, click on the banner will bring you to UK goverment website on how to help with the situation
+- UPDATE - Top gang display at `Flori Station` will be temporarely replaced by `stop war` banner, in support of people who are suffering due to the war, click on the banner will bring you to UK goverment website on how to help with the situation, (Top gang guys, hope you can understand :) )
 
 ### 2022/03/03 v0.780
 - UPDATE - Added check for client desyn when calibrating equipments, to prevent accidental breaking when desync from buff display
