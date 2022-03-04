@@ -241,8 +241,8 @@
  	 	 	"goTo": {
  	 	 	 	"vars": [
  	 	 	 	 	"segmentStationName"
- 	 	 	 	], 
- 	 	 	 	"trans": "${segmentStationName}으로 이동", 
+ 	 	 	 	],
+ 	 	 	 	"trans": "${segmentStationName}으로 이동",
  	 	 	 	"eng": "go to ${segmentStationName}"
  	 	 	}
  	 	},
@@ -1420,6 +1420,36 @@
  	 	 	 	"trans": "적의 눈을 멀게 하는 섬광탄. 도주 확률을 ${escape}% 만큼 높여줍니다. 악 내눈!",
  	 	 	 	"eng": "A flash grenade that can be used to blind enemies. increasing your chance of escape by ${escape}%"
  	 	 	}
+ 	 	},
+ 	 	"upgradeChanceIncreaser0v1": {
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"percent",
+ 	 	 	 	 	"duration"
+ 	 	 	 	],
+ 	 	 	 	"trans": "장비를 업그레이드하는 데 도움이되도록 설계된 사전 AI의 조각을 포함합니다. 사용될 때 ${percent} % (쌓을 수있는)의 파괴적인 실패의 가능성을 ${duration} 분으로 줄입니다",
+ 	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments. When used, decreases the chance of destructive failure by ${percent}% (stackable) for ${duration} minutes"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeChanceIncreaserAll": {
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"percent",
+ 	 	 	 	 	"maxStack",
+ 	 	 	 	 	"duration"
+ 	 	 	 	],
+ 	 	 	 	"trans": "장비를 업그레이드하는 데 도움이되도록 설계된 사전 AI의 조각을 포함합니다. 사용될 때 ${percent} % (${maxStack} 시간 동안 쌓을 수 있음)가 ${duration} 분 (${maxStack} 회의)에 의해 파괴적인 실패의 가능성을 줄입니다.이 효과는 모든 플레이어에게 온라인에 적용됩니다",
+ 	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments. When used, decreases the chance of destructive failure by ${percent}% (stackable for ${maxStack} times) for ${duration} minutes.This effect will apply to all players online"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeChanceIncreaser4": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"percent"
+ 	 	 	 	],
+ 	 	 	 	"trans": "보정 AI 샤드 (${percent} %)",
+ 	 	 	 	"eng": "Calibration AI Shard (${percent}%)"
+ 	 	 	}
  	 	}
  	},
  	"dungeon": {
@@ -1908,6 +1938,30 @@
  	 	 	"cantEnterError": {
  	 	 	 	"trans": "레벨 4 이상만 마켓에 접속할 수 있습니다",
  	 	 	 	"eng": "You need to be at least level 4 to access the market"
+ 	 	 	},
+ 	 	 	"levelSelect": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "수준",
+ 	 	 	 	 	"eng": "Level"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"tierSelection": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "희박",
+ 	 	 	 	 	"eng": "Rarity"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"noItems": {
+ 	 	 	 	"trans": "현재이 카테고리에 대한 항목이 없습니다",
+ 	 	 	 	"eng": "there is currently no items on sale for this category"
+ 	 	 	},
+ 	 	 	"buy": {
+ 	 	 	 	"trans": "구입",
+ 	 	 	 	"eng": "Purchase"
+ 	 	 	},
+ 	 	 	"remove": {
+ 	 	 	 	"trans": "제거하다",
+ 	 	 	 	"eng": "Remove"
  	 	 	}
  	 	},
  	 	"tutorial": {
@@ -2348,6 +2402,10 @@
  	 	 	 	"subTitle": {
  	 	 	 	 	"trans": "조각 해독",
  	 	 	 	 	"eng": "Decrypting shard"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "이 페이지를 남겨두고 나중에 돌아올 수 있습니다",
+ 	 	 	 	 	"eng": "You may leave this page and come back later"
  	 	 	 	}
  	 	 	},
  	 	 	"noEquipment": {
@@ -2381,6 +2439,26 @@
  	 	 	"upgradeButton": {
  	 	 	 	"trans": "강화",
  	 	 	 	"eng": "Calibrate"
+ 	 	 	},
+ 	 	 	"increaseSuccessButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "성공률을 높이십시오",
+ 	 	 	 	 	"eng": "Increase Success Rate"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"preventDestructionButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "파괴를 방지합니다",
+ 	 	 	 	 	"eng": "Prevent Destruction"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"failureRateNoBreak": {
+ 	 	 	 	"trans": "안전한 실패의 가능성",
+ 	 	 	 	"eng": "Chance of safe failure"
+ 	 	 	},
+ 	 	 	"activateDescription": {
+ 	 	 	 	"trans": "보정 코어는 장비를 교정해야합니다",
+ 	 	 	 	"eng": "A Calibration Core is required to calibrate equipment"
  	 	 	}
  	 	},
  	 	"itemInbox": {
@@ -2648,6 +2726,21 @@
  	 	 	 	 	"trans": "유닛(UNIT) 구매",
  	 	 	 	 	"eng": "Buy Unit"
  	 	 	 	}
+ 	 	 	},
+ 	 	 	"molecularPrinter": {
+ 	 	 	 	"printLevelDisplay": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	 	"level"
+ 	 	 	 	 	 	],
+ 	 	 	 	 	 	"trans": "인쇄 레벨 ${level} 장비",
+ 	 	 	 	 	 	"eng": "printing level ${level} equipments"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "장비 인쇄는 인쇄 순위를 기반으로하며, 더 많은 항목을 인쇄하여 인쇄 순위를 수준으로합니다",
+ 	 	 	 	 	 	"eng": "equipment printing is based on your printing rank, level up your printing rank by printing more items"
+ 	 	 	 	 	}
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"travel": {
@@ -2668,6 +2761,12 @@
  	 	 	"quality": {
  	 	 	 	"trans": "품질",
  	 	 	 	"eng": "quality"
+ 	 	 	},
+ 	 	 	"itemUpgradeButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "업그레이드",
+ 	 	 	 	 	"eng": "upgrade"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"apps": {
@@ -2686,6 +2785,10 @@
  	 	 	"skipQueue": {
  	 	 	 	"trans": "스킵 대기열",
  	 	 	 	"eng": "Skip Queue"
+ 	 	 	},
+ 	 	 	"block-list": {
+ 	 	 	 	"trans": "차단 목록",
+ 	 	 	 	"eng": "Block List"
  	 	 	}
  	 	},
  	 	"gang": {
@@ -3121,6 +3224,13 @@
  	 	 	"showCanJoinOnly": {
  	 	 	 	"trans": "참여 가능한 던전만 보여줍니다",
  	 	 	 	"eng": "Only show dungeons I can join"
+ 	 	 	},
+ 	 	 	"playerCount": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"playerCount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${playerCount} 플레이어가 연결되어 있습니다",
+ 	 	 	 	"eng": "${playerCount} player(s) connected"
  	 	 	}
  	 	},
  	 	"localCombat": {
@@ -3139,6 +3249,22 @@
  	 	 	"occupiedBy": {
  	 	 	 	"trans": "점령됨 : ",
  	 	 	 	"eng": "Occupied by"
+ 	 	 	},
+ 	 	 	"topGang": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"gangName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${gangName}",
+ 	 	 	 	 	"eng": "Occupied by ${gangName}"
+ 	 	 	 	},
+ 	 	 	 	"occupationPoints": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"points"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${points} 직업 제어",
+ 	 	 	 	 	"eng": "${points} Occupation Control"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"craftingPage": {
@@ -3332,7 +3458,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "의심스러운 활동으로 인해 시스템에서 자동으로 계정이 정지되었습니다.",
- 	 	 	 	"eng": "Your account has been suspended automatically by the system due to Suspicious Activity"
+ 	 	 	 	"eng": "Your account has been suspended automatically by the system due to Unusual Activity"
  	 	 	},
  	 	 	"content": {
  	 	 	 	"trans": "문의 사항이 있으시면 공식 Discord (링크는 플로팅 메뉴 -> 링크에서 확인 가능) 또는 ching.huang.dexter@gmail.com 으로 이메일을 통해 덱스터에게 직접 문의하시기 바랍니다.",
@@ -3345,6 +3471,110 @@
  	 	 	 	 	"trans": "모든 플레이어 검색",
  	 	 	 	 	"eng": "Search all players"
  	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"minigame": {
+ 	 	 	"colors": {
+ 	 	 	 	"win": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "암호 해독 성공",
+ 	 	 	 	 	 	"eng": "Decryption successful"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "처리",
+ 	 	 	 	 	 	"eng": "processing"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "컬러 키패드가있는 잠긴 전리품 상자를 찾았습니다. 올바른 색상 순서로 잠금을 해제 할 수 있어야합니다.",
+ 	 	 	 	 	"eng": "You found a locked loot box with color keypad, you should be able to unlock it with the correct sequence of colors."
+ 	 	 	 	},
+ 	 	 	 	"progress": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "진행 상황을 해제하십시오",
+ 	 	 	 	 	 	"eng": "Unlock progress"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"countdownSubtitle": {
+ 	 	 	 	 	"trans": "초월",
+ 	 	 	 	 	"eng": "seconds"
+ 	 	 	 	},
+ 	 	 	 	"colorBox": {
+ 	 	 	 	 	"trans": "아래 에서이 색을 클릭하십시오",
+ 	 	 	 	 	"eng": "Click on this color below"
+ 	 	 	 	},
+ 	 	 	 	"lose": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "암호 해독에 실패했습니다",
+ 	 	 	 	 	 	"eng": "Decryption failed"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "올바른 색상 순서를 클릭하여 잠금을 해제하십시오",
+ 	 	 	 	 	 	"eng": "Click on the correct color sequence to unlock"
+ 	 	 	 	 	},
+ 	 	 	 	 	"button": {
+ 	 	 	 	 	 	"title": {
+ 	 	 	 	 	 	 	"trans": "다시 시도하십시오",
+ 	 	 	 	 	 	 	"eng": "Try Again"
+ 	 	 	 	 	 	}
+ 	 	 	 	 	}
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"supportUkraine": {
+ 	 	 	"description": {
+ 	 	 	 	"trans": "우크라이나, 러시아 및 온 세상의 사람들은 한 남자의 야망 때문에 고통을 겪고 있습니다.",
+ 	 	 	 	"eng": "People of Ukraine, Russia and the whole world are suffering because one man's ambition.\\n Make love exploit, not war."
+ 	 	 	}
+ 	 	},
+ 	 	"rangeSelector": {
+ 	 	 	"selectMinValue": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "min 값을 선택하십시오",
+ 	 	 	 	 	"eng": "Select min value"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"selectMaxValue": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "최대 값을 선택하십시오",
+ 	 	 	 	 	"eng": "Select max value"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"block": {
+ 	 	 	"player": {
+ 	 	 	 	"success": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"playerName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${playerName}을 차단했습니다",
+ 	 	 	 	 	"eng": "You have blocked ${playerName}"
+ 	 	 	 	},
+ 	 	 	 	"unblock": {
+ 	 	 	 	 	"trans": "차단 해제",
+ 	 	 	 	 	"eng": "Unblock"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"list": {
+ 	 	 	 	"empty": {
+ 	 	 	 	 	"trans": "차단 된 선수가 없습니다.",
+ 	 	 	 	 	"eng": "You have no blocked players."
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"unblockModal": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"playerName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${playerName} 차단 해제",
+ 	 	 	 	 	"eng": "Unblock ${playerName}"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"npcSellPage": {
+ 	 	 	"autoSell": {
+ 	 	 	 	"trans": "자동 판매",
+ 	 	 	 	"eng": "Auto Sell"
  	 	 	}
  	 	}
  	},
@@ -3502,6 +3732,10 @@
  	 	"ok": {
  	 	 	"trans": "확인",
  	 	 	"eng": "OK"
+ 	 	},
+ 	 	"use": {
+ 	 	 	"trans": "사용",
+ 	 	 	"eng": "use"
  	 	}
  	},
  	"statsType": {
@@ -4149,6 +4383,10 @@
  	 	 	"reply": {
  	 	 	 	"trans": "회신",
  	 	 	 	"eng": "Reply"
+ 	 	 	},
+ 	 	 	"block": {
+ 	 	 	 	"trans": "차단하다",
+ 	 	 	 	"eng": "Block"
  	 	 	}
  	 	},
  	 	"promotion": {
@@ -4240,6 +4478,12 @@
  	 	 	"notEnough": {
  	 	 	 	"trans": "기부 가능한 유닛이 충분하지 않습니다.",
  	 	 	 	"eng": "You do not have enough Unit to donate."
+ 	 	 	}
+ 	 	},
+ 	 	"block": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "이 플레이어를 차단하고 싶습니까?",
+ 	 	 	 	"eng": "Are you sure you want to block this player?"
  	 	 	}
  	 	}
  	},
@@ -4354,7 +4598,7 @@
  	 	},
  	 	"upgradeChance4": {
  	 	 	"trans": "강화 정확도 (에픽)",
- 	 	 	"eng": "Calibration Precision (Epic)"
+ 	 	 	"eng": "Calibration Precision (Prestige)"
  	 	},
  	 	"upgradeNoBreak": {
  	 	 	"trans": "강화 안전 나노봇",
@@ -4954,6 +5198,13 @@
  	 	"permanentDescription": {
  	 	 	"trans": "이 타이틀은 영구적입니다.\r\n        당신의 계정에 영원히 귀속됩니다.",
  	 	 	"eng": "This title will never expire.\\nIt stays with your account forever."
+ 	 	},
+ 	 	"unitPriceDiscountEndDate": {
+ 	 	 	"vars": [
+ 	 	 	 	"date"
+ 	 	 	],
+ 	 	 	"trans": "${date}에서 할인 종료",
+ 	 	 	"eng": "Discount ends in ${date}"
  	 	}
  	},
  	"Quest": {
@@ -5332,6 +5583,26 @@
  	 	"admin": {
  	 	 	"trans": "어드민",
  	 	 	"eng": "Admin"
+ 	 	}
+ 	},
+ 	"combat": {
+ 	 	"log": {
+ 	 	 	"enemyAttack": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"enemyName",
+ 	 	 	 	 	"value"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${enemyName} {1} 손상을 받았습니다",
+ 	 	 	 	"eng": "${enemyName} attacked you, received ${value} damage"
+ 	 	 	},
+ 	 	 	"playerAttack": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"enemyName",
+ 	 	 	 	 	"value"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${enemyName}을 공격했습니다. ${value} 손상을 처리했습니다",
+ 	 	 	 	"eng": "You attacked ${enemyName}, dealing ${value} damage"
+ 	 	 	}
  	 	}
  	}
 }

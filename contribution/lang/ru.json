@@ -1405,6 +1405,36 @@
  	 	 	 	"trans": "Флэш-граната, которую можно использовать для ослепления врагов. Увеличивает твой шанс на побег на ${escape}%",
  	 	 	 	"eng": "A flash grenade that can be used to blind enemies. increasing your chance of escape by ${escape}%"
  	 	 	}
+ 	 	},
+ 	 	"upgradeChanceIncreaser0v1": {
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"percent",
+ 	 	 	 	 	"duration"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Содержит фрагменты Advance AI, предназначенный для помощи с модернизацией оборудования. При использовании уменьшается вероятность разрушительной недостаточности на ${percent}% (штабелируется) за ${duration} минут",
+ 	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments. When used, decreases the chance of destructive failure by ${percent}% (stackable) for ${duration} minutes"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeChanceIncreaserAll": {
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"percent",
+ 	 	 	 	 	"maxStack",
+ 	 	 	 	 	"duration"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Содержит фрагменты Advance AI, предназначенный для помощи с модернизацией оборудования. При использовании уменьшается вероятность разрушительной недостаточности на ${percent}% (штабелируется для ${maxStack} Times) для ${duration} минут. Этот эффект будет применяться к всем игрокам онлайн",
+ 	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments. When used, decreases the chance of destructive failure by ${percent}% (stackable for ${maxStack} times) for ${duration} minutes.This effect will apply to all players online"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeChanceIncreaser4": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"percent"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Калибровка Ai Shard (${percent}%)",
+ 	 	 	 	"eng": "Calibration AI Shard (${percent}%)"
+ 	 	 	}
  	 	}
  	},
  	"dungeon": {
@@ -1893,6 +1923,30 @@
  	 	 	"cantEnterError": {
  	 	 	 	"trans": "Ты должен быть как минимум 4-го уровня, чтобы получить доступ к рынку",
  	 	 	 	"eng": "You need to be at least level 4 to access the market"
+ 	 	 	},
+ 	 	 	"levelSelect": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Уровень",
+ 	 	 	 	 	"eng": "Level"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"tierSelection": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Редкость",
+ 	 	 	 	 	"eng": "Rarity"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"noItems": {
+ 	 	 	 	"trans": "В настоящее время нет предметов в продаже для этой категории",
+ 	 	 	 	"eng": "there is currently no items on sale for this category"
+ 	 	 	},
+ 	 	 	"buy": {
+ 	 	 	 	"trans": "Покупка",
+ 	 	 	 	"eng": "Purchase"
+ 	 	 	},
+ 	 	 	"remove": {
+ 	 	 	 	"trans": "Удалять",
+ 	 	 	 	"eng": "Remove"
  	 	 	}
  	 	},
  	 	"chat": {
@@ -2333,6 +2387,10 @@
  	 	 	 	"subTitle": {
  	 	 	 	 	"trans": "Расшифровка фрагмента",
  	 	 	 	 	"eng": "Decrypting shard"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Вы можете покинуть эту страницу и вернуться позже",
+ 	 	 	 	 	"eng": "You may leave this page and come back later"
  	 	 	 	}
  	 	 	},
  	 	 	"noEquipment": {
@@ -2366,6 +2424,26 @@
  	 	 	"upgradeButton": {
  	 	 	 	"trans": "Калибровать",
  	 	 	 	"eng": "Calibrate"
+ 	 	 	},
+ 	 	 	"increaseSuccessButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Увеличьте уровень успеха",
+ 	 	 	 	 	"eng": "Increase Success Rate"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"preventDestructionButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Предотвратить разрушение",
+ 	 	 	 	 	"eng": "Prevent Destruction"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"failureRateNoBreak": {
+ 	 	 	 	"trans": "Шанс безопасной неудачи",
+ 	 	 	 	"eng": "Chance of safe failure"
+ 	 	 	},
+ 	 	 	"activateDescription": {
+ 	 	 	 	"trans": "Калибровочное ядро требуется для калибровки оборудования",
+ 	 	 	 	"eng": "A Calibration Core is required to calibrate equipment"
  	 	 	}
  	 	},
  	 	"itemInbox": {
@@ -2633,6 +2711,21 @@
  	 	 	 	 	"trans": "Купить Unit",
  	 	 	 	 	"eng": "Buy Unit"
  	 	 	 	}
+ 	 	 	},
+ 	 	 	"molecularPrinter": {
+ 	 	 	 	"printLevelDisplay": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	 	"level"
+ 	 	 	 	 	 	],
+ 	 	 	 	 	 	"trans": "Уровень печати ${level} оборудование",
+ 	 	 	 	 	 	"eng": "printing level ${level} equipments"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "Печать оборудования основана на вашем ранге печати, выровняйте свой ранг печати путем печати дополнительных предметов",
+ 	 	 	 	 	 	"eng": "equipment printing is based on your printing rank, level up your printing rank by printing more items"
+ 	 	 	 	 	}
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"travel": {
@@ -2653,6 +2746,12 @@
  	 	 	"quality": {
  	 	 	 	"trans": "Качество",
  	 	 	 	"eng": "quality"
+ 	 	 	},
+ 	 	 	"itemUpgradeButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Обновить",
+ 	 	 	 	 	"eng": "upgrade"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"apps": {
@@ -2671,6 +2770,10 @@
  	 	 	"skipQueue": {
  	 	 	 	"trans": "Пропустить очередь",
  	 	 	 	"eng": "Skip Queue"
+ 	 	 	},
+ 	 	 	"block-list": {
+ 	 	 	 	"trans": "Блок списка",
+ 	 	 	 	"eng": "Block List"
  	 	 	}
  	 	},
  	 	"gang": {
@@ -3106,6 +3209,13 @@
  	 	 	"showCanJoinOnly": {
  	 	 	 	"trans": "Показать только подземелья, к которым я могу присоединиться",
  	 	 	 	"eng": "Only show dungeons I can join"
+ 	 	 	},
+ 	 	 	"playerCount": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"playerCount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${playerCount} плеер (ы) подключен",
+ 	 	 	 	"eng": "${playerCount} player(s) connected"
  	 	 	}
  	 	},
  	 	"localCombat": {
@@ -3124,6 +3234,22 @@
  	 	 	"occupiedBy": {
  	 	 	 	"trans": "Занят",
  	 	 	 	"eng": "Occupied by"
+ 	 	 	},
+ 	 	 	"topGang": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"gangName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Занимает ${gangName}",
+ 	 	 	 	 	"eng": "Occupied by ${gangName}"
+ 	 	 	 	},
+ 	 	 	 	"occupationPoints": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"points"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${points} Контроль занятий",
+ 	 	 	 	 	"eng": "${points} Occupation Control"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"craftingPage": {
@@ -3317,7 +3443,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Ваша учетная запись была приостановлена автоматически системой из-за подозрительной активности",
- 	 	 	 	"eng": "Your account has been suspended automatically by the system due to Suspicious Activity"
+ 	 	 	 	"eng": "Your account has been suspended automatically by the system due to Unusual Activity"
  	 	 	},
  	 	 	"content": {
  	 	 	 	"trans": "Если у вас есть какие-либо вопросы, пожалуйста, не стесняйтесь обращаться к Декстеру непосредственно через официальный Discord (ссылка можно найти в плавающем меню -> ссылках) или через почту Ching.huang.dexter@gmail.com",
@@ -3330,6 +3456,110 @@
  	 	 	 	 	"trans": "Поиск всех игроков",
  	 	 	 	 	"eng": "Search all players"
  	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"minigame": {
+ 	 	 	"colors": {
+ 	 	 	 	"win": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Дешифрование успешно",
+ 	 	 	 	 	 	"eng": "Decryption successful"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "обработка",
+ 	 	 	 	 	 	"eng": "processing"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Вы нашли заблокированную лотную коробку с клавиатурой цвета, вы должны быть в состоянии разблокировать его с правильной последовательностью цветов.",
+ 	 	 	 	 	"eng": "You found a locked loot box with color keypad, you should be able to unlock it with the correct sequence of colors."
+ 	 	 	 	},
+ 	 	 	 	"progress": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Разблокировать прогресс",
+ 	 	 	 	 	 	"eng": "Unlock progress"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"countdownSubtitle": {
+ 	 	 	 	 	"trans": "секунды",
+ 	 	 	 	 	"eng": "seconds"
+ 	 	 	 	},
+ 	 	 	 	"colorBox": {
+ 	 	 	 	 	"trans": "Нажмите на этот цвет ниже",
+ 	 	 	 	 	"eng": "Click on this color below"
+ 	 	 	 	},
+ 	 	 	 	"lose": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Ошибка не удалась",
+ 	 	 	 	 	 	"eng": "Decryption failed"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "Нажмите на правильную последовательность цвета, чтобы разблокировать",
+ 	 	 	 	 	 	"eng": "Click on the correct color sequence to unlock"
+ 	 	 	 	 	},
+ 	 	 	 	 	"button": {
+ 	 	 	 	 	 	"title": {
+ 	 	 	 	 	 	 	"trans": "Попробуйте снова",
+ 	 	 	 	 	 	 	"eng": "Try Again"
+ 	 	 	 	 	 	}
+ 	 	 	 	 	}
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"supportUkraine": {
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Люди Украины, Россия и весь мир страдают потому, что амбиции одного человека. \\ N занимается любовью эксплуатировать, а не войну.",
+ 	 	 	 	"eng": "People of Ukraine, Russia and the whole world are suffering because one man's ambition.\\n Make love exploit, not war."
+ 	 	 	}
+ 	 	},
+ 	 	"rangeSelector": {
+ 	 	 	"selectMinValue": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Выберите минимальное значение",
+ 	 	 	 	 	"eng": "Select min value"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"selectMaxValue": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Выберите максимальное значение",
+ 	 	 	 	 	"eng": "Select max value"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"block": {
+ 	 	 	"player": {
+ 	 	 	 	"success": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"playerName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Вы заблокировали ${playerName}",
+ 	 	 	 	 	"eng": "You have blocked ${playerName}"
+ 	 	 	 	},
+ 	 	 	 	"unblock": {
+ 	 	 	 	 	"trans": "Разблокировать",
+ 	 	 	 	 	"eng": "Unblock"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"list": {
+ 	 	 	 	"empty": {
+ 	 	 	 	 	"trans": "У вас нет заблокированных игроков.",
+ 	 	 	 	 	"eng": "You have no blocked players."
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"unblockModal": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"playerName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Разблокировать ${playerName}",
+ 	 	 	 	 	"eng": "Unblock ${playerName}"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"npcSellPage": {
+ 	 	 	"autoSell": {
+ 	 	 	 	"trans": "Авто продается",
+ 	 	 	 	"eng": "Auto Sell"
  	 	 	}
  	 	}
  	},
@@ -3487,6 +3717,10 @@
  	 	"ok": {
  	 	 	"trans": "В ПОРЯДКЕ",
  	 	 	"eng": "OK"
+ 	 	},
+ 	 	"use": {
+ 	 	 	"trans": "использовать",
+ 	 	 	"eng": "use"
  	 	}
  	},
  	"statsType": {
@@ -4134,6 +4368,10 @@
  	 	 	"reply": {
  	 	 	 	"trans": "Ответить",
  	 	 	 	"eng": "Reply"
+ 	 	 	},
+ 	 	 	"block": {
+ 	 	 	 	"trans": "Блокировать",
+ 	 	 	 	"eng": "Block"
  	 	 	}
  	 	},
  	 	"promotion": {
@@ -4225,6 +4463,12 @@
  	 	 	"notEnough": {
  	 	 	 	"trans": "Вам не хватает Юнитов, чтобы пожертвовать.",
  	 	 	 	"eng": "You do not have enough Unit to donate."
+ 	 	 	}
+ 	 	},
+ 	 	"block": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Вы уверены, что хотите заблокировать этот игрок?",
+ 	 	 	 	"eng": "Are you sure you want to block this player?"
  	 	 	}
  	 	}
  	},
@@ -4339,7 +4583,7 @@
  	 	},
  	 	"upgradeChance4": {
  	 	 	"trans": "Точность калибровки (Эпическая)",
- 	 	 	"eng": "Calibration Precision (Epic)"
+ 	 	 	"eng": "Calibration Precision (Prestige)"
  	 	},
  	 	"upgradeNoBreak": {
  	 	 	"trans": "Нано-бот безопасной калибровки",
@@ -4939,6 +5183,13 @@
  	 	"permanentDescription": {
  	 	 	"trans": "Этот заголовок никогда не истечет. \\n Он останется с вашей учетной записью навсегда.",
  	 	 	"eng": "This title will never expire.\\nIt stays with your account forever."
+ 	 	},
+ 	 	"unitPriceDiscountEndDate": {
+ 	 	 	"vars": [
+ 	 	 	 	"date"
+ 	 	 	],
+ 	 	 	"trans": "Скидка заканчивается в ${date}",
+ 	 	 	"eng": "Discount ends in ${date}"
  	 	}
  	},
  	"Quest": {
@@ -5317,6 +5568,26 @@
  	 	"admin": {
  	 	 	"trans": "Админ",
  	 	 	"eng": "Admin"
+ 	 	}
+ 	},
+ 	"combat": {
+ 	 	"log": {
+ 	 	 	"enemyAttack": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"enemyName",
+ 	 	 	 	 	"value"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${enemyName} атаковал вас, получил урон ${value}",
+ 	 	 	 	"eng": "${enemyName} attacked you, received ${value} damage"
+ 	 	 	},
+ 	 	 	"playerAttack": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"enemyName",
+ 	 	 	 	 	"value"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Вы атаковали ${enemyName}, занимаясь уроном ${value}",
+ 	 	 	 	"eng": "You attacked ${enemyName}, dealing ${value} damage"
+ 	 	 	}
  	 	}
  	}
 }
