@@ -18,7 +18,7 @@ After 30 minutes, A player is allowed to calibrate any gear (excluding maxed Cal
 
 ## Outside of Calibration Station
 
-After v0.780 (2022/03/04) update, players were allowed to do Calibration during the AFK Task / Dungeon session. 
+As of **v0.780 (2022/03/04) update**, players were allowed to do Calibration during the AFK Task / Dungeon session. 
 
 ![CalibrationStationAlt](/resources/mobile-tutorial/CalibrationStationAlt.png)
 
