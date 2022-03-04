@@ -1,7 +1,14 @@
-Корпорация SL-Data - это всеобъемлющая компания, которая предоставляет недорогое социальное обеспечение жителям многих крупных городов, включая Шангри-Ла.
+The SL-Data Corporation is an all-encompassing company that provide inexpensive welfare to citizens of many major cities including Shangri-La.
 
-Несмотря на свои претензии служить и защищать город, используя систему налогообложения, "Протокол" является широко распространенным троянским ПО, которое использует вычислительную мощность мозга как для обеспечения работы компании, так и для накопления богатства.
+Despite its claims to serve and protect the city, its use of a taxing system, "Protocol" is a widespread trojanware that utilize cerebral calculation power to both provide workpower for the company, and to accumulate wealth.
 
-Эта коварная мера постоянно оспаривалась "Нарушением", коллективной системной атакой, проводимой путем накопления мятежных и насильственных тенденций нетраннеров, преступников и бродяг и превращения их в неразборчивые осколки.
+This insidious measure has been consistently challenged by "Breach", a collective system attack conducted by accumulating the rebellious and violent tendencies of the netrunners, criminals and vagrant and subliming them into indecipherable shards.
 
-Создавая полные "Бреши" с осколками, "Протокол" может быть нарушен, что дает возможность нетраннерам облегчить бремя налогообложения умственных способностей, но битва с SL-Данными нескончаема.
+By constructing complete "Breachs" with shards, "Protocol" may be disrupted, giving chance for netrunners to relieve the burden of brainpower taxation, but the battle against SL-Data is neverending.
+The SL-Data Corporation is an all-encompassing company that provide inexpensive welfare to citizens of many major cities including Shangri-La.
+
+Despite its claims to serve and protect the city, its use of a taxing system, "Protocol" is a widespread trojanware that utilize cerebral calculation power to both provide workpower for the company, and to accumulate wealth.
+
+This insidious measure has been consistently challenged by "Breach", a collective system attack conducted by accumulating the rebellious and violent tendencies of the netrunners, criminals and vagrant and subliming them into indecipherable shards.
+
+By constructing complete "Breachs" with shards, "Protocol" may be disrupted, giving chance for netrunners to relieve the burden of brainpower taxation, but the battle against SL-Data is neverending.
