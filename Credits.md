@@ -100,6 +100,7 @@ Wanna
 [fusiondesu](https://github.com/fusion-desu)
 [McKnight](https://github.com/ReILIaX)
 [B3llial](https://github.com/B3lli4l)
+[HKCisONLINE](https://github.com/hkcisonline)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
