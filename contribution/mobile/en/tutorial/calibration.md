@@ -16,6 +16,16 @@ Inside **Calibration Station**, the player will be asked to insert the **Equipme
 
 After 30 minutes, A player is allowed to calibrate any gear (excluding maxed Calibrated Gear) that's not equipped into their equipped slot. 
 
+## Outside of Calibration Station
+
+As of **v0.780 (2022/03/04) update**, players were allowed to do Calibration during the AFK Task / Dungeon session. 
+
+![CalibrationStationAlt](/resources/mobile-tutorial/CalibrationStationAlt.png)
+
+In order to do so, players must click on its designated gear then pick the `View Details` option. On the **Equipment Details** section, click on the **Upgrade** or **Calibration Slots** button to navigate to Calibration Station. In this way, players can do calibration at ease.
+
+Keep in mind that only unequipped gear was the ones that can be calibrated.
+
 ## Chance of Destructive Failure
 
 ![CalibrationStation4](/resources/mobile-tutorial/CalibrationStation4.png)
