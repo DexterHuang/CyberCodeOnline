@@ -101,6 +101,7 @@ Wanna
 [McKnight](https://github.com/ReILIaX)
 [B3llial](https://github.com/B3lli4l)
 [HKCisONLINE](https://github.com/hkcisonline)
+[SunRisek](https://github.com/szymonagk)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
