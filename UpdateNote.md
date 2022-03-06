@@ -26,6 +26,9 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  
 
 ## Updates        
+### 2022/03/06 v0.780
+- FIX - fixed devices that has incorrect timezone or time cannot finish AFK tasks normally
+
 ### 2022/03/05 v0.780
 - UI - Added price display when clicking on NPC shop item
 
