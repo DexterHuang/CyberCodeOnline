@@ -26,6 +26,11 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  
 
 ## Updates        
+### 2022/03/07 v0.780
+- UI - Update market level select UI
+- FIX - Fixed serverside issue
+- OPTIMIZATION - client optimization
+
 ### 2022/03/06 v0.780
 - FIX - fixed devices that has incorrect timezone or time cannot finish AFK tasks normally
 
