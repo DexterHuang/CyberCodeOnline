@@ -158,6 +158,7 @@ Brownin89
 Dragonmaster84
 ElectricSoldier323
 [Hally](https://twitter.com/g_hally1996)
+Hardboiled_Cat
 HeyaItsLuna
 JashinL
 [JEricaM](https://github.com/JEricaM)
@@ -294,6 +295,7 @@ spyd3r
 ## Security Bug Reporters
 [0xF61](https://github.com/0xF61)
 Enkidu99
+[LianSheng](https://github.com/LianSheng197)
 [Lighty](https://github.com/Lightyin4k)
 [MagicCookie](https://github.com/GooseGooseStop)
 [Spellchaser](https://github.com/Spellchaser)
