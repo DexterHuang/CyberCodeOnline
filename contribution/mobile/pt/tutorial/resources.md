@@ -18,14 +18,14 @@ No seu inventário, tanto **Equipamento** quanto **Módulos de Upgrade** são tr
 
 Você pode escolher quando equipar um equipamento ao clicar no botão **Equipar**. Equipamento equipado estará em destaque no topo do seu inventário. Ao clicar em cada item, você também pode escolher instalar Módulos de Upgrade que irão melhorar certos valores dos status desses itens. Para remover Módulos de Melhoria, simplesmente clique no Módulo instalado. Equipamento de melhor qualidade e raridade irá ter mais espaços para Módulos de Upgrade. 
 
-Você pode encontrar tanto Equipamento como Módulos de Upgrade em caixas / bosses das Masmorras, via impressão na **Impressora Molecular 3D*, como uma **Recompensa Diária**, ou comprando tanto no Mercado NPC (**Armeiro**) como no Mercado de Jogadores (**Feira de Shangri-La**). 
+Você pode encontrar tanto Equipamento como Módulos de Upgrade em caixas / bosses das Masmorras, via impressão na **Impressora Molecular 3D**, como uma **Recompensa Diária**, ou comprando tanto no Mercado NPC (**Armeiro**) como no Mercado de Jogadores (**Feira de Shangri-Lá**). 
 
 ### Caches de Equipamento
-No seu inventário, todas as **Caches de Equipamentos** são agrupadas de acordo com a sua raridade e tipo de caches. Você pode ter um máximo de 10000 caches por tipo de cache (exemplo: 10000 caches de capacete comum, 10000 caches de botas comum, etc). 
+No seu inventário, todos os **Caches de Equipamentos** são agrupados de acordo com a sua raridade e tipo de caches. Você pode ter um máximo de 10000 caches por tipo de cache (exemplo: 10000 caches de capacete comum, 10000 caches de botas comum, etc). 
 
-Para usar (ou o que nós iremos chamar de "Imprimir" mais tarde) uma, o jogador ter de visitar a **Impressora Molecular 3D** que pode ser encontrada no **Centro da Cidade de Shangri-La**. Não apenas isso, mas um jogador tem que ter sua BTC no seu personagem (não pode estar no banco) de forma a poder imprimir uma. O preço de impressão de caches de equipamento varia consoante a sua raridade e nível de Classificação de Impressão. 
+Para usar (ou o que nós iremos chamar de "Imprimir" mais tarde) um, o jogador vai ter de visitar a **Impressora Molecular 3D** que pode ser encontrada no **Centro da Cidade de Shangri-Lá**. Não apenas isso, mas o jogador tem que ter seu BTC no seu personagem (não pode estar no banco) de forma a poder imprimir o cache. O preço de impressão de caches de equipamento varia consoante a sua raridade e nível de Classificação de Impressão. 
 
-Vovcê pode encontrar Caches em caixas / bosses das Masmorras, através de **Implante um Bot de Farm**, comprar um no Mercado dos Jogadores (**Feira de Shangri-La), ou através do chat de mercado (linguagem global - inglês), trocando entre jogadores por **Núcleos IA**. 
+Você pode encontrar Caches em caixas / bosses das Masmorras, através de **Implante um Bot de Farm**, comprar um no Mercado dos Jogadores (**Feira de Shangri-Lá**), ou através do chat de mercado (linguagem global - inglês), trocando entre jogadores por **Núcleos IA**. 
 
 ## Peças Técnicas
 Peças de Tecnologia são ingredientes usados para criar itens correspondentes através da aba de Criação no inventário. Peças de Tecnologia podem ser usadas para outras tarefas dedicadas e ainda convertidas noutro tipo de sucata tecnológica. 
@@ -35,40 +35,40 @@ Um dos ingredientes para criação de **Células de Energia** e **Peças Técnic
 
 Outrso usos para Peças Técnicas de Munição são os seguintes:
 - Podem ser recicladas para criar Sucata de Tecnologia (o que pode ser feito na **Sede da Gangue**, é necessário ser membro de uma gangue) 
-- Troca entre jogadores, que podem comprar / vender a outros jogadores via **Troca Entre Jogadores** por Núcleos IA (usando o sistema de presentear, e o chat de mercado - linguagem global, inglês), ou usando a **Feira de Shangri-La** por BTC. 
+- Troca entre jogadores, que podem comprar / vender a outros jogadores via **Troca Entre Jogadores** por Núcleos IA (usando o sistema de presentear, e o chat de mercado - linguagem global, inglês), ou usando a **Feira de Shangri-Lá** por BTC. 
 
 ### Peças Técnicas de Munição Militar
 Um dos ingredientes para criar **Cargas Anti-Matéria** e **Processadores Hash**. 
 
 Outros usos para Peças Técnicas de Munição Militar são os seguintes: 
 - Podem ser reciladas para criar Sucata de Tecnologia (o que pode ser feito na **Sede da Gangue**; é necessário ser membro de uma gangue) 
-- Troca entre jogadores, que podem comprar / vender a outros jogadores via **Troca Entre Jogadores** por Núcleos IA (usando o sistema de presentear, e o chat de mercado - linguagem global, inglês), ou usando a **Feira de Shangri-La** por BTC. 
+- Troca entre jogadores, que podem comprar / vender a outros jogadores via **Troca Entre Jogadores** por Núcleos IA (usando o sistema de presentear, e o chat de mercado - linguagem global, inglês), ou usando a **Feira de Shangri-Lá** por BTC. 
 
 ### Peças de Tecnologia Médica
 Um dos ingredientes usados para criar **Itens de Cura** e **Processadores Hash**. 
 
 Outros usos para Peças Técnicas de Munição Militar são os seguintes: 
 - Podem ser recicladas para criar Sucata de Tecnologia (o que pode ser feito na **Sede da Gangue**; é necessário ser membro de uma gangue) 
-- Troca entre jogadores, que podem comprar / vender a outros jogadores via **Troca Entre Jogadores** por Núcleos IA (usando o sistema de presentear, e o chat de mercado - linguagem global, inglês), ou usando a **Feira de Shangri-La** por BTC. 
+- Troca entre jogadores, que podem comprar / vender a outros jogadores via **Troca Entre Jogadores** por Núcleos IA (usando o sistema de presentear, e o chat de mercado - linguagem global, inglês), ou usando a **Feira de Shangri-Lá** por BTC. 
 
 ### Sucata de Tecnologia
 Um dos ingredientes usados para criar **Drones de Cura**, **Processadores Hash** e **Núcleos IA**. 
 
 Outros usos para Sucata de Tecnologia são os seguintes: 
-- Inicializar tarefas de **Engenharia Reversa** (que pode ser encontrado na **Área Comercial de Shangri-La**. Esta tarefa é usada para subir o nível de **Classificação de Impressão**. 
+- Inicializar tarefas de **Engenharia Reversa** (que pode ser encontrado na **Área Comercial de Shangri-Lá**. Esta tarefa é usada para subir o nível de **Classificação de Impressão**. 
 - Um item / requerimento para abrir Cofres Trancados (que podem ser abertos em **Terminal**). 
 - Um item /requerimento para criar mochilas (que podem ser criadas em **Posto de Trocas do Lee**). 
 - Troca entre jogadores, que podem comprar / vender a outros jogadores via **Troca Entre Jogadores** por Núcleos IA (usando o sistema de presentear, e o chat de mercado - linguagem global, inglês), ou usando a **Feira de Shangri-La** por BTC. 
 
 ## Itens de Cura / Médicos 
 
-Os jogadores podem usar **Peças de Tecnologia Médica** e **Sucata de Tecnologia** para criar remédios para uso em Masmorras. Para criar remédios melhores, os jogadores precisam melhorar o nível da habilidade de Ciência Médica, que pode ser feito realizando o trabalhado de treinamento associado ou criando remédios. Além disso, um remédio melhor exige que os jogadores usem mais peças de tecnologia médica. Por exemplo, o remédio de nível mais baixo que pode ser criado é o Pain Away, com uma Peça de Tecnologia Médica, enquanto que o Bot de Nanoreparação Degradado precisa de 2 Peças de Tecnologia Médica e um nível de Ciência Médica de 10.
+Os jogadores podem usar **Peças de Tecnologia Médica** e **Sucata de Tecnologia** para criar remédios para uso em Masmorras. Para criar remédios melhores, os jogadores precisam melhorar o nível da habilidade de Ciência Médica, que pode ser feito realizando o trabalho de treinamento associado ou criando remédios. Além disso, um remédio melhor exige que os jogadores usem mais peças de tecnologia médica. Por exemplo, o remédio de nível mais baixo que pode ser criado é o Pain Away, com uma Peça de Tecnologia Médica, enquanto que o Bot de Nanoreparação Degradado precisa de 2 Peças de Tecnologia Médica e um nível de Ciência Médica de 10.
   
 Existem duas categorias de remédios que podem ser criados: **Curas Individuais** e **Curas de Grupo**. Para mais detalhes: 
 
 Em geral, o Item de Cura / Valor de Cura / Nível de Ciência Médica Necessária / Quantidade de Peças de Tecnologia Médica Necessárias, são as seguintes: 
 
-| Remédio | Valor de Cura | Nível Ciência Médica | Peças de Tecnologia Médica |
+| Remédio | Valor de Cura | Nível de Ciência Médica | Peças de Tecnologia Médica |
 |--|--|--|--|
 | Pain Away | 501+ HP | N/A | 1 |
 | Bot de Nanoreparação Degradado | 1201+ HP | 10 | 2 |
@@ -82,9 +82,9 @@ Em geral, o Item de Cura / Valor de Cura / Nível de Ciência Médica Necessári
 | Bot Nanomédico Épico | 1000001+ HP | 130 | 256 |
 
 ### Curas de Grupo
-Curas de Grupo podem curar um grupo inteiro de jogadores numa Masmorra quando usados, mas irão curar cada jogador menos do que Curas Individuais da mesma categoria. Curas de Grupo são itens como, por exemplo, Spray Pain Away, ou qualquer outro item que termine em "Drone" (ex.: Drone Nanomédico). De forma a criar Cruas de Grupo, você precisa de um item de Cura individual do mesmo nível e o número de Sucata de Tecnologia associada. Por exemplo, para criar um Spray Pain Away é preciso 1 Pain Away e 1 Sucata de Tecnologia. 
+Curas de Grupo podem curar um grupo inteiro de jogadores numa Masmorra quando usados, mas irão curar cada jogador menos do que Curas Individuais da mesma categoria. Curas de Grupo são itens como, por exemplo, Spray Pain Away, ou qualquer outro item que termine em "Drone" (ex.: Drone Nanomédico). De forma a criar Curas de Grupo, você precisa de um item de Cura individual do mesmo nível e o número de Sucata de Tecnologia associada. Por exemplo, para criar um Spray Pain Away é preciso 1 Pain Away e 1 Sucata de Tecnologia. 
 
-Em geral, o Item de Cura / Quantidade de Cura / Nível de Ciência Médica Necessária / Quantidade de Peças de Tecnologia Médica & e Sucata Tecnológica, são as seguintes: 
+Em geral, o Item de Cura / Quantidade de Cura / Nível de Ciência Médica Necessária / Quantidade de Peças de Tecnologia Médica e Sucata Tecnológica, são as seguintes: 
 
 | Remédio | Valor de Cura | Nível de Ciência Médica | Item de Cura Individual & Sucata de Tecnologia |
 |--|--|--|--|
@@ -106,46 +106,46 @@ Há itens que os jogadores podem usar para várias necessidades, desde Tarefas A
 **Núcleos IA** são essenciais para os jogadores ganharem EXP de personagem, é também um item com grande valor de mercado e é usado como moeda de troca entre jogadores (através do sistema de presentear e chat de mercado - linguagem global, inglês). 
 
 - Para ganhos de EXP, os jogadores podem usá-lo na área mais alta desbloqueada na **Estação Central Hiper-Trem**, através da tarefa **Implante um Bot de Farm**. (Nota: os ganhos desta tarefa são influenciados pela Pontuação Média de Equipamento, então sempre tente equipar equipamento do mesmo nível do seu personagem). 
-- Para efeitos de Mercado, jogadores podem vender estes itens na **Feira de Shangri-La**, seguindo o valor atual do Mercado. 
-- Para efeitos de Troca, jogadores podem trocar seus Núcleos AI por vários itens com outros jogadores, como Peças de Tecnologia Médica, Processadores Hash, Cofres, etc. (Nota: Núcleos IA são usados como a moeda de troca entre jogadores, através do sistema de presentear e chat de mercado - linguagem global, inglês). 
+- Para efeitos de Mercado, jogadores podem vender estes itens na **Feira de Shangri-Lá**, seguindo o valor atual do Mercado. 
+- Para efeitos de Troca, jogadores podem trocar seus Núcleos IA por vários itens com outros jogadores, como Peças de Tecnologia Médica, Processadores Hash, Cofres, etc. (Nota: Núcleos IA são usados como a moeda de troca entre jogadores, através do sistema de presentear e chat de mercado - linguagem global, inglês). 
 
 ### Processadores Hash 
 **Processadors Hash** são essenciais para os jogadores ganharem EXP de Criptomineração, são itens de valor elevado no mercado, e também usados como moeda de troca.
 
-- Para ganhos de EXP, os jogadores podem usá-lo na **Área Comercial de Shangri-La*, via Tarefa de **Criptomineração**. 
-- Para efeitos de Mercado, jogadores podem vender estes itens na **Feira de Shangri-La**, seguindo o valor atual do Mercado. 
-- Para efeitos de Troca, jogadores podem trocar seus Núcleos AI por vários itens com outros jogadores, como Peças de Tecnologia Médica, Processadores Hash, Cofres, etc. (Nota: Núcleos IA são usados como a moeda de troca entre jogadores, através do sistema de presentear e chat de mercado - linguagem global, inglês). 
+- Para ganhos de EXP, os jogadores podem usá-lo na **Área Comercial de Shangri-Lá**, via Tarefa de **Criptomineração**. 
+- Para efeitos de Mercado, jogadores podem vender estes itens na **Feira de Shangri-Lá**, seguindo o valor atual do Mercado. 
+- Para efeitos de Troca, jogadores podem trocar seus Núcleos IA por vários itens com outros jogadores, como Peças de Tecnologia Médica, Processadores Hash, Cofres, etc. (Nota: Núcleos IA são usados como a moeda de troca entre jogadores, através do sistema de presentear e chat de mercado - linguagem global, inglês). 
 
 ### Fragmentos / Memória de Experiência
 **Fragmentos / Memória de Experiência** são itens que os jogadores usam para ganhar EXP instantaneamente. A diferença entre Memória e Fragmentos é o tipo de EXP. Enquanto Memória dá ganhos de EXP de personagem, os Fragmentos dão EXP das habilidades respetivas. Estes itens não são trocáveis e são melhor usados quando um buff global **Transmisor de Córtex Frontal**/**Buff de EXP** estão ativos. 
 
 ### Cofres Trancados
-**Cofres Trancados** são essenciais para os jogaodres como uma alternativa para encontrar Núcleos IA / Processadores Hash, como um artigo de valor elevado no mercado, e moeda de troca. 
+**Cofres Trancados** são essenciais para os jogadores como uma alternativa para encontrar Núcleos IA / Processadores Hash, como um artigo de valor elevado no mercado, e moeda de troca. 
 
 Para abrir Cofres Trancados, os jogadores devem visitar o **Terminal** enquanto tiverem BTC e Sucata de Tecnologia no inventário. Após abrir Cofres Trancados, os jogadores irão encontrar maioritariamente itens como Núcleos IA, Processadores Hash, Equipamento (baseado no nível do jogador) e drops únicas que podem apenas ser encontrar em Cofres especificos. 
 
-Os jogadores também podem vender os Cofres Trancados na **Feira de Shangri-La** por BTC, ou vender por troca entre jogadores, por núcleos IA / Processadores Hash, usando o sistema de presentear e o chat de mercado (linguagem global - inglês). 
+Os jogadores também podem vender os Cofres Trancados na **Feira de Shangri-Lá** por BTC, ou vender por troca entre jogadores, por núcleos IA / Processadores Hash, usando o sistema de presentear e o chat de mercado (linguagem global - inglês). 
 
 ### Núcleo de Calibração de Equipamento 
-**Núcleo de Calibração de Equipamento** são usados como um item de calibração. Quando um jogador tenta realizar uma calibração, o jogador deve de inserir o Núcleo antes de proceder para a calibração do equipamento pretendio. 
+**Núcleo de Calibração de Equipamento** são usados como um item de calibração. Quando um jogador tenta realizar uma calibração, o jogador deve de inserir o Núcleo antes de proceder para a calibração do equipamento pretendido. 
 
 Explicação sobre Calibração pode ser encontrada em [Tutorial de Calibração](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
 
-Os jogadores também podem vender os Núcleos de Calibração de Equipamento na **Feira de Shangri-La** por BTC, ou vender por troca entre jogadores, por Núcleos IA / Processadores Hash, usando o sistema de presentear e o chat de mercado (linguagem global - inglês). 
+Os jogadores também podem vender os Núcleos de Calibração de Equipamento na **Feira de Shangri-Lá** por BTC, ou vender por troca entre jogadores, por Núcleos IA / Processadores Hash, usando o sistema de presentear e o chat de mercado (linguagem global - inglês). 
 
 ### Fragmento de Restauração de Fábrica 
 **Fragmento de Restauração de Fábrica** são itens usados para resetar a calibração de um equipamento, permitindo aos jogadores venderem / trocarem esse equipamento, visto que o mesmo não pode ser enviado para outro jogador ou colocado na Feira se estiver calibrado. 
 
 Explicação sobre Calibração pode ser encontrada em [Tutorial de Calibração](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
 
-Os jogadores também podem vender os Núcleos de Calibração de Equipamento na **Feira de Shangri-La** por BTC, ou vender por troca entre jogadores, por Núcleos IA / Processadores Hash, usando o sistema de presentear e o chat de mercado (linguagem global - inglês). 
+Os jogadores também podem vender os Núcleos de Calibração de Equipamento na **Feira de Shangri-Lá** por BTC, ou vender por troca entre jogadores, por Núcleos IA / Processadores Hash, usando o sistema de presentear e o chat de mercado (linguagem global - inglês). 
 
-## Itens da Gnague 
+## Itens da Gangue 
 
 ### Caixas de Suprimento (Gangue) 
-**Caixas de Supprimento (Gangue)** são usadas para dar Recursos e EXP para a gangue. Para o fazer, os jogadores têm de executar a Tarefa AFK que envolve usar as Caixas de Suprimento como um requesito (este tipo de Tarefa AFK também irá premiar o jogador com EXP de Criptomineração). Caixas de Suprimento são também usadas como uma forma de "definir território da Gangue" ao executar a Tarefa AFK **Controlo de Ocupação**, visto que isto dá à gangue **Pontos de Controlo** sem contribuição para os Recursos da Gangue. 
+**Caixas de Suprimento (Gangue)** são usadas para dar Recursos e EXP para a gangue. Para o fazer, os jogadores têm de executar a Tarefa AFK que envolve usar as Caixas de Suprimento como um requesito (este tipo de Tarefa AFK também irá premiar o jogador com EXP de Criptomineração). Caixas de Suprimento são também usadas como uma forma de "definir território da Gangue" ao executar a Tarefa AFK **Controle de Ocupação**, visto que isto dá à gangue **Pontos de Controle** sem contribuição para os Recursos da Gangue. 
 
-Os **Pontos de Controlo** permitem, às 2 gangues no TOP 2 do Placar de Liderança em **Pontos de Controlo** desbloquearem uma Tarefa AFK extra na **Sede da Gangue** que dá recursos como equipamentos e outros itens ao jogador. Esta Tarefa AFK não pode ser executada por gangues que não estejam no TOP 2 do Placar de Liderança.
+Os **Pontos de Controle** permitem, às 2 gangues no TOP 2 do Placar de Liderança em **Pontos de Controle** desbloquearem uma Tarefa AFK extra na **Sede da Gangue** que dá recursos como equipamentos e outros itens ao jogador. Esta Tarefa AFK não pode ser executada por gangues que não estejam no TOP 2 do Placar de Liderança.
 
 Caixas de Suprimento são trocáveis e podem ser vendidas / trocadas entre jogadores. 
 
@@ -155,14 +155,15 @@ Caixas de Suprimento são trocáveis e podem ser vendidas / trocadas entre jogad
 Fragmentos Encriptados de Memória da Gangue são trocáveis e podem ser vendidos / trocados entre jogadores. 
 
 ### Fragmentos de Violação de Protocolo 
-**Fragmentos de Violação de Protocolo** são usados como uma forma de contribuir para **Violação da Fortaleza SL-Data** (que os jogadores podem consultar o progresso na aba das **Missões**). Para contribuir, os jogadores devem de executar a Tarefa AFK relacionada na **Sede da Gangue**. Quando a barra vermelha da **Violação da Fortaleza SL-Data**, localizada na aba das **Missões** tiver atingido 100%, um buff global aleatório será ativado. Todas as gangues contribuem em conjunto nesta tarefa, ao executar a Tarefa AFK nas respetivas Sedes. 
+**Fragmentos de Violação de Protocolo** são usados como uma forma de contribuir para **Violação da Fortaleza SL-Data** (que os jogadores podem consultar o progresso na aba das **Missões**). Para contribuir, os jogadores devem de executar a Tarefa AFK relacionada na **Sede da Gangue**. Quando a barra vermelha da **Violação da Fortaleza SL-Data**, localizada na aba das **Missões** tiver atingido 100%, um buff global aleatório será ativado. Todas as gangues contribuem em conjunto nesta tarefa, ao executar a Tarefa AFK nas respectivas Sedes. 
 
 Fragmentos de Violação de Protocolo são trocáveis e podem ser vendidos / trocados entre jogadores. 
 
-### Tranmmissor de Ordem de Invasão da Gangue
+### Transmissor de Ordem de Invasão da Gangue
 **Transmissor de Ordem de Invasão da Gangue** são usados como uma forma de entrar em **Masmorras da Gangue**. Quando entra numa masmorra, se lembre que estas masmorras são as mais difíceis de todas, e portanto ter equipamento apropriado poderá ajudar e diminuir a dificuldade. 
 
 Transmissores de Ordem de Invasão da Gangue são trocáveis e podem ser vendidos / trocados entre jogadores. 
+
 ### Transmissor de Aceleração Sináptica
 
 Este item aumentará a rapidez com que o tempo AFK passa em +5% por 10 minutos, empilhável em +80%. Você pode usar outro para estender a duração do impulso, redefinindo o cronômetro. Para usar o boost, você só precisa iniciar uma sessão de AFK enquanto o boost estiver ativo. Este item é global e afetará e acumulará com outras pessoas. Isso não se acumula com a versão rara.
@@ -218,8 +219,8 @@ Tipos de Modificadores podem ser sumarizados da forma seguinte:
 ### Melhoria de Escudo
 **Melhoria de Escudo** afeta o Multiplicador de Escudo durante um período de tempo. O múltiplicador de escudo pode ser desde +5% (**Melhoria de Escudo I**) até +25% (**Melhoria de Escudo V**). 
 
-### Pules / Avanços / Impulsos de Tempo Globais
-Embora estes não sejam itens, os jogadores também podem comprar Avanços Globais na sua tela AFK (a aba do Mapa quando uma tarefa AFK está em andamento). Os Skipperss podem escolher entre um intervalo de 15 minutos a 180 minutos para pular. Os Avanços de Tempo funcionam com outros Buffs (como Tranmissores Sinápticos), por isso é mais econômico usar Avanços quando os buffs já estão ativados.
+### Pulos / Avanços / Impulsos de Tempo Globais
+Embora estes não sejam itens, os jogadores também podem comprar Avanços Globais na sua tela AFK (na aba do Mapa quando uma tarefa AFK está em andamento). Os Skippers podem escolher entre um intervalo de 15 minutos a 180 minutos para pular. Os Avanços de Tempo funcionam com outros Buffs (como Transmissores Sinápticos), por isso é mais econômico usar Avanços quando os buffs já estão ativados.
 
 Tal como acontece com todos os outros itens pagos, os Avanços de Tempo se aplicam a todos no servidor. No entanto, como eles pulam o tempo imediatamente, apenas os jogadores que iniciaram tarefas AFK antes que o botão seja pressionado receberão o benefício. Muitas vezes, pode ser útil coordenar no bate-papo para que as pessoas estejam prontas para acompanhar.
 
