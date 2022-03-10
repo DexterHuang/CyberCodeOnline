@@ -19,14 +19,14 @@
       * I want to create alts to store unlimited amount of items
       * I want to create alts so I can AFK with unlimited parallel tasks
       * I want to create alts so I can scam people with new names
-* Don't exploit bugs, report them instead
-* Keep usernames family friendly
-* Advertising (global chat/discord/bio/gang motto) of Selling/Buying account/items for IRL money (both directly or indirectly) is not allowed
-* Tagging people for fun or with no real purpose is not allowed. This is to prevent people from creating accounts just so they can tag them (doing so will also breach the "No excessive alts" rule) 
-* Any illegal activities will get you instantly banned -- including but not limited to -- harrassing underage person you met in game
+* Don't exploit bugs, report them instead.
+* Keep usernames family friendly.
+* Advertising (global chat/discord/bio/gang motto) of Selling/Buying account/items for IRL money (both directly or indirectly) is not allowed.
+* Tagging people for fun or with no real purpose is not allowed. This is to prevent people from creating accounts just so they can tag them (doing so will also breach the "No excessive alts" rule).
+* Any illegal activities will get you instantly banned -- including but not limited to -- harrassing underage person you met in game.
 
 ### Chat Rules
-**All rules are listed here, there is NO "unwritten rules", but be respectful and stop if other players don't like what you are sending in chat**
+**All rules are listed here, there are NO "unwritten rules", but be respectful and stop if other players don't like what you are sending in chat**
 #### Not Allowed: 
 * unfriendly, disrespectful to others opinion / offensive or passive agressive messages (Expample, racist, sexist comments)
 * non-family-friendly chat
