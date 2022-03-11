@@ -1,32 +1,32 @@
-# Donation
-To provide the best No Pay-to-Win experience to you, it is necessary that all paid features are cosmetic such as profile images & chat frames, 
-or global buffs that benefit everyone in-game :) 
+# Darowizna
+Aby zapewnić Ci jak najlepsze doświadczenie bez Pay-to-Win, koniecznym jest, aby wszystkie płatne funckje były kosmetyczne, np. zdjęcia profilowe i ramki czatu, 
+czy też globalne buffy, które przynoszą korzyści wszystkim w grze :) 
 
-## Why is profile picture donation-only?
-Because this is an MMORPG game and **NOT a dating app** (I know it can be confusing sometimes 😅), therefore a profile picture is not a standard nor required feature. 
+## Dlaczego zdjęcie profilowe jest dostępne tylko po wpłacie darowizny?
+To jest gra MMORPG, a nie **aplikacja randkowa** (wiem, że to potrafi zdezorientować 😅), w związku z tym, zdjęcie profilowe nie jest standardem ani wymaganą funkcjonalnością. 
 
-**Profile images are served as a token of thanks for the donators**
+**Zdjęcia profilowe służą jako wyraz wdzięczności dla darczyńców**
 
-**Fun Fact: 99% of the MMORPGs do not have a profile picture feature, even with a donation or their P2W system🤯**
+**Zabawny fakt: 99% gier MMORPG nie posiadają możliwości dodania zdjęcia profilowego, nawet po wpłacie darowizny czy skorzystaniu z ich systemu P2W🤯**
 
-## Do I need to donate for my whole life?
-No, you can cancel the donation at any time easily via your store.
+## Czy muszę wpłacać darowiznę do końca życia?
+Nie, w dowolnym momencie możesz ją anulować za pomocą sklepu.
 
-## The highest tier is so expensive, you greedy @$%#^#$!
-The higher tiers are requested by kind players who would like to donate more. 
+## Najwyższe rangi są zbyt drogie, ty chciwy @%#^$!
+Wyższe rangi są dostępne na prośbę życzliwych graczy, którzy chcieliby przekazać więcej. 
 
-Just like most other donation mechanisms, there is **No upper limit** on how much a person is allowed to donate. 
+Tak jak w większości mechanizmów darowizn, nie ma **górnego limitu** kwoty, jaką dana osoba może przekazać. 
 
-(if you wish to donate more than is available in the app, you may message me directly 😃)
+(jeśli chciałbyś przekazać więcej, niż można w grze, możesz napisać do mnie bezpośrednio 😃)
 
-for example: Patreon/Buy Me a coffee and most other donation services for creators do not have an upper limit on how much a person can choose to donate,
+na przykład: Patreon/Buy Me a coffee czy inne serwisy do przekazywania darowizn dla twórców nie posiadają górnej granicy tego, ile pieniędzy chcesz przekazać,
 
-but due to Google Play & Apple policies, I am not allowed to have links to external donation sites in the app, 
-so the only option for me was to have tiers for the common amount.
+ale z powodu polityki Google Play & Apple, nie wolno mi wstawiać żadnych linków do zewnętrznych serwisów darowiznowych w grze, 
+więc moją jedyną możliwością jest posiadanie rang, o wartości najczęściej wpłacanych kwot.
 
-## Do I need to donate?
-No. I strongly suggest you **Not** donate if you are not comfortable with it.
+## Czy muszę przekazywać darowiznę?
+Nie. Zdecydowanie sugeruję, abyś **nie** przekazywał darowizny, jeśli nie czujesz się z tym komfortowo.
 
-Donation does not provide any gameplay benefit; it is purely cosmetic. 
+Darowizna nie zapewnia żadnych korzyści w grze; jest czysto kosmetyczna. 
 
-So please don't donate unless you want to support the game!  
+Tak więc proszę, nie przekazuj darowizny, jeżeli nie chcesz wspierać gry!  
