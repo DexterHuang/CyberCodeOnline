@@ -102,6 +102,8 @@ Wanna
 [B3llial](https://github.com/B3lli4l)
 [HKCisONLINE](https://github.com/hkcisonline)
 [SunRisek](https://github.com/szymonagk)
+[Fataliste](https://github.com/Nasaelo)
+[Karont20](https://github.com/KarontDev)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
