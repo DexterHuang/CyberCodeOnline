@@ -16,6 +16,16 @@
 
 30 分鐘之後，玩家將可以校準任何沒有穿在身上的裝備（不包括已達校準上限的裝備）。
 
+## 校準站之外
+
+在 **v0.780 (2022/03/04) 更新** 之後, 玩家可以在 AFK Task / Dungeon session 期間進行校準。 
+
+![CalibrationStationAlt](/resources/mobile-tutorial/CalibrationStationAlt.png)
+
+為此，玩家必須點擊其指定的裝備，然後選擇「查看詳情」選項。在 **裝備詳情** 部分，點擊 **更新** or **校準欄** 來前往校準站。這樣，玩家就可以輕鬆地進行校準。
+
+請記住，只有未裝備的裝備是可以校準的。
+
 ## 發生毀損性失敗的機率
 
 ![CalibrationStation4](/resources/mobile-tutorial/CalibrationStation4.png)
