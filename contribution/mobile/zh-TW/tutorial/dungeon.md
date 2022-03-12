@@ -70,6 +70,8 @@
 
 ### 傳聞 (!)
 
+![DungeonLoreguy](/resources/mobile-tutorial/DungeonLoreguy.png)
+
 地下城周圍散布著驚嘆號，提供遊戲傳聞的片段。這些不會對你的遊戲或地下城產生影響，但可能會很有趣。
 
 ### 寶物 / BOSS 房
@@ -79,3 +81,15 @@
 你可以從變多的板條箱數量看出，這個房間很特別。看起來像一個百葉窗的板條箱包含一個密鑰碎片，可用於製作解鎖新區域的密鑰。
 
 在此圖中，你還可以看到其他玩家的助力。在低級別和嘗試挑戰地下城時尤其建議這樣做，因為挑戰地下城的 BOSS 的生命值和攻擊得到了極大的強化，作爲更多的經驗值的代價。
+
+### Minigame
+
+Once in a while, a minigame will show up after defeating an enemy, when trying to loot a box, or when entering another room, to insinuate a variety of dungeon dwellings. At the current state (as of 11-02-2022 / v.0780 Update), there's only 1 minigame that's been implemented to the game, called **Color Scheme Minigame**.
+
+![DungeonMinigame1](/resources/mobile-tutorial/DungeonMinigame1.png)
+
+The minigame itself consists of 3 colors (red, green, and yellow; with added symbols as an accessibility add-on) that need to be clicked on in sequence (40 times) in 60 seconds. You can also see the upcoming 2 colors as thinner color strips.
+
+![DungeonMinigameFail1](/resources/mobile-tutorial/DungeonMinigameFail1.png)
+
+Failing a minigame will result in a `DECRYPTION FAILED` screen, stating that a player failed to pick a correct color in sequence. Players are able to redo the minigame by clicking the **Try Again** button.

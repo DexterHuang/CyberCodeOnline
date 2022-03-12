@@ -4,6 +4,10 @@
   
 要與附近的敵人戰鬥的話，點擊列表列出的敵人即可進入戰鬥。與附近的敵人戰鬥時你無法恢復生命，如果你即將死亡，可以點擊左上角的逃生以避免死亡。在地城中，點擊由外星人標誌代表的敵人，你就會與它進行戰鬥。  
 
+## Combat screen
+  
+The combat screen will show you how much health and shield you and your opponent both have, as well as the amount of ammo you have left for each of your weapons and the approximate damage they can do.  
+
 ## 主要攻擊
 使用裝備的「主武器」攻擊敵人。該武器不使用彈藥。
 
@@ -29,12 +33,26 @@
   
 有些敵人會擁有詞綴，也就是敵人名稱前方的形容詞，例如「**Mad** Serial Killer」，這些詞綴的效果如下，
   
-  
- - Mad - 給予敵人 +10% 傷害  
+ - Mad - 給予敵人 +20% 傷害  
  - Angry - 給予敵人 +10% 傷害  
  - Tough - 給予敵人 +20% 防禦  
+   - Also gives the enemy significantly more health and slightly more damage (Not in tooltips)
  - Agile - 給予敵人 +20% 眩暈閃避和護盾  
- - Shielded - 給予敵人一個高額護盾  
+   - The Shield amount is always equal to half of enemy's health
+ - Shielded - 給予敵人一個高額護盾
+   - The Shield amount is always equal to double of enemy's health
+   - Note however that shielded enemies have slightly lower health to compensate.
+ - Precise - Gives the enemy +10% crit chance and +40% crit damage
+   - Also gives the enemy a shield (Not in tooltips)
+ - Berserker - Gives the enemy significantly more health, shield and damage.
+   - No tooltip exists for it, but the significantly higher shield and health (which are also almost equal, except for bosses) is very easy to notice
+
+Some important notes about modifiers:
+
+1. The damage from enemy is multiplied by the factor, then subtracted by your armor before deducting from your health. This means enemies might deal significantly more damage than no-modifier counterparts. 
+2. Similar calculation results also apply to defense. Tough enemies can take much more shots to kill.
+3. Agile enemies have "Stun Evade" (i.e. Only 80% of your stun value is used, e.g. 20% stun becomes 16% stun.), rather than "Evade" (i.e. chance for your attack to not hit at all). You may need to heal slightly more from such enemies hitting you when you normally stun them, but you will not have to heal from missing a shot completely.
+
   
 ## 玩家詞綴
   
@@ -59,3 +77,7 @@
  - Shield Enhance III - 給予玩家 +15% 護盾加成  
  - Shield Enhance IV - 給予玩家 +20% 護盾加成 
  - Shield Enhance V - 給予玩家 +25% 護盾加成  
+
+The modifier only starts counting down when you complete the quest by exchanging the requested items on Quest Tab (yellow text when completed). You can accept a quest in a dungeon and wait until a later time to start it. Every quests reward will specify the exact modifier you will gain.
+
+Also, player modifiers of different tiers stack additively. For example, you can have Overcharged I, Overcharged II at the same time, resulting in +15% damage. However if you gain a modifier you have already enabled (for instance, activating Overcharged I two times), it resets the timer.
