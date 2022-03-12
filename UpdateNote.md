@@ -26,6 +26,10 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  
 
 ## Updates        
+### 2022/03/12 v0.780
+- FIX - Fixed chat related bug
+- FIX - Fixed gang related bug
+
 ### 2022/03/07 v0.780
 - UI - Update market level select UI
 - FIX - Fixed serverside issue
