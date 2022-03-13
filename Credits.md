@@ -102,6 +102,8 @@ Wanna
 [B3llial](https://github.com/B3lli4l)
 [HKCisONLINE](https://github.com/hkcisonline)
 [SunRisek](https://github.com/szymonagk)
+[Fataliste](https://github.com/Nasaelo)
+[Karont20](https://github.com/KarontDev)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
@@ -180,6 +182,7 @@ romain22222
 RookieBob
 SitiSchu
 SKIFFI
+[skullbuns](https://github.com/Skullbuns)
 [Tripplehelix](https://github.com/tripplehelix)
 Vega_Efsunborn
 [Veyrin](https://github.com/darkrevelations)
@@ -195,6 +198,7 @@ zomg
 [Wootles](https://github.com/Wootles)
 [K4LM3D](https://github.com/mksalada)
 [NTHiG](https://github.com/NTHGiT)
+[Jefreesujit](https://github.com/Jefreesujit)
 
 ## Tutorial
 [alfaice](https://github.com/alfaice)
@@ -295,6 +299,7 @@ spyd3r
 ## Security Bug Reporters
 [0xF61](https://github.com/0xF61)
 Enkidu99
+[LianSheng](https://github.com/LianSheng197)
 [Lighty](https://github.com/Lightyin4k)
 [MagicCookie](https://github.com/GooseGooseStop)
 [Spellchaser](https://github.com/Spellchaser)
