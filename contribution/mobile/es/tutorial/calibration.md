@@ -1,31 +1,31 @@
 # Calibración
 ![CalibrationStation](/resources/mobile-tutorial/CalibrationStation.png)
 
-La **Calibración** es una acción en la que los jugadores mejoran su equipo hasta un determinado punto, con el propósito de que el equipo sea más duradero y se pueda utilizar en un nivel superior más adelante. Calibrar un equipo no aumenta su nivel, pero sí sus estadísticas básicas hasta un determinado nivel de calibración.
+La **Calibración** es una acción que permite a los jugadores mejorar su Equipo, con el propósito de que este sea más duradero y se pueda seguir utilizando en niveles superiores. Es importante notar que calibrar un Equipo solo modifica sus estadísticas base hasta cierto límite y que su Nivel no aumentará.
 
-Es aconsejable empezar a calibrar tu equipo alrededor del nivel 50 (y superior), ya que el nivel más bajo superará al equipo calibrado rápidamente, haciendo que el equipo calibrado sea inútil a largo plazo. También es aconsejable calibrar el equipo que sea como mínimo Raro (hasta Épico) ya que a mayor rareza más niveles de calibración para mejorar.
+Es recomendable calibrar Equipo desde que seas Nivel 50, ya que en niveles más bajos el equipo calibrado será superado rápidamente y se volverá inútil. También es aconsejable calibrar el Equipo que sea mínimamente Raro, porque estos tienen una mayor Capacidad de Calibración.
 
-Para hacer la Calibración, un jugador ha de visitar la Estación de Calibración que se puede encontrar en el Centro de la Ciudad de Shangri-La (Mapa).
+Para realizar la Calibración de Equipo, un jugador ha de visitar la Estación de Calibración que se puede encontrar en el Centro de la Ciudad de Shangri-La (Mapa).
 
 ## Realizando la Calibración
 ![CalibrationStation2](/resources/mobile-tutorial/CalibrationStation2.png)
 
-Dentro de la **Estación de Calibración**, se le pedirá al jugador que inserte el **Núcleo de Calibración del Equipo** para iniciar el proceso. Después de insertar el núcleo, el jugador necesita esperar 30 minutos antes de que la Estación permita al jugador calibrar su equipo (**Este proceso de espera no se ve afectado por ningún buff global / saltos, incluyendo los Aceleradores AFK [Transmisor de Aceleración Sináptica]**).
+Dentro de la **Estación de Calibración**, se le pedirá al jugador que inserte el **Núcleo de Calibración** para iniciar el proceso. Ya insertado el núcleo, el jugador necesita esperar 30 minutos antes de que la Estación permita al jugador calibrar su Equipo (**Este proceso de espera no se ve afectado por Mejoras Globales o Saltos, incluyendo los Aceleradores AFK [Transmisor de Aceleración Sináptica]**).
 
 ![CalibrationStation3](/resources/mobile-tutorial/CalibrationStation3.png)
 
-Después de 30 minutos, un jugador puede calibrar cualquier equipo (excluyendo el equipo calibrado al máximo) que no esté equipado en su ranura equipada. 
+Después de 30 minutos, el jugador puede calibrar cualquier Equipo (excluyendo el Equipo ya calibrado al máximo) que no tenga equipado. 
 
 ## Probabilidad de fallo destructivo
 
 ![CalibrationStation4](/resources/mobile-tutorial/CalibrationStation4.png)
 
-En el proceso de calibración del equipo, existe la posibilidad de que el proceso falle, destruyendo el equipo. El porcentaje de fallo se indica con el número rojo que aparece encima del equipo seleccionado en %.
+Durante el proceso de Calibración del equipo, existe la posibilidad de que ocurra una falla crítica, destruyendo el Equipo. El porcentaje de fallo se indica con el porcentaje (en rojo) que aparece encima del Equipo seleccionado.
 
-Es aconsejable quitar el Módulo de Mejora que está unido al equipo antes de intentar calibrarlo, ya que tanto el equipo como el módulo se destruirán en el proceso de fallo.
+Se recomienda quitar cualquier Módulo de Mejora acoplado al Equipo antes de intentar calibrarlo, ya que tanto también será destruido si ocurre una falla crítica.
 
-En general, la capacidad del equipo / porcentaje de fallo de cada nivel es la siguiente:
-| Capacidad del Equipo | Rareza | Probabilidad de fallo |
+En general, la relación entre la Capacidad del Equipo y porcentaje de fallo de cada nivel es la siguiente:
+| Rareza | Capacidad | Probabilidad de fallo |
 |--|--|--|
 | Basura | +1 | 2% |
 | Basura | +2 | 5% |
@@ -42,15 +42,15 @@ En general, la capacidad del equipo / porcentaje de fallo de cada nivel es la si
 Cualquier calibración de +6 para arriba es *imposible de lograr* sin el uso de **Aumento de Calibración**. Reduce el porcentaje de fallos y se apilan / suman entre sí.
 
 En general, el nivel de impulso de calibración (y dónde encontrarlos) es el siguiente:
-- **Fragmento de IA de Calibración (Común)** reduce la posibilidad de fallo en un 5%; sólo para uso personal; se puede encontrar en contenedores raros cerrados
-- **Fragmento de IA de Calibración (Raro)** reducen la probabilidad de fallo en un 10%; son de uso global; sólo se pueden comprar en el intercambio de unidades de Arasaka.
-- **Fragmento de IA de Calibración (Legendario)** reduce la probabilidad de fracaso en un 50%; mejora global; sólo se puede comprar en el intercambio de unidades de Arasaka.
-- **Fragmento de IA de Calibración (Legendario)** reduce la probabilidad de fracaso en un 100%; mejora global; sólo se puede comprar en el intercambio de unidades de Arasaka.
-- **Fragmento de IA de Calibración (Prestigio)** reduce la probabilidad de fracaso en un 300%; mejora global; sólo se puede comprar en el intercambio de unidades de Arasaka. 
+- **Cápsula de Calibración (Común)** reduce la posibilidad de fallo en un 5%; sólo para uso personal; se puede encontrar en contenedores raros cerrados
+- **Cápsula de Calibración (Raro)** reducen la probabilidad de fallo en un 10%; son de uso global; sólo se pueden comprar en la Tienda de Unidades.
+- **Cápsula de Calibración (Legendario)** reduce la probabilidad de fracaso en un 50%; mejora global; sólo se puede comprar en la Tienda de Unidades.
+- **Cápsula de Calibración (Legendario)** reduce la probabilidad de fracaso en un 100%; mejora global; sólo se puede comprar en la Tienda de Unidades.
+- **Cápsula de Calibración (Prestigio)** reduce la probabilidad de fracaso en un 300%; mejora global; sólo se puede comprar en la Tienda de Unidades. 
 
-Los jugadores también pueden anular el efecto destructivo activando los **Nanorobots de Seguridad de Calibración** (que pueden encontrarse en los Contenedores Misteriosos / o comprarse en el Intercambio de Unidades de Arasaka) antes de calibrar el equipo.
+Los jugadores también pueden anular el efecto destructivo activando los **NanoBot de Calibración Segura** (que pueden encontrarse en los Contenedores Misteriosos / o comprarse en el Intercambio de Unidades de Arasaka) antes de calibrar el equipo.
 
 Ten en cuenta que los potenciadores **sólo duran 5 minutos** y que cada nivel / rareza de potenciador **sólo puede sumarse dos veces** (excluyendo el fragmento común). Es mejor estar preparado antes de hacer el boost.
 
 ## Comercio y venta de equipo calibrado 
-Los jugadores no pueden intercambiar o vender su equipo calibrado. Para comerciar o vender equipo relacionado, los jugadores deben **reiniciar** el equipo calibrado utilizando el **Capsula de Reseteo de Fábrica** (que se puede encontrar en el mercado o en recolección).
+Los jugadores no pueden intercambiar o vender su equipo calibrado. Para comerciar o vender equipo relacionado, los jugadores deben **reiniciar** el Equipo calibrado utilizando una **Cápsula de Reseteo** (que se puede encontrar en el mercado o en recolección).
