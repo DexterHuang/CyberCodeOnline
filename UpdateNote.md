@@ -26,6 +26,10 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  
 
 ## Updates        
+### 2022/03/16 v0.780
+- NEW - You can now switch between your owned skin
+- NEW - Added emblem system, you may purchase emblems with Unit, it will show up in chat frame and in the next update in your profile
+
 ### 2022/03/12 v0.780
 - FIX - Fixed chat related bug
 - FIX - Fixed gang related bug
