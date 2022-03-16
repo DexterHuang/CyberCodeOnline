@@ -119,10 +119,10 @@ The quality of the armor will contribute a lot on the stat it gives; the higher 
 Quality tiers go from Trash > Common > High Quality > Rare > Legendary > Epic. You cannot change the Quality of a weapon or armor.
 
 ### What does "Durability" on weapons and armor means?
-Durability is the ability of an equipment to remain functional, without requiring excessive maintenance or repair, when faced with the challenges of normal operation over it's designed lifetime. (Wikipedia).  Durability only decreases when fighting Nearby Enemies.  Durability is not impacted when fighting in dungeons.
+*Durability is the ability of an equipment to remain functional, without requiring excessive maintenance or repair, when faced with the challenges of normal operation over it's designed lifetime (Wikipedia)*.  Durability only decreases when fighting Nearby Enemies.  Durability is not impacted when fighting in dungeons.
 
 ### How do I repair my equipment's durability?
-You can repair your equipment by paying a small amount of BTC at the Weapon Shop located in the City Center.
+As of current update, Durability will just be a mere numbers on your gear stats. It will never be decreased & the feature to **Repair** gear's durability were no longer exist.
 
 ### Do caches scale with my level? Should I keep them for later?
 The caches you print scale with your Printing Rank. The gear that you obtain from them will always have the same level as your Printing Rank. Make sure to level your Printing Rank to your current player level to always receive the best equipment possible from printing.
