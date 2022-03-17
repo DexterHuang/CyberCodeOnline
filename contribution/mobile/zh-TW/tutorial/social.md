@@ -1,10 +1,10 @@
-# Social
-In CyberCodeOnline, there are few ways of communicating with other players around the world, which ranged from social chatting onto personal messaging with other player.
+# 社交
+在 CyberCodeOnline 中，有幾種與世界各地的其他玩家交流的方式，從社交聊天到與其他玩家的個人訊息交流。
 
-## Chats
-Chats consist of different channels, with a goal to socialize with each other. These were justified by having **Chat Quest** being activated after player speaks in chat for the first time.  
+## 聊天
+聊天由不同的頻道組成，目的是為了更好的互相交流。當玩家第一次在聊天中發言時，**聊天任務**就會被啟動，從而證明了這一點。 
 
-Explanation around Chat can be found on [Chat's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fchat.md)
+關於聊天的詳細解釋請移步 [聊天的教學](https://cybercodeonline.com/markdown?path=tutorial%2Fchat.md)
 
 ## 公會
 目前公會只是一個供最多 32 名公會成員私下聊天的地方。未來將為公會新增其他功能。
@@ -17,19 +17,19 @@ Explanation around Chat can be found on [Chat's Tutorial](https://cybercodeonlin
 將其他玩家加入好友，並不需要事先取得該玩家的同意。他將直接被加入你的好友清單。
 透過你的好友清單，你可以看到好友們是否正在線上、閒置、或者離線。
 
-## Block Feature
+## 封鎖功能
 
 ![BlockFeature1](/resources/mobile-tutorial/BlockFeature1.png)
 
-Players are able to block other players when necessary. To do so, a player needs to click their Username (in chat) and pick **Block Option** that's below the Profile option. When a player gets blocked, the player who blocked them can't see their messages until they unblock them.
+玩家可以在必要時封鎖其他玩家。玩家只需要點擊他們的使用者名稱（在聊天中）並選擇**封鎖選項**，該選項位於個人資料選項的下方。當一個玩家被你封鎖時，你不會看到他們的訊息，直到你解除封鎖。
 
 ![BlockFeature2](/resources/mobile-tutorial/BlockFeature2.png)
 
-To unblock other players, a player needs to find **Block List** option, which can be found on Profile / Map > Phone Icon > All Apps > Block List. After that, the player chooses the player's username and click **Unblock** button that's on the right side of the blocked player's username.
+要解除對其他玩家的封鎖，玩家需要找到 **黑名單** 選項，該選項可以在 個人資料/地圖 > 電話圖示 > 所有應用程式 > 黑名單 中找到。之後，玩家選擇玩家的使用者名稱，並點擊 **解封** 按鈕，該按鈕位於被封的玩家的使用者名稱右側。
 
 ![BlockFeature3](/resources/mobile-tutorial/BlockFeature3.png)
 
-After choosing out which player will be unblocked, a pop-up will be shown, to confirm player's action on unblocking the stated player. Clicking on **YES** button implies that the stated player will be unblocked and its chat can be seen again.
+在選擇了哪個玩家將被解封後，將顯示用來再次確認的彈出視窗。點擊 **YES** 按鈕，意味著所選玩家將被解除封鎖，其聊天記錄可以再次被看到。
 
 ## 玩家交易
 While there is no official feature to trade, **Sending Gift to Player** works in a way bridge out the way of trading in this game. To initialize a trade, both players arrange a deal via **Private Message** with a sense of trust on both sides. Once a deal is approved, both players trade their goods and thank each other when a deal is done.
