@@ -26,6 +26,9 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  
 
 ## Updates        
+### 2022/03/19 v0.780
+- NEW - Added manual sync button at AFK screen, when your AFK task has finish but the client doesnt update (most of time is due to incorrect device time), you can click it to manually update with server
+
 ### 2022/03/16 v0.780
 - NEW - You can now switch between your owned skin
 - NEW - Added emblem system, you may purchase emblems with Unit, it will show up in chat frame and in the next update in your profile
