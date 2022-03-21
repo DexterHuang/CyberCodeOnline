@@ -33,9 +33,6 @@ You can find both gear and equipment caches in dungeons or when fighting individ
 ## Printing Your Equipment
 Caches can be used to print equipment at your current Printing Rank at the Molecular 3D Printer in the City Center. The level of the printed gear will be the same as your Printing Rank, so make sure to keep your Printing Rank at the same level as your player level.
 
-## Repairing Your Equipment
-When a player can't use their equipment (labeled by red text / color), it's indicated that player needs to repair their equipment for further uses. In order to repair your equipment, player needs to visit **Weapon Smith** that can be found in **Shangri-La City Center**. After entering the Weapon Smith, an option to **Repair Equipment** can be found below the **Sell** option. This option can only be availiable if player the equipped damaged gear & the gear's **Durability** are below 100%.
-
 ## Upgrade Modules
 You can attach **Upgrade Modules** onto your equipment. In order to equip the module, the module level cannot be higher than the equipment's level (For example: you can't attach a level 20 upgrade module onto level 5 primary weapon).  
 
