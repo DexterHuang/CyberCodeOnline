@@ -27,6 +27,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates        
 ### 2022/03/24 v0.780
+- FIX - Fixed in some device AFK task does not finish automatically
 - FIX - Samsung phones with newest webview result in abnormally large UI should now be fixed. Please download the newest game version from playstore.
 
 ### 2022/03/19 v0.780
