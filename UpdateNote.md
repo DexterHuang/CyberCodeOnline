@@ -26,6 +26,9 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  
 
 ## Updates        
+### 2022/03/24 v0.780
+- FIX - Samsung phones with newest webview result in abnormally large UI should now be fixed. Please download the newest game version from playstore.
+
 ### 2022/03/19 v0.780
 - NEW - Added manual sync button at AFK screen, when your AFK task has finish but the client doesnt update (most of time is due to incorrect device time), you can click it to manually update with server
 
