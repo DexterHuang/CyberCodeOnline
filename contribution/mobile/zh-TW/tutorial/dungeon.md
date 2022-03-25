@@ -82,14 +82,14 @@
 
 在此圖中，你還可以看到其他玩家的助力。在低級別和嘗試挑戰地下城時尤其建議這樣做，因為挑戰地下城的 BOSS 的生命值和攻擊得到了極大的強化，作爲更多的經驗值的代價。
 
-### Minigame
+### 小遊戲
 
-Once in a while, a minigame will show up after defeating an enemy, when trying to loot a box, or when entering another room, to insinuate a variety of dungeon dwellings. At the current state (as of 11-02-2022 / v.0780 Update), there's only 1 minigame that's been implemented to the game, called **Color Scheme Minigame**.
+有時在你擊敗敵人、嘗試打開板條箱或進入另一個房間時，會突然出現一個小遊戲，情況就像你在探索地下城時遇上了不同的突發事件。在現時的版本中（更新 v.0780)，只有一個小游戲被添加到了遊戲內，名為 **Color Scheme Minigame**。
 
 ![DungeonMinigame1](/resources/mobile-tutorial/DungeonMinigame1.png)
 
-The minigame itself consists of 3 colors (red, green, and yellow; with added symbols as an accessibility add-on) that need to be clicked on in sequence (40 times) in 60 seconds. You can also see the upcoming 2 colors as thinner color strips.
+這個小游戲由3種顏色條組成（紅、綠、黃；加上作為輔助使用的符號），你需要在60秒內按顏色順序成功點擊40次。另外你也可以看到之後兩條較薄的顏色條。 
 
 ![DungeonMinigameFail1](/resources/mobile-tutorial/DungeonMinigameFail1.png)
 
-Failing a minigame will result in a `DECRYPTION FAILED` screen, stating that a player failed to pick a correct color in sequence. Players are able to redo the minigame by clicking the **Try Again** button.
+小遊戲失敗將會導致 `DECRYPTION FAILED` 介面出現，說明你未能按順序點擊正確的顏色， 不過，你可以點擊 **Try Again** 再嘗試一次。
