@@ -62,5 +62,23 @@ Players can also negate the destructive effect by activating **Calibration Safet
 
 Keep in mind that the boosts **will only last for 5 min** & each tier / rarity of boost **can only be stacked twice** (excluding Common Shard). It's best to be prepared before boosting.
 
+## Gear Improvement
+With each calibration, gear gets improved and far better than un-calibrated gear (depending on its level). These improvements ranged from higher health, better damage, more inventory slots, etc.
+
+Improvement (from calibration; from its base stats) percentage as follows:
+| Tier | Gear Improvement |
+|--|--|
+| +1 | 5% |
+| +2 | 10% |
+| +3 | 15% |
+| +4 | 20% |
+| +5 | 40% |
+| +6 | 60% |
+| +7 | 80% |
+| +8 | 110% |
+| +9 | 150% |
+| +10 | 200% |
+
+
 ##  Trade / Sell Calibrated Gear 
 Players can't trade / sell their calibrated gear. To trade / sell related gear, players need to **Reset** the calibrated gear by using **Factory Reset Shard** (that can be found on Scavenge or Market).
