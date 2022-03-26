@@ -164,6 +164,7 @@ Hardboiled_Cat
 HeyaItsLuna
 JashinL
 [JEricaM](https://github.com/JEricaM)
+Killzonegx
 krolik
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)
 [Leviaiz](https://github.com/rewlf2)
