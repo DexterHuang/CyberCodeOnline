@@ -32,7 +32,7 @@
 在選擇了哪個玩家將被解封後，將顯示用來再次確認的彈出視窗。點擊 **YES** 按鈕，意味著所選玩家將被解除封鎖，其聊天記錄可以再次被看到。
 
 ## 玩家交易
-While there is no official feature to trade, **Sending Gift to Player** works in a way bridge out the way of trading in this game. To initialize a trade, both players arrange a deal via **Private Message** with a sense of trust on both sides. Once a deal is approved, both players trade their goods and thank each other when a deal is done.
+雖然遊戲內沒有交易功能，但向其他玩家**送禮物**的這個功能一直被用作為玩家之間的交易方式。在開始交易前，交易雙方可以先通過**發送私人訊息**來交排並確認交易的細節。在交易期間，請給予對方信任以及耐性。而在交易完成後，亦不妨給予對方一句謝謝。
 
-If a player tries to scam others, it's recommended to report this behavior to in-game `Moderator` via Private Message rather than announce it in **Global Chat** to prevent misinformation or bad behavior by any means.
+但如果你不幸在遊戲內發現或遇到有玩家試圖進行詐騙，你可以透過**發送私人訊息**至遊戲內的`管理員`和他們報告情況。請不要自行在**全球聊天室**中宣佈，避免產生任何誤會或因此導致的不良的行為。
 
