@@ -52,6 +52,7 @@ Proxxie
 [kj415j45](https://github.com/kj415j45)
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)
 [Kraken-Juice](https://github.com/Kraken-Juice)
+[masuda2022](https://github.com/masuda2022)
 [Mazoom](https://github.com/mazoom81)
 [Misaki](https://github.com/Misaki290)
 [Murfex](https://github.com/Murfex)
