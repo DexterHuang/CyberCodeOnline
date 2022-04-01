@@ -59,6 +59,7 @@ Proxxie
 [legiorange](https://github.com/legiorange)
 [FallOfComet](https://github.com/FallOfComet)
 MontyPython
+moxie__
 [MrNandang](https://github.com/mrnandang)
 [nopeholmes](https://github.com/nopeholmes)
 [PedroCisnerosSantana](https://github.com/PedroCisnerosSantana)
