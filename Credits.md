@@ -59,7 +59,6 @@ Proxxie
 [legiorange](https://github.com/legiorange)
 [FallOfComet](https://github.com/FallOfComet)
 MontyPython
-moxie__
 [MrNandang](https://github.com/mrnandang)
 [nopeholmes](https://github.com/nopeholmes)
 [PedroCisnerosSantana](https://github.com/PedroCisnerosSantana)
@@ -250,6 +249,7 @@ Kaktusmonas
 [Montero](https://github.com/CCOLucille2)
 [mxjoda](https://twitter.com/mxjoda)
 MontyPython
+moxie__
 [nopeholmes](https://github.com/nopeholmes)
 Poetics
 PoopBalloon
