@@ -26,6 +26,9 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  
 
 ## Updates        
+### 2022/04/02 v0.780
+- FIX - Security bug fixes
+
 ### 2022/04/01 v0.780
 - UPDATE - Updated language config generation code, unused translations should be automatically removed, config file is now sorted differently
 
