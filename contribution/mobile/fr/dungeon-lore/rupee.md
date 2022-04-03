@@ -1,0 +1,5 @@
+> En refermant la porte derrière vous entrez dans cette nouvelle pièce, un bassin de lumière prismatique attire votre émerveillement. Vous marchez vers le bassin de lumière, essayant de l'attraper.
+  
+>Ce que vous trouvez est un tas de cristaux aux formes étranges. Vous regardez autour de vous. Vous vous demandez si quelqu'un les a laissés ici exprès. Vous en prenez un et vous le tenez devant le peu de lumière qu'il y a. Rien de spectaculaire à première vue. En fait, pas vraiment d'impression du tout. La seule chose qui était remarquable à propos de ces cristaux est le fait qu'ils sont d'une multitude de couleurs. Délavé avec l'âge, à coté on distingue quelques couleurs distinctes : rouge, blanc, vert, violet, voire un bleu. Ils sont toujours brillants bien qu'ils aient été longtemps laissés à l'air libre. Mis à part le fait qu'ils sont un peu fêlés et un tantinet émoussés, ils ont plutôt bien tenu, remarquez-vous.
+  
+> Vous laissez le tas de cristal là où il se trouve, le laissant à la prochaine personne pour apprécier sa beauté usée par le temps, mais sans âge.

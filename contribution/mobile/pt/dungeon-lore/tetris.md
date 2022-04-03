@@ -1,0 +1,5 @@
+> Pisando cuidadosamente na sala, você identifica uma pilha de algo de madeira.E uma placa plana.Não passando a chance de fazer uma pausa, você se esforça para a pilha.
+  
+> Você encontra uma placa de madeira, com algumas peças de quebra-cabeça de madeira.Um quebra-cabeça partiu no meio do nada.Você se pergunta se alguém estava brincando com isso e deixou para trás com pressa.Você olha para as peças do quebra-cabeça.Um é moldado como a letra "L", outra peça é moldada como a letra "t".No total, existem sete diferentes peças do quebra-cabeça aqui.A placa de quebra-cabeça de madeira é dividida com linhas brancas desbotadas.Parece que o objetivo do jogo é de alguma forma se encaixam perfeitamente às sete partes no conselho.Você passa alguns minutos tentando descobrir o quebra-cabeça antes de desistir.
+  
+> Você deixa o quebra-cabeça no chão, deixando-o prender a próxima vítima, pendurando a solução fora de alcance.

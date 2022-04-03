@@ -22,22 +22,22 @@ There are 5 skills that player can develop & it has it's own perk upon doing so.
 
 > For **Ammo Crafting Skills**, player can level up by doing **Ammo Crafting Task** on **Commercial Area** (/ Job Hub) or by crafting Ammo on **Inventory > Crafting > Ammo** (Needs to be atleast level 10 Ammo Crafting before doing so).  
 
-> For **Scavenge Skills**, player can level up by doing **Scavenge Task**. Player can find Scavenge task below **Deploy Farm Bot** Task on each area. 
+> For **Scavenge Skills**, player can level up by doing **Scavenge Task**. Player can find Scavenge task below **Deploy Farm Bot** Task on each area. It is important to note that starting out, you must start at the level 1-4 area due to the requirements on scavenging level of later areas.
 
 > For **Mining Skills**, player can level up by doing **Crypto Mining Task** on **Commercial Area** (/ Job Hub) or by doing **Gang Task** that player can find on their Gang Headquarters.
 
 ### What's the Benefit of Leveling Up "X" Skills?
 There are 5 skills that player can develop & it has it's own perk upon doing so. In summary, here's the benefit of leveling up certain skills:
 
-> For **Printing Skills**, player can print a better yet higher level gear. Having a better gear onto player's arsenal adds better stats into players favour, making fight less difficult. 
+> For **Printing Skills**, player can print a better and higher level gear. Having a better gear onto player's arsenal adds better stats into players favour, making fight less difficult. 
 
-> For **Medical Skills**, player can craft a better meds into their arsenal (up to Epic Nano Medic Bots), helping player on a longer run while also providing better health pool per usage.
+> For **Medical Skills**, player can craft better meds into their arsenal (up to Epic Nano Medic Bots), helping player on a longer run while also providing better health pool per usage.
 
-> For **Ammo Crafting Skills**, player can craft higher rates of ammo craft per level with a same ingredient ratio.
+> For **Ammo Crafting Skills**, player can craft more ammo per 10 levels with the same amount of ingredients.
 
-> For **Scavenge Skills**, player can do higher Scavenge Task, which allows player to get an even better item drop rate. 
+> For **Scavenge Skills**, player can do higher level Scavenge Task, which allows player to get an even better item drop rate. 
 
-> For **Mining Skills**, player can get better BTC amount per 1 Crypto Mining task and also higher rates of AI craft per level with a same ingredient ratio.
+> For **Mining Skills**, player can get better BTC amount per 1 Crypto Mining task and also higher output of AI craft per level with the same amount of ingredients.
 
 ### Can Skills Level be higher than our Character Level?
 No. Character Level is the max / boundary of player's skill level.
@@ -50,7 +50,7 @@ On **lower level (1-7)**, the fastest and best way to level up is to fight **Nea
 
 **After reaching level 7**, try to equip / print a gear that has same gear level as your character level, and jumps into solo **Normal Dungeon**. Player can also join other players Dungeon via **Dungeon List** feature on **Map > Phone Icon > Dungeon List**. Finishing a dungeon will gain more EXP yield than Nearby Enemies.
 
-For best result, try to compelete **Challenge Dungeons** while having an active **Frontal Cortex Transmitter** (EXP Buff / Booster) on a go.
+For best results, try to compelete **Challenge Dungeons** at rare and below gear or **Gang Dungeons** at legendary or above gear while having an active **Frontal Cortex Transmitter** (EXP Buff / Booster).
 
 Note: You could also level up by doing AFK Task (**Deploy Farm Bot**) that requires **AI Core**. These task takes time (up to 2 hours) & only be profitable if a Global Skip event is happening, which recudes the task time (making it the most efficient way to level up). Explanation around Time Skip can be found on [Time Skip's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fglobal_skip.md)
 
@@ -66,7 +66,7 @@ These weapons require ammo. Special weapons uses Energy Cells and Destructive we
 ### What are caches and what should I do with them?
 Cache is an item that you can use to craft equipment at the Molecular 3D Printer.  It is not recommended to scrap your caches as it has 50% chance of giving Tech Scrap & also more valuable to print or sell.
 
-### When do I Print "X" cache"?
+### When do I Print "X" cache?
 Explanation around Cache printing can be found on [Equipment's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fequipment.md)
 
 ### Where can I get healing items?
@@ -91,10 +91,25 @@ Explanation around Item / Resources can be found on both [Inventory](https://cyb
 ## Advanced / Gameplay Related
 
 ### What is the Gear Score?
-**Gear Score** is the average level of the equipment you wear. This is calculated by averaging every non-weapon gear you have equipped, plus the highest level weapon you have (excluding destructive).
+**Gear Score** is the average level of the equipment you wear. This is calculated by averaging the levels of all your equipped gear, this includes your 3 Weapons and 4 Armor pieces. It is recommended to continue upgrading your gear as you progress through the game as high level items have better inherent stats like health, damage and armor and will make Nearby Enemies and Dungeons much easier to survive on higher levels. The percentage bracket for modifiers are constant irregardless of item level. Utilise the Profile page and check your Stats to determine which modifiers you require when planning your build.
 
-### Hmm.. Why Am I Leveling so Slow?
-At most cases (such as Deploy Farm Bot task), your **Gear Score** affects your EXP Gain exponentially. It is advised to have your Gear Score closer to your Character Level so that you gain more optimal EXP Gain. 
+### Why should I Care? 
+Checking your Gear Score on your profile page can not only give you a quick idea whether you need to look to upgrade but it has two secret impacts directly tied into gameplay other than stats.
+1)	The higher your gear score, the more XP you’ll gain through the AFK XP Farm - Deploy Farm Bot so you’ll need an “AFK Set”.
+
+2)	Dungeons will not allow you to obtain loot from chests or XP from enemies if your Gear Score is more than 10 levels higher than the Dungeon Level itself.
+
+### What is an AFK Set?
+Many players have a swappable “AFK Set”; for this, only the gear score matters not the stats nor modifiers so Trash Caches can be printed to fill all 7 slots and bring your Gear Score back inline with your Character Level.  Before you rush off to start printing though; remember to make sure to check your level of Printing Rank on your Profile page as subsequent prints will only have the level equal to your current Printing Rank; if not, printing Weapon, Armor or Mod Caches will raise your Printing Rank.
+
+### But I have no Caches! What do I do?
+You can gain XP to level Printing Rank without using up caches by heading over to **[Job Hub] Shangri-La City Center** and completing the **Work In Printing Factory** task; this costs nothing but your time. If you’re in a hurry, scroll down to the **Reverse Engineer Scraps** task and sacrifice some Tech Scraps for Printing Rank EXP in mere seconds.
+
+### What is the Max Item / Stack?
+You can carry up to 10000 items (same amount applies to Bank, Market, and Item Inbox) into your Inventory, exluding Gear & Upgrade Modules.
+
+### What is the amount of Inventory Slot that we can acquired?
+At the start, players will have the base of 50 Inventory Slot. Players can increase the amount of slot by equipping backpack (which can be acquired via Lee's Trading Post, Player Market, and Player Trade) and using gear or modules that has a **Pocket** stats. The max Inventory Slots are 178.
 
 ### What is Global Skip?
 Explanation around Global / Time Skip can be found on [Time Skip's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fglobal_skip.md)
@@ -113,15 +128,15 @@ The quality of the armor will contribute a lot on the stat it gives; the higher 
 Quality tiers go from Trash > Common > High Quality > Rare > Legendary > Epic. You cannot change the Quality of a weapon or armor.
 
 ### What does "Durability" on weapons and armor means?
-Durability is the ability of an equipment to remain functional, without requiring excessive maintenance or repair, when faced with the challenges of normal operation over it's designed lifetime. (Wikipedia).  Durability only decreases when fighting Nearby Enemies.  Durability is not impacted when fighting in dungeons.
+*Durability is the ability of an equipment to remain functional, without requiring excessive maintenance or repair, when faced with the challenges of normal operation over it's designed lifetime (Wikipedia)*.  Durability only decreases when fighting Nearby Enemies.  Durability is not impacted when fighting in dungeons.
 
 ### How do I repair my equipment's durability?
-You can repair your equipment by paying a small amount of BTC at the Weapon Shop located in the City Center.
+As of current update, Durability will just be a mere numbers on your gear stats. It will never be decreased & the feature to **Repair** gear's durability were no longer exist.
 
 ### Do caches scale with my level? Should I keep them for later?
 The caches you print scale with your Printing Rank. The gear that you obtain from them will always have the same level as your Printing Rank. Make sure to level your Printing Rank to your current player level to always receive the best equipment possible from printing.
 
-It doesn't matter if you print your caches now or later, but it's recommended to keep your Legendary caches for level 50 / 60+. If you happen to find an Epic cache, hold onto it until level 100+.
+It doesn't matter if you print your caches now or later, but it's recommended to keep your Legendary caches for level 50 / 60+. If you happen to find an Epic cache, hold onto it until level 100+ or sell it to other players.
 
 Legendary and Epic caches are much more expensive to craft than Rare ones, but the items have much better stats.  Higher quality items can last you for a long time, and are often worth calibrating at the Calibration Station.
 
@@ -173,8 +188,6 @@ You can find Public Dungeon via Dungeon List option (which found on Profile > Ph
 - Crates that have a "+" inside them contain key fragments.
 - The yellow stars / ✧ contains a locked container.
 - The "alien looking icons" represent monsters inside the dungeon.
-
-### These mobs has a high HP & damage 
 
 ### People are looting my stuff. Help!
 The loot in the crates is randomly generated for each player. Therefore, it's impossible for someone to steal your loot.

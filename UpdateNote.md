@@ -25,13 +25,91 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
  
 
-## Updates  
+## Updates        
+### 2022/04/02 v0.780
+- FIX - Security bug fixes
 
-Captchas in dungeons will be randomly replaced by more engaging minigames!! In the begining there will only be one minigame, and adding more in the future. So that sometimes, instead of a captcha code, you will play a simple minigame instead.
+### 2022/04/01 v0.780
+- UPDATE - Updated language config generation code, unused translations should be automatically removed, config file is now sorted differently
 
-### AFQ: 
+### 2022/03/24 v0.780
+- FIX - Fixed in some device AFK task does not finish automatically
+- FIX - Samsung phones with newest webview result in abnormally large UI should now be fixed. Please download the newest game version from playstore.
 
-### 2022/02/08 v0.780 
+### 2022/03/19 v0.780
+- NEW - Added manual sync button at AFK screen, when your AFK task has finish but the client doesnt update (most of time is due to incorrect device time), you can click it to manually update with server
+
+### 2022/03/16 v0.780
+- NEW - You can now switch between your owned skin
+- NEW - Added emblem system, you may purchase emblems with Unit, it will show up in chat frame and in the next update in your profile
+
+### 2022/03/12 v0.780
+- FIX - Fixed chat related bug
+- FIX - Fixed gang related bug
+
+### 2022/03/07 v0.780
+- UI - Update market level select UI
+- FIX - Fixed serverside issue
+- OPTIMIZATION - client optimization
+
+### 2022/03/06 v0.780
+- FIX - fixed devices that has incorrect timezone or time cannot finish AFK tasks normally
+
+### 2022/03/05 v0.780
+- UI - Added price display when clicking on NPC shop item
+
+### 2022/03/04 v0.780
+- UPDATE - Updated calibration interface and equipement UI
+- UPDATE - Top gang display at `Flori Station` will be temporarely replaced by `stop war` banner, in support of people who are suffering due to the war, click on the banner will bring you to UK goverment website on how to help with the situation, (Top gang guys, hope you can understand :) )
+
+### 2022/03/03 v0.780
+- UPDATE - Added check for client desyn when calibrating equipments, to prevent accidental breaking when desync from buff display
+
+### 2022/03/02 v0.780
+- FIX - Fixed exp related issue 
+
+### 2022/02/27 v0.780
+- UPDATE - Market UI have been re-done.
+- UPDATE - Now blocked user cannot send gift to you
+
+### 2022/02/23 v0.780
+- UPDATE - Color minigame required taps has been reduced
+
+### 2022/02/22 v0.780
+- UPDATE - Item stack max amount is increased to 10,000
+- UPDATE - `Prestige` donation tier is now on discount with the up coming `228 incident` day in Taiwan
+
+### 2022/02/19 v0.780
+- UPDATE - Decreased amount of times random events like minigame or locked box pin would show up in street fights
+- FIX - Fixed locked box pin code not showing correctly issue 
+
+### 2022/02/18 v0.780
+- FIX - Fixed a bug when you dont have an inventory open but client thinks it does cause by desync, you wont be able to syn-up unless you refresh 
+- UPDATE - VScode UI has been disabled, as it is very outdated and not very much used.
+- UPDATE - On hit exp has been moved to on kill exp, total exp should be same
+
+### 2022/02/17 v0.780
+- FIX - Possible fix of dungeon fight issues
+- OPTIMIZATION - Serverside optimization
+- FIX - fixed minigame and locked box event not firing in street fight
+- FIX - Removed my gang from gang leaderboard, it showed up because a bug introduced by another unrelated fix a aday ago.
+
+### 2022/02/16 v0.780
+- OPTIMIZATION - Serverside optimization
+
+### 2022/02/15 v0.780 
+- FIX - Market bug fixes 
+
+### 2022/02/14 v0.780 
+- FIX - Server issue
+- UI - Color minigame color brightness has been lowered, and updated the UI
+- FIX - Now dungeon list shows correct title
+
+### 2022/02/12 v0.780 
+- BUFF - Color minigame normal and hard difficulty is removed, now only EASY will show up (the one with 3 colors)
+- BUFF - Color minigame reward has now been increased, now with garanteed reward on completion & only drops `AI Cores`, `Hash Processors` and `Anti-matter cell`
+
+### 2022/02/11 v0.780 
 - UI - Updated Weapons Smith chracter - keeps the original design by OG l33t4ng3l while aligning the art style with rest of NPCs 
 - Minigame Enabled
 - Why? isnt there many important bugs or feature to add?

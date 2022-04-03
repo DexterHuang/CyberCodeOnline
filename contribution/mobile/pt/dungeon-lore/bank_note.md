@@ -1,0 +1,3 @@
+> Uma nota de banco.Um real desta vez.Um que era de uma era passada, antes que a globalização de uso e aceitação de Bitcoins viesse sejam.Um pedaço fino de papel, você suspeita, feito de uma mistura de materiais.O que sempre foi verde há muito tempo desbotado pelo ambiente e no tempo envolvente.Você pode facilmente fazer o número "1" e "0".Um slogan de tipos não é mais legível, não sem a ajuda de um microscópio e talvez um historiador sobre o assunto.
+  
+> Você coloca a nota do banco de volta no chão para outra pessoa para apreciar sua história.

@@ -1,0 +1,10 @@
+> En entrant dans la pièce, une immense ombre projetée dans un coin de la pièce vous fait vous demander ce qu'il pourrait bien y avoir là-bas. Votre sens de la découverte vous rapproche de l'objet sans que vous vous en rendiez compte.
+  
+>Une boîte métallique. Une boîte bizarre avec un poids bizarre. Vous la secouez. De toute évidence, quelque chose est à l'intérieur, en train de s'effondrer. Vous la regardez bien avec la faible lumière que vous pourriez trouver. Une couleur autrefois jaune vif s'est longtemps estompée en une teinte plus douce. Le "?" Le symbole gravé sur les quatre côtés de la boîte est  maintenant lisse, corrodé par le sol accidenté et le vent pendant une longue période. Vous secouez à nouveau la boîte, cette fois sans écho à l'intérieur. Par curiosité, vous vérifiez l'intérieur. Une bouffée de poussière et une odeur de moisi vous accueillent grossièrement.
+  
+> Vous renversez la boîte sur le sol, sifflant à cause de la poussière. Vous le laissez là pour que quelqu'un d'autre réfléchisse à la nature énigmatique de la boîte.
+En entrant dans la pièce, une immense ombre projetée dans un coin de la pièce vous fait vous demander ce qu’il pourrait bien y avoir là-bas. Votre sens de la découverte vous rapproche de l’objet sans que vous vous en rendiez compte.
+
+>Une boîte métallique. Une boîte bizarre avec un poids bizarre. Vous la secouez. De toute évidence, quelque chose est à l’intérieur, en train de s’effondrer. Vous la regardez bien avec la faible lumière que vous pourriez trouver. Une couleur autrefois jaune vif s’est longtemps estompée en une teinte plus douce. Le “?” Le symbole gravé sur les quatre côtés de la boîte est maintenant lisse, corrodé par le sol accidenté et le vent pendant une longue période. Vous secouez à nouveau la boîte, cette fois sans écho à l’intérieur. Par curiosité, vous vérifiez l’intérieur. Une bouffée de poussière et une odeur de moisi vous accueillent grossièrement.
+
+>Vous renversez la boîte sur le sol, sifflant à cause de la poussière. Vous le laissez là pour que quelqu’un d’autre réfléchisse à la nature énigmatique de la boîte.

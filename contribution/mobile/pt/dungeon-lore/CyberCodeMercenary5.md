@@ -1,0 +1,6 @@
+# A nova raça de super-humanos entre nós
+> (parte 5 de 12 do Código Cyber Mercenary Series)
+
+Depois de inúmeros experimentos com falha causando a perda de múltiplas vidas humanas, o primeiro super soldado foi finalmente criado em 29 de outubro de 2062. Equipado com um endosqueleto de liga de titânio completo, membros modulares totalmente reconfiguráveis, sensores ópticos e acústicos substituíveis, acelerador cerebral de grau militar, e Sempre on-line Backup neural com vários corpos de backup espalhados entre várias bases militares, o resultado do projeto Cyber ​​Code é apenas curto de um superdutor imortal. A única maneira de matá-los permanentemente é destruir todas as 262 plantas de backup do código cibernético dentro dos 10 segundos necessários para um backup cerebral completo. Isso marca a primeira criação do primeiro super soldado da história.
+
+Depois que o sucesso do projeto Cyber ​​Code foi captado pela Organização do Governo Mundial, uma enorme quantidade de financiamento foi alocada para começar a aumentar os soldados com os resultados da pesquisa do projeto Cyber ​​Code. O grupo de soldados de elite que receberam força sobre-humano com super decisão rápida e tempos de reação foram chamados de mercenários de código cibernético.

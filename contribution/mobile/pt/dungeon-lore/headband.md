@@ -1,0 +1,5 @@
+>Em uma tentativa de tomar um respiro do fato de que você quase morria, você procura uma distração.Um pedaço de tecido no chão parece ter respondido sua oração.
+  
+>Na inspeção mais próxima, você vê uma faixa de cabeça.Um pedaço de pano com uma placa de metal descansando nele.Você se pergunta se isso caiu da cabeça de alguém e foi esquecido por um longo tempo.Você pega.É um pouco pesado, com a placa de metal de alguma forma colada ou fundida no pedaço de pano.Você corre o dedo sobre a placa de metal.Algum tipo de símbolo parecia ter sido gravado na placa de metal.Você não pode entender o símbolo.Você tenta a bandana, mas o peso desajeitado se recusou a cooperar com o pano frágil.
+  
+>Você coloca a faixa de cabeça de volta onde você a encontrou, deixando-a para a próxima pessoa lutando para tentar parecer legal e impressionar seus amigos.

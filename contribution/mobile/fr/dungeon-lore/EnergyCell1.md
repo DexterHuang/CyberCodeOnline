@@ -1,0 +1,4 @@
+# Exca : la nouvelle ère des sources d'énergie portables 
+> (Page 1 de 2 série des cellules énergétiques)
+
+Les cellules d'énergie à fission autonomes thermonucléaires, que les gens appellent maintenant familièrement des cellules d'énergie, sont de petites unités génératrices d'énergie autonomes de différentes tailles. Les cellules énergétiques alimentent désormais tous les appareils électroniques, des HoloPhones aux véhicules. Chaque cellule est un réacteur à fission autonome, doté d'une électronique intelligente intégrée qui peut automatiquement correspondre à la tension et au courant requis par l'appareil dans lequel elle est installée. L'époque où les gens devaient recharger leurs batteries quotidiennement pour faire fonctionner leurs appareils est révolue depuis longtemps. Une cellule d'énergie peut fournir une alimentation continue à un appareil électronique pendant 12 ans avant de devoir être remplacée. 

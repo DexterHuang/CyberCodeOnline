@@ -1,0 +1,5 @@
+> Ligeiramente frio da masmorra, você tenta encontrar algo para incendiar em uma tentativa de se aquecer.Um tabuleiro de aparência chama sua atenção.
+  
+> Você encontra uma placa de madeira moldada solitária no meio da sala.Não está ligado a nada, não para um post, ou um esqueleto.Você anda até ele e pega.Moss e mofo cobriam a placa erodida, com alguma escrita fraca: "olhando para comprar gf, 100000g".Você não tem certeza do que significava, ou o que poderia ser referencial.Você olha ao redor da placa de madeira.Você encontra uma capa com um símbolo do que parece uma árvore.Você se pergunta por que alguém gostaria de usar uma capa com uma árvore por qualquer motivo.
+  
+> Você deixa a placa de madeira e a capa onde você os encontrou.Talvez a próxima pessoa possa descobrir qual conexão esses dois objetos têm.

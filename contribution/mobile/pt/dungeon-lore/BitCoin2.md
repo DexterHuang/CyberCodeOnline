@@ -1,0 +1,4 @@
+# Bitcoin como a nova moeda
+> (Parte 2 de 4 da série Bitcoin)
+
+Bitcoins foram criados como recompensa por um processo conhecido como mineração.Eles podem ser trocados por outras moedas, produtos e serviços, mas o valor do mundo real da moeda antes da sua adoção oficial em 2071 foi extremamente volátil.Os usuários escolheram participar da moeda digital volátil por várias razões: ideologias como compromisso com o anarquismo, descentralização e libertarianismo, conveniência, usando a moeda como investimento e pseudonímia de transações.O aumento do uso levou a um desejo entre os governos de regulação, a fim de imposto, facilitar a utilização jurídica no comércio e por outras razões até que a Organização do Governo Mundial finalmente a adotasse como moeda global oficial.

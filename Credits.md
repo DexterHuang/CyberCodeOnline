@@ -13,12 +13,16 @@ Fudgee
 [Tripplehelix](https://github.com/tripplehelix)
 Unca_Feddit
 [WhirlingDervish](https://github.com/NickN5)
+AlphaC58
+Ayanna
 HLYGD
-Prodam
+[Prodam](https://github.com/Pr0dam)
 Tear1
+YANDEREsenpaiXD
 Keevin
 Krolik
 [Mancipi](https://github.com/Mancipi)
+Artra
 
 ## Music
 [CMDR7](https://github.com/cmdr7)
@@ -37,26 +41,32 @@ Proxxie
 [CynexXT](https://github.com/CynexXT)
 [Destro9000](https://github.com/Destro9000)
 [Divadriel](https://github.com/Divadriel)
+[DragonSinns](https://github.com/Xx-DragonSinns-xX)
 [EV_Jack](https://github.com/EvJack)
 [Eziyo](https://github.com/eziyoo)
 [f4tih-0z3r](https://github.com/f4tih-0z3r)
 [Fremad](https://github.com/Fremadico)
 [JEricaM](https://github.com/JEricaM)
+[Jognatan](https://github.com/Jognatan)
 [Johnruby](https://github.com/johnruby)
 [kj415j45](https://github.com/kj415j45)
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)
 [Kraken-Juice](https://github.com/Kraken-Juice)
+[masuda2022](https://github.com/masuda2022)
+[Mazoom](https://github.com/mazoom81)
 [Misaki](https://github.com/Misaki290)
 [Murfex](https://github.com/Murfex)
 [legiorange](https://github.com/legiorange)
 [FallOfComet](https://github.com/FallOfComet)
 MontyPython
+moxie__
 [MrNandang](https://github.com/mrnandang)
 [nopeholmes](https://github.com/nopeholmes)
 [PedroCisnerosSantana](https://github.com/PedroCisnerosSantana)
 [PsyB34R](https://www.instagram.com/psybearr)
 [QuiteABitofAll](https://github.com/QuiteaBitofAll)
 roucoupute2
+Rilla
 Rinelle
 [ruliou](https://github.com/ruliou)
 Ryugarret
@@ -80,13 +90,22 @@ Wanna
 [Makasin22](https://github.com/Makasin22)
 [ZHAama](https://github.com/ZHAama)
 [Alysson](https://github.com/alyssonmonteiro)
-[Jeremy2801](https://github.com/Jeremy2801) 
+[Jeremy2801](https://github.com/Jeremy2801)
+[Manz](https://github.com/manztellen)
 [shangho](https://github.com/5h4ngho) 
 [Voth](https://github.com/Vothcito) 
 [WhiteKr](https://github.com/WhiteKr) 
 [Chino](https://github.com/Chino-wid) 
 [UGA_UGA](https://github.com/mdendena2000)
 [Mancipi](https://github.com/Mancipi)
+[sugar-choco](https://github.com/sugar-choco)
+[fusiondesu](https://github.com/fusion-desu)
+[McKnight](https://github.com/ReILIaX)
+[B3llial](https://github.com/B3lli4l)
+[HKCisONLINE](https://github.com/hkcisonline)
+[SunRisek](https://github.com/szymonagk)
+[Fataliste](https://github.com/Nasaelo)
+[Karont20](https://github.com/KarontDev)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
@@ -98,6 +117,8 @@ Wanna
 [Kimi Leta](https://github.com/kimileta)
 [Yahishiro](https://github.com/Yahishiro)
 [Prodam](https://github.com/Pr0dam)
+[B3llial](https://github.com/B3lli4l)
+Kalinka
 
 ## Lore
 [Ayanna](https://github.com/JustACloud)
@@ -109,6 +130,7 @@ Exca
 [Grrimnir](https://github.com/kevinguyer)
 JashinL
 [Johnruby](https://github.com/johnruby)
+[Leviaiz](https://github.com/rewlf2)
 [MagicCookie](https://github.com/GooseGooseStop)
 MontyPython
 [PsyB34R](https://www.instagram.com/psybearr)
@@ -126,6 +148,8 @@ WoLoLoiK
 LieRenThePope 
 Experiencedkk7t 
 [DOUNODEWAE](https://github.com/js147896325) 
+[zolir](https://github.com/ZolirAsure)
+Kalinka
 
 ## Dungeons
 Alecto
@@ -138,11 +162,14 @@ Brownin89
 Dragonmaster84
 ElectricSoldier323
 [Hally](https://twitter.com/g_hally1996)
+Hardboiled_Cat
 HeyaItsLuna
 JashinL
 [JEricaM](https://github.com/JEricaM)
+Killzonegx
 krolik
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)
+[Leviaiz](https://github.com/rewlf2)
 LitFill
 [MagicCookie](https://github.com/GooseGooseStop)
 mika
@@ -158,6 +185,7 @@ romain22222
 RookieBob
 SitiSchu
 SKIFFI
+[skullbuns](https://github.com/Skullbuns)
 [Tripplehelix](https://github.com/tripplehelix)
 Vega_Efsunborn
 [Veyrin](https://github.com/darkrevelations)
@@ -173,6 +201,7 @@ zomg
 [Wootles](https://github.com/Wootles)
 [K4LM3D](https://github.com/mksalada)
 [NTHiG](https://github.com/NTHGiT)
+[Jefreesujit](https://github.com/Jefreesujit)
 
 ## Tutorial
 [alfaice](https://github.com/alfaice)
@@ -181,6 +210,7 @@ zomg
 [DexterHuang](https://github.com/DexterHuang)
 Dzylx
 HBUNKNOWN
+[Lance0](https://github.com/Lance0-32)
 Livingdead
 [Misaki](https://github.com/Misaki290)
 [Omnipotent_God](https://github.com/Omnipotent-God)
@@ -190,9 +220,9 @@ Livingdead
 [Tripplehelix](https://github.com/tripplehelix)
 Vega_Efsunborn
 [Laani](https://github.com/Laani)
+[Manz](https://github.com/manztellen)
 
 ## Game resources (words)
-
 [apetro](https://github.com/apetro/)
 App2
 Aquacky
@@ -210,6 +240,7 @@ HumbleServant
 Kaktusmonas
 [Kimi Leta](https://github.com/kimileta)
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)
+[Leviaiz](https://github.com/rewlf2)
 [Luako](https://github.com/luako)
 [MagicCookie](https://github.com/GooseGooseStop)
 [Majeye](https://github.com/TeejayParker)
@@ -231,7 +262,8 @@ Satan
 [Veyrin](https://github.com/darkrevelations)
 [Sakura](https://github.com/lux-sakura)
 [Yahishiro](https://github.com/Yahishiro)
-[Prodam]
+Punxi8__
+[Prodam](https://github.com/Pr0dam)
 
 ## Tips
 [Archibaald](https://github.com/Archibaald-dev)
@@ -242,9 +274,11 @@ Crescent_Grey
 [DexterHuang](https://github.com/DexterHuang)
 Exca
 [Hally](https://twitter.com/g_hally1996)
+[Jognatan](https://github.com/Jognatan)
 [Kimi Leta](https://github.com/kimileta)
 KingRiver
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)
+[Lance0](https://github.com/Lance0-32)
 [MagicCookie](https://github.com/GooseGooseStop)
 [RaykouTJ](https://github.com/HoneySyrup)
 [levi-middleton](https://github.com/levi-middleton)
@@ -262,10 +296,13 @@ spyd3r
 [Tripplehelix](https://github.com/tripplehelix)
 [K4LM3D](https://github.com/mksalada)
 [Wootles](https://github.com/Wootles)
+[Manz](https://github.com/manztellen)
+[Jefreesujit](https://github.com/Jefreesujit)
 
 ## Security Bug Reporters
 [0xF61](https://github.com/0xF61)
 Enkidu99
+[LianSheng](https://github.com/LianSheng197)
 [Lighty](https://github.com/Lightyin4k)
 [MagicCookie](https://github.com/GooseGooseStop)
 [Spellchaser](https://github.com/Spellchaser)

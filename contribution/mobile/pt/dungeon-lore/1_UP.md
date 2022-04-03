@@ -1,0 +1,5 @@
+>Passando por uma porta enferrujada, um pedaço de vegetação mofada agarra sua curiosidade natural. Em pouco tempo, você está ajoelhado ao lado dele como se suas pernas tivessem se movido por conta própria.
+  
+>Um punhado de cogumelos secos. Muito seco, para ser específico. O topo desses cogumelos é coberto de verde com pontos brancos. Pelo menos, era verde e branco. Agora está mais cinza e o branco nem é perceptível. Você dá uma olhada mais de perto. Você cheira. Não cheira a nada. Você aperta mais os olhos. Isso é um rosto? Não, você se assegura. Você está cansado de matar uma sala cheia de monstros. Você está muito tentado a engolir tudo isso. Você balança a cabeça. Em outra vida, talvez.
+  
+>Você coloca o punhado de cogumelos de volta no chão, mais ou menos. Você os coloca em um canto escuro, caso mude de ideia sobre comê-los.

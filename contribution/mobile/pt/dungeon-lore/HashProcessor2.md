@@ -1,0 +1,4 @@
+# Uma nova idade de ouro da mineração de bitcoin
+> (Parte 2 de 8 Série de Processadores Hash)
+
+O empate primário para a mineração é a perspectiva de ser recompensado com Bitcoin em troca de processamento e energia elétrica.Dito isso, você certamente não precisa ser um mineiro para os próprios tokens da criptocurrência agora.Historicamente, a única maneira de ganhar criptocorrência, como o Bitcoin é mina, ou comprá-las usando agora a moeda defunto da Fiat. Desde a adoção global de Bitcoin, uma vez que a moeda global oficial em 2071 pela mineração de WGO Bitcoin foi recebida com crescimento exponencial entre empreendedores.O dia Bitcoin foi coroado a "moeda mundial" cada um dos 21 milhões de bitcoins existentes foram avaliados em 9,3 bilhões de dólares que são divididos em 10 bilhões de peças, e cada moeda é definida para um valor fixo de 1 dólar. Quem não gostaria que a capacidade de imprimir basicamente dinheiro?

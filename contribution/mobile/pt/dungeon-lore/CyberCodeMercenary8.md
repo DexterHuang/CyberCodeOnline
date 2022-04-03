@@ -1,0 +1,8 @@
+# As barras cibernéticas ao redor do mundo
+> (parte 8 de 12 do Código Cyber Mercenary Series)
+
+Os mercenários do Cyber Code, como o nome deles implica, são um grupo mercenário;Eles farão o trabalho contanto que seja pago.Jobs entregues pela Organização do Governo Mundial (WGO) ainda são prioritários e devem ser priorizados sobre qualquer um dos seus trabalhos atuais.Mesmo com quantas vezes os novos grupos de resistência surgem, os mercenários do código cibernético com mais frequência do que não estão apenas em espera, esperando o próximo trabalho urgente do WGO.
+
+Um membro de alta classificação Codenamed Pikkon85 tinha uma idéia para construir estabelecimentos chamados bares cibernéticos que duplicam como um lugar para os mercenários de código cibernético quando não estão em uma missão, e também como um prédio de escritórios que está disponível para o público paraPostar solicitações para a ajuda dos mercenários.Os trabalhos publicados por civis alcançam amplamente - de pedir ajuda ou mover itens pesados, para buscar guarda-costas contratadas, relatórios de atividades criminosas.Empregos envolvendo atividades criminosas não requerem pagamento como são pagos pelo WGO.
+
+As barras cibernéticas também são conhecidas como um lugar para os civis terem ótimas bebidas servidas por uma AI especializada chamada Super Álcool Mistologista Especialista Komrade, ou apenas SAMEK ou Komrade como diminutivo. O SAMEK AI é capaz de misturar qualquer bebida que exista no mundo e também prever o que a bebida um cliente iria aproveitar mais.Assim que uma nova bebida for inventada, SAMEK instantaneamente é atualizado com a receita.

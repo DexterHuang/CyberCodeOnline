@@ -1,0 +1,5 @@
+![Metro Photos](/resources/lore/metrophotofull.png)
+
+Quão estranho ... é uma série de fotos instantâneas, cada uma retratando o mapa de metrô Shangri-La postou em diferentes estações próximas.Você se pergunta se eles são parte de um projeto de arte ou simplesmente a documentação da obsessão de trânsito de fanatic.Talvez os instantâneos fossem tirados pelo designer do mapa, satisfeito com o seu trabalho?Ou talvez as fotografias fossem _intended_ para serem deixadas aqui, como algum tipo de sinal para uma festa desconhecida?
+
+Independentemente disso, parece estranhamente invasivo para embolsar as fotos, então você os deixa exatamente onde estão.Você está contente em passar um tempo que evoca as razões pelas quais as fotos podem ter sido tiradas em primeiro lugar e como e por que eles acabaram aqui.Às vezes a vida precisa de pequenos mistérios.

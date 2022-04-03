@@ -5,10 +5,10 @@ Every item has it's own purposes, ranging from ranging from **Equipment** (which
 ## Ammo (for weapons)
 
 ### Energy Cells  
-Your **Special Weapon** uses **Energy Cells**. You can find Energy Cells as drops after winning fights or by crafting them using Ammunition Tech Parts. You can carry a maximum of 5000 Energy Cells at a time.
+Your **Special Weapon** uses **Energy Cells**. You can find Energy Cells as drops after winning fights or by crafting them using Ammunition Tech Parts. You can carry a maximum of 10000 Energy Cells at a time.
 
 ### Anti Matter Charge 
-Your **Destructive Weapon** uses **Anti Matter Charge**. You can find them as drops (less often than Energy Cells) or by crafting them from Military Ammunition Tech Parts. You can carry a maximum of 5000 Antimatter Charges at a time.
+Your **Destructive Weapon** uses **Anti Matter Charge**. You can find them as drops (less often than Energy Cells) or by crafting them from Military Ammunition Tech Parts. You can carry a maximum of 10000 Antimatter Charges at a time.
 
 
 ## Equipment
@@ -21,7 +21,7 @@ You can choose when to equip a gear by choosing the **Equip** button. Equipped g
 You can get both Gear and Upgrade Module as a boss / crate drops in Dungeon, via printing in **Molecular 3D Printer**, as a **Daily Rewards**, or by buying one on either NPC Market (**Weapon Smith**) or Players Market (**Shangri-La Market Street**).  
 
 ### Equipment Caches
-On your Inventory, all **Equipment Caches** were grouped based on their rarity and types of caches. You can stock as many caches as you want with a maximum of 5000 items per type of cache.
+On your Inventory, all **Equipment Caches** were grouped based on their rarity and types of caches. You can stock as many caches as you want with a maximum of 10000 items per type of cache.
 
 In order to use (or which we'll refer to as "Print" later on) one, a player must visit **Molecular 3D Printer** which can be found in **Shangri-La City Center**. Not only that, a player must have their BTC on its character in order to print one. The price of printing equipment caches was ranged based on both rarity and Printing Skills level.
 

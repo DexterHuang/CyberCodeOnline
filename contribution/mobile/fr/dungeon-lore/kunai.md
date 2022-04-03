@@ -1,0 +1,5 @@
+> En faisant une entrée abrupte, vous avez remarqué un tas de métal aux formes étranges. Essayant de vous distraire des 5 monstres que vous venez de tuer, vous vous approchez pour le regarder de plus près.
+  
+> Une pile de ce qui semble être des armes de jet. Vous vous souvenez d'un ancien fichier électronique du Librarium. Il semble y avoir deux types différents ici. Un "kunai", ou couteau à lancer, et un "shuriken", une étoile à lancer. Vous regardez de plus près ces reliques. Vous vous demandez si quelqu'un a essayé de les utiliser comme de véritables armes, mais a finalement chuté. Rouillé dans une certaine mesure, mais toujours affûté de manière à ce que vous puissiez vous couper vous-même, vous ne faites pas trop attention en les manipulant. Vous en jetez un contre le mur en mauvais état. Il vacille à peine vers le mur avant de faire un bruit fort de « clunk » et tombe au sol.
+
+> Vous mettez le reste des armes de jet dans une pile soignée, afin que la personne suivante puisse inspecter ces pièces historiques sans se blesser.
