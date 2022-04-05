@@ -26,6 +26,10 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  
 
 ## Updates        
+### 2022/04/05 v0.780
+- FIX - Potential fix for rare case of non-last-hitter not getting exp
+- UPDATE - Level cap raised to 500
+
 ### 2022/04/02 v0.780
 - FIX - Security bug fixes
 
