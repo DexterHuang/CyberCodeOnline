@@ -27,6 +27,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates        
 ### 2022/04/07 v0.780
+- UI - Updated the SL Data fortress breach user name to `[REDUCTED]` instead of a hardcoded `Xh81d` to avoid confusion
 - UPDATE - Now healing tile is usable even when there are enemies around
 
 ### 2022/04/05 v0.780
