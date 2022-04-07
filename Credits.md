@@ -149,6 +149,7 @@ Experiencedkk7t
 [DOUNODEWAE](https://github.com/js147896325) 
 [zolir](https://github.com/ZolirAsure)
 Kalinka
+[Rexyislive](https://github.com/Rexyislive)
 
 ## Dungeons
 Alecto
