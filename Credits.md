@@ -201,6 +201,7 @@ zomg
 [K4LM3D](https://github.com/mksalada)
 [NTHiG](https://github.com/NTHGiT)
 [Jefreesujit](https://github.com/Jefreesujit)
+B3n7y
 
 ## Tutorial
 [alfaice](https://github.com/alfaice)
@@ -264,6 +265,7 @@ Satan
 [Yahishiro](https://github.com/Yahishiro)
 Punxi8__
 [Prodam](https://github.com/Pr0dam)
+B3n7y
 
 ## Tips
 [Archibaald](https://github.com/Archibaald-dev)
