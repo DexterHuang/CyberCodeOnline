@@ -1,4 +1,5 @@
 >[Часть 6 из 8 серии BioFinance]
+
 *[В папке лежат некоторые внутренние заметки от местной компании.]*
 
 ![IntelliCo](/resources/lore/intellico1.png)
