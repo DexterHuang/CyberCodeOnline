@@ -27,7 +27,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates                
 ### 2022/04/09 v0.780
-- NEW - Added `AI Core Cluster` equivalent of 1000 AI Cores, can be crafted with 1000 AI Cores + 50,000 BTC (equivalent of price for 5 AI) and craft back to 1000 AI Cores
+- NEW - Added `AI Core Cluster` equivalent of 1000 AI Cores, can be crafted with 1000 AI Cores + 50,000 BTC (equivalent of price for 5 AI) and craft back to 1000 AI Cores, Currently is not used in game except for serving the purpose of "Compressed AI Cores"
 
 ### 2022/04/07 v0.780
 - UI - Updated the SL Data fortress breach user name to `[REDUCTED]` instead of a hardcoded `Xh81d` to avoid confusion
