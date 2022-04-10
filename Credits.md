@@ -59,7 +59,6 @@ Proxxie
 [legiorange](https://github.com/legiorange)
 [FallOfComet](https://github.com/FallOfComet)
 MontyPython
-moxie__
 [MrNandang](https://github.com/mrnandang)
 [nopeholmes](https://github.com/nopeholmes)
 [PedroCisnerosSantana](https://github.com/PedroCisnerosSantana)
@@ -106,6 +105,7 @@ Wanna
 [SunRisek](https://github.com/szymonagk)
 [Fataliste](https://github.com/Nasaelo)
 [Karont20](https://github.com/KarontDev)
+[Paugwvsk](https://github.com/Paugwvsk)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
@@ -202,6 +202,7 @@ zomg
 [K4LM3D](https://github.com/mksalada)
 [NTHiG](https://github.com/NTHGiT)
 [Jefreesujit](https://github.com/Jefreesujit)
+B3n7y
 
 ## Tutorial
 [alfaice](https://github.com/alfaice)
@@ -250,6 +251,7 @@ Kaktusmonas
 [Montero](https://github.com/CCOLucille2)
 [mxjoda](https://twitter.com/mxjoda)
 MontyPython
+moxie__
 [nopeholmes](https://github.com/nopeholmes)
 Poetics
 PoopBalloon
@@ -264,6 +266,7 @@ Satan
 [Yahishiro](https://github.com/Yahishiro)
 Punxi8__
 [Prodam](https://github.com/Pr0dam)
+B3n7y
 
 ## Tips
 [Archibaald](https://github.com/Archibaald-dev)
