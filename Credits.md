@@ -105,7 +105,7 @@ Wanna
 [SunRisek](https://github.com/szymonagk)
 [Fataliste](https://github.com/Nasaelo)
 [Karont20](https://github.com/KarontDev)
-[Paugwvsk](https://github.com/Paugwvsk)
+[Valkyria](https://github.com/Paugwvsk)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
@@ -150,6 +150,7 @@ Experiencedkk7t
 [DOUNODEWAE](https://github.com/js147896325) 
 [zolir](https://github.com/ZolirAsure)
 Kalinka
+Xenacious69
 
 ## Dungeons
 Alecto
