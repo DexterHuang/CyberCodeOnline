@@ -28,7 +28,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ## Updates                
 ### 2022/04/16 v0.780
 - NEW - Trinoky Mart now sells AI Core at 10,000 (same as the highest price in market, to ensure that buying in market will always be better then buying from NPC) and not affected by Bargain stat. 
-This change is needed due to the newly added `AI Core Cluster` allowing players to store large amount of AI core, making it possible for AIs in market to be brought out. this should resolve issue of no where to buy AI resulting in price being artificially hiked up. *this is still in experimental stage, and subject to change*
+This change is needed due to the newly added `AI Core Cluster` allowing players to store large amount of AI core, making it possible for AIs in market to be brought out. this should resolve issue of no where to buy AI resulting in price being artificially hiked up. **this is still in experimental stage, and subject to change**
 
 ### 2022/04/09 v0.780
 - NEW - Added `AI Core Cluster` equivalent of 1000 AI Cores, can be crafted with 1000 AI Cores + 50,000 BTC (equivalent of price for 5 AI) and craft back to 1000 AI Cores, Currently is not used in game except for serving the purpose of "Compressed AI Cores"
