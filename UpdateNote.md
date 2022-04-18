@@ -29,6 +29,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ### 2022/04/18 v0.780
 - NEW - Added `Black Market` for Automatic Print & Sell your extra caches, located at `Commercial Area`. You may print & sell your cache in bulk (max 1000) to earn quick btc, the amount of btc scales with your `Molecular Print level`, the higher it is the better profit you will make. the earning will be affact by both `Bargain` stat and BTC multification buff.
 - BALANCE - adjusted trash, common and HQ selling price and printing cost.   
+- NOTICE - It would seem the game has been banned in Russia by the Russian Goverment (Likely due to Anti-war and donnation link for people of Ukraine), added a notice on login page for all Ru language players that they can player with VPN
 
 ### 2022/04/16 v0.780
 - NEW - Trinoky Mart now sells AI Core at 10,000 (same as the highest price in market, to ensure that buying in market will always be better then buying from NPC) and not affected by Bargain stat. 
