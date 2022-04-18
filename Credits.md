@@ -106,6 +106,7 @@ Wanna
 [Fataliste](https://github.com/Nasaelo)
 [Karont20](https://github.com/KarontDev)
 [Valkyria](https://github.com/Paugwvsk)
+[BazzJazz](https://github.com/BassJazz)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
@@ -181,6 +182,7 @@ Negative
 Nyoon
 PoopBalloon
 Punxi8__
+Rejid
 RezaRnew100
 romain22222
 RookieBob
