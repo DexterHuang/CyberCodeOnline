@@ -27,6 +27,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates    
 ### 2022/04/19 v0.780
+- NEW - Added ice cream emblem
 - BUFF - `Black Market` profilt has been increased, high level player with transaction and bargain should be able to get 1,000,000 btc wiht using `Black Market` once (5 times more then doing 1 mining session at max level).
 - BUFF - Increased scale of higher rarity item sold at `Black Market`, for example `Legendary` has higher price then `Trash` items.
 - BUFF - Minor re-write on source code to ensure AFK players who only want to AFK can be self-sufficient, meaning they are not forced to play dungeon. instead only rely AFK tasks such as `BTC Mining`, `AI Core Bot Farm`, `Recycler` or `Scavange`. This is very behind the scene algorithm rewrite, mainly only to ensure AFK players have the choice to only do AFK tasks 
