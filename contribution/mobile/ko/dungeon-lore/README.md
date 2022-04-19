@@ -26,7 +26,7 @@
 
 # CCO Lore Wiki 사용
 
--   https://cyberwi.red/wiki에서 CCO Lore Wiki를 확인하십시오!
+-   https://cyberwi.red/wiki 에서 CCO Lore Wiki를 확인하십시오!
 -   위키를 참조하여 노트에 추가할 아이디어를 생각해 낼 수 있습니다.
 -   **노트를 제출하기 전에 Lore Wiki를 확인** 하면 언급한 날짜나 이벤트가 타임라인에서 의미가 있는지 확인하는 데 도움이 됩니다.
 -   위키에 자유롭게 추가하여 게임 세계를 구체화할 수도 있습니다. 예를 들어:
