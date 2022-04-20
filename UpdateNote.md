@@ -26,6 +26,9 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  
 
 ## Updates    
+### 2022/04/20 v0.780
+- UI - Now locked item cannot be used in black market
+
 ### 2022/04/19 v0.780
 - NEW - Added ice cream emblem
 - BUFF - `Black Market` profilt has been increased, high level player with transaction and bargain should be able to get 1,000,000 btc wiht using `Black Market` once (5 times more then doing 1 mining session at max level).
