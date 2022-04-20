@@ -1,8 +1,8 @@
-## Creating an Account
+## Erstellen eines Zugangs
 
-Currently you can use Google, Apple or any email accounts to register.
-You will than be taken to a screen where you will choose your username. Make sure to choose wisely as this is permanent and can't be changed.
+Aktuell kannst du Google, Apple oder jede andere eMail-Adresse zur Registrierung nutzen.
+Du wirst dann zu einer Seite geleitet, wo du deinen Benutzernamen wählen kannst. Wähle weise, denn der Name kann im nachhinein nicht geändert werden.
 
-## Logging in
+## Anmelden
 
-If you already have an account, fill in the respective blanks with your email/password to sign in or by clicking on the Google/Apple sign in buttons.
+Wenn du bereits einen Zugang hast, kannst du du dich anmelden indem du die entsprechenden Felder mit deiner eMail-Adresse und Passwort ausfüllst oder auf Google oder Apple Knöpfe klickst.

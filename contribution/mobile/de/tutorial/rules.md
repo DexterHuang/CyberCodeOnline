@@ -1,43 +1,43 @@
 
 
-#### Here at CCO, we hope to maintain a friendly community. In order for everyone to have fun and enjoy the game, please familiarise yourself with the rules. 
+#### Hier bei CCO, hoffen wir eine freundliche Gemeinschaft zu pflegen. Damit jeder das Spiel genießen kann und Spaß damit hat, bitten wir dich, dich mit folgenden Regeln vertraut zu machen.
 
-> If you feel someone is violating one of the rules and no moderators are around, take a screenshot and report it via direct messaging the moderators in the [Discord server](https://discord.gg/JREx8xz).
-### Important Guideline
-* It is strongly recommended to play with only one account per person, as our system will flag alt accounts, preventing you from sending items between your accounts. *this can happen even if you only have one alt* (We will not help you move your items or unlock the account if the system flags you.)
-* Never ever use in-game chat (including email) to send any kind of sensitive/personal information. Game chat is NOT encrypted and NOT secure. CCO does not bear any responsibility to protect your information you write in chat. Bear in mind that moderators have access to the chat log for moderation purposes. 
+> Wenn du das Gefühl hast, dass jemand die Regeln bricht und kein Moderator da ist, mache einen Screenshot und melde es direkt durch anschreiben der Moderatoren auf dem [Discord server](https://discord.gg/JREx8xz).
+### Wichtige Richtlinien
+* Es wird dringend empfohlen nur mit einem Benutzerkonto pro Person zu spielen, da unser System Zweitkonten markieren wird, um zu verhindern, dass zwischen den Konten Gegenstände getauscht werden. *Dies kann auch passieren wenn du nur ein weiteres Konto hast* (Wir werden nicht helfen deine Gegenstände zu verschieben oder Konten wieder freischalten, wenn das System sie markiert hat.)
+* Nutze niemals den Chat im Spiel (eMail eingeschlossen) um persönliche oder sensible Daten zu verschicken. Der Chat im Spiel ist NICHT verschlüsselt und NICHT sicher! CCO trägt keine Verantwortung deine Daten, die du im Chat schreibst, zu schützen. Beachte, dass die Moderatoren auf das Chatlog Zugriff haben um ihrer Aufgabe nachzukommen.
 
-### Game Rules
-* The use of bots and scripts are prohibited.
-* No tool assistance.
-* No excessive alts (**Unless you provide a reason to justify the necessity of creating an alt, it is deemed unnecessary, therefore excessive**) 
-    * Example of valid reason:
-      * You forgot the password of your main, and got locked out of account
-      * Your main account has been bugged and becomes unplayable
-    * Example of "cheating is not a valid reason":  
-      * I want to create alts so I can trade faster then normal players
-      * I want to create alts to store unlimited amount of items
-      * I want to create alts so I can AFK with unlimited parallel tasks
-      * I want to create alts so I can scam people with new names
-* Don't exploit bugs, report them instead.
-* Keep usernames family friendly.
-* Advertising (global chat/discord/bio/gang motto) of Selling/Buying account/items for IRL money (both directly or indirectly) is not allowed.
-* Tagging people for fun or with no real purpose is not allowed. This is to prevent people from creating accounts just so they can tag them (doing so will also breach the "No excessive alts" rule).
-* Any illegal activities will get you instantly banned -- including but not limited to -- harrassing underage person you met in game.
+### Spielregeln
+* Das nutzen von Bots oder Skripten ist untersagt.
+* Keine sonstigen Hilfsmittel.
+* Keine übertriebenen Zweitkonten (**Solang du keinen Grund hast, um das erstellen eines Zweitkontos rechtzufertigen, ist es unnötig und dadurch übertrieben.**) 
+    * Beispiele valider Gründe:
+      * Du hast das Passwort deines Hauptkontos vergessen und wurdest davon ausgesperrt
+      * Dein Hauptkonto hat einen Fehler (Bug) und ist unspielbar geworden
+    * Beispiele von "cheaten ist kein valider Grund":  
+      * Ich möchte ein weiteres Konto erstellen, sodass ich schneller handeln kann als normale Spieler
+      * Ich möchte ein weiteres Konto erstellen, um unendlich viele Gegenstände zu sichern
+      * Ich möchte ein weiteres Konto erstellen, damit ich AFK nutzen kann mit unendlichen Aufgaben parallel
+      * Ich möchte ein weiteres Konto erstellen, damit ich Spieler mit neuen Namen betrügen kann
+* Nutze keine Fehler (Bugs) aus, melde sie stattdessen.
+* Nutze familienfreundliche Nutzernamen.
+* Werbung (globaler chat/discord/bio/gang motto) von Verkaufen/Kaufen von Konten/Gegenständen für Echtgeld (direkt oder indirekt) ist nicht erlaubt.
+* Personen aus Spaß zu erwähen (Tag) ohne Grund ist nicht erlaubt. Das soll verhindern, dass Personen Konten erstellen nur um andere zu erwähnen (dies zu machen, verstößt gegen die "Keine übertriebenen Zweitkonten" Regel).
+* Jegliche illegalen Aktivitäten führen zu einem direkten Bann -- einschließlich aber nicht limiert auf -- Belästigung Minderjähriger Personen die du im Spiel getroffen hast.
 
-### Chat Rules
-**All rules are listed here, there are NO "unwritten rules", but be respectful and stop if other players don't like what you are sending in chat**
-#### Not Allowed: 
-* unfriendly, disrespectful to others opinion / offensive or passive agressive messages (Expample, racist, sexist comments)
-* non-family-friendly chat
-* Spamming / Trolling 
-* Advertising / Mentioning other games or anything else
-* Impersonating others  
-* Placing links in chat
-* Posting ads about your market sales more then once in 15 minutes
+### Chat Regeln
+**Alle Regeln sind hier aufgelistet. Es gibt keine "ungeschriebenen Regeln", aber sei respektvoll und höre auf, wenn andere Spieler, dass was du im Chat schreibst, nicht mögen.**
+#### Nicht erlaubt: 
+* unfreundlich, respektlos gegenüber anderer Meinung / offensive oder passiv aggressive Nachrichten (Beispiel: rassistisch, sexistische Kommentare)
+* Nicht familienfreundlicher Chat
+* Spammen / Trollen
+* Werbung / Erwähnen anderer Spiele oder alles andere
+* Sich als andere Person ausgeben
+* Links im Chat
+* Werbung zu den Markteinträgen mehr als einmal alle 15 Minuten
 
-#### Allowed(as long as you don't breach the rules above):
-* Emojis😃 / Kaomoji ~ヾ(＾∇＾) / 𝕹𝖔𝖓𝖊-𝖘𝖙𝖆𝖓𝖉𝖆𝖗𝖉 𝕱𝖔𝖓𝖙𝖘 (Must be easily readable and doesn't create chaos)
-* Roleplay / Roleplaying
-* Discussing Politics, Religions, or COVID-19 (and any major events)
-* Using any language in any chat channel.
+#### Erlaubt (solang keine der obigen Regeln gebrochen wird):
+* Emojis😃 / Kaomoji ~ヾ(＾∇＾) / 𝕹𝖔𝖓𝖊-𝖘𝖙𝖆𝖓𝖉𝖆𝖗𝖉 𝕱𝖔𝖓𝖙𝖘 (Muss einfach lesbar sein und darf kein chaos anrichten)
+* Rollenspiel
+* Diskutieren über Politik, Religion, oder COVID-19 (und andere große Ereignisse)
+* Verwenden einer beliegen Sprache in einem beliebigen Chatkanal
