@@ -22,6 +22,12 @@
  	 	}
  	},
  	"ui": {
+ 	 	"blackMarket": {
+ 	 	 	"selectItemButton": {
+ 	 	 	 	"trans": "In và bán",
+ 	 	 	 	"eng": "Print And Sell"
+ 	 	 	}
+ 	 	},
  	 	"clan": {
  	 	 	"selectDepositAmount": {
  	 	 	 	"title": {
@@ -342,6 +348,21 @@
  	 	 	 	"eng": "noti."
  	 	 	}
  	 	},
+ 	 	"chatBanner": {
+ 	 	 	"refreshBuff": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"name"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${name} sắp hết trong vài giây!",
+ 	 	 	 	 	"eng": "${name} is about to run out in a few seconds!"
+ 	 	 	 	},
+ 	 	 	 	"refresh": {
+ 	 	 	 	 	"trans": "Làm mới ngay bây giờ",
+ 	 	 	 	 	"eng": "Refresh Now"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
  	 	"chatPreview": {
  	 	 	"notConnected": {
  	 	 	 	"trans": "Hệ thống trò chuyện không được kết nối",
@@ -386,6 +407,10 @@
  	 	 	"lowPrintLevelTip2": {
  	 	 	 	"trans": "Tăng thứ hạng in của bạn để tạo ra vũ khí mạnh hơn bằng cách in thêm bộ nhớ cache",
  	 	 	 	"eng": "Increase your Printing Rank to create more powerful weapons by printing more caches"
+ 	 	 	},
+ 	 	 	"lowPrintLevelTip3": {
+ 	 	 	 	"trans": "Hoặc bằng cách in tự động và bán bộ nhớ cache của bạn trong thị trường chợ đen",
+ 	 	 	 	"eng": "Or by auto print and selling your caches in the Black Market"
  	 	 	},
  	 	 	"quickSlots": {
  	 	 	 	"trans": "Slots nhanh chóng",
@@ -663,35 +688,6 @@
  	 	 	"longPressBackToCity": {
  	 	 	 	"trans": "Nhấn giữ để trở lại thành phố",
  	 	 	 	"eng": "Long press to go back to city"
- 	 	 	}
- 	 	},
- 	 	"machineCrafting": {
- 	 	 	"titleBox": {
- 	 	 	 	"tile": {
- 	 	 	 	 	"trans": "đang chờ...",
- 	 	 	 	 	"eng": "system idle"
- 	 	 	 	},
- 	 	 	 	"subtitle": {
- 	 	 	 	 	"trans": "Vui lòng thêm vật phẩm",
- 	 	 	 	 	"eng": "Please inset an item"
- 	 	 	 	}
- 	 	 	},
- 	 	 	"selectItemButton": {
- 	 	 	 	"trans": "Tái Chế Vật Phẩm",
- 	 	 	 	"eng": "Recycle Item"
- 	 	 	},
- 	 	 	"selectAmount": {
- 	 	 	 	"title": {
- 	 	 	 	 	"trans": "Vui lòng chọn số tiền",
- 	 	 	 	 	"eng": "Please select amount"
- 	 	 	 	},
- 	 	 	 	"subtitle": {
- 	 	 	 	 	"vars": [
- 	 	 	 	 	 	"timeStr"
- 	 	 	 	 	],
- 	 	 	 	 	"trans": "Thời gian hoàn thành: ${timeStr}",
- 	 	 	 	 	"eng": "This will take ${timeStr}"
- 	 	 	 	}
  	 	 	}
  	 	},
  	 	"notificationCenter": {
@@ -1019,6 +1015,71 @@
  	 	 	}
  	 	},
  	 	"quest": {
+ 	 	 	"dynamicTutorial": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Hướng dẫn",
+ 	 	 	 	 	"eng": "Tutorials"
+ 	 	 	 	},
+ 	 	 	 	"printingTooLow": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Cải thiện thứ hạng in",
+ 	 	 	 	 	 	"eng": "Improve Printing Rank"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "Xếp hạng in xác định mức độ của mặt hàng bạn in. Gain Print EXP bằng cách in và bán trên thị trường Đen",
+ 	 	 	 	 	 	"eng": "Printing Rank determines the level of item you print. Gain printing exp by print & sell in Black Market"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"gearTooWeak": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Nhận thiết bị thậm chí tốt hơn!",
+ 	 	 	 	 	 	"eng": "Get even better equipments!"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "Thiết bị hiện tại của bạn dường như Abit lỗi thời cho cấp độ của bạn, hãy thử in những người mạnh hơn để thay thế chúng",
+ 	 	 	 	 	 	"eng": "Your current equipment seems abit outdated for your level, try printing stronger ones to replace them"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"noUpgrade": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Nâng cấp thiết bị của bạn!",
+ 	 	 	 	 	 	"eng": "Upgrade your equipment!"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	 	],
+ 	 	 	 	 	 	"trans": "Bạn có thể nâng cấp thiết bị của mình bằng cách sử dụng ${itemName}",
+ 	 	 	 	 	 	"eng": "You can upgrade your equipment by using the ${itemName}"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"aiCore": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Sử dụng AI Core",
+ 	 	 	 	 	 	"eng": "Use AI Core"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "Có vẻ như bạn có một số lõi AI, sử dụng chúng để thực hiện việc tự động AFK ở vùng trình độ thích hợp.",
+ 	 	 	 	 	 	"eng": "Looks like you have some AI Cores, use them to do AFK auto leveling in appropriate level area."
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"noAiCore": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Có được AI lõi",
+ 	 	 	 	 	 	"eng": "Acquire AI Cores"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "Bạn có thể nhận được lõi AI bởi: \n         - nhặt rác ở nhiều địa điểm khác nhau \n         - Chế tạo với bộ xử lý băm và phế liệu công nghệ \n         - Looting từ kẻ thù ở tất cả các địa điểm",
+ 	 	 	 	 	 	"eng": "You may get AI Cores by: \n        - Scavenge in various locations\n        - Crafting with Hash Processors and Tech Scraps\n        - Looting from enemies in all locations"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"common": {
+ 	 	 	 	 	"clickToOpen": {
+ 	 	 	 	 	 	"trans": "Nhấn vào đây để mở",
+ 	 	 	 	 	 	"eng": "click to open"
+ 	 	 	 	 	}
+ 	 	 	 	}
+ 	 	 	},
  	 	 	"globalQuest": {
  	 	 	 	"progressTitle": {
  	 	 	 	 	"trans": "Tấn công Pháo đài Shangri-La Data",
@@ -1075,6 +1136,28 @@
  	 	 	 	"trans": "Tài khoản của bạn đã bị hệ thống bị đình chỉ tự động bởi hệ thống do hoạt động đáng ngờ",
  	 	 	 	"eng": "Your account has been suspended automatically by the system due to Unusual Activity"
  	 	 	},
+ 	 	 	"possibleReasons": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "Điều này có thể được gây ra bởi:",
+ 	 	 	 	 	"eng": "This could be caused by:"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "1. Bạn đã tạo nhiều tài khoản để đạt được lợi thế không công bằng",
+ 	 	 	 	 	"eng": "1. You created multiple accounts to gain unfair advantage"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "2. Bạn đã sử dụng một số loại phần mềm tự động để có được lợi thế không công bằng, chẳng hạn như AutoClicker, bot, v.v.",
+ 	 	 	 	 	"eng": "2. You have used some kind of automated software to gain unfair advantage, such as autoclicker, bots, etc."
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "3. Hệ thống đã phát hiện hoạt động mạng bất thường",
+ 	 	 	 	 	"eng": "3. System has detected unusual network activity"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "4. Những lý do khác",
+ 	 	 	 	 	"eng": "4. Other reasons"
+ 	 	 	 	}
+ 	 	 	},
  	 	 	"content": {
  	 	 	 	"trans": "Nếu bạn có bất kỳ câu hỏi nào, vui lòng liên hệ trực tiếp với Dexter thông qua Discord chính thức (liên kết có thể được tìm thấy trong menu nổi -> liên kết) hoặc email đến ching.huang.dexter @ gmail",
  	 	 	 	"eng": "If you have any questions please feel free to contact Dexter directly via official Discord (Link can be found in Floating Menu -> Links) or email to ching.huang.dexter@gmail.com"
@@ -1100,6 +1183,35 @@
  	 	 	"title": {
  	 	 	 	"trans": "Hướng dẫn",
  	 	 	 	"eng": "Tutorial"
+ 	 	 	}
+ 	 	},
+ 	 	"machineCrafting": {
+ 	 	 	"titleBox": {
+ 	 	 	 	"tile": {
+ 	 	 	 	 	"trans": "đang chờ...",
+ 	 	 	 	 	"eng": "system idle"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"trans": "Vui lòng thêm vật phẩm",
+ 	 	 	 	 	"eng": "Please inset an item"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"selectItemButton": {
+ 	 	 	 	"trans": "Tái Chế Vật Phẩm",
+ 	 	 	 	"eng": "Recycle Item"
+ 	 	 	},
+ 	 	 	"selectAmount": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Vui lòng chọn số tiền",
+ 	 	 	 	 	"eng": "Please select amount"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"timeStr"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Thời gian hoàn thành: ${timeStr}",
+ 	 	 	 	 	"eng": "This will take ${timeStr}"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"setting": {
@@ -1253,6 +1365,23 @@
  	 	 	 	 	],
  	 	 	 	 	"trans": "Bỏ chặn ${playerName}",
  	 	 	 	 	"eng": "Unblock ${playerName}"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"machineCraft": {
+ 	 	 	"itemLocked": {
+ 	 	 	 	"trans": "Mục này bị khóa",
+ 	 	 	 	"eng": "This item is locked"
+ 	 	 	}
+ 	 	},
+ 	 	"calibration": {
+ 	 	 	"confirmation": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"percent"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Bạn có chắc chắn muốn hiệu chỉnh mục này với cơ hội thất bại hủy diệt ${percent}%?",
+ 	 	 	 	 	"eng": "Are you sure you want to calibrate this item with ${percent}% destructive failure chance?"
  	 	 	 	}
  	 	 	}
  	 	},
@@ -3098,6 +3227,16 @@
  	 	 	 	"eng": "Commercially used Neural Processing Unit (NPU). Comes with general purpose AI. \r\n        You can use this to deploy a farming bot to dungeon for you."
  	 	 	}
  	 	},
+ 	 	"aiCoreCluster": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "AI Core Cluster",
+ 	 	 	 	"eng": "AI Core Cluster"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Cụm lõi AI chứa 1000 lõi AI. có thể dễ dàng lắp ráp và tháo rời.",
+ 	 	 	 	"eng": "AI Core Cluster contains 1000 AI Cores. can be easily assembled and disassembled."
+ 	 	 	}
+ 	 	},
  	 	"ammo1": {
  	 	 	"name": {
  	 	 	 	"trans": "Pin Nitron",
@@ -4250,6 +4389,16 @@
  	 	 	 	"trans": "Tái chế các vật phẩm thành phế liệu hoàn toàn tự động",
  	 	 	 	"eng": "Fully automated recycler, capable of recycling items to their basic scrap form"
  	 	 	}
+ 	 	},
+ 	 	"blackMarket": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Chợ đen",
+ 	 	 	 	"eng": "Black Market"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Một thị trường ngầm chứa đầy những người có tất cả các loại ưu đãi râm mát và những loot hiếm. \r\n         In và bán bộ nhớ cache của bạn tại đây để kiếm tiền nhanh chóng",
+ 	 	 	 	"eng": "An underground market filled with people with all kind of shady deals and rare loots.\r\n        Print and sell your caches at the here to earn quick money"
+ 	 	 	}
  	 	}
  	},
  	"npcGangs": {
@@ -4361,6 +4510,16 @@
  	 	 	"description": {
  	 	 	 	"trans": "Konnichiwa!! ^___^\r\n        Vào chơi ngay MEGA Pachinko! Để nhận lấy phần thưởng cực lớn lên tới 10000 BTC mỗi phiên, ƯU ĐÃI GIỚI HẠN!!! <3<3<3\r\n        ##Đặt biệt cảm ơn Militech đã tài trợ cho sự kiện này##",
  	 	 	 	"eng": "Konnichiwa!! ^___^\r\n        Come play the MEGA Pachinko! With chance to win HUGE EPIC rewards\r\n        only 5000 btc per session, LIMITED TIME OFFER!!! <3<3<3\r\n        ##Special thanks for Militech for sponsoring this event##"
+ 	 	 	}
+ 	 	},
+ 	 	"gambling2": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Chơi Mega Pachinko S Plus Pro Max",
+ 	 	 	 	"eng": "Play MEGA Pachinko s plus pro max"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Konnichiwa !! Uwu. \r\n         Hôm nay bạn có cảm thấy giàu có và may mắn không? \r\n         Chơi ngay chỉ 1.000.000 BTC một lần (ưu đãi đặc biệt thời gian giới hạn!) Với 0,1% cơ hội để giành được một mặt hàng sử thi!",
+ 	 	 	 	"eng": "Konnichiwa!! UwU\r\n        Are you feeling rich and lucky today?\r\n        play now only 1,000,000 btc once (limited time special offer!) with 0.1% chance to win a EPIC item! \r\n        "
  	 	 	}
  	 	},
  	 	"topClanExclusive": {
@@ -4599,6 +4758,12 @@
  	 	 	"name": {
  	 	 	 	"trans": "Robot Lưu Trữ",
  	 	 	 	"eng": "Autonomous Storage Unit"
+ 	 	 	}
+ 	 	},
+ 	 	"aiCoreCluster": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "AI Core Cluster",
+ 	 	 	 	"eng": "AI Core Cluster"
  	 	 	}
  	 	},
  	 	"ammo1": {
