@@ -26,6 +26,11 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  
 
 ## Updates    
+### 2022/04/21 v0.780
+- NEW (Player Suggestion) - Now when critical buffs is about to end an popup will show up so it is less likely the buff accidentally die
+- NEW (Player Suggestion) - Equiping or unequipping items will no loger cause it to unlock automatically
+- NEW (Player Suggestion) - Added skip status on chat page
+
 ### 2022/04/20 v0.780
 - UI - Now locked item cannot be used in black market
 
