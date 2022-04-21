@@ -22,6 +22,12 @@
  	 	}
  	},
  	"ui": {
+ 	 	"blackMarket": {
+ 	 	 	"selectItemButton": {
+ 	 	 	 	"trans": "印刷と売り",
+ 	 	 	 	"eng": "Print And Sell"
+ 	 	 	}
+ 	 	},
  	 	"clan": {
  	 	 	"selectDepositAmount": {
  	 	 	 	"title": {
@@ -342,6 +348,21 @@
  	 	 	 	"eng": "noti."
  	 	 	}
  	 	},
+ 	 	"chatBanner": {
+ 	 	 	"refreshBuff": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"name"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${name}は数秒以内に尽きようとしています！",
+ 	 	 	 	 	"eng": "${name} is about to run out in a few seconds!"
+ 	 	 	 	},
+ 	 	 	 	"refresh": {
+ 	 	 	 	 	"trans": "今すぐ更新します",
+ 	 	 	 	 	"eng": "Refresh Now"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
  	 	"chatPreview": {
  	 	 	"notConnected": {
  	 	 	 	"trans": "チャットシステムに接続されていません",
@@ -386,6 +407,10 @@
  	 	 	"lowPrintLevelTip2": {
  	 	 	 	"trans": "クラフトスキルを上げるとより強力な武器を作成できます. クラフトスキルはキャッシュをプリントすることで上げられます",
  	 	 	 	"eng": "Increase your Printing Rank to create more powerful weapons by printing more caches"
+ 	 	 	},
+ 	 	 	"lowPrintLevelTip3": {
+ 	 	 	 	"trans": "または自動プリントとブラックマーケットでキャッシュを販売することで",
+ 	 	 	 	"eng": "Or by auto print and selling your caches in the Black Market"
  	 	 	},
  	 	 	"quickSlots": {
  	 	 	 	"trans": "クイックスロット",
@@ -663,35 +688,6 @@
  	 	 	"longPressBackToCity": {
  	 	 	 	"trans": "長押しで中央街に戻ります",
  	 	 	 	"eng": "Long press to go back to city"
- 	 	 	}
- 	 	},
- 	 	"machineCrafting": {
- 	 	 	"titleBox": {
- 	 	 	 	"tile": {
- 	 	 	 	 	"trans": "システム使用可能",
- 	 	 	 	 	"eng": "system idle"
- 	 	 	 	},
- 	 	 	 	"subtitle": {
- 	 	 	 	 	"trans": "アイテムを挿入してください",
- 	 	 	 	 	"eng": "Please inset an item"
- 	 	 	 	}
- 	 	 	},
- 	 	 	"selectItemButton": {
- 	 	 	 	"trans": "アイテムをリサイクルする",
- 	 	 	 	"eng": "Recycle Item"
- 	 	 	},
- 	 	 	"selectAmount": {
- 	 	 	 	"title": {
- 	 	 	 	 	"trans": "数量を選択",
- 	 	 	 	 	"eng": "Please select amount"
- 	 	 	 	},
- 	 	 	 	"subtitle": {
- 	 	 	 	 	"vars": [
- 	 	 	 	 	 	"timeStr"
- 	 	 	 	 	],
- 	 	 	 	 	"trans": "${timeStr}かかります",
- 	 	 	 	 	"eng": "This will take ${timeStr}"
- 	 	 	 	}
  	 	 	}
  	 	},
  	 	"notificationCenter": {
@@ -1019,6 +1015,71 @@
  	 	 	}
  	 	},
  	 	"quest": {
+ 	 	 	"dynamicTutorial": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "チュートリアル",
+ 	 	 	 	 	"eng": "Tutorials"
+ 	 	 	 	},
+ 	 	 	 	"printingTooLow": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "印刷ランクを改善する",
+ 	 	 	 	 	 	"eng": "Improve Printing Rank"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "印刷ランクは、印刷する項目のレベルを決定します。 印刷＆ブラックマーケットで販売",
+ 	 	 	 	 	 	"eng": "Printing Rank determines the level of item you print. Gain printing exp by print & sell in Black Market"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"gearTooWeak": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "より良い機器を入手！",
+ 	 	 	 	 	 	"eng": "Get even better equipments!"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "あなたの現在の機器はあなたのレベルのために古くなっているようです、それらを置き換えるためにより強いものを印刷してみてください",
+ 	 	 	 	 	 	"eng": "Your current equipment seems abit outdated for your level, try printing stronger ones to replace them"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"noUpgrade": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "あなたの機器をアップグレードしてください！",
+ 	 	 	 	 	 	"eng": "Upgrade your equipment!"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	 	],
+ 	 	 	 	 	 	"trans": "${itemName}を使用して機器をアップグレードできます。",
+ 	 	 	 	 	 	"eng": "You can upgrade your equipment by using the ${itemName}"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"aiCore": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "AI Coreを使用してください",
+ 	 	 	 	 	 	"eng": "Use AI Core"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "いくつかのAIコアがあるように見え、それらを使用して適切なレベルの領域でAFKの自動レベリングを行います。",
+ 	 	 	 	 	 	"eng": "Looks like you have some AI Cores, use them to do AFK auto leveling in appropriate level area."
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"noAiCore": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "AIコアを取得します",
+ 	 	 	 	 	 	"eng": "Acquire AI Cores"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "あなたはAIコアを取得することができます： \n          - さまざまな場所での掃除 \n          - ハッシュプロセッサと技術スクラップでの作成 \n          - すべての場所で敵から略奪されています",
+ 	 	 	 	 	 	"eng": "You may get AI Cores by: \n        - Scavenge in various locations\n        - Crafting with Hash Processors and Tech Scraps\n        - Looting from enemies in all locations"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"common": {
+ 	 	 	 	 	"clickToOpen": {
+ 	 	 	 	 	 	"trans": "クリックして開く",
+ 	 	 	 	 	 	"eng": "click to open"
+ 	 	 	 	 	}
+ 	 	 	 	}
+ 	 	 	},
  	 	 	"globalQuest": {
  	 	 	 	"progressTitle": {
  	 	 	 	 	"trans": "SLデータ防壁の突破",
@@ -1075,6 +1136,28 @@
  	 	 	 	"trans": "不審な行動が確認されたため,あなたのアカウントはシステムによって一時的に停止されました",
  	 	 	 	"eng": "Your account has been suspended automatically by the system due to Unusual Activity"
  	 	 	},
+ 	 	 	"possibleReasons": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "これは、次のことが原因で発生する可能性があります。",
+ 	 	 	 	 	"eng": "This could be caused by:"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "1.あなたは不当な優位性を得るために複数のアカウントを作成しました",
+ 	 	 	 	 	"eng": "1. You created multiple accounts to gain unfair advantage"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "2.オートクリッカ、ボットなどの不正な利点を得るために、ある種の自動化されたソフトウェアを使用しました。",
+ 	 	 	 	 	"eng": "2. You have used some kind of automated software to gain unfair advantage, such as autoclicker, bots, etc."
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "3.システムは異常なネットワーク活動を検出しました",
+ 	 	 	 	 	"eng": "3. System has detected unusual network activity"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "その他の理由",
+ 	 	 	 	 	"eng": "4. Other reasons"
+ 	 	 	 	}
+ 	 	 	},
  	 	 	"content": {
  	 	 	 	"trans": "ご質問がある場合は,公式のDiscordを介して直接Dexterに連絡してください.",
  	 	 	 	"eng": "If you have any questions please feel free to contact Dexter directly via official Discord (Link can be found in Floating Menu -> Links) or email to ching.huang.dexter@gmail.com"
@@ -1100,6 +1183,35 @@
  	 	 	"title": {
  	 	 	 	"trans": "チュートリアル",
  	 	 	 	"eng": "Tutorial"
+ 	 	 	}
+ 	 	},
+ 	 	"machineCrafting": {
+ 	 	 	"titleBox": {
+ 	 	 	 	"tile": {
+ 	 	 	 	 	"trans": "システム使用可能",
+ 	 	 	 	 	"eng": "system idle"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"trans": "アイテムを挿入してください",
+ 	 	 	 	 	"eng": "Please inset an item"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"selectItemButton": {
+ 	 	 	 	"trans": "アイテムをリサイクルする",
+ 	 	 	 	"eng": "Recycle Item"
+ 	 	 	},
+ 	 	 	"selectAmount": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "数量を選択",
+ 	 	 	 	 	"eng": "Please select amount"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"timeStr"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${timeStr}かかります",
+ 	 	 	 	 	"eng": "This will take ${timeStr}"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"setting": {
@@ -1253,6 +1365,23 @@
  	 	 	 	 	],
  	 	 	 	 	"trans": "${playerName}をブロック解除",
  	 	 	 	 	"eng": "Unblock ${playerName}"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"machineCraft": {
+ 	 	 	"itemLocked": {
+ 	 	 	 	"trans": "このアイテムはロックされています",
+ 	 	 	 	"eng": "This item is locked"
+ 	 	 	}
+ 	 	},
+ 	 	"calibration": {
+ 	 	 	"confirmation": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"percent"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "あなたは${percent}％破壊的な失敗のチャンスでこのアイテムを校正したいと思いますか？",
+ 	 	 	 	 	"eng": "Are you sure you want to calibrate this item with ${percent}% destructive failure chance?"
  	 	 	 	}
  	 	 	}
  	 	},
@@ -3098,6 +3227,16 @@
  	 	 	 	"eng": "Commercially used Neural Processing Unit (NPU). Comes with general purpose AI. \r\n        You can use this to deploy a farming bot to dungeon for you."
  	 	 	}
  	 	},
+ 	 	"aiCoreCluster": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "AIコアクラスター",
+ 	 	 	 	"eng": "AI Core Cluster"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "AIコアクラスタには1000のAIコアが含まれています。 簡単に組み立てて分解することができます。",
+ 	 	 	 	"eng": "AI Core Cluster contains 1000 AI Cores. can be easily assembled and disassembled."
+ 	 	 	}
+ 	 	},
  	 	"ammo1": {
  	 	 	"name": {
  	 	 	 	"trans": "エネルギーセル",
@@ -4250,6 +4389,16 @@
  	 	 	 	"trans": "アイテムを基礎の状態にスクラップする全自動のリサイクル機",
  	 	 	 	"eng": "Fully automated recycler, capable of recycling items to their basic scrap form"
  	 	 	}
+ 	 	},
+ 	 	"blackMarket": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "ブラックマーケット",
+ 	 	 	 	"eng": "Black Market"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "地下市場は、あらゆる種類の日陰の取引と珍しい戦利品を持つ人々でいっぱいです。 \r\n         すばやくお金を稼ぐためにここであなたのキャッシュを印刷して売る",
+ 	 	 	 	"eng": "An underground market filled with people with all kind of shady deals and rare loots.\r\n        Print and sell your caches at the here to earn quick money"
+ 	 	 	}
  	 	}
  	},
  	"npcGangs": {
@@ -4361,6 +4510,16 @@
  	 	 	"description": {
  	 	 	 	"trans": "こんにちは!! ^___^\r\n        MEGAパチンコで遊ぼう! 抽選で豪華賞品が当たるチャンス!\r\n        1プレイでたった5000Btc!期間限定のキャンペーン!<3<3<3\r\n        ##このイベントのスポンサーであるMilitechに感謝します##",
  	 	 	 	"eng": "Konnichiwa!! ^___^\r\n        Come play the MEGA Pachinko! With chance to win HUGE EPIC rewards\r\n        only 5000 btc per session, LIMITED TIME OFFER!!! <3<3<3\r\n        ##Special thanks for Militech for sponsoring this event##"
+ 	 	 	}
+ 	 	},
+ 	 	"gambling2": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Mega Pachinko S Pro Max",
+ 	 	 	 	"eng": "Play MEGA Pachinko s plus pro max"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "コニチワ！ 宇妻 \r\n         今日は豊かでラッキーを感じていますか？ \r\n         壮大なアイテムを獲得する機会が0.1％のチャンスで1,000,000 BTC（期間スペシャルオファー！）",
+ 	 	 	 	"eng": "Konnichiwa!! UwU\r\n        Are you feeling rich and lucky today?\r\n        play now only 1,000,000 btc once (limited time special offer!) with 0.1% chance to win a EPIC item! \r\n        "
  	 	 	}
  	 	},
  	 	"topClanExclusive": {
@@ -4599,6 +4758,12 @@
  	 	 	"name": {
  	 	 	 	"trans": "自律式ストレージユニット",
  	 	 	 	"eng": "Autonomous Storage Unit"
+ 	 	 	}
+ 	 	},
+ 	 	"aiCoreCluster": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "AIコアクラスター",
+ 	 	 	 	"eng": "AI Core Cluster"
  	 	 	}
  	 	},
  	 	"ammo1": {

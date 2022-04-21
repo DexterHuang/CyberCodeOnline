@@ -22,6 +22,12 @@
  	 	}
  	},
  	"ui": {
+ 	 	"blackMarket": {
+ 	 	 	"selectItemButton": {
+ 	 	 	 	"trans": "พิมพ์และขาย",
+ 	 	 	 	"eng": "Print And Sell"
+ 	 	 	}
+ 	 	},
  	 	"clan": {
  	 	 	"selectDepositAmount": {
  	 	 	 	"title": {
@@ -342,6 +348,21 @@
  	 	 	 	"eng": "noti."
  	 	 	}
  	 	},
+ 	 	"chatBanner": {
+ 	 	 	"refreshBuff": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"name"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${name} กำลังจะหมดในไม่กี่วินาที!",
+ 	 	 	 	 	"eng": "${name} is about to run out in a few seconds!"
+ 	 	 	 	},
+ 	 	 	 	"refresh": {
+ 	 	 	 	 	"trans": "รีเฟรชตอนนี้",
+ 	 	 	 	 	"eng": "Refresh Now"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
  	 	"chatPreview": {
  	 	 	"notConnected": {
  	 	 	 	"trans": "ระบบการแชทไม่ได้เชื่อมต่อ",
@@ -386,6 +407,10 @@
  	 	 	"lowPrintLevelTip2": {
  	 	 	 	"trans": "เพิ่มระดับการปริ้นของคุณเพื่อสร้างอาวุธที่ทรงพลังมากขึ้นโดยการปริ้นแคชอุปกรณ์",
  	 	 	 	"eng": "Increase your Printing Rank to create more powerful weapons by printing more caches"
+ 	 	 	},
+ 	 	 	"lowPrintLevelTip3": {
+ 	 	 	 	"trans": "หรือโดยการพิมพ์อัตโนมัติและขายแคชของคุณในตลาดมืด",
+ 	 	 	 	"eng": "Or by auto print and selling your caches in the Black Market"
  	 	 	},
  	 	 	"quickSlots": {
  	 	 	 	"trans": "ชอร์ตคัต",
@@ -663,35 +688,6 @@
  	 	 	"longPressBackToCity": {
  	 	 	 	"trans": "กดค้างเพื่อกลับไปที่เมือง",
  	 	 	 	"eng": "Long press to go back to city"
- 	 	 	}
- 	 	},
- 	 	"machineCrafting": {
- 	 	 	"titleBox": {
- 	 	 	 	"tile": {
- 	 	 	 	 	"trans": "ระบบว่าง",
- 	 	 	 	 	"eng": "system idle"
- 	 	 	 	},
- 	 	 	 	"subtitle": {
- 	 	 	 	 	"trans": "กรุณาใส่รายการ",
- 	 	 	 	 	"eng": "Please inset an item"
- 	 	 	 	}
- 	 	 	},
- 	 	 	"selectItemButton": {
- 	 	 	 	"trans": "รายการรีไซเคิล",
- 	 	 	 	"eng": "Recycle Item"
- 	 	 	},
- 	 	 	"selectAmount": {
- 	 	 	 	"title": {
- 	 	 	 	 	"trans": "กรุณาเลือกจำนวนเงิน",
- 	 	 	 	 	"eng": "Please select amount"
- 	 	 	 	},
- 	 	 	 	"subtitle": {
- 	 	 	 	 	"vars": [
- 	 	 	 	 	 	"timeStr"
- 	 	 	 	 	],
- 	 	 	 	 	"trans": "สิ่งนี้จะใช้ ${timeStr}",
- 	 	 	 	 	"eng": "This will take ${timeStr}"
- 	 	 	 	}
  	 	 	}
  	 	},
  	 	"notificationCenter": {
@@ -1019,6 +1015,71 @@
  	 	 	}
  	 	},
  	 	"quest": {
+ 	 	 	"dynamicTutorial": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "บทช่วยสอน",
+ 	 	 	 	 	"eng": "Tutorials"
+ 	 	 	 	},
+ 	 	 	 	"printingTooLow": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "ปรับปรุงอันดับการพิมพ์",
+ 	 	 	 	 	 	"eng": "Improve Printing Rank"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "อันดับการพิมพ์กำหนดระดับของรายการที่คุณพิมพ์ รับ Exp การพิมพ์โดยการพิมพ์และขายในตลาดมืด",
+ 	 	 	 	 	 	"eng": "Printing Rank determines the level of item you print. Gain printing exp by print & sell in Black Market"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"gearTooWeak": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "รับอุปกรณ์ที่ดียิ่งขึ้น!",
+ 	 	 	 	 	 	"eng": "Get even better equipments!"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "อุปกรณ์ปัจจุบันของคุณดูเหมือนจะล้าสมัยสำหรับระดับของคุณลองพิมพ์ที่แข็งแกร่งขึ้นเพื่อแทนที่พวกเขา",
+ 	 	 	 	 	 	"eng": "Your current equipment seems abit outdated for your level, try printing stronger ones to replace them"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"noUpgrade": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "อัพเกรดอุปกรณ์ของคุณ!",
+ 	 	 	 	 	 	"eng": "Upgrade your equipment!"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	 	],
+ 	 	 	 	 	 	"trans": "คุณสามารถอัพเกรดอุปกรณ์ของคุณได้โดยใช้ ${itemName}",
+ 	 	 	 	 	 	"eng": "You can upgrade your equipment by using the ${itemName}"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"aiCore": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "ใช้ AI Core",
+ 	 	 	 	 	 	"eng": "Use AI Core"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "ดูเหมือนว่าคุณมีแกน AI ใช้พวกเขาเพื่อทำการปรับระดับอัตโนมัติ AFK ในพื้นที่ระดับที่เหมาะสม",
+ 	 	 	 	 	 	"eng": "Looks like you have some AI Cores, use them to do AFK auto leveling in appropriate level area."
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"noAiCore": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "รับแกน AI",
+ 	 	 	 	 	 	"eng": "Acquire AI Cores"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "คุณอาจได้รับแกน AI โดย: \n         - ขับไล่ในสถานที่ต่าง ๆ \n         - การประดิษฐ์กับโปรเซสเซอร์แฮชและเรื่องที่สนใจทางเทคนิค \n         - ปล้นสะดมจากศัตรูในทุกสถานที่",
+ 	 	 	 	 	 	"eng": "You may get AI Cores by: \n        - Scavenge in various locations\n        - Crafting with Hash Processors and Tech Scraps\n        - Looting from enemies in all locations"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"common": {
+ 	 	 	 	 	"clickToOpen": {
+ 	 	 	 	 	 	"trans": "คลิกเพื่อเปิด",
+ 	 	 	 	 	 	"eng": "click to open"
+ 	 	 	 	 	}
+ 	 	 	 	}
+ 	 	 	},
  	 	 	"globalQuest": {
  	 	 	 	"progressTitle": {
  	 	 	 	 	"trans": "SL-Data Fortress Breach",
@@ -1075,6 +1136,28 @@
  	 	 	 	"trans": "บัญชีของคุณถูกระงับโดยอัตโนมัติโดยระบบเนื่องจากกิจกรรมที่น่าสงสัย",
  	 	 	 	"eng": "Your account has been suspended automatically by the system due to Unusual Activity"
  	 	 	},
+ 	 	 	"possibleReasons": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "นี่อาจเกิดจาก:",
+ 	 	 	 	 	"eng": "This could be caused by:"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "1. คุณสร้างหลายบัญชีเพื่อรับประโยชน์ที่ไม่เป็นธรรม",
+ 	 	 	 	 	"eng": "1. You created multiple accounts to gain unfair advantage"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "2. คุณใช้ซอฟต์แวร์อัตโนมัติบางชนิดเพื่อรับประโยชน์ที่ไม่เป็นธรรมเช่น autoclicker, บอท ฯลฯ",
+ 	 	 	 	 	"eng": "2. You have used some kind of automated software to gain unfair advantage, such as autoclicker, bots, etc."
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "3. ระบบตรวจพบกิจกรรมเครือข่ายที่ผิดปกติ",
+ 	 	 	 	 	"eng": "3. System has detected unusual network activity"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "4. เหตุผลอื่น ๆ",
+ 	 	 	 	 	"eng": "4. Other reasons"
+ 	 	 	 	}
+ 	 	 	},
  	 	 	"content": {
  	 	 	 	"trans": "หากคุณมีคำถามใด ๆ โปรดติดต่อ Dexter โดยตรงผ่าน Discord อย่างเป็นทางการ (ลิงก์สามารถพบได้ในเมนูลอยน้ำ -> ลิงก์) หรืออีเมลไปที่ ching.huang.dexter@gmail.com",
  	 	 	 	"eng": "If you have any questions please feel free to contact Dexter directly via official Discord (Link can be found in Floating Menu -> Links) or email to ching.huang.dexter@gmail.com"
@@ -1100,6 +1183,35 @@
  	 	 	"title": {
  	 	 	 	"trans": "แบบฝึกสอน",
  	 	 	 	"eng": "Tutorial"
+ 	 	 	}
+ 	 	},
+ 	 	"machineCrafting": {
+ 	 	 	"titleBox": {
+ 	 	 	 	"tile": {
+ 	 	 	 	 	"trans": "ระบบว่าง",
+ 	 	 	 	 	"eng": "system idle"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"trans": "กรุณาใส่รายการ",
+ 	 	 	 	 	"eng": "Please inset an item"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"selectItemButton": {
+ 	 	 	 	"trans": "รายการรีไซเคิล",
+ 	 	 	 	"eng": "Recycle Item"
+ 	 	 	},
+ 	 	 	"selectAmount": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "กรุณาเลือกจำนวนเงิน",
+ 	 	 	 	 	"eng": "Please select amount"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"timeStr"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "สิ่งนี้จะใช้ ${timeStr}",
+ 	 	 	 	 	"eng": "This will take ${timeStr}"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"setting": {
@@ -1253,6 +1365,23 @@
  	 	 	 	 	],
  	 	 	 	 	"trans": "ปลดบล็อก ${playerName}",
  	 	 	 	 	"eng": "Unblock ${playerName}"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"machineCraft": {
+ 	 	 	"itemLocked": {
+ 	 	 	 	"trans": "รายการนี้ถูกล็อค",
+ 	 	 	 	"eng": "This item is locked"
+ 	 	 	}
+ 	 	},
+ 	 	"calibration": {
+ 	 	 	"confirmation": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"percent"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "คุณแน่ใจหรือไม่ว่าต้องการปรับเทียบรายการนี้ด้วย ${percent} โอกาสล้มเหลวในการทำลายล้าง?",
+ 	 	 	 	 	"eng": "Are you sure you want to calibrate this item with ${percent}% destructive failure chance?"
  	 	 	 	}
  	 	 	}
  	 	},
@@ -3098,6 +3227,16 @@
  	 	 	 	"eng": "Commercially used Neural Processing Unit (NPU). Comes with general purpose AI. \r\n        You can use this to deploy a farming bot to dungeon for you."
  	 	 	}
  	 	},
+ 	 	"aiCoreCluster": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "ai core cluster",
+ 	 	 	 	"eng": "AI Core Cluster"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "AI Core Cluster มีแกน 1,000 AI สามารถประกอบและถอดประกอบได้ง่าย",
+ 	 	 	 	"eng": "AI Core Cluster contains 1000 AI Cores. can be easily assembled and disassembled."
+ 	 	 	}
+ 	 	},
  	 	"ammo1": {
  	 	 	"name": {
  	 	 	 	"trans": "เซลล์พลังงาน",
@@ -4250,6 +4389,16 @@
  	 	 	 	"trans": "รีไซเคิลอัตโนมัติเต็มรูปแบบความสามารถในการรีไซเคิลรายการในรูปแบบเศษพื้นฐานของพวกเขา",
  	 	 	 	"eng": "Fully automated recycler, capable of recycling items to their basic scrap form"
  	 	 	}
+ 	 	},
+ 	 	"blackMarket": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "ตลาดมืด",
+ 	 	 	 	"eng": "Black Market"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "ตลาดใต้ดินที่เต็มไปด้วยผู้คนที่มีข้อเสนอร่มรื่นทุกชนิดและปล้นสะดมหายาก \r\n         พิมพ์และขายแคชของคุณที่นี่เพื่อรับเงินด่วน",
+ 	 	 	 	"eng": "An underground market filled with people with all kind of shady deals and rare loots.\r\n        Print and sell your caches at the here to earn quick money"
+ 	 	 	}
  	 	}
  	},
  	"npcGangs": {
@@ -4361,6 +4510,16 @@
  	 	 	"description": {
  	 	 	 	"trans": "Konnichiwa!! ^___^\r\n        เข้ามาร่วมเล่น MEGA Pachinko! พร้อมลุ้นรับรางวัลสุดยิ่งใหญ่!\r\n        เพียงแค่ 10000 บิทคอยน์ต่อครั้ง, ข้อเสนอมีเวลาจำกัด!!! <3<3<3\r\n        ##ขอขอบคุณเป็นพิเศษสำหรับ Militech ที่ให้การสนับสนุนงานนี้##",
  	 	 	 	"eng": "Konnichiwa!! ^___^\r\n        Come play the MEGA Pachinko! With chance to win HUGE EPIC rewards\r\n        only 5000 btc per session, LIMITED TIME OFFER!!! <3<3<3\r\n        ##Special thanks for Militech for sponsoring this event##"
+ 	 	 	}
+ 	 	},
+ 	 	"gambling2": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "เล่น Mega Pachinko S Plus Pro Max",
+ 	 	 	 	"eng": "Play MEGA Pachinko s plus pro max"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Konnichiwa !! Uwu \r\n         วันนี้คุณรู้สึกร่ำรวยและโชคดีไหม? \r\n         เล่นตอนนี้เพียง 1,000,000 บาทต่อเดือน (ข้อเสนอพิเศษเวลา จำกัด !) กับโอกาส 0.1% ที่จะชนะรายการมหากาพย์!",
+ 	 	 	 	"eng": "Konnichiwa!! UwU\r\n        Are you feeling rich and lucky today?\r\n        play now only 1,000,000 btc once (limited time special offer!) with 0.1% chance to win a EPIC item! \r\n        "
  	 	 	}
  	 	},
  	 	"topClanExclusive": {
@@ -4599,6 +4758,12 @@
  	 	 	"name": {
  	 	 	 	"trans": "หน่วยเก็บข้อมูลอิสระ",
  	 	 	 	"eng": "Autonomous Storage Unit"
+ 	 	 	}
+ 	 	},
+ 	 	"aiCoreCluster": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "ai core cluster",
+ 	 	 	 	"eng": "AI Core Cluster"
  	 	 	}
  	 	},
  	 	"ammo1": {

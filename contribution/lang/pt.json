@@ -22,6 +22,12 @@
  	 	}
  	},
  	"ui": {
+ 	 	"blackMarket": {
+ 	 	 	"selectItemButton": {
+ 	 	 	 	"trans": "Imprima e venda",
+ 	 	 	 	"eng": "Print And Sell"
+ 	 	 	}
+ 	 	},
  	 	"clan": {
  	 	 	"selectDepositAmount": {
  	 	 	 	"title": {
@@ -342,6 +348,21 @@
  	 	 	 	"eng": "noti."
  	 	 	}
  	 	},
+ 	 	"chatBanner": {
+ 	 	 	"refreshBuff": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"name"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${name} está prestes a ficar em alguns segundos!",
+ 	 	 	 	 	"eng": "${name} is about to run out in a few seconds!"
+ 	 	 	 	},
+ 	 	 	 	"refresh": {
+ 	 	 	 	 	"trans": "Atualize agora",
+ 	 	 	 	 	"eng": "Refresh Now"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
  	 	"chatPreview": {
  	 	 	"notConnected": {
  	 	 	 	"trans": "Sistema de bate-papo não conectado",
@@ -386,6 +407,10 @@
  	 	 	"lowPrintLevelTip2": {
  	 	 	 	"trans": "Aumente sua classificação de impressão para criar armas mais poderosas, imprimindo mais caches",
  	 	 	 	"eng": "Increase your Printing Rank to create more powerful weapons by printing more caches"
+ 	 	 	},
+ 	 	 	"lowPrintLevelTip3": {
+ 	 	 	 	"trans": "Ou por impressão automática e vendendo seus caches no mercado negro",
+ 	 	 	 	"eng": "Or by auto print and selling your caches in the Black Market"
  	 	 	},
  	 	 	"quickSlots": {
  	 	 	 	"trans": "Ranhuras rápidas",
@@ -663,35 +688,6 @@
  	 	 	"longPressBackToCity": {
  	 	 	 	"trans": "Pressione e segure para voltar à cidade",
  	 	 	 	"eng": "Long press to go back to city"
- 	 	 	}
- 	 	},
- 	 	"machineCrafting": {
- 	 	 	"titleBox": {
- 	 	 	 	"tile": {
- 	 	 	 	 	"trans": "sistema ocioso",
- 	 	 	 	 	"eng": "system idle"
- 	 	 	 	},
- 	 	 	 	"subtitle": {
- 	 	 	 	 	"trans": "Por favor insira um item",
- 	 	 	 	 	"eng": "Please inset an item"
- 	 	 	 	}
- 	 	 	},
- 	 	 	"selectItemButton": {
- 	 	 	 	"trans": "Reciclar Item",
- 	 	 	 	"eng": "Recycle Item"
- 	 	 	},
- 	 	 	"selectAmount": {
- 	 	 	 	"title": {
- 	 	 	 	 	"trans": "Por favor selecione a quantia",
- 	 	 	 	 	"eng": "Please select amount"
- 	 	 	 	},
- 	 	 	 	"subtitle": {
- 	 	 	 	 	"vars": [
- 	 	 	 	 	 	"timeStr"
- 	 	 	 	 	],
- 	 	 	 	 	"trans": "Isso vai demorar ${timeStr}",
- 	 	 	 	 	"eng": "This will take ${timeStr}"
- 	 	 	 	}
  	 	 	}
  	 	},
  	 	"notificationCenter": {
@@ -1019,6 +1015,71 @@
  	 	 	}
  	 	},
  	 	"quest": {
+ 	 	 	"dynamicTutorial": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Tutoriais",
+ 	 	 	 	 	"eng": "Tutorials"
+ 	 	 	 	},
+ 	 	 	 	"printingTooLow": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Melhorar a classificação de impressão",
+ 	 	 	 	 	 	"eng": "Improve Printing Rank"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "Classificação de impressão Determina o nível do item que você imprime. Ganhe impressão exp de impressão e venda no mercado negro",
+ 	 	 	 	 	 	"eng": "Printing Rank determines the level of item you print. Gain printing exp by print & sell in Black Market"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"gearTooWeak": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Obter equipamentos ainda melhores!",
+ 	 	 	 	 	 	"eng": "Get even better equipments!"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "Seu equipamento atual parece abitado desatualizado pelo seu nível, tente imprimir mais fortes para substituí-los",
+ 	 	 	 	 	 	"eng": "Your current equipment seems abit outdated for your level, try printing stronger ones to replace them"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"noUpgrade": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Atualize seu equipamento!",
+ 	 	 	 	 	 	"eng": "Upgrade your equipment!"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	 	],
+ 	 	 	 	 	 	"trans": "Você pode atualizar seu equipamento usando o ${itemName}",
+ 	 	 	 	 	 	"eng": "You can upgrade your equipment by using the ${itemName}"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"aiCore": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Use ai Core",
+ 	 	 	 	 	 	"eng": "Use AI Core"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "Parece que você tem alguns núcleos de AI, use-os para fazer a AFK Auto Nivelamento na área de nível apropriada.",
+ 	 	 	 	 	 	"eng": "Looks like you have some AI Cores, use them to do AFK auto leveling in appropriate level area."
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"noAiCore": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Adquirir ai núcleos",
+ 	 	 	 	 	 	"eng": "Acquire AI Cores"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "Você pode obter IA CORES: \n         - Scavenge em vários locais \n         - Crafting com processadores hash e sucatas técnicas \n         - Saqueamento de inimigos em todos os locais",
+ 	 	 	 	 	 	"eng": "You may get AI Cores by: \n        - Scavenge in various locations\n        - Crafting with Hash Processors and Tech Scraps\n        - Looting from enemies in all locations"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"common": {
+ 	 	 	 	 	"clickToOpen": {
+ 	 	 	 	 	 	"trans": "Clique para abrir",
+ 	 	 	 	 	 	"eng": "click to open"
+ 	 	 	 	 	}
+ 	 	 	 	}
+ 	 	 	},
  	 	 	"globalQuest": {
  	 	 	 	"progressTitle": {
  	 	 	 	 	"trans": "Violação de fortaleza de dados SL",
@@ -1075,6 +1136,28 @@
  	 	 	 	"trans": "Sua conta foi suspensa automaticamente pelo sistema devido a atividade suspeita",
  	 	 	 	"eng": "Your account has been suspended automatically by the system due to Unusual Activity"
  	 	 	},
+ 	 	 	"possibleReasons": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "Isso pode ser causado por:",
+ 	 	 	 	 	"eng": "This could be caused by:"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "1. Você criou várias contas para obter vantagem injusta",
+ 	 	 	 	 	"eng": "1. You created multiple accounts to gain unfair advantage"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "2. Você usou algum tipo de software automatizado para ganhar vantagem injusta, como autoclicker, bots, etc.",
+ 	 	 	 	 	"eng": "2. You have used some kind of automated software to gain unfair advantage, such as autoclicker, bots, etc."
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "3. Sistema detectou atividade de rede incomum",
+ 	 	 	 	 	"eng": "3. System has detected unusual network activity"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "4. Outras razões",
+ 	 	 	 	 	"eng": "4. Other reasons"
+ 	 	 	 	}
+ 	 	 	},
  	 	 	"content": {
  	 	 	 	"trans": "Se você tiver alguma dúvida, não hesite em contatar Dexter diretamente via Discord oficial (link pode ser encontrado no menu flutuante -> links) ou e-mail para ching.huang.dexter@gmail.com",
  	 	 	 	"eng": "If you have any questions please feel free to contact Dexter directly via official Discord (Link can be found in Floating Menu -> Links) or email to ching.huang.dexter@gmail.com"
@@ -1100,6 +1183,35 @@
  	 	 	"title": {
  	 	 	 	"trans": "Tutorial",
  	 	 	 	"eng": "Tutorial"
+ 	 	 	}
+ 	 	},
+ 	 	"machineCrafting": {
+ 	 	 	"titleBox": {
+ 	 	 	 	"tile": {
+ 	 	 	 	 	"trans": "sistema ocioso",
+ 	 	 	 	 	"eng": "system idle"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"trans": "Por favor insira um item",
+ 	 	 	 	 	"eng": "Please inset an item"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"selectItemButton": {
+ 	 	 	 	"trans": "Reciclar Item",
+ 	 	 	 	"eng": "Recycle Item"
+ 	 	 	},
+ 	 	 	"selectAmount": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Por favor selecione a quantia",
+ 	 	 	 	 	"eng": "Please select amount"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"timeStr"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Isso vai demorar ${timeStr}",
+ 	 	 	 	 	"eng": "This will take ${timeStr}"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"setting": {
@@ -1253,6 +1365,23 @@
  	 	 	 	 	],
  	 	 	 	 	"trans": "Desbloquear ${playerName}",
  	 	 	 	 	"eng": "Unblock ${playerName}"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"machineCraft": {
+ 	 	 	"itemLocked": {
+ 	 	 	 	"trans": "Este item está bloqueado",
+ 	 	 	 	"eng": "This item is locked"
+ 	 	 	}
+ 	 	},
+ 	 	"calibration": {
+ 	 	 	"confirmation": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"percent"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Tem certeza de que quer calibrar este item com ${percent}% de falha destrutiva?",
+ 	 	 	 	 	"eng": "Are you sure you want to calibrate this item with ${percent}% destructive failure chance?"
  	 	 	 	}
  	 	 	}
  	 	},
@@ -3098,6 +3227,16 @@
  	 	 	 	"eng": "Commercially used Neural Processing Unit (NPU). Comes with general purpose AI. \r\n        You can use this to deploy a farming bot to dungeon for you."
  	 	 	}
  	 	},
+ 	 	"aiCoreCluster": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Ai Core Cluster",
+ 	 	 	 	"eng": "AI Core Cluster"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Ai Core Cluster contém 1000 CORES AI. pode ser facilmente montado e desmontado.",
+ 	 	 	 	"eng": "AI Core Cluster contains 1000 AI Cores. can be easily assembled and disassembled."
+ 	 	 	}
+ 	 	},
  	 	"ammo1": {
  	 	 	"name": {
  	 	 	 	"trans": "Célula de Energia",
@@ -4456,6 +4595,16 @@
  	 	 	 	"trans": "Recicladora completamente automática, capaz de reciclar itens às suas formas de sucata básicas",
  	 	 	 	"eng": "Fully automated recycler, capable of recycling items to their basic scrap form"
  	 	 	}
+ 	 	},
+ 	 	"blackMarket": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Mercado negro",
+ 	 	 	 	"eng": "Black Market"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Um mercado subterrâneo cheio de pessoas com todos os tipos de ofertas sombrias e saques raros. \r\n         Imprima e venda seus caches no aqui para ganhar dinheiro rápido",
+ 	 	 	 	"eng": "An underground market filled with people with all kind of shady deals and rare loots.\r\n        Print and sell your caches at the here to earn quick money"
+ 	 	 	}
  	 	}
  	},
  	"npcGangs": {
@@ -4567,6 +4716,16 @@
  	 	 	"description": {
  	 	 	 	"trans": "Konnichiwa!! ^___^\r\n        Venha jogar o MEGA Pachinko! Com chance de ganhar premios EXTRAORDINARIAMENTE ÉPICOS\r\n        somente 5000 btc por sessão, OFERTA POR TEMPO LIMITADO!!! <3<3<3\r\n        ##Agradecimento especial para Militech por estar patrocinando este evento##",
  	 	 	 	"eng": "Konnichiwa!! ^___^\r\n        Come play the MEGA Pachinko! With chance to win HUGE EPIC rewards\r\n        only 5000 btc per session, LIMITED TIME OFFER!!! <3<3<3\r\n        ##Special thanks for Militech for sponsoring this event##"
+ 	 	 	}
+ 	 	},
+ 	 	"gambling2": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Jogar Mega Pachinko S Plus Pro Max",
+ 	 	 	 	"eng": "Play MEGA Pachinko s plus pro max"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Konnichiwa !! Uwu. \r\n         Você está se sentindo rico e sortudo hoje? \r\n         Jogue agora apenas 1.000.000 BTC uma vez (oferta especial de tempo limitado!) Com 0,1% de chance de ganhar um item épico!",
+ 	 	 	 	"eng": "Konnichiwa!! UwU\r\n        Are you feeling rich and lucky today?\r\n        play now only 1,000,000 btc once (limited time special offer!) with 0.1% chance to win a EPIC item! \r\n        "
  	 	 	}
  	 	},
  	 	"topClanExclusive": {
@@ -4805,6 +4964,12 @@
  	 	 	"name": {
  	 	 	 	"trans": "Unidade de Armazenamento Autônoma",
  	 	 	 	"eng": "Autonomous Storage Unit"
+ 	 	 	}
+ 	 	},
+ 	 	"aiCoreCluster": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Ai Core Cluster",
+ 	 	 	 	"eng": "AI Core Cluster"
  	 	 	}
  	 	},
  	 	"ammo1": {

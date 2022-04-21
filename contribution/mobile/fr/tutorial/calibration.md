@@ -16,6 +16,16 @@ Dans la **Station de Calibrage**, Il sera demandé au joueur d'insérer le **Noy
 
 Après 30 minutes, Les joueurs peuvent calibrer n'importe quel équippement (excepté ceux déjà calibrés au max) qui n'est pas équippé. 
 
+## En dehors de la station de calibrage
+
+Depuis la mise à jour **v0.780 (2022/03/04)**, les joueurs sont autorisés à effectuer un calibrage pendant une session AFK Task / Dungeon.
+
+![CalibrationStationAlt](/resources/mobile-tutorial/CalibrationStationAlt.png)
+
+Pour ce faire, les joueurs doivent cliquer sur l'équipement désigné, puis choisir l'option "Afficher les détails". Dans la section **Voir les Détails**, cliquez sur le bouton **Améliorer** ou sur **Capacité de calibrage** pour accéder à la station de calibrage. De cette façon, les joueurs peuvent effectuer le calibrage aisément.
+
+Gardez à l'esprit que seuls les équipements non équipés peuvent être calibrés.
+
 ## Chance d'échec destructif
 
 ![CalibrationStation4](/resources/mobile-tutorial/CalibrationStation4.png)
@@ -42,14 +52,32 @@ En général, la capacité de l'équippement / le poucentage d'échec de chaque 
 Tout calibrage +6 et plus est *impossible* sans utiliser un **Boost de Calibrage**. Ils réduisent le pourcentage d'échec et s'ajoutent les uns avec les autres.  
 
 En général, les tiers des boosts de calibrage (et où les trouver) sont ainsi:
-- **Calibration AI Shard (Common)** réduit les chances d'échec de 5%; seulement pour une utilisation personelle; peut être trouvé dans les conteneurs rares vérouillés
+- **Calibration AI Shard (Commun)** réduit les chances d'échec de 5%; seulement pour une utilisation personelle; peut être trouvé dans les conteneurs rares vérouillés
 - **Calibration AI Shard (Rare)** réduit les chances d'échec de 10%; effet global; Ne peut être acheté qu'au bureau d'échange d'Arasaka
-- **Calibration AI Shard (Legendary)** réduit les chances d'échec de 50%; effet global; Ne peut être acheté qu'au bureau d'échange d'Arasaka
-- **Calibration AI Shard (Epic)** réduit les chances d'échec de 100%; effet global; Ne peut être acheté qu'au bureau d'échange d'Arasaka
+- **Calibration AI Shard (Legendaire)** réduit les chances d'échec de 50%; effet global; Ne peut être acheté qu'au bureau d'échange d'Arasaka
+- **Calibration AI Shard (Epique)** réduit les chances d'échec de 100%; effet global; Ne peut être acheté qu'au bureau d'échange d'Arasaka
+- **Calibration AI Shard (Prestige)** réduit les chances d'échec de 300%; effet global; Ne peut être acheté qu'au bureau d'échange d'Arasaka
 
 Les joueurs peuvent aussi réduire l'effet de destruction en activant **Calibration Safety Nano Bots** (qui peut être trouvé and un conteneur mystérieux / acheté au bureau d'échange d'Arasaka) avant de calibrer l'équipement.
 
 Gardez à l'esprit que le boost **ne durera que 5 min**. Il est préférable d'être préparé avant de booster.
+
+## Amélioration de l'équipement
+À chaque Calibrage, l'équipement s'améliore et est bien meilleur que l'équipement non calibré (selon son niveau). Il y a comme amélioration; une santé plus élevée, de meilleurs dégâts, plus d'emplacements d'inventaire, etc.
+
+Pourcentage d'amélioration (à partir du calibrage ; à partir des statistiques de base) comme suit :
+| Niveau | Amélioration de l'équipement |
+|--|--|
+| +1 | 5% |
+| +2 | 10% |
+| +3 | 15% |
+| +4 | 20% |
+| +5 | 40% |
+| +6 | 60% |
+| +7 | 80% |
+| +8 | 110% |
+| +9 | 150% |
+| +10 | 200% |
 
 ##  Echanger / vendre de l'équipement calibré 
 L'équipement calibré n'est plus vendable ou échangeable. Pour le vendre / l'échanger, les joueurs doivent **réinitialiser** L'équipement calibré en utilisant **Factory Reset Shard** (qui peut être trouvé en fouillant ou sur le marché).

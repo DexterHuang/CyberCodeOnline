@@ -26,6 +26,20 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  
 
 ## Updates    
+### 2022/04/22 v0.780
+- BUFF - Print selling in `Black Market` now gain you more Print EXP 
+- UPDATE - `Black Market` has been moved to market location, this should be easily found by players
+- NEW - Added tutorial section in the quest tap to give hints to new players of what to do
+- UI - Reduced size of buff expire notice & only show up when the buff will expire in less then 60 seconds (will see if I can integrate dismiss function with this tomorrow, its too late today)
+
+### 2022/04/21 v0.780
+- NEW (Player Suggestion) - Now when critical buffs is about to end an popup will show up so it is less likely the buff accidentally die
+- NEW (Player Suggestion) - Equiping or unequipping items will no loger cause it to unlock automatically
+- NEW (Player Suggestion) - Added skip status on chat page
+
+### 2022/04/20 v0.780
+- UI - Now locked item cannot be used in black market
+
 ### 2022/04/19 v0.780
 - NEW - Added ice cream emblem
 - BUFF - `Black Market` profilt has been increased, high level player with transaction and bargain should be able to get 1,000,000 btc wiht using `Black Market` once (5 times more then doing 1 mining session at max level).

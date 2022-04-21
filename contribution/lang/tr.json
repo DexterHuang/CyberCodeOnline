@@ -22,6 +22,12 @@
  	 	}
  	},
  	"ui": {
+ 	 	"blackMarket": {
+ 	 	 	"selectItemButton": {
+ 	 	 	 	"trans": "Baskı ve sat",
+ 	 	 	 	"eng": "Print And Sell"
+ 	 	 	}
+ 	 	},
  	 	"clan": {
  	 	 	"selectDepositAmount": {
  	 	 	 	"title": {
@@ -342,6 +348,21 @@
  	 	 	 	"eng": "noti."
  	 	 	}
  	 	},
+ 	 	"chatBanner": {
+ 	 	 	"refreshBuff": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"name"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${name} birkaç saniye içinde bitmek üzere!",
+ 	 	 	 	 	"eng": "${name} is about to run out in a few seconds!"
+ 	 	 	 	},
+ 	 	 	 	"refresh": {
+ 	 	 	 	 	"trans": "Şimdi yenile",
+ 	 	 	 	 	"eng": "Refresh Now"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
  	 	"chatPreview": {
  	 	 	"notConnected": {
  	 	 	 	"trans": "Sohbet sistemi bağlı değil",
@@ -386,6 +407,10 @@
  	 	 	"lowPrintLevelTip2": {
  	 	 	 	"trans": "Daha yüksek bir baskılama rütbesine sahip olarak daha güçlü silahlar basmak için baskılama rütbenizi arttırın",
  	 	 	 	"eng": "Increase your Printing Rank to create more powerful weapons by printing more caches"
+ 	 	 	},
+ 	 	 	"lowPrintLevelTip3": {
+ 	 	 	 	"trans": "Ya da otomatik olarak yazdırarak ve önbelleklerinizi siyah pazarda satarak",
+ 	 	 	 	"eng": "Or by auto print and selling your caches in the Black Market"
  	 	 	},
  	 	 	"quickSlots": {
  	 	 	 	"trans": "Hızlı Yuvalar",
@@ -663,35 +688,6 @@
  	 	 	"longPressBackToCity": {
  	 	 	 	"trans": "Şehre geri dönmek için basılı tutun",
  	 	 	 	"eng": "Long press to go back to city"
- 	 	 	}
- 	 	},
- 	 	"machineCrafting": {
- 	 	 	"titleBox": {
- 	 	 	 	"tile": {
- 	 	 	 	 	"trans": "sistem beklemede",
- 	 	 	 	 	"eng": "system idle"
- 	 	 	 	},
- 	 	 	 	"subtitle": {
- 	 	 	 	 	"trans": "Lütfen bir eşya yerleştirin",
- 	 	 	 	 	"eng": "Please inset an item"
- 	 	 	 	}
- 	 	 	},
- 	 	 	"selectItemButton": {
- 	 	 	 	"trans": "Öğeyi geri dönüştür",
- 	 	 	 	"eng": "Recycle Item"
- 	 	 	},
- 	 	 	"selectAmount": {
- 	 	 	 	"title": {
- 	 	 	 	 	"trans": "Lütfen miktar seçiniz",
- 	 	 	 	 	"eng": "Please select amount"
- 	 	 	 	},
- 	 	 	 	"subtitle": {
- 	 	 	 	 	"vars": [
- 	 	 	 	 	 	"timeStr"
- 	 	 	 	 	],
- 	 	 	 	 	"trans": "Bu ${timeStr} alacak",
- 	 	 	 	 	"eng": "This will take ${timeStr}"
- 	 	 	 	}
  	 	 	}
  	 	},
  	 	"notificationCenter": {
@@ -1019,6 +1015,71 @@
  	 	 	}
  	 	},
  	 	"quest": {
+ 	 	 	"dynamicTutorial": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Öğreticiler",
+ 	 	 	 	 	"eng": "Tutorials"
+ 	 	 	 	},
+ 	 	 	 	"printingTooLow": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Baskı rütbesini geliştirmek",
+ 	 	 	 	 	 	"eng": "Improve Printing Rank"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "Baskı sırası, yazdırdığınız öğenin seviyesini belirler. Black Pazarda Baskı ve Satmak Baskı Exp Kazanın",
+ 	 	 	 	 	 	"eng": "Printing Rank determines the level of item you print. Gain printing exp by print & sell in Black Market"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"gearTooWeak": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Daha iyi ekipmanlar elde edin!",
+ 	 	 	 	 	 	"eng": "Get even better equipments!"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "Mevcut ekipmanınız seviyin için modası geçmiş görünüyor, onları değiştirmek için daha güçlü olanları deneyin",
+ 	 	 	 	 	 	"eng": "Your current equipment seems abit outdated for your level, try printing stronger ones to replace them"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"noUpgrade": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Ekipmanınızı yükseltin!",
+ 	 	 	 	 	 	"eng": "Upgrade your equipment!"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	 	],
+ 	 	 	 	 	 	"trans": "Ekipmanınızı ${itemName} kullanarak yükseltebilirsiniz",
+ 	 	 	 	 	 	"eng": "You can upgrade your equipment by using the ${itemName}"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"aiCore": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "AI çekirdekli kullanın",
+ 	 	 	 	 	 	"eng": "Use AI Core"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "Bazı AI çekirdekleriniz var gibi görünüyor, onları uygun seviye alanda AFK otomatik tesviye yapmak için kullanın.",
+ 	 	 	 	 	 	"eng": "Looks like you have some AI Cores, use them to do AFK auto leveling in appropriate level area."
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"noAiCore": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "AI çekirdeklerini satın almak",
+ 	 	 	 	 	 	"eng": "Acquire AI Cores"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "AI çekirdeklerini alabilirsiniz: \n         - Çeşitli yerlerde çöpçü \n         - Hash işlemcileri ve teknoloji hurdaları ile işlenmesi \n         - Tüm yerlerde düşmanlardan yağma",
+ 	 	 	 	 	 	"eng": "You may get AI Cores by: \n        - Scavenge in various locations\n        - Crafting with Hash Processors and Tech Scraps\n        - Looting from enemies in all locations"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"common": {
+ 	 	 	 	 	"clickToOpen": {
+ 	 	 	 	 	 	"trans": "Açmak için tıklayın",
+ 	 	 	 	 	 	"eng": "click to open"
+ 	 	 	 	 	}
+ 	 	 	 	}
+ 	 	 	},
  	 	 	"globalQuest": {
  	 	 	 	"progressTitle": {
  	 	 	 	 	"trans": "SL-Veri Kalesi İhlali",
@@ -1075,6 +1136,28 @@
  	 	 	 	"trans": "Hesabınız, şüpheli faaliyetler nedeniyle sistem tarafından otomatik olarak askıya alındı",
  	 	 	 	"eng": "Your account has been suspended automatically by the system due to Unusual Activity"
  	 	 	},
+ 	 	 	"possibleReasons": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "Bu şunlardan kaynaklanabilir:",
+ 	 	 	 	 	"eng": "This could be caused by:"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "1. Haksız avantaj kazanmak için birden fazla hesap oluşturdunuz",
+ 	 	 	 	 	"eng": "1. You created multiple accounts to gain unfair advantage"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "2. Otomatik, botlar vb. Gibi haksız avantaj elde etmek için bir tür otomatik yazılım kullandınız.",
+ 	 	 	 	 	"eng": "2. You have used some kind of automated software to gain unfair advantage, such as autoclicker, bots, etc."
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "3. Sistem sıradışı ağ etkinliğini tespit etti",
+ 	 	 	 	 	"eng": "3. System has detected unusual network activity"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "4. Diğer sebepler",
+ 	 	 	 	 	"eng": "4. Other reasons"
+ 	 	 	 	}
+ 	 	 	},
  	 	 	"content": {
  	 	 	 	"trans": "Herhangi bir sorunuz varsa, lütfen doğrudan Discord aracılığıyla Dexter ile iletişime geçmekten çekinmeyin (link Açılır menü -> bağlantılarda bulunabilir) veya ching.huang.dexter@gmail.com adresine bir e-posta gönderin",
  	 	 	 	"eng": "If you have any questions please feel free to contact Dexter directly via official Discord (Link can be found in Floating Menu -> Links) or email to ching.huang.dexter@gmail.com"
@@ -1100,6 +1183,35 @@
  	 	 	"title": {
  	 	 	 	"trans": "Öğretici",
  	 	 	 	"eng": "Tutorial"
+ 	 	 	}
+ 	 	},
+ 	 	"machineCrafting": {
+ 	 	 	"titleBox": {
+ 	 	 	 	"tile": {
+ 	 	 	 	 	"trans": "sistem beklemede",
+ 	 	 	 	 	"eng": "system idle"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"trans": "Lütfen bir eşya yerleştirin",
+ 	 	 	 	 	"eng": "Please inset an item"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"selectItemButton": {
+ 	 	 	 	"trans": "Öğeyi geri dönüştür",
+ 	 	 	 	"eng": "Recycle Item"
+ 	 	 	},
+ 	 	 	"selectAmount": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Lütfen miktar seçiniz",
+ 	 	 	 	 	"eng": "Please select amount"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"timeStr"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Bu ${timeStr} alacak",
+ 	 	 	 	 	"eng": "This will take ${timeStr}"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"setting": {
@@ -1253,6 +1365,23 @@
  	 	 	 	 	],
  	 	 	 	 	"trans": "${playerName} engelini kaldır",
  	 	 	 	 	"eng": "Unblock ${playerName}"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"machineCraft": {
+ 	 	 	"itemLocked": {
+ 	 	 	 	"trans": "Bu öğe kilitli",
+ 	 	 	 	"eng": "This item is locked"
+ 	 	 	}
+ 	 	},
+ 	 	"calibration": {
+ 	 	 	"confirmation": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"percent"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Bu öğeyi ${percent}% yıkıcı başarısızlık şansı ile kalibre etmek istediğinize emin misiniz?",
+ 	 	 	 	 	"eng": "Are you sure you want to calibrate this item with ${percent}% destructive failure chance?"
  	 	 	 	}
  	 	 	}
  	 	},
@@ -3098,6 +3227,16 @@
  	 	 	 	"eng": "Commercially used Neural Processing Unit (NPU). Comes with general purpose AI. \r\n        You can use this to deploy a farming bot to dungeon for you."
  	 	 	}
  	 	},
+ 	 	"aiCoreCluster": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "AI Çekirdek Küme",
+ 	 	 	 	"eng": "AI Core Cluster"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "AI çekirdek kümesi 1000 AI çekirdeklidir. Kolayca monte edilebilir ve demonte edilebilir.",
+ 	 	 	 	"eng": "AI Core Cluster contains 1000 AI Cores. can be easily assembled and disassembled."
+ 	 	 	}
+ 	 	},
  	 	"ammo1": {
  	 	 	"name": {
  	 	 	 	"trans": "Enerji Hücresi",
@@ -4250,6 +4389,16 @@
  	 	 	 	"trans": "Tamamen otomatik geri dönüştürücü, eşyalarını temel hurda formlarına geri dönüştürebilir",
  	 	 	 	"eng": "Fully automated recycler, capable of recycling items to their basic scrap form"
  	 	 	}
+ 	 	},
+ 	 	"blackMarket": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Kara borsa",
+ 	 	 	 	"eng": "Black Market"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Her türlü gölgeli fırsatlar ve nadir görülen insanlarla dolu bir yeraltı pazarı. \r\n         Hızlı para kazanmak için önbelleklerini buraya yazdırın ve sat",
+ 	 	 	 	"eng": "An underground market filled with people with all kind of shady deals and rare loots.\r\n        Print and sell your caches at the here to earn quick money"
+ 	 	 	}
  	 	}
  	},
  	"npcGangs": {
@@ -4361,6 +4510,16 @@
  	 	 	"description": {
  	 	 	 	"trans": "Konnichiwa!! ^___^\r\n        Gel ve MEGA Pachinko oyna! İnanılmaz, destansı ödüller kazanma şansı.\r\n        Oynanan oyun başı sadece 5000 Bitcoin, SINIRLI SÜRELİ TEKLİF!!! <3<3<3\r\n        ##Etkinlik sponsoru Militech'e teşekkürlerimizle##",
  	 	 	 	"eng": "Konnichiwa!! ^___^\r\n        Come play the MEGA Pachinko! With chance to win HUGE EPIC rewards\r\n        only 5000 btc per session, LIMITED TIME OFFER!!! <3<3<3\r\n        ##Special thanks for Militech for sponsoring this event##"
+ 	 	 	}
+ 	 	},
+ 	 	"gambling2": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Play Mega Pachinko S Artı Pro Max",
+ 	 	 	 	"eng": "Play MEGA Pachinko s plus pro max"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "KONNICHIWA !! Uwu \r\n         Bugün zengin ve şanslı hissediyor musun? \r\n         Şimdi sadece 1.000.000 BTC oynayın (Sınırlı Zaman Özel Teklif!) Epik bir eşya kazanma şansı% 0.1 şansınızla!",
+ 	 	 	 	"eng": "Konnichiwa!! UwU\r\n        Are you feeling rich and lucky today?\r\n        play now only 1,000,000 btc once (limited time special offer!) with 0.1% chance to win a EPIC item! \r\n        "
  	 	 	}
  	 	},
  	 	"topClanExclusive": {
@@ -4599,6 +4758,12 @@
  	 	 	"name": {
  	 	 	 	"trans": "Özerk Depolama Birimi",
  	 	 	 	"eng": "Autonomous Storage Unit"
+ 	 	 	}
+ 	 	},
+ 	 	"aiCoreCluster": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "AI Çekirdek Küme",
+ 	 	 	 	"eng": "AI Core Cluster"
  	 	 	}
  	 	},
  	 	"ammo1": {
