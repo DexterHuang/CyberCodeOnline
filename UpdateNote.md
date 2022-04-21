@@ -27,6 +27,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates    
 ### 2022/04/22 v0.780
+- UPDATE - `Black Market` has been moved to market location, this should be easily found by players
 - NEW - Added tutorial section in the quest tap to give hints to new players of what to do
 - UI - Reduced size of buff expire notice & only show up when the buff will expire in less then 60 seconds (will see if I can integrate dismiss function with this tomorrow, its too late today)
 
