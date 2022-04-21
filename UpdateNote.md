@@ -28,7 +28,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ## Updates    
 ### 2022/04/22 v0.780
 - NEW - Added tutorial section in the quest tap to give hints to new players of what to do
-- UI - Reduced size of buff expire notice & only show up when the buff will expire in less then 60 seconds
+- UI - Reduced size of buff expire notice & only show up when the buff will expire in less then 60 seconds (will see if I can integrate dismiss function with this tomorrow, its too late today)
 
 ### 2022/04/21 v0.780
 - NEW (Player Suggestion) - Now when critical buffs is about to end an popup will show up so it is less likely the buff accidentally die
