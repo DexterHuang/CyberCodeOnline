@@ -206,6 +206,7 @@ zomg
 [NTHiG](https://github.com/NTHGiT)
 [Jefreesujit](https://github.com/Jefreesujit)
 B3n7y
+[Rexyislive](https://github.com/Rexyislive)
 
 ## Tutorial
 [alfaice](https://github.com/alfaice)
@@ -304,6 +305,7 @@ spyd3r
 [Wootles](https://github.com/Wootles)
 [Manz](https://github.com/manztellen)
 [Jefreesujit](https://github.com/Jefreesujit)
+[Rexyislive](https://github.com/Rexyislive)
 
 ## Security Bug Reporters
 [0xF61](https://github.com/0xF61)

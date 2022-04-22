@@ -25,7 +25,35 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
  
 
-## Updates                
+## Updates    
+### 2022/04/22 v0.780
+- BUFF - Print selling in `Black Market` now gain you more Print EXP 
+- BUFF - Scavenge now will drop AI Core **This will NOT affact other drops! Other drop rates are NOT changed, each location's drop rate might get re-randomized due to how procedural generation works**
+- UPDATE - `Black Market` has been moved to market location, this should be easily found by players
+- NEW - Added tutorial section in the quest tap to give hints to new players of what to do
+- UI - Reduced size of buff expire notice & only show up when the buff will expire in less then 60 seconds (will see if I can integrate dismiss function with this tomorrow, its too late today)
+
+### 2022/04/21 v0.780
+- NEW (Player Suggestion) - Now when critical buffs is about to end an popup will show up so it is less likely the buff accidentally die
+- NEW (Player Suggestion) - Equiping or unequipping items will no loger cause it to unlock automatically
+- NEW (Player Suggestion) - Added skip status on chat page
+
+### 2022/04/20 v0.780
+- UI - Now locked item cannot be used in black market
+
+### 2022/04/19 v0.780
+- NEW - Added ice cream emblem
+- BUFF - `Black Market` profilt has been increased, high level player with transaction and bargain should be able to get 1,000,000 btc wiht using `Black Market` once (5 times more then doing 1 mining session at max level).
+- BUFF - Increased scale of higher rarity item sold at `Black Market`, for example `Legendary` has higher price then `Trash` items.
+- BUFF - Minor re-write on source code to ensure AFK players who only want to AFK can be self-sufficient, meaning they are not forced to play dungeon. instead only rely AFK tasks such as `BTC Mining`, `AI Core Bot Farm`, `Recycler` or `Scavange`. This is very behind the scene algorithm rewrite, mainly only to ensure AFK players have the choice to only do AFK tasks 
+- BUFF - Printing price for `Legendary` and lower have been lowered.
+
+### 2022/04/18 v0.780
+- NEW - Added `Black Market` for Automatic Print & Sell your extra caches, located at `Commercial Area`. You may print & sell your cache in bulk (max 1000) to earn quick btc, the amount of btc scales with your `Molecular Print level`, the higher it is the better profit you will make. the earning will be affact by both `Bargain` stat and BTC multification buff.
+- BALANCE - adjusted trash, common and HQ selling price and printing cost.
+- NEW - `Pachinko s Plus Pro Max` has been added.   
+- NOTICE - It would seem the game has been banned in Russia by the Russian Goverment (Likely due to Anti-war and donnation link for people of Ukraine), added a notice on login page for all Ru language players that they can player with VPN
+
 ### 2022/04/16 v0.780
 - NEW - Trinoky Mart now sells AI Core at 10,000 (same as the highest price in market, to ensure that buying in market will always be better then buying from NPC) and not affected by Bargain stat. 
 This change is needed due to the newly added `AI Core Cluster` allowing players to store large amount of AI core, making it possible for AIs in market to be brought out. this should resolve issue of no where to buy AI resulting in price being artificially hiked up. **this is still in experimental stage, and subject to change**
