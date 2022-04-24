@@ -34,8 +34,8 @@ Während der Kalibrierung der Ausrüstung, besteht die Chance, dass der Prozess 
 
 Es ist ratsam die Module aus dem Gegenstand zu nehmen, bevor man versucht zu kalibrieren, da sonst auch die Module bei einem Fehlschlag zerstört werden.
 
-Allgemein ist das Verhältnis von Ausrüstungskapazität / prozentualer Fehlschlag von jeder Stufe wie folgt:
-| Ausrüstungskapazität | Stufe | wahrscheinlicher Fehlschlag |
+Allgemein ist das Verhältnis von Seltenheit / prozentualer Fehlschlag von jeder Stufe wie folgt:
+| Seltenheit | Stufe | wahrscheinlicher Fehlschlag |
 |--|--|--|
 | Schrott | +1 | 2% |
 | Schrott | +2 | 5% |
