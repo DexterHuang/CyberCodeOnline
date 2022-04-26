@@ -107,6 +107,7 @@ Wanna
 [Karont20](https://github.com/KarontDev)
 [Valkyria](https://github.com/Paugwvsk)
 [BazzJazz](https://github.com/BassJazz)
+[Syll](https://github.com/iburiedthesun)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
