@@ -26,6 +26,11 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  
 
 ## Updates    
+### 2022/04/26 v0.780
+- UPDATE - Location names are now translatable, please follow the schema from `mobile/en/procedural-names.json` in your language config
+**There is no need to follow the english translation, just add names that would make sense in your language**
+
+
 ### 2022/04/22 v0.780
 - FIX - Serverside bug fixes
 - NEW - Added Ukrainian language, now it is still machine translated. Help needed :)
