@@ -91,19 +91,17 @@ Explanation around Item / Resources can be found on both [Inventory](https://cyb
 ## Advanced / Gameplay Related
 
 ### What is the Gear Score?
-**Gear Score** is the average level of the equipment you wear. This is calculated by averaging the levels of all your equipped gear, this includes your 3 Weapons and 4 Armor pieces. It is recommended to continue upgrading your gear as you progress through the game as high level items have better inherent stats like health, damage and armor and will make Nearby Enemies and Dungeons much easier to survive on higher levels. The percentage bracket for modifiers are constant irregardless of item level. Utilise the Profile page and check your Stats to determine which modifiers you require when planning your build.
+**Gear Score** is the average level of the equipment you wear. This is calculated by averaging the 5 levels of your equipped gear, this includes: Primary or Special Weapon (it only accounts for the highest level between the two gear) and 4 Non-Weapon / Armor (Helmet, Upper Armor, Lower Armor, Boots) gears. 
 
-### Why should I Care? 
+It is recommended to continue upgrading your gear as you progress through the game as high level items have better inherent stats like health, damage and armor and will make Nearby Enemies and Dungeons much easier to survive on higher levels. The percentage bracket for modifiers are constant irregardless of item level. Utilise the Profile page and check your Stats to determine which modifiers you require when planning your build.
+
+#### Why should I Care About Gear Score? 
 Checking your Gear Score on your profile page can not only give you a quick idea whether you need to look to upgrade but it has two secret impacts directly tied into gameplay other than stats.
-1)	The higher your gear score, the more XP you’ll gain through the AFK XP Farm - Deploy Farm Bot so you’ll need an “AFK Set”.
-
-2)	Dungeons will not allow you to obtain loot from chests or XP from enemies if your Gear Score is more than 10 levels higher than the Dungeon Level itself.
+- The higher your gear score, the more XP you’ll gain through the AFK XP Farm - Deploy Farm Bot, thus having an “AFK Set” will maximize your EXP gain.
+- Dungeons will not allow you to obtain loot from chests or XP from enemies if your Gear Score is 10+ levels higher than the Dungeon Level itself.
 
 ### What is an AFK Set?
 Many players have a swappable “AFK Set”; for this, only the gear score matters not the stats nor modifiers so Trash Caches can be printed to fill all 7 slots and bring your Gear Score back inline with your Character Level.  Before you rush off to start printing though; remember to make sure to check your level of Printing Rank on your Profile page as subsequent prints will only have the level equal to your current Printing Rank; if not, printing Weapon, Armor or Mod Caches will raise your Printing Rank.
-
-### But I have no Caches! What do I do?
-You can gain XP to level Printing Rank without using up caches by heading over to **[Job Hub] Shangri-La City Center** and completing the **Work In Printing Factory** task; this costs nothing but your time. If you’re in a hurry, scroll down to the **Reverse Engineer Scraps** task and sacrifice some Tech Scraps for Printing Rank EXP in mere seconds.
 
 ### What is the Max Item / Stack?
 You can carry up to 10000 items (same amount applies to Bank, Market, and Item Inbox) into your Inventory, exluding Gear & Upgrade Modules.
