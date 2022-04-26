@@ -26,6 +26,10 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  
 
 ## Updates    
+### 2022/04/27 v0.780
+- UPDATE - Some new players will need to reach level 10 before they can send emails, system will apply to player base on varius factors.
+- UPDATE - Captcha now more colorful :)
+
 ### 2022/04/26 v0.780
 - UPDATE - Location names are now translatable, please follow the schema from `mobile/en/procedural-names.json` in your language config
 **There is no need to follow the english translation, just add names that would make sense in your language**
