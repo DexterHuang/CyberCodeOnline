@@ -106,8 +106,9 @@ Wanna
 [Fataliste](https://github.com/Nasaelo)
 [Karont20](https://github.com/KarontDev)
 [Valkyria](https://github.com/Paugwvsk)
-[BazzJazz](https://github.com/BassJazz)
-[Syll](https://github.com/iburiedthesun)
+[BazzJazz](https://github.com/BassJazz) 
+[Syll](https://github.com/iburiedthesun) 
+[blacksurgeon](https://github.com/blacksurgeon) 
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
