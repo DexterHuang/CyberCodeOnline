@@ -108,6 +108,8 @@ Wanna
 [Valkyria](https://github.com/Paugwvsk)
 [BazzJazz](https://github.com/BassJazz)
 [blacksurgeon](https://github.com/blacksurgeon)
+[RedWolf141](https://github.com/RedWolf141)
+Omega_finale
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
