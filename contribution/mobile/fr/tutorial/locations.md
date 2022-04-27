@@ -67,6 +67,12 @@ Ici, vous pouvez vendre et acheter des objets à d'autres joueurs dans le jeu po
 Gardez à l'esprit que chaque fois que vous souhaitez vendre ou acheter un article sur le marché, vous devrez remplir un captcha de 4 chiffres.
 Ceci est en place pour empêcher les bots d'utiliser et de manipuler le marché des joueurs.
 
+## Marché Clandestin
+![Black Market](/resources/mobile-tutorial/BlackMarket.png)
+Un marché clandestin avec toutes sortes d'affaires louches et générant des profits instantanés.
+
+Au Marché Clandestin, vous pouvez vendre vos plan via une tâche AFK, ce qui facilite et accélère la génération de BTC à empocher.
+
 ## Cosmétiques Cybernétiques
 ![Cosmetic Cyberwear](/resources/mobile-tutorial/CosmeticCyberwear.png)
 À cet endroit, vous pouvez acheter des abonnements au jeu pour de l'argent réel.
