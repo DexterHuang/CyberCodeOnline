@@ -128,6 +128,11 @@ These are an item that players can use for various needs, ranging from AFK Task,
 - For Market purposes, players can sell these items on **Shangri-La Market Street**, following current market prices. 
 - For Trade purposes, players can trade their AI Cores for various items with other players such as Medical Tech Parts, Hash Processor, Containers, etc. 
 
+### AI Core Cluster
+**AI Core Cluster** is the compressed version of AI. 1 AI Core Cluster contains 1,000 AI, making it more managable and easy to store inside player's inventory. AI Core Cluster can be made (needs 1,000 AI & 50,000 BTC) and disassembled via Crafting.
+
+AI Core Cluster can also be used as a Market-value item, and Trade Currency.
+
 ### Hash Processor
 **Hash Processor** are essential for players as a way to gain Mining EXP, a Market-value item, and Trade Currency.  
 
