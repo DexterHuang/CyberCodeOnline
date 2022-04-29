@@ -106,8 +106,10 @@ Wanna
 [Fataliste](https://github.com/Nasaelo)
 [Karont20](https://github.com/KarontDev)
 [Valkyria](https://github.com/Paugwvsk)
-[BazzJazz](https://github.com/BassJazz)
-[blacksurgeon](https://github.com/blacksurgeon)
+
+[BazzJazz](https://github.com/BassJazz) 
+[Syll](https://github.com/iburiedthesun) 
+[blacksurgeon](https://github.com/blacksurgeon) 
 [RedWolf141](https://github.com/RedWolf141)
 Omega_finale
 
