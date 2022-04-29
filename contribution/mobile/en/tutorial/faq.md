@@ -1,5 +1,7 @@
 > This FAQ (Frequently Asked Question) were compiled based on major question thats been asked by community and new player in general. Feel free to edit & add more FAQ-related content on [Github](https://github.com/DexterHuang/CyberCodeOnline).
 
+> Can't find an Answer for your Question? Feel free to ask them in **Global / Language Chat** or **CCO's Discord**! 😃
+
 ## Starting Point
 
 ### What Is This Game? And How To Play It?
@@ -9,7 +11,7 @@ More in-depth explanation can be found on dedicated Tutorial section.
 
 ### What Do I Get From Joining / Finishing A Fight?
 
-You'll receive in-game currency called **BTC** and in-game experience called **EXP** inside a battle. You'll randomly receive items, equipment or caches after defeating enemies.
+You'll receive in-game currency called **BTC (Bitcoin)** and in-game experience called **EXP (Experience)** inside a battle. At times, you'll randomly receive items, equipment or caches after defeating enemies.
 
 **[You'll always be receive BTC and EXP in a battle, but items won't drop after every single battle.]** 
 
@@ -55,13 +57,15 @@ For best results, try to compelete **Challenge Dungeons** at rare and below gear
 Note: You could also level up by doing AFK Task (**Deploy Farm Bot**) that requires **AI Core**. These task takes time (up to 2 hours) & only be profitable if a Global Skip event is happening, which recudes the task time (making it the most efficient way to level up). Explanation around Time Skip can be found on [Time Skip's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fglobal_skip.md)
 
 ### I Need more BTC. Help!
-You can yield / gain BTC quickly by selling certain items on **Shangri-La Market Street**. At the start, its recommended to sell your Medical Tech Parts, Tech Scrap, and Hash Processor onto the market following the current market price. Specifically for Hash Processor, as a lower level player, it's best to sell Hash Processor at the start rather than using it for **Crypto Mining** task as it yields for less BTC than it's actual market price. 
+You can yield / gain BTC quickly by selling certain items on **Shangri-La Market Street**. At the start, its recommended to sell your Medical Tech Parts, Tech Scrap, and Hash Processor onto the market following the current market price. Specifically for Hash Processor, as a lower level player (for at least below level 100), it's best to sell Hash Processor at the start rather than using it for **Crypto Mining** task as it yields for less BTC than it's actual market price.
+
+With addition of Black Market (as of 2022/04/18), players can also "print" their own BTC by selling their caches onto Black Market. However, this action will only be profitable on higher level (with addition on Bargain stats), making it more likely to become a high-level player feature.
 
 ### What will happen if I Die / Flatlined?
-You will lose 10% of your unbanked BTC and EXP; however your inventory will be safe. It is advisable to keep your BTC in **Arasaka Bank** in order to prevent major losses.
+**After level 10, you will lose 10% of your unbanked BTC and EXP**; however your inventory will be safe. It is advisable to keep your BTC in **Arasaka Bank** in order to prevent major losses.
 
 ### Why can't I use my Special and Destructive weapons?
-These weapons require ammo. Special weapons uses Energy Cells and Destructive weapons use Anti-Matter Charges. Ammo can be looted form enemies, crafted in your Inventory, or bought on the player market.
+These weapons require ammo. Special weapons uses **Energy Cells** and Destructive weapons use **Anti-Matter Charges**. Ammo can be looted form enemies, crafted in your Inventory, or bought on the player market.
 
 ### What are caches and what should I do with them?
 Cache is an item that you can use to craft equipment at the Molecular 3D Printer.  It is not recommended to scrap your caches as it has 50% chance of giving Tech Scrap & also more valuable to print or sell.
@@ -104,7 +108,7 @@ Checking your Gear Score on your profile page can not only give you a quick idea
 Many players have a swappable “AFK Set”; for this, only the gear score matters not the stats nor modifiers so Trash Caches can be printed to fill all 7 slots and bring your Gear Score back inline with your Character Level.  Before you rush off to start printing though; remember to make sure to check your level of Printing Rank on your Profile page as subsequent prints will only have the level equal to your current Printing Rank; if not, printing Weapon, Armor or Mod Caches will raise your Printing Rank.
 
 ### What is the Max Item / Stack?
-You can carry up to 10000 items (same amount applies to Bank, Market, and Item Inbox) into your Inventory, exluding Gear & Upgrade Modules.
+You can carry up to 10000 items (same amount applies to Bank, Market, and Item Inbox) into your Inventory, excluding Gear & Upgrade Modules.
 
 ### What is the amount of Inventory Slot that we can acquired?
 At the start, players will have the base of 50 Inventory Slot. Players can increase the amount of slot by equipping backpack (which can be acquired via Lee's Trading Post, Player Market, and Player Trade) and using gear or modules that has a **Pocket** stats. The max Inventory Slots are 178.
@@ -114,6 +118,9 @@ Explanation around Global / Time Skip can be found on [Time Skip's Tutorial](htt
 
 ### What is Calibration?
 Explanation around Calibration can be found on [Calibration's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
+
+### What is Pachinko?
+**Pachinko** or **Pachinko's Plus Pro Max** is an AFK task that simulates the real-life game of Pachinko, where players put their in-game currency on a line for a chance to get a high-tier item (in this case, there's a chance of getting an **Epic Gear** from Pachinko) or merely a low-tier item (ranged from **Pain Away**, **Energy Cells**, and other materials). In order to "play" Pachinko, player must have at least 5,000 (for normal Pachinko) & 1,000,000 (for Pachinko's Plus Pro Max) Bitcoin in hand before starting the task. 
 
 ### Does the game support trading among players?
 Yes, partially. You can send items to other players, but there isn't a system that forces the other person to give something in exchange. Most trades are conducted with trust. You can't gift BTC and key fragments to other players. Only Healing Items, Ammo, Materials, Hash Processors, AI Cores and other types of items.
@@ -151,10 +158,10 @@ Your printed gear will have the same level as the one from your 'Printing Rank'.
 Yes. Higher level enemies give you more BTC and experience after you defeat them.
 
 ### What are Locked Containers and how do I unlock them?
-Locked containers (✧) can be found and picked up from dungeons or by doing Scavenge Task. They can be unlocked using Tech Scraps at the Terminal in the main HUB, and contain various rewards ranging from Tech Scrap to Legendary gear. Tech scrap costs for opening the containers are 32 Tech Scrap for common containers, 64 for rare containers, and 128 for legendary ones. If you don't see the option for unlocking the container at the Terminal, it means you do not have enough Tech Scraps.
+**Locked Containers (✧)** can be found and picked up from dungeons or by doing Scavenge Task. They can be unlocked using Tech Scraps at the Terminal in the main HUB, and contain various rewards ranging from Tech Scrap to Legendary gear. Tech scrap costs for opening the containers are 32 Tech Scrap for common containers, 64 for rare containers, and 128 for legendary ones. If you don't see the option for unlocking the container at the Terminal, it means you do not have enough Tech Scraps.
 
 ### What is Street Cred?
-Street Cred (Street Credit) is a way to appreciate someone you like or who has helped you. They are similar to "Karma" points on Reddit. You can give 1 Street Cred per day. To give Street Cred, go to the person's profile, scroll down to 'Player Actions' and click on **Give Street Cred** option that's located under **Add to Friend List** button. Consider giving some Street Credit to the people that contributed to this game! You can view the list at Profile > Phone Icon > Leaderboard > Street Cred.
+**Street Cred (Street Credit)** is a way to appreciate someone you like or who has helped you. They are similar to "Karma" points on Reddit. You can give 1 Street Cred per day. To give Street Cred, go to the person's profile, scroll down to 'Player Actions' and click on **Give Street Cred** option that's located under **Add to Friend List** button. Consider giving some Street Credit to the people that contributed to this game! You can view the list at Profile > Phone Icon > Leaderboard > Street Cred.
 
 ### What's That Heart / Snowflake Thing That Emits on Chat Room?
 When a skip is initialized, a unique button (represented with a fast forward icon) will appear on the right side of the Chat room, at the top of the "Send" button. The fast forward-like button was referred to as a **Skipper Respect** button. This button alone will only appear during Global Skip and vanish after Global Skip is finished.
@@ -197,9 +204,9 @@ The loot in the crates is randomly generated for each player. Therefore, it's im
 Explanation around Gang can be found on [Gang's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fgangs.md)
 
 ### What are Gangs and how do I create one?
-Gangs are similar to guilds or clans in other MMORPGs.  Joining a gang gives you access to new AFK tasks, a recycler to make tech scrap, and gang chat!  You also gain access to gang dungeons, which have a high level of difficulty but greater rewards than the regular dungeons.
+Gangs are similar to guilds or clans in other MMORPGs. Joining a gang gives you access to new AFK tasks, a recycler to make tech scrap, and gang chat!  You also gain access to gang dungeons, which have a high level of difficulty but greater rewards than the regular dungeons.
 
-You can create one by selecting the Gang chat.  The cost to create a gang is 50,000 BTC.  Gangs have a weekly upkeep cost that must be met to avoid being disbanded. Gangs allow you to have a tag of 3 letters, chosen when the gang was created, in your chat border.
+You can create one by selecting the Gang chat. The cost to create a gang is 50,000 BTC.  Gangs have a weekly upkeep cost that must be met to avoid being disbanded. Gangs allow you to have a tag of 3 letters, chosen when the gang was created, in your chat border.
 
 ### How do I search for a Gang? How do I join one?
 Currently, you can't see a list of gangs in the game. You can join one by creating it yourself or by receiving an invite from a gang.
@@ -210,8 +217,11 @@ Gang HQ is located in the main HUB, under [Player Market].  At the Gang HQ you'r
 ### Can I rename my Gang? Can I have the same tag as another Gang has?
 Currently, you can't rename your own gang. It's forbidden to have the same tag as other gangs. All gangs should have different / unique tags in order to avoid confusion.
 
-### How can I level up my gang?
+### How can I level up my Gang?
 To be able to maintain your gang and to level it up, each member of the gang will have to gather resources (through an AFK task in the Gang Headquarters) and will also have to donate bitcoins to it.
+
+### How to Leave my Gang?
+To leave a Gang, go to Profile > Scroll Down > Quit Gang.
 
 
 ## General / Other
