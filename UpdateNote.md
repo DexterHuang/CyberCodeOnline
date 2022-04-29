@@ -26,6 +26,10 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  
 
 ## Updates    
+### 2022/04/29 v0.780
+- FIX - Fixed item lore ${tierName} not showing issue
+- FIX - Fixed some client crash issue
+
 ### 2022/04/27 v0.780
 - UPDATE - Some new players will need to reach level 10 before they can send emails, system will apply to player base on varius factors.
 - UPDATE - Captcha now more colorful :)
