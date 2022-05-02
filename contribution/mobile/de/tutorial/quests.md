@@ -1,2 +1,3 @@
-## Quests
-Quests can be found in the Quest tab at the bottom of the screen. Here is where you are given specific tasks that will earn you extra experience points and BitCoins. There are a variety of tasks available, such as printing equipment, killing enemies, and gaining experience or BitCoins. Once you have completed a quest, click on it to claim the rewards. In most cases, you will also be given a new quest. You can also acquire quests inside dungeons by speaking to the quest giver, which is marked as a '?'.  
+## Aufträge
+Aufträge können unten in der Leiste unter `Aufträge` gefunden werden. Du bekommst hier spezifische Aufgaben um extra Erfahrung und BitCoins zu erhalten. Es gibt verschiedene Arten davon, unter anderem: Ausrüstung drucken, Gegner eliminiern und Erfahrung oder BitCoins sammeln.
+Sobald du eine Aufgabe gelöst hast, kannst du darauf klicken um deine Belohnung zu erhalten. In den meißten Fällen erhälst du auch eine neue Aufgaben. Du kannst auch Aufgaben erhalten indem du in einem Dungeon mit einem Auftraggeber sprichst. Diese werden mit einem '?' markiert.

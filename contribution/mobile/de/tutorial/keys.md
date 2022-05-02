@@ -1,10 +1,10 @@
-## Secret Keys
-Leveling areas of the game are called 'Stations'. Each Station has 3 mini-areas, each with mobs within a certain level range and normal and challenge dungeons. Every dungeon has a boss room, with either lots of tough mobs which are higher level or a super boss which has a lot of hitpoints, potentially defeating players in one hit.
+## Geheime Schlüssel
+Die Gebiete zum leveln werden 'Stationen' genannt. Jede Station hat 3 Mini-Bereiche, jede mit Mobs innerhalb eines bestimmten Levelbereichs sowie normalen und herausfordernden Dungeons. Jeder Dungeon hat einen Bossraum mit entweder vielen starken Gegnern (höheres Level) oder einem sehr starken Boss (hat viele Trefferpunkte), welcher deinen Charakter mit einem Treffer ausschalten kann.
 
-After defeating all of the enemies in the boss room of a challenge dungeon, you will find a key fragment which is represented by a window icon in the room. Once you have all 3 fragments from one station, you can craft a Secret Key at the Terminal, which is found at the Shangri-La City Center (main HUB area of the game). Each Secret Key will grant you access to a new Station and a new list of higher-level enemies and dungeons to explore.  
+Nachdem du alle Feinde im Bossraum eines Herausforderungs-Dungeons besiegt hast, findest du ein Schlüsselfragment, das durch ein Fenstersymbol im Raum dargestellt wird. Sobald du alle 3 Fragmente von einer Station hast, kannst du einen geheimen Schlüssel am Terminal herstellen, das sich im Stadtzentrum von Shangri-La (Haupt-HUB-Bereich des Spiels) befindet. Jeder geheime Schlüssel gewährt dir Zugang zu einer neuen Station und einer neuen Liste von höherstufigen Feinden und Dungeons, die es zu erkunden gilt.
 
-Additional key fragments can either be discarded (when interacting with the icon in the dungeon) or destroyed (from your inventory).
+Zusätzliche Schlüsselfragmente können entweder abgelegt (bei Interaktion mit dem Symbol im Dungeon) oder zerstört (aus deinem Inventar) werden.
 
-Key fragments cannot be sent to other people nor be sold on the Player Market.
+Schlüsselfragmente können weder an andere Personen gesendet noch auf dem Spielermarkt verkauft werden.
 
-This is the main progression mechanic of the game and dungeons will continue to increase in level and difficulty with you. However, if your player level is 10 levels below the dungeon's recommended level, you won't be able to join it. If you are too many levels above a mob, you also won't receive any loot rewards on defeating the enemy. If you are 12 levels above the recommended dungeon level, you won't be able to interact with anything, including doors, quest givers and loot.
+Dies ist die Hauptfortschrittsmechanik des Spiels, und Dungeons werden mit dir an Level und Schwierigkeitsgrad weiter zunehmen. Wenn dein Spielerlevel jedoch 10 Level unter dem empfohlenen Level des Dungeons liegt, kannst du ihm nicht beitreten. Wenn du zu viele Level über einem Mob bist, erhälst du auch keine Beutebelohnungen für das Besiegen des Feindes. Wenn du 12 Level über dem empfohlenen Dungeon-Level bist, kannst du mit nichts mehr interagieren, einschließlich Türen, Questgebern und Beute.

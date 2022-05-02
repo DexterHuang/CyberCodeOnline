@@ -1,9 +1,9 @@
 
-## How to refer someone?
-Simply give the person your in game name, and when they create a new character, they simply need to select you as referrer at the character creation screen (where you name your character).
+## Wie werbe ich jemanden an?
+Gib der Person einfach deinen Namen im Spiel, und wenn sie einen neuen Charakter erstellt, muss sie dich einfach als Werber auf dem Charaktererstellungsbildschirm auswählen (wo man seinen Charakter einen Namen vergibt).
 
-##  Referral Benefits
-1. Whenever the player you referred purchased unit, you will also receive 10% of it, for example when the player you referred purchased 2000 Unit, you would receieve 200 Unit automatically.
-3. When ever a player you referred reached level `20`, you will receieve some rewards: 
+##  Werbe Vorteile
+1. Immer wenn der von dir geworbene Spieler eine Einheit gekauft hat, erhälst du ebenfalls 10 % davon. Wenn der von dir geworbene Spieler beispielsweise 2000 Einheiten gekauft hat, erhälst du automatisch 200 Einheiten.
+3. Wann immer ein von dir geworbener Spieler Level „20“ erreicht, erhälst du einige Belohnungen:
 	- 1 `Fanny Pack`
-	- 1`Locked Rare Container`
+	- 1 `Locked Rare Container`

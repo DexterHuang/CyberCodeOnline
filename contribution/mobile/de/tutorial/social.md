@@ -1,36 +1,36 @@
-# Social
-In CyberCodeOnline, there are few ways of communicating with other players around the world, which ranged from social chatting onto personal messaging with other player.
+# Sozial
+In CyberCode Online gibt es einige Möglichkeiten, mit anderen Spielern auf der ganzen Welt zu kommunizieren, die von sozialen Chats bis hin zu persönlichen Nachrichten mit anderen Spielern reichen.
 
 ## Chats
-Chats consist of different channels, with a goal to socialize with each other. These were justified by having **Chat Quest** being activated after player speaks in chat for the first time.  
+Chats bestehen aus verschiedenen Kanälen mit dem Ziel, miteinander in Kontakt zu treten. Diese wird unterstützt, durch **Chat-Quest** die aktiviert wurden, nachdem der Spieler zum ersten Mal im Chat gesprochen hatte.  
 
-Explanation around Chat can be found on [Chat's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fchat.md)
+Eine Erklärung zum Chat findest du unter nachfolgenden Link [Chat's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fchat.md)
 
 ## Gangs
-Currently gangs are just a private chat area for a group of up to 32 (and more) friends to communicate, with a side of gang task and other gang exclusive feature. There are plans to add more gang related feature in the future. 
+Derzeit sind Gangs nur ein privater Chat-Bereich für eine Gruppe von bis zu 32 (und mehr) Freunden zur Kommunikation, mit einer Seite von Gang-Aufgaben und anderen exklusiven Funktionen für Gangs. Es gibt Pläne, in Zukunft weitere Gang-bezogene Funktionen hinzuzufügen. 
 
-Explanation around Gangs can be found on [Gang's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fgangs.md)
+Eine Erklärung zu Gangs findest du unter nachfolgenden Link [Gang's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fgangs.md)
 
-## Adding Friends
-To access your personal friends list, click on the floating menu and choose the **People**'s icon. You can add friends by going into a user's profile, scrolling down and clicking **Add to Friend List**. You can do the same to remove a friend by clicking the **Remove From Friend List** button.
+## Freunde hinzufügen
+Um auf deine persönliche Freundesliste zuzugreifen, klicke auf das schwebende Menü und wähle das Symbol **Personen**. Du kannst Freunde hinzufügen, indem du in das Profil eines Benutzers gehst, nach unten scrollst und auf **Zur Freundesliste hinzufügen** klickst. Du kannst dasselbe tun, um einen Freund zu entfernen, indem du auf die Schaltfläche **Von der Freundesliste entfernen** klickst.
 
-Adding someone to your friends list will not require the other person to accept the request. They will simply be added to your friends list. Viewing your friends list will allow you to see if they are online, idle or offline.
+Wenn du jemanden zu deiner Freundesliste hinzufügst, muss die andere Person die Anfrage nicht annehmen. Sie werden einfach zu deiner Freundesliste hinzugefügt. Wenn du deine Freundesliste anschaust, kannst du sehen, ob sie online, inaktiv oder offline sind.
 
-## Block Feature
+## Block Funktion
 
 ![BlockFeature1](/resources/mobile-tutorial/BlockFeature1.png)
 
-Players are able to block other players when necessary. To do so, a player needs to click their Username (in chat) and pick **Block Option** that's below the Profile option. When a player gets blocked, the player who blocked them can't see their messages until they unblock them.
+Spieler können andere Spieler bei Bedarf blockieren. Dazu muss ein Spieler auf seinen Benutzernamen (im Chat) klicken und **Blockierungsoption** auswählen, die sich unterhalb der Profiloption befindet. Wenn ein Spieler blockiert wird, kann der Spieler, der ihn blockiert hat, seine Nachrichten nicht sehen, bis er sie entsperrt.
 
 ![BlockFeature2](/resources/mobile-tutorial/BlockFeature2.png)
 
-To unblock other players, a player needs to find **Block List** option, which can be found on Profile / Map > Phone Icon > All Apps > Block List. After that, the player chooses the player's username and click **Unblock** button that's on the right side of the blocked player's username.
+Um andere Spieler zu entsperren, muss ein Spieler die Option **Sperrliste** auswählen, die unter Profil / Karte > Telefonsymbol > Alle Apps > Sperrliste zu finden ist. Danach wählt der Spieler den Benutzernamen des Spielers aus und klickt auf die Schaltfläche **Entsperren** rechts neben dem Benutzernamen des blockierten Spielers.
 
 ![BlockFeature3](/resources/mobile-tutorial/BlockFeature3.png)
 
-After choosing out which player will be unblocked, a pop-up will be shown, to confirm player's action on unblocking the stated player. Clicking on **YES** button implies that the stated player will be unblocked and its chat can be seen again.
+Nachdem du ausgewählt hast, welcher Spieler entsperrt werden soll, wird ein Popup angezeigt, um das Entsperren des angegebenen Spielers zu bestätigen. Wenn du auf die Schaltfläche **JA** klickst, wird der angegebene Spieler entsperrt und sein Chat kann wieder angezeigt werden.
 
-## Player Trading
-While there is no official feature to trade, **Sending Gift to Player** works in a way bridge out the way of trading in this game. To initialize a trade, both players arrange a deal via **Private Message** with a sense of trust on both sides. Once a deal is approved, both players trade their goods and thank each other when a deal is done.
+## Spieler Handel
+Obwohl es keine offizielle Handelsfunktion gibt, funktioniert **Geschenk an Spieler senden** in gewisser Weise als Brücke zum Handel in diesem Spiel. Um einen Handel zu initialisieren, arrangieren beide Spieler einen Deal per **Privatnachricht** auf Vertrauensbasis. Sobald ein Geschäft genehmigt wurde, tauschen beide Spieler ihre Waren und danken sich gegenseitig, wenn ein Geschäft abgeschlossen ist.
 
-If a player tries to scam others, it's recommended to report this behavior to in-game `Moderator` via Private Message rather than announce it in **Global Chat** to prevent misinformation or bad behavior by any means.
+Wenn ein Spieler versucht, andere zu betrügen, wird empfohlen, dieses Verhalten dem `Moderator` im Spiel per privater Nachricht zu melden, anstatt es im **globalen Chat** anzukündigen, um Fehlinformationen oder schlechtes Verhalten auf jeden Fall zu verhindern.

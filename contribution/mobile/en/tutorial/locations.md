@@ -67,6 +67,13 @@ Here you can sell and purchase items to and from other players within the game f
 Keep in mind that whenever you want to sell or buy an item on the market, you will have to complete a captcha of 4 numbers.  
 This is in place to prevent bots from using and manipulating the player market.
 
+## Black Market
+![Black Market](/resources/mobile-tutorial/BlackMarket.png)
+An underground market with all kinds of shady deals and quick profit.
+
+In Black Market, you can sell your caches via AFK Task, making it easier and quicker to generate BTC for your pocket.
+Black Market can be found on Shangri-La Market Street.
+
 ## Cosmetic Cyberwear  
 ![Cosmetic Cyberwear](/resources/mobile-tutorial/CosmeticCyberwear.png)  
 In this location you can buy in-game subscriptions for real money.  
