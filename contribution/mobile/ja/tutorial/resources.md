@@ -36,51 +36,51 @@
 また, 作成できる薬には単体回復と全体回復の2つのカテゴリがあります.
 
 ### 単体回復
- 名前が示すように, 単体回復アイテムは指定された量だけ自分自身を回復します. 単体回復薬は「アスピリン」と, 「～ボット」という名前のアイテムです（例：ナノメディックボット）. 単体回復アイテムをクラフトするには, 指定された数の医療機器パーツと医療スキルレベルが必要です.
+名前が示すように, 単体回復アイテムは指定された量だけ自分自身を回復します. 単体回復薬は「アスピリン」と, 「～ボット」という名前のアイテムです（例：ナノメディックボット）. 単体回復アイテムをクラフトするには, 指定された数の医療機器パーツと医療スキルレベルが必要です.
 
 > **アスピリン** （回復量：501） - 医療レベル不問 ; 医療機器パーツ×1
 
-> **劣化したナノリペアボット** （回復量：1201） - 医療スキルレベル 10 ; 医療機器パーツ×2
+> **劣化したナノリペアボット** （回復量：1201） - 医療スキル 10 ; 医療機器パーツ×2
 
-> **劣化したナノメディックボット** （回復量：6001） - 医療スキルレベル 20 ; 医療機器パーツ×4
+> **劣化したナノメディックボット** （回復量：6001） - 医療スキル 20 ; 医療機器パーツ×4
 
-> **ナノメディックボット** （回復量：12001） - 医療スキルレベル 30 ; 医療機器パーツ×8 
+> **ナノメディックボット** （回復量：12001） - 医療スキル 30 ; 医療機器パーツ×8 
 
-> **軍用ナノメディックボット** （回復量：26001） - 医療スキルレベル 40 ; 医療機器パーツ×16
+> **軍用ナノメディックボット** （回復量：26001） - 医療スキル 40 ; 医療機器パーツ×16
 
-> **次世代型ナノメディックボット**  （回復量：54001） - 医療スキルレベル 50 ; 医療機器パーツ×32 
+> **次世代型ナノメディックボット**  （回復量：54001） - 医療スキル 50 ; 医療機器パーツ×32 
 
-> **高品質ナノメディックボット** （回復量：110001） - 医療スキルレベル 70 ; 医療機器パーツ×64 
+> **高品質ナノメディックボット** （回復量：110001） - 医療スキル 70 ; 医療機器パーツ×64 
 
-> **珍しいナノメディックボット** （回復量：240001） - 医療スキルレベル 90 ; 医療機器パーツ×128
+> **珍しいナノメディックボット** （回復量：240001） - 医療スキル 90 ; 医療機器パーツ×128
 
-> **伝説のナノメディックボット** （回復量：480001） - 医療スキルレベル 110 ; 医療機器パーツ×256
+> **伝説のナノメディックボット** （回復量：480001） - 医療スキル 110 ; 医療機器パーツ×256
 
-> **エピックナノメディックボット** （回復量：1000001） - 医療スキルレベル 130 ; 医療機器パーツ×256
+> **エピックナノメディックボット** （回復量：1000001） - 医療スキル 130 ; 医療機器パーツ×256
 
 
 ###  全体回復
  全体回復アイテムは使用時にダンジョン内のグループ全体を回復できます. ただし一人当たりの回復量は同じティアの単体回復薬よりも少ないです. 全体回復薬は「アスピリンスプレー」と, 「～ドローン」という名前のアイテムです（例：ナノメディックドローン）. 全体回復アイテムを作成するには, 同じレベルの単体回復薬とそれに対応する数のテックスクラップが必要です. たとえば「アスピリンスプレー」を作成するには, アスピリン1つとテックスクラップ1つが必要です.
 
-> **Pain Away Spray** (301+ Health) - Med Science 10 ; 1 Pain Away & 1 Tech Scrap
+> **アスピリンスプレー** (回復量：301) - 医療スキル 10 ; アスピリン×1 & テックスクラップ×1
 
-> **Degraded Repair Drone** (901+ Health) - Med Science 20 ; 1 Degraded Nano Repair Bot & 1 Tech Scrap
+> **劣化したナノリペアドローン** (回復量：901) - 医療スキル 20 ; 劣化したナノリペアボット×1 & テックスクラップ×1
 
-> **Degraded Nano Medic Drone** (4001+ Health) - Med Science 30 ; 1 Degreaded Nano Medic Bot & 1 Tech Scrap
+> **劣化したナノメディックドローン** (回復量：4001) - 医療スキル 30 ; 劣化したナノメディックボット×1 & テックスクラップ×1
 
-> **Nano Medic Drone** (10001+ Health) - Med Science 40 ; 1 Nano Medic Bot & 1 Tech Scrap
+> **ナノメディックドローン** (回復量：10001) - 医療スキル 40 ; ナノメディックボット×1 & テックスクラップ×1
 
-> **Military Nano Medic Drone** (20001+ Health) - Med Science 50 ; 1 Military Nano Medic Bot & 1 Tech Scrap
+> **軍用ナノメディックドローン** (回復量：20001) - 医療スキル 50 ; 軍用ナノメディックボット×1 & テックスクラップ×1
 
-> **Advanced Nano Medic Drone** (40001+ Health) - Med Science 60 ; 1 Advanced Nano Medic Bot & 1 Tech Scrap
+> **次世代型ナノメディックドローン** (回復量：40001) - 医療スキル 60 ; 次世代型ナノメディックボット×1 & テックスクラップ×1
 
-> **High Quality Nano Medic Drone** (80001+ Health) - Med Science 80 ; 1 High Quality Nano Medic Bot & 1 Tech Scrap
+> **高品質ナノメディックドローン** (回復量：80001) - 医療スキル 80 ; 高品質ナノメディックボット×1 & テックスクラップ×1
 
-> **Rare Nano Medic Drone** (160001+ Health) - Med Science 100 ; 1 Rare Nano Medic Bot & 1 Tech Scrap
+> **珍しいナノメディックドローン** (回復量：160001) - 医療スキル 100 ; 珍しいナノメディックボット×1 & テックスクラップ×1
 
-> **Legendary Nano Medic Drone** (320001+ Health) - Med Science 120 ; 1 Legendary Nano Medic Bot & 1 Tech Scrap
+> **伝説のナノメディックドローン** (回復量：320001) - 医療スキル 120 ; 伝説のナノメディックボット×1 & テックスクラップ×1
 
-> **Epic Nano Medic Drone** (640001+ Health) - Med Science 140 ; 1 Epic Nano Medic Bot & 1 Tech Scrap
+> **エピックナノメディックドローン** (回復量：640001) - 医療スキル 140 ; エピックナノメディックボット×1 & テックスクラップ×1
 
 
 ##  各種技術部品
@@ -105,71 +105,59 @@
 **全体回復アイテム**, **ハッシュプロセッサー**, **AIコア**をクラフトするのに必要な素材です.  
 他にも, シャングリ・ラ商業地区で**リバースエンジニアリング**を行う際に消費したり, **ターミナル**で鍵のかかったコンテナを開けるのに大量に必要になったり, **リーの交易所**で「ボロボロのカバン」と交換できたり, プレイヤー同士による取引で用いられたりと, 用途には事欠きません.
 
-このゲームにおいて最も必要になるアイテムと言っても過言ではないでしょう.
+***このゲームにおいて最も必要になるアイテムと言っても過言ではないでしょう.***
 
 
-## Consumables
-These are an item that players can use for various needs, ranging from AFK Task, Market Item, Trade Item, or just a plain consumable.
+## 消費アイテム
+その他様々なアイテムです. AFKタスクに消費したり, プレイヤー間での取引の際に通貨代わりに利用したり, 単に使用して消費したりと, 用途は多岐にわたります.
 
-### AI Core
-**AI Cores** are essential for players as a way to gain Character EXP, a Market-value item, and Trade Currency. 
+### AIコア
+**AIコア**は重要なアイテムの一つです. AFKタスクに使用して経験値を獲得したり, 取引に用いたりできます. 
 
-- For EXP purposes, players can use it on the highest unlocked area on Station via **Deploy Farm Bot** task. 
-- For Market purposes, players can sell these items on **Shangri-La Market Street**, following current market prices. 
-- For Trade purposes, players can trade their AI Cores for various items with other players such as Medical Tech Parts, Hash Processor, Containers, etc. 
+- EXP獲得手段として使いたい場合は, 探索可能な駅の中で最もレベルが高いエリアに**開拓用ボットを配置**しましょう. 経験値だけでなく, アイテムも持ち帰ってくれます. 
+- プレイヤーマーケットで売却することでBTCを稼ぐこともできます. ただし, 売値はその時の相場によって変動するので, あまり高く売れなさそうであれば無理に売る必要はありません.
+- 他プレイヤーとの取引に使う際には, 相手と相談して「どちらがどのアイテムを, 何個のAIコアと交換するのか」などを決めてから**ギフトを送る**機能でトレードしましょう. 
 
-### Hash Processor
-**Hash Processor** are essential for players as a way to gain Mining EXP, a Market-value item, and Trade Currency.  
+### ハッシュプロセッサー
+**ハッシュプロセッサー**は**クリプトマイニング**を行うのに不可欠なアイテムです. 他にも, プレイヤーマーケットに売りに出したり, AIコアと同様トレードの通貨代わりにも使えます. 
 
-- For EXP purposes, players can use it on **Shangri-La Commercial Area** via **Crypto Mining** task. 
-- For Market purposes, players can sell these items on **Shangri-La Market Street**, following current market prices. 
-- For Trade purposes, players can trade their Hash Processor for various items with other players such as Medical Tech Parts, AI Cores, Containers, etc. 
+- **シャングリ・ラ商業地区**で**クリプトマイニング**を行うことで, 「マイニングスキル」を上げることができます. 
+- プレイヤーマーケットでの売却・プレイヤー間での取引の際には, 注意することはAIコアと同じです. 相場の確認や相手との相談を事前にしっかり行ってください. 
 
-### Experience Memory / Shard
-**Experience Memory / Shard** is an item that players can use to gain EXP instantly. The difference between Memory & Shard was the type of EXP, as Memory gains Character EXP and Shard gains Skills EXP respectively. These items are not tradable and best to be used when **Frontal Cortex Optimization Transmitter** or **EXP Buff** were in effect.
+### EXPシャード/メモリ
+**EXPシャード**や**EXPメモリ**は, 使用することで即時に経験値を得られるアイテムです. シャードを使うとスキル経験値が, メモリを使うとプレイヤーレベル経験値がそれぞれ得られます.  
+これらのアイテムは売却したり, 他人に送ったりすることができません. グローバルバフ **「前頭皮質の強化」（獲得経験値ブースト）** の発動中に使うとよいでしょう. 
 
-### Containers
-**Containers** are essential for players as an alternative way of finding AI / Hash Processor, a Market-value item, and Trade Currency.  
+### コンテナ
+**鍵のかかった（珍しい/伝説の）コンテナ**は, **AIコア**と**ハッシュプロセッサー**を入手する有効的な手段です. また, マーケットでの売却や取引の通貨としての利用も可能です. 
 
-To open Locked Containers, players must visit **Terminal** while having BTC and Tech Scrap in its inventory. When opening Containers, players will mostly find items such as AI Core, Hash Processor, Gear (based on players level), and unique drop which can only be found on specific Containers.
+コンテナを開けるには, **ターミナル**でBTCとテックスクラップを消費する必要があります. コンテナを開けると,AIコアやハッシュプロセッサー, 装備品などを手に入れることができます. また, イベント専用の特別なコンテナも存在します. 特殊なアイテムが出てくるかもしれません.  
+### 装備キャリブレーションコア
+**装備キャリブレーションコア**はその名の通り, 装備のキャリブレーションに必要なアイテムです. キャリブレーションに関する詳しい説明はこちらをご覧ください→ [キャリブレーションについて](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
 
-Players can also use Container as a Market item or as Trade Currency, which both benefits players via BTC or other traded items.
-
-### Equipment Calibration Core
-**Equipment Calibration Core** was used as a calibration item. Whenever a player attempts to do calibration, players must insert Equipment Calibration Core before proceeding to gear calibration. Explanation around Calibration can be found on [Calibration's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
-
-Players can also use Equipment Calibration Core as a Market item or as Trade Currency, which both benefit players via BTC or other traded items.
-
-### Factory Reset Shard
-**Factory Shard** was used as a way to reset calibration, thus players can trade / sell the designated gear. Explanation around Calibration can be found on [Calibration's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
-
-Players can also use Factory Shard as a Market item or as Trade Currency, which both benefit players via BTC or other traded items.
+### リセットシャード
+**リセットシャード**を使用することで, 装備品のキャリブレーション状態をリセットできます. キャリブレーションされている装備（強化が施され, +1 などのプラス値が付与されている装備）は売却やプレイヤー間の交換ができなくなりますが, リセットシャードを使うことで再び取引が可能になるというわけです. 
 
 
-## Gang Items
-These are an item that players can use for gang needs, ranging from AFK Task, Trade Item, or as a requirement to do a certain activity. For in-depth explanation around Gangs can be found on [Gang's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fgangs.md)
+## ギャング関連のアイテム
+以下のアイテムは, ギャングに所属している場合に必要になるアイテムです. ギャングの維持に必要になったり, 特定のAFKタスクを行う際に消費したりします.  
+ギャング, 及びギャングで行う各タスクの内容に関する詳しい説明はこちらをご覧ください→ [ギャングについて](https://cybercodeonline.com/markdown?path=tutorial%2Fgangs.md)
 
-### Supply Crate
-**Supply Crates** were used as a way to gain Gang Resources & Gang EXP. To do so, players must do Gang Task which involves using Supply Crates as a requirement (these certain tasks will also give players Mining EXP). Supply Crates can also be used as a way to "define gang territory" by doing **Occupation Control** task, as this will give the gang a certain **Occupation Point** with no contribution to Gang Resources.
+### 支援クレート[ギャング]
+**支援クレート[ギャング]** は, **ギャングリソース**や**ギャングEXP**を集めるのに必要になるアイテムです.  
+プレイヤーマーケットで売却したり, ギフト機能を利用しての他プレイヤーに送ることができます. 
 
-Supply Crates are tradeable and can be sold or traded with other players.
+### 暗号化ギャングメモリのかけら
+**暗号化ギャングメモリのかけら**を使用すると, ギャングEXPを獲得することができます.  
+マーケットでの売却, 他プレイヤーへの送信は共に可能です.
 
-### Encrypted Gang Memory Shard
-**Encrypted Gang Memory Shard** was used as a way to gain Gang EXP. To do so, players must do Gang Task which involves using Encrypted Gang Memory Shard as a requirement (these certain tasks will also give players Mining EXP & Equipment Drops).
+### プロトコル突破装置のかけら
+**プロトコル突破装置のかけら**を使用し, **SLデータ防壁の突破**に参加することができます（突破の進行状況は**クエスト**タブで確認できます）. **ギャング本部**から**SLデータ防壁へのハッキング**を実行することで参加が可能です.  
+マーケットでの売却, 他プレイヤーへの送信は共に可能です.
 
-Encrypted Gang Memory Shard are tradeable and can be sold or traded with other players.
-
-### Protocol Breach Shard
-**Protocol Breach Shard** was used as a way to contribute to **SL-Data Fortress Breach** (which player can see its progression on **Quest** tab). To contribute to one, players must do Gang Task which involves using Protocol Breach Shard as a requirement.
-
-Protocol Breach Shard are tradeable and can be sold or traded with other players.
-
-### Gang Invasion Order Transmitter
-**Gang Invasion Order Transmitter** was used as a way to enter **Gang Dungeons**. When entering one, keep in mind that Gang Dungeons are the most difficult dungeon of all, thus having proper gear might help ease out the difficulty.
-
-Gang Invasion Order Transmitters are tradeable and can be sold or traded with other players.
-
-
+### ギャング侵略指令送信機
+**ギャング侵略指令送信機**は**ギャングダンジョン**に入る際に必要になります. ギャングダンジョンに挑戦する際には, 敵が非常に強いことを忘れずに！  
+マーケットでの売却, 他プレイヤーへの送信は共に可能です. チャットのマーケットチャンネルでは, 英語名における各単語の頭文字をとって「GIOT」と呼ばれています（**G**ang **I**nvasion **O**rder **T**ransmitters）.
 
 
 ## バフアイテム
@@ -177,7 +165,8 @@ Gang Invasion Order Transmitters are tradeable and can be sold or traded with ot
 
 ### シナプス加速送信機
 AFKタスクの進行を, 10分間 5％加速させます. 効果は80％まで重複可能です. 発動中にさらにシナプス加速送信機を使用すると, タイマーをリセットして効果時間を延長できます. ブーストが発動している状態でAFKタスクを開始すれば恩恵を得られます. このアイテムは全世界の他の人のシナプス加速送信機と重複し, 影響を与えます. なお, 珍しいシナプス加速送信機とは効果が重複しません.  
-このアイテムは**ダンジョンボス部屋のクレート**か**パチンコ**からのみ入手できます.
+このアイテムは**ダンジョンボス部屋のクレート**か**パチンコ**からのみ入手できます.  
+> パチンコって何？という方は, 「よくある質問」の項目の最後を見てみて下さい😀
 
 ### キャリブレーションAIのかけら（5%）
 このアイテムは使用者本人にしか効果がありません. 5分の間, キャリブレーションの際に装備が破壊される確率を5%下げます. 複数個使うことで効果は重複し, また使用個数に上限はありません. ただし, この効果はグローバルバフとは重複しません.  
@@ -216,8 +205,8 @@ AFKタスクの進行を, 10分間 5％加速させます. 効果は80％まで�
 
 ### チャットエクスプロイト
 このアイテムを使用することで得られる恩恵は実は何もありません. ただ, よく見るとチャットの様子がなんだかおかしいような...？  
-チャットエクスプロイトが発動すると, 全てのチャンネルから発信される全てのチャットの文面が影響を受けます.  
-勝手にカワイイ顔文字が付いたり(UwU)　皆が愛に溢れたり(^3^)/~♡　いろんなエクスプロイトが存在します.
+チャットエクスプロイトが発動すると, 全てのチャンネルから発信されるチャットの文面が影響を受けます.  
+打ち込んでいないはずなのに勝手にカワイイ顔文字が付いていたり(UwU)　皆が突然愛に目覚めたり(^3^)/~♡　いろんなエクスプロイトが存在します.
 
 ### 乱数干渉
 このアイテムを使うと「鍵のかかった伝説のコンテナ」から出るアイテムの確率が変化します. このバフの発動中に伝説のコンテナを開けると, 「伝説の」アイテムが1%, 「英雄の」アイテムが0.5%の確率で追加ドロップします. この効果は2分間しか持続しません.  
@@ -226,21 +215,6 @@ AFKタスクの進行を, 10分間 5％加速させます. 効果は80％まで�
 ### グローバルタイムスキップ
 これはアイテムではありませんが, プレイヤーはAFK画面（AFKタスクの進行中の[マップ]タブ）から**グローバルスキップ**を購入し, **タスクを即完了させる**ことができます. スキップする時間は15分から180分の範囲で選ぶことができます. 時間スキップは上記バフと合わせて発動できるため, すでにバフが実行されている場合にはスキップを使用するとよいでしょう. 
 
-他のすべての有料アイテムと同様, タイムスキップはサーバー上のすべてのユーザーに適用されます. ただし、すぐに時間をスキップするため、ボタンを押す前にAFKタスクを開始したプレイヤーのみが特典を受け取ります。多くの場合、人々が一緒にタグを付ける準備ができるように、グローバルチャットで調整することが役立つ場合があります。
+他のすべての有料アイテムと同様, タイムスキップはサーバー上のすべてのユーザーに適用されます. ただし, 使用と同時にスキップ効果が発動するため, スキップボタンを押す前にAFKタスクを開始していたプレイヤーのみが恩恵を受けることになります. グローバルチャットで告知を行ってからスキップを使えば, 他のプレイヤーがあなたのスキップに合わせてタスクを開始することができるので, より多くの人々と喜びを分かち合うことができるでしょう. 
 
-この特典はすべてのAFKプレイヤーに1つずつ適用されるため、効果がすべての人に適用されるまでに1〜3分かかる場合があります。ほとんどの通常のスキッパーは、スキップボタンが再び使用可能になってから約1分待つことをお勧めします。ブーストも実行されている場合は、30分のスキップを購入するのが最も一般的な選択肢です。
-
-
-## Modifiers
-**Modifiers**. These modifiers can only be found in the dungeon, by picking up **Quest Giver** that is represented by `?` symbol. For full modifier list, can be found on [Combat's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcombat.md)
-
-Type / kinds of Modifiers can be summarized as follows:
-
-### Overcharged
-**Overcharged** affects player's damage within a span amount of time. The damage modifiers ranged from +5% (**Overcharged I**) up to +25% (**Overcharged V**)
-
-### Reinforced
-**Reinforced** affect player's defence within a span amount of time. The defence modifiers ranged from +5% (**Reinforced I**) up to +25% (**Reinforced V**)
-
-### Shield Enhance  
-**Shield Enhance** affect player's shield multiplier within a span amount of time. The shield multiplier modifiers ranged from +5% (**Shield Enhance I**) up to +25% (**Shield Enhance V**)
+スキップが行われると, 全てのAFKプレイヤーひとりひとりに反映の処理が発生するので, 効果が全員に適用されるまでに1〜3分かかる場合があります. ラグによってスキップが無駄になるプレイヤーが少なく済むよう, スキップボタンが再び使用可能になってからすぐに次のスキップを行うのではなく, 1分ほど待つことをお勧めします. ブーストも実行されている場合は, 30分のスキップを購入するのが最も無難な選択肢です.
