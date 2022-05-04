@@ -16,6 +16,16 @@ Inside **Calibration Station**, the player will be asked to insert the **Equipme
 
 After 30 minutes, A player is allowed to calibrate any gear (excluding maxed Calibrated Gear) that's not equipped into their equipped slot. 
 
+## Outside of Calibration Station
+
+As of **v0.780 (2022/03/04) update**, players were allowed to do Calibration during the AFK Task / Dungeon session. 
+
+![CalibrationStationAlt](/resources/mobile-tutorial/CalibrationStationAlt.png)
+
+In order to do so, players must click on its designated gear then pick the `View Details` option. On the **Equipment Details** section, click on the **Upgrade** or **Calibration Slots** button to navigate to Calibration Station. In this way, players can do calibration at ease.
+
+Keep in mind that only unequipped gear was the ones that can be calibrated.
+
 ## Chance of Destructive Failure
 
 ![CalibrationStation4](/resources/mobile-tutorial/CalibrationStation4.png)
@@ -45,12 +55,30 @@ In general, the calibration boost tier (and where to find them) is as follows:
 - **Calibration AI Shard (Common)** reduce the chance of failure by 5%; only for Personal Use; can be found in Rare Locked Containers
 - **Calibration AI Shard (Rare)** reduce the chance of failure by 10%; Global Buff; can only be bought in the Arasaka Unit Exchange
 - **Calibration AI Shard (Legendary)** reduce the chance of failure by 50%; Global Buff; can only be bought in the Arasaka Unit Exchange
-- **Calibration AI Shard (Legendary)** reduce the chance of failure by 100%; Global Buff; can only be bought in the Arasaka Unit Exchange
+- **Calibration AI Shard (Epic)** reduce the chance of failure by 100%; Global Buff; can only be bought in the Arasaka Unit Exchange
 - **Calibration AI Shard (Prestige)** reduce the chance of failure by 300%; Global Buff; can only be bought in the Arasaka Unit Exchange 
 
 Players can also negate the destructive effect by activating **Calibration Safety Nano Bots** (which can be found in Mysterious Containers / or bought in the Arasaka Unit Exchange) before calibrating the gear.
 
 Keep in mind that the boosts **will only last for 5 min** & each tier / rarity of boost **can only be stacked twice** (excluding Common Shard). It's best to be prepared before boosting.
+
+## Gear Improvement
+With each calibration, gear gets improved and far better than un-calibrated gear (depending on its level). These improvements ranged from higher health, better damage, more inventory slots, etc.
+
+Improvement (from calibration; from its base stats) percentage as follows:
+| Tier | Gear Improvement |
+|--|--|
+| +1 | 5% |
+| +2 | 10% |
+| +3 | 15% |
+| +4 | 20% |
+| +5 | 40% |
+| +6 | 60% |
+| +7 | 80% |
+| +8 | 110% |
+| +9 | 150% |
+| +10 | 200% |
+
 
 ##  Trade / Sell Calibrated Gear 
 Players can't trade / sell their calibrated gear. To trade / sell related gear, players need to **Reset** the calibrated gear by using **Factory Reset Shard** (that can be found on Scavenge or Market).

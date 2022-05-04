@@ -1,0 +1,4 @@
+# Bad Teamwork Among Cyber Code Mercenaries
+> CCO Event #2 : Survivor (2 of 2)
+
+Another training camp was held by the higher ups on 10th May 2077 to address the bad cooperation and teamwork among Cyber Code Mercenaries. This time the mercenaries were tasked to do guerilla asymmetric warfare. Each participating mercenary is tasked to take out a pocket resistance group and neutralizing their force by assasinating their leader and killing key targets as fast as possible. The Cyber Code Mercenaries who failed the last training task were eager to prove their skills when operating solo, while the veterans hope this would teach them the difficulties of operating alone, and the importance of working together as a team. The mercenary with fastest mission completion time was awarded extra supplies to support future deployments.

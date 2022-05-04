@@ -52,6 +52,7 @@ Proxxie
 [kj415j45](https://github.com/kj415j45)
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)
 [Kraken-Juice](https://github.com/Kraken-Juice)
+[masuda2022](https://github.com/masuda2022)
 [Mazoom](https://github.com/mazoom81)
 [Misaki](https://github.com/Misaki290)
 [Murfex](https://github.com/Murfex)
@@ -100,6 +101,17 @@ Wanna
 [fusiondesu](https://github.com/fusion-desu)
 [McKnight](https://github.com/ReILIaX)
 [B3llial](https://github.com/B3lli4l)
+[HKCisONLINE](https://github.com/hkcisonline)
+[SunRisek](https://github.com/szymonagk)
+[Fataliste](https://github.com/Nasaelo)
+[Karont20](https://github.com/KarontDev)
+[Valkyria](https://github.com/Paugwvsk)
+
+[BazzJazz](https://github.com/BassJazz) 
+[Syll](https://github.com/iburiedthesun) 
+[blacksurgeon](https://github.com/blacksurgeon) 
+[RedWolf141](https://github.com/RedWolf141)
+Omega_finale
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
@@ -144,6 +156,7 @@ Experiencedkk7t
 [DOUNODEWAE](https://github.com/js147896325) 
 [zolir](https://github.com/ZolirAsure)
 Kalinka
+Xenacious69
 
 ## Dungeons
 Alecto
@@ -156,9 +169,11 @@ Brownin89
 Dragonmaster84
 ElectricSoldier323
 [Hally](https://twitter.com/g_hally1996)
+Hardboiled_Cat
 HeyaItsLuna
 JashinL
 [JEricaM](https://github.com/JEricaM)
+Killzonegx
 krolik
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)
 [Leviaiz](https://github.com/rewlf2)
@@ -172,11 +187,13 @@ Negative
 Nyoon
 PoopBalloon
 Punxi8__
+Rejid
 RezaRnew100
 romain22222
 RookieBob
 SitiSchu
 SKIFFI
+[skullbuns](https://github.com/Skullbuns)
 [Tripplehelix](https://github.com/tripplehelix)
 Vega_Efsunborn
 [Veyrin](https://github.com/darkrevelations)
@@ -192,6 +209,9 @@ zomg
 [Wootles](https://github.com/Wootles)
 [K4LM3D](https://github.com/mksalada)
 [NTHiG](https://github.com/NTHGiT)
+[Jefreesujit](https://github.com/Jefreesujit)
+B3n7y
+[Rexyislive](https://github.com/Rexyislive)
 
 ## Tutorial
 [alfaice](https://github.com/alfaice)
@@ -240,6 +260,7 @@ Kaktusmonas
 [Montero](https://github.com/CCOLucille2)
 [mxjoda](https://twitter.com/mxjoda)
 MontyPython
+moxie__
 [nopeholmes](https://github.com/nopeholmes)
 Poetics
 PoopBalloon
@@ -254,6 +275,7 @@ Satan
 [Yahishiro](https://github.com/Yahishiro)
 Punxi8__
 [Prodam](https://github.com/Pr0dam)
+B3n7y
 
 ## Tips
 [Archibaald](https://github.com/Archibaald-dev)
@@ -288,10 +310,12 @@ spyd3r
 [Wootles](https://github.com/Wootles)
 [Manz](https://github.com/manztellen)
 [Jefreesujit](https://github.com/Jefreesujit)
+[Rexyislive](https://github.com/Rexyislive)
 
 ## Security Bug Reporters
 [0xF61](https://github.com/0xF61)
 Enkidu99
+[LianSheng](https://github.com/LianSheng197)
 [Lighty](https://github.com/Lightyin4k)
 [MagicCookie](https://github.com/GooseGooseStop)
 [Spellchaser](https://github.com/Spellchaser)

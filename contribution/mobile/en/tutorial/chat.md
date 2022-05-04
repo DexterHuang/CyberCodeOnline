@@ -8,6 +8,6 @@ There are 6 types of chat rooms in CyberCode Online currently:
 - **Market Channel** : Where players can put ads for items they want to sell / buy / trade. Usually, AI cores and rates are used as a currency in this channel (rates usually appear as Item amount:AI Core amount, unless stated otherwise). 
 - **Roleplay Channel** : Where players can roleplay freely as they wish, creating their own stories and lore. 
 
-In order to mention (or tag) someone in the Global chat, you can use '@' and the name of the user (for example: '@DexterHuang'). As you type their name, a list will appear and you can select the desired name from that list. You can also mention other players by clicking their username and then select the Option **Reply** or by typing $!{playerName:} (for example $!{playerName:DexterHuang}). The player mentioned by you will receive a notification that you mentioned them. 
+In order to mention (or tag) someone in the Global chat, you can use '@' and the name of the user (for example: '@DexterHuang'). As you type their name, a list will appear and you can select the desired name from that list. You can also mention other players by clicking their username and then select the Option **Reply** The player mentioned by you will receive a notification that you mentioned them. 
 
 Note: You can't mention (tag) someone in the private chat for obvious reasons, as it accounts as **Ghosting** and will annoy tagged player, however, if someone tags you in gang chats, you will receive a notification of that message, but will not be able to visualize it. 

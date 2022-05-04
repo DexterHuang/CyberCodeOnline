@@ -1,0 +1,4 @@
+# A New Golden Age of BitCoin Mining
+> (Part 2 of 8 hash processor series)
+
+The primary draw for mining is the prospect of being rewarded with Bitcoin in exchange of processing and electrical power. That said, you certainly don't have to be a miner to own cryptocurrency tokens now. Historically the only way to earn cryptocurrency such as BitCoin is to either mine it, or purchase them using now defunct Fiat Currency. Since the global adoption of BitCoin as the official global currency in 2071 by the WGO BitCoin mining has been met with exponential growth among entrepreneurs. The day BitCoin was crowned the "World Currency" each of the 21 million existing BitCoins were valued at 9.3 billion US Dollars which are split into 10 billion pieces, and each coin is set to a fixed value of 1 dollar. Who would not want the ability to basically print money?

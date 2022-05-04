@@ -70,6 +70,8 @@
 
 ### 傳聞 (!)
 
+![DungeonLoreguy](/resources/mobile-tutorial/DungeonLoreguy.png)
+
 地下城周圍散布著驚嘆號，提供遊戲傳聞的片段。這些不會對你的遊戲或地下城產生影響，但可能會很有趣。
 
 ### 寶物 / BOSS 房
@@ -79,3 +81,15 @@
 你可以從變多的板條箱數量看出，這個房間很特別。看起來像一個百葉窗的板條箱包含一個密鑰碎片，可用於製作解鎖新區域的密鑰。
 
 在此圖中，你還可以看到其他玩家的助力。在低級別和嘗試挑戰地下城時尤其建議這樣做，因為挑戰地下城的 BOSS 的生命值和攻擊得到了極大的強化，作爲更多的經驗值的代價。
+
+### 小遊戲
+
+有時在你擊敗敵人、嘗試打開板條箱或進入另一個房間時，會突然出現一個小遊戲，情況就像你在探索地下城時遇上了不同的突發事件。在現時的版本中（更新 v.0780)，只有一個小游戲被添加到了遊戲內，名為 **Color Scheme Minigame**。
+
+![DungeonMinigame1](/resources/mobile-tutorial/DungeonMinigame1.png)
+
+這個小游戲由3種顏色條組成（紅、綠、黃；加上作為輔助使用的符號），你需要在60秒內按顏色順序成功點擊40次。另外你也可以看到之後兩條較薄的顏色條。 
+
+![DungeonMinigameFail1](/resources/mobile-tutorial/DungeonMinigameFail1.png)
+
+小遊戲失敗將會導致 `DECRYPTION FAILED` 介面出現，說明你未能按順序點擊正確的顏色， 不過，你可以點擊 **Try Again** 再嘗試一次。

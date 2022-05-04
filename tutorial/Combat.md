@@ -19,7 +19,7 @@ Attack the enemy with your equipped special weapon. Consumes one energy cell for
 Attack the enemy with your equipped destructive weapon. Consumes one antimatter charge.
 
 ## Use Item
-This option is only available in dungeons. You are able to select from medical items to heal yourself and other players to outlast the enemies. You are also able to use xp memories to level up your player if you so choose.
+This option is only available in dungeons. You are able to select from medical items to heal yourself and other players to outlast the enemies. (Healing yourself does not cause your opponent to attack you.) You are also able to use xp memories to level up your player if you so choose.
 
 ## Escape
 With this option you can try to escape from combat. The success rate of escaping combat outside a dungeon is 100%. However if you are fighting inside a dungeon and try to escape, the chance will be based on your escape % which is taken from your armour and upgrade stats. If you fail to escape, you will then be attacked by the enemy without dealing any damage.  

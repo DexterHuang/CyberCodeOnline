@@ -5,17 +5,17 @@
 > Se você sentir que alguém está violando uma das regras e nenhum moderador estiver por perto, tire uma captura de tela e denuncie via mensagem direta aos moderadores no [servidor Discord](https://discord.gg/JREx8xz).
 ### Diretrizes importantes
 * É altamente recomendável jogar com apenas uma conta por pessoa, pois nosso sistema sinalizará contas alt, impedindo que você envie itens entre suas contas. *isso pode acontecer mesmo se você tiver apenas um alt* (não ajudaremos você a mover seus itens ou desbloquear a conta se o sistema sinalizar você.)
-* Nunca use o bate-papo no jogo (incluindo e-mail) para enviar qualquer tipo de informação sensível/pessoal. O bate-papo do jogo NÃO é criptografado e NÃO é seguro. O CCO não assume nenhuma responsabilidade de proteger suas informações que você escreve no chat. Lembre-se de que os moderadores têm acesso ao log de bate-papo para fins de moderação.
+* Nunca use o bate-papo no jogo (incluindo e-mail) para enviar qualquer tipo de informação sensível/pessoal. O bate-papo do jogo NÃO é criptografado e NÃO é seguro. O CCO não assume nenhuma responsabilidade de proteger às informações que você escreve no chat. Lembre-se de que os moderadores têm acesso ao log de bate-papo para fins de moderação.
 
 ### Regras do jogo
 * É proibido o uso de bots e scripts
 * Sem assistência de ferramentas
 * Sem alts excessivos. (**A menos que você providencie uma razão que justifique a necessidade de criar um alt, é considerado desnecessário, logo excessivo**)
-    * Exaemplo de uma razão válida:
+    * Exemplo de uma razão válida:
       * Você esqueceu a sua palavra-chave e ficou bloqueado fora da conta
       * Sua conta principal está bugada e não consegue usar mais ela
     * Exemplo de uma razão inválida:  
-      * Eu quero criar alts para que eu possa trocar items mais rápido que os outros players
+      * Eu quero criar alts para que eu possa trocar itens mais rápido que os outros jogadores
       * Eu quero criar alts para guardar quantias ilimitadas de itens
       * Eu quero criar alts para que eu possa fazer várias tarefas AFK paralelas sem limite
       * Eu quero criar alts para que eu possa scammar pessoas com novos nomes
@@ -29,7 +29,7 @@
 **Todas as regras estão listadas aqui, NÃO há "regras não escritas", mas seja respeitoso e pare se outros jogadores não gostarem do que você está enviando no chat**
 
 #### Não permitido:
-* hostil, desrespeitoso com a opinião dos outros / mensagens ofensivas ou passivas agressivas (Exemplo, comentários racistas, sexistas)
+* ser hostil, desrespeitoso com a opinião dos outros / mensagens ofensivas ou passivas agressivas (Exemplo, comentários racistas, sexistas)
 * bate-papo não familiar
 * Spam / Troll
 * Anúncio / Menção de outro jogo ou qualquer outra coisa

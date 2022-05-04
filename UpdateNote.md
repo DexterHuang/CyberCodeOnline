@@ -25,7 +25,100 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
  
 
-## Updates        
+## Updates    
+### 2022/05/04 v0.780
+- FIX - Server-side bug fixes
+
+### 2022/04/29 v0.780
+- FIX - Fixed item lore ${tierName} not showing issue
+- FIX - Fixed some client crash issue
+
+### 2022/04/27 v0.780
+- UPDATE - Some new players will need to reach level 10 before they can send emails, system will apply to player base on varius factors.
+- UPDATE - Captcha now more colorful :)
+
+### 2022/04/26 v0.780
+- UPDATE - Location names are now translatable, please follow the schema from `mobile/en/procedural-names.json` in your language config
+**There is no need to follow the english translation, just add names that would make sense in your language**
+
+
+### 2022/04/22 v0.780
+- FIX - Serverside bug fixes
+- NEW - Added Ukrainian language, now it is still machine translated. Help needed :)
+- BUFF - Print selling in `Black Market` now gain you more Print EXP 
+- BUFF - Scavenge now will drop AI Core **This will NOT affact other drops! Other drop rates are NOT changed, each location's drop rate might get re-randomized due to how procedural generation works**
+- UPDATE - `Black Market` has been moved to market location, this should be easily found by players
+- NEW - Added tutorial section in the quest tap to give hints to new players of what to do
+- UI - Reduced size of buff expire notice & only show up when the buff will expire in less then 60 seconds (will see if I can integrate dismiss function with this tomorrow, its too late today)
+
+### 2022/04/21 v0.780
+- NEW (Player Suggestion) - Now when critical buffs is about to end an popup will show up so it is less likely the buff accidentally die
+- NEW (Player Suggestion) - Equiping or unequipping items will no loger cause it to unlock automatically
+- NEW (Player Suggestion) - Added skip status on chat page
+
+### 2022/04/20 v0.780
+- UI - Now locked item cannot be used in black market
+
+### 2022/04/19 v0.780
+- NEW - Added ice cream emblem
+- BUFF - `Black Market` profilt has been increased, high level player with transaction and bargain should be able to get 1,000,000 btc wiht using `Black Market` once (5 times more then doing 1 mining session at max level).
+- BUFF - Increased scale of higher rarity item sold at `Black Market`, for example `Legendary` has higher price then `Trash` items.
+- BUFF - Minor re-write on source code to ensure AFK players who only want to AFK can be self-sufficient, meaning they are not forced to play dungeon. instead only rely AFK tasks such as `BTC Mining`, `AI Core Bot Farm`, `Recycler` or `Scavange`. This is very behind the scene algorithm rewrite, mainly only to ensure AFK players have the choice to only do AFK tasks 
+- BUFF - Printing price for `Legendary` and lower have been lowered.
+
+### 2022/04/18 v0.780
+- NEW - Added `Black Market` for Automatic Print & Sell your extra caches, located at `Commercial Area`. You may print & sell your cache in bulk (max 1000) to earn quick btc, the amount of btc scales with your `Molecular Print level`, the higher it is the better profit you will make. the earning will be affact by both `Bargain` stat and BTC multification buff.
+- BALANCE - adjusted trash, common and HQ selling price and printing cost.
+- NEW - `Pachinko s Plus Pro Max` has been added.   
+- NOTICE - It would seem the game has been banned in Russia by the Russian Goverment (Likely due to Anti-war and donnation link for people of Ukraine), added a notice on login page for all Ru language players that they can player with VPN
+
+### 2022/04/16 v0.780
+- NEW - Trinoky Mart now sells AI Core at 10,000 (same as the highest price in market, to ensure that buying in market will always be better then buying from NPC) and not affected by Bargain stat. 
+This change is needed due to the newly added `AI Core Cluster` allowing players to store large amount of AI core, making it possible for AIs in market to be brought out. this should resolve issue of no where to buy AI resulting in price being artificially hiked up. **this is still in experimental stage, and subject to change**
+
+### 2022/04/09 v0.780
+- NEW - Added `AI Core Cluster` equivalent of 1000 AI Cores, can be crafted with 1000 AI Cores + 50,000 BTC (equivalent of price for 5 AI) and craft back to 1000 AI Cores, Currently is not used in game except for serving the purpose of "Compressed AI Cores"
+
+### 2022/04/07 v0.780
+- UI - Updated the SL Data fortress breach user name to `[REDUCTED]` instead of a hardcoded `Xh81d` to avoid confusion
+- UPDATE - Now healing tile is usable even when there are enemies around
+
+### 2022/04/05 v0.780
+- FIX - Potential fix for rare case of non-last-hitter not getting exp
+- UPDATE - Level cap raised to 500
+
+### 2022/04/02 v0.780
+- FIX - Security bug fixes
+
+### 2022/04/01 v0.780
+- UPDATE - Updated language config generation code, unused translations should be automatically removed, config file is now sorted differently
+
+### 2022/03/24 v0.780
+- FIX - Fixed in some device AFK task does not finish automatically
+- FIX - Samsung phones with newest webview result in abnormally large UI should now be fixed. Please download the newest game version from playstore.
+
+### 2022/03/19 v0.780
+- NEW - Added manual sync button at AFK screen, when your AFK task has finish but the client doesnt update (most of time is due to incorrect device time), you can click it to manually update with server
+
+### 2022/03/16 v0.780
+- NEW - You can now switch between your owned skin
+- NEW - Added emblem system, you may purchase emblems with Unit, it will show up in chat frame and in the next update in your profile
+
+### 2022/03/12 v0.780
+- FIX - Fixed chat related bug
+- FIX - Fixed gang related bug
+
+### 2022/03/07 v0.780
+- UI - Update market level select UI
+- FIX - Fixed serverside issue
+- OPTIMIZATION - client optimization
+
+### 2022/03/06 v0.780
+- FIX - fixed devices that has incorrect timezone or time cannot finish AFK tasks normally
+
+### 2022/03/05 v0.780
+- UI - Added price display when clicking on NPC shop item
+
 ### 2022/03/04 v0.780
 - UPDATE - Updated calibration interface and equipement UI
 - UPDATE - Top gang display at `Flori Station` will be temporarely replaced by `stop war` banner, in support of people who are suffering due to the war, click on the banner will bring you to UK goverment website on how to help with the situation, (Top gang guys, hope you can understand :) )
