@@ -26,6 +26,9 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  
 
 ## Updates    
+### 2022/05/04 v0.780
+- FIX - Server-side bug fixes
+
 ### 2022/04/29 v0.780
 - FIX - Fixed item lore ${tierName} not showing issue
 - FIX - Fixed some client crash issue
