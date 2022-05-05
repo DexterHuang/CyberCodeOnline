@@ -1,5 +1,5 @@
 # Resources
-Every item has it's own purposes, ranging from ranging from **Equipment** (which also includes **Upgrade Modules** and **Equipment Caches**), **Ammo**, **Medical Items**, **Crafting Ingredients**, **Key Fragment / Secret Keys**, **Global Boost**, and other consumables. Here are some items that are catalogued onto it's respective category.
+Every item has it's own purposes, ranging from **Equipment** (which also includes **Upgrade Modules** and **Equipment Caches**), **Ammo**, **Medical Items**, **Crafting Ingredients**, **Key Fragment / Secret Keys**, **Global Boost**, and other consumables. Here are some items that are catalogued onto it's respective category.
 
 
 ## Ammo (for weapons)
