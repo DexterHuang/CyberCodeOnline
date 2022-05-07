@@ -25,7 +25,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
  
 
-## Updates    
+## Updates        
+### 2022/05/07 v0.780
+- FIX - Fixed UI become too big in some samsung phones
+
 ### 2022/05/04 v0.780
 - FIX - Server-side bug fixes
 
