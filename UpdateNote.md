@@ -26,6 +26,9 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  
 
 ## Updates        
+### 2022/05/12 v0.780
+- UPDATE - Reduced sensitivity of the world filter
+
 ### 2022/05/07 v0.780
 - FIX - Fixed UI become too big in some samsung phones
 
