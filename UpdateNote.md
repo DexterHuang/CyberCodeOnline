@@ -27,6 +27,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates        
 ### 2022/05/12 v0.780
+- FIX - Now mentioning players not in your gang will not sent notification to the player
 - UPDATE - Reduced sensitivity of the world filter
 
 ### 2022/05/07 v0.780
