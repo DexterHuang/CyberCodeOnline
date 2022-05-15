@@ -1,8 +1,3 @@
-
-
-import * as fs from 'fs';
-
-
 export class ValidateLoreNote {
 
   static start() {
