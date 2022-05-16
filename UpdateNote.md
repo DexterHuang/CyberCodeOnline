@@ -27,6 +27,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates        
 ### 2022/05/12 v0.780
+- FIX - Potential fix for rare occation of player getting stucked during skip
 - NEW - Added 10 new emblems
 - NEW - Added mod exclusive emblem
 
