@@ -2,6 +2,8 @@
 
 > Can't find an Answer for your Question? Feel free to ask them in **Global / Language Chat** or **CCO's Discord**! 😃
 
+> **Important Tip:** **Beware of potential scam & lowballing price**. Always ask your Gangmates / Friends / Global Chat about it's item value before confirming a market / trade deal (especially Epic Gear / Caches)! 😊
+
 ## Starting Point
 
 ### What Is This Game? And How To Play It?
@@ -105,7 +107,7 @@ Checking your Gear Score on your profile page can not only give you a quick idea
 - Dungeons will not allow you to obtain loot from chests or XP from enemies if your Gear Score is 10+ levels higher than the Dungeon Level itself.
 
 ### What is an AFK Set?
-Many players have a swappable “AFK Set”; for this, only the gear score matters not the stats nor modifiers so Trash Caches can be printed to fill all 7 slots and bring your Gear Score back inline with your Character Level.  Before you rush off to start printing though; remember to make sure to check your level of Printing Rank on your Profile page as subsequent prints will only have the level equal to your current Printing Rank; if not, printing Weapon, Armor or Mod Caches will raise your Printing Rank.
+Many players have a swappable “AFK Set”; for this, only the gear score matters not the stats nor modifiers so Trash Caches can be printed to fill all 5 gear slots (Primary / Special Weapon, Helmet, Upper Armor, Lower Armor, Boots) and bring your Gear Score back inline with your Character Level.  Before you rush off to start printing though; remember to make sure to check your level of Printing Rank on your Profile page as subsequent prints will only have the level equal to your current Printing Rank; if not, printing Weapon, Armor or Mod Caches will raise your Printing Rank.
 
 ### What is the Max Item / Stack?
 You can carry up to 10000 items (same amount applies to Bank, Market, and Item Inbox) into your Inventory, excluding Gear & Upgrade Modules.
