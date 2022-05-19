@@ -2,7 +2,7 @@
 
 > Can't find an Answer for your Question? Feel free to ask them in **Global / Language Chat** or **CCO's Discord**! 😃
 
-> **Important Note: Beware of potential scam & lowballing price on in-game items**. Always ask your Gangmates / Friends / Global Chat about it's item value before confirming a market / trade deal (especially Epic Gear / Caches)! 😊
+> **Important Note:** **Beware of potential scam & lowballing price on in-game items**. Always ask your Gangmates / Friends / Global Chat about it's item value before confirming a market / trade deal (especially Epic Gear / Caches)! 😊
 
 ## Starting Point
 
