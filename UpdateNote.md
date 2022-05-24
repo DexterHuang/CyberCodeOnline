@@ -26,6 +26,11 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  
 
 ## Updates        
+### 2022/05/24 v0.780
+- UI - Added level filter on upgrade module page, default to 1 to 500.
+- PLAYER SUGGESTION - Added join day in player profile (only works on new players due to technical reasons)
+- FIX - Fixed one-shoting in street fight wont visually update your ammo count
+
 ### 2022/05/21 v0.780
 - UI - Updated gang member list, now shows player level
 
