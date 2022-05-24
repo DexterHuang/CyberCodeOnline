@@ -26,6 +26,9 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  
 
 ## Updates        
+### 2022/05/25 v0.780
+- NEW - Added Slovak language (need help with fixing the machine translation)
+
 ### 2022/05/24 v0.780
 - UI - Added level filter on upgrade module page, default to 1 to 500.
 - PLAYER SUGGESTION - Added join day in player profile (only works on new players due to technical reasons)
