@@ -10,5 +10,5 @@
  * contribution/item/lore - item lore
 
 ### Guideline
- * Be family friendly - no curse words, discriminating content, explicit violence and, or sexual content. This game is on the Google Play Store and Apple App Store. They dont like that sort of matieral.
+ * Be family friendly - no curse words, discriminating content, explicit violence and, or sexual content. This game is on the Google Play Store and Apple App Store. They dont like that sort of material.
  * Be lore friendly  
