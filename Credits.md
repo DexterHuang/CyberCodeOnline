@@ -3,26 +3,27 @@
 
 ## Moderators
 [alfaice](https://github.com/alfaice)
+AlphaC58
+Artra
+Ayanna
 [BruteDeity](https://github.com/BruteDeity)
 [CMDR7](https://github.com/cmdr7)
 [Deckeeper](https://github.com/deckeeper)
 Fudgee
+HLYGD
+Keevin
+Krolik
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)
 [l33t4ng3l](https://github.com/l33t4ng3l)
+LuciMorningstar
+[Mancipi](https://github.com/Mancipi)
 [PotatoMan](https://github.com/PotatoMan145)
+[Prodam](https://github.com/Pr0dam)
+Tear1
 [Tripplehelix](https://github.com/tripplehelix)
 Unca_Feddit
 [WhirlingDervish](https://github.com/NickN5)
-AlphaC58
-Ayanna
-HLYGD
-[Prodam](https://github.com/Pr0dam)
-Tear1
 YANDEREsenpaiXD
-Keevin
-Krolik
-[Mancipi](https://github.com/Mancipi)
-Artra
 
 ## Music
 [CMDR7](https://github.com/cmdr7)
@@ -106,11 +107,15 @@ Wanna
 [Fataliste](https://github.com/Nasaelo)
 [Karont20](https://github.com/KarontDev)
 [Valkyria](https://github.com/Paugwvsk)
-[BazzJazz](https://github.com/BassJazz)
-[blacksurgeon](https://github.com/blacksurgeon)
+[BazzJazz](https://github.com/BassJazz) 
+[Syll](https://github.com/iburiedthesun) 
+[blacksurgeon](https://github.com/blacksurgeon) 
+[RedWolf141](https://github.com/RedWolf141)
+Omega_finale
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
+[kt0t0wh0](https://github.com/kt0t0Sudd3n)
 [The_Wayfarrer](https://github.com/epixinvites)
 [Sans3108](https://github.com/sans3108)
 [Laani](https://github.com/Laani)
@@ -216,6 +221,7 @@ B3n7y
 [DexterHuang](https://github.com/DexterHuang)
 Dzylx
 HBUNKNOWN
+[kt0t0wh0](https://github.com/kt0t0Sudd3n)
 [Lance0](https://github.com/Lance0-32)
 Livingdead
 [Misaki](https://github.com/Misaki290)

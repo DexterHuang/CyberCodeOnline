@@ -25,7 +25,38 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
  
 
-## Updates    
+## Updates        
+### 2022/05/25 v0.780
+- NEW - Added Slovak language (need help with fixing the machine translation)
+
+### 2022/05/24 v0.780
+- UI - Added level filter on upgrade module page, default to 1 to 500.
+- PLAYER SUGGESTION - Added join day in player profile (only works on new players due to technical reasons)
+- FIX - Fixed one-shoting in street fight wont visually update your ammo count
+
+### 2022/05/21 v0.780
+- UI - Updated gang member list, now shows player level
+
+### 2022/05/19 v0.780
+- FIX - Potential fix for rare occation of player getting stucked during skip
+- NEW - Added 10 new emblems
+- NEW - Added mod exclusive emblem
+- UI - Updated emblem selection UI
+
+### 2022/05/12 v0.780
+- FIX - Now mentioning players not in your gang will not sent notification to the player
+- UPDATE - Reduced sensitivity of the world filter
+
+### 2022/05/07 v0.780
+- FIX - Fixed UI become too big in some samsung phones
+
+### 2022/05/04 v0.780
+- FIX - Server-side bug fixes
+
+### 2022/04/29 v0.780
+- FIX - Fixed item lore ${tierName} not showing issue
+- FIX - Fixed some client crash issue
+
 ### 2022/04/27 v0.780
 - UPDATE - Some new players will need to reach level 10 before they can send emails, system will apply to player base on varius factors.
 - UPDATE - Captcha now more colorful :)

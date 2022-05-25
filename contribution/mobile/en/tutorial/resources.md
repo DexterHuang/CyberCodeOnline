@@ -1,5 +1,5 @@
 # Resources
-Every item has it's own purposes, ranging from ranging from **Equipment** (which also includes **Upgrade Modules** and **Equipment Caches**), **Ammo**, **Medical Items**, **Crafting Ingredients**, **Key Fragment / Secret Keys**, **Global Boost**, and other consumables. Here are some items that are catalogued onto it's respective category.
+Every item has it's own purposes, ranging from **Equipment** (which also includes **Upgrade Modules** and **Equipment Caches**), **Ammo**, **Medical Items**, **Crafting Ingredients**, **Key Fragment / Secret Keys**, **Global Boost**, and other consumables. Here are some items that are catalogued onto it's respective category.
 
 
 ## Ammo (for weapons)
@@ -127,6 +127,11 @@ These are an item that players can use for various needs, ranging from AFK Task,
 - For EXP purposes, players can use it on the highest unlocked area on Station via **Deploy Farm Bot** task. 
 - For Market purposes, players can sell these items on **Shangri-La Market Street**, following current market prices. 
 - For Trade purposes, players can trade their AI Cores for various items with other players such as Medical Tech Parts, Hash Processor, Containers, etc. 
+
+### AI Core Cluster
+**AI Core Cluster** is the compressed version of AI. 1 AI Core Cluster contains 1,000 AI, making it more managable and easy to store inside player's inventory. AI Core Cluster can be made (needs 1,000 AI & 50,000 BTC) and disassembled via Crafting.
+
+AI Core Cluster can also be used as a Market-value item, and Trade Currency.
 
 ### Hash Processor
 **Hash Processor** are essential for players as a way to gain Mining EXP, a Market-value item, and Trade Currency.  

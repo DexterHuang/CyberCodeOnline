@@ -1,0 +1,1 @@
+A nice catch you got here. A quality weapon cache. However, you don't have much time to admire it. You have only a few minutes to head over and print those blueprints, then back into the fray against those rats in the dungeon.
