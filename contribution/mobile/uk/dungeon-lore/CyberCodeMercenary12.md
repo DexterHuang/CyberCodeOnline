@@ -1,0 +1,8 @@
+# The Hierarchial Structure of the Cyber Code Mercenaries
+> (part 12 of 12 cyber code mercenary series)
+
+Cyber Code Mercenaries, as the name suggests, do not have a very complex and structured organizational hierarchy. With how diverse the members are, it would cause internal fights and friction if everyone were forced into groups chosen by superiors. Thus the leader of the Cyber Code Mercenaries, Dexter H., allowed them to freely form their own subunits or platoons. 
+
+CCMs used to be allowed to form up teams consisting of 16 members with a leader assigned to each group. Some groups protested that the 16-person cap was not enough to hold all their members, so it was later increased to 32 people - enough to form a military platoon. The Cyber Code Mercenary teams often each operate in their own separate area and territory, usually divided by the local Cyber Bar. Because of how similar the concept is with historical "gangs", and how the teams often have unique codenames for each group, the term "Gang" was commonly used to refer to Cyber Code's teams/platoons. 
+
+The Cyber Code Mercenary overall hierarchy is pretty simple, The World Government Organization acts as the highest in command, while the Cyber Code leader Dexter H.  is second in command, and finally gang leaders act as third in the ranks. This simple and flat hierarchy means there are no superiority between Cyber Code Mercenary members, and gang leaders only act as an intermediary when an order is given from the higher ups and distribute it to the other members. Such a simple hierarchy also allows for quick response to sudden deployments and emergencies requiring support personnel as fast as possible.

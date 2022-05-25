@@ -1,28 +1,41 @@
-## Gangs
-Gangs are a great way to join forces with your friends.  Members gain the ability to access gang headquarters, dungeons, and chat. Gangs can be created and joined once you're level 3.  Creating a gang costs 50,000BTC and then has a weekly upkeep fee of resources and BTC.  
+## ギャング
+**ギャング**に入ると, 仲間と力を合わせて様々なことができるようになります.  
+ギャングのメンバーには「ギャング本部」「ギャングダンジョン」「ギャングチャット」の機能が解放されます.  
+また, プレイヤーレベルが3になると自分でギャングを作ることができるようになります. ギャングの作成には50,000BTCが必要となるほか, 毎週維持費（ギャングリソースとBTC）がかかります.
 
-## Gang HQ
-The gang headquarters show your gang level, necessary upkeep, amount of members, and control over Shangri-La.  It also has new AFK tasks and an automatic recycler.  
+## ギャング本部
+ギャング本部には各種情報（ギャングのレベル/維持管理に必要なコスト/メンバーの数/シャングリラにおける支配力）が表示されています. また, 後述するさまざまなAFKタスクの実行や, オートリサイクラーの使用も可能です.
 
-Gang level impacts how many members can be in a gang.  To level up, collect gang Exp with the AFK tasks 'Gather Gang Resource' and 'Decrypt Memory Shard'.  There is a leaderboard for gangs, ranked by level.
+ギャングレベルが上がれば, ギャングに参加できるメンバーの数も増加します. ギャングレベルを上げるにはAFKタスク **「クランリソースの収集」** や **「メモリのかけらを復号化」** を使用してギャングExpを獲得してください. なお、リーダーボードにはギャングレベルのランキングも存在します. ぜひランクインを目指してください.
 
-There's a weekly upkeep due for all gangs. If the upkeep quota isn't met, the gang will be automatically disbanded.  Upkeep amounts are based on the number of members the gang has -- so the more members there are, the more resources and BitCoin are needed.  Minimize the amount of inactive players in your gang to keep upkeep goals lower.
+ギャングを維持するためには毎週の維持費を支払う必要があります. 維持費が不足している場合, ギャングは自動的に解散されてしまいます. なお維持費は, ギャングに加入しているメンバーの数によって決定されます. メンバーが多ければ多いほど, よりたくさんのギャングリソースとBTCが必要になるということです. 維持費を安く保つため, あまりゲームに参加していないプレーヤーを除名するのも1つの手段です. ギャングリソースは **「ギャングリソースの収集」** **「メモリのかけらを復号化」** によって効率的に獲得できます。
 
-Occupation gives gangs control over different areas of Shangri-La.  If a gang is in the top two gangs on the Occupation Leaderboard, those members have access to a task called 'Collect Protection Fees'.  Control is gained by performing the 'Reinforce Occupation at Shangri-La' task, which consumes one gang supply crate.  It is recommended to discuss with your gang whether you want to gather occupation points or not.
+## シャングリ・ラの占領を強化
+ギャングの占領ポイントを増やすことで, シャングリラのさまざまな地域を支配できます. ギャングポイントが1位と2位のギャングのメンバーは **「プロテクション料の徴収」** というタスクを実行できます. このタスクは3位以下のギャングは実行できません. 占領ポイントは **「支援クレート[ギャング]」** を消費して **「シャングリラの占領を強化する」** のタスクを実行することによって獲得できます.  
+ただし, 支援クレートは**ギャングリソース**の獲得にも必要なものです. ギャングリソースを集めるのか, 占領ポイントを集めるのかはギャング内で話し合ってください.
 
-The automatic recycler will break down various items like med tech or caches into tech scrap. This can be an efficient way to create tech scrap.  Each item that's being recycled has a different timer and tech scrap payout, so be sure to consider the return on tech scrap and time.  
+## メモリのかけらを複合化
+**暗号化ギャングメモリのかけら**を消費することで, ランダムな装備品を獲得します. 確率は極めて低いですが, 「英雄の」装備が手に入ることもあるようです.  
+また, メモリの複合化を行うとマイニングスキルEXPとギャングEXPも同時に獲得できます.
 
-The final AFK task available to gang members is 'Hack SL Data Fortress'.  This task uses Protocal Breach Shards to make progress on the SL-Data Fortress Breach.  Total progress can be seen in the Quest tab.  When a Breach has been completed, a global buff will go into effect.  
+## オートリサイクラー
+**オートリサイクラー**は, 医療技術パーツや弾薬技術部品, キャッシュなどのさまざまなアイテムを非常に効率的に**テックスクラップ**に分解できる設備です. 時間的効率, 手に入る量, どちらの面においても, **ゲーム内で最善のテックスクラップ入手方法**です. 
+リサイクルされるアイテムごとにかかる時間と手に入るテックスクラップの量が異なるので注意してください. 「医療機器パーツ」「弾薬技術部品」「軍用弾薬技術部品」は最大でも1.2倍のレートでしかテックスクラップになりませんが, キャッシュなどのアイテムを分解すれば最大で元の4倍のテックスクラップを手にすることができます（ただしパーツや部品よりもスクラップに時間がかかりますし, 一度にまとめてリサイクラーに投入できる量も少なめです）.
 
-## Gang Dungeons
-Gang dungeon consumes a Gang Invasion Order Transmitter when being created.  After the dungeon has been created, anyone in the gang can join, regardless of their level. Enemies are 4-5x stronger than regular enemies and give 2x the exp.  Bosses are guaranteed to drop a Rare Locked Container, Rare equipment, and some Gang Supply Crates.
+## SLデータ防壁へのハッキング
+**「プロトコル突破装置の破片」** を使用することで, SLデータ防壁突破の状況を進行させられます. 全プレイヤーと力を合わせ, シャングリ・ラ（**S**hangri-**L**a）のデータ防壁へのハッキングを仕掛けてやりましょう！ 全体の進捗状況は[クエスト]タブ上部で確認できます.  
+突破が成功すると, ランダムなグローバルバフが20分間発動します.
 
-As Gang Leader, you will have 3 additional options when visiting one of your gang members' profiles:
- - [KICK] - you can kick the gang member from the gang;
- - [PERMISSIONS] - here you can grant permissions to the gang member:
-   - Invite - it allows the gang member to invite other players to the gang;
-   - Kick  - it allows the gang member to kick other gang members;
-   - Manage - it allows the gang member to add or remove other gang members' permissions.
- - [TRANSFER LEADERSHIP] - you can set another gang member as the leader in case you don't want to be the leader anymore or want to leave the gang.
+## ギャングダンジョン
+ギャングダンジョンは, ギャングのメンバーが **「ギャング侵略指令送信機」** を使用することで作成できます. 作成されたギャングダンジョンは, 同じギャングのメンバーであればレベルに関係なく誰でも参加できます. 出現する敵は通常の4-5倍強いですが, 獲得できる経験値は2倍です. 経験値効率だけを求めるならばチャレンジダンジョンの方が良いでしょう. しかしギャングダンジョンのボスは「鍵のかかった珍しいコンテナ」やレア装備, 「支援クレート[ギャング]」などを確定でドロップするので, 良いアイテムが欲しい人にはこちらをお勧めします. 
 
-Also as the Leader, in the Gang chat, if you click on the numbers of players in the gang on the top right, you will be able to [DELETE GANG] there.
+## リーダーの権限
+ギャングリーダーは, メンバーのプロフィールにて3つの操作が行えます:
+ - [キック] - ギャングからそのメンバーを追放できます.
+ - [権限] - メンバーに許可を与えることができます.
+   - 招待 - 他プレイヤーをギャングに招待することを許可します.
+   - キック - ギャングからメンバーを追放することを許可します.
+   - 管理 - メンバーに許可の付与、剥奪を行うことを許可します.
+ - [リーダーシップを変更] - あなたがリーダーをこれ以上やりたくない場合, またはギャングから抜けるといった場合に, 他メンバーをリーダーにすることができます.
+
+また, リーダーは右上のギャング内のプレイヤー数をクリックすることで[ギャングの削除]が可能です.

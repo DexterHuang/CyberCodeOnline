@@ -1,0 +1,6 @@
+# Mass Cerebral Accelerator Malfunction
+> (CCO 4/20 Event)
+
+Cyber Code Mercenaries have a special kind of Cerebral Accelerator implant that allows central command to activate or deactivate cerebral acceleration remotely. This feature only exists on custom military models of the implant. Civilian models usually only allow slight acceleration that could improve their response time or mental performance, while military models speed up the brain so fast that they could influence physical movement speeds. It is rare for remote acceleration to be activated unless in large scale deployments against a significant enemy force. Most of the time, mercenaries activate acceleration as needed to support their mission. 
+
+On 20th April 2077 a software malfunction caused by a solar coronal discharge event caused the remote cerebral acceleration system to go haywire, which caused acceleration to be activated for mercenaries that were actively on duty. This caused a large portion of the mercenaries to have their cerebral accelerators forcibly activated for a whole 36 hours. This caused disorientation after the acceleration was finally disabled from central command, luckily this did not cause any permanent harm to the victims, other than some nausea and vomiting afterwards.
