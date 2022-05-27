@@ -27,6 +27,8 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates        
 ### 2022/05/27 v0.780
+- MEW - Added new perma `Prestige` chat frame with new background circuit design
+- OPTIMIZATION - NPC image and other images should load faster now
 - OPTIMIZATION - Patch for server overloading issue
 - FIX - Fix AFK not automatically finish if not open the app
 
