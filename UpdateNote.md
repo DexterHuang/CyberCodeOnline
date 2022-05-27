@@ -26,6 +26,10 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  
 
 ## Updates        
+### 2022/05/27 v0.780
+- OPTIMIZATION - Patch for server overloading issue
+- FIX - Fix AFK not automatically finish if not open the app
+
 ### 2022/05/25 v0.780
 - NEW - Added Slovak language (need help with fixing the machine translation)
 
