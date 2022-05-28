@@ -26,6 +26,9 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  
 
 ## Updates        
+### 2022/05/28 v0.780
+- FIX - Fixed security related issue
+
 ### 2022/05/27 v0.780
 - MEW - Added new perma `Prestige` chat frame with new background circuit design
 - OPTIMIZATION - NPC image and other images should load faster now
