@@ -27,6 +27,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates        
 ### 2022/05/28 v0.780
+- NEW - Added Tagalog lanaguage
 - FIX - Fixed security related issue
 
 ### 2022/05/27 v0.780
