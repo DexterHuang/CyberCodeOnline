@@ -1,13 +1,13 @@
-> #30770104 Chat Log 0001 Elin  
+> #30770104 Chatprotokoll 0001 Elin
     
-**Elin Blackburn [User 089009]**: Hello yes, how are you ?  
-**Marco Samson [User 0191009]**: I'm alright- how are you today? can I help you with anything?  
-**Elin Blackburn [User 089009]**: yes- sorry I have the login for the network but I can't seem to join. Any chance you could help me reset the password?  
-**Marco Samson [User 0191009]**: Of course! let me just pull up your info-  
-**Marco Samson [User 0191009]**: Oh I see it's your first day! Welcome to Arasaka towers!  
-**Elin Blackburn [User 089009]**: Thank you! I am excited to start here :)  
-**Marco Samson [User 0191009]**: Are you a local? Shangri-La native? if not I can suggest a few places for you to dine in!  
-**Elin Blackburn [User 089009]**: I am! I actually grew up around Market street.  
-**Marco Samson [User 0191009]**: ... market street? not a lot of us around there.  
-**Elin Blackburn [User 089009]**: I managed to get out of there- I'm Lucky.  
-**Marco Samson [User 0191009]**: Indeed. Well- the password is set. I'll email the new one to you. let me know if you need anything else.  
+**Elin Blackburn [Benutzer 089009]**: Hallo ja, wie geht's?  
+**Marco Samson [Benutzer 0191009]**: Mir geht's gut – wie geht's Ihnen heute? Kann ich Ihnen irgendwie helfen?  
+**Elin Blackburn [Benutzer 089009]**: Ja – tut mir leid, ich habe die Logindaten für das Netzwerk, aber ich kann anscheinend nicht beitreten. Könnten Sie mir vielleicht helfen das Passwort zurückzusetzen?  
+**Marco Samson [Benutzer 0191009]**: Natürlich! Lassen Sie mich einfach Ihre Informationen abrufen -  
+**Marco Samson [Benutzer 0191009]**: Oh, ich sehe, es ist Ihr erster Tag! Willkommen in den Arasaka-Türmen!  
+**Elin Blackburn [Benutzer 089009]**: Danke! Ich freue mich, hier anzufangen :)  
+**Marco Samson [Benutzer 0191009]**: Kommen Sie von hier? Ein Bewohner von Shangri-La? Wenn nicht, kann ich Ihnen ein paar Restaurants empfehlen!  
+**Elin Blackburn [Benutzer 089009]**: Bin ich! Ich bin eigentlich in der Nähe der Marktstraße aufgewachsen.  
+**Marco Samson [Benutzer 0191009]**: ... Marktstraße? Nicht viele von uns dort.  
+**Elin Blackburn [Benutzer 089009]**: Ich habe es geschafft, da rauszukommen – ich hatte Glück.  
+**Marco Samson [Benutzer 0191009]**: In der Tat. Nun, das Passwort ist festgelegt. Ich schicke Ihnen das Neue per E-Mail. Lassen Sie mich wissen, wenn Sie noch etwas brauchen.  

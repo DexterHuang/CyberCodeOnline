@@ -1,27 +1,27 @@
-###### The story was brought to you by: Hafizdkren
+###### Die Geschichte wurde Ihnen präsentiert von: Hafizdkren
 
-There was a gun that being made by scientist, It was nothing but a rumour.
-Some people believe that this devices is exist and be successfully breaktrought the boundaries of science, and some even say it was a bullshit that people think it exist.
+Es gab eine Waffe, die von Wissenschaftlern hergestellt wurde. Es war nichts als ein Gerücht.
+Einige Leute glauben, dass dieses Gerät existiert und erfolgreich die Grenzen der Wissenschaft durchbricht und einige sagen sogar, es sei Bullshit, dass die Leute glauben, dass es existiert.
 
-Whether it is exist or not, there was a archive where showing that the devices itself is working
+Ob es existiert oder nicht, es gab ein Archiv, in dem gezeigt wurde, dass die Geräte selbst funktionieren.
 
->The video being played.
+>Das Video wird abgespielt.
 
-**Man as a Narrator:** Welcome, to *`inaudible`*. We looking for the best of the best.
-    My name is *`inaudible`*, and this is my assistant.
+**Ein Mann als Erzähler:** Willkommen bei *`unverständlich`*. Wir suchen die Besten der Besten.
+    Mein Name ist *`unverständlich`*, und das ist mein Assistent.
 
-**Woman in audio voice:** And I was his assistant.
+**Frau im Video:** Und ich war seine Assistentin.
 
-**Man as a Narrator:** This is my new invention, Looks like a freaking gun, but it is a gun.
-    A gun design to making a hole.
-    Not a normal hole, a weird hole. A hole that can make taking thing faster, or even travelling you to the moon.
-    *A space suit and vacuum room is needed when want to using this gun to travel to the moon.*
+**Ein Mann als Erzähler:** Das ist meine neue Erfindung. Sieht aus wie eine verdammte Waffe, aber es ist ein Geschütz.
+    Eine Waffen gefertigt, um ein Loch zu machen.
+    Kein normales Loch, ein seltsames Loch. Ein Loch, das das Aufnehmen von Dingen beschleunigen oder Sie sogar zum Mond reisen lässt.
+    *Ein Raumanzug und ein Vakuumraum werden benötigt, wenn Sie mit diesem Geschütz zum Mond reisen möchten.*
 
->The video is ended.
+>Das Video endet.
 
-Nobody knews, what happen to the invention, or the narrator, or even, the thing behind it.
+Niemand weiß, was mit der Erfindung oder dem Erzähler oder gar dem Ding dahinter passiert ist.
 
 ___
 
-***You should looking that archive, or the video, or anything else about this place.***
-***Also, Let's go doing more testing again. Because I Love TESTING***
+***Sie sollten sich dieses Archiv oder das Video oder irgendetwas anderes über diesen Ort ansehen.***
+***Außerdem, lasst uns wieder mehr Tests machen. Weil ich TESTEN liebe!***
