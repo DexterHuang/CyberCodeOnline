@@ -2,7 +2,7 @@
 
 ![KI Lehrbuch](/resources/lore/textbookAI440.png)
 # Die Erfindung der zerebralen Beschleunigung
-> (Teil 3 von 8 der AICORE-Reihe)
+> (Teil 3 von 8 der KI-Kern-Reihe)
 
 Der erste Prototyp für zerebrale Beschleunigung wurde im Jahr 2061 erfunden, basierend auf einer obskuren unterirdischen illegalen Neuralink-Anwendung: BB2039.nrl. Die BB2039-App, besser bekannt als BrainBurst, war eine geheime Anwendung, die es einer Person ermöglichte, die Zeit subjektiv „anzuhalten“, indem sie die Gehirnaktivität über ein Neuralink-Gerät vorübergehend um das 1024-fache beschleunigte. Diese Anwendung diente auch als Kampfspiel, bei dem eine Person um "Burst Points" kämpft, die sie verbrauchen kann, um die zerebrale Beschleunigungsfunktion zu verwenden.  
 

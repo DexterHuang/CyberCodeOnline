@@ -2,7 +2,7 @@
 
 ![KI Lehrbuch](/resources/lore/textbookAI440.png)
 # Ethische und religiöse Bedenken bei kybernetischen zerebralen Verbesserungen
-> (Teil 4 von 8 der AICORE-Reihe)
+> (Teil 4 von 8 der KI-Kern-Reihe)
 
 Im Jahr 2071 verabschiedete die Weltregierungsorganisation (WGO) den CAPABLE Act (Cerebral Accelerator Potentiated Ability at Birth or by Lawful Equipment Act), der vorschreibt, dass jedem neugeborenen Baby ein zerebraler Beschleuniger implantiert werden muss und das allen rechtmäßigen Bürgern der Vereinigten Welt das Recht gewährt ein Implantat zu erhalten. Dieses neue Gesetz löste eine Menge Kontroversen von Menschenrechtsorganisationen und hochreligiösen Bürgern aus. Menschenrechtsorganisationen argumentierten, dass das Zwingen von Menschen sich etwas implantieren zu lassen eine Verletzung der Menschenrechte darstellt, einschließlich des Rechts auf Privatsphäre und des Rechts auf körperliche Autonomie. Die WGO-Pressekonferenz ging auf dieses Thema ein und erklärte, dass die Implantation entscheidend für die Verbesserung der Lebensqualität jedes Bürgers sei; Zerebrale Beschleuniger-Implantate sollen den Benutzern zugute kommen und werden von der WGO kostenlos zur Verfügung gestellt.  
 

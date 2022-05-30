@@ -2,7 +2,7 @@
 
 ![KI Lehrbuch](/resources/lore/textbookAI440.png)
 # Das Brain-Computer-Interface perfektioniert
-> (Teil 2 von 8 der AICORE-Reihe)
+> (Teil 2 von 8 der KI-Kern-Reihe)
 
 Ein Brain–Computer-Interface (BCI) ist ein direkter Kommunikationsweg zwischen einem erweiterten oder verdrahteten Gehirn und einem externen Gerät. BCIs zielen oft darauf ab, menschliche kognitive oder sensomotorische Funktionen zu erforschen, zu erweitern oder zu reparieren.  
 
