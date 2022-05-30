@@ -1,13 +1,13 @@
-> You see a paper on the floor and you pick it up to read it.  
+> Sie sehen ein Papier auf dem Boden und heben es auf um es zu lesen.  
   
-"Beware, anyone who enters this dungeon."  
+"Vorsicht, an jeden der diesen Kerker betritt."  
   
-> The paper had a note written on the back. You flip it and read it,  
+> Auf der Rückseite des Papiers war eine Notiz geschrieben. Du drehst es um und liest sie.  
 
-"Nothing [Redacted] Happening In Here. For anyone who enters the dungeon don't be afraid. Brave yourself and nothing can stop you."  
+„Nichts [geschwärzt] passiert hier drin. An jeden, der den Kerker betritt, habt keine Angst. Seid mutig und nichts kann euch aufhalten.“  
   
-> You say to yourself with an hesitatant and deep voice:   
+> Du murmelst zu dir selbst mit zögernder und tiefer Stimme:  
 
-"I need to be harder and better also faster and stronger to clear this dungeon."  
+"Ich muss härter und besser, aber auch schneller und stärker sein, um diesen Dungeon zu räumen."  
   
-> Then you put it back again on the floor just in case other other people come in this dungeon.  
+> Dann legst du es wieder auf den Boden, falls noch andere Leute in diesen Kerker kommen.  

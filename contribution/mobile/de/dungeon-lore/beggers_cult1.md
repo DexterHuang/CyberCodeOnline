@@ -1,11 +1,11 @@
-### Beggars Cult
+### Bettlerkult
 
-When the civilization turns against the past and surges, the futuristic logic turns the world upside down. One old man became a beggar, who was called by the name “Fragile Old Man”. This old fellow faces full discrimination in a futuristic world and witness how humans became heartless cold-blooded mortals who take pride in their immoral lifestyles. The only thing that makes him humble is his useless status in society.  
+Wenn sich die Zivilisation gegen die Vergangenheit wendet und aufwallt, stellt die futuristische Logik die Welt auf den Kopf. Ein alter Mann wurde ein Bettler, der den Namen „Zerbrechlicher alter Mann“ erhielt. Dieser alte Kerl wird in einer futuristischen Welt vollständig diskriminiert und wird Zeuge, wie Menschen zu herzlosen, kaltblütigen Sterblichen wurden, die stolz auf ihren unmoralischen Lebensstil sind. Das einzige, was ihn bescheiden macht, ist sein nutzloser Status in der Gesellschaft.
 
-One trashy day in his life as a beggar, some disrespectful teenager hit him with a baseball bat without reason and fled while laughing gleefully. The beggar lost consciousness and his world became void. The void's screaming silence makes the old man want to give up his precious life. But just as nothing was making sense, there was a small orb of light that became bigger and bigger. The void became so bright that it felt like a miniature star.  
+An einem schmutzigen Tag in seinem Leben als Bettler schlug ihn ein respektloser Teenager grundlos mit einem Baseballschläger und flüchtete, während er fröhlich lachte. Der Bettler verlor das Bewusstsein und seine Welt wurde leer. Die schreiende Stille der Leere bringt den alten Mann dazu, sein kostbares Leben aufzugeben. Aber gerade als nichts einen Sinn ergab, war da eine kleine Lichtkugel, die größer und größer wurde. Die Leere wurde so hell, dass sie sich wie ein Miniaturstern anfühlte.
 
-The bright object made the old man feel warm and reminded him of his mother's affectionate cuddles. The bright orb spoke.  
+Der helle Gegenstand ließ den alten Mann Wärme fühlen und erinnerte ihn an die liebevollen Umarmungen seiner Mutter. Die helle Kugel sprach.
 
-"Beggar, I pity you deeply. Even the world has turned against you, you still believe in humanity. I am not strong enough to change the world but I can warm their hearts. You and other people who give in to the real righteousness of the mortal world will be blessed with heavenly defying luck. I wish you a long and fulfilling life. Goodbye"   
+"Bettler, ich bemitleide dich zutiefst. Sogar die Welt hat sich gegen dich gewandt, du glaubst immer noch an die Menschheit. Ich bin nicht stark genug, um die Welt zu verändern, aber ich kann ihre Herzen erwärmen. Du und andere Menschen, die der wahren Gerechtigkeit der Welt der Sterblichen nachkommen, werden mit himmlischem trotzigem Glück gesegnet sein. Ich wünsche dir ein langes und erfülltes Leben. Auf Wiedersehen.“
 
-The fragile old man woke up screaming and crying for the things he visioned. This is when the Beggars Cult was born.
+Der zerbrechliche alte Mann wachte schreiend und weinend auf, wegen der Dinge die er sah. Das war die Geburtsstunde des Bettlerkults.
