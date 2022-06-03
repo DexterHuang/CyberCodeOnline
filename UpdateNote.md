@@ -26,6 +26,9 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  
 
 ## Updates        
+### 2022/06/03 v0.780
+- UPDATE - Replaced newly rendered background image for `Hyper tTrain Central Station` and `Trinoky Mart`
+
 ### 2022/05/31 v0.780
 - FIX - Fixed non-english lanaguge UI not showing correct player color in dungeon
 - FIX - Fixed purple prestigue color not showing correctly in dungeon
