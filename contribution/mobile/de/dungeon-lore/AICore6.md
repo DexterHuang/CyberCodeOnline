@@ -1,11 +1,11 @@
-*[You find a textbook and flip to a random page.]*
+*[Du findest ein Lehrbuch und blätterst auf eine zufällige Seite.]*
 
-![AI Textbook](/resources/lore/textbookAI440.png)
-# Auto Pilot for the Human Brain
-> (Part 6 of 8 aicore series)
+![KI Lehrbuch](/resources/lore/textbookAI440.png)
+# Autopilot für das menschliche Gehirn
+> (Teil 6 von 8 der KI-Kern-Reihe)
 
-AICOREs are sophisticated self-aware technological marvels that enable the ability to use "autopilot" mode for your body. Not only can it automate repetitive and boring tasks, AICOREs can give your body skills you never had while your consciousness can finish jobs, learn new stuff, or even have fun playing games in virtual reality. By using AICOREs, someone who has never cooked even instant noodles can make a five-star gourmet dish by using an AICORE to automate the cooking; this also applies to other skills that require a lot of practice and experience. 
+KI-Kerne sind ausgeklügelte, selbstbewusste technologische Wunderwerke, die es Ihrem Körper ermöglichen, den „Autopilot“-Modus zu verwenden. Es kann nicht nur sich wiederholende und langweilige Aufgaben automatisieren, KI-Kerne können Ihrem Körper Fähigkeiten verleihen, die Sie nie hatten, während Ihr Bewusstsein Jobs erledigen, neue Dinge lernen oder sogar Spaß beim Spielen in der virtuellen Realität haben kann. Durch die Verwendung von KI-Kernen kann jemand, der noch nie Instantnudeln gekocht hat, ein Fünf-Sterne-Gourmetgericht zubereiten, indem er einen KI-Kern verwendet, um das Kochen zu automatisieren. Dies gilt auch für andere Fähigkeiten, die normalerweise viel Übung und Erfahrung erfordern.  
 
-Usage of AICOREs are time-restricted to 2 hours per session to avoid the small chance of neural unlinking of the user's consciousness. Neural unlinking forces the user to do a neural cortex transfer and transfer to a new body, which is an inconvenience and an unnecessary cost. This phenomenon happens because the brain with only the AICORE consciousness within would slowly reject the original consciousness after detached for extended periods of time. Scientists have determined that 2 hours is the maximum safe time for continuous AICORE usage to automate tasks while the main consciousness is detached. 
+Die Verwendung von KI-Kernen ist zeitlich auf 2 Stunden pro Sitzung begrenzt, um die geringe Chance einer neuronalen Entkopplung des Bewusstseins des Benutzers zu vermeiden. Die neuronale Entkopplung zwingt den Benutzer dazu einen neuronalen Kortex-Transfer durchzuführen und in einen neuen Körper zu transferieren, was eine Unannehmlichkeit und unnötige Kosten darstellt. Dieses Phänomen tritt auf, weil das Gehirn, in dem sich nur das KI-Kern-Bewusstsein befindet, das ursprüngliche Bewusstsein langsam zurückdrängen würde, nachdem es für längere Zeit abgelöst wurde. Wissenschaftler haben festgestellt, dass 2 Stunden die maximale sichere Zeit für die kontinuierliche Verwendung von KI-Kernen sind, um Aufgaben zu automatisieren, während das Hauptbewusstsein abgeschaltet ist.  
 
-There have been cases of very long activation of AICOREs without any rejection of the host mind, but those examples are mostly military personnel with specialized Cerebral Accelerators which ensure both the AICORE and the host are always present simultaneously, preventing any rejection reaction.
+Es gab Fälle von sehr langer Aktivierung eines KI-Kerns ohne Ablehnung des Wirtsbewusstseins, aber diese Beispiele sind meistens Militärpersonal mit spezialisierten zerebralen Beschleunigern, die sicherstellen, dass sowohl der KI-Kern als auch der Wirt immer gleichzeitig vorhanden sind, wodurch jede Abstoßungsreaktion verhindert wird.  

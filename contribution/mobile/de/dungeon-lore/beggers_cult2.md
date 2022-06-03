@@ -1,15 +1,15 @@
-### 7 Commandments of Beggars Cult
+### 7 Gebote des Bettlerkults
 
-1. You have the freedom to worship other Gods but we should still respect our God of Beggars.
+1. Du hast die Freiheit andere Götter anzubeten, aber wir sollten trotzdem unseren Gott der Bettler respektieren.
 
-2. Beg moderately don't push others to give you something and don't annoy the Rich humans.
+2. Bettel moderat. Dränge andere nicht dazu dir etwas zu geben und ärgere die Reichen nicht.
 
-3. If you receive something be thankful and ask the God of Beggars to bless them with Beggars Luck.
+3. Wenn du etwas erhälst, sei dankbar und bitte den Gott der Bettler sie mit Bettlerglück zu segnen.
 
-4. We fellow beggars should love and respect each other. If we can or we have the abilities to help, then help our fellow beggars.
+4. Wir Bettlerkollegen sollten uns lieben und respektieren. Wenn wir können oder die Fähigkeit haben zu helfen, dann helft unseren Mitbettlern.
 
-5. We don't have a leader, we are all equal.
+5. Wir haben keinen Anführer, wir sind alle gleich.
 
-6. We are martyrs, we ignore and respect the Rich even though they discriminate against us. Also, we should pray for their forgiveness to our God of Beggars to soften their hearts to change their evil ways.
+6. Wir sind Märtyrer, wir ignorieren und respektieren die Reichen, obwohl sie uns diskriminieren. Außerdem sollten wir zu unserem Gott der Bettler um ihre Vergebung beten, um ihre Herzen zu erweichen und auf den rechten Weg zurückzuführen.
 
-7. There are still other cults who have different views but still we should respect them and if possible we should make them our friends if they are interested but don't push them.
+7. Es gibt noch andere Sekten, die andere Ansichten haben, aber trotzdem sollten wir sie respektieren und wenn möglich sollten wir sie zu unseren Freunden machen, wenn sie denn interessiert sind, aber sie nicht drängen.

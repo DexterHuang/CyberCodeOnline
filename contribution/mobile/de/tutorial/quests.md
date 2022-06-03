@@ -1,3 +1,3 @@
 ## Aufträge
-Aufträge können unten in der Leiste unter `Aufträge` gefunden werden. Du bekommst hier spezifische Aufgaben um extra Erfahrung und BitCoins zu erhalten. Es gibt verschiedene Arten davon, unter anderem: Ausrüstung drucken, Gegner eliminiern und Erfahrung oder BitCoins sammeln.
-Sobald du eine Aufgabe gelöst hast, kannst du darauf klicken um deine Belohnung zu erhalten. In den meißten Fällen erhälst du auch eine neue Aufgaben. Du kannst auch Aufgaben erhalten indem du in einem Dungeon mit einem Auftraggeber sprichst. Diese werden mit einem '?' markiert.
+Aufträge können unten in der Leiste unter `Aufträge` gefunden werden. Du bekommst hier spezifische Aufgaben um extra Erfahrung und Bitcoins zu erhalten. Es gibt verschiedene Arten davon, unter anderem: Ausrüstung drucken, Gegner eliminieren und Erfahrung oder Bitcoins sammeln.
+Sobald du eine Aufgabe gelöst hast, kannst du darauf klicken um deine Belohnung zu erhalten. In den meisten Fällen erhälst du auch eine neue Aufgabe. Du kannst auch Aufgaben erhalten indem du in einem Dungeon mit einem Auftraggeber sprichst. Diese werden mit einem '?' markiert.
