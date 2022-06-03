@@ -1,0 +1,3 @@
+...exuberant prices, all to experience the taste of cow! While the rest of us subsist on food bars made from wheat byproducts of ethanol factories and government-controlled rations of mass-replicated fish and poultry meat, the .01 percent get to have their fill of livestock, real meat, real food, real animals, real living! Their so-called "raids" on the markets and farms are just thieves stealing in broad daylight! 
+
+"Protected species", my ass! Those [TEXT CORRUPTED, REDACTED] so we'll burn them all. Burn their crops! Burn their fields! Kill their cattle! Poison their lakes! Leave no one alive, man or beast or plant! If we can't have them, then no one can! Brothers and sisters of the Division, are you prepared to-[RECORD END]"

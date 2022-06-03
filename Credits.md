@@ -113,6 +113,7 @@ Wanna
 [blacksurgeon](https://github.com/blacksurgeon) 
 [RedWolf141](https://github.com/RedWolf141)
 Omega_finale
+[Mortino](https://github.com/mRuggi)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
@@ -159,6 +160,7 @@ Experiencedkk7t
 [zolir](https://github.com/ZolirAsure)
 Kalinka
 Xenacious69
+[Mortino](https://github.com/mRuggi)
 
 ## Dungeons
 Alecto
