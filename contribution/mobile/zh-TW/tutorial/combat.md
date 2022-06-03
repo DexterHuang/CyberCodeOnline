@@ -4,26 +4,29 @@
   
 要與附近的敵人戰鬥的話，點擊列表列出的敵人即可進入戰鬥。與附近的敵人戰鬥時你無法恢復生命，如果你即將死亡，可以點擊左上角的逃生以避免死亡。在地城中，點擊由外星人標誌代表的敵人，你就會與它進行戰鬥。  
 
-## Combat screen
-  
-The combat screen will show you how much health and shield you and your opponent both have, as well as the amount of ammo you have left for each of your weapons and the approximate damage they can do.  
+## 戰鬥畫面
+
+戰鬥畫面會顯示你和你的敵人有多少生命值和護盾，以及你的每種武器剩下的彈藥總數量以及它們可以造成的大致傷害。
 
 ## 主要攻擊
+
 使用裝備的「主武器」攻擊敵人。該武器不使用彈藥。
 
 ## 特殊攻擊
+
 使用裝備的「特殊武器」攻擊敵人。對護盾造成 120% 的傷害。這種武器每次射擊消耗一個「能量電池」。
 
 ## 破壞性攻擊
+
 使用裝備的「破壞性武器」攻擊敵人。對護盾造成 50% 的傷害。這種武器每次射擊消耗一個「反物質電池」。
 
 ## 使用物品
+
 你有 3 個物品快捷插槽。 你可以將醫療用品綁定到這些插槽並在地下城內使用它們。你可以綁定經驗記憶，但這不是必要步驟，你也可以直接從背包中使用它們來獲得經驗。
 
 ## 逃脫
+
 你可以通過點擊左上角的「逃脫」來嘗試逃離戰鬥。 在地下城外逃脫戰鬥的成功率為 100%。 但是，如果在地下城中戰鬥並試圖逃跑，則成功率將取決於你的「逃脫機率」，該數據基於你的裝甲和升級模組。如果你逃脫失敗，你就會被敵人攻擊且不會對敵人造成任何傷害。  
-  
-戰鬥頁面會顯示你和你的對手各有多少生命值和護盾，以及你每件武器的彈藥量以及它們可以造成的大致傷害。 
 
 ## 死亡
 
@@ -31,27 +34,34 @@ The combat screen will show you how much health and shield you and your opponent
   
 ## 敵人詞綴
   
-有些敵人會擁有詞綴，也就是敵人名稱前方的形容詞，例如「**Mad** Serial Killer」，這些詞綴的效果如下，
+有些敵人會擁有詞綴，也就是敵人名稱前方的形容詞，例如「**Mad** Serial Killer」，這些詞綴的效果如下
   
  - Mad - 給予敵人 +20% 傷害  
+
  - Angry - 給予敵人 +10% 傷害  
+
  - Tough - 給予敵人 +20% 防禦  
-   - Also gives the enemy significantly more health and slightly more damage (Not in tooltips)
+   - 還會給予敵人更多的生命值和更多的傷害（不會顯示在詞綴提示裡）
+ 
  - Agile - 給予敵人 +20% 眩暈閃避和護盾  
-   - The Shield amount is always equal to half of enemy's health
+   - 護盾量始終等於敵人生命值的一半
+
  - Shielded - 給予敵人一個高額護盾
-   - The Shield amount is always equal to double of enemy's health
-   - Note however that shielded enemies have slightly lower health to compensate.
- - Precise - Gives the enemy +10% crit chance and +40% crit damage
-   - Also gives the enemy a shield (Not in tooltips)
- - Berserker - Gives the enemy significantly more health, shield and damage.
-   - No tooltip exists for it, but the significantly higher shield and health (which are also almost equal, except for bosses) is very easy to notice
+   - 護盾量始終等於敵人生命值的兩倍
+   - 但是擁有 Shielded 詞綴的敵人的生命值會稍低一些
+ 
+ - Precise - 給予敵人 +10% 暴擊率和 +40% 暴擊傷害
+   - 還會給敵人一個護盾（不會顯示在詞綴提示裡）
 
-Some important notes about modifiers:
+ - Berserker - 給予敵人更多的生命值、護盾和傷害
+   - 沒有詞綴提示，但是擁有明顯更高的護盾和生命值（它們也幾乎相等，除了boss），很容易注意到
 
-1. The damage from enemy is multiplied by the factor, then subtracted by your armor before deducting from your health. This means enemies might deal significantly more damage than no-modifier counterparts. 
-2. Similar calculation results also apply to defense. Tough enemies can take much more shots to kill.
-3. Agile enemies have "Stun Evade" (i.e. Only 80% of your stun value is used, e.g. 20% stun becomes 16% stun.), rather than "Evade" (i.e. chance for your attack to not hit at all). You may need to heal slightly more from such enemies hitting you when you normally stun them, but you will not have to heal from missing a shot completely.
+關於詞綴的一些重要說明：
+
+1. 敵人的傷害乘以係數，然後減去你的防禦，再對你造成傷害。這意味著敵人可能會比沒有詞綴的敵人造成更多的傷害。
+2. 類似的計算結果也適用於防禦。擁有 Tough 詞綴的敵人可以採取更多次的攻擊來殺死。
+3. 擁有 Agile 詞綴的敵人有“ 暈眩閃避 ”（即僅受到 80% 的暈眩機率，例如原本 20% 的暈眩變為 16% 的暈眩。），而不是“ 閃避 ”（即你的攻擊有機會完全沒有命中）。
+   當你成功擊暈這些敵人前，你可能會需要更多的治療次數（因為他有可能會閃避你的暈眩），但你不必因為錯過一次攻擊而治療。
 
   
 ## 玩家詞綴
@@ -78,6 +88,7 @@ Some important notes about modifiers:
  - Shield Enhance IV - 給予玩家 +20% 護盾加成 
  - Shield Enhance V - 給予玩家 +25% 護盾加成  
 
-The modifier only starts counting down when you complete the quest by exchanging the requested items on Quest Tab (yellow text when completed). You can accept a quest in a dungeon and wait until a later time to start it. Every quests reward will specify the exact modifier you will gain.
+玩家詞綴僅在你通過完成任務選項上的交換請求，完成任務後開始倒計時（完成時為黃色狀態）。你可以在地城中接受一個任務，然後等到稍後再領取獎勵。每個任務獎勵都會提示你將獲得的詞綴。
 
-Also, player modifiers of different tiers stack additively. For example, you can have Overcharged I, Overcharged II at the same time, resulting in +15% damage. However if you gain a modifier you have already enabled (for instance, activating Overcharged I two times), it resets the timer.
+此外，不同等級的玩家詞綴會互相疊加。例如，你可以同時擁有 Overcharged I、Overcharged II，會造成 +15% 的傷害。
+但是，如果你獲得已擁有的詞綴（例如，獲得 Overcharged I 兩次），它會重置倒計時的計時器。
