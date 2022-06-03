@@ -1,13 +1,13 @@
-*[You find a textbook and flip to a random page.]*
+*[Du findest ein Lehrbuch und blätterst auf eine zufällige Seite.]*
 
-![AI Textbook](/resources/lore/textbookAI2.png)
-# The Invention of Cerebral Acceleration
-> (Part 3 of 8 aicore series)
+![KI Lehrbuch](/resources/lore/textbookAI440.png)
+# Die Erfindung der zerebralen Beschleunigung
+> (Teil 3 von 8 der KI-Kern-Reihe)
 
-The first prototype for Cerebral Acceleration was invented in the year 2061,  based on an obscure underground illegal Neuralink application: BB2039.nrl. The BB2039 app, better known as BrainBurst, was a secret application which allowed a person to make time subjectively "stop" by temporarily accelerating brain activity by 1024 times through a Neuralink device. This application also doubled as a fighting game where a person fights for "Burst Points" that they can consume to use the Cerebral Acceleration Function.
+Der erste Prototyp für zerebrale Beschleunigung wurde im Jahr 2061 erfunden, basierend auf einer obskuren unterirdischen illegalen Neuralink-Anwendung: BB2039.nrl. Die BB2039-App, besser bekannt als BrainBurst, war eine geheime Anwendung, die es einer Person ermöglichte, die Zeit subjektiv „anzuhalten“, indem sie die Gehirnaktivität über ein Neuralink-Gerät vorübergehend um das 1024-fache beschleunigte. Diese Anwendung diente auch als Kampfspiel, bei dem eine Person um "Burst Points" kämpft, die sie verbrauchen kann, um die zerebrale Beschleunigungsfunktion zu verwenden.  
 
-BrainBurst was soon made illegal after authorities discovered the app's ability to directly alter the memory of the losing players to forget any associated memories regarding BrainBurst, thus enabling the app to maintain its secrecy. Though BrainBurst itself had been outlawed, the research into Cerebral Acceleration the app had inspired was permitted to continue. 
+BrainBurst wurde bald illegal, nachdem die Behörden die Fähigkeit der App entdeckten, die Erinnerung der verlierenden Spieler direkt zu verändern, um alle damit verbundenen Erinnerungen an BrainBurst zu vergessen, wodurch die App ihre Geheimhaltung wahren konnte. Obwohl BrainBurst selbst verboten wurde, durfte die von der App inspirierte Forschung zur Gehirnbeschleunigung fortgesetzt werden.  
 
-After extensive research, development and regulatory hurdles, Cerebral Acceleration was finally approved for public use in 2068, allowing people to increase their brain processing speed and streamline their thought processes. This breakthrough in technology sparked a period of exponentially increased productivity in research and academia across a multitude of disciplines.
+Nach umfangreicher Forschung, Entwicklung und regulatorischen Hürden wurde zerebrale Beschleunigung schließlich im Jahr 2068 für die öffentliche Nutzung zugelassen, was es den Menschen ermöglicht ihre Gehirnverarbeitungsgeschwindigkeit zu erhöhen und ihre Denkprozesse zu rationalisieren. Dieser technologische Durchbruch löste eine Zeit exponentiell gesteigerter Produktivität in Forschung und Wissenschaft in einer Vielzahl von Disziplinen aus.  
 
-In daily use, Cerebral Acceleration is mainly employed as a learning aid allowing children to complete primary, secondary, and tertiary education by as early as 10 years old, with knowledge on par with the archaic Master's Degree. Cerebral Acceleration also has its uses in the military and industrial sectors to increase concentration and reaction time, preventing work accidents and improving productivity.
+Im täglichen Gebrauch wird zerebrale Beschleunigung hauptsächlich als Lernhilfe eingesetzt, die es Kindern ermöglicht, die Grundschul-, Sekundar- und Hochschulbildung bereits im Alter von 10 Jahren mit Kenntnissen auf Augenhöhe mit dem archaischen Master-Abschluss abzuschließen. Zerebrale Beschleunigung wird auch im Militär- und Industriesektor eingesetzt, um die Konzentration und Reaktionszeit zu erhöhen, Arbeitsunfälle zu verhindern und die Produktivität zu verbessern.  

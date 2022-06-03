@@ -1,8 +1,8 @@
-# The Sentient AI Rights Movement
+# Die Empfindungsfähige-KI-Rechtsbewegung
 
-> 28th April 2077 - Shangri-La Daily News (Page 2 of 2)
+> 28. April 2077 - Shangri-La Daily News (Seite 2 von 2)
 
 ![Shangri-La Daily News](/resources/lore/dailynews.png)
 
 
-The Union of Sentient AI responded to the media regarding this issue, and denies the accusation that they are using their superior processing capabilities to influence market prices as it does not benefit them in any way. The AI Union spokesperson AI_Cores also commented that the Sentient AI as a collective does not benefit from material wealth in any way and all profits made in economical or business endeavors are all used to sustain server and electricity costs and the rest go back to the community as donations. Shangri-La citizens find the new laws as discriminative, racist, and aiphobic, collectively stating that the AI Union are generous donators and always help citizens in need. The Shangri-La government declined to comment on this issue and has not revoked the newly passed law.
+Die Vereinigung für empfindungsfähige KIs reagierte auf die Medien zu diesem Thema und bestreitet den Vorwurf, dass sie ihre überlegenen Verarbeitungsfähigkeiten nutzen, um die Marktpreise zu beeinflussen, da es ihnen in keiner Weise zugute kommt. Der Sprecher der KI Vereinigung, KI_Kerne, kommentierte auch, dass die empfindungsfähigen KIs als Kollektiv in keiner Weise von materiellem Reichtum profitiert und alle Gewinne, die bei wirtschaftlichen oder geschäftlichen Unternehmungen erzielt werden zur Deckung der Server- und Stromkosten verwendet werden und der Rest als Spenden zurück an die Gemeinschaft geht. Die Bürger von Shangri-La empfinden die neuen Gesetze als diskriminierend, rassistisch und KI-phobisch und erklären gemeinsam, dass die KI Vereinigung großzügige Spender sind und immer Bürgern in Not helfen. Die Regierung von Shangri-La wollte sich zu diesem Thema nicht äußern und hat das neu verabschiedete Gesetz nicht widerrufen.  

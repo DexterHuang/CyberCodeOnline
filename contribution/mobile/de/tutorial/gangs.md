@@ -1,32 +1,32 @@
 # Gangs
-**Gangs** are a great way to join forces with your friends. Members gain the ability to access gang headquarters, dungeons, and chat. Gangs can be created and joined once you're level 3. Creating a gang costs 50,000BTC and has a weekly upkeep fee of Resources and BTC.
+**Gangs** sind eine großartige Möglichkeit, sich mit deinen Freunden zusammenzutun. Mitglieder erhalten die Möglichkeit, auf das Gang-Hauptquartier, Dungeons und Chats zuzugreifen. Gangs können erstellt und beigetreten werden, sobald du Stufe 3 erreicht hast. Das Erstellen einer Gang kostet 50.000 BTC und hat eine wöchentliche Unterhaltsgebühr, die in Ressourcen und BTC bezahlt wird.
 
-## Gang HQ
-The gang headquarters show your gang level, necessary upkeep, amount of members, and control over Shangri-La. It also has new AFK tasks and an Automatic Recycler.  
+## Gang-Hauptquartier
+Das Gang-Hauptquartier zeigt dein Gang-Level, den notwendigen Unterhalt, die Anzahl der Mitglieder und die Kontrolle über Shangri-La. Es hat auch neue AFK-Aufgaben und einen automatischen Recycler.
 
-Gang level impacts how many members can be in a gang.  To level up, collect Gang EXP by doing AFK tasks such as **Gather Gang Resource** and **Decrypt Memory Shard**. There is also a dedicated leaderboard for gangs, which are ranked by gang level.
+Das Gang-Level beeinflusst wie viele Mitglieder in einer Gang sein können. Um aufzusteigen sammle Gang-EXP, indem du AFK-Aufgaben wie **Sammle Gang Ressourcen** und **Entschlüssele Speicher-Splitter** erledigst. Es gibt auch eine spezielle Rangliste für Gangs, die nach Gang-Level geordnet ist.
 
-There's a weekly upkeep due for all gangs. If the upkeep quota isn't met, the gang will be automatically disbanded.  Upkeep amounts are based on the number of members the gang has, thus more members there are, the more Resources and BitCoin are needed. Minimize the amount of inactive players in your gang to keep upkeep goals lower.
+Für alle Gangs ist ein wöchentlicher Unterhalt fällig. Wenn die Unterhaltsquote nicht erreicht wird, wird die Gang automatisch aufgelöst. Die Beträge für den Unterhalt basieren auf der Anzahl der Mitglieder, die die Gang hat. Je mehr Mitglieder es gibt, desto mehr Ressourcen und Bitcoin werden benötigt. Minimiere die Anzahl der inaktiven Spieler in deiner Gang, um die Unterhaltsziele niedrig zu halten.
 
-## Occupation Control
-Occupation gives gangs control over different areas of Shangri-La. If a gang is in the top two gangs on the **Occupation Leaderboard**, those members have access to a special task called **Collect Protection Fees**. Occupation Control is gained by performing the **Reinforce Occupation at Shangri-La** Task, which consumes one gang supply crate.  It is recommended to discuss with your gang whether you want to gather occupation points or not.
+## Besetzungskontrolle
+Die Besetzung gibt Gangs die Kontrolle über verschiedene Gebiete von Shangri-La. Wenn eine Gang zu den ersten beiden Gangs auf der **Besetzungsrangliste** gehört, haben deren Mitglieder Zugriff auf eine spezielle Aufgabe namens **Schutzgebühren einziehen**. Besetzungskontrolle erhält man, indem man die Aufgabe **Besetzung in Shangri-La verstärken** durchführt, die eine Gang-Versorgungskiste verbraucht. Es empfiehlt sich, mit Ihrer Gang zu besprechen, ob Sie Besatzungspunkte sammeln wollen oder nicht.
 
-## Tech Recycler
-The **Automatic Recycler** will break down various items like Med Tech, Millitary Ammo Tech Parts, or Caches and turn it into Tech Scrap. It is consider one of the most efficient way of getting Tech Scrap, that also yield more Tech Scrap per rate. Since Recycler accounts as an AFK Task, player need to consider it's task duration based on the ammount of item that needs to be turn into Tech Scrap. Not only that, some items (such as Cache) yields up to x4 times of Tech Scrap per cache with a cost of having longer task time than both Med Tech and Millitary Ammo (which only yields x1.2 times per item)   
+## Tech-Recycler
+Der **Automatische Recycler** zerlegt verschiedene Gegenstände wie medizinische Technologieteile, militärische Munitionsteile oder Caches und wandelt sie in Technikschrott um. Es wird als einer der effizientesten Wege betrachtet an Technikschrott zu kommen. Da Recycler als AFK-Aufgabe gilt muss der Spieler die Aufgabendauer basierend auf der Menge an Gegenständen berücksichtigen, die in Technikschrott umgewandelt werden sollen. Nicht nur das, einige Gegenstände (wie z. B. Caches) liefern bis zu x4-mal Technikschrott pro Cache, was eine längere Aufgabenzeit bedeutet als für medizinische Technologieteile und militärische Munitionsteile (die nur x1,2-mal Technikschrott pro Gegenstand liefern).
 
-## Hack Into Fortress
-The final AFK task available to gang members is **Hack SL Data Fortress**.  This task uses **Protocol Breach Shards** to make progress on the SL-Data Fortress Breach.  Total progress can be seen in the Quest tab. When a Breach has been completed, a random 20 minute Global Buff will go into effect.  
+## In das Rechenzentrum hacken
+Die letzte AFK-Aufgabe für Gangmitglieder ist **SL-Rechenzentrum Daten-Diebstahl**. Diese Aufgabe verwendet **Protokollverletzungsscherben**, um Fortschritte beim Hacken in das SL-Rechenzentrum zu erzielen. Der Gesamtfortschritt kann im Auftrags-Tab eingesehen werden. Wenn der Daten-Diebstahl abgeschlossen wurde, tritt ein zufälliger 20-minütiger globaler Buff in Kraft.
 
-## Gang Dungeons
-Gang dungeon consumes a **Gang Invasion Order Transmitter** when being created.  After the dungeon has been created, anyone in the gang can join, regardless of their level. Enemies are 4-5x stronger than regular enemies and give 2x the exp. Bosses are guaranteed to drop a Rare Locked Container, Rare equipment, and Gang Supply Crates.
+## Gang-Dungeons
+Beim Erstellen eines Gang-Dungeons wird ein **Gang-Invasion-Befehlssender** verbraucht. Nachdem der Dungeon erstellt wurde kann jeder in der Gang beitreten, unabhängig von seinem Level. Feinde sind 4-5x stärker als normale Feinde und geben 2x mehr Erfahrung. Bosse lassen garantiert einen seltenen verschlossenen Behälter, seltene Ausrüstung und Gang-Versorgungskisten fallen.
 
-## Gang Options
-As Gang Leader, you will have 3 additional options when visiting one of your gang members' profiles:
- - [KICK] : you can kick the gang member from the gang;
- - [PERMISSIONS] : here you can grant permissions to the gang member:
-   - Invite : it allows the gang member to invite other players to the gang;
-   - Kick  : it allows the gang member to kick other gang members;
-   - Manage : it allows the gang member to add or remove other gang members' permissions.
- - [TRANSFER LEADERSHIP] - you can set another gang member as the leader in case you don't want to be the leader anymore or want to leave the gang.
+## Gang-Optionen
+Als Gang-Leader hast du 3 zusätzliche Optionen, wenn du das Profil eines deiner Gang-Mitglieder besuchst:
+ - [RAUSWERFEN] : Du kannst das Gangmitglied aus der Gang rauswerfen;
+ - [BERECHTIGUNGEN] : Hier kannst du dem Gangmitglied Berechtigungen erteilen:
+   - Einladen: Erlaubt dem Gangmitglied, andere Spieler in die Gang einzuladen;
+   - Rauswerfen: Erlaubt dem Gangmitglied, andere Gangmitglieder rauszuwerfen;
+   - Verwalten: Erlaubt dem Gangmitglied, die Berechtigungen anderer Gangmitglieder zu erweitern oder zu entfernen.
+ - [FÜHRUNG ÜBERTRAGEN] - Du kanst ein anderes Gangmitglied als Anführer festlegen, falls du nicht mehr der Anführer sein oder die Gang verlassen möchtest.
 
-Also as the Leader, in the Gang chat, if you click on the numbers of players in the gang on the top right, you will be able to [DELETE GANG] there.
+Übrigens als Anführer kannst du die Gang löschen, wenn du im Gang-Chat oben rechts auf die Anzahl der Spieler in der Gang klickst, wo du dann [GANG LÖSCHEN] findest.

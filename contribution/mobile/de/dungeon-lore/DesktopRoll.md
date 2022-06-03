@@ -1,4 +1,4 @@
-While hacking through a random dudes desktop, you find a folder suspiciously named 'Do not open'.    Behind that folder you find,<br> another folder, <br> then another. <br> Until finally, you find an audio transcript. <Br> We're no strangers to love
+Während du dich durch den Desktop eines zufälligen Typen hackst, findest du einen Ordner mit dem verdächtigen Namen 'Nicht öffnen'. Hinter diesem Ordner findest du,<br> einen weiteren Ordner,<br> dann noch einen. <br> Bis du schließlich ein Audio-Transkript findest. <br> We're no strangers to love
 <br>You know the rules and so do I
 <br>A full commitment's what I'm thinking of
 <br>You wouldn't get this from any other guy
@@ -54,5 +54,5 @@ While hacking through a random dudes desktop, you find a folder suspiciously nam
 <br>Never gonna make you cry
 <br>Never gonna say goodbye
  
-`[expletive]`
-<br>You aren't sure what the point of the audio was. Seemed to be some old song from pre-singularity. Whatever it was, it just wasted 5 minutes of your time.
+`[Kraftausdruck]`
+<br>Du bist dir nicht sicher, was der Sinn des Audios war. Scheint ein altes Lied aus der Zeit vor der Singularität zu sein. Was auch immer es war, es hat nur 5 Minuten deiner Zeit verschwendet.

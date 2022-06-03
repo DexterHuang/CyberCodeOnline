@@ -1,17 +1,17 @@
->[Part 1 of 3 of 10\HACK series]
+>[Teil 1 von 3 der 10\HACK-Reihe]  
 
-Ten little hackers, prowling online
+Zehn kleine Hacker, die im Internet herumstöbern
 
-One betrayed his location then there were nine.
+Einer verriet seinen Standort, dann waren es neun.
 
-Nine little hackers diverting freight;
+Neun kleine Hacker, die Fracht umleiten;
 
-One tripped an ICE then there were eight.
+Einer löste einen Alarm aus, dann waren es acht.
 
-Eight little hackers raiding a tax haven
+Acht kleine Hacker überfallen eine Steueroase
 
-One smelled like Fed, then there were seven.
+Einer roch nach FBI, dann waren es sieben.
 
-Seven little hackers stealing memory sticks;
+Sieben kleine Hacker stehlen Speichersticks;
 
-One was GPS-tracked, then there were six.
+Einer war GPS-getrackt, dann waren es noch sechs.

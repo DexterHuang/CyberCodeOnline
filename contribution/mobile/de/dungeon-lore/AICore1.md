@@ -1,9 +1,9 @@
-*[You find a textbook and flip to a random page.]*
+*[Du findest ein Lehrbuch und blätterst auf eine zufällige Seite.]*
 
-![AI Textbook](/resources/lore/textbookAI440.png)
-# Mass Adoption of AI in Daily Life
-> (Part 1 of 8 aicore series)
+![KI Lehrbuch](/resources/lore/textbookAI440.png)
+# Massenadoption von KI im täglichen Leben
+> (Teil 1 von 8 der KI-Kern-Reihe)
 
-Artificial intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions. The term may also be applied to any machine that exhibits traits associated with a human mind such as learning and problem-solving. Historically, creating a general AI that can solve common human problems and tasks was a very difficult premise. Most of the AI developed in history only excelled at one specific task and failed at others. 
+Künstliche Intelligenz (KI) bezieht sich auf die Simulation menschlicher Intelligenz in Maschinen, die so programmiert sind, dass sie wie Menschen denken und ihre Handlungen nachahmen. Der Begriff kann auch auf jede Maschine angewendet werden, die Eigenschaften aufweist, die mit einem menschlichen Verstand verbunden sind, wie z. B. das Lernen und Problemlösen. Historisch gesehen war die Schaffung einer allgemeinen KI, die allgemeine menschliche Probleme und Aufgaben lösen kann, eine sehr schwierige Voraussetzung. Die meisten der in der Geschichte entwickelten KIs haben sich nur bei einer bestimmten Aufgabe hervorgetan und sind bei anderen gescheitert.  
 
-Since the breakthrough in quantum computer technology that happened in 2044, computing power has increased exponentially - even exceeding Moore's Law, which states computing speed doubles every two years. With current computers being so much more powerful, more generalized AI can be implemented. Nowadays, AI is everywhere, from your Aerial Autonomous Vehicle to your coffee maker. AI enables even simple items to be able to "think" like a human. We often take for granted our daily appliances that can predict what we might like for dinner, make coffee before we realize we need one, toast bread when you get out of bed and think about toast, or in the case of television, can choose a channel you will definitely enjoy watching.
+Seit dem Durchbruch der Quantencomputertechnologie im Jahr 2044 ist die Rechenleistung exponentiell gestiegen und hat sogar das Mooresche Gesetz übertroffen, das besagt, dass sich die Rechengeschwindigkeit alle zwei Jahre verdoppelt. Da aktuelle Computer so viel leistungsfähiger sind, kann eine allgemeinere KI implementiert werden. Heutzutage ist KI überall, von Ihrem autonomen Luftfahrzeug bis zu Ihrer Kaffeemaschine. KI ermöglicht es sogar einfachen Gegenständen, wie ein Mensch zu „denken“. Wir nehmen unsere täglichen Geräte oft als selbstverständlich hin, die vorhersagen können, was wir zum Abendessen mögen, Kaffee kochen, bevor wir merken, dass wir einen brauchen, Brot toasten, wenn Sie aus dem Bett aufstehen und an Toast denken oder im Fall des Fernsehens einen Kanal auswählen können, den Sie auf jeden Fall gerne sehen werden.  

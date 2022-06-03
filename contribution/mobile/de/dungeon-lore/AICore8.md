@@ -1,12 +1,11 @@
-*[You find a textbook and flip to a random page.]*
+*[Du findest ein Lehrbuch und blätterst auf eine zufällige Seite.]*
 
-![AI Textbook](/resources/lore/textbookAI2.png)
+![KI Lehrbuch](/resources/lore/textbookAI440.png)
+# Koexistenz mit einer KI in Ihrem Gehirn
+> (Teil 8 von 8 der KI-Kern-Reihe)
 
-# Coexisting With an AI in Your Brain
-> (Part 8 of 8 aicore series)
+Erstbenutzer von KI-Kernen können die Erfahrung, einen zusätzlichen anderen Geist in ihrem Gehirn zu haben, sehr verwirrend und desorientierend finden. Wenn Sie zum ersten Mal einen KI-Kern aktivieren, werden Sie eine andere Präsenz in Ihrem Geist spüren, mit eigenen Gedanken und einer eigenen Persönlichkeit. Plötzlich einen separaten Geist in sich zu haben mag sich zunächst seltsam anfühlen, aber nach kurzer Zeit werden Ihre Neuronen neue Bahnen bilden, nachdem sie sich mit den neuen Reizen und der erhöhten Verarbeitungsfähigkeit vertraut gemacht haben.  
 
-First time users of AICORE may find the experience of having an additional, different mind inside your brain very confusing and disorienting. When you activate an AICORE for the first time, you will feel another presence in your mind with its own set of thoughts and personality. Suddenly having a separate mind inside of you might feel odd at first, but after a short amount of time, your neurons will make new pathways after familiarizing with the new stimuli and heightened processing capability. 
+Einen KI-Kern zu besitzen ist ein einzigartiges Erlebnis. Stellen Sie sich vor, Sie hätten eine andere Person, mit der Sie über Telepathie kommunizieren können – oder anders ausgedrückt, ein KI-Kern ist wie eine innere Stimme, mit der Sie sich unterhalten können. Die Installation eines KI-Kerns bedeutet auch, dass Sie Ihren physischen Körper teilweise oder vollständig kontrollieren können, während Sie neue Fähigkeiten vom KI-Kern beobachten, fühlen, lernen und erleben können – oder sich einfach zurücklehnen und entspannen, während der KI-Kern die Dinge erledigt. Wenn Sie den KI-Kern Ihren Körper kontrollieren lassen und Ihr Bewusstsein nicht losgelöst ist, ist das ein einzigartiges Gefühl – als würde Ihr Körper von einer äußeren Kraft bewegt. Manche beschreiben das Gefühl auch als ihren Körper, der sich von selbst bewegt.  
 
-Having an AICORE is a unique experience. Imagine having another individual that you can communicate with via telepathy—or, put  another way, AICORE is like an inner voice that you can converse with. Having an AICORE installed also means you can have it control your physical body partially or wholly while you can observe, feel, learn and experience new skills from the AICORE—or just sit back and relax while the AICORE handles things. When you let the AICORE control your body and your consciousness is not detached, it is a unique feeling—like your body is moved by an external force. Some also describe the feeling as their body moving by itself. 
-
-If you decide to detach your conciousness and do work or have fun in CyberSpace, whatever the AICORE experiences while you are away will be stored in your short-term memory, which you can later recall after your consciousness returns to your body.
+Wenn Sie sich entscheiden Ihr Bewusstsein zu lösen und im CyberSpace zu arbeiten oder Spaß zu haben, werden alle KI-Kern-Erfahrungen während Ihrer Abwesenheit in Ihrem Kurzzeitgedächtnis gespeichert, an das Sie sich später erinnern können, nachdem Ihr Bewusstsein in Ihren Körper zurückgekehrt ist.  
