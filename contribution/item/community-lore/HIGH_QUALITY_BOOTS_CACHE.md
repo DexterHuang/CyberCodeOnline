@@ -1,0 +1,1 @@
+This High Quality Boots Cache can be printed in some nice shoes, when things get hard and you need to escape you can surely count on the high quality boots you'll get by printing these!

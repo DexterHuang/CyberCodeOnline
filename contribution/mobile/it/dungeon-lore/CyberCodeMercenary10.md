@@ -1,0 +1,4 @@
+# Quelling Those Who Oppose the World Government Organization
+> (part 10 of 12 cyber code mercenary series)
+
+Immediately after the World Government Organization (WGO) was formed, many countries that oppose being under a global unified government formed resistance groups to try and gain independence. This was all the result of brainwashing from opposition political parties. In reality every country in the world still retained their independence as long as they also follow WGO laws and rules. Criminal groups also manipulate easily swayed groups to start small civil wars in the hope of distracting the military and police forces while they do their dirty work. This lead to the formation of the Cyber Code Mercenaries, a group of highly modified super soldiers with physical and mental powers far exceeding any human being. This ensures they can overwhelm and defeat any opposition force with precision, speed and the minimum amount of casualties.
