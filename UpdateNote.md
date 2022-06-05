@@ -26,6 +26,10 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  
 
 ## Updates        
+### 2022/06/05 v0.780
+- FIX - Fixed detail page pentagon not showing correct color for prestige
+- FIX - Fix some buttons on web version doesnt show correct mouse pointer style when hovered
+
 ### 2022/06/03 v0.780
 - UPDATE - Replaced newly rendered background image for `Hyper tTrain Central Station` and `Trinoky Mart`
 
