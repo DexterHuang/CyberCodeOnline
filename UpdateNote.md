@@ -26,6 +26,9 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  
 
 ## Updates        
+### 2022/06/07 v0.780
+- NEW - Changed how AFK tasks are started, now to start you will need to drag a few icons into red box, this should reduced AFK bots, and increase the skip queue speed 
+
 ### 2022/06/05 v0.780
 - FIX - Fixed detail page pentagon not showing correct color for prestige
 - FIX - Fix some buttons on web version doesnt show correct mouse pointer style when hovered
