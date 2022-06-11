@@ -1,13 +1,13 @@
-# Chat
+# Чат
 
-There are 6 types of chat rooms in CyberCode Online currently: 
-- **Global & Language Channel** : Where everyone can chat freely and interact with each other. With newly added Language Channels, players can chat with their respective language in their dedicated channel. Chat rules still applies, even in different channels. 
-- **Gang Chat** : Only the members of your gang can chat and see the messages sent in that channel. You can tag other people in the gang chat as well.
-- **Private Messages (Mail)** : Where you can privately chat with other players. You will also receive notifications as in a form of Mail from the System after you sent items to someone or vice versa, when someone bought your listings on the Player Market or when you receive a Street Cred from someone.
-- **Auction Channel** : Where players can put items into auction for other players to bid on them. Usually, AI Cores are used as a currency in this channel. 
-- **Market Channel** : Where players can put ads for items they want to sell / buy / trade. Usually, AI cores and rates are used as a currency in this channel (rates usually appear as Item amount:AI Core amount, unless stated otherwise). 
-- **Roleplay Channel** : Where players can roleplay freely as they wish, creating their own stories and lore. 
+На даний момент існує 6 типів чатів в CyberCode Online: 
+- **Глобальний та мовний канал** : Це канали де кожен може вільно спілкуватися та взаємодіяти один з одним. За допомогою нещодавно доданих мовних каналів гравці можуть спілкуватися відповідною мовою у своєму спеціальному каналі. Правила чату все ще застосовуються, навіть у різних каналах. 
+- **Чат банди** : Тільки члени вашої банди можуть спілкуватися в чаті і бачити повідомлення, відправлені в цьому каналі. Ви також можете позначити інших людей у груповому чаті.
+- **Приватні повідомлення (Пошта)** : Це чат де ви можете приватно спілкуватися з іншими гравцями. Ви також будете отримувати сповіщення, як у вигляді пошти від Системи після того, як ви надіслали предмети комусь або навпаки, коли хтось купив ваші придмети на ринку гравців або коли ви отримаєте валюту від когось.
+- **Канал аукціону** : Це канал де гравці можуть виставляти предмети на аукціон для інших гравців, щоб зробити заробити на них. Як правило, ядра AI використовуються як валюта в цьому каналі. 
+- **Ринковий канал** : Це канал де гравці можуть розміщувати рекламу товарів, які вони хочуть продати / купити / торгувати. Зазвичай ядра AI та ставки використовуються як валюта в цьому каналі (ставки зазвичай відображаються як сума товару: сума основного AI, якщо не вказано інше). 
+- **Канал рольових ігор** : Це канал де гравці можуть грати рольові ігри вільно, як вони хочуть, створюючи свої власні історії та знання. 
 
-In order to mention (or tag) someone in the Global chat, you can use '@' and the name of the user (for example: '@DexterHuang'). As you type their name, a list will appear and you can select the desired name from that list. You can also mention other players by clicking their username and then select the Option **Reply** The player mentioned by you will receive a notification that you mentioned them. 
+Для того, щоб згадати (або позначити) когось у Глобальному чаті, ви можете використовувати '@' та ім'я користувача (наприклад: "@DexterHuang"). Під час введення імені з'явиться список, і ви зможете вибрати потрібне ім'я з цього списку. Ви також можете згадати інших гравців, натиснувши їх ім'я користувача, а потім виберіть опцію Відповісти, Гравець згаданий вами, отримає сповіщення про те, що ви згадали про нього. 
 
-Note: You can't mention (tag) someone in the private chat for obvious reasons, as it accounts as **Ghosting** and will annoy tagged player, however, if someone tags you in gang chats, you will receive a notification of that message, but will not be able to visualize it. 
+Примітка: Ви не можете згадати (тег) когось у приватному чаті зі зрозумілих причин, оскільки він обліковується як хостинг і буде дратувати гравця з тегами, однак, якщо хтось позначить вас у групових чатах, ви отримаєте сповіщення про це повідомлення, але не зможете його візуалізувати. 
