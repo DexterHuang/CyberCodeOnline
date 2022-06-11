@@ -27,7 +27,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates        
 ### 2022/06/11 v0.780
-- BUFF - Increased `Rare Locked Container` drop rate of AI Core and pouch 
+- BUFF - Increased `Rare Locked Container` drop rate of hash AI Core and pouch 
 - FIX - Fixed issue ralated to AFK bot prevention (it was disabled before because some technical issue), now reenabled with greatly reduced show-up rate base on player feedbacks :) 
 - NEW - Added prestige tier healing items, cost is higher but heal amount is greatly increased
 
