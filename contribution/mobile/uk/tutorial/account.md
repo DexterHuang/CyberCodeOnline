@@ -1,8 +1,8 @@
 ## Creating an Account
 
-Currently you can use Google, Apple or any email accounts to register.
-You will than be taken to a screen where you will choose your username. Make sure to choose wisely as this is permanent and can't be changed.
+В даний час ви можете використовувати Google, Apple або будь-які облікові записи електронної пошти для реєстрації.
+Вас перенесуть на екран, де ви виберете своє ім'я користувача. Обов'язково вибирайте з розумом, оскільки це постійно і не може бути змінено.
 
 ## Logging in
 
-If you already have an account, fill in the respective blanks with your email/password to sign in or by clicking on the Google/Apple sign in buttons.
+Якщо у вас вже є обліковий запис, заповніть відповідні пробіли електронною поштою та паролем, щоб увійти або натиснувши кнопки входу Google або Apple.
