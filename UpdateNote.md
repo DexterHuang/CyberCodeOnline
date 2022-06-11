@@ -26,6 +26,11 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
  
 
 ## Updates        
+### 2022/06/11 v0.780
+- BUFF - Increased `Rare Locked Container` drop rate of AI Core and pouch 
+- FIX - Fixed issue ralated to AFK bot prevention (it was disabled before because some technical issue), now reenabled with greatly reduced show-up rate base on player feedbacks :) 
+- NEW - Added prestige tier healing items, cost is higher but heal amount is greatly increased
+
 ### 2022/06/07 v0.780
 - NEW - Changed how AFK tasks are started, now to start you will need to drag a few icons into red box (Chance based, not everytime), this should reduced AFK bots, and increase the skip queue speed 
 
