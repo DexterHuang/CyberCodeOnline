@@ -1,36 +1,36 @@
-# Social
-In CyberCodeOnline, there are few ways of communicating with other players around the world, which ranged from social chatting onto personal messaging with other player.
+# Соціальне
+У CyberCodeOnline є кілька способів спілкування з іншими гравцями по всьому світу, які варіюються від соціальних чатів до особистих повідомлень з іншим гравцем.
 
-## Chats
-Chats consist of different channels, with a goal to socialize with each other. These were justified by having **Chat Quest** being activated after player speaks in chat for the first time.  
+## Чати
+Чати складаються з різних каналів, з метою спілкування один з одним. Це було виправдано тим, що **Chat Quest** було активовано після того, як гравець вперше говорить у чаті.
 
-Explanation around Chat can be found on [Chat's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fchat.md)
+Пояснення щодо чату можна знайти в [Посібник із чату](https://cybercodeonline.com/markdown?path=tutorial%2Fchat.md)
 
-## Gangs
-Currently gangs are just a private chat area for a group of up to 32 (and more) friends to communicate, with a side of gang task and other gang exclusive feature. There are plans to add more gang related feature in the future. 
+## Банди
+Наразі банди — це лише приватна чат-зона для спілкування групи до 32 (і більше) друзів зі стороною завдання банди та іншими ексклюзивними функціями для банди. У майбутньому планується додати більше функції, пов’язаної з бандами.
 
-Explanation around Gangs can be found on [Gang's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fgangs.md)
+Пояснення щодо банд можна знайти в [Посібник для банди](https://cybercodeonline.com/markdown?path=tutorial%2Fgangs.md)
 
-## Adding Friends
-To access your personal friends list, click on the floating menu and choose the **People**'s icon. You can add friends by going into a user's profile, scrolling down and clicking **Add to Friend List**. You can do the same to remove a friend by clicking the **Remove From Friend List** button.
+## Додавання друзів
+Щоб отримати доступ до свого особистого списку друзів, натисніть на плаваюче меню та виберіть піктограму **Люди**. Ви можете додати друзів, зайшовши в профіль користувача, прокрутивши вниз і натиснувши **Додати до списку друзів**. Ви можете зробити те саме, щоб видалити друга, натиснувши кнопку **Видалити зі списку друзів**.
 
-Adding someone to your friends list will not require the other person to accept the request. They will simply be added to your friends list. Viewing your friends list will allow you to see if they are online, idle or offline.
+Додавання когось до списку друзів не вимагає від іншої особи прийняти запит.  Вони просто будуть додані до вашого списку друзів.  Перегляд списку друзів дозволить вам побачити, чи вони онлайн, неактивні чи офлайн.
 
-## Block Feature
+## Функція блокування
 
-![BlockFeature1](/resources/mobile-tutorial/BlockFeature1.png)
+![Функция блокування1](/resources/mobile-tutorial/BlockFeature1.png)
 
-Players are able to block other players when necessary. To do so, a player needs to click their Username (in chat) and pick **Block Option** that's below the Profile option. When a player gets blocked, the player who blocked them can't see their messages until they unblock them.
+Гравці можуть блокувати інших гравців, коли це необхідно. Для цього гравцеві потрібно клацнути ім’я користувача (у чаті) і вибрати **Параметр блокування** під опцією профілю. Коли гравця заблокують, гравець, який його заблокував, не зможе побачити його повідомлення, поки не розблокує його.
 
-![BlockFeature2](/resources/mobile-tutorial/BlockFeature2.png)
+![Функція блокування2](/resources/mobile-tutorial/BlockFeature2.png)
 
-To unblock other players, a player needs to find **Block List** option, which can be found on Profile / Map > Phone Icon > All Apps > Block List. After that, the player chooses the player's username and click **Unblock** button that's on the right side of the blocked player's username.
+Щоб розблокувати інших гравців, гравцеві потрібно знайти опцію **Список блокування**, її можна знайти в розділі Профіль / Карта > Значок телефону > Усі програми > Заблоковані гравці. Після цього гравець вибирає ім’я гравця та натискає кнопку **Розблокувати**, яка знаходиться праворуч від імені користувача заблокованого гравця.
 
-![BlockFeature3](/resources/mobile-tutorial/BlockFeature3.png)
+![Функція блокування3](/resources/mobile-tutorial/BlockFeature3.png)
 
-After choosing out which player will be unblocked, a pop-up will be shown, to confirm player's action on unblocking the stated player. Clicking on **YES** button implies that the stated player will be unblocked and its chat can be seen again.
+Після вибору гравця, якого буде розблоковано, з’явиться спливаюче вікно, щоб підтвердити дії гравця щодо розблокування зазначеного гравця. Натискання кнопки **ТАК** означає, що вказаного гравця буде розблоковано, а його чат знову можна буде побачити.
 
-## Player Trading
-While there is no official feature to trade, **Sending Gift to Player** works in a way bridge out the way of trading in this game. To initialize a trade, both players arrange a deal via **Private Message** with a sense of trust on both sides. Once a deal is approved, both players trade their goods and thank each other when a deal is done.
+## Торгівля між гравцями
+Хоча офіційної функції для торгівлі немає, **Надсилання подарунка гравцеві** працює таким чином, що обмежує спосіб торгівлі в цій грі. Щоб ініціалізувати угоду, обидва гравці укладають угоду через **Приватне повідомлення** з почуттям довіри з обох сторін. Після схвалення угоди обидва гравці торгують своїми товарами й дякують один одному, коли угода укладена.
 
-If a player tries to scam others, it's recommended to report this behavior to in-game `Moderator` via Private Message rather than announce it in **Global Chat** to prevent misinformation or bad behavior by any means.
+Якщо гравець намагається обдурити інших, рекомендується повідомити про це "Модератору" в грі через приватні повідомлення, а не оголошувати про це в **Глобальному чаті**, щоб будь-яким способом запобігти дезінформації або поганої поведінки.
