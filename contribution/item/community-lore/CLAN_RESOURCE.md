@@ -1,0 +1,2 @@
+It was made to smuggle contraband across borders, and to evade even the best scanners the police had at their disposal. It can be filled with a wide variety of items. Ammo, drugs, illegally modified guns and body mods to name a few. 
+You have no idea how it works, who pre-loaded it, or what's inside. All you know is that one click, and whatever is inside it gets transported to your gang headquarters.
