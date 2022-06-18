@@ -176,6 +176,7 @@ ElectricSoldier323
 [Hally](https://twitter.com/g_hally1996)
 Hardboiled_Cat
 HeyaItsLuna
+Isobel
 JashinL
 [JEricaM](https://github.com/JEricaM)
 Killzonegx
