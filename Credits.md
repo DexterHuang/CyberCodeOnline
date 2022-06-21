@@ -114,6 +114,7 @@ Wanna
 [RedWolf141](https://github.com/RedWolf141)
 Omega_finale
 [Mortino](https://github.com/mRuggi)
+[zwc18](https://github.com/zwc18)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)

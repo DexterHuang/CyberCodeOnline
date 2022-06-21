@@ -23,7 +23,14 @@ Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
- 
+
+## Upcoming Update Notice
+- Gang leaders will be be able to give custom rank to their gang member with cost of large amount of BTC per change. the rank name will only be shown in the gang member list and player details (this is Gang Rank, not to be confused with Donation Title)
+- Previous `Rare Locked Container` drop rate will be reverted and readjusted in later patch after more research.
+- Enemies that is significantly higher level then you (more then XX levels, difference less then that is not impacted) deals increasingly higher damages (x% per level difference) to you and takes less damage base on the level difference, this will be shown with a skull icon in the combat UI next to the enemy name, similar to in most MMOPRG games. the exact number is still being finalized and tested
+
+**WIP Updates are subject to changes**
+
 
 ## Updates        
 ### 2022/06/16 v0.780
