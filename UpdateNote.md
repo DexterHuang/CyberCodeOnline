@@ -33,6 +33,9 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 
 ## Updates        
+### 2022/06/21 v0.780
+- FIX - Security patch
+
 ### 2022/06/16 v0.780
 - NEW - Added Ukraine chat channel 
 
