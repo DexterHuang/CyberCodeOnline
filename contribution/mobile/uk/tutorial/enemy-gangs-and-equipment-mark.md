@@ -1,41 +1,41 @@
 
-# Enemy Gangs & Mark
+# Ворожі банди та позначки спорядження
 
 ![EnemyGangGraph](/resources/mobile-tutorial/EnemyGangGraph.png)
 
-All enemies have a gang that it belongs to, as each area will have a different gang _'dominant'_ in retrospect. These gangs will affect how players approach as the enemy gang will either benefit players or make the fight even harder.
+У всіх ворогів є банда, до якої вони належать, оскільки кожна область матиме різну банду, _'домінантну'_ у ретроспективі. Ці банди впливатимуть на підхід гравців, оскільки ворожа банда або принесе користь гравцям, або ускладнить боротьбу.
 
-In summary, enemy gangs name & trait as follows:
-- **Animals:** Increased damage to **Disruptor** players (up to 10%)
+У підсумку, назви та ознаки ворожих банд:
+- **Тварини:** Збільшена шкода для гравців з **Руйнівним** спорядженням (до 10%)
 
-- **Voodoo Boys**: Increased damage to **Makeshift** players (up to 10%)
+- **Вуду**: збільшення шкоди для гравців з **Імпровізованим** спорядженням (до 10%)
 
-- **Scavengers**: Increased damage to **Lethal** players (up to 10%)
+- **Падальники**: збільшення шкоди для гравців зі **Смертельним** спорядженням (до 10%)
 
 ![EnemyGang](/resources/mobile-tutorial/EnemyGang.png)
 
-One of the few ways to know which gangs are dominating the area is through **Nearby Enemies** or surfing around **Dungeon**. By seeing their gang name on the top of its health bar, you can notify who's who very quickly. Players can still change their gear in-fight stance if they think the enemies will benefit from its **Mark** spots.
+Один із небагатьох способів дізнатися, які банди домінують у цьому районі, — **Вороги поблизу** або серфінг навколо **Підземелля**. Побачивши назву їхньої банди у верхній частині панелі здоров’я, ви можете дуже швидко повідомити, хто є хто. Гравці все ще можуть змінити своє спорядження під час бою, якщо вони думають, що можуть отримають користь від іншого спорядження.
 
-## Equipment Mark
+## Позначки спорядження
 
-All gear / equipment (Except backpacks & modules) has a **Mark** that attach to it, which has a different effect depending on their enemy's influence.
+Усе спорядження та зброя (крім рюкзаків і модулів) має **Позначку**, що прикріплюється до нього, це має різний ефект залежно від впливу їхнього ворога.
 
-In summary, marks name & trait as follows:
+Підсумовуючи, ім'я позначки та риси таким чином:
 
-- **Lethal**: Increase damage to **Animals** enemies (up to 10%)
+- **Смертельна**: збільшення шкоди **Тваринам** (до 10%)
 
-- **Disruptor**: Increase damage to **Voodoo Boys** enemies (up to 10%)
+- **Руйнівна**: збільшення шкоди **Вуду** (до 10%)
 
-- **Makeshift**: Increase damage to **Scavengers** enemies (up to 10%)
+- **Імпровізоване**: збільшення шкоди **Падальникам** (до 10%)
 
-Keep in mind that every gear that players gain via print or drop either before or after **2022/01/05 update**, will have random Mark that's automaticly attached to it.
+Пам’ятайте, що кожне спорядження, яке гравці отримують за допомогою друку або з ворогів або після **оновлення 2022/01/05**, матиме випадкову позначку, яка автоматично прикріплюється до нього.
 
-## Knowing Your Designated Mark
+## Як дізнатися свої про позначки?
 
 ![EnemyGangMark](/resources/mobile-tutorial/EnemyGangMark.png)
 
-Every player has a different **Mark**, determined by the majority of the gear mark's that you have as your arsenal (you can see your designated **Mark** at the **Equipped** section on **Inventory** tab). For example, if your equipped gear were dominated by **Makeshift** mark, then Makeshift is your classified Mark.
+Кожен гравець має різну **помітку**, яка визначається більшістю позначок спорядження, які у вас є у вашому арсеналі (ви можете побачити свою **позначку** у розділі **Обладнання** в **Інвентар** вкладка). Наприклад, якщо на вашому одягнутому спорядженні переважає позначка **Імпровізоване**, то Імпровізоване — це ваша класифікована позначка.
 
 ![EnemyGangStats](/resources/mobile-tutorial/EnemyGangStats.png)
 
-Players can see the effects of having a certain amount of **Mark** by tapping the yellow Mark text on Equipped section or from the Player's stats on **Profile** tab. As the graph suggested above, every Mark will affect both gangs in a good or bad sense of ways.
+Гравці можуть побачити наслідки отримання певного % **Позначок**, торкнувшись жовтого тексту позначки в розділі Обладнання або зі статистики гравця на вкладці **Профіль**. Як показано на картинці вище, кожна позначка вплине на обидві банди в хорошому чи поганому сенсі.
