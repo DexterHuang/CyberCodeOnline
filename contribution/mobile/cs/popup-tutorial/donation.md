@@ -1,32 +1,31 @@
-# Donation
-To provide the best No Pay-to-Win experience to you, it is necessary that all paid features are cosmetic such as profile images & chat frames, 
-or global buffs that benefit everyone in-game :) 
+# Sponzorský dar
+Abychom mohli poskytnout co nejlepší zážitek bez Pay-to-Win systému, je nutné, aby všechny placené funkce byly kosmetické. Jako například profilové obrázky a rámečky chatu nebo globální bonusy z kterých může profitovat každý. :) 
 
-## Why is profile picture donation-only?
-Because this is an MMORPG game and **NOT a dating app** (I know it can be confusing sometimes 😅), therefore a profile picture is not a standard nor required feature. 
+## Proč je profilový obrázek dostupný pouze skrz sponzorský dar?
+Protože toto je MMORPG hra a **ŽÁDNÁ seznamka** (Chápu, že to může být někdy matoucí 😅), a proto není profilový obrázek standardem ani nutnou funkcionalitou. 
 
-**Profile images are served as a token of thanks for the donators**
+**Profilové obrázky slouží jako forma poděkování dárcům**
 
-**Fun Fact: 99% of the MMORPGs do not have a profile picture feature, even with a donation or their P2W system🤯**
+**Vtipná poznámka: 99% všech MMORPG her nemá možnost upravit profilový obrázek, a to ani skrz sponzorský dar nebo P2W systém🤯**
 
-## Do I need to donate for my whole life?
-No, you can cancel the donation at any time easily via your store.
+## Zůstane moje dárcovství aktivní napořád?
+Ne, můžete ho kdykoliv jednoduše zrušit v Obchodě.
 
-## The highest tier is so expensive, you greedy @$%#^#$!
-The higher tiers are requested by kind players who would like to donate more. 
+## Nejvyšší level dárcovství je velmi nákladný, jste velmi chamtivý @$%#^#$!
+Vyšší úroveň byla vyžádána lakavými hráči, kteří chtěli darovat více peněz. 
 
-Just like most other donation mechanisms, there is **No upper limit** on how much a person is allowed to donate. 
+Stejně jako většiny ostatních dárovských mechanik, ani zde není **žádná horní hranice** kolik může jedna osoba darovat. 
 
-(if you wish to donate more than is available in the app, you may message me directly 😃)
+(Pokud chcete přispět více, než kolik nabízí samotná aplikace, můžete mi napsat přímo 😃)
 
-for example: Patreon/Buy Me a coffee and most other donation services for creators do not have an upper limit on how much a person can choose to donate,
+Například: Patreon/Kup mi kafe a většina ostatních dárcovských služeb pro vývojaře nemá horní hranici, kolik může jedna osoba darovat,
 
-but due to Google Play & Apple policies, I am not allowed to have links to external donation sites in the app, 
-so the only option for me was to have tiers for the common amount.
+a protože mi politika Google a Apple nedovoluje mít link na externí dárcovské stránky (Patreon) přímo v aplikaci, 
+tak mojí jedinou možností je mít různé úrovně dárcovství za obvyklé ceny.
 
-## Do I need to donate?
-No. I strongly suggest you **Not** donate if you are not comfortable with it.
+## Musím něco darovat?
+Ne. Důrazně doporučuji, aby jste **NE**daroval, pokud vám to nevyhovuje nebo to nechcete.
 
-Donation does not provide any gameplay benefit; it is purely cosmetic. 
+Dar neposkytuje žádné vyhody ve hře, je čistě kosmetický.
 
-So please don't donate unless you want to support the game!  
+Proto nic nepřispívejte, pokud nechcete podpořit hru! 
