@@ -1,8 +1,8 @@
-## Creating an Account
+## Vytvoření účtu
 
-Currently you can use Google, Apple or any email accounts to register.
-You will than be taken to a screen where you will choose your username. Make sure to choose wisely as this is permanent and can't be changed.
+Aktuálně můžete použít pro registraci Google, Apple nebo jakýkoliv jiný emailový účet.
+Poté budete vyzváni, že si můžete zvolit svoje uživatelské jméno. Jednou zvolené jméno nejde později změnit, a proto vybírejte moudře.
 
-## Logging in
+## Přihlášení
 
-If you already have an account, fill in the respective blanks with your email/password to sign in or by clicking on the Google/Apple sign in buttons.
+Jestliže už účet máte, vyplňte do prázdných polí Váš email/heslo a přihlašte se. Nebo klikněte na Google/Apple tlačítko a přihlašte se těmito účty.
