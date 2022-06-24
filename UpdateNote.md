@@ -24,7 +24,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
-## Upcoming Update Notice
+## Upcoming Update Notice (Delayed due to higher prority security patch)
 - Gang leaders will be be able to give custom rank to their gang member with cost of large amount of BTC per change. the rank name will only be shown in the gang member list and player details (this is Gang Rank, not to be confused with Donation Title)
 - Previous `Rare Locked Container` drop rate will be reverted and readjusted in later patch after more research.
 - Enemies that is significantly higher level then you (with buffer of 15 levels; level +1 ~ +14 will not be affacted) will gain damage and resistance buff, deals increasingly higher damages (5% per level difference) to you and gain damage resistance from your attack (1% resistance per level difference, cap at 90% damage resistance), this will be shown with a skull icon in the combat UI next to the enemy name, similar to in most MMOPRG games. the exact number is still being finalized and tested
