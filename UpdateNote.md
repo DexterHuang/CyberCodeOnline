@@ -31,6 +31,10 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 
 ## Updates        
+### 2022/06/27 v0.780
+- FIX - A "Maybe Fix" for sometimes in rare occasions some message will get stuck at the bottom of chat list
+- UI - Removed the "xx minutes ago" message as it is resource intensive to make it update in realtime (specially to low end mobile phone), show only timestamp instead
+
 ### 2022/06/26 v0.780
 - Gang leaders will be be able to give custom rank to their gang member with cost of large amount of BTC per change. the rank name will only be shown in the gang member list and player details (this is Gang Rank, not to be confused with Donation Title). this rank will be removed forever if you leave the gang.
 - UPDATE - Chat server is re-written with new server with better better security
