@@ -24,11 +24,8 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
-## Upcoming Update Notice
-- Enemies that is significantly higher level then you (with buffer of 15 levels; level +1 ~ +14 will not be affacted) will gain damage and resistance buff, deals increasingly higher damages (5% per level difference) to you and gain damage resistance from your attack (1% resistance per level difference, cap at 90% damage resistance), the exact number is still being finalized and tested
-
-**WIP Updates are subject to changes**
-
+## Notice
+- With careful consideration and many feedback & sugesstions from many community members, previously mentioned enemy level gap scaling is canceled, if there is plan to make similar change, I will make sure to make new notice :)
 
 ## Updates        
 ### 2022/06/27 v0.780
