@@ -48,6 +48,7 @@ Proxxie
 [f4tih-0z3r](https://github.com/f4tih-0z3r)
 [Fremad](https://github.com/Fremadico)
 [JEricaM](https://github.com/JEricaM)
+Jiler
 [Jognatan](https://github.com/Jognatan)
 [Johnruby](https://github.com/johnruby)
 [kj415j45](https://github.com/kj415j45)
