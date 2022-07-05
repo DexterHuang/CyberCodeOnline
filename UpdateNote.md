@@ -28,6 +28,9 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 - With careful consideration and many feedback & sugesstions from many community members, previously mentioned enemy level gap scaling is canceled, if there is plan to make similar change, I will make sure to make new notice :)
 
 ## Updates        
+### 2022/07/05 v0.780
+- UPDATE - Improved stability of new chat server during update restart
+
 ### 2022/06/27 v0.780
 - FIX - A "Maybe Fix" for sometimes in rare occasions some message will get stuck at the bottom of chat list
 - UI - Removed the "xx minutes ago" message as it is resource intensive to make it update in realtime (specially to low end mobile phone), show only timestamp instead
