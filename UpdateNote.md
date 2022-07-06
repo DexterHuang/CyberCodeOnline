@@ -28,6 +28,10 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 - With careful consideration and many feedback & sugesstions from many community members, previously mentioned enemy level gap scaling is canceled, if there is plan to make similar change, I will make sure to make new notice :)
 
 ## Updates        
+### 2022/07/06 v0.780
+- NEW - Added new quests for newbies
+- UPDATE - Reduced chat quest required amount
+
 ### 2022/07/05 v0.780
 - UPDATE - Improved stability of new chat server during update restart
 
