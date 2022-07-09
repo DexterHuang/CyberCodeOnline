@@ -28,6 +28,10 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 - With careful consideration and many feedback & sugesstions from many community members, previously mentioned enemy level gap scaling is canceled, if there is plan to make similar change, I will make sure to make new notice :)
 
 ## Updates        
+### 2022/07/10 v0.780
+- NEW - Added de, pt and roplay chat channel log to discord
+- UI - Updated City center image
+
 ### 2022/07/09 v0.780
 - UPDATE - Improved bot detection to provide you guys better gaming enviroment :)
 
