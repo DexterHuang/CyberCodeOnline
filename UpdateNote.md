@@ -29,6 +29,8 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates        
 ### 2022/07/10 v0.780
+- UI - Updated scavange and ai farm action button
+- UPDATE - Merged word filter from contributed list in Github
 - NEW - Added de, pt and roplay chat channel log to discord
 - UI - Updated City center image
 
