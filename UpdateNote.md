@@ -29,6 +29,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates        
 ### 2022/07/10 v0.780
+- UPDATE - items on market with owner who is muted will get removed once someone attempt to purchase it
 - UI - Updated scavange and ai farm action button
 - UPDATE - Merged word filter from contributed list in Github
 - NEW - Added de, pt and roplay chat channel log to discord
