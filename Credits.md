@@ -116,6 +116,7 @@ Wanna
 Omega_finale
 [Mortino](https://github.com/mRuggi)
 [zwc18](https://github.com/zwc18)
+ClayBravo6
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
