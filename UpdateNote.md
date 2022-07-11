@@ -28,6 +28,9 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 - With careful consideration and many feedback & sugesstions from many community members, previously mentioned enemy level gap scaling is canceled, if there is plan to make similar change, I will make sure to make new notice :)
 
 ## Updates        
+### 2022/07/11 v0.780
+- UPDATE - Supply Crate usage from inventory directly has been disabled as it causes problem on server
+
 ### 2022/07/10 v0.780
 - UPDATE - items on market with owner who is muted will get removed once someone attempt to purchase it
 - UI - Updated scavange and ai farm action button
