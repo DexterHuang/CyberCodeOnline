@@ -29,7 +29,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates        
 ### 2022/07/17 v0.780
-- UPDATE - Mining btc gang has been buffed for only the lower levels, higher level remains similar gain
+- UPDATE - Mining btc gained has been buffed for only the lower levels, higher level remains similar gain
 - NEW - Potato donation tier will now give you a free potato emblem while potato tier is owned by the player
 - NEW - Added a few new emblems
 
