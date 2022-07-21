@@ -28,6 +28,10 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 - With careful consideration and many feedback & sugesstions from many community members, previously mentioned enemy level gap scaling is canceled, if there is plan to make similar change, I will make sure to make new notice :)
 
 ## Updates        
+### 2022/07/22 v0.780
+- OPTIMIZATION - Serverside optimizations
+- UI - Minor UI fixes
+
 ### 2022/07/17 v0.780
 - UPDATE - Mining btc gained has been buffed for only the lower levels, higher level remains similar gain
 - NEW - Potato donation tier will now give you a free potato emblem while potato tier is owned by the player
