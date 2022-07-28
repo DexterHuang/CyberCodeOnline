@@ -29,6 +29,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates                
 ### 2022/07/28 v0.780
+- UPDTAE - Security patch for bot prevention
 - OPTIMIZATION - new patch of serverside optimization is deployed
 
 ### 2022/07/26 v0.780
