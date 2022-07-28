@@ -28,6 +28,9 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 - With careful consideration and many feedback & sugesstions from many community members, previously mentioned enemy level gap scaling is canceled, if there is plan to make similar change, I will make sure to make new notice :)
 
 ## Updates                
+### 2022/07/28 v0.780
+- OPTIMIZATION - new patch of serverside optimization is deployed
+
 ### 2022/07/26 v0.780
 - UI - Bank NPC graphic has been updated
 
