@@ -117,6 +117,7 @@ Omega_finale
 [Mortino](https://github.com/mRuggi)
 [zwc18](https://github.com/zwc18)
 ClayBravo6
+[Chkj000](https://github.com/Chkj000)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
