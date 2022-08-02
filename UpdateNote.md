@@ -29,7 +29,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates                
 ### 2022/08/02 v0.780
-- Improved range select input user friendliness
+- Improved range select input user friendliness (delayed due to deployment issue)
 
 ### 2022/07/28 v0.780
 - OPTIMIZATION - Client side loading optimization
