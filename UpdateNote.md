@@ -28,6 +28,10 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 - With careful consideration and many feedback & sugesstions from many community members, previously mentioned enemy level gap scaling is canceled, if there is plan to make similar change, I will make sure to make new notice :)
 
 ## Updates                
+### 2022/08/03 v0.780
+- Updated server and client side dependency liberaries, might improve client side performance, please let me know if new bug is introduced due to this update
+- Improved range select input user friendliness
+
 ### 2022/08/02 v0.780
 - Improved range select input user friendliness (delayed due to deployment issue)
 
