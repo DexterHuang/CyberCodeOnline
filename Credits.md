@@ -132,6 +132,7 @@ ClayBravo6
 [Prodam](https://github.com/Pr0dam)
 [B3llial](https://github.com/B3lli4l)
 Kalinka
+[Polestar](https://github.com/P0L3-5T4R)
 
 ## Lore
 [Ayanna](https://github.com/JustACloud)
@@ -326,6 +327,7 @@ spyd3r
 [Manz](https://github.com/manztellen)
 [Jefreesujit](https://github.com/Jefreesujit)
 [Rexyislive](https://github.com/Rexyislive)
+[Polestar](https://github.com/P0L3-5T4R)
 
 ## Security Bug Reporters
 [0xF61](https://github.com/0xF61)
