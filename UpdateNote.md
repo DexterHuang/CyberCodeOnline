@@ -29,6 +29,9 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates                
 ### 2022/08/03 v0.780
+- Chat server internal update, should help with stability
+
+### 2022/08/03 v0.780
 - Updated server and client side dependency liberaries, might improve client side performance, please let me know if new bug is introduced due to this update
 - Improved range select input user friendliness
 
