@@ -28,7 +28,10 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 - With careful consideration and many feedback & sugesstions from many community members, previously mentioned enemy level gap scaling is canceled, if there is plan to make similar change, I will make sure to make new notice :)
 
 ## Updates                
-### 2022/08/03 v0.780
+### 2022/08/05 v0.780
+- Fixed issue with item details page where when item is scrapped the page stays as empty, now it automatically exist the page
+
+### 2022/08/04 v0.780
 - Chat server internal update, should help with stability
 
 ### 2022/08/03 v0.780
