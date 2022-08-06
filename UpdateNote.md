@@ -30,7 +30,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ## Updates                
 ### 2022/08/05 v0.780
 - Fixed bug where when viewing other player's item will result in app freeze 
-- Fixed issue with item details page where when item is scrapped the page stays as empty, now it automatically exist the page
+- Fixed issue with item details page where when item is scrapped the page stays as empty, now it automatically exits the page
 
 ### 2022/08/04 v0.780
 - Chat server internal update, should help with stability
