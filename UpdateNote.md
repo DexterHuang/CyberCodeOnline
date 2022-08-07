@@ -28,6 +28,9 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 - With careful consideration and many feedback & sugesstions from many community members, previously mentioned enemy level gap scaling is canceled, if there is plan to make similar change, I will make sure to make new notice :)
 
 ## Updates                
+### 2022/08/06 v0.780
+- Fixed issue with reverse ai core cluster crafting could result in item exceeding max stack (system will in some condition reset items with amount more then stack to it is stack cap, meaning if you somehow find a exploit to allow exceeding max stack, please do not risk system resetting your item amount, report the bug to me <3)
+
 ### 2022/08/05 v0.780
 - Fixed bug where when viewing other player's item will result in app freeze 
 - Fixed issue with item details page where when item is scrapped the page stays as empty, now it automatically exits the page
