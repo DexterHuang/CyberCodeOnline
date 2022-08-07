@@ -29,6 +29,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates                
 ### 2022/08/06 v0.780
+- Fixed issue with mail chat
 - Fixed issue with reverse ai core cluster crafting could result in item exceeding max stack (system will in some condition reset items with amount more then stack to it is stack cap, meaning if you somehow find a exploit to allow exceeding max stack, please do not risk system resetting your item amount, report the bug to me <3)
 
 ### 2022/08/05 v0.780
