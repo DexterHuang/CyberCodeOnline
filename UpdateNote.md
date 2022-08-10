@@ -28,6 +28,10 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 - With careful consideration and many feedback & sugesstions from many community members, previously mentioned enemy level gap scaling is canceled, if there is plan to make similar change, I will make sure to make new notice :)
 
 ## Updates                
+### 2022/08/10 v0.780
+- Fixed prestigue nano medic drone translation not showing in translation
+- Showing numeric keyboard when doing captcha
+
 ### 2022/08/09 v0.780
 - Updated tran station and market background image to something original
 - Optimizations and bug fixes
