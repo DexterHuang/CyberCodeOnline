@@ -6,23 +6,21 @@
 AlphaC58
 Artra
 Ayanna
-[BruteDeity](https://github.com/BruteDeity)
+BoxinFoxx
 [CMDR7](https://github.com/cmdr7)
 [Deckeeper](https://github.com/deckeeper)
 Fudgee
 HLYGD
-Keevin
 Krolik
 [kt0t0wh0](https://github.com/kt0t0Sudd3n)
 [l33t4ng3l](https://github.com/l33t4ng3l)
-LuciMorningstar
 [Mancipi](https://github.com/Mancipi)
 [PotatoMan](https://github.com/PotatoMan145)
-[Prodam](https://github.com/Pr0dam)
 Tear1
 [Tripplehelix](https://github.com/tripplehelix)
 Unca_Feddit
 [WhirlingDervish](https://github.com/NickN5)
+Wooffle
 YANDEREsenpaiXD
 
 ## Music
