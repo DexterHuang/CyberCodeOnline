@@ -24,11 +24,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
-## Notice
-- With careful consideration and many feedback & sugesstions from many community members, previously mentioned enemy level gap scaling is canceled, if there is plan to make similar change, I will make sure to make new notice :)
-
 ## Updates                
 ### 2022/08/18 v0.780
+- Merged latest english procedural-name.json list from githhub into the game
 - Updated black market art, sorry @mikazakhaev if its not 100% true to your original design haha  
 - Server-side bug fixes
 
