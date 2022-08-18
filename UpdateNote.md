@@ -29,6 +29,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates                
 ### 2022/08/18 v0.780
+- Updated black market art, sorry @mikazakhaev if its not 100% true to your original design haha  
 - Server-side bug fixes
 
 ### 2022/08/17 v0.780
