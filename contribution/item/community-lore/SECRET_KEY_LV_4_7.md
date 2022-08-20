@@ -1,0 +1,1 @@
+A fragment of a crypto-key.  "*DO NOT DUPLICATE*" is engraved on the back.
