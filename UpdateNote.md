@@ -25,7 +25,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates           
-### 2022/08/23 v0.780
+### 2022/08/24 v0.780
 - Fixed Thai chat channel typo in the name
 
 ### 2022/08/23 v0.780
