@@ -24,7 +24,13 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
-## Updates                
+## Updates           
+### 2022/08/23 v0.780
+- Fixed Thai chat channel typo in the name
+
+### 2022/08/23 v0.780
+- Added Thai chat channel
+
 ### 2022/08/18 v0.780
 - Merged latest english procedural-name.json list from githhub into the game
 - Updated black market art, sorry @mikazakhaev if its not 100% true to your original design haha  
