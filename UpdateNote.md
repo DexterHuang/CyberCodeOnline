@@ -27,7 +27,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ## Updates           
 ### 2022/08/26 v0.780
 - Added some preventive mesure to reduce the chance of unwanted deploying of global buff when another player has alraedy deployed one:
-  - When deploying a buff with an active buff and the buff is has more then 19 minutes remaining, the deployment will forcefully fail, you may deploy again after 1 minute if thats what you wish
+  - When deploying a buff with an active buff and the buff is has more then 19 minutes remaining, the deployment will fail forcefully, you may deploy again after 1 minute if thats what you wish
   - When deploying a buff with an active buff and the buff has more then half of the time remaining, a popup confirmation will popup show up. (this only applies to buff that has duration of 20 minutes, and will not work if you are desync from server due to network connection issue)
 
 ### 2022/08/24 v0.780
