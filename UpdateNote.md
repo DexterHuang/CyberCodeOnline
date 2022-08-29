@@ -25,6 +25,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates           
+### 2022/08/29 v0.780
+- Added report menue, you may report rule breaking player by clicking on the message or report button at the player's profile 
+**If you play/spam/missuse with the system, you will be muted for spam**
+
 ### 2022/08/26 v0.780
 - Added some preventive mesure to reduce the chance of unwanted deploying of global buff when another player has alraedy deployed one:
   - When deploying a buff with an active buff and the buff is has more then 19 minutes remaining, the deployment will fail forcefully, you may deploy again after 1 minute if thats what you wish (might still have extremly rare chance of two person clicked at the exact same millisecond result in server unable to prevent it)
