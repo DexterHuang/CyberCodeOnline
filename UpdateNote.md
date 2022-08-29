@@ -27,7 +27,8 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ## Updates           
 ### 2022/08/29 v0.780
 - Added report menue, you may report rule breaking player by clicking on the message or report button at the player's profile 
-**If you play/spam/missuse with the system, you will be muted for spam**
+
+**Only use if necessary and only once per player. If you play/spam/missuse with the system, you will be muted for spam**
 
 ### 2022/08/26 v0.780
 - Added some preventive mesure to reduce the chance of unwanted deploying of global buff when another player has alraedy deployed one:
