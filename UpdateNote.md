@@ -25,6 +25,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates           
+### 2022/09/03 v0.780
+- Updated City center, train station and bank's background image to better ones
+- Updated location background display UI
+
 ### 2022/08/29 v0.780
 - Added report menue, you may report rule breaking player by clicking on the message or report button at the player's profile 
 
