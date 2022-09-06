@@ -6,6 +6,9 @@ or global buffs that benefit everyone in-game :)
 ## Why is profile picture donation-only?
 
 Because CyberCode Online is a none-P2W game. so all paid feature must be cosmetic or benefiting everyone. custom profile picture is one of the optional cosmetic feature that does not give you any edge in the game. so it is important this is donation-only (we need money to feed the servers)
+
+Additionally, we could provide safer and more family-friendly enviroment; since it would be significantly more challenging to moderate the content if everyone is allowed to upload any image to their profile.  
+
 Hope you can understand the reasoning behind this :)
 
 **Profile images are served as a token of thanks for the donators**
@@ -18,7 +21,7 @@ No. I strongly suggest you **Not** donate if you are not comfortable with it.
 
 Donation does not provide any gameplay benefit; it is purely cosmetic.
 
-So please don't donate unless you want to support the game!
+So please don't donate unless you want to support the game! :)
 
 ## Do I need to donate for my whole life?
 
