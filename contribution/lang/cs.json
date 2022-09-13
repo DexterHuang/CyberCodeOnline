@@ -369,6 +369,33 @@
  	 	 	 	"eng": "chat system not connected"
  	 	 	}
  	 	},
+ 	 	"clanPage": {
+ 	 	 	"createClan": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Nejste členem žádného gangu",
+ 	 	 	 	 	"eng": "You are not a member of any gang"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"cost"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Chat gang bude povolen, když patříte do gangu",
+ 	 	 	 	 	"eng": "gang chat will be enabled when you belong to a gang.\\njoin a gang by making friends in global chat or create your own gang and invite your friends!"
+ 	 	 	 	},
+ 	 	 	 	"createButton": {
+ 	 	 	 	 	"trans": "Vytvořte gang",
+ 	 	 	 	 	"eng": "Create gang"
+ 	 	 	 	},
+ 	 	 	 	"createButtonDescription": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"cost",
+ 	 	 	 	 	 	"currency"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Vytvořte gang za ${cost} ${currency}",
+ 	 	 	 	 	"eng": "Create a gang for ${cost} ${currency}"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
  	 	"deathScreen": {
  	 	 	"topTitleLeft": {
  	 	 	 	"trans": "smrtelné zranění",
@@ -648,6 +675,21 @@
  	 	 	"lockDescription": {
  	 	 	 	"trans": "Zabraňuje náhodnému prodeji nebo zničení",
  	 	 	 	"eng": "Prevents accidental selling or destroying"
+ 	 	 	},
+ 	 	 	"cantPrintWhileInCombat": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"currentAction"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Nemůžete tisknout zařízení, zatímco ${currentAction}",
+ 	 	 	 	"eng": "You can't print equipment while ${currentAction}"
+ 	 	 	},
+ 	 	 	"printCache": {
+ 	 	 	 	"trans": "Tisková mezipaměť",
+ 	 	 	 	"eng": "Print Cache"
+ 	 	 	},
+ 	 	 	"printCacheDescription": {
+ 	 	 	 	"trans": "Proměňte tuto mezipaměť na položku zbraně nebo vybavení, které můžete Spojené arabské emiráty.",
+ 	 	 	 	"eng": "Turn this cache into a weapon or equipment item that you can uae."
  	 	 	}
  	 	},
  	 	"itemDetails": {
@@ -668,6 +710,16 @@
  	 	 	 	},
  	 	 	 	"trans": "Tovární nastavení",
  	 	 	 	"eng": "Factory Reset"
+ 	 	 	},
+ 	 	 	"noItem": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Tuto položku již nemáte",
+ 	 	 	 	 	"eng": "You no longer have this item"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Stiskněte zpět a vraťte se zpět do inventáře",
+ 	 	 	 	 	"eng": "press back to go back to inventory"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"secretKey": {
@@ -862,6 +914,10 @@
  	 	 	 	"giveStreetCred": {
  	 	 	 	 	"trans": "Dát pouliční karmu",
  	 	 	 	 	"eng": "Give Street Cred"
+ 	 	 	 	},
+ 	 	 	 	"report": {
+ 	 	 	 	 	"trans": "Hráč nahlásit",
+ 	 	 	 	 	"eng": "Report Player"
  	 	 	 	}
  	 	 	},
  	 	 	"equipped": {
@@ -2222,6 +2278,10 @@
  	 	 	"eng": "close"
  	 	},
  	 	"characterNameError": {
+ 	 	 	"invalidChar": {
+ 	 	 	 	"trans": "Jméno může obsahovat pouze anglická písmena, čísla a \"_\"",
+ 	 	 	 	"eng": "Name can only contain English letters, numbers and \"_\""
+ 	 	 	},
  	 	 	"hasSpace": {
  	 	 	 	"trans": "Název nemůže obsahovat mezery, můžete je ale nahradit \"_\"",
  	 	 	 	"eng": "Name cannot contain spaces, you may replace the space with \"_\""
@@ -2233,10 +2293,6 @@
  	 	 	"tooLong": {
  	 	 	 	"trans": "Jméno musí být délky kratší nebo rovné 16 znakům",
  	 	 	 	"eng": "Name must be less or equal to 16 characters long"
- 	 	 	},
- 	 	 	"invalidChar": {
- 	 	 	 	"trans": "Jméno může obsahovat pouze anglická písmena, čísla a \"_\"",
- 	 	 	 	"eng": "Name can only contain English letters, numbers and \"_\""
  	 	 	}
  	 	},
  	 	"onlineAgo": {
@@ -4586,6 +4642,24 @@
  	 	 	 	"eng": "You need to be at least level 10 to access merchant"
  	 	 	}
  	 	},
+ 	 	"blackMarket": {
+ 	 	 	"defaultLines": {
+ 	 	 	 	"trans": [
+ 	 	 	 	 	"Hey kid, wanna make some quick bucks?"
+ 	 	 	 	],
+ 	 	 	 	"eng": [
+ 	 	 	 	 	"Hey kid, wanna make some quick bucks?"
+ 	 	 	 	]
+ 	 	 	},
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Černý trh",
+ 	 	 	 	"eng": "Black Market"
+ 	 	 	},
+ 	 	 	"npcName": {
+ 	 	 	 	"trans": "Nula",
+ 	 	 	 	"eng": "Zero"
+ 	 	 	}
+ 	 	},
  	 	"recycleMachine": {
  	 	 	"name": {
  	 	 	 	"trans": "Automatický recyklátor",
@@ -4594,16 +4668,6 @@
  	 	 	"description": {
  	 	 	 	"trans": "Plně automatizovaný recyklátor, schopný recyklovat předměty až do jejich základní formy - šrotu",
  	 	 	 	"eng": "Fully automated recycler, capable of recycling items to their basic scrap form"
- 	 	 	}
- 	 	},
- 	 	"blackMarket": {
- 	 	 	"name": {
- 	 	 	 	"trans": "Černý trh",
- 	 	 	 	"eng": "Black Market"
- 	 	 	},
- 	 	 	"description": {
- 	 	 	 	"trans": "Ilegální trh plný lidí se všemi druhy pochybných nabídek a vzácných kořistí. \r\n         Vytiskněte a rovnou prodejte svá Schémata, abyste si vydělali rychlé peníze",
- 	 	 	 	"eng": "An underground market filled with people with all kind of shady deals and rare loots.\r\n        Print and sell your caches here to earn quick money"
  	 	 	}
  	 	}
  	},
@@ -4987,6 +5051,24 @@
  	 	 	"eng": "Anti Matter Charge (lv${minLevel})"
  	 	}
  	},
+ 	"reportPlayerType": {
+ 	 	"inappropriateLang": {
+ 	 	 	"trans": "Nevhodný jazyk",
+ 	 	 	"eng": "Inappropriate Language"
+ 	 	},
+ 	 	"aggressiveBehavior": {
+ 	 	 	"trans": "Agresivní chování",
+ 	 	 	"eng": "Aggressive Behavior"
+ 	 	},
+ 	 	"spamming": {
+ 	 	 	"trans": "Spamování",
+ 	 	 	"eng": "Spamming"
+ 	 	},
+ 	 	"other": {
+ 	 	 	"trans": "jiný",
+ 	 	 	"eng": "Other"
+ 	 	}
+ 	},
  	"statusEffect": {
  	 	"synapticAccelerationSmall": {
  	 	 	"trans": "Synaptické zrychlení",
@@ -5215,6 +5297,23 @@
  	 	 	 	 	"trans": "Nenalezen předmět pro automatické rozložení",
  	 	 	 	 	"eng": "No item to auto scrap"
  	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"useItemWithExistingBuffModal": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Jste si jisti, že chcete tuto položku použít?",
+ 	 	 	 	"eng": "Are you sure you want to use this item?"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"remaining"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Použitím této položky obnoví časovač aktuálního aktivního buff a naskládáte efekt, pokud je to použitelné. (${remaining})",
+ 	 	 	 	"eng": "By using this item will refresh the timer of current active buff and stack the effect if applicable. (${remaining})"
+ 	 	 	},
+ 	 	 	"confirmText": {
+ 	 	 	 	"trans": "Použití",
+ 	 	 	 	"eng": "Use"
  	 	 	}
  	 	}
  	},
@@ -5516,6 +5615,10 @@
  	 	 	 	"trans": "Blokovat",
  	 	 	 	"eng": "Block"
  	 	 	},
+ 	 	 	"report": {
+ 	 	 	 	"trans": "Zpráva a blok",
+ 	 	 	 	"eng": "Report and Block"
+ 	 	 	},
  	 	 	"openPlayerProfile": {
  	 	 	 	"trans": "Prohlédnout profil",
  	 	 	 	"eng": "View Profile"
@@ -5772,10 +5875,75 @@
  	 	 	}
  	 	}
  	},
+ 	"createClanModal": {
+ 	 	"gangNameInput": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Název gangu",
+ 	 	 	 	"eng": "Gang Name"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Zadejte celé jméno svého gangu",
+ 	 	 	 	"eng": "Enter the full name of your gang"
+ 	 	 	}
+ 	 	},
+ 	 	"gangShortNameInput": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Den gangů",
+ 	 	 	 	"eng": "Gang Tag"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Krátká značka, která se zobrazí v chatu",
+ 	 	 	 	"eng": "A short tag that will be displayed in chat"
+ 	 	 	}
+ 	 	},
+ 	 	"createButton": {
+ 	 	 	"trans": "Vytvořte gang",
+ 	 	 	"eng": "Create gang"
+ 	 	},
+ 	 	"error": {
+ 	 	 	"noNameOrShortName": {
+ 	 	 	 	"trans": "Zadejte název a značku",
+ 	 	 	 	"eng": "Please enter a name and a tag"
+ 	 	 	}
+ 	 	}
+ 	},
  	"dungeonList": {
  	 	"newbieTip": {
  	 	 	"trans": "V dungeonech nebudete automaticky léčení, nezapomeňte používat vaše léčivé položky.",
  	 	 	"eng": "You will not heal after each fight in dungeon, remember to use your healing items."
+ 	 	}
+ 	},
+ 	"reportPlayerModal": {
+ 	 	"title": {
+ 	 	 	"vars": [
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Hlášení ${playerName}",
+ 	 	 	"eng": "reporting ${playerName}"
+ 	 	},
+ 	 	"description": {
+ 	 	 	"trans": "Zpráva bude zaslána moderátorům automaticky. \\ nPlease Nenechte se zneužití, spamování nebo hraní se systémem sestav",
+ 	 	 	"eng": "Report will be sent to moderators automatically. \\nPlease do not misuses, spamming or play with the report system"
+ 	 	},
+ 	 	"textInput": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Popis",
+ 	 	 	 	"eng": "Description"
+ 	 	 	}
+ 	 	},
+ 	 	"report": {
+ 	 	 	"trans": "Zpráva a blok",
+ 	 	 	"eng": "report and block"
+ 	 	},
+ 	 	"error": {
+ 	 	 	"otherNoText": {
+ 	 	 	 	"trans": "Typ zprávy „jiné“ potřebuje popis",
+ 	 	 	 	"eng": "Report type of \"Other\" needs a description"
+ 	 	 	},
+ 	 	 	"noReportType": {
+ 	 	 	 	"trans": "Musíte vybrat typ sestavy",
+ 	 	 	 	"eng": "You need to select a report type"
+ 	 	 	}
  	 	}
  	},
  	"gang": {

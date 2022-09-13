@@ -369,6 +369,33 @@
  	 	 	 	"eng": "chat system not connected"
  	 	 	}
  	 	},
+ 	 	"clanPage": {
+ 	 	 	"createClan": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "あなたはギャングの一員ではありません",
+ 	 	 	 	 	"eng": "You are not a member of any gang"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"cost"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "ギャングのチャットがギャングに所属すると、ギャングチャットが有効になります。",
+ 	 	 	 	 	"eng": "gang chat will be enabled when you belong to a gang.\\njoin a gang by making friends in global chat or create your own gang and invite your friends!"
+ 	 	 	 	},
+ 	 	 	 	"createButton": {
+ 	 	 	 	 	"trans": "ギャングを作成します",
+ 	 	 	 	 	"eng": "Create gang"
+ 	 	 	 	},
+ 	 	 	 	"createButtonDescription": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"cost",
+ 	 	 	 	 	 	"currency"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${cost} ${currency}のギャングを作成します",
+ 	 	 	 	 	"eng": "Create a gang for ${cost} ${currency}"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
  	 	"deathScreen": {
  	 	 	"topTitleLeft": {
  	 	 	 	"trans": "致命的な負傷",
@@ -648,6 +675,21 @@
  	 	 	"lockDescription": {
  	 	 	 	"trans": "売却やスクラップされないようになります",
  	 	 	 	"eng": "Prevents accidental selling or destroying"
+ 	 	 	},
+ 	 	 	"cantPrintWhileInCombat": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"currentAction"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${currentAction}の間、機器を印刷することはできません",
+ 	 	 	 	"eng": "You can't print equipment while ${currentAction}"
+ 	 	 	},
+ 	 	 	"printCache": {
+ 	 	 	 	"trans": "キャッシュを印刷します",
+ 	 	 	 	"eng": "Print Cache"
+ 	 	 	},
+ 	 	 	"printCacheDescription": {
+ 	 	 	 	"trans": "このキャッシュを、UAEができる武器または機器のアイテムに変えます。",
+ 	 	 	 	"eng": "Turn this cache into a weapon or equipment item that you can uae."
  	 	 	}
  	 	},
  	 	"itemDetails": {
@@ -668,6 +710,16 @@
  	 	 	 	},
  	 	 	 	"trans": "装備の状態を初期化",
  	 	 	 	"eng": "Factory Reset"
+ 	 	 	},
+ 	 	 	"noItem": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "このアイテムはもうありません",
+ 	 	 	 	 	"eng": "You no longer have this item"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "再び押して在庫に戻ります",
+ 	 	 	 	 	"eng": "press back to go back to inventory"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"secretKey": {
@@ -862,6 +914,10 @@
  	 	 	 	"giveStreetCred": {
  	 	 	 	 	"trans": "リスペクトを送る",
  	 	 	 	 	"eng": "Give Street Cred"
+ 	 	 	 	},
+ 	 	 	 	"report": {
+ 	 	 	 	 	"trans": "レポートプレーヤー",
+ 	 	 	 	 	"eng": "Report Player"
  	 	 	 	}
  	 	 	},
  	 	 	"equipped": {
@@ -2222,6 +2278,10 @@
  	 	 	"eng": "close"
  	 	},
  	 	"characterNameError": {
+ 	 	 	"invalidChar": {
+ 	 	 	 	"trans": "名前には英語の文字, 数字, 「_」のみを含めることができます",
+ 	 	 	 	"eng": "Name can only contain English letters, numbers and \"_\""
+ 	 	 	},
  	 	 	"hasSpace": {
  	 	 	 	"trans": "名前にスペースを含めることができない場合は, スペースを \"_\"に置き換えることができます.",
  	 	 	 	"eng": "Name cannot contain spaces, you may replace the space with \"_\""
@@ -2233,10 +2293,6 @@
  	 	 	"tooLong": {
  	 	 	 	"trans": "名前は16文字以下でなければなりません",
  	 	 	 	"eng": "Name must be less or equal to 16 characters long"
- 	 	 	},
- 	 	 	"invalidChar": {
- 	 	 	 	"trans": "名前には英語の文字, 数字, 「_」のみを含めることができます",
- 	 	 	 	"eng": "Name can only contain English letters, numbers and \"_\""
  	 	 	}
  	 	},
  	 	"onlineAgo": {
@@ -4800,6 +4856,24 @@
  	 	 	 	"eng": "You need to be at least level 10 to access merchant"
  	 	 	}
  	 	},
+ 	 	"blackMarket": {
+ 	 	 	"defaultLines": {
+ 	 	 	 	"trans": [
+ 	 	 	 	 	"Hey kid, wanna make some quick bucks?"
+ 	 	 	 	],
+ 	 	 	 	"eng": [
+ 	 	 	 	 	"Hey kid, wanna make some quick bucks?"
+ 	 	 	 	]
+ 	 	 	},
+ 	 	 	"name": {
+ 	 	 	 	"trans": "ブラックマーケット",
+ 	 	 	 	"eng": "Black Market"
+ 	 	 	},
+ 	 	 	"npcName": {
+ 	 	 	 	"trans": "ゼロ",
+ 	 	 	 	"eng": "Zero"
+ 	 	 	}
+ 	 	},
  	 	"recycleMachine": {
  	 	 	"name": {
  	 	 	 	"trans": "オートリサイクラー",
@@ -4808,16 +4882,6 @@
  	 	 	"description": {
  	 	 	 	"trans": "アイテムを基礎の状態にスクラップする全自動のリサイクル機",
  	 	 	 	"eng": "Fully automated recycler, capable of recycling items to their basic scrap form"
- 	 	 	}
- 	 	},
- 	 	"blackMarket": {
- 	 	 	"name": {
- 	 	 	 	"trans": "ブラックマーケット",
- 	 	 	 	"eng": "Black Market"
- 	 	 	},
- 	 	 	"description": {
- 	 	 	 	"trans": "後ろ暗い取引や珍しいアイテムを抱えた人間で溢れかえる非合法市場. \r\n         ここでキャッシュをプリント・売却すれば, 手っ取り早く資金を稼ぐことができる",
- 	 	 	 	"eng": "An underground market filled with people with all kind of shady deals and rare loots.\r\n        Print and sell your caches here to earn quick money"
  	 	 	}
  	 	}
  	},
@@ -5201,6 +5265,24 @@
  	 	 	"eng": "Anti Matter Charge (lv${minLevel})"
  	 	}
  	},
+ 	"reportPlayerType": {
+ 	 	"inappropriateLang": {
+ 	 	 	"trans": "不適切な言語",
+ 	 	 	"eng": "Inappropriate Language"
+ 	 	},
+ 	 	"aggressiveBehavior": {
+ 	 	 	"trans": "攻撃的な行動",
+ 	 	 	"eng": "Aggressive Behavior"
+ 	 	},
+ 	 	"spamming": {
+ 	 	 	"trans": "スパム",
+ 	 	 	"eng": "Spamming"
+ 	 	},
+ 	 	"other": {
+ 	 	 	"trans": "他の",
+ 	 	 	"eng": "Other"
+ 	 	}
+ 	},
  	"statusEffect": {
  	 	"synapticAccelerationSmall": {
  	 	 	"trans": "シナプス加速器",
@@ -5429,6 +5511,23 @@
  	 	 	 	 	"trans": "自動スクラップできるアイテムがありません",
  	 	 	 	 	"eng": "No item to auto scrap"
  	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"useItemWithExistingBuffModal": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "このアイテムを使用したいですか？",
+ 	 	 	 	"eng": "Are you sure you want to use this item?"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"remaining"
+ 	 	 	 	],
+ 	 	 	 	"trans": "このアイテムを使用することにより、現在のアクティブバフのタイマーを更新し、該当する場合は効果をスタックします。 （${remaining}）",
+ 	 	 	 	"eng": "By using this item will refresh the timer of current active buff and stack the effect if applicable. (${remaining})"
+ 	 	 	},
+ 	 	 	"confirmText": {
+ 	 	 	 	"trans": "使用する",
+ 	 	 	 	"eng": "Use"
  	 	 	}
  	 	}
  	},
@@ -5730,6 +5829,10 @@
  	 	 	 	"trans": "ブロック",
  	 	 	 	"eng": "Block"
  	 	 	},
+ 	 	 	"report": {
+ 	 	 	 	"trans": "レポートとブロック",
+ 	 	 	 	"eng": "Report and Block"
+ 	 	 	},
  	 	 	"openPlayerProfile": {
  	 	 	 	"trans": "プロフィールを見る",
  	 	 	 	"eng": "View Profile"
@@ -5986,10 +6089,75 @@
  	 	 	}
  	 	}
  	},
+ 	"createClanModal": {
+ 	 	"gangNameInput": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "ギャングの名前",
+ 	 	 	 	"eng": "Gang Name"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "ギャングのフルネームを入力してください",
+ 	 	 	 	"eng": "Enter the full name of your gang"
+ 	 	 	}
+ 	 	},
+ 	 	"gangShortNameInput": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "ギャングの日",
+ 	 	 	 	"eng": "Gang Tag"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "チャットで表示される短いタグ",
+ 	 	 	 	"eng": "A short tag that will be displayed in chat"
+ 	 	 	}
+ 	 	},
+ 	 	"createButton": {
+ 	 	 	"trans": "ギャングを作成します",
+ 	 	 	"eng": "Create gang"
+ 	 	},
+ 	 	"error": {
+ 	 	 	"noNameOrShortName": {
+ 	 	 	 	"trans": "名前とタグを入力してください",
+ 	 	 	 	"eng": "Please enter a name and a tag"
+ 	 	 	}
+ 	 	}
+ 	},
  	"dungeonList": {
  	 	"newbieTip": {
  	 	 	"trans": "ダンジョンでは戦闘の後に回復しません. 回復アイテムを使うことを忘れずに.",
  	 	 	"eng": "You will not heal after each fight in dungeon, remember to use your healing items."
+ 	 	}
+ 	},
+ 	"reportPlayerModal": {
+ 	 	"title": {
+ 	 	 	"vars": [
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "${playerName}の報告",
+ 	 	 	"eng": "reporting ${playerName}"
+ 	 	},
+ 	 	"description": {
+ 	 	 	"trans": "レポートはモデレーターに自動的に送信されます。 \\ npleaseレポートシステムを誤用したり、スパムしたり、遊んだりしないでください",
+ 	 	 	"eng": "Report will be sent to moderators automatically. \\nPlease do not misuses, spamming or play with the report system"
+ 	 	},
+ 	 	"textInput": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "説明",
+ 	 	 	 	"eng": "Description"
+ 	 	 	}
+ 	 	},
+ 	 	"report": {
+ 	 	 	"trans": "レポートとブロック",
+ 	 	 	"eng": "report and block"
+ 	 	},
+ 	 	"error": {
+ 	 	 	"otherNoText": {
+ 	 	 	 	"trans": "「その他」のレポートタイプには説明が必要です",
+ 	 	 	 	"eng": "Report type of \"Other\" needs a description"
+ 	 	 	},
+ 	 	 	"noReportType": {
+ 	 	 	 	"trans": "レポートタイプを選択する必要があります",
+ 	 	 	 	"eng": "You need to select a report type"
+ 	 	 	}
  	 	}
  	},
  	"gang": {

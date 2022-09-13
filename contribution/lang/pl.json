@@ -369,6 +369,33 @@
  	 	 	 	"eng": "chat system not connected"
  	 	 	}
  	 	},
+ 	 	"clanPage": {
+ 	 	 	"createClan": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Nie jesteś członkiem żadnego gangu",
+ 	 	 	 	 	"eng": "You are not a member of any gang"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"cost"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Czat gangów będzie włączony, gdy należysz do gangu. \\ Njoin do gangu, zaprzyjaźniając się z globalnym czatem lub tworzenie własnego gangu i zapraszając znajomych!",
+ 	 	 	 	 	"eng": "gang chat will be enabled when you belong to a gang.\\njoin a gang by making friends in global chat or create your own gang and invite your friends!"
+ 	 	 	 	},
+ 	 	 	 	"createButton": {
+ 	 	 	 	 	"trans": "Utwórz gang",
+ 	 	 	 	 	"eng": "Create gang"
+ 	 	 	 	},
+ 	 	 	 	"createButtonDescription": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"cost",
+ 	 	 	 	 	 	"currency"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Utwórz gang dla ${cost} ${currency}",
+ 	 	 	 	 	"eng": "Create a gang for ${cost} ${currency}"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
  	 	"deathScreen": {
  	 	 	"topTitleLeft": {
  	 	 	 	"trans": "Śmiertelne Obrażenia",
@@ -648,6 +675,21 @@
  	 	 	"lockDescription": {
  	 	 	 	"trans": "Zapobiega przypadkowej sprzedaży lub zniszczeniu",
  	 	 	 	"eng": "Prevents accidental selling or destroying"
+ 	 	 	},
+ 	 	 	"cantPrintWhileInCombat": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"currentAction"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Nie możesz drukować sprzętu, a ${currentAction}",
+ 	 	 	 	"eng": "You can't print equipment while ${currentAction}"
+ 	 	 	},
+ 	 	 	"printCache": {
+ 	 	 	 	"trans": "Wydrukuj pamięć podręczną",
+ 	 	 	 	"eng": "Print Cache"
+ 	 	 	},
+ 	 	 	"printCacheDescription": {
+ 	 	 	 	"trans": "Zmień tę pamięć podręczną w element broni lub sprzętu, który można ZEA.",
+ 	 	 	 	"eng": "Turn this cache into a weapon or equipment item that you can uae."
  	 	 	}
  	 	},
  	 	"itemDetails": {
@@ -668,6 +710,16 @@
  	 	 	 	},
  	 	 	 	"trans": "Przywrócenie Ustawień Fabrycznych",
  	 	 	 	"eng": "Factory Reset"
+ 	 	 	},
+ 	 	 	"noItem": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Nie masz już tego przedmiotu",
+ 	 	 	 	 	"eng": "You no longer have this item"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Naciśnij z powrotem, aby wrócić do zapasów",
+ 	 	 	 	 	"eng": "press back to go back to inventory"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"secretKey": {
@@ -862,6 +914,10 @@
  	 	 	 	"giveStreetCred": {
  	 	 	 	 	"trans": "Okaż Szacunek Ulicy",
  	 	 	 	 	"eng": "Give Street Cred"
+ 	 	 	 	},
+ 	 	 	 	"report": {
+ 	 	 	 	 	"trans": "Zgłoś gracza",
+ 	 	 	 	 	"eng": "Report Player"
  	 	 	 	}
  	 	 	},
  	 	 	"equipped": {
@@ -2222,6 +2278,10 @@
  	 	 	"eng": "close"
  	 	},
  	 	"characterNameError": {
+ 	 	 	"invalidChar": {
+ 	 	 	 	"trans": "Nazwa może zawierać tylko litery angielskiego alfabetu, cyfry i \"_\"",
+ 	 	 	 	"eng": "Name can only contain English letters, numbers and \"_\""
+ 	 	 	},
  	 	 	"hasSpace": {
  	 	 	 	"trans": "Nazwa nie może zawierać spacji, możesz ją zastąpić za pomocą \"_\"",
  	 	 	 	"eng": "Name cannot contain spaces, you may replace the space with \"_\""
@@ -2233,10 +2293,6 @@
  	 	 	"tooLong": {
  	 	 	 	"trans": "Nazwa musi być krótsza lub równa długości 16 znaków",
  	 	 	 	"eng": "Name must be less or equal to 16 characters long"
- 	 	 	},
- 	 	 	"invalidChar": {
- 	 	 	 	"trans": "Nazwa może zawierać tylko litery angielskiego alfabetu, cyfry i \"_\"",
- 	 	 	 	"eng": "Name can only contain English letters, numbers and \"_\""
  	 	 	}
  	 	},
  	 	"onlineAgo": {
@@ -4586,6 +4642,24 @@
  	 	 	 	"eng": "You need to be at least level 10 to access merchant"
  	 	 	}
  	 	},
+ 	 	"blackMarket": {
+ 	 	 	"defaultLines": {
+ 	 	 	 	"trans": [
+ 	 	 	 	 	"Hey kid, wanna make some quick bucks?"
+ 	 	 	 	],
+ 	 	 	 	"eng": [
+ 	 	 	 	 	"Hey kid, wanna make some quick bucks?"
+ 	 	 	 	]
+ 	 	 	},
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Czarny rynek",
+ 	 	 	 	"eng": "Black Market"
+ 	 	 	},
+ 	 	 	"npcName": {
+ 	 	 	 	"trans": "Zero",
+ 	 	 	 	"eng": "Zero"
+ 	 	 	}
+ 	 	},
  	 	"recycleMachine": {
  	 	 	"name": {
  	 	 	 	"trans": "Automatyczny Recykler",
@@ -4594,16 +4668,6 @@
  	 	 	"description": {
  	 	 	 	"trans": "W pełni zautomatyzowany recykler, zdolny do recyklingu przedmiotów do ich podstawowej postaci złomu",
  	 	 	 	"eng": "Fully automated recycler, capable of recycling items to their basic scrap form"
- 	 	 	}
- 	 	},
- 	 	"blackMarket": {
- 	 	 	"name": {
- 	 	 	 	"trans": "Czarny rynek",
- 	 	 	 	"eng": "Black Market"
- 	 	 	},
- 	 	 	"description": {
- 	 	 	 	"trans": "Podziemny rynek wypełniony ludźmi ze wszystkimi zacienionymi ofertami i rzadkimi łupami. \r\n         Wydrukuj i sprzedaj swoje bufory w tym tutaj, aby zarobić szybkie pieniądze",
- 	 	 	 	"eng": "An underground market filled with people with all kind of shady deals and rare loots.\r\n        Print and sell your caches here to earn quick money"
  	 	 	}
  	 	}
  	},
@@ -4987,6 +5051,24 @@
  	 	 	"eng": "Anti Matter Charge (lv${minLevel})"
  	 	}
  	},
+ 	"reportPlayerType": {
+ 	 	"inappropriateLang": {
+ 	 	 	"trans": "niewłaściwy język",
+ 	 	 	"eng": "Inappropriate Language"
+ 	 	},
+ 	 	"aggressiveBehavior": {
+ 	 	 	"trans": "Agresywne zachowanie",
+ 	 	 	"eng": "Aggressive Behavior"
+ 	 	},
+ 	 	"spamming": {
+ 	 	 	"trans": "Spamowanie",
+ 	 	 	"eng": "Spamming"
+ 	 	},
+ 	 	"other": {
+ 	 	 	"trans": "Inny",
+ 	 	 	"eng": "Other"
+ 	 	}
+ 	},
  	"statusEffect": {
  	 	"synapticAccelerationSmall": {
  	 	 	"trans": "Przyspieszenie Synaptyczne",
@@ -5215,6 +5297,23 @@
  	 	 	 	 	"trans": "Brak przedmiotu do automatycznego zezłomowania",
  	 	 	 	 	"eng": "No item to auto scrap"
  	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"useItemWithExistingBuffModal": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Czy na pewno chcesz użyć tego elementu?",
+ 	 	 	 	"eng": "Are you sure you want to use this item?"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"remaining"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Korzystanie z tego elementu odświeży licznik bieżącego aktywnego buffu i ułoży efekt, jeśli dotyczy. (${remaining})",
+ 	 	 	 	"eng": "By using this item will refresh the timer of current active buff and stack the effect if applicable. (${remaining})"
+ 	 	 	},
+ 	 	 	"confirmText": {
+ 	 	 	 	"trans": "Posługiwać się",
+ 	 	 	 	"eng": "Use"
  	 	 	}
  	 	}
  	},
@@ -5516,6 +5615,10 @@
  	 	 	 	"trans": "Zablokuj",
  	 	 	 	"eng": "Block"
  	 	 	},
+ 	 	 	"report": {
+ 	 	 	 	"trans": "Raport i blok",
+ 	 	 	 	"eng": "Report and Block"
+ 	 	 	},
  	 	 	"openPlayerProfile": {
  	 	 	 	"trans": "Zobacz Profil",
  	 	 	 	"eng": "View Profile"
@@ -5772,10 +5875,75 @@
  	 	 	}
  	 	}
  	},
+ 	"createClanModal": {
+ 	 	"gangNameInput": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Nazwa gangu",
+ 	 	 	 	"eng": "Gang Name"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Wprowadź pełną nazwę swojego gangu",
+ 	 	 	 	"eng": "Enter the full name of your gang"
+ 	 	 	}
+ 	 	},
+ 	 	"gangShortNameInput": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Dzień gangu",
+ 	 	 	 	"eng": "Gang Tag"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Krótki tag, który zostanie wyświetlony na czacie",
+ 	 	 	 	"eng": "A short tag that will be displayed in chat"
+ 	 	 	}
+ 	 	},
+ 	 	"createButton": {
+ 	 	 	"trans": "Utwórz gang",
+ 	 	 	"eng": "Create gang"
+ 	 	},
+ 	 	"error": {
+ 	 	 	"noNameOrShortName": {
+ 	 	 	 	"trans": "Wprowadź nazwę i tag",
+ 	 	 	 	"eng": "Please enter a name and a tag"
+ 	 	 	}
+ 	 	}
+ 	},
  	"dungeonList": {
  	 	"newbieTip": {
  	 	 	"trans": "Nie uzdrowisz się po walce w Lochach, pamiętaj, aby używać swoich przedmiotów leczniczych.",
  	 	 	"eng": "You will not heal after each fight in dungeon, remember to use your healing items."
+ 	 	}
+ 	},
+ 	"reportPlayerModal": {
+ 	 	"title": {
+ 	 	 	"vars": [
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Raportowanie ${playerName}",
+ 	 	 	"eng": "reporting ${playerName}"
+ 	 	},
+ 	 	"description": {
+ 	 	 	"trans": "Raport zostanie wysłany do moderatorów automatycznie. \\ nplease nie nadużywają się, spamując ani nie bawią się systemem raportów",
+ 	 	 	"eng": "Report will be sent to moderators automatically. \\nPlease do not misuses, spamming or play with the report system"
+ 	 	},
+ 	 	"textInput": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Opis",
+ 	 	 	 	"eng": "Description"
+ 	 	 	}
+ 	 	},
+ 	 	"report": {
+ 	 	 	"trans": "Raport i blok",
+ 	 	 	"eng": "report and block"
+ 	 	},
+ 	 	"error": {
+ 	 	 	"otherNoText": {
+ 	 	 	 	"trans": "Raport typ „innych” wymaga opisu",
+ 	 	 	 	"eng": "Report type of \"Other\" needs a description"
+ 	 	 	},
+ 	 	 	"noReportType": {
+ 	 	 	 	"trans": "Musisz wybrać typ raportu",
+ 	 	 	 	"eng": "You need to select a report type"
+ 	 	 	}
  	 	}
  	},
  	"gang": {

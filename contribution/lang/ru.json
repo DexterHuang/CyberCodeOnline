@@ -369,6 +369,33 @@
  	 	 	 	"eng": "chat system not connected"
  	 	 	}
  	 	},
+ 	 	"clanPage": {
+ 	 	 	"createClan": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Вы не являетесь членом какой -либо банды",
+ 	 	 	 	 	"eng": "You are not a member of any gang"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"cost"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Банд -чат будет включен, когда вы принадлежите к банде. \\ Njoin Bang, заводя друзей в глобальном чате или создаете свою собственную банду и приглашаете своих друзей!",
+ 	 	 	 	 	"eng": "gang chat will be enabled when you belong to a gang.\\njoin a gang by making friends in global chat or create your own gang and invite your friends!"
+ 	 	 	 	},
+ 	 	 	 	"createButton": {
+ 	 	 	 	 	"trans": "Создать банду",
+ 	 	 	 	 	"eng": "Create gang"
+ 	 	 	 	},
+ 	 	 	 	"createButtonDescription": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"cost",
+ 	 	 	 	 	 	"currency"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Создайте банду для ${cost} ${currency}",
+ 	 	 	 	 	"eng": "Create a gang for ${cost} ${currency}"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
  	 	"deathScreen": {
  	 	 	"topTitleLeft": {
  	 	 	 	"trans": "смертельная рана",
@@ -648,6 +675,21 @@
  	 	 	"lockDescription": {
  	 	 	 	"trans": "Предотвращает случайную продажу или уничтожение",
  	 	 	 	"eng": "Prevents accidental selling or destroying"
+ 	 	 	},
+ 	 	 	"cantPrintWhileInCombat": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"currentAction"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Вы не можете печатать оборудование, пока ${currentAction}",
+ 	 	 	 	"eng": "You can't print equipment while ${currentAction}"
+ 	 	 	},
+ 	 	 	"printCache": {
+ 	 	 	 	"trans": "Печать кеш",
+ 	 	 	 	"eng": "Print Cache"
+ 	 	 	},
+ 	 	 	"printCacheDescription": {
+ 	 	 	 	"trans": "Превратите этот кэш в оружие или предмет оборудования, который вы можете.",
+ 	 	 	 	"eng": "Turn this cache into a weapon or equipment item that you can uae."
  	 	 	}
  	 	},
  	 	"itemDetails": {
@@ -668,6 +710,16 @@
  	 	 	 	},
  	 	 	 	"trans": "Сброс к заводским настройкам",
  	 	 	 	"eng": "Factory Reset"
+ 	 	 	},
+ 	 	 	"noItem": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "У вас больше нет этого предмета",
+ 	 	 	 	 	"eng": "You no longer have this item"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Нажмите назад, чтобы вернуться к инвентаризации",
+ 	 	 	 	 	"eng": "press back to go back to inventory"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"secretKey": {
@@ -862,6 +914,10 @@
  	 	 	 	"giveStreetCred": {
  	 	 	 	 	"trans": "Повысить репутацию",
  	 	 	 	 	"eng": "Give Street Cred"
+ 	 	 	 	},
+ 	 	 	 	"report": {
+ 	 	 	 	 	"trans": "Сообщить об игроке",
+ 	 	 	 	 	"eng": "Report Player"
  	 	 	 	}
  	 	 	},
  	 	 	"equipped": {
@@ -2222,6 +2278,10 @@
  	 	 	"eng": "close"
  	 	},
  	 	"characterNameError": {
+ 	 	 	"invalidChar": {
+ 	 	 	 	"trans": "Имя может содержать только английские буквы, цифры и «_»",
+ 	 	 	 	"eng": "Name can only contain English letters, numbers and \"_\""
+ 	 	 	},
  	 	 	"hasSpace": {
  	 	 	 	"trans": "Имя не может содержать пробелы, вы можете заменить пробел на «_»",
  	 	 	 	"eng": "Name cannot contain spaces, you may replace the space with \"_\""
@@ -2233,10 +2293,6 @@
  	 	 	"tooLong": {
  	 	 	 	"trans": "Имя должно быть не длиннее 16 символов",
  	 	 	 	"eng": "Name must be less or equal to 16 characters long"
- 	 	 	},
- 	 	 	"invalidChar": {
- 	 	 	 	"trans": "Имя может содержать только английские буквы, цифры и «_»",
- 	 	 	 	"eng": "Name can only contain English letters, numbers and \"_\""
  	 	 	}
  	 	},
  	 	"onlineAgo": {
@@ -4586,6 +4642,24 @@
  	 	 	 	"eng": "You need to be at least level 10 to access merchant"
  	 	 	}
  	 	},
+ 	 	"blackMarket": {
+ 	 	 	"defaultLines": {
+ 	 	 	 	"trans": [
+ 	 	 	 	 	"Hey kid, wanna make some quick bucks?"
+ 	 	 	 	],
+ 	 	 	 	"eng": [
+ 	 	 	 	 	"Hey kid, wanna make some quick bucks?"
+ 	 	 	 	]
+ 	 	 	},
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Черный рынок",
+ 	 	 	 	"eng": "Black Market"
+ 	 	 	},
+ 	 	 	"npcName": {
+ 	 	 	 	"trans": "Нуль",
+ 	 	 	 	"eng": "Zero"
+ 	 	 	}
+ 	 	},
  	 	"recycleMachine": {
  	 	 	"name": {
  	 	 	 	"trans": "Автоматический переработчик",
@@ -4594,16 +4668,6 @@
  	 	 	"description": {
  	 	 	 	"trans": "Полностью автоматизированный переработчик, способный перерабатывать предметы в металлолом",
  	 	 	 	"eng": "Fully automated recycler, capable of recycling items to their basic scrap form"
- 	 	 	}
- 	 	},
- 	 	"blackMarket": {
- 	 	 	"name": {
- 	 	 	 	"trans": "Черный рынок",
- 	 	 	 	"eng": "Black Market"
- 	 	 	},
- 	 	 	"description": {
- 	 	 	 	"trans": "Подземный рынок, наполненный людьми со всеми видами тенистых сделок и редких добычей. \r\n         Распечатать и продавайте свои кеши на здесь, чтобы заработать быстрые деньги",
- 	 	 	 	"eng": "An underground market filled with people with all kind of shady deals and rare loots.\r\n        Print and sell your caches here to earn quick money"
  	 	 	}
  	 	}
  	},
@@ -4987,6 +5051,24 @@
  	 	 	"eng": "Anti Matter Charge (lv${minLevel})"
  	 	}
  	},
+ 	"reportPlayerType": {
+ 	 	"inappropriateLang": {
+ 	 	 	"trans": "Неуместный язык",
+ 	 	 	"eng": "Inappropriate Language"
+ 	 	},
+ 	 	"aggressiveBehavior": {
+ 	 	 	"trans": "Агрессивное поведение",
+ 	 	 	"eng": "Aggressive Behavior"
+ 	 	},
+ 	 	"spamming": {
+ 	 	 	"trans": "Спам",
+ 	 	 	"eng": "Spamming"
+ 	 	},
+ 	 	"other": {
+ 	 	 	"trans": "Другой",
+ 	 	 	"eng": "Other"
+ 	 	}
+ 	},
  	"statusEffect": {
  	 	"synapticAccelerationSmall": {
  	 	 	"trans": "Нейротрансмиссия",
@@ -5215,6 +5297,23 @@
  	 	 	 	 	"trans": "Нечего разбирать",
  	 	 	 	 	"eng": "No item to auto scrap"
  	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"useItemWithExistingBuffModal": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Вы уверены, что хотите использовать этот элемент?",
+ 	 	 	 	"eng": "Are you sure you want to use this item?"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"remaining"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Используя этот элемент, обновит таймер текущего активного баффа и сложите эффект, если применимо. (${remaining})",
+ 	 	 	 	"eng": "By using this item will refresh the timer of current active buff and stack the effect if applicable. (${remaining})"
+ 	 	 	},
+ 	 	 	"confirmText": {
+ 	 	 	 	"trans": "Использовать",
+ 	 	 	 	"eng": "Use"
  	 	 	}
  	 	}
  	},
@@ -5516,6 +5615,10 @@
  	 	 	 	"trans": "Блокировать",
  	 	 	 	"eng": "Block"
  	 	 	},
+ 	 	 	"report": {
+ 	 	 	 	"trans": "Сообщить и блокировать",
+ 	 	 	 	"eng": "Report and Block"
+ 	 	 	},
  	 	 	"openPlayerProfile": {
  	 	 	 	"trans": "Просмотреть профиль",
  	 	 	 	"eng": "View Profile"
@@ -5772,10 +5875,75 @@
  	 	 	}
  	 	}
  	},
+ 	"createClanModal": {
+ 	 	"gangNameInput": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Имя банды",
+ 	 	 	 	"eng": "Gang Name"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Введите полное имя своей банды",
+ 	 	 	 	"eng": "Enter the full name of your gang"
+ 	 	 	}
+ 	 	},
+ 	 	"gangShortNameInput": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "День банды",
+ 	 	 	 	"eng": "Gang Tag"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Короткая метка, которая будет отображаться в чате",
+ 	 	 	 	"eng": "A short tag that will be displayed in chat"
+ 	 	 	}
+ 	 	},
+ 	 	"createButton": {
+ 	 	 	"trans": "Создать банду",
+ 	 	 	"eng": "Create gang"
+ 	 	},
+ 	 	"error": {
+ 	 	 	"noNameOrShortName": {
+ 	 	 	 	"trans": "Пожалуйста, введите имя и тег",
+ 	 	 	 	"eng": "Please enter a name and a tag"
+ 	 	 	}
+ 	 	}
+ 	},
  	"dungeonList": {
  	 	"newbieTip": {
  	 	 	"trans": "Ты не будешь исцеляться после каждого боя в подземелье, не забывай использовать медикаменты.",
  	 	 	"eng": "You will not heal after each fight in dungeon, remember to use your healing items."
+ 	 	}
+ 	},
+ 	"reportPlayerModal": {
+ 	 	"title": {
+ 	 	 	"vars": [
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Отчетность ${playerName}",
+ 	 	 	"eng": "reporting ${playerName}"
+ 	 	},
+ 	 	"description": {
+ 	 	 	"trans": "Отчет будет отправлен модераторам автоматически. \\ nplease не злоупотребляет, спамингом и не играйте с системой отчетов",
+ 	 	 	"eng": "Report will be sent to moderators automatically. \\nPlease do not misuses, spamming or play with the report system"
+ 	 	},
+ 	 	"textInput": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Описание",
+ 	 	 	 	"eng": "Description"
+ 	 	 	}
+ 	 	},
+ 	 	"report": {
+ 	 	 	"trans": "Сообщить и блокировать",
+ 	 	 	"eng": "report and block"
+ 	 	},
+ 	 	"error": {
+ 	 	 	"otherNoText": {
+ 	 	 	 	"trans": "Тип отчета «Другой» нуждается в описании",
+ 	 	 	 	"eng": "Report type of \"Other\" needs a description"
+ 	 	 	},
+ 	 	 	"noReportType": {
+ 	 	 	 	"trans": "Вам нужно выбрать тип отчета",
+ 	 	 	 	"eng": "You need to select a report type"
+ 	 	 	}
  	 	}
  	},
  	"gang": {

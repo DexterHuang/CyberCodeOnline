@@ -369,6 +369,33 @@
  	 	 	 	"eng": "chat system not connected"
  	 	 	}
  	 	},
+ 	 	"clanPage": {
+ 	 	 	"createClan": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Bạn không phải là thành viên của bất kỳ băng đảng nào",
+ 	 	 	 	 	"eng": "You are not a member of any gang"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"cost"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Trò chuyện băng đảng sẽ được kích hoạt khi bạn thuộc về một băng đảng",
+ 	 	 	 	 	"eng": "gang chat will be enabled when you belong to a gang.\\njoin a gang by making friends in global chat or create your own gang and invite your friends!"
+ 	 	 	 	},
+ 	 	 	 	"createButton": {
+ 	 	 	 	 	"trans": "Tạo ra băng đảng",
+ 	 	 	 	 	"eng": "Create gang"
+ 	 	 	 	},
+ 	 	 	 	"createButtonDescription": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"cost",
+ 	 	 	 	 	 	"currency"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Tạo một băng đảng cho ${cost} ${currency}",
+ 	 	 	 	 	"eng": "Create a gang for ${cost} ${currency}"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
  	 	"deathScreen": {
  	 	 	"topTitleLeft": {
  	 	 	 	"trans": "Chấn thương nghiêm trọng",
@@ -648,6 +675,21 @@
  	 	 	"lockDescription": {
  	 	 	 	"trans": "Ngăn ngừa vô tình bán hoặc phá hủy",
  	 	 	 	"eng": "Prevents accidental selling or destroying"
+ 	 	 	},
+ 	 	 	"cantPrintWhileInCombat": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"currentAction"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Bạn không thể in thiết bị trong khi ${currentAction}",
+ 	 	 	 	"eng": "You can't print equipment while ${currentAction}"
+ 	 	 	},
+ 	 	 	"printCache": {
+ 	 	 	 	"trans": "In bộ nhớ cache",
+ 	 	 	 	"eng": "Print Cache"
+ 	 	 	},
+ 	 	 	"printCacheDescription": {
+ 	 	 	 	"trans": "Biến bộ đệm này thành một vật phẩm vũ khí hoặc thiết bị mà bạn có thể UAE.",
+ 	 	 	 	"eng": "Turn this cache into a weapon or equipment item that you can uae."
  	 	 	}
  	 	},
  	 	"itemDetails": {
@@ -668,6 +710,16 @@
  	 	 	 	},
  	 	 	 	"trans": "Khôi Phục Cài Đặt Gốc",
  	 	 	 	"eng": "Factory Reset"
+ 	 	 	},
+ 	 	 	"noItem": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Bạn không còn có mặt hàng này",
+ 	 	 	 	 	"eng": "You no longer have this item"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Nhấn lại để quay lại hàng tồn kho",
+ 	 	 	 	 	"eng": "press back to go back to inventory"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"secretKey": {
@@ -862,6 +914,10 @@
  	 	 	 	"giveStreetCred": {
  	 	 	 	 	"trans": "Tặng uy tín",
  	 	 	 	 	"eng": "Give Street Cred"
+ 	 	 	 	},
+ 	 	 	 	"report": {
+ 	 	 	 	 	"trans": "Người chơi báo cáo",
+ 	 	 	 	 	"eng": "Report Player"
  	 	 	 	}
  	 	 	},
  	 	 	"equipped": {
@@ -2222,6 +2278,10 @@
  	 	 	"eng": "close"
  	 	},
  	 	"characterNameError": {
+ 	 	 	"invalidChar": {
+ 	 	 	 	"trans": "Tên chỉ có thể chứa các chữ cái tiếng Anh, số và \"_\"",
+ 	 	 	 	"eng": "Name can only contain English letters, numbers and \"_\""
+ 	 	 	},
  	 	 	"hasSpace": {
  	 	 	 	"trans": "Tên không thể chứa dấu cách, bạn có thể thay thế dấu cách bằng \"_\"",
  	 	 	 	"eng": "Name cannot contain spaces, you may replace the space with \"_\""
@@ -2233,10 +2293,6 @@
  	 	 	"tooLong": {
  	 	 	 	"trans": "Tên phải dài ít hơn 16 ký tự",
  	 	 	 	"eng": "Name must be less or equal to 16 characters long"
- 	 	 	},
- 	 	 	"invalidChar": {
- 	 	 	 	"trans": "Tên chỉ có thể chứa các chữ cái tiếng Anh, số và \"_\"",
- 	 	 	 	"eng": "Name can only contain English letters, numbers and \"_\""
  	 	 	}
  	 	},
  	 	"onlineAgo": {
@@ -4586,6 +4642,24 @@
  	 	 	 	"eng": "You need to be at least level 10 to access merchant"
  	 	 	}
  	 	},
+ 	 	"blackMarket": {
+ 	 	 	"defaultLines": {
+ 	 	 	 	"trans": [
+ 	 	 	 	 	"Hey kid, wanna make some quick bucks?"
+ 	 	 	 	],
+ 	 	 	 	"eng": [
+ 	 	 	 	 	"Hey kid, wanna make some quick bucks?"
+ 	 	 	 	]
+ 	 	 	},
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Chợ đen",
+ 	 	 	 	"eng": "Black Market"
+ 	 	 	},
+ 	 	 	"npcName": {
+ 	 	 	 	"trans": "Số không",
+ 	 	 	 	"eng": "Zero"
+ 	 	 	}
+ 	 	},
  	 	"recycleMachine": {
  	 	 	"name": {
  	 	 	 	"trans": "Tái Chế Tự Động",
@@ -4594,16 +4668,6 @@
  	 	 	"description": {
  	 	 	 	"trans": "Tái chế các vật phẩm thành phế liệu hoàn toàn tự động",
  	 	 	 	"eng": "Fully automated recycler, capable of recycling items to their basic scrap form"
- 	 	 	}
- 	 	},
- 	 	"blackMarket": {
- 	 	 	"name": {
- 	 	 	 	"trans": "Chợ đen",
- 	 	 	 	"eng": "Black Market"
- 	 	 	},
- 	 	 	"description": {
- 	 	 	 	"trans": "Một thị trường ngầm chứa đầy những người có tất cả các loại ưu đãi râm mát và những loot hiếm. \r\n         In và bán bộ nhớ cache của bạn tại đây để kiếm tiền nhanh chóng",
- 	 	 	 	"eng": "An underground market filled with people with all kind of shady deals and rare loots.\r\n        Print and sell your caches here to earn quick money"
  	 	 	}
  	 	}
  	},
@@ -4987,6 +5051,24 @@
  	 	 	"eng": "Anti Matter Charge (lv${minLevel})"
  	 	}
  	},
+ 	"reportPlayerType": {
+ 	 	"inappropriateLang": {
+ 	 	 	"trans": "Ngôn ngữ không phù hợp",
+ 	 	 	"eng": "Inappropriate Language"
+ 	 	},
+ 	 	"aggressiveBehavior": {
+ 	 	 	"trans": "Hành vi hung hăng",
+ 	 	 	"eng": "Aggressive Behavior"
+ 	 	},
+ 	 	"spamming": {
+ 	 	 	"trans": "Spam",
+ 	 	 	"eng": "Spamming"
+ 	 	},
+ 	 	"other": {
+ 	 	 	"trans": "Khác",
+ 	 	 	"eng": "Other"
+ 	 	}
+ 	},
  	"statusEffect": {
  	 	"synapticAccelerationSmall": {
  	 	 	"trans": "Tăng tốc Synaptic",
@@ -5215,6 +5297,23 @@
  	 	 	 	 	"trans": "Không có vật phẩm để tái chế",
  	 	 	 	 	"eng": "No item to auto scrap"
  	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"useItemWithExistingBuffModal": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Bạn có chắc là bạn muốn sử dụng mặt hàng này?",
+ 	 	 	 	"eng": "Are you sure you want to use this item?"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"remaining"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Bằng cách sử dụng mục này sẽ làm mới bộ hẹn giờ của Buff hoạt động hiện tại và xếp chồng hiệu ứng nếu có. (${remaining})",
+ 	 	 	 	"eng": "By using this item will refresh the timer of current active buff and stack the effect if applicable. (${remaining})"
+ 	 	 	},
+ 	 	 	"confirmText": {
+ 	 	 	 	"trans": "Sử dụng",
+ 	 	 	 	"eng": "Use"
  	 	 	}
  	 	}
  	},
@@ -5516,6 +5615,10 @@
  	 	 	 	"trans": "Chặn",
  	 	 	 	"eng": "Block"
  	 	 	},
+ 	 	 	"report": {
+ 	 	 	 	"trans": "Báo cáo và chặn",
+ 	 	 	 	"eng": "Report and Block"
+ 	 	 	},
  	 	 	"openPlayerProfile": {
  	 	 	 	"trans": "Xem Hồ sơ",
  	 	 	 	"eng": "View Profile"
@@ -5772,10 +5875,75 @@
  	 	 	}
  	 	}
  	},
+ 	"createClanModal": {
+ 	 	"gangNameInput": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Tên băng đảng",
+ 	 	 	 	"eng": "Gang Name"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Nhập tên đầy đủ của băng đảng của bạn",
+ 	 	 	 	"eng": "Enter the full name of your gang"
+ 	 	 	}
+ 	 	},
+ 	 	"gangShortNameInput": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Ngày băng đảng",
+ 	 	 	 	"eng": "Gang Tag"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Một thẻ ngắn sẽ được hiển thị trong trò chuyện",
+ 	 	 	 	"eng": "A short tag that will be displayed in chat"
+ 	 	 	}
+ 	 	},
+ 	 	"createButton": {
+ 	 	 	"trans": "Tạo ra băng đảng",
+ 	 	 	"eng": "Create gang"
+ 	 	},
+ 	 	"error": {
+ 	 	 	"noNameOrShortName": {
+ 	 	 	 	"trans": "Vui lòng nhập tên và thẻ",
+ 	 	 	 	"eng": "Please enter a name and a tag"
+ 	 	 	}
+ 	 	}
+ 	},
  	"dungeonList": {
  	 	"newbieTip": {
  	 	 	"trans": "Bạn sẽ không hồi máu sau mỗi trận đánh trong Hầm ngục, hãy nhớ sử dụng các vật phẩm hồi máu của bạn.",
  	 	 	"eng": "You will not heal after each fight in dungeon, remember to use your healing items."
+ 	 	}
+ 	},
+ 	"reportPlayerModal": {
+ 	 	"title": {
+ 	 	 	"vars": [
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Báo cáo ${playerName}",
+ 	 	 	"eng": "reporting ${playerName}"
+ 	 	},
+ 	 	"description": {
+ 	 	 	"trans": "Báo cáo sẽ được gửi đến người điều hành tự động. \\ nease không lạm dụng, spam hoặc chơi với hệ thống báo cáo",
+ 	 	 	"eng": "Report will be sent to moderators automatically. \\nPlease do not misuses, spamming or play with the report system"
+ 	 	},
+ 	 	"textInput": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Sự mô tả",
+ 	 	 	 	"eng": "Description"
+ 	 	 	}
+ 	 	},
+ 	 	"report": {
+ 	 	 	"trans": "báo cáo và chặn",
+ 	 	 	"eng": "report and block"
+ 	 	},
+ 	 	"error": {
+ 	 	 	"otherNoText": {
+ 	 	 	 	"trans": "Báo cáo loại \"Khác\" cần một mô tả",
+ 	 	 	 	"eng": "Report type of \"Other\" needs a description"
+ 	 	 	},
+ 	 	 	"noReportType": {
+ 	 	 	 	"trans": "Bạn cần chọn loại báo cáo",
+ 	 	 	 	"eng": "You need to select a report type"
+ 	 	 	}
  	 	}
  	},
  	"gang": {
