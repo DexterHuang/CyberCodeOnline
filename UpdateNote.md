@@ -25,6 +25,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates           
+### 2022/09/13 v0.780
+- You can now click `Print Cache` in cache item details own by you. it will bring you directly to NPC and highlight the coresponding cache to print.
+- Added translation for gang creation page 
+
 ### 2022/09/03 v0.780
 - Updated City center, train station and bank's background image to better ones
 - Updated location background display UI
