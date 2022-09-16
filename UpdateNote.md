@@ -27,6 +27,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ## Updates           
 ### 2022/09/16 v0.780
 - Added graffiti and bunny prestige donation tier
+
 ![image](https://user-images.githubusercontent.com/18545294/190539431-7112e0d7-4741-4c42-931a-37424d4f312f.png)
 ![image](https://user-images.githubusercontent.com/18545294/190539403-86d8a35b-c9f7-44e1-abf9-d4e1e9288dd4.png)
 
