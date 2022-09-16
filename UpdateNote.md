@@ -33,7 +33,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 - Added more newbie friendly tip box on molecular printing page, uppon clicked will link to tutorial page
 - Added tip box in clibation page before core was inserted, uppon clicked will link to tutorial page
 - Reduced section title size a little
-- Added graffiti and bunny prestige donation tier (Thanks to Krolik for suggestion and happy birthday :) )
+- Added graffiti and bunny prestige donation tier (Thanks to Krolik for design suggestion and happy birthday :) )
 
 ![image](https://user-images.githubusercontent.com/18545294/190539431-7112e0d7-4741-4c42-931a-37424d4f312f.png)
 ![image](https://user-images.githubusercontent.com/18545294/190539403-86d8a35b-c9f7-44e1-abf9-d4e1e9288dd4.png)
