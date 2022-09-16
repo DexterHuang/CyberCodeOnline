@@ -26,6 +26,9 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates           
 ### 2022/09/16 v0.780
+- Added more newbie friendly tip box on molecular printing page, uppon clicked will link to tutorial page
+- Added tip box in clibation page before core was inserted, uppon clicked will link to tutorial page
+- Reduced section title size a little
 - Added graffiti and bunny prestige donation tier
 
 ![image](https://user-images.githubusercontent.com/18545294/190539431-7112e0d7-4741-4c42-931a-37424d4f312f.png)
