@@ -26,6 +26,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates           
 ### 2022/09/16 v0.780
+- Updated printing npc UI
 - Added more newbie friendly tip box on molecular printing page, uppon clicked will link to tutorial page
 - Added tip box in clibation page before core was inserted, uppon clicked will link to tutorial page
 - Reduced section title size a little
