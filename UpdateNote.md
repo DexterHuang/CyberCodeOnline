@@ -26,13 +26,14 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates           
 ### 2022/09/16 v0.780
+- (from player suggestion) Starting new AI core farm task will default at max amount of repeat you can perform
 - Updated Tutorial menu page, now with cleaner button and icons
 - Updated Tutorial markdown page, and fixed some display issue.
 - Updated printing npc UI
 - Added more newbie friendly tip box on molecular printing page, uppon clicked will link to tutorial page
 - Added tip box in clibation page before core was inserted, uppon clicked will link to tutorial page
 - Reduced section title size a little
-- Added graffiti and bunny prestige donation tier
+- Added graffiti and bunny prestige donation tier (Thanks to Krolik for suggestion and happy birthday :) )
 
 ![image](https://user-images.githubusercontent.com/18545294/190539431-7112e0d7-4741-4c42-931a-37424d4f312f.png)
 ![image](https://user-images.githubusercontent.com/18545294/190539403-86d8a35b-c9f7-44e1-abf9-d4e1e9288dd4.png)
