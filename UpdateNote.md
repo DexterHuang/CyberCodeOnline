@@ -26,6 +26,8 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates           
 ### 2022/09/19 v0.780
+- Market security related fix
+- Now only tradable item will show up in the selection list for market stall
 - Desktop version can now have switch the chat pannel bewteen mail/global/mail
 - Fixed broken item texture when the game starts in deskop
 - Adjusted chat channel settings
