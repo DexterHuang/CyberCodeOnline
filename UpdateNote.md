@@ -25,6 +25,12 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates           
+### 2022/09/19 v0.780
+- Desktop version can now have switch the chat pannel bewteen mail/global/mail
+- Fixed broken item texture when the game starts in deskop
+- Adjusted chat channel settings
+- Minor UI improvement for desktop
+
 ### 2022/09/16 v0.780
 - (from player suggestion) Starting new AI core farm task will default at max amount of repeat you can perform
 - Updated Tutorial menu page, now with cleaner button and icons
