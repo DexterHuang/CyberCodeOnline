@@ -225,8 +225,9 @@ zomg
 [Jefreesujit](https://github.com/Jefreesujit)
 B3n7y
 [Rexyislive](https://github.com/Rexyislive)
-RAFF0B(https://github.com/RAFF0B)
+[RAFF0B](https://github.com/RAFF0B)
 Foxxi
+[eunach](https://github.com/eunach)
 
 ## Tutorial
 [alfaice](https://github.com/alfaice)
