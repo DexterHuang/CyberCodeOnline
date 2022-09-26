@@ -25,6 +25,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates           
+### 2022/09/26 v0.780
+- Server optimization
+- Chat related bug fixes
+- Added player submmited emblems 
+
 ### 2022/09/19 v0.780
 - Market security related fix
 - Now only tradable item will show up in the selection list for market stall
