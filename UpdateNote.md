@@ -28,7 +28,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ### 2022/09/26 v0.780
 - Server optimization
 - Chat related bug fixes
-- Added player submmited emblems 
+- Added some player submmited emblems 
 
 ### 2022/09/19 v0.780
 - Market security related fix
