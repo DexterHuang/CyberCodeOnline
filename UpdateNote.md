@@ -37,6 +37,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 - Server optimization
 - Chat related bug fixes
 - Added some player submmited emblems 
+- Typo fix
 
 ### 2022/09/19 v0.780
 - Market security related fix
