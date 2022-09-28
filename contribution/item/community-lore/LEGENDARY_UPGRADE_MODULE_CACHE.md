@@ -1,0 +1,1 @@
+The Upgrade Modual Cache, a simple device with a multitude of potential uses. Its quite lite and fairly small in size. You need a special 3d printer to be able to use it. You know that it provides a simple yet effective way to enhance your weapons.
