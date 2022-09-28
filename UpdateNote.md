@@ -26,6 +26,14 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates           
 ### 2022/09/26 v0.780
+- You can now browse your stall while afk, however you cannot add or remove the item while AFKing. (player suggestion)
+
+![image](https://user-images.githubusercontent.com/18545294/192716779-aafe7489-0651-4018-84d6-66346536fb6e.png)
+
+- Added player submitted emblemed I missed from last patch
+- Added foundation code for event needed function for future use
+
+### 2022/09/26 v0.780
 - Server optimization
 - Chat related bug fixes
 - Added some player submmited emblems 
