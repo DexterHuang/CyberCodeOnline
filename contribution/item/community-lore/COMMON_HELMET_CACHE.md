@@ -1,3 +1,3 @@
-A common helmet cache that is usually seen on some low-level enemies and containers
+A Common-Grade Helmet Armor Cache. These are usually found among the belongings of lower-level enemies and containers.
 
-*Much more better. Some badass survived from rain of eggs with this little equip*
+"These are good for some early gear, but word around the city is you can convert these to "scrap". Not sure about that..."
