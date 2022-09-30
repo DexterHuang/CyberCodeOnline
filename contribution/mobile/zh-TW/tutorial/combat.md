@@ -71,22 +71,19 @@
  - Overcharged I - 給予玩家 +5% 傷害  
  - Overcharged II - 給予玩家 +10% 傷害  
  - Overcharged III - 給予玩家 +15% 傷害  
- - Overcharged IV - 給予玩家 +20% 傷害  
- - Overcharged V - 給予玩家 +25% 傷害  
+ - Overcharged V - 給予玩家 +20% 傷害  
   
   
  - Reinforced I - 給予玩家 +5% 防禦  
  - Reinforced II - 給予玩家 +10% 防禦  
  - Reinforced III - 給予玩家 +15% 防禦  
- - Reinforced IV - 給予玩家 +20% 防禦  
- - Reinforced V - 給予玩家 +25% 防禦  
+ - Reinforced V - 給予玩家 +20% 防禦  
   
   
  - Shield Enhance I - 給予玩家 +5% 護盾加成  
  - Shield Enhance II - 給予玩家 +10% 護盾加成  
  - Shield Enhance III - 給予玩家 +15% 護盾加成  
- - Shield Enhance IV - 給予玩家 +20% 護盾加成 
- - Shield Enhance V - 給予玩家 +25% 護盾加成  
+ - Shield Enhance V - 給予玩家 +20% 護盾加成  
 
 玩家詞綴僅在你通過完成任務選項上的交換請求，完成任務後開始倒計時（完成時為黃色狀態）。你可以在地城中接受一個任務，然後等到稍後再領取獎勵。每個任務獎勵都會提示你將獲得的詞綴。
 

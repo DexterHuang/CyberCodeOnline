@@ -61,22 +61,19 @@ You can also pick up modifiers by interacting with the quest giver in the dungeo
  - Overcharged I - Gives the player +5% damage  
  - Overcharged II - Gives the player +10% damage  
  - Overcharged III - Gives the player +15% damage  
- - Overcharged IV - Gives the player +20% damage  
- - Overcharged V - Gives the player +25% damage  
+ - Overcharged V - Gives the player +20% damage  
   
   
  - Reinforced I - Gives the player +5% defence  
  - Reinforced II - Gives the player +10% defence  
  - Reinforced III - Gives the player +15% defence  
- - Reinforced IV - Gives the player +20% defence  
- - Reinforced V - Gives the player +25% defence  
+ - Reinforced V - Gives the player +20% defence  
   
   
  - Shield Enhance I - Gives the player +5% shield multiplier  
  - Shield Enhance II - Gives the player +10% shield multiplier  
- - Shield Enhance III - Gives the player +15% shield multiplier  
- - Shield Enhance IV - Gives the player +20% shield multiplier  
- - Shield Enhance V - Gives the player +25% shield multiplier  
+ - Shield Enhance III - Gives the player +15% shield multiplier    
+ - Shield Enhance V - Gives the player +20% shield multiplier  
 
 The modifier only starts counting down when you complete the quest by exchanging the requested items on Quest Tab (yellow text when completed). You can accept a quest in a dungeon and wait until a later time to start it. Every quests reward will specify the exact modifier you will gain.
 
