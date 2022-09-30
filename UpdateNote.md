@@ -25,6 +25,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates           
+### 2022/09/30 v0.780
+- Fixed translation issue
+
 ### 2022/09/26 v0.780
 - You can now browse your stall while afk, however you cannot add or remove the item while AFKing. (player suggestion)
 
