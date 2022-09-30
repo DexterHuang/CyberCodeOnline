@@ -26,6 +26,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates           
 ### 2022/09/30 v0.780
+- Added seperated chat log for spanish channel
 - Added more translatable text to translation files
 - Fixed translation issue
 
