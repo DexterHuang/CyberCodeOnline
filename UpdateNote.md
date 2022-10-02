@@ -25,6 +25,15 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates           
+### 2022/10/02 v0.780
+- Updated Item selection menu UI when there is no available item to choose from
+- Added dedicated unlock `locked container` UI
+
+![image](https://user-images.githubusercontent.com/18545294/193444573-24ae96c4-6c74-45b2-a13b-6f0f7031d6e6.png)
+
+- You may now click `Unlock` in locked container detail screen to go to unlock container UI
+![image](https://user-images.githubusercontent.com/18545294/193444654-3123ec82-6388-4f84-8432-692c59751fc6.png)
+
 ### 2022/09/30 v0.780
 - Added seperated chat log for spanish channel
 - Added more translatable text to translation files
