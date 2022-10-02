@@ -690,6 +690,17 @@
  	 	 	"printCacheDescription": {
  	 	 	 	"trans": "将此缓存变成您可以阿联酋的武器或设备物品。",
  	 	 	 	"eng": "Turn this cache into a weapon or equipment item that you can uae."
+ 	 	 	},
+ 	 	 	"openContainer": {
+ 	 	 	 	"trans": "解锁容器",
+ 	 	 	 	"eng": "Unlock Container"
+ 	 	 	},
+ 	 	 	"cantOpenContainerNotIdle": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"currentAction"
+ 	 	 	 	],
+ 	 	 	 	"trans": "您在${currentAction}时解锁容器",
+ 	 	 	 	"eng": "You unlock containers while ${currentAction}"
  	 	 	}
  	 	},
  	 	"itemDetails": {
@@ -776,6 +787,12 @@
  	 	 	 	],
  	 	 	 	"trans": "修复所有物品将需要（${repairFee}比特币）",
  	 	 	 	"eng": " Repair all items for (${repairFee} Bitcoin)"
+ 	 	 	},
+ 	 	 	"unlockContainerButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "解锁容器",
+ 	 	 	 	 	"eng": "Unlock Container"
+ 	 	 	 	}
  	 	 	},
  	 	 	"molecularPrinter": {
  	 	 	 	"printLevelDisplay": {
@@ -1169,7 +1186,7 @@
  	 	 	 	"infoBox": {
  	 	 	 	 	"title": {
  	 	 	 	 	 	"trans": "网络空间攻击正在进行中",
- 	 	 	 	 	 	"eng": "Cyberspace hacking in progress"
+ 	 	 	 	 	 	"eng": "Cyberspace breach in progress"
  	 	 	 	 	},
  	 	 	 	 	"subtitle": {
  	 	 	 	 	 	"trans": "与其他人一起加入破坏SL数据堡垒以给予所有玩家增益",
@@ -2181,6 +2198,67 @@
  	 	 	"account": {
  	 	 	 	"trans": "帐户",
  	 	 	 	"eng": "account"
+ 	 	 	}
+ 	 	},
+ 	 	"unlockContainerPage": {
+ 	 	 	"selectContainerModal": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "请选择一个要解锁的容器",
+ 	 	 	 	 	"eng": "Please select an container to unlock"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"title": {
+ 	 	 	 	"trans": "解锁容器",
+ 	 	 	 	"eng": "Unlock Container"
+ 	 	 	},
+ 	 	 	"selectContainer": {
+ 	 	 	 	"subTitle": {
+ 	 	 	 	 	"trans": "请选择一个要解锁的容器",
+ 	 	 	 	 	"eng": "Please select an container to unlock"
+ 	 	 	 	},
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "容器",
+ 	 	 	 	 	"eng": "Container"
+ 	 	 	 	},
+ 	 	 	 	"trans": "选择容器",
+ 	 	 	 	"eng": "Select Container"
+ 	 	 	},
+ 	 	 	"hint": {
+ 	 	 	 	"trans": "解锁容器以获取内部的物品，需要少量的技术废料",
+ 	 	 	 	"eng": "Unlock a container to get the items inside, requires small amount of tech scraps"
+ 	 	 	},
+ 	 	 	"increaseEpicDropRate": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "提高史诗般的降低率",
+ 	 	 	 	 	"eng": "Increase Epic Tier Drop Rate"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "通过激活${itemName}解锁锁定的传奇容器时，最多收到2％（每个传奇容器0.5％）获得Epic Tier Cache的额外机会",
+ 	 	 	 	 	"eng": "Receive up to 2% (0.5% per Legendary Container) additional chance to get epic tier cache when unlocking Locked Legendary Container by activating ${itemName}"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"increaseEpicDropRateActivated": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${itemName}激活",
+ 	 	 	 	 	"eng": "${itemName} Activated"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${itemName}现在活跃，解锁传奇容器现在有0.5％的epic层设备每个传奇容器的额外机会",
+ 	 	 	 	 	"eng": "${itemName} is now active, unlock Legendary Container now to have 0.5% additional chance for EPIC tier equipment per Legendary Container"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"unlock": {
+ 	 	 	 	"trans": "开锁",
+ 	 	 	 	"eng": "Unlock"
  	 	 	}
  	 	}
  	},
@@ -6064,6 +6142,12 @@
  	 	 	 	"trans": "您需要选择报告类型",
  	 	 	 	"eng": "You need to select a report type"
  	 	 	}
+ 	 	}
+ 	},
+ 	"selectItemModal": {
+ 	 	"noItems": {
+ 	 	 	"trans": "没有可用的项目",
+ 	 	 	"eng": "No available items"
  	 	}
  	},
  	"gang": {

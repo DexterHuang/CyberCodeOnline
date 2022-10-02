@@ -690,6 +690,17 @@
  	 	 	"printCacheDescription": {
  	 	 	 	"trans": "Verwandle diesen Cache in eine Waffe oder Ausrüstungsgegenstand",
  	 	 	 	"eng": "Turn this cache into a weapon or equipment item that you can uae."
+ 	 	 	},
+ 	 	 	"openContainer": {
+ 	 	 	 	"trans": "Behälter entsperren",
+ 	 	 	 	"eng": "Unlock Container"
+ 	 	 	},
+ 	 	 	"cantOpenContainerNotIdle": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"currentAction"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Sie entsperren Container, während ${currentAction}",
+ 	 	 	 	"eng": "You unlock containers while ${currentAction}"
  	 	 	}
  	 	},
  	 	"itemDetails": {
@@ -776,6 +787,12 @@
  	 	 	 	],
  	 	 	 	"trans": "Alle Gegenstände für (${repairFee} Bitcoin) reparieren",
  	 	 	 	"eng": " Repair all items for (${repairFee} Bitcoin)"
+ 	 	 	},
+ 	 	 	"unlockContainerButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Behälter entsperren",
+ 	 	 	 	 	"eng": "Unlock Container"
+ 	 	 	 	}
  	 	 	},
  	 	 	"molecularPrinter": {
  	 	 	 	"printLevelDisplay": {
@@ -1169,7 +1186,7 @@
  	 	 	 	"infoBox": {
  	 	 	 	 	"title": {
  	 	 	 	 	 	"trans": "Cyberspace-Hack im Gange",
- 	 	 	 	 	 	"eng": "Cyberspace hacking in progress"
+ 	 	 	 	 	 	"eng": "Cyberspace breach in progress"
  	 	 	 	 	},
  	 	 	 	 	"subtitle": {
  	 	 	 	 	 	"trans": "Verbünde dich mit anderen NetRunnern, stehlt Daten aus dem SL-Rechenzentrum und erhaltet tolle Belohnungen",
@@ -2181,6 +2198,67 @@
  	 	 	"account": {
  	 	 	 	"trans": "Konto",
  	 	 	 	"eng": "account"
+ 	 	 	}
+ 	 	},
+ 	 	"unlockContainerPage": {
+ 	 	 	"selectContainerModal": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Bitte wählen Sie einen Container zum Entsperren aus",
+ 	 	 	 	 	"eng": "Please select an container to unlock"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Behälter entsperren",
+ 	 	 	 	"eng": "Unlock Container"
+ 	 	 	},
+ 	 	 	"selectContainer": {
+ 	 	 	 	"subTitle": {
+ 	 	 	 	 	"trans": "Bitte wählen Sie einen Container zum Entsperren aus",
+ 	 	 	 	 	"eng": "Please select an container to unlock"
+ 	 	 	 	},
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Container",
+ 	 	 	 	 	"eng": "Container"
+ 	 	 	 	},
+ 	 	 	 	"trans": "Wählen Sie Container",
+ 	 	 	 	"eng": "Select Container"
+ 	 	 	},
+ 	 	 	"hint": {
+ 	 	 	 	"trans": "Schalten Sie einen Container frei, um die Artikel hineinzubekommen, und erfordert eine geringe Menge an technischen Abfällen",
+ 	 	 	 	"eng": "Unlock a container to get the items inside, requires small amount of tech scraps"
+ 	 	 	},
+ 	 	 	"increaseEpicDropRate": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Erhöhen Sie die epische Stufeabfallrate",
+ 	 	 	 	 	"eng": "Increase Epic Tier Drop Rate"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Erhalten Sie bis zu 2% (0,5% pro legendärem Container) zusätzliche Chance, epische Stufe Cache zu erhalten, wenn Sie gesperrten legendären Container entsperren, indem ${itemName} aktiviert wird",
+ 	 	 	 	 	"eng": "Receive up to 2% (0.5% per Legendary Container) additional chance to get epic tier cache when unlocking Locked Legendary Container by activating ${itemName}"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"increaseEpicDropRateActivated": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${itemName} aktiviert",
+ 	 	 	 	 	"eng": "${itemName} Activated"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${itemName} ist jetzt aktiv. Entsperren Sie den legendären Container jetzt, um 0,5% zusätzliche Chance für epische Geräte pro legendärem Container zu haben",
+ 	 	 	 	 	"eng": "${itemName} is now active, unlock Legendary Container now to have 0.5% additional chance for EPIC tier equipment per Legendary Container"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"unlock": {
+ 	 	 	 	"trans": "Freischalten",
+ 	 	 	 	"eng": "Unlock"
  	 	 	}
  	 	}
  	},
@@ -6064,6 +6142,12 @@
  	 	 	 	"trans": "Du musst einen Grund auswählen",
  	 	 	 	"eng": "You need to select a report type"
  	 	 	}
+ 	 	}
+ 	},
+ 	"selectItemModal": {
+ 	 	"noItems": {
+ 	 	 	"trans": "Keine verfügbaren Artikel",
+ 	 	 	"eng": "No available items"
  	 	}
  	},
  	"gang": {

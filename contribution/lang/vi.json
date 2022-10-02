@@ -690,6 +690,17 @@
  	 	 	"printCacheDescription": {
  	 	 	 	"trans": "Biến bộ đệm này thành một vật phẩm vũ khí hoặc thiết bị mà bạn có thể UAE.",
  	 	 	 	"eng": "Turn this cache into a weapon or equipment item that you can uae."
+ 	 	 	},
+ 	 	 	"openContainer": {
+ 	 	 	 	"trans": "Mở khóa container",
+ 	 	 	 	"eng": "Unlock Container"
+ 	 	 	},
+ 	 	 	"cantOpenContainerNotIdle": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"currentAction"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Bạn mở khóa các thùng chứa trong khi ${currentAction}",
+ 	 	 	 	"eng": "You unlock containers while ${currentAction}"
  	 	 	}
  	 	},
  	 	"itemDetails": {
@@ -776,6 +787,12 @@
  	 	 	 	],
  	 	 	 	"trans": "Sửa chữa tất cả các trang thiết bị cần (${repairFee} Bitcoin)",
  	 	 	 	"eng": " Repair all items for (${repairFee} Bitcoin)"
+ 	 	 	},
+ 	 	 	"unlockContainerButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Mở khóa container",
+ 	 	 	 	 	"eng": "Unlock Container"
+ 	 	 	 	}
  	 	 	},
  	 	 	"molecularPrinter": {
  	 	 	 	"printLevelDisplay": {
@@ -1169,7 +1186,7 @@
  	 	 	 	"infoBox": {
  	 	 	 	 	"title": {
  	 	 	 	 	 	"trans": "Tấn công mạng đang diễn ra",
- 	 	 	 	 	 	"eng": "Cyberspace hacking in progress"
+ 	 	 	 	 	 	"eng": "Cyberspace breach in progress"
  	 	 	 	 	},
  	 	 	 	 	"subtitle": {
  	 	 	 	 	 	"trans": "Tham gia lực lượng Netrunner để xâm nhập vào Pháo đài Shangri-La Data và nhận [Buff thế giới] cho tất cả người chơi",
@@ -2181,6 +2198,67 @@
  	 	 	"account": {
  	 	 	 	"trans": "Tài khoản",
  	 	 	 	"eng": "account"
+ 	 	 	}
+ 	 	},
+ 	 	"unlockContainerPage": {
+ 	 	 	"selectContainerModal": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Vui lòng chọn một thùng chứa để mở khóa",
+ 	 	 	 	 	"eng": "Please select an container to unlock"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Mở khóa container",
+ 	 	 	 	"eng": "Unlock Container"
+ 	 	 	},
+ 	 	 	"selectContainer": {
+ 	 	 	 	"subTitle": {
+ 	 	 	 	 	"trans": "Vui lòng chọn một thùng chứa để mở khóa",
+ 	 	 	 	 	"eng": "Please select an container to unlock"
+ 	 	 	 	},
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Thùng đựng hàng",
+ 	 	 	 	 	"eng": "Container"
+ 	 	 	 	},
+ 	 	 	 	"trans": "Chọn container",
+ 	 	 	 	"eng": "Select Container"
+ 	 	 	},
+ 	 	 	"hint": {
+ 	 	 	 	"trans": "Mở khóa một thùng chứa để lấy các mặt hàng bên trong, yêu cầu một lượng nhỏ các phế liệu công nghệ",
+ 	 	 	 	"eng": "Unlock a container to get the items inside, requires small amount of tech scraps"
+ 	 	 	},
+ 	 	 	"increaseEpicDropRate": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Tăng tốc độ giảm Epic Cấp",
+ 	 	 	 	 	"eng": "Increase Epic Tier Drop Rate"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Nhận tối đa 2% (0,5% cho mỗi container huyền thoại) Cơ hội bổ sung để có được bộ nhớ cache cấp EPIC khi mở khóa container huyền thoại bị khóa bằng cách kích hoạt ${itemName}",
+ 	 	 	 	 	"eng": "Receive up to 2% (0.5% per Legendary Container) additional chance to get epic tier cache when unlocking Locked Legendary Container by activating ${itemName}"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"increaseEpicDropRateActivated": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${itemName} được kích hoạt",
+ 	 	 	 	 	"eng": "${itemName} Activated"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${itemName} hiện đang hoạt động, mở khóa container huyền thoại hiện có cơ hội bổ sung 0,5% cho thiết bị cấp EPIC cho mỗi container huyền thoại",
+ 	 	 	 	 	"eng": "${itemName} is now active, unlock Legendary Container now to have 0.5% additional chance for EPIC tier equipment per Legendary Container"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"unlock": {
+ 	 	 	 	"trans": "Mở khóa",
+ 	 	 	 	"eng": "Unlock"
  	 	 	}
  	 	}
  	},
@@ -6064,6 +6142,12 @@
  	 	 	 	"trans": "Bạn cần chọn loại báo cáo",
  	 	 	 	"eng": "You need to select a report type"
  	 	 	}
+ 	 	}
+ 	},
+ 	"selectItemModal": {
+ 	 	"noItems": {
+ 	 	 	"trans": "Không có các mặt hàng có sẵn",
+ 	 	 	"eng": "No available items"
  	 	}
  	},
  	"gang": {

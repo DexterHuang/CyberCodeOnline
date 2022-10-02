@@ -690,6 +690,17 @@
  	 	 	"printCacheDescription": {
  	 	 	 	"trans": "Premeňte túto vyrovnávaciu pamäť na zbraň alebo položku vybavenia, ktorú môžete Spojené arabské emiráty.",
  	 	 	 	"eng": "Turn this cache into a weapon or equipment item that you can uae."
+ 	 	 	},
+ 	 	 	"openContainer": {
+ 	 	 	 	"trans": "Odomknúť",
+ 	 	 	 	"eng": "Unlock Container"
+ 	 	 	},
+ 	 	 	"cantOpenContainerNotIdle": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"currentAction"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Odomknete kontajnery, zatiaľ čo ${currentAction}",
+ 	 	 	 	"eng": "You unlock containers while ${currentAction}"
  	 	 	}
  	 	},
  	 	"itemDetails": {
@@ -776,6 +787,12 @@
  	 	 	 	],
  	 	 	 	"trans": "Opravte všetky položky pre (${repairFee} bitcoin)",
  	 	 	 	"eng": " Repair all items for (${repairFee} Bitcoin)"
+ 	 	 	},
+ 	 	 	"unlockContainerButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Odomknúť",
+ 	 	 	 	 	"eng": "Unlock Container"
+ 	 	 	 	}
  	 	 	},
  	 	 	"molecularPrinter": {
  	 	 	 	"printLevelDisplay": {
@@ -1169,7 +1186,7 @@
  	 	 	 	"infoBox": {
  	 	 	 	 	"title": {
  	 	 	 	 	 	"trans": "Prebiehajúci kybernetický priestor",
- 	 	 	 	 	 	"eng": "Cyberspace hacking in progress"
+ 	 	 	 	 	 	"eng": "Cyberspace breach in progress"
  	 	 	 	 	},
  	 	 	 	 	"subtitle": {
  	 	 	 	 	 	"trans": "Join forces with other Netrunners to breach the SL-Data Fortress to grant all players a buff",
@@ -2181,6 +2198,67 @@
  	 	 	"account": {
  	 	 	 	"trans": "účtovať",
  	 	 	 	"eng": "account"
+ 	 	 	}
+ 	 	},
+ 	 	"unlockContainerPage": {
+ 	 	 	"selectContainerModal": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Vyberte kontajner na odomknutie",
+ 	 	 	 	 	"eng": "Please select an container to unlock"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Odomknúť",
+ 	 	 	 	"eng": "Unlock Container"
+ 	 	 	},
+ 	 	 	"selectContainer": {
+ 	 	 	 	"subTitle": {
+ 	 	 	 	 	"trans": "Vyberte kontajner na odomknutie",
+ 	 	 	 	 	"eng": "Please select an container to unlock"
+ 	 	 	 	},
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Nádoba",
+ 	 	 	 	 	"eng": "Container"
+ 	 	 	 	},
+ 	 	 	 	"trans": "Vyberte kontajner",
+ 	 	 	 	"eng": "Select Container"
+ 	 	 	},
+ 	 	 	"hint": {
+ 	 	 	 	"trans": "Odomknite kontajner, aby ste dostali položky dovnútra, vyžaduje malé množstvo technologických útržkov",
+ 	 	 	 	"eng": "Unlock a container to get the items inside, requires small amount of tech scraps"
+ 	 	 	},
+ 	 	 	"increaseEpicDropRate": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Zvýšiť rýchlosť poklesu epickej úrovne",
+ 	 	 	 	 	"eng": "Increase Epic Tier Drop Rate"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Dostávať až 2% (0,5% na legendárny kontajner) Dodatočná šanca na získanie vyrovnávacej pamäte epickej úrovne pri odblokovaní uzamknutého legendárneho kontajnera aktiváciou ${itemName}",
+ 	 	 	 	 	"eng": "Receive up to 2% (0.5% per Legendary Container) additional chance to get epic tier cache when unlocking Locked Legendary Container by activating ${itemName}"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"increaseEpicDropRateActivated": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${itemName} aktivované",
+ 	 	 	 	 	"eng": "${itemName} Activated"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${itemName} je teraz aktívny, odomknite legendárny kontajner, ktorý má teraz 0,5% ďalšiu šancu na vybavenie Epic Tier na legendárny kontajner",
+ 	 	 	 	 	"eng": "${itemName} is now active, unlock Legendary Container now to have 0.5% additional chance for EPIC tier equipment per Legendary Container"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"unlock": {
+ 	 	 	 	"trans": "Odomknúť",
+ 	 	 	 	"eng": "Unlock"
  	 	 	}
  	 	}
  	},
@@ -6277,6 +6355,12 @@
  	 	 	 	"trans": "Musíte zvoliť typ správy",
  	 	 	 	"eng": "You need to select a report type"
  	 	 	}
+ 	 	}
+ 	},
+ 	"selectItemModal": {
+ 	 	"noItems": {
+ 	 	 	"trans": "Žiadne dostupné položky",
+ 	 	 	"eng": "No available items"
  	 	}
  	},
  	"gang": {

@@ -690,6 +690,17 @@
  	 	 	"printCacheDescription": {
  	 	 	 	"trans": "เปลี่ยนแคชนี้ให้เป็นอาวุธหรืออุปกรณ์ที่คุณสามารถทำได้",
  	 	 	 	"eng": "Turn this cache into a weapon or equipment item that you can uae."
+ 	 	 	},
+ 	 	 	"openContainer": {
+ 	 	 	 	"trans": "ปลดล็อกคอนเทนเนอร์",
+ 	 	 	 	"eng": "Unlock Container"
+ 	 	 	},
+ 	 	 	"cantOpenContainerNotIdle": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"currentAction"
+ 	 	 	 	],
+ 	 	 	 	"trans": "คุณปลดล็อกคอนเทนเนอร์ในขณะที่ ${currentAction}",
+ 	 	 	 	"eng": "You unlock containers while ${currentAction}"
  	 	 	}
  	 	},
  	 	"itemDetails": {
@@ -776,6 +787,12 @@
  	 	 	 	],
  	 	 	 	"trans": "ซ่อมรายการทั้งหมด (${repairFee} bitcoin)",
  	 	 	 	"eng": " Repair all items for (${repairFee} Bitcoin)"
+ 	 	 	},
+ 	 	 	"unlockContainerButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "ปลดล็อกคอนเทนเนอร์",
+ 	 	 	 	 	"eng": "Unlock Container"
+ 	 	 	 	}
  	 	 	},
  	 	 	"molecularPrinter": {
  	 	 	 	"printLevelDisplay": {
@@ -1169,7 +1186,7 @@
  	 	 	 	"infoBox": {
  	 	 	 	 	"title": {
  	 	 	 	 	 	"trans": "การแฮ็คไซเบอร์สเปซ",
- 	 	 	 	 	 	"eng": "Cyberspace hacking in progress"
+ 	 	 	 	 	 	"eng": "Cyberspace breach in progress"
  	 	 	 	 	},
  	 	 	 	 	"subtitle": {
  	 	 	 	 	 	"trans": "บังคับเข้าร่วมกับ Netrunners คนอื่น ๆ เพื่อทลาย SL-Data เพื่อให้ผู้เล่นทุกคนได้ Buff",
@@ -2181,6 +2198,67 @@
  	 	 	"account": {
  	 	 	 	"trans": "บัญชีผู้ใช้",
  	 	 	 	"eng": "account"
+ 	 	 	}
+ 	 	},
+ 	 	"unlockContainerPage": {
+ 	 	 	"selectContainerModal": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "โปรดเลือกคอนเทนเนอร์เพื่อปลดล็อก",
+ 	 	 	 	 	"eng": "Please select an container to unlock"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"title": {
+ 	 	 	 	"trans": "ปลดล็อกคอนเทนเนอร์",
+ 	 	 	 	"eng": "Unlock Container"
+ 	 	 	},
+ 	 	 	"selectContainer": {
+ 	 	 	 	"subTitle": {
+ 	 	 	 	 	"trans": "โปรดเลือกคอนเทนเนอร์เพื่อปลดล็อก",
+ 	 	 	 	 	"eng": "Please select an container to unlock"
+ 	 	 	 	},
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "คอนเทนเนอร์",
+ 	 	 	 	 	"eng": "Container"
+ 	 	 	 	},
+ 	 	 	 	"trans": "เลือกคอนเทนเนอร์",
+ 	 	 	 	"eng": "Select Container"
+ 	 	 	},
+ 	 	 	"hint": {
+ 	 	 	 	"trans": "ปลดล็อกคอนเทนเนอร์เพื่อรับรายการภายในต้องใช้เศษเทคโนโลยีจำนวนเล็กน้อย",
+ 	 	 	 	"eng": "Unlock a container to get the items inside, requires small amount of tech scraps"
+ 	 	 	},
+ 	 	 	"increaseEpicDropRate": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "เพิ่มอัตราการลดลงของระดับมหากาพย์",
+ 	 	 	 	 	"eng": "Increase Epic Tier Drop Rate"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "รับมากถึง 2% (0.5% ต่อคอนเทนเนอร์ในตำนาน) โอกาสเพิ่มเติมในการรับแคชระดับมหากาพย์เมื่อปลดล็อคคอนเทนเนอร์ในตำนานล็อคโดยเปิดใช้งาน ${itemName}",
+ 	 	 	 	 	"eng": "Receive up to 2% (0.5% per Legendary Container) additional chance to get epic tier cache when unlocking Locked Legendary Container by activating ${itemName}"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"increaseEpicDropRateActivated": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${itemName} เปิดใช้งาน",
+ 	 	 	 	 	"eng": "${itemName} Activated"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${itemName} เปิดใช้งานแล้วปลดล็อคคอนเทนเนอร์ในตำนานในขณะนี้เพื่อให้มีโอกาสเพิ่มเติม 0.5% สำหรับอุปกรณ์ระดับมหากาพย์ต่อคอนเทนเนอร์ตำนาน",
+ 	 	 	 	 	"eng": "${itemName} is now active, unlock Legendary Container now to have 0.5% additional chance for EPIC tier equipment per Legendary Container"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"unlock": {
+ 	 	 	 	"trans": "ปลดล็อค",
+ 	 	 	 	"eng": "Unlock"
  	 	 	}
  	 	}
  	},
@@ -6064,6 +6142,12 @@
  	 	 	 	"trans": "คุณต้องเลือกประเภทรายงาน",
  	 	 	 	"eng": "You need to select a report type"
  	 	 	}
+ 	 	}
+ 	},
+ 	"selectItemModal": {
+ 	 	"noItems": {
+ 	 	 	"trans": "ไม่มีรายการที่มีอยู่",
+ 	 	 	"eng": "No available items"
  	 	}
  	},
  	"gang": {

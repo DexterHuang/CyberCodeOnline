@@ -690,6 +690,17 @@
  	 	 	"printCacheDescription": {
  	 	 	 	"trans": "Превратите этот кэш в оружие или предмет экипировки, который вы можете использовать.",
  	 	 	 	"eng": "Turn this cache into a weapon or equipment item that you can uae."
+ 	 	 	},
+ 	 	 	"openContainer": {
+ 	 	 	 	"trans": "Разблокировать контейнер",
+ 	 	 	 	"eng": "Unlock Container"
+ 	 	 	},
+ 	 	 	"cantOpenContainerNotIdle": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"currentAction"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Вы разблокируете контейнеры, пока ${currentAction}",
+ 	 	 	 	"eng": "You unlock containers while ${currentAction}"
  	 	 	}
  	 	},
  	 	"itemDetails": {
@@ -776,6 +787,12 @@
  	 	 	 	],
  	 	 	 	"trans": "Отремонтировать все предметы за (${repairFee} биткоинов)",
  	 	 	 	"eng": " Repair all items for (${repairFee} Bitcoin)"
+ 	 	 	},
+ 	 	 	"unlockContainerButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Разблокировать контейнер",
+ 	 	 	 	 	"eng": "Unlock Container"
+ 	 	 	 	}
  	 	 	},
  	 	 	"molecularPrinter": {
  	 	 	 	"printLevelDisplay": {
@@ -932,7 +949,7 @@
  	 	"modal": {
  	 	 	"changePicture": {
  	 	 	 	"confirm": {
- 	 	 	 	 	"trans": "я понимаю",
+ 	 	 	 	 	"trans": "Я понимаю",
  	 	 	 	 	"eng": "I understand"
  	 	 	 	}
  	 	 	},
@@ -1058,13 +1075,13 @@
  	 	 	},
  	 	 	"marketShortcut": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "AMADON",
+ 	 	 	 	 	"trans": "Рынок",
  	 	 	 	 	"eng": "Amadon"
  	 	 	 	}
  	 	 	},
  	 	 	"stallShortcut": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Мой киоск",
+ 	 	 	 	 	"trans": "Мой Прилавок",
  	 	 	 	 	"eng": "My Stall"
  	 	 	 	}
  	 	 	},
@@ -1136,17 +1153,17 @@
  	 	 	 	},
  	 	 	 	"aiCore": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "Используйте AI Core",
+ 	 	 	 	 	 	"trans": "Используйте Ядро ИИ",
  	 	 	 	 	 	"eng": "Use AI Core"
  	 	 	 	 	},
  	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "Похоже, у вас есть несколько ядер Ai, используйте их, для автоматического выравнивания уровня AFK в соответствующей области уровня.",
+ 	 	 	 	 	 	"trans": "Похоже, у вас есть несколько ядер ИИ, используйте их, для автоматического выравнивания уровня AFK в соответствующей области уровня.",
  	 	 	 	 	 	"eng": "Looks like you have some AI Cores, use them to do AFK auto leveling in appropriate level area."
  	 	 	 	 	}
  	 	 	 	},
  	 	 	 	"noAiCore": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "Приобретение ядер AI",
+ 	 	 	 	 	 	"trans": "Приобретение ядер ИИ",
  	 	 	 	 	 	"eng": "Acquire AI Cores"
  	 	 	 	 	},
  	 	 	 	 	"description": {
@@ -1169,7 +1186,7 @@
  	 	 	 	"infoBox": {
  	 	 	 	 	"title": {
  	 	 	 	 	 	"trans": "Продолжается взлом киберпространства",
- 	 	 	 	 	 	"eng": "Cyberspace hacking in progress"
+ 	 	 	 	 	 	"eng": "Cyberspace breach in progress"
  	 	 	 	 	},
  	 	 	 	 	"subtitle": {
  	 	 	 	 	 	"trans": "Объедините усилия с другими нетраннерами для взлома Крепости данных Шангри-Ла, чтобы предоставить всем игрокам бафф",
@@ -1563,7 +1580,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"moneyContribution"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "${moneyContribution} биджет",
+ 	 	 	 	 	"trans": "${moneyContribution} бюджет",
  	 	 	 	 	"eng": "${moneyContribution} funding"
  	 	 	 	},
  	 	 	 	"exp": {
@@ -2182,6 +2199,67 @@
  	 	 	 	"trans": "аккаунт",
  	 	 	 	"eng": "account"
  	 	 	}
+ 	 	},
+ 	 	"unlockContainerPage": {
+ 	 	 	"selectContainerModal": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Пожалуйста, выберите контейнер, чтобы разблокировать",
+ 	 	 	 	 	"eng": "Please select an container to unlock"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Разблокировать контейнер",
+ 	 	 	 	"eng": "Unlock Container"
+ 	 	 	},
+ 	 	 	"selectContainer": {
+ 	 	 	 	"subTitle": {
+ 	 	 	 	 	"trans": "Пожалуйста, выберите контейнер, чтобы разблокировать",
+ 	 	 	 	 	"eng": "Please select an container to unlock"
+ 	 	 	 	},
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Контейнер",
+ 	 	 	 	 	"eng": "Container"
+ 	 	 	 	},
+ 	 	 	 	"trans": "Выберите контейнер",
+ 	 	 	 	"eng": "Select Container"
+ 	 	 	},
+ 	 	 	"hint": {
+ 	 	 	 	"trans": "Разблокируйте контейнер, чтобы получить элементы внутри, требуется небольшое количество технических отходов",
+ 	 	 	 	"eng": "Unlock a container to get the items inside, requires small amount of tech scraps"
+ 	 	 	},
+ 	 	 	"increaseEpicDropRate": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Увеличьте скорость падения эпического уровня",
+ 	 	 	 	 	"eng": "Increase Epic Tier Drop Rate"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Получите до 2% (0,5% на легендарный контейнер) дополнительный шанс получить Epic Tier Cache при разблокировке заблокированного легендарного контейнера, активируя ${itemName}",
+ 	 	 	 	 	"eng": "Receive up to 2% (0.5% per Legendary Container) additional chance to get epic tier cache when unlocking Locked Legendary Container by activating ${itemName}"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"increaseEpicDropRateActivated": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${itemName} активировано",
+ 	 	 	 	 	"eng": "${itemName} Activated"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${itemName} теперь активен, теперь разблокируйте легендарный контейнер, чтобы иметь 0,5% дополнительных шансов на оборудование для эпического уровня на легендарный контейнер",
+ 	 	 	 	 	"eng": "${itemName} is now active, unlock Legendary Container now to have 0.5% additional chance for EPIC tier equipment per Legendary Container"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"unlock": {
+ 	 	 	 	"trans": "Разблокировать",
+ 	 	 	 	"eng": "Unlock"
+ 	 	 	}
  	 	}
  	},
  	"misc": {
@@ -2374,7 +2452,7 @@
  	 	}
  	},
  	"misc,durability": {
- 	 	"trans": "долговечность",
+ 	 	"trans": "прочность",
  	 	"eng": "durability"
  	},
  	"statsType": {
@@ -3591,11 +3669,11 @@
  	 	},
  	 	"aiCoreCluster": {
  	 	 	"name": {
- 	 	 	 	"trans": "Ai Core Cluster",
+ 	 	 	 	"trans": "Кластер ИИ ядер",
  	 	 	 	"eng": "AI Core Cluster"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "AI Core Cluster содержит 1000 ядер AI. можно легко собрать и разобрать.",
+ 	 	 	 	"trans": "Кластер ИИ ядер содержит 1000 ядер AI. можно легко собрать и разобрать.",
  	 	 	 	"eng": "AI Core Cluster contains 1000 AI Cores. can be easily assembled and disassembled."
  	 	 	}
  	 	},
@@ -3799,7 +3877,7 @@
  	 	},
  	 	"healing11": {
  	 	 	"name": {
- 	 	 	 	"trans": "Prestige Nano Medic Bot",
+ 	 	 	 	"trans": "Престижный лечащий нано-бот",
  	 	 	 	"eng": "Prestige Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
@@ -3909,7 +3987,7 @@
  	 	},
  	 	"healingArea11": {
  	 	 	"name": {
- 	 	 	 	"trans": "Prestige Nano Medic Drone",
+ 	 	 	 	"trans": "Престижный медицинский дрон",
  	 	 	 	"eng": "Prestige Nano medic drone"
  	 	 	},
  	 	 	"description": {
@@ -4120,7 +4198,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"percent"
  	 	 	 	],
- 	 	 	 	"trans": "Калибровка Ai Shard (${percent}%)",
+ 	 	 	 	"trans": "Калибровочный фрагмент ИИd (${percent}%)",
  	 	 	 	"eng": "Calibration AI Shard (${percent}%)"
  	 	 	}
  	 	},
@@ -4765,7 +4843,7 @@
  	 	"blackMarket": {
  	 	 	"defaultLines": {
  	 	 	 	"trans": [
- 	 	 	 	 	"Hey kid, wanna make some quick bucks?"
+ 	 	 	 	 	"Эй, парень, хочешь быстро заработать?"
  	 	 	 	],
  	 	 	 	"eng": [
  	 	 	 	 	"Hey kid, wanna make some quick bucks?"
@@ -4776,7 +4854,7 @@
  	 	 	 	"eng": "Black Market"
  	 	 	},
  	 	 	"npcName": {
- 	 	 	 	"trans": "Нуль",
+ 	 	 	 	"trans": "Ноль",
  	 	 	 	"eng": "Zero"
  	 	 	}
  	 	},
@@ -5152,7 +5230,7 @@
  	 	},
  	 	"aiCoreCluster": {
  	 	 	"name": {
- 	 	 	 	"trans": "Ai Core Cluster",
+ 	 	 	 	"trans": "Кластер ИИ ядер",
  	 	 	 	"eng": "AI Core Cluster"
  	 	 	}
  	 	},
@@ -5762,7 +5840,7 @@
  	 	},
  	 	"block": {
  	 	 	"title": {
- 	 	 	 	"trans": "Вы уверены, что хотите заблокировать этот игрок?",
+ 	 	 	 	"trans": "Вы уверены, что хотите заблокировать этого игрока?",
  	 	 	 	"eng": "Are you sure you want to block this player?"
  	 	 	}
  	 	},
@@ -6066,10 +6144,16 @@
  	 	 	}
  	 	}
  	},
+ 	"selectItemModal": {
+ 	 	"noItems": {
+ 	 	 	"trans": "Нет доступных предметов",
+ 	 	 	"eng": "No available items"
+ 	 	}
+ 	},
  	"gang": {
  	 	"permission": {
  	 	 	"invite": {
- 	 	 	 	"trans": "Приглашать",
+ 	 	 	 	"trans": "Пригласить",
  	 	 	 	"eng": "Invite",
  	 	 	 	"description": {
  	 	 	 	 	"trans": "Пригласите других игроков присоединиться к вашей банде.",
@@ -6077,10 +6161,10 @@
  	 	 	 	}
  	 	 	},
  	 	 	"kick": {
- 	 	 	 	"trans": "Пинать",
+ 	 	 	 	"trans": "Вигнать",
  	 	 	 	"eng": "Kick",
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "Наденьте других игроков из вашей банды.",
+ 	 	 	 	 	"trans": "Выгоните других игроков из вашей банды.",
  	 	 	 	 	"eng": "Kick other players from your gang."
  	 	 	 	}
  	 	 	},
