@@ -13,6 +13,7 @@ Fudgee
 HLYGD
 Indilil
 Krolik
+[kt0t0wh0](https://github.com/kt0t0Sudd3n)
 [l33t4ng3l](https://github.com/l33t4ng3l)
 [Mancipi](https://github.com/Mancipi)
 [PotatoMan](https://github.com/PotatoMan145)
