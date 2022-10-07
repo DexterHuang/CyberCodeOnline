@@ -25,6 +25,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates           
+### 2022/10/07 v0.780
+- Removed auto default selection for unlock container page, to reduce confusions on how to select container to unlock
+
 ### 2022/10/02 v0.780
 - Updated Item selection menu UI when there is no available item to choose from
 - Added dedicated unlock `locked container` UI
