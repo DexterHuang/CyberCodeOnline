@@ -25,6 +25,17 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates           
+### 2022/10/11 v0.780
+- Halloween Event:
+  - Now enemies and AI Core auto farm drops `Jack o' Lanttern`, you can use these to craft `Locked Legendary Container`
+  
+  ![image](https://user-images.githubusercontent.com/18545294/195058830-f460e4c8-69b4-4543-916f-0c0aac79d00c.png)
+
+  ![image](https://user-images.githubusercontent.com/18545294/195058984-6b79f9d0-295a-4f17-8ff9-50feb3279eec.png)
+
+
+  - Added time Halloween time limited cyber-bat donation tier and a Spooky smile enmblem
+
 ### 2022/10/07 v0.780
 - Removed auto default selection for unlock container page, to reduce confusions on how to select container to unlock
 
