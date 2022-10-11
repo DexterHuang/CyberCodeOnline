@@ -33,7 +33,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
   ![image](https://user-images.githubusercontent.com/18545294/195058984-6b79f9d0-295a-4f17-8ff9-50feb3279eec.png)
 
-
+  - Updated pormotional popup screen to support multiple pannel
   - Added time Halloween time limited cyber-bat donation tier and a Spooky smile enmblem
 
 ### 2022/10/07 v0.780
