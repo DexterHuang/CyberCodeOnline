@@ -25,6 +25,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates           
+### 2022/10/15 v0.780
+- Fixed iOS where is app is in background for long time and when resumed, dungeon and buff status will not sync up
+- Changed dungeon keycode to use numebr keyboard by default
+
 ### 2022/10/11 v0.780
 - Halloween Event:
   - Now enemies and AI Core auto farm drops `Jack o' Lanttern`, you can use these to craft `Locked Legendary Container`
