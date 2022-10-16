@@ -25,6 +25,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates           
+### 2022/10/16 v0.780
+- Fix iOS overscroll weird behaviour on multiple page
+- Fixed iOS mention popup placement issue
+- Adjusted chat header UI
+
 ### 2022/10/15 v0.780
 - Fixed iOS where is app is in background for long time and when resumed, dungeon and buff status will not sync up
 - Changed dungeon keycode to use numebr keyboard by default
