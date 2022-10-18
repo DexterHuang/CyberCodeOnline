@@ -1,92 +1,120 @@
-## Dungeons
+## Підземелля
+Підземелля — це одна з ігрових особливостей, яка дозволяє гравцеві поринути у кіберпростір, щоб битися з мобами та босами. За бої в підземеллях ви отримаєте очки досвіду (EXP), біткойнів (BTC) і здобичі(луту) або винагороди, оскільки сама винагорода коливається від рівня сміття до спорядження епічного рівня (і/або кешів).
 
-## Types of Dungeons
+Підземелля були розроблені як формат «гравець проти ворога» (або PvE), де сам гравець може приєднатися до підземелля інших гравців (за умови, що воно публічне [звичайне підземелля або підземелля виклику] або в одній банді [підземелля банди]). Перебуваючи в одному підземеллі, усі гравці матимуть різний пул нагород або здобичі, що робить його доступним для всіх гравців.
+
+## Типи підземель
   
 ![DungeonTypes](/resources/mobile-tutorial/DungeonTypes.png)
   
-These are the three types of dungeons that you are able to enter. The [normal] dungeon will include a key fragment in the treasure room and no boss. The [challenge] dungeon is a lot harder but includes more crates for loot and has a boss in the treasure room that gives a lot of EXP.  The [gang] dungeon is the hardest of all and requires that you are in a gang and have a Gang Invasion Order Transmitter.  Enemies are 4-5x stronger than normal dungeons but has greater rewards.
+Існує три типи підземель, у які гравці можуть потрапити:
+ - **Звичайне підземелля**: це підземелля містить ключовий фрагмент (який можна знайти в Кімнаті скарбів ) і відносно легких для перемоги мобів. (Босс відсутній)
+ - **Підземелля-випробування**: те саме, що звичайне підземелля, але з більш складними мобами, більшою кількість ящиків та боссом в кімнаті скарбів, який дає багато досвіду
+ - **Підземелля банди**: виключно для членів банди. Значно сильніші вороги в порівнянні з підземеллям-випробування, але й скарби в 4-5 разів краще. Рекомендуєься входити в підземелля банди тільки з рівнем гравця вище 50, та з відповідним спорядженням (Легендарне+)
 
-## Creating / Joining a Dungeon
+## Створення / приєднання до підземелля
   
-When creating a dungeon, select the dungeon you want to create. You can name it and choose to make it Public or Private. You can also protect the dungeon with a password.
+При створенні виберіть підземелля, яке хочете створити. Ви можете назвати його та зробити його публічним або приватним. Ви також можете захистити підземелля паролем. 
 
-Public Dungeons are available to everyone to see and join (if they meet the level requirements) by accessing the list of dungeons. 
+Публічні підземелля доступні для перегляду та приєднання до них (якщо вони відповідають вимогам щодо рівня), перейшовши до списку підземель. 
 
-Password protected dungeons can be seen by other players but they cannot join unless they know the password. This is useful if you want to clear a dungeon with specific friends. Share the password in Gang chat or through Mail.
+Підземелля, які захищені паролем, можуть бачити інші гравці, але вони не зможуть приєднатися, якщо не знають пароля. Це корисно, якщо ви хочете очистити підземелля зі своїми друзями. Поділіться паролем у чаті банди або через Mail.
 
 ![DungeonCoop4](/resources/mobile-tutorial/DungeonCoop4.png)
 ![DungeonCoop3](/resources/mobile-tutorial/DungeonCoop3.png)
 
-If you'd rather join an existing dungeon, you can press the floating menu button at the bottom right, then select the buildings icon to view a list of open dungeons, as shown above in the screenshots.
+Якщо ви бажаєте приєднатися до існуючого підземелля, ви можете натиснути кнопку плаваючого меню внизу праворуч(телефон), а потім вибрати значок будівлі, щоб переглянути список відкритих підземель, як показано вище на знімках екрана.
 
-At the top right of each dungeon panel, you can find the dungeon level. Each panel includes a list of players and their status in the dungeon. At the bottom, you can see how many enemies are left. You can choose to join a fresher dungeon to gain more EXP or enter empty dungeons to claim loot.
+У верхньому правому куті кожної панелі підземелля ви можете знайти рівень підземелля. Кожна панель містить список гравців і їхній статус у підземеллі. Унизу ви можете побачити, скільки ворогів залишилося. Ви можете приєднатися до свіжішого підземелля, щоб отримати більше досвіду, або увійти в порожні підземелля, щоб отримати здобич.
  
 ![DungeonCoop](/resources/mobile-tutorial/DungeonCoop.png)
   
-As shown in the images above, there are several players in the same dungeon. The rules are the same regardless of how many players are in a dungeon; the only difference is that players can help each other out. When using heals, players may use the AOE items (such as Pain Away Spray) to heal both yourself and your co-op partners. You can see everyone's health bars above the player icons. Players may also help dungeonmates by killing the enemy, as the HPs of dungeons enemies are shared by the whole co-op.
+Як показано на зображенню вище, в одному підземеллі є кілька гравців. Правила однакові незалежно від кількості гравців у підземеллі; єдина відмінність полягає в тому, що гравці можуть допомагати один одному. Використовуючи лікування, гравці можуть використовувати предмети AOE (наприклад, спрей Біль-геть), щоб зцілити як себе, так і своїх партнерів по кооперації. Ви можете побачити смужки здоров’я кожного над значками гравців. Гравці також можуть допомагати товаришам по підземеллям, вбиваючи ворога, оскільки HP ворогів у підземеллях ділиться між усіма кооперативами.
 
-When an enemy is killed with the help from a friend, everyone who dealt 20% or more damage is given EXP and a chance for a reward, as long as their level isn't too high for the mob. All crates and loot are unique to each player, so you don't need to worry about sharing loot or having yours stolen. Grab everything you want and discard the rest!
+Коли ворога вбиває хтось інший, кожен, хто завдав 20% або більше шкоди, отримує досвід і шанс на винагороду(винагорода з босса гарантована), якщо його рівень не надто високий для моба. Усі ящики та здобич унікальні для кожного гравця, тож вам не потрібно хвилюватися про те, чи дістанеться вам якась здобич чи її вкрадуть. Хапайте все, що хочете, і відкидайте решту!
 
 ![DungeonCoop2](/resources/mobile-tutorial/DungeonCoop2.png)
 
-In this image, at the bottom under the '[QUIT DUNGEON]' button, you will find a button labeled '[Send invite to global chat]'. This will send an invite to the global chat so others can join easily by clicking on the message. Anyone around your level can join and help you out as long as they are within 10 levels below or 12 levels above your dungeon.
+На цьому зображенні внизу під кнопкою `«[Quit Dungeon]»` ви знайдете кнопку з позначкою `«[Send Invite to Chat]»`. Це надішле запрошення до глобального чату, щоб інші могли легко приєднатися, натиснувши на повідомлення. Будь-хто з вашого рівня може приєднатися та допомогти вам, якщо вони знаходяться на 10 рівнів нижче або на 12 рівнів вище вашого підземелля.
 
-You can also click on messages from other players to join their dungeon.
+Ви також можете натиснути повідомлення від інших гравців, щоб приєднатися до їхнього підземелля.
 
-After a player dies or leaves, they cannot rejoin the dungeon.
+Після смерті або виходу гравця він не може знову приєднатися до підземелля.
   
-## Entrance and Icons
+## Входи та позначки
   
 ![DungeonEntranceUsed](/resources/mobile-tutorial/DungeonEntranceUsed.png)
   
-Here you can see the first room of a dungeon. There are doors which will take you to another room in the dungeon. You can find these doors on all sides of the dungeon rooms.  You cannot enter a new room until you have killed all enemies in the current room.
+Тут ви можете побачити першу кімнату підземелля. Є двері, які переведуть вас в іншу кімнату в підземеллі. Ви можете знайти ці двері з усіх боків кімнат підземелля. Ви не можете увійти в нову кімнату, доки не вб'єте всіх ворогів у поточній кімнаті.
 
-This also shows an example of a room that has been completed. Note the greyed out crates, indicating that they have been looted already. The door on the right wall is also greyed out, which means you have already been through it. This is essential to not get lost while exploring the dungeon. 
+Картинка вище також показує приклад кімнати, яка була завершена. Зверніть увагу на сірі ящики, які вказують на те, що їх уже пограбовано. Двері на правій стіні також сірі, це означає, що ви вже проходили через них. Це важливо, щоб не заблукати під час дослідження підземелля.
 
-### Enemies
+Ришітками позначені стіни, з ними взаємодіяти неможливо, тільки обходити.
+
+### Вороги
   
 ![DungeonEnemies](/resources/mobile-tutorial/DungeonEnemies.png)
   
-There are at most four alien looking icons spread across the room, and these are the enemies you have to defeat before proceeding to the next room or accessing the crates in the room. Click on one of them to fight them.
+По всій кімнаті розташовано щонайбільше чотири іконки інопланетян(в кімнаті скарбів їх може бути 5 або більше, включно з босом), і це вороги, яких вам потрібно перемогти, перш ніж перейти до наступної кімнати або отримати доступ до ящиків у кімнаті. Щоб битися з ними просто натисніть на іконку ворога.
   
 ![DungeonFight](/resources/mobile-tutorial/DungeonFight.png)
   
-Rules are slightly different in the dungeons when you fight enemies. You will have a row of 3 buttons above your attack options which you can assign to usable items from your inventory. You should assign medical items to this hotbar since your health doesn't regenerate automatically after each fight.
+Правила дещо інші в підземеллях, коли ви боретеся з ворогами. У вас буде ряд із 3 кнопками над параметрами атаки, які ви можете призначити для використання предметів зі свого інвентарю. Краще всього призначити медичні предмети цій гарячій панелі, оскільки ваше здоров'я не відновлюється автоматично після кожного бою.
 
-You also have an 'Escape' button on the top left. The success rate of you escaping is based on your player 'escape' stat.  
+У верхньому лівому куті також є кнопка `«Escape»`. Рівень успіху вашої втечі залежить від параметрів "втечі" вашого гравця.
  
-### Good Guy (?)
+### Квестодавець (?)
   
 ![DungeonGoodguy](/resources/mobile-tutorial/DungeonGoodguy.png)
   
-Here, you can see the '?' icon, indicating a quest if you choose to accept it. You can find one quest giver per dungeon, and they are usually placed randomly in one of the rooms.
+Вище ви можете побачити значок «?», що вказує на квест, який ви може прийняти або відхилити. В підземеллі може бути не більше одного квестодавця, і він зазвичай розміщується випадковим чином в одній із кімнат.
   
 ![DungeonGoodguy2](/resources/mobile-tutorial/DungeonGoodguy2.png)
   
-Here is an example of the dialogue that pops up after clicking on the '?'. They will ask for items in return for other items or power-ups. It is up to you to decide if the trade is worthwhile; however, if you can afford it, it is usually worth accepting for the extra EXP you gain from completing it. Some of the text on this screen is randomly generated from a file, so you may get odd or funny references, if it makes any sense at all.
+Ось приклад діалогового вікна, яке з’являється після натискання «?». Він проситиме предмети в обмін на інші предмети або бонуси. Вам вирішувати, чи варта торгівля; однак, якщо ви можете собі це дозволити, зазвичай варто прийняти квест задля додаткового досвіду (EXP), який ви отримуєте від його завершення. Частина тексту на цьому екрані випадково генерується з файлу, тому ви можете отримати дивні або смішні посилання, якщо в них взагалі буде сенс XD.
 
-### Lore (!)
+### Знання (!)
 
 ![DungeonLoreguy](/resources/mobile-tutorial/DungeonLoreguy.png)
 
-There are exclamation marks dotted around dungeons that provide snippets of game lore. These don't have an impact on your game or the dungeon but may be interesting to read.
+В підземеллях розміщені знаки оклику, які містять фрагменти ігрової історії. Вони не впливають на вашу гру чи підземелля, але можуть бути цікавими для прочитання.
 
-### Treasure / Boss Room
+### Скарби / кімната боса
   
 ![DungeonBossTreasureCoop](/resources/mobile-tutorial/DungeonBossTreasureCoop.png)
   
-This room is special, as you can tell from the increased number of crates. The crate that looks like a window contains a key fragment that can be used for crafting Secret Keys that unlock new areas.
+Ця кімната особлива, про що можна судити зі збільшення кількості ящиків. Ящик, схожий на вікно, містить фрагмент ключа, який можна використовувати для створення секретних ключів, які відкривають нові області.
 
-In this screenshot, you can also see other players helping out. This is especially advised at low levels and when attempting a challenge dungeon, as the boss of challenge dungeons has greatly increased health and power in return for more EXP.
+На цьому знімку екрана ви також можете побачити інших гравців, які допомагають. На низьких рівнях особливо рекомендується проходити данжі в 2+ гравця, оскільки це має багато переваг, такі як швидке і ефективне зачищення кімнат, розподіл скарбів(луту), тощо. Також в поодинці важко перемогти босса, оскільки в нього більше здоров'я та сили взамін на багато досвіду (EXP).
 
-### Minigame
+### Жаргони
+Жаргони, або просто абревіатура - це один із небагатьох способів для гравців спілкуватися зі своїми друзями в підземеллі, щоб спрямувати їх до мети (у цьому випадку це пошук Кімнати скарбів і її босів у підземеллі). Ось кілька жаргонів, які більшість гравців часто використовували під час сесій у підземеллі:
+| Жаргон(Абревіатура) | Опис |
+|--|--|
+| [число] | Вказує кількість дверей в підземеллі (Наприклад, 0) |
+| [напрямок] | Вказує куда гравцеві рухатися далі; Заявляє, що в середині ще є двері (Наприклад, R [/ Right])  |
+| [число] [напрямок] | Вказує скільки дверей в кімнаті у вказаному направлені (Наприклад, 1 R, вказує що в кімнаті є 1 пара дверей(крім тих де гравець входить)) |
+| DE  | Вказує на те, що гравець знайшов **тупик (Dead End)**, що означає, що поблизу немає дверей (крім тих, у які гравець входить) |
+| BR | Вказує, що кімната в якій знаходиться гравець є кімнатою **Боса/Скарбів (Boss Room)** |
+| B  | Вказує, що гравець знайшов боса (Boss) |
+| B [тип] | Вказує, що гравець знайшов боса, та зразу вказує тип боса (Наприклад, B Agile) |
+| G | Вказує, що гравець досяг мінімальної вимоги для отримання винагороди боса (20% або більше) |
+| G? | Запитання, чи інші гравці вже виконали вимогу для отримання винагороди боса |
+| M / Міні-гра | Вказує, що гравець зараз проходить міні-гру |
+| OMW (НМШ)  | Абревіатура, що означає "**На Моєму Шляху (On My Way)**" |
+| BRT (БТ) | "Абревіатура, що означає "**Будьте Тут (Be Right There)**" |
 
-Once in a while, a minigame will show up after defeating an enemy, when trying to loot a box, or when entering another room, to insinuate a variety of dungeon dwellings. At the current state (as of 11-02-2022 / v.0780 Update), there's only 1 minigame that's been implemented to the game, called **Color Scheme Minigame**.
+
+### Міні-гра
+
+Час від часу міні-гра з’являтиметься після перемоги над ворогом, під час спроби пограбувати ящик або під час входу в іншу кімнату, щоб натякнути на різноманітність підземель. Зараз (станом на 11-02-2022 / v.0780 Update) у грі реалізовано лише 1 міні-гру під назвою **"Color Scheme Minigame"**.
 
 ![DungeonMinigame1](/resources/mobile-tutorial/DungeonMinigame1.png)
 
-The minigame itself consists of 3 colors (red, green, and yellow; with added symbols as an accessibility add-on) that need to be clicked on in sequence (40 times) in 60 seconds. You can also see the upcoming 2 colors as thinner color strips.
+Сама міні-гра складається з 3 кольорів (червоний, зелений і жовтий; із доданими символами для доступності всім), які потрібно натиснути послідовно (40 разів) протягом 60 секунд. Ви також можете побачити майбутні 2 кольори у вигляді тонших кольорових смуг.
 
 ![DungeonMinigameFail1](/resources/mobile-tutorial/DungeonMinigameFail1.png)
 
-Failing a minigame will result in a `DECRYPTION FAILED` screen, stating that a player failed to pick a correct color in sequence. Players are able to redo the minigame by clicking the **Try Again** button.
+У разі невдачі міні-гри з’явиться екран `DECRYPTION FAILED` із повідомленням про те, що гравець не зміг обрати правильний колір. Гравці можуть повторити міні-гру, натиснувши кнопку **«Спробувати знову»**.
+
+На момент перекладу (18-10-2022) в грі є ще одна міні-гра - пін-код, де потрібно ввести 4-значний код з картинки.
