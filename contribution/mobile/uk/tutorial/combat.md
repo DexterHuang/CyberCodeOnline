@@ -1,83 +1,85 @@
-## Combat
+## Бій
 
-In every location you will see a list of Nearby Enemies and three Dungeons in which you can enter. Locations are separated by level groups.  To unlock new areas, you'll have to gather three key fragments from the dungeons. You can then brute force a new key with your key fragments at the Terminal (Map).
+В кожній локації ви побачите список найближчих ворогів і три Підземелля, в які ви зможете увійти. Локації розділені групами рівнів. Щоб розблокувати нові ділянки, вам потрібно буде зібрати три ключові фрагменти з підземель. Потім ви зможете зломом створити новий ключ з ваших фрагментів ключа в Терміналі (Карта).
   
-To fight Nearby Enemies, select any of the listed enemies to enter combat. You can't heal while fighting nearby enemies, however, you can click on **Escape** button on the top left corner of the screen to exit the battle. While inside a dungeon, clicking on the enemy, represented by an alien logo will draw you into combat with it.  
+Щоб битися з найближчими ворогами, виберіть будь-якого ворога з списку, щоб вступити в бій. Ви не можете лікуватися під час бою з найближчими ворогами, однак ви можете натиснути кнопку **Втеча** у верхньому лівому кутку екрана, щоб вийти з бою. Перебуваючи в підземеллі, натисніть на ворога, представленого логотипом інопланетян, і ви почнете битися з ним
 
-## Combat screen
+## Екран бою
   
-The combat screen will show you how much health and shield you and your opponent both have, as well as the amount of ammo you have left for each of your weapons and the approximate damage they can do.  
+На екрані бою буде показано, скільки здоров’я та щита у вас і у вашого противника, а також кількість боєприпасів, що залишилася для кожної вашої зброї, і приблизну шкоду, яку вони можуть завдати.  
 
-## Primary Attack
-Attack the enemy with your equipped primary weapon. This weapon does not use ammo, but deals the least damage amongst the weapons among weapons of the same level and tier.
+## Головна атака
+Атакуйте ворога своєю основною зброєю. Ця зброя не використовує боєприпасів, але завдає найменшої шкоди серед зброї такого ж рівня.
 
-## Special Attack
-Attack the enemy with your equipped special weapon. Deal 120% damage if an enemy has shield, excess damage appllies to health without reduction. This weapon consumes one **Energy Cell** per shot and deals damage between a primary and desructive weapon of the same level and tier.
+## Спеціальна атака
+Атакуйте ворога за допомогою спеціальної зброї. Завдайте 120% шкоди, якщо ворог має щит, надмірна шкода cтягує здоров’я в звичному режимі. Ця зброя споживає одну **Енергетичну Клітину** за постріл і завдає шкоди між основною та руйнівною зброєю того самого рівня.
 
-## Destructive Attack
-Attack the enemy with your equipped destructive weapon. Deal 50% damage to shields. If enemy has less shield than damage amount, excess damage will not scale back to 100%. This weapon consumes one **Antimatter Charge** per shot and deals the most damage before modifiers to shields amongst weapons of the same level and tier.
+## Руйнівна атака
+Атакуйте ворога руйнівною зброєю. Руйнівна зброя завдає 50% шкоди щитам. Якщо у ворога менше щита, ніж сума шкоди, надмірна шкода не буде збільшена до 100%. Ця зброя споживає один **Заряд Антиматерії** за постріл і завдає найбільшої шкоди здоров'ю без щита проти зброї того ж самого рівня.
 
-## Use Item
-You have 3 Use Item slots. You can bind medical supplies, supply create or experience memories and use them. However practically you should only bind medical supplies because all items that can be immediately used work outside combat and outside dungeons, and only medical supplies need to be used in dungeons. There is no automatic sorting to slots.
+## Використання предметів
+У вас є 3 слоти для використання предметів. Ви можете прив'язувати медичні приладдя, створювати, прив'язувати та використовувати фрагменти Досвіду, але на практиці вам слід прив’язувати лише медичне приладдя, оскільки всі предмети, які можна негайно використати, працюють поза боєм і поза підземеллями, а в підземеллях знадобиться тільки медичне приладдя. 
+В грі немає автоматичного сортування по слотах.
 
-You can only use items in Dungeons. This means you cannot heal when fighting nearby enemies.
+Ви можете використовувати предмети лише в підземеллях. Це означає, що ви не можете лікувати себе під час бою з ворогами поблизу.
 
-## Escape
-You can attempt to escape from combat by clicking Escape in the top left. The success rate for escaping combat outside of a dungeon is always 100%. However if you are fighting inside a dungeon and try to escape, the chance will be based on your escape stat which is taken from your armour and upgrade stats. If you fail to escape, you will then be attacked by the enemy without dealing any damage.  
+## Втеча
+Ви можете спробувати втекти з бою, натиснувши **Втеча** у верхньому лівому куті. Шанс успіху для втечі з бою за межами підземелля завжди становить 100%. Однак якщо ви б'єтеся в підземеллі та намагаєтеся втекти, шанс буде залежати від вашої статистики втечі, яка взята з вашої броні та статистики покращень. Якщо вам не вдасться втекти, вас атакує ворог, хоча не завдасть жодної шкоди.
 
-## Death
+## Смерть
 
-Also named "FLATLINE", your character is rendered unable to do anything until a brief timer runs out. If you die, you won't lose any of your items. However, if your level is greater then 10, you will lose 10%  of your total BTC and Player XP. If your current XP out of full Level progress is less than 10%, you may lose a level.
+Смерть або як її ще називають «FLATLINE» - ваш персонаж не може нічого робити, доки не закінчиться короткий таймер. Якщо ви помрете, ви не втратите жодного свого предмета. Однак якщо ваш рівень перевищує 10, ви втратите 10% від загальної суми BTC та досвіду гравця. Будьте обережні, якщо ваш поточний XP рівня становить менше 10%, ви можете втратити рівень.
   
-## Enemy Modifiers
+## Модифікатори ворогів
+ 
+Вороги можуть мати модифікатори, які позначаються прикметником перед іменем ворога, наприклад, "**Божевільний** Serial Killer".
+Ці модифікатори є такими:
   
-Enemies can have modifiers, which are indicated by an adjective before the enemies name e.g. "**Mad** Serial Killer", these modifiers are as follows,
-  
- - Mad - Gives the enemy +20% damage  
- - Angry - Gives the enemy +10% damage  
- - Tough - Gives the enemy +20% defence  
-   - Also gives the enemy significantly more health and slightly more damage (Not in tooltips)
- - Agile - Gives the enemy +20% stun evade and a shield  
-   - The Shield amount is always equal to half of enemy's health
- - Shielded - Gives the enemy a large shield  
-   - The Shield amount is always equal to double of enemy's health
-   - Note however that shielded enemies have slightly lower health to compensate.
- - Precise - Gives the enemy +10% crit chance and +40% crit damage
-   - Also gives the enemy a shield (Not in tooltips)
- - Berserker - Gives the enemy significantly more health, shield and damage.
-   - No tooltip exists for it, but the significantly higher shield and health (which are also almost equal, except for bosses) is very easy to notice
+ - Mad (Божевільний) - Дає ворогу +20% шкоди
+ - Angry (Злий) - Дає ворогу +10% шкоди
+ - Tough (Міцний) - Дає ворогу +20% захисту  
+   - Також дає ворогу значно більше здоров’я та трохи більше шкоди (Не зазначено в спливаючій в підказці)
+ - Agile (Спритний) - Дає ворогу +20% ухилення від оглушення та щит 
+   - Кількість щита завжди дорівнює половині здоров'я ворога
+ - Shielded (Захищений) - Дає ворогу великий щит
+   - Кількість щита завжди дорівнює подвоєному здоров'ю ворога
+   - Вороги з щитом мають нижчий рівень здоров'я, щоб компесувати великий щит
+ - Precise (Точний) - Дає противнику +10% шансу на критичний удар і +40% нанесеної шкоди
+   - Також дає ворогу щит (Не зазначено в спливаючій в підказці)
+ - Berserker (Берсерк) - Дає ворогу значно більше здоров'я, щита та шкоди
+   - Для нього немає спливаючої підказки, але значно вищий щит і здоров’я (які також майже однакові, за винятком босів) дуже легко помітити.
 
-Some important notes about modifiers:
+**Деякі важливі зауваження щодо модифікаторів:**
 
-1. The damage from enemy is multiplied by the factor, then subtracted by your armor before deducting from your health. This means enemies might deal significantly more damage than no-modifier counterparts. 
-2. Similar calculation results also apply to defense. Tough enemies can take much more shots to kill.
-3. Agile enemies have "Stun Evade" (i.e. Only 80% of your stun value is used, e.g. 20% stun becomes 16% stun.), rather than "Evade" (i.e. chance for your attack to not hit at all). You may need to heal slightly more from such enemies hitting you when you normally stun them, but you will not have to heal from missing a shot completely.
+1. Шкода від ворога множиться на коефіцієнт, потім віднімається ваша броня перед вирахуванням вашого здоров’я. Це означає, що вороги з модифікаторами можуть завдати значно більшої шкоди, ніж аналоги без модифікаторів.
+2. Аналогічні розрахунки стосуються і оборони. Міцним опонентам потрібно буде завдати більше пострілів щоб вбити. 
+3. Спритні вороги мають «Ухилення від оглушення» (тобто використовується лише 80% вашого значення оглушення, наприклад, 20% оглушення стає 16%.), а не «Ухилення» (тобто шанс, що ваша атака взагалі не влучить). Можливо, вам знадобиться трохи більше зцілюватися від таких ворогів, тому що шанс що вони оглушаться буде меншим, але не потрібно буде зцілюватися від повністю пропущеної атаки
 
   
-## Player Modifiers
+## Модифікатори гравця
   
-You can also pick up modifiers by interacting with the quest giver in the dungeon, which is represented by a '?', these modifiers are as follows:  
+Ви також можете отримати модифікатори, взаємодіючи з квестодавцем у підземеллі, який представлений символом «?». Існують такі модифікатори: 
   
- - Overcharged I - Gives the player +5% damage  
- - Overcharged II - Gives the player +10% damage  
- - Overcharged III - Gives the player +15% damage  
- - Overcharged IV - Gives the player +20% damage  
- - Overcharged V - Gives the player +25% damage  
-  
-  
- - Reinforced I - Gives the player +5% defence  
- - Reinforced II - Gives the player +10% defence  
- - Reinforced III - Gives the player +15% defence  
- - Reinforced IV - Gives the player +20% defence  
- - Reinforced V - Gives the player +25% defence  
+ - Overcharged I - Дає гравцеві +5% шкоди
+ - Overcharged II - Дає гравцеві +10% шкоди 
+ - Overcharged III - Дає гравцеві +15% шкоди
+ - Overcharged IV - Дає гравцеві +20% шкоди
+ - Overcharged V - Дає гравцеві +25% шкоди
   
   
- - Shield Enhance I - Gives the player +5% shield multiplier  
- - Shield Enhance II - Gives the player +10% shield multiplier  
- - Shield Enhance III - Gives the player +15% shield multiplier  
- - Shield Enhance IV - Gives the player +20% shield multiplier  
- - Shield Enhance V - Gives the player +25% shield multiplier  
+ - Reinforced I - Дає гравцеві +5% захисту
+ - Reinforced II - Дає гравцеві +10% захисту
+ - Reinforced III - Дає гравцеві +15% захисту
+ - Reinforced IV - Дає гравцеві +20% захисту
+ - Reinforced V - Дає гравцеві +25% захисту  
+  
+  
+ - Shield Enhance I - Дає гравцеві +5% множника щита
+ - Shield Enhance II - Дає гравцеві +10% множника щита 
+ - Shield Enhance III - Дає гравцеві +15% множника щита
+ - Shield Enhance IV - Дає гравцеві +20% множника щита
+ - Shield Enhance V - Дає гравцеві +25% множника щита
 
-The modifier only starts counting down when you complete the quest by exchanging the requested items on Quest Tab (yellow text when completed). You can accept a quest in a dungeon and wait until a later time to start it. Every quests reward will specify the exact modifier you will gain.
+Модифікатор починає зворотній відлік лише тоді, коли ви завершуєте квест шляхом обміну потрібними предметами на вкладці «Квест» (жовтий текст після завершення). Ви можете прийняти квест у підземеллі та зачекати пізніше, щоб розпочати його. Кожна винагорода за виконання квестів вказуватиме точний модифікатор, який ви отримаєте.
 
-Also, player modifiers of different tiers stack additively. For example, you can have Overcharged I, Overcharged II at the same time, resulting in +15% damage. However if you gain a modifier you have already enabled (for instance, activating Overcharged I two times), it resets the timer.
+Крім того, модифікатори різних рівнів можуть складатися. Наприклад, ви можете мати Overcharged I, Overcharged II одночасно, і отримаєте +15% шкоди. Однак якщо ви отримуєте модифікатор, який ви вже ввімкнули (наприклад, двічі активуєте Overcharged I), він скидає таймер.
