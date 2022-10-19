@@ -1,72 +1,73 @@
 # Calibration
 ![CalibrationStation](/resources/mobile-tutorial/CalibrationStation.png)
 
-**Calibration** is an action where players upgrade their gear to a certain point of improvement, with the purpose of gear longevity and usability on a higher level later on. Calibrating a gear does not increase its level, yet it increases its base stats up to a certain tier of calibration.
+**Калібрування** — це процес удосконалення існуючого елемента обладнання до певної межі. Метою калібрування є покращення показників спорядження, без підвищення базового рівня, що дозволяє використовувати його на вищих рівнях. Калібрування може бути зроблено обмежену кількість разів, залежно від рідкості спорядження.
 
-It is advisable to start Calibrating your gear around level 50 (and above) as the lower level will outgrow the calibrated gear quickly making the calibrated gear useless on longer runs. It is also advisable to calibrate gear that's at least a Rare (up to Epic) rarity as higher rarity provides more calibration tier's to improve.
+Рекомендується калібрувати спорядження починаючи з 50 рівня, оскільки на початку гравець підвищує свій рівень дуже швидко, тож відкаліброване спорядження низького рівня стане марним. Також краще за все калібрувати речі не гірші ніж Рідкісні, через більшу кількість можливих рівнів калібрування.
 
-To do Calibration, A player needs to visit the Calibration Station that can be found in Shangri-La City Center (Map).
 
-## Performing Calibration
+Для того щоб відкалібрувати спорядження, гравцю треба відвідати Станцію калібрування розташовану в центральному кварталі Шангрі-Ла.
+
+## Як виконується Калібрування
 ![CalibrationStation2](/resources/mobile-tutorial/CalibrationStation2.png)
 
-Inside **Calibration Station**, the player will be asked to insert the **Equipment Calibration Core** to start the process. After inserting the core, the player needs to wait for 30 minutes before the Station allows the player to calibrate their gear (**This waiting process is not affected by any global buff / skips, including AFK Accelerators [Synaptic Acceleration Transmitter]**).
+На Станції Калібрування гравцю треба встановати Ядро Калібрування, після чого почнеться активація Ядра, яке триває 30 хвилин. Щойно Ядро активується гравець зможе виконати калібрування (**На час очікування не впливають ані прискорення ані глобальні пропуски, в тому числі такі як [Синаптичний Передавач Прискорення]**).
 
 ![CalibrationStation3](/resources/mobile-tutorial/CalibrationStation3.png)
 
-After 30 minutes, A player is allowed to calibrate any gear (excluding maxed Calibrated Gear) that's not equipped into their equipped slot. 
+Через 30 хвилин гравець зможе відкалібрувати будь-яку річ (окрім вже відкаліброваної до максимума) яку він не вдягнув (тобто просто знаходиться в інвентарі). 
 
-## Outside of Calibration Station
+## Поза межами Станції калібрування
 
-As of **v0.780 (2022/03/04) update**, players were allowed to do Calibration during the AFK Task / Dungeon session. 
+Починаючи з версії **v0.780 (2022/03/04)**, гравці можуть виконувати калібрування навіть перебуваючи у підземеллі чи під час AFK-діяльності. 
 
 ![CalibrationStationAlt](/resources/mobile-tutorial/CalibrationStationAlt.png)
 
-In order to do so, players must click on its designated gear then pick the `View Details` option. On the **Equipment Details** section, click on the **Upgrade** or **Calibration Slots** button to navigate to Calibration Station. In this way, players can do calibration at ease.
+Для цього, гравець має обрати необхідне обладнання, потім обрати пункт `Докладніше`. Перебуваючи у меню  **Детальна інформація** треба натиснути на **Вдосконалити** чи на **Слоти калібрування** щоб перейти до вікна Станції калібрування. Таким чином гравці можуть легко виконати калібрування, не залишаючи підземелля.
 
-Keep in mind that only unequipped gear was the ones that can be calibrated.
+Пам'ятайте, що відкалібрувати можливо лише те обладнання, яке не вдягнене та перебуває у торбині.
 
-## Chance of Destructive Failure
+## Імовірність знищення обладнання
 
 ![CalibrationStation4](/resources/mobile-tutorial/CalibrationStation4.png)
 
-In process of calibrating the gear, there's a chance that the process will fail, resulting in a gear being destroyed. The percentage of failure is indicated by the red number on top of the selected gear in %.
+Під час калібрування існує імовірність того, що трапиться непередбачений збій в наслідок якого обладнання буде знищено . Імовірність знищення відображається великими червоними цифрами після того, як ви оберете обладнання для калібрування.
 
-It is advisable to remove the Upgrade Module that's attached to the gear before attempting to calibrate, as both gear and module will get destroyed in process of fail.
+Якщо обладнання буде знищено то ви втратите усі встановленні модулі покращення, тож не забувайте виймати модулі покращення перед тим як калібрувати річ.
 
-In general, the gear capacity / fail percentage of each tier is as follows:
-| Gear Capacity | Tier | Chance to Fail |
+Наступна таблиця демонструє ємність слотів калібрування в залежності від рідкості та вірогідність руйнування на певному рівні каоібрування
+| Рідкість речі | Бажаний рівенб  | Імовірність руйнування |
 |--|--|--|
-| Trash | +1 | 2% |
-| Trash | +2 | 5% |
-| Trash | +3 | 10% |
-| Common | +4 | 15% |
-| High Quality | +5 | 50% |
-| Rare | +6 | 100% |
-| Legendary | +7 | 150% |
-| Legendary | +8 | 200% |
-| Epic | +9 | 400% |
-| Epic | +10 | 666% |
+| Таке-собі | +1 | 2% |
+| Таке-собі | +2 | 5% |
+| Таке-собі | +3 | 10% |
+| Звичайне | +4 | 15% |
+| Високоякісне | +5 | 50% |
+| Рідкісне | +6 | 100% |
+| Легендарне | +7 | 150% |
+| Легендарне | +8 | 200% |
+| Епічне | +9 | 400% |
+| Епічне | +10 | 666% |
 
 ## Override The Chance
-Any +6 calibration and beyond is *impossible to achieve* without the use of **Calibration Boost**. They reduce the failure percentage and they stack / add with each other.
+*Неможливо* відкалібрувати річ вище ніж на +5 без використання **Посилювачей Калібровки**. Вони зменшують імовірність невдачі та їх вплив складається/додається один з одним.
 
-In general, the calibration boost tier (and where to find them) is as follows:
-- **Calibration AI Shard (Common)** reduce the chance of failure by 5%; only for Personal Use; can be found in Rare Locked Containers
-- **Calibration AI Shard (Rare)** reduce the chance of failure by 10%; Global Buff; can only be bought in the Arasaka Unit Exchange
-- **Calibration AI Shard (Legendary)** reduce the chance of failure by 50%; Global Buff; can only be bought in the Arasaka Unit Exchange
-- **Calibration AI Shard (Epic)** reduce the chance of failure by 100%; Global Buff; can only be bought in the Arasaka Unit Exchange
-- **Calibration AI Shard (Prestige)** reduce the chance of failure by 300%; Global Buff; can only be bought in the Arasaka Unit Exchange 
+Взагалі існують наступні різновиди підсилювачів калібрування:
+- **Уламок калібрувального AI (Звичайний)** знижує імовірність невдачі на  5%; Лише для власного використання; може бути знайдений у Рідкісному Сейфі
+- **Уламок калібрувального AI (Рідкісний)** знижує імовірність невдачі на  10%; Діє на всіх гравців; придбати можливо лише в Пункту Обміну Арасаки
+- **Уламок калібрувального AI (Легендарний)** знижує імовірність невдачі на  50%; Діє на всіх гравців; придбати можливо лише в Пункту Обміну Арасаки
+- **Уламок калібрувального AI (Епічний)** знижує імовірність невдачі на  100%; Діє на всіх гравців; придбати можливо лише в Пункту Обміну Арасаки
+- **Уламок калібрувального AI (Престижний)** знижує імовірність невдачі на  300%; Діє на всіх гравців; придбати можливо лише в Пункту Обміну Арасаки 
 
-Players can also negate the destructive effect by activating **Calibration Safety Nano Bots** (which can be found in Mysterious Containers / or bought in the Arasaka Unit Exchange) before calibrating the gear.
+Гравці також можуть запобігти руйнуванню речей у разі невдачі, активуючи **Наноботів Безпечного Калібрування** (можуть бути знайдені у Таємничому контейнері та(або) придбані в Пункту Обміну Арасаки) **перед** тим як калібрувати річ.
 
-Keep in mind that the boosts **will only last for 5 min** & each tier / rarity of boost **can only be stacked twice** (excluding Common Shard). It's best to be prepared before boosting.
+Майте на увазі що ефекти посилювачів **тривають лише 5 хвилин!!!**. Кожний різновид посилювача **буде враховуватись лише двічи** (за виключенням Звичайного посилювача). Перед калібруванням готуйтесь зазделегідь.
 
-## Gear Improvement
-With each calibration, gear gets improved and far better than un-calibrated gear (depending on its level). These improvements ranged from higher health, better damage, more inventory slots, etc.
+## Покращення показників
+З кожним калібруванням обладнання отримує покращенні характеристики (в залежності від рівня). Ці покращення можуть бути пов'язані із здоров'ям, захистом, ємністю карманів тощо.
 
-Improvement (from calibration; from its base stats) percentage as follows:
-| Tier | Gear Improvement |
+Покращення в залежності від рівня калібрування здійснюється на відсоток від базових характеристик обладнання. Наступна таблиця демонструє ці показники:
+| Рівень калібрування | Підвищення характеристик |
 |--|--|
 | +1 | 5% |
 | +2 | 10% |
@@ -80,5 +81,5 @@ Improvement (from calibration; from its base stats) percentage as follows:
 | +10 | 200% |
 
 
-##  Trade / Sell Calibrated Gear 
-Players can't trade / sell their calibrated gear. To trade / sell related gear, players need to **Reset** the calibrated gear by using **Factory Reset Shard** (that can be found on Scavenge or Market).
+##  Продаж/обмін відкалюброваного обладнання
+Гравці не можуть продавати чи відправляти один одному відкалібровані речі. Необхідно **Обнулити** відкалібровану річ, використовуючи **Уламок Заводських Налаштувань* (ви можете знайти його під час шпортання або на Торговій Площі).

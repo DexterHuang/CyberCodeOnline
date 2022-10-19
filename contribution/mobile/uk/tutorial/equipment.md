@@ -1,105 +1,105 @@
-# Equipment / Gears
-You can equip an equipment (gear) that you own as long as the gear level that you wish to equip is not higher than your current character level.  
+# Обладнання / Спорядження
+Рівень спорядження, який ви можете вдягнути не може перевищувати рівень вашого персонажа.  
 
-All equipment (and equipment caches) have rarities, as follows:
-- Trash (Grey)
-- Common (White)
-- High Quality (Green)
-- Rare (Yellow)
-- Legendary (Fuchsia, Deep Pink)
-- Epic (Dark Red)
+Все спорядження (разом із схемами) відрізняються за рідкістю та за кольором:
+- Таке-собі (Сірий)
+- Звичайне (Білий)
+- Високоякісне (Зелений)
+- Рідкісне (Жовтий)
+- Легендарне (Фіолетовий)
+- Епічне (Багряний)
 
-Keep in mind that higher rarities will have better stats and more module upgrade slots, depending on the piece of equipment.  
+Майте на увазі, що характеристики та кількість слотів для модулей залежить в тому числі від рідкості речі - чим рідкіший елемент спорядження тим більші характеристики він має.
 
 ## Knowing Your Caches
-Here's a couple of guiding point on how or when to print certain caches:
-> From level 1 to 5, it's recommended to print / use **Trash** caches for your gear set as it's the cheapest one of all
+Ось кілька порад щодо того, як і коли друкувати певні схеми:
+> З 1го по 5ий рівень рекомендовано друкувати та використовувати **Таки-собі** спорядження та схеми так як вони найдешевші
  
-> From level 5 to 15, it's recommended to print / use **Common** caches for your gear set
+> З 5го по 15ий рівень рекомендовано друкувати та використовувати **Звичайне** спорядження та схеми
 
-> From level 15 to 30, it's recommended to print / use **High Quality** caches for your gear set
+> З 15го по 30ий рівень рекомендовано друкувати та використовувати **Високоякісне** спорядження та схеми
 
-> From level 30 to 50, it's recommended to print / use **Rare** caches for your gear set
+> З 30го по 50ий рівень рекомендовано друкувати та використовувати **Рідкісне** спорядження та схеми
 
-> From level 50+, it's recommended to print / use **Legendary** caches for your gear set
+> Починаючи з 50го рівня рекомендовано друкувати та використовувати **Легендарне** спорядження та схеми
 
-> From level 100+, it's recommended to print / use **Epic** caches for your gear set (if a player ever gets the chance to find or buy one, as it's the rarest cache / gear of all)
+> Починаючи з, рекомендовано друкувати та використовувати **Епічне** спорядження та схеми (якщо гравцю взагалі пощастить знайти такі речі, бо вони зустрічаються найрідше)
 
-Keep in mind that this guidance were only served as a reference rather than enforcing players into managing certain plays. Also, **Gear Quality** reflects the stats on the gear itself perspectively, thus inspecting it's quality is essential for optimal gear stats.
+Це лише довідкова інформація, ви можете друкувати та використовувати спорядження будь-якої рідкості. Взагалі рідкість відповідає за характеристики спорядження взагалі, не враховуючи рівень. Легендарний шолом 10го рівня завжди буде кращий ніж Рідкий того ж самого рівня.
 
-## Finding Your Equipment
-You can find both gear and equipment caches in dungeons or when fighting individual enemies (street fights). Once you are level 5, you will be able to use the Player Market to purchase different types of gears, crafting materials and other items.
+## Де це все знаходиться
+Схеми та безпосередньо спорядження може бути знайдено у підземеллях та під час сутичок із противниками на вулицях міста. Як тільки ви досягнете 5го рівня вам відкриється доступ до Ринку Гравців, де ви зможете придбати різноманітні схеми, спорядження та матеріали для виробництва.
 
-## Printing Your Equipment
-Caches can be used to print equipment at your current Printing Rank at the Molecular 3D Printer in the City Center. The level of the printed gear will be the same as your Printing Rank, so make sure to keep your Printing Rank at the same level as your player level.
+## Друк власних схем
+Схеми можуть бути використані для виготовлення предметів на Молекулярному 3D-принтері, розташованому у міському Центрі. Рівень надрукованого спорядження буде дорівнювати вашому рівню друку, тож переконайтесь, що ваш ранг друку відповідає рівню гравця.
 
-## Upgrade Modules
-You can attach **Upgrade Modules** onto your equipment. In order to equip the module, the module level cannot be higher than the equipment's level (For example: you can't attach a level 20 upgrade module onto level 5 primary weapon).  
+## Модулі покращення
+Ви можете встановити до свого спорядження **Модулі покращення**. Для того, що встановити модуль до предмету, рівень модуля не може перевіщувати рівень самого предмета (Наприклад: ви не зможете встановити модуль 20го рівня до основної зброї 5го рівня).  
 
-Upgrade modules can be removed at any time. Removed upgrade modules will take space in your inventory (it has a same unique inventory treatment as gear / equipment). Make sure you have enough space in your inventory before removing any upgrades.  
+Модулі покращення можуть бути вилучені з предмета у буль-який час. Кожен модуль у вашому інвентарі займає окрему ячейку, тож слідкуйте за цим. Переконайтеся що у вас є достатньо вільного місця перед тим як вилучати модулі з предмету.  
 
-If your inventory is getting cluttered with upgrade modules that you can't rid of, you can always store unused module into your Bank Item Storage. 
+Якщо вільне місце у вашому інвентарі закінчується через велику кількість модулей, від яких ви не можете позбутись - скористуйтесь банківським сховищем. 
 
-It is advisable to remove the upgrade module before scrapping your unused gear as scrapping a piece of gear with module in it will only accounts as a module deletion. Always keep an eye on which item that you'll scrap as it's not recoverable.  
+Під час утилізації предмету на металобрухт усі модулі, що були встановлені, знищуються без будь-якої можливості їхнього відновлення, тож будьте уважними!
 
-## Upgrade Slots
-Each equipment has a dedicated **Upgrade Slots** depending on it's rarity and quality, which can be summarized as follows:
+## Слоти для модулей
+Кожен елемент спорядження має певну кількість **Слотів під модулі** в залежності від типу спорядження та його рідкості. Конкретну кількість слотів у тому чи іншому обладнанні наведено в таблиці:
 
-#### Primary Weapon
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 to 3 Slots
- - Rare: 3 Slots
- - Legendary: 3 Slots
- - Epic: 4 Slots
+#### Основна зброя
+ - Таке-собі: від 0 до 1 слота
+ - Звичайне: від 1 до 2 слотів
+ - Високоякісне: від 2 до 3 слотів
+ - Рідкісне: 3 слоти
+ - Легендарне: 3 слоти
+ - Епічне: 4 слоти
 
-#### Special Weapon
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 Slots
- - Rare: 2 Slots
- - Legendary: 2 Slots
- - Epic: 3 Slots
+#### Спец. зброя
+ - Таке-собі: від 0 до 1 слота
+ - Звичайне: від 1 до 2 слотів
+ - Високоякісне: 2 слоти
+ - Рідкісне: 2 слоти
+ - Легендарне: 2 слоти
+ - Епічне: 3 слоти
 
-#### Destructive Weapon
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 Slots
- - Rare: 2 Slots
- - Legendary: 2 Slots
- - Epic: 3 Slots
+#### Руйнівна зброя
+ - Таке-собі: від 0 до 1 слота
+ - Звичайне: від 1 до 2 слотів
+ - Високоякісне: 2 слоти
+ - Рідкісне: 2 слоти
+ - Легендарне: 2 слоти
+ - Епічне: 3 слоти
 
-#### Helmet
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 Slots
- - Rare: 2 Slots
- - Legendary: 2 Slots
- - Epic: 3 Slots
+#### Шолом
+ - Таке-собі: від 0 до 1 слота
+ - Звичайне: від 1 до 2 слотів
+ - Високоякісне: 2 слоти
+ - Рідкісне: 2 слоти
+ - Легендарне: 2 слоти
+ - Епічне: 3 слоти
 
-#### Upper Armor
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 to 3 Slots
- - Rare: 3 to 4 Slots
- - Legendary: 4 Slots
- - Epic: 5 Slots
+#### Верхня броня
+ - Таке-собі: від 0 до 1 слота
+ - Звичайне: від 1 до 2 слотів
+ - Високоякісне: від 2 до 3 слотів
+ - Рідкісне: від 2 до 3 слотів
+ - Легендарне: 4 слоти
+ - Епічне: 5 слоти
 
-#### Lower Armor
- - Trash: 0 to 1 Slots
- - Common: 1 Slot
- - High Quality: 2 Slots
- - Rare: 3 Slots
- - Legendary: 3 Slots
- - Epic: 4 Slots
+#### Нижня броня
+ - Таке-собі: від 0 до 1 слота
+ - Звичайне: 1 слот
+ - Високоякісне: 2 слоти
+ - Рідкісне: 3 слоти
+ - Легендарне: 3 слоти
+ - Епічне: 4 слоти
 
-#### Boots
- - Trash: 0 to 1 Slots
- - Common: 1 Slot
- - High Quality: 2 Slots
- - Rare: 2 Slots
- - Legendary: 2 Slots
- - Epic: 3 Slots
+#### Чоботи
+ - Таке-собі: від 0 до 1 слота
+ - Звичайне: 1 слот
+ - Високоякісне: 2 слоти
+ - Рідкісне: 2 слоти
+ - Легендарне: 2 слоти
+ - Епічне: 3 слоти
 
-## Other Items
-Explanation about other inventory such as parts and consumables, can be found on both [Inventory](https://cybercodeonline.com/markdown?path=tutorial%2Finventory.md) and [Resource's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md)
+## Інші предмети
+Пояснення стосовно інших предметів інвентаря, таких як запчастини та витратні матеріали ви можете знайти за посиланнями: [Інвентар](https://cybercodeonline.com/markdown?path=tutorial%2Finventory.md) and [Витратні матеріали](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md)
