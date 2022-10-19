@@ -253,7 +253,6 @@ Livingdead
 Vega_Efsunborn
 [Laani](https://github.com/Laani)
 [Manz](https://github.com/manztellen)
-[TerrifficSprite](https://github.com/petrokrechunyak)
 
 ## Game resources (words)
 [apetro](https://github.com/apetro/)
