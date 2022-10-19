@@ -19,57 +19,57 @@
 ### Що таке навички? Як підвищити рівень навичок «X»?
 В грі є 5 навичок, які гравець може розвинути, і кожна з них свої власні переваги. Ось як підвищити певні навички:
 
-> For **Printing Skills**, player can level up by doing **Printing Task** or **Reverse Engineer** (costs Tech Scraps) on **Commercial Area** (/ Job Hub) or by printing trash cache at **Molecular 3D Printer**.  
+> Щоб підвищити рівень **навички друку**, потрібно виконувати завдання з друку або **Реконструюювати Техно-Брухт** (ціна - Техно-Брухт) у **комерційній зоні** або друкувати схеми в **Молекулярному 3D принтері**.
 
-> For **Medical Skills**, player can level up by doing **Medical Task** on **Commercial Area** (/ Job Hub) or by crafting **Medical Items** on **Inventory > Crafting > Medical**.
+> Щоб підвищити рівень **медичних навичок** потрібно виконувати медичне завдання в **комерційній зоні** або створюючи медичні предмети в **Інвентар > Виготовлення > Медицина** .
 
-> For **Ammo Crafting Skills**, player can level up by doing **Ammo Crafting Task** on **Commercial Area** (/ Job Hub) or by crafting Ammo on **Inventory > Crafting > Ammo** (Needs to be atleast level 10 Ammo Crafting before doing so).  
+> Щоб підвищити рівень **навичок виготовлення боєприпасів** потрібно виконувати завдання з виготовлення боєприпасів у **комерційній зоні** або створивши боєприпаси в розділі **Інвентар > Виготовлення > Патрони** (для цього має бути щонайменше 10-й рівень виготовлення боєприпасів).
 
-> For **Scavenge Skills**, player can level up by doing **Scavenge Task**. Player can find Scavenge task below **Deploy Farm Bot** Task on each area. It is important to note that starting out, you must start at the level 1-4 area due to the requirements on scavenging level of later areas.
+> Щоб підвищити рівень **навичок шпортання** потрібно виконувати завдання зі збору сміття. Для того щоб знайти завдання зі збору сміття потрібно перейти до **центрального вокзалу** > станція (X)(Залежить від того якого ви рівня) > перейти до (X)(Знову ж, залежно від рівня) > Пошпортатись у (X). Якщо ваш рівень шпортання недостатній перейдіть в підземелля нижчого рівня та спробуйте пошпортатися там.
 
-> For **Mining Skills**, player can level up by doing **Crypto Mining Task** on **Commercial Area** (/ Job Hub) or by doing **Gang Task** that player can find on their Gang Headquarters.
+>  Щоб підвищити рівень **навичок майнінгу** потрібно виконувати завдання крипто-майнінгу в комерційній зоні або виконавши завдання банди, яке гравець може знайти в штаб-квартирі своєї банди.
 
-### What's the Benefit of Leveling Up "X" Skills?
-There are 5 skills that player can develop & it has it's own perk upon doing so. In summary, here's the benefit of leveling up certain skills:
+### Яка користь від підвищення рівня певних навичок?
+Всі вищеописані навички можна ровзвивати, і кожна з них має свої переваги:
 
-> For **Printing Skills**, player can print a better and higher level gear. Having a better gear onto player's arsenal adds better stats into players favour, making fight less difficult. 
+> **Навички друку** довзоляють надрукувати спорядження кращого та вищого рівня. Наявність кращого спорядження в арсеналі гравця додає кращі характеристики в перевагу гравця, що робить бій менш складним. Рівень надрукованого спорядження залежить від рівня навички друкування.
 
-> For **Medical Skills**, player can craft better meds into their arsenal (up to Epic Nano Medic Bots), helping player on a longer run while also providing better health pool per usage.
+> **Медичні навички** дозволяють створювати кращі ліки у свій арсенал (аж до Легендарного нанодрона-медика), допомагаючи гравцеві в довгостроковій перспективі, а також забезпечуючи кращий запас здоров’я за кожне використання.
 
-> For **Ammo Crafting Skills**, player can craft more ammo per 10 levels with the same amount of ingredients.
+> **Навички виготовлення** боєприпасів дозволяють створювати більше боєприпасів на 10 рівнів з однаковою кількістю інгредієнтів.
 
-> For **Scavenge Skills**, player can do higher level Scavenge Task, which allows player to get an even better item drop rate. 
+> **Навички шпортання** дозволяють використовувати **Пошпортатись у** вищого рівня, що дозволяє гравцеві отримати кращі предмети.
 
-> For **Mining Skills**, player can get better BTC amount per 1 Crypto Mining task and also higher output of AI craft per level with the same amount of ingredients.
+> **Навички майнінгу** дозволяють отримати більше БітКойнів (BTC) за 1 завдання крипто-майнінгу, а також більшу продуктивність штучного інтелекту за рівень з тією самою кількістю інгредієнтів.
 
-### Can Skills Level be higher than our Character Level?
-No. Character Level is the max / boundary of player's skill level.
+### Чи може рівень навичок бути вищим за рівень нашого персонажа?
+Ні. Рівень персонажа – це максимальний / межа рівня навичок гравця.
 
-### Can I Use Gear that's higher than our Character Level?
-No. player can't use gear that's higher than it's current character level.
+### Чи можу я використовувати спорядження, яке вище рівня нашого персонажа?
+Ні, гравець не може використовувати спорядження, яке вище поточного рівня персонажа.
 
-### What is the fastest way to level up in this game?
-On **lower level (1-7)**, the fastest and best way to level up is to fight **Nearby Enemies** constantly. Defeating the **yellow enemies** will result in more EXP gain, while also risking in having a harder fight than a normal enemies.
+### Який найшвидший спосіб підвищити рівень у грі?
+На **нижчому рівні (1-7)** найшвидший і найкращий спосіб піднятися – це постійна боротьба з **ворогами поблизу**. Перемога над жовтими ворогами призведе до збільшення досвіду, а також до ризику мати важчий бій, ніж звичайні вороги.
 
-**After reaching level 7**, try to equip / print a gear that has same gear level as your character level, and jumps into solo **Normal Dungeon**. Player can also join other players Dungeon via **Dungeon List** feature on **Map > Phone Icon > Dungeon List**. Finishing a dungeon will gain more EXP yield than Nearby Enemies.
+**Після досягнення рівня 7** спробуйте надрукувати спорядження, яке має такий же рівень спорядження, що й рівень вашого персонажа, і стрибніть у соло **Підземелля звичайної важкості**. Гравець також може приєднатися до **Підземелля** інших гравців за допомогою функції **Список Підземель** на карті > **Іконка телефону** > **Список підземель** . Закінчивши підземелля, ви отримаєте більше досвіду, ніж вороги поблизу.
 
 For best results, try to compelete **Challenge Dungeons** at rare and below gear or **Gang Dungeons** at legendary or above gear while having an active **Frontal Cortex Transmitter** (EXP Buff / Booster).
 
-Note: You could also level up by doing AFK Task (**Deploy Farm Bot**) that requires **AI Core**. These task takes time (up to 2 hours) & only be profitable if a Global Skip event is happening, which recudes the task time (making it the most efficient way to level up). Explanation around Time Skip can be found on [Time Skip's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fglobal_skip.md)
+Примітка. Ви також можете підвищити рівень, виконавши завдання AFK (Фарм-бот), яке потребує Ядро АІ. Це завдання потребує часу (до 2 годин) і буде прибутковим, лише якщо відбувається подія **Глобального Пропуску**, яка зменшує час виконання завдання (що робить його найефективнішим способом підвищення рівня). Пояснення щодо **Глобального Пропуску** можна знайти в підручнику [Time Skip](https://cybercodeonline.com/markdown?path=tutorial%2Fglobal_skip.md)
 
-### I Need more BTC. Help!
-You can yield / gain BTC quickly by selling certain items on **Shangri-La Market Street**. At the start, its recommended to sell your Medical Tech Parts, Tech Scrap, and Hash Processor onto the market following the current market price. Specifically for Hash Processor, as a lower level player (for at least below level 100), it's best to sell Hash Processor at the start rather than using it for **Crypto Mining** task as it yields for less BTC than it's actual market price.
+### Мені потрібно більше БітКойнів (BTC). Допоможіть!
+Ви можете швидко отримати/заробити BTC, продавши певні предмети на ринковій вулиці Шангрі-Ла. На початку рекомендується продавати свої медичні технічні частини, технічний брухт і хеш-процесор на ринку за поточною ринковою ціною. Спеціально для хеш-процесора, як гравця нижчого рівня (принаймні рівня нижче 100), найкраще продати хеш-процесор на початку, а не використовувати його для завдання Crypto Mining, оскільки він приносить менше BTC, ніж його фактична ринкова ціна.
 
-With addition of Black Market (as of 2022/04/18), players can also "print" their own BTC by selling their caches onto Black Market. However, this action will only be profitable on higher level (with addition on Bargain stats), making it more likely to become a high-level player feature.
+З додаванням **Чорного ринку** (станом на 18 квітня 2022 року) гравці також можуть «друкувати» власні BTC, продаючи свої схеми на **Чорному ринку**. Однак ця дія буде прибутковою лише на вищому рівні (з додаванням статистики вигідних умов), що підвищує ймовірність того, що вона стане функцією для гравців високого рівня.
 
-### What will happen if I Die / Flatlined?
-**After level 10, you will lose 10% of your unbanked BTC and EXP**; however your inventory will be safe. It is advisable to keep your BTC in **Arasaka Bank** in order to prevent major losses.
+### Що станеться, якщо я помру / Flatlined?
+**Після рівня 10** ви втратите 10% своїх небанківських BTC і EXP ; однак ваш інвентар буде в безпеці. Бажано зберігати свої BTC у банку Arasaka , щоб запобігти великим втратам.
 
-### Why can't I use my Special and Destructive weapons?
-These weapons require ammo. Special weapons uses **Energy Cells** and Destructive weapons use **Anti-Matter Charges**. Ammo can be looted form enemies, crafted in your Inventory, or bought on the player market.
+### Чому я не можу використовувати свою спеціальну та руйнівну зброю?
+Ця зброя вимагає патронів. Спеціальна зброя використовує **енергетичні клітини**, а руйнівна зброя використовує **заряди антиматерії**. Боєприпаси можна грабувати у ворогів, створювати у вашому інвентарі або купувати на ринку гравців.
 
-### What are caches and what should I do with them?
-Cache is an item that you can use to craft equipment at the Molecular 3D Printer.  It is not recommended to scrap your caches as it has 50% chance of giving Tech Scrap & also more valuable to print or sell.
+### Що таке схеми і що з ними робити?
+Схема — це предмет, який можна використовувати для створення обладнання на молекулярному 3D-принтері. Не рекомендується знищувати ваші схеми, оскільки це має 50% шансів дати технічний брухт, а також вона більш цінна для друку чи продажу.
 
 ### When do I Print "X" cache?
 Explanation around Cache printing can be found on [Equipment's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fequipment.md)
