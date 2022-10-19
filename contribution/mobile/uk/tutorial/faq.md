@@ -53,7 +53,7 @@
 
 **Після досягнення рівня 7** спробуйте надрукувати спорядження, яке має такий же рівень спорядження, що й рівень вашого персонажа, і стрибніть у соло **Підземелля звичайної важкості**. Гравець також може приєднатися до **Підземелля** інших гравців за допомогою функції **Список Підземель** на карті > **Іконка телефону** > **Список підземель** . Закінчивши підземелля, ви отримаєте більше досвіду, ніж вороги поблизу.
 
-For best results, try to compelete **Challenge Dungeons** at rare and below gear or **Gang Dungeons** at legendary or above gear while having an active **Frontal Cortex Transmitter** (EXP Buff / Booster).
+Щоб отримати найкращі результати, спробуйте завершити **Challenge Dungeon** на рідкісних екіпіровках або **Gang Dungeon** на легендарних або вищих екіпіруваннях, маючи активний передавач фронтальної кори головного мозку (EXP Buff / Booster).
 
 Примітка. Ви також можете підвищити рівень, виконавши завдання AFK (Фарм-бот), яке потребує Ядро АІ. Це завдання потребує часу (до 2 годин) і буде прибутковим, лише якщо відбувається подія **Глобального Пропуску**, яка зменшує час виконання завдання (що робить його найефективнішим способом підвищення рівня). Пояснення щодо **Глобального Пропуску** можна знайти в підручнику [Time Skip](https://cybercodeonline.com/markdown?path=tutorial%2Fglobal_skip.md)
 
@@ -71,132 +71,131 @@ For best results, try to compelete **Challenge Dungeons** at rare and below gear
 ### Що таке схеми і що з ними робити?
 Схема — це предмет, який можна використовувати для створення обладнання на молекулярному 3D-принтері. Не рекомендується знищувати ваші схеми, оскільки це має 50% шансів дати технічний брухт, а також вона більш цінна для друку чи продажу.
 
-### When do I Print "X" cache?
-Explanation around Cache printing can be found on [Equipment's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fequipment.md)
+### Коли мені друкувати схеми?
+Пояснення щодо друку схем можна знайти в посібнику з [Обладнання](https://cybercodeonline.com/markdown?path=tutorial%2Fequipment.md)
 
-### Where can I get healing items?
-Healing items can be crafted (which can be found on Inventory > Crafting > Medical), found when defeating an enemy or when looting a crate in a dungeon, or purchased at the Trinoky Mart in the City Center. They can also be purchased from the Player Market. Full detail around heal amount can be found on [Resource's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md)
+### Де я можу отримати цілющі предмети?
+Лікувальні предмети можна створювати (їх можна знайти в Інвентар > Виготовлення > Медицина), знайти під час перемоги над ворогом або під час грабування ящика в підземеллі або придбати в Trinoky Market у центрі міста. Їх також можна придбати на ринку гравців. Повну інформацію щодо кількості зцілення можна знайти в [посібнику ресурсу](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md)
 
-### How do I use my healing items?
-To equip and use your healing items, go to your inventory and under Equipped tab, you will find 3 'Quick Slots' (on top of your equipped weapon slot). Click on one of them and assign your desired healing item to it. Healing items can be used only inside dungeons.  
+### Як мені використати лікувальні предмети?
+Щоб екіпірувати та використати цілющі предмети, перейдіть до свого інвентарю та на вкладці «Обладнання» ви знайдете 3 «швидкі слоти» (поверх обладнаного слота для зброї). Клацніть на одному з них і призначте йому бажаний лікувальний предмет. Лікувальні предмети можна використовувати тільки в підземеллях.
 
-### How do I craft "X" items?
-At the top of the Inventory page, you will find a tab called 'Crafting'.
+### Як створити предмети «X»?
+У верхній частині сторінки інвентарю ви знайдете вкладку під назвою «Виготовлення».
 
-### Someone Sending Me Item / Gift. Where Can I Find Them?
-All the item that been sent or removed from Market Stall, can be found on Inventory page, on a tab called 'Item Inbox'. 
+### Хтось надсилає мені Товар/Подарунок. Де я можу його знайти?
+Усі предмети, надіслані або вилучені з Чорного ринку, можна знайти на сторінці «Інвентар», на вкладці під назвою «Посилки».
 
-### Where is "X" Place?
-Explanation around Game Area can be found on [Location's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Flocations.md)
+### Де знаходиться місце (X)?
+EПояснення щодо ігрової зони можна знайти в [посібнику з розташування](https://cybercodeonline.com/markdown?path=tutorial%2Flocations.md)
 
-### What is "X" Item?
-Explanation around Item / Resources can be found on both [Inventory](https://cybercodeonline.com/markdown?path=tutorial%2Finventory.md) and [Resource's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md)
-
-
-## Advanced / Gameplay Related
-
-### What is the Gear Score?
-**Gear Score** is the average level of the equipment you wear. This is calculated by averaging the 5 levels of your equipped gear, this includes: Primary or Special Weapon (it only accounts for the highest level between the two gear) and 4 Non-Weapon / Armor (Helmet, Upper Armor, Lower Armor, Boots) gears. 
-
-It is recommended to continue upgrading your gear as you progress through the game as high level items have better inherent stats like health, damage and armor and will make Nearby Enemies and Dungeons much easier to survive on higher levels. The percentage bracket for modifiers are constant irregardless of item level. Utilise the Profile page and check your Stats to determine which modifiers you require when planning your build.
-
-#### Why should I Care About Gear Score? 
-Checking your Gear Score on your profile page can not only give you a quick idea whether you need to look to upgrade but it has two secret impacts directly tied into gameplay other than stats.
-- The higher your gear score, the more XP you’ll gain through the AFK XP Farm - Deploy Farm Bot, thus having an “AFK Set” will maximize your EXP gain.
-- Dungeons will not allow you to obtain loot from chests or XP from enemies if your Gear Score is 10+ levels higher than the Dungeon Level itself.
-
-### What is an AFK Set?
-Many players have a swappable “AFK Set”; for this, only the gear score matters not the stats nor modifiers so Trash Caches can be printed to fill all 7 slots and bring your Gear Score back inline with your Character Level.  Before you rush off to start printing though; remember to make sure to check your level of Printing Rank on your Profile page as subsequent prints will only have the level equal to your current Printing Rank; if not, printing Weapon, Armor or Mod Caches will raise your Printing Rank.
-
-### What is the Max Item / Stack?
-You can carry up to 10000 items (same amount applies to Bank, Market, and Item Inbox) into your Inventory, excluding Gear & Upgrade Modules.
-
-### What is the amount of Inventory Slot that we can acquired?
-At the start, players will have the base of 50 Inventory Slot. Players can increase the amount of slot by equipping backpack (which can be acquired via Lee's Trading Post, Player Market, and Player Trade) and using gear or modules that has a **Pocket** stats. The max Inventory Slots are 178.
-
-### What is Global Skip?
-Explanation around Global / Time Skip can be found on [Time Skip's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fglobal_skip.md)
-
-### What is Calibration?
-Explanation around Calibration can be found on [Calibration's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
-
-### What is Pachinko?
-**Pachinko** or **Pachinko's Plus Pro Max** is an AFK task that simulates the real-life game of Pachinko, where players put their in-game currency on a line for a chance to get a high-tier item (in this case, there's a chance of getting an **Epic Gear** from Pachinko) or merely a low-tier item (ranged from **Pain Away**, **Energy Cells**, and other materials). In order to "play" Pachinko, player must have at least 5,000 (for normal Pachinko) & 1,000,000 (for Pachinko's Plus Pro Max) Bitcoin in hand before starting the task. 
-
-### Does the game support trading among players?
-Yes, partially. You can send items to other players, but there isn't a system that forces the other person to give something in exchange. Most trades are conducted with trust. You can't gift BTC and key fragments to other players. Only Healing Items, Ammo, Materials, Hash Processors, AI Cores and other types of items.
-
-### What should I do if my inventory is full?
-You can either scrap, destroy or store items in the bank located in the City Center. Note that the fee for each item you deposit in the bank is 100 BTC. It doesn't cost anything to take the item back out. You can also temporarily increase your inventory capacity with the 'Pocket' stat found on equipment and upgrade modules.
-
-### What does "Quality" on weapons and armor means?
-The quality of the armor will contribute a lot on the stat it gives; the higher the quality, the better the stats.
-Quality tiers go from Trash > Common > High Quality > Rare > Legendary > Epic. You cannot change the Quality of a weapon or armor.
-
-### What does "Durability" on weapons and armor means?
-*Durability is the ability of an equipment to remain functional, without requiring excessive maintenance or repair, when faced with the challenges of normal operation over it's designed lifetime (Wikipedia)*.  Durability only decreases when fighting Nearby Enemies.  Durability is not impacted when fighting in dungeons.
-
-### How do I repair my equipment's durability?
-As of current update, Durability will just be a mere numbers on your gear stats. It will never be decreased & the feature to **Repair** gear's durability were no longer exist.
-
-### Do caches scale with my level? Should I keep them for later?
-The caches you print scale with your Printing Rank. The gear that you obtain from them will always have the same level as your Printing Rank. Make sure to level your Printing Rank to your current player level to always receive the best equipment possible from printing.
-
-It doesn't matter if you print your caches now or later, but it's recommended to keep your Legendary caches for level 50 / 60+. If you happen to find an Epic cache, hold onto it until level 100+ or sell it to other players.
-
-Legendary and Epic caches are much more expensive to craft than Rare ones, but the items have much better stats.  Higher quality items can last you for a long time, and are often worth calibrating at the Calibration Station.
-
-### Can I upgrade the stats of my weapons and armour?
-Yes, you can upgrade your weapons at the Calibration Station found in your main map. Explanation around Calibration can be found on [Calibration's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
-
-### Can I remove installed upgrade modules?
-Yes. Click on the installed upgrade module to remove it from the equipment.
-
-### Why is the equipment I print the wrong level?
-Your printed gear will have the same level as the one from your 'Printing Rank'. It does not scale with player level.
-
-### Will higher level enemies give more rewards?
-Yes. Higher level enemies give you more BTC and experience after you defeat them.
-
-### What are Locked Containers and how do I unlock them?
-**Locked Containers (✧)** can be found and picked up from dungeons or by doing Scavenge Task. They can be unlocked using Tech Scraps at the Terminal in the main HUB, and contain various rewards ranging from Tech Scrap to Legendary gear. Tech scrap costs for opening the containers are 32 Tech Scrap for common containers, 64 for rare containers, and 128 for legendary ones. If you don't see the option for unlocking the container at the Terminal, it means you do not have enough Tech Scraps.
-
-### What is Street Cred?
-**Street Cred (Street Credit)** is a way to appreciate someone you like or who has helped you. They are similar to "Karma" points on Reddit. You can give 1 Street Cred per day. To give Street Cred, go to the person's profile, scroll down to 'Player Actions' and click on **Give Street Cred** option that's located under **Add to Friend List** button. Consider giving some Street Credit to the people that contributed to this game! You can view the list at Profile > Phone Icon > Leaderboard > Street Cred.
-
-### What's That Heart / Snowflake Thing That Emits on Chat Room?
-When a skip is initialized, a unique button (represented with a fast forward icon) will appear on the right side of the Chat room, at the top of the "Send" button. The fast forward-like button was referred to as a **Skipper Respect** button. This button alone will only appear during Global Skip and vanish after Global Skip is finished.
-
-It's been told that whenever a player taps the button (indicated by colored hearts / snowflakes), there's a chance that a player itself will win a prize from it. The prize themselves ranged from Medical Tech, AI Cores, Backpack, and Epic Gear. This activity was referred to as a **Skip Raffle**.
+### Що таке елемент «X»?
+Пояснення щодо предметів/ресурсів можна знайти як в інвентарі(https://cybercodeonline.com/markdown?path=tutorial%2Finventory.md) and [Resource's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md)
 
 
-## Advanced / Dungeon Related
+## Просунуті підказки по грі
 
-### What is "X" in Dungeon?
-Explanation around Dungeon can be found on [Dungeon's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fdungeon.md)
+### Що таке оцінка спорядження
+**Оцінка спорядження** – це середній рівень спорядження, яке ви носите. Це обчислюється шляхом усереднення 5 рівнів вашого спорядження, яке включає: основну або спеціальну зброю (це лише найвищий рівень між двома спорядженнями) і 4 незбройні / броні (шолом, верхня броня, нижня броня, черевики ) шестерні.
 
-### How to Exit Dungeon?
-You can exit a dungeon by clicking **Leave Dungeon** button whenever you wants (as long as you're not in a fighting / inventory state).
+Рекомендується продовжувати покращувати своє спорядження під час проходження гри, оскільки високорівневі предмети мають кращі природні характеристики, такі як здоров’я, пошкодження та броня, і це значно полегшить битву з найблищими ворогами і підземелля на вищих рівнях. Відсоткове значення для модифікаторів є постійним незалежно від рівня елемента. Скористайтеся сторінкою профілю та перевірте свою статистику, щоб визначити, які модифікатори вам потрібні під час планування збірки.
 
-### How to Invite Someone onto my Dungeon?
-You can invite anyone into your dungeon by clicking **Invite To Chat** button (keep in mind that the invite sends globally).
+#### Чому я повинен піклуватися про оцінку обладнання?
+Перевірка вашої оцінки спорядження на сторінці вашого профілю може не тільки дати вам швидке уявлення, чи потрібно вам шукати оновлення, але й має два секретні впливи, безпосередньо пов’язані з ігровим процесом, крім статистики.
+- Що вищий ваш бал спорядження, то більше досвіду ви отримаєте за допомогою AFK XP Farm — Фарм-Бота, таким чином наявність «Набору AFK» збільшить ваш досвід.
+- Підземелля не дозволять вам отримувати здобич зі скринь або XP від ворогів, якщо ваш показник спорядження на 10+ рівнів вищий за сам рівень підземелля.
 
-### What are Public and Private Dungeons, and Password Protected Dungeons?
-When creating a dungeon, it will default to Private.  This means that it will be invisible and inaccessible to other players. If you make your dungeon Public, This means that anyone can see and join your dungeon as long as they meet the level requirements. You may also create a password for your dungeon so that it is only accessible by users who know the password.
+### Що таке набір AFK?
+Багато гравців мають змінний «AFK Set»; для цього лише оцінка спорядження має значення, а не статистика чи модифікатори, тому сховища для сміття можна роздрукувати, щоб заповнити всі 5 слотів для спорядження (основна/спеціальна зброя, шолом, верхня броня, нижня броня, черевики) і повернути ваш рейтинг спорядження у відповідність із вашим рівнем персонажа. Перш ніж поспішати почати друкувати не забудьте перевірити свій рівень друкування на сторінці профілю, оскільки наступні роздруківки матимуть рівень, рівний вашому поточному рівню друкування; якщо ні, друк зброї, обладунків або модифікацій підвищить ваш ранг друку.
 
-### How to find Public Dungeons?
-You can find Public Dungeon via Dungeon List option (which found on Profile > Phone Icon > Dungeon List).
+### Що таке максимум предметів/стак
+Ви можете зберінати до 10 000 предметів (така сама кількість стосується банківських, ринкових і вхідних предметів) у свій інвентар, за винятком модулів спорядження та покращення.
 
-### What are the symbols in dungeons?
-- "?" represents a quest. You can access accepted quests in your Quest tab.
-- "!" represents lore.
-- Crates are represented by small white boxes.  
-- Crates that have a "+" inside them contain key fragments.
-- The yellow stars / ✧ contains a locked container.
-- The "alien looking icons" represent monsters inside the dungeon.
+### Яку кількість слотів інвентарю ми можемо отримати?
+На початку гравці матимуть базу з 50 слотів інвентарю. Гравці можуть збільшити кількість слотів, одягнувши рюкзак (який можна придбати через Lee's Trading Post, Player Market і Player Trade) і використовуючи спорядження або модулі, які мають статистику **Кишенька**. Максимальна кількість слотів інвентарю становить 178.
 
-### People are looting my stuff. Help!
-The loot in the crates is randomly generated for each player. Therefore, it's impossible for someone to steal your loot.
+### Що таке Global Skip?
+Пояснення щодо Global / Time Skip можна знайти в [підручнику Time Skip](https://cybercodeonline.com/markdown?path=tutorial%2Fglobal_skip.md)
+
+### Що таке калібрування?
+Пояснення щодо калібрування можна знайти в [посібнику з калібрування](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
+
+### Що таке Pachinko?
+**Pachinko** або **Pachinko's Plus Pro Max** — це завдання AFK, яке імітує реальну гру Pachinko, де гравці ставлять свою внутрішньоігрову валюту на лінію, щоб отримати шанс отримати предмет високого рівня (у цьому випадку є ймовірність отримати **епічне спорядження** від Pachinko) або просто предмет низького рівня (від **Біль-геть** , **Енергостільники** та інших матеріалів). Щоб «грати» в Pachinko, гравець повинен мати на руках принаймні 5 000 (для звичайного Pachinko) і 1 000 000 (для Pachinko's Plus Pro Max) біткойнів перед початком завдання.
+
+### Чи підтримує гра торгівлю між гравцями?
+Так, частково. Ви можете надсилати предмети іншим гравцям, але немає системи, яка б змусила іншу особу дати щось в обмін. Більшість угод ведеться з довірою. Ви не можете дарувати BTC і фрагменти ключів іншим гравцям. Лише лікувальні предмети, боєприпаси, матеріали, хеш-процесори, ядра AI та інші типи предметів.
+
+
+### Що мені робити, якщо мій інвентар повний?
+Ви можете утилізувати, знищити або зберігати речі в банку, розташованому в центрі міста. Зауважте, що комісія за кожен товар, який ви вносите в банк, становить 100 BTC. Забрати товар назад нічого не коштує. Ви також можете тимчасово збільшити свій інвентар за допомогою параметра **«Кишенька»**, який можна знайти на обладнанні та модулях оновлення.
+
+### Що означає «Якість» зброї та броні?
+Якість броні значною мірою вплине на статистику, яку вона дає; чим вища якість, тим краща статистика. Рівні якості: Таке-собі > Звичайний > Висока якість > Рідкісний > Легендарний > Епічний. Ви не можете змінити якість зброї чи броні.
+
+### Що означає «Довговічність» на зброї та броні?
+**Довговічність** — це здатність обладнання залишатися функціональним, не вимагаючи надмірного технічного обслуговування чи ремонту, коли воно стикається з проблемами нормальної роботи протягом свого розрахованого терміну служби (Вікіпедія). Міцність зменшується лише під час бою з сусідніми ворогами. Під час бою в підземеллях стійкість не змінюється.
+
+### Як відновити довговічність свого обладнання?
+Станом на поточне оновлення(19-10-2022) довговічність буде просто цифрами у статистиці вашого спорядження. Він ніколи не зменшиться, і функція відновлення довговічності спорядження більше не існує.
+
+### Чи масштабуються кеші відповідно до мого рівня? Чи залишити їх на потім?
+Схеми, які ви друкуєте, масштабуються відповідно до вашого **рівня друкування**. Спорядження, яке ви отримуєте від них, завжди матиме той самий рівень, що й ваш ранг друку. Переконайтеся, що вирівнюєте свій ранг друку до поточного рівня гравця, щоб завжди отримувати найкраще можливе обладнання від друку.
+
+Немає значення, роздрукуєте ви свої схеми зараз чи пізніше, але рекомендується зберігати свої легендарні схеми для рівня 50/60+. Якщо ви випадково знайдете епічну схему, тримайте її до рівня 100+ або продайте іншим гравцям.
+
+Легендарні та епічні схеми набагато дорожчі для створення, ніж рідкісні, але предмети мають набагато кращі характеристики. Вироби вищої якості можуть прослужити вам протягом тривалого часу, і їх часто варто відкалібрувати на станції калібрування.
+
+### Чи можу я покращити характеристики своєї зброї та броні?
+Так, ви можете покращити свою зброю на станції калібрування, яка знаходиться на вашій головній карті. Пояснення щодо калібрування можна знайти в [посібнику з калібрування](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
+
+### Чи можна видалити встановлені модулі оновлення?
+Так. Натисніть на встановлений модуль оновлення, щоб видалити його з обладнання.
+
+### Чому обладнання, яке я друкую, неправильного рівня?
+Ваше надруковане спорядження матиме той самий рівень, що й у вашому **«Рівень друку»**. Він не залежить від рівня гравця.
+
+### Чи дадуть вороги вищого рівня більше нагород?
+Так. Вороги вищого рівня дають вам більше BTC і досвіду після того, як ви їх переможете.
+
+### Що таке заблоковані контейнери та як їх розблокувати?
+**Замкнені контейнери (✧)** можна знайти та забрати в підземеллях або виконуючи завдання зі сміття. Їх можна розблокувати за допомогою **Техно-брухту** в терміналі в центрі, і вони містять різні нагороди, починаючи від **Техно-брухту** до легендарного спорядження. Вартість **Техно-брухту** для відкриття контейнерів становить 32 технічних брухту для звичайних контейнерів, 64 для рідкісних контейнерів і 128 для легендарних. Якщо ви не бачите опції для розблокування контейнера в терміналі, це означає, що у вас недостатньо технічних записів.
+
+### Що таке Street Cred?
+**Street Cred (Street Credit)** – це спосіб оцінити того, хто вам подобається або хто допоміг вам. Вони схожі на точки «Карми» на Reddit. Ви можете дати 1 Street Cred на день. Щоб надати Street Cred, перейдіть до профілю особи, прокрутіть униз до «Дії щодо гравця» та натисніть опцію **Підвищити репутацію**, розташовану під кнопкою **Додати до друзів**. Подумайте про те, щоб надати трохи Street Credit людям, які зробили внесок у цю гру! Ви можете переглянути список у Профіль > Значок телефону > Таблиця лідерів > Street Cred.
+
+### Що це за сердечко/сніжинка, що випливає в чаті?
+Після ініціалізації пропуску в правій частині кімнати чату, у верхній частині кнопки «Надіслати», з’явиться унікальна кнопка (представлена піктограмою перемотування вперед). Кнопку, схожу на перемотування вперед, називали кнопкою **Skipper Respect**. Кнопка з’являтиметься лише під час глобального пропуску та зникне після завершення глобального пропуску.
+
+Кажуть, що коли гравець натискає кнопку (позначену кольоровими сердечками/сніжинками), є шанс, що гравець сам виграє від неї приз. Самі нагороди варіювалися від медчного приладдя, ядер АІ, Рюкзаків та до епічного приладдя. Цю діяльність назвали **пропуском розіграшу**.
+
+## Просунуті підказки по підземеллях
+
+### Що таке «X» у підземеллях?
+Пояснення щодо Dungeon можна знайти в [підручнику по підземеллях](https://cybercodeonline.com/markdown?path=tutorial%2Fdungeon.md)(сторінка переведена українською)
+
+### Як вийти з підземелля?
+Ви можете вийти з підземелля, натиснувши кнопку **Вийти з підземелля**, коли забажаєте (якщо ви не перебуваєте в стані бою/інвентарю).
+
+### Як запросити когось до мого підземелля?
+Ви можете запросити будь-кого у своє підземелля, натиснувши кнопку **Запросити до чату** (майте на увазі, що запрошення надсилається глобально).
+
+### Що таке публічні та приватні підземелля, а також підземелля, захищені паролем?
+Під час створення підземелля за умовчанням воно буде приватним. Це означає, що він буде невидимим і недоступним для інших гравців. Якщо ви зробите своє підземелля публічним, це означає, що будь-хто зможе побачити ваше підземелля та приєднатися до нього, якщо він відповідає вимогам рівня. Ви також можете створити пароль для свого підземелля, щоб доступ до нього мали лише ті користувачі, які знають пароль.
+
+### Як знайти публічні підземелля?
+Ви можете знайти **Публічні Підземелля** за допомогою параметра **Список підземель** (який знаходиться в Профілі > Значок телефону > Список підземель).
+
+### Які символи є в підземеллях?
+- "?" являє собою квест. Ви можете отримати доступ до прийнятих квестів на вкладці Квест.
+- "!" представляє знання.
+- Ящики представлені маленькими білими ящиками.
+- Ящики, усередині яких є «+», містять ключові фрагменти.
+- Жовті зірочки / ✧ містять замкнений контейнер.
+- «Значки інопланетян» представляють монстрів у підземеллі.
+
+### Люди грабують мої речі. Допоможіть!
+Здобич у ящиках генерується випадковим чином для кожного гравця. Тому ніхто не зможе вкрасти вашу зброю
 
 
 ## Advance / Gang Related
