@@ -1,22 +1,23 @@
-> This FAQ (Frequently Asked Question) were compiled based on major question thats been asked by community and new player in general. Feel free to edit & add more FAQ-related content on [Github](https://github.com/DexterHuang/CyberCodeOnline).
+> Цей FAQ (часті запитання) було складено на основі основних питань, якими часто задавалися нові гравці. Не соромтеся редагувати та додавати більше вмісту, пов’язаного з поширеними запитаннями, на [Github](https://github.com/DexterHuang/CyberCodeOnline).
 
-> Can't find an Answer for your Question? Feel free to ask them in **Global / Language Chat** or **CCO's Discord**! 😃
+> Не можете знайти відповідь на своє запитання? Його завжди можна запитати у **глобальному/мовному** чаті або в **Discord CCO** !😃
+> Важлива примітка: остерігайтеся потенційного шахрайства та низької ціни на ігрові предмети. Завжди запитуйте своїх товаришів по групі/друзів/ глобальний чат про вартість предмета, перш ніж підтверджувати ринкову/торгову угоду (особливо Epic Gear / Caches)!
 
-## Starting Point
+## Початок
 
-### What Is This Game? And How To Play It?
-In summary, you basically adventure around **Train Stations** while defeating individual enemies or conquer entire dungeons. The game will progress (onto the next Train Station) after you gain each **Key Fragments** on every area / dungeons in the station. After getting all 3 key fragments, you need to make convert the fragments into **Key** on dedicated **Terminal** (which player can find it on **Shangri-la City Center**). After that, *Rinse and Repeat*.
+### Що це за гра? І як в неї грати?
+В основному ви подорожуєте навколо вокзалів, перемагаючи окремих ворогів або завойовуючи цілі підземелля. Гра буде прогресувати (до наступної залізничної станції) після того, як ви отримаєте кожен фрагмент ключа в кожній області/підземеллі на станції. Отримавши всі 3 фрагменти ключа, вам потрібно перетворити фрагменти на ключ на спеціальному терміналі (гравець може знайти його в центрі міста Шангрі-ла).
 
-More in-depth explanation can be found on dedicated Tutorial section.
+Більш детальні пояснення можна знайти у спеціальному розділі підручників.
 
-### What Do I Get From Joining / Finishing A Fight?
+### Що я отримаю, приєднавшись/закінчивши бійку?
 
-You'll receive in-game currency called **BTC (Bitcoin)** and in-game experience called **EXP (Experience)** inside a battle. At times, you'll randomly receive items, equipment or caches after defeating enemies.
+Ви отримаєте ігрову валюту під назвою БітКоїни (BTC) і ігровий досвід (EXP) у бою. Іноді після перемоги над ворогами ви випадковим чином отримуватимете предмети, спорядження чи схованки. У випадку смерті ви не втратите зароблені предмети, але втратите частину BTC та EXP.
 
-**[You'll always be receive BTC and EXP in a battle, but items won't drop after every single battle.]** 
+**[BTC та EXP ви получите після кожного бою, але предмети випадатимуть не завжди.]** 
 
-### What Is Skills? How to Level Up "X" Skills?
-There are 5 skills that player can develop & it has it's own perk upon doing so. In summary, here's how to level up certain skills:
+### Що таке навички? Як підвищити рівень навичок «X»?
+В грі є 5 навичок, які гравець може розвинути, і кожна з них свої власні переваги. Ось як підвищити певні навички:
 
 > For **Printing Skills**, player can level up by doing **Printing Task** or **Reverse Engineer** (costs Tech Scraps) on **Commercial Area** (/ Job Hub) or by printing trash cache at **Molecular 3D Printer**.  
 
