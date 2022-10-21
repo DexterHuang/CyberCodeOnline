@@ -120,6 +120,7 @@ Omega_finale
 [zwc18](https://github.com/zwc18)
 ClayBravo6
 [Chkj000](https://github.com/Chkj000)
+[TerrifficSprite](https://github.com/petrokrechunyak)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
