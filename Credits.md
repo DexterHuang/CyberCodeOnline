@@ -121,6 +121,8 @@ Omega_finale
 ClayBravo6
 [Chkj000](https://github.com/Chkj000)
 [TerrifficSprite](https://github.com/petrokrechunyak)
+[TMD2](https://github.com/TMD0)
+
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
@@ -298,6 +300,7 @@ Satan
 Punxi8__
 [Prodam](https://github.com/Pr0dam)
 B3n7y
+
 
 ## Tips
 [Archibaald](https://github.com/Archibaald-dev)
