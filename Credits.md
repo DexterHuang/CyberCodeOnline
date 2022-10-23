@@ -121,6 +121,7 @@ Omega_finale
 ClayBravo6
 [Chkj000](https://github.com/Chkj000)
 [TerrifficSprite](https://github.com/petrokrechunyak)
+[TMD2](https://github.com/TMD0)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
