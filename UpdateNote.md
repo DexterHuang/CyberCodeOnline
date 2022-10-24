@@ -25,6 +25,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates           
+### 2022/10/24 v0.780
+- Security update
+- server-side bug fixes
+
 ### 2022/10/19 v0.780
 - backend optimization
 
