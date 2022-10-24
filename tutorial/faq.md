@@ -1,56 +1,56 @@
-### How do I redeem my BitCoins?
-You can't, but you can donate to the project at [Buy me a Coffee](https://www.buymeacoffee.com/cybercodeonline) or [Patreon](https://www.patreon.com/cybercodeonline).
+Jak mohu uplatnit své BitCoiny?
+Nemůžete, ale můžete přispět na projekt v Buy me a Coffee nebo Patreon.
 
-### What is this game, what do I do?
-To begin, you travel to the `Hyper Train Central Station` and defeat enemies. You will slowly accumulate weapons, armour and levels to take on the dungeons and harder areas.
+Co je to za hru, co mám dělat?
+Chcete-li začít, cestujete na hlavní nádraží Hyper Train a porazíte nepřátele. Budete pomalu hromadit zbraně, brnění a úrovně, aby se na dungeony a těžší oblasti.
 
-### How can I help out?
-All user contributed content can be found on the [Github](https://github.com/DexterHuang/CyberCodeOnline). Feel free to submit a PR request.
+Jak mohu pomoci?
+Veškerý obsah přispěl uživatelem najdete na Githubu. Neváhejte odeslat žádost o PR.
 
-### Where is the player market?
-When your character reaches level 5 the player market will be unlocked. It will show up in the `Central Hub`. 
+Kde je hráčský trh?
+Když vaše postava dosáhne úrovně 5, hráčský trh bude odemčen. Ukáže se to v Centrálním centru.
 
-### How to repair my equipment?
-You can repair your equipment by paying a small amount of BTC at the Weaponsmith which you can find in the City Centre.
+Jak opravit své zařízení?
+Zařízení můžete opravit zaplacením malého množství BTC u Weaponsmith, které najdete v centru města.
 
-### Can I remove installed upgrade modules?
-Click on the installed upgrade module to remove it from the equipment.
+Mohu odebrat nainstalované moduly upgradu?
+Kliknutím na nainstalovaný modul upgradu jej vyjměte ze zařízení.
 
-### Why is the equipment I printed at the wrong level?
-Your printed gear will take its level from your printing rank and not your player level.
+Proč je zařízení, které jsem tiskl na špatné úrovni?
+Vaše tištěné zařízení vezme svou úroveň z vaší tiskové pozice, nikoli z úrovně vašeho hráče.
 
-### What will happen if I die?
-You will lose 10% of your experience and BTC, however your inventory will be safe.
+Co se stane, když umřu?
+Ztratíte 10% svých zkušeností a BTC, ale váš inventář bude v bezpečí.
 
-### Will higher level enemies give more rewards?
-Yes. Higher level enemies give you more BTC and experience after you defeat them.
+Budou nepřátelé vyšší úrovně dávat více odměn?
+Ano. Nepřátelé vyšší úrovně vám poskytnou více BTC a zkušeností poté, co je porazíte.
 
-### What should I do if my inventory is full?
-You can either scrap, destroy or store them in the bank located in the City Centre. You can increase the number of items you can carry with the 'pocket' stat found on equipments and module upgrades.
+Co mám dělat, když je můj inventář plný?
+Můžete je buď šrotu, zničit nebo uložit v bance umístěné v centru města. Počet položek, které můžete nosit, můžete zvýšit pomocí „kapesního“ statu, který se nachází na zařízeních a upgradech modulů.
 
-### How do I craft items?
-On top of the Inventory section, you will find a tab called `Crafting`.
+Jak mohu vyrobit předměty?
+V horní části části Inventář najdete kartu s názvem Crafting.
 
-### Where can I get heals?
-Heals can either be crafted, found after defeating an enemy or when looting a crate in a dungeon.
+Kde mohu získat léčení?
+Léčení lze buď vytvořit, najít po porážce nepřítele nebo při rabování bedny v žaláři.
 
-### How do I increase my printing rank?
-There are 3 ways to increase your printing rank.  
+Jak mohu zvýšit svou tiskovou hodnost?
+Existují 3 způsoby, jak zvýšit hodnost tisku.
 
-1. Print caches. Each cache you print increases your rank. So the best possible way to increase your rank with this is to print all your Trash caches, as they cost the least to print.  
+Tisk mezipaměti. Každá vytištěná mezipaměť zvýší vaši hodnost. Nejlepším možným způsobem, jak s tím zvýšit svou hodnost, je vytisknout všechny vaše koše, protože tisk stojí nejméně.
 
-2. AFK Printing Jobs. In the Commercial Area there is an AFK job that increases your printing rank.  
+Tiskové úlohy AFK. V komerční oblasti je úloha AFK, která zvyšuje vaši tiskovou hodnost.
 
-3. Reverse engineer Tech Scraps. In the Commercial Area there is an AFK job called Reverse Engineer Scraps which uses tech scraps to increase your printing rank. This is by far the fasters way to increase your rank, and you can combine it with No. 1 (print caches and then scrap them for tech scraps)
+Reverzní inženýr Tech Scraps. V komerční oblasti existuje úloha AFK s názvem Reverse Engineer Scraps, která používá technické zbytky ke zvýšení vaší tiskové pozice. To je zdaleka rychlejší způsob, jak zvýšit svou hodnost, a můžete jej kombinovat s č. 1 (vytiskněte mezipaměti a poté je šrotu pro technické zbytky)
 
-### How do I increase my Scavenge Skill?
-In every area with enemies there is there is an action called AFK Resource Gathering, near the bottom of the panel.
+Jak mohu zvýšit svou dovednost Scavenge?
+V každé oblasti s nepřáteli existuje akce nazvaná AFK Resource Gathering, v dolní části panelu.
 
-### What is the Gear Score?
-Gear Score is the average level of your equipment you wear. This doesn't take into account anything but the equipment's level.
+Co je Gear Score?
+Gear Score je průměrná úroveň vašeho vybavení, které nosíte. To nebere v úvahu nic jiného než úroveň vybavení.
 
-### What is the pocket Stat?
-Pockets increase your inventory size. 1 pocket means 1 extra additional space.
+Co je kapesní Stat?
+Kapsy zvětšují velikost inventáře. 1 kapsa znamená 1 další prostor navíc.
 
-### What is the bargain Stat?
-Bargain gives you better deals in the Weapon Smith and the Trinoky Mart, which can be found in the Centeral Hub. You can sell your items for better prices and buy items cheaper.
+Jaká je výhodná Stat?
+Výprodej vám poskytne lepší nabídky ve Weapon Smith a Trinoky Mart, které najdete v Centrovém centru. Můžete prodávat své zboží za lepší ceny a nakupovat zboží levněji.
