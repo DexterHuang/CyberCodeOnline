@@ -25,6 +25,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates           
+### 2022/10/28 v0.780
+- Updated donation cosmetic UI to make it less confussing
+- Updated alt detection algorithm
+
 ### 2022/10/26 v0.780
 - Now people you blocked will not be able to send you gang invite
 - Fixed some UI issue on craft page
