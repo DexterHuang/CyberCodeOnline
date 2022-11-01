@@ -34,6 +34,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 - Added two new enemy images (thanks to Vali for the art ❤️)
 - Added new CyberKitty chat frame (thanks to Volts for suggestion and idea)
 - Added banner when chat exploit is active, so that newbies will understand whats going on
+- love exploit words are now translatable :)
 
 ### 2022/10/28 v0.780
 - Updated donation cosmetic UI to make it less confussing
