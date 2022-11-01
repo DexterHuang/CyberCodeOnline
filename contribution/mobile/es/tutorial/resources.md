@@ -65,9 +65,6 @@ Otros usos de la chatarra tecnológica son los siguientes:
 ## Artículos médicos y curativos
 Los jugadores pueden utilizar **Partes de tecnología médica** y **Restos de tecnología** para fabricar medicinas para usar en las mazmorras. Para poder fabricar mejores medicinas, los jugadores necesitan mejorar sus niveles de ciencia médica, lo que puede hacerse realizando el entrenamiento de trabajo asociado o fabricando medicinas. Además, una medicina mejor requiere que los jugadores utilicen más piezas de tecnología médica. Por ejemplo, el nivel más bajo de medicina que se puede fabricar es el Pain Away por 1 pieza de tecnología médica, mientras que el Bot de reparación nano degradado necesita 2 piezas de tecnología médica y un nivel de ciencia médica de 10.  
 
-### Single Heals  
-As the name suggests, single heals will only heal yourself for the specified amount. Single heal medicines are items such as Pain Away and anything ending with Bot (e.g. Nano Medic Bot). In order to craft single heals, you need the specified medical science level and Medical Tech Parts.  
-
 
   Hay dos categorías de medicinas que se pueden fabricar, que son **Curas individuales** y **Curas en grupo**. Para más información, véase lo siguiente:
 
