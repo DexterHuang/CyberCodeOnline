@@ -1,25 +1,25 @@
-# Getting Started in CyberCode Online
+# Come iniziare con CyberCode Online
 
-CyberCode Online is laid out like the popular code editor [Visual Studio Code](https://code.visualstudio.com/). On the left-hand side you will find several icons. The top one is the most important, as that is the Explorer where you access the actual code files for the game. The game is played as if you were a developer editing a project in your code editor!
-
-<br />
-
-In the File Explorer, the left-hand column is where you will find various "files" that will open up on the right-hand side which allow you to access various parts of your character and the game. The default file is `Surrounding.ts` which describes your surroundings, wherever you are geographically in the game. It will have your location and current player status defined as variables. Below that, it will let you know if there are **Actions** you can do, if there are **Enemies** or **Allies** nearby, and where you can **Travel**.
+CyberCode Online è strutturato come il popolare editor di codice [Visual Studio Code](https://code.visualstudio.com/). Sul lato sinistro si trovano diverse icone. Quella in alto è la più importante, perché è l'Explorer da cui si accede ai file di codice del gioco. Il gioco si svolge come se foste uno sviluppatore che modifica un progetto nell'editor di codice!
 
 <br />
 
-Be sure to check the other tutorial pages for info discussing the features of the various files such as `surroundingTutorial.ts` which discusses the areas of Shangri La and how to travel between them.
+Nell'Esplora file, nella colonna di sinistra si trovano vari "file" che si aprono sul lato destro e che permettono di accedere a varie parti del personaggio e del gioco. Il file predefinito è `Surrounding.ts` che descrive l'ambiente circostante, ovunque ci si trovi geograficamente nel gioco. La posizione e lo stato attuale del giocatore sono definiti come variabili. Sotto di esse, vi indicherà se ci sono **Azioni** che potete fare, se ci sono **Nemici** o **Alleati** nelle vicinanze e dove potete **Viaggiare**.
 
 <br />
 
-## Account Creation & Login
+Per informazioni sulle caratteristiche dei vari file, come `surroundingTutorial.ts` che illustra le aree di Shangri La e come spostarsi tra di esse, consultare le altre pagine di tutorial.
 
-You can login with your Google account by clicking `signInWithGoogle()` and then enter your email and password. Once logged in type a `displayName` between the quotes `""` and click `save()`.
+<br />
+
+## Creazione account & Login
+
+È possibile effettuare l'accesso con il proprio account Google facendo clic su `signInWithGoogle()` e quindi inserendo l'e-mail e la password. Una volta effettuato l'accesso, digitare un `displayName` tra le virgolette `""` e fare clic su `save()`.
 
 ![Login with Google](../resources/desktop-tutorial/google_create.gif)
 
 <br />
 
-Alternatively create an account using your email address by typing it between the quotes `""` in the `const email="";` section of `signUp()` area as well as a password in both `const password="";` and `const passwordConfirm="";` then click `signUp()` itself to finalize the account creation.  Once account is created type a `displayName` and click `save()`.
+In alternativa, si può creare un account usando il proprio indirizzo e-mail digitandolo tra le virgolette `""` nella sezione `const email="";` dell'area `signUp()` e una password in entrambe le sezioni `const password="";` e `const passwordConfirm="";` quindi fare clic su `signUp()` stesso per finalizzare la creazione dell'account.  Una volta creato l'account, digitare un `displayName` e fare clic su `save()`.
 
 ![Sign up](../resources/desktop-tutorial/email_create.gif)
