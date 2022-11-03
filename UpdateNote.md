@@ -25,6 +25,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates           
+### 2022/11/03 v0.780
+- Fixed slder input not easy to click
+- Added polish chat channel
+
 ### 2022/11/01 v0.780
 - Added `Reward Booster Shard` buff for `AI Auto Farm` and `Scavange`, when buff is activated and opted in when starting the task, the rewards will double while the cost/duration will increase 4x. should be useful to do when going away for long time. this item will drop rarely in `Rare Locked container` and purchasable from NPC
 
