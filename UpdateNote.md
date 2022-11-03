@@ -26,6 +26,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates           
 ### 2022/11/03 v0.780
+- Fixed Halloween emblem not showing on cosmetic page after halloween even ended, now you can see it still if you own the emblem
 - Fixed slder input not easy to click
 - Added polish chat channel
 
