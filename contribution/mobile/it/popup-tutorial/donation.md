@@ -1,32 +1,16 @@
-# Donation
-To provide the best No Pay-to-Win experience to you, it is necessary that all paid features are cosmetic such as profile images & chat frames, 
-or global buffs that benefit everyone in-game :) 
+# Donazioni
+Per portarti la miglior esperienza Free-to-Win possibile, è necessario che tutte le funzionalità a pagamento siano strettamente cosmetiche, come immagini profilo e cornici chat, oppure buff globali di cui tutti i giocatori possono beneficiarne :) 
 
-## Why is profile picture donation-only?
-Because this is an MMORPG game and **NOT a dating app** (I know it can be confusing sometimes 😅), therefore a profile picture is not a standard nor required feature. 
+## Perchè l'immagine profilo è riservata ai donatori?
+Perchè questo è un MMORPG, **NON un'app per appuntamenti** (so che ci si può confondere facilmente 😅), quindi l'immagine profilo non è una funzionalità standard o necessaria.
+**Le immagini profilo vengono considerate come un ringraziamento a tutti i donatori**
+**Un dato curioso: il 99% degli MMORPG non hanno l'immagine profilo come funzionalità, anche se finanziati da donazioni e sistemi P2W🤯**
 
-**Profile images are served as a token of thanks for the donators**
+## Devo donare per il resto della mia vita?
+No, puoi disdire la donazione quando vuoi dallo store.
 
-**Fun Fact: 99% of the MMORPGs do not have a profile picture feature, even with a donation or their P2W system🤯**
+## Il titolo di donazione più alto è troppo costoso, avido @$%#^#$! 
+I titoli più alti sono cortesia per i giocatori che hanno richiesto di donare di più. Come ogni altro sistema di donazione, **non c'è un limite superiore** a quanto una persona possa donare (se desideri donare più delle donazioni disponibili, puoi contattarmi direttamente 😃). Per esempio: piattaforme di donazione come Patreon, Buy Me a Coffee e altre ancora non hanno un limite superiore a quanto una persona può scegliere di donare, ma date le politiche di Google Play e App Store non posso mettere link per siti di donazioni di terze parti nell'app, quindi l'unica opzione è di mettere i titoli con le quantità di donazione più frequenti.
 
-## Do I need to donate for my whole life?
-No, you can cancel the donation at any time easily via your store.
-
-## The highest tier is so expensive, you greedy @$%#^#$!
-The higher tiers are requested by kind players who would like to donate more. 
-
-Just like most other donation mechanisms, there is **No upper limit** on how much a person is allowed to donate. 
-
-(if you wish to donate more than is available in the app, you may message me directly 😃)
-
-for example: Patreon/Buy Me a coffee and most other donation services for creators do not have an upper limit on how much a person can choose to donate,
-
-but due to Google Play & Apple policies, I am not allowed to have links to external donation sites in the app, 
-so the only option for me was to have tiers for the common amount.
-
-## Do I need to donate?
-No. I strongly suggest you **Not** donate if you are not comfortable with it.
-
-Donation does not provide any gameplay benefit; it is purely cosmetic. 
-
-So please don't donate unless you want to support the game!  
+## Devo donare?
+No. Ti consiglio fortemente di **NON** donare se non te lo puoi permettere o non te la senti. Le donazioni non forniscono nessun beneficio nel gioco: sono tutte funzionalità puramente cosmetiche. Perciò ti chiedo di non donare a meno che tu non possa e voglia supportare il gioco!
