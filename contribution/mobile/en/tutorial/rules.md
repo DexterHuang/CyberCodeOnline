@@ -28,8 +28,9 @@
 ### Chat Rules
 **All rules are listed here, there are NO "unwritten rules", but be respectful and stop if other players don't like what you are sending in chat**
 #### Not Allowed: 
-* unfriendly, disrespectful to others opinion / offensive or passive agressive messages (Expample, racist, sexist comments)
-* non-family-friendly chat
+* unfriendly / disrespectful / harassment to others opinion / offensive or passive agressive messages (Expample, racist, sexist comments)
+* excessive swearing, explicit sexual content, gore, violence
+* personal insults
 * Spamming / Trolling 
 * Advertising / Mentioning other games or anything else
 * Impersonating others  
