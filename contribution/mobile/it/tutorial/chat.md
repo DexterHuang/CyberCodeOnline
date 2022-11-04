@@ -1,13 +1,11 @@
 # Chat
+Ci sono sei tipi di canali chat in CyberCode Online:
+- **Chat globale e di lingua**: dove chiunque può chattare liberamente. Con i nuovi canali di lingua i giocatori possono chattare nelle rispettive lingue nel canale dedicato. Vengono applicate le stesse regole della chat globale;
+- **Chat della gang**: solo i membri della gang possono vedere i messaggi inviati in questo canale. Puoi anche taggare i giocatori come nella chat globale;
+- **Messaggi privati (mail)** : dove puoi parlare in privato con altri giocatori. Inoltre riceverai notifiche in forma di Mail dal Sistema dopo aver inviato oggetti a qualcuno e viceversa, quando qualcuno acquista articoli dal tuo mercato oppure quando ricevi Punti Reputazione da qualcuno;
+- **Canale dell'asta** : dove i giocatori possono mettere oggetti all'asta. Di solito vengono usati i Nuclei IA come valuta;
+- **Canale del mercato** : dove i giocatori possono pubblicare annunci per oggetti che vogliono vendere, comprare o scambiare. Di solito vengono usati i Nuclei IA come valuta (i prezzi compaiono solitamente come quantità_oggetto:quantità_valuta);
+- **Canale roleplay** : dove i giocatori possono fare roleplay come vogliono, creando le loro storie e narrative.
+Per menzionare (o taggare) qualcuno in chat globale, puoi usare '@' seguito dal nome dell'utente (per esempio: '@DexterHuang'). Mentre scrivi il nome comparirà una lista dove puoi selezionare il nome del giocatore. Puoi anche menzionare altri giocatori premendo sul loro username sopra il messaggio e selezionare `Rispondi`. Il giocatore menzionato riceverà una notifica specificando che li hai menzionati.
 
-There are 6 types of chat rooms in CyberCode Online currently: 
-- **Global & Language Channel** : Where everyone can chat freely and interact with each other. With newly added Language Channels, players can chat with their respective language in their dedicated channel. Chat rules still applies, even in different channels. 
-- **Gang Chat** : Only the members of your gang can chat and see the messages sent in that channel. You can tag other people in the gang chat as well.
-- **Private Messages (Mail)** : Where you can privately chat with other players. You will also receive notifications as in a form of Mail from the System after you sent items to someone or vice versa, when someone bought your listings on the Player Market or when you receive a Street Cred from someone.
-- **Auction Channel** : Where players can put items into auction for other players to bid on them. Usually, AI Cores are used as a currency in this channel. 
-- **Market Channel** : Where players can put ads for items they want to sell / buy / trade. Usually, AI cores and rates are used as a currency in this channel (rates usually appear as Item amount:AI Core amount, unless stated otherwise). 
-- **Roleplay Channel** : Where players can roleplay freely as they wish, creating their own stories and lore. 
-
-In order to mention (or tag) someone in the Global chat, you can use '@' and the name of the user (for example: '@DexterHuang'). As you type their name, a list will appear and you can select the desired name from that list. You can also mention other players by clicking their username and then select the Option **Reply** The player mentioned by you will receive a notification that you mentioned them. 
-
-Note: You can't mention (tag) someone in the private chat for obvious reasons, as it accounts as **Ghosting** and will annoy tagged player, however, if someone tags you in gang chats, you will receive a notification of that message, but will not be able to visualize it. 
+Nota bene: non puoi menzionare qualcuno in chat privata. Inoltre, se qualcuno ti menziona nella chat della gang, ricevi la notifica del messaggio, ma non sarai in grado di visualizzarlo.
