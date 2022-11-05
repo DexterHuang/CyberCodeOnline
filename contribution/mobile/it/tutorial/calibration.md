@@ -34,7 +34,6 @@ Nel processo di calibrazione dell'attrezzatura c'è la possibilità che il proce
 
 ## Ridurre la probabilità di guasto
 Qualsiasi calibrazione di livello +6 è *impossibile* senza l'uso di un **Potenziamento di Calibrazione**. Quest'ultimi permettono di ridurre le percentuali di fallimento e possono essere accumulabili. In genere, i livelli di boost calibrazione sono i seguenti:
-
 - **Frammento IA di Calibrazione (Comune)**, riduce la probabilità di guasto del 5%, solo per uso personale, si trova nei Contenitori Bloccati Rari;
 - **Frammento IA di Calibrazione (Raro)**, riduce la probabilità di guasto del 10%, buff globale, può essere comprato nello Scambio di Unità Arasaka;
 - **Frammento IA di Calibrazione (Leggendario)**, riduce la probabilità di guasto del 50%, buff globale, può essere comprato nello Scambio di Unità Arasaka;

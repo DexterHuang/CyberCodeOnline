@@ -23,7 +23,6 @@ Quano muori, il tuo personaggio è incapace di fare niente fino a quando scade i
   
 ## Modificatori dei nemici
 I nemici possono avere dei modificatori, indicati da un aggettivo dopo il nome del nemico (esempio: Serial Killer **Matto**). I modificatori sono i seguenti:
-  
 - **Matto**, +20% di danni;
 - **Arrabbiato**, +10% di danni;
 - **Forte**, +20% di difesa, un significativo aumento della salute e un leggero aumento dei danni;
@@ -39,19 +38,16 @@ Per i modificatori è importante sapere che:
   
 ## Modificatori del personaggio
 Anche tu puoi ottenere dei modificatori interagendo con il datore di missioni nel dungeon, rappresentato da `?`. I modificatori sono i seguenti:
-
 - **Sovraccaricato I**, +5% di danni;
 - **Sovraccaricato II**, +10% di danni;
 - **Sovraccaricato III**, +15% di danni;
 - **Sovraccaricato IV**, +20% di danni;
 - **Sovraccaricato V**, +25% di danni;
-
 - **Rinforzato I**, +5% di difesa;
 - **Rinforzato II**, +10% di difesa;
 - **Rinforzato III**, +15% di difesa;
 - **Rinforzato IV**, +20% di difesa;
 - **Rinforzato V**, +25% di difesa;
-
 - **Migliora Scudo I**, +5% moltiplicatore scudo;
 - **Migliora Scudo II**, +10% moltiplicatore scudo;
 - **Migliora Scudo III**, +15% moltiplicatore scudo;
