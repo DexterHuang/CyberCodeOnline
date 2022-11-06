@@ -1,100 +1,55 @@
-> This FAQ (Frequently Asked Question) were compiled based on major question thats been asked by community and new player in general. Feel free to edit & add more FAQ-related content on [Github](https://github.com/DexterHuang/CyberCodeOnline).
+> Questo FAQ è stato basato sulle domande più richieste nella community o da nuovi giocatori. Sentitevi liberi di aggiungere più domande e risposte modificando questo documento su [Github](https://github.com/DexterHuang/CyberCodeOnline).
+> Non riesci a trovare una risposta alla tua domanda? Sentiti libero di chiedere aiuto in **Chat** oppure sul server **Discord**! 😃
+>**IMPORTANTE: presta attenzione a possibili tentativi di truffa e giochi di ribasso sugli oggetti di gioco**. Chiedi sempre ai tuoi compagni, amici o in chat global del valore degli oggetti prima di accettare un'offerta (soprattutto se si tratta di equipaggiamento o cache epiche)! 😊
 
-> Can't find an Answer for your Question? Feel free to ask them in **Global / Language Chat** or **CCO's Discord**! 😃
+## Le basi
+### Cos'è questo gioco? Come posso giocarci?
+In breve, ti avventuri in vari luoghi attraverso le **Stazioni** sconfiggendo nemici singoli o conquistando interi dungeon. Il gioco avanzerà (alla prossima stazione) quando otterrai ciascun **Frammento di Chiave** in ogni area della stazione e creata la chiave al **Terminale** nel **Centro Città di Shangri-La**. Fatto questo, *ripeti punto e capo*. Puoi trovare una spiegazione più dettagliata nella sezione Tutorial. 
 
-> **Important Note:** **Beware of potential scam & lowballing price on in-game items**. Always ask your Gangmates / Friends / Global Chat about it's item value before confirming a market / trade deal (especially Epic Gear / Caches)! 😊
+### Cosa otterrò dopo un combattimento?
+Dopo ogni combattimento otterrai la valuta di gioco chiamata **Bitcoin (BTC)** e punti chiamati **Punti Esperienza (EXP)**. A volte riceverai oggetti, equipaggiamento o cache casuali.
 
-## Starting Point
+### Cosa sono le abilità? Come posso aumentare di livello l'abilità "X"?
+Ci sono cinque abilità che il giocatore potrà sviluppare, ognuna con i propri benefici nel migliorarle. Puoi far aumentare di livello le seguenti abilità:
+>**Grado di stampa**, stampando cache presso la **Stampante 3D Molecolare**, lavorando nella fabbrica di stampa oppure ingegnerizzando inversamente gli Scarti Tecnologicial **Centro Lavori**;
+>**Scienza medica** , hackerando la clinica al **Centri Lavori** oppure creando cure mediche nella sezione **Inventario > Creazione > Medica**; 
+>**Fabbricazione munizioni**, migliorando munizioni al **Centro Lavori** oppure creando munizioni nella sezione **Inventario > Creazione > Munizioni** (bisogna essere almeno di livello 10 per poter crearle);
+>**Abilità di esplorazione**, andando nelle area e compiendo l'attività **Esplora Area** o **Attiva Bot di Farming** (per le attività di esplorazione dovrai cominciare dall'area di livello più basso, per poter aumentare di livello ed esplorare le altre);
+>**Abilità di estrazione**, estraendo criptovalute presso il **Centro Lavori** o svolgendo l'attività della gang nel **Quartier Generale della Gang**.
 
-### What Is This Game? And How To Play It?
-In summary, you basically adventure around **Train Stations** while defeating individual enemies or conquer entire dungeons. The game will progress (onto the next Train Station) after you gain each **Key Fragments** on every area / dungeons in the station. After getting all 3 key fragments, you need to make convert the fragments into **Key** on dedicated **Terminal** (which player can find it on **Shangri-la City Center**). After that, *Rinse and Repeat*.
+### I livelli delle abilità possono essere più alti del livello del personaggio?
+No. Il livello del personaggio è la barriera di livello massimo delle abilità.
 
-More in-depth explanation can be found on dedicated Tutorial section.
+### Posso usare attrezzatura di livello più alto del personaggio?
+No. I giocatori possono usare attrezzatura di livello massimo pari a quello del personaggio.
 
-### What Do I Get From Joining / Finishing A Fight?
+### Qual'è il modo più veloce di salire di livello?
+Ai livelli più bassi (1-7), il modo più veloce è combattere i **nemici in zona**. Combattendo i nemici gialli otterrai più punti esperienza al costo di un combattimento più difficile. Dal livello 7 in poi prova a equipaggiare e stampare equipaggiamento e a completare un **Dungeon Normale** in solitario. Il giocatore può anche unirsi ad un dungeon di un altro giocatore tramite la funzione **Lista Dungeon** sul menù rapido in basso a destra. Completando un dungeon si otterranno più punti esperienza rispetto a combattere i nemici in zona. Per risultati migliori, prova a completare i **Dungeon Sfida** con equipaggiamento di qualità Rara o peggiore, oppure i **Dungeon della Gang** con equipaggiamento leggendario o migliore con il potenziamento **Trasmettitore Corteccia Frontale** attivato (booster di EXP). Puoi anche aumentare di livello completando l'attività AFK **Attiva Bot di Farming**, che richiede un **Nucleo IA**. Quest'attività richiede tempo (fino a due ore) ed è redditizia se lo Skip Globale è attivato, riducendo il tempo dell'attività. Puoi trovare una spiegazione più dettagliata di come funzionano gli Skip nel tutorial dello [Skip Globale](https://cybercodeonline.com/markdown?path=tutorial%2Fglobal_skip.md).
 
-You'll receive in-game currency called **BTC (Bitcoin)** and in-game experience called **EXP (Experience)** inside a battle. At times, you'll randomly receive items, equipment or caches after defeating enemies.
+### Ho bisogno di più BTC
+Puoi guadagnare BTC velocemente vendendo certi oggetti nel **Mercato di Strada di Shangri-La**. All'inizio, è consigliabile vendere le Parti di Tecnologia Medica, Scarti Tecnologici e Processori Hash nel mercato seguendo i prezzi correnti. Con l'aggiunto del Mercato Nero, i giocatori possono ottenere BTC vendendo le loro Cache nel Mercato Nero. Tuttavia, quest'azione sarà redditizia a livelli più alti.
 
-**[You'll always be receive BTC and EXP in a battle, but items won't drop after every single battle.]** 
+### Cosa succede se muoio?
+Dal livello 10 in poi perderai il 10% dei BTC non depositati e EXP del livello attuale; tuttavia, il tuo inventario sarà al sicuro. Si consiglia di depositare i BTC nella **Banca di Arasaka** per evitare perdite ingenti.
 
-### What Is Skills? How to Level Up "X" Skills?
-There are 5 skills that player can develop & it has it's own perk upon doing so. In summary, here's how to level up certain skills:
+### Perchè non posso usare le mie armi speciali e distruttive?
+Queste armi richiedono munizioni. Le armi speciali richiedono **Celle di Energia** e le armi distruttive richiedono **Cariche Antimateria**. Le munizioni possono essere saccheggiate dai nemici, prese dalle casse nei dungeon, ottenute completando la missione del datore di missioni nel dungeon, create nel tuo inventario oppure comprate nel mercato dei giocatori.
 
-> For **Printing Skills**, player can level up by doing **Printing Task** or **Reverse Engineer** (costs Tech Scraps) on **Commercial Area** (/ Job Hub) or by printing trash cache at **Molecular 3D Printer**.  
+### Cosa sono le Cache? Come dovrei utilizzarle?
+La Cache è un oggetto che ti permette di creare equipaggiamento presso la Stampante 3D Molecolare. Si sconsiglia di scartare le cache, dato che hanno solo il 50% di probabilità di darti Scarti Tecnologici e sono molto più redditizie se stampate o vendute.
 
-> For **Medical Skills**, player can level up by doing **Medical Task** on **Commercial Area** (/ Job Hub) or by crafting **Medical Items** on **Inventory > Crafting > Medical**.
+### Dove possono ottenere le cure mediche?
+Le cure mediche possono essere create (nella sezione Inventario), trovate sconfiggendo nemici o saccheggiando le casse nei dungeon, o comprate al Mercato di Trinoky nel Centro Città o nel mercato dei giocatori.
 
-> For **Ammo Crafting Skills**, player can level up by doing **Ammo Crafting Task** on **Commercial Area** (/ Job Hub) or by crafting Ammo on **Inventory > Crafting > Ammo** (Needs to be atleast level 10 Ammo Crafting before doing so).  
+### Come posso usare le cure mediche?
+Per usare le cure mediche vai nell'Inventario e sotto nella scheda "Equipaggiamento" troverai tre "Slot rapidi" (sopra lo slot delle armi). Clicca su uno di essi e assegna una cura medica. Quest'ultime possono essere utilizzate solo nei dungeon. Maggiori informazioni sulle cure mediche possono essere trovate nel Tutorial [Risorse](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md).
+### Come posso creare l'oggetto "X"?
+Sopra la pagina dell'Inventario, troverai una scheda chiamata "Creazione". 
 
-> For **Scavenge Skills**, player can level up by doing **Scavenge Task**. Player can find Scavenge task below **Deploy Farm Bot** Task on each area. It is important to note that starting out, you must start at the level 1-4 area due to the requirements on scavenging level of later areas.
+### Qualcuno mi ha inviato un regalo/Ho comprato o rimosso un oggetto dal Mercato. Dove lo posso trovare?
+Tutti gli oggetti ricevuti in regalo oppure comprati o rimossi dal mercato possono essere trovati nell'Inventario sotto la scheda "Oggetti Ricevuti". 
 
-> For **Mining Skills**, player can level up by doing **Crypto Mining Task** on **Commercial Area** (/ Job Hub) or by doing **Gang Task** that player can find on their Gang Headquarters.
-
-### What's the Benefit of Leveling Up "X" Skills?
-There are 5 skills that player can develop & it has it's own perk upon doing so. In summary, here's the benefit of leveling up certain skills:
-
-> For **Printing Skills**, player can print a better and higher level gear. Having a better gear onto player's arsenal adds better stats into players favour, making fight less difficult. 
-
-> For **Medical Skills**, player can craft better meds into their arsenal (up to Epic Nano Medic Bots), helping player on a longer run while also providing better health pool per usage.
-
-> For **Ammo Crafting Skills**, player can craft more ammo per 10 levels with the same amount of ingredients.
-
-> For **Scavenge Skills**, player can do higher level Scavenge Task, which allows player to get an even better item drop rate. 
-
-> For **Mining Skills**, player can get better BTC amount per 1 Crypto Mining task and also higher output of AI craft per level with the same amount of ingredients.
-
-### Can Skills Level be higher than our Character Level?
-No. Character Level is the max / boundary of player's skill level.
-
-### Can I Use Gear that's higher than our Character Level?
-No. player can't use gear that's higher than it's current character level.
-
-### What is the fastest way to level up in this game?
-On **lower level (1-7)**, the fastest and best way to level up is to fight **Nearby Enemies** constantly. Defeating the **yellow enemies** will result in more EXP gain, while also risking in having a harder fight than a normal enemies.
-
-**After reaching level 7**, try to equip / print a gear that has same gear level as your character level, and jumps into solo **Normal Dungeon**. Player can also join other players Dungeon via **Dungeon List** feature on **Map > Phone Icon > Dungeon List**. Finishing a dungeon will gain more EXP yield than Nearby Enemies.
-
-For best results, try to compelete **Challenge Dungeons** at rare and below gear or **Gang Dungeons** at legendary or above gear while having an active **Frontal Cortex Transmitter** (EXP Buff / Booster).
-
-Note: You could also level up by doing AFK Task (**Deploy Farm Bot**) that requires **AI Core**. These task takes time (up to 2 hours) & only be profitable if a Global Skip event is happening, which recudes the task time (making it the most efficient way to level up). Explanation around Time Skip can be found on [Time Skip's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fglobal_skip.md)
-
-### I Need more BTC. Help!
-You can yield / gain BTC quickly by selling certain items on **Shangri-La Market Street**. At the start, its recommended to sell your Medical Tech Parts, Tech Scrap, and Hash Processor onto the market following the current market price. Specifically for Hash Processor, as a lower level player (for at least below level 100), it's best to sell Hash Processor at the start rather than using it for **Crypto Mining** task as it yields for less BTC than it's actual market price.
-
-With addition of Black Market (as of 2022/04/18), players can also "print" their own BTC by selling their caches onto Black Market. However, this action will only be profitable on higher level (with addition on Bargain stats), making it more likely to become a high-level player feature.
-
-### What will happen if I Die / Flatlined?
-**After level 10, you will lose 10% of your unbanked BTC and EXP**; however your inventory will be safe. It is advisable to keep your BTC in **Arasaka Bank** in order to prevent major losses.
-
-### Why can't I use my Special and Destructive weapons?
-These weapons require ammo. Special weapons uses **Energy Cells** and Destructive weapons use **Anti-Matter Charges**. Ammo can be looted form enemies, crafted in your Inventory, or bought on the player market.
-
-### What are caches and what should I do with them?
-Cache is an item that you can use to craft equipment at the Molecular 3D Printer.  It is not recommended to scrap your caches as it has 50% chance of giving Tech Scrap & also more valuable to print or sell.
-
-### When do I Print "X" cache?
-Explanation around Cache printing can be found on [Equipment's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fequipment.md)
-
-### Where can I get healing items?
-Healing items can be crafted (which can be found on Inventory > Crafting > Medical), found when defeating an enemy or when looting a crate in a dungeon, or purchased at the Trinoky Mart in the City Center. They can also be purchased from the Player Market. Full detail around heal amount can be found on [Resource's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md)
-
-### How do I use my healing items?
-To equip and use your healing items, go to your inventory and under Equipped tab, you will find 3 'Quick Slots' (on top of your equipped weapon slot). Click on one of them and assign your desired healing item to it. Healing items can be used only inside dungeons.  
-
-### How do I craft "X" items?
-At the top of the Inventory page, you will find a tab called 'Crafting'.
-
-### Someone Sending Me Item / Gift. Where Can I Find Them?
-All the item that been sent or removed from Market Stall, can be found on Inventory page, on a tab called 'Item Inbox'. 
-
-### Where is "X" Place?
-Explanation around Game Area can be found on [Location's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Flocations.md)
-
-### What is "X" Item?
-Explanation around Item / Resources can be found on both [Inventory](https://cybercodeonline.com/markdown?path=tutorial%2Finventory.md) and [Resource's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md)
-
-
-## Advanced / Gameplay Related
+## Domande per gli esperti
 
 ### What is the Gear Score?
 **Gear Score** is the average level of the equipment you wear. This is calculated by averaging the 5 levels of your equipped gear, this includes: Primary or Special Weapon (it only accounts for the highest level between the two gear) and 4 Non-Weapon / Armor (Helmet, Upper Armor, Lower Armor, Boots) gears. 
