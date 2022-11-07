@@ -1,18 +1,14 @@
-# Global Skip
-
-**Global Skip** is an in-game feature that allows players to accelerate AFK times up to a certain duration. When a player activates Global Skip, it affects every player that started their AFK task beforehand. As the benefit applies to all AFK players, it adds to the queue system and progresses one by one. It takes 1 ~ 3 minutes for the effects to apply to everyone (it might take even longer depending on how big the queue is).
+# Skip Globale
+Lo **Slip Globale** è una funzionalità di gioco che permette ai giocatori di accelerare i tempi delle attività AFK. Quando un giocatore attiva lo Skip Globale, vengono influenzati tutti i giocatori che hanno iniziato le attività AFK prima dell'attivazione. Man mano che l'effetto venga applicato ad un giocatore alla volta, la lista di sistema scorre. Ci vogliono 1 ~ 3 minuti per far in modo che gli effetti vengano applicati a tutti (può volerci di più in base alla lunghezza della coda).
 
 ![GlobalSkip](/resources/mobile-tutorial/GlobalSkip.png)
-
-To activate Global Skip, players must acquire a premium currency called Units which can only be bought with Real Money. The cost for Global Skip depends on the duration that applies, with an increment of 64 Units for every 15 minutes (for example: if a player wants to do a 30 minute Global Skip, it'll cost them 128 Units on doing so).
+Per attivare lo Skip Globale, i giocatori devono ottenere una valuta premium chiamata Unità che possono essere comprate con soldi veri. Il prezzo dello Skip Globale dipende dalla durata che si applica, con un incremento di 64 Unità ogni 15 minuti (per esempio, uno Skip Globale di 30 minuti costerà 128 Unità).
 
 ![GlobalSkip2](/resources/mobile-tutorial/GlobalSkip2.png)
+I giocatori possono effettuare uno Skip Globale che acceleri fino a 8 ore, costanto 2048 Unità all'acquisto. Si consigli di aspettare almeno dai 10 ai 30 secondi prima di attivare lo Skip Globale, permettendo a più giocatori di beneficiarne. Una volta comprato, non si potranno acquistare altri skip fino a quando quello precedente è completato.
 
-Players can do Global Skip for up to 8 hours AFK task, which costs 2048 Units upon purchase. It is advisable to wait for at least 10-30 seconds before applying Global Skip so that other players can gain the benefit at times. Once purchased, no new skips can be purchased until the skip is completed.
-
-## Global Skip & Efficiency
-
-While doing a sole Global Skip was a thing, players were advised to do a Global Skip while having a certain **Accelerator / Global Buff** that makes the Skip more efficient per cost. In general, the Global Buff itself is as follows:
+## Efficienza dello Skip Globale
+Mentre è possibile usare da solo uno Skip Globale, si consiglia di attivarlo con certi **Potenziamenti Globali**, rendendolo più efficiente. I Potenziamenti Globali sono i seguenti:
 
 ### Synaptic Acceleration Transmitter
 
