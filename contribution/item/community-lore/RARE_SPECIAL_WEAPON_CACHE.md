@@ -1,0 +1,1 @@
+"What is this?" You exclaim whilst holding what appears to be some sort of box, it has constantly changing special weapons displayed across its face, you waste no time lingering around and decide it would be best to run off towards Shangri-La with the intent to print this.
