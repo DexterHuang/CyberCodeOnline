@@ -5,20 +5,17 @@ La **calibrazione** è un'azione dove i giocatori migliorano l'equipaggiamento c
 ## Effettuare una calibrazione
 ![CalibrationStation2](/resources/mobile-tutorial/CalibrationStation2.png)
 Dentro la **Stazione di Calibrazione**, verrà chiesto al giocatore di inserire il **Nucleo di Calibrazione** per iniziare il processo. Dopo aver inserito il nucleo, il giocatore deve aspettare trenta minuti prima che la stazione permetta al giocatore di calibrare l'equipaggiamento. **Questo processo non viene influenzato dai buff e skip globali, inclusi i [Trasmettitori di Accelerazione Sinaptica]**.
-
 ![CalibrationStation3](/resources/mobile-tutorial/CalibrationStation3.png)
-Dopo trente minuti, il giocatore può calibrare qualsiasi equipaggiamento (esclusi quelli con calibrazione massima) non equipaggiato.
+Dopo trenta minuti, il giocatore può calibrare qualsiasi equipaggiamento (esclusi quelli con calibrazione massima) non equipaggiato.
 
 ## Effettuare la calibrazione al di fuori della Stazione di Calibrazione
 Dall'**aggiornamento v0.780 (04/03/2022)**, i giocatori possono effettuare la calibrazione dell'equipaggiamento durante le attività AFK e l'esplorazione di un dungeon.
-
 ![CalibrationStationAlt](/resources/mobile-tutorial/CalibrationStationAlt.png)
 Per farlo, clicca sull'equipaggiamento designato, quindi premi su `Mostra Dettagli`. Nella sezione **dettagli dell'equipaggiamento**, premi su `Migliora` oppure `Slot di Calibrazione` per entare nella Stazione di Calibrazione. In questo modo, i giocatori possono facilmente calibrare l'equipaggiamento. Tieni a mente che può essere calibrato solo l'equipaggiamento non equipaggiato!
 
 ## Probabilità di guasto distruttivo
 ![CalibrationStation4](/resources/mobile-tutorial/CalibrationStation4.png)
 Nel processo di calibrazione dell'attrezzatura c'è la possibilità che il processo fallisca, con risultato l'equipaggiamento distrutto. La parcentuale di fallimento è indicato dal numero rosso in percentuale sopra l'equipaggiamento selezionato. È consigliabile rimuovere i Moduli d'Aggiornamento inseriti nell'equipaggiamento prima di tentare la calibrazione, dato che il guasto porta a distruggerli assieme all'equipaggiamento. In genere, le percentuali di fallimento sono queste:
-
 | Rarità Equipaggiamento | Grado | Probabilità di guasto |
 |--|--|--|
 | Spazzatura | +1 | 2% |
@@ -44,7 +41,6 @@ I giocatori possono anche negare l'effetto distruttivo attivando i **Bot di Cali
 
 ## Miglioramento attrezzatura
 Con ogni calibrazione, l'equipaggiamento (in base al suo livello) migliora rispetto a quello non calibrato. Questi miglioramenti variano da salute più alta, danni più alti, più slot d'inventario, ecc. Le percentuali di miglioramento (rispetto alle statistiche base) sono le seguenti:
-
 | Livello | Miglioramento equipaggiamento |
 |--|--|
 | +1 | 5% |

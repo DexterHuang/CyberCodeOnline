@@ -7,5 +7,4 @@ Ci sono sei tipi di canali chat in CyberCode Online:
 - **Canale del mercato** : dove i giocatori possono pubblicare annunci per oggetti che vogliono vendere, comprare o scambiare. Di solito vengono usati i Nuclei IA come valuta (i prezzi compaiono solitamente come quantità_oggetto:quantità_valuta);
 - **Canale roleplay** : dove i giocatori possono fare roleplay come vogliono, creando le loro storie e narrative.
 Per menzionare (o taggare) qualcuno in chat globale, puoi usare '@' seguito dal nome dell'utente (per esempio: '@DexterHuang'). Mentre scrivi il nome comparirà una lista dove puoi selezionare il nome del giocatore. Puoi anche menzionare altri giocatori premendo sul loro username sopra il messaggio e selezionare `Rispondi`. Il giocatore menzionato riceverà una notifica specificando che li hai menzionati.
-
 Nota bene: non puoi menzionare qualcuno in chat privata. Inoltre, se qualcuno ti menziona nella chat della gang, ricevi la notifica del messaggio, ma non sarai in grado di visualizzarlo.

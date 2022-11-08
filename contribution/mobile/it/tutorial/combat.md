@@ -1,4 +1,4 @@
-## Combattimento
+# Combattimento
 In ogni posizione ci saranno una lista di nemici nelle vicinanze e tre dungeon in cui puoi avventurarti. Le posizioni sono separate per gruppi di livello. Per sbloccare le nuove aree dovrai raccogliere tre frammenti di chiave dai dungeon. Con essi potrai creare una chiave al Terminale in Centro Città di Shangri-La. Per combattere i nemici, selezionane uno per entrare in combattimento. Non puoi curarti mentre combatti i nemici in zona, però puoi premere su `Fuggi` nell'angolo in alto a sinistra per uscire dal combattimento. Nei dungeon puoi combattere i nemici premendo sul simbolo dell'alieno. 
 ## Schermata di combattimento
 La schermata di combattimento di mostra quanta salute e scudo avete tu e il nemico e la quantità di munizioni rimaste per ogni arma con il danno approssimato che infliggeranno. Nel dungeon verranno mostrati anche gli slot con oggetti da poter usare e la loro quantità disponibile.
@@ -32,9 +32,9 @@ I nemici possono avere dei modificatori, indicati da un aggettivo dopo il nome d
  - **Frenetico**, aumento significativo della salute, dello scudo e dei danni.
 
 Per i modificatori è importante sapere che:
-1. Il numero di danni del nemico è moltiplicato per il fattore decimale, quindi sottratto dei punti armatura prima di essere usato per togliere punti salute. Questo significa che qualche nemico potrebbe infliggere moderatamente più danno rispetto al medesimo senza modificatore;
-2. Calcoli simili vengono applicati ai punti difesa. I nemici forti possono richiedere molti più colpi per ucciderli;
-3. I nemici agili possiedono l'attributo "Evita Stordimento" (viene usato solo l'80% della tua probabilità di stordimento, per esempio il 20% di stordimento viene ridotto al 16%) invece dell'attributo "Schivata" (ovvero la probabilità di non essere colpiti).
+> Il numero di danni del nemico è moltiplicato per il fattore decimale, quindi sottratto dei punti armatura prima di essere usato per togliere punti salute. Questo significa che qualche nemico potrebbe infliggere moderatamente più danno rispetto al medesimo senza modificatore;
+> Calcoli simili vengono applicati ai punti difesa. I nemici forti possono richiedere molti più colpi per ucciderli;
+> I nemici agili possiedono l'attributo "Evita Stordimento" (viene usato solo l'80% della tua probabilità di stordimento, per esempio il 20% di stordimento viene ridotto al 16%) invece dell'attributo "Schivata" (ovvero la probabilità di non essere colpiti).
   
 ## Modificatori del personaggio
 Anche tu puoi ottenere dei modificatori interagendo con il datore di missioni nel dungeon, rappresentato da `?`. I modificatori sono i seguenti:

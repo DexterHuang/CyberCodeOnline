@@ -1,3 +1,4 @@
+# FAQ
 > Questo FAQ è stato basato sulle domande più richieste nella community o da nuovi giocatori. Sentitevi liberi di aggiungere più domande e risposte modificando questo documento su [Github](https://github.com/DexterHuang/CyberCodeOnline).
 > Non riesci a trovare una risposta alla tua domanda? Sentiti libero di chiedere aiuto in **Chat** oppure sul server **Discord**! 😃
 >**IMPORTANTE: presta attenzione a possibili tentativi di truffa e giochi di ribasso sugli oggetti di gioco**. Chiedi sempre ai tuoi compagni, amici o in chat global del valore degli oggetti prima di accettare un'offerta (soprattutto se si tratta di equipaggiamento o cache epiche)! 😊
@@ -108,9 +109,6 @@ Se non è disponibile l'opzione per sbloccare i contenitori nel Terminale signif
 
 ### Cos'è la Reputazione?
 La **Reputazione** è un modo di apprezzare un giocatore che ti piace o ti ha aiutato. Sono molto simili ai punti karma su Reddit. Puoi dare 1 punto reputazione al giorno. Per dare i punti reputazione puoi andare sul profilo del giocatore, scorrere in basso ad "Azioni Giocatore" e premere su **Dai reputazione**. Considerai dare reputazione alle persone che contribuiscono al gioco! Puoi vedere la classifica su **Classifica > Reputazione** dal menù fluttuante.
-
-### Cos'è quell'animazione di cuori/fiocchi di neve nella chat?
-Quando viene attivato uno skip comparirà un bottone (a forma d'icona avanti veloce) a destra della chat sopra il bottone "Invia", riferito anche come bottone di **reputazione per lo skip**. Questo bottone sarà visibile solo quando uno skip globale è attivo. Gira voce che premendo questo bottone (indicato dal cuore/fiocco di neve colorato) c'è la possibilità che il giocatore possa ottenere un premio. Questi premi spaziano da Parti di Tecnologia Medica, Nuclei IA, Zaini ed equipaggiamento Epico. Quest'attività è stata riferita come **lotteria dello skip**.
 
 ## Avanzato / Dungeon
 
