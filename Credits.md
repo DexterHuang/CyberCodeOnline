@@ -122,6 +122,7 @@ ClayBravo6
 [Chkj000](https://github.com/Chkj000)
 [TerrifficSprite](https://github.com/petrokrechunyak)
 [TMD2](https://github.com/TMD0)
+[SkyNetX007](https://github.com/SkyNetX007)
 [converdario](https://github.com/converdario)
 [Maddening](https://github.com/Wildlife4700)
 
