@@ -38,11 +38,11 @@ Per i modificatori è importante sapere che:
   
 ## Modificatori del personaggio
 Anche tu puoi ottenere dei modificatori interagendo con il datore di missioni nel dungeon, rappresentato da `?`. I modificatori sono i seguenti:
-- **Sovraccaricato I**, +5% di danni;
-- **Sovraccaricato II**, +10% di danni;
-- **Sovraccaricato III**, +15% di danni;
-- **Sovraccaricato IV**, +20% di danni;
-- **Sovraccaricato V**, +25% di danni;
+- **Sovraccarico I**, +5% di danni;
+- **Sovraccarico II**, +10% di danni;
+- **Sovraccarico III**, +15% di danni;
+- **Sovraccarico IV**, +20% di danni;
+- **Sovraccarico V**, +25% di danni;
 - **Rinforzato I**, +5% di difesa;
 - **Rinforzato II**, +10% di difesa;
 - **Rinforzato III**, +15% di difesa;
@@ -54,4 +54,4 @@ Anche tu puoi ottenere dei modificatori interagendo con il datore di missioni ne
 - **Migliora Scudo IV**, +20% moltiplicatore scudo;
 - **Migliora Scudo V**, +25% moltiplicatore scudo.
 
-Il modificatore inizia il conto alla rovescia nel momento in cui completi la missione scambiando gli oggetti richiesti nella scheda Missioni (la finestra diventa gialla quando è completata). Puoi accettare una missione nel dungeon e completarla più tardi. Ogni missione specificherà nelle ricompense il modificatore che otterrai. Inoltre, i modificatori del personaggio di diverse rarità si accumulano. Per esempio, puoi avere Sovraccaricato I e II allo stesso tempo. Tuttavia, se ottieni un modificatore già attivo (per esempio, attivando due volte Sovraccaricato I), viene reimpostato il timer.
+Il modificatore inizia il conto alla rovescia nel momento in cui completi la missione scambiando gli oggetti richiesti nella scheda Missioni (la finestra diventa gialla quando è completata). Puoi accettare una missione nel dungeon e completarla più tardi. Ogni missione specificherà nelle ricompense il modificatore che otterrai. Inoltre, i modificatori del personaggio di diverse rarità si accumulano. Per esempio, puoi avere Sovraccarico I e II allo stesso tempo. Tuttavia, se ottieni un modificatore già attivo (per esempio, attivando due volte Sovraccarico I), viene reimpostato il timer.
