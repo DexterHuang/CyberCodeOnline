@@ -1,83 +1,57 @@
-## Combat
+# Combattimento
+In ogni posizione ci saranno una lista di nemici nelle vicinanze e tre dungeon in cui puoi avventurarti. Le posizioni sono separate per gruppi di livello. Per sbloccare le nuove aree dovrai raccogliere tre frammenti di chiave dai dungeon. Con essi potrai creare una chiave al Terminale in Centro Città di Shangri-La. Per combattere i nemici, selezionane uno per entrare in combattimento. Non puoi curarti mentre combatti i nemici in zona, però puoi premere su `Fuggi` nell'angolo in alto a sinistra per uscire dal combattimento. Nei dungeon puoi combattere i nemici premendo sul simbolo dell'alieno. 
+## Schermata di combattimento
+La schermata di combattimento di mostra quanta salute e scudo avete tu e il nemico e la quantità di munizioni rimaste per ogni arma con il danno approssimato che infliggeranno. Nel dungeon verranno mostrati anche gli slot con oggetti da poter usare e la loro quantità disponibile.
 
-In every location you will see a list of Nearby Enemies and three Dungeons in which you can enter. Locations are separated by level groups.  To unlock new areas, you'll have to gather three key fragments from the dungeons. You can then brute force a new key with your key fragments at the Terminal (Map).
+## Attacco Primario
+Attacca il nemico con l'arma primaria equipaggiata. Quest'arma non usa munizioni, ma infligge in minor numero di danni tra tutti i tipi di armi dello stesso grado e livello.
+
+## Attacco Speciale
+Attacca il nemico con l'arma speciale equipaggiata. Infligge il 120% di danno se il nemico ha uno scudo. Quest'arma usa una **Cella d'Energia** per colpo e infligge danni intermedi tra i tipi di armi dello stesso grado e livello.
+
+## Attacco Distruttivo
+Attacca il nemico con l'arma distruttiva equipaggiata. Infligge il 50% di danno se il nemico ha uno scudo. Quest'arma usa una **Carica Antimateria** per colpo e infligge il maggior numero di danni tra i tipi di armi dello stesso grado e livello.
+
+## Usa Oggetto
+Hai tre slot `Usa oggetto` a disposizione. Puoi associarci cure mediche, casse di provviste o memorie esperienza da usare. Tuttavia, è consigliato associare solo le cure mediche, dato che tutti gli oggetti possono essere usati al di fuori del combattimento e dei dungeon; è necessario munirsi solo di cure mediche nei dungeon. Non c'è il riordinamento automatico degli slot. Puoi usare gli oggetti solamente nei dungeon: questo significa che non potrai curarti combattendo i nemici in zona.
+
+## Fuggi
+Puoi provare a fuggire dal combattimento cliccando su `Fuggi` in alto a sinistra. La probabilità di fuga dal combattimento dei nemici in zona è sempre del 100%. Nel combattimento dei nemici in dungeon la probabilità di successo dipende dalla statistica di fuga, calcolata dagli attributi dell'armatura e dei moduli d'aggiornamento equipaggiati. Se non riesci a fuggire, verrai attaccato dal nemico senza possibilità di contrattacco.
+
+## Morte
+Quano muori, il tuo personaggio è incapace di fare niente fino a quando scade il tempo. Se muori, non perderai nessun oggetto. Tuttavia, dal livello 10 in poi, perderai il 10% dei Bitcoin e punti esperienza del livello a cui sei arrivato.
   
-To fight Nearby Enemies, select any of the listed enemies to enter combat. You can't heal while fighting nearby enemies, however, you can click on **Escape** button on the top left corner of the screen to exit the battle. While inside a dungeon, clicking on the enemy, represented by an alien logo will draw you into combat with it.  
+## Modificatori dei nemici
+I nemici possono avere dei modificatori, indicati da un aggettivo dopo il nome del nemico (esempio: Serial Killer **Matto**). I modificatori sono i seguenti:
+- **Matto**, +20% di danni;
+- **Arrabbiato**, +10% di danni;
+- **Forte**, +20% di difesa, un significativo aumento della salute e un leggero aumento dei danni;
+- **Agile**, +20% di probabilità di evitare lo stordimento e uno scudo che vale metà della salute;
+ - **Protetto**, possiede uno scudo equivalente al doppio della salute. I nemici che possiedono lo scudo senza modificatori avranno salute minore come compenso;
+ - **Preciso**, +10% di probabilità di critico, +40% di danni critici e uno scudo;
+ - **Frenetico**, aumento significativo della salute, dello scudo e dei danni.
 
-## Combat screen
+Per i modificatori è importante sapere che:
+> Il numero di danni del nemico è moltiplicato per il fattore decimale, quindi sottratto dei punti armatura prima di essere usato per togliere punti salute. Questo significa che qualche nemico potrebbe infliggere moderatamente più danno rispetto al medesimo senza modificatore;
+> Calcoli simili vengono applicati ai punti difesa. I nemici forti possono richiedere molti più colpi per ucciderli;
+> I nemici agili possiedono l'attributo "Evita Stordimento" (viene usato solo l'80% della tua probabilità di stordimento, per esempio il 20% di stordimento viene ridotto al 16%) invece dell'attributo "Schivata" (ovvero la probabilità di non essere colpiti).
   
-The combat screen will show you how much health and shield you and your opponent both have, as well as the amount of ammo you have left for each of your weapons and the approximate damage they can do.  
+## Modificatori del personaggio
+Anche tu puoi ottenere dei modificatori interagendo con il datore di missioni nel dungeon, rappresentato da `?`. I modificatori sono i seguenti:
+- **Sovraccarico I**, +5% di danni;
+- **Sovraccarico II**, +10% di danni;
+- **Sovraccarico III**, +15% di danni;
+- **Sovraccarico IV**, +20% di danni;
+- **Sovraccarico V**, +25% di danni;
+- **Rinforzato I**, +5% di difesa;
+- **Rinforzato II**, +10% di difesa;
+- **Rinforzato III**, +15% di difesa;
+- **Rinforzato IV**, +20% di difesa;
+- **Rinforzato V**, +25% di difesa;
+- **Migliora Scudo I**, +5% moltiplicatore scudo;
+- **Migliora Scudo II**, +10% moltiplicatore scudo;
+- **Migliora Scudo III**, +15% moltiplicatore scudo;
+- **Migliora Scudo IV**, +20% moltiplicatore scudo;
+- **Migliora Scudo V**, +25% moltiplicatore scudo.
 
-## Primary Attack
-Attack the enemy with your equipped primary weapon. This weapon does not use ammo, but deals the least damage amongst the weapons among weapons of the same level and tier.
-
-## Special Attack
-Attack the enemy with your equipped special weapon. Deal 120% damage if an enemy has shield, excess damage appllies to health without reduction. This weapon consumes one **Energy Cell** per shot and deals damage between a primary and desructive weapon of the same level and tier.
-
-## Destructive Attack
-Attack the enemy with your equipped destructive weapon. Deal 50% damage to shields. If enemy has less shield than damage amount, excess damage will not scale back to 100%. This weapon consumes one **Antimatter Charge** per shot and deals the most damage before modifiers to shields amongst weapons of the same level and tier.
-
-## Use Item
-You have 3 Use Item slots. You can bind medical supplies, supply create or experience memories and use them. However practically you should only bind medical supplies because all items that can be immediately used work outside combat and outside dungeons, and only medical supplies need to be used in dungeons. There is no automatic sorting to slots.
-
-You can only use items in Dungeons. This means you cannot heal when fighting nearby enemies.
-
-## Escape
-You can attempt to escape from combat by clicking Escape in the top left. The success rate for escaping combat outside of a dungeon is always 100%. However if you are fighting inside a dungeon and try to escape, the chance will be based on your escape stat which is taken from your armour and upgrade stats. If you fail to escape, you will then be attacked by the enemy without dealing any damage.  
-
-## Death
-
-Also named "FLATLINE", your character is rendered unable to do anything until a brief timer runs out. If you die, you won't lose any of your items. However, if your level is greater then 10, you will lose 10%  of your total BTC and Player XP. If your current XP out of full Level progress is less than 10%, you may lose a level.
-  
-## Enemy Modifiers
-  
-Enemies can have modifiers, which are indicated by an adjective before the enemies name e.g. "**Mad** Serial Killer", these modifiers are as follows,
-  
- - Mad - Gives the enemy +20% damage  
- - Angry - Gives the enemy +10% damage  
- - Tough - Gives the enemy +20% defence  
-   - Also gives the enemy significantly more health and slightly more damage (Not in tooltips)
- - Agile - Gives the enemy +20% stun evade and a shield  
-   - The Shield amount is always equal to half of enemy's health
- - Shielded - Gives the enemy a large shield  
-   - The Shield amount is always equal to double of enemy's health
-   - Note however that shielded enemies have slightly lower health to compensate.
- - Precise - Gives the enemy +10% crit chance and +40% crit damage
-   - Also gives the enemy a shield (Not in tooltips)
- - Berserker - Gives the enemy significantly more health, shield and damage.
-   - No tooltip exists for it, but the significantly higher shield and health (which are also almost equal, except for bosses) is very easy to notice
-
-Some important notes about modifiers:
-
-1. The damage from enemy is multiplied by the factor, then subtracted by your armor before deducting from your health. This means enemies might deal significantly more damage than no-modifier counterparts. 
-2. Similar calculation results also apply to defense. Tough enemies can take much more shots to kill.
-3. Agile enemies have "Stun Evade" (i.e. Only 80% of your stun value is used, e.g. 20% stun becomes 16% stun.), rather than "Evade" (i.e. chance for your attack to not hit at all). You may need to heal slightly more from such enemies hitting you when you normally stun them, but you will not have to heal from missing a shot completely.
-
-  
-## Player Modifiers
-  
-You can also pick up modifiers by interacting with the quest giver in the dungeon, which is represented by a '?', these modifiers are as follows:  
-  
- - Overcharged I - Gives the player +5% damage  
- - Overcharged II - Gives the player +10% damage  
- - Overcharged III - Gives the player +15% damage  
- - Overcharged IV - Gives the player +20% damage  
- - Overcharged V - Gives the player +25% damage  
-  
-  
- - Reinforced I - Gives the player +5% defence  
- - Reinforced II - Gives the player +10% defence  
- - Reinforced III - Gives the player +15% defence  
- - Reinforced IV - Gives the player +20% defence  
- - Reinforced V - Gives the player +25% defence  
-  
-  
- - Shield Enhance I - Gives the player +5% shield multiplier  
- - Shield Enhance II - Gives the player +10% shield multiplier  
- - Shield Enhance III - Gives the player +15% shield multiplier  
- - Shield Enhance IV - Gives the player +20% shield multiplier  
- - Shield Enhance V - Gives the player +25% shield multiplier  
-
-The modifier only starts counting down when you complete the quest by exchanging the requested items on Quest Tab (yellow text when completed). You can accept a quest in a dungeon and wait until a later time to start it. Every quests reward will specify the exact modifier you will gain.
-
-Also, player modifiers of different tiers stack additively. For example, you can have Overcharged I, Overcharged II at the same time, resulting in +15% damage. However if you gain a modifier you have already enabled (for instance, activating Overcharged I two times), it resets the timer.
+Il modificatore inizia il conto alla rovescia nel momento in cui completi la missione scambiando gli oggetti richiesti nella scheda Missioni (la finestra diventa gialla quando è completata). Puoi accettare una missione nel dungeon e completarla più tardi. Ogni missione specificherà nelle ricompense il modificatore che otterrai. Inoltre, i modificatori del personaggio di diverse rarità si accumulano. Per esempio, puoi avere Sovraccarico I e II allo stesso tempo. Tuttavia, se ottieni un modificatore già attivo (per esempio, attivando due volte Sovraccarico I), viene reimpostato il timer.

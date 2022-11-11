@@ -1,9 +1,8 @@
+# Come posso raccomandare a qualcuno il gioco?
+Basta dare il tuo username alla persona. Nel momento in cui creeranno un nuovo personaggio, devono semplicemente scrivere il tuo nome nella casella di testo presente nella schermata di creazione del personaggio.
 
-## How to refer someone?
-Simply give the person your in game name, and when they create a new character, they simply need to select you as referrer at the character creation screen (where you name your character).
-
-##  Referral Benefits
-1. Whenever the player you referred purchased unit, you will also receive 10% of it, for example when the player you referred purchased 2000 Unit, you would receieve 200 Unit automatically.
-3. When ever a player you referred reached level `20`, you will receieve some rewards: 
-	- 1 `Fanny Pack`
-	- 1`Locked Rare Container`
+##  Benefici della raccomandazione
+1. Nel momento in cui il giocatore acquisterà Unità, riceverai il 10% del suo acquisto. Per esempio, se un giocatore acquista 2000 Unità, tu ne riceverai 200;
+2. Quando il giocatore raggiungerà il livello 20, otterrai come ricompense:
+	- 1 Marsupio;
+	- 1 Contenitore Bloccato Raro.
