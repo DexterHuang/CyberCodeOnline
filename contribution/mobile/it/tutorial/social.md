@@ -1,36 +1,22 @@
 # Social
-In CyberCodeOnline, there are few ways of communicating with other players around the world, which ranged from social chatting onto personal messaging with other player.
+In CyberCodeOnline ci sono alcuni modi di comunicare con gli altri giocatori in tutto il mondo, che variano dal chatting globale ai messaggi personali  con un altro giocatore.
 
-## Chats
-Chats consist of different channels, with a goal to socialize with each other. These were justified by having **Chat Quest** being activated after player speaks in chat for the first time.  
+## Chat
+Le chat consistono in diversi canali con l'obiettivo di far socializzare i giocatori. Sono stati giusticati con la **Misisone Messaggi** attivata dopo che il giocatore scrive in chat per la prima volta. Spiegazioni dettagliate possono essere trovate nel tutorial della [Chat](https://cybercodeonline.com/markdown?path=tutorial%2Fchat.md).
 
-Explanation around Chat can be found on [Chat's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fchat.md)
+## Gang
+Le gang forniscono un'area di conversazione privata per un grupppo di persone e amici con cui comunicare, con dei compiti particolari e altre funzioni esclusive. Ci sono piani di aggiungere altre funzioni legate alle gang in futuro. Spiegazioni dettagliate possono essere trovate nel tutorial delle [Gang](https://cybercodeonline.com/markdown?path=tutorial%2Fgangs.md).
 
-## Gangs
-Currently gangs are just a private chat area for a group of up to 32 (and more) friends to communicate, with a side of gang task and other gang exclusive feature. There are plans to add more gang related feature in the future. 
+## Aggiungere amici
+Per accedere alla tua lista amici puoi premere sull'icona del menu fluttuante e scegliere **Lista Amici**. Puoi aggiungere amici visualizzando il profilo dell'utente, scorrendo in basso e premendo su **Aggiungi alla Lista Amici**. Puoi fare la stessa operazione per rimuovere un amico premendo il bottone **Rimuovi dalla Lista Amici**. Aggiungere qualcuno alla lista amici non richiede che l'altra persona accetti la richiesta. Inoltre, vedendo la lista amici, potrai vedere se sono online, inattivi oppure offline.
 
-Explanation around Gangs can be found on [Gang's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fgangs.md)
-
-## Adding Friends
-To access your personal friends list, click on the floating menu and choose the **People**'s icon. You can add friends by going into a user's profile, scrolling down and clicking **Add to Friend List**. You can do the same to remove a friend by clicking the **Remove From Friend List** button.
-
-Adding someone to your friends list will not require the other person to accept the request. They will simply be added to your friends list. Viewing your friends list will allow you to see if they are online, idle or offline.
-
-## Block Feature
-
+## Blocca
 ![BlockFeature1](/resources/mobile-tutorial/BlockFeature1.png)
-
-Players are able to block other players when necessary. To do so, a player needs to click their Username (in chat) and pick **Block Option** that's below the Profile option. When a player gets blocked, the player who blocked them can't see their messages until they unblock them.
-
+I giocatori possono bloccare altri giogatori quando necessario. Per farlo, premere sul loro nome utente (in chat) e scegliere **Blocca** sotto le opzioni del profilo. Quando un giocatore viene bloccato, il giocatore che l'ha bloccato non potrà vedere i suoi messaggi fino a quando non lo sblocca.
 ![BlockFeature2](/resources/mobile-tutorial/BlockFeature2.png)
-
-To unblock other players, a player needs to find **Block List** option, which can be found on Profile / Map > Phone Icon > All Apps > Block List. After that, the player chooses the player's username and click **Unblock** button that's on the right side of the blocked player's username.
-
+Per sbloccare un giocatore, entrare nella **Lista Bloccati** dalla schermata "Tutte le app" del menù fluttuante, quindi premere il pulsante **Sblocca** a destra del giocatore corrispondente che si vuole sbloccare. 
 ![BlockFeature3](/resources/mobile-tutorial/BlockFeature3.png)
+Dopo aver scelto il giocatore da sbloccare comparirà un dialogo per chiedere conferma dell'azione. Premendo su **Sì** implica che il giocatore potrà essere sbloccato e la sua chat potrà nuovamente essere vista.
 
-After choosing out which player will be unblocked, a pop-up will be shown, to confirm player's action on unblocking the stated player. Clicking on **YES** button implies that the stated player will be unblocked and its chat can be seen again.
-
-## Player Trading
-While there is no official feature to trade, **Sending Gift to Player** works in a way bridge out the way of trading in this game. To initialize a trade, both players arrange a deal via **Private Message** with a sense of trust on both sides. Once a deal is approved, both players trade their goods and thank each other when a deal is done.
-
-If a player tries to scam others, it's recommended to report this behavior to in-game `Moderator` via Private Message rather than announce it in **Global Chat** to prevent misinformation or bad behavior by any means.
+## Scambio fra giocatori
+Non c'è una funzione specifica per scambiare e contrattare, ma una funzione che fa da ponte per questa situazione è **Invia Regalo**. Per iniziare uno scambio, entrambi i giocatori possono accordare un affare via **Messaggi Privati** raggiunta la fiducia da entrambe le parti. Una volta che un'affare viene approvato, entrambi i giocatori possono effettuare lo scambio e ringraziarsi dopo che l'affare è finito. Se un giocatore tenta di truffare altri, si consiglia di segnalarlo ad un moderatore in gioco tramite messaggi privati o annunciarlo nella **Chat Globale**.

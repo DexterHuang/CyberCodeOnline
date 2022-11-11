@@ -1,105 +1,87 @@
-# Equipment / Gears
-You can equip an equipment (gear) that you own as long as the gear level that you wish to equip is not higher than your current character level.  
+# Equipaggiamento
+Puoi equipaggiare l'attrezzatura che possiedi di livello minore o uguale a quello attuale.
+Le qualità dell'equipaggiamento (e cache d'equipaggiamento) sono le seguenti:
+- **Spazzatura** (Grigio);
+- **Comune** (Bianco);
+- **Alta Qualità** (Verde);
+- **Raro** (Giallo);
+- **Leggendario** (Magenta);
+- **Epico** (Rosso scuro).
 
-All equipment (and equipment caches) have rarities, as follows:
-- Trash (Grey)
-- Common (White)
-- High Quality (Green)
-- Rare (Yellow)
-- Legendary (Fuchsia, Deep Pink)
-- Epic (Dark Red)
+Tieni a mente che equipaggiamenti di qualità più alta hanno statistiche migliori e più slot per i moduli.
 
-Keep in mind that higher rarities will have better stats and more module upgrade slots, depending on the piece of equipment.  
+## Consigli sulla stampa delle cache
+Ecco alcuni punti guida su quando stampare certe cache:
+> Dai livelli 1 a 5 è raccomandato stampare le cache di rarità **Spazzatura** essendo le più economiche
+> Dai livelli 5 a 15 è raccomandato stampare le cache di rarità **Comune**
+> Dai livelli 15 a 30 è raccomandato stampare le cache di rarità **Alta Qualità**
+> Dai livelli 30 a 50 è raccomandato stampare le cache di rarità **Raro**
+> Dal livello 50 in su è raccomandato stampare le cache di rarità **Leggendario**
+> Dal livello 100 in su è raccomandato stampare le cache di rarità **Epico**
 
-## Knowing Your Caches
-Here's a couple of guiding point on how or when to print certain caches:
-> From level 1 to 5, it's recommended to print / use **Trash** caches for your gear set as it's the cheapest one of all
- 
-> From level 5 to 15, it's recommended to print / use **Common** caches for your gear set
+Questi punti guida servono solo come referenza piuttosto che forzare i giocatori a giocare in una certa maniera. Inoltre, la **qualità dell'attrezzatura** riflette le statistiche dell'equipaggiamento, perciò verificarne la qualità è essenziale per avere statistiche ottimali.
 
-> From level 15 to 30, it's recommended to print / use **High Quality** caches for your gear set
+## Trovare l'equipaggiamento
+Puoi trovare equipaggiamento e cache d'equipaggiamento nei dungeon o combattendo i nemici in zona. Una volta raggiunto il livello 5, potrai usare il mercato dei giocatori per compeRaro diversi tipi di equipaggiamento, materiali da lavoro e altri oggetti.
 
-> From level 30 to 50, it's recommended to print / use **Rare** caches for your gear set
+## Stamare l'equipaggiamento
+Le cache possono essere usate per stampare l'equipaggiamento presso la Stampante 3D Molecolare in Centro Città. Il livello dell'attrezzatura stampata sarà uguale al tuo grado di stampa, perciò assicurati di mantenere il tuo grado di stampa allo stesso livello di quello del personaggio.
 
-> From level 50+, it's recommended to print / use **Legendary** caches for your gear set
+## Moduli di miglioramento
+Nel tuo equipaggiamento puoi inserire dei **Moduli di Miglioramento**. Per poter equipaggiare i moduli dovrai inserirli in equipaggiamento di livello uguale o superiore a quelli dei moduli (per esempio, non puoi inserire un modulo di livello 20 in un'arma di livello 5). I moduli di miglioramenti possono essere rimossi in qualsiasi momento, e verranno conservati nell'inventario dove occuperanno spazio. Assicurati di avere abbastanza spazio nell'inventario prima di rimuovere qualsiasi miglioramento. Se l'inventario si sta riempendo di moduli che non puoi liberartene, puoi sempre conservarli nella Banca. Si
+consiglia di rimuovere i moduli di miglioramento prima di rottamare l'equipaggiamento, dato che la rottamazione porta al cancellamento dei moduli inseriti.
 
-> From level 100+, it's recommended to print / use **Epic** caches for your gear set (if a player ever gets the chance to find or buy one, as it's the rarest cache / gear of all)
-
-Keep in mind that this guidance were only served as a reference rather than enforcing players into managing certain plays. Also, **Gear Quality** reflects the stats on the gear itself perspectively, thus inspecting it's quality is essential for optimal gear stats.
-
-## Finding Your Equipment
-You can find both gear and equipment caches in dungeons or when fighting individual enemies (street fights). Once you are level 5, you will be able to use the Player Market to purchase different types of gears, crafting materials and other items.
-
-## Printing Your Equipment
-Caches can be used to print equipment at your current Printing Rank at the Molecular 3D Printer in the City Center. The level of the printed gear will be the same as your Printing Rank, so make sure to keep your Printing Rank at the same level as your player level.
-
-## Upgrade Modules
-You can attach **Upgrade Modules** onto your equipment. In order to equip the module, the module level cannot be higher than the equipment's level (For example: you can't attach a level 20 upgrade module onto level 5 primary weapon).  
-
-Upgrade modules can be removed at any time. Removed upgrade modules will take space in your inventory (it has a same unique inventory treatment as gear / equipment). Make sure you have enough space in your inventory before removing any upgrades.  
-
-If your inventory is getting cluttered with upgrade modules that you can't rid of, you can always store unused module into your Bank Item Storage. 
-
-It is advisable to remove the upgrade module before scrapping your unused gear as scrapping a piece of gear with module in it will only accounts as a module deletion. Always keep an eye on which item that you'll scrap as it's not recoverable.  
-
-## Upgrade Slots
-Each equipment has a dedicated **Upgrade Slots** depending on it's rarity and quality, which can be summarized as follows:
-
+## Slot di Miglioramento
+Ogni equipaggiamento ha un certo numero di **Slot di Miglioramento** in base alla sua qualità, e sono i seguenti:
 #### Primary Weapon
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 to 3 Slots
- - Rare: 3 Slots
- - Legendary: 3 Slots
- - Epic: 4 Slots
-
+ - Spazzatura: da 0 a 1 slot
+ - Comune: da 1 a 2 slot
+ - Alta Qualità: da 2 a 3 slot
+ - Raro: 3 slot
+ - Leggendario: 3 slot
+ - Epico: 4 slot
 #### Special Weapon
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 Slots
- - Rare: 2 Slots
- - Legendary: 2 Slots
- - Epic: 3 Slots
-
+ - Spazzatura: da 0 a 1 slot
+ - Comune: da 1 a 2 slot
+ - Alta Qualità: 2 slot
+ - Raro: 2 slot
+ - Leggendario: 2 slot
+ - Epico: 3 slot
 #### Destructive Weapon
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 Slots
- - Rare: 2 Slots
- - Legendary: 2 Slots
- - Epic: 3 Slots
-
+ - Spazzatura: da 0 a 1 slot
+ - Comune: da 1 a 2 slot
+ - Alta Qualità: 2 slot
+ - Raro: 2 slot
+ - Leggendario: 2 slot
+ - Epico: 3 slot
 #### Helmet
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 Slots
- - Rare: 2 Slots
- - Legendary: 2 Slots
- - Epic: 3 Slots
-
+ - Spazzatura: da 0 a 1 slot
+ - Comune: da 1 a 2 slot
+ - Alta Qualità: 2 slot
+ - Raro: 2 slot
+ - Leggendario: 2 slot
+ - Epico: 3 slot
 #### Upper Armor
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 to 3 Slots
- - Rare: 3 to 4 Slots
- - Legendary: 4 Slots
- - Epic: 5 Slots
-
+ - Spazzatura: da 0 a 1 slot
+ - Comune: da 1 a 2 slot
+ - Alta Qualità: da 2 a 3 slot
+ - Raro: da 3 a 4 slot
+ - Leggendario: 4 slot
+ - Epico: 5 slot
 #### Lower Armor
- - Trash: 0 to 1 Slots
- - Common: 1 Slot
- - High Quality: 2 Slots
- - Rare: 3 Slots
- - Legendary: 3 Slots
- - Epic: 4 Slots
-
+ - Spazzatura: da 0 a 1 slot
+ - Comune: 1 Slot
+ - Alta Qualità: 2 slot
+ - Raro: 3 slot
+ - Leggendario: 3 slot
+ - Epico: 4 slot
 #### Boots
- - Trash: 0 to 1 Slots
- - Common: 1 Slot
- - High Quality: 2 Slots
- - Rare: 2 Slots
- - Legendary: 2 Slots
- - Epic: 3 Slots
+ - Spazzatura: da 0 a 1 slot
+ - Comune: 1 Slot
+ - Alta Qualità: 2 slot
+ - Raro: 2 slot
+ - Leggendario: 2 slot
+ - Epico: 3 slot
 
-## Other Items
-Explanation about other inventory such as parts and consumables, can be found on both [Inventory](https://cybercodeonline.com/markdown?path=tutorial%2Finventory.md) and [Resource's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md)
+## Altri oggetti
+Le spiegazioni degli altri oggetti come parti e consumabili possono essere trovate nelle pagine tutorial dell'[Inventario](https://cybercodeonline.com/markdown?path=tutorial%2Finventory.md) e delle [Risorse](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md).
