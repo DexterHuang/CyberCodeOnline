@@ -25,6 +25,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates           
+### 2022/11/14 v0.780
+- Added romania chat
+- improved bot detection on backend
+- sevrer optimization
+
 ### 2022/11/03 v0.780
 - Fixed Halloween emblem not showing on cosmetic page after halloween even ended, now you can see it still if you own the emblem
 - Fixed slder input not easy to click
