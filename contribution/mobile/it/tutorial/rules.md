@@ -1,43 +1,44 @@
+# Regole
 
+#### Noi di CCO confidiamo nel mantenere una comunità amichevole. Per permettere a tutti di divertirsi e godersi il gioco, ti consigliamo di familiarizzare con le regole.
 
-#### Here at CCO, we hope to maintain a friendly community. In order for everyone to have fun and enjoy the game, please familiarise yourself with the rules. 
+>Se pensi qualcuno stia violando delle regole e non ci sono moderatori, fai uno screenshot e riporta l'accaduto scrivendo un messaggio ai moderatori del [server Discord](https://discord.gg/JREx8xz).
 
-> If you feel someone is violating one of the rules and no moderators are around, take a screenshot and report it via direct messaging the moderators in the [Discord server](https://discord.gg/JREx8xz).
-### Important Guideline
-* It is strongly recommended to play with only one account per person, as our system will flag alt accounts, preventing you from sending items between your accounts. *this can happen even if you only have one alt* (We will not help you move your items or unlock the account if the system flags you.)
-* Never ever use in-game chat (including email) to send any kind of sensitive/personal information. Game chat is NOT encrypted and NOT secure. CCO does not bear any responsibility to protect your information you write in chat. Bear in mind that moderators have access to the chat log for moderation purposes. 
+## Linee guida importanti
+* Si raccomanda di giocare con un solo account. Il nostro sistema può segnalare account alternativi, bloccandoti dal mandare regali fra account. *Questo può succedere anche se hai un solo account alternativo* (Non ti aiuteremo a spostare gli oggetti o a sbloccare l'account se vieni segnalato dal sistema).
+* Non usare mai la chat di gioco (posta inclusa) per mandare informazioni sensibili o personali. La chat di gioco NON è crittografata e NON è sicura. CCO non si assume nessuna responsabilità di proteggere le informazioni che scrivi in chat. Tieni a mente che i moderatori hanno accesso alla cronologia della chat per scopi di moderazione. 
 
-### Game Rules
-* The use of bots and scripts are prohibited.
-* No tool assistance.
-* No excessive alts (**Unless you provide a reason to justify the necessity of creating an alt, it is deemed unnecessary, therefore excessive**) 
-    * Example of valid reason:
-      * You forgot the password of your main, and got locked out of account
-      * Your main account has been bugged and becomes unplayable
-    * Example of "cheating is not a valid reason":  
-      * I want to create alts so I can trade faster then normal players
-      * I want to create alts to store unlimited amount of items
-      * I want to create alts so I can AFK with unlimited parallel tasks
-      * I want to create alts so I can scam people with new names
-* Don't exploit bugs, report them instead.
-* Keep usernames family friendly.
-* Advertising (global chat/discord/bio/gang motto) of Selling/Buying account/items for IRL money (both directly or indirectly) is not allowed.
-* Tagging people for fun or with no real purpose is not allowed. This is to prevent people from creating accounts just so they can tag them (doing so will also breach the "No excessive alts" rule).
-* Any illegal activities will get you instantly banned -- including but not limited to -- harrassing underage person you met in game.
+## Regole del gioco
+* È vietato l'uso di bot e script.
+* È vietato l'uso di strumenti di assistenza.
+* Sono vietati gli account alternativi (**a meno che tu non provveda a giustificare la necessità di creare un account alterativo, verrà considerato un account inutile**).
+    * Esempi di ragioni valide:
+      * Hai dimenticato la password del tuo account principale e non riesci più ad accederci
+      * Si è verificato un errore o bug nel tuo account, rendendolo ingiocabile
+    * Esempi di ragioni non valide:  
+      * Voglio commerciare più velocemente degli altri giocatori
+      * Voglio conservare più oggetti alla volta
+      * Voglio fare più attività AFK alla volta
+      * Voglio truffare i giocatori vendendo i nomi
+* Non sfruttare i bug, segnalali.
+* Mantieni lo username "adatto alle famiglie".
+* È vietata la pubblicizzazione (chat/mail/bio/motto della gang/discord/reddit) di compravendite di account ed oggetti con soldi veri (che sia diretta o indiretta).
+* È vietato taggare gente senza motivo. Questa regola è per fermare la gente dal creare account alternativi solo per spammare (violerebbe anche la regola degli account alternativi),
+* Qualsiasi attività illegale ti farà bannare istantaneamente. Le attività illegali sono comprese, ma non limitate a: molestie, soprattutto di minorenni, in gioco.
 
-### Chat Rules
-**All rules are listed here, there are NO "unwritten rules", but be respectful and stop if other players don't like what you are sending in chat**
-#### Not Allowed: 
-* unfriendly, disrespectful to others opinion / offensive or passive agressive messages (Expample, racist, sexist comments)
-* non-family-friendly chat
-* Spamming / Trolling 
-* Advertising / Mentioning other games or anything else
-* Impersonating others  
-* Placing links in chat
-* Posting ads about your market sales more then once in 15 minutes
+## Regole della Chat
+**Tutte le regole sono elencati qui. NON ci sono "regole non scritte", ma si chiede ti essere rispettosi se ad altri giocatori non piace cose stai mandando in chat.**
+### Vietato:
+* mandare messaggi inamichevoli, irrispettosi, offensivi o passivo aggressivi (come commenti razzisti, sessisti ecc.)
+* conversazioni "non adatte alle famiglie"
+* Spamming / Trolling
+* Pubblicità o menzioni di altri giochi o altro ancora
+* Impersonare altri
+* Mettere link nella chat  
+* Mettere annunci sulle vendite di mercato più di una volta ogni 15 minuti
 
-#### Allowed(as long as you don't breach the rules above):
-* Emojis😃 / Kaomoji ~ヾ(＾∇＾) / 𝕹𝖔𝖓𝖊-𝖘𝖙𝖆𝖓𝖉𝖆𝖗𝖉 𝕱𝖔𝖓𝖙𝖘 (Must be easily readable and doesn't create chaos)
+### Consentito (purchè non violi le regole scritte sopra):
+* Emoji 😃 / Kaomoji ~ヾ(＾∇＾) / 𝕱𝖔𝖓𝖙 𝕹𝖔𝖓-𝖘𝖙𝖆𝖓𝖉𝖆𝖗𝖉 (devono essere leggibili e non creare confusione)
 * Roleplay / Roleplaying
-* Discussing Politics, Religions, or COVID-19 (and any major events)
-* Using any language in any chat channel.
+* Discutere di politica, religione, COVID-19 (e altri eventi d'alto calibro)
+* Usare qualsiasi lingua in qualsiasi chat

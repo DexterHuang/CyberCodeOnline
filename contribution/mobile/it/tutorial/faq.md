@@ -1,268 +1,190 @@
-> This FAQ (Frequently Asked Question) were compiled based on major question thats been asked by community and new player in general. Feel free to edit & add more FAQ-related content on [Github](https://github.com/DexterHuang/CyberCodeOnline).
+# FAQ
+> Questo FAQ è stato basato sulle domande più richieste nella community o da nuovi giocatori. Sentitevi liberi di aggiungere più domande e risposte modificando questo documento su [Github](https://github.com/DexterHuang/CyberCodeOnline).
+> Non riesci a trovare una risposta alla tua domanda? Sentiti libero di chiedere aiuto in **Chat** oppure sul server **Discord**! 😃
+>**IMPORTANTE: presta attenzione a possibili tentativi di truffa e giochi di ribasso sugli oggetti di gioco**. Chiedi sempre ai tuoi compagni, amici o in chat global del valore degli oggetti prima di accettare un'offerta (soprattutto se si tratta di equipaggiamento o cache epiche)! 😊
 
-> Can't find an Answer for your Question? Feel free to ask them in **Global / Language Chat** or **CCO's Discord**! 😃
+## Le basi
+### Cos'è questo gioco? Come posso giocarci?
+In breve, ti avventuri in vari luoghi attraverso le **Stazioni** sconfiggendo nemici singoli o conquistando interi dungeon. Il gioco avanzerà (alla prossima stazione) quando otterrai ciascun **Frammento di Chiave** in ogni area della stazione e creata la chiave al **Terminale** nel **Centro Città di Shangri-La**. Fatto questo, *ripeti punto e capo*. Puoi trovare una spiegazione più dettagliata nella sezione Tutorial. 
 
-> **Important Note:** **Beware of potential scam & lowballing price on in-game items**. Always ask your Gangmates / Friends / Global Chat about it's item value before confirming a market / trade deal (especially Epic Gear / Caches)! 😊
+### Cosa otterrò dopo un combattimento?
+Dopo ogni combattimento otterrai la valuta di gioco chiamata **Bitcoin (BTC)** e punti chiamati **Punti Esperienza (EXP)**. A volte riceverai oggetti, equipaggiamento o cache casuali.
 
-## Starting Point
+### Cosa sono le abilità? Come posso aumentare di livello l'abilità "X"?
+Ci sono cinque abilità che il giocatore potrà sviluppare, ognuna con i propri benefici nel migliorarle. Puoi far aumentare di livello le seguenti abilità:
+>**Grado di stampa**, stampando cache presso la **Stampante 3D Molecolare**, lavorando nella fabbrica di stampa oppure ingegnerizzando inversamente gli Scarti Tecnologicial **Centro Lavori**;
+>**Scienza medica** , hackerando la clinica al **Centri Lavori** oppure creando cure mediche nella sezione **Inventario > Creazione > Medica**; 
+>**Fabbricazione munizioni**, migliorando munizioni al **Centro Lavori** oppure creando munizioni nella sezione **Inventario > Creazione > Munizioni** (bisogna essere almeno di livello 10 per poter crearle);
+>**Abilità di esplorazione**, andando nelle area e compiendo l'attività **Esplora Area** o **Attiva Bot di Farming** (per le attività di esplorazione dovrai cominciare dall'area di livello più basso, per poter aumentare di livello ed esplorare le altre);
+>**Abilità di estrazione**, estraendo criptovalute presso il **Centro Lavori** o svolgendo l'attività della gang nel **Quartier Generale della Gang**.
 
-### What Is This Game? And How To Play It?
-In summary, you basically adventure around **Train Stations** while defeating individual enemies or conquer entire dungeons. The game will progress (onto the next Train Station) after you gain each **Key Fragments** on every area / dungeons in the station. After getting all 3 key fragments, you need to make convert the fragments into **Key** on dedicated **Terminal** (which player can find it on **Shangri-la City Center**). After that, *Rinse and Repeat*.
+### I livelli delle abilità possono essere più alti del livello del personaggio?
+No. Il livello del personaggio è la barriera di livello massimo delle abilità.
 
-More in-depth explanation can be found on dedicated Tutorial section.
+### Posso usare attrezzatura di livello più alto del personaggio?
+No. I giocatori possono usare attrezzatura di livello massimo pari a quello del personaggio.
 
-### What Do I Get From Joining / Finishing A Fight?
+### Qual'è il modo più veloce di salire di livello?
+Ai livelli più bassi (1-7), il modo più veloce è combattere i **nemici in zona**. Combattendo i nemici gialli otterrai più punti esperienza al costo di un combattimento più difficile. Dal livello 7 in poi prova a equipaggiare e stampare equipaggiamento e a completare un **Dungeon Normale** in solitario. Il giocatore può anche unirsi ad un dungeon di un altro giocatore tramite la funzione **Lista Dungeon** sul menù rapido in basso a destra. Completando un dungeon si otterranno più punti esperienza rispetto a combattere i nemici in zona. Per risultati migliori, prova a completare i **Dungeon Sfida** con equipaggiamento di qualità Rara o peggiore, oppure i **Dungeon della Gang** con equipaggiamento leggendario o migliore con il potenziamento **Trasmettitore Corteccia Frontale** attivato (booster di EXP). Puoi anche aumentare di livello completando l'attività AFK **Attiva Bot di Farming**, che richiede un **Nucleo IA**. Quest'attività richiede tempo (fino a due ore) ed è redditizia se lo Skip Globale è attivato, riducendo il tempo dell'attività. Puoi trovare una spiegazione più dettagliata di come funzionano gli Skip nel tutorial dello [Skip Globale](https://cybercodeonline.com/markdown?path=tutorial%2Fglobal_skip.md).
 
-You'll receive in-game currency called **BTC (Bitcoin)** and in-game experience called **EXP (Experience)** inside a battle. At times, you'll randomly receive items, equipment or caches after defeating enemies.
+### Ho bisogno di più BTC
+Puoi guadagnare BTC velocemente vendendo certi oggetti nel **Mercato di Strada di Shangri-La**. All'inizio, è consigliabile vendere le Parti di Tecnologia Medica, Scarti Tecnologici e Processori Hash nel mercato seguendo i prezzi correnti. Con l'aggiunto del Mercato Nero, i giocatori possono ottenere BTC vendendo le loro Cache nel Mercato Nero. Tuttavia, quest'azione sarà redditizia a livelli più alti.
 
-**[You'll always be receive BTC and EXP in a battle, but items won't drop after every single battle.]** 
+### Cosa succede se muoio?
+Dal livello 10 in poi perderai il 10% dei BTC non depositati e EXP del livello attuale; tuttavia, il tuo inventario sarà al sicuro. Si consiglia di depositare i BTC nella **Banca di Arasaka** per evitare perdite ingenti.
 
-### What Is Skills? How to Level Up "X" Skills?
-There are 5 skills that player can develop & it has it's own perk upon doing so. In summary, here's how to level up certain skills:
+### Perchè non posso usare le mie armi speciali e distruttive?
+Queste armi richiedono munizioni. Le armi speciali richiedono **Celle di Energia** e le armi distruttive richiedono **Cariche Antimateria**. Le munizioni possono essere saccheggiate dai nemici, prese dalle casse nei dungeon, ottenute completando la missione del datore di missioni nel dungeon, create nel tuo inventario oppure comprate nel mercato dei giocatori.
 
-> For **Printing Skills**, player can level up by doing **Printing Task** or **Reverse Engineer** (costs Tech Scraps) on **Commercial Area** (/ Job Hub) or by printing trash cache at **Molecular 3D Printer**.  
+### Cosa sono le Cache? Come dovrei utilizzarle?
+La Cache è un oggetto che ti permette di creare equipaggiamento presso la Stampante 3D Molecolare. Si sconsiglia di scartare le cache, dato che hanno solo il 50% di probabilità di darti Scarti Tecnologici e sono molto più redditizie se stampate o vendute.
 
-> For **Medical Skills**, player can level up by doing **Medical Task** on **Commercial Area** (/ Job Hub) or by crafting **Medical Items** on **Inventory > Crafting > Medical**.
+### Dove possono ottenere le cure mediche?
+Le cure mediche possono essere create (nella sezione Inventario), trovate sconfiggendo nemici o saccheggiando le casse nei dungeon, o comprate al Mercato di Trinoky nel Centro Città o nel mercato dei giocatori.
 
-> For **Ammo Crafting Skills**, player can level up by doing **Ammo Crafting Task** on **Commercial Area** (/ Job Hub) or by crafting Ammo on **Inventory > Crafting > Ammo** (Needs to be atleast level 10 Ammo Crafting before doing so).  
+### Come posso usare le cure mediche?
+Per usare le cure mediche vai nell'Inventario e sotto nella scheda "Equipaggiamento" troverai tre "Slot rapidi" (sopra lo slot delle armi). Clicca su uno di essi e assegna una cura medica. Quest'ultime possono essere utilizzate solo nei dungeon. Maggiori informazioni sulle cure mediche possono essere trovate nel Tutorial [Risorse](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md).
+### Come posso creare l'oggetto "X"?
+Sopra la pagina dell'Inventario, troverai una scheda chiamata "Creazione". 
 
-> For **Scavenge Skills**, player can level up by doing **Scavenge Task**. Player can find Scavenge task below **Deploy Farm Bot** Task on each area. It is important to note that starting out, you must start at the level 1-4 area due to the requirements on scavenging level of later areas.
+### Qualcuno mi ha inviato un regalo/Ho comprato o rimosso un oggetto dal Mercato. Dove lo posso trovare?
+Tutti gli oggetti ricevuti in regalo oppure comprati o rimossi dal mercato possono essere trovati nell'Inventario sotto la scheda "Oggetti Ricevuti". 
 
-> For **Mining Skills**, player can level up by doing **Crypto Mining Task** on **Commercial Area** (/ Job Hub) or by doing **Gang Task** that player can find on their Gang Headquarters.
+## Avanzato / Gameplay
 
-### What's the Benefit of Leveling Up "X" Skills?
-There are 5 skills that player can develop & it has it's own perk upon doing so. In summary, here's the benefit of leveling up certain skills:
+### Che cos'è il punteggio equipaggiamento?
+Il **Punteggio Equipaggiamento** è il livello medio dell'equipaggiamento che indossi. Viene calcolato facendo la media fra i livelli dell'armatura e dell'arma primaria o speciale (viene contata quella con il livello più alto). SI raccomanda di migliorare il proprio equipaggiamento progredendo nel gioco in maniera tale da avere statistiche del personaggio migliori, rendendo più facile i combattimenti con i nemici e la sopravvivenza nei dungeon a livelli più alti. Le percentuali dei modificatori rimangono costanti a differenza del livello dell'oggetto. Nella pagina "Profilo" potrai controllare le tue statistiche per determinare di quali modificatori necessiti quando pianifichi la tua build.
 
-> For **Printing Skills**, player can print a better and higher level gear. Having a better gear onto player's arsenal adds better stats into players favour, making fight less difficult. 
+#### Perchè dovrei tener conto del Punteggio Equipaggiamento?
+Tener d'occhio il Punteggio Equipaggiamento porta non solo ad avere un'idea di cosa migliorare, ma anche a due aspetti legati al gameplay che vanno oltre alle statistiche:
+- più alto è il punteggio, più EXP otterrai dalle attività di farming, perciò avere un "Set AFK" massimizzerà i tuoi guadagni;
+- non otterrai bottino da o punti esperienza se il punteggio è di almeno 10 livelli più alto di quello del dungeon;
 
-> For **Medical Skills**, player can craft better meds into their arsenal (up to Epic Nano Medic Bots), helping player on a longer run while also providing better health pool per usage.
+### Cos'è un Set AFK?
+Molti giocatori hanno un "Set AFK" scambiabile. In questo set importa solo il punteggio equipaggiamento al posto di statistiche o modificatori, perciò possono essere stampate delle Cache Spazzatura per ottenere un set completo e portare il punteggio equipaggiamento in linea con il livello del personaggio. Prima di stampare: ricordati di controllare il rango di stampa dalla pagina del Profilo, dato che ti farà stampare solo cache di livello uguale ad esso.
 
-> For **Ammo Crafting Skills**, player can craft more ammo per 10 levels with the same amount of ingredients.
+### Qual'è il numero massimo che una pila d'oggetti può avere?
+Puoi impilare fino a massimo 10000 oggetti (la stessa quantità si applica alla banca, mercato e nella casella degli oggetti ricevuti) nell'inventario, escludendo l'equipaggiamento e i Moduli di Miglioramento.
 
-> For **Scavenge Skills**, player can do higher level Scavenge Task, which allows player to get an even better item drop rate. 
+### Qual'è lo spazio massimo che possiamo ottenere nell'inventario?
+All'inizio, i giocatori avranno di base 50 slot. I giocatori possono incrementare la quantità degli slot equipaggiando gli zaini (che pososno essere ottenuti dal Negozio di Commercio di Leeo Mercato dei Giocatori) e usando equipaggiamenti e moduli che hanno la statistica **Slot**. Il massimo numero di spazi nell'inventario è 178.
 
-> For **Mining Skills**, player can get better BTC amount per 1 Crypto Mining task and also higher output of AI craft per level with the same amount of ingredients.
+### Cos'è il Pachinko?
+Il **Pachinko** e **Pachinko Plus Pro Max** sono attività AFK che simulano il gioco del Pachinko, dove i giocatori scommettono la propria valuta per la possibilità di vincere un oggetti di valore (in questo caso equipaggiamento Epico) o meno (variano da Antidolorifici a Celle d'Energia e altri materiali). Per poter "giocare" a Pachinko i giocatori dovranno pagare 5.000 (per quello normale) o 1.000.000 (per il Pachinko Plus Pro Max) BTC per iniziare l'attività.
 
-### Can Skills Level be higher than our Character Level?
-No. Character Level is the max / boundary of player's skill level.
+### Il gioco supporta il commercio tra giocatori?
+Sì, in parte. Puoi inviare oggetti ad altri giocatori, ma non c'è un sistema che obbliga il giocatore a dare qualcosa in cambio. Molti commerci sono basati sulla fiducia. Gli oggetti regalabili sono cure mediche, munizioni, materiali, Processori Hash, Nuclei IA e altri tipi di oggetti. Non puoi regalare BTC e Frammenti di Chiave.
 
-### Can I Use Gear that's higher than our Character Level?
-No. player can't use gear that's higher than it's current character level.
+### Cosa dovrei fare quando il mio inventario è pieno?
+Puoi scartare, distruggere o conservare gli oggetti nella Banca di Arasaka nel Centro Città. Nota che la l'imposta per ogni oggetti depositato è di 100 BTC. Ritirarli dalla banca non costa niente. Inoltre puoi incrementare lo spazio dell'inventario equipaggiando moduli ed equipaggiamento con la statistica "Slot".
 
-### What is the fastest way to level up in this game?
-On **lower level (1-7)**, the fastest and best way to level up is to fight **Nearby Enemies** constantly. Defeating the **yellow enemies** will result in more EXP gain, while also risking in having a harder fight than a normal enemies.
+### Cos'è la "Qualità" di un'equipaggiamento?
+La qualità dell'equipaggiamento contribuisce molto alle statistiche di esso: più alta la qualità, migliori le statistiche. I gradi di qualità sono Spazzatura < Comune < Alta Qualità < Raro < Leggendario < Epico. Non puoi cambiare la qualità dell'equipaggiamento.
 
-**After reaching level 7**, try to equip / print a gear that has same gear level as your character level, and jumps into solo **Normal Dungeon**. Player can also join other players Dungeon via **Dungeon List** feature on **Map > Phone Icon > Dungeon List**. Finishing a dungeon will gain more EXP yield than Nearby Enemies.
+### Cos'è la "Durabilità" di un'equipaggiamento?
+*La durabilità o durevolezza è la capacità di un prodotto fisico di rimanere funzionante senza eccessive operazioni di manutenzione o riparazioni, nelle condizioni normali del suo ciclo di vita (Wikipedia)*. La durabilità si riduce solo quando combatti i nemici in zona, e non viene influenzata dai combattimenti nei dungeon.
 
-For best results, try to compelete **Challenge Dungeons** at rare and below gear or **Gang Dungeons** at legendary or above gear while having an active **Frontal Cortex Transmitter** (EXP Buff / Booster).
+### Come posso riparare la durabilità dell'equipaggiamento?
+Al momento la durabilità sarà solo un numero della statistica dell'equipaggiamento. Non sarà mai ridotto, perciò la funzionalità di riparare la durabilità non ha senso di esistere.
 
-Note: You could also level up by doing AFK Task (**Deploy Farm Bot**) that requires **AI Core**. These task takes time (up to 2 hours) & only be profitable if a Global Skip event is happening, which recudes the task time (making it the most efficient way to level up). Explanation around Time Skip can be found on [Time Skip's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fglobal_skip.md)
+### Il livello delle cache scala con il mio livello? Dovrei conservarle per usi futuri?
+I liveli dell'attrezzatura stampata dalle cache scala con il rango di stampa, ovvero saranno pari a quest'ultimo. Assicurati che il livello di stampa sia uguale al livello del personaggio per ricevere il miglior equipaggiamento possibile dalle stampe. Non importa se stampi le cache ora o più in là, ma è consigliato stampare le cache Leggendarie dal livello 50 in poi, e le Epiche dal livello 100 in poi oppure venderle ad altri giocatori per un buon profitto. Quest'ultime sono molto più costose da stampare delle cache Rare, ma l'equipaggiamento avrà statistiche nettamente migliori. Gli oggetti di qualità più alta possono durare per molto tempo, e vale la pena calibrarli alla Stazione di Calibrazione.
 
-### I Need more BTC. Help!
-You can yield / gain BTC quickly by selling certain items on **Shangri-La Market Street**. At the start, its recommended to sell your Medical Tech Parts, Tech Scrap, and Hash Processor onto the market following the current market price. Specifically for Hash Processor, as a lower level player (for at least below level 100), it's best to sell Hash Processor at the start rather than using it for **Crypto Mining** task as it yields for less BTC than it's actual market price.
+### Possono migliorare le statistiche dell'equipaggiamento?
+Sì, puoi migliorarle alla Stazione di Calibrazione trovata nella Mappa. Puoi trovare delle spigazioni più dettagliate sul tutorial [Calibrazione](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md).
 
-With addition of Black Market (as of 2022/04/18), players can also "print" their own BTC by selling their caches onto Black Market. However, this action will only be profitable on higher level (with addition on Bargain stats), making it more likely to become a high-level player feature.
+### Possono rimuovere dei Moduli di Miglioramento installati?
+Sì, basta premere sul Modulo di Miglioramento installato per rimuoverlo dall'equipaggiamento.
 
-### What will happen if I Die / Flatlined?
-**After level 10, you will lose 10% of your unbanked BTC and EXP**; however your inventory will be safe. It is advisable to keep your BTC in **Arasaka Bank** in order to prevent major losses.
+### Ai livelli più alti ricevi ricompense migliori?
+Sì. Nemici di livelli più alti ti daranno più BTC e EXP dopo averli sconfitti. 
 
-### Why can't I use my Special and Destructive weapons?
-These weapons require ammo. Special weapons uses **Energy Cells** and Destructive weapons use **Anti-Matter Charges**. Ammo can be looted form enemies, crafted in your Inventory, or bought on the player market.
+### Cosa sono i Contenitori Bloccati? Come posso sbloccarli?
+I **Contenitori Bloccati** (✧) possono essere trovati nei dungeon oppure svolgendo l'attività di esplorazione. Possono essere sbloccati usando gli Scarti Tecnologici al Terminale in Centro Città, e possono contenere varie ricompense che variano da Scarti Tecnologici ad equipaggiamenti Leggendari. I costi per sbloccare i Contenitori Bloccati sono i seguenti:
+- **Comune**, 32 Scarti Tecnologici;
+- **Raro** 64 Scarti Tecnologici;
+- **Leggendario** 128 Scarti Tecnologici.
 
-### What are caches and what should I do with them?
-Cache is an item that you can use to craft equipment at the Molecular 3D Printer.  It is not recommended to scrap your caches as it has 50% chance of giving Tech Scrap & also more valuable to print or sell.
+Se non è disponibile l'opzione per sbloccare i contenitori nel Terminale significa che non hai abbastanza Scarti Tecnologici.
 
-### When do I Print "X" cache?
-Explanation around Cache printing can be found on [Equipment's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fequipment.md)
+### Cos'è la Reputazione?
+La **Reputazione** è un modo di apprezzare un giocatore che ti piace o ti ha aiutato. Sono molto simili ai punti karma su Reddit. Puoi dare 1 punto reputazione al giorno. Per dare i punti reputazione puoi andare sul profilo del giocatore, scorrere in basso ad "Azioni Giocatore" e premere su **Dai reputazione**. Considerai dare reputazione alle persone che contribuiscono al gioco! Puoi vedere la classifica su **Classifica > Reputazione** dal menù fluttuante.
 
-### Where can I get healing items?
-Healing items can be crafted (which can be found on Inventory > Crafting > Medical), found when defeating an enemy or when looting a crate in a dungeon, or purchased at the Trinoky Mart in the City Center. They can also be purchased from the Player Market. Full detail around heal amount can be found on [Resource's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md)
+## Avanzato / Dungeon
 
-### How do I use my healing items?
-To equip and use your healing items, go to your inventory and under Equipped tab, you will find 3 'Quick Slots' (on top of your equipped weapon slot). Click on one of them and assign your desired healing item to it. Healing items can be used only inside dungeons.  
+### Come posso uscire dal dungeon?
+Puoi uscire dal dungeon premendo il bottone **Lascia il dungeon** quando vuoi (a meno che non sei in un combattimento o stai ispezionando casse) oppure premendo la porta colorata di rosso nella prima stanza del dungeon quando disponibile.
 
-### How do I craft "X" items?
-At the top of the Inventory page, you will find a tab called 'Crafting'.
+### Come posso invitare qualcuno nel mio dungeon?
+Puoi invitare qualcuno nel tuo dungeon premendo il bottone **Invita in chat** (tieni a mente che l'invito viene mandato globalmente).
 
-### Someone Sending Me Item / Gift. Where Can I Find Them?
-All the item that been sent or removed from Market Stall, can be found on Inventory page, on a tab called 'Item Inbox'. 
+### Cosa sono i dungeon pubblici, privati e protetti da password?
+Quando crei un dungeon, di default sarà privato; sarà invisibile e inaccessibile ad altri giocatori. Rendendo il tuo dungeon pubblico potrai far accedere al dungeon tutti i giocatori che soddisfano i requisiti minimi. Puoi anche impostare una password per il tuo dungeon, rendendolo accessibile solo a chi la conosce.
 
-### Where is "X" Place?
-Explanation around Game Area can be found on [Location's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Flocations.md)
+### Come posso trovare i dungeon pubblici?
+Puoi trovare i dungeon pubblici tramite l'opzione lista dungeon trovata nel menù fluttuante.
 
-### What is "X" Item?
-Explanation around Item / Resources can be found on both [Inventory](https://cybercodeonline.com/markdown?path=tutorial%2Finventory.md) and [Resource's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md)
+### Cosa sono i simboli presenti nel dungeon?
+- "?" rappresenta una missione. Puoi vedere le missioni accettate dal menù Missioni;
+- "!" rappresenta la lore;
+- le scatole bianche rappresentano le casse; 
+- il simbolo che assomiglia ad una finestra indica una cassa con un Frammento di Chiave;
+- "✧" rappresenta un Contenitore Bloccato;
+- l'icone che assomiglia ad un alieno rappresenta un nemico.
 
+### Aiuto, dei giocatori stanno saccegghiando le mie cose!
+Il bottino nelle casse viene generato casualmente per ogni giocatore. Perciò, è impossibile rubare il bottino da altri.
 
-## Advanced / Gameplay Related
+## Avanzato / Gang
 
-### What is the Gear Score?
-**Gear Score** is the average level of the equipment you wear. This is calculated by averaging the 5 levels of your equipped gear, this includes: Primary or Special Weapon (it only accounts for the highest level between the two gear) and 4 Non-Weapon / Armor (Helmet, Upper Armor, Lower Armor, Boots) gears. 
+### Cosa sono le Gang? Come posso crearne una?
+Le gang sono simili alle gilde o clan negli altri MMORPG. Unirsi ad una gang ti dà accesso a nuove attività AFK, un rottamatore per creare Scarti Tecnologici e la chat della gang. Avrai anche accesso ai gang dungeon, che hanno un livello di difficoltà alto, ma con migliori ricompense dei dungeon normali. Puoi crearne una selezionando la chat della gang. Il costo di creazione di una gang è 50.000 BTC. Le gang hanno un costo di mantenimento settimanale che dev'essere soddisfatto per evitare di scioglierla. Le gang ti permettono di avere un tag di tre lettere, scelto nel momento in cui la gang viene creata, nel bordo della chat.
 
-It is recommended to continue upgrading your gear as you progress through the game as high level items have better inherent stats like health, damage and armor and will make Nearby Enemies and Dungeons much easier to survive on higher levels. The percentage bracket for modifiers are constant irregardless of item level. Utilise the Profile page and check your Stats to determine which modifiers you require when planning your build.
+### Come posso cercare una Gang? Come posso unirmi ad una?
+Al momento, non puoi vedere una lista di gang nel gioco. Puoi unirti ad una creandola oppure ricevendo un invito da una gang.
 
-#### Why should I Care About Gear Score? 
-Checking your Gear Score on your profile page can not only give you a quick idea whether you need to look to upgrade but it has two secret impacts directly tied into gameplay other than stats.
-- The higher your gear score, the more XP you’ll gain through the AFK XP Farm - Deploy Farm Bot, thus having an “AFK Set” will maximize your EXP gain.
-- Dungeons will not allow you to obtain loot from chests or XP from enemies if your Gear Score is 10+ levels higher than the Dungeon Level itself.
+### Dov'è il Quartier Generale? Cosa posso fare lì?
+Il Quartier Generale della gang è locato in Centro Città. Qui potrai donare BTC, raccogliere risorse e svolgere diverse attività AFK.
+### Posso rinominare la mia Gang? Posso avere lo stesso tag di un'altra Gang?
+Al momento, non puoi rinominare la tua gang. Inoltre, è proibito avere lo stesso tag di un'altra gang. Tutte le gang dovrebbero avere un tag diverso per evitare confusioni.
 
-### What is an AFK Set?
-Many players have a swappable “AFK Set”; for this, only the gear score matters not the stats nor modifiers so Trash Caches can be printed to fill all 5 gear slots (Primary / Special Weapon, Helmet, Upper Armor, Lower Armor, Boots) and bring your Gear Score back inline with your Character Level.  Before you rush off to start printing though; remember to make sure to check your level of Printing Rank on your Profile page as subsequent prints will only have the level equal to your current Printing Rank; if not, printing Weapon, Armor or Mod Caches will raise your Printing Rank.
+### Come posso far aumentare di livello la mia Gang?
+Per mantenere la tua gang e farla aumentare di livello, ciascun giocatore dovrà raccogliere risorse (tramite l'attività AFK nel Quartier Generale) e dovrai anche donare BTC.
 
-### What is the Max Item / Stack?
-You can carry up to 10000 items (same amount applies to Bank, Market, and Item Inbox) into your Inventory, excluding Gear & Upgrade Modules.
+### Come posso lasciare la Gang?
+Per lasciare la Gang puoi premere il bottone "Lascia Gang" sotto la pagina Profilo.
 
-### What is the amount of Inventory Slot that we can acquired?
-At the start, players will have the base of 50 Inventory Slot. Players can increase the amount of slot by equipping backpack (which can be acquired via Lee's Trading Post, Player Market, and Player Trade) and using gear or modules that has a **Pocket** stats. The max Inventory Slots are 178.
+## Generale / Altro
 
-### What is Global Skip?
-Explanation around Global / Time Skip can be found on [Time Skip's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fglobal_skip.md)
+### Questo gioco è P2W (Pay-To-Win)?
+No. Non c'è elemento a pagamento nel gioco che possa beneficiare o dare vantaggi ad alcuni giocatori rispetto ad altri. Tutti i trasmettitori, potenziamenti e skip venduti hanno effetto globale, ovvero una volta attivato tutti i giocatori potranno beneficiarne dell'effetto. Lo sviluppatore vuole mantenere il gioco non P2W in futuro.
 
-### What is Calibration?
-Explanation around Calibration can be found on [Calibration's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
+### Questo gioco ha funzionalità PvP?
+No, al momento il PvP non è disponibile nel gioco.
 
-### What is Pachinko?
-**Pachinko** or **Pachinko's Plus Pro Max** is an AFK task that simulates the real-life game of Pachinko, where players put their in-game currency on a line for a chance to get a high-tier item (in this case, there's a chance of getting an **Epic Gear** from Pachinko) or merely a low-tier item (ranged from **Pain Away**, **Energy Cells**, and other materials). In order to "play" Pachinko, player must have at least 5,000 (for normal Pachinko) & 1,000,000 (for Pachinko's Plus Pro Max) Bitcoin in hand before starting the task. 
+### Cosa sono i Bitcoin (BTC) e come posso riscattarli nel mio portafoglio?
+I Bitcoin (BTC) sono la valuta del gioco. I Bitcoin di questo gioco non sono gli stessi di quelli del mondo reale. Se lo fossero, saremmo tutti più ricchi di Elon Musk! :)
 
-### Does the game support trading among players?
-Yes, partially. You can send items to other players, but there isn't a system that forces the other person to give something in exchange. Most trades are conducted with trust. You can't gift BTC and key fragments to other players. Only Healing Items, Ammo, Materials, Hash Processors, AI Cores and other types of items.
+### Come posso aiutare?
+Tutto il contenuto contribuito dagli utenti può essere trovato su [Github](https://github.com/DexterHuang/CyberCodeOnline). Sentiti libero di inviare una Pull Request.
 
-### What should I do if my inventory is full?
-You can either scrap, destroy or store items in the bank located in the City Center. Note that the fee for each item you deposit in the bank is 100 BTC. It doesn't cost anything to take the item back out. You can also temporarily increase your inventory capacity with the 'Pocket' stat found on equipment and upgrade modules.
+### Questo gioco ha canali social?
+Sì. Puoi trovare la nostra community su [Discord](https://discord.link/cco) e su [Reddit](https://www.reddit.com/r/CyberCode_Online/). Inoltre, lo sviluppatore (DexterHuang) ha un [Patreon](https://www.patreon.com/cybercodeonline) per le donazioni che aiutano a supportarlo e a mantenere il gioco. Questi link possono essere trovati accedendo a ☰ e premendo sul simbolo della catena su telefono, oppure cliccando sulle rispettive icone delle piattaforme elencate a sinistra del gioco in versione web.
 
-### What does "Quality" on weapons and armor means?
-The quality of the armor will contribute a lot on the stat it gives; the higher the quality, the better the stats.
-Quality tiers go from Trash > Common > High Quality > Rare > Legendary > Epic. You cannot change the Quality of a weapon or armor.
+### Quali programmi o linguaggi sono usati per la creazione del gioco?
+CyberCode Online è un gioco sviluppato usando [ReactJS](https://reactjs.org/), con contributi da parte dei giocatori da [Github](https://github.com/DexterHuang/CyberCodeOnline).
 
-### What does "Durability" on weapons and armor means?
-*Durability is the ability of an equipment to remain functional, without requiring excessive maintenance or repair, when faced with the challenges of normal operation over it's designed lifetime (Wikipedia)*.  Durability only decreases when fighting Nearby Enemies.  Durability is not impacted when fighting in dungeons.
+### Il gioco è tradotto in altre lingue?
+Sì. Per cambiare la lingua del gioco, vai su Mappa e premi su ⚙️. Le traduzioni potrebbero contenere degli errori o essere incomplete. Se il gioco non è tradotto nella tua lingua o vuoi migliorare le traduzioni corrente, puoi andare sul nostro [Github](https://github.com/DexterHuang/CyberCodeOnline).
 
-### How do I repair my equipment's durability?
-As of current update, Durability will just be a mere numbers on your gear stats. It will never be decreased & the feature to **Repair** gear's durability were no longer exist.
+### Posso cambiare il mio nome?
+No, non puoi cambiare il tuo nome. Lo username è al momento permanente. I moderatori e sviluppatori hanno diritto di cambiare il tuo username se contiene profanità.
 
-### Do caches scale with my level? Should I keep them for later?
-The caches you print scale with your Printing Rank. The gear that you obtain from them will always have the same level as your Printing Rank. Make sure to level your Printing Rank to your current player level to always receive the best equipment possible from printing.
+### Come posso taggare qualcuno? Posso cercare gli usernami di altri giocatori?
+Puoi taggare e cercare un giocatore scrivendo @ in chat seguito dal loro nome (per esempio, digita @DexterHuang). Quando li taggherai riceverà una notifica.
 
-It doesn't matter if you print your caches now or later, but it's recommended to keep your Legendary caches for level 50 / 60+. If you happen to find an Epic cache, hold onto it until level 100+ or sell it to other players.
+### La chat supporta emoji e kaimoji?
+Altrochè 🤠 ฅ^•ﻌ•^ฅ. Ti preghiamo di non spammarle o abusarne, perchè questa pratica è contro le regole della chat.
 
-Legendary and Epic caches are much more expensive to craft than Rare ones, but the items have much better stats.  Higher quality items can last you for a long time, and are often worth calibrating at the Calibration Station.
-
-### Can I upgrade the stats of my weapons and armour?
-Yes, you can upgrade your weapons at the Calibration Station found in your main map. Explanation around Calibration can be found on [Calibration's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
-
-### Can I remove installed upgrade modules?
-Yes. Click on the installed upgrade module to remove it from the equipment.
-
-### Why is the equipment I print the wrong level?
-Your printed gear will have the same level as the one from your 'Printing Rank'. It does not scale with player level.
-
-### Will higher level enemies give more rewards?
-Yes. Higher level enemies give you more BTC and experience after you defeat them.
-
-### What are Locked Containers and how do I unlock them?
-**Locked Containers (✧)** can be found and picked up from dungeons or by doing Scavenge Task. They can be unlocked using Tech Scraps at the Terminal in the main HUB, and contain various rewards ranging from Tech Scrap to Legendary gear. Tech scrap costs for opening the containers are 32 Tech Scrap for common containers, 64 for rare containers, and 128 for legendary ones. If you don't see the option for unlocking the container at the Terminal, it means you do not have enough Tech Scraps.
-
-### What is Street Cred?
-**Street Cred (Street Credit)** is a way to appreciate someone you like or who has helped you. They are similar to "Karma" points on Reddit. You can give 1 Street Cred per day. To give Street Cred, go to the person's profile, scroll down to 'Player Actions' and click on **Give Street Cred** option that's located under **Add to Friend List** button. Consider giving some Street Credit to the people that contributed to this game! You can view the list at Profile > Phone Icon > Leaderboard > Street Cred.
-
-### What's That Heart / Snowflake Thing That Emits on Chat Room?
-When a skip is initialized, a unique button (represented with a fast forward icon) will appear on the right side of the Chat room, at the top of the "Send" button. The fast forward-like button was referred to as a **Skipper Respect** button. This button alone will only appear during Global Skip and vanish after Global Skip is finished.
-
-It's been told that whenever a player taps the button (indicated by colored hearts / snowflakes), there's a chance that a player itself will win a prize from it. The prize themselves ranged from Medical Tech, AI Cores, Backpack, and Epic Gear. This activity was referred to as a **Skip Raffle**.
-
-
-## Advanced / Dungeon Related
-
-### What is "X" in Dungeon?
-Explanation around Dungeon can be found on [Dungeon's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fdungeon.md)
-
-### How to Exit Dungeon?
-You can exit a dungeon by clicking **Leave Dungeon** button whenever you wants (as long as you're not in a fighting / inventory state).
-
-### How to Invite Someone onto my Dungeon?
-You can invite anyone into your dungeon by clicking **Invite To Chat** button (keep in mind that the invite sends globally).
-
-### What are Public and Private Dungeons, and Password Protected Dungeons?
-When creating a dungeon, it will default to Private.  This means that it will be invisible and inaccessible to other players. If you make your dungeon Public, This means that anyone can see and join your dungeon as long as they meet the level requirements. You may also create a password for your dungeon so that it is only accessible by users who know the password.
-
-### How to find Public Dungeons?
-You can find Public Dungeon via Dungeon List option (which found on Profile > Phone Icon > Dungeon List).
-
-### What are the symbols in dungeons?
-- "?" represents a quest. You can access accepted quests in your Quest tab.
-- "!" represents lore.
-- Crates are represented by small white boxes.  
-- Crates that have a "+" inside them contain key fragments.
-- The yellow stars / ✧ contains a locked container.
-- The "alien looking icons" represent monsters inside the dungeon.
-
-### People are looting my stuff. Help!
-The loot in the crates is randomly generated for each player. Therefore, it's impossible for someone to steal your loot.
-
-
-## Advance / Gang Related
-
-### What is "X" in Gang?
-Explanation around Gang can be found on [Gang's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fgangs.md)
-
-### What are Gangs and how do I create one?
-Gangs are similar to guilds or clans in other MMORPGs. Joining a gang gives you access to new AFK tasks, a recycler to make tech scrap, and gang chat!  You also gain access to gang dungeons, which have a high level of difficulty but greater rewards than the regular dungeons.
-
-You can create one by selecting the Gang chat. The cost to create a gang is 50,000 BTC.  Gangs have a weekly upkeep cost that must be met to avoid being disbanded. Gangs allow you to have a tag of 3 letters, chosen when the gang was created, in your chat border.
-
-### How do I search for a Gang? How do I join one?
-Currently, you can't see a list of gangs in the game. You can join one by creating it yourself or by receiving an invite from a gang.
-
-### Where are the Gang Headquarters (HQ)? What can I do there?
-Gang HQ is located in the main HUB, under [Player Market].  At the Gang HQ you're able to donate bitcoin, gather resources, and do a varitety of AFK tasks.
-
-### Can I rename my Gang? Can I have the same tag as another Gang has?
-Currently, you can't rename your own gang. It's forbidden to have the same tag as other gangs. All gangs should have different / unique tags in order to avoid confusion.
-
-### How can I level up my Gang?
-To be able to maintain your gang and to level it up, each member of the gang will have to gather resources (through an AFK task in the Gang Headquarters) and will also have to donate bitcoins to it.
-
-### How to Leave my Gang?
-To leave a Gang, go to Profile > Scroll Down > Quit Gang.
-
-
-## General / Other
-
-### Is this game P2W (Pay-to-Win)?
-No. There's no element in this game that would benefit or offer additional advantages to some players over others. The Transmitters / Buffs sold in the Arasaka Unit Exchange have a global effect, which means once it is activated, all players on the server will benefit from the effect that it gives. Similarly, the Global Skips that can be purchased apply to all players who have started AFK tasks.
-
-The developer intends to keep the game non-P2W into the future.
-
-### Does this game have PvP?
-No. PvP is not currently available in the game.
-
-### What is BitCoin (BTC) and how do I redeem it to my wallet?
-BitCoin (BTC) is the game's currency.  Your in game BitCoin isn't the same as the one from the real world. If it was, we would all be richer than Elon Musk! :)
-
-### How can I help out?
-All user-contributed content can be found on the [Github](https://github.com/DexterHuang/CyberCodeOnline). Feel free to submit a PR (Pull Request).
-
-### Does this game have any social media?
-Yes. You can find our community on [Discord](https://discord.link/cco) and on [Reddit](https://www.reddit.com/r/CyberCode_Online/). The developer (DexterHuang) also has a [Patreon](https://www.patreon.com/cybercodeonline) for donations that will help support and maintain the game.
-
-These social links can also be found by accessing ☰ and clicking on the chain link symbol on mobile or by accessing the respective platform icons on the left side of the web view.
-
-### What programs or languages are being used for the creation of this game?
-CyberCode Online is a game developed using [ReactJS](https://reactjs.org/) with player contributions from [Github](https://github.com/DexterHuang/CyberCodeOnline).
-
-### Is the game translated in other languages?
-Yes. This game is currently translated in 15 languages (and more!). To change the language of the game, go to Map and click on ⚙️. Please notice that the translations might contain mistakes, be incomplete or some parts of the game might be completely untranslated.
-
-If the game is not translated in your language or you want to improve the current translations, please head out to our [Github](https://github.com/DexterHuang/CyberCodeOnline).
-
-### Can I change my name?
-No, you can't change your name.  Your username is permanent for now. Mods / Devs have rights to change your username if the username contains bad / profanity / NSFW words in it.
-
-### How do I tag someone? Can I search the usernames of other people?
-You can tag and search for a user by typing @ in chat followed by their name (for example, type @DexterHuang). They will show up even if they are not online and they will receive a notification.
-
-### Does the chat support emojis and kaomojis?
-Yup 🤠 ฅ^•ﻌ•^ฅ. Please don't overuse or spam these, as this kind of practice is against the Chat Rules.
-
-### Is there any customization in the game?
-You can have a custom profile picture in your profile, a Title and a coloured chat border, if you decide to subscribe to one of the 5 Donation Tiers available. Elite Tier and higher, will have access to a bio on their profile and a barcode. These benefits are purely cosmetic.
+### C'è alcun tipo di personalizzazione nel gioco?
+Puoi avere un'immagine profilo, un titolo e dei bordi colorati se sottoscrivi ad uno dei dei cinque livelli di donazione disponibili. I gradi Elite in su potranno personalizzare una biografia sul loro profilo e un codice a barre. Questi benefici sono puramente cosmetici.

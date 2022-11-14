@@ -1,41 +1,22 @@
-
-# Enemy Gangs & Mark
-
+# Gang nemiche e marchi
 ![EnemyGangGraph](/resources/mobile-tutorial/EnemyGangGraph.png)
-
-All enemies have a gang that it belongs to, as each area will have a different gang _'dominant'_ in retrospect. These gangs will affect how players approach as the enemy gang will either benefit players or make the fight even harder.
-
-In summary, enemy gangs name & trait as follows:
-- **Animals:** Increased damage to **Disruptor** players (up to 10%)
-
-- **Voodoo Boys**: Increased damage to **Makeshift** players (up to 10%)
-
-- **Scavengers**: Increased damage to **Lethal** players (up to 10%)
-
+Tutti i nemici appartengono ad una gang, e ogni area sarà dominata da una gang. Queste gang possono influenzare come i giocatori approcciano i nemici, rendendo il combattimento più facile o più difficile. In sintesi, i nomi e tratti di ciascuna gang sono i seguenti:
+- **Animals**, danno aumentato ai giocatori di tipo **Dirompente** (fino al 10%);
+- **Voodoo Boys**, danno aumentato ai giocatori di tipo **Improvvisato** (fino al 10%);
+- **Scavengers**, danno aumentato ai giocatori di tipo **Letale** (fino al 10%).
 ![EnemyGang](/resources/mobile-tutorial/EnemyGang.png)
+Una delle maniera per conoscere quali gang stanno dominando l'area è tramite i **Nemici in zona** oppure esplorando i dungeon. In combattimento puoi vedere il nome della gang sopra la barra di salute del nemico. I giocatori possono cambiare il loro rquipaggiamento in base al marchio per ottenere dei vantaggi.
 
-One of the few ways to know which gangs are dominating the area is through **Nearby Enemies** or surfing around **Dungeon**. By seeing their gang name on the top of its health bar, you can notify who's who very quickly. Players can still change their gear in-fight stance if they think the enemies will benefit from its **Mark** spots.
+## Marchio d'Equipaggiamento
+Tutto l'equipaggiamento (a parte i moduli e gli zaini) hanno un marchio, che ha un effetto diverso in base al nemico con cui si combatte. In sintesi, i nomi e le caratteristiche sono queste:
+- **Letale**: danni aumentati ai nemici della gang **Animals** (fino al 10%),
+- **Dirompente**: danni aumentati ai nemici della gang **Voodoo Boys** (fino al 10%),
+- **Improvvisato**: danni aumentati ai nemici della gang **Scavengers** (fino al 10%).
 
-## Equipment Mark
+Ogni equipaggiamento stampato opppure ottenuto sin dall'**aggiornamento del 05/01/2022** avranno un marchio casuale automaticamente assegnato.
 
-All gear / equipment (Except backpacks & modules) has a **Mark** that attach to it, which has a different effect depending on their enemy's influence.
-
-In summary, marks name & trait as follows:
-
-- **Lethal**: Increase damage to **Animals** enemies (up to 10%)
-
-- **Disruptor**: Increase damage to **Voodoo Boys** enemies (up to 10%)
-
-- **Makeshift**: Increase damage to **Scavengers** enemies (up to 10%)
-
-Keep in mind that every gear that players gain via print or drop either before or after **2022/01/05 update**, will have random Mark that's automaticly attached to it.
-
-## Knowing Your Designated Mark
-
+## Conoscere il tuo marchio
 ![EnemyGangMark](/resources/mobile-tutorial/EnemyGangMark.png)
-
-Every player has a different **Mark**, determined by the majority of the gear mark's that you have as your arsenal (you can see your designated **Mark** at the **Equipped** section on **Inventory** tab). For example, if your equipped gear were dominated by **Makeshift** mark, then Makeshift is your classified Mark.
-
+Ogni giocatorre possiede un **Marchio**, determinato dai marchi dell'equipaggiamento che possiedi (puoi vedere i marchi dell'attrezzatura nella sezione **Equipaggiamento**). Per esempio, se la maggior parte dell'equipaggiamento che hai attrazzato ha il marchio Improvvisato, allora il tuo marchio sarà Improvvisato.
 ![EnemyGangStats](/resources/mobile-tutorial/EnemyGangStats.png)
-
-Players can see the effects of having a certain amount of **Mark** by tapping the yellow Mark text on Equipped section or from the Player's stats on **Profile** tab. As the graph suggested above, every Mark will affect both gangs in a good or bad sense of ways.
+I giocatori possono vedere gli effetti del marchio premendo sul testo giallo del marchio nella sezione **Equipaggiamento** o dalle statistiche nella scheda **Profilo**. Come nel grafo, ogni marchio ha un'effetto positivo e negativo rispetto alle varie gang.

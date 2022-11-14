@@ -123,6 +123,8 @@ ClayBravo6
 [TerrifficSprite](https://github.com/petrokrechunyak)
 [TMD2](https://github.com/TMD0)
 [SkyNetX007](https://github.com/SkyNetX007)
+[converdario](https://github.com/converdario)
+[Maddening](https://github.com/Wildlife4700)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
@@ -300,6 +302,7 @@ Satan
 Punxi8__
 [Prodam](https://github.com/Pr0dam)
 B3n7y
+Ph14zk0
 
 ## Tips
 [Archibaald](https://github.com/Archibaald-dev)

@@ -8,9 +8,9 @@
 * Never ever use in-game chat (including email) to send any kind of sensitive/personal information. Game chat is NOT encrypted and NOT secure. CCO does not bear any responsibility to protect your information you write in chat. Bear in mind that moderators have access to the chat log for moderation purposes. 
 
 ### Game Rules
-* The use of bots and scripts are prohibited
+* The use of bots, scripts, auto-clickers or other external applications designed to automate or give you an advantage are prohibited
 * No tool assistance
-* No excessive alts (**Unless you provide a reason to justify the necessity of creating an alt, it is deemed unnecessary, therefore excessive**) 
+* No alts (**Unless you provide a reason to justify the necessity of creating an alt, it is deemed unnecessary, therefore excessive**) 
     * Example of valid reason:
       * You forgot the password of your main, and got locked out of account
       * Your main account has been bugged and becomes unplayable
@@ -22,7 +22,7 @@
 * Don't exploit bugs, report them instead
 * Keep usernames family friendly (No cuss words, etc)
 * Advertising (global chat/discord/bio/gang motto) of Selling/Buying account/items for IRL money (both directly or indirectly) is not allowed
-* Tagging people for fun or with no real purpose is not allowed. This is to prevent people from creating accounts just so they can tag them (doing so will also breach the "No exceesive alts" rule) 
+* Tagging people for fun or with no real purpose is not allowed. This is to prevent people from creating accounts just so they can tag them (doing so will also breach the "No alts" rule) 
 * Any illegal activities will get you instantly banned -- including but not limited to -- harrassing underage person you met in game
 
 ### Chat Rules
