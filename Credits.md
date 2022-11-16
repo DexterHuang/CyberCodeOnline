@@ -292,6 +292,7 @@ moxie__
 Poetics
 PoopBalloon
 [PsyB34R](https://www.instagram.com/psybearr)
+[Rardo](https://github.com/R4RD0)
 Redinator
 [Ryujin](https://github.com/Ryujin-cybercode)
 Satan
@@ -355,5 +356,6 @@ Enkidu99
 [Blackstormx](https://github.com/blackstormx)
 [hildjj](https://github.com/hildjj)
 [mr_moe](https://github.com/donburks)
+[Rardo](https://github.com/R4RD0)
 [RubenVerg](https://github.com/rubenverg)
 [NTHiG](https://github.com/NTHGiT)
