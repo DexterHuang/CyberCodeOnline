@@ -25,6 +25,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates           
+### 2022/11/16
+- Fixed issue with using VPN not updating the client with status effect (a visual bug)
+- Added Arial as a default fallback font for non-english langauges
+
 ### 2022/11/14 v0.780
 - Added romania chat
 - improved bot detection on backend
