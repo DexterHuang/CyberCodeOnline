@@ -8,8 +8,8 @@
 * Never ever use in-game chat (including email) to send any kind of sensitive/personal information. Game chat is NOT encrypted and NOT secure. CCO does not bear any responsibility to protect your information you write in chat. Bear in mind that moderators have access to the chat log for moderation purposes. 
 
 ### Game Rules
-* The use of bots, scripts, auto-clickers or other external applications designed to automate or give you an advantage are prohibited
-* No tool assistance
+* Cheating is not allowed. The use of bots, scripts, auto-clickers or any other things designed to automate or give you an advantage are prohibited
+* Strictly no custom client, any api calls with non-origirnal game to game server is strictly prohibited
 * No alts (**Unless you provide a reason to justify the necessity of creating an alt, it is deemed unnecessary, therefore excessive**) 
     * Example of valid reason:
       * You forgot the password of your main, and got locked out of account
