@@ -9,7 +9,7 @@
 
 ### Game Rules
 * Cheating is not allowed. The use of bots, scripts, auto-clickers or any other things designed to automate or give you an advantage are prohibited
-* Strictly no custom client, any api calls with non-origirnal game to game server is strictly prohibited
+* Strictly no custom clients and API calls with non-original game to game server
 * No alts (**Unless you provide a reason to justify the necessity of creating an alt, it is deemed unnecessary, therefore excessive**) 
     * Example of valid reason:
       * You forgot the password of your main, and got locked out of account
