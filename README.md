@@ -1,7 +1,6 @@
 ![CyberCode Online Logo](/resources/readme/CyberCode%20Online.png)
 
-\*CyberCode Online is a **browser & mobile based MMORPG game** that is **disguised as VS Code in the browser\***
-_where you click functions and variables in the ever-changing source code to navigate your character in a Cyber Punk inspired world._
+\*CyberCode Online is a **browser & mobile based MMORPG game***
 
 CCO is meant to be played casually with AFK tasks, leveling, and crafting. It also includes a huge array of randomly generated enemies, dungeons, and locations pulled from a user-contributed list. The game provides a platform for everyone to have fun and relax!
 
