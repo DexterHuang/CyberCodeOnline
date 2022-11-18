@@ -25,6 +25,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates           
+### 2022/11/18
+- Added buff status display to recycle and black market
+- Now when selecting a single item for black market and recycle, the game will prompt for confirmation before starting the task, avoiding mis-clicks
+- Security update 
+
 ### 2022/11/16
 - Fixed issue with using VPN not updating the client with status effect (a visual bug)
 - Added Arial as a default fallback font for non-english langauges
