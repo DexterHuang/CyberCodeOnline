@@ -6,6 +6,7 @@
 
   Starting xmrig.exe
 
-  Error: config file not found
+  }
+: config file found
 
 > [Log end]
