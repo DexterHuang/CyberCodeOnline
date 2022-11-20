@@ -25,6 +25,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates           
+### 2022/11/20
+- improved bot detection algorithm
+
 ### 2022/11/18
 - Added buff status display to recycle and black market
 - Now when selecting a single item for black market and recycle, the game will prompt for confirmation before starting the task, avoiding mis-clicks
