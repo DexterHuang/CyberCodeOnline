@@ -27,6 +27,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ## Updates           
 ### 2022/11/20
 - improved bot detection algorithm
+- Security update
 
 ### 2022/11/18
 - Added buff status display to recycle and black market
