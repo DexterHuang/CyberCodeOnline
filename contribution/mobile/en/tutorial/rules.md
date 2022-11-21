@@ -9,7 +9,11 @@
 
 ### Game Rules
 * Cheating is not allowed. The use of bots, scripts, auto-clickers or any other things designed to automate or give you an advantage are prohibited
-* Strictly no custom clients and API calls with non-original game to game server
+* Strictly no custom clients, API calls or internet packet with non-original game to game server. such action is unfair for other players, and might be illegal to your local law. the game reserves all rights to take legal actions or report to local authority with electronic evidence such as IP addresses.
+* Any malicious action/intent towards the game is strictly not allowed, we will permanently refuse to provide service to all malicious person and legal actions might be taken in the case of defamation. examples of malicious actions can include but not limited to: 
+   * insinuate others or take part in spreading false/fake rumor/news, in game chat, Discord server or store review
+   * insinuate others or take part in using multiple accounts to spread meaningless messages, misinformation, complain, hate, rumor, spam or other messages in game chat, Discord server or store review
+   * insinuate others or take part in actions that creates chaos or other negative effect to the game
 * No excessive alts (**Unless you provide a reason to justify the necessity of creating an alt, it is deemed unnecessary, therefore excessive**) 
     * Example of valid reason:
       * You forgot the password of your main, and got locked out of account
