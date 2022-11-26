@@ -26,6 +26,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates           
 ### 2022/11/26
+- Optimization on skip speed, hopefully it will speed it up abit
 - Server-side optimization
 
 ### 2022/11/20
