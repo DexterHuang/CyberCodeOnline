@@ -8,6 +8,7 @@ Artra
 AskAmando
 Ayanna
 BoxinFoxx
+Takeshh_
 [CMDR7](https://github.com/cmdr7)
 [Deckeeper](https://github.com/deckeeper)
 Dr_Pig
