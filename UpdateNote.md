@@ -25,7 +25,7 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates           
-### 2022/11/30
+### 2022/11/30 (update pending deployment)
 - Winter update
   - During the event enemies and AI Core afk will drop `Mystery Contaienr` (not tradable), you can open it directly or combine 10 of them to craft a `Locked Legendary Container`
   - Updated crafting and other AFK task UI to use the new full page style
