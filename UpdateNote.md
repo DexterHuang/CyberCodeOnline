@@ -42,7 +42,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ![image](https://user-images.githubusercontent.com/18545294/204483723-39b1a60a-8b10-4bcd-9c09-1e3927c617fd.png)
 
-  - With the festive sprit, you can now send cosmetic gift to your friends. *(Please do not use this feature for trading, it is for gifting with no return from your friends expected)*
+  - With the festive sprit, you can now send cosmetic (none-prestige donation tier and emblems) gift to your friends. *(Please do not use this feature for trading, it is for gifting with no return from your friends expected)*
   - Added two new limited edition chat frame and emblems, will not be purchasable after end of event (you will be able to keep using it of course)
 
 ### 2022/11/26
