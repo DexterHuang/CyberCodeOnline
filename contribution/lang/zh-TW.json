@@ -929,6 +929,10 @@
  	 	 	 	 	"trans": "寄送禮物",
  	 	 	 	 	"eng": "Send Gift"
  	 	 	 	},
+ 	 	 	 	"sendCosmetic": {
+ 	 	 	 	 	"trans": "寄送皮膚禮物",
+ 	 	 	 	 	"eng": "Send Cosmetic Gift"
+ 	 	 	 	},
  	 	 	 	"inviteToGang": {
  	 	 	 	 	"trans": "邀請加入公會",
  	 	 	 	 	"eng": "Invite to Gang"
@@ -1323,6 +1327,26 @@
  	 	 	 	 	"trans": "這將需要${timeStr}",
  	 	 	 	 	"eng": "This will take ${timeStr}"
  	 	 	 	}
+ 	 	 	},
+ 	 	 	"confirmModal": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "選擇${itemName}？",
+ 	 	 	 	 	"eng": "Select ${itemName}?"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "您確定要選擇${itemName}嗎？",
+ 	 	 	 	 	"eng": "Are you sure you want to select ${itemName}?"
+ 	 	 	 	},
+ 	 	 	 	"confirmText": {
+ 	 	 	 	 	"trans": "我確定",
+ 	 	 	 	 	"eng": "I am sure"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"setting": {
@@ -1672,6 +1696,10 @@
  	 	 	 	 	"trans": "擁有",
  	 	 	 	 	"eng": "owned"
  	 	 	 	},
+ 	 	 	 	"limitedEdition": {
+ 	 	 	 	 	"trans": "限量版",
+ 	 	 	 	 	"eng": "Limited Edition"
+ 	 	 	 	},
  	 	 	 	"buyConfirm": {
  	 	 	 	 	"title": {
  	 	 	 	 	 	"trans": "購買徽章？",
@@ -1689,6 +1717,13 @@
  	 	 	 	"title": {
  	 	 	 	 	"trans": "贊助等級",
  	 	 	 	 	"eng": "Donation Tiers"
+ 	 	 	 	},
+ 	 	 	 	"expire": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"date"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "在${date}到期",
+ 	 	 	 	 	"eng": "Expires at ${date}"
  	 	 	 	}
  	 	 	}
  	 	},
@@ -2242,6 +2277,10 @@
  	 	 	 	 	],
  	 	 	 	 	"trans": "透過啟動${itemName}解鎖傳奇已加密容器時，會有額外2％（每個傳奇容器0.5％）獲得史詩成裝的機會",
  	 	 	 	 	"eng": "Receive up to 2% (0.5% per Legendary Container) additional chance to get epic tier cache when unlocking Locked Legendary Container by activating ${itemName}"
+ 	 	 	 	},
+ 	 	 	 	"button": {
+ 	 	 	 	 	"trans": "現在增加",
+ 	 	 	 	 	"eng": "Increase now"
  	 	 	 	}
  	 	 	},
  	 	 	"increaseEpicDropRateActivated": {
@@ -2263,6 +2302,25 @@
  	 	 	"unlock": {
  	 	 	 	"trans": "解鎖",
  	 	 	 	"eng": "Unlock"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"buffActivation": {
+ 	 	"expBuff": {
+ 	 	 	"title": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"current"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Exp Buff（當前${current}％）",
+ 	 	 	 	"eng": "EXP Buff (Currently ${current}%)"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "將您的經驗增益增加80％，持續20分鐘",
+ 	 	 	 	"eng": "Increase your EXP gain by 80% for 20 minutes"
+ 	 	 	},
+ 	 	 	"button": {
+ 	 	 	 	"trans": "啟用",
+ 	 	 	 	"eng": "Activate"
  	 	 	}
  	 	}
  	},
@@ -2317,7 +2375,7 @@
  	 	},
  	 	"amount": {
  	 	 	"trans": "數量",
- 	 	 	"eng": "amount"
+ 	 	 	"eng": "Amount"
  	 	},
  	 	"itemUpgradeCapacity": {
  	 	 	"trans": "校準容量",
@@ -3011,6 +3069,77 @@
  	 	 	"eng": "Are you sure you want to abandon this quest?"
  	 	}
  	},
+ 	"slider": {
+ 	 	"min": {
+ 	 	 	"trans": "最小",
+ 	 	 	"eng": "Min"
+ 	 	},
+ 	 	"max": {
+ 	 	 	"trans": "最大",
+ 	 	 	"eng": "max"
+ 	 	}
+ 	},
+ 	"actionStartModal": {
+ 	 	"timeReductionButton": {
+ 	 	 	"title": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName",
+ 	 	 	 	 	"currentPercent"
+ 	 	 	 	],
+ 	 	 	 	"trans": "減少時間（目前${currentPercent}％）",
+ 	 	 	 	"eng": "Time Reduction (currently ${currentPercent}%)"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "將行動所需的時間減少40％，可堆疊到80％",
+ 	 	 	 	"eng": "Reduce time needed for action by 40%, stackable upto 80%"
+ 	 	 	},
+ 	 	 	"activate": {
+ 	 	 	 	"trans": "馬上減少",
+ 	 	 	 	"eng": "reduce now"
+ 	 	 	}
+ 	 	},
+ 	 	"extendButton": {
+ 	 	 	"activatedTitle": {
+ 	 	 	 	"trans": "獎勵提升（啟動）",
+ 	 	 	 	"eng": "Reward Boost (Activated)"
+ 	 	 	},
+ 	 	 	"notActivatedTitle": {
+ 	 	 	 	"trans": "獎勵提升",
+ 	 	 	 	"eng": "Reward Boost"
+ 	 	 	},
+ 	 	 	"activatedDescription": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "提升已啟動，您必須在下面的複選框中打勾以使用提升",
+ 	 	 	 	"eng": "Boost activated, you must tick the checkbox below to enable it for this task"
+ 	 	 	},
+ 	 	 	"notActivatedDescription": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "將物品和經驗加倍！ 而花費時間和成本將變為4倍",
+ 	 	 	 	"eng": "Double the items and exp! while the duration and cost will increase by 4 times"
+ 	 	 	},
+ 	 	 	"activate": {
+ 	 	 	 	"trans": "現在提升",
+ 	 	 	 	"eng": "Boost now"
+ 	 	 	},
+ 	 	 	"enableBoost": {
+ 	 	 	 	"trans": "啟用獎勵提升",
+ 	 	 	 	"eng": "Enable reward boost"
+ 	 	 	}
+ 	 	},
+ 	 	"startButton": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "開始",
+ 	 	 	 	"eng": "start"
+ 	 	 	}
+ 	 	}
+ 	},
  	"tutorial": {
  	 	"localCombatButton": {
  	 	 	"trans": "點擊此處尋找街頭敵人",
@@ -3258,6 +3387,14 @@
  	 	"donation11": {
  	 	 	"trans": "賽博喵喵",
  	 	 	"eng": "CyberKitty"
+ 	 	},
+ 	 	"donation12": {
+ 	 	 	"trans": "賽博聖誕",
+ 	 	 	"eng": "CyberSanta"
+ 	 	},
+ 	 	"donation13": {
+ 	 	 	"trans": "賽博冰寒",
+ 	 	 	"eng": "CyberFrost"
  	 	},
  	 	"moderator": {
  	 	 	"trans": "聊天管理",
@@ -3677,6 +3814,86 @@
  	 	 	 	},
  	 	 	 	"9": {
  	 	 	 	 	"trans": "未來會有更多的更新",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation12": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "“ Cybersanta”捐贈標題",
+ 	 	 	 	 	"eng": "\"CyberSanta\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "解鎖個人資料圖片自定義",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "聖誕聊天框架（動畫）",
+ 	 	 	 	 	"eng": "Christmas chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "聖誕框架個人資料（帶有動畫）",
+ 	 	 	 	 	"eng": "Christmas Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "解鎖自定義生物",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "輪廓上的條形碼裝飾",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "定制幫派座右銘",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "自定義幫派圖像",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "將來更新會有更多",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation13": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "“賽博冰寒”捐贈標題",
+ 	 	 	 	 	"eng": "\"CyberFrost\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "解鎖個人資料圖片自定義",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "冬季聊天框架（動畫）",
+ 	 	 	 	 	"eng": "Winter chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "冬季構造的個人資料（帶有動畫）",
+ 	 	 	 	 	"eng": "Winter Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "解鎖自定義生物",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "輪廓上的條形碼裝飾",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "定制幫派座右銘",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "自定義幫派圖像",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "將來更新會有更多",
  	 	 	 	 	"eng": "More coming in future update"
  	 	 	 	}
  	 	 	}
@@ -5561,6 +5778,12 @@
  	 	 	 	"eng": "Jack O Lantern"
  	 	 	}
  	 	},
+ 	 	"christmasToBox": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "傳奇已加密容器",
+ 	 	 	 	"eng": "Locked Legendary Container"
+ 	 	 	}
+ 	 	},
  	 	"ammo1": {
  	 	 	"vars": [
  	 	 	 	"minLevel"
@@ -6068,8 +6291,7 @@
  	 	 	"noTrait": {
  	 	 	 	"vars": [
  	 	 	 	 	"tierPart",
- 	 	 	 	 	"name",
- 	 	 	 	 	""
+ 	 	 	 	 	"name"
  	 	 	 	],
  	 	 	 	"trans": "${tierPart}${name}",
  	 	 	 	"eng": "${tierPart} ${name}"
@@ -6488,6 +6710,28 @@
  	 	 	"eng": "You will not heal after each fight in dungeon, remember to use your healing items."
  	 	}
  	},
+ 	"christmasPromo": {
+ 	 	"title": {
+ 	 	 	"trans": "冬季快樂！",
+ 	 	 	"eng": "Happy Winter Holiday!"
+ 	 	},
+ 	 	"desc1": {
+ 	 	 	"trans": "這是一年中最美好的時光！ 在香格里拉，我們正在舉行特別活動來慶祝冬季假期！",
+ 	 	 	"eng": "It's the most wonderful time of the year again! in Shang-ri-la we are celebrating the winter holiday with a special event!"
+ 	 	},
+ 	 	"desc2": {
+ 	 	 	"vars": [
+ 	 	 	 	"itemName",
+ 	 	 	 	"craftItem"
+ 	 	 	],
+ 	 	 	"trans": "敵人和AI掛機將有機會掉落${itemName}，您可以使用它來製作${craftItem}或直接打開它！",
+ 	 	 	"eng": "Enemies and AI Core auto farm will have chance to drop ${itemName}, you can use this to craft ${craftItem} or open it directly!"
+ 	 	},
+ 	 	"desc3": {
+ 	 	 	"trans": "在假期期間，將有兩次限量版的聊天框架和標誌！",
+ 	 	 	"eng": "During the holiday season, two time limited chat frame and emblem will be available!"
+ 	 	}
+ 	},
  	"halloweenPromo": {
  	 	"title": {
  	 	 	"trans": "萬聖節快樂！",
@@ -6619,32 +6863,41 @@
  	 	 	"eng": "destroy"
  	 	}
  	},
+ 	"craftingStartPage": {
+ 	 	"instant": {
+ 	 	 	"trans": "立即的",
+ 	 	 	"eng": "Instant"
+ 	 	},
+ 	 	"instantDescription": {
+ 	 	 	"trans": "任務將立即完成",
+ 	 	 	"eng": "task will complete instantly"
+ 	 	},
+ 	 	"startButton": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "開始",
+ 	 	 	 	"eng": "start"
+ 	 	 	}
+ 	 	}
+ 	},
  	"donationPage": {
  	 	"benefits": {
  	 	 	"trans": "福利",
  	 	 	"eng": "benefits"
  	 	},
- 	 	"message": {
- 	 	 	"content1": {
- 	 	 	 	"trans": "您好，親愛的玩家！",
- 	 	 	 	"eng": "Hello, dear players!"
- 	 	 	},
- 	 	 	"content2": {
- 	 	 	 	"trans": "我是 Dexter，CyberCode Online 的開發者。",
- 	 	 	 	"eng": "I am Dexter, the developer of CyberCode Online."
- 	 	 	},
- 	 	 	"content3": {
- 	 	 	 	"trans": "如果您有一些閒錢，您可以贊助開發人員繼續開發遊戲，這將會是很大的幫助。",
- 	 	 	 	"eng": "If you have some spare change it would be very helpful if you could donate to help with continued support and development of the game."
- 	 	 	},
- 	 	 	"content4": {
- 	 	 	 	"trans": "請您在有餘裕的情況下進行捐贈，所有獲益將致力給所有玩家更平衡的遊戲體驗，並不會有任何一名玩家在遊戲中獲得優勢。",
- 	 	 	 	"eng": "Please only donate if you are comfortable, all benefits are designed to be fair for all players and will not give an edge in gameplay."
- 	 	 	}
+ 	 	"title": {
+ 	 	 	"trans": "捐贈層",
+ 	 	 	"eng": "Donation Tiers"
  	 	},
  	 	"monthlySubscription": {
  	 	 	"trans": "每月訂閱",
  	 	 	"eng": "Monthly Subscription"
+ 	 	},
+ 	 	"payPalPricePerMonth": {
+ 	 	 	"vars": [
+ 	 	 	 	"price"
+ 	 	 	],
+ 	 	 	"trans": "${price}每月美元",
+ 	 	 	"eng": "${price} USD Per Month"
  	 	},
  	 	"TiersTitle": {
  	 	 	"trans": "贊助等級",
@@ -6686,66 +6939,81 @@
  	 	 	"eng": "example chat frame of ${tierName} Tier"
  	 	}
  	},
- 	"actionStartModal": {
- 	 	"timeReductionButton": {
+ 	"sendCosmeticPage": {
+ 	 	"donationTabTitle": {
+ 	 	 	"trans": "聊天框架",
+ 	 	 	"eng": "Chat Frame"
+ 	 	},
+ 	 	"emblemTab": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "徽章",
+ 	 	 	 	"eng": "Emblem"
+ 	 	 	}
+ 	 	},
+ 	 	"title": {
+ 	 	 	"vars": [
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "將皮膚送給${playerName}",
+ 	 	 	"eng": "Sending cosmetic to ${playerName}"
+ 	 	},
+ 	 	"description": {
+ 	 	 	"trans": "不要將皮膚發送給您不認識的人或將其用作交易的一部分。 此功能僅應用作給您朋友的禮物",
+ 	 	 	"eng": "Do not send cosmetic to players you do not know or use it as part of a trade. this feature should only be used as a gift to your friend"
+ 	 	},
+ 	 	"confirmModal": {
  	 	 	"title": {
  	 	 	 	"vars": [
- 	 	 	 	 	"itemName",
- 	 	 	 	 	"currentPercent",
- 	 	 	 	 	""
+ 	 	 	 	 	"playerName",
+ 	 	 	 	 	"price"
  	 	 	 	],
- 	 	 	 	"trans": "減少時間（目前${currentPercent}％）",
- 	 	 	 	"eng": "Time Reduction (currently ${currentPercent}%)"
+ 	 	 	 	"trans": "將捐贈聊天框架給${playerName}（${price}”？",
+ 	 	 	 	"eng": "Send emblem (cost ${price} Unit) to player \"${playerName}\"?"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"itemName"
- 	 	 	 	],
- 	 	 	 	"trans": "將行動所需的時間減少40％，可堆疊到80％",
- 	 	 	 	"eng": "Reduce time needed for action by 40%, stackable upto 80%"
+ 	 	 	 	"trans": "通過單擊確認，您同意您不會將此皮膚品作為交易的一部分，純粹是給您的朋友的禮物，沒有預期的回報。",
+ 	 	 	 	"eng": "By clicking confirm, you agree that you are not sending this cosmetic gift as part of a trade and is purely a gift to your friend with no return expected."
  	 	 	},
- 	 	 	"activate": {
- 	 	 	 	"trans": "馬上減少",
- 	 	 	 	"eng": "reduce now"
+ 	 	 	"confirmText": {
+ 	 	 	 	"trans": "確認",
+ 	 	 	 	"eng": "Confirm"
  	 	 	}
  	 	},
- 	 	"extendButton": {
- 	 	 	"activatedTitle": {
- 	 	 	 	"trans": "獎勵提升（啟動）",
- 	 	 	 	"eng": "Reward Boost (Activated)"
- 	 	 	},
- 	 	 	"notActivatedTitle": {
- 	 	 	 	"trans": "獎勵提升",
- 	 	 	 	"eng": "Reward Boost"
- 	 	 	},
- 	 	 	"activatedDescription": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"itemName"
- 	 	 	 	],
- 	 	 	 	"trans": "提升已啟動，您必須在下面的複選框中打勾以使用提升",
- 	 	 	 	"eng": "Boost activated, you must tick the checkbox below to enable it for this task"
- 	 	 	},
- 	 	 	"notActivatedDescription": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"itemName"
- 	 	 	 	],
- 	 	 	 	"trans": "將物品和經驗加倍！ 而花費時間和成本將變為4倍",
- 	 	 	 	"eng": "Double the items and exp! while the duration and cost will increase by 4 times"
- 	 	 	},
- 	 	 	"activate": {
- 	 	 	 	"trans": "現在提升",
- 	 	 	 	"eng": "Boost now"
- 	 	 	},
- 	 	 	"enableBoost": {
- 	 	 	 	"trans": "啟用獎勵提升",
- 	 	 	 	"eng": "Enable reward boost"
- 	 	 	}
+ 	 	"sendSuccessMsg": {
+ 	 	 	"vars": [
+ 	 	 	 	"donationName",
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "您已成功將${donationName}捐贈聊天框架發送給玩家“ ${playerName}”",
+ 	 	 	"eng": "You have successfully sent ${donationName} donation chat frame to player \"${playerName}\""
  	 	},
- 	 	"startButton": {
- 	 	 	"title": {
- 	 	 	 	"trans": "開始",
- 	 	 	 	"eng": "start"
- 	 	 	}
+ 	 	"hasDonation": {
+ 	 	 	"trans": "已擁有",
+ 	 	 	"eng": "owned"
+ 	 	},
+ 	 	"donationPrice": {
+ 	 	 	"vars": [
+ 	 	 	 	"price"
+ 	 	 	],
+ 	 	 	"trans": "${price}單位",
+ 	 	 	"eng": "${price} Unit"
+ 	 	},
+ 	 	"donationDescription": {
+ 	 	 	"trans": "皮膚禮物持續30天",
+ 	 	 	"eng": "Gifted donation tier last for 30 days"
+ 	 	},
+ 	 	"emblemNotIncluded": {
+ 	 	 	"trans": "徽章不包括在禮物中",
+ 	 	 	"eng": "Emblem is not included in gift"
+ 	 	}
+ 	},
+ 	"sendEmblemPage": {
+ 	 	"sendSuccessMsg": {
+ 	 	 	"vars": [
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "您已成功將徽章發送給玩家“ ${playerName}”",
+ 	 	 	"eng": "You have successfully sent an emblem to player \"${playerName}\""
  	 	}
  	}
 }

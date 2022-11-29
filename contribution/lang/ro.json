@@ -929,6 +929,10 @@
  	 	 	 	 	"trans": "Trimite un Cadou",
  	 	 	 	 	"eng": "Send Gift"
  	 	 	 	},
+ 	 	 	 	"sendCosmetic": {
+ 	 	 	 	 	"trans": "Trimiteți cadou cosmetic",
+ 	 	 	 	 	"eng": "Send Cosmetic Gift"
+ 	 	 	 	},
  	 	 	 	"inviteToGang": {
  	 	 	 	 	"trans": "Invită în Gașcă",
  	 	 	 	 	"eng": "Invite to Gang"
@@ -1323,6 +1327,26 @@
  	 	 	 	 	"trans": "Aceasta va avea durata de ${timeStr}",
  	 	 	 	 	"eng": "This will take ${timeStr}"
  	 	 	 	}
+ 	 	 	},
+ 	 	 	"confirmModal": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Selectați ${itemName}?",
+ 	 	 	 	 	"eng": "Select ${itemName}?"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Sunteți sigur că doriți să selectați ${itemName}?",
+ 	 	 	 	 	"eng": "Are you sure you want to select ${itemName}?"
+ 	 	 	 	},
+ 	 	 	 	"confirmText": {
+ 	 	 	 	 	"trans": "Sunt sigur",
+ 	 	 	 	 	"eng": "I am sure"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"setting": {
@@ -1672,6 +1696,10 @@
  	 	 	 	 	"trans": "Deținut",
  	 	 	 	 	"eng": "owned"
  	 	 	 	},
+ 	 	 	 	"limitedEdition": {
+ 	 	 	 	 	"trans": "Ediție limitată",
+ 	 	 	 	 	"eng": "Limited Edition"
+ 	 	 	 	},
  	 	 	 	"buyConfirm": {
  	 	 	 	 	"title": {
  	 	 	 	 	 	"trans": "Achiziționați emblema?",
@@ -1689,6 +1717,13 @@
  	 	 	 	"title": {
  	 	 	 	 	"trans": "Donații",
  	 	 	 	 	"eng": "Donation Tiers"
+ 	 	 	 	},
+ 	 	 	 	"expire": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"date"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Expiră la ${date}",
+ 	 	 	 	 	"eng": "Expires at ${date}"
  	 	 	 	}
  	 	 	}
  	 	},
@@ -2242,6 +2277,10 @@
  	 	 	 	 	],
  	 	 	 	 	"trans": "Primiți până la 2% (0,5% pe container legendar) șansă suplimentară de a obține cache de nivel epic atunci când deblocați containerul legendar blocat prin activarea ${itemName}",
  	 	 	 	 	"eng": "Receive up to 2% (0.5% per Legendary Container) additional chance to get epic tier cache when unlocking Locked Legendary Container by activating ${itemName}"
+ 	 	 	 	},
+ 	 	 	 	"button": {
+ 	 	 	 	 	"trans": "Crește acum",
+ 	 	 	 	 	"eng": "Increase now"
  	 	 	 	}
  	 	 	},
  	 	 	"increaseEpicDropRateActivated": {
@@ -2263,6 +2302,25 @@
  	 	 	"unlock": {
  	 	 	 	"trans": "Deblocare",
  	 	 	 	"eng": "Unlock"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"buffActivation": {
+ 	 	"expBuff": {
+ 	 	 	"title": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"current"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Exp buff (în prezent ${current}%)",
+ 	 	 	 	"eng": "EXP Buff (Currently ${current}%)"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Creșteți -vă câștigul EXP cu 80% timp de 20 de minute",
+ 	 	 	 	"eng": "Increase your EXP gain by 80% for 20 minutes"
+ 	 	 	},
+ 	 	 	"button": {
+ 	 	 	 	"trans": "Activati",
+ 	 	 	 	"eng": "Activate"
  	 	 	}
  	 	}
  	},
@@ -2317,7 +2375,7 @@
  	 	},
  	 	"amount": {
  	 	 	"trans": "Cantitate",
- 	 	 	"eng": "amount"
+ 	 	 	"eng": "Amount"
  	 	},
  	 	"itemUpgradeCapacity": {
  	 	 	"trans": "Capacitate de Calibrare",
@@ -3011,6 +3069,77 @@
  	 	 	"eng": "Are you sure you want to abandon this quest?"
  	 	}
  	},
+ 	"slider": {
+ 	 	"min": {
+ 	 	 	"trans": "Min",
+ 	 	 	"eng": "Min"
+ 	 	},
+ 	 	"max": {
+ 	 	 	"trans": "Max",
+ 	 	 	"eng": "max"
+ 	 	}
+ 	},
+ 	"actionStartModal": {
+ 	 	"timeReductionButton": {
+ 	 	 	"title": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName",
+ 	 	 	 	 	"currentPercent"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Reducerea timpului (în prezent ${currentPercent}%)",
+ 	 	 	 	"eng": "Time Reduction (currently ${currentPercent}%)"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Reduceți timpul necesar pentru acțiune cu 40%, stivuibil până la 80%",
+ 	 	 	 	"eng": "Reduce time needed for action by 40%, stackable upto 80%"
+ 	 	 	},
+ 	 	 	"activate": {
+ 	 	 	 	"trans": "Reduceți acum",
+ 	 	 	 	"eng": "reduce now"
+ 	 	 	}
+ 	 	},
+ 	 	"extendButton": {
+ 	 	 	"activatedTitle": {
+ 	 	 	 	"trans": "Boost recompense (activat)",
+ 	 	 	 	"eng": "Reward Boost (Activated)"
+ 	 	 	},
+ 	 	 	"notActivatedTitle": {
+ 	 	 	 	"trans": "Boost recompense",
+ 	 	 	 	"eng": "Reward Boost"
+ 	 	 	},
+ 	 	 	"activatedDescription": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Boost activat, trebuie să bifați caseta de selectare de mai jos pentru a o activa pentru această sarcină",
+ 	 	 	 	"eng": "Boost activated, you must tick the checkbox below to enable it for this task"
+ 	 	 	},
+ 	 	 	"notActivatedDescription": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Dublați articolele și Exp! în timp ce durata și costul vor crește de 4 ori",
+ 	 	 	 	"eng": "Double the items and exp! while the duration and cost will increase by 4 times"
+ 	 	 	},
+ 	 	 	"activate": {
+ 	 	 	 	"trans": "Mărește acum",
+ 	 	 	 	"eng": "Boost now"
+ 	 	 	},
+ 	 	 	"enableBoost": {
+ 	 	 	 	"trans": "Activați sporirea recompenselor",
+ 	 	 	 	"eng": "Enable reward boost"
+ 	 	 	}
+ 	 	},
+ 	 	"startButton": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "start",
+ 	 	 	 	"eng": "start"
+ 	 	 	}
+ 	 	}
+ 	},
  	"tutorial": {
  	 	"localCombatButton": {
  	 	 	"trans": "Faceți clic aici pentru a scana pentru inamicii de stradă",
@@ -3258,6 +3387,14 @@
  	 	"donation11": {
  	 	 	"trans": "Cyberkitty",
  	 	 	"eng": "CyberKitty"
+ 	 	},
+ 	 	"donation12": {
+ 	 	 	"trans": "Cybersanta",
+ 	 	 	"eng": "CyberSanta"
+ 	 	},
+ 	 	"donation13": {
+ 	 	 	"trans": "Cyberfrost",
+ 	 	 	"eng": "CyberFrost"
  	 	},
  	 	"moderator": {
  	 	 	"trans": "Moderator",
@@ -3658,6 +3795,86 @@
  	 	 	 	"4": {
  	 	 	 	 	"trans": "Profil încadrat Kitty (cu animație)",
  	 	 	 	 	"eng": "Kitty Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "Deblocați bio personalizat",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Decorarea codurilor de bare pe profil",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "Personalizați motto -ul bandei",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Personalizați imaginea de bandă",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Mai multe venind în viitoarea actualizare",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation12": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "Titlul donației „Cybersanta”",
+ 	 	 	 	 	"eng": "\"CyberSanta\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "Deblocați personalizarea imaginii de profil",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Cadrul de chat de Crăciun (cu animație)",
+ 	 	 	 	 	"eng": "Christmas chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Profil încadrat de Crăciun (cu animație)",
+ 	 	 	 	 	"eng": "Christmas Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "Deblocați bio personalizat",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Decorarea codurilor de bare pe profil",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "Personalizați motto -ul bandei",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Personalizați imaginea de bandă",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Mai multe venind în viitoarea actualizare",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation13": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "Titlul donației „CyberFrost”",
+ 	 	 	 	 	"eng": "\"CyberFrost\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "Deblocați personalizarea imaginii de profil",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Frame de chat de iarnă (cu animație)",
+ 	 	 	 	 	"eng": "Winter chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Profil încadrat de iarnă (cu animație)",
+ 	 	 	 	 	"eng": "Winter Framed Profile (with animation)"
  	 	 	 	},
  	 	 	 	"5": {
  	 	 	 	 	"trans": "Deblocați bio personalizat",
@@ -5357,6 +5574,12 @@
  	 	 	 	"eng": "Jack O Lantern"
  	 	 	}
  	 	},
+ 	 	"christmasToBox": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Container legendar blocat",
+ 	 	 	 	"eng": "Locked Legendary Container"
+ 	 	 	}
+ 	 	},
  	 	"ammo1": {
  	 	 	"vars": [
  	 	 	 	"minLevel"
@@ -5864,8 +6087,7 @@
  	 	 	"noTrait": {
  	 	 	 	"vars": [
  	 	 	 	 	"tierPart",
- 	 	 	 	 	"name",
- 	 	 	 	 	""
+ 	 	 	 	 	"name"
  	 	 	 	],
  	 	 	 	"trans": "${tierPart} ${name}",
  	 	 	 	"eng": "${tierPart} ${name}"
@@ -6284,6 +6506,28 @@
  	 	 	"eng": "You will not heal after each fight in dungeon, remember to use your healing items."
  	 	}
  	},
+ 	"christmasPromo": {
+ 	 	"title": {
+ 	 	 	"trans": "Vacanță de iarnă fericită!",
+ 	 	 	"eng": "Happy Winter Holiday!"
+ 	 	},
+ 	 	"desc1": {
+ 	 	 	"trans": "Este cea mai minunată perioadă a anului din nou! În Shangri-La sărbătorim vacanța de iarnă cu un eveniment special!",
+ 	 	 	"eng": "It's the most wonderful time of the year again! in Shang-ri-la we are celebrating the winter holiday with a special event!"
+ 	 	},
+ 	 	"desc2": {
+ 	 	 	"vars": [
+ 	 	 	 	"itemName",
+ 	 	 	 	"craftItem"
+ 	 	 	],
+ 	 	 	"trans": "Dușmanii și AI Core Auto Farm vor avea șansa de a scădea ${itemName}, puteți utiliza acest lucru pentru a crea ${craftItem} sau a -l deschide direct!",
+ 	 	 	"eng": "Enemies and AI Core auto farm will have chance to drop ${itemName}, you can use this to craft ${craftItem} or open it directly!"
+ 	 	},
+ 	 	"desc3": {
+ 	 	 	"trans": "În timpul sezonului de sărbători, vor fi disponibile două timpuri de chat limitate și emblemă!",
+ 	 	 	"eng": "During the holiday season, two time limited chat frame and emblem will be available!"
+ 	 	}
+ 	},
  	"halloweenPromo": {
  	 	"title": {
  	 	 	"trans": "Halloween fericit!",
@@ -6415,32 +6659,41 @@
  	 	 	"eng": "destroy"
  	 	}
  	},
+ 	"craftingStartPage": {
+ 	 	"instant": {
+ 	 	 	"trans": "Instant",
+ 	 	 	"eng": "Instant"
+ 	 	},
+ 	 	"instantDescription": {
+ 	 	 	"trans": "sarcina se va finaliza instantaneu",
+ 	 	 	"eng": "task will complete instantly"
+ 	 	},
+ 	 	"startButton": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "start",
+ 	 	 	 	"eng": "start"
+ 	 	 	}
+ 	 	}
+ 	},
  	"donationPage": {
  	 	"benefits": {
  	 	 	"trans": "beneficii",
  	 	 	"eng": "benefits"
  	 	},
- 	 	"message": {
- 	 	 	"content1": {
- 	 	 	 	"trans": "Bună ziua, dragi jucători!",
- 	 	 	 	"eng": "Hello, dear players!"
- 	 	 	},
- 	 	 	"content2": {
- 	 	 	 	"trans": "Sunt Dexter, dezvoltatorul Cybercode Online.",
- 	 	 	 	"eng": "I am Dexter, the developer of CyberCode Online."
- 	 	 	},
- 	 	 	"content3": {
- 	 	 	 	"trans": "Dacă aveți o schimbare de rezervă, ar fi foarte utilă dacă ați putea să vă ajutați să vă ajutați în continuare sprijinul și dezvoltarea jocului.",
- 	 	 	 	"eng": "If you have some spare change it would be very helpful if you could donate to help with continued support and development of the game."
- 	 	 	},
- 	 	 	"content4": {
- 	 	 	 	"trans": "Vă rugăm să donați doar dacă sunteți confortabil, toate beneficiile sunt concepute pentru a fi corecte pentru toți jucătorii și nu vor da o margine în gameplay.",
- 	 	 	 	"eng": "Please only donate if you are comfortable, all benefits are designed to be fair for all players and will not give an edge in gameplay."
- 	 	 	}
+ 	 	"title": {
+ 	 	 	"trans": "TIME DE DONAȚIE",
+ 	 	 	"eng": "Donation Tiers"
  	 	},
  	 	"monthlySubscription": {
  	 	 	"trans": "Abonare lunara",
  	 	 	"eng": "Monthly Subscription"
+ 	 	},
+ 	 	"payPalPricePerMonth": {
+ 	 	 	"vars": [
+ 	 	 	 	"price"
+ 	 	 	],
+ 	 	 	"trans": "${price} USD pe lună",
+ 	 	 	"eng": "${price} USD Per Month"
  	 	},
  	 	"TiersTitle": {
  	 	 	"trans": "Donații",
@@ -6482,66 +6735,111 @@
  	 	 	"eng": "example chat frame of ${tierName} Tier"
  	 	}
  	},
- 	"actionStartModal": {
- 	 	"timeReductionButton": {
+ 	"sendCosmeticPage": {
+ 	 	"donationTabTitle": {
+ 	 	 	"trans": "Cadru de chat",
+ 	 	 	"eng": "Chat Frame"
+ 	 	},
+ 	 	"emblemTab": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Emblemă",
+ 	 	 	 	"eng": "Emblem"
+ 	 	 	}
+ 	 	},
+ 	 	"title": {
+ 	 	 	"vars": [
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Trimiterea cosmetică la ${playerName}",
+ 	 	 	"eng": "Sending cosmetic to ${playerName}"
+ 	 	},
+ 	 	"description": {
+ 	 	 	"trans": "Nu trimiteți cosmetice jucătorilor pe care nu îi cunoașteți și nu îl utilizați ca parte a unui comerț. Această caracteristică ar trebui să fie folosită doar ca cadou prietenului tău",
+ 	 	 	"eng": "Do not send cosmetic to players you do not know or use it as part of a trade. this feature should only be used as a gift to your friend"
+ 	 	},
+ 	 	"confirmModal": {
  	 	 	"title": {
  	 	 	 	"vars": [
- 	 	 	 	 	"itemName",
- 	 	 	 	 	"currentPercent",
- 	 	 	 	 	""
+ 	 	 	 	 	"donationName",
+ 	 	 	 	 	"playerName",
+ 	 	 	 	 	"price"
  	 	 	 	],
- 	 	 	 	"trans": "Reducerea timpului (în prezent ${currentPercent}%)",
- 	 	 	 	"eng": "Time Reduction (currently ${currentPercent}%)"
+ 	 	 	 	"trans": "Trimiteți ${donationName} cadru de chat donație (costul ${price} unitate) la player \"${playerName}\"?",
+ 	 	 	 	"eng": "Send ${donationName} donation chat frame (cost ${price} Unit) to player \"${playerName}\"?"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"itemName"
- 	 	 	 	],
- 	 	 	 	"trans": "Reduceți timpul necesar pentru acțiune cu 40%, stivuibil până la 80%",
- 	 	 	 	"eng": "Reduce time needed for action by 40%, stackable upto 80%"
+ 	 	 	 	"trans": "Făcând clic pe Confirmare, sunteți de acord că nu trimiteți acest cadou cosmetic ca parte a unui comerț și este pur și simplu un cadou pentru prietenul dvs., fără a se fi așteptat.",
+ 	 	 	 	"eng": "By clicking confirm, you agree that you are not sending this cosmetic gift as part of a trade and is purely a gift to your friend with no return expected."
  	 	 	},
- 	 	 	"activate": {
- 	 	 	 	"trans": "Reduceți acum",
- 	 	 	 	"eng": "reduce now"
+ 	 	 	"confirmText": {
+ 	 	 	 	"trans": "A confirma",
+ 	 	 	 	"eng": "Confirm"
  	 	 	}
  	 	},
- 	 	"extendButton": {
- 	 	 	"activatedTitle": {
- 	 	 	 	"trans": "Boost recompense (activat)",
- 	 	 	 	"eng": "Reward Boost (Activated)"
- 	 	 	},
- 	 	 	"notActivatedTitle": {
- 	 	 	 	"trans": "Boost recompense",
- 	 	 	 	"eng": "Reward Boost"
- 	 	 	},
- 	 	 	"activatedDescription": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"itemName"
- 	 	 	 	],
- 	 	 	 	"trans": "Boost activat, trebuie să bifați caseta de selectare de mai jos pentru a o activa pentru această sarcină",
- 	 	 	 	"eng": "Boost activated, you must tick the checkbox below to enable it for this task"
- 	 	 	},
- 	 	 	"notActivatedDescription": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"itemName"
- 	 	 	 	],
- 	 	 	 	"trans": "Dublați articolele și Exp! în timp ce durata și costul vor crește de 4 ori",
- 	 	 	 	"eng": "Double the items and exp! while the duration and cost will increase by 4 times"
- 	 	 	},
- 	 	 	"activate": {
- 	 	 	 	"trans": "Mărește acum",
- 	 	 	 	"eng": "Boost now"
- 	 	 	},
- 	 	 	"enableBoost": {
- 	 	 	 	"trans": "Activați sporirea recompenselor",
- 	 	 	 	"eng": "Enable reward boost"
- 	 	 	}
+ 	 	"sendSuccessMsg": {
+ 	 	 	"vars": [
+ 	 	 	 	"donationName",
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Ați trimis cu succes ${donationName} Cadrul de chat de donație la player \"${playerName}\"",
+ 	 	 	"eng": "You have successfully sent ${donationName} donation chat frame to player \"${playerName}\""
  	 	},
- 	 	"startButton": {
+ 	 	"hasDonation": {
+ 	 	 	"trans": "Deținut",
+ 	 	 	"eng": "owned"
+ 	 	},
+ 	 	"donationPrice": {
+ 	 	 	"vars": [
+ 	 	 	 	"price"
+ 	 	 	],
+ 	 	 	"trans": "${price} Unitate",
+ 	 	 	"eng": "${price} Unit"
+ 	 	},
+ 	 	"donationDescription": {
+ 	 	 	"trans": "Nivel de donație supradotat durează 30 de zile",
+ 	 	 	"eng": "Gifted donation tier last for 30 days"
+ 	 	},
+ 	 	"emblemNotIncluded": {
+ 	 	 	"trans": "Emblema nu este inclusă în cadou",
+ 	 	 	"eng": "Emblem is not included in gift"
+ 	 	}
+ 	},
+ 	"sendEmblemPage": {
+ 	 	"title": {
+ 	 	 	"vars": [
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Trimiterea cosmetică la ${playerName}",
+ 	 	 	"eng": "Sending cosmetic to ${playerName}"
+ 	 	},
+ 	 	"description": {
+ 	 	 	"trans": "Nu trimiteți cosmetice jucătorilor pe care nu îi cunoașteți și nu îl utilizați ca parte a unui comerț. Această caracteristică ar trebui să fie folosită doar ca cadou prietenului tău",
+ 	 	 	"eng": "Do not send cosmetic to players you do not know or use it as part of a trade. this feature should only be used as a gift to your friend"
+ 	 	},
+ 	 	"confirmModal": {
  	 	 	"title": {
- 	 	 	 	"trans": "start",
- 	 	 	 	"eng": "start"
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"playerName",
+ 	 	 	 	 	"price"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Trimite emblem (costul ${price} unitate) la player \"${playerName}\"?",
+ 	 	 	 	"eng": "Send emblem (cost ${price} Unit) to player \"${playerName}\"?"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Făcând clic pe Confirmare, sunteți de acord că nu trimiteți acest cadou cosmetic ca parte a unui comerț și este pur și simplu un cadou pentru prietenul dvs., fără a se fi așteptat.",
+ 	 	 	 	"eng": "By clicking confirm, you agree that you are not sending this cosmetic gift as part of a trade and is purely a gift to your friend with no return expected."
+ 	 	 	},
+ 	 	 	"confirmText": {
+ 	 	 	 	"trans": "A confirma",
+ 	 	 	 	"eng": "Confirm"
  	 	 	}
+ 	 	},
+ 	 	"sendSuccessMsg": {
+ 	 	 	"vars": [
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Ați trimis cu succes o emblemă la player \"${playerName}\"",
+ 	 	 	"eng": "You have successfully sent an emblem to player \"${playerName}\""
  	 	}
  	}
 }

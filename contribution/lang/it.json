@@ -13,7 +13,7 @@
  	 	 	"eng": "Quest"
  	 	},
  	 	"chat": {
- 	 	 	"trans": "Chat",
+ 	 	 	"trans": "Chiacchierata",
  	 	 	"eng": "Chat"
  	 	},
  	 	"profile": {
@@ -332,11 +332,11 @@
  	 	 	 	"eng": "You need to be at least level ${minLevel} to send chat messages"
  	 	 	},
  	 	 	"chat": {
- 	 	 	 	"trans": "chat",
+ 	 	 	 	"trans": "Chiacchierare",
  	 	 	 	"eng": "chat"
  	 	 	},
  	 	 	"gang": {
- 	 	 	 	"trans": "gang",
+ 	 	 	 	"trans": "banda",
  	 	 	 	"eng": "gang"
  	 	 	},
  	 	 	"mail": {
@@ -702,7 +702,7 @@
  	 	 	},
  	 	 	"printCacheDescription": {
  	 	 	 	"trans": "Trasforma questa cache in equipaggiamento da poter usare.",
- 	 	 	 	"eng": "Turn this cache into a weapon or equipment item that you can use."
+ 	 	 	 	"eng": "Turn this cache into a weapon or equipment item that you can uae."
  	 	 	},
  	 	 	"openContainer": {
  	 	 	 	"trans": "Sblocca il contenitore",
@@ -928,6 +928,10 @@
  	 	 	 	"sendGift": {
  	 	 	 	 	"trans": "Invia un regalo",
  	 	 	 	 	"eng": "Send Gift"
+ 	 	 	 	},
+ 	 	 	 	"sendCosmetic": {
+ 	 	 	 	 	"trans": "Invia un regalo cosmetico",
+ 	 	 	 	 	"eng": "Send Cosmetic Gift"
  	 	 	 	},
  	 	 	 	"inviteToGang": {
  	 	 	 	 	"trans": "Invita nella gang",
@@ -1323,6 +1327,26 @@
  	 	 	 	 	"trans": "Ci vorrà ${timeStr}",
  	 	 	 	 	"eng": "This will take ${timeStr}"
  	 	 	 	}
+ 	 	 	},
+ 	 	 	"confirmModal": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Seleziona ${itemName}?",
+ 	 	 	 	 	"eng": "Select ${itemName}?"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Sei sicuro di voler selezionare ${itemName}?",
+ 	 	 	 	 	"eng": "Are you sure you want to select ${itemName}?"
+ 	 	 	 	},
+ 	 	 	 	"confirmText": {
+ 	 	 	 	 	"trans": "sono sicuro",
+ 	 	 	 	 	"eng": "I am sure"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"setting": {
@@ -1672,6 +1696,10 @@
  	 	 	 	 	"trans": "Posseduto",
  	 	 	 	 	"eng": "owned"
  	 	 	 	},
+ 	 	 	 	"limitedEdition": {
+ 	 	 	 	 	"trans": "Edizione limitata",
+ 	 	 	 	 	"eng": "Limited Edition"
+ 	 	 	 	},
  	 	 	 	"buyConfirm": {
  	 	 	 	 	"title": {
  	 	 	 	 	 	"trans": "Acquistare l'emblema?",
@@ -1689,6 +1717,13 @@
  	 	 	 	"title": {
  	 	 	 	 	"trans": "Titoli di donazione",
  	 	 	 	 	"eng": "Donation Tiers"
+ 	 	 	 	},
+ 	 	 	 	"expire": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"date"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Scade a ${date}",
+ 	 	 	 	 	"eng": "Expires at ${date}"
  	 	 	 	}
  	 	 	}
  	 	},
@@ -2176,7 +2211,7 @@
  	 	 	 	"eng": "dungeon"
  	 	 	},
  	 	 	"social": {
- 	 	 	 	"trans": "social",
+ 	 	 	 	"trans": "sociale",
  	 	 	 	"eng": "social"
  	 	 	},
  	 	 	"keys": {
@@ -2242,6 +2277,10 @@
  	 	 	 	 	],
  	 	 	 	 	"trans": "Ricevi fino al 2% (0,5% per Contenitore Leggendario) di probabilità aggiuntiva di ottenere una cache Epica quando sblocchi il Contenitore Leggendario attivando ${itemName}",
  	 	 	 	 	"eng": "Receive up to 2% (0.5% per Legendary Container) additional chance to get epic tier cache when unlocking Locked Legendary Container by activating ${itemName}"
+ 	 	 	 	},
+ 	 	 	 	"button": {
+ 	 	 	 	 	"trans": "Aumenta ora",
+ 	 	 	 	 	"eng": "Increase now"
  	 	 	 	}
  	 	 	},
  	 	 	"increaseEpicDropRateActivated": {
@@ -2263,6 +2302,25 @@
  	 	 	"unlock": {
  	 	 	 	"trans": "Sblocca",
  	 	 	 	"eng": "Unlock"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"buffActivation": {
+ 	 	"expBuff": {
+ 	 	 	"title": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"current"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Exp buff (attualmente ${current}%)",
+ 	 	 	 	"eng": "EXP Buff (Currently ${current}%)"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Aumenta il guadagno Exp dell'80% per 20 minuti",
+ 	 	 	 	"eng": "Increase your EXP gain by 80% for 20 minutes"
+ 	 	 	},
+ 	 	 	"button": {
+ 	 	 	 	"trans": "Attivare",
+ 	 	 	 	"eng": "Activate"
  	 	 	}
  	 	}
  	},
@@ -2317,7 +2375,7 @@
  	 	},
  	 	"amount": {
  	 	 	"trans": "Importo",
- 	 	 	"eng": "amount"
+ 	 	 	"eng": "Amount"
  	 	},
  	 	"itemUpgradeCapacity": {
  	 	 	"trans": "Capacità di calibrazione",
@@ -2421,7 +2479,7 @@
  	 	 	"eng": "System standby"
  	 	},
  	 	"password": {
- 	 	 	"trans": "Password",
+ 	 	 	"trans": "Parola d'ordine",
  	 	 	"eng": "Password"
  	 	}
  	},
@@ -2935,7 +2993,7 @@
  	 	 	},
  	 	 	"social": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "social",
+ 	 	 	 	 	"trans": "sociale",
  	 	 	 	 	"eng": "social"
  	 	 	 	}
  	 	 	},
@@ -3009,6 +3067,77 @@
  	 	"abandonConfirm": {
  	 	 	"trans": "Sei sicuro di voler abbandonare questa missione?",
  	 	 	"eng": "Are you sure you want to abandon this quest?"
+ 	 	}
+ 	},
+ 	"slider": {
+ 	 	"min": {
+ 	 	 	"trans": "Min",
+ 	 	 	"eng": "Min"
+ 	 	},
+ 	 	"max": {
+ 	 	 	"trans": "max",
+ 	 	 	"eng": "max"
+ 	 	}
+ 	},
+ 	"actionStartModal": {
+ 	 	"timeReductionButton": {
+ 	 	 	"title": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName",
+ 	 	 	 	 	"currentPercent"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Riduzione del tempo di attesa (attualmente ${currentPercent}%)",
+ 	 	 	 	"eng": "Time Reduction (currently ${currentPercent}%)"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Riduci il tempo necessario per le attività del 40%, accumulabile fino all'80%",
+ 	 	 	 	"eng": "Reduce time needed for action by 40%, stackable upto 80%"
+ 	 	 	},
+ 	 	 	"activate": {
+ 	 	 	 	"trans": "Riduci ora",
+ 	 	 	 	"eng": "reduce now"
+ 	 	 	}
+ 	 	},
+ 	 	"extendButton": {
+ 	 	 	"activatedTitle": {
+ 	 	 	 	"trans": "Potenziamento Ricompense (Attivato)",
+ 	 	 	 	"eng": "Reward Boost (Activated)"
+ 	 	 	},
+ 	 	 	"notActivatedTitle": {
+ 	 	 	 	"trans": "Potenziamento Ricompense",
+ 	 	 	 	"eng": "Reward Boost"
+ 	 	 	},
+ 	 	 	"activatedDescription": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Potenziamento attivato, è necessario spuntare la casella sottostante per abilitarlo per questa attività",
+ 	 	 	 	"eng": "Boost activated, you must tick the checkbox below to enable it for this task"
+ 	 	 	},
+ 	 	 	"notActivatedDescription": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Raddoppia gli oggetti e i punti esperienza mentre la durata e il costo aumenteranno di x4",
+ 	 	 	 	"eng": "Double the items and exp! while the duration and cost will increase by 4 times"
+ 	 	 	},
+ 	 	 	"activate": {
+ 	 	 	 	"trans": "Potenzia ora",
+ 	 	 	 	"eng": "Boost now"
+ 	 	 	},
+ 	 	 	"enableBoost": {
+ 	 	 	 	"trans": "Abilita il potenziamento delle ricompense",
+ 	 	 	 	"eng": "Enable reward boost"
+ 	 	 	}
+ 	 	},
+ 	 	"startButton": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Inizia",
+ 	 	 	 	"eng": "start"
+ 	 	 	}
  	 	}
  	},
  	"tutorial": {
@@ -3258,6 +3387,14 @@
  	 	"donation11": {
  	 	 	"trans": "Cybergattino",
  	 	 	"eng": "CyberKitty"
+ 	 	},
+ 	 	"donation12": {
+ 	 	 	"trans": "Cybersanta",
+ 	 	 	"eng": "CyberSanta"
+ 	 	},
+ 	 	"donation13": {
+ 	 	 	"trans": "Cyberfrost",
+ 	 	 	"eng": "CyberFrost"
  	 	},
  	 	"moderator": {
  	 	 	"trans": "Moderatore",
@@ -3563,7 +3700,7 @@
  	 	},
  	 	"donation9": {
  	 	 	"benefits": {
- 	 	 	 "1": {
+ 	 	 	 	"1": {
  	 	 	 	 	"trans": "Titolo di donazione \"Prestigio\"",
  	 	 	 	 	"eng": "\"Prestige\" donation title"
  	 	 	 	},
@@ -3677,6 +3814,86 @@
  	 	 	 	},
  	 	 	 	"9": {
  	 	 	 	 	"trans": "Altro in arrivo nei futuri aggiornamenti",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation12": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "Titolo di donazione \"cybersanta\"",
+ 	 	 	 	 	"eng": "\"CyberSanta\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "Sblocca la personalizzazione dell'immagine del profilo",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Frame di chat di Natale (con animazione)",
+ 	 	 	 	 	"eng": "Christmas chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Profilo incorniciato di Natale (con animazione)",
+ 	 	 	 	 	"eng": "Christmas Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "Sblocca la biografia personalizzata",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Decorazione del codice a barre sul profilo",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "Personalizza il motto di gang",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Personalizza l'immagine della banda",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Altro in arrivo nel futuro aggiornamento",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation13": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "Titolo di donazione \"cyberfrost\"",
+ 	 	 	 	 	"eng": "\"CyberFrost\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "Sblocca la personalizzazione dell'immagine del profilo",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Frame di chat invernale (con animazione)",
+ 	 	 	 	 	"eng": "Winter chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Profilo incorniciato invernale (con animazione)",
+ 	 	 	 	 	"eng": "Winter Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "Sblocca la biografia personalizzata",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Decorazione del codice a barre sul profilo",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "Personalizza il motto di gang",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Personalizza l'immagine della banda",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Altro in arrivo nel futuro aggiornamento",
  	 	 	 	 	"eng": "More coming in future update"
  	 	 	 	}
  	 	 	}
@@ -3815,7 +4032,7 @@
  	 	 	 	"eng": "Tech Scrap"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Scarti tecnologici provenienti da equipaggiamenti smontati, possono essere inversamente ingegnerizzati per ottenere punti esperienza stampa. \r\n         È possibile eseguire l'operazione nell'[Hub Lavori].", 
+ 	 	 	 	"trans": "Scarti tecnologici provenienti da equipaggiamenti smontati, possono essere inversamente ingegnerizzati per ottenere punti esperienza stampa. \r\n         È possibile eseguire l'operazione nell'[Hub Lavori].",
  	 	 	 	"eng": "Technology scrap from disassembled equipment, this can be reverse engineered to gain printing xp. \r\n        You can perform reverse engineering in the Job Hub."
  	 	 	}
  	 	},
@@ -4167,7 +4384,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Un contenitore rinforzato con una serratura a crittografia biometrica, sembra contenere oggetti importanti all'interno. \r\n         Fortunatamente il microcomputer a bordo esegue un firmware obsoleto, in cui è possibile iniettare un exploit, vai su [Terminale] per sbloccare questo contenitore",
- 	 	 	 	"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board microcomputer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container"
+ 	 	 	 	"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container"
  	 	 	}
  	 	},
  	 	"lootBox2": {
@@ -4177,7 +4394,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Un contenitore rinforzato con una serratura a crittografia biometrica, sembra contenere oggetti importanti all'interno. \r\n         Fortunatamente il microcomputer a bordo esegue un firmware obsoleto, in cui è possibile iniettare un exploit, vai su [Terminale] per sbloccare questo contenitore",
- 	 	 	 	"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board microcomputer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container"
+ 	 	 	 	"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container"
  	 	 	}
  	 	},
  	 	"lootBox3": {
@@ -4187,7 +4404,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Un contenitore rinforzato con una serratura a crittografia biometrica, sembra contenere oggetti importanti all'interno. \r\n         Fortunatamente il microcomputer a bordo esegue un firmware obsolete, in cui è possibile iniettare un exploit, vai su [Terminale] per sbloccare questo contenitore",
- 	 	 	 	"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board microcomputer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container"
+ 	 	 	 	"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container"
  	 	 	}
  	 	},
  	 	"clanDungeonKey": {
@@ -4370,8 +4587,8 @@
  	 	 	 	"eng": "Chat exploit transmitter [1337]"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	 	 	 	 	"trans": "Un modulo di exploit che intercetta i pacchetti di chat globale e li modifica, eseguendo un attacco man-in-the-middle. \r\n         Trasforma tutte le frasi nella chat globale in parlata l33t. Influisce su tutti i giocatori per 10 minuti.",
- 	 	 	 	 	 	 	 	"eng": "A exploit module that intercepts global chat packages and modifies it, performing Man-In-The-Middle attack.\r\n        Transforms all speech at global chat to l33t Sp34k. This effects all players for 10 minutes"
+ 	 	 	 	"trans": "Un modulo di exploit che intercetta i pacchetti di chat globale e li modifica, eseguendo un attacco man-in-the-middle. \r\n         Trasforma tutte le frasi nella chat globale in parlata l33t. Influisce su tutti i giocatori per 10 minuti.",
+ 	 	 	 	"eng": "A exploit module that intercepts global chat packages and modifies it, performing Man-In-The-Middle attack.\r\n        Transforms all speech at global chat to l33t Sp34k. This effects all players for 10 minutes"
  	 	 	}
  	 	},
  	 	"chatExploitUwU": {
@@ -4380,8 +4597,8 @@
  	 	 	 	"eng": "Chat exploit transmitter [UwU]"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	 	 	 	 	"trans": "Un modulo di exploit che intercetta i pacchetti di chat globale e li modifica, eseguendo un attacco man-in-the-middle. \r\n         Trasforma tutte le frasi nella chat globale in parlata UwU. Influisce su tutti i giocatori per 10 minuti.",
- 	 	 	 	 	 	 	 	"eng": "A expwoit moduwe that intewcepts gwobaw chat packages and modifies it, pewfowming man-in-the-middwe attack.\r\n         twansfowms aww speech at gwobaw chat to uwu speak. This effects aww pwayews fow 10 minutes"
+ 	 	 	 	"trans": "Un modulo di exploit che intercetta i pacchetti di chat globale e li modifica, eseguendo un attacco man-in-the-middle. \r\n         Trasforma tutte le frasi nella chat globale in parlata UwU. Influisce su tutti i giocatori per 10 minuti.",
+ 	 	 	 	"eng": "A expwoit moduwe that intewcepts gwobaw chat packages and modifies it, pewfowming man-in-the-middwe attack.\r\n         twansfowms aww speech at gwobaw chat to uwu speak. This effects aww pwayews fow 10 minutes"
  	 	 	}
  	 	},
  	 	"chatExploitLove": {
@@ -4558,7 +4775,7 @@
  	 	},
  	 	"print": {
  	 	 	"name": {
- 	 	 	 	"trans": "Grado di stampa", 
+ 	 	 	 	"trans": "Grado di stampa",
  	 	 	 	"eng": "printing rank"
  	 	 	}
  	 	},
@@ -4787,26 +5004,26 @@
  	 	 	"defaultLines": {
  	 	 	 	"trans": [
  	 	 	 	 	"Vuoi comprare o usare le tue Unità?",
-					"Grazie per aver visitato il negozio",
-					"Lo sapevi che l'S.A.T è stato in fase di sviluppo per molto tempo?",
-					"Abbiamo una nuova scorta di S.A.T. Sei interessato a prenderne uno?",
-					"Benvenuto allo Scambio di Unità di Arasaka",
-					"Lo sapevi che gli S.A.T. attuali sono alla versione 2.0?",
-					"Ricordati, gli S.A.T. di grado normale e raro non sono compatibili",
-					"BTC? No, accettiamo solo Unità qui",
-					"Conosci Rossi della banca? Siamo andati a scuola insieme",
-					"Hai visitato Doc al Mercato di Trinoky? Non hai una bella cera",
-					"La maggior parte della gente è gentile. La maggior parte",
-					"Sei stato in qualche posto interessante di recente? Io sono appena tornato dal Neo-Giappone",
-					"Non c'è niente come una tazza di tè caldo in una giornata fredda, non sei d'accordo?",
-					"Abbiamo nuovi S.A.T. in arrivo. Vuoi dare un'occhiata nel frattempo?",
-					"I segnali degli S.A.T. di tutto il mondo sbalzano casualmente. Assicurati di fare attenzione",
-					"L'altro giorno la mia radio s'inceppò. A quanto pare è stata colpa della 3Helix Network",
-					"Vuoi rendere bella la giornata a tutti? Compra delle Unità e usale nei potenziamenti EXP!",
-					"Comprare le unità e spenderle aiuta tutti, lo sapevi?",
-					"Un gioco che non non è Pay-to-Win. Immagina!",
-					"Tutti ci guadagnagno dal tuo acquisto, anche lo sviluppatore!",
-					"Una denuncia per disturbo della quiete pubblica?"
+ 	 	 	 	 	"Grazie per aver visitato il negozio",
+ 	 	 	 	 	"Lo sapevi che l'S.A.T è stato in fase di sviluppo per molto tempo?",
+ 	 	 	 	 	"Abbiamo una nuova scorta di S.A.T. Sei interessato a prenderne uno?",
+ 	 	 	 	 	"Benvenuto allo Scambio di Unità di Arasaka",
+ 	 	 	 	 	"Lo sapevi che gli S.A.T. attuali sono alla versione 2.0?",
+ 	 	 	 	 	"Ricordati, gli S.A.T. di grado normale e raro non sono compatibili",
+ 	 	 	 	 	"BTC? No, accettiamo solo Unità qui",
+ 	 	 	 	 	"Conosci Rossi della banca? Siamo andati a scuola insieme",
+ 	 	 	 	 	"Hai visitato Doc al Mercato di Trinoky? Non hai una bella cera",
+ 	 	 	 	 	"La maggior parte della gente è gentile. La maggior parte",
+ 	 	 	 	 	"Sei stato in qualche posto interessante di recente? Io sono appena tornato dal Neo-Giappone",
+ 	 	 	 	 	"Non c'è niente come una tazza di tè caldo in una giornata fredda, non sei d'accordo?",
+ 	 	 	 	 	"Abbiamo nuovi S.A.T. in arrivo. Vuoi dare un'occhiata nel frattempo?",
+ 	 	 	 	 	"I segnali degli S.A.T. di tutto il mondo sbalzano casualmente. Assicurati di fare attenzione",
+ 	 	 	 	 	"L'altro giorno la mia radio s'inceppò. A quanto pare è stata colpa della 3Helix Network",
+ 	 	 	 	 	"Vuoi rendere bella la giornata a tutti? Compra delle Unità e usale nei potenziamenti EXP!",
+ 	 	 	 	 	"Comprare le unità e spenderle aiuta tutti, lo sapevi?",
+ 	 	 	 	 	"Un gioco che non non è Pay-to-Win. Immagina!",
+ 	 	 	 	 	"Tutti ci guadagnagno dal tuo acquisto, anche lo sviluppatore!",
+ 	 	 	 	 	"Una denuncia per disturbo della quiete pubblica?"
  	 	 	 	],
  	 	 	 	"eng": [
  	 	 	 	 	"Do you want to buy Units, or use your Units?"
@@ -4829,24 +5046,24 @@
  	 	 	"defaultLines": {
  	 	 	 	"trans": [
  	 	 	 	 	"Ciao! Fai una donazione per ottenere cosmetici e aiutare a supportare giochi Free-to-Win come questo",
-					"Hai pensato di fare una donazione mensile?",
-					"Felice di vederti, cosa ti serve?",
-					"Vuoi spiccare in mezzo alla folla? Prendi un abbonamento",
-					"Posso applicarti una foto profilo se compri un abbonamento. Che ne dici?",
-					"Vuoi un bordo colorato quando chatti? Perchè non ti abboni?",
-					"Il costo dell'abbonamento più basso è una tazza di caffè. Pensi di potermi dare un po' di caffeina?",
-					"Donare ti rende carino e aiuta allo sviluppo del gioco",
-					"Vuoi i riflettori su di te? Splendi più del sole con un nuovo look!",
-					"Non posso darti contenuti Pay-to-Win, ma posso farti scintillare!",
-					"Colorato è il nuovo trend! Posso darti un colore... per un prezzo",
-					"A te piacciono le immagini, a me piacciono le immagini, a tutti piacciono le immagini! Per un po' di soldi, chiunque può averle!",
-					"Le donazioni permettono di mantenere lo sviluppo del gioco. Ci compro il caffè così da poter creare nuovi contenuti!",
-					"Programmare è stancante. Un buon caffè costa solo $2!",
-					"Con una donazione, puoi supportare il gioco ed essere figo mentre lo fai! Colori, immagini, e animazioni!",
-					"I soldi fanno girare il mondo! La tua donazione mi permette di rendere questo un lavoro a tempo pieno!",
-					"Vorresti un nuovo profilo figo, vero?",
-					"Sembri una persona che sa il suo stile! Ti dirò, posso darti un look per un prezzo",
-					"Consiglio di bellezza #1: il colore è metà di ciò che rende il mondo meraviglioso!"
+ 	 	 	 	 	"Hai pensato di fare una donazione mensile?",
+ 	 	 	 	 	"Felice di vederti, cosa ti serve?",
+ 	 	 	 	 	"Vuoi spiccare in mezzo alla folla? Prendi un abbonamento",
+ 	 	 	 	 	"Posso applicarti una foto profilo se compri un abbonamento. Che ne dici?",
+ 	 	 	 	 	"Vuoi un bordo colorato quando chatti? Perchè non ti abboni?",
+ 	 	 	 	 	"Il costo dell'abbonamento più basso è una tazza di caffè. Pensi di potermi dare un po' di caffeina?",
+ 	 	 	 	 	"Donare ti rende carino e aiuta allo sviluppo del gioco",
+ 	 	 	 	 	"Vuoi i riflettori su di te? Splendi più del sole con un nuovo look!",
+ 	 	 	 	 	"Non posso darti contenuti Pay-to-Win, ma posso farti scintillare!",
+ 	 	 	 	 	"Colorato è il nuovo trend! Posso darti un colore... per un prezzo",
+ 	 	 	 	 	"A te piacciono le immagini, a me piacciono le immagini, a tutti piacciono le immagini! Per un po' di soldi, chiunque può averle!",
+ 	 	 	 	 	"Le donazioni permettono di mantenere lo sviluppo del gioco. Ci compro il caffè così da poter creare nuovi contenuti!",
+ 	 	 	 	 	"Programmare è stancante. Un buon caffè costa solo $2!",
+ 	 	 	 	 	"Con una donazione, puoi supportare il gioco ed essere figo mentre lo fai! Colori, immagini, e animazioni!",
+ 	 	 	 	 	"I soldi fanno girare il mondo! La tua donazione mi permette di rendere questo un lavoro a tempo pieno!",
+ 	 	 	 	 	"Vorresti un nuovo profilo figo, vero?",
+ 	 	 	 	 	"Sembri una persona che sa il suo stile! Ti dirò, posso darti un look per un prezzo",
+ 	 	 	 	 	"Consiglio di bellezza #1: il colore è metà di ciò che rende il mondo meraviglioso!"
  	 	 	 	],
  	 	 	 	"eng": [
  	 	 	 	 	"Hi! Donate to get cosmetic perks and to help support Free-to-Win games like this one!"
@@ -4869,46 +5086,46 @@
  	 	 	"defaultLines": {
  	 	 	 	"trans": [
  	 	 	 	 	"Stamperò qualsiasi cosa tu voglia se hai la cache giusta!",
-					"Fammi vedere la cache e ti mostrerò il risultato!",
-					"Ti prego, dimmi che hai delle cache Epiche con te",
-					"Benvenuto. Spero tu sia un cliente...",
-					"Se hai delle cache, posso stamparle!",
-					"Sono contento di non usare più l'inchiostro; posso indossare i miei vestiti più belli al lavoro",
-					"Chissà perchè non si usano mai i replicatori per stampare il cibo",
-					"Un tè, Earl Grey, bollente. Magari anche del bubble tea 😋",
-					"Fammi vedere quella tua cache",
-					"Lunga vita e prosperità 🖖",
-					"Mi emoziono ogni volta che vedo un bliente; magari hanno una Epica!",
-					"A volta ti sento solo. Un giorno mi stamperò un androide per tenermi compagnia",
-					"I computer sono servi eccellenti ed efficienti, ma non ho intenzione di servirli",
-					"Non ti preoccupare, non finiremo l'inchiostro",
-					"A volte mi chiedo com'è il mondo là fuori. Me lo racconterai una volta che diventerai famoso?",
-					"Continua a stampare, continua a stampare",
-					"Io sono bloccato qui, ma tu no. Vinci la guerra per me con il tuo nuovo equipaggiamento!",
-					"Io mi prendi le cache; tu ti prendi l'equipaggiamento!",
-					"Quel nuovo equipaggiamento ti sta bene addosso!",
-					"Vorrei che qualcuno possa stamparmi delle gambe! Amerei vedere cosa c'è al di fuori di questa stanza...",
-					"Posso stampare armi, ma non delle braccia per salutarti. Divertente, non è vero...",
-					"Se ti stai immaginando con un nuova tenuta allora portami le cache. Renderò i tuoi sogni delle solide realtà",
-					"Mi chiedo contro chi ti batti per portarmi tutte queste cache",
-					"Dico delle battute pessime perchè nessuno mi stampa delle gambe, altrimenti avrei già trovato di meglio da fare",
-					"Sono solo una stampante, ma quel che faccio ti aiuterà ad avere più cache",
-					"Ho sentito che la Banca di Arasaka è un buon posto dove conservare le cache se non puoi ancora permetterti di stamparle",
-					"Più equipaggiamento stampo, più dati avrò a disposizione. Divento migliore a stampare ogni giorno!",
-					"Potresti stamparmi un caffè? Tutto questo stampare è stancante",
-					"Quale scegli: laser o inchiostro?",
-					"Non sei qui per stampare altre cose oscene, vero?",
-					"Stampa un'anatra",
-					"Dimmi che hai delle delle cache Epiche bianche non te",
-					"Ho appena finito i colori. Spero ti piaccia in scala di grigi!",
-					"Perchè non ho ancora stampato una copia di me stesso?",
-					"Mi dispiace amico, niente stampe gratis!",
-					"Meno male che io non posso stampare Bitcoin",
-					"N-Non stampare di nuovo qualcosa di stupido, t-ti prego",
-					"Oggi mi ci è voluto in bel microsecondo in più per avviarmi!",
-					"Stampare mi rende felice!",
-					"🎵 Sono solo una stampante solitaria~ 🎶 Nessuno mi stampa un amico~ 🎵",
-					"Ti prego smettila di provare a stampare pizze; la salsa ottura gli ugelli"
+ 	 	 	 	 	"Fammi vedere la cache e ti mostrerò il risultato!",
+ 	 	 	 	 	"Ti prego, dimmi che hai delle cache Epiche con te",
+ 	 	 	 	 	"Benvenuto. Spero tu sia un cliente...",
+ 	 	 	 	 	"Se hai delle cache, posso stamparle!",
+ 	 	 	 	 	"Sono contento di non usare più l'inchiostro; posso indossare i miei vestiti più belli al lavoro",
+ 	 	 	 	 	"Chissà perchè non si usano mai i replicatori per stampare il cibo",
+ 	 	 	 	 	"Un tè, Earl Grey, bollente. Magari anche del bubble tea 😋",
+ 	 	 	 	 	"Fammi vedere quella tua cache",
+ 	 	 	 	 	"Lunga vita e prosperità 🖖",
+ 	 	 	 	 	"Mi emoziono ogni volta che vedo un bliente; magari hanno una Epica!",
+ 	 	 	 	 	"A volta ti sento solo. Un giorno mi stamperò un androide per tenermi compagnia",
+ 	 	 	 	 	"I computer sono servi eccellenti ed efficienti, ma non ho intenzione di servirli",
+ 	 	 	 	 	"Non ti preoccupare, non finiremo l'inchiostro",
+ 	 	 	 	 	"A volte mi chiedo com'è il mondo là fuori. Me lo racconterai una volta che diventerai famoso?",
+ 	 	 	 	 	"Continua a stampare, continua a stampare",
+ 	 	 	 	 	"Io sono bloccato qui, ma tu no. Vinci la guerra per me con il tuo nuovo equipaggiamento!",
+ 	 	 	 	 	"Io mi prendi le cache; tu ti prendi l'equipaggiamento!",
+ 	 	 	 	 	"Quel nuovo equipaggiamento ti sta bene addosso!",
+ 	 	 	 	 	"Vorrei che qualcuno possa stamparmi delle gambe! Amerei vedere cosa c'è al di fuori di questa stanza...",
+ 	 	 	 	 	"Posso stampare armi, ma non delle braccia per salutarti. Divertente, non è vero...",
+ 	 	 	 	 	"Se ti stai immaginando con un nuova tenuta allora portami le cache. Renderò i tuoi sogni delle solide realtà",
+ 	 	 	 	 	"Mi chiedo contro chi ti batti per portarmi tutte queste cache",
+ 	 	 	 	 	"Dico delle battute pessime perchè nessuno mi stampa delle gambe, altrimenti avrei già trovato di meglio da fare",
+ 	 	 	 	 	"Sono solo una stampante, ma quel che faccio ti aiuterà ad avere più cache",
+ 	 	 	 	 	"Ho sentito che la Banca di Arasaka è un buon posto dove conservare le cache se non puoi ancora permetterti di stamparle",
+ 	 	 	 	 	"Più equipaggiamento stampo, più dati avrò a disposizione. Divento migliore a stampare ogni giorno!",
+ 	 	 	 	 	"Potresti stamparmi un caffè? Tutto questo stampare è stancante",
+ 	 	 	 	 	"Quale scegli: laser o inchiostro?",
+ 	 	 	 	 	"Non sei qui per stampare altre cose oscene, vero?",
+ 	 	 	 	 	"Stampa un'anatra",
+ 	 	 	 	 	"Dimmi che hai delle delle cache Epiche bianche non te",
+ 	 	 	 	 	"Ho appena finito i colori. Spero ti piaccia in scala di grigi!",
+ 	 	 	 	 	"Perchè non ho ancora stampato una copia di me stesso?",
+ 	 	 	 	 	"Mi dispiace amico, niente stampe gratis!",
+ 	 	 	 	 	"Meno male che io non posso stampare Bitcoin",
+ 	 	 	 	 	"N-Non stampare di nuovo qualcosa di stupido, t-ti prego",
+ 	 	 	 	 	"Oggi mi ci è voluto in bel microsecondo in più per avviarmi!",
+ 	 	 	 	 	"Stampare mi rende felice!",
+ 	 	 	 	 	"🎵 Sono solo una stampante solitaria~ 🎶 Nessuno mi stampa un amico~ 🎵",
+ 	 	 	 	 	"Ti prego smettila di provare a stampare pizze; la salsa ottura gli ugelli"
  	 	 	 	],
  	 	 	 	"eng": [
  	 	 	 	 	"I'll print whatever you want if you have the cache!"
@@ -4927,45 +5144,45 @@
  	 	 	"defaultLines": {
  	 	 	 	"trans": [
  	 	 	 	 	"Qui troverai il miglior equipaggiamento, fidati",
-					"Posso aiutarti se mi dai un po' di Bitcoin",
-					"Posso riparare il tuo equipaggiamento... ad un prezzo",
-					"Cosa vuoi, straniero?",
-					"Guarda che cosa ho trovato oggi",
-					"Non troverai niente di meglio da queste parti",
-					"Guarda cosa ti ho portato oggi",
-					"Merce fresca saccheggiata dalle terre desolate",
-					"Cosa posso darti oggi?",
-					"Muoviti a comprare qualcosa, non ho tutta la giornata",
-					"Lo rompi, lo compri; politica globale",
-					"Interessato a qualcosa?",
-					"Benvenuto nel mio negozio. Dai un'occhiata in giro",
-					"Posso aiutare a trovare qualcosa, straniero?",
-					"Armi di qualità solo in quest'armeria",
-					"Vuoi comprartenene uno per proteggerti?",
-					"La miglior armeria di Shangri-La al tuo servizio",
-					"È pericoloso andare da soli... lascia perdere",
-					"Ero un avventuriero come te. Poi ho aperto questo negozio",
-					"Nessun rimborso o scambi. Quel che paghi è quel che prendi",
-					"Non ne hai avuto abbastanza di me, eh?",
-					"Le migliori armi e armature",
-					"Hmm... armi, elmetti, eccetera. Tutto quel che ti serve",
-					"Vuoi vedere di proteggerti o fare danni?",
-					"Oh? Un po' di questo eun po' di quello",
-					"Aggegi, giocattoli. Sai... cose di questo tipo",
-					"Qualcuno la chiamerebbe spazzatura. Io? Un tesoro",
-					"Hai mai conosciuto lo Spaccamondi?",
-					"Dì al presidente che l'ho salutato!",
-					"Mi chiedo che cosa stia facendo Lucille...",
-					"Non rimanere lì impalato a guardare le vetrine. Compra qualcosa!",
-					"Qualcosa in particolare che stai cercando?",
-					"Sembra che tu sappia cos'è un affare quando ne vedi uno!",
-					"Ero un giovane avventuriero come te, poi presi una pallottola nel ginocchio",
-					"LED, corde, esplosivi. Li vuoi? Tutto tuo, amico. Sempre che tu abbia abbastanza Bitcoin",
-					"Prendo sempre i migliori blaster che io possa trovare",
-					"Bell'arma. Cosa compensa?",
-					"Una volta vidi qualcuno uccidere tre uomini in un bar... con una matita",
-					"Benvenuto, Baba Yaga",
-					"L'Uomo Nero?"
+ 	 	 	 	 	"Posso aiutarti se mi dai un po' di Bitcoin",
+ 	 	 	 	 	"Posso riparare il tuo equipaggiamento... ad un prezzo",
+ 	 	 	 	 	"Cosa vuoi, straniero?",
+ 	 	 	 	 	"Guarda che cosa ho trovato oggi",
+ 	 	 	 	 	"Non troverai niente di meglio da queste parti",
+ 	 	 	 	 	"Guarda cosa ti ho portato oggi",
+ 	 	 	 	 	"Merce fresca saccheggiata dalle terre desolate",
+ 	 	 	 	 	"Cosa posso darti oggi?",
+ 	 	 	 	 	"Muoviti a comprare qualcosa, non ho tutta la giornata",
+ 	 	 	 	 	"Lo rompi, lo compri; politica globale",
+ 	 	 	 	 	"Interessato a qualcosa?",
+ 	 	 	 	 	"Benvenuto nel mio negozio. Dai un'occhiata in giro",
+ 	 	 	 	 	"Posso aiutare a trovare qualcosa, straniero?",
+ 	 	 	 	 	"Armi di qualità solo in quest'armeria",
+ 	 	 	 	 	"Vuoi comprartenene uno per proteggerti?",
+ 	 	 	 	 	"La miglior armeria di Shangri-La al tuo servizio",
+ 	 	 	 	 	"È pericoloso andare da soli... lascia perdere",
+ 	 	 	 	 	"Ero un avventuriero come te. Poi ho aperto questo negozio",
+ 	 	 	 	 	"Nessun rimborso o scambi. Quel che paghi è quel che prendi",
+ 	 	 	 	 	"Non ne hai avuto abbastanza di me, eh?",
+ 	 	 	 	 	"Le migliori armi e armature",
+ 	 	 	 	 	"Hmm... armi, elmetti, eccetera. Tutto quel che ti serve",
+ 	 	 	 	 	"Vuoi vedere di proteggerti o fare danni?",
+ 	 	 	 	 	"Oh? Un po' di questo eun po' di quello",
+ 	 	 	 	 	"Aggegi, giocattoli. Sai... cose di questo tipo",
+ 	 	 	 	 	"Qualcuno la chiamerebbe spazzatura. Io? Un tesoro",
+ 	 	 	 	 	"Hai mai conosciuto lo Spaccamondi?",
+ 	 	 	 	 	"Dì al presidente che l'ho salutato!",
+ 	 	 	 	 	"Mi chiedo che cosa stia facendo Lucille...",
+ 	 	 	 	 	"Non rimanere lì impalato a guardare le vetrine. Compra qualcosa!",
+ 	 	 	 	 	"Qualcosa in particolare che stai cercando?",
+ 	 	 	 	 	"Sembra che tu sappia cos'è un affare quando ne vedi uno!",
+ 	 	 	 	 	"Ero un giovane avventuriero come te, poi presi una pallottola nel ginocchio",
+ 	 	 	 	 	"LED, corde, esplosivi. Li vuoi? Tutto tuo, amico. Sempre che tu abbia abbastanza Bitcoin",
+ 	 	 	 	 	"Prendo sempre i migliori blaster che io possa trovare",
+ 	 	 	 	 	"Bell'arma. Cosa compensa?",
+ 	 	 	 	 	"Una volta vidi qualcuno uccidere tre uomini in un bar... con una matita",
+ 	 	 	 	 	"Benvenuto, Baba Yaga",
+ 	 	 	 	 	"L'Uomo Nero?"
  	 	 	 	],
  	 	 	 	"eng": [
  	 	 	 	 	"You will find the best gear here, trust me."
@@ -4980,13 +5197,13 @@
  	 	 	"defaultLines": {
  	 	 	 	"trans": [
  	 	 	 	 	"Ti aiuterò a progredire verso la prossima area!",
-					"Posso esplorare qualsiasi conoscenza di tutto il mondo... eppure vengo trattato come un ricettario",
-					"Il nome di mia figlia non è Mithra! Smettete di prenderla in giro!",
-					"Sei pronto?",
-					"La chiave non vale niente senza il contenitore",
-					"Cosa pesa di più, viaggiatore? Le tue armi, o il tuo passato?",
-					"La chiave viene prima di tutto... a parte un buon drink",
-					"Una chiave, uno scopo" 
+ 	 	 	 	 	"Posso esplorare qualsiasi conoscenza di tutto il mondo... eppure vengo trattato come un ricettario",
+ 	 	 	 	 	"Il nome di mia figlia non è Mithra! Smettete di prenderla in giro!",
+ 	 	 	 	 	"Sei pronto?",
+ 	 	 	 	 	"La chiave non vale niente senza il contenitore",
+ 	 	 	 	 	"Cosa pesa di più, viaggiatore? Le tue armi, o il tuo passato?",
+ 	 	 	 	 	"La chiave viene prima di tutto... a parte un buon drink",
+ 	 	 	 	 	"Una chiave, uno scopo"
  	 	 	 	],
  	 	 	 	"eng": [
  	 	 	 	 	"I'll help you to progress to the next area!"
@@ -5013,38 +5230,38 @@
  	 	 	"defaultLines": {
  	 	 	 	"trans": [
  	 	 	 	 	"Ehi ragazzo... Vieni a vedere la mia merce.",
-					"Ferito? Sei nel posto giusto",
-					"Abbiamo la roba economica e la roba buona, ragazzo",
-					"Hai mai sentito parlare dell'angelo di strada?",
-					"Benvenuto al Mercato di Trinoky. Puoi chiamarmi Doc",
-					"Siamo aperti 24 ore su 24, 7 giorni su 7. A parte quando non lo siamo",
-					"Vedi di non creare e portare guai",
-					"Prova a rubare qualcosa e ti renderò un manichino",
-					"Il minimo che puoi fare è smettere di sanguinare prima di entrare",
-					"Niente rimborsi o scambi. Non faccio beneficienza qui",
-					"Ehi ragazzo. Come stai oggi?",
-					"Non fermarti al grado sette, altrimenti dovrai spaccarti la schiena a vita come me",
-					"Le migliori cure mediche di tutta Shangri-La",
-					"L'SLPD sta nuovamente facendo baccano. Spero che il consiglio li metta al loro posto",
-					"Ehi ragazzo, mai sentito parlare della 3Helix Network?",
-					"Ehi ragazzo, hai mai incontrato qualcuno chiamato Spaccamondi?",
-					"Hai sentito del ristorante sulla luna? Buon cibo, ma niente atmosfera!",
-					"Una fabbrica di formaggi è esplosa in Francia. C'erano de-brie-ti ovunque!",
-					"La geologia è rock, ma la geografia è dove si trova!",
-					"Se al mio funerale vedo qualcuno con il muso lungo, non gli parlerò mai più!",
-					"Perchè Adele ha attraversato la strada? Per dire hello from the other siiiide~",
-					"Certo l'incerto, incerto il certo",
-					"Diffidate dalle limitazioni!",
-					"Tagliamo la testa al topo",
-					"Funghi: se li conosci, lieviti",
-					"Perchè l'enigmista va in moto senza casco? Perchè adora i rompicapo",
-					"Un signore entra in un caffè: dlin, splash! C'era il cucchiaino",
-					"C'è stato un furto alla fabbrica di lampadine. La polizia brancola nel buio",
-					"Ho le migliori cure mediche che tu possa trovare!",
-					"Collezionavo armi speciali leggendarie colorate, ma ora sono tutte bianche",
-					"I camerini sono da quella parte...",
-					"Vediamo di chiudere l'affare prima che io mi bagni addosso!",
-					"Dai un'occhiata! Abbiamo sicuramente qualcosa che stuzzicherà la fantasia..."
+ 	 	 	 	 	"Ferito? Sei nel posto giusto",
+ 	 	 	 	 	"Abbiamo la roba economica e la roba buona, ragazzo",
+ 	 	 	 	 	"Hai mai sentito parlare dell'angelo di strada?",
+ 	 	 	 	 	"Benvenuto al Mercato di Trinoky. Puoi chiamarmi Doc",
+ 	 	 	 	 	"Siamo aperti 24 ore su 24, 7 giorni su 7. A parte quando non lo siamo",
+ 	 	 	 	 	"Vedi di non creare e portare guai",
+ 	 	 	 	 	"Prova a rubare qualcosa e ti renderò un manichino",
+ 	 	 	 	 	"Il minimo che puoi fare è smettere di sanguinare prima di entrare",
+ 	 	 	 	 	"Niente rimborsi o scambi. Non faccio beneficienza qui",
+ 	 	 	 	 	"Ehi ragazzo. Come stai oggi?",
+ 	 	 	 	 	"Non fermarti al grado sette, altrimenti dovrai spaccarti la schiena a vita come me",
+ 	 	 	 	 	"Le migliori cure mediche di tutta Shangri-La",
+ 	 	 	 	 	"L'SLPD sta nuovamente facendo baccano. Spero che il consiglio li metta al loro posto",
+ 	 	 	 	 	"Ehi ragazzo, mai sentito parlare della 3Helix Network?",
+ 	 	 	 	 	"Ehi ragazzo, hai mai incontrato qualcuno chiamato Spaccamondi?",
+ 	 	 	 	 	"Hai sentito del ristorante sulla luna? Buon cibo, ma niente atmosfera!",
+ 	 	 	 	 	"Una fabbrica di formaggi è esplosa in Francia. C'erano de-brie-ti ovunque!",
+ 	 	 	 	 	"La geologia è rock, ma la geografia è dove si trova!",
+ 	 	 	 	 	"Se al mio funerale vedo qualcuno con il muso lungo, non gli parlerò mai più!",
+ 	 	 	 	 	"Perchè Adele ha attraversato la strada? Per dire hello from the other siiiide~",
+ 	 	 	 	 	"Certo l'incerto, incerto il certo",
+ 	 	 	 	 	"Diffidate dalle limitazioni!",
+ 	 	 	 	 	"Tagliamo la testa al topo",
+ 	 	 	 	 	"Funghi: se li conosci, lieviti",
+ 	 	 	 	 	"Perchè l'enigmista va in moto senza casco? Perchè adora i rompicapo",
+ 	 	 	 	 	"Un signore entra in un caffè: dlin, splash! C'era il cucchiaino",
+ 	 	 	 	 	"C'è stato un furto alla fabbrica di lampadine. La polizia brancola nel buio",
+ 	 	 	 	 	"Ho le migliori cure mediche che tu possa trovare!",
+ 	 	 	 	 	"Collezionavo armi speciali leggendarie colorate, ma ora sono tutte bianche",
+ 	 	 	 	 	"I camerini sono da quella parte...",
+ 	 	 	 	 	"Vediamo di chiudere l'affare prima che io mi bagni addosso!",
+ 	 	 	 	 	"Dai un'occhiata! Abbiamo sicuramente qualcosa che stuzzicherà la fantasia..."
  	 	 	 	],
  	 	 	 	"eng": [
  	 	 	 	 	"Hey kid... Come check out my goods."
@@ -5059,27 +5276,27 @@
  	 	 	"defaultLines": {
  	 	 	 	"trans": [
  	 	 	 	 	"Benvenuto. Cosa posso conservare per te?",
-					"Ciao. Questo è il posto più sicuro per i tuoi oggetti più cari",
-					"Buon per te! Qui i tuoi oggetti saranno al sicuro",
-					"Benvenuto. Hai qualcosa da depositare?",
-					"Benvenuto nella filiale di Shangri-La. Cosa posso fare per te?",
-					"Io sollevo le cose e le rimetto giù. Scherzo, ma non più di tanto",
-					"La Banca di Arasaka è qui per tutti i tuoi bisogni bancari",
-					"Benvenuto. Che servizio vorresti usufruire oggi?",
-					"24 ore su 24, 7 giorni su 7 per tutti i tuoi bisogni bancari",
-					"Questo è il posto più sicuro di tutta la città",
-					"Ehilà. Il mio nome è Rossi. Come posso aiutarti?",
-					"I banchieri a sinistra. Gli sportelli a destra",
-					"Grazie per essere venuto a trovarci. Hai bisogno di aiuto?",
-					"Non tu di nuovo... cosa vuoi?",
-					"Spero tu non voglia portare guai. Cosa posso fare per te, amico?",
-					"Guarda lì. Vedrai che Misaki offre il miglior tasso d'interesse, se t'interessa",
-					"Ti sei mai imbattuto in un nomade avventuriero chiamato Finel?",
-					"La nostra banca è il posto più sicuro del mondo, se non l'unico...",
-					"Vorresti aprire un conto depositi?",
-					"Devi depositare un'arma speciale leggendaria bianca per aprire un conto depositi",
-					"Alpha è appena passato di qui chiedendo se avevi qualche epica nel tuo armadietto!",
-					"C'è un problema con il tuo ID. Devi pagare 1 BTC"
+ 	 	 	 	 	"Ciao. Questo è il posto più sicuro per i tuoi oggetti più cari",
+ 	 	 	 	 	"Buon per te! Qui i tuoi oggetti saranno al sicuro",
+ 	 	 	 	 	"Benvenuto. Hai qualcosa da depositare?",
+ 	 	 	 	 	"Benvenuto nella filiale di Shangri-La. Cosa posso fare per te?",
+ 	 	 	 	 	"Io sollevo le cose e le rimetto giù. Scherzo, ma non più di tanto",
+ 	 	 	 	 	"La Banca di Arasaka è qui per tutti i tuoi bisogni bancari",
+ 	 	 	 	 	"Benvenuto. Che servizio vorresti usufruire oggi?",
+ 	 	 	 	 	"24 ore su 24, 7 giorni su 7 per tutti i tuoi bisogni bancari",
+ 	 	 	 	 	"Questo è il posto più sicuro di tutta la città",
+ 	 	 	 	 	"Ehilà. Il mio nome è Rossi. Come posso aiutarti?",
+ 	 	 	 	 	"I banchieri a sinistra. Gli sportelli a destra",
+ 	 	 	 	 	"Grazie per essere venuto a trovarci. Hai bisogno di aiuto?",
+ 	 	 	 	 	"Non tu di nuovo... cosa vuoi?",
+ 	 	 	 	 	"Spero tu non voglia portare guai. Cosa posso fare per te, amico?",
+ 	 	 	 	 	"Guarda lì. Vedrai che Misaki offre il miglior tasso d'interesse, se t'interessa",
+ 	 	 	 	 	"Ti sei mai imbattuto in un nomade avventuriero chiamato Finel?",
+ 	 	 	 	 	"La nostra banca è il posto più sicuro del mondo, se non l'unico...",
+ 	 	 	 	 	"Vorresti aprire un conto depositi?",
+ 	 	 	 	 	"Devi depositare un'arma speciale leggendaria bianca per aprire un conto depositi",
+ 	 	 	 	 	"Alpha è appena passato di qui chiedendo se avevi qualche epica nel tuo armadietto!",
+ 	 	 	 	 	"C'è un problema con il tuo ID. Devi pagare 1 BTC"
  	 	 	 	],
  	 	 	 	"eng": [
  	 	 	 	 	"Welcome. What can I store for you?"
@@ -5098,18 +5315,18 @@
  	 	 	"defaultLines": {
  	 	 	 	"trans": [
  	 	 	 	 	"Inserisci un Nucleo di Calibrazione nella macchina, e ti aiuterò a calibrare qualsiasi equipaggiamento.",
-					"Ti aiuterò a calibrare l'equipaggiamento, ma non è un mio problema se si distrugge nel farlo",
-					"I miei occhi sono qua sopra amico, assieme alla mia pistola",
-					"Ti senti fortunato? Allora avanti, prova ad usare la macchina",
-					"Tutte le mie vendite sono decisive, tutte le calibrazioni sono fatte a tuo rischio, e se vuoi parlare ad un manager... la stai giaà guardando",
-					"Il mio nome è Kamiko. Quella bellezza di là è Cali. Lei è un pò... capricciosa",
-					"La tua attrezzatura sembra un po'... beh, può essere migliore. Posso aiutarti",
-					"Ci vorrà un po' per Cali nel decifrare il nucleo che hai portato",
-					"Una volta entrato nel negozio di calibrazione, ci vorranno... eh, almeno 30 minuti. Puoi aspettare qui, ma preferirei che tu non lo faccia",
-					"No, non vendiamo nuclei di calibrazione. Io provvedo alla macchina, tu ai nuclei. È così che funzionano le cose qui",
-					"C'è la possibilità che Cali ti faccia l'equipaggiamento a pezzettini? Sì. Ma ne vale la scommessa? Decisamente",
-					"Cosa potenzierai oggi?",
-					"È il momento di calibrare dell'attrezzatura!"
+ 	 	 	 	 	"Ti aiuterò a calibrare l'equipaggiamento, ma non è un mio problema se si distrugge nel farlo",
+ 	 	 	 	 	"I miei occhi sono qua sopra amico, assieme alla mia pistola",
+ 	 	 	 	 	"Ti senti fortunato? Allora avanti, prova ad usare la macchina",
+ 	 	 	 	 	"Tutte le mie vendite sono decisive, tutte le calibrazioni sono fatte a tuo rischio, e se vuoi parlare ad un manager... la stai giaà guardando",
+ 	 	 	 	 	"Il mio nome è Kamiko. Quella bellezza di là è Cali. Lei è un pò... capricciosa",
+ 	 	 	 	 	"La tua attrezzatura sembra un po'... beh, può essere migliore. Posso aiutarti",
+ 	 	 	 	 	"Ci vorrà un po' per Cali nel decifrare il nucleo che hai portato",
+ 	 	 	 	 	"Una volta entrato nel negozio di calibrazione, ci vorranno... eh, almeno 30 minuti. Puoi aspettare qui, ma preferirei che tu non lo faccia",
+ 	 	 	 	 	"No, non vendiamo nuclei di calibrazione. Io provvedo alla macchina, tu ai nuclei. È così che funzionano le cose qui",
+ 	 	 	 	 	"C'è la possibilità che Cali ti faccia l'equipaggiamento a pezzettini? Sì. Ma ne vale la scommessa? Decisamente",
+ 	 	 	 	 	"Cosa potenzierai oggi?",
+ 	 	 	 	 	"È il momento di calibrare dell'attrezzatura!"
  	 	 	 	],
  	 	 	 	"eng": [
  	 	 	 	 	"Insert a Calibration Core into the machine, and I shall help you calibrate any of your equipment."
@@ -5128,30 +5345,30 @@
  	 	 	"defaultLines": {
  	 	 	 	"trans": [
  	 	 	 	 	"Posso darti qualsiasi cosa tu stia pensando",
-					"Facciamo uno scambio",
-					"Lo vuoi? Ce l'ho",
-					"Quindi, che ne dici? Vuoi fare un piccolo scambio?",
-					"Non è il momento che tu scambi qualcosa?",
-					"I tuoi soldi non valgono granchè qui. Vediamo cos'altro hai da dare",
-					"Benvenuto nel mio umile negozio scambi",
-					"Diamo un'occhiata a cos'hai portato qui",
-					"Questo non è il tuo solito negozio",
-					"Cos'hai da darmi?",
-					"Sacchetti e pacchi per davanti e il didietro!",
-					"Io sono un tipo da qualità oltre la quantità",
-					"Quindi? Hai da barattare o no?",
-					"Ogni borsa è una borsa da tenere, no?",
-					"Sembra tu abbia bisogno di più spazio per la tua roba",
-					"Il mio nome è Lee. Sai, non devi portare tutto per forza nelle tue tasche",
-					"Non ti stanchi a trasportare tutta quella roba in quella maniera?",
-					"Sembra tu abbia bisogno di un nuovo zaino",
-					"Se ti piace, imborsalo!",
-					"Le tue tasche sembrano piene. Potrei aiutarti ad alleggerire quel carico",
-					"Come fai a combattere con le tue mani così piene di roba?",
-					"Sai, non devi portarti tutto nelle tue tasche",
-					"Facciamo un accordo: tu mi dai le tue borse vecchie, e io te ne do una nuova",
-					"Il mondo in cui cammini mi fa pensare che sei sovraccarico",
-					"Sono quello con cui parli quando vuoi avere un'affare. O uno zaino"
+ 	 	 	 	 	"Facciamo uno scambio",
+ 	 	 	 	 	"Lo vuoi? Ce l'ho",
+ 	 	 	 	 	"Quindi, che ne dici? Vuoi fare un piccolo scambio?",
+ 	 	 	 	 	"Non è il momento che tu scambi qualcosa?",
+ 	 	 	 	 	"I tuoi soldi non valgono granchè qui. Vediamo cos'altro hai da dare",
+ 	 	 	 	 	"Benvenuto nel mio umile negozio scambi",
+ 	 	 	 	 	"Diamo un'occhiata a cos'hai portato qui",
+ 	 	 	 	 	"Questo non è il tuo solito negozio",
+ 	 	 	 	 	"Cos'hai da darmi?",
+ 	 	 	 	 	"Sacchetti e pacchi per davanti e il didietro!",
+ 	 	 	 	 	"Io sono un tipo da qualità oltre la quantità",
+ 	 	 	 	 	"Quindi? Hai da barattare o no?",
+ 	 	 	 	 	"Ogni borsa è una borsa da tenere, no?",
+ 	 	 	 	 	"Sembra tu abbia bisogno di più spazio per la tua roba",
+ 	 	 	 	 	"Il mio nome è Lee. Sai, non devi portare tutto per forza nelle tue tasche",
+ 	 	 	 	 	"Non ti stanchi a trasportare tutta quella roba in quella maniera?",
+ 	 	 	 	 	"Sembra tu abbia bisogno di un nuovo zaino",
+ 	 	 	 	 	"Se ti piace, imborsalo!",
+ 	 	 	 	 	"Le tue tasche sembrano piene. Potrei aiutarti ad alleggerire quel carico",
+ 	 	 	 	 	"Come fai a combattere con le tue mani così piene di roba?",
+ 	 	 	 	 	"Sai, non devi portarti tutto nelle tue tasche",
+ 	 	 	 	 	"Facciamo un accordo: tu mi dai le tue borse vecchie, e io te ne do una nuova",
+ 	 	 	 	 	"Il mondo in cui cammini mi fa pensare che sei sovraccarico",
+ 	 	 	 	 	"Sono quello con cui parli quando vuoi avere un'affare. O uno zaino"
  	 	 	 	],
  	 	 	 	"eng": [
  	 	 	 	 	"Hey kid, I'm Lee, You know, you don't have to carry everything you own in your pockets."
@@ -5202,7 +5419,7 @@
  	"npcGangs": {
  	 	"gang1": {
  	 	 	"displayName": {
- 	 	 	 	"trans": "Animals",
+ 	 	 	 	"trans": "Animali",
  	 	 	 	"eng": "Animals"
  	 	 	}
  	 	},
@@ -5570,6 +5787,12 @@
  	 	 	 	"eng": "Jack O Lantern"
  	 	 	}
  	 	},
+ 	 	"christmasToBox": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Contenitore leggendario bloccato",
+ 	 	 	 	"eng": "Locked Legendary Container"
+ 	 	 	}
+ 	 	},
  	 	"ammo1": {
  	 	 	"vars": [
  	 	 	 	"minLevel"
@@ -5599,7 +5822,7 @@
  	 	 	"eng": "Spamming"
  	 	},
  	 	"other": {
- 	 	 	"trans": "Altro", 
+ 	 	 	"trans": "Altro",
  	 	 	"eng": "Other"
  	 	}
  	},
@@ -5638,7 +5861,7 @@
  	 	},
  	 	"upgradeNoBreak": {
  	 	 	"trans": "Nanobot di Calibrazione Sicura",
- 	 	 	"eng": "Calibration Safety Nanobot"
+ 	 	 	"eng": "Calibration Safety Nano Bot"
  	 	},
  	 	"afkRewardBoost": {
  	 	 	"trans": "Potenziamento Ricompense AFK",
@@ -5721,7 +5944,7 @@
  	"chatServer": {
  	 	"restarting": {
  	 	 	"trans": "Il server di chat si sta riavviando per un aggiornamento...",
- 	 	 	"eng": "Chat Server is restarting for an update..."
+ 	 	 	"eng": "Chat Server is restarting for a update..."
  	 	}
  	},
  	"dungeon": {
@@ -6315,7 +6538,7 @@
  	 	 	},
  	 	 	"dontShowAgain": {
  	 	 	 	"trans": "Non mostra di nuovo questa trasmissione",
- 	 	 	 	"eng": "Don't show this broadcast again"
+ 	 	 	 	"eng": "Don\\'t show this broadcast again"
  	 	 	}
  	 	},
  	 	"resultScreen": {
@@ -6328,7 +6551,7 @@
  	 	 	 	 	"levelName"
  	 	 	 	],
  	 	 	 	"trans": "Congratulazioni, sei aumentato di ${levelName}",
- 	 	 	 	"eng": "Congratulations, you have leveled up your ${levelName}!"
+ 	 	 	 	"eng": "Congratulation, you have leveled up your ${levelName}!"
  	 	 	},
  	 	 	"fromTo": {
  	 	 	 	"vars": [
@@ -6496,6 +6719,28 @@
  	 	 	"eng": "You will not heal after each fight in dungeon, remember to use your healing items."
  	 	}
  	},
+ 	"christmasPromo": {
+ 	 	"title": {
+ 	 	 	"trans": "Buona vacanza invernale!",
+ 	 	 	"eng": "Happy Winter Holiday!"
+ 	 	},
+ 	 	"desc1": {
+ 	 	 	"trans": "È di nuovo il momento più meraviglioso dell'anno! In Shangri-La celebriamo le vacanze invernali con un evento speciale!",
+ 	 	 	"eng": "It's the most wonderful time of the year again! in Shang-ri-la we are celebrating the winter holiday with a special event!"
+ 	 	},
+ 	 	"desc2": {
+ 	 	 	"vars": [
+ 	 	 	 	"itemName",
+ 	 	 	 	"craftItem"
+ 	 	 	],
+ 	 	 	"trans": "Enemys e Ai Core Auto Farm avranno la possibilità di far cadere ${itemName}, puoi usarlo per creare ${craftItem} o aprirlo direttamente!",
+ 	 	 	"eng": "Enemies and AI Core auto farm will have chance to drop ${itemName}, you can use this to craft ${craftItem} or open it directly!"
+ 	 	},
+ 	 	"desc3": {
+ 	 	 	"trans": "Durante le festività natalizie, saranno disponibili due volte la cornice di chat ed emblema!",
+ 	 	 	"eng": "During the holiday season, two time limited chat frame and emblem will be available!"
+ 	 	}
+ 	},
  	"halloweenPromo": {
  	 	"title": {
  	 	 	"trans": "Felice Halloween!",
@@ -6627,32 +6872,41 @@
  	 	 	"eng": "destroy"
  	 	}
  	},
+ 	"craftingStartPage": {
+ 	 	"instant": {
+ 	 	 	"trans": "Immediata",
+ 	 	 	"eng": "Instant"
+ 	 	},
+ 	 	"instantDescription": {
+ 	 	 	"trans": "L'attività completerà istantaneamente",
+ 	 	 	"eng": "task will complete instantly"
+ 	 	},
+ 	 	"startButton": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "inizio",
+ 	 	 	 	"eng": "start"
+ 	 	 	}
+ 	 	}
+ 	},
  	"donationPage": {
  	 	"benefits": {
  	 	 	"trans": "benefici",
  	 	 	"eng": "benefits"
  	 	},
- 	 	"message": {
- 	 	 	"content1": {
- 	 	 	 	"trans": "Ciao, cari giocatori!",
- 	 	 	 	"eng": "Hello, dear players!"
- 	 	 	},
- 	 	 	"content2": {
- 	 	 	 	"trans": "Sono Dexter, lo sviluppatore di CyberCode Online.",
- 	 	 	 	"eng": "I am Dexter, the developer of CyberCode Online."
- 	 	 	},
- 	 	 	"content3": {
- 	 	 	 	"trans": "Se hai qualche spicciolo sarebbe molto utile se potessi donare per contribuire allo sviluppo del gioco.",
- 	 	 	 	"eng": "If you have some spare change it would be very helpful if you could donate to help with continued support and development of the game."
- 	 	 	},
- 	 	 	"content4": {
- 	 	 	 	"trans": "Per favore dona solo se puoi permettertelo, tutti i vantaggi sono estetici e non danno un vantaggio nel gioco.",
- 	 	 	 	"eng": "Please only donate if you are comfortable, all benefits are designed to be fair for all players and will not give an edge in gameplay."
- 	 	 	}
+ 	 	"title": {
+ 	 	 	"trans": "Livelli di donazione",
+ 	 	 	"eng": "Donation Tiers"
  	 	},
  	 	"monthlySubscription": {
  	 	 	"trans": "Abbonamento mensile",
  	 	 	"eng": "Monthly Subscription"
+ 	 	},
+ 	 	"payPalPricePerMonth": {
+ 	 	 	"vars": [
+ 	 	 	 	"price"
+ 	 	 	],
+ 	 	 	"trans": "${price} USD al mese",
+ 	 	 	"eng": "${price} USD Per Month"
  	 	},
  	 	"TiersTitle": {
  	 	 	"trans": "Titoli di donazione",
@@ -6682,7 +6936,7 @@
  	 	},
  	 	"permanentDescription": {
  	 	 	"trans": "Questo titolo non scadrà mai, \n rimarrà per sempre nel tuo account.",
- 	 	 	"eng": "This title will never expire.\n It stays with your account forever."
+ 	 	 	"eng": "This title will never expire.\\nIt stays with your account forever."
  	 	}
  	},
  	"cosmetic": {
@@ -6694,65 +6948,111 @@
  	 	 	"eng": "example chat frame of ${tierName} Tier"
  	 	}
  	},
- 	"actionStartModal": {
- 	 	"timeReductionButton": {
+ 	"sendCosmeticPage": {
+ 	 	"donationTabTitle": {
+ 	 	 	"trans": "Frame di chat",
+ 	 	 	"eng": "Chat Frame"
+ 	 	},
+ 	 	"emblemTab": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Emblema",
+ 	 	 	 	"eng": "Emblem"
+ 	 	 	}
+ 	 	},
+ 	 	"title": {
+ 	 	 	"vars": [
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Invio di cosmetici a ${playerName}",
+ 	 	 	"eng": "Sending cosmetic to ${playerName}"
+ 	 	},
+ 	 	"description": {
+ 	 	 	"trans": "Non inviare cosmetico ai giocatori che non conosci o lo usi come parte di un commercio. Questa funzione dovrebbe essere utilizzata solo come regalo per il tuo amico",
+ 	 	 	"eng": "Do not send cosmetic to players you do not know or use it as part of a trade. this feature should only be used as a gift to your friend"
+ 	 	},
+ 	 	"confirmModal": {
  	 	 	"title": {
  	 	 	 	"vars": [
- 	 	 	 	 	"itemName",
- 	 	 	 	 	"currentPercent"
+ 	 	 	 	 	"donationName",
+ 	 	 	 	 	"playerName",
+ 	 	 	 	 	"price"
  	 	 	 	],
- 	 	 	 	"trans": "Riduzione del tempo di attesa (attualmente ${currentPercent}%)",
- 	 	 	 	"eng": "Time Reduction (currently ${currentPercent}%)"
+ 	 	 	 	"trans": "Invia ${donationName} Frame di chat della donazione (costo ${price} unità) al giocatore \"${playerName}\"?",
+ 	 	 	 	"eng": "Send ${donationName} donation chat frame (cost ${price} Unit) to player \"${playerName}\"?"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"itemName"
- 	 	 	 	],
- 	 	 	 	"trans": "Riduci il tempo necessario per le attività del 40%, accumulabile fino all'80%",
- 	 	 	 	"eng": "Reduce time needed for action by 40%, stackable upto 80%"
+ 	 	 	 	"trans": "Facendo clic su Conferma, accetti che non stai inviando questo dono cosmetico come parte di un commercio ed è puramente un regalo per il tuo amico senza alcun ritorno previsto.",
+ 	 	 	 	"eng": "By clicking confirm, you agree that you are not sending this cosmetic gift as part of a trade and is purely a gift to your friend with no return expected."
  	 	 	},
- 	 	 	"activate": {
- 	 	 	 	"trans": "Riduci ora",
- 	 	 	 	"eng": "reduce now"
+ 	 	 	"confirmText": {
+ 	 	 	 	"trans": "Confermare",
+ 	 	 	 	"eng": "Confirm"
  	 	 	}
  	 	},
- 	 	"extendButton": {
- 	 	 	"activatedTitle": {
- 	 	 	 	"trans": "Potenziamento Ricompense (Attivato)",
- 	 	 	 	"eng": "Reward Boost (Activated)"
- 	 	 	},
- 	 	 	"notActivatedTitle": {
- 	 	 	 	"trans": "Potenziamento Ricompense",
- 	 	 	 	"eng": "Reward Boost"
- 	 	 	},
- 	 	 	"activatedDescription": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"itemName"
- 	 	 	 	],
- 	 	 	 	"trans": "Potenziamento attivato, è necessario spuntare la casella sottostante per abilitarlo per questa attività",
- 	 	 	 	"eng": "Boost activated, you must tick the checkbox below to enable it for this task"
- 	 	 	},
- 	 	 	"notActivatedDescription": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"itemName"
- 	 	 	 	],
- 	 	 	 	"trans": "Raddoppia gli oggetti e i punti esperienza mentre la durata e il costo aumenteranno di x4",
- 	 	 	 	"eng": "Double the items and exp! while the duration and cost will increase by 4 times"
- 	 	 	},
- 	 	 	"activate": {
- 	 	 	 	"trans": "Potenzia ora",
- 	 	 	 	"eng": "Boost now"
- 	 	 	},
- 	 	 	"enableBoost": {
- 	 	 	 	"trans": "Abilita il potenziamento delle ricompense",
- 	 	 	 	"eng": "Enable reward boost"
- 	 	 	}
+ 	 	"sendSuccessMsg": {
+ 	 	 	"vars": [
+ 	 	 	 	"donationName",
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Hai inviato correttamente ${donationName} frame di chat di donazione al giocatore \"${playerName}\"",
+ 	 	 	"eng": "You have successfully sent ${donationName} donation chat frame to player \"${playerName}\""
  	 	},
- 	 	"startButton": {
+ 	 	"hasDonation": {
+ 	 	 	"trans": "posseduta",
+ 	 	 	"eng": "owned"
+ 	 	},
+ 	 	"donationPrice": {
+ 	 	 	"vars": [
+ 	 	 	 	"price"
+ 	 	 	],
+ 	 	 	"trans": "${price} unità",
+ 	 	 	"eng": "${price} Unit"
+ 	 	},
+ 	 	"donationDescription": {
+ 	 	 	"trans": "Il livello di donazione di talento dura per 30 giorni",
+ 	 	 	"eng": "Gifted donation tier last for 30 days"
+ 	 	},
+ 	 	"emblemNotIncluded": {
+ 	 	 	"trans": "L'emblema non è incluso nel regalo",
+ 	 	 	"eng": "Emblem is not included in gift"
+ 	 	}
+ 	},
+ 	"sendEmblemPage": {
+ 	 	"title": {
+ 	 	 	"vars": [
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Invio di cosmetici a ${playerName}",
+ 	 	 	"eng": "Sending cosmetic to ${playerName}"
+ 	 	},
+ 	 	"description": {
+ 	 	 	"trans": "Non inviare cosmetico ai giocatori che non conosci o lo usi come parte di un commercio. Questa funzione dovrebbe essere utilizzata solo come regalo per il tuo amico",
+ 	 	 	"eng": "Do not send cosmetic to players you do not know or use it as part of a trade. this feature should only be used as a gift to your friend"
+ 	 	},
+ 	 	"confirmModal": {
  	 	 	"title": {
- 	 	 	 	"trans": "Inizia",
- 	 	 	 	"eng": "start"
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"playerName",
+ 	 	 	 	 	"price"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Invia emblema (cost ${price} unità) al giocatore \"${playerName}\"?",
+ 	 	 	 	"eng": "Send emblem (cost ${price} Unit) to player \"${playerName}\"?"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Facendo clic su Conferma, accetti che non stai inviando questo dono cosmetico come parte di un commercio ed è puramente un regalo per il tuo amico senza alcun ritorno previsto.",
+ 	 	 	 	"eng": "By clicking confirm, you agree that you are not sending this cosmetic gift as part of a trade and is purely a gift to your friend with no return expected."
+ 	 	 	},
+ 	 	 	"confirmText": {
+ 	 	 	 	"trans": "Confermare",
+ 	 	 	 	"eng": "Confirm"
  	 	 	}
+ 	 	},
+ 	 	"sendSuccessMsg": {
+ 	 	 	"vars": [
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Hai inviato con successo un emblema al giocatore \"${playerName}\"",
+ 	 	 	"eng": "You have successfully sent an emblem to player \"${playerName}\""
  	 	}
  	}
 }

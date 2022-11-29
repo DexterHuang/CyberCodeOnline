@@ -929,6 +929,10 @@
  	 	 	 	 	"trans": "Stuur Cadeau",
  	 	 	 	 	"eng": "Send Gift"
  	 	 	 	},
+ 	 	 	 	"sendCosmetic": {
+ 	 	 	 	 	"trans": "Stuur cosmetisch cadeau",
+ 	 	 	 	 	"eng": "Send Cosmetic Gift"
+ 	 	 	 	},
  	 	 	 	"inviteToGang": {
  	 	 	 	 	"trans": "Nodig uit tot Gang",
  	 	 	 	 	"eng": "Invite to Gang"
@@ -1323,6 +1327,26 @@
  	 	 	 	 	"trans": "Dit kost ${timeStr}",
  	 	 	 	 	"eng": "This will take ${timeStr}"
  	 	 	 	}
+ 	 	 	},
+ 	 	 	"confirmModal": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Selecteer ${itemName}?",
+ 	 	 	 	 	"eng": "Select ${itemName}?"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Weet u zeker dat u ${itemName} wilt selecteren?",
+ 	 	 	 	 	"eng": "Are you sure you want to select ${itemName}?"
+ 	 	 	 	},
+ 	 	 	 	"confirmText": {
+ 	 	 	 	 	"trans": "Ik weet het zeker",
+ 	 	 	 	 	"eng": "I am sure"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"setting": {
@@ -1672,6 +1696,10 @@
  	 	 	 	 	"trans": "eigendom",
  	 	 	 	 	"eng": "owned"
  	 	 	 	},
+ 	 	 	 	"limitedEdition": {
+ 	 	 	 	 	"trans": "Beperkte editie",
+ 	 	 	 	 	"eng": "Limited Edition"
+ 	 	 	 	},
  	 	 	 	"buyConfirm": {
  	 	 	 	 	"title": {
  	 	 	 	 	 	"trans": "Koop embleem?",
@@ -1689,6 +1717,13 @@
  	 	 	 	"title": {
  	 	 	 	 	"trans": "Donatietrijders",
  	 	 	 	 	"eng": "Donation Tiers"
+ 	 	 	 	},
+ 	 	 	 	"expire": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"date"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Verloopt op ${date}",
+ 	 	 	 	 	"eng": "Expires at ${date}"
  	 	 	 	}
  	 	 	}
  	 	},
@@ -2242,6 +2277,10 @@
  	 	 	 	 	],
  	 	 	 	 	"trans": "Ontvang tot 2% (0,5% per legendarische container) Extra kans om epische laagcache te krijgen bij het ontgrendelen van vergrendelde legendarische container door ${itemName} te activeren",
  	 	 	 	 	"eng": "Receive up to 2% (0.5% per Legendary Container) additional chance to get epic tier cache when unlocking Locked Legendary Container by activating ${itemName}"
+ 	 	 	 	},
+ 	 	 	 	"button": {
+ 	 	 	 	 	"trans": "Verhogen nu",
+ 	 	 	 	 	"eng": "Increase now"
  	 	 	 	}
  	 	 	},
  	 	 	"increaseEpicDropRateActivated": {
@@ -2263,6 +2302,25 @@
  	 	 	"unlock": {
  	 	 	 	"trans": "Ontgrendelen",
  	 	 	 	"eng": "Unlock"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"buffActivation": {
+ 	 	"expBuff": {
+ 	 	 	"title": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"current"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Exp buff (momenteel ${current}%)",
+ 	 	 	 	"eng": "EXP Buff (Currently ${current}%)"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Verhoog uw EXP -winst gedurende 20 minuten met 80%",
+ 	 	 	 	"eng": "Increase your EXP gain by 80% for 20 minutes"
+ 	 	 	},
+ 	 	 	"button": {
+ 	 	 	 	"trans": "Activeren",
+ 	 	 	 	"eng": "Activate"
  	 	 	}
  	 	}
  	},
@@ -2317,7 +2375,7 @@
  	 	},
  	 	"amount": {
  	 	 	"trans": "Hoeveelheid",
- 	 	 	"eng": "amount"
+ 	 	 	"eng": "Amount"
  	 	},
  	 	"itemUpgradeCapacity": {
  	 	 	"trans": "Kalibratiecapaciteit",
@@ -3011,6 +3069,77 @@
  	 	 	"eng": "Are you sure you want to abandon this quest?"
  	 	}
  	},
+ 	"slider": {
+ 	 	"min": {
+ 	 	 	"trans": "Min",
+ 	 	 	"eng": "Min"
+ 	 	},
+ 	 	"max": {
+ 	 	 	"trans": "maximaal",
+ 	 	 	"eng": "max"
+ 	 	}
+ 	},
+ 	"actionStartModal": {
+ 	 	"timeReductionButton": {
+ 	 	 	"title": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName",
+ 	 	 	 	 	"currentPercent"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Tijdreductie (momenteel ${currentPercent}%)",
+ 	 	 	 	"eng": "Time Reduction (currently ${currentPercent}%)"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Verminder de tijd die nodig is voor actie met 40%, stapbaar tot 80%",
+ 	 	 	 	"eng": "Reduce time needed for action by 40%, stackable upto 80%"
+ 	 	 	},
+ 	 	 	"activate": {
+ 	 	 	 	"trans": "verminderen nu",
+ 	 	 	 	"eng": "reduce now"
+ 	 	 	}
+ 	 	},
+ 	 	"extendButton": {
+ 	 	 	"activatedTitle": {
+ 	 	 	 	"trans": "Beloning Boost (geactiveerd)",
+ 	 	 	 	"eng": "Reward Boost (Activated)"
+ 	 	 	},
+ 	 	 	"notActivatedTitle": {
+ 	 	 	 	"trans": "Beloning boost",
+ 	 	 	 	"eng": "Reward Boost"
+ 	 	 	},
+ 	 	 	"activatedDescription": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Boost geactiveerd, u moet het onderstaande selectievakje aanvinken om het voor deze taak in te schakelen",
+ 	 	 	 	"eng": "Boost activated, you must tick the checkbox below to enable it for this task"
+ 	 	 	},
+ 	 	 	"notActivatedDescription": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Verdubbel de items en exp! Terwijl de duur en de kosten 4 keer zullen stijgen",
+ 	 	 	 	"eng": "Double the items and exp! while the duration and cost will increase by 4 times"
+ 	 	 	},
+ 	 	 	"activate": {
+ 	 	 	 	"trans": "Boost nu",
+ 	 	 	 	"eng": "Boost now"
+ 	 	 	},
+ 	 	 	"enableBoost": {
+ 	 	 	 	"trans": "Schakel de beloningsboost in",
+ 	 	 	 	"eng": "Enable reward boost"
+ 	 	 	}
+ 	 	},
+ 	 	"startButton": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "begin",
+ 	 	 	 	"eng": "start"
+ 	 	 	}
+ 	 	}
+ 	},
  	"tutorial": {
  	 	"localCombatButton": {
  	 	 	"trans": "Klik hier om te scannen op straatvijanden",
@@ -3258,6 +3387,14 @@
  	 	"donation11": {
  	 	 	"trans": "Cyberkitty",
  	 	 	"eng": "CyberKitty"
+ 	 	},
+ 	 	"donation12": {
+ 	 	 	"trans": "Cybersanta",
+ 	 	 	"eng": "CyberSanta"
+ 	 	},
+ 	 	"donation13": {
+ 	 	 	"trans": "Cyberfrost",
+ 	 	 	"eng": "CyberFrost"
  	 	},
  	 	"moderator": {
  	 	 	"trans": "Moderator",
@@ -3658,6 +3795,86 @@
  	 	 	 	"4": {
  	 	 	 	 	"trans": "Kitty ingelijste profiel (met animatie)",
  	 	 	 	 	"eng": "Kitty Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "Ontgrendel aangepaste bio",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Barcode -decoratie op profiel",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "Pas het motto van de bende aan",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Pas de bende -afbeelding aan",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Meer komen in toekomstige update",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation12": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "\"Cybersanta\" donatietitel",
+ 	 	 	 	 	"eng": "\"CyberSanta\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "Ontgrendel profielfoto -aanpassing",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Kerstchatframe (met animatie)",
+ 	 	 	 	 	"eng": "Christmas chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Kerst ingelijst profiel (met animatie)",
+ 	 	 	 	 	"eng": "Christmas Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "Ontgrendel aangepaste bio",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Barcode -decoratie op profiel",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "Pas het motto van de bende aan",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Pas de bende -afbeelding aan",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Meer komen in toekomstige update",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation13": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "\"Cyberfrost\" donatietitel",
+ 	 	 	 	 	"eng": "\"CyberFrost\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "Ontgrendel profielfoto -aanpassing",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Winterchatframe (met animatie)",
+ 	 	 	 	 	"eng": "Winter chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Winter ingelijste profiel (met animatie)",
+ 	 	 	 	 	"eng": "Winter Framed Profile (with animation)"
  	 	 	 	},
  	 	 	 	"5": {
  	 	 	 	 	"trans": "Ontgrendel aangepaste bio",
@@ -5357,6 +5574,12 @@
  	 	 	 	"eng": "Jack O Lantern"
  	 	 	}
  	 	},
+ 	 	"christmasToBox": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Vergrendelde legendarische container",
+ 	 	 	 	"eng": "Locked Legendary Container"
+ 	 	 	}
+ 	 	},
  	 	"ammo1": {
  	 	 	"vars": [
  	 	 	 	"minLevel"
@@ -5864,8 +6087,7 @@
  	 	 	"noTrait": {
  	 	 	 	"vars": [
  	 	 	 	 	"tierPart",
- 	 	 	 	 	"name",
- 	 	 	 	 	""
+ 	 	 	 	 	"name"
  	 	 	 	],
  	 	 	 	"trans": "${tierPart} ${name}",
  	 	 	 	"eng": "${tierPart} ${name}"
@@ -6284,6 +6506,28 @@
  	 	 	"eng": "You will not heal after each fight in dungeon, remember to use your healing items."
  	 	}
  	},
+ 	"christmasPromo": {
+ 	 	"title": {
+ 	 	 	"trans": "Fijne wintervakantie!",
+ 	 	 	"eng": "Happy Winter Holiday!"
+ 	 	},
+ 	 	"desc1": {
+ 	 	 	"trans": "Het is weer de mooiste tijd van het jaar! In Shangri-La vieren we de wintervakantie met een speciaal evenement!",
+ 	 	 	"eng": "It's the most wonderful time of the year again! in Shang-ri-la we are celebrating the winter holiday with a special event!"
+ 	 	},
+ 	 	"desc2": {
+ 	 	 	"vars": [
+ 	 	 	 	"itemName",
+ 	 	 	 	"craftItem"
+ 	 	 	],
+ 	 	 	"trans": "Vijanden en AI Core Auto Farm krijgen de kans om ${itemName} te laten vallen, u kunt dit gebruiken om ${craftItem} te maken of rechtstreeks te openen!",
+ 	 	 	"eng": "Enemies and AI Core auto farm will have chance to drop ${itemName}, you can use this to craft ${craftItem} or open it directly!"
+ 	 	},
+ 	 	"desc3": {
+ 	 	 	"trans": "Tijdens de feestdagen zijn er twee keer beperkt chatframe en embleem beschikbaar!",
+ 	 	 	"eng": "During the holiday season, two time limited chat frame and emblem will be available!"
+ 	 	}
+ 	},
  	"halloweenPromo": {
  	 	"title": {
  	 	 	"trans": "Fijne Halloween!",
@@ -6415,32 +6659,41 @@
  	 	 	"eng": "destroy"
  	 	}
  	},
+ 	"craftingStartPage": {
+ 	 	"instant": {
+ 	 	 	"trans": "Ogenblik",
+ 	 	 	"eng": "Instant"
+ 	 	},
+ 	 	"instantDescription": {
+ 	 	 	"trans": "De taak wordt onmiddellijk voltooid",
+ 	 	 	"eng": "task will complete instantly"
+ 	 	},
+ 	 	"startButton": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "begin",
+ 	 	 	 	"eng": "start"
+ 	 	 	}
+ 	 	}
+ 	},
  	"donationPage": {
  	 	"benefits": {
  	 	 	"trans": "voordelen",
  	 	 	"eng": "benefits"
  	 	},
- 	 	"message": {
- 	 	 	"content1": {
- 	 	 	 	"trans": "Hallo, Beste spelers!",
- 	 	 	 	"eng": "Hello, dear players!"
- 	 	 	},
- 	 	 	"content2": {
- 	 	 	 	"trans": "Ik ben dexter, de ontwikkelaar van Cybercode online.",
- 	 	 	 	"eng": "I am Dexter, the developer of CyberCode Online."
- 	 	 	},
- 	 	 	"content3": {
- 	 	 	 	"trans": "Als je wat geld over hebt, zou het erg hulpzaam zijn als je kon doneren om te helpen met aanhoudende ondersteuning en ontwikkeling van het spel.",
- 	 	 	 	"eng": "If you have some spare change it would be very helpful if you could donate to help with continued support and development of the game."
- 	 	 	},
- 	 	 	"content4": {
- 	 	 	 	"trans": "Doneer alleen als u comfortabel bent, alle voordelen zijn ontworpen om eerlijk te zijn voor alle spelers en zullen geen voorsprong geven in gameplay.",
- 	 	 	 	"eng": "Please only donate if you are comfortable, all benefits are designed to be fair for all players and will not give an edge in gameplay."
- 	 	 	}
+ 	 	"title": {
+ 	 	 	"trans": "Donatielagen",
+ 	 	 	"eng": "Donation Tiers"
  	 	},
  	 	"monthlySubscription": {
  	 	 	"trans": "Maandelijks abonnement",
  	 	 	"eng": "Monthly Subscription"
+ 	 	},
+ 	 	"payPalPricePerMonth": {
+ 	 	 	"vars": [
+ 	 	 	 	"price"
+ 	 	 	],
+ 	 	 	"trans": "${price} USD per maand",
+ 	 	 	"eng": "${price} USD Per Month"
  	 	},
  	 	"TiersTitle": {
  	 	 	"trans": "Donatietrijders",
@@ -6482,66 +6735,111 @@
  	 	 	"eng": "example chat frame of ${tierName} Tier"
  	 	}
  	},
- 	"actionStartModal": {
- 	 	"timeReductionButton": {
+ 	"sendCosmeticPage": {
+ 	 	"donationTabTitle": {
+ 	 	 	"trans": "Chatframe",
+ 	 	 	"eng": "Chat Frame"
+ 	 	},
+ 	 	"emblemTab": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Embleem",
+ 	 	 	 	"eng": "Emblem"
+ 	 	 	}
+ 	 	},
+ 	 	"title": {
+ 	 	 	"vars": [
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Cosmetisch verzenden naar ${playerName}",
+ 	 	 	"eng": "Sending cosmetic to ${playerName}"
+ 	 	},
+ 	 	"description": {
+ 	 	 	"trans": "Stuur geen cosmetica naar spelers die je niet kent of gebruik het als onderdeel van een ruil. Deze functie mag alleen worden gebruikt als een geschenk voor uw vriend",
+ 	 	 	"eng": "Do not send cosmetic to players you do not know or use it as part of a trade. this feature should only be used as a gift to your friend"
+ 	 	},
+ 	 	"confirmModal": {
  	 	 	"title": {
  	 	 	 	"vars": [
- 	 	 	 	 	"itemName",
- 	 	 	 	 	"currentPercent",
- 	 	 	 	 	""
+ 	 	 	 	 	"donationName",
+ 	 	 	 	 	"playerName",
+ 	 	 	 	 	"price"
  	 	 	 	],
- 	 	 	 	"trans": "Tijdreductie (momenteel ${currentPercent}%)",
- 	 	 	 	"eng": "Time Reduction (currently ${currentPercent}%)"
+ 	 	 	 	"trans": "Stuur ${donationName} donatie chatframe (kosten ${price} eenheid) naar speler \"${playerName}\"?",
+ 	 	 	 	"eng": "Send ${donationName} donation chat frame (cost ${price} Unit) to player \"${playerName}\"?"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"itemName"
- 	 	 	 	],
- 	 	 	 	"trans": "Verminder de tijd die nodig is voor actie met 40%, stapbaar tot 80%",
- 	 	 	 	"eng": "Reduce time needed for action by 40%, stackable upto 80%"
+ 	 	 	 	"trans": "Door te klikken, gaat u ermee akkoord dat u dit cosmetische geschenk niet als onderdeel van een ruil verzendt en puur een geschenk aan uw vriend is zonder terugkeer te worden verwacht.",
+ 	 	 	 	"eng": "By clicking confirm, you agree that you are not sending this cosmetic gift as part of a trade and is purely a gift to your friend with no return expected."
  	 	 	},
- 	 	 	"activate": {
- 	 	 	 	"trans": "verminderen nu",
- 	 	 	 	"eng": "reduce now"
+ 	 	 	"confirmText": {
+ 	 	 	 	"trans": "Bevestigen",
+ 	 	 	 	"eng": "Confirm"
  	 	 	}
  	 	},
- 	 	"extendButton": {
- 	 	 	"activatedTitle": {
- 	 	 	 	"trans": "Beloning Boost (geactiveerd)",
- 	 	 	 	"eng": "Reward Boost (Activated)"
- 	 	 	},
- 	 	 	"notActivatedTitle": {
- 	 	 	 	"trans": "Beloning boost",
- 	 	 	 	"eng": "Reward Boost"
- 	 	 	},
- 	 	 	"activatedDescription": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"itemName"
- 	 	 	 	],
- 	 	 	 	"trans": "Boost geactiveerd, u moet het onderstaande selectievakje aanvinken om het voor deze taak in te schakelen",
- 	 	 	 	"eng": "Boost activated, you must tick the checkbox below to enable it for this task"
- 	 	 	},
- 	 	 	"notActivatedDescription": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"itemName"
- 	 	 	 	],
- 	 	 	 	"trans": "Verdubbel de items en exp! Terwijl de duur en de kosten 4 keer zullen stijgen",
- 	 	 	 	"eng": "Double the items and exp! while the duration and cost will increase by 4 times"
- 	 	 	},
- 	 	 	"activate": {
- 	 	 	 	"trans": "Boost nu",
- 	 	 	 	"eng": "Boost now"
- 	 	 	},
- 	 	 	"enableBoost": {
- 	 	 	 	"trans": "Schakel de beloningsboost in",
- 	 	 	 	"eng": "Enable reward boost"
- 	 	 	}
+ 	 	"sendSuccessMsg": {
+ 	 	 	"vars": [
+ 	 	 	 	"donationName",
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "U hebt met succes ${donationName} donatiechatframe naar Player gestuurd \"${playerName}\"",
+ 	 	 	"eng": "You have successfully sent ${donationName} donation chat frame to player \"${playerName}\""
  	 	},
- 	 	"startButton": {
+ 	 	"hasDonation": {
+ 	 	 	"trans": "eigendom",
+ 	 	 	"eng": "owned"
+ 	 	},
+ 	 	"donationPrice": {
+ 	 	 	"vars": [
+ 	 	 	 	"price"
+ 	 	 	],
+ 	 	 	"trans": "${price} eenheid",
+ 	 	 	"eng": "${price} Unit"
+ 	 	},
+ 	 	"donationDescription": {
+ 	 	 	"trans": "Begaafde donatie laag voor 30 dagen",
+ 	 	 	"eng": "Gifted donation tier last for 30 days"
+ 	 	},
+ 	 	"emblemNotIncluded": {
+ 	 	 	"trans": "Embleem is niet opgenomen in het geschenk",
+ 	 	 	"eng": "Emblem is not included in gift"
+ 	 	}
+ 	},
+ 	"sendEmblemPage": {
+ 	 	"title": {
+ 	 	 	"vars": [
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Cosmetisch verzenden naar ${playerName}",
+ 	 	 	"eng": "Sending cosmetic to ${playerName}"
+ 	 	},
+ 	 	"description": {
+ 	 	 	"trans": "Stuur geen cosmetica naar spelers die je niet kent of gebruik het als onderdeel van een ruil. Deze functie mag alleen worden gebruikt als een geschenk voor uw vriend",
+ 	 	 	"eng": "Do not send cosmetic to players you do not know or use it as part of a trade. this feature should only be used as a gift to your friend"
+ 	 	},
+ 	 	"confirmModal": {
  	 	 	"title": {
- 	 	 	 	"trans": "begin",
- 	 	 	 	"eng": "start"
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"playerName",
+ 	 	 	 	 	"price"
+ 	 	 	 	],
+ 	 	 	 	"trans": "EMBLEM verzenden (kosten ${price} eenheid) naar speler \"${playerName}\"?",
+ 	 	 	 	"eng": "Send emblem (cost ${price} Unit) to player \"${playerName}\"?"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Door te klikken, gaat u ermee akkoord dat u dit cosmetische geschenk niet als onderdeel van een ruil verzendt en puur een geschenk aan uw vriend is zonder terugkeer te worden verwacht.",
+ 	 	 	 	"eng": "By clicking confirm, you agree that you are not sending this cosmetic gift as part of a trade and is purely a gift to your friend with no return expected."
+ 	 	 	},
+ 	 	 	"confirmText": {
+ 	 	 	 	"trans": "Bevestigen",
+ 	 	 	 	"eng": "Confirm"
  	 	 	}
+ 	 	},
+ 	 	"sendSuccessMsg": {
+ 	 	 	"vars": [
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Je hebt met succes een embleem gestuurd naar de speler \"${playerName}\"",
+ 	 	 	"eng": "You have successfully sent an emblem to player \"${playerName}\""
  	 	}
  	}
 }

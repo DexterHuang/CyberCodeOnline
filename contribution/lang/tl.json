@@ -929,6 +929,10 @@
  	 	 	 	 	"trans": "Magpadala ng regalo",
  	 	 	 	 	"eng": "Send Gift"
  	 	 	 	},
+ 	 	 	 	"sendCosmetic": {
+ 	 	 	 	 	"trans": "Magpadala ng regalong kosmetiko",
+ 	 	 	 	 	"eng": "Send Cosmetic Gift"
+ 	 	 	 	},
  	 	 	 	"inviteToGang": {
  	 	 	 	 	"trans": "Anyayahan sa gang",
  	 	 	 	 	"eng": "Invite to Gang"
@@ -1323,6 +1327,26 @@
  	 	 	 	 	"trans": "Aabutin ito ng ${timeStr}",
  	 	 	 	 	"eng": "This will take ${timeStr}"
  	 	 	 	}
+ 	 	 	},
+ 	 	 	"confirmModal": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Piliin ang ${itemName}?",
+ 	 	 	 	 	"eng": "Select ${itemName}?"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Sigurado ka bang nais mong pumili ng ${itemName}?",
+ 	 	 	 	 	"eng": "Are you sure you want to select ${itemName}?"
+ 	 	 	 	},
+ 	 	 	 	"confirmText": {
+ 	 	 	 	 	"trans": "Sigurado ako",
+ 	 	 	 	 	"eng": "I am sure"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"setting": {
@@ -1672,6 +1696,10 @@
  	 	 	 	 	"trans": "pag -aari",
  	 	 	 	 	"eng": "owned"
  	 	 	 	},
+ 	 	 	 	"limitedEdition": {
+ 	 	 	 	 	"trans": "Limitadong edisyon",
+ 	 	 	 	 	"eng": "Limited Edition"
+ 	 	 	 	},
  	 	 	 	"buyConfirm": {
  	 	 	 	 	"title": {
  	 	 	 	 	 	"trans": "Bumili ng Emblem?",
@@ -1689,6 +1717,13 @@
  	 	 	 	"title": {
  	 	 	 	 	"trans": "Mga tier ng donasyon",
  	 	 	 	 	"eng": "Donation Tiers"
+ 	 	 	 	},
+ 	 	 	 	"expire": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"date"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Mag -expire sa ${date}",
+ 	 	 	 	 	"eng": "Expires at ${date}"
  	 	 	 	}
  	 	 	}
  	 	},
@@ -2242,6 +2277,10 @@
  	 	 	 	 	],
  	 	 	 	 	"trans": "Makatanggap ng hanggang sa 2% (0.5% bawat maalamat na lalagyan) Karagdagang pagkakataon upang makakuha ng epic tier cache kapag ang pag -unlock ng naka -lock na maalamat na lalagyan sa pamamagitan ng pag -activate ng ${itemName}",
  	 	 	 	 	"eng": "Receive up to 2% (0.5% per Legendary Container) additional chance to get epic tier cache when unlocking Locked Legendary Container by activating ${itemName}"
+ 	 	 	 	},
+ 	 	 	 	"button": {
+ 	 	 	 	 	"trans": "Dagdagan ngayon",
+ 	 	 	 	 	"eng": "Increase now"
  	 	 	 	}
  	 	 	},
  	 	 	"increaseEpicDropRateActivated": {
@@ -2263,6 +2302,25 @@
  	 	 	"unlock": {
  	 	 	 	"trans": "I -unlock",
  	 	 	 	"eng": "Unlock"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"buffActivation": {
+ 	 	"expBuff": {
+ 	 	 	"title": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"current"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Exp buff (kasalukuyang ${current}%)",
+ 	 	 	 	"eng": "EXP Buff (Currently ${current}%)"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Dagdagan ang iyong kita ng exp ng 80% sa loob ng 20 minuto",
+ 	 	 	 	"eng": "Increase your EXP gain by 80% for 20 minutes"
+ 	 	 	},
+ 	 	 	"button": {
+ 	 	 	 	"trans": "Buhayin",
+ 	 	 	 	"eng": "Activate"
  	 	 	}
  	 	}
  	},
@@ -2317,7 +2375,7 @@
  	 	},
  	 	"amount": {
  	 	 	"trans": "Halaga",
- 	 	 	"eng": "amount"
+ 	 	 	"eng": "Amount"
  	 	},
  	 	"itemUpgradeCapacity": {
  	 	 	"trans": "Kapasidad ng pagkakalibrate",
@@ -3011,6 +3069,77 @@
  	 	 	"eng": "Are you sure you want to abandon this quest?"
  	 	}
  	},
+ 	"slider": {
+ 	 	"min": {
+ 	 	 	"trans": "Min",
+ 	 	 	"eng": "Min"
+ 	 	},
+ 	 	"max": {
+ 	 	 	"trans": "Max",
+ 	 	 	"eng": "max"
+ 	 	}
+ 	},
+ 	"actionStartModal": {
+ 	 	"timeReductionButton": {
+ 	 	 	"title": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName",
+ 	 	 	 	 	"currentPercent"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Pagbabawas ng oras (kasalukuyang ${currentPercent}%)",
+ 	 	 	 	"eng": "Time Reduction (currently ${currentPercent}%)"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Bawasan ang oras na kinakailangan para sa pagkilos ng 40%, Stackable hanggang 80%",
+ 	 	 	 	"eng": "Reduce time needed for action by 40%, stackable upto 80%"
+ 	 	 	},
+ 	 	 	"activate": {
+ 	 	 	 	"trans": "bawasan ngayon",
+ 	 	 	 	"eng": "reduce now"
+ 	 	 	}
+ 	 	},
+ 	 	"extendButton": {
+ 	 	 	"activatedTitle": {
+ 	 	 	 	"trans": "Reward Boost (Aktibo)",
+ 	 	 	 	"eng": "Reward Boost (Activated)"
+ 	 	 	},
+ 	 	 	"notActivatedTitle": {
+ 	 	 	 	"trans": "Reward Boost",
+ 	 	 	 	"eng": "Reward Boost"
+ 	 	 	},
+ 	 	 	"activatedDescription": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Palakasin ang aktibo, dapat mong lagyan ng tsek ang checkbox sa ibaba upang paganahin ito para sa gawaing ito",
+ 	 	 	 	"eng": "Boost activated, you must tick the checkbox below to enable it for this task"
+ 	 	 	},
+ 	 	 	"notActivatedDescription": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "I -double ang mga item at exp! Habang ang tagal at gastos ay tataas ng 4 na beses",
+ 	 	 	 	"eng": "Double the items and exp! while the duration and cost will increase by 4 times"
+ 	 	 	},
+ 	 	 	"activate": {
+ 	 	 	 	"trans": "Mapalakas ngayon",
+ 	 	 	 	"eng": "Boost now"
+ 	 	 	},
+ 	 	 	"enableBoost": {
+ 	 	 	 	"trans": "Paganahin ang pagpapalakas ng gantimpala",
+ 	 	 	 	"eng": "Enable reward boost"
+ 	 	 	}
+ 	 	},
+ 	 	"startButton": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "magsimula",
+ 	 	 	 	"eng": "start"
+ 	 	 	}
+ 	 	}
+ 	},
  	"tutorial": {
  	 	"localCombatButton": {
  	 	 	"trans": "Mag -click dito upang mag -scan para sa mga kaaway sa kalye",
@@ -3258,6 +3387,14 @@
  	 	"donation11": {
  	 	 	"trans": "Cyberkitty",
  	 	 	"eng": "CyberKitty"
+ 	 	},
+ 	 	"donation12": {
+ 	 	 	"trans": "Cybersanta",
+ 	 	 	"eng": "CyberSanta"
+ 	 	},
+ 	 	"donation13": {
+ 	 	 	"trans": "Cyberfrost",
+ 	 	 	"eng": "CyberFrost"
  	 	},
  	 	"moderator": {
  	 	 	"trans": "Tagapamagitan",
@@ -3658,6 +3795,86 @@
  	 	 	 	"4": {
  	 	 	 	 	"trans": "Kitty Framed Profile (na may animation)",
  	 	 	 	 	"eng": "Kitty Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "I -unlock ang pasadyang bio",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Dekorasyon ng Barcode sa profile",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "I -customize ang gang motto",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Ipasadya ang imahe ng gang",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Marami pang darating sa pag -update sa hinaharap",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation12": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "Pamagat ng Donasyon ng \"Cybersanta\"",
+ 	 	 	 	 	"eng": "\"CyberSanta\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "I -unlock ang pagpapasadya ng larawan ng profile",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Christmas chat frame (na may animation)",
+ 	 	 	 	 	"eng": "Christmas chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Christmas Framed Profile (na may animation)",
+ 	 	 	 	 	"eng": "Christmas Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "I -unlock ang pasadyang bio",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Dekorasyon ng Barcode sa profile",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "I -customize ang gang motto",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Ipasadya ang imahe ng gang",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Marami pang darating sa pag -update sa hinaharap",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation13": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "\"Cyberfrost\" pamagat ng donasyon",
+ 	 	 	 	 	"eng": "\"CyberFrost\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "I -unlock ang pagpapasadya ng larawan ng profile",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Winter Chat frame (na may animation)",
+ 	 	 	 	 	"eng": "Winter chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Profile ng taglamig na naka -frame (na may animation)",
+ 	 	 	 	 	"eng": "Winter Framed Profile (with animation)"
  	 	 	 	},
  	 	 	 	"5": {
  	 	 	 	 	"trans": "I -unlock ang pasadyang bio",
@@ -5570,6 +5787,12 @@
  	 	 	 	"eng": "Jack O Lantern"
  	 	 	}
  	 	},
+ 	 	"christmasToBox": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Naka -lock ang maalamat na lalagyan",
+ 	 	 	 	"eng": "Locked Legendary Container"
+ 	 	 	}
+ 	 	},
  	 	"ammo1": {
  	 	 	"vars": [
  	 	 	 	"minLevel"
@@ -6077,8 +6300,7 @@
  	 	 	"noTrait": {
  	 	 	 	"vars": [
  	 	 	 	 	"tierPart",
- 	 	 	 	 	"name",
- 	 	 	 	 	""
+ 	 	 	 	 	"name"
  	 	 	 	],
  	 	 	 	"trans": "${tierPart} ${name}",
  	 	 	 	"eng": "${tierPart} ${name}"
@@ -6497,6 +6719,28 @@
  	 	 	"eng": "You will not heal after each fight in dungeon, remember to use your healing items."
  	 	}
  	},
+ 	"christmasPromo": {
+ 	 	"title": {
+ 	 	 	"trans": "Maligayang Holiday ng Taglamig!",
+ 	 	 	"eng": "Happy Winter Holiday!"
+ 	 	},
+ 	 	"desc1": {
+ 	 	 	"trans": "Ito ang pinaka -kahanga -hangang oras ng taon muli! Sa Shangri-La ipinagdiriwang namin ang holiday ng taglamig na may isang espesyal na kaganapan!",
+ 	 	 	"eng": "It's the most wonderful time of the year again! in Shang-ri-la we are celebrating the winter holiday with a special event!"
+ 	 	},
+ 	 	"desc2": {
+ 	 	 	"vars": [
+ 	 	 	 	"itemName",
+ 	 	 	 	"craftItem"
+ 	 	 	],
+ 	 	 	"trans": "Ang mga Kaaway at AI Core Auto Farm ay magkakaroon ng pagkakataon na ihulog ang ${itemName}, maaari mong gamitin ito upang likhain ang ${craftItem} o buksan ito nang direkta!",
+ 	 	 	"eng": "Enemies and AI Core auto farm will have chance to drop ${itemName}, you can use this to craft ${craftItem} or open it directly!"
+ 	 	},
+ 	 	"desc3": {
+ 	 	 	"trans": "Sa panahon ng kapaskuhan, dalawang oras na limitadong chat frame at emblema ay magagamit!",
+ 	 	 	"eng": "During the holiday season, two time limited chat frame and emblem will be available!"
+ 	 	}
+ 	},
  	"halloweenPromo": {
  	 	"title": {
  	 	 	"trans": "Maligayang Halloween!",
@@ -6628,32 +6872,41 @@
  	 	 	"eng": "destroy"
  	 	}
  	},
+ 	"craftingStartPage": {
+ 	 	"instant": {
+ 	 	 	"trans": "Instant",
+ 	 	 	"eng": "Instant"
+ 	 	},
+ 	 	"instantDescription": {
+ 	 	 	"trans": "Ang gawain ay makumpleto agad",
+ 	 	 	"eng": "task will complete instantly"
+ 	 	},
+ 	 	"startButton": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "magsimula",
+ 	 	 	 	"eng": "start"
+ 	 	 	}
+ 	 	}
+ 	},
  	"donationPage": {
  	 	"benefits": {
  	 	 	"trans": "mga benepisyo",
  	 	 	"eng": "benefits"
  	 	},
- 	 	"message": {
- 	 	 	"content1": {
- 	 	 	 	"trans": "Kumusta, mahal na mga manlalaro!",
- 	 	 	 	"eng": "Hello, dear players!"
- 	 	 	},
- 	 	 	"content2": {
- 	 	 	 	"trans": "Ako si Dexter, ang developer ng cybercode online.",
- 	 	 	 	"eng": "I am Dexter, the developer of CyberCode Online."
- 	 	 	},
- 	 	 	"content3": {
- 	 	 	 	"trans": "Kung mayroon kang ilang ekstrang pagbabago ay magiging kapaki -pakinabang kung maaari kang mag -abuloy upang makatulong sa patuloy na suporta at pag -unlad ng laro.",
- 	 	 	 	"eng": "If you have some spare change it would be very helpful if you could donate to help with continued support and development of the game."
- 	 	 	},
- 	 	 	"content4": {
- 	 	 	 	"trans": "Mangyaring mag -donate lamang kung komportable ka, ang lahat ng mga benepisyo ay idinisenyo upang maging patas para sa lahat ng mga manlalaro at hindi magbibigay ng isang gilid sa gameplay.",
- 	 	 	 	"eng": "Please only donate if you are comfortable, all benefits are designed to be fair for all players and will not give an edge in gameplay."
- 	 	 	}
+ 	 	"title": {
+ 	 	 	"trans": "Mga tier ng donasyon",
+ 	 	 	"eng": "Donation Tiers"
  	 	},
  	 	"monthlySubscription": {
  	 	 	"trans": "Buwanang subscription",
  	 	 	"eng": "Monthly Subscription"
+ 	 	},
+ 	 	"payPalPricePerMonth": {
+ 	 	 	"vars": [
+ 	 	 	 	"price"
+ 	 	 	],
+ 	 	 	"trans": "${price} USD bawat buwan",
+ 	 	 	"eng": "${price} USD Per Month"
  	 	},
  	 	"TiersTitle": {
  	 	 	"trans": "Mga tier ng donasyon",
@@ -6695,66 +6948,111 @@
  	 	 	"eng": "example chat frame of ${tierName} Tier"
  	 	}
  	},
- 	"actionStartModal": {
- 	 	"timeReductionButton": {
+ 	"sendCosmeticPage": {
+ 	 	"donationTabTitle": {
+ 	 	 	"trans": "Chat frame",
+ 	 	 	"eng": "Chat Frame"
+ 	 	},
+ 	 	"emblemTab": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Emblem",
+ 	 	 	 	"eng": "Emblem"
+ 	 	 	}
+ 	 	},
+ 	 	"title": {
+ 	 	 	"vars": [
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Nagpapadala ng kosmetiko sa ${playerName}",
+ 	 	 	"eng": "Sending cosmetic to ${playerName}"
+ 	 	},
+ 	 	"description": {
+ 	 	 	"trans": "Huwag magpadala ng kosmetiko sa mga manlalaro na hindi mo alam o gagamitin ito bilang bahagi ng isang kalakalan. Ang tampok na ito ay dapat gamitin lamang bilang isang regalo sa iyong kaibigan",
+ 	 	 	"eng": "Do not send cosmetic to players you do not know or use it as part of a trade. this feature should only be used as a gift to your friend"
+ 	 	},
+ 	 	"confirmModal": {
  	 	 	"title": {
  	 	 	 	"vars": [
- 	 	 	 	 	"itemName",
- 	 	 	 	 	"currentPercent",
- 	 	 	 	 	""
+ 	 	 	 	 	"donationName",
+ 	 	 	 	 	"playerName",
+ 	 	 	 	 	"price"
  	 	 	 	],
- 	 	 	 	"trans": "Pagbabawas ng oras (kasalukuyang ${currentPercent}%)",
- 	 	 	 	"eng": "Time Reduction (currently ${currentPercent}%)"
+ 	 	 	 	"trans": "Magpadala ng ${donationName} Donation chat frame (gastos ${price} unit) sa player \"${playerName}\"?",
+ 	 	 	 	"eng": "Send ${donationName} donation chat frame (cost ${price} Unit) to player \"${playerName}\"?"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"itemName"
- 	 	 	 	],
- 	 	 	 	"trans": "Bawasan ang oras na kinakailangan para sa pagkilos ng 40%, Stackable hanggang 80%",
- 	 	 	 	"eng": "Reduce time needed for action by 40%, stackable upto 80%"
+ 	 	 	 	"trans": "Sa pamamagitan ng pag -click sa kumpirmahin, sumasang -ayon ka na hindi ka nagpapadala ng regalong ito ng kosmetiko bilang bahagi ng isang kalakalan at puro regalo sa iyong kaibigan na walang inaasahan na pagbabalik.",
+ 	 	 	 	"eng": "By clicking confirm, you agree that you are not sending this cosmetic gift as part of a trade and is purely a gift to your friend with no return expected."
  	 	 	},
- 	 	 	"activate": {
- 	 	 	 	"trans": "bawasan ngayon",
- 	 	 	 	"eng": "reduce now"
+ 	 	 	"confirmText": {
+ 	 	 	 	"trans": "Kumpirmahin",
+ 	 	 	 	"eng": "Confirm"
  	 	 	}
  	 	},
- 	 	"extendButton": {
- 	 	 	"activatedTitle": {
- 	 	 	 	"trans": "Reward Boost (Aktibo)",
- 	 	 	 	"eng": "Reward Boost (Activated)"
- 	 	 	},
- 	 	 	"notActivatedTitle": {
- 	 	 	 	"trans": "Reward Boost",
- 	 	 	 	"eng": "Reward Boost"
- 	 	 	},
- 	 	 	"activatedDescription": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"itemName"
- 	 	 	 	],
- 	 	 	 	"trans": "Palakasin ang aktibo, dapat mong lagyan ng tsek ang checkbox sa ibaba upang paganahin ito para sa gawaing ito",
- 	 	 	 	"eng": "Boost activated, you must tick the checkbox below to enable it for this task"
- 	 	 	},
- 	 	 	"notActivatedDescription": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"itemName"
- 	 	 	 	],
- 	 	 	 	"trans": "I -double ang mga item at exp! Habang ang tagal at gastos ay tataas ng 4 na beses",
- 	 	 	 	"eng": "Double the items and exp! while the duration and cost will increase by 4 times"
- 	 	 	},
- 	 	 	"activate": {
- 	 	 	 	"trans": "Mapalakas ngayon",
- 	 	 	 	"eng": "Boost now"
- 	 	 	},
- 	 	 	"enableBoost": {
- 	 	 	 	"trans": "Paganahin ang pagpapalakas ng gantimpala",
- 	 	 	 	"eng": "Enable reward boost"
- 	 	 	}
+ 	 	"sendSuccessMsg": {
+ 	 	 	"vars": [
+ 	 	 	 	"donationName",
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Matagumpay mong naipadala ang ${donationName} Donation Chat Frame sa Player \"${playerName}\"",
+ 	 	 	"eng": "You have successfully sent ${donationName} donation chat frame to player \"${playerName}\""
  	 	},
- 	 	"startButton": {
+ 	 	"hasDonation": {
+ 	 	 	"trans": "pag -aari",
+ 	 	 	"eng": "owned"
+ 	 	},
+ 	 	"donationPrice": {
+ 	 	 	"vars": [
+ 	 	 	 	"price"
+ 	 	 	],
+ 	 	 	"trans": "${price} unit",
+ 	 	 	"eng": "${price} Unit"
+ 	 	},
+ 	 	"donationDescription": {
+ 	 	 	"trans": "Huling tier ng donasyon ng donasyon sa loob ng 30 araw",
+ 	 	 	"eng": "Gifted donation tier last for 30 days"
+ 	 	},
+ 	 	"emblemNotIncluded": {
+ 	 	 	"trans": "Ang Emblem ay hindi kasama sa regalo",
+ 	 	 	"eng": "Emblem is not included in gift"
+ 	 	}
+ 	},
+ 	"sendEmblemPage": {
+ 	 	"title": {
+ 	 	 	"vars": [
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Nagpapadala ng kosmetiko sa ${playerName}",
+ 	 	 	"eng": "Sending cosmetic to ${playerName}"
+ 	 	},
+ 	 	"description": {
+ 	 	 	"trans": "Huwag magpadala ng kosmetiko sa mga manlalaro na hindi mo alam o gagamitin ito bilang bahagi ng isang kalakalan. Ang tampok na ito ay dapat gamitin lamang bilang isang regalo sa iyong kaibigan",
+ 	 	 	"eng": "Do not send cosmetic to players you do not know or use it as part of a trade. this feature should only be used as a gift to your friend"
+ 	 	},
+ 	 	"confirmModal": {
  	 	 	"title": {
- 	 	 	 	"trans": "magsimula",
- 	 	 	 	"eng": "start"
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"playerName",
+ 	 	 	 	 	"price"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Magpadala ng Emblem (gastos ${price} unit) sa player \"${playerName}\"?",
+ 	 	 	 	"eng": "Send emblem (cost ${price} Unit) to player \"${playerName}\"?"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Sa pamamagitan ng pag -click sa kumpirmahin, sumasang -ayon ka na hindi ka nagpapadala ng regalong ito ng kosmetiko bilang bahagi ng isang kalakalan at puro regalo sa iyong kaibigan na walang inaasahan na pagbabalik.",
+ 	 	 	 	"eng": "By clicking confirm, you agree that you are not sending this cosmetic gift as part of a trade and is purely a gift to your friend with no return expected."
+ 	 	 	},
+ 	 	 	"confirmText": {
+ 	 	 	 	"trans": "Kumpirmahin",
+ 	 	 	 	"eng": "Confirm"
  	 	 	}
+ 	 	},
+ 	 	"sendSuccessMsg": {
+ 	 	 	"vars": [
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Matagumpay kang nagpadala ng isang sagisag sa player na \"${playerName}\"",
+ 	 	 	"eng": "You have successfully sent an emblem to player \"${playerName}\""
  	 	}
  	}
 }
