@@ -44,7 +44,9 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
   - With the festive sprit, you can now send cosmetic (none-prestige donation tier and emblems) gift to your friends. *(Please do not use this feature for trading, it is for gifting with no return from your friends expected)*
   - Added two new limited edition chat frame and emblems, will not be purchasable after end of event (you will be able to keep using it of course)
-
+  - Fixed rare cases where global buff does not show properly on client
+  - other bug fixes
+  
 ### 2022/11/26
 - Optimization on skip speed, hopefully it will speed it up abit
 - Server-side optimization
