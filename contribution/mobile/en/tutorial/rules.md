@@ -26,6 +26,7 @@
 * Don't exploit bugs, report them instead.
 * Keep usernames family friendly.
 * Advertising (global chat/discord/bio/gang motto) of Selling/Buying account/items for IRL money (both directly or indirectly) is not allowed.
+* Using/advertising use of cosmetic gift as part of trade is not allowed, all cosmetic gift sent can only be unconditioned gift to friend
 * Tagging people for fun or with no real purpose is not allowed. This is to prevent people from creating accounts just so they can tag them (doing so will also breach the "No excessive alts" rule).
 * Any illegal activities will get you instantly banned -- including but not limited to -- harrassing underage person you met in game.
 
