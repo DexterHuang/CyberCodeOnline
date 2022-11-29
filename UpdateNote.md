@@ -25,6 +25,28 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates           
+### 2022/11/30
+- Winter update
+  - During the event enemies and AI Core afk will drop `Mystery Contaienr` (not tradable), you can open it directly or combine 10 of them to craft a `Locked Legendary Container`
+  - Updated crafting and other AFK task UI to use the new full page style
+  - You can now view and activate EXP buff when afk task grands EXP as reward
+
+![image](https://user-images.githubusercontent.com/18545294/204484585-6eda5a51-6d52-4413-8799-6dd3d294f7ee.png)
+
+  - Shangri-la background image and skip like has been changed to winter theme
+
+![image](https://user-images.githubusercontent.com/18545294/204484661-c9a7b6c0-a61a-4079-81e9-73d0afaa889b.png)
+
+  - updated many background images in the game, including Commercial area, market, back market, weapons smith, calibration, and train satation
+  - Updated amount selection UI you can now easily change the selected amount by increment of 10, and also select the max and minimun with one click
+
+![image](https://user-images.githubusercontent.com/18545294/204483723-39b1a60a-8b10-4bcd-9c09-1e3927c617fd.png)
+
+  - With the festive sprit, you can now send cosmetic (none-prestige donation tier and emblems) gift to your friends. *(Please do not use this feature for trading, it is for gifting with no return from your friends expected)*
+  - Added two new limited edition chat frame and emblems, will not be purchasable after end of event (you will be able to keep using it of course)
+  - Fixed rare cases where global buff does not show properly on client
+  - other bug fixes
+  
 ### 2022/11/26
 - Optimization on skip speed, hopefully it will speed it up abit
 - Server-side optimization
