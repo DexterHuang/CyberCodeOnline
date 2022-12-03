@@ -126,6 +126,7 @@ ClayBravo6
 [SkyNetX007](https://github.com/SkyNetX007)
 [converdario](https://github.com/converdario)
 [Maddening](https://github.com/Wildlife4700)
+[S0M3_DUD3](https://github.com/S0M3-DUD3)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
@@ -305,6 +306,7 @@ Punxi8__
 [Prodam](https://github.com/Pr0dam)
 B3n7y
 Ph14zk0
+[S0M3_DUD3](https://github.com/S0M3-DUD3)
 
 ## Tips
 [Archibaald](https://github.com/Archibaald-dev)
