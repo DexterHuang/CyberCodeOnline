@@ -37,7 +37,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ![image](https://user-images.githubusercontent.com/18545294/204484661-c9a7b6c0-a61a-4079-81e9-73d0afaa889b.png)
 
-  - updated many background images in the game, including Commercial area, market, back market, weapons smith, calibration, and train satation
+  - updated many background images in the game, including Commercial area, market, black market, weapons smith, calibration, and train satation
   - Updated amount selection UI you can now easily change the selected amount by increment of 10, and also select the max and minimun with one click
 
 ![image](https://user-images.githubusercontent.com/18545294/204483723-39b1a60a-8b10-4bcd-9c09-1e3927c617fd.png)
@@ -189,8 +189,8 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ### 2022/08/26 v0.780
 - Added some preventive mesure to reduce the chance of unwanted deploying of global buff when another player has alraedy deployed one:
-  - When deploying a buff with an active buff and the buff is has more then 19 minutes remaining, the deployment will fail forcefully, you may deploy again after 1 minute if thats what you wish (might still have extremly rare chance of two person clicked at the exact same millisecond result in server unable to prevent it)
-  - When deploying a buff with an active buff and the buff has more then half of the time remaining, a popup confirmation will popup show up. (this only applies to buff that has duration of 20 minutes and for `Frontal Cortex Optimization Transmitter` and `Rare Synaptic Acceleration Transmitter` only when buff is fully stacked, and will not work if you are desync from server due to network connection issue)
+  - When deploying a buff with an active buff and the buff is has more than 19 minutes remaining, the deployment will fail forcefully, you may deploy again after 1 minute if thats what you wish (might still have extremly rare chance of two person clicked at the exact same millisecond result in server unable to prevent it)
+  - When deploying a buff with an active buff and the buff has more than half of the time remaining, a popup confirmation will popup show up. (this only applies to buff that has duration of 20 minutes and for `Frontal Cortex Optimization Transmitter` and `Rare Synaptic Acceleration Transmitter` only when buff is fully stacked, and will not work if you are desync from server due to network connection issue)
 
 ### 2022/08/24 v0.780
 - Fixed Thai chat channel typo in the name
@@ -216,7 +216,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ### 2022/08/06 v0.780
 - Fixed issue with mail chat
-- Fixed issue with reverse ai core cluster crafting could result in item exceeding max stack (system will in some condition reset items with amount more then stack to it is stack cap, meaning if you somehow find a exploit to allow exceeding max stack, please do not risk system resetting your item amount, report the bug to me <3)
+- Fixed issue with reverse ai core cluster crafting could result in item exceeding max stack (system will in some condition reset items with amount more than stack to it is stack cap, meaning if you somehow find a exploit to allow exceeding max stack, please do not risk system resetting your item amount, report the bug to me <3)
 
 ### 2022/08/05 v0.780
 - Fixed bug where when viewing other player's item will result in app freeze 
