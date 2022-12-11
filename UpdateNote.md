@@ -25,6 +25,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates           
+### 2022/12/11
+- Fixed crash issue when clicking send email button while email input is empty in password reset page.
+- Multiple minor bug fixes
+
 ### 2022/12/8
 - Increased `Locked Legendary Container`'s max selling price on market by 10x
 - Added prompt for when device time is incorrect (if your device time is incorrect the buffs will not display correctly, there AFK task will not automatically finish correctly)
