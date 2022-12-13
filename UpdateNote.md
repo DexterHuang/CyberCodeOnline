@@ -26,7 +26,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates           
 ### 2022/12/13
-- fixed long suggested issue where people can exploit the game to gain advantage by opening multiple windows to play the game. now if a new client is connected to the same account, old one will automatically disconnect to ensure fairness.
+- fixed long suggested issue where people can gain advantage by opening multiple windows to play the game. now if a new client is connected to the same account, old one will automatically disconnect to ensure fairness.
 
 ### 2022/12/12
 - Security bug fixes
