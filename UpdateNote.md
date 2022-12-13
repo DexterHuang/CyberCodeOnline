@@ -25,6 +25,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates           
+### 2022/12/13
+- fixed long suggested issue where people can exploit the game to gain advantage by opening multiple windows to play the game. now if a new client is connected to the same account, old one will automatically disconnect to prevent this issue.
+
 ### 2022/12/12
 - Security bug fixes
 
