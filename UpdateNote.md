@@ -26,7 +26,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates           
 ### 2022/12/14
-- Potential fix for in very rare case buff actived will not take effect, only shows announcement 
+- Potential fix for in very rare case global buff item used will not deploy buff, only shows announcement 
 
 ### 2022/12/13
 - fixed long suggested issue where people can gain advantage by opening multiple windows for same account at same time. now if a new client is connected to the same account, old client one will be disconnected to ensure fairness.
