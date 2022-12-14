@@ -25,6 +25,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates           
+### 2022/12/14
+- Potential fix for in very rare case buff actived will not take effect, only shows announcement 
+
 ### 2022/12/13
 - fixed long suggested issue where people can gain advantage by opening multiple windows for same account at same time. now if a new client is connected to the same account, old client one will be disconnected to ensure fairness.
 - fixed on certain sitiation pc version afk start does not work properly
