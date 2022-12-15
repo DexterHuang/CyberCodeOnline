@@ -25,6 +25,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates           
+### 2022/12/15
+- Added popup for incorrect time
+- some bug fixes
+- Added new bot prevention mesure 
+
 ### 2022/12/14
 - Potential fix for in very rare case global buff item used will not deploy buff, only shows announcement 
 
