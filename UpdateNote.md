@@ -26,6 +26,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates           
 ### 2022/12/15
+- Added warning on AFK screen if device time is incorrect, as incorrect device time can often cause many display issue
 - Added popup for incorrect time
 - some bug fixes
 - Added new bot prevention mesure 
