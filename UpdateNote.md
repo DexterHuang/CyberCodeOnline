@@ -25,6 +25,9 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates           
+### 2022/12/16
+- Fixed recycler not returning to main screen after starting task in pc mode
+
 ### 2022/12/15
 - Added warning on AFK screen if device time is incorrect, as incorrect device time can often cause many display issue
 - Added popup for incorrect time
