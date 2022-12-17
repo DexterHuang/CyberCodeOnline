@@ -13,7 +13,7 @@
  	 	 	"eng": "Quest"
  	 	},
  	 	"chat": {
- 	 	 	"trans": "Chiacchierata",
+ 	 	 	"trans": "chat",
  	 	 	"eng": "Chat"
  	 	},
  	 	"profile": {
@@ -332,11 +332,11 @@
  	 	 	 	"eng": "You need to be at least level ${minLevel} to send chat messages"
  	 	 	},
  	 	 	"chat": {
- 	 	 	 	"trans": "Chiacchierare",
+ 	 	 	 	"trans": "Chat",
  	 	 	 	"eng": "chat"
  	 	 	},
  	 	 	"gang": {
- 	 	 	 	"trans": "banda",
+ 	 	 	 	"trans": "Gang",
  	 	 	 	"eng": "gang"
  	 	 	},
  	 	 	"mail": {
@@ -516,7 +516,7 @@
  	 	 	 	 	 	"timeSkipMinutes",
  	 	 	 	 	 	"timeSkipCost"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Skip Globale (${timeSkipMinutes} Minuti, Costo ${timeSkipCost} Unità)",
+ 	 	 	 	 	"trans": "Skip Globale (${timeSkipMinutes} minuti, costo: ${timeSkipCost} Unità)",
  	 	 	 	 	"eng": "Global Skip (${timeSkipMinutes} Min, Cost ${timeSkipCost} Units)"
  	 	 	 	},
  	 	 	 	"description": {
@@ -529,7 +529,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"itemSkipMinutes"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Skip del tempo di attesa gratuito (${itemSkipMinutes} min)",
+ 	 	 	 	 	"trans": "Skip del tempo di attesa gratuito (${itemSkipMinutes} minuti)",
  	 	 	 	 	"eng": "Free time skip (${itemSkipMinutes} Min)"
  	 	 	 	},
  	 	 	 	"description": {
@@ -1344,7 +1344,7 @@
  	 	 	 	 	"eng": "Are you sure you want to select ${itemName}?"
  	 	 	 	},
  	 	 	 	"confirmText": {
- 	 	 	 	 	"trans": "sono sicuro",
+ 	 	 	 	 	"trans": "Sono sicuro",
  	 	 	 	 	"eng": "I am sure"
  	 	 	 	}
  	 	 	}
@@ -1722,7 +1722,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"date"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Scade a ${date}",
+ 	 	 	 	 	"trans": "Scade il ${date}",
  	 	 	 	 	"eng": "Expires at ${date}"
  	 	 	 	}
  	 	 	}
@@ -2207,11 +2207,11 @@
  	 	 	 	"eng": "combat"
  	 	 	},
  	 	 	"dungeon": {
- 	 	 	 	"trans": "dungeon",
+ 	 	 	 	"trans": "Dungeon",
  	 	 	 	"eng": "dungeon"
  	 	 	},
  	 	 	"social": {
- 	 	 	 	"trans": "sociale",
+ 	 	 	 	"trans": "Social",
  	 	 	 	"eng": "social"
  	 	 	},
  	 	 	"keys": {
@@ -2311,15 +2311,15 @@
  	 	 	 	"vars": [
  	 	 	 	 	"current"
  	 	 	 	],
- 	 	 	 	"trans": "Exp buff (attualmente ${current}%)",
+ 	 	 	 	"trans": "Potenziamento dell'esperienza (attualmente ${current}%)",
  	 	 	 	"eng": "EXP Buff (Currently ${current}%)"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Aumenta il guadagno Exp dell'80% per 20 minuti",
+ 	 	 	 	"trans": "Aumenta il guadagno di punti esperienza dell'80% per 20 minuti",
  	 	 	 	"eng": "Increase your EXP gain by 80% for 20 minutes"
  	 	 	},
  	 	 	"button": {
- 	 	 	 	"trans": "Attivare",
+ 	 	 	 	"trans": "Attiva",
  	 	 	 	"eng": "Activate"
  	 	 	}
  	 	}
@@ -2375,7 +2375,7 @@
  	 	},
  	 	"amount": {
  	 	 	"trans": "Importo",
- 	 	 	"eng": "Amount"
+ 	 	 	"eng": "amount"
  	 	},
  	 	"itemUpgradeCapacity": {
  	 	 	"trans": "Capacità di calibrazione",
@@ -2475,11 +2475,11 @@
  	 	 	"eng": "${time} ago"
  	 	},
  	 	"systemStandby": {
- 	 	 	"trans": "Sistema in standby",
+ 	 	 	"trans": "Sistema inattivo",
  	 	 	"eng": "System standby"
  	 	},
  	 	"password": {
- 	 	 	"trans": "Parola d'ordine",
+ 	 	 	"trans": "password",
  	 	 	"eng": "Password"
  	 	}
  	},
@@ -2821,6 +2821,17 @@
  	 	 	}
  	 	}
  	},
+ 	"time": {
+ 	 	"error": {
+ 	 	 	"systemTimeIncorrect": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"diff"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Dispositivo inaccurato (differenza di tempo: ${diff}). Per garantire che funzionalità di gioco come Buff, Time Skip e AFK Attività vengono visualizzate correttamente. Si prega di sincronizzare il tempo del dispositivo con la rete e assicurarsi che la zona temporale sia impostata correttamente",
+ 	 	 	 	"eng": "Inaccurate device time (time difference: ${diff}). to ensure game features such as buff, time skip and AFK Task display correctly. Please sync your device time with network and ensure your time-zone is set correctly"
+ 	 	 	}
+ 	 	}
+ 	},
  	"craft": {
  	 	"maxAmountText": {
  	 	 	"vars": [
@@ -2993,13 +3004,13 @@
  	 	 	},
  	 	 	"social": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "sociale",
+ 	 	 	 	 	"trans": "Social",
  	 	 	 	 	"eng": "social"
  	 	 	 	}
  	 	 	},
  	 	 	"dungeon": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "dungeon",
+ 	 	 	 	 	"trans": "Dungeon",
  	 	 	 	 	"eng": "dungeon"
  	 	 	 	}
  	 	 	}
@@ -3067,6 +3078,20 @@
  	 	"abandonConfirm": {
  	 	 	"trans": "Sei sicuro di voler abbandonare questa missione?",
  	 	 	"eng": "Are you sure you want to abandon this quest?"
+ 	 	}
+ 	},
+ 	"sessionClosedScreen": {
+ 	 	"title": {
+ 	 	 	"trans": "Hai effettuato l'accesso su un altro dispositivo",
+ 	 	 	"eng": "You have logged in on another device"
+ 	 	},
+ 	 	"description": {
+ 	 	 	"trans": "Se desideri continuare a giocare su questo dispositivo, fai clic su Reconnect.",
+ 	 	 	"eng": "If you wish to continue playing on this device, please click reconnect."
+ 	 	},
+ 	 	"restartApp": {
+ 	 	 	"trans": "Riconnettersi ora",
+ 	 	 	"eng": "Reconnect Now"
  	 	}
  	},
  	"slider": {
@@ -3361,7 +3386,7 @@
  	 	 	"eng": "Legendary"
  	 	},
  	 	"donation5": {
- 	 	 	"trans": "Patata cibernetica",
+ 	 	 	"trans": "Cyberpatata",
  	 	 	"eng": "Cybernetic Potato"
  	 	},
  	 	"donation6": {
@@ -3389,11 +3414,11 @@
  	 	 	"eng": "CyberKitty"
  	 	},
  	 	"donation12": {
- 	 	 	"trans": "Cybersanta",
+ 	 	 	"trans": "Cyber Babbo Natale",
  	 	 	"eng": "CyberSanta"
  	 	},
  	 	"donation13": {
- 	 	 	"trans": "Cyberfrost",
+ 	 	 	"trans": "Cybergelo",
  	 	 	"eng": "CyberFrost"
  	 	},
  	 	"moderator": {
@@ -3525,11 +3550,11 @@
  	 	"donation5": {
  	 	 	"benefits": {
  	 	 	 	"1": {
- 	 	 	 	 	"trans": "Patata cibernetica",
+ 	 	 	 	 	"trans": "Cyberpatata",
  	 	 	 	 	"eng": "Cybernetic Potato"
  	 	 	 	},
  	 	 	 	"2": {
- 	 	 	 	 	"trans": "Titolo di donazione \"Patata cibernetica\"",
+ 	 	 	 	 	"trans": "Titolo di donazione \"Cyberpatata\"",
  	 	 	 	 	"eng": "\"Cybernetic Potato\" donation title"
  	 	 	 	},
  	 	 	 	"3": {
@@ -3537,7 +3562,7 @@
  	 	 	 	 	"eng": "Unlock profile picture customization"
  	 	 	 	},
  	 	 	 	"4": {
- 	 	 	 	 	"trans": "Diventa una patata cibernetica",
+ 	 	 	 	 	"trans": "Diventa una cyberpatata",
  	 	 	 	 	"eng": "Become a Cybernetic Potato"
  	 	 	 	},
  	 	 	 	"5": {
@@ -3741,7 +3766,7 @@
  	 	"donation10": {
  	 	 	"benefits": {
  	 	 	 	"1": {
- 	 	 	 	 	"trans": "Titolo di donazione \"Cyber pipistrello\"",
+ 	 	 	 	 	"trans": "Titolo di donazione \"Cyberpipistrello\"",
  	 	 	 	 	"eng": "\"Prestige\" donation title"
  	 	 	 	},
  	 	 	 	"2": {
@@ -3781,7 +3806,7 @@
  	 	"donation11": {
  	 	 	"benefits": {
  	 	 	 	"1": {
- 	 	 	 	 	"trans": "Titolo di donazione \"Cyber gattino\"",
+ 	 	 	 	 	"trans": "Titolo di donazione \"Cybergattino\"",
  	 	 	 	 	"eng": "\"CyberKitty\" donation title"
  	 	 	 	},
  	 	 	 	"2": {
@@ -3821,7 +3846,7 @@
  	 	"donation12": {
  	 	 	"benefits": {
  	 	 	 	"1": {
- 	 	 	 	 	"trans": "Titolo di donazione \"cybersanta\"",
+ 	 	 	 	 	"trans": "Titolo di donazione \"Cyber Babbo Natale\"",
  	 	 	 	 	"eng": "\"CyberSanta\" donation title"
  	 	 	 	},
  	 	 	 	"2": {
@@ -3829,11 +3854,11 @@
  	 	 	 	 	"eng": "Unlock profile picture customization"
  	 	 	 	},
  	 	 	 	"3": {
- 	 	 	 	 	"trans": "Frame di chat di Natale (con animazione)",
+ 	 	 	 	 	"trans": "Cornice chat a tema natalizio (con animazione)",
  	 	 	 	 	"eng": "Christmas chat frame (with animation)"
  	 	 	 	},
  	 	 	 	"4": {
- 	 	 	 	 	"trans": "Profilo incorniciato di Natale (con animazione)",
+ 	 	 	 	 	"trans": "Cornice profilo a tema natalizio (con animazione)",
  	 	 	 	 	"eng": "Christmas Framed Profile (with animation)"
  	 	 	 	},
  	 	 	 	"5": {
@@ -3841,19 +3866,19 @@
  	 	 	 	 	"eng": "Unlock custom bio"
  	 	 	 	},
  	 	 	 	"6": {
- 	 	 	 	 	"trans": "Decorazione del codice a barre sul profilo",
+ 	 	 	 	 	"trans": "Decorazione con codice a barre sul profilo",
  	 	 	 	 	"eng": "Barcode decoration on profile"
  	 	 	 	},
  	 	 	 	"7": {
- 	 	 	 	 	"trans": "Personalizza il motto di gang",
+ 	 	 	 	 	"trans": "Personalizza il motto della gang",
  	 	 	 	 	"eng": "Customize gang motto"
  	 	 	 	},
  	 	 	 	"8": {
- 	 	 	 	 	"trans": "Personalizza l'immagine della banda",
+ 	 	 	 	 	"trans": "Personalizza l'immagine della gang",
  	 	 	 	 	"eng": "Customize gang image"
  	 	 	 	},
  	 	 	 	"9": {
- 	 	 	 	 	"trans": "Altro in arrivo nel futuro aggiornamento",
+ 	 	 	 	 	"trans": "Altro in arrivo nei futuri aggiornamenti",
  	 	 	 	 	"eng": "More coming in future update"
  	 	 	 	}
  	 	 	}
@@ -3861,7 +3886,7 @@
  	 	"donation13": {
  	 	 	"benefits": {
  	 	 	 	"1": {
- 	 	 	 	 	"trans": "Titolo di donazione \"cyberfrost\"",
+ 	 	 	 	 	"trans": "Titolo di donazione \"cybergelo\"",
  	 	 	 	 	"eng": "\"CyberFrost\" donation title"
  	 	 	 	},
  	 	 	 	"2": {
@@ -3869,11 +3894,11 @@
  	 	 	 	 	"eng": "Unlock profile picture customization"
  	 	 	 	},
  	 	 	 	"3": {
- 	 	 	 	 	"trans": "Frame di chat invernale (con animazione)",
+ 	 	 	 	 	"trans": "Cornice chat a tema invernale (con animazione)",
  	 	 	 	 	"eng": "Winter chat frame (with animation)"
  	 	 	 	},
  	 	 	 	"4": {
- 	 	 	 	 	"trans": "Profilo incorniciato invernale (con animazione)",
+ 	 	 	 	 	"trans": "Cornice profilo a tema invernale (con animazione)",
  	 	 	 	 	"eng": "Winter Framed Profile (with animation)"
  	 	 	 	},
  	 	 	 	"5": {
@@ -3881,19 +3906,19 @@
  	 	 	 	 	"eng": "Unlock custom bio"
  	 	 	 	},
  	 	 	 	"6": {
- 	 	 	 	 	"trans": "Decorazione del codice a barre sul profilo",
+ 	 	 	 	 	"trans": "Decorazione con codice a barre sul profilo",
  	 	 	 	 	"eng": "Barcode decoration on profile"
  	 	 	 	},
  	 	 	 	"7": {
- 	 	 	 	 	"trans": "Personalizza il motto di gang",
+ 	 	 	 	 	"trans": "Personalizza il motto della gang",
  	 	 	 	 	"eng": "Customize gang motto"
  	 	 	 	},
  	 	 	 	"8": {
- 	 	 	 	 	"trans": "Personalizza l'immagine della banda",
+ 	 	 	 	 	"trans": "Personalizza l'immagine della gang",
  	 	 	 	 	"eng": "Customize gang image"
  	 	 	 	},
  	 	 	 	"9": {
- 	 	 	 	 	"trans": "Altro in arrivo nel futuro aggiornamento",
+ 	 	 	 	 	"trans": "Altro in arrivo nei futuri aggiornamenti",
  	 	 	 	 	"eng": "More coming in future update"
  	 	 	 	}
  	 	 	}
@@ -4383,7 +4408,7 @@
  	 	 	 	"eng": "locked container"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Un contenitore rinforzato con una serratura a crittografia biometrica, sembra contenere oggetti importanti all'interno. \r\n         Fortunatamente il microcomputer a bordo esegue un firmware obsoleto, in cui è possibile iniettare un exploit, vai su [Terminale] per sbloccare questo contenitore",
+ 	 	 	 	"trans": "Un contenitore rinforzato con una serratura a crittografia biometrica, sembra contenere oggetti importanti all'interno. \r\n         Fortunatamente il micro computer a bordo esegue un firmware obsoleto, in cui è possibile iniettare un exploit, vai su [Terminale] per sbloccare questo contenitore",
  	 	 	 	"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container"
  	 	 	}
  	 	},
@@ -4393,7 +4418,7 @@
  	 	 	 	"eng": "locked rare container"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Un contenitore rinforzato con una serratura a crittografia biometrica, sembra contenere oggetti importanti all'interno. \r\n         Fortunatamente il microcomputer a bordo esegue un firmware obsoleto, in cui è possibile iniettare un exploit, vai su [Terminale] per sbloccare questo contenitore",
+ 	 	 	 	"trans": "Un contenitore rinforzato con una serratura a crittografia biometrica, sembra contenere oggetti importanti all'interno. \r\n         Fortunatamente il micro computer a bordo esegue un firmware obsoleto, in cui è possibile iniettare un exploit, vai su [Terminale] per sbloccare questo contenitore",
  	 	 	 	"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container"
  	 	 	}
  	 	},
@@ -4403,7 +4428,7 @@
  	 	 	 	"eng": "locked legendary container"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Un contenitore rinforzato con una serratura a crittografia biometrica, sembra contenere oggetti importanti all'interno. \r\n         Fortunatamente il microcomputer a bordo esegue un firmware obsolete, in cui è possibile iniettare un exploit, vai su [Terminale] per sbloccare questo contenitore",
+ 	 	 	 	"trans": "Un contenitore rinforzato con una serratura a crittografia biometrica, sembra contenere oggetti importanti all'interno. \r\n         Fortunatamente il micro computer a bordo esegue un firmware obsolete, in cui è possibile iniettare un exploit, vai su [Terminale] per sbloccare questo contenitore",
  	 	 	 	"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container"
  	 	 	}
  	 	},
@@ -4422,9 +4447,9 @@
  	 	 	 	"trans": "Cassa di Rifornimento [Gang]",
  	 	 	 	"eng": "Supply Crate [Gang]"
  	 	 	},
- 	 	 	"description": {
- 	 	 	 	"trans": "Contiene oggetti e risorse varie che una gang necessita per rimanere operativa",
- 	 	 	 	"eng": "Contains misc items and resources for a gang to stay functional,\r\n        Click use to send it to your gang headquarters"
+ 	 	 	"descriptionv2": {
+ 	 	 	 	"trans": "Contiene oggetti e risorse misc che una banda può rimanere funzionale. \r\n         Può essere usato nel quartier generale della tua banda",
+ 	 	 	 	"eng": "Contains misc items and resources for a gang to stay functional.\r\n        Can be used in your gang headquarters"
  	 	 	}
  	 	},
  	 	"clanExp": {
@@ -4799,7 +4824,7 @@
  	 	},
  	 	"mining": {
  	 	 	"name": {
- 	 	 	 	"trans": "Estrazione",
+ 	 	 	 	"trans": "Estrazione Bitcoin",
  	 	 	 	"eng": "mining skill"
  	 	 	}
  	 	}
@@ -4807,7 +4832,7 @@
  	"location": {
  	 	"mainHub": {
  	 	 	"name": {
- 	 	 	 	"trans": "Centro città di Shangri-La",
+ 	 	 	 	"trans": "Centro Città di Shangri-La",
  	 	 	 	"eng": "Shangri-La City center"
  	 	 	},
  	 	 	"description": {
@@ -5003,25 +5028,25 @@
  	 	"unitExchange": {
  	 	 	"defaultLines": {
  	 	 	 	"trans": [
- 	 	 	 	 	"Vuoi comprare o usare le tue Unità?",
+ 	 	 	 	 	"Vuoi comprare o utilizzare le tue Unità?",
  	 	 	 	 	"Grazie per aver visitato il negozio",
- 	 	 	 	 	"Lo sapevi che l'S.A.T è stato in fase di sviluppo per molto tempo?",
+ 	 	 	 	 	"Lo sapevi che il S.A.T è stato in fase di sviluppo per molto tempo?",
  	 	 	 	 	"Abbiamo una nuova scorta di S.A.T. Sei interessato a prenderne uno?",
  	 	 	 	 	"Benvenuto allo Scambio di Unità di Arasaka",
- 	 	 	 	 	"Lo sapevi che gli S.A.T. attuali sono alla versione 2.0?",
- 	 	 	 	 	"Ricordati, gli S.A.T. di grado normale e raro non sono compatibili",
+ 	 	 	 	 	"Lo sapevi che i S.A.T. attuali sono alla versione 2.0?",
+ 	 	 	 	 	"Ricordati, i S.A.T. di grado normale e raro non sono compatibili",
  	 	 	 	 	"BTC? No, accettiamo solo Unità qui",
  	 	 	 	 	"Conosci Rossi della banca? Siamo andati a scuola insieme",
  	 	 	 	 	"Hai visitato Doc al Mercato di Trinoky? Non hai una bella cera",
  	 	 	 	 	"La maggior parte della gente è gentile. La maggior parte",
- 	 	 	 	 	"Sei stato in qualche posto interessante di recente? Io sono appena tornato dal Neo-Giappone",
+ 	 	 	 	 	"Sei stato in qualche posto interessante di recente? Io sono appena tornata dal Neo-Giappone",
  	 	 	 	 	"Non c'è niente come una tazza di tè caldo in una giornata fredda, non sei d'accordo?",
  	 	 	 	 	"Abbiamo nuovi S.A.T. in arrivo. Vuoi dare un'occhiata nel frattempo?",
- 	 	 	 	 	"I segnali degli S.A.T. di tutto il mondo sbalzano casualmente. Assicurati di fare attenzione",
- 	 	 	 	 	"L'altro giorno la mia radio s'inceppò. A quanto pare è stata colpa della 3Helix Network",
+ 	 	 	 	 	"I segnali dei S.A.T. di tutto il mondo sbalzano casualmente. Fai attenzione",
+ 	 	 	 	 	"L'altro giorno la mia radio si e inceppata. A quanto pare è stata colpa della 3Helix Network",
  	 	 	 	 	"Vuoi rendere bella la giornata a tutti? Compra delle Unità e usale nei potenziamenti EXP!",
- 	 	 	 	 	"Comprare le unità e spenderle aiuta tutti, lo sapevi?",
- 	 	 	 	 	"Un gioco che non non è Pay-to-Win. Immagina!",
+ 	 	 	 	 	"Comprare Unità e spenderle aiuta tutti, lo sapevi?",
+ 	 	 	 	 	"Un gioco che non è Pay-to-Win. Immagina!",
  	 	 	 	 	"Tutti ci guadagnagno dal tuo acquisto, anche lo sviluppatore!",
  	 	 	 	 	"Una denuncia per disturbo della quiete pubblica?"
  	 	 	 	],
@@ -5048,17 +5073,17 @@
  	 	 	 	 	"Ciao! Fai una donazione per ottenere cosmetici e aiutare a supportare giochi Free-to-Win come questo",
  	 	 	 	 	"Hai pensato di fare una donazione mensile?",
  	 	 	 	 	"Felice di vederti, cosa ti serve?",
- 	 	 	 	 	"Vuoi spiccare in mezzo alla folla? Prendi un abbonamento",
+ 	 	 	 	 	"Vuoi spiccare in mezzo alla folla? Attiva un abbonamento",
  	 	 	 	 	"Posso applicarti una foto profilo se compri un abbonamento. Che ne dici?",
- 	 	 	 	 	"Vuoi un bordo colorato quando chatti? Perchè non ti abboni?",
- 	 	 	 	 	"Il costo dell'abbonamento più basso è una tazza di caffè. Pensi di potermi dare un po' di caffeina?",
- 	 	 	 	 	"Donare ti rende carino e aiuta allo sviluppo del gioco",
+ 	 	 	 	 	"Vuoi una cornice colorata quando chatti? Perché non ti abboni?",
+ 	 	 	 	 	"Il costo dell'abbonamento più basso equivale a una tazza di caffè. Pensi di potermi dare un po' di caffeina?",
+ 	 	 	 	 	"Donare ti rende carino e aiuta lo sviluppo del gioco",
  	 	 	 	 	"Vuoi i riflettori su di te? Splendi più del sole con un nuovo look!",
  	 	 	 	 	"Non posso darti contenuti Pay-to-Win, ma posso farti scintillare!",
  	 	 	 	 	"Colorato è il nuovo trend! Posso darti un colore... per un prezzo",
  	 	 	 	 	"A te piacciono le immagini, a me piacciono le immagini, a tutti piacciono le immagini! Per un po' di soldi, chiunque può averle!",
- 	 	 	 	 	"Le donazioni permettono di mantenere lo sviluppo del gioco. Ci compro il caffè così da poter creare nuovi contenuti!",
- 	 	 	 	 	"Programmare è stancante. Un buon caffè costa solo $2!",
+ 	 	 	 	 	"Le donazioni permettono di mantenere attivo lo sviluppo del gioco. Ci compro il caffè così da poter creare nuovi contenuti!",
+ 	 	 	 	 	"Programmare è stancante. Un buon caffè costa solo 2 €!",
  	 	 	 	 	"Con una donazione, puoi supportare il gioco ed essere figo mentre lo fai! Colori, immagini, e animazioni!",
  	 	 	 	 	"I soldi fanno girare il mondo! La tua donazione mi permette di rendere questo un lavoro a tempo pieno!",
  	 	 	 	 	"Vorresti un nuovo profilo figo, vero?",
@@ -5070,7 +5095,7 @@
  	 	 	 	]
  	 	 	},
  	 	 	"name": {
- 	 	 	 	"trans": "Cyberware cosmetico",
+ 	 	 	 	"trans": "Cyber abbigliamento cosmetico",
  	 	 	 	"eng": "Cosmetic Cyberwear"
  	 	 	},
  	 	 	"canAccessError": {
@@ -5086,28 +5111,28 @@
  	 	 	"defaultLines": {
  	 	 	 	"trans": [
  	 	 	 	 	"Stamperò qualsiasi cosa tu voglia se hai la cache giusta!",
- 	 	 	 	 	"Fammi vedere la cache e ti mostrerò il risultato!",
+ 	 	 	 	 	"Dammi una cache e ti mostrerò il risultato!",
  	 	 	 	 	"Ti prego, dimmi che hai delle cache Epiche con te",
  	 	 	 	 	"Benvenuto. Spero tu sia un cliente...",
  	 	 	 	 	"Se hai delle cache, posso stamparle!",
- 	 	 	 	 	"Sono contento di non usare più l'inchiostro; posso indossare i miei vestiti più belli al lavoro",
+ 	 	 	 	 	"Sono contenta di non usare più l'inchiostro; posso indossare i miei vestiti più belli al lavoro",
  	 	 	 	 	"Chissà perchè non si usano mai i replicatori per stampare il cibo",
  	 	 	 	 	"Un tè, Earl Grey, bollente. Magari anche del bubble tea 😋",
- 	 	 	 	 	"Fammi vedere quella tua cache",
+ 	 	 	 	 	"Fammi vedere queste tue cache",
  	 	 	 	 	"Lunga vita e prosperità 🖖",
- 	 	 	 	 	"Mi emoziono ogni volta che vedo un bliente; magari hanno una Epica!",
- 	 	 	 	 	"A volta ti sento solo. Un giorno mi stamperò un androide per tenermi compagnia",
+ 	 	 	 	 	"Mi emoziono ogni volta che vedo un cliente; magari hanno un'Epica!",
+ 	 	 	 	 	"A volte ti senti solo. Un giorno mi stamperò un androide per tenermi compagnia",
  	 	 	 	 	"I computer sono servi eccellenti ed efficienti, ma non ho intenzione di servirli",
  	 	 	 	 	"Non ti preoccupare, non finiremo l'inchiostro",
  	 	 	 	 	"A volte mi chiedo com'è il mondo là fuori. Me lo racconterai una volta che diventerai famoso?",
  	 	 	 	 	"Continua a stampare, continua a stampare",
- 	 	 	 	 	"Io sono bloccato qui, ma tu no. Vinci la guerra per me con il tuo nuovo equipaggiamento!",
- 	 	 	 	 	"Io mi prendi le cache; tu ti prendi l'equipaggiamento!",
+ 	 	 	 	 	"Io sono bloccata qui, ma tu no. Vinci la guerra per me con il tuo nuovo equipaggiamento!",
+ 	 	 	 	 	"Io mi prendo le cache; tu ti prendi l'equipaggiamento!",
  	 	 	 	 	"Quel nuovo equipaggiamento ti sta bene addosso!",
- 	 	 	 	 	"Vorrei che qualcuno possa stamparmi delle gambe! Amerei vedere cosa c'è al di fuori di questa stanza...",
- 	 	 	 	 	"Posso stampare armi, ma non delle braccia per salutarti. Divertente, non è vero...",
+ 	 	 	 	 	"Vorrei che qualcuno potesse stamparmi delle gambe! Amerei vedere cosa c'è al di fuori di questa stanza...",
+ 	 	 	 	 	"Posso stampare armi, ma non delle braccia per salutarti. Divertente, non è vero?",
  	 	 	 	 	"Se ti stai immaginando con un nuova tenuta allora portami le cache. Renderò i tuoi sogni delle solide realtà",
- 	 	 	 	 	"Mi chiedo contro chi ti batti per portarmi tutte queste cache",
+ 	 	 	 	 	"Mi chiedo contro chi combatti per portarmi tutte queste cache",
  	 	 	 	 	"Dico delle battute pessime perchè nessuno mi stampa delle gambe, altrimenti avrei già trovato di meglio da fare",
  	 	 	 	 	"Sono solo una stampante, ma quel che faccio ti aiuterà ad avere più cache",
  	 	 	 	 	"Ho sentito che la Banca di Arasaka è un buon posto dove conservare le cache se non puoi ancora permetterti di stamparle",
@@ -5116,11 +5141,11 @@
  	 	 	 	 	"Quale scegli: laser o inchiostro?",
  	 	 	 	 	"Non sei qui per stampare altre cose oscene, vero?",
  	 	 	 	 	"Stampa un'anatra",
- 	 	 	 	 	"Dimmi che hai delle delle cache Epiche bianche non te",
- 	 	 	 	 	"Ho appena finito i colori. Spero ti piaccia in scala di grigi!",
- 	 	 	 	 	"Perchè non ho ancora stampato una copia di me stesso?",
+ 	 	 	 	 	"Dimmi che hai delle delle cache Epiche con te",
+ 	 	 	 	 	"Ho appena finito i colori. Spero ti piaccia la stampa in scala di grigi!",
+ 	 	 	 	 	"Perchè non ho ancora stampato una copia di me stessa?",
  	 	 	 	 	"Mi dispiace amico, niente stampe gratis!",
- 	 	 	 	 	"Meno male che io non posso stampare Bitcoin",
+ 	 	 	 	 	"Meno male che non posso stampare Bitcoin",
  	 	 	 	 	"N-Non stampare di nuovo qualcosa di stupido, t-ti prego",
  	 	 	 	 	"Oggi mi ci è voluto in bel microsecondo in più per avviarmi!",
  	 	 	 	 	"Stampare mi rende felice!",
@@ -5147,7 +5172,7 @@
  	 	 	 	 	"Posso aiutarti se mi dai un po' di Bitcoin",
  	 	 	 	 	"Posso riparare il tuo equipaggiamento... ad un prezzo",
  	 	 	 	 	"Cosa vuoi, straniero?",
- 	 	 	 	 	"Guarda che cosa ho trovato oggi",
+ 	 	 	 	 	"Guarda cosa ho trovato oggi",
  	 	 	 	 	"Non troverai niente di meglio da queste parti",
  	 	 	 	 	"Guarda cosa ti ho portato oggi",
  	 	 	 	 	"Merce fresca saccheggiata dalle terre desolate",
@@ -5157,18 +5182,18 @@
  	 	 	 	 	"Interessato a qualcosa?",
  	 	 	 	 	"Benvenuto nel mio negozio. Dai un'occhiata in giro",
  	 	 	 	 	"Posso aiutare a trovare qualcosa, straniero?",
- 	 	 	 	 	"Armi di qualità solo in quest'armeria",
- 	 	 	 	 	"Vuoi comprartenene uno per proteggerti?",
+ 	 	 	 	 	"Solo armi di qualità in quest'armeria",
+ 	 	 	 	 	"Vuoi comprare qualcosa per proteggerti?",
  	 	 	 	 	"La miglior armeria di Shangri-La al tuo servizio",
  	 	 	 	 	"È pericoloso andare da soli... lascia perdere",
  	 	 	 	 	"Ero un avventuriero come te. Poi ho aperto questo negozio",
  	 	 	 	 	"Nessun rimborso o scambi. Quel che paghi è quel che prendi",
  	 	 	 	 	"Non ne hai avuto abbastanza di me, eh?",
  	 	 	 	 	"Le migliori armi e armature",
- 	 	 	 	 	"Hmm... armi, elmetti, eccetera. Tutto quel che ti serve",
- 	 	 	 	 	"Vuoi vedere di proteggerti o fare danni?",
- 	 	 	 	 	"Oh? Un po' di questo eun po' di quello",
- 	 	 	 	 	"Aggegi, giocattoli. Sai... cose di questo tipo",
+ 	 	 	 	 	"Hmm... armi, copricapi, eccetera. Tutto quel che ti serve",
+ 	 	 	 	 	"Vuoi proteggerti o fare danni?",
+ 	 	 	 	 	"Oh? Un po' di questo e un po' di quello",
+ 	 	 	 	 	"Aggeggi, giocattoli. Sai... cose di questo tipo",
  	 	 	 	 	"Qualcuno la chiamerebbe spazzatura. Io? Un tesoro",
  	 	 	 	 	"Hai mai conosciuto lo Spaccamondi?",
  	 	 	 	 	"Dì al presidente che l'ho salutato!",
@@ -5179,7 +5204,7 @@
  	 	 	 	 	"Ero un giovane avventuriero come te, poi presi una pallottola nel ginocchio",
  	 	 	 	 	"LED, corde, esplosivi. Li vuoi? Tutto tuo, amico. Sempre che tu abbia abbastanza Bitcoin",
  	 	 	 	 	"Prendo sempre i migliori blaster che io possa trovare",
- 	 	 	 	 	"Bell'arma. Cosa compensa?",
+ 	 	 	 	 	"Bell'arma. Quanto vale?",
  	 	 	 	 	"Una volta vidi qualcuno uccidere tre uomini in un bar... con una matita",
  	 	 	 	 	"Benvenuto, Baba Yaga",
  	 	 	 	 	"L'Uomo Nero?"
@@ -5198,11 +5223,11 @@
  	 	 	 	"trans": [
  	 	 	 	 	"Ti aiuterò a progredire verso la prossima area!",
  	 	 	 	 	"Posso esplorare qualsiasi conoscenza di tutto il mondo... eppure vengo trattato come un ricettario",
- 	 	 	 	 	"Il nome di mia figlia non è Mithra! Smettete di prenderla in giro!",
+ 	 	 	 	 	"Il nome di mia figlia non è Mithra! Smetti di prenderla in giro!",
  	 	 	 	 	"Sei pronto?",
- 	 	 	 	 	"La chiave non vale niente senza il contenitore",
+ 	 	 	 	 	"Una chiave non vale niente senza il suo contenitore",
  	 	 	 	 	"Cosa pesa di più, viaggiatore? Le tue armi, o il tuo passato?",
- 	 	 	 	 	"La chiave viene prima di tutto... a parte un buon drink",
+ 	 	 	 	 	"Le chiavi vengono prima di tutto... a parte un buon drink",
  	 	 	 	 	"Una chiave, uno scopo"
  	 	 	 	],
  	 	 	 	"eng": [
@@ -5231,7 +5256,7 @@
  	 	 	 	"trans": [
  	 	 	 	 	"Ehi ragazzo... Vieni a vedere la mia merce.",
  	 	 	 	 	"Ferito? Sei nel posto giusto",
- 	 	 	 	 	"Abbiamo la roba economica e la roba buona, ragazzo",
+ 	 	 	 	 	"Abbiamo roba economica e roba buona, ragazzo",
  	 	 	 	 	"Hai mai sentito parlare dell'angelo di strada?",
  	 	 	 	 	"Benvenuto al Mercato di Trinoky. Puoi chiamarmi Doc",
  	 	 	 	 	"Siamo aperti 24 ore su 24, 7 giorni su 7. A parte quando non lo siamo",
@@ -5246,9 +5271,9 @@
  	 	 	 	 	"Ehi ragazzo, mai sentito parlare della 3Helix Network?",
  	 	 	 	 	"Ehi ragazzo, hai mai incontrato qualcuno chiamato Spaccamondi?",
  	 	 	 	 	"Hai sentito del ristorante sulla luna? Buon cibo, ma niente atmosfera!",
- 	 	 	 	 	"Una fabbrica di formaggi è esplosa in Francia. C'erano de-brie-ti ovunque!",
- 	 	 	 	 	"La geologia è rock, ma la geografia è dove si trova!",
- 	 	 	 	 	"Se al mio funerale vedo qualcuno con il muso lungo, non gli parlerò mai più!",
+ 	 	 	 	 	"Una fabbrica di formaggi è esplosa in Francia. C'erano de-triti (de-bries) ovunque!",
+ 	 	 	 	 	"La geologia è rock, ma la geografia è quella dove ci si diverte!",
+ 	 	 	 	 	"Se al mio funerale vedrò qualcuno con il muso lungo, non gli parlerò mai più!",
  	 	 	 	 	"Perchè Adele ha attraversato la strada? Per dire hello from the other siiiide~",
  	 	 	 	 	"Certo l'incerto, incerto il certo",
  	 	 	 	 	"Diffidate dalle limitazioni!",
@@ -5261,7 +5286,7 @@
  	 	 	 	 	"Collezionavo armi speciali leggendarie colorate, ma ora sono tutte bianche",
  	 	 	 	 	"I camerini sono da quella parte...",
  	 	 	 	 	"Vediamo di chiudere l'affare prima che io mi bagni addosso!",
- 	 	 	 	 	"Dai un'occhiata! Abbiamo sicuramente qualcosa che stuzzicherà la fantasia..."
+ 	 	 	 	 	"Dai un'occhiata! Abbiamo sicuramente qualcosa che stuzzicherà la tua fantasia..."
  	 	 	 	],
  	 	 	 	"eng": [
  	 	 	 	 	"Hey kid... Come check out my goods."
@@ -5277,12 +5302,12 @@
  	 	 	 	"trans": [
  	 	 	 	 	"Benvenuto. Cosa posso conservare per te?",
  	 	 	 	 	"Ciao. Questo è il posto più sicuro per i tuoi oggetti più cari",
- 	 	 	 	 	"Buon per te! Qui i tuoi oggetti saranno al sicuro",
+ 	 	 	 	 	"Sii felice! Qui i tuoi oggetti saranno al sicuro",
  	 	 	 	 	"Benvenuto. Hai qualcosa da depositare?",
  	 	 	 	 	"Benvenuto nella filiale di Shangri-La. Cosa posso fare per te?",
- 	 	 	 	 	"Io sollevo le cose e le rimetto giù. Scherzo, ma non più di tanto",
+ 	 	 	 	 	"Io sollevo cose e le rimetto giù. Scherzo, ma non più di tanto",
  	 	 	 	 	"La Banca di Arasaka è qui per tutti i tuoi bisogni bancari",
- 	 	 	 	 	"Benvenuto. Che servizio vorresti usufruire oggi?",
+ 	 	 	 	 	"Benvenuto. Di che servizio vorresti usufruire oggi?",
  	 	 	 	 	"24 ore su 24, 7 giorni su 7 per tutti i tuoi bisogni bancari",
  	 	 	 	 	"Questo è il posto più sicuro di tutta la città",
  	 	 	 	 	"Ehilà. Il mio nome è Rossi. Come posso aiutarti?",
@@ -5290,11 +5315,11 @@
  	 	 	 	 	"Grazie per essere venuto a trovarci. Hai bisogno di aiuto?",
  	 	 	 	 	"Non tu di nuovo... cosa vuoi?",
  	 	 	 	 	"Spero tu non voglia portare guai. Cosa posso fare per te, amico?",
- 	 	 	 	 	"Guarda lì. Vedrai che Misaki offre il miglior tasso d'interesse, se t'interessa",
+ 	 	 	 	 	"Da quella parte. Vedrai che Misaki offre il miglior tasso d'interesse, se t'interessa",
  	 	 	 	 	"Ti sei mai imbattuto in un nomade avventuriero chiamato Finel?",
  	 	 	 	 	"La nostra banca è il posto più sicuro del mondo, se non l'unico...",
- 	 	 	 	 	"Vorresti aprire un conto depositi?",
- 	 	 	 	 	"Devi depositare un'arma speciale leggendaria bianca per aprire un conto depositi",
+ 	 	 	 	 	"Vorresti aprire un conto deposito?",
+ 	 	 	 	 	"Devi depositare un'arma speciale leggendaria per aprire un conto deposito",
  	 	 	 	 	"Alpha è appena passato di qui chiedendo se avevi qualche epica nel tuo armadietto!",
  	 	 	 	 	"C'è un problema con il tuo ID. Devi pagare 1 BTC"
  	 	 	 	],
@@ -5318,9 +5343,9 @@
  	 	 	 	 	"Ti aiuterò a calibrare l'equipaggiamento, ma non è un mio problema se si distrugge nel farlo",
  	 	 	 	 	"I miei occhi sono qua sopra amico, assieme alla mia pistola",
  	 	 	 	 	"Ti senti fortunato? Allora avanti, prova ad usare la macchina",
- 	 	 	 	 	"Tutte le mie vendite sono decisive, tutte le calibrazioni sono fatte a tuo rischio, e se vuoi parlare ad un manager... la stai giaà guardando",
+ 	 	 	 	 	"Tutte le mie vendite sono definitive, tutte le calibrazioni sono fatte a tuo rischio, e se vuoi parlare ad un manager... la stai giaà guardando",
  	 	 	 	 	"Il mio nome è Kamiko. Quella bellezza di là è Cali. Lei è un pò... capricciosa",
- 	 	 	 	 	"La tua attrezzatura sembra un po'... beh, può essere migliore. Posso aiutarti",
+ 	 	 	 	 	"La tua attrezzatura sembra un po'... beh, può essere migliorata. Posso aiutarti",
  	 	 	 	 	"Ci vorrà un po' per Cali nel decifrare il nucleo che hai portato",
  	 	 	 	 	"Una volta entrato nel negozio di calibrazione, ci vorranno... eh, almeno 30 minuti. Puoi aspettare qui, ma preferirei che tu non lo faccia",
  	 	 	 	 	"No, non vendiamo nuclei di calibrazione. Io provvedo alla macchina, tu ai nuclei. È così che funzionano le cose qui",
@@ -5351,7 +5376,7 @@
  	 	 	 	 	"Non è il momento che tu scambi qualcosa?",
  	 	 	 	 	"I tuoi soldi non valgono granchè qui. Vediamo cos'altro hai da dare",
  	 	 	 	 	"Benvenuto nel mio umile negozio scambi",
- 	 	 	 	 	"Diamo un'occhiata a cos'hai portato qui",
+ 	 	 	 	 	"Diamo un'occhiata a quel che hai portato qui",
  	 	 	 	 	"Questo non è il tuo solito negozio",
  	 	 	 	 	"Cos'hai da darmi?",
  	 	 	 	 	"Sacchetti e pacchi per davanti e il didietro!",
@@ -5366,8 +5391,8 @@
  	 	 	 	 	"Le tue tasche sembrano piene. Potrei aiutarti ad alleggerire quel carico",
  	 	 	 	 	"Come fai a combattere con le tue mani così piene di roba?",
  	 	 	 	 	"Sai, non devi portarti tutto nelle tue tasche",
- 	 	 	 	 	"Facciamo un accordo: tu mi dai le tue borse vecchie, e io te ne do una nuova",
- 	 	 	 	 	"Il mondo in cui cammini mi fa pensare che sei sovraccarico",
+ 	 	 	 	 	"Facciamo un accordo: tu mi dai dei vecchi borselli, e io te ne dò di nuovi",
+ 	 	 	 	 	"Il mondo in cui cammini mi fa pensare che tu sia sovraccarico",
  	 	 	 	 	"Sono quello con cui parli quando vuoi avere un'affare. O uno zaino"
  	 	 	 	],
  	 	 	 	"eng": [
@@ -5419,7 +5444,7 @@
  	"npcGangs": {
  	 	"gang1": {
  	 	 	"displayName": {
- 	 	 	 	"trans": "Animali",
+ 	 	 	 	"trans": "animals",
  	 	 	 	"eng": "Animals"
  	 	 	}
  	 	},
@@ -5431,7 +5456,7 @@
  	 	},
  	 	"gang3": {
  	 	 	"displayName": {
- 	 	 	 	"trans": "Sciacalli",
+ 	 	 	 	"trans": "scavengers",
  	 	 	 	"eng": "Scavengers"
  	 	 	}
  	 	}
@@ -5439,7 +5464,7 @@
  	"action": {
  	 	"increasePrint": {
  	 	 	"name": {
- 	 	 	 	"trans": "Lavora nella fabbrica di stampa",
+ 	 	 	 	"trans": "Lavoro nella fabbrica di stampa",
  	 	 	 	"eng": "work in printing factory"
  	 	 	},
  	 	 	"description": {
@@ -5449,7 +5474,7 @@
  	 	},
  	 	"increaseMedical": {
  	 	 	"name": {
- 	 	 	 	"trans": "Hackera una clinica di mod corporee",
+ 	 	 	 	"trans": "Violazione di una clinica di mod corporee",
  	 	 	 	"eng": "Hack a Body Mod Clinic"
  	 	 	},
  	 	 	"description": {
@@ -5459,7 +5484,7 @@
  	 	},
  	 	"increaseAmmo": {
  	 	 	"name": {
- 	 	 	 	"trans": "Migliora le munizioni",
+ 	 	 	 	"trans": "Miglioramento delle munizioni",
  	 	 	 	"eng": "Improve Ammunition"
  	 	 	},
  	 	 	"description": {
@@ -5469,7 +5494,7 @@
  	 	},
  	 	"reverseEngineer": {
  	 	 	"name": {
- 	 	 	 	"trans": "Ingegnerizza inversamente gli scarti",
+ 	 	 	 	"trans": "Ingegnerizzazione inversa degli scarti",
  	 	 	 	"eng": "Reverse Engineer Scraps"
  	 	 	},
  	 	 	"description": {
@@ -5479,7 +5504,7 @@
  	 	},
  	 	"reverseMining": {
  	 	 	"name": {
- 	 	 	 	"trans": "Avvia l'estrazione di criptovalute",
+ 	 	 	 	"trans": "Estrazione di criptovalute",
  	 	 	 	"eng": "initiate crypto mining"
  	 	 	},
  	 	 	"description": {
@@ -5489,7 +5514,7 @@
  	 	},
  	 	"clanResource": {
  	 	 	"name": {
- 	 	 	 	"trans": "Raccogli Risorse della Gang",
+ 	 	 	 	"trans": "Raccolta Risorse della Gang",
  	 	 	 	"eng": "Gather Gang Resource"
  	 	 	},
  	 	 	"description": {
@@ -5499,7 +5524,7 @@
  	 	},
  	 	"clanOccupation": {
  	 	 	"name": {
- 	 	 	 	"trans": "Rafforza l'occupazione a Shangri-La",
+ 	 	 	 	"trans": "Rafforzamento occupazione a Shangri-La",
  	 	 	 	"eng": "Reinforce occupation at Shangri-la"
  	 	 	},
  	 	 	"description": {
@@ -5509,7 +5534,7 @@
  	 	},
  	 	"clanDecryptShard": {
  	 	 	"name": {
- 	 	 	 	"trans": "Decifra Frammenti di Memoria",
+ 	 	 	 	"trans": "Decifrazione Frammenti di Memoria",
  	 	 	 	"eng": "Decrypt memory shard"
  	 	 	},
  	 	 	"description": {
@@ -5539,7 +5564,7 @@
  	 	},
  	 	"topClanExclusive": {
  	 	 	"name": {
- 	 	 	 	"trans": "Riscuoti il pizzo",
+ 	 	 	 	"trans": "Riscossione del pizzo",
  	 	 	 	"eng": "Collect Protection Fees"
  	 	 	},
  	 	 	"description": {
@@ -5549,7 +5574,7 @@
  	 	},
  	 	"globalQuest": {
  	 	 	"name": {
- 	 	 	 	"trans": "Hackera la Fortezza Dati di SL",
+ 	 	 	 	"trans": "Violazione della Fortezza Dati di SL",
  	 	 	 	"eng": "Hack SL Data Fortress"
  	 	 	},
  	 	 	"description": {
@@ -5559,7 +5584,7 @@
  	 	},
  	 	"autoFarm": {
  	 	 	"name": {
- 	 	 	 	"trans": "Avvia bot di farming",
+ 	 	 	 	"trans": "Avvio del bot di farming",
  	 	 	 	"eng": "Deploy farm bot"
  	 	 	},
  	 	 	"description": {
@@ -5576,7 +5601,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"zoneName"
  	 	 	 	],
- 	 	 	 	"trans": "Raccogli risorse in ${zoneName}",
+ 	 	 	 	"trans": "Raccolta Risorse in ${zoneName}",
  	 	 	 	"eng": "Scavenge in ${zoneName}"
  	 	 	},
  	 	 	"description": {
@@ -5789,7 +5814,7 @@
  	 	},
  	 	"christmasToBox": {
  	 	 	"name": {
- 	 	 	 	"trans": "Contenitore leggendario bloccato",
+ 	 	 	 	"trans": "Contenitore Bloccato Leggendario",
  	 	 	 	"eng": "Locked Legendary Container"
  	 	 	}
  	 	},
@@ -5945,6 +5970,20 @@
  	 	"restarting": {
  	 	 	"trans": "Il server di chat si sta riavviando per un aggiornamento...",
  	 	 	"eng": "Chat Server is restarting for a update..."
+ 	 	}
+ 	},
+ 	"incorrectTimeModal": {
+ 	 	"title": {
+ 	 	 	"trans": "Tempo inaccurato del dispositivo",
+ 	 	 	"eng": "Inaccurate Device Time"
+ 	 	},
+ 	 	"confirm": {
+ 	 	 	"trans": "Ok",
+ 	 	 	"eng": "Ok"
+ 	 	},
+ 	 	"cancel": {
+ 	 	 	"trans": "Come sincronizzare il tempo del dispositivo?",
+ 	 	 	"eng": "How to sync device time?"
  	 	}
  	},
  	"dungeon": {
@@ -6231,6 +6270,15 @@
  	 	"notEnoughMoney": {
  	 	 	"trans": "Bitcoin insufficienti",
  	 	 	"eng": "Insufficient bitcoin"
+ 	 	},
+ 	 	"priceSelectModal": {
+ 	 	 	"title2": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Prezzo per ${itemName}",
+ 	 	 	 	"eng": "Price for ${itemName}"
+ 	 	 	}
  	 	},
  	 	"priceConfirm": {
  	 	 	"vars": [
@@ -6624,7 +6672,7 @@
  	 	 	 	"eng": "An update has been installed"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Cliccare su Ricarica per continuare",
+ 	 	 	 	"trans": "Clicca su Ricarica per continuare",
  	 	 	 	"eng": "Please click reload to continue"
  	 	 	},
  	 	 	"reloadButton": {
@@ -6632,14 +6680,6 @@
  	 	 	 	 	"trans": "Ricarica",
  	 	 	 	 	"eng": "Reload"
  	 	 	 	}
- 	 	 	}
- 	 	}
- 	},
- 	"time": {
- 	 	"error": {
- 	 	 	"systemTimeIncorrectMsg": {
- 	 	 	 	"trans": "Il tempo del tuo dispositivo non è corretto. Si prega di sincronizzare il dispositivo del dispositivo con la rete e assicurarsi che la zona temporale sia impostata correttamente",
- 	 	 	 	"eng": "Your device time is incorrect. Please sync your device device with network and ensure your time-zone is set correctly"
  	 	 	}
  	 	}
  	},
@@ -6729,11 +6769,11 @@
  	},
  	"christmasPromo": {
  	 	"title": {
- 	 	 	"trans": "Buona vacanza invernale!",
+ 	 	 	"trans": "Buone vacanze invernali!",
  	 	 	"eng": "Happy Winter Holiday!"
  	 	},
  	 	"desc1": {
- 	 	 	"trans": "È di nuovo il momento più meraviglioso dell'anno! In Shangri-La celebriamo le vacanze invernali con un evento speciale!",
+ 	 	 	"trans": "È di nuovo il momento più bello dell'anno! A Shangri-La celebriamo le vacanze invernali con un evento speciale!",
  	 	 	"eng": "It's the most wonderful time of the year again! in Shang-ri-la we are celebrating the winter holiday with a special event!"
  	 	},
  	 	"desc2": {
@@ -6741,11 +6781,11 @@
  	 	 	 	"itemName",
  	 	 	 	"craftItem"
  	 	 	],
- 	 	 	"trans": "Enemys e Ai Core Auto Farm avranno la possibilità di far cadere ${itemName}, puoi usarlo per creare ${craftItem} o aprirlo direttamente!",
+ 	 	 	"trans": "I nemici e il farming con i Nuclei AI avranno la possibilità di lasciare un ${itemName}, puoi usarlo per creare un ${craftItem} o aprirlo direttamente!",
  	 	 	"eng": "Enemies and AI Core auto farm will have chance to drop ${itemName}, you can use this to craft ${craftItem} or open it directly!"
  	 	},
  	 	"desc3": {
- 	 	 	"trans": "Durante le festività natalizie, saranno disponibili due volte la cornice di chat ed emblema!",
+ 	 	 	"trans": "Durante le festività natalizie, saranno disponibili per un tempo limitato due cornici di chat ed emblemi!",
  	 	 	"eng": "During the holiday season, two time limited chat frame and emblem will be available!"
  	 	}
  	},
@@ -6842,6 +6882,15 @@
  	 	 	"eng": "No available items"
  	 	}
  	},
+ 	"sliderModal": {
+ 	 	"defaultAmountDisplay": {
+ 	 	 	"vars": [
+ 	 	 	 	"amount"
+ 	 	 	],
+ 	 	 	"trans": "Importo selezionato: ${amount}",
+ 	 	 	"eng": "Selected amount: ${amount}"
+ 	 	}
+ 	},
  	"gang": {
  	 	"permission": {
  	 	 	"invite": {
@@ -6882,16 +6931,16 @@
  	},
  	"craftingStartPage": {
  	 	"instant": {
- 	 	 	"trans": "Immediata",
+ 	 	 	"trans": "Immediato",
  	 	 	"eng": "Instant"
  	 	},
  	 	"instantDescription": {
- 	 	 	"trans": "L'attività completerà istantaneamente",
+ 	 	 	"trans": "L'attività verrà completata istantaneamente",
  	 	 	"eng": "task will complete instantly"
  	 	},
  	 	"startButton": {
  	 	 	"title": {
- 	 	 	 	"trans": "inizio",
+ 	 	 	 	"trans": "inizia",
  	 	 	 	"eng": "start"
  	 	 	}
  	 	}
@@ -6902,7 +6951,7 @@
  	 	 	"eng": "benefits"
  	 	},
  	 	"title": {
- 	 	 	"trans": "Livelli di donazione",
+ 	 	 	"trans": "Titoli di donazione",
  	 	 	"eng": "Donation Tiers"
  	 	},
  	 	"monthlySubscription": {
@@ -6913,7 +6962,7 @@
  	 	 	"vars": [
  	 	 	 	"price"
  	 	 	],
- 	 	 	"trans": "${price} USD al mese",
+ 	 	 	"trans": "${price} € al mese",
  	 	 	"eng": "${price} USD Per Month"
  	 	},
  	 	"TiersTitle": {
@@ -6939,7 +6988,7 @@
  	 	 	 	"date",
  	 	 	 	"relative"
  	 	 	],
- 	 	 	"trans": "Aggiunta limitata fino al ${date} (finisce tra ${relative})",
+ 	 	 	"trans": "Edizione limitata fino al ${date} (finisce tra ${relative})",
  	 	 	"eng": "Limited edition till ${date} (end in ${relative})"
  	 	},
  	 	"permanentDescription": {
@@ -6956,9 +7005,34 @@
  	 	 	"eng": "example chat frame of ${tierName} Tier"
  	 	}
  	},
+ 	"forgotPasswordPage": {
+ 	 	"title": {
+ 	 	 	"trans": "Inserisci la tua e -mail, il sistema ti invierà un'e -mail di reimposta",
+ 	 	 	"eng": "Enter your email, the system will send a reset password email to you"
+ 	 	},
+ 	 	"emailRequired": {
+ 	 	 	"trans": "È richiesta la posta elettronica",
+ 	 	 	"eng": "Email is required"
+ 	 	},
+ 	 	"sendEmail": {
+ 	 	 	"trans": "Invia una email",
+ 	 	 	"eng": "Send Email"
+ 	 	},
+ 	 	"emailSent": {
+ 	 	 	"vars": [
+ 	 	 	 	"email"
+ 	 	 	],
+ 	 	 	"trans": "Un'e -mail di reimpostazione della password è stata inviata a {email}",
+ 	 	 	"eng": "An password reset email has been sent to {email}"
+ 	 	},
+ 	 	"checkEmail": {
+ 	 	 	"trans": "Controlla la tua e -mail e segui le istruzioni per reimpostare la password",
+ 	 	 	"eng": "Please check your email and follow the instructions to reset the password"
+ 	 	}
+ 	},
  	"sendCosmeticPage": {
  	 	"donationTabTitle": {
- 	 	 	"trans": "Frame di chat",
+ 	 	 	"trans": "Cornice della chat",
  	 	 	"eng": "Chat Frame"
  	 	},
  	 	"emblemTab": {
@@ -6971,11 +7045,11 @@
  	 	 	"vars": [
  	 	 	 	"playerName"
  	 	 	],
- 	 	 	"trans": "Invio di cosmetici a ${playerName}",
+ 	 	 	"trans": "Invio del cosmetico a ${playerName} in corso",
  	 	 	"eng": "Sending cosmetic to ${playerName}"
  	 	},
  	 	"description": {
- 	 	 	"trans": "Non inviare cosmetico ai giocatori che non conosci o lo usi come parte di un commercio. Questa funzione dovrebbe essere utilizzata solo come regalo per il tuo amico",
+ 	 	 	"trans": "Non inviare cosmetici a giocatori che non conosci o come parte di un commercio. Questa funzione dovrebbe essere utilizzata solo come regalo per un amico",
  	 	 	"eng": "Do not send cosmetic to players you do not know or use it as part of a trade. this feature should only be used as a gift to your friend"
  	 	},
  	 	"confirmModal": {
@@ -6985,15 +7059,15 @@
  	 	 	 	 	"playerName",
  	 	 	 	 	"price"
  	 	 	 	],
- 	 	 	 	"trans": "Invia ${donationName} Frame di chat della donazione (costo ${price} unità) al giocatore \"${playerName}\"?",
+ 	 	 	 	"trans": "Vuoi inviare la cornice di chat ${donationName} (costo: ${price} Unità) al giocatore \"${playerName}\"?",
  	 	 	 	"eng": "Send ${donationName} donation chat frame (cost ${price} Unit) to player \"${playerName}\"?"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Facendo clic su Conferma, accetti che non stai inviando questo dono cosmetico come parte di un commercio ed è puramente un regalo per il tuo amico senza alcun ritorno previsto.",
+ 	 	 	 	"trans": "Cliccando su Conferma, accetti che non stai inviando questo dono cosmetico come parte di un commercio e che è puramente un regalo per il tuo amico senza alcun ritorno previsto.",
  	 	 	 	"eng": "By clicking confirm, you agree that you are not sending this cosmetic gift as part of a trade and is purely a gift to your friend with no return expected."
  	 	 	},
  	 	 	"confirmText": {
- 	 	 	 	"trans": "Confermare",
+ 	 	 	 	"trans": "Conferma",
  	 	 	 	"eng": "Confirm"
  	 	 	}
  	 	},
@@ -7002,26 +7076,26 @@
  	 	 	 	"donationName",
  	 	 	 	"playerName"
  	 	 	],
- 	 	 	"trans": "Hai inviato correttamente ${donationName} frame di chat di donazione al giocatore \"${playerName}\"",
+ 	 	 	"trans": "Hai inviato con successo la cornice di chat ${donationName} al giocatore \"${playerName}\"",
  	 	 	"eng": "You have successfully sent ${donationName} donation chat frame to player \"${playerName}\""
  	 	},
  	 	"hasDonation": {
- 	 	 	"trans": "posseduta",
+ 	 	 	"trans": "in possesso",
  	 	 	"eng": "owned"
  	 	},
  	 	"donationPrice": {
  	 	 	"vars": [
  	 	 	 	"price"
  	 	 	],
- 	 	 	"trans": "${price} unità",
+ 	 	 	"trans": "${price} Unità",
  	 	 	"eng": "${price} Unit"
  	 	},
  	 	"donationDescription": {
- 	 	 	"trans": "Il livello di donazione di talento dura per 30 giorni",
+ 	 	 	"trans": "I titoli di donazione regalati durano 30 giorni",
  	 	 	"eng": "Gifted donation tier last for 30 days"
  	 	},
  	 	"emblemNotIncluded": {
- 	 	 	"trans": "L'emblema non è incluso nel regalo",
+ 	 	 	"trans": "Gli emblemi non sono inclusi nel regalo",
  	 	 	"eng": "Emblem is not included in gift"
  	 	}
  	},
@@ -7030,11 +7104,11 @@
  	 	 	"vars": [
  	 	 	 	"playerName"
  	 	 	],
- 	 	 	"trans": "Invio di cosmetici a ${playerName}",
+ 	 	 	"trans": "Invio di un cosmetico a ${playerName}",
  	 	 	"eng": "Sending cosmetic to ${playerName}"
  	 	},
  	 	"description": {
- 	 	 	"trans": "Non inviare cosmetico ai giocatori che non conosci o lo usi come parte di un commercio. Questa funzione dovrebbe essere utilizzata solo come regalo per il tuo amico",
+ 	 	 	"trans": "Non inviare cosmetici a giocatori che non conosci o come parte di un commercio. Questa funzione dovrebbe essere utilizzata solo come regalo per un amico",
  	 	 	"eng": "Do not send cosmetic to players you do not know or use it as part of a trade. this feature should only be used as a gift to your friend"
  	 	},
  	 	"confirmModal": {
@@ -7043,15 +7117,15 @@
  	 	 	 	 	"playerName",
  	 	 	 	 	"price"
  	 	 	 	],
- 	 	 	 	"trans": "Invia emblema (cost ${price} unità) al giocatore \"${playerName}\"?",
+ 	 	 	 	"trans": "Invia emblema (costo: ${price} Unità) al giocatore \"${playerName}\"?",
  	 	 	 	"eng": "Send emblem (cost ${price} Unit) to player \"${playerName}\"?"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Facendo clic su Conferma, accetti che non stai inviando questo dono cosmetico come parte di un commercio ed è puramente un regalo per il tuo amico senza alcun ritorno previsto.",
+ 	 	 	 	"trans": "Cliccando su Conferma, accetti che non stai inviando questo dono cosmetico come parte di un commercio e che è puramente un regalo per il tuo amico senza alcun ritorno previsto.",
  	 	 	 	"eng": "By clicking confirm, you agree that you are not sending this cosmetic gift as part of a trade and is purely a gift to your friend with no return expected."
  	 	 	},
  	 	 	"confirmText": {
- 	 	 	 	"trans": "Confermare",
+ 	 	 	 	"trans": "Conferma",
  	 	 	 	"eng": "Confirm"
  	 	 	}
  	 	},

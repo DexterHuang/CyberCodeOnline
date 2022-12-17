@@ -2375,7 +2375,7 @@
  	 	},
  	 	"amount": {
  	 	 	"trans": "数量",
- 	 	 	"eng": "Amount"
+ 	 	 	"eng": "amount"
  	 	},
  	 	"itemUpgradeCapacity": {
  	 	 	"trans": "校准容量",
@@ -2821,6 +2821,17 @@
  	 	 	}
  	 	}
  	},
+ 	"time": {
+ 	 	"error": {
+ 	 	 	"systemTimeIncorrect": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"diff"
+ 	 	 	 	],
+ 	 	 	 	"trans": "不准确的设备时间（时间差：${diff}）。 为了确保诸如buff之类的游戏功能，时间跳过和AFK任务正确显示。 请将设备时间与网络同步，并确保正确设置您的时区",
+ 	 	 	 	"eng": "Inaccurate device time (time difference: ${diff}). to ensure game features such as buff, time skip and AFK Task display correctly. Please sync your device time with network and ensure your time-zone is set correctly"
+ 	 	 	}
+ 	 	}
+ 	},
  	"craft": {
  	 	"maxAmountText": {
  	 	 	"vars": [
@@ -3067,6 +3078,20 @@
  	 	"abandonConfirm": {
  	 	 	"trans": "您确定要放弃此任务吗？",
  	 	 	"eng": "Are you sure you want to abandon this quest?"
+ 	 	}
+ 	},
+ 	"sessionClosedScreen": {
+ 	 	"title": {
+ 	 	 	"trans": "您已经在另一台设备上登录",
+ 	 	 	"eng": "You have logged in on another device"
+ 	 	},
+ 	 	"description": {
+ 	 	 	"trans": "如果您希望继续在此设备上播放，请单击重新连接。",
+ 	 	 	"eng": "If you wish to continue playing on this device, please click reconnect."
+ 	 	},
+ 	 	"restartApp": {
+ 	 	 	"trans": "立即重新连接",
+ 	 	 	"eng": "Reconnect Now"
  	 	}
  	},
  	"slider": {
@@ -4422,9 +4447,9 @@
  	 	 	 	"trans": "补给箱[帮派]",
  	 	 	 	"eng": "Supply Crate [Gang]"
  	 	 	},
- 	 	 	"description": {
- 	 	 	 	"trans": "包含着维持帮派运行的杂物和资源， \r\n         点击将其发送给您的帮派总部",
- 	 	 	 	"eng": "Contains misc items and resources for a gang to stay functional,\r\n        Click use to send it to your gang headquarters"
+ 	 	 	"descriptionv2": {
+ 	 	 	 	"trans": "包含MISC项目和资源，使帮派保持功能。 \r\n         可以在您的帮派总部使用",
+ 	 	 	 	"eng": "Contains misc items and resources for a gang to stay functional.\r\n        Can be used in your gang headquarters"
  	 	 	}
  	 	},
  	 	"clanExp": {
@@ -5947,6 +5972,20 @@
  	 	 	"eng": "Chat Server is restarting for a update..."
  	 	}
  	},
+ 	"incorrectTimeModal": {
+ 	 	"title": {
+ 	 	 	"trans": "设备时间不正确",
+ 	 	 	"eng": "Inaccurate Device Time"
+ 	 	},
+ 	 	"confirm": {
+ 	 	 	"trans": "好的",
+ 	 	 	"eng": "Ok"
+ 	 	},
+ 	 	"cancel": {
+ 	 	 	"trans": "如何同步设备时间？",
+ 	 	 	"eng": "How to sync device time?"
+ 	 	}
+ 	},
  	"dungeon": {
  	 	"enemyInRoomDoorError": {
  	 	 	"trans": "房间里还有敌人时，您无权启动门",
@@ -6231,6 +6270,15 @@
  	 	"notEnoughMoney": {
  	 	 	"trans": "比特币不足",
  	 	 	"eng": "Insufficient bitcoin"
+ 	 	},
+ 	 	"priceSelectModal": {
+ 	 	 	"title2": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${itemName}的价格",
+ 	 	 	 	"eng": "Price for ${itemName}"
+ 	 	 	}
  	 	},
  	 	"priceConfirm": {
  	 	 	"vars": [
@@ -6635,14 +6683,6 @@
  	 	 	}
  	 	}
  	},
- 	"time": {
- 	 	"error": {
- 	 	 	"systemTimeIncorrectMsg": {
- 	 	 	 	"trans": "您的设备时间不正确。 请将设备设备与网络同步，并确保正确设置您的时区",
- 	 	 	 	"eng": "Your device time is incorrect. Please sync your device device with network and ensure your time-zone is set correctly"
- 	 	 	}
- 	 	}
- 	},
  	"chatExploit": {
  	 	"loveWords": {
  	 	 	"trans": [
@@ -6842,6 +6882,15 @@
  	 	 	"eng": "No available items"
  	 	}
  	},
+ 	"sliderModal": {
+ 	 	"defaultAmountDisplay": {
+ 	 	 	"vars": [
+ 	 	 	 	"amount"
+ 	 	 	],
+ 	 	 	"trans": "选定金额：${amount}",
+ 	 	 	"eng": "Selected amount: ${amount}"
+ 	 	}
+ 	},
  	"gang": {
  	 	"permission": {
  	 	 	"invite": {
@@ -6954,6 +7003,31 @@
  	 	 	],
  	 	 	"trans": "这是 ${tierName} 级别的示例聊天窗口",
  	 	 	"eng": "example chat frame of ${tierName} Tier"
+ 	 	}
+ 	},
+ 	"forgotPasswordPage": {
+ 	 	"title": {
+ 	 	 	"trans": "输入您的电子邮件，系统将向您发送重置密码电子邮件",
+ 	 	 	"eng": "Enter your email, the system will send a reset password email to you"
+ 	 	},
+ 	 	"emailRequired": {
+ 	 	 	"trans": "需要电子邮件",
+ 	 	 	"eng": "Email is required"
+ 	 	},
+ 	 	"sendEmail": {
+ 	 	 	"trans": "发送电子邮件",
+ 	 	 	"eng": "Send Email"
+ 	 	},
+ 	 	"emailSent": {
+ 	 	 	"vars": [
+ 	 	 	 	"email"
+ 	 	 	],
+ 	 	 	"trans": "密码重置电子邮件已发送到{email}",
+ 	 	 	"eng": "An password reset email has been sent to {email}"
+ 	 	},
+ 	 	"checkEmail": {
+ 	 	 	"trans": "请检查您的电子邮件并按照说明重置密码",
+ 	 	 	"eng": "Please check your email and follow the instructions to reset the password"
  	 	}
  	},
  	"sendCosmeticPage": {
