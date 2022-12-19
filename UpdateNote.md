@@ -25,6 +25,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates           
+### 2022/12/19
+- Combat UI update
+- Added global buff display in dungeon, and updated the UI
+- security update
+
 ### 2022/12/16
 - Fixed recycler not returning to main screen after starting task in pc mode
 
