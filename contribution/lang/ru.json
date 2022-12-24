@@ -1998,20 +1998,28 @@
  	 	 	 	"trans": "Входящие предметы",
  	 	 	 	"eng": "Item Inbox"
  	 	 	},
- 	 	 	"description": {
- 	 	 	 	"trans": "Предметы отсюда будут автоматически перемещены в твой инвентарь, как только у тебя будет достаточно места.",
+ 	 	 	"descriptionV2": {
+ 	 	 	 	"trans": "Предметы здесь будут автоматически перемещены в ваш инвентарь, как только у вас будет достаточно места.",
  	 	 	 	"eng": "Items here will be automatically moved to your inventory once you have enough space."
  	 	 	},
- 	 	 	"expireDate": {
+ 	 	 	"descriptionV3": {
+ 	 	 	 	"trans": "Только часть полного списка будет отображаться, если в вашем почтовом ящике слишком много элементов.",
+ 	 	 	 	"eng": "Only part of the full list will be displayed if you have too many items in your inbox."
+ 	 	 	},
+ 	 	 	"expiryDisplay": {
  	 	 	 	"vars": [
  	 	 	 	 	"date"
  	 	 	 	],
- 	 	 	 	"trans": "Истекает ${date}",
- 	 	 	 	"eng": "Expires in ${date}"
+ 	 	 	 	"trans": "Истекает: ${date}",
+ 	 	 	 	"eng": "Expires: ${date}"
  	 	 	},
  	 	 	"empty": {
  	 	 	 	"trans": "В Входящих Предметах нет предметов",
  	 	 	 	"eng": "There is no item in your item inbox"
+ 	 	 	},
+ 	 	 	"tooManyItems": {
+ 	 	 	 	"trans": "В вашем почтовом ящике может быть больше элементов, но в вашем почтовом ящике слишком много элементов, чтобы отобразить их все.",
+ 	 	 	 	"eng": "There might be more items in your inbox, but you have too many items in your inbox to display them all."
  	 	 	},
  	 	 	"getAllItems": {
  	 	 	 	"trans": "Забрать все предметы",
@@ -2380,10 +2388,6 @@
  	 	"itemUpgradeCapacity": {
  	 	 	"trans": "Уровень Калибровки",
  	 	 	"eng": "Calibration Capacity"
- 	 	},
- 	 	"globalEffects": {
- 	 	 	"trans": "Глобальные Эффекты",
- 	 	 	"eng": "Global Effects"
  	 	},
  	 	"name": {
  	 	 	"trans": "Имя",
@@ -5796,6 +5800,19 @@
  	 	 	 	"eng": "Decline Quest"
  	 	 	}
  	 	},
+ 	 	"shareDungeonMessage": {
+ 	 	 	"vars": [
+ 	 	 	 	"type",
+ 	 	 	 	"level",
+ 	 	 	 	"dungeonInvite"
+ 	 	 	],
+ 	 	 	"trans": "Привет, ребята! Присоединяйтесь к My Dungeon [${type}] (lv ${level}) ==> ${dungeonInvite}",
+ 	 	 	"eng": "Hey guys! join my dungeon [${type}](lv${level}) ==> ${dungeonInvite}"
+ 	 	},
+ 	 	"shareDungeonCooldown": {
+ 	 	 	"trans": "Пожалуйста, подождите, прежде чем отправить еще одно приглашение",
+ 	 	 	"eng": "Please wait before sending another invite"
+ 	 	},
  	 	"normal": {
  	 	 	"description": {
  	 	 	 	"vars": [
@@ -5883,6 +5900,10 @@
  	 	 	 	"trans": "Позвать на помощь",
  	 	 	 	"eng": "Share Now"
  	 	 	}
+ 	 	},
+ 	 	"shareDungeon": {
+ 	 	 	"trans": "Делиться",
+ 	 	 	"eng": "Share"
  	 	},
  	 	"buttonTut": {
  	 	 	"trans": "Думаете, вы достаточно сильны? Сразитесь с более сильными врагами в подземелье! \r\n Не забудьте купить какой-нибудь лечебный предмет! Вы не будете восстанавливаться после битвы в подземелье.",
@@ -6104,6 +6125,12 @@
  	 	"sellAmountModalTitle": {
  	 	 	"trans": "Сколько бы вы хотели продать?",
  	 	 	"eng": "How many would you like to sell?"
+ 	 	}
+ 	},
+ 	"mobile": {
+ 	 	"returnToAppMessage": {
+ 	 	 	"trans": "Синхронизировать с сервером ..",
+ 	 	 	"eng": "Syncing with server.."
  	 	}
  	},
  	"secretKey": {
@@ -6778,7 +6805,7 @@
  	 	 	"vars": [
  	 	 	 	"price"
  	 	 	],
- 	 	 	"trans": "${price} Unit",
+ 	 	 	"trans": "${price} единица",
  	 	 	"eng": "${price} Unit"
  	 	},
  	 	"unitPriceDiscountEndDate": {
@@ -6892,7 +6919,7 @@
  	 	 	"vars": [
  	 	 	 	"price"
  	 	 	],
- 	 	 	"trans": "${price} Unit",
+ 	 	 	"trans": "${price} единица",
  	 	 	"eng": "${price} Unit"
  	 	},
  	 	"donationDescription": {
