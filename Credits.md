@@ -267,8 +267,7 @@ Livingdead
 Vega_Efsunborn
 
 ## Game resources (words)
-[apetro](https://github.com/apetro/)
-[Avanpost](https://github.com/Datarata)
+[apetro](https://github.com/apetro)
 [bvcxz](https://github.com/bvcxz-cybercode)
 [byakkozen](https://github.com/byakkozen)
 [Deckeeper](https://github.com/deckeeper)
