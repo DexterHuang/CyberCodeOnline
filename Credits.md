@@ -220,6 +220,7 @@ RookieBob
 SitiSchu
 SKIFFI
 [skullbuns](https://github.com/Skullbuns)
+[Slyfield](https://github.com/SlyfieldX)
 [Tripplehelix](https://github.com/tripplehelix)
 Vega_Efsunborn
 [Veyrin](https://github.com/darkrevelations)
