@@ -1998,20 +1998,28 @@
  	 	 	 	"trans": "アイテム受信箱",
  	 	 	 	"eng": "Item Inbox"
  	 	 	},
- 	 	 	"description": {
- 	 	 	 	"trans": "受信箱に届いたアイテムは, インベントリに空きがあれば自動的にインベントリに格納されます.",
+ 	 	 	"descriptionV2": {
+ 	 	 	 	"trans": "十分なスペースがあると、ここのアイテムは在庫に自動的に移動されます。",
  	 	 	 	"eng": "Items here will be automatically moved to your inventory once you have enough space."
  	 	 	},
- 	 	 	"expireDate": {
+ 	 	 	"descriptionV3": {
+ 	 	 	 	"trans": "受信トレイにアイテムが多すぎる場合、完全なリストの一部のみが表示されます。",
+ 	 	 	 	"eng": "Only part of the full list will be displayed if you have too many items in your inbox."
+ 	 	 	},
+ 	 	 	"expiryDisplay": {
  	 	 	 	"vars": [
  	 	 	 	 	"date"
  	 	 	 	],
- 	 	 	 	"trans": "${date}で期限切れ",
- 	 	 	 	"eng": "Expires in ${date}"
+ 	 	 	 	"trans": "期限切れ：${date}",
+ 	 	 	 	"eng": "Expires: ${date}"
  	 	 	},
  	 	 	"empty": {
  	 	 	 	"trans": "からっぽです",
  	 	 	 	"eng": "There is no item in your item inbox"
+ 	 	 	},
+ 	 	 	"tooManyItems": {
+ 	 	 	 	"trans": "受信トレイにはもっと多くのアイテムがあるかもしれませんが、受信トレイにすべてが表示されないアイテムが多すぎます。",
+ 	 	 	 	"eng": "There might be more items in your inbox, but you have too many items in your inbox to display them all."
  	 	 	},
  	 	 	"getAllItems": {
  	 	 	 	"trans": "すべてのアイテムを取得する",
@@ -2380,10 +2388,6 @@
  	 	"itemUpgradeCapacity": {
  	 	 	"trans": "アップグレード上限",
  	 	 	"eng": "Calibration Capacity"
- 	 	},
- 	 	"globalEffects": {
- 	 	 	"trans": "グローバルエフェクト",
- 	 	 	"eng": "Global Effects"
  	 	},
  	 	"name": {
  	 	 	"trans": "名前",
@@ -6010,6 +6014,19 @@
  	 	 	 	"eng": "Decline Quest"
  	 	 	}
  	 	},
+ 	 	"shareDungeonMessage": {
+ 	 	 	"vars": [
+ 	 	 	 	"type",
+ 	 	 	 	"level",
+ 	 	 	 	"dungeonInvite"
+ 	 	 	],
+ 	 	 	"trans": "やあみんな！ 私のダンジョンに参加[${type}]（lv ${level}）==> ${dungeonInvite}",
+ 	 	 	"eng": "Hey guys! join my dungeon [${type}](lv${level}) ==> ${dungeonInvite}"
+ 	 	},
+ 	 	"shareDungeonCooldown": {
+ 	 	 	"trans": "別の招待状を送る前に待ってください",
+ 	 	 	"eng": "Please wait before sending another invite"
+ 	 	},
  	 	"normal": {
  	 	 	"description": {
  	 	 	 	"vars": [
@@ -6097,6 +6114,10 @@
  	 	 	 	"trans": "今すぐ共有してください",
  	 	 	 	"eng": "Share Now"
  	 	 	}
+ 	 	},
+ 	 	"shareDungeon": {
+ 	 	 	"trans": "共有",
+ 	 	 	"eng": "Share"
  	 	},
  	 	"buttonTut": {
  	 	 	"trans": "強さに自信があるなら, ダンジョンでより強い敵と戦いましょう！ \r\n                         回復アイテムの準備を忘れないで！ ダンジョンでは戦闘の後にHPが回復しません.",
@@ -6318,6 +6339,12 @@
  	 	"sellAmountModalTitle": {
  	 	 	"trans": "いくつ売却しますか？",
  	 	 	"eng": "How many would you like to sell?"
+ 	 	}
+ 	},
+ 	"mobile": {
+ 	 	"returnToAppMessage": {
+ 	 	 	"trans": "サーバーとの同期..",
+ 	 	 	"eng": "Syncing with server.."
  	 	}
  	},
  	"secretKey": {
