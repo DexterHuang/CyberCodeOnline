@@ -1,129 +1,106 @@
 # Profile
-In your Profile, there are several pieces of information and options at your disposal. From top to bottom, Here are some informations that you can see from your profile:
+Unter Profil siehst du deine persönlichen Informationen. Von oben nach unten findest du:
 
-- **Alias** : Your username
-- **Title and profile picture (if applicable)** : Donator feature; shows the current title & displayed Profile Picture. Click the Profile Picture to change the image
-- **Amount of BitCoins** : Your current BTC. Shows both unbanked & banked BTC
-- **Average Gear Level (Gear Score)** : Your current average Gear Level. Affects your EXP gain on AI Farming
-- **Current Location** : Your current character location
-- **Online/Offline Status (System Link)** : Your current account status
-- **Street Cred** : The amount of Street Cred that you get
-- **Your Current Activity (Status)** : Your current action
-- **Your level** : Your current character level
-- **Skill levels** : Your current skill levels
-- **Stats** : Detailed information about your character's status
-- **Gang** : Your current gang (this information will not appear if you're gangless)
-- **Secret Keys** : Your list of Secret Keys that's been obtained so far
-
-## Stats
-In the **Stats** section, you can see the 'Global Effects' of an activated Transmitter (or boost). Here you can also see how long the [MUTED] status will last.
-
-As the name suggests, someone with the 'MUTED' status will not be able to communication with others for a certain amount of time.
-
-- The 'MUTED' status affects all kinds of chats: both Global, Gang and Mail (Private Messaging).
-- The 'MUTED' status does not affect the ability to receive or send items to other players or the ability to play the game.
-- The 'MUTED' status is applied by the moderators (mods) to a player who has broken the rules of the game or the ones related to the chat. 
-
-At the bottom of your profile, you will see a few additional options such as:
-- **QUIT GANG** : this will leave your gang, if you are in one;
-- **LOGOUT** : this will log you out of the game.
-
-On other players' profiles, you will encounter different options such as:
-- **SEND PRIVATE MESSAGE** : send a private message to the player through in-game Mail.
-- **SEND GIFT** : send items (caches, healing items, ammo, etc.) from your inventory to the other player's inventory. You cannot send Secret Key Fragments to other players.
-- **INVITE TO GANG** : invite the player to your gang, only if you are the Leader or you have the permission to invite others players into the gang.
-- **ADD TO FRIEND LIST** : add the player to your friend list, and if the player is not currenty online, they will also receive a notification about the fact that you added them as a friend.
-- **SEND STREET CRED** : give 1 Street Cred point to the player.
-
-Street Cred is a point system similar to "Karma" system found on Reddit. It's meant to indicate how trustful or helpful a player is. You're limited to sending only 1 Street Cred per day. You are not limited in how much Street Cred you receive from other players.
-
-## Types of levels
-
-### Player Level
-
-This is the level all your other skills will be capped at. You can increase your player level by fighting in dungeons, fighting enemies and using Experience Memories. For the highest efficiency, you want to keep all your levels about even with your player level. This is recommended.
-
-### Printing Rank
-
-Printing rank determines the level of the equipment you will print at the 3D Molecular Printer. You can level your printing rank by printing equipment, Reverse Engineering Tech Scraps or working at a Printing Factory. The latter two options are AFK jobs at the Job Hub.
-
-### Medical Science
-Crafting medical items or initiating the relevant job at the Job Hub will give you medical crafting experience. You will need these levels to craft better healing items.
-
-### Ammo Crafting
-Crafting ammo or initiating a job at the Job Hub will give you ammo crafting experience. It's useful to craft more ammo with less materials.
-
-### Scavenge Skill
-To start scavenging, you must start at the lowest level area (Flori Station, Grandiose Parking Lot 1 - 4). As your scavenge skill improves, you can start to scavenge at higher levels. The level requirements are listed in those areas. Higher scavenge levels will also grant you better rewards of (ammunition, military ammunition and medical) tech parts. You can only gain scavenge experience by scavenging.
-
-### Mining Skill
-Mining can be done only with 'Hash Processors' that drop from both normal and challenge dungeons. Higher mining levels can earn you more BTC per 15 minutes of AFK mining. You can get mining experience by completing mining jobs at the Job Hub. With higher mining levels, you can craft AI cores more efficiently as well.
+- **Alias** : Dein Spielername
+- **Titel und Profilbild (wenn aktiviert)** : Nur für Spender; zeigt deinen aktuellen Titel und dein Profilbild. Klicke zum Ändern auf das Profilbild.
+- **BitCoins** : Dein Bitcoin Kontostand. Zeigt Bitcoins auf der Bank und im Inventar an.
+- **Ausrüstungsstufe** : Dein aktueller durchschnittlicher Ausrüstungslevel. Beeinflusst deine Erfahrung beim Farmen mit `KI Kernen`.
+- **Ort** : Der Aufenthaltsort deines Charakters.
+- **Systemverbindung** : Dein aktueller online Status.
+- **Glaubwürdigkeit** : Die Menge an Punkten, die dir für Glaubwürdigkeit von anderen Spielern vergeben wurden.
+- **Status** : Deine aktuelle Aktion.
+- **Level** : Der aktuelle Level deiner Spielfigur.
+- **Fähigkeitslevel** : Die aktuellen Level deiner Fähigkeiten, mehr dazu findest du weiter unten.
+- **Stats** : Details zu den einzelnen Werten deiner Spielfigur. Einzelheiten findest du unten.
+- **Gang** : Deine aktuelle Gang. Diese Information siehst du nur, wenn du in einer Gang bist.
+- **Geheime Schlüssel** : Eine Liste der von dir bislang gesammelten geheimen Schlüssel.
 
 ## Stats
-Every player has 22 different Stats that can be showned on profiles, as follows:  
+Im Bereich **Stats** siehst du oben, welche globalen Effekte gerade aktiv sind. Wenn du [MUTED] (Stumm) wurdest, kannst du hier sehen, wie lange noch.
+Wie der Name nahelegt, kannst du mit Status 'MUTED' nicht mit anderen Spieler kommunizieren. Der Zustand hält die angegebene Zeit an.
 
-### Max Shield
-The maximum shield that the player has. Upon receiving an attack, the shield is hit first before deducting from the player's health.
+- Der 'MUTED' Zustand betrifft alle Chats: globaler Chat, Gang Chat und private Nachrichten.
+- Der 'MUTED' Zustand beeinflusst nicht das Spielen und das Senden/Empfangen von Gegenständen.
+- Der 'MUTED' Zustand wird von Moderatoren (Mods) aktiviert, wenn Spieler die Regeln des Spiels oder des Chats verletzen.
+
+Unten auf deinem Profil siehst du einige Aktionen:
+- **GANG VERLASSEN** : damit kannst du deine Gang verlassen, sofern du dich in einer Gang befindest.
+- **AUSLOGGEN** : loggt dich aus dem Spiel aus.
+
+Auf Profilen anderer Spieler findest du diese Aktionen:
+- **PRIVATE NACHRICHT SENDEN** : verschicke eine private Nachricht an diesen Spieler.
+- **GESCHENK SENDEN** : sende Gegenstände (Caches, Heilgegenstände, Munition, etc.) aus deinem Inventar an andere Spieler. Du kannst keine geheimen Schlüsselfragmente verschicken.
+- **SENDEN SIE KOSMETISCHES GESCHENK** : verschicke kosmetische Cyberware an andere Spieler.
+- **GANG EINLADEN** : lade Spieler in deine Gang ein. Diese Aktion steht nur zur Verfügung, wenn du in deiner Gang die erforderlichen Berechtigungen hast.
+- **ALS FREUND HINZUFÜGEN** : füge Spieler in deine Freundeliste ein. Die Spieler bekommen eine Nachricht, dass du sie als Freund hinzugefügt hast.
+- **GLAUBWÜRDIGKEIT VERGEBEN** : verteile einen Punkt Glaubwürdigkeit an andere Spieler.
+- **MELDE SPIELER** : Melde Spieler an einen Moderator, wenn du dich belästigt fühlst.
+
+Glaubwürdigkeit ist ein Punktesystem, ähnlich der "Karma" Punkte auf Reddit. Es drückt aus, wie hilfreich und vertrauenswürdig Spieler sind. Du kannst nur einen Punkt pro Tag verschicken. Für Glaubwürdigkeitspunkte gibt es keine Obergrenze.
+
+## Typen von Leveln
+
+### Spielerlevel
+
+Das ist die Obergrenze für alle anderen Fàhigkeiten. Dein Spielerlevel erhöht sich duch Kämpfen in Dungeons, Kämpfe mit Gegnern und durch Erfahrungspunkte. Optimal sind deine Level, wenn du alle Fähigkeiten auf deinen Spielerlevel bringst.
+
+### 3D-Druck Fähigkeit
+
+Bestimmt, welche Ausrüstung du im 3D Molekularen Drucker herstellen kannst. Du verbesserst deine 3D-Druck Fähigkeit beim Drucken von Ausrüstung, durch die AFK Aufgaben `Reverse Engineere Schrottteile` oder `Arbeiten in der Druckerei`. Diese AFK Aufgaben findest du im Shangri-La Gewerbegebiet.
+
+### Medizinisches Wissen
+Das Herstellen medizinischer Heilmittel und die AFK Aufgabe `Hacke eine Body-Mod-Klinik` im Shangri-La Gewerbegebiet verbessert dein medizinisches Wissen. Je besser dein medizinisches Wissen, um so bessere Heilmittel kannst du herstellen.
+
+### Munitionsherstellung
+Du verbesserst deinen Level in Munitionsherstellung, wenn du Munition herstellst oder wenn du die AFK Aufgabe `Munition verbessern` im Shangri-La Gewerbegebiet annimmst. Je besser dein Level, um so weniger Material verbrauchst du beim Herstellen von Munition.
+
+### Plünderungsfertigkeit
+Du beginnst mit Plündern in den Anfängergebieten (Flori Station, Grandiose Parking Lot 1 - 4). Wenn deine Fähigkeit steigt, kannst du in höheren Gebieten plündern. Die erforderliche Plünderungsfähigkeit ist an den jeweiligen Gebieten angegeben. Höhere Level bringen bessere Beute (Munition, medizinische und militärische Teile). Diese Fähigkeit kann nur durch Plündern verbessert werden.
+
+### Crypto-Mining-Skill
+Schürfen von Bitcoins kannst du nur mit Hilfe von `Hash Prozessoren`. Diese findest du in normalen und herausfordernden Dungeons. Dein Skill steigt mit der AFK Aufgabe `Betreibe Crypto-Mining` im Shangri-La Gewerbegebiet. Mit höherem Crypto-Mining-Skill brauchst du weniger Material beim `KI Kerne` herstellen.
+
+## Stats
+Jeder Spieler hat die folgenden Werte (Stats). Hat deine Ausrüstung und deine Upgrade Module keins dieser Attribute, wird der Wert nicht angezeigt.  
+
+### Maximale Gesundheit
+Die maximale Gesundheit deiner Spielfigur. Wird bestimmt durch deine Ausrüstung und deine Upgrade Module.
+  
+### Rüstung
+Deine Rüstung. Der Schaden im Kampf wird um deine Rüstung verringert.
+  
+### Gesundheitsregeneration
+Deine Gesundheit verbessert sich nach jedem Kampf im Dungeon um diesen Wert. 
+
+### Schaden (dmg)
+Der Schaden den du im Kampf verursachst. Zu diesem Wert addiert sich der Schaden, den deine Ausrüstung und deine Upgrade Module verursachen.  
+  
+### Kritische Trefferchance
+Die Wahrscheinlichkeit für einen kritischen Treffer. Der Maximalwert ist 70%.  
+  
+### Kritischer Schaden (crit)
+Der Faktor für den Schaden durch einen kritischen Treffer. Der Maximalwert is 200% (doppelter Schaden).  
+
+### Schildkapazität
+Deine Schildkapazität. Bevor deine Gesundheit durch einen Treffer sinkt, wird erst dein Schild verringert.
  
-### Max Health
-The maximum health that the player has. Determined by player equipment and equipment upgrades.  
-  
-### Armor
-The armor that the player has. It reduces damage taken by that specified amount.  
-  
-### Health Regen
-Health regenerated after a battle in a dungeon. 
-   
-### Damage (dmg)
-The total damage the player deals. Your damage is calculated by adding up the damage modifiers given by equipment and equipment upgrades.  
-  
-### Crit Chance
-The chance of the player critically striking when attacking. The max crit chance is 70%.  
-  
-### Crit Damage
-The multiplier to your damage when critically striking. The max crit damage multiplier is 200%.  
-  
-### Escape
-The chance of escaping from an enemy encounter. The max escape chance is 80%.  
-  
-### Stun Chance
-The chance of stunning an enemy. If an enemy is stunned, they cannot perform a response action during that turn. The max stun chance is 20%.  
-  
-### Evade
-The chance of evading an enemy attack, taking no damage. The max evade chance is 40%.  
-  
-### Bargain
-The percentage the price is discounted or increased when buying or selling from the mart. The max bargain percentage is 40%.  
-  
-### Pocket
-The amount of additional inventory space. The max additional pocket space is 128.  
-  
-### Damage Multiplier
-A percent multiplier to attacks. The max multiplier is 40%.  
-  
-### Defence Multiplier
-A percent multiplier to your armor. The max multiplier is 40%.  
-  
-### Stun Evade
-The chance of evading an enemy stun. The max chance is 40%.  
-  
-### Shield Multiplier
-A percent multiplier to your shield. The max multiplier is 40%.  
+### Feilschen
+Die Preise beim Verkaufen/Kaufen bei NPCs wird um diesen Faktor erhöht bzw. verringert. Der Maximalwert ist 40%.
 
-### Healing Multiplier
-A percent multiplier to heals received from healing items. The max multiplier is 100%.
+### Betäubungschance
+Die Chance, einen Gegner zu betäuben. Ein betäubter Gegner setzt für diese Runde aus. Die maximale Chance ist 20%.  
+  
+### Ausweichen
+Die Chance, einem Angriff auszuweichen. Wenn du ausweichst, wird deiner Gesundheit kein Schaden abgezogen. Die maximale Chance ist 40%.
 
-### Time Reduction
-A percent multiplier for how much time is reduced during AFK activities. The max time reduction is 80%.
+### Fliehen
+Die Chance für erfolgreiches Fliehen in einem Kampf. Die maximale Chance ist 80%.
 
-### Experience Multiplier
-A percent multiplier showing how much EXP you can additionally gain. The max multiplier is 80%.
+### Tasche
+Die Anzahl zusätzlicher Plätze in deinem Inventar. Der Maximalwert ist 128.
 
-### BitCoin (BTC) Multiplier
-A percent multiplier showing how much BitCoin you can additionally gain. The max multiplier is 100%.
+### Gang (Plünderer/Bestialisch/Voodoo) Nemesis
+Die feindliche Gang, bei der du mehr Schaden verursachst. Der maximale Faktor ist 10%.
 
-### Gang Nemesis
-Current Enemy Gang's affection that'll increase their damage against you. The max multiplier is 10%.
-
-### Mark
-Current Mark thats assigned to your charatcer. This Mark will affect your damage against specific Enemy Gang. The max multiplier is 10%.
+### Ausrüstungstyp (Provisorisch/Unterbrecher/Tödlich)
+Bestimmt die feindliche Gang, die gegen dich mehr Schaden verursacht. Der maximale Faktor ist 10%.
