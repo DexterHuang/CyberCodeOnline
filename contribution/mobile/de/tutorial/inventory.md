@@ -1,34 +1,34 @@
-# Inventory
-You can access your **Inventory** by clicking the option at the bottom menu bar. In your inventory, you can see all items that you own, ranging from **Equipment** (which also includes **Upgrade Modules** and **Equipment Caches**), **Ammo**, **Medical Items**, **Crafting Ingredients**, **Key Fragment / Secret Keys**, **Global Boost**, and other consumables. By clicking on the item, you can see the details and lores of that item respectively.
+# Inventar
+Gehe im Spiel unten auf **Inventar**, um dein Inventar anzuzeigen. Hier siehst du alle Gegenstände, die du besitzt. Es gibt **Ausrüstung** (dazu gehören **Upgrade Module** und **Caches**), **Munition**, **Heilgegenstände**, **Materialien**, **Schlüsselfragmente / Geheime Schlüssel**, **Globale Verbesserungen** und sonstige Verbrauchsgegenstände. Details und Hintergrundwissen zu einem Gegenstand im Inventar siehst du, wenn du auf den Gegenstand gehst.
 
-Explanation about item / resources, can be found on [Resource's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md)
+Weitere Infos zu wichtigen Gegenständen findest du im [Ressourcen Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md)
 
 
-## Functionality on Inventory
-Here's a few tips that players can utilize around inventory feature, as follows:
+## Funktionen im Inventar
+Hier einige Hinweise zu den Features deines Inventars:
 
-> By clicking the icons above your inventory list, you can filter out specific items. This option ranged from alphabetical sort up to item filter.
+> Die Icons oben im Inventar filtern deine Gegenstände und zeigen nur die gewählte Kategorie.
 
-> You will start with 50 inventory slots; equipping **Backpack** or gear / upgrade modules with **pocket** stat will give you more inventory space. 
+> Zu Beginn des Spiels hast du 50 Plätze im Inventar. Rüste **Trageausrüstung** aus, oder verwende Ausrüstung und Module mit dem Zusatz **Tasche** für mehr Plätze. 
 
-> To get rid of equipment and upgrade modules, you can click on the item itself and then on the **Scrap** button. Alternatively, you can hold click on one item, select every item you want to scrap, then press the **Scrap** button that will appear at the top left of the item list. 
+> Um Ausrüstung oder Module loszuwerden, gehe auf **Verschrotten**. Alternativ kannst du durch langes Drücken auf einen Gegenstand die Mehrfachauswahl aktivieren - wähle dann eine Reihe von Gegenständen und anschließend **Verschrotten**. 
 
-> There's a dedicated **Auto Scrap** button which players can find by clicking the dropdown button on the right side of the filter icon. Auto Scrap will only be scrapping Common or Trash rarity gear while ignoring any Upgrade Module of any rarity.
+> Es gibt eine Funktion **Automatisches Verschrotten**. Gehe auf den Pfeil neben den Icons oben, dann erscheint die Funktion. Automatisch verschrottet wird nur Ausrüstung der Stufen "Schrott" und "Gewöhnlich". Upgrade Module werden dabei nie verschrottet, egal welche Stufe sie haben.
 
-> Every item that the player can scrap will yield **Tech Scrap** in return. However, some item does give you other items such as **Medical Tech Parts** (which can only be gained by scrapping **Pain Away**) or **Ammunition Tech Parts** (which can only be gained by scrapping either **Anti Matter Charge** or **Energy Cell**). Not only that, some items (such as Pain Away and **Equipment Caches**) aren't guaranteed to yield either Tech Scrap or Med Tech, with a 50% chance to yield one.
+> Die meisten Gegenstände, die du verschrottest, liefern **Technikschrott**. Manche Gegenstände liefern die zugrundeliegenden Materialien - **Medizinisches Technologieteil** (beim Verschrotten von **Pain Away**) oder **Militärische Munitionsteile** (beim Verschrotten von **Antimaterie Ladung** oder **Energiezelle**). Bei einigen Gegenständen gibt es nur eine Chance von 50% auf ein entstehendes Material (z.B. **Pain Away** und **Caches**).
 
-> To get rid of other items that are not scrappable, you can click on the **Destroy** button. Destroyed items will not give you anything in return, so be cautious when performing this action.  
+> Gegenstände, die sich nicht verschrotten lassen, wirst du mit der Funktion **Zerstören** los. Zerstörte Gegenstände sind dauerhaft entfernt und hinterlassen kein Material. Verwende die Funktion daher mit Vorsicht!  
 
-## Item Inbox
-Items that other players send (or sent back from **Player Market** & claimed from **Daily Reward**) will automatically be placed in your **Item Inbox**. Once you have enough space in your inventory, they will be moved automatically to your inventory by clicking **Get All Items** option. Keep in mind that items stored in Item Inbox will expire in 7 days if not claimed. 
+## Postfach
+Gegenstände von anderen Spielern oder aus der täglichen Belohnung landen automatisch in deinem **Postfach**. Wenn du genug freie Plätze im Inventar hast, kannst du sie mit der Funktion **alle Gegenstände nehmen** abholen. Achtung - die Gegenstände in deinem Postfach werden nach 7 Tagen zerstört, wenn du sie nicht abholst. 
 
-## Crafting
-Crafting allows you to craft different types of items such as **Medicine**, **Ammo**, **Item Ingredient**, and other consumables (such as **Hash Processor** and **AI Core**).  
+## Herstellen
+Im Bereich **Herstellen** kannst du verschiedene Gegenstände produzieren. Dazu gehören **Medizin**, **Munition** und **Material**, z.B. **Hash Prozessor** und **KI Kern**.
 
-On Medical Tab, most heal item relies on **Medical Tech Parts** and **Medical Science Level** to craft one. For example, to craft 4 Nano Medic Bot, players need to have 8 Medical Tech Parts while also on a Medical Science level 30 (or higher). Some heal items will also require **Tech Scrap** in order to make a **Medical Drone** version of it. For example, in order to make Nano Medic Drone, players must have both Nano Medic Bot and Tech Scrap on their inventory (while also on a Medical Science level 40 (or higher)). 
+Die Herstellung von Heilgegenständen basiert auf dem Material **Medizinisches Technologieteil** und auf deinem Level in **Medizinisches Wissen**. Wenn du beispielsweise 4 **Nano Medizin Bot** herstellen willst, brauchst du 8 **Medizinische Technologieteile** und mindestens einen Level von 30 in **Medizinisches Wissen**. Manche Heilgegenstände brauchen zusätzlich **Technikschrott**, um auf **Medizinische Drohne** upzugraden. So brauchst du zum Beispiel für eine **Nano Medizin Drohne** sowohl einen **Nano Medizin Bot**, als auch **Technikschrott** (und natürlich den erforderlichen Level **Medizinisches Wissen**, in diesem Beispiel mindestens 40). 
 
-On Ammo Tab, each ammo requires a different ingredient to craft. For **Energy Cells**, a player must have **Ammunition Tech Parts** to make one, and as for **Anti Matter Charge**, plater must have **Military Ammunition Tech Parts**. Players can also make Military Ammunition Tech Parts by combining a minimum of 20 Ammunition Tech Parts to make one. Since there are only two types of ammo, the role of **Ammo Crafting Skill** revolves around the ammo quantity that the player can get per 10 levels. For example, on Ammo Crafting Level 20, players can get 3 Energy Cells for every 1 Ammunition Tech Parts (3:1 ratio), and by level 30, players will get 1 more Energy Cells with the same amount of Ammunition Tech Parts. The same case applies to making Anti Matter Charge.   
+Im Bereich **Munition** stellst du aus Materialien verschiedene Arten Munition her. Für **Energiezelle** brauchst du beispielsweise **Munitionsteil**, und für **Antimaterie Ladung** werden **Militärische Munitionsteile** gebraucht. Du kannst selbst fortgeschrittene Materialien aus einfachen herstellen. Kombiniere 20 **Munitionsteil** zu einem **Militärisches Munitionsteil**. Die Menge an Material verringert sich, je besser dein Level in **Munitionsherstellung** wird. Alle 10 Level brauchst du weniger Material. Mit Level 20 bekommst du zum Beispiel 3 Energiezellen für ein Munitionsteil (3:1 Ratio), mit Level 30 sind es schon 4 Zellen (4:1 Ratio). Das gilt analog auch für die Herstellung von **Antimaterie Ladung**.   
 
-On Material Tab, players can craft **Hash Processor** and **AI Core** for their needs. Specifically for AI Core, it is advisable for players to level up their Mining Skills to level 190 first to get an even crafting rate (20 Hash Processor : 20 AI Core) as lower-level AI crafting aren't profitable while consuming even more ingredient than it's needed. This doesn't apply to Hash Processor crafting as it's always at the same rate.  
+Im Bereich **Material** kannst du **Hash Prozessor** und **KI Kerne** herstellen. Es empfiehlt sich, deine **Crypto-Mining-Fähigkeit** auf Level 190 zu entwickeln, dann hast du ein Ratio von 1:1 und brauchst für einen **KI Kern** nur einen **Hash Prozessor**. Mit kleineren Leveln ist es eher unrentabel, diese Gegenstände herzustellen - du wirst mehr Material einsetzen, als das Ergebnis wert ist. Das Herstellen von **Hash Prozessor** kostet dagegen immer gleich viel Material, unabhängig von deiner **Crypto-Mining-Fähigkeit**.
 
-In summary, as you level up the relevant skills (Medical Science, Ammo Crafting, and Mining Skill), you will unlock new recipes and become more proficient, allowing you to craft more and better items.
+Generell gilt: je besser deine Fähigkeitslevel werden - **Medizinisches Wissen**, **Crypto-Mining** und **Munitionsherstellung**, desto mehr und bessere Dinge kannst du herstellen, und das Herstellen wird günstiger sein und mehr Gegenstände produzieren.
