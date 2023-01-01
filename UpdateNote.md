@@ -25,6 +25,15 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates           
+### 2023/01/01
+- Lunar New Year Event Update
+  - Added new NPC Luna, you can find her in Yen's corner store in Market district, she sell 3 new items, `Rice Cake`, `Sushi` and `Dumplings`, additionaly she also sells `Legendary Locked Container`, all of which is changable with `Gold Coins`
+  - Added new item `Red Envelop`, you can open it from your inventory to receive randome amount of `Gold Coins` range from 1 to 500 coins
+  - Added bundle system, and 4 bundles, one of which can be claimed for free once a day
+  - Added two new chat frames
+  - Fixed several security issues
+  - fixed market slot upgrade issue
+
 ### 2022/12/19
 - Combat UI update
 - Added global buff display in dungeon, and updated the UI
