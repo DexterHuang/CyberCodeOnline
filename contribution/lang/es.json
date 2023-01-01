@@ -247,6 +247,16 @@
  	 	 	 	 	"eng": "How much would you like to withdraw?"
  	 	 	 	}
  	 	 	},
+ 	 	 	"upgradeVaultModal": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Actualizar la bóveda",
+ 	 	 	 	 	"eng": "Upgrade Vault"
+ 	 	 	 	},
+ 	 	 	 	"confirm": {
+ 	 	 	 	 	"trans": "Mejora",
+ 	 	 	 	 	"eng": "Upgrade"
+ 	 	 	 	}
+ 	 	 	},
  	 	 	"noBalance": {
  	 	 	 	"trans": "No puedes retirar si no tienes dinero en tu cuenta.",
  	 	 	 	"eng": "You can't withdraw when you have no balance."
@@ -708,12 +718,9 @@
  	 	 	 	"trans": "Desbloquear contenedor",
  	 	 	 	"eng": "Unlock Container"
  	 	 	},
- 	 	 	"cantOpenContainerNotIdle": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"currentAction"
- 	 	 	 	],
- 	 	 	 	"trans": "Desbloquear contenedores mientras ${currentAction}",
- 	 	 	 	"eng": "You unlock containers while ${currentAction}"
+ 	 	 	"cantOpenContainerNotIdleV2": {
+ 	 	 	 	"trans": "No puedes desbloquear contenedores en este momento",
+ 	 	 	 	"eng": "You cannot unlock containers while right now"
  	 	 	}
  	 	},
  	 	"itemDetails": {
@@ -1686,6 +1693,12 @@
  	 	 	 	"eng": "Drag all processes icons into to the red box entirely to initiate the task"
  	 	 	}
  	 	},
+ 	 	"confirmModal": {
+ 	 	 	"defaultConfirm": {
+ 	 	 	 	"trans": "Confirmar",
+ 	 	 	 	"eng": "Confirm"
+ 	 	 	}
+ 	 	},
  	 	"cosmeticSetting": {
  	 	 	"emblems": {
  	 	 	 	"title": {
@@ -2026,6 +2039,20 @@
  	 	 	 	"eng": "Get All Items"
  	 	 	}
  	 	},
+ 	 	"linksPage": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Enlaces",
+ 	 	 	 	"eng": "Links"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "¡Aquí puede encontrar todos nuestros enlaces de redes sociales, ven y conéctese con la increíble comunidad!",
+ 	 	 	 	"eng": "Here you can find all our social media links, come and connect with the amazing community!"
+ 	 	 	},
+ 	 	 	"reportBug": {
+ 	 	 	 	"trans": "Reportar un error",
+ 	 	 	 	"eng": "Report a bug"
+ 	 	 	}
+ 	 	},
  	 	"linkPage": {
  	 	 	"forum": {
  	 	 	 	"trans": "Foro Oficial.",
@@ -2310,6 +2337,79 @@
  	 	 	"unlock": {
  	 	 	 	"trans": "Desbloquear",
  	 	 	 	"eng": "Unlock"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"bundle": {
+ 	 	"alreadyPurchased": {
+ 	 	 	"vars": [
+ 	 	 	 	"time"
+ 	 	 	],
+ 	 	 	"trans": "Disponible nuevamente en ${time}",
+ 	 	 	"eng": "Available again in ${time}"
+ 	 	},
+ 	 	"free": {
+ 	 	 	"trans": "Gratis",
+ 	 	 	"eng": "Free"
+ 	 	},
+ 	 	"luna": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Regalo de Neon Moon",
+ 	 	 	 	"eng": "Neon moon gift"
+ 	 	 	}
+ 	 	},
+ 	 	"skip": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Saltar el paquete de suministros",
+ 	 	 	 	"eng": "Skip supply bundle"
+ 	 	 	}
+ 	 	},
+ 	 	"cali": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Paquete de calibración (200%)",
+ 	 	 	 	"eng": "Calibration bundle (200%)"
+ 	 	 	}
+ 	 	},
+ 	 	"cycle": {
+ 	 	 	"daily": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "Diaria",
+ 	 	 	 	 	"eng": "Daily"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Disponible una vez al día",
+ 	 	 	 	 	"eng": "Available once a day"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"weekly": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "Semanalmente",
+ 	 	 	 	 	"eng": "Weekly"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Disponible una vez a la semana",
+ 	 	 	 	 	"eng": "Available once a week"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"monthly": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "Mensual",
+ 	 	 	 	 	"eng": "Monthly"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Disponible una vez al mes",
+ 	 	 	 	 	"eng": "Available once a month"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"once": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "Una vez",
+ 	 	 	 	 	"eng": "Once"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Especial por cuenta de una sola vez",
+ 	 	 	 	 	"eng": "One-time special per account"
+ 	 	 	 	}
  	 	 	}
  	 	}
  	},
@@ -2768,6 +2868,12 @@
  	 	 	 	"eng": "Additional epic drop chance from containers"
  	 	 	}
  	 	},
+ 	 	"containerLegendaryDrop": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Oportunidad legendaria",
+ 	 	 	 	"eng": "Legendary Chance"
+ 	 	 	}
+ 	 	},
  	 	"m1Dmg": {
  	 	 	"name": {
  	 	 	 	"trans": "Némesis Salvaje",
@@ -2837,6 +2943,43 @@
  	 	 	 	],
  	 	 	 	"trans": "Tiempo de dispositivo inexacto (diferencia de tiempo: ${diff}). Para garantizar las características del juego como Buff, Time Skip y AFK Task se muestran correctamente. Sincrita el tiempo de su dispositivo con la red y asegúrese de que su zona de tiempo esté configurada correctamente",
  	 	 	 	"eng": "Inaccurate device time (time difference: ${diff}). to ensure game features such as buff, time skip and AFK Task display correctly. Please sync your device time with network and ensure your time-zone is set correctly"
+ 	 	 	}
+ 	 	},
+ 	 	"duration": {
+ 	 	 	"years": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"years"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${years} años",
+ 	 	 	 	"eng": "${years} years"
+ 	 	 	},
+ 	 	 	"days": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"days"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${days} días",
+ 	 	 	 	"eng": "${days} days"
+ 	 	 	},
+ 	 	 	"hours": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"hours"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${hours} horas",
+ 	 	 	 	"eng": "${hours} hours"
+ 	 	 	},
+ 	 	 	"minutes": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"minutes"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${minutes} minutos",
+ 	 	 	 	"eng": "${minutes} minutes"
+ 	 	 	},
+ 	 	 	"seconds": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"seconds"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${seconds} segundos",
+ 	 	 	 	"eng": "${seconds} seconds"
  	 	 	}
  	 	}
  	},
@@ -3086,6 +3229,12 @@
  	 	"abandonConfirm": {
  	 	 	"trans": "¿Desea abandonar esta Misión?",
  	 	 	"eng": "Are you sure you want to abandon this quest?"
+ 	 	}
+ 	},
+ 	"priceTag": {
+ 	 	"free": {
+ 	 	 	"trans": "GRATIS",
+ 	 	 	"eng": "FREE"
  	 	}
  	},
  	"sessionClosedScreen": {
@@ -3428,6 +3577,14 @@
  	 	"donation13": {
  	 	 	"trans": "Ciberfrost",
  	 	 	"eng": "CyberFrost"
+ 	 	},
+ 	 	"donation14": {
+ 	 	 	"trans": "Ciberdágico",
+ 	 	 	"eng": "Cyberdragon"
+ 	 	},
+ 	 	"donation15": {
+ 	 	 	"trans": "Prestigio",
+ 	 	 	"eng": "Prestige"
  	 	},
  	 	"moderator": {
  	 	 	"trans": "Moderador",
@@ -3930,6 +4087,86 @@
  	 	 	 	 	"eng": "More coming in future update"
  	 	 	 	}
  	 	 	}
+ 	 	},
+ 	 	"donation14": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "Título de donación \"Cyberdragon\"",
+ 	 	 	 	 	"eng": "\"Cyberdragon\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "Desbloquear la personalización de la imagen del perfil",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Marco de chat de año nuevo lunar (con animación)",
+ 	 	 	 	 	"eng": "Lunar new year chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Perfil enmarcado de Año Nuevo Lunar (con animación)",
+ 	 	 	 	 	"eng": "Lunar new year Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "Desbloquear biografía personalizada",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Decoración del dragón en el perfil",
+ 	 	 	 	 	"eng": "Dragon decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "Personalizar el lema de pandillas",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Personalizar la imagen de las pandillas",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Más llegando en la actualización futura",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation15": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "Título de la donación de \"prestigio\"",
+ 	 	 	 	 	"eng": "\"Prestige\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "Desbloquear la personalización de la imagen del perfil",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Marco de chat verde neón (con animación)",
+ 	 	 	 	 	"eng": "Neon green chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Perfil enmarcado de Neon Green (con animación)",
+ 	 	 	 	 	"eng": "Neon green Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "Desbloquear biografía personalizada",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Decoración de código de barras en el perfil",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "Personalizar el lema de pandillas",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Personalizar la imagen de las pandillas",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Más llegando en la actualización futura",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
  	 	}
  	},
  	"equipmentMarks": {
@@ -3999,6 +4236,12 @@
  	 	}
  	},
  	"item": {
+ 	 	"unknownEquipment": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Equipo desconocido",
+ 	 	 	 	"eng": "Unknown Equipment"
+ 	 	 	}
+ 	 	},
  	 	"aiCore": {
  	 	 	"name": {
  	 	 	 	"trans": "Núcleo de IA",
@@ -4748,6 +4991,52 @@
  	 	 	 	"eng": "While shard is active all players can choose to start certain AFK tasks in Boost Mode™, gaining ${rewardMult}x reward while increasing cost and duration by ${costMult}x. \\n* This item is still beta and subject to balance change, please use immediately after purchase *"
  	 	 	}
  	 	},
+ 	 	"newYear": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Sobre rojo",
+ 	 	 	 	"eng": "Red Envelope"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Un sobre rojo con un sello digital dorado. Parece que contiene algún tipo de moneda",
+ 	 	 	 	"eng": "A red envelope with a golden digital seal on it. looks like it contains some sort of currency"
+ 	 	 	}
+ 	 	},
+ 	 	"lunarCoin": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Moneda de oro",
+ 	 	 	 	"eng": "Golden Coin"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Una moneda dorada con un grabado de un dragón. La moneda física es muy rara de ver en estos días, debería poder comprar algo bueno en el distrito del mercado",
+ 	 	 	 	"eng": "A golden coin with a engraving of a dragon on it. physical currency is very rare to see these days, should be able to buy something good with it in the market district"
+ 	 	 	}
+ 	 	},
+ 	 	"dumplings": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Albóndigas",
+ 	 	 	 	"eng": "Rice Cake"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"percent"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Estas albóndigas son diferentes a cualquier otra. Hecho con amor y cuidado por yen, estos deliciosos bolsillos de bondad están llenos de los mejores ingredientes y cocinados a la perfección. \\ N Recuperar ${percent}% de salud tras el consumo",
+ 	 	 	 	"eng": "sticky and sweet rice cake is a traditional Lunar New Year food and is believed to bring good luck and prosperity.\\n recover ${percent}% shield upon consumption"
+ 	 	 	}
+ 	 	},
+ 	 	"sushi": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Sushi",
+ 	 	 	 	"eng": "Sushi"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"percent"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Hecho con amor y cuidado por yen. comida deliciosa y nutritiva que le otorgará al jugador -${percent}% de daño tomado durante 20 minutos cuando se come. Perfecto para abordar desafíos difíciles y conquistar enemigos difíciles, el sushi de Yen es imprescindible para cualquier aventurero.",
+ 	 	 	 	"eng": "Made with love and care by Yen. delicious and nourishing meal that will grant the player -${percent}% damage taken for 20 minutes when eaten. Perfect for tackling tough challenges and conquering difficult foes, Yen\\'s sushi is a must - have for any adventurer."
+ 	 	 	}
+ 	 	},
  	 	"experienceShard": {
  	 	 	"name": {
  	 	 	 	"vars": [
@@ -4798,6 +5087,10 @@
  	 	 	 	"eng": "A ${typeName} cache contains information used for Molecular 3D Printing, \r\n                    You can create a ${typeName} with the [Molecular 3d Printer] at [Central Hub].\r\n                    \r\n                    Pro tip: The level of item you get from printing is determined by your Printing Rank,\r\n                    so always print the trash ones first, as they cost less and useful to level up your Printing Rank"
  	 	 	}
  	 	}
+ 	},
+ 	"foodUseVerb": {
+ 	 	"trans": "Consumir",
+ 	 	"eng": "Consume"
  	},
  	"levelType": {
  	 	"normal": {
@@ -5225,6 +5518,24 @@
  	 	 	 	"eng": "Zero"
  	 	 	}
  	 	},
+ 	 	"lunar": {
+ 	 	 	"defaultLines": {
+ 	 	 	 	"trans": [
+ 	 	 	 	 	"Welcome, our family is always excited to help you find the perfect tech gear."
+ 	 	 	 	],
+ 	 	 	 	"eng": [
+ 	 	 	 	 	"Welcome, our family is always excited to help you find the perfect tech gear."
+ 	 	 	 	]
+ 	 	 	},
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Tienda de la esquina de Yen",
+ 	 	 	 	"eng": "Yen's Corner Store"
+ 	 	 	},
+ 	 	 	"npcName": {
+ 	 	 	 	"trans": "Luna",
+ 	 	 	 	"eng": "Luna"
+ 	 	 	}
+ 	 	},
  	 	"recycleMachine": {
  	 	 	"name": {
  	 	 	 	"trans": "Recicladora automática",
@@ -5611,6 +5922,12 @@
  	 	 	"name": {
  	 	 	 	"trans": "Contenedor legendario bloqueado",
  	 	 	 	"eng": "Locked Legendary Container"
+ 	 	 	}
+ 	 	},
+ 	 	"lunarLoot": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Sobre rojo",
+ 	 	 	 	"eng": "Red Envelope"
  	 	 	}
  	 	},
  	 	"ammo1": {
@@ -6202,6 +6519,13 @@
  	 	 	"trans": "No hay espacio suficiente en tu inventario para comprar este objeto.",
  	 	 	"eng": "You have no space in your inventory to purchase this item"
  	 	},
+ 	 	"noEnoughExchangeItem": {
+ 	 	 	"vars": [
+ 	 	 	 	"itemName"
+ 	 	 	],
+ 	 	 	"trans": "No tienes suficiente ${itemName} para comprar este artículo",
+ 	 	 	"eng": "You have no enough ${itemName} to purchase this item"
+ 	 	},
  	 	"noEnoughMoney": {
  	 	 	"vars": [
  	 	 	 	"CURRENCY"
@@ -6229,6 +6553,14 @@
  	 	 	 	],
  	 	 	 	"trans": "Precio total: ${totalPrice} ${CURRENCY}",
  	 	 	 	"eng": "Total price: ${totalPrice} ${CURRENCY}"
+ 	 	 	},
+ 	 	 	"exchangeItemPriceDisplay": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"amount",
+ 	 	 	 	 	"itemName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Total: ${amount} ${itemName}",
+ 	 	 	 	"eng": "Total: ${amount} ${itemName}"
  	 	 	}
  	 	}
  	},
@@ -6561,6 +6893,35 @@
  	 	 	]
  	 	}
  	},
+ 	"bundleDetailsModal": {
+ 	 	"bundle": {
+ 	 	 	"trans": "paquete",
+ 	 	 	"eng": "bundle"
+ 	 	},
+ 	 	"description": {
+ 	 	 	"trans": "Contiene",
+ 	 	 	"eng": "Contains"
+ 	 	},
+ 	 	"alreadyPurchased": {
+ 	 	 	"vars": [
+ 	 	 	 	"time"
+ 	 	 	],
+ 	 	 	"trans": "Disponible nuevamente en ${time}",
+ 	 	 	"eng": "Available again in ${time}"
+ 	 	},
+ 	 	"freeButton": {
+ 	 	 	"text": {
+ 	 	 	 	"trans": "Reclamación gratis",
+ 	 	 	 	"eng": "Claim for free"
+ 	 	 	}
+ 	 	},
+ 	 	"purchaseButton": {
+ 	 	 	"text": {
+ 	 	 	 	"trans": "Compra",
+ 	 	 	 	"eng": "Purchase"
+ 	 	 	}
+ 	 	}
+ 	},
  	"createClanModal": {
  	 	"gangNameInput": {
  	 	 	"title": {
@@ -6637,6 +6998,46 @@
  	 	"desc3": {
  	 	 	"trans": "¡Durante Halloween, un nivel de donación de chat de Cyber-Murciélago estará disponible por tiempo limitado!",
  	 	 	"eng": "During Halloween, a time limited cyber-bat chat donation tier will be available!"
+ 	 	}
+ 	},
+ 	"lunarPromo": {
+ 	 	"title": {
+ 	 	 	"trans": "¡Feliz Año Nuevo Lunar!",
+ 	 	 	"eng": "Happy Lunar New year!"
+ 	 	},
+ 	 	"desc1": {
+ 	 	 	"trans": "El Año Nuevo Lunar está aquí, y estamos celebrando en Shang-Ri-La con un evento especial. Únase a nosotros mientras abrazamos el comienzo de un nuevo año, lleno de tradiciones, alegría y unión.",
+ 	 	 	"eng": "The lunar new year is here, and we're celebrating in Shang-ri-la with a special event. Join us as we embrace the start of a new year, filled with traditions, joy, and togetherness."
+ 	 	},
+ 	 	"desc2": {
+ 	 	 	"vars": [
+ 	 	 	 	"npcShopName",
+ 	 	 	 	"coinItem",
+ 	 	 	 	"llcName",
+ 	 	 	 	"npcName"
+ 	 	 	],
+ 	 	 	"trans": "¡${npcShopName} ahora está abierto para negocios! ¡Puede usar ${coinItem} para comprar varias cocinas especiales y ${llcName} de ${npcName}!",
+ 	 	 	"eng": "${npcShopName} is now open for business! You can use ${coinItem} to purchase various special cuisines and ${llcName} from ${npcName}!"
+ 	 	},
+ 	 	"desc3": {
+ 	 	 	"vars": [
+ 	 	 	 	"envelopItem",
+ 	 	 	 	"coinItem"
+ 	 	 	],
+ 	 	 	"trans": "¡No es un año nuevo si ${envelopItem} no está involucrado! Enemigos y AI Core Auto Farm dejarán caer ${envelopItem}, ¡abrirlos para recibir una cantidad aleatoria de ${coinItem}!",
+ 	 	 	"eng": "It's not new year if ${envelopItem} is not involved! Enemies and AI Core auto farm will drop ${envelopItem}, open them to receive random amount of ${coinItem}!"
+ 	 	},
+ 	 	"desc4": {
+ 	 	 	"vars": [
+ 	 	 	 	"envelopItem",
+ 	 	 	 	"npcShop"
+ 	 	 	],
+ 	 	 	"trans": "¡Ahora puede recibir 3 ${envelopItem} en ${npcShop} todos los días!",
+ 	 	 	"eng": "You can now receive 3 free ${envelopItem} in ${npcShop} every day!"
+ 	 	},
+ 	 	"desc5": {
+ 	 	 	"trans": "Se agregó dos nuevos tiempos y emblemas limitados, solo comprables durante el período del evento.",
+ 	 	 	"eng": "Added two new time limited chat frame and emblems, only purchasable during event period."
  	 	}
  	},
  	"referralPromo": {

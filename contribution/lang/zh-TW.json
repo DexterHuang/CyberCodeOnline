@@ -247,6 +247,16 @@
  	 	 	 	 	"eng": "How much would you like to withdraw?"
  	 	 	 	}
  	 	 	},
+ 	 	 	"upgradeVaultModal": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "升級保險庫",
+ 	 	 	 	 	"eng": "Upgrade Vault"
+ 	 	 	 	},
+ 	 	 	 	"confirm": {
+ 	 	 	 	 	"trans": "升級",
+ 	 	 	 	 	"eng": "Upgrade"
+ 	 	 	 	}
+ 	 	 	},
  	 	 	"noBalance": {
  	 	 	 	"trans": "當你沒有餘額時，你不能進行提款。",
  	 	 	 	"eng": "You can't withdraw when you have no balance."
@@ -708,12 +718,9 @@
  	 	 	 	"trans": "解鎖容器",
  	 	 	 	"eng": "Unlock Container"
  	 	 	},
- 	 	 	"cantOpenContainerNotIdle": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"currentAction"
- 	 	 	 	],
- 	 	 	 	"trans": "您在${currentAction}時解鎖容器",
- 	 	 	 	"eng": "You unlock containers while ${currentAction}"
+ 	 	 	"cantOpenContainerNotIdleV2": {
+ 	 	 	 	"trans": "您現在無法解鎖容器",
+ 	 	 	 	"eng": "You cannot unlock containers while right now"
  	 	 	}
  	 	},
  	 	"itemDetails": {
@@ -1686,6 +1693,12 @@
  	 	 	 	"eng": "Drag all processes icons into to the red box entirely to initiate the task"
  	 	 	}
  	 	},
+ 	 	"confirmModal": {
+ 	 	 	"defaultConfirm": {
+ 	 	 	 	"trans": "確認",
+ 	 	 	 	"eng": "Confirm"
+ 	 	 	}
+ 	 	},
  	 	"cosmeticSetting": {
  	 	 	"emblems": {
  	 	 	 	"title": {
@@ -2026,6 +2039,20 @@
  	 	 	 	"eng": "Get All Items"
  	 	 	}
  	 	},
+ 	 	"linksPage": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "鏈接",
+ 	 	 	 	"eng": "Links"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "在這裡，您可以找到我們所有的社交媒體鏈接，來與驚人的社區建立聯繫！",
+ 	 	 	 	"eng": "Here you can find all our social media links, come and connect with the amazing community!"
+ 	 	 	},
+ 	 	 	"reportBug": {
+ 	 	 	 	"trans": "報告一個錯誤",
+ 	 	 	 	"eng": "Report a bug"
+ 	 	 	}
+ 	 	},
  	 	"linkPage": {
  	 	 	"forum": {
  	 	 	 	"trans": "官方論壇",
@@ -2310,6 +2337,79 @@
  	 	 	"unlock": {
  	 	 	 	"trans": "解鎖",
  	 	 	 	"eng": "Unlock"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"bundle": {
+ 	 	"alreadyPurchased": {
+ 	 	 	"vars": [
+ 	 	 	 	"time"
+ 	 	 	],
+ 	 	 	"trans": "在${time}中再次使用",
+ 	 	 	"eng": "Available again in ${time}"
+ 	 	},
+ 	 	"free": {
+ 	 	 	"trans": "免費",
+ 	 	 	"eng": "Free"
+ 	 	},
+ 	 	"luna": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "霓虹禮物",
+ 	 	 	 	"eng": "Neon moon gift"
+ 	 	 	}
+ 	 	},
+ 	 	"skip": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "跳過資源禮包",
+ 	 	 	 	"eng": "Skip supply bundle"
+ 	 	 	}
+ 	 	},
+ 	 	"cali": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "校準禮包（150％）",
+ 	 	 	 	"eng": "Calibration bundle (200%)"
+ 	 	 	}
+ 	 	},
+ 	 	"cycle": {
+ 	 	 	"daily": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "每日",
+ 	 	 	 	 	"eng": "Daily"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "每天可用一次",
+ 	 	 	 	 	"eng": "Available once a day"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"weekly": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "每週",
+ 	 	 	 	 	"eng": "Weekly"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "每週一次",
+ 	 	 	 	 	"eng": "Available once a week"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"monthly": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "每月",
+ 	 	 	 	 	"eng": "Monthly"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "每月一次",
+ 	 	 	 	 	"eng": "Available once a month"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"once": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "單次",
+ 	 	 	 	 	"eng": "Once"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "每個帳號可購買一次",
+ 	 	 	 	 	"eng": "One-time special per account"
+ 	 	 	 	}
  	 	 	}
  	 	}
  	},
@@ -2768,6 +2868,12 @@
  	 	 	 	"eng": "Additional epic drop chance from containers"
  	 	 	}
  	 	},
+ 	 	"containerLegendaryDrop": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "傳奇機會",
+ 	 	 	 	"eng": "Legendary Chance"
+ 	 	 	}
+ 	 	},
  	 	"m1Dmg": {
  	 	 	"name": {
  	 	 	 	"trans": "野獸幫剋星",
@@ -2837,6 +2943,43 @@
  	 	 	 	],
  	 	 	 	"trans": "不准確的設備時間（時間差：${diff}）。 為了確保諸如buff之類的遊戲功能，時間跳過和AFK任務正確顯示。 請將設備時間與網絡同步，並確保正確設置您的時區",
  	 	 	 	"eng": "Inaccurate device time (time difference: ${diff}). to ensure game features such as buff, time skip and AFK Task display correctly. Please sync your device time with network and ensure your time-zone is set correctly"
+ 	 	 	}
+ 	 	},
+ 	 	"duration": {
+ 	 	 	"years": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"years"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${years}年",
+ 	 	 	 	"eng": "${years} years"
+ 	 	 	},
+ 	 	 	"days": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"days"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${days}天",
+ 	 	 	 	"eng": "${days} days"
+ 	 	 	},
+ 	 	 	"hours": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"hours"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${hours}小時",
+ 	 	 	 	"eng": "${hours} hours"
+ 	 	 	},
+ 	 	 	"minutes": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"minutes"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${minutes}分鐘",
+ 	 	 	 	"eng": "${minutes} minutes"
+ 	 	 	},
+ 	 	 	"seconds": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"seconds"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${seconds}秒",
+ 	 	 	 	"eng": "${seconds} seconds"
  	 	 	}
  	 	}
  	},
@@ -3086,6 +3229,12 @@
  	 	"abandonConfirm": {
  	 	 	"trans": "你確定要放棄這個任務嗎？",
  	 	 	"eng": "Are you sure you want to abandon this quest?"
+ 	 	}
+ 	},
+ 	"priceTag": {
+ 	 	"free": {
+ 	 	 	"trans": "自由",
+ 	 	 	"eng": "FREE"
  	 	}
  	},
  	"sessionClosedScreen": {
@@ -3428,6 +3577,14 @@
  	 	"donation13": {
  	 	 	"trans": "賽博冰霜",
  	 	 	"eng": "CyberFrost"
+ 	 	},
+ 	 	"donation14": {
+ 	 	 	"trans": "電驅天龍",
+ 	 	 	"eng": "Cyberdragon"
+ 	 	},
+ 	 	"donation15": {
+ 	 	 	"trans": "至尊",
+ 	 	 	"eng": "Prestige"
  	 	},
  	 	"moderator": {
  	 	 	"trans": "聊天管理",
@@ -3930,6 +4087,86 @@
  	 	 	 	 	"eng": "More coming in future update"
  	 	 	 	}
  	 	 	}
+ 	 	},
+ 	 	"donation14": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "“電驅天龍”捐贈標題",
+ 	 	 	 	 	"eng": "\"Cyberdragon\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "解鎖個人資料圖片自定義",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "農曆新年聊天框架（帶有動畫）",
+ 	 	 	 	 	"eng": "Lunar new year chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "農曆新年構架個人資料（帶有動畫）",
+ 	 	 	 	 	"eng": "Lunar new year Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "解鎖自定義生物",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "電驅天龍裝飾",
+ 	 	 	 	 	"eng": "Dragon decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "定制幫派座右銘",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "自定義幫派圖像",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "將來更新會有更多",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation15": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "“聲望”捐贈標題",
+ 	 	 	 	 	"eng": "\"Prestige\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "解鎖個人資料圖片自定義",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "霓虹燈綠色聊天框架（帶有動畫）",
+ 	 	 	 	 	"eng": "Neon green chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "霓虹燈綠色框架配置文件（帶有動畫）",
+ 	 	 	 	 	"eng": "Neon green Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "解鎖自定義生物",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "輪廓上的條形碼裝飾",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "定制幫派座右銘",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "自定義幫派圖像",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "將來更新會有更多",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
  	 	}
  	},
  	"equipmentMarks": {
@@ -3999,6 +4236,12 @@
  	 	}
  	},
  	"item": {
+ 	 	"unknownEquipment": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "未知設備",
+ 	 	 	 	"eng": "Unknown Equipment"
+ 	 	 	}
+ 	 	},
  	 	"aiCore": {
  	 	 	"name": {
  	 	 	 	"trans": "AI核心",
@@ -4748,6 +4991,52 @@
  	 	 	 	"eng": "While shard is active all players can choose to start certain AFK tasks in Boost Mode™, gaining ${rewardMult}x reward while increasing cost and duration by ${costMult}x. \\n* This item is still beta and subject to balance change, please use immediately after purchase *"
  	 	 	}
  	 	},
+ 	 	"newYear": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "紅包",
+ 	 	 	 	"eng": "Red Envelope"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "紅色信封上有金色的數字密封。 看起來它包含某種貨幣",
+ 	 	 	 	"eng": "A red envelope with a golden digital seal on it. looks like it contains some sort of currency"
+ 	 	 	}
+ 	 	},
+ 	 	"lunarCoin": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "金幣",
+ 	 	 	 	"eng": "Golden Coin"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "金幣，上面刻有龍。 現在實體貨幣很少見，應該能夠在市場區購買好東西",
+ 	 	 	 	"eng": "A golden coin with a engraving of a dragon on it. physical currency is very rare to see these days, should be able to buy something good with it in the market district"
+ 	 	 	}
+ 	 	},
+ 	 	"dumplings": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "年糕",
+ 	 	 	 	"eng": "Rice Cake"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"percent"
+ 	 	 	 	],
+ 	 	 	 	"trans": "年糕是傳統的農曆新年食物，據信可以帶來好運和繁榮。",
+ 	 	 	 	"eng": "sticky and sweet rice cake is a traditional Lunar New Year food and is believed to bring good luck and prosperity.\\n recover ${percent}% shield upon consumption"
+ 	 	 	}
+ 	 	},
+ 	 	"sushi": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "壽司",
+ 	 	 	 	"eng": "Sushi"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"percent"
+ 	 	 	 	],
+ 	 	 	 	"trans": "燕用愛與關懷製成。 食用時，將授予玩家的美味和滋養餐 減少${percent}％受傷害20分鐘。 燕的壽司是應對艱難的挑戰並征服困難的敵人的理想之選，是任何冒險家的必備品。",
+ 	 	 	 	"eng": "Made with love and care by Yen. delicious and nourishing meal that will grant the player -${percent}% damage taken for 20 minutes when eaten. Perfect for tackling tough challenges and conquering difficult foes, Yen\\'s sushi is a must - have for any adventurer."
+ 	 	 	}
+ 	 	},
  	 	"experienceShard": {
  	 	 	"name": {
  	 	 	 	"vars": [
@@ -4798,6 +5087,10 @@
  	 	 	 	"eng": "A ${typeName} cache contains information used for Molecular 3D Printing, \r\n                    You can create a ${typeName} with the [Molecular 3d Printer] at [Central Hub].\r\n                    \r\n                    Pro tip: The level of item you get from printing is determined by your Printing Rank,\r\n                    so always print the trash ones first, as they cost less and useful to level up your Printing Rank"
  	 	 	}
  	 	}
+ 	},
+ 	"foodUseVerb": {
+ 	 	"trans": "使用",
+ 	 	"eng": "Consume"
  	},
  	"levelType": {
  	 	"normal": {
@@ -5429,6 +5722,24 @@
  	 	 	 	"eng": "Zero"
  	 	 	}
  	 	},
+ 	 	"lunar": {
+ 	 	 	"defaultLines": {
+ 	 	 	 	"trans": [
+ 	 	 	 	 	"Welcome, our family is always excited to help you find the perfect tech gear."
+ 	 	 	 	],
+ 	 	 	 	"eng": [
+ 	 	 	 	 	"Welcome, our family is always excited to help you find the perfect tech gear."
+ 	 	 	 	]
+ 	 	 	},
+ 	 	 	"name": {
+ 	 	 	 	"trans": "燕家雜貨店",
+ 	 	 	 	"eng": "Yen's Corner Store"
+ 	 	 	},
+ 	 	 	"npcName": {
+ 	 	 	 	"trans": "露娜",
+ 	 	 	 	"eng": "Luna"
+ 	 	 	}
+ 	 	},
  	 	"recycleMachine": {
  	 	 	"name": {
  	 	 	 	"trans": "自動回收器",
@@ -5815,6 +6126,12 @@
  	 	 	"name": {
  	 	 	 	"trans": "傳奇已加密容器",
  	 	 	 	"eng": "Locked Legendary Container"
+ 	 	 	}
+ 	 	},
+ 	 	"lunarLoot": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "紅包",
+ 	 	 	 	"eng": "Red Envelope"
  	 	 	}
  	 	},
  	 	"ammo1": {
@@ -6406,6 +6723,13 @@
  	 	 	"trans": "你的背包中沒有空間購買此物品",
  	 	 	"eng": "You have no space in your inventory to purchase this item"
  	 	},
+ 	 	"noEnoughExchangeItem": {
+ 	 	 	"vars": [
+ 	 	 	 	"itemName"
+ 	 	 	],
+ 	 	 	"trans": "您沒有足夠的${itemName}購買此商品",
+ 	 	 	"eng": "You have no enough ${itemName} to purchase this item"
+ 	 	},
  	 	"noEnoughMoney": {
  	 	 	"vars": [
  	 	 	 	"CURRENCY"
@@ -6433,6 +6757,14 @@
  	 	 	 	],
  	 	 	 	"trans": "總價：${totalPrice} ${CURRENCY}",
  	 	 	 	"eng": "Total price: ${totalPrice} ${CURRENCY}"
+ 	 	 	},
+ 	 	 	"exchangeItemPriceDisplay": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"amount",
+ 	 	 	 	 	"itemName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "總計：${amount} ${itemName}",
+ 	 	 	 	"eng": "Total: ${amount} ${itemName}"
  	 	 	}
  	 	}
  	},
@@ -6765,6 +7097,35 @@
  	 	 	]
  	 	}
  	},
+ 	"bundleDetailsModal": {
+ 	 	"bundle": {
+ 	 	 	"trans": "禮包",
+ 	 	 	"eng": "bundle"
+ 	 	},
+ 	 	"description": {
+ 	 	 	"trans": "內含",
+ 	 	 	"eng": "Contains"
+ 	 	},
+ 	 	"alreadyPurchased": {
+ 	 	 	"vars": [
+ 	 	 	 	"time"
+ 	 	 	],
+ 	 	 	"trans": "在${time}中再次使用",
+ 	 	 	"eng": "Available again in ${time}"
+ 	 	},
+ 	 	"freeButton": {
+ 	 	 	"text": {
+ 	 	 	 	"trans": "免費取得",
+ 	 	 	 	"eng": "Claim for free"
+ 	 	 	}
+ 	 	},
+ 	 	"purchaseButton": {
+ 	 	 	"text": {
+ 	 	 	 	"trans": "購買",
+ 	 	 	 	"eng": "Purchase"
+ 	 	 	}
+ 	 	}
+ 	},
  	"createClanModal": {
  	 	"gangNameInput": {
  	 	 	"title": {
@@ -6841,6 +7202,46 @@
  	 	"desc3": {
  	 	 	"trans": "萬聖節期間限定：賽博蝙蝠聊天外框！",
  	 	 	"eng": "During Halloween, a time limited cyber-bat chat donation tier will be available!"
+ 	 	}
+ 	},
+ 	"lunarPromo": {
+ 	 	"title": {
+ 	 	 	"trans": "新年快樂！",
+ 	 	 	"eng": "Happy Lunar New year!"
+ 	 	},
+ 	 	"desc1": {
+ 	 	 	"trans": "農曆新年來了喔，我們在香格里拉舉行特別活動。 加入我們，讓我們擁抱新的一年的開始，充滿傳統，喜悅和團結。",
+ 	 	 	"eng": "The lunar new year is here, and we're celebrating in Shang-ri-la with a special event. Join us as we embrace the start of a new year, filled with traditions, joy, and togetherness."
+ 	 	},
+ 	 	"desc2": {
+ 	 	 	"vars": [
+ 	 	 	 	"npcShopName",
+ 	 	 	 	"coinItem",
+ 	 	 	 	"llcName",
+ 	 	 	 	"npcName"
+ 	 	 	],
+ 	 	 	"trans": "${npcShopName}已開始營業！ 您可以使用${coinItem}從${npcName}購買各種特殊美食和${llcName}！",
+ 	 	 	"eng": "${npcShopName} is now open for business! You can use ${coinItem} to purchase various special cuisines and ${llcName} from ${npcName}!"
+ 	 	},
+ 	 	"desc3": {
+ 	 	 	"vars": [
+ 	 	 	 	"envelopItem",
+ 	 	 	 	"coinItem"
+ 	 	 	],
+ 	 	 	"trans": "沒有${envelopItem}就不是過年！ 敵人和AI Core掛機將掉落${envelopItem}，打開它們以獲得隨機數量的${coinItem}！",
+ 	 	 	"eng": "It's not new year if ${envelopItem} is not involved! Enemies and AI Core auto farm will drop ${envelopItem}, open them to receive random amount of ${coinItem}!"
+ 	 	},
+ 	 	"desc4": {
+ 	 	 	"vars": [
+ 	 	 	 	"envelopItem",
+ 	 	 	 	"npcShop"
+ 	 	 	],
+ 	 	 	"trans": "您現在可以每天在${npcShop}中收到3個免費${envelopItem}！",
+ 	 	 	"eng": "You can now receive 3 free ${envelopItem} in ${npcShop} every day!"
+ 	 	},
+ 	 	"desc5": {
+ 	 	 	"trans": "添加了兩個新的限時聊天框架和標誌，僅在活動期間可購買。",
+ 	 	 	"eng": "Added two new time limited chat frame and emblems, only purchasable during event period."
  	 	}
  	},
  	"referralPromo": {

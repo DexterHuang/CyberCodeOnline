@@ -247,6 +247,16 @@
  	 	 	 	 	"eng": "How much would you like to withdraw?"
  	 	 	 	}
  	 	 	},
+ 	 	 	"upgradeVaultModal": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "ترقية قبو",
+ 	 	 	 	 	"eng": "Upgrade Vault"
+ 	 	 	 	},
+ 	 	 	 	"confirm": {
+ 	 	 	 	 	"trans": "تطوير",
+ 	 	 	 	 	"eng": "Upgrade"
+ 	 	 	 	}
+ 	 	 	},
  	 	 	"noBalance": {
  	 	 	 	"trans": "لا يمكنك السحب عندما لا يكون لديك رصيد.",
  	 	 	 	"eng": "You can't withdraw when you have no balance."
@@ -708,12 +718,9 @@
  	 	 	 	"trans": "فتح الحاوية",
  	 	 	 	"eng": "Unlock Container"
  	 	 	},
- 	 	 	"cantOpenContainerNotIdle": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"currentAction"
- 	 	 	 	],
- 	 	 	 	"trans": "يمكنك فتح الحاويات بينما ${currentAction}",
- 	 	 	 	"eng": "You unlock containers while ${currentAction}"
+ 	 	 	"cantOpenContainerNotIdleV2": {
+ 	 	 	 	"trans": "لا يمكنك فتح الحاويات أثناء الآن",
+ 	 	 	 	"eng": "You cannot unlock containers while right now"
  	 	 	}
  	 	},
  	 	"itemDetails": {
@@ -1686,6 +1693,12 @@
  	 	 	 	"eng": "Drag all processes icons into to the red box entirely to initiate the task"
  	 	 	}
  	 	},
+ 	 	"confirmModal": {
+ 	 	 	"defaultConfirm": {
+ 	 	 	 	"trans": "يتأكد",
+ 	 	 	 	"eng": "Confirm"
+ 	 	 	}
+ 	 	},
  	 	"cosmeticSetting": {
  	 	 	"emblems": {
  	 	 	 	"title": {
@@ -2026,6 +2039,20 @@
  	 	 	 	"eng": "Get All Items"
  	 	 	}
  	 	},
+ 	 	"linksPage": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "الروابط",
+ 	 	 	 	"eng": "Links"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "هنا يمكنك العثور على جميع روابط وسائل التواصل الاجتماعي لدينا ، تعال وتواصل مع المجتمع المذهل!",
+ 	 	 	 	"eng": "Here you can find all our social media links, come and connect with the amazing community!"
+ 	 	 	},
+ 	 	 	"reportBug": {
+ 	 	 	 	"trans": "الإبلاغ عن خطأ",
+ 	 	 	 	"eng": "Report a bug"
+ 	 	 	}
+ 	 	},
  	 	"linkPage": {
  	 	 	"forum": {
  	 	 	 	"trans": "المنتدى الرسمي",
@@ -2310,6 +2337,79 @@
  	 	 	"unlock": {
  	 	 	 	"trans": "الغاء القفل",
  	 	 	 	"eng": "Unlock"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"bundle": {
+ 	 	"alreadyPurchased": {
+ 	 	 	"vars": [
+ 	 	 	 	"time"
+ 	 	 	],
+ 	 	 	"trans": "متاح مرة أخرى في ${time}",
+ 	 	 	"eng": "Available again in ${time}"
+ 	 	},
+ 	 	"free": {
+ 	 	 	"trans": "حر",
+ 	 	 	"eng": "Free"
+ 	 	},
+ 	 	"luna": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "هدية القمر النيون",
+ 	 	 	 	"eng": "Neon moon gift"
+ 	 	 	}
+ 	 	},
+ 	 	"skip": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "تخطي حزمة الإمداد",
+ 	 	 	 	"eng": "Skip supply bundle"
+ 	 	 	}
+ 	 	},
+ 	 	"cali": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "حزمة المعايرة (200 ٪)",
+ 	 	 	 	"eng": "Calibration bundle (200%)"
+ 	 	 	}
+ 	 	},
+ 	 	"cycle": {
+ 	 	 	"daily": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "اليومي",
+ 	 	 	 	 	"eng": "Daily"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "متاح مرة واحدة في اليوم",
+ 	 	 	 	 	"eng": "Available once a day"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"weekly": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "أسبوعي",
+ 	 	 	 	 	"eng": "Weekly"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "متاح مرة واحدة في الأسبوع",
+ 	 	 	 	 	"eng": "Available once a week"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"monthly": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "شهريا",
+ 	 	 	 	 	"eng": "Monthly"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "متاح مرة واحدة في الشهر",
+ 	 	 	 	 	"eng": "Available once a month"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"once": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "مرة واحدة",
+ 	 	 	 	 	"eng": "Once"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "لمرة واحدة خاصة لكل حساب",
+ 	 	 	 	 	"eng": "One-time special per account"
+ 	 	 	 	}
  	 	 	}
  	 	}
  	},
@@ -2768,6 +2868,12 @@
  	 	 	 	"eng": "Additional epic drop chance from containers"
  	 	 	}
  	 	},
+ 	 	"containerLegendaryDrop": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "فرصة أسطورية",
+ 	 	 	 	"eng": "Legendary Chance"
+ 	 	 	}
+ 	 	},
  	 	"m1Dmg": {
  	 	 	"name": {
  	 	 	 	"trans": "عدو الحيوانات",
@@ -2837,6 +2943,43 @@
  	 	 	 	],
  	 	 	 	"trans": "وقت الجهاز غير الدقيق (الفرق في الوقت: ${diff}). لضمان ميزات اللعبة مثل Buff و Time Skip وعرض مهمة AFK بشكل صحيح. يرجى مزامنة وقت جهازك مع الشبكة والتأكد من تعيين منطقة الوقت الخاصة بك بشكل صحيح",
  	 	 	 	"eng": "Inaccurate device time (time difference: ${diff}). to ensure game features such as buff, time skip and AFK Task display correctly. Please sync your device time with network and ensure your time-zone is set correctly"
+ 	 	 	}
+ 	 	},
+ 	 	"duration": {
+ 	 	 	"years": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"years"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${years} سنوات",
+ 	 	 	 	"eng": "${years} years"
+ 	 	 	},
+ 	 	 	"days": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"days"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${days} أيام",
+ 	 	 	 	"eng": "${days} days"
+ 	 	 	},
+ 	 	 	"hours": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"hours"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${hours} ساعات",
+ 	 	 	 	"eng": "${hours} hours"
+ 	 	 	},
+ 	 	 	"minutes": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"minutes"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${minutes} دقيقة",
+ 	 	 	 	"eng": "${minutes} minutes"
+ 	 	 	},
+ 	 	 	"seconds": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"seconds"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${seconds} ثانية",
+ 	 	 	 	"eng": "${seconds} seconds"
  	 	 	}
  	 	}
  	},
@@ -3086,6 +3229,12 @@
  	 	"abandonConfirm": {
  	 	 	"trans": "هل أنت متأكد أنك تريد التخلي عن هذا البحث؟",
  	 	 	"eng": "Are you sure you want to abandon this quest?"
+ 	 	}
+ 	},
+ 	"priceTag": {
+ 	 	"free": {
+ 	 	 	"trans": "مجانا",
+ 	 	 	"eng": "FREE"
  	 	}
  	},
  	"sessionClosedScreen": {
@@ -3428,6 +3577,14 @@
  	 	"donation13": {
  	 	 	"trans": "cyberfrost",
  	 	 	"eng": "CyberFrost"
+ 	 	},
+ 	 	"donation14": {
+ 	 	 	"trans": "Cyberdragon",
+ 	 	 	"eng": "Cyberdragon"
+ 	 	},
+ 	 	"donation15": {
+ 	 	 	"trans": "هيبة",
+ 	 	 	"eng": "Prestige"
  	 	},
  	 	"moderator": {
  	 	 	"trans": "مشرف",
@@ -3930,6 +4087,86 @@
  	 	 	 	 	"eng": "More coming in future update"
  	 	 	 	}
  	 	 	}
+ 	 	},
+ 	 	"donation14": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "عنوان التبرع \"Cyberdragon\"",
+ 	 	 	 	 	"eng": "\"Cyberdragon\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "فتح تخصيص صورة الملف الشخصي",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "إطار دردشة السنة القمرية (مع الرسوم المتحركة)",
+ 	 	 	 	 	"eng": "Lunar new year chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "ملف تعريف العام القمري الجديد (مع الرسوم المتحركة)",
+ 	 	 	 	 	"eng": "Lunar new year Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "افتح السيرة الذاتية المخصصة",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "ديكور التنين على الملف الشخصي",
+ 	 	 	 	 	"eng": "Dragon decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "تخصيص شعار العصابة",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "تخصيص صورة العصابة",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "المزيد قادم في التحديث في المستقبل",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation15": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "عنوان التبرع \"Prestige\"",
+ 	 	 	 	 	"eng": "\"Prestige\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "فتح تخصيص صورة الملف الشخصي",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "إطار الدردشة الخضراء النيون (مع الرسوم المتحركة)",
+ 	 	 	 	 	"eng": "Neon green chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "ملف تعريف مؤطر النيون الأخضر (مع الرسوم المتحركة)",
+ 	 	 	 	 	"eng": "Neon green Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "افتح السيرة الذاتية المخصصة",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "زخرفة الباركود على الملف الشخصي",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "تخصيص شعار العصابة",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "تخصيص صورة العصابة",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "المزيد قادم في التحديث في المستقبل",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
  	 	}
  	},
  	"equipmentMarks": {
@@ -3999,6 +4236,12 @@
  	 	}
  	},
  	"item": {
+ 	 	"unknownEquipment": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "معدات غير معروفة",
+ 	 	 	 	"eng": "Unknown Equipment"
+ 	 	 	}
+ 	 	},
  	 	"aiCore": {
  	 	 	"name": {
  	 	 	 	"trans": "لديك الأساسية",
@@ -4748,6 +4991,52 @@
  	 	 	 	"eng": "While shard is active all players can choose to start certain AFK tasks in Boost Mode™, gaining ${rewardMult}x reward while increasing cost and duration by ${costMult}x. \\n* This item is still beta and subject to balance change, please use immediately after purchase *"
  	 	 	}
  	 	},
+ 	 	"newYear": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "مغلف أحمر",
+ 	 	 	 	"eng": "Red Envelope"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "مغلف أحمر مع ختم رقمي ذهبي عليه. يبدو أنه يحتوي على نوع من العملة",
+ 	 	 	 	"eng": "A red envelope with a golden digital seal on it. looks like it contains some sort of currency"
+ 	 	 	}
+ 	 	},
+ 	 	"lunarCoin": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "عملة ذهبية",
+ 	 	 	 	"eng": "Golden Coin"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "عملة ذهبية مع نقش من التنين على ذلك. العملة المادية نادرة جدًا أن نرى هذه الأيام ، يجب أن تكون قادرة على شراء شيء جيد معها في منطقة السوق",
+ 	 	 	 	"eng": "A golden coin with a engraving of a dragon on it. physical currency is very rare to see these days, should be able to buy something good with it in the market district"
+ 	 	 	}
+ 	 	},
+ 	 	"dumplings": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "الزلابية",
+ 	 	 	 	"eng": "Rice Cake"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"percent"
+ 	 	 	 	],
+ 	 	 	 	"trans": "هذه الزلابية لا تشبه أي شيء آخر. مصنوعة من الحب والرعاية من الين ، تمتلئ هذه الجيوب اللذيذة من الخير بأرقى المكونات وطهيها إلى الكمال",
+ 	 	 	 	"eng": "sticky and sweet rice cake is a traditional Lunar New Year food and is believed to bring good luck and prosperity.\\n recover ${percent}% shield upon consumption"
+ 	 	 	}
+ 	 	},
+ 	 	"sushi": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "سوشي",
+ 	 	 	 	"eng": "Sushi"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"percent"
+ 	 	 	 	],
+ 	 	 	 	"trans": "صنع مع الحب والعناية من الين. وجبة لذيذة ومغذية تمنح اللاعب -أضرار ${percent} ٪ التي تم تناولها لمدة 20 دقيقة عند تناولها. مثالي لمواجهة التحديات الصعبة وقهر الأعداء الصعبة ، فإن السوشي الين لا بد منه - لأي مغامر.",
+ 	 	 	 	"eng": "Made with love and care by Yen. delicious and nourishing meal that will grant the player -${percent}% damage taken for 20 minutes when eaten. Perfect for tackling tough challenges and conquering difficult foes, Yen\\'s sushi is a must - have for any adventurer."
+ 	 	 	}
+ 	 	},
  	 	"experienceShard": {
  	 	 	"name": {
  	 	 	 	"vars": [
@@ -4798,6 +5087,10 @@
  	 	 	 	"eng": "A ${typeName} cache contains information used for Molecular 3D Printing, \r\n                    You can create a ${typeName} with the [Molecular 3d Printer] at [Central Hub].\r\n                    \r\n                    Pro tip: The level of item you get from printing is determined by your Printing Rank,\r\n                    so always print the trash ones first, as they cost less and useful to level up your Printing Rank"
  	 	 	}
  	 	}
+ 	},
+ 	"foodUseVerb": {
+ 	 	"trans": "تستهلك",
+ 	 	"eng": "Consume"
  	},
  	"levelType": {
  	 	"normal": {
@@ -5225,6 +5518,24 @@
  	 	 	 	"eng": "Zero"
  	 	 	}
  	 	},
+ 	 	"lunar": {
+ 	 	 	"defaultLines": {
+ 	 	 	 	"trans": [
+ 	 	 	 	 	"Welcome, our family is always excited to help you find the perfect tech gear."
+ 	 	 	 	],
+ 	 	 	 	"eng": [
+ 	 	 	 	 	"Welcome, our family is always excited to help you find the perfect tech gear."
+ 	 	 	 	]
+ 	 	 	},
+ 	 	 	"name": {
+ 	 	 	 	"trans": "متجر الين زاوية",
+ 	 	 	 	"eng": "Yen's Corner Store"
+ 	 	 	},
+ 	 	 	"npcName": {
+ 	 	 	 	"trans": "لونا",
+ 	 	 	 	"eng": "Luna"
+ 	 	 	}
+ 	 	},
  	 	"recycleMachine": {
  	 	 	"name": {
  	 	 	 	"trans": "recycler التلقائي",
@@ -5611,6 +5922,12 @@
  	 	 	"name": {
  	 	 	 	"trans": "حاوية أسطورية مغلقة",
  	 	 	 	"eng": "Locked Legendary Container"
+ 	 	 	}
+ 	 	},
+ 	 	"lunarLoot": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "مغلف أحمر",
+ 	 	 	 	"eng": "Red Envelope"
  	 	 	}
  	 	},
  	 	"ammo1": {
@@ -6202,6 +6519,13 @@
  	 	 	"trans": "ليس لديك مساحة في المخزون الخاص بك لشراء هذا البند",
  	 	 	"eng": "You have no space in your inventory to purchase this item"
  	 	},
+ 	 	"noEnoughExchangeItem": {
+ 	 	 	"vars": [
+ 	 	 	 	"itemName"
+ 	 	 	],
+ 	 	 	"trans": "ليس لديك ما يكفي من ${itemName} لشراء هذا العنصر",
+ 	 	 	"eng": "You have no enough ${itemName} to purchase this item"
+ 	 	},
  	 	"noEnoughMoney": {
  	 	 	"vars": [
  	 	 	 	"CURRENCY"
@@ -6229,6 +6553,14 @@
  	 	 	 	],
  	 	 	 	"trans": "السعر الإجمالي: {0} ${CURRENCY}",
  	 	 	 	"eng": "Total price: ${totalPrice} ${CURRENCY}"
+ 	 	 	},
+ 	 	 	"exchangeItemPriceDisplay": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"amount",
+ 	 	 	 	 	"itemName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "المجموع: ${amount} ${itemName}",
+ 	 	 	 	"eng": "Total: ${amount} ${itemName}"
  	 	 	}
  	 	}
  	},
@@ -6561,6 +6893,35 @@
  	 	 	]
  	 	}
  	},
+ 	"bundleDetailsModal": {
+ 	 	"bundle": {
+ 	 	 	"trans": "حزمة",
+ 	 	 	"eng": "bundle"
+ 	 	},
+ 	 	"description": {
+ 	 	 	"trans": "يتضمن",
+ 	 	 	"eng": "Contains"
+ 	 	},
+ 	 	"alreadyPurchased": {
+ 	 	 	"vars": [
+ 	 	 	 	"time"
+ 	 	 	],
+ 	 	 	"trans": "متاح مرة أخرى في ${time}",
+ 	 	 	"eng": "Available again in ${time}"
+ 	 	},
+ 	 	"freeButton": {
+ 	 	 	"text": {
+ 	 	 	 	"trans": "مطالبة مجانا",
+ 	 	 	 	"eng": "Claim for free"
+ 	 	 	}
+ 	 	},
+ 	 	"purchaseButton": {
+ 	 	 	"text": {
+ 	 	 	 	"trans": "شراء",
+ 	 	 	 	"eng": "Purchase"
+ 	 	 	}
+ 	 	}
+ 	},
  	"createClanModal": {
  	 	"gangNameInput": {
  	 	 	"title": {
@@ -6637,6 +6998,46 @@
  	 	"desc3": {
  	 	 	"trans": "خلال عيد الهالوين ، ستتوفر Time Limited Cyber Bat Chat Tier!",
  	 	 	"eng": "During Halloween, a time limited cyber-bat chat donation tier will be available!"
+ 	 	}
+ 	},
+ 	"lunarPromo": {
+ 	 	"title": {
+ 	 	 	"trans": "سنة قمرية جديدة سعيدة!",
+ 	 	 	"eng": "Happy Lunar New year!"
+ 	 	},
+ 	 	"desc1": {
+ 	 	 	"trans": "السنة القمرية الجديدة هنا ، ونحن نحتفل في Shang-Ri-La مع حدث خاص. انضم إلينا ونحن نحتضن بداية عام جديد ، مليئة بالتقاليد والفرح والعمل الجماعي.",
+ 	 	 	"eng": "The lunar new year is here, and we're celebrating in Shang-ri-la with a special event. Join us as we embrace the start of a new year, filled with traditions, joy, and togetherness."
+ 	 	},
+ 	 	"desc2": {
+ 	 	 	"vars": [
+ 	 	 	 	"npcShopName",
+ 	 	 	 	"coinItem",
+ 	 	 	 	"llcName",
+ 	 	 	 	"npcName"
+ 	 	 	],
+ 	 	 	"trans": "${npcShopName} مفتوح الآن للعمل! يمكنك استخدام ${coinItem} لشراء العديد من المأكولات الخاصة و ${llcName} من ${npcName}!",
+ 	 	 	"eng": "${npcShopName} is now open for business! You can use ${coinItem} to purchase various special cuisines and ${llcName} from ${npcName}!"
+ 	 	},
+ 	 	"desc3": {
+ 	 	 	"vars": [
+ 	 	 	 	"envelopItem",
+ 	 	 	 	"coinItem"
+ 	 	 	],
+ 	 	 	"trans": "إنه ليس سنة جديدة إذا لم يكن ${envelopItem} متورطًا! سوف يسقط الأعداء و AI Core Auto Farm ${envelopItem} ، فتحهم لتلقي مبلغ عشوائي من ${coinItem}!",
+ 	 	 	"eng": "It's not new year if ${envelopItem} is not involved! Enemies and AI Core auto farm will drop ${envelopItem}, open them to receive random amount of ${coinItem}!"
+ 	 	},
+ 	 	"desc4": {
+ 	 	 	"vars": [
+ 	 	 	 	"envelopItem",
+ 	 	 	 	"npcShop"
+ 	 	 	],
+ 	 	 	"trans": "يمكنك الآن الحصول على 3 $ ${envelopItem} في ${npcShop} كل يوم!",
+ 	 	 	"eng": "You can now receive 3 free ${envelopItem} in ${npcShop} every day!"
+ 	 	},
+ 	 	"desc5": {
+ 	 	 	"trans": "تمت إضافة اثنين من وقت الدردشة المحدودة للوقت المحدود ، فقط ، لا يمكن شراءها إلا خلال فترة الحدث.",
+ 	 	 	"eng": "Added two new time limited chat frame and emblems, only purchasable during event period."
  	 	}
  	},
  	"referralPromo": {

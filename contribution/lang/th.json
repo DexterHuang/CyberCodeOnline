@@ -247,6 +247,16 @@
  	 	 	 	 	"eng": "How much would you like to withdraw?"
  	 	 	 	}
  	 	 	},
+ 	 	 	"upgradeVaultModal": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "อัพเกรด Vault",
+ 	 	 	 	 	"eng": "Upgrade Vault"
+ 	 	 	 	},
+ 	 	 	 	"confirm": {
+ 	 	 	 	 	"trans": "อัพเกรด",
+ 	 	 	 	 	"eng": "Upgrade"
+ 	 	 	 	}
+ 	 	 	},
  	 	 	"noBalance": {
  	 	 	 	"trans": "คุณไม่สามารถถอนได้เมื่อคุณไม่มีเงินที่ฝากไว้",
  	 	 	 	"eng": "You can't withdraw when you have no balance."
@@ -708,12 +718,9 @@
  	 	 	 	"trans": "ปลดล็อกคอนเทนเนอร์",
  	 	 	 	"eng": "Unlock Container"
  	 	 	},
- 	 	 	"cantOpenContainerNotIdle": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"currentAction"
- 	 	 	 	],
- 	 	 	 	"trans": "คุณปลดล็อกคอนเทนเนอร์ในขณะที่ ${currentAction}",
- 	 	 	 	"eng": "You unlock containers while ${currentAction}"
+ 	 	 	"cantOpenContainerNotIdleV2": {
+ 	 	 	 	"trans": "คุณไม่สามารถปลดล็อกคอนเทนเนอร์ในขณะนี้ได้",
+ 	 	 	 	"eng": "You cannot unlock containers while right now"
  	 	 	}
  	 	},
  	 	"itemDetails": {
@@ -1686,6 +1693,12 @@
  	 	 	 	"eng": "Drag all processes icons into to the red box entirely to initiate the task"
  	 	 	}
  	 	},
+ 	 	"confirmModal": {
+ 	 	 	"defaultConfirm": {
+ 	 	 	 	"trans": "ยืนยัน",
+ 	 	 	 	"eng": "Confirm"
+ 	 	 	}
+ 	 	},
  	 	"cosmeticSetting": {
  	 	 	"emblems": {
  	 	 	 	"title": {
@@ -2026,6 +2039,20 @@
  	 	 	 	"eng": "Get All Items"
  	 	 	}
  	 	},
+ 	 	"linksPage": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "ลิงค์",
+ 	 	 	 	"eng": "Links"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "ที่นี่คุณสามารถค้นหาลิงค์โซเชียลมีเดียทั้งหมดของเรามาและเชื่อมต่อกับชุมชนที่น่าทึ่ง!",
+ 	 	 	 	"eng": "Here you can find all our social media links, come and connect with the amazing community!"
+ 	 	 	},
+ 	 	 	"reportBug": {
+ 	 	 	 	"trans": "รายงานความผิดพลาด",
+ 	 	 	 	"eng": "Report a bug"
+ 	 	 	}
+ 	 	},
  	 	"linkPage": {
  	 	 	"forum": {
  	 	 	 	"trans": "ฟอรั่มอย่างเป็นทางการ",
@@ -2310,6 +2337,79 @@
  	 	 	"unlock": {
  	 	 	 	"trans": "ปลดล็อค",
  	 	 	 	"eng": "Unlock"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"bundle": {
+ 	 	"alreadyPurchased": {
+ 	 	 	"vars": [
+ 	 	 	 	"time"
+ 	 	 	],
+ 	 	 	"trans": "พร้อมใช้งานอีกครั้งใน ${time}",
+ 	 	 	"eng": "Available again in ${time}"
+ 	 	},
+ 	 	"free": {
+ 	 	 	"trans": "ฟรี",
+ 	 	 	"eng": "Free"
+ 	 	},
+ 	 	"luna": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "ของขวัญ Neon Moon",
+ 	 	 	 	"eng": "Neon moon gift"
+ 	 	 	}
+ 	 	},
+ 	 	"skip": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "ข้ามชุดซัพพลาย",
+ 	 	 	 	"eng": "Skip supply bundle"
+ 	 	 	}
+ 	 	},
+ 	 	"cali": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "ชุดสอบเทียบ (200%)",
+ 	 	 	 	"eng": "Calibration bundle (200%)"
+ 	 	 	}
+ 	 	},
+ 	 	"cycle": {
+ 	 	 	"daily": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "รายวัน",
+ 	 	 	 	 	"eng": "Daily"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "มีให้บริการวันละครั้ง",
+ 	 	 	 	 	"eng": "Available once a day"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"weekly": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "รายสัปดาห์",
+ 	 	 	 	 	"eng": "Weekly"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "มีให้บริการสัปดาห์ละครั้ง",
+ 	 	 	 	 	"eng": "Available once a week"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"monthly": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "รายเดือน",
+ 	 	 	 	 	"eng": "Monthly"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "มีให้เดือนละครั้ง",
+ 	 	 	 	 	"eng": "Available once a month"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"once": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "ครั้งหนึ่ง",
+ 	 	 	 	 	"eng": "Once"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "พิเศษครั้งเดียวต่อบัญชี",
+ 	 	 	 	 	"eng": "One-time special per account"
+ 	 	 	 	}
  	 	 	}
  	 	}
  	},
@@ -2768,6 +2868,12 @@
  	 	 	 	"eng": "Additional epic drop chance from containers"
  	 	 	}
  	 	},
+ 	 	"containerLegendaryDrop": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "โอกาสในตำนาน",
+ 	 	 	 	"eng": "Legendary Chance"
+ 	 	 	}
+ 	 	},
  	 	"m1Dmg": {
  	 	 	"name": {
  	 	 	 	"trans": "แอนนิมอล เนเมซิส",
@@ -2837,6 +2943,43 @@
  	 	 	 	],
  	 	 	 	"trans": "เวลาอุปกรณ์ที่ไม่ถูกต้อง (ความแตกต่างของเวลา: ${diff}) เพื่อให้แน่ใจว่าคุณสมบัติของเกมเช่น Buff, Time Skip และ AFK Display อย่างถูกต้อง โปรดซิงค์เวลาอุปกรณ์ของคุณกับเครือข่ายและตรวจสอบให้แน่ใจว่าโซนเวลาของคุณถูกตั้งค่าอย่างถูกต้อง",
  	 	 	 	"eng": "Inaccurate device time (time difference: ${diff}). to ensure game features such as buff, time skip and AFK Task display correctly. Please sync your device time with network and ensure your time-zone is set correctly"
+ 	 	 	}
+ 	 	},
+ 	 	"duration": {
+ 	 	 	"years": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"years"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${years} ปี",
+ 	 	 	 	"eng": "${years} years"
+ 	 	 	},
+ 	 	 	"days": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"days"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${days} วัน",
+ 	 	 	 	"eng": "${days} days"
+ 	 	 	},
+ 	 	 	"hours": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"hours"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${hours} ชั่วโมง",
+ 	 	 	 	"eng": "${hours} hours"
+ 	 	 	},
+ 	 	 	"minutes": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"minutes"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${minutes} นาที",
+ 	 	 	 	"eng": "${minutes} minutes"
+ 	 	 	},
+ 	 	 	"seconds": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"seconds"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${seconds} วินาที",
+ 	 	 	 	"eng": "${seconds} seconds"
  	 	 	}
  	 	}
  	},
@@ -3086,6 +3229,12 @@
  	 	"abandonConfirm": {
  	 	 	"trans": "คุณแน่ใจหรือว่าต้องการละทิ้งภารกิจนี้?",
  	 	 	"eng": "Are you sure you want to abandon this quest?"
+ 	 	}
+ 	},
+ 	"priceTag": {
+ 	 	"free": {
+ 	 	 	"trans": "ฟรี",
+ 	 	 	"eng": "FREE"
  	 	}
  	},
  	"sessionClosedScreen": {
@@ -3428,6 +3577,14 @@
  	 	"donation13": {
  	 	 	"trans": "ไซเบอร์ฟรอสต์",
  	 	 	"eng": "CyberFrost"
+ 	 	},
+ 	 	"donation14": {
+ 	 	 	"trans": "ไซเบอร์ดรากอน",
+ 	 	 	"eng": "Cyberdragon"
+ 	 	},
+ 	 	"donation15": {
+ 	 	 	"trans": "ศักดิ์ศรี",
+ 	 	 	"eng": "Prestige"
  	 	},
  	 	"moderator": {
  	 	 	"trans": "พิธีกร",
@@ -3930,6 +4087,86 @@
  	 	 	 	 	"eng": "More coming in future update"
  	 	 	 	}
  	 	 	}
+ 	 	},
+ 	 	"donation14": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "ชื่อ \"Cyberdragon\"",
+ 	 	 	 	 	"eng": "\"Cyberdragon\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "ปลดล็อกการปรับแต่งรูปภาพโปรไฟล์",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "เฟรมแชทปีใหม่จันทรคติ (พร้อมแอนิเมชั่น)",
+ 	 	 	 	 	"eng": "Lunar new year chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "โปรไฟล์เฟรมปีใหม่จันทรคติ (พร้อมแอนิเมชั่น)",
+ 	 	 	 	 	"eng": "Lunar new year Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "ปลดล็อกชีวภาพที่กำหนดเอง",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "การตกแต่งมังกรในโปรไฟล์",
+ 	 	 	 	 	"eng": "Dragon decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "ปรับแต่งคำขวัญแก๊งค์",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "ปรับแต่งภาพแก๊งค์",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "การอัปเดตเพิ่มเติมในอนาคต",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation15": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "ชื่อ \"Prestige\"",
+ 	 	 	 	 	"eng": "\"Prestige\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "ปลดล็อกการปรับแต่งรูปภาพโปรไฟล์",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "เฟรมแชทสีเขียวนีออน (พร้อมแอนิเมชั่น)",
+ 	 	 	 	 	"eng": "Neon green chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "โปรไฟล์เฟรมสีเขียวนีออน (พร้อมแอนิเมชั่น)",
+ 	 	 	 	 	"eng": "Neon green Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "ปลดล็อกชีวภาพที่กำหนดเอง",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "การตกแต่งบาร์โค้ดในโปรไฟล์",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "ปรับแต่งคำขวัญแก๊งค์",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "ปรับแต่งภาพแก๊งค์",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "การอัปเดตเพิ่มเติมในอนาคต",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
  	 	}
  	},
  	"equipmentMarks": {
@@ -3999,6 +4236,12 @@
  	 	}
  	},
  	"item": {
+ 	 	"unknownEquipment": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "อุปกรณ์ที่ไม่รู้จัก",
+ 	 	 	 	"eng": "Unknown Equipment"
+ 	 	 	}
+ 	 	},
  	 	"aiCore": {
  	 	 	"name": {
  	 	 	 	"trans": "แกนของ AI",
@@ -4748,6 +4991,52 @@
  	 	 	 	"eng": "While shard is active all players can choose to start certain AFK tasks in Boost Mode™, gaining ${rewardMult}x reward while increasing cost and duration by ${costMult}x. \\n* This item is still beta and subject to balance change, please use immediately after purchase *"
  	 	 	}
  	 	},
+ 	 	"newYear": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "ซองจดหมายสีแดง",
+ 	 	 	 	"eng": "Red Envelope"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "ซองสีแดงที่มีตราประทับดิจิตอลสีทองอยู่ ดูเหมือนว่าจะมีสกุลเงินบางประเภท",
+ 	 	 	 	"eng": "A red envelope with a golden digital seal on it. looks like it contains some sort of currency"
+ 	 	 	}
+ 	 	},
+ 	 	"lunarCoin": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "เหรียญทอง",
+ 	 	 	 	"eng": "Golden Coin"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "เหรียญทองที่มีการแกะสลักมังกรอยู่ สกุลเงินทางกายภาพนั้นหายากมากในวันนี้ควรจะสามารถซื้อสิ่งที่ดีกับมันในเขตตลาด",
+ 	 	 	 	"eng": "A golden coin with a engraving of a dragon on it. physical currency is very rare to see these days, should be able to buy something good with it in the market district"
+ 	 	 	}
+ 	 	},
+ 	 	"dumplings": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "เกี๊ยว",
+ 	 	 	 	"eng": "Rice Cake"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"percent"
+ 	 	 	 	],
+ 	 	 	 	"trans": "เกี๊ยวเหล่านี้แตกต่างจากอื่น ๆ ทำด้วยความรักและการดูแลโดยเยนความดีแสนอร่อยเหล่านี้เต็มไปด้วยส่วนผสมที่ดีที่สุดและปรุงเพื่อความสมบูรณ์แบบ \\ n กู้คืน ${percent}% สุขภาพเมื่อบริโภค",
+ 	 	 	 	"eng": "sticky and sweet rice cake is a traditional Lunar New Year food and is believed to bring good luck and prosperity.\\n recover ${percent}% shield upon consumption"
+ 	 	 	}
+ 	 	},
+ 	 	"sushi": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "ซูชิ",
+ 	 	 	 	"eng": "Sushi"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"percent"
+ 	 	 	 	],
+ 	 	 	 	"trans": "ทำด้วยความรักและการดูแลโดยเยน อาหารอร่อยและบำรุงที่จะให้ผู้เล่น -${percent}% ความเสียหายที่เกิดขึ้นเป็นเวลา 20 นาทีเมื่อรับประทาน เหมาะสำหรับการจัดการกับความท้าทายที่ยากลำบากและการพิชิตศัตรูที่ยากลำบากซูชิของเยนเป็นสิ่งที่ต้องทำ - มีสำหรับนักผจญภัยทุกคน",
+ 	 	 	 	"eng": "Made with love and care by Yen. delicious and nourishing meal that will grant the player -${percent}% damage taken for 20 minutes when eaten. Perfect for tackling tough challenges and conquering difficult foes, Yen\\'s sushi is a must - have for any adventurer."
+ 	 	 	}
+ 	 	},
  	 	"experienceShard": {
  	 	 	"name": {
  	 	 	 	"vars": [
@@ -4798,6 +5087,10 @@
  	 	 	 	"eng": "A ${typeName} cache contains information used for Molecular 3D Printing, \r\n                    You can create a ${typeName} with the [Molecular 3d Printer] at [Central Hub].\r\n                    \r\n                    Pro tip: The level of item you get from printing is determined by your Printing Rank,\r\n                    so always print the trash ones first, as they cost less and useful to level up your Printing Rank"
  	 	 	}
  	 	}
+ 	},
+ 	"foodUseVerb": {
+ 	 	"trans": "บริโภค",
+ 	 	"eng": "Consume"
  	},
  	"levelType": {
  	 	"normal": {
@@ -5225,6 +5518,24 @@
  	 	 	 	"eng": "Zero"
  	 	 	}
  	 	},
+ 	 	"lunar": {
+ 	 	 	"defaultLines": {
+ 	 	 	 	"trans": [
+ 	 	 	 	 	"Welcome, our family is always excited to help you find the perfect tech gear."
+ 	 	 	 	],
+ 	 	 	 	"eng": [
+ 	 	 	 	 	"Welcome, our family is always excited to help you find the perfect tech gear."
+ 	 	 	 	]
+ 	 	 	},
+ 	 	 	"name": {
+ 	 	 	 	"trans": "ร้านขายมุมของเยน",
+ 	 	 	 	"eng": "Yen's Corner Store"
+ 	 	 	},
+ 	 	 	"npcName": {
+ 	 	 	 	"trans": "Luna",
+ 	 	 	 	"eng": "Luna"
+ 	 	 	}
+ 	 	},
  	 	"recycleMachine": {
  	 	 	"name": {
  	 	 	 	"trans": "รีไซเคิลอัตโนมัติ",
@@ -5611,6 +5922,12 @@
  	 	 	"name": {
  	 	 	 	"trans": "ภาชนะในตำนานล็อค",
  	 	 	 	"eng": "Locked Legendary Container"
+ 	 	 	}
+ 	 	},
+ 	 	"lunarLoot": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "ซองจดหมายสีแดง",
+ 	 	 	 	"eng": "Red Envelope"
  	 	 	}
  	 	},
  	 	"ammo1": {
@@ -6202,6 +6519,13 @@
  	 	 	"trans": "คุณไม่มีที่ว่างในสินค้าคงคลังของคุณเพื่อซื้อรายการนี้",
  	 	 	"eng": "You have no space in your inventory to purchase this item"
  	 	},
+ 	 	"noEnoughExchangeItem": {
+ 	 	 	"vars": [
+ 	 	 	 	"itemName"
+ 	 	 	],
+ 	 	 	"trans": "คุณไม่มี ${itemName} เพียงพอที่จะซื้อรายการนี้",
+ 	 	 	"eng": "You have no enough ${itemName} to purchase this item"
+ 	 	},
  	 	"noEnoughMoney": {
  	 	 	"vars": [
  	 	 	 	"CURRENCY"
@@ -6229,6 +6553,14 @@
  	 	 	 	],
  	 	 	 	"trans": "ราคารวม: ${totalPrice} ${CURRENCY}",
  	 	 	 	"eng": "Total price: ${totalPrice} ${CURRENCY}"
+ 	 	 	},
+ 	 	 	"exchangeItemPriceDisplay": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"amount",
+ 	 	 	 	 	"itemName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "ทั้งหมด: ${amount} ${itemName}",
+ 	 	 	 	"eng": "Total: ${amount} ${itemName}"
  	 	 	}
  	 	}
  	},
@@ -6561,6 +6893,35 @@
  	 	 	]
  	 	}
  	},
+ 	"bundleDetailsModal": {
+ 	 	"bundle": {
+ 	 	 	"trans": "มัด",
+ 	 	 	"eng": "bundle"
+ 	 	},
+ 	 	"description": {
+ 	 	 	"trans": "ประกอบด้วย",
+ 	 	 	"eng": "Contains"
+ 	 	},
+ 	 	"alreadyPurchased": {
+ 	 	 	"vars": [
+ 	 	 	 	"time"
+ 	 	 	],
+ 	 	 	"trans": "พร้อมใช้งานอีกครั้งใน ${time}",
+ 	 	 	"eng": "Available again in ${time}"
+ 	 	},
+ 	 	"freeButton": {
+ 	 	 	"text": {
+ 	 	 	 	"trans": "อ้างสิทธิ์ฟรี",
+ 	 	 	 	"eng": "Claim for free"
+ 	 	 	}
+ 	 	},
+ 	 	"purchaseButton": {
+ 	 	 	"text": {
+ 	 	 	 	"trans": "ซื้อ",
+ 	 	 	 	"eng": "Purchase"
+ 	 	 	}
+ 	 	}
+ 	},
  	"createClanModal": {
  	 	"gangNameInput": {
  	 	 	"title": {
@@ -6637,6 +6998,46 @@
  	 	"desc3": {
  	 	 	"trans": "ในช่วงฮัลโลวีนจะมีการบริจาคการแชทแบบไซเบอร์แบบ จำกัด เวลา!",
  	 	 	"eng": "During Halloween, a time limited cyber-bat chat donation tier will be available!"
+ 	 	}
+ 	},
+ 	"lunarPromo": {
+ 	 	"title": {
+ 	 	 	"trans": "สวัสดีปีใหม่จันทรคติ!",
+ 	 	 	"eng": "Happy Lunar New year!"
+ 	 	},
+ 	 	"desc1": {
+ 	 	 	"trans": "ปีใหม่ทางจันทรคติอยู่ที่นี่และเรากำลังฉลองใน Shang-ri-la ด้วยกิจกรรมพิเศษ เข้าร่วมกับเราในขณะที่เราโอบกอดจุดเริ่มต้นของปีใหม่ที่เต็มไปด้วยประเพณีความสุขและการอยู่ร่วมกัน",
+ 	 	 	"eng": "The lunar new year is here, and we're celebrating in Shang-ri-la with a special event. Join us as we embrace the start of a new year, filled with traditions, joy, and togetherness."
+ 	 	},
+ 	 	"desc2": {
+ 	 	 	"vars": [
+ 	 	 	 	"npcShopName",
+ 	 	 	 	"coinItem",
+ 	 	 	 	"llcName",
+ 	 	 	 	"npcName"
+ 	 	 	],
+ 	 	 	"trans": "${npcShopName} เปิดให้บริการแล้ว! คุณสามารถใช้ ${coinItem} เพื่อซื้ออาหารพิเศษต่างๆและ ${llcName} จาก ${npcName}!",
+ 	 	 	"eng": "${npcShopName} is now open for business! You can use ${coinItem} to purchase various special cuisines and ${llcName} from ${npcName}!"
+ 	 	},
+ 	 	"desc3": {
+ 	 	 	"vars": [
+ 	 	 	 	"envelopItem",
+ 	 	 	 	"coinItem"
+ 	 	 	],
+ 	 	 	"trans": "ไม่ใช่ปีใหม่ถ้า ${envelopItem} ไม่เกี่ยวข้อง! ศัตรูและ AI Core Auto Farm จะลดลง ${envelopItem}, เปิดพวกเขาเพื่อรับเงินสุ่มของ ${coinItem}!",
+ 	 	 	"eng": "It's not new year if ${envelopItem} is not involved! Enemies and AI Core auto farm will drop ${envelopItem}, open them to receive random amount of ${coinItem}!"
+ 	 	},
+ 	 	"desc4": {
+ 	 	 	"vars": [
+ 	 	 	 	"envelopItem",
+ 	 	 	 	"npcShop"
+ 	 	 	],
+ 	 	 	"trans": "ตอนนี้คุณสามารถรับฟรี ${envelopItem} 3 ฟรีใน ${npcShop} ทุกวัน!",
+ 	 	 	"eng": "You can now receive 3 free ${envelopItem} in ${npcShop} every day!"
+ 	 	},
+ 	 	"desc5": {
+ 	 	 	"trans": "เพิ่มกรอบการแชทและตราสัญลักษณ์ จำกัด สองครั้งใหม่สามารถซื้อได้เฉพาะในช่วงระยะเวลาเหตุการณ์",
+ 	 	 	"eng": "Added two new time limited chat frame and emblems, only purchasable during event period."
  	 	}
  	},
  	"referralPromo": {
