@@ -28,6 +28,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ### 2023/01/02
 - Correction of typo on the previous update note, red envelop will drop 1 to 200 coins (*In game drop rate was not changed, just the update note has a typo*) 
 - Improved the way Red Envelops are opened
+- Fixed some issue with display scaling on some devices
 
 ### 2023/01/01
 - Lunar New Year Event Update
