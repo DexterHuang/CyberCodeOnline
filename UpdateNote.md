@@ -27,6 +27,8 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ## Updates           
 ### 2023/01/02
 - Correction of typo on the previous update note, red envelop will drop 1 to 200 coins (*In game drop rate was not changed, just the update note has a typo*) 
+- Improved the way Red Envelops are opened
+
 ### 2023/01/01
 - Lunar New Year Event Update
   - Added new NPC Luna, you can find her in Yen's corner store in Market district, she sell 3 new items, `Rice Cake`, `Sushi` and `Dumplings`, additionaly she also sells `Legendary Locked Container`, all of which is changable with `Gold Coins`
