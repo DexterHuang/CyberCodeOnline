@@ -146,6 +146,7 @@ ClayBravo6
 [B3llial](https://github.com/B3lli4l)
 Kalinka
 [Polestar](https://github.com/P0L3-5T4R)
+ClayBravo6
 
 ## Lore
 [Ayanna](https://github.com/JustACloud)
