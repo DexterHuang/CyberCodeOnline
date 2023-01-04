@@ -25,6 +25,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates           
+### 2023/01/04
+- Fixed issue with some phone scales the UI way too big, now will force rescale the UI to more resonable scale. you can now also manually change your UI scale in setting
+- Various backend bug fixes
+
 ### 2023/01/02
 - Correction of typo on the previous update note, red envelop will drop 1 to 200 coins (*In game drop rate was not changed, just the update note has a typo*) 
 - Improved the way Red Envelops are opened
