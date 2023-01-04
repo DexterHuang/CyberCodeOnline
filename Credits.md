@@ -6,19 +6,20 @@
 AlphaC58
 Artra
 AskAmando
-Ayanna
+B3llial
 BoxinFoxx
 [CMDR7](https://github.com/cmdr7)
 [Deckeeper](https://github.com/deckeeper)
 Dr_Pig
+EsmeJ
 Fudgee
 HBUNKNOWN
 HLYGD
 Indilil
-kt0t0wh0
-Krolik
+Nokan
+[krolik](https://github.com/kroliklapine)
 [l33t4ng3l](https://github.com/l33t4ng3l)
-[Mancipi](https://github.com/Mancipi)
+Lissa
 [PotatoMan](https://github.com/PotatoMan145)
 Tear1
 [Tripplehelix](https://github.com/tripplehelix)
@@ -26,6 +27,8 @@ Unca_Feddit
 [WhirlingDervish](https://github.com/NickN5)
 Wooffle
 YANDEREsenpaiXD
+YIRUO
+ZhannaKim
 
 ## Music
 [CMDR7](https://github.com/cmdr7)
