@@ -245,6 +245,7 @@ B3n7y
 [RAFF0B](https://github.com/RAFF0B)
 Foxxi
 [eunach](https://github.com/eunach)
+[C0rruptionCat](https://github.com/C0rruptionCat)
 
 ## Tutorial
 [alfaice](https://github.com/alfaice)
