@@ -1,0 +1,4 @@
+# Bad Teamwork Among Cyber Code Mercenaries
+> CCO Event #2 : Survivor (1 of 2)
+
+A new announcement came through about Cyber Code Mercenary performance in the field, and it is a well known problem that they do not have very good team work. This problem was made apparent when the first joint exercise grouping them into random teams of up to 9 members failed miserably. Their task was to defeat enemy forces in a quick and graceful manner. What ended up happening when they arrived at the mission location, all groups started infighting with each other about the best method to dispatch the enemy, which ended up with complete defeat when the team members end up splitting and doing tasks solo. The participants were called and reprimanded for their actions, most of them gave a remark that they could have done better alone. Higher ups decided to prove them wrong and show team work is crucial.
