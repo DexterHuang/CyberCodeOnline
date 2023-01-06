@@ -6,19 +6,20 @@
 AlphaC58
 Artra
 AskAmando
-Ayanna
+B3llial
 BoxinFoxx
 [CMDR7](https://github.com/cmdr7)
 [Deckeeper](https://github.com/deckeeper)
 Dr_Pig
+EsmeJ
 Fudgee
 HBUNKNOWN
 HLYGD
 Indilil
-kt0t0wh0
-Krolik
+Nokan
+[krolik](https://github.com/kroliklapine)
 [l33t4ng3l](https://github.com/l33t4ng3l)
-[Mancipi](https://github.com/Mancipi)
+Lissa
 [PotatoMan](https://github.com/PotatoMan145)
 Tear1
 [Tripplehelix](https://github.com/tripplehelix)
@@ -26,6 +27,8 @@ Unca_Feddit
 [WhirlingDervish](https://github.com/NickN5)
 Wooffle
 YANDEREsenpaiXD
+YIRUO
+ZhannaKim26
 
 ## Music
 [CMDR7](https://github.com/cmdr7)
@@ -144,6 +147,7 @@ ClayBravo6
 [B3llial](https://github.com/B3lli4l)
 Kalinka
 [Polestar](https://github.com/P0L3-5T4R)
+ClayBravo6
 
 ## Lore
 [Ayanna](https://github.com/JustACloud)
@@ -243,6 +247,7 @@ B3n7y
 [RAFF0B](https://github.com/RAFF0B)
 Foxxi
 [eunach](https://github.com/eunach)
+[C0rruptionCat](https://github.com/C0rruptionCat)
 
 ## Tutorial
 [alfaice](https://github.com/alfaice)
