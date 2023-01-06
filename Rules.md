@@ -49,5 +49,5 @@
 * Using any language in any chat channel
 
 ### ADDENDUM
-* Please keep in mind that they may issue mutes or bans at their discretion to assist in keeping a safe, friendly, and fair user experience. Our moderation team will work together to reach cohesive conclusions to these issues.
+* Please keep in mind that the moderation team may issue mutes or bans special cases to assist in keeping a safe, friendly, and fair user experience. Our moderation team will work together to reach cohesive conclusions to these cases.
 
