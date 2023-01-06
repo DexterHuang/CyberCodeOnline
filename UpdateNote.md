@@ -27,7 +27,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ## Updates           
 ### 2023/01/06
 - Attempt in preventing two skips being used at exactly same time at very rare situation, let me know if it can still happen. 
-- Serverside optimization, some part of system should run faster now and has less strain on the system overal
+- Serverside optimization, some part of system should run faster now and has less strain on the system overall
 
 ### 2023/01/04
 - Fixed issue with some phone scales the UI way too big, now will force rescale the UI to more resonable scale. you can now also manually change your UI scale in setting
