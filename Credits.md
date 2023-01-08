@@ -6,6 +6,7 @@
 AlphaC58
 Artra
 AskAmando
+Ayanna
 B3llial
 BoxinFoxx
 [CMDR7](https://github.com/cmdr7)
