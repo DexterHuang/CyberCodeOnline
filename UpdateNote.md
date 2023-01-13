@@ -24,7 +24,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
-## Updates           
+## Updates             
+### 2023/01/12
+- Fixed crash bug when openining gang permission popup
+
 ### 2023/01/12
 - Updated rendering core liberary and with it added many optimizations, game should render faster both on start up and while running
 - Updated graphic for Violet, Jen and Liam 
