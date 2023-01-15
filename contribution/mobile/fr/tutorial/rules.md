@@ -42,3 +42,6 @@
 * Jouer un rôle
 * Discuter de Politique, Religions, ou de la COVID-19 (et tout évènement important)
 * Utiliser n'importe quelle langue dans n'importe quel canal.
+
+### ADDENDUM 
+S'il vous plaît, prenez en compte le fait que l'équipe de modération puisse mettre en sourdine ou banir dans des cas spécifiques avec pour but de vous fournir un environnement sûr, amical et équitable pour chaque joueur. Notre équipe de modération travaillera ensemble pour atteindre des conclusions cohérentes envers ces cas.
