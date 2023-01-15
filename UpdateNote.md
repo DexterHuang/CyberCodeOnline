@@ -25,6 +25,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates             
+### 2023/01/16
+- Reduced sensitivity of swipe on inventory tab
+- Updated Judy's graphic
+- Backend optimization and bug fixes
+
 ### 2023/01/12
 - Fixed crash bug when openining gang permission popup
 
