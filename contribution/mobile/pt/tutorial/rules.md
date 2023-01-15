@@ -42,3 +42,6 @@
 * Encenação / Roleplay
 * Discutir política, religião ou COVID
 * Usar qualquer idioma em qualquer canal de bate-papo
+
+### ADENDA 
+Por favor lembre-se que a equipa de moderação pode mutear ou banir em casos excecionais com o objetivo de providenciar uma experiência de utilizador segura, amigável e justa. A nossa equipa de moderação irá trabalhar em conjunto para alcançar conclusões coerentes nestes casos. 
