@@ -6,6 +6,7 @@
 AlphaC58
 Artra
 AskAmando
+Ayanna
 B3llial
 BoxinFoxx
 [CMDR7](https://github.com/cmdr7)
@@ -55,6 +56,7 @@ Proxxie
 [Fremad](https://github.com/Fremadico)
 [JEricaM](https://github.com/JEricaM)
 Jiler
+Jixt3r
 [Jognatan](https://github.com/Jognatan)
 [Johnruby](https://github.com/johnruby)
 [kj415j45](https://github.com/kj415j45)
@@ -131,6 +133,7 @@ ClayBravo6
 [converdario](https://github.com/converdario)
 [Maddening](https://github.com/Wildlife4700)
 [S0M3_DUD3](https://github.com/S0M3-DUD3)
+[Elrecoal-19](https://github.com/Elrecoal-19)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)

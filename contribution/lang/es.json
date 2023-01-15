@@ -3013,6 +3013,13 @@
  	 	 	"trans": "Puedes ${verb} ${amount} veces.",
  	 	 	"eng": "You can ${verb} ${amount} times"
  	 	},
+ 	 	"noAmountText": {
+ 	 	 	"vars": [
+ 	 	 	 	"verb"
+ 	 	 	],
+ 	 	 	"trans": "No puedes ${verb} esto",
+ 	 	 	"eng": "You are not able to ${verb} this"
+ 	 	},
  	 	"timeRequiredText": {
  	 	 	"vars": [
  	 	 	 	"verb",
@@ -6067,6 +6074,12 @@
  	 	 	"eng": "Flash Grenade"
  	 	}
  	},
+ 	"error": {
+ 	 	"10_aborted": {
+ 	 	 	"trans": "Encontró un error del lado del servidor, si ve este mensaje, espere 2 minutos antes de realizar cualquier otra acción para asegurarse de que no siga sucediendo.",
+ 	 	 	"eng": "Encountered an server side error, if you see this message, please wait for 2 minutes before making any other action to ensure it will not keep happening."
+ 	 	}
+ 	},
  	"combat": {
  	 	"log": {
  	 	 	"enemyAttack": {
@@ -6085,6 +6098,21 @@
  	 	 	 	"trans": "Atacaste a ${enemyName}, infligiendo ${value} de daño.",
  	 	 	 	"eng": "You attacked ${enemyName}, dealing ${value} damage"
  	 	 	}
+ 	 	},
+ 	 	"enemyKilled": {
+ 	 	 	"vars": [
+ 	 	 	 	"enemy",
+ 	 	 	 	"player"
+ 	 	 	],
+ 	 	 	"trans": "${enemy} fue derrotado por ${player}",
+ 	 	 	"eng": "${enemy} was defeated by ${player}"
+ 	 	},
+ 	 	"gearScoreTooHigh": {
+ 	 	 	"vars": [
+ 	 	 	 	"enemy"
+ 	 	 	],
+ 	 	 	"trans": "El nivel de su equipo promedio es demasiado alto para recibir una recompensa de ${enemy}",
+ 	 	 	"eng": "Your average equipment level is too high to receive reward from ${enemy}"
  	 	}
  	},
  	"receive": {
@@ -6259,6 +6287,10 @@
  	 	"buttonTut": {
  	 	 	"trans": "¿Crees que eres lo suficientemente fuerte? ¡Desafía a los enemigos más fuertes en la Mazmorra! \r\n                         ¡Recuerda comprar algunos objetos curativos! No recuperarás HP después de una pelea en la Mazmorra",
  	 	 	"eng": "Do you think you are strong enough? take on stronger enemies in dungeon!\r\n                        remember to buy some healing item! you won't regen after battle in dungeon"
+ 	 	},
+ 	 	"cleared": {
+ 	 	 	"trans": "¡Dungeon despejada!",
+ 	 	 	"eng": "Dungeon cleared!"
  	 	}
  	},
  	"inventory": {
@@ -6291,6 +6323,25 @@
  	 	 	"confirmText": {
  	 	 	 	"trans": "Usar",
  	 	 	 	"eng": "Use"
+ 	 	 	}
+ 	 	},
+ 	 	"error": {
+ 	 	 	"maxStack": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName",
+ 	 	 	 	 	"maxStackSize",
+ 	 	 	 	 	"newAmount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Exceder el elemento de la cantidad máxima, ${itemName} tiene un tamaño máximo de pila de ${maxStackSize}, pero está tratando de encajar en ${newAmount}",
+ 	 	 	 	"eng": "Exceed item max amount, ${itemName} has max stack size of ${maxStackSize}, but you are trying to fit in ${newAmount}"
+ 	 	 	},
+ 	 	 	"full": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"neededAmount",
+ 	 	 	 	 	"size"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Espacio insuficiente en el inventario, requiere ranuras de ${neededAmount}, pero solo tiene ${size}",
+ 	 	 	 	"eng": "Insufficient space in inventory, requires ${neededAmount} slots, but you only have ${size}"
  	 	 	}
  	 	}
  	},
@@ -7203,6 +7254,17 @@
  	 	 	 	 	"eng": "Allow this player to manage permission of other players"
  	 	 	 	}
  	 	 	}
+ 	 	},
+ 	 	"notInGang": {
+ 	 	 	"trans": "No estás en una pandilla",
+ 	 	 	"eng": "You are not in a gang"
+ 	 	},
+ 	 	"notTopGang": {
+ 	 	 	"vars": [
+ 	 	 	 	"topGangs"
+ 	 	 	],
+ 	 	 	"trans": "No estás en una pandilla superior. Las pandillas superiores son: ${topGangs}",
+ 	 	 	"eng": "You are not in a top gang. Top gangs are: ${topGangs}"
  	 	}
  	},
  	"itemStack": {
@@ -7421,6 +7483,101 @@
  	 	 	],
  	 	 	"trans": "Has enviado con éxito un emblema al jugador \"${playerName}\"",
  	 	 	"eng": "You have successfully sent an emblem to player \"${playerName}\""
+ 	 	}
+ 	},
+ 	"player": {
+ 	 	"error": {
+ 	 	 	"deleteWhileMuted": {
+ 	 	 	 	"trans": "No puede eliminar su cuenta cuando está apagado.",
+ 	 	 	 	"eng": "You can't delete your account when you are muted."
+ 	 	 	},
+ 	 	 	"deleteAccountTooEarly": {
+ 	 	 	 	"trans": "No puede eliminar esta cuenta ahora, espere unos días",
+ 	 	 	 	"eng": "You can't delete this account now, please wait a few days"
+ 	 	 	},
+ 	 	 	"playerNotFound": {
+ 	 	 	 	"trans": "Jugador no encontrado",
+ 	 	 	 	"eng": "Player not found"
+ 	 	 	},
+ 	 	 	"notInBattle": {
+ 	 	 	 	"trans": "No estás en la batalla.",
+ 	 	 	 	"eng": "You are not in battle."
+ 	 	 	},
+ 	 	 	"cantPerformAction": {
+ 	 	 	 	"trans": "No puedes realizar esta acción ahora",
+ 	 	 	 	"eng": "You can't perform this action now"
+ 	 	 	},
+ 	 	 	"invalidTravelLink": {
+ 	 	 	 	"trans": "Enlace de viaje no válido, si persiste, recargue",
+ 	 	 	 	"eng": "Invalid Travel Link, if persist please reload"
+ 	 	 	}
+ 	 	},
+ 	 	"escape": {
+ 	 	 	"success": {
+ 	 	 	 	"trans": "¡Has escapado con éxito!",
+ 	 	 	 	"eng": "You have successfully escaped!"
+ 	 	 	},
+ 	 	 	"failed": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"chance"
+ 	 	 	 	],
+ 	 	 	 	"trans": "No pudo escapar, oportunidad de éxito: ${chance}%",
+ 	 	 	 	"eng": "You failed to escape, success chance: ${chance}%"
+ 	 	 	}
+ 	 	},
+ 	 	"died": {
+ 	 	 	"vars": [
+ 	 	 	 	"enemy"
+ 	 	 	],
+ 	 	 	"trans": "`Fuiste asesinado por ${enemy}",
+ 	 	 	"eng": "`You were killed by ${enemy}"
+ 	 	},
+ 	 	"levelTooHigh": {
+ 	 	 	"trans": "Su nivel es demasiado alto para realizar esta acción aquí, intente hacerlo en la siguiente zona.",
+ 	 	 	"eng": "Your level is too high to perform this action here, try to do it in the next zone."
+ 	 	},
+ 	 	"giveCred": {
+ 	 	 	"success": {
+ 	 	 	 	"trans": "Has dado crédito a la calle Daily.",
+ 	 	 	 	"eng": "You have given daily street cred."
+ 	 	 	},
+ 	 	 	"notEnoughLevelError": {
+ 	 	 	 	"trans": "Debes ser el nivel 10 o superior para darle crédito a la calle del jugador",
+ 	 	 	 	"eng": "You must be level 10 or above to give player street cred"
+ 	 	 	},
+ 	 	 	"cooldownError": {
+ 	 	 	 	"trans": "Todavía no puedes darle crédito a la calle (una vez todos los días)",
+ 	 	 	 	"eng": "You cannot give street cred yet (once every day)"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"basicInfo": {
+ 	 	"nameUsed": {
+ 	 	 	"trans": "Este nombre es utilizado por otro jugador, use otro nombre",
+ 	 	 	"eng": "this name is used by other player, please use other name"
+ 	 	},
+ 	 	"nameIllegal": {
+ 	 	 	"trans": "Nombre ilegal, use otro nombre",
+ 	 	 	"eng": "Illegal name, please use other name"
+ 	 	},
+ 	 	"nameProfane": {
+ 	 	 	"trans": "Este nombre contiene palabras no permitidas, use otro nombre",
+ 	 	 	"eng": "This name contains wordings not allowed, please use other name"
+ 	 	},
+ 	 	"nameInvalid": {
+ 	 	 	"trans": "La longitud del nombre debe ser mayor que 4, menos o igual a 16 y solo contiene caracteres en inglés, números o \\ '_ \\'",
+ 	 	 	"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'"
+ 	 	}
+ 	},
+ 	"itemUse": {
+ 	 	"error": {
+ 	 	 	"effectStillLong": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"time"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Parece que ya hay un mismo efecto de estado desplegado por otro jugador. Puede implementar nuevamente en ${time} minuto.",
+ 	 	 	 	"eng": "Seems like there is a same status effect deployed by other player already. you may deploy again in ${time} minute."
+ 	 	 	}
  	 	}
  	}
 }

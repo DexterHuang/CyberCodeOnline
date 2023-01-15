@@ -3013,6 +3013,13 @@
  	 	 	"trans": "kamu dapat ${verb} ${amount} kali",
  	 	 	"eng": "You can ${verb} ${amount} times"
  	 	},
+ 	 	"noAmountText": {
+ 	 	 	"vars": [
+ 	 	 	 	"verb"
+ 	 	 	],
+ 	 	 	"trans": "Anda tidak dapat ${verb} ini",
+ 	 	 	"eng": "You are not able to ${verb} this"
+ 	 	},
  	 	"timeRequiredText": {
  	 	 	"vars": [
  	 	 	 	"verb",
@@ -6067,6 +6074,12 @@
  	 	 	"eng": "Flash Grenade"
  	 	}
  	},
+ 	"error": {
+ 	 	"10_aborted": {
+ 	 	 	"trans": "Menghadapi kesalahan sisi server, jika Anda melihat pesan ini, harap tunggu selama 2 menit sebelum membuat tindakan lain untuk memastikan itu tidak akan terus terjadi.",
+ 	 	 	"eng": "Encountered an server side error, if you see this message, please wait for 2 minutes before making any other action to ensure it will not keep happening."
+ 	 	}
+ 	},
  	"combat": {
  	 	"log": {
  	 	 	"enemyAttack": {
@@ -6085,6 +6098,21 @@
  	 	 	 	"trans": "Kamu menyerang ${enemyName}, menangani kerusakan ${value}",
  	 	 	 	"eng": "You attacked ${enemyName}, dealing ${value} damage"
  	 	 	}
+ 	 	},
+ 	 	"enemyKilled": {
+ 	 	 	"vars": [
+ 	 	 	 	"enemy",
+ 	 	 	 	"player"
+ 	 	 	],
+ 	 	 	"trans": "${enemy} dikalahkan oleh ${player}",
+ 	 	 	"eng": "${enemy} was defeated by ${player}"
+ 	 	},
+ 	 	"gearScoreTooHigh": {
+ 	 	 	"vars": [
+ 	 	 	 	"enemy"
+ 	 	 	],
+ 	 	 	"trans": "Tingkat peralatan rata -rata Anda terlalu tinggi untuk menerima hadiah dari ${enemy}",
+ 	 	 	"eng": "Your average equipment level is too high to receive reward from ${enemy}"
  	 	}
  	},
  	"receive": {
@@ -6259,6 +6287,10 @@
  	 	"buttonTut": {
  	 	 	"trans": "Apakah Kamu pikir Kamu cukup kuat? Carilah musuh yang lebih kuat di dungeon! \r\n                         Ingatlah untuk membeli beberapa item Healing! Nyawa kamu tidak akan bertambah setelah pertempuran di dungeon",
  	 	 	"eng": "Do you think you are strong enough? take on stronger enemies in dungeon!\r\n                        remember to buy some healing item! you won't regen after battle in dungeon"
+ 	 	},
+ 	 	"cleared": {
+ 	 	 	"trans": "Dungeon dibersihkan!",
+ 	 	 	"eng": "Dungeon cleared!"
  	 	}
  	},
  	"inventory": {
@@ -6291,6 +6323,25 @@
  	 	 	"confirmText": {
  	 	 	 	"trans": "Gunakan",
  	 	 	 	"eng": "Use"
+ 	 	 	}
+ 	 	},
+ 	 	"error": {
+ 	 	 	"maxStack": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName",
+ 	 	 	 	 	"maxStackSize",
+ 	 	 	 	 	"newAmount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Melebihi jumlah item max, ${itemName} memiliki ukuran tumpukan maksimum ${maxStackSize}, tetapi Anda mencoba untuk menyesuaikan ${newAmount}",
+ 	 	 	 	"eng": "Exceed item max amount, ${itemName} has max stack size of ${maxStackSize}, but you are trying to fit in ${newAmount}"
+ 	 	 	},
+ 	 	 	"full": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"neededAmount",
+ 	 	 	 	 	"size"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Ruang yang tidak memadai dalam inventaris, membutuhkan slot ${neededAmount}, tetapi Anda hanya memiliki ${size}",
+ 	 	 	 	"eng": "Insufficient space in inventory, requires ${neededAmount} slots, but you only have ${size}"
  	 	 	}
  	 	}
  	},
@@ -7203,6 +7254,17 @@
  	 	 	 	 	"eng": "Allow this player to manage permission of other players"
  	 	 	 	}
  	 	 	}
+ 	 	},
+ 	 	"notInGang": {
+ 	 	 	"trans": "Anda tidak berada di geng",
+ 	 	 	"eng": "You are not in a gang"
+ 	 	},
+ 	 	"notTopGang": {
+ 	 	 	"vars": [
+ 	 	 	 	"topGangs"
+ 	 	 	],
+ 	 	 	"trans": "Anda tidak berada di geng top. Geng teratas adalah: ${topGangs}",
+ 	 	 	"eng": "You are not in a top gang. Top gangs are: ${topGangs}"
  	 	}
  	},
  	"itemStack": {
@@ -7421,6 +7483,101 @@
  	 	 	],
  	 	 	"trans": "Anda telah berhasil mengirim lambang ke pemain \"${playerName}\"",
  	 	 	"eng": "You have successfully sent an emblem to player \"${playerName}\""
+ 	 	}
+ 	},
+ 	"player": {
+ 	 	"error": {
+ 	 	 	"deleteWhileMuted": {
+ 	 	 	 	"trans": "Anda tidak dapat menghapus akun Anda saat Anda diredam.",
+ 	 	 	 	"eng": "You can't delete your account when you are muted."
+ 	 	 	},
+ 	 	 	"deleteAccountTooEarly": {
+ 	 	 	 	"trans": "Anda tidak dapat menghapus akun ini sekarang, tunggu beberapa hari",
+ 	 	 	 	"eng": "You can't delete this account now, please wait a few days"
+ 	 	 	},
+ 	 	 	"playerNotFound": {
+ 	 	 	 	"trans": "Pemain tidak ditemukan",
+ 	 	 	 	"eng": "Player not found"
+ 	 	 	},
+ 	 	 	"notInBattle": {
+ 	 	 	 	"trans": "Anda tidak dalam pertempuran.",
+ 	 	 	 	"eng": "You are not in battle."
+ 	 	 	},
+ 	 	 	"cantPerformAction": {
+ 	 	 	 	"trans": "Anda tidak dapat melakukan tindakan ini sekarang",
+ 	 	 	 	"eng": "You can't perform this action now"
+ 	 	 	},
+ 	 	 	"invalidTravelLink": {
+ 	 	 	 	"trans": "Tautan perjalanan yang tidak valid, jika bertahan, silakan muat ulang",
+ 	 	 	 	"eng": "Invalid Travel Link, if persist please reload"
+ 	 	 	}
+ 	 	},
+ 	 	"escape": {
+ 	 	 	"success": {
+ 	 	 	 	"trans": "Anda telah berhasil melarikan diri!",
+ 	 	 	 	"eng": "You have successfully escaped!"
+ 	 	 	},
+ 	 	 	"failed": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"chance"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Anda gagal melarikan diri, kesempatan sukses: ${chance}%",
+ 	 	 	 	"eng": "You failed to escape, success chance: ${chance}%"
+ 	 	 	}
+ 	 	},
+ 	 	"died": {
+ 	 	 	"vars": [
+ 	 	 	 	"enemy"
+ 	 	 	],
+ 	 	 	"trans": "`Anda dibunuh oleh ${enemy}",
+ 	 	 	"eng": "`You were killed by ${enemy}"
+ 	 	},
+ 	 	"levelTooHigh": {
+ 	 	 	"trans": "Level Anda terlalu tinggi untuk melakukan tindakan ini di sini, cobalah melakukannya di zona berikutnya.",
+ 	 	 	"eng": "Your level is too high to perform this action here, try to do it in the next zone."
+ 	 	},
+ 	 	"giveCred": {
+ 	 	 	"success": {
+ 	 	 	 	"trans": "Anda telah memberikan kredibilitas jalanan harian.",
+ 	 	 	 	"eng": "You have given daily street cred."
+ 	 	 	},
+ 	 	 	"notEnoughLevelError": {
+ 	 	 	 	"trans": "Anda harus level 10 atau lebih untuk memberikan kredo jalan pemain",
+ 	 	 	 	"eng": "You must be level 10 or above to give player street cred"
+ 	 	 	},
+ 	 	 	"cooldownError": {
+ 	 	 	 	"trans": "Anda belum dapat memberikan kredibilitas jalanan (sekali setiap hari)",
+ 	 	 	 	"eng": "You cannot give street cred yet (once every day)"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"basicInfo": {
+ 	 	"nameUsed": {
+ 	 	 	"trans": "Nama ini digunakan oleh pemain lain, silakan gunakan nama lain",
+ 	 	 	"eng": "this name is used by other player, please use other name"
+ 	 	},
+ 	 	"nameIllegal": {
+ 	 	 	"trans": "Nama ilegal, silakan gunakan nama lain",
+ 	 	 	"eng": "Illegal name, please use other name"
+ 	 	},
+ 	 	"nameProfane": {
+ 	 	 	"trans": "Nama ini berisi kata -kata yang tidak diizinkan, silakan gunakan nama lain",
+ 	 	 	"eng": "This name contains wordings not allowed, please use other name"
+ 	 	},
+ 	 	"nameInvalid": {
+ 	 	 	"trans": "Panjang nama harus lebih besar dari 4, kurang dari atau sama dengan 16 dan hanya berisi karakter bahasa Inggris, angka atau \\ '_ \\'",
+ 	 	 	"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'"
+ 	 	}
+ 	},
+ 	"itemUse": {
+ 	 	"error": {
+ 	 	 	"effectStillLong": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"time"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Sepertinya ada efek status yang sama yang sudah digunakan oleh pemain lain. Anda dapat menggunakan lagi di ${time} menit.",
+ 	 	 	 	"eng": "Seems like there is a same status effect deployed by other player already. you may deploy again in ${time} minute."
+ 	 	 	}
  	 	}
  	}
 }

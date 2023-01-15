@@ -3013,6 +3013,13 @@
  	 	 	"trans": "คุณสามารถซื้อ ${verb} ได้สูงสุด ${amount} ครั้ง",
  	 	 	"eng": "You can ${verb} ${amount} times"
  	 	},
+ 	 	"noAmountText": {
+ 	 	 	"vars": [
+ 	 	 	 	"verb"
+ 	 	 	],
+ 	 	 	"trans": "คุณไม่สามารถ ${verb} สิ่งนี้ได้",
+ 	 	 	"eng": "You are not able to ${verb} this"
+ 	 	},
  	 	"timeRequiredText": {
  	 	 	"vars": [
  	 	 	 	"verb",
@@ -6067,6 +6074,12 @@
  	 	 	"eng": "Flash Grenade"
  	 	}
  	},
+ 	"error": {
+ 	 	"10_aborted": {
+ 	 	 	"trans": "พบข้อผิดพลาดด้านเซิร์ฟเวอร์หากคุณเห็นข้อความนี้โปรดรอ 2 นาทีก่อนที่จะทำการดำเนินการอื่น ๆ เพื่อให้แน่ใจว่าจะไม่เกิดขึ้น",
+ 	 	 	"eng": "Encountered an server side error, if you see this message, please wait for 2 minutes before making any other action to ensure it will not keep happening."
+ 	 	}
+ 	},
  	"combat": {
  	 	"log": {
  	 	 	"enemyAttack": {
@@ -6085,6 +6098,21 @@
  	 	 	 	"trans": "คุณโจมตี ${enemyName} จัดการ ${value} ดาเมจ",
  	 	 	 	"eng": "You attacked ${enemyName}, dealing ${value} damage"
  	 	 	}
+ 	 	},
+ 	 	"enemyKilled": {
+ 	 	 	"vars": [
+ 	 	 	 	"enemy",
+ 	 	 	 	"player"
+ 	 	 	],
+ 	 	 	"trans": "${enemy} พ่ายแพ้โดย ${player}",
+ 	 	 	"eng": "${enemy} was defeated by ${player}"
+ 	 	},
+ 	 	"gearScoreTooHigh": {
+ 	 	 	"vars": [
+ 	 	 	 	"enemy"
+ 	 	 	],
+ 	 	 	"trans": "ระดับอุปกรณ์เฉลี่ยของคุณสูงเกินไปที่จะรับรางวัลจาก ${enemy}",
+ 	 	 	"eng": "Your average equipment level is too high to receive reward from ${enemy}"
  	 	}
  	},
  	"receive": {
@@ -6259,6 +6287,10 @@
  	 	"buttonTut": {
  	 	 	"trans": "คุณคิดว่าคุณแข็งแกร่งพอหรือไม่? ใช้ศัตรูที่แข็งแกร่งในคุกใต้ดิน! \r\n                         อย่าลืมซื้อไอเท็มการรักษา! คุณจะไม่ฟื้นหลังจากการต่อสู้ในดันเจี้ยน",
  	 	 	"eng": "Do you think you are strong enough? take on stronger enemies in dungeon!\r\n                        remember to buy some healing item! you won't regen after battle in dungeon"
+ 	 	},
+ 	 	"cleared": {
+ 	 	 	"trans": "Dungeon เคลียร์!",
+ 	 	 	"eng": "Dungeon cleared!"
  	 	}
  	},
  	"inventory": {
@@ -6291,6 +6323,25 @@
  	 	 	"confirmText": {
  	 	 	 	"trans": "ใช้",
  	 	 	 	"eng": "Use"
+ 	 	 	}
+ 	 	},
+ 	 	"error": {
+ 	 	 	"maxStack": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName",
+ 	 	 	 	 	"maxStackSize",
+ 	 	 	 	 	"newAmount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "เกินจำนวนรายการสูงสุด ${itemName} มีขนาดสแต็กสูงสุดของ ${maxStackSize} แต่คุณพยายามที่จะพอดีใน ${newAmount}",
+ 	 	 	 	"eng": "Exceed item max amount, ${itemName} has max stack size of ${maxStackSize}, but you are trying to fit in ${newAmount}"
+ 	 	 	},
+ 	 	 	"full": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"neededAmount",
+ 	 	 	 	 	"size"
+ 	 	 	 	],
+ 	 	 	 	"trans": "พื้นที่ไม่เพียงพอในสินค้าคงคลังต้องใช้สล็อต ${neededAmount} แต่คุณมีเพียง ${size}",
+ 	 	 	 	"eng": "Insufficient space in inventory, requires ${neededAmount} slots, but you only have ${size}"
  	 	 	}
  	 	}
  	},
@@ -7203,6 +7254,17 @@
  	 	 	 	 	"eng": "Allow this player to manage permission of other players"
  	 	 	 	}
  	 	 	}
+ 	 	},
+ 	 	"notInGang": {
+ 	 	 	"trans": "คุณไม่ได้อยู่ในแก๊งค์",
+ 	 	 	"eng": "You are not in a gang"
+ 	 	},
+ 	 	"notTopGang": {
+ 	 	 	"vars": [
+ 	 	 	 	"topGangs"
+ 	 	 	],
+ 	 	 	"trans": "คุณไม่ได้อยู่ในแก๊งค์อันดับต้น ๆ แก๊งค์ยอดนิยมคือ: ${topGangs}",
+ 	 	 	"eng": "You are not in a top gang. Top gangs are: ${topGangs}"
  	 	}
  	},
  	"itemStack": {
@@ -7421,6 +7483,101 @@
  	 	 	],
  	 	 	"trans": "คุณส่งสัญลักษณ์ให้ผู้เล่น \"${playerName}\" สำเร็จแล้ว",
  	 	 	"eng": "You have successfully sent an emblem to player \"${playerName}\""
+ 	 	}
+ 	},
+ 	"player": {
+ 	 	"error": {
+ 	 	 	"deleteWhileMuted": {
+ 	 	 	 	"trans": "คุณไม่สามารถลบบัญชีของคุณเมื่อคุณปิดเสียง",
+ 	 	 	 	"eng": "You can't delete your account when you are muted."
+ 	 	 	},
+ 	 	 	"deleteAccountTooEarly": {
+ 	 	 	 	"trans": "คุณไม่สามารถลบบัญชีนี้ได้ในตอนนี้โปรดรอสองสามวัน",
+ 	 	 	 	"eng": "You can't delete this account now, please wait a few days"
+ 	 	 	},
+ 	 	 	"playerNotFound": {
+ 	 	 	 	"trans": "ไม่พบผู้เล่น",
+ 	 	 	 	"eng": "Player not found"
+ 	 	 	},
+ 	 	 	"notInBattle": {
+ 	 	 	 	"trans": "คุณไม่ได้อยู่ในการต่อสู้",
+ 	 	 	 	"eng": "You are not in battle."
+ 	 	 	},
+ 	 	 	"cantPerformAction": {
+ 	 	 	 	"trans": "คุณไม่สามารถดำเนินการนี้ได้ในขณะนี้",
+ 	 	 	 	"eng": "You can't perform this action now"
+ 	 	 	},
+ 	 	 	"invalidTravelLink": {
+ 	 	 	 	"trans": "ลิงค์การเดินทางที่ไม่ถูกต้องหากคงอยู่โปรดโหลดซ้ำ",
+ 	 	 	 	"eng": "Invalid Travel Link, if persist please reload"
+ 	 	 	}
+ 	 	},
+ 	 	"escape": {
+ 	 	 	"success": {
+ 	 	 	 	"trans": "คุณหนีไปได้สำเร็จ!",
+ 	 	 	 	"eng": "You have successfully escaped!"
+ 	 	 	},
+ 	 	 	"failed": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"chance"
+ 	 	 	 	],
+ 	 	 	 	"trans": "คุณล้มเหลวในการหลบหนีโอกาสประสบความสำเร็จ: ${chance}%",
+ 	 	 	 	"eng": "You failed to escape, success chance: ${chance}%"
+ 	 	 	}
+ 	 	},
+ 	 	"died": {
+ 	 	 	"vars": [
+ 	 	 	 	"enemy"
+ 	 	 	],
+ 	 	 	"trans": "`คุณถูกฆ่าตายโดย ${enemy}",
+ 	 	 	"eng": "`You were killed by ${enemy}"
+ 	 	},
+ 	 	"levelTooHigh": {
+ 	 	 	"trans": "ระดับของคุณสูงเกินไปที่จะดำเนินการนี้ที่นี่ลองทำในโซนถัดไป",
+ 	 	 	"eng": "Your level is too high to perform this action here, try to do it in the next zone."
+ 	 	},
+ 	 	"giveCred": {
+ 	 	 	"success": {
+ 	 	 	 	"trans": "คุณได้รับเครดิต Daily Street",
+ 	 	 	 	"eng": "You have given daily street cred."
+ 	 	 	},
+ 	 	 	"notEnoughLevelError": {
+ 	 	 	 	"trans": "คุณต้องอยู่ในระดับที่ 10 ขึ้นไปเพื่อให้ผู้เล่นมีเครดิตสตรีท",
+ 	 	 	 	"eng": "You must be level 10 or above to give player street cred"
+ 	 	 	},
+ 	 	 	"cooldownError": {
+ 	 	 	 	"trans": "คุณยังไม่สามารถให้เครดิต Street (ทุกวัน)",
+ 	 	 	 	"eng": "You cannot give street cred yet (once every day)"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"basicInfo": {
+ 	 	"nameUsed": {
+ 	 	 	"trans": "ชื่อนี้ใช้โดยผู้เล่นคนอื่นโปรดใช้ชื่ออื่น",
+ 	 	 	"eng": "this name is used by other player, please use other name"
+ 	 	},
+ 	 	"nameIllegal": {
+ 	 	 	"trans": "ชื่อที่ผิดกฎหมายโปรดใช้ชื่ออื่น",
+ 	 	 	"eng": "Illegal name, please use other name"
+ 	 	},
+ 	 	"nameProfane": {
+ 	 	 	"trans": "ชื่อนี้ไม่อนุญาตให้ใช้คำพูดโปรดใช้ชื่ออื่น",
+ 	 	 	"eng": "This name contains wordings not allowed, please use other name"
+ 	 	},
+ 	 	"nameInvalid": {
+ 	 	 	"trans": "ความยาวชื่อต้องสูงกว่า 4 น้อยกว่าหรือเท่ากับ 16 และมีเฉพาะอักขระภาษาอังกฤษตัวเลขหรือ \\ '_ \\'",
+ 	 	 	"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'"
+ 	 	}
+ 	},
+ 	"itemUse": {
+ 	 	"error": {
+ 	 	 	"effectStillLong": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"time"
+ 	 	 	 	],
+ 	 	 	 	"trans": "ดูเหมือนว่าจะมีเอฟเฟกต์สถานะเดียวกันที่ถูกปรับใช้โดยผู้เล่นคนอื่นแล้ว คุณสามารถปรับใช้อีกครั้งใน ${time} นาที",
+ 	 	 	 	"eng": "Seems like there is a same status effect deployed by other player already. you may deploy again in ${time} minute."
+ 	 	 	}
  	 	}
  	}
 }

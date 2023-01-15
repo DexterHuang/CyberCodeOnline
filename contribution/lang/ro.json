@@ -3013,6 +3013,13 @@
  	 	 	"trans": "Poți să ${verb} ${amount} de atâtea ori",
  	 	 	"eng": "You can ${verb} ${amount} times"
  	 	},
+ 	 	"noAmountText": {
+ 	 	 	"vars": [
+ 	 	 	 	"verb"
+ 	 	 	],
+ 	 	 	"trans": "Nu sunteți capabili să ${verb} acest lucru",
+ 	 	 	"eng": "You are not able to ${verb} this"
+ 	 	},
  	 	"timeRequiredText": {
  	 	 	"vars": [
  	 	 	 	"verb",
@@ -6067,6 +6074,12 @@
  	 	 	"eng": "Flash Grenade"
  	 	}
  	},
+ 	"error": {
+ 	 	"10_aborted": {
+ 	 	 	"trans": "A întâlnit o eroare din partea serverului, dacă vedeți acest mesaj, vă rugăm să așteptați 2 minute înainte de a face orice altă acțiune pentru a vă asigura că nu va continua.",
+ 	 	 	"eng": "Encountered an server side error, if you see this message, please wait for 2 minutes before making any other action to ensure it will not keep happening."
+ 	 	}
+ 	},
  	"combat": {
  	 	"log": {
  	 	 	"enemyAttack": {
@@ -6085,6 +6098,21 @@
  	 	 	 	"trans": "Ați atacat ${enemyName}, care se ocupă de daune ${value}",
  	 	 	 	"eng": "You attacked ${enemyName}, dealing ${value} damage"
  	 	 	}
+ 	 	},
+ 	 	"enemyKilled": {
+ 	 	 	"vars": [
+ 	 	 	 	"enemy",
+ 	 	 	 	"player"
+ 	 	 	],
+ 	 	 	"trans": "${enemy} a fost învins de ${player}",
+ 	 	 	"eng": "${enemy} was defeated by ${player}"
+ 	 	},
+ 	 	"gearScoreTooHigh": {
+ 	 	 	"vars": [
+ 	 	 	 	"enemy"
+ 	 	 	],
+ 	 	 	"trans": "Nivelul mediu al echipamentului este prea mare pentru a primi recompensă de la ${enemy}",
+ 	 	 	"eng": "Your average equipment level is too high to receive reward from ${enemy}"
  	 	}
  	},
  	"receive": {
@@ -6259,6 +6287,10 @@
  	 	"buttonTut": {
  	 	 	"trans": "Crezi că ești destul de puternic? Luați dușmani mai puternici în temniță! \r\n                         Amintiți-vă să cumpărați un element de vindecare! Nu veți regeni după bătălia în Dungeon",
  	 	 	"eng": "Do you think you are strong enough? take on stronger enemies in dungeon!\r\n                        remember to buy some healing item! you won't regen after battle in dungeon"
+ 	 	},
+ 	 	"cleared": {
+ 	 	 	"trans": "Temnița a fost curățată!",
+ 	 	 	"eng": "Dungeon cleared!"
  	 	}
  	},
  	"inventory": {
@@ -6291,6 +6323,25 @@
  	 	 	"confirmText": {
  	 	 	 	"trans": "Utilizare",
  	 	 	 	"eng": "Use"
+ 	 	 	}
+ 	 	},
+ 	 	"error": {
+ 	 	 	"maxStack": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName",
+ 	 	 	 	 	"maxStackSize",
+ 	 	 	 	 	"newAmount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Depășiți suma maximă a articolului, ${itemName} are dimensiunea maximă a stivei de ${maxStackSize}, dar încercați să vă încadrați în ${newAmount}",
+ 	 	 	 	"eng": "Exceed item max amount, ${itemName} has max stack size of ${maxStackSize}, but you are trying to fit in ${newAmount}"
+ 	 	 	},
+ 	 	 	"full": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"neededAmount",
+ 	 	 	 	 	"size"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Spațiu insuficient în inventar, necesită sloturi ${neededAmount}, dar aveți doar ${size}",
+ 	 	 	 	"eng": "Insufficient space in inventory, requires ${neededAmount} slots, but you only have ${size}"
  	 	 	}
  	 	}
  	},
@@ -7203,6 +7254,17 @@
  	 	 	 	 	"eng": "Allow this player to manage permission of other players"
  	 	 	 	}
  	 	 	}
+ 	 	},
+ 	 	"notInGang": {
+ 	 	 	"trans": "Nu ești într -o bandă",
+ 	 	 	"eng": "You are not in a gang"
+ 	 	},
+ 	 	"notTopGang": {
+ 	 	 	"vars": [
+ 	 	 	 	"topGangs"
+ 	 	 	],
+ 	 	 	"trans": "Nu te afli într -o bandă de top. Gandele de top sunt: ${topGangs}",
+ 	 	 	"eng": "You are not in a top gang. Top gangs are: ${topGangs}"
  	 	}
  	},
  	"itemStack": {
@@ -7421,6 +7483,101 @@
  	 	 	],
  	 	 	"trans": "Ați trimis cu succes o emblemă la player \"${playerName}\"",
  	 	 	"eng": "You have successfully sent an emblem to player \"${playerName}\""
+ 	 	}
+ 	},
+ 	"player": {
+ 	 	"error": {
+ 	 	 	"deleteWhileMuted": {
+ 	 	 	 	"trans": "Nu vă puteți șterge contul atunci când sunteți mut.",
+ 	 	 	 	"eng": "You can't delete your account when you are muted."
+ 	 	 	},
+ 	 	 	"deleteAccountTooEarly": {
+ 	 	 	 	"trans": "Nu puteți șterge acest cont acum, vă rugăm să așteptați câteva zile",
+ 	 	 	 	"eng": "You can't delete this account now, please wait a few days"
+ 	 	 	},
+ 	 	 	"playerNotFound": {
+ 	 	 	 	"trans": "Jucătorul nu a fost găsit",
+ 	 	 	 	"eng": "Player not found"
+ 	 	 	},
+ 	 	 	"notInBattle": {
+ 	 	 	 	"trans": "Nu ești în luptă.",
+ 	 	 	 	"eng": "You are not in battle."
+ 	 	 	},
+ 	 	 	"cantPerformAction": {
+ 	 	 	 	"trans": "Nu puteți efectua această acțiune acum",
+ 	 	 	 	"eng": "You can't perform this action now"
+ 	 	 	},
+ 	 	 	"invalidTravelLink": {
+ 	 	 	 	"trans": "Link de călătorie nevalid, dacă persistă, vă rugăm să reîncărcați",
+ 	 	 	 	"eng": "Invalid Travel Link, if persist please reload"
+ 	 	 	}
+ 	 	},
+ 	 	"escape": {
+ 	 	 	"success": {
+ 	 	 	 	"trans": "Ai scăpat cu succes!",
+ 	 	 	 	"eng": "You have successfully escaped!"
+ 	 	 	},
+ 	 	 	"failed": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"chance"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Nu ați reușit să scăpați, șansa de succes: ${chance}%",
+ 	 	 	 	"eng": "You failed to escape, success chance: ${chance}%"
+ 	 	 	}
+ 	 	},
+ 	 	"died": {
+ 	 	 	"vars": [
+ 	 	 	 	"enemy"
+ 	 	 	],
+ 	 	 	"trans": "`Ai fost ucis de ${enemy}",
+ 	 	 	"eng": "`You were killed by ${enemy}"
+ 	 	},
+ 	 	"levelTooHigh": {
+ 	 	 	"trans": "Nivelul dvs. este prea mare pentru a efectua această acțiune aici, încercați să o faceți în zona următoare.",
+ 	 	 	"eng": "Your level is too high to perform this action here, try to do it in the next zone."
+ 	 	},
+ 	 	"giveCred": {
+ 	 	 	"success": {
+ 	 	 	 	"trans": "Ați dat credite Daily Street.",
+ 	 	 	 	"eng": "You have given daily street cred."
+ 	 	 	},
+ 	 	 	"notEnoughLevelError": {
+ 	 	 	 	"trans": "Trebuie să fiți nivelul 10 sau mai mult pentru a da jucătorului Street Credit",
+ 	 	 	 	"eng": "You must be level 10 or above to give player street cred"
+ 	 	 	},
+ 	 	 	"cooldownError": {
+ 	 	 	 	"trans": "Nu puteți da încă credite de stradă (o dată în fiecare zi)",
+ 	 	 	 	"eng": "You cannot give street cred yet (once every day)"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"basicInfo": {
+ 	 	"nameUsed": {
+ 	 	 	"trans": "Acest nume este folosit de un alt jucător, vă rugăm să folosiți alt nume",
+ 	 	 	"eng": "this name is used by other player, please use other name"
+ 	 	},
+ 	 	"nameIllegal": {
+ 	 	 	"trans": "Nume ilegal, vă rugăm să folosiți alt nume",
+ 	 	 	"eng": "Illegal name, please use other name"
+ 	 	},
+ 	 	"nameProfane": {
+ 	 	 	"trans": "Acest nume conține cuvinte care nu sunt permise, vă rugăm să folosiți alt nume",
+ 	 	 	"eng": "This name contains wordings not allowed, please use other name"
+ 	 	},
+ 	 	"nameInvalid": {
+ 	 	 	"trans": "Lungimea numelui trebuie să fie mai mare decât 4, mai puțin atunci sau egală cu 16 și conține doar caractere engleze, numere sau \\ '_ \\'",
+ 	 	 	"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'"
+ 	 	}
+ 	},
+ 	"itemUse": {
+ 	 	"error": {
+ 	 	 	"effectStillLong": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"time"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Se pare că există deja un efect de statut implementat de un alt jucător. Puteți implementa din nou în minut ${time}.",
+ 	 	 	 	"eng": "Seems like there is a same status effect deployed by other player already. you may deploy again in ${time} minute."
+ 	 	 	}
  	 	}
  	}
 }

@@ -24,10 +24,25 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
-## Updates           
+## Updates             
+### 2023/01/16
+- Reduced sensitivity of swipe on inventory tab
+- Updated Judy's graphic
+- Backend optimization and bug fixes
+
+### 2023/01/12
+- Fixed crash bug when openining gang permission popup
+
+### 2023/01/12
+- Updated rendering core liberary and with it added many optimizations, game should render faster both on start up and while running
+- Updated graphic for Violet, Jen and Liam 
+
+### 2023/01/09
+- Added bot detection algorithm, server will detect base on client's behaviour and other factors to choose to show minigames when attempt to start AFK task ONLY IF the system think is necessary, meaning most people will not encounter this (*I am still tuning the system, the goal is majority(imagine something like 99%) of the player will not even encounter this mechanism, and the rare situation where the algorithm determine the client might be possible bot, the minigame/captcha will show up sometimes, not too often.*) this algorithm is also partly integrated Google's service to detect bots, which is base on Machine Learning and other Google magic, so it will become more accurate the longer we use it. hopefully this will reduce the number of bot abusers/cheaters and maintain the fairness of the game :)
+
 ### 2023/01/06
 - Attempt in preventing two skips being used at exactly same time at very rare situation, let me know if it can still happen. 
-- Serverside optimization, some part of system should run faster now and has less strain on the system overal
+- Serverside optimization, some part of system should run faster now and has less strain on the system overall
 
 ### 2023/01/04
 - Fixed issue with some phone scales the UI way too big, now will force rescale the UI to more resonable scale. you can now also manually change your UI scale in setting

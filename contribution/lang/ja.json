@@ -1450,7 +1450,7 @@
  	 	 	 	 	"eng": "Tiny"
  	 	 	 	},
  	 	 	 	"tiny": {
- 	 	 	 	 	"trans": "小さい",
+ 	 	 	 	 	"trans": "もっと小さい",
  	 	 	 	 	"eng": "Tiny"
  	 	 	 	}
  	 	 	},
@@ -3012,6 +3012,13 @@
  	 	 	],
  	 	 	"trans": "${amount}回${verb}できます",
  	 	 	"eng": "You can ${verb} ${amount} times"
+ 	 	},
+ 	 	"noAmountText": {
+ 	 	 	"vars": [
+ 	 	 	 	"verb"
+ 	 	 	],
+ 	 	 	"trans": "あなたはこれを${verb}することができません",
+ 	 	 	"eng": "You are not able to ${verb} this"
  	 	},
  	 	"timeRequiredText": {
  	 	 	"vars": [
@@ -6281,6 +6288,12 @@
  	 	 	"eng": "Flash Grenade"
  	 	}
  	},
+ 	"error": {
+ 	 	"10_aborted": {
+ 	 	 	"trans": "サーバー側のエラーに遭遇しました。このメッセージが表示された場合は、他のアクションを行う前に2分間待って、それが発生し続けないようにしてください。",
+ 	 	 	"eng": "Encountered an server side error, if you see this message, please wait for 2 minutes before making any other action to ensure it will not keep happening."
+ 	 	}
+ 	},
  	"combat": {
  	 	"log": {
  	 	 	"enemyAttack": {
@@ -6299,6 +6312,21 @@
  	 	 	 	"trans": "あなたは${enemyName}を攻撃し,${value}ダメージを与えた",
  	 	 	 	"eng": "You attacked ${enemyName}, dealing ${value} damage"
  	 	 	}
+ 	 	},
+ 	 	"enemyKilled": {
+ 	 	 	"vars": [
+ 	 	 	 	"enemy",
+ 	 	 	 	"player"
+ 	 	 	],
+ 	 	 	"trans": "${enemy}は${player}によって敗北しました",
+ 	 	 	"eng": "${enemy} was defeated by ${player}"
+ 	 	},
+ 	 	"gearScoreTooHigh": {
+ 	 	 	"vars": [
+ 	 	 	 	"enemy"
+ 	 	 	],
+ 	 	 	"trans": "あなたの平均機器レベルは高すぎて${enemy}から報酬を受け取ることができません",
+ 	 	 	"eng": "Your average equipment level is too high to receive reward from ${enemy}"
  	 	}
  	},
  	"receive": {
@@ -6473,6 +6501,10 @@
  	 	"buttonTut": {
  	 	 	"trans": "強さに自信があるなら, ダンジョンでより強い敵と戦いましょう！ \r\n                         回復アイテムの準備を忘れないで！ ダンジョンでは戦闘の後にHPが回復しません.",
  	 	 	"eng": "Do you think you are strong enough? take on stronger enemies in dungeon!\r\n                        remember to buy some healing item! you won't regen after battle in dungeon"
+ 	 	},
+ 	 	"cleared": {
+ 	 	 	"trans": "ダンジョンがクリアされました！",
+ 	 	 	"eng": "Dungeon cleared!"
  	 	}
  	},
  	"inventory": {
@@ -6505,6 +6537,25 @@
  	 	 	"confirmText": {
  	 	 	 	"trans": "使用する",
  	 	 	 	"eng": "Use"
+ 	 	 	}
+ 	 	},
+ 	 	"error": {
+ 	 	 	"maxStack": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName",
+ 	 	 	 	 	"maxStackSize",
+ 	 	 	 	 	"newAmount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "アイテムの最大額を超える、${itemName}の最大スタックサイズは${maxStackSize}ですが、${newAmount}に収まりようとしています",
+ 	 	 	 	"eng": "Exceed item max amount, ${itemName} has max stack size of ${maxStackSize}, but you are trying to fit in ${newAmount}"
+ 	 	 	},
+ 	 	 	"full": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"neededAmount",
+ 	 	 	 	 	"size"
+ 	 	 	 	],
+ 	 	 	 	"trans": "在庫のスペースが不十分で、${neededAmount}スロットが必要ですが、${size}しか持っていません",
+ 	 	 	 	"eng": "Insufficient space in inventory, requires ${neededAmount} slots, but you only have ${size}"
  	 	 	}
  	 	}
  	},
@@ -7415,6 +7466,17 @@
  	 	 	 	 	"eng": "Allow this player to manage permission of other players"
  	 	 	 	}
  	 	 	}
+ 	 	},
+ 	 	"notInGang": {
+ 	 	 	"trans": "あなたはギャングにいません",
+ 	 	 	"eng": "You are not in a gang"
+ 	 	},
+ 	 	"notTopGang": {
+ 	 	 	"vars": [
+ 	 	 	 	"topGangs"
+ 	 	 	],
+ 	 	 	"trans": "あなたはトップギャングにいません。 トップギャングは：${topGangs}",
+ 	 	 	"eng": "You are not in a top gang. Top gangs are: ${topGangs}"
  	 	}
  	},
  	"itemStack": {
@@ -7633,6 +7695,101 @@
  	 	 	],
  	 	 	"trans": "エンブレムを「${playerName}」に正常に送信しました",
  	 	 	"eng": "You have successfully sent an emblem to player \"${playerName}\""
+ 	 	}
+ 	},
+ 	"player": {
+ 	 	"error": {
+ 	 	 	"deleteWhileMuted": {
+ 	 	 	 	"trans": "ミュートされているときにアカウントを削除することはできません。",
+ 	 	 	 	"eng": "You can't delete your account when you are muted."
+ 	 	 	},
+ 	 	 	"deleteAccountTooEarly": {
+ 	 	 	 	"trans": "今すぐこのアカウントを削除することはできません、数日待ってください",
+ 	 	 	 	"eng": "You can't delete this account now, please wait a few days"
+ 	 	 	},
+ 	 	 	"playerNotFound": {
+ 	 	 	 	"trans": "プレイヤーが見つかりません",
+ 	 	 	 	"eng": "Player not found"
+ 	 	 	},
+ 	 	 	"notInBattle": {
+ 	 	 	 	"trans": "あなたは戦いではありません。",
+ 	 	 	 	"eng": "You are not in battle."
+ 	 	 	},
+ 	 	 	"cantPerformAction": {
+ 	 	 	 	"trans": "今はこのアクションを実行することはできません",
+ 	 	 	 	"eng": "You can't perform this action now"
+ 	 	 	},
+ 	 	 	"invalidTravelLink": {
+ 	 	 	 	"trans": "無効な旅行リンク、永続的な場合はリロードしてください",
+ 	 	 	 	"eng": "Invalid Travel Link, if persist please reload"
+ 	 	 	}
+ 	 	},
+ 	 	"escape": {
+ 	 	 	"success": {
+ 	 	 	 	"trans": "あなたは正常に逃げました！",
+ 	 	 	 	"eng": "You have successfully escaped!"
+ 	 	 	},
+ 	 	 	"failed": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"chance"
+ 	 	 	 	],
+ 	 	 	 	"trans": "あなたは逃げられなかった、成功チャンス：${chance}％",
+ 	 	 	 	"eng": "You failed to escape, success chance: ${chance}%"
+ 	 	 	}
+ 	 	},
+ 	 	"died": {
+ 	 	 	"vars": [
+ 	 	 	 	"enemy"
+ 	 	 	],
+ 	 	 	"trans": "`あなたは${enemy}によって殺されました",
+ 	 	 	"eng": "`You were killed by ${enemy}"
+ 	 	},
+ 	 	"levelTooHigh": {
+ 	 	 	"trans": "ここでこのアクションを実行するにはレベルが高すぎます。次のゾーンで実行してみてください。",
+ 	 	 	"eng": "Your level is too high to perform this action here, try to do it in the next zone."
+ 	 	},
+ 	 	"giveCred": {
+ 	 	 	"success": {
+ 	 	 	 	"trans": "あなたは毎日の道路の信用を与えました。",
+ 	 	 	 	"eng": "You have given daily street cred."
+ 	 	 	},
+ 	 	 	"notEnoughLevelError": {
+ 	 	 	 	"trans": "プレイヤーストリートクレジットを与えるには、レベル10以上でなければなりません",
+ 	 	 	 	"eng": "You must be level 10 or above to give player street cred"
+ 	 	 	},
+ 	 	 	"cooldownError": {
+ 	 	 	 	"trans": "あなたはまだストリートクレジットを与えることができません（毎日1回）",
+ 	 	 	 	"eng": "You cannot give street cred yet (once every day)"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"basicInfo": {
+ 	 	"nameUsed": {
+ 	 	 	"trans": "この名前は他のプレイヤーによって使用されます、他の名前を使用してください",
+ 	 	 	"eng": "this name is used by other player, please use other name"
+ 	 	},
+ 	 	"nameIllegal": {
+ 	 	 	"trans": "違法な名前、他の名前を使用してください",
+ 	 	 	"eng": "Illegal name, please use other name"
+ 	 	},
+ 	 	"nameProfane": {
+ 	 	 	"trans": "この名前には許可されていない文言が含まれています、他の名前を使用してください",
+ 	 	 	"eng": "This name contains wordings not allowed, please use other name"
+ 	 	},
+ 	 	"nameInvalid": {
+ 	 	 	"trans": "名前の長さは4よりも大きく、16以下のものよりも少なく、英語の文字、数字、または\\ '_ \\'のみが含まれている必要があります。",
+ 	 	 	"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'"
+ 	 	}
+ 	},
+ 	"itemUse": {
+ 	 	"error": {
+ 	 	 	"effectStillLong": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"time"
+ 	 	 	 	],
+ 	 	 	 	"trans": "すでに他のプレイヤーによって展開されているのと同じステータス効果があるようです。 ${time}分で再び展開できます。",
+ 	 	 	 	"eng": "Seems like there is a same status effect deployed by other player already. you may deploy again in ${time} minute."
+ 	 	 	}
  	 	}
  	}
 }

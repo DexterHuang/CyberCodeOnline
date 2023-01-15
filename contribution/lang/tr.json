@@ -3013,6 +3013,13 @@
  	 	 	"trans": "${amount} defa ${verb} yapabilirsin",
  	 	 	"eng": "You can ${verb} ${amount} times"
  	 	},
+ 	 	"noAmountText": {
+ 	 	 	"vars": [
+ 	 	 	 	"verb"
+ 	 	 	],
+ 	 	 	"trans": "Bu ${verb} yapamazsınız",
+ 	 	 	"eng": "You are not able to ${verb} this"
+ 	 	},
  	 	"timeRequiredText": {
  	 	 	"vars": [
  	 	 	 	"verb",
@@ -6067,6 +6074,12 @@
  	 	 	"eng": "Flash Grenade"
  	 	}
  	},
+ 	"error": {
+ 	 	"10_aborted": {
+ 	 	 	"trans": "Bir sunucu tarafı hatasıyla karşılaştı, bu mesajı görürseniz, lütfen devam etmeyeceğinden emin olmak için başka bir işlem yapmadan önce 2 dakika bekleyin.",
+ 	 	 	"eng": "Encountered an server side error, if you see this message, please wait for 2 minutes before making any other action to ensure it will not keep happening."
+ 	 	}
+ 	},
  	"combat": {
  	 	"log": {
  	 	 	"enemyAttack": {
@@ -6085,6 +6098,21 @@
  	 	 	 	"trans": "${enemyName} saldırdın, ${value} hasar verdin",
  	 	 	 	"eng": "You attacked ${enemyName}, dealing ${value} damage"
  	 	 	}
+ 	 	},
+ 	 	"enemyKilled": {
+ 	 	 	"vars": [
+ 	 	 	 	"enemy",
+ 	 	 	 	"player"
+ 	 	 	],
+ 	 	 	"trans": "${enemy} ${player} ile yenildi",
+ 	 	 	"eng": "${enemy} was defeated by ${player}"
+ 	 	},
+ 	 	"gearScoreTooHigh": {
+ 	 	 	"vars": [
+ 	 	 	 	"enemy"
+ 	 	 	],
+ 	 	 	"trans": "Ortalama ekipman seviyeniz ${enemy} 'dan ödül alamayacak kadar yüksek",
+ 	 	 	"eng": "Your average equipment level is too high to receive reward from ${enemy}"
  	 	}
  	},
  	"receive": {
@@ -6259,6 +6287,10 @@
  	 	"buttonTut": {
  	 	 	"trans": "Yeterince güçlü olduğunu düşünüyor musun? Zindanda daha güçlü düşmanlarla karşılaşın! \r\n                         Birkaç iyileştirme eşyası satın almayı unutmayın! Zindanda savaştan sonra canınız yenilenmeyecek",
  	 	 	"eng": "Do you think you are strong enough? take on stronger enemies in dungeon!\r\n                        remember to buy some healing item! you won't regen after battle in dungeon"
+ 	 	},
+ 	 	"cleared": {
+ 	 	 	"trans": "Zindan temizlendi!",
+ 	 	 	"eng": "Dungeon cleared!"
  	 	}
  	},
  	"inventory": {
@@ -6291,6 +6323,25 @@
  	 	 	"confirmText": {
  	 	 	 	"trans": "Kullanmak",
  	 	 	 	"eng": "Use"
+ 	 	 	}
+ 	 	},
+ 	 	"error": {
+ 	 	 	"maxStack": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName",
+ 	 	 	 	 	"maxStackSize",
+ 	 	 	 	 	"newAmount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Ürün Maksimum miktarını aşın, ${itemName} ${maxStackSize} maksimum yığın boyutuna sahiptir, ancak ${newAmount} 'a sığmaya çalışıyorsunuz",
+ 	 	 	 	"eng": "Exceed item max amount, ${itemName} has max stack size of ${maxStackSize}, but you are trying to fit in ${newAmount}"
+ 	 	 	},
+ 	 	 	"full": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"neededAmount",
+ 	 	 	 	 	"size"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Envanterde yetersiz alan, ${neededAmount} yuvaları gerektirir, ancak yalnızca ${size} var",
+ 	 	 	 	"eng": "Insufficient space in inventory, requires ${neededAmount} slots, but you only have ${size}"
  	 	 	}
  	 	}
  	},
@@ -7203,6 +7254,17 @@
  	 	 	 	 	"eng": "Allow this player to manage permission of other players"
  	 	 	 	}
  	 	 	}
+ 	 	},
+ 	 	"notInGang": {
+ 	 	 	"trans": "Bir çetede değilsin",
+ 	 	 	"eng": "You are not in a gang"
+ 	 	},
+ 	 	"notTopGang": {
+ 	 	 	"vars": [
+ 	 	 	 	"topGangs"
+ 	 	 	],
+ 	 	 	"trans": "En iyi çetede değilsin. En iyi çeteler: ${topGangs}",
+ 	 	 	"eng": "You are not in a top gang. Top gangs are: ${topGangs}"
  	 	}
  	},
  	"itemStack": {
@@ -7421,6 +7483,101 @@
  	 	 	],
  	 	 	"trans": "\"${playerName}\" oyuncusuna başarıyla bir amblem gönderdiniz",
  	 	 	"eng": "You have successfully sent an emblem to player \"${playerName}\""
+ 	 	}
+ 	},
+ 	"player": {
+ 	 	"error": {
+ 	 	 	"deleteWhileMuted": {
+ 	 	 	 	"trans": "Sessiz kaldığınızda hesabınızı silemezsiniz.",
+ 	 	 	 	"eng": "You can't delete your account when you are muted."
+ 	 	 	},
+ 	 	 	"deleteAccountTooEarly": {
+ 	 	 	 	"trans": "Şimdi bu hesabı silemezsiniz, lütfen birkaç gün bekleyin",
+ 	 	 	 	"eng": "You can't delete this account now, please wait a few days"
+ 	 	 	},
+ 	 	 	"playerNotFound": {
+ 	 	 	 	"trans": "Oyuncu bulunamadı",
+ 	 	 	 	"eng": "Player not found"
+ 	 	 	},
+ 	 	 	"notInBattle": {
+ 	 	 	 	"trans": "Savaşta değilsin.",
+ 	 	 	 	"eng": "You are not in battle."
+ 	 	 	},
+ 	 	 	"cantPerformAction": {
+ 	 	 	 	"trans": "Bu eylemi şimdi gerçekleştiremezsin",
+ 	 	 	 	"eng": "You can't perform this action now"
+ 	 	 	},
+ 	 	 	"invalidTravelLink": {
+ 	 	 	 	"trans": "Geçersiz seyahat bağlantısı, devam ederse lütfen yeniden yükleyin",
+ 	 	 	 	"eng": "Invalid Travel Link, if persist please reload"
+ 	 	 	}
+ 	 	},
+ 	 	"escape": {
+ 	 	 	"success": {
+ 	 	 	 	"trans": "Başarılı bir şekilde kaçtınız!",
+ 	 	 	 	"eng": "You have successfully escaped!"
+ 	 	 	},
+ 	 	 	"failed": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"chance"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Kaçamadınız, Başarı Şansı: ${chance}%",
+ 	 	 	 	"eng": "You failed to escape, success chance: ${chance}%"
+ 	 	 	}
+ 	 	},
+ 	 	"died": {
+ 	 	 	"vars": [
+ 	 	 	 	"enemy"
+ 	 	 	],
+ 	 	 	"trans": "`{0} ile öldürüldün",
+ 	 	 	"eng": "`You were killed by ${enemy}"
+ 	 	},
+ 	 	"levelTooHigh": {
+ 	 	 	"trans": "Seviyeniz bu eylemi burada gerçekleştirmek için çok yüksek, bir sonraki bölgede yapmaya çalışın.",
+ 	 	 	"eng": "Your level is too high to perform this action here, try to do it in the next zone."
+ 	 	},
+ 	 	"giveCred": {
+ 	 	 	"success": {
+ 	 	 	 	"trans": "Daily Street kredisi verdin.",
+ 	 	 	 	"eng": "You have given daily street cred."
+ 	 	 	},
+ 	 	 	"notEnoughLevelError": {
+ 	 	 	 	"trans": "Oyuncu Sokağı kredisi vermek için 10. seviye veya üstü olmalısınız",
+ 	 	 	 	"eng": "You must be level 10 or above to give player street cred"
+ 	 	 	},
+ 	 	 	"cooldownError": {
+ 	 	 	 	"trans": "Henüz sokak kredisi veremezsiniz (her gün bir kez)",
+ 	 	 	 	"eng": "You cannot give street cred yet (once every day)"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"basicInfo": {
+ 	 	"nameUsed": {
+ 	 	 	"trans": "Bu isim diğer oyuncu tarafından kullanılır, lütfen başka adı kullanın",
+ 	 	 	"eng": "this name is used by other player, please use other name"
+ 	 	},
+ 	 	"nameIllegal": {
+ 	 	 	"trans": "Yasadışı isim, lütfen başka bir isim kullanın",
+ 	 	 	"eng": "Illegal name, please use other name"
+ 	 	},
+ 	 	"nameProfane": {
+ 	 	 	"trans": "Bu ad izin verilmeyen ifadeler içerir, lütfen başka bir isim kullanın",
+ 	 	 	"eng": "This name contains wordings not allowed, please use other name"
+ 	 	},
+ 	 	"nameInvalid": {
+ 	 	 	"trans": "İsim uzunluğu 4'ten daha büyük olmalı, daha az veya 16'ya eşit olmalı ve sadece İngilizce karakterler, sayılar veya \\ '_ \\' içerir",
+ 	 	 	"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'"
+ 	 	}
+ 	},
+ 	"itemUse": {
+ 	 	"error": {
+ 	 	 	"effectStillLong": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"time"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Zaten diğer oyuncu tarafından dağıtılan aynı durum etkisi var gibi görünüyor. ${time} dakikada tekrar konuşlandırabilirsiniz.",
+ 	 	 	 	"eng": "Seems like there is a same status effect deployed by other player already. you may deploy again in ${time} minute."
+ 	 	 	}
  	 	}
  	}
 }
