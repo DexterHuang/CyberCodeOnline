@@ -1,30 +1,30 @@
-Lista de términos comúnmente usados en el chat de market:
+### Lista de términos comúnmente usados en el chat de market:
 
-WTS: Significa, "want to sell" o "quiero vender" en español, es usado para vender objetos a cambio de IA (generalmente)
+**WTS**: Significa, "want to sell" o "quiero vender" en español, es usado para vender objetos a cambio de IA (generalmente)
 
-WTB: Significa "want to buy" o "quiero comprar" en español , es usado para comprar objetos a cambio de IA (generalmente)
+**WTB**: Significa "want to buy" o "quiero comprar" en español , es usado para comprar objetos a cambio de IA (generalmente)
 
-WTT: Significa, "want to trade" o "quiero tradear" en español, es usado para realizar un intercambio de objetos, generalmente sin usar IA como moneda de cambio.
+**WTT**: Significa, "want to trade" o "quiero tradear" en español, es usado para realizar un intercambio de objetos, generalmente sin usar IA como moneda de cambio.
 
-PM: Significa "Private message" o "Mensaje Privado" en español.
+**PM**: Significa "Private message" o "Mensaje Privado" en español.
 
-ATP: Significa "Ammunition Tech Parts" o "Partes de municion" en español.
+**ATP**: Significa "Ammunition Tech Parts" o "Partes de municion" en español.
 
-MT: Significa "Medical Tech" o "Partes Médicas" en español.
+**MT**: Significa "Medical Tech" o "Partes Médicas" en español.
 
-MATP: Significa "Military Ammunition Tech Parts" o "Partes de Municion Militar" en español.
+**MATP**: Significa "Military Ammunition Tech Parts" o "Partes de Municion Militar" en español.
 
-TS: Significa "Tech Scrap" o "Chatarra Tecnológica" en español.
+**TS**: Significa "Tech Scrap" o "Chatarra Tecnológica" en español.
 
-EGMS: Significa "Encrypted Gang Memory Shard" o "Fragmento de memoria encriptada de la banda" en español.
+**EGMS**: Significa "Encrypted Gang Memory Shard" o "Fragmento de memoria encriptada de la banda" en español.
 
-OP: Significa "Old Pouch" o "Bolsa antigua" en español.
+**OP**: Significa "Old Pouch" o "Bolsa antigua" en español.
 
-FP/Fanny: Significa "Fanny Pack" o "Riñonera" en español.
+**FP/Fanny**: Significa "Fanny Pack" o "Riñonera" en español.
 
-Dora: Significa "Explorer's Backpack" o "Mochila de Explorador" en español.
+**Dora**: Significa "Explorer's Backpack" o "Mochila de Explorador" en español.
 
-EOC: Significa "Employee Office Case" o "Maletín de Oficina" en español.
+**EOC**: Significa "Employee Office Case" o "Maletín de Oficina" en español.
 
 ASU: Significa "Autonomous Storage Unit" o "Unidad de almacenamiento autómata" en español.
 
