@@ -134,6 +134,8 @@ ClayBravo6
 [Maddening](https://github.com/Wildlife4700)
 [S0M3_DUD3](https://github.com/S0M3-DUD3)
 [Elrecoal-19](https://github.com/Elrecoal-19)
+Ambr_ence
+Vargur
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
