@@ -2,7 +2,10 @@
 
 #### Ici à CCO, nous espérons conserver une communauté amicale. Dans l'idée que tout le monde puisse profiter du jeu en s'amusant, familiarisez-vous avec les règles SVP.
 
-> Si vous pensez que quelqu'un viole les règles et qu'aucun modérateur n'est présent, prenez un Screenshot et dénoncez le via un message direct au modérateur sur le discord [Discord server](https://discord.gg/JREx8xz).
+> Si vous voyez quelqu'un briser les règles ou causer d'autres conflits dans le chat, veuillez en informer l'équipe de modération. Vous pouvez signaler, ou signaler et bloquer le joueur, ou mentionner un modérateur dans le chat. Nous sommes là pour vous aider! N'empirez pas la situation en répondant ou provoquant plus si il y a un problème, notre équipe de modération s'en chargera. Vous pouvez vérifier qui fait partie de l'équipe de modération via Profil > Crédits.
+
+> Si vous avez un problème de scamming, discution désagréable dans vos MP/chat de gang, ou si il n'y a pas de mod présent, faites une capture d'écran et signalez via message direct à un modérateur dans le [Discord server](https://discord.gg/JREx8xz).
+
 ### Directives Importantes
 * Il est fortement recommandé de ne jouer qu'avec un compte par personne, car notre système signalera les comptes alternatifs, afin d'éviter que vous puissiez vous envoyer des objets entre vos comptes. *Ceci peut arriver même si vous n'avez qu'un seul compte alternatif* (Nous ne vous aiderons pas à déplacer vos objets ou débloquer votre compte s'il a été signalé.)
 * N'utilisez jamais le tchat en jeu (même les messages privés) pour envoyer toutes sortes d'informations sensible/personnel. Le tchat du jeu n'est PAS crypté et PAS sécurisé. CCO n'a pas la responsabilité de protéger vos informations que vous postez dans le tchat. Gardez à l'esprit que les modérateurs ont accès à l'historique du tchat dans le cadre de la modération.
@@ -42,3 +45,6 @@
 * Jouer un rôle
 * Discuter de Politique, Religions, ou de la COVID-19 (et tout évènement important)
 * Utiliser n'importe quelle langue dans n'importe quel canal.
+
+### ADDENDUM 
+S'il vous plaît, prenez en compte le fait que l'équipe de modération puisse mettre en sourdine ou banir dans des cas spécifiques avec pour but de vous fournir un environnement sûr, amical et équitable pour chaque joueur. Notre équipe de modération travaillera ensemble pour atteindre des conclusions cohérentes envers ces cas.

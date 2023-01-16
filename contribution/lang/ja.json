@@ -1450,7 +1450,7 @@
  	 	 	 	 	"eng": "Tiny"
  	 	 	 	},
  	 	 	 	"tiny": {
- 	 	 	 	 	"trans": "小さい",
+ 	 	 	 	 	"trans": "もっと小さい",
  	 	 	 	 	"eng": "Tiny"
  	 	 	 	}
  	 	 	},
@@ -3012,6 +3012,13 @@
  	 	 	],
  	 	 	"trans": "${amount}回${verb}できます",
  	 	 	"eng": "You can ${verb} ${amount} times"
+ 	 	},
+ 	 	"noAmountText": {
+ 	 	 	"vars": [
+ 	 	 	 	"verb"
+ 	 	 	],
+ 	 	 	"trans": "このアイテムを${verb}することはできません",
+ 	 	 	"eng": "You are not able to ${verb} this"
  	 	},
  	 	"timeRequiredText": {
  	 	 	"vars": [
@@ -6281,6 +6288,12 @@
  	 	 	"eng": "Flash Grenade"
  	 	}
  	},
+ 	"error": {
+ 	 	"10_aborted": {
+ 	 	 	"trans": "サーバーエラーが発生しました. すみませんが, 少し待ってから操作してみてください.",
+ 	 	 	"eng": "Encountered an server side error, if you see this message, please wait for 2 minutes before making any other action to ensure it will not keep happening."
+ 	 	}
+ 	},
  	"combat": {
  	 	"log": {
  	 	 	"enemyAttack": {
@@ -6299,6 +6312,21 @@
  	 	 	 	"trans": "あなたは${enemyName}を攻撃し,${value}ダメージを与えた",
  	 	 	 	"eng": "You attacked ${enemyName}, dealing ${value} damage"
  	 	 	}
+ 	 	},
+ 	 	"enemyKilled": {
+ 	 	 	"vars": [
+ 	 	 	 	"enemy",
+ 	 	 	 	"player"
+ 	 	 	],
+ 	 	 	"trans": "${player}が${enemy}を倒した",
+ 	 	 	"eng": "${enemy} was defeated by ${player}"
+ 	 	},
+ 	 	"gearScoreTooHigh": {
+ 	 	 	"vars": [
+ 	 	 	 	"enemy"
+ 	 	 	],
+ 	 	 	"trans": "ギアスコアが高すぎるため, ${enemy}を倒した報酬を獲得できない",
+ 	 	 	"eng": "Your average equipment level is too high to receive reward from ${enemy}"
  	 	}
  	},
  	"receive": {
@@ -6322,7 +6350,7 @@
  	 	 	 	"amount",
  	 	 	 	"itemName"
  	 	 	],
- 	 	 	"trans": "${amount}個の${itemName}を獲得した",
+ 	 	 	"trans": "${amount}個の${itemName}を獲得",
  	 	 	"eng": "You received ${amount} ${itemName}"
  	 	}
  	},
@@ -6418,7 +6446,7 @@
  	 	 	 	"eng": "Recommended Level: ${maxLevel}+ with co-op\r\n                    ${expMultiplier}x more EXP!\r\n                    Challenge mode dungeon, extra loot and exp.\r\n                    Drops ${keyFragmentDisplayName}\r\n                    Not advised to enter if your level is too low"
  	 	 	},
  	 	 	"tut": {
- 	 	 	 	"trans": "腕に自信はありますか？ チャレンジダンジョンに挑戦してみましょう. \r\n                         強力なボスを打ち倒し, 大量の戦利品を手にしましょう！ \r\n                         他のプレイヤーと一緒に挑戦することをお勧めします.",
+ 	 	 	 	"trans": "十分に強くなったら, チャレンジダンジョンに挑戦してみましょう. \r\n                         強力なボスを倒すことができれば, 大量の経験値と戦利品が手に入ります！ \r\n                         他のプレイヤーと一緒に挑戦することをお勧めします.",
  	 	 	 	"eng": "Are you strong enough? try it out on Challenge Dungeon,\r\n                        there is a strong boss and tons of loot at the end waiting for you!\r\n                        Its recommended to attempt this with other players."
  	 	 	}
  	 	},
@@ -6471,15 +6499,19 @@
  	 	 	"eng": "Share"
  	 	},
  	 	"buttonTut": {
- 	 	 	"trans": "強さに自信があるなら, ダンジョンでより強い敵と戦いましょう！ \r\n                         回復アイテムの準備を忘れないで！ ダンジョンでは戦闘の後にHPが回復しません.",
+ 	 	 	"trans": "戦いに慣れてきたら, ダンジョンでより強い敵と戦いましょう！ \r\n                         回復アイテムの準備を忘れないで！ ダンジョンでは戦闘の後にHPが回復しません.",
  	 	 	"eng": "Do you think you are strong enough? take on stronger enemies in dungeon!\r\n                        remember to buy some healing item! you won't regen after battle in dungeon"
+ 	 	},
+ 	 	"cleared": {
+ 	 	 	"trans": "ダンジョンをクリアした！",
+ 	 	 	"eng": "Dungeon cleared!"
  	 	}
  	},
  	"inventory": {
  	 	"ui": {
  	 	 	"useItem": {
  	 	 	 	"localFightCantUseItem": {
- 	 	 	 	 	"trans": "路上での戦闘中にアイテムを使うことはできません, アイテムはダンジョン内での戦闘中のみ使用可能です",
+ 	 	 	 	 	"trans": "路上での戦闘中にアイテムを使うことはできません. アイテムはダンジョン内での戦闘中のみ使用可能です",
  	 	 	 	 	"eng": "You cannot use item during street fights, items are only available during dungeons"
  	 	 	 	}
  	 	 	},
@@ -6505,6 +6537,25 @@
  	 	 	"confirmText": {
  	 	 	 	"trans": "使用する",
  	 	 	 	"eng": "Use"
+ 	 	 	}
+ 	 	},
+ 	 	"error": {
+ 	 	 	"maxStack": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName",
+ 	 	 	 	 	"maxStackSize",
+ 	 	 	 	 	"newAmount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "アイテムの所持可能数を超過しています. ${itemName}の最大所持数は${maxStackSize}個ですが, これを獲得すると${newAmount}個になります",
+ 	 	 	 	"eng": "Exceed item max amount, ${itemName} has max stack size of ${maxStackSize}, but you are trying to fit in ${newAmount}"
+ 	 	 	},
+ 	 	 	"full": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"neededAmount",
+ 	 	 	 	 	"size"
+ 	 	 	 	],
+ 	 	 	 	"trans": "インベントリに空きがありません. 収納には${neededAmount}スロットが必要ですが, 現在${size}スロットです",
+ 	 	 	 	"eng": "Insufficient space in inventory, requires ${neededAmount} slots, but you only have ${size}"
  	 	 	}
  	 	}
  	},
@@ -6912,7 +6963,7 @@
  	 	 	},
  	 	 	"agreeToggle": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "理解しました. 私は決してスパムしたり, チャットのルールを破ったりしません",
+ 	 	 	 	 	"trans": "分かりました. 私は決してスパム行為をしたり, チャットのルールを破ったりしません",
  	 	 	 	 	"eng": "I understand and I will never spam or break any of the chat rules"
  	 	 	 	}
  	 	 	},
@@ -6922,7 +6973,7 @@
  	 	 	},
  	 	 	"confirmButton": {
  	 	 	 	"agreed": {
- 	 	 	 	 	"trans": "私はスパムしません",
+ 	 	 	 	 	"trans": "私はスパム行為をしません",
  	 	 	 	 	"eng": "I won't spam"
  	 	 	 	},
  	 	 	 	"notAgree": {
@@ -7194,7 +7245,7 @@
  	 	 	 	"eng": "Gang Name"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "ギャングのフルネームを入力してください",
+ 	 	 	 	"trans": "ギャングの正式名称を入力してください",
  	 	 	 	"eng": "Enter the full name of your gang"
  	 	 	}
  	 	},
@@ -7204,7 +7255,7 @@
  	 	 	 	"eng": "Gang Tag"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "チャットで表示される短いタグ",
+ 	 	 	 	"trans": "チャット欄で表示される短いタグ",
  	 	 	 	"eng": "A short tag that will be displayed in chat"
  	 	 	}
  	 	},
@@ -7415,6 +7466,17 @@
  	 	 	 	 	"eng": "Allow this player to manage permission of other players"
  	 	 	 	}
  	 	 	}
+ 	 	},
+ 	 	"notInGang": {
+ 	 	 	"trans": "あなたはギャングに所属していません",
+ 	 	 	"eng": "You are not in a gang"
+ 	 	},
+ 	 	"notTopGang": {
+ 	 	 	"vars": [
+ 	 	 	 	"topGangs"
+ 	 	 	],
+ 	 	 	"trans": "あなたはトップギャングに所属していません. トップギャングは${topGangs}",
+ 	 	 	"eng": "You are not in a top gang. Top gangs are: ${topGangs}"
  	 	}
  	},
  	"itemStack": {
@@ -7633,6 +7695,101 @@
  	 	 	],
  	 	 	"trans": "エンブレムを「${playerName}」に正常に送信しました",
  	 	 	"eng": "You have successfully sent an emblem to player \"${playerName}\""
+ 	 	}
+ 	},
+ 	"player": {
+ 	 	"error": {
+ 	 	 	"deleteWhileMuted": {
+ 	 	 	 	"trans": "ミュート中はアカウントの削除はできません.",
+ 	 	 	 	"eng": "You can't delete your account when you are muted."
+ 	 	 	},
+ 	 	 	"deleteAccountTooEarly": {
+ 	 	 	 	"trans": "今すぐこのアカウントを削除することはできません. 数日待ってください",
+ 	 	 	 	"eng": "You can't delete this account now, please wait a few days"
+ 	 	 	},
+ 	 	 	"playerNotFound": {
+ 	 	 	 	"trans": "プレイヤーが見つかりません",
+ 	 	 	 	"eng": "Player not found"
+ 	 	 	},
+ 	 	 	"notInBattle": {
+ 	 	 	 	"trans": "今は戦闘中ではありません.",
+ 	 	 	 	"eng": "You are not in battle."
+ 	 	 	},
+ 	 	 	"cantPerformAction": {
+ 	 	 	 	"trans": "今はこのアクションを実行することはできません",
+ 	 	 	 	"eng": "You can't perform this action now"
+ 	 	 	},
+ 	 	 	"invalidTravelLink": {
+ 	 	 	 	"trans": "無効なリンク　状況が改善しない場合は再読み込みを試してください",
+ 	 	 	 	"eng": "Invalid Travel Link, if persist please reload"
+ 	 	 	}
+ 	 	},
+ 	 	"escape": {
+ 	 	 	"success": {
+ 	 	 	 	"trans": "逃走成功！",
+ 	 	 	 	"eng": "You have successfully escaped!"
+ 	 	 	},
+ 	 	 	"failed": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"chance"
+ 	 	 	 	],
+ 	 	 	 	"trans": "逃走に失敗した. 成功率：${chance}％",
+ 	 	 	 	"eng": "You failed to escape, success chance: ${chance}%"
+ 	 	 	}
+ 	 	},
+ 	 	"died": {
+ 	 	 	"vars": [
+ 	 	 	 	"enemy"
+ 	 	 	],
+ 	 	 	"trans": "`あなたは${enemy}に倒された",
+ 	 	 	"eng": "`You were killed by ${enemy}"
+ 	 	},
+ 	 	"levelTooHigh": {
+ 	 	 	"trans": "このエリアでその操作を行うにはプレイヤーレベルが高すぎます. 次のゾーンで実行してみてください.",
+ 	 	 	"eng": "Your level is too high to perform this action here, try to do it in the next zone."
+ 	 	},
+ 	 	"giveCred": {
+ 	 	 	"success": {
+ 	 	 	 	"trans": "本日分のリスペクトを送信しました.",
+ 	 	 	 	"eng": "You have given daily street cred."
+ 	 	 	},
+ 	 	 	"notEnoughLevelError": {
+ 	 	 	 	"trans": "リスペクト機能はレベル10以上で開放されます.",
+ 	 	 	 	"eng": "You must be level 10 or above to give player street cred"
+ 	 	 	},
+ 	 	 	"cooldownError": {
+ 	 	 	 	"trans": "今日はもうリスペクトを送ることはできません（1日1回）",
+ 	 	 	 	"eng": "You cannot give street cred yet (once every day)"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"basicInfo": {
+ 	 	"nameUsed": {
+ 	 	 	"trans": "この名前は他のプレイヤーによって使用されています. 他の名前を使用してください",
+ 	 	 	"eng": "this name is used by other player, please use other name"
+ 	 	},
+ 	 	"nameIllegal": {
+ 	 	 	"trans": "不正な名前です. 他の名前を使用してください",
+ 	 	 	"eng": "Illegal name, please use other name"
+ 	 	},
+ 	 	"nameProfane": {
+ 	 	 	"trans": "この名前には許可されていない文言が含まれています. 他の名前を使用してください",
+ 	 	 	"eng": "This name contains wordings not allowed, please use other name"
+ 	 	},
+ 	 	"nameInvalid": {
+ 	 	 	"trans": "名前は5文字以上16文字以下で, 英字, 数字, \\ '_ \\'のみを使用したものにしてください.",
+ 	 	 	"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'"
+ 	 	}
+ 	},
+ 	"itemUse": {
+ 	 	"error": {
+ 	 	 	"effectStillLong": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"time"
+ 	 	 	 	],
+ 	 	 	 	"trans": "他のプレイヤーが発動したものと同じグローバルバフ効果のようです. あと${time}分で再び使用可能になります.",
+ 	 	 	 	"eng": "Seems like there is a same status effect deployed by other player already. you may deploy again in ${time} minute."
+ 	 	 	}
  	 	}
  	}
 }

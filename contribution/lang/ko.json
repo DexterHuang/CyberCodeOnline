@@ -3013,6 +3013,13 @@
  	 	 	"trans": "${verb}(을)를 ${amount}번 할 수 있습니다.",
  	 	 	"eng": "You can ${verb} ${amount} times"
  	 	},
+ 	 	"noAmountText": {
+ 	 	 	"vars": [
+ 	 	 	 	"verb"
+ 	 	 	],
+ 	 	 	"trans": "당신은 ${verb} 이것을 할 수 없습니다",
+ 	 	 	"eng": "You are not able to ${verb} this"
+ 	 	},
  	 	"timeRequiredText": {
  	 	 	"vars": [
  	 	 	 	"verb",
@@ -6176,6 +6183,12 @@
  	 	 	"eng": "Flash Grenade"
  	 	}
  	},
+ 	"error": {
+ 	 	"10_aborted": {
+ 	 	 	"trans": "서버 측면 오류가 발생했습니다.이 메시지가 표시되면 2 분 동안 기다리기 전에 다른 조치를 취하기 위해 계속해서 발생하지 않도록하십시오.",
+ 	 	 	"eng": "Encountered an server side error, if you see this message, please wait for 2 minutes before making any other action to ensure it will not keep happening."
+ 	 	}
+ 	},
  	"combat": {
  	 	"log": {
  	 	 	"enemyAttack": {
@@ -6194,6 +6207,21 @@
  	 	 	 	"trans": "${enemyName}을 공격하여 ${value}만큼의 피해를 줬습니다",
  	 	 	 	"eng": "You attacked ${enemyName}, dealing ${value} damage"
  	 	 	}
+ 	 	},
+ 	 	"enemyKilled": {
+ 	 	 	"vars": [
+ 	 	 	 	"enemy",
+ 	 	 	 	"player"
+ 	 	 	],
+ 	 	 	"trans": "${enemy}은 ${player}에 의해 패배했습니다",
+ 	 	 	"eng": "${enemy} was defeated by ${player}"
+ 	 	},
+ 	 	"gearScoreTooHigh": {
+ 	 	 	"vars": [
+ 	 	 	 	"enemy"
+ 	 	 	],
+ 	 	 	"trans": "평균 장비 수준이 너무 높아 ${enemy}에서 보상을받을 수 없습니다",
+ 	 	 	"eng": "Your average equipment level is too high to receive reward from ${enemy}"
  	 	}
  	},
  	"receive": {
@@ -6368,6 +6396,10 @@
  	 	"buttonTut": {
  	 	 	"trans": "당신이 충분히 강하다고 생각합니까? 그렇다면 더 강한 적을 던전에서 상대해 보세요! \r\n                         던전에서는 전투 후에 체력이 자동으로 회복되지 않으니 회복 아이템을 사가는 것을 잊지 마세요!",
  	 	 	"eng": "Do you think you are strong enough? take on stronger enemies in dungeon!\r\n                        remember to buy some healing item! you won't regen after battle in dungeon"
+ 	 	},
+ 	 	"cleared": {
+ 	 	 	"trans": "던전이 정리되었습니다!",
+ 	 	 	"eng": "Dungeon cleared!"
  	 	}
  	},
  	"inventory": {
@@ -6400,6 +6432,25 @@
  	 	 	"confirmText": {
  	 	 	 	"trans": "사용",
  	 	 	 	"eng": "Use"
+ 	 	 	}
+ 	 	},
+ 	 	"error": {
+ 	 	 	"maxStack": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName",
+ 	 	 	 	 	"maxStackSize",
+ 	 	 	 	 	"newAmount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "항목 최대 금액을 초과하면 ${itemName}은 최대 스택 크기가 ${maxStackSize}이지만 ${newAmount}에 맞추려고합니다",
+ 	 	 	 	"eng": "Exceed item max amount, ${itemName} has max stack size of ${maxStackSize}, but you are trying to fit in ${newAmount}"
+ 	 	 	},
+ 	 	 	"full": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"neededAmount",
+ 	 	 	 	 	"size"
+ 	 	 	 	],
+ 	 	 	 	"trans": "인벤토리에 공간이 충분하지 않으면 ${neededAmount} 슬롯이 필요하지만 ${size} 만 있습니다",
+ 	 	 	 	"eng": "Insufficient space in inventory, requires ${neededAmount} slots, but you only have ${size}"
  	 	 	}
  	 	}
  	},
@@ -6602,7 +6653,7 @@
  	 	 	 	"slot",
  	 	 	 	"price"
  	 	 	],
- 	 	 	"trans": "${price} 비트 코인을 지불하여 시장 슬롯을 ${slot}으로 늘릴 수 있습니다",
+ 	 	 	"trans": "${price} 비트 코인을 지불하여 시장 슬롯을 ${slot}개로 늘릴 수 있습니다",
  	 	 	"eng": "You can increase your market slot to ${slot} by paying ${price} BitCoins"
  	 	}
  	},
@@ -7312,6 +7363,17 @@
  	 	 	 	 	"eng": "Allow this player to manage permission of other players"
  	 	 	 	}
  	 	 	}
+ 	 	},
+ 	 	"notInGang": {
+ 	 	 	"trans": "당신은 갱에 없습니다",
+ 	 	 	"eng": "You are not in a gang"
+ 	 	},
+ 	 	"notTopGang": {
+ 	 	 	"vars": [
+ 	 	 	 	"topGangs"
+ 	 	 	],
+ 	 	 	"trans": "당신은 최고 갱에 없습니다. 최고 갱은 : ${topGangs}",
+ 	 	 	"eng": "You are not in a top gang. Top gangs are: ${topGangs}"
  	 	}
  	},
  	"itemStack": {
@@ -7530,6 +7592,101 @@
  	 	 	],
  	 	 	"trans": "당신은 \"${playerName}\"플레이어에게 엠블럼을 성공적으로 보냈습니다",
  	 	 	"eng": "You have successfully sent an emblem to player \"${playerName}\""
+ 	 	}
+ 	},
+ 	"player": {
+ 	 	"error": {
+ 	 	 	"deleteWhileMuted": {
+ 	 	 	 	"trans": "음소거 될 때 계정을 삭제할 수 없습니다.",
+ 	 	 	 	"eng": "You can't delete your account when you are muted."
+ 	 	 	},
+ 	 	 	"deleteAccountTooEarly": {
+ 	 	 	 	"trans": "지금이 계정을 삭제할 수 없습니다. 며칠을 기다려주세요",
+ 	 	 	 	"eng": "You can't delete this account now, please wait a few days"
+ 	 	 	},
+ 	 	 	"playerNotFound": {
+ 	 	 	 	"trans": "플레이어를 찾을 수 없습니다",
+ 	 	 	 	"eng": "Player not found"
+ 	 	 	},
+ 	 	 	"notInBattle": {
+ 	 	 	 	"trans": "당신은 전투 중이 아닙니다.",
+ 	 	 	 	"eng": "You are not in battle."
+ 	 	 	},
+ 	 	 	"cantPerformAction": {
+ 	 	 	 	"trans": "지금이 작업을 수행 할 수 없습니다",
+ 	 	 	 	"eng": "You can't perform this action now"
+ 	 	 	},
+ 	 	 	"invalidTravelLink": {
+ 	 	 	 	"trans": "잘못된 여행 링크, 지속되면 다시로드하십시오",
+ 	 	 	 	"eng": "Invalid Travel Link, if persist please reload"
+ 	 	 	}
+ 	 	},
+ 	 	"escape": {
+ 	 	 	"success": {
+ 	 	 	 	"trans": "당신은 성공적으로 탈출했습니다!",
+ 	 	 	 	"eng": "You have successfully escaped!"
+ 	 	 	},
+ 	 	 	"failed": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"chance"
+ 	 	 	 	],
+ 	 	 	 	"trans": "탈출에 실패, 성공 기회 : ${chance}%",
+ 	 	 	 	"eng": "You failed to escape, success chance: ${chance}%"
+ 	 	 	}
+ 	 	},
+ 	 	"died": {
+ 	 	 	"vars": [
+ 	 	 	 	"enemy"
+ 	 	 	],
+ 	 	 	"trans": "`당신은 ${enemy}에 의해 살해당했습니다",
+ 	 	 	"eng": "`You were killed by ${enemy}"
+ 	 	},
+ 	 	"levelTooHigh": {
+ 	 	 	"trans": "당신의 레벨은 여기서이 조치를 수행하기에는 너무 높아서 다음 영역에서 시도하십시오.",
+ 	 	 	"eng": "Your level is too high to perform this action here, try to do it in the next zone."
+ 	 	},
+ 	 	"giveCred": {
+ 	 	 	"success": {
+ 	 	 	 	"trans": "당신은 Daily Street Cred를주었습니다.",
+ 	 	 	 	"eng": "You have given daily street cred."
+ 	 	 	},
+ 	 	 	"notEnoughLevelError": {
+ 	 	 	 	"trans": "Player Street Cred를 제공하려면 레벨 10 이상이어야합니다",
+ 	 	 	 	"eng": "You must be level 10 or above to give player street cred"
+ 	 	 	},
+ 	 	 	"cooldownError": {
+ 	 	 	 	"trans": "당신은 아직 거리 신용을 줄 수 없습니다 (매일)",
+ 	 	 	 	"eng": "You cannot give street cred yet (once every day)"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"basicInfo": {
+ 	 	"nameUsed": {
+ 	 	 	"trans": "이 이름은 다른 플레이어가 사용합니다. 다른 이름을 사용하십시오",
+ 	 	 	"eng": "this name is used by other player, please use other name"
+ 	 	},
+ 	 	"nameIllegal": {
+ 	 	 	"trans": "불법 이름, 다른 이름을 사용하십시오",
+ 	 	 	"eng": "Illegal name, please use other name"
+ 	 	},
+ 	 	"nameProfane": {
+ 	 	 	"trans": "이 이름에는 허용되지 않는 단어가 포함되어 있습니다. 다른 이름을 사용하십시오",
+ 	 	 	"eng": "This name contains wordings not allowed, please use other name"
+ 	 	},
+ 	 	"nameInvalid": {
+ 	 	 	"trans": "이름 길이는 4보다 크고, 16보다 작으며 영어 문자, 숫자 또는 \\ '_ \\'만 포함해야합니다",
+ 	 	 	"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'"
+ 	 	}
+ 	},
+ 	"itemUse": {
+ 	 	"error": {
+ 	 	 	"effectStillLong": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"time"
+ 	 	 	 	],
+ 	 	 	 	"trans": "이미 다른 플레이어가 배포 한 동일한 상태 효과가있는 것 같습니다. ${time} 분 안에 다시 배포 할 수 있습니다.",
+ 	 	 	 	"eng": "Seems like there is a same status effect deployed by other player already. you may deploy again in ${time} minute."
+ 	 	 	}
  	 	}
  	}
 }
