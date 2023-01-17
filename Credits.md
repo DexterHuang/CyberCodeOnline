@@ -197,6 +197,7 @@ Amalgamate
 [AndyCandy](https://github.com/andycandy-de)
 Brownin89
 [Deckeeper](https://github.com/deckeeper)
+delada58
 [DexterHuang](https://github.com/DexterHuang)
 Dragonmaster84
 ElectricSoldier323
