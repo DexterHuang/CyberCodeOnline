@@ -1,24 +1,24 @@
-# How to get Equipments?
+# Як отримати обладнання?
 
-It seems like you have equipment caches but haven't used them to print any equipment yet!
-They look like this in your inventory: 
+Здається, у вас є схеми обладнання, але ви ще не використовували їх для друку обладнання!
+У вашому інвентарі вони виглядають так:
 ![image](https://user-images.githubusercontent.com/18545294/147308888-70f5d24b-258c-429b-8daa-7a1fa7822d0a.png)
 
-It is very easy to turn your caches into actual equipment! You simply need to:
+Перетворити свої схеми на справжнє обладнання дуже легко! Вам просто потрібно:
 
 ![Screenshot 2021-12-24 102019](https://user-images.githubusercontent.com/18545294/147307871-bb6a8ab2-bd0f-48d2-a4b7-99efaceafcbf.png)
 
-1. Return to `City Center` by long pressing the `Back` button.
+1. Поверніться до `Центру міста`, утримуючи кнопку `Назад`.
 
 ![image](https://user-images.githubusercontent.com/18545294/147307934-cc5cc6f0-5107-48a9-912b-07e4c4a02755.png)
 
-2. When you are in `City Center` you will see an NPC (button) called `Molecular 3d Printer`, click on it to interact with it 
+2. Коли ви перебуваєте в `Центрі міста`, ви побачите NPC (кнопку) під назвою `Молекулярний 3D Принтер`, натисніть на нього, щоб взаємодіяти з ним
 
 ![image](https://user-images.githubusercontent.com/18545294/147308950-d5e10150-6abd-4e46-b2c3-f2c448f9af37.png)
 
-3. Now simply click on the cache you want to print. This will print it as real equipment!
+3. Тепер просто клацніть на схеми, які ви хочете надрукувати. Після цього ви отримаєте справжнє обладнання!
 
-# What is a cache
-You could think of a cache as a memory stick with random schematics for equipment you want to print. 
-For more information, please visit `Profile > Tutorial > Equipment`
+# Що таке ці ваші схеми?
+Ви можете подумати про схеми як про карту пам'яті з певними схемами для обладнання, яке ви хочете надрукувати.
+Для отримання додаткової інформації відвідайте `Профіль > Інструкція > Обладнання`
 
