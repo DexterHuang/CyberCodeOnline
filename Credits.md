@@ -133,6 +133,7 @@ ClayBravo6
 [converdario](https://github.com/converdario)
 [Maddening](https://github.com/Wildlife4700)
 [S0M3_DUD3](https://github.com/S0M3-DUD3)
+[Jhown](https://github.com/Jhown-glitch)
 [Elrecoal-19](https://github.com/Elrecoal-19)
 Ambr_ence
 Vargur
