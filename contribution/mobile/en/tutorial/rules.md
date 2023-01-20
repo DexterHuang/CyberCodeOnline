@@ -2,7 +2,10 @@
 
 #### Here at CCO, we hope to maintain a friendly community. In order for everyone to have fun and enjoy the game, please familiarise yourself with the rules. 
 
-> If you feel someone is violating one of the rules and no moderators are around, take a screenshot and report it via direct messaging the moderators in the [Discord server](https://discord.gg/JREx8xz).
+> If you see someone breaking rules or causing other conflicts in chat, please reach out to your moderation team. You can **report**, **report and block** the player or **tag a moderator** into the chat. We are here to help! Please do not escalate the situation by retaliating or further provoking if issues arise, our moderation team will take care of it. You can see who is our moderator team on Profile > Credits. 
+
+> If you have any issues with scamming, unfriendly chat on your PM/gang chat, or even if a mod isn't around, do not retaliate or provoke, take a screenshot and report it via direct messaging the moderators in the [Discord server](https://discord.gg/JREx8xz). 
+
 ### Important Guideline
 * It is strongly recommended to play with only one account per person, as our system will flag alt accounts, preventing you from sending items between your accounts. *this can happen even if you only have one alt* (We will not help you move your items or unlock the account if the system flags you.)
 * Never ever use in-game chat (including email) to send any kind of sensitive/personal information. Game chat is NOT encrypted and NOT secure. CCO does not bear any responsibility to protect your information you write in chat. Bear in mind that moderators have access to the chat log for moderation purposes. 
@@ -47,3 +50,6 @@
 * Roleplay / Roleplaying
 * Discussing Politics, Religions, or COVID-19 (and any major events)
 * Using any language in any chat channel.
+
+### ADDENDUM
+Please keep in mind that the moderation team may issue mutes or bans on special cases with the goal of providing you a safe, friendly, and fair user experience. Our moderation team will work together to reach cohesive conclusions to these cases.

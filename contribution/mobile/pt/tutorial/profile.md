@@ -145,3 +145,11 @@ Um multiplicador de porcentagem mostrando quanta EXP você pode ganhar adicional
 
 ### Multiplicador de BitCoin (BTC)
 Um multiplicador percentual mostrando quanto BitCoin você pode ganhar adicionalmente. O multiplicador máximo é 100%.
+
+### Némesis da Gangue 
+
+Efeitos atuais da Gangue Inimiga que aumenta o dano contra você. O multiplicador máximo é 10%. 
+
+### Marca 
+
+Marcas atuais que são designadas ao seu personagem. Esta Marca vai afetar o seu dano contra Gangues Inimigas específicas. O multiplicador máximo é 10%. 

@@ -77,4 +77,37 @@ Aqui, você pode ver o '?' ícone, indicando uma missão se você optar por acei
   
 Esta sala é especial, como você pode ver pelo aumento do número de caixas. A caixa que parece uma janela contém um fragmento de chave que pode ser usado para criar Chaves Secretas que desbloqueiam novas áreas.
 
-Nesta captura de tela, você também pode ver outros jogadores ajudando. Isso é especialmente recomendado em níveis baixos e ao tentar uma masmorra de desafio, pois o chefe das masmorras de desafio aumentou muito a saúde e o poder em troca de mais EXP.
+Nesta captura de tela, você pode ver que estes outros jogadores estão a fazer a masmorra a solo. Isto pode ser plausível em níveis mais altos, mas em níveis baixos or em masmorras de gangue, os jogadores são aconselhados a fazer a masmorra com pelo menos outros dois jogadores, visto que há muitos benefícios em fazer uma masmorra em cooperação, como o facto de ser eficiente em termos de tempo e partilha de itens.
+
+### Linguagem de Masmorra 
+
+**Linguagem de masmorra** ou abreviação é uma das poucas maneiras para os ogadores comunicarem com a sua equipe de forma a orientá-los até ao objetivo (neste caso, é encontrar a **Sala do Tesouro e o Chefe** dentro da masmorra). Abaixo estão algumas maneiras que os jogadores usam frequentemente durante uma sessão de masmorra: 
+
+| Linguagem | Descrição |
+|--|--|
+| [number] | Indica o número de portas dentro da masmorra (ex.: 0) |
+| [direction] | Indica aos jogadores a próxima localização; sendo que existe outra porta por dentro (ex. R [/ Right]) (direita) |
+| [number] [direction] | Indica o número de portas na direção indicada (ex.: 0 R) |
+| DE  |Indica que um jogador encontrou um **beco sem saída**, significando que não há portas por perto (exceto aquela em que o jogador entra) |
+| BR | Indica que há uma **Sala do Tesouro / Sala do Chefe** dentro da localização do jogador |
+| B  | Indica que o jogador encontrou o chefe |
+| B [type] | Indica que o jogador encontrou o chefe enquanto indica o tipo dele (ex.: B Ágil) |
+| G | Indica que os jogadores atingiram o requerimento de obter recompensas do Chefe (20% ou mais de dano causado) |
+| G? | Pedido de confirmação de que os outros jogadores atingiram o requerimento necessário |
+| M / Minigame | Indica que os jogadores estavam a fazer o minijogo no momento |
+| OMW  | "A caminho (em direção a um certo destino)" |
+| BRT | "Estarei lá em breve (em direção a um certo destino)" |
+
+### Minijogo 
+
+De vez em quando, um minijogo vai aparecer depois de derrotar um inimigo, ou na tentativa de aceder a uma caixa, ou quando se entra noutra sala, para insinuar a variedade de exploração na masmorra. No estado atual (desde atualização 11-02-2022 / v.0780), há apenas um minijogo que foi implementado no jogo, chamado **Minijogo do Esquema de Cor**. 
+
+![DungeonMinigame1](/resources/mobile-tutorial/DungeonMinigame1.png)
+
+O minijoho em si consiste em 3 cores (vermelho, verde e amarelo; com símbolos adicionais como um acrescento de acessibilidade) que precisam de ser clicados numa sequência (40 vezes) em 60 segundos. Os jogadores também conseguem ver as duas cores que vem a seguir através de pequenas barras de cor. 
+
+![DungeonMinigameFail1](/resources/mobile-tutorial/DungeonMinigameFail1.png)
+
+Falhar um minijogo resulta num ecrã de `DESENCRIPTAÇÃO FALHADA`, indicando que o jogador falhou em escolher a cor correta em sequência. Os jogadores podem refazer o minijogo clicando no botão **Tentar Novamente**. 
+
+
