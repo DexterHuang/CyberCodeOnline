@@ -1,8 +1,11 @@
 
 
-#### Hier bei CCO, hoffen wir eine freundliche Gemeinschaft zu pflegen. Damit jeder das Spiel genießen kann und Spaß damit hat, bitten wir dich, dich mit folgenden Regeln vertraut zu machen.
+#### Hier bei CCO, wollen wir einen freundlichen Gesellschaft zu pflegen. Damit jeder das Spiel genießen kann und Spaß damit hat, bitten wir dich, dich mit folgenden Regeln vertraut zu machen.
 
-> Wenn du das Gefühl hast, dass jemand die Regeln bricht und kein Moderator da ist, mache einen Screenshot und melde es direkt durch anschreiben der Moderatoren auf dem [Discord server](https://discord.gg/JREx8xz).
+> Wenn du jemanden die Regeln brechen oder andere Konflikte im Chat verursachen siehst, bitte melde dich beim Moderationsteam. Du kannst **melden**, **melden und Spieler blockieren**, oder **erwähne einen Moderator** im Chat. Wir sind hier um zu helfen! Bitte sieh davon ab die Situation durch Reaktion oder Provokation weiter zu eskalieren. Unser Moderationsteam kümmert sich darum. Wer in unserem Moderationsteam ist kannst du sehen unter Profil > Credits bei Moderators.
+
+> Wenn du Probleme mit Betrug, unfreundlichen Chat in deinen Mails/Gang Chat, selbst wenn kein Moderator anwesend ist, reagiere oder provoziere nicht, mach eine Bildschirmaufnahme und melde es via Direktnachrichten den Moderatoren im [Discord server](https://discord.gg/JREx8xz).
+
 ### Wichtige Richtlinien
 * Es wird dringend empfohlen nur mit einem Benutzerkonto pro Person zu spielen, da unser System Zweitkonten markieren wird, um zu verhindern, dass zwischen den Konten Gegenstände getauscht werden. *Dies kann auch passieren wenn du nur ein weiteres Konto hast* (Wir werden nicht helfen deine Gegenstände zu verschieben oder Konten wieder freischalten, wenn das System sie markiert hat.)
 * Nutze niemals den Chat im Spiel (eMail eingeschlossen) um persönliche oder sensible Daten zu verschicken. Der Chat im Spiel ist NICHT verschlüsselt und NICHT sicher! CCO trägt keine Verantwortung deine Daten, die du im Chat schreibst, zu schützen. Beachte, dass die Moderatoren auf das Chatlog Zugriff haben um ihrer Aufgabe nachzukommen.
@@ -40,4 +43,7 @@
 * Emojis😃 / Kaomoji ~ヾ(＾∇＾) / 𝕹𝖔𝖓𝖊-𝖘𝖙𝖆𝖓𝖉𝖆𝖗𝖉 𝕱𝖔𝖓𝖙𝖘 (Muss einfach lesbar sein und darf kein chaos anrichten)
 * Rollenspiel
 * Diskutieren über Politik, Religion, oder COVID-19 (und andere große Ereignisse)
-* Verwenden einer beliegen Sprache in einem beliebigen Chatkanal
+* Verwenden einer beliebigen Sprache in einem beliebigen Chatkanal
+
+#### ADDENDUM
+Bitte beachte, dass das Moderationsteam Benutzer stummschalten oder bannen könnte mit dem Ziel eine sichere, freundliche und gerechte Umgebung für euch zu gewährleisten. Unser Moderationsteam wird gemeinsam daran arbeiten eine lückenlose aufklärung zu erreichen.

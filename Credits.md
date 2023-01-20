@@ -6,6 +6,7 @@
 AlphaC58
 Artra
 AskAmando
+Ayanna
 B3llial
 BoxinFoxx
 [CMDR7](https://github.com/cmdr7)
@@ -55,6 +56,7 @@ Proxxie
 [Fremad](https://github.com/Fremadico)
 [JEricaM](https://github.com/JEricaM)
 Jiler
+Jixt3r
 [Jognatan](https://github.com/Jognatan)
 [Johnruby](https://github.com/johnruby)
 [kj415j45](https://github.com/kj415j45)
@@ -132,6 +134,9 @@ ClayBravo6
 [Maddening](https://github.com/Wildlife4700)
 [S0M3_DUD3](https://github.com/S0M3-DUD3)
 [Jhown](https://github.com/Jhown-glitch)
+[Elrecoal-19](https://github.com/Elrecoal-19)
+Ambr_ence
+Vargur
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
@@ -193,6 +198,7 @@ Amalgamate
 [AndyCandy](https://github.com/andycandy-de)
 Brownin89
 [Deckeeper](https://github.com/deckeeper)
+delada58
 [DexterHuang](https://github.com/DexterHuang)
 Dragonmaster84
 ElectricSoldier323
@@ -317,6 +323,7 @@ B3n7y
 Ph14zk0
 [S0M3_DUD3](https://github.com/S0M3-DUD3)
 [leet_code](https://github.com/hkgnobody)
+[Elrecoal-19](https://github.com/Elrecoal-19)
 
 ## Tips
 [Archibaald](https://github.com/Archibaald-dev)
@@ -353,6 +360,7 @@ spyd3r
 [Jefreesujit](https://github.com/Jefreesujit)
 [Rexyislive](https://github.com/Rexyislive)
 [Polestar](https://github.com/P0L3-5T4R)
+[Elrecoal-19](https://github.com/Elrecoal-19)
 
 ## Security Bug Reporters
 [0xF61](https://github.com/0xF61)
