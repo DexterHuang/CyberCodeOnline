@@ -29,7 +29,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 - Added trading system (still disabled & under testing)
 
 ![image](https://user-images.githubusercontent.com/18545294/213868294-9829d201-0f44-4a4e-b7c7-8065fcf2e9a2.png)
-- Fixed a bug where expired notifications does not get deleted
+- Fixed a bug where expired notifications does not get deleted, causing player data getting too big with expored notification and related security issue with expired notification still usable to join gangs from long time ago.
 
 ### 2023/01/16
 - Fixed issue with in rare situation where when navigating through pages back and forth too fast will result in app page get stucked in a invalid state.
