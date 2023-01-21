@@ -26,6 +26,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates             
 ### 2023/01/16
+- Fixed issue with in rare situation where when navigating through pages back and forth too fast will result in app page get stucked in a invalid state.
 - Reduced sensitivity of swipe on inventory tab
 - Updated Judy's graphic
 - Backend optimization and bug fixes
