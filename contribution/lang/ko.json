@@ -1320,12 +1320,6 @@
  	 	 	 	"eng": "You have not unlocked this area yet"
  	 	 	}
  	 	},
- 	 	"tutorial": {
- 	 	 	"title": {
- 	 	 	 	"trans": "튜토리얼",
- 	 	 	 	"eng": "Tutorial"
- 	 	 	}
- 	 	},
  	 	"machineCrafting": {
  	 	 	"titleBox": {
  	 	 	 	"tile": {
@@ -3687,13 +3681,25 @@
  	 	 	}
  	 	},
  	 	"error": {
+ 	 	 	"tradeNoLongerExist": {
+ 	 	 	 	"trans": "이 무역 세션은 더 이상 존재하지 않았습니다",
+ 	 	 	 	"eng": "this trade session no longer existed"
+ 	 	 	},
+ 	 	 	"cantStartTradeNotIdle": {
+ 	 	 	 	"trans": "당신은 당신이 유휴 상태가되지 않을 때 거래를 시작할 수 없습니다",
+ 	 	 	 	"eng": "You can not start a trade when you are not idle"
+ 	 	 	},
+ 	 	 	"targetPlayerBlockedYou": {
+ 	 	 	 	"trans": "이 플레이어에게 무역 초대를 보낼 수 없습니다",
+ 	 	 	 	"eng": "You cannot send trade invite to this player"
+ 	 	 	},
  	 	 	"targetPlayerBlockedGifts": {
  	 	 	 	"trans": "대상 플레이어는 선물과 거래를 비활성화했습니다",
  	 	 	 	"eng": "Target player has disabled gift and trade"
  	 	 	},
  	 	 	"targetPlayerLimited": {
  	 	 	 	"trans": "대상 플레이어는 거래에 참여할 수 없습니다",
- 	 	 	 	"eng": "Target player cannot participate in trade"
+ 	 	 	 	"eng": "You cannot send trade invite to this player"
  	 	 	},
  	 	 	"tooFrequentlyInvite": {
  	 	 	 	"vars": [
@@ -3701,6 +3707,13 @@
  	 	 	 	],
  	 	 	 	"trans": "당신은 너무 자주 초대 할 수없고, 거래 초대장은 ${minutes} 분입니다",
  	 	 	 	"eng": "You cannot invite too frequently, trade invite cooldown is ${minutes} minutes"
+ 	 	 	},
+ 	 	 	"maxItemsPerPlayer": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"maxItems"
+ 	 	 	 	],
+ 	 	 	 	"trans": "플레이어 당 ${maxItems} 항목을 추가 할 수 없습니다",
+ 	 	 	 	"eng": "You cannot add more than ${maxItems} items per player"
  	 	 	},
  	 	 	"notEnoughItems": {
  	 	 	 	"vars": [
@@ -3759,6 +3772,24 @@
  	 	 	 	"eng": "${playerName} doesn't have enough money to complete the trade."
  	 	 	}
  	 	},
+ 	 	"success": {
+ 	 	 	"receivedItem": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName",
+ 	 	 	 	 	"playerName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${playerName}에서 ${itemName}을 받았습니다",
+ 	 	 	 	"eng": "You received ${itemName} from ${playerName}"
+ 	 	 	},
+ 	 	 	"sentItem": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName",
+ 	 	 	 	 	"playerName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${itemName}을 ${playerName}으로 보냈습니다",
+ 	 	 	 	"eng": "You sent ${itemName} to ${playerName}"
+ 	 	 	}
+ 	 	},
  	 	"moneyReceived": {
  	 	 	"vars": [
  	 	 	 	"money",
@@ -3767,9 +3798,13 @@
  	 	 	"trans": "${money} btc ${playerName}을 받았습니다",
  	 	 	"eng": "You received ${money} BTC from ${playerName}"
  	 	},
- 	 	"completed": {
- 	 	 	"trans": "거래 완료",
- 	 	 	"eng": "Trade completed"
+ 	 	"moneySent": {
+ 	 	 	"vars": [
+ 	 	 	 	"money",
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "${money} btc를 ${playerName}로 보냈습니다",
+ 	 	 	"eng": "You sent ${money} BTC to ${playerName}"
  	 	}
  	},
  	"tutorial": {

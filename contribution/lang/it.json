@@ -1320,12 +1320,6 @@
  	 	 	 	"eng": "You have not unlocked this area yet"
  	 	 	}
  	 	},
- 	 	"tutorial": {
- 	 	 	"title": {
- 	 	 	 	"trans": "Tutorial",
- 	 	 	 	"eng": "Tutorial"
- 	 	 	}
- 	 	},
  	 	"machineCrafting": {
  	 	 	"titleBox": {
  	 	 	 	"tile": {
@@ -3687,13 +3681,25 @@
  	 	 	}
  	 	},
  	 	"error": {
+ 	 	 	"tradeNoLongerExist": {
+ 	 	 	 	"trans": "Questa sessione commerciale non esisteva più",
+ 	 	 	 	"eng": "this trade session no longer existed"
+ 	 	 	},
+ 	 	 	"cantStartTradeNotIdle": {
+ 	 	 	 	"trans": "Non puoi iniziare un commercio quando non sei inattivo",
+ 	 	 	 	"eng": "You can not start a trade when you are not idle"
+ 	 	 	},
+ 	 	 	"targetPlayerBlockedYou": {
+ 	 	 	 	"trans": "Non puoi inviare un invito commerciale a questo giocatore",
+ 	 	 	 	"eng": "You cannot send trade invite to this player"
+ 	 	 	},
  	 	 	"targetPlayerBlockedGifts": {
  	 	 	 	"trans": "Il giocatore target ha un regalo e commercio disabili",
  	 	 	 	"eng": "Target player has disabled gift and trade"
  	 	 	},
  	 	 	"targetPlayerLimited": {
  	 	 	 	"trans": "Il giocatore target non può partecipare al commercio",
- 	 	 	 	"eng": "Target player cannot participate in trade"
+ 	 	 	 	"eng": "You cannot send trade invite to this player"
  	 	 	},
  	 	 	"tooFrequentlyInvite": {
  	 	 	 	"vars": [
@@ -3701,6 +3707,13 @@
  	 	 	 	],
  	 	 	 	"trans": "Non puoi invitare troppo frequentemente, il cooldown di invito al commercio è ${minutes} minuti",
  	 	 	 	"eng": "You cannot invite too frequently, trade invite cooldown is ${minutes} minutes"
+ 	 	 	},
+ 	 	 	"maxItemsPerPlayer": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"maxItems"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Non è possibile aggiungere più di ${maxItems} elementi per giocatore",
+ 	 	 	 	"eng": "You cannot add more than ${maxItems} items per player"
  	 	 	},
  	 	 	"notEnoughItems": {
  	 	 	 	"vars": [
@@ -3759,6 +3772,24 @@
  	 	 	 	"eng": "${playerName} doesn't have enough money to complete the trade."
  	 	 	}
  	 	},
+ 	 	"success": {
+ 	 	 	"receivedItem": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName",
+ 	 	 	 	 	"playerName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Hai ricevuto ${itemName} da ${playerName}",
+ 	 	 	 	"eng": "You received ${itemName} from ${playerName}"
+ 	 	 	},
+ 	 	 	"sentItem": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName",
+ 	 	 	 	 	"playerName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Hai inviato ${itemName} a ${playerName}",
+ 	 	 	 	"eng": "You sent ${itemName} to ${playerName}"
+ 	 	 	}
+ 	 	},
  	 	"moneyReceived": {
  	 	 	"vars": [
  	 	 	 	"money",
@@ -3767,9 +3798,13 @@
  	 	 	"trans": "Hai ricevuto ${money} btc da ${playerName}",
  	 	 	"eng": "You received ${money} BTC from ${playerName}"
  	 	},
- 	 	"completed": {
- 	 	 	"trans": "Commercio completato",
- 	 	 	"eng": "Trade completed"
+ 	 	"moneySent": {
+ 	 	 	"vars": [
+ 	 	 	 	"money",
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Hai inviato ${money} btc a ${playerName}",
+ 	 	 	"eng": "You sent ${money} BTC to ${playerName}"
  	 	}
  	},
  	"tutorial": {
