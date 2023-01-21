@@ -27,6 +27,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ## Updates
 ### 2023/01/21
 - Added trading system (still disabled & under testing)
+
 ![image](https://user-images.githubusercontent.com/18545294/213868294-9829d201-0f44-4a4e-b7c7-8065fcf2e9a2.png)
 - Fixed a bug where expired notifications does not get deleted
 
