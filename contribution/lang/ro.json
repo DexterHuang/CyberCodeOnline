@@ -1320,12 +1320,6 @@
  	 	 	 	"eng": "You have not unlocked this area yet"
  	 	 	}
  	 	},
- 	 	"tutorial": {
- 	 	 	"title": {
- 	 	 	 	"trans": "Tutorial",
- 	 	 	 	"eng": "Tutorial"
- 	 	 	}
- 	 	},
  	 	"machineCrafting": {
  	 	 	"titleBox": {
  	 	 	 	"tile": {
@@ -3687,13 +3681,25 @@
  	 	 	}
  	 	},
  	 	"error": {
+ 	 	 	"tradeNoLongerExist": {
+ 	 	 	 	"trans": "Această sesiune comercială nu mai exista",
+ 	 	 	 	"eng": "this trade session no longer existed"
+ 	 	 	},
+ 	 	 	"cantStartTradeNotIdle": {
+ 	 	 	 	"trans": "Nu puteți începe un comerț atunci când nu sunteți inactiv",
+ 	 	 	 	"eng": "You can not start a trade when you are not idle"
+ 	 	 	},
+ 	 	 	"targetPlayerBlockedYou": {
+ 	 	 	 	"trans": "Nu puteți trimite invitații comerciale către acest jucător",
+ 	 	 	 	"eng": "You cannot send trade invite to this player"
+ 	 	 	},
  	 	 	"targetPlayerBlockedGifts": {
  	 	 	 	"trans": "Jucătorul țintă are cadou și comerț cu handicap",
  	 	 	 	"eng": "Target player has disabled gift and trade"
  	 	 	},
  	 	 	"targetPlayerLimited": {
  	 	 	 	"trans": "Jucătorul țintă nu poate participa la comerț",
- 	 	 	 	"eng": "Target player cannot participate in trade"
+ 	 	 	 	"eng": "You cannot send trade invite to this player"
  	 	 	},
  	 	 	"tooFrequentlyInvite": {
  	 	 	 	"vars": [
@@ -3701,6 +3707,13 @@
  	 	 	 	],
  	 	 	 	"trans": "Nu puteți invita prea des, comerțul Invite Rololdown este ${minutes} minute",
  	 	 	 	"eng": "You cannot invite too frequently, trade invite cooldown is ${minutes} minutes"
+ 	 	 	},
+ 	 	 	"maxItemsPerPlayer": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"maxItems"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Nu puteți adăuga mai mult de ${maxItems} elemente pe jucător",
+ 	 	 	 	"eng": "You cannot add more than ${maxItems} items per player"
  	 	 	},
  	 	 	"notEnoughItems": {
  	 	 	 	"vars": [
@@ -3759,6 +3772,24 @@
  	 	 	 	"eng": "${playerName} doesn't have enough money to complete the trade."
  	 	 	}
  	 	},
+ 	 	"success": {
+ 	 	 	"receivedItem": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName",
+ 	 	 	 	 	"playerName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Ați primit ${itemName} de la ${playerName}",
+ 	 	 	 	"eng": "You received ${itemName} from ${playerName}"
+ 	 	 	},
+ 	 	 	"sentItem": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName",
+ 	 	 	 	 	"playerName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Ați trimis ${itemName} la ${playerName}",
+ 	 	 	 	"eng": "You sent ${itemName} to ${playerName}"
+ 	 	 	}
+ 	 	},
  	 	"moneyReceived": {
  	 	 	"vars": [
  	 	 	 	"money",
@@ -3767,9 +3798,13 @@
  	 	 	"trans": "Ați primit ${money} btc de la ${playerName}",
  	 	 	"eng": "You received ${money} BTC from ${playerName}"
  	 	},
- 	 	"completed": {
- 	 	 	"trans": "Comerțul finalizat",
- 	 	 	"eng": "Trade completed"
+ 	 	"moneySent": {
+ 	 	 	"vars": [
+ 	 	 	 	"money",
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Ați trimis ${money} btc la ${playerName}",
+ 	 	 	"eng": "You sent ${money} BTC to ${playerName}"
  	 	}
  	},
  	"tutorial": {

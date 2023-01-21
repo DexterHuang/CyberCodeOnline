@@ -368,7 +368,7 @@
  	 	 	 	 	"eng": "Chat exploit is in effect, all message sent will be altered. use ${vpnName} to secure your connection!"
  	 	 	 	},
  	 	 	 	"activateVPN": {
- 	 	 	 	 	"trans": "Aktivieren Sie VPN",
+ 	 	 	 	 	"trans": "VPN aktivieren",
  	 	 	 	 	"eng": "Activate VPN"
  	 	 	 	}
  	 	 	},
@@ -976,7 +976,7 @@
  	 	 	 	 	"eng": "Report Player"
  	 	 	 	},
  	 	 	 	"block": {
- 	 	 	 	 	"trans": "Blocker",
+ 	 	 	 	 	"trans": "Spieler bockieren",
  	 	 	 	 	"eng": "Block Player"
  	 	 	 	}
  	 	 	},
@@ -1318,12 +1318,6 @@
  	 	 	"notUnlocked": {
  	 	 	 	"trans": "Du hast diesen Bereich noch nicht freigeschaltet",
  	 	 	 	"eng": "You have not unlocked this area yet"
- 	 	 	}
- 	 	},
- 	 	"tutorial": {
- 	 	 	"title": {
- 	 	 	 	"trans": "Lernprogramm",
- 	 	 	 	"eng": "Tutorial"
  	 	 	}
  	 	},
  	 	"machineCrafting": {
@@ -2068,7 +2062,7 @@
  	 	 	 	"eng": "Links"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Hier finden Sie alle unsere Social -Media -Links, kommen Sie und verbinden Sie sich mit der erstaunlichen Community!",
+ 	 	 	 	"trans": "Hier finden Sie alle unsere Social -Media -Links, kommen Sie und verbinden Sie sich mit der großartigen Community!",
  	 	 	 	"eng": "Here you can find all our social media links, come and connect with the amazing community!"
  	 	 	},
  	 	 	"reportBug": {
@@ -2984,11 +2978,11 @@
  	 	 	 	"vars": [
  	 	 	 	 	"amount"
  	 	 	 	],
- 	 	 	 	"trans": "Dies spendet ${amount} Unit von deinem Konto.",
+ 	 	 	 	"trans": "Dies spendet ${amount} Units von deinem Konto.",
  	 	 	 	"eng": "This will donate ${amount} Unit from your account"
  	 	 	},
  	 	 	"notEnough": {
- 	 	 	 	"trans": "Du hast nicht genug Unit, um zu spenden.",
+ 	 	 	 	"trans": "Du hast nicht genug Units, um zu spenden.",
  	 	 	 	"eng": "You do not have enough Unit to donate."
  	 	 	}
  	 	},
@@ -3002,7 +2996,7 @@
  	 	 	 	"eng": "Report and Block"
  	 	 	},
  	 	 	"openPlayerProfile": {
- 	 	 	 	"trans": "Profil anzeigen",
+ 	 	 	 	"trans": "Profil ansehen",
  	 	 	 	"eng": "View Profile"
  	 	 	},
  	 	 	"openPlayerGang": {
@@ -3687,20 +3681,39 @@
  	 	 	}
  	 	},
  	 	"error": {
+ 	 	 	"tradeNoLongerExist": {
+ 	 	 	 	"trans": "Diese Handelssitzung existierte nicht mehr",
+ 	 	 	 	"eng": "this trade session no longer existed"
+ 	 	 	},
+ 	 	 	"cantStartTradeNotIdle": {
+ 	 	 	 	"trans": "Sie können keinen Handel beginnen, wenn Sie nicht untätig sind",
+ 	 	 	 	"eng": "You can not start a trade when you are not idle"
+ 	 	 	},
+ 	 	 	"targetPlayerBlockedYou": {
+ 	 	 	 	"trans": "Sie können keine Handelsladung an diesen Spieler senden",
+ 	 	 	 	"eng": "You cannot send trade invite to this player"
+ 	 	 	},
  	 	 	"targetPlayerBlockedGifts": {
- 	 	 	 	"trans": "Target Player hat Geschenke und Handel mit Behinderungen",
+ 	 	 	 	"trans": "Zielspieler hat Geschenke und Handel deaktiviert",
  	 	 	 	"eng": "Target player has disabled gift and trade"
  	 	 	},
  	 	 	"targetPlayerLimited": {
  	 	 	 	"trans": "Zielspieler kann nicht am Handel teilnehmen",
- 	 	 	 	"eng": "Target player cannot participate in trade"
+ 	 	 	 	"eng": "You cannot send trade invite to this player"
  	 	 	},
  	 	 	"tooFrequentlyInvite": {
  	 	 	 	"vars": [
  	 	 	 	 	"minutes"
  	 	 	 	],
- 	 	 	 	"trans": "Sie können nicht zu häufig einladen, Handelsladungsabklingzeit beträgt ${minutes} Minuten",
+ 	 	 	 	"trans": "Sie können nicht so häufig einladen, die Einladeabklingzeit beträgt ${minutes} Minuten",
  	 	 	 	"eng": "You cannot invite too frequently, trade invite cooldown is ${minutes} minutes"
+ 	 	 	},
+ 	 	 	"maxItemsPerPlayer": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"maxItems"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Sie können nicht mehr als ${maxItems} Artikel pro Spieler hinzufügen",
+ 	 	 	 	"eng": "You cannot add more than ${maxItems} items per player"
  	 	 	},
  	 	 	"notEnoughItems": {
  	 	 	 	"vars": [
@@ -3759,6 +3772,24 @@
  	 	 	 	"eng": "${playerName} doesn't have enough money to complete the trade."
  	 	 	}
  	 	},
+ 	 	"success": {
+ 	 	 	"receivedItem": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName",
+ 	 	 	 	 	"playerName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Sie haben ${itemName} von ${playerName} erhalten",
+ 	 	 	 	"eng": "You received ${itemName} from ${playerName}"
+ 	 	 	},
+ 	 	 	"sentItem": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName",
+ 	 	 	 	 	"playerName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Sie haben ${itemName} an ${playerName} gesendet",
+ 	 	 	 	"eng": "You sent ${itemName} to ${playerName}"
+ 	 	 	}
+ 	 	},
  	 	"moneyReceived": {
  	 	 	"vars": [
  	 	 	 	"money",
@@ -3767,9 +3798,13 @@
  	 	 	"trans": "Sie haben ${money} BTC von ${playerName} erhalten",
  	 	 	"eng": "You received ${money} BTC from ${playerName}"
  	 	},
- 	 	"completed": {
- 	 	 	"trans": "Handel abgeschlossen",
- 	 	 	"eng": "Trade completed"
+ 	 	"moneySent": {
+ 	 	 	"vars": [
+ 	 	 	 	"money",
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Sie haben ${money} BTC an ${playerName} gesendet",
+ 	 	 	"eng": "You sent ${money} BTC to ${playerName}"
  	 	}
  	},
  	"tutorial": {
@@ -7266,7 +7301,7 @@
  	},
  	"referralPromo": {
  	 	"title": {
- 	 	 	"trans": "Verweisen Sie Ihre Freunde, um großartige Belohnungen zu erhalten!",
+ 	 	 	"trans": "Bringen Sie Ihre Freunde ins Spiel, um großartige Belohnungen zu erhalten!",
  	 	 	"eng": "Refer your friends to get amazing rewards!"
  	 	},
  	 	"desc1": {
@@ -7287,11 +7322,11 @@
  	 	 	 	"eng": "How to refer?"
  	 	 	},
  	 	 	"step1": {
- 	 	 	 	"trans": "2. Das ist es!",
+ 	 	 	 	"trans": "1. Lass deinen Freund deinen Spielernamen während der Charaktererstellung eintragen!",
  	 	 	 	"eng": "1. Have your friend enter your in-game name during character creation"
  	 	 	},
  	 	 	"step2": {
- 	 	 	 	"trans": "2. Das ist es!",
+ 	 	 	 	"trans": "2. fertig, geschafft!",
  	 	 	 	"eng": "2. done, thats it!"
  	 	 	}
  	 	},
