@@ -1,0 +1,1 @@
+There is only two unspoken rules on the street. First is keep your iron loaded. Second, your threads must be flashy. You never know when you'll flatline but at least you'll be dressed for the occassion.
