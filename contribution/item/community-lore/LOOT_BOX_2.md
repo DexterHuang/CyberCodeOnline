@@ -1,0 +1,1 @@
+The faded logo of the defunct devilery company can be seen on the container. Before the national freeways were destroyed in the corprate wars you could buy anything through the net with a click of a button. Didn't matter if it was canned pizza or orbital lasers you were gaurenteed same delivery.
