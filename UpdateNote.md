@@ -25,6 +25,14 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates
+### 2023/01/26
+- Updated molecular print npc image
+- Updated lee's image
+- Show better login failed message
+
+### 2023/01/25
+- Updated clibration stiation npc image
+
 ### 2023/01/21
 - Added trading system (still disabled & under testing)
 
