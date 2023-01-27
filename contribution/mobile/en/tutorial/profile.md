@@ -33,6 +33,7 @@ On other players' profiles, you will encounter different options such as:
 - **SEND GIFT** : send items (caches, healing items, ammo, etc.) from your inventory to the other player's inventory. You cannot send Secret Key Fragments to other players.
 - **INVITE TO GANG** : invite the player to your gang, only if you are the Leader or you have the permission to invite others players into the gang.
 - **ADD TO FRIEND LIST** : add the player to your friend list, and if the player is not currenty online, they will also receive a notification about the fact that you added them as a friend.
+- **SEND TRADE REQUEST** : exchange of goods between two parties (you and other players) without involving btc as a means of transaction.
 - **SEND STREET CRED** : give 1 Street Cred point to the player.
 
 Street Cred is a point system similar to "Karma" system found on Reddit. It's meant to indicate how trustful or helpful a player is. You're limited to sending only 1 Street Cred per day. You are not limited in how much Street Cred you receive from other players.
