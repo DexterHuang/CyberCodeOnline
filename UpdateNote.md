@@ -25,6 +25,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates
+### 2023/01/28
+- Bug fixes and optmization
+- SL-Data fortress breach will be disabled for a day due to prevent overriding 1-day buff by `Raira`
+
 ### 2023/01/26
 - Updated molecular print npc image
 - Updated lee's image
