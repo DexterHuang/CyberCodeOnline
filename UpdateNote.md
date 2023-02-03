@@ -28,16 +28,16 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ### 2023/02/03
 - Added many new enemy images (thanks to `ZeFat` for creating the images)
 - Added new BGM for gang headquarters (thanks to D3C1M4L for composing the track)
-
-### 2023/01/28
-- Bug fixes and optmization
-- SL-Data fortress breach will be disabled for a day due to prevent overriding 1-day buff by `Raira`
 - Increased `Factory reset shard` max price at market
 - Enabled equipment translation for Italian language 
 - Changed skip heart image back to heart
 - Fixed issue with login page cropped on some device
 - Fixed issue with loading splash screen jumpy on some device
 - Increased minigame reward, now has chance to drop `Rare Locked Container`
+
+### 2023/01/28
+- Bug fixes and optmization
+- SL-Data fortress breach will be disabled for a day due to prevent overriding 1-day buff by `Raira`
 
 ### 2023/01/26
 - Updated molecular print npc image
