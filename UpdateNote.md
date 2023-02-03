@@ -27,7 +27,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ## Updates
 ### 2023/02/03
 - Added many new enemy images (thanks to `ZeFat` for creating the images)
-- Added new BGM for gang headquarters (thanks to D3C1M4L for composing the track)
+- Added new BGM for gang headquarters (thanks to `D3C1M4L` for composing the track)
 - Increased `Factory reset shard` max price at market
 - Enabled equipment translation for Italian language 
 - Changed skip heart image back to heart
