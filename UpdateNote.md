@@ -27,6 +27,8 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ## Updates
 ### 2023/02/08
 - You can now open chat tab on the left panel of web version, allowing you to see both gang and global chat at same time.
+- Server optimization
+- minor bug fixes
 
 ### 2023/02/03
 - Added many new enemy images (thanks to `ZeFat` for creating the images)
