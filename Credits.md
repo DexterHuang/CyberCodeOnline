@@ -116,7 +116,7 @@ Wanna
 [SunRisek](https://github.com/szymonagk)
 [Fataliste](https://github.com/Nasaelo)
 [Karont20](https://github.com/KarontDev)
-[Valkyria](https://github.com/Paugwvsk)
+[VanrSky](https://github.com/Paugwvsk)
 [BazzJazz](https://github.com/BassJazz) 
 [Syll](https://github.com/iburiedthesun) 
 [blacksurgeon](https://github.com/blacksurgeon) 
