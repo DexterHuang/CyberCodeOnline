@@ -74,6 +74,7 @@ MontyPython
 [PedroCisnerosSantana](https://github.com/PedroCisnerosSantana)
 [PsyB34R](https://www.instagram.com/psybearr)
 [QuiteABitofAll](https://github.com/QuiteaBitofAll)
+[Quinera](https://github.com/Quinera)
 roucoupute2
 Rilla
 Rinelle
