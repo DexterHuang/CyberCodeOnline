@@ -20,17 +20,18 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ### Help Needed:
 
--   contribution/words.json - Random Words
--   contribution/dungeon/layout/structure-mask.json - Dungeon Layouts 
--   contribution/mobile/{lang}/tips.md - Tips for Mobile
--   contribution/mobile/{lang}/tutorial/\*.md - Tutorial
--   contribution/mobile/{lang}/procedural-names - equipment names
--   contribution/mobile/{lang}/item/lore - item lore
--   contribution/mobile/{lang}/scenario/\*\* - drop lore
--   contribution/mobile/{lang}/dungeon-lore/\*\* - dungeon lore
--   tips.txt - Tips for desktop
--   tutorial/\* - Desktop Tutorial
--   contribution/lang/ - Localizations
+- contribution/words.json - Random Words
+- contribution/dungeon/layout/structure-mask.json - Dungeon Layouts 
+- contribution/mobile/{lang}/tips.md - Tips for Mobile
+- contribution/mobile/{lang}/tutorial/\*.md - Tutorial
+- contribution/mobile/{lang}/procedural-names - equipment names  
+  **Note**: In order to keep things less confusing, please avoid adding additional tier prefixes.
+- contribution/mobile/{lang}/item/lore - item lore
+- contribution/mobile/{lang}/scenario/\*\* - drop lore
+- contribution/mobile/{lang}/dungeon-lore/\*\* - dungeon lore
+- tips.txt - Tips for desktop
+- tutorial/\* - Desktop Tutorial
+- contribution/lang/ - Localizations
 
 ### Simply edit file tutorial
 
