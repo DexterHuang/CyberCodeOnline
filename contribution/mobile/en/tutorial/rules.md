@@ -37,12 +37,12 @@
 **All rules are listed here, there are NO "unwritten rules", but be respectful and stop if other players don't like what you are sending in chat**
 #### Not Allowed: 
 * unfriendly / fighting / arguing / disrespectful / harassment to others opinion / offensive or passive agressive messages
-  * If you need to argue or fight with other player, please do not do it in game chat and strongly suggest everyone to be friendly towards each other. 
+  * If you need to argue or fight with other player, please do not do it in game chat and we strongly suggest everyone to be friendly towards each other. 
   * If you have feedback regarding moderation issues, please contact moderator via DM or discord.
   * If you want to report a moderator for abuse or other issues, please email Dexter at ching.huang.dexter@gmail.com
-  * If you have issue with game bugs, please do report it in bug-report channel in our official discord server.
+  * If you face issue with the game bug, please do report it in bug-report channel in our official discord server.
 
-**PLEASE NOTE: Please do not fight or agruge in game chat and use the appropriate channel for feedbacks and report, as it will ensure that your voice is properly heard by the correct parties (global chat will be washed off in a few minutes, and the developer does not constantly watch the chat 24-7, therefore it would be very ineffective in for deliverying feedback), and ensure that other player's right to a friendly and safe gaming enviroment is not distrubed**
+**PLEASE NOTE: Please do not fight or agruge in game chat, and please use the appropriate channel for feedbacks and reports, as it will ensure that your voice is properly heard by the correct parties (global chat will be washed off in a few minutes, and the developer does not constantly watch the chat 24-7, therefore it would be a extremely ineffective way to deliver your feedback), and this is also to ensure that other player's right to a friendly and safe gaming enviroment is not distrubed**
 * excessive swearing, explicit sexual content, gore, violence
 * personal insults
 * Spamming / Trolling 
