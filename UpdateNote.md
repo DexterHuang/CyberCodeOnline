@@ -25,6 +25,14 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates
+### 2023/02/13
+- Added quick select feature, now enabled only at sell to NPC shop interface, you can now configure what equipment or cache to be auto selected so you can sell them more quickly
+
+### 2023/02/08
+- You can now open chat tab on the left panel of web version, allowing you to see both gang and global chat at same time.
+- Server optimization
+- minor bug fixes
+
 ### 2023/02/03
 - Added many new enemy images (thanks to `ZeFat` for creating the images)
 - Added new BGM for gang headquarters (thanks to `D3C1M4L` for composing the track)

@@ -74,6 +74,7 @@ MontyPython
 [PedroCisnerosSantana](https://github.com/PedroCisnerosSantana)
 [PsyB34R](https://www.instagram.com/psybearr)
 [QuiteABitofAll](https://github.com/QuiteaBitofAll)
+[Quinera](https://github.com/Quinera)
 roucoupute2
 Rilla
 Rinelle
@@ -116,7 +117,7 @@ Wanna
 [SunRisek](https://github.com/szymonagk)
 [Fataliste](https://github.com/Nasaelo)
 [Karont20](https://github.com/KarontDev)
-[Valkyria](https://github.com/Paugwvsk)
+[VanrSky](https://github.com/Paugwvsk)
 [BazzJazz](https://github.com/BassJazz) 
 [Syll](https://github.com/iburiedthesun) 
 [blacksurgeon](https://github.com/blacksurgeon) 
@@ -216,6 +217,7 @@ LitFill
 [MagicCookie](https://github.com/GooseGooseStop)
 mika
 Mmmmmmmfood
+[Mondmaus](https://github.com/mondmaus)
 MontyPython
 Negative
 [nopeholmes](https://github.com/nopeholmes)
