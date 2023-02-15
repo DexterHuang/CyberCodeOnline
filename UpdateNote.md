@@ -25,6 +25,10 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates
+### 2023/02/15
+- Quick select will now not select bag items when selecting equipment, eventho its a equipment, considering people wont try to sell it, I have made it not to select it.
+- Added ability to select upgrade modules in quick select module
+
 ### 2023/02/13
 - Added quick select feature, now enabled only at sell to NPC shop interface, you can now configure what equipment or cache to be auto selected so you can sell them more quickly
 
