@@ -91,7 +91,8 @@ At most cases (such as Deploy Farm Bot task), your **Gear Score** affects your E
 Explanation around Global / Time Skip can be found on [Time Skip's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fglobal_skip.md)
 
 ### Does the game support trading among players?
-Yes, partially. You can send items to other players, but there isn't a system that forces the other person to give something in exchange. Most trades are conducted with trust. You can't gift BTC and key fragments to other players. Only Healing Items, Ammo, Materials, Hash Processors, AI Cores and other types of items.
+Yes, as of update 2023/01/21, there is an official trading system. You can still send items to other players, outside of the trading system, by using the gift function, clicking a player's username in chat, for example, and hitting the **"Send Gift"** button. However, if you wish to trade through the system, you need to enter the player's profile and click **Send Trade Request**. You can't trade key fragments and some other specific event items with other players. Only Healing Items, Ammo, Materials, Hash Processors, AI Cores and other types of items, including BTC. You can't trade while you have an active AFK task, or are in the middle of a fight, but you can trade if you are wandering around a dungeon, or idle in general. 
+
 
 ### What should I do if my inventory is full?
 You can either scrap, destroy or store items in the bank located in the City Center. Note that the fee for each item you deposit in the bank is 100 BTC. It doesn't cost anything to take the item back out. You can also temporarily increase your inventory capacity with the 'Pocket' stat found on equipment and upgrade modules.
