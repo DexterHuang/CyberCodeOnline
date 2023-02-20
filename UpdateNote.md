@@ -29,6 +29,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 - You can now optionally hide lower level are in transtations, this option will show up when you are level 30+
 - Area now open to level 800
 - Fixed issue with epic upgrade module shows that as if it can install a module but it can't
+- Fixed bug where DexterHuang is showing on leaderboard, I am not suppose to be in the leaderboard 
 
 ### 2023/02/17
 - Reduced printing price for Epic items on higher levels
