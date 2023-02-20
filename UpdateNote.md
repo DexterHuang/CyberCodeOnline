@@ -25,6 +25,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates
+### 2023/02/20
+- You can now optionally hide lower level are in transtations, this option will show up when you are level 30+
+- Area now open to level 800
+- Fixed issue with epic upgrade module shows that as if it can install a module but it can't
+
 ### 2023/02/17
 - Reduced printing price for Epic items on higher levels
 - Now top gang banner will again show in stations
