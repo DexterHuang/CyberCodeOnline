@@ -25,6 +25,11 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates
+### 2023/02/21
+- Fixed combat log not showing correctly on desktop version
+- Reduced difficulty on 500+ level enemies, both health and damage
+- Minor UI fixes
+
 ### 2023/02/20
 - You can now optionally hide lower level are in transtations, this option will show up when you are level 30+
 - Area now open to level 800
