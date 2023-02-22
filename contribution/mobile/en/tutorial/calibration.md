@@ -1,38 +1,38 @@
 # Calibration
 ![CalibrationStation](/resources/mobile-tutorial/CalibrationStation.png)
 
-**Calibration** is an action where players upgrade their gear to a certain point of improvement, with the purpose of gear longevity and usability on a higher level later on. Calibrating a gear does not increase its level, yet it increases its base stats up to a certain tier of calibration.
+**Calibration** upgrades gear for longevity and usability at higher levels, but doesn't increase its level - it only increases its base stats to a certain tier.
 
-It is advisable to start Calibrating your gear around level 50 (and above) as the lower level will outgrow the calibrated gear quickly making the calibrated gear useless on longer runs. It is also advisable to calibrate gear that's at least a Rare (up to Epic) rarity as higher rarity provides more calibration tier's to improve.
+Start **calibrating** gear at level 50 or higher to avoid quickly outgrowing it on longer runs. Calibrate at least Rare (up to Epic) gear for more tiers to improve.
 
-To do Calibration, A player needs to visit the Calibration Station that can be found in Shangri-La City Center (Map).
+To **calibrate** an item, you need to visit the Calibration Station that can be found at the Shangri-La City Center (Map).
 
 ## Performing Calibration
 ![CalibrationStation2](/resources/mobile-tutorial/CalibrationStation2.png)
 
-Inside **Calibration Station**, the player will be asked to insert the **Equipment Calibration Core** to start the process. After inserting the core, the player needs to wait for 30 minutes before the Station allows the player to calibrate their gear (**This waiting process is not affected by any global buff / skips, including AFK Accelerators [Synaptic Acceleration Transmitter]**).
+Inside the **Calibration Station**, the player will be asked to insert the **Equipment Calibration Core** to start the process. After inserting the core, the player needs to wait for 30 minutes before the Station allows the player to calibrate their gear (**This waiting process is not affected by any global buff / skips, including AFK Accelerators [Synaptic Acceleration Transmitter]**).
 
 ![CalibrationStation3](/resources/mobile-tutorial/CalibrationStation3.png)
 
-After 30 minutes, A player is allowed to calibrate any gear (excluding maxed Calibrated Gear) that's not equipped into their equipped slot. 
+After inserting an **Equipment Calibration Core** and waiting 30 minutes, A player is allowed to calibrate any gear (excluding maxed calibrated Gear) that's not equipped into their equipped slot. 
 
 ## Outside of Calibration Station
 
-As of **v0.780 (2022/03/04) update**, players were allowed to do Calibration during the AFK Task / Dungeon session. 
+As of **v0.780 (2022/03/04) update**, players were allowed to calibrate gear during the AFK Task / Dungeon session. 
 
 ![CalibrationStationAlt](/resources/mobile-tutorial/CalibrationStationAlt.png)
 
-In order to do so, players must click on its designated gear then pick the `View Details` option. On the **Equipment Details** section, click on the **Upgrade** or **Calibration Slots** button to navigate to Calibration Station. In this way, players can do calibration at ease.
+To calibrate their gear, players can click on the designated gear, select 'View Details,' and then click either the **Upgrade** or **Calibration Slots** button in the **Equipment Details** section to navigate to the Calibration Station.
 
-Keep in mind that only unequipped gear was the ones that can be calibrated.
+Keep in mind that only unequipped gear can be calibrated.
 
 ## Chance of Destructive Failure
 
 ![CalibrationStation4](/resources/mobile-tutorial/CalibrationStation4.png)
 
-In process of calibrating the gear, there's a chance that the process will fail, resulting in a gear being destroyed. The percentage of failure is indicated by the red number on top of the selected gear in %.
+While calibrating gear, there's a chance it may fail and be destroyed, indicated by a red percentage number on the gear.
 
-It is advisable to remove the Upgrade Module that's attached to the gear before attempting to calibrate, as both gear and module will get destroyed in process of fail.
+Before calibrating gear, it's advisable to remove any attached Upgrade Modules to avoid the risk of both the gear and module being destroyed in case of failure.
 
 In general, the gear capacity / fail percentage of each tier is as follows:
 | Gear Capacity | Tier | Chance to Fail |
@@ -49,21 +49,21 @@ In general, the gear capacity / fail percentage of each tier is as follows:
 | Epic | +10 | 666% |
 
 ## Override The Chance
-Any +6 calibration and beyond is *impossible to achieve* without the use of **Calibration Boost**. They reduce the failure percentage and they stack / add with each other.
+Calibrating to +6 or beyond is *impossible* without **Calibration Boosts**, which reduce the failure percentage and can be stacked.
 
 In general, the calibration boost tier (and where to find them) is as follows:
-- **Calibration AI Shard (Common)** reduce the chance of failure by 5%; only for Personal Use; can be found in Rare Locked Containers
-- **Calibration AI Shard (Rare)** reduce the chance of failure by 10%; Global Buff; can only be bought in the Arasaka Unit Exchange
-- **Calibration AI Shard (Legendary)** reduce the chance of failure by 50%; Global Buff; can only be bought in the Arasaka Unit Exchange
-- **Calibration AI Shard (Epic)** reduce the chance of failure by 100%; Global Buff; can only be bought in the Arasaka Unit Exchange
-- **Calibration AI Shard (Prestige)** reduce the chance of failure by 300%; Global Buff; can only be bought in the Arasaka Unit Exchange 
+- **Calibration AI Shard (Common)** reduces the chance of failure by 5%; only for Personal Use; can be found in Rare Locked Containers
+- **Calibration AI Shard (Rare)** reduces the chance of failure by 10%; Global Buff; can only be bought in the Arasaka Unit Exchange
+- **Calibration AI Shard (Legendary)** reduces the chance of failure by 50%; Global Buff; can only be bought in the Arasaka Unit Exchange
+- **Calibration AI Shard (Epic)** reduces the chance of failure by 100%; Global Buff; can only be bought in the Arasaka Unit Exchange
+- **Calibration AI Shard (Prestige)** reduces the chance of failure by 300%; Global Buff; can only be bought in the Arasaka Unit Exchange 
 
-Players can also negate the destructive effect by activating **Calibration Safety Nano Bots** (which can be found in Mysterious Containers / or bought in the Arasaka Unit Exchange) before calibrating the gear.
+Players can prevent gear destruction by using **Calibration Safety Nano Bots**, which can be found in Mysterious Containers or purchased in the Arasaka Unit Exchange, before calibrating their gear.
 
-Keep in mind that the boosts **will only last for 5 min** & each tier / rarity of boost **can only be stacked twice** (excluding Common Shard). It's best to be prepared before boosting.
+Keep in mind that boosts last for **only 5 minutes** and each tier/rarity **can only be stacked twice** (except Common Shards), so it's best to be prepared before using them.
 
 ## Gear Improvement
-With each calibration, gear gets improved and far better than un-calibrated gear (depending on its level). These improvements ranged from higher health, better damage, more inventory slots, etc.
+Each calibration improves gear significantly, with improvements including increased health, damage, and inventory slots, depending on the gear's level.
 
 Improvement (from calibration; from its base stats) percentage as follows:
 | Tier | Gear Improvement |
@@ -81,4 +81,4 @@ Improvement (from calibration; from its base stats) percentage as follows:
 
 
 ##  Trade / Sell Calibrated Gear 
-Players can't trade / sell their calibrated gear. To trade / sell related gear, players need to **Reset** the calibrated gear by using **Factory Reset Shard** (that can be found on Scavenge or Market).
+Calibrated gear cannot be traded or sold, but players can **Reset** it using a **Factory Reset Shard**, which can be found on Scavenge or Market, to enable trading or selling of related gear.
