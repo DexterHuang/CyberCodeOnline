@@ -600,13 +600,13 @@
  	 	 	 	 	"eng": "Auto Scrap"
  	 	 	 	}
  	 	 	},
- 	 	 	"equipped": {
- 	 	 	 	"trans": "Uitgerust",
- 	 	 	 	"eng": "Equipped"
- 	 	 	},
  	 	 	"inventory": {
  	 	 	 	"trans": "Voorraad",
  	 	 	 	"eng": "Inventory"
+ 	 	 	},
+ 	 	 	"equipped": {
+ 	 	 	 	"trans": "Uitgerust",
+ 	 	 	 	"eng": "Equipped"
  	 	 	},
  	 	 	"itemInbox": {
  	 	 	 	"trans": "Item inbox",
@@ -622,30 +622,12 @@
  	 	 	 	"title": {
  	 	 	 	 	"trans": "Aanmelden",
  	 	 	 	 	"eng": "Create Lore"
- 	 	 	 	},
- 	 	 	 	"description": {
- 	 	 	 	 	"trans": "Er is nog geen community-lore voor dit artikel, wees de eerste om er een voor te maken.",
- 	 	 	 	 	"eng": "There is no community lore for this item yet, be the first to create one for it."
  	 	 	 	}
  	 	 	},
  	 	 	"openButton": {
  	 	 	 	"title": {
  	 	 	 	 	"trans": "Gemeente",
  	 	 	 	 	"eng": "Community Lore"
- 	 	 	 	},
- 	 	 	 	"description": {
- 	 	 	 	 	"trans": "Open de community Lore voor dit item",
- 	 	 	 	 	"eng": "Open the community lore for this item"
- 	 	 	 	}
- 	 	 	},
- 	 	 	"editButton": {
- 	 	 	 	"title": {
- 	 	 	 	 	"trans": "Bewerk deze lore",
- 	 	 	 	 	"eng": "edit this lore"
- 	 	 	 	},
- 	 	 	 	"description": {
- 	 	 	 	 	"trans": "Bewerk deze gemeenschap Lore",
- 	 	 	 	 	"eng": "Edit this community lore"
  	 	 	 	}
  	 	 	}
  	 	},
@@ -660,16 +642,46 @@
  	 	 	 	 	"eng": "This item is broken, bring it to Weapon Smith for repair"
  	 	 	 	}
  	 	 	},
+ 	 	 	"areaEffect": {
+ 	 	 	 	"trans": "[AoE] Effect, het effect van dit item is bondgenoten in gevechten met u toe.",
+ 	 	 	 	"eng": "[AOE] Area of Effect, the effect of this item will apply allies in combat with you."
+ 	 	 	},
+ 	 	 	"lockModal": {
+ 	 	 	 	"unlock": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Item ontgrendelen?",
+ 	 	 	 	 	 	"eng": "Unlock item?"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "Wanneer het item is ontgrendeld, kunt u dit ruilen of schrappen.",
+ 	 	 	 	 	 	"eng": "When item is unlocked, you can trade or scrap it."
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"lock": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Lock -item?",
+ 	 	 	 	 	 	"eng": "Lock item?"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "U kunt voorkomen dat dit item per ongeluk schraapt of verkoopt door het te vergrendelen.",
+ 	 	 	 	 	 	"eng": "You can prevent accidentally scraping or selling this item by locking it."
+ 	 	 	 	 	}
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"locked": {
+ 	 	 	 	"trans": "Op slot",
+ 	 	 	 	"eng": "Locked"
+ 	 	 	},
+ 	 	 	"unlocked": {
+ 	 	 	 	"trans": "Ontgrendeld",
+ 	 	 	 	"eng": "Unlocked"
+ 	 	 	},
  	 	 	"upgradeModuleTitle": {
  	 	 	 	"trans": "Upgrades",
  	 	 	 	"eng": "upgrade slot ${index}",
  	 	 	 	"vars": [
  	 	 	 	 	"index"
  	 	 	 	]
- 	 	 	},
- 	 	 	"areaEffect": {
- 	 	 	 	"trans": "[AoE] Effect, het effect van dit item is bondgenoten in gevechten met u toe.",
- 	 	 	 	"eng": "[AOE] Area of Effect, the effect of this item will apply allies in combat with you."
  	 	 	},
  	 	 	"equip": {
  	 	 	 	"trans": "Uitrusten",
@@ -686,18 +698,6 @@
  	 	 	"use": {
  	 	 	 	"trans": "Gebruik maken van",
  	 	 	 	"eng": "Use"
- 	 	 	},
- 	 	 	"unlock": {
- 	 	 	 	"trans": "Ontgrendelen",
- 	 	 	 	"eng": "Unlock"
- 	 	 	},
- 	 	 	"lock": {
- 	 	 	 	"trans": "Slot",
- 	 	 	 	"eng": "Lock"
- 	 	 	},
- 	 	 	"lockDescription": {
- 	 	 	 	"trans": "Voorkomt toevallig verkopen of vernietigen",
- 	 	 	 	"eng": "Prevents accidental selling or destroying"
  	 	 	},
  	 	 	"cantPrintWhileInCombat": {
  	 	 	 	"vars": [
@@ -747,8 +747,14 @@
  	 	 	},
  	 	 	"factoryReset": {
  	 	 	 	"confirmation": {
- 	 	 	 	 	"trans": "Dit doen zal alle kalibratie op uw artikel resetten, maakt het ook weer verhandelijk. \n       Weet je zeker dat je verder wilt gaan?",
- 	 	 	 	 	"eng": "Doing this will reset all calibration on your item. It will also make it tradable again. \r\n      Are you sure you want to proceed?"
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Weet u zeker dat u de fabrieksreset wilt instellen?",
+ 	 	 	 	 	 	"eng": "Are you sure you want to factory reset?"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "Door dit item te resetten, verliest u alle kalibratie, maar u kunt het ruilen voor andere spelers.",
+ 	 	 	 	 	 	"eng": "By resetting this item, you will lose all calibration, however you will be able to trade it to other players."
+ 	 	 	 	 	}
  	 	 	 	},
  	 	 	 	"trans": "Fabrieksinstellingen",
  	 	 	 	"eng": "Factory Reset"
@@ -805,6 +811,10 @@
  	 	 	"travel": {
  	 	 	 	"trans": "Reis",
  	 	 	 	"eng": "Travel"
+ 	 	 	},
+ 	 	 	"hideLowerLevelTravels": {
+ 	 	 	 	"trans": "Verberg lagere niveaus",
+ 	 	 	 	"eng": "Hide lower levels"
  	 	 	}
  	 	},
  	 	"npc": {
@@ -1440,10 +1450,6 @@
  	 	 	 	"trans": "Ontvang wereldwijde buffmelding",
  	 	 	 	"eng": "Receive Global Buff Notification"
  	 	 	},
- 	 	 	"forceMobileMode": {
- 	 	 	 	"trans": "Schakel Cyberpunk-modus in",
- 	 	 	 	"eng": "Enable Cyberpunk Mode"
- 	 	 	},
  	 	 	"uiScale": {
  	 	 	 	"trans": "UI-schaal",
  	 	 	 	"eng": "UI Scale",
@@ -2069,6 +2075,10 @@
  	 	 	 	"trans": "Hier kunt u al onze links op sociale media vinden, komen en contact maken met de geweldige community!",
  	 	 	 	"eng": "Here you can find all our social media links, come and connect with the amazing community!"
  	 	 	},
+ 	 	 	"credits": {
+ 	 	 	 	"trans": "Credits",
+ 	 	 	 	"eng": "Credits"
+ 	 	 	},
  	 	 	"reportBug": {
  	 	 	 	"trans": "Meld een bug",
  	 	 	 	"eng": "Report a bug"
@@ -2166,6 +2176,14 @@
  	 	 	 	"trans": "Register",
  	 	 	 	"eng": "Create Account"
  	 	 	},
+ 	 	 	"terms": {
+ 	 	 	 	"trans": "Door een account aan te maken, gaat u akkoord met onze",
+ 	 	 	 	"eng": "By creating an account, you agree to our"
+ 	 	 	},
+ 	 	 	"termsLink": {
+ 	 	 	 	"trans": "Servicevoorwaarden",
+ 	 	 	 	"eng": "Terms of Service"
+ 	 	 	},
  	 	 	"loginPageButton": {
  	 	 	 	"trans": "Account hebben?",
  	 	 	 	"eng": "Have account?"
@@ -2199,10 +2217,6 @@
  	 	 	"tutorial": {
  	 	 	 	"trans": "uitleg",
  	 	 	 	"eng": "tutorial"
- 	 	 	},
- 	 	 	"credits": {
- 	 	 	 	"trans": "credits",
- 	 	 	 	"eng": "credits"
  	 	 	}
  	 	},
  	 	"porofile": {
@@ -2373,10 +2387,10 @@
  	 	 	"trans": "Vrij",
  	 	 	"eng": "Free"
  	 	},
- 	 	"luna": {
+ 	 	"retro": {
  	 	 	"name": {
- 	 	 	 	"trans": "Neon maancadeau",
- 	 	 	 	"eng": "Neon moon gift"
+ 	 	 	 	"trans": "Synthwave bundel",
+ 	 	 	 	"eng": "Synthwave bundle"
  	 	 	}
  	 	},
  	 	"skip": {
@@ -2564,6 +2578,10 @@
  	 	 	"trans": "mist",
  	 	 	"eng": "missing"
  	 	},
+ 	 	"close": {
+ 	 	 	"trans": "dichtbij",
+ 	 	 	"eng": "Close"
+ 	 	},
  	 	"dungeons": {
  	 	 	"trans": "kerker",
  	 	 	"eng": "dungeons"
@@ -2575,10 +2593,6 @@
  	 	"okay": {
  	 	 	"trans": "Oke",
  	 	 	"eng": "okay"
- 	 	},
- 	 	"close": {
- 	 	 	"trans": "dichtbij",
- 	 	 	"eng": "Close"
  	 	},
  	 	"characterNameError": {
  	 	 	"invalidChar": {
@@ -3183,10 +3197,6 @@
  	 	 	}
  	 	},
  	 	"promotion": {
- 	 	 	"title": {
- 	 	 	 	"trans": "Uitgezonden ontvangen",
- 	 	 	 	"eng": "Broadcast Received"
- 	 	 	},
  	 	 	"dontShowAgain": {
  	 	 	 	"trans": "Laat deze uitzending niet opnieuw zien",
  	 	 	 	"eng": "Don\\'t show this broadcast again"
@@ -3635,6 +3645,19 @@
  	 	"free": {
  	 	 	"trans": "VRIJ",
  	 	 	"eng": "FREE"
+ 	 	}
+ 	},
+ 	"itemList": {
+ 	 	"quickSelect": {
+ 	 	 	"trans": "Snel selecteren",
+ 	 	 	"eng": "Quick Select"
+ 	 	},
+ 	 	"quickSelectNoti": {
+ 	 	 	"vars": [
+ 	 	 	 	"count"
+ 	 	 	],
+ 	 	 	"trans": "Geselecteerde ${count} items",
+ 	 	 	"eng": "Selected ${count} items"
  	 	}
  	},
  	"sessionClosedScreen": {
@@ -4161,6 +4184,10 @@
  	 	"donation15": {
  	 	 	"trans": "Prestige",
  	 	 	"eng": "Prestige"
+ 	 	},
+ 	 	"donation16": {
+ 	 	 	"trans": "Retro Miami",
+ 	 	 	"eng": "Retro Miami"
  	 	},
  	 	"moderator": {
  	 	 	"trans": "Moderator",
@@ -4743,6 +4770,46 @@
  	 	 	 	 	"eng": "More coming in future update"
  	 	 	 	}
  	 	 	}
+ 	 	},
+ 	 	"donation16": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "\"Retro Miami\" donatietitel",
+ 	 	 	 	 	"eng": "\"Retro Miami\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "Ontgrendel profielfoto -aanpassing",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Synthwave Chatframe (met animatie)",
+ 	 	 	 	 	"eng": "Synthwave chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Synthwave Framed Profile (met animatie)",
+ 	 	 	 	 	"eng": "Synthwave Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "Ontgrendel aangepaste bio",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Barcode -decoratie op profiel",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "Pas de bende motto aan",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Pas de bende -afbeelding aan",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Meer komen in toekomstige update",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
  	 	}
  	},
  	"equipmentMarks": {
@@ -4809,6 +4876,14 @@
  	 	"backpack": {
  	 	 	"trans": "rugzak",
  	 	 	"eng": "backpack"
+ 	 	}
+ 	},
+ 	"itemFilterType": {
+ 	 	"shopSell": {
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Stel filters in om te selecteren welke items ze aan de winkel moeten verkopen.",
+ 	 	 	 	"eng": "Set filters to select which items to sell to the shop."
+ 	 	 	}
  	 	}
  	},
  	"item": {
@@ -5164,6 +5239,26 @@
  	 	 	"description": {
  	 	 	 	"trans": "Stukjes en beetjes van gebruikte medische technoglogie, kan gebruikt worden om genezende voorwerpen van te maken als je weet hoe",
  	 	 	 	"eng": "Bits and pieces of used medical tech. This can be used to craft healing items if you understand how"
+ 	 	 	}
+ 	 	},
+ 	 	"medicalTechCluster": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Medisch technisch cluster",
+ 	 	 	 	"eng": "Medical Tech Cluster"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Een cluster van medische technische onderdelen. In deze compact is het gemakkelijker om op te slaan en te vervoeren",
+ 	 	 	 	"eng": "A cluster of medical tech parts. in this compact from it's easier to store and transport"
+ 	 	 	}
+ 	 	},
+ 	 	"cassetteTape": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Cassette bandje",
+ 	 	 	 	"eng": "Cassette Tape"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Pop in deze cassetteband en laat de zoete geluiden van retro synthwave je vervoeren naar een neon doordrenkte wereld van oneindige mogelijkheid. Met deze groovy boost ben je klaar om elke uitdaging aan te gaan die de Future van Cyberpunk in petto heeft!",
+ 	 	 	 	"eng": "Pop in this cassette tape and let the sweet sounds of retro synthwave transport you to a neon-soaked world of infinite possibility. With this groovy boost, you'll be ready to take on any challenge the cyberpunk future has in store!"
  	 	 	}
  	 	},
  	 	"expMemory": {
@@ -6535,6 +6630,12 @@
  	 	 	 	"eng": "Red Envelope"
  	 	 	}
  	 	},
+ 	 	"medicalTechCluster": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Medisch technisch cluster",
+ 	 	 	 	"eng": "Medical Tech Cluster"
+ 	 	 	}
+ 	 	},
  	 	"ammo1": {
  	 	 	"vars": [
  	 	 	 	"minLevel"
@@ -7407,6 +7508,34 @@
  	 	 	"eng": "*You will receive the items in your item inbox when your friend reaches level 20"
  	 	}
  	},
+ 	"retroPromo": {
+ 	 	"title": {
+ 	 	 	"trans": "Synthwave -update",
+ 	 	 	"eng": "Sythwave Update"
+ 	 	},
+ 	 	"desc1": {
+ 	 	 	"trans": "Medisch technisch cluster toegevoegd, kan worden gemaakt met 1000 medische technische onderdelen. Dit kan worden gebruikt om een grote hoeveelheid medische technische onderdelen efficiënt op te slaan",
+ 	 	 	"eng": "Added Medical Tech Cluster, can be crafted with 1000 medical tech parts. this can be use to efficiently store large amount of medical tech parts"
+ 	 	},
+ 	 	"desc2": {
+ 	 	 	"vars": [
+ 	 	 	 	"shopName"
+ 	 	 	],
+ 	 	 	"trans": "Speciaal item \"Cassette Tape\" toegevoegd, ontvangt u bij gebruik van buffs die u +20% schade en +20% verdediging oplevert, de enige manier om dit item te krijgen is dagelijkse gratis bundel in ${shopName}",
+ 	 	 	"eng": "Added special item \"Cassette Tape\", when used you will receive buffs that gives you +20% damage and +20% defense, the only way to get this item is daily free bundle in ${shopName}"
+ 	 	},
+ 	 	"desc3": {
+ 	 	 	"trans": "Itemdetails UI opnieuw ontworpen, nu markeert het de primaire knop en secundaire knoppen zijn gewijzigd in kleinere maat",
+ 	 	 	"eng": "Item details UI redesigned, now it highlights primary button and secondary buttons has been changed to smaller size"
+ 	 	},
+ 	 	"desc4": {
+ 	 	 	"vars": [
+ 	 	 	 	"name"
+ 	 	 	],
+ 	 	 	"trans": "Een nieuw \"${name}\" donatorchatframe toegevoegd",
+ 	 	 	"eng": "Added a new \"${name}\" donator chat frame"
+ 	 	}
+ 	},
  	"reportPlayerModal": {
  	 	"title": {
  	 	 	"vars": [
@@ -7526,6 +7655,56 @@
  	 	 	}
  	 	}
  	},
+ 	"itemFilterSettingPage": {
+ 	 	"title": {
+ 	 	 	"trans": "Filterinstelling",
+ 	 	 	"eng": "Filter Setting"
+ 	 	},
+ 	 	"selectEquipment": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Selecteer apparatuur",
+ 	 	 	 	"eng": "Select Equipment"
+ 	 	 	}
+ 	 	},
+ 	 	"equipmentTier": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Apparatuurlaag",
+ 	 	 	 	"eng": "Equipment Tier"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Apparatuur met Tier gelijk of lager dan het geselecteerde niveau geselecteerd.",
+ 	 	 	 	"eng": "Equipments with tier equal or lower than the selected tier selected."
+ 	 	 	}
+ 	 	},
+ 	 	"selectCache": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Selecteer Cache",
+ 	 	 	 	"eng": "Select Cache"
+ 	 	 	}
+ 	 	},
+ 	 	"cacheTier": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Cache -laag",
+ 	 	 	 	"eng": "Cache Tier"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Caches met laag gelijk of lager dan het geselecteerde niveau geselecteerd.",
+ 	 	 	 	"eng": "Caches with tier equal or lower than the selected tier selected."
+ 	 	 	}
+ 	 	},
+ 	 	"selectUpgradeModule": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Selecteer Upgrade -module",
+ 	 	 	 	"eng": "Select Upgrade Module"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeModuleTier": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Upgrade module laag",
+ 	 	 	 	"eng": "Upgrade Module Tier"
+ 	 	 	}
+ 	 	}
+ 	},
  	"donationPage": {
  	 	"benefits": {
  	 	 	"trans": "voordelen",
@@ -7533,21 +7712,6 @@
  	 	},
  	 	"title": {
  	 	 	"trans": "Donatielagen",
- 	 	 	"eng": "Donation Tiers"
- 	 	},
- 	 	"monthlySubscription": {
- 	 	 	"trans": "Maandelijks abonnement",
- 	 	 	"eng": "Monthly Subscription"
- 	 	},
- 	 	"payPalPricePerMonth": {
- 	 	 	"vars": [
- 	 	 	 	"price"
- 	 	 	],
- 	 	 	"trans": "${price} USD per maand",
- 	 	 	"eng": "${price} USD Per Month"
- 	 	},
- 	 	"TiersTitle": {
- 	 	 	"trans": "Donatietrijders",
  	 	 	"eng": "Donation Tiers"
  	 	},
  	 	"unitPrice": {
@@ -7575,6 +7739,21 @@
  	 	"permanentDescription": {
  	 	 	"trans": "Deze titel verlaat nooit. \\ Nit blijft voor altijd bij uw account.",
  	 	 	"eng": "This title will never expire.\\nIt stays with your account forever."
+ 	 	},
+ 	 	"monthlySubscription": {
+ 	 	 	"trans": "Maandelijks abonnement",
+ 	 	 	"eng": "Monthly Subscription"
+ 	 	},
+ 	 	"payPalPricePerMonth": {
+ 	 	 	"vars": [
+ 	 	 	 	"price"
+ 	 	 	],
+ 	 	 	"trans": "${price} USD per maand",
+ 	 	 	"eng": "${price} USD Per Month"
+ 	 	},
+ 	 	"TiersTitle": {
+ 	 	 	"trans": "Donatietrijders",
+ 	 	 	"eng": "Donation Tiers"
  	 	}
  	},
  	"cosmetic": {

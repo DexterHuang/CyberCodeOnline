@@ -600,13 +600,13 @@
  	 	 	 	 	"eng": "Auto Scrap"
  	 	 	 	}
  	 	 	},
- 	 	 	"equipped": {
- 	 	 	 	"trans": "Dipakai",
- 	 	 	 	"eng": "Equipped"
- 	 	 	},
  	 	 	"inventory": {
  	 	 	 	"trans": "Inventaris",
  	 	 	 	"eng": "Inventory"
+ 	 	 	},
+ 	 	 	"equipped": {
+ 	 	 	 	"trans": "Dipakai",
+ 	 	 	 	"eng": "Equipped"
  	 	 	},
  	 	 	"itemInbox": {
  	 	 	 	"trans": "Kotak Masuk Item",
@@ -622,30 +622,12 @@
  	 	 	 	"title": {
  	 	 	 	 	"trans": "Buat Lore",
  	 	 	 	 	"eng": "Create Lore"
- 	 	 	 	},
- 	 	 	 	"description": {
- 	 	 	 	 	"trans": "Belum ada lore komunitas untuk item ini, jadilah orang pertama yang membuatnya.",
- 	 	 	 	 	"eng": "There is no community lore for this item yet, be the first to create one for it."
  	 	 	 	}
  	 	 	},
  	 	 	"openButton": {
  	 	 	 	"title": {
  	 	 	 	 	"trans": "Lore Komunitas",
  	 	 	 	 	"eng": "Community Lore"
- 	 	 	 	},
- 	 	 	 	"description": {
- 	 	 	 	 	"trans": "Buka lore komunitas untuk item ini",
- 	 	 	 	 	"eng": "Open the community lore for this item"
- 	 	 	 	}
- 	 	 	},
- 	 	 	"editButton": {
- 	 	 	 	"title": {
- 	 	 	 	 	"trans": "Edit Lore ini",
- 	 	 	 	 	"eng": "edit this lore"
- 	 	 	 	},
- 	 	 	 	"description": {
- 	 	 	 	 	"trans": "Ubah lore komunitas ini",
- 	 	 	 	 	"eng": "Edit this community lore"
  	 	 	 	}
  	 	 	}
  	 	},
@@ -660,16 +642,46 @@
  	 	 	 	 	"eng": "This item is broken, bring it to Weapon Smith for repair"
  	 	 	 	}
  	 	 	},
+ 	 	 	"areaEffect": {
+ 	 	 	 	"trans": "[AOE] Efek Area, efek dari item ini akan diterima oleh sekutu dalam satu pertempuran dengan mu.",
+ 	 	 	 	"eng": "[AOE] Area of Effect, the effect of this item will apply allies in combat with you."
+ 	 	 	},
+ 	 	 	"lockModal": {
+ 	 	 	 	"unlock": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Buka kunci item?",
+ 	 	 	 	 	 	"eng": "Unlock item?"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "Saat item tidak terkunci, Anda dapat memperdagangkan atau membatalkannya.",
+ 	 	 	 	 	 	"eng": "When item is unlocked, you can trade or scrap it."
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"lock": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Item kunci?",
+ 	 	 	 	 	 	"eng": "Lock item?"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "Anda dapat mencegah pengikisan atau menjual barang ini secara tidak sengaja dengan menguncinya.",
+ 	 	 	 	 	 	"eng": "You can prevent accidentally scraping or selling this item by locking it."
+ 	 	 	 	 	}
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"locked": {
+ 	 	 	 	"trans": "Terkunci",
+ 	 	 	 	"eng": "Locked"
+ 	 	 	},
+ 	 	 	"unlocked": {
+ 	 	 	 	"trans": "Tidak terkunci",
+ 	 	 	 	"eng": "Unlocked"
+ 	 	 	},
  	 	 	"upgradeModuleTitle": {
  	 	 	 	"trans": "Upgrade",
  	 	 	 	"eng": "upgrade slot ${index}",
  	 	 	 	"vars": [
  	 	 	 	 	"index"
  	 	 	 	]
- 	 	 	},
- 	 	 	"areaEffect": {
- 	 	 	 	"trans": "[AOE] Efek Area, efek dari item ini akan diterima oleh sekutu dalam satu pertempuran dengan mu.",
- 	 	 	 	"eng": "[AOE] Area of Effect, the effect of this item will apply allies in combat with you."
  	 	 	},
  	 	 	"equip": {
  	 	 	 	"trans": "Lengkapi",
@@ -686,18 +698,6 @@
  	 	 	"use": {
  	 	 	 	"trans": "Gunakan",
  	 	 	 	"eng": "Use"
- 	 	 	},
- 	 	 	"unlock": {
- 	 	 	 	"trans": "Membuka kunci",
- 	 	 	 	"eng": "Unlock"
- 	 	 	},
- 	 	 	"lock": {
- 	 	 	 	"trans": "Mengunci",
- 	 	 	 	"eng": "Lock"
- 	 	 	},
- 	 	 	"lockDescription": {
- 	 	 	 	"trans": "Mencegah penjualan atau penghancuran yang tidak disengaja",
- 	 	 	 	"eng": "Prevents accidental selling or destroying"
  	 	 	},
  	 	 	"cantPrintWhileInCombat": {
  	 	 	 	"vars": [
@@ -747,8 +747,14 @@
  	 	 	},
  	 	 	"factoryReset": {
  	 	 	 	"confirmation": {
- 	 	 	 	 	"trans": "Melakukan ini akan mengatur ulang semua kalibrasi pada itemmu, hal ini juga membuatnya dapat dijual lagi. \n       Apakah Kamu yakin ingin melanjutkan?",
- 	 	 	 	 	"eng": "Doing this will reset all calibration on your item. It will also make it tradable again. \r\n      Are you sure you want to proceed?"
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Apakah Anda yakin ingin reset pabrik?",
+ 	 	 	 	 	 	"eng": "Are you sure you want to factory reset?"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "Dengan mengatur ulang item ini, Anda akan kehilangan semua kalibrasi, namun Anda akan dapat menukarnya dengan pemain lain.",
+ 	 	 	 	 	 	"eng": "By resetting this item, you will lose all calibration, however you will be able to trade it to other players."
+ 	 	 	 	 	}
  	 	 	 	},
  	 	 	 	"trans": "Pengaturan Ulang",
  	 	 	 	"eng": "Factory Reset"
@@ -805,6 +811,10 @@
  	 	 	"travel": {
  	 	 	 	"trans": "Perjalanan",
  	 	 	 	"eng": "Travel"
+ 	 	 	},
+ 	 	 	"hideLowerLevelTravels": {
+ 	 	 	 	"trans": "Sembunyikan level yang lebih rendah",
+ 	 	 	 	"eng": "Hide lower levels"
  	 	 	}
  	 	},
  	 	"npc": {
@@ -1440,10 +1450,6 @@
  	 	 	 	"trans": "Terima Notifikasi ketika mendapat Buff Global",
  	 	 	 	"eng": "Receive Global Buff Notification"
  	 	 	},
- 	 	 	"forceMobileMode": {
- 	 	 	 	"trans": "Aktifkan Mode Cyberpunk.",
- 	 	 	 	"eng": "Enable Cyberpunk Mode"
- 	 	 	},
  	 	 	"uiScale": {
  	 	 	 	"trans": "Skala UI",
  	 	 	 	"eng": "UI Scale",
@@ -2069,6 +2075,10 @@
  	 	 	 	"trans": "Di sini Anda dapat menemukan semua tautan media sosial kami, datang dan terhubung dengan komunitas yang luar biasa!",
  	 	 	 	"eng": "Here you can find all our social media links, come and connect with the amazing community!"
  	 	 	},
+ 	 	 	"credits": {
+ 	 	 	 	"trans": "Kredit",
+ 	 	 	 	"eng": "Credits"
+ 	 	 	},
  	 	 	"reportBug": {
  	 	 	 	"trans": "Laporkan bug",
  	 	 	 	"eng": "Report a bug"
@@ -2166,6 +2176,14 @@
  	 	 	 	"trans": "Buat Akun",
  	 	 	 	"eng": "Create Account"
  	 	 	},
+ 	 	 	"terms": {
+ 	 	 	 	"trans": "Dengan membuat akun, Anda menyetujui kami",
+ 	 	 	 	"eng": "By creating an account, you agree to our"
+ 	 	 	},
+ 	 	 	"termsLink": {
+ 	 	 	 	"trans": "Ketentuan Layanan",
+ 	 	 	 	"eng": "Terms of Service"
+ 	 	 	},
  	 	 	"loginPageButton": {
  	 	 	 	"trans": "Punya akun?",
  	 	 	 	"eng": "Have account?"
@@ -2199,10 +2217,6 @@
  	 	 	"tutorial": {
  	 	 	 	"trans": "Tutorial",
  	 	 	 	"eng": "tutorial"
- 	 	 	},
- 	 	 	"credits": {
- 	 	 	 	"trans": "Kredit",
- 	 	 	 	"eng": "credits"
  	 	 	}
  	 	},
  	 	"porofile": {
@@ -2373,10 +2387,10 @@
  	 	 	"trans": "Gratis",
  	 	 	"eng": "Free"
  	 	},
- 	 	"luna": {
+ 	 	"retro": {
  	 	 	"name": {
- 	 	 	 	"trans": "Hadiah Bulan Neon",
- 	 	 	 	"eng": "Neon moon gift"
+ 	 	 	 	"trans": "Bundel Synthwave",
+ 	 	 	 	"eng": "Synthwave bundle"
  	 	 	}
  	 	},
  	 	"skip": {
@@ -2564,6 +2578,10 @@
  	 	 	"trans": "hilang",
  	 	 	"eng": "missing"
  	 	},
+ 	 	"close": {
+ 	 	 	"trans": "Menutup",
+ 	 	 	"eng": "Close"
+ 	 	},
  	 	"dungeons": {
  	 	 	"trans": "Dungeons",
  	 	 	"eng": "dungeons"
@@ -2575,10 +2593,6 @@
  	 	"okay": {
  	 	 	"trans": "baik",
  	 	 	"eng": "okay"
- 	 	},
- 	 	"close": {
- 	 	 	"trans": "Menutup",
- 	 	 	"eng": "Close"
  	 	},
  	 	"characterNameError": {
  	 	 	"invalidChar": {
@@ -3183,10 +3197,6 @@
  	 	 	}
  	 	},
  	 	"promotion": {
- 	 	 	"title": {
- 	 	 	 	"trans": "Broadcast Diterima",
- 	 	 	 	"eng": "Broadcast Received"
- 	 	 	},
  	 	 	"dontShowAgain": {
  	 	 	 	"trans": "Jangan tunjukkan pesan ini lagi",
  	 	 	 	"eng": "Don\\'t show this broadcast again"
@@ -3635,6 +3645,19 @@
  	 	"free": {
  	 	 	"trans": "GRATIS",
  	 	 	"eng": "FREE"
+ 	 	}
+ 	},
+ 	"itemList": {
+ 	 	"quickSelect": {
+ 	 	 	"trans": "Pilih Cepat",
+ 	 	 	"eng": "Quick Select"
+ 	 	},
+ 	 	"quickSelectNoti": {
+ 	 	 	"vars": [
+ 	 	 	 	"count"
+ 	 	 	],
+ 	 	 	"trans": "Dipilih ${count} item",
+ 	 	 	"eng": "Selected ${count} items"
  	 	}
  	},
  	"sessionClosedScreen": {
@@ -4161,6 +4184,10 @@
  	 	"donation15": {
  	 	 	"trans": "Prestise",
  	 	 	"eng": "Prestige"
+ 	 	},
+ 	 	"donation16": {
+ 	 	 	"trans": "Retro Miami",
+ 	 	 	"eng": "Retro Miami"
  	 	},
  	 	"moderator": {
  	 	 	"trans": "Moderator",
@@ -4743,6 +4770,46 @@
  	 	 	 	 	"eng": "More coming in future update"
  	 	 	 	}
  	 	 	}
+ 	 	},
+ 	 	"donation16": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "Judul Donasi \"Retro Miami\"",
+ 	 	 	 	 	"eng": "\"Retro Miami\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "Buka kunci Kustomisasi Gambar Profil",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Bingkai obrolan synthwave (dengan animasi)",
+ 	 	 	 	 	"eng": "Synthwave chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Profil berbingkai Synthwave (dengan animasi)",
+ 	 	 	 	 	"eng": "Synthwave Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "Buka Kunci Bio Kustom",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Dekorasi barcode pada profil",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "Kustomisasi moto geng",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Kustomisasi gambar geng",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Lebih banyak datang dalam pembaruan mendatang",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
  	 	}
  	},
  	"equipmentMarks": {
@@ -4809,6 +4876,14 @@
  	 	"backpack": {
  	 	 	"trans": "ransel",
  	 	 	"eng": "backpack"
+ 	 	}
+ 	},
+ 	"itemFilterType": {
+ 	 	"shopSell": {
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Atur filter untuk memilih barang mana yang akan dijual ke toko.",
+ 	 	 	 	"eng": "Set filters to select which items to sell to the shop."
+ 	 	 	}
  	 	}
  	},
  	"item": {
@@ -5164,6 +5239,26 @@
  	 	 	"description": {
  	 	 	 	"trans": "Potongan-potongan dari teknologi medis, dapat digunakan untuk membuat item penyembuhan jika kamu tahu caranya",
  	 	 	 	"eng": "Bits and pieces of used medical tech. This can be used to craft healing items if you understand how"
+ 	 	 	}
+ 	 	},
+ 	 	"medicalTechCluster": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Cluster teknologi medis",
+ 	 	 	 	"eng": "Medical Tech Cluster"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Sekelompok bagian teknologi medis. dalam hal ini lebih mudah disimpan dan diangkut",
+ 	 	 	 	"eng": "A cluster of medical tech parts. in this compact from it's easier to store and transport"
+ 	 	 	}
+ 	 	},
+ 	 	"cassetteTape": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Pita kaset",
+ 	 	 	 	"eng": "Cassette Tape"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Masukkan pita kaset ini dan biarkan suara manis dari retro synthwave mengantarkan Anda ke dunia neon yang direndam dengan kemungkinan tak terbatas. Dengan dorongan asyik ini, Anda akan siap menghadapi tantangan apa pun yang telah dilakukan oleh masa depan cyberpunk!",
+ 	 	 	 	"eng": "Pop in this cassette tape and let the sweet sounds of retro synthwave transport you to a neon-soaked world of infinite possibility. With this groovy boost, you'll be ready to take on any challenge the cyberpunk future has in store!"
  	 	 	}
  	 	},
  	 	"expMemory": {
@@ -6535,6 +6630,12 @@
  	 	 	 	"eng": "Red Envelope"
  	 	 	}
  	 	},
+ 	 	"medicalTechCluster": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Cluster teknologi medis",
+ 	 	 	 	"eng": "Medical Tech Cluster"
+ 	 	 	}
+ 	 	},
  	 	"ammo1": {
  	 	 	"vars": [
  	 	 	 	"minLevel"
@@ -7407,6 +7508,34 @@
  	 	 	"eng": "*You will receive the items in your item inbox when your friend reaches level 20"
  	 	}
  	},
+ 	"retroPromo": {
+ 	 	"title": {
+ 	 	 	"trans": "Pembaruan Synthwave",
+ 	 	 	"eng": "Sythwave Update"
+ 	 	},
+ 	 	"desc1": {
+ 	 	 	"trans": "Cluster teknologi medis yang ditambahkan, dapat dibuat dengan 1000 suku cadang teknologi medis. Ini dapat digunakan untuk secara efisien menyimpan sejumlah besar suku cadang teknologi medis",
+ 	 	 	"eng": "Added Medical Tech Cluster, can be crafted with 1000 medical tech parts. this can be use to efficiently store large amount of medical tech parts"
+ 	 	},
+ 	 	"desc2": {
+ 	 	 	"vars": [
+ 	 	 	 	"shopName"
+ 	 	 	],
+ 	 	 	"trans": "Menambahkan item khusus \"kaset kaset\", saat digunakan Anda akan menerima buff yang memberi Anda +20% kerusakan dan +20% pertahanan, satu -satunya cara untuk mendapatkan item ini adalah bundel gratis harian dalam ${shopName}",
+ 	 	 	"eng": "Added special item \"Cassette Tape\", when used you will receive buffs that gives you +20% damage and +20% defense, the only way to get this item is daily free bundle in ${shopName}"
+ 	 	},
+ 	 	"desc3": {
+ 	 	 	"trans": "Detail Item UI Didesain ulang, sekarang menyoroti tombol primer dan tombol sekunder telah diubah menjadi ukuran yang lebih kecil",
+ 	 	 	"eng": "Item details UI redesigned, now it highlights primary button and secondary buttons has been changed to smaller size"
+ 	 	},
+ 	 	"desc4": {
+ 	 	 	"vars": [
+ 	 	 	 	"name"
+ 	 	 	],
+ 	 	 	"trans": "Menambahkan bingkai obrolan donator \"${name}\" baru",
+ 	 	 	"eng": "Added a new \"${name}\" donator chat frame"
+ 	 	}
+ 	},
  	"reportPlayerModal": {
  	 	"title": {
  	 	 	"vars": [
@@ -7526,6 +7655,56 @@
  	 	 	}
  	 	}
  	},
+ 	"itemFilterSettingPage": {
+ 	 	"title": {
+ 	 	 	"trans": "Pengaturan Filter",
+ 	 	 	"eng": "Filter Setting"
+ 	 	},
+ 	 	"selectEquipment": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Pilih peralatan",
+ 	 	 	 	"eng": "Select Equipment"
+ 	 	 	}
+ 	 	},
+ 	 	"equipmentTier": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Tingkat Peralatan",
+ 	 	 	 	"eng": "Equipment Tier"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Peralatan dengan tingkat yang sama atau lebih rendah dari tingkat yang dipilih yang dipilih.",
+ 	 	 	 	"eng": "Equipments with tier equal or lower than the selected tier selected."
+ 	 	 	}
+ 	 	},
+ 	 	"selectCache": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Pilih cache",
+ 	 	 	 	"eng": "Select Cache"
+ 	 	 	}
+ 	 	},
+ 	 	"cacheTier": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Tingkat cache",
+ 	 	 	 	"eng": "Cache Tier"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Cache dengan tingkat sama atau lebih rendah dari tingkat yang dipilih yang dipilih.",
+ 	 	 	 	"eng": "Caches with tier equal or lower than the selected tier selected."
+ 	 	 	}
+ 	 	},
+ 	 	"selectUpgradeModule": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Pilih Modul Upgrade",
+ 	 	 	 	"eng": "Select Upgrade Module"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeModuleTier": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Tingkatkan Tingkat Modul",
+ 	 	 	 	"eng": "Upgrade Module Tier"
+ 	 	 	}
+ 	 	}
+ 	},
  	"donationPage": {
  	 	"benefits": {
  	 	 	"trans": "Manfaat",
@@ -7533,21 +7712,6 @@
  	 	},
  	 	"title": {
  	 	 	"trans": "Tingkat Donasi",
- 	 	 	"eng": "Donation Tiers"
- 	 	},
- 	 	"monthlySubscription": {
- 	 	 	"trans": "Berlangganan bulanan",
- 	 	 	"eng": "Monthly Subscription"
- 	 	},
- 	 	"payPalPricePerMonth": {
- 	 	 	"vars": [
- 	 	 	 	"price"
- 	 	 	],
- 	 	 	"trans": "${price} USD per bulan",
- 	 	 	"eng": "${price} USD Per Month"
- 	 	},
- 	 	"TiersTitle": {
- 	 	 	"trans": "Tier donasi",
  	 	 	"eng": "Donation Tiers"
  	 	},
  	 	"unitPrice": {
@@ -7575,6 +7739,21 @@
  	 	"permanentDescription": {
  	 	 	"trans": "Titel ini tidak akan pernah kedaluwarsa.\\nTitel ini berlaku pada akun Kamu selamanya.",
  	 	 	"eng": "This title will never expire.\\nIt stays with your account forever."
+ 	 	},
+ 	 	"monthlySubscription": {
+ 	 	 	"trans": "Berlangganan bulanan",
+ 	 	 	"eng": "Monthly Subscription"
+ 	 	},
+ 	 	"payPalPricePerMonth": {
+ 	 	 	"vars": [
+ 	 	 	 	"price"
+ 	 	 	],
+ 	 	 	"trans": "${price} USD per bulan",
+ 	 	 	"eng": "${price} USD Per Month"
+ 	 	},
+ 	 	"TiersTitle": {
+ 	 	 	"trans": "Tier donasi",
+ 	 	 	"eng": "Donation Tiers"
  	 	}
  	},
  	"cosmetic": {

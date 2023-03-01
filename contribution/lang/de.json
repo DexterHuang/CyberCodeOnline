@@ -600,13 +600,13 @@
  	 	 	 	 	"eng": "Auto Scrap"
  	 	 	 	}
  	 	 	},
- 	 	 	"equipped": {
- 	 	 	 	"trans": "Ausgerüstet",
- 	 	 	 	"eng": "Equipped"
- 	 	 	},
  	 	 	"inventory": {
  	 	 	 	"trans": "Inventar",
  	 	 	 	"eng": "Inventory"
+ 	 	 	},
+ 	 	 	"equipped": {
+ 	 	 	 	"trans": "Ausgerüstet",
+ 	 	 	 	"eng": "Equipped"
  	 	 	},
  	 	 	"itemInbox": {
  	 	 	 	"trans": "Postfach",
@@ -622,30 +622,12 @@
  	 	 	 	"title": {
  	 	 	 	 	"trans": "Überlieferungen erstellen",
  	 	 	 	 	"eng": "Create Lore"
- 	 	 	 	},
- 	 	 	 	"description": {
- 	 	 	 	 	"trans": "Es gibt noch keine Community-Überlieferung für diesen Gegenstand. Sei der Erste, der eine erstellt.",
- 	 	 	 	 	"eng": "There is no community lore for this item yet, be the first to create one for it."
  	 	 	 	}
  	 	 	},
  	 	 	"openButton": {
  	 	 	 	"title": {
  	 	 	 	 	"trans": "Community-Überlieferung",
  	 	 	 	 	"eng": "Community Lore"
- 	 	 	 	},
- 	 	 	 	"description": {
- 	 	 	 	 	"trans": "Öffne die Community-Überlieferung für diesen Gegenstand",
- 	 	 	 	 	"eng": "Open the community lore for this item"
- 	 	 	 	}
- 	 	 	},
- 	 	 	"editButton": {
- 	 	 	 	"title": {
- 	 	 	 	 	"trans": "Bearbeite diese Überlieferung",
- 	 	 	 	 	"eng": "edit this lore"
- 	 	 	 	},
- 	 	 	 	"description": {
- 	 	 	 	 	"trans": "Bearbeite diese Community-Überlieferung",
- 	 	 	 	 	"eng": "Edit this community lore"
  	 	 	 	}
  	 	 	}
  	 	},
@@ -660,16 +642,46 @@
  	 	 	 	 	"eng": "This item is broken, bring it to Weapon Smith for repair"
  	 	 	 	}
  	 	 	},
+ 	 	 	"areaEffect": {
+ 	 	 	 	"trans": "[Wirkungsbereich] Der Effekt dieses Gegenstands gilt auch für Verbündete im Kampf.",
+ 	 	 	 	"eng": "[AOE] Area of Effect, the effect of this item will apply allies in combat with you."
+ 	 	 	},
+ 	 	 	"lockModal": {
+ 	 	 	 	"unlock": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Artikel entsperren?",
+ 	 	 	 	 	 	"eng": "Unlock item?"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "Wenn der Artikel freigeschaltet ist, können Sie es handeln oder verschrotten.",
+ 	 	 	 	 	 	"eng": "When item is unlocked, you can trade or scrap it."
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"lock": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Element sperren?",
+ 	 	 	 	 	 	"eng": "Lock item?"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "Sie können verhindern, dass dieser Artikel versehentlich kratzt oder verkauft wird, indem Sie ihn sperren.",
+ 	 	 	 	 	 	"eng": "You can prevent accidentally scraping or selling this item by locking it."
+ 	 	 	 	 	}
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"locked": {
+ 	 	 	 	"trans": "Gesperrt",
+ 	 	 	 	"eng": "Locked"
+ 	 	 	},
+ 	 	 	"unlocked": {
+ 	 	 	 	"trans": "Entsperrt",
+ 	 	 	 	"eng": "Unlocked"
+ 	 	 	},
  	 	 	"upgradeModuleTitle": {
  	 	 	 	"trans": "Upgrade Slot ${index}",
  	 	 	 	"eng": "upgrade slot ${index}",
  	 	 	 	"vars": [
  	 	 	 	 	"index"
  	 	 	 	]
- 	 	 	},
- 	 	 	"areaEffect": {
- 	 	 	 	"trans": "[Wirkungsbereich] Der Effekt dieses Gegenstands gilt auch für Verbündete im Kampf.",
- 	 	 	 	"eng": "[AOE] Area of Effect, the effect of this item will apply allies in combat with you."
  	 	 	},
  	 	 	"equip": {
  	 	 	 	"trans": "Ausrüsten",
@@ -686,18 +698,6 @@
  	 	 	"use": {
  	 	 	 	"trans": "Verwenden",
  	 	 	 	"eng": "Use"
- 	 	 	},
- 	 	 	"unlock": {
- 	 	 	 	"trans": "Freischalten",
- 	 	 	 	"eng": "Unlock"
- 	 	 	},
- 	 	 	"lock": {
- 	 	 	 	"trans": "Sperren",
- 	 	 	 	"eng": "Lock"
- 	 	 	},
- 	 	 	"lockDescription": {
- 	 	 	 	"trans": "Verhindert versehentliches Verkaufen oder Zerstören",
- 	 	 	 	"eng": "Prevents accidental selling or destroying"
  	 	 	},
  	 	 	"cantPrintWhileInCombat": {
  	 	 	 	"vars": [
@@ -747,8 +747,14 @@
  	 	 	},
  	 	 	"factoryReset": {
  	 	 	 	"confirmation": {
- 	 	 	 	 	"trans": "Die gesamte Kalibrierung (Verbesserungen) dieses Gegenstands wird zurückgesetzt. Dadurch wird er wieder handelbar. \r\n      Möchtest du wirklich fortfahren?",
- 	 	 	 	 	"eng": "Doing this will reset all calibration on your item. It will also make it tradable again. \r\n      Are you sure you want to proceed?"
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Sind Sie sicher, dass Sie das Werksrücksetzen möchten?",
+ 	 	 	 	 	 	"eng": "Are you sure you want to factory reset?"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "Wenn Sie diesen Artikel zurücksetzen, verlieren Sie alle Kalibrierung, können ihn jedoch an andere Spieler eintauschen.",
+ 	 	 	 	 	 	"eng": "By resetting this item, you will lose all calibration, however you will be able to trade it to other players."
+ 	 	 	 	 	}
  	 	 	 	},
  	 	 	 	"trans": "Auf Werkseinstellungen zurücksetzen",
  	 	 	 	"eng": "Factory Reset"
@@ -805,6 +811,10 @@
  	 	 	"travel": {
  	 	 	 	"trans": "Reise",
  	 	 	 	"eng": "Travel"
+ 	 	 	},
+ 	 	 	"hideLowerLevelTravels": {
+ 	 	 	 	"trans": "Niedrigere Ebenen verbergen",
+ 	 	 	 	"eng": "Hide lower levels"
  	 	 	}
  	 	},
  	 	"npc": {
@@ -1062,7 +1072,7 @@
  	 	 	},
  	 	 	"levelSelect": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Level",
+ 	 	 	 	 	"trans": "Eben",
  	 	 	 	 	"eng": "Level"
  	 	 	 	}
  	 	 	},
@@ -1439,10 +1449,6 @@
  	 	 	"receiveGlobalNotification": {
  	 	 	 	"trans": "Globale-Vorteils-Benachrichtigungen erhalten",
  	 	 	 	"eng": "Receive Global Buff Notification"
- 	 	 	},
- 	 	 	"forceMobileMode": {
- 	 	 	 	"trans": "Aktiviere den CyberPunk-Modus",
- 	 	 	 	"eng": "Enable Cyberpunk Mode"
  	 	 	},
  	 	 	"uiScale": {
  	 	 	 	"trans": "UI-Größe",
@@ -2069,6 +2075,10 @@
  	 	 	 	"trans": "Hier finden Sie alle unsere Social-Media-Links, kommen Sie und verbinden Sie sich mit der großartigen Community!",
  	 	 	 	"eng": "Here you can find all our social media links, come and connect with the amazing community!"
  	 	 	},
+ 	 	 	"credits": {
+ 	 	 	 	"trans": "Credits",
+ 	 	 	 	"eng": "Credits"
+ 	 	 	},
  	 	 	"reportBug": {
  	 	 	 	"trans": "Melde einen technischen Fehler",
  	 	 	 	"eng": "Report a bug"
@@ -2166,6 +2176,14 @@
  	 	 	 	"trans": "Konto erstellen",
  	 	 	 	"eng": "Create Account"
  	 	 	},
+ 	 	 	"terms": {
+ 	 	 	 	"trans": "Durch das Erstellen eines Kontos stimmen Sie unserem zu",
+ 	 	 	 	"eng": "By creating an account, you agree to our"
+ 	 	 	},
+ 	 	 	"termsLink": {
+ 	 	 	 	"trans": "Nutzungsbedingungen",
+ 	 	 	 	"eng": "Terms of Service"
+ 	 	 	},
  	 	 	"loginPageButton": {
  	 	 	 	"trans": "Konto vorhanden?",
  	 	 	 	"eng": "Have account?"
@@ -2199,10 +2217,6 @@
  	 	 	"tutorial": {
  	 	 	 	"trans": "Tutorial",
  	 	 	 	"eng": "tutorial"
- 	 	 	},
- 	 	 	"credits": {
- 	 	 	 	"trans": "Credits",
- 	 	 	 	"eng": "credits"
  	 	 	}
  	 	},
  	 	"porofile": {
@@ -2373,10 +2387,10 @@
  	 	 	"trans": "Kostenlos",
  	 	 	"eng": "Free"
  	 	},
- 	 	"luna": {
+ 	 	"retro": {
  	 	 	"name": {
- 	 	 	 	"trans": "Neonmondgeschenk",
- 	 	 	 	"eng": "Neon moon gift"
+ 	 	 	 	"trans": "Synthwave -Bündel",
+ 	 	 	 	"eng": "Synthwave bundle"
  	 	 	}
  	 	},
  	 	"skip": {
@@ -2564,6 +2578,10 @@
  	 	 	"trans": "Fehlt",
  	 	 	"eng": "missing"
  	 	},
+ 	 	"close": {
+ 	 	 	"trans": "Schließen",
+ 	 	 	"eng": "Close"
+ 	 	},
  	 	"dungeons": {
  	 	 	"trans": "Dungeons",
  	 	 	"eng": "dungeons"
@@ -2575,10 +2593,6 @@
  	 	"okay": {
  	 	 	"trans": "Okay",
  	 	 	"eng": "okay"
- 	 	},
- 	 	"close": {
- 	 	 	"trans": "Schließen",
- 	 	 	"eng": "Close"
  	 	},
  	 	"characterNameError": {
  	 	 	"invalidChar": {
@@ -3183,10 +3197,6 @@
  	 	 	}
  	 	},
  	 	"promotion": {
- 	 	 	"title": {
- 	 	 	 	"trans": "Übertragung erhalten",
- 	 	 	 	"eng": "Broadcast Received"
- 	 	 	},
  	 	 	"dontShowAgain": {
  	 	 	 	"trans": "Zeig mir diese Übertragung nicht erneut an",
  	 	 	 	"eng": "Don\\'t show this broadcast again"
@@ -3637,6 +3647,19 @@
  	 	 	"eng": "FREE"
  	 	}
  	},
+ 	"itemList": {
+ 	 	"quickSelect": {
+ 	 	 	"trans": "Schnellauswahl",
+ 	 	 	"eng": "Quick Select"
+ 	 	},
+ 	 	"quickSelectNoti": {
+ 	 	 	"vars": [
+ 	 	 	 	"count"
+ 	 	 	],
+ 	 	 	"trans": "Ausgewählte ${count} Elemente",
+ 	 	 	"eng": "Selected ${count} items"
+ 	 	}
+ 	},
  	"sessionClosedScreen": {
  	 	"title": {
  	 	 	"trans": "Sie haben sich auf einem anderen Gerät angemeldet",
@@ -3653,7 +3676,7 @@
  	},
  	"slider": {
  	 	"min": {
- 	 	 	"trans": "Min",
+ 	 	 	"trans": "Mindest",
  	 	 	"eng": "Min"
  	 	},
  	 	"max": {
@@ -3790,7 +3813,7 @@
  	 	 	},
  	 	 	"targetPlayerLimited": {
  	 	 	 	"trans": "Zielspieler kann nicht am Handel teilnehmen",
- 	 	 	 	"eng": "Target player cannot participate in trade"
+ 	 	 	 	"eng": "You cannot send trade invite to this player"
  	 	 	},
  	 	 	"tooFrequentlyInvite": {
  	 	 	 	"vars": [
@@ -4147,7 +4170,7 @@
  	 	 	"eng": "CyberKitty"
  	 	},
  	 	"donation12": {
- 	 	 	"trans": "CyberSanta",
+ 	 	 	"trans": "Cyberanta",
  	 	 	"eng": "CyberSanta"
  	 	},
  	 	"donation13": {
@@ -4161,6 +4184,10 @@
  	 	"donation15": {
  	 	 	"trans": "Prestige",
  	 	 	"eng": "Prestige"
+ 	 	},
+ 	 	"donation16": {
+ 	 	 	"trans": "Retro Miami",
+ 	 	 	"eng": "Retro Miami"
  	 	},
  	 	"moderator": {
  	 	 	"trans": "Moderatorin",
@@ -4743,6 +4770,46 @@
  	 	 	 	 	"eng": "More coming in future update"
  	 	 	 	}
  	 	 	}
+ 	 	},
+ 	 	"donation16": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "\"Retro Miami\" Spendenentitel",
+ 	 	 	 	 	"eng": "\"Retro Miami\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "Profilbildanpassung entsperren",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Synthwave Chat Frame (mit Animation)",
+ 	 	 	 	 	"eng": "Synthwave chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Synthwave -gerahmtes Profil (mit Animation)",
+ 	 	 	 	 	"eng": "Synthwave Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "Sperr die benutzerdefinierte Biografie entsperren",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Barcode -Dekoration auf Profil",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "Passen Sie das Gangmotto an",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Bandenbild anpassen",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Weitere Informationen zum zukünftigen Update",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
  	 	}
  	},
  	"equipmentMarks": {
@@ -4809,6 +4876,14 @@
  	 	"backpack": {
  	 	 	"trans": "Rucksack",
  	 	 	"eng": "backpack"
+ 	 	}
+ 	},
+ 	"itemFilterType": {
+ 	 	"shopSell": {
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Stellen Sie Filter fest, um auszuwählen, welche Artikel an den Laden verkaufen sollen.",
+ 	 	 	 	"eng": "Set filters to select which items to sell to the shop."
+ 	 	 	}
  	 	}
  	},
  	"item": {
@@ -5164,6 +5239,26 @@
  	 	 	"description": {
  	 	 	 	"trans": "Teile von gebrauchter medizinischer Technologie, die (mit dem benötigten Wissen) zur Herstellung von Heilungsgegenständen verwendet werden kann.",
  	 	 	 	"eng": "Bits and pieces of used medical tech. This can be used to craft healing items if you understand how"
+ 	 	 	}
+ 	 	},
+ 	 	"medicalTechCluster": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Medical Tech Cluster",
+ 	 	 	 	"eng": "Medical Tech Cluster"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Eine Gruppe von medizinischen Tech -Teilen. In diesem Kompakt von Es ist einfacher zu speichern und zu transportieren",
+ 	 	 	 	"eng": "A cluster of medical tech parts. in this compact from it's easier to store and transport"
+ 	 	 	}
+ 	 	},
+ 	 	"cassetteTape": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Kassette",
+ 	 	 	 	"eng": "Cassette Tape"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Pop in dieses Kassettenband und lassen Sie sich von den süßen Klängen von Retro Synthwave in eine neongetränkte Welt mit unendlichen Möglichkeiten bringen. Mit diesem groovigen Schub sind Sie bereit, jede Herausforderung zu stellen, die die Cyberpunk -Zukunft auf Lager hat!",
+ 	 	 	 	"eng": "Pop in this cassette tape and let the sweet sounds of retro synthwave transport you to a neon-soaked world of infinite possibility. With this groovy boost, you'll be ready to take on any challenge the cyberpunk future has in store!"
  	 	 	}
  	 	},
  	 	"expMemory": {
@@ -5623,7 +5718,7 @@
  	 	 	 	 	"percent"
  	 	 	 	],
  	 	 	 	"trans": "Mit Liebe und Fürsorge von Yen gemacht. Leckeres und nahrhaftes Essen, das dem Spieler-${percent}% Schaden für 20 Minuten beim Essen gewährt. Das Sushi ist perfekt für schwierige Herausforderungen und erobern schwierige Feinde und ist ein Muss für jeden Abenteurer.",
- 	 	 	 	"eng": "Made with love and care by Yen. delicious and nourishing meal that will grant the player-${percent}% damage taken for 20 minutes when eaten. Perfect for tackling tough challenges and conquering difficult foes, Yen\\'s sushi is a must - have for any adventurer."
+ 	 	 	 	"eng": "Made with love and care by Yen. delicious and nourishing meal that will grant the player -${percent}% damage taken for 20 minutes when eaten. Perfect for tackling tough challenges and conquering difficult foes, Yen\\'s sushi is a must - have for any adventurer."
  	 	 	}
  	 	},
  	 	"experienceShard": {
@@ -6535,6 +6630,12 @@
  	 	 	 	"eng": "Red Envelope"
  	 	 	}
  	 	},
+ 	 	"medicalTechCluster": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Medical Tech Cluster",
+ 	 	 	 	"eng": "Medical Tech Cluster"
+ 	 	 	}
+ 	 	},
  	 	"ammo1": {
  	 	 	"vars": [
  	 	 	 	"minLevel"
@@ -7407,6 +7508,34 @@
  	 	 	"eng": "*You will receive the items in your item inbox when your friend reaches level 20"
  	 	}
  	},
+ 	"retroPromo": {
+ 	 	"title": {
+ 	 	 	"trans": "Synthwave -Update",
+ 	 	 	"eng": "Sythwave Update"
+ 	 	},
+ 	 	"desc1": {
+ 	 	 	"trans": "Der medizinische Tech -Cluster kann mit 1000 medizinischen Tech -Teilen hergestellt werden. Dies kann verwendet werden, um eine große Anzahl von medizinischen Tech -Teilen effizient zu speichern",
+ 	 	 	"eng": "Added Medical Tech Cluster, can be crafted with 1000 medical tech parts. this can be use to efficiently store large amount of medical tech parts"
+ 	 	},
+ 	 	"desc2": {
+ 	 	 	"vars": [
+ 	 	 	 	"shopName"
+ 	 	 	],
+ 	 	 	"trans": "Spezielles Element \"Kassettenband\" hinzugefügt, erhalten Sie bei Verwendung Buffs, die Ihnen +20% Schäden und einer Verteidigung von +20% erhalten. Der einzige Weg, um diesen Artikel zu erhalten, ist das tägliche kostenlose Bündel in ${shopName}",
+ 	 	 	"eng": "Added special item \"Cassette Tape\", when used you will receive buffs that gives you +20% damage and +20% defense, the only way to get this item is daily free bundle in ${shopName}"
+ 	 	},
+ 	 	"desc3": {
+ 	 	 	"trans": "Elementdetails UI neu gestaltet, jetzt wird die Primärknopf hervorgehoben, und die Sekundärschaltflächen wurden in kleinerer Größe geändert",
+ 	 	 	"eng": "Item details UI redesigned, now it highlights primary button and secondary buttons has been changed to smaller size"
+ 	 	},
+ 	 	"desc4": {
+ 	 	 	"vars": [
+ 	 	 	 	"name"
+ 	 	 	],
+ 	 	 	"trans": "Fügte einen neuen \"${name}\" -Pat -Chat -Frame hinzu",
+ 	 	 	"eng": "Added a new \"${name}\" donator chat frame"
+ 	 	}
+ 	},
  	"reportPlayerModal": {
  	 	"title": {
  	 	 	"vars": [
@@ -7526,27 +7655,62 @@
  	 	 	}
  	 	}
  	},
+ 	"itemFilterSettingPage": {
+ 	 	"title": {
+ 	 	 	"trans": "Filtereinstellung",
+ 	 	 	"eng": "Filter Setting"
+ 	 	},
+ 	 	"selectEquipment": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Geräte auswählen",
+ 	 	 	 	"eng": "Select Equipment"
+ 	 	 	}
+ 	 	},
+ 	 	"equipmentTier": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Gerätestufe",
+ 	 	 	 	"eng": "Equipment Tier"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Ausrüstungen mit Tier gleich oder niedriger als die ausgewählte Stufe.",
+ 	 	 	 	"eng": "Equipments with tier equal or lower than the selected tier selected."
+ 	 	 	}
+ 	 	},
+ 	 	"selectCache": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Wählen Sie Cache",
+ 	 	 	 	"eng": "Select Cache"
+ 	 	 	}
+ 	 	},
+ 	 	"cacheTier": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Cache -Stufe",
+ 	 	 	 	"eng": "Cache Tier"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Caches mit Stufe gleich oder niedriger als die ausgewählte Stufe ausgewählt.",
+ 	 	 	 	"eng": "Caches with tier equal or lower than the selected tier selected."
+ 	 	 	}
+ 	 	},
+ 	 	"selectUpgradeModule": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Wählen Sie Upgrade -Modul",
+ 	 	 	 	"eng": "Select Upgrade Module"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeModuleTier": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Upgrade -Modulstufe",
+ 	 	 	 	"eng": "Upgrade Module Tier"
+ 	 	 	}
+ 	 	}
+ 	},
  	"donationPage": {
  	 	"benefits": {
  	 	 	"trans": "Leistungen",
  	 	 	"eng": "benefits"
  	 	},
  	 	"title": {
- 	 	 	"trans": "Spendenstufen",
- 	 	 	"eng": "Donation Tiers"
- 	 	},
- 	 	"monthlySubscription": {
- 	 	 	"trans": "Monatliches Abo",
- 	 	 	"eng": "Monthly Subscription"
- 	 	},
- 	 	"payPalPricePerMonth": {
- 	 	 	"vars": [
- 	 	 	 	"price"
- 	 	 	],
- 	 	 	"trans": "${price} USD pro Monat",
- 	 	 	"eng": "${price} USD Per Month"
- 	 	},
- 	 	"TiersTitle": {
  	 	 	"trans": "Spendenstufen",
  	 	 	"eng": "Donation Tiers"
  	 	},
@@ -7575,6 +7739,21 @@
  	 	"permanentDescription": {
  	 	 	"trans": "Dieser Titel läuft niemals aus.\n(Er bleibt dauerhaft auf deinem Konto)",
  	 	 	"eng": "This title will never expire.\\nIt stays with your account forever."
+ 	 	},
+ 	 	"monthlySubscription": {
+ 	 	 	"trans": "Monatliches Abo",
+ 	 	 	"eng": "Monthly Subscription"
+ 	 	},
+ 	 	"payPalPricePerMonth": {
+ 	 	 	"vars": [
+ 	 	 	 	"price"
+ 	 	 	],
+ 	 	 	"trans": "${price} USD pro Monat",
+ 	 	 	"eng": "${price} USD Per Month"
+ 	 	},
+ 	 	"TiersTitle": {
+ 	 	 	"trans": "Spendenstufen",
+ 	 	 	"eng": "Donation Tiers"
  	 	}
  	},
  	"cosmetic": {
