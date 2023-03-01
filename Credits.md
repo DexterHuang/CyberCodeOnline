@@ -154,6 +154,7 @@ Vargur
 Kalinka
 [Polestar](https://github.com/P0L3-5T4R)
 ClayBravo6
+[Christophers27](https://github.com/Christophers27)
 
 ## Lore
 [Ayanna](https://github.com/JustACloud)
@@ -277,6 +278,7 @@ Livingdead
 Vega_Efsunborn
 [Laani](https://github.com/Laani)
 [Manz](https://github.com/manztellen)
+[Christophers27](https://github.com/Christophers27)
 
 ## Game resources (words)
 [apetro](https://github.com/apetro/)
