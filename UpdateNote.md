@@ -26,7 +26,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 ### 2023/03/02
-## Sythwave Update
+#### Sythwave Update
 - Added Medical Tech Cluster, can be crafted with 1000 medical tech parts. this can be use to efficiently store large amount of medical tech parts
 - Added special item "Cassette Tape", when used you will receive buffs that gives you +20% damage and +20% defense, the only way to get this item is daily free bundle in Arasaka Unit Exchange
 - Item details UI redesigned, now it highlights primary button and secondary buttons has been changed to smaller size
