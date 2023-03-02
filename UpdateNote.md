@@ -30,7 +30,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 - Added Medical Tech Cluster, can be crafted with 1000 medical tech parts. this can be use to efficiently store large amount of medical tech parts
 - Added special item "Cassette Tape", when used you will receive buffs that gives you +20% damage and +20% defense, the only way to get this item is daily free bundle in Arasaka Unit Exchange
 - Item details UI redesigned, now it highlights primary button and secondary buttons has been changed to smaller size
-- Red evelops will not drop anymore. Yen's shop will close in 16/03/2023, please use up your gold coins, otherwise you wont be able to use it.
+- Red envelopes will not drop anymore. Yen's shop will close in 16/03/2023, please use up your gold coins, otherwise you wont be able to use it.
 
 ### 2023/02/21
 - Fixed combat log not showing correctly on desktop version
