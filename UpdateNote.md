@@ -25,6 +25,12 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates
+### 2023/03/08
+- Now amount selection input will show number keypad on iOS
+- Security bug fixes
+- stability improvement
+- misc bug fixes
+
 ### 2023/03/05
 - Fixed issue with BGM not playing on iOS
 
