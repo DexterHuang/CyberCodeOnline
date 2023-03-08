@@ -27,7 +27,7 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ## Updates
 ### 2023/03/08
 - `Medical tech cluster` crafting price is now lowered from 50,000 to 5,000, this may be changed in the future.
-- Medical tech parts droprate has been reduced for scavange. scavange ratio in each area Shouldn't get randomized in result of this change, but just in case if it is, there is no nerf or buff or change to any other droprate except for Medical Tech Parts. when scavange area drop get randomized its normal for some place to become weaker, and some become stronger.
+- Medical tech parts droprate has been reduced for scavange in higher levels (low level will see smaller to almost no change). scavange ratio in each area Shouldn't get randomized in result of this change, but just in case if it is, there is no nerf or buff or change to any other droprate except for Medical Tech Parts. when scavange area drop get randomized its normal for some place to become weaker, and some become stronger.
 - Now amount selection input will show number keypad on iOS
 - Security bug fixes
 - stability improvement
