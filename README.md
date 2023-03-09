@@ -10,7 +10,7 @@ CCO is meant to be played casually with AFK tasks, leveling, and crafting. It al
 
 ### Bug Report / Suggestion
 
-For Bugs and Issues [create an issue on this repo](https://github.com/DexterHuang/CyberCodeOnline/issues).
+For Bugs please join our discord and post bug report in the bug report channel
 
 If there is a serious exploit please **don't** create an issue here, email me directly at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com).
 
