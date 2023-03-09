@@ -25,6 +25,16 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
 
 ## Updates
+### 2023/03/08
+- `Medical tech cluster` crafting price is now lowered from 50,000 to 5,000, this may be changed in the future.
+- Now amount selection input will show number keypad on iOS
+- Security bug fixes
+- stability improvement
+- misc bug fixes
+
+### 2023/03/05
+- Fixed issue with BGM not playing on iOS
+
 ### 2023/03/02
 #### Sythwave Update
 - Added Medical Tech Cluster, can be crafted with 1000 medical tech parts. this can be use to efficiently store large amount of medical tech parts
