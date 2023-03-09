@@ -6,3 +6,13 @@ You will than be taken to a screen where you will choose your username. Make sur
 ## Logging in
 
 If you already have an account, fill in the respective blanks with your email/password to sign in or by clicking on the Google/Apple sign in buttons.
+
+gdg
+fdh
+fh
+gfh
+gfh
+g
+jhg
+jgh
+jnh
