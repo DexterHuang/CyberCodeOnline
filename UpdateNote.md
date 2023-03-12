@@ -22,12 +22,17 @@ Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee
 
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
-Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub.
+Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) on how to submit a PR on our GitHub.
+
+### 2023/03/12
+- Attempt to ease the issue with occupation points not registering correctly when there is a massive amount of people doing occupation tasks and finishing at the same time.
+please let me know if this issue has been reduced.
+this issue is very tricky to mitigate with the current server architecture for technical reasons.
 
 ## Updates
 ### 2023/03/08
 - `Medical tech cluster` crafting price is now lowered from 50,000 to 5,000, this may be changed in the future.
-- Now amount selection input will show number keypad on iOS
+- Now amount selection input will show the number keypad on iOS
 - Security bug fixes
 - stability improvement
 - misc bug fixes
@@ -37,21 +42,21 @@ Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ### 2023/03/02
 #### Sythwave Update
-- Added Medical Tech Cluster, can be crafted with 1000 medical tech parts. this can be use to efficiently store large amount of medical tech parts
-- Added special item "Cassette Tape", when used you will receive buffs that gives you +20% damage and +20% defense, the only way to get this item is daily free bundle in Arasaka Unit Exchange
-- Item details UI redesigned, now it highlights primary button and secondary buttons has been changed to smaller size
-- Red envelopes will not drop anymore. Yen's shop will close in 16/03/2023, please use up your gold coins, otherwise you wont be able to use it.
+- Added Medical Tech Cluster, which can be crafted with 1000 medical tech parts. this can be used to efficiently store a large amount of medical tech parts
+- Added special item "Cassette Tape", when used you will receive buffs that give you +20% damage and +20% defence, the only way to get this item is a daily free bundle in Arasaka Unit Exchange
+- Item details UI redesigned, now it highlights the primary button and secondary buttons have been changed to a smaller size
+- Red envelopes will not drop anymore. Yen's shop will close on 16/03/2023, please use up your gold coins, otherwise, you won't be able to use them.
 
 ### 2023/02/21
-- Fixed combat log not showing correctly on desktop version
+- Fixed combat log not showing correctly on the desktop version
 - Reduced difficulty on 500+ level enemies, both health and damage
 - Minor UI fixes
 
 ### 2023/02/20
-- You can now optionally hide lower level are in transtations, this option will show up when you are level 30+
+- You can now optionally hide lower level are in translations, this option will show up when you are level 30+
 - Area now open to level 800
 - Fixed issue with epic upgrade module shows that as if it can install a module but it can't
-- Fixed bug where DexterHuang is showing on leaderboard, I am not suppose to be in the leaderboard 
+- Fixed bug where DexterHuang is showing on the leaderboard, I am not supposed to be in the leaderboard 
 
 ### 2023/02/17
 - Reduced printing price for Epic items on higher levels
