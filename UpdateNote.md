@@ -24,12 +24,14 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) on how to submit a PR on our GitHub.
 
-### 2023/03/12
-- Attempt to ease the issue with occupation points not registering correctly when there is a massive amount of people doing occupation tasks and finishing at the same time.
-please let me know if this issue has been reduced.
-this issue is very tricky to mitigate with the current server architecture for technical reasons.
+
 
 ## Updates
+### 2023/03/12
+- Attempt to ease the issue with occupation points not registering correctly when there is a massive amount of people doing occupation tasks and finishing at the same time.
+Please let me know if this issue has been reduced.
+This issue is very tricky to mitigate with the current server architecture for technical reasons.
+
 ### 2023/03/08
 - `Medical tech cluster` crafting price is now lowered from 50,000 to 5,000, this may be changed in the future.
 - Now amount selection input will show the number keypad on iOS
