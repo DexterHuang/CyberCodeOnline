@@ -2,34 +2,36 @@
 [DexterHuang](https://github.com/DexterHuang)
 
 ## Moderators
-[alfaice](https://github.com/alfaice)
-AlphaC58
 Artra
 AskAmando
 Ayanna
 B3llial
 BoxinFoxx
+HBUNKNOWN
+Indilil
+Nokan
+Lissa
+Tear1
+Unca_Feddit
+Wooffle
+YANDEREsenpaiXD
+YIRUO
+ZhannaKim26
+## Retired Moderators
+[alfaice](https://github.com/alfaice)
+AlphaC58
 [CMDR7](https://github.com/cmdr7)
 [Deckeeper](https://github.com/deckeeper)
 Dr_Pig
 EsmeJ
 Fudgee
-HBUNKNOWN
 HLYGD
-Indilil
-Nokan
 [krolik](https://github.com/kroliklapine)
 [l33t4ng3l](https://github.com/l33t4ng3l)
-Lissa
 [PotatoMan](https://github.com/PotatoMan145)
-Tear1
 [Tripplehelix](https://github.com/tripplehelix)
-Unca_Feddit
 [WhirlingDervish](https://github.com/NickN5)
-Wooffle
-YANDEREsenpaiXD
-YIRUO
-ZhannaKim26
+
 
 ## Music
 [CMDR7](https://github.com/cmdr7)
