@@ -48,12 +48,6 @@ If anyone has time to make a better one, please let me know :D
 ![cybercodeonline com_(Pixel 2 XL) (5)](https://user-images.githubusercontent.com/18545294/147470410-7e8c1de2-87c5-4c76-b2c8-5f9466cf63c2.jpg)
 
 
-#### Web
-
-![desktop-screenshot1](/resources/readme/desktop-screenshot.png)
-![desktop-screenshot2](/resources/readme/desktop-screenshot2.png)
-
-
 ### Fan Art
 
 #### by [l33t4ng3l](https://github.com/l33t4ng3l)
