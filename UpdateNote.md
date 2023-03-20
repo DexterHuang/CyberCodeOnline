@@ -27,6 +27,9 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 
 ## Updates
+### 2023/03/21
+- You can now hide NPC images by toggling "hide npc" option in setting menu
+
 ### 2023/03/12
 - Attempt to ease the issue with occupation points not registering correctly when there is a massive amount of people doing occupation tasks and finishing at the same time.
 Please let me know if this issue has been reduced.
