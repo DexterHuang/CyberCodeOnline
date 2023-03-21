@@ -8,7 +8,8 @@
 
 敵のギャングとプレイヤー装備品の属性の関係は以下のようになります.
 
-<img src="https://user-images.githubusercontent.com/126926751/226501048-37ca9943-a2b7-472a-9880-9f4feb09efd2.png" alt="EnemyGangGraph_ja.png">
+![EnemyGangGraph_ja](/resources/mobile-tutorial/EnemyGangGraph_ja.png)
+
 
 ## 敵の所属するギャング
 
@@ -18,7 +19,7 @@
 - **ブードゥボーイズ**: **俄造り**プレイヤーへのダメージが増加します（10%）
 - **スカベンジャーズ**: **破滅**プレイヤーへのダメージが増加します（10%）
 
-<img src="https://user-images.githubusercontent.com/126926751/226280113-5234b7b7-e27f-4e20-9940-4cd3eeaa1325.png" alt="EnemyGang_ja.png">
+![EnemyGang](/resources/mobile-tutorial/EnemyGang.png)
 
 どのギャングがエリアを支配しているかを知るためには, **近くの敵**か**ダンジョン**を確認する必要があります. 敵の体力の上にあるギャング名を見ることで, どのギャングであるかすぐに分かります. 敵の**属性**がこちらに対して有利であると分かったら, 戦闘中でも装備を変えることができます.
 
