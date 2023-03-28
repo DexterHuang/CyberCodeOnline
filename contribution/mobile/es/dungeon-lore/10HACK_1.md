@@ -1,17 +1,17 @@
->[Part 1 of 3 of 10\HACK series]
+>[Parte 1 de 3 de 10\HACK series]
 
-Ten little hackers, prowling online
+Diez pequeños hackers merodeando en linea;
 
-One betrayed his location then there were nine.
+Uno reveló su ubicacion y quedaron nueve.
 
-Nine little hackers diverting freight;
+Nueve pequeños hackers desviando carga;
 
-One tripped an ICE then there were eight.
+Uno trompezó con un hielo y quedaron ocho.
 
-Eight little hackers raiding a tax haven
+Ocho pequeños hackers asaltando un paraiso fiscal;
 
-One smelled like Fed, then there were seven.
+Uno olia como federal y quedaron siete.
 
-Seven little hackers stealing memory sticks;
+Siete peuqeños hackers robando memorias flash;
 
-One was GPS-tracked, then there were six.
+Uno fue localizado por GPS y quedaron seis.
