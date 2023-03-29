@@ -29,7 +29,7 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ## Updates
 ### 2023/03/29
 - Added Tiago's chracter B3llial as an NPC, you can receive free items everyday from him, visit him at Alleyway in Market area,
-B3llial will be available during March and September
+B3llial will be available during March and September every year
 
 ### 2023/03/21
 - You can now hide NPC images by toggling "hide npc" option in setting menu
