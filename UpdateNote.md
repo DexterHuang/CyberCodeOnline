@@ -27,6 +27,9 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 
 ## Updates
+### 2023/03/30
+- Free legendary container given by B3llial is changed to random equpments because people were abusing it with alt accounts.
+
 ### 2023/03/29
 - Added Tiago's chracter B3llial as an NPC, you can receive free items everyday from him, visit him at Alleyway in Market area,
 B3llial will be available during March and September every year
