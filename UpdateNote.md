@@ -28,7 +28,7 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 ### 2023/03/01
-- Daily reward reworked, with many player's suggestion, now it will reset accroding to UTC date, instead of +24 hours of your last claim. should provide more predictiable schedule 
+- Daily reward reworked, with many player's suggestion, now it will reset accroding to UTC date (UTC 00:00 instead of your local time-zone), instead of +24 hours of your last claim. should provide more predictiable schedule
 - Daily reward page UI slight adjustment
 
 ### 2023/03/30
