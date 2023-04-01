@@ -27,6 +27,10 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 
 ## Updates
+### 2023/03/01
+- Daily reward reworked, with many player's suggestion, now it will reset accroding to UTC date, instead of +24 hours of your last claim. should provide more predictiable schedule 
+- Daily reward page UI slight adjustment
+
 ### 2023/03/30
 - Free legendary container given by B3llial is changed to random equpments because people were abusing it with alt accounts.
 
