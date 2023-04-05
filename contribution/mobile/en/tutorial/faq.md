@@ -1,5 +1,3 @@
-> This FAQ (Frequently Asked Question) were compiled based on major question thats been asked by community and new player in general. Feel free to edit & add more FAQ-related content on [Github](https://github.com/DexterHuang/CyberCodeOnline).
-
 > Can't find an Answer for your Question? Feel free to ask them in **Global / Language Chat** or **CCO's Discord**! 😃
 
 > **Important Note:** **Beware of potential scam & lowballing price on in-game items**. Always ask your Gangmates / Friends / Global Chat about it's item value before confirming a market / trade deal (especially Epic Gear / Caches)! 😊
@@ -262,7 +260,7 @@ No, you can't change your name.  Your username is permanent for now. Mods / Devs
 You can tag and search for a user by typing @ in chat followed by their name (for example, type @DexterHuang). They will show up even if they are not online and they will receive a notification.
 
 ### Does the chat support emojis and kaomojis?
-Yup 🤠 ฅ^•ﻌ•^ฅ. Please don't overuse or spam these, as this kind of practice is against the Chat Rules.
+Yes, Please don't overuse or spam these, as this kind of practice is against the Chat Rules.
 
 ### Is there any customization in the game?
 You can have a custom profile picture in your profile, a Title and a coloured chat border, if you decide to subscribe to one of the 5 Donation Tiers available. Elite Tier and higher, will have access to a bio on their profile and a barcode. These benefits are purely cosmetic.
