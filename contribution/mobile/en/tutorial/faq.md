@@ -5,11 +5,11 @@
 ## Starting Point
 
 ### What Is This Game? And How To Play It?
-In summary, you basically adventure around **Train Stations** while defeating individual enemies or conquer entire dungeons. The game will progress (onto the next Train Station) after you gain each **Key Fragments** on every area / dungeons in the station. After getting all 3 key fragments, you need to make convert the fragments into **Key** on dedicated **Terminal** (which player can find it on **Shangri-la City Center**). After that, *Rinse and Repeat*.
+In summary, you adventure around **Train Stations** while defeating enemies or conquer entire dungeons. The game will progress (onto the next Train Station) after you gain each **Key Fragments** on every area / dungeons in the station. After getting all 3 key fragments, you need to make convert the fragments into **Key** on dedicated **Terminal** (which player can find it on **Shangri-la City Center**).
 
-More in-depth explanation can be found on dedicated Tutorial section.
+More in-depth explanation can be found in the Tutorial page, to open the page navigate to Profile > Tutorial.
 
-### What Do I Get From Joining / Finishing A Fight?
+### What Do I Get From Fighting Enemies?
 
 You'll receive in-game currency called **BTC (Bitcoin)** and in-game experience called **EXP (Experience)** inside a battle. At times, you'll randomly receive items, equipment or caches after defeating enemies.
 
@@ -46,6 +46,10 @@ No. Character Level is the max / boundary of player's skill level.
 
 ### Can I Use Gear that's higher than our Character Level?
 No. player can't use gear that's higher than it's current character level.
+
+### Why my XXX skill stuck at 99%?
+It is mostly because secondary skills cannot be higher than your character level,
+level up your character level should allow the skill to further advance
 
 ### What is the fastest way to level up in this game?
 On **lower level (1-7)**, the fastest and best way to level up is to fight **Nearby Enemies** constantly. Defeating the **yellow enemies** will result in more EXP gain, while also risking in having a harder fight than a normal enemies.
