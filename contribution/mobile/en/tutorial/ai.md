@@ -29,3 +29,4 @@ Please note that:
 - The question/statement must be prefixed with `###`, this is markdown format for title.
 - The question/statement should be what you expect the players ask the AI bot, this will increase the performance and likely hood of your knowledge be "reminded/linked" by the ai when the player ask a smilier/same question
 - Alwasy end the section of question&answer pair with **2 empty lines** this will help the algorithm seperate your knowledge fragment from other fragment
+- Please only state facts and be concise without adding emotions/emojis into the answer or question, this will help filter out irelevent information for the AI
