@@ -1,25 +1,25 @@
->[Part 2 of 8 of BioFinance series]  
+>[Parte 2 de 8 de la serie BioFinance]
 
-[Among the partially burned wastepaper, there is a formal looking document. Apparently, some kind of meeting minutes.]  
+ [Entre los papeles de desecho parcialmente quemados, hay un documento de aspecto formal.  Aparentemente, algún tipo de actas de reuniones.]
 
-Attending: 
+ Asistiendo:
 
-*Mr. Cheng Fang, Esq. (C), President of Cheng Holding*
+ *Señor.  Cheng Fang, Esq.  (C), presidente de Cheng Holding*
 
-*Mr. Zhao Hong (H), CEO of Cheng Capital Investment*
+ *Señor.  Zhao Hong (H), director ejecutivo de Cheng Capital Investment*
 
-*Mr. John Xu (X), [redacted]*
+ *Señor.  John Xu (X), [redactado]*
 
-C: Mr. Hong, the plan is ready to be set in motion. What is our current position?
+ C: Sr. Hong, el plan está listo para ponerse en marcha.  ¿Cuál es nuestra posición actual?
 
-H: Cheng lǎobǎn, we currently hold close to 300 millions BTC in short positions on IntelliCo. and all their major controlled companies. Position covering will be required in 3 weeks.
+ H: Cheng lǎobǎn, actualmente tenemos cerca de 300 millones de BTC en posiciones cortas en IntelliCo.  y todas sus principales empresas controladas.  Se requerirá cubrir la posición en 3 semanas.
 
-C: Mr. Xu?
+ C: ¿Señor Xu?
 
-X: Shipment is ready at New Hangzou laboratory. The lab has been acquired through intermediaries, no paper trail.
+ X: El envío está listo en el laboratorio de New Hangzou.  El laboratorio ha sido adquirido a través de intermediarios, sin rastro de papel.
 
-H: We took care of the financial aspect. We are in the clear.  
+ H: Nos ocupamos del aspecto financiero.  Estamos en claro.
 
-X: Extra insurance has been bought on the plant, after the fire we will recoup most of the expenses. We have a direct line with the media to control the narrative. Police have been paid out.
+ X: Se ha comprado un seguro extra en la planta, después del incendio recuperaremos la mayor parte de los gastos.  Tenemos una línea directa con los medios para controlar la narrativa.  La policía ha sido pagada.
 
-C: Very well, please proceed as agreed. 
+ C: Muy bien, proceda según lo acordado.
