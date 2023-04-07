@@ -1,13 +1,13 @@
->[Part 3 of 3 of 10\HACK series]  
+>[Parte 3 de 3 de 10\Serie HACK]
 
-Three little hackers, an elite crackin' crew;
+ Tres pequeños hackers, un equipo de cracking de élite;
 
-One got ID'd IRL, and then there were two.
+ Uno se identificó en la vida real y luego hubo dos.
 
-Two little hackers always on the run
+ Dos pequeños hackers siempre a la fuga
 
-One was busted at customs, and then there was one.
+ Uno fue arrestado en la aduana, y luego hubo uno.
 
-One little hacker, working alone;
+ Un pequeño hacker, trabajando solo;
 
-He joined a Corporation and then there were none.
+ Se incorporó a una Corporación y luego no quedó ninguno.
