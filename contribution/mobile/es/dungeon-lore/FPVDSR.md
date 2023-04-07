@@ -1,22 +1,22 @@
-> Looking for equipment in the dungeon, you find a data log of an old recon team sent by Vitasyntech Labs. It bursts to life in your hands.
+> Buscando equipo en la mazmorra, encuentras un registro de datos de un antiguo equipo de reconocimiento enviado por Vitasyntech Labs.  Cobra vida en tus manos.
 
-<Data Log 1> 
+ <Registro de datos 1>
 
-[UA Pilot Name: "TmVmZl9GUFY="]
-[Recon team: Delta 5]
+ [Nombre del piloto de UA: "TmVmZl9GUFY="]
+ [Equipo de reconocimiento: Delta 5]
 
-Vitasyntech hired "super soldiers", at least thats what they called us, for a "on the books" routine inspection of an IntelliCo company lab in the Shangri-La Depot 33 District.
+ Vitasyntech contrató a "súper soldados", al menos así nos llamaron, para una inspección de rutina "en los libros" de un laboratorio de la empresa IntelliCo en el Distrito Shangri-La Depot 33.
 
-The OP is simple: get in, have a look around, dig up the skeletons in the closet, and get out.
+ El OP es simple: entra, echa un vistazo, desentierra los esqueletos en el armario y sal.
 
-The entire meeting was, less than ideal, for my liking... but the money was too good to pass up.
+ Toda la reunión fue, para mi gusto, menos que ideal... pero el dinero era demasiado bueno para dejarlo pasar.
 
-14,000,000 BTC and 20,000 Units. 
+ 14.000.000 BTC y 20.000 Unidades.
 
-How could me and my team pass that up. It was too good to be true. 
+ ¿Cómo podríamos yo y mi equipo dejar pasar eso?  Era demasiado bueno para ser cierto.
 
-I can live a happy life with my family again. Not stuck under the WGO's oppressive thumb towards us military vets any longer. Forcing us to go out and do their work, for as little pay as 20,000 BTC a year. Screw that!
+ Puedo vivir una vida feliz con mi familia otra vez.  Ya no estamos atrapados bajo el pulgar opresivo de la WGO hacia nosotros, los veteranos militares.  Obligándonos a salir y hacer su trabajo, por tan solo 20.000 BTC al año.  ¡Tornillo que!
 
-This pilot sacrificed his years doing FPVDSR / (First Person View Drone Swarm Recon) / for over 30 years for them! And for what?! Getting shot at?!
+ ¡Este piloto sacrificó sus años haciendo FPVDSR / (Vista en primera persona Drone Swarm Recon) / durante más de 30 años por ellos!  ¡¿Y para qué?!  ¡¿Recibir un disparo?!
 
-Luckily thats gonna change very soon. I can get away and finally live in peace. Give my son, wife, and daughter the life they want, what I want. 
+ Por suerte eso va a cambiar muy pronto.  Puedo escapar y finalmente vivir en paz.  Darle a mi hijo, esposa e hija la vida que ellos quieren, lo que yo quiero.
