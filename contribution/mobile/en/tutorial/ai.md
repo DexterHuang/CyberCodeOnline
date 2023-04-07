@@ -5,6 +5,7 @@ You can simply edit the following files on our github page:
 - contribution/mobile/{lang}/tutorial/FAQ.md
 - contribution/mobile/{lang}/ai/knowledge.md
 after your pull request has been approved, the AI will automatically learn the new knowledge.
+NOTE: if the file does not exist in your language yet, simply create it.
 
 ### What is allowed to add to the AI knowledge pool? and which file to add it to?
 #### You should add the following to FAQ.md file:
