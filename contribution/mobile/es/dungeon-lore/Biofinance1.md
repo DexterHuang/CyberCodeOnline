@@ -1,26 +1,26 @@
->[Part 1 of 8 of BioFinance series]  
+>[Parte 1 de 8 de la serie BioFinance]
 
-[A crumpled sheet catches your attention. It's a bill of lading for some sort of delivery.]  
+ [Una hoja arrugada llama tu atención.  Es un conocimiento de embarque para algún tipo de entrega.]
 
-![EdgeRunner Biocouriers Corporation](/resources/lore/edgerunnerbiocorp.png)
+ ![EdgeRunner Biocouriers Corporation](/resources/lore/edgerunnerbiocorp.png)
   
-**CONSIGNEE:**  
-IntelliCo. Neural Implants Manufacturing Facility - Depot 33. Shangri-La.
+ **CONSIGNATARIO:**
+ IntelliCo.  Planta de fabricación de implantes neurales - Depósito 33. Shangri-La.
 
-**SHIPPER:**  
-Vitasyntech Inc. - WTP Building, New Hangzou, CN
+ **EXPEDIDOR:**
+ Vitasyntech Inc. - Edificio WTP, New Hangzou, CN
 
-**DELIVERY THROUGH:**  
-EdgeRunner Biocouriers Corp., Chiba City, JP
+ **ENVÍO A TRAVÉS DE:**
+ EdgeRunner Biocouriers Corp., ciudad de Chiba, JP
 
-**ITEM MARK:**  
-Psychoxone Mk4
+ **MARCA DEL ARTÍCULO:**
+ Psicoxona Mk4
 
-**ITEM DESCR. :**  
-experimental performance enhancing drug
+ **DESCRIPCIÓN DEL ARTÍCULO  :**
+ fármaco experimental para mejorar el rendimiento
 
-**QTY:**         
-20 crates, 4 tanks each
+ **CANTIDAD:**
+ 20 cajas, 4 tanques cada una
 
-**WEIGHT:**  
-400 kg
+ **PESO:**
+ 400 kg
