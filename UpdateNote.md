@@ -27,6 +27,15 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 
 ## Updates
+### 2023/04/07
+- Added `SLANC` AI, he is still under-development, this is part experiment with integrating the newest AI technology into the game and at same time to provide some entertainment value
+- `SLANC` will occationally make remarks on player's chat message
+- You can `Summon` SLANC for 10 minutes by using `SLANC Connector` item, this the bot is summon based and not available all the time because otherwise it will be too chaotic if its always chatting all the time,
+functions similar to Chat Exploits, however it can be used at same time with Chat Exploit, the AI will also be affected by the Chat Exploit with different level of effectiveness,
+from my testing Pirate, UwU and Love works well, with the AI trying to talk in that manner, so the effect is different from how it affacts players.
+- SLANC will also have access to game knowlege in contribution/mobile/{lang}/tutorial/FAQ.md, and contribution/mobile/{lang}/ai/knowledge.md, you guys are welcome to add more stuff into the files, SLANC will automatically learn the knowledge once its been merged to github (with a few hours delay)
+- SLANC is only available in Global, Mandarin, Korean and Japanese channel currently
+ 
 ### 2023/04/06
 - Updated mod internal tooling to ensure better transparency, fair and friendly chat enviroment
 - some wip framework for future updates 
