@@ -1,13 +1,13 @@
->[Part 2 of 3 of 10\HACK series]  
+>[Parte 2 de 3 de 10\Serie HACK]
 
-Six little hackers encrypting their hard drive
+ Seis pequeños hackers cifrando su disco duro
 
-One's password was easy, then there were five.
+ La contraseña de uno era fácil, luego había cinco.
 
-Five little hackers planting a backdoor
+ Cinco pequeños hackers plantando una puerta trasera
 
-One bragged on a forum, and there were four.
+ Uno se jactaba en un foro, y eran cuatro.
 
-Four little hackers, their spirit so free
+ Cuatro pequeños hackers, su espíritu tan libre
 
-One ended up in jail, then there were three.
+ Uno terminó en la cárcel, luego fueron tres.
