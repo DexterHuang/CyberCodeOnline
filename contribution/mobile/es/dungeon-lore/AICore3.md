@@ -1,13 +1,13 @@
-*[You find a textbook and flip to a random page.]*
+*[Encuentras un libro de texto y pasas a una página aleatoria.]*
 
-![AI Textbook](/resources/lore/textbookAI2.png)
-# The Invention of Cerebral Acceleration
-> (Part 3 of 8 aicore series)
+ ![Libro de texto de IA](/resources/lore/textbookAI2.png)
+ # La invención de la aceleración cerebral
+ > (Parte 3 de 8: Serie AiCore)
 
-The first prototype for Cerebral Acceleration was invented in the year 2061,  based on an obscure underground illegal Neuralink application: BB2039.nrl. The BB2039 app, better known as BrainBurst, was a secret application which allowed a person to make time subjectively "stop" by temporarily accelerating brain activity by 1024 times through a Neuralink device. This application also doubled as a fighting game where a person fights for "Burst Points" that they can consume to use the Cerebral Acceleration Function.
+ El primer prototipo de Cerebral Acceleration se inventó en el año 2061, basado en una oscura aplicación clandestina ilegal de Neuralink: BB2039.nrl.  La aplicación BB2039, más conocida como BrainBurst, era una aplicación secreta que permitía a una persona hacer que el tiempo se "detuviera" subjetivamente acelerando temporalmente la actividad cerebral 1024 veces a través de un dispositivo Neuralink.  Esta aplicación también se duplicó como un juego de lucha en el que una persona lucha por "Puntos de ráfaga" que puede consumir para usar la función de aceleración cerebral.
 
-BrainBurst was soon made illegal after authorities discovered the app's ability to directly alter the memory of the losing players to forget any associated memories regarding BrainBurst, thus enabling the app to maintain its secrecy. Though BrainBurst itself had been outlawed, the research into Cerebral Acceleration the app had inspired was permitted to continue. 
+ BrainBurst pronto se convirtió en ilegal después de que las autoridades descubrieran la capacidad de la aplicación para alterar directamente la memoria de los jugadores perdedores para olvidar cualquier recuerdo asociado con BrainBurst, lo que permitió que la aplicación mantuviera su secreto.  Aunque BrainBurst en sí había sido prohibido, se permitió que continuara la investigación sobre la aceleración cerebral que la aplicación había inspirado.
 
-After extensive research, development and regulatory hurdles, Cerebral Acceleration was finally approved for public use in 2068, allowing people to increase their brain processing speed and streamline their thought processes. This breakthrough in technology sparked a period of exponentially increased productivity in research and academia across a multitude of disciplines.
+ Después de una extensa investigación, desarrollo y obstáculos regulatorios, Cerebral Acceleration finalmente se aprobó para uso público en 2068, lo que permite a las personas aumentar la velocidad de procesamiento de su cerebro y agilizar sus procesos de pensamiento.  Este avance en la tecnología provocó un período de aumento exponencial de la productividad en la investigación y el mundo académico en una multitud de disciplinas.
 
-In daily use, Cerebral Acceleration is mainly employed as a learning aid allowing children to complete primary, secondary, and tertiary education by as early as 10 years old, with knowledge on par with the archaic Master's Degree. Cerebral Acceleration also has its uses in the military and industrial sectors to increase concentration and reaction time, preventing work accidents and improving productivity.
+ En el uso diario, Cerebral Acceleration se emplea principalmente como una ayuda de aprendizaje que permite a los niños completar la educación primaria, secundaria y terciaria a partir de los 10 años, con conocimientos a la par del arcaico Máster.  Cerebral Acceleration también tiene sus usos en los sectores militar e industrial para aumentar la concentración y el tiempo de reacción, prevenir accidentes laborales y mejorar la productividad.
