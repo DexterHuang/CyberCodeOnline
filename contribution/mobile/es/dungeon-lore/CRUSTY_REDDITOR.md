@@ -1,25 +1,24 @@
->You see a video module drive on the floor next to some scattered chips bags and candy wrappers. You decide to hook it to your mobile display.
+> Ve una unidad de módulo de video en el piso junto a algunas bolsas de papas fritas y envoltorios de dulces esparcidos.  Decides engancharlo a la pantalla de tu móvil.
 
 
-*STATIC*
+ *ESTATICA*
 
 
->A large man with a neckbeard, ponytail, augmented reality headset and poorly fitted Sword Art Online T-shirt enters the frame sporting a cheeto encrusted Legendary Astral Decimation Cannon. He appears to be pointing the weapon at a figure in the distance. 
+ >Un hombre grande con barba, cola de caballo, auriculares de realidad aumentada y una camiseta de Sword Art Online mal ajustada entra en escena luciendo un Cañón de destrucción astral legendario con incrustaciones de cheeto.  Parece estar apuntando el arma a una figura en la distancia.
 
 
-*EXPLOSIONS*
+ *EXPLOSIONES*
 
 
-Wow omg guys! This really blew up!! 
+ ¡Guau, chicos!  ¡¡Esto realmente explotó!!
 
 
->The man with the cannon, who you now have identified as a Crusty Redditor skips with glee over to what's left of the figure in the distance. The Redidtor rummages through the tattered remains and then picks up a couple of lightly singed Hash Processors.
+ > El hombre con el cañón, a quien ahora has identificado como Crusty Redditor, salta con alegría hacia lo que queda de la figura en la distancia.  Redidtor rebusca entre los restos hechos jirones y luego recoge un par de Hash Processors ligeramente chamuscados.
 
 
-Thanks for the gold kind Stranger!!
+ Gracias por el tipo de oro Stranger!!
 
 
-*STATIC*
+ *ESTATICA*
 
-
->You rip the drive out of the display and throw it to the ground. It's time to move on.
+ >Arrancas la unidad de la pantalla y la tiras al suelo.  Es hora de moverse.
