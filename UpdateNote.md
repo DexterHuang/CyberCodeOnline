@@ -33,7 +33,7 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 - You can `Summon` SLANC for 10 minutes by using `SLANC Connector` item, this the bot is summon based and not available all the time because otherwise it will be too chaotic if its always chatting all the time,
 functions similar to Chat Exploits, however it can be used at same time with Chat Exploit, the AI will also be affected by the Chat Exploit with different level of effectiveness,
 from my testing Pirate, UwU and Love works well, with the AI trying to talk in that manner, so the effect is different from how it affacts players.
-- SLANC will also have access to game knowlege in and contribution/mobile/{lang}/tutorial/FAQ.md, and contribution/mobile/{lang}/ai/knowledge.md, you guys are welcome to add more stuff into the files, SLANC will automatically learn the knowledge once its been merged to github (with a few hours delay)
+- SLANC will also have access to game knowlege in contribution/mobile/{lang}/tutorial/FAQ.md, and contribution/mobile/{lang}/ai/knowledge.md, you guys are welcome to add more stuff into the files, SLANC will automatically learn the knowledge once its been merged to github (with a few hours delay)
  
 ### 2023/04/06
 - Updated mod internal tooling to ensure better transparency, fair and friendly chat enviroment

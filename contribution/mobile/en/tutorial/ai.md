@@ -24,8 +24,13 @@ You should always follow the following format:
 No. player can't use gear that's higher than it's current character level.
 
 
+### Another question?
+Another questions's answer
+
+
 ```
 Please note that: 
+- Always format the knowledge fragment in the form of question-answer-pair, this is how the bot will receive queries so its the most effective way of providing knowledge
 - The question/statement must be prefixed with `###`, this is markdown format for title.
 - The question/statement should be what you expect the players ask the AI bot, this will increase the performance and likely hood of your knowledge be "reminded/linked" by the ai when the player ask a smilier/same question
 - Alwasy end the section of question&answer pair with **2 empty lines** this will help the algorithm seperate your knowledge fragment from other fragment
