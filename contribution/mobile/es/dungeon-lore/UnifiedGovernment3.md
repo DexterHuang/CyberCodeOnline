@@ -1,13 +1,13 @@
-*[You pull a textbook from a shelf and flip to a random page.]*  
-![World Government: an Introduction](/resources/lore/textbookgov25.png)
+*[Sacas un libro de texto de un estante y pasas a una página al azar.]*
+ ![Gobierno mundial: una introducción](/resources/lore/textbookgov25.png)
 
-# Critics of the Unified Global Government
-> (Part 3 of 6 WGO Series)
+ # Críticos del Gobierno Global Unificado
+ > (Parte 3 de 6 Serie WGO)
 
-Critics of world government come from a wide political spectrum, from radical left to far-right political adherents. Critics have offered three main objections regarding the feasibility, desirability, and necessity of establishing a common global political authority. 
+ Los críticos del gobierno mundial provienen de un amplio espectro político, desde la izquierda radical hasta adherentes políticos de extrema derecha.  Los críticos han ofrecido tres objeciones principales con respecto a la viabilidad, conveniencia y necesidad de establecer una autoridad política mundial común.
 
-First, a hastily formed unification of the political system might not bring global peace, but endless global insurgency and civil wars. By having a central figure of political power, critics claim, it is inevitable that minority groups would end up trying to gain independence by violent means. 
+ En primer lugar, una unificación apresurada del sistema político podría no traer la paz mundial, sino una insurgencia mundial y guerras civiles interminables.  Al tener una figura central de poder político, afirman los críticos, es inevitable que los grupos minoritarios terminen tratando de obtener la independencia por medios violentos.
 
-Second, the only stable system would be a fully unified world state that has the monopoly on legitimate coercive power, which means the central political power would have absolute power to destroy the whole world on a whim. 
+ En segundo lugar, el único sistema estable sería un estado mundial totalmente unificado que tuviera el monopolio del poder coercitivo legítimo, lo que significa que el poder político central tendría poder absoluto para destruir el mundo entero por capricho.
 
-Finally, critics argue that it is more important to address issues of poverty, inequality, and global justice than to try to ensure an absolute power governing above all, which in turn would potentially just cause more of the aforementioned problems.
+ Finalmente, los críticos argumentan que es más importante abordar los problemas de pobreza, desigualdad y justicia global que tratar de garantizar un poder absoluto que gobierne sobre todo, lo que a su vez podría causar más de los problemas antes mencionados.
