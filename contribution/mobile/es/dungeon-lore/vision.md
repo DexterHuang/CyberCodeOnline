@@ -1,9 +1,9 @@
-> You hear a click from under your feet and are startled with a vision of a 'Human?' infront of you. As you step back the vision becomes more clear. The glitchy vision breaks down after every sentence you hear.
+> Escuchas un clic debajo de tus pies y te sorprendes con una visión de un "¿Humano?" frente a ti. A medida que retrocedes, la visión se vuelve más clara. La visión borrosa se corta después de cada oración que escuchas.
 
-"Help.. Me! Help.. Me.. Help.. Me! They are tortur-.." 
+"Ayuda.. Me! Ayuda.. Me.. Ayuda.. Me! Están tortur-.." 
 
-> The disorted voice sounds like a woman's. The vision breaks and recovers. It seems clearer now as you see a hologram of a woman infront of you. She has a chip at the corner of her forehead. She hesitantly fixes what you guess is the recorder and continues.
+> La voz distorsionada suena como la de una mujer. La visión se corta y se recupera. Parece más claro ahora cuando ves un holograma de una mujer frente a ti. Tiene un chip en el borde de su frente. Vacilante arregla lo que crees que es la grabadora y continúa.
 
-"They kidnapped me and my sister. I am at Yames-.. Vision Breaks -..Tation. Cell locked in somewha-.. ... ..- Quarte -.. " 
+"Nos secuestraron a mí y a mi hermana. Estoy en Yames-.. La visión se corta -.. Tación. En una celda bloqueada en algún lu-.. ... .. -distri-.. " 
 
-> The vision blurs and you notice the device has shut down.
+> La visión se vuelve borrosa y notas que el dispositivo se ha apagado.
