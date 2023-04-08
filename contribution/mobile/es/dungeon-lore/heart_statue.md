@@ -1,5 +1,5 @@
->As you enter the room, an oddly shaped piece of rock catches your curiosity. You walk up to it for closer inspection.  
+>Al entrar en la habitación, un trozo de roca de forma extraña llama tu curiosidad.  Caminas hacia él para una inspección más cercana.
   
-> A heart-shaped stone statue. Upon closer inspection, there's a smaller heart etched within the stone heart in greater detail. You are not sure how this artistic piece of work ended up here. You stare at this statue at great length. After a while, you swear you were hallucinating and can hear a faint heartbeat, echoing, in another room. You get the feeling that this statue could have given you some much needed vigor for your journey ahead.  
+ > Una estatua de piedra en forma de corazón.  Tras una inspección más cercana, hay un corazón más pequeño grabado dentro del corazón de piedra con mayor detalle.  No está seguro de cómo esta obra artística terminó aquí.  Miras fijamente esta estatua con gran detenimiento.  Después de un tiempo, juras que estabas alucinando y puedes escuchar un latido débil, resonando, en otra habitación.  Tienes la sensación de que esta estatua podría haberte dado el vigor que tanto necesitabas para tu viaje por delante.
   
->You put the statue back where you found it, carefully.  
+ >Devuelves la estatua donde la encontraste, con cuidado.
