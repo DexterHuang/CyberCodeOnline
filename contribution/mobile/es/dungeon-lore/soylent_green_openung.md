@@ -8,4 +8,4 @@ Puede escuchar sonidos amortiguados que emanan de altavoces oxidados cercanos:
 > ... y nuevo, delicioso Soylent Green...  
 > ... El alimento milagroso del plancton de alta energía recogido de los océanos del mundo.  
 > Debido a su enorme popularidad, Soylent Green es escaso.  
-> Recuerde, el martes es el Día Verde de Soylent.
+> Recuerde, el martes es el Día de Soylent Green.
