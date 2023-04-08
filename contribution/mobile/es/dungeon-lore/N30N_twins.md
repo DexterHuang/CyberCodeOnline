@@ -6,7 +6,7 @@
   
  Los gemelos _Ice_ estaban en las sombras en el último piso del esqueleto del edificio que daba a un almacén del lado sur, _Spud_ les había pedido que proporcionaran _'supervisión táctica de la calle'_ (sus palabras) para una entrega de medicamentos que estaba  esperando  _PotatoMan_ había aprovechado el lote reciente de _PainAway_ falsos que salieron a la calle para lanzar su propia marca premium, con un pequeño logotipo y todo.  Este era el primer envío y estaba un poco nervioso.
   
- Movimienot..
+ Movimiento..
 
  _"Caja, lado este"_
  _"Míralo. Barriles 10 metros abajo"_
