@@ -1,9 +1,9 @@
-#### N30N C1RCUS: Cat Lady
+#### N30N C1RCUS: Dama Gato
 
-_"I guess that's as good as it gets"_ _Celes_ said to the cat purring sleepily on her lap. The plan looked solid - on paper least - and WAP was all briefed and good to go. It was just .. something at the back of her mind, niggling. Maybe it was just that the last op hadn't gone all that well and she didn't know why? The mobs' hadn't been .. surprised enough.
+ _"Supongo que eso es lo mejor que hay"_ _Celes_ le dijo al gato que ronroneaba somnoliento en su regazo.  El plan parecía sólido, al menos en el papel, y WAP estaba informado y listo para funcionar.  Era solo... algo en el fondo de su mente, inquietante.  ¿Tal vez era solo que la última operación no había ido tan bien y ella no sabía por qué?  Las turbas no habían sido... lo suficientemente sorprendidas.
 
-_"Dunno kitty cat, maybe I'm just imagining things?"_. _"And starting to talk to cats too"_ she sighed.
+ _"No sé, gatita, ¿tal vez solo estoy imaginando cosas?"_.  _"Y empezando a hablar con los gatos también"_ suspiró.
 
-She rubbed her tired eyes and leant back, resisting the need to go over it all again. Just one more time.
+ Se frotó los ojos cansados ​​y se echó hacia atrás, resistiendo la necesidad de repasarlo todo de nuevo.  Sólo una vez más.
 
-Sensing that its lap was about to disappear, the cat stood, stretched and then leapt lightly to the floor. Bumped its head against her leg in farewell and stalked to the door, tail waving slightly in warning. It looked back once and then padded away silently. Heading home in the dark of the night. To _Kate_.
+ Sintiendo que su regazo estaba a punto de desaparecer, el gato se puso de pie, se estiró y luego saltó con ligereza al suelo.  Golpeó su cabeza contra su pierna a modo de despedida y caminó hacia la puerta, agitando levemente la cola en señal de advertencia.  Miró hacia atrás una vez y luego se alejó en silencio.  Regresando a casa en la oscuridad de la noche.  A _Kate_.
