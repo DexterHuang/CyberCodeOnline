@@ -1,15 +1,14 @@
-#30651030 1243 PVT S. IVANOV  
+#30651030 1243 PVT S. IVANOV
 
-We have established our presence in the SL Business District. Been here for a week now. We are set up on the ground floor of Z-Corp's building. They sell a lot of tech caches, so we have better equipment than we're used to. Some of the squad have taken to playing around with their stats. Bugsy says a high-stun build is the best for one-on-one combat but I've always been a high-crit man myself. I imagine by the end of this we'll have more info about weaponry, what works, and what doesn't.  
+ Hemos establecido nuestra presencia en el SL Business District.  Sido aquí para disfrutar de una semana ahora.  Estamos instalados en la planta baja del edificio de Z-Corp.  Venden muchos alijos tecnológicos, así que tenemos mejores equipos de los que estamos acostumbrados.  Algunos miembros del equipo han comenzado a jugar con sus estadísticas.  Bugsy dice que una construcción de alto aturdimiento es la mejor para el combate uno contra uno, pero yo siempre he sido un hombre de alto crítico.  Me imagino que al final de esto tendremos más información sobre armamento, qué funciona y qué no.
   
-We're not the only private contractors here. EnhanceU has their own squad that just moved in yesterday, and TruMatch had one before we got here. That's just the ones on our block. This district is huge, so I'm sure all the military kids are eating well right now.  
+ No somos los únicos contratistas privados aquí.  EnhanceU tiene su propio equipo que se mudó ayer y TruMatch tenía uno antes de que llegáramos aquí.  Esos son solo los de nuestra cuadra.  Este distrito es enorme, así que estoy seguro de que todos los niños militares están comiendo bien en este momento.
   
-Speaking of eating well, even the food stalls are hiring security. Some of them are on the other side, think The Followers have a point. Most of them are from the outskirts of Shangri-La and just want to protect their families.  
+ Hablando de comer bien, hasta los puestos de comida están contratando seguridad.  Algunos de ellos están del otro lado, piensan que Los Seguidores tienen razón.  La mayoría son de las afueras de Shangri-La y solo quieren proteger a sus familias.
   
-The Followers are getting twitchy. They seem to be stocking up on weaponry and upgrading their gear. They're no match for us, but they're putting on an entertaining show.  
+ Los Seguidores se están poniendo nerviosos.  Parece que se están abasteciendo de armamento y mejorando su equipo.  No son rival para nosotros, pero están dando un espectáculo entretenido.
   
-Tensions are high, but if we play our cards right things will be okay and we'll be back to the status quo soon.  
+ Las tensiones son altas, pero si jugamos bien nuestras cartas, las cosas estarán bien y pronto volveremos al statu quo.
   
-Signing off.  
-2/5  
-
+ Despidiéndose.
+ 2/5
