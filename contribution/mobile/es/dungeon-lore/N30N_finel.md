@@ -1,13 +1,13 @@
-#### N30N C1RCUS: Str33t Angles
+#### N30N C1RCUS: Ángulos Str33t
 
-Wary of snipers, the four bodyguards hustled their client from the armoured SUV into the building and into the elevator. 
+ Recelosos de los francotiradores, los cuatro guardaespaldas sacaron a su cliente de la camioneta blindada al edificio y al ascensor.
 
-Two blocks away, Finel held his breath and gently squeezed the trigger. The round went through a broken pane in the warehouse window opposite, ricocheted at an weird angle off a steel plate and exited through another broken window, at 90 degrees to it's original direction. It ricocheted off another carefully angled plate in another derelict building and with the last of it's velocity, gracefully dolphined over the street to smack into a wall and bounce into a gutter. Which funnelled it into the breather pipe for the electrical room, down which it happily rattled to fall through a conveniently placed hole in the relay cabinet before finally came to rest - neatly bridging out the elevator safety circuit. 
+ A dos cuadras de distancia, Finel contuvo el aliento y apretó suavemente el gatillo.  El proyectil atravesó un panel roto en la ventana del almacén de enfrente, rebotó en un ángulo extraño en una placa de acero y salió por otra ventana rota, a 90 grados de su dirección original.  Rebotó en otra placa cuidadosamente angulada en otro edificio abandonado y con lo último de su velocidad, voló con gracia sobre la calle para golpear una pared y rebotar en una alcantarilla.  Lo que lo canalizó hacia el tubo de ventilación de la sala eléctrica, por el cual traqueteó felizmente para caer a través de un orificio convenientemente ubicado en el gabinete de relés antes de finalmente detenerse, puenteando cuidadosamente el circuito de seguridad del ascensor.
 
-The elevator reached the 16th floor and didn't stop. The bridged safety circuit let the motors pull it into the headgear and then rip the cables from their mountings. And the mechanical safety wedges that would ordinarily have stopped it falling more than a metre or two had been removed for 'routine maintenance'.
+ El ascensor llegó al piso 16 y no se detuvo.  El circuito de seguridad en puente permite que los motores lo introduzcan en el casco y luego arranquen los cables de sus soportes.  Y las cuñas de seguridad mecánicas que normalmente habrían evitado que cayera más de un metro o dos se habían quitado para el "mantenimiento de rutina".
 
-Finel heard the crash while packing away the last few bits and pieces. He thumbsed up without looking up and headed down to the street. Frank looked up as he quietly pushed through the door into Joe's, and slid a beer across the counter, grunting *"The AI said to put this on its tab"*.
+ Finel escuchó el estruendo mientras guardaba las últimas piezas.  Levantó el pulgar sin levantar la vista y se dirigió a la calle.  Frank levantó la vista mientras empujaba silenciosamente la puerta de Joe's y deslizaba una cerveza sobre el mostrador, gruñendo *"La IA dijo que pusiera esto en su cuenta"*.
 
-*"DOGES runs a tab ??"*  
-*"Any day now damn thing's going to in here crying into's pretzels on a Friday night like the rest of ya"*  
-*"Huh! Uh ... pretzels .. ?"*  
+ *"DOGES ejecuta una ficha??"*
+ *"Cualquier día de estos, la maldita cosa va a estar aquí llorando por los pretzels un viernes por la noche como el resto de ustedes"*
+ *"¡Eh! Eh... ¿pretzels..?"*
