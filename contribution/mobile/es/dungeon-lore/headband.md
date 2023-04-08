@@ -1,5 +1,5 @@
->In an attempt to take a breather from the fact that you almost just died, you look for a distraction. A piece of fabric on the ground seems to have answered your prayer.  
+>En un intento por tomar un respiro del hecho de que casi acabas de morir, buscas una distracción.  Un trozo de tela en el suelo parece haber respondido a tu oración.
   
->Upon closer inspection, you see a headband. A piece of cloth with a metal plate resting on it. You wonder if this fell off someone's head and has been forgotten for a long time. You pick it up. It's a little heavy, with the metal plate somehow glued or fused to the piece of cloth. You run your finger over the metal plate. Some sort of symbol seemed to have been etched onto the metal plate. You can't quite make out the symbol. You try the headband on but the awkward weight refused to cooperate with the flimsy cloth it's attached to.  
+ >Después de una inspección más cercana, ves una diadema.  Un trozo de tela sobre el que descansa una placa de metal.  Te preguntas si esto se cayó de la cabeza de alguien y se ha olvidado durante mucho tiempo.  Lo recoges.  Es un poco pesado, con la placa de metal de alguna manera pegada o fusionada con el trozo de tela.  Pasas el dedo por la placa de metal.  Algún tipo de símbolo parecía haber sido grabado en la placa de metal.  No puedes distinguir el símbolo.  Te pruebas la diadema, pero el peso incómodo se niega a cooperar con la tela endeble a la que está unida.
   
->You put the headband back where you found it, leaving it for the next person to struggle with trying to look cool and impressing their friends.  
+ > Pones la banda para la cabeza donde la encontraste, dejándola para que la siguiente persona luche por lucir genial e impresionar a sus amigos.
