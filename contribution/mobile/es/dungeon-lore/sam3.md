@@ -10,4 +10,4 @@
 
  La mujer se recuesta en su silla.  "Somos peores que la policía".
 
- `IMÁGENES DE VIGILANCIA CORRUPTAS;  DETENER LA REPRODUCCIÓN.
+ `IMÁGENES DE VIGILANCIA CORRUPTAS;  DETENER LA REPRODUCCIÓN.`
