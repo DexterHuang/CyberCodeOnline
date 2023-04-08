@@ -1,6 +1,5 @@
->Making an abrupt entrance, you noticed a pile of oddly shaped metal. Trying to distract yourself from the 5 monsters you just killed, you walk up for a closer look.  
+>Haciendo una entrada abrupta, notas una pila de metal de forma extraña.  Tratando de distraerte de los 5 monstruos que acabas de matar, te acercas para mirar más de cerca.
   
-> A pile of what appears to be throwing weapons. You recall an old E-file from the Librarium. There seems to be two different types here. A "kunai", or a throwing knife, and a "shuriken", or a throwing star. You take a closer look at these relics. You wonder if someone tried to use these as actual weapons, but ultimately falling. Rusted to a degree, but still sharpened in a way that you could cut yourself it you aren't too careful handling these. You chuck one at the wall in poor form. It barely wobbles towards the wall before making a loud "clunk" sound and falls to the ground.  
+ > Un montón de lo que parece ser arrojar armas.  Recuerdas un viejo archivo electrónico del Librarium.  Parece que hay dos tipos diferentes aquí.  Un "kunai", o cuchillo arrojadizo, y un "shuriken", o estrella arrojadiza.  Echa un vistazo más de cerca a estas reliquias.  Te preguntas si alguien intentó usarlas como armas reales, pero finalmente cayó.  Oxidado hasta cierto punto, pero aún afilado de una manera que podrías cortarte si no tienes demasiado cuidado al manipularlos.  Tiras uno a la pared en mala forma.  Apenas se tambalea hacia la pared antes de hacer un fuerte sonido metálico y cae al suelo.
 
->You put the rest of the throwing weapons in a neat pile, so the next person can inspect these historic pieces without hurting themselves.  
-
+ > Pones el resto de las armas arrojadizas en una pila ordenada, para que la próxima persona pueda inspeccionar estas piezas históricas sin lastimarse.
