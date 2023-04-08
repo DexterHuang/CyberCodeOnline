@@ -1,9 +1,9 @@
-*[You pull a textbook from a shelf and flip to a random page.]*  
-![World Government: an Introduction](/resources/lore/textbookgov25.png)
+*[Sacas un libro de texto de un estante y pasas a una página al azar.]*
+ ![Gobierno mundial: una introducción](/resources/lore/textbookgov25.png)
 
-# Proponents of the Unified Global Government
-> (Part 2 of 6 WGO Series)
+ # Proponentes del Gobierno Global Unificado
+ > (Parte 2 de 6 Serie WGO)
 
-Proponents of world government offer distinct reasons for why it is an ideal or necessary form of political organization. Some are motivated negatively and see world government as the definitive solution to problems in society such as war and the development of weapons of mass destruction, poverty, inequality, financial instability, infectious disease, pandemics, environmental degradation and climate change. More positively, some have advocated world government as a step to prosperity and global cooperation and happiness. A unified global government could implement socialized health care across regions. It could shoulder the economic tasks formerly left to regional trading blocs. It could provide for passportless free and unrestricted movement of people across borders, much as the Schengen Area once did in Europe. 
+ Los defensores del gobierno mundial ofrecen distintas razones de por qué es una forma ideal o necesaria de organización política.  Algunos están motivados negativamente y ven al gobierno mundial como la solución definitiva a los problemas de la sociedad, como la guerra y el desarrollo de armas de destrucción masiva, la pobreza, la desigualdad, la inestabilidad financiera, las enfermedades infecciosas, las pandemias, la degradación ambiental y el cambio climático.  Más positivamente, algunos han abogado por un gobierno mundial como un paso hacia la prosperidad y la cooperación y la felicidad globales.  Un gobierno global unificado podría implementar atención médica socializada en todas las regiones.  Podría asumir las tareas económicas que antes se dejaban a los bloques comerciales regionales.  Podría permitir el movimiento de personas sin pasaporte, libre y sin restricciones, a través de las fronteras, como lo hizo alguna vez el Área Schengen en Europa.
 
-Proponents have also differed historically in their views of the form of government that a world state should take. While historically people advocated world government under a single monarch or emperor who would possess supreme authority over all other lesser rulers, current proponents of world government generally still advocate a devolved sovereign state system to move humanity toward pacific world federalism.
+ Los defensores también han diferido históricamente en sus puntos de vista sobre la forma de gobierno que debería adoptar un estado mundial.  Si bien históricamente la gente abogó por un gobierno mundial bajo un solo monarca o emperador que poseyera la autoridad suprema sobre todos los demás gobernantes menores, los defensores actuales del gobierno mundial generalmente todavía abogan por un sistema de estado soberano delegado para llevar a la humanidad hacia un federalismo mundial pacífico.
