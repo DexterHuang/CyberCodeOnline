@@ -4,7 +4,7 @@
 
  _"Hmmmm.."_
 
- Sera' empacó una carga completa de sin caja, algunos perforantes y su nuevo modelo de demostración (ella está en ventas 'n all), puso el
+ Sera' empacó una carga completa de sin caja, algunos perforantes y su nuevo modelo de demostración (ella está en ventas y todo), puso el
  `GON` `OUT` `BIZY` `BACK` `SON` y felizmente cerró la puerta de la _Wepponne Shoppe_.
 
  Tripp' estaba tumbado detrás de un parapeto bajo de hormigón, intercambiando fotos con alguien en un tejado al otro lado del río.  Y sí, se estaba quedando sin, el \*\*\*agujero.  Canturreando alegremente, se arrastró como un leopardo por debajo del parapeto y amablemente cargó un juego completo de revistas.
@@ -15,7 +15,7 @@
 
  Él estiró un brazo hacia atrás sin mirar alrededor y ella escaneó el código QR tatuado en su muñeca.
 
- _"'k, se bueno!"_
+ _"Vale, se bueno!"_
 
  Ella le dio unas palmaditas afectuosas en el trasero y se dirigió de nuevo a la escalera de incendios, deteniéndose _siempre_ tan brevemente para dejar caer una granada de fragmentación por la escalera como un amistoso regalo de bienvenida para los capos que intentaban acercarse sigilosamente a un cliente habitual.
 
