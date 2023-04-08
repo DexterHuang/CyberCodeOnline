@@ -1,19 +1,19 @@
-#SLPD Interrogation Room Log NO.198  
+Registro de la sala de interrogatorios del #SLPD NO.198
   
-#Record Date- *Unspecified*  
+ #Fecha de registro- *Sin especificar*
   
->AUDIO ONLY PLAYBACK  
+ >REPRODUCCIÓN SÓLO DE AUDIO
   
-**Gruff Man's Voice:** I don't appreciate your officers running amok in the streets, Evan.  
+ **Voz de hombre brusco:** No aprecio que tus oficiales se vuelvan locos en las calles, Evan.
   
-**Evan:** I don't quite understand your complaint here. I AM the police captain.  
+ **Evan:** No entiendo muy bien tu queja aquí.  YO SOY el capitán de policía.
   
-**Gruff Man's Voice:** I know who you are, Evan. I goddamn got you your office. I help you win the election with the department of justice and the Chief of Police.  
+ **Voz de hombre brusco:** Sé quién eres, Evan.  Maldita sea, te conseguí tu oficina.  Te ayudo a ganar las elecciones con el departamento de justicia y el Jefe de Policía.
   
-**Evan:** I don't think you quite understand the power structure here. I AM the police and you are a private citizen. I can put whatever charges I want on you and there would be nothing you can do.  
+ **Evan:** No creo que entiendas bien la estructura de poder aquí.  YO SOY la policía y tú eres un ciudadano privado.  Puedo poner los cargos que quiera sobre ti y no habría nada que puedas hacer.
   
-**Gruff Man's Voice:** Not if me and my Warcouncil has anything to say. Even if I am gone, my son Worzel will take over and see to it that you are thrown out to the street.  
+ **Voz de hombre brusco:** No si yo y mi consejo de guerra tenemos algo que decir.  Incluso si me voy, mi hijo Worzel se hará cargo y se encargará de que te echen a la calle.
   
-**Evan:** (Clearly irritated) We will see about that, won't we? I think it's time that you leave the station. This conversation never happened.  
+ **Evan:** (Claramente irritado) Ya veremos eso, ¿no?  Creo que es hora de que te vayas de la estación.  Esta conversación nunca sucedió.
   
->END OF AUDIO PLAYBACK  
+ >FIN DE LA REPRODUCCIÓN DE AUDIO
