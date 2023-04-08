@@ -1,15 +1,15 @@
-### 7 Commandments of Beggars Cult
+### Culto de los Mendigos y sus siete mandamientos 
 
-1. You have the freedom to worship other Gods but we should still respect our God of Beggars.
+ 1. Tienes la libertad de adorar a otros dioses, pero aún debemos respetar a nuestro Dios de los mendigos.
 
-2. Beg moderately don't push others to give you something and don't annoy the Rich humans.
+ 2. Ruega moderadamente, no presiones a otros para que te den algo y no molestes a los humanos ricos.
 
-3. If you receive something be thankful and ask the God of Beggars to bless them with Beggars Luck.
+ 3. Si recibes algo, sé agradecido y pídele al Dios de los mendigos que los bendiga con la suerte de los mendigos.
 
-4. We fellow beggars should love and respect each other. If we can or we have the abilities to help, then help our fellow beggars.
+ 4. Nosotros, los mendigos, debemos amarnos y respetarnos unos a otros.  Si podemos o tenemos la capacidad de ayudar, ayudemos a nuestros compañeros mendigos.
 
-5. We don't have a leader, we are all equal.
+ 5. No tenemos líder, todos somos iguales.
 
-6. We are martyrs, we ignore and respect the Rich even though they discriminate against us. Also, we should pray for their forgiveness to our God of Beggars to soften their hearts to change their evil ways.
+ 6. Somos mártires, ignoramos y respetamos a los Ricos aunque nos discriminen.  Además, debemos orar por su perdón a nuestro Dios de los mendigos para que ablande sus corazones y cambie sus malos caminos.
 
-7. There are still other cults who have different views but still we should respect them and if possible we should make them our friends if they are interested but don't push them.
+ 7. Todavía hay otras sectas que tienen puntos de vista diferentes, pero aun así debemos respetarlas y, si es posible, debemos hacerlas nuestras amigas si están interesadas, pero no las presionemos.
