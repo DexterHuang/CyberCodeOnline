@@ -1,15 +1,11 @@
-*[You pull a textbook from a shelf and flip to a random page.]*  
-![World Government: an Introduction](/resources/lore/textbookgov2.png)
+*[Sacas un libro de texto de un estante y pasas a una página al azar.]*
+ ![Gobierno mundial: una introducción](/resources/lore/textbookgov2.png)
 
-# The Dawn of a Unified Global Government
-> (Part 4 of 6 WGO Series)
+ # El amanecer de un gobierno global unificado
+ > (Parte 4 de 6 Serie WGO)
 
-There has never been an executive, legislature, judiciary, military, or constitution with global jurisdiction. The United Nations was limited to a mostly advisory role to foster cooperation between existing national governments rather than exert authority over them. This changed after MNE 11 and 12.
+ Nunca ha habido un poder ejecutivo, legislativo, judicial, militar o constitución con jurisdicción global.  Las Naciones Unidas se limitaron a un papel principalmente consultivo para fomentar la cooperación entre los gobiernos nacionales existentes en lugar de ejercer autoridad sobre ellos.  Esto cambió después de MNE 11 y 12.
 
-The MNE, or Multinational Experiment, is an international experiment which explored the uses of international power (diplomatic, information, military, and economic) to influence the behavior of adversaries. In brief: it is a military wargame that many nations participate in. MNE 11, held in the mid-2040s, ended precariously. All models predicted a heightened likelihood of devastating multinational conflict that the assembled governments would be unable to quell. By MNE 12 in the mid-2050s, it had become quite clear that the current models of government had failed to evolve alongside rapid advancements in technology. The exercises revealed that the assembled governments were even less capable of containing multinational conflict then than they had been during MNE 11. A drastic change would have to come to avert World War 3.
+ El MNE, o Experimento Multinacional, es un experimento internacional que exploró los usos del poder internacional (diplomático, de información, militar y económico) para influir en el comportamiento de los adversarios.  En resumen: es un juego de guerra militar en el que participan muchas naciones. El MNE 11, celebrado a mediados de la década de 2040, terminó de manera precaria.  Todos los modelos predijeron una mayor probabilidad de un conflicto multinacional devastador que los gobiernos reunidos no podrían sofocar.  Para la MNE 12 a mediados de la década de 2050, quedó bastante claro que los modelos actuales de gobierno no habían evolucionado junto con los rápidos avances tecnológicos.  Los ejercicios revelaron que los gobiernos reunidos eran aún menos capaces de contener un conflicto multinacional que durante la MNE 11. Tendría que haber un cambio drástico para evitar la Tercera Guerra Mundial.
 
-Thus, the World Government Organization (WGO) was formed on 21st September 2066 to ensure cooperation, surveillance, and development of the whole world. Its creation was spearheaded by the technologically innovative nations of China, Japan, and the United States in response to what old world Realpolitik analysts would consider alarming developments in civilization, particularly as evidenced by the outcomes of MNE12. 
-
-
-
-
+ Por lo tanto, la Organización del Gobierno Mundial (WGO) se formó el 21 de septiembre de 2066 para garantizar la cooperación, la vigilancia y el desarrollo de todo el mundo.  Su creación fue encabezada por las naciones tecnológicamente innovadoras de China, Japón y los Estados Unidos en respuesta a lo que los analistas de Realpolitik del viejo mundo considerarían desarrollos alarmantes en la civilización, particularmente como lo demuestran los resultados de MNE12.
