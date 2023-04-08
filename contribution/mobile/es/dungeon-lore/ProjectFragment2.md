@@ -1,15 +1,15 @@
-# Project Fragment - The Crucible - SecComm - 1 of Unknown
+# Fragmento de proyecto - The Crucible - SecComm - 1 de Desconocido
 
-(Status: Classified)  
-(Project: Fragment)  
-(Sender: Code Name Unseer)  
-(Receiver: Mr. Miller, Fragment Project Head)  
-(Topic: The Crucible)  
+ (Estado: Clasificado)
+ (Proyecto: Fragmento)
+ (Remitente: Nombre en clave Unseer)
+ (Receptor: Sr. Miller, jefe de proyecto de fragmentos)
+ (Tema: El Crisol)
 
-Sir,
+ Señor,
 
-Recently, our subjects of The Memory have started developing psychotic behavioral patterns. I've lost a staff member to this pandemic of instability. With all due respect, I'm shutting down The Memory and rebooting The Crucible. Our best bet is to reset their minds and hope to whatever that the damage isn't permanent.
+ Recientemente, nuestros sujetos de The Memory han comenzado a desarrollar patrones de comportamiento psicóticos.  He perdido a un miembro del personal por esta pandemia de inestabilidad.  Con el debido respeto, cerraré The Memory y reiniciaré The Crucible.  Nuestra mejor apuesta es restablecer sus mentes y esperar lo que sea que el daño no sea permanente.
 
-On this note, I'm releasing to you the project files associated with the subjects on next transmission. Await further details.
+ En esta nota, les estoy dando a conocer los archivos del proyecto asociados con los temas en la próxima transmisión.  Espera más detalles.
 
-~ Project Security Lead, Code Name Unseer
+ ~ Jefe de seguridad del proyecto, Visor de nombres en clave
