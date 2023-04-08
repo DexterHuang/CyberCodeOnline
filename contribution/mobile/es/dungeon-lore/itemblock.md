@@ -1,6 +1,5 @@
->Upon entering the room, a huge shadow cast in the corner of the room makes you wonder what could possibly be over there. Your sense of discovery brings you closer to the object without you realizing it.  
+> Al entrar en la habitación, una gran sombra proyectada en la esquina de la habitación te hace preguntarte qué podría haber allí.  Tu sentido del descubrimiento te acerca al objeto sin que te des cuenta.
   
->A metallic box. A weird box with a weird weight to it. You shake it. Clearly something is inside, tumbling around. You take a good look at it with what dim light you could find. A once bright yellow color has long faded to a more muted shade. The "?" symbol etched on the four sides of the box felt smooth now, corroded by the rough ground and wind over a long period of time. You shook the box again, this time with no echo tumbling inside. Out of curiosity, you punch the box. A puff of dust and musty smell greets you rudely.  
+ >Una caja metálica.  Una caja extraña con un peso extraño.  Lo sacudes.  Claramente algo está dentro, dando vueltas.  Míralo bien con la poca luz que puedas encontrar.  Un color amarillo que alguna vez fue brillante se desvaneció hace mucho tiempo a un tono más apagado.  El "?"  El símbolo grabado en los cuatro lados de la caja se sentía suave ahora, corroído por el suelo áspero y el viento durante un largo período de tiempo.  Volviste a sacudir la caja, esta vez sin que el eco cayera dentro.  Por curiosidad, golpeas la caja.  Una bocanada de polvo y olor a humedad te saluda con rudeza.
   
->You toss the box back on the ground, wheezing from the dust. You leave it there for someone else to ponder over the enigmatic nature of the box.  
-
+ >Tiras la caja al suelo, jadeando por el polvo.  Lo dejas allí para que alguien más reflexione sobre la naturaleza enigmática de la caja.
