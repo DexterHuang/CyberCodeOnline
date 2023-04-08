@@ -28,7 +28,7 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 ### 2023/04/09
-- Adjustment to `SLANC`, it should be more inclined to respond in the localized languge in channels (and from my testing performing better in non-english language) and should be able to respond with longer sentences in non-english languages now
+- Adjustment to `SLANC`, it should be more inclined to respond in the localized languge in channels (and from my testing performing better in non-english languages) and should be able to respond with longer sentences in non-english languages now
 
 ### 2023/04/08
 - `SLANC Connector` is now available oon Arasaka Unit Exchange
