@@ -1,13 +1,13 @@
-*[It's a crumpled flyer for the 2077 Circuitbreaker Expo.]*  
+*[Es un folleto arrugado para la Exposición de disyuntores de 2077.]*
 
-![Circuitbreaker Expo](/resources/lore/circuitbreaker.png)
+ ![Circuitbreaker Expo](/resources/lore/circuitbreaker.png)
 
-**VENDOR ANNOUNCEMENT:** Asimov Automata and PKDroid will both be joining this year's lineup!  
-![Asimov and PKD](/resources/lore/asimovpkd.png)
+ **ANUNCIO DEL VENDEDOR:** ¡Asimov Automata y PKDroid se unirán a la alineación de este año!
+ ![Asimov y PKD](/resources/lore/asimovpkd.png)
 
-These tech giants both gained a foothold in the industry with their purpose-built SAMEK housings. They've both since branched out to a multitude of other designs and products, and their latest offerings will be on display at their booths in the main hall. But we'll also be seeing them both return to their roots... *on the SAMEK Strip!*
+ Estos gigantes tecnológicos se afianzaron en la industria con sus carcasas SAMEK especialmente diseñadas.  Desde entonces, ambos se han expandido a una multitud de otros diseños y productos, y sus últimas ofertas estarán en exhibición en sus puestos en la sala principal.  Pero también los veremos regresar a sus raíces... *¡en SAMEK Strip!*
 
-## ***The SAMEK Strip returns!***
-You read that right - we're bringing back the SAMEK Strip! You'll be able to grab a drink and watch demonstrations by a variety of SAMEK units, from Asimov and PKD's newest models to some of this sector's scrappiest repurposed and custom-built models from our featured hobbyists! Hang around a bit longer, and you can even catch one of the head-to-head mixology battles (schedule TBA)!
+ ## ***¡Vuelve la tira SAMEK!***
+ Leíste bien, ¡estamos trayendo de vuelta la tira SAMEK!  ¡Podrá tomar una copa y ver demostraciones de una variedad de unidades SAMEK, desde los modelos más nuevos de Asimov y PKD hasta algunos de los modelos reutilizados y hechos a la medida más rudimentarios de este sector de nuestros aficionados destacados!  ¡Quédese un poco más e incluso podrá ver una de las batallas de mixología cara a cara (horario TBA)!
 
-You don't want to miss this!
+ ¡No querrás perderte esto!
