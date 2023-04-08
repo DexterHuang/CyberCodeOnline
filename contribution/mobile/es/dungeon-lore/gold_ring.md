@@ -1,8 +1,5 @@
->Stepping into the room, a faint glint from what you think is a huge earring catches your eye. You take a few big strides to get a better look.  
+>Al entrar en la habitación, un débil destello de lo que crees que es un enorme arete te llama la atención.  Da unos cuantos pasos grandes para ver mejor.
   
->An unusually large metallic ring. Not any type of currency you see around these parts. You wonder how it got here. You take a closer look at this ring. Scratched and worn beyond recognition from its original state, it is surprisingly hollow and lightweight. You tap it lightly against the ground; it makes a springy **clink** sound. You can see that what once was gold has long faded and rusted from the surrounding moisture. You have an unspeakable and unexplained urge to collect these rings; LOTS of these rings.  
+ >Un anillo metálico inusualmente grande.  No cualquier tipo de moneda que veas por estas partes.  Te preguntas cómo llegó aquí.  Echa un vistazo más de cerca a este anillo.  Arañado y desgastado más allá del reconocimiento de su estado original, es sorprendentemente hueco y liviano.  Lo golpeas ligeramente contra el suelo;  hace un sonido elástico de ** tintineo **.  Puede ver que lo que una vez fue oro se ha desvanecido y oxidado por la humedad circundante.  Tienes un impulso indescriptible e inexplicable de coleccionar estos anillos;  MUCHOS de estos anillos.
   
->You reluctantly put it back on the ground, for someone else to fawn and obsess over the once gold ring.  
-
-
-
+ > De mala gana lo vuelves a poner en el suelo, para que alguien más adule y se obsesione con el anillo que alguna vez fue de oro.
