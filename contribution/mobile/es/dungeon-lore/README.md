@@ -1,35 +1,35 @@
-# Lea antes de enviar un nuevo archivo
+# Please read before submitting a new file
 
- Cuando hayas terminado tu entrada de lore.  Por favor, páselo por un corrector ortográfico.  La forma más sencilla de hacerlo es ir a https://docs.new y pegar la entrada en un documento nuevo.  Luego resaltará cualquier corrección.
+When you have finished your lore entry. Please run it through a spell checker. The easiest way to do this is to go to https://docs.new and paste the entry into a new document. It will then highlight any corrections.
 
- Siempre haga clic en la pestaña 'Vista previa' para asegurarse de que su entrada se vea correcta.  Si necesita una nueva línea, debe agregar un doble espacio al final de su oración/párrafo.
+Always click the 'Preview' tab to make sure your entry looks correct. If you need a new line, then you need to add a double space to the end of your sentence / paragraph.
 
- Si desea utilizar un formato más avanzado, eche un vistazo a https://stackedit.io/app# que lo hará más fácil.
+If you would like to use more advanced formatting then please take a look at https://stackedit.io/app# which will make this easier.
 
- No necesita hacer que sus líneas se ajusten a la pantalla manualmente.  La página lo hará por sí misma, asegúrese de que 'Soft Wrap' esté seleccionado en el cuadro de opción superior derecho.
+You do not need to make your lines fit to the screen manually. The page will do that itself, make sure that 'Soft Wrap' is selected in the top right option box.
 
- ## pequeños consejos:
+## small tips:
 
- - Puedes editar este archivo para ayudar a otros jugadores
- - Las imágenes están permitidas, simplemente suelte la imagen en el editor si está editando en el sitio web de github
+-   You are allowed to edit this file to help other players
+-   Images are allowed, simply drop the image into the editor if you are editing on github website
 
- # Cómo agregar una nueva entrada de nota
+# How to add new note entry
 
- 1. Cree un nuevo archivo Markdown con un nombre sensato con guión en este directorio
- 2. Crear PR, una vez fusionado, la nueva entrada se incluirá en el juego automáticamente
- 3. ????
- 4. Beneficio
+1. Create a new Markdown file with sensible name with dash-case in this directory
+2. Create PR, once merged, the new entry will be included in the game automatically
+3. ????
+4. Profit
 
- # recurso útil
+# Useful Resource
 
- - Editor de rebajas: https://stackedit.io/app#
+-   Markdown Editor: https://stackedit.io/app#
 
- # Uso de la Wiki Lore de CCO
+# Using the CCO Lore Wiki
 
- - ¡Asegúrese de consultar el Wiki de Lore de CCO en https://cyberwi.red/wiki!
- - Puede hacer referencia a la wiki para que le ayude a encontrar ideas para agregar a las notas.
- - **Consultar Lore Wiki antes de enviar su nota** ayuda a garantizar que cualquier fecha o evento que mencione tenga sentido en la línea de tiempo.
- - También puedes agregar libremente a la wiki para ayudar a desarrollar el mundo del juego.  Por ejemplo:
-     - Su nota puede mencionar el nombre de una empresa, y usted (y otros) pueden usar el wiki para contribuir con información más detallada sobre la historia, las actividades, etc. de la empresa.
-     - De esa manera, las notas pueden ser breves, pero todavía hay una manera para que los lectores obtengan más información.
- - Para obtener ayuda con Wiki, o si desea ser parte de un grupo de escritores de historia que trabajan juntos, envíe un [mensaje en el juego a Kimi Leta] (https://cybercodeonline.com/player?playerName=Kimi%20Leta)
+-   Make sure to check out the CCO Lore Wiki at https://cyberwi.red/wiki!
+-   You can reference the wiki to help you come up with ideas to add to notes.
+-   **Checking the Lore Wiki before you submit your note** helps ensure that any dates or events you mention make sense in the timeline.
+-   You can also freely add to the wiki to help flesh out the world of the game. For example:
+    -   Your note might mention a company by name, and you (and others) can use the wiki to contribute more in-depth information about the company's history, activities, etc.
+    -   That way, notes can be short, but there is still a way for readers to find out more.
+-   For help with the Wiki, or if you want to be part of a group of lore writers who work together, send an [in-game message to Kimi Leta](https://cybercodeonline.com/player?playerName=Kimi%20Leta)
