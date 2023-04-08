@@ -1,10 +1,9 @@
-*[A paper-thin E-pamphlet sits on the ground]*  
+*[Un folleto electrónico delgado como el papel se encuentra en el suelo]*
   
-## JOIN THE NEW AGE CHILDREN OF ENLIGHTENMENT TODAY!!  
+ ## ¡ÚNETE HOY A LOS NIÑOS DE LA NUEVA ERA DE LA ILUMINACIÓN!
   
-*[You open the E-pamphlet and see faded illustrations of a group of robed figures clad in red, black, and grey.]*  
+ *[Abres el folleto electrónico y ves ilustraciones descoloridas de un grupo de figuras vestidas de rojo, negro y gris.]*
   
-Join us today! Alone in this new world? Lost your loved ones to the ongoing war, conflict, and corruption? Local law enforcement and government agencies turned a blind eye to the injustice that you have suffered? Join us, and you too can have the tools to teach them the enlightenment they deserve and discover your own journey in the process!  
+ ¡Únete a nosotros hoy!  ¿Solo en este nuevo mundo?  ¿Perdió a sus seres queridos por la guerra, el conflicto y la corrupción en curso?  Las fuerzas del orden público locales y las agencias gubernamentales hicieron la vista gorda ante la injusticia que ha sufrido.  ¡Únase a nosotros, y usted también puede tener las herramientas para enseñarles la iluminación que se merecen y descubrir su propio viaje en el proceso!
   
-*[The rest of the E-pamphlet is unreadable...]*  
-
+ *[El resto del folleto electrónico es ilegible...]*
