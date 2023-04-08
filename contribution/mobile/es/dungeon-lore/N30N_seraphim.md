@@ -1,22 +1,22 @@
-#### N30N C1RCUS: Sales and Marketing
+#### N30N C1RCUS: Ventas y Marketing
 
-The `MeshNet` terminal chimed with a request and a set of co-ordinates. 
+ El terminal `MeshNet` sonó con una solicitud y un conjunto de coordenadas.
 
-_"Hmmmm.."_
+ _"Hmmmm.."_
 
-Sera' packed up a full load-out of caseless, some armour-piercing and their new demo model (her being in sales 'n all), put up the
-`GON` `OUT` `BIZY` `BACK` `SON` sign and happily locked the door to the _Wepponne Shoppe_. 
+ Sera' empacó una carga completa de sin caja, algunos perforantes y su nuevo modelo de demostración (ella está en ventas 'n all), puso el
+ `GON` `OUT` `BIZY` `BACK` `SON` y felizmente cerró la puerta de la _Wepponne Shoppe_.
 
-Tripp' was lying behind a low concrete parapet, swapping shots with somebody on a roof across the river. And yup, he was running low, the \*\*\*hole. Humming cheerfully, she leopard-crawled across below the parapet, and helpfully loaded up a full set of mags.
+ Tripp' estaba tumbado detrás de un parapeto bajo de hormigón, intercambiando fotos con alguien en un tejado al otro lado del río.  Y sí, se estaba quedando sin, el \*\*\*agujero.  Canturreando alegremente, se arrastró como un leopardo por debajo del parapeto y amablemente cargó un juego completo de revistas.
 
-_"6 mags of ordinary on your left, 2 armour piercing on your right, should be enough .. oh, and I brought you this to try out.."_  
-_"Thanks, you're an **angel**!"_  
-_"Duh!! A seraphim is an angel, dummy! Sign here.."_. 
+ _"6 revistas ordinarias a tu izquierda, 2 perforantes de armadura a tu derecha, deberían ser suficientes... oh, y te traje esto para que lo pruebes..."_
+ _"¡Gracias, eres un **ángel**!"_
+ _"¡Eh! ¡Un serafín es un ángel, tonto! Firma aquí.."_.
 
-He reached back an arm without looking round and she scanned the QR code tattooed on his wrist.
+ Él estiró un brazo hacia atrás sin mirar alrededor y ella escaneó el código QR tatuado en su muñeca.
 
-_"'k, be good!"_
+ _"'k, se bueno!"_
 
-She patted him affectionately on the butt and made her way back across to the fire escape, pausing _ever_ so briefly to drop a frag grenade down the stairwell as a friendly welcome gift for the hoods trying to sneak up on a regular customer.
+ Ella le dio unas palmaditas afectuosas en el trasero y se dirigió de nuevo a la escalera de incendios, deteniéndose _siempre_ tan brevemente para dejar caer una granada de fragmentación por la escalera como un amistoso regalo de bienvenida para los capos que intentaban acercarse sigilosamente a un cliente habitual.
 
-_"No charge"_ she called back over her shoulder, skipping happily out of there, her good deed for the day all done.
+ _"Sin cargo"_ gritó por encima del hombro, saltando alegremente fuera de allí, su buena acción del día había terminado.
