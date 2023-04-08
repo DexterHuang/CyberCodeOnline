@@ -1,29 +1,29 @@
->A datacube with an audio file.
+>Un cubo de datos con un archivo de audio.
 
-*[transmission 002790872 25-10-2064 15:30:22]*
-***
-*Angel come back, I'm sorry...*
+ *[transmisión 002790872 25-10-2064 15:30:22]*
+ ***
+ *Ángel vuelve, lo siento...*
 
-*You said what you needed to say, now just leave me alone.*
+ *Dijiste lo que tenías que decir, ahora déjame en paz.*
 
-*It's not you, you're beautiful and smart and funny...After Geoff...I just am not in a good place right now. Maybe if you give me some time?*
+ *No eres tú, eres hermosa, inteligente y divertida... Después de Geoff... Simplemente no estoy en un buen lugar en este momento.  ¿Quizás si me das algo de tiempo?*
 
-*I don't know how much time I have left.*
+ *No sé cuánto tiempo me queda.*
 
-*What does that mean?*
+ *¿Qué significa eso?*
 
-*It means I don't believe in what this society has to offer anymore.*
+ *Significa que ya no creo en lo que esta sociedad tiene para ofrecer.*
 
-*Okay, I know we just got out of government studies but what the heck are you talking about? You're not thinking of going dark are you?*
+ *Está bien, sé que acabamos de terminar los estudios gubernamentales, pero ¿de qué diablos estás hablando?  No estarás pensando en oscurecerte, ¿verdad?*
 
-*Maybe. I don't know. I'm just so sick of megacorps and the government screwing over the little guy while generations just get poorer and poorer and continue to serve those rich, greedy bougies. Maybe I can do something about that. You know,  you're welcome to come with me.*
+ *Tal vez.  No sé.  Estoy tan harto de los megacuerpos y el gobierno jodiendo al pequeño mientras las generaciones se vuelven cada vez más pobres y continúan sirviendo a esos ricos y codiciosos buguis.  Tal vez pueda hacer algo al respecto.  Sabes, eres bienvenido a venir conmigo.*
 
-*Are you joking? My parents would kill me! And that's if I ever saw them again. Plus, I've heard horror stories about people that go dark.*
+ *¿Estás bromeando?  ¡Mis padres me matarían!  Y eso es si alguna vez los volví a ver.  Además, he escuchado historias de terror sobre personas que se quedan oscuras.*
 
-*So I guess this is it then.*
+ *Así que supongo que esto es todo entonces.*
 
-*Will you stay with me tonight? One last night before we say goodbye.*
+ * ¿Te quedarás conmigo esta noche?  Una última noche antes de despedirnos.*
 
-*Well Helena Jones, since you are queen of the school and all, I suppose I couldn't say no to royalty.*
-***
-`<d4rkrunn3rz_003/>`
+ *Bueno, Helena Jones, ya que eres la reina de la escuela y todo eso, supongo que no podría decirle que no a la realeza.*
+ ***
+ `<d4rkrunn3rz_003/>`
