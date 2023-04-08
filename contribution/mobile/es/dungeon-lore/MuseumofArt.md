@@ -1,9 +1,9 @@
-# New Exhibit in Shangri-La Museum of Modern Art : Celebrity's Torn Underwear 
+# Nueva exhibición en el Museo de Arte Moderno de Shangri-La: Ropa interior rasgada de celebridades
 
-> *You pick up a colorful pamphlet, it has an advertisement for a weird new museum exhibit*
+ > *Recoges un folleto colorido, tiene un anuncio de una extraña exhibición nueva en el museo*
 
-![Shangri-La MOMA](/resources/lore/slmoma.png)
+ ![Shangri-La MOMA](/resources/lore/slmoma.png)
 
-Come and visit Shangri-La Museum of Modern Art to witness a new unique and rare exhibit. The item in this exhibit was first sold at a public anonymous auction for a staggering 14 million BitCoins. The previous owner, who wished to remain anonymous, donated it so that everyone could finally witness the resplendence of this exhibit!
+ Venga y visite el Museo de Arte Moderno de Shangri-La para presenciar una nueva exhibición única y rara.  El artículo de esta exhibición se vendió por primera vez en una subasta pública anónima por la asombrosa cantidad de 14 millones de BitCoins.  ¡El propietario anterior, que deseaba permanecer en el anonimato, lo donó para que todos pudieran finalmente presenciar el esplendor de esta exhibición!
 
-This artifact was a piece of costume worn by the super pop star Epic Dexter, well known for wearing unique, daring, and sometimes scantily clad outfits on stage and subsequently auctioning them for charity. Last year, Epic Dexter did his first worldwide tour called Epic Dexter's Tour of Life, commemorating his 100th album and receiving his Golden Record award. During his concert in Shangri-La, he accidentally slipped on stage while singing his top-selling single "Cybernetic Potato" and ripped part of his costume in front of 500 million viewers, resulting in this priceless historical artifact. Come and see the "Epic Dexter's Compromised G-string of Life" exhibit with your own eyes and gaze upon this artifact of Shangri-La's rich history!
+ Este artefacto era una pieza de vestuario usada por la súper estrella del pop Epic Dexter, conocida por usar atuendos únicos, atrevidos y, a veces, con poca ropa en el escenario y luego subastarlos con fines benéficos.  El año pasado, Epic Dexter realizó su primera gira mundial llamada Epic Dexter's Tour of Life, conmemorando su álbum número 100 y recibiendo su premio Golden Record.  Durante su concierto en Shangri-La, accidentalmente se resbaló en el escenario mientras cantaba su sencillo más vendido "Cybernetic Potato" y rasgó parte de su disfraz frente a 500 millones de espectadores, lo que resultó en este artefacto histórico de valor incalculable.  ¡Ven a ver la exhibición "Epic Dexter's Compromised G-string of Life" con tus propios ojos y contempla este artefacto de la rica historia de Shangri-La!
