@@ -1,9 +1,9 @@
-*[You find a textbook and flip to a random page.]*
+*[Encuentras un libro de texto y pasas a una página aleatoria.]*
 
-![AI Textbook](/resources/lore/textbookAI440.png)
-# Breaking the Barrier of Human Multitasking
-> (Part 7 of 8 aicore series)
+ ![Libro de texto de IA](/resources/lore/textbookAI440.png)
+ # Romper la barrera de la multitarea humana
+ > (Parte 7 de 8: Serie AiCore)
 
-For a long time it has been a well-accepted scientific fact that the human brain is, by design, not capable of multitasking. This notion was proven false when the first Cerebral Accelerator implant was invented. By having a Cerebral Accelerator implant, humans can speed up their thought processes and even install auxiliary AI entities or personalities called AICORE. Using an AICORE, the brain can utilize the processing power of the AI entity to do multiple tasks at the same time, or even delegate partial or full control of the body. Civilian AICORE only allow one module to be installed and active at any single time, with an activation time limit of 2 hours. The time limitation is there to prevent any side effects from detaching the host's mind from the brain for extended periods of time which may cause rejection of the consciousness. 
+ Durante mucho tiempo ha sido un hecho científico bien aceptado que el cerebro humano, por diseño, no es capaz de realizar múltiples tareas.  Esta noción se demostró falsa cuando se inventó el primer implante Cerebral Accelerator.  Al tener un implante Cerebral Accelerator, los humanos pueden acelerar sus procesos de pensamiento e incluso instalar entidades o personalidades auxiliares de IA llamadas AICORE.  Usando un AICORE, el cerebro puede utilizar el poder de procesamiento de la entidad de IA para realizar múltiples tareas al mismo tiempo, o incluso delegar el control total o parcial del cuerpo.  Civilian AICORE solo permite que un módulo esté instalado y activo a la vez, con un límite de tiempo de activación de 2 horas.  La limitación de tiempo existe para evitar que cualquier efecto secundario separe la mente del huésped del cerebro durante largos períodos de tiempo, lo que puede causar el rechazo de la conciencia.
 
-Despite the risks, military trials have tested successfully up to 8 AICORE running at the same time inside the Cerebral Accelerator, allowing the subject to fully control an experimental Mech Suit that has 32 times the movement and reaction speed of a conventional one without any external help. This feat is only possible with very specific training for the neural load and specialized modified Cerebral Accelerators.
+ A pesar de los riesgos, las pruebas militares han probado con éxito hasta 8 AICORE funcionando al mismo tiempo dentro del Cerebral Accelerator, lo que permite al sujeto controlar completamente un Mech Suit experimental que tiene 32 veces la velocidad de movimiento y reacción de uno convencional sin ninguna ayuda externa.  .  Esta hazaña solo es posible con un entrenamiento muy específico para la carga neuronal y aceleradores cerebrales modificados especializados.

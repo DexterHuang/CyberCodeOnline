@@ -1,19 +1,19 @@
-#### N30N C1RCUS: Str33t 4ng3l  
+#### N30N C1RCUS: Str33t 4ng3l
 
-![CyberCode Online Logo](/resources/art/l33t4ng3l/l33tlore.png)
+ ![Logotipo en línea de CyberCode](/resources/art/l33t4ng3l/l33tlore.png)
 
-People unobtrusively made way for her as she sashayed down the street. It was a good sashay she thought, the kind that separated the girls from the boys, and there was just time for a quick one at Joe's. The rube who was about to whistle his appreciation went white as his buddy kicked his shin - **hard** - and whispered a warning.  
+ La gente le abría paso discretamente mientras paseaba por la calle.  Era una buena fanfarronería, pensó, del tipo que separaba a las chicas de los chicos, y había tiempo justo para una rápida en Joe's.  El palurdo que estaba a punto de silbar su agradecimiento se puso blanco cuando su amigo le dio una patada en la espinilla, **fuerte**, y susurró una advertencia.
   
-_"Sheesh, Frank .. what does a girl have to do to get disrespected around here?"_ she grinned at the bartender.  
+ _"Caramba, Frank.. ¿Qué tiene que hacer una chica para que le falten el respeto por aquí?"_ le sonrió al cantinero.
   
-_"Might be all that ironmongery you're carrying hon'"_ he grinned back.  
+ _"Podría ser toda esa ferretería que llevas cariño"_ le devolvió la sonrisa.
   
-_"What?!? This lil' ol' thing here? It isn't even loaded"_ she said, placing the somewhat ornate but nonetheless pretty Amnesia MkIII laser on the bar top.  
+ _"¡¿Qué?!? ¿Esta cosita de aquí? Ni siquiera está cargada"_ dijo, colocando el láser Amnesia MkIII algo ornamentado pero no obstante bonito en la parte superior de la barra.
   
-He laughed: _"That one might not be! All the rest definitely are .. your usual?"_.  
+ Él se rió: _"¡Ese podría no serlo! Todos los demás definitivamente son.. ¿los de siempre?"_.
   
-She sipped her drink until it was time and then left quietly. Outside, she slipped into the shadows, moving economically. Biz time.  
+ Bebió su bebida hasta que llegó la hora y luego se fue en silencio.  Afuera, se deslizó en las sombras, moviéndose económicamente.  Tiempo de negocios.
   
-Inside, a guy at the other end of the bar asked wonderingly: _"Uh, was that l33t4ng3l?"_  
+ Adentro, un tipo en el otro extremo de la barra preguntó asombrado: _"Uh, ¿eso fue l33t4ng3l?"_
   
-_"Yup. You met the 4ng3l!"_ said Frank. _"And lived to tell your friends!"_ he lied, sliding a rohypnol laced beer across the counter. One question too many.  
+ _"Sí. ¡Conociste al 4ng3l!"_ dijo Frank.  _"¡Y vivió para contárselo a tus amigos!"_ mintió, deslizando una cerveza mezclada con rohipnol sobre el mostrador.  Una pregunta de más.

@@ -1,6 +1,6 @@
-# A Secret Human Modification Military Project
-> (part 1 of 12 cyber code mercenary series)
+# Un proyecto militar secreto de modificación humana
+ > (parte 1 de 12: Serie Mercenarios de CyberCode)
 
-The invention of the first Cybernetic Cerebral Enhancement implant in 2050 allowed the human brain to directly communicate with digital devices for the first time. This breakthrough made it possible for bionic prosthetics to finally outperform their biological counterparts by allowing full sensory information to be passed to the brain without any invasive procedures.  
+ La invención del primer implante Cybernetic Cerebral Enhancement en 2050 permitió al cerebro humano comunicarse directamente con dispositivos digitales por primera vez.  Este avance hizo posible que las prótesis biónicas finalmente superaran a sus contrapartes biológicas al permitir que la información sensorial completa pasara al cerebro sin ningún procedimiento invasivo.
 
-The military, of course, saw the potential to enhance soldiers' physical capabilities beyond normal human beings. Thus, the "Cyber Code" project was started, with the goal to push the limits of both physical and mental faculties of a human and create the superior soldier.
+ Los militares, por supuesto, vieron el potencial de mejorar las capacidades físicas de los soldados más allá de los seres humanos normales.  Por lo tanto, se inició el proyecto "Cyber ​​Code", con el objetivo de empujar los límites de las facultades físicas y mentales de un ser humano y crear un soldado superior.

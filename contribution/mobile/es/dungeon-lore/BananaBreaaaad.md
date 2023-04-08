@@ -1,18 +1,18 @@
-> You find a thin rectangular envelope, with burn marks on one side. Inside, you find a laminated paper page, seemingly torn from a book, barely held together by brittle plastic. It reads thus:
+> Encuentras un sobre rectangular delgado, con marcas de quemaduras en un lado.  En el interior, encuentras una página de papel laminado, aparentemente arrancada de un libro, apenas unida por un plástico quebradizo.  Se lee así:
 
-• 2 to 3 very ripe bananas, peeled   
-• 1/3 cup melted butter, unsalted or salted  
-• 1 teaspoon baking soda  
-• Pinch of salt  
-• 3/4 cup sugar  
-• 1 large egg, beaten  
-• 1 teaspoon vanilla extract  
-• 1 cup of all-purpose flour
+ • 2 a 3 plátanos muy maduros, pelados
+ • 1/3 taza de mantequilla derretida, sin sal o salada
+ • 1 cucharadita de bicarbonato de sodio
+ • Pizca de sal
+ • 3/4 taza de azúcar
+ • 1 huevo grande, batido
+ • 1 cucharadita de extracto de vainilla
+ • 1 taza de harina para todo uso
 
-• Preheat the oven to 350°F (175°C), and butter a 4x8-inch loaf pan.  
-•   In a mixing bowl, mash the ripe bananas with a fork until completely smooth. Stir the melted butter into the mashed bananas.  
-• Mix in the baking soda and salt. Stir in the sugar, beaten egg, and vanilla extract. Mix in th-"
+ • Precaliente el horno a 350°F (175°C), y unte con mantequilla un molde para pan de 4x8 pulgadas.
+ • En un recipiente para mezclar, triture los plátanos maduros con un tenedor hasta que estén completamente suaves.  Revuelva la mantequilla derretida en el puré de plátanos.
+ • Mezcle el bicarbonato de sodio y la sal.  Agregue el azúcar, el huevo batido y el extracto de vainilla.  Mezclar en th-"
 
-> The rest of the text is obscured by discoloration where the folder and the melted plastic had fused together. 
+ > El resto del texto está oscurecido por la decoloración donde la carpeta y el plástico derretido se habían fusionado.
 
-> It appears to be a recipe for a type of pastry you are unfamiliar with. You do not recognize half of the ingredients on the list, nor do the instructions make sense to you. Finding the information on it to be worthless, you return it back inside the folder for someone else to find.
+ > Parece ser una receta de un tipo de pastel que no conoces.  No reconoces la mitad de los ingredientes de la lista, ni las instrucciones tienen sentido para ti.  Al encontrar que la información en él no tiene valor, la devuelves dentro de la carpeta para que otra persona la encuentre.

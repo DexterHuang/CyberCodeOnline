@@ -1,12 +1,11 @@
-#30760318 Marina  
+#30760318 Marina
   
-They've taken father and Marco. We had scavenged some powerful gear- Corpo loot. I know that I searched the files and traces, I know there were no tracking worms on it.  
+ Se han llevado a mi padre ya Marco.  Habíamos buscado equipo poderoso: botín de Corpo.  Sé que busqué en los archivos y rastros, sé que no había gusanos rastreadores.
   
-But they're gone now. I let myself flow into the net. Into the comfort of the Family.  
+ Pero ya no están.  Me dejo fluir en la red.  En la comodidad de la Familia.
   
-It is unfair. They make their selfish order, they take and waste and force us to live on the fringes. And now?  now they took my family for daring to touch their trash!  
+ Es injusto.  Hacen su pedido egoísta, toman y derrochan y nos obligan a vivir al margen.  ¿Y ahora?  ahora se llevaron a mi familia por atreverse a tocar su basura!
   
-I am tired of them. So tired. My blood may be gone but the Family lives on. They speak of a new wave. As we commune with Him. He tells us to leave our flesh shells behind. To live on the Net. To become as he is and embody only metal shells. Bodies of our making.  
+ Estoy cansado de ellos.  Tan cansado.  Puede que mi sangre se haya ido, pero la Familia sigue viva.  Hablan de una nueva ola.  Mientras nos comunicamos con Él.  Nos dice que dejemos atrás nuestras corazas de carne.  Para vivir en la Red.  Llegar a ser como es y encarnar solo caparazones de metal.  Cuerpos de nuestra fabricación.
   
-Tomorrow I take my family's things and go to Karmin's to find a body mod. I am tired of this flesh.  
-
+ Mañana tomo las cosas de mi familia y voy a lo de Karmin a buscar un mod de cuerpo.  Estoy cansado de esta carne.

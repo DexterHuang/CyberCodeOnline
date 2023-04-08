@@ -1,16 +1,16 @@
-#30651018 0815 PVT S. IVANOV  
+#30651018 0815 PVT S. IVANOV
   
-We have been contracted by Zodiac Corp to initiate a strong military presence in Shangri-La Business District.  
+ Hemos sido contratados por Zodiac Corp para iniciar una fuerte presencia militar en el distrito comercial de Shangri-La.
   
-Police Department reportedly overwhelmed by scavs, fanatics, and other undesirables.  
+ Según los informes, el Departamento de Policía está abrumado por carroñeros, fanáticos y otros indeseables.
   
-Rumours of an uprising. The Followers are recruiting at an extreme rate and threatening another revolution. Military presence required to squash this and maintain order.  
+ Rumores de un levantamiento.  Los Seguidores están reclutando a un ritmo extremo y amenazando con otra revolución.  Se requiere presencia militar para aplastar esto y mantener el orden.
   
-No current anticipation of required force or civilian casualties.  
+ No hay previsión actual de fuerza necesaria o bajas civiles.
   
-My squad is in two minds. Half of them are excited to finally see action, half of them have family in The Followers and worry about meeting them. We're all happy about the pay though. Private military pays surprisingly well, and revolutions are good for business.  
+ Mi equipo está en dos mentes.  La mitad de ellos están emocionados de finalmente ver acción, la mitad de ellos tienen familiares en The Followers y les preocupa conocerlos.  Sin embargo, todos estamos contentos con la paga.  Los militares privados pagan sorprendentemente bien y las revoluciones son buenas para los negocios.
   
-I pray I made the right choice.  
+ Rezo por haber tomado la decisión correcta.
   
-Signing off.  
-1/5  
+ Despidiéndose.
+ 1/5

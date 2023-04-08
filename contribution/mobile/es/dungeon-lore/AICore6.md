@@ -1,11 +1,11 @@
-*[You find a textbook and flip to a random page.]*
+*[Encuentras un libro de texto y pasas a una página aleatoria.]*
 
-![AI Textbook](/resources/lore/textbookAI440.png)
-# Auto Pilot for the Human Brain
-> (Part 6 of 8 aicore series)
+ ![Libro de texto de IA](/resources/lore/textbookAI440.png)
+ # Piloto automático para el cerebro humano
+ > (Parte 6 de 8: Serie AiCore)
 
-AICOREs are sophisticated self-aware technological marvels that enable the ability to use "autopilot" mode for your body. Not only can it automate repetitive and boring tasks, AICOREs can give your body skills you never had while your consciousness can finish jobs, learn new stuff, or even have fun playing games in virtual reality. By using AICOREs, someone who has never cooked even instant noodles can make a five-star gourmet dish by using an AICORE to automate the cooking; this also applies to other skills that require a lot of practice and experience. 
+ Los AICORE son sofisticadas maravillas tecnológicas autoconscientes que permiten la capacidad de usar el modo de "piloto automático" para su cuerpo.  No solo puede automatizar tareas repetitivas y aburridas, los AICORE pueden brindarle a su cuerpo habilidades que nunca tuvo, mientras que su conciencia puede terminar trabajos, aprender cosas nuevas o incluso divertirse jugando en la realidad virtual.  Al usar AICORE, alguien que nunca ha cocinado ni siquiera fideos instantáneos puede hacer un plato gourmet de cinco estrellas usando un AICORE para automatizar la cocción;  esto también se aplica a otras habilidades que requieren mucha práctica y experiencia.
 
-Usage of AICOREs are time-restricted to 2 hours per session to avoid the small chance of neural unlinking of the user's consciousness. Neural unlinking forces the user to do a neural cortex transfer and transfer to a new body, which is an inconvenience and an unnecessary cost. This phenomenon happens because the brain with only the AICORE consciousness within would slowly reject the original consciousness after detached for extended periods of time. Scientists have determined that 2 hours is the maximum safe time for continuous AICORE usage to automate tasks while the main consciousness is detached. 
+ El uso de AICORE está restringido en el tiempo a 2 horas por sesión para evitar la pequeña posibilidad de desvinculación neuronal de la conciencia del usuario.  La desvinculación neuronal obliga al usuario a realizar una transferencia de corteza neuronal y transferirse a un nuevo cuerpo, lo cual es un inconveniente y un costo innecesario.  Este fenómeno ocurre porque el cerebro con solo la conciencia AICORE en su interior rechazaría lentamente la conciencia original después de desconectarse durante largos períodos de tiempo.  Los científicos han determinado que 2 horas es el tiempo máximo seguro para el uso continuo de AICORE para automatizar tareas mientras la conciencia principal está desconectada.
 
-There have been cases of very long activation of AICOREs without any rejection of the host mind, but those examples are mostly military personnel with specialized Cerebral Accelerators which ensure both the AICORE and the host are always present simultaneously, preventing any rejection reaction.
+ Ha habido casos de activación muy prolongada de AICORE sin ningún rechazo de la mente del anfitrión, pero esos ejemplos son en su mayoría personal militar con Aceleradores Cerebrales especializados que aseguran que tanto el AICORE como el anfitrión estén siempre presentes simultáneamente, evitando cualquier reacción de rechazo.

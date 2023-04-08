@@ -1,8 +1,8 @@
-# Ideals of the Cyber Code Mercenary Group
-> (part 7 of 12 cyber code mercenary series)
+# Ideales del Grupo Mercenario Cyber ​​Code
+ > (parte 7 de 12: Serie Mercenarios de Cyber Code)
 
-The people who get chosen to become a Cyber Code Mercenary are very diverse, there are no limitations of race, ethnicity, national origin, or even age. Cyber Code Mercenaries are chosen by the neural scan results that indicate the highest possible mental processing speed and resilience. Both are required for the brain to be compatible with the extreme acceleration rates used in the Military Grade Cortex Accelerators. Some of the Mercenaries are people who were randomly chosen by their aptitude, some are ex-elite military soldiers, some come from the Secret Service, and some are even ex-criminals. 
+ Las personas que son elegidas para convertirse en Cyber ​​Code Mercenary son muy diversas, no hay limitaciones de raza, etnia, origen nacional o incluso edad.  Los Cyber ​​Code Mercenaries son elegidos por los resultados del escaneo neuronal que indican la mayor velocidad de procesamiento mental y resiliencia posibles.  Ambos son necesarios para que el cerebro sea compatible con las tasas de aceleración extremas que se utilizan en los aceleradores de corteza de grado militar.  Algunos de los mercenarios son personas que fueron elegidas al azar por su aptitud, algunos son ex soldados militares de élite, algunos provienen del Servicio Secreto y algunos incluso son ex delincuentes.
 
-Those who have criminal records have a special AICORE installed that can detect any intent to do criminal activities, which will forcefully detach the consciousness of the host and send it to a virtual correctional facility. 
+ Aquellos que tienen antecedentes penales tienen instalado un AICORE especial que puede detectar cualquier intento de realizar actividades delictivas, lo que separará por la fuerza la conciencia del anfitrión y lo enviará a un centro correccional virtual.
 
-Despite the Cyber Code Mercenaries' differences, one thing unites them all: the obscene amounts of wealth they would amass from their bounty payouts and monthly salary.
+ A pesar de las diferencias de Cyber ​​Code Mercenaries, una cosa los une a todos: las cantidades obscenas de riqueza que acumularían con sus pagos de recompensas y salarios mensuales.

@@ -1,14 +1,14 @@
-#30651203 1936 PFC S. Ivanov  
+#30651203 1936 PFC S. Ivanov
   
-Mission in Shangri-La Business District is taking a turn. Our hopes at the beginning were limited force and no civilian casualties. That no longer seems possible.  
+ La misión en el distrito comercial de Shangri-La está dando un giro.  Nuestras esperanzas al principio eran una fuerza limitada y que no hubiera bajas civiles.  Eso ya no parece posible.
   
-The Followers are getting reinforcements from the outer settlements and tensions are running higher every day. The companies who hired us are putting more and more pressure on us, turns out revolution is bad for business. We can only do so much without devolving into an all-out war. None of us want that. We have family out there. I have family out there.  
+ Los Seguidores están recibiendo refuerzos de los asentamientos exteriores y las tensiones aumentan cada día.  Las empresas que nos contrataron nos presionan cada vez más, resulta que la revolución es mala para los negocios.  No podemos hacer mucho sin caer en una guerra total.  Ninguno de nosotros quiere eso.  Tenemos familia por ahí.  Tengo familia por ahí.
   
-Z-Corp has been working on some sort of medical type weapon. They claim it just sedates the enemy and makes them easy to apprehend without the use of force. I don't buy it. There's something else going on here. I'm no scientist but I know something shifty when I see it. They said it'll be ready in a matter of weeks. Seems they've been preparing for this for a good while. No wonder The Followers and all those scavs don't trust them.  
+ Z-Corp ha estado trabajando en algún tipo de arma de tipo médico.  Afirman que solo seda al enemigo y lo hace fácil de detener sin el uso de la fuerza.  no lo compro  Hay algo más pasando aquí.  No soy científico, pero reconozco algo sospechoso cuando lo veo.  Dijeron que estará listo en cuestión de semanas.  Parece que se han estado preparando para esto durante un buen tiempo.  No es de extrañar que los Seguidores y todos esos carroñeros no confíen en ellos.
   
-My favourite food truck stopped serving us military folks. Said they couldn't support the threat of violence in their community. Real principled lady. You gotta respect it on some level. Honestly, those noodles were so good I hope this all blows over just so I can grab another bowl.  
+ Mi camión de comida favorito dejó de servirnos a los militares.  Dijeron que no podían soportar la amenaza de violencia en su comunidad.  Verdadera dama de principios.  Tienes que respetarlo en algún nivel.  Honestamente, esos fideos estaban tan buenos que espero que todo esto pase para poder tomar otro tazón.
   
-We all just wanna go back to normal now. I wanna go home.  
+ Todos queremos volver a la normalidad ahora.  Quiero ir a casa.
   
-Signing off.  
-4/5  
+ Despidiéndose.
+ 4/5

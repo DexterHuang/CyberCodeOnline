@@ -1,27 +1,27 @@
-###### The story was brought to you by: Hafizdkren
+###### La historia fue presentada por: Hafizdkren
 
-There was a gun that being made by scientist, It was nothing but a rumour.
-Some people believe that this devices is exist and be successfully breaktrought the boundaries of science, and some even say it was a bullshit that people think it exist.
+ Había un arma que estaba siendo hecha por un científico, no era más que un rumor.
+ Algunas personas creen que estos dispositivos existen y pueden romper con éxito los límites de la ciencia, y algunos incluso dicen que es una mierda que la gente piense que existe.
 
-Whether it is exist or not, there was a archive where showing that the devices itself is working
+ Ya sea que exista o no, había un archivo que mostraba que los dispositivos en sí están funcionando
 
->The video being played.
+ >El video que se está reproduciendo.
 
-**Man as a Narrator:** Welcome, to *`inaudible`*. We looking for the best of the best.
-    My name is *`inaudible`*, and this is my assistant.
+ **El hombre como narrador:** Bienvenido a *`inaudible`*.  Buscamos lo mejor de lo mejor.
+     Mi nombre es *`inaudible`*, y este es mi asistente.
 
-**Woman in audio voice:** And I was his assistant.
+ **Mujer en voz de audio:** Y yo era su asistente.
 
-**Man as a Narrator:** This is my new invention, Looks like a freaking gun, but it is a gun.
-    A gun design to making a hole.
-    Not a normal hole, a weird hole. A hole that can make taking thing faster, or even travelling you to the moon.
-    *A space suit and vacuum room is needed when want to using this gun to travel to the moon.*
+ **Hombre como narrador:** Este es mi nuevo invento. Parece una maldita pistola, pero es una pistola.
+     Un diseño de pistola para hacer un agujero.
+     No es un agujero normal, un agujero extraño.  Un agujero que puede hacer que tomar cosas sea más rápido, o incluso viajar a la luna.
+     *Se necesita un traje espacial y una sala de vacío cuando se quiere usar esta pistola para viajar a la luna.*
 
->The video is ended.
+ >El video ha terminado.
 
-Nobody knews, what happen to the invention, or the narrator, or even, the thing behind it.
+ Nadie sabe qué pasó con la invención, o el narrador, o incluso, lo que hay detrás.
 
-___
+ ___
 
-***You should looking that archive, or the video, or anything else about this place.***
-***Also, Let's go doing more testing again. Because I Love TESTING***
+ ***Deberías mirar ese archivo, o el video, o cualquier otra cosa sobre este lugar.***
+ *** Además, vamos a hacer más pruebas de nuevo.  Porque me encanta PROBAR***

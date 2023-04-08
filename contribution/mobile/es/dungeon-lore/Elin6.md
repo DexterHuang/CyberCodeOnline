@@ -1,8 +1,7 @@
-> #30780528 Phone Call Elin  
+> #30780528 Llamada telefónica Elin
   
-"Bebo, we sold to them." Elin was crying. She sat in her office and could hear her brother on the other line. They didn't talk like this In fact- she never called him. Even after she'd dropped her Mother off at home she'd just sent him a text. but she knew he'd want to know. "I checked the logs."  She said, sniffling, "When I looked into the camera- I saw them. Our own weapons. in their hands."  
+ "Bebo, les vendimos".  Elin estaba llorando.  Se sentó en su oficina y pudo oír a su hermano al otro lado de la línea.  Ellos no hablaban así. De hecho, ella nunca lo llamó.  Incluso después de dejar a su madre en casa, le envió un mensaje de texto.  pero ella sabía que él querría saber.  "Revisé los registros".  Ella dijo, sollozando: "Cuando miré a la cámara, los vi. Nuestras propias armas. En sus manos".
   
-"Calmate. Look I looked into it here as well. They have been buying for a while. Don't worry I set some guys up from WAP to guard the store. But honestly, every day the Mambas are stronger..." she could hear him thinking. She'd never approved of his Gangs, but now, well now she knew better. She knew what was hidden behind those gangs. It was all the same. Her company?  Same bullshit.  
+ "Cálmate. Mira, también investigué aquí. Han estado comprando por un tiempo. No te preocupes, puse a algunos tipos de WAP para vigilar la tienda. Pero, sinceramente, cada día las Mambas son más fuertes..." ella  podía oírlo pensar.  Ella nunca había aprobado sus pandillas, pero ahora, bueno, ahora lo sabía mejor.  Ella sabía lo que se escondía detrás de esas bandas.  Todo era lo mismo.  ¿Su empresa?  La misma mierda.
   
-Through her tears she prepared herself. She'd talked to Maggie and They'd come up with a plan. She'd gotten the number of a vendor- one of theirs. Together they'd pushed a proposal through. "Arasaka Community Restoration Project" the program aimed to invest in local communities. Investing in the community would let them sell weapons. And the first community they'd partnered with?  Market street.  
-
+ A través de sus lágrimas se preparó.  Había hablado con Maggie y se les había ocurrido un plan.  Había conseguido el número de un vendedor, uno de ellos.  Juntos habían impulsado una propuesta.  "Proyecto de restauración de la comunidad de Arasaka" el programa tenía como objetivo invertir en las comunidades locales.  Invertir en la comunidad les permitiría vender armas.  ¿Y la primera comunidad con la que se asociaron?  Calle del mercado.

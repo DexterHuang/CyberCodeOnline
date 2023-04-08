@@ -1,31 +1,31 @@
-#### N30N C1RCUS: Once Upon A Time In A Pachinko Palace  
+#### N30N C1RCUS: Érase una vez en un palacio de pachinko
   
-The door to _Pete's_ jangled as she hip bumped through it, Rena looking up from behind the counter.  
+ La puerta de _Pete's_ tintineó cuando ella golpeó la cadera contra ella, Rena miró hacia arriba desde detrás del mostrador.
   
-_"Hey, 's happening?"_  
-_"Not much, just the tall slab of misery at the end. Might get busier later though"_  
+ _“Oye, ¿está pasando?”_
+ _"No mucho, solo la losa alta de miseria al final. Aunque podría estar más ocupado más tarde"_
   
-She glanced down towards where the single customer was oblivious to anything other than the bells and flippers of their ancient and only pachinko table. Kinda cute. Rena was laughing at her:  
+ Miró hacia abajo, hacia donde el único cliente no prestaba atención a nada más que a las campanas y aletas de su antigua y única mesa de pachinko.  Un poco lindo.  Rena se estaba riendo de ella:
   
-_"Rule #1, do not do the clientele"_  
-_".. on the pachinko table"_ she chimed in with a grin. Rena picked up her stuff and swung out the door:  
-_"Outta here"_  
-_"Later"_  
+ _"Regla #1, no te hagas clientela"_
+ _".. sobre la mesa de pachinko"_ intervino con una sonrisa.  Rena recogió sus cosas y salió por la puerta:
+ _"Vete de aqui"_
+ _"Más tarde"_
   
-She curled up on the still warm chair with a latte and buried herself in Anna's so-complicated entanglements, glancing down every so often to check on their one customer. Moscow 1876 sounded pretty different to CCO - fur hats for one thing - the guy was actually pretty cute.  
+ Se acurrucó en la silla todavía caliente con un café con leche y se sumergió en los enredos tan complicados de Anna, mirando hacia abajo de vez en cuando para ver cómo estaba su único cliente.  Moscú 1876 sonaba bastante diferente a CCO - sombreros de piel para empezar - el tipo era bastante lindo.
   
-A cheerful whistle sounded from outside and she looked up as _cutie-at-the-end_ finished his game, picked up his jacket and headed out past her.  
+ Un silbido alegre sonó desde afuera y miró hacia arriba cuando _la-linda-al-final_ terminó su juego, recogió su chaqueta y pasó junto a ella.
   
-Best bright smile: _"Hey"_  
-Startled half-smile back: _"Hey"_  
+ Mejor sonrisa brillante: _"Hey"_
+ Sorprendida media sonrisa de vuelta: _"Oye"_
   
-Great. A whole conversation. From outside she heard:  
+ Excelente.  Toda una conversación.  Desde afuera escuchó:
   
-_"Spud!"_  
-_"Tripp"_  
+ _"¡Patata!"_
+ _"Tripp"_
   
-She half-listened as they moved away, rabbiting on about crits and BTC. Boy talk. 15 pages later she sighed, put the book down, because clearly Anna was not going to jump Alexei any time soon, and wandered down to reset the machine.  
+ Escuchó a medias mientras se alejaban, parloteando sobre críticos y BTC.  Charla de chicos.  15 páginas más tarde, suspiró, dejó el libro, porque claramente Anna no iba a saltar sobre Alexei en el corto plazo, y bajó para reiniciar la máquina.
   
-Out of habit she glanced at the score list. 'TRPPLHLX'. Dude seemed to be a bit shy around vowels and girls. And then narrowed her eyes at the actual score. Vowels or no vowels, the guy must have the reflexes of a cat. _"Bet I could make him purr like one too"_ she giggled.  
+ Por costumbre, miró la lista de puntuaciones.  'TRPPLHLX'.  Dude parecía ser un poco tímido con las vocales y las chicas.  Y luego entrecerró los ojos ante la partitura real.  Con o sin vocales, el tipo debe tener los reflejos de un gato.  _"Apuesto a que podría hacerlo ronronear como uno también"_ soltó una risita.
   
-She gave the machine a wipe and went back to snow falling in Moscow. Maybe he'd be back. Maybe he wouldn't.  
+ Le dio una limpieza a la máquina y volvió a la nieve que caía en Moscú.  Tal vez él estaría de vuelta.  Tal vez no lo haría.

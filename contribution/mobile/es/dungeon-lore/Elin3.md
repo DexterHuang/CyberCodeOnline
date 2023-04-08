@@ -1,31 +1,30 @@
-> ##30780108 Email Elin  
+> ##30780108 Correo electrónico Elin
   
-From: Elin Blackburn <eblackburm@arasaka.com>  
-Sent: Friday, January 8, 3078 2:35 PM  
-To: Abi Ross <aross@arasaka.com>  
-Subject: RE: Holiday Weekend  
+ De: Elin Blackburn <eblackburm@arasaka.com>
+ Enviado: viernes, 8 de enero, 3078 2:35 p. m.
+ Para: Abi Ross <aross@arasaka.com>
+ Asunto: RE: Fin de semana festivo
   
-Hey Abi, I am so sorry to bother you but I wanted to know if you could check why my time for the holidays wasn't approved?  
-I've been working nonstop and was hoping after these reports were in that I could take a few days. I know it's a busy season but I was hoping to check!  
+ Hola Abi, siento mucho molestarte, pero quería saber si puedes verificar por qué no se aprobó mi tiempo para las vacaciones.
+ He estado trabajando sin parar y esperaba que después de recibir estos informes pudiera tomarme unos días.  Sé que es una temporada alta, ¡pero esperaba comprobarlo!
   
-thanks,  
-Elin  
+ gracias,
+ elin
   
-____________________________________  
+ ____________________________________
   
-From:  Abi Ross <aross@arasaka.com>  
-Sent: Friday, January 8, 3078 2:37 PM  
-To: Elin Blackburn <eblackburm@arasaka.com>  
-Subject: RE: Holiday Weekend  
+ De: Abi Ross <aross@arasaka.com>
+ Enviado: viernes, 8 de enero de 3078 14:37
+ Para: Elin Blackburn <eblackburm@arasaka.com>
+ Asunto: RE: Fin de semana festivo
 
-Hello Elin,  
-As per our last email I regret to inform you that your time could not be approved. As for the reason your reports have been approved but are still in revision.  
-As you well understand this is a busy time and perhaps after your Year end review you'll have some time to spare for a visit.  
+ Hola Elin,
+ Según nuestro último correo electrónico, lamento informarle que su tiempo no pudo ser aprobado.  En cuanto a la razón por la cual sus informes han sido aprobados pero aún están en revisión.
+ Como usted bien entiende, este es un momento muy ocupado y tal vez después de su revisión de fin de año, tendrá algo de tiempo libre para una visita.
   
-I would like to remind you that the new Precision technology you are working on and reviewing is a top priority for Arasaka and cannot be left undone. You will have time once all this passes, as we all will.  
+ Me gustaría recordarles que la nueva tecnología de precisión en la que están trabajando y revisando es una prioridad principal para Arasaka y no se puede dejar de hacer.  Tendrás tiempo una vez que todo esto pase, como lo haremos todos.
   
-If you would like I can provide you with the name of a good Doctor that can provide you with performance enhancers for the long nights ahead.  
+ Si lo desea, puedo proporcionarle el nombre de un buen médico que pueda proporcionarle potenciadores del rendimiento para las largas noches que se avecinan.
   
-Best,  
-Abi  
-
+ Mejor,
+ Abí

@@ -1,19 +1,19 @@
-#### N30N C1RCUS: Difficult Conversations
+#### N30N C1RCUS: Conversaciones difíciles
 
-卡倫 was staring silently out the window when Sergei walked into the conference room. This was going to be awkward - another shipment had gone missing yesterday and he had no answers for her.
+ 卡倫 estaba mirando en silencio por la ventana cuando Sergei entró en la sala de conferencias.  Esto iba a ser incómodo: otro envío había desaparecido ayer y él no tenía respuestas para ella.
 
-_"Sergei, what the hell is happening in my city?"_ she asked, without turning.
+ _"Sergei, ¿qué diablos está pasando en mi ciudad?"_ preguntó ella, sin volverse.
 
-_"This new group is proving difficult Madame. Their opsec is good. Very good. All we have is a name. SirLemon. Just that, nothing more and it cost us Vlad. He was dropped off a trawler and unfortunately the propeller was turning at the time."_  
+ _"Este nuevo grupo está resultando difícil, señora. Su opsec es bueno. Muy bueno. Todo lo que tenemos es un nombre. SirLemon. Solo eso, nada más y nos costó a Vlad. Lo dejaron caer de un arrastrero y desafortunadamente la hélice estaba girando.  En el momento."_
 
-_"We got his foot back this morning"_ he added, gesturing to the carrier bag he had placed on the conference table.
+ _“Recuperamos su pie esta mañana”_ agregó, señalando la bolsa de transporte que había colocado sobre la mesa de conferencias.
 
-She looked at him appraisingly for several moments, considering.
+ Ella lo miró evaluativamente por varios momentos, considerando.
 
-_"He was your ami, oui? Bien! Sergei, I should like to have a talk with this .. Citron person. Perhaps it will be more .. fruitful than the other conversation. The one with Le Escargot."_
+ _"Era tu ami, ¿oui? ¡Bien! Sergei, me gustaría tener una charla con este .. Citron. Tal vez sea más.. fructífera que la otra conversación. La de Le Escargot."_
 
-Sergei winced, remembering. That had been a **very** expensive conversation! They'd had to replace the entire carpet for one thing. And redecorate.
+ Sergei hizo una mueca, recordando.  ¡Esa había sido una conversación **muy** costosa!  Tuvieron que reemplazar toda la alfombra por una cosa.  Y redecorar.
 
-_"And after the conversation, perhaps you can honour Vlad's memory? Creatively?"_
+ _"Y después de la conversación, ¿quizás puedas honrar la memoria de Vlad? ¿Creativamente?"_
 
-He **liked** working for 卡倫!
+ ¡Le **gustaba** trabajar para 卡倫!

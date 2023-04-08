@@ -1,4 +1,4 @@
->[Parte 1 de 3 de 10\HACK series]
+A>[Parte 1 de 3 de 10\HACK series]
 
 Diez pequeños hackers merodeando en linea;
 
