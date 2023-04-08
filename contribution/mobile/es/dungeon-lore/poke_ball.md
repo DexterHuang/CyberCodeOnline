@@ -1,6 +1,5 @@
->A small glint in the room catches your eye. You get closer to see what it is.  
+>Un pequeño destello en la habitación te llama la atención.  Te acercas para ver qué es.
   
->A circular device. Perfectly round, fits in the palm of your hand like a glove. You wonder how this ended up in the middle of nowhere. You look at the ball in your hand. Some kind of button in the middle of the device. You click it. Nothing happens. The button seems to be jammed or something. The device itself is very rusted, with barely a hint of red and white showing. It's lightweight and hollow, almost as if it was meant to transport something. Small, of course. You tossed the ball at the wall to be silly, hoping something would pop out. You were soundly met with disappointment. It fell back on the ground after hitting the wall with a "tink" sound.  
+ >Un dispositivo circular.  Perfectamente redondo, cabe en la palma de la mano como un guante.  Te preguntas cómo terminó esto en medio de la nada.  Miras la pelota en tu mano.  Una especie de botón en el medio del dispositivo.  Haz clic en él.  No pasa nada.  El botón parece estar atascado o algo así.  El dispositivo en sí está muy oxidado, con apenas un toque de rojo y blanco.  Es ligero y hueco, casi como si estuviera destinado a transportar algo.  Pequeño, por supuesto.  Arrojaste la pelota a la pared para hacer el tonto, con la esperanza de que algo saliera.  Fuiste profundamente decepcionado.  Cayó al suelo después de golpear la pared con un sonido de "tink".
   
->You leave the ball where it fell. Leaving it for the next person to be met with the same disappointment you found yourself in.  
-
+ >Dejas la pelota donde cayó.  Dejándolo para que la próxima persona se encuentre con la misma decepción en la que te encontraste.
