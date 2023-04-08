@@ -1,13 +1,13 @@
->A datacube. It looks to be a personal aetherlog.
-***
-March 20, 2069 1:33AM
+>Un cubo de datos.  Parece ser un aetherlog personal.
+ ***
+ 20 de marzo de 2069 1:33 a. m.
 
-*I don't know what to do about blue. I'm not even sure why I feel this way about him...I mean I don't even know his real name. Of course it's safer that way when you go dark. Rule #1: Never give out your guvvy to anyone.*
+ * No sé qué hacer con el azul.  Ni siquiera estoy seguro de por qué me siento así por él... Quiero decir, ni siquiera sé su nombre real.  Por supuesto, es más seguro de esa manera cuando oscurece.  Regla n.º 1: Nunca le cuentes tu guvvy a nadie.*
 
-*So am I just supposed to call him blue for the rest of his life even after we get marr...Wait, what's wrong with me?? I have a crush on a guy I've met in person like one time. And if we're going to be working together, I need to get these thoughts out of my head because you can't afford to be distracted on the job.*
+ * Entonces, ¿se supone que debo llamarlo azul por el resto de su vida, incluso después de que nos casemos ... Espera, ¿qué me pasa?  Estoy enamorada de un chico que conocí en persona como una vez.  Y si vamos a trabajar juntos, necesito quitarme estos pensamientos de la cabeza porque no puedes permitirte distraerte en el trabajo.*
 
-*I've only been running dark for a couple years now, but I know enough not to let my feelings get in the way. That's how people get hurt.*
+ * Solo me he estado quedando sin luz durante un par de años, pero sé lo suficiente como para no dejar que mis sentimientos se interpongan en el camino.  Así es como la gente se lastima.*
 
-*Anyway, it's just a crush so I'm sure I'll be over it by next week. But those silver eyes and dark hair are so ethereal...*
-***
-`<d4rkrunn3rz_002/>`
+ * De todos modos, es solo un flechazo, así que estoy seguro de que lo superaré la próxima semana.  Pero esos ojos plateados y cabello oscuro son tan etéreos...*
+ ***
+ `<d4rkrunn3rz_002/>`
