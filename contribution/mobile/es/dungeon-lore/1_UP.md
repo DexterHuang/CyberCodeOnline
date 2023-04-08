@@ -1,5 +1,5 @@
->Ducking around a rusty door, a patch of moldy vegetation grabs hold of your natural curiosity. Before long, you're kneeling down next to it as if your legs had moved on their own.  
-  
->A handful of dried mushrooms. Very dried, to be specific. The top of these mushrooms are covered green with dots of whites. At least, it WAS green and white. Now it's more grey and the white is not even noticeable. You take a closer look. You sniff. Doesn't smell like anything. You squint closer. Is that a face? No, you assure yourself. You are just tired from killing a room full of monsters. You are very tempted to swallow these whole. You shake your head. In another life, maybe.  
-  
->You put the handful of mushrooms back on the ground, kind of. You tuck them in a dark corner, just in case you change your mind about eating them.  
+>Agachado cerca de una puerta oxidada, un pedazo de vegetación mohosa atrae tu curiosidad natural. En poco tiempo, estás arrodillado junto a el como si tus piernas se hubieran movido por su cuenta.
+
+>Un montón de hongos secos. Muy secos, para ser especifico. La parte superior de esos hongos está cubierta de verde con puntos blancos. Al menos, ERA verde y blanco. Ahora es más gris y el blanco ya no se nota. Miras más de cerca. Lo hueles. No huele a nada. Miras más de cerca. ¿Tiene un rostro? No, te aseguras. Sólo estás cansado de limpiar una habitación llena de monstruos. Te ves muy tentado a comértelos todos. Niegas con la cabeza. En otra vida, tal vez.
+
+>Pones el montón de hongos en el suelo, más o menos. Los pones en un rincón oscuro, en caso de que cambies de opinión sobre comértelos.
