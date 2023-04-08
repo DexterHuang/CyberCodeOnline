@@ -27,6 +27,10 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 
 ## Updates
+### 2023/04/08
+- `SLANC Connector` is now available oon Arasaka Unit Exchange
+- Multiple bug fixes for the new AI system
+
 ### 2023/04/07
 - Added `SLANC` AI, he is still under-development, this is part experiment with integrating the newest AI technology into the game and at same time to provide some entertainment value
 - `SLANC` will occationally make remarks on player's chat message
