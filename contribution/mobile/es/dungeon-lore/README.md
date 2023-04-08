@@ -32,4 +32,4 @@
  - También puedes agregar libremente a la wiki para ayudar a desarrollar el mundo del juego.  Por ejemplo:
      - Su nota puede mencionar el nombre de una empresa, y usted (y otros) pueden usar el wiki para contribuir con información más detallada sobre la historia, las actividades, etc. de la empresa.
      - De esa manera, las notas pueden ser breves, pero todavía hay una manera para que los lectores obtengan más información.
- - Para obtener ayuda con Wiki, o si desea ser parte de un grupo de escritores de historia que trabajan juntos, envíe un [mensaje en el juego a Kimi Leta] (https://cybercodeonline.com/player?playerName=Kimi%  20Leta)
+ - Para obtener ayuda con Wiki, o si desea ser parte de un grupo de escritores de historia que trabajan juntos, envíe un [mensaje en el juego a Kimi Leta] (https://cybercodeonline.com/player?playerName=Kimi%20Leta)
