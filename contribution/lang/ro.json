@@ -600,13 +600,13 @@
  	 	 	 	 	"eng": "Auto Scrap"
  	 	 	 	}
  	 	 	},
- 	 	 	"equipped": {
- 	 	 	 	"trans": "Echipat",
- 	 	 	 	"eng": "Equipped"
- 	 	 	},
  	 	 	"inventory": {
  	 	 	 	"trans": "Inventar",
  	 	 	 	"eng": "Inventory"
+ 	 	 	},
+ 	 	 	"equipped": {
+ 	 	 	 	"trans": "Echipat",
+ 	 	 	 	"eng": "Equipped"
  	 	 	},
  	 	 	"itemInbox": {
  	 	 	 	"trans": "ITEJE PVIC.",
@@ -622,30 +622,12 @@
  	 	 	 	"title": {
  	 	 	 	 	"trans": "Creați Lore",
  	 	 	 	 	"eng": "Create Lore"
- 	 	 	 	},
- 	 	 	 	"description": {
- 	 	 	 	 	"trans": "Nu există nici o lore comunitară pentru acest articol, fi prima care a creat unul pentru el.",
- 	 	 	 	 	"eng": "There is no community lore for this item yet, be the first to create one for it."
  	 	 	 	}
  	 	 	},
  	 	 	"openButton": {
  	 	 	 	"title": {
  	 	 	 	 	"trans": "Lore de comunitate",
  	 	 	 	 	"eng": "Community Lore"
- 	 	 	 	},
- 	 	 	 	"description": {
- 	 	 	 	 	"trans": "Deschideți Lore Community pentru acest articol",
- 	 	 	 	 	"eng": "Open the community lore for this item"
- 	 	 	 	}
- 	 	 	},
- 	 	 	"editButton": {
- 	 	 	 	"title": {
- 	 	 	 	 	"trans": "Editați această lore",
- 	 	 	 	 	"eng": "edit this lore"
- 	 	 	 	},
- 	 	 	 	"description": {
- 	 	 	 	 	"trans": "Editați această lore comunitară",
- 	 	 	 	 	"eng": "Edit this community lore"
  	 	 	 	}
  	 	 	}
  	 	},
@@ -660,16 +642,46 @@
  	 	 	 	 	"eng": "This item is broken, bring it to Weapon Smith for repair"
  	 	 	 	}
  	 	 	},
+ 	 	 	"areaEffect": {
+ 	 	 	 	"trans": "[Aoe] Domeniul de efect, efectul acestui element va aplica aliaților în luptă cu dvs.",
+ 	 	 	 	"eng": "[AOE] Area of Effect, the effect of this item will apply allies in combat with you."
+ 	 	 	},
+ 	 	 	"lockModal": {
+ 	 	 	 	"unlock": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Deblocați articolul?",
+ 	 	 	 	 	 	"eng": "Unlock item?"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "Când articolul este deblocat, îl puteți tranzacționa sau restrânge.",
+ 	 	 	 	 	 	"eng": "When item is unlocked, you can trade or scrap it."
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"lock": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Element de blocare?",
+ 	 	 	 	 	 	"eng": "Lock item?"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "Puteți preveni răzuirea sau vânzarea accidentală a acestui articol blocându -l.",
+ 	 	 	 	 	 	"eng": "You can prevent accidentally scraping or selling this item by locking it."
+ 	 	 	 	 	}
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"locked": {
+ 	 	 	 	"trans": "Blocat",
+ 	 	 	 	"eng": "Locked"
+ 	 	 	},
+ 	 	 	"unlocked": {
+ 	 	 	 	"trans": "Deblocat",
+ 	 	 	 	"eng": "Unlocked"
+ 	 	 	},
  	 	 	"upgradeModuleTitle": {
  	 	 	 	"trans": "Upgrade-uri",
  	 	 	 	"eng": "upgrade slot ${index}",
  	 	 	 	"vars": [
  	 	 	 	 	"index"
  	 	 	 	]
- 	 	 	},
- 	 	 	"areaEffect": {
- 	 	 	 	"trans": "[Aoe] Domeniul de efect, efectul acestui element va aplica aliaților în luptă cu dvs.",
- 	 	 	 	"eng": "[AOE] Area of Effect, the effect of this item will apply allies in combat with you."
  	 	 	},
  	 	 	"equip": {
  	 	 	 	"trans": "Echipa",
@@ -686,18 +698,6 @@
  	 	 	"use": {
  	 	 	 	"trans": "Utilizare",
  	 	 	 	"eng": "Use"
- 	 	 	},
- 	 	 	"unlock": {
- 	 	 	 	"trans": "Deblocați",
- 	 	 	 	"eng": "Unlock"
- 	 	 	},
- 	 	 	"lock": {
- 	 	 	 	"trans": "Lacăt",
- 	 	 	 	"eng": "Lock"
- 	 	 	},
- 	 	 	"lockDescription": {
- 	 	 	 	"trans": "Previne vânzarea sau distrugerea accidentală",
- 	 	 	 	"eng": "Prevents accidental selling or destroying"
  	 	 	},
  	 	 	"cantPrintWhileInCombat": {
  	 	 	 	"vars": [
@@ -747,8 +747,14 @@
  	 	 	},
  	 	 	"factoryReset": {
  	 	 	 	"confirmation": {
- 	 	 	 	 	"trans": "Acest lucru va reseta toată calibrarea pe elementul dvs., de asemenea, o va face din nou tranzacțională. \n       Sunteți sigur că doriți să continuați?",
- 	 	 	 	 	"eng": "Doing this will reset all calibration on your item. It will also make it tradable again. \r\n      Are you sure you want to proceed?"
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Ești sigur că vrei să resetezi din fabrică?",
+ 	 	 	 	 	 	"eng": "Are you sure you want to factory reset?"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "Resetând acest articol, veți pierde toată calibrarea, cu toate acestea veți putea să -l tranzacționați cu alți jucători.",
+ 	 	 	 	 	 	"eng": "By resetting this item, you will lose all calibration, however you will be able to trade it to other players."
+ 	 	 	 	 	}
  	 	 	 	},
  	 	 	 	"trans": "Resetarea din fabrică",
  	 	 	 	"eng": "Factory Reset"
@@ -805,6 +811,10 @@
  	 	 	"travel": {
  	 	 	 	"trans": "Călătorește",
  	 	 	 	"eng": "Travel"
+ 	 	 	},
+ 	 	 	"hideLowerLevelTravels": {
+ 	 	 	 	"trans": "Ascunde niveluri mai mici",
+ 	 	 	 	"eng": "Hide lower levels"
  	 	 	}
  	 	},
  	 	"npc": {
@@ -818,6 +828,10 @@
  	 	 	 	],
  	 	 	 	"trans": "Reparați toate articolele (${repairFee} Bitcoin)",
  	 	 	 	"eng": " Repair all items for (${repairFee} Bitcoin)"
+ 	 	 	},
+ 	 	 	"notAvailable": {
+ 	 	 	 	"trans": "Acest NPC nu este în prezent disponibil",
+ 	 	 	 	"eng": "This NPC is currently not available"
  	 	 	},
  	 	 	"unlockContainerButton": {
  	 	 	 	"title": {
@@ -947,6 +961,10 @@
  	 	 	 	 	"trans": "Trimite un Cadou",
  	 	 	 	 	"eng": "Send Gift"
  	 	 	 	},
+ 	 	 	 	"trade": {
+ 	 	 	 	 	"trans": "Trimiteți cerere comercială",
+ 	 	 	 	 	"eng": "Send Trade Request"
+ 	 	 	 	},
  	 	 	 	"sendCosmetic": {
  	 	 	 	 	"trans": "Trimiteți cadou cosmetic",
  	 	 	 	 	"eng": "Send Cosmetic Gift"
@@ -970,6 +988,10 @@
  	 	 	 	"report": {
  	 	 	 	 	"trans": "RAPORT JUCĂTOR",
  	 	 	 	 	"eng": "Report Player"
+ 	 	 	 	},
+ 	 	 	 	"block": {
+ 	 	 	 	 	"trans": "Jucător de blocare",
+ 	 	 	 	 	"eng": "Block Player"
  	 	 	 	}
  	 	 	},
  	 	 	"equipped": {
@@ -1312,12 +1334,6 @@
  	 	 	 	"eng": "You have not unlocked this area yet"
  	 	 	}
  	 	},
- 	 	"tutorial": {
- 	 	 	"title": {
- 	 	 	 	"trans": "Tutorial",
- 	 	 	 	"eng": "Tutorial"
- 	 	 	}
- 	 	},
  	 	"machineCrafting": {
  	 	 	"titleBox": {
  	 	 	 	"tile": {
@@ -1388,6 +1404,10 @@
  	 	 	 	"trans": "efecte sonore",
  	 	 	 	"eng": "sound effects"
  	 	 	},
+ 	 	 	"enableInGameNotificationSound": {
+ 	 	 	 	"trans": "În notificarea jocului de joc sunet",
+ 	 	 	 	"eng": "In game notification sound"
+ 	 	 	},
  	 	 	"disableAttackBar": {
  	 	 	 	"title": {
  	 	 	 	 	"trans": "Dezactivați bara de sincronizare a atacului",
@@ -1408,6 +1428,16 @@
  	 	 	 	"title": {
  	 	 	 	 	"trans": "Dezactivați ecranul Victory",
  	 	 	 	 	"eng": "Disable Victory Screen"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"hideNPC": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Ascunde NPC",
+ 	 	 	 	 	"eng": "Hide NPC"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Ascundeți arta NPC pe ecran",
+ 	 	 	 	 	"eng": "Hide NPC art on screen"
  	 	 	 	}
  	 	 	},
  	 	 	"disableSkipRespectNoti": {
@@ -1433,10 +1463,6 @@
  	 	 	"receiveGlobalNotification": {
  	 	 	 	"trans": "Primește Notificări legate de Bonusuri Globale",
  	 	 	 	"eng": "Receive Global Buff Notification"
- 	 	 	},
- 	 	 	"forceMobileMode": {
- 	 	 	 	"trans": "Activați modul Cyberpunk.",
- 	 	 	 	"eng": "Enable Cyberpunk Mode"
  	 	 	},
  	 	 	"uiScale": {
  	 	 	 	"trans": "Scala ui",
@@ -2063,6 +2089,10 @@
  	 	 	 	"trans": "Aici puteți găsi toate legăturile noastre de socializare, veniți să vă conectați cu comunitatea uimitoare!",
  	 	 	 	"eng": "Here you can find all our social media links, come and connect with the amazing community!"
  	 	 	},
+ 	 	 	"credits": {
+ 	 	 	 	"trans": "credite",
+ 	 	 	 	"eng": "Credits"
+ 	 	 	},
  	 	 	"reportBug": {
  	 	 	 	"trans": "Raporteaza o eroare",
  	 	 	 	"eng": "Report a bug"
@@ -2160,6 +2190,14 @@
  	 	 	 	"trans": "Inregistreaza-te",
  	 	 	 	"eng": "Create Account"
  	 	 	},
+ 	 	 	"terms": {
+ 	 	 	 	"trans": "Prin crearea unui cont, sunteți de acord cu noi",
+ 	 	 	 	"eng": "By creating an account, you agree to our"
+ 	 	 	},
+ 	 	 	"termsLink": {
+ 	 	 	 	"trans": "Termenii serviciului",
+ 	 	 	 	"eng": "Terms of Service"
+ 	 	 	},
  	 	 	"loginPageButton": {
  	 	 	 	"trans": "Ai cont?",
  	 	 	 	"eng": "Have account?"
@@ -2193,10 +2231,6 @@
  	 	 	"tutorial": {
  	 	 	 	"trans": "tutorial",
  	 	 	 	"eng": "tutorial"
- 	 	 	},
- 	 	 	"credits": {
- 	 	 	 	"trans": "distribuția",
- 	 	 	 	"eng": "credits"
  	 	 	}
  	 	},
  	 	"porofile": {
@@ -2367,10 +2401,10 @@
  	 	 	"trans": "Liber",
  	 	 	"eng": "Free"
  	 	},
- 	 	"luna": {
+ 	 	"retro": {
  	 	 	"name": {
- 	 	 	 	"trans": "Cadou de lună neon",
- 	 	 	 	"eng": "Neon moon gift"
+ 	 	 	 	"trans": "Bundle Synthwave",
+ 	 	 	 	"eng": "Synthwave bundle"
  	 	 	}
  	 	},
  	 	"skip": {
@@ -2389,6 +2423,24 @@
  	 	 	"namev2": {
  	 	 	 	"trans": "Pachet de calibrare (100%)",
  	 	 	 	"eng": "Calibration bundle (100%)"
+ 	 	 	}
+ 	 	},
+ 	 	"bell1": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Container blocat legendar",
+ 	 	 	 	"eng": "Legendary locked container"
+ 	 	 	}
+ 	 	},
+ 	 	"bell2": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "caseta audio",
+ 	 	 	 	"eng": "cassette tape"
+ 	 	 	}
+ 	 	},
+ 	 	"bell3": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Pachet de echipamente",
+ 	 	 	 	"eng": "Equipment Package"
  	 	 	}
  	 	},
  	 	"cycle": {
@@ -2538,6 +2590,10 @@
  	 	 	"trans": "moderatori",
  	 	 	"eng": "moderators"
  	 	},
+ 	 	"accept": {
+ 	 	 	"trans": "Accept",
+ 	 	 	"eng": "Accept"
+ 	 	},
  	 	"craft": {
  	 	 	"trans": "Craft",
  	 	 	"eng": "craft"
@@ -2554,6 +2610,10 @@
  	 	 	"trans": "lipsește",
  	 	 	"eng": "missing"
  	 	},
+ 	 	"close": {
+ 	 	 	"trans": "închide",
+ 	 	 	"eng": "Close"
+ 	 	},
  	 	"dungeons": {
  	 	 	"trans": "Dungeons",
  	 	 	"eng": "dungeons"
@@ -2565,10 +2625,6 @@
  	 	"okay": {
  	 	 	"trans": "Bine",
  	 	 	"eng": "okay"
- 	 	},
- 	 	"close": {
- 	 	 	"trans": "închide",
- 	 	 	"eng": "Close"
  	 	},
  	 	"characterNameError": {
  	 	 	"invalidChar": {
@@ -2640,6 +2696,43 @@
  	 	"requireTopGang": {
  	 	 	"trans": "Necesită să fie în banda de top",
  	 	 	"eng": "Requires you to be in the Top 2 Gangs on the Occupation Leaderboard"
+ 	 	}
+ 	},
+ 	"inventory": {
+ 	 	"scrap": {
+ 	 	 	"trans": "resturi",
+ 	 	 	"eng": "scrap"
+ 	 	},
+ 	 	"ui": {
+ 	 	 	"useItem": {
+ 	 	 	 	"localFightCantUseItem": {
+ 	 	 	 	 	"trans": "Nu puteți utiliza elementul în timpul luptelor de stradă, elementele sunt disponibile numai în timpul Dungeons",
+ 	 	 	 	 	"eng": "You cannot use item during street fights, items are only available during dungeons"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"autoScrap": {
+ 	 	 	 	"noItem": {
+ 	 	 	 	 	"trans": "Nici un articol pentru resturile auto",
+ 	 	 	 	 	"eng": "No item to auto scrap"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"useItemWithExistingBuffModal": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Ești sigur că vrei să folosești acest articol?",
+ 	 	 	 	"eng": "Are you sure you want to use this item?"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"remaining"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Prin utilizarea acestui element, va reîmprospăta cronometrul de buff activ actual și va stiva efectul, dacă este cazul. (${remaining})",
+ 	 	 	 	"eng": "By using this item will refresh the timer of current active buff and stack the effect if applicable. (${remaining})"
+ 	 	 	},
+ 	 	 	"confirmText": {
+ 	 	 	 	"trans": "Utilizare",
+ 	 	 	 	"eng": "Use"
+ 	 	 	}
  	 	}
  	},
  	"misc,durability": {
@@ -2956,6 +3049,285 @@
  	 	 	}
  	 	}
  	},
+ 	"modal": {
+ 	 	"block": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Sigur doriți să blocați acest player?",
+ 	 	 	 	"eng": "Are you sure you want to block this player?"
+ 	 	 	}
+ 	 	},
+ 	 	"unitDonationConfirm": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Confirmați donarea",
+ 	 	 	 	"eng": "Confirm donation"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"amount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Acest lucru va dona unitatea ${amount} din contul dvs",
+ 	 	 	 	"eng": "This will donate ${amount} Unit from your account"
+ 	 	 	},
+ 	 	 	"notEnough": {
+ 	 	 	 	"trans": "Nu aveți suficientă unitate pentru a dona.",
+ 	 	 	 	"eng": "You do not have enough Unit to donate."
+ 	 	 	}
+ 	 	},
+ 	 	"chatMessage": {
+ 	 	 	"block": {
+ 	 	 	 	"trans": "bloc",
+ 	 	 	 	"eng": "Block"
+ 	 	 	},
+ 	 	 	"report": {
+ 	 	 	 	"trans": "Raport și blochează",
+ 	 	 	 	"eng": "Report and Block"
+ 	 	 	},
+ 	 	 	"openPlayerProfile": {
+ 	 	 	 	"trans": "Vezi profil",
+ 	 	 	 	"eng": "View Profile"
+ 	 	 	},
+ 	 	 	"openPlayerGang": {
+ 	 	 	 	"trans": "Vizualizați banda",
+ 	 	 	 	"eng": "View Gang"
+ 	 	 	},
+ 	 	 	"sendGift": {
+ 	 	 	 	"trans": "Trimite cadou",
+ 	 	 	 	"eng": "Send Gift"
+ 	 	 	},
+ 	 	 	"sendPrivateMessage": {
+ 	 	 	 	"trans": "Trimite un mesaj privat",
+ 	 	 	 	"eng": "Send Private Message"
+ 	 	 	},
+ 	 	 	"reply": {
+ 	 	 	 	"trans": "Răspuns",
+ 	 	 	 	"eng": "Reply"
+ 	 	 	}
+ 	 	},
+ 	 	"chatRuleModal": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Vă rugăm să acceptați regulile de mai jos înainte de a începe să discutați",
+ 	 	 	 	"eng": "Please agree to the rules below before start chatting"
+ 	 	 	},
+ 	 	 	"rule1": {
+ 	 	 	 	"trans": "Nici un mesaj spam sau lipsit de sens.",
+ 	 	 	 	"eng": "No spamming or meaningless message."
+ 	 	 	},
+ 	 	 	"rule2": {
+ 	 	 	 	"trans": "Nu există atacuri personale sau amenințări.",
+ 	 	 	 	"eng": "No personal attacks or threats."
+ 	 	 	},
+ 	 	 	"rule4": {
+ 	 	 	 	"trans": "Nici un limbaj inadecvat.",
+ 	 	 	 	"eng": "No inappropriate language."
+ 	 	 	},
+ 	 	 	"footer": {
+ 	 	 	 	"trans": "Veți fi dezactivați dacă încălcați oricare dintre reguli",
+ 	 	 	 	"eng": "You will be MUTED if you breach any of the rules"
+ 	 	 	},
+ 	 	 	"footer2": {
+ 	 	 	 	"trans": "Lista completă a regulilor poate fi găsită în profil> Tutoriale> Reguli",
+ 	 	 	 	"eng": "Full list of rules can be found in Profile > Tutorials > Rules"
+ 	 	 	},
+ 	 	 	"agreeToggle": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Înțeleg și nu voi spam sau nu voi sparge niciodata nici una din regulile de chat",
+ 	 	 	 	 	"eng": "I understand and I will never spam or break any of the chat rules"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"disagreeButtonButton": {
+ 	 	 	 	"trans": "Nu",
+ 	 	 	 	"eng": "No"
+ 	 	 	},
+ 	 	 	"confirmButton": {
+ 	 	 	 	"agreed": {
+ 	 	 	 	 	"trans": "Nu voi spam",
+ 	 	 	 	 	"eng": "I won't spam"
+ 	 	 	 	},
+ 	 	 	 	"notAgree": {
+ 	 	 	 	 	"trans": "Nu sunt de acord",
+ 	 	 	 	 	"eng": "I don't agree"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"contributionModal": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Jucătorul a contribuit la conținut",
+ 	 	 	 	"eng": "Player contributed content"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Puteți contribui la conținut, la fel și la mai multe și la editarea fișierelor de configurare din pagina noastră GitHub.",
+ 	 	 	 	"eng": "You can contribute to content like this and many more too by editing the config files in our GitHub page."
+ 	 	 	},
+ 	 	 	"confirm": {
+ 	 	 	 	"trans": "Du-te la Github",
+ 	 	 	 	"eng": "Go to GitHub"
+ 	 	 	},
+ 	 	 	"cancel": {
+ 	 	 	 	"trans": "Bine",
+ 	 	 	 	"eng": "ok"
+ 	 	 	}
+ 	 	},
+ 	 	"equipmentQuickMenu": {
+ 	 	 	"unequip": {
+ 	 	 	 	"trans": "neegal",
+ 	 	 	 	"eng": "unequip"
+ 	 	 	},
+ 	 	 	"viewDetails": {
+ 	 	 	 	"trans": "Vezi detalii",
+ 	 	 	 	"eng": "View Details"
+ 	 	 	},
+ 	 	 	"swap": {
+ 	 	 	 	"trans": "Înlocuiți echipamentul",
+ 	 	 	 	"eng": "replace equipment"
+ 	 	 	}
+ 	 	},
+ 	 	"languagePrompt": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Traducere neoficială",
+ 	 	 	 	"eng": "Unofficial translation"
+ 	 	 	},
+ 	 	 	"description1": {
+ 	 	 	 	"trans": "Deoarece acest joc este făcut de o singură persoană, este foarte dificil să traducă toate limbile corect, dar lucrez la adăugarea mai multor traduceri :)",
+ 	 	 	 	"eng": "As this game is made by only one person, it's very difficult translate all languages correctly, but I am working on adding more translations :)"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Puteți schimba limba oricând la pagina de setări",
+ 	 	 	 	"eng": "You can change language anytime at the settings page"
+ 	 	 	},
+ 	 	 	"dontShowAgain": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Nu arătați asta din nou",
+ 	 	 	 	 	"eng": "Don't show this again"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"goToSettings": {
+ 	 	 	 	"trans": "Schimbați în engleză",
+ 	 	 	 	"eng": "Change to English"
+ 	 	 	},
+ 	 	 	"confirmButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Am înțeles",
+ 	 	 	 	 	"eng": "I understand"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Utilizați traducerea neoficială",
+ 	 	 	 	 	"eng": "Use unofficial translation"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"playerSearch": {
+ 	 	 	"searchPlayerHint": {
+ 	 	 	 	"trans": "Introduceți numele jucătorului pentru a căuta",
+ 	 	 	 	"eng": "Enter player name to search"
+ 	 	 	},
+ 	 	 	"noPlayerFound": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"search"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Niciun jucător cu numit \"${search}\" găsit",
+ 	 	 	 	"eng": "No player with named \"${search}\" found"
+ 	 	 	}
+ 	 	},
+ 	 	"promotion": {
+ 	 	 	"dontShowAgain": {
+ 	 	 	 	"trans": "Nu arată această difuzare din nou",
+ 	 	 	 	"eng": "Don\\'t show this broadcast again"
+ 	 	 	}
+ 	 	},
+ 	 	"resultScreen": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Nivel în sus",
+ 	 	 	 	"eng": "Victory"
+ 	 	 	},
+ 	 	 	"subTitle": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"levelName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Felicitări, v-ați îndreptat până la ${levelName}!",
+ 	 	 	 	"eng": "Congratulation, you have leveled up your ${levelName}!"
+ 	 	 	},
+ 	 	 	"fromTo": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"from",
+ 	 	 	 	 	"to"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${from} => ${to}",
+ 	 	 	 	"eng": "${from} => ${to}"
+ 	 	 	}
+ 	 	},
+ 	 	"review": {
+ 	 	 	"title1": {
+ 	 	 	 	"trans": "Sunt Dexter, dezvoltatorul acestui joc și sper să cunosc experiența dvs. până acum.",
+ 	 	 	 	"eng": "I'm Dexter, the developer of this game, and I hope to know your experience so far."
+ 	 	 	},
+ 	 	 	"title2": {
+ 	 	 	 	"trans": "Câte stele ați da?",
+ 	 	 	 	"eng": "How many stars would you give?"
+ 	 	 	},
+ 	 	 	"badReview": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Îmi pare atât de rău, vă rog să-mi spuneți unde mă pot îmbunătăți",
+ 	 	 	 	 	"eng": "I am so sorry, please let me know where I can improve"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"goodReview": {
+ 	 	 	 	"title1": {
+ 	 	 	 	 	"trans": "Wow mulțumesc atât de mult! im onorat, vă rugăm să faceți oficial lăsându-i pe pagina noastră de magazin :)",
+ 	 	 	 	 	"eng": "Wow, thanks so much! I'm honored, please make it official by leaving them on our store page :)"
+ 	 	 	 	},
+ 	 	 	 	"title2": {
+ 	 	 	 	 	"trans": "Revizuirea dvs. bună mă va ajuta foarte mult și să aduc mai mulți jucători în comunitatea noastră!",
+ 	 	 	 	 	"eng": "Your good review is going to help me much and bring more players into our community!"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"dontAskMeAgain": {
+ 	 	 	 	"trans": "Nu mă întreba din nou",
+ 	 	 	 	"eng": "Don't ask me again"
+ 	 	 	},
+ 	 	 	"reviewLater": {
+ 	 	 	 	"trans": "Revizuiți mai târziu",
+ 	 	 	 	"eng": "review later"
+ 	 	 	}
+ 	 	},
+ 	 	"newbieTutorial": {
+ 	 	 	"welcomeMsg": {
+ 	 	 	 	"trans": "Bine ați venit la cel mai bun MMORPG",
+ 	 	 	 	"eng": "Welcome to the best Text MMORPG"
+ 	 	 	},
+ 	 	 	"noShowToggle": {
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Puteți vedea profilul complet Tutorial> fila Tutorial",
+ 	 	 	 	 	"eng": "You can see the full tutorial at Profile > Tutorial tab"
+ 	 	 	 	},
+ 	 	 	 	"label": {
+ 	 	 	 	 	"trans": "Nu arătați asta din nou",
+ 	 	 	 	 	"eng": "Don't show this again"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"closeButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Închide",
+ 	 	 	 	 	"eng": "Close"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"updateModal": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "A fost instalată o actualizare",
+ 	 	 	 	"eng": "An update has been installed"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Faceți clic pe Reîncărcare pentru a continua",
+ 	 	 	 	"eng": "Please click reload to continue"
+ 	 	 	},
+ 	 	 	"reloadButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Reîncărcați",
+ 	 	 	 	 	"eng": "Reload"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	}
+ 	},
  	"time": {
  	 	"error": {
  	 	 	"systemTimeIncorrect": {
@@ -3174,6 +3546,18 @@
  	 	 	 	"eng": "Reach level ${level} for special gifts!"
  	 	 	}
  	 	},
+ 	 	"tutorial": {
+ 	 	 	"trans": "Pagina tutorialului",
+ 	 	 	"eng": "Tutorial Page",
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Puteți arunca o privire la pagina noastră de tutorial comunitar pentru a afla mai multe despre joc. Există o mulțime de sfaturi și ghiduri care să vă ajute să începeți!",
+ 	 	 	 	"eng": "You can take a look at our community tutorial page to learn more about the game. there are tons of tips and guides to help you get started!"
+ 	 	 	},
+ 	 	 	"questProgress": {
+ 	 	 	 	"trans": "Tutorial Quest complet",
+ 	 	 	 	"eng": "Tutorial quest complete"
+ 	 	 	}
+ 	 	},
  	 	"questType": {
  	 	 	"normal": {
  	 	 	 	"name": {
@@ -3259,10 +3643,53 @@
  	 	 	"eng": "Are you sure you want to abandon this quest?"
  	 	}
  	},
+ 	"MutedScreen": {
+ 	 	"title": {
+ 	 	 	"trans": "Chat dezactivat",
+ 	 	 	"eng": "Chat Disabled"
+ 	 	},
+ 	 	"description1": {
+ 	 	 	"trans": "Ne pare rău că s -a întâmplat acest lucru, vă rugăm să înțelegeți că suntem obligați să menținem un mediu sigur pentru toți jucătorii și să ne asigurăm că toată lumea poate juca jocul într -un mediu plăcut. De aceea trebuie să mutăm atunci când este nevoie. Vă rugăm să citiți regulile noastre de chat din linkul de mai jos pentru informații complete",
+ 	 	 	"eng": "We are very sorry this happened, please understand we are required to maintain a safe environment for all players and ensure that everyone can play the game in a pleasant environment. Thats why we have to mute when it is needed. please do read our chat rules from the link below for full information"
+ 	 	},
+ 	 	"description2": {
+ 	 	 	"trans": "Dacă credeți că a fost o neînțelegere, vă rugăm să contactați moderatorul prin intermediul canalului nostru Discord legat mai jos.",
+ 	 	 	"eng": "If you believe it was a misunderstanding, please contact the moderator via our discord channel linked below."
+ 	 	},
+ 	 	"description3": {
+ 	 	 	"trans": "Dacă doriți să raportați un moderator pentru abuz sau conduită incorectă, puteți contacta Dexter (dezvoltatorul acestei aplicații) prin formularul de recurs de mai jos",
+ 	 	 	"eng": "If you would like to report a moderator for abuse or misconduct, you may reach out to Dexter (the developer of this app) via the appeal form below"
+ 	 	},
+ 	 	"description4": {
+ 	 	 	"trans": "În mod alternativ, puteți contacta și dezvoltatorul prin e -mail la ching.huang.dexter@gmail.com",
+ 	 	 	"eng": "Alternatively, you may also contact the developer via email at ching.huang.dexter@gmail.com"
+ 	 	},
+ 	 	"rules": {
+ 	 	 	"trans": "Reguli de chat",
+ 	 	 	"eng": "Chat Rules"
+ 	 	},
+ 	 	"appealForm": {
+ 	 	 	"trans": "Formular de apel",
+ 	 	 	"eng": "Appeal Form"
+ 	 	}
+ 	},
  	"priceTag": {
  	 	"free": {
  	 	 	"trans": "LIBER",
  	 	 	"eng": "FREE"
+ 	 	}
+ 	},
+ 	"itemList": {
+ 	 	"quickSelect": {
+ 	 	 	"trans": "Selectați rapid",
+ 	 	 	"eng": "Quick Select"
+ 	 	},
+ 	 	"quickSelectNoti": {
+ 	 	 	"vars": [
+ 	 	 	 	"count"
+ 	 	 	],
+ 	 	 	"trans": "Elemente selectate ${count}",
+ 	 	 	"eng": "Selected ${count} items"
  	 	}
  	},
  	"sessionClosedScreen": {
@@ -3348,6 +3775,182 @@
  	 	 	 	"trans": "start",
  	 	 	 	"eng": "start"
  	 	 	}
+ 	 	}
+ 	},
+ 	"trade": {
+ 	 	"moneySelectModal": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Cât de mult bitcoin ați dori să vă legați de comerț?",
+ 	 	 	 	"eng": "How much Bitcoin would you like to bind to the trade?"
+ 	 	 	}
+ 	 	},
+ 	 	"pendingAccept": {
+ 	 	 	"vars": [
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Aștept ${playerName} pentru a accepta comerțul ...",
+ 	 	 	"eng": "Waiting for ${playerName} to accept the trade..."
+ 	 	},
+ 	 	"lockedItem": {
+ 	 	 	"trans": "Ați blocat acest articol, deblocați -l mai întâi pentru a tranzacționa",
+ 	 	 	"eng": "You have locked this item, unlock it first to trade"
+ 	 	},
+ 	 	"selectAmount": {
+ 	 	 	"title": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Câți ${itemName} ați dori să tranzacționați?",
+ 	 	 	 	"eng": "How many ${itemName} would you like to trade?"
+ 	 	 	}
+ 	 	},
+ 	 	"leaveButton": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Anulare",
+ 	 	 	 	"eng": "Cancel"
+ 	 	 	}
+ 	 	},
+ 	 	"lockButton": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Lacăt",
+ 	 	 	 	"eng": "Lock"
+ 	 	 	}
+ 	 	},
+ 	 	"unlockButton": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Deblocare",
+ 	 	 	 	"eng": "Unlock"
+ 	 	 	}
+ 	 	},
+ 	 	"error": {
+ 	 	 	"tradeNoLongerExist": {
+ 	 	 	 	"trans": "Această sesiune comercială nu mai exista",
+ 	 	 	 	"eng": "this trade session no longer existed"
+ 	 	 	},
+ 	 	 	"cantStartTradeNotIdle": {
+ 	 	 	 	"trans": "Nu puteți începe un comerț atunci când nu sunteți inactiv",
+ 	 	 	 	"eng": "You can not start a trade when you are not idle"
+ 	 	 	},
+ 	 	 	"cantStartTradeLimited": {
+ 	 	 	 	"trans": "Nu puteți începe un comerț acum",
+ 	 	 	 	"eng": "You can not start a trade now"
+ 	 	 	},
+ 	 	 	"targetPlayerBlockedYou": {
+ 	 	 	 	"trans": "Nu puteți trimite invitații comerciale către acest jucător",
+ 	 	 	 	"eng": "You cannot send trade invite to this player"
+ 	 	 	},
+ 	 	 	"targetPlayerBlockedGifts": {
+ 	 	 	 	"trans": "Jucătorul țintă are cadou și comerț cu handicap",
+ 	 	 	 	"eng": "Target player has disabled gift and trade"
+ 	 	 	},
+ 	 	 	"targetPlayerLimited": {
+ 	 	 	 	"trans": "Jucătorul țintă nu poate participa la comerț",
+ 	 	 	 	"eng": "You cannot send trade invite to this player"
+ 	 	 	},
+ 	 	 	"tooFrequentlyInvite": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"minutes"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Nu puteți invita prea des, comerțul Invite Rololdown este ${minutes} minute",
+ 	 	 	 	"eng": "You cannot invite too frequently, trade invite cooldown is ${minutes} minutes"
+ 	 	 	},
+ 	 	 	"maxItemsPerPlayer": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"maxItems"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Nu puteți adăuga mai mult de ${maxItems} elemente pe jucător",
+ 	 	 	 	"eng": "You cannot add more than ${maxItems} items per player"
+ 	 	 	},
+ 	 	 	"notEnoughItems": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Nu aveți suficient ${itemName}",
+ 	 	 	 	"eng": "You don't have enough ${itemName}"
+ 	 	 	},
+ 	 	 	"otherPlayerNotEnoughItems": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName",
+ 	 	 	 	 	"playerName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${playerName} nu are suficient ${itemName}",
+ 	 	 	 	"eng": "${playerName} doesn't have enough ${itemName}"
+ 	 	 	},
+ 	 	 	"otherPlayerNotEnoughSpace": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName",
+ 	 	 	 	 	"playerName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${playerName} nu are suficient spațiu în inventarul lor pentru ${itemName}",
+ 	 	 	 	"eng": "${playerName} doesn't have enough space in their inventory for ${itemName} to complete the trade."
+ 	 	 	},
+ 	 	 	"youNotEnoughSpace": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Nu aveți suficient spațiu în inventarul dvs. pentru ${itemName} pentru a finaliza comerțul.",
+ 	 	 	 	"eng": "You don't have enough space in your inventory for ${itemName} to complete the trade."
+ 	 	 	},
+ 	 	 	"youNotEnoughItem": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Nu aveți suficient ${itemName} pentru a finaliza comerțul.",
+ 	 	 	 	"eng": "You don't have enough ${itemName} to complete the trade."
+ 	 	 	},
+ 	 	 	"otherPlayerNotEnoughItem": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName",
+ 	 	 	 	 	"playerName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${playerName} nu are suficient ${itemName} pentru a finaliza comerțul.",
+ 	 	 	 	"eng": "${playerName} doesn't have enough ${itemName} to complete the trade."
+ 	 	 	},
+ 	 	 	"youNotEnoughMoney": {
+ 	 	 	 	"trans": "Nu aveți destui bani pentru a finaliza comerțul.",
+ 	 	 	 	"eng": "You don't have enough money to complete the trade."
+ 	 	 	},
+ 	 	 	"otherPlayerNotEnoughMoney": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"playerName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${playerName} nu are suficienți bani pentru a finaliza comerțul.",
+ 	 	 	 	"eng": "${playerName} doesn't have enough money to complete the trade."
+ 	 	 	}
+ 	 	},
+ 	 	"success": {
+ 	 	 	"receivedItem": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName",
+ 	 	 	 	 	"playerName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Ați primit ${itemName} de la ${playerName}",
+ 	 	 	 	"eng": "You received ${itemName} from ${playerName}"
+ 	 	 	},
+ 	 	 	"sentItem": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName",
+ 	 	 	 	 	"playerName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Ați trimis ${itemName} la ${playerName}",
+ 	 	 	 	"eng": "You sent ${itemName} to ${playerName}"
+ 	 	 	}
+ 	 	},
+ 	 	"moneyReceived": {
+ 	 	 	"vars": [
+ 	 	 	 	"money",
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Ați primit ${money} btc de la ${playerName}",
+ 	 	 	"eng": "You received ${money} BTC from ${playerName}"
+ 	 	},
+ 	 	"moneySent": {
+ 	 	 	"vars": [
+ 	 	 	 	"money",
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Ați trimis ${money} btc la ${playerName}",
+ 	 	 	"eng": "You sent ${money} BTC to ${playerName}"
  	 	}
  	},
  	"tutorial": {
@@ -3613,6 +4216,10 @@
  	 	"donation15": {
  	 	 	"trans": "Prestigiu",
  	 	 	"eng": "Prestige"
+ 	 	},
+ 	 	"donation16": {
+ 	 	 	"trans": "Retro Miami",
+ 	 	 	"eng": "Retro Miami"
  	 	},
  	 	"moderator": {
  	 	 	"trans": "Moderator",
@@ -4195,6 +4802,46 @@
  	 	 	 	 	"eng": "More coming in future update"
  	 	 	 	}
  	 	 	}
+ 	 	},
+ 	 	"donation16": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "Titlul donației „Retro Miami”",
+ 	 	 	 	 	"eng": "\"Retro Miami\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "Deblocați personalizarea imaginii de profil",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Synthwave Chat Frame (cu animație)",
+ 	 	 	 	 	"eng": "Synthwave chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Profil încadrat SynthWave (cu animație)",
+ 	 	 	 	 	"eng": "Synthwave Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "Deblocați bio personalizat",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Decorarea codurilor de bare pe profil",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "Personalizați motto -ul bandei",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Personalizați imaginea bandei",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Mai multe venind în viitoarea actualizare",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
  	 	}
  	},
  	"equipmentMarks": {
@@ -4261,6 +4908,14 @@
  	 	"backpack": {
  	 	 	"trans": "rucsac",
  	 	 	"eng": "backpack"
+ 	 	}
+ 	},
+ 	"itemFilterType": {
+ 	 	"shopSell": {
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Setați filtre pentru a selecta ce articole să vândă magazinului.",
+ 	 	 	 	"eng": "Set filters to select which items to sell to the shop."
+ 	 	 	}
  	 	}
  	},
  	"item": {
@@ -4616,6 +5271,26 @@
  	 	 	"description": {
  	 	 	 	"trans": "Piese uzate din tehnica medicală, acestea pot fi folosite pentru a crea produse vindecătoare, dacă știi cum să le fabrici.",
  	 	 	 	"eng": "Bits and pieces of used medical tech. This can be used to craft healing items if you understand how"
+ 	 	 	}
+ 	 	},
+ 	 	"medicalTechCluster": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Cluster de tehnologie medicală",
+ 	 	 	 	"eng": "Medical Tech Cluster"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Un grup de piese de tehnologie medicală. În acest compact din acesta este mai ușor de depozitat și de transportat",
+ 	 	 	 	"eng": "A cluster of medical tech parts. in this compact from it's easier to store and transport"
+ 	 	 	}
+ 	 	},
+ 	 	"cassetteTape": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Caseta audio",
+ 	 	 	 	"eng": "Cassette Tape"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Pop în această casetă și lăsați sunetele dulci ale retro synthwave să vă transporte într-o lume îmbibată de neon cu posibilități infinite. Cu acest impuls groovy, veți fi gata să vă ocupați de orice provocare pe care Cyberpunk Future îl are în magazin!",
+ 	 	 	 	"eng": "Pop in this cassette tape and let the sweet sounds of retro synthwave transport you to a neon-soaked world of infinite possibility. With this groovy boost, you'll be ready to take on any challenge the cyberpunk future has in store!"
  	 	 	}
  	 	},
  	 	"expMemory": {
@@ -5577,6 +6252,34 @@
  	 	 	 	"eng": "Luna"
  	 	 	}
  	 	},
+ 	 	"bellial": {
+ 	 	 	"defaultLines": {
+ 	 	 	 	"trans": [
+ 	 	 	 	 	"Life is tough, but you're tougher. Keep fighting.",
+ 	 	 	 	 	"Stay strong, stay punk, and stay alive.",
+ 	 	 	 	 	"Remember, your worth is not defined by your struggles.",
+ 	 	 	 	 	"Don't let the system bring you down, rise up and rebel.",
+ 	 	 	 	 	"Stay connected to your inner self, and disconnect from the noise.",
+ 	 	 	 	 	"Stay online, stay strong, and stay true to yourself."
+ 	 	 	 	],
+ 	 	 	 	"eng": [
+ 	 	 	 	 	"Life is tough, but you're tougher. Keep fighting.",
+ 	 	 	 	 	"Stay strong, stay punk, and stay alive.",
+ 	 	 	 	 	"Remember, your worth is not defined by your struggles.",
+ 	 	 	 	 	"Don't let the system bring you down, rise up and rebel.",
+ 	 	 	 	 	"Stay connected to your inner self, and disconnect from the noise.",
+ 	 	 	 	 	"Stay online, stay strong, and stay true to yourself."
+ 	 	 	 	]
+ 	 	 	},
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Alee",
+ 	 	 	 	"eng": "Alleyway"
+ 	 	 	},
+ 	 	 	"npcName": {
+ 	 	 	 	"trans": "Premium",
+ 	 	 	 	"eng": "B3llial"
+ 	 	 	}
+ 	 	},
  	 	"recycleMachine": {
  	 	 	"name": {
  	 	 	 	"trans": "Reciclator Automatic",
@@ -5727,6 +6430,12 @@
  	 	 	"description": {
  	 	 	 	"trans": "Lansați un atac colaborat în spațiul cibernetic care vizează cetatea de date Shangri-la \r\n         Dacă atacat ar fi reușit să forțeze cetatea de date să transmită exploatări tuturor utilizatorilor conectați cibernetic",
  	 	 	 	"eng": "Launch a collaborative attack in cyberspace targeting the Shangri-La Data Fortress.\r\nIf the attack succeeds, it’s possible to force the Data Fortress to transmit exploits to all cybernetically connected users."
+ 	 	 	}
+ 	 	},
+ 	 	"trade": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Comerț",
+ 	 	 	 	"eng": "Trade"
  	 	 	}
  	 	},
  	 	"autoFarm": {
@@ -5881,6 +6590,16 @@
  	 	 	 	 	"trans": "Plasați un element pe piață",
  	 	 	 	 	"eng": "Place an item on the market"
  	 	 	 	}
+ 	 	 	},
+ 	 	 	"tutorial": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "Pagina de tutorial deschisă",
+ 	 	 	 	 	"eng": "Open tutorial Page"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Pagina de tutorial este în fila Profil -> Tutorial",
+ 	 	 	 	 	"eng": "Tutorial Page is in profile tab -> Tutorial"
+ 	 	 	 	}
  	 	 	}
  	 	}
  	},
@@ -5969,6 +6688,12 @@
  	 	 	"name": {
  	 	 	 	"trans": "Plic roșu",
  	 	 	 	"eng": "Red Envelope"
+ 	 	 	}
+ 	 	},
+ 	 	"medicalTechCluster": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Cluster de tehnologie medicală",
+ 	 	 	 	"eng": "Medical Tech Cluster"
  	 	 	}
  	 	},
  	 	"ammo1": {
@@ -6072,12 +6797,6 @@
  	 	"flashGrenade": {
  	 	 	"trans": "Grenade flash",
  	 	 	"eng": "Flash Grenade"
- 	 	}
- 	},
- 	"error": {
- 	 	"10_aborted": {
- 	 	 	"trans": "A întâlnit o eroare din partea serverului, dacă vedeți acest mesaj, vă rugăm să așteptați 2 minute înainte de a face orice altă acțiune pentru a vă asigura că nu va continua.",
- 	 	 	"eng": "Encountered an server side error, if you see this message, please wait for 2 minutes before making any other action to ensure it will not keep happening."
  	 	}
  	},
  	"combat": {
@@ -6291,58 +7010,6 @@
  	 	"cleared": {
  	 	 	"trans": "Temnița a fost curățată!",
  	 	 	"eng": "Dungeon cleared!"
- 	 	}
- 	},
- 	"inventory": {
- 	 	"ui": {
- 	 	 	"useItem": {
- 	 	 	 	"localFightCantUseItem": {
- 	 	 	 	 	"trans": "Nu puteți utiliza elementul în timpul luptelor de stradă, elementele sunt disponibile numai în timpul Dungeons",
- 	 	 	 	 	"eng": "You cannot use item during street fights, items are only available during dungeons"
- 	 	 	 	}
- 	 	 	},
- 	 	 	"autoScrap": {
- 	 	 	 	"noItem": {
- 	 	 	 	 	"trans": "Nici un articol pentru resturile auto",
- 	 	 	 	 	"eng": "No item to auto scrap"
- 	 	 	 	}
- 	 	 	}
- 	 	},
- 	 	"useItemWithExistingBuffModal": {
- 	 	 	"title": {
- 	 	 	 	"trans": "Ești sigur că vrei să folosești acest articol?",
- 	 	 	 	"eng": "Are you sure you want to use this item?"
- 	 	 	},
- 	 	 	"description": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"remaining"
- 	 	 	 	],
- 	 	 	 	"trans": "Prin utilizarea acestui element, va reîmprospăta cronometrul de buff activ actual și va stiva efectul, dacă este cazul. (${remaining})",
- 	 	 	 	"eng": "By using this item will refresh the timer of current active buff and stack the effect if applicable. (${remaining})"
- 	 	 	},
- 	 	 	"confirmText": {
- 	 	 	 	"trans": "Utilizare",
- 	 	 	 	"eng": "Use"
- 	 	 	}
- 	 	},
- 	 	"error": {
- 	 	 	"maxStack": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"itemName",
- 	 	 	 	 	"maxStackSize",
- 	 	 	 	 	"newAmount"
- 	 	 	 	],
- 	 	 	 	"trans": "Depășiți suma maximă a articolului, ${itemName} are dimensiunea maximă a stivei de ${maxStackSize}, dar încercați să vă încadrați în ${newAmount}",
- 	 	 	 	"eng": "Exceed item max amount, ${itemName} has max stack size of ${maxStackSize}, but you are trying to fit in ${newAmount}"
- 	 	 	},
- 	 	 	"full": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"neededAmount",
- 	 	 	 	 	"size"
- 	 	 	 	],
- 	 	 	 	"trans": "Spațiu insuficient în inventar, necesită sloturi ${neededAmount}, dar aveți doar ${size}",
- 	 	 	 	"eng": "Insufficient space in inventory, requires ${neededAmount} slots, but you only have ${size}"
- 	 	 	}
  	 	}
  	},
  	"tier": {
@@ -6668,289 +7335,6 @@
  	 	 	}
  	 	}
  	},
- 	"modal": {
- 	 	"unitDonationConfirm": {
- 	 	 	"title": {
- 	 	 	 	"trans": "Confirmați donarea",
- 	 	 	 	"eng": "Confirm donation"
- 	 	 	},
- 	 	 	"description": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"amount"
- 	 	 	 	],
- 	 	 	 	"trans": "Acest lucru va dona unitatea ${amount} din contul dvs",
- 	 	 	 	"eng": "This will donate ${amount} Unit from your account"
- 	 	 	},
- 	 	 	"notEnough": {
- 	 	 	 	"trans": "Nu aveți suficientă unitate pentru a dona.",
- 	 	 	 	"eng": "You do not have enough Unit to donate."
- 	 	 	}
- 	 	},
- 	 	"chatMessage": {
- 	 	 	"block": {
- 	 	 	 	"trans": "bloc",
- 	 	 	 	"eng": "Block"
- 	 	 	},
- 	 	 	"report": {
- 	 	 	 	"trans": "Raport și blochează",
- 	 	 	 	"eng": "Report and Block"
- 	 	 	},
- 	 	 	"openPlayerProfile": {
- 	 	 	 	"trans": "Vezi profil",
- 	 	 	 	"eng": "View Profile"
- 	 	 	},
- 	 	 	"openPlayerGang": {
- 	 	 	 	"trans": "Vizualizați banda",
- 	 	 	 	"eng": "View Gang"
- 	 	 	},
- 	 	 	"sendGift": {
- 	 	 	 	"trans": "Trimite cadou",
- 	 	 	 	"eng": "Send Gift"
- 	 	 	},
- 	 	 	"sendPrivateMessage": {
- 	 	 	 	"trans": "Trimite un mesaj privat",
- 	 	 	 	"eng": "Send Private Message"
- 	 	 	},
- 	 	 	"reply": {
- 	 	 	 	"trans": "Răspuns",
- 	 	 	 	"eng": "Reply"
- 	 	 	}
- 	 	},
- 	 	"block": {
- 	 	 	"title": {
- 	 	 	 	"trans": "Sigur doriți să blocați acest player?",
- 	 	 	 	"eng": "Are you sure you want to block this player?"
- 	 	 	}
- 	 	},
- 	 	"chatRuleModal": {
- 	 	 	"title": {
- 	 	 	 	"trans": "Vă rugăm să acceptați regulile de mai jos înainte de a începe să discutați",
- 	 	 	 	"eng": "Please agree to the rules below before start chatting"
- 	 	 	},
- 	 	 	"rule1": {
- 	 	 	 	"trans": "Nici un mesaj spam sau lipsit de sens.",
- 	 	 	 	"eng": "No spamming or meaningless message."
- 	 	 	},
- 	 	 	"rule2": {
- 	 	 	 	"trans": "Nu există atacuri personale sau amenințări.",
- 	 	 	 	"eng": "No personal attacks or threats."
- 	 	 	},
- 	 	 	"rule4": {
- 	 	 	 	"trans": "Nici un limbaj inadecvat.",
- 	 	 	 	"eng": "No inappropriate language."
- 	 	 	},
- 	 	 	"footer": {
- 	 	 	 	"trans": "Veți fi dezactivați dacă încălcați oricare dintre reguli",
- 	 	 	 	"eng": "You will be MUTED if you breach any of the rules"
- 	 	 	},
- 	 	 	"footer2": {
- 	 	 	 	"trans": "Lista completă a regulilor poate fi găsită în profil> Tutoriale> Reguli",
- 	 	 	 	"eng": "Full list of rules can be found in Profile > Tutorials > Rules"
- 	 	 	},
- 	 	 	"agreeToggle": {
- 	 	 	 	"title": {
- 	 	 	 	 	"trans": "Înțeleg și nu voi spam sau nu voi sparge niciodata nici una din regulile de chat",
- 	 	 	 	 	"eng": "I understand and I will never spam or break any of the chat rules"
- 	 	 	 	}
- 	 	 	},
- 	 	 	"disagreeButtonButton": {
- 	 	 	 	"trans": "Nu",
- 	 	 	 	"eng": "No"
- 	 	 	},
- 	 	 	"confirmButton": {
- 	 	 	 	"agreed": {
- 	 	 	 	 	"trans": "Nu voi spam",
- 	 	 	 	 	"eng": "I won't spam"
- 	 	 	 	},
- 	 	 	 	"notAgree": {
- 	 	 	 	 	"trans": "Nu sunt de acord",
- 	 	 	 	 	"eng": "I don't agree"
- 	 	 	 	}
- 	 	 	}
- 	 	},
- 	 	"contributionModal": {
- 	 	 	"title": {
- 	 	 	 	"trans": "Jucătorul a contribuit la conținut",
- 	 	 	 	"eng": "Player contributed content"
- 	 	 	},
- 	 	 	"description": {
- 	 	 	 	"trans": "Puteți contribui la conținut, la fel și la mai multe și la editarea fișierelor de configurare din pagina noastră GitHub.",
- 	 	 	 	"eng": "You can contribute to content like this and many more too by editing the config files in our GitHub page."
- 	 	 	},
- 	 	 	"confirm": {
- 	 	 	 	"trans": "Du-te la Github",
- 	 	 	 	"eng": "Go to GitHub"
- 	 	 	},
- 	 	 	"cancel": {
- 	 	 	 	"trans": "Bine",
- 	 	 	 	"eng": "ok"
- 	 	 	}
- 	 	},
- 	 	"equipmentQuickMenu": {
- 	 	 	"unequip": {
- 	 	 	 	"trans": "neegal",
- 	 	 	 	"eng": "unequip"
- 	 	 	},
- 	 	 	"viewDetails": {
- 	 	 	 	"trans": "Vezi detalii",
- 	 	 	 	"eng": "View Details"
- 	 	 	},
- 	 	 	"swap": {
- 	 	 	 	"trans": "Înlocuiți echipamentul",
- 	 	 	 	"eng": "replace equipment"
- 	 	 	}
- 	 	},
- 	 	"languagePrompt": {
- 	 	 	"title": {
- 	 	 	 	"trans": "Traducere neoficială",
- 	 	 	 	"eng": "Unofficial translation"
- 	 	 	},
- 	 	 	"description1": {
- 	 	 	 	"trans": "Deoarece acest joc este făcut de o singură persoană, este foarte dificil să traducă toate limbile corect, dar lucrez la adăugarea mai multor traduceri :)",
- 	 	 	 	"eng": "As this game is made by only one person, it's very difficult translate all languages correctly, but I am working on adding more translations :)"
- 	 	 	},
- 	 	 	"description": {
- 	 	 	 	"trans": "Puteți schimba limba oricând la pagina de setări",
- 	 	 	 	"eng": "You can change language anytime at the settings page"
- 	 	 	},
- 	 	 	"dontShowAgain": {
- 	 	 	 	"title": {
- 	 	 	 	 	"trans": "Nu arătați asta din nou",
- 	 	 	 	 	"eng": "Don't show this again"
- 	 	 	 	}
- 	 	 	},
- 	 	 	"goToSettings": {
- 	 	 	 	"trans": "Schimbați în engleză",
- 	 	 	 	"eng": "Change to English"
- 	 	 	},
- 	 	 	"confirmButton": {
- 	 	 	 	"title": {
- 	 	 	 	 	"trans": "Am înțeles",
- 	 	 	 	 	"eng": "I understand"
- 	 	 	 	},
- 	 	 	 	"description": {
- 	 	 	 	 	"trans": "Utilizați traducerea neoficială",
- 	 	 	 	 	"eng": "Use unofficial translation"
- 	 	 	 	}
- 	 	 	}
- 	 	},
- 	 	"playerSearch": {
- 	 	 	"searchPlayerHint": {
- 	 	 	 	"trans": "Introduceți numele jucătorului pentru a căuta",
- 	 	 	 	"eng": "Enter player name to search"
- 	 	 	},
- 	 	 	"noPlayerFound": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"search"
- 	 	 	 	],
- 	 	 	 	"trans": "Niciun jucător cu numit \"${search}\" găsit",
- 	 	 	 	"eng": "No player with named \"${search}\" found"
- 	 	 	}
- 	 	},
- 	 	"promotion": {
- 	 	 	"title": {
- 	 	 	 	"trans": "Difuzate primite",
- 	 	 	 	"eng": "Broadcast Received"
- 	 	 	},
- 	 	 	"dontShowAgain": {
- 	 	 	 	"trans": "Nu arată această difuzare din nou",
- 	 	 	 	"eng": "Don\\'t show this broadcast again"
- 	 	 	}
- 	 	},
- 	 	"resultScreen": {
- 	 	 	"title": {
- 	 	 	 	"trans": "Nivel în sus",
- 	 	 	 	"eng": "Victory"
- 	 	 	},
- 	 	 	"subTitle": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"levelName"
- 	 	 	 	],
- 	 	 	 	"trans": "Felicitări, v-ați îndreptat până la ${levelName}!",
- 	 	 	 	"eng": "Congratulation, you have leveled up your ${levelName}!"
- 	 	 	},
- 	 	 	"fromTo": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"from",
- 	 	 	 	 	"to"
- 	 	 	 	],
- 	 	 	 	"trans": "${from} => ${to}",
- 	 	 	 	"eng": "${from} => ${to}"
- 	 	 	}
- 	 	},
- 	 	"review": {
- 	 	 	"title1": {
- 	 	 	 	"trans": "Sunt Dexter, dezvoltatorul acestui joc și sper să cunosc experiența dvs. până acum.",
- 	 	 	 	"eng": "I'm Dexter, the developer of this game, and I hope to know your experience so far."
- 	 	 	},
- 	 	 	"title2": {
- 	 	 	 	"trans": "Câte stele ați da?",
- 	 	 	 	"eng": "How many stars would you give?"
- 	 	 	},
- 	 	 	"badReview": {
- 	 	 	 	"title": {
- 	 	 	 	 	"trans": "Îmi pare atât de rău, vă rog să-mi spuneți unde mă pot îmbunătăți",
- 	 	 	 	 	"eng": "I am so sorry, please let me know where I can improve"
- 	 	 	 	}
- 	 	 	},
- 	 	 	"goodReview": {
- 	 	 	 	"title1": {
- 	 	 	 	 	"trans": "Wow mulțumesc atât de mult! im onorat, vă rugăm să faceți oficial lăsându-i pe pagina noastră de magazin :)",
- 	 	 	 	 	"eng": "Wow, thanks so much! I'm honored, please make it official by leaving them on our store page :)"
- 	 	 	 	},
- 	 	 	 	"title2": {
- 	 	 	 	 	"trans": "Revizuirea dvs. bună mă va ajuta foarte mult și să aduc mai mulți jucători în comunitatea noastră!",
- 	 	 	 	 	"eng": "Your good review is going to help me much and bring more players into our community!"
- 	 	 	 	}
- 	 	 	},
- 	 	 	"dontAskMeAgain": {
- 	 	 	 	"trans": "Nu mă întreba din nou",
- 	 	 	 	"eng": "Don't ask me again"
- 	 	 	},
- 	 	 	"reviewLater": {
- 	 	 	 	"trans": "Revizuiți mai târziu",
- 	 	 	 	"eng": "review later"
- 	 	 	}
- 	 	},
- 	 	"newbieTutorial": {
- 	 	 	"welcomeMsg": {
- 	 	 	 	"trans": "Bine ați venit la cel mai bun MMORPG",
- 	 	 	 	"eng": "Welcome to the best Text MMORPG"
- 	 	 	},
- 	 	 	"noShowToggle": {
- 	 	 	 	"description": {
- 	 	 	 	 	"trans": "Puteți vedea profilul complet Tutorial> fila Tutorial",
- 	 	 	 	 	"eng": "You can see the full tutorial at Profile > Tutorial tab"
- 	 	 	 	},
- 	 	 	 	"label": {
- 	 	 	 	 	"trans": "Nu arătați asta din nou",
- 	 	 	 	 	"eng": "Don't show this again"
- 	 	 	 	}
- 	 	 	},
- 	 	 	"closeButton": {
- 	 	 	 	"title": {
- 	 	 	 	 	"trans": "Închide",
- 	 	 	 	 	"eng": "Close"
- 	 	 	 	}
- 	 	 	}
- 	 	},
- 	 	"updateModal": {
- 	 	 	"title": {
- 	 	 	 	"trans": "A fost instalată o actualizare",
- 	 	 	 	"eng": "An update has been installed"
- 	 	 	},
- 	 	 	"description": {
- 	 	 	 	"trans": "Faceți clic pe Reîncărcare pentru a continua",
- 	 	 	 	"eng": "Please click reload to continue"
- 	 	 	},
- 	 	 	"reloadButton": {
- 	 	 	 	"title": {
- 	 	 	 	 	"trans": "Reîncărcați",
- 	 	 	 	 	"eng": "Reload"
- 	 	 	 	}
- 	 	 	}
- 	 	}
- 	},
  	"chatExploit": {
  	 	"loveWords": {
  	 	 	"trans": [
@@ -7168,6 +7552,10 @@
  	 	 	},
  	 	 	"step1": {
  	 	 	 	"trans": "1. Puneți-vă prietenul să vă introduceți numele în joc în timpul creării personajelor",
+ 	 	 	 	"eng": "1. Have your friend enter your in-game name during character creation"
+ 	 	 	},
+ 	 	 	"step2": {
+ 	 	 	 	"trans": "2. făcut, asta e!",
  	 	 	 	"eng": "2. done, thats it!"
  	 	 	}
  	 	},
@@ -7177,7 +7565,35 @@
  	 	},
  	 	"footnote2": {
  	 	 	"trans": "*Veți primi orele în căsuța de e -mail a articolului dvs. atunci când prietenul dvs. atinge nivelul 20",
- 	 	 	"eng": "*You will receive the times in your item inbox when your friend reaches level 20"
+ 	 	 	"eng": "*You will receive the items in your item inbox when your friend reaches level 20"
+ 	 	}
+ 	},
+ 	"retroPromo": {
+ 	 	"title": {
+ 	 	 	"trans": "Actualizare SynthWave",
+ 	 	 	"eng": "Sythwave Update"
+ 	 	},
+ 	 	"desc1": {
+ 	 	 	"trans": "Adăugat clusterul de tehnologie medicală, poate fi realizat cu 1000 de piese de tehnologie medicală. Acest lucru poate fi utilizat pentru a stoca eficient o cantitate mare de piese de tehnologie medicală",
+ 	 	 	"eng": "Added Medical Tech Cluster, can be crafted with 1000 medical tech parts. this can be use to efficiently store large amount of medical tech parts"
+ 	 	},
+ 	 	"desc2": {
+ 	 	 	"vars": [
+ 	 	 	 	"shopName"
+ 	 	 	],
+ 	 	 	"trans": "Adăugat articol special „casetă”, atunci când este utilizat, veți primi buff -uri care vă oferă +20% daune și +20% apărare, singura modalitate de a obține acest articol este un pachet gratuit zilnic în ${shopName}",
+ 	 	 	"eng": "Added special item \"Cassette Tape\", when used you will receive buffs that gives you +20% damage and +20% defense, the only way to get this item is daily free bundle in ${shopName}"
+ 	 	},
+ 	 	"desc3": {
+ 	 	 	"trans": "Detaliile articolului reproiectate UI, acum evidențiază butonul primar și butoanele secundare au fost schimbate la dimensiuni mai mici",
+ 	 	 	"eng": "Item details UI redesigned, now it highlights primary button and secondary buttons has been changed to smaller size"
+ 	 	},
+ 	 	"desc4": {
+ 	 	 	"vars": [
+ 	 	 	 	"name"
+ 	 	 	],
+ 	 	 	"trans": "A adăugat un nou cadru de chat „${name}”",
+ 	 	 	"eng": "Added a new \"${name}\" donator chat frame"
  	 	}
  	},
  	"reportPlayerModal": {
@@ -7255,6 +7671,12 @@
  	 	 	 	}
  	 	 	}
  	 	},
+ 	 	"error": {
+ 	 	 	"inviteCooldown": {
+ 	 	 	 	"trans": "Ați invitat deja acest jucător recent",
+ 	 	 	 	"eng": "You have already invited this player recently"
+ 	 	 	}
+ 	 	},
  	 	"notInGang": {
  	 	 	"trans": "Nu ești într -o bandă",
  	 	 	"eng": "You are not in a gang"
@@ -7293,6 +7715,56 @@
  	 	 	}
  	 	}
  	},
+ 	"itemFilterSettingPage": {
+ 	 	"title": {
+ 	 	 	"trans": "Setare filtru",
+ 	 	 	"eng": "Filter Setting"
+ 	 	},
+ 	 	"selectEquipment": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Selectați echipament",
+ 	 	 	 	"eng": "Select Equipment"
+ 	 	 	}
+ 	 	},
+ 	 	"equipmentTier": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Tier de echipament",
+ 	 	 	 	"eng": "Equipment Tier"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Echipamente cu niveluri egale sau mai mici decât nivelul selectat selectat.",
+ 	 	 	 	"eng": "Equipments with tier equal or lower than the selected tier selected."
+ 	 	 	}
+ 	 	},
+ 	 	"selectCache": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Selectați Cache",
+ 	 	 	 	"eng": "Select Cache"
+ 	 	 	}
+ 	 	},
+ 	 	"cacheTier": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Cache Tier",
+ 	 	 	 	"eng": "Cache Tier"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Cache -uri cu nivelul egal sau mai mic decât nivelul selectat selectat.",
+ 	 	 	 	"eng": "Caches with tier equal or lower than the selected tier selected."
+ 	 	 	}
+ 	 	},
+ 	 	"selectUpgradeModule": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Selectați modul de actualizare",
+ 	 	 	 	"eng": "Select Upgrade Module"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeModuleTier": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Tier de actualizare a modulului de actualizare",
+ 	 	 	 	"eng": "Upgrade Module Tier"
+ 	 	 	}
+ 	 	}
+ 	},
  	"donationPage": {
  	 	"benefits": {
  	 	 	"trans": "beneficii",
@@ -7300,21 +7772,6 @@
  	 	},
  	 	"title": {
  	 	 	"trans": "TIME DE DONAȚIE",
- 	 	 	"eng": "Donation Tiers"
- 	 	},
- 	 	"monthlySubscription": {
- 	 	 	"trans": "Abonare lunara",
- 	 	 	"eng": "Monthly Subscription"
- 	 	},
- 	 	"payPalPricePerMonth": {
- 	 	 	"vars": [
- 	 	 	 	"price"
- 	 	 	],
- 	 	 	"trans": "${price} USD pe lună",
- 	 	 	"eng": "${price} USD Per Month"
- 	 	},
- 	 	"TiersTitle": {
- 	 	 	"trans": "Donații",
  	 	 	"eng": "Donation Tiers"
  	 	},
  	 	"unitPrice": {
@@ -7342,6 +7799,17 @@
  	 	"permanentDescription": {
  	 	 	"trans": "Acest titlu nu va expira niciodată. \\ Nit rămâne cu contul dvs. pentru totdeauna.",
  	 	 	"eng": "This title will never expire.\\nIt stays with your account forever."
+ 	 	},
+ 	 	"monthlySubscription": {
+ 	 	 	"trans": "Abonare lunara",
+ 	 	 	"eng": "Monthly Subscription"
+ 	 	},
+ 	 	"payPalPricePerMonth": {
+ 	 	 	"vars": [
+ 	 	 	 	"price"
+ 	 	 	],
+ 	 	 	"trans": "${price} USD pe lună",
+ 	 	 	"eng": "${price} USD Per Month"
  	 	}
  	},
  	"cosmetic": {
@@ -7485,6 +7953,12 @@
  	 	 	"eng": "You have successfully sent an emblem to player \"${playerName}\""
  	 	}
  	},
+ 	"gifting": {
+ 	 	"cannotSend": {
+ 	 	 	"trans": "Acest jucător nu poate primi cadou acum",
+ 	 	 	"eng": "This player cannot receive gift now"
+ 	 	}
+ 	},
  	"player": {
  	 	"error": {
  	 	 	"deleteWhileMuted": {
@@ -7567,17 +8041,6 @@
  	 	"nameInvalid": {
  	 	 	"trans": "Lungimea numelui trebuie să fie mai mare decât 4, mai puțin atunci sau egală cu 16 și conține doar caractere engleze, numere sau \\ '_ \\'",
  	 	 	"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'"
- 	 	}
- 	},
- 	"itemUse": {
- 	 	"error": {
- 	 	 	"effectStillLong": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"time"
- 	 	 	 	],
- 	 	 	 	"trans": "Se pare că există deja un efect de statut implementat de un alt jucător. Puteți implementa din nou în minut ${time}.",
- 	 	 	 	"eng": "Seems like there is a same status effect deployed by other player already. you may deploy again in ${time} minute."
- 	 	 	}
  	 	}
  	}
 }

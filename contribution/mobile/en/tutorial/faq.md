@@ -1,5 +1,3 @@
-> This FAQ (Frequently Asked Question) were compiled based on major question thats been asked by community and new player in general. Feel free to edit & add more FAQ-related content on [Github](https://github.com/DexterHuang/CyberCodeOnline).
-
 > Can't find an Answer for your Question? Feel free to ask them in **Global / Language Chat** or **CCO's Discord**! 😃
 
 > **Important Note:** **Beware of potential scam & lowballing price on in-game items**. Always ask your Gangmates / Friends / Global Chat about it's item value before confirming a market / trade deal (especially Epic Gear / Caches)! 😊
@@ -7,11 +5,11 @@
 ## Starting Point
 
 ### What Is This Game? And How To Play It?
-In summary, you basically adventure around **Train Stations** while defeating individual enemies or conquer entire dungeons. The game will progress (onto the next Train Station) after you gain each **Key Fragments** on every area / dungeons in the station. After getting all 3 key fragments, you need to make convert the fragments into **Key** on dedicated **Terminal** (which player can find it on **Shangri-la City Center**). After that, *Rinse and Repeat*.
+In summary, you adventure around **Train Stations** while defeating enemies or conquer entire dungeons. The game will progress (onto the next Train Station) after you gain each **Key Fragments** on every area / dungeons in the station. After getting all 3 key fragments, you need to make convert the fragments into **Key** on dedicated **Terminal** (which player can find it on **Shangri-la City Center**).
 
-More in-depth explanation can be found on dedicated Tutorial section.
+More in-depth explanation can be found in the Tutorial page, to open the page navigate to Profile > Tutorial.
 
-### What Do I Get From Joining / Finishing A Fight?
+### What Do I Get From Fighting Enemies?
 
 You'll receive in-game currency called **BTC (Bitcoin)** and in-game experience called **EXP (Experience)** inside a battle. At times, you'll randomly receive items, equipment or caches after defeating enemies.
 
@@ -48,6 +46,10 @@ No. Character Level is the max / boundary of player's skill level.
 
 ### Can I Use Gear that's higher than our Character Level?
 No. player can't use gear that's higher than it's current character level.
+
+### Why my XXX skill stuck at 99%?
+It is mostly because secondary skills cannot be higher than your character level,
+level up your character level should allow the skill to further advance
 
 ### What is the fastest way to level up in this game?
 On **lower level (1-7)**, the fastest and best way to level up is to fight **Nearby Enemies** constantly. Defeating the **yellow enemies** will result in more EXP gain, while also risking in having a harder fight than a normal enemies.
@@ -125,7 +127,7 @@ Explanation around Calibration can be found on [Calibration's Tutorial](https://
 **Pachinko** or **Pachinko's Plus Pro Max** is an AFK task that simulates the real-life game of Pachinko, where players put their in-game currency on a line for a chance to get a high-tier item (in this case, there's a chance of getting an **Epic Gear** from Pachinko) or merely a low-tier item (ranged from **Pain Away**, **Energy Cells**, and other materials). In order to "play" Pachinko, player must have at least 5,000 (for normal Pachinko) & 1,000,000 (for Pachinko's Plus Pro Max) Bitcoin in hand before starting the task. 
 
 ### Does the game support trading among players?
-Yes, partially. You can send items to other players, but there isn't a system that forces the other person to give something in exchange. Most trades are conducted with trust. You can't gift BTC and key fragments to other players. Only Healing Items, Ammo, Materials, Hash Processors, AI Cores and other types of items.
+Yes, as of update 2023/01/21, there is an official trading system. You can still send items to other players, outside of the trading system, by using the gift function, clicking a player's username in chat, for example, and hitting the **"Send Gift"** button. However, if you wish to trade through the system, you need to enter the player's profile and click **Send Trade Request**. You can't trade key fragments and some other specific event items with other players. Only Healing Items, Ammo, Materials, Hash Processors, AI Cores and other types of items, including BTC. You can't trade while you have an active AFK task, or are in the middle of a fight, but you can trade if you are wandering around a dungeon, or idle in general. 
 
 ### What should I do if my inventory is full?
 You can either scrap, destroy or store items in the bank located in the City Center. Note that the fee for each item you deposit in the bank is 100 BTC. It doesn't cost anything to take the item back out. You can also temporarily increase your inventory capacity with the 'Pocket' stat found on equipment and upgrade modules.
@@ -262,7 +264,7 @@ No, you can't change your name.  Your username is permanent for now. Mods / Devs
 You can tag and search for a user by typing @ in chat followed by their name (for example, type @DexterHuang). They will show up even if they are not online and they will receive a notification.
 
 ### Does the chat support emojis and kaomojis?
-Yup 🤠 ฅ^•ﻌ•^ฅ. Please don't overuse or spam these, as this kind of practice is against the Chat Rules.
+Yes, Please don't overuse or spam these, as this kind of practice is against the Chat Rules.
 
 ### Is there any customization in the game?
 You can have a custom profile picture in your profile, a Title and a coloured chat border, if you decide to subscribe to one of the 5 Donation Tiers available. Elite Tier and higher, will have access to a bio on their profile and a barcode. These benefits are purely cosmetic.

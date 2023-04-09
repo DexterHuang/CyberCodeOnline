@@ -10,7 +10,7 @@ CCO is meant to be played casually with AFK tasks, leveling, and crafting. It al
 
 ### Bug Report / Suggestion
 
-For Bugs and Issues [create an issue on this repo](https://github.com/DexterHuang/CyberCodeOnline/issues).
+For Bugs please join our discord and post bug report in the bug report channel
 
 If there is a serious exploit please **don't** create an issue here, email me directly at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com).
 
@@ -20,18 +20,20 @@ If you would like to help to maintain CyberCode Online, please feel free to subm
 
 ### Help Needed:
 
--   contribution/words.json - Random Words
--   contribution/dungeon/layout/structure-mask.json - Dungeon Layouts 
--   contribution/mobile/{lang}/tips.md - Tips for Mobile
--   contribution/mobile/{lang}/tutorial/\*.md - Tutorial
--   contribution/mobile/{lang}/procedural-names - equipment names
--   contribution/mobile/{lang}/item/lore - item lore
--   contribution/mobile/{lang}/scenario/\*\* - drop lore
--   contribution/mobile/{lang}/dungeon-lore/\*\* - dungeon lore
--   tips.txt - Tips for desktop
--   tutorial/\* - Desktop Tutorial
--   contribution/lang/ - Localizations
+- contribution/words.json - Random Words
+- contribution/dungeon/layout/structure-mask.json - Dungeon Layouts 
+- contribution/mobile/{lang}/tips.md - Tips for Mobile
+- contribution/mobile/{lang}/tutorial/\*.md - Tutorial
+- contribution/mobile/{lang}/procedural-names - equipment names  
+  **Note**: In order to keep things less confusing, please avoid adding additional tier prefixes.
+- contribution/mobile/{lang}/item/lore - item lore
+- contribution/mobile/{lang}/scenario/\*\* - drop lore
+- contribution/mobile/{lang}/dungeon-lore/\*\* - dungeon lore
+- tips.txt - Tips for desktop
+- tutorial/\* - Desktop Tutorial
+- contribution/lang/ - Localizations
 
+[![Open in Codeflow](https://developer.stackblitz.com/img/open_in_codeflow.svg)](https:///pr.new/DexterHuang/CyberCodeOnline)
 ### Simply edit file tutorial
 
 https://youtu.be/u-fvMsyJKH4
@@ -44,12 +46,6 @@ If anyone has time to make a better one, please let me know :D
 ![cybercodeonline com_(Pixel 2 XL)](https://user-images.githubusercontent.com/18545294/147470402-d725f303-686e-46ea-92f5-de3d5d045807.jpg)
 ![localhost_3000_tabs_map(Pixel 2 XL) (2)](https://user-images.githubusercontent.com/18545294/147470407-cc691f5c-006e-4a24-a008-696d0c7cf1f4.jpg)
 ![cybercodeonline com_(Pixel 2 XL) (5)](https://user-images.githubusercontent.com/18545294/147470410-7e8c1de2-87c5-4c76-b2c8-5f9466cf63c2.jpg)
-
-
-#### Web
-
-![desktop-screenshot1](/resources/readme/desktop-screenshot.png)
-![desktop-screenshot2](/resources/readme/desktop-screenshot2.png)
 
 
 ### Fan Art

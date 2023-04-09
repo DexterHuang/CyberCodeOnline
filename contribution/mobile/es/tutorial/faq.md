@@ -52,7 +52,7 @@ En **niveles bajos (1-7)**, la mejor y más rápida manera de subir de nivel es 
 
 Para obtener los mejores resultados, intenta completar las **Mazmorras de Desafío** mientras tienes activo la **Mejora de Corteza Frontal** (potenciador de EXP).
 
-Nota: También puedes subir de nivel haciendo una tarea AFK (**Desplegar el Bot de Farmeo**) que requiere el **Núcleo IA**. Estas tareas llevan tiempo (hasta 2 horas) y sólo son rentables si se produce un evento de Salto Global, que reduce el tiempo de la tarea (lo que la convierte en la forma más eficiente de subir de nivel). La explicación sobre el Time Skip se puede encontrar en [Time Skip's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fglobal_skip.md)
+Nota: También puedes subir de nivel haciendo una tarea AFK (**Desplegar el Bot de Farmeo**) que requiere el **Núcleo IA**. Estas tareas llevan tiempo (hasta 2 horas, 24 minutos con buffs de reducción) y sólo son rentables si se produce un evento de Salto Global, que reduce el tiempo de la tarea (lo que la convierte en la forma más eficiente de subir de nivel).Ten en cuenta que si usas equipo de tu mismo nivel (Independientemente de la rareza) aumenta la cantidad de EXP que recibes por tare. La explicación sobre el Time Skip se puede encontrar en [Time Skip's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fglobal_skip.md)
 
 ### Necesito más BTC. ¡Ayuda!
 Puedes ganar BTC rápidamente vendiendo ciertos artículos en la calle del mercado **Shangri-La**. Al principio, se recomienda vender las piezas de tecnología médica, la chatarra tecnológica y el procesador de hash en el mercado siguiendo el precio actual del mercado. Específicamente para el Procesador Hash, como jugador de bajo nivel, es mejor vender el Procesador Hash al principio en lugar de usarlo para la tarea de **Minería de Criptomonedas** ya que rinde menos BTC que su precio real de mercado. 
@@ -243,3 +243,65 @@ Sí 🤠 ฅ^•ﻌ•^ฅ. Por favor, no los utilices en exceso ni hagas spam, 
 
 ### ¿Hay alguna personalización en el juego?
 Puedes tener una foto de perfil personalizada en tu perfil, un título y un borde de chat de color, si decides suscribirte a uno de los 5 niveles de donación disponibles. Los niveles de élite y superiores tendrán acceso a una biografía en su perfil y a un código de barras. Estos beneficios son puramente cosméticos.
+
+## Mercado de Jugadores
+
+### ¿Qué significan todas las abreviaturas del mercado?
+
+### Lista de términos comúnmente usados en el chat de market:
+
+* **WTS**: Significa, "want to sell" o "quiero vender" en español, es usado para vender objetos a cambio de IA (generalmente)
+
+* **WTB**: Significa "want to buy" o "quiero comprar" en español , es usado para comprar objetos a cambio de IA (generalmente)
+
+* **WTT**: Significa, "want to trade" o "quiero tradear" en español, es usado para realizar un intercambio de objetos, generalmente sin usar IA como moneda de cambio.
+
+* **PM**: Significa "Private message" o "Mensaje Privado" en español.
+
+* **ATP**: Significa "Ammunition Tech Parts" o "Partes de municion" en español.
+
+* **MT**: Significa "Medical Tech" o "Partes Médicas" en español.
+
+* **MATP**: Significa "Military Ammunition Tech Parts" o "Partes de Municion Militar" en español.
+
+* **TS**: Significa "Tech Scrap" o "Chatarra Tecnológica" en español.
+
+* **EGMS**: Significa "Encrypted Gang Memory Shard" o "Fragmento de memoria encriptada de la banda" en español.
+
+* **OP**: Significa "Old Pouch" o "Bolsa antigua" en español.
+
+* **FP/Fanny**: Significa "Fanny Pack" o "Riñonera" en español.
+
+* **Dora**: Significa "Explorer's Backpack" o "Mochila de Explorador" en español.
+
+* **EOC**: Significa "Employee Office Case" o "Maletín de Oficina" en español.
+
+* **ASU**: Significa "Autonomous Storage Unit" o "Unidad de almacenamiento autómata" en español.
+
+* **AICC**: Significa " AI Core Cluster" o "Agrupamiento de núcleos de IA" en español.
+
+* **CC**: Significa "critical chance" o "probabilidad de crítico" en español, terminó referido a una característica de un equipo.
+
+* **CD**: Significa "Critical damage" o "Daño critico" en español, termino referido a una característica de un equipo.
+
+* **PW**: Significa "Primary Weapon" o "Arma Primaría" en español.
+
+* **SW**: Significa "Special Weapon" o "Arma Especial" en español.
+
+* **DW**: Significa "Destructive Weapon" o "Arma Destructiva" en español.
+
+* **UA**: Significa "Upper Armor" o "Armadura Superior" en español.
+
+* **LA**: Significa "Lower Armor" o "Armadura Inferior" en español.
+
+* **LC**: Significa "Locked Container" o "Contenedor Bloqueado" en español.
+
+* **LRC**: Significa "Locked Rare Container" o "Contenedor Raro Bloqueado" en español.
+
+* **LLC**: Significa "Locked Legendary Container" o "Contenedor Legendario Bloqueado"
+
+* **HQ**: Significa "High Quality" o "Alta calidad" en español, usado generalmente para referirse a los "Caches de alta calidad".
+
+* **GIOT**: Significa "Gang Invasion Order Transmitter" o "Transmisor de orden invasora de banda" en español.
+
+***Esta lista está hecha para que todos puedan entender el mercado y también cuando se habla de cosas específicas.***

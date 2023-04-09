@@ -600,13 +600,13 @@
  	 	 	 	 	"eng": "Auto Scrap"
  	 	 	 	}
  	 	 	},
- 	 	 	"equipped": {
- 	 	 	 	"trans": "Équipé",
- 	 	 	 	"eng": "Equipped"
- 	 	 	},
  	 	 	"inventory": {
  	 	 	 	"trans": "Inventaire",
  	 	 	 	"eng": "Inventory"
+ 	 	 	},
+ 	 	 	"equipped": {
+ 	 	 	 	"trans": "Équipé",
+ 	 	 	 	"eng": "Equipped"
  	 	 	},
  	 	 	"itemInbox": {
  	 	 	 	"trans": "Boîte de réception",
@@ -622,30 +622,12 @@
  	 	 	 	"title": {
  	 	 	 	 	"trans": "Créer une histoire",
  	 	 	 	 	"eng": "Create Lore"
- 	 	 	 	},
- 	 	 	 	"description": {
- 	 	 	 	 	"trans": "Il n'y a pas encore d'histoire communautaire pour cet article, sois le premier à en créer une.",
- 	 	 	 	 	"eng": "There is no community lore for this item yet, be the first to create one for it."
  	 	 	 	}
  	 	 	},
  	 	 	"openButton": {
  	 	 	 	"title": {
  	 	 	 	 	"trans": "Histoire communautaire",
  	 	 	 	 	"eng": "Community Lore"
- 	 	 	 	},
- 	 	 	 	"description": {
- 	 	 	 	 	"trans": "Éditer l'histoire communautaire pour cet article",
- 	 	 	 	 	"eng": "Open the community lore for this item"
- 	 	 	 	}
- 	 	 	},
- 	 	 	"editButton": {
- 	 	 	 	"title": {
- 	 	 	 	 	"trans": "Modifier cette histoire",
- 	 	 	 	 	"eng": "edit this lore"
- 	 	 	 	},
- 	 	 	 	"description": {
- 	 	 	 	 	"trans": "Modifier cette histoire communautaire",
- 	 	 	 	 	"eng": "Edit this community lore"
  	 	 	 	}
  	 	 	}
  	 	},
@@ -660,16 +642,46 @@
  	 	 	 	 	"eng": "This item is broken, bring it to Weapon Smith for repair"
  	 	 	 	}
  	 	 	},
+ 	 	 	"areaEffect": {
+ 	 	 	 	"trans": "[AOE] Zone d'effet, l'effet de cet objet s'applique aux alliés en combat avec toi.",
+ 	 	 	 	"eng": "[AOE] Area of Effect, the effect of this item will apply allies in combat with you."
+ 	 	 	},
+ 	 	 	"lockModal": {
+ 	 	 	 	"unlock": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Déverrouiller l'article?",
+ 	 	 	 	 	 	"eng": "Unlock item?"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "Lorsque l'article est déverrouillé, vous pouvez l'échanger ou l'écraser.",
+ 	 	 	 	 	 	"eng": "When item is unlocked, you can trade or scrap it."
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"lock": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Verrouiller l'élément?",
+ 	 	 	 	 	 	"eng": "Lock item?"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "Vous pouvez empêcher accidentellement de gratter ou de vendre cet article en le verrouillant.",
+ 	 	 	 	 	 	"eng": "You can prevent accidentally scraping or selling this item by locking it."
+ 	 	 	 	 	}
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"locked": {
+ 	 	 	 	"trans": "Fermé à clé",
+ 	 	 	 	"eng": "Locked"
+ 	 	 	},
+ 	 	 	"unlocked": {
+ 	 	 	 	"trans": "Débloqué",
+ 	 	 	 	"eng": "Unlocked"
+ 	 	 	},
  	 	 	"upgradeModuleTitle": {
  	 	 	 	"trans": "Module d'amélioration",
  	 	 	 	"eng": "upgrade slot ${index}",
  	 	 	 	"vars": [
  	 	 	 	 	"index"
  	 	 	 	]
- 	 	 	},
- 	 	 	"areaEffect": {
- 	 	 	 	"trans": "[AOE] Zone d'effet, l'effet de cet objet s'applique aux alliés en combat avec toi.",
- 	 	 	 	"eng": "[AOE] Area of Effect, the effect of this item will apply allies in combat with you."
  	 	 	},
  	 	 	"equip": {
  	 	 	 	"trans": "Équiper",
@@ -686,18 +698,6 @@
  	 	 	"use": {
  	 	 	 	"trans": "Utiliser",
  	 	 	 	"eng": "Use"
- 	 	 	},
- 	 	 	"unlock": {
- 	 	 	 	"trans": "Déprotéger",
- 	 	 	 	"eng": "Unlock"
- 	 	 	},
- 	 	 	"lock": {
- 	 	 	 	"trans": "Protéger",
- 	 	 	 	"eng": "Lock"
- 	 	 	},
- 	 	 	"lockDescription": {
- 	 	 	 	"trans": "Empêche la vente ou la destruction accidentelle",
- 	 	 	 	"eng": "Prevents accidental selling or destroying"
  	 	 	},
  	 	 	"cantPrintWhileInCombat": {
  	 	 	 	"vars": [
@@ -747,8 +747,14 @@
  	 	 	},
  	 	 	"factoryReset": {
  	 	 	 	"confirmation": {
- 	 	 	 	 	"trans": "Faire cela réinitialisera le calibrage de ton objet. Cela le rendra également à nouveau échangeable. \n       Es-tu sûr de vouloir continuer ?",
- 	 	 	 	 	"eng": "Doing this will reset all calibration on your item. It will also make it tradable again. \r\n      Are you sure you want to proceed?"
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Êtes-vous sûr de vouloir réinitialiser l'usine?",
+ 	 	 	 	 	 	"eng": "Are you sure you want to factory reset?"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "En réinitialisant cet article, vous perdrez tout l'étalonnage, mais vous pourrez l'échanger avec d'autres joueurs.",
+ 	 	 	 	 	 	"eng": "By resetting this item, you will lose all calibration, however you will be able to trade it to other players."
+ 	 	 	 	 	}
  	 	 	 	},
  	 	 	 	"trans": "Retour aux paramètres d'usine",
  	 	 	 	"eng": "Factory Reset"
@@ -805,6 +811,10 @@
  	 	 	"travel": {
  	 	 	 	"trans": "Voyager",
  	 	 	 	"eng": "Travel"
+ 	 	 	},
+ 	 	 	"hideLowerLevelTravels": {
+ 	 	 	 	"trans": "Cacher des niveaux inférieurs",
+ 	 	 	 	"eng": "Hide lower levels"
  	 	 	}
  	 	},
  	 	"npc": {
@@ -818,6 +828,10 @@
  	 	 	 	],
  	 	 	 	"trans": "Réparer tous les articles pour (${repairFee} bitcoin)",
  	 	 	 	"eng": " Repair all items for (${repairFee} Bitcoin)"
+ 	 	 	},
+ 	 	 	"notAvailable": {
+ 	 	 	 	"trans": "Ce PNJ n'est actuellement pas disponible",
+ 	 	 	 	"eng": "This NPC is currently not available"
  	 	 	},
  	 	 	"unlockContainerButton": {
  	 	 	 	"title": {
@@ -947,6 +961,10 @@
  	 	 	 	 	"trans": "Envoyer un cadeau",
  	 	 	 	 	"eng": "Send Gift"
  	 	 	 	},
+ 	 	 	 	"trade": {
+ 	 	 	 	 	"trans": "Envoyer une demande de commerce",
+ 	 	 	 	 	"eng": "Send Trade Request"
+ 	 	 	 	},
  	 	 	 	"sendCosmetic": {
  	 	 	 	 	"trans": "Envoyer un cadeau esthétique",
  	 	 	 	 	"eng": "Send Cosmetic Gift"
@@ -970,6 +988,10 @@
  	 	 	 	"report": {
  	 	 	 	 	"trans": "Signaler un joueur",
  	 	 	 	 	"eng": "Report Player"
+ 	 	 	 	},
+ 	 	 	 	"block": {
+ 	 	 	 	 	"trans": "Joueur de blocage",
+ 	 	 	 	 	"eng": "Block Player"
  	 	 	 	}
  	 	 	},
  	 	 	"equipped": {
@@ -1312,12 +1334,6 @@
  	 	 	 	"eng": "You have not unlocked this area yet"
  	 	 	}
  	 	},
- 	 	"tutorial": {
- 	 	 	"title": {
- 	 	 	 	"trans": "Tutoriel",
- 	 	 	 	"eng": "Tutorial"
- 	 	 	}
- 	 	},
  	 	"machineCrafting": {
  	 	 	"titleBox": {
  	 	 	 	"tile": {
@@ -1388,6 +1404,10 @@
  	 	 	 	"trans": "Effets sonores",
  	 	 	 	"eng": "sound effects"
  	 	 	},
+ 	 	 	"enableInGameNotificationSound": {
+ 	 	 	 	"trans": "Dans le son de notification de jeu",
+ 	 	 	 	"eng": "In game notification sound"
+ 	 	 	},
  	 	 	"disableAttackBar": {
  	 	 	 	"title": {
  	 	 	 	 	"trans": "Désactiver la barre de temporisation de l'attaque",
@@ -1408,6 +1428,16 @@
  	 	 	 	"title": {
  	 	 	 	 	"trans": "Désactiver l'écran de victoire",
  	 	 	 	 	"eng": "Disable Victory Screen"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"hideNPC": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Masquer les PNJ",
+ 	 	 	 	 	"eng": "Hide NPC"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Masquer l'art NPC à l'écran",
+ 	 	 	 	 	"eng": "Hide NPC art on screen"
  	 	 	 	}
  	 	 	},
  	 	 	"disableSkipRespectNoti": {
@@ -1433,10 +1463,6 @@
  	 	 	"receiveGlobalNotification": {
  	 	 	 	"trans": "Recevoir les notifications de buff global",
  	 	 	 	"eng": "Receive Global Buff Notification"
- 	 	 	},
- 	 	 	"forceMobileMode": {
- 	 	 	 	"trans": "Activer le mode cyberpunk",
- 	 	 	 	"eng": "Enable Cyberpunk Mode"
  	 	 	},
  	 	 	"uiScale": {
  	 	 	 	"trans": "Échelle de l'interface",
@@ -2063,6 +2089,10 @@
  	 	 	 	"trans": "Ici, vous pouvez trouver tous nos liens sur les réseaux sociaux, venez vous connecter avec la communauté incroyable!",
  	 	 	 	"eng": "Here you can find all our social media links, come and connect with the amazing community!"
  	 	 	},
+ 	 	 	"credits": {
+ 	 	 	 	"trans": "Crédits",
+ 	 	 	 	"eng": "Credits"
+ 	 	 	},
  	 	 	"reportBug": {
  	 	 	 	"trans": "Signaler un bug",
  	 	 	 	"eng": "Report a bug"
@@ -2160,6 +2190,14 @@
  	 	 	 	"trans": "Créer un compte",
  	 	 	 	"eng": "Create Account"
  	 	 	},
+ 	 	 	"terms": {
+ 	 	 	 	"trans": "En créant un compte, vous acceptez notre",
+ 	 	 	 	"eng": "By creating an account, you agree to our"
+ 	 	 	},
+ 	 	 	"termsLink": {
+ 	 	 	 	"trans": "Conditions d'utilisation",
+ 	 	 	 	"eng": "Terms of Service"
+ 	 	 	},
  	 	 	"loginPageButton": {
  	 	 	 	"trans": "As-tu déja un compte ?",
  	 	 	 	"eng": "Have account?"
@@ -2193,10 +2231,6 @@
  	 	 	"tutorial": {
  	 	 	 	"trans": "Tutoriel",
  	 	 	 	"eng": "tutorial"
- 	 	 	},
- 	 	 	"credits": {
- 	 	 	 	"trans": "Crédits",
- 	 	 	 	"eng": "credits"
  	 	 	}
  	 	},
  	 	"porofile": {
@@ -2367,10 +2401,10 @@
  	 	 	"trans": "Libérer",
  	 	 	"eng": "Free"
  	 	},
- 	 	"luna": {
+ 	 	"retro": {
  	 	 	"name": {
- 	 	 	 	"trans": "Cadeau de lune néon",
- 	 	 	 	"eng": "Neon moon gift"
+ 	 	 	 	"trans": "Pack de synthwave",
+ 	 	 	 	"eng": "Synthwave bundle"
  	 	 	}
  	 	},
  	 	"skip": {
@@ -2389,6 +2423,24 @@
  	 	 	"namev2": {
  	 	 	 	"trans": "Fonctionnement d'étalonnage (100%)",
  	 	 	 	"eng": "Calibration bundle (100%)"
+ 	 	 	}
+ 	 	},
+ 	 	"bell1": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Conteneur verrouillé légendaire",
+ 	 	 	 	"eng": "Legendary locked container"
+ 	 	 	}
+ 	 	},
+ 	 	"bell2": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "cassette",
+ 	 	 	 	"eng": "cassette tape"
+ 	 	 	}
+ 	 	},
+ 	 	"bell3": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Emballage d'équipement",
+ 	 	 	 	"eng": "Equipment Package"
  	 	 	}
  	 	},
  	 	"cycle": {
@@ -2538,6 +2590,10 @@
  	 	 	"trans": "Modérateurs",
  	 	 	"eng": "moderators"
  	 	},
+ 	 	"accept": {
+ 	 	 	"trans": "Accepter",
+ 	 	 	"eng": "Accept"
+ 	 	},
  	 	"craft": {
  	 	 	"trans": "Fabriquer",
  	 	 	"eng": "craft"
@@ -2554,6 +2610,10 @@
  	 	 	"trans": "Manquant",
  	 	 	"eng": "missing"
  	 	},
+ 	 	"close": {
+ 	 	 	"trans": "Fermer",
+ 	 	 	"eng": "Close"
+ 	 	},
  	 	"dungeons": {
  	 	 	"trans": "Donjons",
  	 	 	"eng": "dungeons"
@@ -2565,10 +2625,6 @@
  	 	"okay": {
  	 	 	"trans": "D'accord",
  	 	 	"eng": "okay"
- 	 	},
- 	 	"close": {
- 	 	 	"trans": "Fermer",
- 	 	 	"eng": "Close"
  	 	},
  	 	"characterNameError": {
  	 	 	"invalidChar": {
@@ -2640,6 +2696,43 @@
  	 	"requireTopGang": {
  	 	 	"trans": "Tu dois figurer dans les deux premiers gangs du classement d'occupation",
  	 	 	"eng": "Requires you to be in the Top 2 Gangs on the Occupation Leaderboard"
+ 	 	}
+ 	},
+ 	"inventory": {
+ 	 	"scrap": {
+ 	 	 	"trans": "recycler",
+ 	 	 	"eng": "scrap"
+ 	 	},
+ 	 	"ui": {
+ 	 	 	"useItem": {
+ 	 	 	 	"localFightCantUseItem": {
+ 	 	 	 	 	"trans": "Tu ne peux pas utiliser d'objet pendant les combats de rue, les objets sont uniquement disponibles dans les donjons",
+ 	 	 	 	 	"eng": "You cannot use item during street fights, items are only available during dungeons"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"autoScrap": {
+ 	 	 	 	"noItem": {
+ 	 	 	 	 	"trans": "Aucun objet à recycler automatiquement",
+ 	 	 	 	 	"eng": "No item to auto scrap"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"useItemWithExistingBuffModal": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Êtes-vous sûr que vous souhaitez utiliser cet élément?",
+ 	 	 	 	"eng": "Are you sure you want to use this item?"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"remaining"
+ 	 	 	 	],
+ 	 	 	 	"trans": "En utilisant cet élément, actualisera la minuterie du buff actif actuel et empilera l'effet le cas échéant. (${remaining})",
+ 	 	 	 	"eng": "By using this item will refresh the timer of current active buff and stack the effect if applicable. (${remaining})"
+ 	 	 	},
+ 	 	 	"confirmText": {
+ 	 	 	 	"trans": "Utilisation",
+ 	 	 	 	"eng": "Use"
+ 	 	 	}
  	 	}
  	},
  	"misc,durability": {
@@ -2956,6 +3049,285 @@
  	 	 	}
  	 	}
  	},
+ 	"modal": {
+ 	 	"block": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Es-tu sûr de vouloir bloquer ce joueur ?",
+ 	 	 	 	"eng": "Are you sure you want to block this player?"
+ 	 	 	}
+ 	 	},
+ 	 	"unitDonationConfirm": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Confirmer le don",
+ 	 	 	 	"eng": "Confirm donation"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"amount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Ce don retirera ${amount} Unités de ton compte",
+ 	 	 	 	"eng": "This will donate ${amount} Unit from your account"
+ 	 	 	},
+ 	 	 	"notEnough": {
+ 	 	 	 	"trans": "Tu n'as pas assez d'Unités pour faire un don.",
+ 	 	 	 	"eng": "You do not have enough Unit to donate."
+ 	 	 	}
+ 	 	},
+ 	 	"chatMessage": {
+ 	 	 	"block": {
+ 	 	 	 	"trans": "Bloquer",
+ 	 	 	 	"eng": "Block"
+ 	 	 	},
+ 	 	 	"report": {
+ 	 	 	 	"trans": "Signaler et bloquer",
+ 	 	 	 	"eng": "Report and Block"
+ 	 	 	},
+ 	 	 	"openPlayerProfile": {
+ 	 	 	 	"trans": "Voir le profil",
+ 	 	 	 	"eng": "View Profile"
+ 	 	 	},
+ 	 	 	"openPlayerGang": {
+ 	 	 	 	"trans": "Voir le Gang",
+ 	 	 	 	"eng": "View Gang"
+ 	 	 	},
+ 	 	 	"sendGift": {
+ 	 	 	 	"trans": "Envoyer un cadeau",
+ 	 	 	 	"eng": "Send Gift"
+ 	 	 	},
+ 	 	 	"sendPrivateMessage": {
+ 	 	 	 	"trans": "Envoyer un message privé",
+ 	 	 	 	"eng": "Send Private Message"
+ 	 	 	},
+ 	 	 	"reply": {
+ 	 	 	 	"trans": "Répondre",
+ 	 	 	 	"eng": "Reply"
+ 	 	 	}
+ 	 	},
+ 	 	"chatRuleModal": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Accepte les règles ci-dessous avant de commencer à discuter",
+ 	 	 	 	"eng": "Please agree to the rules below before start chatting"
+ 	 	 	},
+ 	 	 	"rule1": {
+ 	 	 	 	"trans": "Pas de spam ou de message sans signification.",
+ 	 	 	 	"eng": "No spamming or meaningless message."
+ 	 	 	},
+ 	 	 	"rule2": {
+ 	 	 	 	"trans": "Aucune violence verbale ou menace.",
+ 	 	 	 	"eng": "No personal attacks or threats."
+ 	 	 	},
+ 	 	 	"rule4": {
+ 	 	 	 	"trans": "Pas de vocabulaire inapproprié.",
+ 	 	 	 	"eng": "No inappropriate language."
+ 	 	 	},
+ 	 	 	"footer": {
+ 	 	 	 	"trans": "Tu seras mis en sourdine si tu ne respectes pas l'une de ces règles",
+ 	 	 	 	"eng": "You will be MUTED if you breach any of the rules"
+ 	 	 	},
+ 	 	 	"footer2": {
+ 	 	 	 	"trans": "La liste complète des règles est disponible dans le profil > Tutoriels > Règles",
+ 	 	 	 	"eng": "Full list of rules can be found in Profile > Tutorials > Rules"
+ 	 	 	},
+ 	 	 	"agreeToggle": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Je comprends et je n'enverrai jamais de spam ni n'enfreindrai aucune des règles du chat",
+ 	 	 	 	 	"eng": "I understand and I will never spam or break any of the chat rules"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"disagreeButtonButton": {
+ 	 	 	 	"trans": "Non",
+ 	 	 	 	"eng": "No"
+ 	 	 	},
+ 	 	 	"confirmButton": {
+ 	 	 	 	"agreed": {
+ 	 	 	 	 	"trans": "Je ne spammerai pas",
+ 	 	 	 	 	"eng": "I won't spam"
+ 	 	 	 	},
+ 	 	 	 	"notAgree": {
+ 	 	 	 	 	"trans": "Je ne suis pas d'accord",
+ 	 	 	 	 	"eng": "I don't agree"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"contributionModal": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Le joueur a contribué au contenu",
+ 	 	 	 	"eng": "Player contributed content"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Tu peux contribuer au contenu comme celui-ci et beaucoup plus également en modifiant les fichiers de configuration de notre page Github.",
+ 	 	 	 	"eng": "You can contribute to content like this and many more too by editing the config files in our GitHub page."
+ 	 	 	},
+ 	 	 	"confirm": {
+ 	 	 	 	"trans": "Aller à Github",
+ 	 	 	 	"eng": "Go to GitHub"
+ 	 	 	},
+ 	 	 	"cancel": {
+ 	 	 	 	"trans": "D'accord",
+ 	 	 	 	"eng": "ok"
+ 	 	 	}
+ 	 	},
+ 	 	"equipmentQuickMenu": {
+ 	 	 	"unequip": {
+ 	 	 	 	"trans": "Déséquiper",
+ 	 	 	 	"eng": "unequip"
+ 	 	 	},
+ 	 	 	"viewDetails": {
+ 	 	 	 	"trans": "Voir les détails",
+ 	 	 	 	"eng": "View Details"
+ 	 	 	},
+ 	 	 	"swap": {
+ 	 	 	 	"trans": "Remplacer l'équipement",
+ 	 	 	 	"eng": "replace equipment"
+ 	 	 	}
+ 	 	},
+ 	 	"languagePrompt": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Traduction non officielle",
+ 	 	 	 	"eng": "Unofficial translation"
+ 	 	 	},
+ 	 	 	"description1": {
+ 	 	 	 	"trans": "Comme ce jeu est réalisé par une seule personne, il est très difficile de traduire toutes les langues correctement, mais je travaille sur l'ajout d'autres traductions :)",
+ 	 	 	 	"eng": "As this game is made by only one person, it's very difficult translate all languages correctly, but I am working on adding more translations :)"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Tu peux changer la langue à tout moment en accédant aux Paramètres",
+ 	 	 	 	"eng": "You can change language anytime at the settings page"
+ 	 	 	},
+ 	 	 	"dontShowAgain": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Ne plus me montrer ceci",
+ 	 	 	 	 	"eng": "Don't show this again"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"goToSettings": {
+ 	 	 	 	"trans": "Changer en anglais",
+ 	 	 	 	"eng": "Change to English"
+ 	 	 	},
+ 	 	 	"confirmButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Je comprends",
+ 	 	 	 	 	"eng": "I understand"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Utiliser une traduction non officielle",
+ 	 	 	 	 	"eng": "Use unofficial translation"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"playerSearch": {
+ 	 	 	"searchPlayerHint": {
+ 	 	 	 	"trans": "Entrer le nom du joueur à rechercher",
+ 	 	 	 	"eng": "Enter player name to search"
+ 	 	 	},
+ 	 	 	"noPlayerFound": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"search"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Aucun joueur nommé \"${search}\" trouvé",
+ 	 	 	 	"eng": "No player with named \"${search}\" found"
+ 	 	 	}
+ 	 	},
+ 	 	"promotion": {
+ 	 	 	"dontShowAgain": {
+ 	 	 	 	"trans": "Ne pas montrer cette diffusion de nouveau",
+ 	 	 	 	"eng": "Don\\'t show this broadcast again"
+ 	 	 	}
+ 	 	},
+ 	 	"resultScreen": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Victoire",
+ 	 	 	 	"eng": "Victory"
+ 	 	 	},
+ 	 	 	"subTitle": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"levelName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Félicitations, tu as augmenté ton ${levelName} !",
+ 	 	 	 	"eng": "Congratulation, you have leveled up your ${levelName}!"
+ 	 	 	},
+ 	 	 	"fromTo": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"from",
+ 	 	 	 	 	"to"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${from} => ${to}",
+ 	 	 	 	"eng": "${from} => ${to}"
+ 	 	 	}
+ 	 	},
+ 	 	"review": {
+ 	 	 	"title1": {
+ 	 	 	 	"trans": "Je suis Dexter, le développeur de ce jeu, et j'espère connaître ton expérience jusqu'à présent.",
+ 	 	 	 	"eng": "I'm Dexter, the developer of this game, and I hope to know your experience so far."
+ 	 	 	},
+ 	 	 	"title2": {
+ 	 	 	 	"trans": "Combien d'étoiles donnerais-tu ?",
+ 	 	 	 	"eng": "How many stars would you give?"
+ 	 	 	},
+ 	 	 	"badReview": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Je suis tellement désolé, s'il te plaît, dis-moi ce que je peux améliorer",
+ 	 	 	 	 	"eng": "I am so sorry, please let me know where I can improve"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"goodReview": {
+ 	 	 	 	"title1": {
+ 	 	 	 	 	"trans": "Wow ! Merci beaucoup ! Je suis honoré, peux-tu le rendre officiel en laissant l'avis sur le Store :) ?",
+ 	 	 	 	 	"eng": "Wow, thanks so much! I'm honored, please make it official by leaving them on our store page :)"
+ 	 	 	 	},
+ 	 	 	 	"title2": {
+ 	 	 	 	 	"trans": "Tes commentaires positifs m'aideront et permettront d'amener plus de joueurs dans notre communauté !",
+ 	 	 	 	 	"eng": "Your good review is going to help me much and bring more players into our community!"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"dontAskMeAgain": {
+ 	 	 	 	"trans": "Ne plus me demander",
+ 	 	 	 	"eng": "Don't ask me again"
+ 	 	 	},
+ 	 	 	"reviewLater": {
+ 	 	 	 	"trans": "Donner mon avis plus tard",
+ 	 	 	 	"eng": "review later"
+ 	 	 	}
+ 	 	},
+ 	 	"newbieTutorial": {
+ 	 	 	"welcomeMsg": {
+ 	 	 	 	"trans": "Bienvenue dans le meilleur MMORPG textuel",
+ 	 	 	 	"eng": "Welcome to the best Text MMORPG"
+ 	 	 	},
+ 	 	 	"noShowToggle": {
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Tu peux voir le tutoriel complet dans Profil > Tutoriel",
+ 	 	 	 	 	"eng": "You can see the full tutorial at Profile > Tutorial tab"
+ 	 	 	 	},
+ 	 	 	 	"label": {
+ 	 	 	 	 	"trans": "Ne plus afficher le message",
+ 	 	 	 	 	"eng": "Don't show this again"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"closeButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Fermer",
+ 	 	 	 	 	"eng": "Close"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"updateModal": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Une mise à jour a été installée",
+ 	 	 	 	"eng": "An update has been installed"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Clique sur recharger pour continuer",
+ 	 	 	 	"eng": "Please click reload to continue"
+ 	 	 	},
+ 	 	 	"reloadButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Recharger",
+ 	 	 	 	 	"eng": "Reload"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	}
+ 	},
  	"time": {
  	 	"error": {
  	 	 	"systemTimeIncorrect": {
@@ -3174,6 +3546,18 @@
  	 	 	 	"eng": "Reach level ${level} for special gifts!"
  	 	 	}
  	 	},
+ 	 	"tutorial": {
+ 	 	 	"trans": "Page de tutoriel",
+ 	 	 	"eng": "Tutorial Page",
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Vous pouvez jeter un œil à notre page de didacticiel communautaire pour en savoir plus sur le jeu. Il y a des tonnes de conseils et de guides pour vous aider à démarrer!",
+ 	 	 	 	"eng": "You can take a look at our community tutorial page to learn more about the game. there are tons of tips and guides to help you get started!"
+ 	 	 	},
+ 	 	 	"questProgress": {
+ 	 	 	 	"trans": "Tutorial Quest complet",
+ 	 	 	 	"eng": "Tutorial quest complete"
+ 	 	 	}
+ 	 	},
  	 	"questType": {
  	 	 	"normal": {
  	 	 	 	"name": {
@@ -3259,10 +3643,53 @@
  	 	 	"eng": "Are you sure you want to abandon this quest?"
  	 	}
  	},
+ 	"MutedScreen": {
+ 	 	"title": {
+ 	 	 	"trans": "Chat Handicap",
+ 	 	 	"eng": "Chat Disabled"
+ 	 	},
+ 	 	"description1": {
+ 	 	 	"trans": "Nous sommes vraiment désolés que cela s'est produit, veuillez comprendre que nous devons maintenir un environnement sûr pour tous les joueurs et nous assurer que tout le monde peut jouer au jeu dans un environnement agréable. C'est pourquoi nous devons muets quand il est nécessaire. Veuillez lire nos règles de chat à partir du lien ci-dessous pour des informations complètes",
+ 	 	 	"eng": "We are very sorry this happened, please understand we are required to maintain a safe environment for all players and ensure that everyone can play the game in a pleasant environment. Thats why we have to mute when it is needed. please do read our chat rules from the link below for full information"
+ 	 	},
+ 	 	"description2": {
+ 	 	 	"trans": "Si vous pensez que c'était un malentendu, veuillez contacter le modérateur via notre canal Discord lié ci-dessous.",
+ 	 	 	"eng": "If you believe it was a misunderstanding, please contact the moderator via our discord channel linked below."
+ 	 	},
+ 	 	"description3": {
+ 	 	 	"trans": "Si vous souhaitez signaler un modérateur d'abus ou d'inconduite, vous pouvez contacter Dexter (le développeur de cette application) via le formulaire d'appel ci-dessous",
+ 	 	 	"eng": "If you would like to report a moderator for abuse or misconduct, you may reach out to Dexter (the developer of this app) via the appeal form below"
+ 	 	},
+ 	 	"description4": {
+ 	 	 	"trans": "Alternativement, vous pouvez également contacter le développeur par e-mail à ching.huang.dexter@gmail.com",
+ 	 	 	"eng": "Alternatively, you may also contact the developer via email at ching.huang.dexter@gmail.com"
+ 	 	},
+ 	 	"rules": {
+ 	 	 	"trans": "Règles de chat",
+ 	 	 	"eng": "Chat Rules"
+ 	 	},
+ 	 	"appealForm": {
+ 	 	 	"trans": "Formulaire d'appel",
+ 	 	 	"eng": "Appeal Form"
+ 	 	}
+ 	},
  	"priceTag": {
  	 	"free": {
  	 	 	"trans": "LIBRE",
  	 	 	"eng": "FREE"
+ 	 	}
+ 	},
+ 	"itemList": {
+ 	 	"quickSelect": {
+ 	 	 	"trans": "Sélection rapide",
+ 	 	 	"eng": "Quick Select"
+ 	 	},
+ 	 	"quickSelectNoti": {
+ 	 	 	"vars": [
+ 	 	 	 	"count"
+ 	 	 	],
+ 	 	 	"trans": "Éléments ${count} sélectionnés",
+ 	 	 	"eng": "Selected ${count} items"
  	 	}
  	},
  	"sessionClosedScreen": {
@@ -3348,6 +3775,182 @@
  	 	 	 	"trans": "début",
  	 	 	 	"eng": "start"
  	 	 	}
+ 	 	}
+ 	},
+ 	"trade": {
+ 	 	"moneySelectModal": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Combien de bitcoin aimeriez-vous lier au métier?",
+ 	 	 	 	"eng": "How much Bitcoin would you like to bind to the trade?"
+ 	 	 	}
+ 	 	},
+ 	 	"pendingAccept": {
+ 	 	 	"vars": [
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "En attendant que ${playerName} accepte le métier ...",
+ 	 	 	"eng": "Waiting for ${playerName} to accept the trade..."
+ 	 	},
+ 	 	"lockedItem": {
+ 	 	 	"trans": "Vous avez verrouillé cet article, le déverrouiller d'abord pour échanger",
+ 	 	 	"eng": "You have locked this item, unlock it first to trade"
+ 	 	},
+ 	 	"selectAmount": {
+ 	 	 	"title": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Combien de ${itemName} aimeriez-vous échanger?",
+ 	 	 	 	"eng": "How many ${itemName} would you like to trade?"
+ 	 	 	}
+ 	 	},
+ 	 	"leaveButton": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Annuler",
+ 	 	 	 	"eng": "Cancel"
+ 	 	 	}
+ 	 	},
+ 	 	"lockButton": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Serrure",
+ 	 	 	 	"eng": "Lock"
+ 	 	 	}
+ 	 	},
+ 	 	"unlockButton": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Ouvrir",
+ 	 	 	 	"eng": "Unlock"
+ 	 	 	}
+ 	 	},
+ 	 	"error": {
+ 	 	 	"tradeNoLongerExist": {
+ 	 	 	 	"trans": "Cette séance de commerce n'existait plus",
+ 	 	 	 	"eng": "this trade session no longer existed"
+ 	 	 	},
+ 	 	 	"cantStartTradeNotIdle": {
+ 	 	 	 	"trans": "Vous ne pouvez pas démarrer un métier lorsque vous n'êtes pas inactif",
+ 	 	 	 	"eng": "You can not start a trade when you are not idle"
+ 	 	 	},
+ 	 	 	"cantStartTradeLimited": {
+ 	 	 	 	"trans": "Vous ne pouvez pas démarrer un métier maintenant",
+ 	 	 	 	"eng": "You can not start a trade now"
+ 	 	 	},
+ 	 	 	"targetPlayerBlockedYou": {
+ 	 	 	 	"trans": "Vous ne pouvez pas envoyer un invitation commerciale à ce joueur",
+ 	 	 	 	"eng": "You cannot send trade invite to this player"
+ 	 	 	},
+ 	 	 	"targetPlayerBlockedGifts": {
+ 	 	 	 	"trans": "Le joueur cible a un cadeau et un commerce handicapés",
+ 	 	 	 	"eng": "Target player has disabled gift and trade"
+ 	 	 	},
+ 	 	 	"targetPlayerLimited": {
+ 	 	 	 	"trans": "Le joueur cible ne peut pas participer au commerce",
+ 	 	 	 	"eng": "You cannot send trade invite to this player"
+ 	 	 	},
+ 	 	 	"tooFrequentlyInvite": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"minutes"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Vous ne pouvez pas inviter trop fréquemment, le temps de recharge commercial est ${minutes} minutes",
+ 	 	 	 	"eng": "You cannot invite too frequently, trade invite cooldown is ${minutes} minutes"
+ 	 	 	},
+ 	 	 	"maxItemsPerPlayer": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"maxItems"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Vous ne pouvez pas ajouter plus d'objets ${maxItems} par joueur",
+ 	 	 	 	"eng": "You cannot add more than ${maxItems} items per player"
+ 	 	 	},
+ 	 	 	"notEnoughItems": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Vous n'avez pas assez de ${itemName}",
+ 	 	 	 	"eng": "You don't have enough ${itemName}"
+ 	 	 	},
+ 	 	 	"otherPlayerNotEnoughItems": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName",
+ 	 	 	 	 	"playerName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${playerName} n'a pas assez de ${itemName}",
+ 	 	 	 	"eng": "${playerName} doesn't have enough ${itemName}"
+ 	 	 	},
+ 	 	 	"otherPlayerNotEnoughSpace": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName",
+ 	 	 	 	 	"playerName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${playerName} n'a pas assez d'espace dans leur inventaire pour ${itemName}",
+ 	 	 	 	"eng": "${playerName} doesn't have enough space in their inventory for ${itemName} to complete the trade."
+ 	 	 	},
+ 	 	 	"youNotEnoughSpace": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Vous n'avez pas assez d'espace dans votre inventaire pour ${itemName}",
+ 	 	 	 	"eng": "You don't have enough space in your inventory for ${itemName} to complete the trade."
+ 	 	 	},
+ 	 	 	"youNotEnoughItem": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Vous n'avez pas assez de ${itemName} pour terminer le métier.",
+ 	 	 	 	"eng": "You don't have enough ${itemName} to complete the trade."
+ 	 	 	},
+ 	 	 	"otherPlayerNotEnoughItem": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName",
+ 	 	 	 	 	"playerName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${playerName} n'a pas assez de ${itemName} pour terminer le commerce.",
+ 	 	 	 	"eng": "${playerName} doesn't have enough ${itemName} to complete the trade."
+ 	 	 	},
+ 	 	 	"youNotEnoughMoney": {
+ 	 	 	 	"trans": "Vous n'avez pas assez d'argent pour terminer le métier.",
+ 	 	 	 	"eng": "You don't have enough money to complete the trade."
+ 	 	 	},
+ 	 	 	"otherPlayerNotEnoughMoney": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"playerName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${playerName} n'a pas assez d'argent pour terminer le métier.",
+ 	 	 	 	"eng": "${playerName} doesn't have enough money to complete the trade."
+ 	 	 	}
+ 	 	},
+ 	 	"success": {
+ 	 	 	"receivedItem": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName",
+ 	 	 	 	 	"playerName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Vous avez reçu ${itemName} de ${playerName}",
+ 	 	 	 	"eng": "You received ${itemName} from ${playerName}"
+ 	 	 	},
+ 	 	 	"sentItem": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName",
+ 	 	 	 	 	"playerName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Vous avez envoyé ${itemName} à ${playerName}",
+ 	 	 	 	"eng": "You sent ${itemName} to ${playerName}"
+ 	 	 	}
+ 	 	},
+ 	 	"moneyReceived": {
+ 	 	 	"vars": [
+ 	 	 	 	"money",
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Vous avez reçu ${money} btc de ${playerName}",
+ 	 	 	"eng": "You received ${money} BTC from ${playerName}"
+ 	 	},
+ 	 	"moneySent": {
+ 	 	 	"vars": [
+ 	 	 	 	"money",
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Vous avez envoyé ${money} btc à ${playerName}",
+ 	 	 	"eng": "You sent ${money} BTC to ${playerName}"
  	 	}
  	},
  	"tutorial": {
@@ -3613,6 +4216,10 @@
  	 	"donation15": {
  	 	 	"trans": "Prestige",
  	 	 	"eng": "Prestige"
+ 	 	},
+ 	 	"donation16": {
+ 	 	 	"trans": "Rétro Miami",
+ 	 	 	"eng": "Retro Miami"
  	 	},
  	 	"moderator": {
  	 	 	"trans": "Modérateur",
@@ -4195,6 +4802,46 @@
  	 	 	 	 	"eng": "More coming in future update"
  	 	 	 	}
  	 	 	}
+ 	 	},
+ 	 	"donation16": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "Titre de don \"Retro Miami\"",
+ 	 	 	 	 	"eng": "\"Retro Miami\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "Déverrouiller la personnalisation de l'image du profil",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Cadre de chat synthwave (avec animation)",
+ 	 	 	 	 	"eng": "Synthwave chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Profil encadré synthwave (avec animation)",
+ 	 	 	 	 	"eng": "Synthwave Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "Déverrouiller la biographie personnalisée",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Décoration de code-barres sur profil",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "Personnaliser la devise des gangs",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Personnaliser l'image des gangs",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Plus à venir dans la future mise à jour",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
  	 	}
  	},
  	"equipmentMarks": {
@@ -4261,6 +4908,14 @@
  	 	"backpack": {
  	 	 	"trans": "Sac à dos",
  	 	 	"eng": "backpack"
+ 	 	}
+ 	},
+ 	"itemFilterType": {
+ 	 	"shopSell": {
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Définissez des filtres pour sélectionner les articles à vendre à la boutique.",
+ 	 	 	 	"eng": "Set filters to select which items to sell to the shop."
+ 	 	 	}
  	 	}
  	},
  	"item": {
@@ -4616,6 +5271,26 @@
  	 	 	"description": {
  	 	 	 	"trans": "Des morceaux usagés de technologie médicale. Tu peux les utiliser pour fabriquer des objets de soins, si tu sais comment faire.",
  	 	 	 	"eng": "Bits and pieces of used medical tech. This can be used to craft healing items if you understand how"
+ 	 	 	}
+ 	 	},
+ 	 	"medicalTechCluster": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Grappe de technologie médicale",
+ 	 	 	 	"eng": "Medical Tech Cluster"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Un groupe de pièces de technologie médicale. Dans ce compact, il est plus facile de stocker et de transporter",
+ 	 	 	 	"eng": "A cluster of medical tech parts. in this compact from it's easier to store and transport"
+ 	 	 	}
+ 	 	},
+ 	 	"cassetteTape": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Cassette",
+ 	 	 	 	"eng": "Cassette Tape"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Appuyez sur cette cassette et laissez les sons doux de l'onde rétro vous transporter dans un monde imbibé de flux infini. Avec ce coup de pouce groovy, vous serez prêt à relever tout défi que le futur cyberpunk a en magasin!",
+ 	 	 	 	"eng": "Pop in this cassette tape and let the sweet sounds of retro synthwave transport you to a neon-soaked world of infinite possibility. With this groovy boost, you'll be ready to take on any challenge the cyberpunk future has in store!"
  	 	 	}
  	 	},
  	 	"expMemory": {
@@ -5577,6 +6252,34 @@
  	 	 	 	"eng": "Luna"
  	 	 	}
  	 	},
+ 	 	"bellial": {
+ 	 	 	"defaultLines": {
+ 	 	 	 	"trans": [
+ 	 	 	 	 	"Life is tough, but you're tougher. Keep fighting.",
+ 	 	 	 	 	"Stay strong, stay punk, and stay alive.",
+ 	 	 	 	 	"Remember, your worth is not defined by your struggles.",
+ 	 	 	 	 	"Don't let the system bring you down, rise up and rebel.",
+ 	 	 	 	 	"Stay connected to your inner self, and disconnect from the noise.",
+ 	 	 	 	 	"Stay online, stay strong, and stay true to yourself."
+ 	 	 	 	],
+ 	 	 	 	"eng": [
+ 	 	 	 	 	"Life is tough, but you're tougher. Keep fighting.",
+ 	 	 	 	 	"Stay strong, stay punk, and stay alive.",
+ 	 	 	 	 	"Remember, your worth is not defined by your struggles.",
+ 	 	 	 	 	"Don't let the system bring you down, rise up and rebel.",
+ 	 	 	 	 	"Stay connected to your inner self, and disconnect from the noise.",
+ 	 	 	 	 	"Stay online, stay strong, and stay true to yourself."
+ 	 	 	 	]
+ 	 	 	},
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Ruelle",
+ 	 	 	 	"eng": "Alleyway"
+ 	 	 	},
+ 	 	 	"npcName": {
+ 	 	 	 	"trans": "Prime",
+ 	 	 	 	"eng": "B3llial"
+ 	 	 	}
+ 	 	},
  	 	"recycleMachine": {
  	 	 	"name": {
  	 	 	 	"trans": "Recycleur Automatique",
@@ -5727,6 +6430,12 @@
  	 	 	"description": {
  	 	 	 	"trans": "Lance une attaque collaborative dans le cyberespace visant la forteresse de données Shangri-La. Si l'attaque réussit, il est possible de forcer la forteresse de données à transmettre des exploitations à tous les utilisateurs connectés cybernétiquement.",
  	 	 	 	"eng": "Launch a collaborative attack in cyberspace targeting the Shangri-La Data Fortress.\r\nIf the attack succeeds, it’s possible to force the Data Fortress to transmit exploits to all cybernetically connected users."
+ 	 	 	}
+ 	 	},
+ 	 	"trade": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Échanger",
+ 	 	 	 	"eng": "Trade"
  	 	 	}
  	 	},
  	 	"autoFarm": {
@@ -5881,6 +6590,16 @@
  	 	 	 	 	"trans": "Placer un objet sur le marché",
  	 	 	 	 	"eng": "Place an item on the market"
  	 	 	 	}
+ 	 	 	},
+ 	 	 	"tutorial": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "Page de tutoriel ouvert",
+ 	 	 	 	 	"eng": "Open tutorial Page"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "La page du didacticiel est dans l'onglet Profil -> Tutoriel",
+ 	 	 	 	 	"eng": "Tutorial Page is in profile tab -> Tutorial"
+ 	 	 	 	}
  	 	 	}
  	 	}
  	},
@@ -5969,6 +6688,12 @@
  	 	 	"name": {
  	 	 	 	"trans": "Enveloppe rouge",
  	 	 	 	"eng": "Red Envelope"
+ 	 	 	}
+ 	 	},
+ 	 	"medicalTechCluster": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Grappe de technologie médicale",
+ 	 	 	 	"eng": "Medical Tech Cluster"
  	 	 	}
  	 	},
  	 	"ammo1": {
@@ -6072,12 +6797,6 @@
  	 	"flashGrenade": {
  	 	 	"trans": "Grenade flash",
  	 	 	"eng": "Flash Grenade"
- 	 	}
- 	},
- 	"error": {
- 	 	"10_aborted": {
- 	 	 	"trans": "Rencontré une erreur côté serveur, si vous voyez ce message, veuillez attendre 2 minutes avant de faire une autre action pour vous assurer qu'elle ne continuera pas.",
- 	 	 	"eng": "Encountered an server side error, if you see this message, please wait for 2 minutes before making any other action to ensure it will not keep happening."
  	 	}
  	},
  	"combat": {
@@ -6291,58 +7010,6 @@
  	 	"cleared": {
  	 	 	"trans": "Dungeon effacé!",
  	 	 	"eng": "Dungeon cleared!"
- 	 	}
- 	},
- 	"inventory": {
- 	 	"ui": {
- 	 	 	"useItem": {
- 	 	 	 	"localFightCantUseItem": {
- 	 	 	 	 	"trans": "Tu ne peux pas utiliser d'objet pendant les combats de rue, les objets sont uniquement disponibles dans les donjons",
- 	 	 	 	 	"eng": "You cannot use item during street fights, items are only available during dungeons"
- 	 	 	 	}
- 	 	 	},
- 	 	 	"autoScrap": {
- 	 	 	 	"noItem": {
- 	 	 	 	 	"trans": "Aucun objet à recycler automatiquement",
- 	 	 	 	 	"eng": "No item to auto scrap"
- 	 	 	 	}
- 	 	 	}
- 	 	},
- 	 	"useItemWithExistingBuffModal": {
- 	 	 	"title": {
- 	 	 	 	"trans": "Êtes-vous sûr que vous souhaitez utiliser cet élément?",
- 	 	 	 	"eng": "Are you sure you want to use this item?"
- 	 	 	},
- 	 	 	"description": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"remaining"
- 	 	 	 	],
- 	 	 	 	"trans": "En utilisant cet élément, actualisera la minuterie du buff actif actuel et empilera l'effet le cas échéant. (${remaining})",
- 	 	 	 	"eng": "By using this item will refresh the timer of current active buff and stack the effect if applicable. (${remaining})"
- 	 	 	},
- 	 	 	"confirmText": {
- 	 	 	 	"trans": "Utilisation",
- 	 	 	 	"eng": "Use"
- 	 	 	}
- 	 	},
- 	 	"error": {
- 	 	 	"maxStack": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"itemName",
- 	 	 	 	 	"maxStackSize",
- 	 	 	 	 	"newAmount"
- 	 	 	 	],
- 	 	 	 	"trans": "Dépasser le montant maximal, ${itemName} a une taille de pile maximale de ${maxStackSize}, mais vous essayez de vous adapter à ${newAmount}",
- 	 	 	 	"eng": "Exceed item max amount, ${itemName} has max stack size of ${maxStackSize}, but you are trying to fit in ${newAmount}"
- 	 	 	},
- 	 	 	"full": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"neededAmount",
- 	 	 	 	 	"size"
- 	 	 	 	],
- 	 	 	 	"trans": "L'espace insuffisant dans l'inventaire, nécessite des machines à sous ${neededAmount}, mais vous n'avez que ${size}",
- 	 	 	 	"eng": "Insufficient space in inventory, requires ${neededAmount} slots, but you only have ${size}"
- 	 	 	}
  	 	}
  	},
  	"tier": {
@@ -6668,289 +7335,6 @@
  	 	 	}
  	 	}
  	},
- 	"modal": {
- 	 	"unitDonationConfirm": {
- 	 	 	"title": {
- 	 	 	 	"trans": "Confirmer le don",
- 	 	 	 	"eng": "Confirm donation"
- 	 	 	},
- 	 	 	"description": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"amount"
- 	 	 	 	],
- 	 	 	 	"trans": "Ce don retirera ${amount} Unités de ton compte",
- 	 	 	 	"eng": "This will donate ${amount} Unit from your account"
- 	 	 	},
- 	 	 	"notEnough": {
- 	 	 	 	"trans": "Tu n'as pas assez d'Unités pour faire un don.",
- 	 	 	 	"eng": "You do not have enough Unit to donate."
- 	 	 	}
- 	 	},
- 	 	"chatMessage": {
- 	 	 	"block": {
- 	 	 	 	"trans": "Bloquer",
- 	 	 	 	"eng": "Block"
- 	 	 	},
- 	 	 	"report": {
- 	 	 	 	"trans": "Signaler et bloquer",
- 	 	 	 	"eng": "Report and Block"
- 	 	 	},
- 	 	 	"openPlayerProfile": {
- 	 	 	 	"trans": "Voir le profil",
- 	 	 	 	"eng": "View Profile"
- 	 	 	},
- 	 	 	"openPlayerGang": {
- 	 	 	 	"trans": "Voir le Gang",
- 	 	 	 	"eng": "View Gang"
- 	 	 	},
- 	 	 	"sendGift": {
- 	 	 	 	"trans": "Envoyer un cadeau",
- 	 	 	 	"eng": "Send Gift"
- 	 	 	},
- 	 	 	"sendPrivateMessage": {
- 	 	 	 	"trans": "Envoyer un message privé",
- 	 	 	 	"eng": "Send Private Message"
- 	 	 	},
- 	 	 	"reply": {
- 	 	 	 	"trans": "Répondre",
- 	 	 	 	"eng": "Reply"
- 	 	 	}
- 	 	},
- 	 	"block": {
- 	 	 	"title": {
- 	 	 	 	"trans": "Es-tu sûr de vouloir bloquer ce joueur ?",
- 	 	 	 	"eng": "Are you sure you want to block this player?"
- 	 	 	}
- 	 	},
- 	 	"chatRuleModal": {
- 	 	 	"title": {
- 	 	 	 	"trans": "Accepte les règles ci-dessous avant de commencer à discuter",
- 	 	 	 	"eng": "Please agree to the rules below before start chatting"
- 	 	 	},
- 	 	 	"rule1": {
- 	 	 	 	"trans": "Pas de spam ou de message sans signification.",
- 	 	 	 	"eng": "No spamming or meaningless message."
- 	 	 	},
- 	 	 	"rule2": {
- 	 	 	 	"trans": "Aucune violence verbale ou menace.",
- 	 	 	 	"eng": "No personal attacks or threats."
- 	 	 	},
- 	 	 	"rule4": {
- 	 	 	 	"trans": "Pas de vocabulaire inapproprié.",
- 	 	 	 	"eng": "No inappropriate language."
- 	 	 	},
- 	 	 	"footer": {
- 	 	 	 	"trans": "Tu seras mis en sourdine si tu ne respectes pas l'une de ces règles",
- 	 	 	 	"eng": "You will be MUTED if you breach any of the rules"
- 	 	 	},
- 	 	 	"footer2": {
- 	 	 	 	"trans": "La liste complète des règles est disponible dans le profil > Tutoriels > Règles",
- 	 	 	 	"eng": "Full list of rules can be found in Profile > Tutorials > Rules"
- 	 	 	},
- 	 	 	"agreeToggle": {
- 	 	 	 	"title": {
- 	 	 	 	 	"trans": "Je comprends et je n'enverrai jamais de spam ni n'enfreindrai aucune des règles du chat",
- 	 	 	 	 	"eng": "I understand and I will never spam or break any of the chat rules"
- 	 	 	 	}
- 	 	 	},
- 	 	 	"disagreeButtonButton": {
- 	 	 	 	"trans": "Non",
- 	 	 	 	"eng": "No"
- 	 	 	},
- 	 	 	"confirmButton": {
- 	 	 	 	"agreed": {
- 	 	 	 	 	"trans": "Je ne spammerai pas",
- 	 	 	 	 	"eng": "I won't spam"
- 	 	 	 	},
- 	 	 	 	"notAgree": {
- 	 	 	 	 	"trans": "Je ne suis pas d'accord",
- 	 	 	 	 	"eng": "I don't agree"
- 	 	 	 	}
- 	 	 	}
- 	 	},
- 	 	"contributionModal": {
- 	 	 	"title": {
- 	 	 	 	"trans": "Le joueur a contribué au contenu",
- 	 	 	 	"eng": "Player contributed content"
- 	 	 	},
- 	 	 	"description": {
- 	 	 	 	"trans": "Tu peux contribuer au contenu comme celui-ci et beaucoup plus également en modifiant les fichiers de configuration de notre page Github.",
- 	 	 	 	"eng": "You can contribute to content like this and many more too by editing the config files in our GitHub page."
- 	 	 	},
- 	 	 	"confirm": {
- 	 	 	 	"trans": "Aller à Github",
- 	 	 	 	"eng": "Go to GitHub"
- 	 	 	},
- 	 	 	"cancel": {
- 	 	 	 	"trans": "D'accord",
- 	 	 	 	"eng": "ok"
- 	 	 	}
- 	 	},
- 	 	"equipmentQuickMenu": {
- 	 	 	"unequip": {
- 	 	 	 	"trans": "Déséquiper",
- 	 	 	 	"eng": "unequip"
- 	 	 	},
- 	 	 	"viewDetails": {
- 	 	 	 	"trans": "Voir les détails",
- 	 	 	 	"eng": "View Details"
- 	 	 	},
- 	 	 	"swap": {
- 	 	 	 	"trans": "Remplacer l'équipement",
- 	 	 	 	"eng": "replace equipment"
- 	 	 	}
- 	 	},
- 	 	"languagePrompt": {
- 	 	 	"title": {
- 	 	 	 	"trans": "Traduction non officielle",
- 	 	 	 	"eng": "Unofficial translation"
- 	 	 	},
- 	 	 	"description1": {
- 	 	 	 	"trans": "Comme ce jeu est réalisé par une seule personne, il est très difficile de traduire toutes les langues correctement, mais je travaille sur l'ajout d'autres traductions :)",
- 	 	 	 	"eng": "As this game is made by only one person, it's very difficult translate all languages correctly, but I am working on adding more translations :)"
- 	 	 	},
- 	 	 	"description": {
- 	 	 	 	"trans": "Tu peux changer la langue à tout moment en accédant aux Paramètres",
- 	 	 	 	"eng": "You can change language anytime at the settings page"
- 	 	 	},
- 	 	 	"dontShowAgain": {
- 	 	 	 	"title": {
- 	 	 	 	 	"trans": "Ne plus me montrer ceci",
- 	 	 	 	 	"eng": "Don't show this again"
- 	 	 	 	}
- 	 	 	},
- 	 	 	"goToSettings": {
- 	 	 	 	"trans": "Changer en anglais",
- 	 	 	 	"eng": "Change to English"
- 	 	 	},
- 	 	 	"confirmButton": {
- 	 	 	 	"title": {
- 	 	 	 	 	"trans": "Je comprends",
- 	 	 	 	 	"eng": "I understand"
- 	 	 	 	},
- 	 	 	 	"description": {
- 	 	 	 	 	"trans": "Utiliser une traduction non officielle",
- 	 	 	 	 	"eng": "Use unofficial translation"
- 	 	 	 	}
- 	 	 	}
- 	 	},
- 	 	"playerSearch": {
- 	 	 	"searchPlayerHint": {
- 	 	 	 	"trans": "Entrer le nom du joueur à rechercher",
- 	 	 	 	"eng": "Enter player name to search"
- 	 	 	},
- 	 	 	"noPlayerFound": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"search"
- 	 	 	 	],
- 	 	 	 	"trans": "Aucun joueur nommé \"${search}\" trouvé",
- 	 	 	 	"eng": "No player with named \"${search}\" found"
- 	 	 	}
- 	 	},
- 	 	"promotion": {
- 	 	 	"title": {
- 	 	 	 	"trans": "Diffusion reçue",
- 	 	 	 	"eng": "Broadcast Received"
- 	 	 	},
- 	 	 	"dontShowAgain": {
- 	 	 	 	"trans": "Ne pas montrer cette diffusion de nouveau",
- 	 	 	 	"eng": "Don\\'t show this broadcast again"
- 	 	 	}
- 	 	},
- 	 	"resultScreen": {
- 	 	 	"title": {
- 	 	 	 	"trans": "Victoire",
- 	 	 	 	"eng": "Victory"
- 	 	 	},
- 	 	 	"subTitle": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"levelName"
- 	 	 	 	],
- 	 	 	 	"trans": "Félicitations, tu as augmenté ton ${levelName} !",
- 	 	 	 	"eng": "Congratulation, you have leveled up your ${levelName}!"
- 	 	 	},
- 	 	 	"fromTo": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"from",
- 	 	 	 	 	"to"
- 	 	 	 	],
- 	 	 	 	"trans": "${from} => ${to}",
- 	 	 	 	"eng": "${from} => ${to}"
- 	 	 	}
- 	 	},
- 	 	"review": {
- 	 	 	"title1": {
- 	 	 	 	"trans": "Je suis Dexter, le développeur de ce jeu, et j'espère connaître ton expérience jusqu'à présent.",
- 	 	 	 	"eng": "I'm Dexter, the developer of this game, and I hope to know your experience so far."
- 	 	 	},
- 	 	 	"title2": {
- 	 	 	 	"trans": "Combien d'étoiles donnerais-tu ?",
- 	 	 	 	"eng": "How many stars would you give?"
- 	 	 	},
- 	 	 	"badReview": {
- 	 	 	 	"title": {
- 	 	 	 	 	"trans": "Je suis tellement désolé, s'il te plaît, dis-moi ce que je peux améliorer",
- 	 	 	 	 	"eng": "I am so sorry, please let me know where I can improve"
- 	 	 	 	}
- 	 	 	},
- 	 	 	"goodReview": {
- 	 	 	 	"title1": {
- 	 	 	 	 	"trans": "Wow ! Merci beaucoup ! Je suis honoré, peux-tu le rendre officiel en laissant l'avis sur le Store :) ?",
- 	 	 	 	 	"eng": "Wow, thanks so much! I'm honored, please make it official by leaving them on our store page :)"
- 	 	 	 	},
- 	 	 	 	"title2": {
- 	 	 	 	 	"trans": "Tes commentaires positifs m'aideront et permettront d'amener plus de joueurs dans notre communauté !",
- 	 	 	 	 	"eng": "Your good review is going to help me much and bring more players into our community!"
- 	 	 	 	}
- 	 	 	},
- 	 	 	"dontAskMeAgain": {
- 	 	 	 	"trans": "Ne plus me demander",
- 	 	 	 	"eng": "Don't ask me again"
- 	 	 	},
- 	 	 	"reviewLater": {
- 	 	 	 	"trans": "Donner mon avis plus tard",
- 	 	 	 	"eng": "review later"
- 	 	 	}
- 	 	},
- 	 	"newbieTutorial": {
- 	 	 	"welcomeMsg": {
- 	 	 	 	"trans": "Bienvenue dans le meilleur MMORPG textuel",
- 	 	 	 	"eng": "Welcome to the best Text MMORPG"
- 	 	 	},
- 	 	 	"noShowToggle": {
- 	 	 	 	"description": {
- 	 	 	 	 	"trans": "Tu peux voir le tutoriel complet dans Profil > Tutoriel",
- 	 	 	 	 	"eng": "You can see the full tutorial at Profile > Tutorial tab"
- 	 	 	 	},
- 	 	 	 	"label": {
- 	 	 	 	 	"trans": "Ne plus afficher le message",
- 	 	 	 	 	"eng": "Don't show this again"
- 	 	 	 	}
- 	 	 	},
- 	 	 	"closeButton": {
- 	 	 	 	"title": {
- 	 	 	 	 	"trans": "Fermer",
- 	 	 	 	 	"eng": "Close"
- 	 	 	 	}
- 	 	 	}
- 	 	},
- 	 	"updateModal": {
- 	 	 	"title": {
- 	 	 	 	"trans": "Une mise à jour a été installée",
- 	 	 	 	"eng": "An update has been installed"
- 	 	 	},
- 	 	 	"description": {
- 	 	 	 	"trans": "Clique sur recharger pour continuer",
- 	 	 	 	"eng": "Please click reload to continue"
- 	 	 	},
- 	 	 	"reloadButton": {
- 	 	 	 	"title": {
- 	 	 	 	 	"trans": "Recharger",
- 	 	 	 	 	"eng": "Reload"
- 	 	 	 	}
- 	 	 	}
- 	 	}
- 	},
  	"chatExploit": {
  	 	"loveWords": {
  	 	 	"trans": [
@@ -7168,6 +7552,10 @@
  	 	 	},
  	 	 	"step1": {
  	 	 	 	"trans": "2. Fait, c'est tout !",
+ 	 	 	 	"eng": "1. Have your friend enter your in-game name during character creation"
+ 	 	 	},
+ 	 	 	"step2": {
+ 	 	 	 	"trans": "2. Fait, c'est tout!",
  	 	 	 	"eng": "2. done, thats it!"
  	 	 	}
  	 	},
@@ -7177,7 +7565,35 @@
  	 	},
  	 	"footnote2": {
  	 	 	"trans": "* Vous recevrez les temps dans votre boîte de réception lorsque votre ami atteindra le niveau 20",
- 	 	 	"eng": "*You will receive the times in your item inbox when your friend reaches level 20"
+ 	 	 	"eng": "*You will receive the items in your item inbox when your friend reaches level 20"
+ 	 	}
+ 	},
+ 	"retroPromo": {
+ 	 	"title": {
+ 	 	 	"trans": "Mise à jour de synthwave",
+ 	 	 	"eng": "Sythwave Update"
+ 	 	},
+ 	 	"desc1": {
+ 	 	 	"trans": "Ajout d'un cluster de technologie médicale, peut être fabriqué avec 1000 pièces de technologie médicale. Cela peut être utilisé pour stocker efficacement une grande quantité de pièces de technologie médicale",
+ 	 	 	"eng": "Added Medical Tech Cluster, can be crafted with 1000 medical tech parts. this can be use to efficiently store large amount of medical tech parts"
+ 	 	},
+ 	 	"desc2": {
+ 	 	 	"vars": [
+ 	 	 	 	"shopName"
+ 	 	 	],
+ 	 	 	"trans": "Ajout d'un article spécial \"cassette\", lorsque vous recevrez des buffs qui vous donnent + 20% de dégâts et + 20% de défense, la seule façon d'obtenir cet article est un paquet gratuit quotidien dans ${shopName}",
+ 	 	 	"eng": "Added special item \"Cassette Tape\", when used you will receive buffs that gives you +20% damage and +20% defense, the only way to get this item is daily free bundle in ${shopName}"
+ 	 	},
+ 	 	"desc3": {
+ 	 	 	"trans": "Détails de l'article Ui Redesigné, maintenant il met en évidence le bouton primaire et les boutons secondaires ont été changés en plus petite taille",
+ 	 	 	"eng": "Item details UI redesigned, now it highlights primary button and secondary buttons has been changed to smaller size"
+ 	 	},
+ 	 	"desc4": {
+ 	 	 	"vars": [
+ 	 	 	 	"name"
+ 	 	 	],
+ 	 	 	"trans": "Ajout d'un nouveau cadre de chat \"${name}\"",
+ 	 	 	"eng": "Added a new \"${name}\" donator chat frame"
  	 	}
  	},
  	"reportPlayerModal": {
@@ -7255,6 +7671,12 @@
  	 	 	 	}
  	 	 	}
  	 	},
+ 	 	"error": {
+ 	 	 	"inviteCooldown": {
+ 	 	 	 	"trans": "Vous avez déjà invité ce joueur récemment",
+ 	 	 	 	"eng": "You have already invited this player recently"
+ 	 	 	}
+ 	 	},
  	 	"notInGang": {
  	 	 	"trans": "Tu n'es pas dans un gang",
  	 	 	"eng": "You are not in a gang"
@@ -7293,6 +7715,56 @@
  	 	 	}
  	 	}
  	},
+ 	"itemFilterSettingPage": {
+ 	 	"title": {
+ 	 	 	"trans": "Réglage de filtre",
+ 	 	 	"eng": "Filter Setting"
+ 	 	},
+ 	 	"selectEquipment": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Sélectionner l'équipement",
+ 	 	 	 	"eng": "Select Equipment"
+ 	 	 	}
+ 	 	},
+ 	 	"equipmentTier": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Niveau d'équipement",
+ 	 	 	 	"eng": "Equipment Tier"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Équipements avec niveau égal ou inférieur au niveau sélectionné sélectionné.",
+ 	 	 	 	"eng": "Equipments with tier equal or lower than the selected tier selected."
+ 	 	 	}
+ 	 	},
+ 	 	"selectCache": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Sélectionner le cache",
+ 	 	 	 	"eng": "Select Cache"
+ 	 	 	}
+ 	 	},
+ 	 	"cacheTier": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Niveau de cache",
+ 	 	 	 	"eng": "Cache Tier"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Caches avec un niveau égal ou inférieur au niveau sélectionné sélectionné.",
+ 	 	 	 	"eng": "Caches with tier equal or lower than the selected tier selected."
+ 	 	 	}
+ 	 	},
+ 	 	"selectUpgradeModule": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Sélectionnez le module de mise à niveau",
+ 	 	 	 	"eng": "Select Upgrade Module"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeModuleTier": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Niveau de module de mise à niveau",
+ 	 	 	 	"eng": "Upgrade Module Tier"
+ 	 	 	}
+ 	 	}
+ 	},
  	"donationPage": {
  	 	"benefits": {
  	 	 	"trans": "Avantages",
@@ -7300,21 +7772,6 @@
  	 	},
  	 	"title": {
  	 	 	"trans": "Niveaux de don",
- 	 	 	"eng": "Donation Tiers"
- 	 	},
- 	 	"monthlySubscription": {
- 	 	 	"trans": "Abonnement mensuel",
- 	 	 	"eng": "Monthly Subscription"
- 	 	},
- 	 	"payPalPricePerMonth": {
- 	 	 	"vars": [
- 	 	 	 	"price"
- 	 	 	],
- 	 	 	"trans": "${price} USD par mois",
- 	 	 	"eng": "${price} USD Per Month"
- 	 	},
- 	 	"TiersTitle": {
- 	 	 	"trans": "Niveaux de donation",
  	 	 	"eng": "Donation Tiers"
  	 	},
  	 	"unitPrice": {
@@ -7342,6 +7799,17 @@
  	 	"permanentDescription": {
  	 	 	"trans": "Ce titre n'expirera jamais. \\nIl reste avec ton compte pour toujours.",
  	 	 	"eng": "This title will never expire.\\nIt stays with your account forever."
+ 	 	},
+ 	 	"monthlySubscription": {
+ 	 	 	"trans": "Abonnement mensuel",
+ 	 	 	"eng": "Monthly Subscription"
+ 	 	},
+ 	 	"payPalPricePerMonth": {
+ 	 	 	"vars": [
+ 	 	 	 	"price"
+ 	 	 	],
+ 	 	 	"trans": "${price} USD par mois",
+ 	 	 	"eng": "${price} USD Per Month"
  	 	}
  	},
  	"cosmetic": {
@@ -7485,6 +7953,12 @@
  	 	 	"eng": "You have successfully sent an emblem to player \"${playerName}\""
  	 	}
  	},
+ 	"gifting": {
+ 	 	"cannotSend": {
+ 	 	 	"trans": "Ce joueur ne peut pas recevoir de cadeau maintenant",
+ 	 	 	"eng": "This player cannot receive gift now"
+ 	 	}
+ 	},
  	"player": {
  	 	"error": {
  	 	 	"deleteWhileMuted": {
@@ -7567,17 +8041,6 @@
  	 	"nameInvalid": {
  	 	 	"trans": "La longueur du nom doit être supérieure à 4, moins ou égale à 16 et ne contient que des caractères anglais, des nombres ou \\ '_ \\'",
  	 	 	"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'"
- 	 	}
- 	},
- 	"itemUse": {
- 	 	"error": {
- 	 	 	"effectStillLong": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"time"
- 	 	 	 	],
- 	 	 	 	"trans": "On dirait qu'il y a déjà un même effet de statut déployé par un autre joueur. Vous pouvez vous déployer à nouveau en ${time} minute.",
- 	 	 	 	"eng": "Seems like there is a same status effect deployed by other player already. you may deploy again in ${time} minute."
- 	 	 	}
  	 	}
  	}
 }

@@ -2,34 +2,36 @@
 [DexterHuang](https://github.com/DexterHuang)
 
 ## Moderators
-[alfaice](https://github.com/alfaice)
-AlphaC58
 Artra
 AskAmando
 Ayanna
 B3llial
 BoxinFoxx
+HBUNKNOWN
+Indilil
+Nokan
+Lissa
+Tear1
+Unca_Feddit
+Wooffle
+YANDEREsenpaiXD
+YIRUO
+ZhannaKim26
+## Retired Moderators
+[alfaice](https://github.com/alfaice)
+AlphaC58
 [CMDR7](https://github.com/cmdr7)
 [Deckeeper](https://github.com/deckeeper)
 Dr_Pig
 EsmeJ
 Fudgee
-HBUNKNOWN
 HLYGD
-Indilil
-Nokan
 [krolik](https://github.com/kroliklapine)
 [l33t4ng3l](https://github.com/l33t4ng3l)
-Lissa
 [PotatoMan](https://github.com/PotatoMan145)
-Tear1
 [Tripplehelix](https://github.com/tripplehelix)
-Unca_Feddit
 [WhirlingDervish](https://github.com/NickN5)
-Wooffle
-YANDEREsenpaiXD
-YIRUO
-ZhannaKim26
+
 
 ## Music
 [CMDR7](https://github.com/cmdr7)
@@ -74,6 +76,7 @@ MontyPython
 [PedroCisnerosSantana](https://github.com/PedroCisnerosSantana)
 [PsyB34R](https://www.instagram.com/psybearr)
 [QuiteABitofAll](https://github.com/QuiteaBitofAll)
+[Quinera](https://github.com/Quinera)
 roucoupute2
 Rilla
 Rinelle
@@ -116,7 +119,7 @@ Wanna
 [SunRisek](https://github.com/szymonagk)
 [Fataliste](https://github.com/Nasaelo)
 [Karont20](https://github.com/KarontDev)
-[Valkyria](https://github.com/Paugwvsk)
+[VanrSky](https://github.com/Paugwvsk)
 [BazzJazz](https://github.com/BassJazz) 
 [Syll](https://github.com/iburiedthesun) 
 [blacksurgeon](https://github.com/blacksurgeon) 
@@ -131,8 +134,9 @@ ClayBravo6
 [TMD2](https://github.com/TMD0)
 [SkyNetX007](https://github.com/SkyNetX007)
 [converdario](https://github.com/converdario)
-[Maddening](https://github.com/Wildlife4700)
+[Maddening](https://github.com/NaturallyCreepy)
 [S0M3_DUD3](https://github.com/S0M3-DUD3)
+[Jhown](https://github.com/Jhown-glitch)
 [Elrecoal-19](https://github.com/Elrecoal-19)
 Ambr_ence
 Vargur
@@ -152,6 +156,7 @@ Vargur
 Kalinka
 [Polestar](https://github.com/P0L3-5T4R)
 ClayBravo6
+[Christophers27](https://github.com/Christophers27)
 
 ## Lore
 [Ayanna](https://github.com/JustACloud)
@@ -197,6 +202,7 @@ Amalgamate
 [AndyCandy](https://github.com/andycandy-de)
 Brownin89
 [Deckeeper](https://github.com/deckeeper)
+delada58
 [DexterHuang](https://github.com/DexterHuang)
 Dragonmaster84
 ElectricSoldier323
@@ -214,6 +220,7 @@ LitFill
 [MagicCookie](https://github.com/GooseGooseStop)
 mika
 Mmmmmmmfood
+[Mondmaus](https://github.com/mondmaus)
 MontyPython
 Negative
 [nopeholmes](https://github.com/nopeholmes)
@@ -226,6 +233,7 @@ Rejid
 RezaRnew100
 romain22222
 RookieBob
+Shaullandry
 SitiSchu
 SKIFFI
 [skullbuns](https://github.com/Skullbuns)
@@ -272,6 +280,7 @@ Livingdead
 Vega_Efsunborn
 [Laani](https://github.com/Laani)
 [Manz](https://github.com/manztellen)
+[Christophers27](https://github.com/Christophers27)
 
 ## Game resources (words)
 [apetro](https://github.com/apetro/)

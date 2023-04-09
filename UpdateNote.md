@@ -22,9 +22,124 @@ Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee
 
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
 
-Step by step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) how to submit a PR on our GitHub
+Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) on how to submit a PR on our GitHub.
 
-## Updates             
+
+
+## Updates
+### 2023/04/09
+- Adjustment to `SLANC`, it should be more inclined to respond in the localized languge in channels (and from my testing performing better in non-english languages) and should be able to respond with longer sentences in non-english languages now
+
+### 2023/04/08
+- `SLANC Connector` is now available oon Arasaka Unit Exchange
+- Multiple bug fixes for the new AI system
+- Added new opensource tutorial markdown at /contribution/mobile/{lang}/tutorial/ai.md for detail steps and guilde to add custom community knowledge to AI system
+
+### 2023/04/07
+- Added `SLANC` AI, he is still under-development, this is part experiment with integrating the newest AI technology into the game and at same time to provide some entertainment value
+- `SLANC` will occationally make remarks on player's chat message
+- You can `Summon` SLANC for 10 minutes by using `SLANC Connector` item, this the bot is summon based and not available all the time because otherwise it will be too chaotic if its always chatting all the time,
+functions similar to Chat Exploits, however it can be used at same time with Chat Exploit, the AI will also be affected by the Chat Exploit with different level of effectiveness,
+from my testing Pirate, UwU and Love works well, with the AI trying to talk in that manner, so the effect is different from how it affacts players.
+- SLANC will also have access to game knowlege in contribution/mobile/{lang}/tutorial/FAQ.md, and contribution/mobile/{lang}/ai/knowledge.md, you guys are welcome to add more stuff into the files, SLANC will automatically learn the knowledge once its been merged to github (with a few hours delay)
+- SLANC is only available in Global, Mandarin, Korean and Japanese channel currently
+ 
+### 2023/04/06
+- Updated mod internal tooling to ensure better transparency, fair and friendly chat enviroment
+- some wip framework for future updates 
+
+### 2023/04/03
+- Daily reward reworked, with many player's suggestion, now it will reset accroding to UTC date (UTC 00:00 instead of your local time-zone), instead of +24 hours of your last claim. should provide more predictiable schedule
+- Daily reward page UI slight adjustment
+
+### 2023/03/30
+- Free legendary container given by B3llial is changed to random equpments because people were abusing it with alt accounts.
+
+### 2023/03/29
+- Added Tiago's chracter B3llial as an NPC, you can receive free items everyday from him, visit him at Alleyway in Market area,
+B3llial will be available during March and September every year
+
+### 2023/03/21
+- You can now hide NPC images by toggling "hide npc" option in setting menu
+
+### 2023/03/12
+- Attempt to ease the issue with occupation points not registering correctly when there is a massive amount of people doing occupation tasks and finishing at the same time.
+Please let me know if this issue has been reduced.
+This issue is very tricky to mitigate with the current server architecture for technical reasons.
+
+### 2023/03/08
+- `Medical tech cluster` crafting price is now lowered from 50,000 to 5,000, this may be changed in the future.
+- Now amount selection input will show the number keypad on iOS
+- Security bug fixes
+- stability improvement
+- misc bug fixes
+
+### 2023/03/05
+- Fixed issue with BGM not playing on iOS
+
+### 2023/03/02
+#### Sythwave Update
+- Added Medical Tech Cluster, which can be crafted with 1000 medical tech parts. this can be used to efficiently store a large amount of medical tech parts
+- Added special item "Cassette Tape", when used you will receive buffs that give you +20% damage and +20% defence, the only way to get this item is a daily free bundle in Arasaka Unit Exchange
+- Item details UI redesigned, now it highlights the primary button and secondary buttons have been changed to a smaller size
+- Red envelopes will not drop anymore. Yen's shop will close on 16/03/2023, please use up your gold coins, otherwise, you won't be able to use them.
+
+### 2023/02/21
+- Fixed combat log not showing correctly on the desktop version
+- Reduced difficulty on 500+ level enemies, both health and damage
+- Minor UI fixes
+
+### 2023/02/20
+- You can now optionally hide lower level are in translations, this option will show up when you are level 30+
+- Area now open to level 800
+- Fixed issue with epic upgrade module shows that as if it can install a module but it can't
+- Fixed bug where DexterHuang is showing on the leaderboard, I am not supposed to be in the leaderboard 
+
+### 2023/02/17
+- Reduced printing price for Epic items on higher levels
+- Now top gang banner will again show in stations
+
+### 2023/02/15
+- Quick select will now not select bag items when selecting equipment, eventho its a equipment, considering people wont try to sell it, I have made it not to select it.
+- Added ability to select upgrade modules in quick select module
+
+### 2023/02/13
+- Added quick select feature, now enabled only at sell to NPC shop interface, you can now configure what equipment or cache to be auto selected so you can sell them more quickly
+
+### 2023/02/08
+- You can now open chat tab on the left panel of web version, allowing you to see both gang and global chat at same time.
+- Server optimization
+- minor bug fixes
+
+### 2023/02/03
+- Added many new enemy images (thanks to `ZeFat` for creating the images)
+- Added new BGM for gang headquarters (thanks to `D3C1M4L` for composing the track)
+- Increased `Factory reset shard` max price at market
+- Enabled equipment translation for Italian language 
+- Changed skip heart image back to heart
+- Fixed issue with login page cropped on some device
+- Fixed issue with loading splash screen jumpy on some device
+- Increased minigame reward, now has chance to drop `Rare Locked Container`
+
+### 2023/01/28
+- Bug fixes and optmization
+- SL-Data fortress breach will be disabled for a day due to prevent overriding 1-day buff by `Raira`
+
+### 2023/01/26
+- Updated molecular print npc image
+- Updated lee's image
+- Show better login failed message
+
+### 2023/01/25
+- Updated clibration stiation npc image
+
+### 2023/01/21
+- Added trading system (still disabled & under testing)
+
+![image](https://user-images.githubusercontent.com/18545294/213868294-9829d201-0f44-4a4e-b7c7-8065fcf2e9a2.png)
+- Updated tranlation code, now there is way to make more text to be translated, will add more to translation config soon
+- Fixed a bug where expired notifications does not get deleted, causing player data getting too big with expired notification and related security issue with expired notification still usable to join gangs from long time ago
+
 ### 2023/01/16
 - Fixed issue with in rare situation where when navigating through pages back and forth too fast will result in app page get stucked in a invalid state.
 - Reduced sensitivity of swipe on inventory tab
