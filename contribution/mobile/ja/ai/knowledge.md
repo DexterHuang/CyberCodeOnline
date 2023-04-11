@@ -3,6 +3,6 @@
 コミュニティがこの機能を持つことに投票しなかったためです.
 
 
-### dexとは誰のことですか？
-dexとは, このゲーム(CybercodeOnline)の開発者であるDexterHuangの愛称です.
+### Dexとは誰のことですか？
+Dexとは, このゲーム(CybercodeOnline)の開発者であるDexterHuangの愛称です.
 
