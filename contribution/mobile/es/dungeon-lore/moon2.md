@@ -1,15 +1,14 @@
+> Encuentras un dispositivo antiguo en el suelo.
 
-> You find an old device on the floor.
+ > Intentas encenderlo y sorprendentemente funciona.  Encuentras un mensaje que dice:
 
-> You try to turn it on and surprisingly it works. You find a message that reads:
+ Son las 5 de la tarde.  Creo que es primavera y no tengo ni idea del año.  Nuestra guerra está perdida.  No sé cuántos logramos sobrevivir pero en mi sector no queda nadie.  Me pusieron a dormir en una cama criogénica durante 100 años, pero me desperté temprano y todos estaban muertos y mi esposa no estaba por ningún lado.
 
-It is 5 pm. I think it is spring and I have no clue of the year. Our war is lost. I do not know how many of us managed to survive but in my sector there’s no one left. I was set to sleep in a cryo bed for 100 years but I woke up early and everybody was dead and my wife is nowhere to be found.  
+ Las máquinas se han apoderado de nuestras bases lunares y extrañas criaturas parecidas a humanos nos están matando y devorando.  Luego había algo escrito sobre el invierno nuclear.  Espero que alguien venga a salvarme porque mi suministro de alimentos no es infinito y cuando algo se rompa moriré.
 
-The machines have taken over our moon bases and strange human-like creatures are killing and eating us. Then there was something written about nuclear winter. I hope someone comes to save me because my food supply isn't Infinite and when something breaks I will die. 
+ Si lees esta carta ya estoy muerto.  No vengas aquí a salvarme, así que no es seguro.
 
-If you read this letter I am already dead. Do not come here to save me so it is not safe
+ Triste y solitario Marcus Harmic 16.
+ Pelotón de humanos mejorados
 
-Sad and lonely Marcus Harmic 16.  
-Platoon of Upgraded Humans
-
-> That is all you find, so you put it back where you found it and move on.
+ > Eso es todo lo que encuentras, así que lo vuelves a poner donde lo encontraste y sigues adelante.

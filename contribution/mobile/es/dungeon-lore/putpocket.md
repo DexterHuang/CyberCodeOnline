@@ -1,22 +1,22 @@
-As you wander through the ruins of the city, you find a suspicious warehouse with high security, but you realize you are running out of ammunition and medical supplies.
+Mientras deambulas por las ruinas de la ciudad, encuentras un almacén sospechoso con alta seguridad, pero te das cuenta de que te estás quedando sin municiones y suministros médicos.
 
-You returned to Shangri-La, remembering its location.
-And you posted a job posting on the network.
+ Regresaste a Shangri-La, recordando su ubicación.
+ Y publicaste un anuncio de trabajo en la red.
 
-Within minutes, three strangers came in and you made contact with them.
+ En cuestión de minutos, entraron tres extraños y te pusiste en contacto con ellos.
 
-One was dressed like a biker with spikes from head to toe.
-Another was dressed in a mohican head with a rag-like thong that was not known to be clothing or ornaments.
-The other was wearing a weird mask and unknown bone fragments and dolls on his waist.
+ Uno estaba vestido como un motociclista con clavos de pies a cabeza.
+ Otro estaba vestido con una cabeza de mohicano con una correa parecida a un trapo que no se sabía que fuera ropa ni adornos.
+ El otro llevaba una máscara extraña y fragmentos de huesos desconocidos y muñecos en la cintura.
 
-You took the lead by explaining that there were good things to 'borrow' nearby.
+ Usted tomó la iniciativa al explicar que había cosas buenas para 'tomar prestadas' cerca.
 
-Then there was a noise from behind.
+ Entonces hubo un ruido desde atrás.
 
-Sensing the somthing wrong, you immediately pulled out your gun and aimed at them, but your vision shook and a dull shock came over you.
-You felt anger and emptiness, and you fell down.
+ Sintiendo que algo andaba mal, inmediatamente sacaste tu arma y les apuntaste, pero tu visión tembló y te sobrevino una sorpresa sorda.
+ Sentiste ira y vacío, y te caíste.
 
-After a while, you feel alive and get up.
-You looked around and found a warehouse full of waste, a box full of ammunition and painkillers, and a note.
+ Después de un tiempo, te sientes vivo y te levantas.
+ Miraste a tu alrededor y encontraste un almacén lleno de desechos, una caja llena de municiones y analgésicos, y una nota.
 
->Beware of putpockets!
+ >¡Cuidado con los bolsillos!

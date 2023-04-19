@@ -1,11 +1,11 @@
-## Shangri-La News:
+## Noticias de Shangri-La:
 
-Newscaster: “Breaking news one of our most infamous local drug dealers named ID123456789 has been given a parol by our government. Here is our local correspondent Kirk Dee with some questions for him.”
+ Presentador de noticias: “Noticias de última hora, uno de nuestros traficantes de drogas locales más infames llamado ID123456789 ha recibido una libertad condicional por parte de nuestro gobierno.  Aquí está nuestro corresponsal local Kirk Dee con algunas preguntas para él”.
 
-Reporter: “Sir, there is a rumor going around that you bribed the officials to release you early, do you have a statement about that?”
+ Reportero: “Señor, corre el rumor de que sobornó a los funcionarios para que lo liberaran antes, ¿tiene alguna declaración al respecto?”
 
-ID: “Nope I am a changed man.” He laughs.
+ ID: "No, soy un hombre cambiado".  Él ríe.
 
-Reporter: “What are your plans now you’re a free man?”
+ Reportero: "¿Cuáles son tus planes ahora que eres un hombre libre?"
 
-ID: “I will build a waste management company I guess?” He laughs again, “I want to give back to my community.”
+ ID: "Construiré una empresa de gestión de residuos, ¿supongo?"  Se ríe de nuevo: “Quiero retribuir a mi comunidad”.

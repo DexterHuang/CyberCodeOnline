@@ -1,30 +1,29 @@
-> #30780317 Phone Call Elin
+> #30780317 Llamada telefónica Elin
 
-"Bebo what do you mean she's hurt?" She was practically screaming at her brother. It had been almost a year since they'd last talked, and they had screamed last time, too.  
+ "Bebo, ¿qué quieres decir con que está herida?"  Prácticamente le estaba gritando a su hermano.  Había pasado casi un año desde la última vez que hablaron, y también habían gritado la última vez.
   
-She could tell he was trying to be restrained as he spoke to her.  
+ Se dio cuenta de que él estaba tratando de contenerse mientras le hablaba.
   
-"Look, Elin, a fight broke out in the street out front, it's not too bad but she got hurt by some of the gunfight." 
+ "Mira, Elin, estalló una pelea en la calle de enfrente, no es tan grave, pero ella resultó herida por parte del tiroteo".
   
-Elin took a moment. She counted down from five to calm herself as a million questions span in her head.  
+ Elin se tomó un momento.  Contó hacia atrás desde cinco para calmarse mientras un millón de preguntas se agolpaban en su cabeza.
   
-"What the fuck happened?"  
+ "¿Qué diablos pasó?"
   
-His voice quieted. "There's a turf war, some guys found a rival gang out front. We're in the lower Hospital now."  
+ Su voz se calmó.  "Hay una guerra territorial, algunos tipos encontraron una pandilla rival en el frente. Estamos en el hospital inferior ahora".
   
-Elin began to make calculations in her head. A trauma team would be too aggressive, but her company had a medic team that could get it done.  
+ Elin comenzó a hacer cálculos en su cabeza.  Un equipo de trauma sería demasiado agresivo, pero su empresa tenía un equipo médico que podía hacerlo.
   
-"I'll send a medic team to get her." She wasn't going to budge on this.  
+ Enviaré un equipo médico a buscarla.  Ella no iba a ceder en esto.
   
-"Elin, no I won't have any corpo shit here!"  
+ "¡Elin, no, no tendré ninguna mierda corporativa aquí!"
   
-Elin had known her brother would protest, but she also knew their love for their mother would win in the end.  
+ Elin sabía que su hermano protestaría, pero también sabía que el amor por su madre ganaría al final.
   
-"Goddammit, Bebo, we can't do this right now. I want her to have the best."  
+ "Maldita sea, Bebo, no podemos hacer esto ahora. Quiero que ella tenga lo mejor".
   
-"And what? the best is your money? You can't throw money at everything Elin- You haven't even visited in months! And what you wanna swoop in now? " 
+ "¿Y qué? ¿Lo mejor es tu dinero? No puedes gastar dinero en todo Elin- ¡Ni siquiera has visitado en meses! ¿Y en qué quieres abalanzarte ahora?"
   
-Elin could hear the hate in his words, but she stopped herself again "Bebo, they're on their way. I love her as much as you do. Let. Me. Do. This."  
+ Elin podía escuchar el odio en sus palabras, pero se detuvo de nuevo "Bebo, están en camino. La amo tanto como tú. Déjame. Hacer. Esto".
   
-"Fine."  
-
+ "Bien."

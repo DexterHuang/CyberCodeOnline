@@ -1,5 +1,5 @@
->Slightly cold from the dungeon, you try to find something to set on fire in an attempt to get warmed up. A sound looking board catches your attention.  
+> Con un poco de frío de la mazmorra, tratas de encontrar algo para prenderle fuego en un intento de entrar en calor.  Un tablero de apariencia sólida llama su atención.
   
->You find a lone moldy wooden board in the middle of the room. It's not attached to anything, not to a post, or a skeleton. You walk up to it and pick it up. Moss and mildew covered the eroded board, with some faint writing: "Looking to buy GF, 100000G". You are not sure what it meant, or what it could possibly be referencing. You look around the wooden board. You find a cape with a symbol of what looks like a tree. You wonder why anyone would want to wear a cape with a tree on it for any reason.  
+ >Encuentras una tabla de madera mohosa solitaria en el medio de la habitación.  No está adherido a nada, ni a un poste, ni a un esqueleto.  Caminas hacia él y lo recoges.  El musgo y el moho cubrían el tablero erosionado, con una escritura débil: "Buscando comprar GF, 100000G".  No está seguro de lo que significaba o a qué podría estar haciendo referencia.  Miras alrededor de la tabla de madera.  Encuentras una capa con un símbolo de lo que parece un árbol.  Te preguntas por qué alguien querría usar una capa con un árbol por cualquier motivo.
   
->You leave the wooden board and the cape where you found them. Maybe the next person can figure out what connection these two objects have.  
+ >Dejas la tabla de madera y la capa donde las encontraste.  Tal vez la próxima persona pueda descubrir qué conexión tienen estos dos objetos.

@@ -1,22 +1,22 @@
 #### N30N C1RCUS: Princess9 Be Rappin'
 
- They say go to Shangri-La,  
- And I said nah, 
- Don't got no time for that.  
- But I did and I say what I saw:
+  Dicen que vayas a Shangri-La,
+  Y dije no,
+  No tengo tiempo para eso.
+  Pero lo hice y digo lo que vi:
 
- All my skills are at cap,  
- All I'm printing is ****.  
- It's back to the train, got baddies to maim  
- No time  
- To be using my brain.  
+  Todas mis habilidades están al máximo,
+  Todo lo que estoy imprimiendo es ****.
+  Es volver al tren, tengo malos para mutilar
+  No hay tiempo
+  Estar usando mi cerebro.
     
- I'm rolling in trash cache 
- Cuz I ain't got no hash cash.  
+  Estoy rodando en el caché de basura
+  Porque no tengo hachís en efectivo.
     
- And I know you're sayin' 
- That I should just keep on playin'.  
- I'm low level I know,  
- I started off slow but check out my gear,  
- I'm getting my flow.  
- It's all thanks to the C1RCUS, the N30N, the glow.  
+  Y sé que estás diciendo
+  Que debería seguir jugando.
+  soy de bajo nivel lo se
+  Empecé lento pero mira mi equipo,
+  Estoy consiguiendo mi flujo.
+  Todo es gracias al C1RCUS, el N30N, el brillo.

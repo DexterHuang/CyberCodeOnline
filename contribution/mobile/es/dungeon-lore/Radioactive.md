@@ -1,7 +1,7 @@
-> You see a computer tablet in the floor, you pick it up and try to switch it on, it lights up but shows a low battery warning.
+> Ves una tableta de computadora en el piso, la levantas e intentas encenderla, se enciende pero muestra una advertencia de batería baja.
 
-> You find an interesting file called Radioactive.mp3, You listen to it and it instantly brings back memories of your past.
+ > Encuentras un archivo interesante llamado Radioactive.mp3, lo escuchas y al instante te trae recuerdos de tu pasado.
 
-"I remember when this song was released when i was a little boy." You say to yourself.
+ "Recuerdo cuando esta canción fue lanzada cuando yo era un niño pequeño".  Te dices a ti mismo.
 
-> You transfer the song to your music player, while putting the old tablet to the seat next to the floor where you found it.
+ > Transfieres la canción a tu reproductor de música, mientras colocas la vieja tableta en el asiento al lado del piso donde la encontraste.

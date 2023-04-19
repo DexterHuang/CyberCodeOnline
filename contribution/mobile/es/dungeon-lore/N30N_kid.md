@@ -1,31 +1,31 @@
-#### N30N C1RCUS: The Scruffy Kid's Lucky Day  
+#### N30N C1RCUS: El día de suerte del niño desaliñado
   
-A slap echoed down the alley..  
+ Una bofetada resonó por el callejón...
   
-_"Gimme dose! Where'd ya get 'em anyway?"_  
-_"Traded for 'em, honest, I did"_, came the sniffled reply.  
+ _"¡Dame la dosis! ¿Dónde las conseguiste?"_
+ _"Los cambié, honestamente, lo hice"_, fue la respuesta entre sollozos.
   
-The goon made to move off down the darkened street, then stopped, thought, and tossed a couple of bits of scrap back at the small figure hunched against the crate.  
+ El matón hizo ademán de alejarse por la calle oscura, luego se detuvo, pensó y arrojó un par de pedazos de chatarra a la pequeña figura encorvada contra la caja.
   
-_"So did I"_ he rasped and walked away, tossing his newly acquired _'cores_ from hand to hand.  
+ _"Yo también"_ dijo con voz áspera y se alejó, lanzando sus recién adquiridos _'núcleos_ de mano en mano.
   
-The scruffy kid looked at the rusty bits of scrap that weren't even going to buy a dumpster bagel. Yet another hungry day in paradise.  
+ El niño desaliñado miró los trozos oxidados de chatarra que ni siquiera iban a comprar un panecillo de basura.  Otro día hambriento en el paraíso.
   
-Hunched despondently in the corner the crate made against the wall, he was trying to find the energy to move when a quiet scrape of cloth startled him into that hyper-alertness that meant survival here. He was staring apprehensively into the night, wondering just how much worse it was going to get, when two dully luminous AI cubes silently arced out of the dark to land near his hand. Instinctively he reached out to grab and just as instinctively snatched his hand back, expecting the worst. A quiet whisper out of the darkness:  
+ Acurrucado con desánimo en la esquina que la caja hacía contra la pared, estaba tratando de encontrar la energía para moverse cuando un suave roce de tela lo sobresaltó y lo sobresaltó en ese estado de hiper-alerta que significaba sobrevivir aquí.  Estaba mirando con aprensión hacia la noche, preguntándose cuánto peor se pondría, cuando dos cubos de IA débilmente luminosos se arquearon silenciosamente en la oscuridad para aterrizar cerca de su mano.  Instintivamente extendió la mano para agarrar y al igual que instintivamente retiró la mano, esperando lo peor.  Un silencioso susurro desde la oscuridad:
   
-_"Take them. They're yours"_  
+ _"Tómalos. Son tuyos"_
   
-The kid looked around - there was a darker shadow against the wall. Maybe? From further away down the street, a _'blam'_ echoed out of the darkness, followed by another and then silence. A tension seemed to ease out of the shadow and another almost inaudible whisper:  
+ El niño miró a su alrededor: había una sombra más oscura contra la pared.  ¿Tal vez?  Desde más lejos en la calle, un _'blam'_ resonó en la oscuridad, seguido de otro y luego silencio.  Una tensión pareció desaparecer de la sombra y otro susurro casi inaudible:
   
-_"Sounds like your business associate ran into Worzel"_  
+ _"Parece que su socio comercial se topó con Worzel"_
   
-As the shadow detached itself from the wall and started away the kid called out:  
+ Cuando la sombra se separó de la pared y se alejó, el niño gritó:
   
-_"Mister, wait.."_ and held out the two pieces of scrap.  
+ _"Señor, espere.."_ y tendió los dos pedazos de chatarra.
   
-The whisper again, this time with the ghost of a smile:  
+ El susurro de nuevo, esta vez con el fantasma de una sonrisa:
   
-_"Seems like a fair deal to me"_  
-_"Mister, what's a worzel?"_  
+ _"Me parece un trato justo"_
+ _"Señor, ¿qué es un worzel?"_
   
-But there wasn't anything or anybody there to answer.  
+ Pero no había nada ni nadie allí para responder.

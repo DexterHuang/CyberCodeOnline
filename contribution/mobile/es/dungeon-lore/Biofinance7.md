@@ -1,11 +1,11 @@
->[Part 7 of 8 of BioFinance series]  
+>[Parte 7 de 8 de la serie BioFinance]
 
-[A datacube. Looks like a recorded phone call from the internal systems of some company]
+ [Un cubo de datos.  Parece una llamada telefónica grabada de los sistemas internos de alguna empresa]
 
-08:15:45 - ID001: Intellico. How can I help you?
-08:15:48 - ID203: OH MY GOD THEY ARE ALL DEA.... *call disconnected*
-08:15:57 - ID001: Intellico. How can I help you?
-08:15:59 - ID442: CLOSE EVERYTHING CALL HE.... *call disconnected*
-08:16:15 - ID001: ...Intellico. ..How can ...I help... you?
-08:16:17 - ID844: THE AIR, IT'S THE A.... *call disconnected*
-08:18:24 - *ID001 brain activity not found, commlink disconnected.*
+ 08:15:45 - ID001: Intellico.  ¿Le puedo ayudar en algo?
+ 08:15:48 - ID203: OH, DIOS MÍO, ESTÁN TODOS MUERTOS.... *llamada desconectada*
+ 08:15:57 - ID001: Intellico.  ¿Le puedo ayudar en algo?
+ 08:15:59 - ID442: CIERRE TODO LLAME ÉL.... *llamada desconectada*
+ 08:16:15 - ID001: ... Intellico.  ..¿Le puedo ayudar en algo?
+ 08:16:17 - ID844: EL AIRE, ES EL A.... *llamada desconectada*
+ 08:18:24 - *ID001 actividad cerebral no encontrada, comunicador desconectado.*

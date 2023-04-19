@@ -1,5 +1,5 @@
->A funny shaped stone of some sort catches your eyes. You get closer to take a better look.  
+>Una piedra con una forma graciosa llama la atención.  Te acercas para ver mejor.
   
->A petrified chicken. You are not sure how it ended up here, or what it is doing in the middle of nowhere to begin with. A small chicken, it seems, peaceful, harmless looking ordinary chicken. However, you get an eerie feeling that if you were to assault this harmless chicken, it would call on its brethren to badger and assault you back relentlessly.  
+ >Un pollo petrificado.  Para empezar, no está seguro de cómo terminó aquí, o qué está haciendo en medio de la nada.  Un pollo pequeño, al parecer, un pollo ordinario de aspecto pacífico e inofensivo.  Sin embargo, tienes la extraña sensación de que si atacas a este inofensivo pollo, llamaría a sus hermanos para que te molestaran y te atacaran sin descanso.
   
->You put the petrified chicken back where you found it, carefully.  
+ >Devuelves el pollo petrificado donde lo encontraste, con cuidado.

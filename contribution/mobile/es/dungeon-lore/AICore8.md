@@ -1,12 +1,12 @@
-*[You find a textbook and flip to a random page.]*
+*[Encuentras un libro de texto y pasas a una página aleatoria.]*
 
-![AI Textbook](/resources/lore/textbookAI2.png)
+ ![Libro de texto de IA](/resources/lore/textbookAI2.png)
 
-# Coexisting With an AI in Your Brain
-> (Part 8 of 8 aicore series)
+ # Coexistiendo con una IA en tu cerebro
+ > (Parte 8 de 8: Serie AiCore)
 
-First time users of AICORE may find the experience of having an additional, different mind inside your brain very confusing and disorienting. When you activate an AICORE for the first time, you will feel another presence in your mind with its own set of thoughts and personality. Suddenly having a separate mind inside of you might feel odd at first, but after a short amount of time, your neurons will make new pathways after familiarizing with the new stimuli and heightened processing capability. 
+ Los usuarios primerizos de AICORE pueden encontrar la experiencia de tener una mente diferente adicional dentro de su cerebro muy confusa y desorientadora.  Cuando active un AICORE por primera vez, sentirá otra presencia en su mente con su propio conjunto de pensamientos y personalidad.  De repente, tener una mente separada dentro de ti puede parecer extraño al principio, pero después de un corto período de tiempo, tus neuronas crearán nuevos caminos después de familiarizarse con los nuevos estímulos y una mayor capacidad de procesamiento.
 
-Having an AICORE is a unique experience. Imagine having another individual that you can communicate with via telepathy—or, put  another way, AICORE is like an inner voice that you can converse with. Having an AICORE installed also means you can have it control your physical body partially or wholly while you can observe, feel, learn and experience new skills from the AICORE—or just sit back and relax while the AICORE handles things. When you let the AICORE control your body and your consciousness is not detached, it is a unique feeling—like your body is moved by an external force. Some also describe the feeling as their body moving by itself. 
+ Tener un AICORE es una experiencia única.  Imagine tener otra persona con la que pueda comunicarse a través de la telepatía o, dicho de otra manera, AICORE es como una voz interior con la que puede conversar.  Tener un AICORE instalado también significa que puede hacer que controle su cuerpo físico parcial o totalmente mientras puede observar, sentir, aprender y experimentar nuevas habilidades del AICORE, o simplemente sentarse y relajarse mientras el AICORE maneja las cosas.  Cuando dejas que AICORE controle tu cuerpo y tu conciencia no se separa, es un sentimiento único, como si tu cuerpo fuera movido por una fuerza externa.  Algunos también describen la sensación como si su cuerpo se moviera por sí mismo.
 
-If you decide to detach your conciousness and do work or have fun in CyberSpace, whatever the AICORE experiences while you are away will be stored in your short-term memory, which you can later recall after your consciousness returns to your body.
+ Si decide desconectar su conciencia y trabajar o divertirse en el ciberespacio, cualquier cosa que experimente el AICORE mientras usted está fuera se almacenará en su memoria a corto plazo, que luego podrá recordar cuando su conciencia regrese a su cuerpo.

@@ -1,13 +1,13 @@
->[Looks an old E-file from a security console]  
+>[Mira un archivo electrónico antiguo desde una consola de seguridad]
   
->[FOOTAGE PLAYBACK]  
+ >[REPRODUCCIÓN DE FOTOS]
   
-**Blonde-haired woman:** Hey, did you hear about the str33t4ng3ls are holding another charity event to raise money for the orphanage this saturday?  
+ **Mujer de cabello rubio:** Oye, ¿supiste que los str33t4ng3ls realizarán otro evento benéfico para recaudar dinero para el orfanato este sábado?
   
-**Woman with lipstick:** Oh, ya. It is the third charity drive they organized this month alone. This city has been blessed ever since the str33t4ng3ls formally became a charity organization and they have been all over the news.  
+ **Mujer con lápiz labial:** Oh, sí.  Es la tercera campaña benéfica que organizan solo este mes.  Esta ciudad ha sido bendecida desde que str33t4ng3ls se convirtió formalmente en una organización benéfica y han estado en todas las noticias.
   
-**Blonde-haired woman:** Maybe we should go and volunteer. Doesn't hurt to give back to the community once in a while. I have a girl-friend that's on the chair committee.  
+ **Mujer de cabello rubio:** Tal vez deberíamos ir y ofrecernos como voluntarios.  No está de más retribuir a la comunidad de vez en cuando.  Tengo una novia que está en el comité de presidencia.
   
-**Woman with lipstick:** Definitely give them a call. I know my knitting circle has been trying to volunteer at one of those events. The Str33t4ng3ls always get so many helping hands that they have to turn people away. Who knew there were so many giving souls left in this city.  
+ **Mujer con lápiz labial:** Definitivamente llámalos.  Sé que mi círculo de tejido ha estado tratando de ser voluntario en uno de esos eventos.  Los Str33t4ng3ls siempre reciben tantas manos amigas que tienen que rechazar a la gente.  Quién diría que quedaban tantas almas generosas en esta ciudad.
   
->[END OF PLAYBACK]  
+ >[FIN DE LA REPRODUCCIÓN]

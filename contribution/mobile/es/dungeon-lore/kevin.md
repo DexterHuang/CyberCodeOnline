@@ -1,24 +1,24 @@
-> You hear his whispers so often while walking these streets, but rarely regarding the man himself.
-> His name has grown beyond him. He is no longer a man.
-> He has made himself such a part of this society that people cannot speak without saying his name.
-> Who IS he?
-> kevin.
+> Escuchas sus susurros tan a menudo mientras caminas por estas calles, pero rara vez con respecto al hombre mismo.
+ > Su nombre ha crecido más allá de él.  Ya no es un hombre.
+ > Se ha convertido en una parte tan importante de esta sociedad que la gente no puede hablar sin decir su nombre.
+ > ¿Quién ES él?
+ > Kevin.
 
 
-There once was a time before people had such a unit of measurement. 
-Back when people we so focused on scraping together the scrap they needed to survivde, they had no time to think about emotions or thinking.
-"How stupid! 'Thinking about thinking,' and 'emotions!'" They may shout, afraid to face reality.
-Reality is kevin. 
+ Hubo un tiempo antes de que la gente tuviera esa unidad de medida.
+ Antes, cuando las personas nos enfocábamos tanto en juntar la chatarra que necesitaban para sobrevivir, no tenían tiempo para pensar en emociones o pensamientos.
+ "¡Qué estupidez! 'Pensar en pensar' y '¡emociones!'" Pueden gritar, temerosos de enfrentarse a la realidad.
+ La realidad es Kevin.
 
-Kevin degrees are a unit of measurement which has grown strong in the days of the enhanced brain.
-Afterall, an enhanced brain has enhanced emotions.
-Kevin degrees cannot be measured by something as silly as "temperature" or "science."
-Kevin degrees are felt in the heart and soul, not in "atoms".
-Kevin degrees denote how cold or warm you *feel* it is. You don't need a thermometer to measure *feeling* warm.
+ Los grados Kevin son una unidad de medida que se ha fortalecido en los días del cerebro mejorado.
+ Después de todo, un cerebro mejorado tiene emociones mejoradas.
+ Los grados de Kevin no se pueden medir con algo tan tonto como "temperatura" o "ciencia".
+ Los grados de Kevin se sienten en el corazón y el alma, no en los "átomos".
+ Los grados de Kevin denotan qué tan frío o cálido *sientes* que es.  No necesita un termómetro para medir *sentirse* caliente.
 
-Kevin degrees are calculated using the following steps:
-1. Locate the nearest Kevin. This can be physical OR emotional distance.
-2. Determine how warm this Kevin feels.
-3. That is 1 Kevin degrees.
-4. 0 degrees Kevin can be discovered by killing Kevin and waiting 8 hours (not recommended, but must be done once in everyone's life).
-5. Base 2 degrees kevin on how happy and warm you would feel if two Kevins hugged you.
+ Los grados de Kevin se calculan siguiendo los siguientes pasos:
+ 1. Localice al Kevin más cercano.  Esto puede ser una distancia física o emocional.
+ 2. Determina qué tan cálido se siente este Kevin.
+ 3. Eso es 1 grado Kevin.
+ 4. 0 grados Kevin se puede descubrir matando a Kevin y esperando 8 horas (no recomendado, pero debe hacerse una vez en la vida de todos).
+ 5. Base 2 grados kevin en lo feliz y cálido que se sentiría si dos Kevin lo abrazaran.

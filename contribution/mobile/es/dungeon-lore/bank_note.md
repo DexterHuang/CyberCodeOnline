@@ -1,3 +1,3 @@
->A bank note. A real one this time. One that was from a bygone era, before the globalization of use and acceptance of Bitcoins came to be. A thin piece of paper, you suspect, made from a blend of materials. What was once green has long been faded by the surrounding environment and time. You can faintly make out the number "1" and "0". A tagline of sorts is no longer legible, not without the help of a microscope and perhaps a historian on the subject.  
+>Un billete de banco.  Una de verdad esta vez.  Uno que era de una era pasada, antes de que surgiera la globalización del uso y la aceptación de Bitcoins.  Un trozo de papel delgado, sospechas, hecho de una mezcla de materiales.  Lo que una vez fue verde se ha desvanecido por el tiempo y el entorno circundante.  Puede distinguir débilmente el número "1" y "0".  Una especie de eslogan ya no es legible, no sin la ayuda de un microscopio y tal vez un historiador sobre el tema.
   
->You put the bank note back on the ground for someone else to appreciate its history.  
+ >Dejas el billete en el suelo para que alguien más pueda apreciar su historia.

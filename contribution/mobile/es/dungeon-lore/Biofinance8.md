@@ -1,13 +1,13 @@
-[A display is showing financial news]
+[Una pantalla muestra noticias financieras]
 
-Today's spotlight is on the biohazard accident that hit IntelliCo. Neural Implants Manufacturing Facility in Shangri-La Depot 33 district.
+ El centro de atención de hoy es el accidente de riesgo biológico que afectó a IntelliCo.  Planta de fabricación de implantes neurales en el distrito Shangri-La Depot 33.
 
-Police are blaming human error, apparently originating from the company's lax safety practices. As a result of company negligence, an airborne nerve agent was inadvertently released in the office building. 
+ La policía está culpando a un error humano, que aparentemente se originó en las prácticas laxas de seguridad de la compañía.  Como resultado de la negligencia de la empresa, se liberó inadvertidamente un agente nervioso en el aire en el edificio de oficinas.
 
-400 employees are dead, among them the whole research department. A serious blow for the rapidly growing company.
+ 400 empleados están muertos, entre ellos todo el departamento de investigación.  Un duro golpe para la empresa en rápido crecimiento.
 
-IntelliCo. shares went down 98% in a matter of hours, with little to none chance of recovery in sight.
+ IntelliCo.  las acciones cayeron un 98% en cuestión de horas, con poca o ninguna posibilidad de recuperación a la vista.
 
-[on the news ticker]
+ [en el teletipo de noticias]
 
-*###eds dead in Vitasyntech lab accident. Facility burned to ground in flash fir###*
+ *###eds muertos en accidente de laboratorio de Vitasyntech.  Instalación quemada hasta el suelo en flash fir###*

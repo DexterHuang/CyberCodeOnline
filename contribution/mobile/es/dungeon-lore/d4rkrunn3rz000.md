@@ -1,16 +1,16 @@
-> A staticky transmission; words floating by on a nearby holoscreen...
+> Una transmisión estática;  palabras flotando en una holopantalla cercana...
 
-*Is anyone out there?*
+ *¿Hay alguien por ahí?*
 
-*Can anyone hear me?*
+ *¿Puede alguien escucharme?*
 
-*I'm scared...and alone.*
+ *Estoy asustado... y solo.*
 
-*I need help*
+ *Necesito ayuda*
 
-*I...*
+ *Yo...*
 
-*...*
+ *...*
 
-***
-`<hello_world/>`
+ ***
+ `<hola_mundo/>`

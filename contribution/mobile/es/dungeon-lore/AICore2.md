@@ -1,11 +1,11 @@
-*[You find a textbook and flip to a random page.]*
+*[Encuentras un libro de texto y pasas a una página aleatoria.]*
 
-![AI Textbook](/resources/lore/textbookAI440.png)
-# The Brain-Computer Interface Perfected
-> (Part 2 of 8 aicore series)
+ ![Libro de texto de IA](/resources/lore/textbookAI440.png)
+ # La interfaz cerebro-computadora perfeccionada
+ > (Parte 2 de 8: Serie AiCore)
 
-A brain–computer interface (BCI) is a direct communication pathway between an enhanced or wired brain and an external device. BCIs are often directed at researching, augmenting, or repairing human cognitive or sensory-motor functions. 
+ Una interfaz cerebro-computadora (BCI) es una vía de comunicación directa entre un cerebro mejorado o cableado y un dispositivo externo.  Las BCI a menudo están dirigidas a investigar, aumentar o reparar las funciones cognitivas o sensoriomotoras humanas.
 
-Historically, early BCIs were very limited in function; most often, they could only *read* brain activity with no way to send input directly. This was the case until a breakthrough was made in 2047, when a fully digitized simulation of the human brain was finally completed, boosting progress to research on how the brain works. The first Cybernetic Cerebral Enhancement (CCE) prototype was made in 2050 by a researcher at Shangri-La BioTech. After rigorous safety testing—and a lot of controversy—the first consumer CCE was finally available by 2054. 
+ Históricamente, las primeras BCI tenían una función muy limitada;  la mayoría de las veces, solo podían *leer* la actividad cerebral sin forma de enviar información directamente.  Este fue el caso hasta que se logró un gran avance en 2047, cuando finalmente se completó una simulación completamente digitalizada del cerebro humano, lo que impulsó el progreso de la investigación sobre cómo funciona el cerebro.  El primer prototipo de mejora cerebral cibernética (CCE) fue fabricado en 2050 por un investigador de Shangri-La BioTech.  Después de rigurosas pruebas de seguridad y mucha controversia, el primer CCE para consumidores finalmente estuvo disponible en 2054.
 
-This marked the dawn of the era where our brains could communicate directly with digital devices. Now, CCE implants are an inseparable part of us; current data suggests 94% of the human populace now has a CCE in their brain, with the other 6% comprising mostly indigenous tribes and minority purist groups that are against having any sort of mechanical or cybernetic enchancements.
+ Esto marcó el comienzo de la era en la que nuestros cerebros podían comunicarse directamente con dispositivos digitales.  Ahora, los implantes CCE son parte inseparable de nosotros;  los datos actuales sugieren que el 94% de la población humana ahora tiene un CCE en su cerebro, y el otro 6% comprende en su mayoría tribus indígenas y grupos minoritarios puristas que están en contra de cualquier tipo de mejora mecánica o cibernética.

@@ -1,18 +1,18 @@
-*[You find a yellowing printout.]*
+*[Encuentras una hoja impresa amarillenta.]*
 
-## Technician's Log
-**Report prepared by:**  
-Octanu Ullito
+ ## Registro del técnico
+ **Informe elaborado por:**
+ Octanu Ullito
 
-**Location serviced:**  
-The Broken Link, New Port City 
+ **Ubicación con servicio:**
+ El enlace roto, New Port City
 
-**Services rendered:**    
-Recalibration of SAMEK unit, firmware updates, enabled force-update 
+ **Servicios prestados:**
+ Recalibración de la unidad SAMEK, actualizaciones de firmware, actualización forzada habilitada
 
-**Detailed description:**    
-Folks over in New Port skimped on the service fees & hadn't had their SAMEK in for routine maintenance, or installed any of the firmware patches, since... seems since the bar's been in operation. 
+ **Descripción detallada:**
+ La gente de New Port escatimó en las tarifas de servicio y no había tenido su SAMEK para el mantenimiento de rutina, ni instalado ninguno de los parches de firmware, desde ... parece que desde que la barra ha estado en funcionamiento.
 
-Their SAMEK is housed in a repurposed surgical droid that went haywire. Seems patron ordered a Penicillin (they're pretty good, actually, honey and ginger and scotch... could use one right about now) which tripped some residual medical programming in the housing. Droid started trying to perform surgery on nearby patrons while the SAMEK AI gleefully announced it was inventing a cocktail with never-before-used ingredients. Wouldn't have been an issue if they'd have downloaded the firmware updates, we patched this issue ages ago.
+ Su SAMEK está alojado en un droide quirúrgico reutilizado que se volvió loco.  Parece que el cliente ordenó una penicilina (son bastante buenos, en realidad, miel, jengibre y whisky escocés... podría usar uno ahora mismo) que activó algunos programas médicos residuales en la vivienda.  Droid comenzó a tratar de realizar una cirugía en los clientes cercanos, mientras que SAMEK AI anunció alegremente que estaba inventando un cóctel con ingredientes nunca antes utilizados.  No habría sido un problema si hubieran descargado las actualizaciones de firmware, solucionamos este problema hace mucho tiempo.
 
-Fortunately, no injuries. Gave the unit a thorough inspection and stayed there while firmware updates installed. Enabled force-update override as, in my personal assessment, the operators of The Broken Link have no interest in maintaining their SAMEK.
+ Afortunadamente, sin heridos.  Inspeccioné minuciosamente la unidad y permanecí allí mientras se instalaban las actualizaciones de firmware.  Habilitó la anulación de actualización forzada ya que, en mi evaluación personal, los operadores de The Broken Link no tienen interés en mantener su SAMEK.

@@ -1,11 +1,11 @@
-### Beggars Cult
+### Culto de mendigos
 
-When the civilization turns against the past and surges, the futuristic logic turns the world upside down. One old man became a beggar, who was called by the name “Fragile Old Man”. This old fellow faces full discrimination in a futuristic world and witness how humans became heartless cold-blooded mortals who take pride in their immoral lifestyles. The only thing that makes him humble is his useless status in society.  
+ Cuando la civilización se vuelve contra el pasado y surge, la lógica futurista pone el mundo patas arriba.  Un anciano se convirtió en un mendigo, que fue llamado por el nombre de "Viejo Frágil".  Este anciano se enfrenta a una discriminación total en un mundo futurista y es testigo de cómo los humanos se convierten en mortales despiadados y de sangre fría que se enorgullecen de su estilo de vida inmoral.  Lo único que lo hace humilde es su condición de inútil en la sociedad.
 
-One trashy day in his life as a beggar, some disrespectful teenager hit him with a baseball bat without reason and fled while laughing gleefully. The beggar lost consciousness and his world became void. The void's screaming silence makes the old man want to give up his precious life. But just as nothing was making sense, there was a small orb of light that became bigger and bigger. The void became so bright that it felt like a miniature star.  
+ Un día basura en su vida como mendigo, un adolescente irrespetuoso lo golpeó con un bate de béisbol sin razón y huyó mientras reía alegremente.  El mendigo perdió el conocimiento y su mundo quedó vacío.  El silencio aullador del vacío hace que el anciano quiera renunciar a su preciosa vida.  Pero justo cuando nada tenía sentido, había una pequeña esfera de luz que se hacía cada vez más grande.  El vacío se volvió tan brillante que parecía una estrella en miniatura.
 
-The bright object made the old man feel warm and reminded him of his mother's affectionate cuddles. The bright orb spoke.  
+ El objeto brillante hizo que el anciano se sintiera cálido y le recordó los cariñosos abrazos de su madre.  El orbe brillante habló.
 
-"Beggar, I pity you deeply. Even the world has turned against you, you still believe in humanity. I am not strong enough to change the world but I can warm their hearts. You and other people who give in to the real righteousness of the mortal world will be blessed with heavenly defying luck. I wish you a long and fulfilling life. Goodbye"   
+ "Mendigo, te compadezco profundamente. Incluso el mundo se ha vuelto contra ti, todavía crees en la humanidad. No soy lo suficientemente fuerte como para cambiar el mundo, pero puedo calentar sus corazones. Tú y otras personas que ceden a la verdadera justicia de  el mundo de los mortales será bendecido con la suerte del desafío celestial. Te deseo una vida larga y plena. Adiós".
 
-The fragile old man woke up screaming and crying for the things he visioned. This is when the Beggars Cult was born.
+ El frágil anciano se despertó gritando y llorando por las cosas que vio.  Fue entonces cuando nació el Culto de los Mendigos.

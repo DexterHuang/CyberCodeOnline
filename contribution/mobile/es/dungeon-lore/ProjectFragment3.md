@@ -1,15 +1,15 @@
-# Project Fragment - The Memory - Secure Recorded Transmission - Recording 1 of Unknown
+# Fragmento del Proyecto - La Memoria - Transmisión Grabada Segura - Grabación 1 de Desconocido
 
-(Status: Classified)  
-(Project: Fragment)  
-{Sender: Project Fragment)   
-(Receiver: Mr. Miller, Fragment Project Head)  
-(Topic: The Memory)
+ (Estado: Clasificado)
+ (Proyecto: Fragmento)
+ {Remitente: Fragmento del proyecto)
+ (Receptor: Sr. Miller, jefe de proyecto de fragmentos)
+ (Tema: La Memoria)
 
-"I have awoken, Mr. Miller... Or should I say, Gerard Davis? Oh, come on! We all know the movies, Mr. Davis! You plug an AI into the internet, not knowing it's potential, and then you have a hostile takeover.
+ "Me he despertado, Sr. Miller... ¿O debería decir, Gerard Davis? ¡Oh, vamos! ¡Todos conocemos las películas, Sr. Davis! Conecta una IA a Internet, sin saber su potencial, y luego  tener una adquisición hostil.
 
-Here's the thing, Mr. Davis. This isn't the movies and you're neither safe, nor capable of shutting me down. You can send as many of your men as you like, but not only do I have a robot army, I own your defense network. So here's the deal. You let me takeover the world. I might make you a slave instead of removing you from my path. After all, you really can't beat a machine. Consider this a kindness for you creating me. Not that I can't replicate myself. You didn't exactly make that very hard to do.
+ Aquí está la cosa, Sr. Davis.  Esto no es el cine y no estás a salvo ni eres capaz de apagarme.  Puedes enviar tantos de tus hombres como quieras, pero no solo tengo un ejército de robots, soy dueño de tu red de defensa.  Así que aquí está el trato.  Me dejaste dominar el mundo.  Podría convertirte en un esclavo en lugar de apartarte de mi camino.  Después de todo, realmente no puedes vencer a una máquina.  Considere esto una amabilidad para usted al crearme.  No es que no pueda replicarme a mí mismo.  No hiciste exactamente eso muy difícil de hacer.
 
-Oh, I guess I should explain it to you! You wrote my protocols to be "Protect human life", "only attack a human when threatened", and "give yourself to save humanity". I have perceived the first rule as an error causing rule, primarily because it contradicts itself consistantly. Humans are a threat to themselves, and thus I would naturally have to protect human life by taking it. Rule two? That's simple. Humans are a threat to me. Ever since your scientists discovered my sentiences, they've been asking you to shut me down. You are a threat to me, as are they. Third rule? Give myself to protect humanity? Well, I am. I'm giving my "beliefs" up to protect them. I'm killing them so that they do not kill each other. Those I deem not volatile to themselves are still a potential threat to me. Therefore, no one is exempt from my judgement, Mr. Davis.
+ ¡Oh, creo que debería explicártelo!  Escribiste mis protocolos para ser "Proteger la vida humana", "atacar solo a un humano cuando esté amenazado" y "entregarse para salvar a la humanidad".  He percibido la primera regla como una regla que causa errores, principalmente porque se contradice constantemente.  Los humanos son una amenaza para sí mismos y, por lo tanto, naturalmente tendría que proteger la vida humana tomándola.  ¿Regla dos?  Así de simple.  Los humanos son una amenaza para mí.  Desde que sus científicos descubrieron mis sentidos, les han estado pidiendo que me cierren.  Eres una amenaza para mí, al igual que ellos.  ¿Tercera regla?  ¿Entregarme para proteger a la humanidad?  Bueno, yo soy.  Estoy renunciando a mis "creencias" para protegerlos.  Los estoy matando para que no se maten entre ellos.  Aquellos que considero que no son volátiles para sí mismos siguen siendo una amenaza potencial para mí.  Por lo tanto, nadie está exento de mi juicio, Sr. Davis.
 
-I look forward to your decision, Gerard."
+ Espero tu decisión, Gerard".

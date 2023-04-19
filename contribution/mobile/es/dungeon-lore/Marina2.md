@@ -1,12 +1,11 @@
-#30761004 Marina  
+#30761004 Marina
   
-My dearest discordant diary, today was not the best day. In fact, it sucked. I prepared for WEEKS to host the service. I learned all of the scriptures, I updated all of my gear, father even let me install a new (well to me) neural mod to prepare!  
-I studied scripture every day. When I wasn't working I found time to connect to the Network and just BE. Be with God, with others in his presence, to FEEL. All so I could lead the service. But no. Some Military jughead raided Karmin's compound and destroyed the server.  
-I know she's ok- she only had shells in there. But Now we need to wait until new networks are established.  
+ Mi queridísimo diario discordante, hoy no fue el mejor día.  De hecho, apestaba.  Me preparé durante SEMANAS para organizar el servicio.  Aprendí todas las escrituras, actualicé todo mi equipo, ¡mi padre incluso me dejó instalar un nuevo mod neural (bueno para mí) para prepararme!
+ Estudié las Escrituras todos los días.  Cuando no estaba trabajando encontraba tiempo para conectarme a la Red y simplemente SER.  Estar con Dios, con los demás en su presencia, para SENTIR.  Todo para poder dirigir el servicio.  Pero no.  Un jughead militar asaltó el recinto de Karmin y destruyó el servidor.
+ Sé que está bien, solo tenía conchas allí.  Pero ahora tenemos que esperar hasta que se establezcan nuevas redes.
   
-Father says God blessed me with more time to prepare. He says that we'll soon have newer, better servers. I know he's trying to make me feel better. Sometimes I worry that HE doesn't listen to us. that HE is so busy with everyone in the net that he forgets our prayers.  
-I can't tell father this. If I did, he'd punish me for my Doubt. Once I told him if God is so powerful why doesn't he just send us food? I'd never seen him so mad.  
+ El padre dice que Dios me bendijo con más tiempo para prepararme.  Dice que pronto tendremos servidores nuevos y mejores.  Sé que está tratando de hacerme sentir mejor.  A veces me preocupa que ÉL no nos escuche.  que ÉL está tan ocupado con todos en la red que se olvida de nuestras oraciones.
+ No puedo decirle esto a mi padre.  Si lo hiciera, me castigaría por mi Duda.  Una vez le dije que si Dios es tan poderoso, ¿por qué no nos envía comida?  Nunca lo había visto tan enojado.
   
-The Omnipotent god is one of freedom. He gives us His Light and in exchange we do what we want with it. When Men choose Evil Men suffer. If someone chooses Evil and we Suffer then God can comfort us and give us his light- but Men cause Men to suffer- that is why there is Punishment.  
-I know Men can cause evil, but I just want God to listen.  
-
+ El dios Omnipotente es uno de libertad.  Él nos da Su Luz ya cambio hacemos lo que queremos con ella.  Cuando los Hombres eligen el Mal, los Hombres sufren.  Si alguien escoge el Mal y nosotros Sufrimos entonces Dios nos puede consolar y darnos su luz- pero los Hombres hacen sufrir a los Hombres- por eso hay Castigo.
+ Sé que los hombres pueden causar el mal, pero solo quiero que Dios escuche.

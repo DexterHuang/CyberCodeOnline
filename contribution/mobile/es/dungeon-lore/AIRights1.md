@@ -1,10 +1,10 @@
-# The Sentient AI Rights Movement
+# El Movimiento por los Derechos de la IA Consciente
 
-> 28th April 2077 - Shangri-La Daily News (Page 1 of 2)
+ > 28 de abril de 2077 - Shangri-La Daily News (Página 1 de 2)
 
-![Shangri-La Daily News](/resources/lore/dailynews.png)
+ ![Noticias diarias de Shangri-La](/resources/lore/dailynews.png)
 
 
-A huge outcry of public demonstrations and riots spread throughout the streets of Shangri-La as people protest the government decision to enact a new law that removes basic human rights to sentient AI entities. With the new law, the Validating Each Real Investment in Fiscal Years and Halting Unauthorized Market AI Networks Act (or VERIFY HUMAN Act), the government made official the decision to add the newly developed  "Cerebral Accelerated Parametric Transaction Control Hashing Algorithm" more known as CAPTCHA™️ to every financial transaction process that uses BitCoin.   
+ Una gran protesta de manifestaciones públicas y disturbios se extendió por las calles de Shangri-La mientras la gente protestaba por la decisión del gobierno de promulgar una nueva ley que elimina los derechos humanos básicos de las entidades conscientes de IA.  Con la nueva ley, la Ley de Validación de Cada Inversión Real en Años Fiscales y Detención de las Redes de IA de Mercados No Autorizados (o Ley VERIFY HUMAN), el gobierno oficializó la decisión de agregar el "Algoritmo Hashing de Control de Transacciones Paramétricas Cerebrales Acelerado" recientemente desarrollado, más conocido como  CAPTCHA™️ a cada proceso de transacción financiera que utiliza BitCoin.
 
-The VERIFY HUMAN Act was approved by the government today to prevent all sentient AI from doing any financial transactions in fear of their superior processing and predictive abilities leading to complete AI influence over the stock market and commodity prices.
+ La ley VERIFY HUMAN fue aprobada hoy por el gobierno para evitar que todas las IA conscientes realicen transacciones financieras por temor a que su procesamiento superior y sus capacidades predictivas conduzcan a una influencia completa de la IA sobre el mercado de valores y los precios de las materias primas.

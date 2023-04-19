@@ -1,9 +1,9 @@
-*[You find a textbook and flip to a random page.]*
+*[Encuentras un libro de texto y pasas a una página aleatoria.]*
 
-![AI Textbook](/resources/lore/textbookAI440.png)
-# Mass Adoption of AI in Daily Life
-> (Part 1 of 8 aicore series)
+ ![Libro de texto de IA](/resources/lore/textbookAI440.png)
+ # Adopción masiva de IA en la vida diaria
+ > (Parte 1 de 8: serie AiCore)
 
-Artificial intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions. The term may also be applied to any machine that exhibits traits associated with a human mind such as learning and problem-solving. Historically, creating a general AI that can solve common human problems and tasks was a very difficult premise. Most of the AI developed in history only excelled at one specific task and failed at others. 
+ La inteligencia artificial (IA) se refiere a la simulación de la inteligencia humana en máquinas que están programadas para pensar como humanos e imitar sus acciones.  El término también se puede aplicar a cualquier máquina que exhiba rasgos asociados con la mente humana, como el aprendizaje y la resolución de problemas.  Históricamente, crear una IA general que pueda resolver problemas y tareas humanas comunes fue una premisa muy difícil.  La mayoría de las IA desarrolladas en la historia solo se destacaron en una tarea específica y fallaron en otras.
 
-Since the breakthrough in quantum computer technology that happened in 2044, computing power has increased exponentially - even exceeding Moore's Law, which states computing speed doubles every two years. With current computers being so much more powerful, more generalized AI can be implemented. Nowadays, AI is everywhere, from your Aerial Autonomous Vehicle to your coffee maker. AI enables even simple items to be able to "think" like a human. We often take for granted our daily appliances that can predict what we might like for dinner, make coffee before we realize we need one, toast bread when you get out of bed and think about toast, or in the case of television, can choose a channel you will definitely enjoy watching.
+ Desde el gran avance en la tecnología informática cuántica que ocurrió en 2044, la potencia informática ha aumentado exponencialmente, superando incluso la Ley de Moore, que establece que la velocidad informática se duplica cada dos años.  Dado que las computadoras actuales son mucho más poderosas, se puede implementar una IA más generalizada.  Hoy en día, la IA está en todas partes, desde su Vehículo Aéreo Autónomo hasta su cafetera.  La IA permite que incluso los elementos simples puedan "pensar" como un ser humano.  A menudo damos por sentado nuestros electrodomésticos diarios que pueden predecir lo que nos gustaría para la cena, hacer café antes de que nos demos cuenta de que lo necesitamos, tostar pan cuando te levantas de la cama y pensar en tostadas, o en el caso de la televisión, puede elegir un  canal que definitivamente disfrutarás viendo.

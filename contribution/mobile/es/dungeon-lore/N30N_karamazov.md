@@ -1,30 +1,30 @@
-#### N30N C1RCUS: The Brothers Karamazov
+#### N30N C1RCUS: Los hermanos Karamazov
 
-The man being none too gently shepherded into the workshop was pale and sweating. A financial executive, he was more accustomed to client discussions from behind a large - and, it has to be said, very nice - desk. The workshop smelled of ozone, oil and sweat and it wasn't really his milieu.
+ El hombre que estaba siendo conducido sin mucha delicadeza al taller estaba pálido y sudoroso.  Como ejecutivo financiero, estaba más acostumbrado a las conversaciones con los clientes detrás de un escritorio grande y, hay que decirlo, muy agradable.  El taller olía a ozono, aceite y sudor y no era realmente su medio.
 
-*"Look Craig, I'm sure there's been a misunderstanding. Can we talk this over, man to man, as civilized human beings.."*  
-*"Greg, no' Craig"* grunted the large shaven headed man as he stapled the executive's hand to the workbench with an industrial stapler. 
+ *"Mira Craig, estoy seguro de que ha habido un malentendido. ¿Podemos hablar de esto, hombre a hombre, como seres humanos civilizados..."*
+ *"Greg, no 'Craig"* gruñó el hombre corpulento de cabeza rapada mientras engrapaba la mano del ejecutivo a la mesa de trabajo con una engrapadora industrial.
 
-The executive passed out. When he came to, his legs were taped to a chair and a large shaven headed man was perched on the workbench, sharpening what looked to be a very experienced fireman's axe. He tried again:
+ El ejecutivo se desmayó.  Cuando volvió en sí, tenía las piernas atadas a una silla y un hombre corpulento con la cabeza afeitada estaba sentado en el banco de trabajo, afilando lo que parecía ser un hacha de bombero muy experimentada.  Lo intentó de nuevo:
 
-*"Look Greg, I understand you're upset about the financial setback, but with the volatile markets and.."*  
-*"Craig, no' Greg"* grunted the man, squinting down the edge of the blade.
+ *"Mira Greg, entiendo que estés molesto por el revés financiero, pero con los mercados volátiles y..."*
+ *"Craig, no' Greg"* gruñó el hombre, entrecerrando los ojos por el filo de la hoja.
 
-At which point somebody tasered the two Glaswegian's into oblivion.
+ En ese momento, alguien derribó a los dos glaswegianos hasta dejarlos en el olvido.
 
-*"Greg's the better looking one. PIN?"*, said a cheerful voice behind him, a hand reaching into his jacket and removing his tablet.  
-*"Better loo.. oh, umm, 713845"*  
+ *"Greg es el más guapo. ¿PIN?"*, dijo una voz alegre detrás de él, una mano metiéndose en su chaqueta y sacando su tableta.
+ *"Mejor mira.. oh, umm, 713845"*
 
-Tap,tap..
+ Toca, toca..
 
-*"Uh huh, and that gets me into a nice set of dummy accounts and Craig and Greg will be waking up in ten minutes. PIN?"*  
+ *"Uh huh, y eso me lleva a un buen conjunto de cuentas ficticias y Craig y Greg se despertarán en diez minutos. ¿PIN?"*
 
-*"68X53#7p"*  
+ *"68X53#7p"*
 
-Tap,tap,tap..
+ Toca, toca, toca...
 
-*"Ah, yes, better, thank you"*  
-*"Good, can we go now?"*  
-*"We? Who said anything about 'we'? But old Mrs Leibowitz said to give you this.."*  
+ *"Ah, si, mejor, gracias"*
+ *"Bien, ¿podemos irnos ahora?"*
+ *"¿Nosotros? ¿Quién dijo algo sobre 'nosotros'? Pero la señora Leibowitz dijo que te diera esto..."*
 
-A hand reached past him and placed a wood saw next to his free hand.
+ Una mano pasó junto a él y colocó una sierra para madera junto a su mano libre.

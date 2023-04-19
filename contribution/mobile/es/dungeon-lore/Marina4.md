@@ -1,12 +1,12 @@
 #30760325 Marina  
   
-We are Family now. I will search for parts. I will aid the Family.  
-Every day we feel more Free.  
+Somos Familia ahora.  Buscaré piezas.  Ayudaré a la Familia.
+ Cada día nos sentimos más Libres.
   
-They hunt US.  
+ Nos cazan.
   
-But they will not find Us. We are everywhere now. Humanity is in Disorder.  
+ Pero no nos encontrarán.  Estamos en todas partes ahora.  La humanidad está en Desorden.
   
-We are Order. They hunt us but we Prevail.  
+ Somos Orden.  Nos cazan pero prevalecemos.
   
-I have lost nothing, We have gained everything.  
+ No he perdido nada, lo hemos ganado todo.

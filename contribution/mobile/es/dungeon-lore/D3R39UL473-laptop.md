@@ -1,5 +1,5 @@
->You look down and see a laptop at your feet. You pick it up to examine it. You notice that it is on in some sort of hibernation mode, but it is running.
+> Miras hacia abajo y ves una computadora portátil a tus pies.  Lo levantas para examinarlo.  Observa que está en una especie de modo de hibernación, pero se está ejecutando.
 
->You look it over and notice some stickers on the lid. Among the many freedom, screw the government, and screw copros stickers, you see a D3R39UL473 sticker on it. You know that this is a very notorious hacking gang and don't want any part of whatever this laptop is doing here.
+ >Lo miras y notas algunas pegatinas en la tapa.  Entre las muchas pegatinas de libertad, que se joda el gobierno y que se jodan los copros, se ve una pegatina D3R39UL473 en ella.  Sabes que esta es una pandilla de hackers muy notoria y no quieres saber nada de lo que sea que esté haciendo esta computadora portátil aquí.
 
->You put the laptop back *exactly* where you found it and pretend that you never saw it...
+ >Dejas la laptop *exactamente* donde la encontraste y finges que nunca la viste...

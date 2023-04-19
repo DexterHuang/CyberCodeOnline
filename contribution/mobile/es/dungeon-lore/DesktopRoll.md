@@ -1,4 +1,5 @@
-While hacking through a random dudes desktop, you find a folder suspiciously named 'Do not open'.    Behind that folder you find,<br> another folder, <br> then another. <br> Until finally, you find an audio transcript. <Br> We're no strangers to love
+Mientras hackeas el escritorio de un tipo al azar, encuentras una carpeta sospechosamente llamada 'No abrir'.  Detrás de esa carpeta encuentras,<br> otra carpeta, <br> luego otra.  <br> Hasta que finalmente encuentras una transcripción de audio.  
+ <Br> We're no strangers to love
 <br>You know the rules and so do I
 <br>A full commitment's what I'm thinking of
 <br>You wouldn't get this from any other guy
@@ -53,6 +54,7 @@ While hacking through a random dudes desktop, you find a folder suspiciously nam
 <br>Never gonna run around and desert you
 <br>Never gonna make you cry
 <br>Never gonna say goodbye
+
  
-`[expletive]`
-<br>You aren't sure what the point of the audio was. Seemed to be some old song from pre-singularity. Whatever it was, it just wasted 5 minutes of your time.
+ `[improperio]`
+ <br>No estás seguro de cuál era el objetivo del audio.  Parecía ser una vieja canción de antes de la singularidad.  Sea lo que sea, solo desperdició 5 minutos de tu tiempo.

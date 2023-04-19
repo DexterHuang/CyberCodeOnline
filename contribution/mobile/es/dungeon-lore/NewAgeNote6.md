@@ -1,5 +1,5 @@
-[You pick up an E-corder with a video paused on the screen. It appears someone was recording something]  
+[Tomas una grabadora electrónica con un video en pausa en la pantalla.  Parece que alguien estaba grabando algo]
   
-*[screen flickers]* "Hi, my faithful followers!!! I'm SO excited for the very first *[audio cuts out slightly, you can see a woman gesturing excitedly around the room]* and they even have a refreshment table for everyone. This sure beats digging out my meal out of a trash bin (laughs nervously) oh, oh, oh, I have to turn down my volume, I think they are about to induct all the new members; that means meeeeeeee *[the woman takes a quick camera pan of the rooms, showing a large group of people clad in red, grey, and black robes]*  
+ *[la pantalla parpadea]* "¡Hola, mis fieles seguidores! Estoy MUY emocionada por la primera vez *[el audio se corta un poco, puedes ver a una mujer gesticulando emocionada alrededor de la habitación]* e incluso tienen una mesa de refrescos  para todos. Esto seguro es mejor que sacar mi comida de un basurero (ríe nerviosamente) oh, oh, oh, tengo que bajar el volumen, creo que están a punto de inducir a todos los nuevos miembros; eso significa que yoeeeeee *[  la mujer toma una panorámica rápida de las habitaciones, mostrando un gran grupo de personas vestidas con túnicas rojas, grises y negras]*
   
->[The video cuts out abruptly as the E-corder powers off]  
+ >[El video se corta abruptamente cuando la grabadora electrónica se apaga]

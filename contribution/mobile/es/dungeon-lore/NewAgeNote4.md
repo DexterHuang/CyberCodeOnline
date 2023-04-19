@@ -1,8 +1,7 @@
-[Children of Enlightenment Datalogue NO.3098]  
+[Hijos de la Ilustración Datalogue NO.3098]
   
->Private Entry Log  
+ >Registro de entrada privada
   
->"We held the usual meeting at the Enlightenment Centre today. However, once again the number of attending members dwindled again. On a normal day this would not have been an overt concern, as we can always go out to the street and recruit more. Some of our more..... upper echelon members and leaders were not present for the meeting. Rumors through the mountain valley is that one of the initiates heard from a SLPD officer that they were responding to a disturbance that was supposedly caused by some members from the Children of the Enlightenment, but when they arrived at location, according to the reports, they found our members.... feeding on a body. Disturbing rumors indeed, though we are not exactly trusting with local authorities.  
+ >"Tuvimos la reunión habitual en el Enlightenment Center hoy. Sin embargo, una vez más, el número de miembros asistentes volvió a disminuir. En un día normal, esto no habría sido una preocupación manifiesta, ya que siempre podemos salir a la calle y reclutar más  "Algunos de nuestros miembros y líderes más altos del escalón no estuvieron presentes en la reunión. Los rumores a través del valle de la montaña son que uno de los iniciados escuchó de un oficial de SLPD que estaban respondiendo a un disturbio que supuestamente fue causado por  algunos miembros de Children of the Enlightenment, pero cuando llegaron al lugar, según los informes, encontraron a nuestros miembros... alimentándose de un cuerpo. Rumores inquietantes de hecho, aunque no confiamos exactamente en las autoridades locales.
   
->[User Logged off...]  
-
+ >[Usuario cerrado...]

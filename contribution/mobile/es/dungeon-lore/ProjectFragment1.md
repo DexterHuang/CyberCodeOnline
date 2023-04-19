@@ -1,19 +1,19 @@
-# Project Fragment - The Memory - Emails - 1 of Unknown
+# Fragmento de proyecto - La memoria - Correos electrónicos - 1 de Desconocido
 
-(Status: Classified)  
-(Project: Fragment)  
-{Sender: Code Name Diviner)   
-(Receiver: Mr. Miller, Fragment Project Head)  
-(Topic: The Memory)  
+ (Estado: Clasificado)
+ (Proyecto: Fragmento)
+ {Remitente: Adivinador de nombre en clave)
+ (Receptor: Sr. Miller, jefe de proyecto de fragmentos)
+ (Tema: La Memoria)
 
-The Memory is nearly complete. The only issue I foresee is that it tends to kill the patient. Normally, I'd advise against something like this, but humanity is at stake here. A few lives for the many is something I can live with.
+ La memoria está casi completa.  El único problema que preveo es que tiende a matar al paciente.  Normalmente, desaconsejaría algo como esto, pero la humanidad está en juego aquí.  Unas pocas vidas para muchas es algo con lo que puedo vivir.
 
-Anyway, sir.
+ De todos modos, señor.
 
-The Memory has had some odd anomalies, including rewriting some of the outputted genetic memories of our subjects. Instead of outputting things unique to our patients, it is now taking them from its own perspective. At this rate, I think we may have created an AI capable of thinking for itself rather than taking the memories of everyone and coming up with solutions to prevent repetitive history again.
+ La memoria ha tenido algunas anomalías extrañas, incluida la reescritura de algunas de las memorias genéticas de salida de nuestros sujetos.  En lugar de mostrar cosas exclusivas de nuestros pacientes, ahora las toma desde su propia perspectiva.  A este ritmo, creo que es posible que hayamos creado una IA capaz de pensar por sí misma en lugar de tomar los recuerdos de todos y encontrar soluciones para evitar que la historia se repita nuevamente.
 
-I must strongly advise that we hold off on plugging The Memory in to the CyberCode network. There's no telling what it could do with its own mind. We've all seen the movies and we both know that it is entirely possible for an AI to rewrite itself in favor of its intended purpose. This could be dangerous.
+ Debo recomendar encarecidamente que nos abstengamos de conectar The Memory a la red CyberCode.  No se sabe lo que podría hacer con su propia mente.  Todos hemos visto las películas y ambos sabemos que es completamente posible que una IA se reescriba a sí misma a favor de su propósito previsto.  Esto podría ser peligroso.
 
-That said, could we hold off a month so that I can work out the kinks in its code?
+ Dicho esto, ¿podríamos esperar un mes para que pueda resolver los problemas en su código?
 
-~ Project Lead, Code Name Diviner
+ ~ Jefe de proyecto, adivino de nombres en clave

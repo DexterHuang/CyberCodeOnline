@@ -1,25 +1,25 @@
-#### N30N C1RCUS: The Twins  
+#### N30N C1RCUS: Los gemelos
   
-_"It was a dark and stormy night.."_  
+ _"Era una noche oscura y tormentosa.."_
   
-_Al_ looked across at his twin - in truth, there was nobody he would rather mission with, but every now and then _Beta_ just **totally** weirded him out.  
+ _Al_ miró a su gemelo - en verdad, no había nadie con quien preferiría la misión, pero de vez en cuando _Beta_ simplemente **totalmente** lo extrañaba.
   
-The _Ice_ twins were in the shadows on the top floor ish-thing of the building skeleton that overlooked a south side warehouse, the _Spud_ having asked them to provide _'tactical street oversight'_ (his words) for a delivery of meds he was expecting. _PotatoMan_ had taken advantage of the recent batch of dud _PainAway_ that hit the street to launch his own premium brand, little logo and everything. This was the first shipment and he was a little nervous.  
+ Los gemelos _Ice_ estaban en las sombras en el último piso del esqueleto del edificio que daba a un almacén del lado sur, _Spud_ les había pedido que proporcionaran _'supervisión táctica de la calle'_ (sus palabras) para una entrega de medicamentos que estaba  esperando  _PotatoMan_ había aprovechado el lote reciente de _PainAway_ falsos que salieron a la calle para lanzar su propia marca premium, con un pequeño logotipo y todo.  Este era el primer envío y estaba un poco nervioso.
   
-Movement..  
+ Movimiento..
 
-_"Crate, east side"_  
-_"See it. Barrels 10 metres down"_  
-_"On it"_  
-_..._  
+ _"Caja, lado este"_
+ _"Míralo. Barriles 10 metros abajo"_
+ _"En eso"_
+ __..._
   
-A round ricocheted off the column above _Al_'s head. _"10 o'clock, tenement roof"_ _"Go"_. _Al_ moved quickly, making sure he was silhouetted for a brief moment and _Beta_ tagged the sniper. Down at the warehouse it had basically degenerated into trench warfare.   
+ Una bala rebotó en la columna sobre la cabeza de _Al_.  _"10 en punto, techo de vivienda"_ _"Vamos"_.  _Al_ se movió rápidamente, asegurándose de que fuera recortado por un breve momento y _Beta_ tocó al francotirador.  Abajo, en el almacén, básicamente había degenerado en una guerra de trincheras.
   
-_"Street"_  
+ _"Calle"_
   
-He sprinted along the ledge and leaped, deploying the matte black combat canopy almost immediately. The building was just barely high enough, leaving not very much margin for error. Kinda like life really. _Beta_ touched down just behind him and they leap-frogged up the street to come up just behind the goons.  
+ Corrió a lo largo de la cornisa y saltó, desplegando el dosel de combate negro mate casi de inmediato.  El edificio era apenas lo suficientemente alto, por lo que no dejaba mucho margen de error.  Un poco como la vida realmente.  _Beta_ aterrizó justo detrás de él y saltaron calle arriba para llegar justo detrás de los matones.
   
-After that there wasn't much else to do:  
+ Después de eso no había mucho más que hacer:
   
-_"Go get that beer the 'tater now owes us?"_  
-_"Yup, shaken not stirred"_ said _Beta_ happily. Being all weird again.  
+ _¿Ir a buscar esa cerveza que ahora nos debe el papa?_
+ _"Sí, agitado no revuelto"_ dijo _Beta_ feliz.  Siendo todo raro otra vez.

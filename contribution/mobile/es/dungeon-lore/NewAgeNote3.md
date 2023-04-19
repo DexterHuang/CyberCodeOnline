@@ -1,13 +1,13 @@
-#Entrant Name: [Redacted] Marcochev  
+#Nombre del participante: [Redactado] Marcochev
   
-#Entrant Date: [Redacted]  
+ #Fecha del participante: [Redactado]
   
-#Entrant Title: [Redacted]  
+ #Título del participante: [Redactado]
   
-#Entrant NDCE Rank: Initiate  
+ #Entrant NDCE Rango: Iniciado
   
->LOG DETAIL  
+ >DETALLE DE REGISTRO
   
->I don't know if I can take anymore of this. At first I thought the New Day Enlightenment thing was great. I came off the street after losing my job and my wife left me. I found one of their E-pamphlets when I was looking at the assignment board at the station. Free room and board, they even give you assignments from their own foundation. It's..... it's only been [redacted] and I am already [redacted] sanity. They are all smiles and [redacted] forgiveness, talking about how everyone has a right to the bounty of the planet, how everyone is equal and have something to offer the Great Father Earth. But [redacted] wrong. I just hope someone out there finds this record before these [redacted] finds it. Please, please, please. If anyone finds this and I am still alive, my name is [Redacted] Marcochev and please send help for me.  
+ >No sé si puedo soportar más de esto.  Al principio pensé que lo de New Day Enlightenment era genial.  Salí de la calle después de perder mi trabajo y mi esposa me dejó.  Encontré uno de sus folletos electrónicos cuando estaba mirando el tablero de asignaciones en la estación.  Alojamiento y comida gratis, incluso te asignan tareas de su propia fundación.  Es... solo ha sido [eliminado] y ya tengo [eliminado] cordura.  Son todo sonrisas y perdón [redactado], hablando de cómo todos tienen derecho a la generosidad del planeta, cómo todos son iguales y tienen algo que ofrecer al Gran Padre Tierra.  Pero [redactado] mal.  Solo espero que alguien encuentre este registro antes de que estos [redactados] lo encuentren.  Por favor por favor por favor.  Si alguien encuentra esto y todavía estoy vivo, mi nombre es [Redactado] Marcochev y por favor envíeme ayuda.
   
->User has logged off.  
+ >El usuario ha cerrado la sesión.
