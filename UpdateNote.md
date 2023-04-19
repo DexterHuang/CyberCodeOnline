@@ -29,6 +29,9 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ## Updates
 ### 2023/04/19
 - Update core navigation framework, this should improve the tab switching performance by alot, should be more noticable on older mobile device, please let me know if you face any issue casued by this update
+- Updated player list UI and fix some related bug
+- Changed background music back to normal and free bundle removed after Retro Wave even is ended
+- `Alley Way` is now hidden, `Bellial` will be back in November
 
 ### 2023/04/09
 - Adjustment to `SLANC`, it should be more inclined to respond in the localized languge in channels (and from my testing performing better in non-english languages) and should be able to respond with longer sentences in non-english languages now
