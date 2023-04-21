@@ -27,6 +27,10 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 
 ## Updates
+### 2023/04/21
+- Updated Friend list UI, now it shows your friends level and their names will be colored base on title
+- Fixed issue with friend list, if some of your friend is missing in the list please add them back again.
+
 ### 2023/04/19
 - Update core navigation framework, this should improve the tab switching performance by alot, should be more noticable on older mobile device, please let me know if you face any issue casued by this update
 - Updated player list UI and fix some related bug
