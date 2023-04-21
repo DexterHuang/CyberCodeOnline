@@ -27,6 +27,9 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 
 ## Updates
+### 2023/04/22
+- Fixed chat list with non-English UI would not show correct color base on player's title
+
 ### 2023/04/21
 - Updated Friend list UI, now it shows your friends level and their names will be colored base on title
 - Fixed issue with friend list, if some of your friend is missing in the list please add them back again.
