@@ -28,7 +28,7 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 ### 2023/05/04
-- In market now the maximun selectable amount will be capped at how much space left in your inventory. thanks for player who made this suggestion
+- In market now the maximun selectable amount will be capped at how much space left in your inventory. thanks for player who made this suggestion on discord
 - Adjuested npc `SLANC`'s personality base on community suggestion, the npc will now act more friendly. this npc is still experiemental please let me know how u think.
 btw, this npc is not a tutorial bot and was not designed to be one, a AI-powered tutorial npc or helper would be cool but the tech is still not possible yet, it is still experimental. 
 
