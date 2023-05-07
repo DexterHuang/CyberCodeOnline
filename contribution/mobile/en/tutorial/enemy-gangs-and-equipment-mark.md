@@ -14,11 +14,11 @@ In summary, enemy gangs name & trait as follows:
 
 ![EnemyGang](/resources/mobile-tutorial/EnemyGang.png)
 
-One of the few ways to know which gangs are dominating the area is through **Nearby Enemies** or surfing around **Dungeon**. By seeing their gang name on the top of its health bar, you can notify who's who very quickly. Players can still change their gear in-fight stance if they think the enemies will benefit from its **Mark** spots.
+One of the few ways to know which gangs are dominating the area is through **Nearby Enemies** or surfing around **Dungeon**. By seeing their gang name on the top of its health bar, you can identify who's who very quickly. Players can still change their gear in-fight stance if they think the enemies will benefit from its **Mark** spots.
 
 ## Equipment Mark
 
-All gear / equipment (Except backpacks & modules) has a **Mark** that attach to it, which has a different effect depending on their enemy's influence.
+All gear / equipment (except backpacks & modules) have a **Mark** attached to it, which has a different effect depending on their enemy's influence.
 
 In summary, marks name & trait as follows:
 
@@ -38,4 +38,4 @@ Every player has a different **Mark**, determined by the majority of the gear ma
 
 ![EnemyGangStats](/resources/mobile-tutorial/EnemyGangStats.png)
 
-Players can see the effects of having a certain amount of **Mark** by tapping the yellow Mark text on Equipped section or from the Player's stats on **Profile** tab. As the graph suggested above, every Mark will affect both gangs in a good or bad sense of ways.
+Players can see the effects of having a certain **Mark** by tapping the yellow Mark text on Equipped section or from the Player's stats on **Profile** tab. As the graph suggested above, every Mark will affect two of the three enemy gangs in a positive/negative way.

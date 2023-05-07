@@ -2,7 +2,7 @@
 
 #### Here at CCO, we hope to maintain a friendly community. In order for everyone to have fun and enjoy the game, please familiarise yourself with the rules. 
 
-> If you see someone breaking rules or causing other conflicts in chat, please reach out to your moderation team. You can **report**, **report and block** the player or **tag a moderator** into the chat. We are here to help! Please do not escalate the situation by retaliating or further provoking if issues arise, our moderation team will take care of it. You can see who is our moderator team on Profile > Credits. 
+> If you see someone breaking rules or causing other conflicts in chat, please reach out to your moderation team. You can **report**, **report and block** the player or **tag a moderator** into the chat. We are here to help! Please do not escalate the situation by retaliating or further provoking if issues arise, our moderation team will take care of it. You can see who is in our moderator team on Profile / Map > Phone icon > Links > Credits. 
 
 > If you have any issues with scamming, unfriendly chat on your PM/gang chat, or even if a mod isn't around, do not retaliate or provoke, take a screenshot and report it via direct messaging the moderators in the [Discord server](https://discord.gg/JREx8xz). 
 
@@ -52,7 +52,7 @@
 * Posting ads about your market sales more then once in 15 minutes
 
 #### Allowed(as long as you don't breach the rules above):
-* Emojis😃 / Kaomoji ~ヾ(＾∇＾) / 𝕹𝖔𝖓𝖊-𝖘𝖙𝖆𝖓𝖉𝖆𝖗𝖉 𝕱𝖔𝖓𝖙𝖘 (Must be easily readable and doesn't create chaos)
+* Emojis😃 / Kaomoji ~ヾ(＾∇＾) / 𝕹𝖔𝖓-𝖘𝖙𝖆𝖓𝖉𝖆𝖗𝖉 𝕱𝖔𝖓𝖙𝖘 (Must be easily readable and doesn't create chaos)
 * Roleplay / Roleplaying
 * Discussing Politics, Religions, or COVID-19 (and any major events)
 * Using any language in any chat channel.

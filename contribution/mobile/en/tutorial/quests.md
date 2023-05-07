@@ -9,6 +9,6 @@ Normal Quest consisted of single or individual tasks that were oriented around c
 2. Dungeon Quest
 Dungeon Quest can only be found by interacting with the '?' icon in Dungeon, these were referred to as **Quest Giver**. The quest itself consisted of one thing and one thing only: "give me [X] item, and you'll get [Y] item".
 
-The reward for the quest itself ranged from Items to Perks. These perks (such as Overcharge, Reinforced, & Shield Enhance) were only usable in Nearby Enemies & Dungeon, and can only be used for a certain amount of duration.
+The reward for the quest itself ranged from Items to Perks. These perks (such as Overcharge, Reinforced, & Shield Enhance) are only usable in Nearby Enemies & Dungeons, and last only for a limited duration.
 
 ![QuestTab2](/resources/mobile-tutorial/QuestTab2.png)
