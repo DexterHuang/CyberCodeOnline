@@ -18,7 +18,7 @@ In your Profile, there are several pieces of information and options at your dis
 ## Stats
 In the **Stats** section, you can see the 'Global Effects' of an activated Transmitter (or boost). Here you can also see how long the [MUTED] status will last.
 
-As the name suggests, someone with the 'MUTED' status will not be able to communication with others for a certain amount of time.
+As the name suggests, someone with the 'MUTED' status will not be able to communicate with others for a certain amount of time.
 
 - The 'MUTED' status affects all kinds of chats: both Global, Gang and Mail (Private Messaging).
 - The 'MUTED' status does not affect the ability to receive or send items to other players or the ability to play the game.

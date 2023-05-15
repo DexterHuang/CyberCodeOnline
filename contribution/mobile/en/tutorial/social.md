@@ -1,5 +1,5 @@
 # Social
-In CyberCodeOnline, there are few ways of communicating with other players around the world, which ranged from social chatting onto personal messaging with other player.
+In CyberCodeOnline, there are few ways of communicating with other players around the world, which rangs from social chatting to personal messaging with other players.
 
 ## Chats
 Chats consist of different channels, with a goal to socialize with each other. These were justified by having **Chat Quest** being activated after player speaks in chat for the first time.  
@@ -33,4 +33,4 @@ After choosing out which player will be unblocked, a pop-up will be shown, to co
 ## Player Trading
 While there is no official feature to trade, **Sending Gift to Player** works in a way bridge out the way of trading in this game. To initialize a trade, both players arrange a deal via **Private Message** with a sense of trust on both sides. Once a deal is approved, both players trade their goods and thank each other when a deal is done.
 
-If a player tries to scam others, it's recommended to report this behavior to in-game `Moderator` via Private Message rather than announce it in **Global Chat** to prevent misinformation or bad behavior by any means.
+If a player tries to scam others, it's recommended to report this behavior to an in-game `Moderator` via Private Message rather than announce it in **Global Chat** to prevent misinformation or bad behavior by any means.

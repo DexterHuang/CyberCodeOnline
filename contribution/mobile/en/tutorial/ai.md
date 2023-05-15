@@ -16,7 +16,7 @@ NOTE: if the file does not exist in your language yet, simply create it.
 - Lores 
 
 Please DO NOT add self-insert into the files, it will not be approved.
-Unless special situation, if your edit contains player names, it will not be approved, to ensure fairness to everyone. 
+Unless in special situations, if your edit contains player names, it will not be approved, in order to ensure fairness for everyone. 
 
 ### What should the format be?
 You should always follow the following format:
@@ -31,8 +31,8 @@ Another questions's answer
 
 ```
 Please note that: 
-- Always format the knowledge fragment in the form of question-answer-pair, this is how the bot will receive queries so its the most effective way of providing knowledge
-- The question/statement must be prefixed with `###`, this is markdown format for title.
-- The question/statement should be what you expect the players ask the AI bot, this will increase the performance and likely hood of your knowledge be "reminded/linked" by the ai when the player ask a smilier/same question
-- Alwasy end the section of question&answer pair with **2 empty lines** this will help the algorithm seperate your knowledge fragment from other fragment
-- Please only state facts and be concise without adding emotions/emojis into the answer or question, this will help filter out irelevent information for the AI
+- Always format the knowledge fragment in the form of question-answer pair, this is how the bot will receive queries so its the most effective way of providing knowledge.
+- The question/statement must be prefixed with `###`, this is markdown formatting for titles.
+- The question/statement should be what you expect the players ask the AI bot, this will increase the performance and likely hood of your knowledge being "reminded/linked" by the AI when the player asks a similar/same question.
+- Always end the section of question-answer pair with **2 empty lines**, this will help the algorithm seperate your knowledge fragment from other fragments.
+- Please only state facts and be concise without adding emotions/emojis into the answer or question, this will help filter out irrelevent information for the AI.
