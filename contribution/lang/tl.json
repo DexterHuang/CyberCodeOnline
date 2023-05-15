@@ -229,6 +229,10 @@
  	 	 	 	"trans": "Dagdagan ang pinakamataas na halaga ng mga item na maaari mong maiimbak sa vault sa ${upgradeToSlot}",
  	 	 	 	"eng": "Increase the max amount of items you can store in vault to ${upgradeToSlot}"
  	 	 	},
+ 	 	 	"itemLocked": {
+ 	 	 	 	"trans": "Ang item na ito ay naka -lock at hindi maiimbak.",
+ 	 	 	 	"eng": "This item is locked and can not be stored."
+ 	 	 	},
  	 	 	"modal": {
  	 	 	 	"selectDepositItem": {
  	 	 	 	 	"trans": "Ilan ang nais mong ilagay sa vault?",
@@ -712,7 +716,7 @@
  	 	 	},
  	 	 	"printCacheDescription": {
  	 	 	 	"trans": "Gawin ang cache na ito sa isang armas o item na kagamitan na maaari mong uae.",
- 	 	 	 	"eng": "Turn this cache into a weapon or equipment item that you can uae."
+ 	 	 	 	"eng": "Turn this cache into a weapon or equipment item that you can use."
  	 	 	},
  	 	 	"openContainer": {
  	 	 	 	"trans": "I -unlock ang lalagyan",
@@ -2321,6 +2325,10 @@
  	 	 	"account": {
  	 	 	 	"trans": "account",
  	 	 	 	"eng": "account"
+ 	 	 	},
+ 	 	 	"ai": {
+ 	 	 	 	"trans": "Artipisyal na katalinuhan",
+ 	 	 	 	"eng": "Artificial Intelligence"
  	 	 	}
  	 	},
  	 	"unlockContainerPage": {
@@ -2425,22 +2433,16 @@
  	 	 	 	"eng": "Calibration bundle (100%)"
  	 	 	}
  	 	},
- 	 	"bell1": {
+ 	 	"bell3": {
  	 	 	"name": {
- 	 	 	 	"trans": "Maalamat na naka -lock na lalagyan",
- 	 	 	 	"eng": "Legendary locked container"
+ 	 	 	 	"trans": "Package ng kagamitan",
+ 	 	 	 	"eng": "Equipment Package"
  	 	 	}
  	 	},
  	 	"bell2": {
  	 	 	"name": {
  	 	 	 	"trans": "cassette tape",
  	 	 	 	"eng": "cassette tape"
- 	 	 	}
- 	 	},
- 	 	"bell3": {
- 	 	 	"name": {
- 	 	 	 	"trans": "Package ng kagamitan",
- 	 	 	 	"eng": "Equipment Package"
  	 	 	}
  	 	},
  	 	"cycle": {
@@ -2686,6 +2688,12 @@
  	 	 	 	"trans": "Pumili ng isang item upang magbigkis sa mabilis na puwang",
  	 	 	 	"eng": "Select an item to bind to quick slot"
  	 	 	}
+ 	 	}
+ 	},
+ 	"enemy": {
+ 	 	"thief": {
+ 	 	 	"trans": "Techno-Thief",
+ 	 	 	"eng": "Techno-Thief"
  	 	}
  	},
  	"cost": {
@@ -3074,6 +3082,14 @@
  	 	 	}
  	 	},
  	 	"chatMessage": {
+ 	 	 	"openPlayerProfile": {
+ 	 	 	 	"trans": "Tingnan ang Profile",
+ 	 	 	 	"eng": "View Profile"
+ 	 	 	},
+ 	 	 	"openBotProfileMessage": {
+ 	 	 	 	"trans": "Walang pahintulot. Nakita ang profile na hindi tao.",
+ 	 	 	 	"eng": "Access denied. non-human profile detected."
+ 	 	 	},
  	 	 	"block": {
  	 	 	 	"trans": "I -block",
  	 	 	 	"eng": "Block"
@@ -3081,10 +3097,6 @@
  	 	 	"report": {
  	 	 	 	"trans": "Iulat at I -block",
  	 	 	 	"eng": "Report and Block"
- 	 	 	},
- 	 	 	"openPlayerProfile": {
- 	 	 	 	"trans": "Tingnan ang Profile",
- 	 	 	 	"eng": "View Profile"
  	 	 	},
  	 	 	"openPlayerGang": {
  	 	 	 	"trans": "Tingnan ang Gang",
@@ -3628,6 +3640,10 @@
  	 	 	"killEnemy": {
  	 	 	 	"trans": "Patayin ang kaaway",
  	 	 	 	"eng": "Kill enemy"
+ 	 	 	},
+ 	 	 	"gang": {
+ 	 	 	 	"trans": "Talunin ang mga miyembro ng gang",
+ 	 	 	 	"eng": "Defeat gang members"
  	 	 	},
  	 	 	"getMoney": {
  	 	 	 	"trans": "Kumuha ng Bitcoin",
@@ -4220,6 +4236,18 @@
  	 	"donation16": {
  	 	 	"trans": "Retro Miami",
  	 	 	"eng": "Retro Miami"
+ 	 	},
+ 	 	"donation17": {
+ 	 	 	"trans": "Prestihiyo",
+ 	 	 	"eng": "Prestige"
+ 	 	},
+ 	 	"donation19": {
+ 	 	 	"trans": "Cyberpuppy",
+ 	 	 	"eng": "CyberPuppy"
+ 	 	},
+ 	 	"donation18": {
+ 	 	 	"trans": "Prestihiyo",
+ 	 	 	"eng": "Prestige"
  	 	},
  	 	"moderator": {
  	 	 	"trans": "Tagapamagitan",
@@ -4820,6 +4848,126 @@
  	 	 	 	"4": {
  	 	 	 	 	"trans": "Synthwave Framed Profile (na may animation)",
  	 	 	 	 	"eng": "Synthwave Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "I -unlock ang pasadyang bio",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Dekorasyon ng Barcode sa profile",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "I -customize ang gang motto",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Ipasadya ang imahe ng gang",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Marami pang darating sa pag -update sa hinaharap",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation17": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "\"Prestige\" pamagat ng donasyon",
+ 	 	 	 	 	"eng": "\"Prestige\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "I -unlock ang pagpapasadya ng larawan ng profile",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Itim na frame (na may animation)",
+ 	 	 	 	 	"eng": "Black frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Itim na profile (na may animation)",
+ 	 	 	 	 	"eng": "Black Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "I -unlock ang pasadyang bio",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Dekorasyon ng Barcode sa profile",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "I -customize ang gang motto",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Ipasadya ang imahe ng gang",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Marami pang darating sa pag -update sa hinaharap",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation19": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "\"Cyberpuppy\" pamagat ng donasyon",
+ 	 	 	 	 	"eng": "\"CyberPuppy\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "I -unlock ang pagpapasadya ng larawan ng profile",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Brown frame (na may animation)",
+ 	 	 	 	 	"eng": "Brown frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Brown profile (na may animation)",
+ 	 	 	 	 	"eng": "Brown Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "I -unlock ang pasadyang bio",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Dekorasyon ng Barcode sa profile",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "I -customize ang gang motto",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Ipasadya ang imahe ng gang",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Marami pang darating sa pag -update sa hinaharap",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation18": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "\"Prestige\" pamagat ng donasyon",
+ 	 	 	 	 	"eng": "\"Prestige\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "I -unlock ang pagpapasadya ng larawan ng profile",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Ocean Frame (na may animation)",
+ 	 	 	 	 	"eng": "Ocean frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Profile ng karagatan (na may animation)",
+ 	 	 	 	 	"eng": "Ocean Profile (with animation)"
  	 	 	 	},
  	 	 	 	"5": {
  	 	 	 	 	"trans": "I -unlock ang pasadyang bio",
@@ -5751,6 +5899,33 @@
  	 	 	 	],
  	 	 	 	"trans": "Ginawa ng pag -ibig at pag -aalaga ni Yen. Masarap at pampalusog na pagkain na magbibigay ng player -${percent}% pinsala na kinuha sa loob ng 20 minuto kapag kinakain. Perpekto para sa pagharap sa mga mahihirap na hamon at pagsakop sa mga mahihirap na kaaway, ang sushi ni Yen ay isang kinakailangan - magkaroon para sa sinumang tagapagbalita.",
  	 	 	 	"eng": "Made with love and care by Yen. delicious and nourishing meal that will grant the player -${percent}% damage taken for 20 minutes when eaten. Perfect for tackling tough challenges and conquering difficult foes, Yen\\'s sushi is a must - have for any adventurer."
+ 	 	 	}
+ 	 	},
+ 	 	"summonAI": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Slanc Connector",
+ 	 	 	 	"eng": "SLANC Connector"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"minute"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Gumamit ng slanc connector upang ikonekta ang slanc sa pandaigdigang chat para sa ${minute} minuto",
+ 	 	 	 	"eng": "Use SLANC Connector to connect SLANC to global chat for ${minute} minutes"
+ 	 	 	},
+ 	 	 	"announcement": {
+ 	 	 	 	"trans": "Pumasok na si Slanc sa chat",
+ 	 	 	 	"eng": "SLANC has entered the chat"
+ 	 	 	}
+ 	 	},
+ 	 	"dungeonToken": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Dungeon Token",
+ 	 	 	 	"eng": "Dungeon Token"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Isang token na maaaring magamit upang makipagpalitan ng mga item",
+ 	 	 	 	"eng": "A token that can be used to exchange items"
  	 	 	}
  	 	},
  	 	"experienceShard": {
@@ -6813,6 +6988,36 @@
  	 	 	 	 	"trans": "Ang pahina ng tutorial ay nasa tab na profile -> tutorial",
  	 	 	 	 	"eng": "Tutorial Page is in profile tab -> Tutorial"
  	 	 	 	}
+ 	 	 	},
+ 	 	 	"killGang1": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "Talunin ang miyembro ng gang ng mga hayop",
+ 	 	 	 	 	"eng": "Defeat Animals gang member"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Talunin ang mga kaaway ng gang ng mga hayop",
+ 	 	 	 	 	"eng": "Defeat Animals gang enemies"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"killGang2": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "Talunin ang miyembro ng Gang Voodoo Boys",
+ 	 	 	 	 	"eng": "Defeat Voodoo boys gang member"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Talunin ang mga kaaway ng Voodoo Boys Gang",
+ 	 	 	 	 	"eng": "Defeat Voodoo boys gang enemies"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"killGang3": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "Talunin ang Miyembro ng Gang Scavengers",
+ 	 	 	 	 	"eng": "Defeat Scavengers gang member"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Talunin ang mga scavengers gang kaaway",
+ 	 	 	 	 	"eng": "Defeat Scavengers gang enemies"
+ 	 	 	 	}
  	 	 	}
  	 	}
  	},
@@ -7010,6 +7215,10 @@
  	 	"flashGrenade": {
  	 	 	"trans": "Flash Grenade",
  	 	 	"eng": "Flash Grenade"
+ 	 	},
+ 	 	"aiConnect": {
+ 	 	 	"trans": "Koneksyon ng Cyberspace",
+ 	 	 	"eng": "Cyberspace Connection"
  	 	}
  	},
  	"combat": {
@@ -7661,6 +7870,20 @@
  	 	 	"eng": "You will not heal after each fight in dungeon, remember to use your healing items."
  	 	}
  	},
+ 	"gangQuestAcceptModal": {
+ 	 	"title": {
+ 	 	 	"trans": "Nakita ng Dungeon Quest",
+ 	 	 	"eng": "Dungeon Quest Detected"
+ 	 	},
+ 	 	"cancel": {
+ 	 	 	"trans": "Kanselahin",
+ 	 	 	"eng": "Cancel"
+ 	 	},
+ 	 	"accept": {
+ 	 	 	"trans": "Tanggapin",
+ 	 	 	"eng": "Accept"
+ 	 	}
+ 	},
  	"christmasPromo": {
  	 	"title": {
  	 	 	"trans": "Maligayang Holiday ng Taglamig!",
@@ -7807,6 +8030,20 @@
  	 	 	],
  	 	 	"trans": "Nagdagdag ng isang bagong \"${name}\" Donator chat frame",
  	 	 	"eng": "Added a new \"${name}\" donator chat frame"
+ 	 	}
+ 	},
+ 	"thiefPromo": {
+ 	 	"title": {
+ 	 	 	"trans": "Pag -update ng anibersaryo!",
+ 	 	 	"eng": "Anniversary Update!"
+ 	 	},
+ 	 	"desc1": {
+ 	 	 	"trans": "Ang magnanakaw ng Techno ay bihirang mag -ungol sa piitan kapag binuksan mo ang mga crates, bumababa sila ng mas mahusay na pagnakawan, kabilang ang mas mataas na pagkakataon ng mga epikong item",
+ 	 	 	"eng": "Techno Thief will spawn rarely in dungeon when you open crates, they drop better loots, including higher chance of epic items"
+ 	 	},
+ 	 	"desc2": {
+ 	 	 	"trans": "Dinagdag ng dalawang bagong frame ng donator",
+ 	 	 	"eng": "Two new donator frames added"
  	 	}
  	},
  	"reportPlayerModal": {
@@ -8164,6 +8401,12 @@
  	 	 	],
  	 	 	"trans": "Matagumpay kang nagpadala ng isang sagisag sa player na \"${playerName}\"",
  	 	 	"eng": "You have successfully sent an emblem to player \"${playerName}\""
+ 	 	}
+ 	},
+ 	"chatModuleHelper": {
+ 	 	"aiConnectNotAvailable": {
+ 	 	 	"trans": "Tinanggihan ang pahintulot. Slanc hindi konektado sa chat",
+ 	 	 	"eng": "Permission Denied. SLANC not connected to chat"
  	 	}
  	},
  	"gifting": {

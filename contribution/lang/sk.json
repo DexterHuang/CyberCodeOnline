@@ -229,6 +229,10 @@
  	 	 	 	"trans": "Zvýš maximálne množstvo položiek, ktoré môžeš uložiť v trezore na ${upgradeToSlot}",
  	 	 	 	"eng": "Increase the max amount of items you can store in vault to ${upgradeToSlot}"
  	 	 	},
+ 	 	 	"itemLocked": {
+ 	 	 	 	"trans": "Táto položka je uzamknutá a nemôže sa uložiť.",
+ 	 	 	 	"eng": "This item is locked and can not be stored."
+ 	 	 	},
  	 	 	"modal": {
  	 	 	 	"selectDepositItem": {
  	 	 	 	 	"trans": "Koľko by ste chceli vložiť do trezoru?",
@@ -712,7 +716,7 @@
  	 	 	},
  	 	 	"printCacheDescription": {
  	 	 	 	"trans": "Premeňte túto vyrovnávaciu pamäť na zbraň alebo vybavenie, ktorú môžete použiť.",
- 	 	 	 	"eng": "Turn this cache into a weapon or equipment item that you can uae."
+ 	 	 	 	"eng": "Turn this cache into a weapon or equipment item that you can use."
  	 	 	},
  	 	 	"openContainer": {
  	 	 	 	"trans": "Odomknúť kontajner",
@@ -2321,6 +2325,10 @@
  	 	 	"account": {
  	 	 	 	"trans": "účtovať",
  	 	 	 	"eng": "account"
+ 	 	 	},
+ 	 	 	"ai": {
+ 	 	 	 	"trans": "Umela inteligencia",
+ 	 	 	 	"eng": "Artificial Intelligence"
  	 	 	}
  	 	},
  	 	"unlockContainerPage": {
@@ -2425,22 +2433,16 @@
  	 	 	 	"eng": "Calibration bundle (100%)"
  	 	 	}
  	 	},
- 	 	"bell1": {
+ 	 	"bell3": {
  	 	 	"name": {
- 	 	 	 	"trans": "Legendárny uzamknutý kontajner",
- 	 	 	 	"eng": "Legendary locked container"
+ 	 	 	 	"trans": "Vybavenie",
+ 	 	 	 	"eng": "Equipment Package"
  	 	 	}
  	 	},
  	 	"bell2": {
  	 	 	"name": {
  	 	 	 	"trans": "kazetová páska",
  	 	 	 	"eng": "cassette tape"
- 	 	 	}
- 	 	},
- 	 	"bell3": {
- 	 	 	"name": {
- 	 	 	 	"trans": "Vybavenie",
- 	 	 	 	"eng": "Equipment Package"
  	 	 	}
  	 	},
  	 	"cycle": {
@@ -2686,6 +2688,12 @@
  	 	 	 	"trans": "Vyberte položku, ktorá sa viaže na rýchly slot",
  	 	 	 	"eng": "Select an item to bind to quick slot"
  	 	 	}
+ 	 	}
+ 	},
+ 	"enemy": {
+ 	 	"thief": {
+ 	 	 	"trans": "Zlodej",
+ 	 	 	"eng": "Techno-Thief"
  	 	}
  	},
  	"cost": {
@@ -3074,6 +3082,14 @@
  	 	 	}
  	 	},
  	 	"chatMessage": {
+ 	 	 	"openPlayerProfile": {
+ 	 	 	 	"trans": "Prezrieť profil",
+ 	 	 	 	"eng": "View Profile"
+ 	 	 	},
+ 	 	 	"openBotProfileMessage": {
+ 	 	 	 	"trans": "Prístup zamietnutý. detekovaný profil, ktorý nie je humánny.",
+ 	 	 	 	"eng": "Access denied. non-human profile detected."
+ 	 	 	},
  	 	 	"block": {
  	 	 	 	"trans": "Blokovať",
  	 	 	 	"eng": "Block"
@@ -3081,10 +3097,6 @@
  	 	 	"report": {
  	 	 	 	"trans": "Nahlásiť alebo zablokovať",
  	 	 	 	"eng": "Report and Block"
- 	 	 	},
- 	 	 	"openPlayerProfile": {
- 	 	 	 	"trans": "Prezrieť profil",
- 	 	 	 	"eng": "View Profile"
  	 	 	},
  	 	 	"openPlayerGang": {
  	 	 	 	"trans": "Zobraziť gang",
@@ -3628,6 +3640,10 @@
  	 	 	"killEnemy": {
  	 	 	 	"trans": "Zabiť nepriateľa",
  	 	 	 	"eng": "Kill enemy"
+ 	 	 	},
+ 	 	 	"gang": {
+ 	 	 	 	"trans": "Poraziť členov gangu",
+ 	 	 	 	"eng": "Defeat gang members"
  	 	 	},
  	 	 	"getMoney": {
  	 	 	 	"trans": "Získať bitcoín",
@@ -4220,6 +4236,18 @@
  	 	"donation16": {
  	 	 	"trans": "Retro Miami",
  	 	 	"eng": "Retro Miami"
+ 	 	},
+ 	 	"donation17": {
+ 	 	 	"trans": "Prestíž",
+ 	 	 	"eng": "Prestige"
+ 	 	},
+ 	 	"donation19": {
+ 	 	 	"trans": "Počítačový",
+ 	 	 	"eng": "CyberPuppy"
+ 	 	},
+ 	 	"donation18": {
+ 	 	 	"trans": "Prestíž",
+ 	 	 	"eng": "Prestige"
  	 	},
  	 	"moderator": {
  	 	 	"trans": "Moderátor",
@@ -4839,6 +4867,126 @@
  	 	 	 	},
  	 	 	 	"9": {
  	 	 	 	 	"trans": "Viac príchodu v budúcnosti aktualizácie",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation17": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "„Prestige“ Darčekový titul",
+ 	 	 	 	 	"eng": "\"Prestige\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "Odomknúť prispôsobenie profilu",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Čierny rám (s animáciou)",
+ 	 	 	 	 	"eng": "Black frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Black Profil (s animáciou)",
+ 	 	 	 	 	"eng": "Black Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "Odomknite vlastné životopis",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Dekorácia čiarových kódov na profile",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "Prispôsobte motto gangov",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Prispôsobte obrázok gangov",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Viac prichádza v budúcnosti aktualizácie",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation19": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "Názov darovania „CyberPuppy“",
+ 	 	 	 	 	"eng": "\"CyberPuppy\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "Odomknúť prispôsobenie profilu",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Hnedý rám (s animáciou)",
+ 	 	 	 	 	"eng": "Brown frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Hnedý profil (s animáciou)",
+ 	 	 	 	 	"eng": "Brown Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "Odomknite vlastné životopis",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Dekorácia čiarových kódov na profile",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "Prispôsobte motto gangov",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Prispôsobte obrázok gangov",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Viac prichádza v budúcnosti aktualizácie",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation18": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "„Prestige“ Darčekový titul",
+ 	 	 	 	 	"eng": "\"Prestige\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "Odomknúť prispôsobenie profilu",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Ocean Frame (s animáciou)",
+ 	 	 	 	 	"eng": "Ocean frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Profil oceánu (s animáciou)",
+ 	 	 	 	 	"eng": "Ocean Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "Odomknite vlastné životopis",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Dekorácia čiarových kódov na profile",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "Prispôsobte motto gangov",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Prispôsobte obrázok gangov",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Viac prichádza v budúcnosti aktualizácie",
  	 	 	 	 	"eng": "More coming in future update"
  	 	 	 	}
  	 	 	}
@@ -5751,6 +5899,33 @@
  	 	 	 	],
  	 	 	 	"trans": "Vyrobené z lásky a starostlivosti Yen. Vypracované a výživné jedlo, ktoré poskytne hráčovi -${percent}% poškodenie, ktoré sa pri konzumácii uplatňovalo 20 minút. Yen's Sushi je ideálny na riešenie ťažkých výziev a dobývaní ťažkých nepriateľov, je nevyhnutnosťou - mať pre každého dobrodruha.",
  	 	 	 	"eng": "Made with love and care by Yen. delicious and nourishing meal that will grant the player -${percent}% damage taken for 20 minutes when eaten. Perfect for tackling tough challenges and conquering difficult foes, Yen\\'s sushi is a must - have for any adventurer."
+ 	 	 	}
+ 	 	},
+ 	 	"summonAI": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Konektor Slanc",
+ 	 	 	 	"eng": "SLANC Connector"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"minute"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Použite Slanc Connector na pripojenie Slanc k globálnemu rozhovoru na ${minute} minút",
+ 	 	 	 	"eng": "Use SLANC Connector to connect SLANC to global chat for ${minute} minutes"
+ 	 	 	},
+ 	 	 	"announcement": {
+ 	 	 	 	"trans": "Slanc vstúpil do chatu",
+ 	 	 	 	"eng": "SLANC has entered the chat"
+ 	 	 	}
+ 	 	},
+ 	 	"dungeonToken": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Token",
+ 	 	 	 	"eng": "Dungeon Token"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Token, ktorý sa dá použiť na výmenu položiek",
+ 	 	 	 	"eng": "A token that can be used to exchange items"
  	 	 	}
  	 	},
  	 	"experienceShard": {
@@ -6813,6 +6988,36 @@
  	 	 	 	 	"trans": "Stránka výučby je na karte Profil -> Výukový program",
  	 	 	 	 	"eng": "Tutorial Page is in profile tab -> Tutorial"
  	 	 	 	}
+ 	 	 	},
+ 	 	 	"killGang1": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "Poraziť člena gangu Animals",
+ 	 	 	 	 	"eng": "Defeat Animals gang member"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Poraziť nepriateľov gangov zvierat",
+ 	 	 	 	 	"eng": "Defeat Animals gang enemies"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"killGang2": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "Poraziť člen člena gangu voodoo chlapcov",
+ 	 	 	 	 	"eng": "Defeat Voodoo boys gang member"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Poraziť nepriateľov gangov voodoo chlapcov",
+ 	 	 	 	 	"eng": "Defeat Voodoo boys gang enemies"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"killGang3": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "Poraziť člena gangu Scavengers",
+ 	 	 	 	 	"eng": "Defeat Scavengers gang member"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Poraziť nepriateľov gangov Scavengers",
+ 	 	 	 	 	"eng": "Defeat Scavengers gang enemies"
+ 	 	 	 	}
  	 	 	}
  	 	}
  	},
@@ -7010,6 +7215,10 @@
  	 	"flashGrenade": {
  	 	 	"trans": "Bleskový granát",
  	 	 	"eng": "Flash Grenade"
+ 	 	},
+ 	 	"aiConnect": {
+ 	 	 	"trans": "Pripojenie kybernetického priestoru",
+ 	 	 	"eng": "Cyberspace Connection"
  	 	}
  	},
  	"combat": {
@@ -7661,6 +7870,20 @@
  	 	 	"eng": "You will not heal after each fight in dungeon, remember to use your healing items."
  	 	}
  	},
+ 	"gangQuestAcceptModal": {
+ 	 	"title": {
+ 	 	 	"trans": "Zistené úlohy Dungeon",
+ 	 	 	"eng": "Dungeon Quest Detected"
+ 	 	},
+ 	 	"cancel": {
+ 	 	 	"trans": "Zrušiť",
+ 	 	 	"eng": "Cancel"
+ 	 	},
+ 	 	"accept": {
+ 	 	 	"trans": "súhlasiť",
+ 	 	 	"eng": "Accept"
+ 	 	}
+ 	},
  	"christmasPromo": {
  	 	"title": {
  	 	 	"trans": "Šťastná zimná dovolenka!",
@@ -7807,6 +8030,20 @@
  	 	 	],
  	 	 	"trans": "Pridaný nový rámec chatovacieho rámca „${name}“",
  	 	 	"eng": "Added a new \"${name}\" donator chat frame"
+ 	 	}
+ 	},
+ 	"thiefPromo": {
+ 	 	"title": {
+ 	 	 	"trans": "Aktualizácia výročia!",
+ 	 	 	"eng": "Anniversary Update!"
+ 	 	},
+ 	 	"desc1": {
+ 	 	 	"trans": "Techno -zlodej sa pri otváraní prepraviek zriedka v Dungeone pustí",
+ 	 	 	"eng": "Techno Thief will spawn rarely in dungeon when you open crates, they drop better loots, including higher chance of epic items"
+ 	 	},
+ 	 	"desc2": {
+ 	 	 	"trans": "Gang Dungeon bude mať šancu splodiť gangovú úlohu, ktorá zahŕňa zabíjanie nepriateľov konkrétnych gangov NPC",
+ 	 	 	"eng": "Two new donator frames added"
  	 	}
  	},
  	"reportPlayerModal": {
@@ -8164,6 +8401,12 @@
  	 	 	],
  	 	 	"trans": "Úspešne ste poslali znak hráčovi „${playerName}“",
  	 	 	"eng": "You have successfully sent an emblem to player \"${playerName}\""
+ 	 	}
+ 	},
+ 	"chatModuleHelper": {
+ 	 	"aiConnectNotAvailable": {
+ 	 	 	"trans": "Prístup zamietnutý. Slanc nie je pripojený k chatovaniu",
+ 	 	 	"eng": "Permission Denied. SLANC not connected to chat"
  	 	}
  	},
  	"gifting": {

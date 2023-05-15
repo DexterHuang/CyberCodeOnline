@@ -229,6 +229,10 @@
  	 	 	 	"trans": "Увеличь максимальное количество предметов, которые вы можете хранить, до ${upgradeToSlot}",
  	 	 	 	"eng": "Increase the max amount of items you can store in vault to ${upgradeToSlot}"
  	 	 	},
+ 	 	 	"itemLocked": {
+ 	 	 	 	"trans": "Этот предмет заблокирован и не может храниться.",
+ 	 	 	 	"eng": "This item is locked and can not be stored."
+ 	 	 	},
  	 	 	"modal": {
  	 	 	 	"selectDepositItem": {
  	 	 	 	 	"trans": "Сколько вы хотите положить в хранилище?",
@@ -712,7 +716,7 @@
  	 	 	},
  	 	 	"printCacheDescription": {
  	 	 	 	"trans": "Превратите этот чертёж в оружие или предмет экипировки, который вы можете использовать.",
- 	 	 	 	"eng": "Turn this cache into a weapon or equipment item that you can uae."
+ 	 	 	 	"eng": "Turn this cache into a weapon or equipment item that you can use."
  	 	 	},
  	 	 	"openContainer": {
  	 	 	 	"trans": "Разблокировать контейнер",
@@ -2321,6 +2325,10 @@
  	 	 	"account": {
  	 	 	 	"trans": "аккаунт",
  	 	 	 	"eng": "account"
+ 	 	 	},
+ 	 	 	"ai": {
+ 	 	 	 	"trans": "Искусственный интеллект",
+ 	 	 	 	"eng": "Artificial Intelligence"
  	 	 	}
  	 	},
  	 	"unlockContainerPage": {
@@ -2425,22 +2433,16 @@
  	 	 	 	"eng": "Calibration bundle (100%)"
  	 	 	}
  	 	},
- 	 	"bell1": {
+ 	 	"bell3": {
  	 	 	"name": {
- 	 	 	 	"trans": "Легендарный запертый контейнер",
- 	 	 	 	"eng": "Legendary locked container"
+ 	 	 	 	"trans": "Пакет оборудования",
+ 	 	 	 	"eng": "Equipment Package"
  	 	 	}
  	 	},
  	 	"bell2": {
  	 	 	"name": {
  	 	 	 	"trans": "кассета",
  	 	 	 	"eng": "cassette tape"
- 	 	 	}
- 	 	},
- 	 	"bell3": {
- 	 	 	"name": {
- 	 	 	 	"trans": "Пакет оборудования",
- 	 	 	 	"eng": "Equipment Package"
  	 	 	}
  	 	},
  	 	"cycle": {
@@ -2686,6 +2688,12 @@
  	 	 	 	"trans": "Выберите элемент, чтобы привязать к быстрому слоту",
  	 	 	 	"eng": "Select an item to bind to quick slot"
  	 	 	}
+ 	 	}
+ 	},
+ 	"enemy": {
+ 	 	"thief": {
+ 	 	 	"trans": "Техно-Теф",
+ 	 	 	"eng": "Techno-Thief"
  	 	}
  	},
  	"cost": {
@@ -3074,6 +3082,14 @@
  	 	 	}
  	 	},
  	 	"chatMessage": {
+ 	 	 	"openPlayerProfile": {
+ 	 	 	 	"trans": "Просмотреть профиль",
+ 	 	 	 	"eng": "View Profile"
+ 	 	 	},
+ 	 	 	"openBotProfileMessage": {
+ 	 	 	 	"trans": "Доступ запрещен. Обнаружен нечеловеческий профиль.",
+ 	 	 	 	"eng": "Access denied. non-human profile detected."
+ 	 	 	},
  	 	 	"block": {
  	 	 	 	"trans": "Заблокировать",
  	 	 	 	"eng": "Block"
@@ -3081,10 +3097,6 @@
  	 	 	"report": {
  	 	 	 	"trans": "Пожаловаться и заблокировать",
  	 	 	 	"eng": "Report and Block"
- 	 	 	},
- 	 	 	"openPlayerProfile": {
- 	 	 	 	"trans": "Просмотреть профиль",
- 	 	 	 	"eng": "View Profile"
  	 	 	},
  	 	 	"openPlayerGang": {
  	 	 	 	"trans": "Просмотр банды",
@@ -3628,6 +3640,10 @@
  	 	 	"killEnemy": {
  	 	 	 	"trans": "Убей противника",
  	 	 	 	"eng": "Kill enemy"
+ 	 	 	},
+ 	 	 	"gang": {
+ 	 	 	 	"trans": "Победить членов банды",
+ 	 	 	 	"eng": "Defeat gang members"
  	 	 	},
  	 	 	"getMoney": {
  	 	 	 	"trans": "Получи Биткоины",
@@ -4220,6 +4236,18 @@
  	 	"donation16": {
  	 	 	"trans": "Ретро Майами",
  	 	 	"eng": "Retro Miami"
+ 	 	},
+ 	 	"donation17": {
+ 	 	 	"trans": "Престиж",
+ 	 	 	"eng": "Prestige"
+ 	 	},
+ 	 	"donation19": {
+ 	 	 	"trans": "Киберпуппи",
+ 	 	 	"eng": "CyberPuppy"
+ 	 	},
+ 	 	"donation18": {
+ 	 	 	"trans": "Престиж",
+ 	 	 	"eng": "Prestige"
  	 	},
  	 	"moderator": {
  	 	 	"trans": "Модератор",
@@ -4820,6 +4848,126 @@
  	 	 	 	"4": {
  	 	 	 	 	"trans": "Профиль с помощью синтезированной волны (с анимацией)",
  	 	 	 	 	"eng": "Synthwave Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "Разблокировать пользовательскую биографию",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Украшение штрих -кода в профиле",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "Настройте девиз банда",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Настройте изображение банды",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Больше в будущем обновлении",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation17": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "Название пожертвования \"Prestige\"",
+ 	 	 	 	 	"eng": "\"Prestige\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "Разблокировать настройку изображения профиля",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Черная рамка (с анимацией)",
+ 	 	 	 	 	"eng": "Black frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Черный профиль (с анимацией)",
+ 	 	 	 	 	"eng": "Black Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "Разблокировать пользовательскую биографию",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Украшение штрих -кода в профиле",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "Настройте девиз банда",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Настройте изображение банды",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Больше в будущем обновлении",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation19": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "Название пожертвования \"CyberPuppy\"",
+ 	 	 	 	 	"eng": "\"CyberPuppy\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "Разблокировать настройку изображения профиля",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Коричневая рама (с анимацией)",
+ 	 	 	 	 	"eng": "Brown frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Коричневый профиль (с анимацией)",
+ 	 	 	 	 	"eng": "Brown Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "Разблокировать пользовательскую биографию",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Украшение штрих -кода в профиле",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "Настройте девиз банда",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Настройте изображение банды",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Больше в будущем обновлении",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation18": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "Название пожертвования \"Prestige\"",
+ 	 	 	 	 	"eng": "\"Prestige\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "Разблокировать настройку изображения профиля",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Океанская рама (с анимацией)",
+ 	 	 	 	 	"eng": "Ocean frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Профиль океана (с анимацией)",
+ 	 	 	 	 	"eng": "Ocean Profile (with animation)"
  	 	 	 	},
  	 	 	 	"5": {
  	 	 	 	 	"trans": "Разблокировать пользовательскую биографию",
@@ -5753,6 +5901,33 @@
  	 	 	 	"eng": "Made with love and care by Yen. delicious and nourishing meal that will grant the player -${percent}% damage taken for 20 minutes when eaten. Perfect for tackling tough challenges and conquering difficult foes, Yen\\'s sushi is a must - have for any adventurer."
  	 	 	}
  	 	},
+ 	 	"summonAI": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Разъем Slanc",
+ 	 	 	 	"eng": "SLANC Connector"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"minute"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Используйте разъем Slanc для подключения SLANC к глобальному чату за ${minute} минут",
+ 	 	 	 	"eng": "Use SLANC Connector to connect SLANC to global chat for ${minute} minutes"
+ 	 	 	},
+ 	 	 	"announcement": {
+ 	 	 	 	"trans": "Slanc вошел в чат",
+ 	 	 	 	"eng": "SLANC has entered the chat"
+ 	 	 	}
+ 	 	},
+ 	 	"dungeonToken": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Токен подземелья",
+ 	 	 	 	"eng": "Dungeon Token"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Токен, который можно использовать для обмена предметами",
+ 	 	 	 	"eng": "A token that can be used to exchange items"
+ 	 	 	}
+ 	 	},
  	 	"experienceShard": {
  	 	 	"name": {
  	 	 	 	"vars": [
@@ -6600,6 +6775,36 @@
  	 	 	 	 	"trans": "Страница учебного пособия находится в вкладке профиля -> Учебное пособие",
  	 	 	 	 	"eng": "Tutorial Page is in profile tab -> Tutorial"
  	 	 	 	}
+ 	 	 	},
+ 	 	 	"killGang1": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "Победить члены банды животных",
+ 	 	 	 	 	"eng": "Defeat Animals gang member"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Победить животных банды врагов",
+ 	 	 	 	 	"eng": "Defeat Animals gang enemies"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"killGang2": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "Победить член парни в Вуду",
+ 	 	 	 	 	"eng": "Defeat Voodoo boys gang member"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Победить Вуду, мальчики, враги банды",
+ 	 	 	 	 	"eng": "Defeat Voodoo boys gang enemies"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"killGang3": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "Поражение члена банды падальщиков",
+ 	 	 	 	 	"eng": "Defeat Scavengers gang member"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Поражение мусорщиков врагов банды",
+ 	 	 	 	 	"eng": "Defeat Scavengers gang enemies"
+ 	 	 	 	}
  	 	 	}
  	 	}
  	},
@@ -6797,6 +7002,10 @@
  	 	"flashGrenade": {
  	 	 	"trans": "Светошумовая граната",
  	 	 	"eng": "Flash Grenade"
+ 	 	},
+ 	 	"aiConnect": {
+ 	 	 	"trans": "Cyberspace Connection",
+ 	 	 	"eng": "Cyberspace Connection"
  	 	}
  	},
  	"combat": {
@@ -7448,6 +7657,20 @@
  	 	 	"eng": "You will not heal after each fight in dungeon, remember to use your healing items."
  	 	}
  	},
+ 	"gangQuestAcceptModal": {
+ 	 	"title": {
+ 	 	 	"trans": "Dungeon Quest обнаруживается",
+ 	 	 	"eng": "Dungeon Quest Detected"
+ 	 	},
+ 	 	"cancel": {
+ 	 	 	"trans": "Отмена",
+ 	 	 	"eng": "Cancel"
+ 	 	},
+ 	 	"accept": {
+ 	 	 	"trans": "Принимать",
+ 	 	 	"eng": "Accept"
+ 	 	}
+ 	},
  	"christmasPromo": {
  	 	"title": {
  	 	 	"trans": "Счастливых зимних праздников!!",
@@ -7594,6 +7817,20 @@
  	 	 	],
  	 	 	"trans": "Добавлена новая кадр чата \"${name}\"",
  	 	 	"eng": "Added a new \"${name}\" donator chat frame"
+ 	 	}
+ 	},
+ 	"thiefPromo": {
+ 	 	"title": {
+ 	 	 	"trans": "Обновление юбилей!",
+ 	 	 	"eng": "Anniversary Update!"
+ 	 	},
+ 	 	"desc1": {
+ 	 	 	"trans": "Techno Thief будет редко выскочить в Dungeon, когда вы откроете ящики, они падают лучшую добычу, включая более высокие шансы на эпические предметы",
+ 	 	 	"eng": "Techno Thief will spawn rarely in dungeon when you open crates, they drop better loots, including higher chance of epic items"
+ 	 	},
+ 	 	"desc2": {
+ 	 	 	"trans": "Два новых кадрах -дончика добавлены",
+ 	 	 	"eng": "Two new donator frames added"
  	 	}
  	},
  	"reportPlayerModal": {
@@ -7951,6 +8188,12 @@
  	 	 	],
  	 	 	"trans": "Вы успешно отправили эмблему игроку \"${playerName}\"!",
  	 	 	"eng": "You have successfully sent an emblem to player \"${playerName}\""
+ 	 	}
+ 	},
+ 	"chatModuleHelper": {
+ 	 	"aiConnectNotAvailable": {
+ 	 	 	"trans": "Доступ запрещен. Slanc не подключен к чату",
+ 	 	 	"eng": "Permission Denied. SLANC not connected to chat"
  	 	}
  	},
  	"gifting": {

@@ -229,6 +229,10 @@
  	 	 	 	"trans": "Kasada depolayabileceğiniz maksimum stok miktarını ${upgradeToSlot} yapın",
  	 	 	 	"eng": "Increase the max amount of items you can store in vault to ${upgradeToSlot}"
  	 	 	},
+ 	 	 	"itemLocked": {
+ 	 	 	 	"trans": "Bu öğe kilitlenir ve saklanamaz.",
+ 	 	 	 	"eng": "This item is locked and can not be stored."
+ 	 	 	},
  	 	 	"modal": {
  	 	 	 	"selectDepositItem": {
  	 	 	 	 	"trans": "Kasaya kaç adet koymak istersiniz?",
@@ -712,7 +716,7 @@
  	 	 	},
  	 	 	"printCacheDescription": {
  	 	 	 	"trans": "Bu kalıbı kullanabileceğin bir silaha veya ekipmana dönüştür.",
- 	 	 	 	"eng": "Turn this cache into a weapon or equipment item that you can uae."
+ 	 	 	 	"eng": "Turn this cache into a weapon or equipment item that you can use."
  	 	 	},
  	 	 	"openContainer": {
  	 	 	 	"trans": "Sandığın kilidini aç",
@@ -2321,6 +2325,10 @@
  	 	 	"account": {
  	 	 	 	"trans": "hesap",
  	 	 	 	"eng": "account"
+ 	 	 	},
+ 	 	 	"ai": {
+ 	 	 	 	"trans": "Yapay zeka",
+ 	 	 	 	"eng": "Artificial Intelligence"
  	 	 	}
  	 	},
  	 	"unlockContainerPage": {
@@ -2425,22 +2433,16 @@
  	 	 	 	"eng": "Calibration bundle (100%)"
  	 	 	}
  	 	},
- 	 	"bell1": {
+ 	 	"bell3": {
  	 	 	"name": {
- 	 	 	 	"trans": "Efsanevi kilitli konteyner",
- 	 	 	 	"eng": "Legendary locked container"
+ 	 	 	 	"trans": "Ekipman paketi",
+ 	 	 	 	"eng": "Equipment Package"
  	 	 	}
  	 	},
  	 	"bell2": {
  	 	 	"name": {
  	 	 	 	"trans": "kaset",
  	 	 	 	"eng": "cassette tape"
- 	 	 	}
- 	 	},
- 	 	"bell3": {
- 	 	 	"name": {
- 	 	 	 	"trans": "Ekipman paketi",
- 	 	 	 	"eng": "Equipment Package"
  	 	 	}
  	 	},
  	 	"cycle": {
@@ -2686,6 +2688,12 @@
  	 	 	 	"trans": "Hızlı yuvaya bağlanacak bir öğe seçin",
  	 	 	 	"eng": "Select an item to bind to quick slot"
  	 	 	}
+ 	 	}
+ 	},
+ 	"enemy": {
+ 	 	"thief": {
+ 	 	 	"trans": "Tekno şeriat",
+ 	 	 	"eng": "Techno-Thief"
  	 	}
  	},
  	"cost": {
@@ -3074,6 +3082,14 @@
  	 	 	}
  	 	},
  	 	"chatMessage": {
+ 	 	 	"openPlayerProfile": {
+ 	 	 	 	"trans": "Profili Görüntüle",
+ 	 	 	 	"eng": "View Profile"
+ 	 	 	},
+ 	 	 	"openBotProfileMessage": {
+ 	 	 	 	"trans": "Erişim engellendi. İnsan olmayan profil tespit edildi.",
+ 	 	 	 	"eng": "Access denied. non-human profile detected."
+ 	 	 	},
  	 	 	"block": {
  	 	 	 	"trans": "Engellek",
  	 	 	 	"eng": "Block"
@@ -3081,10 +3097,6 @@
  	 	 	"report": {
  	 	 	 	"trans": "Rapor Et ve Engelle",
  	 	 	 	"eng": "Report and Block"
- 	 	 	},
- 	 	 	"openPlayerProfile": {
- 	 	 	 	"trans": "Profili Görüntüle",
- 	 	 	 	"eng": "View Profile"
  	 	 	},
  	 	 	"openPlayerGang": {
  	 	 	 	"trans": "Çeteyi Görüntüle",
@@ -3628,6 +3640,10 @@
  	 	 	"killEnemy": {
  	 	 	 	"trans": "Düşman Öldür",
  	 	 	 	"eng": "Kill enemy"
+ 	 	 	},
+ 	 	 	"gang": {
+ 	 	 	 	"trans": "Çete üyelerini yenmek",
+ 	 	 	 	"eng": "Defeat gang members"
  	 	 	},
  	 	 	"getMoney": {
  	 	 	 	"trans": "Bitcoin Elde Et",
@@ -4220,6 +4236,18 @@
  	 	"donation16": {
  	 	 	"trans": "Retro Miami",
  	 	 	"eng": "Retro Miami"
+ 	 	},
+ 	 	"donation17": {
+ 	 	 	"trans": "Prestij",
+ 	 	 	"eng": "Prestige"
+ 	 	},
+ 	 	"donation19": {
+ 	 	 	"trans": "Siberpup",
+ 	 	 	"eng": "CyberPuppy"
+ 	 	},
+ 	 	"donation18": {
+ 	 	 	"trans": "Prestij",
+ 	 	 	"eng": "Prestige"
  	 	},
  	 	"moderator": {
  	 	 	"trans": "Moderatör",
@@ -4820,6 +4848,126 @@
  	 	 	 	"4": {
  	 	 	 	 	"trans": "Synthwave çerçeveli profil (animasyon ile)",
  	 	 	 	 	"eng": "Synthwave Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "Özel biyografiyi aç",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Profilde barkod dekorasyonu",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "Çete sloganı özelleştir",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Çete görüntüsünü özelleştir",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Gelecek Güncellemede Daha Fazla Geliyor",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation17": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "\"Prestij\" Bağış Başlığı",
+ 	 	 	 	 	"eng": "\"Prestige\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "Profil Resim Özelleştirme Kilidini Aç",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Siyah çerçeve (animasyon ile)",
+ 	 	 	 	 	"eng": "Black frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Siyah profil (animasyon ile)",
+ 	 	 	 	 	"eng": "Black Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "Özel biyografiyi aç",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Profilde barkod dekorasyonu",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "Çete sloganı özelleştir",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Çete görüntüsünü özelleştir",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Gelecek Güncellemede Daha Fazla Geliyor",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation19": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "\"CyberPuppy\" Bağış Başlığı",
+ 	 	 	 	 	"eng": "\"CyberPuppy\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "Profil Resim Özelleştirme Kilidini Aç",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Kahverengi çerçeve (animasyon ile)",
+ 	 	 	 	 	"eng": "Brown frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Kahverengi profil (animasyon ile)",
+ 	 	 	 	 	"eng": "Brown Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "Özel biyografiyi aç",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Profilde barkod dekorasyonu",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "Çete sloganı özelleştir",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Çete görüntüsünü özelleştir",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Gelecek Güncellemede Daha Fazla Geliyor",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation18": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "\"Prestij\" Bağış Başlığı",
+ 	 	 	 	 	"eng": "\"Prestige\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "Profil Resim Özelleştirme Kilidini Aç",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Ocean Frame (Animasyon ile)",
+ 	 	 	 	 	"eng": "Ocean frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Okyanus Profili (animasyon ile)",
+ 	 	 	 	 	"eng": "Ocean Profile (with animation)"
  	 	 	 	},
  	 	 	 	"5": {
  	 	 	 	 	"trans": "Özel biyografiyi aç",
@@ -5753,6 +5901,33 @@
  	 	 	 	"eng": "Made with love and care by Yen. delicious and nourishing meal that will grant the player -${percent}% damage taken for 20 minutes when eaten. Perfect for tackling tough challenges and conquering difficult foes, Yen\\'s sushi is a must - have for any adventurer."
  	 	 	}
  	 	},
+ 	 	"summonAI": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "SLANC konektörü",
+ 	 	 	 	"eng": "SLANC Connector"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"minute"
+ 	 	 	 	],
+ 	 	 	 	"trans": "SLANC'yi ${minute} dakika boyunca Global Chat'e bağlamak için SLANC konnektörünü kullanın",
+ 	 	 	 	"eng": "Use SLANC Connector to connect SLANC to global chat for ${minute} minutes"
+ 	 	 	},
+ 	 	 	"announcement": {
+ 	 	 	 	"trans": "Slanc sohbete girdi",
+ 	 	 	 	"eng": "SLANC has entered the chat"
+ 	 	 	}
+ 	 	},
+ 	 	"dungeonToken": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Zindan jetonu",
+ 	 	 	 	"eng": "Dungeon Token"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Eşyaları değiştirmek için kullanılabilecek bir jeton",
+ 	 	 	 	"eng": "A token that can be used to exchange items"
+ 	 	 	}
+ 	 	},
  	 	"experienceShard": {
  	 	 	"name": {
  	 	 	 	"vars": [
@@ -6600,6 +6775,36 @@
  	 	 	 	 	"trans": "Öğretici sayfası profil sekmesinde -> öğretici",
  	 	 	 	 	"eng": "Tutorial Page is in profile tab -> Tutorial"
  	 	 	 	}
+ 	 	 	},
+ 	 	 	"killGang1": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "Hayvanlar çete üyesini yen",
+ 	 	 	 	 	"eng": "Defeat Animals gang member"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Hayvanlar çete düşmanlarını yen",
+ 	 	 	 	 	"eng": "Defeat Animals gang enemies"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"killGang2": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "Vudu Boys Gang Member",
+ 	 	 	 	 	"eng": "Defeat Voodoo boys gang member"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Vudu erkek çete düşmanlarını yenmek",
+ 	 	 	 	 	"eng": "Defeat Voodoo boys gang enemies"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"killGang3": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "Scavengers çete üyesini yenmek",
+ 	 	 	 	 	"eng": "Defeat Scavengers gang member"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Çöpçüler çete düşmanlarını yenmek",
+ 	 	 	 	 	"eng": "Defeat Scavengers gang enemies"
+ 	 	 	 	}
  	 	 	}
  	 	}
  	},
@@ -6797,6 +7002,10 @@
  	 	"flashGrenade": {
  	 	 	"trans": "Flaş bombası",
  	 	 	"eng": "Flash Grenade"
+ 	 	},
+ 	 	"aiConnect": {
+ 	 	 	"trans": "Siber uzay bağlantısı",
+ 	 	 	"eng": "Cyberspace Connection"
  	 	}
  	},
  	"combat": {
@@ -7448,6 +7657,20 @@
  	 	 	"eng": "You will not heal after each fight in dungeon, remember to use your healing items."
  	 	}
  	},
+ 	"gangQuestAcceptModal": {
+ 	 	"title": {
+ 	 	 	"trans": "Dungeon Quest tespit edildi",
+ 	 	 	"eng": "Dungeon Quest Detected"
+ 	 	},
+ 	 	"cancel": {
+ 	 	 	"trans": "İptal etmek",
+ 	 	 	"eng": "Cancel"
+ 	 	},
+ 	 	"accept": {
+ 	 	 	"trans": "Kabul etmek",
+ 	 	 	"eng": "Accept"
+ 	 	}
+ 	},
  	"christmasPromo": {
  	 	"title": {
  	 	 	"trans": "Mutlu kış tatili!",
@@ -7594,6 +7817,20 @@
  	 	 	],
  	 	 	"trans": "Yeni bir \"${name}\" bağışçı sohbet çerçevesi eklendi",
  	 	 	"eng": "Added a new \"${name}\" donator chat frame"
+ 	 	}
+ 	},
+ 	"thiefPromo": {
+ 	 	"title": {
+ 	 	 	"trans": "Yıldönümü Güncellemesi!",
+ 	 	 	"eng": "Anniversary Update!"
+ 	 	},
+ 	 	"desc1": {
+ 	 	 	"trans": "Tekno Hırsızı, sandıkları açtığınızda nadiren zindanda ortaya çıkacak, daha yüksek destansı eşyalar şansı da dahil olmak üzere daha iyi yağma bırakıyorlar",
+ 	 	 	"eng": "Techno Thief will spawn rarely in dungeon when you open crates, they drop better loots, including higher chance of epic items"
+ 	 	},
+ 	 	"desc2": {
+ 	 	 	"trans": "İki yeni bağışçı çerçevesi eklendi",
+ 	 	 	"eng": "Two new donator frames added"
  	 	}
  	},
  	"reportPlayerModal": {
@@ -7951,6 +8188,12 @@
  	 	 	],
  	 	 	"trans": "\"${playerName}\" oyuncusuna başarıyla bir amblem gönderdiniz",
  	 	 	"eng": "You have successfully sent an emblem to player \"${playerName}\""
+ 	 	}
+ 	},
+ 	"chatModuleHelper": {
+ 	 	"aiConnectNotAvailable": {
+ 	 	 	"trans": "İzin reddedildi. SHANC Sohbete Bağlı Değil",
+ 	 	 	"eng": "Permission Denied. SLANC not connected to chat"
  	 	}
  	},
  	"gifting": {

@@ -229,6 +229,10 @@
  	 	 	 	"trans": "保管庫に保存できるアイテムの最大量を${upgradeToSlot}に増やす",
  	 	 	 	"eng": "Increase the max amount of items you can store in vault to ${upgradeToSlot}"
  	 	 	},
+ 	 	 	"itemLocked": {
+ 	 	 	 	"trans": "このアイテムはロックされており、保存できません。",
+ 	 	 	 	"eng": "This item is locked and can not be stored."
+ 	 	 	},
  	 	 	"modal": {
  	 	 	 	"selectDepositItem": {
  	 	 	 	 	"trans": "いくつ収納されますか？",
@@ -712,7 +716,7 @@
  	 	 	},
  	 	 	"printCacheDescription": {
  	 	 	 	"trans": "選択したキャッシュを武器や防具に変えます.",
- 	 	 	 	"eng": "Turn this cache into a weapon or equipment item that you can uae."
+ 	 	 	 	"eng": "Turn this cache into a weapon or equipment item that you can use."
  	 	 	},
  	 	 	"openContainer": {
  	 	 	 	"trans": "コンテナを開ける",
@@ -2321,6 +2325,10 @@
  	 	 	"account": {
  	 	 	 	"trans": "アカウント",
  	 	 	 	"eng": "account"
+ 	 	 	},
+ 	 	 	"ai": {
+ 	 	 	 	"trans": "人工知能",
+ 	 	 	 	"eng": "Artificial Intelligence"
  	 	 	}
  	 	},
  	 	"unlockContainerPage": {
@@ -2425,22 +2433,16 @@
  	 	 	 	"eng": "Calibration bundle (100%)"
  	 	 	}
  	 	},
- 	 	"bell1": {
+ 	 	"bell3": {
  	 	 	"name": {
- 	 	 	 	"trans": "鍵のかかった伝説のコンテナ",
- 	 	 	 	"eng": "Legendary locked container"
+ 	 	 	 	"trans": "装備品パック",
+ 	 	 	 	"eng": "Equipment Package"
  	 	 	}
  	 	},
  	 	"bell2": {
  	 	 	"name": {
  	 	 	 	"trans": "カセットテープ",
  	 	 	 	"eng": "cassette tape"
- 	 	 	}
- 	 	},
- 	 	"bell3": {
- 	 	 	"name": {
- 	 	 	 	"trans": "装備品パック",
- 	 	 	 	"eng": "Equipment Package"
  	 	 	}
  	 	},
  	 	"cycle": {
@@ -2686,6 +2688,12 @@
  	 	 	 	"trans": "クイックスロットに登録するアイテムを選択します",
  	 	 	 	"eng": "Select an item to bind to quick slot"
  	 	 	}
+ 	 	}
+ 	},
+ 	"enemy": {
+ 	 	"thief": {
+ 	 	 	"trans": "テクノ賞賛",
+ 	 	 	"eng": "Techno-Thief"
  	 	}
  	},
  	"cost": {
@@ -3074,6 +3082,14 @@
  	 	 	}
  	 	},
  	 	"chatMessage": {
+ 	 	 	"openPlayerProfile": {
+ 	 	 	 	"trans": "プロフィールを見る",
+ 	 	 	 	"eng": "View Profile"
+ 	 	 	},
+ 	 	 	"openBotProfileMessage": {
+ 	 	 	 	"trans": "アクセス拒否。 非人間のプロファイルが検出されました。",
+ 	 	 	 	"eng": "Access denied. non-human profile detected."
+ 	 	 	},
  	 	 	"block": {
  	 	 	 	"trans": "ブロック",
  	 	 	 	"eng": "Block"
@@ -3081,10 +3097,6 @@
  	 	 	"report": {
  	 	 	 	"trans": "通報してブロック",
  	 	 	 	"eng": "Report and Block"
- 	 	 	},
- 	 	 	"openPlayerProfile": {
- 	 	 	 	"trans": "プロフィールを見る",
- 	 	 	 	"eng": "View Profile"
  	 	 	},
  	 	 	"openPlayerGang": {
  	 	 	 	"trans": "ギャングを見る",
@@ -3628,6 +3640,10 @@
  	 	 	"killEnemy": {
  	 	 	 	"trans": "敵を倒せ",
  	 	 	 	"eng": "Kill enemy"
+ 	 	 	},
+ 	 	 	"gang": {
+ 	 	 	 	"trans": "ギャングのメンバーを倒します",
+ 	 	 	 	"eng": "Defeat gang members"
  	 	 	},
  	 	 	"getMoney": {
  	 	 	 	"trans": "ビットコインを獲得しろ",
@@ -4220,6 +4236,18 @@
  	 	"donation16": {
  	 	 	"trans": "レトロマイアミ",
  	 	 	"eng": "Retro Miami"
+ 	 	},
+ 	 	"donation17": {
+ 	 	 	"trans": "威信",
+ 	 	 	"eng": "Prestige"
+ 	 	},
+ 	 	"donation19": {
+ 	 	 	"trans": "CyberPuppy",
+ 	 	 	"eng": "CyberPuppy"
+ 	 	},
+ 	 	"donation18": {
+ 	 	 	"trans": "威信",
+ 	 	 	"eng": "Prestige"
  	 	},
  	 	"moderator": {
  	 	 	"trans": "モデレータ",
@@ -4839,6 +4867,126 @@
  	 	 	 	},
  	 	 	 	"9": {
  	 	 	 	 	"trans": "今後のアップデートで更なる要素を追加予定",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation17": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "「Prestige」寄付タイトル",
+ 	 	 	 	 	"eng": "\"Prestige\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "プロフィール写真のカスタマイズを解除します",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "ブラックフレーム（アニメーション付き）",
+ 	 	 	 	 	"eng": "Black frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "黒いプロフィール（アニメーション付き）",
+ 	 	 	 	 	"eng": "Black Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "カスタムバイオのロックを解除します",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "プロフィール上のバーコード装飾",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "ギャングモットーをカスタマイズします",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "ギャングの画像をカスタマイズします",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "将来の更新の詳細",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation19": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "「CyberPuppy」寄付タイトル",
+ 	 	 	 	 	"eng": "\"CyberPuppy\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "プロフィール写真のカスタマイズを解除します",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "茶色のフレーム（アニメーション付き）",
+ 	 	 	 	 	"eng": "Brown frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "茶色のプロフィール（アニメーション付き）",
+ 	 	 	 	 	"eng": "Brown Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "カスタムバイオのロックを解除します",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "プロフィール上のバーコード装飾",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "ギャングモットーをカスタマイズします",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "ギャングの画像をカスタマイズします",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "将来の更新の詳細",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation18": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "「Prestige」寄付タイトル",
+ 	 	 	 	 	"eng": "\"Prestige\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "プロフィール写真のカスタマイズを解除します",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "オーシャンフレーム（アニメーション付き）",
+ 	 	 	 	 	"eng": "Ocean frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "オーシャンプロファイル（アニメーション付き）",
+ 	 	 	 	 	"eng": "Ocean Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "カスタムバイオのロックを解除します",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "プロフィール上のバーコード装飾",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "ギャングモットーをカスタマイズします",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "ギャングの画像をカスタマイズします",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "将来の更新の詳細",
  	 	 	 	 	"eng": "More coming in future update"
  	 	 	 	}
  	 	 	}
@@ -5753,6 +5901,33 @@
  	 	 	 	"eng": "Made with love and care by Yen. delicious and nourishing meal that will grant the player -${percent}% damage taken for 20 minutes when eaten. Perfect for tackling tough challenges and conquering difficult foes, Yen\\'s sushi is a must - have for any adventurer."
  	 	 	}
  	 	},
+ 	 	"summonAI": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Slancコネクタ",
+ 	 	 	 	"eng": "SLANC Connector"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"minute"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Slancコネクタを使用して、slancをグローバルチャットに接続します{0}分",
+ 	 	 	 	"eng": "Use SLANC Connector to connect SLANC to global chat for ${minute} minutes"
+ 	 	 	},
+ 	 	 	"announcement": {
+ 	 	 	 	"trans": "Slancがチャットに参加しました",
+ 	 	 	 	"eng": "SLANC has entered the chat"
+ 	 	 	}
+ 	 	},
+ 	 	"dungeonToken": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "ダンジョントークン",
+ 	 	 	 	"eng": "Dungeon Token"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "アイテムの交換に使用できるトークン",
+ 	 	 	 	"eng": "A token that can be used to exchange items"
+ 	 	 	}
+ 	 	},
  	 	"experienceShard": {
  	 	 	"name": {
  	 	 	 	"vars": [
@@ -6490,7 +6665,7 @@
  	 	 	 	"eng": "Alleyway"
  	 	 	},
  	 	 	"npcName": {
- 	 	 	 	"trans": "B3llial",
+ 	 	 	 	"trans": "プレミアム",
  	 	 	 	"eng": "B3llial"
  	 	 	}
  	 	},
@@ -6814,6 +6989,36 @@
  	 	 	 	 	"trans": "チュートリアルページは[プロフィール]タブの「チュートリアル」にあります",
  	 	 	 	 	"eng": "Tutorial Page is in profile tab -> Tutorial"
  	 	 	 	}
+ 	 	 	},
+ 	 	 	"killGang1": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "動物のギャングメンバーを倒します",
+ 	 	 	 	 	"eng": "Defeat Animals gang member"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "動物のギャングの敵を倒します",
+ 	 	 	 	 	"eng": "Defeat Animals gang enemies"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"killGang2": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "Voodoo Boys Gangメンバーを倒します",
+ 	 	 	 	 	"eng": "Defeat Voodoo boys gang member"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Voodoo Boys Gang Enemiesを倒します",
+ 	 	 	 	 	"eng": "Defeat Voodoo boys gang enemies"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"killGang3": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "Scavengers Gangメンバーを倒します",
+ 	 	 	 	 	"eng": "Defeat Scavengers gang member"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "スカベンジャーズギャングの敵を倒します",
+ 	 	 	 	 	"eng": "Defeat Scavengers gang enemies"
+ 	 	 	 	}
  	 	 	}
  	 	}
  	},
@@ -7011,6 +7216,10 @@
  	 	"flashGrenade": {
  	 	 	"trans": "閃光手榴弾",
  	 	 	"eng": "Flash Grenade"
+ 	 	},
+ 	 	"aiConnect": {
+ 	 	 	"trans": "サイバースペース接続",
+ 	 	 	"eng": "Cyberspace Connection"
  	 	}
  	},
  	"combat": {
@@ -7660,6 +7869,20 @@
  	 	 	"eng": "You will not heal after each fight in dungeon, remember to use your healing items."
  	 	}
  	},
+ 	"gangQuestAcceptModal": {
+ 	 	"title": {
+ 	 	 	"trans": "ダンジョンクエストが検出されました",
+ 	 	 	"eng": "Dungeon Quest Detected"
+ 	 	},
+ 	 	"cancel": {
+ 	 	 	"trans": "キャンセル",
+ 	 	 	"eng": "Cancel"
+ 	 	},
+ 	 	"accept": {
+ 	 	 	"trans": "受け入れる",
+ 	 	 	"eng": "Accept"
+ 	 	}
+ 	},
  	"christmasPromo": {
  	 	"title": {
  	 	 	"trans": "ハッピーホリデー！",
@@ -7806,6 +8029,20 @@
  	 	 	],
  	 	 	"trans": "新しい「${name}」チャットフレームを追加しました",
  	 	 	"eng": "Added a new \"${name}\" donator chat frame"
+ 	 	}
+ 	},
+ 	"thiefPromo": {
+ 	 	"title": {
+ 	 	 	"trans": "記念日の更新！",
+ 	 	 	"eng": "Anniversary Update!"
+ 	 	},
+ 	 	"desc1": {
+ 	 	 	"trans": "テクノ泥棒は、木枠を開くときにダンジョンでめったにスポーンしません。",
+ 	 	 	"eng": "Techno Thief will spawn rarely in dungeon when you open crates, they drop better loots, including higher chance of epic items"
+ 	 	},
+ 	 	"desc2": {
+ 	 	 	"trans": "2つの新しい寄付者フレームが追加されました",
+ 	 	 	"eng": "Two new donator frames added"
  	 	}
  	},
  	"reportPlayerModal": {
@@ -8163,6 +8400,12 @@
  	 	 	],
  	 	 	"trans": "エンブレムを「${playerName}」に正常に送信しました",
  	 	 	"eng": "You have successfully sent an emblem to player \"${playerName}\""
+ 	 	}
+ 	},
+ 	"chatModuleHelper": {
+ 	 	"aiConnectNotAvailable": {
+ 	 	 	"trans": "アクセス拒否。 Slancはチャットに接続されていません",
+ 	 	 	"eng": "Permission Denied. SLANC not connected to chat"
  	 	}
  	},
  	"gifting": {
