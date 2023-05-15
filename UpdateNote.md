@@ -27,6 +27,18 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 
 ## Updates
+### 2023/05/15
+- Anniversary Update
+- Techno Thief will spawn rarely in dungeon when you open crates, they drop better loots, including higher chance of epic items
+- Gang dungeon will have chance to spawn a gang quest, involving killing enemies of specific npc gangs
+- Added Dungeon token, you can use it to exchange items from Weapon Smith NPC, you can acquire this item from Techno Thief and Gang Quests
+- Two new donator frames added
+
+### 2023/05/04
+- In market now the maximun selectable amount will be capped at how much space left in your inventory. thanks for player who made this suggestion on discord
+- Adjuested npc `SLANC`'s personality base on community suggestion, the npc will now act more friendly. this npc is still experiemental please let me know how u think.
+btw, this npc is not a tutorial bot and was not designed to be one, a AI-powered tutorial npc or helper would be cool but the tech is still not possible yet, it is still experimental. 
+
 ### 2023/04/22
 - Fixed chat list with non-English UI would not show correct color base on player's title
 
