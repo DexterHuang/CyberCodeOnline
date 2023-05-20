@@ -27,6 +27,9 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 
 ## Updates
+### 2023/05/20
+- Increased chance of Techno Theif appearing when opening crates
+
 ### 2023/05/15
 - Anniversary Update
 - Techno Thief will spawn rarely in dungeon when you open crates, they drop better loots, including higher chance of epic items
