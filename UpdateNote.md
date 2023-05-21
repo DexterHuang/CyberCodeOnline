@@ -27,6 +27,9 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 
 ## Updates
+### 2023/05/22
+- Updated dungeon quest with new UI, it will not show which gang member to defeat before accepting the quest
+
 ### 2023/05/20
 - Increased chance of Techno Theif appearing when opening crates
 
