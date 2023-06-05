@@ -27,6 +27,10 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 
 ## Updates
+### 2023/06/06
+- Updated backend and client for more stable chat (hopefully, still trying to find the cause for the unstable issue)
+- Fixed issue with skip queue
+
 ### 2023/06/01
 - Fixed issue with skip queue getting stuck in very rare condition
  
