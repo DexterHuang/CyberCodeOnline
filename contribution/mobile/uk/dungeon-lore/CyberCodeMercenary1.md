@@ -1,6 +1,6 @@
-# A Secret Human Modification Military Project
-> (part 1 of 12 cyber code mercenary series)
+# Секретний військовий проект з модифікації людини
+> (Частина 1 з 12 серії "Кібер-кодові найманці")
 
-The invention of the first Cybernetic Cerebral Enhancement implant in 2050 allowed the human brain to directly communicate with digital devices for the first time. This breakthrough made it possible for bionic prosthetics to finally outperform their biological counterparts by allowing full sensory information to be passed to the brain without any invasive procedures.  
+Винахід першого імпланту кібернетичного пришвидчувача мозку в 2050 році дозволив людині вперше безпосередньо взаємодіяти з цифровими пристроями. Цей прорив створив можливість для біонічних протезів виявитися більш ефективними, ніж їх біологічні аналоги, завдяки передачі повної сенсорної інформації до мозку без будь-яких вимушених процедур.
 
-The military, of course, saw the potential to enhance soldiers' physical capabilities beyond normal human beings. Thus, the "Cyber Code" project was started, with the goal to push the limits of both physical and mental faculties of a human and create the superior soldier.
+Звісно, військові відразу побачили потенціал покращення фізичних можливостей солдатів за межі звичайних людей. Так народився проект "Кібер-код" з метою розширення кордонів як фізичних, так і розумових здібностей людини і створити вищого за своїми можливостями солдата.

@@ -1,14 +1,14 @@
-> A staticky transmission; words floating by on a nearby holoscreen...
+> Статичне передавання; слова плавають на голографічному екрані розміщеному неподалік....
 
-*Is anyone out there?*
+*Тут хтось є?*
 
-*Can anyone hear me?*
+*Хтось мене чує?*
 
-*I'm scared...and alone.*
+*Мені страшно ...і одиноко.*
 
-*I need help*
+*Мені потрібна допомога*
 
-*I...*
+*Я...*
 
 *...*
 
