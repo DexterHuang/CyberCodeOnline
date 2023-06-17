@@ -4,7 +4,7 @@
 
 Fancy helping the game? you can:
 - Leave a 5-star review on the store, this will help others see the game more
-- Report bugs or suggestions for improvement to our Discord, the developer checks Discord frequently (due to time limitations I can't really check Reddit and other places)
+- Report bugs or suggestions for improvement to our Discord, the developer checks Discord frequently (due to time limitations I can't really check Reddit or other places)
 - Deploy some global buff or skips for the community
 - Contribute to our WIKI, Lores and other configs on our ['GitHub'](https://github.com/DexterHuang/CyberCodeOnline)
 
