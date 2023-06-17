@@ -1,10 +1,14 @@
 # Update Notes
 
-**CyberCode Online** is currently under an early and heavy development stage, which means many changes and new features are being added every day! That also means many stats are being adjusted all the time. So if you have anything to suggest, feel free to [create an issue](https://github.com/DexterHuang/CyberCodeOnline/issues) or join our [Discord server](https://discord.gg/JREx8xz).
+**If you found a bug please post a bug report in our [Discord server](https://discord.gg/JREx8xz) Bug report channel.
 
-Fancy helping out with running costs? [Buy me a potato](https://www.buymeacoffee.com/cybercodeonline) or [subscribe to my Patreon](https://www.patreon.com/cybercodeonline/).
+Fancy helping the game? you can:
+- Leave a 5-star review on the store, this will help others see the game more
+- Report bugs or suggestions for improvement to our Discord, the developer checks Discord frequently (due to time limitations I can't really check Reddit and other places)
+- Deploy some global buff or skips for the community
+- Contribute to our WIKI, Lores and other configs on our ['GitHub'](https://github.com/DexterHuang/CyberCodeOnline)
 
-### Help Needed:
+### Contributable files:
 
 -   contribution/words.json - Random Words
 -   contribution/dungeon/layout/structure-mask.json - Dungeon Layouts 
