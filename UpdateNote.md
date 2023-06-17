@@ -1,6 +1,6 @@
 # Update Notes
 
-**If you found a bug please post a bug report in our [Discord server](https://discord.gg/JREx8xz) Bug report channel.
+If you found a bug please post a bug report in our [Discord server](https://discord.gg/JREx8xz) Bug report channel.
 
 Fancy helping the game? you can:
 - Leave a 5-star review on the store, this will help others see the game more
