@@ -2,7 +2,7 @@
 
 If you found a bug please post a bug report in our [Discord server](https://discord.gg/JREx8xz) Bug report channel.
 
-Fancy helping the game? you can:
+Did you like the game and fancy helping the game? you can:
 - Leave a 5-star review on the store, this will help others see the game more
 - Report bugs or suggestions for improvement to our Discord, the developer checks Discord frequently (due to time limitations I can't really check Reddit or other places)
 - Deploy some global buff or skips for the community
