@@ -31,7 +31,10 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 
 ## Updates
-### 2023/06/06
+### 2023/06/20
+- Improved bot detection 
+
+### 2023/06/16
 - Backend optimization and bug fixes
 
 ### 2023/06/06
