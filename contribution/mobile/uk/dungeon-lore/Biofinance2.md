@@ -1,25 +1,25 @@
->[Part 2 of 8 of BioFinance series]  
+>[Частина 2 з 8, серія BioFinance]  
 
-[Among the partially burned wastepaper, there is a formal looking document. Apparently, some kind of meeting minutes.]  
+[Серед частково згорілої паперової марлі знаходився документ, виглядав, як офіційний. Схоже, це докладні записи зустрічі.]
 
-Attending: 
+Учасники: 
 
-*Mr. Cheng Fang, Esq. (C), President of Cheng Holding*
+*Містер Чен Фанг, юрист (Ф), президент компанії Cheng Holding*
 
-*Mr. Zhao Hong (H), CEO of Cheng Capital Investment*
+*Містер Жао Хонг (Х), генеральний директор компанії Cheng Capital Investment*
 
-*Mr. John Xu (X), [redacted]*
+*Містер Джон Сю (С), [видалено]*
 
-C: Mr. Hong, the plan is ready to be set in motion. What is our current position?
+Ф: Містер Хонг, план готовий до запуску. Яка наша поточна позиція?
 
-H: Cheng lǎobǎn, we currently hold close to 300 millions BTC in short positions on IntelliCo. and all their major controlled companies. Position covering will be required in 3 weeks.
+Х: Містер Чен, в цей момент ми маємо практично 300 мільйонів BTC в коротких позиціях на IntelliCo. та всіх їхніх основних дочірніх компаніях. Потрібно буде забезпечити покриття позицій протягом 3 тижнів.
 
-C: Mr. Xu?
+Ф: Містер Сю?
 
-X: Shipment is ready at New Hangzou laboratory. The lab has been acquired through intermediaries, no paper trail.
+С: Вантаж готовий. Розміщений в Нью Ханзоу. Лабораторія була придбана через посередників, сліди заметені.
 
-H: We took care of the financial aspect. We are in the clear.  
+Х: Ми позбавлені фінансових проблем. Ми чисті.
 
-X: Extra insurance has been bought on the plant, after the fire we will recoup most of the expenses. We have a direct line with the media to control the narrative. Police have been paid out.
+С: Додаткове страхування було придбано на заводі, після пожежі ми відновимо більшу частину витрат. У нас є пряма лінія з ЗМІ, щоб контролювати хід подій. Поліцію вже проплачено.
 
-C: Very well, please proceed as agreed. 
+Ф: Добре, продовжуйте згідно з узгодженим планом.

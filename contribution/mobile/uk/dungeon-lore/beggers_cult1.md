@@ -1,11 +1,11 @@
-### Beggars Cult
+### Культ Жебраків
 
-When the civilization turns against the past and surges, the futuristic logic turns the world upside down. One old man became a beggar, who was called by the name “Fragile Old Man”. This old fellow faces full discrimination in a futuristic world and witness how humans became heartless cold-blooded mortals who take pride in their immoral lifestyles. The only thing that makes him humble is his useless status in society.  
+Коли цивілізація відвертається від минулого та швидко розвивається, логіка майбутнього перевертає світ з ніг на голову. Один старий чоловік стає ніщо інше, як жебраком, якого звуть "Хворобливий Старий". Цей старий пан стикається з повною дискримінацією у футуристичному світі й стає свідком того, як люди стають безсердечними бездушними істотами, які пишаються своїм неетичним способом життя. Єдине, що робить його покірним, це нікудишній статус у суспільстві.
 
-One trashy day in his life as a beggar, some disrespectful teenager hit him with a baseball bat without reason and fled while laughing gleefully. The beggar lost consciousness and his world became void. The void's screaming silence makes the old man want to give up his precious life. But just as nothing was making sense, there was a small orb of light that became bigger and bigger. The void became so bright that it felt like a miniature star.  
+Одного сміттєвого дня в його житті як жебрака, деякий неуважний підліток вдарив його бейсбольною битою без причини та регочучи втік. Старець втратив свідомість, і його світ став порожнечею. Мовчання порожнечі кричить йому в душу, збуджуючи бажання позбутися свого дорогоцінного життя. Але коли ніщо не мало сенсу, з'явилась маленька кулька світла, яка стала все більшою. Порожнеча стала такою яскравою, ніби мініатюрна зірка.
 
-The bright object made the old man feel warm and reminded him of his mother's affectionate cuddles. The bright orb spoke.  
+Яскравий об'єкт зігрів старого чоловіка і нагадав йому про теплі ласощі материнського кохання. Яскрава куля заговорила.
 
-"Beggar, I pity you deeply. Even the world has turned against you, you still believe in humanity. I am not strong enough to change the world but I can warm their hearts. You and other people who give in to the real righteousness of the mortal world will be blessed with heavenly defying luck. I wish you a long and fulfilling life. Goodbye"   
+"Жебраче, я глибоко тобі співчуваю. Навіть коли весь світ обернувся проти тебе, ти все ще віриш у людяність. Я не маю достатньо сили, щоб змінити світ, але я можу зігріти їх серця. Ти й всі інші люди, які піддаються справжній справедливості смертного світу, будуть благословлені надзвичайною удачею. Бажаю тобі довгого і насиченого життя. До зустрічі."
 
-The fragile old man woke up screaming and crying for the things he visioned. This is when the Beggars Cult was born.
+Хворобливий старець прокидається, кричить і плаче через те, що він побачив. Саме тоді народжується Культ Жебраків.

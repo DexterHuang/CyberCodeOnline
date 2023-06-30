@@ -1,13 +1,13 @@
->[Part 2 of 3 of 10\HACK series]  
+>[Частина 2 з 3 серії "10 Хацкерят"]
 
-Six little hackers encrypting their hard drive
+Шістка міні-хацкерів шифрують свій ЖД,
 
-One's password was easy, then there were five.
+Один мав ізі пасвор, і їх лишилось п'ять.
 
-Five little hackers planting a backdoor
+П'ятірка міні-хацкерів будують свій бекдор,
 
-One bragged on a forum, and there were four.
+Один похвастався на форумі, і їх лишилось четверо.
 
-Four little hackers, their spirit so free
+Четвірка міні-хацкерів, прагнуть до свободи,
 
-One ended up in jail, then there were three.
+Один втрапив до в'язниці, і їх лишилось три.

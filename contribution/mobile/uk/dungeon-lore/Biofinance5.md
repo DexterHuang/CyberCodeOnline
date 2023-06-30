@@ -1,17 +1,17 @@
->[Part 5 of 8 of BioFinance series]  
+>[Частина 5 з 8, серія BioFinance]    
 
 ![EdgeRunner holo](/resources/lore/edgerunner%20holo.png)
 
-[A black-market advertising holocube. Someone forgot to turn encryption back on]
+[Чорний ринок рекламного холокуба. Хтось знову забув увімкнути шифрування.]
 
-2-HOUR GUARANTEED DELIVERY OF CRITICAL DOCUMENTS AND PARCELS WORLDWIDE. NO QUESTIONS ASKED.
+ГАРАНТОВАНЕ ДОСТАВЛЕННЯ ТЕРМІНОВИХ ДОКУМЕНТІВ І ПАКУНКІВ ПО ВСЬОМУ СВІТУ ЗА 2 ГОДИНИ. БЕЗ ЗАЙВИХ ПИТАНЬ.
 
-VIDEOWITNESSES WITH PETASTORAGE BRAIN-IMPLANT. SUBSCRIPTIONS OR PAY-PER-HOUR AVAILABILITY 
+ВІДЕО-СВІДКИ З БРЕЙН-ІМПЛАНТАМИ PETASTORAGE. ПІДПИСКИ АБО ДОСТУП НА ГОДИНУ ЗА ПЛАТУ
 
-MNEMOCOURIERS! UP TO 3-LAYERS ENCRYPTION AND PERSONALITY OVERRIDE
+МНЕМОКУР'ЄРИ! ДО 3-Х РІВНІВ ШИФРУВАННЯ І ПЕРСОНАЛЬНИЙ ОВЕРАЙД ПЕРСОНАЛЬНОСТІ
 
-EXTRAS: ARMED ESCORTS, PRIVATE CARGO STRATOFLIGHTS, NON-TRACKABLE SENDER.
+ДОДАТКОВО: ЗБРОЙНІ СУПРОВОДИ, ПРИВАТНІ СТРАТО-ПОЛЬОТИ ВАНТАЖУ, НЕВІДСЛІДКОВУВАНІ ВІДПРАВНИКИ.
 
-ON REQUEST WE CAN ARRANGE DELIVERY OF EXPLOSIVE, BIOHAZARD, RADIONUCLEAR, SINGULARITY-PRONE GOODS
+ЗА ЗАПИТОМ МИ МОЖЕМО ОРГАНІЗУВАТИ ДОСТАВЛЕННЯ ВИБУХОНЕБЕЗПЕЧНОГО, БІОХАЗАРДНОГО, РАДІОНУКЛІДНОГО, НЕСТАБІЛЬНОГО ТОВАРУ
 
-***EDGERUNNER BIOCOURIERS. WE DELIVER.***
+***EDGERUNNER BIOCOURIERS. МИ ДОСТАВЛЯЄМО.***

@@ -1,15 +1,15 @@
->[Part 4 of 8 of BioFinance series]  
+>[Частина 4 з 8, серія BioFinance]  
 
-[That is unusual. Apparently, it's a chat log from BlackThorne, the supposedly 100% interception-safe cryptomessenging app.]
+[Це незвично. Очевидно, це журнал чату від BlackThorne, нібито на 100% надійного додатка від перехоплення крипто-повідомлень.]
 
-*#####23##145*: Mr. Xu, I can't understand why this request. It is very strange. Why so much? Why timed self-venting containers?
+*#####23##145*: Містер Сю, я не можу зрозуміти, навіщо цей запит. Це дуже дивно. Чому так багато? Чому контейнери з лімітованим випуском?
 
-*#325#57#87##*: No questions. We need 400 kg of airborne vector within the week. I will provide payload. Final bonding will be managed by my personnel at your facility.
+*#325#57#87##*: Менше питань. Нам потрібно 400 кг повітряного вектора протягом тижня. Я забезпечу платформу. Остаточна збірка робитиметься моїм персоналом у вашому підприємстві.
 
-*##7#42##21##*: How can I be sure that after this you will stop threatening my family?  
+*##7#42##21##*: Як я можу бути впевнений, що після цього ви припините погрожувати моїй сім'ї? 
 
-*932##5#98##9*: My word will be enough. They will be safe and you will be paid handsomely.
+*932##5#98##9*: Мого слова буде достатнім. Ваша родина буде в безпеці, а вам щедро заплатять.
 
-*657###3###45*: That stuff will need to be moved out quickly, or there will be questions.
+*657###3###45*: Треба швидко вивезти цю речовину, інакше з'являться питання.
 
-*9#####7##79#*: Don't worry, it will be picked up as soon as it's ready. 
+*9#####7##79#*: Не хвилюйтесь, вона буде надіслана, як тільки приготується.

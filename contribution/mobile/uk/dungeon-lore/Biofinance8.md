@@ -1,13 +1,13 @@
-[A display is showing financial news]
+[На екрані відображаються фінансові новини.]
 
-Today's spotlight is on the biohazard accident that hit IntelliCo. Neural Implants Manufacturing Facility in Shangri-La Depot 33 district.
+Сьогодні на центрі уваги - біологічна аварія, яка сталася на виробничому підприємстві IntelliCo з виготовлення нейроімплантатів в районі Депот 33 в Шангрі-Ла.
 
-Police are blaming human error, apparently originating from the company's lax safety practices. As a result of company negligence, an airborne nerve agent was inadvertently released in the office building. 
+Поліція вважає, що це сталося через людську помилку, ймовірно, через недбалість компанії щодо безпеки. У результаті похибки компанії, у приміщенні випустили в повітря нервовий газ.
 
-400 employees are dead, among them the whole research department. A serious blow for the rapidly growing company.
+400 працівників загинули, серед них уся дослідницька група. Це серйозний удар для висхідної компанії.
 
-IntelliCo. shares went down 98% in a matter of hours, with little to none chance of recovery in sight.
+Акції IntelliCo впали на 98% за кілька годин, і шанси на відновлення майже нульові.
 
-[on the news ticker]
+[на стрічці новин]
 
-*###eds dead in Vitasyntech lab accident. Facility burned to ground in flash fir###*
+*###ерть працівників в результаті аварії у лабораторії Vitasyntech. Будівля повністю знищена в результаті спалаху пож###*

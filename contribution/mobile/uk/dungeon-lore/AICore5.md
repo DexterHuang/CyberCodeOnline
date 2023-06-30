@@ -1,9 +1,9 @@
-*[You find a textbook and flip to a random page.]*
+*[Ви знаходите підручник і перегортаєте на довільну сторінку.]*  
 
-![AI Textbook](/resources/lore/textbookAI440.png)
-# The Invention of AICORE
-> (Part 5 of 8 aicore series)
+![Підручник ШІ](/resources/lore/textbookAI440.png)
+# Винахід AICORE
+> (Частина 5 із 8, серія AiCore)
 
-Artificial Intelligence Cerebral Operation and Replication Engines, or AICORE for short, are sophisticated self-aware AI that are an indispensable part of our daily lives. We now take for granted the AICOREs that help us make decisions, automatically control our electronic devices without even consciously thinking, and allow us to obtain the ability to do certain tasks skillfully even without any prior experience or training. AICOREs also has the ability to set your body to "autopilot" by letting the AICORE control your body while you can detach your consciousness and go to the CyberNet. 
+Штучний Інтелект, Церебральні Операції та Реплікаційні Двигуни, або коротко AICORE, є складним самосвідомим ШІ, який є невіддільною (частина/ознака) частиною нашого повсякденного життя. Ми тепер приймаємо як даність AICORE, які допомагають нам приймати рішення, автоматично керувати електронними пристроями без навіть свідомого мислення та дозволяють нам здобувати вміння виконувати певні завдання вміло навіть без попереднього досвіду чи навчання. AICORE також має здатність встановлювати ваше тіло на "автопілот", дозволяючи AICORE керувати вашим тілом, тим часом як ви можете відокремити свідомість та перейти до Кібермережі.
 
-AICORE first started development in 2057 as a Japanese military project. The project aimed to streamline the control mechanism of dual-pilot Mecha Suits to allow for solo piloting by using AICORE, rather than an additional person, to supplement the first pilot. By 2060, the first functional AICORE was completed and successfully allowed the first instance of true multitasking in a human brain.
+Розробка AICORE почалася у 2057 році як японський військовий проєкт. Він мав на меті спростити механізм керування дво-пілотного механізованими костюмами "Mecha" для можливості одиничного пілотування, використовуючи AICORE замість додаткової особи, для підтримки першого пілота. У 2060 році був успішно створений перший функціональний AICORE, який дозволив перше справжнє багатозадачне управління в людському мозку.

@@ -1,10 +1,10 @@
-> [You find a chip on the ground. Hooking into it, you hear an 80's style radio voice begin speaking]
+> [Ви знаходите чіп на землі. Підключившись до нього, ви чуєте голос радіо в стилі 80-х років]
 
-"A very brief lesson on the history of Cybernetics, Bionics, and Implants, sponsored by Maikon."
+"Черговий урок історії кібернетики, біоніки та імплантів, спонсорований компанією Maikon."
 
-"Part 1:  
-In the year 2055, Maikon Quantum Semiconductors began producing high-grade Cybernetic Cerebral Enhancement technology for the Japanese military to improve soldier effectiveness in the field. In 2057, Maikon's research division partnered with the military to begin development of AICOREs, advanced AI that would reduce the number of pilots needed for a Mecha Suit from 2 to just 1. AICORE technology rapidly proved useful in a number of ways beyond Mecha Suit piloting - including giving soldiers the ability to gain combat skill proficiency with no prior training. 
+"Частина 1:
+У 2055 році компанія Maikon Quantum Semiconductors розпочала виробництво висококласної кібернетичної технології для покращення ефективності солдатів в японській армії. У 2057 році дослідницький відділ Maikon уклав партнерство з військовими для розробки AICORE, передового штучного інтелекту, яка зменшує кількість пілотів, необхідних для управління Меха-костюмом, з 2 до 1. Технологія AICORE швидко знайшла застосування в багатьох сферах, крім пілотування, включаючи надання солдатам навичок у бою без попередньої підготовки."
 
-Experiments with bionic limbs began finding new success with the advent of Cerebral Accelerators. This new research, combined with the advantages afforded by AICOREs, proved so effective that by 2062, military special forces and front line infantry were improved to run faster, hit harder, and have 3 times their normal stamina. When the World Government Organization was formed in 2066, they instantly pushed for civilian use of AICOREs and Cerebral Accelerators. By 2068, the WGO approved pop-up Maikon facilities to begin dispensing Maikon Implants at extremely reasonable prices." 
+"Експерименти з біонічними кінцівками набули нового успіху з появою 'Прискорювачі мозку'. Ці нові дослідження, поєднані з перевагами AICORE, виявилися настільки ефективними, що до 2062 року спеціальні сили та передові піхотні підрозділи армії були покращені - вони бігали швидше, завдавати сильнішого удару і мали втричі більше вимогливості. Коли у 2066 році була створена Всесвітня організація уряду, вони одразу ж почали пропагували цивільне використання AICORE та 'Прискорювачів мозку'. До 2068 року ВГО схвалила відкриття Maikon-пунктів для розповсюдження імплантів по надзвичайно доступних цінах."
 
-![sponsored by Maikon](/resources/lore/sponsoredbymaikon.png)
+![Проспонсоровано Maikon](/resources/lore/sponsoredbymaikon.png)

@@ -1,16 +1,16 @@
->A datacube. It appears to be an indie message board chat log
+> Куб даних. Здається, це лог чату на незалежному форумі.
 
- *#40927520 Chat Log 0059* xwkendntwrkx.ls/d4rkrunn3rz
+ *#40927520 Журнал чату 0059* xwkendntwrkx.ls/d4rkrunn3rz
  ***
 
-**pnkakez_lolz [User 400475]**: whoah man I spent way too many credits on this stuff!  
-**catchip_princess_meow [User 400234]**: yeah well save some for me ;)  
-**blu3_cr4y0n [User 401022]**: u guys know when we're gonna get the word from stelth?  
-**catchip_princess_meow [User 400234]**: he said sometime next week. in the meantime we can just dream about what we're gonna spend those sweet sweet creds on =D  
-**blu3_cr4y0n [User 401022]**: bonk yeah! i'm takin a long vacay that's what i know!  
-**pnkakez_lolz [User 400475]**: ive alredy spent mine >_< but this job is so good i got plenty to spare after we're done $$$ :P  
-**blu3_cr4y0n [User 401022]**: cu guys at the spot later  
-**pnkakez_lolz [User 400475]**: l8r  
-**catchip_princess_meow [User 400234]**: cyaz!  
+**pnkakez_lolz [User 400475]**: ого, чувак, я витратив надто багато кредитів на ці речі!  
+**catchip_princess_meow [User 400234]**: так, але збережи трохи для мене ;)
+**blu3_cr4y0n [User 401022]**: хлопці, ви знаєте, коли ми отримаємо відповідь від Stelth?  
+**catchip_princess_meow [User 400234]**: він сказав, що це буде наступного тижня. А поки ми можемо мріяти про те, на що ми витратимо ці солодкі кредити =D
+**blu3_cr4y0n [User 401022]**: чорт, так! Я беру довгу відпустку, ось що я знаю!  
+**pnkakez_lolz [User 400475]**: я вже витратив свої >_< , але ця робота така хороша, що після того, як ми закінчимо, у мене буде досить, щоб розділити $$$ :P
+**blu3_cr4y0n [User 401022]**: до зустрічі, пізніше 
+**pnkakez_lolz [User 400475]**: побачимось  
+**catchip_princess_meow [User 400234]**: бувайте!  
 ***
 `<d4rkrunn3rz_001/>`

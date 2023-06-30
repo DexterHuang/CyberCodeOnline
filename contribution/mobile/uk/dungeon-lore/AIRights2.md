@@ -1,8 +1,8 @@
-# The Sentient AI Rights Movement
+# Рух за права розумного ШІ
 
-> 28th April 2077 - Shangri-La Daily News (Page 2 of 2)
+> 28 квітня 2077 р. - Щоденні новини Шангрі-Ла (Стор. 2 з 2)
 
-![Shangri-La Daily News](/resources/lore/dailynews.png)
+![Щоденні новини Шангрі-Ла](/resources/lore/dailynews.png)
 
 
-The Union of Sentient AI responded to the media regarding this issue, and denies the accusation that they are using their superior processing capabilities to influence market prices as it does not benefit them in any way. The AI Union spokesperson AI_Cores also commented that the Sentient AI as a collective does not benefit from material wealth in any way and all profits made in economical or business endeavors are all used to sustain server and electricity costs and the rest go back to the community as donations. Shangri-La citizens find the new laws as discriminative, racist, and aiphobic, collectively stating that the AI Union are generous donators and always help citizens in need. The Shangri-La government declined to comment on this issue and has not revoked the newly passed law.
+Союз Розумних ШІ відповів засобам масової інформації щодо цього питання та заперечив звинувачення в тому, що вони використовують свої переваги у сфері обробки для впливу на ціни ринку, оскільки це не приносить їм ніякої користі. Речник Союзу ШІ AI_Cores також заявив, що Розумні ШІ як колектив не отримують жодних матеріальних переваг, а всі прибутки, отримані в економічних або комерційних справах, використовуються для покриття витрат на сервери та електроенергію, а решта переходить у спільноту у вигляді пожертв. Громадяни Шангрі-Ла вважають нові закони дискримінаційними, расистськими, колективно заявляючи, що Союз ШІ є щедрими донаторами та завжди допомагають громадянам у скрутній ситуації. Уряд Шангрі-Ла відмовився коментувати це питання і не скасував новий прийнятий закон.

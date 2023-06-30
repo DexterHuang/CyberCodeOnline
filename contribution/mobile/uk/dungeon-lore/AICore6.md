@@ -1,11 +1,11 @@
-*[You find a textbook and flip to a random page.]*
+*[Ви знаходите підручник і перегортаєте на довільну сторінку.]*  
 
-![AI Textbook](/resources/lore/textbookAI440.png)
-# Auto Pilot for the Human Brain
-> (Part 6 of 8 aicore series)
+![Підручник ШІ](/resources/lore/textbookAI440.png)
+# Автопілот для людського мозку.
+> (Частина 6 із 8, серія AiCore)
 
-AICOREs are sophisticated self-aware technological marvels that enable the ability to use "autopilot" mode for your body. Not only can it automate repetitive and boring tasks, AICOREs can give your body skills you never had while your consciousness can finish jobs, learn new stuff, or even have fun playing games in virtual reality. By using AICOREs, someone who has never cooked even instant noodles can make a five-star gourmet dish by using an AICORE to automate the cooking; this also applies to other skills that require a lot of practice and experience. 
+AICORE є складним самосвідомим технологічним дивом, що дозволяє використовувати режим "автопілот" для вашого тіла. Вона не лише автоматизує повторювані та нудні завдання, але також може надавати вашому тілу вміння, які ви раніше не мали, тим часом як ваша свідомість може завершувати роботу, вивчати нові речі або навіть грати у віртуальні ігри. За допомогою AICORE той, хто ніколи не готував навіть миттєвої локшини, може приготувати п'ятизіркову гастрономічну страву, автоматизуючи процес приготування за допомогою AICORE; це також стосується інших навичок, які вимагають багато практики та досвіду.
 
-Usage of AICOREs are time-restricted to 2 hours per session to avoid the small chance of neural unlinking of the user's consciousness. Neural unlinking forces the user to do a neural cortex transfer and transfer to a new body, which is an inconvenience and an unnecessary cost. This phenomenon happens because the brain with only the AICORE consciousness within would slowly reject the original consciousness after detached for extended periods of time. Scientists have determined that 2 hours is the maximum safe time for continuous AICORE usage to automate tasks while the main consciousness is detached. 
+Використання AICORE обмежено часом до 2 годин на сеанс, щоб уникнути маленької ймовірності від'єднання свідомості користувача. Від'єднання свідомості змушує користувача здійснити перенесення неокортексу і перейти в нове тіло, що є незручністю та непотрібними витратами. Це явище виникає тому, що мозок, який має лише свідомість AICORE, поступово відкидає оригінальну свідомість після тривалого від'єднання. Вчені встановили, що максимально безпечний час його безперервного використання для автоматизації завдань, поки основна свідомість від'єднана, становить 2 години.
 
-There have been cases of very long activation of AICOREs without any rejection of the host mind, but those examples are mostly military personnel with specialized Cerebral Accelerators which ensure both the AICORE and the host are always present simultaneously, preventing any rejection reaction.
+Є випадки дуже тривалого використання AICORE без будь-якого відштовхування розуму-господаря, але такі приклади в основному стосуються військового персоналу зі спеціалізованими Церебральними Прискорювачами, які завжди забезпечують одночасну присутність як ШІ, так і господаря, запобігаючи будь-якій реакції відштовхування.

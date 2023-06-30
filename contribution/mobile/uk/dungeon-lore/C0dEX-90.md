@@ -1,8 +1,8 @@
 >### **C0dEX-90**  
 >  
->Today I finally got a new job that has to be done. You know, the usual stuff: Find the guy — Kill the guy. Yet, there was a part about this guy owing a debt that he should pay and if he does, let him live. But we both know they never do, so we can skip right to the problem-solving bit.
+>Сьогодні я нарешті отримав нову роботу, яку необхідно виконати. Ви знаєте, звичайні справи: знайти хлопця - вбити хлопця. Але тут є й пункт про те, що цей хлопець має заборгованість, яку він повинен сплатити, і якщо він це зробить, то відпустити його. Але ми обидва знаємо, що вони ніколи цього не роблять, тому можемо перейти одразу до вирішення проблеми.
 >  
 >  
->Problem here is the guy who owes money is actually one of the clerks in Medikama. They're known for their contracts that don't allow them to leave the workplace at all. There's a high chance that I will need to actually kill this guy and then run away as fast as I can.
+>Проблема полягає в тому, що хлопець, який заборгував гроші, насправді є одним із клерків у "Медікамі". Вони відомі своїми контрактами, які не дозволяють їм взагалі залишати робоче місце. Є велика ймовірність, що мені доведеться насправді вбити цього хлопця, а потім якнайшвидше втекти.
 >
-> Oh and note to self: After this job is done, never go back to Shangri-La ever again.
+>О, і сам собі нагадай: після завершення цієї роботи ніколи більше не повертатись до "Шангрі-Ла".

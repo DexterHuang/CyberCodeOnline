@@ -1,13 +1,13 @@
-*[You find a textbook and flip to a random page.]*
+*[Ви знаходите підручник і перегортаєте на довільну сторінку.]*
 
-![AI Textbook](/resources/lore/textbookAI2.png)
-# The Invention of Cerebral Acceleration
-> (Part 3 of 8 aicore series)
+![Підручник ШІ](/resources/lore/textbookAI2.png)
+# Винахід Церебрального Прискорення.
+> (Частина 3 із 8, серія AiCore)
 
-The first prototype for Cerebral Acceleration was invented in the year 2061,  based on an obscure underground illegal Neuralink application: BB2039.nrl. The BB2039 app, better known as BrainBurst, was a secret application which allowed a person to make time subjectively "stop" by temporarily accelerating brain activity by 1024 times through a Neuralink device. This application also doubled as a fighting game where a person fights for "Burst Points" that they can consume to use the Cerebral Acceleration Function.
+Перший прототип для Церебрального Прискорення був винайдений у 2061 році, базуючись на маловідомій підземній незаконній програмі Neuralink: BB2039.nrl. Програма BB2039, більш відома як BrainBurst, була секретною програмою, яка дозволяла особі "зупинити" час суб'єктивно, тимчасово прискорюючи активність мозку в 1024 рази за допомогою пристрою Neuralink. Ця програма також слугувала файтинговою грою, де людина бореться за "бали вибуху" (Burst Points), які можна використовувати для використання функції Церебрального Прискорення.
 
-BrainBurst was soon made illegal after authorities discovered the app's ability to directly alter the memory of the losing players to forget any associated memories regarding BrainBurst, thus enabling the app to maintain its secrecy. Though BrainBurst itself had been outlawed, the research into Cerebral Acceleration the app had inspired was permitted to continue. 
+BrainBurst швидко став незаконним після того, як влада виявила здатність програми безпосередньо змінювати пам'ять програвших гравців, щоб вони забули будь-які пов'язані з BrainBurst спогади, зберігаючи тим самим таємницю програми. Хоча сам BrainBurst був заборонений, дослідження у сфері Церебрального Прискорення, які він надихнув, дозволено продовжувати.
 
-After extensive research, development and regulatory hurdles, Cerebral Acceleration was finally approved for public use in 2068, allowing people to increase their brain processing speed and streamline their thought processes. This breakthrough in technology sparked a period of exponentially increased productivity in research and academia across a multitude of disciplines.
+Після інтенсивних досліджень, розробок і регуляторних перепон, Церебральне Прискорення нарешті отримало схвалення для публічного використання у 2068 році, дозволяючи людям збільшити швидкість обробки та оптимізувати процеси мислення. Цей прорив у технології спровокував експоненційне збільшення продуктивності у дослідженнях і академії в різних галузях.
 
-In daily use, Cerebral Acceleration is mainly employed as a learning aid allowing children to complete primary, secondary, and tertiary education by as early as 10 years old, with knowledge on par with the archaic Master's Degree. Cerebral Acceleration also has its uses in the military and industrial sectors to increase concentration and reaction time, preventing work accidents and improving productivity.
+У повсякденному використанні Церебральне Прискорення в основному використовується як навчальний інструмент, що дозволяє дітям завершувати початкову, середню та вищу освіту вже у 10-річному віці, з рівнем знань, порівняним з вищим ступенем магістра. Церебральне Прискорення також знайшло застосування у військовому та промисловому секторах для підвищення концентрації й реакційного часу, запобігання нещасних випадків на роботі та покращення продуктивності.

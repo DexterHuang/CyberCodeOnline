@@ -1,17 +1,17 @@
->[Part 1 of 3 of 10\HACK series]
+>[Частина 1 з 3 серії "10 Хацкерят"]
 
-Ten little hackers, prowling online
+Десять міні-хацкерів, рознюхують сліди онлайн
 
-One betrayed his location then there were nine.
+Один спалив локацію, і їх лишилось дев'ять.
 
-Nine little hackers diverting freight;
+Дев'ять міні-хацкерів викрадають вантажі,
 
-One tripped an ICE then there were eight.
+Один спіймав ICE, і залишилось вісім.
 
-Eight little hackers raiding a tax haven
+Вісім міні-хацкерів ламанули податкову гавань,
 
-One smelled like Fed, then there were seven.
+Один запах як федерал, і залишилось сім.
 
-Seven little hackers stealing memory sticks;
+Сімка міні-хацкерів цупили флешкарти 
 
-One was GPS-tracked, then there were six.
+Один спіймав жучка, і їх лишилось шість.

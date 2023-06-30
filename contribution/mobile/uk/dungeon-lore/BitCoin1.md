@@ -1,6 +1,6 @@
-# The Invention of BitCoin
-> (Part 1 of 4 bitcoin series)
+# Відкриття Біткойна
+> (Частина 1 з 4, серія BitCoin)
 
-BitCoin is a cryptocurrency invented in 2008 by an unknown group of people using the name Satoshi Nakamoto. The currency began use in 2009 when its implementation was released as open-source software. BitCoin is a decentralized digital currency, without a central bank or single administrator, that can be sent from user to user on the peer-to-peer bitcoin network without the need for intermediaries. Transactions are verified by network nodes through cryptography and recorded in a public distributed ledger called a blockchain. 
+Біткойн - це криптовалюта, створена у 2008 році невідомою групою людей під псевдонімом Сатоші Накамото. Використання цієї валюти розпочалося у 2009 році, коли була оприлюднена її реалізація як відкрите програмне забезпечення. Біткойн є децентралізованою цифровою валютою без центрального банку або одного адміністратора, яку можна передавати від користувача до користувача через однорангову мережу без посередників. Транзакції перевіряються мережевими вузлами за допомогою криптографії та записуються в публічний розподілений реєстр, який називається блокчейн.
 
-Historically, BitCoin was mostly used as a pseudo stock market where people try to buy low and sell high to reap quick profits. Because of how volatile the BitCoin value was in its infancy, people did not use it as a currency for daily use until the World Government Organization declared it as the worldwide global currency in 2071.
+Історично Біткойн переважно використовувався як псевдофондовий ринок, де люди намагалися купувати дешевше і продавати дорожче, щоб отримати швидкі прибутки. Через велику волатильність вартості Біткойна на початковому етапі, люди не використовували його як повсякденну валюту, поки Всесвітня Організація Урядів не оголосила його всесвітньою глобальною валютою у 2071 році.

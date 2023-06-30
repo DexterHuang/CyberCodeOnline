@@ -1,5 +1,5 @@
->Ducking around a rusty door, a patch of moldy vegetation grabs hold of your natural curiosity. Before long, you're kneeling down next to it as if your legs had moved on their own.  
-  
->A handful of dried mushrooms. Very dried, to be specific. The top of these mushrooms are covered green with dots of whites. At least, it WAS green and white. Now it's more grey and the white is not even noticeable. You take a closer look. You sniff. Doesn't smell like anything. You squint closer. Is that a face? No, you assure yourself. You are just tired from killing a room full of monsters. You are very tempted to swallow these whole. You shake your head. In another life, maybe.  
-  
->You put the handful of mushrooms back on the ground, kind of. You tuck them in a dark corner, just in case you change your mind about eating them.  
+>Обертаючись навколо іржавої двері, ти помічаєш ділянку плісняви, яка привертає твою увагу. Ти опускаєшся на коліна, ніби на тебе накотила хвиля втоми.
+
+>В твоїх руках кілька висушених грибів. Дуже висушених, якщо точніше. Шапка цих грибів вкрита зеленими плямками з білими крапками. Принаймні, вона була зеленкувато-біла. Тепер вона стала сірою, і білого окрасу навіть не помітно. Ти розглядаєш зблизька. Вдихаєш запах. Нічим не пахне. Ти примружуєшся. Це обличчя? Ні, переконуєш себе. Ти просто втомився від того, що вбивав кімнату повну монстрів. Ти дуже спокушений ковтнути їх цілими. Ти трясеш головою. Мабуть, в іншому житті.
+
+>Ти повертаєшся і кладеш кілька грибів назад на землю. Ти сховав їх у темному кутку, на всяк випадок, якщо все-таки захочеш їх з'їсти.

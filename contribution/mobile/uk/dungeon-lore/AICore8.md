@@ -1,12 +1,11 @@
-*[You find a textbook and flip to a random page.]*
+*[Ви знаходите підручник і перегортаєте на довільну сторінку.]*
 
-![AI Textbook](/resources/lore/textbookAI2.png)
+![Підручник ШІ](/resources/lore/textbookAI2.png)
+# Співіснування з ШІ у вашому мозку
+> (Частина 8 із 8, серія AiCore)
 
-# Coexisting With an AI in Your Brain
-> (Part 8 of 8 aicore series)
+Перше використання AICORE може викликати незручності. Наявність іншого, відмінного розуму всередині вашого мозку, викликатиме плутанину. Вперше активувавши AICORE, ви відчуєте наявність іншої сутності у вашому розумі з власним набором думок та особистістю. Раптово мати окремий розум всередині себе може здатися дивним на початку, але після невеликого проміжку часу ваші нейрони створять нові шляхи після знайомства з новими стимулами та підвищеною обробкою інформації.  
 
-First time users of AICORE may find the experience of having an additional, different mind inside your brain very confusing and disorienting. When you activate an AICORE for the first time, you will feel another presence in your mind with its own set of thoughts and personality. Suddenly having a separate mind inside of you might feel odd at first, but after a short amount of time, your neurons will make new pathways after familiarizing with the new stimuli and heightened processing capability. 
+Мати AICORE - це унікальний досвід. Уявіть собі, що у вас є ще одна особа, з якою ви можете спілкуватися телепатично - або, інакше кажучи, він подібний до внутрішнього голосу, з яким можна розмовляти. Наявність AICORE означає також можливість частково або повністю контролювати ваше фізичне тіло, тоді як ви можете спостерігати, відчувати, навчатися і досліджувати нові навички через нього - або просто розслабитися, поки невідома сутність бере на себе роботу. Коли ви дозволяєте AICORE керувати вашим тілом, а ваша свідомість не від'єднана, це особливе відчуття - ніби ваше тіло рухається зовнішньою силою. Деякі також описують це відчуття, якби їх тіло рухається самостійно.
 
-Having an AICORE is a unique experience. Imagine having another individual that you can communicate with via telepathy—or, put  another way, AICORE is like an inner voice that you can converse with. Having an AICORE installed also means you can have it control your physical body partially or wholly while you can observe, feel, learn and experience new skills from the AICORE—or just sit back and relax while the AICORE handles things. When you let the AICORE control your body and your consciousness is not detached, it is a unique feeling—like your body is moved by an external force. Some also describe the feeling as their body moving by itself. 
-
-If you decide to detach your conciousness and do work or have fun in CyberSpace, whatever the AICORE experiences while you are away will be stored in your short-term memory, which you can later recall after your consciousness returns to your body.
+Якщо ви вирішите від'єднати свою свідомість і займатися роботою або розвагами у кіберпросторі, все, що досвідчує AICORE, поки вас немає, буде зберігатися у вашій короткостроковій пам'яті, яку ви зможете потім пригадати, коли ваша свідомість повернеться у ваше тіло.

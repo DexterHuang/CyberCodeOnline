@@ -1,29 +1,29 @@
->A datacube with an audio file.
+> Куб даних з аудіофайлом.
 
-*[transmission 002790872 25-10-2064 15:30:22]*
+*[переказ 002790872 25-10-2064 15:30:22]*
 ***
-*Angel come back, I'm sorry...*
+*Ангеле, повернись, я прошу вибачення...*
 
-*You said what you needed to say, now just leave me alone.*
+*Ти все сказала, що мала сказати, тепер дай мені спокій.*
 
-*It's not you, you're beautiful and smart and funny...After Geoff...I just am not in a good place right now. Maybe if you give me some time?*
+*Не в тобі справа, ти красивий, розумний і веселий... Після Джеффа... Я просто не в хорошому місці зараз. Може, якщо ти даси мені трохи часу?*
 
-*I don't know how much time I have left.*
+*Я не знаю, скільки часу мені залишилося.*
 
-*What does that mean?*
+*Що це означає?*
 
-*It means I don't believe in what this society has to offer anymore.*
+*Це означає, що я більше не вірю в те, що суспільство мені пропонує.*
 
-*Okay, I know we just got out of government studies but what the heck are you talking about? You're not thinking of going dark are you?*
+*Окей, я знаю, що ми щойно закінчили уроки про урядові дослідження, але про що ти взагалі говориш? Ти ж не думаєш про те, щоб піти у тінь?*
 
-*Maybe. I don't know. I'm just so sick of megacorps and the government screwing over the little guy while generations just get poorer and poorer and continue to serve those rich, greedy bougies. Maybe I can do something about that. You know,  you're welcome to come with me.*
+*Можливо. Я не знаю. Я просто так втомився від мегакорпорацій і уряду, які підстерігають малюка, поки покоління за поколінням стають все біднішими та служать цим багачам, жадібним буржуям. Можливо, я можу щось з цим зробити. Знаєш, ти теж можеш піти зі мною.*
 
-*Are you joking? My parents would kill me! And that's if I ever saw them again. Plus, I've heard horror stories about people that go dark.*
+*Ти жартуєш? Мої батьки мене б вбили! І це, якщо я їх коли-небудь побачу знову. Крім того, я чула жахливі історії про людей, які пішли у тінь.*
 
-*So I guess this is it then.*
+*Ладно, я думаю, що на цьому все.*
 
-*Will you stay with me tonight? One last night before we say goodbye.*
+*Ти залишишся зі мною сьогодні вночі? Остання ніч перед прощанням.*
 
-*Well Helena Jones, since you are queen of the school and all, I suppose I couldn't say no to royalty.*
+*Ну, Хелена Джонс, оскільки ти королева школи й усе таке, я вважаю, що не можу відмовити королеві.*
 ***
 `<d4rkrunn3rz_003/>`

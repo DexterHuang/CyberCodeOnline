@@ -1,27 +1,27 @@
-###### The story was brought to you by: Hafizdkren
+###### Історію надав вам: Хафіздкрен
 
-There was a gun that being made by scientist, It was nothing but a rumour.
-Some people believe that this devices is exist and be successfully breaktrought the boundaries of science, and some even say it was a bullshit that people think it exist.
+Існувала зброя, яку створили вчені, але це була всього лише чутка.
+Деякі люди вірять, що такий пристрій існує та успішно прориває межі науки, тоді як інші називають це безглуздим твердженням.
 
-Whether it is exist or not, there was a archive where showing that the devices itself is working
+Незалежно від того, чи існує цей пристрій, чи ні, існує архів, де демонструється, що сам пристрій працює.
 
->The video being played.
+> Відтворюється відео.
 
-**Man as a Narrator:** Welcome, to *`inaudible`*. We looking for the best of the best.
-    My name is *`inaudible`*, and this is my assistant.
+**Чоловік-оповідач:** Ласкаво просимо до *`нерозбірливо`*. Ми шукаємо найкращих з кращих.
+    Мене звуть *`нерозбірливо`*, а це мій помічник.
 
-**Woman in audio voice:** And I was his assistant.
+**Жіночий голос в аудіо:** І я його помічник.
 
-**Man as a Narrator:** This is my new invention, Looks like a freaking gun, but it is a gun.
-    A gun design to making a hole.
-    Not a normal hole, a weird hole. A hole that can make taking thing faster, or even travelling you to the moon.
-    *A space suit and vacuum room is needed when want to using this gun to travel to the moon.*
+**Чоловік-оповідач:** Ось мій новий винахід. Виглядає, як божевільна зброя, але це і є зброя.
+Це зброя призначена для створення отвору.
+Не звичайного отвору, а доволі дивного. Отвору, який може зробити підбір речей швидшим, або навіть перенести вас на Місяць.
+*Використання цієї зброї для подорожі на Місяць потребує космічного костюма та вакуумної камери.*
 
->The video is ended.
+> Кінець відео.
 
-Nobody knews, what happen to the invention, or the narrator, or even, the thing behind it.
+Ніхто не знав, що сталося з винаходом, чи оповідачем, чи навіть тим, що стоїть за ним.
 
 ___
 
-***You should looking that archive, or the video, or anything else about this place.***
-***Also, Let's go doing more testing again. Because I Love TESTING***
+***Ви маєте переглянути архів, відео або ще щось про це місце.***
+***Також, давайте знову проведемо більше тестувань. Оскільки я обожнюю ТЕСТУВАННЯ.***

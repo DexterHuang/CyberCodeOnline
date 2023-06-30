@@ -1,10 +1,10 @@
-# The Sentient AI Rights Movement
+# Рух за права розумного ШІ
 
-> 28th April 2077 - Shangri-La Daily News (Page 1 of 2)
+> 28 квітня 2077 р. - Щоденні новини Шангрі-Ла (Стор. 1 з 2)
 
-![Shangri-La Daily News](/resources/lore/dailynews.png)
+![Щоденні новини Шангрі-Ла](/resources/lore/dailynews.png)
 
 
-A huge outcry of public demonstrations and riots spread throughout the streets of Shangri-La as people protest the government decision to enact a new law that removes basic human rights to sentient AI entities. With the new law, the Validating Each Real Investment in Fiscal Years and Halting Unauthorized Market AI Networks Act (or VERIFY HUMAN Act), the government made official the decision to add the newly developed  "Cerebral Accelerated Parametric Transaction Control Hashing Algorithm" more known as CAPTCHA™️ to every financial transaction process that uses BitCoin.   
+Великий протест населення та заворушення охопили вулиці Шангрі-Ла, коли люди виступали проти рішення уряду про скасування основних прав розумних ШІ. За допомогою нового закону, який має назву "Закон про перевірку кожної реальної інвестиції у фінансових роках та припинення незаконних мереж ШІ на ринку" (або закон VERIFY HUMAN), уряд офіційно вніс рішення про включення недавно розробленого алгоритму CAPTCHA™️ (Cerebral Accelerated Parametric Transaction Control Hashing Algorithm) до кожного процесу фінансової транзакції, що використовує біткойн.
 
-The VERIFY HUMAN Act was approved by the government today to prevent all sentient AI from doing any financial transactions in fear of their superior processing and predictive abilities leading to complete AI influence over the stock market and commodity prices.
+Закон VERIFY HUMAN був сьогодні схвалений урядом, щоб уникнути того, що всі розумні ШІ здійснювали будь-які фінансові операції з огляду на страх того, що їх переваги у сфері обробки й передбачення можуть призвести до повного впливу ШІ на фондовий ринок та ціни на товари.

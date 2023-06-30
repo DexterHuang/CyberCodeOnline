@@ -1,11 +1,11 @@
-*[You find a textbook and flip to a random page.]*
+*[Ви знаходите підручник і перегортаєте на довільну сторінку.]*
 
-![AI Textbook](/resources/lore/textbookAI440.png)
-# The Brain-Computer Interface Perfected
-> (Part 2 of 8 aicore series)
+![Підручник ШІ](/resources/lore/textbookAI440.png)
+# Удосконалений інтерфейс «Комп'ютерний мозок».
+> (Частина 2 із 8, серія AiCore)
 
-A brain–computer interface (BCI) is a direct communication pathway between an enhanced or wired brain and an external device. BCIs are often directed at researching, augmenting, or repairing human cognitive or sensory-motor functions. 
+Інтерфейс між мозком та комп'ютером (ІММК) є прямим комунікаційним шляхом між покращеним або підключеним мозком та зовнішнім пристроєм. ІММК часто спрямовані на дослідження, підвищення або відновлення когнітивних або сенсорно-моторних функцій людини.
 
-Historically, early BCIs were very limited in function; most often, they could only *read* brain activity with no way to send input directly. This was the case until a breakthrough was made in 2047, when a fully digitized simulation of the human brain was finally completed, boosting progress to research on how the brain works. The first Cybernetic Cerebral Enhancement (CCE) prototype was made in 2050 by a researcher at Shangri-La BioTech. After rigorous safety testing—and a lot of controversy—the first consumer CCE was finally available by 2054. 
+В історичному аспекті ранні ІММК були дуже обмеженими за функціональністю; в основному вони могли лише "читати" активність мозку, без можливості надсилати прямий ввід. Це було так до прориву, який стався у 2047 році, коли повністю цифрове моделювання людського мозку було нарешті завершено, що сприяло прогресу досліджень про роботу мозку. Перший прототип кібернетичного мозкового покращення (КМП) був створений у 2050 році дослідником у Shangri-La BioTech. Після ретельних випробувань на безпеку і кількість контроверсії, перший КМП для споживачів був нарешті доступний у 2054 році.
 
-This marked the dawn of the era where our brains could communicate directly with digital devices. Now, CCE implants are an inseparable part of us; current data suggests 94% of the human populace now has a CCE in their brain, with the other 6% comprising mostly indigenous tribes and minority purist groups that are against having any sort of mechanical or cybernetic enchancements.
+Це позначило початок ери, коли наш мозок міг комунікувати безпосередньо з цифровими пристроями. Тепер імплантати КМП є невід'ємною частиною нас; поточні дані свідчать, що 94% людського населення має КМП у своєму мозку, і лише 6% становлять переважно корінні племена та меншинні групи пуристів, які проти будь-яких механічних або кібернетичних покращень.

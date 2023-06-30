@@ -1,4 +1,4 @@
-# BitCoin as The New Currency
-> (Part 2 of 4 bitcoin series)
+# Біткойн, як нова валюта.
+> (Частина 2 з 4, серія BitCoin)
 
-BitCoins were created as a reward for a process known as mining. They can be exchanged for other currencies, products, and services, but the real-world value of the coin prior to its official adoption in 2071 was extremely volatile. Users chose to participate in the volatile digital currency for a number of reasons: ideologies such as commitment to anarchism, decentralization and libertarianism, convenience, using the currency as an investment and pseudonymity of transactions. Increased use led to a desire among governments for regulation in order to tax, facilitate legal use in trade and for other reasons until the World Government Organization finally adopted it as official global currency.
+Біткойни були створені як винагорода за процес, відомий як майнінг. Їх можна обмінювати на інші валюти, товари та послуги, але реальна вартість монети до її офіційного прийняття у 2071 році була надзвичайно мінливою. Користувачі обирали цю нестабільну цифрову валюту з різних причин: ідеологічні, такі як прагнення до анархізму, децентралізації та либертаріанізму, зручність використання, використання валюти як інвестиції та псевдонімічність транзакцій. Збільшений обсяг використання призвів до бажання урядів регулювати її з метою оподаткування, сприяння легальному використанню в торгівлі та з інших причин, поки Всесвітня Організація Урядів не остаточно прийняла її як офіційну світову валюту.

@@ -1,25 +1,25 @@
->You see a video module drive on the floor next to some scattered chips bags and candy wrappers. You decide to hook it to your mobile display.
+>Ви бачите модуль відеопрогравача, що лежить на підлозі поряд з розкиданими пакетиками чіпсів та обгортками від цукерок. Ви вирішуєте підключити його до свого мобільного дисплею.
 
 
-*STATIC*
+*ТИША*
 
 
->A large man with a neckbeard, ponytail, augmented reality headset and poorly fitted Sword Art Online T-shirt enters the frame sporting a cheeto encrusted Legendary Astral Decimation Cannon. He appears to be pointing the weapon at a figure in the distance. 
+>У кадр заходить великий чоловік з волоссям на шиї, хвостом-поні, шоломом доповненої реальності та погано виглядаючою футболкою "Меч-Мистецтво Онлайн". Він тримає зброю "Легендарна Астральна Руйнівна Гармата", покриту крихтами від чітосів, і, здається, націлює її на фігуру вдалині.
 
 
-*EXPLOSIONS*
+*ВИБУХ*
 
 
-Wow omg guys! This really blew up!! 
+Йой, хлопці! Це насправді жахнуло!
 
 
->The man with the cannon, who you now have identified as a Crusty Redditor skips with glee over to what's left of the figure in the distance. The Redidtor rummages through the tattered remains and then picks up a couple of lightly singed Hash Processors.
+>Чоловік з гарматою, якого ви зараз ідентифікували як "Crusty Redditor", з радістю стрибає до того, що залишилося від фігури вдалині. Redditor нишпорить у пошарпаних залишках, а потім підбирає пару легко обпалених хеш-процесорів.
 
 
-Thanks for the gold kind Stranger!!
+Дякую за золото, добрий Незнайомець!
 
 
-*STATIC*
+*ТИША*
 
 
->You rip the drive out of the display and throw it to the ground. It's time to move on.
+>Ви вириваєте пристрій з дисплея і кидаєте його на землю. Настала пора рухатися далі.

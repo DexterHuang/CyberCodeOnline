@@ -1,13 +1,13 @@
-> You see a paper on the floor and you pick it up to read it.  
+> Ви бачите папір на підлозі і піднімаєте його, щоб прочитати. 
   
-"Beware, anyone who enters this dungeon."  
+"Будьте обережні всі, хто входить у цю печеру." 
   
-> The paper had a note written on the back. You flip it and read it,  
+> Папір мав запис на зворотному боці. Ви перевертаєте його і читаєте: 
 
-"Nothing [Redacted] Happening In Here. For anyone who enters the dungeon don't be afraid. Brave yourself and nothing can stop you."  
+"Тут нічого [Цензуровано] не відбувається. Тим, хто потрапляє до підземелля, не бійтеся. Зміцніть своє серце і ніщо не зможе вам завадити."  
   
-> You say to yourself with an hesitatant and deep voice:   
+> Ти кажеш собі з нерішучим і глибоким голосом:  
 
-"I need to be harder and better also faster and stronger to clear this dungeon."  
+"Мені потрібно бути сильнішим, кращим, швидшим і сильнішим, щоб пройти цей підземний лабіринт."
   
-> Then you put it back again on the floor just in case other other people come in this dungeon.  
+> Тоді ви знову поклали його на підлогу, нехай буде застереженням для інших.

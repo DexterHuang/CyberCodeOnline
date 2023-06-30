@@ -1,18 +1,18 @@
-> You find a thin rectangular envelope, with burn marks on one side. Inside, you find a laminated paper page, seemingly torn from a book, barely held together by brittle plastic. It reads thus:
+> Ви знаходите тонкий прямокутний конверт попалений з одного боку. Усередині ви знаходите ламіновану сторінку паперу, здавалося б, вирвану з книги, що ледь тримається разрушливою пластмасою. На ній написано наступне:
 
-• 2 to 3 very ripe bananas, peeled   
-• 1/3 cup melted butter, unsalted or salted  
-• 1 teaspoon baking soda  
-• Pinch of salt  
-• 3/4 cup sugar  
-• 1 large egg, beaten  
-• 1 teaspoon vanilla extract  
-• 1 cup of all-purpose flour
+• 2 до 3 дуже спілі банани, без шкірки  
+• 1/3 склянки розтопленого масла, несолоного або солоного 
+• 1 чайна ложка соди
+• Дрібка солі  
+• 3/4 склянки цукру  
+• 1 велике яйце, збите  
+• 1 чайна ложка ванільного екстракту  
+• 1 склянка борошна універсального призначення
 
-• Preheat the oven to 350°F (175°C), and butter a 4x8-inch loaf pan.  
-•   In a mixing bowl, mash the ripe bananas with a fork until completely smooth. Stir the melted butter into the mashed bananas.  
-• Mix in the baking soda and salt. Stir in the sugar, beaten egg, and vanilla extract. Mix in th-"
+• Розігрійте духовку до 350°F (175°C) і змастіть вершковим маслом форму для хліба розміром 4x8 дюймів. 
+•   У мисці для змішування розімніть виделкою стиглі банани до однорідності. Вмішайте розтоплене масло в бананове пюре. 
+• Змішайте харчову соду та сіль. Додайте цукор, збите яйце та ванільний екстракт. Змішайте в "тв..
 
-> The rest of the text is obscured by discoloration where the folder and the melted plastic had fused together. 
+> Решта тексту затемнена забарвленням, де папір і розплавлений пластик злилися разом. 
 
-> It appears to be a recipe for a type of pastry you are unfamiliar with. You do not recognize half of the ingredients on the list, nor do the instructions make sense to you. Finding the information on it to be worthless, you return it back inside the folder for someone else to find.
+> Здається, це рецепт для якогось виду випічки, з яким ви не знайомі. Ви не впізнаєте половину інгредієнтів у списку, і інструкції вам не здаються зрозумілими. Вважаючи інформацію непотрібною, ви повертаєте її назад у папку, щоб хтось інший зміг знайти її.

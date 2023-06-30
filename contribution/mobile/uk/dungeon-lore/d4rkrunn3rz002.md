@@ -1,13 +1,13 @@
->A datacube. It looks to be a personal aetherlog.
+> Куб даних. Це, схоже, особистий запис у ефірному журналі.
 ***
-March 20, 2069 1:33AM
+Березень 20, 2069 1:33AM
 
-*I don't know what to do about blue. I'm not even sure why I feel this way about him...I mean I don't even know his real name. Of course it's safer that way when you go dark. Rule #1: Never give out your guvvy to anyone.*
+*Я не знаю, що робити з цією "блу". Я навіть не впевнений, чому я ставлюсь так до неї... Я ж не знаю її справжнє ім'я. Звичайно, це безпечніше, коли ти переховуєшся. Правило #1: Ніколи нікому не передавайте свою реальну інформацію.*
 
-*So am I just supposed to call him blue for the rest of his life even after we get marr...Wait, what's wrong with me?? I have a crush on a guy I've met in person like one time. And if we're going to be working together, I need to get these thoughts out of my head because you can't afford to be distracted on the job.*
+*То я повинен буду звати її "блу" до кінця своїх днів, навіть після того, як ми одружимось... Чекай, що зі мною не так? Я зачарований людиною, з якою зустрівся всього один раз. І якщо ми збираємося працювати разом, мені потрібно вигнати ці думки з голови, і на роботі не можна відволікатися*
 
-*I've only been running dark for a couple years now, but I know enough not to let my feelings get in the way. That's how people get hurt.*
+*Я тільки пару років живу в тіні, але я знаю достатньо, щоб не дозволяти своїм почуттям заважати. Саме так люди отримують травми.*
 
-*Anyway, it's just a crush so I'm sure I'll be over it by next week. But those silver eyes and dark hair are so ethereal...*
+*В будь-якому разі, це просто закоханість, тому впевнений, що до наступного тижня я про неї забуду. Але ці сріблясті очі й темне волосся таке ніби ефірне...*
 ***
 `<d4rkrunn3rz_002/>`

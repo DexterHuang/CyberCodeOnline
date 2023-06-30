@@ -1,17 +1,17 @@
->[Part 3 of 8 of BioFinance series]  
+>[Частина 3 з 8, серія BioFinance] 
 
-[A recording. Looks like a phone call intercepted by some amateur hacker]
+[Запис. Схоже, телефонний дзвінок перехопив якийсь хакер-аматор]
 
-*VOICE1*: I tell you, that Chinese-American guy is shady. There are no traces of him or his company. 
+*ГОЛОС 1*: Кажу вам, цей китайсько-американський хлопець дивний. Немає жодної інформації про нього або його компанію.
 
-*VOICE2*: I'm told he used to work for the board of Cheng Holding. Some sort of "off the book" fixer.
+*ГОЛОС 2*: Мені розповідали, що він колись працював в раді директорів Cheng Holding. Свого роду "неофіційний" посередник.
 
-*VOICE1*: He is not Ivy League management for sure. So where does he come from? Why is he giving orders to the lab director?
+*ГОЛОС 1*: Він точно не випускник Ivy League в управлінській сфері. Так звідки він? Чому він віддає накази директору лабораторії?
 
-*VOICE2*: Baffles me. I have a bad feeling about this "injection of capital". I mean, why should any investment firm give money to Vitasyntech? We had no new products in years.
+*ГОЛОС 2*: Це мені не дає спокою. У мене погане передчуття щодо цього "інвестиційного впорядкування". Я маю на увазі, чому кожна інвестиційна компанія має виділяти гроші для Vitasyntech? У нас не було нових продуктів впродовж декількох років.
 
-*VOICE1*: Nevertheless, he roams around as if he owns the place.
+*ГОЛОС 1*: Однак, він розгулює тут так, ніби власник цього місця.
 
-*VOICE2*: We'll see. We are living through interesting times. 
+*ГОЛОС 2*: Побачимо. Ми живемо в дуже цікавий час. Хто його зна, що далі трапиться.
 
-*clicks*
+*Клац*

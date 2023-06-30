@@ -1,5 +1,5 @@
-> You find a small, unmarked black cube on the ground. Picking it up, you notice a thin break across the middle. You twist it and a voice recording plays:
+> Ви знаходите на землі маленький чорний кубик без позначок. Підіймаючи його, ви помічаєте тонку тріщину посередині. Ви повертаєте його, і чуєте голосовий запис:
 
-"We here at ***[Distortion]*** welcome you to the first rank of ***[Distortion]***. We look forward to working with you and wish you grand luck in the upcoming ***[Distortion]***. If you require any assistance, do not be afraid to locate us at the nearest ***[Distortion]***"
+"Ми тут у ***[Спотворення]*** вітаємо вас у першому ранзі ***[Спотворення]*** . Ми з нетерпінням чекаємо на співпрацю з вами та бажаємо вам великої удачі у прийдешньому ***[Спотворення]*** . Якщо вам потрібна допомога, не соромтеся звернутися до нас у найближчому ***[Спотворення]*** ".
 
-> The recording ends with a click and the box returns to its original state. You return it to the ground and keep walking.
+> Запис закінчується клацанням, і коробка повертається до свого початкового стану. Ви повертаєте її на землю і продовжуєте йти.

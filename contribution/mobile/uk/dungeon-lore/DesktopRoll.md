@@ -1,58 +1,58 @@
-While hacking through a random dudes desktop, you find a folder suspiciously named 'Do not open'.    Behind that folder you find,<br> another folder, <br> then another. <br> Until finally, you find an audio transcript. <Br> We're no strangers to love
-<br>You know the rules and so do I
-<br>A full commitment's what I'm thinking of
-<br>You wouldn't get this from any other guy
-<br>I just wanna tell you how I'm feeling
-<br>Gotta make you understand
-<br>Never gonna give you up
-<br>Never gonna let you down
-<br>Never gonna run around and desert you
-<br>Never gonna make you cry
-<br>Never gonna say goodbye
-<br>Never gonna tell a lie and hurt you
-<br>We've known each other for so long
-<br>Your heart's been aching but you're too shy to say it
-<br>Inside we both know what's been going on
-<br>We know the game and we're gonna play it
-<br>And if you ask me how I'm feeling
-<br>Don't tell me you're too blind to see
-<br>Never gonna give you up
-<br>Never gonna let you down
-<br>Never gonna run around and desert you
-<br>Never gonna make you cry
-<br>Never gonna say goodbye
-<br>Never gonna tell a lie and hurt you
-<br>Never gonna give you up
-<br>Never gonna let you down
-<br>Never gonna run around and desert you
-<br>Never gonna make you cry
-<br>Never gonna say goodbye
-<br>Never gonna tell a lie and hurt you
-<br>Never gonna give, never gonna give
-(Give you up)
-<br>We've known each other for so long
-<br>Your heart's been aching but you're too shy to say it
-<br>Inside we both know what's been going on
-<br>We know the game and we're gonna play it
-<br>I just wanna tell you how I'm feeling
-<br>Gotta make you understand
-<br>Never gonna give you up
-<br>Never gonna let you down
-<br>Never gonna run around and desert you
-<br>Never gonna make you cry
-<br>Never gonna say goodbye
-<br>Never gonna tell a lie and hurt you
-<br>Never gonna give you up
-<br>Never gonna let you down
-<br>Never gonna run around and desert you
-<br>Never gonna make you cry
-<br>Never gonna say goodbye
-<br>Never gonna tell a lie and hurt you
-<br>Never gonna give you up
-<br>Never gonna let you down
-<br>Never gonna run around and desert you
-<br>Never gonna make you cry
-<br>Never gonna say goodbye
+Під час вторгнення в комп'ютер випадкової людини, ви знаходите теку, яка підозріло називається "Не відкривати". За цією текою ви знаходите<br> ще одну теку, <br> а потім ще одну, і так далі. <br> До тих пір, поки нарешті не знаходите аудіостенограму.  <Br> Ми не незнайомі з любов'ю
+<br>Ти знаєш правила як і я
+<br>Повне зобов'язання про що я думаю
+<br>Ти не знайдеш цього в іншому хлопці
+<br>Я просто хочу розповісти тобі що я відчуваю
+<br>Маю зробити так щоб ти зрозуміла
+<br>Ніколи не збираюся тебе покидати
+<br>Ніколи не зраджу тобі
+<br>Ніколи не побіжу і не залишу тебе
+<br>Ніколи не змушу тебе плакати
+<br>Ніколи не скажу прощавай
+<br>Ніколи не накажу тобі брехнею і не заплачу
+<br>Ми знаємо одне одного так довго
+<br>Твоє серце болить але ти занадто сором'язлива щоб сказати це
+<br>Ми обоє знаємо що відбувається всередині
+<br>Ми знаємо гру і ми її будемо грати
+<br>І якщо ти запитаєш мене як я себе почуваю
+<br>Не кажи мені що ти занадто сліпа щоб бачити
+<br>Ніколи не збираюся тебе покидати
+<br>Ніколи не зраджу тобі
+<br>Ніколи не побіжу і не залишу тебе
+<br>Ніколи не змушу тебе плакати
+<br>Ніколи не скажу прощавай
+<br>Ніколи не накажу тобі брехнею і не заплачу
+<br>Ніколи не збираюся тебе покидати
+<br>Ніколи не зраджу тобі
+<br>Ніколи не побіжу і не залишу тебе
+<br>Ніколи не змушу тебе плакати
+<br>Ніколи не скажу прощавай
+<br>Ніколи не накажу тобі брехнею і не заплачу
+<br>Ніколи не збираюся ніколи не збираюся
+(Здаватися тобі)
+<br>Ми знаємо одне одного так довго
+<br>Твоє серце болить але ти занадто сором'язлива щоб сказати це
+<br>Ми обоє знаємо, що відбувається всередині
+<br>Ми знаємо гру і ми її будемо грати
+<br>Я просто хочу розповісти тобі що я відчуваю
+<br>Маю зробити так щоб ти зрозуміла
+<br>Ніколи не збираюся тебе покидати
+<br>Ніколи не зраджу тобі
+<br>Ніколи не побіжу і не залишу тебе
+<br>Ніколи не змушу тебе плакати
+<br>Ніколи не скажу прощавай
+<br>Ніколи не накажу тобі брехнею і не заплачу
+<br>Ніколи не збираюся тебе покидати
+<br>Ніколи не зраджу тобі
+<br>Ніколи не побіжу і не залишу тебе
+<br>Ніколи не змушу тебе плакати
+<br>Ніколи не скажу прощавай
+<br>Ніколи не накажу тобі брехнею і не заплачу
+<br>Ніколи не збираюся тебе покидати
+<br>Ніколи не зраджу тобі
+<br>Ніколи не побіжу і не залишу тебе
+<br>Ніколи не змушу тебе плакати
+<br>Ніколи не скажу прощавай
  
-`[expletive]`
-<br>You aren't sure what the point of the audio was. Seemed to be some old song from pre-singularity. Whatever it was, it just wasted 5 minutes of your time.
+`[Лайка]`
+<br>Ви не знаєте, яка була мета цього аудіо. Здається, це була якась стара пісня з епохи до появи сингулярності. Що б це не було, воно просто витратило 5 хвилин вашого часу.

@@ -1,26 +1,26 @@
->[Part 1 of 8 of BioFinance series]  
+>[Частина 1 з 8, серія BioFinance]  
 
-[A crumpled sheet catches your attention. It's a bill of lading for some sort of delivery.]  
+[Зім'ятий аркуш привернув вашу увагу. Це розписка на якесь доставлення.]  
 
-![EdgeRunner Biocouriers Corporation](/resources/lore/edgerunnerbiocorp.png)
+![Корпорація EdgeRunner Biocouriers](/resources/lore/edgerunnerbiocorp.png)
   
-**CONSIGNEE:**  
-IntelliCo. Neural Implants Manufacturing Facility - Depot 33. Shangri-La.
+**ОТРИМУВАЧ:**  
+Завод з виробництва нейроімплантів IntelliCo - Депот 33. Шангрі-Ла.
 
-**SHIPPER:**  
-Vitasyntech Inc. - WTP Building, New Hangzou, CN
+**ВАНТАЖОВІДПРАВНИК:**  
+Vitasyntech Inc. - Будівля WTP, Новий Хангзоу, Китай.
 
-**DELIVERY THROUGH:**  
-EdgeRunner Biocouriers Corp., Chiba City, JP
+**ШЛЯХ ДОСТАВЛЕННЯ:**  
+EdgeRunner Biocouriers Corp., місто Чіба, Японія.
 
-**ITEM MARK:**  
+**МАРКА ПРЕДМЕТА:**  
 Psychoxone Mk4
 
-**ITEM DESCR. :**  
-experimental performance enhancing drug
+**ОПИС ПРЕДМЕТА:**  
+експериментальний препарат для підвищення ефективності
 
-**QTY:**         
-20 crates, 4 tanks each
+**КІЛЬКІСТЬ:**         
+20 ящиків, по 4 баки в кожному
 
-**WEIGHT:**  
-400 kg
+**ВАГА:**  
+400 кг

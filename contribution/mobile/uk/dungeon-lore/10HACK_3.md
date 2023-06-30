@@ -1,13 +1,13 @@
->[Part 3 of 3 of 10\HACK series]  
+>[Частина 3 з 3 серії "10 Хацкерят"]
 
-Three little hackers, an elite crackin' crew;
+Трійка міні-хацкерів - елітна серед ламерів,
 
-One got ID'd IRL, and then there were two.
+Один - впізнаний, лишились вони вдвох.
 
-Two little hackers always on the run
+Двійко міні-хацкерят завжди, завжди в мандрах,
 
-One was busted at customs, and then there was one.
+Один був спійманий на митниці, лишивсь тепер один.
 
-One little hacker, working alone;
+Одненький міні-хацкер, тепер працює сам,
 
-He joined a Corporation and then there were none.
+Ввійшов він в Корпорацію та залишось нуль.

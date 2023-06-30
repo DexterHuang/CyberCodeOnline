@@ -1,5 +1,5 @@
->You look down and see a laptop at your feet. You pick it up to examine it. You notice that it is on in some sort of hibernation mode, but it is running.
+> Ви дивитесь під ноги і бачите ноутбук. Ви піднімаєте його, щоб ретельно розглянути. Ви помічаєте, що він перебуває в режимі сну, але все ще працює.
 
->You look it over and notice some stickers on the lid. Among the many freedom, screw the government, and screw copros stickers, you see a D3R39UL473 sticker on it. You know that this is a very notorious hacking gang and don't want any part of whatever this laptop is doing here.
+> Ви оглядаєте його і помічаєте кілька наклейок на кришці. Серед безлічі наклейок з написами про свободу, "нищіть уряд" і "нищіть корпорації" ви бачите наклейку з написом D3R39UL473. Ви знаєте, що це дуже відома хакерська банда, і не хочете бути причетні до того, що тут відбувається з цим ноутбуком.
 
->You put the laptop back *exactly* where you found it and pretend that you never saw it...
+> Ви повертаєте ноутбук *точно* на місце, де ви його знайшли, і притворяєтеся, ніби ніколи не бачили його...
