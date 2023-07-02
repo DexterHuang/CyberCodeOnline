@@ -31,6 +31,14 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 
 ## Updates
+### 2023/07/02
+- Added new `Rare Equipment Crate` similar to the locked legendary container but cannot be used together with RNG interferer, it has a small chance of dropping epic as well.
+- You can get one free `Rare Equipment Crate` in `Arasaka Unit Exchange` every day, currently, the only way to get this item.
+- Added `Tech Scrap Cluster`, so you can compress your tech scraps to save storage
+- Added a new possible `healing multiplier` trait to upgrade modules. this will only drop in rare+ modules
+- Added two new donator frames and emblem
+- Backend rewrites and optimization
+
 ### 2023/06/20
 - Improved bot detection 
 
