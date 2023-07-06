@@ -31,6 +31,9 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 
 ## Updates
+### 2023/07/06
+- Updated chat filtering system, the AI that monitors for inappropriate messages should be less likely to have false positive classification
+
 ### 2023/07/02
 - Added new `Rare Equipment Crate` similar to the locked legendary container but cannot be used together with RNG interferer, it has a small chance of dropping epic as well.
 - You can get one free `Rare Equipment Crate` in `Arasaka Unit Exchange` every day, currently, the only way to get this item.
