@@ -31,6 +31,9 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 
 ## Updates
+### 2023/07/08
+- Deployed patch to address chat server crashes/restarts, this should fix the issue.
+
 ### 2023/07/06
 - Updated chat filtering system, the AI that monitors for inappropriate messages should be less likely to have false positive classification
 
