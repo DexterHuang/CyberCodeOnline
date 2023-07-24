@@ -3,9 +3,9 @@
 
 **Calibrage** permet aux joueurs d'améliorer leurs équipements jusqu'à un certain point, avec dans l'idée la longévité et l'utilité de l'équipement à plus haut niveau. Calibrer un équipement n'augmente pas son niveau, Ça augmente ses statistiques de base jusqu'à un certain tiers de calibrage.
 
-Il est conseillé de commencer à calibrer son équipement vers le niveau 50, car avant l'équipement est dépassé plus rapidement, rendant l'équipement calibré inutile à court terme. Il est aussi conseillé de calibrer des équipements au moins de qualité 'Rare' (jusqu'à Epique) car une qualité plus élevée donne accès à plus de tiers de calibrage.
+Il est conseillé de commencer à **calibrer** son équipement vers le niveau 50, car avant l'équipement est dépassé plus rapidement, rendant l'équipement calibré inutile à court terme. Il est aussi conseillé de calibrer des équipements au moins de qualité 'Rare' (jusqu'à Epique) car une qualité plus élevée donne accès à plus de tiers de calibrage.
 
-Pour faire du calibrage, les joueurs doivent aller à la station de calibrage se trouvant au centre-ville de Shangri-La.
+Pour faire du **calibrage**, les joueurs doivent aller à la station de calibrage se trouvant au centre-ville de Shangri-La.
 
 ## Faire du Calibrage
 ![CalibrationStation2](/resources/mobile-tutorial/CalibrationStation2.png)
@@ -52,20 +52,20 @@ En général, la capacité de l'équippement / le poucentage d'échec de chaque 
 Tout calibrage +6 et plus est *impossible* sans utiliser un **Boost de Calibrage**. Ils réduisent le pourcentage d'échec et s'ajoutent les uns avec les autres.  
 
 En général, les tiers des boosts de calibrage (et où les trouver) sont ainsi:
-- **Calibration AI Shard (Commun)** réduit les chances d'échec de 5%; seulement pour une utilisation personelle; peut être trouvé dans les conteneurs rares vérouillés
-- **Calibration AI Shard (Rare)** réduit les chances d'échec de 10%; effet global; Ne peut être acheté qu'au bureau d'échange d'Arasaka
-- **Calibration AI Shard (Legendaire)** réduit les chances d'échec de 50%; effet global; Ne peut être acheté qu'au bureau d'échange d'Arasaka
-- **Calibration AI Shard (Epique)** réduit les chances d'échec de 100%; effet global; Ne peut être acheté qu'au bureau d'échange d'Arasaka
-- **Calibration AI Shard (Prestige)** réduit les chances d'échec de 300%; effet global; Ne peut être acheté qu'au bureau d'échange d'Arasaka
+- **Fragment de Calibration (Commun)** réduit les chances d'échec de 5%; seulement pour une utilisation personelle; peut être trouvé dans les conteneurs rares vérouillés
+- **Fragment de Calibration (Rare)** réduit les chances d'échec de 10%; effet global; Ne peut être acheté qu'au bureau d'échange d'Arasaka
+- **Fragment de Calibration (Legendaire)** réduit les chances d'échec de 50%; effet global; Ne peut être acheté qu'au bureau d'échange d'Arasaka
+- **Fragment de Calibration (Epique)** réduit les chances d'échec de 100%; effet global; Ne peut être acheté qu'au bureau d'échange d'Arasaka
+- **Fragment de Calibration (Prestige)** réduit les chances d'échec de 300%; effet global; Ne peut être acheté qu'au bureau d'échange d'Arasaka
 
-Les joueurs peuvent aussi réduire l'effet de destruction en activant **Calibration Safety Nano Bots** (qui peut être trouvé and un conteneur mystérieux / acheté au bureau d'échange d'Arasaka) avant de calibrer l'équipement.
+Les joueurs peuvent aussi réduire l'effet de destruction en activant **Nano-Bot de Calibration de sureté** (qui peut être trouvé and un conteneur mystérieux / acheté au bureau d'échange d'Arasaka) avant de calibrer l'équipement.
 
 Gardez à l'esprit que le boost **ne durera que 5 min**. Il est préférable d'être préparé avant de booster.
 
 ## Amélioration de l'équipement
 À chaque Calibrage, l'équipement s'améliore et est bien meilleur que l'équipement non calibré (selon son niveau). Il y a comme amélioration; une santé plus élevée, de meilleurs dégâts, plus d'emplacements d'inventaire, etc.
 
-Pourcentage d'amélioration (à partir du calibrage ; à partir des statistiques de base) comme suit :
+Pourcentage d'amélioration (à partir du calibrage ; à partir des statistiques de base) comme suit :
 | Niveau | Amélioration de l'équipement |
 |--|--|
 | +1 | 5% |
@@ -80,4 +80,4 @@ Pourcentage d'amélioration (à partir du calibrage ; à partir des statistique
 | +10 | 200% |
 
 ##  Echanger / vendre de l'équipement calibré 
-L'équipement calibré n'est plus vendable ou échangeable. Pour le vendre / l'échanger, les joueurs doivent **réinitialiser** L'équipement calibré en utilisant **Factory Reset Shard** (qui peut être trouvé en fouillant ou sur le marché).
+L'équipement calibré n'est plus vendable ou échangeable. Pour le vendre / l'échanger, les joueurs doivent **réinitialiser** L'équipement calibré en utilisant **Eclat de réinitialisation d'usine** (qui peut être trouvé en fouillant ou sur le marché).
