@@ -1,0 +1,7 @@
+Vous avez visité ces salles d'innombrables fois. Peut-être pas ces pièces exactes, mais avec le temps, elles commencent toutes à se ressembler. Vous avez l'impression qu'il n'y a plus de surprises pour vous. Tuez votre adversaire et pillez son corps, en espérant que vous avez stocké suffisamment d'anti-douleur pour ne pas être à la place de l'autre.
+
+Une fois de plus, vous rencontrez une autre silhouette sombre qui semble prendre votre technologie et votre vie. La bataille se déroule comme prévu. Frappez, soignez, frappez, soignez, répétez. Vous êtes sur le point d'exécuter le coup fatal lorsque votre adversaire lève la main comme s'il pouvait bloquer votre boulon avec. "S'il vous plaît, ne le faites pas. Vous ne voyez pas que nous sommes pareils", dit-il.
+
+Votre gâchette est déjà à moitié enfoncée, mais vous voyez ensuite son visage et relâchez lentement. Vous pensiez que ce qu'il disait n'était qu'une métaphore, mais vous vous retrouvez à regarder directement votre propre visage. Vous êtes-vous suicidé encore et encore pendant tout ce temps ? Quel genre de réalité est-ce?
+
+Alors que vous réfléchissez à ces choses, du coin de l'œil, vous voyez votre adversaire lever lentement son arme. Par réflexe, vous pointez et tirez un boulon directement dans le visage qui ressemble au vôtre. Vous récupérez le corps et passez à autre chose, votre instinct de survie l'emportant sur la multitude de questions qui vous traversent l'esprit. Vous avez besoin d'une bonne nuit de sommeil.
