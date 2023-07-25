@@ -43,19 +43,16 @@ Les joueurs peuvent aussi avoir des modificateurs en acceptant les quêtes trouv
  - Surchargé I   (Overcharged I)   - Donne au joueur +5% de dégâts  
  - Surchargé II  (Overcharged II)  - Donne au joueur +10% de dégâts  
  - Surchargé III (Overcharged III) - Donne au joueur +15% de dégâts  
- - Surchargé IV  (Overcharged IV)  - Donne au joueur +20% de dégâts  
- - Surchargé V   (Overcharged V)   - Donne au joueur +25% de dégâts  
+ - Surchargé V  (Overcharged V)  - Donne au joueur +20% de dégâts  
   
   
  - Renforcé I   (Reinforced I)   - Donne au joueur +5% de défense  
  - Renforcé II  (Reinforced II)  - Donne au joueur +10% de défense  
  - Renforcé III (Reinforced III) - Donne au joueur +15% de défense  
- - Renforcé IV  (Reinforced IV)  - Donne au joueur +20% de défense  
- - Renforcé V   (Reinforced V)   - Donne au joueur +25% de défense  
+ - Renforcé V  (Reinforced V)  - Donne au joueur +20% de défense  
   
   
  - Amélioration de bouclier I   (Shield Enhance I)   - Donne au joueur +5% Multiplicateur de bouclier  
  - Amélioration de bouclier II  (Shield Enhance II)  - Donne au joueur +10% Multiplicateur de bouclier  
  - Amélioration de bouclier III (Shield Enhance III) - Donne au joueur +15% Multiplicateur de bouclier  
- - Amélioration de bouclier IV  (Shield Enhance IV)  - Donne au joueur +20% Multiplicateur de bouclier  
- - Amélioration de bouclier V   (Shield Enhance V)   - Donne au joueur +25% Multiplicateur de bouclier 
+ - Amélioration de bouclier V   (Shield Enhance V)   - Donne au joueur +20% Multiplicateur de bouclier 
