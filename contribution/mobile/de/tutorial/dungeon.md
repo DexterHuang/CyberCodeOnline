@@ -1,92 +1,92 @@
 ## Dungeons
 
-## Types of Dungeons
+## Arten der Dungeons
   
 ![DungeonTypes](/resources/mobile-tutorial/DungeonTypes.png)
   
-These are the three types of dungeons that you are able to enter. The [normal] dungeon will include a key fragment in the treasure room and no boss. The [challenge] dungeon is a lot harder but includes more crates for loot and has a boss in the treasure room that gives a lot of EXP.  The [gang] dungeon is the hardest of all and requires that you are in a gang and have a Gang Invasion Order Transmitter.  Enemies are 4-5x stronger than normal dungeons but has greater rewards.
+Dies sind die drei Arten von Dungeons, die ihr betreten könnt. Der [normale] Dungeon enthält ein Schlüsselfragment in der Schatzkammer und keinen Endgegner. Der [Herausforderungs] Dungeon ist viel schwieriger, enthält aber mehr Kisten als Beute und hat einen Endgegner in der Schatzkammer, der eine Menge EXP gibt.  Der [Gang] Dungeon ist der schwerste von allen und erfordert, dass du in einer Gang bist und einen Gang-Invasionsbefehl-Sender hast.  Die Feinde sind 4-5x stärker als in den normalen Dungeons, aber die Belohnungen sind größer.
 
-## Creating / Joining a Dungeon
+## Einen Dungeon erstellen / beitreten
   
-When creating a dungeon, select the dungeon you want to create. You can name it and choose to make it Public or Private. You can also protect the dungeon with a password.
+Wenn du einen Dungeon erstellst, wähle den Dungeon aus, den du erstellen möchtest. Du kannst ihn benennen und wählen, ob er öffentlich oder privat sein soll. Du kannst den Dungeon auch mit einem Passwort schützen.
 
-Public Dungeons are available to everyone to see and join (if they meet the level requirements) by accessing the list of dungeons. 
+Öffentliche Dungeons können von jedem eingesehen und betreten werden (wenn sie die Stufenanforderungen erfüllen), indem man die Liste der Dungeons aufruft. 
 
-Password protected dungeons can be seen by other players but they cannot join unless they know the password. This is useful if you want to clear a dungeon with specific friends. Share the password in Gang chat or through Mail.
+Passwort geschützte Dungeons können von anderen Spielern gesehen werden, aber sie können nur beitreten, wenn sie das Passwort kennen. Dies ist nützlich, wenn ihr einen Dungeon nur mit bestimmten Freunden betreten wollt. Teilen Sie das Passwort im Gruppenchat oder per Nachricht mit.
 
 ![DungeonCoop4](/resources/mobile-tutorial/DungeonCoop4.png)
 ![DungeonCoop3](/resources/mobile-tutorial/DungeonCoop3.png)
 
-If you'd rather join an existing dungeon, you can press the floating menu button at the bottom right, then select the buildings icon to view a list of open dungeons, as shown above in the screenshots.
+Wenn du lieber einem bestehenden Dungeon beitreten möchtest, kannst du auf die schwebende Menüschaltfläche unten rechts drücken und dann das Gebäude-Icon auswählen, um eine Liste der öffentlichen Dungeons zu sehen, wie oben in den Screenshots gezeigt.
 
-At the top right of each dungeon panel, you can find the dungeon level. Each panel includes a list of players and their status in the dungeon. At the bottom, you can see how many enemies are left. You can choose to join a fresher dungeon to gain more EXP or enter empty dungeons to claim loot.
+Oben rechts auf jeder Karte des Dungeons findet ihr die Stufe des Dungeons. Jede Karte enthält eine Liste der Spieler und ihres Status im Dungeon. Unten sehen Sie, wie viele Gegner noch übrig sind. Sie können sich entscheiden, einen neueren Dungeon zu betreten, um mehr EXP zu erhalten, oder leere Dungeons zu betreten, um Beute zu sammeln.
  
 ![DungeonCoop](/resources/mobile-tutorial/DungeonCoop.png)
   
-As shown in the images above, there are several players in the same dungeon. The rules are the same regardless of how many players are in a dungeon; the only difference is that players can help each other out. When using heals, players may use the AOE items (such as Pain Away Spray) to heal both yourself and your co-op partners. You can see everyone's health bars above the player icons. Players may also help dungeonmates by killing the enemy, as the HPs of dungeons enemies are shared by the whole co-op.
+Wie auf den Bildern oben zu sehen ist, befinden sich mehrere Spieler im selben Dungeon. Die Regeln sind dieselben, unabhängig davon, wie viele Spieler sich in einem Dungeon befinden; der einzige Unterschied ist, dass die Spieler sich gegenseitig helfen können. Wenn ihr euch heilt, könnt ihr die AOE-Gegenstände (wie z.B. "Pain Away Spray") verwenden, um euch selbst und eure Co-op-Partner zu heilen. Über den Spielersymbolen könnt ihr die Lebenspunkte aller Spieler sehen. Die Spieler können ihren Mitspielern im Dungeon auch helfen, indem sie den Feind töten, da die Lebenspunkte der Feinde im Dungeon von der gesamten Co-op-Gruppe geteilt werden.
 
-When an enemy is killed with the help from a friend, everyone who dealt 20% or more damage is given EXP and a chance for a reward, as long as their level isn't too high for the mob. All crates and loot are unique to each player, so you don't need to worry about sharing loot or having yours stolen. Grab everything you want and discard the rest!
+Wenn ein Feind mit Hilfe eines Freundes getötet wird, erhält jeder, der 20 % oder mehr Schaden verursacht hat, EXP und die Chance auf eine Belohnung, sofern seine Stufe nicht zu hoch für den Mob ist. Alle Kisten und Beutestücke sind für jeden Spieler einzigartig, du musst dir also keine Sorgen machen, dass deine Beute aufgeteilt oder entwendet wird. Nehmt alles, was ihr wollt, und werft den Rest weg!
 
 ![DungeonCoop2](/resources/mobile-tutorial/DungeonCoop2.png)
 
-In this image, at the bottom under the '[QUIT DUNGEON]' button, you will find a button labeled '[Send invite to global chat]'. This will send an invite to the global chat so others can join easily by clicking on the message. Anyone around your level can join and help you out as long as they are within 10 levels below or 12 levels above your dungeon.
+In der Grafik finden Sie unten unter der Schaltfläche '[DUNGEON VERLASSEN]' eine Schaltfläche mit der Aufschrift '[Einladung in den globalen Chat senden]'. Damit wird eine Einladung in den globalen Chat verschickt, so dass andere einfach durch Anklicken der Nachricht beitreten können. Jeder, der sich in der ungefähr gleichen Spielstufe wie du befindet, kann sich anschließen und dir helfen, solange er sich nicht weiter als 10 Level unter oder 12 Level über deinem Dungeon befindet.
 
-You can also click on messages from other players to join their dungeon.
+Du kannst auch auf die Nachricht eines anderen Spielers klicken, um dessen Dungeon zu betreten.
 
-After a player dies or leaves, they cannot rejoin the dungeon.
+Wenn ein Spieler stirbt oder den Dungeon verlässt, kann er nicht mehr in den Dungeon zurückkehren.
   
-## Entrance and Icons
+## Eingänge und Icons
   
 ![DungeonEntranceUsed](/resources/mobile-tutorial/DungeonEntranceUsed.png)
   
-Here you can see the first room of a dungeon. There are doors which will take you to another room in the dungeon. You can find these doors on all sides of the dungeon rooms.  You cannot enter a new room until you have killed all enemies in the current room.
+Hier siehst du den ersten Raum eines Dungeons. Dort gibt es Türen, die dich in einen anderen Raum des Verlieses bringen werden. Diese Türen befinden sich auf den Seiten sämtlicher Räume des Dungeons. Du kannst einen neuen Raum erst dann betreten, wenn du alle Feinde im aktuellen Raum getötet hast.
 
-This also shows an example of a room that has been completed. Note the greyed out crates, indicating that they have been looted already. The door on the right wall is also greyed out, which means you have already been through it. This is essential to not get lost while exploring the dungeon. 
+Dies ist auch ein Beispiel für einen Raum, der abgeschlossen wurde. Man beachte die ausgegrauten Kisten, die darauf hinweisen, dass sie bereits geplündert worden sind. Die Tür an der rechten Wand ist ebenfalls ausgegraut, was bedeutet, dass du bereits durch sie hindurchgegangen bist. Dies ist wichtig, um sich bei der Erkundung des Dungeons nicht zu verirren.
 
-### Enemies
+### Gegner
   
 ![DungeonEnemies](/resources/mobile-tutorial/DungeonEnemies.png)
   
-There are at most four alien looking icons spread across the room, and these are the enemies you have to defeat before proceeding to the next room or accessing the crates in the room. Click on one of them to fight them.
+Im Raum sind meistens vier seltsam aussehende Symbole vorhanden. Das sind die Feinde, die Sie besiegen müssen, bevor Sie in den nächsten Raum gehen oder auf die Kisten im Raum zugreifen können. Klicken Sie auf einen von ihnen, um sie zu bekämpfen.
   
 ![DungeonFight](/resources/mobile-tutorial/DungeonFight.png)
   
-Rules are slightly different in the dungeons when you fight enemies. You will have a row of 3 buttons above your attack options which you can assign to usable items from your inventory. You should assign medical items to this hotbar since your health doesn't regenerate automatically after each fight.
+Die Regeln für den Kampf gegen Feinde in den Dungeons sind etwas anders. Über deinen Angriffsoptionen hast du eine Reihe von 3 Tasten, die du mit verwendbaren Gegenständen aus deinem Inventar belegen kannst. Du solltest dieser Leiste medizinische Items zuweisen, da sich deine Gesundheit nicht automatisch nach jedem Kampf regeneriert.
 
-You also have an 'Escape' button on the top left. The success rate of you escaping is based on your player 'escape' stat.  
+Außerdem gibt es oben links eine Schaltfläche 'Flucht'. Die Erfolgsquote Ihrer Flucht hängt von Ihrem Spielerwert 'Flucht' ab.  
  
 ### Good Guy (?)
   
 ![DungeonGoodguy](/resources/mobile-tutorial/DungeonGoodguy.png)
   
-Here, you can see the '?' icon, indicating a quest if you choose to accept it. You can find one quest giver per dungeon, and they are usually placed randomly in one of the rooms.
+Hier siehst du das '?'-Symbol, das auf eine Quest hinweist, wenn du sie annehmen möchtest. In jedem Dungeon gibt es einen Questgeber, der in der Regel zufällig in einem der Räume platziert ist.
   
 ![DungeonGoodguy2](/resources/mobile-tutorial/DungeonGoodguy2.png)
   
-Here is an example of the dialogue that pops up after clicking on the '?'. They will ask for items in return for other items or power-ups. It is up to you to decide if the trade is worthwhile; however, if you can afford it, it is usually worth accepting for the extra EXP you gain from completing it. Some of the text on this screen is randomly generated from a file, so you may get odd or funny references, if it makes any sense at all.
+Hier ist ein Beispiel für den Dialog, der nach einem Klick auf das '?' angezeigt wird. Es werden Gegenstände im Austausch gegen andere Gegenstände oder Power-Ups verlangt. Es liegt an dir zu entscheiden, ob sich der Handel lohnt. Wenn du es dir leisten kannst, lohnt es sich in der Regel, ihn anzunehmen, da du dadurch zusätzliche EXP erhältst. Einige der Texte auf diesem Bildschirm werden nach dem Zufallsprinzip aus einer Datei generiert, daher kann es sein, dass Sie merkwürdige oder lustige Hinweise erhalten, wenn sie überhaupt einen Sinn ergeben.
 
 ### Lore (!)
 
 ![DungeonLoreguy](/resources/mobile-tutorial/DungeonLoreguy.png)
 
-There are exclamation marks dotted around dungeons that provide snippets of game lore. These don't have an impact on your game or the dungeon but may be interesting to read.
+Überall in den Dungeons sind Ausrufezeichen angebracht, die Schnipsel aus der Geschichte des Spiels enthalten. Diese haben keinen Einfluss auf euer Spiel oder den Dungeon, können aber interessant zu lesen sein.
 
-### Treasure / Boss Room
+### Schatz-/Bossraum
   
 ![DungeonBossTreasureCoop](/resources/mobile-tutorial/DungeonBossTreasureCoop.png)
   
-This room is special, as you can tell from the increased number of crates. The crate that looks like a window contains a key fragment that can be used for crafting Secret Keys that unlock new areas.
+Dieser Raum ist etwas Besonderes, wie man an der erhöhten Anzahl von Kisten erkennen kann. Die Kiste, die wie ein Fenster aussieht, enthält ein Schlüsselfragment, das zum Herstellen von Geheimschlüsseln verwendet werden kann, die neue Bereiche freischalten.
 
-In this screenshot, you can also see other players helping out. This is especially advised at low levels and when attempting a challenge dungeon, as the boss of challenge dungeons has greatly increased health and power in return for more EXP.
+Auf diesem Screenshot kannst du auch andere Spieler sehen, die dir helfen. Dies ist vor allem bei niedrigen Stufen und beim Versuch, einen Herausforderungsdungeon zu meistern, ratsam, da der Boss von Herausforderungsdungeons im Gegenzug für mehr EXP stark erhöhte Gesundheit und Kraft hat.
 
 ### Minigame
 
-Once in a while, a minigame will show up after defeating an enemy, when trying to loot a box, or when entering another room, to insinuate a variety of dungeon dwellings. At the current state (as of 11-02-2022 / v.0780 Update), there's only 1 minigame that's been implemented to the game, called **Color Scheme Minigame**.
+Ab und zu erscheint ein Minispiel nach dem Besiegen eines Gegners, wenn man versucht, eine Kiste zu plündern, oder wenn man einen anderen Raum betritt, um eine Abwechslung während des Dungeon aufenthaltes zu bieten. Zum jetzigen Zeitpunkt (Stand: 02.11.2022 / v.0780 Update) gibt es nur ein Minispiel, das in das Spiel implementiert wurde, das **Farbschema-Minispiel**.
 
 ![DungeonMinigame1](/resources/mobile-tutorial/DungeonMinigame1.png)
 
-The minigame itself consists of 3 colors (red, green, and yellow; with added symbols as an accessibility add-on) that need to be clicked on in sequence (40 times) in 60 seconds. You can also see the upcoming 2 colors as thinner color strips.
+Das Minispiel selbst besteht aus 3 Farben (rot, grün und gelb; mit zusätzlichen Symbolen als Barrierefreiheitserweiterung), die in 60 Sekunden nacheinander (40 Mal) angeklickt werden müssen. Du kannst auch die nächsten 2 Farben als dünnere Farbstreifen sehen.
 
 ![DungeonMinigameFail1](/resources/mobile-tutorial/DungeonMinigameFail1.png)
 
-Failing a minigame will result in a `DECRYPTION FAILED` screen, stating that a player failed to pick a correct color in sequence. Players are able to redo the minigame by clicking the **Try Again** button.
+Wenn ein Minispiel fehlschlägt, erscheint die Meldung `ENTSCHLÜSSELUNG FEHLGESCHLAGEN`, die besagt, dass es dem Spieler nicht gelungen ist, die richtige Farbe in der richtigen Reihenfolge auszuwählen. Die Spieler können das Minispiel wiederholen, indem sie auf die Schaltfläche **Wiederholen** klicken.
