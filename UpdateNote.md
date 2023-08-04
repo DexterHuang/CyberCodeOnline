@@ -31,6 +31,9 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 
 ## Updates
+### 2023/08/03
+- Fixed issues with real-time functionality such as dungeon player movement and others
+
 ### 2023/07/08
 - Deployed patch that should fix chat server crashes/restarts issue
 
