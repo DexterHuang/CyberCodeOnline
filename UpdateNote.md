@@ -31,6 +31,9 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 
 ## Updates
+### 2023/08/08
+- co-op dungeon player movement should be fixed for now, still might be unstable, please let me know if it happens again. working on long term fixes
+
 ### 2023/08/04
 - dungeon co-op movement is broken again, single-player dungeon should work as expecting,  working on fixing it 🐣
 
