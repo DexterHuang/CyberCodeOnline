@@ -5,10 +5,9 @@
 Artra
 AskAmando
 Ayanna
-B3llial
-BoxinFoxx
 HBUNKNOWN
 Indilil
+[krolik](https://github.com/kroliklapine)
 Nokan
 Lissa
 Tear1
@@ -20,13 +19,15 @@ ZhannaKim26
 ## Retired Moderators
 [alfaice](https://github.com/alfaice)
 AlphaC58
+B3llial
 [CMDR7](https://github.com/cmdr7)
 [Deckeeper](https://github.com/deckeeper)
 Dr_Pig
 EsmeJ
 Fudgee
 HLYGD
-[krolik](https://github.com/kroliklapine)
+BoxinFoxx
+[Mancipi](https://github.com/Mancipi)
 [l33t4ng3l](https://github.com/l33t4ng3l)
 [PotatoMan](https://github.com/PotatoMan145)
 [Tripplehelix](https://github.com/tripplehelix)
@@ -120,7 +121,7 @@ Wanna
 [Fataliste](https://github.com/Nasaelo)
 [Karont20](https://github.com/KarontDev)
 [VanrSky](https://github.com/Paugwvsk)
-[BazzJazz](https://github.com/BassJazz) 
+[BasedBunny](https://github.com/BassJazz) 
 [Syll](https://github.com/iburiedthesun) 
 [blacksurgeon](https://github.com/blacksurgeon) 
 [RedWolf141](https://github.com/RedWolf141)
