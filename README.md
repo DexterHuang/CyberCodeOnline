@@ -14,7 +14,7 @@ For Bugs please join our discord and post bug report in the bug report channel
 
 If there is a serious exploit please **don't** create an issue here, email me directly at [ching.huang.dexter@gmail.com](mailto:ching.huang.dexter@gmail.com).
 
-Requests and suggestions can be left on the [Discord server](https://discord.link/cco).
+Requests and suggestions can be left on the [Discord server](https://discord.gg/kbjjdpWFPb).
 
 If you would like to help to maintain CyberCode Online, please feel free to submit a PR (pull request).
 
