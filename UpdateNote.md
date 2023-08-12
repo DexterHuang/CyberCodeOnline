@@ -31,6 +31,9 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 
 ## Updates
+### 2023/08/12
+- Recycler is reworked; you can now recycle different types of caches at same time, higher tier caches will produce better result
+
 ### 2023/08/08
 - co-op dungeon player movement should be fixed for now, still might be unstable, please let me know if it happens again. working on long term fixes
 
