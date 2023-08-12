@@ -8,6 +8,7 @@ Ayanna
 HBUNKNOWN
 Indilil
 [krolik](https://github.com/kroliklapine)
+FadedPassiflora
 Nokan
 Lissa
 Tear1
