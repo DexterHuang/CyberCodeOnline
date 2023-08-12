@@ -32,7 +32,7 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 ### 2023/08/12
-- Recycler is reworked; you can now recycle different types of caches at the same time, higher tier caches will produce better results.
+- Recycler is reworked; you can now recycle different types of caches at the same time, higher tier caches will produce better results. the main point of this update is to allow multiple types of items, useful when you have a small quantity of different types of things to recycle
 - ![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/48345a4e-9959-41b7-99dc-aac69b759c3c)
 
 
