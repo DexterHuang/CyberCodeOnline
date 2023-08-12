@@ -11,12 +11,14 @@ Indilil
 FadedPassiflora
 Nokan
 Lissa
+Slwny
 Tear1
 Unca_Feddit
 Wooffle
 YANDEREsenpaiXD
 YIRUO
 ZhannaKim26
+
 ## Retired Moderators
 [alfaice](https://github.com/alfaice)
 AlphaC58
