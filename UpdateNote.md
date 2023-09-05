@@ -31,10 +31,25 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 
 ## Updates
+### 2023/09/05
+- Fixed issue with B3llial not showing up automatically correctly. now you can redeem stuff from him in the alleyway 
+- Now Print & Sell allows the process of multiple types of cache, similar to how Recycler works now. this should benefit players who have small quantities but various types of cache to print & sell
+
+  ![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/fe6b9f80-ef1a-48a2-9a61-9002338fe5f5)
+
+- Added gang notice functionality, as leader or member with permission given by leader can send gang notice to all members with cost of BTC
+  You can click the megaphone icon to send a notice, only members with permission will be able to see this icon. the effect is shown below.
+  the notice will disappear in 1 day, and be aware that this will send a notification to gang members, however, there is a 7-hour cooldown on phone notification (to prevent people from spamming it to disturb other players), but you can update the notice as much as you want.
+  
+  ![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/e8057466-f849-4ef3-bb60-04039a60336f)
+- Updated code for gang details page, now it would be updated more frequently (without requiring you to restart the whole game, might need to test for stability)
+- Added new frame
+- a bunch of optimization and clean-up on the server end.
+
+
 ### 2023/08/12
 - Recycler is reworked; you can now recycle different types of caches at the same time, higher tier caches will produce better results. the main point of this update is to allow multiple types of items, useful when you have a small quantity of different types of things to recycle
 - ![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/48345a4e-9959-41b7-99dc-aac69b759c3c)
-
 
 ### 2023/08/08
 - co-op dungeon player movement should be fixed for now, still might be unstable, please let me know if it happens again. working on long term fixes
