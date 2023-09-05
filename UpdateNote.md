@@ -43,6 +43,11 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
   
   ![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/e8057466-f849-4ef3-bb60-04039a60336f)
 - Updated code for gang details page, now it would be updated more frequently (without requiring you to restart the whole game, might need to test for stability)
+- Added a new Party Buff, for people who want to deploy 24-hour full buffs (AFK, EXP, BTC), when this buff is active, SL-Data Breach or included buffs cannot be deployed. this is an alternative to doing buff after buff manually for a long period of time.
+ 
+![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/9375c0d2-54ed-49b0-9817-9beb5617a84e)
+![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/3fd5445f-66da-4a02-a39d-0930f78518ea)
+
 - Added new frame
 - a bunch of optimization and clean-up on the server end.
 
