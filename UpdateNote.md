@@ -31,6 +31,8 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 
 ## Updates
+### 2023/09/17
+- Notification not working on Android is fixed, **please update the game from Playstore**
 ### 2023/09/14
 - Minor UI fixes
 
