@@ -31,6 +31,9 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 
 ## Updates
+### 2023/09/14
+- Minor UI fixes
+
 ### 2023/09/05
 - Fixed issue with B3llial not showing up automatically correctly. now you can redeem stuff from him in the alleyway 
 - Now Print & Sell allows the process of multiple types of cache, similar to how Recycler works now. this should benefit players who have small quantities but various types of cache to print & sell
