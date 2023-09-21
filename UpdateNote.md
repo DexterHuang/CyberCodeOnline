@@ -32,8 +32,49 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 ### 2023/09/22
+### Spooky Character Design competition announcement!
+Please see discord announcement for more details :)
+```
+Hello everyone! I am announcing the Spooky Character Design competition!
+
+### rewards:
+- **1st**: 1 epic DW cache + 1 employ case 
+- **2nd**: 1 epic DW cache + 10 dora 
+- **3rd**: 1 epic DW cache + 5 dora 
+- **4th**: 1 epic DW cache + 5 dora 
+- **5th**: 1 epic DW cache + 5 dora 
+- **meme lord award**: free chocolate ice-cream emoji emblem and a congrats from your choosen mod 😉
+
+### Topic
+Halloween character! must be:
+- Cyberpunk (duh)
+- has a character
+- Halloween/spooky themed
+
+### Date
+You can start submitting your art now! and the end date is the end of Oct 31st! I suggest you submit early to get more votes!
+
+### What medium can I use?
+You can use anything you like! draw with your hand, digital art, or even AI Image generation like Midjourney or Stable Diffusion! 
+
+### How to join?
+To enter the competition, simply post your art on the #character-design-challenge channel, the name of your character and background story if you like
+
+### Rules
+- SFW images only, if you post too revealing stuff we might need to remove it.
+- No gore/racist/sexist or other obviously not okay stuff.
+
+### How do we get the winners?
+for people who do not join the competition or people who do, you can go the the channel to vote by clicking on "⬆️" on your favorite art (you can vote for multiple arts), and react with the 😂 emoji for the funny reward. 
+I (Dexter) and the mod team will try to take into account your voting to decide the winners :D  (we will use only votes since people enter the competition at a different time so later enterer might receive fewer votes simply because it has fewer time to get votes)
+
+### FAQ
+#### Are you gonna use this in the game? 
+No, its just for competition :D unless its really amazing I would contact you separately haha
+```
+
 - Backend code refactor and rewrite
-- Updated filter list `queer` removed from the filter list, other game names to filter list,
+- Updated filter list `queer` removed from the filter list, other game names to filter list
 ### Small notice:
 I understand there are some rumors spreading revolving around "CCO2" or even "CCO closing down" due to some nonsensical reasons, I would like to take this opportunity to refute those rumors to avoid further misinformation:
   - **Is CCO2 coming soon?** No, there is no plan for CCO2 yet, it is also not WIP, I might make CCO2 in the future, but not yet, if I do I will ensure to keep the core of what makes CCO CCO and making it better, including chat focus, no-p2w, global buff, and others
