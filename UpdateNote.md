@@ -31,7 +31,7 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 
 ## Updates
-### 2023/09/17
+### 2023/09/22
 - Backend code refactor and rewrite
 - Updated filter list `queer` removed from the filter list, added "arc****t" and "cco2" to filter list, as I noticed there are rumors spreading for CCO closing down due some nonsensical reasons, I would like to take this opportunity to refute those rumors to avoid further misinformation:
   - **Is CCO2 coming soon?** No, there is no plan for CCO2 yet, it is also not WIP, there might be in the future that I might make CCO2 (ensuring keeping the core of what makes CCO CCO and making it better, including chat focus, no-p2w, global buff, and others.)
