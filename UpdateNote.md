@@ -33,7 +33,8 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ## Updates
 ### 2023/09/22
 ### Spooky Character Design competition announcement!
-Please see discord announcement for more details :)
+Please see the discord announcement for more details :)
+Please note that the Halloween update is still WIP, this is just competition event
 ```
 Hello everyone! I am announcing the Spooky Character Design competition!
 
