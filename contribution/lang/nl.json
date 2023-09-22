@@ -22,10 +22,23 @@
  	 	}
  	},
  	"ui": {
- 	 	"blackMarket": {
- 	 	 	"selectItemButton": {
- 	 	 	 	"trans": "Afdrukken en verkopen",
- 	 	 	 	"eng": "Print And Sell"
+ 	 	"bulkCraft": {
+ 	 	 	"amountSelect": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Selecteer bedrag",
+ 	 	 	 	 	"eng": "Select Amount"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"duration": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"duration"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Deze taak duurt ${duration}",
+ 	 	 	 	"eng": "This task will take ${duration}"
+ 	 	 	},
+ 	 	 	"durationTooLong": {
+ 	 	 	 	"trans": "Te veel geselecteerde items",
+ 	 	 	 	"eng": "Too many items selected"
  	 	 	}
  	 	},
  	 	"clan": {
@@ -397,6 +410,16 @@
  	 	 	}
  	 	},
  	 	"clanPage": {
+ 	 	 	"notice": {
+ 	 	 	 	"time": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"playerName",
+ 	 	 	 	 	 	"time"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Geplaatst door ${playerName} ${time} geleden",
+ 	 	 	 	 	"eng": "Posted by ${playerName} ${time} ago"
+ 	 	 	 	}
+ 	 	 	},
  	 	 	"createClan": {
  	 	 	 	"title": {
  	 	 	 	 	"trans": "U bent geen lid van een bende",
@@ -1338,55 +1361,6 @@
  	 	 	 	"eng": "You have not unlocked this area yet"
  	 	 	}
  	 	},
- 	 	"machineCrafting": {
- 	 	 	"titleBox": {
- 	 	 	 	"tile": {
- 	 	 	 	 	"trans": "systeem in het systeem",
- 	 	 	 	 	"eng": "system idle"
- 	 	 	 	},
- 	 	 	 	"subtitle": {
- 	 	 	 	 	"trans": "Voer een item in",
- 	 	 	 	 	"eng": "Please insert an item"
- 	 	 	 	}
- 	 	 	},
- 	 	 	"selectItemButton": {
- 	 	 	 	"trans": "Recyclen item",
- 	 	 	 	"eng": "Recycle Item"
- 	 	 	},
- 	 	 	"selectAmount": {
- 	 	 	 	"title": {
- 	 	 	 	 	"trans": "Selecteer bedrag",
- 	 	 	 	 	"eng": "Please select amount"
- 	 	 	 	},
- 	 	 	 	"subtitle": {
- 	 	 	 	 	"vars": [
- 	 	 	 	 	 	"timeStr"
- 	 	 	 	 	],
- 	 	 	 	 	"trans": "Dit kost ${timeStr}",
- 	 	 	 	 	"eng": "This will take ${timeStr}"
- 	 	 	 	}
- 	 	 	},
- 	 	 	"confirmModal": {
- 	 	 	 	"title": {
- 	 	 	 	 	"vars": [
- 	 	 	 	 	 	"itemName"
- 	 	 	 	 	],
- 	 	 	 	 	"trans": "Selecteer ${itemName}?",
- 	 	 	 	 	"eng": "Select ${itemName}?"
- 	 	 	 	},
- 	 	 	 	"subtitle": {
- 	 	 	 	 	"vars": [
- 	 	 	 	 	 	"itemName"
- 	 	 	 	 	],
- 	 	 	 	 	"trans": "Weet u zeker dat u ${itemName} wilt selecteren?",
- 	 	 	 	 	"eng": "Are you sure you want to select ${itemName}?"
- 	 	 	 	},
- 	 	 	 	"confirmText": {
- 	 	 	 	 	"trans": "Ik weet het zeker",
- 	 	 	 	 	"eng": "I am sure"
- 	 	 	 	}
- 	 	 	}
- 	 	},
  	 	"setting": {
  	 	 	"langWarning": {
  	 	 	 	"trans": "Dit taal pakket is open source en mede mogelijk gemaakt door onze spelers. De tekst kan mogelijk niet volledig vertaald zijn en kan fouten bevatten. Voel je vrij om het te bewerken en mee te werken vanaf onze Github pagina",
@@ -1571,6 +1545,41 @@
  	 	 	"itemLocked": {
  	 	 	 	"trans": "Dit item is vergrendeld",
  	 	 	 	"eng": "This item is locked"
+ 	 	 	}
+ 	 	},
+ 	 	"machineCrafting": {
+ 	 	 	"selectAmount": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Selecteer bedrag",
+ 	 	 	 	 	"eng": "Please select amount"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"timeStr"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Dit kost ${timeStr}",
+ 	 	 	 	 	"eng": "This will take ${timeStr}"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"confirmModal": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Selecteer ${itemName}?",
+ 	 	 	 	 	"eng": "Select ${itemName}?"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Weet u zeker dat u ${itemName} wilt selecteren?",
+ 	 	 	 	 	"eng": "Are you sure you want to select ${itemName}?"
+ 	 	 	 	},
+ 	 	 	 	"confirmText": {
+ 	 	 	 	 	"trans": "Ik weet het zeker",
+ 	 	 	 	 	"eng": "I am sure"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"calibration": {
@@ -2702,6 +2711,23 @@
  	 	 	"eng": "Techno-Thief"
  	 	}
  	},
+ 	"globalPartyBanner": {
+ 	 	"title": {
+ 	 	 	"trans": "🎉 Global Party 🎉",
+ 	 	 	"eng": "🎉 Global Party 🎉"
+ 	 	},
+ 	 	"subtitle": {
+ 	 	 	"trans": "Gepresenteerd door:",
+ 	 	 	"eng": "Hosted by:"
+ 	 	},
+ 	 	"button,": {
+ 	 	 	"vars": [
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Geef Street Cred",
+ 	 	 	"eng": "Give street cred"
+ 	 	}
+ 	},
  	"cost": {
  	 	"requireGang": {
  	 	 	"trans": "Vereist om in een bende te zijn",
@@ -3255,14 +3281,14 @@
  	 	"resultScreen": {
  	 	 	"title": {
  	 	 	 	"trans": "Niveau omhoog",
- 	 	 	 	"eng": "Victory"
+ 	 	 	 	"eng": "Level up"
  	 	 	},
  	 	 	"subTitle": {
  	 	 	 	"vars": [
  	 	 	 	 	"levelName"
  	 	 	 	],
  	 	 	 	"trans": "Felicitatie, je hebt je ${levelName} geëist!",
- 	 	 	 	"eng": "Congratulation, you have leveled up your ${levelName}!"
+ 	 	 	 	"eng": "Congratulations, you have leveled up your ${levelName}!"
  	 	 	},
  	 	 	"fromTo": {
  	 	 	 	"vars": [
@@ -3271,6 +3297,10 @@
  	 	 	 	],
  	 	 	 	"trans": "${from} => ${to}",
  	 	 	 	"eng": "${from} => ${to}"
+ 	 	 	},
+ 	 	 	"title2": {
+ 	 	 	 	"trans": "Ontvangen",
+ 	 	 	 	"eng": "Received"
  	 	 	}
  	 	},
  	 	"review": {
@@ -3344,6 +3374,15 @@
  	 	 	 	 	"eng": "Reload"
  	 	 	 	}
  	 	 	}
+ 	 	}
+ 	},
+ 	"playerStatusDisplay": {
+ 	 	"title": {
+ 	 	 	"vars": [
+ 	 	 	 	"action"
+ 	 	 	],
+ 	 	 	"trans": "${action} in uitvoering",
+ 	 	 	"eng": "${action} in progress"
  	 	}
  	},
  	"time": {
@@ -4178,6 +4217,28 @@
  	 	 	"eng": "total"
  	 	}
  	},
+ 	"bulkCraftingSubtype": {
+ 	 	"recycle": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Recyclen",
+ 	 	 	 	"eng": "Recycle"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Voeg items toe om ze efficiënter te recyclen",
+ 	 	 	 	"eng": "Add items to recycle them more efficiently"
+ 	 	 	}
+ 	 	},
+ 	 	"printSell": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Afdrukken en verkopen",
+ 	 	 	 	"eng": "Print & Sell"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Print items en verkoop ze voor geld",
+ 	 	 	 	"eng": "Print items and sell them for money"
+ 	 	 	}
+ 	 	}
+ 	},
  	"donationType": {
  	 	"donation1": {
  	 	 	"trans": "Lid",
@@ -4260,6 +4321,10 @@
  	 	 	"eng": "Prestige"
  	 	},
  	 	"donation21": {
+ 	 	 	"trans": "Prestige",
+ 	 	 	"eng": "Prestige"
+ 	 	},
+ 	 	"donation22": {
  	 	 	"trans": "Prestige",
  	 	 	"eng": "Prestige"
  	 	},
@@ -5062,6 +5127,46 @@
  	 	 	 	"4": {
  	 	 	 	 	"trans": "Rood profiel (met animatie)",
  	 	 	 	 	"eng": "Red Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "Ontgrendel aangepaste bio",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Barcode -decoratie op profiel",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "Pas de bende motto aan",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Pas de bende -afbeelding aan",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Meer komen in toekomstige update",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation22": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "\"Prestige\" donatietitel",
+ 	 	 	 	 	"eng": "\"Prestige\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "Ontgrendel profielfoto -aanpassing",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Neon tekenframe (met animatie)",
+ 	 	 	 	 	"eng": "Neon Sign frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Paars profiel (met animatie)",
+ 	 	 	 	 	"eng": "Purple Profile (with animation)"
  	 	 	 	},
  	 	 	 	"5": {
  	 	 	 	 	"trans": "Ontgrendel aangepaste bio",
@@ -6042,6 +6147,30 @@
  	 	 	 	"eng": "A crate that contains a random equipments or other loots"
  	 	 	}
  	 	},
+ 	 	"globalPartyBuff": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Global Party Deployer",
+ 	 	 	 	"eng": "Global Party Deployer"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"afkPercent",
+ 	 	 	 	 	"btcPercent",
+ 	 	 	 	 	"expPercent"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Wanneer geïmplementeerd, verkort de AFK -tijd met ${afkPercent}%, verhoogde BTC gewonnen met ${btcPercent}%, verhoogde de exp die is gewonnen door ${expPercent}%\\ nand Een banner wordt weergegeven in het chatscherm met uw naam die aangeeft dat u hebt geïmplementeerd. de buff",
+ 	 	 	 	"eng": "When deployed, reduce AFK time by ${afkPercent}%, increased BTC gained by ${btcPercent}%, increase EXP gained by ${expPercent}%\\nAnd a banner will be shown in chat screen with your name indicating that you have deployed the buff"
+ 	 	 	},
+ 	 	 	"announcement": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"afkPercent",
+ 	 	 	 	 	"btcPercent",
+ 	 	 	 	 	"expPercent"
+ 	 	 	 	],
+ 	 	 	 	"trans": "🎉its Party Time! 🥳, Verminder de AFK -tijd met ${afkPercent}%, verhoogde BTC gewonnen met ${btcPercent}%, verhoogde exp gewonnen met ${expPercent}%",
+ 	 	 	 	"eng": "🎉Its Party Time!🥳, reduce AFK time by ${afkPercent}%, increased BTC gained by ${btcPercent}%, increase EXP gained by ${expPercent}%"
+ 	 	 	}
+ 	 	},
  	 	"experienceShard": {
  	 	 	"name": {
  	 	 	 	"vars": [
@@ -6727,6 +6856,12 @@
  	 	 	 	"eng": "Trade"
  	 	 	}
  	 	},
+ 	 	"bulkCrafting": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Bulk knutselen",
+ 	 	 	 	"eng": "Bulk Crafting"
+ 	 	 	}
+ 	 	},
  	 	"autoFarm": {
  	 	 	"name": {
  	 	 	 	"trans": "Zet farmrobot in",
@@ -7144,6 +7279,10 @@
  	 	"aiConnect": {
  	 	 	"trans": "Cyberspace -verbinding",
  	 	 	"eng": "Cyberspace Connection"
+ 	 	},
+ 	 	"globalParty": {
+ 	 	 	"trans": "Wereldwijde partij",
+ 	 	 	"eng": "Global Party"
  	 	}
  	},
  	"combat": {
@@ -7572,6 +7711,33 @@
  	 	 	"eng": "Syncing with server.."
  	 	}
  	},
+ 	"sendStreetCred": {
+ 	 	"title": {
+ 	 	 	"trans": "Stuur Street Cred",
+ 	 	 	"eng": "Send street cred"
+ 	 	},
+ 	 	"description": {
+ 	 	 	"vars": [
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Weet u zeker dat u Street Cred naar ${playerName} wilt sturen? Je kunt elke dag een straat cred aan iedereen sturen.",
+ 	 	 	"eng": "Are you sure you want to send street cred to ${playerName}? you can send one street cred to anyone everyday."
+ 	 	}
+ 	},
+ 	"sendStreetCredError": {
+ 	 	"title": {
+ 	 	 	"trans": "Kan Street Cred nu niet verzenden",
+ 	 	 	"eng": "Can't send street cred now"
+ 	 	},
+ 	 	"description2": {
+ 	 	 	"trans": "U kunt maar één straatcredo per dag verzenden. en je moet niveau 10 of hoger zijn.",
+ 	 	 	"eng": "You can only send one street cred per day. and you must be level 10 or above."
+ 	 	},
+ 	 	"confirmText": {
+ 	 	 	"trans": "OK",
+ 	 	 	"eng": "OK"
+ 	 	}
+ 	},
  	"secretKey": {
  	 	"name": {
  	 	 	"vars": [
@@ -7761,6 +7927,16 @@
  	 	 	}
  	 	}
  	},
+ 	"clanNoticeModal": {
+ 	 	"title": {
+ 	 	 	"trans": "Voer een nieuwe kennisgeving in",
+ 	 	 	"eng": "enter new notice"
+ 	 	},
+ 	 	"submit": {
+ 	 	 	"trans": "versturen",
+ 	 	 	"eng": "send"
+ 	 	}
+ 	},
  	"createClanModal": {
  	 	"gangNameInput": {
  	 	 	"title": {
@@ -7825,6 +8001,20 @@
  	 	"accept": {
  	 	 	"trans": "Aanvaarden",
  	 	 	"eng": "Accept"
+ 	 	}
+ 	},
+ 	"artPromo": {
+ 	 	"title": {
+ 	 	 	"trans": "Spooky Character Art Competition!",
+ 	 	 	"eng": "Spooky Character Art Competition!"
+ 	 	},
+ 	 	"desc1": {
+ 	 	 	"trans": "We geven epische caches, Explorer -rugzak, medewerkerskoffer en emblemen uit aan de top 5 winnaars!",
+ 	 	 	"eng": "We are giving out Epic Caches, Explorer Backpack, Employee Suitcase and Emblems to the top 5 winners!"
+ 	 	},
+ 	 	"desc2": {
+ 	 	 	"trans": "Bekijk het #Event -kanaal op Discord voor meer informatie!",
+ 	 	 	"eng": "Check out the #event channel on Discord for more details!"
  	 	}
  	},
  	"christmasPromo": {
@@ -8062,9 +8252,24 @@
  	 	 	 	 	"trans": "Sta deze speler toe om toestemming van andere spelers te beheren",
  	 	 	 	 	"eng": "Allow this player to manage permission of other players"
  	 	 	 	}
+ 	 	 	},
+ 	 	 	"send_notice": {
+ 	 	 	 	"trans": "Stuur een kennisgeving",
+ 	 	 	 	"eng": "Send Notice",
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Sta deze speler toe om alle bendeleden te sturen",
+ 	 	 	 	 	"eng": "Allow this player to send notice to all gang members"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"error": {
+ 	 	 	"insufficientBitcoin": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"amount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Je hebt onvoldoende bitcoin, vereist: ${amount}",
+ 	 	 	 	"eng": "You have insufficient Bitcoin, required: ${amount}"
+ 	 	 	},
  	 	 	"inviteCooldown": {
  	 	 	 	"trans": "Je hebt deze speler onlangs al uitgenodigd",
  	 	 	 	"eng": "You have already invited this player recently"
@@ -8356,6 +8561,12 @@
  	 	"cannotSend": {
  	 	 	"trans": "Deze speler kan nu geen cadeau ontvangen",
  	 	 	"eng": "This player cannot receive gift now"
+ 	 	}
+ 	},
+ 	"error": {
+ 	 	"cannotUseItemInStatus": {
+ 	 	 	"trans": "U kunt dit item niet gebruiken omdat er een statuseffect is dat ermee in strijd is",
+ 	 	 	"eng": "You cannot use this item because there is a status effect that conflicts with it"
  	 	}
  	},
  	"player": {

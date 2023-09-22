@@ -22,10 +22,23 @@
  	 	}
  	},
  	"ui": {
- 	 	"blackMarket": {
- 	 	 	"selectItemButton": {
- 	 	 	 	"trans": "Vytlačiť a predať",
- 	 	 	 	"eng": "Print And Sell"
+ 	 	"bulkCraft": {
+ 	 	 	"amountSelect": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Vyberte sumu",
+ 	 	 	 	 	"eng": "Select Amount"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"duration": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"duration"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Táto úloha bude trvať ${duration}",
+ 	 	 	 	"eng": "This task will take ${duration}"
+ 	 	 	},
+ 	 	 	"durationTooLong": {
+ 	 	 	 	"trans": "Vybrané príliš veľa položiek",
+ 	 	 	 	"eng": "Too many items selected"
  	 	 	}
  	 	},
  	 	"clan": {
@@ -397,6 +410,16 @@
  	 	 	}
  	 	},
  	 	"clanPage": {
+ 	 	 	"notice": {
+ 	 	 	 	"time": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"playerName",
+ 	 	 	 	 	 	"time"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Zaslal ${playerName} ${time} pred",
+ 	 	 	 	 	"eng": "Posted by ${playerName} ${time} ago"
+ 	 	 	 	}
+ 	 	 	},
  	 	 	"createClan": {
  	 	 	 	"title": {
  	 	 	 	 	"trans": "Nie ste členom žiadneho gangu",
@@ -1338,55 +1361,6 @@
  	 	 	 	"eng": "You have not unlocked this area yet"
  	 	 	}
  	 	},
- 	 	"machineCrafting": {
- 	 	 	"titleBox": {
- 	 	 	 	"tile": {
- 	 	 	 	 	"trans": "nečinný systém",
- 	 	 	 	 	"eng": "system idle"
- 	 	 	 	},
- 	 	 	 	"subtitle": {
- 	 	 	 	 	"trans": "Vložte položku",
- 	 	 	 	 	"eng": "Please insert an item"
- 	 	 	 	}
- 	 	 	},
- 	 	 	"selectItemButton": {
- 	 	 	 	"trans": "Recyklovať položku",
- 	 	 	 	"eng": "Recycle Item"
- 	 	 	},
- 	 	 	"selectAmount": {
- 	 	 	 	"title": {
- 	 	 	 	 	"trans": "Vyberte prosím sumu",
- 	 	 	 	 	"eng": "Please select amount"
- 	 	 	 	},
- 	 	 	 	"subtitle": {
- 	 	 	 	 	"vars": [
- 	 	 	 	 	 	"timeStr"
- 	 	 	 	 	],
- 	 	 	 	 	"trans": "Bude to trvať ${timeStr}",
- 	 	 	 	 	"eng": "This will take ${timeStr}"
- 	 	 	 	}
- 	 	 	},
- 	 	 	"confirmModal": {
- 	 	 	 	"title": {
- 	 	 	 	 	"vars": [
- 	 	 	 	 	 	"itemName"
- 	 	 	 	 	],
- 	 	 	 	 	"trans": "Vyberte ${itemName}?",
- 	 	 	 	 	"eng": "Select ${itemName}?"
- 	 	 	 	},
- 	 	 	 	"subtitle": {
- 	 	 	 	 	"vars": [
- 	 	 	 	 	 	"itemName"
- 	 	 	 	 	],
- 	 	 	 	 	"trans": "Ste si istí, že chcete vybrať ${itemName}?",
- 	 	 	 	 	"eng": "Are you sure you want to select ${itemName}?"
- 	 	 	 	},
- 	 	 	 	"confirmText": {
- 	 	 	 	 	"trans": "som si istý",
- 	 	 	 	 	"eng": "I am sure"
- 	 	 	 	}
- 	 	 	}
- 	 	},
  	 	"setting": {
  	 	 	"langWarning": {
  	 	 	 	"trans": "Tento jazykový balíček je open source a prispela k nemu komunita. Text nemusí byť úplne preložený a môže obsahovať chyby. Neváhajte upravovať a prispievať z našej stránky Githubu",
@@ -1571,6 +1545,41 @@
  	 	 	"itemLocked": {
  	 	 	 	"trans": "Táto položka je zamknutá",
  	 	 	 	"eng": "This item is locked"
+ 	 	 	}
+ 	 	},
+ 	 	"machineCrafting": {
+ 	 	 	"selectAmount": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Vyberte prosím sumu",
+ 	 	 	 	 	"eng": "Please select amount"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"timeStr"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Bude to trvať ${timeStr}",
+ 	 	 	 	 	"eng": "This will take ${timeStr}"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"confirmModal": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Vyberte ${itemName}?",
+ 	 	 	 	 	"eng": "Select ${itemName}?"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Ste si istí, že chcete vybrať ${itemName}?",
+ 	 	 	 	 	"eng": "Are you sure you want to select ${itemName}?"
+ 	 	 	 	},
+ 	 	 	 	"confirmText": {
+ 	 	 	 	 	"trans": "som si istý",
+ 	 	 	 	 	"eng": "I am sure"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"calibration": {
@@ -2702,6 +2711,23 @@
  	 	 	"eng": "Techno-Thief"
  	 	}
  	},
+ 	"globalPartyBanner": {
+ 	 	"title": {
+ 	 	 	"trans": "🎉 Globálna strana 🎉",
+ 	 	 	"eng": "🎉 Global Party 🎉"
+ 	 	},
+ 	 	"subtitle": {
+ 	 	 	"trans": "Moderovaná:",
+ 	 	 	"eng": "Hosted by:"
+ 	 	},
+ 	 	"button,": {
+ 	 	 	"vars": [
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Dajte pouličný kredit",
+ 	 	 	"eng": "Give street cred"
+ 	 	}
+ 	},
  	"cost": {
  	 	"requireGang": {
  	 	 	"trans": "Vyžaduje, aby ste boli v gangu",
@@ -3255,14 +3281,14 @@
  	 	"resultScreen": {
  	 	 	"title": {
  	 	 	 	"trans": "Zvýšiť úroveň",
- 	 	 	 	"eng": "Victory"
+ 	 	 	 	"eng": "Level up"
  	 	 	},
  	 	 	"subTitle": {
  	 	 	 	"vars": [
  	 	 	 	 	"levelName"
  	 	 	 	],
  	 	 	 	"trans": "Gratulujem! získal si vižší level ${levelName}!",
- 	 	 	 	"eng": "Congratulation, you have leveled up your ${levelName}!"
+ 	 	 	 	"eng": "Congratulations, you have leveled up your ${levelName}!"
  	 	 	},
  	 	 	"fromTo": {
  	 	 	 	"vars": [
@@ -3271,6 +3297,10 @@
  	 	 	 	],
  	 	 	 	"trans": "${from} => ${to}",
  	 	 	 	"eng": "${from} => ${to}"
+ 	 	 	},
+ 	 	 	"title2": {
+ 	 	 	 	"trans": "Prijatý",
+ 	 	 	 	"eng": "Received"
  	 	 	}
  	 	},
  	 	"review": {
@@ -3344,6 +3374,15 @@
  	 	 	 	 	"eng": "Reload"
  	 	 	 	}
  	 	 	}
+ 	 	}
+ 	},
+ 	"playerStatusDisplay": {
+ 	 	"title": {
+ 	 	 	"vars": [
+ 	 	 	 	"action"
+ 	 	 	],
+ 	 	 	"trans": "${action} prebieha",
+ 	 	 	"eng": "${action} in progress"
  	 	}
  	},
  	"time": {
@@ -4178,6 +4217,28 @@
  	 	 	"eng": "total"
  	 	}
  	},
+ 	"bulkCraftingSubtype": {
+ 	 	"recycle": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Recyklovať",
+ 	 	 	 	"eng": "Recycle"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Pridajte položky na ich recykláciu efektívnejšie",
+ 	 	 	 	"eng": "Add items to recycle them more efficiently"
+ 	 	 	}
+ 	 	},
+ 	 	"printSell": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Tlačiť a predávať",
+ 	 	 	 	"eng": "Print & Sell"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Vytlačte položky a predajte ich za peniaze",
+ 	 	 	 	"eng": "Print items and sell them for money"
+ 	 	 	}
+ 	 	}
+ 	},
  	"donationType": {
  	 	"donation1": {
  	 	 	"trans": "Člen",
@@ -4260,6 +4321,10 @@
  	 	 	"eng": "Prestige"
  	 	},
  	 	"donation21": {
+ 	 	 	"trans": "Prestíž",
+ 	 	 	"eng": "Prestige"
+ 	 	},
+ 	 	"donation22": {
  	 	 	"trans": "Prestíž",
  	 	 	"eng": "Prestige"
  	 	},
@@ -5062,6 +5127,46 @@
  	 	 	 	"4": {
  	 	 	 	 	"trans": "Červený profil (s animáciou)",
  	 	 	 	 	"eng": "Red Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "Odomknite vlastné životopis",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Dekorácia čiarových kódov na profile",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "Prispôsobte motto gangov",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Prispôsobte obrázok gangov",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Viac prichádza v budúcnosti aktualizácie",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation22": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "„Prestige“ Darčekový titul",
+ 	 	 	 	 	"eng": "\"Prestige\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "Odomknúť prispôsobenie profilu",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "NEON Sign Frame (s animáciou)",
+ 	 	 	 	 	"eng": "Neon Sign frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Fialový profil (s animáciou)",
+ 	 	 	 	 	"eng": "Purple Profile (with animation)"
  	 	 	 	},
  	 	 	 	"5": {
  	 	 	 	 	"trans": "Odomknite vlastné životopis",
@@ -6042,6 +6147,30 @@
  	 	 	 	"eng": "A crate that contains a random equipments or other loots"
  	 	 	}
  	 	},
+ 	 	"globalPartyBuff": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Globálny večierok",
+ 	 	 	 	"eng": "Global Party Deployer"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"afkPercent",
+ 	 	 	 	 	"btcPercent",
+ 	 	 	 	 	"expPercent"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Po nasadení znížte čas AFK o ${afkPercent}%, zvýšené BTC získané o ${btcPercent}%, zvýšenie EXP získané o ${expPercent}%\\ nand Banner sa zobrazí na obrazovke chatu s vaším menom, čo znamená, že ste nasadili buff",
+ 	 	 	 	"eng": "When deployed, reduce AFK time by ${afkPercent}%, increased BTC gained by ${btcPercent}%, increase EXP gained by ${expPercent}%\\nAnd a banner will be shown in chat screen with your name indicating that you have deployed the buff"
+ 	 	 	},
+ 	 	 	"announcement": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"afkPercent",
+ 	 	 	 	 	"btcPercent",
+ 	 	 	 	 	"expPercent"
+ 	 	 	 	],
+ 	 	 	 	"trans": "🎉its Party Time! 🥳, Znížte čas AFK o ${afkPercent}%, zvýšené BTC získané o ${btcPercent}%, zvýšenie exp získaného o ${expPercent}%",
+ 	 	 	 	"eng": "🎉Its Party Time!🥳, reduce AFK time by ${afkPercent}%, increased BTC gained by ${btcPercent}%, increase EXP gained by ${expPercent}%"
+ 	 	 	}
+ 	 	},
  	 	"experienceShard": {
  	 	 	"name": {
  	 	 	 	"vars": [
@@ -6940,6 +7069,12 @@
  	 	 	 	"eng": "Trade"
  	 	 	}
  	 	},
+ 	 	"bulkCrafting": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Hromadné tvorba",
+ 	 	 	 	"eng": "Bulk Crafting"
+ 	 	 	}
+ 	 	},
  	 	"autoFarm": {
  	 	 	"name": {
  	 	 	 	"trans": "Nasadiť farmársky robot",
@@ -7357,6 +7492,10 @@
  	 	"aiConnect": {
  	 	 	"trans": "Pripojenie kybernetického priestoru",
  	 	 	"eng": "Cyberspace Connection"
+ 	 	},
+ 	 	"globalParty": {
+ 	 	 	"trans": "Globálna strana",
+ 	 	 	"eng": "Global Party"
  	 	}
  	},
  	"combat": {
@@ -7785,6 +7924,33 @@
  	 	 	"eng": "Syncing with server.."
  	 	}
  	},
+ 	"sendStreetCred": {
+ 	 	"title": {
+ 	 	 	"trans": "Pošlite Street Credit",
+ 	 	 	"eng": "Send street cred"
+ 	 	},
+ 	 	"description": {
+ 	 	 	"vars": [
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Ste si istí, že chcete poslať Street Cred na ${playerName}? Každý deň môžete poslať jednu ulicu kreditu každému.",
+ 	 	 	"eng": "Are you sure you want to send street cred to ${playerName}? you can send one street cred to anyone everyday."
+ 	 	}
+ 	},
+ 	"sendStreetCredError": {
+ 	 	"title": {
+ 	 	 	"trans": "Teraz nemôžem poslať pouličný kredit",
+ 	 	 	"eng": "Can't send street cred now"
+ 	 	},
+ 	 	"description2": {
+ 	 	 	"trans": "Môžete posielať iba jeden kredit na ulici za deň. a musíte byť úroveň 10 alebo viac.",
+ 	 	 	"eng": "You can only send one street cred per day. and you must be level 10 or above."
+ 	 	},
+ 	 	"confirmText": {
+ 	 	 	"trans": "V poriadku",
+ 	 	 	"eng": "OK"
+ 	 	}
+ 	},
  	"secretKey": {
  	 	"name": {
  	 	 	"vars": [
@@ -7974,6 +8140,16 @@
  	 	 	}
  	 	}
  	},
+ 	"clanNoticeModal": {
+ 	 	"title": {
+ 	 	 	"trans": "Zadajte nové oznámenie",
+ 	 	 	"eng": "enter new notice"
+ 	 	},
+ 	 	"submit": {
+ 	 	 	"trans": "odoslať",
+ 	 	 	"eng": "send"
+ 	 	}
+ 	},
  	"createClanModal": {
  	 	"gangNameInput": {
  	 	 	"title": {
@@ -8038,6 +8214,20 @@
  	 	"accept": {
  	 	 	"trans": "súhlasiť",
  	 	 	"eng": "Accept"
+ 	 	}
+ 	},
+ 	"artPromo": {
+ 	 	"title": {
+ 	 	 	"trans": "Spooky Character Art Competition!",
+ 	 	 	"eng": "Spooky Character Art Competition!"
+ 	 	},
+ 	 	"desc1": {
+ 	 	 	"trans": "Rozdávame epické vyrovnávacie pamäte, batoh Explorer, kufor zamestnancov a emblémy najlepším 5 víťazom!",
+ 	 	 	"eng": "We are giving out Epic Caches, Explorer Backpack, Employee Suitcase and Emblems to the top 5 winners!"
+ 	 	},
+ 	 	"desc2": {
+ 	 	 	"trans": "Viac informácií nájdete na kanáli #Event na Discord!",
+ 	 	 	"eng": "Check out the #event channel on Discord for more details!"
  	 	}
  	},
  	"christmasPromo": {
@@ -8275,9 +8465,24 @@
  	 	 	 	 	"trans": "Umožnite tomuto hráčovi spravovať povolenie ostatných hráčov",
  	 	 	 	 	"eng": "Allow this player to manage permission of other players"
  	 	 	 	}
+ 	 	 	},
+ 	 	 	"send_notice": {
+ 	 	 	 	"trans": "Oznámenie",
+ 	 	 	 	"eng": "Send Notice",
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Dovoľte tomuto hráčovi poslať oznámenie všetkým členom gangu",
+ 	 	 	 	 	"eng": "Allow this player to send notice to all gang members"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"error": {
+ 	 	 	"insufficientBitcoin": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"amount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Máte nedostatočné bitcoin, požadované: ${amount}",
+ 	 	 	 	"eng": "You have insufficient Bitcoin, required: ${amount}"
+ 	 	 	},
  	 	 	"inviteCooldown": {
  	 	 	 	"trans": "Tento hráč ste už nedávno pozvali",
  	 	 	 	"eng": "You have already invited this player recently"
@@ -8569,6 +8774,12 @@
  	 	"cannotSend": {
  	 	 	"trans": "Tento hráč teraz nemôže dostať darček",
  	 	 	"eng": "This player cannot receive gift now"
+ 	 	}
+ 	},
+ 	"error": {
+ 	 	"cannotUseItemInStatus": {
+ 	 	 	"trans": "Túto položku nemôžete použiť, pretože existuje stavový efekt, ktorý s ňou je v rozpore",
+ 	 	 	"eng": "You cannot use this item because there is a status effect that conflicts with it"
  	 	}
  	},
  	"player": {

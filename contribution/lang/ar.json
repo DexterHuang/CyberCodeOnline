@@ -22,10 +22,23 @@
  	 	}
  	},
  	"ui": {
- 	 	"blackMarket": {
- 	 	 	"selectItemButton": {
- 	 	 	 	"trans": "طباعة وبيع",
- 	 	 	 	"eng": "Print And Sell"
+ 	 	"bulkCraft": {
+ 	 	 	"amountSelect": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "حدد المبلغ",
+ 	 	 	 	 	"eng": "Select Amount"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"duration": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"duration"
+ 	 	 	 	],
+ 	 	 	 	"trans": "ستستغرق هذه المهمة ${duration}",
+ 	 	 	 	"eng": "This task will take ${duration}"
+ 	 	 	},
+ 	 	 	"durationTooLong": {
+ 	 	 	 	"trans": "الكثير من العناصر المحددة",
+ 	 	 	 	"eng": "Too many items selected"
  	 	 	}
  	 	},
  	 	"clan": {
@@ -397,6 +410,16 @@
  	 	 	}
  	 	},
  	 	"clanPage": {
+ 	 	 	"notice": {
+ 	 	 	 	"time": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"playerName",
+ 	 	 	 	 	 	"time"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "أرسلت بواسطة ${playerName} ${time}",
+ 	 	 	 	 	"eng": "Posted by ${playerName} ${time} ago"
+ 	 	 	 	}
+ 	 	 	},
  	 	 	"createClan": {
  	 	 	 	"title": {
  	 	 	 	 	"trans": "أنت لست عضوًا في أي عصابة",
@@ -1338,55 +1361,6 @@
  	 	 	 	"eng": "You have not unlocked this area yet"
  	 	 	}
  	 	},
- 	 	"machineCrafting": {
- 	 	 	"titleBox": {
- 	 	 	 	"tile": {
- 	 	 	 	 	"trans": "نظام الخمول",
- 	 	 	 	 	"eng": "system idle"
- 	 	 	 	},
- 	 	 	 	"subtitle": {
- 	 	 	 	 	"trans": "الرجاء إدراج عنصر",
- 	 	 	 	 	"eng": "Please insert an item"
- 	 	 	 	}
- 	 	 	},
- 	 	 	"selectItemButton": {
- 	 	 	 	"trans": "إعادة تدوير البند",
- 	 	 	 	"eng": "Recycle Item"
- 	 	 	},
- 	 	 	"selectAmount": {
- 	 	 	 	"title": {
- 	 	 	 	 	"trans": "يرجى اختيار المبلغ",
- 	 	 	 	 	"eng": "Please select amount"
- 	 	 	 	},
- 	 	 	 	"subtitle": {
- 	 	 	 	 	"vars": [
- 	 	 	 	 	 	"timeStr"
- 	 	 	 	 	],
- 	 	 	 	 	"trans": "هذا سوف يستغرق ${timeStr}",
- 	 	 	 	 	"eng": "This will take ${timeStr}"
- 	 	 	 	}
- 	 	 	},
- 	 	 	"confirmModal": {
- 	 	 	 	"title": {
- 	 	 	 	 	"vars": [
- 	 	 	 	 	 	"itemName"
- 	 	 	 	 	],
- 	 	 	 	 	"trans": "حدد ${itemName}؟",
- 	 	 	 	 	"eng": "Select ${itemName}?"
- 	 	 	 	},
- 	 	 	 	"subtitle": {
- 	 	 	 	 	"vars": [
- 	 	 	 	 	 	"itemName"
- 	 	 	 	 	],
- 	 	 	 	 	"trans": "هل أنت متأكد من أنك تريد تحديد ${itemName}؟",
- 	 	 	 	 	"eng": "Are you sure you want to select ${itemName}?"
- 	 	 	 	},
- 	 	 	 	"confirmText": {
- 	 	 	 	 	"trans": "أنا واثق من",
- 	 	 	 	 	"eng": "I am sure"
- 	 	 	 	}
- 	 	 	}
- 	 	},
  	 	"setting": {
  	 	 	"langWarning": {
  	 	 	 	"trans": "حزمة اللغة هذه مفتوحة المصدر ويساهم بها لاعبونا، وقد لا تتم ترجمة النص بالكامل وقد تحتوي على أخطاء.  لا تتردد في التعديل والمساهمة من صفحة جيثب الخاصة بنا",
@@ -1571,6 +1545,41 @@
  	 	 	"itemLocked": {
  	 	 	 	"trans": "هذا البند مغلق",
  	 	 	 	"eng": "This item is locked"
+ 	 	 	}
+ 	 	},
+ 	 	"machineCrafting": {
+ 	 	 	"selectAmount": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "يرجى اختيار المبلغ",
+ 	 	 	 	 	"eng": "Please select amount"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"timeStr"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "هذا سوف يستغرق ${timeStr}",
+ 	 	 	 	 	"eng": "This will take ${timeStr}"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"confirmModal": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "حدد ${itemName}؟",
+ 	 	 	 	 	"eng": "Select ${itemName}?"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "هل أنت متأكد من أنك تريد تحديد ${itemName}؟",
+ 	 	 	 	 	"eng": "Are you sure you want to select ${itemName}?"
+ 	 	 	 	},
+ 	 	 	 	"confirmText": {
+ 	 	 	 	 	"trans": "أنا واثق من",
+ 	 	 	 	 	"eng": "I am sure"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"calibration": {
@@ -2702,6 +2711,23 @@
  	 	 	"eng": "Techno-Thief"
  	 	}
  	},
+ 	"globalPartyBanner": {
+ 	 	"title": {
+ 	 	 	"trans": "🎉 الحزب العالمي 🎉",
+ 	 	 	"eng": "🎉 Global Party 🎉"
+ 	 	},
+ 	 	"subtitle": {
+ 	 	 	"trans": "برعاية:",
+ 	 	 	"eng": "Hosted by:"
+ 	 	},
+ 	 	"button,": {
+ 	 	 	"vars": [
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "أعط رصيد الشارع",
+ 	 	 	"eng": "Give street cred"
+ 	 	}
+ 	},
  	"cost": {
  	 	"requireGang": {
  	 	 	"trans": "يتطلب منك أن تكون في عصابة",
@@ -3255,14 +3281,14 @@
  	 	"resultScreen": {
  	 	 	"title": {
  	 	 	 	"trans": "انتصار",
- 	 	 	 	"eng": "Victory"
+ 	 	 	 	"eng": "Level up"
  	 	 	},
  	 	 	"subTitle": {
  	 	 	 	"vars": [
  	 	 	 	 	"levelName"
  	 	 	 	],
  	 	 	 	"trans": "مبروك، لقد ارتفع مستواك {0} $!",
- 	 	 	 	"eng": "Congratulation, you have leveled up your ${levelName}!"
+ 	 	 	 	"eng": "Congratulations, you have leveled up your ${levelName}!"
  	 	 	},
  	 	 	"fromTo": {
  	 	 	 	"vars": [
@@ -3271,6 +3297,10 @@
  	 	 	 	],
  	 	 	 	"trans": "${from} => ${to}",
  	 	 	 	"eng": "${from} => ${to}"
+ 	 	 	},
+ 	 	 	"title2": {
+ 	 	 	 	"trans": "تلقى",
+ 	 	 	 	"eng": "Received"
  	 	 	}
  	 	},
  	 	"review": {
@@ -3344,6 +3374,15 @@
  	 	 	 	 	"eng": "Reload"
  	 	 	 	}
  	 	 	}
+ 	 	}
+ 	},
+ 	"playerStatusDisplay": {
+ 	 	"title": {
+ 	 	 	"vars": [
+ 	 	 	 	"action"
+ 	 	 	],
+ 	 	 	"trans": "${action} في التقدم",
+ 	 	 	"eng": "${action} in progress"
  	 	}
  	},
  	"time": {
@@ -4178,6 +4217,28 @@
  	 	 	"eng": "total"
  	 	}
  	},
+ 	"bulkCraftingSubtype": {
+ 	 	"recycle": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "إعادة تدوير",
+ 	 	 	 	"eng": "Recycle"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "أضف عناصر لإعادة تدويرها بشكل أكثر كفاءة",
+ 	 	 	 	"eng": "Add items to recycle them more efficiently"
+ 	 	 	}
+ 	 	},
+ 	 	"printSell": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "طباعة وبيع",
+ 	 	 	 	"eng": "Print & Sell"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "طباعة العناصر وبيعها مقابل المال",
+ 	 	 	 	"eng": "Print items and sell them for money"
+ 	 	 	}
+ 	 	}
+ 	},
  	"donationType": {
  	 	"donation1": {
  	 	 	"trans": "عضو",
@@ -4260,6 +4321,10 @@
  	 	 	"eng": "Prestige"
  	 	},
  	 	"donation21": {
+ 	 	 	"trans": "هيبة",
+ 	 	 	"eng": "Prestige"
+ 	 	},
+ 	 	"donation22": {
  	 	 	"trans": "هيبة",
  	 	 	"eng": "Prestige"
  	 	},
@@ -5062,6 +5127,46 @@
  	 	 	 	"4": {
  	 	 	 	 	"trans": "ملف تعريف أحمر (مع الرسوم المتحركة)",
  	 	 	 	 	"eng": "Red Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "فتح السيرة الذاتية المخصصة",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "ديكور الباركود على الملف الشخصي",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "تخصيص شعار العصابة",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "تخصيص صورة العصابة",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "المزيد قادم في التحديث في المستقبل",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation22": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "عنوان التبرع \"Prestige\"",
+ 	 	 	 	 	"eng": "\"Prestige\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "فتح تخصيص صورة الملف الشخصي",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "إطار علامة النيون (مع الرسوم المتحركة)",
+ 	 	 	 	 	"eng": "Neon Sign frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "ملف تعريف أرجواني (مع الرسوم المتحركة)",
+ 	 	 	 	 	"eng": "Purple Profile (with animation)"
  	 	 	 	},
  	 	 	 	"5": {
  	 	 	 	 	"trans": "فتح السيرة الذاتية المخصصة",
@@ -6042,6 +6147,30 @@
  	 	 	 	"eng": "A crate that contains a random equipments or other loots"
  	 	 	}
  	 	},
+ 	 	"globalPartyBuff": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "ناقل الحزب العالمي",
+ 	 	 	 	"eng": "Global Party Deployer"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"afkPercent",
+ 	 	 	 	 	"btcPercent",
+ 	 	 	 	 	"expPercent"
+ 	 	 	 	],
+ 	 	 	 	"trans": "عند نشرها ، قلل من وقت AFK بنسبة ${afkPercent} ٪ ، زيادة BTC التي اكتسبتها ${btcPercent} ٪ ، زيادة المكتسبة من قبل ${expPercent} ٪ \\ nand سيتم عرض لافتة في شاشة الدردشة مع اسمك تشير إلى أنك قمت بتمديدك برتقالي",
+ 	 	 	 	"eng": "When deployed, reduce AFK time by ${afkPercent}%, increased BTC gained by ${btcPercent}%, increase EXP gained by ${expPercent}%\\nAnd a banner will be shown in chat screen with your name indicating that you have deployed the buff"
+ 	 	 	},
+ 	 	 	"announcement": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"afkPercent",
+ 	 	 	 	 	"btcPercent",
+ 	 	 	 	 	"expPercent"
+ 	 	 	 	],
+ 	 	 	 	"trans": "🎉its وقت الطرف! 🥳 ، قلل من وقت AFK بنسبة ${afkPercent} ٪ ، زيادة BTC بنسبة ${btcPercent} ، زيادة المكتسبة بمقدار ${expPercent} ٪",
+ 	 	 	 	"eng": "🎉Its Party Time!🥳, reduce AFK time by ${afkPercent}%, increased BTC gained by ${btcPercent}%, increase EXP gained by ${expPercent}%"
+ 	 	 	}
+ 	 	},
  	 	"experienceShard": {
  	 	 	"name": {
  	 	 	 	"vars": [
@@ -6727,6 +6856,12 @@
  	 	 	 	"eng": "Trade"
  	 	 	}
  	 	},
+ 	 	"bulkCrafting": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "صياغة بالجملة",
+ 	 	 	 	"eng": "Bulk Crafting"
+ 	 	 	}
+ 	 	},
  	 	"autoFarm": {
  	 	 	"name": {
  	 	 	 	"trans": "نشر بوت",
@@ -7144,6 +7279,10 @@
  	 	"aiConnect": {
  	 	 	"trans": "اتصال الفضاء الإلكتروني",
  	 	 	"eng": "Cyberspace Connection"
+ 	 	},
+ 	 	"globalParty": {
+ 	 	 	"trans": "حزب عالمي",
+ 	 	 	"eng": "Global Party"
  	 	}
  	},
  	"combat": {
@@ -7572,6 +7711,33 @@
  	 	 	"eng": "Syncing with server.."
  	 	}
  	},
+ 	"sendStreetCred": {
+ 	 	"title": {
+ 	 	 	"trans": "أرسل رصيد الشارع",
+ 	 	 	"eng": "Send street cred"
+ 	 	},
+ 	 	"description": {
+ 	 	 	"vars": [
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "هل أنت متأكد من أنك تريد إرسال رصيد الشارع إلى ${playerName}؟ يمكنك إرسال ائتمان شارع واحد إلى أي شخص كل يوم.",
+ 	 	 	"eng": "Are you sure you want to send street cred to ${playerName}? you can send one street cred to anyone everyday."
+ 	 	}
+ 	},
+ 	"sendStreetCredError": {
+ 	 	"title": {
+ 	 	 	"trans": "لا يمكن إرسال رصيد الشارع الآن",
+ 	 	 	"eng": "Can't send street cred now"
+ 	 	},
+ 	 	"description2": {
+ 	 	 	"trans": "يمكنك فقط إرسال رصيد واحد في الشارع يوميًا. ويجب أن تكون المستوى 10 أو أعلى.",
+ 	 	 	"eng": "You can only send one street cred per day. and you must be level 10 or above."
+ 	 	},
+ 	 	"confirmText": {
+ 	 	 	"trans": "نعم",
+ 	 	 	"eng": "OK"
+ 	 	}
+ 	},
  	"secretKey": {
  	 	"name": {
  	 	 	"vars": [
@@ -7761,6 +7927,16 @@
  	 	 	}
  	 	}
  	},
+ 	"clanNoticeModal": {
+ 	 	"title": {
+ 	 	 	"trans": "أدخل إشعارًا جديدًا",
+ 	 	 	"eng": "enter new notice"
+ 	 	},
+ 	 	"submit": {
+ 	 	 	"trans": "يرسل",
+ 	 	 	"eng": "send"
+ 	 	}
+ 	},
  	"createClanModal": {
  	 	"gangNameInput": {
  	 	 	"title": {
@@ -7825,6 +8001,20 @@
  	 	"accept": {
  	 	 	"trans": "يقبل",
  	 	 	"eng": "Accept"
+ 	 	}
+ 	},
+ 	"artPromo": {
+ 	 	"title": {
+ 	 	 	"trans": "مسابقة فنون الفنية الشديدة!",
+ 	 	 	"eng": "Spooky Character Art Competition!"
+ 	 	},
+ 	 	"desc1": {
+ 	 	 	"trans": "نحن نقدم ذاكرة التخزين المؤقت الملحمية وحقيبة الظهر المستكشف وحقيبة الموظفين والشعارات إلى أفضل 5 فائزين!",
+ 	 	 	"eng": "We are giving out Epic Caches, Explorer Backpack, Employee Suitcase and Emblems to the top 5 winners!"
+ 	 	},
+ 	 	"desc2": {
+ 	 	 	"trans": "تحقق من قناة #event على Discord لمزيد من التفاصيل!",
+ 	 	 	"eng": "Check out the #event channel on Discord for more details!"
  	 	}
  	},
  	"christmasPromo": {
@@ -8062,9 +8252,24 @@
  	 	 	 	 	"trans": "اسمح لهذا اللاعب بإدارة إذن اللاعبين الآخرين",
  	 	 	 	 	"eng": "Allow this player to manage permission of other players"
  	 	 	 	}
+ 	 	 	},
+ 	 	 	"send_notice": {
+ 	 	 	 	"trans": "أرسل الإشعار",
+ 	 	 	 	"eng": "Send Notice",
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "اسمح لهذا اللاعب بإرسال إشعار إلى جميع أعضاء العصابة",
+ 	 	 	 	 	"eng": "Allow this player to send notice to all gang members"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"error": {
+ 	 	 	"insufficientBitcoin": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"amount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "لا توجد بيتكوين غير كافٍ ، مطلوب: ${amount}",
+ 	 	 	 	"eng": "You have insufficient Bitcoin, required: ${amount}"
+ 	 	 	},
  	 	 	"inviteCooldown": {
  	 	 	 	"trans": "لقد قمت بالفعل بدعوة هذا اللاعب مؤخرًا",
  	 	 	 	"eng": "You have already invited this player recently"
@@ -8356,6 +8561,12 @@
  	 	"cannotSend": {
  	 	 	"trans": "لا يمكن لهذا اللاعب الحصول على هدية الآن",
  	 	 	"eng": "This player cannot receive gift now"
+ 	 	}
+ 	},
+ 	"error": {
+ 	 	"cannotUseItemInStatus": {
+ 	 	 	"trans": "لا يمكنك استخدام هذا العنصر لأن هناك تأثير الحالة الذي يتعارض معه",
+ 	 	 	"eng": "You cannot use this item because there is a status effect that conflicts with it"
  	 	}
  	},
  	"player": {

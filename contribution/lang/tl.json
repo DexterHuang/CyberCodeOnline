@@ -22,10 +22,23 @@
  	 	}
  	},
  	"ui": {
- 	 	"blackMarket": {
- 	 	 	"selectItemButton": {
- 	 	 	 	"trans": "I-printa at ibenta",
- 	 	 	 	"eng": "Print And Sell"
+ 	 	"bulkCraft": {
+ 	 	 	"amountSelect": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Piliin ang Halaga",
+ 	 	 	 	 	"eng": "Select Amount"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"duration": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"duration"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Ang gawaing ito ay kukuha ng ${duration}",
+ 	 	 	 	"eng": "This task will take ${duration}"
+ 	 	 	},
+ 	 	 	"durationTooLong": {
+ 	 	 	 	"trans": "Masyadong maraming mga item na napili",
+ 	 	 	 	"eng": "Too many items selected"
  	 	 	}
  	 	},
  	 	"clan": {
@@ -397,6 +410,16 @@
  	 	 	}
  	 	},
  	 	"clanPage": {
+ 	 	 	"notice": {
+ 	 	 	 	"time": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"playerName",
+ 	 	 	 	 	 	"time"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Nai -post ng ${playerName} ${time} ang nakaraan",
+ 	 	 	 	 	"eng": "Posted by ${playerName} ${time} ago"
+ 	 	 	 	}
+ 	 	 	},
  	 	 	"createClan": {
  	 	 	 	"title": {
  	 	 	 	 	"trans": "Hindi ka miyembro ng anumang gang",
@@ -1338,55 +1361,6 @@
  	 	 	 	"eng": "You have not unlocked this area yet"
  	 	 	}
  	 	},
- 	 	"machineCrafting": {
- 	 	 	"titleBox": {
- 	 	 	 	"tile": {
- 	 	 	 	 	"trans": "Idle System",
- 	 	 	 	 	"eng": "system idle"
- 	 	 	 	},
- 	 	 	 	"subtitle": {
- 	 	 	 	 	"trans": "Mangyaring ipasok ang isang item",
- 	 	 	 	 	"eng": "Please insert an item"
- 	 	 	 	}
- 	 	 	},
- 	 	 	"selectItemButton": {
- 	 	 	 	"trans": "RECYCLE ITEM",
- 	 	 	 	"eng": "Recycle Item"
- 	 	 	},
- 	 	 	"selectAmount": {
- 	 	 	 	"title": {
- 	 	 	 	 	"trans": "Mangyaring piliin ang Halaga",
- 	 	 	 	 	"eng": "Please select amount"
- 	 	 	 	},
- 	 	 	 	"subtitle": {
- 	 	 	 	 	"vars": [
- 	 	 	 	 	 	"timeStr"
- 	 	 	 	 	],
- 	 	 	 	 	"trans": "Aabutin ito ng ${timeStr}",
- 	 	 	 	 	"eng": "This will take ${timeStr}"
- 	 	 	 	}
- 	 	 	},
- 	 	 	"confirmModal": {
- 	 	 	 	"title": {
- 	 	 	 	 	"vars": [
- 	 	 	 	 	 	"itemName"
- 	 	 	 	 	],
- 	 	 	 	 	"trans": "Piliin ang ${itemName}?",
- 	 	 	 	 	"eng": "Select ${itemName}?"
- 	 	 	 	},
- 	 	 	 	"subtitle": {
- 	 	 	 	 	"vars": [
- 	 	 	 	 	 	"itemName"
- 	 	 	 	 	],
- 	 	 	 	 	"trans": "Sigurado ka bang nais mong pumili ng ${itemName}?",
- 	 	 	 	 	"eng": "Are you sure you want to select ${itemName}?"
- 	 	 	 	},
- 	 	 	 	"confirmText": {
- 	 	 	 	 	"trans": "Sigurado ako",
- 	 	 	 	 	"eng": "I am sure"
- 	 	 	 	}
- 	 	 	}
- 	 	},
  	 	"setting": {
  	 	 	"langWarning": {
  	 	 	 	"trans": "This language pack is open-source and contributed to by our players. The text may not be fully translated and may contain mistakes. Please feel free to edit and contribute from our Github page",
@@ -1571,6 +1545,41 @@
  	 	 	"itemLocked": {
  	 	 	 	"trans": "Ang item na ito ay naka -lock",
  	 	 	 	"eng": "This item is locked"
+ 	 	 	}
+ 	 	},
+ 	 	"machineCrafting": {
+ 	 	 	"selectAmount": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Mangyaring piliin ang Halaga",
+ 	 	 	 	 	"eng": "Please select amount"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"timeStr"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Aabutin ito ng ${timeStr}",
+ 	 	 	 	 	"eng": "This will take ${timeStr}"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"confirmModal": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Piliin ang ${itemName}?",
+ 	 	 	 	 	"eng": "Select ${itemName}?"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Sigurado ka bang nais mong pumili ng ${itemName}?",
+ 	 	 	 	 	"eng": "Are you sure you want to select ${itemName}?"
+ 	 	 	 	},
+ 	 	 	 	"confirmText": {
+ 	 	 	 	 	"trans": "Sigurado ako",
+ 	 	 	 	 	"eng": "I am sure"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"calibration": {
@@ -2702,6 +2711,23 @@
  	 	 	"eng": "Techno-Thief"
  	 	}
  	},
+ 	"globalPartyBanner": {
+ 	 	"title": {
+ 	 	 	"trans": "🎉 Global Party 🎉",
+ 	 	 	"eng": "🎉 Global Party 🎉"
+ 	 	},
+ 	 	"subtitle": {
+ 	 	 	"trans": "Naka -host sa pamamagitan ng:",
+ 	 	 	"eng": "Hosted by:"
+ 	 	},
+ 	 	"button,": {
+ 	 	 	"vars": [
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Bigyan ang kredito sa kalye",
+ 	 	 	"eng": "Give street cred"
+ 	 	}
+ 	},
  	"cost": {
  	 	"requireGang": {
  	 	 	"trans": "Hinihiling ka na maging sa isang gang",
@@ -3255,14 +3281,14 @@
  	 	"resultScreen": {
  	 	 	"title": {
  	 	 	 	"trans": "Antas up",
- 	 	 	 	"eng": "Victory"
+ 	 	 	 	"eng": "Level up"
  	 	 	},
  	 	 	"subTitle": {
  	 	 	 	"vars": [
  	 	 	 	 	"levelName"
  	 	 	 	],
  	 	 	 	"trans": "Congratulations! You have leveled up your ${levelName}!",
- 	 	 	 	"eng": "Congratulation, you have leveled up your ${levelName}!"
+ 	 	 	 	"eng": "Congratulations, you have leveled up your ${levelName}!"
  	 	 	},
  	 	 	"fromTo": {
  	 	 	 	"vars": [
@@ -3271,6 +3297,10 @@
  	 	 	 	],
  	 	 	 	"trans": "${from} => ${to}",
  	 	 	 	"eng": "${from} => ${to}"
+ 	 	 	},
+ 	 	 	"title2": {
+ 	 	 	 	"trans": "Natanggap",
+ 	 	 	 	"eng": "Received"
  	 	 	}
  	 	},
  	 	"review": {
@@ -3344,6 +3374,15 @@
  	 	 	 	 	"eng": "Reload"
  	 	 	 	}
  	 	 	}
+ 	 	}
+ 	},
+ 	"playerStatusDisplay": {
+ 	 	"title": {
+ 	 	 	"vars": [
+ 	 	 	 	"action"
+ 	 	 	],
+ 	 	 	"trans": "${action} sa pag -unlad",
+ 	 	 	"eng": "${action} in progress"
  	 	}
  	},
  	"time": {
@@ -4178,6 +4217,28 @@
  	 	 	"eng": "total"
  	 	}
  	},
+ 	"bulkCraftingSubtype": {
+ 	 	"recycle": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "RECYCLE",
+ 	 	 	 	"eng": "Recycle"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Magdagdag ng mga item upang mai -recycle ang mga ito nang mas mahusay",
+ 	 	 	 	"eng": "Add items to recycle them more efficiently"
+ 	 	 	}
+ 	 	},
+ 	 	"printSell": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "I -print at ibenta",
+ 	 	 	 	"eng": "Print & Sell"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "I -print ang mga item at ibenta ang mga ito para sa pera",
+ 	 	 	 	"eng": "Print items and sell them for money"
+ 	 	 	}
+ 	 	}
+ 	},
  	"donationType": {
  	 	"donation1": {
  	 	 	"trans": "Miyembro",
@@ -4260,6 +4321,10 @@
  	 	 	"eng": "Prestige"
  	 	},
  	 	"donation21": {
+ 	 	 	"trans": "Prestihiyo",
+ 	 	 	"eng": "Prestige"
+ 	 	},
+ 	 	"donation22": {
  	 	 	"trans": "Prestihiyo",
  	 	 	"eng": "Prestige"
  	 	},
@@ -5062,6 +5127,46 @@
  	 	 	 	"4": {
  	 	 	 	 	"trans": "Red Profile (na may animation)",
  	 	 	 	 	"eng": "Red Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "I -unlock ang pasadyang bio",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Dekorasyon ng Barcode sa profile",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "I -customize ang gang motto",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Ipasadya ang imahe ng gang",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Marami pang darating sa pag -update sa hinaharap",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation22": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "\"Prestige\" pamagat ng donasyon",
+ 	 	 	 	 	"eng": "\"Prestige\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "I -unlock ang pagpapasadya ng larawan ng profile",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Neon sign frame (na may animation)",
+ 	 	 	 	 	"eng": "Neon Sign frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Purple Profile (na may animation)",
+ 	 	 	 	 	"eng": "Purple Profile (with animation)"
  	 	 	 	},
  	 	 	 	"5": {
  	 	 	 	 	"trans": "I -unlock ang pasadyang bio",
@@ -6042,6 +6147,30 @@
  	 	 	 	"eng": "A crate that contains a random equipments or other loots"
  	 	 	}
  	 	},
+ 	 	"globalPartyBuff": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Global Party Deployer",
+ 	 	 	 	"eng": "Global Party Deployer"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"afkPercent",
+ 	 	 	 	 	"btcPercent",
+ 	 	 	 	 	"expPercent"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Kapag na -deploy, bawasan ang oras ng AFK sa pamamagitan ng ${afkPercent}%, nadagdagan ang BTC na nakuha ng ${btcPercent}%, dagdagan ang exp na nakuha ng ${expPercent}%\\ nand isang banner ay ipapakita sa chat screen sa iyong pangalan na nagpapahiwatig na na -deploy mo ang buff",
+ 	 	 	 	"eng": "When deployed, reduce AFK time by ${afkPercent}%, increased BTC gained by ${btcPercent}%, increase EXP gained by ${expPercent}%\\nAnd a banner will be shown in chat screen with your name indicating that you have deployed the buff"
+ 	 	 	},
+ 	 	 	"announcement": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"afkPercent",
+ 	 	 	 	 	"btcPercent",
+ 	 	 	 	 	"expPercent"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Oras ng Partido!",
+ 	 	 	 	"eng": "🎉Its Party Time!🥳, reduce AFK time by ${afkPercent}%, increased BTC gained by ${btcPercent}%, increase EXP gained by ${expPercent}%"
+ 	 	 	}
+ 	 	},
  	 	"experienceShard": {
  	 	 	"name": {
  	 	 	 	"vars": [
@@ -6940,6 +7069,12 @@
  	 	 	 	"eng": "Trade"
  	 	 	}
  	 	},
+ 	 	"bulkCrafting": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Bulk crafting",
+ 	 	 	 	"eng": "Bulk Crafting"
+ 	 	 	}
+ 	 	},
  	 	"autoFarm": {
  	 	 	"name": {
  	 	 	 	"trans": "Deploy Farm Bot",
@@ -7357,6 +7492,10 @@
  	 	"aiConnect": {
  	 	 	"trans": "Koneksyon ng Cyberspace",
  	 	 	"eng": "Cyberspace Connection"
+ 	 	},
+ 	 	"globalParty": {
+ 	 	 	"trans": "Global Party",
+ 	 	 	"eng": "Global Party"
  	 	}
  	},
  	"combat": {
@@ -7785,6 +7924,33 @@
  	 	 	"eng": "Syncing with server.."
  	 	}
  	},
+ 	"sendStreetCred": {
+ 	 	"title": {
+ 	 	 	"trans": "Magpadala ng kredito sa kalye",
+ 	 	 	"eng": "Send street cred"
+ 	 	},
+ 	 	"description": {
+ 	 	 	"vars": [
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Sigurado ka bang nais mong magpadala ng kredito sa kalye sa ${playerName}? Maaari kang magpadala ng isang kredito sa kalye sa sinuman araw -araw.",
+ 	 	 	"eng": "Are you sure you want to send street cred to ${playerName}? you can send one street cred to anyone everyday."
+ 	 	}
+ 	},
+ 	"sendStreetCredError": {
+ 	 	"title": {
+ 	 	 	"trans": "Hindi makapagpadala ng kredito sa kalye ngayon",
+ 	 	 	"eng": "Can't send street cred now"
+ 	 	},
+ 	 	"description2": {
+ 	 	 	"trans": "Maaari ka lamang magpadala ng isang kredito sa kalye bawat araw. At dapat kang antas ng 10 o pataas.",
+ 	 	 	"eng": "You can only send one street cred per day. and you must be level 10 or above."
+ 	 	},
+ 	 	"confirmText": {
+ 	 	 	"trans": "Ok",
+ 	 	 	"eng": "OK"
+ 	 	}
+ 	},
  	"secretKey": {
  	 	"name": {
  	 	 	"vars": [
@@ -7974,6 +8140,16 @@
  	 	 	}
  	 	}
  	},
+ 	"clanNoticeModal": {
+ 	 	"title": {
+ 	 	 	"trans": "Magpasok ng bagong paunawa",
+ 	 	 	"eng": "enter new notice"
+ 	 	},
+ 	 	"submit": {
+ 	 	 	"trans": "ipadala",
+ 	 	 	"eng": "send"
+ 	 	}
+ 	},
  	"createClanModal": {
  	 	"gangNameInput": {
  	 	 	"title": {
@@ -8038,6 +8214,20 @@
  	 	"accept": {
  	 	 	"trans": "Tanggapin",
  	 	 	"eng": "Accept"
+ 	 	}
+ 	},
+ 	"artPromo": {
+ 	 	"title": {
+ 	 	 	"trans": "Spooky Character Art Competition!",
+ 	 	 	"eng": "Spooky Character Art Competition!"
+ 	 	},
+ 	 	"desc1": {
+ 	 	 	"trans": "Nagbibigay kami ng mga epikong cache, explorer backpack, maleta ng empleyado at mga sagisag sa nangungunang 5 nagwagi!",
+ 	 	 	"eng": "We are giving out Epic Caches, Explorer Backpack, Employee Suitcase and Emblems to the top 5 winners!"
+ 	 	},
+ 	 	"desc2": {
+ 	 	 	"trans": "Suriin ang #event channel sa Discord para sa higit pang mga detalye!",
+ 	 	 	"eng": "Check out the #event channel on Discord for more details!"
  	 	}
  	},
  	"christmasPromo": {
@@ -8275,9 +8465,24 @@
  	 	 	 	 	"trans": "Payagan ang manlalaro na ito na pamahalaan ang pahintulot ng iba pang mga manlalaro",
  	 	 	 	 	"eng": "Allow this player to manage permission of other players"
  	 	 	 	}
+ 	 	 	},
+ 	 	 	"send_notice": {
+ 	 	 	 	"trans": "Magpadala ng paunawa",
+ 	 	 	 	"eng": "Send Notice",
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Payagan ang player na ito na magpadala ng paunawa sa lahat ng mga miyembro ng gang",
+ 	 	 	 	 	"eng": "Allow this player to send notice to all gang members"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"error": {
+ 	 	 	"insufficientBitcoin": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"amount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Mayroon kang hindi sapat na bitcoin, kinakailangan: ${amount}",
+ 	 	 	 	"eng": "You have insufficient Bitcoin, required: ${amount}"
+ 	 	 	},
  	 	 	"inviteCooldown": {
  	 	 	 	"trans": "Inanyayahan mo na ang player na ito kamakailan",
  	 	 	 	"eng": "You have already invited this player recently"
@@ -8569,6 +8774,12 @@
  	 	"cannotSend": {
  	 	 	"trans": "Ang manlalaro na ito ay hindi maaaring makatanggap ng regalo ngayon",
  	 	 	"eng": "This player cannot receive gift now"
+ 	 	}
+ 	},
+ 	"error": {
+ 	 	"cannotUseItemInStatus": {
+ 	 	 	"trans": "Hindi mo maaaring gamitin ang item na ito dahil mayroong isang epekto sa katayuan na salungat dito",
+ 	 	 	"eng": "You cannot use this item because there is a status effect that conflicts with it"
  	 	}
  	},
  	"player": {

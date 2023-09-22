@@ -13,7 +13,7 @@
  	 	 	"eng": "Quest"
  	 	},
  	 	"chat": {
- 	 	 	"trans": "Chat",
+ 	 	 	"trans": "Plaudern",
  	 	 	"eng": "Chat"
  	 	},
  	 	"profile": {
@@ -22,10 +22,23 @@
  	 	}
  	},
  	"ui": {
- 	 	"blackMarket": {
- 	 	 	"selectItemButton": {
- 	 	 	 	"trans": "Drucken und verkaufen",
- 	 	 	 	"eng": "Print And Sell"
+ 	 	"bulkCraft": {
+ 	 	 	"amountSelect": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Wählen Sie die Menge",
+ 	 	 	 	 	"eng": "Select Amount"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"duration": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"duration"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Diese Aufgabe dauert ${duration}",
+ 	 	 	 	"eng": "This task will take ${duration}"
+ 	 	 	},
+ 	 	 	"durationTooLong": {
+ 	 	 	 	"trans": "Zu viele ausgewählte Elemente",
+ 	 	 	 	"eng": "Too many items selected"
  	 	 	}
  	 	},
  	 	"clan": {
@@ -397,6 +410,16 @@
  	 	 	}
  	 	},
  	 	"clanPage": {
+ 	 	 	"notice": {
+ 	 	 	 	"time": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"playerName",
+ 	 	 	 	 	 	"time"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Gepostet von ${playerName} ${time} vor",
+ 	 	 	 	 	"eng": "Posted by ${playerName} ${time} ago"
+ 	 	 	 	}
+ 	 	 	},
  	 	 	"createClan": {
  	 	 	 	"title": {
  	 	 	 	 	"trans": "Du bist kein Mitglied einer Gang",
@@ -515,7 +538,7 @@
  	 	 	 	"eng": "Leaderboard"
  	 	 	},
  	 	 	"tutorial": {
- 	 	 	 	"trans": "Tutorial",
+ 	 	 	 	"trans": "Lernprogramm",
  	 	 	 	"eng": "Tutorial"
  	 	 	},
  	 	 	"settings": {
@@ -681,11 +704,11 @@
  	 	 	 	"eng": "Unlocked"
  	 	 	},
  	 	 	"upgradeModuleTitle": {
-				"vars": [
-					"index"
-			   ],
  	 	 	 	"trans": "Verbessere Slot ${index}",
- 	 	 	 	"eng": "upgrade slot ${index}"
+ 	 	 	 	"eng": "upgrade slot ${index}",
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"index"
+ 	 	 	 	]
  	 	 	},
  	 	 	"equip": {
  	 	 	 	"trans": "Ausrüsten",
@@ -1080,7 +1103,7 @@
  	 	 	},
  	 	 	"levelSelect": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Level",
+ 	 	 	 	 	"trans": "Ebene",
  	 	 	 	 	"eng": "Level"
  	 	 	 	}
  	 	 	},
@@ -1338,55 +1361,6 @@
  	 	 	 	"eng": "You have not unlocked this area yet"
  	 	 	}
  	 	},
- 	 	"machineCrafting": {
- 	 	 	"titleBox": {
- 	 	 	 	"tile": {
- 	 	 	 	 	"trans": "System inaktiv",
- 	 	 	 	 	"eng": "system idle"
- 	 	 	 	},
- 	 	 	 	"subtitle": {
- 	 	 	 	 	"trans": "Bitte setze einen Gegenstand ein",
- 	 	 	 	 	"eng": "Please insert an item"
- 	 	 	 	}
- 	 	 	},
- 	 	 	"selectItemButton": {
- 	 	 	 	"trans": "Gegenstand recyceln",
- 	 	 	 	"eng": "Recycle Item"
- 	 	 	},
- 	 	 	"selectAmount": {
- 	 	 	 	"title": {
- 	 	 	 	 	"trans": "Bitte wähle einen Betrag",
- 	 	 	 	 	"eng": "Please select amount"
- 	 	 	 	},
- 	 	 	 	"subtitle": {
- 	 	 	 	 	"vars": [
- 	 	 	 	 	 	"timeStr"
- 	 	 	 	 	],
- 	 	 	 	 	"trans": "Dies wird ${timeStr} dauern",
- 	 	 	 	 	"eng": "This will take ${timeStr}"
- 	 	 	 	}
- 	 	 	},
- 	 	 	"confirmModal": {
- 	 	 	 	"title": {
- 	 	 	 	 	"vars": [
- 	 	 	 	 	 	"itemName"
- 	 	 	 	 	],
- 	 	 	 	 	"trans": "Wähle ${itemName}?",
- 	 	 	 	 	"eng": "Select ${itemName}?"
- 	 	 	 	},
- 	 	 	 	"subtitle": {
- 	 	 	 	 	"vars": [
- 	 	 	 	 	 	"itemName"
- 	 	 	 	 	],
- 	 	 	 	 	"trans": "Bist Du sicher, dass Du ${itemName} auswählen möchten?",
- 	 	 	 	 	"eng": "Are you sure you want to select ${itemName}?"
- 	 	 	 	},
- 	 	 	 	"confirmText": {
- 	 	 	 	 	"trans": "ich bin mir sicher",
- 	 	 	 	 	"eng": "I am sure"
- 	 	 	 	}
- 	 	 	}
- 	 	},
  	 	"setting": {
  	 	 	"langWarning": {
  	 	 	 	"trans": "Dieses Sprachpaket ist Open-Source und wird von unserer Community bearbeitet. Der Text ist möglicherweise nicht vollständig übersetzt und könnte Fehler enthalten. Du kannst gerne auf unserer Github-Seite mithelfen ihn zu verbessern.",
@@ -1571,6 +1545,41 @@
  	 	 	"itemLocked": {
  	 	 	 	"trans": "Dieses Item ist gesperrt",
  	 	 	 	"eng": "This item is locked"
+ 	 	 	}
+ 	 	},
+ 	 	"machineCrafting": {
+ 	 	 	"selectAmount": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Bitte wähle einen Betrag",
+ 	 	 	 	 	"eng": "Please select amount"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"timeStr"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Dies wird ${timeStr} dauern",
+ 	 	 	 	 	"eng": "This will take ${timeStr}"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"confirmModal": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Wähle ${itemName}?",
+ 	 	 	 	 	"eng": "Select ${itemName}?"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Bist Du sicher, dass Du ${itemName} auswählen möchten?",
+ 	 	 	 	 	"eng": "Are you sure you want to select ${itemName}?"
+ 	 	 	 	},
+ 	 	 	 	"confirmText": {
+ 	 	 	 	 	"trans": "ich bin mir sicher",
+ 	 	 	 	 	"eng": "I am sure"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"calibration": {
@@ -2702,6 +2711,23 @@
  	 	 	"eng": "Techno-Thief"
  	 	}
  	},
+ 	"globalPartyBanner": {
+ 	 	"title": {
+ 	 	 	"trans": "🎉 Globale Partei 🎉",
+ 	 	 	"eng": "🎉 Global Party 🎉"
+ 	 	},
+ 	 	"subtitle": {
+ 	 	 	"trans": "Veranstaltet von:",
+ 	 	 	"eng": "Hosted by:"
+ 	 	},
+ 	 	"button,": {
+ 	 	 	"vars": [
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Geben Sie Straßenkredite",
+ 	 	 	"eng": "Give street cred"
+ 	 	}
+ 	},
  	"cost": {
  	 	"requireGang": {
  	 	 	"trans": "Erfordert ein Mitglied in einer Gang zu sein",
@@ -3255,14 +3281,14 @@
  	 	"resultScreen": {
  	 	 	"title": {
  	 	 	 	"trans": "Sieg",
- 	 	 	 	"eng": "Victory"
+ 	 	 	 	"eng": "Level up"
  	 	 	},
  	 	 	"subTitle": {
  	 	 	 	"vars": [
  	 	 	 	 	"levelName"
  	 	 	 	],
  	 	 	 	"trans": "Glückwunsch, du hast deine ${levelName} verbessert!",
- 	 	 	 	"eng": "Congratulation, you have leveled up your ${levelName}!"
+ 	 	 	 	"eng": "Congratulations, you have leveled up your ${levelName}!"
  	 	 	},
  	 	 	"fromTo": {
  	 	 	 	"vars": [
@@ -3271,6 +3297,10 @@
  	 	 	 	],
  	 	 	 	"trans": "${from} => ${to}",
  	 	 	 	"eng": "${from} => ${to}"
+ 	 	 	},
+ 	 	 	"title2": {
+ 	 	 	 	"trans": "Erhalten",
+ 	 	 	 	"eng": "Received"
  	 	 	}
  	 	},
  	 	"review": {
@@ -3344,6 +3374,15 @@
  	 	 	 	 	"eng": "Reload"
  	 	 	 	}
  	 	 	}
+ 	 	}
+ 	},
+ 	"playerStatusDisplay": {
+ 	 	"title": {
+ 	 	 	"vars": [
+ 	 	 	 	"action"
+ 	 	 	],
+ 	 	 	"trans": "${action} in Arbeit",
+ 	 	 	"eng": "${action} in progress"
  	 	}
  	},
  	"time": {
@@ -3531,7 +3570,7 @@
  	 	"newbie4": {
  	 	 	"displayName": {
  	 	 	 	"trans": "Kisten öffnen",
- 	 	 	 	"eng": "Open Crates"
+ 	 	 	 	"eng": "Open Crate"
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Öffne 4 Kisten in Dungeons, um zusätzliche Beute zu bekommen!",
@@ -3730,7 +3769,7 @@
  	},
  	"slider": {
  	 	"min": {
- 	 	 	"trans": "Min",
+ 	 	 	"trans": "Mindest",
  	 	 	"eng": "Min"
  	 	},
  	 	"max": {
@@ -3780,8 +3819,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"itemName"
  	 	 	 	],
-
-				"trans": "Verdoppel die Gegenstände und die Erfahrung, während sich die Dauer und die Kosten um das 4-fache erhöhen.",
+ 	 	 	 	"trans": "Verdoppel die Gegenstände und die Erfahrung, während sich die Dauer und die Kosten um das 4-fache erhöhen.",
  	 	 	 	"eng": "Double the items and exp! while the duration and cost will increase by 4 times"
  	 	 	},
  	 	 	"activate": {
@@ -4179,6 +4217,28 @@
  	 	 	"eng": "total"
  	 	}
  	},
+ 	"bulkCraftingSubtype": {
+ 	 	"recycle": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Recyceln",
+ 	 	 	 	"eng": "Recycle"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Fügen Sie Elemente hinzu, um sie effizienter zu recyceln",
+ 	 	 	 	"eng": "Add items to recycle them more efficiently"
+ 	 	 	}
+ 	 	},
+ 	 	"printSell": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Drucken & verkaufen",
+ 	 	 	 	"eng": "Print & Sell"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Drucken Sie Artikel aus und verkaufen Sie sie für Geld",
+ 	 	 	 	"eng": "Print items and sell them for money"
+ 	 	 	}
+ 	 	}
+ 	},
  	"donationType": {
  	 	"donation1": {
  	 	 	"trans": "Mitglied",
@@ -4264,12 +4324,16 @@
  	 	 	"trans": "Prestige",
  	 	 	"eng": "Prestige"
  	 	},
+ 	 	"donation22": {
+ 	 	 	"trans": "Prestige",
+ 	 	 	"eng": "Prestige"
+ 	 	},
  	 	"moderator": {
  	 	 	"trans": "Moderator/in",
  	 	 	"eng": "Moderator"
  	 	},
  	 	"admin": {
- 	 	 	"trans": "Admin",
+ 	 	 	"trans": "Administratorin",
  	 	 	"eng": "Admin"
  	 	}
  	},
@@ -5082,6 +5146,46 @@
  	 	 	 	},
  	 	 	 	"9": {
  	 	 	 	 	"trans": "Mehr folgt in einem zukünfigen Update",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation22": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "\"Prestige\" Spendenentitel",
+ 	 	 	 	 	"eng": "\"Prestige\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "Profilbildanpassung entsperren",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Neonzeichenrahmen (mit Animation)",
+ 	 	 	 	 	"eng": "Neon Sign frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Lila Profil (mit Animation)",
+ 	 	 	 	 	"eng": "Purple Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "Sperr die benutzerdefinierte Biografie entsperren",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Barcode -Dekoration auf Profil",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "Passen Sie das Gangmotto an",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Bandenbild anpassen",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Weitere Informationen zum zukünftigen Update",
  	 	 	 	 	"eng": "More coming in future update"
  	 	 	 	}
  	 	 	}
@@ -6015,7 +6119,7 @@
  	 	},
  	 	"dungeonToken": {
  	 	 	"name": {
- 	 	 	 	"trans": "Dungeon Token",
+ 	 	 	 	"trans": "Dungeon -Token",
  	 	 	 	"eng": "Dungeon Token"
  	 	 	},
  	 	 	"description": {
@@ -6041,6 +6145,30 @@
  	 	 	"description": {
  	 	 	 	"trans": "Eine Kiste, die zufällige Ausrüstungen oder andere Beute enthält",
  	 	 	 	"eng": "A crate that contains a random equipments or other loots"
+ 	 	 	}
+ 	 	},
+ 	 	"globalPartyBuff": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Globaler Parteieinsatz",
+ 	 	 	 	"eng": "Global Party Deployer"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"afkPercent",
+ 	 	 	 	 	"btcPercent",
+ 	 	 	 	 	"expPercent"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Reduzieren Sie bei der Bereitstellung die AFK -Zeit um ${afkPercent}%, erhöhte BTC, die durch ${btcPercent}%gewonnen wurde, erhöhen der Buff",
+ 	 	 	 	"eng": "When deployed, reduce AFK time by ${afkPercent}%, increased BTC gained by ${btcPercent}%, increase EXP gained by ${expPercent}%\\nAnd a banner will be shown in chat screen with your name indicating that you have deployed the buff"
+ 	 	 	},
+ 	 	 	"announcement": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"afkPercent",
+ 	 	 	 	 	"btcPercent",
+ 	 	 	 	 	"expPercent"
+ 	 	 	 	],
+ 	 	 	 	"trans": "🎉its Party Time! 🥳, verkürzen",
+ 	 	 	 	"eng": "🎉Its Party Time!🥳, reduce AFK time by ${afkPercent}%, increased BTC gained by ${btcPercent}%, increase EXP gained by ${expPercent}%"
  	 	 	}
  	 	},
  	 	"experienceShard": {
@@ -6520,7 +6648,7 @@
  	 	 	 	"eng": "Black Market"
  	 	 	},
  	 	 	"npcName": {
- 	 	 	 	"trans": "Zero",
+ 	 	 	 	"trans": "Null",
  	 	 	 	"eng": "Zero"
  	 	 	}
  	 	},
@@ -6548,7 +6676,7 @@
  	 	 	 	 	"Leben ist hart, aber du bist stärker. Kämpfe weiter.",
  	 	 	 	 	"Bleibe stark, bleibe punk, und bleibe am Leben.",
  	 	 	 	 	"Vergiss nicht, dein Wert ist nicht definiert von deinen Problemen.",
-					"Lass dass System dich nicht unterbringen, steh auf und rebelliere!!",
+ 	 	 	 	 	"Lass dass System dich nicht unterbringen, steh auf und rebelliere!!",
  	 	 	 	 	"Bleib mit deinem inneren Selbst verbunden und schalte den Lärm ab.",
  	 	 	 	 	"Bleibe online, bleibe Stark, und bleibe dir selbst Treu."
  	 	 	 	],
@@ -6566,7 +6694,7 @@
  	 	 	 	"eng": "Alleyway"
  	 	 	},
  	 	 	"npcName": {
- 	 	 	 	"trans": "B3llial",
+ 	 	 	 	"trans": "Prämie",
  	 	 	 	"eng": "B3llial"
  	 	 	}
  	 	},
@@ -6584,7 +6712,7 @@
  	"npcGangs": {
  	 	"gang1": {
  	 	 	"displayName": {
- 	 	 	 	"trans": "Animals",
+ 	 	 	 	"trans": "Tiere",
  	 	 	 	"eng": "Animals"
  	 	 	}
  	 	},
@@ -6596,7 +6724,7 @@
  	 	},
  	 	"gang3": {
  	 	 	"displayName": {
- 	 	 	 	"trans": "Scavengers",
+ 	 	 	 	"trans": "Aasfresser",
  	 	 	 	"eng": "Scavengers"
  	 	 	}
  	 	}
@@ -6726,6 +6854,12 @@
  	 	 	"name": {
  	 	 	 	"trans": "Handeln",
  	 	 	 	"eng": "Trade"
+ 	 	 	}
+ 	 	},
+ 	 	"bulkCrafting": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Bulk -Handwerk",
+ 	 	 	 	"eng": "Bulk Crafting"
  	 	 	}
  	 	},
  	 	"autoFarm": {
@@ -7145,6 +7279,10 @@
  	 	"aiConnect": {
  	 	 	"trans": "Cyberspace Verbindung",
  	 	 	"eng": "Cyberspace Connection"
+ 	 	},
+ 	 	"globalParty": {
+ 	 	 	"trans": "Globale Partei",
+ 	 	 	"eng": "Global Party"
  	 	}
  	},
  	"combat": {
@@ -7318,7 +7456,7 @@
  	 	 	 	 	"expMultiplier"
  	 	 	 	],
  	 	 	 	"trans": "Empfohlenes Level: ${maxLevel}+ im Co-op \r\n                     ${expMultiplier}x mehr EXP, aber 4~5x stärkere Gegner!\r\n                     Gang-Dungeon, zusätzliche Beute und EXP.\r\n                     *Nichts für schwache Nerven*\r\n",
- 	 	 	 	"eng": "Recommended Level: ${maxLevel}+ with co-op\r\n                    ${expMultiplier}x more EXP! and 4~5x stronger enemies!\r\n                    Gang mode dungeon, extra loot and exp.\r\n                    *Not for the faint of heart*"
+ 	 	 	 	"eng": "Recommended Level: ${maxLevel}+ with co-op\r\n                    ${2.3}x more EXP! and 4~5x stronger enemies!\r\n                    Gang mode dungeon, extra loot and exp.\r\n                    *Not for the faint of heart*"
  	 	 	}
  	 	},
  	 	"leaveDungeon": {
@@ -7573,6 +7711,33 @@
  	 	 	"eng": "Syncing with server.."
  	 	}
  	},
+ 	"sendStreetCred": {
+ 	 	"title": {
+ 	 	 	"trans": "Senden Sie Street Cred",
+ 	 	 	"eng": "Send street cred"
+ 	 	},
+ 	 	"description": {
+ 	 	 	"vars": [
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Sind Sie sicher, dass Sie Street Cred an ${playerName} senden möchten? Sie können jeden Tag einen Street Cred für jeden senden.",
+ 	 	 	"eng": "Are you sure you want to send street cred to ${playerName}? you can send one street cred to anyone everyday."
+ 	 	}
+ 	},
+ 	"sendStreetCredError": {
+ 	 	"title": {
+ 	 	 	"trans": "Ich kann jetzt kein Straßengutschriften schicken",
+ 	 	 	"eng": "Can't send street cred now"
+ 	 	},
+ 	 	"description2": {
+ 	 	 	"trans": "Sie können nur einen Street Cred pro Tag schicken. und Sie müssen Stufe 10 oder höher sein.",
+ 	 	 	"eng": "You can only send one street cred per day. and you must be level 10 or above."
+ 	 	},
+ 	 	"confirmText": {
+ 	 	 	"trans": "OK",
+ 	 	 	"eng": "OK"
+ 	 	}
+ 	},
  	"secretKey": {
  	 	"name": {
  	 	 	"vars": [
@@ -7762,10 +7927,20 @@
  	 	 	}
  	 	}
  	},
+ 	"clanNoticeModal": {
+ 	 	"title": {
+ 	 	 	"trans": "Neue Mitteilung eingeben",
+ 	 	 	"eng": "enter new notice"
+ 	 	},
+ 	 	"submit": {
+ 	 	 	"trans": "schicken",
+ 	 	 	"eng": "send"
+ 	 	}
+ 	},
  	"createClanModal": {
  	 	"gangNameInput": {
  	 	 	"title": {
- 	 	 	 	"trans": "Gang Name",
+ 	 	 	 	"trans": "Bandenname",
  	 	 	 	"eng": "Gang Name"
  	 	 	},
  	 	 	"description": {
@@ -7826,6 +8001,20 @@
  	 	"accept": {
  	 	 	"trans": "Akzeptieren",
  	 	 	"eng": "Accept"
+ 	 	}
+ 	},
+ 	"artPromo": {
+ 	 	"title": {
+ 	 	 	"trans": "Spooky Charakterkunstwettbewerb!",
+ 	 	 	"eng": "Spooky Character Art Competition!"
+ 	 	},
+ 	 	"desc1": {
+ 	 	 	"trans": "Wir geben epische Caches, Explorer -Rucksack, Mitarbeiter -Koffer und Embleme an die Top 5 Gewinner aus!",
+ 	 	 	"eng": "We are giving out Epic Caches, Explorer Backpack, Employee Suitcase and Emblems to the top 5 winners!"
+ 	 	},
+ 	 	"desc2": {
+ 	 	 	"trans": "Weitere Informationen finden Sie im #Eevent -Kanal auf Discord!",
+ 	 	 	"eng": "Check out the #event channel on Discord for more details!"
  	 	}
  	},
  	"christmasPromo": {
@@ -8063,9 +8252,24 @@
  	 	 	 	 	"trans": "Gib diesem Spieler, die Erlaubnis anderer Spieler zu verwalten",
  	 	 	 	 	"eng": "Allow this player to manage permission of other players"
  	 	 	 	}
+ 	 	 	},
+ 	 	 	"send_notice": {
+ 	 	 	 	"trans": "Bekanntmachung senden",
+ 	 	 	 	"eng": "Send Notice",
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Erlauben Sie diesem Spieler, alle Gangmitglieder mitzuteilen",
+ 	 	 	 	 	"eng": "Allow this player to send notice to all gang members"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"error": {
+ 	 	 	"insufficientBitcoin": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"amount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Sie haben nicht genügend Bitcoin erforderlich: ${amount}",
+ 	 	 	 	"eng": "You have insufficient Bitcoin, required: ${amount}"
+ 	 	 	},
  	 	 	"inviteCooldown": {
  	 	 	 	"trans": "Du hast diesen Spieler bereits vor kurzem eingeladen",
  	 	 	 	"eng": "You have already invited this player recently"
@@ -8233,7 +8437,7 @@
  	 	 	 	"email"
  	 	 	],
  	 	 	"trans": "Eine E-Mail zum Zurücksetzen des Passworts wurde an ${E-Mail} gesendet",
- 	 	 	"eng": "An password reset email has been sent to ${email}"
+ 	 	 	"eng": "An password reset email has been sent to {email}"
  	 	},
  	 	"checkEmail": {
  	 	 	"trans": "Bitte überprüfe dein E-Mails und befolge die Anweisungen, um das Passwort zurückzusetzen",
@@ -8357,6 +8561,12 @@
  	 	"cannotSend": {
  	 	 	"trans": "Dieser Spieler kann zurzeit kein Geschenk erhalten",
  	 	 	"eng": "This player cannot receive gift now"
+ 	 	}
+ 	},
+ 	"error": {
+ 	 	"cannotUseItemInStatus": {
+ 	 	 	"trans": "Sie können dieses Element nicht verwenden, da ein Statusffekt besteht, der damit widerspricht",
+ 	 	 	"eng": "You cannot use this item because there is a status effect that conflicts with it"
  	 	}
  	},
  	"player": {
