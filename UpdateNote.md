@@ -35,7 +35,7 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ### Spooky Character Design competition announcement!
 Please see the discord announcement for more details :)
 Please note that the Halloween update is still WIP, this is just competition event
-```
+
 Hello everyone! I am announcing the Spooky Character Design competition!
 
 ### rewards:
@@ -72,7 +72,7 @@ I (Dexter) and the mod team will try to take into account your voting to decide 
 ### FAQ
 #### Are you gonna use this in the game? 
 No, its just for competition :D unless its really amazing I would contact you separately haha
-```
+
 
 - Backend code refactor and rewrite
 - Updated filter list `queer` removed from the filter list, other game names to filter list
