@@ -31,6 +31,15 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 
 ## Updates
+### 2023/10/04
+- Halloween update is active
+  - AFK bot farm and enemies will drop jack-o-lanterns
+  - Added pumpkin pie item, you can use it during combat to heal up large amount
+  - You can trade your jack-o-lanterns with `Pumpkin Weirdo` for various rewards, including `Locked Legendary Container`, `Rare Equipment Crate` and `Pumpkin Pie`
+- Updated gang notice UI, making it smaller and easier to see
+- With the Techno thief event passed, we have decided to keep the mob around; they will keep spawning with adjusted drops for long-term balance.
+- Fixes on some server stability issues
+
 ### 2023/09/22
 ### Spooky Character Design competition announcement!
 Please see the discord announcement for more details :)
