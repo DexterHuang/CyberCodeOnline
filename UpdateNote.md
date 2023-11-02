@@ -34,7 +34,7 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 0.1813
 
 -   With many discussion and feedbacks from the community, the skip count statistic will be a point system where:
-    -   Every 15 minutes skip is 1 point
+    -   Every 15 minutes skip is 1 point, so that you can skip longer periods while still getting equivalent points.
     -   Above 150 minutes is fixed to 10 points to encourage multiple skips rather than one huge skip to maximize benefit for most players
 -   Additionally added skip discount, during this event, all skip above 105 minutes will receive 5% off until the end of the event.
 
