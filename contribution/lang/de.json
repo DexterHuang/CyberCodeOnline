@@ -548,17 +548,20 @@
  	 	},
  	 	"timeSkip": {
  	 	 	"unitTimeSkipButton": {
- 	 	 	 	"title": {
+ 	 	 	 	"minute": {
  	 	 	 	 	"vars": [
- 	 	 	 	 	 	"timeSkipMinutes",
- 	 	 	 	 	 	"timeSkipCost"
+ 	 	 	 	 	 	"minutes"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Globaler Zeitsprung (${timeSkipMinutes} min, Kosten ${timeSkipCost} Units)",
- 	 	 	 	 	"eng": "Global Skip (${timeSkipMinutes} Min, Cost ${timeSkipCost} Units)"
+ 	 	 	 	 	"trans": "Überspringen Sie ${minutes} Minuten",
+ 	 	 	 	 	"eng": "Skip ${minutes} minutes"
+ 	 	 	 	},
+ 	 	 	 	"title2": {
+ 	 	 	 	 	"trans": "Beende es jetzt",
+ 	 	 	 	 	"eng": "Finish Now"
  	 	 	 	},
  	 	 	 	"description": {
  	 	 	 	 	"trans": "Globale Zeitsprünge ermöglichen es dir, AFK-Wartezeiten zu überspringen und die AFK-Aufgabe sofort zu beenden. \n     Dieser Effekt wird auf alle Spieler angewendet, die AFK-Aufgaben ausführen.",
- 	 	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\r\n    this effect will be applied to all player performing AFK task"
+ 	 	 	 	 	"eng": "Finish the task instantly for all players in the game and earn skip points to show your support to other players!"
  	 	 	 	}
  	 	 	},
  	 	 	"itemTimeSkipButton": {
@@ -4350,7 +4353,7 @@
  	 	},
  	 	"donation24": {
  	 	 	"trans": "Versand",
- 	 	 	"eng": "SkipGod"
+ 	 	 	"eng": "SkipSage"
  	 	},
  	 	"moderator": {
  	 	 	"trans": "Moderator/in",
@@ -5258,7 +5261,7 @@
  	 	 	"benefits": {
  	 	 	 	"1": {
  	 	 	 	 	"trans": "\"Skipgod\" -Pendeentitel",
- 	 	 	 	 	"eng": "\"SkipGod\" donation title"
+ 	 	 	 	 	"eng": "\"SkipSage\" donation title"
  	 	 	 	},
  	 	 	 	"2": {
  	 	 	 	 	"trans": "Profilbildanpassung entsperren",
@@ -5266,11 +5269,11 @@
  	 	 	 	},
  	 	 	 	"3": {
  	 	 	 	 	"trans": "Skipgod -Rahmen (mit Animation)",
- 	 	 	 	 	"eng": "SkipGod frame (with animation)"
+ 	 	 	 	 	"eng": "SkipSage frame (with animation)"
  	 	 	 	},
  	 	 	 	"4": {
  	 	 	 	 	"trans": "Skipgod -Profil (mit Animation)",
- 	 	 	 	 	"eng": "SkipGod Profile (with animation)"
+ 	 	 	 	 	"eng": "SkipSage Profile (with animation)"
  	 	 	 	},
  	 	 	 	"5": {
  	 	 	 	 	"trans": "Sperr die benutzerdefinierte Biografie entsperren",
@@ -8353,7 +8356,7 @@
  	 	 	 	"emblem"
  	 	 	],
  	 	 	"trans": "Führen Sie ${amount} Überspringen, um \"${emblem}\" Emblem zu erhalten",
- 	 	 	"eng": "perform ${amount} skip to get \"${emblem}\" emblem"
+ 	 	 	"eng": "Collect ${amount} skip points to get \"${emblem}\" emblem"
  	 	},
  	 	"desc2": {
  	 	 	"vars": [
@@ -8361,7 +8364,7 @@
  	 	 	 	"emblem"
  	 	 	],
  	 	 	"trans": "Führen Sie ${amount} Überspringen, um \"${emblem}\" Emblem zu erhalten",
- 	 	 	"eng": "perform ${amount} skip to get \"${emblem}\" emblem"
+ 	 	 	"eng": "Collect ${amount} skip points to get \"${emblem}\" emblem"
  	 	},
  	 	"desc3": {
  	 	 	"vars": [
@@ -8369,7 +8372,7 @@
  	 	 	 	"emblem"
  	 	 	],
  	 	 	"trans": "Führen Sie ${amount} Überspringen, um \"${frameName}\" Emblem zu erhalten",
- 	 	 	"eng": "perform ${amount} skip to get \"${emblem}\" emblem"
+ 	 	 	"eng": "Collect ${amount} skip points to get \"${emblem}\" emblem"
  	 	},
  	 	"desc4": {
  	 	 	"vars": [
@@ -8377,7 +8380,14 @@
  	 	 	 	"frameName"
  	 	 	],
  	 	 	"trans": "Führen Sie ${amount} Sprung durch, um dauerhaft \"${frameName}\" Spenden -Chat -Frame zu erhalten",
- 	 	 	"eng": "perform ${amount} skip to receive permanent \"${frameName}\" donation chat frame"
+ 	 	 	"eng": "Collect ${amount} skip points to receive permanent \"${frameName}\" donation chat frame"
+ 	 	},
+ 	 	"chatMessage1": {
+ 	 	 	"vars": [
+ 	 	 	 	"points"
+ 	 	 	],
+ 	 	 	"trans": "Erhalten Sie bei ${points} Punkte überspringen",
+ 	 	 	"eng": "Receive at ${points} skip points"
  	 	},
  	 	"footnote1": {
  	 	 	"trans": "Die Skip -Statistik wird vom Beginn dieser Funktion für alle gezählt.",
@@ -8393,9 +8403,13 @@
  	 	 	"trans": "Erhalten Sie verschiedene exklusive Kosmetik durch Überspringen",
  	 	 	"eng": "Receive various exclusive cosmetics by skipping"
  	 	},
- 	 	"details": {
- 	 	 	"trans": "Einzelheiten",
- 	 	 	"eng": "details"
+ 	 	"chatMessage1": {
+ 	 	 	"vars": [
+ 	 	 	 	"skinName",
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Seien Sie ein ${skinName}, ${playerName}",
+ 	 	 	"eng": "Be a ${skinName}, ${playerName}"
  	 	}
  	},
  	"thanksgivingPromo": {

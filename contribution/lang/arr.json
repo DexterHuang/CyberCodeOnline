@@ -548,17 +548,20 @@
  	 	},
  	 	"timeSkip": {
  	 	 	"unitTimeSkipButton": {
- 	 	 	 	"title": {
+ 	 	 	 	"minute": {
  	 	 	 	 	"vars": [
- 	 	 	 	 	 	"timeSkipMinutes",
- 	 	 	 	 	 	"timeSkipCost"
+ 	 	 	 	 	 	"minutes"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Global Skip (${timeSkipMinutes} Min, Cost ${timeSkipCost} Units)",
- 	 	 	 	 	"eng": "Global Skip (${timeSkipMinutes} Min, Cost ${timeSkipCost} Units)"
+ 	 	 	 	 	"trans": "Skip ${minutes} minutes",
+ 	 	 	 	 	"eng": "Skip ${minutes} minutes"
+ 	 	 	 	},
+ 	 	 	 	"title2": {
+ 	 	 	 	 	"trans": "Finish Now",
+ 	 	 	 	 	"eng": "Finish Now"
  	 	 	 	},
  	 	 	 	"description": {
  	 	 	 	 	"trans": "Global Skip allow ye t' skip th' AFK waitin' time, an' finish it instantly.\n    this effect will be applied t' all crewmate performin' AFK task",
- 	 	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\r\n    this effect will be applied to all player performing AFK task"
+ 	 	 	 	 	"eng": "Finish the task instantly for all players in the game and earn skip points to show your support to other players!"
  	 	 	 	}
  	 	 	},
  	 	 	"itemTimeSkipButton": {
@@ -4350,7 +4353,7 @@
  	 	},
  	 	"donation24": {
  	 	 	"trans": "SkipGod",
- 	 	 	"eng": "SkipGod"
+ 	 	 	"eng": "SkipSage"
  	 	},
  	 	"moderator": {
  	 	 	"trans": "Moderator",
@@ -5258,7 +5261,7 @@
  	 	 	"benefits": {
  	 	 	 	"1": {
  	 	 	 	 	"trans": "\"SkipGod\" donation title",
- 	 	 	 	 	"eng": "\"SkipGod\" donation title"
+ 	 	 	 	 	"eng": "\"SkipSage\" donation title"
  	 	 	 	},
  	 	 	 	"2": {
  	 	 	 	 	"trans": "Unlock profile picture customization",
@@ -5266,11 +5269,11 @@
  	 	 	 	},
  	 	 	 	"3": {
  	 	 	 	 	"trans": "SkipGod frame (with animation)",
- 	 	 	 	 	"eng": "SkipGod frame (with animation)"
+ 	 	 	 	 	"eng": "SkipSage frame (with animation)"
  	 	 	 	},
  	 	 	 	"4": {
  	 	 	 	 	"trans": "SkipGod Profile (with animation)",
- 	 	 	 	 	"eng": "SkipGod Profile (with animation)"
+ 	 	 	 	 	"eng": "SkipSage Profile (with animation)"
  	 	 	 	},
  	 	 	 	"5": {
  	 	 	 	 	"trans": "Unlock custom bio",
@@ -8353,7 +8356,7 @@
  	 	 	 	"emblem"
  	 	 	],
  	 	 	"trans": "perform ${amount} skip to get \"${emblem}\" emblem",
- 	 	 	"eng": "perform ${amount} skip to get \"${emblem}\" emblem"
+ 	 	 	"eng": "Collect ${amount} skip points to get \"${emblem}\" emblem"
  	 	},
  	 	"desc2": {
  	 	 	"vars": [
@@ -8361,7 +8364,7 @@
  	 	 	 	"emblem"
  	 	 	],
  	 	 	"trans": "perform ${amount} skip to get \"${emblem}\" emblem",
- 	 	 	"eng": "perform ${amount} skip to get \"${emblem}\" emblem"
+ 	 	 	"eng": "Collect ${amount} skip points to get \"${emblem}\" emblem"
  	 	},
  	 	"desc3": {
  	 	 	"vars": [
@@ -8369,7 +8372,7 @@
  	 	 	 	"emblem"
  	 	 	],
  	 	 	"trans": "perform ${amount} skip to receive permanent \"${frameName}\" donation chat frame",
- 	 	 	"eng": "perform ${amount} skip to get \"${emblem}\" emblem"
+ 	 	 	"eng": "Collect ${amount} skip points to get \"${emblem}\" emblem"
  	 	},
  	 	"desc4": {
  	 	 	"vars": [
@@ -8377,7 +8380,14 @@
  	 	 	 	"frameName"
  	 	 	],
  	 	 	"trans": "perform ${amount} skip to receive permanent \"${frameName}\" donation chat frame",
- 	 	 	"eng": "perform ${amount} skip to receive permanent \"${frameName}\" donation chat frame"
+ 	 	 	"eng": "Collect ${amount} skip points to receive permanent \"${frameName}\" donation chat frame"
+ 	 	},
+ 	 	"chatMessage1": {
+ 	 	 	"vars": [
+ 	 	 	 	"points"
+ 	 	 	],
+ 	 	 	"trans": "Receive at ${points} skip points",
+ 	 	 	"eng": "Receive at ${points} skip points"
  	 	},
  	 	"footnote1": {
  	 	 	"trans": "The skip statistic will start counting from the start of this feature for everyone.",
@@ -8393,9 +8403,13 @@
  	 	 	"trans": "Receive various exclusive cosmetics by skipping",
  	 	 	"eng": "Receive various exclusive cosmetics by skipping"
  	 	},
- 	 	"details": {
- 	 	 	"trans": "details",
- 	 	 	"eng": "details"
+ 	 	"chatMessage1": {
+ 	 	 	"vars": [
+ 	 	 	 	"skinName",
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Be a ${skinName}, ${playerName}",
+ 	 	 	"eng": "Be a ${skinName}, ${playerName}"
  	 	}
  	},
  	"thanksgivingPromo": {

@@ -548,17 +548,20 @@
  	 	},
  	 	"timeSkip": {
  	 	 	"unitTimeSkipButton": {
- 	 	 	 	"title": {
+ 	 	 	 	"minute": {
  	 	 	 	 	"vars": [
- 	 	 	 	 	 	"timeSkipMinutes",
- 	 	 	 	 	 	"timeSkipCost"
+ 	 	 	 	 	 	"minutes"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Global Skip (${timeSkipMinutes} min, cost ${timeSkipCost} Unități)",
- 	 	 	 	 	"eng": "Global Skip (${timeSkipMinutes} Min, Cost ${timeSkipCost} Units)"
+ 	 	 	 	 	"trans": "${minutes} unități",
+ 	 	 	 	 	"eng": "Skip ${minutes} minutes"
+ 	 	 	 	},
+ 	 	 	 	"title2": {
+ 	 	 	 	 	"trans": "Termina acum",
+ 	 	 	 	 	"eng": "Finish Now"
  	 	 	 	},
  	 	 	 	"description": {
  	 	 	 	 	"trans": "Global Skip vă permite să săriți timpul de așteptare AFK și să îl terminați instantaneu. \n     Acest efect va fi aplicat tuturor jucătorului care efectuează sarcina AFK",
- 	 	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\r\n    this effect will be applied to all player performing AFK task"
+ 	 	 	 	 	"eng": "Finish the task instantly for all players in the game and earn skip points to show your support to other players!"
  	 	 	 	}
  	 	 	},
  	 	 	"itemTimeSkipButton": {
@@ -4350,7 +4353,7 @@
  	 	},
  	 	"donation24": {
  	 	 	"trans": "Transport",
- 	 	 	"eng": "SkipGod"
+ 	 	 	"eng": "SkipSage"
  	 	},
  	 	"moderator": {
  	 	 	"trans": "Moderator",
@@ -5258,7 +5261,7 @@
  	 	 	"benefits": {
  	 	 	 	"1": {
  	 	 	 	 	"trans": "Titlul donației „skipgod”",
- 	 	 	 	 	"eng": "\"SkipGod\" donation title"
+ 	 	 	 	 	"eng": "\"SkipSage\" donation title"
  	 	 	 	},
  	 	 	 	"2": {
  	 	 	 	 	"trans": "Deblocați personalizarea imaginii de profil",
@@ -5266,11 +5269,11 @@
  	 	 	 	},
  	 	 	 	"3": {
  	 	 	 	 	"trans": "Skipgod Frame (cu animație)",
- 	 	 	 	 	"eng": "SkipGod frame (with animation)"
+ 	 	 	 	 	"eng": "SkipSage frame (with animation)"
  	 	 	 	},
  	 	 	 	"4": {
  	 	 	 	 	"trans": "Profilul skipgod (cu animație)",
- 	 	 	 	 	"eng": "SkipGod Profile (with animation)"
+ 	 	 	 	 	"eng": "SkipSage Profile (with animation)"
  	 	 	 	},
  	 	 	 	"5": {
  	 	 	 	 	"trans": "Deblocați bio personalizat",
@@ -8353,7 +8356,7 @@
  	 	 	 	"emblem"
  	 	 	],
  	 	 	"trans": "Efectuați ${amount} săriți pentru a obține emblema \"${emblem}\"",
- 	 	 	"eng": "perform ${amount} skip to get \"${emblem}\" emblem"
+ 	 	 	"eng": "Collect ${amount} skip points to get \"${emblem}\" emblem"
  	 	},
  	 	"desc2": {
  	 	 	"vars": [
@@ -8361,7 +8364,7 @@
  	 	 	 	"emblem"
  	 	 	],
  	 	 	"trans": "Efectuați ${amount} săriți pentru a obține emblema \"${emblem}\"",
- 	 	 	"eng": "perform ${amount} skip to get \"${emblem}\" emblem"
+ 	 	 	"eng": "Collect ${amount} skip points to get \"${emblem}\" emblem"
  	 	},
  	 	"desc3": {
  	 	 	"vars": [
@@ -8369,7 +8372,7 @@
  	 	 	 	"emblem"
  	 	 	],
  	 	 	"trans": "Efectuați ${amount} săriți pentru a primi cadrul de chat de donație permanent \"${frameName}\"",
- 	 	 	"eng": "perform ${amount} skip to get \"${emblem}\" emblem"
+ 	 	 	"eng": "Collect ${amount} skip points to get \"${emblem}\" emblem"
  	 	},
  	 	"desc4": {
  	 	 	"vars": [
@@ -8377,7 +8380,14 @@
  	 	 	 	"frameName"
  	 	 	],
  	 	 	"trans": "Efectuați ${amount} săriți pentru a primi cadrul de chat de donație permanent \"${frameName}\"",
- 	 	 	"eng": "perform ${amount} skip to receive permanent \"${frameName}\" donation chat frame"
+ 	 	 	"eng": "Collect ${amount} skip points to receive permanent \"${frameName}\" donation chat frame"
+ 	 	},
+ 	 	"chatMessage1": {
+ 	 	 	"vars": [
+ 	 	 	 	"points"
+ 	 	 	],
+ 	 	 	"trans": "Primiți la ${points} Skip Puncte",
+ 	 	 	"eng": "Receive at ${points} skip points"
  	 	},
  	 	"footnote1": {
  	 	 	"trans": "Statistica Skip va începe să numere de la începutul acestei caracteristici pentru toată lumea.",
@@ -8393,9 +8403,13 @@
  	 	 	"trans": "Primiți diverse produse cosmetice exclusive sărituri",
  	 	 	"eng": "Receive various exclusive cosmetics by skipping"
  	 	},
- 	 	"details": {
- 	 	 	"trans": "Detalii",
- 	 	 	"eng": "details"
+ 	 	"chatMessage1": {
+ 	 	 	"vars": [
+ 	 	 	 	"skinName",
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Fii un ${skinName}, ${playerName}",
+ 	 	 	"eng": "Be a ${skinName}, ${playerName}"
  	 	}
  	},
  	"thanksgivingPromo": {

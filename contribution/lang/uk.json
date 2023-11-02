@@ -548,17 +548,20 @@
  	 	},
  	 	"timeSkip": {
  	 	 	"unitTimeSkipButton": {
- 	 	 	 	"title": {
+ 	 	 	 	"minute": {
  	 	 	 	 	"vars": [
- 	 	 	 	 	 	"timeSkipMinutes",
- 	 	 	 	 	 	"timeSkipCost"
+ 	 	 	 	 	 	"minutes"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Глобальне прискорення на (${timeSkipMinutes} хв, вартість ${timeSkipCost} Юнітів)",
- 	 	 	 	 	"eng": "Global Skip (${timeSkipMinutes} Min, Cost ${timeSkipCost} Units)"
+ 	 	 	 	 	"trans": "Пропустити ${minutes} хвилини",
+ 	 	 	 	 	"eng": "Skip ${minutes} minutes"
+ 	 	 	 	},
+ 	 	 	 	"title2": {
+ 	 	 	 	 	"trans": "Закінчити зараз",
+ 	 	 	 	 	"eng": "Finish Now"
  	 	 	 	},
  	 	 	 	"description": {
  	 	 	 	 	"trans": "Глобальне прискорення дозволяє пришвидшити виконання AFK завдання, і завершити його миттєво.\n    цей ефект буде застосовано до всіх гравців, що виконують AFK завдання",
- 	 	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\r\n    this effect will be applied to all player performing AFK task"
+ 	 	 	 	 	"eng": "Finish the task instantly for all players in the game and earn skip points to show your support to other players!"
  	 	 	 	}
  	 	 	},
  	 	 	"itemTimeSkipButton": {
@@ -4350,7 +4353,7 @@
  	 	},
  	 	"donation24": {
  	 	 	"trans": "Доставка",
- 	 	 	"eng": "SkipGod"
+ 	 	 	"eng": "SkipSage"
  	 	},
  	 	"moderator": {
  	 	 	"trans": "Модератор",
@@ -5258,7 +5261,7 @@
  	 	 	"benefits": {
  	 	 	 	"1": {
  	 	 	 	 	"trans": "Назва пожертви \"Skipgod\"",
- 	 	 	 	 	"eng": "\"SkipGod\" donation title"
+ 	 	 	 	 	"eng": "\"SkipSage\" donation title"
  	 	 	 	},
  	 	 	 	"2": {
  	 	 	 	 	"trans": "Розблокувати налаштування зображення профілю",
@@ -5266,11 +5269,11 @@
  	 	 	 	},
  	 	 	 	"3": {
  	 	 	 	 	"trans": "Skipgod Frame (з анімацією)",
- 	 	 	 	 	"eng": "SkipGod frame (with animation)"
+ 	 	 	 	 	"eng": "SkipSage frame (with animation)"
  	 	 	 	},
  	 	 	 	"4": {
  	 	 	 	 	"trans": "Профіль Skipgod (з анімацією)",
- 	 	 	 	 	"eng": "SkipGod Profile (with animation)"
+ 	 	 	 	 	"eng": "SkipSage Profile (with animation)"
  	 	 	 	},
  	 	 	 	"5": {
  	 	 	 	 	"trans": "Розблокувати власну біографію",
@@ -8554,7 +8557,7 @@
  	 	 	 	"emblem"
  	 	 	],
  	 	 	"trans": "Виконайте ${amount} пропустити, щоб отримати емблему \"${emblem}\"",
- 	 	 	"eng": "perform ${amount} skip to get \"${emblem}\" emblem"
+ 	 	 	"eng": "Collect ${amount} skip points to get \"${emblem}\" emblem"
  	 	},
  	 	"desc2": {
  	 	 	"vars": [
@@ -8562,7 +8565,7 @@
  	 	 	 	"emblem"
  	 	 	],
  	 	 	"trans": "Виконайте ${amount} пропустити, щоб отримати емблему \"${emblem}\"",
- 	 	 	"eng": "perform ${amount} skip to get \"${emblem}\" emblem"
+ 	 	 	"eng": "Collect ${amount} skip points to get \"${emblem}\" emblem"
  	 	},
  	 	"desc3": {
  	 	 	"vars": [
@@ -8570,7 +8573,7 @@
  	 	 	 	"emblem"
  	 	 	],
  	 	 	"trans": "Виконайте ${amount} пропустити, щоб отримати емблему \"${frameName}\"",
- 	 	 	"eng": "perform ${amount} skip to get \"${emblem}\" emblem"
+ 	 	 	"eng": "Collect ${amount} skip points to get \"${emblem}\" emblem"
  	 	},
  	 	"desc4": {
  	 	 	"vars": [
@@ -8578,7 +8581,14 @@
  	 	 	 	"frameName"
  	 	 	],
  	 	 	"trans": "Виконайте ${amount} пропустити, щоб отримати постійний кадр \"${frameName}\" пожертвування",
- 	 	 	"eng": "perform ${amount} skip to receive permanent \"${frameName}\" donation chat frame"
+ 	 	 	"eng": "Collect ${amount} skip points to receive permanent \"${frameName}\" donation chat frame"
+ 	 	},
+ 	 	"chatMessage1": {
+ 	 	 	"vars": [
+ 	 	 	 	"points"
+ 	 	 	],
+ 	 	 	"trans": "Отримати за адресою ${points} пропустіть бали",
+ 	 	 	"eng": "Receive at ${points} skip points"
  	 	},
  	 	"footnote1": {
  	 	 	"trans": "Статистика пропускання почне рахувати з початку цієї функції для всіх.",
@@ -8594,9 +8604,13 @@
  	 	 	"trans": "Отримайте різні ексклюзивні косметики, пропускаючи",
  	 	 	"eng": "Receive various exclusive cosmetics by skipping"
  	 	},
- 	 	"details": {
- 	 	 	"trans": "деталі",
- 	 	 	"eng": "details"
+ 	 	"chatMessage1": {
+ 	 	 	"vars": [
+ 	 	 	 	"skinName",
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Бути ${skinName}, ${playerName}",
+ 	 	 	"eng": "Be a ${skinName}, ${playerName}"
  	 	}
  	},
  	"thanksgivingPromo": {

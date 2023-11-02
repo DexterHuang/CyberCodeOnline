@@ -548,17 +548,20 @@
  	 	},
  	 	"timeSkip": {
  	 	 	"unitTimeSkipButton": {
- 	 	 	 	"title": {
+ 	 	 	 	"minute": {
  	 	 	 	 	"vars": [
- 	 	 	 	 	 	"timeSkipMinutes",
- 	 	 	 	 	 	"timeSkipCost"
+ 	 	 	 	 	 	"minutes"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Global Skip (${timeSkipMinutes} menit, biaya ${timeSkipCost} Units)",
- 	 	 	 	 	"eng": "Global Skip (${timeSkipMinutes} Min, Cost ${timeSkipCost} Units)"
+ 	 	 	 	 	"trans": "${minutes} unit",
+ 	 	 	 	 	"eng": "Skip ${minutes} minutes"
+ 	 	 	 	},
+ 	 	 	 	"title2": {
+ 	 	 	 	 	"trans": "Selesaikan sekarang",
+ 	 	 	 	 	"eng": "Finish Now"
  	 	 	 	},
  	 	 	 	"description": {
  	 	 	 	 	"trans": "Skip Global memungkinkan kamu untuk melewati waktu tunggu AFK, dan menyelesaikannya secara instan. \n     Efek ini akan diterapkan pada semua pemain yang melakukan tugas AFK",
- 	 	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\r\n    this effect will be applied to all player performing AFK task"
+ 	 	 	 	 	"eng": "Finish the task instantly for all players in the game and earn skip points to show your support to other players!"
  	 	 	 	}
  	 	 	},
  	 	 	"itemTimeSkipButton": {
@@ -4350,7 +4353,7 @@
  	 	},
  	 	"donation24": {
  	 	 	"trans": "Pengiriman",
- 	 	 	"eng": "SkipGod"
+ 	 	 	"eng": "SkipSage"
  	 	},
  	 	"moderator": {
  	 	 	"trans": "Moderator",
@@ -5258,7 +5261,7 @@
  	 	 	"benefits": {
  	 	 	 	"1": {
  	 	 	 	 	"trans": "Judul Donasi \"Skipgod\"",
- 	 	 	 	 	"eng": "\"SkipGod\" donation title"
+ 	 	 	 	 	"eng": "\"SkipSage\" donation title"
  	 	 	 	},
  	 	 	 	"2": {
  	 	 	 	 	"trans": "Buka kunci Kustomisasi Gambar Profil",
@@ -5266,11 +5269,11 @@
  	 	 	 	},
  	 	 	 	"3": {
  	 	 	 	 	"trans": "Bingkai skipgod (dengan animasi)",
- 	 	 	 	 	"eng": "SkipGod frame (with animation)"
+ 	 	 	 	 	"eng": "SkipSage frame (with animation)"
  	 	 	 	},
  	 	 	 	"4": {
  	 	 	 	 	"trans": "Profil Skipgod (dengan animasi)",
- 	 	 	 	 	"eng": "SkipGod Profile (with animation)"
+ 	 	 	 	 	"eng": "SkipSage Profile (with animation)"
  	 	 	 	},
  	 	 	 	"5": {
  	 	 	 	 	"trans": "Buka Kunci Bio Kustom",
@@ -8353,7 +8356,7 @@
  	 	 	 	"emblem"
  	 	 	],
  	 	 	"trans": "Lakukan ${amount} Lewati untuk mendapatkan \"${emblem}\" Emblem",
- 	 	 	"eng": "perform ${amount} skip to get \"${emblem}\" emblem"
+ 	 	 	"eng": "Collect ${amount} skip points to get \"${emblem}\" emblem"
  	 	},
  	 	"desc2": {
  	 	 	"vars": [
@@ -8361,7 +8364,7 @@
  	 	 	 	"emblem"
  	 	 	],
  	 	 	"trans": "Lakukan ${amount} Lewati untuk mendapatkan \"${emblem}\" Emblem",
- 	 	 	"eng": "perform ${amount} skip to get \"${emblem}\" emblem"
+ 	 	 	"eng": "Collect ${amount} skip points to get \"${emblem}\" emblem"
  	 	},
  	 	"desc3": {
  	 	 	"vars": [
@@ -8369,7 +8372,7 @@
  	 	 	 	"emblem"
  	 	 	],
  	 	 	"trans": "Lakukan ${amount} Lewati untuk mendapatkan \"${frameName}\" Emblem",
- 	 	 	"eng": "perform ${amount} skip to get \"${emblem}\" emblem"
+ 	 	 	"eng": "Collect ${amount} skip points to get \"${emblem}\" emblem"
  	 	},
  	 	"desc4": {
  	 	 	"vars": [
@@ -8377,7 +8380,14 @@
  	 	 	 	"frameName"
  	 	 	],
  	 	 	"trans": "Lakukan ${amount} lewati untuk menerima bingkai obrolan donasi \"${frameName}\" permanen \"",
- 	 	 	"eng": "perform ${amount} skip to receive permanent \"${frameName}\" donation chat frame"
+ 	 	 	"eng": "Collect ${amount} skip points to receive permanent \"${frameName}\" donation chat frame"
+ 	 	},
+ 	 	"chatMessage1": {
+ 	 	 	"vars": [
+ 	 	 	 	"points"
+ 	 	 	],
+ 	 	 	"trans": "Menerima di ${points} lewati titik",
+ 	 	 	"eng": "Receive at ${points} skip points"
  	 	},
  	 	"footnote1": {
  	 	 	"trans": "Statistik Skip akan mulai menghitung dari awal fitur ini untuk semua orang.",
@@ -8393,9 +8403,13 @@
  	 	 	"trans": "Menerima berbagai kosmetik eksklusif dengan melewatkan",
  	 	 	"eng": "Receive various exclusive cosmetics by skipping"
  	 	},
- 	 	"details": {
- 	 	 	"trans": "Detail",
- 	 	 	"eng": "details"
+ 	 	"chatMessage1": {
+ 	 	 	"vars": [
+ 	 	 	 	"skinName",
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "Menjadi ${skinName}, ${playerName}",
+ 	 	 	"eng": "Be a ${skinName}, ${playerName}"
  	 	}
  	},
  	"thanksgivingPromo": {
