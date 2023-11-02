@@ -33,7 +33,7 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ## Updates
 
 0.1812
--   Added Thanksgiving event, during the event period, Scavenging and AKF farm bot will drop `Roasted Turkey` rarely.
+-   Added Thanksgiving event, during the event period, Scavenging and AFK farm bot will drop `Roasted Turkey` rarely.
     - Consuming Roasted Turkey gives your `AFK EXP Boost` effect for 20 minutes, during this status effect, AFK tasks completed will gain +20% EXP. Please note, the bonus EXP check is when you finish your AFK task not when the task started; so in order to receive the bonus EXP, please ensure that the buff is active when your AFK task finishes.
 -   Added skip count statistic to player profile, you can now see your and others' total skip count. **Because this is a new statistic previously not tracked, everyone's count will start from this update**
 -   Added skip-exclusive cosmetics, including emblems and chat frames, these can only be obtained by reaching specific skip counts.
