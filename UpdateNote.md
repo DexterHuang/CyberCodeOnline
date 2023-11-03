@@ -31,6 +31,12 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
+0.1814
+
+-   Added skip point to leaderboard
+-   Optimized leaderboard loading time, and changed the leaderboard to refresh every one hour, to increase efficiency and increase speed
+-   Added translation support to leaderboard UI
+
 0.1813
 
 -   With many discussion and feedbacks from the community, the skip count statistic will be a point system where:
