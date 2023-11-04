@@ -31,6 +31,10 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
+0.1815
+
+-   Updated leaderboard UI, making it clear which boards are game-play based which are contribution based.
+
 0.1814
 
 -   Added skip point to leaderboard
