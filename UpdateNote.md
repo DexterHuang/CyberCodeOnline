@@ -34,6 +34,7 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 0.1815
 
 -   Updated leaderboard UI, making it clear which boards are game-play based which are contribution based.
+-   Optimized leaderboard loading for all boards, allowing us to show 32 players per board instead of 16 previously for all boards
 
 0.1814
 
