@@ -325,6 +325,7 @@ Redinator
 [Ryujin](https://github.com/Ryujin-cybercode)
 Satan
 [Skippayy](https://github.com/skippayyyy)
+[Tallerpie](https://github.com/Tallerpie)
 [Tripplehelix](https://github.com/tripplehelix)
 [Veyrin](https://github.com/darkrevelations)
 [Sakura](https://github.com/lux-sakura)
