@@ -33,7 +33,7 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 0.1816
 
--   Market place item, purchase item UI has been reworked to provide a more streamlined experience, no longer to fill up multiple popups and instead all in one page.![Alt text](image.png)
+-   Market place item, purchase item UI has been reworked to provide a more streamlined experience, no longer to fill up multiple popups and instead all in one page.
 
 ![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/20401be3-12b0-4dc2-aecc-1a33b0954c99)
 ![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/a3f1b601-3fca-4bdf-ac88-eb1408c12d8d)
