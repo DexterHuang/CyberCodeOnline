@@ -31,6 +31,11 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
+0.1816
+
+-   Market place item, purchase item UI has been re-worked to provide more streamlined experience, no longer to fill up multiple popup and instead all in one page.![Alt text](image.png)
+-   Rewrite of the captcha image generation system, now it is much more efficient and faster, and also more secure.
+
 0.1815
 
 -   Updated leaderboard UI, making it clear which boards are game-play based which are contribution based.
