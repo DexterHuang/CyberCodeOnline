@@ -41,6 +41,24 @@
  	 	 	 	"eng": "Too many items selected"
  	 	 	}
  	 	},
+ 	 	"generalCaptcha": {
+ 	 	 	"inputLabel": {
+ 	 	 	 	"trans": "Mã PIN",
+ 	 	 	 	"eng": "Pin Code"
+ 	 	 	},
+ 	 	 	"inputPlaceholder": {
+ 	 	 	 	"trans": "Nhập mã PIN",
+ 	 	 	 	"eng": "Enter pin code"
+ 	 	 	},
+ 	 	 	"story": {
+ 	 	 	 	"trans": "Bạn tìm thấy một chiếc két sắt cũ bị khóa, có vẻ như là một chiếc hộp có chữ viết trên đó.",
+ 	 	 	 	"eng": "You found an old locked safe box, there seems like a post-it with some text written on it."
+ 	 	 	},
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Cần mã PIN để mở khóa",
+ 	 	 	 	"eng": "Pin code required to unlock"
+ 	 	 	}
+ 	 	},
  	 	"clan": {
  	 	 	"selectDepositAmount": {
  	 	 	 	"title": {
@@ -299,24 +317,6 @@
  	 	 	 	 	 	"eng": "Destruct."
  	 	 	 	 	}
  	 	 	 	}
- 	 	 	}
- 	 	},
- 	 	"generalCaptcha": {
- 	 	 	"story": {
- 	 	 	 	"trans": "Bạn tìm thấy một chiếc két sắt cũ bị khóa, có vẻ như là một chiếc hộp có chữ viết trên đó.",
- 	 	 	 	"eng": "You found an old locked safe box, there seems like a post-it with some text written on it."
- 	 	 	},
- 	 	 	"title": {
- 	 	 	 	"trans": "Cần mã PIN để mở khóa",
- 	 	 	 	"eng": "Pin code required to unlock"
- 	 	 	},
- 	 	 	"inputLabel": {
- 	 	 	 	"trans": "Mã PIN",
- 	 	 	 	"eng": "Pin Code"
- 	 	 	},
- 	 	 	"inputPlaceholder": {
- 	 	 	 	"trans": "Nhập mã PIN",
- 	 	 	 	"eng": "Enter pin code"
  	 	 	}
  	 	},
  	 	"chat": {
@@ -1127,13 +1127,13 @@
  	 	 	 	"trans": "Hiện tại không có mặt hàng nào được bán cho danh mục này",
  	 	 	 	"eng": "there is currently no items on sale for this category"
  	 	 	},
- 	 	 	"buy": {
- 	 	 	 	"trans": "Mua hàng",
- 	 	 	 	"eng": "Purchase"
+ 	 	 	"pricePerPiece": {
+ 	 	 	 	"trans": "mỗi mục",
+ 	 	 	 	"eng": "per item"
  	 	 	},
- 	 	 	"remove": {
- 	 	 	 	"trans": "Xóa",
- 	 	 	 	"eng": "Remove"
+ 	 	 	"purchase": {
+ 	 	 	 	"trans": "Mua",
+ 	 	 	 	"eng": "Purchase"
  	 	 	},
  	 	 	"stall": {
  	 	 	 	"sellItemButton": {
@@ -1699,6 +1699,39 @@
  	 	 	"title": {
  	 	 	 	"trans": "Nhập mật mã để tiếp tục",
  	 	 	 	"eng": "Enter system passcode to proceed"
+ 	 	 	}
+ 	 	},
+ 	 	"marketItemPurchaseModal": {
+ 	 	 	"amount": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"price",
+ 	 	 	 	 	"amount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${price} btc mỗi mảnh cho các mảnh ${amount}",
+ 	 	 	 	"eng": "${price} btc per piece for ${amount} pieces"
+ 	 	 	}
+ 	 	},
+ 	 	"marketItemSellModal": {
+ 	 	 	"amountTitle": {
+ 	 	 	 	"trans": "Số lượng để đưa ra thị trường",
+ 	 	 	 	"eng": "Quantity to put on market"
+ 	 	 	},
+ 	 	 	"priceTitle": {
+ 	 	 	 	"trans": "Giá mỗi mảnh",
+ 	 	 	 	"eng": "Price per piece"
+ 	 	 	},
+ 	 	 	"footer": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"price",
+ 	 	 	 	 	"quantity",
+ 	 	 	 	 	"totalPrice"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Mục này sẽ được bán với giá ${price} mỗi mảnh cho các mảnh ${quantity}, nếu tất cả các mảnh được bán, bạn sẽ nhận được ${totalPrice}",
+ 	 	 	 	"eng": "This item will be sold for ${price} per piece for ${quantity} pieces, if all pieces are sold you will receive ${totalPrice}"
+ 	 	 	},
+ 	 	 	"sell": {
+ 	 	 	 	"trans": "Đặt hàng trên thị trường",
+ 	 	 	 	"eng": "Place Item on Market"
  	 	 	}
  	 	},
  	 	"dungeon": {
@@ -7842,52 +7875,6 @@
  	 	}
  	},
  	"market": {
- 	 	"amountSelectModal": {
- 	 	 	"title": {
- 	 	 	 	"trans": "Bạn muốn mua bao nhiêu cái?",
- 	 	 	 	"eng": "How many would you like to purchase?"
- 	 	 	},
- 	 	 	"totalPrice": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"total"
- 	 	 	 	],
- 	 	 	 	"trans": "Nó sẽ tốn tổng cộng ${total} Bitcoin",
- 	 	 	 	"eng": "it will cost ${total} Bitcoin total"
- 	 	 	}
- 	 	},
- 	 	"notEnoughMoney": {
- 	 	 	"trans": "Không đủ Bitcoin",
- 	 	 	"eng": "Insufficient bitcoin"
- 	 	},
- 	 	"priceSelectModal": {
- 	 	 	"title2": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"itemName"
- 	 	 	 	],
- 	 	 	 	"trans": "Giá cho ${itemName}",
- 	 	 	 	"eng": "Price for ${itemName}"
- 	 	 	}
- 	 	},
- 	 	"priceConfirm": {
- 	 	 	"vars": [
- 	 	 	 	"amountStr",
- 	 	 	 	"priceStr",
- 	 	 	 	"itemName"
- 	 	 	],
- 	 	 	"trans": "Bạn đang bán ${amountStr} ${itemName}, với giá ${priceStr} một cái",
- 	 	 	"eng": "You are selling ${amountStr} ${itemName}(s), at the price of ${priceStr} Per Item"
- 	 	},
- 	 	"totalConfirm": {
- 	 	 	"vars": [
- 	 	 	 	"total"
- 	 	 	],
- 	 	 	"trans": "Nếu tất cả được bán hết, bạn sẽ nhận được ${total} BitCoin",
- 	 	 	"eng": "If all items are sold, you will earn ${total} BitCoins"
- 	 	},
- 	 	"sellAmountModalTitle": {
- 	 	 	"trans": "Bạn muốn bán bao nhiêu cái?",
- 	 	 	"eng": "How many would you like to sell?"
- 	 	},
  	 	"upgradeSlot": {
  	 	 	"trans": "Nâng cấp",
  	 	 	"eng": "Upgrade"
@@ -7906,6 +7893,12 @@
  	 	 	],
  	 	 	"trans": "Bạn có thể tăng ô chợ thị trường của mình lên ${slot} bằng cách trả ${price} Bitcoin",
  	 	 	"eng": "You can increase your market slot to ${slot} by paying ${price} BitCoins"
+ 	 	},
+ 	 	"purchaseModal": {
+ 	 	 	"purchase": {
+ 	 	 	 	"trans": "Mua",
+ 	 	 	 	"eng": "Purchase"
+ 	 	 	}
  	 	}
  	},
  	"mobile": {
@@ -8962,6 +8955,16 @@
  	 	 	],
  	 	 	"trans": "Bạn đã gửi thành công một biểu tượng cho người chơi \"${playerName}\"",
  	 	 	"eng": "You have successfully sent an emblem to player \"${playerName}\""
+ 	 	}
+ 	},
+ 	"captcha": {
+ 	 	"success": {
+ 	 	 	"trans": "Mã pin được chấp nhận",
+ 	 	 	"eng": "Pin code accepted"
+ 	 	},
+ 	 	"invalid": {
+ 	 	 	"trans": "Mã pin không hợp lệ",
+ 	 	 	"eng": "Invalid Pin Code"
  	 	}
  	},
  	"chatModuleHelper": {

@@ -41,6 +41,24 @@
 				"eng": "Too many items selected"
 			}
 		},
+		"generalCaptcha": {
+			"inputLabel": {
+				"trans": "PIN碼",
+				"eng": "Pin Code"
+			},
+			"inputPlaceholder": {
+				"trans": "輸入PIN碼",
+				"eng": "Enter pin code"
+			},
+			"story": {
+				"trans": "您找到了一個上鎖的舊保險箱，上面的便利貼好像寫了些什麼。",
+				"eng": "You found an old locked safe box, there seems like a post-it with some text written on it."
+			},
+			"title": {
+				"trans": "解鎖所需的PIN碼",
+				"eng": "Pin code required to unlock"
+			}
+		},
 		"clan": {
 			"selectDepositAmount": {
 				"title": {
@@ -299,24 +317,6 @@
 						"eng": "Destruct."
 					}
 				}
-			}
-		},
-		"generalCaptcha": {
-			"story": {
-				"trans": "您找到了一個上鎖的舊保險箱，上面的便利貼好像寫了些什麼。",
-				"eng": "You found an old locked safe box, there seems like a post-it with some text written on it."
-			},
-			"title": {
-				"trans": "解鎖所需的PIN碼",
-				"eng": "Pin code required to unlock"
-			},
-			"inputLabel": {
-				"trans": "PIN碼",
-				"eng": "Pin Code"
-			},
-			"inputPlaceholder": {
-				"trans": "輸入PIN碼",
-				"eng": "Enter pin code"
 			}
 		},
 		"chat": {
@@ -1127,13 +1127,13 @@
 				"trans": "目前沒有販賣此類的物品",
 				"eng": "there is currently no items on sale for this category"
 			},
-			"buy": {
+			"pricePerPiece": {
+				"trans": "每件",
+				"eng": "per item"
+			},
+			"purchase": {
 				"trans": "購買",
 				"eng": "Purchase"
-			},
-			"remove": {
-				"trans": "移除",
-				"eng": "Remove"
 			},
 			"stall": {
 				"sellItemButton": {
@@ -1699,6 +1699,39 @@
 			"title": {
 				"trans": "輸入系統密碼以繼續",
 				"eng": "Enter system passcode to proceed"
+			}
+		},
+		"marketItemPurchaseModal": {
+			"amount": {
+				"vars": [
+					"price",
+					"amount"
+				],
+				"trans": "${price} btc每件 ${amount}件",
+				"eng": "${price} btc per piece for ${amount} pieces"
+			}
+		},
+		"marketItemSellModal": {
+			"amountTitle": {
+				"trans": "投放市場的數量",
+				"eng": "Quantity to put on market"
+			},
+			"priceTitle": {
+				"trans": "每件價格",
+				"eng": "Price per piece"
+			},
+			"footer": {
+				"vars": [
+					"price",
+					"quantity",
+					"totalPrice"
+				],
+				"trans": "此項物品將以${quantity}個每個${price}的價格出售及，如果出售了所有零件，您將收到${totalPrice}",
+				"eng": "This item will be sold for ${price} per piece for ${quantity} pieces, if all pieces are sold you will receive ${totalPrice}"
+			},
+			"sell": {
+				"trans": "將物品放在市場上",
+				"eng": "Place Item on Market"
 			}
 		},
 		"dungeon": {
@@ -8046,52 +8079,6 @@
 		}
 	},
 	"market": {
-		"amountSelectModal": {
-			"title": {
-				"trans": "您想購買多少？",
-				"eng": "How many would you like to purchase?"
-			},
-			"totalPrice": {
-				"vars": [
-					"total"
-				],
-				"trans": "總共將花費${total}比特幣",
-				"eng": "it will cost ${total} Bitcoin total"
-			}
-		},
-		"notEnoughMoney": {
-			"trans": "比特幣不足",
-			"eng": "Insufficient bitcoin"
-		},
-		"priceSelectModal": {
-			"title2": {
-				"vars": [
-					"itemName"
-				],
-				"trans": "${itemName}的價格",
-				"eng": "Price for ${itemName}"
-			}
-		},
-		"priceConfirm": {
-			"vars": [
-				"amountStr",
-				"priceStr",
-				"itemName"
-			],
-			"trans": "您以每件${priceStr}的商品價格販賣${amountStr} ${itemName}",
-			"eng": "You are selling ${amountStr} ${itemName}(s), at the price of ${priceStr} Per Item"
-		},
-		"totalConfirm": {
-			"vars": [
-				"total"
-			],
-			"trans": "所有物品售出後，您將獲得${total}比特幣",
-			"eng": "If all items are sold, you will earn ${total} BitCoins"
-		},
-		"sellAmountModalTitle": {
-			"trans": "您想出售多少？",
-			"eng": "How many would you like to sell?"
-		},
 		"upgradeSlot": {
 			"trans": "升級",
 			"eng": "Upgrade"
@@ -8110,6 +8097,12 @@
 			],
 			"trans": "您可以透過支付${price}Bitcoin來將您的市場貨架增加到${slot}格",
 			"eng": "You can increase your market slot to ${slot} by paying ${price} BitCoins"
+		},
+		"purchaseModal": {
+			"purchase": {
+				"trans": "購買",
+				"eng": "Purchase"
+			}
 		}
 	},
 	"mobile": {
@@ -9166,6 +9159,16 @@
 			],
 			"trans": "您已成功將徽章送給玩家“ ${playerName}”",
 			"eng": "You have successfully sent an emblem to player \"${playerName}\""
+		}
+	},
+	"captcha": {
+		"success": {
+			"trans": "PIN代碼以接受",
+			"eng": "Pin code accepted"
+		},
+		"invalid": {
+			"trans": "無效的PIN代碼",
+			"eng": "Invalid Pin Code"
 		}
 	},
 	"chatModuleHelper": {
