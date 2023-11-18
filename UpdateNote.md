@@ -30,10 +30,10 @@ If you would like to help maintain CyberCode Online, please feel free to submit 
 Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) on how to submit a PR on our GitHub.
 
 ## Notice
-With player feedback, we have postponed the change to `Autonomous Storage Unit`'s tradable status to untradable, instead, it is now tradable again.
+With player feedback and discussion with players, we have postponed the change to `Autonomous Storage Unit`'s tradable status to untradable, instead, it is now tradable again.
 and will be updated to not tradable on 01/01/2024 giving everyone plenty of time to arrange their ASU.
 
-經過仔細聽取玩家的反饋, `Autonomous Storage Unit`(ASU) 已先改回可交易, 讓各位有時間安排AUS的處理方式, 
+經過仔細聽取玩家的反饋和與玩家討論後, `Autonomous Storage Unit`(ASU) 已先改回可交易, 讓各位有時間安排AUS的處理方式, 
 ASU會在明年2024年1月1號才更新為不可交易 給予大家充足的時間
 
 Again, thank you for all the valuable feedback :)
