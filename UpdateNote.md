@@ -37,6 +37,7 @@ and will be updated to not tradable on 01/01/2024 giving everyone plenty of time
 ASU會在明年2024年1月1號才更新為不可交易 給予大家充足的時間
 
 Again, thank you for all the valuable feedback :)
+
 再次感謝大家的寶貴意見與討論:)
 
 ## Updates
