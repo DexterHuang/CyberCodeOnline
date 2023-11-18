@@ -39,7 +39,7 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/a3f1b601-3fca-4bdf-ac88-eb1408c12d8d)
 -   Rewrite of the captcha image generation system, now it is much more efficient faster, and more secure.
 -   Fixed server-side issues
--   The top tier Backpack `Autonomous Storage Unit` has been changed to untradable, this is to prevent inflation in the backpack market. ensuring backpacks and related materials stays valuable for traders and other players. 
+-   The top tier Backpack `Autonomous Storage Unit` has been changed to untradable, this is to prevent inflation in the backpack market. ensuring backpacks and related materials stay valuable for traders, producers and buyers. 
 
 0.1815
 
