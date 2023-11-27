@@ -30,11 +30,12 @@ If you would like to help maintain CyberCode Online, please feel free to submit 
 Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) on how to submit a PR on our GitHub.
 
 ## Notice
+
 With player feedback and discussion with players, we have postponed the change to `Autonomous Storage Unit`'s tradable status to untradable, instead, it is now tradable again.
 and will be updated to not tradable on 01/01/2024 giving everyone plenty of time to arrange their ASU.
 
-經過仔細聽取玩家的反饋和與玩家討論後, `Autonomous Storage Unit`(ASU) 已先改回可交易, 讓各位有時間安排ASU的處理方式, 
-ASU會在明年2024年1月1號才更新為不可交易 給予大家充足的時間
+經過仔細聽取玩家的反饋和與玩家討論後, `Autonomous Storage Unit`(ASU) 已先改回可交易, 讓各位有時間安排 ASU 的處理方式,
+ASU 會在明年 2024 年 1 月 1 號才更新為不可交易 給予大家充足的時間
 
 Again, thank you for all the valuable feedback :)
 
@@ -44,6 +45,7 @@ Again, thank you for all the valuable feedback :)
 
 0.1817
 
+-   Updated rules to include example for "no IRL trading", to better clarify that trading with virtual currencies such as Google Play Cards or other points from other services are example of indirect trading IRL money. please see the actual rules for the details.
 -   Optimized SLANC's backend logic
 -   Now player who is muted or suspended cannot be tagged, to discourage the muted individuals motivated by attention from getting even more attention.
 -   Other various chat server fixes and optimizations
@@ -54,6 +56,7 @@ Again, thank you for all the valuable feedback :)
 
 ![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/20401be3-12b0-4dc2-aecc-1a33b0954c99)
 ![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/a3f1b601-3fca-4bdf-ac88-eb1408c12d8d)
+
 -   Rewrite of the captcha image generation system, now it is much more efficient faster, and more secure.
 -   Fixed server-side issues
 
@@ -61,7 +64,6 @@ Again, thank you for all the valuable feedback :)
 
 -   Updated leaderboard UI, making it clear which boards are game-play based which are contribution-based.
 -   Optimized leaderboard loading for all boards, allowing us to show 32 players per board instead of 16 previously for all boards
-
 
 0.1814
 
