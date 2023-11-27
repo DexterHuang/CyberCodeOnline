@@ -45,7 +45,7 @@ Again, thank you for all the valuable feedback :)
 0.1817
 
 -   Optimized SLANC's backend logic
--   Now player who is muted or suspended cannot be tagged, to discourage trolls from getting attention
+-   Now player who is muted or suspended cannot be tagged, to discourage the attention-seeking type of muted individuals from getting even more attention.
 -   Other various chat server fixes and optimizations
 
 0.1816
