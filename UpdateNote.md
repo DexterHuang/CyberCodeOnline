@@ -42,6 +42,12 @@ Again, thank you for all the valuable feedback :)
 
 ## Updates
 
+0.1817
+
+-   Optimized SLANC's backend logic
+-   Now player who is muted or suspended cannot be tagged, to discourage trolls from getting attention
+-   Other various chat server fixes and optimizations
+
 0.1816
 
 -   Market place item, purchase item UI has been reworked to provide a more streamlined experience, no longer to fill up multiple popups and instead all in one page.
@@ -55,9 +61,6 @@ Again, thank you for all the valuable feedback :)
 
 -   Updated leaderboard UI, making it clear which boards are game-play based which are contribution-based.
 -   Optimized leaderboard loading for all boards, allowing us to show 32 players per board instead of 16 previously for all boards
--   Optimized SLANC's backend logic
--   Now player who is muted or suspended cannot be tagged, to discourage trolls from getting attention
--   Other various chat server fixes and optimizations
 
 
 0.1814
