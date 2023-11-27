@@ -57,6 +57,7 @@ Again, thank you for all the valuable feedback :)
 -   Optimized leaderboard loading for all boards, allowing us to show 32 players per board instead of 16 previously for all boards
 -   Optimized SLANC's backend logic
 -   Now player who is muted or suspended cannot be tagged, to discourage trolls from getting attention
+-   Other various chat server fixes and optimizations
 
 
 0.1814
