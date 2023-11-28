@@ -144,6 +144,7 @@ ClayBravo6
 [Elrecoal-19](https://github.com/Elrecoal-19)
 Ambr_ence
 Vargur
+[lag145](https://github.com/lag145)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
