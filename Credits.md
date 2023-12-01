@@ -145,6 +145,7 @@ ClayBravo6
 Ambr_ence
 Vargur
 [lag145](https://github.com/lag145)
+[Mackerels](https://github.com/mackerels0x00)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
@@ -287,6 +288,7 @@ Vega_Efsunborn
 [Laani](https://github.com/Laani)
 [Manz](https://github.com/manztellen)
 [Christophers27](https://github.com/Christophers27)
+[Mackerels](https://github.com/mackerels0x00)
 
 ## Game resources (words)
 [apetro](https://github.com/apetro/)
