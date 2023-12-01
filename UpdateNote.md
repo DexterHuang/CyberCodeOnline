@@ -43,6 +43,17 @@ Again, thank you for all the valuable feedback :)
 
 ## Updates
 
+0.1818
+
+-   Christmas Event starts today, during december, enemies, scavenge and AFK farm bot will have chance of dropping `Frosty Container` and `Christmas Pudding`
+-   You can open Frosty Container to get a various rewards, including chance of EPIC Cache and Tech Scrap Cluster
+-   You can consume Christmas Pudding to get a 20 minutes buff that gives you +20% EXP gain from AFK tasks
+-   Added Christmas themed cosmetics, including emblems and chat frames.
+-   Skip announcement now is translatable and a button to send street cred to the skipper is added.
+-   Added a new leaderboard for crafting epic equipment and ASU, all the counting will start from this update for fairness because there was no previous tracking for this.
+-   Updated the crafted epic equipment announcement to include item data, you will be able to click on the item name to view the item's detail.
+-   Fixed issue with time desync on some devices, preventing AFK task time to show correctly.
+
 0.1817
 
 -   Updated rules to include example for "no IRL trading", to better clarify that trading with virtual currencies such as Google Play Cards or other points from other services are example of indirect trading IRL money. please see the actual rules for the details.
