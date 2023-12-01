@@ -53,6 +53,7 @@ Again, thank you for all the valuable feedback :)
 -   Added a new leaderboard for crafting epic equipment and ASU, all the counting will start from this update for fairness because there was no previous tracking for this.
 -   Updated the crafted epic equipment announcement to include item data, you will be able to click on the item name to view the item's detail.
 -   Fixed issue with time desync on some devices, preventing AFK task time to show correctly.
+-   Fixed when client time is incorrect, chat message can sent from client can show in a incorrect place (stuck at bottom or show up in the middle of message less instead of the bottom)
 
 0.1817
 
