@@ -43,6 +43,15 @@ Again, thank you for all the valuable feedback :)
 
 ## Updates
 
+0.1819
+
+-   Updated some images
+-   Now on equipment upgrade module selection menu, it should not show you modules you cannot use due to insufficient level and only show those you can use on the item.
+-   Updated leaderboard UI to include numbering so its easier to know which rank you are in
+-   Fixed issue with translated text showing incorrectly in notifications and discord log
+-   Fixed EXP calculation on AFK exp boost, there was a bug where in some situation the bonus EXP was not calculated correctly
+-   Slight adjustment on system message UI
+
 0.1818
 
 -   Christmas Event starts today, during december, enemies, scavenge and AFK farm bot will have chance of dropping `Frosty Container` and `Christmas Pudding`
