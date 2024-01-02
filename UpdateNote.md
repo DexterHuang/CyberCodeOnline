@@ -29,6 +29,15 @@ If you would like to help maintain CyberCode Online, please feel free to submit 
 
 Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) on how to submit a PR on our GitHub.
 
+## Updates
+
+0.1820
+
+-   Fixed issue with Christmas event item still dropping after event ended
+-   Now auto select feature at selling to NPC page will not select locked items
+-   Added indication on dungeon lobby list to show if the dungeon is password protected
+-   ASU is changed to untradable as announced previously
+
 ## Notice
 
 With player feedback and discussion with players, we have postponed the change to `Autonomous Storage Unit`'s tradable status to untradable, instead, it is now tradable again.
@@ -40,8 +49,6 @@ ASU 會在明年 2024 年 1 月 1 號才更新為不可交易 給予大家充足
 Again, thank you for all the valuable feedback :)
 
 再次感謝大家的寶貴意見與討論:)
-
-## Updates
 
 0.1819
 
