@@ -12,9 +12,9 @@ Weil dies ein MMORPG ist und **keine Dating App** (Ich weiß, dass kann manchmal
 Nein, du kannst die Spende jederzeit, über deinen Store, abbrechen.
 
 ## Die höchste Stufe ist so teuer, du gieriger @$%#^#$!
-Die hohen Stufen wurden von Spielern angefragt die gerne mehr spenden möchten.
+Die höheren Stufen wurden von Spielern angefragt die gerne mehr spenden möchten.
 
-Wie die meisten anderen Spendenmechaniken, besteht **kein Limit nach oben** wie viel eine Person spenden darf.
+Wie bei den meisten anderen Spendenmechaniken, besteht **kein Limit** wie viel eine Person spenden darf.
 
 (Wenn du mehr spenden möchtest als per App möglich ist, darfst du mich gerne direkt kontaktieren 😃)
 
