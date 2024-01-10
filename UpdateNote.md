@@ -31,6 +31,11 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
+0.1821
+
+-   Fixed issue with being able to start bulk crafting while being idle
+-   Fixed being able to tag, send gift or DM system placeholder account.
+
 0.1820
 
 -   Fixed issue with Christmas event item still dropping after event ended
