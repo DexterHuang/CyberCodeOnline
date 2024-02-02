@@ -31,6 +31,19 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
+0.1822
+
+### Lunar New Year Event:
+
+-   During the event (feb 1st to feb 29th), enemies, AFK bot farm will have chance to drop `Red Envelope` which you can open to get random amount of `Gold Coin`
+-   You can use `Gold Coin` to purchase various items from `Yen's store`
+-   During the event period you will receive various amount of free `Rare Synaptic Acceleration Transmitter` when you top up unit base on the package selected.
+-   Added new Skipper exclusive cosmetics
+-   Added new CyberDragon cosmetic
+-   Updated Luna's(Yen's Store) graphic
+-   Updated Zero's(Bald dude in black market) graphic
+-   Updated market street background image
+
 0.1821
 
 -   Fixed issue with being able to start bulk crafting while being idle
