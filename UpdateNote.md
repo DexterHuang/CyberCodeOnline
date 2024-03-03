@@ -29,7 +29,17 @@ If you would like to help maintain CyberCode Online, please feel free to submit 
 
 Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) on how to submit a PR on our GitHub.
 
+## Up Coming update
+
+Pet-related update is in the work, more details will be announced in the future 
+
 ## Updates
+
+0.1823
+
+-  Added Spring Cherry Blossom event; all skips get 5% off during the event period, and added an exclusive sakura chat frame and emblem
+-  Minor UI updates
+-  Performance optimization on server side
 
 0.1822
 
