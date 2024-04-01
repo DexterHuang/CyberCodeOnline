@@ -29,29 +29,40 @@ If you would like to help maintain CyberCode Online, please feel free to submit 
 
 Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) on how to submit a PR on our GitHub.
 
-## Up Coming update
+## Upcoming update
 
-Pet-related update is in the work, more details will be announced in the future 
+More details on the next update patch:
+
+-   Pets and apartments will be added:
+    -   You can adopt pets, The pet system is aimed towards a **Role-Play** element instead of adding combat/stat-related mechanics to avoid adding a traditional "Gacha" system which understandably many people want to avoid; instead, pets will adopt a more "Tamagotchi" style of gameplay (Tamagotchi is a type of simulation game where you take care of a virtual pet very popular in the 90s), you will need to feed, play, and take care of your pet when they are sick to keep them happy and healthy.
+    -   You will be able to check out other players' pets and you can tag your pet by mentioning them in chat to show it to other players, similar to how you mention other players. in the initial version of the pet system, you can play with other players' pets, but you cannot feed them or clean them, that will be the owner's responsibility.
+    -   Taking care of your pet: Pets will have a hunger, happiness and cleanness meter, and a hidden healthiness meter, when the pet is too hungry, unhappy or dirty, it will correspondingly affect their mood, if you continue to neglect your pet, it will get sick and eventually die, you can take care of your pet by feeding them, playing with them, cleaning them and giving them medicine when they are sick.
+    -   Obtaining pets: continuing the unique theme of CyberCode Online emphasis on no pay-to-win, the items required to redeem pets will be obtainable through in-game AFK activity, and together with a global buff activated by anyone in the community; similar to how calibration works in the game, ensuring that everyone can get pets without spending real money.
+    -   Pet types: it is planned to have two types of pets at the initial launch; cats and dogs, each type will have hundreds of different images based on breeds and colors, and the image of the pets will be determined randomly when you adopt a pet(more types of pets are expected to be added in the future, suggestions are welcomed). you can also randomly change the cosmetic image of your pet without changing the pet's data such as type, hunger, happiness, name and age by using Unit.
+    -   what happens if your pet dies: if unfortunately your pet dies, you can adopt a new pet or you can choose to activate a global buff to revive your pet and anyone who chooses to revive their pet during the buff duration. there will be cooldowns for reviving pets to ensure that one revival buff can only revive one pet per player.
+    -   Apartments: You can rent apartments with BTC, and the rental fee is weekly based, if you don't have enough BTC in your account when the rental fee is due, you will be evicted from the apartment. there will be different tiers of apartments, each tier allows you to have bigger 'spaces' for your pet. currently apartment serves as a place that allows you to own pets (you must have an apartment to own a pet) and for future updates.
+    -   Apartment restrictions: you can only have one apartment per account, and you must be at least level 100, as renting an apartment requires you to have some amount of excess BTC, this is to ensure that new players won't spend their hard-earned BTC on renting an apartment and then regret it later.
+
+**The update is still work-in-progress, things might change base on feedback and further development**
 
 ## Updates
 
 0.1823
 
--  Added Spring Cherry Blossom event; all skips get 5% off during the event period, and added an exclusive sakura chat frame and emblem
--  Minor UI updates
--  Performance optimization on server side
+-   Added Spring Cherry Blossom event; all skips get 5% off during the event period, and added an exclusive sakura chat frame and emblem
+-   Minor UI updates
+-   Performance optimization on the server side
 
 0.1822
 
 ### Lunar New Year Event:
 
--   During the event (feb 1st to feb 29th), enemies, AFK bot farm will have chance to drop `Red Envelope` which you can open to get random amount of `Gold Coin`
+-   During the event (Feb 1st to Feb 29th), enemies, the AFK bot farm will have a chance to drop a `Red Envelope` which you can open to get a random amount of `Gold Coin`
 -   You can use `Gold Coin` to purchase various items from `Yen's store`
--   During the event period you will receive various amount of free `Rare Synaptic Acceleration Transmitter` when you top up unit base on the package selected.
--   Added new Skipper exclusive cosmetics
+-   During the event period, you will receive various amounts of free `Rare Synaptic Acceleration Transmitter` when you top up Units based on the package selected. Added new Skipper-exclusive cosmetics
 -   Added new CyberDragon cosmetic
 -   Updated Luna's(Yen's Store) graphic
--   Updated Zero's(Bald dude in black market) graphic
+-   Updated Zero's(Bald dude in the black market) graphic
 -   Updated market street background image
 
 0.1821
@@ -61,9 +72,9 @@ Pet-related update is in the work, more details will be announced in the future
 
 0.1820
 
--   Fixed issue with Christmas event item still dropping after event ended
--   Now auto select feature at selling to NPC page will not select locked items
--   Added indication on dungeon lobby list to show if the dungeon is password protected
+-   Fixed issue with Christmas event item still dropping after the event ended
+-   Now auto-select feature on the selling to NPC page will not select locked items
+-   Added indication on dungeon lobby list to show if the dungeon is password-protected
 -   ASU is changed to untradable as announced previously
 
 ## Notice
@@ -80,30 +91,29 @@ Again, thank you for all the valuable feedback :)
 
 0.1819
 
--   Updated some images
--   Now on equipment upgrade module selection menu, it should not show you modules you cannot use due to insufficient level and only show those you can use on the item.
--   Updated leaderboard UI to include numbering so its easier to know which rank you are in
+-   Updated some images now on the equipment upgrade module selection menu, it should not show you modules you cannot use due to insufficient level and only show those you can use on the item.
+-   Updated leaderboard UI to include numbering so it is easier to know which rank you are in
 -   Fixed issue with translated text showing incorrectly in notifications and discord log
--   Fixed EXP calculation on AFK exp boost, there was a bug where in some situation the bonus EXP was not calculated correctly
--   Slight adjustment on system message UI
+-   Fixed EXP calculation on AFK exp boost, there was a bug where in some situations the bonus EXP was not calculated correctly
+-   Slight adjustment on the system message UI
 
 0.1818
 
--   Christmas Event starts today, during december, enemies, scavenge and AFK farm bot will have chance of dropping `Frosty Container` and `Christmas Pudding`
--   You can open Frosty Container to get a various rewards, including chance of EPIC Cache and Tech Scrap Cluster
--   You can consume Christmas Pudding to get a 20 minutes buff that gives you +20% EXP gain from AFK tasks
--   Added Christmas themed cosmetics, including emblems and chat frames.
+-   Christmas Event starts today, during December, enemies, scavenge and AFK farm bots will have a chance to drop ` Frosty Container`` and  `Christmas Pudding`
+-   You can open Frosty Container to get various rewards, including the chance of EPIC Cache and Tech Scrap Cluster
+-   You can consume Christmas Pudding to get a 20 minutes buff that gives you a +20% EXP gain from AFK tasks
+-   Added Christmas-themed cosmetics, including emblems and chat frames.
 -   Skip announcement now is translatable and a button to send street cred to the skipper is added.
 -   Added a new leaderboard for crafting epic equipment and ASU, all the counting will start from this update for fairness because there was no previous tracking for this.
--   Updated the crafted epic equipment announcement to include item data, you will be able to click on the item name to view the item's detail.
--   Fixed issue with time desync on some devices, preventing AFK task time to show correctly.
--   Fixed when client time is incorrect, chat message can sent from client can show in a incorrect place (stuck at bottom or show up in the middle of message less instead of the bottom)
+-   Updated the crafted epic equipment announcement to include item data, you will be able to click on the item name to view the item's details.
+-   Fixed issue with time desync on some devices, preventing AFK task time from showing correctly.
+-   Fixed when client time is incorrect, chat message can be sent from the client can show in an incorrect place (stuck at the bottom or show up in the middle of message less instead of the bottom)
 
 0.1817
 
--   Updated rules to include example for "no IRL trading", to better clarify that trading with virtual currencies such as Google Play Cards or other points from other services are example of indirect trading IRL money. please see the actual rules for the details.
+-   Updated rules to include examples for "no IRL trading", to better clarify that trading with virtual currencies such as Google Play Cards or other points from other services are examples of indirect trading IRL money. please see the actual rules for the details.
 -   Optimized SLANC's backend logic
--   Now player who is muted or suspended cannot be tagged, to discourage the muted individuals motivated by attention from getting even more attention.
+-   Now players who are muted or suspended cannot be tagged, to discourage the muted individuals motivated by attention from getting even more attention.
 -   Other various chat server fixes and optimizations
 
 0.1816
@@ -123,7 +133,7 @@ Again, thank you for all the valuable feedback :)
 
 0.1814
 
--   Added skip point to leaderboard
+-   Added skip point to the leaderboard
 -   Optimized leaderboard loading time, and changed the leaderboard to refresh every hour, to increase efficiency and increase speed
 -   Added translation support to leaderboard UI
 
