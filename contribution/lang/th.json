@@ -1,4 +1,56 @@
 {
+ 	"apartment": {
+ 	 	"title": {
+ 	 	 	"vars": [
+ 	 	 	 	"playerName"
+ 	 	 	],
+ 	 	 	"trans": "ที่อยู่ของ${playerName}",
+ 	 	 	"eng": "${playerName}'s Apartment"
+ 	 	},
+ 	 	"terminateLease": {
+ 	 	 	"trans": "ยกเลิกสัญญาเช่า",
+ 	 	 	"eng": "Terminate Lease"
+ 	 	},
+ 	 	"viewPets": {
+ 	 	 	"trans": "ดูสัตว์เลี้ยง",
+ 	 	 	"eng": "View Pets"
+ 	 	},
+ 	 	"address": {
+ 	 	 	"cityName": {
+ 	 	 	 	"trans": "ชางกรี-ลา",
+ 	 	 	 	"eng": "Shangri-la"
+ 	 	 	}
+ 	 	},
+ 	 	"rent": {
+ 	 	 	"paidMail": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"amount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "คุณได้ชำระค่าเช่าอพาร์ทเมนต์ของคุณแล้ว จำนวน ${amount}",
+ 	 	 	 	"eng": "You have paid your apartment rent of ${amount}"
+ 	 	 	},
+ 	 	 	"unpaidMail": {
+ 	 	 	 	"trans": "คุณไม่ได้ชำระค่าเช่าอพาร์ทเมนต์ของคุณ อพาร์ทเมนต์ของคุณถูกยกเลิกแล้ว",
+ 	 	 	 	"eng": "You have failed to pay your apartment rent, your apartment has been terminated"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"purchaseApartmentUI": {
+ 	 	"confirmModal": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "เช่าคอนโด",
+ 	 	 	 	"eng": "Rent Apartment"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "แน่ใจหรือว่าอยากเช่าอพาร์ทเมนท์นี้?",
+ 	 	 	 	"eng": "Are you sure you want to rent this apartment?"
+ 	 	 	}
+ 	 	},
+ 	 	"rentButton": {
+ 	 	 	"trans": "เช่าเลยเร็วๆ ",
+ 	 	 	"eng": "Rent Now"
+ 	 	}
+ 	},
  	"tabs": {
  	 	"map": {
  	 	 	"trans": "แผนที่",
@@ -201,12 +253,6 @@
  	 	 	 	 	 	}
  	 	 	 	 	}
  	 	 	 	}
- 	 	 	}
- 	 	},
- 	 	"supportUkraine": {
- 	 	 	"description": {
- 	 	 	 	"trans": "ผู้คนในยูเครน รัสเซีย และทั่วโลกต้องทนทุกข์เพราะความทะเยอทะยานของคนๆเดียว \\n หาประโยชน์จากความรักไม่ใช่ทำสงคราม",
- 	 	 	 	"eng": "People of Ukraine, Russia and the whole world are suffering because one man's ambition.\\n Make love exploit, not war."
  	 	 	}
  	 	},
  	 	"bank": {
@@ -1034,14 +1080,6 @@
  	 	 	 	 	"trans": "บล็อกผู้เล่น",
  	 	 	 	 	"eng": "Block Player"
  	 	 	 	}
- 	 	 	},
- 	 	 	"equipped": {
- 	 	 	 	"trans": "ติดตั้ง",
- 	 	 	 	"eng": "Equipped"
- 	 	 	},
- 	 	 	"inventory": {
- 	 	 	 	"trans": "รายการสิ่งของ",
- 	 	 	 	"eng": "Inventory"
  	 	 	}
  	 	},
  	 	"modal": {
@@ -1359,16 +1397,6 @@
  	 	 	 	"eng": "If you have any questions please feel free to contact Dexter directly via official Discord (Link can be found in Floating Menu -> Links) or email to ching.huang.dexter@gmail.com"
  	 	 	}
  	 	},
- 	 	"tipsBox": {
- 	 	 	"title": {
- 	 	 	 	"trans": "เคล็ดลับโปร",
- 	 	 	 	"eng": "Pro Tips"
- 	 	 	},
- 	 	 	"description": {
- 	 	 	 	"trans": "คลิกเพื่อรับเคล็ดลับใหม่",
- 	 	 	 	"eng": "Click to get new tips"
- 	 	 	}
- 	 	},
  	 	"travel": {
  	 	 	"notUnlocked": {
  	 	 	 	"trans": "คุณยังไม่ได้ปลดล็อคบริเวณนี้",
@@ -1483,6 +1511,12 @@
  	 	 	"save": {
  	 	 	 	"trans": "บันทึก",
  	 	 	 	"eng": "save"
+ 	 	 	}
+ 	 	},
+ 	 	"petShop": {
+ 	 	 	"adapt": {
+ 	 	 	 	"trans": "นำเจ้าเลี้ยงใหม่เข้าบ้าน เลยสิ!",
+ 	 	 	 	"eng": "Adopt a new pet"
  	 	 	}
  	 	},
  	 	"rangeSelector": {
@@ -2662,10 +2696,6 @@
  	 	 	"trans": "ได้รับ",
  	 	 	"eng": "Receives"
  	 	},
- 	 	"inputPlaceholder": {
- 	 	 	"trans": "ป้อนข้อความเพื่อเริ่มแชท",
- 	 	 	"eng": "Enter message to start chatting"
- 	 	},
  	 	"moderators": {
  	 	 	"trans": "ผู้ดูแล",
  	 	 	"eng": "moderators"
@@ -3449,6 +3479,17 @@
  	 	 	}
  	 	}
  	},
+ 	"playerDetailsAssetsTab": {
+ 	 	"apartment": {
+ 	 	 	"title": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"playerName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "ที่อยู่ของ${playerName}",
+ 	 	 	 	"eng": "${playerName}'s Apartment"
+ 	 	 	}
+ 	 	}
+ 	},
  	"playerStatusDisplay": {
  	 	"title": {
  	 	 	"vars": [
@@ -3731,16 +3772,16 @@
  	 	 	 	 	"eng": "dungeon warrior"
  	 	 	 	}
  	 	 	},
- 	 	 	"clearDungeonCoOp": {
- 	 	 	 	"name": {
- 	 	 	 	 	"trans": "เพื่อนร่วมดันเจี้ยน",
- 	 	 	 	 	"eng": "dungeon friends"
- 	 	 	 	}
- 	 	 	},
  	 	 	"clearDungeon": {
  	 	 	 	"name": {
  	 	 	 	 	"trans": "คราวเลอร์ดันเจี้ยน",
  	 	 	 	 	"eng": "dungeon crawler"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"clearDungeonCoOp": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "เพื่อนร่วมดันเจี้ยน",
+ 	 	 	 	 	"eng": "dungeon friends"
  	 	 	 	}
  	 	 	},
  	 	 	"dealDamage": {
@@ -3807,10 +3848,113 @@
  	 	 	"eng": "Appeal Form"
  	 	}
  	},
+ 	"pet": {
+ 	 	"noName": {
+ 	 	 	"trans": "ไม่มีชื่อ",
+ 	 	 	"eng": "unnamed"
+ 	 	},
+ 	 	"nameTooShort": {
+ 	 	 	"vars": [
+ 	 	 	 	"length"
+ 	 	 	],
+ 	 	 	"trans": "ชื่อเล่นต้องมีอย่างน้อย ${length} ตัวอักษร",
+ 	 	 	"eng": "Pet name must be at least ${length} characters long"
+ 	 	},
+ 	 	"nameTooLong": {
+ 	 	 	"vars": [
+ 	 	 	 	"length"
+ 	 	 	],
+ 	 	 	"trans": "ชื่อเล่นต้องมีความยาวไม่เกิน ${length} ตัวอักษร",
+ 	 	 	"eng": "Pet name must be at most ${length} characters long"
+ 	 	},
+ 	 	"nameCantContainSpaces": {
+ 	 	 	"trans": "ชื่อเลี้ยงสัตว์ไม่สามารถมีช่องว่างได้",
+ 	 	 	"eng": "Pet name can not contain spaces"
+ 	 	},
+ 	 	"revive": {
+ 	 	 	"alreadyActivated": {
+ 	 	 	 	"trans": "บัฟการนำเข้าสัตว์เลี้ยงถูกเปิดใช้งานแล้วครับ",
+ 	 	 	 	"eng": "Pet Adoption buff is already activated"
+ 	 	 	},
+ 	 	 	"announcement": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"player"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${player} ใช้สกิลฟื้นชีพสัตว์เลี้ยงแล้ว คุณสามารถฟื้นคืนชีพสัตว์เลี้ยงหนึ่งตัวภายในระยะเวลาของสกิลนี้ได้แล้วครับ/ค่ะ.",
+ 	 	 	 	"eng": "${player} has used pet revival buff, you can now revive one of your pet within the buff duration."
+ 	 	 	},
+ 	 	 	"activated": {
+ 	 	 	 	"trans": "บัฟการฟื้นชีพสัตว์เลี้ยงเปิดใช้งานแล้ว",
+ 	 	 	 	"eng": "Pet revive buff activated"
+ 	 	 	},
+ 	 	 	"notActivated": {
+ 	 	 	 	"trans": "บัฟการนำเข้าสัตว์เลี้ยงยังไม่ถูกเปิดใช้งานนะลูก ",
+ 	 	 	 	"eng": "Pet Adoption buff is not activated"
+ 	 	 	},
+ 	 	 	"success": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"petName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "คุณได้ฟื้นคืนชีพ ${petName}",
+ 	 	 	 	"eng": "You have revived ${petName}"
+ 	 	 	}
+ 	 	},
+ 	 	"error": {
+ 	 	 	"interactedRecently": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"hours"
+ 	 	 	 	],
+ 	 	 	 	"trans": "คุณสามารถโต้ตอบกับสัตว์เลี้ยงของผู้เล่นได้เพียงครั้งเดียวในระยะเวลา ${hours} ชั่วโมง",
+ 	 	 	 	"eng": "You can only interact with a player's pet once every ${hours} hours"
+ 	 	 	}
+ 	 	},
+ 	 	"played": {
+ 	 	 	"vars": [
+ 	 	 	 	"player",
+ 	 	 	 	"pet"
+ 	 	 	],
+ 	 	 	"trans": "${player} เล่นกับสัตว์เลี้ยงของคุณ ${pet} แล้ว",
+ 	 	 	"eng": "${player} has played with your pet ${pet}"
+ 	 	},
+ 	 	"rename": {
+ 	 	 	"badWord": {
+ 	 	 	 	"trans": "ชื่อมีคำที่ไม่ได้รับอนุญาต",
+ 	 	 	 	"eng": "Name contains not allowed words"
+ 	 	 	},
+ 	 	 	"notEnoughIAP": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"price"
+ 	 	 	 	],
+ 	 	 	 	"trans": "คุณต้องใช้ ${price} ยูนิต เพื่อเปลี่ยนชื่อสัตว์เลี้ยงของคุณ",
+ 	 	 	 	"eng": "You need ${price} Units to rename your pet"
+ 	 	 	}
+ 	 	},
+ 	 	"adopted": {
+ 	 	 	"vars": [
+ 	 	 	 	"player",
+ 	 	 	 	"pet"
+ 	 	 	],
+ 	 	 	"trans": "${player} ได้รับการนำมาใช้ ${pet}",
+ 	 	 	"eng": "${player} has adopted ${pet}",
+ 	 	 	"mail": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"pet"
+ 	 	 	 	],
+ 	 	 	 	"trans": "คุณได้รับการนำมาใช้ ${pet}",
+ 	 	 	 	"eng": "You have adopted ${pet}"
+ 	 	 	}
+ 	 	}
+ 	},
  	"priceTag": {
  	 	"free": {
  	 	 	"trans": "ฟรี",
  	 	 	"eng": "FREE"
+ 	 	}
+ 	},
+ 	"chatInput": {
+ 	 	"placeholder": {
+ 	 	 	"trans": "พิมพ์ข้อความ...",
+ 	 	 	"eng": "Enter Message..."
  	 	}
  	},
  	"itemList": {
@@ -4113,6 +4257,34 @@
  	 	"dungeonQuest": {
  	 	 	"trans": "คลิก 'ยอมรับภารกิจ' เพื่อยอมรับภารกิจคุณสามารถเสร็จสิ้นหรือละทิ้งภารกิจได้ตลอดเวลา",
  	 	 	"eng": "Click 'ACCEPT QUEST' to accept the quest, you may complete or abandon the quest at any time"
+ 	 	}
+ 	},
+ 	"enum": {
+ 	 	"apartmentType": {
+ 	 	 	"T1": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "หอพักชั้นล่าง",
+ 	 	 	 	 	"eng": "slum apartment"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"T2": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "อพาร์ตเมนต์",
+ 	 	 	 	 	"eng": "apartment"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"T3": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "อพาร์ทเมนท์หรูหรา",
+ 	 	 	 	 	"eng": "luxury apartment"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"T4": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "ห้องพักชั้นสูง",
+ 	 	 	 	 	"eng": "penthouse"
+ 	 	 	 	}
+ 	 	 	}
  	 	}
  	},
  	"iapCurrency": {
@@ -4433,6 +4605,10 @@
  	 	"donation27": {
  	 	 	"trans": "ข้ามลอร์ด",
  	 	 	"eng": "Skip Lord"
+ 	 	},
+ 	 	"donation28": {
+ 	 	 	"trans": "ซากุระ",
+ 	 	 	"eng": "Sakura"
  	 	},
  	 	"moderator": {
  	 	 	"trans": "พิธีกร",
@@ -5487,6 +5663,42 @@
  	 	 	 	 	"eng": "More coming in future update"
  	 	 	 	}
  	 	 	}
+ 	 	},
+ 	 	"donation28": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "ชื่อการบริจาค \"ซากุระ\"",
+ 	 	 	 	 	"eng": "\"Sakura\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "ปลดล็อคการปรับแต่งรูปโปรไฟล์",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "กรอบ Sakura (พร้อมภาพเคลื่อนไหว)",
+ 	 	 	 	 	"eng": "Sakura frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "โปรไฟล์ของ Sakura (พร้อมภาพเคลื่อนไหว)",
+ 	 	 	 	 	"eng": "Sakura Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "ปลดล็อคไบโอที่กำหนดเอง",
+ 	 	 	 	 	"eng": "Sakura profile decoration"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "ปรับแต่งคำขวัญแก๊งให้เจ๋งเหมือนเรา",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "ปรับแต่งภาพลักษณ์แก๊งค์",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "มีอะไรเพิ่มเติมในอัพเดตข้างหน้านะลูก  😉🚀",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
  	 	}
  	},
  	"equipmentMarks": {
@@ -5571,6 +5783,15 @@
  	 	"christmas": {
  	 	 	"trans": "คริสต์มาส",
  	 	 	"eng": "Christmas"
+ 	 	},
+ 	 	"sakura": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "มีนาคม",
+ 	 	 	 	"eng": "${percent}% off during event",
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"percent"
+ 	 	 	 	]
+ 	 	 	}
  	 	}
  	},
  	"itemFilterType": {
@@ -6546,6 +6767,69 @@
  	 	 	 	"eng": "This item is only available during Christmas Event"
  	 	 	}
  	 	},
+ 	 	"pawCredit": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "เครดิตของคุณ",
+ 	 	 	 	"eng": "Paw Credit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "เครดิตที่ใช้แลกเปลี่ยนไอเท็มสัตว์เลี้ยงที่ Neon Paw Sanctuary",
+ 	 	 	 	"eng": "A credit that can be used to exchange pet items at Neon Paw Sanctuary"
+ 	 	 	}
+ 	 	},
+ 	 	"petToken": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "เหรียญรางวัลบริการอาสา",
+ 	 	 	 	"eng": "Sanctuary Adoption Pass"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"amount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "รวม ${amount} ของนี้เพื่อรับ Sanctuary Adoption Pass ซึ่งสามารถนำไปใช้เพื่อนำเข้าสัตว์เลี้ยงใหม่",
+ 	 	 	 	"eng": "A pass that can be used to adopt a pet from Neon Paw Sanctuary"
+ 	 	 	}
+ 	 	},
+ 	 	"petFood": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "ไฟเบอร์ไฟเบอร์ช็อค",
+ 	 	 	 	"eng": "ElectroFiber Bites"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "\"ElectroFiber Bites™ ประกอบด้วยเส้นใยที่ซับซ้อนที่สามารถนำและเก็บพลังงาน ช่วยเพิ่มสมรรถนะและพลังของสัตว์เลี้ยงของคุณให้มีพลังสำหรับการผจญภัยในป่าไซเบอร์ได้นานขึ้น\"",
+ 	 	 	 	"eng": "\"ElectroFiber Bites™ contain a complex blend of fibers that conduct and store energy, boosting your pet's stamina and power for longer expeditions in the cyber wilderness.\""
+ 	 	 	}
+ 	 	},
+ 	 	"petToy": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "ลูกบอล NanoNibble",
+ 	 	 	 	"eng": "NanoNibble Ball"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "\"เราขอเสนอ NanoNibble Ball - เทคโนโลยีเล่นเพลินๆ ที่ออกแบบมาเพื่อความสุข ทุกลูกบอลจะสว่างไสวด้วยลวดลายที่ทำให้คุณหลงใหลทันทีที่สัมผัส แน่ใจว่าเพื่อนของคุณจะได้รับความบันเทิงอย่างเต็มที่ หลังจากเซสชั่นของความสนุกสุดพิเศษ ลูกบอลจะถูกแยกเป็นอนุภาคที่เป็นมิตรต่อสิ่งแวดล้อมและไม่ทำให้สกปรก ลูกบอลนี้เหมาะสำหรับการผจญภัยครั้งเดียวที่น่าจดจำในโลกดิจิตอล มันเป็นประสบการณ์การเล่นที่สมบูรณ์แบบที่จะหายไปอย่างสะอาด ไม่ต้องทำความสะอาดให้วุ่นวาย\"",
+ 	 	 	 	"eng": "\"Introducing the NanoNibble Ball – a marvel of playtime technology designed for sheer joy. Each ball lights up with mesmerizing patterns at the slightest touch, ensuring your pet is thoroughly entertained. After a session of unprecedented fun, the ball smartly deconstructs into harmless, eco-friendly particles, leaving no mess behind. Perfect for a single, unforgettable adventure in digital companionship, it’s the ultimate playtime experience that neatly disappears, sparing you the cleanup.\""
+ 	 	 	}
+ 	 	},
+ 	 	"petCleaner": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "สเปรย์ FurFlush",
+ 	 	 	 	"eng": "FurFlush Spray"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "สเปรย์ FurFlush: กระป๋องสุดเรียบร้อยที่อ่านว่า 'ทำความสะอาดทันที, หายไปทันที' การสเปรย์เพียงเล็กน้อยจะทำให้สัตว์เลี้ยงที่สกปรกของคุณสะอาดและสดใส—ไม่ต้องล้าง, ไม่ต้องสกปรก, แค่ซู๊ด! เหมาะสำหรับช่วง 'อุ๊ปส์' ก่อนการพบปะในโลกไซเบอร์ ระวัง: อาจทำให้สัตว์เลี้ยงของคุณมีท่าทางแบบไม่คาดคิด มายาเดียวสำหรับเพื่อนผจญภัยในเมืองใหญ่ หายไปหลังการใช้งานโดยไม่ทิ้งเศษ และทำให้สัตว์เลี้ยงของคุณสดใสเหมือนไม่เคยสกปรกไปเลย ",
+ 	 	 	 	"eng": "FurFlush Spray: The sleek canister reads 'Instant Clean, Instant Gone.' A quick spritz turns your grimy pet gleaming—no rinse, no mess, just poof! Perfect for those 'oops' moments before a cyber meet-up. Caution: May lead to unexpected pet swagger. Single-use magic for the urban explorer's companion. Disappears after use, leaving no evidence except a dazzling pet."
+ 	 	 	}
+ 	 	},
+ 	 	"petMedicine": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "ระบบสุขภาพสำหรับสุนัขและแมว",
+ 	 	 	 	"eng": "PawfectCure"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "เมื่อสัตว์เลี้ยงของคุณรู้สึกไม่สบาย หรือแค่ไม่ค่อยสบายใจ นี่คือทางเลือกที่ดีที่สุด มันช่วยแก้ทุกอย่างตั้งแต่การจ้มจ้มจนถึงอาการ 'กินอะไรแปลกๆ' ระวังผลข้างเคียง: อาจทำให้คุณชื่นชมอาหารของคุณอย่างกะทัดรัดและเพิ่มการโจมตีด้วยความรัก  เพราะบางครั้ง การรักษาที่ดีที่สุดคือการหัวเราะบ้าง... และ PawfectCure แน่นอน",
+ 	 	 	 	"eng": "When your pet's feeling under the weather, or just plain off, this is the go-to. It tackles everything from the sniffles to the 'I ate something weird' blues. Beware of side effects: may cause a sudden appreciation for your cooking and an increase in snuggle attacks. Because sometimes, the best remedy is a little laughter... and PawfectCure."
+ 	 	 	}
+ 	 	},
  	 	"experienceShard": {
  	 	 	"name": {
  	 	 	 	"vars": [
@@ -6684,6 +6968,12 @@
  	 	 	 	 	"trans": "ไปที่สำนักงานใหญ่ของแก๊งค์",
  	 	 	 	 	"eng": "Go to gang headquarters"
  	 	 	 	}
+ 	 	 	},
+ 	 	 	"toApartment": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "ไปที่อพาร์ทเม้นของคุณ",
+ 	 	 	 	 	"eng": "Go to your apartment"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"job": {
@@ -6740,6 +7030,29 @@
  	 	 	"cantEnterError": {
  	 	 	 	"trans": "คุณต้องเข้าร่วมแก๊งเพื่อเข้าสู่บริเวณนี้",
  	 	 	 	"eng": "You need to join a gang to enter this area"
+ 	 	 	}
+ 	 	},
+ 	 	"apartment": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "ห้องอพาร์ทเมนท์ของฉัน",
+ 	 	 	 	"eng": "My Apartment"
+ 	 	 	},
+ 	 	 	"toMainHub": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "กลับสู่ศูนย์กลางเมือง Shangri-La ด่วน!",
+ 	 	 	 	 	"eng": "Return to Shangri-La City Center"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "[หอพัก]\n        คอนโดเล็กๆ ใจกลางเมืองที่เป็นบ้านของคุณ สัตว์เลี้ยงของคุณรอคอยคุณกลับบ้านนะจ๊ะ.",
+ 	 	 	 	"eng": "[Apartment]\r\n        Your cozy apartment in the city. your pets are waiting for you to come home."
+ 	 	 	},
+ 	 	 	"cantEnterError": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"level"
+ 	 	 	 	],
+ 	 	 	 	"trans": "คุณต้องอยู่ในระดับอย่างน้อย ${level} เพื่อเช่าอพาร์ทเมนท์",
+ 	 	 	 	"eng": "You need to be at least level ${level} to rent an apartment"
  	 	 	}
  	 	},
  	 	"zone": {
@@ -7097,6 +7410,32 @@
  	 	 	 	"eng": "pumpkin weirdo"
  	 	 	}
  	 	},
+ 	 	"petShop": {
+ 	 	 	"defaultLines": {
+ 	 	 	 	"trans": [
+ 	 	 	 	 	"Hey, choom! Neon Paws is for the brave. These sprites need your daily grind. Ready to dive in?",
+ 	 	 	 	 	"Lookin' sharp, netrunner! Here, pets are more than code, they need your daily hack to thrive.",
+ 	 	 	 	 	"What's up, street samurai? Partner with a survivor. Without your daily deeds, they're zeroed.",
+ 	 	 	 	 	"Edge runner, eh? This is where tech meets heart. Ignore them, and they vanish into the net. Daily care, got it?",
+ 	 	 	 	 	"Cyberdeck in hand, heart on sleeve? Our critters need that daily touch or they'll fade into the static."
+ 	 	 	 	],
+ 	 	 	 	"eng": [
+ 	 	 	 	 	"Hey, choom! Neon Paws is for the brave. These sprites need your daily grind. Ready to dive in?",
+ 	 	 	 	 	"Lookin' sharp, netrunner! Here, pets are more than code, they need your daily hack to thrive.",
+ 	 	 	 	 	"What's up, street samurai? Partner with a survivor. Without your daily deeds, they're zeroed.",
+ 	 	 	 	 	"Edge runner, eh? This is where tech meets heart. Ignore them, and they vanish into the net. Daily care, got it?",
+ 	 	 	 	 	"Cyberdeck in hand, heart on sleeve? Our critters need that daily touch or they'll fade into the static."
+ 	 	 	 	]
+ 	 	 	},
+ 	 	 	"name": {
+ 	 	 	 	"trans": "ศูนย์อนุรักษ์ Neon Paws",
+ 	 	 	 	"eng": "Neon Paws Sanctuary"
+ 	 	 	},
+ 	 	 	"npcName": {
+ 	 	 	 	"trans": "จิน",
+ 	 	 	 	"eng": "Jin"
+ 	 	 	}
+ 	 	},
  	 	"recycleMachine": {
  	 	 	"name": {
  	 	 	 	"trans": "รีไซเคิลอัตโนมัติ",
@@ -7126,6 +7465,58 @@
  	 	 	 	"trans": "สกาแวนเจอร์",
  	 	 	 	"eng": "Scavengers"
  	 	 	}
+ 	 	}
+ 	},
+ 	"petType": {
+ 	 	"dog": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "หมา",
+ 	 	 	 	"eng": "Dog"
+ 	 	 	}
+ 	 	},
+ 	 	"cat": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "แมว",
+ 	 	 	 	"eng": "Cat"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"petStatus": {
+ 	 	"sick": {
+ 	 	 	"trans": "เจ็บป่วย",
+ 	 	 	"eng": "Sick"
+ 	 	},
+ 	 	"hungry": {
+ 	 	 	"trans": "หิวแล้ว",
+ 	 	 	"eng": "Hungry"
+ 	 	},
+ 	 	"starving": {
+ 	 	 	"trans": "หิวจัง",
+ 	 	 	"eng": "Starving"
+ 	 	},
+ 	 	"wellFed": {
+ 	 	 	"trans": "เบาหวานแล้ว",
+ 	 	 	"eng": "Well Fed"
+ 	 	},
+ 	 	"dirty": {
+ 	 	 	"trans": "สกปรก",
+ 	 	 	"eng": "Dirty"
+ 	 	},
+ 	 	"filthy": {
+ 	 	 	"trans": "สกปรก",
+ 	 	 	"eng": "Filthy"
+ 	 	},
+ 	 	"dead": {
+ 	 	 	"trans": "เสียชีวิต",
+ 	 	 	"eng": "Deceased"
+ 	 	},
+ 	 	"unhappy": {
+ 	 	 	"trans": "ไม่พอใจ",
+ 	 	 	"eng": "Unhappy"
+ 	 	},
+ 	 	"depressed": {
+ 	 	 	"trans": "เศร้าใจ",
+ 	 	 	"eng": "Depressed"
  	 	}
  	},
  	"action": {
@@ -7259,6 +7650,16 @@
  	 	 	"name": {
  	 	 	 	"trans": "การประดิษฐ์เป็นกลุ่ม",
  	 	 	 	"eng": "Bulk Crafting"
+ 	 	 	}
+ 	 	},
+ 	 	"petAFK": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "อาสาสมัครเลี้ยงสัตว์ในศูนย์พักพิงสัตว์",
+ 	 	 	 	"eng": "Pet Shelter Volunteer Shift"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "อาสาสมัครที่ศูนย์ฝึกสัตว์ในพื้นท้องเพื่อช่วยดูแลสัตว์โลกใกล้บ้าน ",
+ 	 	 	 	"eng": "Volunteer at the local pet shelter to help take care of the animals."
  	 	 	}
  	 	},
  	 	"autoFarm": {
@@ -7626,6 +8027,16 @@
  	 	 	 	"eng": "Unlock Rare Equipment Crate"
  	 	 	}
  	 	},
+ 	 	"craftPetToken": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "ผ่านการนำเข้าสัตว์เลี้ยงใน Craft Sanctuary",
+ 	 	 	 	"eng": "Craft Sanctuary Adoption Pass"
+ 	 	 	}
+ 	 	},
+ 	 	"craft": {
+ 	 	 	"trans": "สร้าง",
+ 	 	 	"eng": "Craft"
+ 	 	},
  	 	"ammo1": {
  	 	 	"vars": [
  	 	 	 	"minLevel"
@@ -7739,6 +8150,22 @@
  	 	"afkExp": {
  	 	 	"trans": "AFK Exp Boost Boost",
  	 	 	"eng": "AFK EXP Boost"
+ 	 	},
+ 	 	"petRevive": {
+ 	 	 	"trans": "ฟื้นคืนสัตว์เลี้ยง",
+ 	 	 	"eng": "Pet Revive"
+ 	 	},
+ 	 	"petReviveDesc": {
+ 	 	 	"trans": "การฟื้นชีพสัตว์เลี้ยงสามารถทำได้ในช่วงเวลาของบัฟนี้แล้วครับ/ค่ะ ",
+ 	 	 	"eng": "Pet revival is now available during this buff duration."
+ 	 	},
+ 	 	"petDraw": {
+ 	 	 	"trans": "การนำเข้าสัตว์เลี้ยงเริ่มทำงานแล้วจ้า",
+ 	 	 	"eng": "Pet Adoption Activated"
+ 	 	},
+ 	 	"petDrawDesc": {
+ 	 	 	"trans": "ตอนนี้สามารถนำเลี้ยงสัตว์ไปได้ในช่วงเวลาบัฟนี้แล้วครับ/ค่ะ",
+ 	 	 	"eng": "Pet adoption is now available during this buff duration."
  	 	}
  	},
  	"combat": {
@@ -7799,6 +8226,52 @@
  	 	 	],
  	 	 	"trans": "คุณได้รับ ${amount} ${itemName}",
  	 	 	"eng": "You received ${amount} ${itemName}"
+ 	 	}
+ 	},
+ 	"chatExploit": {
+ 	 	"loveWords": {
+ 	 	 	"trans": [
+ 	 	 	 	"Love you",
+ 	 	 	 	"You guys are great",
+ 	 	 	 	"You guys are the best",
+ 	 	 	 	"love yall",
+ 	 	 	 	"You are amazing",
+ 	 	 	 	"we are best friend",
+ 	 	 	 	"Love you all",
+ 	 	 	 	"you are great",
+ 	 	 	 	"you the best",
+ 	 	 	 	"we are awesome",
+ 	 	 	 	"you are awesome",
+ 	 	 	 	"have a nice day",
+ 	 	 	 	"miss you",
+ 	 	 	 	"miss you guys",
+ 	 	 	 	"KYAAAAAAAAA",
+ 	 	 	 	"wish you have nice day",
+ 	 	 	 	"I love you",
+ 	 	 	 	"can we hug?",
+ 	 	 	 	"how much you love me?"
+ 	 	 	],
+ 	 	 	"eng": [
+ 	 	 	 	"Love you",
+ 	 	 	 	"You guys are great",
+ 	 	 	 	"You guys are the best",
+ 	 	 	 	"love yall",
+ 	 	 	 	"You are amazing",
+ 	 	 	 	"we are best friend",
+ 	 	 	 	"Love you all",
+ 	 	 	 	"you are great",
+ 	 	 	 	"you the best",
+ 	 	 	 	"we are awesome",
+ 	 	 	 	"you are awesome",
+ 	 	 	 	"have a nice day",
+ 	 	 	 	"miss you",
+ 	 	 	 	"miss you guys",
+ 	 	 	 	"KYAAAAAAAAA",
+ 	 	 	 	"wish you have nice day",
+ 	 	 	 	"I love you",
+ 	 	 	 	"can we hug?",
+ 	 	 	 	"how much you love me?"
+ 	 	 	]
  	 	}
  	},
  	"chatServer": {
@@ -8127,6 +8600,112 @@
  	 	 	"eng": "Syncing with server.."
  	 	}
  	},
+ 	"petDetailsPage": {
+ 	 	"dispose": {
+ 	 	 	"trans": "กำจัด",
+ 	 	 	"eng": "dispose"
+ 	 	},
+ 	 	"disposeConfirmModal": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "กำจัด",
+ 	 	 	 	"eng": "dispose"
+ 	 	 	},
+ 	 	 	"message": {
+ 	 	 	 	"trans": "แน่ใจหรือไม่ว่าจะทิ้งสัตว์เลี้ยงตัวนี้? การกระทำนี้ไม่สามารถย้อนกลับได้แล้ว",
+ 	 	 	 	"eng": "Are you sure you want to dispose of this pet? this cannot be undone"
+ 	 	 	}
+ 	 	},
+ 	 	"rerollImage": {
+ 	 	 	"trans": "สุ่มรูปภาพใหม่",
+ 	 	 	"eng": "re-roll Image"
+ 	 	},
+ 	 	"rerollImageConfirmModal": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "สุ่มรูปภาพใหม่",
+ 	 	 	 	"eng": "re-roll Image"
+ 	 	 	},
+ 	 	 	"message": {
+ 	 	 	 	"trans": "แน่ใจหรือว่าอยากจะทำการสลับรูปภาพของสัตว์เลี้ยงนี้?",
+ 	 	 	 	"eng": "Are you sure you want to re-roll this pets image?"
+ 	 	 	}
+ 	 	},
+ 	 	"petNotFound": {
+ 	 	 	"trans": "ไม่พบสัตว์เลี้ยง",
+ 	 	 	"eng": "Pet not found"
+ 	 	},
+ 	 	"name": {
+ 	 	 	"trans": "ชื่อ",
+ 	 	 	"eng": "name"
+ 	 	},
+ 	 	"age": {
+ 	 	 	"trans": "อายุ",
+ 	 	 	"eng": "age"
+ 	 	},
+ 	 	"status": {
+ 	 	 	"trans": "สถานะ",
+ 	 	 	"eng": "status"
+ 	 	},
+ 	 	"noStatus": {
+ 	 	 	"trans": "สุขภาพดี",
+ 	 	 	"eng": "healthy"
+ 	 	},
+ 	 	"deadRemoveMessage": {
+ 	 	 	"vars": [
+ 	 	 	 	"date"
+ 	 	 	],
+ 	 	 	"trans": "จะถูกลบที่ ${date}",
+ 	 	 	"eng": "will be removed at ${date}"
+ 	 	},
+ 	 	"hunger": {
+ 	 	 	"trans": "หิวแล้ว",
+ 	 	 	"eng": "Hunger"
+ 	 	},
+ 	 	"feed": {
+ 	 	 	"trans": "ฟีด",
+ 	 	 	"eng": "Feed"
+ 	 	},
+ 	 	"noFood": {
+ 	 	 	"vars": [
+ 	 	 	 	"item"
+ 	 	 	],
+ 	 	 	"trans": "มีเงิน ${item} ไม่พอซื้ออาหารให้สัตว์เลี้ยงของคุณแล้ว",
+ 	 	 	"eng": "You don't have ${item} to feed your pet"
+ 	 	},
+ 	 	"happiness": {
+ 	 	 	"trans": "ความสุข",
+ 	 	 	"eng": "Happiness"
+ 	 	},
+ 	 	"play": {
+ 	 	 	"trans": "เริ่มเล่นเกม",
+ 	 	 	"eng": "Play"
+ 	 	},
+ 	 	"noToy": {
+ 	 	 	"vars": [
+ 	 	 	 	"item"
+ 	 	 	],
+ 	 	 	"trans": "คุณไม่มี ${item} เพื่อเล่นกับสัตว์เลี้ยงของคุณ",
+ 	 	 	"eng": "You don't have ${item} to play with your pet"
+ 	 	},
+ 	 	"cleanliness": {
+ 	 	 	"trans": "ความสะอาด",
+ 	 	 	"eng": "Cleanliness"
+ 	 	},
+ 	 	"clean": {
+ 	 	 	"trans": "ล้างล้าง",
+ 	 	 	"eng": "Clean"
+ 	 	},
+ 	 	"noCleaner": {
+ 	 	 	"vars": [
+ 	 	 	 	"item"
+ 	 	 	],
+ 	 	 	"trans": "คุณมีเงิน ${item} ไม่พอที่จะทำความสะอาดสัตว์เลี้ยงของคุณ",
+ 	 	 	"eng": "You don't have ${item} to clean your pet"
+ 	 	},
+ 	 	"reviveButton": {
+ 	 	 	"trans": "ฟื้นชีพ",
+ 	 	 	"eng": "Revive"
+ 	 	}
+ 	},
  	"sendStreetCred": {
  	 	"error": {
  	 	 	"giveSelf": {
@@ -8295,52 +8874,6 @@
  	 	 	"eng": "You have exchanged ${amount} ${item} for ${item2}"
  	 	}
  	},
- 	"chatExploit": {
- 	 	"loveWords": {
- 	 	 	"trans": [
- 	 	 	 	"Love you",
- 	 	 	 	"You guys are great",
- 	 	 	 	"You guys are the best",
- 	 	 	 	"love yall",
- 	 	 	 	"You are amazing",
- 	 	 	 	"we are best friend",
- 	 	 	 	"Love you all",
- 	 	 	 	"you are great",
- 	 	 	 	"you the best",
- 	 	 	 	"we are awesome",
- 	 	 	 	"you are awesome",
- 	 	 	 	"have a nice day",
- 	 	 	 	"miss you",
- 	 	 	 	"miss you guys",
- 	 	 	 	"KYAAAAAAAAA",
- 	 	 	 	"wish you have nice day",
- 	 	 	 	"I love you",
- 	 	 	 	"can we hug?",
- 	 	 	 	"how much you love me?"
- 	 	 	],
- 	 	 	"eng": [
- 	 	 	 	"Love you",
- 	 	 	 	"You guys are great",
- 	 	 	 	"You guys are the best",
- 	 	 	 	"love yall",
- 	 	 	 	"You are amazing",
- 	 	 	 	"we are best friend",
- 	 	 	 	"Love you all",
- 	 	 	 	"you are great",
- 	 	 	 	"you the best",
- 	 	 	 	"we are awesome",
- 	 	 	 	"you are awesome",
- 	 	 	 	"have a nice day",
- 	 	 	 	"miss you",
- 	 	 	 	"miss you guys",
- 	 	 	 	"KYAAAAAAAAA",
- 	 	 	 	"wish you have nice day",
- 	 	 	 	"I love you",
- 	 	 	 	"can we hug?",
- 	 	 	 	"how much you love me?"
- 	 	 	]
- 	 	}
- 	},
  	"bundleDetailsModal": {
  	 	"bundle": {
  	 	 	"trans": "มัด",
@@ -8444,6 +8977,45 @@
  	 	"accept": {
  	 	 	"trans": "ยอมรับ",
  	 	 	"eng": "Accept"
+ 	 	}
+ 	},
+ 	"petReviveModal": {
+ 	 	"reviveButton": {
+ 	 	 	"error": {
+ 	 	 	 	"trans": "คุณได้ฟื้นคืนสัตว์เลี้ยงล่าสุดของคุณแล้ว",
+ 	 	 	 	"eng": "You have revived a pet recently"
+ 	 	 	},
+ 	 	 	"trans": "ฟื้นชีพ",
+ 	 	 	"eng": "Revive"
+ 	 	},
+ 	 	"activateButton": {
+ 	 	 	"error": {
+ 	 	 	 	"trans": "ต้องเปิดใช้งานการฟื้นคืนสัตว์เลี้ยงก่อนนะลูก ",
+ 	 	 	 	"eng": "You need to activate pet revive first"
+ 	 	 	},
+ 	 	 	"title": {
+ 	 	 	 	"trans": "เปิดใช้งานการฟื้นคืนสัตว์เลี้ยง",
+ 	 	 	 	"eng": "Activate"
+ 	 	 	},
+ 	 	 	"desc": {
+ 	 	 	 	"trans": "เปิดใช้งานการฟื้นคืนสัตว์เลี้ยง",
+ 	 	 	 	"eng": "Activate pet revive"
+ 	 	 	},
+ 	 	 	"loading": {
+ 	 	 	 	"trans": "กำลังเปิดใช้งาน...",
+ 	 	 	 	"eng": "Activating..."
+ 	 	 	}
+ 	 	},
+ 	 	"title": {
+ 	 	 	"trans": "ฟื้นคืนสัตว์เลี้ยง",
+ 	 	 	"eng": "Revive pet"
+ 	 	},
+ 	 	"reviveDescription": {
+ 	 	 	"vars": [
+ 	 	 	 	"buffName"
+ 	 	 	],
+ 	 	 	"trans": "คุณสามารถฟื้นคืนสัตว์เลี้ยงของคุณเมื่อ ${buffName} บัฟเปิดใช้งาน",
+ 	 	 	"eng": "You may revive your pet when ${buffName} buff is active"
  	 	}
  	},
  	"artPromo": {
@@ -8635,6 +9207,38 @@
  	 	 	"eng": "details"
  	 	}
  	},
+ 	"sakuraPromo": {
+ 	 	"title": {
+ 	 	 	"trans": "งานเทศกาลซากุระ",
+ 	 	 	"eng": "Sakura Festival"
+ 	 	},
+ 	 	"desc1": {
+ 	 	 	"trans": "เทศกาลใบหน้าซากุระมาถึงแล้ว! ดอกซากุระกำลังร่วงลงมา และอากาศเต็มไปด้วยกลิ่นหอมของดอกไม้ครับ",
+ 	 	 	"eng": "The Spring Festival is here! Sakura petals are falling, and the air is filled with the fragrance of flowers. "
+ 	 	},
+ 	 	"desc2": {
+ 	 	 	"vars": [
+ 	 	 	 	"percent"
+ 	 	 	],
+ 	 	 	"trans": "ในระหว่างช่วงเหตุการณ์ การข้ามทุกอย่างจะได้รับส่วนลด ${percent}% สำหรับหน่วยที่ต้องการ",
+ 	 	 	"eng": "All skips during the event period gets ${percent}% off discount on unit required"
+ 	 	},
+ 	 	"desc3": {
+ 	 	 	"trans": "กรอบแชทและเอมเบล็มชมพูพิเศษสำหรับงานนี้ที่มีให้บริการ",
+ 	 	 	"eng": "Exclusive Sakura chat frame and emblem is available during event period"
+ 	 	},
+ 	 	"chatMessage1": {
+ 	 	 	"trans": "ฤดูใบไม้ผลิมาแล้วล่ะ",
+ 	 	 	"eng": "Spring is here"
+ 	 	},
+ 	 	"desc": {
+ 	 	 	"vars": [
+ 	 	 	 	"percent"
+ 	 	 	],
+ 	 	 	"trans": "ทุกการข้ามในระหว่างช่วงเหตุการณ์ ลด ${percent}% สำหรับหน่วยที่ต้องการ 🥳",
+ 	 	 	"eng": "All skips during the event period gets ${percent}% off discount on unit required 🥳"
+ 	 	}
+ 	},
  	"skipDiscountPromoSmall": {
  	 	"title": {
  	 	 	"trans": "ข้ามส่วนลด",
@@ -8818,6 +9422,24 @@
  	 	"desc2": {
  	 	 	"trans": "เพิ่มเฟรมผู้บริจาคใหม่สองเฟรม",
  	 	 	"eng": "Two new donator frames added"
+ 	 	}
+ 	},
+ 	"renamePetModal": {
+ 	 	"title": {
+ 	 	 	"trans": "เปลี่ยนชื่อสัตว์เลี้ยง",
+ 	 	 	"eng": "Rename Pet"
+ 	 	},
+ 	 	"newName": {
+ 	 	 	"trans": "ชื่อใหม่",
+ 	 	 	"eng": "New Name"
+ 	 	},
+ 	 	"description": {
+ 	 	 	"trans": "ใส่ชื่อใหม่ให้สัตว์เลี้ยงของคุณ",
+ 	 	 	"eng": "Enter new name for your pet"
+ 	 	},
+ 	 	"rename": {
+ 	 	 	"trans": "เปลี่ยนชื่อ",
+ 	 	 	"eng": "Rename"
  	 	}
  	},
  	"reportPlayerModal": {
@@ -9041,7 +9663,10 @@
  	 	},
  	 	"monthlySubscription": {
  	 	 	"trans": "สมัครสมาชิกรายเดือน",
- 	 	 	"eng": "Monthly Subscription"
+ 	 	 	"eng": "${price} per Month",
+ 	 	 	"vars": [
+ 	 	 	 	"price"
+ 	 	 	]
  	 	},
  	 	"payPalPricePerMonth": {
  	 	 	"vars": [
@@ -9109,6 +9734,104 @@
  	 	"contributionDesc": {
  	 	 	"trans": "บอร์ดเหล่านี้แสดงความเคารพและเครดิตต่อตำนานที่มีส่วนร่วมในชุมชน❤",
  	 	 	"eng": "These boards shows respect and credits to the legends who have contributed to the community.❤️"
+ 	 	}
+ 	},
+ 	"playerDetailsPage": {
+ 	 	"tabs": {
+ 	 	 	"stats": {
+ 	 	 	 	"trans": "สถิติ",
+ 	 	 	 	"eng": "stats"
+ 	 	 	},
+ 	 	 	"equipment": {
+ 	 	 	 	"trans": "คลังสินค้า",
+ 	 	 	 	"eng": "inventory"
+ 	 	 	},
+ 	 	 	"assets": {
+ 	 	 	 	"trans": "ทรัพย์สิน",
+ 	 	 	 	"eng": "assets"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"petListPage": {
+ 	 	"exceedSlot": {
+ 	 	 	"vars": [
+ 	 	 	 	"petName"
+ 	 	 	],
+ 	 	 	"trans": "${petName} กำลังอยู่บนถนนเนื่องจากขาดพื้นที่ในอพาร์ทเมนต์ของคุณ",
+ 	 	 	"eng": "${petName} is currently living on the street due to lack of space in your apartment"
+ 	 	},
+ 	 	"noPet": {
+ 	 	 	"trans": "ยังไม่มีสัตว์เลี้ยงในขณะนี้ครับ",
+ 	 	 	"eng": "You have no pet yet"
+ 	 	},
+ 	 	"acquirePets": {
+ 	 	 	"trans": "จับเลี้ยงสัตว์เลี้ยง",
+ 	 	 	"eng": "Acquire Pets"
+ 	 	}
+ 	},
+ 	"petAdoption": {
+ 	 	"error": {
+ 	 	 	"noBuff": {
+ 	 	 	 	"trans": "บัฟยังไม่ถูกเปิดใช้งานจ้า",
+ 	 	 	 	"eng": "Buff is not activated"
+ 	 	 	},
+ 	 	 	"cooldown": {
+ 	 	 	 	"trans": "การนำเลี้ยงสัตว์เลี้ยงอยู่ในระยะเวลาเย็นแล้ว",
+ 	 	 	 	"eng": "Pet adoption is on cooldown"
+ 	 	 	},
+ 	 	 	"noSlot": {
+ 	 	 	 	"trans": "ต้องมีอพาร์ทเมนท์เพื่อนำสัตว์เลี้ยงเข้าบ้าน",
+ 	 	 	 	"eng": "You need to rent a bigger apartment to accommodate more pets"
+ 	 	 	},
+ 	 	 	"noItem": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"itemName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "คุณต้องมี ${itemName} เพื่อนำเจ้าน้อยมาเลี้ยง",
+ 	 	 	 	"eng": "You need a ${itemName} to adopt a pet"
+ 	 	 	}
+ 	 	},
+ 	 	"petSlot": {
+ 	 	 	"trans": "ความจุสัตว์เลี้ยงในอพาร์ทเมนท์",
+ 	 	 	"eng": "Apartment pet capacity"
+ 	 	},
+ 	 	"cooldownTitle": {
+ 	 	 	"trans": "เวลาหยุดชั่วคราวในการนำเข้าadopt",
+ 	 	 	"eng": "Adoption Available"
+ 	 	},
+ 	 	"buffActivationButton": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "เปิดใช้งาน Adoption Buff ",
+ 	 	 	 	"eng": "Activate Adoption Buff"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "เปิดใช้งานเพื่อให้ผู้เล่นทุกคนสามารถนำเลี้ยงสัตว์เลี้ยงขณะที่บัฟยังคงใช้งานอยู่",
+ 	 	 	 	"eng": "Activate to allow all players to adopt a pet while buff is active"
+ 	 	 	},
+ 	 	 	"buttonText": {
+ 	 	 	 	"activated": {
+ 	 	 	 	 	"trans": "เปิดใช้งานแล้ว",
+ 	 	 	 	 	"eng": "Activated"
+ 	 	 	 	},
+ 	 	 	 	"notActivated": {
+ 	 	 	 	 	"trans": "เปิดใช้งานบัฟ",
+ 	 	 	 	 	"eng": "Activate Buff"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"confirmTitle": {
+ 	 	 	 	"trans": "เปิดใช้งาน Adoption Buff ",
+ 	 	 	 	"eng": "Activate Adoption Buff"
+ 	 	 	},
+ 	 	 	"confirmDescription": {
+ 	 	 	 	"trans": "แน่ใจหรือว่าอยากเปิดใช้ Adoption Buff ใช่มั้ย?",
+ 	 	 	 	"eng": "Are you sure you want to activate the Adoption Buff?"
+ 	 	 	}
+ 	 	},
+ 	 	"adoptButton": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "นำเจ้าเลี้ยงใหม่เข้าบ้าน เลยสิ!",
+ 	 	 	 	"eng": "Adopt a new pet"
+ 	 	 	}
  	 	}
  	},
  	"sendCosmeticPage": {

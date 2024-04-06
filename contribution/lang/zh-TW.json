@@ -1,4 +1,56 @@
 {
+	"apartment": {
+		"title": {
+			"vars": [
+				"playerName"
+			],
+			"trans": "${playerName}的公寓",
+			"eng": "${playerName}'s Apartment"
+		},
+		"terminateLease": {
+			"trans": "終止租約",
+			"eng": "Terminate Lease"
+		},
+		"viewPets": {
+			"trans": "查看寵物",
+			"eng": "View Pets"
+		},
+		"address": {
+			"cityName": {
+				"trans": "香格里拉",
+				"eng": "Shangri-la"
+			}
+		},
+		"rent": {
+			"paidMail": {
+				"vars": [
+					"amount"
+				],
+				"trans": "你已經支付了你的公寓租金 ${amount}",
+				"eng": "You have paid your apartment rent of ${amount}"
+			},
+			"unpaidMail": {
+				"trans": "你沒有付公寓租金，你的公寓已經被取消。",
+				"eng": "You have failed to pay your apartment rent, your apartment has been terminated"
+			}
+		}
+	},
+	"purchaseApartmentUI": {
+		"confirmModal": {
+			"title": {
+				"trans": "租房公寓",
+				"eng": "Rent Apartment"
+			},
+			"description": {
+				"trans": "你確定要租這間公寓嗎？",
+				"eng": "Are you sure you want to rent this apartment?"
+			}
+		},
+		"rentButton": {
+			"trans": "立即租借",
+			"eng": "Rent Now"
+		}
+	},
 	"tabs": {
 		"map": {
 			"trans": "地圖",
@@ -201,12 +253,6 @@
 						}
 					}
 				}
-			}
-		},
-		"supportUkraine": {
-			"description": {
-				"trans": "因為一個人的野心，烏克蘭、俄羅斯和整個世界的人們都在受苦。\r\n用愛聊天，不要戰爭。",
-				"eng": "People of Ukraine, Russia and the whole world are suffering because one man's ambition.\\n Make love exploit, not war."
 			}
 		},
 		"bank": {
@@ -1034,14 +1080,6 @@
 					"trans": "封鎖玩家",
 					"eng": "Block Player"
 				}
-			},
-			"equipped": {
-				"trans": "已裝備",
-				"eng": "Equipped"
-			},
-			"inventory": {
-				"trans": "背包",
-				"eng": "Inventory"
 			}
 		},
 		"modal": {
@@ -1359,16 +1397,6 @@
 				"eng": "If you have any questions please feel free to contact Dexter directly via official Discord (Link can be found in Floating Menu -> Links) or email to ching.huang.dexter@gmail.com"
 			}
 		},
-		"tipsBox": {
-			"title": {
-				"trans": "專業提示",
-				"eng": "Pro Tips"
-			},
-			"description": {
-				"trans": "點擊取得新提示",
-				"eng": "Click to get new tips"
-			}
-		},
 		"travel": {
 			"notUnlocked": {
 				"trans": "尚未解鎖這個區域",
@@ -1483,6 +1511,12 @@
 			"save": {
 				"trans": "儲存",
 				"eng": "save"
+			}
+		},
+		"petShop": {
+			"adapt": {
+				"trans": "領養一隻新寵物",
+				"eng": "Adopt a new pet"
 			}
 		},
 		"rangeSelector": {
@@ -2662,10 +2696,6 @@
 			"trans": "收到",
 			"eng": "Receives"
 		},
-		"inputPlaceholder": {
-			"trans": "輸入文字以開始聊天",
-			"eng": "Enter message to start chatting"
-		},
 		"moderators": {
 			"trans": "管理員",
 			"eng": "moderators"
@@ -3449,6 +3479,17 @@
 			}
 		}
 	},
+	"playerDetailsAssetsTab": {
+		"apartment": {
+			"title": {
+				"vars": [
+					"playerName"
+				],
+				"trans": "${playerName}的公寓",
+				"eng": "${playerName}'s Apartment"
+			}
+		}
+	},
 	"playerStatusDisplay": {
 		"title": {
 			"vars": [
@@ -3731,16 +3772,16 @@
 					"eng": "dungeon warrior"
 				}
 			},
-			"clearDungeonCoOp": {
-				"name": {
-					"trans": "地下城好夥伴",
-					"eng": "dungeon friends"
-				}
-			},
 			"clearDungeon": {
 				"name": {
 					"trans": "地下城爬行者",
 					"eng": "dungeon crawler"
+				}
+			},
+			"clearDungeonCoOp": {
+				"name": {
+					"trans": "地下城好夥伴",
+					"eng": "dungeon friends"
 				}
 			},
 			"dealDamage": {
@@ -3807,10 +3848,113 @@
 			"eng": "Appeal Form"
 		}
 	},
+	"pet": {
+		"noName": {
+			"trans": "未命名",
+			"eng": "unnamed"
+		},
+		"nameTooShort": {
+			"vars": [
+				"length"
+			],
+			"trans": "寵物名稱必須至少包含 ${length} 個字元",
+			"eng": "Pet name must be at least ${length} characters long"
+		},
+		"nameTooLong": {
+			"vars": [
+				"length"
+			],
+			"trans": "寵物名稱最多只能有${length}個字元",
+			"eng": "Pet name must be at most ${length} characters long"
+		},
+		"nameCantContainSpaces": {
+			"trans": "寵物名稱不能包含空格",
+			"eng": "Pet name can not contain spaces"
+		},
+		"revive": {
+			"alreadyActivated": {
+				"trans": "已啟動寵物領養加成效果",
+				"eng": "Pet Adoption buff is already activated"
+			},
+			"announcement": {
+				"vars": [
+					"player"
+				],
+				"trans": "${player} 使用了寵物復活增益，你現在可以在增益持續期間內復活一隻寵物。",
+				"eng": "${player} has used pet revival buff, you can now revive one of your pet within the buff duration."
+			},
+			"activated": {
+				"trans": "寵物復活增益已啟動",
+				"eng": "Pet revive buff activated"
+			},
+			"notActivated": {
+				"trans": "寵物領養加成尚未啟動",
+				"eng": "Pet Adoption buff is not activated"
+			},
+			"success": {
+				"vars": [
+					"petName"
+				],
+				"trans": "你已經復活了 ${petName}",
+				"eng": "You have revived ${petName}"
+			}
+		},
+		"error": {
+			"interactedRecently": {
+				"vars": [
+					"hours"
+				],
+				"trans": "你每隔${hours}小時才能跟玩家的寵物互動一次。",
+				"eng": "You can only interact with a player's pet once every ${hours} hours"
+			}
+		},
+		"played": {
+			"vars": [
+				"player",
+				"pet"
+			],
+			"trans": "${player} 已經跟你的寵物 ${pet} 玩過啦！",
+			"eng": "${player} has played with your pet ${pet}"
+		},
+		"rename": {
+			"badWord": {
+				"trans": "名稱包含不允許的字詞",
+				"eng": "Name contains not allowed words"
+			},
+			"notEnoughIAP": {
+				"vars": [
+					"price"
+				],
+				"trans": "你需要 ${price} 單位才能重新命名你的寵物",
+				"eng": "You need ${price} Units to rename your pet"
+			}
+		},
+		"adopted": {
+			"vars": [
+				"player",
+				"pet"
+			],
+			"trans": "${player} 已經採用了 ${pet}",
+			"eng": "${player} has adopted ${pet}",
+			"mail": {
+				"vars": [
+					"pet"
+				],
+				"trans": "你已經採用了 ${pet}",
+				"eng": "You have adopted ${pet}"
+			}
+		}
+	},
 	"priceTag": {
 		"free": {
 			"trans": "免費",
 			"eng": "FREE"
+		}
+	},
+	"chatInput": {
+		"placeholder": {
+			"trans": "輸入訊息...",
+			"eng": "Enter Message..."
 		}
 	},
 	"itemList": {
@@ -4113,6 +4257,34 @@
 		"dungeonQuest": {
 			"trans": "點擊「接受任務」接受任務，可以隨時完成或放棄任務",
 			"eng": "Click 'ACCEPT QUEST' to accept the quest, you may complete or abandon the quest at any time"
+		}
+	},
+	"enum": {
+		"apartmentType": {
+			"T1": {
+				"name": {
+					"trans": "貧民窟公寓",
+					"eng": "slum apartment"
+				}
+			},
+			"T2": {
+				"name": {
+					"trans": "公寓",
+					"eng": "apartment"
+				}
+			},
+			"T3": {
+				"name": {
+					"trans": "豪華公寓",
+					"eng": "luxury apartment"
+				}
+			},
+			"T4": {
+				"name": {
+					"trans": "頂樓豪宅",
+					"eng": "penthouse"
+				}
+			}
 		}
 	},
 	"iapCurrency": {
@@ -4433,6 +4605,10 @@
 		"donation27": {
 			"trans": "時空統治者",
 			"eng": "Skip Lord"
+		},
+		"donation28": {
+			"trans": "櫻花",
+			"eng": "Sakura"
 		},
 		"moderator": {
 			"trans": "聊天管理",
@@ -5487,6 +5663,42 @@
 					"eng": "More coming in future update"
 				}
 			}
+		},
+		"donation28": {
+			"benefits": {
+				"1": {
+					"trans": "\"櫻花\" 捐款標題",
+					"eng": "\"Sakura\" donation title"
+				},
+				"2": {
+					"trans": "解鎖個人資料照片自訂",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "櫻花框架（附動畫）",
+					"eng": "Sakura frame (with animation)"
+				},
+				"4": {
+					"trans": "櫻花檔案（附動畫）",
+					"eng": "Sakura Profile (with animation)"
+				},
+				"6": {
+					"trans": "解鎖自訂個人檔案描述",
+					"eng": "Sakura profile decoration"
+				},
+				"7": {
+					"trans": "客製幫派口號",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "客製化幫派形象",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "未來更新將有更多內容到來。",
+					"eng": "More coming in future update"
+				}
+			}
 		}
 	},
 	"equipmentMarks": {
@@ -5571,6 +5783,15 @@
 		"christmas": {
 			"trans": "聖誕節",
 			"eng": "Christmas"
+		},
+		"sakura": {
+			"name": {
+				"trans": "活動期間${percent}%折扣",
+				"eng": "${percent}% off during event",
+				"vars": [
+					"percent"
+				]
+			}
 		}
 	},
 	"itemFilterType": {
@@ -6546,6 +6767,69 @@
 				"eng": "This item is only available during Christmas Event"
 			}
 		},
+		"pawCredit": {
+			"name": {
+				"trans": "掌紋積分",
+				"eng": "Paw Credit"
+			},
+			"description": {
+				"trans": "可以在霓虹爪庇護所兌換寵物物品的積分",
+				"eng": "A credit that can be used to exchange pet items at Neon Paw Sanctuary"
+			}
+		},
+		"petToken": {
+			"name": {
+				"trans": "志願服務勳章",
+				"eng": "Sanctuary Adoption Pass"
+			},
+			"description": {
+				"vars": [
+					"amount"
+				],
+				"trans": "結合${amount}這些來獲得一張庇護所領養通行證，可以用來領養新寵物。",
+				"eng": "A pass that can be used to adopt a pet from Neon Paw Sanctuary"
+			}
+		},
+		"petFood": {
+			"name": {
+				"trans": "電纖能量",
+				"eng": "ElectroFiber Bites"
+			},
+			"description": {
+				"trans": "\"電纖能量™ 含有一種複雜的纖維混合物，可以傳導和儲存能量，提升你的寵物在電子荒野中進行更長遠征的耐力和力量。\"",
+				"eng": "\"ElectroFiber Bites™ contain a complex blend of fibers that conduct and store energy, boosting your pet's stamina and power for longer expeditions in the cyber wilderness.\""
+			}
+		},
+		"petToy": {
+			"name": {
+				"trans": "納米咬球",
+				"eng": "NanoNibble Ball"
+			},
+			"description": {
+				"trans": "\"全新推出的奈米咬球 - 一項遊戲科技的奇蹟，專為帶來純粹的樂趣而設計。每個球在輕微觸碰時會亮起迷人的圖案，確保您的寵物能得到充分的娛樂。在一場前所未有的樂趣體驗後，這個球會智能地解構成無害、環保的微粒，不會留下任何髒亂。完美適合單次難忘的數位陪伴冒險，是一場絕佳的遊戲體驗，隨即消失，省去您的清理麻煩。\"",
+				"eng": "\"Introducing the NanoNibble Ball – a marvel of playtime technology designed for sheer joy. Each ball lights up with mesmerizing patterns at the slightest touch, ensuring your pet is thoroughly entertained. After a session of unprecedented fun, the ball smartly deconstructs into harmless, eco-friendly particles, leaving no mess behind. Perfect for a single, unforgettable adventure in digital companionship, it’s the ultimate playtime experience that neatly disappears, sparing you the cleanup.\""
+			}
+		},
+		"petCleaner": {
+			"name": {
+				"trans": "毛髮清潔噴霧",
+				"eng": "FurFlush Spray"
+			},
+			"description": {
+				"trans": "毛寶寶神奇噴霧：時尚罐身上寫著『瞬間清潔，瞬間消失』。快速噴灑讓你髒兮兮的寵物瞬間變得閃閃發亮—不用沖洗，不會弄髒，就像魔法一樣！在網路見面前的『糟糕』時刻再適合不過了。注意：可能會讓寵物意外展現自信滿滿的態度。專為都市探險家的夥伴設計的一次性魔法。使用後消失，除了閃亮的寵物外，不會留下任何痕跡。",
+				"eng": "FurFlush Spray: The sleek canister reads 'Instant Clean, Instant Gone.' A quick spritz turns your grimy pet gleaming—no rinse, no mess, just poof! Perfect for those 'oops' moments before a cyber meet-up. Caution: May lead to unexpected pet swagger. Single-use magic for the urban explorer's companion. Disappears after use, leaving no evidence except a dazzling pet."
+			}
+		},
+		"petMedicine": {
+			"name": {
+				"trans": "完美治療",
+				"eng": "PawfectCure"
+			},
+			"description": {
+				"trans": "當你的寵物感覺不適或情緒低落時，這就是必備良藥。它可以應對從感冒到「我吃了一些奇怪東西」的種種問題。請注意副作用：可能會突然對你的烹飪產生讚賞，並增加撒嬌攻勢。因為有時候，最好的療法就是一點笑聲...和PawfectCure。",
+				"eng": "When your pet's feeling under the weather, or just plain off, this is the go-to. It tackles everything from the sniffles to the 'I ate something weird' blues. Beware of side effects: may cause a sudden appreciation for your cooking and an increase in snuggle attacks. Because sometimes, the best remedy is a little laughter... and PawfectCure."
+			}
+		},
 		"experienceShard": {
 			"name": {
 				"vars": [
@@ -6684,6 +6968,12 @@
 					"trans": "前往公會總部",
 					"eng": "Go to gang headquarters"
 				}
+			},
+			"toApartment": {
+				"name": {
+					"trans": "去你的公寓。",
+					"eng": "Go to your apartment"
+				}
 			}
 		},
 		"job": {
@@ -6740,6 +7030,29 @@
 			"cantEnterError": {
 				"trans": "您需要加入公會才能進入此區域",
 				"eng": "You need to join a gang to enter this area"
+			}
+		},
+		"apartment": {
+			"name": {
+				"trans": "我的公寓",
+				"eng": "My Apartment"
+			},
+			"toMainHub": {
+				"name": {
+					"trans": "返回香格里拉市中心",
+					"eng": "Return to Shangri-La City Center"
+				}
+			},
+			"description": {
+				"trans": "[公寓]\n        你在城市裡的舒適公寓。你的寵物正在等著你回家。",
+				"eng": "[Apartment]\r\n        Your cozy apartment in the city. your pets are waiting for you to come home."
+			},
+			"cantEnterError": {
+				"vars": [
+					"level"
+				],
+				"trans": "你需要達到至少${level}級才能租房。",
+				"eng": "You need to be at least level ${level} to rent an apartment"
 			}
 		},
 		"zone": {
@@ -7301,6 +7614,32 @@
 				"eng": "pumpkin weirdo"
 			}
 		},
+		"petShop": {
+			"defaultLines": {
+				"trans": [
+					"Hey, choom! Neon Paws is for the brave. These sprites need your daily grind. Ready to dive in?",
+					"Lookin' sharp, netrunner! Here, pets are more than code, they need your daily hack to thrive.",
+					"What's up, street samurai? Partner with a survivor. Without your daily deeds, they're zeroed.",
+					"Edge runner, eh? This is where tech meets heart. Ignore them, and they vanish into the net. Daily care, got it?",
+					"Cyberdeck in hand, heart on sleeve? Our critters need that daily touch or they'll fade into the static."
+				],
+				"eng": [
+					"Hey, choom! Neon Paws is for the brave. These sprites need your daily grind. Ready to dive in?",
+					"Lookin' sharp, netrunner! Here, pets are more than code, they need your daily hack to thrive.",
+					"What's up, street samurai? Partner with a survivor. Without your daily deeds, they're zeroed.",
+					"Edge runner, eh? This is where tech meets heart. Ignore them, and they vanish into the net. Daily care, got it?",
+					"Cyberdeck in hand, heart on sleeve? Our critters need that daily touch or they'll fade into the static."
+				]
+			},
+			"name": {
+				"trans": "霓虹爪庇護所",
+				"eng": "Neon Paws Sanctuary"
+			},
+			"npcName": {
+				"trans": "金",
+				"eng": "Jin"
+			}
+		},
 		"recycleMachine": {
 			"name": {
 				"trans": "自動回收器",
@@ -7330,6 +7669,58 @@
 				"trans": "流浪者",
 				"eng": "Scavengers"
 			}
+		}
+	},
+	"petType": {
+		"dog": {
+			"name": {
+				"trans": "狗",
+				"eng": "Dog"
+			}
+		},
+		"cat": {
+			"name": {
+				"trans": "貓",
+				"eng": "Cat"
+			}
+		}
+	},
+	"petStatus": {
+		"sick": {
+			"trans": "病毒",
+			"eng": "Sick"
+		},
+		"hungry": {
+			"trans": "肚子餓了",
+			"eng": "Hungry"
+		},
+		"starving": {
+			"trans": "飢餓至極",
+			"eng": "Starving"
+		},
+		"wellFed": {
+			"trans": "飽足滿足",
+			"eng": "Well Fed"
+		},
+		"dirty": {
+			"trans": "骯髒",
+			"eng": "Dirty"
+		},
+		"filthy": {
+			"trans": "骯髒的",
+			"eng": "Filthy"
+		},
+		"dead": {
+			"trans": "已故",
+			"eng": "Deceased"
+		},
+		"unhappy": {
+			"trans": "不開心",
+			"eng": "Unhappy"
+		},
+		"depressed": {
+			"trans": "情緒低落",
+			"eng": "Depressed"
 		}
 	},
 	"action": {
@@ -7463,6 +7854,16 @@
 			"name": {
 				"trans": "大量製作",
 				"eng": "Bulk Crafting"
+			}
+		},
+		"petAFK": {
+			"name": {
+				"trans": "動物收容所義工輪班",
+				"eng": "Pet Shelter Volunteer Shift"
+			},
+			"description": {
+				"trans": "到當地的寵物收容所當志工，幫忙照顧這些可愛的小動物。",
+				"eng": "Volunteer at the local pet shelter to help take care of the animals."
 			}
 		},
 		"autoFarm": {
@@ -7827,8 +8228,12 @@
 		"unlockRareEquipmentCrate": {
 			"name": {
 				"trans": "解鎖稀有裝備箱",
-				"eng": "Unlock Rare Equipment Crate"
+				"eng": "Craft Sanctuary Adoption Pass"
 			}
+		},
+		"craft": {
+			"trans": "打造",
+			"eng": "Craft"
 		},
 		"ammo1": {
 			"vars": [
@@ -7943,6 +8348,22 @@
 		"afkExp": {
 			"trans": "AFK EXP提升",
 			"eng": "AFK EXP Boost"
+		},
+		"petRevive": {
+			"trans": "寵物復活",
+			"eng": "Pet Revive"
+		},
+		"petReviveDesc": {
+			"trans": "現在在這個加持時間內可以復活寵物了。",
+			"eng": "Pet revival is now available during this buff duration."
+		},
+		"petDraw": {
+			"trans": "啟動寵物領養模式",
+			"eng": "Pet Adoption Activated"
+		},
+		"petDrawDesc": {
+			"trans": "現在可以在這個加成時間內領養寵物。",
+			"eng": "Pet adoption is now available during this buff duration."
 		}
 	},
 	"combat": {
@@ -8003,6 +8424,52 @@
 			],
 			"trans": "您獲得了${amount}個${itemName}",
 			"eng": "You received ${amount} ${itemName}"
+		}
+	},
+	"chatExploit": {
+		"loveWords": {
+			"trans": [
+				"愛您!",
+				"您們最棒了",
+				"好喜歡您們",
+				"愛死您們了",
+				"您好棒",
+				"我們是最好的朋友",
+				"好愛您們",
+				"您好好喔",
+				"我愛您",
+				"我們最棒了",
+				"您們太神了",
+				"您對我很重要",
+				"我想您",
+				"我好想您們喔",
+				"KYAAAAAAAAA",
+				"祝您有個美好的一天",
+				"好愛您",
+				"要抱抱",
+				"您有多愛我"
+			],
+			"eng": [
+				"Love you",
+				"You guys are great",
+				"You guys are the best",
+				"love yall",
+				"You are amazing",
+				"we are best friend",
+				"Love you all",
+				"you are great",
+				"you the best",
+				"we are awesome",
+				"you are awesome",
+				"have a nice day",
+				"miss you",
+				"miss you guys",
+				"KYAAAAAAAAA",
+				"wish you have nice day",
+				"I love you",
+				"can we hug?",
+				"how much you love me?"
+			]
 		}
 	},
 	"chatServer": {
@@ -8331,6 +8798,112 @@
 			"eng": "Syncing with server.."
 		}
 	},
+	"petDetailsPage": {
+		"dispose": {
+			"trans": "處理",
+			"eng": "dispose"
+		},
+		"disposeConfirmModal": {
+			"title": {
+				"trans": "處理",
+				"eng": "dispose"
+			},
+			"message": {
+				"trans": "你確定要處理這隻寵物嗎？這將無法復原。",
+				"eng": "Are you sure you want to dispose of this pet? this cannot be undone"
+			}
+		},
+		"rerollImage": {
+			"trans": "重新骰圖片",
+			"eng": "re-roll Image"
+		},
+		"rerollImageConfirmModal": {
+			"title": {
+				"trans": "重新骰圖片",
+				"eng": "re-roll Image"
+			},
+			"message": {
+				"trans": "你確定要重新抽取這隻寵物的圖像嗎？",
+				"eng": "Are you sure you want to re-roll this pets image?"
+			}
+		},
+		"petNotFound": {
+			"trans": "寵物未找到",
+			"eng": "Pet not found"
+		},
+		"name": {
+			"trans": "名稱",
+			"eng": "name"
+		},
+		"age": {
+			"trans": "年齡",
+			"eng": "age"
+		},
+		"status": {
+			"trans": "狀態",
+			"eng": "status"
+		},
+		"noStatus": {
+			"trans": "健康",
+			"eng": "healthy"
+		},
+		"deadRemoveMessage": {
+			"vars": [
+				"date"
+			],
+			"trans": "將在 ${date} 時移除",
+			"eng": "will be removed at ${date}"
+		},
+		"hunger": {
+			"trans": "飢餓",
+			"eng": "Hunger"
+		},
+		"feed": {
+			"trans": "進食",
+			"eng": "Feed"
+		},
+		"noFood": {
+			"vars": [
+				"item"
+			],
+			"trans": "你沒有 ${item} 來餵養你的寵物",
+			"eng": "You don't have ${item} to feed your pet"
+		},
+		"happiness": {
+			"trans": "快樂",
+			"eng": "Happiness"
+		},
+		"play": {
+			"trans": "遊玩",
+			"eng": "Play"
+		},
+		"noToy": {
+			"vars": [
+				"item"
+			],
+			"trans": "你沒有 ${item} 來陪你的寵物玩。",
+			"eng": "You don't have ${item} to play with your pet"
+		},
+		"cleanliness": {
+			"trans": "清潔度",
+			"eng": "Cleanliness"
+		},
+		"clean": {
+			"trans": "清潔",
+			"eng": "Clean"
+		},
+		"noCleaner": {
+			"vars": [
+				"item"
+			],
+			"trans": "你沒有 ${item} 來清潔你的寵物",
+			"eng": "You don't have ${item} to clean your pet"
+		},
+		"reviveButton": {
+			"trans": "復活",
+			"eng": "Revive"
+		}
+	},
 	"sendStreetCred": {
 		"error": {
 			"giveSelf": {
@@ -8499,52 +9072,6 @@
 			"eng": "You have exchanged ${amount} ${item} for ${item2}"
 		}
 	},
-	"chatExploit": {
-		"loveWords": {
-			"trans": [
-				"愛您!",
-				"您們最棒了",
-				"好喜歡您們",
-				"愛死您們了",
-				"您好棒",
-				"我們是最好的朋友",
-				"好愛您們",
-				"您好好喔",
-				"我愛您",
-				"我們最棒了",
-				"您們太神了",
-				"您對我很重要",
-				"我想您",
-				"我好想您們喔",
-				"KYAAAAAAAAA",
-				"祝您有個美好的一天",
-				"好愛您",
-				"要抱抱",
-				"您有多愛我"
-			],
-			"eng": [
-				"Love you",
-				"You guys are great",
-				"You guys are the best",
-				"love yall",
-				"You are amazing",
-				"we are best friend",
-				"Love you all",
-				"you are great",
-				"you the best",
-				"we are awesome",
-				"you are awesome",
-				"have a nice day",
-				"miss you",
-				"miss you guys",
-				"KYAAAAAAAAA",
-				"wish you have nice day",
-				"I love you",
-				"can we hug?",
-				"how much you love me?"
-			]
-		}
-	},
 	"bundleDetailsModal": {
 		"bundle": {
 			"trans": "禮包",
@@ -8648,6 +9175,45 @@
 		"accept": {
 			"trans": "接受",
 			"eng": "Accept"
+		}
+	},
+	"petReviveModal": {
+		"reviveButton": {
+			"error": {
+				"trans": "最近你剛剛復活了一隻寵物",
+				"eng": "You have revived a pet recently"
+			},
+			"trans": "復活",
+			"eng": "Revive"
+		},
+		"activateButton": {
+			"error": {
+				"trans": "你需要先啟動寵物復活",
+				"eng": "You need to activate pet revive first"
+			},
+			"title": {
+				"trans": "啟動寵物復活",
+				"eng": "Activate"
+			},
+			"desc": {
+				"trans": "啟動寵物復活",
+				"eng": "Activate pet revive"
+			},
+			"loading": {
+				"trans": "啟動中...",
+				"eng": "Activating..."
+			}
+		},
+		"title": {
+			"trans": "復活寵物",
+			"eng": "Revive pet"
+		},
+		"reviveDescription": {
+			"vars": [
+				"buffName"
+			],
+			"trans": "當 ${buffName} 增益效果啟動時，你可以讓你的寵物復活",
+			"eng": "You may revive your pet when ${buffName} buff is active"
 		}
 	},
 	"artPromo": {
@@ -8839,6 +9405,38 @@
 			"eng": "details"
 		}
 	},
+	"sakuraPromo": {
+		"title": {
+			"trans": "櫻花節",
+			"eng": "Sakura Festival"
+		},
+		"desc1": {
+			"trans": "春節到了！櫻花瓣飄落，空氣中彌漫著花香。",
+			"eng": "The Spring Festival is here! Sakura petals are falling, and the air is filled with the fragrance of flowers. "
+		},
+		"desc2": {
+			"vars": [
+				"percent"
+			],
+			"trans": "在活動期間內，所有跳過的任務都可享有單位所需的${percent}%折扣。",
+			"eng": "All skips during the event period gets ${percent}% off discount on unit required"
+		},
+		"desc3": {
+			"trans": "獨家櫻花聊天框和徽章在活動期間限定上架啦！",
+			"eng": "Exclusive Sakura chat frame and emblem is available during event period"
+		},
+		"chatMessage1": {
+			"trans": "春天來了",
+			"eng": "Spring is here"
+		},
+		"desc": {
+			"vars": [
+				"percent"
+			],
+			"trans": "活動期間內所有跳過的任務，所需單位可享${percent}%折扣優惠 🥳",
+			"eng": "All skips during the event period gets ${percent}% off discount on unit required 🥳"
+		}
+	},
 	"skipDiscountPromoSmall": {
 		"title": {
 			"trans": "時光飛逝折扣",
@@ -9022,6 +9620,24 @@
 		"desc2": {
 			"trans": "公會地城將有機會產生公會任務，內容包含擊敗特定NPC幫派的敵人",
 			"eng": "Two new donator frames added"
+		}
+	},
+	"renamePetModal": {
+		"title": {
+			"trans": "更改寵物名稱",
+			"eng": "Rename Pet"
+		},
+		"newName": {
+			"trans": "新名稱",
+			"eng": "New Name"
+		},
+		"description": {
+			"trans": "輸入你寵物的新名字",
+			"eng": "Enter new name for your pet"
+		},
+		"rename": {
+			"trans": "重新命名",
+			"eng": "Rename"
 		}
 	},
 	"reportPlayerModal": {
@@ -9245,7 +9861,10 @@
 		},
 		"monthlySubscription": {
 			"trans": "每月訂閱",
-			"eng": "Monthly Subscription"
+			"eng": "${price} per Month",
+			"vars": [
+				"price"
+			]
 		},
 		"payPalPricePerMonth": {
 			"vars": [
@@ -9313,6 +9932,104 @@
 		"contributionDesc": {
 			"trans": "這些名單代表了對大佬們的尊敬和感謝，他們為社群做出了許多貢獻。",
 			"eng": "These boards shows respect and credits to the legends who have contributed to the community.❤️"
+		}
+	},
+	"playerDetailsPage": {
+		"tabs": {
+			"stats": {
+				"trans": "數據",
+				"eng": "stats"
+			},
+			"equipment": {
+				"trans": "物品清單",
+				"eng": "inventory"
+			},
+			"assets": {
+				"trans": "資產",
+				"eng": "assets"
+			}
+		}
+	},
+	"petListPage": {
+		"exceedSlot": {
+			"vars": [
+				"petName"
+			],
+			"trans": "${petName}目前因為公寓空間不足，只好流落街頭。",
+			"eng": "${petName} is currently living on the street due to lack of space in your apartment"
+		},
+		"noPet": {
+			"trans": "你還沒有寵物喔。",
+			"eng": "You have no pet yet"
+		},
+		"acquirePets": {
+			"trans": "收集寵物",
+			"eng": "Acquire Pets"
+		}
+	},
+	"petAdoption": {
+		"error": {
+			"noBuff": {
+				"trans": "增益尚未啟動",
+				"eng": "Buff is not activated"
+			},
+			"cooldown": {
+				"trans": "領養寵物冷卻中",
+				"eng": "Pet adoption is on cooldown"
+			},
+			"noSlot": {
+				"trans": "需要一個公寓才能領養寵物",
+				"eng": "You need to rent a bigger apartment to accommodate more pets"
+			},
+			"noItem": {
+				"vars": [
+					"itemName"
+				],
+				"trans": "領養寵物需要 ${itemName}。",
+				"eng": "You need a ${itemName} to adopt a pet"
+			}
+		},
+		"petSlot": {
+			"trans": "公寓寵物容納量",
+			"eng": "Apartment pet capacity"
+		},
+		"cooldownTitle": {
+			"trans": "領養冷卻時間",
+			"eng": "Adoption Available"
+		},
+		"buffActivationButton": {
+			"title": {
+				"trans": "啟動領養加成效果",
+				"eng": "Activate Adoption Buff"
+			},
+			"description": {
+				"trans": "啟動後，當增益效果生效時，所有玩家都可以領養寵物。",
+				"eng": "Activate to allow all players to adopt a pet while buff is active"
+			},
+			"buttonText": {
+				"activated": {
+					"trans": "已啟動",
+					"eng": "Activated"
+				},
+				"notActivated": {
+					"trans": "啟動增益效果",
+					"eng": "Activate Buff"
+				}
+			},
+			"confirmTitle": {
+				"trans": "啟動領養加成效果",
+				"eng": "Activate Adoption Buff"
+			},
+			"confirmDescription": {
+				"trans": "你確定要啟動領養加成嗎？",
+				"eng": "Are you sure you want to activate the Adoption Buff?"
+			}
+		},
+		"adoptButton": {
+			"title": {
+				"trans": "領養一隻新寵物",
+				"eng": "Adopt a new pet"
+			}
 		}
 	},
 	"sendCosmeticPage": {
