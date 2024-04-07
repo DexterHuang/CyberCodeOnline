@@ -45,7 +45,7 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 -   what happens if your pet dies: if unfortunately your pet dies, you can adopt a new pet or you can choose to activate `Revival Buff` Global Buff to revive your pet and anyone who chooses to revive their pet during the buff duration. there will be cooldowns for reviving pets to ensure that one revival buff can only revive one pet per player.
 -   Apartments: You can rent apartments with BTC, and the rental fee is weekly based, if you don't have enough BTC in your account when the rental fee is due, you will be evicted from the apartment. there will be different tiers of apartments, each tier allows you to have bigger 'spaces' for your pet. currently apartment serves as a place that allows you to own pets (you must have an apartment to own a pet) and for future updates.
 -   Apartment restrictions: you can only have one apartment per account, and you must be at least level 100, as renting an apartment requires you to have some amount of excess BTC, this is to ensure that new players won't spend their hard-earned BTC on renting an apartment and then regret it later. at the same time encourages players to level up and serve as a progression milestone.
--   Apartment on market: everyday there will be random apartments available for rent on the market, with different appearance, address and price
+-   Apartment on market: every day there will be random apartments available for rent on the market, with different appearances, addresses and price
 
 ### Other Changes:
 
