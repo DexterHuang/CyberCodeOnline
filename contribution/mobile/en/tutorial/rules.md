@@ -45,7 +45,7 @@
     -   If you want to report a moderator for abuse or other issues, please email Dexter at ching.huang.dexter@gmail.com
     -   If you face issue with the game bug, please do report it in bug-report channel in our official discord server.
 
-**PLEASE NOTE: Please do not fight or agruge in game chat, and please use the appropriate channel for feedbacks and reports, as it will ensure that your voice is properly heard by the correct parties (global chat will be washed off in a few minutes, and the developer does not constantly watch the chat 24-7, therefore it would be a extremely ineffective way to deliver your feedback), and this is also to ensure that other player's right to a friendly and safe gaming enviroment is not distrubed**
+**PLEASE NOTE: Please do not fight or argue in game chat, and please use the appropriate channel for feedbacks and reports, as it will ensure that your voice is properly heard by the correct parties (global chat will be washed off in a few minutes, and the developer does not constantly watch the chat 24-7, therefore it would be a extremely ineffective way to deliver your feedback), and this is also to ensure that other player's right to a friendly and safe gaming enviroment is not distrubed**
 
 -   excessive swearing, explicit sexual content, gore, violence
 -   personal insults
