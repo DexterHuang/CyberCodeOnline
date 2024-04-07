@@ -46,6 +46,11 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 -   Apartments: You can rent apartments with BTC, and the rental fee is weekly based, if you don't have enough BTC in your account when the rental fee is due, you will be evicted from the apartment. there will be different tiers of apartments, each tier allows you to have bigger 'spaces' for your pet. currently apartment serves as a place that allows you to own pets (you must have an apartment to own a pet) and for future updates.
 -   Apartment restrictions: you can only have one apartment per account, and you must be at least level 100, as renting an apartment requires you to have some amount of excess BTC, this is to ensure that new players won't spend their hard-earned BTC on renting an apartment and then regret it later. at the same time encourages players to level up and serve as a progression milestone.
 
+### Other Changes:
+
+-   improve on auto-translation system, should produce better initial translation results
+-   Fixed display issue on emblems
+
 0.1823
 
 -   Added Spring Cherry Blossom event; all skips get 5% off during the event period, and added an exclusive sakura chat frame and emblem
