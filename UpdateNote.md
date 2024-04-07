@@ -29,23 +29,22 @@ If you would like to help maintain CyberCode Online, please feel free to submit 
 
 Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) on how to submit a PR on our GitHub.
 
-## Upcoming update
-
-More details on the next update patch:
-
--   Pets and apartments will be added:
-    -   You can adopt pets, The pet system is aimed towards a **Role-Play** element instead of adding combat/stat-related mechanics to avoid adding a traditional "Gacha" system which understandably many people want to avoid; instead, pets will adopt a more "Tamagotchi" style of gameplay (Tamagotchi is a type of simulation game where you take care of a virtual pet very popular in the 90s), you will need to feed, play, and take care of your pet when they are sick to keep them happy and healthy.
-    -   You will be able to check out other players' pets and you can tag your pet by mentioning them in chat to show it to other players, similar to how you mention other players. in the initial version of the pet system, you can play with other players' pets, but you cannot feed them or clean them, that will be the owner's responsibility.
-    -   Taking care of your pet: Pets will have a hunger, happiness and cleanness meter, and a hidden healthiness meter, when the pet is too hungry, unhappy or dirty, it will correspondingly affect their mood, if you continue to neglect your pet, it will get sick and eventually die, you can take care of your pet by feeding them, playing with them, cleaning them and giving them medicine when they are sick.
-    -   Obtaining pets: continuing the unique theme of CyberCode Online emphasis on no pay-to-win, the items required to redeem pets will be obtainable through in-game AFK activity, and together with a global buff activated by anyone in the community; similar to how calibration works in the game, ensuring that everyone can get pets without spending real money.
-    -   Pet types: it is planned to have two types of pets at the initial launch; cats and dogs, each type will have hundreds of different images based on breeds and colors, and the image of the pets will be determined randomly when you adopt a pet(more types of pets are expected to be added in the future, suggestions are welcomed). you can also randomly change the cosmetic image of your pet without changing the pet's data such as type, hunger, happiness, name and age by using Unit.
-    -   what happens if your pet dies: if unfortunately your pet dies, you can adopt a new pet or you can choose to activate a global buff to revive your pet and anyone who chooses to revive their pet during the buff duration. there will be cooldowns for reviving pets to ensure that one revival buff can only revive one pet per player.
-    -   Apartments: You can rent apartments with BTC, and the rental fee is weekly based, if you don't have enough BTC in your account when the rental fee is due, you will be evicted from the apartment. there will be different tiers of apartments, each tier allows you to have bigger 'spaces' for your pet. currently apartment serves as a place that allows you to own pets (you must have an apartment to own a pet) and for future updates.
-    -   Apartment restrictions: you can only have one apartment per account, and you must be at least level 100, as renting an apartment requires you to have some amount of excess BTC, this is to ensure that new players won't spend their hard-earned BTC on renting an apartment and then regret it later.
-
-**The update is still work-in-progress, things might change base on feedback and further development**
-
 ## Updates
+
+### 0.1824
+
+### Pet & Apartment System (Initial Beta, please report any bugs or suggestions to the Discord server)
+
+-   You can adopt pets, The pet system is aimed towards a **Role-Play** element instead of adding combat/stat-related mechanics to avoid adding a traditional "Gacha" system which understandably many people want to avoid; instead, pets will adopt a more "Tamagotchi" style of gameplay (Tamagotchi is a type of simulation game where you take care of a virtual pet. very popular in the 90s), you will need to feed, play, and take care of your pet when they are sick to keep them happy and healthy.
+-   You will be able to check out other players' pets and you can tag your pet by mentioning them in chat to show it to other players, similar to how you mention other players. in the initial version of the pet system, you can play with other players' pets, but you cannot feed them or clean them, that will be the owner's responsibility.
+-   Taking care of your pet: Pets will have a hunger, happiness and cleanness meter, and a hidden healthiness meter, when the pet is too hungry, unhappy or dirty, it will correspondingly affect their mood, if you continue to neglect your pet, it will get sick and eventually die, you can take care of your pet by feeding them, playing with them, cleaning them and giving them medicine when they are sick.
+-   Obtaining pets: continuing the unique theme of CyberCode Online emphasis on no pay-to-win, the items required to redeem pets will be obtainable through `Pet Shelter Volunteer Shift AFK` activity and Global Buff similar to how Calibration currently works. by doing this task there will be a chance of receiving:
+    -   `Paw Credit`, You can use it to redeem pet-related items from the pet shelter
+    -   `Volunteer Service Medallion`, you combine 10 of these to get one `Sanctuary Adoption Pass` which you can use to adopt a pet when `Adoption Buff` is activated by any player.
+-   Pet types: it is planned to have two types of pets at the initial launch; cats and dogs, each type will have hundreds of different images based on breeds and colors, and the image of the pets will be determined randomly when you adopt the pet(more types of pets are expected to be added in the future, suggestions are welcomed). you can also randomly change the cosmetic image of your pet without changing the pet's data such as type, hunger, happiness, name and age by using Unit.
+-   what happens if your pet dies: if unfortunately your pet dies, you can adopt a new pet or you can choose to activate `Revival Buff` Global Buff to revive your pet and anyone who chooses to revive their pet during the buff duration. there will be cooldowns for reviving pets to ensure that one revival buff can only revive one pet per player.
+-   Apartments: You can rent apartments with BTC, and the rental fee is weekly based, if you don't have enough BTC in your account when the rental fee is due, you will be evicted from the apartment. there will be different tiers of apartments, each tier allows you to have bigger 'spaces' for your pet. currently apartment serves as a place that allows you to own pets (you must have an apartment to own a pet) and for future updates.
+-   Apartment restrictions: you can only have one apartment per account, and you must be at least level 100, as renting an apartment requires you to have some amount of excess BTC, this is to ensure that new players won't spend their hard-earned BTC on renting an apartment and then regret it later. at the same time encourages players to level up and serve as a progression milestone.
 
 0.1823
 
