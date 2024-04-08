@@ -33,6 +33,7 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ### 0.1825
 
+-   Gang leaderboard is graphic is overhauled, now it shows the gang's image motto and member count.
 -   Now `Jin` will sell `Volunteer Service Medallion`, this is to ensure that people with very bad luck can also obtain the item by exchanging it with `Paw Credit` which is obtainable from the `Pet Shelter Volunteer Shift AFK` activity.
 -   You can now recycle `Volunteer Service Medallion` using `Recycler` to get `Paw Credit`
 
