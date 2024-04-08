@@ -31,6 +31,15 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
+### 0.1825
+
+-   Now `Jin` will sell `Volunteer Service Medallion`, this is to ensure that people with very bad luck can also obtain the item by exchanging it with `Paw Credit` which is obtainable from the `Pet Shelter Volunteer Shift AFK` activity.
+-   You can now recycle `Volunteer Service Medallion` using `Recycler` to get `Paw Credit`
+
+**Note: Since this feature is still in very beta stage, the specific stats can change base on player feedback and balance needs**
+
+-   Fixed issue with viewing other player's pet
+
 ### 0.1824
 
 ### Pet & Apartment System (Initial Beta, please report any bugs or suggestions to the Discord server)
