@@ -31,6 +31,11 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
+### 0.1826
+
+-   Now apartment market shows how much pets slot each type of apartment has
+-   Fix display issue related to the latest iOS system update
+
 ### 0.1825
 
 -   Gang leaderboard is graphic is overhauled, now it shows the gang's image motto and member count.
