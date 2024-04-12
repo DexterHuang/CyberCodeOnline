@@ -7,7 +7,7 @@ In every adventure location, you'll see a list of Nearby Enemies, as well as two
   
 Click on any of the listed enemies to enter combat. When in a dungeon, clicking on an enemy, represented by a '@' will draw you into combat with it.  
   
-There are different options that you can choose during a combat.
+Combat is turn based. The amount of damage done is determined by timing, with the aim to time it so that it the line in the yellow section of the bar. There are different options that you can choose during a combat.
 
 ## Primary Attack
 Attack the enemy with your equipped primary weapon. No ammo consumed.
