@@ -31,6 +31,11 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
+### 0.1827
+
+-   Fixed issue with being able to purchase item when AFK task is running
+-   Fixed issue with unable to play with other player's pet
+
 ### 0.1826
 
 -   Now apartment market shows how much pets slot each type of apartment has
