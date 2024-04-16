@@ -31,6 +31,12 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
+### 0.1828
+
+-   Fixed issue with player name tag display
+-   Added Posh Chat Exploit, which transforms everyone into a fine British gentleman for 10 minutes
+-   Added new frame
+
 ### 0.1827
 
 -   Fixed issue with being able to purchase item when AFK task is running
