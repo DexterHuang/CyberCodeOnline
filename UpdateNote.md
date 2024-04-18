@@ -31,6 +31,11 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
+### 0.1829
+
+-   Improved the look and feel of the new Netrunner cosmetic player detail page
+-   Improved player chat message model UI (the pop when you click on the player's message), now shows the player's title colour, gang tag and emblem
+
 ### 0.1828
 
 -   Fixed issue with player name tag display
@@ -39,12 +44,12 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ### 0.1827
 
--   Fixed issue with being able to purchase item when AFK task is running
+-   Fixed issue with being able to purchase items when AFK task is running
 -   Fixed issue with unable to play with other player's pet
 
 ### 0.1826
 
--   Now apartment market shows how much pets slot each type of apartment has
+-   Now apartment market shows how many pet slots each type of apartment has
 -   Fix display issue related to the latest iOS system update
 
 ### 0.1825
