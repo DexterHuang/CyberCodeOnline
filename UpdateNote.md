@@ -38,6 +38,7 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/62f1ac7d-94e1-4a94-91a3-b10935032a98)
 
 -   Improved player chat message model UI (the pop when you click on the player's message), now shows the player's title colour, gang tag and emblem
+-   Fixed issue with playing with other player's pet.
 
 ### 0.1828
 
