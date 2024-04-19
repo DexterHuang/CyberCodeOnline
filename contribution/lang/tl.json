@@ -130,15 +130,15 @@
  	 	 	 	"eng": "Deposit Bitcoin"
  	 	 	},
  	 	 	"editMotto": {
+ 	 	 	 	"button": {
+ 	 	 	 	 	"trans": "Ibahin ang salawikain ng gang",
+ 	 	 	 	 	"eng": "Edit Gang Motto"
+ 	 	 	 	},
  	 	 	 	"modal": {
  	 	 	 	 	"title": {
  	 	 	 	 	 	"trans": "Mangyaring ilagay ang salawikain o kasabihan ng iyong gang",
  	 	 	 	 	 	"eng": "Please enter your gang motto"
  	 	 	 	 	}
- 	 	 	 	},
- 	 	 	 	"button": {
- 	 	 	 	 	"trans": "Ibahin ang salawikain ng gang",
- 	 	 	 	 	"eng": "Edit Gang Motto"
  	 	 	 	}
  	 	 	},
  	 	 	"updateImage": {
@@ -3225,13 +3225,13 @@
  	 	 	 	"trans": "Walang pahintulot. Nakita ang profile na hindi tao.",
  	 	 	 	"eng": "Access denied. non-human profile detected."
  	 	 	},
+ 	 	 	"report1": {
+ 	 	 	 	"trans": "I-ulat at i-block",
+ 	 	 	 	"eng": "Report & Block"
+ 	 	 	},
  	 	 	"block": {
  	 	 	 	"trans": "I -block",
  	 	 	 	"eng": "Block"
- 	 	 	},
- 	 	 	"report": {
- 	 	 	 	"trans": "Iulat at I -block",
- 	 	 	 	"eng": "Report and Block"
  	 	 	},
  	 	 	"openPlayerGang": {
  	 	 	 	"trans": "Tingnan ang Gang",
@@ -3480,6 +3480,10 @@
  	 	}
  	},
  	"playerDetailsAssetsTab": {
+ 	 	"noAssets": {
+ 	 	 	"trans": "Wala pong ari-arian ang player na ito",
+ 	 	 	"eng": "this player does not own any assets"
+ 	 	},
  	 	"apartment": {
  	 	 	"title": {
  	 	 	 	"vars": [
@@ -3871,32 +3875,28 @@
  	 	 	"trans": "Hindi puwedeng magkaroon ng espasyo sa pangalan ng alagang hayop",
  	 	 	"eng": "Pet name can not contain spaces"
  	 	},
- 	 	"revive": {
+ 	 	"rerollImage": {
+ 	 	 	"success": {
+ 	 	 	 	"trans": "Nabago nang matagumpay ang larawan ng alagang hayop",
+ 	 	 	 	"eng": "Pet image changed successfully"
+ 	 	 	}
+ 	 	},
+ 	 	"adoption": {
  	 	 	"alreadyActivated": {
  	 	 	 	"trans": "Ang Pet Adoption buff ay activated na",
  	 	 	 	"eng": "Pet Adoption buff is already activated"
  	 	 	},
  	 	 	"announcement": {
  	 	 	 	"vars": [
- 	 	 	 	 	"player"
+ 	 	 	 	 	"player",
+ 	 	 	 	 	"npc"
  	 	 	 	],
- 	 	 	 	"trans": "Ginamit ni ${player} ang pet revival buff, pwede mo nang buhayin ulit ang isa sa mga alagang hayop mo habang may buff.",
- 	 	 	 	"eng": "${player} has used pet revival buff, you can now revive one of your pet within the buff duration."
+ 	 	 	 	"trans": "Na-activate ni ${player} ang Adoption Buff, maaari kang mag-ampon ng alagang hayop mula kay ${npc} sa loob ng tagal ng buff!",
+ 	 	 	 	"eng": "${player} has activated Adoption Buff, you can adopt a pet from ${npc} within the buff duration!"
  	 	 	},
  	 	 	"activated": {
- 	 	 	 	"trans": "Nabuhay ang pet mo! Buff activated!",
- 	 	 	 	"eng": "Pet revive buff activated"
- 	 	 	},
- 	 	 	"notActivated": {
- 	 	 	 	"trans": "Wala pang aktibadong Pet Adoption buff",
- 	 	 	 	"eng": "Pet Adoption buff is not activated"
- 	 	 	},
- 	 	 	"success": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"petName"
- 	 	 	 	],
- 	 	 	 	"trans": "Naibalik mo ang ${petName}",
- 	 	 	 	"eng": "You have revived ${petName}"
+ 	 	 	 	"trans": "Napindot ang pampalakas ng pag-aampon ng alagang hayop",
+ 	 	 	 	"eng": "Pet adoption buff activated"
  	 	 	}
  	 	},
  	 	"error": {
@@ -3914,7 +3914,14 @@
  	 	 	 	"pet"
  	 	 	],
  	 	 	"trans": "Nakipaglaro si ${player} sa alagang ${pet} mo",
- 	 	 	"eng": "${player} has played with your pet ${pet}"
+ 	 	 	"eng": "${player} has played with your pet ${pet}",
+ 	 	 	"success": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"playerName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Nakipaglaro ka sa alagang ${playerName}",
+ 	 	 	 	"eng": "You have played with ${playerName}'s pet"
+ 	 	 	}
  	 	},
  	 	"rename": {
  	 	 	"badWord": {
@@ -3942,6 +3949,38 @@
  	 	 	 	],
  	 	 	 	"trans": "Ikaw ay nag-ampon ng ${pet}",
  	 	 	 	"eng": "You have adopted ${pet}"
+ 	 	 	}
+ 	 	},
+ 	 	"reviveActivate": {
+ 	 	 	"announcement": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"player"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Ginamit ni ${player} ang pet revival buff, pwede mo nang buhayin ulit ang isa sa iyong mga alagang hayop habang may buff.",
+ 	 	 	 	"eng": "${player} has used pet revival buff, you can now revive one of your pet within the buff duration."
+ 	 	 	}
+ 	 	},
+ 	 	"revive": {
+ 	 	 	"activated": {
+ 	 	 	 	"trans": "Nabuhay ang pet mo! Buff activated!",
+ 	 	 	 	"eng": "Pet revive buff activated"
+ 	 	 	},
+ 	 	 	"success": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"petName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Naibalik mo ang ${petName}",
+ 	 	 	 	"eng": "You have revived ${petName}"
+ 	 	 	}
+ 	 	},
+ 	 	"reviveSuccess": {
+ 	 	 	"announcement": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"player",
+ 	 	 	 	 	"pet"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Naibalik na ni ${player} si ${pet}",
+ 	 	 	 	"eng": "${player} has revived ${pet}"
  	 	 	}
  	 	}
  	},
@@ -4609,6 +4648,10 @@
  	 	"donation28": {
  	 	 	"trans": "Walang katumbas na salita sa Tagalog",
  	 	 	"eng": "Sakura"
+ 	 	},
+ 	 	"donation29": {
+ 	 	 	"trans": "Tagasalakay ng Sistema",
+ 	 	 	"eng": "Netrunner"
  	 	},
  	 	"moderator": {
  	 	 	"trans": "Tagapamagitan",
@@ -5699,6 +5742,42 @@
  	 	 	 	 	"eng": "More coming in future update"
  	 	 	 	}
  	 	 	}
+ 	 	},
+ 	 	"donation29": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "\"Netrunner\" Pamagat ng Donation",
+ 	 	 	 	 	"eng": "\"Netrunner\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "Buksan ang pagpapalit ng larawan ng profile",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Frame ng Netrunner (may animation)",
+ 	 	 	 	 	"eng": "Netrunner frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Properong Netrunner Profile (may animation)",
+ 	 	 	 	 	"eng": "Netrunner Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Pamamaraan ng pagpapahayag ng profile ng Netrunner",
+ 	 	 	 	 	"eng": "Netrunner profile decoration"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "I-customize ang motto ng gang",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "I-customize ang imahe ng gang",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Mayroon pang darating sa susunod na update",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
  	 	}
  	},
  	"equipmentMarks": {
@@ -6478,6 +6557,16 @@
  	 	 	"description": {
  	 	 	 	"trans": "You get some love, and you get some love! Everyone gets some love!.\r\n        When used everyone loves each other\r\n        This effects all players fow 10 minutes",
  	 	 	 	"eng": "You get some love, and you get some love! everyone gets some love!.\r\n        When used everyone loves each other\r\n        This effects all players fow 10 minutes"
+ 	 	 	}
+ 	 	},
+ 	 	"chatExploitPosh": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Chat exploit transmitter [Astig]",
+ 	 	 	 	"eng": "Chat exploit transmitter [Posh]"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Sa pag-activate, lahat ng pakikipag-usap na ibinigay ng mga naninirahan sa ating chat realm ay magdadaan sa isang nakakatuwang metamorphosis, magbibihis ng marilag na kasuotan ng maginoo at Ingles para sa isang takdang panahon na 10 minuto. Ang eksena na ito ay magiging epektibo lamang sa wikang Ingles",
+ 	 	 	 	"eng": "Upon activation, all correspondence proffered by the denizens of our chat realm shall undergo a delightful metamorphosis, adorning itself in the distinguished garb of gentlemanly English for a duration of precisely 10 minutes. this exploit will only work well with English"
  	 	 	}
  	 	},
  	 	"upgradeResetShard": {
@@ -8350,6 +8439,10 @@
  	 	 	"trans": "Chat Exploit [pag -ibig]",
  	 	 	"eng": "Chat Exploit [LOVE]"
  	 	},
+ 	 	"posh": {
+ 	 	 	"trans": "Chat Exploit [POSH]",
+ 	 	 	"eng": "Chat Exploit [POSH]"
+ 	 	},
  	 	"chatExploitProtect": {
  	 	 	"trans": "Pag -encrypt ng chat",
  	 	 	"eng": "Chat Encryption"
@@ -8923,6 +9016,10 @@
  	 	 	],
  	 	 	"trans": "\"Wala kang ${item} para linisin ang alagang hayop mo.\"",
  	 	 	"eng": "You don't have ${item} to clean your pet"
+ 	 	},
+ 	 	"giveMedicine": {
+ 	 	 	"trans": "Magbigay ng gamot",
+ 	 	 	"eng": "Give Medicine"
  	 	},
  	 	"reviveButton": {
  	 	 	"trans": "Buhayin",
@@ -10240,6 +10337,9 @@
  	},
  	"error": {
  	 	"cannotUseItemInStatus": {
+ 	 	 	"vars": [
+ 	 	 	 	"minutes"
+ 	 	 	],
  	 	 	"trans": "Hindi mo maaaring gamitin ang item na ito dahil mayroong isang epekto sa katayuan na salungat dito",
  	 	 	"eng": "You cannot use this item because there is a status effect that conflicts with it"
  	 	}

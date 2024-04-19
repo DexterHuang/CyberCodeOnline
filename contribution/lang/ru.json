@@ -130,15 +130,15 @@
  	 	 	 	"eng": "Deposit Bitcoin"
  	 	 	},
  	 	 	"editMotto": {
+ 	 	 	 	"button": {
+ 	 	 	 	 	"trans": "Редактировать девиз банды",
+ 	 	 	 	 	"eng": "Edit Gang Motto"
+ 	 	 	 	},
  	 	 	 	"modal": {
  	 	 	 	 	"title": {
  	 	 	 	 	 	"trans": "Пожалуйста, введите девиз банды",
  	 	 	 	 	 	"eng": "Please enter your gang motto"
  	 	 	 	 	}
- 	 	 	 	},
- 	 	 	 	"button": {
- 	 	 	 	 	"trans": "Редактировать девиз банды",
- 	 	 	 	 	"eng": "Edit Gang Motto"
  	 	 	 	}
  	 	 	},
  	 	 	"updateImage": {
@@ -3225,13 +3225,13 @@
  	 	 	 	"trans": "Доступ запрещен. Обнаружен нечеловеческий профиль.",
  	 	 	 	"eng": "Access denied. non-human profile detected."
  	 	 	},
+ 	 	 	"report1": {
+ 	 	 	 	"trans": "Пожаловаться и заблокировать",
+ 	 	 	 	"eng": "Report & Block"
+ 	 	 	},
  	 	 	"block": {
  	 	 	 	"trans": "Заблокировать",
  	 	 	 	"eng": "Block"
- 	 	 	},
- 	 	 	"report": {
- 	 	 	 	"trans": "Пожаловаться и заблокировать",
- 	 	 	 	"eng": "Report and Block"
  	 	 	},
  	 	 	"openPlayerGang": {
  	 	 	 	"trans": "Просмотр банды",
@@ -3480,6 +3480,10 @@
  	 	}
  	},
  	"playerDetailsAssetsTab": {
+ 	 	"noAssets": {
+ 	 	 	"trans": "У этого игрока нет никаких активов",
+ 	 	 	"eng": "this player does not own any assets"
+ 	 	},
  	 	"apartment": {
  	 	 	"title": {
  	 	 	 	"vars": [
@@ -3871,32 +3875,28 @@
  	 	 	"trans": "Имя питомца не может содержать пробелы",
  	 	 	"eng": "Pet name can not contain spaces"
  	 	},
- 	 	"revive": {
+ 	 	"rerollImage": {
+ 	 	 	"success": {
+ 	 	 	 	"trans": "Изображение питомца успешно изменено",
+ 	 	 	 	"eng": "Pet image changed successfully"
+ 	 	 	}
+ 	 	},
+ 	 	"adoption": {
  	 	 	"alreadyActivated": {
  	 	 	 	"trans": "Бафф \"Усыновление питомца\" уже активирован",
  	 	 	 	"eng": "Pet Adoption buff is already activated"
  	 	 	},
  	 	 	"announcement": {
  	 	 	 	"vars": [
- 	 	 	 	 	"player"
+ 	 	 	 	 	"player",
+ 	 	 	 	 	"npc"
  	 	 	 	],
- 	 	 	 	"trans": "${player} использовал бафф воскрешения питомца, теперь вы можете воскресить одного из ваших питомцев в течение действия баффа.",
- 	 	 	 	"eng": "${player} has used pet revival buff, you can now revive one of your pet within the buff duration."
+ 	 	 	 	"trans": "${player} активировал(а) бафф \"Усыновление\", ты можешь усыновить питомца у ${npc} в течение действия баффа!",
+ 	 	 	 	"eng": "${player} has activated Adoption Buff, you can adopt a pet from ${npc} within the buff duration!"
  	 	 	},
  	 	 	"activated": {
- 	 	 	 	"trans": "Активирован бафф воскрешения питомца",
- 	 	 	 	"eng": "Pet revive buff activated"
- 	 	 	},
- 	 	 	"notActivated": {
- 	 	 	 	"trans": "Бафф \"Усыновление питомца\" не активирован",
- 	 	 	 	"eng": "Pet Adoption buff is not activated"
- 	 	 	},
- 	 	 	"success": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"petName"
- 	 	 	 	],
- 	 	 	 	"trans": "Ты воскресил ${petName}",
- 	 	 	 	"eng": "You have revived ${petName}"
+ 	 	 	 	"trans": "Бафф на усыновление питомца активирован",
+ 	 	 	 	"eng": "Pet adoption buff activated"
  	 	 	}
  	 	},
  	 	"error": {
@@ -3914,7 +3914,14 @@
  	 	 	 	"pet"
  	 	 	],
  	 	 	"trans": "${player} поиграл с твоим питомцем ${pet}",
- 	 	 	"eng": "${player} has played with your pet ${pet}"
+ 	 	 	"eng": "${player} has played with your pet ${pet}",
+ 	 	 	"success": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"playerName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Ты поиграл с питомцем ${playerName}",
+ 	 	 	 	"eng": "You have played with ${playerName}'s pet"
+ 	 	 	}
  	 	},
  	 	"rename": {
  	 	 	"badWord": {
@@ -3942,6 +3949,38 @@
  	 	 	 	],
  	 	 	 	"trans": "Ты принял ${pet}",
  	 	 	 	"eng": "You have adopted ${pet}"
+ 	 	 	}
+ 	 	},
+ 	 	"reviveActivate": {
+ 	 	 	"announcement": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"player"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${player} активировал(а) бафф возрождения питомца, теперь ты можешь возродить одного из своих питомцев в течение действия баффа.",
+ 	 	 	 	"eng": "${player} has used pet revival buff, you can now revive one of your pet within the buff duration."
+ 	 	 	}
+ 	 	},
+ 	 	"revive": {
+ 	 	 	"activated": {
+ 	 	 	 	"trans": "Активирован бафф воскрешения питомца",
+ 	 	 	 	"eng": "Pet revive buff activated"
+ 	 	 	},
+ 	 	 	"success": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"petName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Ты воскресил ${petName}",
+ 	 	 	 	"eng": "You have revived ${petName}"
+ 	 	 	}
+ 	 	},
+ 	 	"reviveSuccess": {
+ 	 	 	"announcement": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"player",
+ 	 	 	 	 	"pet"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${player} возродил(а) ${pet}",
+ 	 	 	 	"eng": "${player} has revived ${pet}"
  	 	 	}
  	 	}
  	},
@@ -4609,6 +4648,10 @@
  	 	"donation28": {
  	 	 	"trans": "Сакура",
  	 	 	"eng": "Sakura"
+ 	 	},
+ 	 	"donation29": {
+ 	 	 	"trans": "Сетевик",
+ 	 	 	"eng": "Netrunner"
  	 	},
  	 	"moderator": {
  	 	 	"trans": "Модератор",
@@ -5699,6 +5742,42 @@
  	 	 	 	 	"eng": "More coming in future update"
  	 	 	 	}
  	 	 	}
+ 	 	},
+ 	 	"donation29": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "\"Благодарность Нетраннеру\"",
+ 	 	 	 	 	"eng": "\"Netrunner\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "Разблокировать настройку аватара",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Рамка нетраннера (c анимацией)",
+ 	 	 	 	 	"eng": "Netrunner frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Профиль нетраннера (с анимацией)",
+ 	 	 	 	 	"eng": "Netrunner Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Разблокировать персональную биографию",
+ 	 	 	 	 	"eng": "Netrunner profile decoration"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "Настройте девиз банды",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Настроить облик банды",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Больше будет в следующем обновлении",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
  	 	}
  	},
  	"equipmentMarks": {
@@ -6478,6 +6557,16 @@
  	 	 	"description": {
  	 	 	 	"trans": "Тебе немного любви, и тебе немного любви! Каждый получит немного любви!. \r\n         Когда используется, все любят друг друга \r\n         Это влияет на всех игроков в течение 10 минут",
  	 	 	 	"eng": "You get some love, and you get some love! everyone gets some love!.\r\n        When used everyone loves each other\r\n        This effects all players fow 10 minutes"
+ 	 	 	}
+ 	 	},
+ 	 	"chatExploitPosh": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Передатчик эксплойта чата [Шик]",
+ 	 	 	 	"eng": "Chat exploit transmitter [Posh]"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "После активации вся переписка, предоставленная обитателями нашего чата, претерпит восхитительное преображение, украшая себя изысканным нарядом джентльменского английского на протяжении ровно 10 минут. Этот эксплойт будет работать только с английским",
+ 	 	 	 	"eng": "Upon activation, all correspondence proffered by the denizens of our chat realm shall undergo a delightful metamorphosis, adorning itself in the distinguished garb of gentlemanly English for a duration of precisely 10 minutes. this exploit will only work well with English"
  	 	 	}
  	 	},
  	 	"upgradeResetShard": {
@@ -8137,6 +8226,10 @@
  	 	 	"trans": "Эксплойт для чата [Любовь]",
  	 	 	"eng": "Chat Exploit [LOVE]"
  	 	},
+ 	 	"posh": {
+ 	 	 	"trans": "Чат Эксплойт [КРУТ]",
+ 	 	 	"eng": "Chat Exploit [POSH]"
+ 	 	},
  	 	"chatExploitProtect": {
  	 	 	"trans": "Шифрование чата",
  	 	 	"eng": "Chat Encryption"
@@ -8710,6 +8803,10 @@
  	 	 	],
  	 	 	"trans": "У тебя нет ${item} чтобы почистить своего питомца",
  	 	 	"eng": "You don't have ${item} to clean your pet"
+ 	 	},
+ 	 	"giveMedicine": {
+ 	 	 	"trans": "Дай лекарство",
+ 	 	 	"eng": "Give Medicine"
  	 	},
  	 	"reviveButton": {
  	 	 	"trans": "Воскрешение",
@@ -10027,6 +10124,9 @@
  	},
  	"error": {
  	 	"cannotUseItemInStatus": {
+ 	 	 	"vars": [
+ 	 	 	 	"minutes"
+ 	 	 	],
  	 	 	"trans": "Вы не можете использовать этот элемент, потому что существует эффект статуса, который противоречит ему",
  	 	 	"eng": "You cannot use this item because there is a status effect that conflicts with it"
  	 	}

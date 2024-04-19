@@ -130,15 +130,15 @@
  	 	 	 	"eng": "Deposit Bitcoin"
  	 	 	},
  	 	 	"editMotto": {
+ 	 	 	 	"button": {
+ 	 	 	 	 	"trans": "Sửa Phương Châm",
+ 	 	 	 	 	"eng": "Edit Gang Motto"
+ 	 	 	 	},
  	 	 	 	"modal": {
  	 	 	 	 	"title": {
  	 	 	 	 	 	"trans": "Nhập phương châm của Tập Đoàn",
  	 	 	 	 	 	"eng": "Please enter your gang motto"
  	 	 	 	 	}
- 	 	 	 	},
- 	 	 	 	"button": {
- 	 	 	 	 	"trans": "Sửa Phương Châm",
- 	 	 	 	 	"eng": "Edit Gang Motto"
  	 	 	 	}
  	 	 	},
  	 	 	"updateImage": {
@@ -3225,13 +3225,13 @@
  	 	 	 	"trans": "Truy cập bị từ chối. Hồ sơ không phải con người được phát hiện.",
  	 	 	 	"eng": "Access denied. non-human profile detected."
  	 	 	},
+ 	 	 	"report1": {
+ 	 	 	 	"trans": "Báo cáo & Chặn",
+ 	 	 	 	"eng": "Report & Block"
+ 	 	 	},
  	 	 	"block": {
  	 	 	 	"trans": "Chặn",
  	 	 	 	"eng": "Block"
- 	 	 	},
- 	 	 	"report": {
- 	 	 	 	"trans": "Báo cáo và chặn",
- 	 	 	 	"eng": "Report and Block"
  	 	 	},
  	 	 	"openPlayerGang": {
  	 	 	 	"trans": "Xem Tập Đoàn",
@@ -3480,6 +3480,10 @@
  	 	}
  	},
  	"playerDetailsAssetsTab": {
+ 	 	"noAssets": {
+ 	 	 	"trans": "Người chơi này không sở hữu bất kỳ tài sản nào",
+ 	 	 	"eng": "this player does not own any assets"
+ 	 	},
  	 	"apartment": {
  	 	 	"title": {
  	 	 	 	"vars": [
@@ -3871,32 +3875,28 @@
  	 	 	"trans": "Tên thú cưng không được chứa khoảng trắng",
  	 	 	"eng": "Pet name can not contain spaces"
  	 	},
- 	 	"revive": {
+ 	 	"rerollImage": {
+ 	 	 	"success": {
+ 	 	 	 	"trans": "Hình ảnh thú cưng đã được thay đổi thành công",
+ 	 	 	 	"eng": "Pet image changed successfully"
+ 	 	 	}
+ 	 	},
+ 	 	"adoption": {
  	 	 	"alreadyActivated": {
  	 	 	 	"trans": "Buff Nhận Nuôi Thú Cưng đã được kích hoạt rồi đó, đừng lo!",
  	 	 	 	"eng": "Pet Adoption buff is already activated"
  	 	 	},
  	 	 	"announcement": {
  	 	 	 	"vars": [
- 	 	 	 	 	"player"
+ 	 	 	 	 	"player",
+ 	 	 	 	 	"npc"
  	 	 	 	],
- 	 	 	 	"trans": "${player} đã sử dụng buff hồi sinh thú cưng, bạn có thể hồi sinh một trong những thú cưng của bạn trong thời gian buff đó.",
- 	 	 	 	"eng": "${player} has used pet revival buff, you can now revive one of your pet within the buff duration."
+ 	 	 	 	"trans": "${player} đã kích hoạt Buff Nhận Nuôi, bạn có thể nhận nuôi một con thú cưng từ ${npc} trong thời gian Buff đang hoạt động!",
+ 	 	 	 	"eng": "${player} has activated Adoption Buff, you can adopt a pet from ${npc} within the buff duration!"
  	 	 	},
  	 	 	"activated": {
- 	 	 	 	"trans": "Kích hoạt buff hồi sinh cho thú cưng",
- 	 	 	 	"eng": "Pet revive buff activated"
- 	 	 	},
- 	 	 	"notActivated": {
- 	 	 	 	"trans": "Không kích hoạt được buff Nhận Nuôi Thú Cưng",
- 	 	 	 	"eng": "Pet Adoption buff is not activated"
- 	 	 	},
- 	 	 	"success": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"petName"
- 	 	 	 	],
- 	 	 	 	"trans": "Bạn đã hồi sinh ${petName}",
- 	 	 	 	"eng": "You have revived ${petName}"
+ 	 	 	 	"trans": "Kích hoạt khả năng nhận nuôi thú cưng",
+ 	 	 	 	"eng": "Pet adoption buff activated"
  	 	 	}
  	 	},
  	 	"error": {
@@ -3914,7 +3914,14 @@
  	 	 	 	"pet"
  	 	 	],
  	 	 	"trans": "${player} đã chơi với thú cưng của bạn ${pet}",
- 	 	 	"eng": "${player} has played with your pet ${pet}"
+ 	 	 	"eng": "${player} has played with your pet ${pet}",
+ 	 	 	"success": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"playerName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Bạn đã chơi với thú cưng của ${playerName}",
+ 	 	 	 	"eng": "You have played with ${playerName}'s pet"
+ 	 	 	}
  	 	},
  	 	"rename": {
  	 	 	"badWord": {
@@ -3942,6 +3949,38 @@
  	 	 	 	],
  	 	 	 	"trans": "Bạn đã nhận nuôi ${pet}",
  	 	 	 	"eng": "You have adopted ${pet}"
+ 	 	 	}
+ 	 	},
+ 	 	"reviveActivate": {
+ 	 	 	"announcement": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"player"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${player} đã sử dụng buff hồi sinh thú cưng, bạn có thể hồi sinh một trong những thú cưng của mình trong thời gian buff đang hoạt động.",
+ 	 	 	 	"eng": "${player} has used pet revival buff, you can now revive one of your pet within the buff duration."
+ 	 	 	}
+ 	 	},
+ 	 	"revive": {
+ 	 	 	"activated": {
+ 	 	 	 	"trans": "Kích hoạt buff hồi sinh cho thú cưng",
+ 	 	 	 	"eng": "Pet revive buff activated"
+ 	 	 	},
+ 	 	 	"success": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"petName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Bạn đã hồi sinh ${petName}",
+ 	 	 	 	"eng": "You have revived ${petName}"
+ 	 	 	}
+ 	 	},
+ 	 	"reviveSuccess": {
+ 	 	 	"announcement": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"player",
+ 	 	 	 	 	"pet"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${player} đã hồi sinh ${pet}",
+ 	 	 	 	"eng": "${player} has revived ${pet}"
  	 	 	}
  	 	}
  	},
@@ -4609,6 +4648,10 @@
  	 	"donation28": {
  	 	 	"trans": "Sakura",
  	 	 	"eng": "Sakura"
+ 	 	},
+ 	 	"donation29": {
+ 	 	 	"trans": "Người chơi mạng",
+ 	 	 	"eng": "Netrunner"
  	 	},
  	 	"moderator": {
  	 	 	"trans": "Người điều hành",
@@ -5699,6 +5742,42 @@
  	 	 	 	 	"eng": "More coming in future update"
  	 	 	 	}
  	 	 	}
+ 	 	},
+ 	 	"donation29": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "\"Tiêu Đề Quyên Góp Cho Netrunner\"",
+ 	 	 	 	 	"eng": "\"Netrunner\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "Mở khóa tùy chỉnh hình đại diện",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Khung Netrunner (có hiệu ứng chuyển động)",
+ 	 	 	 	 	"eng": "Netrunner frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Hồ Sơ Netrunner (có hiệu ứng hoạt hình)",
+ 	 	 	 	 	"eng": "Netrunner Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Mở khóa tiểu sử cá nhân",
+ 	 	 	 	 	"eng": "Netrunner profile decoration"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "Tùy chỉnh khẩu hiệu băng đảng",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Tùy chỉnh hình ảnh băng đảng",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Sắp có thêm trong bản cập nhật tương lai",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
  	 	}
  	},
  	"equipmentMarks": {
@@ -6478,6 +6557,16 @@
  	 	 	"description": {
  	 	 	 	"trans": "Bạn có một tình yêu, và bạn muốn có thêm một số tình yêu! Mọi người đều có một tình yêu!\r\n         Khi sử dụng tất cả mọi người tại phòng trò chuyện toàn cầu đều yêu nhau.\r\n         Tác dụng này cho tất cả người chơi trong 10 phút",
  	 	 	 	"eng": "You get some love, and you get some love! everyone gets some love!.\r\n        When used everyone loves each other\r\n        This effects all players fow 10 minutes"
+ 	 	 	}
+ 	 	},
+ 	 	"chatExploitPosh": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Trò trò chuyện truyền tải [Posh]",
+ 	 	 	 	"eng": "Chat exploit transmitter [Posh]"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Khi kích hoạt, tất cả các cuộc trò chuyện từ các cư dân của vùng chat của chúng ta sẽ trải qua một sự biến đổi đáng yêu, trang trí bản thân trong bộ cánh lịch lãm của tiếng Anh quý ông trong khoảng thời gian chính xác là 10 phút. Kỹ thuật này chỉ hoạt động tốt với tiếng Anh",
+ 	 	 	 	"eng": "Upon activation, all correspondence proffered by the denizens of our chat realm shall undergo a delightful metamorphosis, adorning itself in the distinguished garb of gentlemanly English for a duration of precisely 10 minutes. this exploit will only work well with English"
  	 	 	}
  	 	},
  	 	"upgradeResetShard": {
@@ -8137,6 +8226,10 @@
  	 	 	"trans": "Chuyển đổi Chat [LOVE]",
  	 	 	"eng": "Chat Exploit [LOVE]"
  	 	},
+ 	 	"posh": {
+ 	 	 	"trans": "Lỗ Hổng Trò Chuyện [POSH]",
+ 	 	 	"eng": "Chat Exploit [POSH]"
+ 	 	},
  	 	"chatExploitProtect": {
  	 	 	"trans": "Mã hóa Chat",
  	 	 	"eng": "Chat Encryption"
@@ -8710,6 +8803,10 @@
  	 	 	],
  	 	 	"trans": "Bạn không có ${item} để vệ sinh cho thú cưng của bạn",
  	 	 	"eng": "You don't have ${item} to clean your pet"
+ 	 	},
+ 	 	"giveMedicine": {
+ 	 	 	"trans": "Cho thuốc",
+ 	 	 	"eng": "Give Medicine"
  	 	},
  	 	"reviveButton": {
  	 	 	"trans": "Hồi sinh",
@@ -10027,6 +10124,9 @@
  	},
  	"error": {
  	 	"cannotUseItemInStatus": {
+ 	 	 	"vars": [
+ 	 	 	 	"minutes"
+ 	 	 	],
  	 	 	"trans": "Bạn không thể sử dụng vật phẩm này vì đang sở hữu hiệu ứng trạng thái xung đột",
  	 	 	"eng": "You cannot use this item because there is a status effect that conflicts with it"
  	 	}

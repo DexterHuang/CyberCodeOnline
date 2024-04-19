@@ -130,15 +130,15 @@
  	 	 	 	"eng": "Deposit Bitcoin"
  	 	 	},
  	 	 	"editMotto": {
+ 	 	 	 	"button": {
+ 	 	 	 	 	"trans": "Çete Sloganını Değiştirin",
+ 	 	 	 	 	"eng": "Edit Gang Motto"
+ 	 	 	 	},
  	 	 	 	"modal": {
  	 	 	 	 	"title": {
  	 	 	 	 	 	"trans": "Lütfen çete sloganını girin",
  	 	 	 	 	 	"eng": "Please enter your gang motto"
  	 	 	 	 	}
- 	 	 	 	},
- 	 	 	 	"button": {
- 	 	 	 	 	"trans": "Çete Sloganını Değiştirin",
- 	 	 	 	 	"eng": "Edit Gang Motto"
  	 	 	 	}
  	 	 	},
  	 	 	"updateImage": {
@@ -3225,13 +3225,13 @@
  	 	 	 	"trans": "Erişim engellendi. İnsan olmayan profil tespit edildi.",
  	 	 	 	"eng": "Access denied. non-human profile detected."
  	 	 	},
+ 	 	 	"report1": {
+ 	 	 	 	"trans": "Rapor Et ve Engelle",
+ 	 	 	 	"eng": "Report & Block"
+ 	 	 	},
  	 	 	"block": {
  	 	 	 	"trans": "Engellek",
  	 	 	 	"eng": "Block"
- 	 	 	},
- 	 	 	"report": {
- 	 	 	 	"trans": "Rapor Et ve Engelle",
- 	 	 	 	"eng": "Report and Block"
  	 	 	},
  	 	 	"openPlayerGang": {
  	 	 	 	"trans": "Çeteyi Görüntüle",
@@ -3480,6 +3480,10 @@
  	 	}
  	},
  	"playerDetailsAssetsTab": {
+ 	 	"noAssets": {
+ 	 	 	"trans": "Bu oyuncunun hiçbir varlığı yok",
+ 	 	 	"eng": "this player does not own any assets"
+ 	 	},
  	 	"apartment": {
  	 	 	"title": {
  	 	 	 	"vars": [
@@ -3871,32 +3875,28 @@
  	 	 	"trans": "Evcil hayvan adı boşluk içeremez",
  	 	 	"eng": "Pet name can not contain spaces"
  	 	},
- 	 	"revive": {
+ 	 	"rerollImage": {
+ 	 	 	"success": {
+ 	 	 	 	"trans": "Evcil hayvan resmi başarıyla değiştirildi",
+ 	 	 	 	"eng": "Pet image changed successfully"
+ 	 	 	}
+ 	 	},
+ 	 	"adoption": {
  	 	 	"alreadyActivated": {
  	 	 	 	"trans": "Evcil Hayvan Sahiplenme bonusu zaten aktive edildi",
  	 	 	 	"eng": "Pet Adoption buff is already activated"
  	 	 	},
  	 	 	"announcement": {
  	 	 	 	"vars": [
- 	 	 	 	 	"player"
+ 	 	 	 	 	"player",
+ 	 	 	 	 	"npc"
  	 	 	 	],
- 	 	 	 	"trans": "${player} evcil hayvan canlandırma büyüsünü kullandı, artık büyünün süresi içinde bir evcil hayvanını canlandırabilirsin.",
- 	 	 	 	"eng": "${player} has used pet revival buff, you can now revive one of your pet within the buff duration."
+ 	 	 	 	"trans": "${player} Benimseme Gücü'nü aktif etti, buff süresi içinde ${npc} adresinden bir evcil hayvan sahiplenebilirsin!",
+ 	 	 	 	"eng": "${player} has activated Adoption Buff, you can adopt a pet from ${npc} within the buff duration!"
  	 	 	},
  	 	 	"activated": {
- 	 	 	 	"trans": "Evcil hayvan canlandırma gücü etkinleştirildi",
- 	 	 	 	"eng": "Pet revive buff activated"
- 	 	 	},
- 	 	 	"notActivated": {
- 	 	 	 	"trans": "Evcil Hayvan Sahiplenme bonusu etkin değil",
- 	 	 	 	"eng": "Pet Adoption buff is not activated"
- 	 	 	},
- 	 	 	"success": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"petName"
- 	 	 	 	],
- 	 	 	 	"trans": "${petName} canlandırıldın",
- 	 	 	 	"eng": "You have revived ${petName}"
+ 	 	 	 	"trans": "Evcil hayvan sahiplenme bonusu etkinleştirildi",
+ 	 	 	 	"eng": "Pet adoption buff activated"
  	 	 	}
  	 	},
  	 	"error": {
@@ -3914,7 +3914,14 @@
  	 	 	 	"pet"
  	 	 	],
  	 	 	"trans": "${player} senin evcil hayvanın ${pet} ile oynadı",
- 	 	 	"eng": "${player} has played with your pet ${pet}"
+ 	 	 	"eng": "${player} has played with your pet ${pet}",
+ 	 	 	"success": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"playerName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${playerName}'in evcil hayvanıyla oynadın",
+ 	 	 	 	"eng": "You have played with ${playerName}'s pet"
+ 	 	 	}
  	 	},
  	 	"rename": {
  	 	 	"badWord": {
@@ -3942,6 +3949,38 @@
  	 	 	 	],
  	 	 	 	"trans": "${pet} benimsedin",
  	 	 	 	"eng": "You have adopted ${pet}"
+ 	 	 	}
+ 	 	},
+ 	 	"reviveActivate": {
+ 	 	 	"announcement": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"player"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${player} evcil hayvan canlandırma büyüsünü kullandı, artık büyünün süresi içinde bir evcil hayvanını canlandırabilirsin.",
+ 	 	 	 	"eng": "${player} has used pet revival buff, you can now revive one of your pet within the buff duration."
+ 	 	 	}
+ 	 	},
+ 	 	"revive": {
+ 	 	 	"activated": {
+ 	 	 	 	"trans": "Evcil hayvan canlandırma gücü etkinleştirildi",
+ 	 	 	 	"eng": "Pet revive buff activated"
+ 	 	 	},
+ 	 	 	"success": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"petName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${petName} canlandırıldın",
+ 	 	 	 	"eng": "You have revived ${petName}"
+ 	 	 	}
+ 	 	},
+ 	 	"reviveSuccess": {
+ 	 	 	"announcement": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"player",
+ 	 	 	 	 	"pet"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${player} ${pet} tarafından yeniden hayata döndü",
+ 	 	 	 	"eng": "${player} has revived ${pet}"
  	 	 	}
  	 	}
  	},
@@ -4609,6 +4648,10 @@
  	 	"donation28": {
  	 	 	"trans": "Sakura",
  	 	 	"eng": "Sakura"
+ 	 	},
+ 	 	"donation29": {
+ 	 	 	"trans": "Ağ Koşucusu",
+ 	 	 	"eng": "Netrunner"
  	 	},
  	 	"moderator": {
  	 	 	"trans": "Moderatör",
@@ -5699,6 +5742,42 @@
  	 	 	 	 	"eng": "More coming in future update"
  	 	 	 	}
  	 	 	}
+ 	 	},
+ 	 	"donation29": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "\"Ağ Koşucusu\" Bağış Başlığı",
+ 	 	 	 	 	"eng": "\"Netrunner\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "Profil resmi özelleştirmesini açın",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "Ağ Koşucusu çerçevesi (animasyonlu)",
+ 	 	 	 	 	"eng": "Netrunner frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "Ağ Avcısı Profili (animasyonlu)",
+ 	 	 	 	 	"eng": "Netrunner Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "Özel biyografiyi aç",
+ 	 	 	 	 	"eng": "Netrunner profile decoration"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "Çete sloganını özelleştir",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "Çete imajını özelleştir",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "Gelecek güncellemede daha fazlası var",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
  	 	}
  	},
  	"equipmentMarks": {
@@ -6478,6 +6557,16 @@
  	 	 	"description": {
  	 	 	 	"trans": "Biraz sana aşk, biraz sana aşk! Herkes biraz aşk alacak!\r\n         Kullanıldığında herkes birbirini sever\r\n         Bu etkiler tüm oyuncular için 10 dakika boyunca sürer",
  	 	 	 	"eng": "You get some love, and you get some love! everyone gets some love!.\r\n        When used everyone loves each other\r\n        This effects all players fow 10 minutes"
+ 	 	 	}
+ 	 	},
+ 	 	"chatExploitPosh": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Sohbet hilesi vericisi [Şık]",
+ 	 	 	 	"eng": "Chat exploit transmitter [Posh]"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Aktivasyon gerçekleştiğinde, sohbet dünyamızın sakinlerinin tüm yazışmaları, tam olarak 10 dakika boyunca kibar İngilizce'nin seçkin kıyafetlerine bürünecek hoş bir dönüşüm geçirecektir. Bu hile sadece İngilizce ile iyi çalışacaktır",
+ 	 	 	 	"eng": "Upon activation, all correspondence proffered by the denizens of our chat realm shall undergo a delightful metamorphosis, adorning itself in the distinguished garb of gentlemanly English for a duration of precisely 10 minutes. this exploit will only work well with English"
  	 	 	}
  	 	},
  	 	"upgradeResetShard": {
@@ -8137,6 +8226,10 @@
  	 	 	"trans": "Sohbet Exploit [AŞK]",
  	 	 	"eng": "Chat Exploit [LOVE]"
  	 	},
+ 	 	"posh": {
+ 	 	 	"trans": "Sohbet Sömürüsü [POSH]",
+ 	 	 	"eng": "Chat Exploit [POSH]"
+ 	 	},
  	 	"chatExploitProtect": {
  	 	 	"trans": "Sohbet Şifreleme",
  	 	 	"eng": "Chat Encryption"
@@ -8710,6 +8803,10 @@
  	 	 	],
  	 	 	"trans": "Evcil hayvanını temizlemek için ${item} paran yok",
  	 	 	"eng": "You don't have ${item} to clean your pet"
+ 	 	},
+ 	 	"giveMedicine": {
+ 	 	 	"trans": "İlaç vermek",
+ 	 	 	"eng": "Give Medicine"
  	 	},
  	 	"reviveButton": {
  	 	 	"trans": "Canlandır",
@@ -10027,6 +10124,9 @@
  	},
  	"error": {
  	 	"cannotUseItemInStatus": {
+ 	 	 	"vars": [
+ 	 	 	 	"minutes"
+ 	 	 	],
  	 	 	"trans": "Bu öğeyi kullanamazsınız çünkü onunla çelişen bir durum etkisi vardır",
  	 	 	"eng": "You cannot use this item because there is a status effect that conflicts with it"
  	 	}
