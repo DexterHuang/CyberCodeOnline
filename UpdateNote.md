@@ -31,6 +31,10 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
+### 0.1830
+
+-   Fixed issue with chat message popup on non-english UI 
+
 ### 0.1829
 
 -   Improved the look and feel of the new Netrunner cosmetic player detail page
