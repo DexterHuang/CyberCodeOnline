@@ -33,7 +33,8 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ### 0.1830
 
--   Fixed issue with chat message popup on non-english UI 
+-   Fixed issue with chat message popup on non-English UI
+-   Fixed problem with Posh Exploit leaking to gang chat
 
 ### 0.1829
 
