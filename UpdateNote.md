@@ -34,6 +34,9 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ### 0.1831
 
 -   Added global party contribution feature, now you can go to `Partyline Pub` found in the market street, where a new NPC `Jieun` has been added, you can contribute 10% of global party with your unit, when the funding reaches 100%, global party buff will be activated immediately.
+    -   When the funds are collected, the global party buff will be activated immediately, and the buff will last for 24 hours, the buff is the same as the existing global party buff
+    -   If a global buff is already active when a player tries to contribute the last bit of the fund, the server will not allow contribution until the buff ends, however you can freely contribute the fund as long as its not the last bit of the fund.
+    -   If a normal global buff (the activated by item) is used, it WILL NOT affect the global party contribution progress, the progress will continue as normal, the progress only resets when the last bit of the fund is contributed and the buff is activated by the community.
 
 ![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/f1a41a2c-73cc-414b-a4f8-64eee9bd3b7c)
 
