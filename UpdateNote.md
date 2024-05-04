@@ -34,8 +34,8 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ### 0.1831
 
 -   Added global party contribution feature, now you can go to `Partyline Pub` found in the market street, where a new NPC `Jieun` has been added, you can contribute 10% of global party with your unit, when the funding reaches 100%, global party buff will be activated immediately.
--   ![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/f1a41a2c-73cc-414b-a4f8-64eee9bd3b7c)
 
+![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/f1a41a2c-73cc-414b-a4f8-64eee9bd3b7c)
 
 ### 0.1830
 
