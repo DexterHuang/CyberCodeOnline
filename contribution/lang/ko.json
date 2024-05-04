@@ -26,11 +26,11 @@
  	 	 	 	"vars": [
  	 	 	 	 	"amount"
  	 	 	 	],
- 	 	 	 	"trans": "아파트 월세를 ${amount} 지불했습니다",
+ 	 	 	 	"trans": "아파트 임대료를 ${amount} 지불했습니다",
  	 	 	 	"eng": "You have paid your apartment rent of ${amount}"
  	 	 	},
  	 	 	"unpaidMail": {
- 	 	 	 	"trans": "아파트 월세 납부에 실패했습니다. 당신의 아파트 계약이 해지되었습니다",
+ 	 	 	 	"trans": "아파트 임대료 납부에 실패했습니다. 당신의 아파트 계약이 해지되었습니다",
  	 	 	 	"eng": "You have failed to pay your apartment rent, your apartment has been terminated"
  	 	 	}
  	 	}
@@ -199,12 +199,95 @@
  	 	},
  	 	"communityContentBox": {
  	 	 	"title": {
- 	 	 	 	"trans": "커뮤니티 콘텐츠",
+ 	 	 	 	"trans": "커뮤니티 컨텐츠",
  	 	 	 	"eng": "Community Content"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "이 콘텐츠는 커뮤니티 구성원이 기여합니다. 자신의 콘텐츠를 기부하려면 여기를 클릭하십시오.",
+ 	 	 	 	"trans": "이 컨텐츠는 커뮤니티에서 제공합니다. 자신의 컨텐츠를 제공하려면 여기를 클릭하십시오.",
  	 	 	 	"eng": "This content is contributed by the community. click here to contribute your own content."
+ 	 	 	}
+ 	 	},
+ 	 	"quest": {
+ 	 	 	"globalParty": {
+ 	 	 	 	"progressTitle": {
+ 	 	 	 	 	"trans": "세계 파티 자금",
+ 	 	 	 	 	"eng": "Global Party Funds"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"dynamicTutorial": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "튜토리얼",
+ 	 	 	 	 	"eng": "Tutorials"
+ 	 	 	 	},
+ 	 	 	 	"printingTooLow": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "인쇄 레벨을 올리세요",
+ 	 	 	 	 	 	"eng": "Improve Printing Rank"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "인쇄 레벨에 따라 인쇄하는 아이템의 수준이 결정됩니다. 인쇄하여 경험치를 얻고 암시장에서 판매 하세요.",
+ 	 	 	 	 	 	"eng": "Printing Rank determines the level of item you print. Gain printing exp by print & sell in Black Market"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"gearTooWeak": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "더 나은 장비를 얻으세요!",
+ 	 	 	 	 	 	"eng": "Get even better equipments!"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "당신의 현재 장비가 레벨에 비해 구식으로 보입니다. 더 강한 장비를 인쇄하여 교체하세요.",
+ 	 	 	 	 	 	"eng": "Your current equipment seems abit outdated for your level, try printing stronger ones to replace them"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"noUpgrade": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "장비를 강화하세요!",
+ 	 	 	 	 	 	"eng": "Upgrade your equipment!"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	 	"itemName"
+ 	 	 	 	 	 	],
+ 	 	 	 	 	 	"trans": "${itemName}를 사용하여 장비를 강화할 수 있습니다",
+ 	 	 	 	 	 	"eng": "You can upgrade your equipment by using the ${itemName}"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"aiCore": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "AI 코어를 사용하세요",
+ 	 	 	 	 	 	"eng": "Use AI Core"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "AI 코어를 가지고 있네요. 이를 사용하여 적절한 레벨 지역에서 자동 사냥을 수행하도록 하세요.",
+ 	 	 	 	 	 	"eng": "Looks like you have some AI Cores, use them to do AFK auto leveling in appropriate level area."
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"noAiCore": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "AI 코어 획득",
+ 	 	 	 	 	 	"eng": "Acquire AI Cores"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "AI 코어를 얻을 수 있습니다 : \n         - 다양한 위치에서 노획하십시오 \n         - Hash 프로세서 및 공학 조각으로 제작 \n         - 모든 곳에서 적을 약탈합니다",
+ 	 	 	 	 	 	"eng": "You may get AI Cores by: \r\n        - Scavenge in various locations\r\n        - Crafting with Hash Processors and Tech Scraps\r\n        - Looting from enemies in all locations"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"common": {
+ 	 	 	 	 	"clickToOpen": {
+ 	 	 	 	 	 	"trans": "클릭하세요",
+ 	 	 	 	 	 	"eng": "click to open"
+ 	 	 	 	 	}
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"globalQuest": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "글로벌",
+ 	 	 	 	 	"eng": "Global"
+ 	 	 	 	},
+ 	 	 	 	"progressTitle": {
+ 	 	 	 	 	"trans": "SL 데이터 요새 해킹",
+ 	 	 	 	 	"eng": "SL-Data Fortress Breach"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"minigame": {
@@ -427,7 +510,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"vpnName"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "채팅 취약점이 실행되어 모든 메세지가 변경되고 있습니다. ${vpnName}을 사용하여 채팅 보안을 획득하세요!",
+ 	 	 	 	 	"trans": "채팅 취약점이 실행되어 모든 메세지가 변경되고 있습니다. ${vpnName}을 사용하여 채팅 보안을 활성화하세요!",
  	 	 	 	 	"eng": "Chat exploit is in effect, all message sent will be altered. use ${vpnName} to secure your connection!"
  	 	 	 	},
  	 	 	 	"activateVPN": {
@@ -1248,97 +1331,13 @@
  	 	 	 	}
  	 	 	}
  	 	},
- 	 	"quest": {
- 	 	 	"dynamicTutorial": {
- 	 	 	 	"title": {
- 	 	 	 	 	"trans": "튜토리얼",
- 	 	 	 	 	"eng": "Tutorials"
- 	 	 	 	},
- 	 	 	 	"printingTooLow": {
- 	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "인쇄 레벨을 올리세요",
- 	 	 	 	 	 	"eng": "Improve Printing Rank"
- 	 	 	 	 	},
- 	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "인쇄 레벨에 따라 인쇄하는 아이템의 수준이 결정됩니다. 인쇄하여 경험치를 얻고 암시장에서 판매 하세요.",
- 	 	 	 	 	 	"eng": "Printing Rank determines the level of item you print. Gain printing exp by print & sell in Black Market"
- 	 	 	 	 	}
- 	 	 	 	},
- 	 	 	 	"gearTooWeak": {
- 	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "더 나은 장비를 얻으세요!",
- 	 	 	 	 	 	"eng": "Get even better equipments!"
- 	 	 	 	 	},
- 	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "당신의 현재 장비가 레벨에 비해 구식으로 보입니다. 더 강한 장비를 인쇄하여 교체하세요.",
- 	 	 	 	 	 	"eng": "Your current equipment seems abit outdated for your level, try printing stronger ones to replace them"
- 	 	 	 	 	}
- 	 	 	 	},
- 	 	 	 	"noUpgrade": {
- 	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "장비를 강화하세요!",
- 	 	 	 	 	 	"eng": "Upgrade your equipment!"
- 	 	 	 	 	},
- 	 	 	 	 	"description": {
- 	 	 	 	 	 	"vars": [
- 	 	 	 	 	 	 	"itemName"
- 	 	 	 	 	 	],
- 	 	 	 	 	 	"trans": "${itemName}를 사용하여 장비를 강화할 수 있습니다",
- 	 	 	 	 	 	"eng": "You can upgrade your equipment by using the ${itemName}"
- 	 	 	 	 	}
- 	 	 	 	},
- 	 	 	 	"aiCore": {
- 	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "AI 코어를 사용하세요",
- 	 	 	 	 	 	"eng": "Use AI Core"
- 	 	 	 	 	},
- 	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "AI 코어를 가지고 있네요. 이를 사용하여 적절한 레벨 지역에서 자동 사냥을 수행하도록 하세요.",
- 	 	 	 	 	 	"eng": "Looks like you have some AI Cores, use them to do AFK auto leveling in appropriate level area."
- 	 	 	 	 	}
- 	 	 	 	},
- 	 	 	 	"noAiCore": {
- 	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "AI 코어 획득",
- 	 	 	 	 	 	"eng": "Acquire AI Cores"
- 	 	 	 	 	},
- 	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "AI 코어를 얻을 수 있습니다 : \n         - 다양한 위치에서 노획하십시오 \n         - Hash 프로세서 및 공학 조각으로 제작 \n         - 모든 곳에서 적을 약탈합니다",
- 	 	 	 	 	 	"eng": "You may get AI Cores by: \r\n        - Scavenge in various locations\r\n        - Crafting with Hash Processors and Tech Scraps\r\n        - Looting from enemies in all locations"
- 	 	 	 	 	}
- 	 	 	 	},
- 	 	 	 	"common": {
- 	 	 	 	 	"clickToOpen": {
- 	 	 	 	 	 	"trans": "클릭하세요",
- 	 	 	 	 	 	"eng": "click to open"
- 	 	 	 	 	}
- 	 	 	 	}
- 	 	 	},
- 	 	 	"globalQuest": {
- 	 	 	 	"progressTitle": {
- 	 	 	 	 	"trans": "SL 데이터 요새 해킹",
- 	 	 	 	 	"eng": "SL-Data Fortress Breach"
- 	 	 	 	},
- 	 	 	 	"infoBox": {
- 	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "사이버 공간 해킹 진행중",
- 	 	 	 	 	 	"eng": "Cyberspace breach in progress"
- 	 	 	 	 	},
- 	 	 	 	 	"subtitle": {
- 	 	 	 	 	 	"trans": "다른 넷러너들과 함께 힘을 합쳐 SL 데이터 요새를 해킹하여 모든 유저들에게 버프를 부여하세요",
- 	 	 	 	 	 	"eng": "Join forces with other Netrunners to breach the SL-Data Fortress to grant all players with buff"
- 	 	 	 	 	}
- 	 	 	 	},
- 	 	 	 	"completeBox": {
- 	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "해킹 작업이 완료되었습니다",
- 	 	 	 	 	 	"eng": "Breach operation completed"
- 	 	 	 	 	},
- 	 	 	 	 	"subtitle": {
- 	 	 	 	 	 	"trans": "원격 취약점 배포중, 잠시 기다려주십시오 ...",
- 	 	 	 	 	 	"eng": "Remote exploit deploying, please wait..."
- 	 	 	 	 	}
- 	 	 	 	}
+ 	 	"error": {
+ 	 	 	"levelTooLow": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"level"
+ 	 	 	 	],
+ 	 	 	 	"trans": "이 기능을 사용하려면 레벨 ${level}이 필요합니다",
+ 	 	 	 	"eng": "You need to be level ${level} to access this feature"
  	 	 	}
  	 	},
  	 	"mobileQuestPage": {
@@ -2423,6 +2422,10 @@
  	 	 	"ai": {
  	 	 	 	"trans": "인공 지능",
  	 	 	 	"eng": "Artificial Intelligence"
+ 	 	 	},
+ 	 	 	"dataFortress": {
+ 	 	 	 	"trans": "SL-데이터 요새",
+ 	 	 	 	"eng": "SL-Data Fortress"
  	 	 	}
  	 	},
  	 	"unlockContainerPage": {
@@ -2812,6 +2815,10 @@
  	 	"subtitle": {
  	 	 	"trans": "주최자:",
  	 	 	"eng": "Hosted by:"
+ 	 	},
+ 	 	"subtitleMulti": {
+ 	 	 	"trans": "파티 호스트를 확인하려면 클릭하세요:",
+ 	 	 	"eng": "Click to view party hosts:"
  	 	},
  	 	"button,": {
  	 	 	"vars": [
@@ -3891,11 +3898,11 @@
  	 	 	 	 	"player",
  	 	 	 	 	"npc"
  	 	 	 	],
- 	 	 	 	"trans": "${player}님이 양육 버프를 발동했어! 버프 지속 시간 동안 ${npc}에서 애완동물을 입양할 수 있어!",
+ 	 	 	 	"trans": "${player}님이 입양 버프를 사용했습니다. 버프 지속 시간 동안 ${npc}에서 애완동물을 입양할 수 있습니다!",
  	 	 	 	"eng": "${player} has activated Adoption Buff, you can adopt a pet from ${npc} within the buff duration!"
  	 	 	},
  	 	 	"activated": {
- 	 	 	 	"trans": "애완동물 입양 버프 발동",
+ 	 	 	 	"trans": "애완동물 입양 버프 활성화",
  	 	 	 	"eng": "Pet adoption buff activated"
  	 	 	}
  	 	},
@@ -3904,7 +3911,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"hours"
  	 	 	 	],
- 	 	 	 	"trans": "${hours}시간마다 한 플레이어의 애완동물과만 상호작용 할 수 있습니다",
+ 	 	 	 	"trans": "한 플레이어의 펫과는 ${hours}시간에 한 번만 상호작용 할 수 있습니다",
  	 	 	 	"eng": "You can only interact with a player's pet once every ${hours} hours"
  	 	 	}
  	 	},
@@ -3919,7 +3926,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"playerName"
  	 	 	 	],
- 	 	 	 	"trans": "너, ${playerName}의 애완동물과 놀았어",
+ 	 	 	 	"trans": "${playerName}의 애완동물과 놀았습니다",
  	 	 	 	"eng": "You have played with ${playerName}'s pet"
  	 	 	}
  	 	},
@@ -3956,13 +3963,13 @@
  	 	 	 	"vars": [
  	 	 	 	 	"player"
  	 	 	 	],
- 	 	 	 	"trans": "${player}님이 애완동물 부활 버프를 사용했습니다. 이제 버프 지속 기간 내에 애완동물을 부활시킬 수 있습니다.",
+ 	 	 	 	"trans": "${player}님이 애완동물 부활 버프를 사용했습니다. 버프 지속 기간 내에 한마리의 애완동물을 부활시킬 수 있습니다.",
  	 	 	 	"eng": "${player} has used pet revival buff, you can now revive one of your pet within the buff duration."
  	 	 	}
  	 	},
  	 	"revive": {
  	 	 	"activated": {
- 	 	 	 	"trans": "펫 부활 버프 활성화됨",
+ 	 	 	 	"trans": "펫 부활 버프 활성화",
  	 	 	 	"eng": "Pet revive buff activated"
  	 	 	},
  	 	 	"success": {
@@ -5654,7 +5661,7 @@
  	 	 	 	 	"eng": "CyberDragon Profile (with animation)"
  	 	 	 	},
  	 	 	 	"5": {
- 	 	 	 	 	"trans": "커스텀 바이오 잠금 해제",
+ 	 	 	 	 	"trans": "사용자 정의 바이오 잠금 해제",
  	 	 	 	 	"eng": "Unlock custom bio"
  	 	 	 	},
  	 	 	 	"6": {
@@ -5694,7 +5701,7 @@
  	 	 	 	 	"eng": "Skip Lord Profile (with animation)"
  	 	 	 	},
  	 	 	 	"5": {
- 	 	 	 	 	"trans": "커스텀 바이오 잠금 해제",
+ 	 	 	 	 	"trans": "사용자 정의 바이오 잠금 해제",
  	 	 	 	 	"eng": "Unlock custom bio"
  	 	 	 	},
  	 	 	 	"6": {
@@ -5734,7 +5741,7 @@
  	 	 	 	 	"eng": "Sakura Profile (with animation)"
  	 	 	 	},
  	 	 	 	"5": {
- 	 	 	 	 	"trans": "커스텀 바이오 잠금 해제",
+ 	 	 	 	 	"trans": "사용자 정의 바이오 잠금 해제",
  	 	 	 	 	"eng": "Unlock custom bio"
  	 	 	 	},
  	 	 	 	"6": {
@@ -5758,11 +5765,11 @@
  	 	"donation29": {
  	 	 	"benefits": {
  	 	 	 	"1": {
- 	 	 	 	 	"trans": "\"넷러너\" 기부 제목",
+ 	 	 	 	 	"trans": "\"넷러너\" 후원 타이틀",
  	 	 	 	 	"eng": "\"Netrunner\" donation title"
  	 	 	 	},
  	 	 	 	"2": {
- 	 	 	 	 	"trans": "프로필 사진 커스터마이징 잠금 해제",
+ 	 	 	 	 	"trans": "프로필 사진 커스터마이징 가능",
  	 	 	 	 	"eng": "Unlock profile picture customization"
  	 	 	 	},
  	 	 	 	"3": {
@@ -5774,7 +5781,7 @@
  	 	 	 	 	"eng": "Netrunner Profile (with animation)"
  	 	 	 	},
  	 	 	 	"5": {
- 	 	 	 	 	"trans": "커스텀 바이오 잠금 해제",
+ 	 	 	 	 	"trans": "사용자 정의 바이오 잠금 해제",
  	 	 	 	 	"eng": "Unlock custom bio"
  	 	 	 	},
  	 	 	 	"6": {
@@ -5782,15 +5789,15 @@
  	 	 	 	 	"eng": "Netrunner profile decoration"
  	 	 	 	},
  	 	 	 	"7": {
- 	 	 	 	 	"trans": "갱 모토를 커스터마이징하세요",
+ 	 	 	 	 	"trans": "갱 모토 작성 가능",
  	 	 	 	 	"eng": "Customize gang motto"
  	 	 	 	},
  	 	 	 	"8": {
- 	 	 	 	 	"trans": "갱 이미지를 커스터마이징하세요",
+ 	 	 	 	 	"trans": "갱 이미지 업로드 가능",
  	 	 	 	 	"eng": "Customize gang image"
  	 	 	 	},
  	 	 	 	"9": {
- 	 	 	 	 	"trans": "향후 업데이트에서 더 많은 것이 기대되니 기대해 줘!",
+ 	 	 	 	 	"trans": "향후 업데이트시 기능 추가 예정",
  	 	 	 	 	"eng": "More coming in future update"
  	 	 	 	}
  	 	 	}
@@ -6577,11 +6584,11 @@
  	 	},
  	 	"chatExploitPosh": {
  	 	 	"name": {
- 	 	 	 	"trans": "채팅 악용 전송기 [포시]",
+ 	 	 	 	"trans": "채팅 취약점 송신기 [신사]",
  	 	 	 	"eng": "Chat exploit transmitter [Posh]"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "활성화되면, 우리 채팅 영역 주민들이 제공하는 모든 통신은 매우 멋진 영국 신사의 옷을 입은 채로 정확히 10분 동안 화려한 변신을 겪을 것이다. 이 작전은 영어로만 잘 작동한다",
+ 	 	 	 	"trans": "활성화 시, 채팅을 이용 중이신 신사분들이 전송하시는 모든 메시지는 10분간 매우 멋진 영국 신사의 것으로 화려한 변신을 겪을 것입니다. 이 취약점은 영어로만 작동합니다.",
  	 	 	 	"eng": "Upon activation, all correspondence proffered by the denizens of our chat realm shall undergo a delightful metamorphosis, adorning itself in the distinguished garb of gentlemanly English for a duration of precisely 10 minutes. this exploit will only work well with English"
  	 	 	}
  	 	},
@@ -7606,7 +7613,7 @@
  	 	 	 	"eng": "Alleyway"
  	 	 	},
  	 	 	"npcName": {
- 	 	 	 	"trans": "벨리알",
+ 	 	 	 	"trans": "B3llial",
  	 	 	 	"eng": "B3llial"
  	 	 	}
  	 	},
@@ -7658,6 +7665,36 @@
  	 	 	"npcName": {
  	 	 	 	"trans": "진",
  	 	 	 	"eng": "Jin"
+ 	 	 	}
+ 	 	},
+ 	 	"party": {
+ 	 	 	"defaultLines": {
+ 	 	 	 	"trans": [
+ 	 	 	 	 	"Hey choom, ready to chip in for the next 24-hour global party? We're just a few units short!",
+ 	 	 	 	 	"Ready to make an impact? Your contribution could launch the biggest party on the grid!",
+ 	 	 	 	 	"Looking to start the party? We're pooling funds now for a round-the-clock celebration.",
+ 	 	 	 	 	"If you’re aiming to see the city light up, help us fill the party meter. Every bit counts!",
+ 	 	 	 	 	"Hey, choomba! Here to plan another blockbuster event? Let's dive in!"
+ 	 	 	 	],
+ 	 	 	 	"eng": [
+ 	 	 	 	 	"Hey choom, ready to chip in for the next 24-hour global party? We're just a few units short!",
+ 	 	 	 	 	"Ready to make an impact? Your contribution could launch the biggest party on the grid!",
+ 	 	 	 	 	"Looking to start the party? We're pooling funds now for a round-the-clock celebration.",
+ 	 	 	 	 	"If you’re aiming to see the city light up, help us fill the party meter. Every bit counts!",
+ 	 	 	 	 	"Hey, choomba! Here to plan another blockbuster event? Let's dive in!"
+ 	 	 	 	]
+ 	 	 	},
+ 	 	 	"name": {
+ 	 	 	 	"trans": "파티라인 펍",
+ 	 	 	 	"eng": "Partyline Pub"
+ 	 	 	},
+ 	 	 	"canAccessError": {
+ 	 	 	 	"trans": "파티라인 펍에 접속하려면 최소 레벨 10 이상이어야 해",
+ 	 	 	 	"eng": "You need to be at least level 10 to access partyline pub"
+ 	 	 	},
+ 	 	 	"npcName": {
+ 	 	 	 	"trans": "지은",
+ 	 	 	 	"eng": "Jieun"
  	 	 	}
  	 	},
  	 	"recycleMachine": {
@@ -8352,7 +8389,7 @@
  	 	 	"eng": "Chat Exploit [LOVE]"
  	 	},
  	 	"posh": {
- 	 	 	"trans": "채팅 해킹 [POSH]",
+ 	 	 	"trans": "채팅 해킹 [신사]",
  	 	 	"eng": "Chat Exploit [POSH]"
  	 	},
  	 	"chatExploitProtect": {
@@ -8930,7 +8967,7 @@
  	 	 	"eng": "You don't have ${item} to clean your pet"
  	 	},
  	 	"giveMedicine": {
- 	 	 	"trans": "약 줘주세요",
+ 	 	 	"trans": "약 주기",
  	 	 	"eng": "Give Medicine"
  	 	},
  	 	"reviveButton": {
@@ -9808,6 +9845,23 @@
  	 	 	}
  	 	}
  	},
+ 	"globalPartyPage": {
+ 	 	"hint": {
+ 	 	 	"trans": "글로벌 파티에 기여할 수 있어! 부분 파티를 구매해서 참여해봐. 진행률이 100%에 도달하면 파티가 시작돼!",
+ 	 	 	"eng": "You can contribute to the global party by purchasing a partial party. The party will start when the progress reaches 100%."
+ 	 	},
+ 	 	"startParty": {
+ 	 	 	"trans": "파티 개최",
+ 	 	 	"eng": "Host Party"
+ 	 	},
+ 	 	"contribute": {
+ 	 	 	"vars": [
+ 	 	 	 	"percent"
+ 	 	 	],
+ 	 	 	"trans": "기여 ${percent}%",
+ 	 	 	"eng": "Contribute ${percent}%"
+ 	 	}
+ 	},
  	"itemFilterSettingPage": {
  	 	"title": {
  	 	 	"trans": "필터 설정",
@@ -9905,7 +9959,7 @@
  	 	 	"eng": "${price} USD Per Month"
  	 	},
  	 	"inAppPurchaseDescription": {
- 	 	 	"trans": "언제든지 상점에서 구독 기반 기부를 취소할 수 있습니다.",
+ 	 	 	"trans": "구독 방식의 후원은 언제든지 상점에서 취소 가능합니다.",
  	 	 	"eng": "Subscription based donation, you can cancel it at anytime from your store."
  	 	},
  	 	"monthlyPrice": {
@@ -10353,6 +10407,32 @@
  	 	"nameInvalid": {
  	 	 	"trans": "이름 길이는 4자 초과, 16자 이하여야 하며, 영어 문자, 숫자 또는 \\ '_ \\'만 포함해야합니다",
  	 	 	"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'"
+ 	 	}
+ 	},
+ 	"globalParty": {
+ 	 	"notEnoughUnit": {
+ 	 	 	"trans": "글로벌 파티에 참여하려면 유닛이 부족합니다",
+ 	 	 	"eng": "You do not have enough Unit to join global party"
+ 	 	},
+ 	 	"alreadyActive": {
+ 	 	 	"trans": "글로벌 파티가 이미 활성화되어 있습니다. 끝날 때까지 기다려주세요",
+ 	 	 	"eng": "Global party is already active, please wait til it ends"
+ 	 	},
+ 	 	"announcement": {
+ 	 	 	"vars": [
+ 	 	 	 	"players"
+ 	 	 	],
+ 	 	 	"trans": "🎉파티 타임!🥳 ${players}에 의해 활성화됨",
+ 	 	 	"eng": "🎉Its Party Time!🥳 activated by ${players}"
+ 	 	},
+ 	 	"contribute": {
+ 	 	 	"vars": [
+ 	 	 	 	"playerName",
+ 	 	 	 	"cred",
+ 	 	 	 	"percent"
+ 	 	 	],
+ 	 	 	"trans": "${playerName}님이 세계적인 파티 진행에 기여했어, 이 전설한테 좀 스트릿 크레딧을 줘봐! [현재 자금: ${percent}%] ${cred}",
+ 	 	 	"eng": "${playerName} has contributed to global party progress, give the legend some street cred! [current fund: ${percent}%] ${cred}"
  	 	}
  	},
  	"skip": {
