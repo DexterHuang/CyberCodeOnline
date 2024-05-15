@@ -1,20 +1,20 @@
 #30651113 1642 PFC S. Ivanov  
-  
-Continuing the mission in SL Business District.  
-  
-I got a promotion to Private First Class. While on my patrol, I saw my cousin Borya handing out leaflets. He stopped me and asked what I'm doing, so I told him we were hired to maintain peace. He asked why we need guns to do that. I didn't answer.  
-  
-We spoke about life, and about our family. He asked if I had seen my half-sister lately, said she's just joined the Followers because her home, the one our dad moved to for work, got bought up by Milena so they could set up another storefront. Well. They call it a storefront, but "Milena" means "affectionate woman" in one of the Old Tongues. I don't need to tell you what they really sell. They tried to recruit her after demolishing her home, so she moved to Shangri-La and got interested in these groups.  
-  
-I went looking for her on my break. Borya told me she was a couple of blocks over, so I had to be quick. I saw her, giving orders, organising a group. I overheard her say "target D-block".  
-  
-My headset flashed, telling me my break was almost up. I headed back into the office, and told the Sergeant to bolster D-block. Our squad was already littered all over D, I couldn't leave them hanging without a warning.  
-  
-We caught them on the perimeter. They claimed to be spreading The Truth but they forgot to bring flyers with them.  
-  
-Sarge thanked me personally, and I accepted my promotion with a payrise. But over his shoulder, I saw them putting Zora in cuffs.  
-  
-Every day I pray I'm making the right choice. Today is no different.  
-  
-Signing off.  
+
+Fortsetzung der Mission im Geschäftsviertel von Shangri-La.
+
+Ich wurde zum Private First Class befördert. Während meiner Patrouille sah ich meinen Cousin Borya, wie er Flugblätter verteilte. Er hielt mich an und fragte, was ich hier mache, also erklärte ich ihm, dass wir eingestellt wurden, um den Frieden aufrechtzuerhalten. Er fragte, warum wir dafür Waffen brauchen. Ich antwortete nicht.
+
+Wir sprachen über das Leben und unsere Familie. Er fragte, ob ich meine Halbschwester in letzter Zeit gesehen hätte, sagte, sie sei gerade den Followers beigetreten, weil ihr Zuhause, das, in das unser Vater für die Arbeit gezogen war, von Milena aufgekauft wurde, damit sie einen weiteren Laden eröffnen konnten. Nun ja. Sie nennen es einen Laden, aber "Milena" bedeutet "zärtliche Frau" in einer der alten Sprachen. Ich muss Ihnen nicht sagen, was sie wirklich verkaufen. Sie versuchten, sie anzuwerben, nachdem sie ihr Zuhause abgerissen hatten, also zog sie nach Shangri-La und interessierte sich für diese Gruppen.
+
+In meiner Pause suchte ich nach ihr. Borya sagte mir, dass sie ein paar Straßen weiter sei, also musste ich schnell sein. Ich sah sie, wie sie Befehle gab, eine Gruppe organisierte. Ich hörte sie sagen "Ziel D-Block".
+
+Mein Headset blinkte, um mich daran zu erinnern, dass meine Pause fast vorbei war. Ich ging zurück ins Büro und sagte dem Sergeant, dass wir D-Block verstärken müssen. Unser Team war bereits überall in D verteilt, ich konnte sie nicht im Stich lassen, ohne sie zu warnen.
+
+Wir erwischten sie am Rand. Sie behaupteten, die Wahrheit zu verbreiten, aber sie hatten vergessen, Flugblätter mitzubringen.
+
+Der Sergeant bedankte sich persönlich bei mir, und ich nahm meine Beförderung mit einer Gehaltserhöhung an. Aber über seine Schulter hinweg sah ich, wie sie Zora in Handschellen legten.
+
+Ich bete jeden Tag, dass ich die richtige Wahl treffe. Heute ist da keine Ausnahme.
+
+Melde mich ab.  
 3/5  
