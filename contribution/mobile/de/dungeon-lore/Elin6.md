@@ -1,8 +1,7 @@
-> #30780528 Phone Call Elin  
-  
-"Bebo, we sold to them." Elin was crying. She sat in her office and could hear her brother on the other line. They didn't talk like this In fact- she never called him. Even after she'd dropped her Mother off at home she'd just sent him a text. but she knew he'd want to know. "I checked the logs."  She said, sniffling, "When I looked into the camera- I saw them. Our own weapons. in their hands."  
-  
-"Calmate. Look I looked into it here as well. They have been buying for a while. Don't worry I set some guys up from WAP to guard the store. But honestly, every day the Mambas are stronger..." she could hear him thinking. She'd never approved of his Gangs, but now, well now she knew better. She knew what was hidden behind those gangs. It was all the same. Her company?  Same bullshit.  
-  
-Through her tears she prepared herself. She'd talked to Maggie and They'd come up with a plan. She'd gotten the number of a vendor- one of theirs. Together they'd pushed a proposal through. "Arasaka Community Restoration Project" the program aimed to invest in local communities. Investing in the community would let them sell weapons. And the first community they'd partnered with?  Market street.  
+> #30780528 Telefonat Elin  
 
+"Bebo, wir haben an sie verkauft." Elin weinte. Sie saß in ihrem Büro und konnte ihren Bruder am anderen Ende der Leitung hören. Sie sprachen nicht oft so miteinander. Tatsächlich hatte sie ihn noch nie angerufen. Selbst nachdem sie ihre Mutter zu Hause abgesetzt hatte, hatte sie ihm nur eine Nachricht geschickt. Aber sie wusste, dass er es wissen wollte. "Ich habe die Protokolle überprüft", sagte sie, schniefend. "Als ich in die Kamera geschaut habe, habe ich sie gesehen. Unsere eigenen Waffen. In ihren Händen."
+
+"Beruhige dich. Schau, ich habe es hier auch überprüft. Sie kaufen schon eine Weile bei uns. Mach dir keine Sorgen, ich habe ein paar Leute von WAP abgestellt, um den Laden zu bewachen. Aber ehrlich gesagt, werden die Mambas jeden Tag stärker ..." Sie konnte hören, wie er nachdachte. Sie hatte seine Gangs noch nie gebilligt, aber jetzt, nun wusste sie es besser. Sie wusste, was sich hinter diesen Gangs verbarg. Es war alles dasselbe. Ihre Firma? Der gleiche Mist.
+
+Durch ihre Tränen bereitete sie sich vor. Sie hatte mit Maggie gesprochen und sie hatten einen Plan ausgearbeitet. Sie hatte die Nummer eines Lieferanten bekommen - einen ihrer Lieferanten. Zusammen hatten sie einen Vorschlag durchgesetzt. Das "Arasaka Community Restoration Project" war darauf ausgerichtet, in lokale Gemeinschaften zu investieren. Investitionen in die Gemeinschaft würden es ihnen ermöglichen, Waffen zu verkaufen. Und die erste Gemeinschaft, mit der sie zusammenarbeiteten? Die Market Street.
