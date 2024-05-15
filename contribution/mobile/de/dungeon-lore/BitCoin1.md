@@ -1,6 +1,6 @@
-# The Invention of BitCoin
-> (Part 1 of 4 bitcoin series)
+# Die Erfindung von BitCoin
+> (Teil 1 von 4 der Bitcoin-Serie)
 
-BitCoin is a cryptocurrency invented in 2008 by an unknown group of people using the name Satoshi Nakamoto. The currency began use in 2009 when its implementation was released as open-source software. BitCoin is a decentralized digital currency, without a central bank or single administrator, that can be sent from user to user on the peer-to-peer bitcoin network without the need for intermediaries. Transactions are verified by network nodes through cryptography and recorded in a public distributed ledger called a blockchain. 
+BitCoin ist eine Kryptowährung, die im Jahr 2008 von einer unbekannten Gruppe von Personen unter dem Namen Satoshi Nakamoto erfunden wurde. Die Währung begann ihre Verwendung im Jahr 2009, als ihre Implementierung als Open-Source-Software veröffentlicht wurde. BitCoin ist eine dezentralisierte digitale Währung ohne Zentralbank oder einzelnen Administrator, die von Benutzer zu Benutzer im Peer-to-Peer-Bitcoin-Netzwerk ohne die Notwendigkeit von Zwischenhändlern gesendet werden kann. Transaktionen werden von Netzwerkknoten durch Kryptographie überprüft und in einem öffentlichen verteilten Hauptbuch namens Blockchain aufgezeichnet.
 
-Historically, BitCoin was mostly used as a pseudo stock market where people try to buy low and sell high to reap quick profits. Because of how volatile the BitCoin value was in its infancy, people did not use it as a currency for daily use until the World Government Organization declared it as the worldwide global currency in 2071.
+Historisch gesehen wurde BitCoin hauptsächlich als eine Art Pseudo-Aktienmarkt genutzt, auf dem Menschen versuchen, billig zu kaufen und teuer zu verkaufen, um schnelle Gewinne zu erzielen. Aufgrund der großen Volatilität des BitCoin-Werts in seinen Anfangsjahren wurde es jedoch nicht als Währung für den täglichen Gebrauch genutzt, bis die Weltregierungsorganisation es im Jahr 2071 zur weltweit gültigen globalen Währung erklärte.
