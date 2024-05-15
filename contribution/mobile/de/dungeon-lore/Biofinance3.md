@@ -1,17 +1,17 @@
->[Part 3 of 8 of BioFinance series]  
+>[Teil 3 von 8 der BioFinance-Serie]  
 
-[A recording. Looks like a phone call intercepted by some amateur hacker]
+[Eine Aufnahme. Sieht aus wie ein Telefonat, das von einem Amateur-Hacker abgefangen wurde.]
 
-*VOICE1*: I tell you, that Chinese-American guy is shady. There are no traces of him or his company. 
+*STIMME1*: Ich sage dir, dieser chinesisch-amerikanische Typ ist zwielichtig. Es gibt keine Spuren von ihm oder seiner Firma.
 
-*VOICE2*: I'm told he used to work for the board of Cheng Holding. Some sort of "off the book" fixer.
+*STIMME2*: Man sagt, er habe früher für den Vorstand von Cheng Holding gearbeitet. Eine Art "inoffizieller" Problemlöser.
 
-*VOICE1*: He is not Ivy League management for sure. So where does he come from? Why is he giving orders to the lab director?
+*STIMME1*: Er ist sicher kein Ivy League-Management. Wo kommt er also her? Warum gibt er dem Labordirektor Anweisungen?
 
-*VOICE2*: Baffles me. I have a bad feeling about this "injection of capital". I mean, why should any investment firm give money to Vitasyntech? We had no new products in years.
+*STIMME2*: Das ist mir ein Rätsel. Ich habe ein ungutes Gefühl bei dieser "Kapitalspritze". Ich meine, warum sollte eine Investmentfirma Vitasyntech Geld geben? Wir hatten seit Jahren keine neuen Produkte.
 
-*VOICE1*: Nevertheless, he roams around as if he owns the place.
+*STIMME1*: Trotzdem streift er herum, als ob ihm der Laden gehört.
 
-*VOICE2*: We'll see. We are living through interesting times. 
+*STIMME2*: Wir werden sehen. Wir leben in interessanten Zeiten.
 
-*clicks*
+*klick*
