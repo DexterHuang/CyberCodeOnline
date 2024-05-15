@@ -1,13 +1,13 @@
 #### N30N C1RCUS: Str33t Angles
 
-Wary of snipers, the four bodyguards hustled their client from the armoured SUV into the building and into the elevator. 
+Misstrauisch wegen Scharfschützen, drängten die vier Leibwächter ihren Kunden aus dem gepanzerten SUV und in das Gebäude und dann in den Aufzug.
 
-Two blocks away, Finel held his breath and gently squeezed the trigger. The round went through a broken pane in the warehouse window opposite, ricocheted at an weird angle off a steel plate and exited through another broken window, at 90 degrees to it's original direction. It ricocheted off another carefully angled plate in another derelict building and with the last of it's velocity, gracefully dolphined over the street to smack into a wall and bounce into a gutter. Which funnelled it into the breather pipe for the electrical room, down which it happily rattled to fall through a conveniently placed hole in the relay cabinet before finally came to rest - neatly bridging out the elevator safety circuit. 
+Zwei Blocks entfernt hielt Finel den Atem an und drückte sanft auf den Abzug. Die Kugel ging durch ein zerbrochenes Fenster des Lagerhauses gegenüber, prallte in einem seltsamen Winkel von einer Stahlplatte ab und trat durch ein anderes zerbrochenes Fenster aus, im rechten Winkel zu ihrer ursprünglichen Richtung. Sie prallte an einer weiteren sorgfältig gewinkelten Platte in einem anderen heruntergekommenen Gebäude ab und segelte mit der letzten ihrer Geschwindigkeit anmutig über die Straße, um gegen eine Wand zu prallen und in eine Regenrinne zu springen. Diese leitete sie in das Atemrohr des Elektroraums, entlang dessen sie fröhlich rasselnd fiel, um durch ein günstig platziertes Loch im Relaiskasten zu fallen und schließlich - ordnungsgemäß die Aufzugssicherheitskreise zu überbrücken.
 
-The elevator reached the 16th floor and didn't stop. The bridged safety circuit let the motors pull it into the headgear and then rip the cables from their mountings. And the mechanical safety wedges that would ordinarily have stopped it falling more than a metre or two had been removed for 'routine maintenance'.
+Der Aufzug erreichte den 16. Stock und hielt nicht an. Der überbrückte Sicherheitskreis ließ die Motoren ihn in den Kopfschutz ziehen und dann die Kabel von ihren Halterungen reißen. Und die mechanischen Sicherheitskeile, die ihn normalerweise daran gehindert hätten, mehr als einen Meter zu fallen, waren für 'regelmäßige Wartungsarbeiten' entfernt worden.
 
-Finel heard the crash while packing away the last few bits and pieces. He thumbsed up without looking up and headed down to the street. Frank looked up as he quietly pushed through the door into Joe's, and slid a beer across the counter, grunting *"The AI said to put this on its tab"*.
+Finel hörte den Aufprall, während er die letzten Sachen einpackte. Er gab ohne aufzusehen Daumen hoch und ging auf die Straße. Frank schaute auf, als er leise durch die Tür in Joe's schob und ein Bier über die Theke schob, grunzend *"Das KI hat gesagt, das auf seine Rechnung zu setzen"*.
 
-*"DOGES runs a tab ??"*  
-*"Any day now damn thing's going to in here crying into's pretzels on a Friday night like the rest of ya"*  
-*"Huh! Uh ... pretzels .. ?"*  
+*"DOGES hat eine Rechnung?"*  
+*"Jeden Tag wird das verdammte Ding hier reinkommen und freitagsabends wie der Rest von euch in seine Brezeln weinen"*  
+*"Huh! Äh ... Brezeln .. ?"*
