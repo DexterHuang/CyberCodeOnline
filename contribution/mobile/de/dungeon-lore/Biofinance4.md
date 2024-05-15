@@ -1,15 +1,15 @@
->[Part 4 of 8 of BioFinance series]  
+>[Teil 4 von 8 der BioFinance-Serie]  
 
-[That is unusual. Apparently, it's a chat log from BlackThorne, the supposedly 100% interception-safe cryptomessenging app.]
+[Das ist ungewöhnlich. Anscheinend ist es ein Chat-Protokoll von BlackThorne, der angeblich 100% abhörsicheren Kryptomessaging-App.]
 
-*#####23##145*: Mr. Xu, I can't understand why this request. It is very strange. Why so much? Why timed self-venting containers?
+*#####23##145*: Herr Xu, ich verstehe diese Anfrage nicht. Es ist sehr seltsam. Warum so viel? Warum selbstentlüftende Behälter mit Timer?
 
-*#325#57#87##*: No questions. We need 400 kg of airborne vector within the week. I will provide payload. Final bonding will be managed by my personnel at your facility.
+*#325#57#87##*: Keine Fragen. Wir brauchen innerhalb der Woche 400 kg eines luftübertragbaren Vektors. Ich werde die Nutzlast bereitstellen. Die endgültige Bindung wird von meinem Personal in Ihrer Einrichtung durchgeführt.
 
-*##7#42##21##*: How can I be sure that after this you will stop threatening my family?  
+*##7#42##21##*: Wie kann ich sicher sein, dass Sie nach diesem Vorfall aufhören, meine Familie zu bedrohen?
 
-*932##5#98##9*: My word will be enough. They will be safe and you will be paid handsomely.
+*932##5#98##9*: Mein Wort wird ausreichen. Sie werden in Sicherheit sein und Sie werden großzügig bezahlt.
 
-*657###3###45*: That stuff will need to be moved out quickly, or there will be questions.
+*657###3###45*: Dieses Zeug muss schnell weg, sonst wird es Fragen geben.
 
-*9#####7##79#*: Don't worry, it will be picked up as soon as it's ready. 
+*9#####7##79#*: Keine Sorge, es wird abgeholt, sobald es fertig ist.
