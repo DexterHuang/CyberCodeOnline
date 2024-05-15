@@ -1,30 +1,29 @@
-> #30780317 Phone Call Elin
+>#30780317 Telefonat Elin  
 
-"Bebo what do you mean she's hurt?" She was practically screaming at her brother. It had been almost a year since they'd last talked, and they had screamed last time, too.  
-  
-She could tell he was trying to be restrained as he spoke to her.  
-  
-"Look, Elin, a fight broke out in the street out front, it's not too bad but she got hurt by some of the gunfight." 
-  
-Elin took a moment. She counted down from five to calm herself as a million questions span in her head.  
-  
-"What the fuck happened?"  
-  
-His voice quieted. "There's a turf war, some guys found a rival gang out front. We're in the lower Hospital now."  
-  
-Elin began to make calculations in her head. A trauma team would be too aggressive, but her company had a medic team that could get it done.  
-  
-"I'll send a medic team to get her." She wasn't going to budge on this.  
-  
-"Elin, no I won't have any corpo shit here!"  
-  
-Elin had known her brother would protest, but she also knew their love for their mother would win in the end.  
-  
-"Goddammit, Bebo, we can't do this right now. I want her to have the best."  
-  
-"And what? the best is your money? You can't throw money at everything Elin- You haven't even visited in months! And what you wanna swoop in now? " 
-  
-Elin could hear the hate in his words, but she stopped herself again "Bebo, they're on their way. I love her as much as you do. Let. Me. Do. This."  
-  
-"Fine."  
+"Bebo, was meinst du, sie ist verletzt?" Sie schrie praktisch ihren Bruder an. Es war fast ein Jahr her, seit sie das letzte Mal miteinander gesprochen hatten, und auch damals hatten sie geschrien.  
 
+Sie konnte spüren, wie er versuchte, sich zu beherrschen, als er mit ihr sprach.  
+
+"Schau, Elin, vorne auf der Straße ist eine Schießerei ausgebrochen, es ist nicht so schlimm, aber sie wurde bei einem Schusswechsel verletzt."  
+
+Elin brauchte einen Moment. Sie zählte von fünf herunter, um sich zu beruhigen, während eine Million Fragen in ihrem Kopf herumschwirrten.  
+
+"Was zum Teufel ist passiert?"  
+
+Seine Stimme wurde leiser. "Es gibt einen Bandenkrieg, ein paar Typen haben eine rivalisierende Gang draußen gefunden. Wir sind jetzt im unteren Krankenhaus."  
+
+Elin begann in ihrem Kopf Berechnungen anzustellen. Ein Traumateam wäre zu aggressiv, aber ihre Firma hatte ein medizinisches Team, das es schaffen könnte.  
+
+"Ich schicke ein medizinisches Team, um sie zu holen." Bei diesem Punkt würde sie nicht nachgeben.  
+
+"Elin, nein, ich lasse keinen Corp-Scheiß hier!"  
+
+Elin wusste, dass ihr Bruder dagegen protestieren würde, aber sie wusste auch, dass am Ende ihre Liebe zu ihrer Mutter gewinnen würde.  
+
+"Verdammt, Bebo, wir können das jetzt nicht machen. Ich will, dass sie das Beste bekommt."  
+
+"Und was? Das Beste ist dein Geld? Du kannst nicht alles mit Geld regeln, Elin - Du hast sie seit Monaten nicht einmal besucht! Und jetzt willst du plötzlich auftauchen?"  
+
+Elin konnte den Hass in seinen Worten hören, aber sie hielt sich zurück. "Bebo, sie sind auf dem Weg. Ich liebe sie genauso wie du. Lass. Mich. Das. Tun."  
+
+"In Ordnung."
