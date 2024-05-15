@@ -1,17 +1,17 @@
-> You find a thin rectangular envelope, with burn marks on one side. Inside, you find a laminated paper page, seemingly torn from a book, barely held together by brittle plastic. It reads thus:
+> Du findest einen Dünnen rechteckigen Briefumschlag, mit Brandspuren auf einer Seite. In diesem findest du ein laminiertes blatt papier, das aussieht als ob es aus einem buch gerissen wurde, das gerade noch so durch brüchiges Plastik zusammen gehalten wird. Es Liest:
 
-• 2 to 3 very ripe bananas, peeled   
-• 1/3 cup melted butter, unsalted or salted  
-• 1 teaspoon baking soda  
-• Pinch of salt  
-• 3/4 cup sugar  
-• 1 large egg, beaten  
-• 1 teaspoon vanilla extract  
-• 1 cup of all-purpose flour
+• 2 zu 3 Sehr reife Banenen, geschält   
+• 50ml geschmolzene Butter, gesaltzt oder ungesaltz  
+• 1 teelöffel Natron  
+• 1 Prise Salz
+• 250g Zucker  
+• 1 Großes Ei, geschlagen  
+• 1 teelöffel vanillextrakt  
+• 350g Weißmehl
 
-• Preheat the oven to 350°F (175°C), and butter a 4x8-inch loaf pan.  
-•   In a mixing bowl, mash the ripe bananas with a fork until completely smooth. Stir the melted butter into the mashed bananas.  
-• Mix in the baking soda and salt. Stir in the sugar, beaten egg, and vanilla extract. Mix in th-"
+• Heizen Sie den Ofen auf 175 °C vor und schmieren Sie eine 4x8-Zoll-Laibpfanne mit Butter ein.  
+• In einer Rührschüssel die reifen Bananen mit einer Gabel zerdrücken, bis die Masse glatt ist. Rühren Sie die geschmolzene Butter in die zerdrückten Bananen.  
+• Backpulver und Salz untermischen. Zucker, geschlagenes Ei und Vanilleextrakt einrühren. Misch ein-"
 
 > The rest of the text is obscured by discoloration where the folder and the melted plastic had fused together. 
 
@@ -29,9 +29,8 @@
 • 1 Teelöffel Vanilleextrakt  
 • 1 Tasse Allzweckmehl  
 
-• Heizen Sie den Ofen auf 175 °C vor und schmieren Sie eine 4x8-Zoll-Laibpfanne mit Butter ein.  
-• In einer Rührschüssel die reifen Bananen mit einer Gabel zerdrücken, bis die Masse glatt ist. Rühren Sie die geschmolzene Butter in die zerdrückten Bananen.  
-• Backpulver und Salz untermischen. Zucker, geschlagenes Ei und Vanilleextrakt einrühren. Misch dich ein-"  
+
+    
 
 > Der Rest des Textes ist durch Verfärbung verdeckt, wo die Mappe und der Kunststoff miteinander verschmolzen waren.  
 
