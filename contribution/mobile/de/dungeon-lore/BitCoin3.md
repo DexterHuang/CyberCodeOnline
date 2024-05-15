@@ -1,6 +1,6 @@
-# BitCoin History as an Investment Platform
-> (Part 3 of 4 bitcoin series)
+# BitCoin-Geschichte als Investmentplattform
+> (Teil 3 von 4 der Bitcoin-Serie)
 
-BitCoin was historically criticized for its use in illegal transactions, the large amount of electricity (and thus carbon footprint) used by mining, price volatility, and thefts from exchanges. Some economists and commentators have characterized it as a speculative bubble at various times. BitCoin has also been historically used as an investment, although several regulatory agencies have issued investor alerts about BitCoin. 
+BitCoin wurde historisch kritisiert für seinen Einsatz bei illegalen Transaktionen, den großen Energieverbrauch (und damit den CO2-Fußabdruck) beim Mining, die Preisvolatilität und Diebstähle von Börsen. Einige Ökonomen und Kommentatoren haben es zu verschiedenen Zeiten als spekulative Blase charakterisiert. BitCoin wurde historisch auch als Anlage verwendet, obwohl mehrere Regulierungsbehörden Investorenwarnungen zu BitCoin herausgegeben haben.
 
-In the current day, BitCoin is a highly regulated currency that has a fixed value determined by the World Government Organization.
+Heutzutage ist BitCoin eine stark regulierte Währung, deren Wert von der Weltregierungsorganisation festgelegt wird.
