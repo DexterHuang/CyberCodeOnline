@@ -1,10 +1,10 @@
-*[You pick up an E-corder with a video paused on the screen.]*  
-*[Looks like a live recording from a long time ago. You press the play button. It's a stout, bald man speaking in front of the Hyper Train.]*  
+*[Du nimmst einen E-Corder auf, auf dessen Bildschirm ein Video pausiert ist.]*  
+*[Es scheint eine Live-Aufnahme von vor langer Zeit zu sein. Du drückst die Wiedergabetaste. Ein stämmiger, glatzköpfiger Mann spricht vor dem Hyperzug.]*  
   
-"Today marks a great achievement ***[bad feedback noise]*** for the bustling metropolis of Shangri-La City. As the mayor of this great city, I am *PROUD* ***[the man presses his mouth against the microphone]*** to reveal and announce the inauguration of the NEW Hyper Train!!!"  
+„Heute markiert ein großartiger Erfolg ***[schlechter Rückkopplungsgeräusch]*** für die pulsierende Metropole Shangri-La City. Als Bürgermeister dieser großartigen Stadt bin ich *STOLZ* ***[der Mann drückt seinen Mund gegen das Mikrofon]*** die Enthüllung und Einweihung des NEUEN Hyperzuges zu verkünden!!!"  
   
->The mayor gestures and a big, white canvas is lifted off to reveal the brand new, state-of-the-art Hyper Train. The Mayor continues to speak after a somewhat dramatic reveal.  
+>Der Bürgermeister gestikuliert und eine große, weiße Leinwand wird gehoben, um den brandneuen, hochmodernen Hyperzug zu enthüllen. Der Bürgermeister fährt nach einer etwas dramatischen Enthüllung fort.  
   
-"This state of the art transportation will be able to take the fine citizens of this city (points to the crowd) anywhere in the world - any continent in a matter of minutes!"  
+„Dieses hochmoderne Transportmittel wird die feinen Bürger dieser Stadt (zeigt auf die Menge) in wenigen Minuten an jeden Ort der Welt - jeden Kontinent - bringen können!"  
   
-*[The video stops abruptly as the sound and recording cuts out badly.]*  
+*[Das Video stoppt abrupt, als Ton und Aufnahme stark ausfallen.]*  
