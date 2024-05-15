@@ -1,10 +1,10 @@
-> C0dEX-93
-> 
-> Okay. Why does everything goes wrong?! What happened to humanity? Why have they all gone insane suddenly? Even my friend! It's like they lost their minds. They just started killing each other with anything that they could find! Not like this isn't happening in the city, but this is something different!
-> 
-> Is... This because of those dog looking creatures? Don't say this happened because of them and the experiments that happened inside Medikama, Please! Because if it's true, I'll probably never escape this place. The of amount military presence is too much.
-> Also, I probably didn't got affected by this madness. Used of a lot of Pain Away Sprays recently. Not sure, actually, but I will continue to do that just in case.
->
-> And if you interested: I'm actually finished the job... But it's probably doesn't matter because I'm also killed the boss because he gone mad too.
-> 
-> Anyway, I need move out, there some gunshots nearby. I need to escape as fast as I can...
+**C0dEX-93**
+
+Okay. Warum läuft alles schief?! Was ist mit der Menschheit passiert? Warum sind sie alle plötzlich verrückt geworden? Selbst mein Freund! Es ist, als hätten sie ihren Verstand verloren. Sie haben einfach angefangen, sich gegenseitig mit allem, was sie finden konnten, umzubringen! Nicht, dass so etwas nicht in der Stadt passiert, aber das hier ist etwas anderes!
+
+Ist... Ist das wegen dieser hundeähnlichen Kreaturen? Bitte sag mir nicht, dass das wegen ihnen und den Experimenten passiert ist, die im Medikama durchgeführt wurden! Denn wenn es wahr ist, werde ich diesen Ort wahrscheinlich nie verlassen können. Die Menge an Militärpräsenz ist zu groß.
+Außerdem wurde ich wahrscheinlich nicht von diesem Wahnsinn beeinflusst. Ich habe in letzter Zeit viele Pain Away Sprays benutzt. Ich bin mir nicht sicher, aber ich werde das weiterhin tun, nur für den Fall.
+
+Und falls es dich interessiert: Ich habe den Job tatsächlich beendet... Aber das spielt wahrscheinlich keine Rolle, weil ich auch den Boss getötet habe, weil auch er verrückt geworden ist.
+
+Wie auch immer, ich muss mich bewegen, in der Nähe sind Schüsse zu hören. Ich muss so schnell wie möglich entkommen...
