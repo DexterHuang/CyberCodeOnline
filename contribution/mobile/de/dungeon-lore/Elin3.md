@@ -1,31 +1,30 @@
-> ##30780108 Email Elin  
+## 30780108 E-Mail Elin  
+
+Von: Elin Blackburn <eblackburm@arasaka.com>  
+Gesendet: Freitag, 8. Januar 3078, 14:35 Uhr  
+An: Abi Ross <aross@arasaka.com>  
+Betreff: AW: Wochenende  
+
+Hey Abi, ich entschuldige mich vielmals für die Störung, aber ich wollte wissen, ob du nachsehen könntest, warum mein Urlaub über die Feiertage nicht genehmigt wurde?  
+Ich habe nonstop gearbeitet und hoffte, nachdem diese Berichte fertig sind, ein paar Tage frei nehmen zu können. Ich weiß, dass es eine geschäftige Zeit ist, aber ich wollte nachfragen!  
   
-From: Elin Blackburn <eblackburm@arasaka.com>  
-Sent: Friday, January 8, 3078 2:35 PM  
-To: Abi Ross <aross@arasaka.com>  
-Subject: RE: Holiday Weekend  
-  
-Hey Abi, I am so sorry to bother you but I wanted to know if you could check why my time for the holidays wasn't approved?  
-I've been working nonstop and was hoping after these reports were in that I could take a few days. I know it's a busy season but I was hoping to check!  
-  
-thanks,  
+Danke,  
 Elin  
-  
+
 ____________________________________  
-  
-From:  Abi Ross <aross@arasaka.com>  
-Sent: Friday, January 8, 3078 2:37 PM  
-To: Elin Blackburn <eblackburm@arasaka.com>  
-Subject: RE: Holiday Weekend  
 
-Hello Elin,  
-As per our last email I regret to inform you that your time could not be approved. As for the reason your reports have been approved but are still in revision.  
-As you well understand this is a busy time and perhaps after your Year end review you'll have some time to spare for a visit.  
+Von: Abi Ross <aross@arasaka.com>  
+Gesendet: Freitag, 8. Januar 3078, 14:37 Uhr  
+An: Elin Blackburn <eblackburm@arasaka.com>  
+Betreff: AW: Wochenende  
+
+Hallo Elin,  
+wie in unserer letzten E-Mail erwähnt, muss ich dir leider mitteilen, dass dein Urlaub nicht genehmigt werden konnte. Die von dir eingereichten Berichte wurden zwar genehmigt, befinden sich jedoch noch in der Überarbeitung.  
+Wie du sicher verstehst, ist dies eine geschäftige Zeit, und vielleicht hast du nach deinem Jahresabschlussbericht etwas Zeit für einen Besuch übrig.  
   
-I would like to remind you that the new Precision technology you are working on and reviewing is a top priority for Arasaka and cannot be left undone. You will have time once all this passes, as we all will.  
+Ich möchte dich daran erinnern, dass die neue Präzisionstechnologie, an der du arbeitest und die du überprüfst, für Arasaka von höchster Priorität ist und nicht unerledigt bleiben kann. Du wirst Zeit haben, wenn das alles vorbei ist, so wie wir alle.  
   
-If you would like I can provide you with the name of a good Doctor that can provide you with performance enhancers for the long nights ahead.  
+Wenn du möchtest, kann ich dir den Namen eines guten Arztes geben, der dir Leistungssteigerer für die langen Nächte besorgen kann.  
   
-Best,  
+Beste Grüße,  
 Abi  
-
