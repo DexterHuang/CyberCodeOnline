@@ -1,4 +1,4 @@
-#30770615 Textprotokoll Elin  
+>#30770615 Textprotokoll Elin  
 
 **MOM**: Wie war die Arbeit, Liebling? Gibt es eine Chance, dass du vorbeikommen kannst?  
 **Elin**: Hey Mama! Diese Woche war hart :(  
