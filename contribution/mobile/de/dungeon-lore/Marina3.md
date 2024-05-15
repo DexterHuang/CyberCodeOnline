@@ -1,12 +1,11 @@
 #30760318 Marina  
-  
-They've taken father and Marco. We had scavenged some powerful gear- Corpo loot. I know that I searched the files and traces, I know there were no tracking worms on it.  
-  
-But they're gone now. I let myself flow into the net. Into the comfort of the Family.  
-  
-It is unfair. They make their selfish order, they take and waste and force us to live on the fringes. And now?  now they took my family for daring to touch their trash!  
-  
-I am tired of them. So tired. My blood may be gone but the Family lives on. They speak of a new wave. As we commune with Him. He tells us to leave our flesh shells behind. To live on the Net. To become as he is and embody only metal shells. Bodies of our making.  
-  
-Tomorrow I take my family's things and go to Karmin's to find a body mod. I am tired of this flesh.  
 
+Sie haben Vater und Marco genommen. Wir hatten einige leistungsstarke Ausrüstung gesammelt - Corpo-Beute. Ich weiß, dass ich die Dateien und Spuren durchsucht habe, ich weiß, dass keine Tracking-Würmer darauf waren.  
+
+Aber jetzt sind sie weg. Ich ließ mich ins Netz gleiten. In den Trost der Familie.  
+
+Es ist unfair. Sie errichten ihre selbstsüchtige Ordnung, sie nehmen und verschwenden und zwingen uns, an den Rändern zu leben. Und jetzt? Jetzt haben sie meine Familie genommen, weil sie es gewagt haben, ihren Müll anzufassen!  
+
+Ich bin müde von ihnen. So müde. Mein Blut mag verschwunden sein, aber die Familie lebt weiter. Sie sprechen von einer neuen Welle. Während wir mit Ihm kommunizieren. Er sagt uns, unsere Fleischhüllen zurückzulassen. Im Netz zu leben. So zu werden wie er und nur metallene Hüllen zu verkörpern. Körper, die wir selbst erschaffen.  
+
+Morgen nehme ich die Sachen meiner Familie und gehe zu Karmin, um eine Körpermodifikation zu finden. Ich bin dieses Fleisch leid.  
