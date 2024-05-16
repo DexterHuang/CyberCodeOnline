@@ -1,3 +1,5 @@
+>Du siehst ein Videomodul-Laufwerk auf dem Boden neben einigen verstreuten Chipstüten und Bonbonverpackungen. Du entscheidest dich, es an dein mobiles Display anzuschließen.
+
 *STATIC*
 
 Ein großer Mann mit einem Halsbart, einem Zopf, einer Augmented-Reality-Brille und einem schlecht sitzenden Sword-Art-Online-T-Shirt betritt das Bild und trägt eine mit Cheeto-Krümeln verkrustete Legendäre Astrale Dezimationskanone. Er scheint die Waffe auf eine Figur in der Ferne zu richten.
