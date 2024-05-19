@@ -212,6 +212,12 @@
 				"progressTitle": {
 					"trans": "グローバルパーティー資金",
 					"eng": "Global Party Funds"
+				},
+				"players": {
+					"sponsorTitle": {
+						"trans": "提供:",
+						"eng": "Sponsored by:"
+					}
 				}
 			},
 			"dynamicTutorial": {
@@ -279,14 +285,16 @@
 					}
 				}
 			},
-			"globalQuest": {
+			"communityGoals": {
 				"title": {
-					"trans": "グローバル",
-					"eng": "Global"
-				},
-				"progressTitle": {
-					"trans": "SLデータ防壁の突破",
-					"eng": "SL-Data Fortress Breach"
+					"trans": "コミュニティの目標",
+					"eng": "Community Goals"
+				}
+			},
+			"globalQuest": {
+				"progressTitleV2": {
+					"trans": "SL-データ侵害",
+					"eng": "SL-Data Breach"
 				}
 			}
 		},
@@ -1029,19 +1037,6 @@
 					"trans": "UNITを購入する",
 					"eng": "Buy Unit"
 				}
-			}
-		},
-		"header": {
-			"online": {
-				"vars": [
-					"skipCount"
-				],
-				"trans": "${skipCount}をスキップ",
-				"eng": "Skipping ${skipCount}"
-			},
-			"skipAvailable": {
-				"trans": "スキップ可能",
-				"eng": "Skip Available"
 			}
 		},
 		"playerDetails": {
@@ -2603,6 +2598,25 @@
 			}
 		}
 	},
+	"caliTrain": {
+		"progressTitle": {
+			"trans": "カリトレインファンド",
+			"eng": "Cali Train Funds"
+		},
+		"players": {
+			"sponsorTitle": {
+				"trans": "提供:",
+				"eng": "Sponsored by:"
+			}
+		},
+		"announcement": {
+			"vars": [
+				"percent"
+			],
+			"trans": "キャリブレーション（${percent}%）が数分後に展開されます。",
+			"eng": "Calibration ${percent}% has been deployed"
+		}
+	},
 	"buffActivation": {
 		"expBuff": {
 			"title": {
@@ -2878,6 +2892,12 @@
 	"misc,durability": {
 		"trans": "耐久性",
 		"eng": "durability"
+	},
+	"chatHeader": {
+		"skipAvailable": {
+			"trans": "利用可能",
+			"eng": "Available"
+		}
 	},
 	"statsType": {
 		"maxHealth": {
@@ -7718,7 +7738,7 @@
 				"eng": "Alleyway"
 			},
 			"npcName": {
-				"trans": "B3llial",
+				"trans": "ベリアル",
 				"eng": "B3llial"
 			}
 		},
@@ -8469,6 +8489,10 @@
 			"trans": "キャリブレーション精度（英雄）",
 			"eng": "Calibration Precision (Prestige)"
 		},
+		"upgradeChance": {
+			"trans": "キャリブレーションの精度",
+			"eng": "Calibration Precision"
+		},
 		"upgradeNoBreak": {
 			"trans": "セーフティキャリブレーションナノボット",
 			"eng": "Calibration Safety Nano Bot"
@@ -8536,6 +8560,17 @@
 		"petDrawDesc": {
 			"trans": "このバフの期間中は、ペットの譲渡会に参加することができます。",
 			"eng": "Pet adoption is now available during this buff duration."
+		},
+		"autoCali": {
+			"trans": "キャリブレーショントレーニング",
+			"eng": "Calibration Train"
+		},
+		"autoCaliDesc": {
+			"vars": [
+				"minutes"
+			],
+			"trans": "システムは、${minutes}分ごとにキャリブレーションバフを+1から+10まで自動的に展開します。",
+			"eng": "System will automatically deploy calibration buffs from +1 to +10 every ${minutes} minutes."
 		}
 	},
 	"combat": {
@@ -9932,6 +9967,21 @@
 			"eng": "destroy"
 		}
 	},
+	"calibrationTrainPage": {
+		"hintBox": {
+			"vars": [
+				"deployInterval"
+			],
+			"trans": "キャリブレーショントレーニングの資金が100%に達すると、システムは次のUTC 00:00から${deployInterval}分間隔で、キャリブレーション成功率と破壊防止バフを+1から+10まで順番に自動的に展開します。",
+			"eng": "When calibration train funding reaches 100%, the system will automatically deploy +1 to +10 calibration success rate and destruction prevention buffs in sequence with ${deployInterval} minutes interval starting at the next UTC 00:00"
+		},
+		"contributeButton": {
+			"title": {
+				"trans": "貢献",
+				"eng": "Contribute"
+			}
+		}
+	},
 	"craftingStartPage": {
 		"instant": {
 			"trans": "即時終了タスク",
@@ -10510,6 +10560,32 @@
 		"nameInvalid": {
 			"trans": "名前は5文字以上16文字以下で, 英字, 数字, \\ '_ \\'のみを使用したものにしてください.",
 			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'"
+		}
+	},
+	"calibrationTrain": {
+		"notEnoughUnit": {
+			"trans": "キャリブレーショントレインに参加するのに十分なユニットがありません。",
+			"eng": "You do not have enough Unit to join calibration train"
+		},
+		"alreadyActive": {
+			"trans": "キャリブレーショントレーニングはすでにアクティブです。終了するまでお待ちください。",
+			"eng": "Calibration train is already active, please wait til it ends"
+		},
+		"announcement": {
+			"vars": [
+				"playerName"
+			],
+			"trans": "🎉キャリブレーショントレイン🚂が${playerName}によって起動されました",
+			"eng": "🎉Calibration Train🚂 activated by ${playerName}"
+		},
+		"contribute": {
+			"vars": [
+				"playerName",
+				"cred",
+				"percent"
+			],
+			"trans": "${playerName}がキャリブレーショントレーニングの進捗に貢献したぜ！レジェンドにちょっとしたストリートクレッドを与えてやろう！【現在の資金：${percent}%】${cred}",
+			"eng": "${playerName} has contributed to calibration train progress, give the legend some street cred! [current fund: ${percent}%] ${cred}"
 		}
 	},
 	"globalParty": {

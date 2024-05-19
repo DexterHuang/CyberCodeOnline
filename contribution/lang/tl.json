@@ -212,6 +212,12 @@
 				"progressTitle": {
 					"trans": "Pondo ng Pandaigdigang Pista",
 					"eng": "Global Party Funds"
+				},
+				"players": {
+					"sponsorTitle": {
+						"trans": "Isinalansag ni:",
+						"eng": "Sponsored by:"
+					}
 				}
 			},
 			"dynamicTutorial": {
@@ -279,14 +285,16 @@
 					}
 				}
 			},
-			"globalQuest": {
+			"communityGoals": {
 				"title": {
-					"trans": "Pandaigdig",
-					"eng": "Global"
-				},
-				"progressTitle": {
-					"trans": "Paglabag sa Fortress ng SL-Data",
-					"eng": "SL-Data Fortress Breach"
+					"trans": "Mga Layunin ng Komunidad",
+					"eng": "Community Goals"
+				}
+			},
+			"globalQuest": {
+				"progressTitleV2": {
+					"trans": "SL-Paglabag sa Data",
+					"eng": "SL-Data Breach"
 				}
 			}
 		},
@@ -1029,19 +1037,6 @@
 					"trans": "Bumili ng yunit",
 					"eng": "Buy Unit"
 				}
-			}
-		},
-		"header": {
-			"online": {
-				"vars": [
-					"skipCount"
-				],
-				"trans": "Laktawan ang ${skipCount}",
-				"eng": "Skipping ${skipCount}"
-			},
-			"skipAvailable": {
-				"trans": "Magagamit ang laktawan",
-				"eng": "Skip Available"
 			}
 		},
 		"playerDetails": {
@@ -2603,6 +2598,25 @@
 			}
 		}
 	},
+	"caliTrain": {
+		"progressTitle": {
+			"trans": "Pondo para sa Pagsasanay sa Cali",
+			"eng": "Cali Train Funds"
+		},
+		"players": {
+			"sponsorTitle": {
+				"trans": "Isinalansag ni:",
+				"eng": "Sponsored by:"
+			}
+		},
+		"announcement": {
+			"vars": [
+				"percent"
+			],
+			"trans": "Magkakaroon ng Calibration (${percent}%) sa loob ng ilang minuto",
+			"eng": "Calibration ${percent}% has been deployed"
+		}
+	},
 	"buffActivation": {
 		"expBuff": {
 			"title": {
@@ -2878,6 +2892,12 @@
 	"misc,durability": {
 		"trans": "tibay",
 		"eng": "durability"
+	},
+	"chatHeader": {
+		"skipAvailable": {
+			"trans": "Magagamit",
+			"eng": "Available"
+		}
 	},
 	"statsType": {
 		"maxHealth": {
@@ -7715,10 +7735,6 @@
 			"name": {
 				"trans": "Alleyway",
 				"eng": "Alleyway"
-			},
-			"npcName": {
-				"trans": "B3llial",
-				"eng": "B3llial"
 			}
 		},
 		"halloween": {
@@ -8468,6 +8484,10 @@
 			"trans": "Pag -calibrate ng katumpakan (EPIC)",
 			"eng": "Calibration Precision (Prestige)"
 		},
+		"upgradeChance": {
+			"trans": "Pagsasaayos ng Puntiryang Matatas",
+			"eng": "Calibration Precision"
+		},
 		"upgradeNoBreak": {
 			"trans": "Kaligtasan ng Kalipulado Nano Bot",
 			"eng": "Calibration Safety Nano Bot"
@@ -8535,6 +8555,17 @@
 		"petDrawDesc": {
 			"trans": "Ang pag-aampon ng alagang hayop ay maaari na ngayong panahon ng pag-boost.",
 			"eng": "Pet adoption is now available during this buff duration."
+		},
+		"autoCali": {
+			"trans": "Pagsasanay sa Kalibrasyon",
+			"eng": "Calibration Train"
+		},
+		"autoCaliDesc": {
+			"vars": [
+				"minutes"
+			],
+			"trans": "Ang sistema ay awtomatikong maglalabas ng mga calibration buffs mula +1 hanggang +10 bawat ${minutes} minuto.",
+			"eng": "System will automatically deploy calibration buffs from +1 to +10 every ${minutes} minutes."
 		}
 	},
 	"combat": {
@@ -9933,6 +9964,21 @@
 			"eng": "destroy"
 		}
 	},
+	"calibrationTrainPage": {
+		"hintBox": {
+			"vars": [
+				"deployInterval"
+			],
+			"trans": "Kapag umabot na sa 100% ang pondo ng pagsasanay ng kalibrasyon, awtomatikong ilalabas ng sistema ang +1 hanggang +10 na rate ng tagumpay sa kalibrasyon at mga buff laban sa pagkasira nang sunod-sunod na may ${deployInterval} minutong agwat simula sa susunod na UTC 00:00",
+			"eng": "When calibration train funding reaches 100%, the system will automatically deploy +1 to +10 calibration success rate and destruction prevention buffs in sequence with ${deployInterval} minutes interval starting at the next UTC 00:00"
+		},
+		"contributeButton": {
+			"title": {
+				"trans": "Mag-ambag",
+				"eng": "Contribute"
+			}
+		}
+	},
 	"craftingStartPage": {
 		"instant": {
 			"trans": "Instant",
@@ -10511,6 +10557,32 @@
 		"nameInvalid": {
 			"trans": "Ang haba ng pangalan ay dapat na mas malaki pagkatapos 4, mas mababa pagkatapos o katumbas ng 16 at naglalaman lamang ng mga character na Ingles, numero o \\ '_ \\'",
 			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'"
+		}
+	},
+	"calibrationTrain": {
+		"notEnoughUnit": {
+			"trans": "\"Wala kang sapat na Unit para makasali sa calibration train.\"",
+			"eng": "You do not have enough Unit to join calibration train"
+		},
+		"alreadyActive": {
+			"trans": "Ang Calibration train ay aktibo na, antayin mo lang hanggang matapos ito",
+			"eng": "Calibration train is already active, please wait til it ends"
+		},
+		"announcement": {
+			"vars": [
+				"playerName"
+			],
+			"trans": "🎉Napindot na ang Calibration Train🚂 ni ${playerName}",
+			"eng": "🎉Calibration Train🚂 activated by ${playerName}"
+		},
+		"contribute": {
+			"vars": [
+				"playerName",
+				"cred",
+				"percent"
+			],
+			"trans": "Si ${playerName} ay nakatulong sa progreso ng pagsasanay ng kalibrasyon, bigyan ng respeto sa kalye ang alamat! [kasalukuyang pondo: ${percent}%] ${cred}",
+			"eng": "${playerName} has contributed to calibration train progress, give the legend some street cred! [current fund: ${percent}%] ${cred}"
 		}
 	},
 	"globalParty": {

@@ -212,6 +212,12 @@
 				"progressTitle": {
 					"trans": "全球派对基金",
 					"eng": "Global Party Funds"
+				},
+				"players": {
+					"sponsorTitle": {
+						"trans": "赞助商：",
+						"eng": "Sponsored by:"
+					}
 				}
 			},
 			"dynamicTutorial": {
@@ -279,14 +285,16 @@
 					}
 				}
 			},
-			"globalQuest": {
+			"communityGoals": {
 				"title": {
-					"trans": "全球",
-					"eng": "Global"
-				},
-				"progressTitle": {
-					"trans": "破坏SL数据堡垒",
-					"eng": "SL-Data Fortress Breach"
+					"trans": "社区目标",
+					"eng": "Community Goals"
+				}
+			},
+			"globalQuest": {
+				"progressTitleV2": {
+					"trans": "SL-数据泄露",
+					"eng": "SL-Data Breach"
 				}
 			}
 		},
@@ -1029,19 +1037,6 @@
 					"trans": "购买单位(Units)",
 					"eng": "Buy Unit"
 				}
-			}
-		},
-		"header": {
-			"online": {
-				"vars": [
-					"skipCount"
-				],
-				"trans": "时间跳跃中：${skipCount}",
-				"eng": "Skipping ${skipCount}"
-			},
-			"skipAvailable": {
-				"trans": "时间跳跃可用",
-				"eng": "Skip Available"
 			}
 		},
 		"playerDetails": {
@@ -2603,6 +2598,25 @@
 			}
 		}
 	},
+	"caliTrain": {
+		"progressTitle": {
+			"trans": "卡利列车基金",
+			"eng": "Cali Train Funds"
+		},
+		"players": {
+			"sponsorTitle": {
+				"trans": "赞助商:",
+				"eng": "Sponsored by:"
+			}
+		},
+		"announcement": {
+			"vars": [
+				"percent"
+			],
+			"trans": "校准（${percent}%）将在几分钟内部署。",
+			"eng": "Calibration ${percent}% has been deployed"
+		}
+	},
 	"buffActivation": {
 		"expBuff": {
 			"title": {
@@ -2878,6 +2892,12 @@
 	"misc,durability": {
 		"trans": "耐久度",
 		"eng": "durability"
+	},
+	"chatHeader": {
+		"skipAvailable": {
+			"trans": "可用的",
+			"eng": "Available"
+		}
 	},
 	"statsType": {
 		"maxHealth": {
@@ -8468,6 +8488,10 @@
 			"trans": "校准精度（史诗）",
 			"eng": "Calibration Precision (Prestige)"
 		},
+		"upgradeChance": {
+			"trans": "校准精度",
+			"eng": "Calibration Precision"
+		},
 		"upgradeNoBreak": {
 			"trans": "校准安全纳米机器人",
 			"eng": "Calibration Safety Nano Bot"
@@ -8535,6 +8559,17 @@
 		"petDrawDesc": {
 			"trans": "现在在这个buff时间内可以领养宠物啦。",
 			"eng": "Pet adoption is now available during this buff duration."
+		},
+		"autoCali": {
+			"trans": "校准训练",
+			"eng": "Calibration Train"
+		},
+		"autoCaliDesc": {
+			"vars": [
+				"minutes"
+			],
+			"trans": "系统将每 ${minutes} 分钟自动部署校准增益，从 +1 到 +10。",
+			"eng": "System will automatically deploy calibration buffs from +1 to +10 every ${minutes} minutes."
 		}
 	},
 	"combat": {
@@ -9933,6 +9968,21 @@
 			"eng": "destroy"
 		}
 	},
+	"calibrationTrainPage": {
+		"hintBox": {
+			"vars": [
+				"deployInterval"
+			],
+			"trans": "当校准训练资金达到100%时，系统将自动在接下来的UTC 00:00开始，以${deployInterval}分钟间隔依次部署+1至+10的校准成功率和防破坏增益。",
+			"eng": "When calibration train funding reaches 100%, the system will automatically deploy +1 to +10 calibration success rate and destruction prevention buffs in sequence with ${deployInterval} minutes interval starting at the next UTC 00:00"
+		},
+		"contributeButton": {
+			"title": {
+				"trans": "贡献",
+				"eng": "Contribute"
+			}
+		}
+	},
 	"craftingStartPage": {
 		"instant": {
 			"trans": "立即的",
@@ -10511,6 +10561,32 @@
 		"nameInvalid": {
 			"trans": "名称长度必须大于4，少于或等于16，并且仅包含英语字符，数字或\\'_ \\'",
 			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'"
+		}
+	},
+	"calibrationTrain": {
+		"notEnoughUnit": {
+			"trans": "你没有足够的单位来参加校准列车",
+			"eng": "You do not have enough Unit to join calibration train"
+		},
+		"alreadyActive": {
+			"trans": "校准列车已经启动，请等待直到结束。",
+			"eng": "Calibration train is already active, please wait til it ends"
+		},
+		"announcement": {
+			"vars": [
+				"playerName"
+			],
+			"trans": "🎉校准列车🚂已被${playerName}激活",
+			"eng": "🎉Calibration Train🚂 activated by ${playerName}"
+		},
+		"contribute": {
+			"vars": [
+				"playerName",
+				"cred",
+				"percent"
+			],
+			"trans": "${playerName} 在校准训练进度中做出了贡献，给这位传奇一些街头信用！【当前资金：${percent}%】${cred}",
+			"eng": "${playerName} has contributed to calibration train progress, give the legend some street cred! [current fund: ${percent}%] ${cred}"
 		}
 	},
 	"globalParty": {

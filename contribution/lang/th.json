@@ -212,6 +212,12 @@
 				"progressTitle": {
 					"trans": "กองทุนปาร์ตี้ระดับโลก",
 					"eng": "Global Party Funds"
+				},
+				"players": {
+					"sponsorTitle": {
+						"trans": "ได้รับการสนับสนุนโดย:",
+						"eng": "Sponsored by:"
+					}
 				}
 			},
 			"dynamicTutorial": {
@@ -279,14 +285,16 @@
 					}
 				}
 			},
-			"globalQuest": {
+			"communityGoals": {
 				"title": {
-					"trans": "โลกแห่งความเป็นไปได้",
-					"eng": "Global"
-				},
-				"progressTitle": {
-					"trans": "SL-Data Fortress Breach",
-					"eng": "SL-Data Fortress Breach"
+					"trans": "เป้าหมายของชุมชน",
+					"eng": "Community Goals"
+				}
+			},
+			"globalQuest": {
+				"progressTitleV2": {
+					"trans": "การละเมิดข้อมูล SL",
+					"eng": "SL-Data Breach"
 				}
 			}
 		},
@@ -1029,19 +1037,6 @@
 					"trans": "หน่วยซื้อ",
 					"eng": "Buy Unit"
 				}
-			}
-		},
-		"header": {
-			"online": {
-				"vars": [
-					"skipCount"
-				],
-				"trans": "กำลังข้าม ${skipCount}",
-				"eng": "Skipping ${skipCount}"
-			},
-			"skipAvailable": {
-				"trans": "การข้ามที่มีอยู่",
-				"eng": "Skip Available"
 			}
 		},
 		"playerDetails": {
@@ -2603,6 +2598,25 @@
 			}
 		}
 	},
+	"caliTrain": {
+		"progressTitle": {
+			"trans": "เงินรถไฟ Cali",
+			"eng": "Cali Train Funds"
+		},
+		"players": {
+			"sponsorTitle": {
+				"trans": "ได้รับการสนับสนุนโดย:",
+				"eng": "Sponsored by:"
+			}
+		},
+		"announcement": {
+			"vars": [
+				"percent"
+			],
+			"trans": "การปรับแต่ง (${percent}%) จะถูกใช้งานในไม่กี่นาทีแล้วล่ะ",
+			"eng": "Calibration ${percent}% has been deployed"
+		}
+	},
 	"buffActivation": {
 		"expBuff": {
 			"title": {
@@ -2878,6 +2892,12 @@
 	"misc,durability": {
 		"trans": "ความทนทาน",
 		"eng": "durability"
+	},
+	"chatHeader": {
+		"skipAvailable": {
+			"trans": "พร้อมใช้งานแล้วครับ",
+			"eng": "Available"
+		}
 	},
 	"statsType": {
 		"maxHealth": {
@@ -7504,7 +7524,7 @@
 				"eng": "Alleyway"
 			},
 			"npcName": {
-				"trans": "B3llial",
+				"trans": "เบลเลียล",
 				"eng": "B3llial"
 			}
 		},
@@ -8255,6 +8275,10 @@
 			"trans": "ความแม่นยำการสอบเทียบ ( Epic)",
 			"eng": "Calibration Precision (Prestige)"
 		},
+		"upgradeChance": {
+			"trans": "ความแม่นยำในการปรับแต่ง",
+			"eng": "Calibration Precision"
+		},
 		"upgradeNoBreak": {
 			"trans": "การสอบเทียบความปลอดภัยของนาโนบอท",
 			"eng": "Calibration Safety Nano Bot"
@@ -8322,6 +8346,17 @@
 		"petDrawDesc": {
 			"trans": "ตอนนี้สามารถนำเลี้ยงสัตว์ไปได้ในช่วงเวลาบัฟนี้แล้วครับ/ค่ะ",
 			"eng": "Pet adoption is now available during this buff duration."
+		},
+		"autoCali": {
+			"trans": "การปรับเทรน",
+			"eng": "Calibration Train"
+		},
+		"autoCaliDesc": {
+			"vars": [
+				"minutes"
+			],
+			"trans": "ระบบจะทำการใช้เทคนิคการปรับแต่งอัติโนมัติ จาก +1 ถึง +10 ทุก ${minutes} นาทีครับ.",
+			"eng": "System will automatically deploy calibration buffs from +1 to +10 every ${minutes} minutes."
 		}
 	},
 	"combat": {
@@ -9720,6 +9755,21 @@
 			"eng": "destroy"
 		}
 	},
+	"calibrationTrainPage": {
+		"hintBox": {
+			"vars": [
+				"deployInterval"
+			],
+			"trans": "เมื่อเงินทุนการฝึกปรับแต่งถึง 100% ระบบจะเริ่มใช้สกิลเพิ่มอัตราความสำเร็จในการปรับแต่งและป้องกันการทำลาย +1 ถึง +10 ติดต่อกัน ทุก ${deployInterval} นาที ตั้งแต่เวลา UTC 00:00 ครั้งถัดไป",
+			"eng": "When calibration train funding reaches 100%, the system will automatically deploy +1 to +10 calibration success rate and destruction prevention buffs in sequence with ${deployInterval} minutes interval starting at the next UTC 00:00"
+		},
+		"contributeButton": {
+			"title": {
+				"trans": "มีส่วนร่วม",
+				"eng": "Contribute"
+			}
+		}
+	},
 	"craftingStartPage": {
 		"instant": {
 			"trans": "ทันที",
@@ -10298,6 +10348,32 @@
 		"nameInvalid": {
 			"trans": "ความยาวชื่อต้องสูงกว่า 4 น้อยกว่าหรือเท่ากับ 16 และมีเฉพาะอักขระภาษาอังกฤษตัวเลขหรือ \\ '_ \\'",
 			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'"
+		}
+	},
+	"calibrationTrain": {
+		"notEnoughUnit": {
+			"trans": "คุณมีหน่วยไม่เพียงพอในการเข้าร่วมการฝึกปรับแต่ง เลยจ้า",
+			"eng": "You do not have enough Unit to join calibration train"
+		},
+		"alreadyActive": {
+			"trans": "ระบบการปรับแต่งได้เริ่มทำงานแล้ว กรุณารอจนกว่าจะเสร็จสิ้นนะคะ",
+			"eng": "Calibration train is already active, please wait til it ends"
+		},
+		"announcement": {
+			"vars": [
+				"playerName"
+			],
+			"trans": "🎉ระบบการปรับแต่งรถไฟ🚂 ถูกเปิดใช้งานโดย ${playerName}",
+			"eng": "🎉Calibration Train🚂 activated by ${playerName}"
+		},
+		"contribute": {
+			"vars": [
+				"playerName",
+				"cred",
+				"percent"
+			],
+			"trans": "${playerName} ได้ช่วยเพิ่มความคืบหน้าในการฝึกปรับแต่ง ให้ตำนานมีความเท่! [เงินทุนปัจจุบัน: ${percent}%] ${cred}",
+			"eng": "${playerName} has contributed to calibration train progress, give the legend some street cred! [current fund: ${percent}%] ${cred}"
 		}
 	},
 	"globalParty": {

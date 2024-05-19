@@ -212,6 +212,12 @@
 				"progressTitle": {
 					"trans": "Глобальные Фонды Вечеринки",
 					"eng": "Global Party Funds"
+				},
+				"players": {
+					"sponsorTitle": {
+						"trans": "При поддержке:",
+						"eng": "Sponsored by:"
+					}
 				}
 			},
 			"dynamicTutorial": {
@@ -279,14 +285,16 @@
 					}
 				}
 			},
-			"globalQuest": {
+			"communityGoals": {
 				"title": {
-					"trans": "Глобальный",
-					"eng": "Global"
-				},
-				"progressTitle": {
-					"trans": "Взлом Крепости Данных Шангри-Ла",
-					"eng": "SL-Data Fortress Breach"
+					"trans": "Цели сообщества",
+					"eng": "Community Goals"
+				}
+			},
+			"globalQuest": {
+				"progressTitleV2": {
+					"trans": "SL-Утечка данных",
+					"eng": "SL-Data Breach"
 				}
 			}
 		},
@@ -1029,19 +1037,6 @@
 					"trans": "Купить Юниты",
 					"eng": "Buy Unit"
 				}
-			}
-		},
-		"header": {
-			"online": {
-				"vars": [
-					"skipCount"
-				],
-				"trans": "Пропуск активен",
-				"eng": "Skipping ${skipCount}"
-			},
-			"skipAvailable": {
-				"trans": "Пропуск не активен",
-				"eng": "Skip Available"
 			}
 		},
 		"playerDetails": {
@@ -2603,6 +2598,25 @@
 			}
 		}
 	},
+	"caliTrain": {
+		"progressTitle": {
+			"trans": "Средства для поезда в Калифорнию",
+			"eng": "Cali Train Funds"
+		},
+		"players": {
+			"sponsorTitle": {
+				"trans": "При поддержке:",
+				"eng": "Sponsored by:"
+			}
+		},
+		"announcement": {
+			"vars": [
+				"percent"
+			],
+			"trans": "Калибровка (${percent}%) будет активирована через несколько минут",
+			"eng": "Calibration ${percent}% has been deployed"
+		}
+	},
 	"buffActivation": {
 		"expBuff": {
 			"title": {
@@ -2878,6 +2892,12 @@
 	"misc,durability": {
 		"trans": "прочность",
 		"eng": "durability"
+	},
+	"chatHeader": {
+		"skipAvailable": {
+			"trans": "Доступно",
+			"eng": "Available"
+		}
 	},
 	"statsType": {
 		"maxHealth": {
@@ -7504,7 +7524,7 @@
 				"eng": "Alleyway"
 			},
 			"npcName": {
-				"trans": "B3llial",
+				"trans": "Б3ллиал",
 				"eng": "B3llial"
 			}
 		},
@@ -8255,6 +8275,10 @@
 			"trans": "Точность калибровки (Эпическая)",
 			"eng": "Calibration Precision (Prestige)"
 		},
+		"upgradeChance": {
+			"trans": "Точность калибровки",
+			"eng": "Calibration Precision"
+		},
 		"upgradeNoBreak": {
 			"trans": "Нано-бот безопасной калибровки",
 			"eng": "Calibration Safety Nano Bot"
@@ -8322,6 +8346,17 @@
 		"petDrawDesc": {
 			"trans": "Прием питомцев теперь доступен во время этого баффа.",
 			"eng": "Pet adoption is now available during this buff duration."
+		},
+		"autoCali": {
+			"trans": "Калибровочный поезд",
+			"eng": "Calibration Train"
+		},
+		"autoCaliDesc": {
+			"vars": [
+				"minutes"
+			],
+			"trans": "Система автоматически будет применять калибровочные баффы от +1 до +10 каждые ${minutes} минут.",
+			"eng": "System will automatically deploy calibration buffs from +1 to +10 every ${minutes} minutes."
 		}
 	},
 	"combat": {
@@ -9720,6 +9755,21 @@
 			"eng": "destroy"
 		}
 	},
+	"calibrationTrainPage": {
+		"hintBox": {
+			"vars": [
+				"deployInterval"
+			],
+			"trans": "Когда финансирование калибровочного поезда достигнет 100%, система автоматически развернет баффы увеличения успешности калибровки на +1 до +10 и предотвращения уничтожения последовательно с интервалом в ${deployInterval} минут, начиная с следующего 00:00 по UTC",
+			"eng": "When calibration train funding reaches 100%, the system will automatically deploy +1 to +10 calibration success rate and destruction prevention buffs in sequence with ${deployInterval} minutes interval starting at the next UTC 00:00"
+		},
+		"contributeButton": {
+			"title": {
+				"trans": "Внести вклад",
+				"eng": "Contribute"
+			}
+		}
+	},
 	"craftingStartPage": {
 		"instant": {
 			"trans": "Мгновенно",
@@ -10298,6 +10348,32 @@
 		"nameInvalid": {
 			"trans": "Длина имени должна быть больше, чем 4, меньше или равна 16 и содержит только английские символы, числа или \\ '_ \\'",
 			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'"
+		}
+	},
+	"calibrationTrain": {
+		"notEnoughUnit": {
+			"trans": "У тебя недостаточно Юнитов, чтобы присоединиться к калибровочному поезду",
+			"eng": "You do not have enough Unit to join calibration train"
+		},
+		"alreadyActive": {
+			"trans": "Калибровочный поезд уже активен, подожди, пока он завершится",
+			"eng": "Calibration train is already active, please wait til it ends"
+		},
+		"announcement": {
+			"vars": [
+				"playerName"
+			],
+			"trans": "🎉Калибровочный поезд🚂 активирован ${playerName}",
+			"eng": "🎉Calibration Train🚂 activated by ${playerName}"
+		},
+		"contribute": {
+			"vars": [
+				"playerName",
+				"cred",
+				"percent"
+			],
+			"trans": "${playerName} внёс свой вклад в прогресс калибровочного поезда, дай легенде немного уважения на улицах! [текущий фонд: ${percent}%] ${cred}",
+			"eng": "${playerName} has contributed to calibration train progress, give the legend some street cred! [current fund: ${percent}%] ${cred}"
 		}
 	},
 	"globalParty": {

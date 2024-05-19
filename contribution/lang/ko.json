@@ -212,6 +212,12 @@
 				"progressTitle": {
 					"trans": "글로벌 파티 모금",
 					"eng": "Global Party Funds"
+				},
+				"players": {
+					"sponsorTitle": {
+						"trans": "후원사:",
+						"eng": "Sponsored by:"
+					}
 				}
 			},
 			"dynamicTutorial": {
@@ -279,14 +285,16 @@
 					}
 				}
 			},
-			"globalQuest": {
+			"communityGoals": {
 				"title": {
-					"trans": "글로벌",
-					"eng": "Global"
-				},
-				"progressTitle": {
-					"trans": "SL 데이터 요새 해킹",
-					"eng": "SL-Data Fortress Breach"
+					"trans": "커뮤니티 목표",
+					"eng": "Community Goals"
+				}
+			},
+			"globalQuest": {
+				"progressTitleV2": {
+					"trans": "SL-데이터 누출",
+					"eng": "SL-Data Breach"
 				}
 			}
 		},
@@ -1029,19 +1037,6 @@
 					"trans": "유닛(UNIT) 구매",
 					"eng": "Buy Unit"
 				}
-			}
-		},
-		"header": {
-			"online": {
-				"vars": [
-					"skipCount"
-				],
-				"trans": "${skipCount}명의 유저 스킵 중",
-				"eng": "Skipping ${skipCount}"
-			},
-			"skipAvailable": {
-				"trans": "스킵 사용 가능",
-				"eng": "Skip Available"
 			}
 		},
 		"playerDetails": {
@@ -2603,6 +2598,25 @@
 			}
 		}
 	},
+	"caliTrain": {
+		"progressTitle": {
+			"trans": "칼리 트레인 자금",
+			"eng": "Cali Train Funds"
+		},
+		"players": {
+			"sponsorTitle": {
+				"trans": "후원사:",
+				"eng": "Sponsored by:"
+			}
+		},
+		"announcement": {
+			"vars": [
+				"percent"
+			],
+			"trans": "캘리브레이션 (${percent}%)이 곧 몇 분 후에 배포될 예정입니다",
+			"eng": "Calibration ${percent}% has been deployed"
+		}
+	},
 	"buffActivation": {
 		"expBuff": {
 			"title": {
@@ -2878,6 +2892,12 @@
 	"misc,durability": {
 		"trans": "내구도",
 		"eng": "durability"
+	},
+	"chatHeader": {
+		"skipAvailable": {
+			"trans": "사용 가능함",
+			"eng": "Available"
+		}
 	},
 	"statsType": {
 		"maxHealth": {
@@ -7613,7 +7633,7 @@
 				"eng": "Alleyway"
 			},
 			"npcName": {
-				"trans": "B3llial",
+				"trans": "벨리알",
 				"eng": "B3llial"
 			}
 		},
@@ -8364,6 +8384,10 @@
 			"trans": "교정 정확도 (프레스티지)",
 			"eng": "Calibration Precision (Prestige)"
 		},
+		"upgradeChance": {
+			"trans": "정밀 조정",
+			"eng": "Calibration Precision"
+		},
 		"upgradeNoBreak": {
 			"trans": "교정 안전 나노봇",
 			"eng": "Calibration Safety Nano Bot"
@@ -8431,6 +8455,17 @@
 		"petDrawDesc": {
 			"trans": "이 버프 시간 동안 애완동물 입양이 가능합니다.",
 			"eng": "Pet adoption is now available during this buff duration."
+		},
+		"autoCali": {
+			"trans": "교정 훈련",
+			"eng": "Calibration Train"
+		},
+		"autoCaliDesc": {
+			"vars": [
+				"minutes"
+			],
+			"trans": "시스템은 매 ${minutes} 분마다 +1에서 +10까지의 보정 버프를 자동으로 배포합니다.",
+			"eng": "System will automatically deploy calibration buffs from +1 to +10 every ${minutes} minutes."
 		}
 	},
 	"combat": {
@@ -9829,6 +9864,21 @@
 			"eng": "destroy"
 		}
 	},
+	"calibrationTrainPage": {
+		"hintBox": {
+			"vars": [
+				"deployInterval"
+			],
+			"trans": "보정 훈련 자금이 100%에 도달하면, 시스템은 다음 UTC 00:00부터 ${deployInterval}분 간격으로 +1에서 +10까지의 보정 성공률 및 파괴 방지 버프를 순차적으로 자동으로 배치합니다",
+			"eng": "When calibration train funding reaches 100%, the system will automatically deploy +1 to +10 calibration success rate and destruction prevention buffs in sequence with ${deployInterval} minutes interval starting at the next UTC 00:00"
+		},
+		"contributeButton": {
+			"title": {
+				"trans": "기여하기",
+				"eng": "Contribute"
+			}
+		}
+	},
 	"craftingStartPage": {
 		"instant": {
 			"trans": "소요시간 없음",
@@ -10407,6 +10457,32 @@
 		"nameInvalid": {
 			"trans": "이름 길이는 4자 초과, 16자 이하여야 하며, 영어 문자, 숫자 또는 \\ '_ \\'만 포함해야합니다",
 			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'"
+		}
+	},
+	"calibrationTrain": {
+		"notEnoughUnit": {
+			"trans": "유닛이 부족해서 캘리브레이션 트레인에 참여할 수 없어",
+			"eng": "You do not have enough Unit to join calibration train"
+		},
+		"alreadyActive": {
+			"trans": "캘리브레이션 트레이닝이 이미 활성화되어 있습니다. 종료될 때까지 기다려주세요",
+			"eng": "Calibration train is already active, please wait til it ends"
+		},
+		"announcement": {
+			"vars": [
+				"playerName"
+			],
+			"trans": "🎉캘리브레이션 트레인🚂이 ${playerName}에 의해 활성화되었습니다",
+			"eng": "🎉Calibration Train🚂 activated by ${playerName}"
+		},
+		"contribute": {
+			"vars": [
+				"playerName",
+				"cred",
+				"percent"
+			],
+			"trans": "${playerName}가 보정 훈련 진행에 기여했어, 전설에 좀 더 길거리 감성을 불어넣어봐! [현재 자금: ${percent}%] ${cred}",
+			"eng": "${playerName} has contributed to calibration train progress, give the legend some street cred! [current fund: ${percent}%] ${cred}"
 		}
 	},
 	"globalParty": {

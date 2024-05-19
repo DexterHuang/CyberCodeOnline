@@ -212,6 +212,12 @@
 				"progressTitle": {
 					"trans": "Глобальні Фонди Вечірки",
 					"eng": "Global Party Funds"
+				},
+				"players": {
+					"sponsorTitle": {
+						"trans": "Спонсоровано:",
+						"eng": "Sponsored by:"
+					}
 				}
 			},
 			"dynamicTutorial": {
@@ -279,14 +285,16 @@
 					}
 				}
 			},
-			"globalQuest": {
+			"communityGoals": {
 				"title": {
-					"trans": "Глобальний",
-					"eng": "Global"
-				},
-				"progressTitle": {
-					"trans": "Кібератака на Фортецю Даних Шангрі-Ла",
-					"eng": "SL-Data Fortress Breach"
+					"trans": "Цілі спільноти",
+					"eng": "Community Goals"
+				}
+			},
+			"globalQuest": {
+				"progressTitleV2": {
+					"trans": "SL-Витік даних",
+					"eng": "SL-Data Breach"
 				}
 			}
 		},
@@ -1029,19 +1037,6 @@
 					"trans": "Купити Юніти",
 					"eng": "Buy Unit"
 				}
-			}
-		},
-		"header": {
-			"online": {
-				"vars": [
-					"skipCount"
-				],
-				"trans": "Пришвидшуємо ${skipCount}",
-				"eng": "Skipping ${skipCount}"
-			},
-			"skipAvailable": {
-				"trans": "Прискорення доступне",
-				"eng": "Skip Available"
 			}
 		},
 		"playerDetails": {
@@ -2603,6 +2598,25 @@
 			}
 		}
 	},
+	"caliTrain": {
+		"progressTitle": {
+			"trans": "Каліфорнійський поїзд Фонди",
+			"eng": "Cali Train Funds"
+		},
+		"players": {
+			"sponsorTitle": {
+				"trans": "Спонсоровано:",
+				"eng": "Sponsored by:"
+			}
+		},
+		"announcement": {
+			"vars": [
+				"percent"
+			],
+			"trans": "Калібрування (${percent}%) буде виконано за кілька хвилин",
+			"eng": "Calibration ${percent}% has been deployed"
+		}
+	},
 	"buffActivation": {
 		"expBuff": {
 			"title": {
@@ -2878,6 +2892,12 @@
 	"misc,durability": {
 		"trans": "міцність",
 		"eng": "durability"
+	},
+	"chatHeader": {
+		"skipAvailable": {
+			"trans": "Доступно",
+			"eng": "Available"
+		}
 	},
 	"statsType": {
 		"maxHealth": {
@@ -7705,7 +7725,7 @@
 				"eng": "Alleyway"
 			},
 			"npcName": {
-				"trans": "B3llial",
+				"trans": "Б3ліал",
 				"eng": "B3llial"
 			}
 		},
@@ -8456,6 +8476,10 @@
 			"trans": "Підвищення Точності Калібрування (Престижне)",
 			"eng": "Calibration Precision (Prestige)"
 		},
+		"upgradeChance": {
+			"trans": "Точність калібрування",
+			"eng": "Calibration Precision"
+		},
 		"upgradeNoBreak": {
 			"trans": "Нанобот Безпеки Калібрування",
 			"eng": "Calibration Safety Nano Bot"
@@ -8523,6 +8547,17 @@
 		"petDrawDesc": {
 			"trans": "У період активного бафу тепер можна придбати домашню тварину.",
 			"eng": "Pet adoption is now available during this buff duration."
+		},
+		"autoCali": {
+			"trans": "Калібрування поїзд",
+			"eng": "Calibration Train"
+		},
+		"autoCaliDesc": {
+			"vars": [
+				"minutes"
+			],
+			"trans": "Система автоматично накладатиме калібрувальні бафи від +1 до +10 кожні ${minutes} хвилин.",
+			"eng": "System will automatically deploy calibration buffs from +1 to +10 every ${minutes} minutes."
 		}
 	},
 	"combat": {
@@ -9920,6 +9955,21 @@
 			"eng": "destroy"
 		}
 	},
+	"calibrationTrainPage": {
+		"hintBox": {
+			"vars": [
+				"deployInterval"
+			],
+			"trans": "Коли фінансування калібрування досягне 100%, система автоматично випустить в послідовності бафи на підвищення успішності калібрування та запобігання знищенню від +1 до +10 з інтервалом у ${deployInterval} хвилин, починаючи з наступного UTC 00:00",
+			"eng": "When calibration train funding reaches 100%, the system will automatically deploy +1 to +10 calibration success rate and destruction prevention buffs in sequence with ${deployInterval} minutes interval starting at the next UTC 00:00"
+		},
+		"contributeButton": {
+			"title": {
+				"trans": "Сприяти",
+				"eng": "Contribute"
+			}
+		}
+	},
 	"craftingStartPage": {
 		"instant": {
 			"trans": "Миттєво",
@@ -10498,6 +10548,32 @@
 		"nameInvalid": {
 			"trans": "довжина імені має бути більше 4 символів, менше 17 символів і містити лише англійські літери, цифри або \\' _\\'",
 			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'"
+		}
+	},
+	"calibrationTrain": {
+		"notEnoughUnit": {
+			"trans": "У вас недостатньо Одиниць, щоб приєднатися до калібрувального поїзда",
+			"eng": "You do not have enough Unit to join calibration train"
+		},
+		"alreadyActive": {
+			"trans": "Калібрувальний поїзд вже активний, зачекай, доки він завершиться",
+			"eng": "Calibration train is already active, please wait til it ends"
+		},
+		"announcement": {
+			"vars": [
+				"playerName"
+			],
+			"trans": "🎉Поїздка налаштування🚂 активована за ${playerName}",
+			"eng": "🎉Calibration Train🚂 activated by ${playerName}"
+		},
+		"contribute": {
+			"vars": [
+				"playerName",
+				"cred",
+				"percent"
+			],
+			"trans": "${playerName} вніс свій внесок у прогрес калібрування поїзда, додай легенді трохи стріт-креду! [поточний фонд: ${percent}%] ${cred}",
+			"eng": "${playerName} has contributed to calibration train progress, give the legend some street cred! [current fund: ${percent}%] ${cred}"
 		}
 	},
 	"globalParty": {

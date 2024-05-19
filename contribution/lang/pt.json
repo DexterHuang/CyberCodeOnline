@@ -212,6 +212,12 @@
 				"progressTitle": {
 					"trans": "Fundos Globais da Festa",
 					"eng": "Global Party Funds"
+				},
+				"players": {
+					"sponsorTitle": {
+						"trans": "Patrocinado por:",
+						"eng": "Sponsored by:"
+					}
 				}
 			},
 			"dynamicTutorial": {
@@ -279,14 +285,16 @@
 					}
 				}
 			},
-			"globalQuest": {
+			"communityGoals": {
 				"title": {
-					"trans": "Global",
-					"eng": "Global"
-				},
-				"progressTitle": {
-					"trans": "Violação da fortaleza de dados SL",
-					"eng": "SL-Data Fortress Breach"
+					"trans": "Metas da Comunidade",
+					"eng": "Community Goals"
+				}
+			},
+			"globalQuest": {
+				"progressTitleV2": {
+					"trans": "Violação de Dados-SL",
+					"eng": "SL-Data Breach"
 				}
 			}
 		},
@@ -1029,19 +1037,6 @@
 					"trans": "Comprar Unit",
 					"eng": "Buy Unit"
 				}
-			}
-		},
-		"header": {
-			"online": {
-				"vars": [
-					"skipCount"
-				],
-				"trans": "Acelerando ${skipCount}",
-				"eng": "Skipping ${skipCount}"
-			},
-			"skipAvailable": {
-				"trans": "Avanço disponível",
-				"eng": "Skip Available"
 			}
 		},
 		"playerDetails": {
@@ -2603,6 +2598,25 @@
 			}
 		}
 	},
+	"caliTrain": {
+		"progressTitle": {
+			"trans": "Fundos do Trem de Cali",
+			"eng": "Cali Train Funds"
+		},
+		"players": {
+			"sponsorTitle": {
+				"trans": "Patrocinado por:",
+				"eng": "Sponsored by:"
+			}
+		},
+		"announcement": {
+			"vars": [
+				"percent"
+			],
+			"trans": "A calibração (${percent}%) será implementada em alguns minutos",
+			"eng": "Calibration ${percent}% has been deployed"
+		}
+	},
 	"buffActivation": {
 		"expBuff": {
 			"title": {
@@ -2878,6 +2892,12 @@
 	"misc,durability": {
 		"trans": "durabilidade",
 		"eng": "durability"
+	},
+	"chatHeader": {
+		"skipAvailable": {
+			"trans": "Disponível",
+			"eng": "Available"
+		}
 	},
 	"statsType": {
 		"maxHealth": {
@@ -8468,6 +8488,10 @@
 			"trans": "Precisão de calibração (Épico)",
 			"eng": "Calibration Precision (Prestige)"
 		},
+		"upgradeChance": {
+			"trans": "Precisão de Calibração",
+			"eng": "Calibration Precision"
+		},
 		"upgradeNoBreak": {
 			"trans": "Nano robô de segurança de calibração",
 			"eng": "Calibration Safety Nano Bot"
@@ -8535,6 +8559,17 @@
 		"petDrawDesc": {
 			"trans": "Adoção de animais de estimação está liberada durante este período de bônus.",
 			"eng": "Pet adoption is now available during this buff duration."
+		},
+		"autoCali": {
+			"trans": "Treino de Calibração",
+			"eng": "Calibration Train"
+		},
+		"autoCaliDesc": {
+			"vars": [
+				"minutes"
+			],
+			"trans": "O sistema irá automaticamente ativar melhorias de calibração de +1 a +10 a cada ${minutes} minutos.",
+			"eng": "System will automatically deploy calibration buffs from +1 to +10 every ${minutes} minutes."
 		}
 	},
 	"combat": {
@@ -9933,6 +9968,21 @@
 			"eng": "destroy"
 		}
 	},
+	"calibrationTrainPage": {
+		"hintBox": {
+			"vars": [
+				"deployInterval"
+			],
+			"trans": "Quando o financiamento do treinamento de calibração atingir 100%, o sistema automaticamente irá implantar +1 a +10 de taxa de sucesso de calibração e buffs de prevenção de destruição em sequência com intervalo de ${deployInterval} minutos a partir do próximo UTC 00:00",
+			"eng": "When calibration train funding reaches 100%, the system will automatically deploy +1 to +10 calibration success rate and destruction prevention buffs in sequence with ${deployInterval} minutes interval starting at the next UTC 00:00"
+		},
+		"contributeButton": {
+			"title": {
+				"trans": "Contribuir",
+				"eng": "Contribute"
+			}
+		}
+	},
 	"craftingStartPage": {
 		"instant": {
 			"trans": "Instante",
@@ -10511,6 +10561,32 @@
 		"nameInvalid": {
 			"trans": "O comprimento do nome deve ser maior que 4, menor ou igual a 16 e conter apenas caracteres em inglês, números ou \\ '_ \\'",
 			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'"
+		}
+	},
+	"calibrationTrain": {
+		"notEnoughUnit": {
+			"trans": "Você não tem unidades suficientes para participar do treino de calibração",
+			"eng": "You do not have enough Unit to join calibration train"
+		},
+		"alreadyActive": {
+			"trans": "O treinamento de calibração já está ativo, por favor aguarde até que termine",
+			"eng": "Calibration train is already active, please wait til it ends"
+		},
+		"announcement": {
+			"vars": [
+				"playerName"
+			],
+			"trans": "🎉 Treino de Calibração 🚂 ativado por ${playerName}",
+			"eng": "🎉Calibration Train🚂 activated by ${playerName}"
+		},
+		"contribute": {
+			"vars": [
+				"playerName",
+				"cred",
+				"percent"
+			],
+			"trans": "${playerName} contribuiu para o progresso do treino de calibração, dê um up no rolê do lendário! [fundo atual: ${percent}%] ${cred}",
+			"eng": "${playerName} has contributed to calibration train progress, give the legend some street cred! [current fund: ${percent}%] ${cred}"
 		}
 	},
 	"globalParty": {

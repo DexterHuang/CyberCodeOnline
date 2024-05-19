@@ -212,6 +212,12 @@
 				"progressTitle": {
 					"trans": "Globálne Stranícke Financie",
 					"eng": "Global Party Funds"
+				},
+				"players": {
+					"sponsorTitle": {
+						"trans": "Sponzorované od:",
+						"eng": "Sponsored by:"
+					}
 				}
 			},
 			"dynamicTutorial": {
@@ -279,14 +285,16 @@
 					}
 				}
 			},
-			"globalQuest": {
+			"communityGoals": {
 				"title": {
-					"trans": "Celosvetový",
-					"eng": "Global"
-				},
-				"progressTitle": {
-					"trans": "Porušenie pevnosti SL-Data",
-					"eng": "SL-Data Fortress Breach"
+					"trans": "Ciele komunity",
+					"eng": "Community Goals"
+				}
+			},
+			"globalQuest": {
+				"progressTitleV2": {
+					"trans": "SL-Únik dát",
+					"eng": "SL-Data Breach"
 				}
 			}
 		},
@@ -1029,19 +1037,6 @@
 					"trans": "Jednotka",
 					"eng": "Buy Unit"
 				}
-			}
-		},
-		"header": {
-			"online": {
-				"vars": [
-					"skipCount"
-				],
-				"trans": "Preskočenie ${skipCount}",
-				"eng": "Skipping ${skipCount}"
-			},
-			"skipAvailable": {
-				"trans": "Preskočiť k dispozícii",
-				"eng": "Skip Available"
 			}
 		},
 		"playerDetails": {
@@ -2603,6 +2598,25 @@
 			}
 		}
 	},
+	"caliTrain": {
+		"progressTitle": {
+			"trans": "Financie na Cali vlak",
+			"eng": "Cali Train Funds"
+		},
+		"players": {
+			"sponsorTitle": {
+				"trans": "Sponzorované:",
+				"eng": "Sponsored by:"
+			}
+		},
+		"announcement": {
+			"vars": [
+				"percent"
+			],
+			"trans": "Kalibrácia (${percent}%) bude nasadená o pár minút",
+			"eng": "Calibration ${percent}% has been deployed"
+		}
+	},
 	"buffActivation": {
 		"expBuff": {
 			"title": {
@@ -2878,6 +2892,12 @@
 	"misc,durability": {
 		"trans": "trvanlivosť",
 		"eng": "durability"
+	},
+	"chatHeader": {
+		"skipAvailable": {
+			"trans": "K dispozícii",
+			"eng": "Available"
+		}
 	},
 	"statsType": {
 		"maxHealth": {
@@ -7715,10 +7735,6 @@
 			"name": {
 				"trans": "Uličky",
 				"eng": "Alleyway"
-			},
-			"npcName": {
-				"trans": "B3llial",
-				"eng": "B3llial"
 			}
 		},
 		"halloween": {
@@ -8468,6 +8484,10 @@
 			"trans": "Kalibračná presnosť (EPIC)",
 			"eng": "Calibration Precision (Prestige)"
 		},
+		"upgradeChance": {
+			"trans": "Kalibrácia presnosti",
+			"eng": "Calibration Precision"
+		},
 		"upgradeNoBreak": {
 			"trans": "Kalibrácia bezpečnosť nano robot",
 			"eng": "Calibration Safety Nano Bot"
@@ -8535,6 +8555,17 @@
 		"petDrawDesc": {
 			"trans": "Adopcia domácich miláčikov je teraz dostupná počas trvania tohto buffu.",
 			"eng": "Pet adoption is now available during this buff duration."
+		},
+		"autoCali": {
+			"trans": "Kalibračný tréning",
+			"eng": "Calibration Train"
+		},
+		"autoCaliDesc": {
+			"vars": [
+				"minutes"
+			],
+			"trans": "Systém automaticky nasadí kalibračné buffy od +1 do +10 každých ${minutes} minút.",
+			"eng": "System will automatically deploy calibration buffs from +1 to +10 every ${minutes} minutes."
 		}
 	},
 	"combat": {
@@ -9933,6 +9964,21 @@
 			"eng": "destroy"
 		}
 	},
+	"calibrationTrainPage": {
+		"hintBox": {
+			"vars": [
+				"deployInterval"
+			],
+			"trans": "Keď finančné prostriedky na kalibráciu dosiahnu 100 %, systém automaticky nasadí +1 až +10 úspešnosť kalibrácie a ochranné buffy pred zničením postupne s intervalom ${deployInterval} minút začínajúcich o polnoci podľa UTC",
+			"eng": "When calibration train funding reaches 100%, the system will automatically deploy +1 to +10 calibration success rate and destruction prevention buffs in sequence with ${deployInterval} minutes interval starting at the next UTC 00:00"
+		},
+		"contributeButton": {
+			"title": {
+				"trans": "Prispej",
+				"eng": "Contribute"
+			}
+		}
+	},
 	"craftingStartPage": {
 		"instant": {
 			"trans": "Okamžitý",
@@ -10511,6 +10557,32 @@
 		"nameInvalid": {
 			"trans": "Dĺžka názvu musí byť väčšia ako 4, menej ako alebo rovná 16 a obsahuje iba anglické znaky, čísla alebo \\ '_ \\'",
 			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'"
+		}
+	},
+	"calibrationTrain": {
+		"notEnoughUnit": {
+			"trans": "Nemáš dosť jednotiek na pridanie sa k kalibračnému vlaku",
+			"eng": "You do not have enough Unit to join calibration train"
+		},
+		"alreadyActive": {
+			"trans": "Kalibračný tréning je už aktívny, počkaj, kým skončí",
+			"eng": "Calibration train is already active, please wait til it ends"
+		},
+		"announcement": {
+			"vars": [
+				"playerName"
+			],
+			"trans": "🎉Kalibračný vlak🚂 aktivovaný pomocou ${playerName}",
+			"eng": "🎉Calibration Train🚂 activated by ${playerName}"
+		},
+		"contribute": {
+			"vars": [
+				"playerName",
+				"cred",
+				"percent"
+			],
+			"trans": "${playerName} prispel k pokroku kalibračného tréningu, daj legendárke trochu uličného štýlu! [aktuálny fond: ${percent}%] ${cred}",
+			"eng": "${playerName} has contributed to calibration train progress, give the legend some street cred! [current fund: ${percent}%] ${cred}"
 		}
 	},
 	"globalParty": {

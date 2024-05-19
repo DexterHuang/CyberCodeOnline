@@ -212,6 +212,12 @@
 				"progressTitle": {
 					"trans": "صندوق الحفلات العالمي",
 					"eng": "Global Party Funds"
+				},
+				"players": {
+					"sponsorTitle": {
+						"trans": "برعاية:",
+						"eng": "Sponsored by:"
+					}
 				}
 			},
 			"dynamicTutorial": {
@@ -279,14 +285,16 @@
 					}
 				}
 			},
-			"globalQuest": {
+			"communityGoals": {
 				"title": {
-					"trans": "عالمي",
-					"eng": "Global"
-				},
-				"progressTitle": {
-					"trans": "SL-Data fortress خرق",
-					"eng": "SL-Data Fortress Breach"
+					"trans": "أهداف المجتمع",
+					"eng": "Community Goals"
+				}
+			},
+			"globalQuest": {
+				"progressTitleV2": {
+					"trans": "انتهاك بيانات SL",
+					"eng": "SL-Data Breach"
 				}
 			}
 		},
@@ -1029,19 +1037,6 @@
 					"trans": "شراء وحدة",
 					"eng": "Buy Unit"
 				}
-			}
-		},
-		"header": {
-			"online": {
-				"vars": [
-					"skipCount"
-				],
-				"trans": "تخطي ${skipCount}",
-				"eng": "Skipping ${skipCount}"
-			},
-			"skipAvailable": {
-				"trans": "تخطي المتاحة",
-				"eng": "Skip Available"
 			}
 		},
 		"playerDetails": {
@@ -2603,6 +2598,25 @@
 			}
 		}
 	},
+	"caliTrain": {
+		"progressTitle": {
+			"trans": "صندوق تمويل قطار كالي",
+			"eng": "Cali Train Funds"
+		},
+		"players": {
+			"sponsorTitle": {
+				"trans": "برعاية:",
+				"eng": "Sponsored by:"
+			}
+		},
+		"announcement": {
+			"vars": [
+				"percent"
+			],
+			"trans": "سيتم تنفيذ عملية المعايرة (${percent}%) خلال بضع دقائق",
+			"eng": "Calibration ${percent}% has been deployed"
+		}
+	},
 	"buffActivation": {
 		"expBuff": {
 			"title": {
@@ -2878,6 +2892,12 @@
 	"misc,durability": {
 		"trans": "متانة",
 		"eng": "durability"
+	},
+	"chatHeader": {
+		"skipAvailable": {
+			"trans": "متوفر",
+			"eng": "Available"
+		}
 	},
 	"statsType": {
 		"maxHealth": {
@@ -8255,6 +8275,10 @@
 			"trans": "الدقة المعايرة (ملحمة)",
 			"eng": "Calibration Precision (Prestige)"
 		},
+		"upgradeChance": {
+			"trans": "دقة المعايرة",
+			"eng": "Calibration Precision"
+		},
 		"upgradeNoBreak": {
 			"trans": "سلامة المعايرة نانو بوت",
 			"eng": "Calibration Safety Nano Bot"
@@ -8322,6 +8346,17 @@
 		"petDrawDesc": {
 			"trans": "اصطحب صديقًا جديدًا! يمكنك الآن تبني حيوان أليف خلال فترة القوة هذه.",
 			"eng": "Pet adoption is now available during this buff duration."
+		},
+		"autoCali": {
+			"trans": "تدريب المعايرة",
+			"eng": "Calibration Train"
+		},
+		"autoCaliDesc": {
+			"vars": [
+				"minutes"
+			],
+			"trans": "النظام سيقوم تلقائيًا بنشر تعزيزات المعايرة من +1 إلى +10 كل ${minutes} دقيقة.",
+			"eng": "System will automatically deploy calibration buffs from +1 to +10 every ${minutes} minutes."
 		}
 	},
 	"combat": {
@@ -9720,6 +9755,21 @@
 			"eng": "destroy"
 		}
 	},
+	"calibrationTrainPage": {
+		"hintBox": {
+			"vars": [
+				"deployInterval"
+			],
+			"trans": "عندما يصل تمويل تدريب المعايرة إلى 100٪، سيقوم النظام تلقائيًا بنشر تعزيزات نجاح المعايرة ومنع الدمار من +1 إلى +10 بتسلسل مع فاصل زمني يبدأ بـ ${deployInterval} دقيقة ابتداءً من الساعة 00:00 بتوقيت UTC التالي",
+			"eng": "When calibration train funding reaches 100%, the system will automatically deploy +1 to +10 calibration success rate and destruction prevention buffs in sequence with ${deployInterval} minutes interval starting at the next UTC 00:00"
+		},
+		"contributeButton": {
+			"title": {
+				"trans": "ساهم",
+				"eng": "Contribute"
+			}
+		}
+	},
 	"craftingStartPage": {
 		"instant": {
 			"trans": "فوري",
@@ -10298,6 +10348,32 @@
 		"nameInvalid": {
 			"trans": "يجب أن يكون طول الاسم أكبر ثم 4 ، أقل من ذلك أو يساوي 16 ويحتوي فقط على أحرف أو أرقام إنجليزية أو \\ '_ \\'",
 			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'"
+		}
+	},
+	"calibrationTrain": {
+		"notEnoughUnit": {
+			"trans": "ما عندكش وحدات كافية باش تلحق تواصل التعديلات",
+			"eng": "You do not have enough Unit to join calibration train"
+		},
+		"alreadyActive": {
+			"trans": "التدريب على المعايرة نشط بالفعل، يرجى الانتظار حتى ينتهي",
+			"eng": "Calibration train is already active, please wait til it ends"
+		},
+		"announcement": {
+			"vars": [
+				"playerName"
+			],
+			"trans": "🎉تم تنشيط قطار المعايرة 🚂 بواسطة ${playerName}",
+			"eng": "🎉Calibration Train🚂 activated by ${playerName}"
+		},
+		"contribute": {
+			"vars": [
+				"playerName",
+				"cred",
+				"percent"
+			],
+			"trans": "${playerName} ساهم في تقدم التدريب على المعايرة، امنح الأسطورة بعض الاعتراف في الشوارع! [الصندوق الحالي: ${percent}%] ${cred}",
+			"eng": "${playerName} has contributed to calibration train progress, give the legend some street cred! [current fund: ${percent}%] ${cred}"
 		}
 	},
 	"globalParty": {

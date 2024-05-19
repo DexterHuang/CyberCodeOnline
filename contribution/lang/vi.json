@@ -212,6 +212,12 @@
 				"progressTitle": {
 					"trans": "Quỹ Tiệc Tùng Toàn Cầu",
 					"eng": "Global Party Funds"
+				},
+				"players": {
+					"sponsorTitle": {
+						"trans": "Được tài trợ bởi:",
+						"eng": "Sponsored by:"
+					}
 				}
 			},
 			"dynamicTutorial": {
@@ -279,14 +285,16 @@
 					}
 				}
 			},
-			"globalQuest": {
+			"communityGoals": {
 				"title": {
-					"trans": "Toàn cầu",
-					"eng": "Global"
-				},
-				"progressTitle": {
-					"trans": "Tấn công Pháo đài Shangri-La Data",
-					"eng": "SL-Data Fortress Breach"
+					"trans": "Mục Tiêu Cộng Đồng",
+					"eng": "Community Goals"
+				}
+			},
+			"globalQuest": {
+				"progressTitleV2": {
+					"trans": "Rò rỉ dữ liệu SL",
+					"eng": "SL-Data Breach"
 				}
 			}
 		},
@@ -1029,19 +1037,6 @@
 					"trans": "Mua Units",
 					"eng": "Buy Unit"
 				}
-			}
-		},
-		"header": {
-			"online": {
-				"vars": [
-					"skipCount"
-				],
-				"trans": "Tăng tốc ${skipCount}",
-				"eng": "Skipping ${skipCount}"
-			},
-			"skipAvailable": {
-				"trans": "Có thể tăng tốc",
-				"eng": "Skip Available"
 			}
 		},
 		"playerDetails": {
@@ -2603,6 +2598,25 @@
 			}
 		}
 	},
+	"caliTrain": {
+		"progressTitle": {
+			"trans": "Quỹ Tàu Cali",
+			"eng": "Cali Train Funds"
+		},
+		"players": {
+			"sponsorTitle": {
+				"trans": "Được tài trợ bởi:",
+				"eng": "Sponsored by:"
+			}
+		},
+		"announcement": {
+			"vars": [
+				"percent"
+			],
+			"trans": "Việc hiệu chuẩn (${percent}%) sẽ được triển khai trong vài phút",
+			"eng": "Calibration ${percent}% has been deployed"
+		}
+	},
 	"buffActivation": {
 		"expBuff": {
 			"title": {
@@ -2878,6 +2892,12 @@
 	"misc,durability": {
 		"trans": "Độ bền",
 		"eng": "durability"
+	},
+	"chatHeader": {
+		"skipAvailable": {
+			"trans": "Có sẵn",
+			"eng": "Available"
+		}
 	},
 	"statsType": {
 		"maxHealth": {
@@ -8255,6 +8275,10 @@
 			"trans": "Chính xác Hiệu chuẩn (Sử thi)",
 			"eng": "Calibration Precision (Prestige)"
 		},
+		"upgradeChance": {
+			"trans": "Độ chính xác hiệu chuẩn",
+			"eng": "Calibration Precision"
+		},
 		"upgradeNoBreak": {
 			"trans": "Hiệu chuẩn an toàn nano bot",
 			"eng": "Calibration Safety Nano Bot"
@@ -8322,6 +8346,17 @@
 		"petDrawDesc": {
 			"trans": "Việc nhận nuôi thú cưng hiện đã mở trong thời gian buff này.",
 			"eng": "Pet adoption is now available during this buff duration."
+		},
+		"autoCali": {
+			"trans": "Huấn luyện hiệu chuẩn",
+			"eng": "Calibration Train"
+		},
+		"autoCaliDesc": {
+			"vars": [
+				"minutes"
+			],
+			"trans": "Hệ thống sẽ tự động triển khai các buff hiệu chỉnh từ +1 đến +10 mỗi ${minutes} phút.",
+			"eng": "System will automatically deploy calibration buffs from +1 to +10 every ${minutes} minutes."
 		}
 	},
 	"combat": {
@@ -9720,6 +9755,21 @@
 			"eng": "destroy"
 		}
 	},
+	"calibrationTrainPage": {
+		"hintBox": {
+			"vars": [
+				"deployInterval"
+			],
+			"trans": "Khi quỹ huấn luyện hiệu chuẩn đạt 100%, hệ thống sẽ tự động triển khai các buff tăng tỷ lệ hiệu chuẩn thành công và ngăn chặn phá hủy từ +1 đến +10 liên tiếp với khoảng cách ${deployInterval} phút bắt đầu từ 00:00 UTC tiếp theo",
+			"eng": "When calibration train funding reaches 100%, the system will automatically deploy +1 to +10 calibration success rate and destruction prevention buffs in sequence with ${deployInterval} minutes interval starting at the next UTC 00:00"
+		},
+		"contributeButton": {
+			"title": {
+				"trans": "Đóng góp",
+				"eng": "Contribute"
+			}
+		}
+	},
 	"craftingStartPage": {
 		"instant": {
 			"trans": "Lập tức",
@@ -10298,6 +10348,32 @@
 		"nameInvalid": {
 			"trans": "Độ dài tên phải lớn hơn 4, ít hơn hoặc bằng 16 và chỉ chứa các ký tự tiếng Anh, số hoặc \\ '_ \\'",
 			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'"
+		}
+	},
+	"calibrationTrain": {
+		"notEnoughUnit": {
+			"trans": "Bạn không đủ Đơn vị để tham gia tàu hiệu chuẩn",
+			"eng": "You do not have enough Unit to join calibration train"
+		},
+		"alreadyActive": {
+			"trans": "Tàu hiệu chuẩn đã hoạt động, vui lòng đợi cho đến khi nó kết thúc",
+			"eng": "Calibration train is already active, please wait til it ends"
+		},
+		"announcement": {
+			"vars": [
+				"playerName"
+			],
+			"trans": "🎉Tàu 🚂 hiệu chuẩn đã được kích hoạt bởi ${playerName}",
+			"eng": "🎉Calibration Train🚂 activated by ${playerName}"
+		},
+		"contribute": {
+			"vars": [
+				"playerName",
+				"cred",
+				"percent"
+			],
+			"trans": "${playerName} đã đóng góp vào tiến trình huấn luyện hiệu chuẩn, cho huyền thoại thêm phần \"cool\"! [quỹ hiện tại: ${percent}%] ${cred}",
+			"eng": "${playerName} has contributed to calibration train progress, give the legend some street cred! [current fund: ${percent}%] ${cred}"
 		}
 	},
 	"globalParty": {
