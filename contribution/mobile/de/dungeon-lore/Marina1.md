@@ -1,18 +1,18 @@
 #30701225 Marina  
-  
-I guess I don't know how to start this log- but my father gave me this diary as a gift to write my thoughts, so I'll try to use it!  
-He always says that habits are built from the hard work of those who want tru change, and I know I want change for us! He was so sad when mom died, I want us to be happy.  
-I guess I can introduce myself like I would to a friend, right?  
-Hi! nice to meet you! I'm Marina. I'm 12, have long black hair, and I like synth cherries. I have a dad and a big brother. Mom died five years ago. Dad says she was defending the Omnipotent God and protecting us. I know she keeps us safe from the net now (hi mom). We are scavengers and merchants. My dad lives outside the city. We travel, collect the best parts, and sell them at the best price!  
-Every day my schedule looks like this:  
-  
-Wake up 5  
-Prayer 5:30-6:30  
-Eat 7:00  
-Help work 7:30-11  
-Lunch 11-12  
-Scripture 12-4  
-Make dinner 4-5  
-Eat, shower, sleep 5-7  
-  
-I know it's a little boring but i like it! My favorite days are Saturdays because I can go to the chapel and connect to the net with the Family.  
+
+Ich weiß nicht genau, wie ich mit diesem Logbuch anfangen soll - aber mein Vater hat mir dieses Tagebuch als Geschenk gegeben, um meine Gedanken festzuhalten, also werde ich es versuchen!  
+Er sagt immer, dass Gewohnheiten aus der harten Arbeit derer entstehen, die echte Veränderungen wollen, und ich weiß, dass ich Veränderungen für uns will! Er war so traurig, als Mama starb, ich möchte, dass wir glücklich sind.  
+Ich denke, ich kann mich vorstellen, als würde ich einen Freund kennenlernen, oder?  
+Hallo! Schön, dich kennenzulernen! Ich bin Marina. Ich bin 12 Jahre alt, habe langes schwarzes Haar und mag Synth-Kirschen. Ich habe einen Vater und einen großen Bruder. Mama ist vor fünf Jahren gestorben. Papa sagt, sie habe den Allmächtigen Gott verteidigt und uns beschützt. Ich weiß, sie hält uns jetzt vom Netz aus sicher (Hallo Mama). Wir sind Plünderer und Händler. Mein Vater lebt außerhalb der Stadt. Wir reisen, sammeln die besten Teile und verkaufen sie zum besten Preis!  
+Mein Tagesablauf sieht jeden Tag so aus:  
+
+- Aufwachen 5:00 Uhr  
+- Gebet 5:30-6:30 Uhr  
+- Frühstück 7:00 Uhr  
+- Arbeit helfen 7:30-11:00 Uhr  
+- Mittagessen 11:00-12:00 Uhr  
+- Schriftenstudium 12:00-16:00 Uhr  
+- Abendessen zubereiten 16:00-17:00 Uhr  
+- Essen, Duschen, Schlafen 17:00-19:00 Uhr  
+
+Ich weiß, es ist ein bisschen langweilig, aber ich mag es! Meine Lieblingstage sind Samstage, weil ich in die Kapelle gehen und mich mit der Familie im Netz verbinden kann.

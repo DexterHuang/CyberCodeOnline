@@ -1,6 +1,6 @@
-# The History of BitCoin Mining
-> (Part 1 of 8 hash processor series)
+# Die Geschichte des BitCoin-Minings
+> (Teil 1 von 8 der Hash-Prozessor-Serie)
 
-BitCoin mining is the process by which new Bitcoins are added into circulation, but it is also a critical component of the maintenance and development of the blockchain ledger. It is performed using very sophisticated computers that solve extremely complex computational math problems.  
+BitCoin-Mining ist der Prozess, durch den neue Bitcoins in Umlauf gebracht werden, aber es ist auch ein entscheidender Bestandteil der Wartung und Entwicklung des Blockchain-Ledgers. Es wird mit sehr anspruchsvollen Computern durchgeführt, die äußerst komplexe mathematische Probleme lösen.
 
-Cryptocurrency mining is painstaking, costly, and rarely rewarding. Nonetheless, mining has a huge appeal for many investors interested in cryptocurrency because of the fact that miners are rewarded for their work with crypto tokens. This may be because entrepreneurial types see mining as pennies from heaven. BitCoin miners receive Bitcoin as a reward for completing "blocks" of verified transactions which are added to the blockchain. Mining rewards are paid to the miner who discovers a solution to a complex mathematical puzzle first, and the probability that a participant will find the solution is proportionate to the how many people are mining in the network.
+Das Kryptowährungs-Mining ist mühsam, kostspielig und selten lohnend. Dennoch hat das Mining einen großen Reiz für viele Anleger, die sich für Kryptowährungen interessieren, weil Miner für ihre Arbeit mit Kryptotoken belohnt werden. Dies liegt möglicherweise daran, dass unternehmerisch denkende Personen das Mining als eine Art Gelddruckmaschine betrachten. BitCoin-Miner erhalten Bitcoin als Belohnung für das Abschließen von "Blöcken" verifizierter Transaktionen, die der Blockchain hinzugefügt werden. Mining-Belohnungen werden an den Miner ausgezahlt, der als erster eine Lösung für ein komplexes mathematisches Rätsel findet, und die Wahrscheinlichkeit, dass ein Teilnehmer die Lösung findet, ist proportional zur Anzahl der Miner im Netzwerk.

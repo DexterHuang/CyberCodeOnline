@@ -1,12 +1,11 @@
 #30761004 Marina  
-  
-My dearest discordant diary, today was not the best day. In fact, it sucked. I prepared for WEEKS to host the service. I learned all of the scriptures, I updated all of my gear, father even let me install a new (well to me) neural mod to prepare!  
-I studied scripture every day. When I wasn't working I found time to connect to the Network and just BE. Be with God, with others in his presence, to FEEL. All so I could lead the service. But no. Some Military jughead raided Karmin's compound and destroyed the server.  
-I know she's ok- she only had shells in there. But Now we need to wait until new networks are established.  
-  
-Father says God blessed me with more time to prepare. He says that we'll soon have newer, better servers. I know he's trying to make me feel better. Sometimes I worry that HE doesn't listen to us. that HE is so busy with everyone in the net that he forgets our prayers.  
-I can't tell father this. If I did, he'd punish me for my Doubt. Once I told him if God is so powerful why doesn't he just send us food? I'd never seen him so mad.  
-  
-The Omnipotent god is one of freedom. He gives us His Light and in exchange we do what we want with it. When Men choose Evil Men suffer. If someone chooses Evil and we Suffer then God can comfort us and give us his light- but Men cause Men to suffer- that is why there is Punishment.  
-I know Men can cause evil, but I just want God to listen.  
 
+Mein liebstes, unharmonisches Tagebuch, heute war nicht der beste Tag. Tatsächlich war er schrecklich. Ich habe WOCHEN damit verbracht, den Gottesdienst vorzubereiten. Ich habe alle Schriften gelernt, meine Ausrüstung aktualisiert, Vater hat mir sogar erlaubt, ein neues (naja, für mich neu) neuronales Modul zu installieren, um mich vorzubereiten!  
+Ich habe jeden Tag Schriften studiert. Wenn ich nicht gearbeitet habe, habe ich Zeit gefunden, mich mit dem Netzwerk zu verbinden und einfach ZU SEIN. Mit Gott zusammen zu sein, mit anderen in seiner Gegenwart, um ZU SPÜREN. Alles, damit ich den Gottesdienst leiten konnte. Aber nein. Ein paar militärische Hohlköpfe haben Karmins Anwesen überfallen und den Server zerstört.  
+Ich weiß, es geht ihr gut - sie hatte nur Schalen drin. Aber jetzt müssen wir warten, bis neue Netzwerke eingerichtet sind.  
+
+Vater sagt, Gott hat mir mehr Zeit gegeben, um mich vorzubereiten. Er sagt, dass wir bald neuere, bessere Server haben werden. Ich weiß, er versucht, mich besser fühlen zu lassen. Manchmal mache ich mir Sorgen, dass ER uns nicht zuhört. Dass ER so beschäftigt ist mit allen im Netz, dass er unsere Gebete vergisst.  
+Das kann ich Vater nicht sagen. Wenn ich es täte, würde er mich für meinen Zweifel bestrafen. Einmal habe ich ihm gesagt, wenn Gott so mächtig ist, warum schickt er uns dann nicht einfach Essen? Ich habe ihn noch nie so wütend gesehen.  
+
+Der Allmächtige Gott ist ein Gott der Freiheit. Er gibt uns Sein Licht und im Austausch tun wir, was wir wollen. Wenn Menschen das Böse wählen, leiden Menschen. Wenn jemand das Böse wählt und wir leiden, dann kann uns Gott trösten und uns Sein Licht geben - aber Menschen lassen Menschen leiden - deshalb gibt es Bestrafung.  
+Ich weiß, dass Menschen Böses verursachen können, aber ich möchte nur, dass Gott zuhört.

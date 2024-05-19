@@ -1,15 +1,14 @@
 #30651030 1243 PVT S. IVANOV  
 
-We have established our presence in the SL Business District. Been here for a week now. We are set up on the ground floor of Z-Corp's building. They sell a lot of tech caches, so we have better equipment than we're used to. Some of the squad have taken to playing around with their stats. Bugsy says a high-stun build is the best for one-on-one combat but I've always been a high-crit man myself. I imagine by the end of this we'll have more info about weaponry, what works, and what doesn't.  
-  
-We're not the only private contractors here. EnhanceU has their own squad that just moved in yesterday, and TruMatch had one before we got here. That's just the ones on our block. This district is huge, so I'm sure all the military kids are eating well right now.  
-  
-Speaking of eating well, even the food stalls are hiring security. Some of them are on the other side, think The Followers have a point. Most of them are from the outskirts of Shangri-La and just want to protect their families.  
-  
-The Followers are getting twitchy. They seem to be stocking up on weaponry and upgrading their gear. They're no match for us, but they're putting on an entertaining show.  
-  
-Tensions are high, but if we play our cards right things will be okay and we'll be back to the status quo soon.  
-  
-Signing off.  
-2/5  
+Wir haben unsere Präsenz im Geschäftsviertel von Shangri-La etabliert. Sind jetzt seit einer Woche hier. Wir haben uns im Erdgeschoss des Gebäudes von Z-Corp eingerichtet. Sie verkaufen viele Tech-Caches, also haben wir bessere Ausrüstung als gewöhnlich. Einige aus dem Team experimentieren mit ihren Statistiken herum. Bugsy sagt, dass ein Build mit hoher Betäubung am besten für den Nahkampf eins gegen eins ist, aber ich war schon immer ein Mann für kritische Treffer. Ich stelle mir vor, dass wir am Ende mehr Informationen über Waffen haben werden, was funktioniert und was nicht.
 
+Wir sind nicht die einzigen privaten Auftragnehmer hier. EnhanceU hat gestern ihr eigenes Team hierher verlegt, und TruMatch hatte schon eins, bevor wir hier ankamen. Das sind nur diejenigen in unserem Block. Dieses Viertel ist riesig, also bin ich mir sicher, dass alle Militärkinder jetzt gut essen.
+
+Apropos gut essen, sogar die Imbissstände stellen Sicherheitspersonal ein. Einige von ihnen stehen auf der anderen Seite, denken, dass The Followers einen Punkt haben. Die meisten von ihnen kommen aus den Außenbezirken von Shangri-La und wollen nur ihre Familien schützen.
+
+The Followers werden unruhig. Sie scheinen sich mit Waffen einzudecken und ihre Ausrüstung aufzurüsten. Sie sind uns nicht gewachsen, aber sie liefern eine unterhaltsame Show.
+
+Die Spannungen sind hoch, aber wenn wir unsere Karten richtig ausspielen, wird alles in Ordnung sein und wir werden bald wieder zum Status quo zurückkehren.
+
+Melde mich ab.  
+2/5  

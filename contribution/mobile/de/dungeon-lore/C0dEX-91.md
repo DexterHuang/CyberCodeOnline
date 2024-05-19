@@ -1,5 +1,5 @@
-> ### **C0dEX-91**  
-> 
-> Did some scouting quickly and there's good and bad news. Good news is that there's few ways out of this building. Bad news is that I will have to use them. Turns out that this guy really works 24/7 inside of the building, ugh... Well, sucks to bea him.  
->  
-> Also there are a few really strange things happening around this building. I really don't like those trucks parked near the building every morning. I mean, they don't have any markings and they're always 5-10 people with heavy weapons that guard them. Maybe I just have terrible timing on this job.  
+### **C0dEX-91**  
+
+Habe schnell etwas Erkundung gemacht und es gibt gute und schlechte Nachrichten. Die gute Nachricht ist, dass es nur wenige Möglichkeiten gibt, aus diesem Gebäude herauszukommen. Die schlechte Nachricht ist, dass ich sie nutzen muss. Es stellt sich heraus, dass dieser Typ wirklich rund um die Uhr in dem Gebäude arbeitet, ugh... Nun, Pech für ihn.
+
+Außerdem passieren um dieses Gebäude herum ein paar wirklich seltsame Dinge. Ich mag diese Lastwagen nicht, die jeden Morgen in der Nähe des Gebäudes geparkt sind. Ich meine, sie haben keine Markierungen und es sind immer 5-10 Leute mit schweren Waffen, die sie bewachen. Vielleicht habe ich einfach nur Pech mit diesem Job.

@@ -1,6 +1,6 @@
-[Transportation Research Department Datalog]  
-[Entry NO.413]  
+[Transportforschungsabteilung Datalog]  
+[Eintrag Nr. 413]  
   
-Even thought the Hyper Train was originally planned for continental travel with additional modification being fabricated for it and in the works of being fitted on the main rail fleet, production ceased abruptly when the funds for the project vanished up in smoke due to scandal surrounding the mayor and the corporation funding the project. To add to the chaos, although Energy cells were plenty and abundant, Motor-rail spec'd variety was high in demand with the rapid modernization of travel and the supply was running low with specialized research and production facilities coming to a near halt. The small numbers that we’ve been producing and are available were being weaponized or sold at a high price. As it stands right now, the only small number of Hyper Trains in service does not have the necessary Energy Cell Capacitors for world-wide and international travel beyond the local areas surrounding Shangri-La City and its compassing borders.  
+Obwohl der Hyperzug ursprünglich für den kontinentalen Reiseverkehr geplant war und zusätzliche Modifikationen dafür gefertigt und an die Hauptflotte angebracht werden sollten, wurde die Produktion abrupt eingestellt, als die Mittel für das Projekt aufgrund eines Skandals um den Bürgermeister und das Unternehmen, das das Projekt finanzierte, in Rauch aufgingen. Um das Chaos zu vervollständigen, waren zwar Energiezellen reichlich vorhanden, aber die für den Motorbahnbereich spezifizierte Variante war mit der raschen Modernisierung des Reisens stark nachgefragt, und das Angebot ging zur Neige, da spezialisierte Forschungs- und Produktionsanlagen fast zum Erliegen kamen. Die kleine Anzahl, die wir produziert haben und die verfügbar waren, wurden entweder zu Waffen umfunktioniert oder zu hohen Preisen verkauft. Derzeit haben die wenigen Hyperzüge im Dienst nicht die notwendigen Energiezellkapazitäten für weltweite und internationale Reisen über die lokalen Gebiete von Shangri-La City und dessen angrenzenden Grenzen hinaus.  
   
-[End of Transmission]  
+[Ende der Übertragung]  

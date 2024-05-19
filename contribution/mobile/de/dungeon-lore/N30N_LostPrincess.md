@@ -1,17 +1,15 @@
+#### N30N C1RCUS: Verlorene Prinzessin
 
-#### N30N C1RCUS: Lost Princess
+> Sie finden eine zusammengewürfelte Videokamera neben einem Haufen krustiger, unbrauchbarer legendärer Beute. Als Sie sie aufheben, sehen Sie, dass bereits ein Video durch den Sucher abgespielt wird.
 
-> You find a scavenged camcorder next to a pile of crusty unusable legendary cache. Upon picking it up, you see that it is already playing a video through the viewfinder.
+*"Schau dir unsere kleine Prinzessin an, sie sieht genauso aus wie du." "Aber ihr Schnurrbart ist außer Kontrolle, wann wird sie ihn abnehmen?" "Oh sei still, du hast ihr dieses Plastikding gegeben. Sie liebt es mehr als ihre besten Spielzeuge." "Sie hat sicher* ---"
+> Das Video wechselt zu einer neuen Szene.
 
-*"Look at our little princess, she looks just like you." "But her mustache is out of control, when is she gonna shave it off?" "Oh hush, you gave her that plastic thing. She loves it more than her best toys." "She sure* ---"
-> Video cuts to a new scene.
+*"--- und Herr Fuzzybear, vergiss nicht, deinen Tee mit Frau Bunbun zu teilen. Hier bitte, Frau Bunbun. Oh, Herr Fuzzybear, wer ist dein neuer Freund? Sir Silly Penguin? Hallo Herr Silly, mein Name ist--" "Schatz! Ich habe dir gesagt, keine Dinge aus dem Müll---*" 
+> Video wird unterbrochen.
 
-*"--- and Mr. Fuzzybear, don't forget to share your tea with Mrs. Bunbun. Here you go Mrs. Bunbun. Oh, Mr. Fuzzybear, who is your new friend? Sir Silly Penguin? Hello Mr. Silly, my name is--" "Sweetie! I told you not to bring in things from the garb---*" 
-> Video cuts. 
+*"--- ihnen alles gegeben! Wir hatten alles, was wir brauchten und mehr, also warum sollten--"* Klopfen. *"..Gloria, nimm sie hinten raus, jetzt. Und bring sie dazu, das Ding umzudrehen---"*
+> Video wird unterbrochen. Es ist jetzt nur noch eine scrollende Nachtsicht von innerhalb Shangri-Las aus dem Fenster eines offenen Hypertrains. Trompeten und Menschenmengen sind zu hören, während Feuerwerke am Himmel über leuchtenden Zelten explodieren.
 
-*"---given them everything! We had all we needed and more, so why would--"* Knock knock knock. *"..Gloria take her through the back, now. And make her turn that thing---"*
-> Video cuts. It's now just a scrolling night view of inner Shangri-La from an open hypertrain window. Trumpets and crowds can be heard as fireworks explode in the sky above glowing tents.
-
-*"Honk!" "Hush now, you silly penguin!" "Honk!" "Can't you see the lass is crying, have sympathy!" "Honk honk!" "--Sniff... It's okay. I'm ready to go.." "And your fancy shoes, lass? That platinum ring? The retro camcorder, you shouldn't leave it here, it's worth a fortune in bitcoin!" "..Expensive things never made me happy." "..Honk!" "Hush it! Well then, come on now.. I'll tell you all about the N30N C---"*
-> The voices get further away as the view of Shangri-la carries on for several minutes. A sound nearby reminds you that you were in the middle of exploring. Unsure how long the video goes before it inevitably repeats itself, you finally set the camcorder back down where you found it.
-
+*"Honk!" "Sei still, du alberner Pinguin!" "Honk!" "Kannst du nicht sehen, dass das Mädchen weint, hab etwas Mitgefühl!" "Honk honk!" "--Schnief... Es ist in Ordnung. Ich bin bereit zu gehen.." "Und deine schicken Schuhe, Mädchen? Der Platinring? Die Retro-Videokamera, du solltest sie nicht hier lassen, sie ist ein Vermögen in Bitcoin wert!" "..Teure Dinge haben mich nie glücklich gemacht." "..Honk!" "Halt den Mund! Also gut, komm jetzt.. Ich werde dir alles über den N30N C---"*
+> Die Stimmen werden immer leiser, während die Aussicht auf Shangri-la mehrere Minuten lang weitergeht. Ein Geräusch in der Nähe erinnert Sie daran, dass Sie mitten in der Erkundung waren. Unsicher, wie lange das Video noch dauert, bevor es zwangsläufig wieder von vorne beginnt, legen Sie die Videokamera schließlich zurück, wo Sie sie gefunden haben.

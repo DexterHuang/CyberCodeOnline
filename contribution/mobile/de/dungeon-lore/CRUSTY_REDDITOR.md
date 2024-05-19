@@ -1,25 +1,17 @@
->You see a video module drive on the floor next to some scattered chips bags and candy wrappers. You decide to hook it to your mobile display.
-
-
-*STATIC*
-
-
->A large man with a neckbeard, ponytail, augmented reality headset and poorly fitted Sword Art Online T-shirt enters the frame sporting a cheeto encrusted Legendary Astral Decimation Cannon. He appears to be pointing the weapon at a figure in the distance. 
-
-
-*EXPLOSIONS*
-
-
-Wow omg guys! This really blew up!! 
-
-
->The man with the cannon, who you now have identified as a Crusty Redditor skips with glee over to what's left of the figure in the distance. The Redidtor rummages through the tattered remains and then picks up a couple of lightly singed Hash Processors.
-
-
-Thanks for the gold kind Stranger!!
-
+>Du siehst ein Videomodul-Laufwerk auf dem Boden neben einigen verstreuten Chipstüten und Bonbonverpackungen. Du entscheidest dich, es an dein mobiles Display anzuschließen.
 
 *STATIC*
 
+Ein großer Mann mit einem Halsbart, einem Zopf, einer Augmented-Reality-Brille und einem schlecht sitzenden Sword-Art-Online-T-Shirt betritt das Bild und trägt eine mit Cheeto-Krümeln verkrustete Legendäre Astrale Dezimationskanone. Er scheint die Waffe auf eine Figur in der Ferne zu richten.
 
->You rip the drive out of the display and throw it to the ground. It's time to move on.
+*EXPLOSIONEN*
+
+Wow omg Leute! Das ist wirklich explodiert!!
+
+> Der Mann mit der Kanone, den Sie jetzt als einen Crusty Redditor identifiziert haben, hüpft vor Freude zu dem, was von der Figur in der Ferne übrig geblieben ist. Der Redditor wühlt in den zerfetzten Überresten herum und nimmt dann ein paar leicht versengte Hash-Prozessoren auf.
+
+Danke für das Gold, lieber Fremder!!
+
+*STATIC*
+
+Sie reißen das Laufwerk aus dem Display und werfen es auf den Boden. Es ist Zeit, weiterzuziehen.

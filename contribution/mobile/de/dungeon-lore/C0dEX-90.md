@@ -1,8 +1,7 @@
->### **C0dEX-90**  
->  
->Today I finally got a new job that has to be done. You know, the usual stuff: Find the guy — Kill the guy. Yet, there was a part about this guy owing a debt that he should pay and if he does, let him live. But we both know they never do, so we can skip right to the problem-solving bit.
->  
->  
->Problem here is the guy who owes money is actually one of the clerks in Medikama. They're known for their contracts that don't allow them to leave the workplace at all. There's a high chance that I will need to actually kill this guy and then run away as fast as I can.
->
-> Oh and note to self: After this job is done, never go back to Shangri-La ever again.
+### **C0dEX-90**  
+
+Heute habe ich endlich einen neuen Auftrag bekommen, der erledigt werden muss. Du weißt schon, die üblichen Sachen: Finde den Typen - Töte den Typen. Doch es gab einen Teil über diesen Typen, der eine Schuld hat, die er begleichen sollte, und wenn er das tut, lass ihn am Leben. Aber wir wissen beide, dass sie das nie tun, also können wir gleich zum Problem-Lösungs-Teil übergehen.
+
+Das Problem hier ist, dass der Typ, der Geld schuldet, tatsächlich einer der Angestellten bei Medikama ist. Sie sind bekannt für ihre Verträge, die es ihnen überhaupt nicht erlauben, den Arbeitsplatz zu verlassen. Es besteht eine hohe Wahrscheinlichkeit, dass ich diesen Typen tatsächlich töten und dann so schnell wie möglich wegrennen muss.
+
+Oh, und Notiz an mich selbst: Nachdem dieser Job erledigt ist, nie wieder nach Shangri-La zurückkehren.

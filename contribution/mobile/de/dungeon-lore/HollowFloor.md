@@ -1,15 +1,15 @@
->You find a hidden compartment where the floor sounds hollow. A quick knock of your primary against the false tiles reveal a hollowed-out compartment containing an assortment of old video chips, outdated surveillance tech and rolled-up charts and illustrations, several of which are brittle to the touch. The technology seems to be from around 75 years ago.  
-  
->You fiddle with a bulky-looking rectangle with analog buttons. A paper label, attached to the gadget with some sort of clear adhesive, reads "PLAY ME" in faded green letters.  
-  
-(heavy static)  
+>Du findest ein verstecktes Fach, in dem der Boden hohl klingt. Ein schneller Schlag mit deiner Primärwaffe gegen die falschen Fliesen enthüllt ein ausgehöhltes Fach, das eine Sammlung alter Videochips, veralteter Überwachungstechnik und zusammengerollter Karten und Illustrationen enthält, von denen einige beim Berühren brüchig sind. Die Technologie scheint etwa 75 Jahre alt zu sein.
+
+>Du spielst mit einem klobig aussehenden Rechteck mit analogen Tasten. Ein Papieretikett, das mit einer Art klarem Klebstoff an das Gerät befestigt ist, trägt die Aufschrift "SPIEL MICH" in verblassten grünen Buchstaben.
+
+(starkes Rauschen)  
+(heftiges Atmen)  
+(schwache Stimme) "...ein ehemaliges... Mitglied der... Umbra..."  
+(Hustenanfall)  
+"...werden... für ihre Verbrechen bezahlen... sie wollen einen globalen Krieg..."  
 (raspy breathing)  
-(weak voice) "...a former... member of the... Umbra..."  
-(coughing fit)  
-"...will... pay... for their crimes... they want global war..."  
-(raspy breathing)  
-"...no more nations, no more... countries... everyone... under them..."  
-(heavy static)  
-"...the documents... before it's too late..."  
-(shuffling noise, slow laborious breathing gets audibly closer)  
-(whispering voice) "...stop... Operation... Shangri-La..."  
+"...keine Nationen mehr, keine... Länder... alle... unter ihnen..."  
+(starkes Rauschen)  
+"...die Dokumente... bevor es zu spät ist..."  
+(Geräusche von Bewegungen, langsames, mühsames Atmen kommt hörbar näher)  
+(flüsternde Stimme) "...stoppt... Operation... Shangri-La..."  

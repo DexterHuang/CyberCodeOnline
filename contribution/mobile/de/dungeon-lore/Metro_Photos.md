@@ -1,5 +1,5 @@
-![Metro Photos](/resources/lore/metrophotofull.png)
+![Metro Fotos](/resources/lore/metrophotofull.png)
 
-How odd... it's a series of instant photos, each depicting the Shangri-La metro map posted at different nearby stations. You wonder if they're part of an art project or simply the documentation of a fanatic's transit obsession. Perhaps the snapshots were taken by the designer of the map, pleased with their work? Or, maybe, the photographs were _intended_ to be left here, as some sort of signal to an unknown party? 
+Wie seltsam... Es handelt sich um eine Serie von Sofortfotos, die jeweils die Shangri-La U-Bahnkarte an verschiedenen nahegelegenen Stationen zeigen. Du fragst dich, ob sie Teil eines Kunstprojekts sind oder einfach die Dokumentation der Transit-Obsession eines Fanatikers darstellen. Vielleicht wurden die Schnappschüsse vom Designer der Karte gemacht, der mit seiner Arbeit zufrieden war? Oder vielleicht sollten die Fotos hier zurückgelassen werden, als eine Art Signal an eine unbekannte Partei?
 
-Regardless, it feels strangely invasive to pocket the photos, so you leave them right where they are. You're content to spend a while conjuring up reasons the photos might have been taken in the first place and how and why they ended up here. Sometimes life needs small mysteries.
+Wie auch immer, es fühlt sich seltsam an, die Fotos einzustecken, also lässt du sie genau dort, wo sie sind. Du bist zufrieden damit, eine Weile darüber nachzudenken, warum die Fotos überhaupt gemacht wurden und wie und warum sie hier gelandet sind. Manchmal braucht das Leben kleine Rätsel.

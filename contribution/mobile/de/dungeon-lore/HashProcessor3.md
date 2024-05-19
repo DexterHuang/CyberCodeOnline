@@ -1,8 +1,8 @@
-# Mining BitCoins: Money Printing?
-> (Part 3 of 8 hash processor series)
+# BitCoin-Mining: Geld drucken?
+> (Teil 3 von 8 der Hash-Prozessor-Serie)
 
-Miners are getting paid for their work as auditors. They are doing the work of verifying the legitimacy of Bitcoin transactions. This convention is meant to keep Bitcoin users honest. By verifying transactions, miners are helping to prevent the "double-spending problem". 
+Miner werden für ihre Arbeit als Rechnungsprüfer bezahlt. Sie überprüfen die Legitimität von BitCoin-Transaktionen. Diese Praxis soll die Ehrlichkeit der BitCoin-Nutzer gewährleisten. Indem sie Transaktionen überprüfen, helfen Miner, das "Double-Spending-Problem" zu verhindern.
 
-Double spending is a scenario where a bitcoin owner illicitly spends the same bitcoin twice. With physical currency, this isn't an issue: once you hand someone a $10 bill to buy a burger, you no longer have it, so there's no way you could use that same $10 bill to buy drinks next door. While there is the possibility of counterfeit cash being made, it is different from spending the same dollar twice. 
+Double Spending ist eine Situation, in der ein BitCoin-Besitzer denselben BitCoin illegal zweimal ausgibt. Bei physischer Währung ist dies kein Problem: Sobald Sie jemandem einen 10-Dollar-Schein für einen Burger geben, haben Sie ihn nicht mehr, sodass Sie diesen 10-Dollar-Schein nicht noch einmal verwenden könnten, um im nächsten Laden Getränke zu kaufen. Auch wenn es möglich ist, Falschgeld herzustellen, ist dies etwas anderes als das zweimalige Ausgeben desselben Dollars.
 
-With digital currency, there is a risk that the holder could make a copy of the digital token and send it to a merchant or another party while retaining the original. Thus miners are not really printing money, but they are getting paid for the time validating and auditing transactions using Bitcoin, helping to ensure the legitimacy of each and every transaction.
+Bei digitaler Währung besteht das Risiko, dass der Inhaber eine Kopie des digitalen Tokens erstellt und es an einen Händler oder eine andere Partei sendet, während er das Original behält. Daher drucken Miner kein Geld, sondern sie werden für die Zeit bezahlt, in der sie Transaktionen mit BitCoin validieren und prüfen, um die Legitimität jeder einzelnen Transaktion sicherzustellen.

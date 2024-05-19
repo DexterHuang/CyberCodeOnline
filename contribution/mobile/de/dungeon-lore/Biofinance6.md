@@ -1,15 +1,15 @@
->[Part 6 of 8 of BioFinance series]  
+>[Teil 6 von 8 der BioFinance-Serie]  
 
-*[A folder containing some internal memos from a local company.]*
+*[Ein Ordner mit einigen internen Memos von einem lokalen Unternehmen.]*
 
 ![IntelliCo](/resources/lore/intellico1.png)
 
-**ATTN** all department heads at Intellico. Shangri-La plant. 
+**WARN** alle Abteilungsleiter bei Intellico, Werk Shangri-La. 
 
-It is IMPERATIVE to notify logistic dept in advance when a large inbound shipment is coming in!
+Es ist UNBEDINGT ERFORDERLICH, die Logistikabteilung im Voraus zu informieren, wenn eine große eingehende Lieferung erwartet wird!
 
-Today we received a 20 crates of an "experimental drug" (!) without warning. 
+Heute haben wir ohne Vorwarnung 20 Kisten eines "experimentellen Medikaments" (!) erhalten.
 
-It has been temporarily stored in the offices' basement but whoever is responsible for this order must collect it IMMEDIATELY.
+Es wurde vorübergehend im Keller der Büros gelagert, aber der Verantwortliche für diese Bestellung muss es SOFORT abholen.
 
-Failure to provide proper notification from now on will be reported to higher management.
+Das Versäumnis, künftig eine ordnungsgemäße Benachrichtigung zu gewährleisten, wird der höheren Geschäftsleitung gemeldet.

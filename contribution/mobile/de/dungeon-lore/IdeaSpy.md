@@ -1,11 +1,4 @@
-> **Communicator Entertainment Program Cyber Coder 2.5 (Two-point-five)**  
+> **Kommunikator-Unterhaltungsprogramm Cyber Coder 2.5 (Zwei-Punkt-Fünf)**  
 Episode 1
 
-Shangri-LA. Here in the city where dreams come true and desires rule, something is
-being bought, sold and thrown away, even as we speak. But behind the scenes of
-business as usual, the nefarious A.E. (Arasaka Expensive) Corporation lines its
-already bloated coffers with profits from worthless products. As A.E. swindles
-yet another innocent into purchasing high-priced junk...the DHI mobilizes a
-top-secret task force to put a stop to the menace. Now, the city's best-kept
-secret spy is out there, briefed and ready to protect the people from A.E., the
-catalogue of conspiracy -- just call him 2.5 (Two-point-five).
+Shangri-LA. Hier in der Stadt, wo Träume wahr werden und Wünsche regieren, wird etwas gekauft, verkauft und weggeworfen, während wir sprechen. Doch hinter den Kulissen des geschäftlichen Alltags füllt das niederträchtige A.E. (Arasaka Expensive) Corporation seine ohnehin schon aufgeblähten Kassen mit Gewinnen aus wertlosen Produkten. Während A.E. einen weiteren Unschuldigen dazu verleitet, überteuerten Müll zu kaufen... mobilisiert die DHI eine streng geheime Einsatztruppe, um der Bedrohung Einhalt zu gebieten. Jetzt ist der bestgehütete Geheimagent der Stadt unterwegs, informiert und bereit, die Menschen vor A.E. zu schützen, dem Katalog der Verschwörung - nennt ihn einfach 2.5 (Zwei-Punkt-Fünf).

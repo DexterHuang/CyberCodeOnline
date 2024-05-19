@@ -1,25 +1,26 @@
->[Part 2 of 8 of BioFinance series]  
+>[Teil 2 von 8 der BioFinance-Serie]  
 
-[Among the partially burned wastepaper, there is a formal looking document. Apparently, some kind of meeting minutes.]  
+[Unter den teilweise verbrannten Abfallpapieren befindet sich ein förmlich aussehendes Dokument. Anscheinend eine Art Sitzungsprotokoll.]  
 
-Attending: 
+Anwesend: 
 
-*Mr. Cheng Fang, Esq. (C), President of Cheng Holding*
+*Herr Cheng Fang, Esq. (C), Präsident von Cheng Holding*
 
-*Mr. Zhao Hong (H), CEO of Cheng Capital Investment*
+*Herr Zhao Hong (H), CEO von Cheng Capital Investment*
 
-*Mr. John Xu (X), [redacted]*
+*Herr John Xu (X), [geschwärzt]*
 
-C: Mr. Hong, the plan is ready to be set in motion. What is our current position?
+C: Herr Hong, der Plan ist bereit zur Ausführung. Wie ist unsere aktuelle Position?
 
-H: Cheng lǎobǎn, we currently hold close to 300 millions BTC in short positions on IntelliCo. and all their major controlled companies. Position covering will be required in 3 weeks.
+H: Cheng lǎobǎn, wir halten derzeit fast 300 Millionen BTC in Short-Positionen auf IntelliCo. und alle ihre wichtigen Tochtergesellschaften. Positionsabdeckung wird in 3 Wochen erforderlich sein.
 
-C: Mr. Xu?
+C: Herr Xu?
 
-X: Shipment is ready at New Hangzou laboratory. The lab has been acquired through intermediaries, no paper trail.
+X: Die Lieferung ist im Labor in Neu-Hangzou bereit. Das Labor wurde über Vermittler erworben, keine Spur auf Papier.
 
-H: We took care of the financial aspect. We are in the clear.  
+H: Wir haben uns um den finanziellen Aspekt gekümmert. Wir sind auf der sicheren Seite.
 
-X: Extra insurance has been bought on the plant, after the fire we will recoup most of the expenses. We have a direct line with the media to control the narrative. Police have been paid out.
+X: Zusätzlich wurde eine Versicherung für die Anlage abgeschlossen, nach dem Brand werden wir die meisten Ausgaben wieder hereinholen. Wir haben eine direkte Verbindung zu den Medien, um die Berichterstattung zu kontrollieren. Die Polizei wurde bestochen.
 
-C: Very well, please proceed as agreed. 
+C: Sehr gut, bitte fahren Sie wie vereinbart fort.
+

@@ -1,26 +1,27 @@
->[Part 1 of 8 of BioFinance series]  
+>[Teil 1 von 8 der BioFinance-Serie]  
 
-[A crumpled sheet catches your attention. It's a bill of lading for some sort of delivery.]  
+[Ein zerknittertes Blatt erregt Ihre Aufmerksamkeit. Es ist ein Frachtbrief für eine Art Lieferung.]  
 
 ![EdgeRunner Biocouriers Corporation](/resources/lore/edgerunnerbiocorp.png)
   
-**CONSIGNEE:**  
+**EMPFÄNGER:**  
 IntelliCo. Neural Implants Manufacturing Facility - Depot 33. Shangri-La.
 
-**SHIPPER:**  
-Vitasyntech Inc. - WTP Building, New Hangzou, CN
+**VERSENDER:**  
+Vitasyntech Inc. - WTP-Gebäude, Neu-Hangzou, CN
 
-**DELIVERY THROUGH:**  
+**LIEFERUNG DURCH:**  
 EdgeRunner Biocouriers Corp., Chiba City, JP
 
-**ITEM MARK:**  
+**ARTIKELMARKIERUNG:**  
 Psychoxone Mk4
 
-**ITEM DESCR. :**  
-experimental performance enhancing drug
+**ARTIKELBESCHREIBUNG:**  
+experimentelles leistungssteigerndes Medikament
 
-**QTY:**         
-20 crates, 4 tanks each
+**MENGE:**         
+20 Kisten, jeweils 4 Tanks
 
-**WEIGHT:**  
+**GEWICHT:**  
 400 kg
+

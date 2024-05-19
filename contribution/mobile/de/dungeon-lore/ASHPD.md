@@ -7,8 +7,8 @@ Ob es existiert oder nicht, es gab ein Archiv, in dem gezeigt wurde, dass die Ge
 
 >Das Video wird abgespielt.
 
-**Ein Mann als Erzähler:** Willkommen bei *`unverständlich`*. Wir suchen die Besten der Besten.
-    Mein Name ist *`unverständlich`*, und das ist mein Assistent.
+**Ein Mann als Erzähler:** Willkommen bei *`Krzz~~~`*. Wir suchen die Besten der Besten.
+    Mein Name ist *`BZZzzz~~~`*, und das ist mein Assistent.
 
 **Frau im Video:** Und ich war seine Assistentin.
 
