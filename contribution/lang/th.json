@@ -9753,11 +9753,14 @@
 	},
 	"calibrationTrainPage": {
 		"hintBox": {
-			"vars": [
-				"deployInterval"
-			],
-			"trans": "เมื่อเงินทุนการฝึกปรับแต่งถึง 100% ระบบจะเริ่มใช้สกิลเพิ่มอัตราความสำเร็จในการปรับแต่งและป้องกันการทำลาย +1 ถึง +10 ติดต่อกัน ทุก ${deployInterval} นาที ตั้งแต่เวลา UTC 00:00 ครั้งถัดไป",
-			"eng": "When calibration train funding reaches 100%, the system will automatically deploy +1 to +10 calibration success rate and destruction prevention buffs in sequence with ${deployInterval} minutes interval starting at the next UTC 00:00"
+			"text": {
+				"vars": [
+					"deployInterval",
+					"time"
+				],
+				"trans": "เมื่อเงินทุนการฝึกปรับแต่งถึง 100% ระบบจะเริ่มใช้งานอัตโนมัติ +1 ถึง +10 อัตราความสำเร็จในการปรับแต่งและบัฟป้องกันการทำลายต่อเนื่องกันด้วยช่วงเวลา ${deployInterval} นาที บัฟจะเริ่มทำงานตั้งแต่เวลา ${time} ในเวลาท้องถิ่นถัดไป",
+				"eng": "When calibration train funding reaches 100%, the system will automatically deploy +1 to +10 calibration success rate and destruction prevention buffs in sequence with interval of ${deployInterval} minutes. the buff train will starting at the next ${time} local time"
+			}
 		},
 		"contributeButton": {
 			"title": {

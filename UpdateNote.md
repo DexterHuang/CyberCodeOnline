@@ -31,6 +31,10 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
+### 0.1833
+
+-   With player suggestions, Cali Train Community funding is added, similar to Party Funds, you can contribute 10% of the Cali Train Community funding with your unit, when the funding reaches 100%, Cali Train will activate in the next UTC 00:00 time, the system will deploy the first +1 calibration at that time, followed by 40 minutes cooldown and then the next one till +10, the buff deployed will consist of exactly the calibration chance needed and a safety buff for 5 minutes for each round.
+
 ### 0.1832
 
 -   Fixed minor UI issue
