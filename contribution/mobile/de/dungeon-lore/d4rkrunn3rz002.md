@@ -1,3 +1,4 @@
+Ein Datenkubus. Es sieht aus wie ein persönliches Aether-Logbuch.
 ***
 20. März 2069, 01:33 Uhr
 
