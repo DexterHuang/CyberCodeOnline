@@ -1,19 +1,19 @@
-#SLPD Interrogation Room Log NO.198  
-  
-#Record Date- *Unspecified*  
-  
->AUDIO ONLY PLAYBACK  
-  
-**Gruff Man's Voice:** I don't appreciate your officers running amok in the streets, Evan.  
-  
-**Evan:** I don't quite understand your complaint here. I AM the police captain.  
-  
-**Gruff Man's Voice:** I know who you are, Evan. I goddamn got you your office. I help you win the election with the department of justice and the Chief of Police.  
-  
-**Evan:** I don't think you quite understand the power structure here. I AM the police and you are a private citizen. I can put whatever charges I want on you and there would be nothing you can do.  
-  
-**Gruff Man's Voice:** Not if me and my Warcouncil has anything to say. Even if I am gone, my son Worzel will take over and see to it that you are thrown out to the street.  
-  
-**Evan:** (Clearly irritated) We will see about that, won't we? I think it's time that you leave the station. This conversation never happened.  
-  
->END OF AUDIO PLAYBACK  
+# SLPD Verhörraumprotokoll Nr. 198
+
+# Aufzeichnungsdatum - *Unspezifiziert*
+
+> NUR AUDIO-WIEDERGABE
+
+**Stimme des Grobian:** Ich schätze es nicht, dass deine Beamten in den Straßen herumtollen, Evan.
+
+**Evan:** Ich verstehe Ihre Beschwerde hier nicht ganz. Ich BIN der Polizeikapitän.
+
+**Stimme des Grobian:** Ich weiß, wer du bist, Evan. Ich habe dir dein Büro verdammtnochmal besorgt. Ich habe dir geholfen, die Wahl mit dem Justizministerium und dem Polizeichef zu gewinnen.
+
+**Evan:** Ich glaube nicht, dass Sie die Machtstruktur hier ganz verstehen. ICH BIN die Polizei, und Sie sind ein Privatbürger. Ich kann Ihnen jede Anklage aufbrummen, die ich möchte, und es gäbe nichts, was Sie dagegen tun könnten.
+
+**Stimme des Grobian:** Nicht, wenn ich und mein Kriegsrat etwas dagegen haben. Selbst wenn ich weg bin, wird mein Sohn Worzel übernehmen und dafür sorgen, dass du auf die Straße geworfen wirst.
+
+**Evan:** (Offensichtlich irritiert) Wir werden sehen, was passiert, nicht wahr? Ich denke, es ist Zeit, dass Sie das Revier verlassen. Dieses Gespräch hat nie stattgefunden.
+
+> ENDE DER AUDIO-WIEDERGABE
