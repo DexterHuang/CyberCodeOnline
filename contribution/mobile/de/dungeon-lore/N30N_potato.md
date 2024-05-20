@@ -1,13 +1,13 @@
-#### N30N C1RCUS: No Tuba For The Tuber
+#### N30N C1RCUS: Keine Tuba für den Tuber
 
-The short figure hurried between shadows, making it's way down to the seedier - if there could be said to be such a thing - end of CCO, where the less expensive warehouses were located. _PotatoMan_ was nervous - not unusual for him really - but in this specific case he'd had to leave town in a hurry when the bottom dropped out of the meds market and he owed a lot of people a lot of money. Not the understanding kind of people either. But there was a stash of AI and hash and he couldn't leave it behind and if he was very careful and very quick - and a little bit lucky - nobody would even know he'd been back.
+Die kleine Gestalt huschte zwischen den Schatten hindurch und machte sich auf den Weg zum heruntergekommeneren - wenn man so sagen kann - Ende von CCO, wo die weniger teuren Lagerhäuser standen. _PotatoMan_ war nervös - was für ihn eigentlich nicht ungewöhnlich war - aber in diesem speziellen Fall musste er die Stadt in Eile verlassen, als der Boden unter dem Medikamentenmarkt weggebrochen war und er vielen Leuten viel Geld schuldete. Keine Leute, die Verständnis hatten. Aber es gab ein Versteck mit AI und Hash, und er konnte es nicht zurücklassen, und wenn er sehr vorsichtig und sehr schnell - und ein wenig glücklich - war, würde niemand wissen, dass er zurückgekommen war.
 
-Down the alley a trashcan lid crashed to the ground, making him jump. Cat probably. He hoped it wasn't one of Kate's. And then his heart fell - on a crate across another cat was self-absorbedly washing itself and looking at him. One of Kate's. Sh*t! He didn't have much time..
+Unten in der Gasse fiel ein Mülltonnendeckel krachend zu Boden, was ihn zusammenzucken ließ. Wahrscheinlich eine Katze. Er hoffte, es war nicht eine von Kates. Und dann sank ihm das Herz - auf einer Kiste gegenüber saß eine Katze, die sich selbstvergessen putzte und ihn ansah. Eine von Kates. Mist! Er hatte nicht viel Zeit...
 
-Darting forward he stepped in something .. **nasty** and involuntarily looked down. So he completely didn't see the very large and extremely heavy crate that dropped accurately out of the evening sky.
+Er sprang vorwärts und trat in etwas ... **ekelhaftes** und schaute unwillkürlich nach unten. Daher sah er die sehr große und extrem schwere Kiste, die präzise aus dem Abendhimmel fiel, überhaupt nicht.
 
-_"Oh, well aimed!"_ said an entirely fake British voice from a nearby rooftop.  
-_"Danken! It is mein expertise, ja?"_ replied a guttural voice from above. And then observed: _"Er ist eine Kartoffelpüree, ja?"_.  
-_"Ha! Ha! Very good! Well, be seeing you!"_, the voice and it's ersatz owner faded into the night.  
+_"Oh, gut gezielt!"_ sagte eine völlig falsche britische Stimme von einem nahegelegenen Dach.  
+_"Danken! Es ist mein Fachgebiet, ja?"_ antwortete eine gutturale Stimme von oben. Und dann bemerkte er: _"Er ist jetzt Kartoffelpüree, ja?"_  
+_"Ha! Ha! Sehr gut! Nun, wir sehen uns!"_, die Stimme und ihr falscher Besitzer verblassten in der Nacht.
 
-Further down the street other shadows moved quietly away - the price on _PotatoMan_ had been .. enticing.
+Weiter unten auf der Straße bewegten sich andere Schatten leise weg - der Preis auf _PotatoMan_ war ... verlockend gewesen.
