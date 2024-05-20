@@ -1,5 +1,5 @@
->Stepping carefully into the room, you spot a pile of something wooden. And a flat board. Not passing up the chance to take a break, you gingerly step towards the pile.  
-  
->You find a wooden board, with some wooden puzzle pieces. A puzzle set left in the middle of nowhere. You wonder if someone was playing with it and left it behind in a hurry. You look at the pieces of the puzzle. One is shaped like the letter "L", another piece is shaped like the letter "t". In total, there are seven different puzzle pieces here. The wooden puzzle board is divided up with faded white lines. It seems the objective of the game is to somehow fit the seven pieces perfectly on the board. You spend a few minutes trying to figure out the puzzle before giving up.  
-  
->You leave the puzzle set on the ground, letting it entrap its next victim, dangling the solution just out of reach.  
+> Vorsichtig betreten Sie den Raum und entdecken einen Haufen aus Holz und ein flaches Brett. Die Gelegenheit für eine Pause lassend, nähern Sie sich behutsam dem Haufen.
+
+> Sie finden ein Holzbrett mit einigen Holzpuzzlestücken. Ein Puzzle-Set, das mitten im Nirgendwo zurückgelassen wurde. Sie fragen sich, ob jemand damit gespielt hat und es dann überstürzt zurückgelassen hat. Sie betrachten die Puzzleteile. Eins ist geformt wie der Buchstabe "L", ein anderes wie der Buchstabe "t". Insgesamt gibt es hier sieben verschiedene Puzzlestücke. Das Holzpuzzlebrett ist durch verblichene weiße Linien unterteilt. Es scheint das Ziel des Spiels zu sein, die sieben Teile perfekt auf dem Brett zu platzieren. Sie verbringen einige Minuten damit, das Puzzle zu lösen, bevor Sie aufgeben.
+
+> Sie lassen das Puzzle-Set auf dem Boden liegen und überlassen es seinem nächsten Opfer, wobei Sie die Lösung nur außer Reichweite baumeln lassen.
