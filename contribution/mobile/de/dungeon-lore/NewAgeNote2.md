@@ -1,10 +1,9 @@
-*[A paper-thin E-pamphlet sits on the ground]*  
-  
-## JOIN THE NEW AGE CHILDREN OF ENLIGHTENMENT TODAY!!  
-  
-*[You open the E-pamphlet and see faded illustrations of a group of robed figures clad in red, black, and grey.]*  
-  
-Join us today! Alone in this new world? Lost your loved ones to the ongoing war, conflict, and corruption? Local law enforcement and government agencies turned a blind eye to the injustice that you have suffered? Join us, and you too can have the tools to teach them the enlightenment they deserve and discover your own journey in the process!  
-  
-*[The rest of the E-pamphlet is unreadable...]*  
+*[Ein hauchdünnes E-Pamphlet liegt auf dem Boden]*
 
+## TRETEN SIE HEUTE DEN NEUEN KINDERN DER ERLEUCHTUNG BEI!!
+
+*[Sie öffnen das E-Pamphlet und sehen verblichene Illustrationen einer Gruppe von in Rot, Schwarz und Grau gekleideten Vermummten.]*
+
+Treten Sie uns noch heute bei! Allein in dieser neuen Welt? Haben Sie Ihre Liebsten im anhaltenden Krieg, Konflikt und der Korruption verloren? Haben lokale Strafverfolgungsbehörden und Regierungsagenturen das Unrecht, das Sie erlitten haben, ignoriert? Schließen Sie sich uns an, und auch Sie können die Werkzeuge haben, um ihnen die Erleuchtung zu bringen, die sie verdienen, und auf diesem Weg Ihre eigene Reise zu entdecken!
+
+*[Der Rest des E-Pamphlets ist unleserlich...]* 
