@@ -1,12 +1,12 @@
-> You see something glittering on the floor and pick up a data cube and it automatically starts playing:  
+> Sie sehen etwas Glitzerndes auf dem Boden und nehmen einen Datenwürfel auf, der automatisch zu spielen beginnt:
 
-"The [unintelligible] are coming for you, but listen, your life could depend on this:  
-Don't [unintelligible].  
-Don't even [unintelligible]...  
-[unintelligible] and you're dead.  
-They are fast, faster than you can believe. Don't turn your back, [unintelligible] away, and don't unintelligible  
-...  
-...  
-Good luck."  
-  
-> The recording ends there and you still don't quite understand what it was about. You shrug and place it back where you found it, feeling like it was somehow important.  
+"Die [unverständlich] kommen auf dich zu, aber hör zu, dein Leben könnte davon abhängen:
+Tu nicht [unverständlich].
+Tu noch nicht einmal [unverständlich]...
+[unverständlich] und du bist tot.
+Sie sind schnell, schneller als du glauben kannst. Dreh dich nicht um, [unverständlich] weg, und tu nicht unverständlich...
+...
+...
+Viel Glück."
+
+> Die Aufnahme endet hier und Sie verstehen immer noch nicht ganz, worum es ging. Sie zucken mit den Schultern und legen sie zurück, wo Sie sie gefunden haben, das Gefühl, dass sie irgendwie wichtig war.
