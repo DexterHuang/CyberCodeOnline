@@ -1,19 +1,19 @@
-#### N30N C1RCUS: Difficult Conversations
+#### N30N C1RCUS: Schwierige Gespräche
 
-卡倫 was staring silently out the window when Sergei walked into the conference room. This was going to be awkward - another shipment had gone missing yesterday and he had no answers for her.
+卡倫 starrte schweigend aus dem Fenster, als Sergei den Konferenzraum betrat. Das würde unangenehm werden – eine weitere Lieferung war gestern verschwunden und er hatte keine Antworten für sie.
 
-_"Sergei, what the hell is happening in my city?"_ she asked, without turning.
+_"Sergei, was zum Teufel passiert in meiner Stadt?"_ fragte sie, ohne sich umzudrehen.
 
-_"This new group is proving difficult Madame. Their opsec is good. Very good. All we have is a name. SirLemon. Just that, nothing more and it cost us Vlad. He was dropped off a trawler and unfortunately the propeller was turning at the time."_  
+_"Diese neue Gruppe erweist sich als schwierig, Madame. Ihre Opsec ist gut. Sehr gut. Alles, was wir haben, ist ein Name. SirLemon. Nur das, und es hat uns Vlad gekostet. Er wurde von einem Trawler geworfen und leider drehte sich der Propeller gerade."_  
 
-_"We got his foot back this morning"_ he added, gesturing to the carrier bag he had placed on the conference table.
+_"Wir haben heute Morgen seinen Fuß zurückbekommen"_ fügte er hinzu und deutete auf die Tragetasche, die er auf den Konferenztisch gestellt hatte.
 
-She looked at him appraisingly for several moments, considering.
+Sie sah ihn mehrere Momente lang prüfend an und überlegte.
 
-_"He was your ami, oui? Bien! Sergei, I should like to have a talk with this .. Citron person. Perhaps it will be more .. fruitful than the other conversation. The one with Le Escargot."_
+_"Er war dein Freund, oui? Bien! Sergei, ich möchte mit dieser .. Citron-Person sprechen. Vielleicht wird es fruchtbarer sein als das andere Gespräch. Das mit Le Escargot."_
 
-Sergei winced, remembering. That had been a **very** expensive conversation! They'd had to replace the entire carpet for one thing. And redecorate.
+Sergei zuckte zusammen und erinnerte sich daran. Das war ein **sehr** teures Gespräch gewesen! Sie hatten den gesamten Teppich ersetzen müssen. Und neu dekorieren.
 
-_"And after the conversation, perhaps you can honour Vlad's memory? Creatively?"_
+_"Und nach dem Gespräch, vielleicht kannst du Vlads Andenken ehren? Kreativ?"_
 
-He **liked** working for 卡倫!
+Er **mochte** es, für 卡倫 zu arbeiten!
