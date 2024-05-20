@@ -1,13 +1,13 @@
->[Looks an old E-file from a security console]  
-  
->[FOOTAGE PLAYBACK]  
-  
-**Blonde-haired woman:** Hey, did you hear about the str33t4ng3ls are holding another charity event to raise money for the orphanage this saturday?  
-  
-**Woman with lipstick:** Oh, ya. It is the third charity drive they organized this month alone. This city has been blessed ever since the str33t4ng3ls formally became a charity organization and they have been all over the news.  
-  
-**Blonde-haired woman:** Maybe we should go and volunteer. Doesn't hurt to give back to the community once in a while. I have a girl-friend that's on the chair committee.  
-  
-**Woman with lipstick:** Definitely give them a call. I know my knitting circle has been trying to volunteer at one of those events. The Str33t4ng3ls always get so many helping hands that they have to turn people away. Who knew there were so many giving souls left in this city.  
-  
->[END OF PLAYBACK]  
+>[Sie sehen eine alte E-Datei von einer Sicherheitskonsole]
+
+>[WIEDERGABE DER AUFNAHME]
+
+**Blondhaarige Frau:** Hey, hast du gehört, dass die str33t4ng3ls diesen Samstag wieder eine Wohltätigkeitsveranstaltung veranstalten, um Geld für das Waisenhaus zu sammeln?
+
+**Frau mit Lippenstift:** Oh ja, das ist bereits die dritte Wohltätigkeitsaktion, die sie allein in diesem Monat organisiert haben. Diese Stadt wurde gesegnet, seit die str33t4ng3ls offiziell eine Wohltätigkeitsorganisation geworden sind, und sie waren ständig in den Nachrichten.
+
+**Blondhaarige Frau:** Vielleicht sollten wir hingehen und uns als Freiwillige melden. Es schadet nicht, der Gemeinschaft ab und zu etwas zurückzugeben. Ich habe eine Freundin, die im Stuhlkomitee ist.
+
+**Frau mit Lippenstift:** Ruf sie auf jeden Fall an. Ich weiß, dass mein Strickkreis versucht hat, bei einer dieser Veranstaltungen Freiwilligenarbeit zu leisten. Die Str33t4ng3ls bekommen immer so viele helfende Hände, dass sie Leute abweisen müssen. Wer hätte gedacht, dass in dieser Stadt noch so viele gebende Seelen übrig sind.
+
+>[ENDE DER WIEDERGABE]
