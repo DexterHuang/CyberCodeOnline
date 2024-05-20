@@ -1,6 +1,5 @@
->Upon entering the room, a huge shadow cast in the corner of the room makes you wonder what could possibly be over there. Your sense of discovery brings you closer to the object without you realizing it.  
-  
->A metallic box. A weird box with a weird weight to it. You shake it. Clearly something is inside, tumbling around. You take a good look at it with what dim light you could find. A once bright yellow color has long faded to a more muted shade. The "?" symbol etched on the four sides of the box felt smooth now, corroded by the rough ground and wind over a long period of time. You shook the box again, this time with no echo tumbling inside. Out of curiosity, you punch the box. A puff of dust and musty smell greets you rudely.  
-  
->You toss the box back on the ground, wheezing from the dust. You leave it there for someone else to ponder over the enigmatic nature of the box.  
+>Beim Betreten des Raumes wirft ein riesiger Schatten in der Ecke des Raumes die Frage auf, was dort möglicherweise sein könnte. Dein Entdeckergeist bringt dich näher an den Gegenstand heran, ohne dass du es realisierst.
 
+>Ein metallener Kasten. Ein merkwürdiger Kasten mit einem merkwürdigen Gewicht. Du schüttelst ihn. Offensichtlich ist etwas drin, das herumwirbelt. Du betrachtest ihn genauer im schwachen Licht, das du finden konntest. Eine einst strahlend gelbe Farbe ist längst zu einem gedämpfteren Farbton verblasst. Das "?"-Symbol, das auf den vier Seiten des Kastens eingraviert ist, fühlt sich jetzt glatt an, korrodiert vom rauen Boden und Wind über einen langen Zeitraum. Du schüttelst den Kasten erneut, dieses Mal ohne das Echo von Bewegungen im Inneren. Aus Neugier schlägst du auf den Kasten. Eine Wolke aus Staub und muffigem Geruch begrüßt dich unhöflich.
+
+>Du wirfst den Kasten wieder auf den Boden und keuchst vor Staub. Du lässt ihn dort liegen, damit sich jemand anders über die rätselhafte Natur des Kastens Gedanken machen kann.
