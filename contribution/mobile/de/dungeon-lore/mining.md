@@ -1,11 +1,11 @@
-> [Receiving transmission from "E5R92's BTC mining rig"]
+> [Empfangen einer Übertragung von "E5R92's BTC-Mining-Rig"]
 
-> [Decryption success.]
+> [Entschlüsselung erfolgreich.]
 
-> [Log file detected.]
+> [Protokolldatei erkannt.]
 
-  Starting xmrig.exe
+  Starte xmrig.exe
 
-  Error: config file not found
+  Fehler: Konfigurationsdatei nicht gefunden
 
-> [Log end]
+> [Ende des Protokolls]
