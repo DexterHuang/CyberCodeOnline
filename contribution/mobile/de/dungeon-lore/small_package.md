@@ -1,5 +1,5 @@
-A small crack in the wall caught your eye. When you got closer and examined the gap, you decided to stick your hand in. Groping for a small package, you resolutely took it out and examined it. The package contained a holographic video recording and a small, incomprehensible object.
+Ein kleiner Riss in der Wand fiel dir auf. Als du näher kamst und den Spalt untersuchtest, entschiedst du dich, deine Hand hineinzustecken. Beim Tasten nach einem kleinen Paket zogst du es entschlossen heraus und untersuchtest es. Das Paket enthielt eine holographische Videobotschaft und einen kleinen, unverständlichen Gegenstand.
 
-> Dear, take this artifact to our buyer, he promised a good price for it. Unfortunately, I'm not going home. ~~white noise~~ haunts me. ~~white noise~~ hope for you! Your ~~white noise~~
+> Liebes, bring dieses Artefakt zu unserem Käufer, er hat einen guten Preis dafür versprochen. Leider werde ich nicht nach Hause kommen. ~~weißes Rauschen~~ verfolgt mich. ~~weißes Rauschen~~ Hoffnung für dich! Dein ~~weißes Rauschen~~
 
-Without knowing the name of the person who left it here, you decided to leave the artifact in the place where you found it and continue your journey.
+Ohne den Namen der Person zu kennen, die es hier hinterlassen hat, beschlossst du, das Artefakt an dem Ort zu lassen, an dem du es gefunden hast, und deine Reise fortzusetzen.
