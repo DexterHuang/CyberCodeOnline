@@ -1,6 +1,5 @@
->A small glint in the room catches your eye. You get closer to see what it is.  
-  
->A circular device. Perfectly round, fits in the palm of your hand like a glove. You wonder how this ended up in the middle of nowhere. You look at the ball in your hand. Some kind of button in the middle of the device. You click it. Nothing happens. The button seems to be jammed or something. The device itself is very rusted, with barely a hint of red and white showing. It's lightweight and hollow, almost as if it was meant to transport something. Small, of course. You tossed the ball at the wall to be silly, hoping something would pop out. You were soundly met with disappointment. It fell back on the ground after hitting the wall with a "tink" sound.  
-  
->You leave the ball where it fell. Leaving it for the next person to be met with the same disappointment you found yourself in.  
+> Ein kleiner Glanz im Raum fängt deine Aufmerksamkeit ein. Du kommst näher, um zu sehen, was es ist.
 
+> Ein kreisförmiges Gerät. Perfekt rund, passt wie angegossen in deine Handfläche. Du fragst dich, wie das mitten im Nirgendwo gelandet ist. Du betrachtest die Kugel in deiner Hand. Eine Art Knopf in der Mitte des Geräts. Du drückst ihn. Nichts passiert. Der Knopf scheint verklemmt oder so etwas zu sein. Das Gerät selbst ist sehr verrostet, mit kaum einem Hauch von Rot und Weiß. Es ist leicht und hohl, fast so, als wäre es dazu bestimmt, etwas zu transportieren. Natürlich etwas Kleines. Du hast die Kugel aus Spaß gegen die Wand geworfen, in der Hoffnung, dass etwas herausspringen würde. Du wurdest gründlich enttäuscht. Sie fiel nach einem "Kling" Geräusch auf den Boden zurück.
+
+> Du lässt die Kugel dort liegen, wo sie hingefallen ist. Du überlässt es dem nächsten, mit der gleichen Enttäuschung konfrontiert zu werden, in der du dich befunden hast.
