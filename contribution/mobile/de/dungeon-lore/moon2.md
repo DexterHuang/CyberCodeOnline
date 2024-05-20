@@ -1,4 +1,3 @@
-
 > You find an old device on the floor.
 
 > You try to turn it on and surprisingly it works. You find a message that reads:
