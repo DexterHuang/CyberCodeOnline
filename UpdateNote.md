@@ -31,6 +31,10 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
+### 0.1834
+
+-   Added pet leaderboard, now shows players with oldest pets, only one of your pet can be on the leaderboard, and if your pet dies or is disposed, it will be automatically removed from the leaderboard, revived pet will return to leaderboard but while pet is dead, age will not increase
+
 ### 0.1833
 
 -   With player suggestions, Cali Train Community funding is added, similar to Party Funds, you can contribute 10% of the Cali Train Community funding with your unit, when the funding reaches 100%, Cali Train will activate in the next UTC 00:00 time, the system will deploy the first +1 calibration at that time, followed by 40 minutes cooldown and then the next one till +10, the buff deployed will consist of exactly the calibration chance needed and a safety buff for 5 minutes for each round.
