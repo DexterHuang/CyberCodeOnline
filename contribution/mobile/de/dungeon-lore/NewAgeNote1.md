@@ -1,7 +1,7 @@
-[A digital Record Table flickers slowly in the dark]  
+[Ein digitales Aufzeichnungstableau flackert langsam im Dunkeln]
 
-## NEW AGE CHILDREN OF ENLIGHTENMENT DOCTRINE NO.001  
-  
-"We, Founding members of New Age Children of Enlightenment, do hereby swear ... life as it is given to us. To ... the unknown new world. To end ... that tarnish the bounty of this new age. Those ... suffer no  more and ... duty to see the new light."  
-  
-[The rest of the document data is missing.]
+## NEUES ZEITALTER DER KINDER DER ERLEUCHTUNG DOKTRIN NR.001
+
+"Wir, die Gründungsmitglieder des Neuen Zeitalters der Kinder der Erleuchtung, schwören hiermit ... das Leben, wie es uns gegeben ist. Dem ... unbekannten neuen Welt. Um ... das den Reichtum dieses neuen Zeitalters beschmutzen. Diejenigen ... sollen nicht mehr leiden und ... Pflicht, das neue Licht zu sehen."
+
+[Der Rest der Dokumentendaten fehlt.]

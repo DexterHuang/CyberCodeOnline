@@ -1,13 +1,13 @@
->A datacube. It looks to be a personal aetherlog.
+Ein Datenkubus. Es sieht aus wie ein persönliches Aether-Logbuch.
 ***
-March 20, 2069 1:33AM
+20. März 2069, 01:33 Uhr
 
-*I don't know what to do about blue. I'm not even sure why I feel this way about him...I mean I don't even know his real name. Of course it's safer that way when you go dark. Rule #1: Never give out your guvvy to anyone.*
+*Ich weiß nicht, was ich mit Blue machen soll. Ich bin mir nicht einmal sicher, warum ich so fühle... Ich meine, ich kenne nicht einmal seinen richtigen Namen. Natürlich ist es sicherer, wenn man im Dunkeln bleibt. Regel Nr. 1: Gib niemals deine guvvy an jemanden weiter.*
 
-*So am I just supposed to call him blue for the rest of his life even after we get marr...Wait, what's wrong with me?? I have a crush on a guy I've met in person like one time. And if we're going to be working together, I need to get these thoughts out of my head because you can't afford to be distracted on the job.*
+*Also soll ich ihn für den Rest seines Lebens einfach nur Blue nennen, auch nachdem wir heiraten... Moment mal, was ist los mit mir?? Ich habe einen Schwarm für einen Typen, den ich nur einmal persönlich getroffen habe. Und wenn wir zusammenarbeiten sollen, muss ich diese Gedanken aus meinem Kopf bekommen, denn man kann es sich nicht leisten, bei der Arbeit abgelenkt zu sein.*
 
-*I've only been running dark for a couple years now, but I know enough not to let my feelings get in the way. That's how people get hurt.*
+*Ich bin erst seit ein paar Jahren im Dunkeln unterwegs, aber ich weiß genug, um meine Gefühle nicht im Weg stehen zu lassen. So werden Leute verletzt.*
 
-*Anyway, it's just a crush so I'm sure I'll be over it by next week. But those silver eyes and dark hair are so ethereal...*
+*Wie auch immer, es ist nur ein Schwarm, also bin ich mir sicher, dass ich nächste Woche darüber hinweg sein werde. Aber diese silbernen Augen und dunklen Haare sind so ätherisch...*
 ***
 `<d4rkrunn3rz_002/>`

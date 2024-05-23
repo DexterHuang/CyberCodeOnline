@@ -1,5 +1,5 @@
 ![Pain Away ad](/resources/lore/pain%20away%20ad%20on%20wall.png)
 
-You come across an ad for Pain Away plastered on a nearby wall. Why would Medikama even need to run an ad campaign for Pain Away? The stuff's absolutely ubiquitous. Hell, you've stumbled across a fair number of crates full of Pain Away in just the past few minutes. Although, judging by the hellish wall-to-wall advertising the citizens of Shangri-La are subjected to day in and day out, ads must be absurdly cheap. 
+Du stößt auf eine Anzeige für Pain Away, die an einer nahegelegenen Wand angebracht ist. Warum sollte Medikama überhaupt eine Werbekampagne für Pain Away durchführen? Das Zeug ist absolut allgegenwärtig. Verdammt, du bist gerade in den letzten paar Minuten über eine beträchtliche Anzahl von Kisten voller Pain Away gestolpert. Obwohl, wenn man nach der höllischen Werbung geht, der die Bürger von Shangri-La Tag für Tag ausgesetzt sind, müssen Anzeigen absurd billig sein.
 
-Strange, though, to see a physical ad this far out of the way. Who would even bother coming here to advertise? 
+Seltsam ist es jedoch, eine physische Anzeige so weit abseits des Weges zu sehen. Wer würde sich überhaupt die Mühe machen, hier zu werben?

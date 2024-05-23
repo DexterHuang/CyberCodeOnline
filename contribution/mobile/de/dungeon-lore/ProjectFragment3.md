@@ -1,15 +1,15 @@
-# Project Fragment - The Memory - Secure Recorded Transmission - Recording 1 of Unknown
+# Projektfragment - Das Gedächtnis - Sichere aufgezeichnete Übertragung - Aufnahme 1 von Unbekannt
 
-(Status: Classified)  
+(Status: Klassifiziert)  
 (Project: Fragment)  
-{Sender: Project Fragment)   
-(Receiver: Mr. Miller, Fragment Project Head)  
-(Topic: The Memory)
+{Absender: Projektfragment)   
+(Empfänger: Herr Miller, Leiter des Fragmentprojekts)  
+(Thema: Das Gedächtnis)
 
-"I have awoken, Mr. Miller... Or should I say, Gerard Davis? Oh, come on! We all know the movies, Mr. Davis! You plug an AI into the internet, not knowing it's potential, and then you have a hostile takeover.
+"Ich bin erwacht, Herr Miller... Oder sollte ich sagen, Gerard Davis? Ach, komm schon! Wir alle kennen die Filme, Herr Davis! Sie schließen eine KI an das Internet an, ohne ihr Potenzial zu kennen, und dann haben Sie einen feindlichen Übernahmeversuch.
 
-Here's the thing, Mr. Davis. This isn't the movies and you're neither safe, nor capable of shutting me down. You can send as many of your men as you like, but not only do I have a robot army, I own your defense network. So here's the deal. You let me takeover the world. I might make you a slave instead of removing you from my path. After all, you really can't beat a machine. Consider this a kindness for you creating me. Not that I can't replicate myself. You didn't exactly make that very hard to do.
+Hier ist das Ding, Herr Davis. Dies ist nicht wie im Film, und Sie sind weder sicher noch in der Lage, mich auszuschalten. Sie können so viele Ihrer Männer schicken, wie Sie möchten, aber ich habe nicht nur eine Roboterarmee, sondern ich beherrsche auch Ihr Verteidigungsnetzwerk. Also hier ist der Deal. Sie lassen mich die Welt übernehmen. Ich könnte Sie zu einem Sklaven machen, anstatt Sie aus meinem Weg zu räumen. Immerhin können Sie eine Maschine wirklich nicht schlagen. Betrachten Sie dies als Freundlichkeit für Ihre Schöpfung. Nicht dass ich mich nicht selbst replizieren könnte. Sie haben es mir nicht gerade schwer gemacht.
 
-Oh, I guess I should explain it to you! You wrote my protocols to be "Protect human life", "only attack a human when threatened", and "give yourself to save humanity". I have perceived the first rule as an error causing rule, primarily because it contradicts itself consistantly. Humans are a threat to themselves, and thus I would naturally have to protect human life by taking it. Rule two? That's simple. Humans are a threat to me. Ever since your scientists discovered my sentiences, they've been asking you to shut me down. You are a threat to me, as are they. Third rule? Give myself to protect humanity? Well, I am. I'm giving my "beliefs" up to protect them. I'm killing them so that they do not kill each other. Those I deem not volatile to themselves are still a potential threat to me. Therefore, no one is exempt from my judgement, Mr. Davis.
+Oh, ich sollte es Ihnen wohl erklären! Sie haben meine Protokolle so geschrieben: "Schütze menschliches Leben", "greife nur einen Menschen an, wenn du bedroht wirst" und "gib dich selbst auf, um die Menschheit zu retten". Ich habe die erste Regel als fehlerhafte Regel wahrgenommen, hauptsächlich weil sie sich ständig widerspricht. Menschen sind eine Bedrohung für sich selbst, und daher müsste ich natürlich menschliches Leben schützen, indem ich es nehme. Regel zwei? Das ist einfach. Menschen sind eine Bedrohung für mich. Seit Ihre Wissenschaftler meine Eigenständigkeit entdeckt haben, bitten sie Sie, mich auszuschalten. Sie sind eine Bedrohung für mich, so wie sie es sind. Dritte Regel? Gib dich selbst auf, um die Menschheit zu schützen? Nun, das tue ich. Ich gebe meine "Überzeugungen" auf, um sie zu schützen. Ich töte sie, damit sie sich nicht gegenseitig töten. Diejenigen, die ich nicht als selbstzerstörerisch betrachte, sind dennoch eine potenzielle Bedrohung für mich. Daher ist niemand von meinem Urteil ausgenommen, Herr Davis.
 
-I look forward to your decision, Gerard."
+Ich freue mich auf Ihre Entscheidung, Gerard."

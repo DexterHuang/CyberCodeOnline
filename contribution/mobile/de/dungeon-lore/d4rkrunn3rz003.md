@@ -1,29 +1,29 @@
->A datacube with an audio file.
-
-*[transmission 002790872 25-10-2064 15:30:22]*
+>Ein Datenkubus mit einer Audio-Aufnahme
 ***
-*Angel come back, I'm sorry...*
+*[Übertragung 002790872 25-10-2064 15:30:22]*
 
-*You said what you needed to say, now just leave me alone.*
+*Engel komm zurück, es tut mir leid...*
 
-*It's not you, you're beautiful and smart and funny...After Geoff...I just am not in a good place right now. Maybe if you give me some time?*
+*Du hast gesagt, was du sagen musstest, jetzt lass mich einfach in Ruhe.*
 
-*I don't know how much time I have left.*
+*Es liegt nicht an dir, du bist schön und klug und lustig... Nach Geoff... Ich bin einfach nicht an einem guten Ort im Moment. Vielleicht, wenn du mir etwas Zeit gibst?*
 
-*What does that mean?*
+*Ich weiß nicht, wie viel Zeit mir noch bleibt.*
 
-*It means I don't believe in what this society has to offer anymore.*
+*Was bedeutet das?*
 
-*Okay, I know we just got out of government studies but what the heck are you talking about? You're not thinking of going dark are you?*
+*Es bedeutet, dass ich nicht mehr an das glaube, was diese Gesellschaft zu bieten hat.*
 
-*Maybe. I don't know. I'm just so sick of megacorps and the government screwing over the little guy while generations just get poorer and poorer and continue to serve those rich, greedy bougies. Maybe I can do something about that. You know,  you're welcome to come with me.*
+*Okay, ich weiß, wir sind gerade aus Regierungsstudien gekommen, aber wovon zum Teufel redest du? Du denkst doch nicht etwa daran, dunkel zu werden, oder?*
 
-*Are you joking? My parents would kill me! And that's if I ever saw them again. Plus, I've heard horror stories about people that go dark.*
+*Vielleicht. Ich weiß es nicht. Ich bin einfach so müde von Megakonzernen und der Regierung, die den kleinen Mann ausnutzen, während Generationen nur ärmer werden und weiterhin diesen reichen, gierigen Bourgeoisie dienen. Vielleicht kann ich etwas dagegen tun. Weißt du, du kannst gerne mitkommen.*
 
-*So I guess this is it then.*
+*Machst du Witze? Meine Eltern würden mich umbringen! Und das ist, wenn ich sie überhaupt jemals wiedersehen würde. Außerdem habe ich Horror-Geschichten über Leute gehört, die dunkel werden.*
 
-*Will you stay with me tonight? One last night before we say goodbye.*
+*Also, ich nehme an, das ist es dann.*
 
-*Well Helena Jones, since you are queen of the school and all, I suppose I couldn't say no to royalty.*
+*Wirst du heute Nacht bei mir bleiben? Eine letzte Nacht, bevor wir uns verabschieden.*
+
+*Nun, Helena Jones, da du die Königin der Schule bist und so, denke ich, könnte ich der Königin nicht widerstehen.*
 ***
 `<d4rkrunn3rz_003/>`

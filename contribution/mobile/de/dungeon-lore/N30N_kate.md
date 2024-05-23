@@ -1,9 +1,9 @@
-#### N30N C1RCUS: Cat Lady
+#### N30N C1RCUS: Katzenfrau
 
-_"I guess that's as good as it gets"_ _Celes_ said to the cat purring sleepily on her lap. The plan looked solid - on paper least - and WAP was all briefed and good to go. It was just .. something at the back of her mind, niggling. Maybe it was just that the last op hadn't gone all that well and she didn't know why? The mobs' hadn't been .. surprised enough.
+_"Ich schätze, das ist so gut wie es wird"_ sagte _Celes_ zu der Katze, die schläfrig auf ihrem Schoß schnurrte. Der Plan sah solide aus - zumindest auf dem Papier - und WAP war vollständig instruiert und einsatzbereit. Es war nur... etwas im Hinterkopf nagte an ihr. Vielleicht war es nur, dass der letzte Einsatz nicht so gut gelaufen war und sie nicht wusste, warum? Die Gegner waren nicht... überrascht genug gewesen.
 
-_"Dunno kitty cat, maybe I'm just imagining things?"_. _"And starting to talk to cats too"_ she sighed.
+_"Weiß nicht, Miezekatze, vielleicht bilde ich mir das alles nur ein?"_. _"Und jetzt fange ich auch noch an, mit Katzen zu reden"_ seufzte sie.
 
-She rubbed her tired eyes and leant back, resisting the need to go over it all again. Just one more time.
+Sie rieb sich die müden Augen und lehnte sich zurück, widerstand dem Bedürfnis, alles noch einmal durchzugehen. Nur ein weiteres Mal.
 
-Sensing that its lap was about to disappear, the cat stood, stretched and then leapt lightly to the floor. Bumped its head against her leg in farewell and stalked to the door, tail waving slightly in warning. It looked back once and then padded away silently. Heading home in the dark of the night. To _Kate_.
+Die Katze, die spürte, dass ihr Schoß gleich verschwinden würde, stand auf, streckte sich und sprang dann leicht auf den Boden. Sie stieß ihren Kopf zur Verabschiedung gegen ihr Bein und schlich zur Tür, der Schwanz schwang leicht in Warnung. Sie sah einmal zurück und schlich dann lautlos davon. Sie ging nach Hause in der Dunkelheit der Nacht. Zu _Kate_.

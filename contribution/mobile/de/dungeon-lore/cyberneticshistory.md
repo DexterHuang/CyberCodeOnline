@@ -1,10 +1,10 @@
-> [You find a chip on the ground. Hooking into it, you hear an 80's style radio voice begin speaking]
+> [Du findest einen Chip auf dem Boden. Als du ihn anschließt, hörst du eine Radio-Stimme im Stil der 80er Jahre sprechen]
 
-"A very brief lesson on the history of Cybernetics, Bionics, and Implants, sponsored by Maikon."
+"Eine sehr kurze Lektion über die Geschichte der Kybernetik, Bionik und Implantate, präsentiert von Maikon."
 
-"Part 1:  
-In the year 2055, Maikon Quantum Semiconductors began producing high-grade Cybernetic Cerebral Enhancement technology for the Japanese military to improve soldier effectiveness in the field. In 2057, Maikon's research division partnered with the military to begin development of AICOREs, advanced AI that would reduce the number of pilots needed for a Mecha Suit from 2 to just 1. AICORE technology rapidly proved useful in a number of ways beyond Mecha Suit piloting - including giving soldiers the ability to gain combat skill proficiency with no prior training. 
+"Teil 1:  
+Im Jahr 2055 begann Maikon Quantum Semiconductors hochwertige Cybernetic Cerebral Enhancement-Technologie für das japanische Militär zu produzieren, um die Effektivität der Soldaten auf dem Feld zu verbessern. Im Jahr 2057 ging die Forschungsabteilung von Maikon eine Partnerschaft mit dem Militär ein, um die Entwicklung von AICOREs voranzutreiben, fortschrittliche KIs, die die Anzahl der Piloten für einen Mecha-Anzug von 2 auf nur 1 reduzieren würden. Die AICORE-Technologie erwies sich schnell als nützlich auf vielerlei Weise jenseits des Mecha-Anzug-Pilotentrainings, darunter die Möglichkeit für Soldaten, Kampffähigkeiten zu erlangen, ohne vorheriges Training absolviert zu haben.
 
-Experiments with bionic limbs began finding new success with the advent of Cerebral Accelerators. This new research, combined with the advantages afforded by AICOREs, proved so effective that by 2062, military special forces and front line infantry were improved to run faster, hit harder, and have 3 times their normal stamina. When the World Government Organization was formed in 2066, they instantly pushed for civilian use of AICOREs and Cerebral Accelerators. By 2068, the WGO approved pop-up Maikon facilities to begin dispensing Maikon Implants at extremely reasonable prices." 
+Experimente mit bionischen Gliedmaßen begannen mit dem Aufkommen von Cerebral Accelerators neue Erfolge zu erzielen. Diese neue Forschung, kombiniert mit den Vorteilen, die AICOREs bieten, war so effektiv, dass bis 2062 spezielle militärische Spezialeinheiten und Frontlinieninfanteristen schneller laufen konnten, härter zuschlagen konnten und die dreifache Ausdauer ihrer normalen Kondition hatten. Als die World Government Organization im Jahr 2066 gegründet wurde, drängten sie sofort auf den zivilen Einsatz von AICOREs und Cerebral Accelerators. Bis 2068 genehmigte die WGO Popup-Einrichtungen von Maikon, um Maikon-Implantate zu äußerst günstigen Preisen zu verteilen." 
 
-![sponsored by Maikon](/resources/lore/sponsoredbymaikon.png)
+![gesponsert von Maikon](/resources/lore/sponsoredbymaikon.png)

@@ -1,9 +1,9 @@
-*[You pull a textbook from a shelf and flip to a random page.]*  
-![World Government: an Introduction](/resources/lore/textbookgov25.png)
+*[Du ziehst ein Lehrbuch aus einem Regal und blätterst auf einer zufälligen Seite.]*  
+![Weltregierung: Eine Einführung](/resources/lore/textbookgov25.png)
 
-# Proponents of the Unified Global Government
-> (Part 2 of 6 WGO Series)
+# Befürworter der Vereinten Weltregierung
+> (Teil 2 von 6 WGO-Serie)
 
-Proponents of world government offer distinct reasons for why it is an ideal or necessary form of political organization. Some are motivated negatively and see world government as the definitive solution to problems in society such as war and the development of weapons of mass destruction, poverty, inequality, financial instability, infectious disease, pandemics, environmental degradation and climate change. More positively, some have advocated world government as a step to prosperity and global cooperation and happiness. A unified global government could implement socialized health care across regions. It could shoulder the economic tasks formerly left to regional trading blocs. It could provide for passportless free and unrestricted movement of people across borders, much as the Schengen Area once did in Europe. 
+Befürworter einer Weltregierung geben unterschiedliche Gründe dafür an, warum sie eine ideale oder notwendige Form der politischen Organisation ist. Einige sind negativ motiviert und sehen die Weltregierung als die endgültige Lösung für Probleme in der Gesellschaft wie Krieg und die Entwicklung von Massenvernichtungswaffen, Armut, Ungleichheit, finanzielle Instabilität, Infektionskrankheiten, Pandemien, Umweltzerstörung und Klimawandel. Positiver betrachtet haben einige die Weltregierung als einen Schritt zu Wohlstand, globaler Zusammenarbeit und Glück befürwortet. Eine vereinte Weltregierung könnte sozialisierte Gesundheitsversorgung über Regionen hinweg einführen. Sie könnte die wirtschaftlichen Aufgaben übernehmen, die früher regionalen Handelsblöcken überlassen wurden. Sie könnte für einen pass- und visumfreien, uneingeschränkten Personenverkehr über Grenzen hinweg sorgen, ähnlich wie es einmal im Schengen-Raum in Europa der Fall war.
 
-Proponents have also differed historically in their views of the form of government that a world state should take. While historically people advocated world government under a single monarch or emperor who would possess supreme authority over all other lesser rulers, current proponents of world government generally still advocate a devolved sovereign state system to move humanity toward pacific world federalism.
+Befürworter haben auch historisch gesehen unterschiedliche Ansichten darüber, welche Form die Regierung eines Weltstaates haben sollte. Während historisch gesehen Menschen eine Weltregierung unter einem einzigen Monarchen oder Kaiser befürworteten, der oberste Autorität über alle anderen geringeren Herrscher besitzen würde, befürworten aktuelle Befürworter einer Weltregierung im Allgemeinen immer noch ein dezentrales souveränes Staatssystem, um die Menschheit hin zu einem friedlichen Weltföderalismus zu bewegen.

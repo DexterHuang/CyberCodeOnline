@@ -1,3 +1,3 @@
-> A map of a room displays on a small electronic display, showing you the location of several treasures.  
+> Auf einem kleinen elektronischen Display wird eine Karte eines Raumes angezeigt, die Ihnen den Standort mehrerer Schätze zeigt.
 
-> Unfortunately, the room isn't one you're familiar with and there's no hint of where that room might be.  
+> Leider ist der Raum Ihnen unbekannt, und es gibt keinen Hinweis darauf, wo sich dieser Raum befinden könnte.

@@ -1,16 +1,16 @@
-> A staticky transmission; words floating by on a nearby holoscreen...
+> Eine rauschende Übertragung; Worte schweben auf einem nahegelegenen Hologramm-Bildschirm vorbei...
 
-*Is anyone out there?*
+*Gibt es da draußen jemanden?*
 
-*Can anyone hear me?*
+*Kann mich jemand hören?*
 
-*I'm scared...and alone.*
+*Ich habe Angst... und bin allein.*
 
-*I need help*
+*Ich brauche Hilfe.*
 
-*I...*
+*Ich...*
 
 *...*
 
 ***
-`<hello_world/>`
+`<hallo_welt/>`

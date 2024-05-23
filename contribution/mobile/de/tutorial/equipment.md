@@ -1,105 +1,105 @@
-# Equipment / Gears
-You can equip an equipment (gear) that you own as long as the gear level that you wish to equip is not higher than your current character level.  
+# Ausrüstung / Gear
+Du kannst eine Ausrüstung (Gear), die du besitzt, ausrüsten, solange das Level der Ausrüstung nicht höher ist als dein aktuelles Charakterlevel.
 
-All equipment (and equipment caches) have rarities, as follows:
-- Trash (Grey)
-- Common (White)
-- High Quality (Green)
-- Rare (Yellow)
-- Legendary (Fuchsia, Deep Pink)
-- Epic (Dark Red)
+Alle Ausrüstungen (und Ausrüstungscaches) haben Seltenheitsstufen:
+- Müll (Grau)
+- Gewöhnlich (Weiß)
+- Hochqualitativ (Grün)
+- Selten (Gelb)
+- Legendär (Rosa)
+- Episch (Rot)
 
-Keep in mind that higher rarities will have better stats and more module upgrade slots, depending on the piece of equipment.  
+Bedenke, dass höhere Seltenheitsstufen bessere Stats und mehr Modul-Upgrade-Slots bieten, abhängig vom Ausrüstungsteil.
 
-## Knowing Your Caches
-Here's a couple of guiding point on how or when to print certain caches:
-> From level 1 to 5, it's recommended to print / use **Trash** caches for your gear set as it's the cheapest one of all
- 
-> From level 5 to 15, it's recommended to print / use **Common** caches for your gear set
+## Die richtigen Caches auswählen
+Hier sind ein paar Richtlinien, wann du welche Caches verwenden solltest:
+> Von Level 1 bis 5 wird empfohlen, **Müll**-Caches für dein Gear zu verwenden, da sie am günstigsten sind.
 
-> From level 15 to 30, it's recommended to print / use **High Quality** caches for your gear set
+> Von Level 5 bis 15 wird empfohlen, **Gewöhnliche**-Caches für dein Gear zu verwenden.
 
-> From level 30 to 50, it's recommended to print / use **Rare** caches for your gear set
+> Von Level 15 bis 30 wird empfohlen, **Hochqualitative**-Caches für dein Gear zu verwenden.
 
-> From level 50+, it's recommended to print / use **Legendary** caches for your gear set
+> Von Level 30 bis 50 wird empfohlen, **Seltene**-Caches für dein Gear zu verwenden.
 
-> From level 100+, it's recommended to print / use **Epic** caches for your gear set (if a player ever gets the chance to find or buy one, as it's the rarest cache / gear of all)
+> Ab Level 50 wird empfohlen, **Legendäre**-Caches für dein Gear zu verwenden.
 
-Keep in mind that this guidance were only served as a reference rather than enforcing players into managing certain plays. Also, **Gear Quality** reflects the stats on the gear itself perspectively, thus inspecting it's quality is essential for optimal gear stats.
+> Ab Level 100 wird empfohlen, **Epische**-Caches für dein Gear zu verwenden (falls du jemals die Chance hast, eines zu finden oder zu kaufen, da sie die seltensten Caches/Gear überhaupt sind).
 
-## Finding Your Equipment
-You can find both gear and equipment caches in dungeons or when fighting individual enemies (street fights). Once you are level 5, you will be able to use the Player Market to purchase different types of gears, crafting materials and other items.
+Beachte, dass diese Richtlinien nur als Referenz dienen und die Spieler nicht zu bestimmten Spielweisen zwingen sollen. Auch die **Gear-Qualität** spiegelt die Stats der Ausrüstung wider, daher ist es wichtig, ihre Qualität für optimale Stats zu überprüfen.
 
-## Printing Your Equipment
-Caches can be used to print equipment at your current Printing Rank at the Molecular 3D Printer in the City Center. The level of the printed gear will be the same as your Printing Rank, so make sure to keep your Printing Rank at the same level as your player level.
+## Deine Ausrüstung finden
+Du kannst sowohl Gear als auch Ausrüstungscaches in Dungeons oder beim Kampf gegen einzelne Gegner (Straßenkämpfe) finden. Sobald du Level 5 erreicht hast, kannst du den Spielermarkt nutzen, um verschiedene Arten von Gear, Crafting-Materialien und andere Gegenstände zu kaufen.
 
-## Upgrade Modules
-You can attach **Upgrade Modules** onto your equipment. In order to equip the module, the module level cannot be higher than the equipment's level (For example: you can't attach a level 20 upgrade module onto level 5 primary weapon).  
+## Deine Ausrüstung drucken
+Caches können verwendet werden, um Ausrüstung in deinem aktuellen Druckrang am Molekularen 3D-Drucker im Stadtzentrum zu drucken. Das Level des gedruckten Gears entspricht deinem Druckrang, also stelle sicher, dass dein Druckrang dem Spielerlevel entspricht.
 
-Upgrade modules can be removed at any time. Removed upgrade modules will take space in your inventory (it has a same unique inventory treatment as gear / equipment). Make sure you have enough space in your inventory before removing any upgrades.  
+## Upgrade-Module
+Du kannst **Upgrade-Module** an deiner Ausrüstung anbringen. Um ein Modul anzubringen, darf das Modul-Level nicht höher sein als das Ausrüstungs-Level (zum Beispiel: Du kannst kein Level-20-Upgrade-Modul an einer Level-5-Primärwaffe anbringen).
 
-If your inventory is getting cluttered with upgrade modules that you can't rid of, you can always store unused module into your Bank Item Storage. 
+Upgrade-Module können jederzeit entfernt werden. Entfernte Upgrade-Module nehmen Platz im Inventar ein (sie haben die gleiche Inventarbehandlung wie Gear/Ausrüstung). Stelle sicher, dass du genügend Platz im Inventar hast, bevor du Upgrades entfernst.
 
-It is advisable to remove the upgrade module before scrapping your unused gear as scrapping a piece of gear with module in it will only accounts as a module deletion. Always keep an eye on which item that you'll scrap as it's not recoverable.  
+Wenn dein Inventar mit Upgrade-Modulen überladen ist, die du nicht loswerden kannst, kannst du ungenutzte Module immer in deinem Banklager verstauen.
 
-## Upgrade Slots
-Each equipment has a dedicated **Upgrade Slots** depending on it's rarity and quality, which can be summarized as follows:
+Es ist ratsam, das Upgrade-Modul zu entfernen, bevor du ungenutztes Gear verschrottest, da das Verschrotten eines Gears mit Modul nur als Modul-Löschung gilt. Behalte immer im Auge, welches Item du verschrottest, da es nicht wiederherstellbar ist.
 
-#### Primary Weapon
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 to 3 Slots
- - Rare: 3 Slots
- - Legendary: 3 Slots
- - Epic: 4 Slots
+## Upgrade-Slots
+Jede Ausrüstung hat je nach Seltenheit und Qualität dedizierte **Upgrade-Slots**, die wie folgt zusammengefasst werden können:
 
-#### Special Weapon
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 Slots
- - Rare: 2 Slots
- - Legendary: 2 Slots
- - Epic: 3 Slots
+#### Primärwaffe
+- Müll: 0 bis 1 Slot
+- Gewöhnlich: 1 bis 2 Slots
+- Hochqualitativ: 2 bis 3 Slots
+- Selten: 3 Slots
+- Legendär: 3 Slots
+- Episch: 4 Slots
 
-#### Destructive Weapon
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 Slots
- - Rare: 2 Slots
- - Legendary: 2 Slots
- - Epic: 3 Slots
+#### Spezialwaffe
+- Müll: 0 bis 1 Slot
+- Gewöhnlich: 1 bis 2 Slots
+- Hochqualitativ: 2 Slots
+- Selten: 2 Slots
+- Legendär: 2 Slots
+- Episch: 3 Slots
 
-#### Helmet
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 Slots
- - Rare: 2 Slots
- - Legendary: 2 Slots
- - Epic: 3 Slots
+#### Zerstörungswaffe
+- Müll: 0 bis 1 Slot
+- Gewöhnlich: 1 bis 2 Slots
+- Hochqualitativ: 2 Slots
+- Selten: 2 Slots
+- Legendär: 2 Slots
+- Episch: 3 Slots
 
-#### Upper Armor
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 to 3 Slots
- - Rare: 3 to 4 Slots
- - Legendary: 4 Slots
- - Epic: 5 Slots
+#### Helm
+- Müll: 0 bis 1 Slot
+- Gewöhnlich: 1 bis 2 Slots
+- Hochqualitativ: 2 Slots
+- Selten: 2 Slots
+- Legendär: 2 Slots
+- Episch: 3 Slots
 
-#### Lower Armor
- - Trash: 0 to 1 Slots
- - Common: 1 Slot
- - High Quality: 2 Slots
- - Rare: 3 Slots
- - Legendary: 3 Slots
- - Epic: 4 Slots
+#### Oberkörper-Rüstung
+- Müll: 0 bis 1 Slot
+- Gewöhnlich: 1 bis 2 Slots
+- Hochqualitativ: 2 bis 3 Slots
+- Selten: 3 bis 4 Slots
+- Legendär: 4 Slots
+- Episch: 5 Slots
 
-#### Boots
- - Trash: 0 to 1 Slots
- - Common: 1 Slot
- - High Quality: 2 Slots
- - Rare: 2 Slots
- - Legendary: 2 Slots
- - Epic: 3 Slots
+#### Unterkörper-Rüstung
+- Müll: 0 bis 1 Slot
+- Gewöhnlich: 1 Slot
+- Hochqualitativ: 2 Slots
+- Selten: 3 Slots
+- Legendär: 3 Slots
+- Episch: 4 Slots
 
-## Other Items
-Explanation about other inventory such as parts and consumables, can be found on both [Inventory](https://cybercodeonline.com/markdown?path=tutorial%2Finventory.md) and [Resource's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md)
+#### Stiefel
+- Müll: 0 bis 1 Slot
+- Gewöhnlich: 1 Slot
+- Hochqualitativ: 2 Slots
+- Selten: 2 Slots
+- Legendär: 2 Slots
+- Episch: 3 Slots
+
+## Andere Gegenstände
+Erklärungen zu anderen Inventargegenständen wie Teile und Verbrauchsmaterialien findest du sowohl im [Inventar](https://cybercodeonline.com/markdown?path=tutorial%2Finventory.md) als auch im [Ressourcen-Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md).

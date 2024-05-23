@@ -1,5 +1,5 @@
->Slightly cold from the dungeon, you try to find something to set on fire in an attempt to get warmed up. A sound looking board catches your attention.  
-  
->You find a lone moldy wooden board in the middle of the room. It's not attached to anything, not to a post, or a skeleton. You walk up to it and pick it up. Moss and mildew covered the eroded board, with some faint writing: "Looking to buy GF, 100000G". You are not sure what it meant, or what it could possibly be referencing. You look around the wooden board. You find a cape with a symbol of what looks like a tree. You wonder why anyone would want to wear a cape with a tree on it for any reason.  
-  
->You leave the wooden board and the cape where you found them. Maybe the next person can figure out what connection these two objects have.  
+>Etwas unterkühlt aus dem Dungeon, versuchst du etwas zu finden, um Feuer zu machen, um dich aufzuwärmen. Ein klingendes Brett fängt deine Aufmerksamkeit ein.
+
+>Du findest ein einsames, verschimmeltes Holzbrett mitten im Raum. Es ist an nichts befestigt, weder an einem Pfosten noch an einem Skelett. Du gehst darauf zu und hebst es auf. Moos und Schimmel bedecken das erodierte Brett, mit einigen schwachen Schriftzügen: "Auf der Suche nach einer Freundin, 100000G". Du bist dir nicht sicher, was es bedeutet oder worauf es sich beziehen könnte. Du siehst dich um das Holzbrett herum um. Du findest einen Umhang mit einem Symbol, das wie ein Baum aussieht. Du fragst dich, warum jemand einen Umhang mit einem Baum darauf tragen wollen würde.
+
+>Du lässt das Holzbrett und den Umhang dort, wo du sie gefunden hast. Vielleicht kann die nächste Person herausfinden, welche Verbindung diese beiden Gegenstände haben.

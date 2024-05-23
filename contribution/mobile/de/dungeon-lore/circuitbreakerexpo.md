@@ -1,13 +1,13 @@
-*[It's a crumpled flyer for the 2077 Circuitbreaker Expo.]*  
+*[Es ist ein zerknittertes Flugblatt für die Circuitbreaker Expo 2077.]*  
 
 ![Circuitbreaker Expo](/resources/lore/circuitbreaker.png)
 
-**VENDOR ANNOUNCEMENT:** Asimov Automata and PKDroid will both be joining this year's lineup!  
-![Asimov and PKD](/resources/lore/asimovpkd.png)
+**ANBIETERANKÜNDIGUNG:** Asimov Automata und PKDroid werden beide Teil des diesjährigen Line-ups sein!  
+![Asimov und PKD](/resources/lore/asimovpkd.png)
 
-These tech giants both gained a foothold in the industry with their purpose-built SAMEK housings. They've both since branched out to a multitude of other designs and products, and their latest offerings will be on display at their booths in the main hall. But we'll also be seeing them both return to their roots... *on the SAMEK Strip!*
+Diese Technikriesen haben beide mit ihren speziell entwickelten SAMEK-Gehäusen in der Branche Fuß gefasst. Seitdem haben sie sich beide auf eine Vielzahl anderer Designs und Produkte ausgedehnt, und ihre neuesten Angebote werden an ihren Ständen im Hauptsaal ausgestellt sein. Aber wir werden sie auch beide zu ihren Wurzeln zurückkehren sehen... *auf dem SAMEK Strip!*
 
-## ***The SAMEK Strip returns!***
-You read that right - we're bringing back the SAMEK Strip! You'll be able to grab a drink and watch demonstrations by a variety of SAMEK units, from Asimov and PKD's newest models to some of this sector's scrappiest repurposed and custom-built models from our featured hobbyists! Hang around a bit longer, and you can even catch one of the head-to-head mixology battles (schedule TBA)!
+## ***Der SAMEK Strip kehrt zurück!***
+Du hast richtig gelesen - wir bringen den SAMEK Strip zurück! Du kannst einen Drink schnappen und Vorführungen von einer Vielzahl von SAMEK-Einheiten sehen, von den neuesten Modellen von Asimov und PKD bis hin zu einigen der kämpferischsten umgebauten und individuell gefertigten Modellen unserer ausgewählten Hobbyisten! Bleib noch ein bisschen länger, und du kannst sogar einen der Kopf-an-Kopf-Mixologiewettbewerbe (Zeitplan folgt) miterleben!
 
-You don't want to miss this!
+Das darfst du nicht verpassen!
