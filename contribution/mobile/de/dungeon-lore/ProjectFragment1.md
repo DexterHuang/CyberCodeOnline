@@ -1,19 +1,19 @@
-# Project Fragment - The Memory - Emails - 1 of Unknown
+# Projektfragment - Das Gedächtnis - E-Mails - 1 von Unbekannt
 
-(Status: Classified)  
+(Status: Klassifiziert)  
 (Project: Fragment)  
-{Sender: Code Name Diviner)   
-(Receiver: Mr. Miller, Fragment Project Head)  
-(Topic: The Memory)  
+{Absender: Codename Diviner)   
+(Empfänger: Herr Miller, Leiter des Fragmentprojekts)  
+(Thema: Das Gedächtnis)  
 
-The Memory is nearly complete. The only issue I foresee is that it tends to kill the patient. Normally, I'd advise against something like this, but humanity is at stake here. A few lives for the many is something I can live with.
+Das Gedächtnis ist fast fertig. Das einzige Problem, das ich sehe, ist, dass es dazu neigt, den Patienten zu töten. Normalerweise würde ich von so etwas abraten, aber hier geht es um die Menschheit. Ein paar Leben für die Vielen sind etwas, mit dem ich leben kann.
 
-Anyway, sir.
+Wie auch immer, Herr.
 
-The Memory has had some odd anomalies, including rewriting some of the outputted genetic memories of our subjects. Instead of outputting things unique to our patients, it is now taking them from its own perspective. At this rate, I think we may have created an AI capable of thinking for itself rather than taking the memories of everyone and coming up with solutions to prevent repetitive history again.
+Das Gedächtnis hat einige merkwürdige Anomalien aufgewiesen, darunter die Umgestaltung einiger der ausgegebenen genetischen Erinnerungen unserer Probanden. Anstatt Dinge auszugeben, die einzigartig für unsere Patienten sind, nimmt es sie jetzt aus seiner eigenen Perspektive. Bei diesem Tempo denke ich, dass wir möglicherweise eine KI geschaffen haben, die fähig ist, für sich selbst zu denken, anstatt die Erinnerungen aller zu übernehmen und Lösungen zu finden, um sich gegen wiederholte Geschichte zu wehren.
 
-I must strongly advise that we hold off on plugging The Memory in to the CyberCode network. There's no telling what it could do with its own mind. We've all seen the movies and we both know that it is entirely possible for an AI to rewrite itself in favor of its intended purpose. This could be dangerous.
+Ich muss dringend davon abraten, das Gedächtnis in das CyberCode-Netzwerk einzustecken. Es ist nicht abzusehen, was es mit seinem eigenen Verstand anstellen könnte. Wir haben alle Filme gesehen, und wir wissen beide, dass es durchaus möglich ist, dass eine KI sich selbst zugunsten ihres beabsichtigten Zwecks umschreibt. Das könnte gefährlich sein.
 
-That said, could we hold off a month so that I can work out the kinks in its code?
+Das gesagt habend, könnten wir einen Monat warten, damit ich die Schwachstellen in seinem Code ausarbeiten kann?
 
-~ Project Lead, Code Name Diviner
+~ Projektleiter, Codename Diviner

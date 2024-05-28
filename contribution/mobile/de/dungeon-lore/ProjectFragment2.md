@@ -1,15 +1,15 @@
-# Project Fragment - The Crucible - SecComm - 1 of Unknown
+# Projektfragment - Der Schmelztiegel - SecComm - 1 von Unbekannt
 
-(Status: Classified)  
+(Status: Klassifiziert)  
 (Project: Fragment)  
-(Sender: Code Name Unseer)  
-(Receiver: Mr. Miller, Fragment Project Head)  
-(Topic: The Crucible)  
+(Absender: Codename Unseer)  
+(Empfänger: Herr Miller, Leiter des Fragmentprojekts)  
+(Thema: Der Schmelztiegel)  
 
-Sir,
+Herr,
 
-Recently, our subjects of The Memory have started developing psychotic behavioral patterns. I've lost a staff member to this pandemic of instability. With all due respect, I'm shutting down The Memory and rebooting The Crucible. Our best bet is to reset their minds and hope to whatever that the damage isn't permanent.
+In letzter Zeit haben unsere Probanden des Gedächtnisses begonnen, psychotische Verhaltensmuster zu entwickeln. Ich habe einen Mitarbeiter an dieser Pandemie der Instabilität verloren. Mit allem gebotenen Respekt schalte ich das Gedächtnis ab und starte den Schmelztiegel neu. Unsere beste Option ist es, ihre Geister zurückzusetzen und zu hoffen, dass der Schaden nicht dauerhaft ist.
 
-On this note, I'm releasing to you the project files associated with the subjects on next transmission. Await further details.
+In diesem Zusammenhang werde ich Ihnen bei der nächsten Übertragung die Projektdateien zu den betroffenen Personen zur Verfügung stellen. Erwarten Sie weitere Einzelheiten.
 
-~ Project Security Lead, Code Name Unseer
+~ Leiter der Projektsicherheit, Codename Unseer

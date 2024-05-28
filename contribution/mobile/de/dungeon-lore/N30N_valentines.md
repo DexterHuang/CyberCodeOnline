@@ -1,20 +1,20 @@
-#### N30N C1RCUS: Lovin' On The Edge
+#### N30N C1RCUS: Liebe auf dem Abgrund
 
-She led him down the alley and ducked through a hole in the junkyard fence. 
+Sie führte ihn die Gasse hinunter und duckte sich durch ein Loch im Zaun des Schrottplatzes.
 
-*"Uh .. isn't this the Karamazov's place? Don't they have like mutant killer attack dogs?"*  
-*"They're augmented, not mutants!"*
+*"Ähm .. ist das nicht das Haus der Karamasows? Haben die nicht so mutierte Killerhunde?"*  
+*"Sie sind augmentiert, keine Mutanten!"*
 
-She scrambled lithely over the piles of scrap and began to climb the tall derelict crane that loomed skeletally against the evening sky. Stepping out onto the boom he tried not to look down but vertigo kicked in viciously anyway and he gritted his teeth and suppressed a whimper as he followed her out to where she was perched happily on the end.
+Sie kletterte geschickt über die Schrotthaufen und begann, den hohen verlassenen Kran zu erklimmen, der skelettartig gegen den Abendhimmel aufragte. Als er auf den Ausleger trat, versuchte er nicht nach unten zu schauen, aber trotzdem setzte die Höhenangst brutal ein, und er biss die Zähne zusammen und unterdrückte ein Wimmern, als er ihr folgte, die fröhlich am Ende saß.
 
-The setting sun caught her elfin face in profile and it suddenly dawned:
+Die untergehende Sonne fing ihr elfenhaftes Gesicht im Profil ein, und ihm wurde plötzlich klar:
 
-*"Wait a sec .. you're l33t's little sister??"*  
-*"Uh huh"*  
-*"Oh god!! I'm dead!"*  
+*"Warte mal .. du bist l33ts kleine Schwester??"*  
+*"Jep"*  
+*"Oh Gott!! Ich bin tot!"*
 
-She leaned in and murmured:
+Sie lehnte sich vor und murmelte:
 
-*"Mmmmmm! She'll probably give you a 100m running start though. She's nice that way."*
+*"Mmmmmm! Sie wird dir wahrscheinlich einen 100-Meter-Vorsprung geben. Sie ist nett auf diese Weise."*
 
-Then she reached up and kissed him and it felt like the earth moved but really it was just the crane swaying in the breeze.
+Dann streckte sie sich nach oben und küsste ihn, und es fühlte sich an, als würde die Erde beben, aber eigentlich war es nur der Kran, der im Wind schwankte.

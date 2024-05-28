@@ -1,7 +1,7 @@
-*[You pull a textbook from a shelf and flip to a random page.]*  
-![World Government: an Introduction](/resources/lore/textbookgov25.png)
+*[Du ziehst ein Lehrbuch aus einem Regal und blätterst auf einer zufälligen Seite.]*  
+![Weltregierung: Eine Einführung](/resources/lore/textbookgov25.png)
 
-# Shangri-La the Capital of the World
-> (Part 6 of 6 WGO Series)
+# Shangri-La, die Hauptstadt der Welt
+> (Teil 6 von 6 WGO-Serie)
 
-On 23rd June 2068, a couple years after the formation of the World Government Organization (WGO), a global capital was finally chosen. Shangri-La was the city that the WGO chose as their main headquarters and global trade hub. The reasoning for this choice being its proximity to the biggest industrial block in the whole world, The New Republic of China. Ever since Shangri-La was chosen as the global capital, the city has experienced exponential and explosive economic and technological growth. The Shangri-La Commercial Area is well known to be the biggest trade hub in the whole world. Whatever item you seek, if it exists in the whole world, it is sold there. If the item does not exist, someone there will definitely be able to make it for you - for a price, of course.
+Am 23. Juni 2068, ein paar Jahre nach der Gründung der Weltregierungsorganisation (WGO), wurde endlich eine globale Hauptstadt gewählt. Shangri-La war die Stadt, die die WGO als ihren Hauptsitz und globalen Handelsknotenpunkt wählte. Die Wahl fiel auf diese Stadt, weil sie in unmittelbarer Nähe zum größten Industriezentrum der ganzen Welt, der Neuen Republik China, liegt. Seit Shangri-La als globale Hauptstadt gewählt wurde, hat die Stadt ein exponentielles und explosives Wirtschafts- und technologisches Wachstum erlebt. Das Shangri-La Commercial Area ist als der größte Handelsknotenpunkt der ganzen Welt bekannt. Was immer du suchst, wenn es irgendwo auf der Welt existiert, wird es dort verkauft. Wenn das gesuchte Element nicht existiert, wird es dort definitiv jemand für dich herstellen können - natürlich gegen Bezahlung.

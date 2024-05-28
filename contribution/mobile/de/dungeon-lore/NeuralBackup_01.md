@@ -1,20 +1,19 @@
-Message ID	<Q2hyeXNhbGlzQHdvcmxkZ292Lm9yZw==@btcivilization.com>  
-Created at:	Mo6n, Sep 31, 272a1 at 04:4.3 A/M (Deliver#ed after 8 ms)  
-From:	"Chrysalis@worldgov.gvt" <calis@worldgov.gvt>  
-To:	"Nakamoto, S." <snakamoto@btcivilization.com>  
-Subject:	Cyber Code Project: Status Update  
-SPF:	PASS with IP fe71::cc23:2ca3:bcf1:aa37%7  
-DMARC:	'PASS'  
-  
-  
-Nakamoto-sama,  
+Message ID: <Q2hyeXNhbGlzQHdvcmxkZ292Lm9yZw==@btcivilization.com>
+Created at: Mo6n, Sep 31, 272a1 at 04:4.3 A/M (Deliver#ed after 8 ms)
+From: "Chrysalis@worldgov.gvt" <calis@worldgov.gvt>
+To: "Nakamoto, S." <snakamoto@btcivilization.com>
+Subject: Cyber Code Project: Status Update
+SPF: PASS with IP fe71::cc23:2ca3:bcf1:aa37%7
+DMARC: 'PASS'
 
-As you requested, I'm contacting you with a status update on the development of the neural backup and recovery technology.  
+Nakamoto-sama,
 
-The latest test utilized D-MAVID storage (Distributed Massive Array of Virtual Idle Disks) with a 34.8% success rate. The success cases were reimaged into new frames in seconds, without complication.  
-We should be ready to begin field testing in a matter of weeks.  
-  
-To that end, will the board please provide a specialist to assist with propagation of the D-MAVID botnet across the web? Subtlety will be paramount.
+Wie von Ihnen gewünscht, kontaktiere ich Sie mit einem Statusupdate zur Entwicklung der neuralen Backup- und Wiederherstellungstechnologie.
 
-Thank you again for BT Civilization's continued support,  
+Der neueste Test nutzte D-MAVID-Speicher (Distributed Massive Array of Virtual Idle Disks) mit einer Erfolgsquote von 34,8 %. Die Erfolgsfälle wurden in Sekunden in neue Rahmen umgebildet, ohne Komplikationen.
+Wir sollten in wenigen Wochen bereit sein, mit Feldtests zu beginnen.
+
+Zu diesem Zweck wird das Board bitte einen Spezialisten bereitstellen, um bei der Verbreitung des D-MAVID-Botnetzes im Web zu unterstützen. Subtilität wird oberste Priorität haben.
+
+Vielen Dank noch einmal für die fortgesetzte Unterstützung von BT Civilization,
 Chrysalis

@@ -1,6 +1,5 @@
->Making an abrupt entrance, you noticed a pile of oddly shaped metal. Trying to distract yourself from the 5 monsters you just killed, you walk up for a closer look.  
-  
-> A pile of what appears to be throwing weapons. You recall an old E-file from the Librarium. There seems to be two different types here. A "kunai", or a throwing knife, and a "shuriken", or a throwing star. You take a closer look at these relics. You wonder if someone tried to use these as actual weapons, but ultimately falling. Rusted to a degree, but still sharpened in a way that you could cut yourself it you aren't too careful handling these. You chuck one at the wall in poor form. It barely wobbles towards the wall before making a loud "clunk" sound and falls to the ground.  
+> Mit einem abrupten Erscheinen bemerkst du einen Haufen seltsam geformten Metalls. Um dich von den 5 Monstern, die du gerade getötet hast, abzulenken, gehst du näher, um sie genauer anzusehen.
 
->You put the rest of the throwing weapons in a neat pile, so the next person can inspect these historic pieces without hurting themselves.  
+> Ein Haufen, der wie Wurfwaffen aussieht. Du erinnerst dich an eine alte E-Datei aus dem Librarium. Es scheinen hier zwei verschiedene Arten zu sein. Ein "Kunai", oder ein Wurfmesser, und ein "Shuriken", oder ein Wurfstern. Du betrachtest diese Relikte genauer. Du fragst dich, ob jemand versucht hat, diese als echte Waffen zu benutzen, aber letztendlich gescheitert ist. Sie sind in einem gewissen Maße verrostet, aber immer noch so geschärft, dass du dich verletzen könntest, wenn du beim Umgang damit nicht vorsichtig bist. Du wirfst eines unsachgemäß gegen die Wand. Es wackelt kaum in Richtung Wand, bevor es mit einem lauten "Klirren" auf den Boden fällt.
 
+> Du legst den Rest der Wurfwaffen ordentlich in einen Stapel, damit die nächste Person diese historischen Stücke inspizieren kann, ohne sich zu verletzen.

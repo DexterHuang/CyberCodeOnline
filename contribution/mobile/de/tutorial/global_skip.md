@@ -1,62 +1,63 @@
 # Global Skip
 
-**Global Skip** is an in-game feature that allows players to accelerate AFK times up to a certain duration. When a player activates Global Skip, it affects every player that started their AFK task beforehand. As the benefit applies to all AFK players, it adds to the queue system and progresses one by one. It takes 1 ~ 3 minutes for the effects to apply to everyone (it might take even longer depending on how big the queue is).
+**Global Skip** ist ein In-Game-Feature, das Spielern ermöglicht, AFK-Zeiten (Away From Keyboard) bis zu einer bestimmten Dauer zu beschleunigen. Wenn ein Spieler Global Skip aktiviert, wirkt es sich auf alle Spieler aus, die ihre AFK-Aufgabe zuvor gestartet haben. Da der Nutzen allen AFK-Spielern zugutekommt, fügt er sich in das Warteschlangensystem ein und schreitet nacheinander voran. Es dauert 1 bis 3 Minuten, bis die Effekte für alle Spieler wirksam werden (je nach Größe der Warteschlange kann es auch länger dauern).
 
 ![GlobalSkip](/resources/mobile-tutorial/GlobalSkip.png)
 
-To activate Global Skip, players must acquire a premium currency called Units which can only be bought with Real Money. The cost for Global Skip depends on the duration that applies, with an increment of 64 Units for every 15 minutes (for example: if a player wants to do a 30 minute Global Skip, it'll cost them 128 Units on doing so).
+Um Global Skip zu aktivieren, müssen Spieler eine Premium-Währung namens Units erwerben, die nur mit echtem Geld gekauft werden kann. Die Kosten für Global Skip hängen von der anzuwendenden Dauer ab und steigen um 64 Units alle 15 Minuten (zum Beispiel: Wenn ein Spieler einen 30-minütigen Global Skip durchführen möchte, kostet ihn das 128 Units).
 
 ![GlobalSkip2](/resources/mobile-tutorial/GlobalSkip2.png)
 
-Players can do Global Skip for up to 8 hours AFK task, which costs 2048 Units upon purchase. It is advisable to wait for at least 10-30 seconds before applying Global Skip so that other players can gain the benefit at times. Once purchased, no new skips can be purchased until the skip is completed.
+Spieler können Global Skip für bis zu 8 Stunden AFK-Aufgaben durchführen, was beim Kauf 2048 Units kostet. Es wird empfohlen, mindestens 10-30 Sekunden zu warten, bevor Global Skip angewendet wird, damit auch andere Spieler davon profitieren können. Nach dem Kauf kann kein neuer Skip erworben werden, bis der aktuelle Skip abgeschlossen ist.
 
-## Global Skip & Efficiency
+# Global Skip & Effizienz
 
-While doing a sole Global Skip was a thing, players were advised to do a Global Skip while having a certain **Accelerator / Global Buff** that makes the Skip more efficient per cost. In general, the Global Buff itself is as follows:
+Während das alleinige Verwenden von Global Skip eine Option ist, wird Spielern empfohlen, Global Skip in Kombination mit bestimmten **Beschleunigern / Global Buffs** zu nutzen, um die Effizienz pro Kosten zu maximieren. Im Allgemeinen sind die Global Buffs wie folgt:
 
-### Synaptic Acceleration Transmitter
+### Synaptischer Beschleunigungssender
 
 ![GlobalBuff_AFK](/resources/mobile-tutorial/GlobalBuff_AFK.png)
 
-This item will boost how quickly AFK time passes by +5% for 10 minutes, stackable to +80%. Players only need to use one at times to extend the duration of the boost, resetting the timer. To make use of the boost, players need to begin an AFK session while the boost is active. This item affects globally and does not stack with the rare version. Players can only find this item on Dungeon or via Player Trade.
+Dieser Gegenstand erhöht die Geschwindigkeit, mit der AFK-Zeit vergeht, um +5% für 10 Minuten, stapelbar bis zu +80%. Spieler müssen jeweils nur einen verwenden, um die Dauer des Boosts zu verlängern und den Timer zurückzusetzen. Um den Boost zu nutzen, müssen Spieler eine AFK-Sitzung beginnen, während der Boost aktiv ist. Dieser Gegenstand wirkt global und stapelt sich nicht mit der seltenen Version. Spieler können diesen Gegenstand nur in Dungeons finden oder über den Spielermarkt handeln.
 
-### Rare Synaptic Acceleration Transmitter
+### Seltener Synaptischer Beschleunigungssender
 
 ![GlobalBuff_AFK2](/resources/mobile-tutorial/GlobalBuff_AFK2.png)
 
-These are similar to regular **Synaptic Acceleration Transmitters** but don't stack with them. The rare version will instantly boost how quickly AFK time passes by +40% for 20 minutes, stackable to +80%. You only need to use one at times to extend the duration of the boost, resetting the timer. To make use of the boost, you just need to begin an AFK session while the boost is active. You can only find this item on Dungeon or buy one via Arasaka Unit Exchange.
+Diese funktionieren ähnlich wie die normalen **Synaptischen Beschleunigungssender**, stapeln sich jedoch nicht mit ihnen. Die seltene Version erhöht die Geschwindigkeit, mit der AFK-Zeit vergeht, sofort um +40% für 20 Minuten, stapelbar bis zu +80%. Es ist nur ein Gegenstand erforderlich, um die Dauer des Boosts zu verlängern und den Timer zurückzusetzen. Um den Boost zu nutzen, muss lediglich eine AFK-Sitzung begonnen werden, während der Boost aktiv ist. Dieser Gegenstand kann nur in Dungeons gefunden oder über den Arasaka-Einheitentausch erworben werden.
 
 ### Transaction Exploit Transmitter
 
 ![GlobalBuff_BTC](/resources/mobile-tutorial/GlobalBuff_BTC.png)
 
-The **Transaction Exploit Transmitter** is used to boost BitCoin gains and works the same way as the transmitters in that you can use multiple to stack the effect and prolong the timer. Each Transaction Exploit Transmitter will provide a +40% boost to BitCoin gain for 20 minutes. Stacking maxes out at 100%.
+Der **Transaction Exploit Transmitter** wird verwendet, um BitCoin-Gewinne zu steigern und funktioniert ähnlich wie die anderen Transmitter, da Sie mehrere verwenden können, um den Effekt zu stapeln und den Timer zu verlängern. Jeder Transaction Exploit Transmitter bietet einen +40% Boost für BitCoin-Gewinne für 20 Minuten. Das Stapeln erreicht maximal 100%.
 
 ### Frontal Cortex Optimization Transmitter
 
 ![GlobalBuff_EXP](/resources/mobile-tutorial/GlobalBuff_EXP.png)
 
-The **Frontal Cortex Optimization Transmitter** is used to boost EXP gains. Each Frontal Cortex Optimization Transmitter will provide a +80% boost to EXP gain for 20 minutes.
+Der **Frontal Cortex Optimization Transmitter** wird verwendet, um EXP-Gewinne zu steigern. Jeder Frontal Cortex Optimization Transmitter bietet einen +80% Boost für EXP-Gewinne für 20 Minuten.
 
-As for efficiency, players were advised to buy both **Rare Synaptic Acceleration Transmitters** and use both of them before Global Skip applies. This way, players can get more AFK tasks per Global Skip duration than per casual timer.
+### Effizienz steigern
 
-Here's a quick example of it:
+Spielern wird empfohlen, sowohl **Rare Synaptic Acceleration Transmitters** zu kaufen als auch beide zu verwenden, bevor sie Global Skip anwenden. Auf diese Weise können Spieler mehr AFK-Aufgaben pro Global Skip-Dauer erledigen als mit einem normalen Timer.
 
--   If a player applies 2 hour / 120 minutes Global Skip for one task alone, it'll cost them **512 Units**.
--   If a player used both Rare Synaps (costs 64 Units x 2), a 2 hours task now cuts into a 24 minutes task, which allows them to do 30 minutes Global Skip (costs 128 Units) instead. This brings in a total of **256 Units** (and a bonus of 2 more 30 minutes Global Skips with the same previous Units total).
+Ein Beispiel:
+- Wenn ein Spieler einen 2-Stunden / 120-Minuten-Global Skip für eine einzige Aufgabe anwendet, kostet es ihn **512 Einheiten**.
+- Wenn ein Spieler beide Rare Synaps verwendet (kostet 64 Einheiten x 2), wird eine 2-Stunden-Aufgabe auf eine 24-Minuten-Aufgabe reduziert, was es ihm ermöglicht, stattdessen einen 30-Minuten-Global Skip (kostet 128 Einheiten) durchzuführen. Dies ergibt insgesamt **256 Einheiten** (und einen Bonus von 2 weiteren 30-Minuten-Global Skips mit den gleichen vorherigen Gesamteinheiten).
 
-It is optional to use other Global Buff (such as Transaction Exploit or Frontal Cortex) as it accounts as a bonus buff for every player.
+Es ist optional, andere Global Buffs (wie Transaction Exploit oder Frontal Cortex) zu verwenden, da diese als Bonus-Buffs für jeden Spieler zählen.
 
-## Respecting The Skipper
+## Respekt gegenüber dem Skipper
 
-When a Global Skip occurs, the game will tell as for who's the skipper is in a format of a system message on Chat's room. The information itself shows the duration of the skip and the total of a queue for that skip duration.
+Wenn ein Global Skip erfolgt, zeigt das Spiel an, wer der Skipper ist, in Form einer Systemnachricht im Chatraum. Die Informationen zeigen die Dauer des Skips und die Gesamtanzahl der Warteschlange für diese Skip-Dauer an.
 
 ![SkipperRespect](/resources/mobile-tutorial/SkipperRespect.png)
 
-When a skip is initialized, a unique button (represented with a fast forward icon) will appear on the right side of the Chat room, at the top of the "Send" button. The fast forward-like button was referred to as a **Skipper Respect** button. This button alone will only appear during Global Skip and vanish after Global Skip is finished.
+Wenn ein Skip gestartet wird, erscheint eine einzigartige Schaltfläche (dargestellt durch ein Schnellvorlauf-Symbol) auf der rechten Seite des Chatraums, oben auf der "Senden"-Schaltfläche. Diese Schaltfläche wird als **Skipper Respect**-Schaltfläche bezeichnet. Diese Schaltfläche erscheint nur während eines Global Skips und verschwindet, nachdem der Global Skip abgeschlossen ist.
 
 ![SkipperRespect2](/resources/mobile-tutorial/SkipperRespect2.png)
 
-It's been told that whenever a player taps the button (indicated by colored hearts / snowflakes), there's a chance that a player itself will win a prize from it. The prize themselves ranged from Medical Tech, AI Cores, Backpack, and Epic Gear. This activity was referred to as a **Skip Raffle**.
+Es wurde erzählt, dass immer, wenn ein Spieler die Schaltfläche (angezeigt durch farbige Herzen / Schneeflocken) antippt, die Möglichkeit besteht, dass der Spieler selbst einen Preis gewinnt. Die Preise reichen von Medizintechnik, KI-Kernen, Rucksäcken bis hin zu epischer Ausrüstung. Diese Aktivität wird als **Skip Raffle** bezeichnet.
 
-At times, the hearts / snow effects might lag the game (depending on the player's phone specs), resulting in a mixed experience in between. Players can disable the effect (which also prevents them from joining Skip Raffle) by tapping the Phone Icon on either Map or Profile tab and choosing the Settings option.
+Gelegentlich können die Herz- / Schneeeffekte das Spiel verlangsamen (abhängig von den Spezifikationen des Telefons des Spielers), was zu gemischten Erfahrungen führen kann. Spieler können den Effekt deaktivieren (was sie auch daran hindert, an der Skip Raffle teilzunehmen), indem sie auf das Telefonsymbol in der Karten- oder Profilregisterkarte tippen und die Option Einstellungen auswählen.

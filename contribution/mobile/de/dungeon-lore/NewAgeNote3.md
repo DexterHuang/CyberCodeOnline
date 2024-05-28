@@ -1,13 +1,13 @@
-#Entrant Name: [Redacted] Marcochev  
-  
-#Entrant Date: [Redacted]  
-  
-#Entrant Title: [Redacted]  
-  
-#Entrant NDCE Rank: Initiate  
-  
->LOG DETAIL  
-  
->I don't know if I can take anymore of this. At first I thought the New Day Enlightenment thing was great. I came off the street after losing my job and my wife left me. I found one of their E-pamphlets when I was looking at the assignment board at the station. Free room and board, they even give you assignments from their own foundation. It's..... it's only been [redacted] and I am already [redacted] sanity. They are all smiles and [redacted] forgiveness, talking about how everyone has a right to the bounty of the planet, how everyone is equal and have something to offer the Great Father Earth. But [redacted] wrong. I just hope someone out there finds this record before these [redacted] finds it. Please, please, please. If anyone finds this and I am still alive, my name is [Redacted] Marcochev and please send help for me.  
-  
->User has logged off.  
+# Teilnehmername: [Zensiert] Marcochev  
+
+# Teilnahmedatum: [Zensiert]  
+
+# Titel des Teilnehmers: [Zensiert]  
+
+# NDCE-Rang des Teilnehmers: Initiate  
+
+> LOG-EINZELHEIT  
+
+> Ich weiß nicht, ob ich das noch länger ertragen kann. Zuerst dachte ich, diese New Day Enlightenment-Sache sei großartig. Ich kam von der Straße, nachdem ich meinen Job verloren hatte und meine Frau mich verlassen hatte. Ich fand eines ihrer E-Pamphlete, als ich am Bahnhofstafel nachgesehen habe. Kostenlose Unterkunft und Verpflegung, sie geben dir sogar Aufgaben von ihrer eigenen Stiftung. Es ist ... es sind nur [zensiert] und ich verliere bereits [zensiert] meinen Verstand. Sie lächeln alle und [zensiert] Vergebung, reden darüber, wie jeder ein Recht auf den Reichtum des Planeten hat, wie jeder gleich ist und etwas zum Großen Vater Erde beizutragen hat. Aber [zensiert] falsch. Ich hoffe nur, dass jemand da draußen diesen Eintrag findet, bevor diese [zensiert] ihn findet. Bitte, bitte, bitte. Wenn jemand das findet und ich noch lebe, mein Name ist [Zensiert] Marcochev, bitte schickt mir Hilfe.  
+
+> Benutzer hat sich abgemeldet.  

@@ -1,15 +1,15 @@
-> [Receive transmission from Moon Base No.243]  
-> [{Decoding in progress}]  
-> [Data log received]:  
+> [Empfang einer Übertragung von Mondstation Nr. 243]
+> [{Dekodierung läuft}]
+> [Datenprotokoll empfangen]:
 
-"Hello? Is anybody There?"
+"Hallo? Ist da jemand?"
 
-"We haven't received any reply from the other bases and we are not sure why but our test subjects and many electronic utilities started attacking our workers" 
-> [strange noise in background] 
+"Wir haben keine Antwort von den anderen Basen erhalten und wir sind uns nicht sicher, warum, aber unsere Testobjekte und viele elektronische Geräte haben begonnen, unsere Arbeiter anzugreifen."
+> [Seltsames Geräusch im Hintergrund]
 
-"If you receive this message please initiate self-destruction protocol because these creatures can fly and if they reach Earth..."  
-"Tell my wife I am sorry"
+"Wenn Sie diese Nachricht erhalten, initiieren Sie bitte das Selbstzerstörungsprotokoll, denn diese Kreaturen können fliegen und wenn sie die Erde erreichen..."
+"Sagen Sie meiner Frau, es tut mir leid."
 
-> [Message ends]  
-> [Detected seismic activity near Moon Base no.243]  
-> [Log ends]  
+> [Nachricht endet]
+> [Seismische Aktivität in der Nähe von Mondstation Nr. 243 erkannt]
+> [Protokoll endet]

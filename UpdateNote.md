@@ -31,9 +31,17 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
+### 0.1834
+
+-   Added pet leaderboard, now shows players with oldest pets, only one of your pet can be on the leaderboard, and if your pet dies or is disposed, it will be automatically removed from the leaderboard, revived pet will return to leaderboard but while pet is dead, age will not increase
+
 ### 0.1833
 
 -   With player suggestions, Cali Train Community funding is added, similar to Party Funds, you can contribute 10% of the Cali Train Community funding with your unit, when the funding reaches 100%, Cali Train will activate in the next UTC 00:00 time, the system will deploy the first +1 calibration at that time, followed by 40 minutes cooldown and then the next one till +10, the buff deployed will consist of exactly the calibration chance needed and a safety buff for 5 minutes for each round.
+
+![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/0df4d15b-9cc4-4c6c-830f-225f019b0cc8)
+-   Updated Kamiko, Violet, and Jen's image to align with current art style
+-   Updated chat UI to show current community goal status, skip count will show up only when a skip is in progress
 
 ### 0.1832
 

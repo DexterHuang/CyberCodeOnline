@@ -1,13 +1,13 @@
-﻿`[Part 3 of 4]`
+`[Teil 3 von 4]`
 
-`SURVELLANCE FOOTAGE ACCESSED; REPLAYING DATA FROM JULY 7TH, 2076, AT 2:01:04 AM`
+`ÜBERWACHUNGSVIDEO ZUGRIFFEN; WIEDERGABE VON DATEN VOM 7. JULI 2076, UM 02:01:04 UHR`
 
-The footage shows an empty, gray room, with only a table, two chairs, and a door across from Sam, who is sitting in one of the chairs, hand-cuffed. A moment later, and the door opens to reveal what seems to be a well-dressed young lady. She walks over to the empty chair, and takes a seat. Sam looks absolutely destroyed, his face red, and his eyes baggy. The woman sits for a minute, before finally opening, "We know what happened. We only want to know if you'd be willing to participate."
+Die Aufnahme zeigt einen leeren, grauen Raum, mit nur einem Tisch, zwei Stühlen und einer Tür gegenüber von Sam, der in einem der Stühle sitzt, gefesselt. Einen Moment später öffnet sich die Tür und eine gut gekleidete junge Dame tritt ein. Sie geht zum leeren Stuhl und setzt sich. Sam sieht völlig zerstört aus, sein Gesicht rot und seine Augen geschwollen. Die Frau sitzt eine Minute lang, bevor sie schließlich sagt: "Wir wissen, was passiert ist. Wir wollen nur wissen, ob Sie bereit wären, teilzunehmen."
 
-Sam doesn't respond. He's still very clearly broken, and has noticeable bruises on his body. After a moment, he finally murmurs, "Participate in what...?" The woman, completely unfazed by his situation, quickly responds, "The Blitzers. We know they're killing innocent people, but we don't have the evidence to arrest them. You, however, may be innocent, but you attempted to cheat on your significant other, Jessica Honely, and this is the price you're paying. And we're presenting you with an opportunity. Sacrifice yourself, and bring the Blitzer's chaos to light. Or, die like the rest of their victims."
+Sam antwortet nicht. Er ist immer noch deutlich gebrochen und hat auffällige blaue Flecken am Körper. Nach einem Moment murmelt er schließlich: "Teilnehmen woran...?" Die Frau, völlig unbeeindruckt von seiner Situation, antwortet schnell: "Den Blitzers. Wir wissen, dass sie unschuldige Menschen töten, aber wir haben nicht genug Beweise, um sie zu verhaften. Sie hingegen mögen unschuldig sein, aber Sie haben versucht, Ihre Partnerin Jessica Honely zu betrügen, und das ist der Preis, den Sie zahlen. Und wir bieten Ihnen eine Möglichkeit. Opfern Sie sich selbst und bringen Sie das Chaos der Blitzers ans Licht. Oder sterben Sie wie die anderen Opfer."
 
-Sam lays his head on the table. The room is quiet for a few minutes. Sam finally lifts his head back up, his face still red, and his eyes watery. He quietly mumbles, "What kind of cops are you..."
+Sam legt seinen Kopf auf den Tisch. Der Raum ist einige Minuten lang ruhig. Schließlich hebt Sam seinen Kopf wieder, sein Gesicht immer noch rot und seine Augen tränenreich. Er murmelt leise: "Was für Polizisten seid ihr..."
 
-The woman leans back in her chair. "We're worse than the cops."
+Die Frau lehnt sich in ihrem Stuhl zurück. "Wir sind schlimmer als die Polizei."
 
-`SURVELLANCE FOOTAGE CORRUPTED; HALTING PLAYBACK.`
+`ÜBERWACHUNGSVIDEO BESCHÄDIGT; WIEDERGABE ANGEHALTEN.`

@@ -1,16 +1,15 @@
-﻿`[Part 1 of 4]`
+`[Teil 1 von 4]`
 
-`J0K3RM4N [11:42 PM]: hey man, you on?
-danny77g [11:45 PM]: yea whats up
-J0K3RM4N [11:45 PM]: i got a problem, and i really need your help
-danny77g [11:46 PM]: problem? i got u man, wat u need
-J0K3RM4N [11:48 PM]: so, i'm at that bar we went to, like, few nights ago, the old timer? i was just drinking, right? there's this girl, keeps glancing at me, i think she might be interested in me, i go over to chat, and we hit it off, we sleep together, and then i wake up to find her gone. and the worst part??
-danny77g [11:49 PM]: oh god, wat happend
-J0K3RM4N [11:50 PM]: i find all my shit's been rummaged through, and a note on the door saying "you're fucked" in the same fucking writing the blitzers use with their victims
-danny77g [11:51 PM]: sam, listen to me, watever u do, dont go outside, dont go anywere and stay put, if u here knocking on ur door, dont open it
-J0K3RM4N [11:52 PM]: but what if it's the police? or maybe jessica??
-danny77g [11:54 PM]: its not gonna be either of them, trust me
-J0K3RM4N [11:55 PM]: okay, i trust you. im gonna stay put. im gonna barricade my shit too, and you'll get help for me, right?
-J0K3RM4N [12:01 PM]: dan?? you're gonna help, right???
-J0K3RM4N [12:21 PM]: i'm so screwed, man`
-
+`**J0K3RM4N [23:42]:** Hey Mann, bist du da?  
+**danny77g [23:45]:** Ja, was gibt's?  
+**J0K3RM4N [23:45]:** Ich habe ein Problem und ich brauche wirklich deine Hilfe.  
+**danny77g [23:46]:** Problem? Ich bin für dich da, was brauchst du?  
+**J0K3RM4N [23:48]:** Also, ich bin in dieser Bar, in der wir vor ein paar Nächten waren, die Old Timer? Ich habe nur getrunken, richtig? Da ist dieses Mädchen, das mich die ganze Zeit anschaut, ich denke, sie könnte an mir interessiert sein. Ich gehe rüber, um zu plaudern, und wir verstehen uns gut, wir schlafen miteinander, und dann wache ich auf und finde sie weg. Und das Schlimmste?  
+**danny77g [23:49]:** Oh Gott, was ist passiert?  
+**J0K3RM4N [23:50]:** Ich finde, dass all meine Sachen durchwühlt wurden, und ein Zettel an der Tür sagt "Du bist erledigt" in der gleichen verdammten Schrift, die die Blitzers bei ihren Opfern benutzen.  
+**danny77g [23:51]:** Sam, hör mir zu, egal was du tust, geh nicht nach draußen, geh nirgendwohin und bleib ruhig, wenn du Klopfen an deiner Tür hörst, öffne sie nicht.  
+**J0K3RM4N [23:52]:** Aber was ist, wenn es die Polizei ist? Oder vielleicht Jessica??  
+**danny77g [23:54]:** Es wird weder das eine noch das andere sein, vertrau mir.  
+**J0K3RM4N [23:55]:** Okay, ich vertraue dir. Ich werde hier bleiben. Ich werde auch meine Sachen verbarrikadieren, und du wirst Hilfe für mich holen, oder?  
+**J0K3RM4N [00:01]:** Dan?? Du wirst helfen, oder???  
+**J0K3RM4N [00:21]:** Ich bin so im Eimer, Mann`

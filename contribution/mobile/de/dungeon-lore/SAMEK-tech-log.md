@@ -1,18 +1,18 @@
-*[You find a yellowing printout.]*
+*[Du findest einen vergilbten Ausdruck.]*
 
-## Technician's Log
-**Report prepared by:**  
+## Techniker-Logbuch
+**Bericht erstellt von:**  
 Octanu Ullito
 
-**Location serviced:**  
-The Broken Link, New Port City 
+**Dienstort:**  
+The Broken Link, New Port City
 
-**Services rendered:**    
-Recalibration of SAMEK unit, firmware updates, enabled force-update 
+**Erbrachte Dienstleistungen:**  
+Rekalibrierung der SAMEK-Einheit, Firmware-Updates, Aktivierung des Force-Update
 
-**Detailed description:**    
-Folks over in New Port skimped on the service fees & hadn't had their SAMEK in for routine maintenance, or installed any of the firmware patches, since... seems since the bar's been in operation. 
+**Detaillierte Beschreibung:**  
+Die Leute in New Port haben an den Servicegebühren gespart und hatten ihren SAMEK nicht zur Routine-Wartung gebracht oder irgendwelche der Firmware-Patches installiert, seit... anscheinend seit der Bar in Betrieb ist.
 
-Their SAMEK is housed in a repurposed surgical droid that went haywire. Seems patron ordered a Penicillin (they're pretty good, actually, honey and ginger and scotch... could use one right about now) which tripped some residual medical programming in the housing. Droid started trying to perform surgery on nearby patrons while the SAMEK AI gleefully announced it was inventing a cocktail with never-before-used ingredients. Wouldn't have been an issue if they'd have downloaded the firmware updates, we patched this issue ages ago.
+Ihr SAMEK ist in einem umfunktionierten Chirurgiedroiden untergebracht, der verrückt wurde. Es scheint, als hätte ein Gast einen Penicillin bestellt (sie sind eigentlich ziemlich gut, Honig und Ingwer und Scotch... könnte jetzt einen gebrauchen), was einige residuale medizinische Programmierung im Gehäuse ausgelöst hat. Der Droid begann, versuchte, bei nahegelegenen Gästen eine Operation durchzuführen, während die SAMEK-KI freudig verkündete, dass sie einen Cocktail mit noch nie zuvor verwendeten Zutaten erfindet. Es wäre kein Problem gewesen, wenn sie die Firmware-Updates heruntergeladen hätten. Wir haben dieses Problem vor Ewigkeiten behoben.
 
-Fortunately, no injuries. Gave the unit a thorough inspection and stayed there while firmware updates installed. Enabled force-update override as, in my personal assessment, the operators of The Broken Link have no interest in maintaining their SAMEK.
+Glücklicherweise keine Verletzungen. Habe die Einheit gründlich inspiziert und dort gewartet, während die Firmware-Updates installiert wurden. Aktivierte den Force-Update-Override, da meiner persönlichen Einschätzung nach die Betreiber von The Broken Link kein Interesse an der Wartung ihres SAMEK haben.

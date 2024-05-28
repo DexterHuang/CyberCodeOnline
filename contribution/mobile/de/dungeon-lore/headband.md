@@ -1,5 +1,5 @@
->In an attempt to take a breather from the fact that you almost just died, you look for a distraction. A piece of fabric on the ground seems to have answered your prayer.  
-  
->Upon closer inspection, you see a headband. A piece of cloth with a metal plate resting on it. You wonder if this fell off someone's head and has been forgotten for a long time. You pick it up. It's a little heavy, with the metal plate somehow glued or fused to the piece of cloth. You run your finger over the metal plate. Some sort of symbol seemed to have been etched onto the metal plate. You can't quite make out the symbol. You try the headband on but the awkward weight refused to cooperate with the flimsy cloth it's attached to.  
-  
->You put the headband back where you found it, leaving it for the next person to struggle with trying to look cool and impressing their friends.  
+>In einem Versuch, sich von dem Schock zu erholen, dass du fast gestorben wärst, suchst du nach einer Ablenkung. Ein Stück Stoff auf dem Boden scheint dein Gebet erhört zu haben.
+
+>Bei genauerer Betrachtung siehst du ein Stirnband. Ein Stück Stoff mit einer Metallplatte darauf. Du fragst dich, ob das von jemandes Kopf gefallen ist und schon lange vergessen wurde. Du nimmst es auf. Es ist etwas schwer, mit der Metallplatte irgendwie an das Stück Stoff geklebt oder verschmolzen. Du fährst mit deinem Finger über die Metallplatte. Ein Symbol scheint in die Metallplatte eingraviert worden zu sein. Du kannst das Symbol nicht ganz erkennen. Du versuchst das Stirnband aufzusetzen, aber das unangenehme Gewicht weigert sich, mit dem labilen Stoff, an den es befestigt ist, zusammenzuarbeiten.
+
+>Du legst das Stirnband zurück, wo du es gefunden hast, und überlässt es der nächsten Person, die damit kämpfen wird, cool auszusehen und ihre Freunde zu beeindrucken.

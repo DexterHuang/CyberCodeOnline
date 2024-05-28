@@ -1,28 +1,28 @@
 
-_You find a datapad with an Audiolog file pulled up._  
-![Audiolog datapad](/resources/lore/dpad1@0.25x.png)  
-[Recovered Data Entry - Audiolog of Billy Braxton - Scav]
+_Es wurde ein Datapad mit einer Audiologdatei gefunden._
+![Audiolog Datapad](/resources/lore/dpad1@0.25x.png)
+[Wiederhergestellter Dateneintrag - Audiolog von Billy Braxton - Schrottsammler]
 
-**START OF AUDIOLOG**
->_I was sent out to clean up an old Medical Building, Good old OmniMedica, Good Old Pandemonium, it's been a while since I was last here._
+**BEGINN DES AUDIOLOGS**
+>_Ich wurde losgeschickt, um ein altes medizinisches Gebäude zu säubern, das gute alte OmniMedica, das gute alte Pandemonium, es ist schon eine Weile her, seit ich das letzte Mal hier war._
 
->_Pretty typical of these old abandoned buildings, tons of droids just left over, half of cabinets already torn through, most tech scavenged of anything useful._
+>_Ziemlich typisch für diese alten verlassenen Gebäude, tonnenweise Droiden einfach zurückgelassen, die Hälfte der Schränke bereits durchsucht, die meisten Techs von allem Nützlichen geplündert._
 
->_They sent me to come retrieve an old tech left deep in the basement, down where they left the decommissioned droids._
+>_Sie schickten mich, um eine alte Technik abzuholen, die tief im Keller zurückgelassen wurde, dort, wo sie die außer Betrieb genommenen Droiden zurückließen._
 
->_Of course I had heard that some of these decommissioned droids were down here once they got stuck in a bad loop. It would start with odd conversations with patrons._
+>_Natürlich hatte ich gehört, dass einige dieser außer Betrieb genommenen Droiden hier unten waren, als sie in einer schlechten Schleife steckenblieben. Es würde mit merkwürdigen Gesprächen mit Kunden beginnen._
  
- > **_There is a loud crash and another voice is heard faintly in the distance however unintelligible. Heavy footsteps can be heard below._**
+ > **_Es gibt einen lauten Knall und eine andere Stimme ist in der Ferne schwach, aber unverständlich zu hören. Schweres Fußgetrappel ist unten zu hören._**
 
->_Ah damn, I was told it was just me here._
+>_Verdammt, mir wurde gesagt, dass nur ich hier bin._
 
->**_There is a long break in monologue, only heavy breathing and the sound of heavy footsteps growing louder._**
+>**_Es gibt eine lange Pause im Monolog, nur schweres Atmen und das Geräusch von immer lauter werdenden schweren Schritten._**
 
->_No way! Oh man, no no no no no. OVERRIDE CODE 00189273, Ah shit._
+>_Auf keinen Fall! Oh Mann, nein nein nein nein nein. ÜBERSCHREIBCODE 00189273, Ach Scheiße._
 
->**_A metallic voice belts; "YOU WILL PAY FOR RAKKON"_**
+>**_Eine metallische Stimme ruft: "DU WIRST FÜR RAKKON BEZAHLEN"_**
 
->**_There is a loud crack, a squish, and a thud. Shortly after the audio cuts._**
+>**_Es gibt einen lauten Knall, ein Quetschen und ein dumpfes Geräusch. Kurz danach wird das Audio abgeschnitten._**
 
 
-**This audiofile was recovered by Pandemonium Police. Any unauthorized use will be used against you. Your citizen ID number has been logged.**
+**Diese Audiodatei wurde von der Pandemonium-Polizei wiederhergestellt. Jede unbefugte Verwendung wird gegen Sie verwendet. Ihre Bürger-ID-Nummer wurde protokolliert.**
