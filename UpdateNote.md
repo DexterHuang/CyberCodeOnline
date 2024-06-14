@@ -31,6 +31,10 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
+### 0.1837
+
+-   Fixed display issue on rainbow chat frame
+
 ### 0.1836
 
 -   Fixed translation error in the Cali-train buff description, system will deploy in 40-minute intervals instead of wrongly stated 5 minutes. this does not impact the actual system code, just a translation error.
