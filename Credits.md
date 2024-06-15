@@ -146,6 +146,7 @@ Ambr_ence
 Vargur
 [lag145](https://github.com/lag145)
 [Mackerels](https://github.com/mackerels0x00)
+[IWASIkan_](https://github.com/IWASIkann)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
@@ -289,6 +290,7 @@ Vega_Efsunborn
 [Manz](https://github.com/manztellen)
 [Christophers27](https://github.com/Christophers27)
 [Mackerels](https://github.com/mackerels0x00)
+[IWASIkan_](https://github.com/IWASIkann)
 
 ## Game resources (words)
 [apetro](https://github.com/apetro/)
