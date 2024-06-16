@@ -29,6 +29,20 @@ If you would like to help maintain CyberCode Online, please feel free to submit 
 
 Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) on how to submit a PR on our GitHub.
 
+## Upcoming Update
+
+-   Calibration Rework/Code Re-write:
+    -   A new line of community fundraising with different starting time of cali train will be added; there will be two fundraising options, one will start at 00:00 UTC and the other will start at 12:00 UTC, the two funds will be independent of each other. The intention is to give people more options to choose which fund to raise depending on their preferred schedule while providing a predictable timing. the current funding will carry on to the 00:00 UTC fund, and the 12:00 UTC fund will start from 0 when the update is live.
+    -   **The System will allow normal calibration buffs to be deployed even when there is a pending train**, until a short time before the train starts, to prevent it from interfering with the event train
+    -   8 hours before any Cali Train starts, a banner will be shown on the chat screen, similar to Party Funds, to remind players of the upcoming train.
+    -   Deploying calibration buffs will no longer require using of an item, the functionality will be integrated directly into the Calibration NPC UI Page (Kamiko), hence all calibration-related items will be retired from the game; **All Calibration related items will remain usable as normal if you already have them in your inventory before the update**, and they will no longer be obtainable from any source after the update. This is to simplify the user experience, reduce the complexity of the system.
+    -   Minor Calibration UI update, mainly to streamline the process and make it more user-friendly and intuitive.
+-   The Chat interface UI will receive an update mainly on reading old message indicator, reply indicator UI, and banner display
+-   with suggestion from players, donator chat frame gallery page is added, allowing you to see all chat frames in game
+-   Some bug fixes regarding to pet system
+
+**The update is still work in progress, will deploy when finished and tested**
+
 ## Updates
 
 ### 0.1837
