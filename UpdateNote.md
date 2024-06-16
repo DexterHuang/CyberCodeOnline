@@ -38,6 +38,9 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
     -   With the new system deploying calibration buffs will no longer require using of an item, the functionality will be integrated directly into the Calibration NPC UI Page (Kamiko), hence all calibration-related items will be retired from the game; **All Calibration related items will remain usable as normal if you already have them in your inventory before the update**, and they will no longer be obtainable from any source after the update. This is to simplify the user experience, reduce the complexity of the system.
     -   Minor Calibration UI update, mainly to streamline the process and make it more user-friendly and intuitive.
 -   The Chat interface UI will receive an update mainly on reading old message indicator, reply indicator UI, and banner display
+
+![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/0ffe0246-c81f-4109-8325-a58034003973)
+
 -   with suggestion from players, donator chat frame gallery page is added, allowing you to see all chat frames in game
 -   Some bug fixes regarding to pet system
 
