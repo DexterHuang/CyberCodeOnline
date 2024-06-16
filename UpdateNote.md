@@ -42,6 +42,10 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/0ffe0246-c81f-4109-8325-a58034003973)
 
 -   with suggestion from players, donator chat frame gallery page is added, allowing you to see all chat frames in game
+
+![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/464d5352-a294-4126-b455-360d13fc0536)
+
+
 -   Some bug fixes regarding to pet system
 
 **The update is still work in progress, will deploy when finished and tested**
