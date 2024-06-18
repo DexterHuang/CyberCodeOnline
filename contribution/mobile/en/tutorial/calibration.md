@@ -1,5 +1,5 @@
 # Calibration
-![CalibrationStation](/resources/mobile-tutorial/CalibrationStation.png)
+![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/84a0f895-5a3e-4648-b93d-375ae1a469c2)
 
 **Calibration** upgrades gear for longevity and usability at higher levels, but doesn't increase its level - it only increases its base stats to a certain tier.
 
