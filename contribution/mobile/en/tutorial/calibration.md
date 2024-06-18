@@ -49,16 +49,13 @@ In general, the gear capacity / fail percentage of each tier is as follows:
 | Epic | +10 | 666% |
 
 ## Override The Chance
-Calibrating to +6 or beyond is *impossible* without **Calibration Boosts**, which reduce the failure percentage and can be stacked.
+Calibrating to +6 or beyond is *impossible* since the fail chance is 100% or greater. To increase the chance of success, players can use **Calibration Buffs** to override the fail chance.
+To deploy the buff, simply click on the `Increase Success Rate` button, this will deploy the buff for **Everyone on the server**, you then can see the updated chance with current increased chance by the buffs as shown below:
 
-In general, the calibration boost tier (and where to find them) is as follows:
-- **Calibration AI Shard (Common)** reduces the chance of failure by 5%; only for Personal Use; can be found in Rare Locked Containers
-- **Calibration AI Shard (Rare)** reduces the chance of failure by 10%; Global Buff; can only be bought in the Arasaka Unit Exchange
-- **Calibration AI Shard (Legendary)** reduces the chance of failure by 50%; Global Buff; can only be bought in the Arasaka Unit Exchange
-- **Calibration AI Shard (Epic)** reduces the chance of failure by 100%; Global Buff; can only be bought in the Arasaka Unit Exchange
-- **Calibration AI Shard (Prestige)** reduces the chance of failure by 300%; Global Buff; can only be bought in the Arasaka Unit Exchange 
+![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/71f0b14c-1cac-4d56-816f-d431147ca366)
 
-Players can prevent gear destruction by using **Calibration Safety Nano Bots**, which can be found in Mysterious Containers or purchased in the Arasaka Unit Exchange, before calibrating their gear.
+
+You may also use `Destruction Prevention` to prevent your equipment from being permanently destroyed when calibration fails by clicking `Prevent Destruction`, this will deploy the `Destruction Prevention` buff for everyone for 5 minutes
 
 Keep in mind that boosts last for **only 5 minutes** and each tier/rarity **can only be stacked twice** (except Common Shards), so it's best to be prepared before using them.
 
