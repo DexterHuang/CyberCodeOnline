@@ -34,6 +34,7 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 -   Calibration Rework/Code Re-write:
     -   A new line of community fundraising with different starting time of cali train will be added; there will be two fundraising options, one will start at 00:00 UTC and the other will start at 12:00 UTC, the two funds will be independent of each other. The intention is to give people more options to choose which fund to raise depending on their preferred schedule while providing a predictable timing. the current funding will carry on to the 00:00 UTC fund, and the 12:00 UTC fund will start from 0% when the update is live.
         ![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/9736f045-d6b6-48d5-a0fe-649e8ee3100c)
+        *Note the image says 8am and 8pm because my timezone is UTC+8, it will show up differently according to your device timezone*
 
     -   **The System will allow normal calibration buffs to be deployed even when there is a pending train**, until a short time before the train starts, to prevent it from interfering with the event train
     -   8 hours before any Cali Train starts, a banner will be shown on the chat screen, similar to Party Funds, to remind players of the upcoming train.
