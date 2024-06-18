@@ -36,6 +36,9 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
     -   **The System will allow normal calibration buffs to be deployed even when there is a pending train**, until a short time before the train starts, to prevent it from interfering with the event train
     -   8 hours before any Cali Train starts, a banner will be shown on the chat screen, similar to Party Funds, to remind players of the upcoming train.
     -   With the new system deploying calibration buffs will no longer require using of an item, the functionality will be integrated directly into the Calibration NPC UI Page (Kamiko), hence all calibration-related items will be retired from the game; **All Calibration related items will remain usable as normal if you already have them in your inventory before the update**, and they will no longer be obtainable from any source after the update. This is to simplify the user experience, reduce the complexity of the system. You will still be able to activate calibration buffs similar to before (without contributing to the cali train fund), just that you do not need to use items to do so, you can simply click on the interface to deploy individual cali buffs.
+ 
+        ![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/f20c21c4-012b-4a3a-a5a5-54c4212a88ba)
+
     -   Minor Calibration UI update, mainly to streamline the process and make it more user-friendly and intuitive.
 -   The Chat interface UI will receive an update mainly on reading old message indicator, reply indicator UI, and banner display
 
