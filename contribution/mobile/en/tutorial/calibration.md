@@ -52,7 +52,7 @@ In general, the gear capacity / fail percentage of each tier is as follows:
 Calibrating to +6 or beyond is *impossible* since the fail chance is 100% or greater. To increase the chance of success, players can use **Calibration Buffs** to override the fail chance.
 To deploy the buff, simply click on the `Increase Success Rate` button, this will deploy the buff for **Everyone on the server**, you then can see the updated chance with current increased chance by the buffs as shown below:
 
-![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/71f0b14c-1cac-4d56-816f-d431147ca366)
+![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/7d45ef02-a914-482d-83fe-0a9c9cd19c06)
 
 
 You may also use `Destruction Prevention` to prevent your equipment from being permanently destroyed when calibration fails by clicking `Prevent Destruction`, this will deploy the `Destruction Prevention` buff for everyone for 5 minutes
