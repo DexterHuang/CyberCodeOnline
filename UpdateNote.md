@@ -44,6 +44,7 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
         ![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/f20c21c4-012b-4a3a-a5a5-54c4212a88ba)
 
     -   Calibration UI update, mainly to streamline the process and make it more user-friendly and intuitive.
+    -   Improving SLANC's notice when the train is fully funded, it will include specific timestamps for each tier of calibration, **However please keep in mind, the server MAY NOT deploy them at the exact time due to technical reason, it will try to, but may be delayed**
 -   The Chat interface UI will receive an update mainly on reading old message indicator, reply indicator UI, and banner display
 
 ![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/0ffe0246-c81f-4109-8325-a58034003973)
