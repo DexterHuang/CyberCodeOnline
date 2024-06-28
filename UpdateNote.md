@@ -55,7 +55,7 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 -   Some bug fixes regarding to pet system
 
-**The update is still work in progress, will deploy when finished and tested**
+**The update is still work in progress, this update will be deployed in the comign days (end of june)**
 
 ## Updates
 
