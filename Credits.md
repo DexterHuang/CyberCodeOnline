@@ -147,6 +147,7 @@ Vargur
 [lag145](https://github.com/lag145)
 [Mackerels](https://github.com/mackerels0x00)
 [IWASIkan_](https://github.com/IWASIkann)
+[KodateMitsuru](https://github.com/KodateMitsuru)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
