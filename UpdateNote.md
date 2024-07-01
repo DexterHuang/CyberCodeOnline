@@ -61,7 +61,7 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/dc0b39ee-9ebf-4543-84b1-1c331ad6845d)
 
 -   Added new tutorial page for calibration tran, everyone is welcome to edit and add info on our github page
--   Increased chance of Rare equipment dropping from `Rare Locked Container`, other drops remain the same except for retired items being removed from the drop list;
+-   Increased chance of Rare equipment and max amount of AI cores dropping from `Rare Locked Container`, other drops remain the same except for retired items being removed from the drop list, `Legendary Locked Container` was not changed besides retiring items
 
 
 ### 0.1837
