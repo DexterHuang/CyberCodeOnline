@@ -56,9 +56,11 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/464d5352-a294-4126-b455-360d13fc0536)
 
 -   Some bug fixes regarding to pet system
--   Updated cosmetic selection page, now shows previews of chat box to better represent the chat frame\
+-   Updated cosmetic selection page, now shows previews of chat box to better represent the chat frame
 
 ![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/dc0b39ee-9ebf-4543-84b1-1c331ad6845d)
+
+-   Added new tutorial page for calibration tran, everyone is welcome to edit and add info on our github page
 
 
 ### 0.1837
