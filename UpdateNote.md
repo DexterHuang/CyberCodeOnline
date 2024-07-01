@@ -29,7 +29,9 @@ If you would like to help maintain CyberCode Online, please feel free to submit 
 
 Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) on how to submit a PR on our GitHub.
 
-## Upcoming Update
+## Updates
+
+### 0.1838
 
 -   Calibration Rework/Code Re-write:
     -   A new line of community fundraising with different starting time of cali train will be added; there will be two fundraising options, one will start at 00:00 UTC and the other will start at 12:00 UTC, the two funds will be independent of each other. The intention is to give people more options to choose which fund to raise depending on their preferred schedule while providing a predictable timing. the current funding will carry on to the 00:00 UTC fund, and the 12:00 UTC fund will start from 0% when the update is live.
@@ -54,10 +56,10 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/464d5352-a294-4126-b455-360d13fc0536)
 
 -   Some bug fixes regarding to pet system
+-   Updated cosmetic selection page, now shows previews of chat box to better represent the chat frame\
 
-**The update is still work in progress, this update will be deployed in the comign days (end of june)**
+![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/dc0b39ee-9ebf-4543-84b1-1c331ad6845d)
 
-## Updates
 
 ### 0.1837
 
