@@ -461,17 +461,6 @@
 				"trans": "Yeniden bağlantı kuruluyor",
 				"eng": "Reestablishing connection"
 			},
-			"notAtBottom": {
-				"trans": "Eski mesajlara bakıyorsun",
-				"eng": "You are looking at old messages"
-			},
-			"replyTo": {
-				"vars": [
-					"playerName"
-				],
-				"trans": "${playerName}'a yanıt veriliyor",
-				"eng": "Replying to ${playerName}"
-			},
 			"linksNotAllowed": {
 				"trans": "Link göndermek yasaktır",
 				"eng": "Links are not allowed"
@@ -1635,6 +1624,121 @@
 				}
 			}
 		},
+		"equipmentUpgrade": {
+			"preventDestructionButton": {
+				"confirmation": {
+					"trans": "Eşyanın yok olmasını önlemek için Güvenlik Nano Botlarını devreye sokmak istiyor musun?",
+					"eng": "Deploy Safety Nano Bots to prevent destruction of your item?"
+				},
+				"title": {
+					"trans": "Yok etmeyi önle",
+					"eng": "Prevent Destruction"
+				}
+			},
+			"increaseSuccessButton": {
+				"description": {
+					"vars": [
+						"minutes"
+					],
+					"trans": "Bu oyunda, tüm ödenmiş güçlendirmeler küresel olarak uygulanır, yani diğer oyuncular senin uyguladığın güçlendirmeden faydalanacak, aynı şekilde sen de başka bir oyuncu güçlendirme uyguladığında aynı güçlendirmeyi alacaksın. Bu güçlendirme ${minutes} dakika boyunca sürecek, bu yüzden istediğin güçlendirmeleri uyguladıktan sonra ekipmanını ayarlamayı unutma",
+					"eng": "In this game, all paid buffs is deployed globally, meaning other players will benefit from the buff you deployed, similarly your will get the same buff when other player deployed a buff. this buff will last for ${minutes} minutes, so please calibrate your equipment as soon as you finish deploying the buffs you want to deploy"
+				},
+				"confirmation": {
+					"vars": [
+						"chance"
+					],
+					"trans": "Global Kalibrasyon Şansı +${chance} Artışı Yapılsın mı?",
+					"eng": "Deploy Global Calibration Chance +${chance} Buff?"
+				},
+				"title": {
+					"trans": "Başarı oranını arttır",
+					"eng": "Increase Success Rate"
+				}
+			},
+			"alreadyZeroFailChance": {
+				"trans": "Başarısızlık oranı zaten %0'a düştü",
+				"eng": "Failure rate already at 0%"
+			},
+			"preventDestructionButtonActivated": {
+				"error": {
+					"trans": "Güvenlik zaten etkinleştirildi",
+					"eng": "Safety already activated"
+				},
+				"title": {
+					"trans": "Güvenlik Aktif oldu",
+					"eng": "Safety Activated"
+				}
+			},
+			"failureRateNoBreak": {
+				"trans": "Güvenli Arıza Olasılığı",
+				"eng": "Chance of safe failure"
+			},
+			"failureRate": {
+				"trans": "Yok edici başarısızlık olasılığı",
+				"eng": "Chance of destructive failure"
+			},
+			"noBreakTag": {
+				"trans": "Güvenlik devrede",
+				"eng": "Safety activated"
+			},
+			"chanceIncreaseTag": {
+				"vars": [
+					"percent"
+				],
+				"trans": "Başarı Şansı +${percent}%",
+				"eng": "Success Chance +${percent}%"
+			},
+			"notActivated": {
+				"description": {
+					"trans": "Ekipmanınızı yükseltmek için kalibrasyon çekirdeği eklemeniz gerekir.",
+					"eng": "You need to insert Calibration Core to upgrade your equipment."
+				},
+				"noCore": {
+					"trans": "Herhangi bir kalibrasyon çekirdeğiniz yok",
+					"eng": "You don\\'t have any Calibration Core"
+				}
+			},
+			"activate": {
+				"trans": "Çekirdek yerleştir",
+				"eng": "Insert Core"
+			},
+			"activateDescription": {
+				"trans": "Ekipmanı kalibre etmek için bir kalibrasyon çekirdeği gereklidir",
+				"eng": "A Calibration Core is required to calibrate equipment"
+			},
+			"activating": {
+				"title": {
+					"trans": "İşleniyor",
+					"eng": "Processing"
+				},
+				"description": {
+					"trans": "Bu sayfadan ayrılıp daha sonra tekrar gelebilirsiniz",
+					"eng": "You may leave this page and come back later"
+				}
+			},
+			"noEquipment": {
+				"title": {
+					"trans": "Ekipman bulunamadı",
+					"eng": "equipment not found"
+				},
+				"subTitle": {
+					"trans": "Devam etmek için bir ekipman seçin",
+					"eng": "Select an equipment to continue"
+				},
+				"empty": {
+					"trans": "Bir ekipmanı seçmek için tıklayın",
+					"eng": "Click to select an equipment"
+				}
+			},
+			"selectEquipmentTitle": {
+				"trans": "Lütfen kalibre etmek için bir eşya seçin",
+				"eng": "Please select an item to calibrate"
+			},
+			"upgradeButton": {
+				"trans": "Kalibre et",
+				"eng": "Calibrate"
+			}
+		},
 		"gang": {
 			"assignGangRankModal": {
 				"title": {
@@ -1850,15 +1954,6 @@
 						"eng": "Select Emblem?"
 					}
 				}
-			},
-			"donationTiers": {
-				"expire": {
-					"vars": [
-						"date"
-					],
-					"trans": "${date} değerinden sona erer",
-					"eng": "Expires at ${date}"
-				}
 			}
 		},
 		"apps": {
@@ -2035,82 +2130,6 @@
 			"passwordProtected": {
 				"trans": "Şifre korumalı",
 				"eng": "Password protected"
-			}
-		},
-		"equipmentUpgrade": {
-			"increaseSuccessButton": {
-				"title": {
-					"trans": "Başarı oranını arttır",
-					"eng": "Increase Success Rate"
-				}
-			},
-			"preventDestructionButton": {
-				"title": {
-					"trans": "Yok etmeyi önle",
-					"eng": "Prevent Destruction"
-				}
-			},
-			"failureRateNoBreak": {
-				"trans": "Güvenli Arıza Olasılığı",
-				"eng": "Chance of safe failure"
-			},
-			"failureRate": {
-				"trans": "Yok edici başarısızlık olasılığı",
-				"eng": "Chance of destructive failure"
-			},
-			"notActivated": {
-				"title": {
-					"trans": "Çekirdek bulunamadı",
-					"eng": "Core not found"
-				},
-				"subTitle": {
-					"trans": "Lütfen kalibrasyon çekirdeğini yerleştirin",
-					"eng": "Please insert Calibration Core"
-				},
-				"description": {
-					"trans": "Ekipmanınızı yükseltmek için kalibrasyon çekirdeği eklemeniz gerekir.",
-					"eng": "You need to insert Calibration Core to upgrade your equipment."
-				},
-				"noCore": {
-					"trans": "Herhangi bir kalibrasyon çekirdeğiniz yok",
-					"eng": "You don\\'t have any Calibration Core"
-				}
-			},
-			"activate": {
-				"trans": "Çekirdek yerleştir",
-				"eng": "Insert Core"
-			},
-			"activateDescription": {
-				"trans": "Ekipmanı kalibre etmek için bir kalibrasyon çekirdeği gereklidir",
-				"eng": "A Calibration Core is required to calibrate equipment"
-			},
-			"activating": {
-				"title": {
-					"trans": "İşleniyor",
-					"eng": "Processing"
-				},
-				"description": {
-					"trans": "Bu sayfadan ayrılıp daha sonra tekrar gelebilirsiniz",
-					"eng": "You may leave this page and come back later"
-				}
-			},
-			"noEquipment": {
-				"title": {
-					"trans": "Ekipman bulunamadı",
-					"eng": "equipment not found"
-				},
-				"subTitle": {
-					"trans": "Devam etmek için bir ekipman seçin",
-					"eng": "Select an equipment to continue"
-				}
-			},
-			"selectEquipmentTitle": {
-				"trans": "Lütfen kalibre etmek için bir eşya seçin",
-				"eng": "Please select an item to calibrate"
-			},
-			"upgradeButton": {
-				"trans": "Kalibre et",
-				"eng": "Calibrate"
 			}
 		},
 		"landing": {
@@ -2591,15 +2610,25 @@
 		}
 	},
 	"caliTrain": {
-		"progressTitle": {
-			"trans": "Cali Tren Fonları",
-			"eng": "Cali Train Funds"
-		},
 		"players": {
-			"sponsorTitle": {
-				"trans": "Destekçi:",
+			"sponsorTitle2": {
+				"trans": "Sponsor:",
 				"eng": "Sponsored by:"
 			}
+		},
+		"progressTitle1": {
+			"vars": [
+				"time"
+			],
+			"trans": "Cali Fonları ${time}",
+			"eng": "Cali Funds ${time}"
+		},
+		"progressTitle2": {
+			"vars": [
+				"time"
+			],
+			"trans": "Cali Fonları ${time}",
+			"eng": "Cali Funds ${time}"
 		},
 		"announcement": {
 			"vars": [
@@ -2770,10 +2799,6 @@
 			"trans": "${time} önce",
 			"eng": "${time} ago"
 		},
-		"systemStandby": {
-			"trans": "Sistem beklemede",
-			"eng": "System standby"
-		},
 		"password": {
 			"trans": "Parola",
 			"eng": "Password"
@@ -2811,6 +2836,38 @@
 		"thief": {
 			"trans": "Tekno şeriat",
 			"eng": "Techno-Thief"
+		}
+	},
+	"caliTrainBanner": {
+		"title": {
+			"trans": "🎉 Kalibrasyon Treni 🎉",
+			"eng": "🎉 Calibration Train 🎉"
+		},
+		"subtitleTime": {
+			"vars": [
+				"time"
+			],
+			"trans": "Sonraki güçlendirme: ${time}",
+			"eng": "Next buff: ${time}"
+		},
+		"subtitle": {
+			"trans": "Ev sahipliği:",
+			"eng": "Hosted by:"
+		},
+		"subtitleMulti": {
+			"trans": "Parti ev sahiplerini görmek için tıklayın:",
+			"eng": "Click to view party hosts:"
+		},
+		"button": {
+			"trans": "Sokak itibarı ver",
+			"eng": "Give street cred"
+		},
+		"button,": {
+			"vars": [
+				"playerName"
+			],
+			"trans": "Sokak itibarı ver",
+			"eng": "Give street cred"
 		}
 	},
 	"globalPartyBanner": {
@@ -4646,6 +4703,10 @@
 			"trans": "Gökkuşağı",
 			"eng": "Rainbow"
 		},
+		"donation31": {
+			"trans": "Prestij",
+			"eng": "Prestige"
+		},
 		"moderator": {
 			"trans": "Moderatör",
 			"eng": "Moderator"
@@ -5824,6 +5885,46 @@
 				},
 				"9": {
 					"trans": "Gelecek güncellemede daha fazlası var",
+					"eng": "More coming in future update"
+				}
+			}
+		},
+		"donation31": {
+			"benefits": {
+				"1": {
+					"trans": "\"Mor Kart\" bağış başlığı",
+					"eng": "\"Purple Card\" donation title"
+				},
+				"2": {
+					"trans": "Profil resmi özelleştirmesini açıkla",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "Mor Kart çerçevesi (animasyonlu)",
+					"eng": "Purple Card frame (with animation)"
+				},
+				"4": {
+					"trans": "Mor Kart Profili (animasyonlu)",
+					"eng": "Purple Card Profile (with animation)"
+				},
+				"5": {
+					"trans": "Özel biyografi kilidini aç",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "Mor Kart profil süslemesi",
+					"eng": "Purple Card profile decoration"
+				},
+				"7": {
+					"trans": "Çete sloganını özelleştir",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "Çete imajını özelleştir",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "Daha fazlası gelecek gelecek güncellemede",
 					"eng": "More coming in future update"
 				}
 			}
@@ -8369,16 +8470,35 @@
 			"trans": "Bu güçlendirme süresince artık evcil hayvan sahiplenme mümkün.",
 			"eng": "Pet adoption is now available during this buff duration."
 		},
-		"autoCali": {
-			"trans": "Kalibrasyon Eğitimi",
-			"eng": "Calibration Train"
-		},
-		"autoCaliDesc": {
+		"autoCali1": {
 			"vars": [
-				"minutes"
+				"time"
 			],
-			"trans": "Sistem otomatik olarak her ${minutes} dakikada bir +1 ila +10 arasında kalibrasyon güçlendirmelerini devreye sokacak.",
-			"eng": "System will automatically deploy calibration buffs from +1 to +10 every ${minutes} minutes."
+			"trans": "Kalibrasyon Eğitimi ${time}",
+			"eng": "Calibration Train ${time}"
+		},
+		"autoCali1Desc": {
+			"vars": [
+				"minutes",
+				"time"
+			],
+			"trans": "Sistem, her ${minutes} dakikada bir +1 ila +10 arasında kalibrasyon güçlendirmelerini otomatik olarak uygulayacak, bir sonraki ${time} başlayarak",
+			"eng": "System will automatically deploy calibration buffs from +1 to +10 every ${minutes} minutes, starting at the next ${time}"
+		},
+		"autoCali2": {
+			"vars": [
+				"time"
+			],
+			"trans": "Kalibrasyon Eğitimi ${time}",
+			"eng": "Calibration Train ${time}"
+		},
+		"autoCali2Desc": {
+			"vars": [
+				"minutes",
+				"time"
+			],
+			"trans": "Sistem, her ${minutes} dakikada bir +1 ila +10 arasında kalibrasyon güçlendirmelerini otomatik olarak uygulayacak, bir sonraki ${time} başlayarak",
+			"eng": "System will automatically deploy calibration buffs from +1 to +10 every ${minutes} minutes, starting at the next ${time}"
 		}
 	},
 	"combat": {
@@ -9855,13 +9975,12 @@
 	},
 	"calibrationTrainPage": {
 		"hintBox": {
-			"text": {
+			"text2": {
 				"vars": [
-					"deployInterval",
-					"time"
+					"deployInterval"
 				],
-				"trans": "Kalibrasyon eğitim fonu %100'e ulaştığında, sistem otomatik olarak +1 ila +10 arasında kalibrasyon başarı oranı ve imha önleme güçlendirmelerini ${deployInterval} dakikalık aralıklarla sırayla uygulayacaktır. Güçlendirme eğitimi ${time} yerel saatinde başlayacak",
-				"eng": "When calibration train funding reaches 100%, the system will automatically deploy +1 to +10 calibration success rate and destruction prevention buffs in sequence with interval of ${deployInterval} minutes. the buff train will starting at the next ${time} local time"
+				"trans": "Kalibrasyon eğitimi fonu %100'e ulaştığında, sistem otomatik olarak +1 ila +10 arasında kalibrasyon başarı oranı ve imha önleme güçlendirmelerini ${deployInterval} dakikalık aralıklarla sırayla uygulayacaktır. Güçlendirme eğitimi bir sonraki belirlenen zamanda başlayacaktır",
+				"eng": "When calibration train funding reaches 100%, the system will automatically deploy +1 to +10 calibration success rate and destruction prevention buffs in sequence with interval of ${deployInterval} minutes. the buff train will starting at the next designated time"
 			}
 		},
 		"contributeButton": {
@@ -9869,6 +9988,31 @@
 				"trans": "Katkıda Bulun",
 				"eng": "Contribute"
 			}
+		}
+	},
+	"cosmetic": {
+		"chatFrameGallery": {
+			"trans": "Bağış Seviye Galerisi",
+			"eng": "Donation Tier Gallery"
+		},
+		"ownedFrames": {
+			"vars": [
+				"owned",
+				"total"
+			],
+			"trans": "Bağış Seviyesi Sahibi: [${owned}/${total}]",
+			"eng": "Donation Tier Owned: [${owned}/${total}]"
+		},
+		"exampleText": {
+			"vars": [
+				"tierName"
+			],
+			"trans": "Bu ${tierName} kademesi için örnek bir sohbet çerçevesidir",
+			"eng": "example chat frame of ${tierName} Tier"
+		},
+		"donationTire": {
+			"trans": "Çerçeve Seç",
+			"eng": "Select Frame"
 		}
 	},
 	"craftingStartPage": {
@@ -9969,6 +10113,10 @@
 			"trans": "faydalar",
 			"eng": "benefits"
 		},
+		"galleryPage": {
+			"trans": "Kozmetik Galerisi",
+			"eng": "Cosmetic Gallery"
+		},
 		"title": {
 			"trans": "Bağış katmanları",
 			"eng": "Donation Tiers"
@@ -10020,15 +10168,6 @@
 			],
 			"trans": "Aylık ${price}",
 			"eng": "${price} per Month"
-		}
-	},
-	"cosmetic": {
-		"exampleText": {
-			"vars": [
-				"tierName"
-			],
-			"trans": "Bu ${tierName} kademesi için örnek bir sohbet çerçevesidir",
-			"eng": "example chat frame of ${tierName} Tier"
 		}
 	},
 	"forgotPasswordPage": {
@@ -10560,6 +10699,25 @@
 			],
 			"trans": "${playerName} Global Time Skip'i kullandı, şu anda AFK görevini gerçekleştiren tüm çevrimiçi oyuncular (${playerCount} oyuncular) otomatik olarak ${skipTime} dakika sürecek. Efsaneye biraz krediler mi verin? ${credButton}",
 			"eng": "${playerName} has used Global Time Skip, all online players currently performing AFK task (${playerCount} players) will automatically time skip by ${skipTime} minutes. Give the legend some creds? ${credButton}"
+		}
+	},
+	"upgrade": {
+		"increaseChance": {
+			"invalidType": {
+				"trans": "Aktif etmeye çalıştığınız güçlendirme türü sunucu ile uyumsuz, lütfen cihaz saatinizin doğru olduğundan emin olun",
+				"eng": "The buff type you are trying to activate is inconsistent with server, please ensure your device time is correct"
+			},
+			"notEnoughUnit": {
+				"vars": [
+					"amount"
+				],
+				"trans": "Bu buffı etkinleştirmek için yeterli Üniteye sahip değilsin, gereken: ${amount}",
+				"eng": "You do not have enough Unit to activate this buff, require: ${amount}"
+			},
+			"notAllowed": {
+				"trans": "Kalibrasyon Treni başlamak üzere veya başladığı için etkinleştirilemiyor",
+				"eng": "Cannot activate because Calibration Train is about to start or has started"
+			}
 		}
 	}
 }

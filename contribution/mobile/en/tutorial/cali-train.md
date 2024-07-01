@@ -13,6 +13,11 @@ the time is shown in your device's local time, so please ensure your device has 
 once the fundraising has reached 100%, the calibration train will start at the next designated time of the said calibration fund.
 
 ### How do I contribute to the Calibration Train Fund?
+
 You may visit the Calibration NPC (Kamiko) or click the progress meter at your quest tab here you can choose which funding round to contribute to:
 
 ![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/4fd43e36-cbf6-4f2e-ae5c-cd5c4555cdb4)
+
+### Can I combine regular calibration boosts with the Calibration Train event?
+
+No, from a few minutes before the calibration train starts until the end of the event, the system will prevent players from using regular calibration boosts. this is to prevent players from wasting their boosts during the event or potentially interfering with the calibration train.

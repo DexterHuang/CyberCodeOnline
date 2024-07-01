@@ -461,17 +461,6 @@
 				"trans": "연결 재시도 중",
 				"eng": "Reestablishing connection"
 			},
-			"notAtBottom": {
-				"trans": "오래된 메시지를 보고 있습니다",
-				"eng": "You are looking at old messages"
-			},
-			"replyTo": {
-				"vars": [
-					"playerName"
-				],
-				"trans": "${playerName}에게 답장 보내는 중",
-				"eng": "Replying to ${playerName}"
-			},
 			"linksNotAllowed": {
 				"trans": "링크는 허용되지 않습니다",
 				"eng": "Links are not allowed"
@@ -1635,6 +1624,121 @@
 				}
 			}
 		},
+		"equipmentUpgrade": {
+			"preventDestructionButton": {
+				"confirmation": {
+					"trans": "아이템 파괴를 막기 위해 안전 나노봇을 배치하시겠습니까?",
+					"eng": "Deploy Safety Nano Bots to prevent destruction of your item?"
+				},
+				"title": {
+					"trans": "파괴 방지 버프를 사용하세요",
+					"eng": "Prevent Destruction"
+				}
+			},
+			"increaseSuccessButton": {
+				"description": {
+					"vars": [
+						"minutes"
+					],
+					"trans": "이 게임에서는 모든 유료 버프가 전역에 배치되며, 다른 플레이어들도 당신이 배치한 버프의 혜택을 받게 됩니다. 마찬가지로, 다른 플레이어가 버프를 배치할 때 당신도 동일한 버프를 받게 됩니다. 이 버프는 ${minutes}분 동안 지속되며, 원하는 버프를 배치한 후 장비를 조정해 주세요",
+					"eng": "In this game, all paid buffs is deployed globally, meaning other players will benefit from the buff you deployed, similarly your will get the same buff when other player deployed a buff. this buff will last for ${minutes} minutes, so please calibrate your equipment as soon as you finish deploying the buffs you want to deploy"
+				},
+				"confirmation": {
+					"vars": [
+						"chance"
+					],
+					"trans": "글로벌 보정 기회 발동 +${chance} 버프?",
+					"eng": "Deploy Global Calibration Chance +${chance} Buff?"
+				},
+				"title": {
+					"trans": "성공률을 높이세요",
+					"eng": "Increase Success Rate"
+				}
+			},
+			"alreadyZeroFailChance": {
+				"trans": "실패율이 이미 0%에 도달했어",
+				"eng": "Failure rate already at 0%"
+			},
+			"preventDestructionButtonActivated": {
+				"error": {
+					"trans": "안전 모드가 이미 활성화되었습니다",
+					"eng": "Safety already activated"
+				},
+				"title": {
+					"trans": "안전 활성화됨",
+					"eng": "Safety Activated"
+				}
+			},
+			"failureRateNoBreak": {
+				"trans": "비파괴 실패 확률",
+				"eng": "Chance of safe failure"
+			},
+			"failureRate": {
+				"trans": "장비 파괴 확률",
+				"eng": "Chance of destructive failure"
+			},
+			"noBreakTag": {
+				"trans": "안전 활성화됨",
+				"eng": "Safety activated"
+			},
+			"chanceIncreaseTag": {
+				"vars": [
+					"percent"
+				],
+				"trans": "성공 확률 +${percent}%",
+				"eng": "Success Chance +${percent}%"
+			},
+			"notActivated": {
+				"description": {
+					"trans": "장비를 강화하려면 교정 코어를 삽입해야합니다.",
+					"eng": "You need to insert Calibration Core to upgrade your equipment."
+				},
+				"noCore": {
+					"trans": "교정 코어를 가지고 있지 않습니다",
+					"eng": "You don\\'t have any Calibration Core"
+				}
+			},
+			"activate": {
+				"trans": "코어 삽입",
+				"eng": "Insert Core"
+			},
+			"activateDescription": {
+				"trans": "장비를 교정하기 위해선 장비 교정 코어가 필요합니다",
+				"eng": "A Calibration Core is required to calibrate equipment"
+			},
+			"activating": {
+				"title": {
+					"trans": "처리 중",
+					"eng": "Processing"
+				},
+				"description": {
+					"trans": "이 페이지를 떠나도 나중에 돌아올 수 있습니다",
+					"eng": "You may leave this page and come back later"
+				}
+			},
+			"noEquipment": {
+				"title": {
+					"trans": "장비를 찾을 수 없습니다",
+					"eng": "equipment not found"
+				},
+				"subTitle": {
+					"trans": "계속하려면 장비를 선택하십시오",
+					"eng": "Select an equipment to continue"
+				},
+				"empty": {
+					"trans": "장비를 선택하려면 클릭하세요",
+					"eng": "Click to select an equipment"
+				}
+			},
+			"selectEquipmentTitle": {
+				"trans": "교정할 아이템을 선택하세요",
+				"eng": "Please select an item to calibrate"
+			},
+			"upgradeButton": {
+				"trans": "교정",
+				"eng": "Calibrate"
+			}
+		},
 		"gang": {
 			"assignGangRankModal": {
 				"title": {
@@ -1850,15 +1954,6 @@
 						"eng": "Select Emblem?"
 					}
 				}
-			},
-			"donationTiers": {
-				"expire": {
-					"vars": [
-						"date"
-					],
-					"trans": "${date}에 만료됨",
-					"eng": "Expires at ${date}"
-				}
 			}
 		},
 		"apps": {
@@ -2035,82 +2130,6 @@
 			"passwordProtected": {
 				"trans": "비밀번호로 보호됨",
 				"eng": "Password protected"
-			}
-		},
-		"equipmentUpgrade": {
-			"increaseSuccessButton": {
-				"title": {
-					"trans": "성공률을 높이세요",
-					"eng": "Increase Success Rate"
-				}
-			},
-			"preventDestructionButton": {
-				"title": {
-					"trans": "파괴 방지 버프를 사용하세요",
-					"eng": "Prevent Destruction"
-				}
-			},
-			"failureRateNoBreak": {
-				"trans": "비파괴 실패 확률",
-				"eng": "Chance of safe failure"
-			},
-			"failureRate": {
-				"trans": "장비 파괴 확률",
-				"eng": "Chance of destructive failure"
-			},
-			"notActivated": {
-				"title": {
-					"trans": "코어가 없습니다",
-					"eng": "Core not found"
-				},
-				"subTitle": {
-					"trans": "교정 코어를 삽입하세요",
-					"eng": "Please insert Calibration Core"
-				},
-				"description": {
-					"trans": "장비를 강화하려면 교정 코어를 삽입해야합니다.",
-					"eng": "You need to insert Calibration Core to upgrade your equipment."
-				},
-				"noCore": {
-					"trans": "교정 코어를 가지고 있지 않습니다",
-					"eng": "You don\\'t have any Calibration Core"
-				}
-			},
-			"activate": {
-				"trans": "코어 삽입",
-				"eng": "Insert Core"
-			},
-			"activateDescription": {
-				"trans": "장비를 교정하기 위해선 장비 교정 코어가 필요합니다",
-				"eng": "A Calibration Core is required to calibrate equipment"
-			},
-			"activating": {
-				"title": {
-					"trans": "처리 중",
-					"eng": "Processing"
-				},
-				"description": {
-					"trans": "이 페이지를 떠나도 나중에 돌아올 수 있습니다",
-					"eng": "You may leave this page and come back later"
-				}
-			},
-			"noEquipment": {
-				"title": {
-					"trans": "장비를 찾을 수 없습니다",
-					"eng": "equipment not found"
-				},
-				"subTitle": {
-					"trans": "계속하려면 장비를 선택하십시오",
-					"eng": "Select an equipment to continue"
-				}
-			},
-			"selectEquipmentTitle": {
-				"trans": "교정할 아이템을 선택하세요",
-				"eng": "Please select an item to calibrate"
-			},
-			"upgradeButton": {
-				"trans": "교정",
-				"eng": "Calibrate"
 			}
 		},
 		"landing": {
@@ -2591,15 +2610,25 @@
 		}
 	},
 	"caliTrain": {
-		"progressTitle": {
-			"trans": "교정 열차 모금",
-			"eng": "Cali Train Funds"
-		},
 		"players": {
-			"sponsorTitle": {
-				"trans": "후원자:",
+			"sponsorTitle2": {
+				"trans": "후원사:",
 				"eng": "Sponsored by:"
 			}
+		},
+		"progressTitle1": {
+			"vars": [
+				"time"
+			],
+			"trans": "Cali 자금 ${time}",
+			"eng": "Cali Funds ${time}"
+		},
+		"progressTitle2": {
+			"vars": [
+				"time"
+			],
+			"trans": "Cali 자금 ${time}",
+			"eng": "Cali Funds ${time}"
 		},
 		"announcement": {
 			"vars": [
@@ -2770,10 +2799,6 @@
 			"trans": "${time} 전",
 			"eng": "${time} ago"
 		},
-		"systemStandby": {
-			"trans": "시스템 대기중",
-			"eng": "System standby"
-		},
 		"password": {
 			"trans": "비밀번호",
 			"eng": "Password"
@@ -2811,6 +2836,38 @@
 		"thief": {
 			"trans": "기술자",
 			"eng": "Techno-Thief"
+		}
+	},
+	"caliTrainBanner": {
+		"title": {
+			"trans": "🎉 캘리브레이션 트레인 🎉",
+			"eng": "🎉 Calibration Train 🎉"
+		},
+		"subtitleTime": {
+			"vars": [
+				"time"
+			],
+			"trans": "다음 버프: ${time}",
+			"eng": "Next buff: ${time}"
+		},
+		"subtitle": {
+			"trans": "주최자:",
+			"eng": "Hosted by:"
+		},
+		"subtitleMulti": {
+			"trans": "파티 호스트를 확인하려면 클릭하세요:",
+			"eng": "Click to view party hosts:"
+		},
+		"button": {
+			"trans": "거리 신용을 얻어라",
+			"eng": "Give street cred"
+		},
+		"button,": {
+			"vars": [
+				"playerName"
+			],
+			"trans": "거리 신용을 얻어라",
+			"eng": "Give street cred"
 		}
 	},
 	"globalPartyBanner": {
@@ -4646,6 +4703,10 @@
 			"trans": "무지개",
 			"eng": "Rainbow"
 		},
+		"donation31": {
+			"trans": "명성",
+			"eng": "Prestige"
+		},
 		"moderator": {
 			"trans": "관리자",
 			"eng": "Moderator"
@@ -5824,6 +5885,46 @@
 				},
 				"9": {
 					"trans": "향후 업데이트시 기능 추가 예정",
+					"eng": "More coming in future update"
+				}
+			}
+		},
+		"donation31": {
+			"benefits": {
+				"1": {
+					"trans": "\"보라색 카드\" 기부 제목",
+					"eng": "\"Purple Card\" donation title"
+				},
+				"2": {
+					"trans": "프로필 사진 커스터마이징 잠금 해제",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "보라색 카드 프레임 (애니메이션 포함)",
+					"eng": "Purple Card frame (with animation)"
+				},
+				"4": {
+					"trans": "보라색 카드 프로필 (애니메이션 포함)",
+					"eng": "Purple Card Profile (with animation)"
+				},
+				"5": {
+					"trans": "커스텀 바이오 잠금 해제",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "보라색 카드 프로필 장식",
+					"eng": "Purple Card profile decoration"
+				},
+				"7": {
+					"trans": "갱 모토를 커스터마이징하세요",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "갱 이미지를 커스터마이징하세요",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "향후 업데이트에서 더 많은 것이 기대되니 기대해 줘!",
 					"eng": "More coming in future update"
 				}
 			}
@@ -8478,16 +8579,35 @@
 			"trans": "이 버프 시간 동안 애완동물 입양이 가능합니다.",
 			"eng": "Pet adoption is now available during this buff duration."
 		},
-		"autoCali": {
-			"trans": "교정 열차",
-			"eng": "Calibration Train"
-		},
-		"autoCaliDesc": {
+		"autoCali1": {
 			"vars": [
-				"minutes"
+				"time"
 			],
-			"trans": "시스템이 자동으로 매 ${minutes}분마다 +1에서 +10까지의 교정 버프를 배포합니다.",
-			"eng": "System will automatically deploy calibration buffs from +1 to +10 every ${minutes} minutes."
+			"trans": "보정 훈련 ${time}",
+			"eng": "Calibration Train ${time}"
+		},
+		"autoCali1Desc": {
+			"vars": [
+				"minutes",
+				"time"
+			],
+			"trans": "시스템은 다음 ${time}부터 매 ${minutes}분마다 자동으로 보정 버프를 +1에서 +10까지 배포합니다",
+			"eng": "System will automatically deploy calibration buffs from +1 to +10 every ${minutes} minutes, starting at the next ${time}"
+		},
+		"autoCali2": {
+			"vars": [
+				"time"
+			],
+			"trans": "보정 훈련 ${time}",
+			"eng": "Calibration Train ${time}"
+		},
+		"autoCali2Desc": {
+			"vars": [
+				"minutes",
+				"time"
+			],
+			"trans": "시스템은 다음 ${time}부터 매 ${minutes}분마다 자동으로 보정 버프를 +1에서 +10까지 배포합니다",
+			"eng": "System will automatically deploy calibration buffs from +1 to +10 every ${minutes} minutes, starting at the next ${time}"
 		}
 	},
 	"combat": {
@@ -9964,13 +10084,12 @@
 	},
 	"calibrationTrainPage": {
 		"hintBox": {
-			"text": {
+			"text2": {
 				"vars": [
-					"deployInterval",
-					"time"
+					"deployInterval"
 				],
-				"trans": "교정열차 모금이 100%에 도달하면 시스템이 ${deployInterval}분 간격으로 +1에서 +10까지의 교정 성공률 및 파괴 방지 버프를 순차적으로 배포합니다. 열차는 현지시각으로 다음 ${time}에 시작됩니다",
-				"eng": "When calibration train funding reaches 100%, the system will automatically deploy +1 to +10 calibration success rate and destruction prevention buffs in sequence with interval of ${deployInterval} minutes. the buff train will starting at the next ${time} local time"
+				"trans": "보정 훈련 자금이 100%에 도달하면 시스템은 ${deployInterval}분 간격으로 +1에서 +10까지의 보정 성공률 및 파괴 방지 버프를 순차적으로 자동으로 배포합니다. 버프 훈련은 다음 지정된 시간에 시작됩니다",
+				"eng": "When calibration train funding reaches 100%, the system will automatically deploy +1 to +10 calibration success rate and destruction prevention buffs in sequence with interval of ${deployInterval} minutes. the buff train will starting at the next designated time"
 			}
 		},
 		"contributeButton": {
@@ -9978,6 +10097,31 @@
 				"trans": "기여하기",
 				"eng": "Contribute"
 			}
+		}
+	},
+	"cosmetic": {
+		"chatFrameGallery": {
+			"trans": "기부 티어 갤러리",
+			"eng": "Donation Tier Gallery"
+		},
+		"ownedFrames": {
+			"vars": [
+				"owned",
+				"total"
+			],
+			"trans": "보유한 기부 등급: [${owned}/${total}]",
+			"eng": "Donation Tier Owned: [${owned}/${total}]"
+		},
+		"exampleText": {
+			"vars": [
+				"tierName"
+			],
+			"trans": "${tierName} 티어의 채팅 프레임 예시입니다",
+			"eng": "example chat frame of ${tierName} Tier"
+		},
+		"donationTire": {
+			"trans": "프레임 선택하기",
+			"eng": "Select Frame"
 		}
 	},
 	"craftingStartPage": {
@@ -10078,6 +10222,10 @@
 			"trans": "혜택",
 			"eng": "benefits"
 		},
+		"galleryPage": {
+			"trans": "화장품 갤러리",
+			"eng": "Cosmetic Gallery"
+		},
 		"title": {
 			"trans": "후원 타이틀",
 			"eng": "Donation Tiers"
@@ -10129,15 +10277,6 @@
 			],
 			"trans": "월 ${price}",
 			"eng": "${price} per Month"
-		}
-	},
-	"cosmetic": {
-		"exampleText": {
-			"vars": [
-				"tierName"
-			],
-			"trans": "${tierName} 티어의 채팅 프레임 예시입니다",
-			"eng": "example chat frame of ${tierName} Tier"
 		}
 	},
 	"forgotPasswordPage": {
@@ -10669,6 +10808,25 @@
 			],
 			"trans": "${playerName}님이 글로벌 스킵을 사용했습니다. AFK 작업을 수행중인 모든 온라인 플레이어(${playerCount}명)는 자동으로 ${skipTime}분 스킵됩니다. 이 전설적인 플레이어에게 명성을 주시겠습니까? ${credButton}",
 			"eng": "${playerName} has used Global Time Skip, all online players currently performing AFK task (${playerCount} players) will automatically time skip by ${skipTime} minutes. Give the legend some creds? ${credButton}"
+		}
+	},
+	"upgrade": {
+		"increaseChance": {
+			"invalidType": {
+				"trans": "활성화하려는 버프 유형이 서버와 일치하지 않습니다. 기기 시간이 정확한지 확인해주세요",
+				"eng": "The buff type you are trying to activate is inconsistent with server, please ensure your device time is correct"
+			},
+			"notEnoughUnit": {
+				"vars": [
+					"amount"
+				],
+				"trans": "이 버프를 활성화하려면 충분한 유닛이 없어. 필요한 양: ${amount}",
+				"eng": "You do not have enough Unit to activate this buff, require: ${amount}"
+			},
+			"notAllowed": {
+				"trans": "캘리브레이션 트레이닝이 시작되거나 이미 시작했기 때문에 활성화할 수 없습니다",
+				"eng": "Cannot activate because Calibration Train is about to start or has started"
+			}
 		}
 	}
 }
