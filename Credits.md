@@ -148,6 +148,7 @@ Vargur
 [Mackerels](https://github.com/mackerels0x00)
 [IWASIkan_](https://github.com/IWASIkann)
 [KodateMitsuru](https://github.com/KodateMitsuru)
+[Pedro_Tavano_Ferreira](https://github.com/pedrotavanoferreira)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
