@@ -29,7 +29,9 @@ If you would like to help maintain CyberCode Online, please feel free to submit 
 
 Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) on how to submit a PR on our GitHub.
 
-## Upcoming Update
+## Updates
+
+### 0.1838
 
 -   Calibration Rework/Code Re-write:
 
@@ -56,10 +58,13 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/464d5352-a294-4126-b455-360d13fc0536)
 
 -   Some bug fixes regarding to pet system
+-   Updated cosmetic selection page, now shows previews of chat box to better represent the chat frame
 
-**The update is still work in progress, this update will be deployed in the comign days (end of june)**
+![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/dc0b39ee-9ebf-4543-84b1-1c331ad6845d)
 
-## Updates
+-   Added new tutorial page for calibration tran, everyone is welcome to edit and add info on our github page
+-   Increased chance of Rare equipment and max amount of AI cores dropping from `Rare Locked Container`, other drops remain the same except for retired items being removed from the drop list, `Legendary Locked Container` was not changed besides retiring items
+
 
 ### 0.1838
 
