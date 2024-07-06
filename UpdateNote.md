@@ -32,19 +32,21 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ## Upcoming Update
 
 -   Calibration Rework/Code Re-write:
+
     -   A new line of community fundraising with different starting time of cali train will be added; there will be two fundraising options, one will start at 00:00 UTC and the other will start at 12:00 UTC, the two funds will be independent of each other. The intention is to give people more options to choose which fund to raise depending on their preferred schedule while providing a predictable timing. the current funding will carry on to the 00:00 UTC fund, and the 12:00 UTC fund will start from 0% when the update is live.
         ![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/9736f045-d6b6-48d5-a0fe-649e8ee3100c)
-        
-        *Note the image says 8am and 8pm because my timezone is UTC+8, it will show up differently according to your device timezone*
+
+        _Note the image says 8am and 8pm because my timezone is UTC+8, it will show up differently according to your device timezone_
 
     -   **The System will allow normal calibration buffs to be deployed even when there is a pending train**, until a short time before the train starts, to prevent it from interfering with the event train
     -   8 hours before any Cali Train starts, a banner will be shown on the chat screen, similar to Party Funds, to remind players of the upcoming train.
     -   With the new system deploying calibration buffs will no longer require using of an item, the functionality will be integrated directly into the Calibration NPC UI Page (Kamiko), hence all calibration-related items will be retired from the game; **All Calibration related items will remain usable as normal if you already have them in your inventory before the update**, and they will no longer be obtainable from any source after the update. This is to simplify the user experience, reduce the complexity of the system. You will still be able to activate calibration buffs similar to before (without contributing to the cali train fund), just that you do not need to use items to do so, you can simply click on the interface to deploy individual cali buffs.
- 
+
         ![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/f20c21c4-012b-4a3a-a5a5-54c4212a88ba)
 
     -   Calibration UI update, mainly to streamline the process and make it more user-friendly and intuitive.
     -   Improving SLANC's notice when the train is fully funded, it will include specific timestamps for each tier of calibration, **However please keep in mind, the server MAY NOT deploy them at the exact time due to technical reason, it will try to, but may be delayed**
+
 -   The Chat interface UI will receive an update mainly on reading old message indicator, reply indicator UI, and banner display
 
 ![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/0ffe0246-c81f-4109-8325-a58034003973)
@@ -58,6 +60,10 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 **The update is still work in progress, this update will be deployed in the comign days (end of june)**
 
 ## Updates
+
+### 0.1838
+
+-   Security Update
 
 ### 0.1837
 
