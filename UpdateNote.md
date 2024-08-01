@@ -35,12 +35,6 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 -   Summer Event (August):
     -   Added `Coastal Area` and `Crystal Sands` Beach, where `Josie` is, this location will be hidden after the event ends, level required to enter this area is level 15
-
-![image](https://github.com/user-attachments/assets/1f5af351-9c6b-4817-84e6-40135989fbf5)
-
-![image](https://github.com/user-attachments/assets/f238f08d-3d9c-4f77-8ce8-41fefe4b51d4)
-
-
     -   scavenge, AFK farm bots and enemies will have a chance to drop `Sea Shell`, you can exchange `Sea Shell` for various items in the with `Josie` at the newly added location
     -   During this even, all community contribution buffs (cali & party) will have up to 5% discount for early contributors, the discount is the follows from the first to the last contribution:
 
@@ -54,6 +48,17 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 8.  2.5%
 9.  0%
 10. 0%
+    -   Added beach themed new chat frame
+
+
+![image](https://github.com/user-attachments/assets/1f5af351-9c6b-4817-84e6-40135989fbf5)
+
+![image](https://github.com/user-attachments/assets/f238f08d-3d9c-4f77-8ce8-41fefe4b51d4)
+
+![image](https://github.com/user-attachments/assets/65b79fd9-fee3-479a-8a15-a8d98c0ccba8)
+
+![image](https://github.com/user-attachments/assets/3369cb9b-b17b-48bc-88f9-fb1541641025)
+
 
 ### 0.1839
 
