@@ -37,16 +37,17 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
     -   Added `Coastal Area` and `Crystal Sands` Beach, where `Josie` is, this location will be hidden after the event ends
     -   scavenge, AFK farm bots and enemies will have a chance to drop `Sea Shell`, you can exchange `Sea Shell` for various items in the with `Josie` at the newly added location
     -   During this even, all community contribution buffs (cali & party) will have up to 5% discount for early contributors, the discount is the follows from the first to the last contribution:
-        1.  5%
-        2.  5%
-        3.  5%
-        4.  5%
-        5.  5%
-        6.  2.5%
-        7.  2.5%
-        8.  2.5%
-        9.  0%
-        10. 0%
+
+1.  5%
+2.  5%
+3.  5%
+4.  5%
+5.  5%
+6.  2.5%
+7.  2.5%
+8.  2.5%
+9.  0%
+10. 0%
 
 ### 0.1839
 
