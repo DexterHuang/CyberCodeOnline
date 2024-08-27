@@ -31,6 +31,11 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
+### 0.1841 (WIP)
+
+-   Updated Global party and Cali Train banner UI, now shows player tag and how many percent the player has sponsored
+-   Added Vault shortcut in AFK screen, allowing you to view your vault content, however you cannot withdraw or put item.
+
 ### 0.1840
 
 -   Summer Event (August):
@@ -50,7 +55,6 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 10. 0%
     -   Added beach themed new chat frame
 
-
 ![image](https://github.com/user-attachments/assets/1f5af351-9c6b-4817-84e6-40135989fbf5)
 
 ![image](https://github.com/user-attachments/assets/f238f08d-3d9c-4f77-8ce8-41fefe4b51d4)
@@ -58,7 +62,6 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ![image](https://github.com/user-attachments/assets/65b79fd9-fee3-479a-8a15-a8d98c0ccba8)
 
 ![image](https://github.com/user-attachments/assets/3369cb9b-b17b-48bc-88f9-fb1541641025)
-
 
 ### 0.1839
 
