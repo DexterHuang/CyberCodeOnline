@@ -33,8 +33,15 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ### 0.1841 (WIP)
 
--   Updated Global party and Cali Train banner UI, now shows player tag and how many percent the player has sponsored
--   Added Vault shortcut in AFK screen, allowing you to view your vault content, however you cannot withdraw or put item.
+-   Updated Global party and Cali Train banner UI, now shows player tag and how many percentages the player has sponsored
+-   
+![image](https://github.com/user-attachments/assets/0e0b6119-2568-42da-b6c6-04258f706cbe)
+
+
+-   Added Vault shortcut in AFK screen, allowing you to view your vault content, however, you cannot withdraw or put the item.
+-   
+![image](https://github.com/user-attachments/assets/7f0f2a00-e5e6-4804-97d9-2f6ca550096a)
+
 
 ### 0.1840
 
