@@ -42,7 +42,9 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ![image](https://github.com/user-attachments/assets/7f0f2a00-e5e6-4804-97d9-2f6ca550096a)
 
 -   Fixed issue with AFK countdown number changes causing layout shift
+-   Server side fixes that is aimed to reduce the chance of "locked up" issue in dungeon (the error message -> "Failed to lock ....")
 
+  
 ### 0.1840
 
 -   Summer Event (August):
