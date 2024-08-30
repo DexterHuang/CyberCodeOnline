@@ -31,7 +31,7 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
-### 0.1841 (WIP)
+### 0.1841 (Not Yet Live)
 
 -   Updated Global party and Cali Train banner UI, now shows player tag and how many percentages the player has sponsored
 
