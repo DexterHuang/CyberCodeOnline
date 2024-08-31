@@ -73,6 +73,35 @@
 			"eng": "Profile"
 		}
 	},
+	"caliTrain": {
+		"players": {
+			"sponsors": {
+				"trans": "Sponsor:",
+				"eng": "Sponsor:"
+			}
+		},
+		"progressTitle1": {
+			"vars": [
+				"time"
+			],
+			"trans": "Cali Fondsen ${time}",
+			"eng": "Cali Funds ${time}"
+		},
+		"progressTitle2": {
+			"vars": [
+				"time"
+			],
+			"trans": "Cali Fondsen ${time}",
+			"eng": "Cali Funds ${time}"
+		},
+		"announcement": {
+			"vars": [
+				"percent"
+			],
+			"trans": "Kalibratie (${percent}%) zal over enkele minuten worden uitgevoerd",
+			"eng": "Calibration ${percent}% has been deployed"
+		}
+	},
 	"ui": {
 		"bulkCraft": {
 			"amountSelect": {
@@ -212,12 +241,6 @@
 				"progressTitle": {
 					"trans": "Wereldwijde Feestfondsen",
 					"eng": "Global Party Funds"
-				},
-				"players": {
-					"sponsorTitle": {
-						"trans": "Mede mogelijk gemaakt door:",
-						"eng": "Sponsored by:"
-					}
 				}
 			},
 			"dynamicTutorial": {
@@ -1286,6 +1309,12 @@
 				"title": {
 					"trans": "Mijn kraam",
 					"eng": "My Stall"
+				}
+			},
+			"bankShortcut": {
+				"title": {
+					"trans": "Kluis",
+					"eng": "Vault"
 				}
 			},
 			"abortWarningTitle": {
@@ -2613,35 +2642,6 @@
 			}
 		}
 	},
-	"caliTrain": {
-		"players": {
-			"sponsorTitle2": {
-				"trans": "Mede mogelijk gemaakt door:",
-				"eng": "Sponsored by:"
-			}
-		},
-		"progressTitle1": {
-			"vars": [
-				"time"
-			],
-			"trans": "Cali Fondsen ${time}",
-			"eng": "Cali Funds ${time}"
-		},
-		"progressTitle2": {
-			"vars": [
-				"time"
-			],
-			"trans": "Cali Fondsen ${time}",
-			"eng": "Cali Funds ${time}"
-		},
-		"announcement": {
-			"vars": [
-				"percent"
-			],
-			"trans": "Kalibratie (${percent}%) zal over enkele minuten worden uitgevoerd",
-			"eng": "Calibration ${percent}% has been deployed"
-		}
-	},
 	"buffActivation": {
 		"expBuff": {
 			"title": {
@@ -2854,17 +2854,9 @@
 			"trans": "Volgende power-up: ${time}",
 			"eng": "Next buff: ${time}"
 		},
-		"subtitle": {
-			"trans": "Gehost door:",
-			"eng": "Hosted by:"
-		},
-		"subtitleMulti": {
-			"trans": "Klik om feesthosts te bekijken:",
-			"eng": "Click to view party hosts:"
-		},
-		"button": {
-			"trans": "Verdien wat street cred",
-			"eng": "Give street cred"
+		"subtitleMulti2": {
+			"trans": "Klik om hosts te bekijken:",
+			"eng": "Click to view hosts:"
 		},
 		"button,": {
 			"vars": [
@@ -2886,10 +2878,6 @@
 		"subtitleMulti": {
 			"trans": "Klik om feesthosts te bekijken:",
 			"eng": "Click to view party hosts:"
-		},
-		"button": {
-			"trans": "Verdien respect op straat",
-			"eng": "Give street cred"
 		},
 		"button,": {
 			"vars": [
@@ -4715,6 +4703,10 @@
 			"trans": "Prestige",
 			"eng": "Prestige"
 		},
+		"donation33": {
+			"trans": "Netrunner",
+			"eng": "Netrunner"
+		},
 		"moderator": {
 			"trans": "Moderator",
 			"eng": "Moderator"
@@ -5973,6 +5965,46 @@
 				},
 				"9": {
 					"trans": "Meer komt eraan in een toekomstige update",
+					"eng": "More coming in future update"
+				}
+			}
+		},
+		"donation33": {
+			"benefits": {
+				"1": {
+					"trans": "\"Netrunner\" donatietitel",
+					"eng": "\"Netrunner\" donation title"
+				},
+				"2": {
+					"trans": "Ontgrendel de aanpassing van je profielfoto",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "Netrunner-frame (met animatie)",
+					"eng": "Netrunner frame (with animation)"
+				},
+				"4": {
+					"trans": "Netrunner Profiel (met animatie)",
+					"eng": "Netrunner Profile (with animation)"
+				},
+				"5": {
+					"trans": "Ontgrendel aangepaste bio",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "Netrunner profieldecoratie",
+					"eng": "Netrunner profile decoration"
+				},
+				"7": {
+					"trans": "Pas het motto van de bende aan",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "Pas gangafbeelding aan",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "Meer komt in een toekomstige update",
 					"eng": "More coming in future update"
 				}
 			}
@@ -9344,6 +9376,16 @@
 			"eng": "You have exchanged ${amount} ${item} for ${item2}"
 		}
 	},
+	"buffSponsorModal": {
+		"viewProfile": {
+			"trans": "Bekijk Profiel",
+			"eng": "View Profile"
+		},
+		"giveCredit": {
+			"trans": "Geef Straatcredibility",
+			"eng": "Give Street Cred"
+		}
+	},
 	"bundleDetailsModal": {
 		"bundle": {
 			"trans": "bundel",
@@ -9471,9 +9513,15 @@
 				"trans": "Activeer huisdier herrijzen",
 				"eng": "Activate pet revive"
 			},
-			"loading": {
-				"trans": "Activeren...",
-				"eng": "Activating..."
+			"confirmModal": {
+				"title": {
+					"trans": "Activeer huisdier herlevingsbuff",
+					"eng": "Activate pet revive buff"
+				},
+				"message": {
+					"trans": "Weet je zeker dat je de huisdier herlevingsboost wilt activeren? Dit stelt alle spelers in staat om één huisdier te herleven tijdens de duur van de boost",
+					"eng": "Are you sure you want to activate pet revive buff? this will allow all players to revive one pet during the buff duration"
+				}
 			}
 		},
 		"title": {

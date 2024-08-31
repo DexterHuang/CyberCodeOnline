@@ -73,6 +73,35 @@
 			"eng": "Profile"
 		}
 	},
+	"caliTrain": {
+		"players": {
+			"sponsors": {
+				"trans": "赞助商：",
+				"eng": "Sponsor:"
+			}
+		},
+		"progressTitle1": {
+			"vars": [
+				"time"
+			],
+			"trans": "卡利基金 ${time}",
+			"eng": "Cali Funds ${time}"
+		},
+		"progressTitle2": {
+			"vars": [
+				"time"
+			],
+			"trans": "卡利基金 ${time}",
+			"eng": "Cali Funds ${time}"
+		},
+		"announcement": {
+			"vars": [
+				"percent"
+			],
+			"trans": "校准（${percent}%）将在几分钟内部署。",
+			"eng": "Calibration ${percent}% has been deployed"
+		}
+	},
 	"ui": {
 		"bulkCraft": {
 			"amountSelect": {
@@ -212,12 +241,6 @@
 				"progressTitle": {
 					"trans": "全球派对基金",
 					"eng": "Global Party Funds"
-				},
-				"players": {
-					"sponsorTitle": {
-						"trans": "赞助商：",
-						"eng": "Sponsored by:"
-					}
 				}
 			},
 			"dynamicTutorial": {
@@ -1286,6 +1309,12 @@
 				"title": {
 					"trans": "我的摊位",
 					"eng": "My Stall"
+				}
+			},
+			"bankShortcut": {
+				"title": {
+					"trans": "保险库",
+					"eng": "Vault"
 				}
 			},
 			"abortWarningTitle": {
@@ -2613,35 +2642,6 @@
 			}
 		}
 	},
-	"caliTrain": {
-		"players": {
-			"sponsorTitle2": {
-				"trans": "赞助商：",
-				"eng": "Sponsored by:"
-			}
-		},
-		"progressTitle1": {
-			"vars": [
-				"time"
-			],
-			"trans": "卡利基金 ${time}",
-			"eng": "Cali Funds ${time}"
-		},
-		"progressTitle2": {
-			"vars": [
-				"time"
-			],
-			"trans": "卡利基金 ${time}",
-			"eng": "Cali Funds ${time}"
-		},
-		"announcement": {
-			"vars": [
-				"percent"
-			],
-			"trans": "校准（${percent}%）将在几分钟内部署。",
-			"eng": "Calibration ${percent}% has been deployed"
-		}
-	},
 	"buffActivation": {
 		"expBuff": {
 			"title": {
@@ -2854,17 +2854,9 @@
 			"trans": "下一个增益效果：${time}",
 			"eng": "Next buff: ${time}"
 		},
-		"subtitle": {
-			"trans": "主持人：",
-			"eng": "Hosted by:"
-		},
-		"subtitleMulti": {
-			"trans": "点击查看派对主办者：",
-			"eng": "Click to view party hosts:"
-		},
-		"button": {
-			"trans": "赢得街头尊重",
-			"eng": "Give street cred"
+		"subtitleMulti2": {
+			"trans": "点击查看主机：",
+			"eng": "Click to view hosts:"
 		},
 		"button,": {
 			"vars": [
@@ -2886,10 +2878,6 @@
 		"subtitleMulti": {
 			"trans": "点击查看派对主办者：",
 			"eng": "Click to view party hosts:"
-		},
-		"button": {
-			"trans": "给予街头声望",
-			"eng": "Give street cred"
 		},
 		"button,": {
 			"vars": [
@@ -4715,6 +4703,10 @@
 			"trans": "声望",
 			"eng": "Prestige"
 		},
+		"donation33": {
+			"trans": "网络潜行者",
+			"eng": "Netrunner"
+		},
 		"moderator": {
 			"trans": "管理员",
 			"eng": "Moderator"
@@ -5962,6 +5954,46 @@
 				"6": {
 					"trans": "海滩卡片个人资料装饰",
 					"eng": "Beach Card profile decoration"
+				},
+				"7": {
+					"trans": "自定义帮派座右铭",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "自定义帮派形象",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "未来更新将会有更多内容。",
+					"eng": "More coming in future update"
+				}
+			}
+		},
+		"donation33": {
+			"benefits": {
+				"1": {
+					"trans": "\"Netrunner\" 捐赠标题",
+					"eng": "\"Netrunner\" donation title"
+				},
+				"2": {
+					"trans": "解锁头像自定义功能",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "网络潜行者框架（带动画）",
+					"eng": "Netrunner frame (with animation)"
+				},
+				"4": {
+					"trans": "网络潜行者档案（带动画）",
+					"eng": "Netrunner Profile (with animation)"
+				},
+				"5": {
+					"trans": "解锁自定义简介",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "网络潜行者个人资料装饰",
+					"eng": "Netrunner profile decoration"
 				},
 				"7": {
 					"trans": "自定义帮派座右铭",
@@ -9557,6 +9589,16 @@
 			"eng": "You have exchanged ${amount} ${item} for ${item2}"
 		}
 	},
+	"buffSponsorModal": {
+		"viewProfile": {
+			"trans": "查看个人资料",
+			"eng": "View Profile"
+		},
+		"giveCredit": {
+			"trans": "给予街头信誉",
+			"eng": "Give Street Cred"
+		}
+	},
 	"bundleDetailsModal": {
 		"bundle": {
 			"trans": "捆绑包",
@@ -9684,9 +9726,15 @@
 				"trans": "激活宠物复活",
 				"eng": "Activate pet revive"
 			},
-			"loading": {
-				"trans": "启动中...",
-				"eng": "Activating..."
+			"confirmModal": {
+				"title": {
+					"trans": "激活宠物复活增益",
+					"eng": "Activate pet revive buff"
+				},
+				"message": {
+					"trans": "您确定要激活宠物复活增益吗？这将允许所有玩家在增益持续期间复活一只宠物。",
+					"eng": "Are you sure you want to activate pet revive buff? this will allow all players to revive one pet during the buff duration"
+				}
 			}
 		},
 		"title": {

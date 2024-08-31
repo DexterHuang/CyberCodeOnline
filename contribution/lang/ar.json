@@ -73,6 +73,35 @@
 			"eng": "Profile"
 		}
 	},
+	"caliTrain": {
+		"players": {
+			"sponsors": {
+				"trans": "الراعي:",
+				"eng": "Sponsor:"
+			}
+		},
+		"progressTitle1": {
+			"vars": [
+				"time"
+			],
+			"trans": "صندوق كالي ${time}",
+			"eng": "Cali Funds ${time}"
+		},
+		"progressTitle2": {
+			"vars": [
+				"time"
+			],
+			"trans": "صندوق كالي ${time}",
+			"eng": "Cali Funds ${time}"
+		},
+		"announcement": {
+			"vars": [
+				"percent"
+			],
+			"trans": "سيتم تنفيذ عملية المعايرة (${percent}%) خلال بضع دقائق",
+			"eng": "Calibration ${percent}% has been deployed"
+		}
+	},
 	"ui": {
 		"bulkCraft": {
 			"amountSelect": {
@@ -212,12 +241,6 @@
 				"progressTitle": {
 					"trans": "صندوق الحفلات العالمي",
 					"eng": "Global Party Funds"
-				},
-				"players": {
-					"sponsorTitle": {
-						"trans": "برعاية:",
-						"eng": "Sponsored by:"
-					}
 				}
 			},
 			"dynamicTutorial": {
@@ -1286,6 +1309,12 @@
 				"title": {
 					"trans": "كشكي",
 					"eng": "My Stall"
+				}
+			},
+			"bankShortcut": {
+				"title": {
+					"trans": "خزنة",
+					"eng": "Vault"
 				}
 			},
 			"abortWarningTitle": {
@@ -2613,35 +2642,6 @@
 			}
 		}
 	},
-	"caliTrain": {
-		"players": {
-			"sponsorTitle2": {
-				"trans": "برعاية:",
-				"eng": "Sponsored by:"
-			}
-		},
-		"progressTitle1": {
-			"vars": [
-				"time"
-			],
-			"trans": "صندوق كالي ${time}",
-			"eng": "Cali Funds ${time}"
-		},
-		"progressTitle2": {
-			"vars": [
-				"time"
-			],
-			"trans": "صندوق كالي ${time}",
-			"eng": "Cali Funds ${time}"
-		},
-		"announcement": {
-			"vars": [
-				"percent"
-			],
-			"trans": "سيتم تنفيذ عملية المعايرة (${percent}%) خلال بضع دقائق",
-			"eng": "Calibration ${percent}% has been deployed"
-		}
-	},
 	"buffActivation": {
 		"expBuff": {
 			"title": {
@@ -2854,17 +2854,9 @@
 			"trans": "التحسين التالي: ${time}",
 			"eng": "Next buff: ${time}"
 		},
-		"subtitle": {
-			"trans": "مستضيف بواسطة:",
-			"eng": "Hosted by:"
-		},
-		"subtitleMulti": {
-			"trans": "انقر لعرض مُضيفي الحفلات:",
-			"eng": "Click to view party hosts:"
-		},
-		"button": {
-			"trans": "اكسب الاحترام في الشوارع",
-			"eng": "Give street cred"
+		"subtitleMulti2": {
+			"trans": "انقر لعرض المضيفين:",
+			"eng": "Click to view hosts:"
 		},
 		"button,": {
 			"vars": [
@@ -2886,10 +2878,6 @@
 		"subtitleMulti": {
 			"trans": "إضغط لعرض مُضيفي الحفلات:",
 			"eng": "Click to view party hosts:"
-		},
-		"button": {
-			"trans": "اكسب احترام الشارع",
-			"eng": "Give street cred"
 		},
 		"button,": {
 			"vars": [
@@ -4715,6 +4703,10 @@
 			"trans": "بريستيج",
 			"eng": "Prestige"
 		},
+		"donation33": {
+			"trans": "نتراونر",
+			"eng": "Netrunner"
+		},
 		"moderator": {
 			"trans": "مشرف",
 			"eng": "Moderator"
@@ -5962,6 +5954,46 @@
 				"6": {
 					"trans": "تزيين ملف بطاقة الشاطئ",
 					"eng": "Beach Card profile decoration"
+				},
+				"7": {
+					"trans": "خصص شعار العصابة",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "تخصيص صورة العصابة",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "المزيد قادم في التحديثات المستقبلية",
+					"eng": "More coming in future update"
+				}
+			}
+		},
+		"donation33": {
+			"benefits": {
+				"1": {
+					"trans": "عنوان تبرع \"Netrunner\"",
+					"eng": "\"Netrunner\" donation title"
+				},
+				"2": {
+					"trans": "فتح تخصيص صورة الملف الشخصي",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "إطار نترنر (مع الرسوم المتحركة)",
+					"eng": "Netrunner frame (with animation)"
+				},
+				"4": {
+					"trans": "ملف نترونر (مع الرسوم المتحركة)",
+					"eng": "Netrunner Profile (with animation)"
+				},
+				"5": {
+					"trans": "فتح السيرة الذاتية المخصصة",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "تزيين ملف نترنر",
+					"eng": "Netrunner profile decoration"
 				},
 				"7": {
 					"trans": "خصص شعار العصابة",
@@ -9344,6 +9376,16 @@
 			"eng": "You have exchanged ${amount} ${item} for ${item2}"
 		}
 	},
+	"buffSponsorModal": {
+		"viewProfile": {
+			"trans": "عرض الملف الشخصي",
+			"eng": "View Profile"
+		},
+		"giveCredit": {
+			"trans": "امنح سمعة الشارع",
+			"eng": "Give Street Cred"
+		}
+	},
 	"bundleDetailsModal": {
 		"bundle": {
 			"trans": "حزمة",
@@ -9471,9 +9513,15 @@
 				"trans": "تنشيط إحياء الحيوان الأليف",
 				"eng": "Activate pet revive"
 			},
-			"loading": {
-				"trans": "تنشيط...",
-				"eng": "Activating..."
+			"confirmModal": {
+				"title": {
+					"trans": "تفعيل تعزيز إحياء الحيوانات الأليفة",
+					"eng": "Activate pet revive buff"
+				},
+				"message": {
+					"trans": "هل أنت متأكد أنك تريد تفعيل تعزيز إحياء الحيوانات الأليفة؟ سيسمح هذا لجميع اللاعبين بإحياء حيوان أليف واحد خلال مدة التعزيز",
+					"eng": "Are you sure you want to activate pet revive buff? this will allow all players to revive one pet during the buff duration"
+				}
 			}
 		},
 		"title": {

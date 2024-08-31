@@ -73,6 +73,35 @@
 			"eng": "Profile"
 		}
 	},
+	"caliTrain": {
+		"players": {
+			"sponsors": {
+				"trans": "Nhà tài trợ:",
+				"eng": "Sponsor:"
+			}
+		},
+		"progressTitle1": {
+			"vars": [
+				"time"
+			],
+			"trans": "Quỹ Cali ${time}",
+			"eng": "Cali Funds ${time}"
+		},
+		"progressTitle2": {
+			"vars": [
+				"time"
+			],
+			"trans": "Quỹ Cali ${time}",
+			"eng": "Cali Funds ${time}"
+		},
+		"announcement": {
+			"vars": [
+				"percent"
+			],
+			"trans": "Việc hiệu chuẩn (${percent}%) sẽ được triển khai trong vài phút",
+			"eng": "Calibration ${percent}% has been deployed"
+		}
+	},
 	"ui": {
 		"bulkCraft": {
 			"amountSelect": {
@@ -212,12 +241,6 @@
 				"progressTitle": {
 					"trans": "Quỹ Tiệc Tùng Toàn Cầu",
 					"eng": "Global Party Funds"
-				},
-				"players": {
-					"sponsorTitle": {
-						"trans": "Được tài trợ bởi:",
-						"eng": "Sponsored by:"
-					}
 				}
 			},
 			"dynamicTutorial": {
@@ -1286,6 +1309,12 @@
 				"title": {
 					"trans": "Gian hàng của tôi",
 					"eng": "My Stall"
+				}
+			},
+			"bankShortcut": {
+				"title": {
+					"trans": "Hầm chứa",
+					"eng": "Vault"
 				}
 			},
 			"abortWarningTitle": {
@@ -2613,35 +2642,6 @@
 			}
 		}
 	},
-	"caliTrain": {
-		"players": {
-			"sponsorTitle2": {
-				"trans": "Được tài trợ bởi:",
-				"eng": "Sponsored by:"
-			}
-		},
-		"progressTitle1": {
-			"vars": [
-				"time"
-			],
-			"trans": "Quỹ Cali ${time}",
-			"eng": "Cali Funds ${time}"
-		},
-		"progressTitle2": {
-			"vars": [
-				"time"
-			],
-			"trans": "Quỹ Cali ${time}",
-			"eng": "Cali Funds ${time}"
-		},
-		"announcement": {
-			"vars": [
-				"percent"
-			],
-			"trans": "Việc hiệu chuẩn (${percent}%) sẽ được triển khai trong vài phút",
-			"eng": "Calibration ${percent}% has been deployed"
-		}
-	},
 	"buffActivation": {
 		"expBuff": {
 			"title": {
@@ -2854,17 +2854,9 @@
 			"trans": "Buff tiếp theo: ${time}",
 			"eng": "Next buff: ${time}"
 		},
-		"subtitle": {
-			"trans": "Được tổ chức bởi:",
-			"eng": "Hosted by:"
-		},
-		"subtitleMulti": {
-			"trans": "Nhấn để xem các người chơi chủ trì bữa tiệc:",
-			"eng": "Click to view party hosts:"
-		},
-		"button": {
-			"trans": "Tăng độ \"cool\" lên",
-			"eng": "Give street cred"
+		"subtitleMulti2": {
+			"trans": "Nhấn để xem danh sách máy chủ:",
+			"eng": "Click to view hosts:"
 		},
 		"button,": {
 			"vars": [
@@ -2886,10 +2878,6 @@
 		"subtitleMulti": {
 			"trans": "Nhấn để xem các người chơi chủ trì bữa tiệc:",
 			"eng": "Click to view party hosts:"
-		},
-		"button": {
-			"trans": "Nhận địa vị trong giới gang đường",
-			"eng": "Give street cred"
 		},
 		"button,": {
 			"vars": [
@@ -4715,6 +4703,10 @@
 			"trans": "Danh tiếng",
 			"eng": "Prestige"
 		},
+		"donation33": {
+			"trans": "Netrunner",
+			"eng": "Netrunner"
+		},
 		"moderator": {
 			"trans": "Người điều hành",
 			"eng": "Moderator"
@@ -5962,6 +5954,46 @@
 				"6": {
 					"trans": "Trang trí hồ sơ Thẻ Bãi Biển",
 					"eng": "Beach Card profile decoration"
+				},
+				"7": {
+					"trans": "Tùy chỉnh khẩu hiệu băng nhóm",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "Tùy chỉnh hình ảnh băng nhóm",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "Sẽ có thêm trong bản cập nhật tương lai",
+					"eng": "More coming in future update"
+				}
+			}
+		},
+		"donation33": {
+			"benefits": {
+				"1": {
+					"trans": "Tiêu đề quyên góp \"Netrunner\"",
+					"eng": "\"Netrunner\" donation title"
+				},
+				"2": {
+					"trans": "Mở khóa tùy chỉnh hình đại diện",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "Khung Netrunner (có hoạt ảnh)",
+					"eng": "Netrunner frame (with animation)"
+				},
+				"4": {
+					"trans": "Hồ sơ Netrunner (có hoạt ảnh)",
+					"eng": "Netrunner Profile (with animation)"
+				},
+				"5": {
+					"trans": "Mở khóa tiểu sử tùy chỉnh",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "Trang trí hồ sơ Netrunner",
+					"eng": "Netrunner profile decoration"
 				},
 				"7": {
 					"trans": "Tùy chỉnh khẩu hiệu băng nhóm",
@@ -9344,6 +9376,16 @@
 			"eng": "You have exchanged ${amount} ${item} for ${item2}"
 		}
 	},
+	"buffSponsorModal": {
+		"viewProfile": {
+			"trans": "Xem Hồ Sơ",
+			"eng": "View Profile"
+		},
+		"giveCredit": {
+			"trans": "Tặng Uy Tín Đường Phố",
+			"eng": "Give Street Cred"
+		}
+	},
 	"bundleDetailsModal": {
 		"bundle": {
 			"trans": "bó",
@@ -9471,9 +9513,15 @@
 				"trans": "Kích hoạt hồi sinh thú cưng",
 				"eng": "Activate pet revive"
 			},
-			"loading": {
-				"trans": "Kích hoạt...",
-				"eng": "Activating..."
+			"confirmModal": {
+				"title": {
+					"trans": "Kích hoạt buff hồi sinh thú cưng",
+					"eng": "Activate pet revive buff"
+				},
+				"message": {
+					"trans": "Bạn có chắc chắn muốn kích hoạt buff hồi sinh thú cưng không? Điều này sẽ cho phép tất cả người chơi hồi sinh một thú cưng trong thời gian buff",
+					"eng": "Are you sure you want to activate pet revive buff? this will allow all players to revive one pet during the buff duration"
+				}
 			}
 		},
 		"title": {

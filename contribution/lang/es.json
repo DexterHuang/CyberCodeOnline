@@ -73,6 +73,35 @@
 			"eng": "Profile"
 		}
 	},
+	"caliTrain": {
+		"players": {
+			"sponsors": {
+				"trans": "Sponsor:",
+				"eng": "Sponsor:"
+			}
+		},
+		"progressTitle1": {
+			"vars": [
+				"time"
+			],
+			"trans": "Fondos de Cali ${time}",
+			"eng": "Cali Funds ${time}"
+		},
+		"progressTitle2": {
+			"vars": [
+				"time"
+			],
+			"trans": "Fondos de Cali ${time}",
+			"eng": "Cali Funds ${time}"
+		},
+		"announcement": {
+			"vars": [
+				"percent"
+			],
+			"trans": "La calibración (${percent}%) se implementará en unos minutos",
+			"eng": "Calibration ${percent}% has been deployed"
+		}
+	},
 	"ui": {
 		"bulkCraft": {
 			"amountSelect": {
@@ -212,12 +241,6 @@
 				"progressTitle": {
 					"trans": "Fondos Globales de Fiesta",
 					"eng": "Global Party Funds"
-				},
-				"players": {
-					"sponsorTitle": {
-						"trans": "Patrocinado por:",
-						"eng": "Sponsored by:"
-					}
 				}
 			},
 			"dynamicTutorial": {
@@ -1286,6 +1309,12 @@
 				"title": {
 					"trans": "Mi Tienda",
 					"eng": "My Stall"
+				}
+			},
+			"bankShortcut": {
+				"title": {
+					"trans": "Bóveda",
+					"eng": "Vault"
 				}
 			},
 			"abortWarningTitle": {
@@ -2613,35 +2642,6 @@
 			}
 		}
 	},
-	"caliTrain": {
-		"players": {
-			"sponsorTitle2": {
-				"trans": "Patrocinado por:",
-				"eng": "Sponsored by:"
-			}
-		},
-		"progressTitle1": {
-			"vars": [
-				"time"
-			],
-			"trans": "Fondos de Cali ${time}",
-			"eng": "Cali Funds ${time}"
-		},
-		"progressTitle2": {
-			"vars": [
-				"time"
-			],
-			"trans": "Fondos de Cali ${time}",
-			"eng": "Cali Funds ${time}"
-		},
-		"announcement": {
-			"vars": [
-				"percent"
-			],
-			"trans": "La calibración (${percent}%) se implementará en unos minutos",
-			"eng": "Calibration ${percent}% has been deployed"
-		}
-	},
 	"buffActivation": {
 		"expBuff": {
 			"title": {
@@ -2854,17 +2854,9 @@
 			"trans": "Siguiente mejora: ${time}",
 			"eng": "Next buff: ${time}"
 		},
-		"subtitle": {
-			"trans": "Organizado por:",
-			"eng": "Hosted by:"
-		},
-		"subtitleMulti": {
-			"trans": "Haz clic para ver los anfitriones de la fiesta:",
-			"eng": "Click to view party hosts:"
-		},
-		"button": {
-			"trans": "Ganar respeto en la calle",
-			"eng": "Give street cred"
+		"subtitleMulti2": {
+			"trans": "Haz clic para ver los hosts:",
+			"eng": "Click to view hosts:"
 		},
 		"button,": {
 			"vars": [
@@ -2886,10 +2878,6 @@
 		"subtitleMulti": {
 			"trans": "Haz clic para ver los anfitriones de la fiesta:",
 			"eng": "Click to view party hosts:"
-		},
-		"button": {
-			"trans": "Ganar respeto en la calle",
-			"eng": "Give street cred"
 		},
 		"button,": {
 			"vars": [
@@ -4715,6 +4703,10 @@
 			"trans": "Prestigio",
 			"eng": "Prestige"
 		},
+		"donation33": {
+			"trans": "Netrunner",
+			"eng": "Netrunner"
+		},
 		"moderator": {
 			"trans": "Moderador",
 			"eng": "Moderator"
@@ -5962,6 +5954,46 @@
 				"6": {
 					"trans": "Decoración del perfil de la tarjeta de playa",
 					"eng": "Beach Card profile decoration"
+				},
+				"7": {
+					"trans": "Personaliza el lema de la banda",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "Personaliza la imagen de la banda",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "Más contenido en la próxima actualización",
+					"eng": "More coming in future update"
+				}
+			}
+		},
+		"donation33": {
+			"benefits": {
+				"1": {
+					"trans": "Título de donación \"Netrunner\"",
+					"eng": "\"Netrunner\" donation title"
+				},
+				"2": {
+					"trans": "Desbloquear la personalización de la foto de perfil",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "Marco de Netrunner (con animación)",
+					"eng": "Netrunner frame (with animation)"
+				},
+				"4": {
+					"trans": "Perfil de Netrunner (con animación)",
+					"eng": "Netrunner Profile (with animation)"
+				},
+				"5": {
+					"trans": "Desbloquear biografía personalizada",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "Decoración del perfil de Netrunner",
+					"eng": "Netrunner profile decoration"
 				},
 				"7": {
 					"trans": "Personaliza el lema de la banda",
@@ -9344,6 +9376,16 @@
 			"eng": "You have exchanged ${amount} ${item} for ${item2}"
 		}
 	},
+	"buffSponsorModal": {
+		"viewProfile": {
+			"trans": "Ver Perfil",
+			"eng": "View Profile"
+		},
+		"giveCredit": {
+			"trans": "Dar Credibilidad Callejera",
+			"eng": "Give Street Cred"
+		}
+	},
 	"bundleDetailsModal": {
 		"bundle": {
 			"trans": "paquete",
@@ -9471,9 +9513,15 @@
 				"trans": "Revivir mascota activado",
 				"eng": "Activate pet revive"
 			},
-			"loading": {
-				"trans": "Iniciando...",
-				"eng": "Activating..."
+			"confirmModal": {
+				"title": {
+					"trans": "Activar el buff de resurrección de mascotas",
+					"eng": "Activate pet revive buff"
+				},
+				"message": {
+					"trans": "¿Estás seguro de que quieres activar el buff de resurrección de mascotas? Esto permitirá a todos los jugadores revivir una mascota durante la duración del buff",
+					"eng": "Are you sure you want to activate pet revive buff? this will allow all players to revive one pet during the buff duration"
+				}
 			}
 		},
 		"title": {

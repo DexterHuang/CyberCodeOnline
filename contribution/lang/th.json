@@ -73,6 +73,35 @@
 			"eng": "Profile"
 		}
 	},
+	"caliTrain": {
+		"players": {
+			"sponsors": {
+				"trans": "ผู้สนับสนุน:",
+				"eng": "Sponsor:"
+			}
+		},
+		"progressTitle1": {
+			"vars": [
+				"time"
+			],
+			"trans": "เงิน Cali ${time}",
+			"eng": "Cali Funds ${time}"
+		},
+		"progressTitle2": {
+			"vars": [
+				"time"
+			],
+			"trans": "เงิน Cali ${time}",
+			"eng": "Cali Funds ${time}"
+		},
+		"announcement": {
+			"vars": [
+				"percent"
+			],
+			"trans": "การปรับแต่ง (${percent}%) จะถูกใช้งานในไม่กี่นาทีแล้วล่ะ",
+			"eng": "Calibration ${percent}% has been deployed"
+		}
+	},
 	"ui": {
 		"bulkCraft": {
 			"amountSelect": {
@@ -212,12 +241,6 @@
 				"progressTitle": {
 					"trans": "กองทุนปาร์ตี้ระดับโลก",
 					"eng": "Global Party Funds"
-				},
-				"players": {
-					"sponsorTitle": {
-						"trans": "ได้รับการสนับสนุนโดย:",
-						"eng": "Sponsored by:"
-					}
 				}
 			},
 			"dynamicTutorial": {
@@ -1286,6 +1309,12 @@
 				"title": {
 					"trans": "คอกของฉัน",
 					"eng": "My Stall"
+				}
+			},
+			"bankShortcut": {
+				"title": {
+					"trans": "ห้องเก็บของ",
+					"eng": "Vault"
 				}
 			},
 			"abortWarningTitle": {
@@ -2613,35 +2642,6 @@
 			}
 		}
 	},
-	"caliTrain": {
-		"players": {
-			"sponsorTitle2": {
-				"trans": "ได้รับการสนับสนุนโดย:",
-				"eng": "Sponsored by:"
-			}
-		},
-		"progressTitle1": {
-			"vars": [
-				"time"
-			],
-			"trans": "เงิน Cali ${time}",
-			"eng": "Cali Funds ${time}"
-		},
-		"progressTitle2": {
-			"vars": [
-				"time"
-			],
-			"trans": "เงิน Cali ${time}",
-			"eng": "Cali Funds ${time}"
-		},
-		"announcement": {
-			"vars": [
-				"percent"
-			],
-			"trans": "การปรับแต่ง (${percent}%) จะถูกใช้งานในไม่กี่นาทีแล้วล่ะ",
-			"eng": "Calibration ${percent}% has been deployed"
-		}
-	},
 	"buffActivation": {
 		"expBuff": {
 			"title": {
@@ -2854,17 +2854,9 @@
 			"trans": "บัฟต่อไป: ${time}",
 			"eng": "Next buff: ${time}"
 		},
-		"subtitle": {
-			"trans": "จัดโดย:",
-			"eng": "Hosted by:"
-		},
-		"subtitleMulti": {
-			"trans": "คลิกเพื่อดูเจ้าภาพปาร์ตี้:",
-			"eng": "Click to view party hosts:"
-		},
-		"button": {
-			"trans": "ให้เกียรติยศบนถนน",
-			"eng": "Give street cred"
+		"subtitleMulti2": {
+			"trans": "คลิกเพื่อดูโฮสต์:",
+			"eng": "Click to view hosts:"
 		},
 		"button,": {
 			"vars": [
@@ -2886,10 +2878,6 @@
 		"subtitleMulti": {
 			"trans": "คลิกเพื่อดูเจ้าภาพปาร์ตี้:",
 			"eng": "Click to view party hosts:"
-		},
-		"button": {
-			"trans": "ให้เกียรติยศบนถนน",
-			"eng": "Give street cred"
 		},
 		"button,": {
 			"vars": [
@@ -4715,6 +4703,10 @@
 			"trans": "เกียรติยศ",
 			"eng": "Prestige"
 		},
+		"donation33": {
+			"trans": "นักแฮ็กเกอร์",
+			"eng": "Netrunner"
+		},
 		"moderator": {
 			"trans": "พิธีกร",
 			"eng": "Moderator"
@@ -5962,6 +5954,46 @@
 				"6": {
 					"trans": "การตกแต่งโปรไฟล์การ์ดชายหาด",
 					"eng": "Beach Card profile decoration"
+				},
+				"7": {
+					"trans": "ปรับแต่งคำขวัญแก๊ง",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "ปรับแต่งภาพแก๊ง",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "มีเพิ่มเติมในอัปเดตในอนาคต",
+					"eng": "More coming in future update"
+				}
+			}
+		},
+		"donation33": {
+			"benefits": {
+				"1": {
+					"trans": "\"การบริจาคของ Netrunner\"",
+					"eng": "\"Netrunner\" donation title"
+				},
+				"2": {
+					"trans": "ปลดล็อกการปรับแต่งรูปโปรไฟล์",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "กรอบเน็ตเตอร์รันเนอร์ (พร้อมอนิเมชั่น)",
+					"eng": "Netrunner frame (with animation)"
+				},
+				"4": {
+					"trans": "โปรไฟล์เน็ตรันเนอร์ (พร้อมอนิเมชั่น)",
+					"eng": "Netrunner Profile (with animation)"
+				},
+				"5": {
+					"trans": "ปลดล็อกชีวประวัติที่กำหนดเอง",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "การตกแต่งโปรไฟล์เน็ตรันเนอร์",
+					"eng": "Netrunner profile decoration"
 				},
 				"7": {
 					"trans": "ปรับแต่งคำขวัญแก๊ง",
@@ -9344,6 +9376,16 @@
 			"eng": "You have exchanged ${amount} ${item} for ${item2}"
 		}
 	},
+	"buffSponsorModal": {
+		"viewProfile": {
+			"trans": "ดูโปรไฟล์",
+			"eng": "View Profile"
+		},
+		"giveCredit": {
+			"trans": "ให้เครดิตในถนน",
+			"eng": "Give Street Cred"
+		}
+	},
 	"bundleDetailsModal": {
 		"bundle": {
 			"trans": "มัด",
@@ -9471,9 +9513,15 @@
 				"trans": "เปิดใช้งานการฟื้นคืนสัตว์เลี้ยง",
 				"eng": "Activate pet revive"
 			},
-			"loading": {
-				"trans": "กำลังเปิดใช้งาน...",
-				"eng": "Activating..."
+			"confirmModal": {
+				"title": {
+					"trans": "เปิดใช้งานบัฟฟื้นฟูสัตว์เลี้ยง",
+					"eng": "Activate pet revive buff"
+				},
+				"message": {
+					"trans": "คุณแน่ใจหรือว่าต้องการเปิดใช้งานบัฟฟื้นคืนชีพสัตว์เลี้ยง? นี่จะทำให้ผู้เล่นทุกคนสามารถฟื้นคืนชีพสัตว์เลี้ยงหนึ่งตัวในระยะเวลาของบัฟนี้ได้",
+					"eng": "Are you sure you want to activate pet revive buff? this will allow all players to revive one pet during the buff duration"
+				}
 			}
 		},
 		"title": {

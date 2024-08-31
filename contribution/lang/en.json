@@ -73,6 +73,35 @@
 			"eng": "Profile"
 		}
 	},
+	"caliTrain": {
+		"players": {
+			"sponsors": {
+				"trans": "Sponsor:",
+				"eng": "Sponsor:"
+			}
+		},
+		"progressTitle1": {
+			"vars": [
+				"time"
+			],
+			"trans": "Cali Funds ${time}",
+			"eng": "Cali Funds ${time}"
+		},
+		"progressTitle2": {
+			"vars": [
+				"time"
+			],
+			"trans": "Cali Funds ${time}",
+			"eng": "Cali Funds ${time}"
+		},
+		"announcement": {
+			"vars": [
+				"percent"
+			],
+			"trans": "Calibration ${percent}% has been deployed",
+			"eng": "Calibration ${percent}% has been deployed"
+		}
+	},
 	"ui": {
 		"bulkCraft": {
 			"amountSelect": {
@@ -212,12 +241,6 @@
 				"progressTitle": {
 					"trans": "Global Party Funds",
 					"eng": "Global Party Funds"
-				},
-				"players": {
-					"sponsorTitle": {
-						"trans": "Sponsored by:",
-						"eng": "Sponsored by:"
-					}
 				}
 			},
 			"dynamicTutorial": {
@@ -1286,6 +1309,12 @@
 				"title": {
 					"trans": "My Stall",
 					"eng": "My Stall"
+				}
+			},
+			"bankShortcut": {
+				"title": {
+					"trans": "Vault",
+					"eng": "Vault"
 				}
 			},
 			"abortWarningTitle": {
@@ -2613,35 +2642,6 @@
 			}
 		}
 	},
-	"caliTrain": {
-		"players": {
-			"sponsorTitle2": {
-				"trans": "Sponsored by:",
-				"eng": "Sponsored by:"
-			}
-		},
-		"progressTitle1": {
-			"vars": [
-				"time"
-			],
-			"trans": "Cali Funds ${time}",
-			"eng": "Cali Funds ${time}"
-		},
-		"progressTitle2": {
-			"vars": [
-				"time"
-			],
-			"trans": "Cali Funds ${time}",
-			"eng": "Cali Funds ${time}"
-		},
-		"announcement": {
-			"vars": [
-				"percent"
-			],
-			"trans": "Calibration ${percent}% has been deployed",
-			"eng": "Calibration ${percent}% has been deployed"
-		}
-	},
 	"buffActivation": {
 		"expBuff": {
 			"title": {
@@ -2854,17 +2854,9 @@
 			"trans": "Next buff: ${time}",
 			"eng": "Next buff: ${time}"
 		},
-		"subtitle": {
-			"trans": "Hosted by:",
-			"eng": "Hosted by:"
-		},
-		"subtitleMulti": {
-			"trans": "Click to view party hosts:",
-			"eng": "Click to view party hosts:"
-		},
-		"button": {
-			"trans": "Give street cred",
-			"eng": "Give street cred"
+		"subtitleMulti2": {
+			"trans": "Click to view hosts:",
+			"eng": "Click to view hosts:"
 		},
 		"button,": {
 			"vars": [
@@ -2886,10 +2878,6 @@
 		"subtitleMulti": {
 			"trans": "Click to view party hosts:",
 			"eng": "Click to view party hosts:"
-		},
-		"button": {
-			"trans": "Give street cred",
-			"eng": "Give street cred"
 		},
 		"button,": {
 			"vars": [
@@ -4715,6 +4703,10 @@
 			"trans": "Prestige",
 			"eng": "Prestige"
 		},
+		"donation33": {
+			"trans": "Netrunner",
+			"eng": "Netrunner"
+		},
 		"moderator": {
 			"trans": "Moderator",
 			"eng": "Moderator"
@@ -5962,6 +5954,46 @@
 				"6": {
 					"trans": "Beach Card profile decoration",
 					"eng": "Beach Card profile decoration"
+				},
+				"7": {
+					"trans": "Customize gang motto",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "Customize gang image",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "More coming in future update",
+					"eng": "More coming in future update"
+				}
+			}
+		},
+		"donation33": {
+			"benefits": {
+				"1": {
+					"trans": "\"Netrunner\" donation title",
+					"eng": "\"Netrunner\" donation title"
+				},
+				"2": {
+					"trans": "Unlock profile picture customization",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "Netrunner frame (with animation)",
+					"eng": "Netrunner frame (with animation)"
+				},
+				"4": {
+					"trans": "Netrunner Profile (with animation)",
+					"eng": "Netrunner Profile (with animation)"
+				},
+				"5": {
+					"trans": "Unlock custom bio",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "Netrunner profile decoration",
+					"eng": "Netrunner profile decoration"
 				},
 				"7": {
 					"trans": "Customize gang motto",
@@ -9557,6 +9589,16 @@
 			"eng": "You have exchanged ${amount} ${item} for ${item2}"
 		}
 	},
+	"buffSponsorModal": {
+		"viewProfile": {
+			"trans": "View Profile",
+			"eng": "View Profile"
+		},
+		"giveCredit": {
+			"trans": "Give Street Cred",
+			"eng": "Give Street Cred"
+		}
+	},
 	"bundleDetailsModal": {
 		"bundle": {
 			"trans": "bundle",
@@ -9684,9 +9726,15 @@
 				"trans": "Activate pet revive",
 				"eng": "Activate pet revive"
 			},
-			"loading": {
-				"trans": "Activating...",
-				"eng": "Activating..."
+			"confirmModal": {
+				"title": {
+					"trans": "Activate pet revive buff",
+					"eng": "Activate pet revive buff"
+				},
+				"message": {
+					"trans": "Are you sure you want to activate pet revive buff? this will allow all players to revive one pet during the buff duration",
+					"eng": "Are you sure you want to activate pet revive buff? this will allow all players to revive one pet during the buff duration"
+				}
 			}
 		},
 		"title": {

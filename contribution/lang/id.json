@@ -73,6 +73,35 @@
 			"eng": "Profile"
 		}
 	},
+	"caliTrain": {
+		"players": {
+			"sponsors": {
+				"trans": "Sponsor:",
+				"eng": "Sponsor:"
+			}
+		},
+		"progressTitle1": {
+			"vars": [
+				"time"
+			],
+			"trans": "Dana Cali ${time}",
+			"eng": "Cali Funds ${time}"
+		},
+		"progressTitle2": {
+			"vars": [
+				"time"
+			],
+			"trans": "Dana Cali ${time}",
+			"eng": "Cali Funds ${time}"
+		},
+		"announcement": {
+			"vars": [
+				"percent"
+			],
+			"trans": "Kalibrasi (${percent}%) sudah diterapkan",
+			"eng": "Calibration ${percent}% has been deployed"
+		}
+	},
 	"ui": {
 		"bulkCraft": {
 			"amountSelect": {
@@ -212,12 +241,6 @@
 				"progressTitle": {
 					"trans": "Dana Pesta Global",
 					"eng": "Global Party Funds"
-				},
-				"players": {
-					"sponsorTitle": {
-						"trans": "Didukung oleh:",
-						"eng": "Sponsored by:"
-					}
 				}
 			},
 			"dynamicTutorial": {
@@ -1286,6 +1309,12 @@
 				"title": {
 					"trans": "Kios saya",
 					"eng": "My Stall"
+				}
+			},
+			"bankShortcut": {
+				"title": {
+					"trans": "Brankas",
+					"eng": "Vault"
 				}
 			},
 			"abortWarningTitle": {
@@ -2613,35 +2642,6 @@
 			}
 		}
 	},
-	"caliTrain": {
-		"players": {
-			"sponsorTitle2": {
-				"trans": "Didukung oleh:",
-				"eng": "Sponsored by:"
-			}
-		},
-		"progressTitle1": {
-			"vars": [
-				"time"
-			],
-			"trans": "Dana Cali ${time}",
-			"eng": "Cali Funds ${time}"
-		},
-		"progressTitle2": {
-			"vars": [
-				"time"
-			],
-			"trans": "Dana Cali ${time}",
-			"eng": "Cali Funds ${time}"
-		},
-		"announcement": {
-			"vars": [
-				"percent"
-			],
-			"trans": "Kalibrasi (${percent}%) sudah diterapkan",
-			"eng": "Calibration ${percent}% has been deployed"
-		}
-	},
 	"buffActivation": {
 		"expBuff": {
 			"title": {
@@ -2854,17 +2854,9 @@
 			"trans": "Buff selanjutnya: ${time}",
 			"eng": "Next buff: ${time}"
 		},
-		"subtitle": {
-			"trans": "Dibawakan oleh:",
-			"eng": "Hosted by:"
-		},
-		"subtitleMulti": {
-			"trans": "Klik untuk melihat tuan rumah pesta:",
-			"eng": "Click to view party hosts:"
-		},
-		"button": {
-			"trans": "Beri reputasi jalanan",
-			"eng": "Give street cred"
+		"subtitleMulti2": {
+			"trans": "Klik untuk melihat host:",
+			"eng": "Click to view hosts:"
 		},
 		"button,": {
 			"vars": [
@@ -2886,10 +2878,6 @@
 		"subtitleMulti": {
 			"trans": "Klik untuk melihat tuan rumah pesta:",
 			"eng": "Click to view party hosts:"
-		},
-		"button": {
-			"trans": "Beri reputasi jalanan",
-			"eng": "Give street cred"
 		},
 		"button,": {
 			"vars": [
@@ -4715,6 +4703,10 @@
 			"trans": "Prestise",
 			"eng": "Prestige"
 		},
+		"donation33": {
+			"trans": "Netrunner",
+			"eng": "Netrunner"
+		},
 		"moderator": {
 			"trans": "Moderator",
 			"eng": "Moderator"
@@ -5969,6 +5961,46 @@
 				},
 				"8": {
 					"trans": "Kustomisasi gambar geng",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "Lebih banyak akan datang di pembaruan mendatang",
+					"eng": "More coming in future update"
+				}
+			}
+		},
+		"donation33": {
+			"benefits": {
+				"1": {
+					"trans": "Judul Donasi \"Netrunner\"",
+					"eng": "\"Netrunner\" donation title"
+				},
+				"2": {
+					"trans": "Buka kustomisasi foto profil",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "Netrunner frame (dengan animasi)",
+					"eng": "Netrunner frame (with animation)"
+				},
+				"4": {
+					"trans": "Profil Netrunner (dengan animasi)",
+					"eng": "Netrunner Profile (with animation)"
+				},
+				"5": {
+					"trans": "Buka bio kustom",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "Dekorasi profil Netrunner",
+					"eng": "Netrunner profile decoration"
+				},
+				"7": {
+					"trans": "Sesuaikan moto geng",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "Sesuaikan gambar geng",
 					"eng": "Customize gang image"
 				},
 				"9": {
@@ -9344,6 +9376,16 @@
 			"eng": "You have exchanged ${amount} ${item} for ${item2}"
 		}
 	},
+	"buffSponsorModal": {
+		"viewProfile": {
+			"trans": "Lihat Profil",
+			"eng": "View Profile"
+		},
+		"giveCredit": {
+			"trans": "Berikan Street Cred",
+			"eng": "Give Street Cred"
+		}
+	},
 	"bundleDetailsModal": {
 		"bundle": {
 			"trans": "bundel",
@@ -9471,9 +9513,15 @@
 				"trans": "Aktifkan penyembuhan hewan peliharaan",
 				"eng": "Activate pet revive"
 			},
-			"loading": {
-				"trans": "Mengaktifkan...",
-				"eng": "Activating..."
+			"confirmModal": {
+				"title": {
+					"trans": "Aktifkan buff revive hewan peliharaan",
+					"eng": "Activate pet revive buff"
+				},
+				"message": {
+					"trans": "Apakah kamu yakin ingin mengaktifkan buff revive hewan peliharaan? Ini akan memungkinkan semua pemain untuk menghidupkan kembali satu hewan peliharaan selama durasi buff",
+					"eng": "Are you sure you want to activate pet revive buff? this will allow all players to revive one pet during the buff duration"
+				}
 			}
 		},
 		"title": {

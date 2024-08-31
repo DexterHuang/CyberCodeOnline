@@ -73,6 +73,35 @@
 			"eng": "Profile"
 		}
 	},
+	"caliTrain": {
+		"players": {
+			"sponsors": {
+				"trans": "Sponsor:",
+				"eng": "Sponsor:"
+			}
+		},
+		"progressTitle1": {
+			"vars": [
+				"time"
+			],
+			"trans": "Fonduri Cali ${time}",
+			"eng": "Cali Funds ${time}"
+		},
+		"progressTitle2": {
+			"vars": [
+				"time"
+			],
+			"trans": "Fonduri Cali ${time}",
+			"eng": "Cali Funds ${time}"
+		},
+		"announcement": {
+			"vars": [
+				"percent"
+			],
+			"trans": "Calibrarea (${percent}%) va fi implementată în câteva minute",
+			"eng": "Calibration ${percent}% has been deployed"
+		}
+	},
 	"ui": {
 		"bulkCraft": {
 			"amountSelect": {
@@ -212,12 +241,6 @@
 				"progressTitle": {
 					"trans": "Fonduri Globale pentru Petreceri",
 					"eng": "Global Party Funds"
-				},
-				"players": {
-					"sponsorTitle": {
-						"trans": "Oferit de către:",
-						"eng": "Sponsored by:"
-					}
 				}
 			},
 			"dynamicTutorial": {
@@ -1286,6 +1309,12 @@
 				"title": {
 					"trans": "Standul meu",
 					"eng": "My Stall"
+				}
+			},
+			"bankShortcut": {
+				"title": {
+					"trans": "Seif",
+					"eng": "Vault"
 				}
 			},
 			"abortWarningTitle": {
@@ -2613,35 +2642,6 @@
 			}
 		}
 	},
-	"caliTrain": {
-		"players": {
-			"sponsorTitle2": {
-				"trans": "Sponsorizat de:",
-				"eng": "Sponsored by:"
-			}
-		},
-		"progressTitle1": {
-			"vars": [
-				"time"
-			],
-			"trans": "Fonduri Cali ${time}",
-			"eng": "Cali Funds ${time}"
-		},
-		"progressTitle2": {
-			"vars": [
-				"time"
-			],
-			"trans": "Fonduri Cali ${time}",
-			"eng": "Cali Funds ${time}"
-		},
-		"announcement": {
-			"vars": [
-				"percent"
-			],
-			"trans": "Calibrarea (${percent}%) va fi implementată în câteva minute",
-			"eng": "Calibration ${percent}% has been deployed"
-		}
-	},
 	"buffActivation": {
 		"expBuff": {
 			"title": {
@@ -2854,17 +2854,9 @@
 			"trans": "Următorul upgrade: ${time}",
 			"eng": "Next buff: ${time}"
 		},
-		"subtitle": {
-			"trans": "Gazduit de:",
-			"eng": "Hosted by:"
-		},
-		"subtitleMulti": {
-			"trans": "Apasă pentru a vedea gazdele petrecerii:",
-			"eng": "Click to view party hosts:"
-		},
-		"button": {
-			"trans": "Câștigă respectul străzii",
-			"eng": "Give street cred"
+		"subtitleMulti2": {
+			"trans": "Click pentru a vizualiza gazdele:",
+			"eng": "Click to view hosts:"
 		},
 		"button,": {
 			"vars": [
@@ -2886,10 +2878,6 @@
 		"subtitleMulti": {
 			"trans": "Apasă pentru a vedea gazdele petrecerii:",
 			"eng": "Click to view party hosts:"
-		},
-		"button": {
-			"trans": "Câștigă respectul străzii",
-			"eng": "Give street cred"
 		},
 		"button,": {
 			"vars": [
@@ -4715,6 +4703,10 @@
 			"trans": "Prestigiu",
 			"eng": "Prestige"
 		},
+		"donation33": {
+			"trans": "Netrunner",
+			"eng": "Netrunner"
+		},
 		"moderator": {
 			"trans": "Moderator",
 			"eng": "Moderator"
@@ -5962,6 +5954,46 @@
 				"6": {
 					"trans": "Decorațiune profil Card de Plajă",
 					"eng": "Beach Card profile decoration"
+				},
+				"7": {
+					"trans": "Personalizează motto-ul bandei",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "Personalizează imaginea bandei",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "Mai multe vor veni în actualizările viitoare",
+					"eng": "More coming in future update"
+				}
+			}
+		},
+		"donation33": {
+			"benefits": {
+				"1": {
+					"trans": "Titlu donație \"Netrunner\"",
+					"eng": "\"Netrunner\" donation title"
+				},
+				"2": {
+					"trans": "Deblochează personalizarea pozei de profil",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "Cadru Netrunner (cu animație)",
+					"eng": "Netrunner frame (with animation)"
+				},
+				"4": {
+					"trans": "Profil Netrunner (cu animație)",
+					"eng": "Netrunner Profile (with animation)"
+				},
+				"5": {
+					"trans": "Deblochează bio personalizat",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "Decorațiune profil Netrunner",
+					"eng": "Netrunner profile decoration"
 				},
 				"7": {
 					"trans": "Personalizează motto-ul bandei",
@@ -9344,6 +9376,16 @@
 			"eng": "You have exchanged ${amount} ${item} for ${item2}"
 		}
 	},
+	"buffSponsorModal": {
+		"viewProfile": {
+			"trans": "Vezi Profilul",
+			"eng": "View Profile"
+		},
+		"giveCredit": {
+			"trans": "Oferă Credibilitate pe Stradă",
+			"eng": "Give Street Cred"
+		}
+	},
 	"bundleDetailsModal": {
 		"bundle": {
 			"trans": "pachet",
@@ -9471,9 +9513,15 @@
 				"trans": "Activează reînvierea animalului de companie",
 				"eng": "Activate pet revive"
 			},
-			"loading": {
-				"trans": "Activare în curs...",
-				"eng": "Activating..."
+			"confirmModal": {
+				"title": {
+					"trans": "Activează buff-ul de revigorare a animalului de companie",
+					"eng": "Activate pet revive buff"
+				},
+				"message": {
+					"trans": "Ești sigur că vrei să activezi buff-ul de revigorare a animalului de companie? Acesta va permite tuturor jucătorilor să revitalizeze un animal de companie pe durata buff-ului",
+					"eng": "Are you sure you want to activate pet revive buff? this will allow all players to revive one pet during the buff duration"
+				}
 			}
 		},
 		"title": {

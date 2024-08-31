@@ -73,6 +73,35 @@
 			"eng": "Profile"
 		}
 	},
+	"caliTrain": {
+		"players": {
+			"sponsors": {
+				"trans": "후원자:",
+				"eng": "Sponsor:"
+			}
+		},
+		"progressTitle1": {
+			"vars": [
+				"time"
+			],
+			"trans": "교정 모금 ${time}",
+			"eng": "Cali Funds ${time}"
+		},
+		"progressTitle2": {
+			"vars": [
+				"time"
+			],
+			"trans": "교정 모금 ${time}",
+			"eng": "Cali Funds ${time}"
+		},
+		"announcement": {
+			"vars": [
+				"percent"
+			],
+			"trans": "${percent}%교정이 배포되었습니다",
+			"eng": "Calibration ${percent}% has been deployed"
+		}
+	},
 	"ui": {
 		"bulkCraft": {
 			"amountSelect": {
@@ -212,12 +241,6 @@
 				"progressTitle": {
 					"trans": "글로벌 파티 모금",
 					"eng": "Global Party Funds"
-				},
-				"players": {
-					"sponsorTitle": {
-						"trans": "후원자:",
-						"eng": "Sponsored by:"
-					}
 				}
 			},
 			"dynamicTutorial": {
@@ -1286,6 +1309,12 @@
 				"title": {
 					"trans": "내 판매대",
 					"eng": "My Stall"
+				}
+			},
+			"bankShortcut": {
+				"title": {
+					"trans": "금고",
+					"eng": "Vault"
 				}
 			},
 			"abortWarningTitle": {
@@ -2613,35 +2642,6 @@
 			}
 		}
 	},
-	"caliTrain": {
-		"players": {
-			"sponsorTitle2": {
-				"trans": "후원자:",
-				"eng": "Sponsored by:"
-			}
-		},
-		"progressTitle1": {
-			"vars": [
-				"time"
-			],
-			"trans": "교정 모금 ${time}",
-			"eng": "Cali Funds ${time}"
-		},
-		"progressTitle2": {
-			"vars": [
-				"time"
-			],
-			"trans": "교정 모금 ${time}",
-			"eng": "Cali Funds ${time}"
-		},
-		"announcement": {
-			"vars": [
-				"percent"
-			],
-			"trans": "${percent}%교정이 배포되었습니다",
-			"eng": "Calibration ${percent}% has been deployed"
-		}
-	},
 	"buffActivation": {
 		"expBuff": {
 			"title": {
@@ -2854,17 +2854,9 @@
 			"trans": "다음 버프: ${time}",
 			"eng": "Next buff: ${time}"
 		},
-		"subtitle": {
-			"trans": "주최자:",
-			"eng": "Hosted by:"
-		},
-		"subtitleMulti": {
-			"trans": "파티 주최자를 확인하려면 클릭하세요:",
-			"eng": "Click to view party hosts:"
-		},
-		"button": {
-			"trans": "명성 주기",
-			"eng": "Give street cred"
+		"subtitleMulti2": {
+			"trans": "호스트 보기 클릭:",
+			"eng": "Click to view hosts:"
 		},
 		"button,": {
 			"vars": [
@@ -2886,10 +2878,6 @@
 		"subtitleMulti": {
 			"trans": "파티 호스트 확인하기:",
 			"eng": "Click to view party hosts:"
-		},
-		"button": {
-			"trans": "명성 주기",
-			"eng": "Give street cred"
 		},
 		"button,": {
 			"vars": [
@@ -4715,6 +4703,10 @@
 			"trans": "열대 해안",
 			"eng": "Prestige"
 		},
+		"donation33": {
+			"trans": "네트러너",
+			"eng": "Netrunner"
+		},
 		"moderator": {
 			"trans": "관리자",
 			"eng": "Moderator"
@@ -5973,6 +5965,46 @@
 				},
 				"9": {
 					"trans": "향후 업데이트시 기능 추가 예정",
+					"eng": "More coming in future update"
+				}
+			}
+		},
+		"donation33": {
+			"benefits": {
+				"1": {
+					"trans": "\"Netrunner\" 기부 제목",
+					"eng": "\"Netrunner\" donation title"
+				},
+				"2": {
+					"trans": "프로필 사진 커스터마이징 잠금 해제",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "네트러너 프레임 (애니메이션 포함)",
+					"eng": "Netrunner frame (with animation)"
+				},
+				"4": {
+					"trans": "네트러너 프로필 (애니메이션 포함)",
+					"eng": "Netrunner Profile (with animation)"
+				},
+				"5": {
+					"trans": "커스텀 바이오 잠금 해제",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "네트러너 프로필 장식",
+					"eng": "Netrunner profile decoration"
+				},
+				"7": {
+					"trans": "갱 모토 사용자 정의",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "갱 이미지 사용자 정의",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "추후 업데이트에서 더 많은 내용이 추가됩니다",
 					"eng": "More coming in future update"
 				}
 			}
@@ -9453,6 +9485,16 @@
 			"eng": "You have exchanged ${amount} ${item} for ${item2}"
 		}
 	},
+	"buffSponsorModal": {
+		"viewProfile": {
+			"trans": "프로필 보기",
+			"eng": "View Profile"
+		},
+		"giveCredit": {
+			"trans": "스트리트 크레딧 주기",
+			"eng": "Give Street Cred"
+		}
+	},
 	"bundleDetailsModal": {
 		"bundle": {
 			"trans": "패키지",
@@ -9580,9 +9622,15 @@
 				"trans": "애완동물 부활 활성화",
 				"eng": "Activate pet revive"
 			},
-			"loading": {
-				"trans": "활성화 중...",
-				"eng": "Activating..."
+			"confirmModal": {
+				"title": {
+					"trans": "펫 부활 버프 활성화",
+					"eng": "Activate pet revive buff"
+				},
+				"message": {
+					"trans": "정말로 펫 부활 버프를 활성화하시겠습니까? 이 버프가 지속되는 동안 모든 플레이어가 하나의 펫을 부활시킬 수 있습니다",
+					"eng": "Are you sure you want to activate pet revive buff? this will allow all players to revive one pet during the buff duration"
+				}
 			}
 		},
 		"title": {

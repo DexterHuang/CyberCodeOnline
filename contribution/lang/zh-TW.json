@@ -73,6 +73,35 @@
 			"eng": "Profile"
 		}
 	},
+	"caliTrain": {
+		"players": {
+			"sponsors": {
+				"trans": "贊助商：",
+				"eng": "Sponsor:"
+			}
+		},
+		"progressTitle1": {
+			"vars": [
+				"time"
+			],
+			"trans": "校準基金1 ${time}",
+			"eng": "Cali Funds ${time}"
+		},
+		"progressTitle2": {
+			"vars": [
+				"time"
+			],
+			"trans": "校準基金2 ${time}",
+			"eng": "Cali Funds ${time}"
+		},
+		"announcement": {
+			"vars": [
+				"percent"
+			],
+			"trans": "校準（${percent}%）將在幾分鐘內部署。",
+			"eng": "Calibration ${percent}% has been deployed"
+		}
+	},
 	"ui": {
 		"bulkCraft": {
 			"amountSelect": {
@@ -212,12 +241,6 @@
 				"progressTitle": {
 					"trans": "全球派對基金",
 					"eng": "Global Party Funds"
-				},
-				"players": {
-					"sponsorTitle": {
-						"trans": "贊助者:",
-						"eng": "Sponsored by:"
-					}
 				}
 			},
 			"dynamicTutorial": {
@@ -1286,6 +1309,12 @@
 				"title": {
 					"trans": "我的攤位",
 					"eng": "My Stall"
+				}
+			},
+			"bankShortcut": {
+				"title": {
+					"trans": "保險庫",
+					"eng": "Vault"
 				}
 			},
 			"abortWarningTitle": {
@@ -2613,35 +2642,6 @@
 			}
 		}
 	},
-	"caliTrain": {
-		"players": {
-			"sponsorTitle2": {
-				"trans": "贊助者:",
-				"eng": "Sponsored by:"
-			}
-		},
-		"progressTitle1": {
-			"vars": [
-				"time"
-			],
-			"trans": "校準基金1 ${time}",
-			"eng": "Cali Funds ${time}"
-		},
-		"progressTitle2": {
-			"vars": [
-				"time"
-			],
-			"trans": "校準基金2 ${time}",
-			"eng": "Cali Funds ${time}"
-		},
-		"announcement": {
-			"vars": [
-				"percent"
-			],
-			"trans": "校準（${percent}%）將在幾分鐘內部署。",
-			"eng": "Calibration ${percent}% has been deployed"
-		}
-	},
 	"buffActivation": {
 		"expBuff": {
 			"title": {
@@ -2854,17 +2854,9 @@
 			"trans": "下一次校準：${time}",
 			"eng": "Next buff: ${time}"
 		},
-		"subtitle": {
-			"trans": "主辦:",
-			"eng": "Hosted by:"
-		},
-		"subtitleMulti": {
-			"trans": "查看列車主辦人：",
-			"eng": "Click to view party hosts:"
-		},
-		"button": {
-			"trans": "給予街頭聲望",
-			"eng": "Give street cred"
+		"subtitleMulti2": {
+			"trans": "點擊查看主機：",
+			"eng": "Click to view hosts:"
 		},
 		"button,": {
 			"vars": [
@@ -2886,10 +2878,6 @@
 		"subtitleMulti": {
 			"trans": "查看派對主辦人：",
 			"eng": "Click to view party hosts:"
-		},
-		"button": {
-			"trans": "給予街頭聲望",
-			"eng": "Give street cred"
 		},
 		"button,": {
 			"vars": [
@@ -4715,6 +4703,10 @@
 			"trans": "海灘卡",
 			"eng": "Prestige"
 		},
+		"donation33": {
+			"trans": "網路駭客",
+			"eng": "Netrunner"
+		},
 		"moderator": {
 			"trans": "聊天管理",
 			"eng": "Moderator"
@@ -5973,6 +5965,46 @@
 				},
 				"9": {
 					"trans": "未來會有更多的更新。",
+					"eng": "More coming in future update"
+				}
+			}
+		},
+		"donation33": {
+			"benefits": {
+				"1": {
+					"trans": "「網路駭客」捐款標題",
+					"eng": "\"Netrunner\" donation title"
+				},
+				"2": {
+					"trans": "解鎖個人資料圖片自訂功能",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "駭客框架（帶動畫）",
+					"eng": "Netrunner frame (with animation)"
+				},
+				"4": {
+					"trans": "網路駭客個人檔案（附動畫）",
+					"eng": "Netrunner Profile (with animation)"
+				},
+				"5": {
+					"trans": "解鎖自訂個人檔案",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "網路駭客個人檔案裝飾",
+					"eng": "Netrunner profile decoration"
+				},
+				"7": {
+					"trans": "自訂幫派座右銘",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "自訂幫派形象",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "未來更新將會有更多內容。",
 					"eng": "More coming in future update"
 				}
 			}
@@ -9548,6 +9580,16 @@
 			"eng": "You have exchanged ${amount} ${item} for ${item2}"
 		}
 	},
+	"buffSponsorModal": {
+		"viewProfile": {
+			"trans": "查看個人資料",
+			"eng": "View Profile"
+		},
+		"giveCredit": {
+			"trans": "給予街頭聲望",
+			"eng": "Give Street Cred"
+		}
+	},
 	"bundleDetailsModal": {
 		"bundle": {
 			"trans": "禮包",
@@ -9675,9 +9717,15 @@
 				"trans": "啟動寵物復活",
 				"eng": "Activate pet revive"
 			},
-			"loading": {
-				"trans": "啟動中...",
-				"eng": "Activating..."
+			"confirmModal": {
+				"title": {
+					"trans": "啟動寵物復活增益",
+					"eng": "Activate pet revive buff"
+				},
+				"message": {
+					"trans": "您確定要啟用寵物復活增益嗎？這將允許所有玩家在增益持續期間復活一隻寵物。",
+					"eng": "Are you sure you want to activate pet revive buff? this will allow all players to revive one pet during the buff duration"
+				}
 			}
 		},
 		"title": {
