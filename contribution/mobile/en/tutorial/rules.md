@@ -50,7 +50,7 @@
 -   excessive swearing, explicit sexual content, gore, violence
 -   personal insults
 -   Spamming / Trolling
--   Advertising / Mentioning other games or anything else
+-   Advertising / Mentioning other games or anything else, aspecially games that is similar to this
 -   Impersonating others
 -   Placing links in chat
 -   Posting ads about your market sales more then once in 15 minutes

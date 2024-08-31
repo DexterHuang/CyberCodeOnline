@@ -31,7 +31,7 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
-### 0.1841
+### 0.1841 (Not Yet Live)
 
 -   Updated Global party and Cali Train banner UI, now shows player tag and how many percentages the player has sponsored
 
@@ -43,6 +43,7 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 -   Fixed issue with AFK countdown number changes causing layout shift
 -   Updated leaderboard UI
+-   Server side fixes that is aimed to reduce the chance of "locked up" issue in dungeon (the error message -> "Failed to lock ....")
 
 ### 0.1840
 
