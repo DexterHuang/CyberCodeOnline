@@ -31,8 +31,12 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
-### 0.1841 (Not Yet Live)
+### 0.1842
 
+-  Fixed issue with some notification not receiving randomly
+-  Updated image for weapons smith and lee
+
+### 0.1841
 -   Updated Global party and Cali Train banner UI, now shows player tag and how many percentages the player has sponsored
 
 ![image](https://github.com/user-attachments/assets/0e0b6119-2568-42da-b6c6-04258f706cbe)
@@ -43,7 +47,7 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 -   Fixed issue with AFK countdown number changes causing layout shift
 -   Updated leaderboard UI
--   Server side fixes that is aimed to reduce the chance of "locked up" issue in dungeon (the error message -> "Failed to lock ....")
+-   Server-side fixes that are aimed to reduce the chance of a "locked up" issue in the dungeon (the error message -> "Failed to lock ....")
 
 ### 0.1840
 
