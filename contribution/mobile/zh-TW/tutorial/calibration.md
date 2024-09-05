@@ -1,5 +1,5 @@
 # 校準
-![CalibrationStation](/resources/mobile-tutorial/CalibrationStation.png)
+![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/84a0f895-5a3e-4648-b93d-375ae1a469c2)
 
 **校準**是指玩家為了延長裝備壽命，讓裝備能在更高級的地區使用，而對於裝備進行改善的動作。校準並不會改變裝備等級，但是會根據校準等級增加裝備的基礎數值。
 
