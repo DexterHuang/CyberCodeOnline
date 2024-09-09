@@ -34,7 +34,7 @@
 * unfreundlich, respektlos gegenüber anderer Meinung / offensive oder passiv aggressive Nachrichten (Beispiel: rassistisch, sexistische Kommentare)
 * Nicht familienfreundlicher Chat
 * Spammen / Trollen
-* Werbung / Erwähnen anderer Spiele oder alles andere
+* Werbung / Erwähnen anderer Spiele (besonders spiele die ähnlich zu diesem sind.) oder alles andere
 * Sich als andere Person ausgeben
 * Links im Chat
 * Werbung zu den Markteinträgen mehr als einmal alle 15 Minuten
