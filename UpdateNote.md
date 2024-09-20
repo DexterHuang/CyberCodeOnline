@@ -31,6 +31,13 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
+### 0.1843
+
+-  You can now see gang dungeons created by people from your gang in the dungeon list (access it from the phone menu -> dungeon list)
+-  Updated main page NPC and travel UI
+![image](https://github.com/user-attachments/assets/7a2495ae-5e6b-405e-bfe0-01a31c9cae64)
+
+
 ### 0.1842
 
 -  Fixed issue with some notification not receiving randomly
