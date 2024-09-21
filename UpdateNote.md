@@ -37,6 +37,7 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 -  Updated main page NPC and travel UI
 
 ![image](https://github.com/user-attachments/assets/7a2495ae-5e6b-405e-bfe0-01a31c9cae64)
+-  Fix issue with chat frame rendering
 
 
 ### 0.1842
