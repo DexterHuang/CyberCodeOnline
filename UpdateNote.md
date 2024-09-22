@@ -43,7 +43,8 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ![image](https://github.com/user-attachments/assets/7a2495ae-5e6b-405e-bfe0-01a31c9cae64)
 -  Fix the issue with chat frame rendering
--  Added update popup when starting the game, if the update note is updated, a popup of the update note will automatically show up (Can be disabled in settings page)
+-  Added update popup when starting the game, if the update note is updated, a popup of the update note will automatically show up (Can be disabled on the settings page)
+-  Changed behaviour on event popup, popup will show up again after 4 days to avoid the event list not being accessible after dismissal, this behaviour can be disabled in the settings page, which if enabled event popup will show up only when there is an event update if you have checked the dismissal checkbox 
 
 ### 0.1842
 
