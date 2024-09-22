@@ -29,16 +29,21 @@ If you would like to help maintain CyberCode Online, please feel free to submit 
 
 Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) on how to submit a PR on our GitHub.
 
-## Updates
+## Updates 
 
 ### 0.1843
 
 -  You can now see gang dungeons created by people from your gang in the dungeon list (access it from the phone menu -> dungeon list)
+-  Added dungeon lobby list at create dungeon UI allowing easier access to join dungeons
+
+![image](https://github.com/user-attachments/assets/fa585ee5-1ef4-4754-a0c7-5ba27461fe0e)
+
+
 -  Updated main page NPC and travel UI
 
 ![image](https://github.com/user-attachments/assets/7a2495ae-5e6b-405e-bfe0-01a31c9cae64)
 -  Fix issue with chat frame rendering
-
+-  Added update popup when starting game, if the update note is updated, a popup of the update note will automatically show up (Can be disabled)
 
 ### 0.1842
 
