@@ -29,7 +29,14 @@ If you would like to help maintain CyberCode Online, please feel free to submit 
 
 Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) on how to submit a PR on our GitHub.
 
-## Updates 
+## Updates
+
+### 0.1844
+
+-  Added dungeon chat channel, you can communicate with your dungeon party in that channel without using a gang channel that may disturb others. you open the chat UI by clicking the preview. All share this channel, which can be viewed similarly to other channels on the main chat interface.
+
+![image](https://github.com/user-attachments/assets/2a598a00-32a9-4e4a-a7f0-6b002387fa10)
+
 
 ### 0.1843
 
