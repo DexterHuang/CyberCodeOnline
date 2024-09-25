@@ -37,6 +37,8 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ![Screenshot 2024-09-26 023050](https://github.com/user-attachments/assets/6b39d107-d151-47f6-b682-e8f013c4821c)
 
+-  Game server backend engine is updated to the latest version, things should run faster and smoother
+
 ### 0.1844
 
 -  Added dungeon chat channel, you can communicate with your dungeon party in that channel without using a gang channel that may disturb others. You can open the chat UI by clicking the preview. All share this channel, which can be viewed similarly to other channels on the main chat interface.
