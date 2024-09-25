@@ -41,7 +41,7 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ### 0.1844
 
--  Added dungeon chat channel, you can communicate with your dungeon party in that channel without using a gang channel that may disturb others. You can open the chat UI by clicking the preview. All share this channel, which can be viewed similarly to other channels on the main chat interface.
+-  Added dungeon chat channel, you can communicate with your dungeon party in that channel without using a gang channel that may disturb others. You can open the chat UI by clicking the preview. All share this channel, which can be viewed similarly to other channels on the main chat interface. **Given the item is a long-term collectable goal, we do not expect people to craft it any time soon, the exact requirement to craft this item is Subject to Change and is NOT FINAL, and is open to lower the crafting requirement base on situation, and feedback or suggestions are welcome :) drop me a message on Discord or email**
 
 ![image](https://github.com/user-attachments/assets/2a598a00-32a9-4e4a-a7f0-6b002387fa10)
 
