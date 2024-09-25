@@ -33,7 +33,7 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ### 0.1845
 
--  Added new `Quantum Storage Unit` similar to other backpack items, increases inventory slot drastically, this also serves as an optional late-game goal and a token to show off your wealth and standout against other players, You will also receive a backpack emblem for free when you crafted this item.
+-  Added new tier of backpack: `Quantum Storage Unit` similar to other backpack items, increases inventory slot drastically, this also serves as an optional late-game goal and a token to show off your wealth and standout against other players, You will also receive a backpack emblem for free when you crafted this item.
 
 ![Screenshot 2024-09-26 023050](https://github.com/user-attachments/assets/6b39d107-d151-47f6-b682-e8f013c4821c)
 
