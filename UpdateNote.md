@@ -31,19 +31,17 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
-### 0.1844
+### 0.1845
 
--  Added dungeon chat channel, you can communicate with your dungeon party in that channel without using a gang channel that may disturb others. you open the chat UI by clicking the preview. All share this channel, which can be viewed similarly to other channels on the main chat interface.
-
-![image](https://github.com/user-attachments/assets/2a598a00-32a9-4e4a-a7f0-6b002387fa10)
-
-### 0.1844
-
--  Added new `Quantum Storage Unit` similar to other backpack items, increases inventory slot drastically, this also serve as a optional late game goal and a token to show off your wealth and standout against other players, You will also receive a backpack emblem for free when you crafted this item.
+-  Added new `Quantum Storage Unit` similar to other backpack items, increases inventory slot drastically, this also serves as an optional late-game goal and a token to show off your wealth and standout against other players, You will also receive a backpack emblem for free when you crafted this item.
 
 ![Screenshot 2024-09-26 023050](https://github.com/user-attachments/assets/6b39d107-d151-47f6-b682-e8f013c4821c)
 
- 
+### 0.1844
+
+-  Added dungeon chat channel, you can communicate with your dungeon party in that channel without using a gang channel that may disturb others. You can open the chat UI by clicking the preview. All share this channel, which can be viewed similarly to other channels on the main chat interface.
+
+![image](https://github.com/user-attachments/assets/2a598a00-32a9-4e4a-a7f0-6b002387fa10)
 
 ### 0.1843
 
