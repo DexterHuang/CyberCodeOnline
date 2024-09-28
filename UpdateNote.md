@@ -31,6 +31,14 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
+### 0.1846
+
+-  Fixed emblem pricing display incorrectly on sending cosmetic page, the previous incorrect price of "999999" was displayed on unavailable emblems
+-  Reworked how emblem list is displayed, all unavailable will show up in the list but has a `Unavailable` tag
+
+![image](https://github.com/user-attachments/assets/32cca6f2-2b6d-4c32-9169-d45f99f1a50a)
+
+
 ### 0.1845
 
 -  Added new tier of backpack: `Quantum Storage Unit` similar to other backpack items, increases inventory slot drastically, this also serves as an optional late-game goal and a token to show off your wealth and standout against other players, You will also receive a backpack emblem for free when you crafted this item. **Given the item is a long-term collectable goal, we do not expect people to craft it any time soon, the exact requirement to craft this item is Subject to Change and is NOT FINAL, and we are open to lowering the crafting requirement based on the situation, and feedback or suggestions are welcome :) drop me a message on Discord or email**
