@@ -33,8 +33,8 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ### 0.1846
 
--  Fixed emblem pricing display incorrectly on sending cosmetic page, previously, an incorrect price of "999999" was displayed on unavailable emblems, now no longer is the case
--  Reworked how emblem list is displayed, all unavailable will show up in the list but has a `Unavailable` tag
+-  Fixed emblem pricing display incorrectly for unavailable emblems (such as emblems only available during event or special emblems like translator emblem) on sending cosmetic page, previously, an incorrect price of "999999" was displayed on unavailable emblems, now no longer is the case
+-  Reworked how the emblem list is displayed, all unavailable will show up in the list but has a `Unavailable` tag
 
 ![image](https://github.com/user-attachments/assets/32cca6f2-2b6d-4c32-9169-d45f99f1a50a)
 
