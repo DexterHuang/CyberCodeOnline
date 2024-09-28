@@ -33,6 +33,11 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ### 0.1846
 
+-  Fixed pet age display issue, after Looooong search and many attempts trying to find why the leaderboard sometimes displays incorrect age for pets, I finally found a potential fix for it, the pet's age should display correctly now, and the calculation of age is more complicated then one may think due to various technical reasons, which causes it to be hard to track and display the age. hopefully, this fixes the issue, please report back to me if a similar issue continues to happen in the future :) additionally, the leaderboard page UI is updated
+
+![image](https://github.com/user-attachments/assets/51acfa12-b945-445f-bc77-87cb58604704)
+
+  
 -  Fixed emblem pricing display incorrectly for limited edition emblems (such as emblems only available during event or special emblems like translator emblem) on sending cosmetic page, previously, an incorrect price of "999999" was displayed on unavailable emblems, now no longer is the case
 -  Reworked how the emblem list is displayed, all unavailable will show up in the list but has a `Unavailable` tag
 
