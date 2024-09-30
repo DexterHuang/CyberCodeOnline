@@ -31,6 +31,20 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
+### 0.1847
+-   Halloween Event (Will activate at 2024/10/01 00:00 UTC)
+    -  Enemies and AFK bot farm will drop `Jack o Lantern` you can use it to redeem items from `Pumpkin Bro` in the Alleyway on Market Street, items that can be redeemed includes `Locked Legendary Container`, `Rare Equipment Crate`, `Pumpkin pie` and `Caramel Apple`
+    -  Added `Caramel Apple` you can redeem it from `Pumpkin Bro`, and use to receive a 10% AFK exp and all Btc gained buff for 20 minutes
+  
+![image](https://github.com/user-attachments/assets/e122f006-fd01-4b58-b321-ef9720d30048)
+
+-  Added `Replicator Console` to dungeons; in dungeons `Replicator Console` will randomly spawn, you can gather `Synthetic Alloy` from boss room crates to activate them to receive random rewards. there are 4 tiers of `Replicator Console` each tier requires more `Synthetic Alloy` to activate, at the same time gives better buffs and rewards, but also has a higher rate of failing.
+When failed, the `Replicator Console` will consume the `Synthetic Alloy` inserted. The reward includes various equipment and buffs from different tiers.
+
+![image](https://github.com/user-attachments/assets/739ffea6-9964-46ae-bf4b-d4d6b2c06cee)
+
+Please notify me if there is any bug with the updates 🫡🫡
+
 ### 0.1846
 
 -  Fixed pet age display issue, after Looooong search and many attempts trying to find why the leaderboard sometimes displays incorrect age for pets, I finally found a potential fix for it, the pet's age should display correctly now, and the calculation of age is more complicated then one may think due to various technical reasons, which causes it to be hard to track and display the age. hopefully, this fixes the issue, please report back to me if a similar issue continues to happen in the future :) 
