@@ -6794,6 +6794,19 @@
 				"eng": "An military used bot designed to carry your equipments and follows you autonomously,\r\n        with it's six strong legs that imitates the movement of spiders and a advance onboard AI, \r\n        it can follow you swiftly and quietly while it avoids get in the way of whatever mission you are performing"
 			}
 		},
+		"backpack6": {
+			"name": {
+				"trans": "Kvantová úložná jednotka",
+				"eng": "Quantum Storage Unit"
+			},
+			"description": {
+				"vars": [
+					"size"
+				],
+				"trans": "Úložný kontejner využívající špičkovou kvantovou technologii, která mu umožňuje uchovávat obrovské množství předmětů vzhledem k jeho velikosti. Zvyšuje počet slotů v inventáři o ${size}",
+				"eng": "A storage container that uses state of the art quantum tech that allow it to store massive amount of items for it's size, Increases inventory slot by ${size}"
+			}
+		},
 		"chatExploitPirate": {
 			"name": {
 				"trans": "Vysílač exploitu chatu [PIRÁT]",
@@ -7002,6 +7015,20 @@
 				],
 				"trans": "Lahodný dýňový koláč. Tento koláč má nad ním velkou spoustu hustého vanilkového krému, Delicious! \\ nrecover ${percent}% zdraví po konzumaci",
 				"eng": "A delicious pumpkin pie. this pie has big load of thick vanilla cream over it, delicious!\\nrecover ${percent}% health upon consumption"
+			}
+		},
+		"caramelApple": {
+			"name": {
+				"trans": "Karamelové jablko",
+				"eng": "Caramel Apple"
+			},
+			"description": {
+				"vars": [
+					"minutes",
+					"percent"
+				],
+				"trans": "Šťavnaté jablko pokryté silnou vrstvou karamelu. Dokonalá kombinace sladkého a kyselého.\\n Zvyšuje AFK EXP a všechny BTC získané o ${percent}% na ${minutes} minut",
+				"eng": "A juicy apple covered in a thick layer of caramel. the perfect combination of sweet and sour.\\n Increases AFK EXP and all BTC gained by ${percent}% for ${minutes} minutes"
 			}
 		},
 		"riceCake": {
@@ -7230,6 +7257,16 @@
 			"notAvailableError": {
 				"trans": "Tento předmět je k dispozici pouze během Letní akce",
 				"eng": "This item is only available during Summer Event"
+			}
+		},
+		"syntheticAlloy": {
+			"name": {
+				"trans": "Syntetická slitina",
+				"eng": "Synthetic Alloy"
+			},
+			"description": {
+				"trans": "Lze použít s [Replikační konzolí] v dungeonech k získání náhodných odměn.",
+				"eng": "Can be used with the [Replication Console] in dungeons to receive random rewards."
 			}
 		},
 		"experienceShard": {
@@ -7832,9 +7869,9 @@
 				"trans": "Alleyway",
 				"eng": "Alleyway"
 			},
-			"npcName": {
-				"trans": "Dýně podivín",
-				"eng": "pumpkin weirdo"
+			"npcNamev2": {
+				"trans": "Dýňový kámo",
+				"eng": "Pumpkin Bro"
 			}
 		},
 		"petShop": {
@@ -8469,6 +8506,12 @@
 				"eng": "Autonomous Storage Unit"
 			}
 		},
+		"backpack6": {
+			"name": {
+				"trans": "Kvantová úložná jednotka",
+				"eng": "Quantum Storage Unit"
+			}
+		},
 		"aiCoreCluster": {
 			"name": {
 				"trans": "Kluster AI Jader",
@@ -8648,6 +8691,10 @@
 		"afkExp": {
 			"trans": "AFK Exp Boost",
 			"eng": "AFK EXP Boost"
+		},
+		"expMoney": {
+			"trans": "EXP BTC Boost",
+			"eng": "EXP BTC Boost"
 		},
 		"petRevive": {
 			"trans": "Oživení mazlíčka",
@@ -8850,9 +8897,9 @@
 			"trans": "Hej lidi! Připojte se k mému dungeonu [${type}] (lv ${level}) ==> ${dungeonInvite}",
 			"eng": "Hey guys! join my dungeon [${type}](lv${level}) ==> ${dungeonInvite}"
 		},
-		"shareDungeonCooldown": {
-			"trans": "Počkejte prosím před odesláním další pozvánky",
-			"eng": "Please wait before sending another invite"
+		"shareDungeonCooldownv2": {
+			"trans": "Cooldown pro pozvání do dungeonu, lidé se mohou jednoduše připojit z seznamu dungeonů, pokud je dungeon veřejný",
+			"eng": "Dungeon invite cooldown, people can simply join from the dungeon list if the dungeon is public"
 		},
 		"normal": {
 			"description": {
@@ -8990,6 +9037,12 @@
 			"name": {
 				"trans": "epické",
 				"eng": "epic"
+			}
+		},
+		"mythic": {
+			"name": {
+				"trans": "mytický",
+				"eng": "mythic"
 			}
 		}
 	},
@@ -9497,6 +9550,46 @@
 			"eng": "You will not heal after each fight in dungeon, remember to use your healing items."
 		}
 	},
+	"dungeonQuestModal": {
+		"title": {
+			"trans": "Konzole replikace",
+			"eng": "Replication Console"
+		},
+		"description": {
+			"vars": [
+				"itemName"
+			],
+			"trans": "Vložte požadovanou částku ${itemName} pro získání náhodných odměn",
+			"eng": "Insert required amount of ${itemName} to receive random rewards"
+		},
+		"requirement": {
+			"vars": [
+				"itemName",
+				"amount"
+			],
+			"trans": "Vyžaduje ${amount} ${itemName}",
+			"eng": "Requires ${amount} ${itemName}"
+		},
+		"slot": {
+			"vars": [
+				"itemName",
+				"amount"
+			],
+			"trans": "Vložte ${amount} ${itemName}",
+			"eng": "Insert ${amount} ${itemName}"
+		},
+		"noItem": {
+			"vars": [
+				"itemName"
+			],
+			"trans": "Nemáš žádné ${itemName}",
+			"eng": "You do not have any ${itemName}"
+		},
+		"insert": {
+			"trans": "Vložte položku",
+			"eng": "Insert item"
+		}
+	},
 	"gangQuestAcceptModal": {
 		"title": {
 			"trans": "Detekován Dungeon Quest",
@@ -9584,32 +9677,6 @@
 			"eng": "Check out the #event channel on Discord for more details!"
 		}
 	},
-	"halloweenPromo": {
-		"title": {
-			"trans": "Šťastný Halloween!",
-			"eng": "Happy Halloween!"
-		},
-		"desc1": {
-			"trans": "Je to opět strašidelná doba roku! Shang-ri-la slaví Halloween speciální událostí!",
-			"eng": "Its the spooky time of the year again! Shang-ri-la is celebrating Halloween with a special event!"
-		},
-		"desc2v2": {
-			"trans": "Nepřátelé a AI Core Auto Farm budou mít šanci upustit od lucerny Jack-O!",
-			"eng": "Enemies and AI Core auto farm will have chance to drop Jack-o-lanterns!"
-		},
-		"desc3v2": {
-			"vars": [
-				"npc",
-				"location"
-			],
-			"trans": "Během Halloweenu najdete ${npc} na ${location}, bude si vyměnit vaše jack-o-lucerny za odměny!",
-			"eng": "You can find ${npc} at ${location} during Halloween, he will exchange your Jack-o-lanterns for rewards!"
-		},
-		"desc4v2": {
-			"trans": "Během Halloweenu bude k dispozici časově omezená Halloween, úroveň dárcovství Cyber-Bat Chat a tematické emblémy!",
-			"eng": "During Halloween, a time limited halloween, cyber-bat chat donation tier and themed emblems will be available!"
-		}
-	},
 	"christmasPromo": {
 		"title": {
 			"trans": "Šťastná zimní dovolená!",
@@ -9643,6 +9710,49 @@
 		"desc": {
 			"trans": "Časové omezené kořist a rámeček chatu!",
 			"eng": "Time limited loot and chat frame!"
+		}
+	},
+	"halloweenPromo": {
+		"title": {
+			"trans": "Šťastný Halloween!",
+			"eng": "Happy Halloween!"
+		},
+		"desc1": {
+			"trans": "Je to opět strašidelná doba roku! Shang-ri-la slaví Halloween speciální událostí!",
+			"eng": "Its the spooky time of the year again! Shang-ri-la is celebrating Halloween with a special event!"
+		},
+		"desc2v3": {
+			"vars": [
+				"item"
+			],
+			"trans": "Nepřátelé a AI Core automatické farmy budou mít šanci na drop ${item}!",
+			"eng": "Enemies and AI Core auto farm will have chance to drop ${item}!"
+		},
+		"desc3v3": {
+			"vars": [
+				"npc",
+				"location",
+				"item"
+			],
+			"trans": "Můžeš najít ${npc} na ${location} během Halloweenu, vymění ti ${item} za odměny!",
+			"eng": "You can find ${npc} at ${location} during Halloween, he will exchange your ${item} for rewards!"
+		},
+		"desc4v2": {
+			"trans": "Během Halloweenu bude k dispozici časově omezená Halloween, úroveň dárcovství Cyber-Bat Chat a tematické emblémy!",
+			"eng": "During Halloween, a time limited halloween, cyber-bat chat donation tier and themed emblems will be available!"
+		}
+	},
+	"halloweenPromoSmall": {
+		"title": {
+			"trans": "Halloween akce!",
+			"eng": "Halloween Event!"
+		},
+		"desc": {
+			"vars": [
+				"item"
+			],
+			"trans": "Nasbírej ${item} a vyměň je za různé odměny!",
+			"eng": "Collect ${item} to redeem various rewards!"
 		}
 	},
 	"lunarPromo": {
@@ -10799,6 +10909,23 @@
 			],
 			"trans": "Tuto položku nemůžete použít, protože existuje stavový efekt, který s ní bude v rozporu",
 			"eng": "You cannot use this item because there is a status effect that conflicts with it"
+		},
+		"alreadyInteracted": {
+			"trans": "Už jste s tímto interagovali",
+			"eng": "You have already interacted with this"
+		}
+	},
+	"dungeonQuest": {
+		"success": {
+			"vars": [
+				"effectName"
+			],
+			"trans": "Úspěšně jste aktivovali konzoli replikátoru a obdrželi jste ${effectName} na 10 minut",
+			"eng": "You have successfully activated the Replicator Console and received ${effectName} for 10 minutes"
+		},
+		"failed": {
+			"trans": "Replikace selhala",
+			"eng": "Replication failed"
 		}
 	},
 	"player": {

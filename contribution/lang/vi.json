@@ -6794,6 +6794,19 @@
 				"eng": "An military used bot designed to carry your equipments and follows you autonomously,\r\n        with it's six strong legs that imitates the movement of spiders and a advance onboard AI, \r\n        it can follow you swiftly and quietly while it avoids get in the way of whatever mission you are performing"
 			}
 		},
+		"backpack6": {
+			"name": {
+				"trans": "Đơn Vị Lưu Trữ Lượng Tử",
+				"eng": "Quantum Storage Unit"
+			},
+			"description": {
+				"vars": [
+					"size"
+				],
+				"trans": "Một container lưu trữ sử dụng công nghệ lượng tử tiên tiến cho phép nó lưu trữ một lượng lớn đồ vật so với kích thước của nó, Tăng số lượng ô chứa đồ lên ${size}",
+				"eng": "A storage container that uses state of the art quantum tech that allow it to store massive amount of items for it's size, Increases inventory slot by ${size}"
+			}
+		},
 		"chatExploitPirate": {
 			"name": {
 				"trans": "Sóng Chuyển đổi Chat [PIRATE]",
@@ -7002,6 +7015,20 @@
 				],
 				"trans": "Một chiếc bánh bí ngô ngon. Chiếc bánh này được thêm lượng lớn kem vani dày trên nó, ngon tuyệt! \\n Phục hồi ${percent}% Sức khỏe khi tiêu thụ",
 				"eng": "A delicious pumpkin pie. this pie has big load of thick vanilla cream over it, delicious!\\nrecover ${percent}% health upon consumption"
+			}
+		},
+		"caramelApple": {
+			"name": {
+				"trans": "Táo Caramel",
+				"eng": "Caramel Apple"
+			},
+			"description": {
+				"vars": [
+					"minutes",
+					"percent"
+				],
+				"trans": "Một quả táo mọng nước được phủ một lớp caramel dày. Sự kết hợp hoàn hảo giữa ngọt và chua.\\n Tăng AFK EXP và tất cả BTC kiếm được thêm ${percent}% trong ${minutes} phút",
+				"eng": "A juicy apple covered in a thick layer of caramel. the perfect combination of sweet and sour.\\n Increases AFK EXP and all BTC gained by ${percent}% for ${minutes} minutes"
 			}
 		},
 		"riceCake": {
@@ -7230,6 +7257,16 @@
 			"notAvailableError": {
 				"trans": "Mặt hàng này chỉ có sẵn trong Sự kiện Mùa Hè",
 				"eng": "This item is only available during Summer Event"
+			}
+		},
+		"syntheticAlloy": {
+			"name": {
+				"trans": "Hợp kim tổng hợp",
+				"eng": "Synthetic Alloy"
+			},
+			"description": {
+				"trans": "Có thể sử dụng với [Bảng Điều Khiển Nhân Bản] trong hầm ngục để nhận phần thưởng ngẫu nhiên.",
+				"eng": "Can be used with the [Replication Console] in dungeons to receive random rewards."
 			}
 		},
 		"experienceShard": {
@@ -7832,9 +7869,9 @@
 				"trans": "Hẻm",
 				"eng": "Alleyway"
 			},
-			"npcName": {
-				"trans": "bí ngô kì quặc",
-				"eng": "pumpkin weirdo"
+			"npcNamev2": {
+				"trans": "Pumpkin Bro",
+				"eng": "Pumpkin Bro"
 			}
 		},
 		"petShop": {
@@ -8469,6 +8506,12 @@
 				"eng": "Autonomous Storage Unit"
 			}
 		},
+		"backpack6": {
+			"name": {
+				"trans": "Đơn Vị Lưu Trữ Lượng Tử",
+				"eng": "Quantum Storage Unit"
+			}
+		},
 		"aiCoreCluster": {
 			"name": {
 				"trans": "AI Core Cluster",
@@ -8648,6 +8691,10 @@
 		"afkExp": {
 			"trans": "Tăng cường AFK EXP",
 			"eng": "AFK EXP Boost"
+		},
+		"expMoney": {
+			"trans": "Tăng EXP BTC",
+			"eng": "EXP BTC Boost"
 		},
 		"petRevive": {
 			"trans": "Hồi Sinh Thú Cưng",
@@ -8850,9 +8897,9 @@
 			"trans": "Này các cậu! Tham gia ngục tối của tôi [${type}] (lv ${level}) ==> ${dungeonInvite}",
 			"eng": "Hey guys! join my dungeon [${type}](lv${level}) ==> ${dungeonInvite}"
 		},
-		"shareDungeonCooldown": {
-			"trans": "Vui lòng đợi trước khi gửi lời mời khác",
-			"eng": "Please wait before sending another invite"
+		"shareDungeonCooldownv2": {
+			"trans": "Thời gian chờ mời vào hầm ngục, mọi người có thể dễ dàng tham gia từ danh sách hầm ngục nếu hầm ngục đó là công khai",
+			"eng": "Dungeon invite cooldown, people can simply join from the dungeon list if the dungeon is public"
 		},
 		"normal": {
 			"description": {
@@ -8990,6 +9037,12 @@
 			"name": {
 				"trans": "sử thi",
 				"eng": "epic"
+			}
+		},
+		"mythic": {
+			"name": {
+				"trans": "huyền thoại",
+				"eng": "mythic"
 			}
 		}
 	},
@@ -9497,6 +9550,46 @@
 			"eng": "You will not heal after each fight in dungeon, remember to use your healing items."
 		}
 	},
+	"dungeonQuestModal": {
+		"title": {
+			"trans": "Bảng Điều Khiển Nhân Bản",
+			"eng": "Replication Console"
+		},
+		"description": {
+			"vars": [
+				"itemName"
+			],
+			"trans": "Nhập số tiền cần thiết là ${itemName} để nhận phần thưởng ngẫu nhiên",
+			"eng": "Insert required amount of ${itemName} to receive random rewards"
+		},
+		"requirement": {
+			"vars": [
+				"itemName",
+				"amount"
+			],
+			"trans": "Cần ${amount} ${itemName}",
+			"eng": "Requires ${amount} ${itemName}"
+		},
+		"slot": {
+			"vars": [
+				"itemName",
+				"amount"
+			],
+			"trans": "Insert ${amount} ${itemName}",
+			"eng": "Insert ${amount} ${itemName}"
+		},
+		"noItem": {
+			"vars": [
+				"itemName"
+			],
+			"trans": "Bạn không có bất kỳ ${itemName} nào",
+			"eng": "You do not have any ${itemName}"
+		},
+		"insert": {
+			"trans": "Chèn vật phẩm",
+			"eng": "Insert item"
+		}
+	},
 	"gangQuestAcceptModal": {
 		"title": {
 			"trans": "Nhiệm vụ Hầm ngục được phát hiện",
@@ -9584,32 +9677,6 @@
 			"eng": "Check out the #event channel on Discord for more details!"
 		}
 	},
-	"halloweenPromo": {
-		"title": {
-			"trans": "Halloween vui vẻ!",
-			"eng": "Happy Halloween!"
-		},
-		"desc1": {
-			"trans": "Đó là thời gian ma quái trong năm một lần nữa! Shang-ri-la đang kỷ niệm Halloween với một sự kiện đặc biệt!",
-			"eng": "Its the spooky time of the year again! Shang-ri-la is celebrating Halloween with a special event!"
-		},
-		"desc2v2": {
-			"trans": "Kẻ thù và AI Core Auto Farm sẽ có cơ hội thả những chiếc đèn lồng Jack-O!",
-			"eng": "Enemies and AI Core auto farm will have chance to drop Jack-o-lanterns!"
-		},
-		"desc3v2": {
-			"vars": [
-				"npc",
-				"location"
-			],
-			"trans": "Bạn có thể tìm thấy ${npc} tại ${location} suốt mùa Halloween, anh ấy sẽ trao đổi đèn lồng Jack-O của bạn để nhận phần thưởng!",
-			"eng": "You can find ${npc} at ${location} during Halloween, he will exchange your Jack-o-lanterns for rewards!"
-		},
-		"desc4v2": {
-			"trans": "Trong Halloween, một Halloween giới hạn thời gian, tầng quyên góp trò chuyện trên mạng và các biểu tượng theo chủ đề sẽ có sẵn!",
-			"eng": "During Halloween, a time limited halloween, cyber-bat chat donation tier and themed emblems will be available!"
-		}
-	},
 	"christmasPromo": {
 		"title": {
 			"trans": "Kỳ nghỉ đông vui vẻ!",
@@ -9643,6 +9710,49 @@
 		"desc": {
 			"trans": "Thời gian Loot và khung trò chuyện!",
 			"eng": "Time limited loot and chat frame!"
+		}
+	},
+	"halloweenPromo": {
+		"title": {
+			"trans": "Halloween vui vẻ!",
+			"eng": "Happy Halloween!"
+		},
+		"desc1": {
+			"trans": "Đó là thời gian ma quái trong năm một lần nữa! Shang-ri-la đang kỷ niệm Halloween với một sự kiện đặc biệt!",
+			"eng": "Its the spooky time of the year again! Shang-ri-la is celebrating Halloween with a special event!"
+		},
+		"desc2v3": {
+			"vars": [
+				"item"
+			],
+			"trans": "Kẻ thù và AI Core tự động farm sẽ có cơ hội rơi ${item}!",
+			"eng": "Enemies and AI Core auto farm will have chance to drop ${item}!"
+		},
+		"desc3v3": {
+			"vars": [
+				"npc",
+				"location",
+				"item"
+			],
+			"trans": "Bạn có thể tìm thấy ${npc} tại ${location} trong dịp Halloween, anh ấy sẽ đổi ${item} của bạn lấy phần thưởng!",
+			"eng": "You can find ${npc} at ${location} during Halloween, he will exchange your ${item} for rewards!"
+		},
+		"desc4v2": {
+			"trans": "Trong Halloween, một Halloween giới hạn thời gian, tầng quyên góp trò chuyện trên mạng và các biểu tượng theo chủ đề sẽ có sẵn!",
+			"eng": "During Halloween, a time limited halloween, cyber-bat chat donation tier and themed emblems will be available!"
+		}
+	},
+	"halloweenPromoSmall": {
+		"title": {
+			"trans": "Sự kiện Halloween!",
+			"eng": "Halloween Event!"
+		},
+		"desc": {
+			"vars": [
+				"item"
+			],
+			"trans": "Thu thập ${item} để đổi lấy nhiều phần thưởng khác nhau!",
+			"eng": "Collect ${item} to redeem various rewards!"
 		}
 	},
 	"lunarPromo": {
@@ -10799,6 +10909,23 @@
 			],
 			"trans": "Bạn không thể sử dụng vật phẩm này vì đang sở hữu hiệu ứng trạng thái xung đột",
 			"eng": "You cannot use this item because there is a status effect that conflicts with it"
+		},
+		"alreadyInteracted": {
+			"trans": "Bạn đã tương tác với điều này rồi",
+			"eng": "You have already interacted with this"
+		}
+	},
+	"dungeonQuest": {
+		"success": {
+			"vars": [
+				"effectName"
+			],
+			"trans": "Bạn đã kích hoạt thành công Bảng Điều Khiển Replicator và nhận được ${effectName} trong 10 phút",
+			"eng": "You have successfully activated the Replicator Console and received ${effectName} for 10 minutes"
+		},
+		"failed": {
+			"trans": "Sao chép không thành công",
+			"eng": "Replication failed"
 		}
 	},
 	"player": {

@@ -6794,6 +6794,19 @@
 				"eng": "An military used bot designed to carry your equipments and follows you autonomously,\r\n        with it's six strong legs that imitates the movement of spiders and a advance onboard AI, \r\n        it can follow you swiftly and quietly while it avoids get in the way of whatever mission you are performing"
 			}
 		},
+		"backpack6": {
+			"name": {
+				"trans": "양자 저장 장치",
+				"eng": "Quantum Storage Unit"
+			},
+			"description": {
+				"vars": [
+					"size"
+				],
+				"trans": "최첨단 양자 기술을 활용한 저장 용기로, 크기에 비해 방대한 양의 아이템을 저장할 수 있습니다. 인벤토리 슬롯이 ${size}만큼 증가합니다",
+				"eng": "A storage container that uses state of the art quantum tech that allow it to store massive amount of items for it's size, Increases inventory slot by ${size}"
+			}
+		},
 		"chatExploitPirate": {
 			"name": {
 				"trans": "채팅 취약점 송신기 [해적판]",
@@ -7002,6 +7015,20 @@
 				],
 				"trans": "맛있는 호박 파이. 이 파이 위에는 두꺼운 바닐라 크림을 잔뜩 뿌려져 있습니다. 맛있습니다! \\n섭취 시 체력이 ${percent}% 회복됩니다",
 				"eng": "A delicious pumpkin pie. this pie has big load of thick vanilla cream over it, delicious!\\nrecover ${percent}% health upon consumption"
+			}
+		},
+		"caramelApple": {
+			"name": {
+				"trans": "카라멜 사과",
+				"eng": "Caramel Apple"
+			},
+			"description": {
+				"vars": [
+					"minutes",
+					"percent"
+				],
+				"trans": "달콤한 카라멜로 두껍게 덮인 즙이 많은 사과. 달콤함과 신맛의 완벽한 조화.\\n ${minutes}분 동안 AFK 경험치와 모든 BTC를 ${percent}% 증가시킵니다",
+				"eng": "A juicy apple covered in a thick layer of caramel. the perfect combination of sweet and sour.\\n Increases AFK EXP and all BTC gained by ${percent}% for ${minutes} minutes"
 			}
 		},
 		"riceCake": {
@@ -7230,6 +7257,16 @@
 			"notAvailableError": {
 				"trans": "이 아이템은 여름 이벤트 동안에만 구매할 수 있습니다",
 				"eng": "This item is only available during Summer Event"
+			}
+		},
+		"syntheticAlloy": {
+			"name": {
+				"trans": "합성 합금",
+				"eng": "Synthetic Alloy"
+			},
+			"description": {
+				"trans": "던전의 [복제 콘솔]과 함께 사용하여 랜덤 보상을 받을 수 있습니다.",
+				"eng": "Can be used with the [Replication Console] in dungeons to receive random rewards."
 			}
 		},
 		"experienceShard": {
@@ -7941,9 +7978,9 @@
 				"trans": "골목",
 				"eng": "Alleyway"
 			},
-			"npcName": {
-				"trans": "호박괴물",
-				"eng": "pumpkin weirdo"
+			"npcNamev2": {
+				"trans": "호박 형제",
+				"eng": "Pumpkin Bro"
 			}
 		},
 		"petShop": {
@@ -8578,6 +8615,12 @@
 				"eng": "Autonomous Storage Unit"
 			}
 		},
+		"backpack6": {
+			"name": {
+				"trans": "양자 저장 장치",
+				"eng": "Quantum Storage Unit"
+			}
+		},
 		"aiCoreCluster": {
 			"name": {
 				"trans": "[부품] AI 코어 클러스터",
@@ -8757,6 +8800,10 @@
 		"afkExp": {
 			"trans": "AFK 경험치 부스트",
 			"eng": "AFK EXP Boost"
+		},
+		"expMoney": {
+			"trans": "EXP BTC 부스트",
+			"eng": "EXP BTC Boost"
 		},
 		"petRevive": {
 			"trans": "펫 부활",
@@ -8959,9 +9006,9 @@
 			"trans": "같이 던전 공략하러 가요! [${type}] (lv ${level}) ==> ${dungeonInvite}",
 			"eng": "Hey guys! join my dungeon [${type}](lv${level}) ==> ${dungeonInvite}"
 		},
-		"shareDungeonCooldown": {
-			"trans": "잠깐 기다린 후에 초대장을 다시 보내주십시오.",
-			"eng": "Please wait before sending another invite"
+		"shareDungeonCooldownv2": {
+			"trans": "던전 초대 쿨타임, 던전이 공개 상태라면 사람들은 던전 목록에서 간단히 참여할 수 있습니다",
+			"eng": "Dungeon invite cooldown, people can simply join from the dungeon list if the dungeon is public"
 		},
 		"normal": {
 			"description": {
@@ -9099,6 +9146,12 @@
 			"name": {
 				"trans": "에픽",
 				"eng": "epic"
+			}
+		},
+		"mythic": {
+			"name": {
+				"trans": "신화적인",
+				"eng": "mythic"
 			}
 		}
 	},
@@ -9606,6 +9659,46 @@
 			"eng": "You will not heal after each fight in dungeon, remember to use your healing items."
 		}
 	},
+	"dungeonQuestModal": {
+		"title": {
+			"trans": "복제 콘솔",
+			"eng": "Replication Console"
+		},
+		"description": {
+			"vars": [
+				"itemName"
+			],
+			"trans": "필요한 금액 ${itemName}을(를) 입력하여 랜덤 보상을 받으세요",
+			"eng": "Insert required amount of ${itemName} to receive random rewards"
+		},
+		"requirement": {
+			"vars": [
+				"itemName",
+				"amount"
+			],
+			"trans": "${amount} ${itemName} 필요함",
+			"eng": "Requires ${amount} ${itemName}"
+		},
+		"slot": {
+			"vars": [
+				"itemName",
+				"amount"
+			],
+			"trans": "${amount} ${itemName}",
+			"eng": "Insert ${amount} ${itemName}"
+		},
+		"noItem": {
+			"vars": [
+				"itemName"
+			],
+			"trans": "${itemName}이(가) 없습니다",
+			"eng": "You do not have any ${itemName}"
+		},
+		"insert": {
+			"trans": "아이템 삽입",
+			"eng": "Insert item"
+		}
+	},
 	"gangQuestAcceptModal": {
 		"title": {
 			"trans": "던전 퀘스트가 감지되었습니다",
@@ -9693,32 +9786,6 @@
 			"eng": "Check out the #event channel on Discord for more details!"
 		}
 	},
-	"halloweenPromo": {
-		"title": {
-			"trans": "해피 할로윈!",
-			"eng": "Happy Halloween!"
-		},
-		"desc1": {
-			"trans": "올해 가장 으스스한 날이 돌아왔습니다! 샹그릴라가 준비하는 특별한 축제와 함께 할로윈을 기념해보세요!",
-			"eng": "Its the spooky time of the year again! Shang-ri-la is celebrating Halloween with a special event!"
-		},
-		"desc2v2": {
-			"trans": "전투와 AI 자동사냥에서 잭 오 랜턴이 떨어집니다!",
-			"eng": "Enemies and AI Core auto farm will have chance to drop Jack-o-lanterns!"
-		},
-		"desc3v2": {
-			"vars": [
-				"npc",
-				"location"
-			],
-			"trans": "할로윈 중에 ${location}에서 ${npc}를 찾을 수 있습니다. 그는 잭 오 랜턴을 보상으로 교환 해줍니다!",
-			"eng": "You can find ${npc} at ${location} during Halloween, he will exchange your Jack-o-lanterns for rewards!"
-		},
-		"desc4v2": {
-			"trans": "할로윈 기간 동안 할로윈, 사이버-박쥐 후원 및 테마 엠블럼을 한정적으로 구매 할 수 있습니다!",
-			"eng": "During Halloween, a time limited halloween, cyber-bat chat donation tier and themed emblems will be available!"
-		}
-	},
 	"christmasPromo": {
 		"title": {
 			"trans": "메리 크리스마스!",
@@ -9752,6 +9819,49 @@
 		"desc": {
 			"trans": "한정판 전리품과 채팅 프레임!",
 			"eng": "Time limited loot and chat frame!"
+		}
+	},
+	"halloweenPromo": {
+		"title": {
+			"trans": "해피 할로윈!",
+			"eng": "Happy Halloween!"
+		},
+		"desc1": {
+			"trans": "올해 가장 으스스한 날이 돌아왔습니다! 샹그릴라가 준비하는 특별한 축제와 함께 할로윈을 기념해보세요!",
+			"eng": "Its the spooky time of the year again! Shang-ri-la is celebrating Halloween with a special event!"
+		},
+		"desc2v3": {
+			"vars": [
+				"item"
+			],
+			"trans": "적과 AI 코어 자동 농장에서 ${item}를 드랍할 확률이 있습니다!",
+			"eng": "Enemies and AI Core auto farm will have chance to drop ${item}!"
+		},
+		"desc3v3": {
+			"vars": [
+				"npc",
+				"location",
+				"item"
+			],
+			"trans": "할로윈 동안 ${location}에서 ${npc}를 찾을 수 있어요. 그는 당신의 ${item}를 보상으로 교환해 줄 거예요!",
+			"eng": "You can find ${npc} at ${location} during Halloween, he will exchange your ${item} for rewards!"
+		},
+		"desc4v2": {
+			"trans": "할로윈 기간 동안 할로윈, 사이버-박쥐 후원 및 테마 엠블럼을 한정적으로 구매 할 수 있습니다!",
+			"eng": "During Halloween, a time limited halloween, cyber-bat chat donation tier and themed emblems will be available!"
+		}
+	},
+	"halloweenPromoSmall": {
+		"title": {
+			"trans": "할로윈 이벤트!",
+			"eng": "Halloween Event!"
+		},
+		"desc": {
+			"vars": [
+				"item"
+			],
+			"trans": "${item}을 모아 다양한 보상을 받으세요!",
+			"eng": "Collect ${item} to redeem various rewards!"
 		}
 	},
 	"lunarPromo": {
@@ -10908,6 +11018,23 @@
 			],
 			"trans": "이 아이템과 충돌하는 상태 효과가 있으므로 이 아이템을 사용할 수 없습니다",
 			"eng": "You cannot use this item because there is a status effect that conflicts with it"
+		},
+		"alreadyInteracted": {
+			"trans": "이미 이와 상호작용하셨습니다",
+			"eng": "You have already interacted with this"
+		}
+	},
+	"dungeonQuest": {
+		"success": {
+			"vars": [
+				"effectName"
+			],
+			"trans": "레플리케이터 콘솔을 성공적으로 활성화했습니다. 10분 동안 ${effectName}을(를) 받았습니다",
+			"eng": "You have successfully activated the Replicator Console and received ${effectName} for 10 minutes"
+		},
+		"failed": {
+			"trans": "복제 실패",
+			"eng": "Replication failed"
 		}
 	},
 	"player": {

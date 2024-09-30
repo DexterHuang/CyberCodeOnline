@@ -6794,6 +6794,19 @@
 				"eng": "An military used bot designed to carry your equipments and follows you autonomously,\r\n        with it's six strong legs that imitates the movement of spiders and a advance onboard AI, \r\n        it can follow you swiftly and quietly while it avoids get in the way of whatever mission you are performing"
 			}
 		},
+		"backpack6": {
+			"name": {
+				"trans": "量子存储单元",
+				"eng": "Quantum Storage Unit"
+			},
+			"description": {
+				"vars": [
+					"size"
+				],
+				"trans": "一个采用最先进量子技术的储物容器，能够在其体积内存储大量物品，增加 ${size} 个库存槽位。",
+				"eng": "A storage container that uses state of the art quantum tech that allow it to store massive amount of items for it's size, Increases inventory slot by ${size}"
+			}
+		},
 		"chatExploitPirate": {
 			"name": {
 				"trans": "聊天漏洞发信装置[海盗]",
@@ -7002,6 +7015,20 @@
 				],
 				"trans": "美味的南瓜派。 该馅饼上面有大量浓浓的香草奶油，美味！",
 				"eng": "A delicious pumpkin pie. this pie has big load of thick vanilla cream over it, delicious!\\nrecover ${percent}% health upon consumption"
+			}
+		},
+		"caramelApple": {
+			"name": {
+				"trans": "焦糖苹果",
+				"eng": "Caramel Apple"
+			},
+			"description": {
+				"vars": [
+					"minutes",
+					"percent"
+				],
+				"trans": "一颗多汁的苹果，外面裹着厚厚的焦糖。甜与酸的完美结合。\\n 增加${minutes}分钟内AFK经验和所有获得的BTC ${percent}%。",
+				"eng": "A juicy apple covered in a thick layer of caramel. the perfect combination of sweet and sour.\\n Increases AFK EXP and all BTC gained by ${percent}% for ${minutes} minutes"
 			}
 		},
 		"riceCake": {
@@ -7230,6 +7257,16 @@
 			"notAvailableError": {
 				"trans": "此物品仅在夏季活动期间可用",
 				"eng": "This item is only available during Summer Event"
+			}
+		},
+		"syntheticAlloy": {
+			"name": {
+				"trans": "合成合金",
+				"eng": "Synthetic Alloy"
+			},
+			"description": {
+				"trans": "可以在地下城中与[复制控制台]一起使用，以获得随机奖励。",
+				"eng": "Can be used with the [Replication Console] in dungeons to receive random rewards."
 			}
 		},
 		"experienceShard": {
@@ -8045,9 +8082,9 @@
 				"trans": "小巷",
 				"eng": "Alleyway"
 			},
-			"npcName": {
-				"trans": "南瓜怪人",
-				"eng": "pumpkin weirdo"
+			"npcNamev2": {
+				"trans": "南瓜兄弟",
+				"eng": "Pumpkin Bro"
 			}
 		},
 		"petShop": {
@@ -8682,6 +8719,12 @@
 				"eng": "Autonomous Storage Unit"
 			}
 		},
+		"backpack6": {
+			"name": {
+				"trans": "量子存储单元",
+				"eng": "Quantum Storage Unit"
+			}
+		},
 		"aiCoreCluster": {
 			"name": {
 				"trans": "AI芯片组",
@@ -8861,6 +8904,10 @@
 		"afkExp": {
 			"trans": "AFK Exp提升",
 			"eng": "AFK EXP Boost"
+		},
+		"expMoney": {
+			"trans": "EXP BTC 增益",
+			"eng": "EXP BTC Boost"
 		},
 		"petRevive": {
 			"trans": "宠物复活",
@@ -9063,9 +9110,9 @@
 			"trans": "大家好！ 加入我的地牢[${type}]（lv ${level}）==> ${dungeonInvite}",
 			"eng": "Hey guys! join my dungeon [${type}](lv${level}) ==> ${dungeonInvite}"
 		},
-		"shareDungeonCooldown": {
-			"trans": "请等待再发送另一个邀请",
-			"eng": "Please wait before sending another invite"
+		"shareDungeonCooldownv2": {
+			"trans": "副本邀请冷却时间，若副本为公开状态，玩家可以直接从副本列表加入。",
+			"eng": "Dungeon invite cooldown, people can simply join from the dungeon list if the dungeon is public"
 		},
 		"normal": {
 			"description": {
@@ -9203,6 +9250,12 @@
 			"name": {
 				"trans": "史诗",
 				"eng": "epic"
+			}
+		},
+		"mythic": {
+			"name": {
+				"trans": "神话",
+				"eng": "mythic"
 			}
 		}
 	},
@@ -9710,6 +9763,46 @@
 			"eng": "You will not heal after each fight in dungeon, remember to use your healing items."
 		}
 	},
+	"dungeonQuestModal": {
+		"title": {
+			"trans": "复制控制台",
+			"eng": "Replication Console"
+		},
+		"description": {
+			"vars": [
+				"itemName"
+			],
+			"trans": "输入所需的 ${itemName} 以获得随机奖励",
+			"eng": "Insert required amount of ${itemName} to receive random rewards"
+		},
+		"requirement": {
+			"vars": [
+				"itemName",
+				"amount"
+			],
+			"trans": "需要 ${amount} ${itemName}",
+			"eng": "Requires ${amount} ${itemName}"
+		},
+		"slot": {
+			"vars": [
+				"itemName",
+				"amount"
+			],
+			"trans": "插入 ${amount} ${itemName}",
+			"eng": "Insert ${amount} ${itemName}"
+		},
+		"noItem": {
+			"vars": [
+				"itemName"
+			],
+			"trans": "您没有任何 ${itemName}",
+			"eng": "You do not have any ${itemName}"
+		},
+		"insert": {
+			"trans": "插入物品",
+			"eng": "Insert item"
+		}
+	},
 	"gangQuestAcceptModal": {
 		"title": {
 			"trans": "检测到地牢任务",
@@ -9797,32 +9890,6 @@
 			"eng": "Check out the #event channel on Discord for more details!"
 		}
 	},
-	"halloweenPromo": {
-		"title": {
-			"trans": "万圣节快乐！",
-			"eng": "Happy Halloween!"
-		},
-		"desc1": {
-			"trans": "这是一年中的怪异时间！ 香格里拉市通过特别活动庆祝万圣节！",
-			"eng": "Its the spooky time of the year again! Shang-ri-la is celebrating Halloween with a special event!"
-		},
-		"desc2v2": {
-			"trans": "敌人和人工智能核心汽车农场将有机会放弃千斤顶灯笼！",
-			"eng": "Enemies and AI Core auto farm will have chance to drop Jack-o-lanterns!"
-		},
-		"desc3v2": {
-			"vars": [
-				"npc",
-				"location"
-			],
-			"trans": "您可以在万圣节期间在${location}找到${npc}，他将换取您的千斤顶灯 - 奖励！",
-			"eng": "You can find ${npc} at ${location} during Halloween, he will exchange your Jack-o-lanterns for rewards!"
-		},
-		"desc4v2": {
-			"trans": "在万圣节期间，万圣节有限，网络蝙蝠聊天捐赠层和主题标志将提供！",
-			"eng": "During Halloween, a time limited halloween, cyber-bat chat donation tier and themed emblems will be available!"
-		}
-	},
 	"christmasPromo": {
 		"title": {
 			"trans": "冬季快乐！",
@@ -9856,6 +9923,49 @@
 		"desc": {
 			"trans": "时间有限的战利品和聊天框架！",
 			"eng": "Time limited loot and chat frame!"
+		}
+	},
+	"halloweenPromo": {
+		"title": {
+			"trans": "万圣节快乐！",
+			"eng": "Happy Halloween!"
+		},
+		"desc1": {
+			"trans": "这是一年中的怪异时间！ 香格里拉市通过特别活动庆祝万圣节！",
+			"eng": "Its the spooky time of the year again! Shang-ri-la is celebrating Halloween with a special event!"
+		},
+		"desc2v3": {
+			"vars": [
+				"item"
+			],
+			"trans": "敌人和AI核心自动农场将有机会掉落${item}！",
+			"eng": "Enemies and AI Core auto farm will have chance to drop ${item}!"
+		},
+		"desc3v3": {
+			"vars": [
+				"npc",
+				"location",
+				"item"
+			],
+			"trans": "你可以在万圣节期间在${location}找到${npc}，他会用你的${item}换取奖励！",
+			"eng": "You can find ${npc} at ${location} during Halloween, he will exchange your ${item} for rewards!"
+		},
+		"desc4v2": {
+			"trans": "在万圣节期间，万圣节有限，网络蝙蝠聊天捐赠层和主题标志将提供！",
+			"eng": "During Halloween, a time limited halloween, cyber-bat chat donation tier and themed emblems will be available!"
+		}
+	},
+	"halloweenPromoSmall": {
+		"title": {
+			"trans": "万圣节活动！",
+			"eng": "Halloween Event!"
+		},
+		"desc": {
+			"vars": [
+				"item"
+			],
+			"trans": "收集${item}以兑换各种奖励！",
+			"eng": "Collect ${item} to redeem various rewards!"
 		}
 	},
 	"lunarPromo": {
@@ -11012,6 +11122,23 @@
 			],
 			"trans": "您不能使用此项目，因为存在状态效应与之冲突",
 			"eng": "You cannot use this item because there is a status effect that conflicts with it"
+		},
+		"alreadyInteracted": {
+			"trans": "你已经与此互动过。",
+			"eng": "You have already interacted with this"
+		}
+	},
+	"dungeonQuest": {
+		"success": {
+			"vars": [
+				"effectName"
+			],
+			"trans": "您已成功激活复制控制台，并获得了 ${effectName}，持续时间为10分钟。",
+			"eng": "You have successfully activated the Replicator Console and received ${effectName} for 10 minutes"
+		},
+		"failed": {
+			"trans": "复制失败",
+			"eng": "Replication failed"
 		}
 	},
 	"player": {

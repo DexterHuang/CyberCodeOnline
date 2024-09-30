@@ -6794,6 +6794,19 @@
 				"eng": "An military used bot designed to carry your equipments and follows you autonomously,\r\n        with it's six strong legs that imitates the movement of spiders and a advance onboard AI, \r\n        it can follow you swiftly and quietly while it avoids get in the way of whatever mission you are performing"
 			}
 		},
+		"backpack6": {
+			"name": {
+				"trans": "Jednostka Przechowywania Kwantowego",
+				"eng": "Quantum Storage Unit"
+			},
+			"description": {
+				"vars": [
+					"size"
+				],
+				"trans": "Pojemnik magazynowy wykorzystujący najnowocześniejszą technologię kwantową, która pozwala na przechowywanie ogromnej ilości przedmiotów w stosunku do jego rozmiaru. Zwiększa liczbę slotów w ekwipunku o ${size}",
+				"eng": "A storage container that uses state of the art quantum tech that allow it to store massive amount of items for it's size, Increases inventory slot by ${size}"
+			}
+		},
 		"chatExploitPirate": {
 			"name": {
 				"trans": "Nadajnik Exploita Czatu [PIRAT]",
@@ -7002,6 +7015,20 @@
 				],
 				"trans": "Pyszne ciasto z dyni. To ciasto ma nad nim duży ładunek gęstego kremu waniliowego, pyszne! \\ nrecover ${percent}% zdrowie po konsumpcji",
 				"eng": "A delicious pumpkin pie. this pie has big load of thick vanilla cream over it, delicious!\\nrecover ${percent}% health upon consumption"
+			}
+		},
+		"caramelApple": {
+			"name": {
+				"trans": "Cynamonowe Jabłko",
+				"eng": "Caramel Apple"
+			},
+			"description": {
+				"vars": [
+					"minutes",
+					"percent"
+				],
+				"trans": "Soczyste jabłko pokryte grubą warstwą karmelu. Idealne połączenie słodkiego i kwaśnego.\\n Zwiększa AFK EXP oraz wszystkie zdobyte BTC o ${percent}% przez ${minutes} minut",
+				"eng": "A juicy apple covered in a thick layer of caramel. the perfect combination of sweet and sour.\\n Increases AFK EXP and all BTC gained by ${percent}% for ${minutes} minutes"
 			}
 		},
 		"riceCake": {
@@ -7230,6 +7257,16 @@
 			"notAvailableError": {
 				"trans": "Ten przedmiot jest dostępny tylko podczas Letniego Wydarzenia",
 				"eng": "This item is only available during Summer Event"
+			}
+		},
+		"syntheticAlloy": {
+			"name": {
+				"trans": "Stopień syntetyczny",
+				"eng": "Synthetic Alloy"
+			},
+			"description": {
+				"trans": "Można używać z [Konsolą Replikacji] w lochach, aby otrzymać losowe nagrody.",
+				"eng": "Can be used with the [Replication Console] in dungeons to receive random rewards."
 			}
 		},
 		"experienceShard": {
@@ -7832,9 +7869,9 @@
 				"trans": "Boczna uliczka",
 				"eng": "Alleyway"
 			},
-			"npcName": {
-				"trans": "Dypkin Weirdo",
-				"eng": "pumpkin weirdo"
+			"npcNamev2": {
+				"trans": "Pumpkin Bro",
+				"eng": "Pumpkin Bro"
 			}
 		},
 		"petShop": {
@@ -8469,6 +8506,12 @@
 				"eng": "Autonomous Storage Unit"
 			}
 		},
+		"backpack6": {
+			"name": {
+				"trans": "Jednostka Przechowywania Kwantowego",
+				"eng": "Quantum Storage Unit"
+			}
+		},
 		"aiCoreCluster": {
 			"name": {
 				"trans": "Cluster Core Ai",
@@ -8648,6 +8691,10 @@
 		"afkExp": {
 			"trans": "Afk Exp Boost",
 			"eng": "AFK EXP Boost"
+		},
+		"expMoney": {
+			"trans": "EXP BTC Wzrost",
+			"eng": "EXP BTC Boost"
 		},
 		"petRevive": {
 			"trans": "Odrodzenie Zwierzaka",
@@ -8850,9 +8897,9 @@
 			"trans": "Cześć ludzie! Dołącz do mojego lochu [${type}] (lv ${level}) ==> ${dungeonInvite}",
 			"eng": "Hey guys! join my dungeon [${type}](lv${level}) ==> ${dungeonInvite}"
 		},
-		"shareDungeonCooldown": {
-			"trans": "Poczekaj przed wysłaniem kolejnego zaproszenia",
-			"eng": "Please wait before sending another invite"
+		"shareDungeonCooldownv2": {
+			"trans": "Czas odnowienia zaproszenia do lochu, ludzie mogą po prostu dołączyć z listy lochów, jeśli loch jest publiczny",
+			"eng": "Dungeon invite cooldown, people can simply join from the dungeon list if the dungeon is public"
 		},
 		"normal": {
 			"description": {
@@ -8990,6 +9037,12 @@
 			"name": {
 				"trans": "Epickiej Jakości",
 				"eng": "epic"
+			}
+		},
+		"mythic": {
+			"name": {
+				"trans": "miticzny",
+				"eng": "mythic"
 			}
 		}
 	},
@@ -9497,6 +9550,46 @@
 			"eng": "You will not heal after each fight in dungeon, remember to use your healing items."
 		}
 	},
+	"dungeonQuestModal": {
+		"title": {
+			"trans": "Konsola Replikacji",
+			"eng": "Replication Console"
+		},
+		"description": {
+			"vars": [
+				"itemName"
+			],
+			"trans": "Wprowadź wymaganą kwotę ${itemName}, aby otrzymać losowe nagrody",
+			"eng": "Insert required amount of ${itemName} to receive random rewards"
+		},
+		"requirement": {
+			"vars": [
+				"itemName",
+				"amount"
+			],
+			"trans": "Wymaga ${amount} ${itemName}",
+			"eng": "Requires ${amount} ${itemName}"
+		},
+		"slot": {
+			"vars": [
+				"itemName",
+				"amount"
+			],
+			"trans": "Wstaw ${amount} ${itemName}",
+			"eng": "Insert ${amount} ${itemName}"
+		},
+		"noItem": {
+			"vars": [
+				"itemName"
+			],
+			"trans": "Nie masz żadnych ${itemName}",
+			"eng": "You do not have any ${itemName}"
+		},
+		"insert": {
+			"trans": "Włóż przedmiot",
+			"eng": "Insert item"
+		}
+	},
 	"gangQuestAcceptModal": {
 		"title": {
 			"trans": "Wykryto Quest Dungeon",
@@ -9584,32 +9677,6 @@
 			"eng": "Check out the #event channel on Discord for more details!"
 		}
 	},
-	"halloweenPromo": {
-		"title": {
-			"trans": "Wesołego Halloween!",
-			"eng": "Happy Halloween!"
-		},
-		"desc1": {
-			"trans": "To znowu upiorna pora roku! Shang-Ri-La świętuje Halloween ze specjalnym wydarzeniem!",
-			"eng": "Its the spooky time of the year again! Shang-ri-la is celebrating Halloween with a special event!"
-		},
-		"desc2v2": {
-			"trans": "Wrogowie i AI Core Auto Farm będą mieli okazję upuścić Jack-O-Lanterns!",
-			"eng": "Enemies and AI Core auto farm will have chance to drop Jack-o-lanterns!"
-		},
-		"desc3v2": {
-			"vars": [
-				"npc",
-				"location"
-			],
-			"trans": "Można znaleźć ${npc} w ${location} Podczas Halloween wymieni twoje Jack-O-Lanterns na nagrody!",
-			"eng": "You can find ${npc} at ${location} during Halloween, he will exchange your Jack-o-lanterns for rewards!"
-		},
-		"desc4v2": {
-			"trans": "Podczas Halloween dostępny będą ograniczone Halloween, cyberbol czatu i emblematyki tematyczne!",
-			"eng": "During Halloween, a time limited halloween, cyber-bat chat donation tier and themed emblems will be available!"
-		}
-	},
 	"christmasPromo": {
 		"title": {
 			"trans": "Szczęśliwe zimowe wakacje!",
@@ -9643,6 +9710,49 @@
 		"desc": {
 			"trans": "Time Limited Loot i rama czatu!",
 			"eng": "Time limited loot and chat frame!"
+		}
+	},
+	"halloweenPromo": {
+		"title": {
+			"trans": "Wesołego Halloween!",
+			"eng": "Happy Halloween!"
+		},
+		"desc1": {
+			"trans": "To znowu upiorna pora roku! Shang-Ri-La świętuje Halloween ze specjalnym wydarzeniem!",
+			"eng": "Its the spooky time of the year again! Shang-ri-la is celebrating Halloween with a special event!"
+		},
+		"desc2v3": {
+			"vars": [
+				"item"
+			],
+			"trans": "Wrogowie i AI Core w automatycznym farmieniu będą mieli szansę na upuszczenie ${item}!",
+			"eng": "Enemies and AI Core auto farm will have chance to drop ${item}!"
+		},
+		"desc3v3": {
+			"vars": [
+				"npc",
+				"location",
+				"item"
+			],
+			"trans": "Możesz znaleźć ${npc} w ${location} podczas Halloween, wymieni on twoje ${item} na nagrody!",
+			"eng": "You can find ${npc} at ${location} during Halloween, he will exchange your ${item} for rewards!"
+		},
+		"desc4v2": {
+			"trans": "Podczas Halloween dostępny będą ograniczone Halloween, cyberbol czatu i emblematyki tematyczne!",
+			"eng": "During Halloween, a time limited halloween, cyber-bat chat donation tier and themed emblems will be available!"
+		}
+	},
+	"halloweenPromoSmall": {
+		"title": {
+			"trans": "Halloween Event!",
+			"eng": "Halloween Event!"
+		},
+		"desc": {
+			"vars": [
+				"item"
+			],
+			"trans": "Zbierz ${item}, aby odebrać różne nagrody!",
+			"eng": "Collect ${item} to redeem various rewards!"
 		}
 	},
 	"lunarPromo": {
@@ -10799,6 +10909,23 @@
 			],
 			"trans": "Nie możesz użyć tego elementu, ponieważ istnieje efekt statusu, który jest z nim sprzeczny",
 			"eng": "You cannot use this item because there is a status effect that conflicts with it"
+		},
+		"alreadyInteracted": {
+			"trans": "Już wcześniej z tym interagowałeś",
+			"eng": "You have already interacted with this"
+		}
+	},
+	"dungeonQuest": {
+		"success": {
+			"vars": [
+				"effectName"
+			],
+			"trans": "Pomyślnie aktywowałeś Konsolę Replikatora i otrzymałeś ${effectName} na 10 minut",
+			"eng": "You have successfully activated the Replicator Console and received ${effectName} for 10 minutes"
+		},
+		"failed": {
+			"trans": "Replikacja nie powiodła się",
+			"eng": "Replication failed"
 		}
 	},
 	"player": {

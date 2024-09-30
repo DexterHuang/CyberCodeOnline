@@ -6794,6 +6794,19 @@
 				"eng": "An military used bot designed to carry your equipments and follows you autonomously,\r\n        with it's six strong legs that imitates the movement of spiders and a advance onboard AI, \r\n        it can follow you swiftly and quietly while it avoids get in the way of whatever mission you are performing"
 			}
 		},
+		"backpack6": {
+			"name": {
+				"trans": "Квантовий накопичувач",
+				"eng": "Quantum Storage Unit"
+			},
+			"description": {
+				"vars": [
+					"size"
+				],
+				"trans": "Контейнер для зберігання, який використовує сучасні квантові технології, що дозволяють зберігати величезну кількість предметів у своїх розмірах. Збільшує кількість слотів інвентарю на ${size}",
+				"eng": "A storage container that uses state of the art quantum tech that allow it to store massive amount of items for it's size, Increases inventory slot by ${size}"
+			}
+		},
 		"chatExploitPirate": {
 			"name": {
 				"trans": "Передавач Чат експлойту [пірат]",
@@ -7002,6 +7015,20 @@
 				],
 				"trans": "Смачний гарбузовий пиріг. Цей пиріг має велике навантаження товстого ванільного крему, смачний! \nВідновлює ${percent}% здоров'я при споживанні",
 				"eng": "A delicious pumpkin pie. this pie has big load of thick vanilla cream over it, delicious!\\nrecover ${percent}% health upon consumption"
+			}
+		},
+		"caramelApple": {
+			"name": {
+				"trans": "Карамельне яблуко",
+				"eng": "Caramel Apple"
+			},
+			"description": {
+				"vars": [
+					"minutes",
+					"percent"
+				],
+				"trans": "Соковите яблуко, покрите товстим шаром карамелі. Ідеальне поєднання солодкого та кислого.\\nЗбільшує AFK EXP та всі BTC, отримані на ${percent}%, на ${minutes} хвилин",
+				"eng": "A juicy apple covered in a thick layer of caramel. the perfect combination of sweet and sour.\\n Increases AFK EXP and all BTC gained by ${percent}% for ${minutes} minutes"
 			}
 		},
 		"riceCake": {
@@ -7230,6 +7257,16 @@
 			"notAvailableError": {
 				"trans": "Цей предмет доступний лише під час Літнього заходу",
 				"eng": "This item is only available during Summer Event"
+			}
+		},
+		"syntheticAlloy": {
+			"name": {
+				"trans": "Синтетичний сплав",
+				"eng": "Synthetic Alloy"
+			},
+			"description": {
+				"trans": "Може бути використано з [Консоллю Реплікації] у підземеллях для отримання випадкових нагород.",
+				"eng": "Can be used with the [Replication Console] in dungeons to receive random rewards."
 			}
 		},
 		"experienceShard": {
@@ -8033,9 +8070,9 @@
 				"trans": "Алея",
 				"eng": "Alleyway"
 			},
-			"npcName": {
-				"trans": "Гарбузовий дивак",
-				"eng": "pumpkin weirdo"
+			"npcNamev2": {
+				"trans": "Гарбуз Бро",
+				"eng": "Pumpkin Bro"
 			}
 		},
 		"petShop": {
@@ -8670,6 +8707,12 @@
 				"eng": "Autonomous Storage Unit"
 			}
 		},
+		"backpack6": {
+			"name": {
+				"trans": "Квантовий накопичувач",
+				"eng": "Quantum Storage Unit"
+			}
+		},
 		"aiCoreCluster": {
 			"name": {
 				"trans": "Кластер Ядер ШІ",
@@ -8849,6 +8892,10 @@
 		"afkExp": {
 			"trans": "AFK Множник Досвіду",
 			"eng": "AFK EXP Boost"
+		},
+		"expMoney": {
+			"trans": "EXP BTC Підсилення",
+			"eng": "EXP BTC Boost"
 		},
 		"petRevive": {
 			"trans": "Відновлення домашнього улюбленця",
@@ -9050,9 +9097,9 @@
 			"trans": "Агов, хлопці! Приєднуйтесь до мого підземелля [${type}] (lv ${level}) ==> ${dungeonInvite}",
 			"eng": "Hey guys! join my dungeon [${type}](lv${level}) ==> ${dungeonInvite}"
 		},
-		"shareDungeonCooldown": {
-			"trans": "Будь ласка, зачекайте, перш ніж надіслати ще одне запрошення",
-			"eng": "Please wait before sending another invite"
+		"shareDungeonCooldownv2": {
+			"trans": "Охолодження запрошення в підземелля, люди можуть просто приєднатися зі списку підземель, якщо підземелля є публічним",
+			"eng": "Dungeon invite cooldown, people can simply join from the dungeon list if the dungeon is public"
 		},
 		"normal": {
 			"description": {
@@ -9190,6 +9237,12 @@
 			"name": {
 				"trans": "епічне",
 				"eng": "epic"
+			}
+		},
+		"mythic": {
+			"name": {
+				"trans": "міфічний",
+				"eng": "mythic"
 			}
 		}
 	},
@@ -9697,6 +9750,46 @@
 			"eng": "You will not heal after each fight in dungeon, remember to use your healing items."
 		}
 	},
+	"dungeonQuestModal": {
+		"title": {
+			"trans": "Консоль реплікації",
+			"eng": "Replication Console"
+		},
+		"description": {
+			"vars": [
+				"itemName"
+			],
+			"trans": "Введіть необхідну суму ${itemName}, щоб отримати випадкові нагороди",
+			"eng": "Insert required amount of ${itemName} to receive random rewards"
+		},
+		"requirement": {
+			"vars": [
+				"itemName",
+				"amount"
+			],
+			"trans": "Вимагає ${amount} ${itemName}",
+			"eng": "Requires ${amount} ${itemName}"
+		},
+		"slot": {
+			"vars": [
+				"itemName",
+				"amount"
+			],
+			"trans": "Вставте ${amount} ${itemName}",
+			"eng": "Insert ${amount} ${itemName}"
+		},
+		"noItem": {
+			"vars": [
+				"itemName"
+			],
+			"trans": "У вас немає жодного ${itemName}",
+			"eng": "You do not have any ${itemName}"
+		},
+		"insert": {
+			"trans": "Вставити предмет",
+			"eng": "Insert item"
+		}
+	},
 	"gangQuestAcceptModal": {
 		"title": {
 			"trans": "Виявлено Квест Підземелля",
@@ -9784,32 +9877,6 @@
 			"eng": "Check out the #event channel on Discord for more details!"
 		}
 	},
-	"halloweenPromo": {
-		"title": {
-			"trans": "Щасливого Хеловіну!",
-			"eng": "Happy Halloween!"
-		},
-		"desc1": {
-			"trans": "Це моторошна пора року знову! Шанг-Рі-Ла святкує Хеллоуїн із спеціальною подією!",
-			"eng": "Its the spooky time of the year again! Shang-ri-la is celebrating Halloween with a special event!"
-		},
-		"desc2v2": {
-			"trans": "Вороги та автоферма ядрами ШІ матимуть шанс скинути Джеки-о-ліхтарики!",
-			"eng": "Enemies and AI Core auto farm will have chance to drop Jack-o-lanterns!"
-		},
-		"desc3v2": {
-			"vars": [
-				"npc",
-				"location"
-			],
-			"trans": "Ви можете знайти ${npc} на ${location} під час Хеллоуїна, він обміняє ваші Джеки-о-ліхтарики на винагороду!",
-			"eng": "You can find ${npc} at ${location} during Halloween, he will exchange your Jack-o-lanterns for rewards!"
-		},
-		"desc4v2": {
-			"trans": "Під час Хелловіну буде доступним обмежений у часі Хелловін рівень пожертвувань, у чаті кібер-бат і тематичні емблеми!",
-			"eng": "During Halloween, a time limited halloween, cyber-bat chat donation tier and themed emblems will be available!"
-		}
-	},
 	"christmasPromo": {
 		"title": {
 			"trans": "Щасливих Зимових свят!",
@@ -9843,6 +9910,49 @@
 		"desc": {
 			"trans": "Обмежені речі та оформлення чату!",
 			"eng": "Time limited loot and chat frame!"
+		}
+	},
+	"halloweenPromo": {
+		"title": {
+			"trans": "Щасливого Хеловіну!",
+			"eng": "Happy Halloween!"
+		},
+		"desc1": {
+			"trans": "Це моторошна пора року знову! Шанг-Рі-Ла святкує Хеллоуїн із спеціальною подією!",
+			"eng": "Its the spooky time of the year again! Shang-ri-la is celebrating Halloween with a special event!"
+		},
+		"desc2v3": {
+			"vars": [
+				"item"
+			],
+			"trans": "Вороги та AI Core автоферма матимуть шанс випустити ${item}!",
+			"eng": "Enemies and AI Core auto farm will have chance to drop ${item}!"
+		},
+		"desc3v3": {
+			"vars": [
+				"npc",
+				"location",
+				"item"
+			],
+			"trans": "Ви можете знайти ${npc} на ${location} під час Хелловіну, він обміняє ваші ${item} на винагороди!",
+			"eng": "You can find ${npc} at ${location} during Halloween, he will exchange your ${item} for rewards!"
+		},
+		"desc4v2": {
+			"trans": "Під час Хелловіну буде доступним обмежений у часі Хелловін рівень пожертвувань, у чаті кібер-бат і тематичні емблеми!",
+			"eng": "During Halloween, a time limited halloween, cyber-bat chat donation tier and themed emblems will be available!"
+		}
+	},
+	"halloweenPromoSmall": {
+		"title": {
+			"trans": "Хелловінський захід!",
+			"eng": "Halloween Event!"
+		},
+		"desc": {
+			"vars": [
+				"item"
+			],
+			"trans": "Зберіть ${item}, щоб отримати різні винагороди!",
+			"eng": "Collect ${item} to redeem various rewards!"
 		}
 	},
 	"lunarPromo": {
@@ -10999,6 +11109,23 @@
 			],
 			"trans": "Ви не можете використовувати цей предмет, оскільки існує статус, який конфліктує з ним",
 			"eng": "You cannot use this item because there is a status effect that conflicts with it"
+		},
+		"alreadyInteracted": {
+			"trans": "Ви вже взаємодіяли з цим",
+			"eng": "You have already interacted with this"
+		}
+	},
+	"dungeonQuest": {
+		"success": {
+			"vars": [
+				"effectName"
+			],
+			"trans": "Ви успішно активували Консоль Реплікатора і отримали ${effectName} на 10 хвилин",
+			"eng": "You have successfully activated the Replicator Console and received ${effectName} for 10 minutes"
+		},
+		"failed": {
+			"trans": "Копіювання не вдалося",
+			"eng": "Replication failed"
 		}
 	},
 	"player": {

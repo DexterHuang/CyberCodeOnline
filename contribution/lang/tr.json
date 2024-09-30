@@ -6794,6 +6794,19 @@
 				"eng": "An military used bot designed to carry your equipments and follows you autonomously,\r\n        with it's six strong legs that imitates the movement of spiders and a advance onboard AI, \r\n        it can follow you swiftly and quietly while it avoids get in the way of whatever mission you are performing"
 			}
 		},
+		"backpack6": {
+			"name": {
+				"trans": "Kuantum Depolama Ünitesi",
+				"eng": "Quantum Storage Unit"
+			},
+			"description": {
+				"vars": [
+					"size"
+				],
+				"trans": "Boyutuna göre devasa miktarda eşyayı depolayabilen, en son kuantum teknolojisini kullanan bir depolama konteyneri. Envanter slotunu ${size} artırır",
+				"eng": "A storage container that uses state of the art quantum tech that allow it to store massive amount of items for it's size, Increases inventory slot by ${size}"
+			}
+		},
 		"chatExploitPirate": {
 			"name": {
 				"trans": "Sohbet İstismarı Vericisi [KORSAN]",
@@ -7002,6 +7015,20 @@
 				],
 				"trans": "Lezzetli bir balkabağı turtası. Bu turta üzerinde büyük bir yük kalın vanilyalı krem var, lezzetli! \\ nrecover ${percent}% Sağlık tüketim üzerine",
 				"eng": "A delicious pumpkin pie. this pie has big load of thick vanilla cream over it, delicious!\\nrecover ${percent}% health upon consumption"
+			}
+		},
+		"caramelApple": {
+			"name": {
+				"trans": "Karamelli Elma",
+				"eng": "Caramel Apple"
+			},
+			"description": {
+				"vars": [
+					"minutes",
+					"percent"
+				],
+				"trans": "Kalın bir karamel tabakasıyla kaplı sulu bir elma. Tatlı ve ekşi mükemmel bir kombinasyon.\\n ${minutes} dakika boyunca AFK EXP ve kazanılan tüm BTC'yi ${percent}% artırır",
+				"eng": "A juicy apple covered in a thick layer of caramel. the perfect combination of sweet and sour.\\n Increases AFK EXP and all BTC gained by ${percent}% for ${minutes} minutes"
 			}
 		},
 		"riceCake": {
@@ -7230,6 +7257,16 @@
 			"notAvailableError": {
 				"trans": "Bu eşya yalnızca Yaz Etkinliği sırasında mevcuttur",
 				"eng": "This item is only available during Summer Event"
+			}
+		},
+		"syntheticAlloy": {
+			"name": {
+				"trans": "Sentetik Alaşım",
+				"eng": "Synthetic Alloy"
+			},
+			"description": {
+				"trans": "Zindanlarda rastgele ödüller almak için [Replikasyon Konsolu] ile kullanılabilir.",
+				"eng": "Can be used with the [Replication Console] in dungeons to receive random rewards."
 			}
 		},
 		"experienceShard": {
@@ -7832,9 +7869,9 @@
 				"trans": "Sokak yolu",
 				"eng": "Alleyway"
 			},
-			"npcName": {
-				"trans": "balkabağı garip",
-				"eng": "pumpkin weirdo"
+			"npcNamev2": {
+				"trans": "Balkabağı Kanka",
+				"eng": "Pumpkin Bro"
 			}
 		},
 		"petShop": {
@@ -8469,6 +8506,12 @@
 				"eng": "Autonomous Storage Unit"
 			}
 		},
+		"backpack6": {
+			"name": {
+				"trans": "Kuantum Depolama Ünitesi",
+				"eng": "Quantum Storage Unit"
+			}
+		},
 		"aiCoreCluster": {
 			"name": {
 				"trans": "AI Çekirdek Küme",
@@ -8648,6 +8691,10 @@
 		"afkExp": {
 			"trans": "AFK Exp Boost",
 			"eng": "AFK EXP Boost"
+		},
+		"expMoney": {
+			"trans": "EXP BTC Artışı",
+			"eng": "EXP BTC Boost"
 		},
 		"petRevive": {
 			"trans": "Evcil Hayvanı Canlandır",
@@ -8850,9 +8897,9 @@
 			"trans": "Hey Millet! Dungeon'uma katılın [${type}] (lv ${level}) ==> ${dungeonInvite}",
 			"eng": "Hey guys! join my dungeon [${type}](lv${level}) ==> ${dungeonInvite}"
 		},
-		"shareDungeonCooldown": {
-			"trans": "Lütfen başka bir davet göndermeden önce bekleyin",
-			"eng": "Please wait before sending another invite"
+		"shareDungeonCooldownv2": {
+			"trans": "Zindan davet bekleme süresi, insanlar eğer zindan herkese açıksa zindan listesinden kolayca katılabilirler",
+			"eng": "Dungeon invite cooldown, people can simply join from the dungeon list if the dungeon is public"
 		},
 		"normal": {
 			"description": {
@@ -8990,6 +9037,12 @@
 			"name": {
 				"trans": "destansı",
 				"eng": "epic"
+			}
+		},
+		"mythic": {
+			"name": {
+				"trans": "mitolojik",
+				"eng": "mythic"
 			}
 		}
 	},
@@ -9497,6 +9550,46 @@
 			"eng": "You will not heal after each fight in dungeon, remember to use your healing items."
 		}
 	},
+	"dungeonQuestModal": {
+		"title": {
+			"trans": "Replikasyon Konsolu",
+			"eng": "Replication Console"
+		},
+		"description": {
+			"vars": [
+				"itemName"
+			],
+			"trans": "Rastgele ödüller almak için gerekli miktar olan ${itemName}'ı ekleyin",
+			"eng": "Insert required amount of ${itemName} to receive random rewards"
+		},
+		"requirement": {
+			"vars": [
+				"itemName",
+				"amount"
+			],
+			"trans": "${amount} ${itemName} gerektirir",
+			"eng": "Requires ${amount} ${itemName}"
+		},
+		"slot": {
+			"vars": [
+				"itemName",
+				"amount"
+			],
+			"trans": "Insert ${amount} ${itemName}",
+			"eng": "Insert ${amount} ${itemName}"
+		},
+		"noItem": {
+			"vars": [
+				"itemName"
+			],
+			"trans": "${itemName} yok",
+			"eng": "You do not have any ${itemName}"
+		},
+		"insert": {
+			"trans": "Öğe ekle",
+			"eng": "Insert item"
+		}
+	},
 	"gangQuestAcceptModal": {
 		"title": {
 			"trans": "Dungeon Quest tespit edildi",
@@ -9584,32 +9677,6 @@
 			"eng": "Check out the #event channel on Discord for more details!"
 		}
 	},
-	"halloweenPromo": {
-		"title": {
-			"trans": "Mutlu Cadılar Bayramı!",
-			"eng": "Happy Halloween!"
-		},
-		"desc1": {
-			"trans": "Yine yılın ürkütücü zamanı! Shang-Ri-la Cadılar Bayramı'nı özel bir etkinlikle kutluyor!",
-			"eng": "Its the spooky time of the year again! Shang-ri-la is celebrating Halloween with a special event!"
-		},
-		"desc2v2": {
-			"trans": "Düşmanlar ve AI Core Auto Farm, Jack-O-Lanterns'i düşürme şansına sahip olacak!",
-			"eng": "Enemies and AI Core auto farm will have chance to drop Jack-o-lanterns!"
-		},
-		"desc3v2": {
-			"vars": [
-				"npc",
-				"location"
-			],
-			"trans": "Cadılar Bayramı sırasında ${npc} ${location} adresinde bulabilirsiniz, Jack-O-Lantern'lerinizi ödüller için değiştirecektir!",
-			"eng": "You can find ${npc} at ${location} during Halloween, he will exchange your Jack-o-lanterns for rewards!"
-		},
-		"desc4v2": {
-			"trans": "Cadılar Bayramı sırasında, Time Limited Cadılar Bayramı, Siber Bat Sohbet Bağışı Seviyesi ve Temalı Amblemler sunulacak!",
-			"eng": "During Halloween, a time limited halloween, cyber-bat chat donation tier and themed emblems will be available!"
-		}
-	},
 	"christmasPromo": {
 		"title": {
 			"trans": "Mutlu kış tatili!",
@@ -9643,6 +9710,49 @@
 		"desc": {
 			"trans": "Time Sınırlı Yağma ve Sohbet Çerçevesi!",
 			"eng": "Time limited loot and chat frame!"
+		}
+	},
+	"halloweenPromo": {
+		"title": {
+			"trans": "Mutlu Cadılar Bayramı!",
+			"eng": "Happy Halloween!"
+		},
+		"desc1": {
+			"trans": "Yine yılın ürkütücü zamanı! Shang-Ri-la Cadılar Bayramı'nı özel bir etkinlikle kutluyor!",
+			"eng": "Its the spooky time of the year again! Shang-ri-la is celebrating Halloween with a special event!"
+		},
+		"desc2v3": {
+			"vars": [
+				"item"
+			],
+			"trans": "Düşmanlar ve AI Core otomatik çiftliği ${item} düşürme şansına sahip olacak!",
+			"eng": "Enemies and AI Core auto farm will have chance to drop ${item}!"
+		},
+		"desc3v3": {
+			"vars": [
+				"npc",
+				"location",
+				"item"
+			],
+			"trans": "Cadılar Bayramı'nda ${location}'de ${npc}'ı bulabilirsin, ${item} karşılığında ödüllerle takas yapacak!",
+			"eng": "You can find ${npc} at ${location} during Halloween, he will exchange your ${item} for rewards!"
+		},
+		"desc4v2": {
+			"trans": "Cadılar Bayramı sırasında, Time Limited Cadılar Bayramı, Siber Bat Sohbet Bağışı Seviyesi ve Temalı Amblemler sunulacak!",
+			"eng": "During Halloween, a time limited halloween, cyber-bat chat donation tier and themed emblems will be available!"
+		}
+	},
+	"halloweenPromoSmall": {
+		"title": {
+			"trans": "Cadılar Bayramı Etkinliği!",
+			"eng": "Halloween Event!"
+		},
+		"desc": {
+			"vars": [
+				"item"
+			],
+			"trans": "${item} to çeşitli ödüller almak için topla!",
+			"eng": "Collect ${item} to redeem various rewards!"
 		}
 	},
 	"lunarPromo": {
@@ -10799,6 +10909,23 @@
 			],
 			"trans": "Bu öğeyi kullanamazsınız çünkü onunla çelişen bir durum etkisi vardır",
 			"eng": "You cannot use this item because there is a status effect that conflicts with it"
+		},
+		"alreadyInteracted": {
+			"trans": "Bununla zaten etkileşimde bulundunuz",
+			"eng": "You have already interacted with this"
+		}
+	},
+	"dungeonQuest": {
+		"success": {
+			"vars": [
+				"effectName"
+			],
+			"trans": "Replicatör Konsolu'nu başarıyla etkinleştirdiniz ve 10 dakika boyunca ${effectName} aldınız",
+			"eng": "You have successfully activated the Replicator Console and received ${effectName} for 10 minutes"
+		},
+		"failed": {
+			"trans": "Kopyalama başarısız oldu",
+			"eng": "Replication failed"
 		}
 	},
 	"player": {

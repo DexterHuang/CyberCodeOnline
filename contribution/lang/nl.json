@@ -6794,6 +6794,19 @@
 				"eng": "An military used bot designed to carry your equipments and follows you autonomously,\r\n        with it's six strong legs that imitates the movement of spiders and a advance onboard AI, \r\n        it can follow you swiftly and quietly while it avoids get in the way of whatever mission you are performing"
 			}
 		},
+		"backpack6": {
+			"name": {
+				"trans": "Quantum Ops Opslag Eenheid",
+				"eng": "Quantum Storage Unit"
+			},
+			"description": {
+				"vars": [
+					"size"
+				],
+				"trans": "Een opslagcontainer die gebruikmaakt van geavanceerde kwantumtechnologie, waarmee het een enorme hoeveelheid items kan opslaan in verhouding tot zijn grootte. Verhoogt het aantal inventarislijnen met ${size}",
+				"eng": "A storage container that uses state of the art quantum tech that allow it to store massive amount of items for it's size, Increases inventory slot by ${size}"
+			}
+		},
 		"chatExploitPirate": {
 			"name": {
 				"trans": "Chat Exploit-zender [PIRAAT]",
@@ -7002,6 +7015,20 @@
 				],
 				"trans": "Een heerlijke pompoentaart. Deze taart heeft een grote lading dikke vanille -crème erover, heerlijk! \\ nrecover ${percent}% gezondheid bij consumptie",
 				"eng": "A delicious pumpkin pie. this pie has big load of thick vanilla cream over it, delicious!\\nrecover ${percent}% health upon consumption"
+			}
+		},
+		"caramelApple": {
+			"name": {
+				"trans": "Karamel Appel",
+				"eng": "Caramel Apple"
+			},
+			"description": {
+				"vars": [
+					"minutes",
+					"percent"
+				],
+				"trans": "Een sappige appel bedekt met een dikke laag karamel. De perfecte combinatie van zoet en zuur.\\n Verhoogt AFK EXP en alle BTC die je verdient met ${percent}% voor ${minutes} minuten",
+				"eng": "A juicy apple covered in a thick layer of caramel. the perfect combination of sweet and sour.\\n Increases AFK EXP and all BTC gained by ${percent}% for ${minutes} minutes"
 			}
 		},
 		"riceCake": {
@@ -7230,6 +7257,16 @@
 			"notAvailableError": {
 				"trans": "Dit item is alleen beschikbaar tijdens het Zomer Evenement",
 				"eng": "This item is only available during Summer Event"
+			}
+		},
+		"syntheticAlloy": {
+			"name": {
+				"trans": "Synthetisch Legering",
+				"eng": "Synthetic Alloy"
+			},
+			"description": {
+				"trans": "Kan worden gebruikt met de [Replicatieconsole] in kerkers om willekeurige beloningen te ontvangen.",
+				"eng": "Can be used with the [Replication Console] in dungeons to receive random rewards."
 			}
 		},
 		"experienceShard": {
@@ -7832,9 +7869,9 @@
 				"trans": "Steegje",
 				"eng": "Alleyway"
 			},
-			"npcName": {
-				"trans": "pompoen raar",
-				"eng": "pumpkin weirdo"
+			"npcNamev2": {
+				"trans": "Pompoen Bro",
+				"eng": "Pumpkin Bro"
 			}
 		},
 		"petShop": {
@@ -8469,6 +8506,12 @@
 				"eng": "Autonomous Storage Unit"
 			}
 		},
+		"backpack6": {
+			"name": {
+				"trans": "Quantum Ops Opslag Eenheid",
+				"eng": "Quantum Storage Unit"
+			}
+		},
 		"aiCoreCluster": {
 			"name": {
 				"trans": "Ai core cluster",
@@ -8648,6 +8691,10 @@
 		"afkExp": {
 			"trans": "AFK exp boost",
 			"eng": "AFK EXP Boost"
+		},
+		"expMoney": {
+			"trans": "EXP BTC Boost",
+			"eng": "EXP BTC Boost"
 		},
 		"petRevive": {
 			"trans": "Huisdier Herstellen",
@@ -8850,9 +8897,9 @@
 			"trans": "Hallo jongens! Word lid van mijn Dungeon [${type}] (lv ${level}) ==> ${dungeonInvite}",
 			"eng": "Hey guys! join my dungeon [${type}](lv${level}) ==> ${dungeonInvite}"
 		},
-		"shareDungeonCooldown": {
-			"trans": "Wacht alsjeblieft voordat je nog een uitnodiging verzendt",
-			"eng": "Please wait before sending another invite"
+		"shareDungeonCooldownv2": {
+			"trans": "Cooldown voor dungeonuitnodigingen, mensen kunnen eenvoudig deelnemen via de dungeonlijst als de dungeon openbaar is",
+			"eng": "Dungeon invite cooldown, people can simply join from the dungeon list if the dungeon is public"
 		},
 		"normal": {
 			"description": {
@@ -8990,6 +9037,12 @@
 			"name": {
 				"trans": "epische",
 				"eng": "epic"
+			}
+		},
+		"mythic": {
+			"name": {
+				"trans": "mythisch",
+				"eng": "mythic"
 			}
 		}
 	},
@@ -9497,6 +9550,46 @@
 			"eng": "You will not heal after each fight in dungeon, remember to use your healing items."
 		}
 	},
+	"dungeonQuestModal": {
+		"title": {
+			"trans": "Replicatieconsole",
+			"eng": "Replication Console"
+		},
+		"description": {
+			"vars": [
+				"itemName"
+			],
+			"trans": "Voer het vereiste bedrag van ${itemName} in om willekeurige beloningen te ontvangen",
+			"eng": "Insert required amount of ${itemName} to receive random rewards"
+		},
+		"requirement": {
+			"vars": [
+				"itemName",
+				"amount"
+			],
+			"trans": "Vereist ${amount} ${itemName}",
+			"eng": "Requires ${amount} ${itemName}"
+		},
+		"slot": {
+			"vars": [
+				"itemName",
+				"amount"
+			],
+			"trans": "Insert ${amount} ${itemName}",
+			"eng": "Insert ${amount} ${itemName}"
+		},
+		"noItem": {
+			"vars": [
+				"itemName"
+			],
+			"trans": "Je hebt geen ${itemName}",
+			"eng": "You do not have any ${itemName}"
+		},
+		"insert": {
+			"trans": "Item invoegen",
+			"eng": "Insert item"
+		}
+	},
 	"gangQuestAcceptModal": {
 		"title": {
 			"trans": "Dungeon Quest gedetecteerd",
@@ -9584,32 +9677,6 @@
 			"eng": "Check out the #event channel on Discord for more details!"
 		}
 	},
-	"halloweenPromo": {
-		"title": {
-			"trans": "Fijne Halloween!",
-			"eng": "Happy Halloween!"
-		},
-		"desc1": {
-			"trans": "Het is weer de griezelige tijd van het jaar! Shang-Ri-La viert Halloween met een speciaal evenement!",
-			"eng": "Its the spooky time of the year again! Shang-ri-la is celebrating Halloween with a special event!"
-		},
-		"desc2v2": {
-			"trans": "Vijanden en AI Core Auto Farm krijgen de kans om Jack-O-Lanterns te laten vallen!",
-			"eng": "Enemies and AI Core auto farm will have chance to drop Jack-o-lanterns!"
-		},
-		"desc3v2": {
-			"vars": [
-				"npc",
-				"location"
-			],
-			"trans": "U kunt ${npc} vinden voor ${location} Tijdens Halloween ruilt hij uw Jack-O-Lanterns uit voor beloningen!",
-			"eng": "You can find ${npc} at ${location} during Halloween, he will exchange your Jack-o-lanterns for rewards!"
-		},
-		"desc4v2": {
-			"trans": "Tijdens Halloween zullen een Time Limited Halloween, Cyber-Bat Chat Donation Laag en thema-emblemen beschikbaar zijn!",
-			"eng": "During Halloween, a time limited halloween, cyber-bat chat donation tier and themed emblems will be available!"
-		}
-	},
 	"christmasPromo": {
 		"title": {
 			"trans": "Fijne wintervakantie!",
@@ -9643,6 +9710,49 @@
 		"desc": {
 			"trans": "Tijd beperkte buit- en chatframe!",
 			"eng": "Time limited loot and chat frame!"
+		}
+	},
+	"halloweenPromo": {
+		"title": {
+			"trans": "Fijne Halloween!",
+			"eng": "Happy Halloween!"
+		},
+		"desc1": {
+			"trans": "Het is weer de griezelige tijd van het jaar! Shang-Ri-La viert Halloween met een speciaal evenement!",
+			"eng": "Its the spooky time of the year again! Shang-ri-la is celebrating Halloween with a special event!"
+		},
+		"desc2v3": {
+			"vars": [
+				"item"
+			],
+			"trans": "Vijanden en AI Core auto-farm hebben kans om ${item} te droppen!",
+			"eng": "Enemies and AI Core auto farm will have chance to drop ${item}!"
+		},
+		"desc3v3": {
+			"vars": [
+				"npc",
+				"location",
+				"item"
+			],
+			"trans": "Je kunt ${npc} vinden op ${location} tijdens Halloween, hij ruilt je ${item} voor beloningen!",
+			"eng": "You can find ${npc} at ${location} during Halloween, he will exchange your ${item} for rewards!"
+		},
+		"desc4v2": {
+			"trans": "Tijdens Halloween zullen een Time Limited Halloween, Cyber-Bat Chat Donation Laag en thema-emblemen beschikbaar zijn!",
+			"eng": "During Halloween, a time limited halloween, cyber-bat chat donation tier and themed emblems will be available!"
+		}
+	},
+	"halloweenPromoSmall": {
+		"title": {
+			"trans": "Halloween Evenement!",
+			"eng": "Halloween Event!"
+		},
+		"desc": {
+			"vars": [
+				"item"
+			],
+			"trans": "Verzamel ${item} om verschillende beloningen te verzilveren!",
+			"eng": "Collect ${item} to redeem various rewards!"
 		}
 	},
 	"lunarPromo": {
@@ -10799,6 +10909,23 @@
 			],
 			"trans": "U kunt dit item niet gebruiken omdat er een statuseffect is dat ermee in strijd is",
 			"eng": "You cannot use this item because there is a status effect that conflicts with it"
+		},
+		"alreadyInteracted": {
+			"trans": "Je hebt hier al mee interactie gehad",
+			"eng": "You have already interacted with this"
+		}
+	},
+	"dungeonQuest": {
+		"success": {
+			"vars": [
+				"effectName"
+			],
+			"trans": "Je hebt de Replicator Console succesvol geactiveerd en ontvangen ${effectName} voor 10 minuten",
+			"eng": "You have successfully activated the Replicator Console and received ${effectName} for 10 minutes"
+		},
+		"failed": {
+			"trans": "Replicatie mislukt",
+			"eng": "Replication failed"
 		}
 	},
 	"player": {

@@ -6794,6 +6794,19 @@
 				"eng": "An military used bot designed to carry your equipments and follows you autonomously,\r\n        with it's six strong legs that imitates the movement of spiders and a advance onboard AI, \r\n        it can follow you swiftly and quietly while it avoids get in the way of whatever mission you are performing"
 			}
 		},
+		"backpack6": {
+			"name": {
+				"trans": "Unitate de Stocare Cuantică",
+				"eng": "Quantum Storage Unit"
+			},
+			"description": {
+				"vars": [
+					"size"
+				],
+				"trans": "Un container de stocare care folosește tehnologie cuantică de ultimă generație, permițându-i să stocheze o cantitate masivă de obiecte pentru dimensiunea sa. Crește sloturile de inventar cu ${size}",
+				"eng": "A storage container that uses state of the art quantum tech that allow it to store massive amount of items for it's size, Increases inventory slot by ${size}"
+			}
+		},
 		"chatExploitPirate": {
 			"name": {
 				"trans": "Chat Exploit Transmițător [pirat]",
@@ -7002,6 +7015,20 @@
 				],
 				"trans": "O plăcintă delicioasă de dovleac. Această plăcintă are o încărcătură mare de cremă de vanilie groasă peste ea, delicioasă! \\ nrecover ${percent}% sănătate la consum",
 				"eng": "A delicious pumpkin pie. this pie has big load of thick vanilla cream over it, delicious!\\nrecover ${percent}% health upon consumption"
+			}
+		},
+		"caramelApple": {
+			"name": {
+				"trans": "Măr caramelizat",
+				"eng": "Caramel Apple"
+			},
+			"description": {
+				"vars": [
+					"minutes",
+					"percent"
+				],
+				"trans": "O măr suculent acoperit cu un strat gros de caramel. combinația perfectă între dulce și acru.\\n Crește EXP-ul AFK și toate BTC-urile câștigate cu ${percent}% timp de ${minutes} minute",
+				"eng": "A juicy apple covered in a thick layer of caramel. the perfect combination of sweet and sour.\\n Increases AFK EXP and all BTC gained by ${percent}% for ${minutes} minutes"
 			}
 		},
 		"riceCake": {
@@ -7230,6 +7257,16 @@
 			"notAvailableError": {
 				"trans": "Acest obiect este disponibil doar în timpul Evenimentului de Vară",
 				"eng": "This item is only available during Summer Event"
+			}
+		},
+		"syntheticAlloy": {
+			"name": {
+				"trans": "Aliat Sintetic",
+				"eng": "Synthetic Alloy"
+			},
+			"description": {
+				"trans": "Poate fi folosit cu [Consola de Replicare] în temnițe pentru a primi recompense aleatorii.",
+				"eng": "Can be used with the [Replication Console] in dungeons to receive random rewards."
 			}
 		},
 		"experienceShard": {
@@ -7832,9 +7869,9 @@
 				"trans": "Alee",
 				"eng": "Alleyway"
 			},
-			"npcName": {
-				"trans": "Weirdo de dovleac",
-				"eng": "pumpkin weirdo"
+			"npcNamev2": {
+				"trans": "Pumpkin Bro",
+				"eng": "Pumpkin Bro"
 			}
 		},
 		"petShop": {
@@ -8469,6 +8506,12 @@
 				"eng": "Autonomous Storage Unit"
 			}
 		},
+		"backpack6": {
+			"name": {
+				"trans": "Unitate de Stocare Cuantică",
+				"eng": "Quantum Storage Unit"
+			}
+		},
 		"aiCoreCluster": {
 			"name": {
 				"trans": "AI Core cluster",
@@ -8648,6 +8691,10 @@
 		"afkExp": {
 			"trans": "AFK Exp Boost",
 			"eng": "AFK EXP Boost"
+		},
+		"expMoney": {
+			"trans": "EXP BTC Boost",
+			"eng": "EXP BTC Boost"
 		},
 		"petRevive": {
 			"trans": "Revivare animal de companie",
@@ -8850,9 +8897,9 @@
 			"trans": "Bună băieți! Alăturați -vă temniței mele [${type}] (lv ${level}) ==> ${dungeonInvite}",
 			"eng": "Hey guys! join my dungeon [${type}](lv${level}) ==> ${dungeonInvite}"
 		},
-		"shareDungeonCooldown": {
-			"trans": "Vă rugăm să așteptați înainte de a trimite o altă invitație",
-			"eng": "Please wait before sending another invite"
+		"shareDungeonCooldownv2": {
+			"trans": "Cooldown pentru invitația în temniță, oamenii pot să se alăture simplu din lista de temnițe dacă aceasta este publică",
+			"eng": "Dungeon invite cooldown, people can simply join from the dungeon list if the dungeon is public"
 		},
 		"normal": {
 			"description": {
@@ -8990,6 +9037,12 @@
 			"name": {
 				"trans": "epic",
 				"eng": "epic"
+			}
+		},
+		"mythic": {
+			"name": {
+				"trans": "mitic",
+				"eng": "mythic"
 			}
 		}
 	},
@@ -9497,6 +9550,46 @@
 			"eng": "You will not heal after each fight in dungeon, remember to use your healing items."
 		}
 	},
+	"dungeonQuestModal": {
+		"title": {
+			"trans": "Consola de Replicare",
+			"eng": "Replication Console"
+		},
+		"description": {
+			"vars": [
+				"itemName"
+			],
+			"trans": "Introduceți suma necesară de ${itemName} pentru a primi recompense aleatorii",
+			"eng": "Insert required amount of ${itemName} to receive random rewards"
+		},
+		"requirement": {
+			"vars": [
+				"itemName",
+				"amount"
+			],
+			"trans": "Necesită ${amount} ${itemName}",
+			"eng": "Requires ${amount} ${itemName}"
+		},
+		"slot": {
+			"vars": [
+				"itemName",
+				"amount"
+			],
+			"trans": "Introduceți ${amount} ${itemName}",
+			"eng": "Insert ${amount} ${itemName}"
+		},
+		"noItem": {
+			"vars": [
+				"itemName"
+			],
+			"trans": "Nu ai niciun ${itemName}",
+			"eng": "You do not have any ${itemName}"
+		},
+		"insert": {
+			"trans": "Introdu itemul",
+			"eng": "Insert item"
+		}
+	},
 	"gangQuestAcceptModal": {
 		"title": {
 			"trans": "Dungeon Quest detectat",
@@ -9584,32 +9677,6 @@
 			"eng": "Check out the #event channel on Discord for more details!"
 		}
 	},
-	"halloweenPromo": {
-		"title": {
-			"trans": "Halloween fericit!",
-			"eng": "Happy Halloween!"
-		},
-		"desc1": {
-			"trans": "Este din nou perioada înfricoșătoare a anului! Shang-ri-La sărbătorește Halloween-ul cu un eveniment special!",
-			"eng": "Its the spooky time of the year again! Shang-ri-la is celebrating Halloween with a special event!"
-		},
-		"desc2v2": {
-			"trans": "Dușmanii și AI Core Auto Farm vor avea șansa de a renunța la Jack-O-Lanterns!",
-			"eng": "Enemies and AI Core auto farm will have chance to drop Jack-o-lanterns!"
-		},
-		"desc3v2": {
-			"vars": [
-				"npc",
-				"location"
-			],
-			"trans": "Puteți găsi ${npc} la ${location} În timpul Halloween-ului, el vă va schimba Jack-O-Lanterns pentru recompense!",
-			"eng": "You can find ${npc} at ${location} during Halloween, he will exchange your Jack-o-lanterns for rewards!"
-		},
-		"desc4v2": {
-			"trans": "În timpul Halloween-ului, vor fi disponibile un nivel de donație de chat de chat cyber-bat și embleme tematice și embleme tematice!",
-			"eng": "During Halloween, a time limited halloween, cyber-bat chat donation tier and themed emblems will be available!"
-		}
-	},
 	"christmasPromo": {
 		"title": {
 			"trans": "Vacanță de iarnă fericită!",
@@ -9643,6 +9710,49 @@
 		"desc": {
 			"trans": "TIMP LIMITED LOOT ȘI CHAT DE CHAT!",
 			"eng": "Time limited loot and chat frame!"
+		}
+	},
+	"halloweenPromo": {
+		"title": {
+			"trans": "Halloween fericit!",
+			"eng": "Happy Halloween!"
+		},
+		"desc1": {
+			"trans": "Este din nou perioada înfricoșătoare a anului! Shang-ri-La sărbătorește Halloween-ul cu un eveniment special!",
+			"eng": "Its the spooky time of the year again! Shang-ri-la is celebrating Halloween with a special event!"
+		},
+		"desc2v3": {
+			"vars": [
+				"item"
+			],
+			"trans": "Dușmanii și AI Core auto farm vor avea șanse să lase ${item}!",
+			"eng": "Enemies and AI Core auto farm will have chance to drop ${item}!"
+		},
+		"desc3v3": {
+			"vars": [
+				"npc",
+				"location",
+				"item"
+			],
+			"trans": "Poți găsi ${npc} la ${location} în timpul Halloween-ului, el îți va schimba ${item} pentru recompense!",
+			"eng": "You can find ${npc} at ${location} during Halloween, he will exchange your ${item} for rewards!"
+		},
+		"desc4v2": {
+			"trans": "În timpul Halloween-ului, vor fi disponibile un nivel de donație de chat de chat cyber-bat și embleme tematice și embleme tematice!",
+			"eng": "During Halloween, a time limited halloween, cyber-bat chat donation tier and themed emblems will be available!"
+		}
+	},
+	"halloweenPromoSmall": {
+		"title": {
+			"trans": "Eveniment de Halloween!",
+			"eng": "Halloween Event!"
+		},
+		"desc": {
+			"vars": [
+				"item"
+			],
+			"trans": "Colectează ${item} pentru a răscumpăra diverse recompense!",
+			"eng": "Collect ${item} to redeem various rewards!"
 		}
 	},
 	"lunarPromo": {
@@ -10799,6 +10909,23 @@
 			],
 			"trans": "Nu puteți utiliza acest articol, deoarece există un efect de stare care intră în conflict cu acesta",
 			"eng": "You cannot use this item because there is a status effect that conflicts with it"
+		},
+		"alreadyInteracted": {
+			"trans": "Ai interacționat deja cu asta",
+			"eng": "You have already interacted with this"
+		}
+	},
+	"dungeonQuest": {
+		"success": {
+			"vars": [
+				"effectName"
+			],
+			"trans": "Ai activat cu succes Consola Replicator și ai primit ${effectName} pentru 10 minute",
+			"eng": "You have successfully activated the Replicator Console and received ${effectName} for 10 minutes"
+		},
+		"failed": {
+			"trans": "Replicarea a eșuat",
+			"eng": "Replication failed"
 		}
 	},
 	"player": {
