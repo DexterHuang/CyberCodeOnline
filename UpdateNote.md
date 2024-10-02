@@ -33,7 +33,8 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ### 0.1848
 
--   Optimization; the game should load faster compare to before
+-   Added new BGMs, and replaced some of the old ones
+-   Optimization; the game should load faster compared to before
 
 ### 0.1847
 
