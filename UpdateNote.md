@@ -31,7 +31,12 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
+### 0.1848
+
+-   Optimization; the game should load faster compare to before
+
 ### 0.1847
+
 -   Halloween Event (Will activate at 2024/10/01 00:00 UTC)
     -  Enemies and AFK bot farm will drop `Jack o Lantern` you can use it to redeem items from `Pumpkin Bro` in the Alleyway on Market Street, items that can be redeemed includes `Locked Legendary Container`, `Rare Equipment Crate`, `Pumpkin pie` and `Caramel Apple`
     -  Added `Caramel Apple` you can redeem it from `Pumpkin Bro`, and use to receive a 10% AFK exp and all Btc gained buff for 20 minutes
