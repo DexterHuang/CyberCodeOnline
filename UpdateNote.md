@@ -31,6 +31,10 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
+### 0.1849
+
+-   Combat code is re-written to allow showing enemy with zero health when they die before switching screen back, previously is cut off and many player reported it feeling very odd and unnatural
+
 ### 0.1848
 
 -   Added new BGMs, and replaced some of the old ones
