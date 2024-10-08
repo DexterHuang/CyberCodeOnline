@@ -31,9 +31,13 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
+### 0.1850
+
+-   You can now drag messages to the right to reply to the player quickly in chat interface
+
 ### 0.1849
 
--   Combat code is re-written to allow showing enemy with zero health when they die before switching screen back, previously is cut off and many player reported it feeling very odd and unnatural
+-   Combat code is re-written to allow showing enemies with zero health when they die before switching screen back, it previously was cut off and many players reported it feeling very odd and unnatural
 
 ### 0.1848
 
