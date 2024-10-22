@@ -1498,6 +1498,16 @@
 					"eng": "Disable update note popup"
 				}
 			},
+			"notificationDontAsk": {
+				"title": {
+					"trans": "Never ask for notification permission",
+					"eng": "Never ask for notification permission"
+				},
+				"description": {
+					"trans": "Disable notification permission request popup",
+					"eng": "Disable notification permission request popup"
+				}
+			},
 			"promoOnlyShowWhenUpdate": {
 				"title": {
 					"trans": "Show Promo on New Event Only",
@@ -2028,14 +2038,6 @@
 			}
 		},
 		"basicInfo": {
-			"welcomeTo": {
-				"trans": "Welcome to",
-				"eng": "Welcome to"
-			},
-			"welcomeMsg": {
-				"trans": "tharr best text-based mmorpg",
-				"eng": "the best text-based mmorpg"
-			},
 			"hasRefererCheckbox": {
 				"description": {
 					"trans": "Only check if ye ha'e a shipmate (Optional)",
@@ -2070,9 +2072,9 @@
 					"trans": "Yer Characterr Name",
 					"eng": "Character Name"
 				},
-				"description": {
-					"trans": "Ye will be muted if ye use offensive or inappropriate names.",
-					"eng": "you will be muted if you use an offensive or inappropriate name."
+				"descriptionv2": {
+					"trans": "Names cannot be changed, please do not use an offensive ot inappropriate name",
+					"eng": "Names cannot be changed, please do not use an offensive ot inappropriate name"
 				}
 			},
 			"confirm": {
@@ -3503,10 +3505,6 @@
 			}
 		},
 		"newbieTutorial": {
-			"welcomeMsg": {
-				"trans": "Welcome t' th' best Text MMORPG",
-				"eng": "Welcome to the best Text MMORPG"
-			},
 			"noShowToggle": {
 				"description": {
 					"trans": "Ye can see tharr full tutorial at Profile > Tutorial tab",
@@ -8745,6 +8743,10 @@
 	},
 	"combat": {
 		"log": {
+			"criticalHit": {
+				"trans": "Critical Hit!",
+				"eng": "Critical Hit!"
+			},
 			"enemyAttack": {
 				"vars": [
 					"enemyName",
@@ -9616,6 +9618,120 @@
 		"accept": {
 			"trans": "Accept",
 			"eng": "Accept"
+		}
+	},
+	"notificationModal": {
+		"title": {
+			"trans": "Be the first to know!",
+			"eng": "Be the first to know!"
+		},
+		"content": {
+			"1": {
+				"trans": "Let us send you a notification when:",
+				"eng": "Let us send you a notification when:"
+			},
+			"2": {
+				"trans": "1. When your AFK task is completed.",
+				"eng": "1. When your AFK task is completed."
+			},
+			"3": {
+				"trans": "2. When you receive a message from other players.",
+				"eng": "2. When you receive a message from other players."
+			},
+			"4": {
+				"trans": "3. When a player has mentioned you in chat.",
+				"eng": "3. When a player has mentioned you in chat."
+			}
+		},
+		"dontAsk": {
+			"trans": "Don\\'t ask me again",
+			"eng": "Don\\'t ask me again"
+		},
+		"cancel": {
+			"trans": "Cancel",
+			"eng": "Cancel"
+		},
+		"confirm": {
+			"trans": "Sure, Notify Me!",
+			"eng": "Sure, Notify Me!"
+		},
+		"notiExample1": {
+			"title": {
+				"trans": "AFK task completed!",
+				"eng": "AFK task completed!"
+			},
+			"content": {
+				"trans": "AFK task completed, receive your reward now✨",
+				"eng": "AFK task completed, receive your reward now✨"
+			}
+		},
+		"notiExample2": {
+			"title": {
+				"trans": "You received a free EXP buff!",
+				"eng": "You received a free EXP buff!"
+			},
+			"content": {
+				"vars": [
+					"name"
+				],
+				"trans": "${name} has deployed EXP buff for everyone, EXP +80% for 20 minutes!",
+				"eng": "${name} has deployed EXP buff for everyone, EXP +80% for 20 minutes!"
+			}
+		},
+		"notiExample3": {
+			"title": {
+				"vars": [
+					"name"
+				],
+				"trans": "Your AFK task has been skipped by ${name}",
+				"eng": "Your AFK task has been skipped by ${name}"
+			},
+			"content": {
+				"vars": [
+					"name"
+				],
+				"trans": "${name} used a global skip, that skips everyone's AFK task by 120 minutes",
+				"eng": "${name} used a global skip, that skips everyone's AFK task by 120 minutes"
+			}
+		},
+		"notiExample4": {
+			"title": {
+				"vars": [
+					"name"
+				],
+				"trans": "${name} sent you a mail!",
+				"eng": "${name} sent you a mail!"
+			},
+			"content": {
+				"trans": "Whats up? wanna join my gang?",
+				"eng": "Whats up? wanna join my gang?"
+			}
+		},
+		"notiExample5": {
+			"title": {
+				"vars": [
+					"name"
+				],
+				"trans": "[GLOBAL] ${name} mentioned you!",
+				"eng": "[GLOBAL] ${name} mentioned you!"
+			},
+			"content": {
+				"trans": "Hey! welcome to CyberCode Online!",
+				"eng": "Hey! welcome to CyberCode Online!"
+			}
+		},
+		"notiExample6": {
+			"title": {
+				"vars": [
+					"name"
+				],
+				"trans": "${name} sent you a gift",
+				"eng": "${name} sent you a gift"
+			},
+			"content": {
+				"trans": "The item has been sent to your item inbox",
+				"eng": "The item has been sent to your item inbox"
+			}
 		}
 	},
 	"petReviveModal": {
@@ -10903,6 +11019,13 @@
 		}
 	},
 	"error": {
+		"itemGlobalCooldown": {
+			"vars": [
+				"seconds"
+			],
+			"trans": "This item is on global cooldown, you must wait ${seconds} seconds before using this item again",
+			"eng": "This item is on global cooldown, you must wait ${seconds} seconds before using this item again"
+		},
 		"cannotUseItemInStatus": {
 			"vars": [
 				"minutes"
@@ -10916,12 +11039,13 @@
 		}
 	},
 	"dungeonQuest": {
-		"success": {
+		"successv2": {
 			"vars": [
-				"effectName"
+				"effectName",
+				"minutes"
 			],
-			"trans": "You have successfully activated the Replicator Console and received ${effectName} for 10 minutes",
-			"eng": "You have successfully activated the Replicator Console and received ${effectName} for 10 minutes"
+			"trans": "You have successfully activated the Replicator Console and received ${effectName} for ${minutes} minutes",
+			"eng": "You have successfully activated the Replicator Console and received ${effectName} for ${minutes} minutes"
 		},
 		"failed": {
 			"trans": "Replication failed",

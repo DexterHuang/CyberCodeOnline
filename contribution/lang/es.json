@@ -1498,6 +1498,16 @@
 					"eng": "Disable update note popup"
 				}
 			},
+			"notificationDontAsk": {
+				"title": {
+					"trans": "Nunca pidas permiso para las notificaciones",
+					"eng": "Never ask for notification permission"
+				},
+				"description": {
+					"trans": "Desactivar la solicitud de permiso para notificaciones",
+					"eng": "Disable notification permission request popup"
+				}
+			},
 			"promoOnlyShowWhenUpdate": {
 				"title": {
 					"trans": "Mostrar promoción solo en el nuevo evento",
@@ -2028,14 +2038,6 @@
 			}
 		},
 		"basicInfo": {
-			"welcomeTo": {
-				"trans": "Te damos la bienvenida a",
-				"eng": "Welcome to"
-			},
-			"welcomeMsg": {
-				"trans": "el mejor MMORPG basado en texto",
-				"eng": "the best text-based mmorpg"
-			},
 			"hasRefererCheckbox": {
 				"description": {
 					"trans": "Sólo activar si tienes una invitación (Opcional)",
@@ -2070,9 +2072,9 @@
 					"trans": "Nombre del Personaje:",
 					"eng": "Character Name"
 				},
-				"description": {
-					"trans": "Serás silenciado si usas nombres ofensivos o inapropiados.",
-					"eng": "you will be muted if you use an offensive or inappropriate name."
+				"descriptionv2": {
+					"trans": "Los nombres no se pueden cambiar, por favor no utilices un nombre ofensivo o inapropiado",
+					"eng": "Names cannot be changed, please do not use an offensive ot inappropriate name"
 				}
 			},
 			"confirm": {
@@ -3503,10 +3505,6 @@
 			}
 		},
 		"newbieTutorial": {
-			"welcomeMsg": {
-				"trans": "¡Te doy la bienvenida al mejor MMORPG de Texto!",
-				"eng": "Welcome to the best Text MMORPG"
-			},
 			"noShowToggle": {
 				"description": {
 					"trans": "Puedes ver el tutorial completo en la pestaña de: Perfil > Tutoriales.",
@@ -8745,6 +8743,10 @@
 	},
 	"combat": {
 		"log": {
+			"criticalHit": {
+				"trans": "¡Golpe Crítico!",
+				"eng": "Critical Hit!"
+			},
 			"enemyAttack": {
 				"vars": [
 					"enemyName",
@@ -9616,6 +9618,120 @@
 		"accept": {
 			"trans": "Aceptar",
 			"eng": "Accept"
+		}
+	},
+	"notificationModal": {
+		"title": {
+			"trans": "¡Sé el primero en enterarte!",
+			"eng": "Be the first to know!"
+		},
+		"content": {
+			"1": {
+				"trans": "Déjanos enviarte una notificación cuando:",
+				"eng": "Let us send you a notification when:"
+			},
+			"2": {
+				"trans": "1. Cuando tu tarea AFK esté completada.",
+				"eng": "1. When your AFK task is completed."
+			},
+			"3": {
+				"trans": "2. Cuando recibes un potenciador gratuito desplegado por otro jugador.",
+				"eng": "2. When you receive a message from other players."
+			},
+			"4": {
+				"trans": "3. Cuando un jugador te ha mencionado en el chat.",
+				"eng": "3. When a player has mentioned you in chat."
+			}
+		},
+		"dontAsk": {
+			"trans": "No me lo preguntes de nuevo",
+			"eng": "Don\\'t ask me again"
+		},
+		"cancel": {
+			"trans": "Cancelar",
+			"eng": "Cancel"
+		},
+		"confirm": {
+			"trans": "¡Claro, avísame!",
+			"eng": "Sure, Notify Me!"
+		},
+		"notiExample1": {
+			"title": {
+				"trans": "¡Tarea AFK completada!",
+				"eng": "AFK task completed!"
+			},
+			"content": {
+				"trans": "Tarea AFK completada, ¡recibe tu recompensa ahora!✨",
+				"eng": "AFK task completed, receive your reward now✨"
+			}
+		},
+		"notiExample2": {
+			"title": {
+				"trans": "¡Has recibido un aumento de EXP gratis!",
+				"eng": "You received a free EXP buff!"
+			},
+			"content": {
+				"vars": [
+					"name"
+				],
+				"trans": "${name} ha desplegado un buff de EXP para todos, ¡EXP +80% durante 20 minutos!",
+				"eng": "${name} has deployed EXP buff for everyone, EXP +80% for 20 minutes!"
+			}
+		},
+		"notiExample3": {
+			"title": {
+				"vars": [
+					"name"
+				],
+				"trans": "Tu tarea AFK ha sido saltada por ${name}",
+				"eng": "Your AFK task has been skipped by ${name}"
+			},
+			"content": {
+				"vars": [
+					"name"
+				],
+				"trans": "${name} utilizó un salto global, que omite la tarea AFK de todos por 120 minutos",
+				"eng": "${name} used a global skip, that skips everyone's AFK task by 120 minutes"
+			}
+		},
+		"notiExample4": {
+			"title": {
+				"vars": [
+					"name"
+				],
+				"trans": "¡${name} te envió un correo!",
+				"eng": "${name} sent you a mail!"
+			},
+			"content": {
+				"trans": "¿Qué tal? ¿Quieres unirte a mi banda?",
+				"eng": "Whats up? wanna join my gang?"
+			}
+		},
+		"notiExample5": {
+			"title": {
+				"vars": [
+					"name"
+				],
+				"trans": "[GLOBAL] ¡${name} te mencionó!",
+				"eng": "[GLOBAL] ${name} mentioned you!"
+			},
+			"content": {
+				"trans": "¡Hola! ¡Bienvenido a CyberCode Online!",
+				"eng": "Hey! welcome to CyberCode Online!"
+			}
+		},
+		"notiExample6": {
+			"title": {
+				"vars": [
+					"name"
+				],
+				"trans": "${name} te envió un regalo",
+				"eng": "${name} sent you a gift"
+			},
+			"content": {
+				"trans": "El objeto ha sido enviado a tu bandeja de objetos",
+				"eng": "The item has been sent to your item inbox"
+			}
 		}
 	},
 	"petReviveModal": {
@@ -10903,6 +11019,13 @@
 		}
 	},
 	"error": {
+		"itemGlobalCooldown": {
+			"vars": [
+				"seconds"
+			],
+			"trans": "Este objeto está en tiempo de reutilización global, debes esperar ${seconds} segundos antes de usar este objeto nuevamente",
+			"eng": "This item is on global cooldown, you must wait ${seconds} seconds before using this item again"
+		},
 		"cannotUseItemInStatus": {
 			"vars": [
 				"minutes"
@@ -10916,12 +11039,13 @@
 		}
 	},
 	"dungeonQuest": {
-		"success": {
+		"successv2": {
 			"vars": [
-				"effectName"
+				"effectName",
+				"minutes"
 			],
-			"trans": "Has activado con éxito la Consola Replicadora y has recibido ${effectName} por 10 minutos",
-			"eng": "You have successfully activated the Replicator Console and received ${effectName} for 10 minutes"
+			"trans": "Has activado con éxito la Consola Replicadora y has recibido ${effectName} durante ${minutes} minutos",
+			"eng": "You have successfully activated the Replicator Console and received ${effectName} for ${minutes} minutes"
 		},
 		"failed": {
 			"trans": "La replicación falló",

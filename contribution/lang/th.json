@@ -1498,6 +1498,16 @@
 					"eng": "Disable update note popup"
 				}
 			},
+			"notificationDontAsk": {
+				"title": {
+					"trans": "ไม่เคยขออนุญาตการแจ้งเตือน",
+					"eng": "Never ask for notification permission"
+				},
+				"description": {
+					"trans": "ปิดการร้องขออนุญาตการแจ้งเตือน",
+					"eng": "Disable notification permission request popup"
+				}
+			},
 			"promoOnlyShowWhenUpdate": {
 				"title": {
 					"trans": "แสดงโปรโมชั่นเฉพาะกิจกรรมใหม่เท่านั้น",
@@ -2028,14 +2038,6 @@
 			}
 		},
 		"basicInfo": {
-			"welcomeTo": {
-				"trans": "ยินดีต้อนรับสู่",
-				"eng": "Welcome to"
-			},
-			"welcomeMsg": {
-				"trans": "The Best Text-based MMORPG",
-				"eng": "the best text-based mmorpg"
-			},
 			"hasRefererCheckbox": {
 				"description": {
 					"trans": "ตรวจสอบเฉพาะหากคุณมีผู้อ้างอิง (ไม่บังคับ)",
@@ -2070,9 +2072,9 @@
 					"trans": "ชื่อตัวละคร",
 					"eng": "Character Name"
 				},
-				"description": {
-					"trans": "คุณจะถูกปิดเสียงหากคุณใช้ชื่อที่ไม่เหมาะสม",
-					"eng": "you will be muted if you use an offensive or inappropriate name."
+				"descriptionv2": {
+					"trans": "ไม่สามารถเปลี่ยนชื่อได้ กรุณาอย่าใช้ชื่อที่ไม่เหมาะสมหรือไม่สุภาพ",
+					"eng": "Names cannot be changed, please do not use an offensive ot inappropriate name"
 				}
 			},
 			"confirm": {
@@ -3503,10 +3505,6 @@
 			}
 		},
 		"newbieTutorial": {
-			"welcomeMsg": {
-				"trans": "ยินดีต้อนรับสู่ข้อความที่ดีที่สุด MMORPG",
-				"eng": "Welcome to the best Text MMORPG"
-			},
 			"noShowToggle": {
 				"description": {
 					"trans": "คุณสามารถดูการสอนเต็มรูปแบบที่โปรไฟล์> แท็บสอน",
@@ -8745,6 +8743,10 @@
 	},
 	"combat": {
 		"log": {
+			"criticalHit": {
+				"trans": "การโจมตีที่รุนแรง!",
+				"eng": "Critical Hit!"
+			},
 			"enemyAttack": {
 				"vars": [
 					"enemyName",
@@ -9616,6 +9618,120 @@
 		"accept": {
 			"trans": "ยอมรับ",
 			"eng": "Accept"
+		}
+	},
+	"notificationModal": {
+		"title": {
+			"trans": "เป็นคนแรกที่รู้!",
+			"eng": "Be the first to know!"
+		},
+		"content": {
+			"1": {
+				"trans": "ให้เราส่งการแจ้งเตือนเมื่อ:",
+				"eng": "Let us send you a notification when:"
+			},
+			"2": {
+				"trans": "1. เมื่อภารกิจ AFK ของคุณเสร็จสิ้นแล้ว",
+				"eng": "1. When your AFK task is completed."
+			},
+			"3": {
+				"trans": "2. เมื่อคุณได้รับบัฟฟรีที่ถูกปล่อยโดยผู้เล่นคนอื่น",
+				"eng": "2. When you receive a message from other players."
+			},
+			"4": {
+				"trans": "3. เมื่อผู้เล่นได้กล่าวถึงคุณในแชท",
+				"eng": "3. When a player has mentioned you in chat."
+			}
+		},
+		"dontAsk": {
+			"trans": "อย่าถามฉันอีกนะ",
+			"eng": "Don\\'t ask me again"
+		},
+		"cancel": {
+			"trans": "ยกเลิก",
+			"eng": "Cancel"
+		},
+		"confirm": {
+			"trans": "แน่นอน แจ้งเตือนฉัน!",
+			"eng": "Sure, Notify Me!"
+		},
+		"notiExample1": {
+			"title": {
+				"trans": "AFK งานเสร็จเรียบร้อยแล้ว!",
+				"eng": "AFK task completed!"
+			},
+			"content": {
+				"trans": "AFK งานเสร็จเรียบร้อยแล้ว รับรางวัลของคุณได้เลย✨",
+				"eng": "AFK task completed, receive your reward now✨"
+			}
+		},
+		"notiExample2": {
+			"title": {
+				"trans": "คุณได้รับบัฟ EXP ฟรี!",
+				"eng": "You received a free EXP buff!"
+			},
+			"content": {
+				"vars": [
+					"name"
+				],
+				"trans": "${name} ได้ปล่อยบัฟ EXP สำหรับทุกคนแล้ว, EXP +80% เป็นเวลา 20 นาที!",
+				"eng": "${name} has deployed EXP buff for everyone, EXP +80% for 20 minutes!"
+			}
+		},
+		"notiExample3": {
+			"title": {
+				"vars": [
+					"name"
+				],
+				"trans": "งาน AFK ของคุณถูกข้ามโดย ${name}",
+				"eng": "Your AFK task has been skipped by ${name}"
+			},
+			"content": {
+				"vars": [
+					"name"
+				],
+				"trans": "${name} ใช้การข้ามทั่วโลก ซึ่งข้ามงาน AFK ของทุกคนไป 120 นาที",
+				"eng": "${name} used a global skip, that skips everyone's AFK task by 120 minutes"
+			}
+		},
+		"notiExample4": {
+			"title": {
+				"vars": [
+					"name"
+				],
+				"trans": "${name} ส่งอีเมลหาคุณแล้ว!",
+				"eng": "${name} sent you a mail!"
+			},
+			"content": {
+				"trans": "มีอะไรหรือเปล่า? อยากเข้ากลุ่มของฉันไหม?",
+				"eng": "Whats up? wanna join my gang?"
+			}
+		},
+		"notiExample5": {
+			"title": {
+				"vars": [
+					"name"
+				],
+				"trans": "[GLOBAL] ${name} ได้พูดถึงคุณ!",
+				"eng": "[GLOBAL] ${name} mentioned you!"
+			},
+			"content": {
+				"trans": "สวัสดี! ยินดีต้อนรับสู่ CyberCode Online!",
+				"eng": "Hey! welcome to CyberCode Online!"
+			}
+		},
+		"notiExample6": {
+			"title": {
+				"vars": [
+					"name"
+				],
+				"trans": "${name} ส่งของขวัญให้คุณ",
+				"eng": "${name} sent you a gift"
+			},
+			"content": {
+				"trans": "รายการได้ถูกส่งไปยังกล่องข้อความของคุณแล้ว",
+				"eng": "The item has been sent to your item inbox"
+			}
 		}
 	},
 	"petReviveModal": {
@@ -10903,6 +11019,13 @@
 		}
 	},
 	"error": {
+		"itemGlobalCooldown": {
+			"vars": [
+				"seconds"
+			],
+			"trans": "ไอเท็มนี้อยู่ในช่วงเวลาคูลดาวน์ทั่วโลก คุณต้องรอ ${seconds} วินาทีก่อนที่จะใช้ไอเท็มนี้อีกครั้ง",
+			"eng": "This item is on global cooldown, you must wait ${seconds} seconds before using this item again"
+		},
 		"cannotUseItemInStatus": {
 			"vars": [
 				"minutes"
@@ -10916,12 +11039,13 @@
 		}
 	},
 	"dungeonQuest": {
-		"success": {
+		"successv2": {
 			"vars": [
-				"effectName"
+				"effectName",
+				"minutes"
 			],
-			"trans": "คุณได้เปิดใช้งาน Replicator Console สำเร็จและได้รับ ${effectName} เป็นเวลา 10 นาที",
-			"eng": "You have successfully activated the Replicator Console and received ${effectName} for 10 minutes"
+			"trans": "คุณได้เปิดใช้งาน Replicator Console สำเร็จและได้รับ ${effectName} เป็นเวลา ${minutes} นาที",
+			"eng": "You have successfully activated the Replicator Console and received ${effectName} for ${minutes} minutes"
 		},
 		"failed": {
 			"trans": "การทำซ้ำล้มเหลว",

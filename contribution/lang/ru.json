@@ -1498,6 +1498,16 @@
 					"eng": "Disable update note popup"
 				}
 			},
+			"notificationDontAsk": {
+				"title": {
+					"trans": "Никогда не запрашивайте разрешение на уведомления",
+					"eng": "Never ask for notification permission"
+				},
+				"description": {
+					"trans": "Отключить всплывающее окно запроса разрешения на уведомления",
+					"eng": "Disable notification permission request popup"
+				}
+			},
 			"promoOnlyShowWhenUpdate": {
 				"title": {
 					"trans": "Показать промо только для нового события",
@@ -2028,14 +2038,6 @@
 			}
 		},
 		"basicInfo": {
-			"welcomeTo": {
-				"trans": "Добро пожаловать в",
-				"eng": "Welcome to"
-			},
-			"welcomeMsg": {
-				"trans": "лучшая текстовая MMORPG",
-				"eng": "the best text-based mmorpg"
-			},
 			"hasRefererCheckbox": {
 				"description": {
 					"trans": "Только если тебя пригласили (Необязательно)",
@@ -2070,9 +2072,9 @@
 					"trans": "Имя персонажа",
 					"eng": "Character Name"
 				},
-				"description": {
-					"trans": "ты будешь заблокирован, если ты используешь оскорбительные или неуместные имена.",
-					"eng": "you will be muted if you use an offensive or inappropriate name."
+				"descriptionv2": {
+					"trans": "Имена нельзя менять, пожалуйста, не используйте оскорбительные или неподобающие имена",
+					"eng": "Names cannot be changed, please do not use an offensive ot inappropriate name"
 				}
 			},
 			"confirm": {
@@ -3503,10 +3505,6 @@
 			}
 		},
 		"newbieTutorial": {
-			"welcomeMsg": {
-				"trans": "Добро пожаловать в лучшую текстовую MMORPG",
-				"eng": "Welcome to the best Text MMORPG"
-			},
 			"noShowToggle": {
 				"description": {
 					"trans": "Ты можешь увидеть полное руководство в Профиль > Обучение",
@@ -8745,6 +8743,10 @@
 	},
 	"combat": {
 		"log": {
+			"criticalHit": {
+				"trans": "Критический удар!",
+				"eng": "Critical Hit!"
+			},
 			"enemyAttack": {
 				"vars": [
 					"enemyName",
@@ -9616,6 +9618,120 @@
 		"accept": {
 			"trans": "Принимать",
 			"eng": "Accept"
+		}
+	},
+	"notificationModal": {
+		"title": {
+			"trans": "Будь в курсе первым!",
+			"eng": "Be the first to know!"
+		},
+		"content": {
+			"1": {
+				"trans": "Позвольте нам отправить вам уведомление, когда:",
+				"eng": "Let us send you a notification when:"
+			},
+			"2": {
+				"trans": "1. Когда ваша задача AFK завершена.",
+				"eng": "1. When your AFK task is completed."
+			},
+			"3": {
+				"trans": "2. Когда вы получаете бесплатный бафф, развернутый другим игроком.",
+				"eng": "2. When you receive a message from other players."
+			},
+			"4": {
+				"trans": "3. Когда игрок упомянул вас в чате.",
+				"eng": "3. When a player has mentioned you in chat."
+			}
+		},
+		"dontAsk": {
+			"trans": "Не спрашивай меня снова",
+			"eng": "Don\\'t ask me again"
+		},
+		"cancel": {
+			"trans": "Отмена",
+			"eng": "Cancel"
+		},
+		"confirm": {
+			"trans": "Конечно, уведомите меня!",
+			"eng": "Sure, Notify Me!"
+		},
+		"notiExample1": {
+			"title": {
+				"trans": "Задача AFK выполнена!",
+				"eng": "AFK task completed!"
+			},
+			"content": {
+				"trans": "Задание AFK завершено, получите свою награду сейчас✨",
+				"eng": "AFK task completed, receive your reward now✨"
+			}
+		},
+		"notiExample2": {
+			"title": {
+				"trans": "Вы получили бесплатный буст опыта!",
+				"eng": "You received a free EXP buff!"
+			},
+			"content": {
+				"vars": [
+					"name"
+				],
+				"trans": "${name} развернул бафф EXP для всех, EXP +80% на 20 минут!",
+				"eng": "${name} has deployed EXP buff for everyone, EXP +80% for 20 minutes!"
+			}
+		},
+		"notiExample3": {
+			"title": {
+				"vars": [
+					"name"
+				],
+				"trans": "Ваше AFK задание было пропущено ${name}",
+				"eng": "Your AFK task has been skipped by ${name}"
+			},
+			"content": {
+				"vars": [
+					"name"
+				],
+				"trans": "${name} использовал глобальный пропуск, который пропускает AFK-задачи всех на 120 минут",
+				"eng": "${name} used a global skip, that skips everyone's AFK task by 120 minutes"
+			}
+		},
+		"notiExample4": {
+			"title": {
+				"vars": [
+					"name"
+				],
+				"trans": "${name} отправил вам письмо!",
+				"eng": "${name} sent you a mail!"
+			},
+			"content": {
+				"trans": "Чё как? Хочешь вступить в мою банду?",
+				"eng": "Whats up? wanna join my gang?"
+			}
+		},
+		"notiExample5": {
+			"title": {
+				"vars": [
+					"name"
+				],
+				"trans": "[GLOBAL] ${name} упомянул(а) тебя!",
+				"eng": "[GLOBAL] ${name} mentioned you!"
+			},
+			"content": {
+				"trans": "Привет! Добро пожаловать в CyberCode Online!",
+				"eng": "Hey! welcome to CyberCode Online!"
+			}
+		},
+		"notiExample6": {
+			"title": {
+				"vars": [
+					"name"
+				],
+				"trans": "${name} прислал вам подарок",
+				"eng": "${name} sent you a gift"
+			},
+			"content": {
+				"trans": "Предмет был отправлен в ваш инвентарь",
+				"eng": "The item has been sent to your item inbox"
+			}
 		}
 	},
 	"petReviveModal": {
@@ -10903,6 +11019,13 @@
 		}
 	},
 	"error": {
+		"itemGlobalCooldown": {
+			"vars": [
+				"seconds"
+			],
+			"trans": "Этот предмет находится на глобальном кулдауне, вам нужно подождать ${seconds} секунд, прежде чем использовать его снова",
+			"eng": "This item is on global cooldown, you must wait ${seconds} seconds before using this item again"
+		},
 		"cannotUseItemInStatus": {
 			"vars": [
 				"minutes"
@@ -10916,12 +11039,13 @@
 		}
 	},
 	"dungeonQuest": {
-		"success": {
+		"successv2": {
 			"vars": [
-				"effectName"
+				"effectName",
+				"minutes"
 			],
-			"trans": "Вы успешно активировали Консоль Репликатора и получили ${effectName} на 10 минут",
-			"eng": "You have successfully activated the Replicator Console and received ${effectName} for 10 minutes"
+			"trans": "Вы успешно активировали консоль Репликатора и получили ${effectName} на ${minutes} минут",
+			"eng": "You have successfully activated the Replicator Console and received ${effectName} for ${minutes} minutes"
 		},
 		"failed": {
 			"trans": "Ошибка репликации",

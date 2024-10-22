@@ -1498,6 +1498,16 @@
 					"eng": "Disable update note popup"
 				}
 			},
+			"notificationDontAsk": {
+				"title": {
+					"trans": "Nikdy nežiadaj o povolenie na notifikácie",
+					"eng": "Never ask for notification permission"
+				},
+				"description": {
+					"trans": "Zakázať vyskakovacie okno s požiadavkou na povolenie notifikácií",
+					"eng": "Disable notification permission request popup"
+				}
+			},
 			"promoOnlyShowWhenUpdate": {
 				"title": {
 					"trans": "Zobraziť promo na novú udalosť iba",
@@ -2028,14 +2038,6 @@
 			}
 		},
 		"basicInfo": {
-			"welcomeTo": {
-				"trans": "Vitajte v",
-				"eng": "Welcome to"
-			},
-			"welcomeMsg": {
-				"trans": "Najlepší textový MMORPG",
-				"eng": "the best text-based mmorpg"
-			},
 			"hasRefererCheckbox": {
 				"description": {
 					"trans": "Skontrolujte, či máte referent (voliteľné)",
@@ -2070,9 +2072,9 @@
 					"trans": "Meno postavy",
 					"eng": "Character Name"
 				},
-				"description": {
-					"trans": "You will be muted if you use an offensive or inappropriate name.",
-					"eng": "you will be muted if you use an offensive or inappropriate name."
+				"descriptionv2": {
+					"trans": "Mená nemožno meniť, prosím, nepoužívajte urážlivé alebo nevhodné mená",
+					"eng": "Names cannot be changed, please do not use an offensive ot inappropriate name"
 				}
 			},
 			"confirm": {
@@ -3503,10 +3505,6 @@
 			}
 		},
 		"newbieTutorial": {
-			"welcomeMsg": {
-				"trans": "Vitajte v najlepšom Text MMORPG",
-				"eng": "Welcome to the best Text MMORPG"
-			},
 			"noShowToggle": {
 				"description": {
 					"trans": "Úplný návod na profiloch nájdete na karte Profille> Tab",
@@ -8958,6 +8956,10 @@
 	},
 	"combat": {
 		"log": {
+			"criticalHit": {
+				"trans": "Kritický zásah!",
+				"eng": "Critical Hit!"
+			},
 			"enemyAttack": {
 				"vars": [
 					"enemyName",
@@ -9829,6 +9831,120 @@
 		"accept": {
 			"trans": "súhlasiť",
 			"eng": "Accept"
+		}
+	},
+	"notificationModal": {
+		"title": {
+			"trans": "Buď prvý, kto sa dozvie!",
+			"eng": "Be the first to know!"
+		},
+		"content": {
+			"1": {
+				"trans": "Nechajte nás vám poslať upozornenie, keď:",
+				"eng": "Let us send you a notification when:"
+			},
+			"2": {
+				"trans": "1. Keď je tvoja AFK úloha dokončená.",
+				"eng": "1. When your AFK task is completed."
+			},
+			"3": {
+				"trans": "2. Keď dostaneš zadarmo buff od iného hráča.",
+				"eng": "2. When you receive a message from other players."
+			},
+			"4": {
+				"trans": "3. Keď ťa hráč spomenul v chate.",
+				"eng": "3. When a player has mentioned you in chat."
+			}
+		},
+		"dontAsk": {
+			"trans": "Nepýtaj sa ma znova",
+			"eng": "Don\\'t ask me again"
+		},
+		"cancel": {
+			"trans": "Zrušiť",
+			"eng": "Cancel"
+		},
+		"confirm": {
+			"trans": "Jasné, upozorni ma!",
+			"eng": "Sure, Notify Me!"
+		},
+		"notiExample1": {
+			"title": {
+				"trans": "AFK úloha dokončená!",
+				"eng": "AFK task completed!"
+			},
+			"content": {
+				"trans": "AFK úloha dokončená, teraz si vyzdvihni svoju odmenu✨",
+				"eng": "AFK task completed, receive your reward now✨"
+			}
+		},
+		"notiExample2": {
+			"title": {
+				"trans": "Získali ste voľný EXP buff!",
+				"eng": "You received a free EXP buff!"
+			},
+			"content": {
+				"vars": [
+					"name"
+				],
+				"trans": "${name} nasadil EXP buff pre všetkých, EXP +80% na 20 minút!",
+				"eng": "${name} has deployed EXP buff for everyone, EXP +80% for 20 minutes!"
+			}
+		},
+		"notiExample3": {
+			"title": {
+				"vars": [
+					"name"
+				],
+				"trans": "Vaša AFK úloha bola preskočená používateľom ${name}",
+				"eng": "Your AFK task has been skipped by ${name}"
+			},
+			"content": {
+				"vars": [
+					"name"
+				],
+				"trans": "${name} použil globálny preskočenie, ktoré preskočí každého AFK úlohu o 120 minút",
+				"eng": "${name} used a global skip, that skips everyone's AFK task by 120 minutes"
+			}
+		},
+		"notiExample4": {
+			"title": {
+				"vars": [
+					"name"
+				],
+				"trans": "${name} ti poslal správu!",
+				"eng": "${name} sent you a mail!"
+			},
+			"content": {
+				"trans": "Čo sa deje? Chceš sa pridať k mojej bande?",
+				"eng": "Whats up? wanna join my gang?"
+			}
+		},
+		"notiExample5": {
+			"title": {
+				"vars": [
+					"name"
+				],
+				"trans": "[GLOBAL] ${name} ťa spomenul!",
+				"eng": "[GLOBAL] ${name} mentioned you!"
+			},
+			"content": {
+				"trans": "Ahoj! Vitaj v CyberCode Online!",
+				"eng": "Hey! welcome to CyberCode Online!"
+			}
+		},
+		"notiExample6": {
+			"title": {
+				"vars": [
+					"name"
+				],
+				"trans": "${name} ti poslal darček",
+				"eng": "${name} sent you a gift"
+			},
+			"content": {
+				"trans": "Položka bola odoslaná do vašej schránky na položky",
+				"eng": "The item has been sent to your item inbox"
+			}
 		}
 	},
 	"petReviveModal": {
@@ -11116,6 +11232,13 @@
 		}
 	},
 	"error": {
+		"itemGlobalCooldown": {
+			"vars": [
+				"seconds"
+			],
+			"trans": "Tento predmet je na globálnom cooldown-e, musíte počkať ${seconds} sekúnd, kým ho budete môcť znova použiť",
+			"eng": "This item is on global cooldown, you must wait ${seconds} seconds before using this item again"
+		},
 		"cannotUseItemInStatus": {
 			"vars": [
 				"minutes"
@@ -11129,12 +11252,13 @@
 		}
 	},
 	"dungeonQuest": {
-		"success": {
+		"successv2": {
 			"vars": [
-				"effectName"
+				"effectName",
+				"minutes"
 			],
-			"trans": "Úspešne ste aktivovali konzolu replikátora a získali ste ${effectName} na 10 minút",
-			"eng": "You have successfully activated the Replicator Console and received ${effectName} for 10 minutes"
+			"trans": "Úspešne ste aktivovali konzolu replikátora a získali ste ${effectName} na ${minutes} minút",
+			"eng": "You have successfully activated the Replicator Console and received ${effectName} for ${minutes} minutes"
 		},
 		"failed": {
 			"trans": "Replikácia zlyhala",

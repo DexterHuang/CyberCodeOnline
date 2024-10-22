@@ -1498,6 +1498,16 @@
 					"eng": "Disable update note popup"
 				}
 			},
+			"notificationDontAsk": {
+				"title": {
+					"trans": "Huwag kailanman humingi ng pahintulot para sa notification",
+					"eng": "Never ask for notification permission"
+				},
+				"description": {
+					"trans": "I-disable ang popup para sa pahintulot sa notification",
+					"eng": "Disable notification permission request popup"
+				}
+			},
 			"promoOnlyShowWhenUpdate": {
 				"title": {
 					"trans": "Ipakita ang Promo sa Bagong Kaganapan Lamang",
@@ -2028,14 +2038,6 @@
 			}
 		},
 		"basicInfo": {
-			"welcomeTo": {
-				"trans": "Maligayang pagdating sa",
-				"eng": "Welcome to"
-			},
-			"welcomeMsg": {
-				"trans": "Ang pinakamahusay na text-based na MMORPG",
-				"eng": "the best text-based mmorpg"
-			},
 			"hasRefererCheckbox": {
 				"description": {
 					"trans": "Suriin lamang kung mayroon kang isang referer (opsyonal)",
@@ -2070,9 +2072,9 @@
 					"trans": "Pangalan ng character",
 					"eng": "Character Name"
 				},
-				"description": {
-					"trans": "You will be muted if you use an offensive or inappropriate name.",
-					"eng": "you will be muted if you use an offensive or inappropriate name."
+				"descriptionv2": {
+					"trans": "Hindi maaaring baguhin ang mga pangalan, mangyaring huwag gumamit ng nakakasakit o hindi angkop na pangalan",
+					"eng": "Names cannot be changed, please do not use an offensive ot inappropriate name"
 				}
 			},
 			"confirm": {
@@ -3503,10 +3505,6 @@
 			}
 		},
 		"newbieTutorial": {
-			"welcomeMsg": {
-				"trans": "Maligayang pagdating sa pinakamahusay na teksto mmorpg",
-				"eng": "Welcome to the best Text MMORPG"
-			},
 			"noShowToggle": {
 				"description": {
 					"trans": "Maaari mong makita ang buong tutorial sa Profile> Tutorial Tab",
@@ -8958,6 +8956,10 @@
 	},
 	"combat": {
 		"log": {
+			"criticalHit": {
+				"trans": "Critical Hit!",
+				"eng": "Critical Hit!"
+			},
 			"enemyAttack": {
 				"vars": [
 					"enemyName",
@@ -9829,6 +9831,120 @@
 		"accept": {
 			"trans": "Tanggapin",
 			"eng": "Accept"
+		}
+	},
+	"notificationModal": {
+		"title": {
+			"trans": "Maging unang makaalam!",
+			"eng": "Be the first to know!"
+		},
+		"content": {
+			"1": {
+				"trans": "Hayaan mong magpadala kami sa iyo ng notification kapag:",
+				"eng": "Let us send you a notification when:"
+			},
+			"2": {
+				"trans": "1. Kapag natapos na ang iyong AFK na gawain.",
+				"eng": "1. When your AFK task is completed."
+			},
+			"3": {
+				"trans": "2. Kapag nakatanggap ka ng mensahe mula sa ibang manlalaro.",
+				"eng": "2. When you receive a message from other players."
+			},
+			"4": {
+				"trans": "3. Kapag may nagbanggit sa'yo sa chat.",
+				"eng": "3. When a player has mentioned you in chat."
+			}
+		},
+		"dontAsk": {
+			"trans": "Huwag mo na akong tanungin ulit",
+			"eng": "Don\\'t ask me again"
+		},
+		"cancel": {
+			"trans": "Kanselahin",
+			"eng": "Cancel"
+		},
+		"confirm": {
+			"trans": "Sige, I-notify Mo Ako!",
+			"eng": "Sure, Notify Me!"
+		},
+		"notiExample1": {
+			"title": {
+				"trans": "AFK na gawain natapos na!",
+				"eng": "AFK task completed!"
+			},
+			"content": {
+				"trans": "Tapos na ang AFK na gawain, kunin mo na ang iyong gantimpala ngayon✨",
+				"eng": "AFK task completed, receive your reward now✨"
+			}
+		},
+		"notiExample2": {
+			"title": {
+				"trans": "Nakakuha ka ng libreng EXP buff!",
+				"eng": "You received a free EXP buff!"
+			},
+			"content": {
+				"vars": [
+					"name"
+				],
+				"trans": "Nag-deploy si ${name} ng EXP buff para sa lahat, EXP +80% sa loob ng 20 minuto!",
+				"eng": "${name} has deployed EXP buff for everyone, EXP +80% for 20 minutes!"
+			}
+		},
+		"notiExample3": {
+			"title": {
+				"vars": [
+					"name"
+				],
+				"trans": "Nawala ang iyong AFK na gawain ni ${name}",
+				"eng": "Your AFK task has been skipped by ${name}"
+			},
+			"content": {
+				"vars": [
+					"name"
+				],
+				"trans": "Ginamit ni ${name} ang global skip, na nag-skip sa AFK task ng lahat ng tao ng 120 minuto",
+				"eng": "${name} used a global skip, that skips everyone's AFK task by 120 minutes"
+			}
+		},
+		"notiExample4": {
+			"title": {
+				"vars": [
+					"name"
+				],
+				"trans": "${name} nagpadala sa'yo ng sulat!",
+				"eng": "${name} sent you a mail!"
+			},
+			"content": {
+				"trans": "Ano'ng balita? Gusto mo bang sumali sa gang ko?",
+				"eng": "Whats up? wanna join my gang?"
+			}
+		},
+		"notiExample5": {
+			"title": {
+				"vars": [
+					"name"
+				],
+				"trans": "[GLOBAL] Binanggit ka ni ${name}!",
+				"eng": "[GLOBAL] ${name} mentioned you!"
+			},
+			"content": {
+				"trans": "Hey! Maligayang pagdating sa CyberCode Online!",
+				"eng": "Hey! welcome to CyberCode Online!"
+			}
+		},
+		"notiExample6": {
+			"title": {
+				"vars": [
+					"name"
+				],
+				"trans": "Nagpadala sa'yo ng regalo si ${name}",
+				"eng": "${name} sent you a gift"
+			},
+			"content": {
+				"trans": "Naipadala na ang item sa iyong inbox ng item",
+				"eng": "The item has been sent to your item inbox"
+			}
 		}
 	},
 	"petReviveModal": {
@@ -11116,6 +11232,13 @@
 		}
 	},
 	"error": {
+		"itemGlobalCooldown": {
+			"vars": [
+				"seconds"
+			],
+			"trans": "Ang item na ito ay nasa pandaigdigang cooldown, kailangan mong maghintay ng ${seconds} segundo bago muling gamitin ang item na ito",
+			"eng": "This item is on global cooldown, you must wait ${seconds} seconds before using this item again"
+		},
 		"cannotUseItemInStatus": {
 			"vars": [
 				"minutes"
@@ -11129,12 +11252,13 @@
 		}
 	},
 	"dungeonQuest": {
-		"success": {
+		"successv2": {
 			"vars": [
-				"effectName"
+				"effectName",
+				"minutes"
 			],
-			"trans": "Na-activate mo na ang Replicator Console at nakakuha ka ng ${effectName} sa loob ng 10 minuto",
-			"eng": "You have successfully activated the Replicator Console and received ${effectName} for 10 minutes"
+			"trans": "Na-activate mo nang matagumpay ang Replicator Console at nakatanggap ka ng ${effectName} sa loob ng ${minutes} minuto",
+			"eng": "You have successfully activated the Replicator Console and received ${effectName} for ${minutes} minutes"
 		},
 		"failed": {
 			"trans": "Nabigo ang pagkopya",
