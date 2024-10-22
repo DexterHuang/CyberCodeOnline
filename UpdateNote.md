@@ -31,9 +31,13 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
+### 0.1851
+
+-   Enemy images are completely redone, now include around 800 higher-quality images
+
 ### 0.1850
 
--   You can now drag messages to the right to reply to the player quickly in chat interface
+-   You can now drag messages to the right to reply to the player quickly in the chat interface
 
 ### 0.1849
 
