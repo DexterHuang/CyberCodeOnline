@@ -41,6 +41,7 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 -   Fixed issue on pc where at times, the item icon shows a square instead of the actual icon while doubling the resolution of the icons
 -   slight UI change on item popup on equipped item
 -   Updated tutorial
+-   Fixed issue with iOS notification
 
 
 ### 0.1851
