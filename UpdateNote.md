@@ -31,6 +31,17 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
+### 0.1852
+
+-   Fixed issue with incorrect animation shown when the player dies (previously, the enemy's health went to zero falsely leading to confusion)
+-   Now when the player dies, the animation of health going to zero will be played instead of immediately going to the death screen
+-   Added new notification request popup
+-   Optimized app loading reducing process needed and files loaded
+-   Fixed issue on pc where at times, the item icon shows a square instead of the actual icon while doubled the resolution of the icons
+-   slight UI change on item popup on equipped item
+-   Updated tutorial
+
+
 ### 0.1851
 
 -   Enemy images are completely redone, now include around 800 higher-quality images
