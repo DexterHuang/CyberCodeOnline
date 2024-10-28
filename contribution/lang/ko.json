@@ -104,6 +104,16 @@
 	},
 	"ui": {
 		"bulkCraft": {
+			"tutorial": {
+				"printSell": {
+					"trans": "여기를 클릭하여 인쇄하고 판매할 아이템을 선택하세요",
+					"eng": "Click here to select the items you want to print and sell"
+				},
+				"recycle": {
+					"trans": "여기를 클릭하여 재활용할 아이템을 선택하세요",
+					"eng": "Click here to select the items you want to recycle"
+				}
+			},
 			"amountSelect": {
 				"title": {
 					"trans": "수량을 선택하세요",
@@ -367,6 +377,12 @@
 						}
 					}
 				}
+			}
+		},
+		"rewardActionConfirmModal": {
+			"title": {
+				"trans": "모든 프로세스 아이콘을 박스 안으로 완전히 드래그하여 작업을 시작하세요",
+				"eng": "Drag all processes icons into to the box entirely to initiate the task"
 			}
 		},
 		"bank": {
@@ -977,7 +993,7 @@
 		"backToPreviusLoc": {
 			"longPressBackToCity": {
 				"trans": "길게 눌러 도시로 돌아가기",
-				"eng": "Long press to go back to city"
+				"eng": "You can long press the back button to go back to city to visit various shops and features"
 			}
 		},
 		"notificationCenter": {
@@ -1041,6 +1057,12 @@
 					"description": {
 						"trans": "장비 인쇄는 인쇄 레벨을 기반으로하며, 장비를 인쇄하여 인쇄 레벨을 올릴 수 있습니다",
 						"eng": "equipment printing is based on your printing rank, level up your printing rank by printing more items"
+					}
+				},
+				"tutorial": {
+					"printFirstRecipe": {
+						"trans": "레시피를 클릭하여 첫 번째 장비를 인쇄하세요",
+						"eng": "Click on the recipe to print your first equipment"
 					}
 				}
 			},
@@ -1217,13 +1239,21 @@
 			}
 		},
 		"market": {
-			"lookAround": {
-				"trans": "둘러보기",
-				"eng": "Look around"
+			"playerMarket": {
+				"trans": "플레이어 마켓 방문하기",
+				"eng": "Visit Player Market"
 			},
-			"myStall": {
-				"trans": "내 판매대",
-				"eng": "My Stall"
+			"playerMarketDescription": {
+				"trans": "여기서 다른 플레이어에게 아이템을 구매할 수 있습니다",
+				"eng": "You can purchase items from other players here"
+			},
+			"myMarketStall": {
+				"trans": "내 시장 가판대",
+				"eng": "My MarketStall"
+			},
+			"myMarketStallDescription": {
+				"trans": "여기서 플레이어 마켓에서 아이템을 관리할 수 있습니다",
+				"eng": "You can manage your items on the player market here"
 			},
 			"increaseSlot": {
 				"vars": [
@@ -1969,20 +1999,17 @@
 					"trans": "가지고 있는 진통제가 없는 것 같군요. 던전에서는 체력이 자동으로 회복되지 않기 때문에, 던전에 입장하기 전에는 트리노키 마트에서 진통제를 구매하는 편이 좋습니다.",
 					"eng": "Seems like you dont have any Pain Away with you, purchase it from Trinoky Mart in the city first before entering dungeons, since you will not regen after battles in dungeon"
 				},
-				"cancel": {
+				"later": {
 					"trans": "나중에",
 					"eng": "Later"
 				},
-				"confirm": {
-					"trans": "도시로 돌아가기",
-					"eng": "Back to city"
+				"purchase": {
+					"vars": [
+						"shop"
+					],
+					"trans": "${shop} 방문하기",
+					"eng": "visit ${shop}"
 				}
-			}
-		},
-		"rewardActionConfirmModal": {
-			"captcha": {
-				"trans": "작업을 시작하기 위해 모든 프로세스 아이콘을 붉은색 사각형에 모두 끌어 놓으십시오.",
-				"eng": "Drag all processes icons into to the red box entirely to initiate the task"
 			}
 		},
 		"confirmModal": {
@@ -2847,6 +2874,22 @@
 			}
 		}
 	},
+	"mobile": {
+		"appBanner": {
+			"description": {
+				"trans": "앱을 다운로드하여 최적의 경험을 누리세요!",
+				"eng": "Download the app to get the optimal experience!"
+			},
+			"install": {
+				"trans": "설치하기",
+				"eng": "Install"
+			}
+		},
+		"returnToAppMessage": {
+			"trans": "서버 동기화 중...",
+			"eng": "Syncing with server.."
+		}
+	},
 	"battleUI": {
 		"quickSlotModal": {
 			"title": {
@@ -3552,6 +3595,36 @@
 				"trans": "${playerName}의 아파트",
 				"eng": "${playerName}'s Apartment"
 			}
+		}
+	},
+	"tutorial": {
+		"playerMarket": {
+			"trans": "여기를 클릭하여 다른 플레이어의 아이템을 보고 구매하세요",
+			"eng": "Click here to view and purchase items from other players"
+		},
+		"myMarketStall": {
+			"trans": "플레이어 마켓에서 아이템을 관리하려면 여기를 클릭하세요",
+			"eng": "Click here to manage your items on the player market"
+		},
+		"localCombatButton": {
+			"trans": "길거리의 적을 스캔하려면 여기를 클릭하십시오",
+			"eng": "Click here to scan for street enemies"
+		},
+		"localCombatTip": {
+			"trans": "적을 물리치면 경험치, 비트코인 및 전리품을 받게됩니다. \r\n        지금 해보세요!",
+			"eng": "you will receive exp, Bitcoin and loots when you defeat enemies,\r\n                give it a try now!"
+		},
+		"primaryAttack": {
+			"trans": "적을 공격하려면 여기를 클릭하십시오",
+			"eng": "Click here to attack the enemy"
+		},
+		"statusInv": {
+			"trans": "모든 전리품을 얻으려면 '모두 가져가기'를 클릭하세요",
+			"eng": "Click 'TAKE ALL' to get all the loots"
+		},
+		"dungeonQuest": {
+			"trans": "퀘스트를 수락하려면 '퀘스트 수락'을 클릭하세요. 퀘스트는 언제든지 완료하거나 포기할 수 있습니다",
+			"eng": "Click 'ACCEPT QUEST' to accept the quest, you may complete or abandon the quest at any time"
 		}
 	},
 	"playerStatusDisplay": {
@@ -4334,28 +4407,6 @@
 			],
 			"trans": "${money} btc를 ${playerName}에게 보냈습니다",
 			"eng": "You sent ${money} BTC to ${playerName}"
-		}
-	},
-	"tutorial": {
-		"localCombatButton": {
-			"trans": "길거리의 적을 스캔하려면 여기를 클릭하십시오",
-			"eng": "Click here to scan for street enemies"
-		},
-		"localCombatTip": {
-			"trans": "적을 물리치면 경험치, 비트코인 및 전리품을 받게됩니다. \r\n        지금 해보세요!",
-			"eng": "you will receive exp, Bitcoin and loots when you defeat enemies,\r\n                give it a try now!"
-		},
-		"primaryAttack": {
-			"trans": "적을 공격하려면 여기를 클릭하십시오",
-			"eng": "Click here to attack the enemy"
-		},
-		"statusInv": {
-			"trans": "모든 전리품을 얻으려면 '모두 가져가기'를 클릭하세요",
-			"eng": "Click 'TAKE ALL' to get all the loots"
-		},
-		"dungeonQuest": {
-			"trans": "퀘스트를 수락하려면 '퀘스트 수락'을 클릭하세요. 퀘스트는 언제든지 완료하거나 포기할 수 있습니다",
-			"eng": "Click 'ACCEPT QUEST' to accept the quest, you may complete or abandon the quest at any time"
 		}
 	},
 	"enum": {
@@ -7913,6 +7964,10 @@
 			"npcName": {
 				"trans": "제로",
 				"eng": "Zero"
+			},
+			"tut": {
+				"trans": "여기에서 과잉 장비 캐시를 더 높은 가격에 판매할 수 있습니다",
+				"eng": "You can sell excessive equipment caches here for higher price"
 			}
 		},
 		"lunar": {
@@ -9284,12 +9339,6 @@
 				"trans": "구입",
 				"eng": "Purchase"
 			}
-		}
-	},
-	"mobile": {
-		"returnToAppMessage": {
-			"trans": "서버 동기화 중...",
-			"eng": "Syncing with server.."
 		}
 	},
 	"petDetailsPage": {
@@ -11185,7 +11234,7 @@
 			},
 			"cantPerformAction": {
 				"trans": "지금은 작업을 수행 할 수 없습니다",
-				"eng": "You can't perform this action now"
+				"eng": "You can't perform this action during party buff"
 			},
 			"invalidTravelLink": {
 				"trans": "유효하지 않은 링크입니다. 계속 진행하려면 새로고침하십시오",

@@ -104,6 +104,16 @@
 	},
 	"ui": {
 		"bulkCraft": {
+			"tutorial": {
+				"printSell": {
+					"trans": "I-click dito para piliin ang mga item na gusto mong i-print at ibenta",
+					"eng": "Click here to select the items you want to print and sell"
+				},
+				"recycle": {
+					"trans": "I-click dito para piliin ang mga item na gusto mong i-recycle",
+					"eng": "Click here to select the items you want to recycle"
+				}
+			},
 			"amountSelect": {
 				"title": {
 					"trans": "Piliin ang Halaga",
@@ -367,6 +377,12 @@
 						}
 					}
 				}
+			}
+		},
+		"rewardActionConfirmModal": {
+			"title": {
+				"trans": "I-drag ang lahat ng icon ng proseso sa kahon nang buo para simulan ang gawain",
+				"eng": "Drag all processes icons into to the box entirely to initiate the task"
 			}
 		},
 		"bank": {
@@ -977,7 +993,7 @@
 		"backToPreviusLoc": {
 			"longPressBackToCity": {
 				"trans": "Mahabang pindutin upang bumalik sa lungsod",
-				"eng": "Long press to go back to city"
+				"eng": "You can long press the back button to go back to city to visit various shops and features"
 			}
 		},
 		"notificationCenter": {
@@ -1041,6 +1057,12 @@
 					"description": {
 						"trans": "Ang pag -print ng kagamitan ay batay sa iyong ranggo sa pag -print, i -level up ang iyong ranggo sa pag -print sa pamamagitan ng pag -print ng higit pang mga item",
 						"eng": "equipment printing is based on your printing rank, level up your printing rank by printing more items"
+					}
+				},
+				"tutorial": {
+					"printFirstRecipe": {
+						"trans": "I-click ang recipe para i-print ang iyong unang kagamitan",
+						"eng": "Click on the recipe to print your first equipment"
 					}
 				}
 			},
@@ -1217,13 +1239,21 @@
 			}
 		},
 		"market": {
-			"lookAround": {
-				"trans": "Tumingin ka sa paligid",
-				"eng": "Look around"
+			"playerMarket": {
+				"trans": "Bumisita sa Player Market",
+				"eng": "Visit Player Market"
 			},
-			"myStall": {
-				"trans": "Ang aking stall",
-				"eng": "My Stall"
+			"playerMarketDescription": {
+				"trans": "Maaari kang bumili ng mga item mula sa ibang mga manlalaro dito",
+				"eng": "You can purchase items from other players here"
+			},
+			"myMarketStall": {
+				"trans": "Aking Tindahan sa Pamilihan",
+				"eng": "My MarketStall"
+			},
+			"myMarketStallDescription": {
+				"trans": "Maaari mong pamahalaan ang iyong mga item sa player market dito",
+				"eng": "You can manage your items on the player market here"
 			},
 			"increaseSlot": {
 				"vars": [
@@ -1969,20 +1999,17 @@
 					"trans": "Seems like you dont have any Pain Away with you. Purchase it from Trinoky Mart in the city first before entering dungeons since you will not regen after battles in dungeon",
 					"eng": "Seems like you dont have any Pain Away with you, purchase it from Trinoky Mart in the city first before entering dungeons, since you will not regen after battles in dungeon"
 				},
-				"cancel": {
-					"trans": "Kalaunan",
+				"later": {
+					"trans": "Mamaya",
 					"eng": "Later"
 				},
-				"confirm": {
-					"trans": "Bumalik sa Lungsod",
-					"eng": "Back to city"
+				"purchase": {
+					"vars": [
+						"shop"
+					],
+					"trans": "bisitahin ang ${shop}",
+					"eng": "visit ${shop}"
 				}
-			}
-		},
-		"rewardActionConfirmModal": {
-			"captcha": {
-				"trans": "I -drag ang lahat ng mga proseso ng mga icon sa Red Box nang buo upang simulan ang gawain",
-				"eng": "Drag all processes icons into to the red box entirely to initiate the task"
 			}
 		},
 		"confirmModal": {
@@ -2847,6 +2874,22 @@
 			}
 		}
 	},
+	"mobile": {
+		"appBanner": {
+			"description": {
+				"trans": "I-download ang app para makuha ang pinakamainam na karanasan!",
+				"eng": "Download the app to get the optimal experience!"
+			},
+			"install": {
+				"trans": "I-install",
+				"eng": "Install"
+			}
+		},
+		"returnToAppMessage": {
+			"trans": "Pag -sync sa server ..",
+			"eng": "Syncing with server.."
+		}
+	},
 	"battleUI": {
 		"quickSlotModal": {
 			"title": {
@@ -3552,6 +3595,36 @@
 				"trans": "Apartment ni ${playerName}",
 				"eng": "${playerName}'s Apartment"
 			}
+		}
+	},
+	"tutorial": {
+		"playerMarket": {
+			"trans": "I-click dito para tingnan at bumili ng mga item mula sa ibang manlalaro",
+			"eng": "Click here to view and purchase items from other players"
+		},
+		"myMarketStall": {
+			"trans": "I-click dito para pamahalaan ang iyong mga item sa pamilihan ng manlalaro",
+			"eng": "Click here to manage your items on the player market"
+		},
+		"localCombatButton": {
+			"trans": "Mag -click dito upang mag -scan para sa mga kaaway sa kalye",
+			"eng": "Click here to scan for street enemies"
+		},
+		"localCombatTip": {
+			"trans": "You will receive exp, Bitcoin and loot when you defeat enemies,\n                give it a try now!",
+			"eng": "you will receive exp, Bitcoin and loots when you defeat enemies,\r\n                give it a try now!"
+		},
+		"primaryAttack": {
+			"trans": "Mag -click dito upang salakayin ang kaaway",
+			"eng": "Click here to attack the enemy"
+		},
+		"statusInv": {
+			"trans": "Click 'TAKE ALL' to get all the loot",
+			"eng": "Click 'TAKE ALL' to get all the loots"
+		},
+		"dungeonQuest": {
+			"trans": "I -click ang 'Tanggapin ang Paghahanap' upang tanggapin ang paghahanap, maaari mong kumpletuhin o iwanan ang paghahanap sa anumang oras",
+			"eng": "Click 'ACCEPT QUEST' to accept the quest, you may complete or abandon the quest at any time"
 		}
 	},
 	"playerStatusDisplay": {
@@ -4334,28 +4407,6 @@
 			],
 			"trans": "Nagpadala ka ng ${money} BTC sa ${playerName}",
 			"eng": "You sent ${money} BTC to ${playerName}"
-		}
-	},
-	"tutorial": {
-		"localCombatButton": {
-			"trans": "Mag -click dito upang mag -scan para sa mga kaaway sa kalye",
-			"eng": "Click here to scan for street enemies"
-		},
-		"localCombatTip": {
-			"trans": "You will receive exp, Bitcoin and loot when you defeat enemies,\n                give it a try now!",
-			"eng": "you will receive exp, Bitcoin and loots when you defeat enemies,\r\n                give it a try now!"
-		},
-		"primaryAttack": {
-			"trans": "Mag -click dito upang salakayin ang kaaway",
-			"eng": "Click here to attack the enemy"
-		},
-		"statusInv": {
-			"trans": "Click 'TAKE ALL' to get all the loot",
-			"eng": "Click 'TAKE ALL' to get all the loots"
-		},
-		"dungeonQuest": {
-			"trans": "I -click ang 'Tanggapin ang Paghahanap' upang tanggapin ang paghahanap, maaari mong kumpletuhin o iwanan ang paghahanap sa anumang oras",
-			"eng": "Click 'ACCEPT QUEST' to accept the quest, you may complete or abandon the quest at any time"
 		}
 	},
 	"enum": {
@@ -8017,6 +8068,10 @@
 			"npcName": {
 				"trans": "Zero",
 				"eng": "Zero"
+			},
+			"tut": {
+				"trans": "Maaari mong ibenta ang labis na kagamitan dito para sa mas mataas na presyo",
+				"eng": "You can sell excessive equipment caches here for higher price"
 			}
 		},
 		"lunar": {
@@ -9388,12 +9443,6 @@
 				"trans": "Bumili",
 				"eng": "Purchase"
 			}
-		}
-	},
-	"mobile": {
-		"returnToAppMessage": {
-			"trans": "Pag -sync sa server ..",
-			"eng": "Syncing with server.."
 		}
 	},
 	"petDetailsPage": {
@@ -11289,7 +11338,7 @@
 			},
 			"cantPerformAction": {
 				"trans": "Hindi mo maaaring isagawa ang pagkilos na ito ngayon",
-				"eng": "You can't perform this action now"
+				"eng": "You can't perform this action during party buff"
 			},
 			"invalidTravelLink": {
 				"trans": "Hindi wastong link sa paglalakbay, kung magpapatuloy mangyaring i -reload",

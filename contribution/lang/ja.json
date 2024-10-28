@@ -104,6 +104,16 @@
 	},
 	"ui": {
 		"bulkCraft": {
+			"tutorial": {
+				"printSell": {
+					"trans": "ここをクリックして、印刷して販売したいアイテムを選択してください。",
+					"eng": "Click here to select the items you want to print and sell"
+				},
+				"recycle": {
+					"trans": "リサイクルしたいアイテムを選択するにはここをクリックしてください",
+					"eng": "Click here to select the items you want to recycle"
+				}
+			},
 			"amountSelect": {
 				"title": {
 					"trans": "数量を選択",
@@ -367,6 +377,12 @@
 						}
 					}
 				}
+			}
+		},
+		"rewardActionConfirmModal": {
+			"title": {
+				"trans": "すべてのプロセスアイコンをボックスに完全にドラッグして、タスクを開始してください。",
+				"eng": "Drag all processes icons into to the box entirely to initiate the task"
 			}
 		},
 		"bank": {
@@ -977,7 +993,7 @@
 		"backToPreviusLoc": {
 			"longPressBackToCity": {
 				"trans": "長押しで中心街に戻る",
-				"eng": "Long press to go back to city"
+				"eng": "You can long press the back button to go back to city to visit various shops and features"
 			}
 		},
 		"notificationCenter": {
@@ -1041,6 +1057,12 @@
 					"description": {
 						"trans": "装備のプリントはあなたのプリントレベルに基づいています. たくさんのアイテムをプリントし, スキルレベルを上げましょう",
 						"eng": "equipment printing is based on your printing rank, level up your printing rank by printing more items"
+					}
+				},
+				"tutorial": {
+					"printFirstRecipe": {
+						"trans": "レシピをクリックして、最初の装備を印刷してください。",
+						"eng": "Click on the recipe to print your first equipment"
 					}
 				}
 			},
@@ -1217,13 +1239,21 @@
 			}
 		},
 		"market": {
-			"lookAround": {
-				"trans": "ブラブラする",
-				"eng": "Look around"
+			"playerMarket": {
+				"trans": "プレイヤーマーケットに行く",
+				"eng": "Visit Player Market"
 			},
-			"myStall": {
-				"trans": "自分の店",
-				"eng": "My Stall"
+			"playerMarketDescription": {
+				"trans": "ここで他のプレイヤーからアイテムを購入できます。",
+				"eng": "You can purchase items from other players here"
+			},
+			"myMarketStall": {
+				"trans": "私のマーケットスタンド",
+				"eng": "My MarketStall"
+			},
+			"myMarketStallDescription": {
+				"trans": "ここでプレイヤーマーケットでアイテムを管理できます。",
+				"eng": "You can manage your items on the player market here"
 			},
 			"increaseSlot": {
 				"vars": [
@@ -1969,20 +1999,17 @@
 					"trans": "ダンジョンに入る前にトリノキーマートでアスピリンを購入しましょう. ダンジョンでは戦闘後HPが回復しません.",
 					"eng": "Seems like you dont have any Pain Away with you, purchase it from Trinoky Mart in the city first before entering dungeons, since you will not regen after battles in dungeon"
 				},
-				"cancel": {
+				"later": {
 					"trans": "後で",
 					"eng": "Later"
 				},
-				"confirm": {
-					"trans": "中心街に戻る",
-					"eng": "Back to city"
+				"purchase": {
+					"vars": [
+						"shop"
+					],
+					"trans": "${shop}を訪問する",
+					"eng": "visit ${shop}"
 				}
-			}
-		},
-		"rewardActionConfirmModal": {
-			"captcha": {
-				"trans": "タスクを開始するには, すべてのアイコンを赤い四角の中に移動させてください",
-				"eng": "Drag all processes icons into to the red box entirely to initiate the task"
 			}
 		},
 		"confirmModal": {
@@ -2847,6 +2874,22 @@
 			}
 		}
 	},
+	"mobile": {
+		"appBanner": {
+			"description": {
+				"trans": "アプリをダウンロードして、最適な体験を手に入れよう！",
+				"eng": "Download the app to get the optimal experience!"
+			},
+			"install": {
+				"trans": "インストール",
+				"eng": "Install"
+			}
+		},
+		"returnToAppMessage": {
+			"trans": "サーバー同期中...",
+			"eng": "Syncing with server.."
+		}
+	},
 	"battleUI": {
 		"quickSlotModal": {
 			"title": {
@@ -3552,6 +3595,36 @@
 				"trans": "${playerName}のアパート",
 				"eng": "${playerName}'s Apartment"
 			}
+		}
+	},
+	"tutorial": {
+		"playerMarket": {
+			"trans": "ここをクリックして他のプレイヤーの商品を閲覧・購入します。",
+			"eng": "Click here to view and purchase items from other players"
+		},
+		"myMarketStall": {
+			"trans": "プレイヤーマーケットでアイテムを管理するにはここをクリックしてください。",
+			"eng": "Click here to manage your items on the player market"
+		},
+		"localCombatButton": {
+			"trans": "ここをクリックして路上にいる敵をスキャンしましょう",
+			"eng": "Click here to scan for street enemies"
+		},
+		"localCombatTip": {
+			"trans": "敵を倒すことでEXP, Bitcoin, そして戦利品が受け取れます, \n                 やってみましょう！",
+			"eng": "you will receive exp, Bitcoin and loots when you defeat enemies,\r\n                give it a try now!"
+		},
+		"primaryAttack": {
+			"trans": "敵を攻撃するにはここをクリックしてください",
+			"eng": "Click here to attack the enemy"
+		},
+		"statusInv": {
+			"trans": "すべての戦利品を手に入れるには「すべて取得する」をクリックしてください",
+			"eng": "Click 'TAKE ALL' to get all the loots"
+		},
+		"dungeonQuest": {
+			"trans": "「クエストを受ける」をクリックしてクエストを受注し, いつでもクエストを完了または放棄することができます",
+			"eng": "Click 'ACCEPT QUEST' to accept the quest, you may complete or abandon the quest at any time"
 		}
 	},
 	"playerStatusDisplay": {
@@ -4334,28 +4407,6 @@
 			],
 			"trans": "${money} BTCを${playerName}に送りました",
 			"eng": "You sent ${money} BTC to ${playerName}"
-		}
-	},
-	"tutorial": {
-		"localCombatButton": {
-			"trans": "ここをクリックして路上にいる敵をスキャンしましょう",
-			"eng": "Click here to scan for street enemies"
-		},
-		"localCombatTip": {
-			"trans": "敵を倒すことでEXP, Bitcoin, そして戦利品が受け取れます, \n                 やってみましょう！",
-			"eng": "you will receive exp, Bitcoin and loots when you defeat enemies,\r\n                give it a try now!"
-		},
-		"primaryAttack": {
-			"trans": "敵を攻撃するにはここをクリックしてください",
-			"eng": "Click here to attack the enemy"
-		},
-		"statusInv": {
-			"trans": "すべての戦利品を手に入れるには「すべて取得する」をクリックしてください",
-			"eng": "Click 'TAKE ALL' to get all the loots"
-		},
-		"dungeonQuest": {
-			"trans": "「クエストを受ける」をクリックしてクエストを受注し, いつでもクエストを完了または放棄することができます",
-			"eng": "Click 'ACCEPT QUEST' to accept the quest, you may complete or abandon the quest at any time"
 		}
 	},
 	"enum": {
@@ -8018,6 +8069,10 @@
 			"npcName": {
 				"trans": "ゼロ",
 				"eng": "Zero"
+			},
+			"tut": {
+				"trans": "ここで余分な装備キャッシュを高値で売却できます。",
+				"eng": "You can sell excessive equipment caches here for higher price"
 			}
 		},
 		"lunar": {
@@ -9387,12 +9442,6 @@
 				"trans": "購入",
 				"eng": "Purchase"
 			}
-		}
-	},
-	"mobile": {
-		"returnToAppMessage": {
-			"trans": "サーバー同期中...",
-			"eng": "Syncing with server.."
 		}
 	},
 	"petDetailsPage": {
@@ -11288,7 +11337,7 @@
 			},
 			"cantPerformAction": {
 				"trans": "今はこのアクションを実行することはできません",
-				"eng": "You can't perform this action now"
+				"eng": "You can't perform this action during party buff"
 			},
 			"invalidTravelLink": {
 				"trans": "無効なリンク　状況が改善しない場合は再読み込みを試してください",

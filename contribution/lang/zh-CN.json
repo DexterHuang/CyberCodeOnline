@@ -104,6 +104,16 @@
 	},
 	"ui": {
 		"bulkCraft": {
+			"tutorial": {
+				"printSell": {
+					"trans": "点击这里选择您想要打印和出售的物品",
+					"eng": "Click here to select the items you want to print and sell"
+				},
+				"recycle": {
+					"trans": "点击这里选择您想要回收的物品",
+					"eng": "Click here to select the items you want to recycle"
+				}
+			},
 			"amountSelect": {
 				"title": {
 					"trans": "选择金额",
@@ -367,6 +377,12 @@
 						}
 					}
 				}
+			}
+		},
+		"rewardActionConfirmModal": {
+			"title": {
+				"trans": "将所有进程图标拖入框中以完全启动任务。",
+				"eng": "Drag all processes icons into to the box entirely to initiate the task"
 			}
 		},
 		"bank": {
@@ -977,7 +993,7 @@
 		"backToPreviusLoc": {
 			"longPressBackToCity": {
 				"trans": "长按返回香格里拉市中心",
-				"eng": "Long press to go back to city"
+				"eng": "You can long press the back button to go back to city to visit various shops and features"
 			}
 		},
 		"notificationCenter": {
@@ -1041,6 +1057,12 @@
 					"description": {
 						"trans": "装备打印基于您的打印等级，通过打印更多物品来升级您的打印等级",
 						"eng": "equipment printing is based on your printing rank, level up your printing rank by printing more items"
+					}
+				},
+				"tutorial": {
+					"printFirstRecipe": {
+						"trans": "点击配方打印你的第一件装备",
+						"eng": "Click on the recipe to print your first equipment"
 					}
 				}
 			},
@@ -1217,13 +1239,21 @@
 			}
 		},
 		"market": {
-			"lookAround": {
-				"trans": "随便逛逛",
-				"eng": "Look around"
+			"playerMarket": {
+				"trans": "访问玩家市场",
+				"eng": "Visit Player Market"
 			},
-			"myStall": {
-				"trans": "我的摊位",
-				"eng": "My Stall"
+			"playerMarketDescription": {
+				"trans": "您可以在这里从其他玩家购买物品。",
+				"eng": "You can purchase items from other players here"
+			},
+			"myMarketStall": {
+				"trans": "我的市场摊位",
+				"eng": "My MarketStall"
+			},
+			"myMarketStallDescription": {
+				"trans": "您可以在玩家市场管理您的物品。",
+				"eng": "You can manage your items on the player market here"
 			},
 			"increaseSlot": {
 				"vars": [
@@ -1969,20 +1999,17 @@
 					"trans": "您貌似没有任何的治疗物品，请先购买一些，您在地下城里不会在战斗后自动恢复生命值。",
 					"eng": "Seems like you dont have any Pain Away with you, purchase it from Trinoky Mart in the city first before entering dungeons, since you will not regen after battles in dungeon"
 				},
-				"cancel": {
-					"trans": "之后再前往",
+				"later": {
+					"trans": "稍后再见",
 					"eng": "Later"
 				},
-				"confirm": {
-					"trans": "返回城市",
-					"eng": "Back to city"
+				"purchase": {
+					"vars": [
+						"shop"
+					],
+					"trans": "访问 ${shop}",
+					"eng": "visit ${shop}"
 				}
-			}
-		},
-		"rewardActionConfirmModal": {
-			"captcha": {
-				"trans": "将所有进程图标拖到红色框中来启动任务",
-				"eng": "Drag all processes icons into to the red box entirely to initiate the task"
 			}
 		},
 		"confirmModal": {
@@ -2847,6 +2874,22 @@
 			}
 		}
 	},
+	"mobile": {
+		"appBanner": {
+			"description": {
+				"trans": "下载应用程序以获得最佳体验！",
+				"eng": "Download the app to get the optimal experience!"
+			},
+			"install": {
+				"trans": "安装",
+				"eng": "Install"
+			}
+		},
+		"returnToAppMessage": {
+			"trans": "与服务器同步..",
+			"eng": "Syncing with server.."
+		}
+	},
 	"battleUI": {
 		"quickSlotModal": {
 			"title": {
@@ -3552,6 +3595,36 @@
 				"trans": "${playerName}的公寓",
 				"eng": "${playerName}'s Apartment"
 			}
+		}
+	},
+	"tutorial": {
+		"playerMarket": {
+			"trans": "点击这里查看并购买其他玩家的物品",
+			"eng": "Click here to view and purchase items from other players"
+		},
+		"myMarketStall": {
+			"trans": "点击这里管理您在玩家市场上的物品",
+			"eng": "Click here to manage your items on the player market"
+		},
+		"localCombatButton": {
+			"trans": "点击此处寻找街头的敌人",
+			"eng": "Click here to scan for street enemies"
+		},
+		"localCombatTip": {
+			"trans": "您击败敌人后将会收到经验，比特币和战利品， \n                 试试吧！",
+			"eng": "you will receive exp, Bitcoin and loots when you defeat enemies,\r\n                give it a try now!"
+		},
+		"primaryAttack": {
+			"trans": "点击这里攻击敌人",
+			"eng": "Click here to attack the enemy"
+		},
+		"statusInv": {
+			"trans": "点击“拿走所有”以获取所有的战利品",
+			"eng": "Click 'TAKE ALL' to get all the loots"
+		},
+		"dungeonQuest": {
+			"trans": "点击“接受任务”来接受任务，您可以随时完成或放弃任务",
+			"eng": "Click 'ACCEPT QUEST' to accept the quest, you may complete or abandon the quest at any time"
 		}
 	},
 	"playerStatusDisplay": {
@@ -4334,28 +4407,6 @@
 			],
 			"trans": "您将${money} BTC发送到${playerName}",
 			"eng": "You sent ${money} BTC to ${playerName}"
-		}
-	},
-	"tutorial": {
-		"localCombatButton": {
-			"trans": "点击此处寻找街头的敌人",
-			"eng": "Click here to scan for street enemies"
-		},
-		"localCombatTip": {
-			"trans": "您击败敌人后将会收到经验，比特币和战利品， \n                 试试吧！",
-			"eng": "you will receive exp, Bitcoin and loots when you defeat enemies,\r\n                give it a try now!"
-		},
-		"primaryAttack": {
-			"trans": "点击这里攻击敌人",
-			"eng": "Click here to attack the enemy"
-		},
-		"statusInv": {
-			"trans": "点击“拿走所有”以获取所有的战利品",
-			"eng": "Click 'TAKE ALL' to get all the loots"
-		},
-		"dungeonQuest": {
-			"trans": "点击“接受任务”来接受任务，您可以随时完成或放弃任务",
-			"eng": "Click 'ACCEPT QUEST' to accept the quest, you may complete or abandon the quest at any time"
 		}
 	},
 	"enum": {
@@ -8017,6 +8068,10 @@
 			"npcName": {
 				"trans": "澪",
 				"eng": "Zero"
+			},
+			"tut": {
+				"trans": "您可以在这里以更高的价格出售多余的设备缓存。",
+				"eng": "You can sell excessive equipment caches here for higher price"
 			}
 		},
 		"lunar": {
@@ -9388,12 +9443,6 @@
 				"trans": "购买",
 				"eng": "Purchase"
 			}
-		}
-	},
-	"mobile": {
-		"returnToAppMessage": {
-			"trans": "与服务器同步..",
-			"eng": "Syncing with server.."
 		}
 	},
 	"petDetailsPage": {
@@ -11289,7 +11338,7 @@
 			},
 			"cantPerformAction": {
 				"trans": "你现在不能执行此操作",
-				"eng": "You can't perform this action now"
+				"eng": "You can't perform this action during party buff"
 			},
 			"invalidTravelLink": {
 				"trans": "无效的旅行链接，如果持续存在，请重新加载",

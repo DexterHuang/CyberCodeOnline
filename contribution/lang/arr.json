@@ -104,6 +104,16 @@
 	},
 	"ui": {
 		"bulkCraft": {
+			"tutorial": {
+				"printSell": {
+					"trans": "Click here to select the items you want to print and sell",
+					"eng": "Click here to select the items you want to print and sell"
+				},
+				"recycle": {
+					"trans": "Click here to select the items you want to recycle",
+					"eng": "Click here to select the items you want to recycle"
+				}
+			},
 			"amountSelect": {
 				"title": {
 					"trans": "Select Amount",
@@ -367,6 +377,12 @@
 						}
 					}
 				}
+			}
+		},
+		"rewardActionConfirmModal": {
+			"title": {
+				"trans": "Drag all processes icons into to the box entirely to initiate the task",
+				"eng": "Drag all processes icons into to the box entirely to initiate the task"
 			}
 		},
 		"bank": {
@@ -977,7 +993,7 @@
 		"backToPreviusLoc": {
 			"longPressBackToCity": {
 				"trans": "Long press t' go back t' city",
-				"eng": "Long press to go back to city"
+				"eng": "You can long press the back button to go back to city to visit various shops and features"
 			}
 		},
 		"notificationCenter": {
@@ -1041,6 +1057,12 @@
 					"description": {
 						"trans": "equipment printin' be based on yer printin' rank, level up yer printin' rank by printin' more items",
 						"eng": "equipment printing is based on your printing rank, level up your printing rank by printing more items"
+					}
+				},
+				"tutorial": {
+					"printFirstRecipe": {
+						"trans": "Click on the recipe to print your first equipment",
+						"eng": "Click on the recipe to print your first equipment"
 					}
 				}
 			},
@@ -1217,13 +1239,21 @@
 			}
 		},
 		"market": {
-			"lookAround": {
-				"trans": "Look around",
-				"eng": "Look around"
+			"playerMarket": {
+				"trans": "Visit Player Market",
+				"eng": "Visit Player Market"
 			},
-			"myStall": {
-				"trans": "Me Stall",
-				"eng": "My Stall"
+			"playerMarketDescription": {
+				"trans": "You can purchase items from other players here",
+				"eng": "You can purchase items from other players here"
+			},
+			"myMarketStall": {
+				"trans": "My MarketStall",
+				"eng": "My MarketStall"
+			},
+			"myMarketStallDescription": {
+				"trans": "You can manage your items on the player market here",
+				"eng": "You can manage your items on the player market here"
 			},
 			"increaseSlot": {
 				"vars": [
@@ -1969,20 +1999,17 @@
 					"trans": "Seems like ye dont ha'e any Pain Away wit' ye, purchase it from Trinoky Mart in th' city first before enterin' dungeons, since ye will not regen aft battles in dungeon",
 					"eng": "Seems like you dont have any Pain Away with you, purchase it from Trinoky Mart in the city first before entering dungeons, since you will not regen after battles in dungeon"
 				},
-				"cancel": {
+				"later": {
 					"trans": "Later",
 					"eng": "Later"
 				},
-				"confirm": {
-					"trans": "Back t' city",
-					"eng": "Back to city"
+				"purchase": {
+					"vars": [
+						"shop"
+					],
+					"trans": "visit ${shop}",
+					"eng": "visit ${shop}"
 				}
-			}
-		},
-		"rewardActionConfirmModal": {
-			"captcha": {
-				"trans": "Drag all processes icons into to the red box entirely to initiate the task",
-				"eng": "Drag all processes icons into to the red box entirely to initiate the task"
 			}
 		},
 		"confirmModal": {
@@ -2847,6 +2874,22 @@
 			}
 		}
 	},
+	"mobile": {
+		"appBanner": {
+			"description": {
+				"trans": "Download the app to get the optimal experience!",
+				"eng": "Download the app to get the optimal experience!"
+			},
+			"install": {
+				"trans": "Install",
+				"eng": "Install"
+			}
+		},
+		"returnToAppMessage": {
+			"trans": "Syncing with server..",
+			"eng": "Syncing with server.."
+		}
+	},
 	"battleUI": {
 		"quickSlotModal": {
 			"title": {
@@ -3552,6 +3595,36 @@
 				"trans": "${playerName}'s Apartment",
 				"eng": "${playerName}'s Apartment"
 			}
+		}
+	},
+	"tutorial": {
+		"playerMarket": {
+			"trans": "Click here to view and purchase items from other players",
+			"eng": "Click here to view and purchase items from other players"
+		},
+		"myMarketStall": {
+			"trans": "Click here to manage your items on the player market",
+			"eng": "Click here to manage your items on the player market"
+		},
+		"localCombatButton": {
+			"trans": "Click here t' scan fer river enemies",
+			"eng": "Click here to scan for street enemies"
+		},
+		"localCombatTip": {
+			"trans": "ye will recei'e exp, Doubloon an' booty  when ye defeat enemies,\n                give it a try now!",
+			"eng": "you will receive exp, Bitcoin and loots when you defeat enemies,\r\n                give it a try now!"
+		},
+		"primaryAttack": {
+			"trans": "Click here t' attack th' enemy",
+			"eng": "Click here to attack the enemy"
+		},
+		"statusInv": {
+			"trans": "Click 'TAKE ALL' t' get all th' booty",
+			"eng": "Click 'TAKE ALL' to get all the loots"
+		},
+		"dungeonQuest": {
+			"trans": "Click 'ACCEPT QUEST' t' accept th' quest, ye may complete or abandon th' quest at any time",
+			"eng": "Click 'ACCEPT QUEST' to accept the quest, you may complete or abandon the quest at any time"
 		}
 	},
 	"playerStatusDisplay": {
@@ -4334,28 +4407,6 @@
 			],
 			"trans": "You sent ${money} BTC to ${playerName}",
 			"eng": "You sent ${money} BTC to ${playerName}"
-		}
-	},
-	"tutorial": {
-		"localCombatButton": {
-			"trans": "Click here t' scan fer river enemies",
-			"eng": "Click here to scan for street enemies"
-		},
-		"localCombatTip": {
-			"trans": "ye will recei'e exp, Doubloon an' booty  when ye defeat enemies,\n                give it a try now!",
-			"eng": "you will receive exp, Bitcoin and loots when you defeat enemies,\r\n                give it a try now!"
-		},
-		"primaryAttack": {
-			"trans": "Click here t' attack th' enemy",
-			"eng": "Click here to attack the enemy"
-		},
-		"statusInv": {
-			"trans": "Click 'TAKE ALL' t' get all th' booty",
-			"eng": "Click 'TAKE ALL' to get all the loots"
-		},
-		"dungeonQuest": {
-			"trans": "Click 'ACCEPT QUEST' t' accept th' quest, ye may complete or abandon th' quest at any time",
-			"eng": "Click 'ACCEPT QUEST' to accept the quest, you may complete or abandon the quest at any time"
 		}
 	},
 	"enum": {
@@ -7804,6 +7855,10 @@
 			"npcName": {
 				"trans": "Zero",
 				"eng": "Zero"
+			},
+			"tut": {
+				"trans": "You can sell excessive equipment caches here for higher price",
+				"eng": "You can sell excessive equipment caches here for higher price"
 			}
 		},
 		"lunar": {
@@ -9175,12 +9230,6 @@
 				"trans": "Purchase",
 				"eng": "Purchase"
 			}
-		}
-	},
-	"mobile": {
-		"returnToAppMessage": {
-			"trans": "Syncing with server..",
-			"eng": "Syncing with server.."
 		}
 	},
 	"petDetailsPage": {
@@ -11076,7 +11125,7 @@
 			},
 			"cantPerformAction": {
 				"trans": "You can't perform this action now",
-				"eng": "You can't perform this action now"
+				"eng": "You can't perform this action during party buff"
 			},
 			"invalidTravelLink": {
 				"trans": "Invalid Travel Link, if persist please reload",

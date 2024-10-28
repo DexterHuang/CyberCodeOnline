@@ -104,6 +104,16 @@
 	},
 	"ui": {
 		"bulkCraft": {
+			"tutorial": {
+				"printSell": {
+					"trans": "Cliquez ici pour sélectionner les articles que vous souhaitez imprimer et vendre",
+					"eng": "Click here to select the items you want to print and sell"
+				},
+				"recycle": {
+					"trans": "Cliquez ici pour sélectionner les objets que vous souhaitez recycler",
+					"eng": "Click here to select the items you want to recycle"
+				}
+			},
 			"amountSelect": {
 				"title": {
 					"trans": "Sélectionner le montant",
@@ -367,6 +377,12 @@
 						}
 					}
 				}
+			}
+		},
+		"rewardActionConfirmModal": {
+			"title": {
+				"trans": "Faites glisser tous les icônes de processus dans la boîte pour initier la tâche",
+				"eng": "Drag all processes icons into to the box entirely to initiate the task"
 			}
 		},
 		"bank": {
@@ -977,7 +993,7 @@
 		"backToPreviusLoc": {
 			"longPressBackToCity": {
 				"trans": "Maintiens appuyé pour revenir au Centre-Ville",
-				"eng": "Long press to go back to city"
+				"eng": "You can long press the back button to go back to city to visit various shops and features"
 			}
 		},
 		"notificationCenter": {
@@ -1041,6 +1057,12 @@
 					"description": {
 						"trans": "Le niveau des équipements imprimés est basé sur ton niveau d'impression, augmente ton rang d'impression en imprimant des objets",
 						"eng": "equipment printing is based on your printing rank, level up your printing rank by printing more items"
+					}
+				},
+				"tutorial": {
+					"printFirstRecipe": {
+						"trans": "Cliquez sur la recette pour imprimer votre premier équipement",
+						"eng": "Click on the recipe to print your first equipment"
 					}
 				}
 			},
@@ -1217,13 +1239,21 @@
 			}
 		},
 		"market": {
-			"lookAround": {
-				"trans": "Jeter un œil",
-				"eng": "Look around"
+			"playerMarket": {
+				"trans": "Visiter le Marché des Joueurs",
+				"eng": "Visit Player Market"
 			},
-			"myStall": {
-				"trans": "Mon stand",
-				"eng": "My Stall"
+			"playerMarketDescription": {
+				"trans": "Vous pouvez acheter des objets auprès d'autres joueurs ici",
+				"eng": "You can purchase items from other players here"
+			},
+			"myMarketStall": {
+				"trans": "Mon Stand de Marché",
+				"eng": "My MarketStall"
+			},
+			"myMarketStallDescription": {
+				"trans": "Vous pouvez gérer vos objets sur le marché des joueurs ici",
+				"eng": "You can manage your items on the player market here"
 			},
 			"increaseSlot": {
 				"vars": [
@@ -1969,20 +1999,17 @@
 					"trans": "Il semble que tu n'aies pas d'anti-douleur sur toi ! Achètes-en au marché de Trinoky en ville avant d'entrer dans les donjons. Dans un donjon, tu ne régénéreras pas ta santé après les combats.",
 					"eng": "Seems like you dont have any Pain Away with you, purchase it from Trinoky Mart in the city first before entering dungeons, since you will not regen after battles in dungeon"
 				},
-				"cancel": {
+				"later": {
 					"trans": "Plus tard",
 					"eng": "Later"
 				},
-				"confirm": {
-					"trans": "Retour en ville",
-					"eng": "Back to city"
+				"purchase": {
+					"vars": [
+						"shop"
+					],
+					"trans": "visitez ${shop}",
+					"eng": "visit ${shop}"
 				}
-			}
-		},
-		"rewardActionConfirmModal": {
-			"captcha": {
-				"trans": "Fais glisser tous les icônes de processus vers la boîte rouge entièrement pour initier la tâche",
-				"eng": "Drag all processes icons into to the red box entirely to initiate the task"
 			}
 		},
 		"confirmModal": {
@@ -2847,6 +2874,22 @@
 			}
 		}
 	},
+	"mobile": {
+		"appBanner": {
+			"description": {
+				"trans": "Téléchargez l'application pour profiter de l'expérience optimale !",
+				"eng": "Download the app to get the optimal experience!"
+			},
+			"install": {
+				"trans": "Installer",
+				"eng": "Install"
+			}
+		},
+		"returnToAppMessage": {
+			"trans": "Synchronisation avec serveur ..",
+			"eng": "Syncing with server.."
+		}
+	},
 	"battleUI": {
 		"quickSlotModal": {
 			"title": {
@@ -3552,6 +3595,36 @@
 				"trans": "Appartement de ${playerName}",
 				"eng": "${playerName}'s Apartment"
 			}
+		}
+	},
+	"tutorial": {
+		"playerMarket": {
+			"trans": "Cliquez ici pour voir et acheter des objets d'autres joueurs",
+			"eng": "Click here to view and purchase items from other players"
+		},
+		"myMarketStall": {
+			"trans": "Cliquez ici pour gérer vos objets sur le marché des joueurs",
+			"eng": "Click here to manage your items on the player market"
+		},
+		"localCombatButton": {
+			"trans": "Clique ici pour trouver des ennemis dans la rue",
+			"eng": "Click here to scan for street enemies"
+		},
+		"localCombatTip": {
+			"trans": "Tu recevras de l'EXP, des Bitcoins et du butin lorsque tu vaincras des ennemis, \n                 Essaye maintenant !",
+			"eng": "you will receive exp, Bitcoin and loots when you defeat enemies,\r\n                give it a try now!"
+		},
+		"primaryAttack": {
+			"trans": "Clique ici pour attaquer l'ennemi",
+			"eng": "Click here to attack the enemy"
+		},
+		"statusInv": {
+			"trans": "Clique sur 'Tout prendre' pour obtenir tous les butins",
+			"eng": "Click 'TAKE ALL' to get all the loots"
+		},
+		"dungeonQuest": {
+			"trans": "Clique sur 'Accepter la quête' pour accepter la quête, tu peux compléter ou abandonner la quête à tout moment",
+			"eng": "Click 'ACCEPT QUEST' to accept the quest, you may complete or abandon the quest at any time"
 		}
 	},
 	"playerStatusDisplay": {
@@ -4334,28 +4407,6 @@
 			],
 			"trans": "Vous avez envoyé ${money} btc à ${playerName}",
 			"eng": "You sent ${money} BTC to ${playerName}"
-		}
-	},
-	"tutorial": {
-		"localCombatButton": {
-			"trans": "Clique ici pour trouver des ennemis dans la rue",
-			"eng": "Click here to scan for street enemies"
-		},
-		"localCombatTip": {
-			"trans": "Tu recevras de l'EXP, des Bitcoins et du butin lorsque tu vaincras des ennemis, \n                 Essaye maintenant !",
-			"eng": "you will receive exp, Bitcoin and loots when you defeat enemies,\r\n                give it a try now!"
-		},
-		"primaryAttack": {
-			"trans": "Clique ici pour attaquer l'ennemi",
-			"eng": "Click here to attack the enemy"
-		},
-		"statusInv": {
-			"trans": "Clique sur 'Tout prendre' pour obtenir tous les butins",
-			"eng": "Click 'TAKE ALL' to get all the loots"
-		},
-		"dungeonQuest": {
-			"trans": "Clique sur 'Accepter la quête' pour accepter la quête, tu peux compléter ou abandonner la quête à tout moment",
-			"eng": "Click 'ACCEPT QUEST' to accept the quest, you may complete or abandon the quest at any time"
 		}
 	},
 	"enum": {
@@ -7804,6 +7855,10 @@
 			"npcName": {
 				"trans": "Zéro",
 				"eng": "Zero"
+			},
+			"tut": {
+				"trans": "Vous pouvez vendre ici des caches d'équipement excessives à un prix plus élevé",
+				"eng": "You can sell excessive equipment caches here for higher price"
 			}
 		},
 		"lunar": {
@@ -9175,12 +9230,6 @@
 				"trans": "Achat",
 				"eng": "Purchase"
 			}
-		}
-	},
-	"mobile": {
-		"returnToAppMessage": {
-			"trans": "Synchronisation avec serveur ..",
-			"eng": "Syncing with server.."
 		}
 	},
 	"petDetailsPage": {
@@ -11076,7 +11125,7 @@
 			},
 			"cantPerformAction": {
 				"trans": "Vous ne pouvez pas effectuer cette action maintenant",
-				"eng": "You can't perform this action now"
+				"eng": "You can't perform this action during party buff"
 			},
 			"invalidTravelLink": {
 				"trans": "Lien de voyage non valide, si cela persiste, veuillez recharger",

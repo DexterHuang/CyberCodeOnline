@@ -104,6 +104,16 @@
 	},
 	"ui": {
 		"bulkCraft": {
+			"tutorial": {
+				"printSell": {
+					"trans": "Klik hier om de items te selecteren die je wilt afdrukken en verkopen",
+					"eng": "Click here to select the items you want to print and sell"
+				},
+				"recycle": {
+					"trans": "Klik hier om de items te selecteren die je wilt recyclen",
+					"eng": "Click here to select the items you want to recycle"
+				}
+			},
 			"amountSelect": {
 				"title": {
 					"trans": "Selecteer bedrag",
@@ -367,6 +377,12 @@
 						}
 					}
 				}
+			}
+		},
+		"rewardActionConfirmModal": {
+			"title": {
+				"trans": "Sleep alle procesicoontjes volledig in de doos om de taak te starten",
+				"eng": "Drag all processes icons into to the box entirely to initiate the task"
 			}
 		},
 		"bank": {
@@ -977,7 +993,7 @@
 		"backToPreviusLoc": {
 			"longPressBackToCity": {
 				"trans": "Lang indrukken om terug naar de stad te gaan",
-				"eng": "Long press to go back to city"
+				"eng": "You can long press the back button to go back to city to visit various shops and features"
 			}
 		},
 		"notificationCenter": {
@@ -1041,6 +1057,12 @@
 					"description": {
 						"trans": "Uitrusting Afdrukken is gebaseerd op uw afdrukrang, level uw afdrukrang op door meer items af te drukken",
 						"eng": "equipment printing is based on your printing rank, level up your printing rank by printing more items"
+					}
+				},
+				"tutorial": {
+					"printFirstRecipe": {
+						"trans": "Klik op het recept om je eerste uitrusting af te drukken",
+						"eng": "Click on the recipe to print your first equipment"
 					}
 				}
 			},
@@ -1217,13 +1239,21 @@
 			}
 		},
 		"market": {
-			"lookAround": {
-				"trans": "Kijk rond",
-				"eng": "Look around"
+			"playerMarket": {
+				"trans": "Bezoek Spelersmarkt",
+				"eng": "Visit Player Market"
 			},
-			"myStall": {
-				"trans": "Mijn Winkel",
-				"eng": "My Stall"
+			"playerMarketDescription": {
+				"trans": "Je kunt hier items van andere spelers kopen",
+				"eng": "You can purchase items from other players here"
+			},
+			"myMarketStall": {
+				"trans": "Mijn Marktstand",
+				"eng": "My MarketStall"
+			},
+			"myMarketStallDescription": {
+				"trans": "Je kunt hier je items op de spelersmarkt beheren",
+				"eng": "You can manage your items on the player market here"
 			},
 			"increaseSlot": {
 				"vars": [
@@ -1969,20 +1999,17 @@
 					"trans": "Het lijkt erop dat je geen pijn met je hebt, koop het eerst van Trinoky Mart in de stad voordat je Dungeons binnengaat, omdat je niet na veldslagen in Dungeon zult regenen",
 					"eng": "Seems like you dont have any Pain Away with you, purchase it from Trinoky Mart in the city first before entering dungeons, since you will not regen after battles in dungeon"
 				},
-				"cancel": {
+				"later": {
 					"trans": "Later",
 					"eng": "Later"
 				},
-				"confirm": {
-					"trans": "Terug naar stad",
-					"eng": "Back to city"
+				"purchase": {
+					"vars": [
+						"shop"
+					],
+					"trans": "bezoek ${shop}",
+					"eng": "visit ${shop}"
 				}
-			}
-		},
-		"rewardActionConfirmModal": {
-			"captcha": {
-				"trans": "Sleep alle pictogrammen van de processen volledig naar het rode vakje om de taak te starten",
-				"eng": "Drag all processes icons into to the red box entirely to initiate the task"
 			}
 		},
 		"confirmModal": {
@@ -2847,6 +2874,22 @@
 			}
 		}
 	},
+	"mobile": {
+		"appBanner": {
+			"description": {
+				"trans": "Download de app voor de beste ervaring!",
+				"eng": "Download the app to get the optimal experience!"
+			},
+			"install": {
+				"trans": "Installeren",
+				"eng": "Install"
+			}
+		},
+		"returnToAppMessage": {
+			"trans": "Synchroniseren met server ..",
+			"eng": "Syncing with server.."
+		}
+	},
 	"battleUI": {
 		"quickSlotModal": {
 			"title": {
@@ -3552,6 +3595,36 @@
 				"trans": "Appartement van ${playerName}",
 				"eng": "${playerName}'s Apartment"
 			}
+		}
+	},
+	"tutorial": {
+		"playerMarket": {
+			"trans": "Klik hier om items van andere spelers te bekijken en te kopen",
+			"eng": "Click here to view and purchase items from other players"
+		},
+		"myMarketStall": {
+			"trans": "Klik hier om je items op de spelersmarkt te beheren",
+			"eng": "Click here to manage your items on the player market"
+		},
+		"localCombatButton": {
+			"trans": "Klik hier om te scannen op straatvijanden",
+			"eng": "Click here to scan for street enemies"
+		},
+		"localCombatTip": {
+			"trans": "U ontvangt EXP, Bitcoin en Loots wanneer u vijanden verslaat, \n                 Geef het nu eens!",
+			"eng": "you will receive exp, Bitcoin and loots when you defeat enemies,\r\n                give it a try now!"
+		},
+		"primaryAttack": {
+			"trans": "Klik hier om de vijand aan te vallen",
+			"eng": "Click here to attack the enemy"
+		},
+		"statusInv": {
+			"trans": "Klik op 'Alles halen' om alle plunderingen te krijgen",
+			"eng": "Click 'TAKE ALL' to get all the loots"
+		},
+		"dungeonQuest": {
+			"trans": "Klik op 'Accept Quest' om de zoektocht te accepteren, je kunt op elk moment de zoektocht invullen of verlaten",
+			"eng": "Click 'ACCEPT QUEST' to accept the quest, you may complete or abandon the quest at any time"
 		}
 	},
 	"playerStatusDisplay": {
@@ -4334,28 +4407,6 @@
 			],
 			"trans": "U heeft ${money} BTC gestuurd naar ${playerName}",
 			"eng": "You sent ${money} BTC to ${playerName}"
-		}
-	},
-	"tutorial": {
-		"localCombatButton": {
-			"trans": "Klik hier om te scannen op straatvijanden",
-			"eng": "Click here to scan for street enemies"
-		},
-		"localCombatTip": {
-			"trans": "U ontvangt EXP, Bitcoin en Loots wanneer u vijanden verslaat, \n                 Geef het nu eens!",
-			"eng": "you will receive exp, Bitcoin and loots when you defeat enemies,\r\n                give it a try now!"
-		},
-		"primaryAttack": {
-			"trans": "Klik hier om de vijand aan te vallen",
-			"eng": "Click here to attack the enemy"
-		},
-		"statusInv": {
-			"trans": "Klik op 'Alles halen' om alle plunderingen te krijgen",
-			"eng": "Click 'TAKE ALL' to get all the loots"
-		},
-		"dungeonQuest": {
-			"trans": "Klik op 'Accept Quest' om de zoektocht te accepteren, je kunt op elk moment de zoektocht invullen of verlaten",
-			"eng": "Click 'ACCEPT QUEST' to accept the quest, you may complete or abandon the quest at any time"
 		}
 	},
 	"enum": {
@@ -7804,6 +7855,10 @@
 			"npcName": {
 				"trans": "Nul",
 				"eng": "Zero"
+			},
+			"tut": {
+				"trans": "Je kunt hier overtollige uitrustingsvoorraden verkopen voor een hogere prijs",
+				"eng": "You can sell excessive equipment caches here for higher price"
 			}
 		},
 		"lunar": {
@@ -9175,12 +9230,6 @@
 				"trans": "Aankoop",
 				"eng": "Purchase"
 			}
-		}
-	},
-	"mobile": {
-		"returnToAppMessage": {
-			"trans": "Synchroniseren met server ..",
-			"eng": "Syncing with server.."
 		}
 	},
 	"petDetailsPage": {
@@ -11076,7 +11125,7 @@
 			},
 			"cantPerformAction": {
 				"trans": "Je kunt deze actie nu niet uitvoeren",
-				"eng": "You can't perform this action now"
+				"eng": "You can't perform this action during party buff"
 			},
 			"invalidTravelLink": {
 				"trans": "Ongeldige reislink, als het blijft bestaan, kunt u opnieuw laden",

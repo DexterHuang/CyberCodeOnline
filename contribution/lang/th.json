@@ -104,6 +104,16 @@
 	},
 	"ui": {
 		"bulkCraft": {
+			"tutorial": {
+				"printSell": {
+					"trans": "คลิกที่นี่เพื่อเลือกสินค้าที่คุณต้องการพิมพ์และขาย",
+					"eng": "Click here to select the items you want to print and sell"
+				},
+				"recycle": {
+					"trans": "คลิกที่นี่เพื่อเลือกไอเทมที่คุณต้องการรีไซเคิล",
+					"eng": "Click here to select the items you want to recycle"
+				}
+			},
 			"amountSelect": {
 				"title": {
 					"trans": "เลือกจำนวนเงิน",
@@ -367,6 +377,12 @@
 						}
 					}
 				}
+			}
+		},
+		"rewardActionConfirmModal": {
+			"title": {
+				"trans": "ลากไอคอนกระบวนการทั้งหมดลงในกล่องให้เต็มเพื่อเริ่มต้นงาน",
+				"eng": "Drag all processes icons into to the box entirely to initiate the task"
 			}
 		},
 		"bank": {
@@ -977,7 +993,7 @@
 		"backToPreviusLoc": {
 			"longPressBackToCity": {
 				"trans": "กดค้างเพื่อกลับไปที่เมือง",
-				"eng": "Long press to go back to city"
+				"eng": "You can long press the back button to go back to city to visit various shops and features"
 			}
 		},
 		"notificationCenter": {
@@ -1041,6 +1057,12 @@
 					"description": {
 						"trans": "การปริ้นอุปกรณ์ขึ้นอยู่กับอันดับการปริ้นของคุณเพิ่มอันดับการปริ้นของคุณโดยการปริ้นรายการเพิ่มเติม",
 						"eng": "equipment printing is based on your printing rank, level up your printing rank by printing more items"
+					}
+				},
+				"tutorial": {
+					"printFirstRecipe": {
+						"trans": "คลิกที่สูตรเพื่อพิมพ์อุปกรณ์ชิ้นแรกของคุณ",
+						"eng": "Click on the recipe to print your first equipment"
 					}
 				}
 			},
@@ -1217,13 +1239,21 @@
 			}
 		},
 		"market": {
-			"lookAround": {
-				"trans": "มองดูรอบๆ",
-				"eng": "Look around"
+			"playerMarket": {
+				"trans": "เยี่ยมชมตลาดผู้เล่น",
+				"eng": "Visit Player Market"
 			},
-			"myStall": {
-				"trans": "แผงลอยของฉัน",
-				"eng": "My Stall"
+			"playerMarketDescription": {
+				"trans": "คุณสามารถซื้อไอเทมจากผู้เล่นคนอื่นที่นี่",
+				"eng": "You can purchase items from other players here"
+			},
+			"myMarketStall": {
+				"trans": "My MarketStall",
+				"eng": "My MarketStall"
+			},
+			"myMarketStallDescription": {
+				"trans": "คุณสามารถจัดการไอเทมของคุณในตลาดผู้เล่นที่นี่",
+				"eng": "You can manage your items on the player market here"
 			},
 			"increaseSlot": {
 				"vars": [
@@ -1969,20 +1999,17 @@
 					"trans": "ดูเหมือนว่าคุณจะไม่เจ็บปวดกับคุณซื้อจาก Trinoky Mart ในเมืองก่อนที่จะเข้าสู่ดันเจี้ยนเนื่องจากคุณจะไม่ฟื้นคืนชีพหลังจากการต่อสู้ในคุกใต้ดิน",
 					"eng": "Seems like you dont have any Pain Away with you, purchase it from Trinoky Mart in the city first before entering dungeons, since you will not regen after battles in dungeon"
 				},
-				"cancel": {
-					"trans": "ภายหลัง",
+				"later": {
+					"trans": "ทีหลัง",
 					"eng": "Later"
 				},
-				"confirm": {
-					"trans": "กลับไปที่เมือง",
-					"eng": "Back to city"
+				"purchase": {
+					"vars": [
+						"shop"
+					],
+					"trans": "เยี่ยมชม ${shop}",
+					"eng": "visit ${shop}"
 				}
-			}
-		},
-		"rewardActionConfirmModal": {
-			"captcha": {
-				"trans": "ลากไอคอนกระบวนการทั้งหมดไปยังกล่องสีแดงทั้งหมดเพื่อเริ่มงาน",
-				"eng": "Drag all processes icons into to the red box entirely to initiate the task"
 			}
 		},
 		"confirmModal": {
@@ -2847,6 +2874,22 @@
 			}
 		}
 	},
+	"mobile": {
+		"appBanner": {
+			"description": {
+				"trans": "ดาวน์โหลดแอปเพื่อรับประสบการณ์ที่ดีที่สุด!",
+				"eng": "Download the app to get the optimal experience!"
+			},
+			"install": {
+				"trans": "ติดตั้ง",
+				"eng": "Install"
+			}
+		},
+		"returnToAppMessage": {
+			"trans": "ซิงค์กับเซิร์ฟเวอร์ ..",
+			"eng": "Syncing with server.."
+		}
+	},
 	"battleUI": {
 		"quickSlotModal": {
 			"title": {
@@ -3552,6 +3595,36 @@
 				"trans": "ที่อยู่ของ${playerName}",
 				"eng": "${playerName}'s Apartment"
 			}
+		}
+	},
+	"tutorial": {
+		"playerMarket": {
+			"trans": "คลิกที่นี่เพื่อดูและซื้อสินค้าจากผู้เล่นคนอื่น",
+			"eng": "Click here to view and purchase items from other players"
+		},
+		"myMarketStall": {
+			"trans": "คลิกที่นี่เพื่อจัดการไอเทมของคุณในตลาดผู้เล่น",
+			"eng": "Click here to manage your items on the player market"
+		},
+		"localCombatButton": {
+			"trans": "คลิกที่นี่เพื่อสแกนหาศัตรูบนถนน",
+			"eng": "Click here to scan for street enemies"
+		},
+		"localCombatTip": {
+			"trans": "คุณจะได้รับ Exp, Bitcoin และ Loots เมื่อคุณเอาชนะศัตรู \n                 ลองตอนนี้!",
+			"eng": "you will receive exp, Bitcoin and loots when you defeat enemies,\r\n                give it a try now!"
+		},
+		"primaryAttack": {
+			"trans": "คลิกที่นี่เพื่อโจมตีศัตรู",
+			"eng": "Click here to attack the enemy"
+		},
+		"statusInv": {
+			"trans": "คลิก 'เก็บทุกอย่าง' เพื่อรับเล่มทั้งหมด",
+			"eng": "Click 'TAKE ALL' to get all the loots"
+		},
+		"dungeonQuest": {
+			"trans": "คลิก 'ยอมรับภารกิจ' เพื่อยอมรับภารกิจคุณสามารถเสร็จสิ้นหรือละทิ้งภารกิจได้ตลอดเวลา",
+			"eng": "Click 'ACCEPT QUEST' to accept the quest, you may complete or abandon the quest at any time"
 		}
 	},
 	"playerStatusDisplay": {
@@ -4334,28 +4407,6 @@
 			],
 			"trans": "คุณส่ง ${money} btc ถึง ${playerName}",
 			"eng": "You sent ${money} BTC to ${playerName}"
-		}
-	},
-	"tutorial": {
-		"localCombatButton": {
-			"trans": "คลิกที่นี่เพื่อสแกนหาศัตรูบนถนน",
-			"eng": "Click here to scan for street enemies"
-		},
-		"localCombatTip": {
-			"trans": "คุณจะได้รับ Exp, Bitcoin และ Loots เมื่อคุณเอาชนะศัตรู \n                 ลองตอนนี้!",
-			"eng": "you will receive exp, Bitcoin and loots when you defeat enemies,\r\n                give it a try now!"
-		},
-		"primaryAttack": {
-			"trans": "คลิกที่นี่เพื่อโจมตีศัตรู",
-			"eng": "Click here to attack the enemy"
-		},
-		"statusInv": {
-			"trans": "คลิก 'เก็บทุกอย่าง' เพื่อรับเล่มทั้งหมด",
-			"eng": "Click 'TAKE ALL' to get all the loots"
-		},
-		"dungeonQuest": {
-			"trans": "คลิก 'ยอมรับภารกิจ' เพื่อยอมรับภารกิจคุณสามารถเสร็จสิ้นหรือละทิ้งภารกิจได้ตลอดเวลา",
-			"eng": "Click 'ACCEPT QUEST' to accept the quest, you may complete or abandon the quest at any time"
 		}
 	},
 	"enum": {
@@ -7804,6 +7855,10 @@
 			"npcName": {
 				"trans": "ศูนย์",
 				"eng": "Zero"
+			},
+			"tut": {
+				"trans": "คุณสามารถขายคลังอุปกรณ์ส่วนเกินที่นี่ในราคาที่สูงกว่า",
+				"eng": "You can sell excessive equipment caches here for higher price"
 			}
 		},
 		"lunar": {
@@ -9175,12 +9230,6 @@
 				"trans": "ซื้อ",
 				"eng": "Purchase"
 			}
-		}
-	},
-	"mobile": {
-		"returnToAppMessage": {
-			"trans": "ซิงค์กับเซิร์ฟเวอร์ ..",
-			"eng": "Syncing with server.."
 		}
 	},
 	"petDetailsPage": {
@@ -11076,7 +11125,7 @@
 			},
 			"cantPerformAction": {
 				"trans": "คุณไม่สามารถดำเนินการนี้ได้ในขณะนี้",
-				"eng": "You can't perform this action now"
+				"eng": "You can't perform this action during party buff"
 			},
 			"invalidTravelLink": {
 				"trans": "ลิงค์การเดินทางที่ไม่ถูกต้องหากคงอยู่โปรดโหลดซ้ำ",

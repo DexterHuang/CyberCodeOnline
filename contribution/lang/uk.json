@@ -104,6 +104,16 @@
 	},
 	"ui": {
 		"bulkCraft": {
+			"tutorial": {
+				"printSell": {
+					"trans": "Натисніть тут, щоб вибрати предмети, які ви хочете надрукувати та продати",
+					"eng": "Click here to select the items you want to print and sell"
+				},
+				"recycle": {
+					"trans": "Натисніть тут, щоб вибрати предмети, які ви хочете переробити",
+					"eng": "Click here to select the items you want to recycle"
+				}
+			},
 			"amountSelect": {
 				"title": {
 					"trans": "Виберіть суму",
@@ -367,6 +377,12 @@
 						}
 					}
 				}
+			}
+		},
+		"rewardActionConfirmModal": {
+			"title": {
+				"trans": "Перетягніть усі іконки процесів у коробку повністю, щоб розпочати завдання",
+				"eng": "Drag all processes icons into to the box entirely to initiate the task"
 			}
 		},
 		"bank": {
@@ -977,7 +993,7 @@
 		"backToPreviusLoc": {
 			"longPressBackToCity": {
 				"trans": "Утримуйте, щоб повернутися до міста",
-				"eng": "Long press to go back to city"
+				"eng": "You can long press the back button to go back to city to visit various shops and features"
 			}
 		},
 		"notificationCenter": {
@@ -1041,6 +1057,12 @@
 					"description": {
 						"trans": "Рівень виготовленого обладнання залежить від рівня друку, підвищуйте рівень друку, друкуючи більше речей",
 						"eng": "equipment printing is based on your printing rank, level up your printing rank by printing more items"
+					}
+				},
+				"tutorial": {
+					"printFirstRecipe": {
+						"trans": "Натисніть на рецепт, щоб надрукувати своє перше обладнання",
+						"eng": "Click on the recipe to print your first equipment"
 					}
 				}
 			},
@@ -1217,13 +1239,21 @@
 			}
 		},
 		"market": {
-			"lookAround": {
-				"trans": "Роззирнутись",
-				"eng": "Look around"
+			"playerMarket": {
+				"trans": "Відвідати ринок гравців",
+				"eng": "Visit Player Market"
 			},
-			"myStall": {
-				"trans": "Мій кіоск",
-				"eng": "My Stall"
+			"playerMarketDescription": {
+				"trans": "Тут ви можете купувати предмети у інших гравців",
+				"eng": "You can purchase items from other players here"
+			},
+			"myMarketStall": {
+				"trans": "Моя Ярмарка",
+				"eng": "My MarketStall"
+			},
+			"myMarketStallDescription": {
+				"trans": "Ви можете керувати своїми предметами на ринку гравців тут",
+				"eng": "You can manage your items on the player market here"
 			},
 			"increaseSlot": {
 				"vars": [
@@ -1969,20 +1999,17 @@
 					"trans": "Схоже, у вас немає з собою Знеболюючого. Ви можете його придбати в Тріноки-марті перш ніж спускатись до підземель, адже ваше здоров'я не відновлюватиметься після кожного бою",
 					"eng": "Seems like you dont have any Pain Away with you, purchase it from Trinoky Mart in the city first before entering dungeons, since you will not regen after battles in dungeon"
 				},
-				"cancel": {
+				"later": {
 					"trans": "Пізніше",
 					"eng": "Later"
 				},
-				"confirm": {
-					"trans": "Повернутися до міста",
-					"eng": "Back to city"
+				"purchase": {
+					"vars": [
+						"shop"
+					],
+					"trans": "відвідайте ${shop}",
+					"eng": "visit ${shop}"
 				}
-			}
-		},
-		"rewardActionConfirmModal": {
-			"captcha": {
-				"trans": "Повністю перетягніть значки всіх процесів у червоне поле, щоб розпочати завдання",
-				"eng": "Drag all processes icons into to the red box entirely to initiate the task"
 			}
 		},
 		"confirmModal": {
@@ -2847,6 +2874,22 @@
 			}
 		}
 	},
+	"mobile": {
+		"appBanner": {
+			"description": {
+				"trans": "Завантажте додаток, щоб отримати найкращий досвід!",
+				"eng": "Download the app to get the optimal experience!"
+			},
+			"install": {
+				"trans": "Встановити",
+				"eng": "Install"
+			}
+		},
+		"returnToAppMessage": {
+			"trans": "Синхронізація з сервером...",
+			"eng": "Syncing with server.."
+		}
+	},
 	"battleUI": {
 		"quickSlotModal": {
 			"title": {
@@ -3552,6 +3595,36 @@
 				"trans": "Квартира ${playerName}",
 				"eng": "${playerName}'s Apartment"
 			}
+		}
+	},
+	"tutorial": {
+		"playerMarket": {
+			"trans": "Натисніть тут, щоб переглянути та придбати предмети у інших гравців",
+			"eng": "Click here to view and purchase items from other players"
+		},
+		"myMarketStall": {
+			"trans": "Натисніть тут, щоб керувати своїми предметами на ринку гравців",
+			"eng": "Click here to manage your items on the player market"
+		},
+		"localCombatButton": {
+			"trans": "Натисніть тут, щоб знайти ворогів на вулицях поблизу",
+			"eng": "Click here to scan for street enemies"
+		},
+		"localCombatTip": {
+			"trans": "Ви отримаєте досвід, біткойни та обладнання, при перемозі над ворогами,\n                Спробуйте!",
+			"eng": "you will receive exp, Bitcoin and loots when you defeat enemies,\r\n                give it a try now!"
+		},
+		"primaryAttack": {
+			"trans": "Натисніть тут, щоб атакувати ворога",
+			"eng": "Click here to attack the enemy"
+		},
+		"statusInv": {
+			"trans": "Натисніть 'ВЗЯТИ ВСЕ', щоб отримати всі речі",
+			"eng": "Click 'TAKE ALL' to get all the loots"
+		},
+		"dungeonQuest": {
+			"trans": "Натисніть \"ВЗЯТИ ЗАВДАННЯ\", щоб прийняти завдання. Ви можете завершити або відмовитися від завдання в будь-який час",
+			"eng": "Click 'ACCEPT QUEST' to accept the quest, you may complete or abandon the quest at any time"
 		}
 	},
 	"playerStatusDisplay": {
@@ -4334,28 +4407,6 @@
 			],
 			"trans": "Ви надіслали ${money} BTC для ${playerName}",
 			"eng": "You sent ${money} BTC to ${playerName}"
-		}
-	},
-	"tutorial": {
-		"localCombatButton": {
-			"trans": "Натисніть тут, щоб знайти ворогів на вулицях поблизу",
-			"eng": "Click here to scan for street enemies"
-		},
-		"localCombatTip": {
-			"trans": "Ви отримаєте досвід, біткойни та обладнання, при перемозі над ворогами,\n                Спробуйте!",
-			"eng": "you will receive exp, Bitcoin and loots when you defeat enemies,\r\n                give it a try now!"
-		},
-		"primaryAttack": {
-			"trans": "Натисніть тут, щоб атакувати ворога",
-			"eng": "Click here to attack the enemy"
-		},
-		"statusInv": {
-			"trans": "Натисніть 'ВЗЯТИ ВСЕ', щоб отримати всі речі",
-			"eng": "Click 'TAKE ALL' to get all the loots"
-		},
-		"dungeonQuest": {
-			"trans": "Натисніть \"ВЗЯТИ ЗАВДАННЯ\", щоб прийняти завдання. Ви можете завершити або відмовитися від завдання в будь-який час",
-			"eng": "Click 'ACCEPT QUEST' to accept the quest, you may complete or abandon the quest at any time"
 		}
 	},
 	"enum": {
@@ -8005,6 +8056,10 @@
 			"npcName": {
 				"trans": "Нуль",
 				"eng": "Zero"
+			},
+			"tut": {
+				"trans": "Тут ви можете продати надлишкові запаси обладнання за вищою ціною",
+				"eng": "You can sell excessive equipment caches here for higher price"
 			}
 		},
 		"lunar": {
@@ -9375,12 +9430,6 @@
 				"trans": "Закупівля",
 				"eng": "Purchase"
 			}
-		}
-	},
-	"mobile": {
-		"returnToAppMessage": {
-			"trans": "Синхронізація з сервером...",
-			"eng": "Syncing with server.."
 		}
 	},
 	"petDetailsPage": {
@@ -11276,7 +11325,7 @@
 			},
 			"cantPerformAction": {
 				"trans": "Ви не можете виконати цю дію зараз",
-				"eng": "You can't perform this action now"
+				"eng": "You can't perform this action during party buff"
 			},
 			"invalidTravelLink": {
 				"trans": "Недійсне посилання на подорож. Якщо воно не зникне, перезавантажте його",

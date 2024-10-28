@@ -104,6 +104,16 @@
 	},
 	"ui": {
 		"bulkCraft": {
+			"tutorial": {
+				"printSell": {
+					"trans": "Нажмите здесь, чтобы выбрать товары, которые вы хотите напечатать и продать",
+					"eng": "Click here to select the items you want to print and sell"
+				},
+				"recycle": {
+					"trans": "Нажмите здесь, чтобы выбрать предметы, которые хотите переработать",
+					"eng": "Click here to select the items you want to recycle"
+				}
+			},
 			"amountSelect": {
 				"title": {
 					"trans": "Выберите сумму",
@@ -367,6 +377,12 @@
 						}
 					}
 				}
+			}
+		},
+		"rewardActionConfirmModal": {
+			"title": {
+				"trans": "Перетащите все иконки процессов в коробку полностью, чтобы начать задачу",
+				"eng": "Drag all processes icons into to the box entirely to initiate the task"
 			}
 		},
 		"bank": {
@@ -977,7 +993,7 @@
 		"backToPreviusLoc": {
 			"longPressBackToCity": {
 				"trans": "Зажмите, чтобы вернуться в город",
-				"eng": "Long press to go back to city"
+				"eng": "You can long press the back button to go back to city to visit various shops and features"
 			}
 		},
 		"notificationCenter": {
@@ -1041,6 +1057,12 @@
 					"description": {
 						"trans": "Печать экипировки основана на вашем уровне печати, повышайте свой уровень печати, печатая больше предметов",
 						"eng": "equipment printing is based on your printing rank, level up your printing rank by printing more items"
+					}
+				},
+				"tutorial": {
+					"printFirstRecipe": {
+						"trans": "Нажмите на рецепт, чтобы распечатать ваше первое оборудование",
+						"eng": "Click on the recipe to print your first equipment"
 					}
 				}
 			},
@@ -1217,13 +1239,21 @@
 			}
 		},
 		"market": {
-			"lookAround": {
-				"trans": "Осмотреться",
-				"eng": "Look around"
+			"playerMarket": {
+				"trans": "Посетить рынок игроков",
+				"eng": "Visit Player Market"
 			},
-			"myStall": {
-				"trans": "Ваш прилавок",
-				"eng": "My Stall"
+			"playerMarketDescription": {
+				"trans": "Вы можете купить предметы у других игроков здесь",
+				"eng": "You can purchase items from other players here"
+			},
+			"myMarketStall": {
+				"trans": "Моя Торговая Палатка",
+				"eng": "My MarketStall"
+			},
+			"myMarketStallDescription": {
+				"trans": "Вы можете управлять своими предметами на рынке игроков здесь",
+				"eng": "You can manage your items on the player market here"
 			},
 			"increaseSlot": {
 				"vars": [
@@ -1969,20 +1999,17 @@
 					"trans": "Похоже, у тебя нет лекарств с собой, купи их в магазине Триноки в городе, прежде чем войти в подземелье, так как там ты не регенерируешь здоровье после боя",
 					"eng": "Seems like you dont have any Pain Away with you, purchase it from Trinoky Mart in the city first before entering dungeons, since you will not regen after battles in dungeon"
 				},
-				"cancel": {
-					"trans": "Потом",
+				"later": {
+					"trans": "Позже",
 					"eng": "Later"
 				},
-				"confirm": {
-					"trans": "Вернуться в город",
-					"eng": "Back to city"
+				"purchase": {
+					"vars": [
+						"shop"
+					],
+					"trans": "посетите ${shop}",
+					"eng": "visit ${shop}"
 				}
-			}
-		},
-		"rewardActionConfirmModal": {
-			"captcha": {
-				"trans": "Перетащи все значки процессов в красную коробку полностью, чтобы инициировать задачу",
-				"eng": "Drag all processes icons into to the red box entirely to initiate the task"
 			}
 		},
 		"confirmModal": {
@@ -2847,6 +2874,22 @@
 			}
 		}
 	},
+	"mobile": {
+		"appBanner": {
+			"description": {
+				"trans": "Скачайте приложение, чтобы получить оптимальный опыт!",
+				"eng": "Download the app to get the optimal experience!"
+			},
+			"install": {
+				"trans": "Установить",
+				"eng": "Install"
+			}
+		},
+		"returnToAppMessage": {
+			"trans": "Синхронизация с сервером ..",
+			"eng": "Syncing with server.."
+		}
+	},
 	"battleUI": {
 		"quickSlotModal": {
 			"title": {
@@ -3552,6 +3595,36 @@
 				"trans": "Квартира ${playerName}",
 				"eng": "${playerName}'s Apartment"
 			}
+		}
+	},
+	"tutorial": {
+		"playerMarket": {
+			"trans": "Нажмите здесь, чтобы просмотреть и купить предметы у других игроков",
+			"eng": "Click here to view and purchase items from other players"
+		},
+		"myMarketStall": {
+			"trans": "Нажмите здесь, чтобы управлять своими предметами на рынке игроков",
+			"eng": "Click here to manage your items on the player market"
+		},
+		"localCombatButton": {
+			"trans": "Нажми здесь, чтобы найти уличных врагов",
+			"eng": "Click here to scan for street enemies"
+		},
+		"localCombatTip": {
+			"trans": "Ты получаешь опыт, Биткоины и добычу, когда побеждаешь врагов,\r\n                 попробуй прямо сейчас!",
+			"eng": "you will receive exp, Bitcoin and loots when you defeat enemies,\r\n                give it a try now!"
+		},
+		"primaryAttack": {
+			"trans": "Нажми здесь, чтобы атаковать врага",
+			"eng": "Click here to attack the enemy"
+		},
+		"statusInv": {
+			"trans": "Нажми \"Забрать все\", чтобы получить всю добычу",
+			"eng": "Click 'TAKE ALL' to get all the loots"
+		},
+		"dungeonQuest": {
+			"trans": "Нажми \"Принять задание\", чтобы взять задание. Ты можешь выполнить квест или отказаться от него в любое время",
+			"eng": "Click 'ACCEPT QUEST' to accept the quest, you may complete or abandon the quest at any time"
 		}
 	},
 	"playerStatusDisplay": {
@@ -4334,28 +4407,6 @@
 			],
 			"trans": "Вы отправили ${money} btc в ${playerName}",
 			"eng": "You sent ${money} BTC to ${playerName}"
-		}
-	},
-	"tutorial": {
-		"localCombatButton": {
-			"trans": "Нажми здесь, чтобы найти уличных врагов",
-			"eng": "Click here to scan for street enemies"
-		},
-		"localCombatTip": {
-			"trans": "Ты получаешь опыт, Биткоины и добычу, когда побеждаешь врагов,\r\n                 попробуй прямо сейчас!",
-			"eng": "you will receive exp, Bitcoin and loots when you defeat enemies,\r\n                give it a try now!"
-		},
-		"primaryAttack": {
-			"trans": "Нажми здесь, чтобы атаковать врага",
-			"eng": "Click here to attack the enemy"
-		},
-		"statusInv": {
-			"trans": "Нажми \"Забрать все\", чтобы получить всю добычу",
-			"eng": "Click 'TAKE ALL' to get all the loots"
-		},
-		"dungeonQuest": {
-			"trans": "Нажми \"Принять задание\", чтобы взять задание. Ты можешь выполнить квест или отказаться от него в любое время",
-			"eng": "Click 'ACCEPT QUEST' to accept the quest, you may complete or abandon the quest at any time"
 		}
 	},
 	"enum": {
@@ -7804,6 +7855,10 @@
 			"npcName": {
 				"trans": "Ноль",
 				"eng": "Zero"
+			},
+			"tut": {
+				"trans": "Вы можете продать избыточные запасы оборудования здесь по более высокой цене",
+				"eng": "You can sell excessive equipment caches here for higher price"
 			}
 		},
 		"lunar": {
@@ -9175,12 +9230,6 @@
 				"trans": "Покупка",
 				"eng": "Purchase"
 			}
-		}
-	},
-	"mobile": {
-		"returnToAppMessage": {
-			"trans": "Синхронизация с сервером ..",
-			"eng": "Syncing with server.."
 		}
 	},
 	"petDetailsPage": {
@@ -11076,7 +11125,7 @@
 			},
 			"cantPerformAction": {
 				"trans": "Вы не можете выполнить это действие сейчас",
-				"eng": "You can't perform this action now"
+				"eng": "You can't perform this action during party buff"
 			},
 			"invalidTravelLink": {
 				"trans": "Неверная ссылка, если повторится перезагрузите",

@@ -104,6 +104,16 @@
 	},
 	"ui": {
 		"bulkCraft": {
+			"tutorial": {
+				"printSell": {
+					"trans": "Buraya tıklayarak basmak ve satmak istediğin eşyaları seç",
+					"eng": "Click here to select the items you want to print and sell"
+				},
+				"recycle": {
+					"trans": "Geri dönüştürmek istediğin eşyaları seçmek için buraya tıkla",
+					"eng": "Click here to select the items you want to recycle"
+				}
+			},
 			"amountSelect": {
 				"title": {
 					"trans": "Miktarı seçin",
@@ -367,6 +377,12 @@
 						}
 					}
 				}
+			}
+		},
+		"rewardActionConfirmModal": {
+			"title": {
+				"trans": "Tüm işlem simgelerini kutunun içine tamamen sürükleyin ve görevi başlatın",
+				"eng": "Drag all processes icons into to the box entirely to initiate the task"
 			}
 		},
 		"bank": {
@@ -977,7 +993,7 @@
 		"backToPreviusLoc": {
 			"longPressBackToCity": {
 				"trans": "Şehre geri dönmek için basılı tutun",
-				"eng": "Long press to go back to city"
+				"eng": "You can long press the back button to go back to city to visit various shops and features"
 			}
 		},
 		"notificationCenter": {
@@ -1041,6 +1057,12 @@
 					"description": {
 						"trans": "Ekipman üretimi üretim seviyenize bağlıdır, üretim seviyenizi eşya üreterek arttırabilirsiniz",
 						"eng": "equipment printing is based on your printing rank, level up your printing rank by printing more items"
+					}
+				},
+				"tutorial": {
+					"printFirstRecipe": {
+						"trans": "Ekipmanını basmak için tarife tıkla",
+						"eng": "Click on the recipe to print your first equipment"
 					}
 				}
 			},
@@ -1217,13 +1239,21 @@
 			}
 		},
 		"market": {
-			"lookAround": {
-				"trans": "Tezgahları İncele",
-				"eng": "Look around"
+			"playerMarket": {
+				"trans": "Oyuncu Pazarını Ziyaret Et",
+				"eng": "Visit Player Market"
 			},
-			"myStall": {
-				"trans": "Benim Tezgahım",
-				"eng": "My Stall"
+			"playerMarketDescription": {
+				"trans": "Buradan diğer oyunculardan eşyalar satın alabilirsiniz",
+				"eng": "You can purchase items from other players here"
+			},
+			"myMarketStall": {
+				"trans": "Pazar Tezgahım",
+				"eng": "My MarketStall"
+			},
+			"myMarketStallDescription": {
+				"trans": "Burada oyuncu pazarında eşyalarınızı yönetebilirsiniz",
+				"eng": "You can manage your items on the player market here"
 			},
 			"increaseSlot": {
 				"vars": [
@@ -1969,20 +1999,17 @@
 					"trans": "Görünüşe göre üzerinde hiç Ağrı Kesici yok, zindanlara girmeden önce ilk olarak şehirdeki Trinoky Market'ten bunları satın alabilirsin. Unutma, zindanlarda savaşlardan sonra iyileşmeyeceksin.",
 					"eng": "Seems like you dont have any Pain Away with you, purchase it from Trinoky Mart in the city first before entering dungeons, since you will not regen after battles in dungeon"
 				},
-				"cancel": {
-					"trans": "Daha sonra",
+				"later": {
+					"trans": "Sonra",
 					"eng": "Later"
 				},
-				"confirm": {
-					"trans": "Şehre geri dön",
-					"eng": "Back to city"
+				"purchase": {
+					"vars": [
+						"shop"
+					],
+					"trans": "${shop} ziyaret et",
+					"eng": "visit ${shop}"
 				}
-			}
-		},
-		"rewardActionConfirmModal": {
-			"captcha": {
-				"trans": "Görevi başlatmak için tüm işlem simgelerini tamamen kırmızı kutuya sürükleyin",
-				"eng": "Drag all processes icons into to the red box entirely to initiate the task"
 			}
 		},
 		"confirmModal": {
@@ -2847,6 +2874,22 @@
 			}
 		}
 	},
+	"mobile": {
+		"appBanner": {
+			"description": {
+				"trans": "Uygulamayı indirerek en iyi deneyimi yaşayın!",
+				"eng": "Download the app to get the optimal experience!"
+			},
+			"install": {
+				"trans": "Kurulum",
+				"eng": "Install"
+			}
+		},
+		"returnToAppMessage": {
+			"trans": "Sunucu ile senkronizasyon ..",
+			"eng": "Syncing with server.."
+		}
+	},
 	"battleUI": {
 		"quickSlotModal": {
 			"title": {
@@ -3552,6 +3595,36 @@
 				"trans": "${playerName}'in Dairesi",
 				"eng": "${playerName}'s Apartment"
 			}
+		}
+	},
+	"tutorial": {
+		"playerMarket": {
+			"trans": "Diğer oyunculardan eşyaları görüntülemek ve satın almak için buraya tıklayın",
+			"eng": "Click here to view and purchase items from other players"
+		},
+		"myMarketStall": {
+			"trans": "Öğelerinizi oyuncu pazarında yönetmek için buraya tıklayın",
+			"eng": "Click here to manage your items on the player market"
+		},
+		"localCombatButton": {
+			"trans": "Sokak düşmanlarını taramak için buraya tıklayın",
+			"eng": "Click here to scan for street enemies"
+		},
+		"localCombatTip": {
+			"trans": "Düşmanları yendiğinizde tecrübe, Bitcoin ve ganimet alacaksınız, \n                 Şimdi bir deneyin!",
+			"eng": "you will receive exp, Bitcoin and loots when you defeat enemies,\r\n                give it a try now!"
+		},
+		"primaryAttack": {
+			"trans": "Düşmana saldırmak için buraya tıklayın",
+			"eng": "Click here to attack the enemy"
+		},
+		"statusInv": {
+			"trans": "Tüm ganimeti almak için 'Hepsini Al'a tıklayın",
+			"eng": "Click 'TAKE ALL' to get all the loots"
+		},
+		"dungeonQuest": {
+			"trans": "Görevi kabul etmek için 'GÖREVİ KABUL ET'e tıklayın, istediğiniz zaman görevi tamamlayabilir veya bırakabilirsiniz",
+			"eng": "Click 'ACCEPT QUEST' to accept the quest, you may complete or abandon the quest at any time"
 		}
 	},
 	"playerStatusDisplay": {
@@ -4334,28 +4407,6 @@
 			],
 			"trans": "${money} btc ${playerName} 'e gönderdiniz",
 			"eng": "You sent ${money} BTC to ${playerName}"
-		}
-	},
-	"tutorial": {
-		"localCombatButton": {
-			"trans": "Sokak düşmanlarını taramak için buraya tıklayın",
-			"eng": "Click here to scan for street enemies"
-		},
-		"localCombatTip": {
-			"trans": "Düşmanları yendiğinizde tecrübe, Bitcoin ve ganimet alacaksınız, \n                 Şimdi bir deneyin!",
-			"eng": "you will receive exp, Bitcoin and loots when you defeat enemies,\r\n                give it a try now!"
-		},
-		"primaryAttack": {
-			"trans": "Düşmana saldırmak için buraya tıklayın",
-			"eng": "Click here to attack the enemy"
-		},
-		"statusInv": {
-			"trans": "Tüm ganimeti almak için 'Hepsini Al'a tıklayın",
-			"eng": "Click 'TAKE ALL' to get all the loots"
-		},
-		"dungeonQuest": {
-			"trans": "Görevi kabul etmek için 'GÖREVİ KABUL ET'e tıklayın, istediğiniz zaman görevi tamamlayabilir veya bırakabilirsiniz",
-			"eng": "Click 'ACCEPT QUEST' to accept the quest, you may complete or abandon the quest at any time"
 		}
 	},
 	"enum": {
@@ -7804,6 +7855,10 @@
 			"npcName": {
 				"trans": "Sıfır",
 				"eng": "Zero"
+			},
+			"tut": {
+				"trans": "Burada fazla ekipman depolarını daha yüksek fiyattan satabilirsiniz",
+				"eng": "You can sell excessive equipment caches here for higher price"
 			}
 		},
 		"lunar": {
@@ -9175,12 +9230,6 @@
 				"trans": "Satın almak",
 				"eng": "Purchase"
 			}
-		}
-	},
-	"mobile": {
-		"returnToAppMessage": {
-			"trans": "Sunucu ile senkronizasyon ..",
-			"eng": "Syncing with server.."
 		}
 	},
 	"petDetailsPage": {
@@ -11076,7 +11125,7 @@
 			},
 			"cantPerformAction": {
 				"trans": "Bu eylemi şimdi gerçekleştiremezsin",
-				"eng": "You can't perform this action now"
+				"eng": "You can't perform this action during party buff"
 			},
 			"invalidTravelLink": {
 				"trans": "Geçersiz seyahat bağlantısı, devam ederse lütfen yeniden yükleyin",

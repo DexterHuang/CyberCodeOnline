@@ -104,6 +104,16 @@
 	},
 	"ui": {
 		"bulkCraft": {
+			"tutorial": {
+				"printSell": {
+					"trans": "Kliknite sem, aby ste vybrali položky, ktoré chcete vytlačiť a predať",
+					"eng": "Click here to select the items you want to print and sell"
+				},
+				"recycle": {
+					"trans": "Kliknite sem, aby ste vybrali položky, ktoré chcete recyklovať",
+					"eng": "Click here to select the items you want to recycle"
+				}
+			},
 			"amountSelect": {
 				"title": {
 					"trans": "Vyberte sumu",
@@ -367,6 +377,12 @@
 						}
 					}
 				}
+			}
+		},
+		"rewardActionConfirmModal": {
+			"title": {
+				"trans": "Presuňte všetky ikony procesov do políčka, aby ste spustili úlohu",
+				"eng": "Drag all processes icons into to the box entirely to initiate the task"
 			}
 		},
 		"bank": {
@@ -977,7 +993,7 @@
 		"backToPreviusLoc": {
 			"longPressBackToCity": {
 				"trans": "Podržte a vráťte sa do mesta",
-				"eng": "Long press to go back to city"
+				"eng": "You can long press the back button to go back to city to visit various shops and features"
 			}
 		},
 		"notificationCenter": {
@@ -1041,6 +1057,12 @@
 					"description": {
 						"trans": "Tlač zariadení je založená na vašej tlačovej úrovni, zvýšite svoju tlačovu úroveň, tlačou viac položiek",
 						"eng": "equipment printing is based on your printing rank, level up your printing rank by printing more items"
+					}
+				},
+				"tutorial": {
+					"printFirstRecipe": {
+						"trans": "Kliknite na recept, aby ste vytlačili svoje prvé vybavenie",
+						"eng": "Click on the recipe to print your first equipment"
 					}
 				}
 			},
@@ -1217,13 +1239,21 @@
 			}
 		},
 		"market": {
-			"lookAround": {
-				"trans": "Pozri sa okolo",
-				"eng": "Look around"
+			"playerMarket": {
+				"trans": "Navštívte trh hráčov",
+				"eng": "Visit Player Market"
 			},
-			"myStall": {
-				"trans": "Môj stánok",
-				"eng": "My Stall"
+			"playerMarketDescription": {
+				"trans": "Tu si môžeš kúpiť predmety od iných hráčov",
+				"eng": "You can purchase items from other players here"
+			},
+			"myMarketStall": {
+				"trans": "Môj trh s tovarom",
+				"eng": "My MarketStall"
+			},
+			"myMarketStallDescription": {
+				"trans": "Tu môžete spravovať svoje predmety na trhu hráčov",
+				"eng": "You can manage your items on the player market here"
 			},
 			"increaseSlot": {
 				"vars": [
@@ -1969,20 +1999,17 @@
 					"trans": "Zdá sa, že so sebou nemáte žiadny Pain. Pred vstupom do dungeonu si ho kúpte v Trinoky Marte v meste, pretože po bitkách v dungeone sa nevyliečite.",
 					"eng": "Seems like you dont have any Pain Away with you, purchase it from Trinoky Mart in the city first before entering dungeons, since you will not regen after battles in dungeon"
 				},
-				"cancel": {
+				"later": {
 					"trans": "Neskôr",
 					"eng": "Later"
 				},
-				"confirm": {
-					"trans": "Späť do mesta",
-					"eng": "Back to city"
+				"purchase": {
+					"vars": [
+						"shop"
+					],
+					"trans": "navštív ${shop}",
+					"eng": "visit ${shop}"
 				}
-			}
-		},
-		"rewardActionConfirmModal": {
-			"captcha": {
-				"trans": "Potiahnite všetky procesy ikon do červeného boxu úplne, aby ste začali úlohu",
-				"eng": "Drag all processes icons into to the red box entirely to initiate the task"
 			}
 		},
 		"confirmModal": {
@@ -2847,6 +2874,22 @@
 			}
 		}
 	},
+	"mobile": {
+		"appBanner": {
+			"description": {
+				"trans": "Stiahnite si aplikáciu pre optimálny zážitok!",
+				"eng": "Download the app to get the optimal experience!"
+			},
+			"install": {
+				"trans": "Nainštalovať",
+				"eng": "Install"
+			}
+		},
+		"returnToAppMessage": {
+			"trans": "Synchronizácia so serverom ..",
+			"eng": "Syncing with server.."
+		}
+	},
 	"battleUI": {
 		"quickSlotModal": {
 			"title": {
@@ -3552,6 +3595,36 @@
 				"trans": "Byt ${playerName}",
 				"eng": "${playerName}'s Apartment"
 			}
+		}
+	},
+	"tutorial": {
+		"playerMarket": {
+			"trans": "Kliknite sem, aby ste si prezreli a zakúpili predmety od iných hráčov",
+			"eng": "Click here to view and purchase items from other players"
+		},
+		"myMarketStall": {
+			"trans": "Kliknite sem, aby ste spravovali svoje položky na trhu hráčov",
+			"eng": "Click here to manage your items on the player market"
+		},
+		"localCombatButton": {
+			"trans": "Kliknite sem a skenujte uličných nepriateľov",
+			"eng": "Click here to scan for street enemies"
+		},
+		"localCombatTip": {
+			"trans": "You will receive exp, Bitcoin and loot when you defeat enemies,\n                give it a try now!",
+			"eng": "you will receive exp, Bitcoin and loots when you defeat enemies,\r\n                give it a try now!"
+		},
+		"primaryAttack": {
+			"trans": "Kliknite sem a zaútočte na nepriateľa",
+			"eng": "Click here to attack the enemy"
+		},
+		"statusInv": {
+			"trans": "Click 'TAKE ALL' to get all the loot",
+			"eng": "Click 'TAKE ALL' to get all the loots"
+		},
+		"dungeonQuest": {
+			"trans": "Kliknutím na položku „Prijať úlohu“ akceptujete úlohu, môžete kedykoľvek dokončiť alebo opustiť úlohu",
+			"eng": "Click 'ACCEPT QUEST' to accept the quest, you may complete or abandon the quest at any time"
 		}
 	},
 	"playerStatusDisplay": {
@@ -4334,28 +4407,6 @@
 			],
 			"trans": "Poslali ste ${money} btc na ${playerName}",
 			"eng": "You sent ${money} BTC to ${playerName}"
-		}
-	},
-	"tutorial": {
-		"localCombatButton": {
-			"trans": "Kliknite sem a skenujte uličných nepriateľov",
-			"eng": "Click here to scan for street enemies"
-		},
-		"localCombatTip": {
-			"trans": "You will receive exp, Bitcoin and loot when you defeat enemies,\n                give it a try now!",
-			"eng": "you will receive exp, Bitcoin and loots when you defeat enemies,\r\n                give it a try now!"
-		},
-		"primaryAttack": {
-			"trans": "Kliknite sem a zaútočte na nepriateľa",
-			"eng": "Click here to attack the enemy"
-		},
-		"statusInv": {
-			"trans": "Click 'TAKE ALL' to get all the loot",
-			"eng": "Click 'TAKE ALL' to get all the loots"
-		},
-		"dungeonQuest": {
-			"trans": "Kliknutím na položku „Prijať úlohu“ akceptujete úlohu, môžete kedykoľvek dokončiť alebo opustiť úlohu",
-			"eng": "Click 'ACCEPT QUEST' to accept the quest, you may complete or abandon the quest at any time"
 		}
 	},
 	"enum": {
@@ -8017,6 +8068,10 @@
 			"npcName": {
 				"trans": "Nula",
 				"eng": "Zero"
+			},
+			"tut": {
+				"trans": "Tu môžete predať nadbytočné vybavenie za vyššiu cenu",
+				"eng": "You can sell excessive equipment caches here for higher price"
 			}
 		},
 		"lunar": {
@@ -9388,12 +9443,6 @@
 				"trans": "Nákup",
 				"eng": "Purchase"
 			}
-		}
-	},
-	"mobile": {
-		"returnToAppMessage": {
-			"trans": "Synchronizácia so serverom ..",
-			"eng": "Syncing with server.."
 		}
 	},
 	"petDetailsPage": {
@@ -11289,7 +11338,7 @@
 			},
 			"cantPerformAction": {
 				"trans": "Túto akciu teraz nemôžete vykonať",
-				"eng": "You can't perform this action now"
+				"eng": "You can't perform this action during party buff"
 			},
 			"invalidTravelLink": {
 				"trans": "Neplatný cestovný odkaz, ak pretrvávajte, znova načítajte",

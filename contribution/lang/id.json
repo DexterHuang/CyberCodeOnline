@@ -104,6 +104,16 @@
 	},
 	"ui": {
 		"bulkCraft": {
+			"tutorial": {
+				"printSell": {
+					"trans": "Klik di sini untuk memilih item yang ingin kamu cetak dan jual",
+					"eng": "Click here to select the items you want to print and sell"
+				},
+				"recycle": {
+					"trans": "Klik di sini untuk memilih item yang ingin kamu daur ulang",
+					"eng": "Click here to select the items you want to recycle"
+				}
+			},
 			"amountSelect": {
 				"title": {
 					"trans": "Pilih Jumlah",
@@ -367,6 +377,12 @@
 						}
 					}
 				}
+			}
+		},
+		"rewardActionConfirmModal": {
+			"title": {
+				"trans": "Seret semua ikon proses ke dalam kotak sepenuhnya untuk memulai tugas",
+				"eng": "Drag all processes icons into to the box entirely to initiate the task"
 			}
 		},
 		"bank": {
@@ -977,7 +993,7 @@
 		"backToPreviusLoc": {
 			"longPressBackToCity": {
 				"trans": "Tekan lama untuk kembali ke kota",
-				"eng": "Long press to go back to city"
+				"eng": "You can long press the back button to go back to city to visit various shops and features"
 			}
 		},
 		"notificationCenter": {
@@ -1041,6 +1057,12 @@
 					"description": {
 						"trans": "Pencetakan peralatan didasarkan pada peringkat pencetakanmu, tingkatkan peringkat pencetakanmu dengan mencetak lebih banyak item",
 						"eng": "equipment printing is based on your printing rank, level up your printing rank by printing more items"
+					}
+				},
+				"tutorial": {
+					"printFirstRecipe": {
+						"trans": "Klik pada resep untuk mencetak peralatan pertamamu",
+						"eng": "Click on the recipe to print your first equipment"
 					}
 				}
 			},
@@ -1217,13 +1239,21 @@
 			}
 		},
 		"market": {
-			"lookAround": {
-				"trans": "Lihat Sekeliling",
-				"eng": "Look around"
+			"playerMarket": {
+				"trans": "Kunjungi Pasar Pemain",
+				"eng": "Visit Player Market"
 			},
-			"myStall": {
-				"trans": "Lapak Saya",
-				"eng": "My Stall"
+			"playerMarketDescription": {
+				"trans": "Anda dapat membeli barang dari pemain lain di sini",
+				"eng": "You can purchase items from other players here"
+			},
+			"myMarketStall": {
+				"trans": "My MarketStall",
+				"eng": "My MarketStall"
+			},
+			"myMarketStallDescription": {
+				"trans": "Anda dapat mengelola barang-barang Anda di pasar pemain sini",
+				"eng": "You can manage your items on the player market here"
 			},
 			"increaseSlot": {
 				"vars": [
@@ -1969,20 +1999,17 @@
 					"trans": "Sepertinya Kamu tidak memiliki penghilang rasa sakit, beli dari Toko Trinoky di kota terlebih dahulu sebelum memasuki dungeon, mengingat kamu tidak akan regen setelah pertempuran di dungeon",
 					"eng": "Seems like you dont have any Pain Away with you, purchase it from Trinoky Mart in the city first before entering dungeons, since you will not regen after battles in dungeon"
 				},
-				"cancel": {
+				"later": {
 					"trans": "Nanti",
 					"eng": "Later"
 				},
-				"confirm": {
-					"trans": "Kembali ke kota",
-					"eng": "Back to city"
+				"purchase": {
+					"vars": [
+						"shop"
+					],
+					"trans": "kunjungi ${shop}",
+					"eng": "visit ${shop}"
 				}
-			}
-		},
-		"rewardActionConfirmModal": {
-			"captcha": {
-				"trans": "Seret semua ikon proses ke kotak merah sepenuhnya untuk memulai tugas",
-				"eng": "Drag all processes icons into to the red box entirely to initiate the task"
 			}
 		},
 		"confirmModal": {
@@ -2847,6 +2874,22 @@
 			}
 		}
 	},
+	"mobile": {
+		"appBanner": {
+			"description": {
+				"trans": "Unduh aplikasi untuk mendapatkan pengalaman terbaik!",
+				"eng": "Download the app to get the optimal experience!"
+			},
+			"install": {
+				"trans": "Instal",
+				"eng": "Install"
+			}
+		},
+		"returnToAppMessage": {
+			"trans": "Menyinkronkan dengan server ..",
+			"eng": "Syncing with server.."
+		}
+	},
 	"battleUI": {
 		"quickSlotModal": {
 			"title": {
@@ -3552,6 +3595,36 @@
 				"trans": "Apartemen ${playerName}",
 				"eng": "${playerName}'s Apartment"
 			}
+		}
+	},
+	"tutorial": {
+		"playerMarket": {
+			"trans": "Klik di sini untuk melihat dan membeli barang dari pemain lain",
+			"eng": "Click here to view and purchase items from other players"
+		},
+		"myMarketStall": {
+			"trans": "Klik di sini untuk mengelola item Anda di pasar pemain",
+			"eng": "Click here to manage your items on the player market"
+		},
+		"localCombatButton": {
+			"trans": "Klik di sini untuk memindai musuh jalanan",
+			"eng": "Click here to scan for street enemies"
+		},
+		"localCombatTip": {
+			"trans": "Kamu akan menerima EXP, Bitcoin, dan Loot ketika Kamu mengalahkan musuh, \n                 Cobalah sekarang!",
+			"eng": "you will receive exp, Bitcoin and loots when you defeat enemies,\r\n                give it a try now!"
+		},
+		"primaryAttack": {
+			"trans": "Klik di sini untuk menyerang musuh",
+			"eng": "Click here to attack the enemy"
+		},
+		"statusInv": {
+			"trans": "Klik 'Ambil Semua' untuk mendapatkan semua jarahan",
+			"eng": "Click 'TAKE ALL' to get all the loots"
+		},
+		"dungeonQuest": {
+			"trans": "Klik 'Terima Quest' untuk menerima pencarian, Kamu dapat menyelesaikan atau mengabaikan pencarian kapan saja",
+			"eng": "Click 'ACCEPT QUEST' to accept the quest, you may complete or abandon the quest at any time"
 		}
 	},
 	"playerStatusDisplay": {
@@ -4334,28 +4407,6 @@
 			],
 			"trans": "Anda mengirim ${money} btc ke ${playerName}",
 			"eng": "You sent ${money} BTC to ${playerName}"
-		}
-	},
-	"tutorial": {
-		"localCombatButton": {
-			"trans": "Klik di sini untuk memindai musuh jalanan",
-			"eng": "Click here to scan for street enemies"
-		},
-		"localCombatTip": {
-			"trans": "Kamu akan menerima EXP, Bitcoin, dan Loot ketika Kamu mengalahkan musuh, \n                 Cobalah sekarang!",
-			"eng": "you will receive exp, Bitcoin and loots when you defeat enemies,\r\n                give it a try now!"
-		},
-		"primaryAttack": {
-			"trans": "Klik di sini untuk menyerang musuh",
-			"eng": "Click here to attack the enemy"
-		},
-		"statusInv": {
-			"trans": "Klik 'Ambil Semua' untuk mendapatkan semua jarahan",
-			"eng": "Click 'TAKE ALL' to get all the loots"
-		},
-		"dungeonQuest": {
-			"trans": "Klik 'Terima Quest' untuk menerima pencarian, Kamu dapat menyelesaikan atau mengabaikan pencarian kapan saja",
-			"eng": "Click 'ACCEPT QUEST' to accept the quest, you may complete or abandon the quest at any time"
 		}
 	},
 	"enum": {
@@ -7804,6 +7855,10 @@
 			"npcName": {
 				"trans": "Nol",
 				"eng": "Zero"
+			},
+			"tut": {
+				"trans": "Anda bisa menjual tumpukan peralatan berlebih di sini dengan harga yang lebih tinggi",
+				"eng": "You can sell excessive equipment caches here for higher price"
 			}
 		},
 		"lunar": {
@@ -9175,12 +9230,6 @@
 				"trans": "Pembelian",
 				"eng": "Purchase"
 			}
-		}
-	},
-	"mobile": {
-		"returnToAppMessage": {
-			"trans": "Menyinkronkan dengan server ..",
-			"eng": "Syncing with server.."
 		}
 	},
 	"petDetailsPage": {
@@ -11076,7 +11125,7 @@
 			},
 			"cantPerformAction": {
 				"trans": "Anda tidak dapat melakukan tindakan ini sekarang",
-				"eng": "You can't perform this action now"
+				"eng": "You can't perform this action during party buff"
 			},
 			"invalidTravelLink": {
 				"trans": "Tautan perjalanan yang tidak valid, jika bertahan, silakan muat ulang",

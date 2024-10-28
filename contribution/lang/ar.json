@@ -104,6 +104,16 @@
 	},
 	"ui": {
 		"bulkCraft": {
+			"tutorial": {
+				"printSell": {
+					"trans": "انقر هنا لاختيار العناصر التي تريد طباعتها وبيعها",
+					"eng": "Click here to select the items you want to print and sell"
+				},
+				"recycle": {
+					"trans": "انقر هنا لاختيار العناصر التي تريد إعادة تدويرها",
+					"eng": "Click here to select the items you want to recycle"
+				}
+			},
 			"amountSelect": {
 				"title": {
 					"trans": "حدد المبلغ",
@@ -367,6 +377,12 @@
 						}
 					}
 				}
+			}
+		},
+		"rewardActionConfirmModal": {
+			"title": {
+				"trans": "اسحب جميع أيقونات العمليات إلى الصندوق بالكامل لبدء المهمة",
+				"eng": "Drag all processes icons into to the box entirely to initiate the task"
 			}
 		},
 		"bank": {
@@ -977,7 +993,7 @@
 		"backToPreviusLoc": {
 			"longPressBackToCity": {
 				"trans": "الصحافة الطويلة للعودة إلى المدينة",
-				"eng": "Long press to go back to city"
+				"eng": "You can long press the back button to go back to city to visit various shops and features"
 			}
 		},
 		"notificationCenter": {
@@ -1041,6 +1057,12 @@
 					"description": {
 						"trans": "تعتمد طباعة المعدات على رتبة الطباعة الخاصة بك، ومستوى رتبة الطباعة الخاصة بك عن طريق طباعة المزيد من العناصر",
 						"eng": "equipment printing is based on your printing rank, level up your printing rank by printing more items"
+					}
+				},
+				"tutorial": {
+					"printFirstRecipe": {
+						"trans": "انقر على الوصفة لطباعة أول معدّاتك",
+						"eng": "Click on the recipe to print your first equipment"
 					}
 				}
 			},
@@ -1217,13 +1239,21 @@
 			}
 		},
 		"market": {
-			"lookAround": {
-				"trans": "انظر حولك",
-				"eng": "Look around"
+			"playerMarket": {
+				"trans": "زيارة سوق اللاعبين",
+				"eng": "Visit Player Market"
 			},
-			"myStall": {
-				"trans": "كشك بلدي",
-				"eng": "My Stall"
+			"playerMarketDescription": {
+				"trans": "يمكنك شراء العناصر من لاعبين آخرين هنا",
+				"eng": "You can purchase items from other players here"
+			},
+			"myMarketStall": {
+				"trans": "كشك السوق الخاص بي",
+				"eng": "My MarketStall"
+			},
+			"myMarketStallDescription": {
+				"trans": "يمكنك إدارة عناصرك في سوق اللاعبين هنا",
+				"eng": "You can manage your items on the player market here"
 			},
 			"increaseSlot": {
 				"vars": [
@@ -1969,20 +1999,17 @@
 					"trans": "يبدو أنك لا تملك أي ألم بعيدا معك، وقم بشرائه من ترينوكي مارت في المدينة أولا قبل دخول الأبراج المحصنة، لأنك لن ترغب بعد المعارك في زنزانة",
 					"eng": "Seems like you dont have any Pain Away with you, purchase it from Trinoky Mart in the city first before entering dungeons, since you will not regen after battles in dungeon"
 				},
-				"cancel": {
-					"trans": "لاحق",
+				"later": {
+					"trans": "لاحقاً",
 					"eng": "Later"
 				},
-				"confirm": {
-					"trans": "العودة إلى المدينة",
-					"eng": "Back to city"
+				"purchase": {
+					"vars": [
+						"shop"
+					],
+					"trans": "قم بزيارة ${shop}",
+					"eng": "visit ${shop}"
 				}
-			}
-		},
-		"rewardActionConfirmModal": {
-			"captcha": {
-				"trans": "اسحب جميع أيقونات جميع العمليات إلى الصندوق الأحمر تمامًا لبدء المهمة",
-				"eng": "Drag all processes icons into to the red box entirely to initiate the task"
 			}
 		},
 		"confirmModal": {
@@ -2847,6 +2874,22 @@
 			}
 		}
 	},
+	"mobile": {
+		"appBanner": {
+			"description": {
+				"trans": "قم بتحميل التطبيق للحصول على أفضل تجربة!",
+				"eng": "Download the app to get the optimal experience!"
+			},
+			"install": {
+				"trans": "تثبيت",
+				"eng": "Install"
+			}
+		},
+		"returnToAppMessage": {
+			"trans": "المزامنة مع الخادم ..",
+			"eng": "Syncing with server.."
+		}
+	},
 	"battleUI": {
 		"quickSlotModal": {
 			"title": {
@@ -3552,6 +3595,36 @@
 				"trans": "شقة ${playerName}",
 				"eng": "${playerName}'s Apartment"
 			}
+		}
+	},
+	"tutorial": {
+		"playerMarket": {
+			"trans": "انقر هنا لعرض وشراء العناصر من لاعبين آخرين",
+			"eng": "Click here to view and purchase items from other players"
+		},
+		"myMarketStall": {
+			"trans": "انقر هنا لإدارة عناصرك في سوق اللاعبين",
+			"eng": "Click here to manage your items on the player market"
+		},
+		"localCombatButton": {
+			"trans": "انقر هنا للمسح الضوئي لأعداء الشوارع",
+			"eng": "Click here to scan for street enemies"
+		},
+		"localCombatTip": {
+			"trans": "سوف تتلقى إكسب، Bitcoin و Looots عند هزيمة الأعداء، \n                 محاولة إعطائها الآن!",
+			"eng": "you will receive exp, Bitcoin and loots when you defeat enemies,\r\n                give it a try now!"
+		},
+		"primaryAttack": {
+			"trans": "انقر هنا لمهاجمة العدو",
+			"eng": "Click here to attack the enemy"
+		},
+		"statusInv": {
+			"trans": "انقر فوق \"خذ الكل\" للحصول على جميع الفراش",
+			"eng": "Click 'TAKE ALL' to get all the loots"
+		},
+		"dungeonQuest": {
+			"trans": "انقر فوق \"قبول السعي\" لقبول المهمة، يمكنك إكمال أو التخلي عن السعي في أي وقت",
+			"eng": "Click 'ACCEPT QUEST' to accept the quest, you may complete or abandon the quest at any time"
 		}
 	},
 	"playerStatusDisplay": {
@@ -4334,28 +4407,6 @@
 			],
 			"trans": "لقد أرسلت ${money} btc إلى ${playerName}",
 			"eng": "You sent ${money} BTC to ${playerName}"
-		}
-	},
-	"tutorial": {
-		"localCombatButton": {
-			"trans": "انقر هنا للمسح الضوئي لأعداء الشوارع",
-			"eng": "Click here to scan for street enemies"
-		},
-		"localCombatTip": {
-			"trans": "سوف تتلقى إكسب، Bitcoin و Looots عند هزيمة الأعداء، \n                 محاولة إعطائها الآن!",
-			"eng": "you will receive exp, Bitcoin and loots when you defeat enemies,\r\n                give it a try now!"
-		},
-		"primaryAttack": {
-			"trans": "انقر هنا لمهاجمة العدو",
-			"eng": "Click here to attack the enemy"
-		},
-		"statusInv": {
-			"trans": "انقر فوق \"خذ الكل\" للحصول على جميع الفراش",
-			"eng": "Click 'TAKE ALL' to get all the loots"
-		},
-		"dungeonQuest": {
-			"trans": "انقر فوق \"قبول السعي\" لقبول المهمة، يمكنك إكمال أو التخلي عن السعي في أي وقت",
-			"eng": "Click 'ACCEPT QUEST' to accept the quest, you may complete or abandon the quest at any time"
 		}
 	},
 	"enum": {
@@ -7804,6 +7855,10 @@
 			"npcName": {
 				"trans": "صفر",
 				"eng": "Zero"
+			},
+			"tut": {
+				"trans": "يمكنك بيع مخازن المعدات الزائدة هنا بسعر أعلى",
+				"eng": "You can sell excessive equipment caches here for higher price"
 			}
 		},
 		"lunar": {
@@ -9175,12 +9230,6 @@
 				"trans": "شراء",
 				"eng": "Purchase"
 			}
-		}
-	},
-	"mobile": {
-		"returnToAppMessage": {
-			"trans": "المزامنة مع الخادم ..",
-			"eng": "Syncing with server.."
 		}
 	},
 	"petDetailsPage": {
@@ -11076,7 +11125,7 @@
 			},
 			"cantPerformAction": {
 				"trans": "لا يمكنك تنفيذ هذا الإجراء الآن",
-				"eng": "You can't perform this action now"
+				"eng": "You can't perform this action during party buff"
 			},
 			"invalidTravelLink": {
 				"trans": "رابط سفر غير صالح ، إذا استمرت من فضلك أعد تحميل",

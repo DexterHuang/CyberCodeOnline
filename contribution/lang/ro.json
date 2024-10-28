@@ -104,6 +104,16 @@
 	},
 	"ui": {
 		"bulkCraft": {
+			"tutorial": {
+				"printSell": {
+					"trans": "Click aici pentru a selecta articolele pe care vrei să le imprimi și să le vinzi",
+					"eng": "Click here to select the items you want to print and sell"
+				},
+				"recycle": {
+					"trans": "Click aici pentru a selecta obiectele pe care vrei să le reciclezi",
+					"eng": "Click here to select the items you want to recycle"
+				}
+			},
 			"amountSelect": {
 				"title": {
 					"trans": "Selectați suma",
@@ -367,6 +377,12 @@
 						}
 					}
 				}
+			}
+		},
+		"rewardActionConfirmModal": {
+			"title": {
+				"trans": "Trage toate icoanele proceselor în cutie complet pentru a iniția sarcina",
+				"eng": "Drag all processes icons into to the box entirely to initiate the task"
 			}
 		},
 		"bank": {
@@ -977,7 +993,7 @@
 		"backToPreviusLoc": {
 			"longPressBackToCity": {
 				"trans": "Apăsați lung pentru a vă întoarce în oraș",
-				"eng": "Long press to go back to city"
+				"eng": "You can long press the back button to go back to city to visit various shops and features"
 			}
 		},
 		"notificationCenter": {
@@ -1041,6 +1057,12 @@
 					"description": {
 						"trans": "Imprimarea echipamentelor se bazează pe rangul dvs. de imprimare, nivelați-vă rangul de imprimare prin imprimarea mai multor articole",
 						"eng": "equipment printing is based on your printing rank, level up your printing rank by printing more items"
+					}
+				},
+				"tutorial": {
+					"printFirstRecipe": {
+						"trans": "Click pe rețetă pentru a-ți imprima prima echipare",
+						"eng": "Click on the recipe to print your first equipment"
 					}
 				}
 			},
@@ -1217,13 +1239,21 @@
 			}
 		},
 		"market": {
-			"lookAround": {
-				"trans": "Uită-te în jur",
-				"eng": "Look around"
+			"playerMarket": {
+				"trans": "Vizitează Piața Jucătorilor",
+				"eng": "Visit Player Market"
 			},
-			"myStall": {
-				"trans": "Standul Meu",
-				"eng": "My Stall"
+			"playerMarketDescription": {
+				"trans": "Poți cumpăra articole de la alți jucători aici",
+				"eng": "You can purchase items from other players here"
+			},
+			"myMarketStall": {
+				"trans": "Târgul Meu",
+				"eng": "My MarketStall"
+			},
+			"myMarketStallDescription": {
+				"trans": "Poți gestiona obiectele tale pe piața jucătorilor aici",
+				"eng": "You can manage your items on the player market here"
 			},
 			"increaseSlot": {
 				"vars": [
@@ -1969,20 +1999,17 @@
 					"trans": "Se pare că nu aveți nici o durere departe de dvs., cumpărați-o de la Trinky Mart în oraș mai întâi înainte de a intra în temnițe, deoarece nu veți regeni după luptele din Dungeon",
 					"eng": "Seems like you dont have any Pain Away with you, purchase it from Trinoky Mart in the city first before entering dungeons, since you will not regen after battles in dungeon"
 				},
-				"cancel": {
-					"trans": "Mai tarziu",
+				"later": {
+					"trans": "Mai târziu",
 					"eng": "Later"
 				},
-				"confirm": {
-					"trans": "Înapoi în oraș",
-					"eng": "Back to city"
+				"purchase": {
+					"vars": [
+						"shop"
+					],
+					"trans": "vizitează ${shop}",
+					"eng": "visit ${shop}"
 				}
-			}
-		},
-		"rewardActionConfirmModal": {
-			"captcha": {
-				"trans": "Trageți toate pictogramele proceselor în cutia roșie în întregime pentru a iniția sarcina",
-				"eng": "Drag all processes icons into to the red box entirely to initiate the task"
 			}
 		},
 		"confirmModal": {
@@ -2847,6 +2874,22 @@
 			}
 		}
 	},
+	"mobile": {
+		"appBanner": {
+			"description": {
+				"trans": "Descarcă aplicația pentru a avea cea mai bună experiență!",
+				"eng": "Download the app to get the optimal experience!"
+			},
+			"install": {
+				"trans": "Instalează",
+				"eng": "Install"
+			}
+		},
+		"returnToAppMessage": {
+			"trans": "Sincronizarea cu serverul ..",
+			"eng": "Syncing with server.."
+		}
+	},
 	"battleUI": {
 		"quickSlotModal": {
 			"title": {
@@ -3552,6 +3595,36 @@
 				"trans": "Apartamentul lui ${playerName}",
 				"eng": "${playerName}'s Apartment"
 			}
+		}
+	},
+	"tutorial": {
+		"playerMarket": {
+			"trans": "Click aici pentru a vizualiza și a cumpăra articole de la alți jucători",
+			"eng": "Click here to view and purchase items from other players"
+		},
+		"myMarketStall": {
+			"trans": "Click aici pentru a-ți gestiona obiectele pe piața jucătorilor",
+			"eng": "Click here to manage your items on the player market"
+		},
+		"localCombatButton": {
+			"trans": "Faceți clic aici pentru a scana pentru inamicii de stradă",
+			"eng": "Click here to scan for street enemies"
+		},
+		"localCombatTip": {
+			"trans": "Veți primi exp, bitcoin și rădăcini când învingeți Inamicii, \n                 Dați-i o încercare acum!",
+			"eng": "you will receive exp, Bitcoin and loots when you defeat enemies,\r\n                give it a try now!"
+		},
+		"primaryAttack": {
+			"trans": "Click aici pentru a ataca.",
+			"eng": "Click here to attack the enemy"
+		},
+		"statusInv": {
+			"trans": "Faceți clic pe \"Luați toate\" pentru a obține toate rădăcinile",
+			"eng": "Click 'TAKE ALL' to get all the loots"
+		},
+		"dungeonQuest": {
+			"trans": "Faceți clic pe \"Acceptați Quest\" pentru a accepta căutarea, puteți completa sau abandona căutarea în orice moment",
+			"eng": "Click 'ACCEPT QUEST' to accept the quest, you may complete or abandon the quest at any time"
 		}
 	},
 	"playerStatusDisplay": {
@@ -4334,28 +4407,6 @@
 			],
 			"trans": "Ați trimis ${money} btc la ${playerName}",
 			"eng": "You sent ${money} BTC to ${playerName}"
-		}
-	},
-	"tutorial": {
-		"localCombatButton": {
-			"trans": "Faceți clic aici pentru a scana pentru inamicii de stradă",
-			"eng": "Click here to scan for street enemies"
-		},
-		"localCombatTip": {
-			"trans": "Veți primi exp, bitcoin și rădăcini când învingeți Inamicii, \n                 Dați-i o încercare acum!",
-			"eng": "you will receive exp, Bitcoin and loots when you defeat enemies,\r\n                give it a try now!"
-		},
-		"primaryAttack": {
-			"trans": "Click aici pentru a ataca.",
-			"eng": "Click here to attack the enemy"
-		},
-		"statusInv": {
-			"trans": "Faceți clic pe \"Luați toate\" pentru a obține toate rădăcinile",
-			"eng": "Click 'TAKE ALL' to get all the loots"
-		},
-		"dungeonQuest": {
-			"trans": "Faceți clic pe \"Acceptați Quest\" pentru a accepta căutarea, puteți completa sau abandona căutarea în orice moment",
-			"eng": "Click 'ACCEPT QUEST' to accept the quest, you may complete or abandon the quest at any time"
 		}
 	},
 	"enum": {
@@ -7804,6 +7855,10 @@
 			"npcName": {
 				"trans": "Zero",
 				"eng": "Zero"
+			},
+			"tut": {
+				"trans": "Poți vinde aici stocurile excesive de echipamente la un preț mai bun",
+				"eng": "You can sell excessive equipment caches here for higher price"
 			}
 		},
 		"lunar": {
@@ -9175,12 +9230,6 @@
 				"trans": "Cumpărare",
 				"eng": "Purchase"
 			}
-		}
-	},
-	"mobile": {
-		"returnToAppMessage": {
-			"trans": "Sincronizarea cu serverul ..",
-			"eng": "Syncing with server.."
 		}
 	},
 	"petDetailsPage": {
@@ -11076,7 +11125,7 @@
 			},
 			"cantPerformAction": {
 				"trans": "Nu puteți efectua această acțiune acum",
-				"eng": "You can't perform this action now"
+				"eng": "You can't perform this action during party buff"
 			},
 			"invalidTravelLink": {
 				"trans": "Link de călătorie nevalid, dacă persistă, vă rugăm să reîncărcați",
