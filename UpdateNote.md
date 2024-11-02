@@ -31,6 +31,12 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
+### 0.1854
+
+-   During November Turkey will rarely drop from the scavenge end AFK bot farm, 
+-   Fixed issue with minigames appearing too often, now it should behave better
+-   Fixed pet ageing issue, it seems like the last update didn't completely fix the problem, I found another issue that may cause the age to drift, this should fix the problem now 🤞
+
 ### 0.1852
 
 -   Fixed issue with incorrect animation shown when the player dies (previously, the enemy's health went to zero falsely leading to confusion)
