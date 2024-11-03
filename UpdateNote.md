@@ -36,6 +36,7 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 -   During November Turkey will rarely drop from the scavenge end AFK bot farm, 
 -   Fixed issue with minigames appearing too often, now it should behave better
 -   Fixed pet ageing issue, it seems like the last update didn't completely fix the problem, I found another issue that may cause the age to drift, this should fix the problem now 🤞
+-   Tutorial will not show up on players who are higher level than 20, this is so that some people who for any reason always got their cache cleared wont need to see tutorial everytime, while this is added, I would like to add, clearing cache does NOT improve speed for your device, cache safes battery life, reduce data usage and speed up your device
 
 ### 0.1852
 
