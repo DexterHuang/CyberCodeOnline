@@ -149,6 +149,7 @@ Vargur
 [IWASIkan_](https://github.com/IWASIkann)
 [KodateMitsuru](https://github.com/KodateMitsuru)
 [Pedro_Tavano_Ferreira](https://github.com/pedrotavanoferreira)
+[Artem_Wing](https://github.com/bhizhusryaajyaqiu)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
