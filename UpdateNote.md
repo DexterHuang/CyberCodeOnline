@@ -31,6 +31,16 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
+### 0.1855
+
+-  Christmas Event:
+    -  Dungeon chest and AFK Bot Farm will now drop `FrostByte Shard` which you can exchange various items with `CyberSanta`
+    -  You can exchange `Jolly Gains Chest`, `Pure Whey Gainz` and `NanoNibble Ball` with  `CyberSanta`
+    -  The `Jolly Gains Chest` can be opened similarly to other containers, from the terminal or directly in the item details screen.
+    -  When `Pure Whey Gainz` is used you will gain +20% AFK EXP
+    -  The Christmas themed donation frame is in rotation
+-  Several bug fixes 
+
 ### 0.1854
 
 -   During November Turkey will rarely drop from the scavenge end AFK bot farm, 
