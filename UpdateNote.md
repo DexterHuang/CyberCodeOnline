@@ -31,6 +31,10 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
+### 0.1856
+
+-  increased hash processor max price at market with suggestion by the community
+
 ### 0.1855
 
 -  Christmas Event:
