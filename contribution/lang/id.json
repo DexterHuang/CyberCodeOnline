@@ -1362,6 +1362,12 @@
 					"eng": "Vault"
 				}
 			},
+			"premiumShop": {
+				"title": {
+					"trans": "Toko",
+					"eng": "Shop"
+				}
+			},
 			"abortWarningTitle": {
 				"trans": "Apakah Kamu yakin ingin membatalkan?",
 				"eng": "Are you sure you want to abort?"
@@ -3697,6 +3703,15 @@
 				"trans": "${seconds} detik",
 				"eng": "${seconds} seconds"
 			}
+		}
+	},
+	"skipRatioDisplay": {
+		"title": {
+			"vars": [
+				"skipCount"
+			],
+			"trans": "Kamu menerima ${skipCount} skip dari komunitas 💖",
+			"eng": "You received ${skipCount} skips from the community 💖"
 		}
 	},
 	"craft": {
@@ -6273,6 +6288,26 @@
 				"eng": "High-tech, miniaturized, one-time use, antimatter energy generator. \r\n        This item produces enormous amounts of power. You can use this as ammunition for your destructive weapon. "
 			}
 		},
+		"ammo1Cluster": {
+			"name": {
+				"trans": "Kumpulan Sel Energi",
+				"eng": "Energy Cell Cluster"
+			},
+			"description": {
+				"trans": "Sekelompok besar sel energi, dapat dengan mudah dirakit dan dibongkar.",
+				"eng": "Large bundle of energy cells, can be easily assembled and disassembled."
+			}
+		},
+		"ammo2Cluster": {
+			"name": {
+				"trans": "Kumpulan Muatan Anti Materi",
+				"eng": "Anti Matter Charge Cluster"
+			},
+			"description": {
+				"trans": "Sekumpulan besar muatan antimateri, dapat dengan mudah dirakit dan dibongkar.",
+				"eng": "Large bundle of anti matter charges, can be easily assembled and disassembled."
+			}
+		},
 		"ammoTech1": {
 			"name": {
 				"trans": "Bagian Teknologi Amunisi",
@@ -7367,6 +7402,20 @@
 				"eng": "Pure Whey Gainz: Cybersanta’s protein of choice—fuel your grind, bro, and don’t stop until you can carry all the loot yourself!"
 			}
 		},
+		"creatine": {
+			"name": {
+				"trans": "OverClock Creatine",
+				"eng": "OverClock Creatine"
+			},
+			"description": {
+				"vars": [
+					"percent",
+					"minutes"
+				],
+				"trans": "Dorong batasanmu dan kerja keras seperti mesin--Saat dikonsumsi, meningkatkan kerusakan yang diberikan sebesar ${percent}% selama ${minutes} menit",
+				"eng": "Push past your limits and grind like a machine--When consumed, increase damage dealt by ${percent}% for ${minutes} minutes"
+			}
+		},
 		"experienceShard": {
 			"name": {
 				"vars": [
@@ -8065,8 +8114,9 @@
 				"eng": [
 					"Ho ho ho, choom! Ready to trade your loot for some holiday cheer?",
 					"My eyes are up here, little man.",
-					"Ho ho ho! The Animals want to rule the streets, but they’ll never outlift me.",
-					"Ho ho hold up—do you even lift, little man?"
+					"Ho ho ho! The Animals want to rule the streets, but they'll never outlift me.",
+					"Ho ho hold up—do you even lift, little man?",
+					"Who needs chimney when you can just punch through the wall?"
 				]
 			},
 			"name": {
@@ -8687,6 +8737,30 @@
 			"name": {
 				"trans": "Memo teknologi",
 				"eng": "Tech Scrap"
+			}
+		},
+		"ammo1Cluster": {
+			"name": {
+				"trans": "Kumpulan Sel Energi",
+				"eng": "Energy Cell Cluster"
+			}
+		},
+		"ammo1ClusterReverse": {
+			"name": {
+				"trans": "Energi Sel",
+				"eng": "Energy Cell"
+			}
+		},
+		"ammo2Cluster": {
+			"name": {
+				"trans": "Kumpulan Muatan Anti Materi",
+				"eng": "Anti Matter Charge Cluster"
+			}
+		},
+		"ammo2ClusterReverse": {
+			"name": {
+				"trans": "Anti Matter Charge",
+				"eng": "Anti Matter Charge"
 			}
 		},
 		"unlockRareEquipmentCrate": {
@@ -9991,16 +10065,15 @@
 			"trans": "Ini adalah waktu yang paling indah tahun ini lagi! Di Shangri-La kami merayakan liburan musim dingin dengan acara khusus!",
 			"eng": "It's the most wonderful time of the year again! in Shang-ri-la we are celebrating the winter holiday with a special event!"
 		},
-		"v2": {
+		"v3": {
 			"desc2": {
 				"vars": [
-					"itemName"
+					"itemName",
+					"NPC"
 				],
-				"trans": "Musuh dan AI Core Auto Farm akan memiliki kesempatan untuk menjatuhkan ${itemName}, Anda dapat membuka kunci untuk menerima hadiah!",
-				"eng": "Enemies and AI Core auto farm will have chance to drop ${itemName}, you can unlock it to receive prizes!"
-			}
-		},
-		"v3": {
+				"trans": "Peti dungeon dan auto farm AI Core akan memiliki kesempatan untuk menjatuhkan ${itemName}, kamu bisa menggunakannya untuk menukarkan barang dengan ${NPC}!",
+				"eng": "Dungeon chests and AI Core auto farm will have chance to drop ${itemName}, you can use it to exchange items with ${NPC}!"
+			},
 			"desc3": {
 				"trans": "Selama musim liburan, bingkai obrolan Natal dan lambang akan tersedia!",
 				"eng": "During the holiday season, Christmas chat frame and emblem will be available!"
@@ -11482,7 +11555,7 @@
 					"percent",
 					"cred"
 				],
-				"trans": "${player} has activated calibration buff, success chance increased by ${percent}, give this legend some street cred! ${cred}",
+				"trans": "${player} telah mengaktifkan buff kalibrasi, peluang keberhasilan meningkat sebesar ${percent}, beri legenda ini sedikit street cred! ${cred}",
 				"eng": "${player} has activated calibration buff, success chance increased by ${percent}, give this legend some street cred! ${cred}"
 			}
 		}
