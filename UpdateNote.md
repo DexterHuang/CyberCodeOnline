@@ -31,6 +31,11 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
+### 0.1857
+
+-  Buffed Santa just got buffed, with some players feedback on low drop rate of `FrostByte Shard`, the drop rate has been increased
+-  CyberSanta now also exchange `Overclock Creatine`, when used your damage will increase by 5% for 20 minutes
+
 ### 0.1856
 
 -  increased hash processor max price at market with suggestion by the community
