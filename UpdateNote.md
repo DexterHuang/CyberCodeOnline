@@ -31,28 +31,33 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
+### 0.1858
+
+-   Added new UI scaling method, should produce more consistent rendering regardless of device font size and other settings
+-   Added gang banner display when clicked on player's message
+
 ### 0.1857
 
--  Buffed Santa just got buffed, with some players feedback on low drop rate of `FrostByte Shard`, the drop rate has been increased
--  CyberSanta now also exchange `Overclock Creatine`, when used your damage will increase by 5% for 20 minutes
+-   Buffed Santa just got buffed, with some players feedback on low drop rate of `FrostByte Shard`, the drop rate has been increased
+-   CyberSanta now also exchange `Overclock Creatine`, when used your damage will increase by 5% for 20 minutes
 
 ### 0.1856
 
--  increased hash processor max price at market with suggestion by the community
+-   increased hash processor max price at market with suggestion by the community
 
 ### 0.1855
 
--  Christmas Event:
-    -  Dungeon chest and AFK Bot Farm will now drop `FrostByte Shard` which you can exchange various items with `CyberSanta`
-    -  You can exchange `Jolly Gains Chest`, `Pure Whey Gainz` and `NanoNibble Ball` with  `CyberSanta`
-    -  The `Jolly Gains Chest` can be opened similarly to other containers, from the terminal or directly in the item details screen.
-    -  When `Pure Whey Gainz` is used you will gain +20% AFK EXP
-    -  The Christmas themed donation frame is in rotation
--  Several bug fixes 
+-   Christmas Event:
+    -   Dungeon chest and AFK Bot Farm will now drop `FrostByte Shard` which you can exchange various items with `CyberSanta`
+    -   You can exchange `Jolly Gains Chest`, `Pure Whey Gainz` and `NanoNibble Ball` with `CyberSanta`
+    -   The `Jolly Gains Chest` can be opened similarly to other containers, from the terminal or directly in the item details screen.
+    -   When `Pure Whey Gainz` is used you will gain +20% AFK EXP
+    -   The Christmas themed donation frame is in rotation
+-   Several bug fixes
 
 ### 0.1854
 
--   During November Turkey will rarely drop from the scavenge end AFK bot farm, 
+-   During November Turkey will rarely drop from the scavenge end AFK bot farm,
 -   Fixed issue with minigames appearing too often, now it should behave better
 -   Fixed pet ageing issue, it seems like the last update didn't completely fix the problem, I found another issue that may cause the age to drift, this should fix the problem now 🤞
 -   Tutorial will not show up on players who are higher level than 20, this is so that some people who for any reason always got their cache cleared won't need to see tutorial every time, while this is added, I would like to add, clearing cache does NOT improve speed for your device, cache saves battery life, reduce data usage and speed up your device; that is the primary function of caches
@@ -68,7 +73,6 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 -   slight UI change on item popup on equipped item
 -   Updated tutorial
 -   Fixed issue with iOS notification
-
 
 ### 0.1851
 
@@ -90,13 +94,13 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ### 0.1847
 
 -   Halloween Event (Will activate at 2024/10/01 00:00 UTC)
-    -  Enemies and AFK bot farm will drop `Jack o Lantern` you can use it to redeem items from `Pumpkin Bro` in the Alleyway on Market Street, items that can be redeemed includes `Locked Legendary Container`, `Rare Equipment Crate`, `Pumpkin pie` and `Caramel Apple`
-    -  Added `Caramel Apple` you can redeem it from `Pumpkin Bro`, and use to receive a 10% AFK exp and all Btc gained buff for 20 minutes
-  
+    -   Enemies and AFK bot farm will drop `Jack o Lantern` you can use it to redeem items from `Pumpkin Bro` in the Alleyway on Market Street, items that can be redeemed includes `Locked Legendary Container`, `Rare Equipment Crate`, `Pumpkin pie` and `Caramel Apple`
+    -   Added `Caramel Apple` you can redeem it from `Pumpkin Bro`, and use to receive a 10% AFK exp and all Btc gained buff for 20 minutes
+
 ![image](https://github.com/user-attachments/assets/e122f006-fd01-4b58-b321-ef9720d30048)
 
--  Added `Replicator Console` to dungeons; in dungeons `Replicator Console` will randomly spawn, you can gather `Synthetic Alloy` from boss room crates to activate them to receive random rewards. there are 4 tiers of `Replicator Console` each tier requires more `Synthetic Alloy` to activate, at the same time gives better buffs and rewards, but also has a higher rate of failing.
-When failed, the `Replicator Console` will consume the `Synthetic Alloy` inserted. The reward includes various equipment and buffs from different tiers.
+-   Added `Replicator Console` to dungeons; in dungeons `Replicator Console` will randomly spawn, you can gather `Synthetic Alloy` from boss room crates to activate them to receive random rewards. there are 4 tiers of `Replicator Console` each tier requires more `Synthetic Alloy` to activate, at the same time gives better buffs and rewards, but also has a higher rate of failing.
+    When failed, the `Replicator Console` will consume the `Synthetic Alloy` inserted. The reward includes various equipment and buffs from different tiers.
 
 ![image](https://github.com/user-attachments/assets/739ffea6-9964-46ae-bf4b-d4d6b2c06cee)
 
@@ -104,54 +108,53 @@ Please notify me if there is any bug with the updates 🫡🫡
 
 ### 0.1846
 
--  Fixed pet age display issue, after Looooong search and many attempts trying to find why the leaderboard sometimes displays incorrect age for pets, I finally found a potential fix for it, the pet's age should display correctly now, and the calculation of age is more complicated then one may think due to various technical reasons, which causes it to be hard to track and display the age. hopefully, this fixes the issue, please report back to me if a similar issue continues to happen in the future :) 
-Please keep in mind that leaderboard data is not real-time and delayed meaning the age you see there are not necessarily the same as how the owner sees it, for pet age, it's possible for the ranking to be lightly out of order in rare cases due to technical reasons.
-additionally, the leaderboard page UI is updated
+-   Fixed pet age display issue, after Looooong search and many attempts trying to find why the leaderboard sometimes displays incorrect age for pets, I finally found a potential fix for it, the pet's age should display correctly now, and the calculation of age is more complicated then one may think due to various technical reasons, which causes it to be hard to track and display the age. hopefully, this fixes the issue, please report back to me if a similar issue continues to happen in the future :)
+    Please keep in mind that leaderboard data is not real-time and delayed meaning the age you see there are not necessarily the same as how the owner sees it, for pet age, it's possible for the ranking to be lightly out of order in rare cases due to technical reasons.
+    additionally, the leaderboard page UI is updated
 
 ![image](https://github.com/user-attachments/assets/51acfa12-b945-445f-bc77-87cb58604704)
 
-  
--  Fixed emblem pricing display incorrectly for limited edition emblems (such as emblems only available during event or special emblems like translator emblem) on sending cosmetic page, previously, an incorrect price of "999999" was displayed on unavailable emblems, now no longer is the case
--  Reworked how the emblem list is displayed, all unavailable will show up in the list but has a `Unavailable` tag
+-   Fixed emblem pricing display incorrectly for limited edition emblems (such as emblems only available during event or special emblems like translator emblem) on sending cosmetic page, previously, an incorrect price of "999999" was displayed on unavailable emblems, now no longer is the case
+-   Reworked how the emblem list is displayed, all unavailable will show up in the list but has a `Unavailable` tag
 
 ![image](https://github.com/user-attachments/assets/32cca6f2-2b6d-4c32-9169-d45f99f1a50a)
 
-
 ### 0.1845
 
--  Added new tier of backpack: `Quantum Storage Unit` similar to other backpack items, increases inventory slot drastically, this also serves as an optional late-game goal and a token to show off your wealth and standout against other players, You will also receive a backpack emblem for free when you crafted this item. **Given the item is a long-term collectable goal, we do not expect people to craft it any time soon, the exact requirement to craft this item is Subject to Change and is NOT FINAL, and we are open to lowering the crafting requirement based on the situation, and feedback or suggestions are welcome :) drop me a message on Discord or email**
+-   Added new tier of backpack: `Quantum Storage Unit` similar to other backpack items, increases inventory slot drastically, this also serves as an optional late-game goal and a token to show off your wealth and standout against other players, You will also receive a backpack emblem for free when you crafted this item. **Given the item is a long-term collectable goal, we do not expect people to craft it any time soon, the exact requirement to craft this item is Subject to Change and is NOT FINAL, and we are open to lowering the crafting requirement based on the situation, and feedback or suggestions are welcome :) drop me a message on Discord or email**
 
 ![Screenshot 2024-09-26 023050](https://github.com/user-attachments/assets/6b39d107-d151-47f6-b682-e8f013c4821c)
 
--  Game server backend engine is updated to the latest version, things should run faster and smoother
+-   Game server backend engine is updated to the latest version, things should run faster and smoother
 
 ### 0.1844
 
--  Added dungeon chat channel, you can communicate with your dungeon party in that channel without using a gang channel that may disturb others. You can open the chat UI by clicking the preview. All share this channel, which can be viewed similarly to other channels on the main chat interface.
+-   Added dungeon chat channel, you can communicate with your dungeon party in that channel without using a gang channel that may disturb others. You can open the chat UI by clicking the preview. All share this channel, which can be viewed similarly to other channels on the main chat interface.
 
 ![image](https://github.com/user-attachments/assets/2a598a00-32a9-4e4a-a7f0-6b002387fa10)
 
 ### 0.1843
 
--  You can now see gang dungeons created by people from your gang in the dungeon list (access it from the phone menu -> dungeon list)
--  Added dungeon lobby list at create dungeon UI allowing easier access to join dungeons
+-   You can now see gang dungeons created by people from your gang in the dungeon list (access it from the phone menu -> dungeon list)
+-   Added dungeon lobby list at create dungeon UI allowing easier access to join dungeons
 
 ![image](https://github.com/user-attachments/assets/fa585ee5-1ef4-4754-a0c7-5ba27461fe0e)
 
-
--  Updated main page NPC and travel UI
+-   Updated main page NPC and travel UI
 
 ![image](https://github.com/user-attachments/assets/7a2495ae-5e6b-405e-bfe0-01a31c9cae64)
--  Fix the issue with chat frame rendering
--  Added update popup when starting the game, if the update note is updated, a popup of the update note will automatically show up (Can be disabled on the settings page)
--  Changed behaviour on event popup, popup will show up again after 4 days to avoid the event list not being accessible after dismissal, this behaviour can be disabled in the settings page, which if enabled event popup will show up only when there is an event update if you have checked the dismissal checkbox 
+
+-   Fix the issue with chat frame rendering
+-   Added update popup when starting the game, if the update note is updated, a popup of the update note will automatically show up (Can be disabled on the settings page)
+-   Changed behaviour on event popup, popup will show up again after 4 days to avoid the event list not being accessible after dismissal, this behaviour can be disabled in the settings page, which if enabled event popup will show up only when there is an event update if you have checked the dismissal checkbox
 
 ### 0.1842
 
--  Fixed issue with some notification not receiving randomly
--  Updated image for weapons smith and lee
+-   Fixed issue with some notification not receiving randomly
+-   Updated image for weapons smith and lee
 
 ### 0.1841
+
 -   Updated Global party and Cali Train banner UI, now shows player tag and how many percentages the player has sponsored
 
 ![image](https://github.com/user-attachments/assets/0e0b6119-2568-42da-b6c6-04258f706cbe)
