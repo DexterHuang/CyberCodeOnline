@@ -37,6 +37,7 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 -   Fixed issue with notification not working for newly installed user
 -   General optimization
 -   Fixed issue with non-english equipment name loading problem
+-   Fixed minor UI issues introduced by previous UI scaling update
 
 ### 0.1858
 
