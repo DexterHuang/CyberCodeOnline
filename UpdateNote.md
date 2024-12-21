@@ -32,26 +32,26 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 ## Updates
 
 ### 0.1859
-
--   Updated android app, fixed issue with bottom nav bar showing white or other incorrect color, if you have this problem this needs to be updated from PlayStore
+-   Fixed the send mail button on chat message popup
+-   Updated Android app, fixed issue with bottom nav bar showing white or other incorrect color, if you have this problem this needs to be updated from PlayStore
 -   Fixed issue with notification not working for newly installed user
 -   General optimization
--   Fixed issue with non-english equipment name loading problem
+-   Fixed issue with non-English equipment name loading problem
 -   Fixed minor UI issues introduced by previous UI scaling update
 
 ### 0.1858
 
--   Added new UI scaling method, should produce more consistent rendering regardless of device font size and other settings
--   Added gang banner display when clicked on player's message
+-   Added a new UI scaling method, which should produce more consistent rendering regardless of device font size and other settings
+-   Added gang banner display when clicking on player's message
 
 ### 0.1857
 
--   Buffed Santa just got buffed, with some players feedback on low drop rate of `FrostByte Shard`, the drop rate has been increased
--   CyberSanta now also exchange `Overclock Creatine`, when used your damage will increase by 5% for 20 minutes
+-   Buffed Santa just got buffed, with some player's feedback onthe low drop rate of `FrostByte Shard`, the drop rate has been increased
+-   CyberSanta now also exchanges `Overclock Creatine`, when used your damage will increase by 5% for 20 minutes
 
 ### 0.1856
 
--   increased hash processor max price at market with suggestion by the community
+-   increased hash processor max price at the market with a suggestion by the community
 
 ### 0.1855
 
@@ -60,7 +60,7 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
     -   You can exchange `Jolly Gains Chest`, `Pure Whey Gainz` and `NanoNibble Ball` with `CyberSanta`
     -   The `Jolly Gains Chest` can be opened similarly to other containers, from the terminal or directly in the item details screen.
     -   When `Pure Whey Gainz` is used you will gain +20% AFK EXP
-    -   The Christmas themed donation frame is in rotation
+    -   The Christmas-themed donation frame is in rotation
 -   Several bug fixes
 
 ### 0.1854
