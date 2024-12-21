@@ -31,6 +31,12 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
+### 0.1859
+
+-   Updated android app, fixed issue with bottom nav bar showing white or other incorrect color, if you have this problem this needs to be updated from PlayStore
+-   General optimization
+-   Fixed issue with non-english equipment name loading problem
+
 ### 0.1858
 
 -   Added new UI scaling method, should produce more consistent rendering regardless of device font size and other settings
