@@ -31,6 +31,11 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
+### 0.1860
+
+-   Fixed issue with notification not working on PC web version, now if you allow notification you should be able to receive notification even when the Cybercode Online tab is closed
+-   Added in-game notification sound when mentioned or received mail, this can be disabled in setting menu 
+
 ### 0.1859
 -   Fixed the send mail button on chat message popup
 -   Updated Android app, fixed issue with bottom nav bar showing white or other incorrect color, if you have this problem this needs to be updated from PlayStore
