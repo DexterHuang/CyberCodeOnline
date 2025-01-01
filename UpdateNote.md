@@ -31,6 +31,11 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
+### 0.1862
+
+-   Lunar new year event starts today, till the end of january. during this event:
+    -   AFK bot farm and enemy will drop `Red Envelops`, and you can open them to receive `Gold Coins`, `Gold Coins` can be used to exchange for event specific items from `Luna` located at Market Street. event specific items will be automatically remove at the end of event so be sure to redeem and use the items. (`Gold Coins` and `Red Envelops` from last year will be automatically update and merge to this year's version and can be used as normal)
+
 ### 0.1861
 
 -   Added option to enable/disable drag-to-reply for messages on web version
