@@ -7,27 +7,7 @@ Did you like the game and fancy helping the game? you can:
 -   Leave a 5-star review on the store, this will help others see the game more
 -   Report bugs or suggestions for improvement to our Discord, the developer checks Discord frequently (due to time limitations I can't really check Reddit or other places)
 -   Deploy some global buff or skips for the community
--   Contribute to our WIKI, Lores and other configs on our [GitHub](https://github.com/DexterHuang/CyberCodeOnline)
-
-### Contributable files:
-
--   contribution/words.json - Random Words
--   contribution/dungeon/layout/structure-mask.json - Dungeon Layouts
--   contribution/mobile/{lang}/tips.md - Tips for Mobile
--   contribution/mobile/{lang}/tutorial/\*.md - Tutorial
--   contribution/mobile/{lang}/procedural-names - equipment names
--   contribution/mobile/{lang}/item/lore - item lore
--   contribution/mobile/{lang}/scenario/\*\* - drop lore
--   contribution/mobile/{lang}/dungeon-lore/\*\* - dungeon lore
--   tips.txt - Tips for desktop
--   tutorial/\* - Desktop Tutorial
--   contribution/lang/ - Localizations
-
-**Remember to add your name to the ['Credits.md'](https://github.com/DexterHuang/CyberCodeOnline/blob/master/Credits.md) doc when you create a PR**
-
-If you would like to help maintain CyberCode Online, please feel free to submit a PR at [our GitHub repo](https://github.com/DexterHuang/CyberCodeOnline).
-
-Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial) on how to submit a PR on our GitHub.
+-   Contribute to our WIKI, Lores and other configs on our [GitHub](https://github.com/DexterHuang/CyberCodeOnlin
 
 ## Updates
 
@@ -35,6 +15,9 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 -   Fixed gang chat notification, previously it does not send notification even when setting is turned on, now it should work.
     for whom does not want to receive notification for gang chat, you can disable it in the setting menu or simply click on the bell icon in gang chat:
+
+    ![image](https://github.com/user-attachments/assets/b5e62089-a92b-4df7-b84e-39f3641f8f02)
+
 
 ### 0.1862
 
