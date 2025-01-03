@@ -17,6 +17,8 @@ Did you like the game and fancy helping the game? you can:
     for whom does not want to receive notification for gang chat, you can disable it in the setting menu or simply click on the bell icon in gang chat:
 
     ![image](https://github.com/user-attachments/assets/b5e62089-a92b-4df7-b84e-39f3641f8f02)
+
+
     ![image](https://github.com/user-attachments/assets/5812e87f-b4b8-40d0-9209-df673769d565)
 
 
