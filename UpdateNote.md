@@ -31,6 +31,11 @@ Step-by-step [Guide](https://cybercode-online.fandom.com/wiki/GitHub_PR_Tutorial
 
 ## Updates
 
+### 0.1863
+
+-   Fixed gang chat notification, previously it does not send notification even when setting is turned on, now it should work.
+    for whom does not want to receive notification for gang chat, you can disable it in the setting menu or simply click on the bell icon in gang chat:
+
 ### 0.1862
 
 -   Lunar new year event starts today, till the end of january. during this event:
