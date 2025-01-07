@@ -21,6 +21,8 @@ Did you like the game and fancy helping the game? you can:
 
     ![image](https://github.com/user-attachments/assets/5812e87f-b4b8-40d0-9209-df673769d565)
 
+-   Many UI improvement for certain devices, mainly China branded android phone
+-   Fixed incorrect random minigame interaction with certain AFK tasks, only affected Recycling and Print & Sell 
 
 
 ### 0.1862
