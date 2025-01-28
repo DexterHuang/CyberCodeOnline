@@ -14,27 +14,28 @@ Did you like the game and fancy helping the game? you can:
 ### 0.1864
 
 -   During Luna New Year 01/29 ~ 02/04, added a special 8% discount to all units for skips
+-   Added sorting to gang member listing, you can now sort by occupation, resource, money or EXP
 -   The apartment page now shows the next rental due date
 -   Many small UI tweaks and bug fixes
 
 ### 0.1863
 
--   Fixed gang chat notification, previously it does not send notification even when setting is turned on, now it should work.
-    for whom does not want to receive notification for gang chat, you can disable it in the setting menu or simply click on the bell icon in gang chat:
+-   Fixed gang chat notification, previously it did not send notifications even when the setting was turned on, now it should work.
+    for whom does not want to receive notifications for gang chat, you can disable it in the settings menu or simply click on the bell icon in gang chat:
 
     ![image](https://github.com/user-attachments/assets/b5e62089-a92b-4df7-b84e-39f3641f8f02)
 
 
     ![image](https://github.com/user-attachments/assets/5812e87f-b4b8-40d0-9209-df673769d565)
 
--   Many UI improvement for certain devices, mainly China branded android phone
+-   Many UI improvements for certain devices, mainly China branded Android phone
 -   Fixed incorrect random minigame interaction with certain AFK tasks, only affected Recycling and Print & Sell 
 
 
 ### 0.1862
 
--   Lunar new year event starts today, till the end of january. during this event:
-    -   AFK bot farm and enemy will drop `Red Envelops`, and you can open them to receive `Gold Coins`, `Gold Coins` can be used to exchange for event specific items from `Luna` located at Market Street. event specific items will be automatically remove at the end of event so be sure to redeem and use the items. (`Gold Coins`, `Roasted Turkey`, `Sushi`, `Rice Cake`, `Dumplings` and `Red Envelops` from last year will be automatically update and merge to this year's version and can be used as normal before getting expired at the end of event period)
+-   The Lunar New Year event starts today, and till the end of January. during this event:
+    -   AFK bot farm and enemy will drop `Red Envelops`, and you can open them to receive `Gold Coins`, `Gold Coins` can be used to exchange for event specific items from `Luna` located at Market Street. event specific items will be automatically removed at the end of event so be sure to redeem and use the items. (`Gold Coins`, `Roasted Turkey`, `Sushi`, `Rice Cake`, `Dumplings` and `Red Envelops` from last year will be automatically update and merge to this year's version and can be used as normal before getting expired at the end of event period)
     -   During the event, top-up units will receive various bonus items
 
 ### 0.1861
