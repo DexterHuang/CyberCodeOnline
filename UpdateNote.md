@@ -13,6 +13,12 @@ Did you like the game and fancy helping the game? you can:
 
 ### 0.1863
 
+-   During Luna New Year 01/29 ~ 02/04, added a special 8% discount to all units for skips
+-   The apartment page now shows the next rental due date
+-   Many small UI tweaks and bug fixes
+
+### 0.1863
+
 -   Fixed gang chat notification, previously it does not send notification even when setting is turned on, now it should work.
     for whom does not want to receive notification for gang chat, you can disable it in the setting menu or simply click on the bell icon in gang chat:
 
