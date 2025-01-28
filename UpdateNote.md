@@ -11,7 +11,7 @@ Did you like the game and fancy helping the game? you can:
 
 ## Updates
 
-### 0.1863
+### 0.1864
 
 -   During Luna New Year 01/29 ~ 02/04, added a special 8% discount to all units for skips
 -   The apartment page now shows the next rental due date
