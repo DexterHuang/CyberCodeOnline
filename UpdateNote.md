@@ -15,6 +15,10 @@ Did you like the game and fancy helping the game? you can:
 
 -   During Luna New Year 01/29 ~ 02/04, added a special 8% discount to all units for skips
 -   Added sorting to gang member listing, you can now sort by occupation, resource, money or EXP
+
+![image](https://github.com/user-attachments/assets/2e43a9b7-6972-4d16-88ba-d5e0313bb970)
+
+
 -   The apartment page now shows the next rental due date
 -   Many small UI tweaks and bug fixes
 
