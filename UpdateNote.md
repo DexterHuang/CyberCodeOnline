@@ -11,6 +11,20 @@ Did you like the game and fancy helping the game? you can:
 
 ## Updates
 
+### 0.1865
+
+-  Valentine's Event (02/05 ~ 02/28):
+  - `Chocolate Strawberry` and `Heart Shaped Chocolate` will drop from both AFK bot farm and enemies, `Heart Shaped Chocolate` increases AFK EXP by 20% for 10 minutes, `Chocolate Strawberry` increases both EXP and BTC received in AFK tasks by 10% for 10 minutes
+  - Both `Chocolate Strawberry` and `Heart Shaped Chocolate` are giftable, and are time-limited only during the event
+  - During the event, all AFK skips are 5% OFF on unit spend
+  - Added Valentine-themed donation frame, this frame can be gifted to another player for 1 month period with a lower amount of unit
+
+![image](https://github.com/user-attachments/assets/74d23a12-4f97-4544-84f3-6911bace97ab)
+
+-  Fixed issue with sakura frame blocking player's name
+
+
+
 ### 0.1864
 
 -   During Luna New Year 01/29 ~ 02/04, added a special 8% discount to all units for skips
