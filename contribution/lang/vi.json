@@ -1,5 +1,13 @@
 {
 	"apartment": {
+		"rentalDueDate": {
+			"vars": [
+				"timeToDue",
+				"rentalDueDate"
+			],
+			"trans": "Ngày đến hạn thanh toán thuê: ${rentalDueDate} (${timeToDue})",
+			"eng": "Rental Due Date: ${rentalDueDate} (${timeToDue})"
+		},
 		"title": {
 			"vars": [
 				"playerName"
@@ -235,6 +243,14 @@
 					"eng": "No gang has occupied this area yet"
 				}
 			},
+			"sort": {
+				"trans": "Sắp xếp",
+				"eng": "Sort"
+			},
+			"sortDirection": {
+				"trans": "Hướng dẫn",
+				"eng": "Direction"
+			},
 			"members": {
 				"trans": "Thành viên",
 				"eng": "Members"
@@ -364,22 +380,6 @@
 				"colorBox": {
 					"trans": "Nhấp vào màu này bên dưới",
 					"eng": "Click on this color below"
-				},
-				"lose": {
-					"title": {
-						"trans": "Giải mã thất bại",
-						"eng": "Decryption failed"
-					},
-					"description": {
-						"trans": "Nhấp vào chuỗi màu chính xác để mở khóa",
-						"eng": "Click on the correct color sequence to unlock"
-					},
-					"button": {
-						"title": {
-							"trans": "Thử lại",
-							"eng": "Try Again"
-						}
-					}
 				}
 			}
 		},
@@ -845,6 +845,14 @@
 				"trans": "Mục này sẽ bị xóa sau khi sự kiện ${eventName} kết thúc.",
 				"eng": "This item will be removed after the ${eventName} event ends."
 			},
+			"timeLimitedEndTime": {
+				"vars": [
+					"endDate",
+					"timeToEnd"
+				],
+				"trans": "Sự kiện kết thúc vào lúc ${endDate} UTC (${timeToEnd})",
+				"eng": "Event ends at ${endDate} UTC (${timeToEnd})"
+			},
 			"timeLimited": {
 				"trans": "Thời gian có hạn",
 				"eng": "Time Limited"
@@ -910,7 +918,10 @@
 			},
 			"cantEquip": {
 				"trans": "Cấp độ của bạn quá thấp để trang bị vật phẩm này",
-				"eng": "Your level is too low for this item"
+				"eng": "Your level is too low for this item, this item requires level ${level} to equip",
+				"vars": [
+					"level"
+				]
 			},
 			"unequip": {
 				"trans": "Tháo trang bị",
@@ -1487,6 +1498,10 @@
 				"tiny": {
 					"trans": "Rất nhỏ",
 					"eng": "Tiny"
+				},
+				"tiny2": {
+					"trans": "Rất Nhỏ",
+					"eng": "Very Tiny"
 				},
 				"auto": {
 					"trans": "Tự động",
@@ -2259,9 +2274,12 @@
 			}
 		},
 		"landing": {
-			"subtile": {
-				"trans": " CyberPunk MMORPG dựa trên văn bản",
-				"eng": "Cyberpunk Text-based MMORPG"
+			"accountCount": {
+				"vars": [
+					"count"
+				],
+				"trans": "Tham gia cùng hơn ${count} người đam mê cyberpunk ngay bây giờ!",
+				"eng": "Join over ${count} other cyberpunkers now!"
 			},
 			"description1": {
 				"trans": "CyberCode Online là một trò chơi trực tuyến, cần tài khoản để lưu dữ liệu trò chơi.",
@@ -2758,6 +2776,108 @@
 			}
 		}
 	},
+	"gameEventBenefits": {
+		"skipBenefit": {
+			"trans": "Tăng Tốc Nhanh",
+			"eng": "Fast Forward Boost"
+		},
+		"skipDiscount": {
+			"vars": [
+				"percent"
+			],
+			"trans": "Tất cả các lần bỏ qua trong thời gian sự kiện sẽ được giảm ${percent}% trên đơn vị yêu cầu",
+			"eng": "All skips during the event period gets ${percent}% off discount on unit required"
+		},
+		"caliTitle": {
+			"trans": "Giảm giá hiệu chỉnh",
+			"eng": "Calibration Discount"
+		},
+		"caliSubtitle": {
+			"trans": "Giảm yêu cầu đóng góp:",
+			"eng": "Reduced contribution requirements:"
+		},
+		"discountTier": {
+			"vars": [
+				"percent",
+				"ranges"
+			],
+			"trans": "Giảm giá ${percent}% tại: ${ranges}",
+			"eng": "${percent}% discount at: ${ranges}"
+		},
+		"earlyContributors": {
+			"trans": "Những người đóng góp sớm sẽ nhận được mức giảm giá cao hơn!",
+			"eng": "Early contributors receive higher discounts!"
+		},
+		"partyTitle": {
+			"trans": "Giảm giá nhóm",
+			"eng": "Party Discount"
+		},
+		"partySubtitle": {
+			"trans": "Giảm yêu cầu đóng góp:",
+			"eng": "Reduced contribution requirements:"
+		},
+		"topUpTitle": {
+			"trans": "Phần thưởng Nạp Tiền",
+			"eng": "Top-Up Rewards"
+		},
+		"topUpReward": {
+			"trans": "Phần thưởng đặc biệt có sẵn khi nạp tiền trong sự kiện",
+			"eng": "Special rewards available when topping up during the event"
+		},
+		"lootTitle": {
+			"trans": "Đồ đặc biệt",
+			"eng": "Special Loot"
+		},
+		"lootCrate": {
+			"trans": "Các vật phẩm đặc biệt có sẵn trong thùng loot trong suốt sự kiện",
+			"eng": "Special items available in loot crates during the event"
+		},
+		"chatTitle": {
+			"trans": "Hiệu ứng trò chuyện",
+			"eng": "Chat Effects"
+		},
+		"chatEffect": {
+			"trans": "Hiệu ứng trò chuyện độc quyền có sẵn trong suốt sự kiện",
+			"eng": "Exclusive chat effects available during the event"
+		},
+		"bgmTitle": {
+			"trans": "Âm nhạc sự kiện",
+			"eng": "Event Music"
+		},
+		"bgm": {
+			"trans": "Nhạc nền đặc biệt trong sự kiện",
+			"eng": "Special background music during the event"
+		}
+	},
+	"gameEventBenefitsSmall": {
+		"skipDiscount": {
+			"vars": [
+				"percent"
+			],
+			"trans": "Tăng tốc độ tiến bộ của bạn với ưu đãi giảm giá ${percent}% cho tất cả các lượt bỏ qua",
+			"eng": "Speed up your progress with a ${percent}% discount on all skips"
+		},
+		"caliDiscount": {
+			"trans": "Tăng cường hiệu chỉnh của bạn với chi phí đóng góp giảm thiểu",
+			"eng": "Supercharge your calibrations with reduced contribution costs"
+		},
+		"partyDiscount": {
+			"trans": "Hợp tác và tiết kiệm với các ưu đãi giảm giá đóng góp độc quyền cho nhóm",
+			"eng": "Team up and save with exclusive party contribution discounts"
+		},
+		"topUpReward": {
+			"trans": "Nhận phần thưởng bonus khi nạp tiền trong thời gian sự kiện",
+			"eng": "Get bonus rewards when topping up during the event period"
+		},
+		"lootCrate": {
+			"trans": "Khám phá kho báu có thời gian giới hạn trong các thùng đồ sự kiện độc quyền",
+			"eng": "Discover limited-time treasures in exclusive event loot crates"
+		},
+		"chatEffect": {
+			"trans": "Thể hiện bản thân với hiệu ứng trò chuyện theo chủ đề sự kiện rực rỡ",
+			"eng": "Express yourself with dazzling event-themed chat effects"
+		}
+	},
 	"misc": {
 		"back": {
 			"trans": "Trở về",
@@ -2926,10 +3046,82 @@
 		}
 	},
 	"minigame": {
+		"circuitConnection": {
+			"title": {
+				"trans": "Vượt Qua Mạch Nơ-ron",
+				"eng": "Neural Circuit Override"
+			},
+			"subtitle": {
+				"trans": "Phát hiện vi phạm bảo mật: Tường lửa bị xâm phạm",
+				"eng": "Security Breach Detected: Firewall Compromised"
+			},
+			"instructions": {
+				"trans": "Nhanh lên! Vượt qua các nút bảo mật thần kinh theo thứ tự để có quyền truy cập vào hệ thống. Theo dõi thứ tự các nút trước khi giao thức ICE phát hiện ra bạn.",
+				"eng": "Quick! Bypass the neural security nodes in sequence to gain system access. Follow the node sequence before the ICE protocol detects you."
+			},
+			"node": {
+				"trans": "Mạch Nối",
+				"eng": "Circuit Node"
+			}
+		},
+		"dataStream": {
+			"title": {
+				"trans": "Bộ chặn Dữ liệu Stream",
+				"eng": "Data Stream Interceptor"
+			},
+			"instructions": {
+				"trans": "CHẶN CÁC GÓI DỮ LIỆU HỢP LỆ [PHÁT SÁNG] // TRÁNH CÁC GÓI BỊ HỎNG",
+				"eng": "INTERCEPT VALID DATA PACKETS [GLOWING] // AVOID CORRUPTED ONES"
+			}
+		},
+		"sequenceHack": {
+			"title": {
+				"trans": "Ghi nhớ Ngân hàng Bị ghi đè",
+				"eng": "Memory Bank Override"
+			},
+			"instructions": {
+				"vars": [
+					"duration"
+				],
+				"trans": "CẢNH BÁO: Phát hiện mẫu bảo mật. Ghi nhớ và sao chép chuỗi nhị phân để truy cập hệ thống. Màu xanh đại diện cho 0, Màu đỏ đại diện cho 1. Mẫu sẽ hiển thị trong ${duration} giây. Nhấn vào bất kỳ đâu để bắt đầu ngay lập tức.",
+				"eng": "ALERT: Security pattern detected. Memorize and replicate the binary sequence to gain system access. Blue represents 0, Red represents 1. Pattern visible for ${duration} seconds. Click anywhere to start immediately."
+			},
+			"check": {
+				"trans": "XÁC THỰC MẪU",
+				"eng": "VERIFY PATTERN"
+			},
+			"success": {
+				"trans": "TRUY CẬP ĐƯỢC CẤP: Ngân hàng bộ nhớ đã bị xâm nhập thành công. Hệ thống đã bị xâm phạm.",
+				"eng": "ACCESS GRANTED: Memory bank successfully breached. System compromised."
+			}
+		},
+		"symbolAlignment": {
+			"title": {
+				"trans": "GIẢI_MÃ_DỮ_LIỆU_NƠ-RO.exe",
+				"eng": "DECRYPT_NEURAL_DATA.exe"
+			},
+			"instructions": {
+				"vars": [
+					"total"
+				],
+				"trans": "ALIGN_ENCRYPTION_KEYS [${total}] :: CẢNH BÁO: HỆ THỐNG ĐƯỢC ĐẶT LẠI KHI KHÔNG KHỚP",
+				"eng": "ALIGN_ENCRYPTION_KEYS [${total}] :: WARNING: SYSTEM RESET ON MISMATCH"
+			}
+		},
 		"tileTrack": {
 			"tip": {
 				"trans": "Nhấn vào nút được đánh dấu để mở khóa",
 				"eng": "Click on the highlighted button to unlock"
+			}
+		},
+		"gameName": {
+			"title": {
+				"trans": "Tiêu đề trò chơi",
+				"eng": "Game Title"
+			},
+			"instructions": {
+				"trans": "Cách chơi",
+				"eng": "How to play"
 			}
 		}
 	},
@@ -3008,6 +3200,16 @@
 			"eng": "Give street cred"
 		}
 	},
+	"gangPage": {
+		"notificationDisabled": {
+			"trans": "Thông báo trò chuyện băng nhóm đã bị tắt",
+			"eng": "Gang chat notifications disabled"
+		},
+		"notificationEnabled": {
+			"trans": "Thông báo trò chuyện băng nhóm đã được bật",
+			"eng": "Gang chat notifications enabled"
+		}
+	},
 	"cost": {
 		"requireGang": {
 			"trans": "Yêu cầu phải ở trong một Tập đoàn",
@@ -3058,6 +3260,15 @@
 	"misc,durability": {
 		"trans": "Độ bền",
 		"eng": "durability"
+	},
+	"mailRoomContent": {
+		"time": {
+			"vars": [
+				"time"
+			],
+			"trans": "${time} trước",
+			"eng": "${time} ago"
+		}
 	},
 	"chatHeader": {
 		"skipAvailable": {
@@ -3763,14 +3974,6 @@
 			],
 			"trans": "Bạn không thể ${verb} cái này",
 			"eng": "You are not able to ${verb} this"
-		},
-		"timeRequiredText": {
-			"vars": [
-				"verb",
-				"timeStr"
-			],
-			"trans": "Thời gian cần thiết để ${verb}: ${timeStr}",
-			"eng": "Time required to ${verb}: ${timeStr}"
 		}
 	},
 	"reward": {
@@ -4711,6 +4914,32 @@
 			}
 		}
 	},
+	"clanMemberSort": {
+		"resource": {
+			"displayName": {
+				"trans": "Tài nguyên",
+				"eng": "Resource"
+			}
+		},
+		"money": {
+			"displayName": {
+				"trans": "Tiền",
+				"eng": "Money"
+			}
+		},
+		"occupation": {
+			"displayName": {
+				"trans": "Nghề nghiệp",
+				"eng": "Occupation"
+			}
+		},
+		"gangExp": {
+			"displayName": {
+				"trans": "Gang Exp",
+				"eng": "Gang Exp"
+			}
+		}
+	},
 	"donationType": {
 		"donation1": {
 			"trans": "Thành viên",
@@ -4847,6 +5076,14 @@
 		"donation34": {
 			"trans": "Punk",
 			"eng": "Punk"
+		},
+		"donation35": {
+			"trans": "Valentine",
+			"eng": "Valentine"
+		},
+		"donation36": {
+			"trans": "Cyberpunk",
+			"eng": "Cyberpunk"
 		},
 		"moderator": {
 			"trans": "Người điều hành",
@@ -6189,6 +6426,86 @@
 					"eng": "More coming in future update"
 				}
 			}
+		},
+		"donation35": {
+			"benefits": {
+				"1": {
+					"trans": "Tiêu đề quyên góp \"Valentine\"",
+					"eng": "\"Valentine\" donation title"
+				},
+				"2": {
+					"trans": "Mở khóa tùy chỉnh ảnh đại diện",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "Khung Valentine (có hoạt ảnh)",
+					"eng": "Valentine frame (with animation)"
+				},
+				"4": {
+					"trans": "Hồ sơ Valentine (có hoạt ảnh)",
+					"eng": "Valentine Profile (with animation)"
+				},
+				"5": {
+					"trans": "Mở khóa tiểu sử tùy chỉnh",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "Trang trí hồ sơ Punk",
+					"eng": "Punk profile decoration"
+				},
+				"7": {
+					"trans": "Tùy chỉnh khẩu hiệu băng nhóm",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "Tùy chỉnh hình ảnh băng nhóm",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "Sẽ có thêm trong bản cập nhật tương lai",
+					"eng": "More coming in future update"
+				}
+			}
+		},
+		"donation36": {
+			"benefits": {
+				"1": {
+					"trans": "Tiêu đề quyên góp \"Cyberpunk\"",
+					"eng": "\"Cyberpunk\" donation title"
+				},
+				"2": {
+					"trans": "Mở khóa tùy chỉnh ảnh đại diện",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "Khung Cyberpunk (có hoạt ảnh)",
+					"eng": "Cyberpunk frame (with animation)"
+				},
+				"4": {
+					"trans": "Hồ sơ Cyberpunk (có hoạt ảnh)",
+					"eng": "Cyberpunk Profile (with animation)"
+				},
+				"5": {
+					"trans": "Mở khóa tiểu sử tùy chỉnh",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "Trang trí hồ sơ Cyberpunk",
+					"eng": "Cyberpunk profile decoration"
+				},
+				"7": {
+					"trans": "Tùy chỉnh khẩu hiệu băng nhóm",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "Tùy chỉnh hình ảnh băng nhóm",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "Sẽ có thêm trong bản cập nhật tương lai",
+					"eng": "More coming in future update"
+				}
+			}
 		}
 	},
 	"equipmentMarks": {
@@ -6266,7 +6583,19 @@
 		},
 		"lunarNewYear": {
 			"trans": "Năm mới",
-			"eng": "Lunar New Year"
+			"eng": "Lunar New Year",
+			"skipDiscountTitle": {
+				"trans": "Giảm giá Tết Nguyên Đán",
+				"eng": "Lunar New Year Discount"
+			}
+		},
+		"valentine": {
+			"trans": "Valentine",
+			"eng": "Valentine",
+			"skipDiscountTitle": {
+				"trans": "Giảm giá Ngày Valentine",
+				"eng": "Valentine Discount"
+			}
 		},
 		"halloween": {
 			"trans": "Halloween",
@@ -6283,10 +6612,7 @@
 		"sakura": {
 			"name": {
 				"trans": "Tháng Ba",
-				"eng": "${percent}% off during event",
-				"vars": [
-					"percent"
-				]
+				"eng": "March"
 			}
 		},
 		"rainbow": {
@@ -7494,6 +7820,34 @@
 				"eng": "Push past your limits and grind like a machine--When consumed, increase damage dealt by ${percent}% for ${minutes} minutes"
 			}
 		},
+		"heartShapedChocolate": {
+			"name": {
+				"trans": "Sô cô la hình trái tim",
+				"eng": "Heart Shaped Chocolate"
+			},
+			"description": {
+				"vars": [
+					"percent",
+					"event"
+				],
+				"trans": "Một viên sô cô la hình trái tim ngon lành có thể được sử dụng để tăng EXP nhận được trong các nhiệm vụ AFK lên ${percent}%. \\nMón đồ này chỉ có thể được sử dụng trong sự kiện ${event}",
+				"eng": "A delicious heart shaped chocolate that can be used to increase EXP received in AFK tasks by ${percent}%.\\nThis item can only be used during ${event} event"
+			}
+		},
+		"chocoBerry": {
+			"name": {
+				"trans": "Sô cô la dâu tây",
+				"eng": "Chocolate Strawberry"
+			},
+			"description": {
+				"vars": [
+					"percent",
+					"event"
+				],
+				"trans": "Một quả dâu tây sô cô la ngon tuyệt có thể được sử dụng để tăng EXP và BTC nhận được trong các nhiệm vụ AFK lên ${percent}%. \\nMón đồ này chỉ có thể được sử dụng trong sự kiện ${event}",
+				"eng": "A delicious chocolate strawberry that can be used to increase EXP and BTC received in AFK tasks by ${percent}%.\\nThis item can only be used during ${event} event"
+			}
+		},
 		"experienceShard": {
 			"name": {
 				"vars": [
@@ -7822,19 +8176,19 @@
 				"trans": "Đến ${segmentStationName}",
 				"eng": "go to ${segmentStationName}"
 			},
-			"toZone": {
+			"toLevel1Zone": {
 				"tut": {
 					"vars": [
 						"segmentStationName"
 					],
-					"trans": "Chiến đấu với kẻ địch Cấp 1 ở đây",
-					"eng": "Continue here to fight level 1 enemy"
+					"trans": "Nhấn vào đây để vào khu vực cấp độ 1 đến 4",
+					"eng": "Click here to enter 1 to 4 level zone area"
 				},
 				"description": {
 					"vars": [
 						"zoneName"
 					],
-					"trans": "Đến ${zoneName}",
+					"trans": "Đi đến ${zoneName}",
 					"eng": "Go to ${zoneName}"
 				}
 			}
@@ -10137,11 +10491,11 @@
 	"christmasPromo": {
 		"title": {
 			"trans": "Kỳ nghỉ đông vui vẻ!",
-			"eng": "Happy Winter Holiday!"
+			"eng": "Christmas Celebration"
 		},
 		"desc1": {
 			"trans": "Thời gian tuyệt vời nhất trong năm đã tới rồi! Ở Shangri-La, chúng tôi đang kỷ niệm kỳ nghỉ đông với một sự kiện đặc biệt!",
-			"eng": "It's the most wonderful time of the year again! in Shang-ri-la we are celebrating the winter holiday with a special event!"
+			"eng": "'Tis the season to be jolly! Celebrate Christmas with special rewards and festive events."
 		},
 		"v3": {
 			"desc2": {
@@ -10156,6 +10510,14 @@
 				"trans": "Trong mùa lễ, khung trò chuyện Giáng sinh và biểu tượng sẽ có sẵn!",
 				"eng": "During the holiday season, Christmas chat frame and emblem will be available!"
 			}
+		},
+		"specialMusic": {
+			"trans": "Hãy thưởng thức nhạc nền lễ hội trong suốt sự kiện nhé!",
+			"eng": "Enjoy the festive background music during the event!"
+		},
+		"chatMessage1": {
+			"trans": "Chúc mọi người có kỳ nghỉ vui vẻ!",
+			"eng": "Happy Holidays everyone!"
 		}
 	},
 	"christmasPromoSmall": {
@@ -10293,6 +10655,20 @@
 				"trans": "Tìm hiểu thêm",
 				"eng": "Learn More"
 			}
+		},
+		"valentinePromo": {
+			"title": {
+				"trans": "Chương trình đặc biệt Ngày Valentine",
+				"eng": "Valentine\\'s Special"
+			},
+			"description": {
+				"trans": "Ăn mừng tình yêu với những món đồ và phần thưởng độc quyền cho ngày Valentine!",
+				"eng": "Celebrate love with exclusive Valentine\\'s items and rewards!"
+			},
+			"button": {
+				"trans": "Xem Sự Kiện",
+				"eng": "View Event"
+			}
 		}
 	},
 	"referralPromo": {
@@ -10358,13 +10734,6 @@
 			"trans": "Lễ hội Xuân đã đến rồi! Cánh hoa anh đào rơi rụng, không khí ngập tràn hương hoa",
 			"eng": "The Spring Festival is here! Sakura petals are falling, and the air is filled with the fragrance of flowers. "
 		},
-		"desc2": {
-			"vars": [
-				"percent"
-			],
-			"trans": "Tất cả các lần bỏ qua trong thời gian sự kiện sẽ được giảm giá ${percent}% trên số lượng yêu cầu",
-			"eng": "All skips during the event period gets ${percent}% off discount on unit required"
-		},
 		"desc3": {
 			"trans": "Khung chat và biểu tượng độc quyền Sakura chỉ có trong thời gian sự kiện",
 			"eng": "Exclusive Sakura chat frame and emblem is available during event period"
@@ -10372,13 +10741,26 @@
 		"chatMessage1": {
 			"trans": "Mùa xuân đã đến",
 			"eng": "Spring is here"
+		}
+	},
+	"eventSkipDiscountSmall": {
+		"title": {
+			"trans": "Bỏ qua Giảm Giá",
+			"eng": "Skip Discount"
 		},
 		"desc": {
 			"vars": [
 				"percent"
 			],
-			"trans": "Tất cả các lần bỏ qua trong thời gian sự kiện sẽ được giảm giá ${percent}% trên số lượng yêu cầu 🥳",
-			"eng": "All skips during the event period gets ${percent}% off discount on unit required 🥳"
+			"trans": "Giảm ${percent}% cho tất cả các Skips!",
+			"eng": "${percent}% discount on all Skips!"
+		},
+		"desc2": {
+			"vars": [
+				"date"
+			],
+			"trans": "Kết thúc vào ${date}",
+			"eng": "Ends on ${date}"
 		}
 	},
 	"skipDiscountPromoSmall": {
@@ -10569,6 +10951,24 @@
 			],
 			"trans": "Tiêu thụ món gà tây ngon để nhận +${percent}% exp trên các tác vụ AFK",
 			"eng": "Consume delicious turkey to get +${percent}% EXP on AFK tasks"
+		}
+	},
+	"valentinePromo": {
+		"title": {
+			"trans": "Sự kiện Valentine",
+			"eng": "Valentine Event"
+		},
+		"desc1": {
+			"trans": "Tình yêu đang tràn ngập không khí! Hãy kỷ niệm Ngày Valentine với những phần thưởng và sự kiện đặc biệt.",
+			"eng": "Love is in the air! Celebrate Valentine's Day with special rewards and events."
+		},
+		"specialItems": {
+			"trans": "Các vật phẩm đặc biệt cho Ngày Valentine có thể được tìm thấy trong sự kiện!",
+			"eng": "Special Valentine items can be found during the event!"
+		},
+		"chatMessage1": {
+			"trans": "Chúc mừng Ngày Lễ Tình Nhân!",
+			"eng": "Happy Valentine\\'s Day!"
 		}
 	},
 	"retroPromo": {

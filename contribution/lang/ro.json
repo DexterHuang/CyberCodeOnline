@@ -1,5 +1,13 @@
 {
 	"apartment": {
+		"rentalDueDate": {
+			"vars": [
+				"timeToDue",
+				"rentalDueDate"
+			],
+			"trans": "Data limită pentru închiriere: ${rentalDueDate} (${timeToDue})",
+			"eng": "Rental Due Date: ${rentalDueDate} (${timeToDue})"
+		},
 		"title": {
 			"vars": [
 				"playerName"
@@ -235,6 +243,14 @@
 					"eng": "No gang has occupied this area yet"
 				}
 			},
+			"sort": {
+				"trans": "Sortați",
+				"eng": "Sort"
+			},
+			"sortDirection": {
+				"trans": "Direcție",
+				"eng": "Direction"
+			},
 			"members": {
 				"trans": "Membrii",
 				"eng": "Members"
@@ -364,22 +380,6 @@
 				"colorBox": {
 					"trans": "Click pe culoarea de mai jos",
 					"eng": "Click on this color below"
-				},
-				"lose": {
-					"title": {
-						"trans": "Decriptarea esuata",
-						"eng": "Decryption failed"
-					},
-					"description": {
-						"trans": "Faceți clic pe secvența de culoare corectă pentru a debloca",
-						"eng": "Click on the correct color sequence to unlock"
-					},
-					"button": {
-						"title": {
-							"trans": "Încearcă din nou",
-							"eng": "Try Again"
-						}
-					}
 				}
 			}
 		},
@@ -845,6 +845,14 @@
 				"trans": "Acest obiect va fi eliminat după ce evenimentul ${eventName} se încheie.",
 				"eng": "This item will be removed after the ${eventName} event ends."
 			},
+			"timeLimitedEndTime": {
+				"vars": [
+					"endDate",
+					"timeToEnd"
+				],
+				"trans": "Evenimentul se încheie la ${endDate} UTC (${timeToEnd})",
+				"eng": "Event ends at ${endDate} UTC (${timeToEnd})"
+			},
 			"timeLimited": {
 				"trans": "Limitat în timp",
 				"eng": "Time Limited"
@@ -910,7 +918,10 @@
 			},
 			"cantEquip": {
 				"trans": "Nivelul dvs. este prea scăzut pentru acest articol",
-				"eng": "Your level is too low for this item"
+				"eng": "Your level is too low for this item, this item requires level ${level} to equip",
+				"vars": [
+					"level"
+				]
 			},
 			"unequip": {
 				"trans": "Neegal",
@@ -1487,6 +1498,10 @@
 				"tiny": {
 					"trans": "Minuscul",
 					"eng": "Tiny"
+				},
+				"tiny2": {
+					"trans": "Foarte mic",
+					"eng": "Very Tiny"
 				},
 				"auto": {
 					"trans": "Auto",
@@ -2259,9 +2274,12 @@
 			}
 		},
 		"landing": {
-			"subtile": {
-				"trans": "MMORPG bazat pe text Cyberpunk",
-				"eng": "Cyberpunk Text-based MMORPG"
+			"accountCount": {
+				"vars": [
+					"count"
+				],
+				"trans": "Alătură-te acum altor ${count} cyberpunkeri!",
+				"eng": "Join over ${count} other cyberpunkers now!"
 			},
 			"description1": {
 				"trans": "CyberCode Online este un joc online, este necesar un cont pentru a stoca datele de joc.",
@@ -2758,6 +2776,108 @@
 			}
 		}
 	},
+	"gameEventBenefits": {
+		"skipBenefit": {
+			"trans": "Accelerare Rapidă",
+			"eng": "Fast Forward Boost"
+		},
+		"skipDiscount": {
+			"vars": [
+				"percent"
+			],
+			"trans": "Toate skip-urile în perioada evenimentului beneficiază de un discount de ${percent}% la unitatea necesară",
+			"eng": "All skips during the event period gets ${percent}% off discount on unit required"
+		},
+		"caliTitle": {
+			"trans": "Reducere la calibrare",
+			"eng": "Calibration Discount"
+		},
+		"caliSubtitle": {
+			"trans": "Cerințe de contribuție reduse:",
+			"eng": "Reduced contribution requirements:"
+		},
+		"discountTier": {
+			"vars": [
+				"percent",
+				"ranges"
+			],
+			"trans": "Discount de ${percent}% la: ${ranges}",
+			"eng": "${percent}% discount at: ${ranges}"
+		},
+		"earlyContributors": {
+			"trans": "Contribuitorii timpurii primesc reduceri mai mari!",
+			"eng": "Early contributors receive higher discounts!"
+		},
+		"partyTitle": {
+			"trans": "Reducere de Grup",
+			"eng": "Party Discount"
+		},
+		"partySubtitle": {
+			"trans": "Cerințe de contribuție reduse:",
+			"eng": "Reduced contribution requirements:"
+		},
+		"topUpTitle": {
+			"trans": "Recompense pentru Încărcare",
+			"eng": "Top-Up Rewards"
+		},
+		"topUpReward": {
+			"trans": "Recompense speciale disponibile la încărcarea contului în timpul evenimentului",
+			"eng": "Special rewards available when topping up during the event"
+		},
+		"lootTitle": {
+			"trans": "Loot Special",
+			"eng": "Special Loot"
+		},
+		"lootCrate": {
+			"trans": "Articole speciale disponibile în cutiile de loot în timpul evenimentului",
+			"eng": "Special items available in loot crates during the event"
+		},
+		"chatTitle": {
+			"trans": "Efecte de chat",
+			"eng": "Chat Effects"
+		},
+		"chatEffect": {
+			"trans": "Efecte de chat exclusive disponibile în timpul evenimentului",
+			"eng": "Exclusive chat effects available during the event"
+		},
+		"bgmTitle": {
+			"trans": "Muzică de Eveniment",
+			"eng": "Event Music"
+		},
+		"bgm": {
+			"trans": "Muzică de fundal specială în timpul evenimentului",
+			"eng": "Special background music during the event"
+		}
+	},
+	"gameEventBenefitsSmall": {
+		"skipDiscount": {
+			"vars": [
+				"percent"
+			],
+			"trans": "Accelerează-ți progresul cu un discount de ${percent}% la toate săriturile",
+			"eng": "Speed up your progress with a ${percent}% discount on all skips"
+		},
+		"caliDiscount": {
+			"trans": "Îmbunătățește-ți calibrările cu costuri reduse de contribuție",
+			"eng": "Supercharge your calibrations with reduced contribution costs"
+		},
+		"partyDiscount": {
+			"trans": "Formează o echipă și economisește cu reduceri exclusive la contribuțiile de grup",
+			"eng": "Team up and save with exclusive party contribution discounts"
+		},
+		"topUpReward": {
+			"trans": "Obține recompense bonus când faci reîncărcări în perioada evenimentului",
+			"eng": "Get bonus rewards when topping up during the event period"
+		},
+		"lootCrate": {
+			"trans": "Descoperă comori limitate în cutiile de loot ale evenimentului exclusiv",
+			"eng": "Discover limited-time treasures in exclusive event loot crates"
+		},
+		"chatEffect": {
+			"trans": "Exprima-te cu efecte de chat strălucitoare, tematice pentru evenimente!",
+			"eng": "Express yourself with dazzling event-themed chat effects"
+		}
+	},
 	"misc": {
 		"back": {
 			"trans": "înapoi",
@@ -2926,10 +3046,82 @@
 		}
 	},
 	"minigame": {
+		"circuitConnection": {
+			"title": {
+				"trans": "Suprascrierea Circuitului Neural",
+				"eng": "Neural Circuit Override"
+			},
+			"subtitle": {
+				"trans": "Securitate compromisă: Firewall afectat",
+				"eng": "Security Breach Detected: Firewall Compromised"
+			},
+			"instructions": {
+				"trans": "Rapid! Ocolește nodurile de securitate neurală în ordine pentru a obține accesul la sistem. Urmează secvența nodurilor înainte ca protocolul ICE să te detecteze.",
+				"eng": "Quick! Bypass the neural security nodes in sequence to gain system access. Follow the node sequence before the ICE protocol detects you."
+			},
+			"node": {
+				"trans": "Nod de Circuit",
+				"eng": "Circuit Node"
+			}
+		},
+		"dataStream": {
+			"title": {
+				"trans": "Interceptor de Flux de Date",
+				"eng": "Data Stream Interceptor"
+			},
+			"instructions": {
+				"trans": "INTERCEPTAȚI PACHETELE DE DATE VALIDE [STRĂLUCIȚI] // EVITAȚI PE CELE CORUPTE",
+				"eng": "INTERCEPT VALID DATA PACKETS [GLOWING] // AVOID CORRUPTED ONES"
+			}
+		},
+		"sequenceHack": {
+			"title": {
+				"trans": "Suprascrierea Băncii de Memorie",
+				"eng": "Memory Bank Override"
+			},
+			"instructions": {
+				"vars": [
+					"duration"
+				],
+				"trans": "ALERTĂ: Model de securitate detectat. Memorizează și replică secvența binară pentru a obține acces la sistem. Albastru reprezintă 0, Roșu reprezintă 1. Modelul este vizibil timp de ${duration} secunde. Fă clic oriunde pentru a începe imediat.",
+				"eng": "ALERT: Security pattern detected. Memorize and replicate the binary sequence to gain system access. Blue represents 0, Red represents 1. Pattern visible for ${duration} seconds. Click anywhere to start immediately."
+			},
+			"check": {
+				"trans": "VERIFICĂ PATRONUL",
+				"eng": "VERIFY PATTERN"
+			},
+			"success": {
+				"trans": "ACCES GRANTAT: Banca de memorie a fost spartă cu succes. Sistem compromis.",
+				"eng": "ACCESS GRANTED: Memory bank successfully breached. System compromised."
+			}
+		},
+		"symbolAlignment": {
+			"title": {
+				"trans": "DECRYPT_NEURAL_DATA.exe",
+				"eng": "DECRYPT_NEURAL_DATA.exe"
+			},
+			"instructions": {
+				"vars": [
+					"total"
+				],
+				"trans": "ALIGN_ENCRYPTION_KEYS [${total}] :: AVERTIZARE: RESETARE SISTEM PE NECORESPUNDERE",
+				"eng": "ALIGN_ENCRYPTION_KEYS [${total}] :: WARNING: SYSTEM RESET ON MISMATCH"
+			}
+		},
 		"tileTrack": {
 			"tip": {
 				"trans": "Click pe butonul evidențiat pentru a debloca",
 				"eng": "Click on the highlighted button to unlock"
+			}
+		},
+		"gameName": {
+			"title": {
+				"trans": "Titlul jocului",
+				"eng": "Game Title"
+			},
+			"instructions": {
+				"trans": "Cum să joci",
+				"eng": "How to play"
 			}
 		}
 	},
@@ -3008,6 +3200,16 @@
 			"eng": "Give street cred"
 		}
 	},
+	"gangPage": {
+		"notificationDisabled": {
+			"trans": "Notificările de chat ale bandei dezactivate",
+			"eng": "Gang chat notifications disabled"
+		},
+		"notificationEnabled": {
+			"trans": "Notificări de chat pentru gașcă activate",
+			"eng": "Gang chat notifications enabled"
+		}
+	},
 	"cost": {
 		"requireGang": {
 			"trans": "Cere să fie într-o bandă",
@@ -3058,6 +3260,15 @@
 	"misc,durability": {
 		"trans": "durabilitate",
 		"eng": "durability"
+	},
+	"mailRoomContent": {
+		"time": {
+			"vars": [
+				"time"
+			],
+			"trans": "acum ${time}",
+			"eng": "${time} ago"
+		}
 	},
 	"chatHeader": {
 		"skipAvailable": {
@@ -3763,14 +3974,6 @@
 			],
 			"trans": "Nu sunteți capabili să ${verb} acest lucru",
 			"eng": "You are not able to ${verb} this"
-		},
-		"timeRequiredText": {
-			"vars": [
-				"verb",
-				"timeStr"
-			],
-			"trans": "Timpul necesar pentru ${verb}: ${timeStr}.",
-			"eng": "Time required to ${verb}: ${timeStr}"
 		}
 	},
 	"reward": {
@@ -4711,6 +4914,32 @@
 			}
 		}
 	},
+	"clanMemberSort": {
+		"resource": {
+			"displayName": {
+				"trans": "Resursă",
+				"eng": "Resource"
+			}
+		},
+		"money": {
+			"displayName": {
+				"trans": "Bani",
+				"eng": "Money"
+			}
+		},
+		"occupation": {
+			"displayName": {
+				"trans": "Ocupație",
+				"eng": "Occupation"
+			}
+		},
+		"gangExp": {
+			"displayName": {
+				"trans": "Experiență de bandă",
+				"eng": "Gang Exp"
+			}
+		}
+	},
 	"donationType": {
 		"donation1": {
 			"trans": "Membru",
@@ -4847,6 +5076,14 @@
 		"donation34": {
 			"trans": "Punk",
 			"eng": "Punk"
+		},
+		"donation35": {
+			"trans": "Valentine",
+			"eng": "Valentine"
+		},
+		"donation36": {
+			"trans": "Cyberpunk",
+			"eng": "Cyberpunk"
 		},
 		"moderator": {
 			"trans": "Moderator",
@@ -6189,6 +6426,86 @@
 					"eng": "More coming in future update"
 				}
 			}
+		},
+		"donation35": {
+			"benefits": {
+				"1": {
+					"trans": "Titlu donație \"Valentine\"",
+					"eng": "\"Valentine\" donation title"
+				},
+				"2": {
+					"trans": "Dezblochează personalizarea pozei de profil",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "Cadru de Valentine (cu animație)",
+					"eng": "Valentine frame (with animation)"
+				},
+				"4": {
+					"trans": "Profil Valentine (cu animație)",
+					"eng": "Valentine Profile (with animation)"
+				},
+				"5": {
+					"trans": "Dezblochează bio personalizat",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "Decorațiune profil punk",
+					"eng": "Punk profile decoration"
+				},
+				"7": {
+					"trans": "Personalizează motto-ul bandei",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "Personalizează imaginea bandei",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "Mai multe vor veni în actualizarea viitoare",
+					"eng": "More coming in future update"
+				}
+			}
+		},
+		"donation36": {
+			"benefits": {
+				"1": {
+					"trans": "Titlu donație \"Cyberpunk\"",
+					"eng": "\"Cyberpunk\" donation title"
+				},
+				"2": {
+					"trans": "Dezblochează personalizarea pozei de profil",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "Cadru cyberpunk (cu animație)",
+					"eng": "Cyberpunk frame (with animation)"
+				},
+				"4": {
+					"trans": "Profil Cyberpunk (cu animație)",
+					"eng": "Cyberpunk Profile (with animation)"
+				},
+				"5": {
+					"trans": "Dezblochează bio personalizat",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "Decorațiune profil Cyberpunk",
+					"eng": "Cyberpunk profile decoration"
+				},
+				"7": {
+					"trans": "Personalizează motto-ul bandei",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "Personalizează imaginea bandei",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "Mai multe vor veni în actualizarea viitoare",
+					"eng": "More coming in future update"
+				}
+			}
 		}
 	},
 	"equipmentMarks": {
@@ -6266,7 +6583,19 @@
 		},
 		"lunarNewYear": {
 			"trans": "Anul Nou Lunar",
-			"eng": "Lunar New Year"
+			"eng": "Lunar New Year",
+			"skipDiscountTitle": {
+				"trans": "Reducere de Anul Nou Lunar",
+				"eng": "Lunar New Year Discount"
+			}
+		},
+		"valentine": {
+			"trans": "Valentine",
+			"eng": "Valentine",
+			"skipDiscountTitle": {
+				"trans": "Reducere de Valentine",
+				"eng": "Valentine Discount"
+			}
 		},
 		"halloween": {
 			"trans": "Halloween",
@@ -6283,10 +6612,7 @@
 		"sakura": {
 			"name": {
 				"trans": "${percent}% reducere în timpul evenimentului",
-				"eng": "${percent}% off during event",
-				"vars": [
-					"percent"
-				]
+				"eng": "March"
 			}
 		},
 		"rainbow": {
@@ -7494,6 +7820,34 @@
 				"eng": "Push past your limits and grind like a machine--When consumed, increase damage dealt by ${percent}% for ${minutes} minutes"
 			}
 		},
+		"heartShapedChocolate": {
+			"name": {
+				"trans": "Ciocolată în formă de inimă",
+				"eng": "Heart Shaped Chocolate"
+			},
+			"description": {
+				"vars": [
+					"percent",
+					"event"
+				],
+				"trans": "O ciocolată delicioasă în formă de inimă care poate fi folosită pentru a crește EXP-ul obținut în sarcinile AFK cu ${percent}%. \\nAcest obiect poate fi folosit doar în timpul evenimentului ${event}",
+				"eng": "A delicious heart shaped chocolate that can be used to increase EXP received in AFK tasks by ${percent}%.\\nThis item can only be used during ${event} event"
+			}
+		},
+		"chocoBerry": {
+			"name": {
+				"trans": "Căpșună cu ciocolată",
+				"eng": "Chocolate Strawberry"
+			},
+			"description": {
+				"vars": [
+					"percent",
+					"event"
+				],
+				"trans": "O delicioasă căpșună cu ciocolată care poate fi folosită pentru a crește EXP și BTC primite în sarcinile AFK cu ${percent}%. \\nAcest item poate fi folosit doar în timpul evenimentului ${event}",
+				"eng": "A delicious chocolate strawberry that can be used to increase EXP and BTC received in AFK tasks by ${percent}%.\\nThis item can only be used during ${event} event"
+			}
+		},
 		"experienceShard": {
 			"name": {
 				"vars": [
@@ -7822,13 +8176,13 @@
 				"trans": "Mergi la ${segmentStationName}",
 				"eng": "go to ${segmentStationName}"
 			},
-			"toZone": {
+			"toLevel1Zone": {
 				"tut": {
 					"vars": [
 						"segmentStationName"
 					],
-					"trans": "Click aici pentru a te lupta cu primul tau inamic.",
-					"eng": "Continue here to fight level 1 enemy"
+					"trans": "Click aici pentru a intra în zona de nivel 1 la 4",
+					"eng": "Click here to enter 1 to 4 level zone area"
 				},
 				"description": {
 					"vars": [
@@ -10137,11 +10491,11 @@
 	"christmasPromo": {
 		"title": {
 			"trans": "Vacanță de iarnă fericită!",
-			"eng": "Happy Winter Holiday!"
+			"eng": "Christmas Celebration"
 		},
 		"desc1": {
 			"trans": "Este cea mai minunată perioadă a anului din nou! În Shangri-La sărbătorim vacanța de iarnă cu un eveniment special!",
-			"eng": "It's the most wonderful time of the year again! in Shang-ri-la we are celebrating the winter holiday with a special event!"
+			"eng": "'Tis the season to be jolly! Celebrate Christmas with special rewards and festive events."
 		},
 		"v3": {
 			"desc2": {
@@ -10156,6 +10510,14 @@
 				"trans": "În timpul sezonului de sărbători, vor fi disponibile cadrul de chat de Crăciun și emblema!",
 				"eng": "During the holiday season, Christmas chat frame and emblem will be available!"
 			}
+		},
+		"specialMusic": {
+			"trans": "Bucură-te de muzica de fundal festivă în timpul evenimentului!",
+			"eng": "Enjoy the festive background music during the event!"
+		},
+		"chatMessage1": {
+			"trans": "Sărbători fericite tuturor!",
+			"eng": "Happy Holidays everyone!"
 		}
 	},
 	"christmasPromoSmall": {
@@ -10293,6 +10655,20 @@
 				"trans": "Află mai multe",
 				"eng": "Learn More"
 			}
+		},
+		"valentinePromo": {
+			"title": {
+				"trans": "Special de Valentine's",
+				"eng": "Valentine\\'s Special"
+			},
+			"description": {
+				"trans": "Celebrează dragostea cu articole și recompense exclusive de Ziua Îndrăgostiților!",
+				"eng": "Celebrate love with exclusive Valentine\\'s items and rewards!"
+			},
+			"button": {
+				"trans": "Vizualizează Evenimentul",
+				"eng": "View Event"
+			}
 		}
 	},
 	"referralPromo": {
@@ -10358,13 +10734,6 @@
 			"trans": "Festivalul de primăvară a sosit! Petalele de sakura cad, iar aerul e plin de parfum de flori",
 			"eng": "The Spring Festival is here! Sakura petals are falling, and the air is filled with the fragrance of flowers. "
 		},
-		"desc2": {
-			"vars": [
-				"percent"
-			],
-			"trans": "Toate salturile făcute în perioada evenimentului beneficiază de o reducere de ${percent}% la unitatea necesară",
-			"eng": "All skips during the event period gets ${percent}% off discount on unit required"
-		},
 		"desc3": {
 			"trans": "Rama de chat și emblema exclusivă Sakura sunt disponibile în perioada evenimentului",
 			"eng": "Exclusive Sakura chat frame and emblem is available during event period"
@@ -10372,13 +10741,26 @@
 		"chatMessage1": {
 			"trans": "A venit primăvara",
 			"eng": "Spring is here"
+		}
+	},
+	"eventSkipDiscountSmall": {
+		"title": {
+			"trans": "Sari peste reducere",
+			"eng": "Skip Discount"
 		},
 		"desc": {
 			"vars": [
 				"percent"
 			],
-			"trans": "Toate salturile făcute în perioada evenimentului beneficiază de o reducere de ${percent}% la unitatea necesară 🥳",
-			"eng": "All skips during the event period gets ${percent}% off discount on unit required 🥳"
+			"trans": "${percent}% reducere la toate Skips!",
+			"eng": "${percent}% discount on all Skips!"
+		},
+		"desc2": {
+			"vars": [
+				"date"
+			],
+			"trans": "Se încheie în ${date}",
+			"eng": "Ends on ${date}"
 		}
 	},
 	"skipDiscountPromoSmall": {
@@ -10569,6 +10951,24 @@
 			],
 			"trans": "Consumați Turcia delicioasă pentru a obține +${percent}% Exp pe sarcinile AFK",
 			"eng": "Consume delicious turkey to get +${percent}% EXP on AFK tasks"
+		}
+	},
+	"valentinePromo": {
+		"title": {
+			"trans": "Evenimentul de Valentine",
+			"eng": "Valentine Event"
+		},
+		"desc1": {
+			"trans": "Dragostea plutește în aer! Sărbătorește Ziua Îndrăgostiților cu recompense și evenimente speciale.",
+			"eng": "Love is in the air! Celebrate Valentine's Day with special rewards and events."
+		},
+		"specialItems": {
+			"trans": "Articole speciale de Valentine pot fi găsite în timpul evenimentului!",
+			"eng": "Special Valentine items can be found during the event!"
+		},
+		"chatMessage1": {
+			"trans": "La mulți ani de Ziua Îndrăgostiților!",
+			"eng": "Happy Valentine\\'s Day!"
 		}
 	},
 	"retroPromo": {

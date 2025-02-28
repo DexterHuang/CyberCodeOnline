@@ -1,5 +1,13 @@
 {
 	"apartment": {
+		"rentalDueDate": {
+			"vars": [
+				"timeToDue",
+				"rentalDueDate"
+			],
+			"trans": "Datum splatnosti pronájmu: ${rentalDueDate} (${timeToDue})",
+			"eng": "Rental Due Date: ${rentalDueDate} (${timeToDue})"
+		},
 		"title": {
 			"vars": [
 				"playerName"
@@ -235,6 +243,14 @@
 					"eng": "No gang has occupied this area yet"
 				}
 			},
+			"sort": {
+				"trans": "Třídit",
+				"eng": "Sort"
+			},
+			"sortDirection": {
+				"trans": "Směr",
+				"eng": "Direction"
+			},
 			"members": {
 				"trans": "Členové",
 				"eng": "Members"
@@ -364,22 +380,6 @@
 				"colorBox": {
 					"trans": "Klikněte na tuto barvu níže",
 					"eng": "Click on this color below"
-				},
-				"lose": {
-					"title": {
-						"trans": "Dešifrování se nezdařilo",
-						"eng": "Decryption failed"
-					},
-					"description": {
-						"trans": "Klikněte na správnou barevnou sekvenci pro odemknutí",
-						"eng": "Click on the correct color sequence to unlock"
-					},
-					"button": {
-						"title": {
-							"trans": "Zkus to znovu",
-							"eng": "Try Again"
-						}
-					}
 				}
 			}
 		},
@@ -845,6 +845,14 @@
 				"trans": "Tento předmět bude odstraněn po skončení události ${eventName}.",
 				"eng": "This item will be removed after the ${eventName} event ends."
 			},
+			"timeLimitedEndTime": {
+				"vars": [
+					"endDate",
+					"timeToEnd"
+				],
+				"trans": "Akce končí ${endDate} UTC (${timeToEnd})",
+				"eng": "Event ends at ${endDate} UTC (${timeToEnd})"
+			},
 			"timeLimited": {
 				"trans": "Časově omezeno",
 				"eng": "Time Limited"
@@ -910,7 +918,10 @@
 			},
 			"cantEquip": {
 				"trans": "Vaše úroveň je pro tuto položku příliš nízká",
-				"eng": "Your level is too low for this item"
+				"eng": "Your level is too low for this item, this item requires level ${level} to equip",
+				"vars": [
+					"level"
+				]
 			},
 			"unequip": {
 				"trans": "Odložit",
@@ -1487,6 +1498,10 @@
 				"tiny": {
 					"trans": "Drobný",
 					"eng": "Tiny"
+				},
+				"tiny2": {
+					"trans": "Velmi malý",
+					"eng": "Very Tiny"
 				},
 				"auto": {
 					"trans": "Auto",
@@ -2259,9 +2274,12 @@
 			}
 		},
 		"landing": {
-			"subtile": {
-				"trans": "Cyberpunkové Textové MMORPG",
-				"eng": "Cyberpunk Text-based MMORPG"
+			"accountCount": {
+				"vars": [
+					"count"
+				],
+				"trans": "Přidej se k více než ${count} dalším kyberpunkerům teď!",
+				"eng": "Join over ${count} other cyberpunkers now!"
 			},
 			"description1": {
 				"trans": "CyberCode Online je online hra, účet je vyžadován pro uložení herních dat.",
@@ -2758,6 +2776,108 @@
 			}
 		}
 	},
+	"gameEventBenefits": {
+		"skipBenefit": {
+			"trans": "Rychlý posun vpřed",
+			"eng": "Fast Forward Boost"
+		},
+		"skipDiscount": {
+			"vars": [
+				"percent"
+			],
+			"trans": "Všechny přeskočení během akčního období získávají ${percent}% slevu na požadovanou jednotku",
+			"eng": "All skips during the event period gets ${percent}% off discount on unit required"
+		},
+		"caliTitle": {
+			"trans": "Sleva na kalibraci",
+			"eng": "Calibration Discount"
+		},
+		"caliSubtitle": {
+			"trans": "Snížené požadavky na příspěvky:",
+			"eng": "Reduced contribution requirements:"
+		},
+		"discountTier": {
+			"vars": [
+				"percent",
+				"ranges"
+			],
+			"trans": "Sleva ${percent}% na: ${ranges}",
+			"eng": "${percent}% discount at: ${ranges}"
+		},
+		"earlyContributors": {
+			"trans": "Brzké přispěvatele čekají vyšší slevy!",
+			"eng": "Early contributors receive higher discounts!"
+		},
+		"partyTitle": {
+			"trans": "Sleva na párty",
+			"eng": "Party Discount"
+		},
+		"partySubtitle": {
+			"trans": "Snížené požadavky na příspěvky:",
+			"eng": "Reduced contribution requirements:"
+		},
+		"topUpTitle": {
+			"trans": "Odměny za dobití",
+			"eng": "Top-Up Rewards"
+		},
+		"topUpReward": {
+			"trans": "Speciální odměny dostupné při dobití během akce",
+			"eng": "Special rewards available when topping up during the event"
+		},
+		"lootTitle": {
+			"trans": "Speciální kořist",
+			"eng": "Special Loot"
+		},
+		"lootCrate": {
+			"trans": "Speciální předměty dostupné v loot cratech během akce",
+			"eng": "Special items available in loot crates during the event"
+		},
+		"chatTitle": {
+			"trans": "Chat Efekty",
+			"eng": "Chat Effects"
+		},
+		"chatEffect": {
+			"trans": "Exkluzivní efekty chatu dostupné během akce",
+			"eng": "Exclusive chat effects available during the event"
+		},
+		"bgmTitle": {
+			"trans": "Hudba události",
+			"eng": "Event Music"
+		},
+		"bgm": {
+			"trans": "Speciální hudba na pozadí během akce",
+			"eng": "Special background music during the event"
+		}
+	},
+	"gameEventBenefitsSmall": {
+		"skipDiscount": {
+			"vars": [
+				"percent"
+			],
+			"trans": "Zrychlete svůj postup s ${percent}% slevou na všechny přeskočení",
+			"eng": "Speed up your progress with a ${percent}% discount on all skips"
+		},
+		"caliDiscount": {
+			"trans": "Superchargeujte své kalibrace se sníženými náklady na příspěvky",
+			"eng": "Supercharge your calibrations with reduced contribution costs"
+		},
+		"partyDiscount": {
+			"trans": "Spojte síly a ušetřete s exkluzivními slevami na příspěvky za party",
+			"eng": "Team up and save with exclusive party contribution discounts"
+		},
+		"topUpReward": {
+			"trans": "Získejte bonusové odměny při dobití během akčního období",
+			"eng": "Get bonus rewards when topping up during the event period"
+		},
+		"lootCrate": {
+			"trans": "Objevte poklady s omezenou dostupností v exkluzivních událostních loot cratech",
+			"eng": "Discover limited-time treasures in exclusive event loot crates"
+		},
+		"chatEffect": {
+			"trans": "Vyjádři se pomocí úchvatných efektů chatu s tématikou události",
+			"eng": "Express yourself with dazzling event-themed chat effects"
+		}
+	},
 	"misc": {
 		"back": {
 			"trans": "zpět",
@@ -2926,10 +3046,82 @@
 		}
 	},
 	"minigame": {
+		"circuitConnection": {
+			"title": {
+				"trans": "Neurální obvodový přístup",
+				"eng": "Neural Circuit Override"
+			},
+			"subtitle": {
+				"trans": "Zjištěn bezpečnostní průnik: Firewall byl narušen",
+				"eng": "Security Breach Detected: Firewall Compromised"
+			},
+			"instructions": {
+				"trans": "Rychle! Obcházejte neurální bezpečnostní uzly v pořadí, abyste získali přístup k systému. Sledujte sekvenci uzlů, než vás protokol ICE odhalí.",
+				"eng": "Quick! Bypass the neural security nodes in sequence to gain system access. Follow the node sequence before the ICE protocol detects you."
+			},
+			"node": {
+				"trans": "Obvodový uzel",
+				"eng": "Circuit Node"
+			}
+		},
+		"dataStream": {
+			"title": {
+				"trans": "Interceptor datového proudu",
+				"eng": "Data Stream Interceptor"
+			},
+			"instructions": {
+				"trans": "ZACHYŤTE PLATNÉ DATOVÉ BALÍKY [SVÍTÍCÍ] // VYHNĚTE SE POŠKOZENÝM",
+				"eng": "INTERCEPT VALID DATA PACKETS [GLOWING] // AVOID CORRUPTED ONES"
+			}
+		},
+		"sequenceHack": {
+			"title": {
+				"trans": "Přepsání paměťové banky",
+				"eng": "Memory Bank Override"
+			},
+			"instructions": {
+				"vars": [
+					"duration"
+				],
+				"trans": "UPOZORNĚNÍ: Detekován bezpečnostní vzor. Zapamatujte si a zopakujte binární sekvenci pro získání přístupu do systému. Modrá představuje 0, červená představuje 1. Vzor viditelný po dobu ${duration} sekund. Klikněte kdekoli pro okamžitý začátek.",
+				"eng": "ALERT: Security pattern detected. Memorize and replicate the binary sequence to gain system access. Blue represents 0, Red represents 1. Pattern visible for ${duration} seconds. Click anywhere to start immediately."
+			},
+			"check": {
+				"trans": "OVĚŘIT VZOR",
+				"eng": "VERIFY PATTERN"
+			},
+			"success": {
+				"trans": "PŘÍSTUP UDĚLEN: Paměťová banka byla úspěšně prolomena. Systém byl ohrožen.",
+				"eng": "ACCESS GRANTED: Memory bank successfully breached. System compromised."
+			}
+		},
+		"symbolAlignment": {
+			"title": {
+				"trans": "DEKRYPTUJ_NEURÁLNÍ_DATA.exe",
+				"eng": "DECRYPT_NEURAL_DATA.exe"
+			},
+			"instructions": {
+				"vars": [
+					"total"
+				],
+				"trans": "ALIGN_ENCRYPTION_KEYS [${total}] :: UPOZORNĚNÍ: SYSTÉMOVÝ RESET PŘI NESOULADU",
+				"eng": "ALIGN_ENCRYPTION_KEYS [${total}] :: WARNING: SYSTEM RESET ON MISMATCH"
+			}
+		},
 		"tileTrack": {
 			"tip": {
 				"trans": "Klikněte na zvýrazněné tlačítko pro odemčení",
 				"eng": "Click on the highlighted button to unlock"
+			}
+		},
+		"gameName": {
+			"title": {
+				"trans": "Název hry",
+				"eng": "Game Title"
+			},
+			"instructions": {
+				"trans": "Jak hrát",
+				"eng": "How to play"
 			}
 		}
 	},
@@ -3008,6 +3200,16 @@
 			"eng": "Give street cred"
 		}
 	},
+	"gangPage": {
+		"notificationDisabled": {
+			"trans": "Oznámení z gangového chatu jsou vypnuta",
+			"eng": "Gang chat notifications disabled"
+		},
+		"notificationEnabled": {
+			"trans": "Oznámení z gangového chatu povolena",
+			"eng": "Gang chat notifications enabled"
+		}
+	},
 	"cost": {
 		"requireGang": {
 			"trans": "Je vyžadováno, aby jsi byl v gangu",
@@ -3058,6 +3260,15 @@
 	"misc,durability": {
 		"trans": "výdrž",
 		"eng": "durability"
+	},
+	"mailRoomContent": {
+		"time": {
+			"vars": [
+				"time"
+			],
+			"trans": "před ${time}",
+			"eng": "${time} ago"
+		}
 	},
 	"chatHeader": {
 		"skipAvailable": {
@@ -3763,14 +3974,6 @@
 			],
 			"trans": "Tohle nemůžete ${verb}",
 			"eng": "You are not able to ${verb} this"
-		},
-		"timeRequiredText": {
-			"vars": [
-				"verb",
-				"timeStr"
-			],
-			"trans": "Čas potřebný pro ${verb}: ${timeStr}",
-			"eng": "Time required to ${verb}: ${timeStr}"
 		}
 	},
 	"reward": {
@@ -4711,6 +4914,32 @@
 			}
 		}
 	},
+	"clanMemberSort": {
+		"resource": {
+			"displayName": {
+				"trans": "Zdroje",
+				"eng": "Resource"
+			}
+		},
+		"money": {
+			"displayName": {
+				"trans": "Peníze",
+				"eng": "Money"
+			}
+		},
+		"occupation": {
+			"displayName": {
+				"trans": "Povolání",
+				"eng": "Occupation"
+			}
+		},
+		"gangExp": {
+			"displayName": {
+				"trans": "Gang Exp",
+				"eng": "Gang Exp"
+			}
+		}
+	},
 	"donationType": {
 		"donation1": {
 			"trans": "Člen",
@@ -4847,6 +5076,14 @@
 		"donation34": {
 			"trans": "Punk",
 			"eng": "Punk"
+		},
+		"donation35": {
+			"trans": "Valentýn",
+			"eng": "Valentine"
+		},
+		"donation36": {
+			"trans": "Cyberpunk",
+			"eng": "Cyberpunk"
 		},
 		"moderator": {
 			"trans": "Moderátor",
@@ -6189,6 +6426,86 @@
 					"eng": "More coming in future update"
 				}
 			}
+		},
+		"donation35": {
+			"benefits": {
+				"1": {
+					"trans": "\"Valentýnský\" darovací titul",
+					"eng": "\"Valentine\" donation title"
+				},
+				"2": {
+					"trans": "Odemkněte přizpůsobení profilového obrázku",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "Rámec Valentýn (s animací)",
+					"eng": "Valentine frame (with animation)"
+				},
+				"4": {
+					"trans": "Valentýnský profil (s animací)",
+					"eng": "Valentine Profile (with animation)"
+				},
+				"5": {
+					"trans": "Odemknout vlastní bio",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "Dekorace punk profilu",
+					"eng": "Punk profile decoration"
+				},
+				"7": {
+					"trans": "Upravte gangové motto",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "Přizpůsobit gangový obrázek",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "Více přijde v budoucí aktualizaci",
+					"eng": "More coming in future update"
+				}
+			}
+		},
+		"donation36": {
+			"benefits": {
+				"1": {
+					"trans": "\"Kyberpunk\" darovací titul",
+					"eng": "\"Cyberpunk\" donation title"
+				},
+				"2": {
+					"trans": "Odemkněte přizpůsobení profilového obrázku",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "Rámec kyberpunk (s animací)",
+					"eng": "Cyberpunk frame (with animation)"
+				},
+				"4": {
+					"trans": "Kyberpunkový profil (s animací)",
+					"eng": "Cyberpunk Profile (with animation)"
+				},
+				"5": {
+					"trans": "Odemknout vlastní bio",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "Dekorace profilu v kyberpunkovém stylu",
+					"eng": "Cyberpunk profile decoration"
+				},
+				"7": {
+					"trans": "Upravte gangové motto",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "Přizpůsobit gangový obrázek",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "Více přijde v budoucí aktualizaci",
+					"eng": "More coming in future update"
+				}
+			}
 		}
 	},
 	"equipmentMarks": {
@@ -6266,7 +6583,19 @@
 		},
 		"lunarNewYear": {
 			"trans": "Lunární Nový rok",
-			"eng": "Lunar New Year"
+			"eng": "Lunar New Year",
+			"skipDiscountTitle": {
+				"trans": "Sleva na Lunární Nový rok",
+				"eng": "Lunar New Year Discount"
+			}
+		},
+		"valentine": {
+			"trans": "Valentýn",
+			"eng": "Valentine",
+			"skipDiscountTitle": {
+				"trans": "Sleva na Valentýna",
+				"eng": "Valentine Discount"
+			}
 		},
 		"halloween": {
 			"trans": "předvečer Všech svatých",
@@ -6283,10 +6612,7 @@
 		"sakura": {
 			"name": {
 				"trans": "Březen",
-				"eng": "${percent}% off during event",
-				"vars": [
-					"percent"
-				]
+				"eng": "March"
 			}
 		},
 		"rainbow": {
@@ -7494,6 +7820,34 @@
 				"eng": "Push past your limits and grind like a machine--When consumed, increase damage dealt by ${percent}% for ${minutes} minutes"
 			}
 		},
+		"heartShapedChocolate": {
+			"name": {
+				"trans": "Čokoláda ve tvaru srdce",
+				"eng": "Heart Shaped Chocolate"
+			},
+			"description": {
+				"vars": [
+					"percent",
+					"event"
+				],
+				"trans": "Chutná čokoláda ve tvaru srdce, která může zvýšit získané EXP v AFK úlohách o ${percent}%. \\nTento předmět lze použít pouze během ${event} akce",
+				"eng": "A delicious heart shaped chocolate that can be used to increase EXP received in AFK tasks by ${percent}%.\\nThis item can only be used during ${event} event"
+			}
+		},
+		"chocoBerry": {
+			"name": {
+				"trans": "Čokoládová jahoda",
+				"eng": "Chocolate Strawberry"
+			},
+			"description": {
+				"vars": [
+					"percent",
+					"event"
+				],
+				"trans": "Deliciousní čokoládová jahoda, která může zvýšit EXP a BTC získané v AFK úkolech o ${percent}%. \\nTento předmět lze použít pouze během ${event} události",
+				"eng": "A delicious chocolate strawberry that can be used to increase EXP and BTC received in AFK tasks by ${percent}%.\\nThis item can only be used during ${event} event"
+			}
+		},
 		"experienceShard": {
 			"name": {
 				"vars": [
@@ -7822,19 +8176,19 @@
 				"trans": "jeďte do ${segmentStationName}",
 				"eng": "go to ${segmentStationName}"
 			},
-			"toZone": {
+			"toLevel1Zone": {
 				"tut": {
 					"vars": [
 						"segmentStationName"
 					],
-					"trans": "Pokračujte zde, abyste bojovali proti nepříteli 1. úrovně",
-					"eng": "Continue here to fight level 1 enemy"
+					"trans": "Klikněte sem pro vstup do zóny úrovně 1 až 4",
+					"eng": "Click here to enter 1 to 4 level zone area"
 				},
 				"description": {
 					"vars": [
 						"zoneName"
 					],
-					"trans": "Jeďte na ${zoneName}",
+					"trans": "Jdi na ${zoneName}",
 					"eng": "Go to ${zoneName}"
 				}
 			}
@@ -10137,11 +10491,11 @@
 	"christmasPromo": {
 		"title": {
 			"trans": "Šťastná zimní dovolená!",
-			"eng": "Happy Winter Holiday!"
+			"eng": "Christmas Celebration"
 		},
 		"desc1": {
 			"trans": "Je to opět nejkrásnější doba roku! V Shangri-La slavíme zimní dovolenou speciální událostí!",
-			"eng": "It's the most wonderful time of the year again! in Shang-ri-la we are celebrating the winter holiday with a special event!"
+			"eng": "'Tis the season to be jolly! Celebrate Christmas with special rewards and festive events."
 		},
 		"v3": {
 			"desc2": {
@@ -10156,6 +10510,14 @@
 				"trans": "Během prázdnin bude k dispozici vánoční chat a znak!",
 				"eng": "During the holiday season, Christmas chat frame and emblem will be available!"
 			}
+		},
+		"specialMusic": {
+			"trans": "Užijte si sváteční hudbu na pozadí během akce!",
+			"eng": "Enjoy the festive background music during the event!"
+		},
+		"chatMessage1": {
+			"trans": "Veselé svátky všem!",
+			"eng": "Happy Holidays everyone!"
 		}
 	},
 	"christmasPromoSmall": {
@@ -10293,6 +10655,20 @@
 				"trans": "Zjistit více",
 				"eng": "Learn More"
 			}
+		},
+		"valentinePromo": {
+			"title": {
+				"trans": "Valentýnská speciálka",
+				"eng": "Valentine\\'s Special"
+			},
+			"description": {
+				"trans": "Oslavte lásku s exkluzivními valentýnskými předměty a odměnami!",
+				"eng": "Celebrate love with exclusive Valentine\\'s items and rewards!"
+			},
+			"button": {
+				"trans": "Zobrazit událost",
+				"eng": "View Event"
+			}
 		}
 	},
 	"referralPromo": {
@@ -10358,13 +10734,6 @@
 			"trans": "Jarní festival je tady! Okvětní lístky sakury padají a vzduch je naplněn vůní květin",
 			"eng": "The Spring Festival is here! Sakura petals are falling, and the air is filled with the fragrance of flowers. "
 		},
-		"desc2": {
-			"vars": [
-				"percent"
-			],
-			"trans": "Všechny přeskočení během události získají slevu ${percent}% na požadovanou jednotku",
-			"eng": "All skips during the event period gets ${percent}% off discount on unit required"
-		},
 		"desc3": {
 			"trans": "Během události je k dispozici exkluzivní rám a emblém Sakura chatu",
 			"eng": "Exclusive Sakura chat frame and emblem is available during event period"
@@ -10372,13 +10741,26 @@
 		"chatMessage1": {
 			"trans": "Jaro je tady",
 			"eng": "Spring is here"
+		}
+	},
+	"eventSkipDiscountSmall": {
+		"title": {
+			"trans": "Přeskočit slevu",
+			"eng": "Skip Discount"
 		},
 		"desc": {
 			"vars": [
 				"percent"
 			],
-			"trans": "Všechny přeskočení během události získají slevu ${percent}% na požadovanou jednotku 🥳",
-			"eng": "All skips during the event period gets ${percent}% off discount on unit required 🥳"
+			"trans": "${percent}% sleva na všechny Skips!",
+			"eng": "${percent}% discount on all Skips!"
+		},
+		"desc2": {
+			"vars": [
+				"date"
+			],
+			"trans": "Konec ${date}",
+			"eng": "Ends on ${date}"
 		}
 	},
 	"skipDiscountPromoSmall": {
@@ -10569,6 +10951,24 @@
 			],
 			"trans": "Konzumujte lahodnou krůtu k získání +${percent}% exp na úkoly AFK",
 			"eng": "Consume delicious turkey to get +${percent}% EXP on AFK tasks"
+		}
+	},
+	"valentinePromo": {
+		"title": {
+			"trans": "Valentýnská akce",
+			"eng": "Valentine Event"
+		},
+		"desc1": {
+			"trans": "Láska je ve vzduchu! Oslavte Valentýna se speciálními odměnami a událostmi.",
+			"eng": "Love is in the air! Celebrate Valentine's Day with special rewards and events."
+		},
+		"specialItems": {
+			"trans": "Speciální valentýnské předměty můžete najít během akce!",
+			"eng": "Special Valentine items can be found during the event!"
+		},
+		"chatMessage1": {
+			"trans": "Šťastného Valentýna!",
+			"eng": "Happy Valentine\\'s Day!"
 		}
 	},
 	"retroPromo": {

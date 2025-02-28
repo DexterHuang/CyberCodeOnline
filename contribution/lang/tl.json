@@ -1,5 +1,13 @@
 {
 	"apartment": {
+		"rentalDueDate": {
+			"vars": [
+				"timeToDue",
+				"rentalDueDate"
+			],
+			"trans": "Petsa ng Pagbabayad ng Upa: ${rentalDueDate} (${timeToDue})",
+			"eng": "Rental Due Date: ${rentalDueDate} (${timeToDue})"
+		},
 		"title": {
 			"vars": [
 				"playerName"
@@ -235,6 +243,14 @@
 					"eng": "No gang has occupied this area yet"
 				}
 			},
+			"sort": {
+				"trans": "Ayusin",
+				"eng": "Sort"
+			},
+			"sortDirection": {
+				"trans": "Direksyon",
+				"eng": "Direction"
+			},
 			"members": {
 				"trans": "Mga miyembro",
 				"eng": "Members"
@@ -364,22 +380,6 @@
 				"colorBox": {
 					"trans": "Pindutin ang kulay na ito sa ibaba",
 					"eng": "Click on this color below"
-				},
-				"lose": {
-					"title": {
-						"trans": "Nabigo ang decryption",
-						"eng": "Decryption failed"
-					},
-					"description": {
-						"trans": "Pindutin ang tamang pagkakasunud-sunod ng kulay upang mabuksan",
-						"eng": "Click on the correct color sequence to unlock"
-					},
-					"button": {
-						"title": {
-							"trans": "Subukang muli",
-							"eng": "Try Again"
-						}
-					}
 				}
 			}
 		},
@@ -845,6 +845,14 @@
 				"trans": "Ang item na ito ay aalisin pagkatapos ng pagtatapos ng ${eventName} na kaganapan.",
 				"eng": "This item will be removed after the ${eventName} event ends."
 			},
+			"timeLimitedEndTime": {
+				"vars": [
+					"endDate",
+					"timeToEnd"
+				],
+				"trans": "Magwawakas ang kaganapan sa ${endDate} UTC (${timeToEnd})",
+				"eng": "Event ends at ${endDate} UTC (${timeToEnd})"
+			},
 			"timeLimited": {
 				"trans": "Limitado ang Oras",
 				"eng": "Time Limited"
@@ -910,7 +918,10 @@
 			},
 			"cantEquip": {
 				"trans": "Ang iyong antas ay masyadong mababa para sa item na ito",
-				"eng": "Your level is too low for this item"
+				"eng": "Your level is too low for this item, this item requires level ${level} to equip",
+				"vars": [
+					"level"
+				]
 			},
 			"unequip": {
 				"trans": "Unequip",
@@ -1487,6 +1498,10 @@
 				"tiny": {
 					"trans": "Maliit",
 					"eng": "Tiny"
+				},
+				"tiny2": {
+					"trans": "Napakaliit",
+					"eng": "Very Tiny"
 				},
 				"auto": {
 					"trans": "Auto",
@@ -2259,9 +2274,12 @@
 			}
 		},
 		"landing": {
-			"subtile": {
-				"trans": "Cyberpunk Text-based MMORPG",
-				"eng": "Cyberpunk Text-based MMORPG"
+			"accountCount": {
+				"vars": [
+					"count"
+				],
+				"trans": "Sumali na sa higit ${count} na ibang cyberpunkers ngayon!",
+				"eng": "Join over ${count} other cyberpunkers now!"
 			},
 			"description1": {
 				"trans": "CyberCode Online is an online game. An account is needed to store game data.",
@@ -2758,6 +2776,108 @@
 			}
 		}
 	},
+	"gameEventBenefits": {
+		"skipBenefit": {
+			"trans": "Mabilis na Pasulong na Pagsulong",
+			"eng": "Fast Forward Boost"
+		},
+		"skipDiscount": {
+			"vars": [
+				"percent"
+			],
+			"trans": "Lahat ng skips sa panahon ng kaganapan ay makakakuha ng ${percent}% na diskwento sa kinakailangang yunit",
+			"eng": "All skips during the event period gets ${percent}% off discount on unit required"
+		},
+		"caliTitle": {
+			"trans": "Diskwento sa Kalibrasyon",
+			"eng": "Calibration Discount"
+		},
+		"caliSubtitle": {
+			"trans": "Nabawasan ang mga kinakailangan sa kontribusyon:",
+			"eng": "Reduced contribution requirements:"
+		},
+		"discountTier": {
+			"vars": [
+				"percent",
+				"ranges"
+			],
+			"trans": "${percent}% diskwento sa: ${ranges}",
+			"eng": "${percent}% discount at: ${ranges}"
+		},
+		"earlyContributors": {
+			"trans": "Mas mataas na diskwento para sa mga maagang nag-ambag!",
+			"eng": "Early contributors receive higher discounts!"
+		},
+		"partyTitle": {
+			"trans": "Diskwento sa Pagsasama",
+			"eng": "Party Discount"
+		},
+		"partySubtitle": {
+			"trans": "Nabawasan ang mga kinakailangan sa kontribusyon:",
+			"eng": "Reduced contribution requirements:"
+		},
+		"topUpTitle": {
+			"trans": "Mga Gantimpala sa Pagdagdag ng Pondo",
+			"eng": "Top-Up Rewards"
+		},
+		"topUpReward": {
+			"trans": "Mga espesyal na gantimpala na available kapag nag-top up sa panahon ng kaganapan",
+			"eng": "Special rewards available when topping up during the event"
+		},
+		"lootTitle": {
+			"trans": "Espesyal na Loot",
+			"eng": "Special Loot"
+		},
+		"lootCrate": {
+			"trans": "Mga espesyal na item na available sa loot crates sa panahon ng kaganapan",
+			"eng": "Special items available in loot crates during the event"
+		},
+		"chatTitle": {
+			"trans": "Mga Epekto sa Chat",
+			"eng": "Chat Effects"
+		},
+		"chatEffect": {
+			"trans": "Eksklusibong mga epekto sa chat na available sa panahon ng kaganapan",
+			"eng": "Exclusive chat effects available during the event"
+		},
+		"bgmTitle": {
+			"trans": "Musika ng Kaganapan",
+			"eng": "Event Music"
+		},
+		"bgm": {
+			"trans": "Espesyal na background music sa panahon ng kaganapan",
+			"eng": "Special background music during the event"
+		}
+	},
+	"gameEventBenefitsSmall": {
+		"skipDiscount": {
+			"vars": [
+				"percent"
+			],
+			"trans": "Pabilisin ang iyong progreso sa ${percent}% diskwento sa lahat ng skips",
+			"eng": "Speed up your progress with a ${percent}% discount on all skips"
+		},
+		"caliDiscount": {
+			"trans": "Pabilisin ang iyong mga calibration gamit ang pinababang gastos sa kontribusyon",
+			"eng": "Supercharge your calibrations with reduced contribution costs"
+		},
+		"partyDiscount": {
+			"trans": "Makipagtulungan at mag-save gamit ang eksklusibong diskwento sa kontribusyon ng party",
+			"eng": "Team up and save with exclusive party contribution discounts"
+		},
+		"topUpReward": {
+			"trans": "Kumuha ng bonus na gantimpala kapag nag-top up sa panahon ng kaganapan",
+			"eng": "Get bonus rewards when topping up during the event period"
+		},
+		"lootCrate": {
+			"trans": "Tuklasin ang mga limitadong oras na kayamanan sa mga eksklusibong loot crate ng kaganapan",
+			"eng": "Discover limited-time treasures in exclusive event loot crates"
+		},
+		"chatEffect": {
+			"trans": "Ipakita ang iyong sarili gamit ang nakakabighaning chat effects na may temang kaganapan",
+			"eng": "Express yourself with dazzling event-themed chat effects"
+		}
+	},
 	"misc": {
 		"back": {
 			"trans": "Balik",
@@ -2926,10 +3046,82 @@
 		}
 	},
 	"minigame": {
+		"circuitConnection": {
+			"title": {
+				"trans": "Pagsasagawa ng Neural Circuit Override",
+				"eng": "Neural Circuit Override"
+			},
+			"subtitle": {
+				"trans": "Nakatagpo ng Seguridad na Paglabag: Na-kompromiso ang Firewall",
+				"eng": "Security Breach Detected: Firewall Compromised"
+			},
+			"instructions": {
+				"trans": "Mabilis! I-bypass ang mga neural security nodes sa tamang pagkakasunod-sunod para makakuha ng access sa sistema. Sundin ang pagkakasunod-sunod ng nodes bago ka matukoy ng ICE protocol.",
+				"eng": "Quick! Bypass the neural security nodes in sequence to gain system access. Follow the node sequence before the ICE protocol detects you."
+			},
+			"node": {
+				"trans": "Circuit Node",
+				"eng": "Circuit Node"
+			}
+		},
+		"dataStream": {
+			"title": {
+				"trans": "Data Stream Interceptor",
+				"eng": "Data Stream Interceptor"
+			},
+			"instructions": {
+				"trans": "INTERCEPT VALID DATA PACKETS [NAGLILIYAB] // Iwasan ang MGA SIRA",
+				"eng": "INTERCEPT VALID DATA PACKETS [GLOWING] // AVOID CORRUPTED ONES"
+			}
+		},
+		"sequenceHack": {
+			"title": {
+				"trans": "Memory Bank Override",
+				"eng": "Memory Bank Override"
+			},
+			"instructions": {
+				"vars": [
+					"duration"
+				],
+				"trans": "ALERT: Nakita ang security pattern. Tandaan at ulitin ang binary sequence para makakuha ng access sa sistema. Ang Asul ay kumakatawan sa 0, ang Pula ay kumakatawan sa 1. Makikita ang pattern sa loob ng ${duration} segundo. I-click kahit saan para simulan agad.",
+				"eng": "ALERT: Security pattern detected. Memorize and replicate the binary sequence to gain system access. Blue represents 0, Red represents 1. Pattern visible for ${duration} seconds. Click anywhere to start immediately."
+			},
+			"check": {
+				"trans": "SURIIN ANG PATERNO",
+				"eng": "VERIFY PATTERN"
+			},
+			"success": {
+				"trans": "ACCESS GRANTED: Matagumpay na na-breach ang memory bank. Na-kompromiso ang sistema.",
+				"eng": "ACCESS GRANTED: Memory bank successfully breached. System compromised."
+			}
+		},
+		"symbolAlignment": {
+			"title": {
+				"trans": "DECRYPT_NEURAL_DATA.exe",
+				"eng": "DECRYPT_NEURAL_DATA.exe"
+			},
+			"instructions": {
+				"vars": [
+					"total"
+				],
+				"trans": "ALIGN_ENCRYPTION_KEYS [${total}] :: BABALA: NAKA-SYSTEM RESET DAHIL SA MISMATCH",
+				"eng": "ALIGN_ENCRYPTION_KEYS [${total}] :: WARNING: SYSTEM RESET ON MISMATCH"
+			}
+		},
 		"tileTrack": {
 			"tip": {
 				"trans": "I-click ang naka-highlight na button para i-unlock",
 				"eng": "Click on the highlighted button to unlock"
+			}
+		},
+		"gameName": {
+			"title": {
+				"trans": "Pamagat ng Laro",
+				"eng": "Game Title"
+			},
+			"instructions": {
+				"trans": "Paano maglaro",
+				"eng": "How to play"
 			}
 		}
 	},
@@ -3008,6 +3200,16 @@
 			"eng": "Give street cred"
 		}
 	},
+	"gangPage": {
+		"notificationDisabled": {
+			"trans": "Naka-disable ang mga notification ng gang chat",
+			"eng": "Gang chat notifications disabled"
+		},
+		"notificationEnabled": {
+			"trans": "Naka-enable ang mga notification ng gang chat",
+			"eng": "Gang chat notifications enabled"
+		}
+	},
 	"cost": {
 		"requireGang": {
 			"trans": "Hinihiling ka na maging sa isang gang",
@@ -3058,6 +3260,15 @@
 	"misc,durability": {
 		"trans": "tibay",
 		"eng": "durability"
+	},
+	"mailRoomContent": {
+		"time": {
+			"vars": [
+				"time"
+			],
+			"trans": "${time} nakaraan",
+			"eng": "${time} ago"
+		}
 	},
 	"chatHeader": {
 		"skipAvailable": {
@@ -3763,14 +3974,6 @@
 			],
 			"trans": "Hindi mo magagawang ${verb} ito",
 			"eng": "You are not able to ${verb} this"
-		},
-		"timeRequiredText": {
-			"vars": [
-				"verb",
-				"timeStr"
-			],
-			"trans": "Oras na kinakailangan sa ${verb}: ${timeStr}",
-			"eng": "Time required to ${verb}: ${timeStr}"
 		}
 	},
 	"reward": {
@@ -4711,6 +4914,32 @@
 			}
 		}
 	},
+	"clanMemberSort": {
+		"resource": {
+			"displayName": {
+				"trans": "Yaman",
+				"eng": "Resource"
+			}
+		},
+		"money": {
+			"displayName": {
+				"trans": "Pera",
+				"eng": "Money"
+			}
+		},
+		"occupation": {
+			"displayName": {
+				"trans": "Trabaho",
+				"eng": "Occupation"
+			}
+		},
+		"gangExp": {
+			"displayName": {
+				"trans": "Gang Exp",
+				"eng": "Gang Exp"
+			}
+		}
+	},
 	"donationType": {
 		"donation1": {
 			"trans": "Miyembro",
@@ -4847,6 +5076,14 @@
 		"donation34": {
 			"trans": "Punk",
 			"eng": "Punk"
+		},
+		"donation35": {
+			"trans": "Valentine",
+			"eng": "Valentine"
+		},
+		"donation36": {
+			"trans": "Cyberpunk",
+			"eng": "Cyberpunk"
 		},
 		"moderator": {
 			"trans": "Tagapamagitan",
@@ -6189,6 +6426,86 @@
 					"eng": "More coming in future update"
 				}
 			}
+		},
+		"donation35": {
+			"benefits": {
+				"1": {
+					"trans": "\"Valentine\" na pamagat ng donasyon",
+					"eng": "\"Valentine\" donation title"
+				},
+				"2": {
+					"trans": "I-unlock ang pag-customize ng profile picture",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "Valentine frame (with animation)",
+					"eng": "Valentine frame (with animation)"
+				},
+				"4": {
+					"trans": "Valentine Profile (na may animation)",
+					"eng": "Valentine Profile (with animation)"
+				},
+				"5": {
+					"trans": "I-unlock ang custom na bio",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "Dekorasyon ng punk profile",
+					"eng": "Punk profile decoration"
+				},
+				"7": {
+					"trans": "I-customize ang motto ng gang",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "I-customize ang imahe ng gang",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "Mas marami pang darating sa susunod na update",
+					"eng": "More coming in future update"
+				}
+			}
+		},
+		"donation36": {
+			"benefits": {
+				"1": {
+					"trans": "\"Donasyon para sa Cyberpunk\"",
+					"eng": "\"Cyberpunk\" donation title"
+				},
+				"2": {
+					"trans": "I-unlock ang pag-customize ng profile picture",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "Cyberpunk frame (with animation)",
+					"eng": "Cyberpunk frame (with animation)"
+				},
+				"4": {
+					"trans": "Cyberpunk Profile (na may animasyon)",
+					"eng": "Cyberpunk Profile (with animation)"
+				},
+				"5": {
+					"trans": "I-unlock ang custom na bio",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "Dekorasyon ng Cyberpunk na Profile",
+					"eng": "Cyberpunk profile decoration"
+				},
+				"7": {
+					"trans": "I-customize ang motto ng gang",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "I-customize ang imahe ng gang",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "Mas marami pang darating sa susunod na update",
+					"eng": "More coming in future update"
+				}
+			}
 		}
 	},
 	"equipmentMarks": {
@@ -6266,7 +6583,19 @@
 		},
 		"lunarNewYear": {
 			"trans": "Bagong Taon ng mga Tsino",
-			"eng": "Lunar New Year"
+			"eng": "Lunar New Year",
+			"skipDiscountTitle": {
+				"trans": "Diskwento ng Bagong Taon ng Buwan",
+				"eng": "Lunar New Year Discount"
+			}
+		},
+		"valentine": {
+			"trans": "Valentine",
+			"eng": "Valentine",
+			"skipDiscountTitle": {
+				"trans": "Diskwento ng Araw ng mga Puso",
+				"eng": "Valentine Discount"
+			}
 		},
 		"halloween": {
 			"trans": "Halloween",
@@ -6283,10 +6612,7 @@
 		"sakura": {
 			"name": {
 				"trans": "Marso",
-				"eng": "${percent}% off during event",
-				"vars": [
-					"percent"
-				]
+				"eng": "March"
 			}
 		},
 		"rainbow": {
@@ -7494,6 +7820,34 @@
 				"eng": "Push past your limits and grind like a machine--When consumed, increase damage dealt by ${percent}% for ${minutes} minutes"
 			}
 		},
+		"heartShapedChocolate": {
+			"name": {
+				"trans": "Tsokolate na Hugis Puso",
+				"eng": "Heart Shaped Chocolate"
+			},
+			"description": {
+				"vars": [
+					"percent",
+					"event"
+				],
+				"trans": "Isang masarap na tsokolate na hugis puso na maaaring gamitin para dagdagan ang EXP na natatanggap sa mga AFK na gawain ng ${percent}%. \\nAng item na ito ay maaari lamang gamitin sa ${event} na kaganapan",
+				"eng": "A delicious heart shaped chocolate that can be used to increase EXP received in AFK tasks by ${percent}%.\\nThis item can only be used during ${event} event"
+			}
+		},
+		"chocoBerry": {
+			"name": {
+				"trans": "Tsokolate at Saging",
+				"eng": "Chocolate Strawberry"
+			},
+			"description": {
+				"vars": [
+					"percent",
+					"event"
+				],
+				"trans": "Isang masarap na tsokolate na strawberry na maaaring gamitin para dagdagan ang EXP at BTC na natatanggap sa AFK na mga gawain ng ${percent}%. \\nAng item na ito ay maaari lamang gamitin sa ${event} na kaganapan",
+				"eng": "A delicious chocolate strawberry that can be used to increase EXP and BTC received in AFK tasks by ${percent}%.\\nThis item can only be used during ${event} event"
+			}
+		},
 		"experienceShard": {
 			"name": {
 				"vars": [
@@ -7822,13 +8176,13 @@
 				"trans": "pumunta sa ${segmentStationName}",
 				"eng": "go to ${segmentStationName}"
 			},
-			"toZone": {
+			"toLevel1Zone": {
 				"tut": {
 					"vars": [
 						"segmentStationName"
 					],
-					"trans": "Continue here to fight a level 1 enemy",
-					"eng": "Continue here to fight level 1 enemy"
+					"trans": "I-click dito para pumasok sa 1 hanggang 4 na antas ng zone area",
+					"eng": "Click here to enter 1 to 4 level zone area"
 				},
 				"description": {
 					"vars": [
@@ -10350,11 +10704,11 @@
 	"christmasPromo": {
 		"title": {
 			"trans": "Maligayang Holiday ng Taglamig!",
-			"eng": "Happy Winter Holiday!"
+			"eng": "Christmas Celebration"
 		},
 		"desc1": {
 			"trans": "Ito ang pinaka -kahanga -hangang oras ng taon muli! Sa Shangri-La ipinagdiriwang namin ang holiday ng taglamig na may isang espesyal na kaganapan!",
-			"eng": "It's the most wonderful time of the year again! in Shang-ri-la we are celebrating the winter holiday with a special event!"
+			"eng": "'Tis the season to be jolly! Celebrate Christmas with special rewards and festive events."
 		},
 		"v3": {
 			"desc2": {
@@ -10369,6 +10723,14 @@
 				"trans": "Sa panahon ng kapaskuhan, magagamit ang Christmas chat frame at emblema!",
 				"eng": "During the holiday season, Christmas chat frame and emblem will be available!"
 			}
+		},
+		"specialMusic": {
+			"trans": "Tamasahin ang masayang musika sa likuran habang nagaganap ang kaganapan!",
+			"eng": "Enjoy the festive background music during the event!"
+		},
+		"chatMessage1": {
+			"trans": "Maligayang Piyesta sa lahat!",
+			"eng": "Happy Holidays everyone!"
 		}
 	},
 	"christmasPromoSmall": {
@@ -10506,6 +10868,20 @@
 				"trans": "Matuto Pa Nang Higit",
 				"eng": "Learn More"
 			}
+		},
+		"valentinePromo": {
+			"title": {
+				"trans": "Espesyal ng Araw ng mga Puso",
+				"eng": "Valentine\\'s Special"
+			},
+			"description": {
+				"trans": "Ipagdiwang ang pag-ibig sa mga eksklusibong item at gantimpala para sa Araw ng mga Puso!",
+				"eng": "Celebrate love with exclusive Valentine\\'s items and rewards!"
+			},
+			"button": {
+				"trans": "Tingnan ang Kaganapan",
+				"eng": "View Event"
+			}
 		}
 	},
 	"referralPromo": {
@@ -10571,13 +10947,6 @@
 			"trans": "Nandito na ang Spring Festival! Ang mga petals ng Sakura ay bumabagsak, at ang hangin ay pumupuno ng amoy ng mga bulaklak",
 			"eng": "The Spring Festival is here! Sakura petals are falling, and the air is filled with the fragrance of flowers. "
 		},
-		"desc2": {
-			"vars": [
-				"percent"
-			],
-			"trans": "Lahat ng pag-skip sa panahon ng event ay may ${percent}% diskwento sa kinakailangang yunit",
-			"eng": "All skips during the event period gets ${percent}% off discount on unit required"
-		},
 		"desc3": {
 			"trans": "May eksklusibong Sakura chat frame at emblem na magiging available sa panahon ng event",
 			"eng": "Exclusive Sakura chat frame and emblem is available during event period"
@@ -10585,13 +10954,26 @@
 		"chatMessage1": {
 			"trans": "Nandito na ang tagsibol",
 			"eng": "Spring is here"
+		}
+	},
+	"eventSkipDiscountSmall": {
+		"title": {
+			"trans": "Laktawan ang Diskwento",
+			"eng": "Skip Discount"
 		},
 		"desc": {
 			"vars": [
 				"percent"
 			],
-			"trans": "Lahat ng skips sa panahon ng event ay may ${percent}% discount sa kinakailangang unit 🥳",
-			"eng": "All skips during the event period gets ${percent}% off discount on unit required 🥳"
+			"trans": "${percent}% diskwento sa lahat ng Skips!",
+			"eng": "${percent}% discount on all Skips!"
+		},
+		"desc2": {
+			"vars": [
+				"date"
+			],
+			"trans": "Nagtatapos sa ${date}",
+			"eng": "Ends on ${date}"
 		}
 	},
 	"skipDiscountPromoSmall": {
@@ -10782,6 +11164,24 @@
 			],
 			"trans": "Ubusin ang masarap na pabo upang makakuha ng +${percent}% exp sa mga gawain sa AFK",
 			"eng": "Consume delicious turkey to get +${percent}% EXP on AFK tasks"
+		}
+	},
+	"valentinePromo": {
+		"title": {
+			"trans": "Kaganapan ng Araw ng mga Puso",
+			"eng": "Valentine Event"
+		},
+		"desc1": {
+			"trans": "Nasa hangin ang pag-ibig! Ipagdiwang ang Araw ng mga Puso sa mga espesyal na gantimpala at kaganapan.",
+			"eng": "Love is in the air! Celebrate Valentine's Day with special rewards and events."
+		},
+		"specialItems": {
+			"trans": "Makakahanap ng mga espesyal na Valentine na item sa panahon ng kaganapang ito!",
+			"eng": "Special Valentine items can be found during the event!"
+		},
+		"chatMessage1": {
+			"trans": "Maligayang Araw ng mga Puso!",
+			"eng": "Happy Valentine\\'s Day!"
 		}
 	},
 	"retroPromo": {

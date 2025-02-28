@@ -1,5 +1,13 @@
 {
 	"apartment": {
+		"rentalDueDate": {
+			"vars": [
+				"timeToDue",
+				"rentalDueDate"
+			],
+			"trans": "Tanggal Jatuh Tempo Sewa: ${rentalDueDate} (${timeToDue})",
+			"eng": "Rental Due Date: ${rentalDueDate} (${timeToDue})"
+		},
 		"title": {
 			"vars": [
 				"playerName"
@@ -61,7 +69,7 @@
 			"eng": "Inventory"
 		},
 		"quest": {
-			"trans": "Quest",
+			"trans": "Misi",
 			"eng": "Quest"
 		},
 		"chat": {
@@ -235,6 +243,14 @@
 					"eng": "No gang has occupied this area yet"
 				}
 			},
+			"sort": {
+				"trans": "Urutkan",
+				"eng": "Sort"
+			},
+			"sortDirection": {
+				"trans": "Arah",
+				"eng": "Direction"
+			},
 			"members": {
 				"trans": "Anggota",
 				"eng": "Members"
@@ -364,22 +380,6 @@
 				"colorBox": {
 					"trans": "Klik warna di bawah ini",
 					"eng": "Click on this color below"
-				},
-				"lose": {
-					"title": {
-						"trans": "Dekripsi gagal",
-						"eng": "Decryption failed"
-					},
-					"description": {
-						"trans": "Klik pada urutan warna yang benar untuk membuka kunci",
-						"eng": "Click on the correct color sequence to unlock"
-					},
-					"button": {
-						"title": {
-							"trans": "Coba lagi",
-							"eng": "Try Again"
-						}
-					}
 				}
 			}
 		},
@@ -845,6 +845,14 @@
 				"trans": "Item ini akan Hilang setelah acara ${eventName} berakhir.",
 				"eng": "This item will be removed after the ${eventName} event ends."
 			},
+			"timeLimitedEndTime": {
+				"vars": [
+					"endDate",
+					"timeToEnd"
+				],
+				"trans": "Event berakhir pada ${endDate} UTC (${timeToEnd})",
+				"eng": "Event ends at ${endDate} UTC (${timeToEnd})"
+			},
 			"timeLimited": {
 				"trans": "Waktu Terbatas",
 				"eng": "Time Limited"
@@ -910,7 +918,10 @@
 			},
 			"cantEquip": {
 				"trans": "Level mu terlalu rendah untuk item ini",
-				"eng": "Your level is too low for this item"
+				"eng": "Your level is too low for this item, this item requires level ${level} to equip",
+				"vars": [
+					"level"
+				]
 			},
 			"unequip": {
 				"trans": "Lepas",
@@ -1487,6 +1498,10 @@
 				"tiny": {
 					"trans": "Kecil",
 					"eng": "Tiny"
+				},
+				"tiny2": {
+					"trans": "Sangat Kecil",
+					"eng": "Very Tiny"
 				},
 				"auto": {
 					"trans": "Auto",
@@ -2259,9 +2274,12 @@
 			}
 		},
 		"landing": {
-			"subtile": {
-				"trans": "MMORPG berbasis teks Cyberpunk",
-				"eng": "Cyberpunk Text-based MMORPG"
+			"accountCount": {
+				"vars": [
+					"count"
+				],
+				"trans": "Bergabunglah dengan lebih dari ${count} cyberpunkers lainnya sekarang!",
+				"eng": "Join over ${count} other cyberpunkers now!"
 			},
 			"description1": {
 				"trans": "CyberCode Online adalah game online, akun diperlukan untuk menyimpan data game.",
@@ -2758,6 +2776,108 @@
 			}
 		}
 	},
+	"gameEventBenefits": {
+		"skipBenefit": {
+			"trans": "Fast Forward Boost",
+			"eng": "Fast Forward Boost"
+		},
+		"skipDiscount": {
+			"vars": [
+				"percent"
+			],
+			"trans": "Semua skip selama periode acara mendapatkan diskon ${percent}% untuk unit yang diperlukan",
+			"eng": "All skips during the event period gets ${percent}% off discount on unit required"
+		},
+		"caliTitle": {
+			"trans": "Diskon Kalibrasi",
+			"eng": "Calibration Discount"
+		},
+		"caliSubtitle": {
+			"trans": "Reduced contribution requirements:",
+			"eng": "Reduced contribution requirements:"
+		},
+		"discountTier": {
+			"vars": [
+				"percent",
+				"ranges"
+			],
+			"trans": "Diskon ${percent}% di: ${ranges}",
+			"eng": "${percent}% discount at: ${ranges}"
+		},
+		"earlyContributors": {
+			"trans": "Kontributor awal mendapatkan diskon lebih besar!",
+			"eng": "Early contributors receive higher discounts!"
+		},
+		"partyTitle": {
+			"trans": "Diskon Pesta",
+			"eng": "Party Discount"
+		},
+		"partySubtitle": {
+			"trans": "Reduced contribution requirements:",
+			"eng": "Reduced contribution requirements:"
+		},
+		"topUpTitle": {
+			"trans": "Hadiah Top-Up",
+			"eng": "Top-Up Rewards"
+		},
+		"topUpReward": {
+			"trans": "Hadiah spesial tersedia saat melakukan top-up selama acara berlangsung",
+			"eng": "Special rewards available when topping up during the event"
+		},
+		"lootTitle": {
+			"trans": "Loot Spesial",
+			"eng": "Special Loot"
+		},
+		"lootCrate": {
+			"trans": "Item khusus tersedia dalam peti loot selama acara",
+			"eng": "Special items available in loot crates during the event"
+		},
+		"chatTitle": {
+			"trans": "Efek Obrolan",
+			"eng": "Chat Effects"
+		},
+		"chatEffect": {
+			"trans": "Efek obrolan eksklusif tersedia selama acara",
+			"eng": "Exclusive chat effects available during the event"
+		},
+		"bgmTitle": {
+			"trans": "Musik Acara",
+			"eng": "Event Music"
+		},
+		"bgm": {
+			"trans": "Musik latar khusus selama acara",
+			"eng": "Special background music during the event"
+		}
+	},
+	"gameEventBenefitsSmall": {
+		"skipDiscount": {
+			"vars": [
+				"percent"
+			],
+			"trans": "Percepat kemajuanmu dengan diskon ${percent}% untuk semua skip",
+			"eng": "Speed up your progress with a ${percent}% discount on all skips"
+		},
+		"caliDiscount": {
+			"trans": "Tingkatkan kalibrasi Anda dengan biaya kontribusi yang lebih rendah",
+			"eng": "Supercharge your calibrations with reduced contribution costs"
+		},
+		"partyDiscount": {
+			"trans": "Bergabunglah dan hemat dengan diskon kontribusi pesta eksklusif",
+			"eng": "Team up and save with exclusive party contribution discounts"
+		},
+		"topUpReward": {
+			"trans": "Dapatkan hadiah bonus saat melakukan top-up selama periode acara",
+			"eng": "Get bonus rewards when topping up during the event period"
+		},
+		"lootCrate": {
+			"trans": "Temukan harta karun terbatas dalam peti loot acara eksklusif",
+			"eng": "Discover limited-time treasures in exclusive event loot crates"
+		},
+		"chatEffect": {
+			"trans": "Ekspresikan dirimu dengan efek obrolan bertema acara yang memukau!",
+			"eng": "Express yourself with dazzling event-themed chat effects"
+		}
+	},
 	"misc": {
 		"back": {
 			"trans": "kembali",
@@ -2926,10 +3046,82 @@
 		}
 	},
 	"minigame": {
+		"circuitConnection": {
+			"title": {
+				"trans": "Override Sirkuit Neural",
+				"eng": "Neural Circuit Override"
+			},
+			"subtitle": {
+				"trans": "Pelanggaran Keamanan Terdeteksi: Firewall Terkompromi",
+				"eng": "Security Breach Detected: Firewall Compromised"
+			},
+			"instructions": {
+				"trans": "Cepat! Lewati node keamanan neural secara berurutan untuk mendapatkan akses sistem. Ikuti urutan node sebelum protokol ICE mendeteksi kamu.",
+				"eng": "Quick! Bypass the neural security nodes in sequence to gain system access. Follow the node sequence before the ICE protocol detects you."
+			},
+			"node": {
+				"trans": "Node Sirkuit",
+				"eng": "Circuit Node"
+			}
+		},
+		"dataStream": {
+			"title": {
+				"trans": "Peng拦 Data Stream",
+				"eng": "Data Stream Interceptor"
+			},
+			"instructions": {
+				"trans": "INTERCEPT DATA PAKET VALID [BERCAHAYA] // HINDARI YANG KORUP",
+				"eng": "INTERCEPT VALID DATA PACKETS [GLOWING] // AVOID CORRUPTED ONES"
+			}
+		},
+		"sequenceHack": {
+			"title": {
+				"trans": "Override Bank Memori",
+				"eng": "Memory Bank Override"
+			},
+			"instructions": {
+				"vars": [
+					"duration"
+				],
+				"trans": "PERINGATAN: Pola keamanan terdeteksi. Hafalkan dan tirukan urutan biner untuk mendapatkan akses sistem. Biru mewakili 0, Merah mewakili 1. Pola terlihat selama ${duration} detik. Klik di mana saja untuk mulai segera.",
+				"eng": "ALERT: Security pattern detected. Memorize and replicate the binary sequence to gain system access. Blue represents 0, Red represents 1. Pattern visible for ${duration} seconds. Click anywhere to start immediately."
+			},
+			"check": {
+				"trans": "VERIFIKASI POLA",
+				"eng": "VERIFY PATTERN"
+			},
+			"success": {
+				"trans": "AKSES DIBERIKAN: Bank memori berhasil ditembus. Sistem terkompromi.",
+				"eng": "ACCESS GRANTED: Memory bank successfully breached. System compromised."
+			}
+		},
+		"symbolAlignment": {
+			"title": {
+				"trans": "DECRYPT_NEURAL_DATA.exe",
+				"eng": "DECRYPT_NEURAL_DATA.exe"
+			},
+			"instructions": {
+				"vars": [
+					"total"
+				],
+				"trans": "ALIGN_ENCRYPTION_KEYS [${total}] :: PERINGATAN: SISTEM DIRESET KARENA TIDAK SAMA",
+				"eng": "ALIGN_ENCRYPTION_KEYS [${total}] :: WARNING: SYSTEM RESET ON MISMATCH"
+			}
+		},
 		"tileTrack": {
 			"tip": {
 				"trans": "Klik tombol yang disorot untuk membuka kunci",
 				"eng": "Click on the highlighted button to unlock"
+			}
+		},
+		"gameName": {
+			"title": {
+				"trans": "Judul Permainan",
+				"eng": "Game Title"
+			},
+			"instructions": {
+				"trans": "Cara bermain",
+				"eng": "How to play"
 			}
 		}
 	},
@@ -2965,7 +3157,7 @@
 	},
 	"caliTrainBanner": {
 		"title": {
-			"trans": "🎉 Calibration Train 🎉",
+			"trans": "🎉 Kereta Kalibrasi 🎉",
 			"eng": "🎉 Calibration Train 🎉"
 		},
 		"subtitleTime": {
@@ -2989,7 +3181,7 @@
 	},
 	"globalPartyBanner": {
 		"title": {
-			"trans": "🎉 Global Party 🎉",
+			"trans": "🎉 Pesta Global 🎉",
 			"eng": "🎉 Global Party 🎉"
 		},
 		"subtitle": {
@@ -3006,6 +3198,16 @@
 			],
 			"trans": "Berikan Reputasi jalanan",
 			"eng": "Give street cred"
+		}
+	},
+	"gangPage": {
+		"notificationDisabled": {
+			"trans": "Notifikasi obrolan geng dinonaktifkan",
+			"eng": "Gang chat notifications disabled"
+		},
+		"notificationEnabled": {
+			"trans": "Notifikasi obrolan geng diaktifkan",
+			"eng": "Gang chat notifications enabled"
 		}
 	},
 	"cost": {
@@ -3058,6 +3260,15 @@
 	"misc,durability": {
 		"trans": "daya tahan",
 		"eng": "durability"
+	},
+	"mailRoomContent": {
+		"time": {
+			"vars": [
+				"time"
+			],
+			"trans": "${time} yang lalu",
+			"eng": "${time} ago"
+		}
 	},
 	"chatHeader": {
 		"skipAvailable": {
@@ -3763,14 +3974,6 @@
 			],
 			"trans": "Anda tidak dapat ${verb} ini",
 			"eng": "You are not able to ${verb} this"
-		},
-		"timeRequiredText": {
-			"vars": [
-				"verb",
-				"timeStr"
-			],
-			"trans": "Waktu yang dibutuhkan untuk ${verb}: ${timeStr}",
-			"eng": "Time required to ${verb}: ${timeStr}"
 		}
 	},
 	"reward": {
@@ -4711,6 +4914,32 @@
 			}
 		}
 	},
+	"clanMemberSort": {
+		"resource": {
+			"displayName": {
+				"trans": "Sumber Daya",
+				"eng": "Resource"
+			}
+		},
+		"money": {
+			"displayName": {
+				"trans": "Uang",
+				"eng": "Money"
+			}
+		},
+		"occupation": {
+			"displayName": {
+				"trans": "Pekerjaan",
+				"eng": "Occupation"
+			}
+		},
+		"gangExp": {
+			"displayName": {
+				"trans": "Gang Exp",
+				"eng": "Gang Exp"
+			}
+		}
+	},
 	"donationType": {
 		"donation1": {
 			"trans": "Anggota",
@@ -4847,6 +5076,14 @@
 		"donation34": {
 			"trans": "Punk",
 			"eng": "Punk"
+		},
+		"donation35": {
+			"trans": "Valentine",
+			"eng": "Valentine"
+		},
+		"donation36": {
+			"trans": "Cyberpunk",
+			"eng": "Cyberpunk"
 		},
 		"moderator": {
 			"trans": "Moderator",
@@ -6189,6 +6426,86 @@
 					"eng": "More coming in future update"
 				}
 			}
+		},
+		"donation35": {
+			"benefits": {
+				"1": {
+					"trans": "Judul donasi \"Valentine\"",
+					"eng": "\"Valentine\" donation title"
+				},
+				"2": {
+					"trans": "Buka kustomisasi foto profil",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "Valentine frame (dengan animasi)",
+					"eng": "Valentine frame (with animation)"
+				},
+				"4": {
+					"trans": "Profil Valentine (dengan animasi)",
+					"eng": "Valentine Profile (with animation)"
+				},
+				"5": {
+					"trans": "Buka bio kustom",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "Dekorasi profil Punk",
+					"eng": "Punk profile decoration"
+				},
+				"7": {
+					"trans": "Sesuaikan moto geng",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "Kustomisasi gambar geng",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "Lebih banyak akan datang di pembaruan mendatang",
+					"eng": "More coming in future update"
+				}
+			}
+		},
+		"donation36": {
+			"benefits": {
+				"1": {
+					"trans": "Judul Donasi \"Cyberpunk\"",
+					"eng": "\"Cyberpunk\" donation title"
+				},
+				"2": {
+					"trans": "Buka kustomisasi foto profil",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "Cyberpunk frame (dengan animasi)",
+					"eng": "Cyberpunk frame (with animation)"
+				},
+				"4": {
+					"trans": "Profil Cyberpunk (dengan animasi)",
+					"eng": "Cyberpunk Profile (with animation)"
+				},
+				"5": {
+					"trans": "Buka bio kustom",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "Dekorasi profil Cyberpunk",
+					"eng": "Cyberpunk profile decoration"
+				},
+				"7": {
+					"trans": "Sesuaikan moto geng",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "Kustomisasi gambar geng",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "Lebih banyak akan datang di pembaruan mendatang",
+					"eng": "More coming in future update"
+				}
+			}
 		}
 	},
 	"equipmentMarks": {
@@ -6266,7 +6583,19 @@
 		},
 		"lunarNewYear": {
 			"trans": "Tahun Baru Imlek",
-			"eng": "Lunar New Year"
+			"eng": "Lunar New Year",
+			"skipDiscountTitle": {
+				"trans": "Diskon Tahun Baru Imlek",
+				"eng": "Lunar New Year Discount"
+			}
+		},
+		"valentine": {
+			"trans": "Valentine",
+			"eng": "Valentine",
+			"skipDiscountTitle": {
+				"trans": "Diskon Valentine",
+				"eng": "Valentine Discount"
+			}
 		},
 		"halloween": {
 			"trans": "Halloween",
@@ -6283,10 +6612,7 @@
 		"sakura": {
 			"name": {
 				"trans": "Diskon ${percent}% selama acara",
-				"eng": "${percent}% off during event",
-				"vars": [
-					"percent"
-				]
+				"eng": "March"
 			}
 		},
 		"rainbow": {
@@ -7494,6 +7820,34 @@
 				"eng": "Push past your limits and grind like a machine--When consumed, increase damage dealt by ${percent}% for ${minutes} minutes"
 			}
 		},
+		"heartShapedChocolate": {
+			"name": {
+				"trans": "Cokelat Bentuk Hati",
+				"eng": "Heart Shaped Chocolate"
+			},
+			"description": {
+				"vars": [
+					"percent",
+					"event"
+				],
+				"trans": "Cokelat berbentuk hati yang lezat ini dapat digunakan untuk meningkatkan EXP yang diterima dalam tugas AFK sebesar ${percent}%. \\nItem ini hanya dapat digunakan selama acara ${event}",
+				"eng": "A delicious heart shaped chocolate that can be used to increase EXP received in AFK tasks by ${percent}%.\\nThis item can only be used during ${event} event"
+			}
+		},
+		"chocoBerry": {
+			"name": {
+				"trans": "Cokelat Stroberi",
+				"eng": "Chocolate Strawberry"
+			},
+			"description": {
+				"vars": [
+					"percent",
+					"event"
+				],
+				"trans": "Cokelat stroberi yang lezat ini dapat digunakan untuk meningkatkan EXP dan BTC yang diterima dalam tugas AFK sebesar ${percent}%. \\nItem ini hanya dapat digunakan selama acara ${event}",
+				"eng": "A delicious chocolate strawberry that can be used to increase EXP and BTC received in AFK tasks by ${percent}%.\\nThis item can only be used during ${event} event"
+			}
+		},
 		"experienceShard": {
 			"name": {
 				"vars": [
@@ -7822,13 +8176,13 @@
 				"trans": "pergi ke ${segmentStationName}",
 				"eng": "go to ${segmentStationName}"
 			},
-			"toZone": {
+			"toLevel1Zone": {
 				"tut": {
 					"vars": [
 						"segmentStationName"
 					],
-					"trans": "Lanjutkan di sini untuk melawan musuh Level 1",
-					"eng": "Continue here to fight level 1 enemy"
+					"trans": "Klik di sini untuk masuk ke area zona level 1 hingga 4",
+					"eng": "Click here to enter 1 to 4 level zone area"
 				},
 				"description": {
 					"vars": [
@@ -10137,11 +10491,11 @@
 	"christmasPromo": {
 		"title": {
 			"trans": "Selamat liburan musim dingin!",
-			"eng": "Happy Winter Holiday!"
+			"eng": "Christmas Celebration"
 		},
 		"desc1": {
 			"trans": "Ini adalah waktu yang paling indah tahun ini lagi! Di Shangri-La kami merayakan liburan musim dingin dengan acara khusus!",
-			"eng": "It's the most wonderful time of the year again! in Shang-ri-la we are celebrating the winter holiday with a special event!"
+			"eng": "'Tis the season to be jolly! Celebrate Christmas with special rewards and festive events."
 		},
 		"v3": {
 			"desc2": {
@@ -10156,6 +10510,14 @@
 				"trans": "Selama musim liburan, bingkai obrolan Natal dan lambang akan tersedia!",
 				"eng": "During the holiday season, Christmas chat frame and emblem will be available!"
 			}
+		},
+		"specialMusic": {
+			"trans": "Nikmati musik latar meriah selama acara!",
+			"eng": "Enjoy the festive background music during the event!"
+		},
+		"chatMessage1": {
+			"trans": "Selamat Liburan semuanya!",
+			"eng": "Happy Holidays everyone!"
 		}
 	},
 	"christmasPromoSmall": {
@@ -10293,6 +10655,20 @@
 				"trans": "Pelajari Lebih Lanjut",
 				"eng": "Learn More"
 			}
+		},
+		"valentinePromo": {
+			"title": {
+				"trans": "Spesial Valentine",
+				"eng": "Valentine\\'s Special"
+			},
+			"description": {
+				"trans": "Rayakan cinta dengan item dan hadiah eksklusif Hari Valentine!",
+				"eng": "Celebrate love with exclusive Valentine\\'s items and rewards!"
+			},
+			"button": {
+				"trans": "Lihat Acara",
+				"eng": "View Event"
+			}
 		}
 	},
 	"referralPromo": {
@@ -10358,13 +10734,6 @@
 			"trans": "Festival Musim Semi sudah tiba! Kelopak sakura beterbangan, dan udara dipenuhi dengan aroma bunga",
 			"eng": "The Spring Festival is here! Sakura petals are falling, and the air is filled with the fragrance of flowers. "
 		},
-		"desc2": {
-			"vars": [
-				"percent"
-			],
-			"trans": "Semua loncatan selama periode acara mendapatkan diskon ${percent}% untuk unit yang diperlukan",
-			"eng": "All skips during the event period gets ${percent}% off discount on unit required"
-		},
 		"desc3": {
 			"trans": "Frame obrolan eksklusif Sakura dan emblem tersedia selama periode acara",
 			"eng": "Exclusive Sakura chat frame and emblem is available during event period"
@@ -10372,13 +10741,26 @@
 		"chatMessage1": {
 			"trans": "Musim semi sudah tiba",
 			"eng": "Spring is here"
+		}
+	},
+	"eventSkipDiscountSmall": {
+		"title": {
+			"trans": "Lewati Diskon",
+			"eng": "Skip Discount"
 		},
 		"desc": {
 			"vars": [
 				"percent"
 			],
-			"trans": "Semua loncatan selama periode acara mendapatkan diskon ${percent}% untuk unit yang diperlukan 🥳",
-			"eng": "All skips during the event period gets ${percent}% off discount on unit required 🥳"
+			"trans": "Diskon ${percent}% untuk semua Skips!",
+			"eng": "${percent}% discount on all Skips!"
+		},
+		"desc2": {
+			"vars": [
+				"date"
+			],
+			"trans": "Berakhir pada ${date}",
+			"eng": "Ends on ${date}"
 		}
 	},
 	"skipDiscountPromoSmall": {
@@ -10569,6 +10951,24 @@
 			],
 			"trans": "Konsumsi kalkun lezat untuk mendapatkan +${percent}% exp pada tugas AFK",
 			"eng": "Consume delicious turkey to get +${percent}% EXP on AFK tasks"
+		}
+	},
+	"valentinePromo": {
+		"title": {
+			"trans": "Acara Valentine",
+			"eng": "Valentine Event"
+		},
+		"desc1": {
+			"trans": "Cinta ada di udara! Rayakan Hari Valentine dengan hadiah dan acara spesial.",
+			"eng": "Love is in the air! Celebrate Valentine's Day with special rewards and events."
+		},
+		"specialItems": {
+			"trans": "Item Spesial Valentine dapat ditemukan selama acara!",
+			"eng": "Special Valentine items can be found during the event!"
+		},
+		"chatMessage1": {
+			"trans": "Selamat Hari Valentine!",
+			"eng": "Happy Valentine\\'s Day!"
 		}
 	},
 	"retroPromo": {

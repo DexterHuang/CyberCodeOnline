@@ -1,5 +1,13 @@
 {
 	"apartment": {
+		"rentalDueDate": {
+			"vars": [
+				"timeToDue",
+				"rentalDueDate"
+			],
+			"trans": "วันครบกำหนดเช่าที่ต้องชำระ: ${rentalDueDate} (${timeToDue})",
+			"eng": "Rental Due Date: ${rentalDueDate} (${timeToDue})"
+		},
 		"title": {
 			"vars": [
 				"playerName"
@@ -235,6 +243,14 @@
 					"eng": "No gang has occupied this area yet"
 				}
 			},
+			"sort": {
+				"trans": "จัดเรียง",
+				"eng": "Sort"
+			},
+			"sortDirection": {
+				"trans": "ทิศทาง",
+				"eng": "Direction"
+			},
 			"members": {
 				"trans": "สมาชิก",
 				"eng": "Members"
@@ -364,22 +380,6 @@
 				"colorBox": {
 					"trans": "คลิกที่สีนี้ด้านล่าง",
 					"eng": "Click on this color below"
-				},
-				"lose": {
-					"title": {
-						"trans": "การถอดรหัสล้มเหลว",
-						"eng": "Decryption failed"
-					},
-					"description": {
-						"trans": "คลิกที่ลำดับสีที่ถูกต้องเพื่อปลดล็อก",
-						"eng": "Click on the correct color sequence to unlock"
-					},
-					"button": {
-						"title": {
-							"trans": "ลองอีกครั้ง",
-							"eng": "Try Again"
-						}
-					}
 				}
 			}
 		},
@@ -845,6 +845,14 @@
 				"trans": "รายการนี้จะถูกลบหลังจากที่เหตุการณ์ ${eventName} สิ้นสุดลง",
 				"eng": "This item will be removed after the ${eventName} event ends."
 			},
+			"timeLimitedEndTime": {
+				"vars": [
+					"endDate",
+					"timeToEnd"
+				],
+				"trans": "กิจกรรมจะสิ้นสุดในเวลา ${endDate} UTC (${timeToEnd})",
+				"eng": "Event ends at ${endDate} UTC (${timeToEnd})"
+			},
 			"timeLimited": {
 				"trans": "เวลาจำกัด",
 				"eng": "Time Limited"
@@ -910,7 +918,10 @@
 			},
 			"cantEquip": {
 				"trans": "ระดับของคุณต่ำเกินไปสำหรับไอเท็มนี้",
-				"eng": "Your level is too low for this item"
+				"eng": "Your level is too low for this item, this item requires level ${level} to equip",
+				"vars": [
+					"level"
+				]
 			},
 			"unequip": {
 				"trans": "ถอด",
@@ -1487,6 +1498,10 @@
 				"tiny": {
 					"trans": "ขนาดเล็ก",
 					"eng": "Tiny"
+				},
+				"tiny2": {
+					"trans": "เล็กมาก",
+					"eng": "Very Tiny"
 				},
 				"auto": {
 					"trans": "ออโต้",
@@ -2259,9 +2274,12 @@
 			}
 		},
 		"landing": {
-			"subtile": {
-				"trans": "MMORPG ที่ใช้ Cyberpunk",
-				"eng": "Cyberpunk Text-based MMORPG"
+			"accountCount": {
+				"vars": [
+					"count"
+				],
+				"trans": "เข้าร่วมกับนักไซเบอร์พังค์อีกกว่า ${count} คนตอนนี้เลย!",
+				"eng": "Join over ${count} other cyberpunkers now!"
 			},
 			"description1": {
 				"trans": "Cybercode Online เป็นเกมออนไลน์ที่จำเป็นต้องมีบัญชีเพื่อเก็บข้อมูลเกม",
@@ -2758,6 +2776,108 @@
 			}
 		}
 	},
+	"gameEventBenefits": {
+		"skipBenefit": {
+			"trans": "เร่งความเร็ว",
+			"eng": "Fast Forward Boost"
+		},
+		"skipDiscount": {
+			"vars": [
+				"percent"
+			],
+			"trans": "ทุกการข้ามในช่วงเวลาของกิจกรรมจะได้รับส่วนลด ${percent}% สำหรับหน่วยที่ต้องการ",
+			"eng": "All skips during the event period gets ${percent}% off discount on unit required"
+		},
+		"caliTitle": {
+			"trans": "ส่วนลดการปรับเทียบ",
+			"eng": "Calibration Discount"
+		},
+		"caliSubtitle": {
+			"trans": "ลดข้อกำหนดการมีส่วนร่วม:",
+			"eng": "Reduced contribution requirements:"
+		},
+		"discountTier": {
+			"vars": [
+				"percent",
+				"ranges"
+			],
+			"trans": "ส่วนลด ${percent}% ที่: ${ranges}",
+			"eng": "${percent}% discount at: ${ranges}"
+		},
+		"earlyContributors": {
+			"trans": "ผู้ที่เข้าร่วมตั้งแต่แรกจะได้รับส่วนลดสูงกว่า!",
+			"eng": "Early contributors receive higher discounts!"
+		},
+		"partyTitle": {
+			"trans": "ส่วนลดสำหรับปาร์ตี้",
+			"eng": "Party Discount"
+		},
+		"partySubtitle": {
+			"trans": "ลดข้อกำหนดการมีส่วนร่วม:",
+			"eng": "Reduced contribution requirements:"
+		},
+		"topUpTitle": {
+			"trans": "รางวัลเติมเงิน",
+			"eng": "Top-Up Rewards"
+		},
+		"topUpReward": {
+			"trans": "รางวัลพิเศษมีให้เมื่อเติมเงินในระหว่างกิจกรรม",
+			"eng": "Special rewards available when topping up during the event"
+		},
+		"lootTitle": {
+			"trans": "ของรางวัลพิเศษ",
+			"eng": "Special Loot"
+		},
+		"lootCrate": {
+			"trans": "ไอเท็มพิเศษที่มีในกล่องของขวัญระหว่างงานกิจกรรม",
+			"eng": "Special items available in loot crates during the event"
+		},
+		"chatTitle": {
+			"trans": "เอฟเฟกต์แชท",
+			"eng": "Chat Effects"
+		},
+		"chatEffect": {
+			"trans": "เอฟเฟกต์แชทพิเศษที่มีให้ในระหว่างงาน",
+			"eng": "Exclusive chat effects available during the event"
+		},
+		"bgmTitle": {
+			"trans": "เพลงกิจกรรม",
+			"eng": "Event Music"
+		},
+		"bgm": {
+			"trans": "เพลงพื้นหลังพิเศษในระหว่างงาน",
+			"eng": "Special background music during the event"
+		}
+	},
+	"gameEventBenefitsSmall": {
+		"skipDiscount": {
+			"vars": [
+				"percent"
+			],
+			"trans": "เร่งความก้าวหน้าของคุณด้วยส่วนลด ${percent}% สำหรับการข้ามทั้งหมด",
+			"eng": "Speed up your progress with a ${percent}% discount on all skips"
+		},
+		"caliDiscount": {
+			"trans": "เพิ่มพลังให้การปรับเทียบของคุณด้วยต้นทุนการมีส่วนร่วมที่ลดลง",
+			"eng": "Supercharge your calibrations with reduced contribution costs"
+		},
+		"partyDiscount": {
+			"trans": "ร่วมทีมและประหยัดด้วยส่วนลดพิเศษจากการร่วมงานปาร์ตี้",
+			"eng": "Team up and save with exclusive party contribution discounts"
+		},
+		"topUpReward": {
+			"trans": "รับรางวัลโบนัสเมื่อเติมเงินในช่วงระยะเวลากิจกรรม",
+			"eng": "Get bonus rewards when topping up during the event period"
+		},
+		"lootCrate": {
+			"trans": "ค้นพบสมบัติที่มีจำนวนจำกัดในกล่องของขวัญจากกิจกรรมพิเศษ",
+			"eng": "Discover limited-time treasures in exclusive event loot crates"
+		},
+		"chatEffect": {
+			"trans": "แสดงออกถึงตัวตนของคุณด้วยเอฟเฟกต์แชทธีมงานสุดตระการตา",
+			"eng": "Express yourself with dazzling event-themed chat effects"
+		}
+	},
 	"misc": {
 		"back": {
 			"trans": "กลับ",
@@ -2926,10 +3046,82 @@
 		}
 	},
 	"minigame": {
+		"circuitConnection": {
+			"title": {
+				"trans": "การควบคุมวงจรประสาท",
+				"eng": "Neural Circuit Override"
+			},
+			"subtitle": {
+				"trans": "ตรวจพบการละเมิดความปลอดภัย: ไฟร์วอลล์ถูกเจาะแล้ว",
+				"eng": "Security Breach Detected: Firewall Compromised"
+			},
+			"instructions": {
+				"trans": "ด่วน! ข้ามโหนดความปลอดภัยทางประสาทในลำดับเพื่อเข้าถึงระบบ ทำตามลำดับโหนดก่อนที่โปรโตคอล ICE จะตรวจจับคุณ",
+				"eng": "Quick! Bypass the neural security nodes in sequence to gain system access. Follow the node sequence before the ICE protocol detects you."
+			},
+			"node": {
+				"trans": "โหนดวงจร",
+				"eng": "Circuit Node"
+			}
+		},
+		"dataStream": {
+			"title": {
+				"trans": "ตัวแทรกสตรีมข้อมูล",
+				"eng": "Data Stream Interceptor"
+			},
+			"instructions": {
+				"trans": "ดักจับแพ็กเกจข้อมูลที่ถูกต้อง [เรืองแสง] // หลีกเลี่ยงแพ็กเกจที่เสียหาย",
+				"eng": "INTERCEPT VALID DATA PACKETS [GLOWING] // AVOID CORRUPTED ONES"
+			}
+		},
+		"sequenceHack": {
+			"title": {
+				"trans": "การข้ามหน่วยความจำ",
+				"eng": "Memory Bank Override"
+			},
+			"instructions": {
+				"vars": [
+					"duration"
+				],
+				"trans": "ALERT: ตรวจพบรูปแบบความปลอดภัย จำและทำซ้ำลำดับไบนารีเพื่อเข้าถึงระบบ สีน้ำเงินแทน 0, สีแดงแทน 1 รูปแบบจะแสดงเป็นเวลา ${duration} วินาที คลิกที่ไหนก็ได้เพื่อเริ่มทันที",
+				"eng": "ALERT: Security pattern detected. Memorize and replicate the binary sequence to gain system access. Blue represents 0, Red represents 1. Pattern visible for ${duration} seconds. Click anywhere to start immediately."
+			},
+			"check": {
+				"trans": "ตรวจสอบลวดลาย",
+				"eng": "VERIFY PATTERN"
+			},
+			"success": {
+				"trans": "เข้าถึงได้: แบงค์ความจำถูกเจาะสำเร็จ ระบบถูกแฮ็กแล้ว.",
+				"eng": "ACCESS GRANTED: Memory bank successfully breached. System compromised."
+			}
+		},
+		"symbolAlignment": {
+			"title": {
+				"trans": "DECRYPT_NEURAL_DATA.exe",
+				"eng": "DECRYPT_NEURAL_DATA.exe"
+			},
+			"instructions": {
+				"vars": [
+					"total"
+				],
+				"trans": "ALIGN_ENCRYPTION_KEYS [${total}] :: คำเตือน: ระบบจะรีเซ็ตเมื่อไม่ตรงกัน",
+				"eng": "ALIGN_ENCRYPTION_KEYS [${total}] :: WARNING: SYSTEM RESET ON MISMATCH"
+			}
+		},
 		"tileTrack": {
 			"tip": {
 				"trans": "คลิกที่ปุ่มที่ไฮไลต์เพื่อปลดล็อก",
 				"eng": "Click on the highlighted button to unlock"
+			}
+		},
+		"gameName": {
+			"title": {
+				"trans": "ชื่อเกม",
+				"eng": "Game Title"
+			},
+			"instructions": {
+				"trans": "วิธีการเล่น",
+				"eng": "How to play"
 			}
 		}
 	},
@@ -3008,6 +3200,16 @@
 			"eng": "Give street cred"
 		}
 	},
+	"gangPage": {
+		"notificationDisabled": {
+			"trans": "ปิดการแจ้งเตือนแชทแก๊ง",
+			"eng": "Gang chat notifications disabled"
+		},
+		"notificationEnabled": {
+			"trans": "เปิดการแจ้งเตือนแชทแก๊งแล้ว",
+			"eng": "Gang chat notifications enabled"
+		}
+	},
 	"cost": {
 		"requireGang": {
 			"trans": "ต้องอยู่ในแก๊ง",
@@ -3058,6 +3260,15 @@
 	"misc,durability": {
 		"trans": "ความทนทาน",
 		"eng": "durability"
+	},
+	"mailRoomContent": {
+		"time": {
+			"vars": [
+				"time"
+			],
+			"trans": "เมื่อ ${time} ที่แล้ว",
+			"eng": "${time} ago"
+		}
 	},
 	"chatHeader": {
 		"skipAvailable": {
@@ -3763,14 +3974,6 @@
 			],
 			"trans": "คุณไม่สามารถ ${verb} สิ่งนี้ได้",
 			"eng": "You are not able to ${verb} this"
-		},
-		"timeRequiredText": {
-			"vars": [
-				"verb",
-				"timeStr"
-			],
-			"trans": "เวลาที่ใช้ในการ ${verb}: ${timeStr}",
-			"eng": "Time required to ${verb}: ${timeStr}"
 		}
 	},
 	"reward": {
@@ -4711,6 +4914,32 @@
 			}
 		}
 	},
+	"clanMemberSort": {
+		"resource": {
+			"displayName": {
+				"trans": "ทรัพยากร",
+				"eng": "Resource"
+			}
+		},
+		"money": {
+			"displayName": {
+				"trans": "เงิน",
+				"eng": "Money"
+			}
+		},
+		"occupation": {
+			"displayName": {
+				"trans": "อาชีพ",
+				"eng": "Occupation"
+			}
+		},
+		"gangExp": {
+			"displayName": {
+				"trans": "ประสบการณ์แก๊ง",
+				"eng": "Gang Exp"
+			}
+		}
+	},
 	"donationType": {
 		"donation1": {
 			"trans": "สมาชิก",
@@ -4847,6 +5076,14 @@
 		"donation34": {
 			"trans": "พังค์",
 			"eng": "Punk"
+		},
+		"donation35": {
+			"trans": "วาเลนไทน์",
+			"eng": "Valentine"
+		},
+		"donation36": {
+			"trans": "ไซเบอร์พังค์",
+			"eng": "Cyberpunk"
 		},
 		"moderator": {
 			"trans": "พิธีกร",
@@ -6189,6 +6426,86 @@
 					"eng": "More coming in future update"
 				}
 			}
+		},
+		"donation35": {
+			"benefits": {
+				"1": {
+					"trans": "\"การบริจาควันวาเลนไทน์\"",
+					"eng": "\"Valentine\" donation title"
+				},
+				"2": {
+					"trans": "ปลดล็อกการปรับแต่งรูปโปรไฟล์",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "กรอบวันวาเลนไทน์ (พร้อมอนิเมชั่น)",
+					"eng": "Valentine frame (with animation)"
+				},
+				"4": {
+					"trans": "โปรไฟล์วาเลนไทน์ (พร้อมอนิเมชั่น)",
+					"eng": "Valentine Profile (with animation)"
+				},
+				"5": {
+					"trans": "ปลดล็อกชีวประวัติที่กำหนดเอง",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "การตกแต่งโปรไฟล์พังค์",
+					"eng": "Punk profile decoration"
+				},
+				"7": {
+					"trans": "ปรับแต่งคำขวัญแก๊ง",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "ปรับแต่งภาพแก๊ง",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "มีเพิ่มเติมในอัปเดตในอนาคต",
+					"eng": "More coming in future update"
+				}
+			}
+		},
+		"donation36": {
+			"benefits": {
+				"1": {
+					"trans": "\"การบริจาคไซเบอร์พังค์\"",
+					"eng": "\"Cyberpunk\" donation title"
+				},
+				"2": {
+					"trans": "ปลดล็อกการปรับแต่งรูปโปรไฟล์",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "กรอบไซเบอร์พังค์ (พร้อมอนิเมชั่น)",
+					"eng": "Cyberpunk frame (with animation)"
+				},
+				"4": {
+					"trans": "โปรไฟล์ไซเบอร์พังค์ (พร้อมอนิเมชั่น)",
+					"eng": "Cyberpunk Profile (with animation)"
+				},
+				"5": {
+					"trans": "ปลดล็อกชีวประวัติที่กำหนดเอง",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "การตกแต่งโปรไฟล์ไซเบอร์พังค์",
+					"eng": "Cyberpunk profile decoration"
+				},
+				"7": {
+					"trans": "ปรับแต่งคำขวัญแก๊ง",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "ปรับแต่งภาพแก๊ง",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "มีเพิ่มเติมในอัปเดตในอนาคต",
+					"eng": "More coming in future update"
+				}
+			}
 		}
 	},
 	"equipmentMarks": {
@@ -6266,7 +6583,19 @@
 		},
 		"lunarNewYear": {
 			"trans": "ปีใหม่ทางจันทรคติ",
-			"eng": "Lunar New Year"
+			"eng": "Lunar New Year",
+			"skipDiscountTitle": {
+				"trans": "ส่วนลดปีใหม่จีน",
+				"eng": "Lunar New Year Discount"
+			}
+		},
+		"valentine": {
+			"trans": "วาเลนไทน์",
+			"eng": "Valentine",
+			"skipDiscountTitle": {
+				"trans": "ส่วนลดวันวาเลนไทน์",
+				"eng": "Valentine Discount"
+			}
 		},
 		"halloween": {
 			"trans": "ฮัลโลวีน",
@@ -6283,10 +6612,7 @@
 		"sakura": {
 			"name": {
 				"trans": "มีนาคม",
-				"eng": "${percent}% off during event",
-				"vars": [
-					"percent"
-				]
+				"eng": "March"
 			}
 		},
 		"rainbow": {
@@ -7494,6 +7820,34 @@
 				"eng": "Push past your limits and grind like a machine--When consumed, increase damage dealt by ${percent}% for ${minutes} minutes"
 			}
 		},
+		"heartShapedChocolate": {
+			"name": {
+				"trans": "ช็อกโกแลตรูปหัวใจ",
+				"eng": "Heart Shaped Chocolate"
+			},
+			"description": {
+				"vars": [
+					"percent",
+					"event"
+				],
+				"trans": "ช็อกโกแลตรูปหัวใจอร่อยที่สามารถใช้เพิ่ม EXP ที่ได้รับในงาน AFK ได้ ${percent}%.\\nไอเทมนี้สามารถใช้ได้เฉพาะในงาน ${event} เท่านั้น",
+				"eng": "A delicious heart shaped chocolate that can be used to increase EXP received in AFK tasks by ${percent}%.\\nThis item can only be used during ${event} event"
+			}
+		},
+		"chocoBerry": {
+			"name": {
+				"trans": "ช็อกโกแลตสตรอว์เบอร์รี",
+				"eng": "Chocolate Strawberry"
+			},
+			"description": {
+				"vars": [
+					"percent",
+					"event"
+				],
+				"trans": "ช็อกโกแลตสตรอว์เบอร์รีอร่อยที่สามารถใช้เพิ่ม EXP และ BTC ที่ได้รับในงาน AFK ได้ ${percent}%.\\nไอเทมนี้สามารถใช้ได้เฉพาะในงาน ${event} เท่านั้น",
+				"eng": "A delicious chocolate strawberry that can be used to increase EXP and BTC received in AFK tasks by ${percent}%.\\nThis item can only be used during ${event} event"
+			}
+		},
 		"experienceShard": {
 			"name": {
 				"vars": [
@@ -7822,19 +8176,19 @@
 				"trans": "ไปที่ ${segmentStationName}",
 				"eng": "go to ${segmentStationName}"
 			},
-			"toZone": {
+			"toLevel1Zone": {
 				"tut": {
 					"vars": [
 						"segmentStationName"
 					],
-					"trans": "ไปต่อตรงนี้เพื่อต่อสู้กับศัตรูเลเวล 1",
-					"eng": "Continue here to fight level 1 enemy"
+					"trans": "คลิกที่นี่เพื่อเข้าสู่พื้นที่โซนระดับ 1 ถึง 4",
+					"eng": "Click here to enter 1 to 4 level zone area"
 				},
 				"description": {
 					"vars": [
 						"zoneName"
 					],
-					"trans": "ไปยัง ${zoneName}",
+					"trans": "ไปที่ ${zoneName}",
 					"eng": "Go to ${zoneName}"
 				}
 			}
@@ -10137,11 +10491,11 @@
 	"christmasPromo": {
 		"title": {
 			"trans": "สุขสันต์วันหยุดฤดูหนาว!",
-			"eng": "Happy Winter Holiday!"
+			"eng": "Christmas Celebration"
 		},
 		"desc1": {
 			"trans": "เป็นช่วงเวลาที่วิเศษที่สุดของปีอีกครั้ง! ใน Shangri-La เรากำลังฉลองวันหยุดฤดูหนาวด้วยกิจกรรมพิเศษ!",
-			"eng": "It's the most wonderful time of the year again! in Shang-ri-la we are celebrating the winter holiday with a special event!"
+			"eng": "'Tis the season to be jolly! Celebrate Christmas with special rewards and festive events."
 		},
 		"v3": {
 			"desc2": {
@@ -10156,6 +10510,14 @@
 				"trans": "ในช่วงเทศกาลวันหยุดกรอบการแชทคริสต์มาสและสัญลักษณ์จะพร้อมใช้งาน!",
 				"eng": "During the holiday season, Christmas chat frame and emblem will be available!"
 			}
+		},
+		"specialMusic": {
+			"trans": "สนุกกับดนตรีพื้นหลังที่มีบรรยากาศเฉลิมฉลองในระหว่างงาน!",
+			"eng": "Enjoy the festive background music during the event!"
+		},
+		"chatMessage1": {
+			"trans": "สุขสันต์วันหยุดทุกคน!",
+			"eng": "Happy Holidays everyone!"
 		}
 	},
 	"christmasPromoSmall": {
@@ -10293,6 +10655,20 @@
 				"trans": "เรียนรู้เพิ่มเติม",
 				"eng": "Learn More"
 			}
+		},
+		"valentinePromo": {
+			"title": {
+				"trans": "วันวาเลนไทน์พิเศษ",
+				"eng": "Valentine\\'s Special"
+			},
+			"description": {
+				"trans": "เฉลิมฉลองความรักกับไอเทมและรางวัลพิเศษในวันวาเลนไทน์!",
+				"eng": "Celebrate love with exclusive Valentine\\'s items and rewards!"
+			},
+			"button": {
+				"trans": "ดูเหตุการณ์",
+				"eng": "View Event"
+			}
 		}
 	},
 	"referralPromo": {
@@ -10358,13 +10734,6 @@
 			"trans": "เทศกาลใบหน้าซากุระมาถึงแล้ว! ดอกซากุระกำลังร่วงลงมา และอากาศเต็มไปด้วยกลิ่นหอมของดอกไม้ครับ",
 			"eng": "The Spring Festival is here! Sakura petals are falling, and the air is filled with the fragrance of flowers. "
 		},
-		"desc2": {
-			"vars": [
-				"percent"
-			],
-			"trans": "ในระหว่างช่วงเหตุการณ์ การข้ามทุกอย่างจะได้รับส่วนลด ${percent}% สำหรับหน่วยที่ต้องการ",
-			"eng": "All skips during the event period gets ${percent}% off discount on unit required"
-		},
 		"desc3": {
 			"trans": "กรอบแชทและเอมเบล็มชมพูพิเศษสำหรับงานนี้ที่มีให้บริการ",
 			"eng": "Exclusive Sakura chat frame and emblem is available during event period"
@@ -10372,13 +10741,26 @@
 		"chatMessage1": {
 			"trans": "ฤดูใบไม้ผลิมาแล้วล่ะ",
 			"eng": "Spring is here"
+		}
+	},
+	"eventSkipDiscountSmall": {
+		"title": {
+			"trans": "ข้ามส่วนลด",
+			"eng": "Skip Discount"
 		},
 		"desc": {
 			"vars": [
 				"percent"
 			],
-			"trans": "ทุกการข้ามในระหว่างช่วงเหตุการณ์ ลด ${percent}% สำหรับหน่วยที่ต้องการ 🥳",
-			"eng": "All skips during the event period gets ${percent}% off discount on unit required 🥳"
+			"trans": "ส่วนลด ${percent}% สำหรับ Skips ทุกตัว!",
+			"eng": "${percent}% discount on all Skips!"
+		},
+		"desc2": {
+			"vars": [
+				"date"
+			],
+			"trans": "สิ้นสุดใน ${date}",
+			"eng": "Ends on ${date}"
 		}
 	},
 	"skipDiscountPromoSmall": {
@@ -10569,6 +10951,24 @@
 			],
 			"trans": "กินไก่งวงแสนอร่อยเพื่อรับ +${percent}% exp ในงาน AFK",
 			"eng": "Consume delicious turkey to get +${percent}% EXP on AFK tasks"
+		}
+	},
+	"valentinePromo": {
+		"title": {
+			"trans": "งานวันวาเลนไทน์",
+			"eng": "Valentine Event"
+		},
+		"desc1": {
+			"trans": "ความรักอยู่ในอากาศ! มาฉลองวันวาเลนไทน์ด้วยรางวัลพิเศษและกิจกรรมสุดพิเศษกันเถอะ!",
+			"eng": "Love is in the air! Celebrate Valentine's Day with special rewards and events."
+		},
+		"specialItems": {
+			"trans": "สามารถหาสินค้าเฉพาะวันวาเลนไทน์ได้ในระหว่างงาน!",
+			"eng": "Special Valentine items can be found during the event!"
+		},
+		"chatMessage1": {
+			"trans": "สุขสันต์วันวาเลนไทน์!",
+			"eng": "Happy Valentine\\'s Day!"
 		}
 	},
 	"retroPromo": {

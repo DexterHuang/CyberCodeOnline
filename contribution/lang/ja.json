@@ -1,5 +1,13 @@
 {
 	"apartment": {
+		"rentalDueDate": {
+			"vars": [
+				"timeToDue",
+				"rentalDueDate"
+			],
+			"trans": "レンタル期限: ${rentalDueDate} (${timeToDue})",
+			"eng": "Rental Due Date: ${rentalDueDate} (${timeToDue})"
+		},
 		"title": {
 			"vars": [
 				"playerName"
@@ -235,6 +243,14 @@
 					"eng": "No gang has occupied this area yet"
 				}
 			},
+			"sort": {
+				"trans": "ソート",
+				"eng": "Sort"
+			},
+			"sortDirection": {
+				"trans": "方向",
+				"eng": "Direction"
+			},
 			"members": {
 				"trans": "メンバー",
 				"eng": "Members"
@@ -364,22 +380,6 @@
 				"colorBox": {
 					"trans": "一番下の色をクリックしてください",
 					"eng": "Click on this color below"
-				},
-				"lose": {
-					"title": {
-						"trans": "復号化に失敗",
-						"eng": "Decryption failed"
-					},
-					"description": {
-						"trans": "間違えずに正しい色を選択し続けることでロックは解除される",
-						"eng": "Click on the correct color sequence to unlock"
-					},
-					"button": {
-						"title": {
-							"trans": "再試行する",
-							"eng": "Try Again"
-						}
-					}
 				}
 			}
 		},
@@ -845,6 +845,14 @@
 				"trans": "このアイテムは${eventName}イベント終了後に破棄されます",
 				"eng": "This item will be removed after the ${eventName} event ends."
 			},
+			"timeLimitedEndTime": {
+				"vars": [
+					"endDate",
+					"timeToEnd"
+				],
+				"trans": "イベントは${endDate} UTC（${timeToEnd}）に終了します。",
+				"eng": "Event ends at ${endDate} UTC (${timeToEnd})"
+			},
 			"timeLimited": {
 				"trans": "時間制限あり",
 				"eng": "Time Limited"
@@ -910,7 +918,10 @@
 			},
 			"cantEquip": {
 				"trans": "レベルが不足しています",
-				"eng": "Your level is too low for this item"
+				"eng": "Your level is too low for this item, this item requires level ${level} to equip",
+				"vars": [
+					"level"
+				]
 			},
 			"unequip": {
 				"trans": "装備を外す",
@@ -1487,6 +1498,10 @@
 				"tiny": {
 					"trans": "もっと小さい",
 					"eng": "Tiny"
+				},
+				"tiny2": {
+					"trans": "とても小さい",
+					"eng": "Very Tiny"
 				},
 				"auto": {
 					"trans": "オート",
@@ -2259,9 +2274,12 @@
 			}
 		},
 		"landing": {
-			"subtile": {
-				"trans": "サイバーパンク系テキストベースMMORPG",
-				"eng": "Cyberpunk Text-based MMORPG"
+			"accountCount": {
+				"vars": [
+					"count"
+				],
+				"trans": "今すぐ${count}人以上のサイバーパンク仲間に参加しよう！",
+				"eng": "Join over ${count} other cyberpunkers now!"
 			},
 			"description1": {
 				"trans": "CyberCode Onlineはオンラインゲームです. ゲームデータの保存にはアカウントが必要です.",
@@ -2758,6 +2776,108 @@
 			}
 		}
 	},
+	"gameEventBenefits": {
+		"skipBenefit": {
+			"trans": "ファストフォワードブースト",
+			"eng": "Fast Forward Boost"
+		},
+		"skipDiscount": {
+			"vars": [
+				"percent"
+			],
+			"trans": "イベント期間中のすべてのスキップは、必要なユニットが${percent}%オフになります。",
+			"eng": "All skips during the event period gets ${percent}% off discount on unit required"
+		},
+		"caliTitle": {
+			"trans": "キャリブレーション割引",
+			"eng": "Calibration Discount"
+		},
+		"caliSubtitle": {
+			"trans": "貢献要件の削減：",
+			"eng": "Reduced contribution requirements:"
+		},
+		"discountTier": {
+			"vars": [
+				"percent",
+				"ranges"
+			],
+			"trans": "${percent}%の割引: ${ranges}",
+			"eng": "${percent}% discount at: ${ranges}"
+		},
+		"earlyContributors": {
+			"trans": "早期参加者にはより高い割引が適用されます！",
+			"eng": "Early contributors receive higher discounts!"
+		},
+		"partyTitle": {
+			"trans": "パーティー割引",
+			"eng": "Party Discount"
+		},
+		"partySubtitle": {
+			"trans": "貢献要件の削減：",
+			"eng": "Reduced contribution requirements:"
+		},
+		"topUpTitle": {
+			"trans": "トップアップ報酬",
+			"eng": "Top-Up Rewards"
+		},
+		"topUpReward": {
+			"trans": "イベント期間中にチャージすると特別報酬がもらえます。",
+			"eng": "Special rewards available when topping up during the event"
+		},
+		"lootTitle": {
+			"trans": "特別な戦利品",
+			"eng": "Special Loot"
+		},
+		"lootCrate": {
+			"trans": "イベント中にルートクレートで入手可能な特別アイテム",
+			"eng": "Special items available in loot crates during the event"
+		},
+		"chatTitle": {
+			"trans": "チャットエフェクト",
+			"eng": "Chat Effects"
+		},
+		"chatEffect": {
+			"trans": "イベント中に利用可能な限定チャットエフェクト",
+			"eng": "Exclusive chat effects available during the event"
+		},
+		"bgmTitle": {
+			"trans": "イベント音楽",
+			"eng": "Event Music"
+		},
+		"bgm": {
+			"trans": "イベント中の特別なバックグラウンドミュージック",
+			"eng": "Special background music during the event"
+		}
+	},
+	"gameEventBenefitsSmall": {
+		"skipDiscount": {
+			"vars": [
+				"percent"
+			],
+			"trans": "全てのスキップが${percent}%オフ！進行を加速させよう！",
+			"eng": "Speed up your progress with a ${percent}% discount on all skips"
+		},
+		"caliDiscount": {
+			"trans": "コスト削減でキャリブレーションをスーパーチャージ！",
+			"eng": "Supercharge your calibrations with reduced contribution costs"
+		},
+		"partyDiscount": {
+			"trans": "チームを組んで、限定のパーティー貢献割引で節約しよう！",
+			"eng": "Team up and save with exclusive party contribution discounts"
+		},
+		"topUpReward": {
+			"trans": "イベント期間中にチャージするとボーナス報酬をゲット！",
+			"eng": "Get bonus rewards when topping up during the event period"
+		},
+		"lootCrate": {
+			"trans": "限定イベントのルートクレートで期間限定の宝物を発見しよう！",
+			"eng": "Discover limited-time treasures in exclusive event loot crates"
+		},
+		"chatEffect": {
+			"trans": "華やかなイベントテーマのチャットエフェクトで自分を表現しよう",
+			"eng": "Express yourself with dazzling event-themed chat effects"
+		}
+	},
 	"misc": {
 		"back": {
 			"trans": "戻る",
@@ -2926,10 +3046,82 @@
 		}
 	},
 	"minigame": {
+		"circuitConnection": {
+			"title": {
+				"trans": "神経回路オーバーライド",
+				"eng": "Neural Circuit Override"
+			},
+			"subtitle": {
+				"trans": "セキュリティ侵害検出：ファイアウォールが侵害されました",
+				"eng": "Security Breach Detected: Firewall Compromised"
+			},
+			"instructions": {
+				"trans": "急げ！神経セキュリティノードを順番にバイパスしてシステムアクセスを獲得しろ。ICEプロトコルに検知される前にノードの順序に従え。",
+				"eng": "Quick! Bypass the neural security nodes in sequence to gain system access. Follow the node sequence before the ICE protocol detects you."
+			},
+			"node": {
+				"trans": "回路ノード",
+				"eng": "Circuit Node"
+			}
+		},
+		"dataStream": {
+			"title": {
+				"trans": "データストリームインターセプター",
+				"eng": "Data Stream Interceptor"
+			},
+			"instructions": {
+				"trans": "有効なデータパケットを傍受 [発光中] // 破損したものは避ける",
+				"eng": "INTERCEPT VALID DATA PACKETS [GLOWING] // AVOID CORRUPTED ONES"
+			}
+		},
+		"sequenceHack": {
+			"title": {
+				"trans": "メモリーバンクオーバーライド",
+				"eng": "Memory Bank Override"
+			},
+			"instructions": {
+				"vars": [
+					"duration"
+				],
+				"trans": "警告：セキュリティパターンが検出されました。システムアクセスを得るために、バイナリーシーケンスを記憶し、再現してください。青は0、赤は1を表します。パターンは${duration}秒間表示されます。すぐに開始するには、どこでもクリックしてください。",
+				"eng": "ALERT: Security pattern detected. Memorize and replicate the binary sequence to gain system access. Blue represents 0, Red represents 1. Pattern visible for ${duration} seconds. Click anywhere to start immediately."
+			},
+			"check": {
+				"trans": "パターンを確認する",
+				"eng": "VERIFY PATTERN"
+			},
+			"success": {
+				"trans": "アクセス許可：メモリーバンクへの侵入に成功しました。システムが侵害されました。",
+				"eng": "ACCESS GRANTED: Memory bank successfully breached. System compromised."
+			}
+		},
+		"symbolAlignment": {
+			"title": {
+				"trans": "DECRYPT_NEURAL_DATA.exe",
+				"eng": "DECRYPT_NEURAL_DATA.exe"
+			},
+			"instructions": {
+				"vars": [
+					"total"
+				],
+				"trans": "ALIGN_ENCRYPTION_KEYS [${total}] :: 警告: 不一致によるシステムリセット",
+				"eng": "ALIGN_ENCRYPTION_KEYS [${total}] :: WARNING: SYSTEM RESET ON MISMATCH"
+			}
+		},
 		"tileTrack": {
 			"tip": {
 				"trans": "ハイライトされたボタンをクリックしてロック解除してください。",
 				"eng": "Click on the highlighted button to unlock"
+			}
+		},
+		"gameName": {
+			"title": {
+				"trans": "ゲームタイトル",
+				"eng": "Game Title"
+			},
+			"instructions": {
+				"trans": "プレイ方法",
+				"eng": "How to play"
 			}
 		}
 	},
@@ -3008,6 +3200,16 @@
 			"eng": "Give street cred"
 		}
 	},
+	"gangPage": {
+		"notificationDisabled": {
+			"trans": "ギャングチャット通知が無効になりました",
+			"eng": "Gang chat notifications disabled"
+		},
+		"notificationEnabled": {
+			"trans": "ギャングチャット通知が有効になりました",
+			"eng": "Gang chat notifications enabled"
+		}
+	},
 	"cost": {
 		"requireGang": {
 			"trans": "ギャングに所属している必要があります",
@@ -3058,6 +3260,15 @@
 	"misc,durability": {
 		"trans": "耐久性",
 		"eng": "durability"
+	},
+	"mailRoomContent": {
+		"time": {
+			"vars": [
+				"time"
+			],
+			"trans": "${time} 前",
+			"eng": "${time} ago"
+		}
 	},
 	"chatHeader": {
 		"skipAvailable": {
@@ -3763,14 +3974,6 @@
 			],
 			"trans": "このアイテムを${verb}することはできません",
 			"eng": "You are not able to ${verb} this"
-		},
-		"timeRequiredText": {
-			"vars": [
-				"verb",
-				"timeStr"
-			],
-			"trans": "${verb}に必要な時間：${timeStr}",
-			"eng": "Time required to ${verb}: ${timeStr}"
 		}
 	},
 	"reward": {
@@ -4711,6 +4914,32 @@
 			}
 		}
 	},
+	"clanMemberSort": {
+		"resource": {
+			"displayName": {
+				"trans": "リソース",
+				"eng": "Resource"
+			}
+		},
+		"money": {
+			"displayName": {
+				"trans": "お金",
+				"eng": "Money"
+			}
+		},
+		"occupation": {
+			"displayName": {
+				"trans": "職業",
+				"eng": "Occupation"
+			}
+		},
+		"gangExp": {
+			"displayName": {
+				"trans": "ギャング経験値",
+				"eng": "Gang Exp"
+			}
+		}
+	},
 	"donationType": {
 		"donation1": {
 			"trans": "メンバー",
@@ -4847,6 +5076,14 @@
 		"donation34": {
 			"trans": "パンク",
 			"eng": "Punk"
+		},
+		"donation35": {
+			"trans": "バレンタイン",
+			"eng": "Valentine"
+		},
+		"donation36": {
+			"trans": "サイバーパンク",
+			"eng": "Cyberpunk"
 		},
 		"moderator": {
 			"trans": "モデレータ",
@@ -6189,6 +6426,86 @@
 					"eng": "More coming in future update"
 				}
 			}
+		},
+		"donation35": {
+			"benefits": {
+				"1": {
+					"trans": "「バレンタイン」寄付タイトル",
+					"eng": "\"Valentine\" donation title"
+				},
+				"2": {
+					"trans": "プロフィール写真のカスタマイズを解除する",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "バレンタインフレーム（アニメーション付き）",
+					"eng": "Valentine frame (with animation)"
+				},
+				"4": {
+					"trans": "バレンタインプロフィール（アニメーション付き）",
+					"eng": "Valentine Profile (with animation)"
+				},
+				"5": {
+					"trans": "カスタムバイオを解除する",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "パンクプロフィールデコレーション",
+					"eng": "Punk profile decoration"
+				},
+				"7": {
+					"trans": "ギャングのモットーをカスタマイズ",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "ギャングのイメージをカスタマイズ",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "今後のアップデートでさらに追加予定です。",
+					"eng": "More coming in future update"
+				}
+			}
+		},
+		"donation36": {
+			"benefits": {
+				"1": {
+					"trans": "「サイバーパンク」寄付タイトル",
+					"eng": "\"Cyberpunk\" donation title"
+				},
+				"2": {
+					"trans": "プロフィール写真のカスタマイズを解除する",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "サイバーパンクフレーム（アニメーション付き）",
+					"eng": "Cyberpunk frame (with animation)"
+				},
+				"4": {
+					"trans": "サイバーパンクプロフィール（アニメーション付き）",
+					"eng": "Cyberpunk Profile (with animation)"
+				},
+				"5": {
+					"trans": "カスタムバイオを解除する",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "サイバーパンクプロフィール装飾",
+					"eng": "Cyberpunk profile decoration"
+				},
+				"7": {
+					"trans": "ギャングのモットーをカスタマイズ",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "ギャングのイメージをカスタマイズ",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "今後のアップデートでさらに追加予定です。",
+					"eng": "More coming in future update"
+				}
+			}
 		}
 	},
 	"equipmentMarks": {
@@ -6266,7 +6583,19 @@
 		},
 		"lunarNewYear": {
 			"trans": "旧正月",
-			"eng": "Lunar New Year"
+			"eng": "Lunar New Year",
+			"skipDiscountTitle": {
+				"trans": "春節セール",
+				"eng": "Lunar New Year Discount"
+			}
+		},
+		"valentine": {
+			"trans": "バレンタイン",
+			"eng": "Valentine",
+			"skipDiscountTitle": {
+				"trans": "バレンタイン割引",
+				"eng": "Valentine Discount"
+			}
 		},
 		"halloween": {
 			"trans": "ハロウィーン",
@@ -6283,10 +6612,7 @@
 		"sakura": {
 			"name": {
 				"trans": "イベント期間中は${percent}%オフ",
-				"eng": "${percent}% off during event",
-				"vars": [
-					"percent"
-				]
+				"eng": "March"
 			}
 		},
 		"rainbow": {
@@ -7494,6 +7820,34 @@
 				"eng": "Push past your limits and grind like a machine--When consumed, increase damage dealt by ${percent}% for ${minutes} minutes"
 			}
 		},
+		"heartShapedChocolate": {
+			"name": {
+				"trans": "ハート型のチョコレート",
+				"eng": "Heart Shaped Chocolate"
+			},
+			"description": {
+				"vars": [
+					"percent",
+					"event"
+				],
+				"trans": "AFKタスクで得られる経験値を${percent}%増加させることができる、美味しいハート型のチョコレートです。\\nこのアイテムは${event}イベント中のみ使用できます。",
+				"eng": "A delicious heart shaped chocolate that can be used to increase EXP received in AFK tasks by ${percent}%.\\nThis item can only be used during ${event} event"
+			}
+		},
+		"chocoBerry": {
+			"name": {
+				"trans": "チョコレートストロベリー",
+				"eng": "Chocolate Strawberry"
+			},
+			"description": {
+				"vars": [
+					"percent",
+					"event"
+				],
+				"trans": "AFKタスクで得られるEXPとBTCを${percent}%増加させることができる美味しいチョコレートストロベリー。\\nこのアイテムは${event}イベント中のみ使用可能です。",
+				"eng": "A delicious chocolate strawberry that can be used to increase EXP and BTC received in AFK tasks by ${percent}%.\\nThis item can only be used during ${event} event"
+			}
+		},
 		"experienceShard": {
 			"name": {
 				"vars": [
@@ -7822,19 +8176,19 @@
 				"trans": "${segmentStationName}に行く",
 				"eng": "go to ${segmentStationName}"
 			},
-			"toZone": {
+			"toLevel1Zone": {
 				"tut": {
 					"vars": [
 						"segmentStationName"
 					],
-					"trans": "ここでレベル1の敵と戦ってみましょう",
-					"eng": "Continue here to fight level 1 enemy"
+					"trans": "ここをクリックして1から4レベルのゾーンエリアに入る",
+					"eng": "Click here to enter 1 to 4 level zone area"
 				},
 				"description": {
 					"vars": [
 						"zoneName"
 					],
-					"trans": "${zoneName}に行く",
+					"trans": "${zoneName}に行け",
 					"eng": "Go to ${zoneName}"
 				}
 			}
@@ -10350,11 +10704,11 @@
 	"christmasPromo": {
 		"title": {
 			"trans": "ハッピー・ウィンター・ホリデー！",
-			"eng": "Happy Winter Holiday!"
+			"eng": "Christmas Celebration"
 		},
 		"desc1": {
 			"trans": "今年も素敵な雪の季節がやってきました！ シャングリ・ラでは, クリスマスを祝う特別なイベントを開催中！",
-			"eng": "It's the most wonderful time of the year again! in Shang-ri-la we are celebrating the winter holiday with a special event!"
+			"eng": "'Tis the season to be jolly! Celebrate Christmas with special rewards and festive events."
 		},
 		"v3": {
 			"desc2": {
@@ -10369,6 +10723,14 @@
 				"trans": "ホリデーシーズン中、クリスマスチャットフレームとエンブレムが登場します！",
 				"eng": "During the holiday season, Christmas chat frame and emblem will be available!"
 			}
+		},
+		"specialMusic": {
+			"trans": "イベント中はお祭りのバックグラウンドミュージックを楽しんでください！",
+			"eng": "Enjoy the festive background music during the event!"
+		},
+		"chatMessage1": {
+			"trans": "皆さん、ハッピーホリデー！",
+			"eng": "Happy Holidays everyone!"
 		}
 	},
 	"christmasPromoSmall": {
@@ -10506,6 +10868,20 @@
 				"trans": "もっと知る",
 				"eng": "Learn More"
 			}
+		},
+		"valentinePromo": {
+			"title": {
+				"trans": "バレンタインスペシャル",
+				"eng": "Valentine\\'s Special"
+			},
+			"description": {
+				"trans": "バレンタイン限定のアイテムと報酬で愛を祝おう！",
+				"eng": "Celebrate love with exclusive Valentine\\'s items and rewards!"
+			},
+			"button": {
+				"trans": "イベントを見る",
+				"eng": "View Event"
+			}
 		}
 	},
 	"referralPromo": {
@@ -10571,13 +10947,6 @@
 			"trans": "が来ました！ 桜の花びらが舞い散り、あたり一面に花の香りが漂っています。",
 			"eng": "The Spring Festival is here! Sakura petals are falling, and the air is filled with the fragrance of flowers. "
 		},
-		"desc2": {
-			"vars": [
-				"percent"
-			],
-			"trans": "イベント期間中は、必要なユニットの料金が${percent}%オフになります。",
-			"eng": "All skips during the event period gets ${percent}% off discount on unit required"
-		},
 		"desc3": {
 			"trans": "イベント期間中は、限定の桜のチャットフレームとエンブレムが手に入ります。",
 			"eng": "Exclusive Sakura chat frame and emblem is available during event period"
@@ -10585,13 +10954,26 @@
 		"chatMessage1": {
 			"trans": "春が来ました",
 			"eng": "Spring is here"
+		}
+	},
+	"eventSkipDiscountSmall": {
+		"title": {
+			"trans": "割引をスキップ",
+			"eng": "Skip Discount"
 		},
 		"desc": {
 			"vars": [
 				"percent"
 			],
-			"trans": "イベント期間中のすべてのスキップは、必要なユニットが${percent}%オフになります🥳",
-			"eng": "All skips during the event period gets ${percent}% off discount on unit required 🥳"
+			"trans": "全てのスキップが${percent}%オフ！",
+			"eng": "${percent}% discount on all Skips!"
+		},
+		"desc2": {
+			"vars": [
+				"date"
+			],
+			"trans": "${date}で終了",
+			"eng": "Ends on ${date}"
 		}
 	},
 	"skipDiscountPromoSmall": {
@@ -10782,6 +11164,24 @@
 			],
 			"trans": "美味しいローストターキーを食べると、AFKタスクで +${percent}％のExpを獲得できます",
 			"eng": "Consume delicious turkey to get +${percent}% EXP on AFK tasks"
+		}
+	},
+	"valentinePromo": {
+		"title": {
+			"trans": "バレンタインイベント",
+			"eng": "Valentine Event"
+		},
+		"desc1": {
+			"trans": "愛が空気中に漂っている！バレンタインデーを特別な報酬とイベントで祝おう。",
+			"eng": "Love is in the air! Celebrate Valentine's Day with special rewards and events."
+		},
+		"specialItems": {
+			"trans": "イベント中に特別なバレンタインアイテムが手に入ります！",
+			"eng": "Special Valentine items can be found during the event!"
+		},
+		"chatMessage1": {
+			"trans": "ハッピーバレンタインデー！",
+			"eng": "Happy Valentine\\'s Day!"
 		}
 	},
 	"retroPromo": {

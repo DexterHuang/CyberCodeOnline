@@ -1,5 +1,13 @@
 {
 	"apartment": {
+		"rentalDueDate": {
+			"vars": [
+				"timeToDue",
+				"rentalDueDate"
+			],
+			"trans": "租金到期日：${rentalDueDate} (${timeToDue})",
+			"eng": "Rental Due Date: ${rentalDueDate} (${timeToDue})"
+		},
 		"title": {
 			"vars": [
 				"playerName"
@@ -235,6 +243,14 @@
 					"eng": "No gang has occupied this area yet"
 				}
 			},
+			"sort": {
+				"trans": "排序",
+				"eng": "Sort"
+			},
+			"sortDirection": {
+				"trans": "方向",
+				"eng": "Direction"
+			},
 			"members": {
 				"trans": "公會成員",
 				"eng": "Members"
@@ -364,22 +380,6 @@
 				"colorBox": {
 					"trans": "點選下列顏色",
 					"eng": "Click on this color below"
-				},
-				"lose": {
-					"title": {
-						"trans": "解密失敗",
-						"eng": "Decryption failed"
-					},
-					"description": {
-						"trans": "點選正確的顏色序列以解鎖",
-						"eng": "Click on the correct color sequence to unlock"
-					},
-					"button": {
-						"title": {
-							"trans": "請重試",
-							"eng": "Try Again"
-						}
-					}
 				}
 			}
 		},
@@ -845,6 +845,14 @@
 				"trans": "此物品將在 ${eventName} 活動結束後被移除。",
 				"eng": "This item will be removed after the ${eventName} event ends."
 			},
+			"timeLimitedEndTime": {
+				"vars": [
+					"endDate",
+					"timeToEnd"
+				],
+				"trans": "活動將於 ${endDate} UTC (${timeToEnd}) 結束",
+				"eng": "Event ends at ${endDate} UTC (${timeToEnd})"
+			},
 			"timeLimited": {
 				"trans": "限時",
 				"eng": "Time Limited"
@@ -910,7 +918,10 @@
 			},
 			"cantEquip": {
 				"trans": "等級不足，無法使用此裝備",
-				"eng": "Your level is too low for this item"
+				"eng": "Your level is too low for this item, this item requires level ${level} to equip",
+				"vars": [
+					"level"
+				]
 			},
 			"unequip": {
 				"trans": "卸下",
@@ -1487,6 +1498,10 @@
 				"tiny": {
 					"trans": "最小",
 					"eng": "Tiny"
+				},
+				"tiny2": {
+					"trans": "非常微小",
+					"eng": "Very Tiny"
 				},
 				"auto": {
 					"trans": "自動",
@@ -2259,9 +2274,12 @@
 			}
 		},
 		"landing": {
-			"subtile": {
-				"trans": "賽博龐克多人文字冒險遊戲",
-				"eng": "Cyberpunk Text-based MMORPG"
+			"accountCount": {
+				"vars": [
+					"count"
+				],
+				"trans": "立即加入超過 ${count} 位其他賽博朋克們！",
+				"eng": "Join over ${count} other cyberpunkers now!"
 			},
 			"description1": {
 				"trans": "Cyber Code Online 是一款線上遊戲，需要建立帳戶以儲存角色資料。",
@@ -2758,6 +2776,108 @@
 			}
 		}
 	},
+	"gameEventBenefits": {
+		"skipBenefit": {
+			"trans": "快速前進增強",
+			"eng": "Fast Forward Boost"
+		},
+		"skipDiscount": {
+			"vars": [
+				"percent"
+			],
+			"trans": "活動期間內所有跳過的可享有 ${percent}% 的單位需求折扣。",
+			"eng": "All skips during the event period gets ${percent}% off discount on unit required"
+		},
+		"caliTitle": {
+			"trans": "校準折扣",
+			"eng": "Calibration Discount"
+		},
+		"caliSubtitle": {
+			"trans": "降低貢獻要求：",
+			"eng": "Reduced contribution requirements:"
+		},
+		"discountTier": {
+			"vars": [
+				"percent",
+				"ranges"
+			],
+			"trans": "${percent}% 折扣於：${ranges}",
+			"eng": "${percent}% discount at: ${ranges}"
+		},
+		"earlyContributors": {
+			"trans": "早期貢獻者可享有更高的折扣！",
+			"eng": "Early contributors receive higher discounts!"
+		},
+		"partyTitle": {
+			"trans": "派對折扣",
+			"eng": "Party Discount"
+		},
+		"partySubtitle": {
+			"trans": "降低貢獻要求：",
+			"eng": "Reduced contribution requirements:"
+		},
+		"topUpTitle": {
+			"trans": "充值獎勵",
+			"eng": "Top-Up Rewards"
+		},
+		"topUpReward": {
+			"trans": "活動期間充值可獲得特殊獎勵",
+			"eng": "Special rewards available when topping up during the event"
+		},
+		"lootTitle": {
+			"trans": "特殊戰利品",
+			"eng": "Special Loot"
+		},
+		"lootCrate": {
+			"trans": "活動期間，戰利品箱中可獲得特殊物品",
+			"eng": "Special items available in loot crates during the event"
+		},
+		"chatTitle": {
+			"trans": "聊天效果",
+			"eng": "Chat Effects"
+		},
+		"chatEffect": {
+			"trans": "活動期間可使用的專屬聊天特效",
+			"eng": "Exclusive chat effects available during the event"
+		},
+		"bgmTitle": {
+			"trans": "活動音樂",
+			"eng": "Event Music"
+		},
+		"bgm": {
+			"trans": "活動期間的特別背景音樂",
+			"eng": "Special background music during the event"
+		}
+	},
+	"gameEventBenefitsSmall": {
+		"skipDiscount": {
+			"vars": [
+				"percent"
+			],
+			"trans": "以 ${percent}% 的折扣加速你的進度，所有跳過功能皆可使用！",
+			"eng": "Speed up your progress with a ${percent}% discount on all skips"
+		},
+		"caliDiscount": {
+			"trans": "以降低的貢獻成本來超充你的校準！",
+			"eng": "Supercharge your calibrations with reduced contribution costs"
+		},
+		"partyDiscount": {
+			"trans": "組隊並享受獨家派對貢獻折扣！",
+			"eng": "Team up and save with exclusive party contribution discounts"
+		},
+		"topUpReward": {
+			"trans": "在活動期間充值可獲得額外獎勵",
+			"eng": "Get bonus rewards when topping up during the event period"
+		},
+		"lootCrate": {
+			"trans": "在限時活動的戰利品箱中發掘珍稀寶藏",
+			"eng": "Discover limited-time treasures in exclusive event loot crates"
+		},
+		"chatEffect": {
+			"trans": "用炫目的活動主題聊天特效來表達自己",
+			"eng": "Express yourself with dazzling event-themed chat effects"
+		}
+	},
 	"misc": {
 		"back": {
 			"trans": "返回",
@@ -2926,10 +3046,82 @@
 		}
 	},
 	"minigame": {
+		"circuitConnection": {
+			"title": {
+				"trans": "神經電路覆蓋",
+				"eng": "Neural Circuit Override"
+			},
+			"subtitle": {
+				"trans": "安全漏洞檢測到：防火牆遭到入侵",
+				"eng": "Security Breach Detected: Firewall Compromised"
+			},
+			"instructions": {
+				"trans": "快！依序繞過神經安全節點以獲取系統存取權。在ICE協議偵測到你之前，跟上節點順序。",
+				"eng": "Quick! Bypass the neural security nodes in sequence to gain system access. Follow the node sequence before the ICE protocol detects you."
+			},
+			"node": {
+				"trans": "電路節點",
+				"eng": "Circuit Node"
+			}
+		},
+		"dataStream": {
+			"title": {
+				"trans": "數據流攔截器",
+				"eng": "Data Stream Interceptor"
+			},
+			"instructions": {
+				"trans": "攔截有效的數據封包 [發光] // 避免損壞的封包",
+				"eng": "INTERCEPT VALID DATA PACKETS [GLOWING] // AVOID CORRUPTED ONES"
+			}
+		},
+		"sequenceHack": {
+			"title": {
+				"trans": "記憶庫覆寫",
+				"eng": "Memory Bank Override"
+			},
+			"instructions": {
+				"vars": [
+					"duration"
+				],
+				"trans": "警報：檢測到安全模式。請記住並複製二進位序列以獲取系統訪問權限。藍色代表 0，紅色代表 1。模式可見時間為 ${duration} 秒。點擊任意位置立即開始。",
+				"eng": "ALERT: Security pattern detected. Memorize and replicate the binary sequence to gain system access. Blue represents 0, Red represents 1. Pattern visible for ${duration} seconds. Click anywhere to start immediately."
+			},
+			"check": {
+				"trans": "驗證模式",
+				"eng": "VERIFY PATTERN"
+			},
+			"success": {
+				"trans": "存取已授權：記憶體庫成功入侵。系統已遭破壞。",
+				"eng": "ACCESS GRANTED: Memory bank successfully breached. System compromised."
+			}
+		},
+		"symbolAlignment": {
+			"title": {
+				"trans": "解密_神經數據.exe",
+				"eng": "DECRYPT_NEURAL_DATA.exe"
+			},
+			"instructions": {
+				"vars": [
+					"total"
+				],
+				"trans": "ALIGN_ENCRYPTION_KEYS [${total}] :: 警告：系統重置因不匹配而觸發",
+				"eng": "ALIGN_ENCRYPTION_KEYS [${total}] :: WARNING: SYSTEM RESET ON MISMATCH"
+			}
+		},
 		"tileTrack": {
 			"tip": {
 				"trans": "點選已標示的按鈕解鎖",
 				"eng": "Click on the highlighted button to unlock"
+			}
+		},
+		"gameName": {
+			"title": {
+				"trans": "遊戲標題",
+				"eng": "Game Title"
+			},
+			"instructions": {
+				"trans": "如何遊玩",
+				"eng": "How to play"
 			}
 		}
 	},
@@ -3008,6 +3200,16 @@
 			"eng": "Give street cred"
 		}
 	},
+	"gangPage": {
+		"notificationDisabled": {
+			"trans": "幫派聊天通知已禁用",
+			"eng": "Gang chat notifications disabled"
+		},
+		"notificationEnabled": {
+			"trans": "幫派聊天通知已啟用",
+			"eng": "Gang chat notifications enabled"
+		}
+	},
 	"cost": {
 		"requireGang": {
 			"trans": "您需要加入公會",
@@ -3058,6 +3260,15 @@
 	"misc,durability": {
 		"trans": "耐久",
 		"eng": "durability"
+	},
+	"mailRoomContent": {
+		"time": {
+			"vars": [
+				"time"
+			],
+			"trans": "${time} 前",
+			"eng": "${time} ago"
+		}
 	},
 	"chatHeader": {
 		"skipAvailable": {
@@ -3763,14 +3974,6 @@
 			],
 			"trans": "您不能${verb}這個",
 			"eng": "You are not able to ${verb} this"
-		},
-		"timeRequiredText": {
-			"vars": [
-				"verb",
-				"timeStr"
-			],
-			"trans": "${verb}所需的時間：${timeStr}",
-			"eng": "Time required to ${verb}: ${timeStr}"
 		}
 	},
 	"reward": {
@@ -4711,6 +4914,32 @@
 			}
 		}
 	},
+	"clanMemberSort": {
+		"resource": {
+			"displayName": {
+				"trans": "資源",
+				"eng": "Resource"
+			}
+		},
+		"money": {
+			"displayName": {
+				"trans": "金錢",
+				"eng": "Money"
+			}
+		},
+		"occupation": {
+			"displayName": {
+				"trans": "職業",
+				"eng": "Occupation"
+			}
+		},
+		"gangExp": {
+			"displayName": {
+				"trans": "幫派經驗",
+				"eng": "Gang Exp"
+			}
+		}
+	},
 	"donationType": {
 		"donation1": {
 			"trans": "會員",
@@ -4847,6 +5076,14 @@
 		"donation34": {
 			"trans": "龐克",
 			"eng": "Punk"
+		},
+		"donation35": {
+			"trans": "情人節",
+			"eng": "Valentine"
+		},
+		"donation36": {
+			"trans": "Cyberpunk",
+			"eng": "Cyberpunk"
 		},
 		"moderator": {
 			"trans": "聊天管理",
@@ -6189,6 +6426,86 @@
 					"eng": "More coming in future update"
 				}
 			}
+		},
+		"donation35": {
+			"benefits": {
+				"1": {
+					"trans": "「情人節」捐款標題",
+					"eng": "\"Valentine\" donation title"
+				},
+				"2": {
+					"trans": "解鎖個人頭像自訂功能",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "情人節框架（帶動畫）",
+					"eng": "Valentine frame (with animation)"
+				},
+				"4": {
+					"trans": "情人檔案（帶動畫）",
+					"eng": "Valentine Profile (with animation)"
+				},
+				"5": {
+					"trans": "解鎖自訂個人檔案",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "朋克個人檔案裝飾",
+					"eng": "Punk profile decoration"
+				},
+				"7": {
+					"trans": "自訂幫派座右銘",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "自訂幫派圖像",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "未來更新將會有更多內容。",
+					"eng": "More coming in future update"
+				}
+			}
+		},
+		"donation36": {
+			"benefits": {
+				"1": {
+					"trans": "\"賽博朋克\" 捐款標題",
+					"eng": "\"Cyberpunk\" donation title"
+				},
+				"2": {
+					"trans": "解鎖個人頭像自訂功能",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "賽博朋克框架（帶動畫）",
+					"eng": "Cyberpunk frame (with animation)"
+				},
+				"4": {
+					"trans": "賽博朋克個人檔案（帶動畫）",
+					"eng": "Cyberpunk Profile (with animation)"
+				},
+				"5": {
+					"trans": "解鎖自訂個人檔案",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "賽博朋克個人檔案裝飾",
+					"eng": "Cyberpunk profile decoration"
+				},
+				"7": {
+					"trans": "自訂幫派座右銘",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "自訂幫派圖像",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "未來更新將會有更多內容。",
+					"eng": "More coming in future update"
+				}
+			}
 		}
 	},
 	"equipmentMarks": {
@@ -6266,7 +6583,19 @@
 		},
 		"lunarNewYear": {
 			"trans": "農曆新年",
-			"eng": "Lunar New Year"
+			"eng": "Lunar New Year",
+			"skipDiscountTitle": {
+				"trans": "農曆新年折扣",
+				"eng": "Lunar New Year Discount"
+			}
+		},
+		"valentine": {
+			"trans": "情人節",
+			"eng": "Valentine",
+			"skipDiscountTitle": {
+				"trans": "情人節折扣",
+				"eng": "Valentine Discount"
+			}
 		},
 		"halloween": {
 			"trans": "萬聖節",
@@ -6283,10 +6612,7 @@
 		"sakura": {
 			"name": {
 				"trans": "活動期間${percent}%折扣",
-				"eng": "${percent}% off during event",
-				"vars": [
-					"percent"
-				]
+				"eng": "March"
 			}
 		},
 		"rainbow": {
@@ -7494,6 +7820,34 @@
 				"eng": "Push past your limits and grind like a machine--When consumed, increase damage dealt by ${percent}% for ${minutes} minutes"
 			}
 		},
+		"heartShapedChocolate": {
+			"name": {
+				"trans": "心形巧克力",
+				"eng": "Heart Shaped Chocolate"
+			},
+			"description": {
+				"vars": [
+					"percent",
+					"event"
+				],
+				"trans": "一顆美味的心形巧克力，可以增加在AFK任務中獲得的經驗值${percent}%。\\n此物品僅能在${event}活動期間使用。",
+				"eng": "A delicious heart shaped chocolate that can be used to increase EXP received in AFK tasks by ${percent}%.\\nThis item can only be used during ${event} event"
+			}
+		},
+		"chocoBerry": {
+			"name": {
+				"trans": "巧克力草莓",
+				"eng": "Chocolate Strawberry"
+			},
+			"description": {
+				"vars": [
+					"percent",
+					"event"
+				],
+				"trans": "一顆美味的巧克力草莓，可以在AFK任務中提高獲得的經驗值和BTC ${percent}%。\\n此物品僅能在${event}活動期間使用。",
+				"eng": "A delicious chocolate strawberry that can be used to increase EXP and BTC received in AFK tasks by ${percent}%.\\nThis item can only be used during ${event} event"
+			}
+		},
 		"experienceShard": {
 			"name": {
 				"vars": [
@@ -7822,19 +8176,19 @@
 				"trans": "轉到${segmentStationName}",
 				"eng": "go to ${segmentStationName}"
 			},
-			"toZone": {
+			"toLevel1Zone": {
 				"tut": {
 					"vars": [
 						"segmentStationName"
 					],
-					"trans": "點此與1等敵人戰鬥",
-					"eng": "Continue here to fight level 1 enemy"
+					"trans": "點擊這裡進入1到4級區域",
+					"eng": "Click here to enter 1 to 4 level zone area"
 				},
 				"description": {
 					"vars": [
 						"zoneName"
 					],
-					"trans": "前往${zoneName}",
+					"trans": "前往 ${zoneName}",
 					"eng": "Go to ${zoneName}"
 				}
 			}
@@ -10341,11 +10695,11 @@
 	"christmasPromo": {
 		"title": {
 			"trans": "冬季快樂！",
-			"eng": "Happy Winter Holiday!"
+			"eng": "Christmas Celebration"
 		},
 		"desc1": {
 			"trans": "這是一年中最美好的時光！ 在香格里拉，我們正在舉行特別活動來慶祝冬季假期！",
-			"eng": "It's the most wonderful time of the year again! in Shang-ri-la we are celebrating the winter holiday with a special event!"
+			"eng": "'Tis the season to be jolly! Celebrate Christmas with special rewards and festive events."
 		},
 		"v3": {
 			"desc2": {
@@ -10360,6 +10714,14 @@
 				"trans": "在假期期間，將提供聖誕節主題外框與徽章！",
 				"eng": "During the holiday season, Christmas chat frame and emblem will be available!"
 			}
+		},
+		"specialMusic": {
+			"trans": "在活動期間享受節慶背景音樂！",
+			"eng": "Enjoy the festive background music during the event!"
+		},
+		"chatMessage1": {
+			"trans": "大家假期快樂！",
+			"eng": "Happy Holidays everyone!"
 		}
 	},
 	"christmasPromoSmall": {
@@ -10497,6 +10859,20 @@
 				"trans": "了解更多",
 				"eng": "Learn More"
 			}
+		},
+		"valentinePromo": {
+			"title": {
+				"trans": "情人節特別活動",
+				"eng": "Valentine\\'s Special"
+			},
+			"description": {
+				"trans": "慶祝愛情，獲得獨家情人節物品和獎勵！",
+				"eng": "Celebrate love with exclusive Valentine\\'s items and rewards!"
+			},
+			"button": {
+				"trans": "查看事件",
+				"eng": "View Event"
+			}
 		}
 	},
 	"referralPromo": {
@@ -10562,13 +10938,6 @@
 			"trans": "春節到了！櫻花瓣飄落，空氣中彌漫著花香。",
 			"eng": "The Spring Festival is here! Sakura petals are falling, and the air is filled with the fragrance of flowers. "
 		},
-		"desc2": {
-			"vars": [
-				"percent"
-			],
-			"trans": "在活動期間內，所有跳過的任務都可享有單位所需的${percent}%折扣。",
-			"eng": "All skips during the event period gets ${percent}% off discount on unit required"
-		},
 		"desc3": {
 			"trans": "獨家櫻花聊天框和徽章在活動期間限定上架啦！",
 			"eng": "Exclusive Sakura chat frame and emblem is available during event period"
@@ -10576,13 +10945,26 @@
 		"chatMessage1": {
 			"trans": "春天來了",
 			"eng": "Spring is here"
+		}
+	},
+	"eventSkipDiscountSmall": {
+		"title": {
+			"trans": "跳過折扣",
+			"eng": "Skip Discount"
 		},
 		"desc": {
 			"vars": [
 				"percent"
 			],
-			"trans": "活動期間內所有飛逝都有${percent}%折扣🥳",
-			"eng": "All skips during the event period gets ${percent}% off discount on unit required 🥳"
+			"trans": "全場 Skips 享 ${percent}% 折扣！",
+			"eng": "${percent}% discount on all Skips!"
+		},
+		"desc2": {
+			"vars": [
+				"date"
+			],
+			"trans": "結束於 ${date}",
+			"eng": "Ends on ${date}"
 		}
 	},
 	"skipDiscountPromoSmall": {
@@ -10773,6 +11155,24 @@
 			],
 			"trans": "咬一口美味的火雞以獲得 +${percent}％ 掛機經驗值",
 			"eng": "Consume delicious turkey to get +${percent}% EXP on AFK tasks"
+		}
+	},
+	"valentinePromo": {
+		"title": {
+			"trans": "情人節活動",
+			"eng": "Valentine Event"
+		},
+		"desc1": {
+			"trans": "愛在空中！慶祝情人節，享受特別獎勵和活動。",
+			"eng": "Love is in the air! Celebrate Valentine's Day with special rewards and events."
+		},
+		"specialItems": {
+			"trans": "活動期間可以找到特別的情人節物品！",
+			"eng": "Special Valentine items can be found during the event!"
+		},
+		"chatMessage1": {
+			"trans": "情人節快樂！",
+			"eng": "Happy Valentine\\'s Day!"
 		}
 	},
 	"retroPromo": {

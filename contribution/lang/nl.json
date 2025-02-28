@@ -1,5 +1,13 @@
 {
 	"apartment": {
+		"rentalDueDate": {
+			"vars": [
+				"timeToDue",
+				"rentalDueDate"
+			],
+			"trans": "Huurvervaldatum: ${rentalDueDate} (${timeToDue})",
+			"eng": "Rental Due Date: ${rentalDueDate} (${timeToDue})"
+		},
 		"title": {
 			"vars": [
 				"playerName"
@@ -235,6 +243,14 @@
 					"eng": "No gang has occupied this area yet"
 				}
 			},
+			"sort": {
+				"trans": "Sorteren",
+				"eng": "Sort"
+			},
+			"sortDirection": {
+				"trans": "Richting",
+				"eng": "Direction"
+			},
 			"members": {
 				"trans": "Leden",
 				"eng": "Members"
@@ -364,22 +380,6 @@
 				"colorBox": {
 					"trans": "Klik hieronder op deze kleur",
 					"eng": "Click on this color below"
-				},
-				"lose": {
-					"title": {
-						"trans": "Decryptie mislukte",
-						"eng": "Decryption failed"
-					},
-					"description": {
-						"trans": "Klik op de juiste kleurvolgorde om te ontgrendelen",
-						"eng": "Click on the correct color sequence to unlock"
-					},
-					"button": {
-						"title": {
-							"trans": "Probeer het opnieuw",
-							"eng": "Try Again"
-						}
-					}
 				}
 			}
 		},
@@ -845,6 +845,14 @@
 				"trans": "Dit item wordt verwijderd nadat het ${eventName} evenement is afgelopen.",
 				"eng": "This item will be removed after the ${eventName} event ends."
 			},
+			"timeLimitedEndTime": {
+				"vars": [
+					"endDate",
+					"timeToEnd"
+				],
+				"trans": "Evenement eindigt om ${endDate} UTC (${timeToEnd})",
+				"eng": "Event ends at ${endDate} UTC (${timeToEnd})"
+			},
 			"timeLimited": {
 				"trans": "Tijdslimiet",
 				"eng": "Time Limited"
@@ -910,7 +918,10 @@
 			},
 			"cantEquip": {
 				"trans": "Uw niveau is te laag voor dit item",
-				"eng": "Your level is too low for this item"
+				"eng": "Your level is too low for this item, this item requires level ${level} to equip",
+				"vars": [
+					"level"
+				]
 			},
 			"unequip": {
 				"trans": "uitdoen",
@@ -1487,6 +1498,10 @@
 				"tiny": {
 					"trans": "Klein",
 					"eng": "Tiny"
+				},
+				"tiny2": {
+					"trans": "Heel Klein",
+					"eng": "Very Tiny"
 				},
 				"auto": {
 					"trans": "Auto",
@@ -2259,9 +2274,12 @@
 			}
 		},
 		"landing": {
-			"subtile": {
-				"trans": "Cyberpunk Text-gebaseerd MMORPG",
-				"eng": "Cyberpunk Text-based MMORPG"
+			"accountCount": {
+				"vars": [
+					"count"
+				],
+				"trans": "Sluit je nu aan bij meer dan ${count} andere cyberpunkers!",
+				"eng": "Join over ${count} other cyberpunkers now!"
 			},
 			"description1": {
 				"trans": "Cybercode Online is een online game, er is een account nodig om game-gegevens op te slaan.",
@@ -2758,6 +2776,108 @@
 			}
 		}
 	},
+	"gameEventBenefits": {
+		"skipBenefit": {
+			"trans": "Snelle Vooruitgang Boost",
+			"eng": "Fast Forward Boost"
+		},
+		"skipDiscount": {
+			"vars": [
+				"percent"
+			],
+			"trans": "Alle skips tijdens de evenementperiode krijgen ${percent}% korting op de vereiste eenheid",
+			"eng": "All skips during the event period gets ${percent}% off discount on unit required"
+		},
+		"caliTitle": {
+			"trans": "Kalibratiekorting",
+			"eng": "Calibration Discount"
+		},
+		"caliSubtitle": {
+			"trans": "Verminderde bijdragevereisten:",
+			"eng": "Reduced contribution requirements:"
+		},
+		"discountTier": {
+			"vars": [
+				"percent",
+				"ranges"
+			],
+			"trans": "${percent}% korting bij: ${ranges}",
+			"eng": "${percent}% discount at: ${ranges}"
+		},
+		"earlyContributors": {
+			"trans": "Vroegbijdragers ontvangen hogere kortingen!",
+			"eng": "Early contributors receive higher discounts!"
+		},
+		"partyTitle": {
+			"trans": "Groepskorting",
+			"eng": "Party Discount"
+		},
+		"partySubtitle": {
+			"trans": "Verminderde bijdragevereisten:",
+			"eng": "Reduced contribution requirements:"
+		},
+		"topUpTitle": {
+			"trans": "Top-Up Rewards",
+			"eng": "Top-Up Rewards"
+		},
+		"topUpReward": {
+			"trans": "Speciale beloningen beschikbaar bij het opwaarderen tijdens het evenement",
+			"eng": "Special rewards available when topping up during the event"
+		},
+		"lootTitle": {
+			"trans": "Speciale Loot",
+			"eng": "Special Loot"
+		},
+		"lootCrate": {
+			"trans": "Speciale items beschikbaar in loot crates tijdens het evenement",
+			"eng": "Special items available in loot crates during the event"
+		},
+		"chatTitle": {
+			"trans": "Chat Effecten",
+			"eng": "Chat Effects"
+		},
+		"chatEffect": {
+			"trans": "Exclusieve chat-effecten beschikbaar tijdens het evenement",
+			"eng": "Exclusive chat effects available during the event"
+		},
+		"bgmTitle": {
+			"trans": "Evenement Muziek",
+			"eng": "Event Music"
+		},
+		"bgm": {
+			"trans": "Speciale achtergrondmuziek tijdens het evenement",
+			"eng": "Special background music during the event"
+		}
+	},
+	"gameEventBenefitsSmall": {
+		"skipDiscount": {
+			"vars": [
+				"percent"
+			],
+			"trans": "Versnel je voortgang met een ${percent}% korting op alle skips",
+			"eng": "Speed up your progress with a ${percent}% discount on all skips"
+		},
+		"caliDiscount": {
+			"trans": "Verhoog je kalibraties met verlaagde bijdragekosten",
+			"eng": "Supercharge your calibrations with reduced contribution costs"
+		},
+		"partyDiscount": {
+			"trans": "Werk samen en bespaar met exclusieve kortingen op groepsbijdragen",
+			"eng": "Team up and save with exclusive party contribution discounts"
+		},
+		"topUpReward": {
+			"trans": "Ontvang bonusbeloningen wanneer je tijdens de evenementperiode opwaardeert",
+			"eng": "Get bonus rewards when topping up during the event period"
+		},
+		"lootCrate": {
+			"trans": "Ontdek tijdelijke schatten in exclusieve evenement loot crates",
+			"eng": "Discover limited-time treasures in exclusive event loot crates"
+		},
+		"chatEffect": {
+			"trans": "Druk je uit met verbluffende chat-effecten in thema van het evenement",
+			"eng": "Express yourself with dazzling event-themed chat effects"
+		}
+	},
 	"misc": {
 		"back": {
 			"trans": "terug",
@@ -2926,10 +3046,82 @@
 		}
 	},
 	"minigame": {
+		"circuitConnection": {
+			"title": {
+				"trans": "Neuraal Circuit Override",
+				"eng": "Neural Circuit Override"
+			},
+			"subtitle": {
+				"trans": "Beveiligingsinbreuk Gedetecteerd: Firewall Gecompromitteerd",
+				"eng": "Security Breach Detected: Firewall Compromised"
+			},
+			"instructions": {
+				"trans": "Snel! Omzeil de neurale beveiligingsnodes in volgorde om toegang tot het systeem te krijgen. Volg de nodevolgorde voordat het ICE-protocol je detecteert.",
+				"eng": "Quick! Bypass the neural security nodes in sequence to gain system access. Follow the node sequence before the ICE protocol detects you."
+			},
+			"node": {
+				"trans": "Circuit Node",
+				"eng": "Circuit Node"
+			}
+		},
+		"dataStream": {
+			"title": {
+				"trans": "Gegevensstroominterceptor",
+				"eng": "Data Stream Interceptor"
+			},
+			"instructions": {
+				"trans": "INTERCEPTEER VALIDE DATAPAKKETTEN [GLOEIEND] // VERMIJD BESCHADIGDE PAKKETTEN",
+				"eng": "INTERCEPT VALID DATA PACKETS [GLOWING] // AVOID CORRUPTED ONES"
+			}
+		},
+		"sequenceHack": {
+			"title": {
+				"trans": "Geheugenbank Overschrijving",
+				"eng": "Memory Bank Override"
+			},
+			"instructions": {
+				"vars": [
+					"duration"
+				],
+				"trans": "ALERT: Beveiligingspatroon gedetecteerd. Onthoud en replicateer de binaire reeks om toegang tot het systeem te krijgen. Blauw staat voor 0, Rood staat voor 1. Patroon zichtbaar voor ${duration} seconden. Klik ergens om onmiddellijk te beginnen.",
+				"eng": "ALERT: Security pattern detected. Memorize and replicate the binary sequence to gain system access. Blue represents 0, Red represents 1. Pattern visible for ${duration} seconds. Click anywhere to start immediately."
+			},
+			"check": {
+				"trans": "PATROON CONTROLEREN",
+				"eng": "VERIFY PATTERN"
+			},
+			"success": {
+				"trans": "TOEGANG TOEGESTAAN: Geheugenbank succesvol doorbroken. Systeem gecompromitteerd.",
+				"eng": "ACCESS GRANTED: Memory bank successfully breached. System compromised."
+			}
+		},
+		"symbolAlignment": {
+			"title": {
+				"trans": "DECRYPT_NEURALE_DATA.exe",
+				"eng": "DECRYPT_NEURAL_DATA.exe"
+			},
+			"instructions": {
+				"vars": [
+					"total"
+				],
+				"trans": "ALIGN_ENCRYPTION_KEYS [${total}] :: WAARSCHUWING: SYSTEEMRESET BIJ ONTSPANNING",
+				"eng": "ALIGN_ENCRYPTION_KEYS [${total}] :: WARNING: SYSTEM RESET ON MISMATCH"
+			}
+		},
 		"tileTrack": {
 			"tip": {
 				"trans": "Klik op de gemarkeerde knop om te ontgrendelen",
 				"eng": "Click on the highlighted button to unlock"
+			}
+		},
+		"gameName": {
+			"title": {
+				"trans": "Spel Titel",
+				"eng": "Game Title"
+			},
+			"instructions": {
+				"trans": "Hoe te spelen",
+				"eng": "How to play"
 			}
 		}
 	},
@@ -3008,6 +3200,16 @@
 			"eng": "Give street cred"
 		}
 	},
+	"gangPage": {
+		"notificationDisabled": {
+			"trans": "Gang chatmeldingen uitgeschakeld",
+			"eng": "Gang chat notifications disabled"
+		},
+		"notificationEnabled": {
+			"trans": "Gang chatmeldingen ingeschakeld",
+			"eng": "Gang chat notifications enabled"
+		}
+	},
 	"cost": {
 		"requireGang": {
 			"trans": "Vereist om in een bende te zijn",
@@ -3058,6 +3260,15 @@
 	"misc,durability": {
 		"trans": "duurzaamheid",
 		"eng": "durability"
+	},
+	"mailRoomContent": {
+		"time": {
+			"vars": [
+				"time"
+			],
+			"trans": "${time} geleden",
+			"eng": "${time} ago"
+		}
 	},
 	"chatHeader": {
 		"skipAvailable": {
@@ -3763,14 +3974,6 @@
 			],
 			"trans": "U kunt dit niet ${verb}",
 			"eng": "You are not able to ${verb} this"
-		},
-		"timeRequiredText": {
-			"vars": [
-				"verb",
-				"timeStr"
-			],
-			"trans": "Tijd benodigd voor ${verb}: ${timeStr}",
-			"eng": "Time required to ${verb}: ${timeStr}"
 		}
 	},
 	"reward": {
@@ -4711,6 +4914,32 @@
 			}
 		}
 	},
+	"clanMemberSort": {
+		"resource": {
+			"displayName": {
+				"trans": "Hulpbron",
+				"eng": "Resource"
+			}
+		},
+		"money": {
+			"displayName": {
+				"trans": "Geld",
+				"eng": "Money"
+			}
+		},
+		"occupation": {
+			"displayName": {
+				"trans": "Beroep",
+				"eng": "Occupation"
+			}
+		},
+		"gangExp": {
+			"displayName": {
+				"trans": "Bende Exp",
+				"eng": "Gang Exp"
+			}
+		}
+	},
 	"donationType": {
 		"donation1": {
 			"trans": "Lid",
@@ -4847,6 +5076,14 @@
 		"donation34": {
 			"trans": "Punk",
 			"eng": "Punk"
+		},
+		"donation35": {
+			"trans": "Valentijn",
+			"eng": "Valentine"
+		},
+		"donation36": {
+			"trans": "Cyberpunk",
+			"eng": "Cyberpunk"
 		},
 		"moderator": {
 			"trans": "Moderator",
@@ -6189,6 +6426,86 @@
 					"eng": "More coming in future update"
 				}
 			}
+		},
+		"donation35": {
+			"benefits": {
+				"1": {
+					"trans": "\"Valentijn\" donatietitel",
+					"eng": "\"Valentine\" donation title"
+				},
+				"2": {
+					"trans": "Ontgrendel de aanpassing van profielfoto's",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "Valentijnsframe (met animatie)",
+					"eng": "Valentine frame (with animation)"
+				},
+				"4": {
+					"trans": "Valentine Profiel (met animatie)",
+					"eng": "Valentine Profile (with animation)"
+				},
+				"5": {
+					"trans": "Ontgrendel aangepaste bio",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "Punk profieldecoratie",
+					"eng": "Punk profile decoration"
+				},
+				"7": {
+					"trans": "Pas het gangmotto aan",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "Pas gangafbeelding aan",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "Meer komt eraan in een toekomstige update",
+					"eng": "More coming in future update"
+				}
+			}
+		},
+		"donation36": {
+			"benefits": {
+				"1": {
+					"trans": "\"Cyberpunk\" donatietitel",
+					"eng": "\"Cyberpunk\" donation title"
+				},
+				"2": {
+					"trans": "Ontgrendel de aanpassing van profielfoto's",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "Cyberpunk frame (met animatie)",
+					"eng": "Cyberpunk frame (with animation)"
+				},
+				"4": {
+					"trans": "Cyberpunk Profiel (met animatie)",
+					"eng": "Cyberpunk Profile (with animation)"
+				},
+				"5": {
+					"trans": "Ontgrendel aangepaste bio",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "Cyberpunk profielversiering",
+					"eng": "Cyberpunk profile decoration"
+				},
+				"7": {
+					"trans": "Pas het gangmotto aan",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "Pas gangafbeelding aan",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "Meer komt eraan in een toekomstige update",
+					"eng": "More coming in future update"
+				}
+			}
 		}
 	},
 	"equipmentMarks": {
@@ -6266,7 +6583,19 @@
 		},
 		"lunarNewYear": {
 			"trans": "Nieuw maanjaar",
-			"eng": "Lunar New Year"
+			"eng": "Lunar New Year",
+			"skipDiscountTitle": {
+				"trans": "Lunar New Year Korting",
+				"eng": "Lunar New Year Discount"
+			}
+		},
+		"valentine": {
+			"trans": "Valentijn",
+			"eng": "Valentine",
+			"skipDiscountTitle": {
+				"trans": "Valentijnsaanbieding",
+				"eng": "Valentine Discount"
+			}
 		},
 		"halloween": {
 			"trans": "Halloween",
@@ -6283,10 +6612,7 @@
 		"sakura": {
 			"name": {
 				"trans": "Maart",
-				"eng": "${percent}% off during event",
-				"vars": [
-					"percent"
-				]
+				"eng": "March"
 			}
 		},
 		"rainbow": {
@@ -7494,6 +7820,34 @@
 				"eng": "Push past your limits and grind like a machine--When consumed, increase damage dealt by ${percent}% for ${minutes} minutes"
 			}
 		},
+		"heartShapedChocolate": {
+			"name": {
+				"trans": "Hartvormige Chocolade",
+				"eng": "Heart Shaped Chocolate"
+			},
+			"description": {
+				"vars": [
+					"percent",
+					"event"
+				],
+				"trans": "Een heerlijke hartvormige chocolade die kan worden gebruikt om de ontvangen EXP in AFK-taken met ${percent}% te verhogen.\\nDit item kan alleen worden gebruikt tijdens het ${event} evenement",
+				"eng": "A delicious heart shaped chocolate that can be used to increase EXP received in AFK tasks by ${percent}%.\\nThis item can only be used during ${event} event"
+			}
+		},
+		"chocoBerry": {
+			"name": {
+				"trans": "Chocolade Aardbei",
+				"eng": "Chocolate Strawberry"
+			},
+			"description": {
+				"vars": [
+					"percent",
+					"event"
+				],
+				"trans": "Een heerlijke chocolade-aardbei die kan worden gebruikt om de ontvangen EXP en BTC in AFK-taken met ${percent}% te verhogen.\\nDit item kan alleen worden gebruikt tijdens het ${event} evenement",
+				"eng": "A delicious chocolate strawberry that can be used to increase EXP and BTC received in AFK tasks by ${percent}%.\\nThis item can only be used during ${event} event"
+			}
+		},
 		"experienceShard": {
 			"name": {
 				"vars": [
@@ -7822,13 +8176,13 @@
 				"trans": "Ga naar ${segmentStationName}",
 				"eng": "go to ${segmentStationName}"
 			},
-			"toZone": {
+			"toLevel1Zone": {
 				"tut": {
 					"vars": [
 						"segmentStationName"
 					],
-					"trans": "Ga hier verder om met een level 1 vijand te vechten",
-					"eng": "Continue here to fight level 1 enemy"
+					"trans": "Klik hier om een zonegebied van niveau 1 tot 4 binnen te gaan",
+					"eng": "Click here to enter 1 to 4 level zone area"
 				},
 				"description": {
 					"vars": [
@@ -10137,11 +10491,11 @@
 	"christmasPromo": {
 		"title": {
 			"trans": "Fijne wintervakantie!",
-			"eng": "Happy Winter Holiday!"
+			"eng": "Christmas Celebration"
 		},
 		"desc1": {
 			"trans": "Het is weer de mooiste tijd van het jaar! In Shangri-La vieren we de wintervakantie met een speciaal evenement!",
-			"eng": "It's the most wonderful time of the year again! in Shang-ri-la we are celebrating the winter holiday with a special event!"
+			"eng": "'Tis the season to be jolly! Celebrate Christmas with special rewards and festive events."
 		},
 		"v3": {
 			"desc2": {
@@ -10156,6 +10510,14 @@
 				"trans": "Tijdens de feestdagen zijn kerstchatframe en embleem beschikbaar!",
 				"eng": "During the holiday season, Christmas chat frame and emblem will be available!"
 			}
+		},
+		"specialMusic": {
+			"trans": "Geniet van de feestelijke achtergrondmuziek tijdens het evenement!",
+			"eng": "Enjoy the festive background music during the event!"
+		},
+		"chatMessage1": {
+			"trans": "Fijne Feestdagen iedereen!",
+			"eng": "Happy Holidays everyone!"
 		}
 	},
 	"christmasPromoSmall": {
@@ -10293,6 +10655,20 @@
 				"trans": "Meer Informatie",
 				"eng": "Learn More"
 			}
+		},
+		"valentinePromo": {
+			"title": {
+				"trans": "Valentijns Special",
+				"eng": "Valentine\\'s Special"
+			},
+			"description": {
+				"trans": "Vier de liefde met exclusieve Valentijnsitems en beloningen!",
+				"eng": "Celebrate love with exclusive Valentine\\'s items and rewards!"
+			},
+			"button": {
+				"trans": "Bekijk Evenement",
+				"eng": "View Event"
+			}
 		}
 	},
 	"referralPromo": {
@@ -10358,13 +10734,6 @@
 			"trans": "Het Lentefestival is hier! Sakura bloemblaadjes dwarrelen neer en de lucht is gevuld met de geur van bloemen",
 			"eng": "The Spring Festival is here! Sakura petals are falling, and the air is filled with the fragrance of flowers. "
 		},
-		"desc2": {
-			"vars": [
-				"percent"
-			],
-			"trans": "Alle overslaan tijdens de evenementperiode krijgt ${percent}% korting op vereiste eenheid",
-			"eng": "All skips during the event period gets ${percent}% off discount on unit required"
-		},
 		"desc3": {
 			"trans": "Exclusieve Sakura-chatframe en embleem zijn beschikbaar tijdens het evenement",
 			"eng": "Exclusive Sakura chat frame and emblem is available during event period"
@@ -10372,13 +10741,26 @@
 		"chatMessage1": {
 			"trans": "De lente is hier",
 			"eng": "Spring is here"
+		}
+	},
+	"eventSkipDiscountSmall": {
+		"title": {
+			"trans": "Sla Korting Over",
+			"eng": "Skip Discount"
 		},
 		"desc": {
 			"vars": [
 				"percent"
 			],
-			"trans": "Alle overslaan tijdens de evenementperiode krijgt ${percent}% korting op vereiste eenheid 🥳",
-			"eng": "All skips during the event period gets ${percent}% off discount on unit required 🥳"
+			"trans": "${percent}% korting op alle Skips!",
+			"eng": "${percent}% discount on all Skips!"
+		},
+		"desc2": {
+			"vars": [
+				"date"
+			],
+			"trans": "Eindigt op ${date}",
+			"eng": "Ends on ${date}"
 		}
 	},
 	"skipDiscountPromoSmall": {
@@ -10569,6 +10951,24 @@
 			],
 			"trans": "Consumeer Delicious Turkije om +${percent}% exp te krijgen op AFK -taken",
 			"eng": "Consume delicious turkey to get +${percent}% EXP on AFK tasks"
+		}
+	},
+	"valentinePromo": {
+		"title": {
+			"trans": "Valentijns evenement",
+			"eng": "Valentine Event"
+		},
+		"desc1": {
+			"trans": "De liefde hangt in de lucht! Vier Valentijnsdag met speciale beloningen en evenementen.",
+			"eng": "Love is in the air! Celebrate Valentine's Day with special rewards and events."
+		},
+		"specialItems": {
+			"trans": "Speciale Valentijnsitems zijn te vinden tijdens het evenement!",
+			"eng": "Special Valentine items can be found during the event!"
+		},
+		"chatMessage1": {
+			"trans": "Fijne Valentijnsdag!",
+			"eng": "Happy Valentine\\'s Day!"
 		}
 	},
 	"retroPromo": {

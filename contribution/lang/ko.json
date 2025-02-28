@@ -1,5 +1,13 @@
 {
 	"apartment": {
+		"rentalDueDate": {
+			"vars": [
+				"timeToDue",
+				"rentalDueDate"
+			],
+			"trans": "대여 마감일: ${rentalDueDate} (${timeToDue})",
+			"eng": "Rental Due Date: ${rentalDueDate} (${timeToDue})"
+		},
 		"title": {
 			"vars": [
 				"playerName"
@@ -235,6 +243,14 @@
 					"eng": "No gang has occupied this area yet"
 				}
 			},
+			"sort": {
+				"trans": "정렬",
+				"eng": "Sort"
+			},
+			"sortDirection": {
+				"trans": "방향",
+				"eng": "Direction"
+			},
 			"members": {
 				"trans": "조직원",
 				"eng": "Members"
@@ -364,22 +380,6 @@
 				"colorBox": {
 					"trans": "아래의 색중에서 이 색을 누르십시오",
 					"eng": "Click on this color below"
-				},
-				"lose": {
-					"title": {
-						"trans": "암호 해독에 실패했습니다",
-						"eng": "Decryption failed"
-					},
-					"description": {
-						"trans": "올바른 색상을 순서대로 눌러 잠금을 해제하십시오",
-						"eng": "Click on the correct color sequence to unlock"
-					},
-					"button": {
-						"title": {
-							"trans": "다시 시도하십시오",
-							"eng": "Try Again"
-						}
-					}
 				}
 			}
 		},
@@ -845,6 +845,14 @@
 				"trans": "이 아이템은 ${eventName} 이벤트가 끝난 후 제거됩니다.",
 				"eng": "This item will be removed after the ${eventName} event ends."
 			},
+			"timeLimitedEndTime": {
+				"vars": [
+					"endDate",
+					"timeToEnd"
+				],
+				"trans": "이벤트는 ${endDate} UTC (${timeToEnd})에 종료됩니다",
+				"eng": "Event ends at ${endDate} UTC (${timeToEnd})"
+			},
 			"timeLimited": {
 				"trans": "기간 제한",
 				"eng": "Time Limited"
@@ -910,7 +918,10 @@
 			},
 			"cantEquip": {
 				"trans": "이 아이템을 사용하기에는 레벨이 너무 낮습니다",
-				"eng": "Your level is too low for this item"
+				"eng": "Your level is too low for this item, this item requires level ${level} to equip",
+				"vars": [
+					"level"
+				]
 			},
 			"unequip": {
 				"trans": "장착 해제",
@@ -1487,6 +1498,10 @@
 				"tiny": {
 					"trans": "매우 작은",
 					"eng": "Tiny"
+				},
+				"tiny2": {
+					"trans": "아주 작음",
+					"eng": "Very Tiny"
 				},
 				"auto": {
 					"trans": "자동",
@@ -2259,9 +2274,12 @@
 			}
 		},
 		"landing": {
-			"subtile": {
-				"trans": "사이버펑크 텍스트 기반 MMORPG",
-				"eng": "Cyberpunk Text-based MMORPG"
+			"accountCount": {
+				"vars": [
+					"count"
+				],
+				"trans": "지금 ${count}명의 다른 사이버펑크들과 함께하세요!",
+				"eng": "Join over ${count} other cyberpunkers now!"
 			},
 			"description1": {
 				"trans": "Cybercode Online은 게임 데이터를 보존하기 위한 계정이 필요합니다.",
@@ -2758,6 +2776,108 @@
 			}
 		}
 	},
+	"gameEventBenefits": {
+		"skipBenefit": {
+			"trans": "빠른 전진 부스트",
+			"eng": "Fast Forward Boost"
+		},
+		"skipDiscount": {
+			"vars": [
+				"percent"
+			],
+			"trans": "이벤트 기간 동안 모든 스킵은 필요한 유닛에 대해 ${percent}% 할인됩니다",
+			"eng": "All skips during the event period gets ${percent}% off discount on unit required"
+		},
+		"caliTitle": {
+			"trans": "보정 할인",
+			"eng": "Calibration Discount"
+		},
+		"caliSubtitle": {
+			"trans": "기여 요건 감소:",
+			"eng": "Reduced contribution requirements:"
+		},
+		"discountTier": {
+			"vars": [
+				"percent",
+				"ranges"
+			],
+			"trans": "${percent}% 할인: ${ranges}",
+			"eng": "${percent}% discount at: ${ranges}"
+		},
+		"earlyContributors": {
+			"trans": "초기 기여자에게는 더 높은 할인 혜택이 제공됩니다!",
+			"eng": "Early contributors receive higher discounts!"
+		},
+		"partyTitle": {
+			"trans": "파티 할인",
+			"eng": "Party Discount"
+		},
+		"partySubtitle": {
+			"trans": "기여 요건 감소:",
+			"eng": "Reduced contribution requirements:"
+		},
+		"topUpTitle": {
+			"trans": "충전 보상",
+			"eng": "Top-Up Rewards"
+		},
+		"topUpReward": {
+			"trans": "이벤트 기간 동안 충전 시 특별 보상을 받을 수 있습니다",
+			"eng": "Special rewards available when topping up during the event"
+		},
+		"lootTitle": {
+			"trans": "특별 보상",
+			"eng": "Special Loot"
+		},
+		"lootCrate": {
+			"trans": "이벤트 기간 동안 전리품 상자에서 특별 아이템을 획득할 수 있습니다",
+			"eng": "Special items available in loot crates during the event"
+		},
+		"chatTitle": {
+			"trans": "채팅 효과",
+			"eng": "Chat Effects"
+		},
+		"chatEffect": {
+			"trans": "이벤트 기간 동안 사용할 수 있는 독점 채팅 효과",
+			"eng": "Exclusive chat effects available during the event"
+		},
+		"bgmTitle": {
+			"trans": "이벤트 음악",
+			"eng": "Event Music"
+		},
+		"bgm": {
+			"trans": "이벤트 동안 특별 배경 음악",
+			"eng": "Special background music during the event"
+		}
+	},
+	"gameEventBenefitsSmall": {
+		"skipDiscount": {
+			"vars": [
+				"percent"
+			],
+			"trans": "모든 스킵에 대해 ${percent}% 할인으로 진행 속도를 높이세요!",
+			"eng": "Speed up your progress with a ${percent}% discount on all skips"
+		},
+		"caliDiscount": {
+			"trans": "기여 비용을 줄여 보정을 극대화하세요",
+			"eng": "Supercharge your calibrations with reduced contribution costs"
+		},
+		"partyDiscount": {
+			"trans": "팀을 이루고 독점 파티 기여 할인으로 절약하세요",
+			"eng": "Team up and save with exclusive party contribution discounts"
+		},
+		"topUpReward": {
+			"trans": "이벤트 기간 동안 충전 시 보너스 보상을 받으세요",
+			"eng": "Get bonus rewards when topping up during the event period"
+		},
+		"lootCrate": {
+			"trans": "한정 기간 동안 독점 이벤트 보급품에서 보물을 발견하세요",
+			"eng": "Discover limited-time treasures in exclusive event loot crates"
+		},
+		"chatEffect": {
+			"trans": "화려한 이벤트 테마의 채팅 효과로 자신을 표현하세요!",
+			"eng": "Express yourself with dazzling event-themed chat effects"
+		}
+	},
 	"misc": {
 		"back": {
 			"trans": "뒤로가기",
@@ -2926,10 +3046,82 @@
 		}
 	},
 	"minigame": {
+		"circuitConnection": {
+			"title": {
+				"trans": "신경 회로 오버라이드",
+				"eng": "Neural Circuit Override"
+			},
+			"subtitle": {
+				"trans": "보안 침해 감지: 방화벽이 손상되었습니다",
+				"eng": "Security Breach Detected: Firewall Compromised"
+			},
+			"instructions": {
+				"trans": "빨리! 신경 보안 노드를 순서대로 우회하여 시스템에 접근하세요. ICE 프로토콜이 당신을 감지하기 전에 노드 순서를 따라가세요.",
+				"eng": "Quick! Bypass the neural security nodes in sequence to gain system access. Follow the node sequence before the ICE protocol detects you."
+			},
+			"node": {
+				"trans": "회로 노드",
+				"eng": "Circuit Node"
+			}
+		},
+		"dataStream": {
+			"title": {
+				"trans": "데이터 스트림 인터셉터",
+				"eng": "Data Stream Interceptor"
+			},
+			"instructions": {
+				"trans": "유효한 데이터 패킷 가로채기 [빛나는] // 손상된 패킷은 피하세요",
+				"eng": "INTERCEPT VALID DATA PACKETS [GLOWING] // AVOID CORRUPTED ONES"
+			}
+		},
+		"sequenceHack": {
+			"title": {
+				"trans": "메모리 뱅크 오버라이드",
+				"eng": "Memory Bank Override"
+			},
+			"instructions": {
+				"vars": [
+					"duration"
+				],
+				"trans": "경고: 보안 패턴이 감지되었습니다. 시스템 접근을 위해 이진 수열을 기억하고 복제하세요. 파란색은 0, 빨간색은 1을 나타냅니다. 패턴은 ${duration}초 동안 표시됩니다. 즉시 시작하려면 아무 곳이나 클릭하세요.",
+				"eng": "ALERT: Security pattern detected. Memorize and replicate the binary sequence to gain system access. Blue represents 0, Red represents 1. Pattern visible for ${duration} seconds. Click anywhere to start immediately."
+			},
+			"check": {
+				"trans": "패턴 확인",
+				"eng": "VERIFY PATTERN"
+			},
+			"success": {
+				"trans": "접속 허가: 메모리 뱅크에 성공적으로 침입했습니다. 시스템이 손상되었습니다.",
+				"eng": "ACCESS GRANTED: Memory bank successfully breached. System compromised."
+			}
+		},
+		"symbolAlignment": {
+			"title": {
+				"trans": "DECRYPT_NEURAL_DATA.exe",
+				"eng": "DECRYPT_NEURAL_DATA.exe"
+			},
+			"instructions": {
+				"vars": [
+					"total"
+				],
+				"trans": "ALIGN_ENCRYPTION_KEYS [${total}] :: 경고: 불일치로 인한 시스템 리셋",
+				"eng": "ALIGN_ENCRYPTION_KEYS [${total}] :: WARNING: SYSTEM RESET ON MISMATCH"
+			}
+		},
 		"tileTrack": {
 			"tip": {
 				"trans": "강조된 버튼을 클릭하여 잠금을 해제하세요",
 				"eng": "Click on the highlighted button to unlock"
+			}
+		},
+		"gameName": {
+			"title": {
+				"trans": "게임 제목",
+				"eng": "Game Title"
+			},
+			"instructions": {
+				"trans": "게임 방법",
+				"eng": "How to play"
 			}
 		}
 	},
@@ -3008,6 +3200,16 @@
 			"eng": "Give street cred"
 		}
 	},
+	"gangPage": {
+		"notificationDisabled": {
+			"trans": "갱 채팅 알림 비활성화됨",
+			"eng": "Gang chat notifications disabled"
+		},
+		"notificationEnabled": {
+			"trans": "갱 채팅 알림 활성화됨",
+			"eng": "Gang chat notifications enabled"
+		}
+	},
 	"cost": {
 		"requireGang": {
 			"trans": "갱단에 속해있어야 합니다",
@@ -3058,6 +3260,15 @@
 	"misc,durability": {
 		"trans": "내구도",
 		"eng": "durability"
+	},
+	"mailRoomContent": {
+		"time": {
+			"vars": [
+				"time"
+			],
+			"trans": "${time} 전",
+			"eng": "${time} ago"
+		}
 	},
 	"chatHeader": {
 		"skipAvailable": {
@@ -3763,14 +3974,6 @@
 			],
 			"trans": "${verb} 할 수 없습니다",
 			"eng": "You are not able to ${verb} this"
-		},
-		"timeRequiredText": {
-			"vars": [
-				"verb",
-				"timeStr"
-			],
-			"trans": "${verb}하기 위해 걸리는 시간: ${timeStr}",
-			"eng": "Time required to ${verb}: ${timeStr}"
 		}
 	},
 	"reward": {
@@ -4711,6 +4914,32 @@
 			}
 		}
 	},
+	"clanMemberSort": {
+		"resource": {
+			"displayName": {
+				"trans": "자원",
+				"eng": "Resource"
+			}
+		},
+		"money": {
+			"displayName": {
+				"trans": "돈",
+				"eng": "Money"
+			}
+		},
+		"occupation": {
+			"displayName": {
+				"trans": "직업",
+				"eng": "Occupation"
+			}
+		},
+		"gangExp": {
+			"displayName": {
+				"trans": "갱 경험",
+				"eng": "Gang Exp"
+			}
+		}
+	},
 	"donationType": {
 		"donation1": {
 			"trans": "멤버",
@@ -4847,6 +5076,14 @@
 		"donation34": {
 			"trans": "펑크",
 			"eng": "Punk"
+		},
+		"donation35": {
+			"trans": "발렌타인",
+			"eng": "Valentine"
+		},
+		"donation36": {
+			"trans": "사이버펑크",
+			"eng": "Cyberpunk"
 		},
 		"moderator": {
 			"trans": "관리자",
@@ -6189,6 +6426,86 @@
 					"eng": "More coming in future update"
 				}
 			}
+		},
+		"donation35": {
+			"benefits": {
+				"1": {
+					"trans": "\"발렌타인\" 기부 제목",
+					"eng": "\"Valentine\" donation title"
+				},
+				"2": {
+					"trans": "프로필 사진 커스터마이징 잠금 해제",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "발렌타인 프레임 (애니메이션 포함)",
+					"eng": "Valentine frame (with animation)"
+				},
+				"4": {
+					"trans": "발렌타인 프로필 (애니메이션 포함)",
+					"eng": "Valentine Profile (with animation)"
+				},
+				"5": {
+					"trans": "커스텀 바이오 잠금 해제",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "펑크 프로필 장식",
+					"eng": "Punk profile decoration"
+				},
+				"7": {
+					"trans": "갱 모토 사용자 정의",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "갱 이미지 사용자 정의",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "추후 업데이트에서 더 많은 내용이 추가됩니다",
+					"eng": "More coming in future update"
+				}
+			}
+		},
+		"donation36": {
+			"benefits": {
+				"1": {
+					"trans": "\"사이버펑크\" 기부 제목",
+					"eng": "\"Cyberpunk\" donation title"
+				},
+				"2": {
+					"trans": "프로필 사진 커스터마이징 잠금 해제",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "사이버펑크 프레임 (애니메이션 포함)",
+					"eng": "Cyberpunk frame (with animation)"
+				},
+				"4": {
+					"trans": "사이버펑크 프로필 (애니메이션 포함)",
+					"eng": "Cyberpunk Profile (with animation)"
+				},
+				"5": {
+					"trans": "커스텀 바이오 잠금 해제",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "사이버펑크 프로필 장식",
+					"eng": "Cyberpunk profile decoration"
+				},
+				"7": {
+					"trans": "갱 모토 사용자 정의",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "갱 이미지 사용자 정의",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "추후 업데이트에서 더 많은 내용이 추가됩니다",
+					"eng": "More coming in future update"
+				}
+			}
 		}
 	},
 	"equipmentMarks": {
@@ -6266,7 +6583,19 @@
 		},
 		"lunarNewYear": {
 			"trans": "설",
-			"eng": "Lunar New Year"
+			"eng": "Lunar New Year",
+			"skipDiscountTitle": {
+				"trans": "설날 할인",
+				"eng": "Lunar New Year Discount"
+			}
+		},
+		"valentine": {
+			"trans": "발렌타인",
+			"eng": "Valentine",
+			"skipDiscountTitle": {
+				"trans": "발렌타인 할인",
+				"eng": "Valentine Discount"
+			}
 		},
 		"halloween": {
 			"trans": "할로윈",
@@ -6283,10 +6612,7 @@
 		"sakura": {
 			"name": {
 				"trans": "이벤트 기간 동안 ${percent}% 할인",
-				"eng": "${percent}% off during event",
-				"vars": [
-					"percent"
-				]
+				"eng": "March"
 			}
 		},
 		"rainbow": {
@@ -7494,6 +7820,34 @@
 				"eng": "Push past your limits and grind like a machine--When consumed, increase damage dealt by ${percent}% for ${minutes} minutes"
 			}
 		},
+		"heartShapedChocolate": {
+			"name": {
+				"trans": "하트 모양 초콜릿",
+				"eng": "Heart Shaped Chocolate"
+			},
+			"description": {
+				"vars": [
+					"percent",
+					"event"
+				],
+				"trans": "AFK 작업에서 받는 경험치를 ${percent}% 증가시킬 수 있는 맛있는 하트 모양 초콜릿입니다.\\n이 아이템은 ${event} 이벤트 동안에만 사용할 수 있습니다",
+				"eng": "A delicious heart shaped chocolate that can be used to increase EXP received in AFK tasks by ${percent}%.\\nThis item can only be used during ${event} event"
+			}
+		},
+		"chocoBerry": {
+			"name": {
+				"trans": "초콜릿 딸기",
+				"eng": "Chocolate Strawberry"
+			},
+			"description": {
+				"vars": [
+					"percent",
+					"event"
+				],
+				"trans": "AFK 작업에서 얻는 EXP와 BTC를 ${percent}% 증가시킬 수 있는 맛있는 초콜릿 딸기입니다.\\n이 아이템은 ${event} 이벤트 동안에만 사용할 수 있습니다",
+				"eng": "A delicious chocolate strawberry that can be used to increase EXP and BTC received in AFK tasks by ${percent}%.\\nThis item can only be used during ${event} event"
+			}
+		},
 		"experienceShard": {
 			"name": {
 				"vars": [
@@ -7822,19 +8176,19 @@
 				"trans": "${segmentStationName}으로 이동",
 				"eng": "go to ${segmentStationName}"
 			},
-			"toZone": {
+			"toLevel1Zone": {
 				"tut": {
 					"vars": [
 						"segmentStationName"
 					],
-					"trans": "1레벨 적과 전투하려면 계속하십시오",
-					"eng": "Continue here to fight level 1 enemy"
+					"trans": "여기를 클릭하여 1에서 4레벨 구역에 들어가세요",
+					"eng": "Click here to enter 1 to 4 level zone area"
 				},
 				"description": {
 					"vars": [
 						"zoneName"
 					],
-					"trans": "${zoneName}(으)로 이동하기",
+					"trans": "${zoneName}로 가세요",
 					"eng": "Go to ${zoneName}"
 				}
 			}
@@ -10246,11 +10600,11 @@
 	"christmasPromo": {
 		"title": {
 			"trans": "메리 크리스마스!",
-			"eng": "Happy Winter Holiday!"
+			"eng": "Christmas Celebration"
 		},
 		"desc1": {
 			"trans": "축복이 가득한 날이 다시 돌아왔습니다! 샹그릴라에 준비해 둔 특별한 축제와 함께 크리스마스를 기념해보세요!",
-			"eng": "It's the most wonderful time of the year again! in Shang-ri-la we are celebrating the winter holiday with a special event!"
+			"eng": "'Tis the season to be jolly! Celebrate Christmas with special rewards and festive events."
 		},
 		"v3": {
 			"desc2": {
@@ -10265,6 +10619,14 @@
 				"trans": "연말 연시에는 크리스마스 채팅 프레임과 엠블럼을 획득 가능합니다!",
 				"eng": "During the holiday season, Christmas chat frame and emblem will be available!"
 			}
+		},
+		"specialMusic": {
+			"trans": "이벤트 동안 축제 분위기의 배경 음악을 즐기세요!",
+			"eng": "Enjoy the festive background music during the event!"
+		},
+		"chatMessage1": {
+			"trans": "즐거운 연휴 되세요, 여러분!",
+			"eng": "Happy Holidays everyone!"
 		}
 	},
 	"christmasPromoSmall": {
@@ -10402,6 +10764,20 @@
 				"trans": "자세히 알아보기",
 				"eng": "Learn More"
 			}
+		},
+		"valentinePromo": {
+			"title": {
+				"trans": "발렌타인 스페셜",
+				"eng": "Valentine\\'s Special"
+			},
+			"description": {
+				"trans": "사랑을 기념하며 특별한 발렌타인 아이템과 보상을 만나보세요!",
+				"eng": "Celebrate love with exclusive Valentine\\'s items and rewards!"
+			},
+			"button": {
+				"trans": "이벤트 보기",
+				"eng": "View Event"
+			}
 		}
 	},
 	"referralPromo": {
@@ -10467,13 +10843,6 @@
 			"trans": "봄 축제가 왔습니다! 벚꽃잎이 흩날리고, 공기는 꽃향기로 가득합니다",
 			"eng": "The Spring Festival is here! Sakura petals are falling, and the air is filled with the fragrance of flowers. "
 		},
-		"desc2": {
-			"vars": [
-				"percent"
-			],
-			"trans": "이벤트 기간 동안, 모든 스킵은 ${percent}% 할인 혜택을 받습니다",
-			"eng": "All skips during the event period gets ${percent}% off discount on unit required"
-		},
 		"desc3": {
 			"trans": "이벤트 기간 동안 독점적인 사쿠라 채팅 프레임과 엠블럼을 획득할 수 있습니다",
 			"eng": "Exclusive Sakura chat frame and emblem is available during event period"
@@ -10481,13 +10850,26 @@
 		"chatMessage1": {
 			"trans": "봄이 왔습니다",
 			"eng": "Spring is here"
+		}
+	},
+	"eventSkipDiscountSmall": {
+		"title": {
+			"trans": "할인 건너뛰기",
+			"eng": "Skip Discount"
 		},
 		"desc": {
 			"vars": [
 				"percent"
 			],
-			"trans": "이벤트 기간 동안의 모든 스킵은 ${percent}% 할인 받습니다 🥳",
-			"eng": "All skips during the event period gets ${percent}% off discount on unit required 🥳"
+			"trans": "모든 스킵에서 ${percent}% 할인!",
+			"eng": "${percent}% discount on all Skips!"
+		},
+		"desc2": {
+			"vars": [
+				"date"
+			],
+			"trans": "${date}에 종료됩니다",
+			"eng": "Ends on ${date}"
 		}
 	},
 	"skipDiscountPromoSmall": {
@@ -10678,6 +11060,24 @@
 			],
 			"trans": "맛있는 칠면조를 섭취해 AFK 작업에서 +${percent}% exp를 얻습니다",
 			"eng": "Consume delicious turkey to get +${percent}% EXP on AFK tasks"
+		}
+	},
+	"valentinePromo": {
+		"title": {
+			"trans": "발렌타인 이벤트",
+			"eng": "Valentine Event"
+		},
+		"desc1": {
+			"trans": "사랑이 가득한 날! 발렌타인 데이를 특별한 보상과 이벤트로 기념하세요.",
+			"eng": "Love is in the air! Celebrate Valentine's Day with special rewards and events."
+		},
+		"specialItems": {
+			"trans": "이벤트 기간 동안 특별한 발렌타인 아이템을 찾을 수 있습니다!",
+			"eng": "Special Valentine items can be found during the event!"
+		},
+		"chatMessage1": {
+			"trans": "행복한 발렌타인 데이!",
+			"eng": "Happy Valentine\\'s Day!"
 		}
 	},
 	"retroPromo": {

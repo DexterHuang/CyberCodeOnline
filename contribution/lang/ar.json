@@ -1,5 +1,13 @@
 {
 	"apartment": {
+		"rentalDueDate": {
+			"vars": [
+				"timeToDue",
+				"rentalDueDate"
+			],
+			"trans": "تاريخ استحقاق الإيجار: ${rentalDueDate} (${timeToDue})",
+			"eng": "Rental Due Date: ${rentalDueDate} (${timeToDue})"
+		},
 		"title": {
 			"vars": [
 				"playerName"
@@ -235,6 +243,14 @@
 					"eng": "No gang has occupied this area yet"
 				}
 			},
+			"sort": {
+				"trans": "فرز",
+				"eng": "Sort"
+			},
+			"sortDirection": {
+				"trans": "الاتجاه",
+				"eng": "Direction"
+			},
 			"members": {
 				"trans": "أعضاء",
 				"eng": "Members"
@@ -364,22 +380,6 @@
 				"colorBox": {
 					"trans": "انقر على هذا اللون أدناه",
 					"eng": "Click on this color below"
-				},
-				"lose": {
-					"title": {
-						"trans": "فشل فك التشفير",
-						"eng": "Decryption failed"
-					},
-					"description": {
-						"trans": "انقر فوق تسلسل اللون الصحيح لفتح",
-						"eng": "Click on the correct color sequence to unlock"
-					},
-					"button": {
-						"title": {
-							"trans": "حاول مجددا",
-							"eng": "Try Again"
-						}
-					}
 				}
 			}
 		},
@@ -845,6 +845,14 @@
 				"trans": "سيتم إزالة هذه العنصر بعد انتهاء حدث ${eventName}.",
 				"eng": "This item will be removed after the ${eventName} event ends."
 			},
+			"timeLimitedEndTime": {
+				"vars": [
+					"endDate",
+					"timeToEnd"
+				],
+				"trans": "ينتهي الحدث في ${endDate} بتوقيت UTC (${timeToEnd})",
+				"eng": "Event ends at ${endDate} UTC (${timeToEnd})"
+			},
 			"timeLimited": {
 				"trans": "محدود بالوقت",
 				"eng": "Time Limited"
@@ -910,7 +918,10 @@
 			},
 			"cantEquip": {
 				"trans": "مستواك منخفض جدا لهذا البند",
-				"eng": "Your level is too low for this item"
+				"eng": "Your level is too low for this item, this item requires level ${level} to equip",
+				"vars": [
+					"level"
+				]
 			},
 			"unequip": {
 				"trans": "عدم تجهسز",
@@ -1487,6 +1498,10 @@
 				"tiny": {
 					"trans": "صغير الحجم",
 					"eng": "Tiny"
+				},
+				"tiny2": {
+					"trans": "صغير جداً",
+					"eng": "Very Tiny"
 				},
 				"auto": {
 					"trans": "تلقائي",
@@ -2259,9 +2274,12 @@
 			}
 		},
 		"landing": {
-			"subtile": {
-				"trans": "Cyberpunk النص MMORPG",
-				"eng": "Cyberpunk Text-based MMORPG"
+			"accountCount": {
+				"vars": [
+					"count"
+				],
+				"trans": "انضم إلى أكثر من ${count} من عشاق السايبربانك الآن!",
+				"eng": "Join over ${count} other cyberpunkers now!"
 			},
 			"description1": {
 				"trans": "سيبر كود هو لعبه انترنت، يجب حساب لتخزين بيانات اللعبه",
@@ -2758,6 +2776,108 @@
 			}
 		}
 	},
+	"gameEventBenefits": {
+		"skipBenefit": {
+			"trans": "دفع سريع",
+			"eng": "Fast Forward Boost"
+		},
+		"skipDiscount": {
+			"vars": [
+				"percent"
+			],
+			"trans": "جميع التخطيطات خلال فترة الحدث تحصل على خصم قدره ${percent}% على الوحدات المطلوبة",
+			"eng": "All skips during the event period gets ${percent}% off discount on unit required"
+		},
+		"caliTitle": {
+			"trans": "خصم المعايرة",
+			"eng": "Calibration Discount"
+		},
+		"caliSubtitle": {
+			"trans": "متطلبات المساهمة المخفضة:",
+			"eng": "Reduced contribution requirements:"
+		},
+		"discountTier": {
+			"vars": [
+				"percent",
+				"ranges"
+			],
+			"trans": "خصم ${percent}% على: ${ranges}",
+			"eng": "${percent}% discount at: ${ranges}"
+		},
+		"earlyContributors": {
+			"trans": "المساهمون الأوائل يحصلون على خصومات أكبر!",
+			"eng": "Early contributors receive higher discounts!"
+		},
+		"partyTitle": {
+			"trans": "خصم الحفلة",
+			"eng": "Party Discount"
+		},
+		"partySubtitle": {
+			"trans": "متطلبات المساهمة المخفضة:",
+			"eng": "Reduced contribution requirements:"
+		},
+		"topUpTitle": {
+			"trans": "مكافآت الشحن",
+			"eng": "Top-Up Rewards"
+		},
+		"topUpReward": {
+			"trans": "مكافآت خاصة متاحة عند إعادة الشحن خلال الحدث",
+			"eng": "Special rewards available when topping up during the event"
+		},
+		"lootTitle": {
+			"trans": "غنائم خاصة",
+			"eng": "Special Loot"
+		},
+		"lootCrate": {
+			"trans": "عناصر خاصة متاحة في صناديق الغنائم خلال الحدث",
+			"eng": "Special items available in loot crates during the event"
+		},
+		"chatTitle": {
+			"trans": "تأثيرات الدردشة",
+			"eng": "Chat Effects"
+		},
+		"chatEffect": {
+			"trans": "تأثيرات دردشة حصرية متاحة خلال الحدث",
+			"eng": "Exclusive chat effects available during the event"
+		},
+		"bgmTitle": {
+			"trans": "موسيقى الحدث",
+			"eng": "Event Music"
+		},
+		"bgm": {
+			"trans": "موسيقى خلفية خاصة خلال الحدث",
+			"eng": "Special background music during the event"
+		}
+	},
+	"gameEventBenefitsSmall": {
+		"skipDiscount": {
+			"vars": [
+				"percent"
+			],
+			"trans": "سرّع تقدمك مع خصم ${percent}% على جميع التخطيّات",
+			"eng": "Speed up your progress with a ${percent}% discount on all skips"
+		},
+		"caliDiscount": {
+			"trans": "عزّز معايرتك بتكاليف مساهمة مخفضة",
+			"eng": "Supercharge your calibrations with reduced contribution costs"
+		},
+		"partyDiscount": {
+			"trans": "تعاونوا وادخروا مع خصومات حصرية لمساهمات الحفلات",
+			"eng": "Team up and save with exclusive party contribution discounts"
+		},
+		"topUpReward": {
+			"trans": "احصل على مكافآت إضافية عند شحن رصيدك خلال فترة الحدث",
+			"eng": "Get bonus rewards when topping up during the event period"
+		},
+		"lootCrate": {
+			"trans": "اكتشف كنوزًا محدودة الوقت في صناديق الغنائم الخاصة بالحدث",
+			"eng": "Discover limited-time treasures in exclusive event loot crates"
+		},
+		"chatEffect": {
+			"trans": "عبّر عن نفسك بتأثيرات دردشة مذهلة مستوحاة من الأحداث!",
+			"eng": "Express yourself with dazzling event-themed chat effects"
+		}
+	},
 	"misc": {
 		"back": {
 			"trans": "الى الخلف",
@@ -2926,10 +3046,82 @@
 		}
 	},
 	"minigame": {
+		"circuitConnection": {
+			"title": {
+				"trans": "تجاوز الدائرة العصبية",
+				"eng": "Neural Circuit Override"
+			},
+			"subtitle": {
+				"trans": "تم الكشف عن خرق أمني: جدار الحماية مخترق",
+				"eng": "Security Breach Detected: Firewall Compromised"
+			},
+			"instructions": {
+				"trans": "سريعاً! تجاوز نقاط الأمان العصبية بالتسلسل للحصول على وصول إلى النظام. اتبع تسلسل النقاط قبل أن يكتشفك بروتوكول ICE.",
+				"eng": "Quick! Bypass the neural security nodes in sequence to gain system access. Follow the node sequence before the ICE protocol detects you."
+			},
+			"node": {
+				"trans": "عقدة الدائرة",
+				"eng": "Circuit Node"
+			}
+		},
+		"dataStream": {
+			"title": {
+				"trans": "مُعترض تدفق البيانات",
+				"eng": "Data Stream Interceptor"
+			},
+			"instructions": {
+				"trans": "اعترض حزم البيانات الصحيحة [متوهجة] // تجنب الفاسدة",
+				"eng": "INTERCEPT VALID DATA PACKETS [GLOWING] // AVOID CORRUPTED ONES"
+			}
+		},
+		"sequenceHack": {
+			"title": {
+				"trans": "تجاوز بنك الذاكرة",
+				"eng": "Memory Bank Override"
+			},
+			"instructions": {
+				"vars": [
+					"duration"
+				],
+				"trans": "تنبيه: تم اكتشاف نمط أمني. احفظ وكرر التسلسل الثنائي للحصول على وصول إلى النظام. الأزرق يمثل 0، والأحمر يمثل 1. النمط مرئي لمدة ${duration} ثانية. انقر في أي مكان للبدء فورًا.",
+				"eng": "ALERT: Security pattern detected. Memorize and replicate the binary sequence to gain system access. Blue represents 0, Red represents 1. Pattern visible for ${duration} seconds. Click anywhere to start immediately."
+			},
+			"check": {
+				"trans": "تحقق من النمط",
+				"eng": "VERIFY PATTERN"
+			},
+			"success": {
+				"trans": "تم منح الوصول: تم اختراق بنك الذاكرة بنجاح. النظام مخترق.",
+				"eng": "ACCESS GRANTED: Memory bank successfully breached. System compromised."
+			}
+		},
+		"symbolAlignment": {
+			"title": {
+				"trans": "DECRYPT_NEURAL_DATA.exe",
+				"eng": "DECRYPT_NEURAL_DATA.exe"
+			},
+			"instructions": {
+				"vars": [
+					"total"
+				],
+				"trans": "ALIGN_ENCRYPTION_KEYS [${total}] :: تحذير: إعادة تعيين النظام عند عدم التطابق",
+				"eng": "ALIGN_ENCRYPTION_KEYS [${total}] :: WARNING: SYSTEM RESET ON MISMATCH"
+			}
+		},
 		"tileTrack": {
 			"tip": {
 				"trans": "انقر على الزر المميز لفتح القفل",
 				"eng": "Click on the highlighted button to unlock"
+			}
+		},
+		"gameName": {
+			"title": {
+				"trans": "عنوان اللعبة",
+				"eng": "Game Title"
+			},
+			"instructions": {
+				"trans": "كيف تلعب",
+				"eng": "How to play"
 			}
 		}
 	},
@@ -3008,6 +3200,16 @@
 			"eng": "Give street cred"
 		}
 	},
+	"gangPage": {
+		"notificationDisabled": {
+			"trans": "تم تعطيل إشعارات دردشة العصابة",
+			"eng": "Gang chat notifications disabled"
+		},
+		"notificationEnabled": {
+			"trans": "تم تفعيل إشعارات دردشة العصابة",
+			"eng": "Gang chat notifications enabled"
+		}
+	},
 	"cost": {
 		"requireGang": {
 			"trans": "يتطلب منك أن تكون في عصابة",
@@ -3058,6 +3260,15 @@
 	"misc,durability": {
 		"trans": "متانة",
 		"eng": "durability"
+	},
+	"mailRoomContent": {
+		"time": {
+			"vars": [
+				"time"
+			],
+			"trans": "منذ ${time}",
+			"eng": "${time} ago"
+		}
 	},
 	"chatHeader": {
 		"skipAvailable": {
@@ -3763,14 +3974,6 @@
 			],
 			"trans": "أنت غير قادر على ${verb} هذا",
 			"eng": "You are not able to ${verb} this"
-		},
-		"timeRequiredText": {
-			"vars": [
-				"verb",
-				"timeStr"
-			],
-			"trans": "الوقت اللازم إلى {0}: ${timeStr}",
-			"eng": "Time required to ${verb}: ${timeStr}"
 		}
 	},
 	"reward": {
@@ -4711,6 +4914,32 @@
 			}
 		}
 	},
+	"clanMemberSort": {
+		"resource": {
+			"displayName": {
+				"trans": "المورد",
+				"eng": "Resource"
+			}
+		},
+		"money": {
+			"displayName": {
+				"trans": "مال",
+				"eng": "Money"
+			}
+		},
+		"occupation": {
+			"displayName": {
+				"trans": "المهنة",
+				"eng": "Occupation"
+			}
+		},
+		"gangExp": {
+			"displayName": {
+				"trans": "تجربة العصابة",
+				"eng": "Gang Exp"
+			}
+		}
+	},
 	"donationType": {
 		"donation1": {
 			"trans": "عضو",
@@ -4847,6 +5076,14 @@
 		"donation34": {
 			"trans": "بانك",
 			"eng": "Punk"
+		},
+		"donation35": {
+			"trans": "فالنتاين",
+			"eng": "Valentine"
+		},
+		"donation36": {
+			"trans": "سايبربانك",
+			"eng": "Cyberpunk"
 		},
 		"moderator": {
 			"trans": "مشرف",
@@ -6189,6 +6426,86 @@
 					"eng": "More coming in future update"
 				}
 			}
+		},
+		"donation35": {
+			"benefits": {
+				"1": {
+					"trans": "عنوان تبرع \"فالنتاين\"",
+					"eng": "\"Valentine\" donation title"
+				},
+				"2": {
+					"trans": "فتح تخصيص صورة الملف الشخصي",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "إطار عيد الحب (مع حركة)",
+					"eng": "Valentine frame (with animation)"
+				},
+				"4": {
+					"trans": "ملف فالنتاين (مع الرسوم المتحركة)",
+					"eng": "Valentine Profile (with animation)"
+				},
+				"5": {
+					"trans": "فتح السيرة الذاتية المخصصة",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "تزيين ملف البانك",
+					"eng": "Punk profile decoration"
+				},
+				"7": {
+					"trans": "خصص شعار العصابة",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "تخصيص صورة العصابة",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "المزيد قادم في التحديثات المستقبلية",
+					"eng": "More coming in future update"
+				}
+			}
+		},
+		"donation36": {
+			"benefits": {
+				"1": {
+					"trans": "عنوان التبرع \"سايبربانك\"",
+					"eng": "\"Cyberpunk\" donation title"
+				},
+				"2": {
+					"trans": "فتح تخصيص صورة الملف الشخصي",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "إطار سايبربانك (مع حركة)",
+					"eng": "Cyberpunk frame (with animation)"
+				},
+				"4": {
+					"trans": "ملف سايبربانك (مع رسوم متحركة)",
+					"eng": "Cyberpunk Profile (with animation)"
+				},
+				"5": {
+					"trans": "فتح السيرة الذاتية المخصصة",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "تزيين ملف تعريف سايبر بانك",
+					"eng": "Cyberpunk profile decoration"
+				},
+				"7": {
+					"trans": "خصص شعار العصابة",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "تخصيص صورة العصابة",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "المزيد قادم في التحديثات المستقبلية",
+					"eng": "More coming in future update"
+				}
+			}
 		}
 	},
 	"equipmentMarks": {
@@ -6266,7 +6583,19 @@
 		},
 		"lunarNewYear": {
 			"trans": "السنة القمرية الجديدة",
-			"eng": "Lunar New Year"
+			"eng": "Lunar New Year",
+			"skipDiscountTitle": {
+				"trans": "خصم رأس السنة القمرية",
+				"eng": "Lunar New Year Discount"
+			}
+		},
+		"valentine": {
+			"trans": "فالنتاين",
+			"eng": "Valentine",
+			"skipDiscountTitle": {
+				"trans": "خصم عيد الحب",
+				"eng": "Valentine Discount"
+			}
 		},
 		"halloween": {
 			"trans": "عيد الرعب",
@@ -6283,10 +6612,7 @@
 		"sakura": {
 			"name": {
 				"trans": "مارس",
-				"eng": "${percent}% off during event",
-				"vars": [
-					"percent"
-				]
+				"eng": "March"
 			}
 		},
 		"rainbow": {
@@ -7494,6 +7820,34 @@
 				"eng": "Push past your limits and grind like a machine--When consumed, increase damage dealt by ${percent}% for ${minutes} minutes"
 			}
 		},
+		"heartShapedChocolate": {
+			"name": {
+				"trans": "شوكولاتة على شكل قلب",
+				"eng": "Heart Shaped Chocolate"
+			},
+			"description": {
+				"vars": [
+					"percent",
+					"event"
+				],
+				"trans": "شوكولاتة لذيذة على شكل قلب يمكن استخدامها لزيادة الخبرة المكتسبة في المهام غير المتصلة بالإنترنت بنسبة ${percent}%. \\nيمكن استخدام هذه القطعة فقط خلال حدث ${event}",
+				"eng": "A delicious heart shaped chocolate that can be used to increase EXP received in AFK tasks by ${percent}%.\\nThis item can only be used during ${event} event"
+			}
+		},
+		"chocoBerry": {
+			"name": {
+				"trans": "شوكولاتة بالفراولة",
+				"eng": "Chocolate Strawberry"
+			},
+			"description": {
+				"vars": [
+					"percent",
+					"event"
+				],
+				"trans": "فراولة بالشوكولاتة لذيذة يمكن استخدامها لزيادة الخبرة وBTC المكتسبة في المهام AFK بنسبة ${percent}%. \\nيمكن استخدام هذه العنصر فقط خلال حدث ${event}",
+				"eng": "A delicious chocolate strawberry that can be used to increase EXP and BTC received in AFK tasks by ${percent}%.\\nThis item can only be used during ${event} event"
+			}
+		},
 		"experienceShard": {
 			"name": {
 				"vars": [
@@ -7822,13 +8176,13 @@
 				"trans": "اذهب إلى ${segmentStationName}",
 				"eng": "go to ${segmentStationName}"
 			},
-			"toZone": {
+			"toLevel1Zone": {
 				"tut": {
 					"vars": [
 						"segmentStationName"
 					],
-					"trans": "Continue here to fight a level 1 enemy",
-					"eng": "Continue here to fight level 1 enemy"
+					"trans": "انقر هنا للدخول إلى منطقة المستوى من 1 إلى 4",
+					"eng": "Click here to enter 1 to 4 level zone area"
 				},
 				"description": {
 					"vars": [
@@ -10137,11 +10491,11 @@
 	"christmasPromo": {
 		"title": {
 			"trans": "عطلة شتوية سعيدة!",
-			"eng": "Happy Winter Holiday!"
+			"eng": "Christmas Celebration"
 		},
 		"desc1": {
 			"trans": "إنه أروع وقت في العام مرة أخرى! في Shangri-la نحتفل بالعطلة الشتوية مع حدث خاص!",
-			"eng": "It's the most wonderful time of the year again! in Shang-ri-la we are celebrating the winter holiday with a special event!"
+			"eng": "'Tis the season to be jolly! Celebrate Christmas with special rewards and festive events."
 		},
 		"v3": {
 			"desc2": {
@@ -10156,6 +10510,14 @@
 				"trans": "خلال موسم العطلات ، سيتوفر إطار دردشة عيد الميلاد والشعار!",
 				"eng": "During the holiday season, Christmas chat frame and emblem will be available!"
 			}
+		},
+		"specialMusic": {
+			"trans": "استمتع بموسيقى الخلفية الاحتفالية خلال الحدث!",
+			"eng": "Enjoy the festive background music during the event!"
+		},
+		"chatMessage1": {
+			"trans": "عطلات سعيدة للجميع!",
+			"eng": "Happy Holidays everyone!"
 		}
 	},
 	"christmasPromoSmall": {
@@ -10293,6 +10655,20 @@
 				"trans": "تعلم المزيد",
 				"eng": "Learn More"
 			}
+		},
+		"valentinePromo": {
+			"title": {
+				"trans": "عرض عيد الحب",
+				"eng": "Valentine\\'s Special"
+			},
+			"description": {
+				"trans": "احتفل بالحب مع عناصر ومكافآت حصرية بمناسبة عيد الحب!",
+				"eng": "Celebrate love with exclusive Valentine\\'s items and rewards!"
+			},
+			"button": {
+				"trans": "عرض الحدث",
+				"eng": "View Event"
+			}
 		}
 	},
 	"referralPromo": {
@@ -10358,13 +10734,6 @@
 			"trans": "مهرجان الربيع وصل! بتساقط زهور الساكورا، والهواء مليء بعبير الزهور",
 			"eng": "The Spring Festival is here! Sakura petals are falling, and the air is filled with the fragrance of flowers. "
 		},
-		"desc2": {
-			"vars": [
-				"percent"
-			],
-			"trans": "كل تخطي خلال فترة الحدث يحصل على خصم بنسبة ${percent}% على الوحدة المطلوبة",
-			"eng": "All skips during the event period gets ${percent}% off discount on unit required"
-		},
 		"desc3": {
 			"trans": "الإطار الحصري للدردشة ساكورا والشارة متوفرة خلال فترة الحدث",
 			"eng": "Exclusive Sakura chat frame and emblem is available during event period"
@@ -10372,13 +10741,26 @@
 		"chatMessage1": {
 			"trans": "الربيع وصل",
 			"eng": "Spring is here"
+		}
+	},
+	"eventSkipDiscountSmall": {
+		"title": {
+			"trans": "تخطي الخصم",
+			"eng": "Skip Discount"
 		},
 		"desc": {
 			"vars": [
 				"percent"
 			],
-			"trans": "كل تخطي خلال فترة الحدث يحصل على خصم بنسبة ${percent}% على الوحدة المطلوبة 🥳",
-			"eng": "All skips during the event period gets ${percent}% off discount on unit required 🥳"
+			"trans": "خصم ${percent}% على جميع التخفيضات!",
+			"eng": "${percent}% discount on all Skips!"
+		},
+		"desc2": {
+			"vars": [
+				"date"
+			],
+			"trans": "ينتهي في ${date}",
+			"eng": "Ends on ${date}"
 		}
 	},
 	"skipDiscountPromoSmall": {
@@ -10569,6 +10951,24 @@
 			],
 			"trans": "استهلك تركيا اللذيذة للحصول على +${percent} ٪ exp على مهام AFK",
 			"eng": "Consume delicious turkey to get +${percent}% EXP on AFK tasks"
+		}
+	},
+	"valentinePromo": {
+		"title": {
+			"trans": "حدث عيد الحب",
+			"eng": "Valentine Event"
+		},
+		"desc1": {
+			"trans": "الحب في الأجواء! احتفل بعيد الحب مع مكافآت وفعاليات خاصة.",
+			"eng": "Love is in the air! Celebrate Valentine's Day with special rewards and events."
+		},
+		"specialItems": {
+			"trans": "يمكن العثور على عناصر عيد الحب الخاصة خلال الحدث!",
+			"eng": "Special Valentine items can be found during the event!"
+		},
+		"chatMessage1": {
+			"trans": "عيد حب سعيد!",
+			"eng": "Happy Valentine\\'s Day!"
 		}
 	},
 	"retroPromo": {

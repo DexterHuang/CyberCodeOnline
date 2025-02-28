@@ -1,5 +1,13 @@
 {
 	"apartment": {
+		"rentalDueDate": {
+			"vars": [
+				"timeToDue",
+				"rentalDueDate"
+			],
+			"trans": "Термін оренди: ${rentalDueDate} (${timeToDue})",
+			"eng": "Rental Due Date: ${rentalDueDate} (${timeToDue})"
+		},
 		"title": {
 			"vars": [
 				"playerName"
@@ -235,6 +243,14 @@
 					"eng": "No gang has occupied this area yet"
 				}
 			},
+			"sort": {
+				"trans": "Сортувати",
+				"eng": "Sort"
+			},
+			"sortDirection": {
+				"trans": "Напрямок",
+				"eng": "Direction"
+			},
 			"members": {
 				"trans": "Учасники",
 				"eng": "Members"
@@ -364,22 +380,6 @@
 				"colorBox": {
 					"trans": "Натисніть на колір нижче",
 					"eng": "Click on this color below"
-				},
-				"lose": {
-					"title": {
-						"trans": "Не вдалося розшифрувати",
-						"eng": "Decryption failed"
-					},
-					"description": {
-						"trans": "Введіть правильну послідовність кольорів, щоб розблокувати",
-						"eng": "Click on the correct color sequence to unlock"
-					},
-					"button": {
-						"title": {
-							"trans": "Спробувати ще раз",
-							"eng": "Try Again"
-						}
-					}
 				}
 			}
 		},
@@ -845,6 +845,14 @@
 				"trans": "Цей предмет буде видалено після закінчення події ${eventName}.",
 				"eng": "This item will be removed after the ${eventName} event ends."
 			},
+			"timeLimitedEndTime": {
+				"vars": [
+					"endDate",
+					"timeToEnd"
+				],
+				"trans": "Подія закінчується о ${endDate} UTC (${timeToEnd})",
+				"eng": "Event ends at ${endDate} UTC (${timeToEnd})"
+			},
 			"timeLimited": {
 				"trans": "Обмежений час",
 				"eng": "Time Limited"
@@ -910,7 +918,10 @@
 			},
 			"cantEquip": {
 				"trans": "Ваш рівень занизький для цієї речі",
-				"eng": "Your level is too low for this item"
+				"eng": "Your level is too low for this item, this item requires level ${level} to equip",
+				"vars": [
+					"level"
+				]
 			},
 			"unequip": {
 				"trans": "Зняти",
@@ -1487,6 +1498,10 @@
 				"tiny": {
 					"trans": "Крихітний",
 					"eng": "Tiny"
+				},
+				"tiny2": {
+					"trans": "Дуже маленький",
+					"eng": "Very Tiny"
 				},
 				"auto": {
 					"trans": "Авто",
@@ -2259,9 +2274,12 @@
 			}
 		},
 		"landing": {
-			"subtile": {
-				"trans": "Кіберпанкова текстова MMORPG",
-				"eng": "Cyberpunk Text-based MMORPG"
+			"accountCount": {
+				"vars": [
+					"count"
+				],
+				"trans": "Приєднуйтесь до понад ${count} інших кіберпанків зараз!",
+				"eng": "Join over ${count} other cyberpunkers now!"
 			},
 			"description1": {
 				"trans": "CyberCode Online - це онлайн гра, обліковий запис необхідний для збереження ігрових даних та вашого прогресу.",
@@ -2758,6 +2776,108 @@
 			}
 		}
 	},
+	"gameEventBenefits": {
+		"skipBenefit": {
+			"trans": "Швидкий прискорювач",
+			"eng": "Fast Forward Boost"
+		},
+		"skipDiscount": {
+			"vars": [
+				"percent"
+			],
+			"trans": "Усі пропуски під час події отримують знижку ${percent}% на необхідну одиницю",
+			"eng": "All skips during the event period gets ${percent}% off discount on unit required"
+		},
+		"caliTitle": {
+			"trans": "Знижка на калібрування",
+			"eng": "Calibration Discount"
+		},
+		"caliSubtitle": {
+			"trans": "Зменшені вимоги до внесків:",
+			"eng": "Reduced contribution requirements:"
+		},
+		"discountTier": {
+			"vars": [
+				"percent",
+				"ranges"
+			],
+			"trans": "${percent}% знижка на: ${ranges}",
+			"eng": "${percent}% discount at: ${ranges}"
+		},
+		"earlyContributors": {
+			"trans": "Ранні учасники отримують більші знижки!",
+			"eng": "Early contributors receive higher discounts!"
+		},
+		"partyTitle": {
+			"trans": "Знижка на вечірку",
+			"eng": "Party Discount"
+		},
+		"partySubtitle": {
+			"trans": "Зменшені вимоги до внесків:",
+			"eng": "Reduced contribution requirements:"
+		},
+		"topUpTitle": {
+			"trans": "Нагороди за поповнення",
+			"eng": "Top-Up Rewards"
+		},
+		"topUpReward": {
+			"trans": "Спеціальні винагороди доступні при поповненні під час події",
+			"eng": "Special rewards available when topping up during the event"
+		},
+		"lootTitle": {
+			"trans": "Спеціальний лут",
+			"eng": "Special Loot"
+		},
+		"lootCrate": {
+			"trans": "Спеціальні предмети доступні в лут-кейсах під час події",
+			"eng": "Special items available in loot crates during the event"
+		},
+		"chatTitle": {
+			"trans": "Ефекти чату",
+			"eng": "Chat Effects"
+		},
+		"chatEffect": {
+			"trans": "Ексклюзивні ефекти чату доступні під час події",
+			"eng": "Exclusive chat effects available during the event"
+		},
+		"bgmTitle": {
+			"trans": "Музика події",
+			"eng": "Event Music"
+		},
+		"bgm": {
+			"trans": "Спеціальна фоновa музика під час події",
+			"eng": "Special background music during the event"
+		}
+	},
+	"gameEventBenefitsSmall": {
+		"skipDiscount": {
+			"vars": [
+				"percent"
+			],
+			"trans": "Прискорте свій прогрес зі знижкою ${percent}% на всі пропуски",
+			"eng": "Speed up your progress with a ${percent}% discount on all skips"
+		},
+		"caliDiscount": {
+			"trans": "Суперзарядіть свої калібрування зі зниженими витратами на внески",
+			"eng": "Supercharge your calibrations with reduced contribution costs"
+		},
+		"partyDiscount": {
+			"trans": "Об'єднуйтесь у команду та економте з ексклюзивними знижками на внески для вечірок",
+			"eng": "Team up and save with exclusive party contribution discounts"
+		},
+		"topUpReward": {
+			"trans": "Отримуйте бонусні винагороди при поповненні під час проведення заходу",
+			"eng": "Get bonus rewards when topping up during the event period"
+		},
+		"lootCrate": {
+			"trans": "Відкривайте скарби обмеженого часу в ексклюзивних ящиках з loot",
+			"eng": "Discover limited-time treasures in exclusive event loot crates"
+		},
+		"chatEffect": {
+			"trans": "Висловлюйте себе за допомогою вражаючих ефектів чату на тему подій",
+			"eng": "Express yourself with dazzling event-themed chat effects"
+		}
+	},
 	"misc": {
 		"back": {
 			"trans": "назад",
@@ -2926,10 +3046,82 @@
 		}
 	},
 	"minigame": {
+		"circuitConnection": {
+			"title": {
+				"trans": "Перезапуск нейронної схеми",
+				"eng": "Neural Circuit Override"
+			},
+			"subtitle": {
+				"trans": "Виявлено порушення безпеки: Фаєрвол зламано",
+				"eng": "Security Breach Detected: Firewall Compromised"
+			},
+			"instructions": {
+				"trans": "Швидко! Обійдіть нейронні вузли безпеки в правильній послідовності, щоб отримати доступ до системи. Слідуйте за послідовністю вузлів, поки протокол ICE не виявить вас.",
+				"eng": "Quick! Bypass the neural security nodes in sequence to gain system access. Follow the node sequence before the ICE protocol detects you."
+			},
+			"node": {
+				"trans": "Вузол схеми",
+				"eng": "Circuit Node"
+			}
+		},
+		"dataStream": {
+			"title": {
+				"trans": "Перехоплювач даних",
+				"eng": "Data Stream Interceptor"
+			},
+			"instructions": {
+				"trans": "ПЕРЕХОПЛЮЙТЕ ДІЙСНІ ДАНІ ПАКЕТІВ [СЯЮЧІ] // УНИКАЙТЕ КОРУПТОВАНИХ",
+				"eng": "INTERCEPT VALID DATA PACKETS [GLOWING] // AVOID CORRUPTED ONES"
+			}
+		},
+		"sequenceHack": {
+			"title": {
+				"trans": "Перезапис пам'яті",
+				"eng": "Memory Bank Override"
+			},
+			"instructions": {
+				"vars": [
+					"duration"
+				],
+				"trans": "УВАГА: Виявлено шаблон безпеки. Запам'ятайте та відтворіть бінарну послідовність, щоб отримати доступ до системи. Синій представляє 0, червоний представляє 1. Шаблон видимий протягом ${duration} секунд. Натисніть будь-де, щоб почати негайно.",
+				"eng": "ALERT: Security pattern detected. Memorize and replicate the binary sequence to gain system access. Blue represents 0, Red represents 1. Pattern visible for ${duration} seconds. Click anywhere to start immediately."
+			},
+			"check": {
+				"trans": "ПЕРЕВІРИТИ ШАБЛОН",
+				"eng": "VERIFY PATTERN"
+			},
+			"success": {
+				"trans": "ДОСТУП ДАНО: Пам'ятевий банк успішно зламано. Систему скомпрометовано.",
+				"eng": "ACCESS GRANTED: Memory bank successfully breached. System compromised."
+			}
+		},
+		"symbolAlignment": {
+			"title": {
+				"trans": "DECRYPT_NEURAL_DATA.exe",
+				"eng": "DECRYPT_NEURAL_DATA.exe"
+			},
+			"instructions": {
+				"vars": [
+					"total"
+				],
+				"trans": "ALIGN_ENCRYPTION_KEYS [${total}] :: УВАГА: СИСТЕМА СКЕРОТУВАНА ЧЕРЕЗ НЕСПІВПАДІННЯ",
+				"eng": "ALIGN_ENCRYPTION_KEYS [${total}] :: WARNING: SYSTEM RESET ON MISMATCH"
+			}
+		},
 		"tileTrack": {
 			"tip": {
 				"trans": "Натисніть на виділену кнопку, щоб розблокувати",
 				"eng": "Click on the highlighted button to unlock"
+			}
+		},
+		"gameName": {
+			"title": {
+				"trans": "Назва гри",
+				"eng": "Game Title"
+			},
+			"instructions": {
+				"trans": "Як грати",
+				"eng": "How to play"
 			}
 		}
 	},
@@ -3008,6 +3200,16 @@
 			"eng": "Give street cred"
 		}
 	},
+	"gangPage": {
+		"notificationDisabled": {
+			"trans": "Сповіщення чату банди вимкнено",
+			"eng": "Gang chat notifications disabled"
+		},
+		"notificationEnabled": {
+			"trans": "Сповіщення чату банди увімкнено",
+			"eng": "Gang chat notifications enabled"
+		}
+	},
 	"cost": {
 		"requireGang": {
 			"trans": "Ви повинні бути членом банди",
@@ -3058,6 +3260,15 @@
 	"misc,durability": {
 		"trans": "міцність",
 		"eng": "durability"
+	},
+	"mailRoomContent": {
+		"time": {
+			"vars": [
+				"time"
+			],
+			"trans": "${time} тому",
+			"eng": "${time} ago"
+		}
 	},
 	"chatHeader": {
 		"skipAvailable": {
@@ -3763,14 +3974,6 @@
 			],
 			"trans": "Ви не в змозі ${verb} це",
 			"eng": "You are not able to ${verb} this"
-		},
-		"timeRequiredText": {
-			"vars": [
-				"verb",
-				"timeStr"
-			],
-			"trans": "Час, необхідний для ${verb}: ${timeStr}",
-			"eng": "Time required to ${verb}: ${timeStr}"
 		}
 	},
 	"reward": {
@@ -4711,6 +4914,32 @@
 			}
 		}
 	},
+	"clanMemberSort": {
+		"resource": {
+			"displayName": {
+				"trans": "Ресурс",
+				"eng": "Resource"
+			}
+		},
+		"money": {
+			"displayName": {
+				"trans": "Гроші",
+				"eng": "Money"
+			}
+		},
+		"occupation": {
+			"displayName": {
+				"trans": "Професія",
+				"eng": "Occupation"
+			}
+		},
+		"gangExp": {
+			"displayName": {
+				"trans": "Досвід банди",
+				"eng": "Gang Exp"
+			}
+		}
+	},
 	"donationType": {
 		"donation1": {
 			"trans": "Член",
@@ -4847,6 +5076,14 @@
 		"donation34": {
 			"trans": "Панк",
 			"eng": "Punk"
+		},
+		"donation35": {
+			"trans": "Валентин",
+			"eng": "Valentine"
+		},
+		"donation36": {
+			"trans": "Кіберпанк",
+			"eng": "Cyberpunk"
 		},
 		"moderator": {
 			"trans": "Модератор",
@@ -6189,6 +6426,86 @@
 					"eng": "More coming in future update"
 				}
 			}
+		},
+		"donation35": {
+			"benefits": {
+				"1": {
+					"trans": "\"Валентин\" заголовок донату",
+					"eng": "\"Valentine\" donation title"
+				},
+				"2": {
+					"trans": "Розблокуйте налаштування профільного зображення",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "Рамка до Дня святого Валентина (з анімацією)",
+					"eng": "Valentine frame (with animation)"
+				},
+				"4": {
+					"trans": "Профіль Валентина (з анімацією)",
+					"eng": "Valentine Profile (with animation)"
+				},
+				"5": {
+					"trans": "Розблокувати власну біографію",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "Декорація профілю панка",
+					"eng": "Punk profile decoration"
+				},
+				"7": {
+					"trans": "Налаштувати девіз банди",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "Налаштувати зображення банди",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "Більше буде в майбутніх оновленнях",
+					"eng": "More coming in future update"
+				}
+			}
+		},
+		"donation36": {
+			"benefits": {
+				"1": {
+					"trans": "\"Кіберпанк\" пожертва",
+					"eng": "\"Cyberpunk\" donation title"
+				},
+				"2": {
+					"trans": "Розблокуйте налаштування профільного зображення",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "Кіберпанковська рамка (з анімацією)",
+					"eng": "Cyberpunk frame (with animation)"
+				},
+				"4": {
+					"trans": "Кіберпанковий профіль (з анімацією)",
+					"eng": "Cyberpunk Profile (with animation)"
+				},
+				"5": {
+					"trans": "Розблокувати власну біографію",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "Декорація профілю в кіберпанку",
+					"eng": "Cyberpunk profile decoration"
+				},
+				"7": {
+					"trans": "Налаштувати девіз банди",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "Налаштувати зображення банди",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "Більше буде в майбутніх оновленнях",
+					"eng": "More coming in future update"
+				}
+			}
 		}
 	},
 	"equipmentMarks": {
@@ -6266,7 +6583,19 @@
 		},
 		"lunarNewYear": {
 			"trans": "Місячний Новий рік",
-			"eng": "Lunar New Year"
+			"eng": "Lunar New Year",
+			"skipDiscountTitle": {
+				"trans": "Знижка до Китайського Нового Року",
+				"eng": "Lunar New Year Discount"
+			}
+		},
+		"valentine": {
+			"trans": "Валентин",
+			"eng": "Valentine",
+			"skipDiscountTitle": {
+				"trans": "Знижка до Дня Святого Валентина",
+				"eng": "Valentine Discount"
+			}
 		},
 		"halloween": {
 			"trans": "Хеллоуїн",
@@ -6283,10 +6612,7 @@
 		"sakura": {
 			"name": {
 				"trans": "${percent}% знижка під час події",
-				"eng": "${percent}% off during event",
-				"vars": [
-					"percent"
-				]
+				"eng": "March"
 			}
 		},
 		"rainbow": {
@@ -7494,6 +7820,34 @@
 				"eng": "Push past your limits and grind like a machine--When consumed, increase damage dealt by ${percent}% for ${minutes} minutes"
 			}
 		},
+		"heartShapedChocolate": {
+			"name": {
+				"trans": "Шоколад у формі серця",
+				"eng": "Heart Shaped Chocolate"
+			},
+			"description": {
+				"vars": [
+					"percent",
+					"event"
+				],
+				"trans": "Смачний шоколад у формі серця, який можна використовувати для збільшення отриманого EXP у AFK завданнях на ${percent}%. \\nЦей предмет можна використовувати лише під час події ${event}",
+				"eng": "A delicious heart shaped chocolate that can be used to increase EXP received in AFK tasks by ${percent}%.\\nThis item can only be used during ${event} event"
+			}
+		},
+		"chocoBerry": {
+			"name": {
+				"trans": "Шоколадна полуниця",
+				"eng": "Chocolate Strawberry"
+			},
+			"description": {
+				"vars": [
+					"percent",
+					"event"
+				],
+				"trans": "Смачна шоколадна полуниця, яка може бути використана для збільшення EXP та BTC, отриманих у AFK-завданнях, на ${percent}%. \\nЦей предмет можна використовувати лише під час події ${event}",
+				"eng": "A delicious chocolate strawberry that can be used to increase EXP and BTC received in AFK tasks by ${percent}%.\\nThis item can only be used during ${event} event"
+			}
+		},
 		"experienceShard": {
 			"name": {
 				"vars": [
@@ -7822,19 +8176,19 @@
 				"trans": "перейти до ${segmentStationName}",
 				"eng": "go to ${segmentStationName}"
 			},
-			"toZone": {
+			"toLevel1Zone": {
 				"tut": {
 					"vars": [
 						"segmentStationName"
 					],
-					"trans": "Йдіть сюди для бою з ворогом 1-го рівня",
-					"eng": "Continue here to fight level 1 enemy"
+					"trans": "Натисніть тут, щоб увійти в зону рівня з 1 по 4",
+					"eng": "Click here to enter 1 to 4 level zone area"
 				},
 				"description": {
 					"vars": [
 						"zoneName"
 					],
-					"trans": "Перейти до ${zoneName}",
+					"trans": "Іди до ${zoneName}",
 					"eng": "Go to ${zoneName}"
 				}
 			}
@@ -10337,11 +10691,11 @@
 	"christmasPromo": {
 		"title": {
 			"trans": "Щасливих Зимових свят!",
-			"eng": "Happy Winter Holiday!"
+			"eng": "Christmas Celebration"
 		},
 		"desc1": {
 			"trans": "Знову найпрекрасніша пора року! У Шангрі-Ла ми святкуємо зимове свято з спеціальною подією!",
-			"eng": "It's the most wonderful time of the year again! in Shang-ri-la we are celebrating the winter holiday with a special event!"
+			"eng": "'Tis the season to be jolly! Celebrate Christmas with special rewards and festive events."
 		},
 		"v3": {
 			"desc2": {
@@ -10356,6 +10710,14 @@
 				"trans": "Під час сезону відпусток буде доступний різдвяний чат та емблема!",
 				"eng": "During the holiday season, Christmas chat frame and emblem will be available!"
 			}
+		},
+		"specialMusic": {
+			"trans": "Насолоджуйтеся святковою фоновою музикою під час заходу!",
+			"eng": "Enjoy the festive background music during the event!"
+		},
+		"chatMessage1": {
+			"trans": "Зі святами всіх!",
+			"eng": "Happy Holidays everyone!"
 		}
 	},
 	"christmasPromoSmall": {
@@ -10493,6 +10855,20 @@
 				"trans": "Дізнатися більше",
 				"eng": "Learn More"
 			}
+		},
+		"valentinePromo": {
+			"title": {
+				"trans": "Спеціальна пропозиція до Дня святого Валентина",
+				"eng": "Valentine\\'s Special"
+			},
+			"description": {
+				"trans": "Справляйте свято кохання з ексклюзивними валентинівськими предметами та винагородами!",
+				"eng": "Celebrate love with exclusive Valentine\\'s items and rewards!"
+			},
+			"button": {
+				"trans": "Переглянути подію",
+				"eng": "View Event"
+			}
 		}
 	},
 	"referralPromo": {
@@ -10558,13 +10934,6 @@
 			"trans": "Весняний фестиваль наступив! Пелюстки сакури падають, а повітря наповнене ароматом квітів",
 			"eng": "The Spring Festival is here! Sakura petals are falling, and the air is filled with the fragrance of flowers. "
 		},
-		"desc2": {
-			"vars": [
-				"percent"
-			],
-			"trans": "Усі пропуски під час події отримують знижку у розмірі ${percent}% на необхідний Юніт",
-			"eng": "All skips during the event period gets ${percent}% off discount on unit required"
-		},
 		"desc3": {
 			"trans": "Ексклюзивна рамка для чату та емблема \"Сакура\" доступні протягом події",
 			"eng": "Exclusive Sakura chat frame and emblem is available during event period"
@@ -10572,13 +10941,26 @@
 		"chatMessage1": {
 			"trans": "Весна настала",
 			"eng": "Spring is here"
+		}
+	},
+	"eventSkipDiscountSmall": {
+		"title": {
+			"trans": "Пропустити знижку",
+			"eng": "Skip Discount"
 		},
 		"desc": {
 			"vars": [
 				"percent"
 			],
-			"trans": "Усі пропуски під час події отримують знижку у розмірі ${percent}% на необхідний Юніт 🥳",
-			"eng": "All skips during the event period gets ${percent}% off discount on unit required 🥳"
+			"trans": "${percent}% знижка на всі Skips!",
+			"eng": "${percent}% discount on all Skips!"
+		},
+		"desc2": {
+			"vars": [
+				"date"
+			],
+			"trans": "Закінчується ${date}",
+			"eng": "Ends on ${date}"
 		}
 	},
 	"skipDiscountPromoSmall": {
@@ -10769,6 +11151,24 @@
 			],
 			"trans": "Споживайте смачну індичку, щоб отримати +${percent}% досвіду у завданнях AFK",
 			"eng": "Consume delicious turkey to get +${percent}% EXP on AFK tasks"
+		}
+	},
+	"valentinePromo": {
+		"title": {
+			"trans": "Подія Валентина",
+			"eng": "Valentine Event"
+		},
+		"desc1": {
+			"trans": "Кохання в повітрі! Святкуйте День святого Валентина зі спеціальними винагородами та подіями.",
+			"eng": "Love is in the air! Celebrate Valentine's Day with special rewards and events."
+		},
+		"specialItems": {
+			"trans": "Спеціальні валентинівські предмети можна знайти під час події!",
+			"eng": "Special Valentine items can be found during the event!"
+		},
+		"chatMessage1": {
+			"trans": "З Днем Святого Валентина!",
+			"eng": "Happy Valentine\\'s Day!"
 		}
 	},
 	"retroPromo": {

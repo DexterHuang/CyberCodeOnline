@@ -1,5 +1,13 @@
 {
 	"apartment": {
+		"rentalDueDate": {
+			"vars": [
+				"timeToDue",
+				"rentalDueDate"
+			],
+			"trans": "Kira Son Tarihi: ${rentalDueDate} (${timeToDue})",
+			"eng": "Rental Due Date: ${rentalDueDate} (${timeToDue})"
+		},
 		"title": {
 			"vars": [
 				"playerName"
@@ -235,6 +243,14 @@
 					"eng": "No gang has occupied this area yet"
 				}
 			},
+			"sort": {
+				"trans": "Sırala",
+				"eng": "Sort"
+			},
+			"sortDirection": {
+				"trans": "Yön",
+				"eng": "Direction"
+			},
 			"members": {
 				"trans": "Üyeler",
 				"eng": "Members"
@@ -364,22 +380,6 @@
 				"colorBox": {
 					"trans": "Aşağıdan bu rengi seç",
 					"eng": "Click on this color below"
-				},
-				"lose": {
-					"title": {
-						"trans": "Şifre kırma başarısız",
-						"eng": "Decryption failed"
-					},
-					"description": {
-						"trans": "Kilidi açmak için doğru renk dizisini seçin",
-						"eng": "Click on the correct color sequence to unlock"
-					},
-					"button": {
-						"title": {
-							"trans": "Tekrar Deneyin",
-							"eng": "Try Again"
-						}
-					}
 				}
 			}
 		},
@@ -845,6 +845,14 @@
 				"trans": "Bu öğe, ${eventName} etkinliği sona erdikten sonra kaldırılacaktır.",
 				"eng": "This item will be removed after the ${eventName} event ends."
 			},
+			"timeLimitedEndTime": {
+				"vars": [
+					"endDate",
+					"timeToEnd"
+				],
+				"trans": "Etkinlik ${endDate} UTC (${timeToEnd})'de sona eriyor",
+				"eng": "Event ends at ${endDate} UTC (${timeToEnd})"
+			},
 			"timeLimited": {
 				"trans": "Zaman Sınırlı",
 				"eng": "Time Limited"
@@ -910,7 +918,10 @@
 			},
 			"cantEquip": {
 				"trans": "Bu eşya için seviyen yetersiz",
-				"eng": "Your level is too low for this item"
+				"eng": "Your level is too low for this item, this item requires level ${level} to equip",
+				"vars": [
+					"level"
+				]
 			},
 			"unequip": {
 				"trans": "Çıkar",
@@ -1487,6 +1498,10 @@
 				"tiny": {
 					"trans": "Minik",
 					"eng": "Tiny"
+				},
+				"tiny2": {
+					"trans": "Çok Küçük",
+					"eng": "Very Tiny"
 				},
 				"auto": {
 					"trans": "Otomatik",
@@ -2259,9 +2274,12 @@
 			}
 		},
 		"landing": {
-			"subtile": {
-				"trans": "Cyberpunk Metin Tabanlı MMORPG",
-				"eng": "Cyberpunk Text-based MMORPG"
+			"accountCount": {
+				"vars": [
+					"count"
+				],
+				"trans": "Şimdi ${count} diğer siberpunk ile katıl!",
+				"eng": "Join over ${count} other cyberpunkers now!"
 			},
 			"description1": {
 				"trans": "CyberCode Online çevrimiçi bir oyundur, oyun verilerini saklamak için bir hesap gereklidir.",
@@ -2758,6 +2776,108 @@
 			}
 		}
 	},
+	"gameEventBenefits": {
+		"skipBenefit": {
+			"trans": "Hızlandırma Desteği",
+			"eng": "Fast Forward Boost"
+		},
+		"skipDiscount": {
+			"vars": [
+				"percent"
+			],
+			"trans": "Etkinlik süresince tüm atlamalarda gereken birimde ${percent}% indirim uygulanır",
+			"eng": "All skips during the event period gets ${percent}% off discount on unit required"
+		},
+		"caliTitle": {
+			"trans": "Kalibrasyon İndirimi",
+			"eng": "Calibration Discount"
+		},
+		"caliSubtitle": {
+			"trans": "Azaltılmış katkı gereksinimleri:",
+			"eng": "Reduced contribution requirements:"
+		},
+		"discountTier": {
+			"vars": [
+				"percent",
+				"ranges"
+			],
+			"trans": "${percent}% indirim: ${ranges}",
+			"eng": "${percent}% discount at: ${ranges}"
+		},
+		"earlyContributors": {
+			"trans": "Erken katılımcılar daha yüksek indirimler alır!",
+			"eng": "Early contributors receive higher discounts!"
+		},
+		"partyTitle": {
+			"trans": "Parti İndirimi",
+			"eng": "Party Discount"
+		},
+		"partySubtitle": {
+			"trans": "Azaltılmış katkı gereksinimleri:",
+			"eng": "Reduced contribution requirements:"
+		},
+		"topUpTitle": {
+			"trans": "Yükleme Ödülleri",
+			"eng": "Top-Up Rewards"
+		},
+		"topUpReward": {
+			"trans": "Etkinlik sırasında yükleme yaptığınızda özel ödüller mevcut",
+			"eng": "Special rewards available when topping up during the event"
+		},
+		"lootTitle": {
+			"trans": "Özel Eşya",
+			"eng": "Special Loot"
+		},
+		"lootCrate": {
+			"trans": "Etkinlik sırasında ganimet kutularında mevcut özel eşyalar",
+			"eng": "Special items available in loot crates during the event"
+		},
+		"chatTitle": {
+			"trans": "Sohbet Efektleri",
+			"eng": "Chat Effects"
+		},
+		"chatEffect": {
+			"trans": "Etkinlik sırasında mevcut olan özel sohbet efektleri",
+			"eng": "Exclusive chat effects available during the event"
+		},
+		"bgmTitle": {
+			"trans": "Etkinlik Müziği",
+			"eng": "Event Music"
+		},
+		"bgm": {
+			"trans": "Etkinlik sırasında özel arka plan müziği",
+			"eng": "Special background music during the event"
+		}
+	},
+	"gameEventBenefitsSmall": {
+		"skipDiscount": {
+			"vars": [
+				"percent"
+			],
+			"trans": "Tüm atlamalarda ${percent}% indirimle ilerlemeni hızlandır!",
+			"eng": "Speed up your progress with a ${percent}% discount on all skips"
+		},
+		"caliDiscount": {
+			"trans": "Kalibrasyonlarınızı azaltılmış katkı maliyetleriyle süper şarj edin",
+			"eng": "Supercharge your calibrations with reduced contribution costs"
+		},
+		"partyDiscount": {
+			"trans": "Takım kurun ve özel parti katkı indirimleriyle tasarruf edin",
+			"eng": "Team up and save with exclusive party contribution discounts"
+		},
+		"topUpReward": {
+			"trans": "Etkinlik süresince yükleme yaptığınızda bonus ödüller kazanın",
+			"eng": "Get bonus rewards when topping up during the event period"
+		},
+		"lootCrate": {
+			"trans": "Sınırlı süreli hazineleri özel etkinlik ganimet kutularında keşfedin",
+			"eng": "Discover limited-time treasures in exclusive event loot crates"
+		},
+		"chatEffect": {
+			"trans": "Etkinlik temalı göz alıcı sohbet efektleriyle kendini ifade et!",
+			"eng": "Express yourself with dazzling event-themed chat effects"
+		}
+	},
 	"misc": {
 		"back": {
 			"trans": "Geri",
@@ -2926,10 +3046,82 @@
 		}
 	},
 	"minigame": {
+		"circuitConnection": {
+			"title": {
+				"trans": "Nöral Devre Aşımı",
+				"eng": "Neural Circuit Override"
+			},
+			"subtitle": {
+				"trans": "Güvenlik İhlali Tespit Edildi: Güvenlik Duvarı Tehdit Altında",
+				"eng": "Security Breach Detected: Firewall Compromised"
+			},
+			"instructions": {
+				"trans": "Hızlı ol! Sistem erişimi kazanmak için sinirsel güvenlik düğümlerini sırayla atlat. ICE protokolü seni tespit etmeden önce düğüm sırasını takip et.",
+				"eng": "Quick! Bypass the neural security nodes in sequence to gain system access. Follow the node sequence before the ICE protocol detects you."
+			},
+			"node": {
+				"trans": "Devre Düğümü",
+				"eng": "Circuit Node"
+			}
+		},
+		"dataStream": {
+			"title": {
+				"trans": "Veri Akışı Kesici",
+				"eng": "Data Stream Interceptor"
+			},
+			"instructions": {
+				"trans": "GEÇERLİ VERİ PAKETLERİNİ YAKALA [PARLAYAN] // BOZULMUŞ OLANLARDAN KAÇIN",
+				"eng": "INTERCEPT VALID DATA PACKETS [GLOWING] // AVOID CORRUPTED ONES"
+			}
+		},
+		"sequenceHack": {
+			"title": {
+				"trans": "Hafıza Bankası Aşımı",
+				"eng": "Memory Bank Override"
+			},
+			"instructions": {
+				"vars": [
+					"duration"
+				],
+				"trans": "ALERT: Güvenlik deseni tespit edildi. Sisteme erişim sağlamak için ikili diziyi ezberleyin ve kopyalayın. Mavi 0'ı, Kırmızı 1'i temsil eder. Desen ${duration} saniye boyunca görünür. Hemen başlamak için herhangi bir yere tıklayın.",
+				"eng": "ALERT: Security pattern detected. Memorize and replicate the binary sequence to gain system access. Blue represents 0, Red represents 1. Pattern visible for ${duration} seconds. Click anywhere to start immediately."
+			},
+			"check": {
+				"trans": "DESENİ DOĞRULA",
+				"eng": "VERIFY PATTERN"
+			},
+			"success": {
+				"trans": "ERİŞİM VERİLDİ: Bellek bankasına başarıyla girildi. Sistem tehlikeye atıldı.",
+				"eng": "ACCESS GRANTED: Memory bank successfully breached. System compromised."
+			}
+		},
+		"symbolAlignment": {
+			"title": {
+				"trans": "DEŞİFRE_ET_NÖRAL_VERİ.exe",
+				"eng": "DECRYPT_NEURAL_DATA.exe"
+			},
+			"instructions": {
+				"vars": [
+					"total"
+				],
+				"trans": "ALIGN_ENCRYPTION_KEYS [${total}] :: UYARI: UYUMLULUK HATASINDA SİSTEM SIFIRLANDI",
+				"eng": "ALIGN_ENCRYPTION_KEYS [${total}] :: WARNING: SYSTEM RESET ON MISMATCH"
+			}
+		},
 		"tileTrack": {
 			"tip": {
 				"trans": "Vurgulanan butona tıklayarak kilidi açın",
 				"eng": "Click on the highlighted button to unlock"
+			}
+		},
+		"gameName": {
+			"title": {
+				"trans": "Oyun Başlığı",
+				"eng": "Game Title"
+			},
+			"instructions": {
+				"trans": "Nasıl oynanır",
+				"eng": "How to play"
 			}
 		}
 	},
@@ -3008,6 +3200,16 @@
 			"eng": "Give street cred"
 		}
 	},
+	"gangPage": {
+		"notificationDisabled": {
+			"trans": "Çete sohbeti bildirimleri devre dışı bırakıldı",
+			"eng": "Gang chat notifications disabled"
+		},
+		"notificationEnabled": {
+			"trans": "Çete sohbet bildirimleri etkinleştirildi",
+			"eng": "Gang chat notifications enabled"
+		}
+	},
 	"cost": {
 		"requireGang": {
 			"trans": "Çetede olmayı gerektirir",
@@ -3058,6 +3260,15 @@
 	"misc,durability": {
 		"trans": "Dayanıklılık",
 		"eng": "durability"
+	},
+	"mailRoomContent": {
+		"time": {
+			"vars": [
+				"time"
+			],
+			"trans": "${time} önce",
+			"eng": "${time} ago"
+		}
 	},
 	"chatHeader": {
 		"skipAvailable": {
@@ -3763,14 +3974,6 @@
 			],
 			"trans": "Bu ${verb} yapamazsınız",
 			"eng": "You are not able to ${verb} this"
-		},
-		"timeRequiredText": {
-			"vars": [
-				"verb",
-				"timeStr"
-			],
-			"trans": "${verb} için gereken zaman: ${timeStr}",
-			"eng": "Time required to ${verb}: ${timeStr}"
 		}
 	},
 	"reward": {
@@ -4711,6 +4914,32 @@
 			}
 		}
 	},
+	"clanMemberSort": {
+		"resource": {
+			"displayName": {
+				"trans": "Kaynak",
+				"eng": "Resource"
+			}
+		},
+		"money": {
+			"displayName": {
+				"trans": "Para",
+				"eng": "Money"
+			}
+		},
+		"occupation": {
+			"displayName": {
+				"trans": "Meslek",
+				"eng": "Occupation"
+			}
+		},
+		"gangExp": {
+			"displayName": {
+				"trans": "Çete Deneyimi",
+				"eng": "Gang Exp"
+			}
+		}
+	},
 	"donationType": {
 		"donation1": {
 			"trans": "Üye",
@@ -4847,6 +5076,14 @@
 		"donation34": {
 			"trans": "Punk",
 			"eng": "Punk"
+		},
+		"donation35": {
+			"trans": "Valentine",
+			"eng": "Valentine"
+		},
+		"donation36": {
+			"trans": "Cyberpunk",
+			"eng": "Cyberpunk"
 		},
 		"moderator": {
 			"trans": "Moderatör",
@@ -6189,6 +6426,86 @@
 					"eng": "More coming in future update"
 				}
 			}
+		},
+		"donation35": {
+			"benefits": {
+				"1": {
+					"trans": "\"Valentine\" bağış başlığı",
+					"eng": "\"Valentine\" donation title"
+				},
+				"2": {
+					"trans": "Profil resmi özelleştirmesini açın",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "Sevgililer Günü çerçevesi (animasyonlu)",
+					"eng": "Valentine frame (with animation)"
+				},
+				"4": {
+					"trans": "Valentine Profili (animasyonlu)",
+					"eng": "Valentine Profile (with animation)"
+				},
+				"5": {
+					"trans": "Özel biyografiyi açın",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "Punk profil süslemesi",
+					"eng": "Punk profile decoration"
+				},
+				"7": {
+					"trans": "Çete sloganını özelleştir",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "Çete görüntüsünü özelleştir",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "Gelecek güncellemelerde daha fazlası geliyor",
+					"eng": "More coming in future update"
+				}
+			}
+		},
+		"donation36": {
+			"benefits": {
+				"1": {
+					"trans": "\"Cyberpunk\" bağış başlığı",
+					"eng": "\"Cyberpunk\" donation title"
+				},
+				"2": {
+					"trans": "Profil resmi özelleştirmesini açın",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "Siberpunk çerçevesi (animasyonlu)",
+					"eng": "Cyberpunk frame (with animation)"
+				},
+				"4": {
+					"trans": "Siberpunk Profili (animasyonlu)",
+					"eng": "Cyberpunk Profile (with animation)"
+				},
+				"5": {
+					"trans": "Özel biyografiyi açın",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "Siberpunk profil süslemesi",
+					"eng": "Cyberpunk profile decoration"
+				},
+				"7": {
+					"trans": "Çete sloganını özelleştir",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "Çete görüntüsünü özelleştir",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "Gelecek güncellemelerde daha fazlası geliyor",
+					"eng": "More coming in future update"
+				}
+			}
 		}
 	},
 	"equipmentMarks": {
@@ -6266,7 +6583,19 @@
 		},
 		"lunarNewYear": {
 			"trans": "Aysal yeni yıl",
-			"eng": "Lunar New Year"
+			"eng": "Lunar New Year",
+			"skipDiscountTitle": {
+				"trans": "Ay Takvimi Yeni Yılı İndirimi",
+				"eng": "Lunar New Year Discount"
+			}
+		},
+		"valentine": {
+			"trans": "Valentine",
+			"eng": "Valentine",
+			"skipDiscountTitle": {
+				"trans": "Sevgililer Günü İndirimi",
+				"eng": "Valentine Discount"
+			}
 		},
 		"halloween": {
 			"trans": "Cadılar Bayramı",
@@ -6283,10 +6612,7 @@
 		"sakura": {
 			"name": {
 				"trans": "Etkinlik süresince ${percent}% indirim",
-				"eng": "${percent}% off during event",
-				"vars": [
-					"percent"
-				]
+				"eng": "March"
 			}
 		},
 		"rainbow": {
@@ -7494,6 +7820,34 @@
 				"eng": "Push past your limits and grind like a machine--When consumed, increase damage dealt by ${percent}% for ${minutes} minutes"
 			}
 		},
+		"heartShapedChocolate": {
+			"name": {
+				"trans": "Kalp Şeklinde Çikolata",
+				"eng": "Heart Shaped Chocolate"
+			},
+			"description": {
+				"vars": [
+					"percent",
+					"event"
+				],
+				"trans": "AFK görevlerinde alınan EXP'yi ${percent}% artırmak için kullanılabilecek lezzetli kalp şeklinde bir çikolata.\\nBu eşya yalnızca ${event} etkinliği sırasında kullanılabilir",
+				"eng": "A delicious heart shaped chocolate that can be used to increase EXP received in AFK tasks by ${percent}%.\\nThis item can only be used during ${event} event"
+			}
+		},
+		"chocoBerry": {
+			"name": {
+				"trans": "Çikolatalı Çilek",
+				"eng": "Chocolate Strawberry"
+			},
+			"description": {
+				"vars": [
+					"percent",
+					"event"
+				],
+				"trans": "AFK görevlerinde alınan EXP ve BTC'yi ${percent}% artırmak için kullanılabilecek lezzetli çilekli çikolata.\\nBu eşya yalnızca ${event} etkinliği sırasında kullanılabilir",
+				"eng": "A delicious chocolate strawberry that can be used to increase EXP and BTC received in AFK tasks by ${percent}%.\\nThis item can only be used during ${event} event"
+			}
+		},
 		"experienceShard": {
 			"name": {
 				"vars": [
@@ -7822,19 +8176,19 @@
 				"trans": "${segmentStationName}'a git",
 				"eng": "go to ${segmentStationName}"
 			},
-			"toZone": {
+			"toLevel1Zone": {
 				"tut": {
 					"vars": [
 						"segmentStationName"
 					],
-					"trans": "Seviye 1 düşmanla savaşmak için buradan devam et",
-					"eng": "Continue here to fight level 1 enemy"
+					"trans": "Buraya tıklayarak 1 ila 4 seviye bölgeye girin",
+					"eng": "Click here to enter 1 to 4 level zone area"
 				},
 				"description": {
 					"vars": [
 						"zoneName"
 					],
-					"trans": "${zoneName}'a git",
+					"trans": "${zoneName}’ye git",
 					"eng": "Go to ${zoneName}"
 				}
 			}
@@ -10137,11 +10491,11 @@
 	"christmasPromo": {
 		"title": {
 			"trans": "Mutlu kış tatili!",
-			"eng": "Happy Winter Holiday!"
+			"eng": "Christmas Celebration"
 		},
 		"desc1": {
 			"trans": "Yine yılın en harika zamanı! Shangri-la'da kış tatilini özel bir etkinlikle kutluyoruz!",
-			"eng": "It's the most wonderful time of the year again! in Shang-ri-la we are celebrating the winter holiday with a special event!"
+			"eng": "'Tis the season to be jolly! Celebrate Christmas with special rewards and festive events."
 		},
 		"v3": {
 			"desc2": {
@@ -10156,6 +10510,14 @@
 				"trans": "Tatil sezonunda Noel sohbet çerçevesi ve amblemi mevcut olacak!",
 				"eng": "During the holiday season, Christmas chat frame and emblem will be available!"
 			}
+		},
+		"specialMusic": {
+			"trans": "Etkinlik sırasında festivale uygun arka plan müziğinin tadını çıkarın!",
+			"eng": "Enjoy the festive background music during the event!"
+		},
+		"chatMessage1": {
+			"trans": "Herkese mutlu tatiller!",
+			"eng": "Happy Holidays everyone!"
 		}
 	},
 	"christmasPromoSmall": {
@@ -10293,6 +10655,20 @@
 				"trans": "Daha Fazla Öğrenin",
 				"eng": "Learn More"
 			}
+		},
+		"valentinePromo": {
+			"title": {
+				"trans": "Sevgililer Günü Özel",
+				"eng": "Valentine\\'s Special"
+			},
+			"description": {
+				"trans": "Aşkı kutlayın, özel Sevgililer Günü eşyaları ve ödüllerle!",
+				"eng": "Celebrate love with exclusive Valentine\\'s items and rewards!"
+			},
+			"button": {
+				"trans": "Etkinliği Görüntüle",
+				"eng": "View Event"
+			}
 		}
 	},
 	"referralPromo": {
@@ -10358,13 +10734,6 @@
 			"trans": "Bahar Festivali geldi! Sakura yaprakları dökülüyor ve hava çiçeklerin kokusuyla dolu",
 			"eng": "The Spring Festival is here! Sakura petals are falling, and the air is filled with the fragrance of flowers. "
 		},
-		"desc2": {
-			"vars": [
-				"percent"
-			],
-			"trans": "Etkinlik süresince yapılan tüm atlamalar, gerekli birimlerde %${percent} indirim sağlar",
-			"eng": "All skips during the event period gets ${percent}% off discount on unit required"
-		},
 		"desc3": {
 			"trans": "Özel Sakura sohbet çerçevesi ve amblemi etkinlik süresince mevcuttur",
 			"eng": "Exclusive Sakura chat frame and emblem is available during event period"
@@ -10372,13 +10741,26 @@
 		"chatMessage1": {
 			"trans": "İlkbahar geldi",
 			"eng": "Spring is here"
+		}
+	},
+	"eventSkipDiscountSmall": {
+		"title": {
+			"trans": "İndirim Atla",
+			"eng": "Skip Discount"
 		},
 		"desc": {
 			"vars": [
 				"percent"
 			],
-			"trans": "Etkinlik süresince yapılan tüm atlamalar, gerekli birimde %${percent} indirim alır 🥳",
-			"eng": "All skips during the event period gets ${percent}% off discount on unit required 🥳"
+			"trans": "Tüm Skips'lerde ${percent}% indirim!",
+			"eng": "${percent}% discount on all Skips!"
+		},
+		"desc2": {
+			"vars": [
+				"date"
+			],
+			"trans": "${date} tarihinde sona eriyor",
+			"eng": "Ends on ${date}"
 		}
 	},
 	"skipDiscountPromoSmall": {
@@ -10569,6 +10951,24 @@
 			],
 			"trans": "AFK görevlerinde +${percent}% exp almak için lezzetli hindi tüketin",
 			"eng": "Consume delicious turkey to get +${percent}% EXP on AFK tasks"
+		}
+	},
+	"valentinePromo": {
+		"title": {
+			"trans": "Sevgililer Günü Etkinliği",
+			"eng": "Valentine Event"
+		},
+		"desc1": {
+			"trans": "Aşk havada! Sevgililer Günü'nü özel ödüller ve etkinliklerle kutlayın.",
+			"eng": "Love is in the air! Celebrate Valentine's Day with special rewards and events."
+		},
+		"specialItems": {
+			"trans": "Etkinlik sırasında özel Sevgililer Günü eşyaları bulabilirsiniz!",
+			"eng": "Special Valentine items can be found during the event!"
+		},
+		"chatMessage1": {
+			"trans": "Mutlu Sevgililer Günü!",
+			"eng": "Happy Valentine\\'s Day!"
 		}
 	},
 	"retroPromo": {

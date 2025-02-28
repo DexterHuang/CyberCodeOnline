@@ -1,5 +1,13 @@
 {
 	"apartment": {
+		"rentalDueDate": {
+			"vars": [
+				"timeToDue",
+				"rentalDueDate"
+			],
+			"trans": "Date d'échéance de location : ${rentalDueDate} (${timeToDue})",
+			"eng": "Rental Due Date: ${rentalDueDate} (${timeToDue})"
+		},
 		"title": {
 			"vars": [
 				"playerName"
@@ -235,6 +243,14 @@
 					"eng": "No gang has occupied this area yet"
 				}
 			},
+			"sort": {
+				"trans": "Trier",
+				"eng": "Sort"
+			},
+			"sortDirection": {
+				"trans": "Direction",
+				"eng": "Direction"
+			},
 			"members": {
 				"trans": "Membres",
 				"eng": "Members"
@@ -364,22 +380,6 @@
 				"colorBox": {
 					"trans": "Clique sur la couleur ci-dessous.",
 					"eng": "Click on this color below"
-				},
-				"lose": {
-					"title": {
-						"trans": "Le décryptage a échoué.",
-						"eng": "Decryption failed"
-					},
-					"description": {
-						"trans": "Clique sur la bonne séquence de couleur pour déverrouiller.",
-						"eng": "Click on the correct color sequence to unlock"
-					},
-					"button": {
-						"title": {
-							"trans": "Réessayer",
-							"eng": "Try Again"
-						}
-					}
 				}
 			}
 		},
@@ -845,6 +845,14 @@
 				"trans": "Cet objet sera retiré après la fin de l'événement ${eventName}.",
 				"eng": "This item will be removed after the ${eventName} event ends."
 			},
+			"timeLimitedEndTime": {
+				"vars": [
+					"endDate",
+					"timeToEnd"
+				],
+				"trans": "L'événement se termine à ${endDate} UTC (${timeToEnd})",
+				"eng": "Event ends at ${endDate} UTC (${timeToEnd})"
+			},
 			"timeLimited": {
 				"trans": "Temps Limité",
 				"eng": "Time Limited"
@@ -910,7 +918,10 @@
 			},
 			"cantEquip": {
 				"trans": "Ton niveau est trop faible pour équiper cet objet",
-				"eng": "Your level is too low for this item"
+				"eng": "Your level is too low for this item, this item requires level ${level} to equip",
+				"vars": [
+					"level"
+				]
 			},
 			"unequip": {
 				"trans": "Déséquiper",
@@ -1487,6 +1498,10 @@
 				"tiny": {
 					"trans": "Minuscule",
 					"eng": "Tiny"
+				},
+				"tiny2": {
+					"trans": "Très petit",
+					"eng": "Very Tiny"
 				},
 				"auto": {
 					"trans": "Auto",
@@ -2259,9 +2274,12 @@
 			}
 		},
 		"landing": {
-			"subtile": {
-				"trans": "MMORPG Cyberpunk textuel",
-				"eng": "Cyberpunk Text-based MMORPG"
+			"accountCount": {
+				"vars": [
+					"count"
+				],
+				"trans": "Rejoins plus de ${count} autres cyberpunks maintenant !",
+				"eng": "Join over ${count} other cyberpunkers now!"
 			},
 			"description1": {
 				"trans": "CyberCode Online est un jeu en ligne, un compte est nécessaire pour stocker les données du jeu.",
@@ -2758,6 +2776,108 @@
 			}
 		}
 	},
+	"gameEventBenefits": {
+		"skipBenefit": {
+			"trans": "Accélération Instantanée",
+			"eng": "Fast Forward Boost"
+		},
+		"skipDiscount": {
+			"vars": [
+				"percent"
+			],
+			"trans": "Tous les sauts pendant la période de l'événement bénéficient d'une remise de ${percent}% sur l'unité requise",
+			"eng": "All skips during the event period gets ${percent}% off discount on unit required"
+		},
+		"caliTitle": {
+			"trans": "Remise de calibration",
+			"eng": "Calibration Discount"
+		},
+		"caliSubtitle": {
+			"trans": "Exigences de contribution réduites :",
+			"eng": "Reduced contribution requirements:"
+		},
+		"discountTier": {
+			"vars": [
+				"percent",
+				"ranges"
+			],
+			"trans": "${percent}% de réduction sur : ${ranges}",
+			"eng": "${percent}% discount at: ${ranges}"
+		},
+		"earlyContributors": {
+			"trans": "Les premiers contributeurs bénéficient de réductions plus importantes !",
+			"eng": "Early contributors receive higher discounts!"
+		},
+		"partyTitle": {
+			"trans": "Réduction de groupe",
+			"eng": "Party Discount"
+		},
+		"partySubtitle": {
+			"trans": "Exigences de contribution réduites :",
+			"eng": "Reduced contribution requirements:"
+		},
+		"topUpTitle": {
+			"trans": "Récompenses de Recharge",
+			"eng": "Top-Up Rewards"
+		},
+		"topUpReward": {
+			"trans": "Récompenses spéciales disponibles lors du rechargement pendant l'événement",
+			"eng": "Special rewards available when topping up during the event"
+		},
+		"lootTitle": {
+			"trans": "Butin Spécial",
+			"eng": "Special Loot"
+		},
+		"lootCrate": {
+			"trans": "Objets spéciaux disponibles dans les caisses de butin pendant l'événement",
+			"eng": "Special items available in loot crates during the event"
+		},
+		"chatTitle": {
+			"trans": "Effets de chat",
+			"eng": "Chat Effects"
+		},
+		"chatEffect": {
+			"trans": "Effets de chat exclusifs disponibles pendant l'événement",
+			"eng": "Exclusive chat effects available during the event"
+		},
+		"bgmTitle": {
+			"trans": "Musique d'événement",
+			"eng": "Event Music"
+		},
+		"bgm": {
+			"trans": "Musique de fond spéciale pendant l'événement",
+			"eng": "Special background music during the event"
+		}
+	},
+	"gameEventBenefitsSmall": {
+		"skipDiscount": {
+			"vars": [
+				"percent"
+			],
+			"trans": "Accélérez votre progression avec un rabais de ${percent}% sur tous les sauts",
+			"eng": "Speed up your progress with a ${percent}% discount on all skips"
+		},
+		"caliDiscount": {
+			"trans": "Boostez vos calibrations avec des coûts de contribution réduits",
+			"eng": "Supercharge your calibrations with reduced contribution costs"
+		},
+		"partyDiscount": {
+			"trans": "Faites équipe et économisez avec des réductions exclusives sur les contributions de groupe",
+			"eng": "Team up and save with exclusive party contribution discounts"
+		},
+		"topUpReward": {
+			"trans": "Obtenez des récompenses bonus en rechargeant pendant la période de l'événement",
+			"eng": "Get bonus rewards when topping up during the event period"
+		},
+		"lootCrate": {
+			"trans": "Découvrez des trésors en édition limitée dans des caisses de butin d'événements exclusifs",
+			"eng": "Discover limited-time treasures in exclusive event loot crates"
+		},
+		"chatEffect": {
+			"trans": "Exprime-toi avec des effets de chat éblouissants sur le thème de l'événement",
+			"eng": "Express yourself with dazzling event-themed chat effects"
+		}
+	},
 	"misc": {
 		"back": {
 			"trans": "Retour",
@@ -2926,10 +3046,82 @@
 		}
 	},
 	"minigame": {
+		"circuitConnection": {
+			"title": {
+				"trans": "Dérivation du Circuit Neural",
+				"eng": "Neural Circuit Override"
+			},
+			"subtitle": {
+				"trans": "Violation de sécurité détectée : Pare-feu compromis",
+				"eng": "Security Breach Detected: Firewall Compromised"
+			},
+			"instructions": {
+				"trans": "Vite ! Contournez les nœuds de sécurité neuronale dans l'ordre pour accéder au système. Suivez la séquence des nœuds avant que le protocole ICE ne vous détecte.",
+				"eng": "Quick! Bypass the neural security nodes in sequence to gain system access. Follow the node sequence before the ICE protocol detects you."
+			},
+			"node": {
+				"trans": "Noeud de Circuit",
+				"eng": "Circuit Node"
+			}
+		},
+		"dataStream": {
+			"title": {
+				"trans": "Intercepteur de flux de données",
+				"eng": "Data Stream Interceptor"
+			},
+			"instructions": {
+				"trans": "INTERCEPTER DES PAQUETS DE DONNÉES VALIDES [LUMINEUX] // ÉVITER CEUX CORROMPUS",
+				"eng": "INTERCEPT VALID DATA PACKETS [GLOWING] // AVOID CORRUPTED ONES"
+			}
+		},
+		"sequenceHack": {
+			"title": {
+				"trans": "Surcharge de la Mémoire",
+				"eng": "Memory Bank Override"
+			},
+			"instructions": {
+				"vars": [
+					"duration"
+				],
+				"trans": "ALERTE : Modèle de sécurité détecté. Mémorisez et reproduisez la séquence binaire pour accéder au système. Bleu représente 0, Rouge représente 1. Modèle visible pendant ${duration} secondes. Cliquez n'importe où pour commencer immédiatement.",
+				"eng": "ALERT: Security pattern detected. Memorize and replicate the binary sequence to gain system access. Blue represents 0, Red represents 1. Pattern visible for ${duration} seconds. Click anywhere to start immediately."
+			},
+			"check": {
+				"trans": "VÉRIFIER LE MODÈLE",
+				"eng": "VERIFY PATTERN"
+			},
+			"success": {
+				"trans": "ACCÈS AUTORISÉ : Banque de mémoire infiltrée avec succès. Système compromis.",
+				"eng": "ACCESS GRANTED: Memory bank successfully breached. System compromised."
+			}
+		},
+		"symbolAlignment": {
+			"title": {
+				"trans": "DECRYPT_NEURAL_DATA.exe",
+				"eng": "DECRYPT_NEURAL_DATA.exe"
+			},
+			"instructions": {
+				"vars": [
+					"total"
+				],
+				"trans": "ALIGNER_LES_CLEFS_D'ENCRYPTION [${total}] :: AVERTISSEMENT : RÉINITIALISATION DU SYSTÈME EN CAS DE NON-CORRESPONDANCE",
+				"eng": "ALIGN_ENCRYPTION_KEYS [${total}] :: WARNING: SYSTEM RESET ON MISMATCH"
+			}
+		},
 		"tileTrack": {
 			"tip": {
 				"trans": "Cliquez sur le bouton surligné pour déverrouiller",
 				"eng": "Click on the highlighted button to unlock"
+			}
+		},
+		"gameName": {
+			"title": {
+				"trans": "Titre du jeu",
+				"eng": "Game Title"
+			},
+			"instructions": {
+				"trans": "Comment jouer",
+				"eng": "How to play"
 			}
 		}
 	},
@@ -3008,6 +3200,16 @@
 			"eng": "Give street cred"
 		}
 	},
+	"gangPage": {
+		"notificationDisabled": {
+			"trans": "Notifications de chat de gang désactivées",
+			"eng": "Gang chat notifications disabled"
+		},
+		"notificationEnabled": {
+			"trans": "Notifications de chat de gang activées",
+			"eng": "Gang chat notifications enabled"
+		}
+	},
 	"cost": {
 		"requireGang": {
 			"trans": "Nécessite d'être dans un gang",
@@ -3058,6 +3260,15 @@
 	"misc,durability": {
 		"trans": "résistance",
 		"eng": "durability"
+	},
+	"mailRoomContent": {
+		"time": {
+			"vars": [
+				"time"
+			],
+			"trans": "il y a ${time}",
+			"eng": "${time} ago"
+		}
 	},
 	"chatHeader": {
 		"skipAvailable": {
@@ -3763,14 +3974,6 @@
 			],
 			"trans": "Vous n'êtes pas en mesure de ${verb}",
 			"eng": "You are not able to ${verb} this"
-		},
-		"timeRequiredText": {
-			"vars": [
-				"verb",
-				"timeStr"
-			],
-			"trans": "Temps requis pour ${verb}: ${timeStr}",
-			"eng": "Time required to ${verb}: ${timeStr}"
 		}
 	},
 	"reward": {
@@ -4711,6 +4914,32 @@
 			}
 		}
 	},
+	"clanMemberSort": {
+		"resource": {
+			"displayName": {
+				"trans": "Ressource",
+				"eng": "Resource"
+			}
+		},
+		"money": {
+			"displayName": {
+				"trans": "Argent",
+				"eng": "Money"
+			}
+		},
+		"occupation": {
+			"displayName": {
+				"trans": "Occupation",
+				"eng": "Occupation"
+			}
+		},
+		"gangExp": {
+			"displayName": {
+				"trans": "Exp de Gang",
+				"eng": "Gang Exp"
+			}
+		}
+	},
 	"donationType": {
 		"donation1": {
 			"trans": "Membre",
@@ -4847,6 +5076,14 @@
 		"donation34": {
 			"trans": "Punk",
 			"eng": "Punk"
+		},
+		"donation35": {
+			"trans": "Valentin",
+			"eng": "Valentine"
+		},
+		"donation36": {
+			"trans": "Cyberpunk",
+			"eng": "Cyberpunk"
 		},
 		"moderator": {
 			"trans": "Modérateur",
@@ -6189,6 +6426,86 @@
 					"eng": "More coming in future update"
 				}
 			}
+		},
+		"donation35": {
+			"benefits": {
+				"1": {
+					"trans": "Titre de don \"Valentine\"",
+					"eng": "\"Valentine\" donation title"
+				},
+				"2": {
+					"trans": "Débloquez la personnalisation de la photo de profil",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "Cadre de Saint-Valentin (avec animation)",
+					"eng": "Valentine frame (with animation)"
+				},
+				"4": {
+					"trans": "Profil de Valentine (avec animation)",
+					"eng": "Valentine Profile (with animation)"
+				},
+				"5": {
+					"trans": "Débloquer le bio personnalisé",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "Décoration de profil punk",
+					"eng": "Punk profile decoration"
+				},
+				"7": {
+					"trans": "Personnaliser la devise de gang",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "Personnaliser l'image du gang",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "Plus à venir dans une future mise à jour",
+					"eng": "More coming in future update"
+				}
+			}
+		},
+		"donation36": {
+			"benefits": {
+				"1": {
+					"trans": "Titre de don \"Cyberpunk\"",
+					"eng": "\"Cyberpunk\" donation title"
+				},
+				"2": {
+					"trans": "Débloquez la personnalisation de la photo de profil",
+					"eng": "Unlock profile picture customization"
+				},
+				"3": {
+					"trans": "Cadre cyberpunk (avec animation)",
+					"eng": "Cyberpunk frame (with animation)"
+				},
+				"4": {
+					"trans": "Profil Cyberpunk (avec animation)",
+					"eng": "Cyberpunk Profile (with animation)"
+				},
+				"5": {
+					"trans": "Débloquer le bio personnalisé",
+					"eng": "Unlock custom bio"
+				},
+				"6": {
+					"trans": "Décoration de profil Cyberpunk",
+					"eng": "Cyberpunk profile decoration"
+				},
+				"7": {
+					"trans": "Personnaliser la devise de gang",
+					"eng": "Customize gang motto"
+				},
+				"8": {
+					"trans": "Personnaliser l'image du gang",
+					"eng": "Customize gang image"
+				},
+				"9": {
+					"trans": "Plus à venir dans une future mise à jour",
+					"eng": "More coming in future update"
+				}
+			}
 		}
 	},
 	"equipmentMarks": {
@@ -6266,7 +6583,19 @@
 		},
 		"lunarNewYear": {
 			"trans": "Nouvelle année lunaire",
-			"eng": "Lunar New Year"
+			"eng": "Lunar New Year",
+			"skipDiscountTitle": {
+				"trans": "Remise du Nouvel An Lunaire",
+				"eng": "Lunar New Year Discount"
+			}
+		},
+		"valentine": {
+			"trans": "Valentin",
+			"eng": "Valentine",
+			"skipDiscountTitle": {
+				"trans": "Remise de Saint-Valentin",
+				"eng": "Valentine Discount"
+			}
 		},
 		"halloween": {
 			"trans": "Halloween",
@@ -6283,10 +6612,7 @@
 		"sakura": {
 			"name": {
 				"trans": "Mars",
-				"eng": "${percent}% off during event",
-				"vars": [
-					"percent"
-				]
+				"eng": "March"
 			}
 		},
 		"rainbow": {
@@ -7494,6 +7820,34 @@
 				"eng": "Push past your limits and grind like a machine--When consumed, increase damage dealt by ${percent}% for ${minutes} minutes"
 			}
 		},
+		"heartShapedChocolate": {
+			"name": {
+				"trans": "Chocolat en forme de cœur",
+				"eng": "Heart Shaped Chocolate"
+			},
+			"description": {
+				"vars": [
+					"percent",
+					"event"
+				],
+				"trans": "Un délicieux chocolat en forme de cœur qui peut être utilisé pour augmenter l'EXP reçue dans les tâches AFK de ${percent}%. \\nCet objet ne peut être utilisé que pendant l'événement ${event}",
+				"eng": "A delicious heart shaped chocolate that can be used to increase EXP received in AFK tasks by ${percent}%.\\nThis item can only be used during ${event} event"
+			}
+		},
+		"chocoBerry": {
+			"name": {
+				"trans": "Fraise au chocolat",
+				"eng": "Chocolate Strawberry"
+			},
+			"description": {
+				"vars": [
+					"percent",
+					"event"
+				],
+				"trans": "Une délicieuse fraise au chocolat qui peut être utilisée pour augmenter l'EXP et le BTC reçus dans les tâches AFK de ${percent}%. \\nCet objet ne peut être utilisé que pendant l'événement ${event}",
+				"eng": "A delicious chocolate strawberry that can be used to increase EXP and BTC received in AFK tasks by ${percent}%.\\nThis item can only be used during ${event} event"
+			}
+		},
 		"experienceShard": {
 			"name": {
 				"vars": [
@@ -7822,19 +8176,19 @@
 				"trans": "Aller à ${segmentStationName}",
 				"eng": "go to ${segmentStationName}"
 			},
-			"toZone": {
+			"toLevel1Zone": {
 				"tut": {
 					"vars": [
 						"segmentStationName"
 					],
-					"trans": "Continue ici pour combattre des ennemis de niveau 1",
-					"eng": "Continue here to fight level 1 enemy"
+					"trans": "Cliquez ici pour entrer dans la zone de niveau 1 à 4",
+					"eng": "Click here to enter 1 to 4 level zone area"
 				},
 				"description": {
 					"vars": [
 						"zoneName"
 					],
-					"trans": "Aller vers ${zoneName}",
+					"trans": "Va à ${zoneName}",
 					"eng": "Go to ${zoneName}"
 				}
 			}
@@ -10137,11 +10491,11 @@
 	"christmasPromo": {
 		"title": {
 			"trans": "Bonnes vacances d'hiver!",
-			"eng": "Happy Winter Holiday!"
+			"eng": "Christmas Celebration"
 		},
 		"desc1": {
 			"trans": "C'est à nouveau la période la plus merveilleuse de l'année! À Shangri-la, nous célébrons les vacances d'hiver avec un événement spécial!",
-			"eng": "It's the most wonderful time of the year again! in Shang-ri-la we are celebrating the winter holiday with a special event!"
+			"eng": "'Tis the season to be jolly! Celebrate Christmas with special rewards and festive events."
 		},
 		"v3": {
 			"desc2": {
@@ -10156,6 +10510,14 @@
 				"trans": "Pendant la période des fêtes, le cadre de discussion et l'emblème de Noël seront disponibles!",
 				"eng": "During the holiday season, Christmas chat frame and emblem will be available!"
 			}
+		},
+		"specialMusic": {
+			"trans": "Profitez de la musique de fond festive pendant l'événement !",
+			"eng": "Enjoy the festive background music during the event!"
+		},
+		"chatMessage1": {
+			"trans": "Joyeuses fêtes à tous !",
+			"eng": "Happy Holidays everyone!"
 		}
 	},
 	"christmasPromoSmall": {
@@ -10293,6 +10655,20 @@
 				"trans": "En savoir plus",
 				"eng": "Learn More"
 			}
+		},
+		"valentinePromo": {
+			"title": {
+				"trans": "Spécial Saint-Valentin",
+				"eng": "Valentine\\'s Special"
+			},
+			"description": {
+				"trans": "Célébrez l'amour avec des objets et des récompenses exclusifs pour la Saint-Valentin !",
+				"eng": "Celebrate love with exclusive Valentine\\'s items and rewards!"
+			},
+			"button": {
+				"trans": "Voir l'événement",
+				"eng": "View Event"
+			}
 		}
 	},
 	"referralPromo": {
@@ -10358,13 +10734,6 @@
 			"trans": "Le Festival du Printemps est là ! Les pétales de sakura tombent, et l'air est rempli du parfum des fleurs",
 			"eng": "The Spring Festival is here! Sakura petals are falling, and the air is filled with the fragrance of flowers. "
 		},
-		"desc2": {
-			"vars": [
-				"percent"
-			],
-			"trans": "Tous les sauts effectués pendant la période de l'événement bénéficient d'une réduction de ${percent}% sur l'unité requise",
-			"eng": "All skips during the event period gets ${percent}% off discount on unit required"
-		},
 		"desc3": {
 			"trans": "Cadre de discussion et emblème exclusifs Sakura disponibles pendant la période de l'événement",
 			"eng": "Exclusive Sakura chat frame and emblem is available during event period"
@@ -10372,13 +10741,26 @@
 		"chatMessage1": {
 			"trans": "Le printemps est là",
 			"eng": "Spring is here"
+		}
+	},
+	"eventSkipDiscountSmall": {
+		"title": {
+			"trans": "Ignorer la remise",
+			"eng": "Skip Discount"
 		},
 		"desc": {
 			"vars": [
 				"percent"
 			],
-			"trans": "Tous les sauts pendant la période de l'événement bénéficient d'une réduction de ${percent}% sur l'unité requise 🥳",
-			"eng": "All skips during the event period gets ${percent}% off discount on unit required 🥳"
+			"trans": "${percent}% de réduction sur tous les Skips !",
+			"eng": "${percent}% discount on all Skips!"
+		},
+		"desc2": {
+			"vars": [
+				"date"
+			],
+			"trans": "Se termine le ${date}",
+			"eng": "Ends on ${date}"
 		}
 	},
 	"skipDiscountPromoSmall": {
@@ -10569,6 +10951,24 @@
 			],
 			"trans": "Consommez une délicieuse dinde pour obtenir + ${percent}% exp sur les tâches AFK",
 			"eng": "Consume delicious turkey to get +${percent}% EXP on AFK tasks"
+		}
+	},
+	"valentinePromo": {
+		"title": {
+			"trans": "Événement de la Saint-Valentin",
+			"eng": "Valentine Event"
+		},
+		"desc1": {
+			"trans": "L'amour est dans l'air ! Célébrez la Saint-Valentin avec des récompenses et des événements spéciaux.",
+			"eng": "Love is in the air! Celebrate Valentine's Day with special rewards and events."
+		},
+		"specialItems": {
+			"trans": "Des objets spéciaux pour la Saint-Valentin peuvent être trouvés pendant l'événement !",
+			"eng": "Special Valentine items can be found during the event!"
+		},
+		"chatMessage1": {
+			"trans": "Joyeuse Saint-Valentin !",
+			"eng": "Happy Valentine\\'s Day!"
 		}
 	},
 	"retroPromo": {
