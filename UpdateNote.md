@@ -11,6 +11,30 @@ Did you like the game and fancy helping the game? you can:
 
 ## Updates
 
+
+### 0.1866
+
+-  Sakura event: (2025/03/01 to 2025/03/01)
+  -  Sakura frame and other emblems are now available during the event
+  -  during event there will be discount on party and calibration contribution, the earlier contribution will get higher discount
+-  Added several minigames, NOTE: the frequency of the minigame showing up DOES NOT increase nor changed, the only thing changed is instead of getting the same minigame everytime, there will be other minigames. again, the chance/amount/frequency of minigame showing is not changed. **The new minigames are new, so if you face any bugs please do report it on our discord channel or if its urgent email me or contact a moderator to notify me**
+    - Memory Bank Override - simply click the light-up blocks, if you forgot just click `verify pattern` it will show you again
+
+![image](https://github.com/user-attachments/assets/ba1a5089-3d01-4aeb-8cde-620c6546796a)
+
+    - Data Stream Interceptor - just click the yellow thingy
+
+![image](https://github.com/user-attachments/assets/fdb60f38-9c91-4fa5-b3a4-438bd34fea1b)
+
+    - Decrypt Neural Data - just click the symbol that is shown to you
+
+![image](https://github.com/user-attachments/assets/8588462a-85d7-4c3b-92a9-a2a3ab080fe3)
+
+-  Added new frame `Cyberpunk`
+
+![image](https://github.com/user-attachments/assets/d58c6192-fbcb-4b9f-858f-b546e0d1df32)
+
+
 ### 0.1865
 
 -  Valentine's Event (02/05 ~ 02/28):
