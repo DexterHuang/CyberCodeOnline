@@ -14,7 +14,7 @@ Did you like the game and fancy helping the game? you can:
 
 ### 0.1866
 
--  Sakura event: (2025/03/01 to 2025/03/01)
+-  Sakura event: (2025/03/01 to 2025/03/31)
     -  Sakura frame and other emblems are now available during the event
     -  during event there will be discount on party and calibration contribution, the earlier contribution will get higher discount
 -  Added several minigames
