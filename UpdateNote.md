@@ -19,7 +19,7 @@ Did you like the game and fancy helping the game? you can:
   -  during event there will be discount on party and calibration contribution, the earlier contribution will get higher discount
 -  Added several minigames
 
-**NOTE: the frequency of the minigame showing up DOES NOT increase nor changed, the only thing changed is instead of getting the same minigame everytime, there will be other minigames. again, the chance/amount/frequency of minigame showing is NOT changed**
+**NOTE: the frequency of the minigame showing up is NOT increase nor changed, the only thing changed is instead of getting the same minigame everytime, there will be other minigames. again, the chance/amount/frequency of minigame showing is NOT changed**
 
 **The new minigames are new, so if you face any bugs please do report it on our discord channel or if its urgent email me or contact a moderator to notify me**
 - Memory Bank Override - simply click the light-up blocks, if you forgot just click `verify pattern` it will show you again
