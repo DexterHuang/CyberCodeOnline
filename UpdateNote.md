@@ -30,6 +30,11 @@ Did you like the game and fancy helping the game? you can:
 
 ![image](https://github.com/user-attachments/assets/8588462a-85d7-4c3b-92a9-a2a3ab080fe3)
 
+    - Neural Circuit Override - click the nodes in sequence shown at begining, if you forget you can just keep clicking to see the correct sequence
+
+![image](https://github.com/user-attachments/assets/641c6dfe-c632-4ad7-aa37-9ee1010631ff)
+
+
 -  Added new frame `Cyberpunk`
 
 ![image](https://github.com/user-attachments/assets/d58c6192-fbcb-4b9f-858f-b546e0d1df32)
