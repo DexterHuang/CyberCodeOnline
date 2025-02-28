@@ -18,19 +18,19 @@ Did you like the game and fancy helping the game? you can:
   -  Sakura frame and other emblems are now available during the event
   -  during event there will be discount on party and calibration contribution, the earlier contribution will get higher discount
 -  Added several minigames, NOTE: the frequency of the minigame showing up DOES NOT increase nor changed, the only thing changed is instead of getting the same minigame everytime, there will be other minigames. again, the chance/amount/frequency of minigame showing is not changed. **The new minigames are new, so if you face any bugs please do report it on our discord channel or if its urgent email me or contact a moderator to notify me**
-    - Memory Bank Override - simply click the light-up blocks, if you forgot just click `verify pattern` it will show you again
+- Memory Bank Override - simply click the light-up blocks, if you forgot just click `verify pattern` it will show you again
 
 ![image](https://github.com/user-attachments/assets/ba1a5089-3d01-4aeb-8cde-620c6546796a)
 
-    - Data Stream Interceptor - just click the yellow thingy
+- Data Stream Interceptor - just click the yellow thingy
 
 ![image](https://github.com/user-attachments/assets/fdb60f38-9c91-4fa5-b3a4-438bd34fea1b)
 
-    - Decrypt Neural Data - just click the symbol that is shown to you
+- Decrypt Neural Data - just click the symbol that is shown to you
 
 ![image](https://github.com/user-attachments/assets/8588462a-85d7-4c3b-92a9-a2a3ab080fe3)
 
-    - Neural Circuit Override - click the nodes in sequence shown at begining, if you forget you can just keep clicking to see the correct sequence
+- Neural Circuit Override - click the nodes in sequence shown at begining, if you forget you can just keep clicking to see the correct sequence
 
 ![image](https://github.com/user-attachments/assets/641c6dfe-c632-4ad7-aa37-9ee1010631ff)
 
