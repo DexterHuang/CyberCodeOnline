@@ -2,7 +2,7 @@
 
 #### Di sini, di CCO, kami berharap dapat mempertahankan komunitas yang ramah. Agar semua orang bersenang-senang dan menikmati permainan, harap biasakan diri Anda dengan peraturan yang ada disini.
 
-> Jika Anda merasa seseorang melanggar salah satu aturan dan tidak ada moderator, ambil tangkapan layar dan laporkan melalui pesan langsung ke moderator di [server Perselisihan](https://discord.gg/JREx8xz).
+> Jika Anda merasa seseorang melanggar salah satu aturan dan tidak ada moderator, ambil tangkapan layar dan laporkan melalui pesan langsung ke moderator di [Server  Discord CyberCodeOnline](https://discord.gg/JREx8xz).
 
 ### Pedoman Penting
 * Sangat disarankan untuk bermain hanya dengan satu akun per orang, karena sistem kami akan menandai akun alternatif, mencegah Anda mengirim item antar akun Anda. *ini dapat terjadi bahkan jika Anda hanya memiliki satu alt* (Kami tidak akan membantu Anda memindahkan item atau membuka kunci akun jika sistem menandai Anda.)
