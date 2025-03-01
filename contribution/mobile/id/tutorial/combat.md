@@ -1,4 +1,4 @@
-## Tempur
+## Bertarung / Bertempur
 Di setiap lokasi, Anda akan melihat daftar Musuh Terdekat dan tiga Dungeon yang dapat Anda masuki. Lokasi dipisahkan oleh grup level. Untuk membuka kunci area baru, Anda harus mengumpulkan tiga fragmen kunci dari ruang bawah tanah. Anda kemudian dapat memaksa kunci baru dengan fragmen kunci Anda di Terminal.
 
 Untuk melawan Musuh Terdekat, pilih salah satu musuh yang terdaftar untuk memasuki pertempuran. Anda tidak dapat menyembuhkan saat melawan Musuh Terdekat, tetapi jika Anda akan mati, klik Escape di kiri atas. Saat berada di dalam penjara bawah tanah, mengklik musuh, yang diwakili oleh logo alien akan menarik Anda ke dalam pertempuran dengannya.
