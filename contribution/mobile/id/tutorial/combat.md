@@ -12,7 +12,7 @@ Serang musuh dengan senjata khusus Anda yang dilengkapi. Menangani 120% kerusaka
 ## Senjata Destruktif
 Serang musuh dengan senjata penghancur yang Anda miliki. Menangani 50% kerusakan pada perisai. Senjata ini menghabiskan satu muatan Antimateri per tembakan.
 
-## Gunakan Barang
+## Slot Cepat / Menggunakan Item
 Anda memiliki 3 slot Gunakan Item. Anda dapat mengikat persediaan medis ke slot ini dan menggunakannya di dalam Dungeon. Anda dapat mengikat Kenangan Pengalaman, tetapi ini tidak perlu karena Anda dapat menggunakannya langsung dari inventaris Anda untuk mendapatkan Pengalaman Pemain.
 
 ## Melarikan diri
