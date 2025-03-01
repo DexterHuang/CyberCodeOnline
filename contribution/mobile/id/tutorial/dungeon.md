@@ -1,12 +1,12 @@
-## Rubanah
+## Dungeon
 
-## Jenis Rubanah
+## Jenis Dungeon
   
 ![DungeonTypes](/resources/mobile-tutorial/DungeonTypes.png)
   
 Inilah tiga jenis rubanah yang bisa Anda masuki. Rubanah [normal] akan menyertakan fragmen kunci di ruang harta karun dan tidak ada bos. Rubanah [tantangan] jauh lebih sulit tetapi mencakup lebih banyak peti untuk menjarah dan memiliki bos di ruang harta yang memberikan banyak EXP. Rubanah [geng] adalah yang paling sulit dari semuanya dan mengharuskan Anda berada dalam sebuah geng dan memiliki Pemancar Perintah Invasi Gang. Musuh 4-5x lebih kuat dari rubanah biasa tetapi memiliki imbalan yang lebih besar.
 
-## Membuat / Bergabung dengan Rubanah
+## Membuat / Bergabung dengan Dungeon
   
 Saat membuat rubanah, pilih rubanah yang ingin Anda buat. Anda dapat menamainya dan memilih untuk menjadikannya Publik atau Pribadi. Anda juga dapat melindungi rubanah dengan kata sandi.
 
