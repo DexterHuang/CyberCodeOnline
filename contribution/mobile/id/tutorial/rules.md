@@ -6,28 +6,30 @@
 
 ### Pedoman Penting
 * Sangat disarankan untuk bermain hanya dengan satu akun per orang, karena sistem kami akan menandai akun alternatif, mencegah Anda mengirim item antar akun Anda. *ini dapat terjadi bahkan jika Anda hanya memiliki satu alt* (Kami tidak akan membantu Anda memindahkan item atau membuka kunci akun jika sistem menandai Anda.)
-* Jangan pernah menggunakan obrolan dalam game (termasuk email) untuk mengirim segala jenis informasi sensitif/pribadi. Obrolan game TIDAK dienkripsi dan TIDAK aman. CCO tidak bertanggung jawab untuk melindungi informasi Anda yang Anda tulis dalam obrolan. Ingatlah bahwa moderator memiliki akses ke log obrolan untuk tujuan moderasi.
-
+* Jangan pernah menggunakan obrolan dalam game untuk mengirim segala jenis informasi sensitif/pribadi (termasuk email). Obrolan game TIDAK dienkripsi dan TIDAK aman. CCO tidak bertanggung jawab untuk melindungi informasi Anda yang Anda tulis dalam obrolan. Ingatlah bahwa moderator memiliki akses ke log obrolan untuk tujuan moderasi.
 
 ### Aturan Permainan
 -   Cheat tidak diperbolehkan disini. memakai bot, script, auto-clicker ataupun sejenisnya yang termasuk dalam automasi dalam game ini juga dilarang
 -  larangan menggunakan klien bajakan (Custom Client), karena melanggar kebijakan undang undang sebuah hak terbit & hak milik, dan juga hindari menggunakan mod / cheat karena bisa saya mengambil informasi pribadi kalian 
-
--   No excessive alts (**Unless you provide a reason to justify the necessity of creating an alt, it is deemed unnecessary, therefore excessive**)
-    -   Example of valid reason:
-        -   You forgot the password of your main, and got locked out of account
-        -   Your main account has been bugged and becomes unplayable
-    -   Example of "cheating is not a valid reason":
-        -   I want to create alts so I can trade faster then normal players
-        -   I want to create alts to store unlimited amount of items
-        -   I want to create alts so I can AFK with unlimited parallel tasks
-        -   I want to create alts so I can scam people with new names
--   Don't exploit bugs, report them instead.
--   Keep usernames family friendly.
--   Advertising (global chat/discord/bio/gang motto) of Selling/Buying/trading account/items for IRL money (both directly or indirectly, for example virtual currencies such as Google Play cards, wal-mart cards or any other virtual currencies from other services) is not allowed.
--   Using/advertising use of cosmetic gift as part of trade is not allowed, all cosmetic gift sent can only be unconditioned gift to friend
--   Tagging people for fun or with no real purpose is not allowed. This is to prevent people from creating accounts just so they can tag them (doing so will also breach the "No excessive alts" rule).
--   Any illegal activities will get you instantly banned -- including but not limited to -- harrassing underage person you met in game.
+-   Segala Tindakan mencurigakan ataupun illegal tidak dierbolehkan, kita menolak secara permanen segala tindakan menurigakan dan segala tindakan illegal demi mencegah pencemaran nama baik. contoh tindakan mencurigakan ataupun tindakan illegal:
+    -   membujuk ataupun ikut serta dalam menyebarkan berita palsu ataupun rumor palsu di chat game (baik global, lokal, gang ataupun pesan pribadi), Server Discord atau review game
+    -   membujuk ataupun ikut serta dalam tindakan duplikat akun (alt account) dan menyebarkan suatu kejelekan, informasi palsu, komplen, saling membenci, rumor, spam or ataupun pesan sejenis di chat game, Server Discord ataupun Review Game
+    -   membujuk ataupun ikut serta melakukan kerusuhan ataupun sejenisnya yang membuat efek negatif pada permainan
+-   dilarang Menggunakan Alt (akun kedua dengan ip sama) (**Kecuali kamu memiliki alasan yang jelas untuk membenarkan kepentingan dalam pembuatan Alt,jika itu tidak penting, maka akan dilarang**)
+    -   contoh alasan yang valid:
+        -   lupa password akun, ataupun akun terkunci
+        -   akun utama mengalami error hingga tidak dapat dimainkan
+    -   Comtoh Dari"kecurangan adalah alasan yang tidak valid":
+        -   Aku ingin membuat alt agar agar aku bisa berdagang (trade) lebih cepat dari player yang lain
+        -   Aku ingin membuat alt untuk menyimpan item secara tidak terbatas
+        -   Aku ingin membuat alt agar aku bisa AFK sebanyak yang aku mau
+        -   Aku ingin membuat alt agar aku bisa melakukan scam kepada orang lain
+-   jangan melakukan bug exploit, laporkan saja bug itu.
+-   gunakan nama family friendly (tidaak mengandung kata ambigu ataupun menghina).
+-   beriklan (chat global/chat lokal/chat gang/chat pribadi/discord/bio/gang motto) tentang menjual/membeli akun/item game dengan uang nyata (baik secara langsung ataupun tidak langsung, contohnya uang virtual seperti kartu Google Play, Kartu wal-mart ataupun segala jenis uang virtual dari layanan lain, termasuk uang kripto/cryptocurrency) tidak diizinkan.
+-   menggunakan ataupun memasarkan kosmetik sebagai bahan trade tidak diizinkan, Semua pemberian kosmetik hanya dapat dilakukan tanpa perantara jika diberi ke teman
+-   menandai (mentag) seseorang sebagai lelucon ataupun tanpa alasan tidak diizinkan. ini untuk menahan orang membuat akun untuk melakukan tag masal (melakukan ini juga melanggar aturan "dilarang Menggunakan Alt").
+-   tindakan illegal apapun akan berujung akun akan di blokir (ban) -- termasuk dan batasan seperti -- pelecehan kwpada orang dibawah umur yang kamu temui di game
 
 ### Aturan Obrolan
 **Semua aturan tercantum di sini, TIDAK ADA "aturan tidak tertulis", tetapi hormatilah dan hentikan jika pemain lain tidak menyukai apa yang Anda kirimkan dalam obrolan**
