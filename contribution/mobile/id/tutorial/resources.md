@@ -20,27 +20,27 @@ Pemain dapat menggunakan Susunan Teknologi Medis dan kepingan teknologi untuk me
   
 terdapat dua kategori item medis yang dapat dibuat: Penyebuhan Pribadi (single heals) and Penyembuhan Grup/Regu (group heals).
 
-### Penyebuhan Pribadi (single heals)  
+### Penyebuhan Pribadi (single heals) 
 
-As the name suggests, single heals will only heal yourself for the specified amount. Single heal medicines are items such as Pain Away and anything ending with Bot (e.g. Nano Medic Bot). In order to craft single heals, you need the specified medical science level and Medical Tech Parts.  
+Seperti yang disebutkan, Penyebuhan Pribadi (single heals) akan menyembuhkan/memulihkan darah/ketahanan mu sendiri dengan beberapa poin/nominal/value. Penyebuhan Pribadi (single heals) seperti item pereda rasa sakit dan apapun hingga bot (sbg. contoh bot nano medis). untuk membuat Penyebuhan Pribadi (single heals), kamu setidaknya memerlukan level _"KEAHLIAN ILMU MEDIS"_ tertentu dan beberapa Susunan Teknologi Medis.  
 
-### Penyembuhan Grup/Regu (group heals)  
+### Penyembuhan Grup/Regu (group heals) 
 
-Group heals can heal the entire group in a dungeon when used but will heal each person less than single heals of the same tier. Group heals are items such as Pain Away Spray and anything ending with Drone (e.g. Nano Medic Drone). In order to craft group heals, you need the same level single heal and the associated number of Tech Scrap. For instance, to make Pain Away Spray you need 1 Pain Away and 1 Tech Scrap.  
+Penyembuhan Grup/Regu (group heals) dapat menyembuhkan satu regu/grup di dungeon (co-op ataupun multiplayer) jika digunakan akan menyembuhkan seluruh rekan lebih dari Penyebuhan Pribadi (single heals) dengan tier yang sama. Penyembuhan Grup/Regu (group heals)adalah item seperti semprotan Pereda Rasa Sakitdan apapun hingga berakhiran drone (sbg. contoh Drone Nano Medis). untuk membuat Penyembuhan Grup/Regu (group heals), kamu memerlukan level _"KEAHLIAN ILMU MEDIS"_ tertentu dan beberapa kepingan teknologi tergantung dengan tingkatannya. seperti, membuat semprotan  pereda rasa sakit kau perlu 1 pereda rasa sakit dan 1 kepingan teknologi.  
 
-## Boosts
+## Buff/Boost
 
-### Synaptic Acceleration Transmitter
+### Pemancar Akselerasi Haptik
 
-This item will boost how quickly AFK time passes by +5% for 10 minutes, stackable to +80%. You can use another to extend the duration of the boost, resetting the timer. To make use of the boost, you just need to begin an AFK session while the boost is active. This item is global and will affect and stack with other people. This does not stack with the rare version.
+item ini akan memberikan buff seberapa cepat Waktu AFK berlalu sebanyak 5% selama 10 menit, dapat di akumulassi/stack hingga 80%. kamu bisa menggunakan yang lain untuk mennambah durasi boost/buff, mereset/memulai ulang waktu nya. untuk memakai buff/boost, pemain cukup melakuan sesi AFK dengan buff yang sudah aktif. item ini akan memberikan efek buff/boost secara global/luas. ini tidak dapat di stack menggunakan versi/tier Langka/rare.
 
-## Global Paid Items
+## Item Global Berbayar
 
-These items can be purchased in the Arasaka Unit Exchange. The effects are global and will give everyone the benefits.
+itrm ini dapat dibeli di kantor bursa arasaka. efek ini bersifat global/luas, semuanya akan menerima benefitnya :).
 
-### Rare Synaptic Acceleration Transmitter
+### Pemancar Akselerasi Haptik - Langka
 
-These are similar to regular Synaptic Acceleration Transmitters but don't stack with them. The rare version will instantly boost how quickly AFK time passes by +40% for 20 minutes, stackable to +80%. You can use another to extend the duration of the boost, resetting the timer. To make use of the boost, you just need to begin an AFK session while the boost is active. This item is global and will affect and stack with other people.
+ini sama seperti Pemancar Akselerasi Haptik rguler tapi tidak dapat di stak dengan tier/ versi reguler. The rare version will instantly boost how quickly AFK time passes by +40% for 20 minutes, stackable to +80%. You can use another to extend the duration of the boost, resetting the timer. To make use of the boost, you just need to begin an AFK session while the boost is active. This item is global and will affect and stack with other people.
 
 ### Transaction Exploit Transmitter
 
