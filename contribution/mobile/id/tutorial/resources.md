@@ -1,30 +1,30 @@
-## Ammo
+## Amunisi
 
-### Energy Cells  
+### Sel Energi  
 
-Your Special Weapon uses Energy Cells. You can find Energy Cells as drops after winning fights or by crafting them using Ammunition Tech Parts. You can carry a maximum of 5000 Energy Cells at a time.
+Senjata spesialmu menggunakan amunisi _"Sel Energi"_. kau bisa menemuan sel energi drngan memenangkan pertempuran atau membuatnya menggunakan Susunan teknologi amunisi (Ammunition Tech Part). kamu dapat membawa maksimal 10.000x sel energi di inventory/penyimpanan mu (kamu bisa menyimpan sisanya di brangkas mu sebanyak 10.000x sel energi, tapi itu tidak bisa kamu gunakan amunisi tersebut karena harus berada di inventory/penyimpanan mu).
 
-### Antimatter Charges 
+### Muatan Anti Materi 
 
-Your Destructive Weapon uses Antimatter Charges. You can find them as drops (less often than Energy Cells) or by crafting them from Military Ammunition Tech Parts. You can carry a maximum of 5000 Antimatter Charges at a time.
+Senjata destruktif mu menggunakan amunisi _"Muatan Anti Materi"_. kamu bisa menemukannya sebagai drop loot (kemungkananya lebih rendah daripada sel energi) atau membuatnya menggunakan susunan teknologi amunisi militer (Military Ammunition Tech Part). kamu dapat membawa maksimal 10.000x muatan anti materi di inventory/penyimpanan mu (kamu bisa menyimpan sisanya di brangkas mu sebanyak 10.000x muatan anti materi, tapi itu tidak bisa kamu gunakan amunisi tersebut karena harus berada di inventory/penyimpanan mu).
 
-## Tech Parts  
-You can use tech parts (ammo and medical) to craft corresponding items via in the game crafting functions located in your Inventory menu.  
+## Susunan Teknologi  
+kamu bisa menggunakan susunan teknologi (baik amunisi maupun medis) untuk membuat item tertentu melalui menu membuat/crafting di bagian penyimpanan/inventory > crafting/membuat.  
 
-### Tech Scrap  
-Carry out reverse engineering (uses one Tech Scrap per job) to gain printing experience after a short period of time.
+### Kepingan Teknologi/Tech Scrap  
+dapat digunakan untuk merekayasa ulang (menggunakan satu kepingan teknologi per satu kali kerja/job) untuk memperoleh pengalaman/experience(Exp) Keahlian Mencetak dalam waktu singkat/sebentar.
 
-## Medical  
+## Medis/Penyembuhan/Medical  
 
-Players can use Medical Tech Parts and Tech Scrap to craft medicine for use in dungeons. In order to craft better medicine, players need to improve their medical science levels which can be done by performing the associated job training or by crafting medicine. Furthermore, better medicine requires players to use more Medical Tech Parts. For example, the lowest level medicine that can be crafted is the Pain Away for 1 Medical Tech Part while the Degraded Nano Repair Bot needs 2 Medical Tech Parts and a medical science level of 10.  
+Pemain dapat menggunakan Susunan Teknologi Medis dan kepingan teknologi untuk membuat item medis di dungeon. untuk membuat item medis, pemain perlu meningkatkan level _"KEAHLIAN ILMU MEDIS"_ yang dimana bisa dilakukan dengan cara magang/kerja di rekayasa tubuh atau membuat/crafting item medis. selain tu, semakin bagus item medisnya akan mengkonsumsi banyak Susunan Teknologi Medis. sebagai contoh, level paling rendah yang dapat dibuat adalah Pereda Rasa Sakit yaitu sebanyak 1 Susunan Teknologi Medis Sedangkan bot nano perbaikan berkualitas rendah memerlukan 2 Susunan Teknologi Medis dan Level !0 Keahlian Ilmu Medis.  
   
-There are two categories of medicine that can be crafted: single heals and group heals.
+terdapat dua kategori item medis yang dapat dibuat: Penyebuhan Pribadi (single heals) and Penyembuhan Grup/Regu (group heals).
 
-### Single Heals  
+### Penyebuhan Pribadi (single heals)  
 
 As the name suggests, single heals will only heal yourself for the specified amount. Single heal medicines are items such as Pain Away and anything ending with Bot (e.g. Nano Medic Bot). In order to craft single heals, you need the specified medical science level and Medical Tech Parts.  
 
-### Group Heals  
+### Penyembuhan Grup/Regu (group heals)  
 
 Group heals can heal the entire group in a dungeon when used but will heal each person less than single heals of the same tier. Group heals are items such as Pain Away Spray and anything ending with Drone (e.g. Nano Medic Drone). In order to craft group heals, you need the same level single heal and the associated number of Tech Scrap. For instance, to make Pain Away Spray you need 1 Pain Away and 1 Tech Scrap.  
 
