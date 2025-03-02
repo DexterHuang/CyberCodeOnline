@@ -15,11 +15,11 @@
     -   membujuk ataupun ikut serta dalam menyebarkan berita palsu ataupun rumor palsu di chat game (baik global, lokal, gang ataupun pesan pribadi), Server Discord atau review game
     -   membujuk ataupun ikut serta dalam tindakan duplikat akun (alt account) dan menyebarkan suatu kejelekan, informasi palsu, komplen, saling membenci, rumor, spam or ataupun pesan sejenis di chat game, Server Discord ataupun Review Game
     -   membujuk ataupun ikut serta melakukan kerusuhan ataupun sejenisnya yang membuat efek negatif pada permainan
--   dilarang Menggunakan Alt (akun kedua dengan ip sama) (**Kecuali kamu memiliki alasan yang jelas untuk membenarkan kepentingan dalam pembuatan Alt,jika itu tidak penting, maka akan dilarang**)
+-   dilarang Menggunakan Alt (akun kedua dengan ip sama) (**Kecuali kamu memiliki alasan yang jelas untuk kepentingan dalam pembuatan Alt,jika itu tidak penting, maka akan dilarang**)
     -   contoh alasan yang valid:
-        -   lupa password akun, ataupun akun terkunci
+        -   lupa password pada akun utama, ataupun akun utama terkunci
         -   akun utama mengalami error hingga tidak dapat dimainkan
-    -   Comtoh Dari"kecurangan adalah alasan yang tidak valid":
+    -   Comtoh Dari "kecurangan adalah alasan yang tidak valid":
         -   Aku ingin membuat alt agar agar aku bisa berdagang (trade) lebih cepat dari player yang lain
         -   Aku ingin membuat alt untuk menyimpan item secara tidak terbatas
         -   Aku ingin membuat alt agar aku bisa AFK sebanyak yang aku mau
@@ -34,12 +34,13 @@
 ### Aturan Obrolan
 **Semua aturan tercantum di sini, TIDAK ADA "aturan tidak tertulis", tetapi hormatilah dan hentikan jika pemain lain tidak menyukai apa yang Anda kirimkan dalam obrolan**
 #### Tidak Diizinkan:  
-* tidak ramah, tidak menghargai pendapat orang lain / menyinggung atau pesan agresif pasif (Contoh, komentar rasis, seksis) 
-* obrolan yang tidak ramah keluarga 
+* tidak ramah sesama pemain, tidak menghargai pendapat pemain lain / menyinggung atau pesan agresif pasif (Contoh, komentar rasis, dewasa) 
+* obrolan yang tidak family friendly 
 * Spam / Troll 
-* Iklankan / Sebutkan game lain 
+* mengiklankan game lain (Selain CCO) 
 * Meniru orang lain 
-* Tempatkan tautan di obrolan 
+* Mengirim tautan di obrolan (Baik global, dan lokal)
+"jangan klik link mencurigakan :) - SryAa_Verikava" 
 
 #### Diizinkan (selama Anda tidak melanggar aturan di atas):
 * Emoji😃 / Kaomoji ~ヾ(＾∇＾) / -𝖘𝖙𝖆𝖓𝖉𝖆𝖗𝖉 (Harus mudah dibaca dan tidak menimbulkan kekacauan) 
