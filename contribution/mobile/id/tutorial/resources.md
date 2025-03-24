@@ -40,20 +40,20 @@ itrm ini dapat dibeli di kantor bursa arasaka. efek ini bersifat global/luas, se
 
 ### Pemancar Akselerasi Haptik - Langka
 
-ini sama seperti Pemancar Akselerasi Haptik rguler tapi tidak dapat di stak dengan tier/ versi reguler. The rare version will instantly boost how quickly AFK time passes by +40% for 20 minutes, stackable to +80%. You can use another to extend the duration of the boost, resetting the timer. To make use of the boost, you just need to begin an AFK session while the boost is active. This item is global and will affect and stack with other people.
+ini sama seperti Pemancar Akselerasi Haptik rguler tapi tidak dapat di stak dengan tier/ versi reguler. versi langka ini akan langsung memberikan boost Pengurangan waktu AFK sebesar +40% selama 20 menit, dapat ditimbun/ditumpuk hingga +80%. kamu dapat menggunakan Item yang sama (tier langka) untuk mereset waktu. untuk memakai boost global ini, kamu perlu melakukan Tugas/Task AFK Selama Buff Global ini aktif. item ini bersifat global, jadi semua pemain akan mendapatkan benefit buff / boost ini.
 
-### Transaction Exploit Transmitter
+### Pemancar Eksploitasi Transaksi / Transaksi Eksploitasi
 
-The Transaction Exploit Transmitter is used to boost BitCoin gains and works the same way as the transmitters in that you can use multiple to stack the effect and prolong the timer. Each Transaction Exploit Transmitter will provide a +40% boost to BitCoin gain for 20 minutes. Stacking maxes out at 100%.
+Pemancar Eksploitasi Transaksi ini akan menambah penghasilan bitcoin dan cara kerja dan fungsinya sama seperti Pemancar/ Transmitter lain dapat di stack dan dapat direset dengan menggunakan Pemancar Eksploitasi Transaksi. setiap 1 Pemancar Eksploitasi Transaksi akan memberikan +40% boost/buff pendapatan bitcoin selama 20 Menit. Timbunan/tumpukan maksimum yaitu 100%.
 
-### Frontal Cortex Optimization Transmitter
+### Pemancar Optimasi Frontal Korteks
 
-The Frontal Cortex Optimization Transmitter is used to boost EXP gains. Each Frontal Cortex Optimization Transmitter will provide a +80% boost to EXP gain for 20 minutes.
+Pemancar Optimasi Frontal Korteks akan memberikan buff pendapatan EXP. Setiap Pemancar Optimasi Frontal Korteks Akan Menimbukan +80% buff pendapatan EXP selama 20 menit.
 
-### Global Time Skips
+### Skip Waktu (Global)
 
-Although these aren't items, players can also purchase global skips from their AFK screen (the Map tab when an AFK task is in progress). Skippers can choose from a range of 15 minutes to 180 minutes to skip. The time skips work with boosts, so it's more cost-efficient to use skips when boosts are already running.
+Meskipun Ini bukan item, pemain dapat membelinya dengan unit melalui Layar Progress AFK (di Tab/Menu Map saat Progress AFK berlangsung). Skipper(Peng-Skip) dapat memilih waktu mulai dari 15 menit hingga 180 menit yang dapat di lewati/skip. Skip Waktu Dapat Digunakan Bersama dengan buff/ Boost, jadi skip akan lebih berharga/murah jika menggunakan saat ada buff/boost Haptik.
 
-As with all other paid items, time skips apply to everyone on the server. However, since they skip time immediately, only players who have started AFK tasks before the button is pressed will receive the benefit. Often it can be helpful to coordinate in global chat so people are ready to tag along.
+Sebagai Item Berbayar, Skip Waktu akan diterapkan kepada pemain yang berada di server. Namun, Karena waktu terlewati secara tidak sengaja, hanya pemain yang melakukan AFK sebelum Tombol Skip waktu dipencet/di klik akan mendapatkan buff nya. akan lebih berguna jika berkoordinasi dengan pemain global pemain yang bersedia akan men tag skipper.
 
-The benefit is also applied to all AFK players one-by-one, so it may take 1 ~ 3 minutes for the effects to apply for everyone. Most regular skippers will recommend waiting around 1 minute after the skip button becomes available again, and purchasing 30-minute skips is the most popular choice when boosts are also running.
+Time Skip Akan Diterapkan ke pengguna satu-per-satu, jadi itu akan memakan waktu 1-3 menit agar dapat diterapkan ke semuanya. kebanyakan skipper(Peng-Skip) Menggunakan itu 1 menit setelah tombol Afk skip muncul, dan skip/lewati sebesar 30 menit menjeladi yang populer karena dibarengi bersama dengan buff Haptik :).
