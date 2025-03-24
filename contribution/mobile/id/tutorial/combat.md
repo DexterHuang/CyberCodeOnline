@@ -1,18 +1,18 @@
-## Tempur
+## Bertarung / Bertempur
 Di setiap lokasi, Anda akan melihat daftar Musuh Terdekat dan tiga Dungeon yang dapat Anda masuki. Lokasi dipisahkan oleh grup level. Untuk membuka kunci area baru, Anda harus mengumpulkan tiga fragmen kunci dari ruang bawah tanah. Anda kemudian dapat memaksa kunci baru dengan fragmen kunci Anda di Terminal.
 
 Untuk melawan Musuh Terdekat, pilih salah satu musuh yang terdaftar untuk memasuki pertempuran. Anda tidak dapat menyembuhkan saat melawan Musuh Terdekat, tetapi jika Anda akan mati, klik Escape di kiri atas. Saat berada di dalam penjara bawah tanah, mengklik musuh, yang diwakili oleh logo alien akan menarik Anda ke dalam pertempuran dengannya.
 
-## Serangan Utama
+## Senjata Utama
 Serang musuh dengan senjata utama Anda yang dilengkapi. Senjata ini tidak menggunakan amunisi.
 
-## Serangan Spesial
+## Senjata Spesial
 Serang musuh dengan senjata khusus Anda yang dilengkapi. Menangani 120% kerusakan pada perisai. Senjata ini mengkonsumsi satu Sel Energi per tembakan.
 
-## Serangan Destruktif
+## Senjata Destruktif
 Serang musuh dengan senjata penghancur yang Anda miliki. Menangani 50% kerusakan pada perisai. Senjata ini menghabiskan satu muatan Antimateri per tembakan.
 
-## Gunakan Barang
+## Slot Cepat / Menggunakan Item
 Anda memiliki 3 slot Gunakan Item. Anda dapat mengikat persediaan medis ke slot ini dan menggunakannya di dalam Dungeon. Anda dapat mengikat Kenangan Pengalaman, tetapi ini tidak perlu karena Anda dapat menggunakannya langsung dari inventaris Anda untuk mendapatkan Pengalaman Pemain.
 
 ## Melarikan diri
@@ -20,11 +20,11 @@ Anda dapat mencoba melarikan diri dari pertempuran dengan mengklik Melarikan dir
 
 Layar pertempuran akan menunjukkan berapa banyak darah dan perisai yang Anda dan lawan Anda miliki, serta jumlah amunisi yang tersisa untuk masing-masing senjata Anda dan perkiraan kerusakan yang dapat mereka lakukan.
 
-## Mati
+## Mati / Tiada / Tewas
 
 Jika Anda mati, Anda tidak akan kehilangan barang-barang Anda. Namun Anda akan kehilangan 10% dari total BTC dan Player XP Anda. Ini berarti Anda mungkin kehilangan level jika Anda mati terlalu banyak.
 
-## Pengubah Musuh
+## Buff Musuh
   
 Musuh dapat memiliki pengubah, yang ditunjukkan oleh kata sifat sebelum nama musuh mis. "**Mad** Serial Killer", modifikator ini adalah sebagai berikut,
 
@@ -34,7 +34,7 @@ Musuh dapat memiliki pengubah, yang ditunjukkan oleh kata sifat sebelum nama mus
  - Agile - Memberi musuh +20% stun evade dan perisai
  - Shielded -  Memberi musuh perisai besar
   
-## Pengubah Pemain
+## Buff Pemain
   
 Pemain juga dapat mengambil modifier dengan cara berinteraksi dengan pemberi quest di dungeon yang dilambangkan dengan tanda '?', modifier tersebut adalah sebagai berikut:
 
@@ -45,11 +45,11 @@ Pemain juga dapat mengambil modifier dengan cara berinteraksi dengan pemberi que
  - Overcharged V - Memberi pemain +25% kerusakan  
   
   
- - Reinforced I - Memberi pemain +5% pertahanan  
- - Reinforced II - Memberi pemain +10% pertahanan  
- - Reinforced III - Memberi pemain +15% pertahanan  
- - Reinforced IV - Memberi pemain +20% pertahanan  
- - Reinforced V - Memberi pemain +25% pertahanan 
+ - Reinforced I - Memberi pemain +5% ketahanan  
+ - Reinforced II - Memberi pemain +10% ketahanan  
+ - Reinforced III - Memberi pemain +15% ketahanan  
+ - Reinforced IV - Memberi pemain +20% ketahanan  
+ - Reinforced V - Memberi pemain +25% ketahanan 
   
   
  - Shield Enhance I - Memberi pemain +5% pengganda perisai  
