@@ -13,7 +13,7 @@ Did you like the game and fancy helping the game? you can:
 
 ### 0.1867
 
--  Quality of Life Update: with long time player suggestions the long awaited, one of the most asked and reuqested, the Ammo Tech Scrap Cluster and Military Ammo Tech Scrap Cluster is added, you can craft them similar to other clusters, sorry for the long wait since I first promised to add these items!
+-  Quality of Life Update: with most suggested by players and the long awaited, one of the most asked and reuqested, the Ammo Tech Scrap Cluster and Military Ammo Tech Scrap Cluster is added, you can craft them similar to other clusters, sorry for the long wait since I first promised to add these items!
 
 ### 0.1866
 
