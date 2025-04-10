@@ -11,55 +11,60 @@ Did you like the game and fancy helping the game? you can:
 
 ## Updates
 
+### 0.1868
+
+-   In this update we have added several player suggested features:
+    -   Loadout presets - You can now save equipment loadout for quick switch between different loadouts saving you the hassle of manually swapping equipment every time you want to switch loadout
+    -   Fixed issue with Epic Upgrade module display issue in item details page where it shows a slot for module but its impossible to have module slot for upgrade modules
+    -   Attempt to fix issue with gang chat notification sending to player who has already left the gang,if you still face this issue please contact me or a moderator to notify me
+-   You can now see other player's donation frame and emblem list in their assets tab, if you do not wish to show yours, you can disable it in the settings menu
+
 ### 0.1867
 
--  Quality of Life Update: with most suggested by players and the long awaited, one of the most asked and reuqested, the Ammo Tech Parts Cluster and Military Ammo Tech Parts Cluster is added, you can craft them similar to other clusters, sorry for the long wait since I first promised to add these items!
+-   Quality of Life Update: with most suggested by players and the long awaited, one of the most asked and reuqested, the Ammo Tech Parts Cluster and Military Ammo Tech Parts Cluster is added, you can craft them similar to other clusters, sorry for the long wait since I first promised to add these items!
 
 ### 0.1866
 
--  Sakura event: (2025/03/01 to 2025/03/31)
-    -  Sakura frame and other emblems are now available during the event
-    -  during event there will be discount on party and calibration contribution, the earlier contribution will get higher discount
--  Added several minigames
+-   Sakura event: (2025/03/01 to 2025/03/31)
+    -   Sakura frame and other emblems are now available during the event
+    -   during event there will be discount on party and calibration contribution, the earlier contribution will get higher discount
+-   Added several minigames
 
 **NOTE: the frequency of the minigame showing up is NOT increase nor changed, the only thing changed is instead of getting the same minigame everytime, there will be other minigames. again, the chance/amount/frequency of minigame showing is NOT changed**
 
 **The new minigames are new, so if you face any bugs please do report it on our discord channel or if its urgent email me or contact a moderator to notify me**
-- Memory Bank Override - simply click the light-up blocks, if you forgot just click `verify pattern` it will show you again
+
+-   Memory Bank Override - simply click the light-up blocks, if you forgot just click `verify pattern` it will show you again
 
 ![image](https://github.com/user-attachments/assets/ba1a5089-3d01-4aeb-8cde-620c6546796a)
 
-- Data Stream Interceptor - just click the yellow thingy
+-   Data Stream Interceptor - just click the yellow thingy
 
 ![image](https://github.com/user-attachments/assets/fdb60f38-9c91-4fa5-b3a4-438bd34fea1b)
 
-- Decrypt Neural Data - just click the symbol that is shown to you
+-   Decrypt Neural Data - just click the symbol that is shown to you
 
 ![image](https://github.com/user-attachments/assets/8588462a-85d7-4c3b-92a9-a2a3ab080fe3)
 
-- Neural Circuit Override - click the nodes in sequence shown at begining, if you forget you can just keep clicking to see the correct sequence
+-   Neural Circuit Override - click the nodes in sequence shown at begining, if you forget you can just keep clicking to see the correct sequence
 
 ![image](https://github.com/user-attachments/assets/641c6dfe-c632-4ad7-aa37-9ee1010631ff)
 
-
--  Added new frame `Cyberpunk`
+-   Added new frame `Cyberpunk`
 
 ![image](https://github.com/user-attachments/assets/d58c6192-fbcb-4b9f-858f-b546e0d1df32)
 
-
 ### 0.1865
 
--  Valentine's Event (02/05 ~ 02/28):
-  - `Chocolate Strawberry` and `Heart Shaped Chocolate` will drop from both AFK bot farm and enemies, `Heart Shaped Chocolate` increases AFK EXP by 20% for 10 minutes, `Chocolate Strawberry` increases both EXP and BTC received in AFK tasks by 10% for 10 minutes
-  - Both `Chocolate Strawberry` and `Heart Shaped Chocolate` are giftable, and are time-limited only during the event
-  - During the event, all AFK skips are 5% OFF on unit spend
-  - Added Valentine-themed donation frame, this frame can be gifted to another player for 1 month period with a lower amount of unit
+-   Valentine's Event (02/05 ~ 02/28):
+-   `Chocolate Strawberry` and `Heart Shaped Chocolate` will drop from both AFK bot farm and enemies, `Heart Shaped Chocolate` increases AFK EXP by 20% for 10 minutes, `Chocolate Strawberry` increases both EXP and BTC received in AFK tasks by 10% for 10 minutes
+-   Both `Chocolate Strawberry` and `Heart Shaped Chocolate` are giftable, and are time-limited only during the event
+-   During the event, all AFK skips are 5% OFF on unit spend
+-   Added Valentine-themed donation frame, this frame can be gifted to another player for 1 month period with a lower amount of unit
 
 ![image](https://github.com/user-attachments/assets/74d23a12-4f97-4544-84f3-6911bace97ab)
 
--  Fixed issue with sakura frame blocking player's name
-
-
+-   Fixed issue with sakura frame blocking player's name
 
 ### 0.1864
 
@@ -67,7 +72,6 @@ Did you like the game and fancy helping the game? you can:
 -   Added sorting to gang member listing, you can now sort by occupation, resource, money or EXP
 
 ![image](https://github.com/user-attachments/assets/2e43a9b7-6972-4d16-88ba-d5e0313bb970)
-
 
 -   The apartment page now shows the next rental due date
 -   Many small UI tweaks and bug fixes
@@ -79,12 +83,10 @@ Did you like the game and fancy helping the game? you can:
 
     ![image](https://github.com/user-attachments/assets/b5e62089-a92b-4df7-b84e-39f3641f8f02)
 
-
     ![image](https://github.com/user-attachments/assets/5812e87f-b4b8-40d0-9209-df673769d565)
 
 -   Many UI improvements for certain devices, mainly China branded Android phone
--   Fixed incorrect random minigame interaction with certain AFK tasks, only affected Recycling and Print & Sell 
-
+-   Fixed incorrect random minigame interaction with certain AFK tasks, only affected Recycling and Print & Sell
 
 ### 0.1862
 
