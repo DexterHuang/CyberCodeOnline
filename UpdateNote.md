@@ -14,7 +14,7 @@ Did you like the game and fancy helping the game? you can:
 ### 0.1868
 
 -   In this update we have added several player suggested features:
-    -   Loadout presets - You can now save equipment loadout for quick switch between different loadouts saving you the hassle of manually swapping equipment every time you want to switch loadout
+    -   Loadout presets - You can now save equipment loadout for quick switch between different loadouts saving you the hassle of manually swapping equipment every time you want to switch loadout, for more information please refer to the tutorial page
     -   Fixed issue with Epic Upgrade module display issue in item details page where it shows a slot for module but its impossible to have module slot for upgrade modules
     -   Attempt to fix issue with gang chat notification sending to player who has already left the gang,if you still face this issue please contact me or a moderator to notify me
 -   You can now see other player's donation frame and emblem list in their assets tab, if you do not wish to show yours, you can disable it in the settings menu
