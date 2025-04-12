@@ -11,6 +11,15 @@ Did you like the game and fancy helping the game? you can:
 
 ## Updates
 
+### 0.1869
+
+-   **Fixed Gifting Network Errors**: Resolved an issue where gifting items to other players occasionally resulted in a `Network Error`. The root cause has been identified and optimized to prevent recurrence.
+
+You should now experience faster and more reliable gifting transactions.
+
+**Pro Tip for Valuable Transactions**:  
+To ensure a successful gifting process for high-value items, consider sending a small, low-value item first. This initial transaction caches data, significantly reducing the likelihood of failure for subsequent valuable items. Even if a network error occurs, your valuable item will remain secure.
+
 ### 0.1868
 
 -   In this update we have added several player suggested features:
@@ -196,7 +205,7 @@ Please notify me if there is any bug with the updates 🫡🫡
 ![image](https://github.com/user-attachments/assets/51acfa12-b945-445f-bc77-87cb58604704)
 
 -   Fixed emblem pricing display incorrectly for limited edition emblems (such as emblems only available during event or special emblems like translator emblem) on sending cosmetic page, previously, an incorrect price of "999999" was displayed on unavailable emblems, now no longer is the case
--   Reworked how the emblem list is displayed, all unavailable will show up in the list but has a `Unavailable` tag
+-   Rewritten how the emblem list is displayed, all unavailable will show up in the list but has a `Unavailable` tag
 
 ![image](https://github.com/user-attachments/assets/32cca6f2-2b6d-4c32-9169-d45f99f1a50a)
 
