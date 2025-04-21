@@ -150,6 +150,7 @@ Vargur
 [KodateMitsuru](https://github.com/KodateMitsuru)
 [Pedro_Tavano_Ferreira](https://github.com/pedrotavanoferreira)
 [SryAa_Verikava](https://github.com/Drathaivehzuuryaaajyaqiuuu)
+[MerchantShip](https://github.com/MerchantShip-cco)
 
 ## Proofreading
 [Skippayy](https://github.com/skippayyyy)
@@ -296,6 +297,7 @@ Vega_Efsunborn
 [Christophers27](https://github.com/Christophers27)
 [Mackerels](https://github.com/mackerels0x00)
 [IWASIkan_](https://github.com/IWASIkann)
+[MerchantShip](https://github.com/MerchantShip-cco)
 
 ## Game resources (words)
 [apetro](https://github.com/apetro/)
