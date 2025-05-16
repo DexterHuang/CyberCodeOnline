@@ -24,11 +24,11 @@
 > 最初から英雄の装備などのとっておきの装備品を強化するのではなく, 事前に**壊れても良い装備で強化の練習をして手順を確認しておきましょう!!**
 
 ## キャリブレーションの仕方
-![CalibrationStation2](/resources/mobile-tutorial/CalibrationStation2.png)
+![CalibrationStation2_ja](/resources/mobile-tutorial/CalibrationStation2_ja.png)
 
 シャングリ・ラ中心街にある**キャリブレーションステーション**に行くと, 処理を開始するために**装備キャリブレーションコア**を挿入するよう言われます. コアを挿入してから装備のキャリブレーションが可能になるまで, 30分ほど待機する必要があります（**この待機時間は, AFKアクセラレータ［シナプス加速伝達機］を含むグローバルバフ/スキップの影響を受けません**）.
 
-![CalibrationStation3](/resources/mobile-tutorial/CalibrationStation3.png)
+![CalibrationStation3_ja](/resources/mobile-tutorial/CalibrationStation3_ja.png)
 
 30分が経過した後, プレイヤーはインベントリにある装備品（キャリブレーションレベルが最大になっている装備を除く）のキャリブレーションを行えるようになります. 装備している場合は外してください.
 
@@ -36,7 +36,7 @@
 
 v0.780 (2022/03/04)以降, AFKタスクやダンジョンの途中でもキャリブレーションができるようになりました.
 
-![CalibrationStationAlt](/resources/mobile-tutorial/CalibrationStationAlt.png)
+![CalibrationStationAlt_ja](/resources/mobile-tutorial/CalibrationStationAlt_ja.png)
 
 キャリブレーションを行うには, 装備をクリックして「詳細を見る」を選択してください. **装備の詳細**画面に移動したら, **アップグレード**か**アップグレード上限**と書いてあるボタンをクリックすることで, キャリブレーションステーションに移動することができます. これで簡単にキャリブレーションが行えます.
 
@@ -44,7 +44,7 @@ v0.780 (2022/03/04)以降, AFKタスクやダンジョンの途中でもキャ�
 
 ## 装備が破壊される確率
 
-![CalibrationStation4](/resources/mobile-tutorial/CalibrationStation4.png)
+![CalibrationStation4_ja](/resources/mobile-tutorial/CalibrationStation4_ja.png)
 
 装備のキャリブレーションを行う過程で, 処理に失敗して**装備が破壊**される可能性があります. 失敗する確率は, 選択された装備の上に赤い数字で表示されます.
 
