@@ -942,6 +942,15 @@
 		}
 	},
 	"chat": {
+		"chatLottery": {
+			"eng": "${player} has received ${items} from chat lottery (${eventName})",
+			"trans": "Игрок ${player} получил ${items} из чат-лотереи (${eventName})",
+			"vars": [
+				"player",
+				"items",
+				"eventName"
+			]
+		},
 		"system": {
 			"eng": "SYSTEM",
 			"trans": "Система"
@@ -1548,6 +1557,10 @@
 			"eng": "Galactic Rebel",
 			"trans": "Галактический Рейдер"
 		},
+		"donation41": {
+			"eng": "Aurora",
+			"trans": "Аурора"
+		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
 			"trans": "Кибернетический картофель"
@@ -1946,6 +1959,19 @@
 			"eng": "Halloween",
 			"trans": "Хэллоуин"
 		},
+		"june": {
+			"name": {
+				"eng": "June",
+				"trans": "Июнь"
+			},
+			"skipDiscountTitle": {
+				"eng": "${percent}% off during event",
+				"trans": "${percent}% скидка во время события",
+				"vars": [
+					"percent"
+				]
+			}
+		},
 		"lunarNewYear": {
 			"eng": "Lunar New Year",
 			"skipDiscountTitle": {
@@ -1958,15 +1984,6 @@
 			"name": {
 				"eng": "May",
 				"trans": "Май"
-			}
-		},
-		"rainbow": {
-			"name": {
-				"eng": "${percent}% off during event",
-				"trans": "Скидка ${percent}% во время мероприятия",
-				"vars": [
-					"percent"
-				]
 			}
 		},
 		"sakura": {
@@ -3567,6 +3584,20 @@
 				"trans": "Рисовый пирог"
 			}
 		},
+		"riceDumpling": {
+			"description": {
+				"eng": "A sticky rice dumpling made of glutinous rice and fillings, wrapped in bamboo leaves and eaten during the Dragon Boat Festival—consume it to receive a festive ${percent}% AFK EXP and ${percent2}% BTC boost",
+				"trans": "Липкий рисовый пирожок из клейкого риса и начинки, завернутый в листья бамбука, который едят во время Праздника Драконьих Лодочек — употребите его, чтобы получить праздничный бонус AFK EXP на ${percent}% и BTC на ${percent2}%",
+				"vars": [
+					"percent",
+					"percent2"
+				]
+			},
+			"name": {
+				"eng": "Rice Dumpling",
+				"trans": "Рисовые пельмени"
+			}
+		},
 		"rngInterferer": {
 			"descriptionv3": {
 				"eng": "A shard that contains advance exploits designed to increase random drop chance of high tier items. Gains additional drop chance of Legendary (${legendaryChance}%) and Epic (${epicChance}%) items when unlocking Legendary containers (Not stackable) for ${time} minute (Applies to all players). *IMPORTANT: The buff will only apply when the unlocking process is started while the buff is active*.",
@@ -3636,7 +3667,7 @@
 		},
 		"sushi": {
 			"description": {
-				"eng": "Made with love and care by Yen. delicious and nourishing meal that will grant the player -${percent}% damage taken for 20 minutes when eaten. Perfect for tackling tough challenges and conquering difficult foes, Yen\\'s sushi is a must - have for any adventurer.",
+				"eng": "Made with love and care by Yen. delicious and nourishing meal that will grant the player -${percent}% damage taken for 20 minutes when eaten. Perfect for tackling tough challenges and conquering difficult foes, Yen's sushi is a must - have for any adventurer.",
 				"trans": "Сделано с любовью и заботой Йен. Вкусная и питательная еда, которая даст игроку -${percent}% повреждение, полученное в течение 20 минут при съедении. Иен, идеально подходящая для решения сложных задач и завоевания трудных врагов, суши иен необходим для любого искателя приключений.",
 				"vars": [
 					"percent"
@@ -5101,7 +5132,7 @@
 		"resultScreen": {
 			"fromTo": {
 				"eng": "${from} => ${to}",
-				"trans": "${from} => ${to}",
+				"trans": "От ${from} до ${to}",
 				"vars": [
 					"from",
 					"to"
@@ -6316,6 +6347,52 @@
 		}
 	},
 	"promotionModal": {
+		"chatLotteryPromo": {
+			"availableRewards": {
+				"eng": "Possible Rewards",
+				"trans": "Возможные награды"
+			},
+			"condensedWarning1": {
+				"eng": "There is 15 minute cooldown between draws. during cooldown you will not enter lottery even if you chat many times",
+				"trans": "Между розыгрышами есть 15-минутный период ожидания. Во время этого периода вы не попадете в лотерею, даже если будете часто чатить"
+			},
+			"condensedWarning2": {
+				"eng": "Spamming will NOT result in any increase in your chance of winning.",
+				"trans": "Спамирование не приведёт к увеличению ваших шансов на победу."
+			},
+			"condensedWarning3": {
+				"eng": "Spamming may result in permanent lottery ban",
+				"trans": "Спам может привести к пожизненному бану в лотерее"
+			},
+			"description": {
+				"eng": "Win event items by chatting in Global!",
+				"trans": "Получите награды за событие, общаясь в Глобале!"
+			},
+			"fullTitle": {
+				"eng": "Chat Lottery Event",
+				"trans": "Чат-лотерея"
+			},
+			"howItWorks": {
+				"eng": "How It Works",
+				"trans": "Как это работает"
+			},
+			"importantNotice": {
+				"eng": "Important Notice",
+				"trans": "Важное уведомление"
+			},
+			"readMore": {
+				"eng": "Learn More",
+				"trans": "Узнать больше"
+			},
+			"simpleDesc": {
+				"eng": "Chat in Global channel for a chance to win event items! Winners are announced automatically.",
+				"trans": "Чат в Глобальном чате для шанса выиграть предметы события! Победители объявляются автоматически."
+			},
+			"title": {
+				"eng": "Chat Lottery",
+				"trans": "Чат-лотерея"
+			}
+		},
 		"june": {
 			"desc": {
 				"eng": "🌈 All skips cost 5% less during June",
