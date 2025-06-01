@@ -942,6 +942,15 @@
 		}
 	},
 	"chat": {
+		"chatLottery": {
+			"eng": "${player} has received ${items} from chat lottery (${eventName})",
+			"trans": "${player} ได้ ${items} จากการสุ่มในแชท (${eventName})",
+			"vars": [
+				"player",
+				"items",
+				"eventName"
+			]
+		},
 		"system": {
 			"eng": "SYSTEM",
 			"trans": "ข้อความระบบ"
@@ -1548,6 +1557,10 @@
 			"eng": "Galactic Rebel",
 			"trans": "กบฏกาแลคติก"
 		},
+		"donation41": {
+			"eng": "Aurora",
+			"trans": "ออโรร่า"
+		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
 			"trans": "มันฝรั่งไซเบอร์เนติก"
@@ -1946,6 +1959,19 @@
 			"eng": "Halloween",
 			"trans": "ฮัลโลวีน"
 		},
+		"june": {
+			"name": {
+				"eng": "June",
+				"trans": "มิถุนายน"
+			},
+			"skipDiscountTitle": {
+				"eng": "${percent}% off during event",
+				"trans": "${percent}% ถูกลง! ช่วงกิจกรรมนี้",
+				"vars": [
+					"percent"
+				]
+			}
+		},
 		"lunarNewYear": {
 			"eng": "Lunar New Year",
 			"skipDiscountTitle": {
@@ -1958,15 +1984,6 @@
 			"name": {
 				"eng": "May",
 				"trans": "เมย์"
-			}
-		},
-		"rainbow": {
-			"name": {
-				"eng": "${percent}% off during event",
-				"trans": "สีรุ้ง",
-				"vars": [
-					"percent"
-				]
 			}
 		},
 		"sakura": {
@@ -3567,6 +3584,20 @@
 				"trans": "เค้กข้าว"
 			}
 		},
+		"riceDumpling": {
+			"description": {
+				"eng": "A sticky rice dumpling made of glutinous rice and fillings, wrapped in bamboo leaves and eaten during the Dragon Boat Festival—consume it to receive a festive ${percent}% AFK EXP and ${percent2}% BTC boost",
+				"trans": "บ๊ะจ่าง ข้าวเหนียวไส้แน่น ห่อด้วยใบไผ่ กินช่วงเทศกาลแข่งเรือมังกร! กินแล้วรับไปเลย EXP AFK เพิ่ม ${percent}% และ BTC เพิ่ม ${percent2}%!",
+				"vars": [
+					"percent",
+					"percent2"
+				]
+			},
+			"name": {
+				"eng": "Rice Dumpling",
+				"trans": "ข้าวต้มมัด"
+			}
+		},
 		"rngInterferer": {
 			"descriptionv3": {
 				"eng": "A shard that contains advance exploits designed to increase random drop chance of high tier items. Gains additional drop chance of Legendary (${legendaryChance}%) and Epic (${epicChance}%) items when unlocking Legendary containers (Not stackable) for ${time} minute (Applies to all players). *IMPORTANT: The buff will only apply when the unlocking process is started while the buff is active*.",
@@ -3636,7 +3667,7 @@
 		},
 		"sushi": {
 			"description": {
-				"eng": "Made with love and care by Yen. delicious and nourishing meal that will grant the player -${percent}% damage taken for 20 minutes when eaten. Perfect for tackling tough challenges and conquering difficult foes, Yen\\'s sushi is a must - have for any adventurer.",
+				"eng": "Made with love and care by Yen. delicious and nourishing meal that will grant the player -${percent}% damage taken for 20 minutes when eaten. Perfect for tackling tough challenges and conquering difficult foes, Yen's sushi is a must - have for any adventurer.",
 				"trans": "ทำด้วยความรักและการดูแลโดยเยน อาหารอร่อยและบำรุงที่จะให้ผู้เล่น -${percent}% ความเสียหายที่เกิดขึ้นเป็นเวลา 20 นาทีเมื่อรับประทาน เหมาะสำหรับการจัดการกับความท้าทายที่ยากลำบากและการพิชิตศัตรูที่ยากลำบากซูชิของเยนเป็นสิ่งที่ต้องทำ - มีสำหรับนักผจญภัยทุกคน",
 				"vars": [
 					"percent"
@@ -5101,7 +5132,7 @@
 		"resultScreen": {
 			"fromTo": {
 				"eng": "${from} => ${to}",
-				"trans": "${from} => ${to}",
+				"trans": "${from} > ${to}",
 				"vars": [
 					"from",
 					"to"
@@ -6298,7 +6329,7 @@
 			},
 			"noTrait": {
 				"eng": "${tierPart} ${name}",
-				"trans": "${tierPart} ${name}",
+				"trans": "${name} ระดับ ${tierPart}",
 				"vars": [
 					"tierPart",
 					"name"
@@ -6316,6 +6347,52 @@
 		}
 	},
 	"promotionModal": {
+		"chatLotteryPromo": {
+			"availableRewards": {
+				"eng": "Possible Rewards",
+				"trans": "ของรางวัลที่อาจได้"
+			},
+			"condensedWarning1": {
+				"eng": "There is 15 minute cooldown between draws. during cooldown you will not enter lottery even if you chat many times",
+				"trans": "ต้องรอ 15 นาทีถึงจะจับรางวัลใหม่ได้นะ คุยเยอะแค่ไหนก็ไม่ได้สิทธิ์เพิ่มหรอก"
+			},
+			"condensedWarning2": {
+				"eng": "Spamming will NOT result in any increase in your chance of winning.",
+				"trans": "สแปมไปก็เท่านั้น ไม่ได้ช่วยให้ได้รางวัลเพิ่มขึ้นหรอก"
+			},
+			"condensedWarning3": {
+				"eng": "Spamming may result in permanent lottery ban",
+				"trans": "ถ้าสแปม อาจโดนแบนห้ามเล่นจับฉลากถาวรเลยนะ"
+			},
+			"description": {
+				"eng": "Win event items by chatting in Global!",
+				"trans": "แชทใน Global แล้วลุ้นรับไอเทมกิจกรรม!"
+			},
+			"fullTitle": {
+				"eng": "Chat Lottery Event",
+				"trans": "ลุ้นโชคจากแชท!"
+			},
+			"howItWorks": {
+				"eng": "How It Works",
+				"trans": "วิธีเล่น"
+			},
+			"importantNotice": {
+				"eng": "Important Notice",
+				"trans": "ข้อควรทราบ"
+			},
+			"readMore": {
+				"eng": "Learn More",
+				"trans": "ดูรายละเอียด"
+			},
+			"simpleDesc": {
+				"eng": "Chat in Global channel for a chance to win event items! Winners are announced automatically.",
+				"trans": "เม้าท์มันส์ใน Global มีเฮ! ลุ้นไอเทมกิจกรรมเพียบ! ระบบสุ่มผู้โชคดีอัตโนมัติ"
+			},
+			"title": {
+				"eng": "Chat Lottery",
+				"trans": "ลุ้นโชคในแชท"
+			}
+		},
 		"june": {
 			"desc": {
 				"eng": "🌈 All skips cost 5% less during June",
