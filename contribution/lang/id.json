@@ -36,7 +36,7 @@
 	"IAP": {
 		"bonusReward": {
 			"eng": "${eventName} bonus:",
-			"trans": "${eventName} bonus:",
+			"trans": "Bonus ${eventName}:",
 			"vars": [
 				"eventName"
 			]
@@ -942,6 +942,15 @@
 		}
 	},
 	"chat": {
+		"chatLottery": {
+			"eng": "${player} has received ${items} from chat lottery (${eventName})",
+			"trans": "${player} telah menerima ${items} dari undian chat (${eventName})",
+			"vars": [
+				"player",
+				"items",
+				"eventName"
+			]
+		},
 		"system": {
 			"eng": "SYSTEM",
 			"trans": "SISTEM"
@@ -1390,7 +1399,7 @@
 		},
 		"unitPrice": {
 			"eng": "${price} Unit",
-			"trans": "${price} Unit",
+			"trans": "${price} Harga Satuan",
 			"vars": [
 				"price"
 			]
@@ -1547,6 +1556,10 @@
 		"donation40": {
 			"eng": "Galactic Rebel",
 			"trans": "Pemberontak Galaksi"
+		},
+		"donation41": {
+			"eng": "Aurora",
+			"trans": "Aurora"
 		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
@@ -1751,7 +1764,7 @@
 		},
 		"requirement": {
 			"eng": "Requires ${amount} ${itemName}",
-			"trans": "Requires ${amount} ${itemName}",
+			"trans": "Membutuhkan ${amount} ${itemName}",
 			"vars": [
 				"itemName",
 				"amount"
@@ -1759,7 +1772,7 @@
 		},
 		"slot": {
 			"eng": "Insert ${amount} ${itemName}",
-			"trans": "Insert ${amount} ${itemName}",
+			"trans": "Masukkan ${amount} ${itemName}",
 			"vars": [
 				"itemName",
 				"amount"
@@ -1946,6 +1959,19 @@
 			"eng": "Halloween",
 			"trans": "Halloween"
 		},
+		"june": {
+			"name": {
+				"eng": "June",
+				"trans": "Juni"
+			},
+			"skipDiscountTitle": {
+				"eng": "${percent}% off during event",
+				"trans": "Diskon ${percent}% Selama Acara",
+				"vars": [
+					"percent"
+				]
+			}
+		},
 		"lunarNewYear": {
 			"eng": "Lunar New Year",
 			"skipDiscountTitle": {
@@ -1958,15 +1984,6 @@
 			"name": {
 				"eng": "May",
 				"trans": "Mei"
-			}
-		},
-		"rainbow": {
-			"name": {
-				"eng": "${percent}% off during event",
-				"trans": "Diskon ${percent}% selama acara",
-				"vars": [
-					"percent"
-				]
 			}
 		},
 		"sakura": {
@@ -3567,6 +3584,20 @@
 				"trans": "Kue beras"
 			}
 		},
+		"riceDumpling": {
+			"description": {
+				"eng": "A sticky rice dumpling made of glutinous rice and fillings, wrapped in bamboo leaves and eaten during the Dragon Boat Festival—consume it to receive a festive ${percent}% AFK EXP and ${percent2}% BTC boost",
+				"trans": "Bolu ketan yang terbuat dari beras ketan dan isiannya, dibungkus daun bambu dan dikonsumsi selama Festival Perahu Naga—konsumsi untuk mendapatkan peningkatan EXP AFK sebesar ${percent}% dan peningkatan BTC sebesar ${percent2}%",
+				"vars": [
+					"percent",
+					"percent2"
+				]
+			},
+			"name": {
+				"eng": "Rice Dumpling",
+				"trans": "Bola Beras"
+			}
+		},
 		"rngInterferer": {
 			"descriptionv3": {
 				"eng": "A shard that contains advance exploits designed to increase random drop chance of high tier items. Gains additional drop chance of Legendary (${legendaryChance}%) and Epic (${epicChance}%) items when unlocking Legendary containers (Not stackable) for ${time} minute (Applies to all players). *IMPORTANT: The buff will only apply when the unlocking process is started while the buff is active*.",
@@ -3636,7 +3667,7 @@
 		},
 		"sushi": {
 			"description": {
-				"eng": "Made with love and care by Yen. delicious and nourishing meal that will grant the player -${percent}% damage taken for 20 minutes when eaten. Perfect for tackling tough challenges and conquering difficult foes, Yen\\'s sushi is a must - have for any adventurer.",
+				"eng": "Made with love and care by Yen. delicious and nourishing meal that will grant the player -${percent}% damage taken for 20 minutes when eaten. Perfect for tackling tough challenges and conquering difficult foes, Yen's sushi is a must - have for any adventurer.",
 				"trans": "Dibuat dengan cinta dan perhatian oleh Yen. Makanan lezat dan bergizi yang akan memberikan pemain -${percent}% kerusakan yang diambil selama 20 menit saat dimakan. Sempurna untuk mengatasi tantangan yang sulit dan menaklukkan musuh yang sulit, Sushi Yen adalah suatu keharusan - miliki untuk petualang mana pun.",
 				"vars": [
 					"percent"
@@ -5101,7 +5132,7 @@
 		"resultScreen": {
 			"fromTo": {
 				"eng": "${from} => ${to}",
-				"trans": "${from} => ${to}",
+				"trans": "Dari: ${from} => Ke: ${to}",
 				"vars": [
 					"from",
 					"to"
@@ -6316,6 +6347,52 @@
 		}
 	},
 	"promotionModal": {
+		"chatLotteryPromo": {
+			"availableRewards": {
+				"eng": "Possible Rewards",
+				"trans": "Hadiah yang Mungkin"
+			},
+			"condensedWarning1": {
+				"eng": "There is 15 minute cooldown between draws. during cooldown you will not enter lottery even if you chat many times",
+				"trans": "Ada cooldown 15 menit antara pengundian. Selama cooldown, kamu tidak akan masuk ke undian meskipun chat berulang kali"
+			},
+			"condensedWarning2": {
+				"eng": "Spamming will NOT result in any increase in your chance of winning.",
+				"trans": "Spamming tidak akan meningkatkan peluangmu menang."
+			},
+			"condensedWarning3": {
+				"eng": "Spamming may result in permanent lottery ban",
+				"trans": "Spamming dapat menyebabkan dilarang seumur hidup dari undian"
+			},
+			"description": {
+				"eng": "Win event items by chatting in Global!",
+				"trans": "Menangkan hadiah acara dengan berchats di Global!"
+			},
+			"fullTitle": {
+				"eng": "Chat Lottery Event",
+				"trans": "Acara Undian Chat"
+			},
+			"howItWorks": {
+				"eng": "How It Works",
+				"trans": "Cara Kerjanya"
+			},
+			"importantNotice": {
+				"eng": "Important Notice",
+				"trans": "Pemberitahuan Penting"
+			},
+			"readMore": {
+				"eng": "Learn More",
+				"trans": "Pelajari Lebih Lanjut"
+			},
+			"simpleDesc": {
+				"eng": "Chat in Global channel for a chance to win event items! Winners are announced automatically.",
+				"trans": "Chat di Channel Global untuk kesempatan memenangkan item acara! Pemenang diumumkan secara otomatis."
+			},
+			"title": {
+				"eng": "Chat Lottery",
+				"trans": "Undian Chat"
+			}
+		},
 		"june": {
 			"desc": {
 				"eng": "🌈 All skips cost 5% less during June",
@@ -9450,7 +9527,7 @@
 			"memberContribution": {
 				"exp": {
 					"eng": "${expContribution} exp",
-					"trans": "${expContribution} exp",
+					"trans": "${expContribution} EXP",
 					"vars": [
 						"expContribution"
 					]

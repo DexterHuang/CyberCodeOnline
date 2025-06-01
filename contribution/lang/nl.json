@@ -36,7 +36,7 @@
 	"IAP": {
 		"bonusReward": {
 			"eng": "${eventName} bonus:",
-			"trans": "${eventName} bonus:",
+			"trans": "Bonus van ${eventName}:",
 			"vars": [
 				"eventName"
 			]
@@ -942,6 +942,15 @@
 		}
 	},
 	"chat": {
+		"chatLottery": {
+			"eng": "${player} has received ${items} from chat lottery (${eventName})",
+			"trans": "${player} heeft ${items} ontvangen van de chat loterij (${eventName})",
+			"vars": [
+				"player",
+				"items",
+				"eventName"
+			]
+		},
 		"system": {
 			"eng": "SYSTEM",
 			"trans": "Systeem"
@@ -1548,6 +1557,10 @@
 			"eng": "Galactic Rebel",
 			"trans": "Galactische Rebel"
 		},
+		"donation41": {
+			"eng": "Aurora",
+			"trans": "Aurora"
+		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
 			"trans": "Cybernetische aardappel"
@@ -1759,7 +1772,7 @@
 		},
 		"slot": {
 			"eng": "Insert ${amount} ${itemName}",
-			"trans": "Insert ${amount} ${itemName}",
+			"trans": "Plaats ${amount} ${itemName}",
 			"vars": [
 				"itemName",
 				"amount"
@@ -1946,6 +1959,19 @@
 			"eng": "Halloween",
 			"trans": "Halloween"
 		},
+		"june": {
+			"name": {
+				"eng": "June",
+				"trans": "June"
+			},
+			"skipDiscountTitle": {
+				"eng": "${percent}% off during event",
+				"trans": "${percent}% korting tijdens het evenement",
+				"vars": [
+					"percent"
+				]
+			}
+		},
 		"lunarNewYear": {
 			"eng": "Lunar New Year",
 			"skipDiscountTitle": {
@@ -1958,15 +1984,6 @@
 			"name": {
 				"eng": "May",
 				"trans": "Mei"
-			}
-		},
-		"rainbow": {
-			"name": {
-				"eng": "${percent}% off during event",
-				"trans": "Regenboog",
-				"vars": [
-					"percent"
-				]
 			}
 		},
 		"sakura": {
@@ -2760,7 +2777,7 @@
 			},
 			"name": {
 				"eng": "${tierName} ${typeName} cache",
-				"trans": "${tierName} ${typeName} cache",
+				"trans": "${tierName} ${typeName} opslag",
 				"vars": [
 					"tierName",
 					"typeName"
@@ -3567,6 +3584,20 @@
 				"trans": "Rijsttaart"
 			}
 		},
+		"riceDumpling": {
+			"description": {
+				"eng": "A sticky rice dumpling made of glutinous rice and fillings, wrapped in bamboo leaves and eaten during the Dragon Boat Festival—consume it to receive a festive ${percent}% AFK EXP and ${percent2}% BTC boost",
+				"trans": "Een plakkerige rijstbal gemaakt van kleirijst en vulling, omgepakt met bamboevellen en gegeten tijdens het Draakbootfeest – eet het op voor een feestelijke ${percent}% AFK-EXP en ${percent2}% BTC-bonus",
+				"vars": [
+					"percent",
+					"percent2"
+				]
+			},
+			"name": {
+				"eng": "Rice Dumpling",
+				"trans": "Rijstdampje"
+			}
+		},
 		"rngInterferer": {
 			"descriptionv3": {
 				"eng": "A shard that contains advance exploits designed to increase random drop chance of high tier items. Gains additional drop chance of Legendary (${legendaryChance}%) and Epic (${epicChance}%) items when unlocking Legendary containers (Not stackable) for ${time} minute (Applies to all players). *IMPORTANT: The buff will only apply when the unlocking process is started while the buff is active*.",
@@ -3636,7 +3667,7 @@
 		},
 		"sushi": {
 			"description": {
-				"eng": "Made with love and care by Yen. delicious and nourishing meal that will grant the player -${percent}% damage taken for 20 minutes when eaten. Perfect for tackling tough challenges and conquering difficult foes, Yen\\'s sushi is a must - have for any adventurer.",
+				"eng": "Made with love and care by Yen. delicious and nourishing meal that will grant the player -${percent}% damage taken for 20 minutes when eaten. Perfect for tackling tough challenges and conquering difficult foes, Yen's sushi is a must - have for any adventurer.",
 				"trans": "Gemaakt met liefde en zorg door Yen. Heerlijke en voedende maaltijd die de speler zal verlenen -${percent}% schade opgenomen gedurende 20 minuten wanneer het wordt gegeten. Perfect voor het aanpakken van moeilijke uitdagingen en het veroveren van moeilijke vijanden, de sushi van Yen is een must - hebben voor elke avonturier.",
 				"vars": [
 					"percent"
@@ -5101,7 +5132,7 @@
 		"resultScreen": {
 			"fromTo": {
 				"eng": "${from} => ${to}",
-				"trans": "${from} => ${to}",
+				"trans": "Van ${from} naar ${to}",
 				"vars": [
 					"from",
 					"to"
@@ -6316,6 +6347,52 @@
 		}
 	},
 	"promotionModal": {
+		"chatLotteryPromo": {
+			"availableRewards": {
+				"eng": "Possible Rewards",
+				"trans": "Mogelijke Beloningen"
+			},
+			"condensedWarning1": {
+				"eng": "There is 15 minute cooldown between draws. during cooldown you will not enter lottery even if you chat many times",
+				"trans": "Er is een 15-minutenteuken tussen de trekkingen. Tijdens deze periode kun je niet deelnemen aan de loterij, zelfs als je vaak chapt"
+			},
+			"condensedWarning2": {
+				"eng": "Spamming will NOT result in any increase in your chance of winning.",
+				"trans": "Spammen leidt niet tot een toename van je kans op winnen."
+			},
+			"condensedWarning3": {
+				"eng": "Spamming may result in permanent lottery ban",
+				"trans": "Spammen kan leiden tot een permanente loterijverbanning"
+			},
+			"description": {
+				"eng": "Win event items by chatting in Global!",
+				"trans": "Win evenementsprijzen door te chatten in Global!"
+			},
+			"fullTitle": {
+				"eng": "Chat Lottery Event",
+				"trans": "Chat Loterij Evenement"
+			},
+			"howItWorks": {
+				"eng": "How It Works",
+				"trans": "Hoe het werkt"
+			},
+			"importantNotice": {
+				"eng": "Important Notice",
+				"trans": "Belangrijke opmerking"
+			},
+			"readMore": {
+				"eng": "Learn More",
+				"trans": "Meer leren"
+			},
+			"simpleDesc": {
+				"eng": "Chat in Global channel for a chance to win event items! Winners are announced automatically.",
+				"trans": "Chatten in het wereldwijde kanaal voor een kans op evenementsprijzen! De winnaars worden automatisch aangekondigd."
+			},
+			"title": {
+				"eng": "Chat Lottery",
+				"trans": "Chat Loterij"
+			}
+		},
 		"june": {
 			"desc": {
 				"eng": "🌈 All skips cost 5% less during June",
@@ -9450,7 +9527,7 @@
 			"memberContribution": {
 				"exp": {
 					"eng": "${expContribution} exp",
-					"trans": "${expContribution} exp",
+					"trans": "${expContribution} XP",
 					"vars": [
 						"expContribution"
 					]

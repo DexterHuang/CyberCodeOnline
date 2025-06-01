@@ -942,6 +942,15 @@
 		}
 	},
 	"chat": {
+		"chatLottery": {
+			"eng": "${player} has received ${items} from chat lottery (${eventName})",
+			"trans": "Гравець ${player} отримав ${items} у чат-лотереї (${eventName})",
+			"vars": [
+				"player",
+				"items",
+				"eventName"
+			]
+		},
 		"system": {
 			"eng": "SYSTEM",
 			"trans": "Система"
@@ -1547,6 +1556,10 @@
 			"eng": "Galactic Rebel",
 			"trans": "Галактичний повстанець"
 		},
+		"donation41": {
+			"eng": "Aurora",
+			"trans": "Аурора"
+		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
 			"trans": "Кібер-картопля"
@@ -1945,6 +1958,19 @@
 			"eng": "Halloween",
 			"trans": "Хеллоуїн"
 		},
+		"june": {
+			"name": {
+				"eng": "June",
+				"trans": "Червень"
+			},
+			"skipDiscountTitle": {
+				"eng": "${percent}% off during event",
+				"trans": "${percent}% знижки на події",
+				"vars": [
+					"percent"
+				]
+			}
+		},
 		"lunarNewYear": {
 			"eng": "Lunar New Year",
 			"skipDiscountTitle": {
@@ -1957,15 +1983,6 @@
 			"name": {
 				"eng": "May",
 				"trans": "Травень"
-			}
-		},
-		"rainbow": {
-			"name": {
-				"eng": "${percent}% off during event",
-				"trans": "Радуга",
-				"vars": [
-					"percent"
-				]
 			}
 		},
 		"sakura": {
@@ -3566,6 +3583,20 @@
 				"trans": "Рисовий пиріг"
 			}
 		},
+		"riceDumpling": {
+			"description": {
+				"eng": "A sticky rice dumpling made of glutinous rice and fillings, wrapped in bamboo leaves and eaten during the Dragon Boat Festival—consume it to receive a festive ${percent}% AFK EXP and ${percent2}% BTC boost",
+				"trans": "Святковий пиріжок з клейкого рису та начинкою, обгорнутий у бамбукових листках і вживається під час Дня Човнів — з'їдьте його, щоб отримати святковий +${percent}% до AFK EXP та +${percent2}% до BTC",
+				"vars": [
+					"percent",
+					"percent2"
+				]
+			},
+			"name": {
+				"eng": "Rice Dumpling",
+				"trans": "Вареник з рисом"
+			}
+		},
 		"rngInterferer": {
 			"descriptionv3": {
 				"eng": "A shard that contains advance exploits designed to increase random drop chance of high tier items. Gains additional drop chance of Legendary (${legendaryChance}%) and Epic (${epicChance}%) items when unlocking Legendary containers (Not stackable) for ${time} minute (Applies to all players). *IMPORTANT: The buff will only apply when the unlocking process is started while the buff is active*.",
@@ -3635,7 +3666,7 @@
 		},
 		"sushi": {
 			"description": {
-				"eng": "Made with love and care by Yen. delicious and nourishing meal that will grant the player -${percent}% damage taken for 20 minutes when eaten. Perfect for tackling tough challenges and conquering difficult foes, Yen\\'s sushi is a must - have for any adventurer.",
+				"eng": "Made with love and care by Yen. delicious and nourishing meal that will grant the player -${percent}% damage taken for 20 minutes when eaten. Perfect for tackling tough challenges and conquering difficult foes, Yen's sushi is a must - have for any adventurer.",
 				"trans": "Зроблено з любов'ю та турботою від Ієни. Смачна та живильна страва, яка надасть гравцеві -${percent}% отриманого пошкодження на 20 хвилин, після з'їдання. Ідеально підходить для вирішення жорстких викликів і підкорення важких ворогів, суші є обов'язковими для будь-якого авантюриста.",
 				"vars": [
 					"percent"
@@ -5100,7 +5131,7 @@
 		"resultScreen": {
 			"fromTo": {
 				"eng": "${from} => ${to}",
-				"trans": "${from} => ${to}",
+				"trans": "З ${from} → На ${to}",
 				"vars": [
 					"from",
 					"to"
@@ -6516,6 +6547,52 @@
 		}
 	},
 	"promotionModal": {
+		"chatLotteryPromo": {
+			"availableRewards": {
+				"eng": "Possible Rewards",
+				"trans": "Можливі нагороди"
+			},
+			"condensedWarning1": {
+				"eng": "There is 15 minute cooldown between draws. during cooldown you will not enter lottery even if you chat many times",
+				"trans": "Між тягами є 15-хвилинний період очікування. Під час цього періоду ви не потрапите в лотерею, навіть якщо будете чатувати багато разів"
+			},
+			"condensedWarning2": {
+				"eng": "Spamming will NOT result in any increase in your chance of winning.",
+				"trans": "Спамування не призведе до жодного збільшення вашого шансу на перемогу."
+			},
+			"condensedWarning3": {
+				"eng": "Spamming may result in permanent lottery ban",
+				"trans": "Спам може призвести до постійної заборони лотереї"
+			},
+			"description": {
+				"eng": "Win event items by chatting in Global!",
+				"trans": "Виграйте експедиційні предмети, чатаючи в Global!"
+			},
+			"fullTitle": {
+				"eng": "Chat Lottery Event",
+				"trans": "Чат-лотерея"
+			},
+			"howItWorks": {
+				"eng": "How It Works",
+				"trans": "Як це працює"
+			},
+			"importantNotice": {
+				"eng": "Important Notice",
+				"trans": "Важливе повідомлення"
+			},
+			"readMore": {
+				"eng": "Learn More",
+				"trans": "Дізнатися більше"
+			},
+			"simpleDesc": {
+				"eng": "Chat in Global channel for a chance to win event items! Winners are announced automatically.",
+				"trans": "Пишіть у Глобальному каналі, щоб мати шанс виграти нагороди події! Переможці оголошуються автоматично."
+			},
+			"title": {
+				"eng": "Chat Lottery",
+				"trans": "Чат-лотерея"
+			}
+		},
 		"june": {
 			"desc": {
 				"eng": "🌈 All skips cost 5% less during June",

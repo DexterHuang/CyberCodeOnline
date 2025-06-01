@@ -942,6 +942,15 @@
 		}
 	},
 	"chat": {
+		"chatLottery": {
+			"eng": "${player} has received ${items} from chat lottery (${eventName})",
+			"trans": "${player}는 채팅 랜덤 추첨에서 ${items}을(를) 받았습니다 (${eventName})",
+			"vars": [
+				"player",
+				"items",
+				"eventName"
+			]
+		},
 		"system": {
 			"eng": "SYSTEM",
 			"trans": "시스템"
@@ -1548,6 +1557,10 @@
 			"eng": "Galactic Rebel",
 			"trans": "은하계 반란군"
 		},
+		"donation41": {
+			"eng": "Aurora",
+			"trans": "오로라"
+		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
 			"trans": "사이버네틱 감자"
@@ -1946,6 +1959,19 @@
 			"eng": "Halloween",
 			"trans": "할로윈"
 		},
+		"june": {
+			"name": {
+				"eng": "June",
+				"trans": "6월"
+			},
+			"skipDiscountTitle": {
+				"eng": "${percent}% off during event",
+				"trans": "이벤트 기간 동안 ${percent}% 할인",
+				"vars": [
+					"percent"
+				]
+			}
+		},
 		"lunarNewYear": {
 			"eng": "Lunar New Year",
 			"skipDiscountTitle": {
@@ -1958,15 +1984,6 @@
 			"name": {
 				"eng": "May",
 				"trans": "5월"
-			}
-		},
-		"rainbow": {
-			"name": {
-				"eng": "${percent}% off during event",
-				"trans": "이벤트 기간 동안 ${percent}% 할인",
-				"vars": [
-					"percent"
-				]
 			}
 		},
 		"sakura": {
@@ -3567,6 +3584,20 @@
 				"trans": "[버프] 떡"
 			}
 		},
+		"riceDumpling": {
+			"description": {
+				"eng": "A sticky rice dumpling made of glutinous rice and fillings, wrapped in bamboo leaves and eaten during the Dragon Boat Festival—consume it to receive a festive ${percent}% AFK EXP and ${percent2}% BTC boost",
+				"trans": "찰밥과 안심을 넣고 버드나무 잎으로 감싼 단오절에 먹는 떡입니다. 소비하여 축제 기념 ${percent}% AFK 경험치와 ${percent2}% BTC 증가를 받을 수 있습니다",
+				"vars": [
+					"percent",
+					"percent2"
+				]
+			},
+			"name": {
+				"eng": "Rice Dumpling",
+				"trans": "계란 둥글레"
+			}
+		},
 		"rngInterferer": {
 			"descriptionv3": {
 				"eng": "A shard that contains advance exploits designed to increase random drop chance of high tier items. Gains additional drop chance of Legendary (${legendaryChance}%) and Epic (${epicChance}%) items when unlocking Legendary containers (Not stackable) for ${time} minute (Applies to all players). *IMPORTANT: The buff will only apply when the unlocking process is started while the buff is active*.",
@@ -3636,7 +3667,7 @@
 		},
 		"sushi": {
 			"description": {
-				"eng": "Made with love and care by Yen. delicious and nourishing meal that will grant the player -${percent}% damage taken for 20 minutes when eaten. Perfect for tackling tough challenges and conquering difficult foes, Yen\\'s sushi is a must - have for any adventurer.",
+				"eng": "Made with love and care by Yen. delicious and nourishing meal that will grant the player -${percent}% damage taken for 20 minutes when eaten. Perfect for tackling tough challenges and conquering difficult foes, Yen's sushi is a must - have for any adventurer.",
 				"trans": "엔이 사랑과 정성을 담아 만든 초밥 도시락입니다. 맛있고 든든한 한끼 식사죠! 섭취 시 20분동안 받는 데미지를 -${percent}% 줄여줍니다. 강한 적에게 도전하고 이기기 위한 모험가에게는 완벽한 필수템입니다.",
 				"vars": [
 					"percent"
@@ -5101,7 +5132,7 @@
 		"resultScreen": {
 			"fromTo": {
 				"eng": "${from} => ${to}",
-				"trans": "${from} => ${to}",
+				"trans": "${from} → ${to}",
 				"vars": [
 					"from",
 					"to"
@@ -6425,6 +6456,52 @@
 		}
 	},
 	"promotionModal": {
+		"chatLotteryPromo": {
+			"availableRewards": {
+				"eng": "Possible Rewards",
+				"trans": "받을 수 있는 보상"
+			},
+			"condensedWarning1": {
+				"eng": "There is 15 minute cooldown between draws. during cooldown you will not enter lottery even if you chat many times",
+				"trans": "추첨 사이에 15분의 쿨다운이 있습니다. 쿨다운 중에는 채팅을 많이 해도 추첨에 참여할 수 없습니다"
+			},
+			"condensedWarning2": {
+				"eng": "Spamming will NOT result in any increase in your chance of winning.",
+				"trans": "스팸을 보내는 것은 절대 당신의 당첨 확률을 증가시키지 않습니다."
+			},
+			"condensedWarning3": {
+				"eng": "Spamming may result in permanent lottery ban",
+				"trans": "스팸 행위는 영구히 추첨에서 제외될 수 있습니다"
+			},
+			"description": {
+				"eng": "Win event items by chatting in Global!",
+				"trans": "글로벌에서 채팅을 통해 이벤트 아이템을 뽑아보세요!"
+			},
+			"fullTitle": {
+				"eng": "Chat Lottery Event",
+				"trans": "채팅 로또 이벤트"
+			},
+			"howItWorks": {
+				"eng": "How It Works",
+				"trans": "작동 방식"
+			},
+			"importantNotice": {
+				"eng": "Important Notice",
+				"trans": "중요 공지"
+			},
+			"readMore": {
+				"eng": "Learn More",
+				"trans": "더 알아보기"
+			},
+			"simpleDesc": {
+				"eng": "Chat in Global channel for a chance to win event items! Winners are announced automatically.",
+				"trans": "글로벌 채널에서 대화를 하면 이벤트 아이템을 얻을 수 있는 기회가 있습니다! 당첨자는 자동으로 발표됩니다."
+			},
+			"title": {
+				"eng": "Chat Lottery",
+				"trans": "채팅 로또"
+			}
+		},
 		"june": {
 			"desc": {
 				"eng": "🌈 All skips cost 5% less during June",

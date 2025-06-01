@@ -942,6 +942,15 @@
 		}
 	},
 	"chat": {
+		"chatLottery": {
+			"eng": "${player} has received ${items} from chat lottery (${eventName})",
+			"trans": "${player} đã nhận được ${items} từ xổ số chat (${eventName})",
+			"vars": [
+				"player",
+				"items",
+				"eventName"
+			]
+		},
 		"system": {
 			"eng": "SYSTEM",
 			"trans": "HỆ THỐNG"
@@ -1548,6 +1557,10 @@
 			"eng": "Galactic Rebel",
 			"trans": "Đội quân Vũ Trụ"
 		},
+		"donation41": {
+			"eng": "Aurora",
+			"trans": "Aurora"
+		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
 			"trans": "Khoai tây điều khiển học"
@@ -1759,7 +1772,7 @@
 		},
 		"slot": {
 			"eng": "Insert ${amount} ${itemName}",
-			"trans": "Insert ${amount} ${itemName}",
+			"trans": "Chèn số lượng ${amount} ${itemName}",
 			"vars": [
 				"itemName",
 				"amount"
@@ -1946,6 +1959,19 @@
 			"eng": "Halloween",
 			"trans": "Halloween"
 		},
+		"june": {
+			"name": {
+				"eng": "June",
+				"trans": "Tháng Sáu"
+			},
+			"skipDiscountTitle": {
+				"eng": "${percent}% off during event",
+				"trans": "Giảm giá ${percent}% trong sự kiện",
+				"vars": [
+					"percent"
+				]
+			}
+		},
 		"lunarNewYear": {
 			"eng": "Lunar New Year",
 			"skipDiscountTitle": {
@@ -1958,15 +1984,6 @@
 			"name": {
 				"eng": "May",
 				"trans": "Tháng Năm"
-			}
-		},
-		"rainbow": {
-			"name": {
-				"eng": "${percent}% off during event",
-				"trans": "${percent}% giảm giá trong sự kiện",
-				"vars": [
-					"percent"
-				]
 			}
 		},
 		"sakura": {
@@ -3567,6 +3584,20 @@
 				"trans": "Bánh gạo"
 			}
 		},
+		"riceDumpling": {
+			"description": {
+				"eng": "A sticky rice dumpling made of glutinous rice and fillings, wrapped in bamboo leaves and eaten during the Dragon Boat Festival—consume it to receive a festive ${percent}% AFK EXP and ${percent2}% BTC boost",
+				"trans": "Một bánh nếp dính được làm từ gạo nếp và nhân, bọc trong lá dong, ăn vào Lễ hội Đoan Ngọ—sử dụng để nhận thưởng EXP AFK ${percent}% và tăng BTC ${percent2}%",
+				"vars": [
+					"percent",
+					"percent2"
+				]
+			},
+			"name": {
+				"eng": "Rice Dumpling",
+				"trans": "Bánh gạo"
+			}
+		},
 		"rngInterferer": {
 			"descriptionv3": {
 				"eng": "A shard that contains advance exploits designed to increase random drop chance of high tier items. Gains additional drop chance of Legendary (${legendaryChance}%) and Epic (${epicChance}%) items when unlocking Legendary containers (Not stackable) for ${time} minute (Applies to all players). *IMPORTANT: The buff will only apply when the unlocking process is started while the buff is active*.",
@@ -3636,7 +3667,7 @@
 		},
 		"sushi": {
 			"description": {
-				"eng": "Made with love and care by Yen. delicious and nourishing meal that will grant the player -${percent}% damage taken for 20 minutes when eaten. Perfect for tackling tough challenges and conquering difficult foes, Yen\\'s sushi is a must - have for any adventurer.",
+				"eng": "Made with love and care by Yen. delicious and nourishing meal that will grant the player -${percent}% damage taken for 20 minutes when eaten. Perfect for tackling tough challenges and conquering difficult foes, Yen's sushi is a must - have for any adventurer.",
 				"trans": "Được làm bằng tình yêu và sự chăm sóc của Yen. Bữa ăn ngon và nuôi dưỡng sẽ giúp cho người chơi -${percent}% sát thương bị ảnh hưởng trong 20 phút khi ăn. Hoàn hảo để giải quyết những thách thức và chinh phục kẻ thù khó khăn, Sushi của Yen là điều bắt-buộc-có cho bất kỳ nhà thám hiểm nào.",
 				"vars": [
 					"percent"
@@ -5101,7 +5132,7 @@
 		"resultScreen": {
 			"fromTo": {
 				"eng": "${from} => ${to}",
-				"trans": "${from} => ${to}",
+				"trans": "Từ ${from} => ${to}",
 				"vars": [
 					"from",
 					"to"
@@ -6289,7 +6320,7 @@
 		"equipmentName": {
 			"nameParts": {
 				"eng": "${part1} ${part2} ${name}",
-				"trans": "${part1} ${part2} ${name}",
+				"trans": "${part1} ${part2} của ${name}",
 				"vars": [
 					"part1",
 					"part2",
@@ -6316,6 +6347,52 @@
 		}
 	},
 	"promotionModal": {
+		"chatLotteryPromo": {
+			"availableRewards": {
+				"eng": "Possible Rewards",
+				"trans": "Thưởng có thể nhận"
+			},
+			"condensedWarning1": {
+				"eng": "There is 15 minute cooldown between draws. during cooldown you will not enter lottery even if you chat many times",
+				"trans": "Có thời gian hồi 15 phút giữa các lần quay. Trong thời gian này, bạn sẽ không tham gia xổ số dù trò chuyện nhiều lần"
+			},
+			"condensedWarning2": {
+				"eng": "Spamming will NOT result in any increase in your chance of winning.",
+				"trans": "Việc spamming sẽ KHÔNG dẫn đến bất kỳ sự gia tăng nào trong cơ hội thắng của bạn."
+			},
+			"condensedWarning3": {
+				"eng": "Spamming may result in permanent lottery ban",
+				"trans": "Hành vi spam có thể khiến bạn bị cấm vĩnh viễn khỏi xổ số"
+			},
+			"description": {
+				"eng": "Win event items by chatting in Global!",
+				"trans": "Nhận được vật phẩm sự kiện bằng cách trò chuyện trên kênh Global!"
+			},
+			"fullTitle": {
+				"eng": "Chat Lottery Event",
+				"trans": "Sự kiện Xổ Số Chat"
+			},
+			"howItWorks": {
+				"eng": "How It Works",
+				"trans": "Cách thức hoạt động"
+			},
+			"importantNotice": {
+				"eng": "Important Notice",
+				"trans": "Thông báo quan trọng"
+			},
+			"readMore": {
+				"eng": "Learn More",
+				"trans": "Tìm hiểu thêm"
+			},
+			"simpleDesc": {
+				"eng": "Chat in Global channel for a chance to win event items! Winners are announced automatically.",
+				"trans": "Tham gia chat ở kênh toàn cầu để có cơ hội nhận vật phẩm sự kiện! Người trúng thưởng sẽ được thông báo tự động."
+			},
+			"title": {
+				"eng": "Chat Lottery",
+				"trans": "Xổ số Trò chuyện"
+			}
+		},
 		"june": {
 			"desc": {
 				"eng": "🌈 All skips cost 5% less during June",

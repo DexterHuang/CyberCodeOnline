@@ -36,7 +36,7 @@
 	"IAP": {
 		"bonusReward": {
 			"eng": "${eventName} bonus:",
-			"trans": "${eventName} bonus:",
+			"trans": "Evenimentul ${eventName} – Bonus:",
 			"vars": [
 				"eventName"
 			]
@@ -942,6 +942,15 @@
 		}
 	},
 	"chat": {
+		"chatLottery": {
+			"eng": "${player} has received ${items} from chat lottery (${eventName})",
+			"trans": "${player} a primit ${items} din loteria de chat (${eventName})",
+			"vars": [
+				"player",
+				"items",
+				"eventName"
+			]
+		},
 		"system": {
 			"eng": "SYSTEM",
 			"trans": "Sistem"
@@ -1548,6 +1557,10 @@
 			"eng": "Galactic Rebel",
 			"trans": "Rebelul Galactic"
 		},
+		"donation41": {
+			"eng": "Aurora",
+			"trans": "Aurora"
+		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
 			"trans": "Cartofi cibernetic"
@@ -1946,6 +1959,19 @@
 			"eng": "Halloween",
 			"trans": "Halloween"
 		},
+		"june": {
+			"name": {
+				"eng": "June",
+				"trans": "Iunie"
+			},
+			"skipDiscountTitle": {
+				"eng": "${percent}% off during event",
+				"trans": "Reducere de ${percent}% în timpul evenimentului",
+				"vars": [
+					"percent"
+				]
+			}
+		},
 		"lunarNewYear": {
 			"eng": "Lunar New Year",
 			"skipDiscountTitle": {
@@ -1958,15 +1984,6 @@
 			"name": {
 				"eng": "May",
 				"trans": "Mai"
-			}
-		},
-		"rainbow": {
-			"name": {
-				"eng": "${percent}% off during event",
-				"trans": "${percent}% reducere în timpul evenimentului",
-				"vars": [
-					"percent"
-				]
 			}
 		},
 		"sakura": {
@@ -2760,7 +2777,7 @@
 			},
 			"name": {
 				"eng": "${tierName} ${typeName} cache",
-				"trans": "${tierName} ${typeName} cache",
+				"trans": "Cofret de tip ${typeName} de rang ${tierName}",
 				"vars": [
 					"tierName",
 					"typeName"
@@ -3567,6 +3584,20 @@
 				"trans": "Tort de orez"
 			}
 		},
+		"riceDumpling": {
+			"description": {
+				"eng": "A sticky rice dumpling made of glutinous rice and fillings, wrapped in bamboo leaves and eaten during the Dragon Boat Festival—consume it to receive a festive ${percent}% AFK EXP and ${percent2}% BTC boost",
+				"trans": "Un bun de orez lipicios realizat din orez glutinos și umplutură, învelit în frunze de bambus și consumat în timpul Festivalului Barcilor Dragon – consumați-l pentru a primi un bonus festiv de ${percent}% EXP AFK și ${percent2}% BTC",
+				"vars": [
+					"percent",
+					"percent2"
+				]
+			},
+			"name": {
+				"eng": "Rice Dumpling",
+				"trans": "Porumb de orez"
+			}
+		},
 		"rngInterferer": {
 			"descriptionv3": {
 				"eng": "A shard that contains advance exploits designed to increase random drop chance of high tier items. Gains additional drop chance of Legendary (${legendaryChance}%) and Epic (${epicChance}%) items when unlocking Legendary containers (Not stackable) for ${time} minute (Applies to all players). *IMPORTANT: The buff will only apply when the unlocking process is started while the buff is active*.",
@@ -3636,7 +3667,7 @@
 		},
 		"sushi": {
 			"description": {
-				"eng": "Made with love and care by Yen. delicious and nourishing meal that will grant the player -${percent}% damage taken for 20 minutes when eaten. Perfect for tackling tough challenges and conquering difficult foes, Yen\\'s sushi is a must - have for any adventurer.",
+				"eng": "Made with love and care by Yen. delicious and nourishing meal that will grant the player -${percent}% damage taken for 20 minutes when eaten. Perfect for tackling tough challenges and conquering difficult foes, Yen's sushi is a must - have for any adventurer.",
 				"trans": "Făcut cu dragoste și grijă de Yen. O masă delicioasă și hrănitoare care va acorda jucătorului -${percent}% daune suferite timp de 20 de minute când este mâncat. Perfect pentru a face față provocărilor dure și a cuceri Inamici dificili, sushi -ul lui Yen \\ este o necesitate pentru orice aventurier.",
 				"vars": [
 					"percent"
@@ -5101,7 +5132,7 @@
 		"resultScreen": {
 			"fromTo": {
 				"eng": "${from} => ${to}",
-				"trans": "${from} => ${to}",
+				"trans": "De la ${from} la ${to}",
 				"vars": [
 					"from",
 					"to"
@@ -6316,6 +6347,52 @@
 		}
 	},
 	"promotionModal": {
+		"chatLotteryPromo": {
+			"availableRewards": {
+				"eng": "Possible Rewards",
+				"trans": "Premii posibile"
+			},
+			"condensedWarning1": {
+				"eng": "There is 15 minute cooldown between draws. during cooldown you will not enter lottery even if you chat many times",
+				"trans": "Există o perioadă de 15 minute între trageri. În timpul acesteia, nu veți fi adăugați în loterie, chiar dacă chati multe ori"
+			},
+			"condensedWarning2": {
+				"eng": "Spamming will NOT result in any increase in your chance of winning.",
+				"trans": "Spamul nu va duce la nicio creștere a șansei tale de a câștiga."
+			},
+			"condensedWarning3": {
+				"eng": "Spamming may result in permanent lottery ban",
+				"trans": "Spamarea poate duce la o sancțiune permanentă în cadrul loteriei"
+			},
+			"description": {
+				"eng": "Win event items by chatting in Global!",
+				"trans": "Câștigă item-uri de eveniment prin chat în Global!"
+			},
+			"fullTitle": {
+				"eng": "Chat Lottery Event",
+				"trans": "Eveniment de Loterie Chat"
+			},
+			"howItWorks": {
+				"eng": "How It Works",
+				"trans": "Cum funcționează"
+			},
+			"importantNotice": {
+				"eng": "Important Notice",
+				"trans": "Notiță importantă"
+			},
+			"readMore": {
+				"eng": "Learn More",
+				"trans": "Află mai multe"
+			},
+			"simpleDesc": {
+				"eng": "Chat in Global channel for a chance to win event items! Winners are announced automatically.",
+				"trans": "Chat în Canalul Mondial pentru o șansă să câștigi iteme de eveniment! Câștigătorii sunt anunțați automat."
+			},
+			"title": {
+				"eng": "Chat Lottery",
+				"trans": "Loterie de Chat"
+			}
+		},
 		"june": {
 			"desc": {
 				"eng": "🌈 All skips cost 5% less during June",
@@ -9450,7 +9527,7 @@
 			"memberContribution": {
 				"exp": {
 					"eng": "${expContribution} exp",
-					"trans": "${expContribution} exp",
+					"trans": "${expContribution} experiență",
 					"vars": [
 						"expContribution"
 					]

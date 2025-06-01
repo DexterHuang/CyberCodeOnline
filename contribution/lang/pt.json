@@ -942,6 +942,15 @@
 		}
 	},
 	"chat": {
+		"chatLottery": {
+			"eng": "${player} has received ${items} from chat lottery (${eventName})",
+			"trans": "O jogador ${player} recebeu ${items} do sorteio de bate-papo (${eventName})",
+			"vars": [
+				"player",
+				"items",
+				"eventName"
+			]
+		},
 		"system": {
 			"eng": "SYSTEM",
 			"trans": "SISTEMA"
@@ -1548,6 +1557,10 @@
 			"eng": "Galactic Rebel",
 			"trans": "Rebelde Galáctico"
 		},
+		"donation41": {
+			"eng": "Aurora",
+			"trans": "Aurora"
+		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
 			"trans": "Batata cibernética"
@@ -1946,6 +1959,19 @@
 			"eng": "Halloween",
 			"trans": "dia das Bruxas"
 		},
+		"june": {
+			"name": {
+				"eng": "June",
+				"trans": "Junho"
+			},
+			"skipDiscountTitle": {
+				"eng": "${percent}% off during event",
+				"trans": "${percent}% de desconto durante o evento",
+				"vars": [
+					"percent"
+				]
+			}
+		},
 		"lunarNewYear": {
 			"eng": "Lunar New Year",
 			"skipDiscountTitle": {
@@ -1958,15 +1984,6 @@
 			"name": {
 				"eng": "May",
 				"trans": "Maio"
-			}
-		},
-		"rainbow": {
-			"name": {
-				"eng": "${percent}% off during event",
-				"trans": "Arco-íris",
-				"vars": [
-					"percent"
-				]
 			}
 		},
 		"sakura": {
@@ -3567,6 +3584,20 @@
 				"trans": "Bolo de arroz"
 			}
 		},
+		"riceDumpling": {
+			"description": {
+				"eng": "A sticky rice dumpling made of glutinous rice and fillings, wrapped in bamboo leaves and eaten during the Dragon Boat Festival—consume it to receive a festive ${percent}% AFK EXP and ${percent2}% BTC boost",
+				"trans": "Um bolinho de arroz glutinoso com recheios, envolto em folhas de bambu e consumido durante o Festival da Barca de Dragão – consuma-o para receber um bônus festivo de ${percent}% de EXP AFK e ${percent2}% de aumento de BTC",
+				"vars": [
+					"percent",
+					"percent2"
+				]
+			},
+			"name": {
+				"eng": "Rice Dumpling",
+				"trans": "Massa de Arroz"
+			}
+		},
 		"rngInterferer": {
 			"descriptionv3": {
 				"eng": "A shard that contains advance exploits designed to increase random drop chance of high tier items. Gains additional drop chance of Legendary (${legendaryChance}%) and Epic (${epicChance}%) items when unlocking Legendary containers (Not stackable) for ${time} minute (Applies to all players). *IMPORTANT: The buff will only apply when the unlocking process is started while the buff is active*.",
@@ -3636,7 +3667,7 @@
 		},
 		"sushi": {
 			"description": {
-				"eng": "Made with love and care by Yen. delicious and nourishing meal that will grant the player -${percent}% damage taken for 20 minutes when eaten. Perfect for tackling tough challenges and conquering difficult foes, Yen\\'s sushi is a must - have for any adventurer.",
+				"eng": "Made with love and care by Yen. delicious and nourishing meal that will grant the player -${percent}% damage taken for 20 minutes when eaten. Perfect for tackling tough challenges and conquering difficult foes, Yen's sushi is a must - have for any adventurer.",
 				"trans": "Feito com amor e carinho por iene. refeição deliciosa e nutritiva que concederá ao jogador -${percent}% dano causado por 20 minutos quando comido. Perfeito para enfrentar desafios difíceis e conquistar inimigos difíceis, o sushi de Yen é obrigatório - tem para qualquer aventureiro.",
 				"vars": [
 					"percent"
@@ -5101,7 +5132,7 @@
 		"resultScreen": {
 			"fromTo": {
 				"eng": "${from} => ${to}",
-				"trans": "${from} => ${to}",
+				"trans": "De ${from} para ${to}",
 				"vars": [
 					"from",
 					"to"
@@ -6529,6 +6560,52 @@
 		}
 	},
 	"promotionModal": {
+		"chatLotteryPromo": {
+			"availableRewards": {
+				"eng": "Possible Rewards",
+				"trans": "Recompensas Possíveis"
+			},
+			"condensedWarning1": {
+				"eng": "There is 15 minute cooldown between draws. during cooldown you will not enter lottery even if you chat many times",
+				"trans": "Há um período de 15 minutos entre os sorteios. Durante esse tempo, você não será inscrito no sorteio mesmo se enviar muitas mensagens"
+			},
+			"condensedWarning2": {
+				"eng": "Spamming will NOT result in any increase in your chance of winning.",
+				"trans": "Spamear não resultará em nenhum aumento na sua chance de ganhar."
+			},
+			"condensedWarning3": {
+				"eng": "Spamming may result in permanent lottery ban",
+				"trans": "Spamming pode resultar em um banimento permanente do sorteio"
+			},
+			"description": {
+				"eng": "Win event items by chatting in Global!",
+				"trans": "Ganhe itens de evento participando do chat no Global!"
+			},
+			"fullTitle": {
+				"eng": "Chat Lottery Event",
+				"trans": "Sorteio no Bate-Papo"
+			},
+			"howItWorks": {
+				"eng": "How It Works",
+				"trans": "Como Funciona"
+			},
+			"importantNotice": {
+				"eng": "Important Notice",
+				"trans": "Aviso Importante"
+			},
+			"readMore": {
+				"eng": "Learn More",
+				"trans": "Saiba mais"
+			},
+			"simpleDesc": {
+				"eng": "Chat in Global channel for a chance to win event items! Winners are announced automatically.",
+				"trans": "Chat no canal global para ter uma chance de ganhar itens do evento! Os vencedores são anunciados automaticamente."
+			},
+			"title": {
+				"eng": "Chat Lottery",
+				"trans": "Loteria do Chat"
+			}
+		},
 		"june": {
 			"desc": {
 				"eng": "🌈 All skips cost 5% less during June",
@@ -7474,7 +7551,7 @@
 			},
 			"exchangeItemPriceDisplay": {
 				"eng": "Total: ${amount} ${itemName}",
-				"trans": "Total: ${amount} ${itemName}",
+				"trans": "Valor Total: ${amount} ${itemName}",
 				"vars": [
 					"amount",
 					"itemName"
@@ -9663,7 +9740,7 @@
 			"memberContribution": {
 				"exp": {
 					"eng": "${expContribution} exp",
-					"trans": "${expContribution} exp",
+					"trans": "${expContribution} experiência",
 					"vars": [
 						"expContribution"
 					]
