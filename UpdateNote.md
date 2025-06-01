@@ -9,6 +9,11 @@ Did you like the game and fancy helping the game? you can:
 - Deploy some global buff or skips for the community
 - Contribute to our WIKI, Lores and other configs on our [GitHub](https://github.com/DexterHuang/CyberCodeOnlin
 
+## Notice
+
+Due to popular player suggestion, the max sale price on the market `encrypted gang memory shard` will be increased 10x, 
+There are other items' max price that could be adjusted, here I just notify you guys to avoid potential market shock
+
 ## Updates
 
 ### 0.1869
