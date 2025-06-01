@@ -16,16 +16,7 @@ There are other items' max price that could be adjusted, here I just notify you 
 
 ## Updates
 
-### 0.1869
-
-- **Fixed Gifting Network Errors**: Resolved an issue where gifting items to other players occasionally resulted in a `Network Error`. The root cause has been identified and optimized to prevent recurrence.
-
-You should now experience faster and more reliable gifting transactions.
-
-**Pro Tip for Valuable Transactions**:  
-To ensure a successful gifting process for high-value items, consider sending a small, low-value item first. This initial transaction caches data, significantly reducing the likelihood of failure for subsequent valuable items. Even if a network error occurs, your valuable item will remain secure.
-
-### 0.1869
+### 0.1870
 
 - Added auto-translation to Global Channel, now all messages sent to Global will be automatically translated to:
   - English
@@ -55,6 +46,15 @@ You can disable showing the original message or disable the entire auto-translat
 - Added new chat frame `Aurora`
 
 ![image](https://github.com/user-attachments/assets/50311541-d4fc-48e0-9336-da1851557e35)
+
+### 0.1869
+
+- **Fixed Gifting Network Errors**: Resolved an issue where gifting items to other players occasionally resulted in a `Network Error`. The root cause has been identified and optimized to prevent recurrence.
+
+You should now experience faster and more reliable gifting transactions.
+
+**Pro Tip for Valuable Transactions**:  
+To ensure a successful gifting process for high-value items, consider sending a small, low-value item first. This initial transaction caches data, significantly reducing the likelihood of failure for subsequent valuable items. Even if a network error occurs, your valuable item will remain secure.
 
 ### 0.1868
 
