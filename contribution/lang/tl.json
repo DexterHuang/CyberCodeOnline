@@ -942,6 +942,15 @@
 		}
 	},
 	"chat": {
+		"chatLottery": {
+			"eng": "${player} has received ${items} from chat lottery (${eventName})",
+			"trans": "Nakuha ni ${player} ang ${items} mula sa chat lottery (${eventName})!",
+			"vars": [
+				"player",
+				"items",
+				"eventName"
+			]
+		},
 		"system": {
 			"eng": "SYSTEM",
 			"trans": "Sistema"
@@ -1548,6 +1557,10 @@
 			"eng": "Galactic Rebel",
 			"trans": "Rebel ng Galaksiya"
 		},
+		"donation41": {
+			"eng": "Aurora",
+			"trans": "Aurora"
+		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
 			"trans": "Cybernetic patatas"
@@ -1946,6 +1959,19 @@
 			"eng": "Halloween",
 			"trans": "Halloween"
 		},
+		"june": {
+			"name": {
+				"eng": "June",
+				"trans": "Hunyo"
+			},
+			"skipDiscountTitle": {
+				"eng": "${percent}% off during event",
+				"trans": "${percent}% OFF sa event!",
+				"vars": [
+					"percent"
+				]
+			}
+		},
 		"lunarNewYear": {
 			"eng": "Lunar New Year",
 			"skipDiscountTitle": {
@@ -1958,15 +1984,6 @@
 			"name": {
 				"eng": "May",
 				"trans": "May"
-			}
-		},
-		"rainbow": {
-			"name": {
-				"eng": "${percent}% off during event",
-				"trans": "Bahaghari",
-				"vars": [
-					"percent"
-				]
 			}
 		},
 		"sakura": {
@@ -2488,7 +2505,7 @@
 	"inputBoxModal": {
 		"characterCount": {
 			"eng": "${current}/${max}",
-			"trans": "${current}/${max}",
+			"trans": "${current} sa ${max}",
 			"vars": [
 				"current",
 				"max"
@@ -2760,7 +2777,7 @@
 			},
 			"name": {
 				"eng": "${tierName} ${typeName} cache",
-				"trans": "${tierName} ${typeName} cache",
+				"trans": "${tierName} ${typeName} Kaban",
 				"vars": [
 					"tierName",
 					"typeName"
@@ -3567,6 +3584,20 @@
 				"trans": "Rice cake"
 			}
 		},
+		"riceDumpling": {
+			"description": {
+				"eng": "A sticky rice dumpling made of glutinous rice and fillings, wrapped in bamboo leaves and eaten during the Dragon Boat Festival—consume it to receive a festive ${percent}% AFK EXP and ${percent2}% BTC boost",
+				"trans": "Isang malagkit na bigas na binalot sa dahon ng kawayan, may palaman, at kinakain tuwing Pista ng Dragon Boat. Kainin ito para makakuha ng ${percent}% na pang-Pista na AFK EXP at ${percent2}% na BTC boost!",
+				"vars": [
+					"percent",
+					"percent2"
+				]
+			},
+			"name": {
+				"eng": "Rice Dumpling",
+				"trans": "Dumpling na Bigas"
+			}
+		},
 		"rngInterferer": {
 			"descriptionv3": {
 				"eng": "A shard that contains advance exploits designed to increase random drop chance of high tier items. Gains additional drop chance of Legendary (${legendaryChance}%) and Epic (${epicChance}%) items when unlocking Legendary containers (Not stackable) for ${time} minute (Applies to all players). *IMPORTANT: The buff will only apply when the unlocking process is started while the buff is active*.",
@@ -3636,7 +3667,7 @@
 		},
 		"sushi": {
 			"description": {
-				"eng": "Made with love and care by Yen. delicious and nourishing meal that will grant the player -${percent}% damage taken for 20 minutes when eaten. Perfect for tackling tough challenges and conquering difficult foes, Yen\\'s sushi is a must - have for any adventurer.",
+				"eng": "Made with love and care by Yen. delicious and nourishing meal that will grant the player -${percent}% damage taken for 20 minutes when eaten. Perfect for tackling tough challenges and conquering difficult foes, Yen's sushi is a must - have for any adventurer.",
 				"trans": "Ginawa ng pag -ibig at pag -aalaga ni Yen. Masarap at pampalusog na pagkain na magbibigay ng player -${percent}% pinsala na kinuha sa loob ng 20 minuto kapag kinakain. Perpekto para sa pagharap sa mga mahihirap na hamon at pagsakop sa mga mahihirap na kaaway, ang sushi ni Yen ay isang kinakailangan - magkaroon para sa sinumang tagapagbalita.",
 				"vars": [
 					"percent"
@@ -5101,7 +5132,7 @@
 		"resultScreen": {
 			"fromTo": {
 				"eng": "${from} => ${to}",
-				"trans": "${from} => ${to}",
+				"trans": "${from} => papuntang ${to}",
 				"vars": [
 					"from",
 					"to"
@@ -6502,7 +6533,7 @@
 		"equipmentName": {
 			"nameParts": {
 				"eng": "${part1} ${part2} ${name}",
-				"trans": "${part1} ${part2} ${name}",
+				"trans": "${part1} ${part2} na ${name}",
 				"vars": [
 					"part1",
 					"part2",
@@ -6511,7 +6542,7 @@
 			},
 			"noTrait": {
 				"eng": "${tierPart} ${name}",
-				"trans": "${tierPart} ${name}",
+				"trans": "${tierPart} na ${name}",
 				"vars": [
 					"tierPart",
 					"name"
@@ -6519,7 +6550,7 @@
 			},
 			"withTrait": {
 				"eng": "${tierPart} ${name} ${traitFix}",
-				"trans": "${tierPart} ${name} ${traitFix}",
+				"trans": "${name} na ${tierPart} na taglay ang ${traitFix}",
 				"vars": [
 					"tierPart",
 					"name",
@@ -6529,6 +6560,52 @@
 		}
 	},
 	"promotionModal": {
+		"chatLotteryPromo": {
+			"availableRewards": {
+				"eng": "Possible Rewards",
+				"trans": "Mga Posibleng Gantimpala"
+			},
+			"condensedWarning1": {
+				"eng": "There is 15 minute cooldown between draws. during cooldown you will not enter lottery even if you chat many times",
+				"trans": "May 15 minutong pagitan bago ka ulit makasali sa lottery. Hindi ka makakasali kahit madalas kang mag-chat habang naghihintay"
+			},
+			"condensedWarning2": {
+				"eng": "Spamming will NOT result in any increase in your chance of winning.",
+				"trans": "Hindi porke't nag-i-spam ka, mas malaki ang tsansa mong manalo."
+			},
+			"condensedWarning3": {
+				"eng": "Spamming may result in permanent lottery ban",
+				"trans": "Bawal ang spam! Permanenteng ban sa lottery ang aabutin mo"
+			},
+			"description": {
+				"eng": "Win event items by chatting in Global!",
+				"trans": "Makakuha ng event items! Chat lang sa Global!"
+			},
+			"fullTitle": {
+				"eng": "Chat Lottery Event",
+				"trans": "Chat Lottery Event"
+			},
+			"howItWorks": {
+				"eng": "How It Works",
+				"trans": "Pa'no Gumagana?"
+			},
+			"importantNotice": {
+				"eng": "Important Notice",
+				"trans": "Importanteng Paalala"
+			},
+			"readMore": {
+				"eng": "Learn More",
+				"trans": "Basahin pa"
+			},
+			"simpleDesc": {
+				"eng": "Chat in Global channel for a chance to win event items! Winners are announced automatically.",
+				"trans": "Chat lang nang chat sa Global channel, baka ikaw na ang manalo ng mga event item! Auto-announce ang mga winner!"
+			},
+			"title": {
+				"eng": "Chat Lottery",
+				"trans": "Raffle sa Chat"
+			}
+		},
 		"june": {
 			"desc": {
 				"eng": "🌈 All skips cost 5% less during June",
@@ -7163,7 +7240,7 @@
 	"reward": {
 		"gangExp": {
 			"eng": "${clanExp} gang exp",
-			"trans": "${clanExp} gang exp",
+			"trans": "${clanExp} Gang Points",
 			"vars": [
 				"clanExp"
 			]
@@ -8970,7 +9047,7 @@
 			"unblockModal": {
 				"title": {
 					"eng": "Unblock ${playerName}",
-					"trans": "Unblock ${playerName}",
+					"trans": "Unblock si ${playerName}",
 					"vars": [
 						"playerName"
 					]
@@ -9663,7 +9740,7 @@
 			"memberContribution": {
 				"exp": {
 					"eng": "${expContribution} exp",
-					"trans": "${expContribution} exp",
+					"trans": "`${expContribution}` ambag na XP",
 					"vars": [
 						"expContribution"
 					]

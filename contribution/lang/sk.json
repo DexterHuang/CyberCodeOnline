@@ -36,7 +36,7 @@
 	"IAP": {
 		"bonusReward": {
 			"eng": "${eventName} bonus:",
-			"trans": "${eventName} bonus:",
+			"trans": "Bonus za ${eventName}:",
 			"vars": [
 				"eventName"
 			]
@@ -942,6 +942,15 @@
 		}
 	},
 	"chat": {
+		"chatLottery": {
+			"eng": "${player} has received ${items} from chat lottery (${eventName})",
+			"trans": "${player} vyhral/a ${items} v chatovej lotérii (${eventName})",
+			"vars": [
+				"player",
+				"items",
+				"eventName"
+			]
+		},
 		"system": {
 			"eng": "SYSTEM",
 			"trans": "Systém"
@@ -1548,6 +1557,10 @@
 			"eng": "Galactic Rebel",
 			"trans": "Galaktický Rebel"
 		},
+		"donation41": {
+			"eng": "Aurora",
+			"trans": "Aurora"
+		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
 			"trans": "Kybernetický zemiak"
@@ -1759,7 +1772,7 @@
 		},
 		"slot": {
 			"eng": "Insert ${amount} ${itemName}",
-			"trans": "Insert ${amount} ${itemName}",
+			"trans": "Pridať ${amount} ${itemName}",
 			"vars": [
 				"itemName",
 				"amount"
@@ -1946,6 +1959,19 @@
 			"eng": "Halloween",
 			"trans": "Halloween"
 		},
+		"june": {
+			"name": {
+				"eng": "June",
+				"trans": "Jún"
+			},
+			"skipDiscountTitle": {
+				"eng": "${percent}% off during event",
+				"trans": "${percent}% dole počas akcie",
+				"vars": [
+					"percent"
+				]
+			}
+		},
 		"lunarNewYear": {
 			"eng": "Lunar New Year",
 			"skipDiscountTitle": {
@@ -1958,15 +1984,6 @@
 			"name": {
 				"eng": "May",
 				"trans": "máj"
-			}
-		},
-		"rainbow": {
-			"name": {
-				"eng": "${percent}% off during event",
-				"trans": "Dúha",
-				"vars": [
-					"percent"
-				]
 			}
 		},
 		"sakura": {
@@ -3567,6 +3584,20 @@
 				"trans": "Ryžový koláč"
 			}
 		},
+		"riceDumpling": {
+			"description": {
+				"eng": "A sticky rice dumpling made of glutinous rice and fillings, wrapped in bamboo leaves and eaten during the Dragon Boat Festival—consume it to receive a festive ${percent}% AFK EXP and ${percent2}% BTC boost",
+				"trans": "Lepiivá ryžová knedľa z lepkavej ryže a plnky, zabalená v bambusových listoch a konzumovaná počas Festivalu dračích lodí – skonzumuj ju a získaš sviatočný ${percent}% bonus k AFK EXP a ${percent2}% bonus k BTC",
+				"vars": [
+					"percent",
+					"percent2"
+				]
+			},
+			"name": {
+				"eng": "Rice Dumpling",
+				"trans": "Ryžový knedlík"
+			}
+		},
 		"rngInterferer": {
 			"descriptionv3": {
 				"eng": "A shard that contains advance exploits designed to increase random drop chance of high tier items. Gains additional drop chance of Legendary (${legendaryChance}%) and Epic (${epicChance}%) items when unlocking Legendary containers (Not stackable) for ${time} minute (Applies to all players). *IMPORTANT: The buff will only apply when the unlocking process is started while the buff is active*.",
@@ -3636,7 +3667,7 @@
 		},
 		"sushi": {
 			"description": {
-				"eng": "Made with love and care by Yen. delicious and nourishing meal that will grant the player -${percent}% damage taken for 20 minutes when eaten. Perfect for tackling tough challenges and conquering difficult foes, Yen\\'s sushi is a must - have for any adventurer.",
+				"eng": "Made with love and care by Yen. delicious and nourishing meal that will grant the player -${percent}% damage taken for 20 minutes when eaten. Perfect for tackling tough challenges and conquering difficult foes, Yen's sushi is a must - have for any adventurer.",
 				"trans": "Vyrobené z lásky a starostlivosti Yen. Vypracované a výživné jedlo, ktoré poskytne hráčovi -${percent}% poškodenie, ktoré sa pri konzumácii uplatňovalo 20 minút. Yen's Sushi je ideálny na riešenie ťažkých výziev a dobývaní ťažkých nepriateľov, je nevyhnutnosťou - mať pre každého dobrodruha.",
 				"vars": [
 					"percent"
@@ -5101,7 +5132,7 @@
 		"resultScreen": {
 			"fromTo": {
 				"eng": "${from} => ${to}",
-				"trans": "${from} => ${to}",
+				"trans": "${from} → ${to}",
 				"vars": [
 					"from",
 					"to"
@@ -6519,7 +6550,7 @@
 			},
 			"withTrait": {
 				"eng": "${tierPart} ${name} ${traitFix}",
-				"trans": "${tierPart} ${name} ${traitFix}",
+				"trans": "${tierPart} ${name} - ${traitFix}",
 				"vars": [
 					"tierPart",
 					"name",
@@ -6529,6 +6560,52 @@
 		}
 	},
 	"promotionModal": {
+		"chatLotteryPromo": {
+			"availableRewards": {
+				"eng": "Possible Rewards",
+				"trans": "Možné odmeny"
+			},
+			"condensedWarning1": {
+				"eng": "There is 15 minute cooldown between draws. during cooldown you will not enter lottery even if you chat many times",
+				"trans": "Medzi každým losovaním je 15 minút pauza. Počas nej sa do lotérie nedostaneš, aj keby si spamoval chat"
+			},
+			"condensedWarning2": {
+				"eng": "Spamming will NOT result in any increase in your chance of winning.",
+				"trans": "Spamovanie nezvýši tvoju šancu na výhru."
+			},
+			"condensedWarning3": {
+				"eng": "Spamming may result in permanent lottery ban",
+				"trans": "Spam = trvalý ban v lotérii"
+			},
+			"description": {
+				"eng": "Win event items by chatting in Global!",
+				"trans": "Chatuj v Globále a vyhraj super ceny z eventu!"
+			},
+			"fullTitle": {
+				"eng": "Chat Lottery Event",
+				"trans": "Akcia: Chatová lotéria"
+			},
+			"howItWorks": {
+				"eng": "How It Works",
+				"trans": "Ako to funguje"
+			},
+			"importantNotice": {
+				"eng": "Important Notice",
+				"trans": "Dôležité upozornenie"
+			},
+			"readMore": {
+				"eng": "Learn More",
+				"trans": "Zisti viac"
+			},
+			"simpleDesc": {
+				"eng": "Chat in Global channel for a chance to win event items! Winners are announced automatically.",
+				"trans": "Hoď reč v globálnom chate a môžeš vyhrať parádne veci z eventu! Výhercov vyhlasujeme automaticky."
+			},
+			"title": {
+				"eng": "Chat Lottery",
+				"trans": "Chatová lotéria"
+			}
+		},
 		"june": {
 			"desc": {
 				"eng": "🌈 All skips cost 5% less during June",
@@ -7163,7 +7240,7 @@
 	"reward": {
 		"gangExp": {
 			"eng": "${clanExp} gang exp",
-			"trans": "${clanExp} gang exp",
+			"trans": "${clanExp} gangových skúseností",
 			"vars": [
 				"clanExp"
 			]
