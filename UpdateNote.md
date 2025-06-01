@@ -40,6 +40,7 @@ You can disable showing the original message or disable the entire auto-translat
 - During June, we are experimenting with a new event type where you can get event items just by chatting in Global; basically every 15 minutes if you chat in Global there is a random chance to get a event item, during cooldown, no matter how many message you sent, you will not gain chance to get event item.
   **Spamming will automatically exclude you from the event, and will NOT increase your chance to get the item at all due to the 15-minute cooldown**
   **The best way to participate is just to chat normally**
+  **I may adjust the cooldown time based on situation if needed**
 ![image](https://github.com/user-attachments/assets/ddb6cff6-1436-4627-90f6-6eb9ea9aa530)
 
 
