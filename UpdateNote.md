@@ -22,24 +22,29 @@ To ensure a successful gifting process for high-value items, consider sending a 
 
 ### 0.1869
 
-- Added auto-translation to Global Channel, now all message sent to Global will be automatically translated to:
+- Added auto-translation to Global Channel, now all messages sent to Global will be automatically translated to:
   - English
   - Chinese
   - Japanese
   - Korean
   - Bahasa Indonesia
 
-If your UI languages is listed above, you should see all message translated to your languages, for other languages you will see translated message in English instead (if its not already in English)
+If your UI language is listed above, you should see all messages translated to your language, for other languages you will see translated messages in English instead (if its not already in English)
 
-The translated message would contain the translated text on top and the original text below
+The translated message would contain the translated text on top and the original text below:
+![image](https://github.com/user-attachments/assets/19344c51-e5cd-40ec-94af-6a500617e232)
 
-You can disable showing original message or disable the entire auto-translation feature in the settings menu.
+You can disable showing the original message or disable the entire auto-translation feature in the settings menu.
+![image](https://github.com/user-attachments/assets/23f14c50-7c1a-41da-b813-89bdc48e8f3b)
 
 - During June, we are experimenting with a new event type where you can get event items just by chatting in Global; basically every 15 minutes if you chat in Global there is a random chance to get a event item, during cooldown, no matter how many message you sent, you will not gain chance to get event item.
-  **Spamming will automatically exclude you from the event, and will NOT increase your chance to get item at all due to the 15 minute cooldown**
-  **The best way to participate is just chat normally**
+  **Spamming will automatically exclude you from the event, and will NOT increase your chance to get the item at all due to the 15-minute cooldown**
+  **The best way to participate is just to chat normally**
+![image](https://github.com/user-attachments/assets/ddb6cff6-1436-4627-90f6-6eb9ea9aa530)
+
 
 - Added new chat frame `Aurora`
+![image](https://github.com/user-attachments/assets/50311541-d4fc-48e0-9336-da1851557e35)
 
 ### 0.1868
 
