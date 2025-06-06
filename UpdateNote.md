@@ -11,10 +11,16 @@ Did you like the game and fancy helping the game? you can:
 
 ## Notice
 
-Due to popular player suggestion, the max sale price on the market `encrypted gang memory shard` will be increased 10x, 
+Due to popular player suggestion, the max sale price on the market `encrypted gang memory shard` will be increased 10x,
 There are other items' max price that could be adjusted, here I just notify you guys to avoid potential market shock
 
 ## Updates
+
+### 0.1871
+
+- Fixed issue when translation fails sometimes the messages shows `[Object Object]` instead of falling back to original message
+- Fix leaderboard UI issue where the value is not aligned correctly
+- Several Optimization
 
 ### 0.1870
 
@@ -39,9 +45,8 @@ You can disable showing the original message or disable the entire auto-translat
   **Spamming will automatically exclude you from the event, and will NOT increase your chance to get the item at all due to the 15-minute cooldown**
   **The best way to participate is just to chat normally**
   **I may adjust the cooldown time based on situation if needed**
-  
-![image](https://github.com/user-attachments/assets/ddb6cff6-1436-4627-90f6-6eb9ea9aa530)
 
+![image](https://github.com/user-attachments/assets/ddb6cff6-1436-4627-90f6-6eb9ea9aa530)
 
 - Added new chat frame `Aurora`
 
