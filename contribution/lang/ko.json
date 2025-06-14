@@ -1321,6 +1321,10 @@
 					"profile"
 				]
 			},
+			"sendImage": {
+				"eng": "Send images in mail to players who added you as friend",
+				"trans": "친구에게 특별한 이미지를 선물하세요!"
+			},
 			"title": {
 				"eng": "\"${name}\" donation title",
 				"trans": "${name} 후원 타이틀",
@@ -4649,6 +4653,20 @@
 			"trans": "기간 한정 채팅 프레임과 엠블럼이 추가되었습니다. 이벤트 기간 동안만 구매할 수 있습니다."
 		}
 	},
+	"mail": {
+		"cannotSendImageToNonFriend": {
+			"eng": "You can only send images to players who has added you to their friend list",
+			"trans": "친추된 유저에게만 이미지 전송이 가능합니다"
+		},
+		"imageSendLimit": {
+			"eng": "You can only send ${limit} images every ${hours} hours",
+			"trans": "${hours}시간마다 이미지는 ${limit}개까지만 보낼 수 있습니다",
+			"vars": [
+				"limit",
+				"hours"
+			]
+		}
+	},
 	"mailRoomContent": {
 		"time": {
 			"eng": "${time} ago",
@@ -4675,13 +4693,14 @@
 					"price"
 				]
 			},
-			"mailToSeller": {
-				"eng": "${buyer} have purchased ${amount} ${item} from your stall, you have earned ${amount} btc",
-				"trans": "${buyer}가 당신의 부스에서 ${amount} ${item}을(를) 구매했습니다. ${amount} btc를 버셨네요!",
+			"mailToSeller2": {
+				"eng": "${buyer} have purchased ${amount} ${item} from your stall, you have earned ${price} btc",
+				"trans": "${buyer}님이 ${amount}개 ${item} 당신 가판대에서 사갔어! ${price} btc 챙겨!",
 				"vars": [
 					"amount",
 					"item",
-					"buyer"
+					"buyer",
+					"price"
 				]
 			}
 		},
@@ -4703,6 +4722,20 @@
 			"vars": [
 				"slot"
 			]
+		}
+	},
+	"messageImage": {
+		"hideImage": {
+			"eng": "Hide Image",
+			"trans": "이미지 숨기기"
+		},
+		"imag": {
+			"eng": "image",
+			"trans": "이미지"
+		},
+		"revealImage": {
+			"eng": "Reveal Image",
+			"trans": "이미지 공개"
 		}
 	},
 	"minigame": {
@@ -10099,6 +10132,13 @@
 				"trans": "채팅하려면 적어도 ${level}이어야합니다",
 				"vars": [
 					"level"
+				]
+			},
+			"noDonationToSendImage": {
+				"eng": "Sending messages with images requires donation tier of '${donationName}' or above.",
+				"trans": "이미지 메시지 전송은 '${donationName}' 등급 이상 후원자만 가능합니다.",
+				"vars": [
+					"donationName"
 				]
 			}
 		},

@@ -1321,6 +1321,10 @@
 					"profile"
 				]
 			},
+			"sendImage": {
+				"eng": "Send images in mail to players who added you as friend",
+				"trans": "给加你好友的玩家发邮件，可以带图哦"
+			},
 			"title": {
 				"eng": "\"${name}\" donation title",
 				"trans": "捐赠称号",
@@ -4649,6 +4653,20 @@
 			"trans": "添加了新的时间有限的聊天框架和标志，只能在活动期间购买。"
 		}
 	},
+	"mail": {
+		"cannotSendImageToNonFriend": {
+			"eng": "You can only send images to players who has added you to their friend list",
+			"trans": "只能给加你好友的人发图片哦。"
+		},
+		"imageSendLimit": {
+			"eng": "You can only send ${limit} images every ${hours} hours",
+			"trans": "限制：每 ${hours} 小时只能发 ${limit} 张图",
+			"vars": [
+				"limit",
+				"hours"
+			]
+		}
+	},
 	"mailRoomContent": {
 		"time": {
 			"eng": "${time} ago",
@@ -4675,13 +4693,14 @@
 					"price"
 				]
 			},
-			"mailToSeller": {
-				"eng": "${buyer} have purchased ${amount} ${item} from your stall, you have earned ${amount} btc",
-				"trans": "${buyer} 从您的摊位买走了 ${amount} ${item}，您赚了 ${amount} BTC！",
+			"mailToSeller2": {
+				"eng": "${buyer} have purchased ${amount} ${item} from your stall, you have earned ${price} btc",
+				"trans": "${buyer} 购买了你的 ${amount} 个 ${item}，已入账 ${price} 比特币。",
 				"vars": [
 					"amount",
 					"item",
-					"buyer"
+					"buyer",
+					"price"
 				]
 			}
 		},
@@ -4703,6 +4722,20 @@
 			"vars": [
 				"slot"
 			]
+		}
+	},
+	"messageImage": {
+		"hideImage": {
+			"eng": "Hide Image",
+			"trans": "隐藏图片"
+		},
+		"imag": {
+			"eng": "image",
+			"trans": "图"
+		},
+		"revealImage": {
+			"eng": "Reveal Image",
+			"trans": "揭示图片"
 		}
 	},
 	"minigame": {
@@ -10203,6 +10236,13 @@
 				"trans": "您需要至少级别${level}才能聊天",
 				"vars": [
 					"level"
+				]
+			},
+			"noDonationToSendImage": {
+				"eng": "Sending messages with images requires donation tier of '${donationName}' or above.",
+				"trans": "抱歉，发送带图片的私信需要捐赠等级达到'${donationName}'或更高。",
+				"vars": [
+					"donationName"
 				]
 			}
 		},

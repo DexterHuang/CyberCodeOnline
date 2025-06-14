@@ -1321,6 +1321,10 @@
 					"profile"
 				]
 			},
+			"sendImage": {
+				"eng": "Send images in mail to players who added you as friend",
+				"trans": "Bisa kirim gambar ke teman yang sudah add kamu via surat!"
+			},
 			"title": {
 				"eng": "\"${name}\" donation title",
 				"trans": "Judul Donasi",
@@ -4649,6 +4653,20 @@
 			"trans": "Menambahkan bingkai obrolan dan lambang terbatas waktu baru, hanya dapat dibeli selama periode acara."
 		}
 	},
+	"mail": {
+		"cannotSendImageToNonFriend": {
+			"eng": "You can only send images to players who has added you to their friend list",
+			"trans": "Kamu cuma bisa kirim gambar ke teman yang udah nge-add kamu"
+		},
+		"imageSendLimit": {
+			"eng": "You can only send ${limit} images every ${hours} hours",
+			"trans": "Kamu cuma bisa kirim ${limit} gambar tiap ${hours} jam",
+			"vars": [
+				"limit",
+				"hours"
+			]
+		}
+	},
 	"mailRoomContent": {
 		"time": {
 			"eng": "${time} ago",
@@ -4675,13 +4693,14 @@
 					"price"
 				]
 			},
-			"mailToSeller": {
-				"eng": "${buyer} have purchased ${amount} ${item} from your stall, you have earned ${amount} btc",
-				"trans": "${buyer} telah membeli ${amount} ${item} dari kios Anda, Anda telah mendapatkan ${amount} btc",
+			"mailToSeller2": {
+				"eng": "${buyer} have purchased ${amount} ${item} from your stall, you have earned ${price} btc",
+				"trans": "Mantap! ${buyer} membeli ${amount} ${item} dari lapakmu, kamu berhasil mendapatkan ${price} btc!",
 				"vars": [
 					"amount",
 					"item",
-					"buyer"
+					"buyer",
+					"price"
 				]
 			}
 		},
@@ -4703,6 +4722,20 @@
 			"vars": [
 				"slot"
 			]
+		}
+	},
+	"messageImage": {
+		"hideImage": {
+			"eng": "Hide Image",
+			"trans": "Tutup Gambar"
+		},
+		"imag": {
+			"eng": "image",
+			"trans": "Gambar"
+		},
+		"revealImage": {
+			"eng": "Reveal Image",
+			"trans": "Buka Gambar"
 		}
 	},
 	"minigame": {
@@ -9990,6 +10023,13 @@
 				"trans": "Kamu harus setidaknya level ${level} untuk mengobrol",
 				"vars": [
 					"level"
+				]
+			},
+			"noDonationToSendImage": {
+				"eng": "Sending messages with images requires donation tier of '${donationName}' or above.",
+				"trans": "Kirim gambar? Donasi minimal level '${donationName}' ya.",
+				"vars": [
+					"donationName"
 				]
 			}
 		},

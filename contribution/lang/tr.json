@@ -1321,6 +1321,10 @@
 					"profile"
 				]
 			},
+			"sendImage": {
+				"eng": "Send images in mail to players who added you as friend",
+				"trans": "Arkadaş listendeki oyunculara maille resim yolla"
+			},
 			"title": {
 				"eng": "\"${name}\" donation title",
 				"trans": "Bağış Başlığı",
@@ -4649,6 +4653,20 @@
 			"trans": "Yalnızca etkinlik döneminde satın alınabilecek yeni Time Sınırlı Sohbet Çerçevesi ve Amblemleri eklendi."
 		}
 	},
+	"mail": {
+		"cannotSendImageToNonFriend": {
+			"eng": "You can only send images to players who has added you to their friend list",
+			"trans": "Sadece seni arkadaş olarak ekleyen oyunculara resim gönderebilirsin"
+		},
+		"imageSendLimit": {
+			"eng": "You can only send ${limit} images every ${hours} hours",
+			"trans": "Her ${hours} saatte en fazla ${limit} tane resim gönderebilirsin",
+			"vars": [
+				"limit",
+				"hours"
+			]
+		}
+	},
 	"mailRoomContent": {
 		"time": {
 			"eng": "${time} ago",
@@ -4675,13 +4693,14 @@
 					"price"
 				]
 			},
-			"mailToSeller": {
-				"eng": "${buyer} have purchased ${amount} ${item} from your stall, you have earned ${amount} btc",
-				"trans": "${buyer}, staldan ${amount} ${item} almış, sen de ${amount} btc kazanmışsın!",
+			"mailToSeller2": {
+				"eng": "${buyer} have purchased ${amount} ${item} from your stall, you have earned ${price} btc",
+				"trans": "${buyer}, tezgahından ${amount} tane ${item} aldı, ${price} btc'yi kaptın!",
 				"vars": [
 					"amount",
 					"item",
-					"buyer"
+					"buyer",
+					"price"
 				]
 			}
 		},
@@ -4703,6 +4722,20 @@
 			"vars": [
 				"slot"
 			]
+		}
+	},
+	"messageImage": {
+		"hideImage": {
+			"eng": "Hide Image",
+			"trans": "Resmi Gizle"
+		},
+		"imag": {
+			"eng": "image",
+			"trans": "Görsel"
+		},
+		"revealImage": {
+			"eng": "Reveal Image",
+			"trans": "İmajı Aç"
 		}
 	},
 	"minigame": {
@@ -9991,6 +10024,13 @@
 				"trans": "Sohbet etmek için en az seviye ${level} olmalısınız",
 				"vars": [
 					"level"
+				]
+			},
+			"noDonationToSendImage": {
+				"eng": "Sending messages with images requires donation tier of '${donationName}' or above.",
+				"trans": "Resimli mesaj göndermek için '${donationName}' veya daha üstü bir bağış seviyesinde olman gerekiyor.",
+				"vars": [
+					"donationName"
 				]
 			}
 		},

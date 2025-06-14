@@ -1321,6 +1321,10 @@
 					"profile"
 				]
 			},
+			"sendImage": {
+				"eng": "Send images in mail to players who added you as friend",
+				"trans": "Sdílej obrázky s přáteli ve hře, kteří tě mají v seznamu!"
+			},
 			"title": {
 				"eng": "\"${name}\" donation title",
 				"trans": "Název daru",
@@ -4649,6 +4653,20 @@
 			"trans": "Přidán nový Time Limited Chat Frame a Emblémy, který lze zakoupit pouze během období události."
 		}
 	},
+	"mail": {
+		"cannotSendImageToNonFriend": {
+			"eng": "You can only send images to players who has added you to their friend list",
+			"trans": "Obrázky můžeš poslat jen těm, co tě mají v přátelích"
+		},
+		"imageSendLimit": {
+			"eng": "You can only send ${limit} images every ${hours} hours",
+			"trans": "Maximálně ${limit} obrázků za ${hours} hodin",
+			"vars": [
+				"limit",
+				"hours"
+			]
+		}
+	},
 	"mailRoomContent": {
 		"time": {
 			"eng": "${time} ago",
@@ -4675,13 +4693,14 @@
 					"price"
 				]
 			},
-			"mailToSeller": {
-				"eng": "${buyer} have purchased ${amount} ${item} from your stall, you have earned ${amount} btc",
-				"trans": "${buyer} koupil/a ${amount} ${item} z tvého krámu. Na účet ti přistálo ${amount} btc",
+			"mailToSeller2": {
+				"eng": "${buyer} have purchased ${amount} ${item} from your stall, you have earned ${price} btc",
+				"trans": "${buyer} právě koupil/a ${amount} ${item} z tvého stánku. Na účet ti přistálo ${price} btc",
 				"vars": [
 					"amount",
 					"item",
-					"buyer"
+					"buyer",
+					"price"
 				]
 			}
 		},
@@ -4703,6 +4722,20 @@
 			"vars": [
 				"slot"
 			]
+		}
+	},
+	"messageImage": {
+		"hideImage": {
+			"eng": "Hide Image",
+			"trans": "Skrýt obrázek"
+		},
+		"imag": {
+			"eng": "image",
+			"trans": "Obrázek"
+		},
+		"revealImage": {
+			"eng": "Reveal Image",
+			"trans": "Odhalit obrázek"
 		}
 	},
 	"minigame": {
@@ -9990,6 +10023,13 @@
 				"trans": "Musíte být alespoň na úrovni ${level}",
 				"vars": [
 					"level"
+				]
+			},
+			"noDonationToSendImage": {
+				"eng": "Sending messages with images requires donation tier of '${donationName}' or above.",
+				"trans": "Pro posílání zpráv s obrázky potřebuješ úroveň daru minimálně '${donationName}'.",
+				"vars": [
+					"donationName"
 				]
 			}
 		},

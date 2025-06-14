@@ -1319,6 +1319,10 @@
 					"profile"
 				]
 			},
+			"sendImage": {
+				"eng": "Send images in mail to players who added you as friend",
+				"trans": "フレンドに画像付きメールを送信可能！"
+			},
 			"title": {
 				"eng": "\"${name}\" donation title",
 				"trans": "称号「${name}」",
@@ -4647,6 +4651,20 @@
 			"trans": "新たに期間限定のチャットフレームとエンブレムを追加しました. イベント期間中にのみ購入可能です."
 		}
 	},
+	"mail": {
+		"cannotSendImageToNonFriend": {
+			"eng": "You can only send images to players who has added you to their friend list",
+			"trans": "画像を送信できるのは、フレンド登録がお互い済んでるプレイヤーだけだよ。"
+		},
+		"imageSendLimit": {
+			"eng": "You can only send ${limit} images every ${hours} hours",
+			"trans": "画像を送信できるのは、${hours}時間ごとに${limit}枚までです。",
+			"vars": [
+				"limit",
+				"hours"
+			]
+		}
+	},
 	"mailRoomContent": {
 		"time": {
 			"eng": "${time} ago",
@@ -4673,13 +4691,14 @@
 					"price"
 				]
 			},
-			"mailToSeller": {
-				"eng": "${buyer} have purchased ${amount} ${item} from your stall, you have earned ${amount} btc",
-				"trans": "${buyer}があなたから${amount}個の${item}を購入, ${amount}BTCを獲得しました.",
+			"mailToSeller2": {
+				"eng": "${buyer} have purchased ${amount} ${item} from your stall, you have earned ${price} btc",
+				"trans": "${buyer}があなたの店で${item}を${amount}個購入。${price} BTCの収入がありました。",
 				"vars": [
 					"amount",
 					"item",
-					"buyer"
+					"buyer",
+					"price"
 				]
 			}
 		},
@@ -4701,6 +4720,20 @@
 			"vars": [
 				"slot"
 			]
+		}
+	},
+	"messageImage": {
+		"hideImage": {
+			"eng": "Hide Image",
+			"trans": "画像非表示"
+		},
+		"imag": {
+			"eng": "image",
+			"trans": "画像"
+		},
+		"revealImage": {
+			"eng": "Reveal Image",
+			"trans": "表示する"
 		}
 	},
 	"minigame": {
@@ -10203,6 +10236,13 @@
 				"trans": "チャットするにはレベル${level}になる必要があります",
 				"vars": [
 					"level"
+				]
+			},
+			"noDonationToSendImage": {
+				"eng": "Sending messages with images requires donation tier of '${donationName}' or above.",
+				"trans": "画像付きメッセージは、${donationName}ティア以上のご支援で送信可能になります。",
+				"vars": [
+					"donationName"
 				]
 			}
 		},

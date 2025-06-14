@@ -1321,6 +1321,10 @@
 					"profile"
 				]
 			},
+			"sendImage": {
+				"eng": "Send images in mail to players who added you as friend",
+				"trans": "Send images in mail to players who added you as friend"
+			},
 			"title": {
 				"eng": "\"${name}\" donation title",
 				"trans": "\"${name}\" donation title",
@@ -4649,6 +4653,20 @@
 			"trans": "Added new time limited chat frame and emblems, only purchasable during event period."
 		}
 	},
+	"mail": {
+		"cannotSendImageToNonFriend": {
+			"eng": "You can only send images to players who has added you to their friend list",
+			"trans": "You can only send images to players who has added you to their friend list"
+		},
+		"imageSendLimit": {
+			"eng": "You can only send ${limit} images every ${hours} hours",
+			"trans": "You can only send ${limit} images every ${hours} hours",
+			"vars": [
+				"limit",
+				"hours"
+			]
+		}
+	},
 	"mailRoomContent": {
 		"time": {
 			"eng": "${time} ago",
@@ -4675,13 +4693,14 @@
 					"price"
 				]
 			},
-			"mailToSeller": {
-				"eng": "${buyer} have purchased ${amount} ${item} from your stall, you have earned ${amount} btc",
-				"trans": "${buyer} have purchased ${amount} ${item} from your stall, you have earned ${amount} btc",
+			"mailToSeller2": {
+				"eng": "${buyer} have purchased ${amount} ${item} from your stall, you have earned ${price} btc",
+				"trans": "${buyer} have purchased ${amount} ${item} from your stall, you have earned ${price} btc",
 				"vars": [
 					"amount",
 					"item",
-					"buyer"
+					"buyer",
+					"price"
 				]
 			}
 		},
@@ -4703,6 +4722,20 @@
 			"vars": [
 				"slot"
 			]
+		}
+	},
+	"messageImage": {
+		"hideImage": {
+			"eng": "Hide Image",
+			"trans": "Hide Image"
+		},
+		"imag": {
+			"eng": "image",
+			"trans": "image"
+		},
+		"revealImage": {
+			"eng": "Reveal Image",
+			"trans": "Reveal Image"
 		}
 	},
 	"minigame": {
@@ -10203,6 +10236,13 @@
 				"trans": "You need to be at least level ${level} to chat",
 				"vars": [
 					"level"
+				]
+			},
+			"noDonationToSendImage": {
+				"eng": "Sending messages with images requires donation tier of '${donationName}' or above.",
+				"trans": "Sending messages with images requires donation tier of '${donationName}' or above.",
+				"vars": [
+					"donationName"
 				]
 			}
 		},

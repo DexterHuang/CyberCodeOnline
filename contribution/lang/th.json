@@ -1321,6 +1321,10 @@
 					"profile"
 				]
 			},
+			"sendImage": {
+				"eng": "Send images in mail to players who added you as friend",
+				"trans": "ส่งรูปให้เพื่อนที่แอดมาทางจดหมายได้"
+			},
 			"title": {
 				"eng": "\"${name}\" donation title",
 				"trans": "${name} ชื่อของขวัญ",
@@ -4649,6 +4653,20 @@
 			"trans": "เพิ่มกรอบการแชทและตราสัญลักษณ์ จำกัด เวลาใหม่ซื้อได้เฉพาะในช่วงระยะเวลาเหตุการณ์"
 		}
 	},
+	"mail": {
+		"cannotSendImageToNonFriend": {
+			"eng": "You can only send images to players who has added you to their friend list",
+			"trans": "ส่งรูปให้เพื่อนที่แอดแล้วเท่านั้นนะ"
+		},
+		"imageSendLimit": {
+			"eng": "You can only send ${limit} images every ${hours} hours",
+			"trans": "ส่งรูปได้ ${limit} รูป/ ${hours} ชม",
+			"vars": [
+				"limit",
+				"hours"
+			]
+		}
+	},
 	"mailRoomContent": {
 		"time": {
 			"eng": "${time} ago",
@@ -4675,13 +4693,14 @@
 					"price"
 				]
 			},
-			"mailToSeller": {
-				"eng": "${buyer} have purchased ${amount} ${item} from your stall, you have earned ${amount} btc",
-				"trans": "${buyer} ซื้อ ${amount} ${item} จากร้านคุณ ได้รับ ${amount} btc",
+			"mailToSeller2": {
+				"eng": "${buyer} have purchased ${amount} ${item} from your stall, you have earned ${price} btc",
+				"trans": "${buyer} ซื้อ ${item} จากร้านคุณไป ${amount} ชิ้น คุณได้รับ ${price} btc นะ",
 				"vars": [
 					"amount",
 					"item",
-					"buyer"
+					"buyer",
+					"price"
 				]
 			}
 		},
@@ -4703,6 +4722,20 @@
 			"vars": [
 				"slot"
 			]
+		}
+	},
+	"messageImage": {
+		"hideImage": {
+			"eng": "Hide Image",
+			"trans": "ซ่อนภาพ"
+		},
+		"imag": {
+			"eng": "image",
+			"trans": "ภาพ (pâap) or ไอคอน (ai-kon)"
+		},
+		"revealImage": {
+			"eng": "Reveal Image",
+			"trans": "เผยภาพ"
 		}
 	},
 	"minigame": {
@@ -9990,6 +10023,13 @@
 				"trans": "คุณต้องมีระดับอย่างน้อย ${level} ในการแชท",
 				"vars": [
 					"level"
+				]
+			},
+			"noDonationToSendImage": {
+				"eng": "Sending messages with images requires donation tier of '${donationName}' or above.",
+				"trans": "การส่งข้อความที่มีรูปภาพ ต้องเป็นผู้บริจาคระดับ '${donationName}' ขึ้นไปเท่านั้น",
+				"vars": [
+					"donationName"
 				]
 			}
 		},

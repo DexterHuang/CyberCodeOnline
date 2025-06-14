@@ -1321,6 +1321,10 @@
 					"profile"
 				]
 			},
+			"sendImage": {
+				"eng": "Send images in mail to players who added you as friend",
+				"trans": "Manda immagini via mail ai giocatori che ti hanno aggiunto agli amici"
+			},
 			"title": {
 				"eng": "\"${name}\" donation title",
 				"trans": "Titolo del dono ${name}",
@@ -4649,6 +4653,20 @@
 			"trans": "Aggiunto nuovo tempo di chat limitato ed emblemi, acquistabili solo durante il periodo degli eventi."
 		}
 	},
+	"mail": {
+		"cannotSendImageToNonFriend": {
+			"eng": "You can only send images to players who has added you to their friend list",
+			"trans": "Puoi inviare immagini solo a chi ti ha tra gli amici"
+		},
+		"imageSendLimit": {
+			"eng": "You can only send ${limit} images every ${hours} hours",
+			"trans": "Puoi inviare al massimo ${limit} immagini ogni ${hours} ore",
+			"vars": [
+				"limit",
+				"hours"
+			]
+		}
+	},
 	"mailRoomContent": {
 		"time": {
 			"eng": "${time} ago",
@@ -4675,13 +4693,14 @@
 					"price"
 				]
 			},
-			"mailToSeller": {
-				"eng": "${buyer} have purchased ${amount} ${item} from your stall, you have earned ${amount} btc",
-				"trans": "${buyer} ha acquistato ${amount} ${item} dal tuo stall, hai guadagnato ${amount} btc",
+			"mailToSeller2": {
+				"eng": "${buyer} have purchased ${amount} ${item} from your stall, you have earned ${price} btc",
+				"trans": "${buyer} ti ha appena comprato ${amount} ${item}! Incassati ${price} btc",
 				"vars": [
 					"amount",
 					"item",
-					"buyer"
+					"buyer",
+					"price"
 				]
 			}
 		},
@@ -4703,6 +4722,20 @@
 			"vars": [
 				"slot"
 			]
+		}
+	},
+	"messageImage": {
+		"hideImage": {
+			"eng": "Hide Image",
+			"trans": "Nascondi foto"
+		},
+		"imag": {
+			"eng": "image",
+			"trans": "Immagine"
+		},
+		"revealImage": {
+			"eng": "Reveal Image",
+			"trans": "Rivelare Immagine"
 		}
 	},
 	"minigame": {
@@ -10203,6 +10236,13 @@
 				"trans": "Devi essere almeno di livello ${level} per chattare",
 				"vars": [
 					"level"
+				]
+			},
+			"noDonationToSendImage": {
+				"eng": "Sending messages with images requires donation tier of '${donationName}' or above.",
+				"trans": "Per inviare messaggi con immagini, devi avere almeno il livello di donazione '${donationName}'.",
+				"vars": [
+					"donationName"
 				]
 			}
 		},

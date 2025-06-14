@@ -1320,6 +1320,10 @@
 					"profile"
 				]
 			},
+			"sendImage": {
+				"eng": "Send images in mail to players who added you as friend",
+				"trans": "Надсилайте зображення друзям у повідомленнях, якщо вони додали вас до друзів!"
+			},
 			"title": {
 				"eng": "\"${name}\" donation title",
 				"trans": "Назва донату",
@@ -4648,6 +4652,20 @@
 			"trans": "Додано нове оформлення чату та емблеми, що обмежуються часом, лише в період подій."
 		}
 	},
+	"mail": {
+		"cannotSendImageToNonFriend": {
+			"eng": "You can only send images to players who has added you to their friend list",
+			"trans": "Зображення доступні для надсилання лише тим гравцям, які є у вашому списку друзів"
+		},
+		"imageSendLimit": {
+			"eng": "You can only send ${limit} images every ${hours} hours",
+			"trans": "Ви можете відправити лише ${limit} зображень протягом ${hours} годин",
+			"vars": [
+				"limit",
+				"hours"
+			]
+		}
+	},
 	"mailRoomContent": {
 		"time": {
 			"eng": "${time} ago",
@@ -4674,13 +4692,14 @@
 					"price"
 				]
 			},
-			"mailToSeller": {
-				"eng": "${buyer} have purchased ${amount} ${item} from your stall, you have earned ${amount} btc",
-				"trans": "${buyer} придбав ${amount} ${item} у вашому магазині, ви отримали ${amount} btc",
+			"mailToSeller2": {
+				"eng": "${buyer} have purchased ${amount} ${item} from your stall, you have earned ${price} btc",
+				"trans": "${buyer} придбав/придбала ${amount} ${item} з вашого прилавка. На ваш рахунок зараховано ${price} btc",
 				"vars": [
 					"amount",
 					"item",
-					"buyer"
+					"buyer",
+					"price"
 				]
 			}
 		},
@@ -4702,6 +4721,20 @@
 			"vars": [
 				"slot"
 			]
+		}
+	},
+	"messageImage": {
+		"hideImage": {
+			"eng": "Hide Image",
+			"trans": "Приховати зображення"
+		},
+		"imag": {
+			"eng": "image",
+			"trans": "Візуал"
+		},
+		"revealImage": {
+			"eng": "Reveal Image",
+			"trans": "Розкрити зображення"
 		}
 	},
 	"minigame": {
@@ -10190,6 +10223,13 @@
 				"trans": "Досягніть ${level} рівеня, щоб почати спілкуватись у чаті",
 				"vars": [
 					"level"
+				]
+			},
+			"noDonationToSendImage": {
+				"eng": "Sending messages with images requires donation tier of '${donationName}' or above.",
+				"trans": "Щоб надсилати повідомлення з картинками, потрібен рівень донату '${donationName}' чи вищий.",
+				"vars": [
+					"donationName"
 				]
 			}
 		},
