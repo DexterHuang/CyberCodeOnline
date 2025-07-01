@@ -15,9 +15,9 @@ Did you like the game and fancy helping the game? you can:
 
 ![image](https://github.com/user-attachments/assets/16df503a-a0ec-431d-80b4-c15d84dd12fa)
 
-- Summer Event (July 1st to August 31st):
+- Summer Event (July 1st to July 31st - May be extended depending on situation):
   - During the event, `Sea Shells` will have a chance to drop from AFK Bot Farms, Scavenging activities, and Loot Crates. You can exchange `Sea Shells` with Josie at Crystal Beach for various items.
-  - `Sea Shells` are giftable, and are time-limited only during the event
+  - `Sea Shells` are tradable between players, and are time-limited only during the event
   - Calibration contributions will have up to a 5% discount for early contributors.
   - A "Summer Bonus" is active for top-ups, granting bonus items.
 - Fixed issue with sometimes when the event has ended, the event item still drops until server manual restart
@@ -25,7 +25,6 @@ Did you like the game and fancy helping the game? you can:
 - Added new chat frame `NEON ELITE`
 
 ![image](https://github.com/user-attachments/assets/2ad9b33a-68aa-47ea-a706-be7e7845930a)
-
 
 ### 0.1872
 
