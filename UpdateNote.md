@@ -11,13 +11,24 @@ Did you like the game and fancy helping the game? you can:
 
 ## Updates
 
+### 0.1873
+
+- Summer Event (July 1st to August 31st):
+  - During the event, `Sea Shells` will have a chance to drop from AFK Bot Farms, Scavenging activities, and Loot Crates. You can exchange `Sea Shells` with Josie at Crystal Beach for various items.
+  - `Sea Shells` are giftable, and are time-limited only during the event
+  - Calibration contributions will have up to a 5% discount for early contributors.
+  - A "Summer Bonus" is active for top-ups, granting bonus items.
+- Fixed issue with sometimes when the event has ended, the event item still drops until server manual restart
+- Fixed issue with chat
+- Added new chat frame `NEON ELITE`
+
 ### 0.1872
 
 - Added new Elite or above donator feature, you can now send image to players who has added you as friend; You can only send image to players that has added you as friend, you adding them as friend will does not count. this is to prevent people from sending unwanted images.
-there is a limit for how many images you can send in a period, it is subject to change depending on situation such.
-Images received will be shown as blurred, and when clicked the image will be revealed. this is a additional safety feature to allow you not to see the image if you do not want to.
-**IMPORTANT: The image sent is NOT encrypted and NOT secure, DO NOT send sensitive images**
-**If someone is sending you image you do not want to receive, simply remove them from your friend list**
+  there is a limit for how many images you can send in a period, it is subject to change depending on situation such.
+  Images received will be shown as blurred, and when clicked the image will be revealed. this is a additional safety feature to allow you not to see the image if you do not want to.
+  **IMPORTANT: The image sent is NOT encrypted and NOT secure, DO NOT send sensitive images**
+  **If someone is sending you image you do not want to receive, simply remove them from your friend list**
 
 - Fixed translation error in market transaction mail
 
