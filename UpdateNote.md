@@ -9,6 +9,31 @@ Did you like the game and fancy helping the game? you can:
 - Deploy some global buff or skips for the community
 - Contribute to our WIKI, Lores and other configs on our [GitHub](https://github.com/DexterHuang/CyberCodeOnlin
 
+## Upcoming Update Notice
+
+Epic Equipment Exchange (Subject to change and player feedback):
+
+- You can exchange 4 Epic Equipments to random amount of `Epic Cache Fragment`s base on random chances, currently set to from lowest 1 `Epic Cache Fragment` to highest 3 `Epic Cache Fragment`s (this is subjected to change base on feedback and testing)
+- You can exchange 4 `Epic Cache Fragment` to 1 random Epic Equipment Cache
+- The exchange will need to be activated with a global buff, this is to eliminate the worry of sudden influx of new epic cache into the market; this will slow down the rate of exchange, to reduce the shock to the market.
+
+**Why?**
+This is to address two frequently player requested features:
+
+- Allowing players to change unwanted epic equipment cache type to other type
+- Allowing players to exchange "bad epic rolls" to try again
+
+Additionally, in the long term, this will:
+
+- Reduce the amount of Epic Caches and Equipments in the market and encourages trade
+- All exchanges will be less than 4 to 1 rate, so net amount of Epic Caches and Equipments will be reduced
+- Introduce additional use for epic equipments that is unwanted for whatever reason deem as "bad epic rolls"
+- caches of unwanted type can be printed then exchanged to become another type of cache
+- Encourage buying of any type of epic cache since they now can be used in other way
+
+**Feedback and suggestions are welcome**
+Please send your feedback to my Discord or email directly.
+
 ## Updates
 
 ### 0.1873
