@@ -42,13 +42,19 @@
 			]
 		},
 		"currency": {
-			"mostEfficient": {
-				"eng": "Most Efficient!",
-				"trans": "Am Effizientesten!"
-			},
 			"paypalExclusive": {
 				"eng": "PayPal Exclusive!",
 				"trans": "PayPal Exklusiv!"
+			},
+			"tag": {
+				"bestValue": {
+					"eng": "Best Value!",
+					"trans": "Top-Angebot!"
+				},
+				"popular": {
+					"eng": "Popular",
+					"trans": "Beliebt"
+				}
 			}
 		},
 		"paypal": {
@@ -564,6 +570,10 @@
 				"trans": "Shangri-la"
 			}
 		},
+		"jukeBox": {
+			"eng": "JukeBox",
+			"trans": "Musikbox"
+		},
 		"rent": {
 			"paidMail": {
 				"eng": "You have paid your apartment rent of ${amount}",
@@ -639,6 +649,12 @@
 				"eng": "Select an item to bind to quick slot",
 				"trans": "Wählen ein Item aus, das an den Quick Slot gebunden werden soll"
 			}
+		}
+	},
+	"buffActivateButton": {
+		"alreadyActivated": {
+			"eng": "Activated",
+			"trans": "Aktiviert"
 		}
 	},
 	"buffActivation": {
@@ -2006,6 +2022,10 @@
 			"name": {
 				"eng": "Summer",
 				"trans": "Sommer"
+			},
+			"topUpRewardTitle": {
+				"eng": "Summer Bonus",
+				"trans": "Sommerbonus"
 			}
 		},
 		"thanksgiving": {
@@ -2022,6 +2042,22 @@
 		}
 	},
 	"gameEventBenefits": {
+		"afkDrops": {
+			"eng": "AFK Farming Drops",
+			"trans": "AFK-Farmen-Belohnungen"
+		},
+		"afkDropsDesc": {
+			"eng": "Bonus items from AFK bot farming:",
+			"trans": "Zusätzliche Belohnungen beim AFK-Bot-Farmen:"
+		},
+		"bgm": {
+			"eng": "Special background music plays during the event",
+			"trans": "Spezielle Hintergrundmusik spielt während des Events"
+		},
+		"bgmTitle": {
+			"eng": "Special Music",
+			"trans": "Besondere Musik"
+		},
 		"caliSubtitle": {
 			"eng": "Reduced contribution requirements:",
 			"trans": "Reduzierte Beitragsanforderungen:"
@@ -2033,6 +2069,14 @@
 		"chatEffect": {
 			"eng": "Exclusive chat effects available during the event",
 			"trans": "Exklusive Chat-Effekte während des Events verfügbar"
+		},
+		"chatRewards": {
+			"eng": "Chat Rewards",
+			"trans": "Belohnungen fürs Chatten"
+		},
+		"chatRewardsDesc": {
+			"eng": "Rewards from chatting during the event:",
+			"trans": "Belohnungen fürs Chatten im Event:"
 		},
 		"chatTitle": {
 			"eng": "Chat Effects",
@@ -2046,17 +2090,33 @@
 				"ranges"
 			]
 		},
+		"dungeonDrops": {
+			"eng": "Dungeon Chest Drops",
+			"trans": "Beute aus Dungeon-Kisten"
+		},
+		"dungeonDropsDesc": {
+			"eng": "Bonus items from dungeon chests:",
+			"trans": "Zusätzliche Gegenstände aus Dungeon-Schatztruhen:"
+		},
 		"earlyContributors": {
 			"eng": "Early contributors receive higher discounts!",
 			"trans": "Frühe Mitwirkende erhalten höhere Rabatte!"
 		},
-		"lootCrate": {
-			"eng": "Special items available in loot crates during the event",
-			"trans": "Besondere Gegenstände in Loot-Containern während des Events verfügbar"
+		"lootCrateDesc": {
+			"eng": "Special items available in dungeon loot crates:",
+			"trans": "Exklusive Items in Dungeon-Lootkisten erhältlich:"
 		},
 		"lootTitle": {
-			"eng": "Special Loot",
+			"eng": "Dungeon Loot Crates",
 			"trans": "Sonderbeute"
+		},
+		"monsterDrops": {
+			"eng": "Monster Drops",
+			"trans": "Monster-Drops"
+		},
+		"monsterDropsDesc": {
+			"eng": "Bonus items from defeating monsters:",
+			"trans": "Belohnungen für besiegt Monster:"
 		},
 		"partySubtitle": {
 			"eng": "Reduced contribution requirements:",
@@ -2065,6 +2125,14 @@
 		"partyTitle": {
 			"eng": "Party Discount",
 			"trans": "Party-Rabatt"
+		},
+		"scavengingDrops": {
+			"eng": "Scavenging Drops",
+			"trans": "Beute beim Sammeln"
+		},
+		"scavengingDropsDesc": {
+			"eng": "Bonus items from scavenging:",
+			"trans": "Bonusgegenstände beim Plündern:"
 		},
 		"skipDiscount": {
 			"description": {
@@ -2080,8 +2148,10 @@
 			}
 		},
 		"topUpReward": {
-			"eng": "Special rewards available when topping up during the event",
-			"trans": "Besondere Belohnungen verfügbar, wenn du während des Events auflädst"
+			"description": {
+				"eng": "Get bonus reward when topping up during the event",
+				"trans": "Toppen Sie auf und holen Sie sich Bonus-Belohnungen während des Events!"
+			}
 		},
 		"topUpTitle": {
 			"eng": "Top-Up Rewards",
@@ -3620,7 +3690,7 @@
 		},
 		"seashell": {
 			"description": {
-				"eng": "A beautiful seashell that can be used to exchange items",
+				"eng": "A beautiful seashell that can be used to exchange items with Josie",
 				"trans": "Eine schöne Muschel, die zum Tauschen von Gegenständen verwendet werden kann"
 			},
 			"name": {
@@ -3632,6 +3702,20 @@
 			"name": {
 				"eng": "Special Weapon",
 				"trans": "Spezialwaffe"
+			}
+		},
+		"skipDiscountTicket": {
+			"description": {
+				"eng": "This encrypted voucher automatically activates when initiating a time skip, exploiting system loopholes to apply a ${lowPercent}% discount or ${highPercent}% discount for time skip over 105 minutes. The grid silently processes the deduction before self-destructing the ticket; no manual activation required, no digital traces left behind.",
+				"trans": "Dieser verschlüsselte Gutschein wird automatisch aktiviert, wenn ein Zeitsprung gestartet wird. Er nutzt Systemlücken aus, um einen Rabatt von ${lowPercent}% oder bei Zeitsprüngen über 105 Minuten sogar ${highPercent}% zu gewähren. Das System verarbeitet den Abzug leise und zerstört das Ticket anschließend selbsttätig – ohne manuelle Aktivierung und ohne digitale Spuren.",
+				"vars": [
+					"lowPercent",
+					"highPercent"
+				]
+			},
+			"name": {
+				"eng": "Skip Discount Ticket",
+				"trans": "Rabatt-Überspringen-Ticket"
 			}
 		},
 		"soda": {
@@ -4067,6 +4151,80 @@
 		"providesEffect": {
 			"eng": "Provides special effects when used",
 			"trans": "Bietet Spezialeffekte bei Verwendung"
+		}
+	},
+	"jukeBox": {
+		"override": {
+			"description": {
+				"eng": "Force system-wide playback of selected track",
+				"trans": "Erzwinge die systemweite Wiedergabe des ausgewählten Tracks"
+			},
+			"title": {
+				"eng": "Music Override Engaged",
+				"trans": "Musik-Override eingeschaltet"
+			}
+		},
+		"selectTrack": {
+			"eng": "Select Audio Track",
+			"trans": "Audiospur auswählen"
+		},
+		"tip": {
+			"eng": "Customize your apartment's background music by selecting tracks and enabling override to replace location-based audio.",
+			"trans": "Passe die Hintergrundmusik deiner Wohnung an, indem du Tracks auswählst und das Überschreiben aktivierst, um ortsgebundene Audio zu ersetzen."
+		},
+		"title": {
+			"eng": "JukeBox",
+			"trans": "Musikbox"
+		},
+		"tracks": {
+			"afk": {
+				"name": {
+					"eng": "AFK",
+					"trans": "AFK"
+				}
+			},
+			"beach": {
+				"name": {
+					"eng": "Beach",
+					"trans": "Strand"
+				}
+			},
+			"boss": {
+				"name": {
+					"eng": "Boss Battle",
+					"trans": "Bosskampf"
+				}
+			},
+			"default": {
+				"name": {
+					"eng": "Default",
+					"trans": "Voreingestellt"
+				}
+			},
+			"dungeon": {
+				"name": {
+					"eng": "Dungeon",
+					"trans": "Kerker"
+				}
+			},
+			"gang": {
+				"name": {
+					"eng": "Gang HQ",
+					"trans": "Gang Hauptquartier"
+				}
+			},
+			"home": {
+				"name": {
+					"eng": "Apartment",
+					"trans": "Wohnung"
+				}
+			},
+			"market": {
+				"name": {
+					"eng": "Market",
+					"trans": "Markt"
+				}
+			}
 		}
 	},
 	"leaderboard": {
@@ -8108,23 +8266,6 @@
 		}
 	},
 	"summerPromo": {
-		"desc1": {
-			"eng": "Get up to ${percent}% off on contribution to global buffs during event period, starting first ${contributors} contributors with ${percent}%",
-			"trans": "Erhalte bis zu ${percent}% Rabatt auf Beiträge zu globalen Buffs während des Eventzeitraums, beginnend mit den ersten ${contributors} Beiträgen mit ${percent}%",
-			"vars": [
-				"contributors",
-				"percent"
-			]
-		},
-		"desc2v2": {
-			"eng": "Collect ${itemName} to exchange for rewards at ${npcLocation} with ${npc}, you can collect ${itemName} from scavenging, AFK bot farm and dungeon crates",
-			"trans": "Sammle ${itemName}, um bei ${npcLocation} mit ${npc} Belohnungen einzutauschen. Du kannst ${itemName} durch Plündern, AFK-Bot-Farmen und Dungeonkisten sammeln",
-			"vars": [
-				"itemName",
-				"npcLocation",
-				"npc"
-			]
-		},
 		"subtitle": {
 			"eng": "Its time for the summer beach! don't miss out on the fun!",
 			"trans": "Es ist Zeit für den Sommerstrand! Verpass nicht den Spaß!"
@@ -9006,6 +9147,12 @@
 					"vars": [
 						"name"
 					]
+				}
+			},
+			"skippingBuff": {
+				"title": {
+					"eng": "Skip buff sponsored by:",
+					"trans": "Buff überspringen, gesponsert von:"
 				}
 			}
 		},
@@ -10692,6 +10839,10 @@
 			}
 		},
 		"setting": {
+			"backgroundMusicVolume": {
+				"eng": "Background Music Volume",
+				"trans": "Hintergrundmusik-Lautstärke"
+			},
 			"blockGifts": {
 				"title": {
 					"eng": "Disable receiving gifts",
@@ -10826,6 +10977,16 @@
 				"title": {
 					"eng": "Never ask for notification permission",
 					"trans": "Nie um Erlaubnis für Benachrichtigungen bitten"
+				}
+			},
+			"overrideBackgroundMusic": {
+				"description": {
+					"eng": "Allow apartment jukebox to override background music",
+					"trans": "Erlaube dem Apartment-Jukebox, die Hintergrundmusik zu überschreiben"
+				},
+				"title": {
+					"eng": "Enable Apartment Jukebox",
+					"trans": "Wohnungs-Jukebox aktivieren"
 				}
 			},
 			"pcDisableChatDragReply": {
@@ -11038,6 +11199,14 @@
 					"trans": "Überspringe ${minutes} Minuten",
 					"vars": [
 						"minutes"
+					]
+				},
+				"ticketItem": {
+					"eng": "${percent}% off from ${itemName}",
+					"trans": "${percent}% Rabatt auf ${itemName}",
+					"vars": [
+						"itemName",
+						"percent"
 					]
 				},
 				"title2": {

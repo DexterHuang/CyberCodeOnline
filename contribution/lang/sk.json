@@ -42,13 +42,19 @@
 			]
 		},
 		"currency": {
-			"mostEfficient": {
-				"eng": "Most Efficient!",
-				"trans": "Najúčinnejšie!"
-			},
 			"paypalExclusive": {
 				"eng": "PayPal Exclusive!",
 				"trans": "PayPal Exklusive!"
+			},
+			"tag": {
+				"bestValue": {
+					"eng": "Best Value!",
+					"trans": "Parádna hodnota!"
+				},
+				"popular": {
+					"eng": "Popular",
+					"trans": "Najpredávanejšie"
+				}
 			}
 		},
 		"paypal": {
@@ -564,6 +570,10 @@
 				"trans": "Shangri-la"
 			}
 		},
+		"jukeBox": {
+			"eng": "JukeBox",
+			"trans": "Jukebox"
+		},
 		"rent": {
 			"paidMail": {
 				"eng": "You have paid your apartment rent of ${amount}",
@@ -639,6 +649,12 @@
 				"eng": "Select an item to bind to quick slot",
 				"trans": "Vyberte položku, ktorá sa viaže na rýchly slot"
 			}
+		}
+	},
+	"buffActivateButton": {
+		"alreadyActivated": {
+			"eng": "Activated",
+			"trans": "Aktívne"
 		}
 	},
 	"buffActivation": {
@@ -2006,6 +2022,10 @@
 			"name": {
 				"eng": "Summer",
 				"trans": "Leto"
+			},
+			"topUpRewardTitle": {
+				"eng": "Summer Bonus",
+				"trans": "Letný Bonus"
 			}
 		},
 		"thanksgiving": {
@@ -2022,6 +2042,22 @@
 		}
 	},
 	"gameEventBenefits": {
+		"afkDrops": {
+			"eng": "AFK Farming Drops",
+			"trans": "Úlovky z AFK farmenia"
+		},
+		"afkDropsDesc": {
+			"eng": "Bonus items from AFK bot farming:",
+			"trans": "Bonus items from AFK bot farming:"
+		},
+		"bgm": {
+			"eng": "Special background music plays during the event",
+			"trans": "Počas podujatia hrá exkluzívna hudba na pozadí"
+		},
+		"bgmTitle": {
+			"eng": "Special Music",
+			"trans": "Unikátna Hudba"
+		},
 		"caliSubtitle": {
 			"eng": "Reduced contribution requirements:",
 			"trans": "Znížené požiadavky na príspevky:"
@@ -2033,6 +2069,14 @@
 		"chatEffect": {
 			"eng": "Exclusive chat effects available during the event",
 			"trans": "Exkluzívne efekty chatu dostupné počas podujatia"
+		},
+		"chatRewards": {
+			"eng": "Chat Rewards",
+			"trans": "Chatové bonusy"
+		},
+		"chatRewardsDesc": {
+			"eng": "Rewards from chatting during the event:",
+			"trans": "Odmeny za chat počas akcie:"
 		},
 		"chatTitle": {
 			"eng": "Chat Effects",
@@ -2046,17 +2090,33 @@
 				"ranges"
 			]
 		},
+		"dungeonDrops": {
+			"eng": "Dungeon Chest Drops",
+			"trans": "Dungeon Chest Drops"
+		},
+		"dungeonDropsDesc": {
+			"eng": "Bonus items from dungeon chests:",
+			"trans": "Bonusové predmety z truhlíc v podzemí:"
+		},
 		"earlyContributors": {
 			"eng": "Early contributors receive higher discounts!",
 			"trans": "Skorí prispievatelia získavajú vyššie zľavy!"
 		},
-		"lootCrate": {
-			"eng": "Special items available in loot crates during the event",
-			"trans": "Špeciálne predmety dostupné v loot crate počas podujatia"
+		"lootCrateDesc": {
+			"eng": "Special items available in dungeon loot crates:",
+			"trans": "Special items available in dungeon loot crates:"
 		},
 		"lootTitle": {
-			"eng": "Special Loot",
+			"eng": "Dungeon Loot Crates",
 			"trans": "Špeciálny loot"
+		},
+		"monsterDrops": {
+			"eng": "Monster Drops",
+			"trans": "Úlovky z Príšer"
+		},
+		"monsterDropsDesc": {
+			"eng": "Bonus items from defeating monsters:",
+			"trans": "Extra odmeny za porazenie príšer:"
 		},
 		"partySubtitle": {
 			"eng": "Reduced contribution requirements:",
@@ -2065,6 +2125,14 @@
 		"partyTitle": {
 			"eng": "Party Discount",
 			"trans": "Zľava na párty"
+		},
+		"scavengingDrops": {
+			"eng": "Scavenging Drops",
+			"trans": "Úlovky zo zberu"
+		},
+		"scavengingDropsDesc": {
+			"eng": "Bonus items from scavenging:",
+			"trans": "Extra odmeny z hľadania:"
 		},
 		"skipDiscount": {
 			"description": {
@@ -2080,8 +2148,10 @@
 			}
 		},
 		"topUpReward": {
-			"eng": "Special rewards available when topping up during the event",
-			"trans": "Špeciálne odmeny dostupné pri dobití počas podujatia"
+			"description": {
+				"eng": "Get bonus reward when topping up during the event",
+				"trans": "Získajte extra odmenu za dobitie kreditu počas udalosti!"
+			}
 		},
 		"topUpTitle": {
 			"eng": "Top-Up Rewards",
@@ -3620,7 +3690,7 @@
 		},
 		"seashell": {
 			"description": {
-				"eng": "A beautiful seashell that can be used to exchange items",
+				"eng": "A beautiful seashell that can be used to exchange items with Josie",
 				"trans": "Krásna mušľa, ktorá sa dá použiť na výmenu predmetov"
 			},
 			"name": {
@@ -3632,6 +3702,20 @@
 			"name": {
 				"eng": "Special Weapon",
 				"trans": "Špeciálna zbraň"
+			}
+		},
+		"skipDiscountTicket": {
+			"description": {
+				"eng": "This encrypted voucher automatically activates when initiating a time skip, exploiting system loopholes to apply a ${lowPercent}% discount or ${highPercent}% discount for time skip over 105 minutes. The grid silently processes the deduction before self-destructing the ticket; no manual activation required, no digital traces left behind.",
+				"trans": "This encrypted voucher automatically activates when initiating a time skip, exploiting system loopholes to apply a ${lowPercent}% discount or ${highPercent}% discount for time skip over 105 minutes. The grid silently processes the deduction before self-destructing the ticket; no manual activation required, no digital traces left behind.",
+				"vars": [
+					"lowPercent",
+					"highPercent"
+				]
+			},
+			"name": {
+				"eng": "Skip Discount Ticket",
+				"trans": "Skip Discount Ticket"
 			}
 		},
 		"soda": {
@@ -4067,6 +4151,80 @@
 		"providesEffect": {
 			"eng": "Provides special effects when used",
 			"trans": "Pri použití spúšťa špeciálne efekty"
+		}
+	},
+	"jukeBox": {
+		"override": {
+			"description": {
+				"eng": "Force system-wide playback of selected track",
+				"trans": "Systémové prehrávanie vybranej skladby – vynútené"
+			},
+			"title": {
+				"eng": "Music Override Engaged",
+				"trans": "Music Override Engaged"
+			}
+		},
+		"selectTrack": {
+			"eng": "Select Audio Track",
+			"trans": "Select Audio Track"
+		},
+		"tip": {
+			"eng": "Customize your apartment's background music by selecting tracks and enabling override to replace location-based audio.",
+			"trans": "Zmeň si hudbu v byte! Vyber si tracky a zapni prepísanie, aby si prebil hudbu prostredia."
+		},
+		"title": {
+			"eng": "JukeBox",
+			"trans": "Jukebox"
+		},
+		"tracks": {
+			"afk": {
+				"name": {
+					"eng": "AFK",
+					"trans": "AFK"
+				}
+			},
+			"beach": {
+				"name": {
+					"eng": "Beach",
+					"trans": "Pláž"
+				}
+			},
+			"boss": {
+				"name": {
+					"eng": "Boss Battle",
+					"trans": "Boss fight"
+				}
+			},
+			"default": {
+				"name": {
+					"eng": "Default",
+					"trans": "Predvolené"
+				}
+			},
+			"dungeon": {
+				"name": {
+					"eng": "Dungeon",
+					"trans": "Žaláro"
+				}
+			},
+			"gang": {
+				"name": {
+					"eng": "Gang HQ",
+					"trans": "Sídlo Gangu"
+				}
+			},
+			"home": {
+				"name": {
+					"eng": "Apartment",
+					"trans": "Byt"
+				}
+			},
+			"market": {
+				"name": {
+					"eng": "Market",
+					"trans": "Obchod"
+				}
+			}
 		}
 	},
 	"leaderboard": {
@@ -8321,23 +8479,6 @@
 		}
 	},
 	"summerPromo": {
-		"desc1": {
-			"eng": "Get up to ${percent}% off on contribution to global buffs during event period, starting first ${contributors} contributors with ${percent}%",
-			"trans": "Získajte až ${percent}% zľavu na príspevky k globálnym buffom počas trvania akcie, začínajúc prvými ${contributors} prispievateľmi s ${percent}%",
-			"vars": [
-				"contributors",
-				"percent"
-			]
-		},
-		"desc2v2": {
-			"eng": "Collect ${itemName} to exchange for rewards at ${npcLocation} with ${npc}, you can collect ${itemName} from scavenging, AFK bot farm and dungeon crates",
-			"trans": "Zbieraj ${itemName} na výmenu za odmeny v ${npcLocation}. S ${npc} môžeš zbierať ${itemName} z prehľadávania, AFK bot farmy a z dungeónových truhlíc",
-			"vars": [
-				"itemName",
-				"npcLocation",
-				"npc"
-			]
-		},
 		"subtitle": {
 			"eng": "Its time for the summer beach! don't miss out on the fun!",
 			"trans": "Je čas na letnú pláž! Nenechaj si ujsť zábavu!"
@@ -9219,6 +9360,12 @@
 					"vars": [
 						"name"
 					]
+				}
+			},
+			"skippingBuff": {
+				"title": {
+					"eng": "Skip buff sponsored by:",
+					"trans": "Boost preskočenia od:"
 				}
 			}
 		},
@@ -10905,6 +11052,10 @@
 			}
 		},
 		"setting": {
+			"backgroundMusicVolume": {
+				"eng": "Background Music Volume",
+				"trans": "Hlasitosť hudby pozadia"
+			},
 			"blockGifts": {
 				"title": {
 					"eng": "Disable receiving gifts",
@@ -11039,6 +11190,16 @@
 				"title": {
 					"eng": "Never ask for notification permission",
 					"trans": "Nikdy nežiadaj o povolenie na notifikácie"
+				}
+			},
+			"overrideBackgroundMusic": {
+				"description": {
+					"eng": "Allow apartment jukebox to override background music",
+					"trans": "Zapnúť, aby jukebox v byte prehral hudbu namiesto hudby na pozadí"
+				},
+				"title": {
+					"eng": "Enable Apartment Jukebox",
+					"trans": "Zapnúť Jukebox v byte"
 				}
 			},
 			"pcDisableChatDragReply": {
@@ -11251,6 +11412,14 @@
 					"trans": "${minutes} jednotky",
 					"vars": [
 						"minutes"
+					]
+				},
+				"ticketItem": {
+					"eng": "${percent}% off from ${itemName}",
+					"trans": "Ušetrite ${percent}% na ${itemName}",
+					"vars": [
+						"itemName",
+						"percent"
 					]
 				},
 				"title2": {
