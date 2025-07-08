@@ -36,6 +36,11 @@ Please send your feedback to my Discord or email directly.
 
 ## Updates
 
+### 0.1874
+
+- Added JukeBox in apartment, you can now select a background music in your apartment and have it as the overriding background music no matter the location you are at. this can be disabled in the settings menu.
+- Added option to adjust background music volume in the settings menu
+
 ### 0.1873
 
 ![image](https://github.com/user-attachments/assets/16df503a-a0ec-431d-80b4-c15d84dd12fa)
