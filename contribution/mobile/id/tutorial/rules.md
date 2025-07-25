@@ -42,7 +42,7 @@
 * Mengirim tautan di obrolan (Baik global, dan lokal)
 
 "jangan klik link/tautan mencurigakan, periksa kembali saat ingin mengunjungi tautan/link tersebut :)"
-- SryAa VeriKaGoras
+-SryAa VeriKaGoras
 
 
 #### Diizinkan (selama Anda tidak melanggar aturan di atas):
