@@ -40,10 +40,10 @@
 * mengiklankan game lain (Selain CCO) 
 * Meniru orang lain 
 * Mengirim tautan di obrolan (Baik global, dan lokal)
-```
+
 "jangan klik link/tautan mencurigakan, periksa kembali saat ingin mengunjungi tautan/link tersebut :)"
-- SryAa_Verikava
-```
+- SryAa VeriKaGoras
+
 
 #### Diizinkan (selama Anda tidak melanggar aturan di atas):
 * Emoji😃 / Kaomoji ~ヾ(＾∇＾) / -𝖘𝖙𝖆𝖓𝖉𝖆𝖗𝖉 (Harus mudah dibaca dan tidak menimbulkan kekacauan) 
