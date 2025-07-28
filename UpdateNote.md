@@ -36,6 +36,12 @@ Please send your feedback to my Discord or email directly.
 
 ## Updates
 
+### 0.1875
+
+- Multiple bug fixes
+- preparation for upcoming update
+- Summer event is extended to the end of August
+
 ### 0.1874
 
 - Added JukeBox in apartment, you can now select a background music in your apartment and have it as the overriding background music no matter the location you are at. this can be disabled in the settings menu.
