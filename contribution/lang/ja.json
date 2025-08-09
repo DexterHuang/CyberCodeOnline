@@ -4286,6 +4286,16 @@
 			}
 		}
 	},
+	"itemInbox": {
+		"notifySender": {
+			"eng": "${recipient} has retrived your gift items (${itemNames}) from their inbox into their inventory.",
+			"trans": "tag.\n\nLet's craft: Option A: \"${recipient}があなたのギフトアイテム(${itemNames})を受信箱からインベントリに移動しました。\"\n\nOption B: \"${recipient}が受信ボックス内のギフトアイテム(${itemNames})を自分のインベントリへ取り込みました。\"\n\nOption C: \"${recipient}があなたのギフトアイテム(${itemNames）)を受信箱からインベントリに移しました。\"\n\nChoose best: Option B is natural, uses 取り込み. I'll output that.<translation>${recipient}が受信ボックス内のギフトアイテム(${itemNames})を自分のインベントリへ取り込みました。",
+			"vars": [
+				"itemNames",
+				"recipient"
+			]
+		}
+	},
 	"itemList": {
 		"quickSelect": {
 			"eng": "Quick Select",
@@ -4464,7 +4474,7 @@
 			"afk": {
 				"name": {
 					"eng": "AFK",
-					"trans": "AFK"
+					"trans": "離席中"
 				}
 			},
 			"beach": {
@@ -7389,9 +7399,9 @@
 				"levelName"
 			]
 		},
-		"item": {
+		"itemv2": {
 			"eng": "You received ${item}",
-			"trans": "${item}を獲得",
+			"trans": "あなたは「${item}」をゲットしたよ！",
 			"vars": [
 				"item"
 			]
@@ -11379,6 +11389,16 @@
 			}
 		},
 		"setting": {
+			"animatedNpcCharacter": {
+				"description": {
+					"eng": "Show animated video for NPC characters when available",
+					"trans": "...**Step 1: Language & Cultural Context**  \n- Target language: Japanese (日本語).  \n- The phrase appears in a game settings menu, so the tone should be clear, concise, and slightly formal but still approachable for gamers.  \n- In Japanese UI text, we often use polite form (\"〜してください\") or simple declarative forms.  \n\n**Step 2: Consideration of Context**  \n- This is an option that toggles whether animated videos play for NPC characters when they exist.  \n- The translation should convey the conditional nature (“when available”) and keep it short enough for a settings label.  \n\n**Step 3: Three Potential Translations**\n\n1. **「NPCキャラクターのアニメーション動画がある場合に表示」**  \n   - Literal, but somewhat long for UI.\n\n2. **「NPCキャラ用アニメ映像を有効化（利用可能時）」**  \n   - Uses “有効化” (enable) and brackets to note condition; still a bit wordy.\n\n3. **「NPCのアニメ動画があれば再生」**  \n   - Short, clear, uses natural phrasing (“再生” = play).\n\n**Step 4: Choose Best Translation**  \nOption 3 is the most concise for UI, conveys “when available” naturally with “あれば”, and keeps a friendly tone suitable for gamers.\n\n**Step 5: Output**\n\n<translation>NPCのアニメ動画があれば再生"
+				},
+				"title": {
+					"eng": "Animated NPC Character",
+					"trans": ".."
+				}
+			},
 			"backgroundMusicVolume": {
 				"eng": "Background Music Volume",
 				"trans": "BGMボリューム"
@@ -11601,6 +11621,10 @@
 				"combat": {
 					"eng": "Combat",
 					"trans": "バトル"
+				},
+				"experimental": {
+					"eng": "Experimental",
+					"trans": "実験的"
 				},
 				"general": {
 					"eng": "General",
