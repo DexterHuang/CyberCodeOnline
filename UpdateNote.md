@@ -13,8 +13,8 @@ Did you like the game and fancy helping the game? you can:
 
 Epic Equipment Exchange (Subject to change and player feedback):
 
-- You can exchange 4 Epic Equipments to random amount of `Epic Cache Fragment`s base on random chances, currently set to from lowest 1 `Epic Cache Fragment` to highest 3 `Epic Cache Fragment`s (this is subjected to change base on feedback and testing)
-- You can exchange 4 `Epic Cache Fragment` to 1 random Epic Equipment Cache
+- You can exchange 4 Epic Equipments to random amount of `Epic Cache Fragment`s base on random chances, currently set to from lowest 1 `Epic Cache Fragment` to highest 6 `Epic Cache Fragment`s (this is subjected to change base on feedback and testing)
+- You can exchange 8 `Epic Cache Fragment` to 1 random Epic Equipment Cache
 - The exchange will need to be activated with a global buff, this is to eliminate the worry of sudden influx of new epic cache into the market; this will slow down the rate of exchange, to reduce the shock to the market.
 
 **Why?**
@@ -35,6 +35,12 @@ Additionally, in the long term, this will:
 Please send your feedback to my Discord or email directly.
 
 ## Updates
+
+### 0.1875
+
+- Multiple bug fixes
+- preparation for upcoming update
+- Summer event is extended to the end of August
 
 ### 0.1874
 
