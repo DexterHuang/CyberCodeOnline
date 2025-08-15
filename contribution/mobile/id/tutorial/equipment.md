@@ -22,7 +22,7 @@ Ini bukan aturan tentang bagaimana Anda harus mengelola berbagai jenis peralatan
 
 ## Menemukan Peralatan
 
-Anda dapat menemukan peralatan dan cache peralatan di rubanah atau saat melawan musuh individu (perkelahian jalanan).
+Anda dapat menemukan peralatan dan cache peralatan di dungeon atau saat melawan musuh individu (perkelahian jalanan).
   
 Setelah Anda mencapai tingkat 5, Anda akan dapat menggunakan Pasar Pemain untuk membeli berbagai jenis peralatan, bahan kerajinan, dan barang lainnya.
 

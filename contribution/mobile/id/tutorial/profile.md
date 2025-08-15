@@ -1,43 +1,43 @@
-## Profile
-In your Profile, there are several pieces of information and options at your disposal.
+## Profil
+dimenu Profil mu, ada beberapa menu yang dapat membantu dan informasi akun mu.
 
-Here is what you can see from your profile
- - Alias
- - Title and profile picture (if applicable)
- - Amount of BitCoins
- - Average gear level (Gear Score)
- - Current location
- - Online/Offline status (System Link)
- - Street Cred
- - Your current activity (Status)
- - Your level
- - Crafting ranks
- - Skill levels
- - Stats
+ini yang akan kau lihat di menu Profil mu
+ - Alias / Nama Pengguna
+ - Gelar / Title and Foto Profil (jika kau terapkan)
+ - Jumlah BitCoins (BTC)
+ - Level Rata-Rata Perlengkapan mu (Gear Score)
+ - Lokasi mu saat ini
+ - Status Online/Offline (System Link)
+ - Reputasi Jalanan
+ - Aktifitas mu saat ini (Status)
+ - level akun mu
+ - Level mencetak mu
+ - level keahlian mu
+ - Stats / Statistik mu
  - Gang
- - Secret Keys
+ - Kunci rahasia (untuk dungeon)
 
-In the [STATS] section, you can see the 'Global Effects' of an activated Transmitter (or boost).
+di bagian [STATS], kau bisa melihat 'efek global' atau transmisi yang sedang aktif (atau nama lainnya adalah boost).
 
-Here you can also see how long the [MUTED] status will last.
+disini kau bisa melihat berapa lama status [MUTED] mu berlangsung / habis.
 
-As the name suggests, someone with the 'MUTED' status will not be able to communication with others for a certain amount of time.
+sesuai namanya, seseorang dengan status 'MUTED' tidak dapat melakukan komunikasi dengan yang lain selama beberapa waktu.
 
-The 'MUTED' status affects all kinds of chats: both Global, Gang and Mail (Private Messaging).
+Status 'MUTED' bereffek pada seluruh chat: baik global, gang, dan juga pesan (pesan pribadi).
 
-The 'MUTED' status does not affect the ability to receive or send items to other players or the ability to play the game.
+Status'MUTED' tidak memberikan efek ke penerimaan atau pemberian item ke pemain lain ataupun akses bermain game.
 
-The 'MUTED' status is applied by the moderators (mods) to a player who has broken the rules of the game or the ones related to the chat. 
+Status 'MUTED' hanya diterapkan oleh mederator (mods) kepada pemain yang melanggar aturan permainan yang berkaitan dengan in game chat. 
 
-At the bottom of your profile, you will see a few additional options:
+dibawah Profil mu, kau akan menemukan beberapa tombol lain yaitu:
 
-- [DONATE] - this will take you to the donation tiers (Cosmetics);
+- [DONASI] - ini akan membawamu ke tier donasi (Kosmetik);
 
-- [QUIT GANG] - this will leave your gang, if you are in one;
+- [KELUAR GANG] - ini akan membuatmu keluar dari gang, jika kau bergabung (hati hati jika menekan ini jika kau gang leader);
 
-- [LOGOUT] - this will log you out of the game.
+- [KELUAR] - ini akan membuatmu keluar dari akun game mu (kau bisa login lagi).
 
-On other players' profiles, you will encounter different options:
+On other players' Profils, you will encounter different options:
 
 - [SEND PRIVATE MESSAGE] - send a private message to the player through in-game Mail.
 

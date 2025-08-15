@@ -35,10 +35,10 @@
 **Semua aturan tercantum di sini, TIDAK ADA "aturan tidak tertulis", tetapi hormatilah dan hentikan jika pemain lain tidak menyukai apa yang Anda kirimkan dalam obrolan**
 #### Tidak Diizinkan:  
 * tidak ramah sesama pemain, tidak menghargai pendapat pemain lain / menyinggung atau pesan agresif pasif (Contoh, komentar rasis, dewasa) 
-* obrolan yang tidak family friendly 
+* obrolan yang tidak family friendly (atau toxic & rasis maupun berbau nsfw dan sejenisnya)
 * Spam / Troll 
 * mengiklankan game lain (Selain CCO) 
-* Meniru orang lain 
+* Meniru orang lain (dalam bentuk apapun)
 * Mengirim tautan di obrolan (Baik global, dan lokal)
 
 "jangan klik link/tautan mencurigakan, periksa kembali saat ingin mengunjungi tautan/link tersebut :)"
