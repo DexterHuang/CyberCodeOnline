@@ -6,4 +6,4 @@ Cukup berikan nama dalam permainan Anda kepada orang tersebut, dan ketika mereka
 
 2. Ketika pemain yang Anda referensikan mencapai level `20`, Anda akan menerima beberapa hadiah:
  - 1 `Fanny Pack`
- - 1`Kontainer Terkunci Langka`
+ - 1 `Kontainer Terkunci Langka`
