@@ -11,6 +11,28 @@ Did you like the game and fancy helping the game? you can:
 
 ## Upcoming Update Notice
 
+**Feedback and suggestions are welcome**
+Please send your feedback to my Discord or email directly.
+
+## Updates
+
+### 0.1878
+
+- B3llial will show up in Alleyway during September, you can redeem free items from him
+- with player feedback, we have increased `Ammunition tech parts`, `Ammunition tech parts cluster`, `Military ammunition tech parts` and `Military ammunition tech parts cluster` max sell price on market.
+- with player feedback, `Fragment Extraction`'s `Epic Cache Fragment` drop rate is increassed.
+- Optimization and bug fixes regarding to NPC animation
+- Added new `Neon Elite` donation frame
+
+- September Event (09/01 to 09/30):
+  - During event top-ups will receive various bonus items
+
+### 0.1877
+
+- Added capability to animate NPCs
+
+### 0.1876
+
 Epic Equipment Exchange (Subject to change and player feedback):
 
 - You can exchange 4 Epic Equipments to random amount of `Epic Cache Fragment`s base on random chances, currently set to from lowest 1 `Epic Cache Fragment` to highest 6 `Epic Cache Fragment`s (this is subjected to change base on feedback and testing)
@@ -30,11 +52,6 @@ Additionally, in the long term, this will:
 - Introduce additional use for epic equipments that is unwanted for whatever reason deem as "bad epic rolls"
 - caches of unwanted type can be printed then exchanged to become another type of cache
 - Encourage buying of any type of epic cache since they now can be used in other way
-
-**Feedback and suggestions are welcome**
-Please send your feedback to my Discord or email directly.
-
-## Updates
 
 ### 0.1875
 
