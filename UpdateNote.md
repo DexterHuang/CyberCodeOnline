@@ -18,7 +18,7 @@ Please send your feedback to my Discord or email directly.
 
 ### 0.1878
 
-- B3llial will show up in Alleyway during September, you can redeem free items from him
+- B3llial will show up in Alleyway during September, you can redeem `Cassette Tape` and equipments from him, `Cassette Tape` WILL expire after September 30th, so be sure to use it before then.
 - with player feedback, we have increased `Ammunition tech parts`, `Ammunition tech parts cluster`, `Military ammunition tech parts` and `Military ammunition tech parts cluster` max sell price on market.
 - with player feedback, `Fragment Extraction`'s `Epic Cache Fragment` drop rate is increassed.
 - Optimization and bug fixes regarding to NPC animation
