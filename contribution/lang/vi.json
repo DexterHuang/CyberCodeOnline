@@ -627,7 +627,7 @@
 	},
 	"basicInfo": {
 		"nameInvalid": {
-			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'",
+			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or '_'",
 			"trans": "Độ dài tên phải lớn hơn 4, ít hơn hoặc bằng 16 và chỉ chứa các ký tự tiếng Anh, số hoặc \\ '_ \\'"
 		},
 		"nameProfane": {
@@ -3986,6 +3986,16 @@
 				"trans": "RNG Can Thiệp"
 			}
 		},
+		"roseBouquet": {
+			"description": {
+				"eng": "A beautifully preserved rose bouquet. A traditional gift that extends the marriage bond by 30 days when given to your partner. A symbol of enduring love even in the digital age.",
+				"trans": "Bộ hoa hồng được bảo quản tuyệt đẹp. Đây là món quà truyền thống giúp kéo dài mối liên kết hôn nhân thêm 30 ngày khi tặng cho người bạn đời. Biểu tượng của tình yêu bền lâu ngay cả trong kỷ nguyên số."
+			},
+			"name": {
+				"eng": "Rose Bouquet",
+				"trans": "Bó hoa hồng"
+			}
+		},
 		"seashell": {
 			"description": {
 				"eng": "A beautiful seashell that can be used to exchange items with Josie",
@@ -4239,6 +4249,16 @@
 			"name": {
 				"eng": "upper armor",
 				"trans": "Giáp Thân"
+			}
+		},
+		"weddingRing": {
+			"description": {
+				"eng": "A finely crafted ring recognized by the City Registry. Present this to propose a marriage bond. The license is time-limited under city policy and can be extended by both partners.",
+				"trans": "Vòng tròn tinh xảo được ghi nhận trong Sở Đăng Ký Thành Phố. Trình bày món này để đề nghị kết hôn. Giấy phép có thời hạn theo chính sách thành phố và có thể gia hạn bởi cả hai bên."
+			},
+			"name": {
+				"eng": "Marriage Bond Ring",
+				"trans": "Nhẫn Gắn Kết Hôn Nhân"
 			}
 		}
 	},
@@ -5190,6 +5210,436 @@
 			]
 		}
 	},
+	"marriage": {
+		"accepted": {
+			"eng": "You are now married to ${proposer.getName()}!",
+			"trans": "Bạn vừa kết hôn với ${proposer.getName()}!"
+		},
+		"acceptedProposer": {
+			"eng": "${player.getName()} accepted your proposal! You are now married!",
+			"trans": "Bạn đã chấp nhận lời cầu hôn từ ${player.getName()}! Bạn đã kết hôn ngay lúc này!"
+		},
+		"anniversary": {
+			"eng": "Anniversary",
+			"trans": "Kỷ niệm"
+		},
+		"defaultMessage": {
+			"eng": "Will you marry me?",
+			"trans": "Bạn có muốn cưới tôi không?"
+		},
+		"defaultVow": {
+			"eng": "Together forever in the digital realm",
+			"trans": "Cùng nhau mãi mãi trong thế giới số"
+		},
+		"divorce": {
+			"success": {
+				"eng": "Your marriage has been ended.",
+				"trans": "Hôn nhân của bạn đã kết thúc."
+			}
+		},
+		"error": {
+			"alreadyMarried": {
+				"eng": "You are already married",
+				"trans": "Bạn đã kết hôn rồi"
+			},
+			"blocked": {
+				"eng": "You cannot propose to this player",
+				"trans": "Bạn không thể cầu hôn người chơi này"
+			},
+			"cannotProposeSelf": {
+				"eng": "You cannot propose to yourself",
+				"trans": "Bạn không thể cầu hôn chính mình"
+			},
+			"cooldown": {
+				"eng": "You must wait ${minutes} more minutes before sending another proposal",
+				"trans": "Hãy chờ thêm ${minutes} phút trước khi lại đề nghị hôn nhau"
+			},
+			"deleteWhileMarried": {
+				"eng": "You can't delete your account while married. Please divorce first.",
+				"trans": "Bạn không thể xóa tài khoản khi đang trong hôn nhân. Vui lòng ly hôn trước."
+			},
+			"mismatch": {
+				"eng": "Marriage data mismatch",
+				"trans": "Dữ liệu hôn nhân không trùng khớp"
+			},
+			"noBouquet": {
+				"eng": "You need an ${itemName} to extend your marriage bond.",
+				"trans": "Bạn cần một ${itemName} để kéo dài mối liên kết hôn nhân của mình.",
+				"vars": [
+					"itemName"
+				]
+			},
+			"noRing": {
+				"eng": "You need an Eternal Bond Ring to propose",
+				"trans": "Bạn cần một chiếc Nhẫn Liên Kết Vĩnh Cửu để cầu hôn"
+			},
+			"partnerNotFound": {
+				"eng": "Your partner could not be found",
+				"trans": "Không tìm thấy đối tác của bạn"
+			},
+			"playerNotFound": {
+				"eng": "Player not found",
+				"trans": "Không tìm thấy người chơi"
+			},
+			"proposerAlreadyMarried": {
+				"eng": "The proposer is already married",
+				"trans": "Người đề nghị đã kết hôn"
+			},
+			"proposerNotFound": {
+				"eng": "Proposer not found",
+				"trans": "Không tìm thấy người đề nghị"
+			},
+			"ringMissing": {
+				"eng": "The proposer no longer has the ring",
+				"trans": "Người hứa không còn chiếc nhẫn nữa"
+			},
+			"targetAlreadyMarried": {
+				"eng": "That player is already married",
+				"trans": "Người chơi đó đã kết hôn rồi"
+			},
+			"targetMarried": {
+				"eng": "${targetPlayer.getName()} is already married",
+				"trans": "${targetPlayer.getName()} đã có một người đời"
+			}
+		},
+		"extend": {
+			"announcement": {
+				"eng": "${player1} has gifted an ${itemName} to ${player2}! 🌹💕",
+				"trans": "${player1} đã tặng một chiếc ${itemName} cho ${player2}! 🌹💕",
+				"vars": [
+					"player1",
+					"player2",
+					"itemName"
+				]
+			},
+			"success": {
+				"eng": "You've gifted a rose bouquet to ${partner}! Your marriage bond has been extended for another 30 days.",
+				"trans": "Bạn đã tặng một bó hoa hồng cho ${partner}! Liên kết hôn nhân của bạn được kéo dài thêm 30 ngày.",
+				"vars": [
+					"partner"
+				]
+			}
+		},
+		"proposalSent": {
+			"eng": "Your marriage proposal has been sent!",
+			"trans": "Lời đề nghị kết hôn của bạn đã được gửi!"
+		},
+		"proposalSentMail": {
+			"eng": "You have proposed to ${targetName} with an Eternal Bond Ring",
+			"trans": "Bạn đã đề nghị hôn nhân với ${targetName} bằng chiếc Nhẫn Liên Kết Vĩnh Cửu",
+			"vars": [
+				"targetName"
+			]
+		},
+		"propose": {
+			"confirm": {
+				"eng": "Propose",
+				"trans": "Đề nghị"
+			},
+			"description": {
+				"eng": "Are you sure you want to propose to ${targetPlayer.getName()}? This will use your Eternal Bond Ring.",
+				"trans": "Bạn có chắc muốn đệ nghị ${targetPlayer.getName()} không? Việc này sẽ dùng Cung Liên Kết Vĩnh Nghị của bạn."
+			},
+			"title": {
+				"eng": "Marriage Proposal",
+				"trans": "Đề nghị hôn nhân"
+			}
+		},
+		"rejected": {
+			"eng": "${player.displayName} has declined your marriage proposal.",
+			"trans": "${player.displayName} đã từ chối lời mời cưới của bạn."
+		},
+		"settings": {
+			"backgroundImage": {
+				"eng": "Background Image",
+				"trans": "Ảnh nền"
+			},
+			"expired": {
+				"eng": "Marriage has expired",
+				"trans": "Hôn nhân đã hết hạn"
+			},
+			"expiresIn": {
+				"eng": "Expires in ${days} days (${date})",
+				"trans": "Hết hạn trong ${days} ngày (${date})",
+				"vars": [
+					"days",
+					"date"
+				]
+			},
+			"extendButton": {
+				"eng": "Extend Marriage",
+				"trans": "Gia hạn hôn nhân"
+			},
+			"extendWithBouquet": {
+				"eng": "Gift a Rose Bouquet to extend for ${days} days",
+				"trans": "Tặng bó hoa hồng để kéo dài ${days} ngày",
+				"vars": [
+					"days"
+				]
+			},
+			"imageHint1": {
+				"eng": "Click to upload a background image",
+				"trans": "Nhấn để tải lên hình nền"
+			},
+			"imageHint2": {
+				"eng": "Recommend uplaoding 2:1 ratio image",
+				"trans": "Khuyến nghị tải lên hình ảnh tỉ lệ 2:1"
+			},
+			"invalidSymbol": {
+				"eng": "Invalid marriage symbol selected",
+				"trans": "Ký hiệu kết hôn không hợp lệ được chọn"
+			},
+			"permanent": {
+				"eng": "Permanent marriage",
+				"trans": "Hôn nhân vĩnh viễn"
+			},
+			"saveVow": {
+				"eng": "Save Vow",
+				"trans": "Lưu Hứa"
+			},
+			"status": {
+				"eng": "Marriage Status",
+				"trans": "Tình trạng hôn nhân"
+			},
+			"symbol": {
+				"eng": "Symbol",
+				"trans": "Biểu tượng"
+			},
+			"symbolHint": {
+				"eng": "Choose the emoji shown between your names",
+				"trans": "Chọn biểu tượng cảm xúc xuất hiện giữa hai tên của bạn"
+			},
+			"vowNotAllowed": {
+				"eng": "Your vow contains not allowed words",
+				"trans": "Lời thề của bạn chứa từ không được phép"
+			},
+			"vowPhrase": {
+				"eng": "Vow Phrase",
+				"trans": "Câu Thề"
+			},
+			"vowPlaceholder": {
+				"eng": "Write your romantic vow here...",
+				"trans": "Viết lời thề hôn nhân của bạn tại đây…"
+			},
+			"vowTooLong": {
+				"eng": "Vow phrase must be 64 words or less",
+				"trans": "Câu hứa phải chứa không quá 64 từ"
+			},
+			"wordCount": {
+				"eng": "${count} / 64 words",
+				"trans": "${count} / 64 từ",
+				"vars": [
+					"count"
+				]
+			}
+		},
+		"symbol": {
+			"crown": {
+				"eng": "Royalty",
+				"trans": "Hoàng gia"
+			},
+			"cyber": {
+				"eng": "Cyber Love",
+				"trans": "Yêu Cyber"
+			},
+			"fire": {
+				"eng": "On Fire",
+				"trans": "Đang cháy"
+			},
+			"gaming": {
+				"eng": "Player Two",
+				"trans": "Người chơi 2"
+			},
+			"heart": {
+				"eng": "Classic Heart",
+				"trans": "Trái tim cổ điển"
+			},
+			"infinity": {
+				"eng": "Infinity",
+				"trans": "Vô Tận"
+			},
+			"lightning": {
+				"eng": "Electric",
+				"trans": "Điện"
+			},
+			"link": {
+				"eng": "Linked",
+				"trans": "Đã liên kết"
+			},
+			"lock": {
+				"eng": "Locked In",
+				"trans": "Đã khoá"
+			},
+			"pizza": {
+				"eng": "Pizza Love",
+				"trans": "Tình Yêu Pizza"
+			},
+			"potato": {
+				"eng": "Spud Love",
+				"trans": "Tình Yêu Khoai Tàu"
+			},
+			"ring": {
+				"eng": "Wedding Ring",
+				"trans": "Nhẫn cưới"
+			},
+			"rocket": {
+				"eng": "To The Moon",
+				"trans": "Tới Mặt Trăng"
+			},
+			"rose": {
+				"eng": "Rose",
+				"trans": "Hoa hồng"
+			},
+			"sparkle": {
+				"eng": "Sparkling Heart",
+				"trans": "Tâm Hồn Lấp Lánh"
+			},
+			"target": {
+				"eng": "Perfect Match",
+				"trans": "Cặp Đôi Hoàn Hảo"
+			},
+			"unicorn": {
+				"eng": "Magical",
+				"trans": "Ma Thuật"
+			}
+		},
+		"systemAnnouncement": {
+			"eng": "💍 ${player1} and ${player2} have tied the knot! Congratulations to the happy couple! 🎉",
+			"trans": "💍 ${player1} và ${player2} đã kết hôn! Chúc mừng cặp đôi hạnh phúc! 🎉",
+			"vars": [
+				"player1",
+				"player2"
+			]
+		},
+		"vow": {
+			"changeNotification": {
+				"eng": "${player} has updated their marriage vow to ${vow}",
+				"trans": "${player} has updated their marriage vow: \"${vow}\"",
+				"vars": [
+					"player",
+					"vow"
+				]
+			},
+			"cooldown": {
+				"eng": "You can update your vow again in ${minutes} minutes",
+				"trans": "Bạn có thể cập nhật lời thề của mình lại sau ${minutes} phút",
+				"vars": [
+					"minutes"
+				]
+			}
+		}
+	},
+	"marriageExtendModal": {
+		"confirmButton": {
+			"eng": "Extend Marriage",
+			"trans": "Gia hạn hôn nhân"
+		},
+		"currentStatus": {
+			"eng": "Current Status",
+			"trans": "Tình trạng hiện tại"
+		},
+		"duration": {
+			"eng": "Duration:",
+			"trans": "Thời gian:"
+		},
+		"expired": {
+			"eng": "Your marriage has expired",
+			"trans": "Hôn nhân của bạn đã hết hạn"
+		},
+		"expiresIn": {
+			"eng": "Expires in ${days} days",
+			"trans": "Hết hạn trong ${days} ngày",
+			"vars": [
+				"days"
+			]
+		},
+		"expiryDate": {
+			"eng": "Expiry: ${date}",
+			"trans": "Hạn sử dụng: ${date}",
+			"vars": [
+				"date"
+			]
+		},
+		"extensionDetails": {
+			"eng": "Extension Details",
+			"trans": "Chi tiết Mở rộng"
+		},
+		"failed": {
+			"eng": "Failed to extend marriage. Please try again.",
+			"trans": "Không thể gia hạn hôn nhân. Vui lòng thử lại."
+		},
+		"newExpiry": {
+			"eng": "New Expiry:",
+			"trans": "Hạn mới:"
+		},
+		"permanent": {
+			"eng": "Permanent marriage - no extension needed",
+			"trans": "Hôn nhân vĩnh viễn – không cần gia hạn"
+		},
+		"requirement": {
+			"eng": "Required:",
+			"trans": "Yêu cầu:"
+		},
+		"success": {
+			"eng": "You've gifted a rose bouquet! Your bond has been extended.",
+			"trans": "Như vậy, bạn vừa tặng một bó hoa hồng! Tình cảm giữa hai người đã được kéo dài."
+		},
+		"timesExtended": {
+			"eng": "Times Extended:",
+			"trans": "Số lần mở rộng:"
+		},
+		"title": {
+			"eng": "Extend Marriage",
+			"trans": "Gia hạn hôn nhân"
+		}
+	},
+	"marriageSttingsPage": {
+		"divorce": {
+			"error": {
+				"eng": "Failed to end marriage. Please try again.",
+				"trans": "Không thể chấm dứt hôn nhân. Vui lòng thử lại."
+			}
+		},
+		"divorceButton": {
+			"eng": "End Marriage",
+			"trans": "Chấm dứt hôn nhân"
+		},
+		"noChanges": {
+			"eng": "No changes to save",
+			"trans": "Không có thay đổi để lưu"
+		},
+		"notMarried": {
+			"eng": "You are not married",
+			"trans": "Bạn chưa kết hôn"
+		},
+		"saveError": {
+			"eng": "Failed to save settings. Please try again.",
+			"trans": "Không thể lưu cài đặt. Vui lòng thử lại."
+		},
+		"saved": {
+			"eng": "Marriage settings saved successfully!",
+			"trans": "Cài đặt hôn nhân đã được lưu thành công!"
+		},
+		"title": {
+			"eng": "Marriage Settings",
+			"trans": "Cài đặt hôn nhân"
+		},
+		"uploadError": {
+			"eng": "Failed to upload image. Please try again.",
+			"trans": "Không tải được hình ảnh. Hãy thử lại."
+		},
+		"uploadSuccess": {
+			"eng": "Image uploaded.",
+			"trans": "Ảnh đã được tải lên."
+		},
+		"vowTooLong": {
+			"eng": "Vow phrase must be 64 words or less. Current: ${count} words",
+			"trans": "Câu thề phải chứa không quá 64 từ. Hiện tại: ${count} từ",
+			"vars": [
+				"count"
+			]
+		}
+	},
 	"messageImage": {
 		"hideImage": {
 			"eng": "Hide Image",
@@ -5402,6 +5852,16 @@
 		"level": {
 			"eng": "level",
 			"trans": "Cấp độ"
+		},
+		"marriage": {
+			"accept": {
+				"eng": "Accept",
+				"trans": "Chấp nhận"
+			},
+			"reject": {
+				"eng": "Reject",
+				"trans": "Từ chối"
+			}
 		},
 		"missing": {
 			"eng": "missing",
@@ -5638,6 +6098,18 @@
 			"title": {
 				"eng": "Unofficial translation",
 				"trans": "Bản dịch không chính thức"
+			}
+		},
+		"marriageSttingsPage": {
+			"divorce": {
+				"description": {
+					"eng": "This action cannot be undone. Both you and your partner will lose all marriage benefits.",
+					"trans": "Hành động này không thể hoàn tác. Bạn và người đồng hôn sẽ mất tất cả các lợi ích từ cuộc hôn nhân."
+				},
+				"title": {
+					"eng": "Are you sure you want to end the marriage?",
+					"trans": "Bạn có chắc muốn chấm dứt hôn nhân?"
+				}
 			}
 		},
 		"newbieTutorial": {
@@ -6242,7 +6714,8 @@
 			},
 			"defaultLines": {
 				"eng": [
-					"Do you want to buy Units, or use your Units?"
+					"Do you want to buy Units, or use your Units?",
+					"We also have Eternal Bond Rings for those looking to unite with their partner forever."
 				],
 				"trans": [
 					"Bạn muốn mua Unit hay sử dụng Unit của mình?"
@@ -6730,6 +7203,12 @@
 			"name": {
 				"eng": "Dog",
 				"trans": "Chó"
+			}
+		},
+		"rabbit": {
+			"name": {
+				"eng": "Rabbit",
+				"trans": "Thỏ"
 			}
 		}
 	},
@@ -10180,6 +10659,12 @@
 				"trans": "Cần mã PIN để mở khóa"
 			}
 		},
+		"generic": {
+			"days": {
+				"eng": "days",
+				"trans": "Ngày"
+			}
+		},
 		"inventory": {
 			"autoScrap": {
 				"button": {
@@ -10927,6 +11412,34 @@
 				"eng": "location",
 				"trans": "Vị trí"
 			},
+			"marriage": {
+				"cardTitle": {
+					"eng": "Relationship",
+					"trans": "Mối Quan Hệ"
+				},
+				"devotion": {
+					"eng": "Devotion",
+					"trans": "Trung Thành"
+				},
+				"duration": {
+					"justMarried": {
+						"eng": "Just married!",
+						"trans": "Gần mới kết hôn!"
+					}
+				},
+				"expiresOn": {
+					"eng": "Expires on",
+					"trans": "Hết hạn vào"
+				},
+				"marriedFor": {
+					"eng": "Married for",
+					"trans": "Đã cưới nhau trong"
+				},
+				"settings": {
+					"eng": "Marriage Settings",
+					"trans": "Cài đặt hôn nhân"
+				}
+			},
 			"numOfMember": {
 				"eng": "Number of members",
 				"trans": "Số thành viên"
@@ -10939,6 +11452,10 @@
 				"addToFriend": {
 					"eng": "add to Friend List",
 					"trans": "Thêm Bạn"
+				},
+				"alreadyMarried": {
+					"eng": "Already Married",
+					"trans": "Đã kết hôn"
 				},
 				"block": {
 					"eng": "Block Player",
@@ -10955,6 +11472,14 @@
 				"label": {
 					"eng": "Player Actions",
 					"trans": "Thao tác"
+				},
+				"proposalCooldown": {
+					"eng": "Proposal on Cooldown",
+					"trans": "Đề nghị đang trong thời gian chờ"
+				},
+				"propose": {
+					"eng": "Propose Marriage",
+					"trans": "Đề nghị kết hôn"
 				},
 				"removeFromFriend": {
 					"eng": "Remove from Friend List",
@@ -11703,6 +12228,10 @@
 			"locations": {
 				"eng": "locations",
 				"trans": "Địa điểm"
+			},
+			"marriage": {
+				"eng": "Marriage System",
+				"trans": "Hệ thống Hôn Nhân"
 			},
 			"profile": {
 				"eng": "profile",

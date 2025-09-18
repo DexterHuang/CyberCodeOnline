@@ -627,7 +627,7 @@
 	},
 	"basicInfo": {
 		"nameInvalid": {
-			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'",
+			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or '_'",
 			"trans": "名稱長度必須大於4，少於或等於16，並且僅包含英文字母，數字或\\'_ \\'"
 		},
 		"nameProfane": {
@@ -3986,6 +3986,16 @@
 				"trans": "RNG干擾"
 			}
 		},
+		"roseBouquet": {
+			"description": {
+				"eng": "A beautifully preserved rose bouquet. A traditional gift that extends the marriage bond by 30 days when given to your partner. A symbol of enduring love even in the digital age.",
+				"trans": "一束保存完好的玫瑰花束。傳統禮物，送給伴侶時可延長婚姻關係30天，即使在數位時代也能表達持久的愛意。"
+			},
+			"name": {
+				"eng": "Rose Bouquet",
+				"trans": "玫瑰花束"
+			}
+		},
 		"seashell": {
 			"description": {
 				"eng": "A beautiful seashell that can be used to exchange items with Josie",
@@ -4239,6 +4249,16 @@
 			"name": {
 				"eng": "upper armor",
 				"trans": "上身裝甲"
+			}
+		},
+		"weddingRing": {
+			"description": {
+				"eng": "A finely crafted ring recognized by the City Registry. Present this to propose a marriage bond. The license is time-limited under city policy and can be extended by both partners.",
+				"trans": "一枚精緻打造的戒指，已獲得市政登記局正式認證。將它遞給對方以提議結婚契約。此執照受城市政策限制時間，可由雙方共同延長。"
+			},
+			"name": {
+				"eng": "Marriage Bond Ring",
+				"trans": "婚約戒指"
 			}
 		}
 	},
@@ -5190,6 +5210,436 @@
 			]
 		}
 	},
+	"marriage": {
+		"accepted": {
+			"eng": "You are now married to ${proposer.getName()}!",
+			"trans": "恭喜！你現在跟 ${proposer.getName()} 成為夫妻啦！"
+		},
+		"acceptedProposer": {
+			"eng": "${player.getName()} accepted your proposal! You are now married!",
+			"trans": "${player.getName()} 接受了你的求婚！你們現在正式結婚啦！"
+		},
+		"anniversary": {
+			"eng": "Anniversary",
+			"trans": "紀念日"
+		},
+		"defaultMessage": {
+			"eng": "Will you marry me?",
+			"trans": "想跟我結婚嗎？"
+		},
+		"defaultVow": {
+			"eng": "Together forever in the digital realm",
+			"trans": "永遠與你共度於數位領域"
+		},
+		"divorce": {
+			"success": {
+				"eng": "Your marriage has been ended.",
+				"trans": "您的婚姻已經結束。"
+			}
+		},
+		"error": {
+			"alreadyMarried": {
+				"eng": "You are already married",
+				"trans": "你已經結婚了"
+			},
+			"blocked": {
+				"eng": "You cannot propose to this player",
+				"trans": "你無法向此玩家提親"
+			},
+			"cannotProposeSelf": {
+				"eng": "You cannot propose to yourself",
+				"trans": "你無法對自己求婚"
+			},
+			"cooldown": {
+				"eng": "You must wait ${minutes} more minutes before sending another proposal",
+				"trans": "暫停 ${minutes} 分鐘後再來求婚吧！"
+			},
+			"deleteWhileMarried": {
+				"eng": "You can't delete your account while married. Please divorce first.",
+				"trans": "您目前已婚，無法刪除帳號。請先離婚。"
+			},
+			"mismatch": {
+				"eng": "Marriage data mismatch",
+				"trans": "結婚資料不符"
+			},
+			"noBouquet": {
+				"eng": "You need an ${itemName} to extend your marriage bond.",
+				"trans": "你需要一個${itemName}來延長你的婚姻關係。",
+				"vars": [
+					"itemName"
+				]
+			},
+			"noRing": {
+				"eng": "You need an Eternal Bond Ring to propose",
+				"trans": "你需要一枚永恆之約戒指才能求婚"
+			},
+			"partnerNotFound": {
+				"eng": "Your partner could not be found",
+				"trans": "找不到您的配偶"
+			},
+			"playerNotFound": {
+				"eng": "Player not found",
+				"trans": "找不到玩家"
+			},
+			"proposerAlreadyMarried": {
+				"eng": "The proposer is already married",
+				"trans": "提案者已經結婚"
+			},
+			"proposerNotFound": {
+				"eng": "Proposer not found",
+				"trans": "找不到提案者"
+			},
+			"ringMissing": {
+				"eng": "The proposer no longer has the ring",
+				"trans": "求婚者已經沒戒指了"
+			},
+			"targetAlreadyMarried": {
+				"eng": "That player is already married",
+				"trans": "那位玩家已經結婚了。"
+			},
+			"targetMarried": {
+				"eng": "${targetPlayer.getName()} is already married",
+				"trans": "${targetPlayer.getName()} 已婚"
+			}
+		},
+		"extend": {
+			"announcement": {
+				"eng": "${player1} has gifted an ${itemName} to ${player2}! 🌹💕",
+				"trans": "${player1}送給${player2}一份${itemName}，真是太貼心了！🌹💕",
+				"vars": [
+					"player1",
+					"player2",
+					"itemName"
+				]
+			},
+			"success": {
+				"eng": "You've gifted a rose bouquet to ${partner}! Your marriage bond has been extended for another 30 days.",
+				"trans": "你已送給 ${partner} 一束玫瑰花束！你的婚姻關係又延長了 30 天。",
+				"vars": [
+					"partner"
+				]
+			}
+		},
+		"proposalSent": {
+			"eng": "Your marriage proposal has been sent!",
+			"trans": "您的結婚提議已成功發送！"
+		},
+		"proposalSentMail": {
+			"eng": "You have proposed to ${targetName} with an Eternal Bond Ring",
+			"trans": "你已向 ${targetName} 提出永恆之盟戒指的求婚。",
+			"vars": [
+				"targetName"
+			]
+		},
+		"propose": {
+			"confirm": {
+				"eng": "Propose",
+				"trans": "提親"
+			},
+			"description": {
+				"eng": "Are you sure you want to propose to ${targetPlayer.getName()}? This will use your Eternal Bond Ring.",
+				"trans": "你確定要向${targetPlayer.getName()}求婚嗎？這將使用你的「永恆之環」。"
+			},
+			"title": {
+				"eng": "Marriage Proposal",
+				"trans": "求婚邀約"
+			}
+		},
+		"rejected": {
+			"eng": "${player.displayName} has declined your marriage proposal.",
+			"trans": "${player.displayName} 已經拒絕了你的求婚。"
+		},
+		"settings": {
+			"backgroundImage": {
+				"eng": "Background Image",
+				"trans": "背景圖片"
+			},
+			"expired": {
+				"eng": "Marriage has expired",
+				"trans": "你的結婚狀態已過期"
+			},
+			"expiresIn": {
+				"eng": "Expires in ${days} days (${date})",
+				"trans": "剩餘 ${days} 天 (${date})",
+				"vars": [
+					"days",
+					"date"
+				]
+			},
+			"extendButton": {
+				"eng": "Extend Marriage",
+				"trans": "延長婚姻"
+			},
+			"extendWithBouquet": {
+				"eng": "Gift a Rose Bouquet to extend for ${days} days",
+				"trans": "送上一束玫瑰花束，延長 ${days} 天",
+				"vars": [
+					"days"
+				]
+			},
+			"imageHint1": {
+				"eng": "Click to upload a background image",
+				"trans": "點擊上傳背景圖片"
+			},
+			"imageHint2": {
+				"eng": "Recommend uplaoding 2:1 ratio image",
+				"trans": "建議上傳 2：1 比例的圖片"
+			},
+			"invalidSymbol": {
+				"eng": "Invalid marriage symbol selected",
+				"trans": "你選擇的結婚符號無效"
+			},
+			"permanent": {
+				"eng": "Permanent marriage",
+				"trans": "永久結婚"
+			},
+			"saveVow": {
+				"eng": "Save Vow",
+				"trans": "保存誓言"
+			},
+			"status": {
+				"eng": "Marriage Status",
+				"trans": "婚姻狀態"
+			},
+			"symbol": {
+				"eng": "Symbol",
+				"trans": "符號"
+			},
+			"symbolHint": {
+				"eng": "Choose the emoji shown between your names",
+				"trans": "選擇兩個名字之間顯示的表情符號"
+			},
+			"vowNotAllowed": {
+				"eng": "Your vow contains not allowed words",
+				"trans": "你的誓言含有不被允許的字眼"
+			},
+			"vowPhrase": {
+				"eng": "Vow Phrase",
+				"trans": "誓言語句"
+			},
+			"vowPlaceholder": {
+				"eng": "Write your romantic vow here...",
+				"trans": "在此寫下你的浪漫誓言…"
+			},
+			"vowTooLong": {
+				"eng": "Vow phrase must be 64 words or less",
+				"trans": "誓言文字不可超過 64 字"
+			},
+			"wordCount": {
+				"eng": "${count} / 64 words",
+				"trans": "${count} / 64 詞",
+				"vars": [
+					"count"
+				]
+			}
+		},
+		"symbol": {
+			"crown": {
+				"eng": "Royalty",
+				"trans": "王室"
+			},
+			"cyber": {
+				"eng": "Cyber Love",
+				"trans": "賽博之戀"
+			},
+			"fire": {
+				"eng": "On Fire",
+				"trans": "燃燒中"
+			},
+			"gaming": {
+				"eng": "Player Two",
+				"trans": "玩家二"
+			},
+			"heart": {
+				"eng": "Classic Heart",
+				"trans": "經典紅心"
+			},
+			"infinity": {
+				"eng": "Infinity",
+				"trans": "無限"
+			},
+			"lightning": {
+				"eng": "Electric",
+				"trans": "電氣的"
+			},
+			"link": {
+				"eng": "Linked",
+				"trans": "已連結"
+			},
+			"lock": {
+				"eng": "Locked In",
+				"trans": "已鎖定"
+			},
+			"pizza": {
+				"eng": "Pizza Love",
+				"trans": "愛吃披薩"
+			},
+			"potato": {
+				"eng": "Spud Love",
+				"trans": "土豆之戀"
+			},
+			"ring": {
+				"eng": "Wedding Ring",
+				"trans": "婚戒"
+			},
+			"rocket": {
+				"eng": "To The Moon",
+				"trans": "直奔月球"
+			},
+			"rose": {
+				"eng": "Rose",
+				"trans": "玫瑰"
+			},
+			"sparkle": {
+				"eng": "Sparkling Heart",
+				"trans": "閃耀的心"
+			},
+			"target": {
+				"eng": "Perfect Match",
+				"trans": "絕佳匹配"
+			},
+			"unicorn": {
+				"eng": "Magical",
+				"trans": "仙氣十足"
+			}
+		},
+		"systemAnnouncement": {
+			"eng": "💍 ${player1} and ${player2} have tied the knot! Congratulations to the happy couple! 🎉",
+			"trans": "💍 ${player1} 與 ${player2} 已經結為連理！恭喜這對新人 🎉",
+			"vars": [
+				"player1",
+				"player2"
+			]
+		},
+		"vow": {
+			"changeNotification": {
+				"eng": "${player} has updated their marriage vow to ${vow}",
+				"trans": "${player} has updated their marriage vow: \"${vow}\"",
+				"vars": [
+					"player",
+					"vow"
+				]
+			},
+			"cooldown": {
+				"eng": "You can update your vow again in ${minutes} minutes",
+				"trans": "您可以在 ${minutes} 分鐘後再次更新誓言",
+				"vars": [
+					"minutes"
+				]
+			}
+		}
+	},
+	"marriageExtendModal": {
+		"confirmButton": {
+			"eng": "Extend Marriage",
+			"trans": "延長婚姻"
+		},
+		"currentStatus": {
+			"eng": "Current Status",
+			"trans": "目前狀態"
+		},
+		"duration": {
+			"eng": "Duration:",
+			"trans": "持續時間："
+		},
+		"expired": {
+			"eng": "Your marriage has expired",
+			"trans": "您的婚姻已到期"
+		},
+		"expiresIn": {
+			"eng": "Expires in ${days} days",
+			"trans": "${days} 天後到期",
+			"vars": [
+				"days"
+			]
+		},
+		"expiryDate": {
+			"eng": "Expiry: ${date}",
+			"trans": "有效期限：${date}",
+			"vars": [
+				"date"
+			]
+		},
+		"extensionDetails": {
+			"eng": "Extension Details",
+			"trans": "延伸詳情"
+		},
+		"failed": {
+			"eng": "Failed to extend marriage. Please try again.",
+			"trans": "延長結婚失敗，請再試一次。"
+		},
+		"newExpiry": {
+			"eng": "New Expiry:",
+			"trans": "新的有效期："
+		},
+		"permanent": {
+			"eng": "Permanent marriage - no extension needed",
+			"trans": "永久結婚 - 無需延長"
+		},
+		"requirement": {
+			"eng": "Required:",
+			"trans": "必須："
+		},
+		"success": {
+			"eng": "You've gifted a rose bouquet! Your bond has been extended.",
+			"trans": "你送出一束玫瑰花！關係已延長。"
+		},
+		"timesExtended": {
+			"eng": "Times Extended:",
+			"trans": "延長次數："
+		},
+		"title": {
+			"eng": "Extend Marriage",
+			"trans": "延長婚姻"
+		}
+	},
+	"marriageSttingsPage": {
+		"divorce": {
+			"error": {
+				"eng": "Failed to end marriage. Please try again.",
+				"trans": "無法終止婚姻，請重試。"
+			}
+		},
+		"divorceButton": {
+			"eng": "End Marriage",
+			"trans": "離婚"
+		},
+		"noChanges": {
+			"eng": "No changes to save",
+			"trans": "沒有變更可保存"
+		},
+		"notMarried": {
+			"eng": "You are not married",
+			"trans": "您尚未結婚"
+		},
+		"saveError": {
+			"eng": "Failed to save settings. Please try again.",
+			"trans": "儲存設定失敗，請重新嘗試。"
+		},
+		"saved": {
+			"eng": "Marriage settings saved successfully!",
+			"trans": "結婚設定已成功儲存！"
+		},
+		"title": {
+			"eng": "Marriage Settings",
+			"trans": "婚姻設定"
+		},
+		"uploadError": {
+			"eng": "Failed to upload image. Please try again.",
+			"trans": "圖片上傳失敗，請再試一次。"
+		},
+		"uploadSuccess": {
+			"eng": "Image uploaded.",
+			"trans": "圖片已上傳。"
+		},
+		"vowTooLong": {
+			"eng": "Vow phrase must be 64 words or less. Current: ${count} words",
+			"trans": "誓言必須不超過 64 個字，現在已達 ${count} 個。",
+			"vars": [
+				"count"
+			]
+		}
+	},
 	"messageImage": {
 		"hideImage": {
 			"eng": "Hide Image",
@@ -5402,6 +5852,16 @@
 		"level": {
 			"eng": "level",
 			"trans": "等級"
+		},
+		"marriage": {
+			"accept": {
+				"eng": "Accept",
+				"trans": "接受"
+			},
+			"reject": {
+				"eng": "Reject",
+				"trans": "拒絕"
+			}
 		},
 		"missing": {
 			"eng": "missing",
@@ -5638,6 +6098,18 @@
 			"title": {
 				"eng": "Unofficial translation",
 				"trans": "非官方翻譯"
+			}
+		},
+		"marriageSttingsPage": {
+			"divorce": {
+				"description": {
+					"eng": "This action cannot be undone. Both you and your partner will lose all marriage benefits.",
+					"trans": "此操作無法撤銷。您和您的伴侶將失去所有婚姻福利。"
+				},
+				"title": {
+					"eng": "Are you sure you want to end the marriage?",
+					"trans": "你確定要結束婚姻嗎？"
+				}
 			}
 		},
 		"newbieTutorial": {
@@ -6388,7 +6860,8 @@
 			},
 			"defaultLines": {
 				"eng": [
-					"Do you want to buy Units, or use your Units?"
+					"Do you want to buy Units, or use your Units?",
+					"We also have Eternal Bond Rings for those looking to unite with their partner forever."
 				],
 				"trans": [
 					"你想要買點Unit，還是使用你的Unit？",
@@ -6934,6 +7407,12 @@
 			"name": {
 				"eng": "Dog",
 				"trans": "狗"
+			}
+		},
+		"rabbit": {
+			"name": {
+				"eng": "Rabbit",
+				"trans": "兔子"
 			}
 		}
 	},
@@ -10384,6 +10863,12 @@
 				"trans": "需要PIN碼以解鎖"
 			}
 		},
+		"generic": {
+			"days": {
+				"eng": "days",
+				"trans": "天"
+			}
+		},
 		"inventory": {
 			"autoScrap": {
 				"button": {
@@ -11131,6 +11616,34 @@
 				"eng": "location",
 				"trans": "地點"
 			},
+			"marriage": {
+				"cardTitle": {
+					"eng": "Relationship",
+					"trans": "關係"
+				},
+				"devotion": {
+					"eng": "Devotion",
+					"trans": "奉獻"
+				},
+				"duration": {
+					"justMarried": {
+						"eng": "Just married!",
+						"trans": "剛結婚！"
+					}
+				},
+				"expiresOn": {
+					"eng": "Expires on",
+					"trans": "到期日"
+				},
+				"marriedFor": {
+					"eng": "Married for",
+					"trans": "結婚至今"
+				},
+				"settings": {
+					"eng": "Marriage Settings",
+					"trans": "婚姻設定"
+				}
+			},
 			"numOfMember": {
 				"eng": "Number of members",
 				"trans": "會員人數"
@@ -11143,6 +11656,10 @@
 				"addToFriend": {
 					"eng": "add to Friend List",
 					"trans": "加為好友"
+				},
+				"alreadyMarried": {
+					"eng": "Already Married",
+					"trans": "已婚"
 				},
 				"block": {
 					"eng": "Block Player",
@@ -11159,6 +11676,14 @@
 				"label": {
 					"eng": "Player Actions",
 					"trans": "玩家指令"
+				},
+				"proposalCooldown": {
+					"eng": "Proposal on Cooldown",
+					"trans": "提案冷卻中"
+				},
+				"propose": {
+					"eng": "Propose Marriage",
+					"trans": "提議結婚"
 				},
 				"removeFromFriend": {
 					"eng": "Remove from Friend List",
@@ -11907,6 +12432,10 @@
 			"locations": {
 				"eng": "locations",
 				"trans": "站點"
+			},
+			"marriage": {
+				"eng": "Marriage System",
+				"trans": "婚姻系統"
 			},
 			"profile": {
 				"eng": "profile",

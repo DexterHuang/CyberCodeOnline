@@ -627,7 +627,7 @@
 	},
 	"basicInfo": {
 		"nameInvalid": {
-			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'",
+			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or '_'",
 			"trans": "довжина імені має бути більше 4 символів, менше 17 символів і містити лише англійські літери, цифри або \\' _\\'"
 		},
 		"nameProfane": {
@@ -3985,6 +3985,16 @@
 				"trans": "Рандомізатор"
 			}
 		},
+		"roseBouquet": {
+			"description": {
+				"eng": "A beautifully preserved rose bouquet. A traditional gift that extends the marriage bond by 30 days when given to your partner. A symbol of enduring love even in the digital age.",
+				"trans": "Дбайливо збережений букет троянд. Традиційний подарунок, який продовжує брачну зв’язку на 30 днів, коли його дарується партнеру. Символ вічної любові навіть у цифрову епоху."
+			},
+			"name": {
+				"eng": "Rose Bouquet",
+				"trans": "Букет троянд"
+			}
+		},
 		"seashell": {
 			"description": {
 				"eng": "A beautiful seashell that can be used to exchange items with Josie",
@@ -4238,6 +4248,16 @@
 			"name": {
 				"eng": "upper armor",
 				"trans": "верхня броня"
+			}
+		},
+		"weddingRing": {
+			"description": {
+				"eng": "A finely crafted ring recognized by the City Registry. Present this to propose a marriage bond. The license is time-limited under city policy and can be extended by both partners.",
+				"trans": "Тонко сплетений перстень, визнаний Міським реєстром. Показуйте його як пропозицію шлюбу. Ліцензія діє лише певний час згідно міської політики і може бути продовжена обома партнерами."
+			},
+			"name": {
+				"eng": "Marriage Bond Ring",
+				"trans": "Кільце шлюбу"
 			}
 		}
 	},
@@ -5189,6 +5209,436 @@
 			]
 		}
 	},
+	"marriage": {
+		"accepted": {
+			"eng": "You are now married to ${proposer.getName()}!",
+			"trans": "Ти тепер женатий/жена на ${proposer.getName()}!"
+		},
+		"acceptedProposer": {
+			"eng": "${player.getName()} accepted your proposal! You are now married!",
+			"trans": "${player.getName()} прийняв вашу пропозицію! Ви тепер одружені!"
+		},
+		"anniversary": {
+			"eng": "Anniversary",
+			"trans": "Річниця"
+		},
+		"defaultMessage": {
+			"eng": "Will you marry me?",
+			"trans": "Хочеш одружитися зі мною?"
+		},
+		"defaultVow": {
+			"eng": "Together forever in the digital realm",
+			"trans": "Разом назавжди у цифровому світі"
+		},
+		"divorce": {
+			"success": {
+				"eng": "Your marriage has been ended.",
+				"trans": "Ваш шлюб завершився."
+			}
+		},
+		"error": {
+			"alreadyMarried": {
+				"eng": "You are already married",
+				"trans": "Ви вже одружені"
+			},
+			"blocked": {
+				"eng": "You cannot propose to this player",
+				"trans": "Ви не можете зробити пропозицію цьому гравцю"
+			},
+			"cannotProposeSelf": {
+				"eng": "You cannot propose to yourself",
+				"trans": "Неможливо запропонувати собі"
+			},
+			"cooldown": {
+				"eng": "You must wait ${minutes} more minutes before sending another proposal",
+				"trans": "Почекайте ще ${minutes} хвилин, перш ніж повторно запросити"
+			},
+			"deleteWhileMarried": {
+				"eng": "You can't delete your account while married. Please divorce first.",
+				"trans": "Ви не можете видалити акаунт під час шлюбу. Спершу розірвіть брак."
+			},
+			"mismatch": {
+				"eng": "Marriage data mismatch",
+				"trans": "Невідповідність даних про шлюб"
+			},
+			"noBouquet": {
+				"eng": "You need an ${itemName} to extend your marriage bond.",
+				"trans": "Тобі потрібен(а) ${itemName}, щоб розширити твій шлюбний зв'язок.",
+				"vars": [
+					"itemName"
+				]
+			},
+			"noRing": {
+				"eng": "You need an Eternal Bond Ring to propose",
+				"trans": "Тобі потрібне Кільце Вічного Бонда, щоб зробити пропозицію"
+			},
+			"partnerNotFound": {
+				"eng": "Your partner could not be found",
+				"trans": "Вашого партнера не вдалося знайти"
+			},
+			"playerNotFound": {
+				"eng": "Player not found",
+				"trans": "Гравця не знайдено"
+			},
+			"proposerAlreadyMarried": {
+				"eng": "The proposer is already married",
+				"trans": "Пропонувач вже одружений"
+			},
+			"proposerNotFound": {
+				"eng": "Proposer not found",
+				"trans": "Пропонент не знайдено"
+			},
+			"ringMissing": {
+				"eng": "The proposer no longer has the ring",
+				"trans": "Пропонувач більше не має кільця"
+			},
+			"targetAlreadyMarried": {
+				"eng": "That player is already married",
+				"trans": "Той гравець вже одружений"
+			},
+			"targetMarried": {
+				"eng": "${targetPlayer.getName()} is already married",
+				"trans": "${targetPlayer.getName()} вже одружений"
+			}
+		},
+		"extend": {
+			"announcement": {
+				"eng": "${player1} has gifted an ${itemName} to ${player2}! 🌹💕",
+				"trans": "${player1} подарував ${itemName} для ${player2}! 🌹💕",
+				"vars": [
+					"player1",
+					"player2",
+					"itemName"
+				]
+			},
+			"success": {
+				"eng": "You've gifted a rose bouquet to ${partner}! Your marriage bond has been extended for another 30 days.",
+				"trans": "Ви подарували букет троянд ${partner}! Ваш шлюбний зв’язок продовжено ще на 30 днів.",
+				"vars": [
+					"partner"
+				]
+			}
+		},
+		"proposalSent": {
+			"eng": "Your marriage proposal has been sent!",
+			"trans": "Ваше пропозиція шлюбу була відправлена!"
+		},
+		"proposalSentMail": {
+			"eng": "You have proposed to ${targetName} with an Eternal Bond Ring",
+			"trans": "Ви запропонували ${targetName} вічне кільце зв’язку",
+			"vars": [
+				"targetName"
+			]
+		},
+		"propose": {
+			"confirm": {
+				"eng": "Propose",
+				"trans": "Пропозиція"
+			},
+			"description": {
+				"eng": "Are you sure you want to propose to ${targetPlayer.getName()}? This will use your Eternal Bond Ring.",
+				"trans": "Ви впевнені, що хочете запропонувати ${targetPlayer.getName()}? Це потребує використання вашого Кільця Вічного Зв'язку."
+			},
+			"title": {
+				"eng": "Marriage Proposal",
+				"trans": "Пропозиція шлюбу"
+			}
+		},
+		"rejected": {
+			"eng": "${player.displayName} has declined your marriage proposal.",
+			"trans": "${player.displayName} відмовився від вашої пропозиції шлюбу."
+		},
+		"settings": {
+			"backgroundImage": {
+				"eng": "Background Image",
+				"trans": "Фонове зображення"
+			},
+			"expired": {
+				"eng": "Marriage has expired",
+				"trans": "Супружевий статус закінчився"
+			},
+			"expiresIn": {
+				"eng": "Expires in ${days} days (${date})",
+				"trans": "Залишилося ${days} днів (${date})",
+				"vars": [
+					"days",
+					"date"
+				]
+			},
+			"extendButton": {
+				"eng": "Extend Marriage",
+				"trans": "Продовжити шлюб"
+			},
+			"extendWithBouquet": {
+				"eng": "Gift a Rose Bouquet to extend for ${days} days",
+				"trans": "Подаруйте букет троянд, щоб продовжити на ${days} днів",
+				"vars": [
+					"days"
+				]
+			},
+			"imageHint1": {
+				"eng": "Click to upload a background image",
+				"trans": "Натисніть, щоб завантажити фонове зображення"
+			},
+			"imageHint2": {
+				"eng": "Recommend uplaoding 2:1 ratio image",
+				"trans": "Рекомендовано завантажити зображення у форматі 2:1"
+			},
+			"invalidSymbol": {
+				"eng": "Invalid marriage symbol selected",
+				"trans": "Вибрано недійсний символ шлюбу"
+			},
+			"permanent": {
+				"eng": "Permanent marriage",
+				"trans": "Постійний шлюб"
+			},
+			"saveVow": {
+				"eng": "Save Vow",
+				"trans": "Зберегти клятву"
+			},
+			"status": {
+				"eng": "Marriage Status",
+				"trans": "Статус шлюбу"
+			},
+			"symbol": {
+				"eng": "Symbol",
+				"trans": "Символ"
+			},
+			"symbolHint": {
+				"eng": "Choose the emoji shown between your names",
+				"trans": "Оберіть емодзі, що показується між вашими іменами"
+			},
+			"vowNotAllowed": {
+				"eng": "Your vow contains not allowed words",
+				"trans": "Ваша клятва містить заборонені слова"
+			},
+			"vowPhrase": {
+				"eng": "Vow Phrase",
+				"trans": "Фраза обітниці"
+			},
+			"vowPlaceholder": {
+				"eng": "Write your romantic vow here...",
+				"trans": "Напишіть свою романтичну обітницю тут…"
+			},
+			"vowTooLong": {
+				"eng": "Vow phrase must be 64 words or less",
+				"trans": "Фраза обітниці має містити максимум 64 слова"
+			},
+			"wordCount": {
+				"eng": "${count} / 64 words",
+				"trans": "${count} / 64 слів",
+				"vars": [
+					"count"
+				]
+			}
+		},
+		"symbol": {
+			"crown": {
+				"eng": "Royalty",
+				"trans": "Коронований"
+			},
+			"cyber": {
+				"eng": "Cyber Love",
+				"trans": "Кібер‑любов"
+			},
+			"fire": {
+				"eng": "On Fire",
+				"trans": "Палає"
+			},
+			"gaming": {
+				"eng": "Player Two",
+				"trans": "Гравець двоє"
+			},
+			"heart": {
+				"eng": "Classic Heart",
+				"trans": "Класичне Серце"
+			},
+			"infinity": {
+				"eng": "Infinity",
+				"trans": "Вічність"
+			},
+			"lightning": {
+				"eng": "Electric",
+				"trans": "Електричний"
+			},
+			"link": {
+				"eng": "Linked",
+				"trans": "Пов'язано"
+			},
+			"lock": {
+				"eng": "Locked In",
+				"trans": "Замкнено"
+			},
+			"pizza": {
+				"eng": "Pizza Love",
+				"trans": "Піца‑любов"
+			},
+			"potato": {
+				"eng": "Spud Love",
+				"trans": "Любов до картоплі"
+			},
+			"ring": {
+				"eng": "Wedding Ring",
+				"trans": "Свадебне кільце"
+			},
+			"rocket": {
+				"eng": "To The Moon",
+				"trans": "До Місяця"
+			},
+			"rose": {
+				"eng": "Rose",
+				"trans": "роза"
+			},
+			"sparkle": {
+				"eng": "Sparkling Heart",
+				"trans": "Блискуче Серце"
+			},
+			"target": {
+				"eng": "Perfect Match",
+				"trans": "Ідеальний збіг"
+			},
+			"unicorn": {
+				"eng": "Magical",
+				"trans": "Магічний"
+			}
+		},
+		"systemAnnouncement": {
+			"eng": "💍 ${player1} and ${player2} have tied the knot! Congratulations to the happy couple! 🎉",
+			"trans": "💍 ${player1} та ${player2} одружилися! Вітаємо щасливу пару! 🎉",
+			"vars": [
+				"player1",
+				"player2"
+			]
+		},
+		"vow": {
+			"changeNotification": {
+				"eng": "${player} has updated their marriage vow to ${vow}",
+				"trans": "${player} has updated their marriage vow: \"${vow}\"",
+				"vars": [
+					"player",
+					"vow"
+				]
+			},
+			"cooldown": {
+				"eng": "You can update your vow again in ${minutes} minutes",
+				"trans": "Ви зможете оновити обітницю ще раз через ${minutes} хвилин",
+				"vars": [
+					"minutes"
+				]
+			}
+		}
+	},
+	"marriageExtendModal": {
+		"confirmButton": {
+			"eng": "Extend Marriage",
+			"trans": "Продовжити шлюб"
+		},
+		"currentStatus": {
+			"eng": "Current Status",
+			"trans": "Поточний стан"
+		},
+		"duration": {
+			"eng": "Duration:",
+			"trans": "Тривалість:"
+		},
+		"expired": {
+			"eng": "Your marriage has expired",
+			"trans": "Ваш шлюб завершився"
+		},
+		"expiresIn": {
+			"eng": "Expires in ${days} days",
+			"trans": "Термін дії закінчиться через ${days} днів",
+			"vars": [
+				"days"
+			]
+		},
+		"expiryDate": {
+			"eng": "Expiry: ${date}",
+			"trans": "Термін дії: ${date}",
+			"vars": [
+				"date"
+			]
+		},
+		"extensionDetails": {
+			"eng": "Extension Details",
+			"trans": "Відомості про розширення"
+		},
+		"failed": {
+			"eng": "Failed to extend marriage. Please try again.",
+			"trans": "Не вдалося продовжити шлюб. Будь ласка, спробуйте ще раз."
+		},
+		"newExpiry": {
+			"eng": "New Expiry:",
+			"trans": "Новий термін дії:"
+		},
+		"permanent": {
+			"eng": "Permanent marriage - no extension needed",
+			"trans": "Постійний шлюб – розширення не потрібне"
+		},
+		"requirement": {
+			"eng": "Required:",
+			"trans": "Обов'язково:"
+		},
+		"success": {
+			"eng": "You've gifted a rose bouquet! Your bond has been extended.",
+			"trans": "Ви подарували букет троянд! Ваш союз розширений."
+		},
+		"timesExtended": {
+			"eng": "Times Extended:",
+			"trans": "Кількість продовжень:"
+		},
+		"title": {
+			"eng": "Extend Marriage",
+			"trans": "Продовжити шлюб"
+		}
+	},
+	"marriageSttingsPage": {
+		"divorce": {
+			"error": {
+				"eng": "Failed to end marriage. Please try again.",
+				"trans": "Не вдалося розірвати шлюб. Будь ласка, спробуйте ще раз."
+			}
+		},
+		"divorceButton": {
+			"eng": "End Marriage",
+			"trans": "Розлучитися"
+		},
+		"noChanges": {
+			"eng": "No changes to save",
+			"trans": "Немає змін для збереження"
+		},
+		"notMarried": {
+			"eng": "You are not married",
+			"trans": "Ви не одружені"
+		},
+		"saveError": {
+			"eng": "Failed to save settings. Please try again.",
+			"trans": "Не вдалося зберегти налаштування. Спробуйте ще раз."
+		},
+		"saved": {
+			"eng": "Marriage settings saved successfully!",
+			"trans": "Налаштування шлюбу успішно збережено!"
+		},
+		"title": {
+			"eng": "Marriage Settings",
+			"trans": "Налаштування шлюбу"
+		},
+		"uploadError": {
+			"eng": "Failed to upload image. Please try again.",
+			"trans": "Не вдалося завантажити зображення. Будь ласка, спробуйте ще раз."
+		},
+		"uploadSuccess": {
+			"eng": "Image uploaded.",
+			"trans": "Зображення завантажено."
+		},
+		"vowTooLong": {
+			"eng": "Vow phrase must be 64 words or less. Current: ${count} words",
+			"trans": "Фраза обітниці повинна містити максимум 64 слова. Наразі: ${count} слів",
+			"vars": [
+				"count"
+			]
+		}
+	},
 	"messageImage": {
 		"hideImage": {
 			"eng": "Hide Image",
@@ -5401,6 +5851,16 @@
 		"level": {
 			"eng": "level",
 			"trans": "рівень"
+		},
+		"marriage": {
+			"accept": {
+				"eng": "Accept",
+				"trans": "Прийняти"
+			},
+			"reject": {
+				"eng": "Reject",
+				"trans": "Відмовитись"
+			}
 		},
 		"missing": {
 			"eng": "missing",
@@ -5637,6 +6097,18 @@
 			"title": {
 				"eng": "Unofficial translation",
 				"trans": "Неофіційний переклад"
+			}
+		},
+		"marriageSttingsPage": {
+			"divorce": {
+				"description": {
+					"eng": "This action cannot be undone. Both you and your partner will lose all marriage benefits.",
+					"trans": "Цю дію не можна скасувати. Ви та ваш партнёр втратите всі переваги шлюбу."
+				},
+				"title": {
+					"eng": "Are you sure you want to end the marriage?",
+					"trans": "Ви впевнені, що бажаєте розірвати шлюб?"
+				}
 			}
 		},
 		"newbieTutorial": {
@@ -6392,7 +6864,8 @@
 			},
 			"defaultLines": {
 				"eng": [
-					"Do you want to buy Units, or use your Units?"
+					"Do you want to buy Units, or use your Units?",
+					"We also have Eternal Bond Rings for those looking to unite with their partner forever."
 				],
 				"trans": [
 					"Ви хочете придбати Юніти, чи використати Юніти?",
@@ -6930,6 +7403,12 @@
 			"name": {
 				"eng": "Dog",
 				"trans": "Собака"
+			}
+		},
+		"rabbit": {
+			"name": {
+				"eng": "Rabbit",
+				"trans": "Кролик"
 			}
 		}
 	},
@@ -10380,6 +10859,12 @@
 				"trans": "Необхідний PIN-код для розблокування"
 			}
 		},
+		"generic": {
+			"days": {
+				"eng": "days",
+				"trans": "дні"
+			}
+		},
 		"inventory": {
 			"autoScrap": {
 				"button": {
@@ -11127,6 +11612,34 @@
 				"eng": "location",
 				"trans": "Розташування"
 			},
+			"marriage": {
+				"cardTitle": {
+					"eng": "Relationship",
+					"trans": "Стосунки"
+				},
+				"devotion": {
+					"eng": "Devotion",
+					"trans": "Відданість"
+				},
+				"duration": {
+					"justMarried": {
+						"eng": "Just married!",
+						"trans": "Тільки що одружилися!"
+					}
+				},
+				"expiresOn": {
+					"eng": "Expires on",
+					"trans": "Термін дії до"
+				},
+				"marriedFor": {
+					"eng": "Married for",
+					"trans": "Одружений з"
+				},
+				"settings": {
+					"eng": "Marriage Settings",
+					"trans": "Налаштування шлюбу"
+				}
+			},
 			"numOfMember": {
 				"eng": "Number of members",
 				"trans": "Кількість членів"
@@ -11139,6 +11652,10 @@
 				"addToFriend": {
 					"eng": "add to Friend List",
 					"trans": "Додати до друзів"
+				},
+				"alreadyMarried": {
+					"eng": "Already Married",
+					"trans": "Вже одружений"
 				},
 				"block": {
 					"eng": "Block Player",
@@ -11155,6 +11672,14 @@
 				"label": {
 					"eng": "Player Actions",
 					"trans": "Дії гравця"
+				},
+				"proposalCooldown": {
+					"eng": "Proposal on Cooldown",
+					"trans": "Пропозиція у стані охолодження"
+				},
+				"propose": {
+					"eng": "Propose Marriage",
+					"trans": "Пропозиція шлюбу"
 				},
 				"removeFromFriend": {
 					"eng": "Remove from Friend List",
@@ -11903,6 +12428,10 @@
 			"locations": {
 				"eng": "locations",
 				"trans": "локації"
+			},
+			"marriage": {
+				"eng": "Marriage System",
+				"trans": "Система шлюбу"
 			},
 			"profile": {
 				"eng": "profile",

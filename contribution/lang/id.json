@@ -627,7 +627,7 @@
 	},
 	"basicInfo": {
 		"nameInvalid": {
-			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'",
+			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or '_'",
 			"trans": "Panjang nama harus lebih dari 4, kurang dari atau sama dengan 16 dan hanya berisi karakter bahasa Inggris, angka atau \\ '_ \\'"
 		},
 		"nameProfane": {
@@ -3986,6 +3986,16 @@
 				"trans": "RNG Interferer"
 			}
 		},
+		"roseBouquet": {
+			"description": {
+				"eng": "A beautifully preserved rose bouquet. A traditional gift that extends the marriage bond by 30 days when given to your partner. A symbol of enduring love even in the digital age.",
+				"trans": "Rangkaian mawar yang terjaga keindahannya. Hadiah tradisional ini memperpanjang ikatan pernikahan Anda selama 30 hari ketika diberikan kepada pasangan. Simbol cinta abadi bahkan di zaman digital."
+			},
+			"name": {
+				"eng": "Rose Bouquet",
+				"trans": "Buket Mawar"
+			}
+		},
 		"seashell": {
 			"description": {
 				"eng": "A beautiful seashell that can be used to exchange items with Josie",
@@ -4239,6 +4249,16 @@
 			"name": {
 				"eng": "upper armor",
 				"trans": "Armor bagian atas"
+			}
+		},
+		"weddingRing": {
+			"description": {
+				"eng": "A finely crafted ring recognized by the City Registry. Present this to propose a marriage bond. The license is time-limited under city policy and can be extended by both partners.",
+				"trans": "Cincin berkualitas tinggi yang diakui oleh Registrasi Kota. Sajikan ini untuk mengusulkan ikatan pernikahan. Lisensi memiliki masa berlaku terbatas sesuai kebijakan kota dan dapat diperpanjang oleh kedua pasangan."
+			},
+			"name": {
+				"eng": "Marriage Bond Ring",
+				"trans": "Cincin Ikatan Pernikahan"
 			}
 		}
 	},
@@ -5190,6 +5210,436 @@
 			]
 		}
 	},
+	"marriage": {
+		"accepted": {
+			"eng": "You are now married to ${proposer.getName()}!",
+			"trans": "Anda sekarang menikah dengan ${proposer.getName()}!"
+		},
+		"acceptedProposer": {
+			"eng": "${player.getName()} accepted your proposal! You are now married!",
+			"trans": "${player.getName()} menerima usulanmu! Kamu sekarang sudah menikah!"
+		},
+		"anniversary": {
+			"eng": "Anniversary",
+			"trans": "Ulang Tahun Pernikahan"
+		},
+		"defaultMessage": {
+			"eng": "Will you marry me?",
+			"trans": "Mau nikah sama aku?"
+		},
+		"defaultVow": {
+			"eng": "Together forever in the digital realm",
+			"trans": "Selamanya bersamamu di dunia digital"
+		},
+		"divorce": {
+			"success": {
+				"eng": "Your marriage has been ended.",
+				"trans": "Perkawinan Anda telah berakhir."
+			}
+		},
+		"error": {
+			"alreadyMarried": {
+				"eng": "You are already married",
+				"trans": "Anda sudah menikah"
+			},
+			"blocked": {
+				"eng": "You cannot propose to this player",
+				"trans": "Kamu tidak bisa mengajukan proposal pernikahan kepada pemain ini"
+			},
+			"cannotProposeSelf": {
+				"eng": "You cannot propose to yourself",
+				"trans": "Anda tidak dapat melamar diri sendiri"
+			},
+			"cooldown": {
+				"eng": "You must wait ${minutes} more minutes before sending another proposal",
+				"trans": "Tunggu ${minutes} menit sebelum melamar lagi"
+			},
+			"deleteWhileMarried": {
+				"eng": "You can't delete your account while married. Please divorce first.",
+				"trans": "Anda tidak dapat menghapus akun Anda saat masih menikah. Harap cerai terlebih dahulu."
+			},
+			"mismatch": {
+				"eng": "Marriage data mismatch",
+				"trans": "Data pernikahan tidak cocok"
+			},
+			"noBouquet": {
+				"eng": "You need an ${itemName} to extend your marriage bond.",
+				"trans": "Anda membutuhkan ${itemName} untuk memperpanjang ikatan pernikahan Anda.",
+				"vars": [
+					"itemName"
+				]
+			},
+			"noRing": {
+				"eng": "You need an Eternal Bond Ring to propose",
+				"trans": "Anda membutuhkan Cincin Ikatan Abadi untuk mengajukan permohonan pernikahan"
+			},
+			"partnerNotFound": {
+				"eng": "Your partner could not be found",
+				"trans": "Pasangan Anda tidak ditemukan"
+			},
+			"playerNotFound": {
+				"eng": "Player not found",
+				"trans": "Tidak ditemukan pemain"
+			},
+			"proposerAlreadyMarried": {
+				"eng": "The proposer is already married",
+				"trans": "Pengusul sudah menikah"
+			},
+			"proposerNotFound": {
+				"eng": "Proposer not found",
+				"trans": "Pengusul tidak ditemukan"
+			},
+			"ringMissing": {
+				"eng": "The proposer no longer has the ring",
+				"trans": "Pemberi proposal sudah tidak memiliki cincin lagi"
+			},
+			"targetAlreadyMarried": {
+				"eng": "That player is already married",
+				"trans": "Pemain tersebut sudah menikah"
+			},
+			"targetMarried": {
+				"eng": "${targetPlayer.getName()} is already married",
+				"trans": "${targetPlayer.getName()} sudah menikah"
+			}
+		},
+		"extend": {
+			"announcement": {
+				"eng": "${player1} has gifted an ${itemName} to ${player2}! 🌹💕",
+				"trans": "${player1} telah menyumbangkan ${itemName} kepada ${player2}! 🌹💕",
+				"vars": [
+					"player1",
+					"player2",
+					"itemName"
+				]
+			},
+			"success": {
+				"eng": "You've gifted a rose bouquet to ${partner}! Your marriage bond has been extended for another 30 days.",
+				"trans": "Anda telah memberi buket mawar kepada ${partner}! Ikatan pernikahanmu sudah diperpanjang 30 hari lagi.",
+				"vars": [
+					"partner"
+				]
+			}
+		},
+		"proposalSent": {
+			"eng": "Your marriage proposal has been sent!",
+			"trans": "Proposal pernikahan Anda telah dikirim!"
+		},
+		"proposalSentMail": {
+			"eng": "You have proposed to ${targetName} with an Eternal Bond Ring",
+			"trans": "Anda telah mengajukan pernikahan kepada ${targetName} memakai Cincin Ikatan Abadi",
+			"vars": [
+				"targetName"
+			]
+		},
+		"propose": {
+			"confirm": {
+				"eng": "Propose",
+				"trans": "Ajukan"
+			},
+			"description": {
+				"eng": "Are you sure you want to propose to ${targetPlayer.getName()}? This will use your Eternal Bond Ring.",
+				"trans": "Apakah Anda yakin ingin melamar kepada ${targetPlayer.getName()}? Ini akan menggunakan Cincir Ikatan Abadi Anda."
+			},
+			"title": {
+				"eng": "Marriage Proposal",
+				"trans": "Proposal Pernikahan"
+			}
+		},
+		"rejected": {
+			"eng": "${player.displayName} has declined your marriage proposal.",
+			"trans": "${player.displayName} menolak tawaran pernikahanmu."
+		},
+		"settings": {
+			"backgroundImage": {
+				"eng": "Background Image",
+				"trans": "Gambar Latar Belakang"
+			},
+			"expired": {
+				"eng": "Marriage has expired",
+				"trans": "Pernikahan telah kadaluarsa"
+			},
+			"expiresIn": {
+				"eng": "Expires in ${days} days (${date})",
+				"trans": "Berakhir dalam ${days} hari (${date})",
+				"vars": [
+					"days",
+					"date"
+				]
+			},
+			"extendButton": {
+				"eng": "Extend Marriage",
+				"trans": "Perpanjang Pernikahan"
+			},
+			"extendWithBouquet": {
+				"eng": "Gift a Rose Bouquet to extend for ${days} days",
+				"trans": "Berikan Buket Mawar untuk memperpanjang ${days} hari",
+				"vars": [
+					"days"
+				]
+			},
+			"imageHint1": {
+				"eng": "Click to upload a background image",
+				"trans": "Klik untuk unggah gambar latar belakang"
+			},
+			"imageHint2": {
+				"eng": "Recommend uplaoding 2:1 ratio image",
+				"trans": "Saran: unggah gambar dengan rasio 2:1"
+			},
+			"invalidSymbol": {
+				"eng": "Invalid marriage symbol selected",
+				"trans": "Simbol pernikahan yang dipilih tidak valid"
+			},
+			"permanent": {
+				"eng": "Permanent marriage",
+				"trans": "Perkawinan Permanen"
+			},
+			"saveVow": {
+				"eng": "Save Vow",
+				"trans": "Simpan Janji"
+			},
+			"status": {
+				"eng": "Marriage Status",
+				"trans": "Status Pernikahan"
+			},
+			"symbol": {
+				"eng": "Symbol",
+				"trans": "Simbol"
+			},
+			"symbolHint": {
+				"eng": "Choose the emoji shown between your names",
+				"trans": "Pilih emoji yang ditampilkan di antara nama kalian"
+			},
+			"vowNotAllowed": {
+				"eng": "Your vow contains not allowed words",
+				"trans": "Sumpah Anda mengandung kata yang tidak diperbolehkan"
+			},
+			"vowPhrase": {
+				"eng": "Vow Phrase",
+				"trans": "Ungkapan Janji"
+			},
+			"vowPlaceholder": {
+				"eng": "Write your romantic vow here...",
+				"trans": "Tuliskan janji romantismu di sini..."
+			},
+			"vowTooLong": {
+				"eng": "Vow phrase must be 64 words or less",
+				"trans": "Frase janji harus tidak melebihi 64 kata"
+			},
+			"wordCount": {
+				"eng": "${count} / 64 words",
+				"trans": "${count} / 64 kata",
+				"vars": [
+					"count"
+				]
+			}
+		},
+		"symbol": {
+			"crown": {
+				"eng": "Royalty",
+				"trans": "Raja"
+			},
+			"cyber": {
+				"eng": "Cyber Love",
+				"trans": "Cinta Siber"
+			},
+			"fire": {
+				"eng": "On Fire",
+				"trans": "Nyala"
+			},
+			"gaming": {
+				"eng": "Player Two",
+				"trans": "Pemain 2"
+			},
+			"heart": {
+				"eng": "Classic Heart",
+				"trans": "Jantung Klasik"
+			},
+			"infinity": {
+				"eng": "Infinity",
+				"trans": "Abadi"
+			},
+			"lightning": {
+				"eng": "Electric",
+				"trans": "Listrik"
+			},
+			"link": {
+				"eng": "Linked",
+				"trans": "Tersambung"
+			},
+			"lock": {
+				"eng": "Locked In",
+				"trans": "Terkunci"
+			},
+			"pizza": {
+				"eng": "Pizza Love",
+				"trans": "Cinta Pizza"
+			},
+			"potato": {
+				"eng": "Spud Love",
+				"trans": "Cinta Spud"
+			},
+			"ring": {
+				"eng": "Wedding Ring",
+				"trans": "Cincin Perkawinan"
+			},
+			"rocket": {
+				"eng": "To The Moon",
+				"trans": "Ke Bulan"
+			},
+			"rose": {
+				"eng": "Rose",
+				"trans": "Mawar"
+			},
+			"sparkle": {
+				"eng": "Sparkling Heart",
+				"trans": "Hati Gemerlap"
+			},
+			"target": {
+				"eng": "Perfect Match",
+				"trans": "Kecocokan Sempurna"
+			},
+			"unicorn": {
+				"eng": "Magical",
+				"trans": "Ajaib"
+			}
+		},
+		"systemAnnouncement": {
+			"eng": "💍 ${player1} and ${player2} have tied the knot! Congratulations to the happy couple! 🎉",
+			"trans": "💍 ${player1} dan ${player2} sudah resmi menikah! Selamat untuk pasangan bahagia ini! 🎉",
+			"vars": [
+				"player1",
+				"player2"
+			]
+		},
+		"vow": {
+			"changeNotification": {
+				"eng": "${player} has updated their marriage vow to ${vow}",
+				"trans": "${player} has updated their marriage vow: \"${vow}\"",
+				"vars": [
+					"player",
+					"vow"
+				]
+			},
+			"cooldown": {
+				"eng": "You can update your vow again in ${minutes} minutes",
+				"trans": "Anda dapat memperbarui sumpah Anda lagi dalam ${minutes} menit",
+				"vars": [
+					"minutes"
+				]
+			}
+		}
+	},
+	"marriageExtendModal": {
+		"confirmButton": {
+			"eng": "Extend Marriage",
+			"trans": "Perpanjang Pernikahan"
+		},
+		"currentStatus": {
+			"eng": "Current Status",
+			"trans": "Status Saat Ini"
+		},
+		"duration": {
+			"eng": "Duration:",
+			"trans": "Durasi:"
+		},
+		"expired": {
+			"eng": "Your marriage has expired",
+			"trans": "Pernikahan Anda telah berakhir"
+		},
+		"expiresIn": {
+			"eng": "Expires in ${days} days",
+			"trans": "Berakhir dalam ${days} hari",
+			"vars": [
+				"days"
+			]
+		},
+		"expiryDate": {
+			"eng": "Expiry: ${date}",
+			"trans": "Kadaluwarsa: ${date}",
+			"vars": [
+				"date"
+			]
+		},
+		"extensionDetails": {
+			"eng": "Extension Details",
+			"trans": "Rincian Perpanjangan"
+		},
+		"failed": {
+			"eng": "Failed to extend marriage. Please try again.",
+			"trans": "Gagal memperpanjang pernikahan. Silakan coba lagi."
+		},
+		"newExpiry": {
+			"eng": "New Expiry:",
+			"trans": "Berlaku Hingga:"
+		},
+		"permanent": {
+			"eng": "Permanent marriage - no extension needed",
+			"trans": "Perkawinan permanen – tidak perlu perpanjangan"
+		},
+		"requirement": {
+			"eng": "Required:",
+			"trans": "Diperlukan:"
+		},
+		"success": {
+			"eng": "You've gifted a rose bouquet! Your bond has been extended.",
+			"trans": "Anda telah memberi hadiah seikat mawar! Ikatan kalian diperpanjang."
+		},
+		"timesExtended": {
+			"eng": "Times Extended:",
+			"trans": "Berapa Kali Diperpanjang:"
+		},
+		"title": {
+			"eng": "Extend Marriage",
+			"trans": "Perpanjang Pernikahan"
+		}
+	},
+	"marriageSttingsPage": {
+		"divorce": {
+			"error": {
+				"eng": "Failed to end marriage. Please try again.",
+				"trans": "Gagal mengakhiri pernikahan. Silakan coba lagi."
+			}
+		},
+		"divorceButton": {
+			"eng": "End Marriage",
+			"trans": "Putuskan Pernikahan"
+		},
+		"noChanges": {
+			"eng": "No changes to save",
+			"trans": "Tidak ada perubahan untuk disimpan"
+		},
+		"notMarried": {
+			"eng": "You are not married",
+			"trans": "Belum Menikah"
+		},
+		"saveError": {
+			"eng": "Failed to save settings. Please try again.",
+			"trans": "Gagal menyimpan pengaturan. Silakan coba lagi."
+		},
+		"saved": {
+			"eng": "Marriage settings saved successfully!",
+			"trans": "Pengaturan pernikahan berhasil disimpan!"
+		},
+		"title": {
+			"eng": "Marriage Settings",
+			"trans": "Pengaturan Pernikahan"
+		},
+		"uploadError": {
+			"eng": "Failed to upload image. Please try again.",
+			"trans": "Gagal mengunggah gambar. Silakan coba lagi."
+		},
+		"uploadSuccess": {
+			"eng": "Image uploaded.",
+			"trans": "Gambar berhasil diunggah."
+		},
+		"vowTooLong": {
+			"eng": "Vow phrase must be 64 words or less. Current: ${count} words",
+			"trans": "Frasa janji harus maksimal 64 kata. Saat ini: ${count} kata",
+			"vars": [
+				"count"
+			]
+		}
+	},
 	"messageImage": {
 		"hideImage": {
 			"eng": "Hide Image",
@@ -5402,6 +5852,16 @@
 		"level": {
 			"eng": "level",
 			"trans": "Level"
+		},
+		"marriage": {
+			"accept": {
+				"eng": "Accept",
+				"trans": "Terima"
+			},
+			"reject": {
+				"eng": "Reject",
+				"trans": "Tolak"
+			}
 		},
 		"missing": {
 			"eng": "missing",
@@ -5638,6 +6098,18 @@
 			"title": {
 				"eng": "Unofficial translation",
 				"trans": "Terjemahan tidak resmi"
+			}
+		},
+		"marriageSttingsPage": {
+			"divorce": {
+				"description": {
+					"eng": "This action cannot be undone. Both you and your partner will lose all marriage benefits.",
+					"trans": "Tindakan ini tidak dapat dibatalkan. Kamu dan pasanganmu akan kehilangan semua manfaat pernikahan."
+				},
+				"title": {
+					"eng": "Are you sure you want to end the marriage?",
+					"trans": "Apakah Anda yakin ingin mengakhiri pernikahan?"
+				}
 			}
 		},
 		"newbieTutorial": {
@@ -6242,7 +6714,8 @@
 			},
 			"defaultLines": {
 				"eng": [
-					"Do you want to buy Units, or use your Units?"
+					"Do you want to buy Units, or use your Units?",
+					"We also have Eternal Bond Rings for those looking to unite with their partner forever."
 				],
 				"trans": [
 					"Apakah kamu ingin membeli Unit , atau menggunakan Unit yang kau punya?"
@@ -6730,6 +7203,12 @@
 			"name": {
 				"eng": "Dog",
 				"trans": "Anjing"
+			}
+		},
+		"rabbit": {
+			"name": {
+				"eng": "Rabbit",
+				"trans": "Kelinci"
 			}
 		}
 	},
@@ -10180,6 +10659,12 @@
 				"trans": "Kode PIN diperlukan untuk membuka kunci"
 			}
 		},
+		"generic": {
+			"days": {
+				"eng": "days",
+				"trans": "hari"
+			}
+		},
 		"inventory": {
 			"autoScrap": {
 				"button": {
@@ -10927,6 +11412,34 @@
 				"eng": "location",
 				"trans": "Lokasi"
 			},
+			"marriage": {
+				"cardTitle": {
+					"eng": "Relationship",
+					"trans": "Hubungan"
+				},
+				"devotion": {
+					"eng": "Devotion",
+					"trans": "Pengabdian"
+				},
+				"duration": {
+					"justMarried": {
+						"eng": "Just married!",
+						"trans": "Baru saja menikah!"
+					}
+				},
+				"expiresOn": {
+					"eng": "Expires on",
+					"trans": "Berakhir pada"
+				},
+				"marriedFor": {
+					"eng": "Married for",
+					"trans": "Menikah selama"
+				},
+				"settings": {
+					"eng": "Marriage Settings",
+					"trans": "Pengaturan Pernikahan"
+				}
+			},
 			"numOfMember": {
 				"eng": "Number of members",
 				"trans": "Jumlah anggota"
@@ -10939,6 +11452,10 @@
 				"addToFriend": {
 					"eng": "add to Friend List",
 					"trans": "Tambah ke Daftar Pertemanan"
+				},
+				"alreadyMarried": {
+					"eng": "Already Married",
+					"trans": "Sudah Menikah"
 				},
 				"block": {
 					"eng": "Block Player",
@@ -10955,6 +11472,14 @@
 				"label": {
 					"eng": "Player Actions",
 					"trans": "Aksi Pemain"
+				},
+				"proposalCooldown": {
+					"eng": "Proposal on Cooldown",
+					"trans": "Proposal sedang pending"
+				},
+				"propose": {
+					"eng": "Propose Marriage",
+					"trans": "Tawarkan Pernikahan"
 				},
 				"removeFromFriend": {
 					"eng": "Remove from Friend List",
@@ -11703,6 +12228,10 @@
 			"locations": {
 				"eng": "locations",
 				"trans": "lokasi"
+			},
+			"marriage": {
+				"eng": "Marriage System",
+				"trans": "Sistem Pernikahan"
 			},
 			"profile": {
 				"eng": "profile",

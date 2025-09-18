@@ -627,7 +627,7 @@
 	},
 	"basicInfo": {
 		"nameInvalid": {
-			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'",
+			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or '_'",
 			"trans": "يجب أن يكون طول الاسم أكبر ثم 4 ، أقل من ذلك أو يساوي 16 ويحتوي فقط على أحرف أو أرقام إنجليزية أو \\ '_ \\'"
 		},
 		"nameProfane": {
@@ -3986,6 +3986,16 @@
 				"trans": "RNG التداخل"
 			}
 		},
+		"roseBouquet": {
+			"description": {
+				"eng": "A beautifully preserved rose bouquet. A traditional gift that extends the marriage bond by 30 days when given to your partner. A symbol of enduring love even in the digital age.",
+				"trans": "كوكب من الورود محفوظ بجمالٍ خالٍ، هدية تقليدية تمد رابط الزواج بثلاثين يومًا إضافيًا عند تقديمها لشريك حياتك. رمزٌ للحب الدائم حتى في عصر الرقمية."
+			},
+			"name": {
+				"eng": "Rose Bouquet",
+				"trans": "باقة ورد"
+			}
+		},
 		"seashell": {
 			"description": {
 				"eng": "A beautiful seashell that can be used to exchange items with Josie",
@@ -4239,6 +4249,16 @@
 			"name": {
 				"eng": "upper armor",
 				"trans": "درع العلوي"
+			}
+		},
+		"weddingRing": {
+			"description": {
+				"eng": "A finely crafted ring recognized by the City Registry. Present this to propose a marriage bond. The license is time-limited under city policy and can be extended by both partners.",
+				"trans": "خاتم مُصَمَّم بعناية ومعترف به في سجلات المدينة. قدّمه لطلب عقد الزواج. يُمنح رخصة مؤقتة حسب سياسة المدينة، ويمكن تمديدها بالتراضي بين الطرفين."
+			},
+			"name": {
+				"eng": "Marriage Bond Ring",
+				"trans": "خاتم عقد الزواج"
 			}
 		}
 	},
@@ -5190,6 +5210,436 @@
 			]
 		}
 	},
+	"marriage": {
+		"accepted": {
+			"eng": "You are now married to ${proposer.getName()}!",
+			"trans": "أنت الآن متزوجًا/متزوجة مع ${proposer.getName()}!"
+		},
+		"acceptedProposer": {
+			"eng": "${player.getName()} accepted your proposal! You are now married!",
+			"trans": "${player.getName()} قبَل عرضك! أنت الآن متزوج!"
+		},
+		"anniversary": {
+			"eng": "Anniversary",
+			"trans": "الذكرى السنوية"
+		},
+		"defaultMessage": {
+			"eng": "Will you marry me?",
+			"trans": "هل تتزوجني؟"
+		},
+		"defaultVow": {
+			"eng": "Together forever in the digital realm",
+			"trans": "معًا إلى الأبد في العالم الرقمي"
+		},
+		"divorce": {
+			"success": {
+				"eng": "Your marriage has been ended.",
+				"trans": "انتهى زواجك."
+			}
+		},
+		"error": {
+			"alreadyMarried": {
+				"eng": "You are already married",
+				"trans": "أنت متزوج بالفعل"
+			},
+			"blocked": {
+				"eng": "You cannot propose to this player",
+				"trans": "لا تستطيع التقدم بطلب الزواج لهذا الشخص"
+			},
+			"cannotProposeSelf": {
+				"eng": "You cannot propose to yourself",
+				"trans": "لا يمكنك التقدم بطلب الزواج بنفسك"
+			},
+			"cooldown": {
+				"eng": "You must wait ${minutes} more minutes before sending another proposal",
+				"trans": "انتظر ${minutes} دقيقة قبل إعادة الاقتراح"
+			},
+			"deleteWhileMarried": {
+				"eng": "You can't delete your account while married. Please divorce first.",
+				"trans": "لا يمكنك حذف حسابك أثناء الزواج. الرجاء الانفصال أولاً."
+			},
+			"mismatch": {
+				"eng": "Marriage data mismatch",
+				"trans": "عدم توافق بيانات الزواج"
+			},
+			"noBouquet": {
+				"eng": "You need an ${itemName} to extend your marriage bond.",
+				"trans": "تحتاج إلى ${itemName} لتمديد رباط زواجك.",
+				"vars": [
+					"itemName"
+				]
+			},
+			"noRing": {
+				"eng": "You need an Eternal Bond Ring to propose",
+				"trans": "تحتاج إلى خاتم رابطة أبدية لتقديم الزواج"
+			},
+			"partnerNotFound": {
+				"eng": "Your partner could not be found",
+				"trans": "لا يمكن العثور على شريكك"
+			},
+			"playerNotFound": {
+				"eng": "Player not found",
+				"trans": "لا يوجد لاعب"
+			},
+			"proposerAlreadyMarried": {
+				"eng": "The proposer is already married",
+				"trans": "المقترح متزوج بالفعل"
+			},
+			"proposerNotFound": {
+				"eng": "Proposer not found",
+				"trans": "المقترح غير موجود"
+			},
+			"ringMissing": {
+				"eng": "The proposer no longer has the ring",
+				"trans": "لم يعد المقترح يمتلك الخاتم"
+			},
+			"targetAlreadyMarried": {
+				"eng": "That player is already married",
+				"trans": "هذا اللاعب متزوج بالفعل"
+			},
+			"targetMarried": {
+				"eng": "${targetPlayer.getName()} is already married",
+				"trans": "${targetPlayer.getName()} يُعَدّ مُتَزَوِّنًا بالفعل"
+			}
+		},
+		"extend": {
+			"announcement": {
+				"eng": "${player1} has gifted an ${itemName} to ${player2}! 🌹💕",
+				"trans": "${player1} أهدّ ${itemName} إلى ${player2}! 🌹💓",
+				"vars": [
+					"player1",
+					"player2",
+					"itemName"
+				]
+			},
+			"success": {
+				"eng": "You've gifted a rose bouquet to ${partner}! Your marriage bond has been extended for another 30 days.",
+				"trans": "قدمت لــ${partner} باقة من الورود! لقد امتدت رابطة زواجك لمدة 30 يومًا أخرى.",
+				"vars": [
+					"partner"
+				]
+			}
+		},
+		"proposalSent": {
+			"eng": "Your marriage proposal has been sent!",
+			"trans": "تم إرسال عرض الزواج الخاص بك!"
+		},
+		"proposalSentMail": {
+			"eng": "You have proposed to ${targetName} with an Eternal Bond Ring",
+			"trans": "لقد قدمتِ/قدمتَ عرضًا للزواج مع ${targetName} باستخدام خاتم الارتباط الأبدي",
+			"vars": [
+				"targetName"
+			]
+		},
+		"propose": {
+			"confirm": {
+				"eng": "Propose",
+				"trans": "اقترح الزواج"
+			},
+			"description": {
+				"eng": "Are you sure you want to propose to ${targetPlayer.getName()}? This will use your Eternal Bond Ring.",
+				"trans": "هل أنت متأكد أنك تريد تقديم طلب الزواج لـ${targetPlayer.getName()}؟ سيُستعمل هذا لتفعيل خاتم الرابط الأبدي الخاص بك."
+			},
+			"title": {
+				"eng": "Marriage Proposal",
+				"trans": "طلب الزواج"
+			}
+		},
+		"rejected": {
+			"eng": "${player.displayName} has declined your marriage proposal.",
+			"trans": "${player.displayName} قد رفض عرضك للزواج."
+		},
+		"settings": {
+			"backgroundImage": {
+				"eng": "Background Image",
+				"trans": "صورة الخلفية"
+			},
+			"expired": {
+				"eng": "Marriage has expired",
+				"trans": "الزواج قد انتهى"
+			},
+			"expiresIn": {
+				"eng": "Expires in ${days} days (${date})",
+				"trans": "ينتهي بعد ${days} أيام (${date})",
+				"vars": [
+					"days",
+					"date"
+				]
+			},
+			"extendButton": {
+				"eng": "Extend Marriage",
+				"trans": "تمديد الزواج"
+			},
+			"extendWithBouquet": {
+				"eng": "Gift a Rose Bouquet to extend for ${days} days",
+				"trans": "أرسل باقة وردية لتطويل الزواج بـ${days} أيام",
+				"vars": [
+					"days"
+				]
+			},
+			"imageHint1": {
+				"eng": "Click to upload a background image",
+				"trans": "انقر لتحميل صورة الخلفية"
+			},
+			"imageHint2": {
+				"eng": "Recommend uplaoding 2:1 ratio image",
+				"trans": "ننصح بتحميل صورة بنسبة ٢:١"
+			},
+			"invalidSymbol": {
+				"eng": "Invalid marriage symbol selected",
+				"trans": "تم اختيار رمز زواج غير صالح"
+			},
+			"permanent": {
+				"eng": "Permanent marriage",
+				"trans": "الزواج الدائم"
+			},
+			"saveVow": {
+				"eng": "Save Vow",
+				"trans": "حفظ العهد"
+			},
+			"status": {
+				"eng": "Marriage Status",
+				"trans": "حالة الزواج"
+			},
+			"symbol": {
+				"eng": "Symbol",
+				"trans": "رمز"
+			},
+			"symbolHint": {
+				"eng": "Choose the emoji shown between your names",
+				"trans": "اختَر الإيموجي الموجود بين أسمائكم"
+			},
+			"vowNotAllowed": {
+				"eng": "Your vow contains not allowed words",
+				"trans": "عهدك يحتوي على كلمات ممنوعة"
+			},
+			"vowPhrase": {
+				"eng": "Vow Phrase",
+				"trans": "عبارة العهد"
+			},
+			"vowPlaceholder": {
+				"eng": "Write your romantic vow here...",
+				"trans": "اكتب عهداً رومانسياً هنا…"
+			},
+			"vowTooLong": {
+				"eng": "Vow phrase must be 64 words or less",
+				"trans": "يجب ألا يتجاوز تعهدك ٦٤ كلمة"
+			},
+			"wordCount": {
+				"eng": "${count} / 64 words",
+				"trans": "${count} / 64 كلمة",
+				"vars": [
+					"count"
+				]
+			}
+		},
+		"symbol": {
+			"crown": {
+				"eng": "Royalty",
+				"trans": "الملكية"
+			},
+			"cyber": {
+				"eng": "Cyber Love",
+				"trans": "حب سيبراني"
+			},
+			"fire": {
+				"eng": "On Fire",
+				"trans": "ناري"
+			},
+			"gaming": {
+				"eng": "Player Two",
+				"trans": "اللاعب الثاني"
+			},
+			"heart": {
+				"eng": "Classic Heart",
+				"trans": "قلب كلاسيكي"
+			},
+			"infinity": {
+				"eng": "Infinity",
+				"trans": "لانهاية"
+			},
+			"lightning": {
+				"eng": "Electric",
+				"trans": "كهربائي"
+			},
+			"link": {
+				"eng": "Linked",
+				"trans": "مرتبط"
+			},
+			"lock": {
+				"eng": "Locked In",
+				"trans": "مُقفل داخليةً"
+			},
+			"pizza": {
+				"eng": "Pizza Love",
+				"trans": "حب البيتزا"
+			},
+			"potato": {
+				"eng": "Spud Love",
+				"trans": "حب البطاطا"
+			},
+			"ring": {
+				"eng": "Wedding Ring",
+				"trans": "خاتم الزواج"
+			},
+			"rocket": {
+				"eng": "To The Moon",
+				"trans": "إلى القمر"
+			},
+			"rose": {
+				"eng": "Rose",
+				"trans": "وردة"
+			},
+			"sparkle": {
+				"eng": "Sparkling Heart",
+				"trans": "قلب متلألئ"
+			},
+			"target": {
+				"eng": "Perfect Match",
+				"trans": "مطابقة مثالية"
+			},
+			"unicorn": {
+				"eng": "Magical",
+				"trans": "سحري"
+			}
+		},
+		"systemAnnouncement": {
+			"eng": "💍 ${player1} and ${player2} have tied the knot! Congratulations to the happy couple! 🎉",
+			"trans": "💍 ${player1} و${player2} قد تزوجوا! ألف مبروك للعرسان السعيدين 🎉",
+			"vars": [
+				"player1",
+				"player2"
+			]
+		},
+		"vow": {
+			"changeNotification": {
+				"eng": "${player} has updated their marriage vow to ${vow}",
+				"trans": "${player} has updated their marriage vow: \"${vow}\"",
+				"vars": [
+					"player",
+					"vow"
+				]
+			},
+			"cooldown": {
+				"eng": "You can update your vow again in ${minutes} minutes",
+				"trans": "ستتمكن من تحديث العهد الخاص بك مجددًا خلال ${minutes} دقيقة",
+				"vars": [
+					"minutes"
+				]
+			}
+		}
+	},
+	"marriageExtendModal": {
+		"confirmButton": {
+			"eng": "Extend Marriage",
+			"trans": "تمديد الزواج"
+		},
+		"currentStatus": {
+			"eng": "Current Status",
+			"trans": "الحالة الحالية"
+		},
+		"duration": {
+			"eng": "Duration:",
+			"trans": "المدة:"
+		},
+		"expired": {
+			"eng": "Your marriage has expired",
+			"trans": "انتهت مدة زواجك"
+		},
+		"expiresIn": {
+			"eng": "Expires in ${days} days",
+			"trans": "ينتهي بعد ${days} أيام",
+			"vars": [
+				"days"
+			]
+		},
+		"expiryDate": {
+			"eng": "Expiry: ${date}",
+			"trans": "انتهاء الصلاحية: ${date}",
+			"vars": [
+				"date"
+			]
+		},
+		"extensionDetails": {
+			"eng": "Extension Details",
+			"trans": "تفاصيل التمديد"
+		},
+		"failed": {
+			"eng": "Failed to extend marriage. Please try again.",
+			"trans": "تعذر تمديد الزواج. حاول مجددًا."
+		},
+		"newExpiry": {
+			"eng": "New Expiry:",
+			"trans": "تاريخ الانتهاء الجديد:"
+		},
+		"permanent": {
+			"eng": "Permanent marriage - no extension needed",
+			"trans": "الزواج الدائم - لا حاجة للتمديد"
+		},
+		"requirement": {
+			"eng": "Required:",
+			"trans": "مطلوب:"
+		},
+		"success": {
+			"eng": "You've gifted a rose bouquet! Your bond has been extended.",
+			"trans": "قدمت باقة من الورود! لقد تم تمديد علاقتكما."
+		},
+		"timesExtended": {
+			"eng": "Times Extended:",
+			"trans": "المُمتدّات:"
+		},
+		"title": {
+			"eng": "Extend Marriage",
+			"trans": "تمديد الزواج"
+		}
+	},
+	"marriageSttingsPage": {
+		"divorce": {
+			"error": {
+				"eng": "Failed to end marriage. Please try again.",
+				"trans": "فشل في إلغاء الزواج. يُرجى المحاولة مجددًا."
+			}
+		},
+		"divorceButton": {
+			"eng": "End Marriage",
+			"trans": "إنهاء الزواج"
+		},
+		"noChanges": {
+			"eng": "No changes to save",
+			"trans": "لا توجد تغييرات للحفظ"
+		},
+		"notMarried": {
+			"eng": "You are not married",
+			"trans": "أنت غير متزوج"
+		},
+		"saveError": {
+			"eng": "Failed to save settings. Please try again.",
+			"trans": "فشل حفظ الإعدادات. حاول مرة أخرى."
+		},
+		"saved": {
+			"eng": "Marriage settings saved successfully!",
+			"trans": "تم حفظ إعدادات الزواج بنجاح!"
+		},
+		"title": {
+			"eng": "Marriage Settings",
+			"trans": "إعدادات الزواج"
+		},
+		"uploadError": {
+			"eng": "Failed to upload image. Please try again.",
+			"trans": "تعذر رفع الصورة. يُرجى المحاولة مجددًا."
+		},
+		"uploadSuccess": {
+			"eng": "Image uploaded.",
+			"trans": "تم رفع الصورة."
+		},
+		"vowTooLong": {
+			"eng": "Vow phrase must be 64 words or less. Current: ${count} words",
+			"trans": "يجب ألا يتجاوز عدد كلمات العهد ٦٤ كلمة. حاليًا: ${count} كلمة",
+			"vars": [
+				"count"
+			]
+		}
+	},
 	"messageImage": {
 		"hideImage": {
 			"eng": "Hide Image",
@@ -5402,6 +5852,16 @@
 		"level": {
 			"eng": "level",
 			"trans": "مستوى"
+		},
+		"marriage": {
+			"accept": {
+				"eng": "Accept",
+				"trans": "قبول"
+			},
+			"reject": {
+				"eng": "Reject",
+				"trans": "رفض"
+			}
 		},
 		"missing": {
 			"eng": "missing",
@@ -5638,6 +6098,18 @@
 			"title": {
 				"eng": "Unofficial translation",
 				"trans": "ترجمة غير رسمية"
+			}
+		},
+		"marriageSttingsPage": {
+			"divorce": {
+				"description": {
+					"eng": "This action cannot be undone. Both you and your partner will lose all marriage benefits.",
+					"trans": "هذا الإجراء لا يمكن التراجع عنه. ستخسر أنت وشريكك جميع مزايا الزواج."
+				},
+				"title": {
+					"eng": "Are you sure you want to end the marriage?",
+					"trans": "هل ترغب في إنهاء زواجك بالفعل؟"
+				}
 			}
 		},
 		"newbieTutorial": {
@@ -6242,7 +6714,8 @@
 			},
 			"defaultLines": {
 				"eng": [
-					"Do you want to buy Units, or use your Units?"
+					"Do you want to buy Units, or use your Units?",
+					"We also have Eternal Bond Rings for those looking to unite with their partner forever."
 				],
 				"trans": [
 					"Do you want to buy Units, or use your Units?"
@@ -6730,6 +7203,12 @@
 			"name": {
 				"eng": "Dog",
 				"trans": "كلب"
+			}
+		},
+		"rabbit": {
+			"name": {
+				"eng": "Rabbit",
+				"trans": "أرنب"
 			}
 		}
 	},
@@ -10180,6 +10659,12 @@
 				"trans": "رمز دبوس مطلوب لفتح"
 			}
 		},
+		"generic": {
+			"days": {
+				"eng": "days",
+				"trans": "أيام"
+			}
+		},
 		"inventory": {
 			"autoScrap": {
 				"button": {
@@ -10927,6 +11412,34 @@
 				"eng": "location",
 				"trans": "موقعك"
 			},
+			"marriage": {
+				"cardTitle": {
+					"eng": "Relationship",
+					"trans": "العلاقة"
+				},
+				"devotion": {
+					"eng": "Devotion",
+					"trans": "الوفاء"
+				},
+				"duration": {
+					"justMarried": {
+						"eng": "Just married!",
+						"trans": "متزوج للتو!"
+					}
+				},
+				"expiresOn": {
+					"eng": "Expires on",
+					"trans": "تنتهي في"
+				},
+				"marriedFor": {
+					"eng": "Married for",
+					"trans": "متزوج لمدة"
+				},
+				"settings": {
+					"eng": "Marriage Settings",
+					"trans": "إعدادات الزواج"
+				}
+			},
 			"numOfMember": {
 				"eng": "Number of members",
 				"trans": "عدد من أعضاء"
@@ -10939,6 +11452,10 @@
 				"addToFriend": {
 					"eng": "add to Friend List",
 					"trans": "Add to Friend List"
+				},
+				"alreadyMarried": {
+					"eng": "Already Married",
+					"trans": "متزوج بالفعل"
 				},
 				"block": {
 					"eng": "Block Player",
@@ -10955,6 +11472,14 @@
 				"label": {
 					"eng": "Player Actions",
 					"trans": "إجراءات لاعب"
+				},
+				"proposalCooldown": {
+					"eng": "Proposal on Cooldown",
+					"trans": "الاقتراح غير متاح مؤقتاً"
+				},
+				"propose": {
+					"eng": "Propose Marriage",
+					"trans": "اقترح الزواج"
 				},
 				"removeFromFriend": {
 					"eng": "Remove from Friend List",
@@ -11703,6 +12228,10 @@
 			"locations": {
 				"eng": "locations",
 				"trans": "المواقع"
+			},
+			"marriage": {
+				"eng": "Marriage System",
+				"trans": "نظام الزواج"
 			},
 			"profile": {
 				"eng": "profile",

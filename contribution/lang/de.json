@@ -627,7 +627,7 @@
 	},
 	"basicInfo": {
 		"nameInvalid": {
-			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'",
+			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or '_'",
 			"trans": "Die länge des Namens muss größer sein als 4, kleiner als 16 sein und nur englische Zeichen, Zahlen oder \\ '_ \\' ' enthalten"
 		},
 		"nameProfane": {
@@ -3986,6 +3986,16 @@
 				"trans": "Drop-Hack-Splitter"
 			}
 		},
+		"roseBouquet": {
+			"description": {
+				"eng": "A beautifully preserved rose bouquet. A traditional gift that extends the marriage bond by 30 days when given to your partner. A symbol of enduring love even in the digital age.",
+				"trans": "Einen wunderschön erhaltenen Rosenstrauß. Ein traditionelles Geschenk, das die Ehebindung um 30 Tage verlängert, wenn es an den Partner verschenkt wird. Ein Symbol für beständige Liebe – auch im digitalen Zeitalter."
+			},
+			"name": {
+				"eng": "Rose Bouquet",
+				"trans": "Rosenstrauß"
+			}
+		},
 		"seashell": {
 			"description": {
 				"eng": "A beautiful seashell that can be used to exchange items with Josie",
@@ -4239,6 +4249,16 @@
 			"name": {
 				"eng": "upper armor",
 				"trans": "Jacke"
+			}
+		},
+		"weddingRing": {
+			"description": {
+				"eng": "A finely crafted ring recognized by the City Registry. Present this to propose a marriage bond. The license is time-limited under city policy and can be extended by both partners.",
+				"trans": "Ein kunstvoll gefertigter Ring, der vom Stadtregister anerkannt ist. Präsentiere ihn, um eine Ehe zu beantragen. Die Lizenz gilt nur für begrenzte Zeit nach städtischer Regelung und kann von beiden Partnern verlängert werden."
+			},
+			"name": {
+				"eng": "Marriage Bond Ring",
+				"trans": "Heiratsbandring"
 			}
 		}
 	},
@@ -5190,6 +5210,436 @@
 			]
 		}
 	},
+	"marriage": {
+		"accepted": {
+			"eng": "You are now married to ${proposer.getName()}!",
+			"trans": "Du bist nun mit ${proposer.getName()} verheiratet!"
+		},
+		"acceptedProposer": {
+			"eng": "${player.getName()} accepted your proposal! You are now married!",
+			"trans": "${player.getName()} hat dein Angebot angenommen! Du bist nun verheiratet!"
+		},
+		"anniversary": {
+			"eng": "Anniversary",
+			"trans": "Jahrestag"
+		},
+		"defaultMessage": {
+			"eng": "Will you marry me?",
+			"trans": "Willst du mich heiraten?"
+		},
+		"defaultVow": {
+			"eng": "Together forever in the digital realm",
+			"trans": "Für die Ewigkeit verbunden – im virtuellen Raum"
+		},
+		"divorce": {
+			"success": {
+				"eng": "Your marriage has been ended.",
+				"trans": "Deine Ehe ist beendet."
+			}
+		},
+		"error": {
+			"alreadyMarried": {
+				"eng": "You are already married",
+				"trans": "Du bist bereits verheiratet"
+			},
+			"blocked": {
+				"eng": "You cannot propose to this player",
+				"trans": "Anfrage an diesen Spieler ist gesperrt"
+			},
+			"cannotProposeSelf": {
+				"eng": "You cannot propose to yourself",
+				"trans": "Du darfst dich nicht selbst um die Hand bitten"
+			},
+			"cooldown": {
+				"eng": "You must wait ${minutes} more minutes before sending another proposal",
+				"trans": "Warte ${minutes} Minuten, bevor du erneut anfragst"
+			},
+			"deleteWhileMarried": {
+				"eng": "You can't delete your account while married. Please divorce first.",
+				"trans": "Du kannst dein Konto nicht löschen, solange du verheiratet bist. Bitte trenne dich zuerst."
+			},
+			"mismatch": {
+				"eng": "Marriage data mismatch",
+				"trans": "Daten der Heirat stimmen nicht überein"
+			},
+			"noBouquet": {
+				"eng": "You need an ${itemName} to extend your marriage bond.",
+				"trans": "Du brauchst einen ${itemName}, um deine Ehe zu verlängern.",
+				"vars": [
+					"itemName"
+				]
+			},
+			"noRing": {
+				"eng": "You need an Eternal Bond Ring to propose",
+				"trans": "Ohne den Ewigen Bindungsring kannst du nicht anfragen!"
+			},
+			"partnerNotFound": {
+				"eng": "Your partner could not be found",
+				"trans": "Wir haben deinen Partner nicht gefunden"
+			},
+			"playerNotFound": {
+				"eng": "Player not found",
+				"trans": "Spieler nicht gefunden"
+			},
+			"proposerAlreadyMarried": {
+				"eng": "The proposer is already married",
+				"trans": "Du bist schon verheiratet"
+			},
+			"proposerNotFound": {
+				"eng": "Proposer not found",
+				"trans": "Antragsteller nicht gefunden"
+			},
+			"ringMissing": {
+				"eng": "The proposer no longer has the ring",
+				"trans": "Der Antragsteller hat den Ring nicht mehr"
+			},
+			"targetAlreadyMarried": {
+				"eng": "That player is already married",
+				"trans": "Dieser Spieler ist bereits verheiratet"
+			},
+			"targetMarried": {
+				"eng": "${targetPlayer.getName()} is already married",
+				"trans": "${targetPlayer.getName()} ist bereits verheiratet"
+			}
+		},
+		"extend": {
+			"announcement": {
+				"eng": "${player1} has gifted an ${itemName} to ${player2}! 🌹💕",
+				"trans": "${player1} hat ${player2} ein(e) ${itemName} geschenkt! 🌹💗",
+				"vars": [
+					"player1",
+					"player2",
+					"itemName"
+				]
+			},
+			"success": {
+				"eng": "You've gifted a rose bouquet to ${partner}! Your marriage bond has been extended for another 30 days.",
+				"trans": "Du hast ${partner} einen Rosenstrauß geschenkt! Eure Ehebindung wurde um weitere 30 Tage verlängert.",
+				"vars": [
+					"partner"
+				]
+			}
+		},
+		"proposalSent": {
+			"eng": "Your marriage proposal has been sent!",
+			"trans": "Dein Heiratsantrag wurde gesendet!"
+		},
+		"proposalSentMail": {
+			"eng": "You have proposed to ${targetName} with an Eternal Bond Ring",
+			"trans": "Du hast ${targetName} mit dem ewigen Bandring vorgeschlagen",
+			"vars": [
+				"targetName"
+			]
+		},
+		"propose": {
+			"confirm": {
+				"eng": "Propose",
+				"trans": "Antrag stellen"
+			},
+			"description": {
+				"eng": "Are you sure you want to propose to ${targetPlayer.getName()}? This will use your Eternal Bond Ring.",
+				"trans": "Bist du sicher, dass du ${targetPlayer.getName()} einen Heiratsantrag machen willst? Dafür wirst du deinen Ewigen Bindungsring benutzen."
+			},
+			"title": {
+				"eng": "Marriage Proposal",
+				"trans": "Heiratsantrag"
+			}
+		},
+		"rejected": {
+			"eng": "${player.displayName} has declined your marriage proposal.",
+			"trans": "${player.displayName} hat dein Heiratsangebot abgelehnt."
+		},
+		"settings": {
+			"backgroundImage": {
+				"eng": "Background Image",
+				"trans": "Hintergrundbild"
+			},
+			"expired": {
+				"eng": "Marriage has expired",
+				"trans": "Ehe ist abgelaufen"
+			},
+			"expiresIn": {
+				"eng": "Expires in ${days} days (${date})",
+				"trans": "Verfall in ${days} Tagen (${date})",
+				"vars": [
+					"days",
+					"date"
+				]
+			},
+			"extendButton": {
+				"eng": "Extend Marriage",
+				"trans": "Ehe verlängern"
+			},
+			"extendWithBouquet": {
+				"eng": "Gift a Rose Bouquet to extend for ${days} days",
+				"trans": "Verschenke einen Rosenstrauß und verlängere die Ehe um ${days} Tage",
+				"vars": [
+					"days"
+				]
+			},
+			"imageHint1": {
+				"eng": "Click to upload a background image",
+				"trans": "Klicken Sie hier, um ein Hintergrundbild hochzuladen"
+			},
+			"imageHint2": {
+				"eng": "Recommend uplaoding 2:1 ratio image",
+				"trans": "Empfehlung: Bild im 2:1-Verhältnis hochladen"
+			},
+			"invalidSymbol": {
+				"eng": "Invalid marriage symbol selected",
+				"trans": "Ungültiges Ehe-Symbol ausgewählt"
+			},
+			"permanent": {
+				"eng": "Permanent marriage",
+				"trans": "Dauerhafte Ehe"
+			},
+			"saveVow": {
+				"eng": "Save Vow",
+				"trans": "Gelübde speichern"
+			},
+			"status": {
+				"eng": "Marriage Status",
+				"trans": "Ehestatus"
+			},
+			"symbol": {
+				"eng": "Symbol",
+				"trans": "Symbol"
+			},
+			"symbolHint": {
+				"eng": "Choose the emoji shown between your names",
+				"trans": "Wähle das Emoji, das zwischen euren Namen angezeigt wird"
+			},
+			"vowNotAllowed": {
+				"eng": "Your vow contains not allowed words",
+				"trans": "Deine Gelübde enthalten verbotene Wörter"
+			},
+			"vowPhrase": {
+				"eng": "Vow Phrase",
+				"trans": "Schwur‑Spruch"
+			},
+			"vowPlaceholder": {
+				"eng": "Write your romantic vow here...",
+				"trans": "Schreib hier dein romantisches Gelübde…"
+			},
+			"vowTooLong": {
+				"eng": "Vow phrase must be 64 words or less",
+				"trans": "Die Gelübdephrase darf nicht länger als 64 Wörter sein"
+			},
+			"wordCount": {
+				"eng": "${count} / 64 words",
+				"trans": "${count} / 64 Wörter",
+				"vars": [
+					"count"
+				]
+			}
+		},
+		"symbol": {
+			"crown": {
+				"eng": "Royalty",
+				"trans": "Königliche Würde"
+			},
+			"cyber": {
+				"eng": "Cyber Love",
+				"trans": "Cyberschicksal"
+			},
+			"fire": {
+				"eng": "On Fire",
+				"trans": "Im Feuer"
+			},
+			"gaming": {
+				"eng": "Player Two",
+				"trans": "Spieler Zwei"
+			},
+			"heart": {
+				"eng": "Classic Heart",
+				"trans": "Klassisches Herz"
+			},
+			"infinity": {
+				"eng": "Infinity",
+				"trans": "Unendlichkeit"
+			},
+			"lightning": {
+				"eng": "Electric",
+				"trans": "Elektrisch"
+			},
+			"link": {
+				"eng": "Linked",
+				"trans": "Verbunden"
+			},
+			"lock": {
+				"eng": "Locked In",
+				"trans": "Gesperrt"
+			},
+			"pizza": {
+				"eng": "Pizza Love",
+				"trans": "Pizzalieb"
+			},
+			"potato": {
+				"eng": "Spud Love",
+				"trans": "Kartoffel‑Liebe"
+			},
+			"ring": {
+				"eng": "Wedding Ring",
+				"trans": "Ehering"
+			},
+			"rocket": {
+				"eng": "To The Moon",
+				"trans": "In den Himmel"
+			},
+			"rose": {
+				"eng": "Rose",
+				"trans": "Rosen"
+			},
+			"sparkle": {
+				"eng": "Sparkling Heart",
+				"trans": "Schimmerndes Herz"
+			},
+			"target": {
+				"eng": "Perfect Match",
+				"trans": "Perfekte Übereinstimmung"
+			},
+			"unicorn": {
+				"eng": "Magical",
+				"trans": "Magisch"
+			}
+		},
+		"systemAnnouncement": {
+			"eng": "💍 ${player1} and ${player2} have tied the knot! Congratulations to the happy couple! 🎉",
+			"trans": "💍 ${player1} und ${player2} haben den Bund fürs Leben geschlossen! Herzlichen Glückwunsch, ihr Glückspaar! 🎉",
+			"vars": [
+				"player1",
+				"player2"
+			]
+		},
+		"vow": {
+			"changeNotification": {
+				"eng": "${player} has updated their marriage vow to ${vow}",
+				"trans": "${player} has updated their marriage vow: \"${vow}\"",
+				"vars": [
+					"player",
+					"vow"
+				]
+			},
+			"cooldown": {
+				"eng": "You can update your vow again in ${minutes} minutes",
+				"trans": "Du kannst dein Gelübde wieder in ${minutes} Minuten erneuern",
+				"vars": [
+					"minutes"
+				]
+			}
+		}
+	},
+	"marriageExtendModal": {
+		"confirmButton": {
+			"eng": "Extend Marriage",
+			"trans": "Ehe verlängern"
+		},
+		"currentStatus": {
+			"eng": "Current Status",
+			"trans": "Aktueller Status"
+		},
+		"duration": {
+			"eng": "Duration:",
+			"trans": "Dauer:"
+		},
+		"expired": {
+			"eng": "Your marriage has expired",
+			"trans": "Your marriage has expired"
+		},
+		"expiresIn": {
+			"eng": "Expires in ${days} days",
+			"trans": "Verfällt in ${days} Tagen",
+			"vars": [
+				"days"
+			]
+		},
+		"expiryDate": {
+			"eng": "Expiry: ${date}",
+			"trans": "Ablaufdatum: ${date}",
+			"vars": [
+				"date"
+			]
+		},
+		"extensionDetails": {
+			"eng": "Extension Details",
+			"trans": "Erweiterungsdetails"
+		},
+		"failed": {
+			"eng": "Failed to extend marriage. Please try again.",
+			"trans": "Verlängerung der Ehe fehlgeschlagen. Bitte versuche es erneut."
+		},
+		"newExpiry": {
+			"eng": "New Expiry:",
+			"trans": "Neues Ablaufdatum:"
+		},
+		"permanent": {
+			"eng": "Permanent marriage - no extension needed",
+			"trans": "Ehe dauerhaft – keine Verlängerung nötig"
+		},
+		"requirement": {
+			"eng": "Required:",
+			"trans": "Erforderlich:"
+		},
+		"success": {
+			"eng": "You've gifted a rose bouquet! Your bond has been extended.",
+			"trans": "Du hast einen Rosenstrauß geschenkt! Eure Bindung wurde verlängert."
+		},
+		"timesExtended": {
+			"eng": "Times Extended:",
+			"trans": "Erweiterungen:"
+		},
+		"title": {
+			"eng": "Extend Marriage",
+			"trans": "Ehe verlängern"
+		}
+	},
+	"marriageSttingsPage": {
+		"divorce": {
+			"error": {
+				"eng": "Failed to end marriage. Please try again.",
+				"trans": "Die Trennung ist fehlgeschlagen. Bitte versuchen Sie es erneut."
+			}
+		},
+		"divorceButton": {
+			"eng": "End Marriage",
+			"trans": "Ehe beenden"
+		},
+		"noChanges": {
+			"eng": "No changes to save",
+			"trans": "Keine Änderungen zum Speichern"
+		},
+		"notMarried": {
+			"eng": "You are not married",
+			"trans": "Du bist nicht verheiratet"
+		},
+		"saveError": {
+			"eng": "Failed to save settings. Please try again.",
+			"trans": "Einstellungen konnten nicht gespeichert werden. Bitte erneut versuchen."
+		},
+		"saved": {
+			"eng": "Marriage settings saved successfully!",
+			"trans": "Ehe‑Einstellungen erfolgreich gespeichert!"
+		},
+		"title": {
+			"eng": "Marriage Settings",
+			"trans": "Ehe‑Einstellungen"
+		},
+		"uploadError": {
+			"eng": "Failed to upload image. Please try again.",
+			"trans": "Das Hochladen des Bildes ist fehlgeschlagen. Bitte versuchen Sie es noch einmal."
+		},
+		"uploadSuccess": {
+			"eng": "Image uploaded.",
+			"trans": "Bild hochgeladen."
+		},
+		"vowTooLong": {
+			"eng": "Vow phrase must be 64 words or less. Current: ${count} words",
+			"trans": "Das Gelübde muss 64 Wörter oder weniger enthalten. Aktuell: ${count} Wörter",
+			"vars": [
+				"count"
+			]
+		}
+	},
 	"messageImage": {
 		"hideImage": {
 			"eng": "Hide Image",
@@ -5402,6 +5852,16 @@
 		"level": {
 			"eng": "level",
 			"trans": "Level"
+		},
+		"marriage": {
+			"accept": {
+				"eng": "Accept",
+				"trans": "Akzeptieren"
+			},
+			"reject": {
+				"eng": "Reject",
+				"trans": "Ablehnen"
+			}
 		},
 		"missing": {
 			"eng": "missing",
@@ -5638,6 +6098,18 @@
 			"title": {
 				"eng": "Unofficial translation",
 				"trans": "Inoffizielle Übersetzung"
+			}
+		},
+		"marriageSttingsPage": {
+			"divorce": {
+				"description": {
+					"eng": "This action cannot be undone. Both you and your partner will lose all marriage benefits.",
+					"trans": "Sollten Sie diesen Schritt durchführen, ist er unwiderruflich – sowohl Sie als auch Ihr Partner verzichten auf alle ehelichen Vorteile."
+				},
+				"title": {
+					"eng": "Are you sure you want to end the marriage?",
+					"trans": "Bist du sicher, dass du die Ehe beenden möchtest?"
+				}
 			}
 		},
 		"newbieTutorial": {
@@ -6242,7 +6714,8 @@
 			},
 			"defaultLines": {
 				"eng": [
-					"Do you want to buy Units, or use your Units?"
+					"Do you want to buy Units, or use your Units?",
+					"We also have Eternal Bond Rings for those looking to unite with their partner forever."
 				],
 				"trans": [
 					"Möchtest du Units kaufen oder ausgeben?"
@@ -6730,6 +7203,12 @@
 			"name": {
 				"eng": "Dog",
 				"trans": "Hund"
+			}
+		},
+		"rabbit": {
+			"name": {
+				"eng": "Rabbit",
+				"trans": "Kaninchen"
 			}
 		}
 	},
@@ -10180,6 +10659,12 @@
 				"trans": "PIN-Code zum Entsperren erforderlich"
 			}
 		},
+		"generic": {
+			"days": {
+				"eng": "days",
+				"trans": "Tage"
+			}
+		},
 		"inventory": {
 			"autoScrap": {
 				"button": {
@@ -10927,6 +11412,34 @@
 				"eng": "location",
 				"trans": "Ort"
 			},
+			"marriage": {
+				"cardTitle": {
+					"eng": "Relationship",
+					"trans": "Beziehung"
+				},
+				"devotion": {
+					"eng": "Devotion",
+					"trans": "Zuneigung"
+				},
+				"duration": {
+					"justMarried": {
+						"eng": "Just married!",
+						"trans": "Gerade verheiratet!"
+					}
+				},
+				"expiresOn": {
+					"eng": "Expires on",
+					"trans": "Verfällt am"
+				},
+				"marriedFor": {
+					"eng": "Married for",
+					"trans": "Verheiratet seit"
+				},
+				"settings": {
+					"eng": "Marriage Settings",
+					"trans": "Ehe‑Einstellungen"
+				}
+			},
 			"numOfMember": {
 				"eng": "Number of members",
 				"trans": "Mitgliederanzahl"
@@ -10939,6 +11452,10 @@
 				"addToFriend": {
 					"eng": "add to Friend List",
 					"trans": "Als Freund hinzufügen"
+				},
+				"alreadyMarried": {
+					"eng": "Already Married",
+					"trans": "Bereits verheiratet"
 				},
 				"block": {
 					"eng": "Block Player",
@@ -10955,6 +11472,14 @@
 				"label": {
 					"eng": "Player Actions",
 					"trans": "Spieler Aktionen"
+				},
+				"proposalCooldown": {
+					"eng": "Proposal on Cooldown",
+					"trans": "Vertrag läuft noch"
+				},
+				"propose": {
+					"eng": "Propose Marriage",
+					"trans": "Heiratsantrag stellen"
 				},
 				"removeFromFriend": {
 					"eng": "Remove from Friend List",
@@ -11703,6 +12228,10 @@
 			"locations": {
 				"eng": "locations",
 				"trans": "Standorte"
+			},
+			"marriage": {
+				"eng": "Marriage System",
+				"trans": "Heiratsystem"
 			},
 			"profile": {
 				"eng": "profile",

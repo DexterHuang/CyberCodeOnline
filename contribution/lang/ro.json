@@ -627,7 +627,7 @@
 	},
 	"basicInfo": {
 		"nameInvalid": {
-			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'",
+			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or '_'",
 			"trans": "Lungimea numelui trebuie să fie mai mare decât 4, mai puțin atunci sau egală cu 16 și conține doar caractere engleze, numere sau \\ '_ \\'"
 		},
 		"nameProfane": {
@@ -3986,6 +3986,16 @@
 				"trans": "RNG Interferentorul"
 			}
 		},
+		"roseBouquet": {
+			"description": {
+				"eng": "A beautifully preserved rose bouquet. A traditional gift that extends the marriage bond by 30 days when given to your partner. A symbol of enduring love even in the digital age.",
+				"trans": "Un buchet de roșii frumos păstrat. Un cadou tradițional care prelungeste legătura matrimonială cu 30 de zile atunci când îl oferi partenerului tău. Un simbol al iubirii durabile chiar și în era digitală."
+			},
+			"name": {
+				"eng": "Rose Bouquet",
+				"trans": "Buchet de trandafiri"
+			}
+		},
 		"seashell": {
 			"description": {
 				"eng": "A beautiful seashell that can be used to exchange items with Josie",
@@ -4239,6 +4249,16 @@
 			"name": {
 				"eng": "upper armor",
 				"trans": "armură superioară"
+			}
+		},
+		"weddingRing": {
+			"description": {
+				"eng": "A finely crafted ring recognized by the City Registry. Present this to propose a marriage bond. The license is time-limited under city policy and can be extended by both partners.",
+				"trans": "Un inel fin confecționat și recunoscut de Registrul Municipal. Prezentă‑l pentru a propune un legământ matrimonial. Licența este limitată în timp conform politicii orașului și poate fi prelungită de ambele părți."
+			},
+			"name": {
+				"eng": "Marriage Bond Ring",
+				"trans": "Inel de Legătură de Casă"
 			}
 		}
 	},
@@ -5190,6 +5210,436 @@
 			]
 		}
 	},
+	"marriage": {
+		"accepted": {
+			"eng": "You are now married to ${proposer.getName()}!",
+			"trans": "Acum ești căsătorit cu ${proposer.getName()}!"
+		},
+		"acceptedProposer": {
+			"eng": "${player.getName()} accepted your proposal! You are now married!",
+			"trans": "${player.getName()} a acceptat propunerea ta! Acum sunteți căsătoriți!"
+		},
+		"anniversary": {
+			"eng": "Anniversary",
+			"trans": "Aniversare"
+		},
+		"defaultMessage": {
+			"eng": "Will you marry me?",
+			"trans": "Vrei să mă iei în căsătorie?"
+		},
+		"defaultVow": {
+			"eng": "Together forever in the digital realm",
+			"trans": "Alături pentru totdeauna în lumea digitală"
+		},
+		"divorce": {
+			"success": {
+				"eng": "Your marriage has been ended.",
+				"trans": "Căsătoria voastră a luat sfârșit."
+			}
+		},
+		"error": {
+			"alreadyMarried": {
+				"eng": "You are already married",
+				"trans": "Ești deja căsătorit"
+			},
+			"blocked": {
+				"eng": "You cannot propose to this player",
+				"trans": "Nu poți propune acestui jucător"
+			},
+			"cannotProposeSelf": {
+				"eng": "You cannot propose to yourself",
+				"trans": "Nu poți propune să te căsătorești cu tine însuți"
+			},
+			"cooldown": {
+				"eng": "You must wait ${minutes} more minutes before sending another proposal",
+				"trans": "Așteaptă ${minutes} minute înainte să propui din nou"
+			},
+			"deleteWhileMarried": {
+				"eng": "You can't delete your account while married. Please divorce first.",
+				"trans": "Nu poți șterge contul în timp ce ești căsătorit. Începe divorțul mai întâi."
+			},
+			"mismatch": {
+				"eng": "Marriage data mismatch",
+				"trans": "Datele de căsătorie nu se potrivesc"
+			},
+			"noBouquet": {
+				"eng": "You need an ${itemName} to extend your marriage bond.",
+				"trans": "Pentru a-ți întări alianța matrimonială ai nevoie de ${itemName}.",
+				"vars": [
+					"itemName"
+				]
+			},
+			"noRing": {
+				"eng": "You need an Eternal Bond Ring to propose",
+				"trans": "Ai nevoie de un inel Etern al Legăturii pentru a propune"
+			},
+			"partnerNotFound": {
+				"eng": "Your partner could not be found",
+				"trans": "Partenerul tău nu a fost găsit"
+			},
+			"playerNotFound": {
+				"eng": "Player not found",
+				"trans": "Jucătorul nu a fost găsit"
+			},
+			"proposerAlreadyMarried": {
+				"eng": "The proposer is already married",
+				"trans": "Propozitorul este deja căsătorit"
+			},
+			"proposerNotFound": {
+				"eng": "Proposer not found",
+				"trans": "Propunătorul nu a fost găsit"
+			},
+			"ringMissing": {
+				"eng": "The proposer no longer has the ring",
+				"trans": "Propunătorul nu mai deține inelul"
+			},
+			"targetAlreadyMarried": {
+				"eng": "That player is already married",
+				"trans": "Acest jucător este deja căsătorit"
+			},
+			"targetMarried": {
+				"eng": "${targetPlayer.getName()} is already married",
+				"trans": "${targetPlayer.getName()} este deja căsătorit"
+			}
+		},
+		"extend": {
+			"announcement": {
+				"eng": "${player1} has gifted an ${itemName} to ${player2}! 🌹💕",
+				"trans": "${player1} i-a oferit lui ${player2} un(e) ${itemName}! 🌹💕",
+				"vars": [
+					"player1",
+					"player2",
+					"itemName"
+				]
+			},
+			"success": {
+				"eng": "You've gifted a rose bouquet to ${partner}! Your marriage bond has been extended for another 30 days.",
+				"trans": "Ai oferit un buchet de trandafiri lui/ei ${partner}! Legătura voastră matrimonială a fost prelungită cu încă 30 de zile.",
+				"vars": [
+					"partner"
+				]
+			}
+		},
+		"proposalSent": {
+			"eng": "Your marriage proposal has been sent!",
+			"trans": "Propunerea ta de căsătorie a fost trimisă!"
+		},
+		"proposalSentMail": {
+			"eng": "You have proposed to ${targetName} with an Eternal Bond Ring",
+			"trans": "Ai propus ${targetName} cu inelul Legăturii Eterne",
+			"vars": [
+				"targetName"
+			]
+		},
+		"propose": {
+			"confirm": {
+				"eng": "Propose",
+				"trans": "Propune"
+			},
+			"description": {
+				"eng": "Are you sure you want to propose to ${targetPlayer.getName()}? This will use your Eternal Bond Ring.",
+				"trans": "Sigur vrei să-i propui căsătoria lui ${targetPlayer.getName()}? Acest lucru va consuma Inelul Tău de Legătură Eterne."
+			},
+			"title": {
+				"eng": "Marriage Proposal",
+				"trans": "Propunere de căsătorie"
+			}
+		},
+		"rejected": {
+			"eng": "${player.displayName} has declined your marriage proposal.",
+			"trans": "${player.displayName} a refuzat propunerea ta de căsătorie."
+		},
+		"settings": {
+			"backgroundImage": {
+				"eng": "Background Image",
+				"trans": "Imagine de fundal"
+			},
+			"expired": {
+				"eng": "Marriage has expired",
+				"trans": "Cuplul a expirat"
+			},
+			"expiresIn": {
+				"eng": "Expires in ${days} days (${date})",
+				"trans": "Scade în ${days} zile (${date})",
+				"vars": [
+					"days",
+					"date"
+				]
+			},
+			"extendButton": {
+				"eng": "Extend Marriage",
+				"trans": "Extinde căsătoria"
+			},
+			"extendWithBouquet": {
+				"eng": "Gift a Rose Bouquet to extend for ${days} days",
+				"trans": "Dă un buchet de trandafiri pentru a prelungi ${days} zile",
+				"vars": [
+					"days"
+				]
+			},
+			"imageHint1": {
+				"eng": "Click to upload a background image",
+				"trans": "Apasă pentru a încărca o imagine de fundal"
+			},
+			"imageHint2": {
+				"eng": "Recommend uplaoding 2:1 ratio image",
+				"trans": "Recomandăm încărcarea unei imagini cu raportul 2:1"
+			},
+			"invalidSymbol": {
+				"eng": "Invalid marriage symbol selected",
+				"trans": "Simbol de căsătorie invalid selectat"
+			},
+			"permanent": {
+				"eng": "Permanent marriage",
+				"trans": "Căsnicie permanentă"
+			},
+			"saveVow": {
+				"eng": "Save Vow",
+				"trans": "Salvează jurământul"
+			},
+			"status": {
+				"eng": "Marriage Status",
+				"trans": "Stare de căsătorie"
+			},
+			"symbol": {
+				"eng": "Symbol",
+				"trans": "Simbol"
+			},
+			"symbolHint": {
+				"eng": "Choose the emoji shown between your names",
+				"trans": "Alege emoticonul afișat între numele tăi"
+			},
+			"vowNotAllowed": {
+				"eng": "Your vow contains not allowed words",
+				"trans": "Promisiunea ta include cuvinte interzise"
+			},
+			"vowPhrase": {
+				"eng": "Vow Phrase",
+				"trans": "Fraza de jurământ"
+			},
+			"vowPlaceholder": {
+				"eng": "Write your romantic vow here...",
+				"trans": "Scrie aici jurământul tău romantic…"
+			},
+			"vowTooLong": {
+				"eng": "Vow phrase must be 64 words or less",
+				"trans": "Propoziția de jurăminte trebuie să conțină maxim 64 de cuvinte"
+			},
+			"wordCount": {
+				"eng": "${count} / 64 words",
+				"trans": "${count} / 64 cuvinte",
+				"vars": [
+					"count"
+				]
+			}
+		},
+		"symbol": {
+			"crown": {
+				"eng": "Royalty",
+				"trans": "Regalitate"
+			},
+			"cyber": {
+				"eng": "Cyber Love",
+				"trans": "Iubire cibernetică"
+			},
+			"fire": {
+				"eng": "On Fire",
+				"trans": "În flăcări"
+			},
+			"gaming": {
+				"eng": "Player Two",
+				"trans": "Jucător 2"
+			},
+			"heart": {
+				"eng": "Classic Heart",
+				"trans": "Inimă clasică"
+			},
+			"infinity": {
+				"eng": "Infinity",
+				"trans": "Infinit"
+			},
+			"lightning": {
+				"eng": "Electric",
+				"trans": "Eletric"
+			},
+			"link": {
+				"eng": "Linked",
+				"trans": "Legat"
+			},
+			"lock": {
+				"eng": "Locked In",
+				"trans": "Blocat"
+			},
+			"pizza": {
+				"eng": "Pizza Love",
+				"trans": "Dragoste la Pizza"
+			},
+			"potato": {
+				"eng": "Spud Love",
+				"trans": "Dragoste de cartofi"
+			},
+			"ring": {
+				"eng": "Wedding Ring",
+				"trans": "Inel de căsătorie"
+			},
+			"rocket": {
+				"eng": "To The Moon",
+				"trans": "Către Lună"
+			},
+			"rose": {
+				"eng": "Rose",
+				"trans": "Trandafir"
+			},
+			"sparkle": {
+				"eng": "Sparkling Heart",
+				"trans": "Inimă sclipitoare"
+			},
+			"target": {
+				"eng": "Perfect Match",
+				"trans": "Potrivire perfectă"
+			},
+			"unicorn": {
+				"eng": "Magical",
+				"trans": "Magică"
+			}
+		},
+		"systemAnnouncement": {
+			"eng": "💍 ${player1} and ${player2} have tied the knot! Congratulations to the happy couple! 🎉",
+			"trans": "💍 ${player1} și ${player2} s-au căsătorit! Felicitări cuplului fericit! 🎉",
+			"vars": [
+				"player1",
+				"player2"
+			]
+		},
+		"vow": {
+			"changeNotification": {
+				"eng": "${player} has updated their marriage vow to ${vow}",
+				"trans": "${player} has updated their marriage vow: \"${vow}\"",
+				"vars": [
+					"player",
+					"vow"
+				]
+			},
+			"cooldown": {
+				"eng": "You can update your vow again in ${minutes} minutes",
+				"trans": "Puteți reîmprospăta jurământul în ${minutes} minute",
+				"vars": [
+					"minutes"
+				]
+			}
+		}
+	},
+	"marriageExtendModal": {
+		"confirmButton": {
+			"eng": "Extend Marriage",
+			"trans": "Extinde căsătoria"
+		},
+		"currentStatus": {
+			"eng": "Current Status",
+			"trans": "Starea curentă"
+		},
+		"duration": {
+			"eng": "Duration:",
+			"trans": "Durată:"
+		},
+		"expired": {
+			"eng": "Your marriage has expired",
+			"trans": "Căsătoria ta a expirat"
+		},
+		"expiresIn": {
+			"eng": "Expires in ${days} days",
+			"trans": "Expiră în ${days} zile",
+			"vars": [
+				"days"
+			]
+		},
+		"expiryDate": {
+			"eng": "Expiry: ${date}",
+			"trans": "Scadere: ${date}",
+			"vars": [
+				"date"
+			]
+		},
+		"extensionDetails": {
+			"eng": "Extension Details",
+			"trans": "Detalii Extensie"
+		},
+		"failed": {
+			"eng": "Failed to extend marriage. Please try again.",
+			"trans": "Eșec la prelungirea căsătoriei. Vă rugăm să încercați din nou."
+		},
+		"newExpiry": {
+			"eng": "New Expiry:",
+			"trans": "Expirare nouă:"
+		},
+		"permanent": {
+			"eng": "Permanent marriage - no extension needed",
+			"trans": "Căsnicie permanentă – fără extensii suplimentare"
+		},
+		"requirement": {
+			"eng": "Required:",
+			"trans": "Necesar:"
+		},
+		"success": {
+			"eng": "You've gifted a rose bouquet! Your bond has been extended.",
+			"trans": "Ai dăruit un buchet de trandafiri! Legătura voastră s-a prelungit."
+		},
+		"timesExtended": {
+			"eng": "Times Extended:",
+			"trans": "Număr de extinderi:"
+		},
+		"title": {
+			"eng": "Extend Marriage",
+			"trans": "Extinde căsătoria"
+		}
+	},
+	"marriageSttingsPage": {
+		"divorce": {
+			"error": {
+				"eng": "Failed to end marriage. Please try again.",
+				"trans": "Nu s-a putut încheia căsătoria. Te rog încearcă din nou."
+			}
+		},
+		"divorceButton": {
+			"eng": "End Marriage",
+			"trans": "Încheie căsătoria"
+		},
+		"noChanges": {
+			"eng": "No changes to save",
+			"trans": "Nicio modificare de salvat"
+		},
+		"notMarried": {
+			"eng": "You are not married",
+			"trans": "Nu ești căsătorit"
+		},
+		"saveError": {
+			"eng": "Failed to save settings. Please try again.",
+			"trans": "Eșec la salvarea setărilor. Vă rugăm să încercați din nou."
+		},
+		"saved": {
+			"eng": "Marriage settings saved successfully!",
+			"trans": "Setările de căsătorie au fost salvate cu succes!"
+		},
+		"title": {
+			"eng": "Marriage Settings",
+			"trans": "Setări de căsătorie"
+		},
+		"uploadError": {
+			"eng": "Failed to upload image. Please try again.",
+			"trans": "Încărcarea imaginii a eșuat. Vă rugăm să încercați din nou."
+		},
+		"uploadSuccess": {
+			"eng": "Image uploaded.",
+			"trans": "Imagine încărcată."
+		},
+		"vowTooLong": {
+			"eng": "Vow phrase must be 64 words or less. Current: ${count} words",
+			"trans": "Propoziția jurământului trebuie să conțină cel mult 64 de cuvinte. Acum: ${count} cuvinte",
+			"vars": [
+				"count"
+			]
+		}
+	},
 	"messageImage": {
 		"hideImage": {
 			"eng": "Hide Image",
@@ -5402,6 +5852,16 @@
 		"level": {
 			"eng": "level",
 			"trans": "nivel"
+		},
+		"marriage": {
+			"accept": {
+				"eng": "Accept",
+				"trans": "Acceptă"
+			},
+			"reject": {
+				"eng": "Reject",
+				"trans": "Refuză"
+			}
 		},
 		"missing": {
 			"eng": "missing",
@@ -5638,6 +6098,18 @@
 			"title": {
 				"eng": "Unofficial translation",
 				"trans": "Traducere neoficială"
+			}
+		},
+		"marriageSttingsPage": {
+			"divorce": {
+				"description": {
+					"eng": "This action cannot be undone. Both you and your partner will lose all marriage benefits.",
+					"trans": "Această acţiune este ireversibilă: atât tu, cât şi partenerul tău vor pierde toate beneficiile de căsătorie."
+				},
+				"title": {
+					"eng": "Are you sure you want to end the marriage?",
+					"trans": "Ești sigur că vrei să întrerupi căsătoria?"
+				}
 			}
 		},
 		"newbieTutorial": {
@@ -6242,7 +6714,8 @@
 			},
 			"defaultLines": {
 				"eng": [
-					"Do you want to buy Units, or use your Units?"
+					"Do you want to buy Units, or use your Units?",
+					"We also have Eternal Bond Rings for those looking to unite with their partner forever."
 				],
 				"trans": [
 					"Do you want to buy Units, or use your Units?"
@@ -6730,6 +7203,12 @@
 			"name": {
 				"eng": "Dog",
 				"trans": "Câine"
+			}
+		},
+		"rabbit": {
+			"name": {
+				"eng": "Rabbit",
+				"trans": "iepure"
 			}
 		}
 	},
@@ -10180,6 +10659,12 @@
 				"trans": "Codul PIN este necesar pentru a debloca"
 			}
 		},
+		"generic": {
+			"days": {
+				"eng": "days",
+				"trans": "zile"
+			}
+		},
 		"inventory": {
 			"autoScrap": {
 				"button": {
@@ -10927,6 +11412,34 @@
 				"eng": "location",
 				"trans": "locație"
 			},
+			"marriage": {
+				"cardTitle": {
+					"eng": "Relationship",
+					"trans": "Relație"
+				},
+				"devotion": {
+					"eng": "Devotion",
+					"trans": "Devotament"
+				},
+				"duration": {
+					"justMarried": {
+						"eng": "Just married!",
+						"trans": "Nou căsătorit!"
+					}
+				},
+				"expiresOn": {
+					"eng": "Expires on",
+					"trans": "Expiră în"
+				},
+				"marriedFor": {
+					"eng": "Married for",
+					"trans": "Căsătorit de"
+				},
+				"settings": {
+					"eng": "Marriage Settings",
+					"trans": "Setări de căsătorie"
+				}
+			},
 			"numOfMember": {
 				"eng": "Number of members",
 				"trans": "Număr de membrii"
@@ -10939,6 +11452,10 @@
 				"addToFriend": {
 					"eng": "add to Friend List",
 					"trans": "adaugă în Lista de Prieteni"
+				},
+				"alreadyMarried": {
+					"eng": "Already Married",
+					"trans": "Căsătorit deja"
 				},
 				"block": {
 					"eng": "Block Player",
@@ -10955,6 +11472,14 @@
 				"label": {
 					"eng": "Player Actions",
 					"trans": "Acțiuni privind jucătorul"
+				},
+				"proposalCooldown": {
+					"eng": "Proposal on Cooldown",
+					"trans": "Propunere în reîncărcare"
+				},
+				"propose": {
+					"eng": "Propose Marriage",
+					"trans": "Propune căsătorie"
 				},
 				"removeFromFriend": {
 					"eng": "Remove from Friend List",
@@ -11703,6 +12228,10 @@
 			"locations": {
 				"eng": "locations",
 				"trans": "locații"
+			},
+			"marriage": {
+				"eng": "Marriage System",
+				"trans": "Sistem de căsătorie"
 			},
 			"profile": {
 				"eng": "profile",

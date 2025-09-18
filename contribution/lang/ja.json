@@ -627,7 +627,7 @@
 	},
 	"basicInfo": {
 		"nameInvalid": {
-			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'",
+			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or '_'",
 			"trans": "名前は5文字以上16文字以下で, 英字, 数字, \\ '_ \\'のみを使用したものにしてください."
 		},
 		"nameProfane": {
@@ -3984,6 +3984,16 @@
 				"trans": "乱数干渉装置"
 			}
 		},
+		"roseBouquet": {
+			"description": {
+				"eng": "A beautifully preserved rose bouquet. A traditional gift that extends the marriage bond by 30 days when given to your partner. A symbol of enduring love even in the digital age.",
+				"trans": "Aの美しく保存されたバラのブーケ。パートナーに贈ると結婚期間を30日延長する伝統的なギフトです。デジタル時代でも変わらぬ愛の象徴。"
+			},
+			"name": {
+				"eng": "Rose Bouquet",
+				"trans": "ローズブーケ"
+			}
+		},
 		"seashell": {
 			"description": {
 				"eng": "A beautiful seashell that can be used to exchange items with Josie",
@@ -4237,6 +4247,16 @@
 			"name": {
 				"eng": "upper armor",
 				"trans": "上半身装備"
+			}
+		},
+		"weddingRing": {
+			"description": {
+				"eng": "A finely crafted ring recognized by the City Registry. Present this to propose a marriage bond. The license is time-limited under city policy and can be extended by both partners.",
+				"trans": "精緻に製作され、都市登記局で認可された指輪。この指輪を提示して結婚の約束を提案できます。ライセンスは市の政策により期間限定で、双方のパートナーが延長できます。"
+			},
+			"name": {
+				"eng": "Marriage Bond Ring",
+				"trans": "結婚絆指輪"
 			}
 		}
 	},
@@ -5188,6 +5208,436 @@
 			]
 		}
 	},
+	"marriage": {
+		"accepted": {
+			"eng": "You are now married to ${proposer.getName()}!",
+			"trans": "いま、君は${proposer.getName()}と結婚してるよ！"
+		},
+		"acceptedProposer": {
+			"eng": "${player.getName()} accepted your proposal! You are now married!",
+			"trans": "${player.getName()}があなたのプロポーズを受け入れた！今や結婚中です！"
+		},
+		"anniversary": {
+			"eng": "Anniversary",
+			"trans": "アニバーサリー"
+		},
+		"defaultMessage": {
+			"eng": "Will you marry me?",
+			"trans": "あなたと結婚してくださいか？"
+		},
+		"defaultVow": {
+			"eng": "Together forever in the digital realm",
+			"trans": "デジタルリアムで永遠に一緒にいる"
+		},
+		"divorce": {
+			"success": {
+				"eng": "Your marriage has been ended.",
+				"trans": "あなたの結婚は解消されました。"
+			}
+		},
+		"error": {
+			"alreadyMarried": {
+				"eng": "You are already married",
+				"trans": "あなたは既に結婚しています。"
+			},
+			"blocked": {
+				"eng": "You cannot propose to this player",
+				"trans": "このプレイヤーにはプロポーズできません。"
+			},
+			"cannotProposeSelf": {
+				"eng": "You cannot propose to yourself",
+				"trans": "自分には求婚できません"
+			},
+			"cooldown": {
+				"eng": "You must wait ${minutes} more minutes before sending another proposal",
+				"trans": "もう一度プロポーズする前に、{minutes}分間待ってください。"
+			},
+			"deleteWhileMarried": {
+				"eng": "You can't delete your account while married. Please divorce first.",
+				"trans": "結婚中はアカウントを削除できません。先に離婚してください。"
+			},
+			"mismatch": {
+				"eng": "Marriage data mismatch",
+				"trans": "結婚データ不一致"
+			},
+			"noBouquet": {
+				"eng": "You need an ${itemName} to extend your marriage bond.",
+				"trans": "結婚の絆を延長するには${itemName}が必要です",
+				"vars": [
+					"itemName"
+				]
+			},
+			"noRing": {
+				"eng": "You need an Eternal Bond Ring to propose",
+				"trans": "プロポーズするには、エターナルボンドリングが必要です。"
+			},
+			"partnerNotFound": {
+				"eng": "Your partner could not be found",
+				"trans": "貴方のパートナーが見つかりませんでした"
+			},
+			"playerNotFound": {
+				"eng": "Player not found",
+				"trans": "プレイヤーが見つかりません"
+			},
+			"proposerAlreadyMarried": {
+				"eng": "The proposer is already married",
+				"trans": "プロポーザーは既に結婚しています"
+			},
+			"proposerNotFound": {
+				"eng": "Proposer not found",
+				"trans": "プロポーザーが見つかりませんでした"
+			},
+			"ringMissing": {
+				"eng": "The proposer no longer has the ring",
+				"trans": "提案者はもう指輪を持っていません"
+			},
+			"targetAlreadyMarried": {
+				"eng": "That player is already married",
+				"trans": "そのプレイヤーは既に結婚しています。"
+			},
+			"targetMarried": {
+				"eng": "${targetPlayer.getName()} is already married",
+				"trans": "${targetPlayer.getName()} はすでに結婚しています"
+			}
+		},
+		"extend": {
+			"announcement": {
+				"eng": "${player1} has gifted an ${itemName} to ${player2}! 🌹💕",
+				"trans": "「${player1}が${player2}に${itemName}をプレゼントしました！🌹💕」",
+				"vars": [
+					"player1",
+					"player2",
+					"itemName"
+				]
+			},
+			"success": {
+				"eng": "You've gifted a rose bouquet to ${partner}! Your marriage bond has been extended for another 30 days.",
+				"trans": "${partner}にローズブーケをプレゼントしました！あなたの結婚ボンドがもう30日間延長されました。",
+				"vars": [
+					"partner"
+				]
+			}
+		},
+		"proposalSent": {
+			"eng": "Your marriage proposal has been sent!",
+			"trans": "あなたの結婚プロポーズを送信しました！"
+		},
+		"proposalSentMail": {
+			"eng": "You have proposed to ${targetName} with an Eternal Bond Ring",
+			"trans": "あなたは${targetName}にエターナル・ボンド・リングでプロポーズしました。",
+			"vars": [
+				"targetName"
+			]
+		},
+		"propose": {
+			"confirm": {
+				"eng": "Propose",
+				"trans": "プロポーズ"
+			},
+			"description": {
+				"eng": "Are you sure you want to propose to ${targetPlayer.getName()}? This will use your Eternal Bond Ring.",
+				"trans": "本当に${targetPlayer.getName()}にプロポーズしますか？これにより、あなたのエターナルボンドリングが使用されます。"
+			},
+			"title": {
+				"eng": "Marriage Proposal",
+				"trans": "結婚プロポーズ"
+			}
+		},
+		"rejected": {
+			"eng": "${player.displayName} has declined your marriage proposal.",
+			"trans": "${player.displayName}があなたの結婚プロポーズを断りました"
+		},
+		"settings": {
+			"backgroundImage": {
+				"eng": "Background Image",
+				"trans": "背景画像"
+			},
+			"expired": {
+				"eng": "Marriage has expired",
+				"trans": "結婚期限が切れました"
+			},
+			"expiresIn": {
+				"eng": "Expires in ${days} days (${date})",
+				"trans": "残り${days}日で期限切れ (${date})",
+				"vars": [
+					"days",
+					"date"
+				]
+			},
+			"extendButton": {
+				"eng": "Extend Marriage",
+				"trans": "結婚延長"
+			},
+			"extendWithBouquet": {
+				"eng": "Gift a Rose Bouquet to extend for ${days} days",
+				"trans": "ローズブーケを贈って${days}日間延長する",
+				"vars": [
+					"days"
+				]
+			},
+			"imageHint1": {
+				"eng": "Click to upload a background image",
+				"trans": "タップして背景画像をアップロード"
+			},
+			"imageHint2": {
+				"eng": "Recommend uplaoding 2:1 ratio image",
+				"trans": "アップロードする画像は2:1のアスペクト比がおすすめです"
+			},
+			"invalidSymbol": {
+				"eng": "Invalid marriage symbol selected",
+				"trans": "無効な結婚シンボルが選択されました"
+			},
+			"permanent": {
+				"eng": "Permanent marriage",
+				"trans": "永久結婚"
+			},
+			"saveVow": {
+				"eng": "Save Vow",
+				"trans": "誓約セーブ"
+			},
+			"status": {
+				"eng": "Marriage Status",
+				"trans": "結婚ステータス"
+			},
+			"symbol": {
+				"eng": "Symbol",
+				"trans": "記号"
+			},
+			"symbolHint": {
+				"eng": "Choose the emoji shown between your names",
+				"trans": "名前の間に表示される絵文字を選択してください。"
+			},
+			"vowNotAllowed": {
+				"eng": "Your vow contains not allowed words",
+				"trans": "あなたの誓約には許可されてない単語が入っています。"
+			},
+			"vowPhrase": {
+				"eng": "Vow Phrase",
+				"trans": "誓いフレーズ"
+			},
+			"vowPlaceholder": {
+				"eng": "Write your romantic vow here...",
+				"trans": "あなたのロマンティックな誓いをここに書いてください..."
+			},
+			"vowTooLong": {
+				"eng": "Vow phrase must be 64 words or less",
+				"trans": "誓いのフレーズは64語以内にしてください"
+			},
+			"wordCount": {
+				"eng": "${count} / 64 words",
+				"trans": "${count}／64 単語",
+				"vars": [
+					"count"
+				]
+			}
+		},
+		"symbol": {
+			"crown": {
+				"eng": "Royalty",
+				"trans": "ロイヤルティ"
+			},
+			"cyber": {
+				"eng": "Cyber Love",
+				"trans": "サイバーラブ"
+			},
+			"fire": {
+				"eng": "On Fire",
+				"trans": "燃愛"
+			},
+			"gaming": {
+				"eng": "Player Two",
+				"trans": "プレイヤー２"
+			},
+			"heart": {
+				"eng": "Classic Heart",
+				"trans": "クラシックハート"
+			},
+			"infinity": {
+				"eng": "Infinity",
+				"trans": "無限"
+			},
+			"lightning": {
+				"eng": "Electric",
+				"trans": "エレクトリック"
+			},
+			"link": {
+				"eng": "Linked",
+				"trans": "リンク済み"
+			},
+			"lock": {
+				"eng": "Locked In",
+				"trans": "ロック済み"
+			},
+			"pizza": {
+				"eng": "Pizza Love",
+				"trans": "ピザラブ"
+			},
+			"potato": {
+				"eng": "Spud Love",
+				"trans": "ジャガラブ"
+			},
+			"ring": {
+				"eng": "Wedding Ring",
+				"trans": "婚戒"
+			},
+			"rocket": {
+				"eng": "To The Moon",
+				"trans": "きみと月へ"
+			},
+			"rose": {
+				"eng": "Rose",
+				"trans": "バラ"
+			},
+			"sparkle": {
+				"eng": "Sparkling Heart",
+				"trans": "キラメクハート"
+			},
+			"target": {
+				"eng": "Perfect Match",
+				"trans": "完璧なマッチ"
+			},
+			"unicorn": {
+				"eng": "Magical",
+				"trans": "魔法の"
+			}
+		},
+		"systemAnnouncement": {
+			"eng": "💍 ${player1} and ${player2} have tied the knot! Congratulations to the happy couple! 🎉",
+			"trans": "💍 ${player1}と${player2}が結婚しました！幸せなカップルにおめでとうございます！🎉",
+			"vars": [
+				"player1",
+				"player2"
+			]
+		},
+		"vow": {
+			"changeNotification": {
+				"eng": "${player} has updated their marriage vow to ${vow}",
+				"trans": "${player} has updated their marriage vow: \"${vow}\"",
+				"vars": [
+					"player",
+					"vow"
+				]
+			},
+			"cooldown": {
+				"eng": "You can update your vow again in ${minutes} minutes",
+				"trans": "${minutes}分後に再度誓約を更新できます",
+				"vars": [
+					"minutes"
+				]
+			}
+		}
+	},
+	"marriageExtendModal": {
+		"confirmButton": {
+			"eng": "Extend Marriage",
+			"trans": "結婚延長"
+		},
+		"currentStatus": {
+			"eng": "Current Status",
+			"trans": "現在のステータス"
+		},
+		"duration": {
+			"eng": "Duration:",
+			"trans": "期間:"
+		},
+		"expired": {
+			"eng": "Your marriage has expired",
+			"trans": "あなたの結婚は期限切れです"
+		},
+		"expiresIn": {
+			"eng": "Expires in ${days} days",
+			"trans": "残り ${days} 日",
+			"vars": [
+				"days"
+			]
+		},
+		"expiryDate": {
+			"eng": "Expiry: ${date}",
+			"trans": "有効期限: ${date}",
+			"vars": [
+				"date"
+			]
+		},
+		"extensionDetails": {
+			"eng": "Extension Details",
+			"trans": "延長詳細"
+		},
+		"failed": {
+			"eng": "Failed to extend marriage. Please try again.",
+			"trans": "結婚の延長に失敗しました。もう一度お試しください。"
+		},
+		"newExpiry": {
+			"eng": "New Expiry:",
+			"trans": "新しい有効期限:"
+		},
+		"permanent": {
+			"eng": "Permanent marriage - no extension needed",
+			"trans": "永久結婚 - 延長不要"
+		},
+		"requirement": {
+			"eng": "Required:",
+			"trans": "必須:"
+		},
+		"success": {
+			"eng": "You've gifted a rose bouquet! Your bond has been extended.",
+			"trans": "バラの花束を贈りました！あなたの絆が延長されました！"
+		},
+		"timesExtended": {
+			"eng": "Times Extended:",
+			"trans": "延長回数："
+		},
+		"title": {
+			"eng": "Extend Marriage",
+			"trans": "結婚延長"
+		}
+	},
+	"marriageSttingsPage": {
+		"divorce": {
+			"error": {
+				"eng": "Failed to end marriage. Please try again.",
+				"trans": "離婚処理に失敗しました。再度お試しください。"
+			}
+		},
+		"divorceButton": {
+			"eng": "End Marriage",
+			"trans": "离婚"
+		},
+		"noChanges": {
+			"eng": "No changes to save",
+			"trans": "保存する変更点はありません"
+		},
+		"notMarried": {
+			"eng": "You are not married",
+			"trans": "未結婚です"
+		},
+		"saveError": {
+			"eng": "Failed to save settings. Please try again.",
+			"trans": "設定の保存に失敗しました。もう一度お試しください。"
+		},
+		"saved": {
+			"eng": "Marriage settings saved successfully!",
+			"trans": "結婚設定が正常に保存されました！"
+		},
+		"title": {
+			"eng": "Marriage Settings",
+			"trans": "結婚設定"
+		},
+		"uploadError": {
+			"eng": "Failed to upload image. Please try again.",
+			"trans": "画像のアップロードに失敗しました。もう一度お試しください。"
+		},
+		"uploadSuccess": {
+			"eng": "Image uploaded.",
+			"trans": "画像がアップロードされました"
+		},
+		"vowTooLong": {
+			"eng": "Vow phrase must be 64 words or less. Current: ${count} words",
+			"trans": "誓い文は64単語以下にしてください。現在: ${count} 単語",
+			"vars": [
+				"count"
+			]
+		}
+	},
 	"messageImage": {
 		"hideImage": {
 			"eng": "Hide Image",
@@ -5400,6 +5850,16 @@
 		"level": {
 			"eng": "level",
 			"trans": "レベル"
+		},
+		"marriage": {
+			"accept": {
+				"eng": "Accept",
+				"trans": "応じる"
+			},
+			"reject": {
+				"eng": "Reject",
+				"trans": "断る"
+			}
 		},
 		"missing": {
 			"eng": "missing",
@@ -5636,6 +6096,18 @@
 			"title": {
 				"eng": "Unofficial translation",
 				"trans": "非公式の翻訳"
+			}
+		},
+		"marriageSttingsPage": {
+			"divorce": {
+				"description": {
+					"eng": "This action cannot be undone. Both you and your partner will lose all marriage benefits.",
+					"trans": "このアクションは取り消せない。あなたとパートナーの両方が全ての結婚メリットを失います。"
+				},
+				"title": {
+					"eng": "Are you sure you want to end the marriage?",
+					"trans": "本当に離婚したいのですか？"
+				}
 			}
 		},
 		"newbieTutorial": {
@@ -6396,7 +6868,8 @@
 			},
 			"defaultLines": {
 				"eng": [
-					"Do you want to buy Units, or use your Units?"
+					"Do you want to buy Units, or use your Units?",
+					"We also have Eternal Bond Rings for those looking to unite with their partner forever."
 				],
 				"trans": [
 					"UNITをお求めですか? それとも, お持ちのUNITを利用されます?",
@@ -6943,6 +7416,12 @@
 			"name": {
 				"eng": "Dog",
 				"trans": "犬"
+			}
+		},
+		"rabbit": {
+			"name": {
+				"eng": "Rabbit",
+				"trans": "うさぎ"
 			}
 		}
 	},
@@ -10393,6 +10872,12 @@
 				"trans": "ロック解除用PINコード"
 			}
 		},
+		"generic": {
+			"days": {
+				"eng": "days",
+				"trans": "デイズ"
+			}
+		},
 		"inventory": {
 			"autoScrap": {
 				"button": {
@@ -11140,6 +11625,34 @@
 				"eng": "location",
 				"trans": "ロケーション"
 			},
+			"marriage": {
+				"cardTitle": {
+					"eng": "Relationship",
+					"trans": "リレーションシップ"
+				},
+				"devotion": {
+					"eng": "Devotion",
+					"trans": "献身度"
+				},
+				"duration": {
+					"justMarried": {
+						"eng": "Just married!",
+						"trans": "さっき结婚した！"
+					}
+				},
+				"expiresOn": {
+					"eng": "Expires on",
+					"trans": "終了日:"
+				},
+				"marriedFor": {
+					"eng": "Married for",
+					"trans": "結婚して"
+				},
+				"settings": {
+					"eng": "Marriage Settings",
+					"trans": "結婚設定"
+				}
+			},
 			"numOfMember": {
 				"eng": "Number of members",
 				"trans": "メンバー数"
@@ -11152,6 +11665,10 @@
 				"addToFriend": {
 					"eng": "add to Friend List",
 					"trans": "フレンドリストに追加"
+				},
+				"alreadyMarried": {
+					"eng": "Already Married",
+					"trans": "結婚済みです"
 				},
 				"block": {
 					"eng": "Block Player",
@@ -11168,6 +11685,14 @@
 				"label": {
 					"eng": "Player Actions",
 					"trans": "このプレイヤーに..."
+				},
+				"proposalCooldown": {
+					"eng": "Proposal on Cooldown",
+					"trans": "提案クールダウン中"
+				},
+				"propose": {
+					"eng": "Propose Marriage",
+					"trans": "求婚する"
 				},
 				"removeFromFriend": {
 					"eng": "Remove from Friend List",
@@ -11916,6 +12441,10 @@
 			"locations": {
 				"eng": "locations",
 				"trans": "シャングリ・ラの街について"
+			},
+			"marriage": {
+				"eng": "Marriage System",
+				"trans": "結婚システム"
 			},
 			"profile": {
 				"eng": "profile",

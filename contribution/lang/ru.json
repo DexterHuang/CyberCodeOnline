@@ -627,7 +627,7 @@
 	},
 	"basicInfo": {
 		"nameInvalid": {
-			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'",
+			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or '_'",
 			"trans": "Длина имени должна быть больше, чем 4, меньше или равна 16 и содержит только английские символы, числа или \\ '_ \\'"
 		},
 		"nameProfane": {
@@ -3986,6 +3986,16 @@
 				"trans": "ГСЧ источник помех"
 			}
 		},
+		"roseBouquet": {
+			"description": {
+				"eng": "A beautifully preserved rose bouquet. A traditional gift that extends the marriage bond by 30 days when given to your partner. A symbol of enduring love even in the digital age.",
+				"trans": "Красивая сохранённая букет роз. Традиционный подарок, который продлевает брачный союз на 30 дней при вручении партнёру. Символ неизменной любви даже в цифровую эпоху."
+			},
+			"name": {
+				"eng": "Rose Bouquet",
+				"trans": "Букет роз"
+			}
+		},
 		"seashell": {
 			"description": {
 				"eng": "A beautiful seashell that can be used to exchange items with Josie",
@@ -4239,6 +4249,16 @@
 			"name": {
 				"eng": "upper armor",
 				"trans": "куртка"
+			}
+		},
+		"weddingRing": {
+			"description": {
+				"eng": "A finely crafted ring recognized by the City Registry. Present this to propose a marriage bond. The license is time-limited under city policy and can be extended by both partners.",
+				"trans": "Тончайше обработанное кольцо, признанное Городским регистром. Предъявите его в качестве предложения о браке. Лицензия действует ограниченное время согласно городскому законодательству и может быть продлена обеими сторонами."
+			},
+			"name": {
+				"eng": "Marriage Bond Ring",
+				"trans": "Обручальное кольцо"
 			}
 		}
 	},
@@ -5190,6 +5210,436 @@
 			]
 		}
 	},
+	"marriage": {
+		"accepted": {
+			"eng": "You are now married to ${proposer.getName()}!",
+			"trans": "Вы теперь женаты/замужем за ${proposer.getName()}!"
+		},
+		"acceptedProposer": {
+			"eng": "${player.getName()} accepted your proposal! You are now married!",
+			"trans": "${player.getName()} принял ваше предложение! Вы теперь женаты!"
+		},
+		"anniversary": {
+			"eng": "Anniversary",
+			"trans": "Годовщина"
+		},
+		"defaultMessage": {
+			"eng": "Will you marry me?",
+			"trans": "Ты выйдешь за меня?"
+		},
+		"defaultVow": {
+			"eng": "Together forever in the digital realm",
+			"trans": "Вечно вместе в цифровом мире"
+		},
+		"divorce": {
+			"success": {
+				"eng": "Your marriage has been ended.",
+				"trans": "Ваш брак завершён."
+			}
+		},
+		"error": {
+			"alreadyMarried": {
+				"eng": "You are already married",
+				"trans": "Вы уже состоите в браке"
+			},
+			"blocked": {
+				"eng": "You cannot propose to this player",
+				"trans": "Вы не можете сделать предложение этому игроку"
+			},
+			"cannotProposeSelf": {
+				"eng": "You cannot propose to yourself",
+				"trans": "Нельзя сделать предложение самому себе"
+			},
+			"cooldown": {
+				"eng": "You must wait ${minutes} more minutes before sending another proposal",
+				"trans": "Ждите ${minutes} минуты(ей), прежде чем снова подать предложение"
+			},
+			"deleteWhileMarried": {
+				"eng": "You can't delete your account while married. Please divorce first.",
+				"trans": "Нельзя удалить аккаунт, пока вы женаты/замужем. Пожалуйста, разведитесь сначала."
+			},
+			"mismatch": {
+				"eng": "Marriage data mismatch",
+				"trans": "Несоответствие данных брака"
+			},
+			"noBouquet": {
+				"eng": "You need an ${itemName} to extend your marriage bond.",
+				"trans": "Тебе понадобится ${itemName}, чтобы продлить ваш брачный союз.",
+				"vars": [
+					"itemName"
+				]
+			},
+			"noRing": {
+				"eng": "You need an Eternal Bond Ring to propose",
+				"trans": "Для того чтобы сделать предложение, вам понадобится Кольцо Вечной Связи"
+			},
+			"partnerNotFound": {
+				"eng": "Your partner could not be found",
+				"trans": "Невозможно найти вашего партнёра"
+			},
+			"playerNotFound": {
+				"eng": "Player not found",
+				"trans": "Игрок не найден"
+			},
+			"proposerAlreadyMarried": {
+				"eng": "The proposer is already married",
+				"trans": "Заявитель уже женат"
+			},
+			"proposerNotFound": {
+				"eng": "Proposer not found",
+				"trans": "Предлагающий не найден"
+			},
+			"ringMissing": {
+				"eng": "The proposer no longer has the ring",
+				"trans": "Предлагающий больше не держит кольцо"
+			},
+			"targetAlreadyMarried": {
+				"eng": "That player is already married",
+				"trans": "Этот игрок уже женат"
+			},
+			"targetMarried": {
+				"eng": "${targetPlayer.getName()} is already married",
+				"trans": "${targetPlayer.getName()} уже состоит в браке"
+			}
+		},
+		"extend": {
+			"announcement": {
+				"eng": "${player1} has gifted an ${itemName} to ${player2}! 🌹💕",
+				"trans": "${player1} подарил(а) ${itemName} ${player2}! 🌹💕",
+				"vars": [
+					"player1",
+					"player2",
+					"itemName"
+				]
+			},
+			"success": {
+				"eng": "You've gifted a rose bouquet to ${partner}! Your marriage bond has been extended for another 30 days.",
+				"trans": "Вы подарили букет розы ${partner}! Ваша семейная связь продлена еще на 30 дней.",
+				"vars": [
+					"partner"
+				]
+			}
+		},
+		"proposalSent": {
+			"eng": "Your marriage proposal has been sent!",
+			"trans": "Ваше предложение о браке отправлено!"
+		},
+		"proposalSentMail": {
+			"eng": "You have proposed to ${targetName} with an Eternal Bond Ring",
+			"trans": "Вы предложили ${targetName} выйти за вас в брак, подарив ему кольцо вечной связи",
+			"vars": [
+				"targetName"
+			]
+		},
+		"propose": {
+			"confirm": {
+				"eng": "Propose",
+				"trans": "Сделать предложение"
+			},
+			"description": {
+				"eng": "Are you sure you want to propose to ${targetPlayer.getName()}? This will use your Eternal Bond Ring.",
+				"trans": "Вы действительно хотите предложить руку и сердце игроку ${targetPlayer.getName()}? Это потребует вашего Кольца Вечной Связи."
+			},
+			"title": {
+				"eng": "Marriage Proposal",
+				"trans": "Предложение о браке"
+			}
+		},
+		"rejected": {
+			"eng": "${player.displayName} has declined your marriage proposal.",
+			"trans": "${player.displayName} отказался от вашего предложения о браке."
+		},
+		"settings": {
+			"backgroundImage": {
+				"eng": "Background Image",
+				"trans": "Фоновое изображение"
+			},
+			"expired": {
+				"eng": "Marriage has expired",
+				"trans": "Брак истёк"
+			},
+			"expiresIn": {
+				"eng": "Expires in ${days} days (${date})",
+				"trans": "Истекает через ${days} дней (${date})",
+				"vars": [
+					"days",
+					"date"
+				]
+			},
+			"extendButton": {
+				"eng": "Extend Marriage",
+				"trans": "Продлить брак"
+			},
+			"extendWithBouquet": {
+				"eng": "Gift a Rose Bouquet to extend for ${days} days",
+				"trans": "Подарить букет роз, чтобы продлить на ${days} дней",
+				"vars": [
+					"days"
+				]
+			},
+			"imageHint1": {
+				"eng": "Click to upload a background image",
+				"trans": "Нажмите, чтобы загрузить фоновое изображение"
+			},
+			"imageHint2": {
+				"eng": "Recommend uplaoding 2:1 ratio image",
+				"trans": "Рекомендуется загружать изображение в формате 2:1"
+			},
+			"invalidSymbol": {
+				"eng": "Invalid marriage symbol selected",
+				"trans": "Выбран недопустимый символ брака"
+			},
+			"permanent": {
+				"eng": "Permanent marriage",
+				"trans": "Постоянный брак"
+			},
+			"saveVow": {
+				"eng": "Save Vow",
+				"trans": "Сохранить клятву"
+			},
+			"status": {
+				"eng": "Marriage Status",
+				"trans": "Статус брака"
+			},
+			"symbol": {
+				"eng": "Symbol",
+				"trans": "Символ"
+			},
+			"symbolHint": {
+				"eng": "Choose the emoji shown between your names",
+				"trans": "Выберите смайлик, который отображается между вашими именами"
+			},
+			"vowNotAllowed": {
+				"eng": "Your vow contains not allowed words",
+				"trans": "В вашей клятве содержатся неприемлемые слова"
+			},
+			"vowPhrase": {
+				"eng": "Vow Phrase",
+				"trans": "Фраза клятвы"
+			},
+			"vowPlaceholder": {
+				"eng": "Write your romantic vow here...",
+				"trans": "Напишите сюда свою романтическую клятву…"
+			},
+			"vowTooLong": {
+				"eng": "Vow phrase must be 64 words or less",
+				"trans": "Фраза клятвы должна содержать не более 64 слов"
+			},
+			"wordCount": {
+				"eng": "${count} / 64 words",
+				"trans": "${count} / 64 слов",
+				"vars": [
+					"count"
+				]
+			}
+		},
+		"symbol": {
+			"crown": {
+				"eng": "Royalty",
+				"trans": "Королевский"
+			},
+			"cyber": {
+				"eng": "Cyber Love",
+				"trans": "Кибер‑любовь"
+			},
+			"fire": {
+				"eng": "On Fire",
+				"trans": "Горящее"
+			},
+			"gaming": {
+				"eng": "Player Two",
+				"trans": "Игрок 2"
+			},
+			"heart": {
+				"eng": "Classic Heart",
+				"trans": "Классическое сердце"
+			},
+			"infinity": {
+				"eng": "Infinity",
+				"trans": "Бесконечность"
+			},
+			"lightning": {
+				"eng": "Electric",
+				"trans": "Электрический"
+			},
+			"link": {
+				"eng": "Linked",
+				"trans": "Связано"
+			},
+			"lock": {
+				"eng": "Locked In",
+				"trans": "Заблокировано"
+			},
+			"pizza": {
+				"eng": "Pizza Love",
+				"trans": "Любовь к пицце"
+			},
+			"potato": {
+				"eng": "Spud Love",
+				"trans": "Любовь к картошке"
+			},
+			"ring": {
+				"eng": "Wedding Ring",
+				"trans": "Обручальное кольцо"
+			},
+			"rocket": {
+				"eng": "To The Moon",
+				"trans": "К Луне"
+			},
+			"rose": {
+				"eng": "Rose",
+				"trans": "Роза"
+			},
+			"sparkle": {
+				"eng": "Sparkling Heart",
+				"trans": "Блестящее сердце"
+			},
+			"target": {
+				"eng": "Perfect Match",
+				"trans": "Идеальное Совпадение"
+			},
+			"unicorn": {
+				"eng": "Magical",
+				"trans": "Волшебный"
+			}
+		},
+		"systemAnnouncement": {
+			"eng": "💍 ${player1} and ${player2} have tied the knot! Congratulations to the happy couple! 🎉",
+			"trans": "💍 ${player1} и ${player2} поженились! Поздравляем счастливую пару! 🎉",
+			"vars": [
+				"player1",
+				"player2"
+			]
+		},
+		"vow": {
+			"changeNotification": {
+				"eng": "${player} has updated their marriage vow to ${vow}",
+				"trans": "${player} has updated their marriage vow: \"${vow}\"",
+				"vars": [
+					"player",
+					"vow"
+				]
+			},
+			"cooldown": {
+				"eng": "You can update your vow again in ${minutes} minutes",
+				"trans": "Вы сможете обновить клятву через ${minutes} минут",
+				"vars": [
+					"minutes"
+				]
+			}
+		}
+	},
+	"marriageExtendModal": {
+		"confirmButton": {
+			"eng": "Extend Marriage",
+			"trans": "Продлить брак"
+		},
+		"currentStatus": {
+			"eng": "Current Status",
+			"trans": "Текущий статус"
+		},
+		"duration": {
+			"eng": "Duration:",
+			"trans": "Продолжительность:"
+		},
+		"expired": {
+			"eng": "Your marriage has expired",
+			"trans": "Срок вашего брака истёк"
+		},
+		"expiresIn": {
+			"eng": "Expires in ${days} days",
+			"trans": "Истекает через ${days} дней",
+			"vars": [
+				"days"
+			]
+		},
+		"expiryDate": {
+			"eng": "Expiry: ${date}",
+			"trans": "Срок действия: ${date}",
+			"vars": [
+				"date"
+			]
+		},
+		"extensionDetails": {
+			"eng": "Extension Details",
+			"trans": "Подробности продления"
+		},
+		"failed": {
+			"eng": "Failed to extend marriage. Please try again.",
+			"trans": "Не удалось продлить брак. Попробуйте ещё раз."
+		},
+		"newExpiry": {
+			"eng": "New Expiry:",
+			"trans": "Новое окончание:"
+		},
+		"permanent": {
+			"eng": "Permanent marriage - no extension needed",
+			"trans": "Постоянный брак — продление не требуется"
+		},
+		"requirement": {
+			"eng": "Required:",
+			"trans": "Требуется:"
+		},
+		"success": {
+			"eng": "You've gifted a rose bouquet! Your bond has been extended.",
+			"trans": "Вы подарили букет роз! Ваш союз продлён."
+		},
+		"timesExtended": {
+			"eng": "Times Extended:",
+			"trans": "Продолжено раз(а):"
+		},
+		"title": {
+			"eng": "Extend Marriage",
+			"trans": "Продлить брак"
+		}
+	},
+	"marriageSttingsPage": {
+		"divorce": {
+			"error": {
+				"eng": "Failed to end marriage. Please try again.",
+				"trans": "Не удалось завершить бракоразводный процесс. Попробуйте ещё раз."
+			}
+		},
+		"divorceButton": {
+			"eng": "End Marriage",
+			"trans": "Развести"
+		},
+		"noChanges": {
+			"eng": "No changes to save",
+			"trans": "Нет изменений для сохранения"
+		},
+		"notMarried": {
+			"eng": "You are not married",
+			"trans": "Вы не женаты"
+		},
+		"saveError": {
+			"eng": "Failed to save settings. Please try again.",
+			"trans": "Не удалось сохранить настройки. Пожалуйста, повторите попытку."
+		},
+		"saved": {
+			"eng": "Marriage settings saved successfully!",
+			"trans": "Настройки брака успешно сохранены!"
+		},
+		"title": {
+			"eng": "Marriage Settings",
+			"trans": "Настройки брака"
+		},
+		"uploadError": {
+			"eng": "Failed to upload image. Please try again.",
+			"trans": "Не удалось загрузить изображение. Попробуйте ещё раз."
+		},
+		"uploadSuccess": {
+			"eng": "Image uploaded.",
+			"trans": "Изображение загружено."
+		},
+		"vowTooLong": {
+			"eng": "Vow phrase must be 64 words or less. Current: ${count} words",
+			"trans": "Фраза клятвы должна содержать не более 64 слов. Сейчас: ${count} слов",
+			"vars": [
+				"count"
+			]
+		}
+	},
 	"messageImage": {
 		"hideImage": {
 			"eng": "Hide Image",
@@ -5402,6 +5852,16 @@
 		"level": {
 			"eng": "level",
 			"trans": "уровень"
+		},
+		"marriage": {
+			"accept": {
+				"eng": "Accept",
+				"trans": "Принять"
+			},
+			"reject": {
+				"eng": "Reject",
+				"trans": "Отклонить"
+			}
 		},
 		"missing": {
 			"eng": "missing",
@@ -5638,6 +6098,18 @@
 			"title": {
 				"eng": "Unofficial translation",
 				"trans": "Неофициальный перевод"
+			}
+		},
+		"marriageSttingsPage": {
+			"divorce": {
+				"description": {
+					"eng": "This action cannot be undone. Both you and your partner will lose all marriage benefits.",
+					"trans": "Это действие не может быть отменено. Вы и ваш партнер потеряете все бракосочетательные привилегии."
+				},
+				"title": {
+					"eng": "Are you sure you want to end the marriage?",
+					"trans": "Вы действительно хотите прекратить брак?"
+				}
 			}
 		},
 		"newbieTutorial": {
@@ -6242,7 +6714,8 @@
 			},
 			"defaultLines": {
 				"eng": [
-					"Do you want to buy Units, or use your Units?"
+					"Do you want to buy Units, or use your Units?",
+					"We also have Eternal Bond Rings for those looking to unite with their partner forever."
 				],
 				"trans": [
 					"Ты хочешь купить Юниты, или использовать свои Юниты?"
@@ -6730,6 +7203,12 @@
 			"name": {
 				"eng": "Dog",
 				"trans": "Собака"
+			}
+		},
+		"rabbit": {
+			"name": {
+				"eng": "Rabbit",
+				"trans": "Кролик"
 			}
 		}
 	},
@@ -10180,6 +10659,12 @@
 				"trans": "Пин-код, необходимый для разблокировки"
 			}
 		},
+		"generic": {
+			"days": {
+				"eng": "days",
+				"trans": "Дни"
+			}
+		},
 		"inventory": {
 			"autoScrap": {
 				"button": {
@@ -10927,6 +11412,34 @@
 				"eng": "location",
 				"trans": "местонахождение"
 			},
+			"marriage": {
+				"cardTitle": {
+					"eng": "Relationship",
+					"trans": "Отношения"
+				},
+				"devotion": {
+					"eng": "Devotion",
+					"trans": "Верность"
+				},
+				"duration": {
+					"justMarried": {
+						"eng": "Just married!",
+						"trans": "Только в браке!"
+					}
+				},
+				"expiresOn": {
+					"eng": "Expires on",
+					"trans": "Истекает"
+				},
+				"marriedFor": {
+					"eng": "Married for",
+					"trans": "Брак длится"
+				},
+				"settings": {
+					"eng": "Marriage Settings",
+					"trans": "Настройки брака"
+				}
+			},
 			"numOfMember": {
 				"eng": "Number of members",
 				"trans": "Количество участников"
@@ -10939,6 +11452,10 @@
 				"addToFriend": {
 					"eng": "add to Friend List",
 					"trans": "Добавить в список друзей"
+				},
+				"alreadyMarried": {
+					"eng": "Already Married",
+					"trans": "Уже женат/замужем"
 				},
 				"block": {
 					"eng": "Block Player",
@@ -10955,6 +11472,14 @@
 				"label": {
 					"eng": "Player Actions",
 					"trans": "Действия с игроком"
+				},
+				"proposalCooldown": {
+					"eng": "Proposal on Cooldown",
+					"trans": "Предложение в режиме ожидания"
+				},
+				"propose": {
+					"eng": "Propose Marriage",
+					"trans": "Предложить брак"
 				},
 				"removeFromFriend": {
 					"eng": "Remove from Friend List",
@@ -11703,6 +12228,10 @@
 			"locations": {
 				"eng": "locations",
 				"trans": "локации"
+			},
+			"marriage": {
+				"eng": "Marriage System",
+				"trans": "Система брака"
 			},
 			"profile": {
 				"eng": "profile",

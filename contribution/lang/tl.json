@@ -627,7 +627,7 @@
 	},
 	"basicInfo": {
 		"nameInvalid": {
-			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'",
+			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or '_'",
 			"trans": "Ang haba ng pangalan ay dapat na mas malaki pagkatapos 4, mas mababa pagkatapos o katumbas ng 16 at naglalaman lamang ng mga character na Ingles, numero o \\ '_ \\'"
 		},
 		"nameProfane": {
@@ -3986,6 +3986,16 @@
 				"trans": "RNG interferer"
 			}
 		},
+		"roseBouquet": {
+			"description": {
+				"eng": "A beautifully preserved rose bouquet. A traditional gift that extends the marriage bond by 30 days when given to your partner. A symbol of enduring love even in the digital age.",
+				"trans": "Isang maayos na pinanatiling bouquet ng rosas. Isang tradisyunal na regalo na nagpapatibay sa ugnayang pag-asawa nang 30 araw kapag ibinigay sa iyong kapareha. Simbolo ng matatag na pag-ibig kahit sa digital na panahon."
+			},
+			"name": {
+				"eng": "Rose Bouquet",
+				"trans": "Rosang Buklod"
+			}
+		},
 		"seashell": {
 			"description": {
 				"eng": "A beautiful seashell that can be used to exchange items with Josie",
@@ -4239,6 +4249,16 @@
 			"name": {
 				"eng": "upper armor",
 				"trans": "Mataas na sandata"
+			}
+		},
+		"weddingRing": {
+			"description": {
+				"eng": "A finely crafted ring recognized by the City Registry. Present this to propose a marriage bond. The license is time-limited under city policy and can be extended by both partners.",
+				"trans": "Isang maingat na likhang singsing na kinikilala ng City Registry. Ipakita ito bilang tanda ng pag-aasawa. Ang lisensya ay may takdang panahon alinsunod sa patakaran ng lungsod at maaaring pahabain ng parehong magkasintahan."
+			},
+			"name": {
+				"eng": "Marriage Bond Ring",
+				"trans": "Selo ng Kasal"
 			}
 		}
 	},
@@ -5190,6 +5210,436 @@
 			]
 		}
 	},
+	"marriage": {
+		"accepted": {
+			"eng": "You are now married to ${proposer.getName()}!",
+			"trans": "Congratulations! Ikaw at si ${proposer.getName()} ay magkasama na sa pag-ibig!"
+		},
+		"acceptedProposer": {
+			"eng": "${player.getName()} accepted your proposal! You are now married!",
+			"trans": "${player.getName()} ay tinanggap ang iyong alok! Ikaw na ngayon ay kasal"
+		},
+		"anniversary": {
+			"eng": "Anniversary",
+			"trans": "Anibersaryo"
+		},
+		"defaultMessage": {
+			"eng": "Will you marry me?",
+			"trans": "Magpakasal ka ba sa akin?"
+		},
+		"defaultVow": {
+			"eng": "Together forever in the digital realm",
+			"trans": "Magkasama magpakailanman sa digital na mundo"
+		},
+		"divorce": {
+			"success": {
+				"eng": "Your marriage has been ended.",
+				"trans": "Natapos na ang iyong kasal."
+			}
+		},
+		"error": {
+			"alreadyMarried": {
+				"eng": "You are already married",
+				"trans": "Ikaw ay kasal na"
+			},
+			"blocked": {
+				"eng": "You cannot propose to this player",
+				"trans": "Hindi mo kayang umalok sa manlalarong ito"
+			},
+			"cannotProposeSelf": {
+				"eng": "You cannot propose to yourself",
+				"trans": "Hindi ka maaaring mag-propose sa sarili mo"
+			},
+			"cooldown": {
+				"eng": "You must wait ${minutes} more minutes before sending another proposal",
+				"trans": "Maghintay ng ${minutes} minuto bago muling magmakaibigan"
+			},
+			"deleteWhileMarried": {
+				"eng": "You can't delete your account while married. Please divorce first.",
+				"trans": "Hindi mo maaaring tanggalin ang iyong account habang kasal. Mangyaring magdiborsyo muna."
+			},
+			"mismatch": {
+				"eng": "Marriage data mismatch",
+				"trans": "Ang datos ng kasal ay hindi tugma"
+			},
+			"noBouquet": {
+				"eng": "You need an ${itemName} to extend your marriage bond.",
+				"trans": "Kailangan mo ng ${itemName} para palawakin ang iyong pag-aasawa.",
+				"vars": [
+					"itemName"
+				]
+			},
+			"noRing": {
+				"eng": "You need an Eternal Bond Ring to propose",
+				"trans": "Kailangan mo ng Eternal Bond Ring para magmakaasa"
+			},
+			"partnerNotFound": {
+				"eng": "Your partner could not be found",
+				"trans": "Hindi mahanap ang iyong kasosyo"
+			},
+			"playerNotFound": {
+				"eng": "Player not found",
+				"trans": "Hindi mahanap ang manlalaro"
+			},
+			"proposerAlreadyMarried": {
+				"eng": "The proposer is already married",
+				"trans": "Ang nakaka-propose ay kasal na"
+			},
+			"proposerNotFound": {
+				"eng": "Proposer not found",
+				"trans": "Hindi matagpuan ang tagapagmungkahi"
+			},
+			"ringMissing": {
+				"eng": "The proposer no longer has the ring",
+				"trans": "Ang nag-aalok ay wala na ang singsing"
+			},
+			"targetAlreadyMarried": {
+				"eng": "That player is already married",
+				"trans": "Ang manlalarong iyon ay kasal na"
+			},
+			"targetMarried": {
+				"eng": "${targetPlayer.getName()} is already married",
+				"trans": "${targetPlayer.getName()} ay kasal na"
+			}
+		},
+		"extend": {
+			"announcement": {
+				"eng": "${player1} has gifted an ${itemName} to ${player2}! 🌹💕",
+				"trans": "${player1} ay nagbigay ng isang ${itemName} kay ${player2}! 🌹💕",
+				"vars": [
+					"player1",
+					"player2",
+					"itemName"
+				]
+			},
+			"success": {
+				"eng": "You've gifted a rose bouquet to ${partner}! Your marriage bond has been extended for another 30 days.",
+				"trans": "Nagbigay ka ng bouquet na rosas kay ${partner}! Ang inyong kasal ay pinalawig pa ng 30 araw.",
+				"vars": [
+					"partner"
+				]
+			}
+		},
+		"proposalSent": {
+			"eng": "Your marriage proposal has been sent!",
+			"trans": "Naipadala na ang iyong hiling para sa kasal!"
+		},
+		"proposalSentMail": {
+			"eng": "You have proposed to ${targetName} with an Eternal Bond Ring",
+			"trans": "Nag‑propose ka kay ${targetName} gamit ang Kawit ng Walang Hanggan",
+			"vars": [
+				"targetName"
+			]
+		},
+		"propose": {
+			"confirm": {
+				"eng": "Propose",
+				"trans": "Humiling"
+			},
+			"description": {
+				"eng": "Are you sure you want to propose to ${targetPlayer.getName()}? This will use your Eternal Bond Ring.",
+				"trans": "Tiyak mo bang gusto mong magmakaasa kay ${targetPlayer.getName()}? Gagamitin nitong iwanan ang iyong Eternal Bond Ring."
+			},
+			"title": {
+				"eng": "Marriage Proposal",
+				"trans": "Panukalang Pagsasama"
+			}
+		},
+		"rejected": {
+			"eng": "${player.displayName} has declined your marriage proposal.",
+			"trans": "${player.displayName} ay tinanggihan ang iyong alok na kasal."
+		},
+		"settings": {
+			"backgroundImage": {
+				"eng": "Background Image",
+				"trans": "Larawan ng Background"
+			},
+			"expired": {
+				"eng": "Marriage has expired",
+				"trans": "Tapos na ang kasal"
+			},
+			"expiresIn": {
+				"eng": "Expires in ${days} days (${date})",
+				"trans": "Mag-eexpire sa ${days} araw (${date})",
+				"vars": [
+					"days",
+					"date"
+				]
+			},
+			"extendButton": {
+				"eng": "Extend Marriage",
+				"trans": "Pasugatan ang Kasal"
+			},
+			"extendWithBouquet": {
+				"eng": "Gift a Rose Bouquet to extend for ${days} days",
+				"trans": "Magbigay ng Rosas na Buklod upang ipahaba ng ${days} araw",
+				"vars": [
+					"days"
+				]
+			},
+			"imageHint1": {
+				"eng": "Click to upload a background image",
+				"trans": "I-click para mag-upload ng background image"
+			},
+			"imageHint2": {
+				"eng": "Recommend uplaoding 2:1 ratio image",
+				"trans": "Mag-upload ng larawan sa proporsyon na 2:1"
+			},
+			"invalidSymbol": {
+				"eng": "Invalid marriage symbol selected",
+				"trans": "Hindi wastong simbolo ng kasal ang napili"
+			},
+			"permanent": {
+				"eng": "Permanent marriage",
+				"trans": "Permanenteng kasal"
+			},
+			"saveVow": {
+				"eng": "Save Vow",
+				"trans": "I‑save ang Panata"
+			},
+			"status": {
+				"eng": "Marriage Status",
+				"trans": "Status ng Kasal"
+			},
+			"symbol": {
+				"eng": "Symbol",
+				"trans": "Simbolo"
+			},
+			"symbolHint": {
+				"eng": "Choose the emoji shown between your names",
+				"trans": "Pumili ng emoji na nakikita sa pagitan ng inyong mga pangalan"
+			},
+			"vowNotAllowed": {
+				"eng": "Your vow contains not allowed words",
+				"trans": "May hindi pinapayagang salita sa iyong pangako"
+			},
+			"vowPhrase": {
+				"eng": "Vow Phrase",
+				"trans": "Pahayag ng Panata"
+			},
+			"vowPlaceholder": {
+				"eng": "Write your romantic vow here...",
+				"trans": "Ilagay dito ang iyong romantikong pangako…"
+			},
+			"vowTooLong": {
+				"eng": "Vow phrase must be 64 words or less",
+				"trans": "Ang pangako ay dapat nasa 64 salita o mas mababa"
+			},
+			"wordCount": {
+				"eng": "${count} / 64 words",
+				"trans": "${count} / 64 salita",
+				"vars": [
+					"count"
+				]
+			}
+		},
+		"symbol": {
+			"crown": {
+				"eng": "Royalty",
+				"trans": "Karangyaan"
+			},
+			"cyber": {
+				"eng": "Cyber Love",
+				"trans": "Cyber na Pag-ibig"
+			},
+			"fire": {
+				"eng": "On Fire",
+				"trans": "Nasa Apoy"
+			},
+			"gaming": {
+				"eng": "Player Two",
+				"trans": "Manlalaro 2"
+			},
+			"heart": {
+				"eng": "Classic Heart",
+				"trans": "Klasikal na Puso"
+			},
+			"infinity": {
+				"eng": "Infinity",
+				"trans": "Walang Hanggan"
+			},
+			"lightning": {
+				"eng": "Electric",
+				"trans": "Elektriko"
+			},
+			"link": {
+				"eng": "Linked",
+				"trans": "Konektado"
+			},
+			"lock": {
+				"eng": "Locked In",
+				"trans": "Nakakandado na"
+			},
+			"pizza": {
+				"eng": "Pizza Love",
+				"trans": "Pag‑ibig sa Pizza"
+			},
+			"potato": {
+				"eng": "Spud Love",
+				"trans": "Pag-ibig ng Patatas"
+			},
+			"ring": {
+				"eng": "Wedding Ring",
+				"trans": "Singsing ng Kasal"
+			},
+			"rocket": {
+				"eng": "To The Moon",
+				"trans": "Sa Buwan"
+			},
+			"rose": {
+				"eng": "Rose",
+				"trans": "Rosas"
+			},
+			"sparkle": {
+				"eng": "Sparkling Heart",
+				"trans": "Puso na Kumikislap"
+			},
+			"target": {
+				"eng": "Perfect Match",
+				"trans": "Perpektong Pagtugma"
+			},
+			"unicorn": {
+				"eng": "Magical",
+				"trans": "Mahiwaga"
+			}
+		},
+		"systemAnnouncement": {
+			"eng": "💍 ${player1} and ${player2} have tied the knot! Congratulations to the happy couple! 🎉",
+			"trans": "💍 Pinagtagumpayan ni ${player1} at ${player2} ang pag-iisang dibdib! Maligayang bati sa bagong mag-asawa! 🎉",
+			"vars": [
+				"player1",
+				"player2"
+			]
+		},
+		"vow": {
+			"changeNotification": {
+				"eng": "${player} has updated their marriage vow to ${vow}",
+				"trans": "${player} has updated their marriage vow: \"${vow}\"",
+				"vars": [
+					"player",
+					"vow"
+				]
+			},
+			"cooldown": {
+				"eng": "You can update your vow again in ${minutes} minutes",
+				"trans": "Maaaring baguhin mo ulit ang iyong pangako sa loob ng ${minutes} minuto",
+				"vars": [
+					"minutes"
+				]
+			}
+		}
+	},
+	"marriageExtendModal": {
+		"confirmButton": {
+			"eng": "Extend Marriage",
+			"trans": "Pasugatan ang Kasal"
+		},
+		"currentStatus": {
+			"eng": "Current Status",
+			"trans": "Kasalukuyang Katayuan"
+		},
+		"duration": {
+			"eng": "Duration:",
+			"trans": "Tagal:"
+		},
+		"expired": {
+			"eng": "Your marriage has expired",
+			"trans": "Nagtapos na ang inyong kasal"
+		},
+		"expiresIn": {
+			"eng": "Expires in ${days} days",
+			"trans": "Mag-e-expire sa ${days} araw",
+			"vars": [
+				"days"
+			]
+		},
+		"expiryDate": {
+			"eng": "Expiry: ${date}",
+			"trans": "Kinatapos sa: ${date}",
+			"vars": [
+				"date"
+			]
+		},
+		"extensionDetails": {
+			"eng": "Extension Details",
+			"trans": "Detalyeng Pagpapalawig"
+		},
+		"failed": {
+			"eng": "Failed to extend marriage. Please try again.",
+			"trans": "Nabigo ang pagpapahaba ng kasal. Pakisubukan muli."
+		},
+		"newExpiry": {
+			"eng": "New Expiry:",
+			"trans": "Bagong Huling Petsa:"
+		},
+		"permanent": {
+			"eng": "Permanent marriage - no extension needed",
+			"trans": "Permanente ang kasal – walang kailangang palawigin"
+		},
+		"requirement": {
+			"eng": "Required:",
+			"trans": "Kailangan:"
+		},
+		"success": {
+			"eng": "You've gifted a rose bouquet! Your bond has been extended.",
+			"trans": "Naghatid ka ng bouquet ng mga rosas! Ang inyong relasyon ay pinalawig."
+		},
+		"timesExtended": {
+			"eng": "Times Extended:",
+			"trans": "Pinahabaging beses:"
+		},
+		"title": {
+			"eng": "Extend Marriage",
+			"trans": "Pasugatan ang Kasal"
+		}
+	},
+	"marriageSttingsPage": {
+		"divorce": {
+			"error": {
+				"eng": "Failed to end marriage. Please try again.",
+				"trans": "Hindi nagtagumpay ang pagwawakas ng kasal. Pakisubukan muli."
+			}
+		},
+		"divorceButton": {
+			"eng": "End Marriage",
+			"trans": "Itigil ang Kasal"
+		},
+		"noChanges": {
+			"eng": "No changes to save",
+			"trans": "Walang binagong datos na dapat i-save"
+		},
+		"notMarried": {
+			"eng": "You are not married",
+			"trans": "Hindi ka pa kasal"
+		},
+		"saveError": {
+			"eng": "Failed to save settings. Please try again.",
+			"trans": "Nabigong i-save ang mga setting. Pakisubukan muli."
+		},
+		"saved": {
+			"eng": "Marriage settings saved successfully!",
+			"trans": "Naka-save na ang mga setting ng kasal!"
+		},
+		"title": {
+			"eng": "Marriage Settings",
+			"trans": "Mga Setting ng Kasal"
+		},
+		"uploadError": {
+			"eng": "Failed to upload image. Please try again.",
+			"trans": "Nabigong i-upload ang larawan. Mangyaring subukan muli."
+		},
+		"uploadSuccess": {
+			"eng": "Image uploaded.",
+			"trans": "Na-upload na ang larawan."
+		},
+		"vowTooLong": {
+			"eng": "Vow phrase must be 64 words or less. Current: ${count} words",
+			"trans": "Ang pangako mo ay dapat 64 salita o mas mababa. Kasalukuyan: ${count} salita",
+			"vars": [
+				"count"
+			]
+		}
+	},
 	"messageImage": {
 		"hideImage": {
 			"eng": "Hide Image",
@@ -5402,6 +5852,16 @@
 		"level": {
 			"eng": "level",
 			"trans": "antas"
+		},
+		"marriage": {
+			"accept": {
+				"eng": "Accept",
+				"trans": "Tanggapin"
+			},
+			"reject": {
+				"eng": "Reject",
+				"trans": "Tanggihan"
+			}
 		},
 		"missing": {
 			"eng": "missing",
@@ -5638,6 +6098,18 @@
 			"title": {
 				"eng": "Unofficial translation",
 				"trans": "Hindi opisyal na pagsasalin"
+			}
+		},
+		"marriageSttingsPage": {
+			"divorce": {
+				"description": {
+					"eng": "This action cannot be undone. Both you and your partner will lose all marriage benefits.",
+					"trans": "Hindi na ito maibabalik. Ikaw at ang iyong kapareha ay mawawala ang lahat ng benepisyo sa pag-aasawa."
+				},
+				"title": {
+					"eng": "Are you sure you want to end the marriage?",
+					"trans": "Tiyak ka bang tapusin mo na ang inyong pag-iisang dibdib?"
+				}
 			}
 		},
 		"newbieTutorial": {
@@ -6396,7 +6868,8 @@
 			},
 			"defaultLines": {
 				"eng": [
-					"Do you want to buy Units, or use your Units?"
+					"Do you want to buy Units, or use your Units?",
+					"We also have Eternal Bond Rings for those looking to unite with their partner forever."
 				],
 				"trans": [
 					"Do you want to buy Units, or use your Units?",
@@ -6943,6 +7416,12 @@
 			"name": {
 				"eng": "Dog",
 				"trans": "Aso"
+			}
+		},
+		"rabbit": {
+			"name": {
+				"eng": "Rabbit",
+				"trans": "Kuneho"
 			}
 		}
 	},
@@ -10393,6 +10872,12 @@
 				"trans": "Kinakailangan ang pin code upang mabuksan"
 			}
 		},
+		"generic": {
+			"days": {
+				"eng": "days",
+				"trans": "Araw"
+			}
+		},
 		"inventory": {
 			"autoScrap": {
 				"button": {
@@ -11140,6 +11625,34 @@
 				"eng": "location",
 				"trans": "Lokasyon"
 			},
+			"marriage": {
+				"cardTitle": {
+					"eng": "Relationship",
+					"trans": "Ugnayan"
+				},
+				"devotion": {
+					"eng": "Devotion",
+					"trans": "Dedikasyon"
+				},
+				"duration": {
+					"justMarried": {
+						"eng": "Just married!",
+						"trans": "Kasal na!"
+					}
+				},
+				"expiresOn": {
+					"eng": "Expires on",
+					"trans": "Tapos sa"
+				},
+				"marriedFor": {
+					"eng": "Married for",
+					"trans": "Kasado na ng"
+				},
+				"settings": {
+					"eng": "Marriage Settings",
+					"trans": "Mga Setting ng Kasal"
+				}
+			},
 			"numOfMember": {
 				"eng": "Number of members",
 				"trans": "Bilang ng mga miyembro"
@@ -11152,6 +11665,10 @@
 				"addToFriend": {
 					"eng": "add to Friend List",
 					"trans": "Add to Friend List"
+				},
+				"alreadyMarried": {
+					"eng": "Already Married",
+					"trans": "May asawa na"
 				},
 				"block": {
 					"eng": "Block Player",
@@ -11168,6 +11685,14 @@
 				"label": {
 					"eng": "Player Actions",
 					"trans": "Mga aksyon ng manlalaro"
+				},
+				"proposalCooldown": {
+					"eng": "Proposal on Cooldown",
+					"trans": "Pangako ay naka-cooldown"
+				},
+				"propose": {
+					"eng": "Propose Marriage",
+					"trans": "Mag‑propose ng Kasal"
 				},
 				"removeFromFriend": {
 					"eng": "Remove from Friend List",
@@ -11916,6 +12441,10 @@
 			"locations": {
 				"eng": "locations",
 				"trans": "mga lokasyon"
+			},
+			"marriage": {
+				"eng": "Marriage System",
+				"trans": "Sistemang Kasal"
 			},
 			"profile": {
 				"eng": "profile",

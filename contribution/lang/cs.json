@@ -627,7 +627,7 @@
 	},
 	"basicInfo": {
 		"nameInvalid": {
-			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'",
+			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or '_'",
 			"trans": "Délka jména musí být větší než 4, méně pak nebo rovná 16 a obsahuje pouze anglické znaky, čísla nebo \\ '_ \\'"
 		},
 		"nameProfane": {
@@ -3986,6 +3986,16 @@
 				"trans": "RNG Rušička"
 			}
 		},
+		"roseBouquet": {
+			"description": {
+				"eng": "A beautifully preserved rose bouquet. A traditional gift that extends the marriage bond by 30 days when given to your partner. A symbol of enduring love even in the digital age.",
+				"trans": "Pěkně zachovávaný kytice růží. Tradiční dárek, který prodlouží svazek manželství o 30 dní, když ho podáte partnerovi. Symbol trvalé lásky i v digitální době."
+			},
+			"name": {
+				"eng": "Rose Bouquet",
+				"trans": "Kytice růží"
+			}
+		},
 		"seashell": {
 			"description": {
 				"eng": "A beautiful seashell that can be used to exchange items with Josie",
@@ -4239,6 +4249,16 @@
 			"name": {
 				"eng": "upper armor",
 				"trans": "horní brnění"
+			}
+		},
+		"weddingRing": {
+			"description": {
+				"eng": "A finely crafted ring recognized by the City Registry. Present this to propose a marriage bond. The license is time-limited under city policy and can be extended by both partners.",
+				"trans": "Přesně vyrobený prsten uznávaný Městským rejstříkem. Přineste jej při žádosti o manželství. Licence je časově omezená podle městské politiky a může ji prodloužit obě strany."
+			},
+			"name": {
+				"eng": "Marriage Bond Ring",
+				"trans": "Prsten svazku"
 			}
 		}
 	},
@@ -5190,6 +5210,436 @@
 			]
 		}
 	},
+	"marriage": {
+		"accepted": {
+			"eng": "You are now married to ${proposer.getName()}!",
+			"trans": "Jste nyní vdaný/á s ${proposer.getName()}!"
+		},
+		"acceptedProposer": {
+			"eng": "${player.getName()} accepted your proposal! You are now married!",
+			"trans": "${player.getName()} přijal(a) tvůj návrh! Nyní jste manželé!"
+		},
+		"anniversary": {
+			"eng": "Anniversary",
+			"trans": "výročí"
+		},
+		"defaultMessage": {
+			"eng": "Will you marry me?",
+			"trans": "Chceš se mnou vdát?"
+		},
+		"defaultVow": {
+			"eng": "Together forever in the digital realm",
+			"trans": "Navždy spolu v digitálním světě"
+		},
+		"divorce": {
+			"success": {
+				"eng": "Your marriage has been ended.",
+				"trans": "Manželství bylo rozvedeno."
+			}
+		},
+		"error": {
+			"alreadyMarried": {
+				"eng": "You are already married",
+				"trans": "Již jsi ženatý"
+			},
+			"blocked": {
+				"eng": "You cannot propose to this player",
+				"trans": "Nemůžete požádat tohoto hráče o rande"
+			},
+			"cannotProposeSelf": {
+				"eng": "You cannot propose to yourself",
+				"trans": "Nemůžeš se oženit sám"
+			},
+			"cooldown": {
+				"eng": "You must wait ${minutes} more minutes before sending another proposal",
+				"trans": "Počkejte ${minutes} minut, než znova požádáte o ruku"
+			},
+			"deleteWhileMarried": {
+				"eng": "You can't delete your account while married. Please divorce first.",
+				"trans": "Nedá se smazat účet, když jsi ženatý. Nejprve se rozvedi."
+			},
+			"mismatch": {
+				"eng": "Marriage data mismatch",
+				"trans": "Neshoda dat o manželství"
+			},
+			"noBouquet": {
+				"eng": "You need an ${itemName} to extend your marriage bond.",
+				"trans": "K prodloužení manželského pouta je potřeba ${itemName}.",
+				"vars": [
+					"itemName"
+				]
+			},
+			"noRing": {
+				"eng": "You need an Eternal Bond Ring to propose",
+				"trans": "Pro požádání o svatbu je potřeba Věčný poutový prsten"
+			},
+			"partnerNotFound": {
+				"eng": "Your partner could not be found",
+				"trans": "Nepodařilo se najít vašeho partnera"
+			},
+			"playerNotFound": {
+				"eng": "Player not found",
+				"trans": "Hráč nenalezen"
+			},
+			"proposerAlreadyMarried": {
+				"eng": "The proposer is already married",
+				"trans": "Žadatel už je ženatý"
+			},
+			"proposerNotFound": {
+				"eng": "Proposer not found",
+				"trans": "Žadatel nenalezen"
+			},
+			"ringMissing": {
+				"eng": "The proposer no longer has the ring",
+				"trans": "Nabízející už nemá kolo"
+			},
+			"targetAlreadyMarried": {
+				"eng": "That player is already married",
+				"trans": "Tento hráč je již ženatý"
+			},
+			"targetMarried": {
+				"eng": "${targetPlayer.getName()} is already married",
+				"trans": "${targetPlayer.getName()} je již vdaný"
+			}
+		},
+		"extend": {
+			"announcement": {
+				"eng": "${player1} has gifted an ${itemName} to ${player2}! 🌹💕",
+				"trans": "${player1} daroval ${itemName} hráči ${player2}! 🌹💕",
+				"vars": [
+					"player1",
+					"player2",
+					"itemName"
+				]
+			},
+			"success": {
+				"eng": "You've gifted a rose bouquet to ${partner}! Your marriage bond has been extended for another 30 days.",
+				"trans": "Darovali jste buket růží ${partner}! Váš manželský vztah byl prodloužen o dalších 30 dní.",
+				"vars": [
+					"partner"
+				]
+			}
+		},
+		"proposalSent": {
+			"eng": "Your marriage proposal has been sent!",
+			"trans": "Tvoje žádost o snahu byla úspěšně odeslána!"
+		},
+		"proposalSentMail": {
+			"eng": "You have proposed to ${targetName} with an Eternal Bond Ring",
+			"trans": "Odpověděli jste se na návrh svatby od ${targetName} pomocí věčného pouta",
+			"vars": [
+				"targetName"
+			]
+		},
+		"propose": {
+			"confirm": {
+				"eng": "Propose",
+				"trans": "Požádat o ruku"
+			},
+			"description": {
+				"eng": "Are you sure you want to propose to ${targetPlayer.getName()}? This will use your Eternal Bond Ring.",
+				"trans": "Jste si jisti, že chcete požádat o ruku ${targetPlayer.getName()}? To použije váš Kruh věčného pouta."
+			},
+			"title": {
+				"eng": "Marriage Proposal",
+				"trans": "Návrh na manželství"
+			}
+		},
+		"rejected": {
+			"eng": "${player.displayName} has declined your marriage proposal.",
+			"trans": "${player.displayName} odmítl(a) vaši žádost o sňatek."
+		},
+		"settings": {
+			"backgroundImage": {
+				"eng": "Background Image",
+				"trans": "Obrázek pozadí"
+			},
+			"expired": {
+				"eng": "Marriage has expired",
+				"trans": "Manželství vypršelo"
+			},
+			"expiresIn": {
+				"eng": "Expires in ${days} days (${date})",
+				"trans": "Vyprší za ${days} dní (${date})",
+				"vars": [
+					"days",
+					"date"
+				]
+			},
+			"extendButton": {
+				"eng": "Extend Marriage",
+				"trans": "Prodloužit manželství"
+			},
+			"extendWithBouquet": {
+				"eng": "Gift a Rose Bouquet to extend for ${days} days",
+				"trans": "Darujte květinový buket růží na prodloužení o ${days} dní",
+				"vars": [
+					"days"
+				]
+			},
+			"imageHint1": {
+				"eng": "Click to upload a background image",
+				"trans": "Klepněte pro nahrání pozadí"
+			},
+			"imageHint2": {
+				"eng": "Recommend uplaoding 2:1 ratio image",
+				"trans": "Doporučujeme nahrát obrázek ve formátu 2:1"
+			},
+			"invalidSymbol": {
+				"eng": "Invalid marriage symbol selected",
+				"trans": "Zvolený symbol manželství není platný"
+			},
+			"permanent": {
+				"eng": "Permanent marriage",
+				"trans": "Trvalé manželství"
+			},
+			"saveVow": {
+				"eng": "Save Vow",
+				"trans": "Uložit slib"
+			},
+			"status": {
+				"eng": "Marriage Status",
+				"trans": "Stav manželství"
+			},
+			"symbol": {
+				"eng": "Symbol",
+				"trans": "Znak"
+			},
+			"symbolHint": {
+				"eng": "Choose the emoji shown between your names",
+				"trans": "Zvolte emotikon zobrazený mezi vašimi jmény"
+			},
+			"vowNotAllowed": {
+				"eng": "Your vow contains not allowed words",
+				"trans": "Tvůj slib obsahuje nepovolená slova"
+			},
+			"vowPhrase": {
+				"eng": "Vow Phrase",
+				"trans": "Přísaha"
+			},
+			"vowPlaceholder": {
+				"eng": "Write your romantic vow here...",
+				"trans": "Napište sem svůj romantický slib…"
+			},
+			"vowTooLong": {
+				"eng": "Vow phrase must be 64 words or less",
+				"trans": "Fráze slibu musí obsahovat maximálně 64 slov"
+			},
+			"wordCount": {
+				"eng": "${count} / 64 words",
+				"trans": "${count} / 64 slov",
+				"vars": [
+					"count"
+				]
+			}
+		},
+		"symbol": {
+			"crown": {
+				"eng": "Royalty",
+				"trans": "Kráľovský"
+			},
+			"cyber": {
+				"eng": "Cyber Love",
+				"trans": "Kybernetická láska"
+			},
+			"fire": {
+				"eng": "On Fire",
+				"trans": "Na ohni"
+			},
+			"gaming": {
+				"eng": "Player Two",
+				"trans": "Hráč dva"
+			},
+			"heart": {
+				"eng": "Classic Heart",
+				"trans": "Klasické srdce"
+			},
+			"infinity": {
+				"eng": "Infinity",
+				"trans": "Nekonečno"
+			},
+			"lightning": {
+				"eng": "Electric",
+				"trans": "Elektrický"
+			},
+			"link": {
+				"eng": "Linked",
+				"trans": "Propojeno"
+			},
+			"lock": {
+				"eng": "Locked In",
+				"trans": "Uzamčeno"
+			},
+			"pizza": {
+				"eng": "Pizza Love",
+				"trans": "Pizza láska"
+			},
+			"potato": {
+				"eng": "Spud Love",
+				"trans": "Bramborová láska"
+			},
+			"ring": {
+				"eng": "Wedding Ring",
+				"trans": "Svatbový prsten"
+			},
+			"rocket": {
+				"eng": "To The Moon",
+				"trans": "Na Měsíc"
+			},
+			"rose": {
+				"eng": "Rose",
+				"trans": "Růže"
+			},
+			"sparkle": {
+				"eng": "Sparkling Heart",
+				"trans": "Zářivé srdce"
+			},
+			"target": {
+				"eng": "Perfect Match",
+				"trans": "Perfektní shoda"
+			},
+			"unicorn": {
+				"eng": "Magical",
+				"trans": "magický"
+			}
+		},
+		"systemAnnouncement": {
+			"eng": "💍 ${player1} and ${player2} have tied the knot! Congratulations to the happy couple! 🎉",
+			"trans": "💍 ${player1} a ${player2} se právě svázali! Gratulujeme šťastnému páru! 🎉",
+			"vars": [
+				"player1",
+				"player2"
+			]
+		},
+		"vow": {
+			"changeNotification": {
+				"eng": "${player} has updated their marriage vow to ${vow}",
+				"trans": "${player} has updated their marriage vow: \"${vow}\"",
+				"vars": [
+					"player",
+					"vow"
+				]
+			},
+			"cooldown": {
+				"eng": "You can update your vow again in ${minutes} minutes",
+				"trans": "Křeh se obnoví za ${minutes} minut",
+				"vars": [
+					"minutes"
+				]
+			}
+		}
+	},
+	"marriageExtendModal": {
+		"confirmButton": {
+			"eng": "Extend Marriage",
+			"trans": "Prodloužit manželství"
+		},
+		"currentStatus": {
+			"eng": "Current Status",
+			"trans": "Aktuální stav"
+		},
+		"duration": {
+			"eng": "Duration:",
+			"trans": "Trvání:"
+		},
+		"expired": {
+			"eng": "Your marriage has expired",
+			"trans": "Vaše manželství vypršelo"
+		},
+		"expiresIn": {
+			"eng": "Expires in ${days} days",
+			"trans": "Expiruje za ${days} dnů",
+			"vars": [
+				"days"
+			]
+		},
+		"expiryDate": {
+			"eng": "Expiry: ${date}",
+			"trans": "Vyprší: ${date}",
+			"vars": [
+				"date"
+			]
+		},
+		"extensionDetails": {
+			"eng": "Extension Details",
+			"trans": "Podrobnosti rozšíření"
+		},
+		"failed": {
+			"eng": "Failed to extend marriage. Please try again.",
+			"trans": "Nelze prodloužit manželství. Zkuste to znovu."
+		},
+		"newExpiry": {
+			"eng": "New Expiry:",
+			"trans": "Nová platnost:"
+		},
+		"permanent": {
+			"eng": "Permanent marriage - no extension needed",
+			"trans": "Pevný svazek – žádná prodloužení není potřeba"
+		},
+		"requirement": {
+			"eng": "Required:",
+			"trans": "Požadováno:"
+		},
+		"success": {
+			"eng": "You've gifted a rose bouquet! Your bond has been extended.",
+			"trans": "Darovali jste kytici růží! Vaše láska byla prodloužena."
+		},
+		"timesExtended": {
+			"eng": "Times Extended:",
+			"trans": "Rozšířeno:"
+		},
+		"title": {
+			"eng": "Extend Marriage",
+			"trans": "Prodloužit manželství"
+		}
+	},
+	"marriageSttingsPage": {
+		"divorce": {
+			"error": {
+				"eng": "Failed to end marriage. Please try again.",
+				"trans": "Neúspěšné ukončení manželství. Zkuste to znovu."
+			}
+		},
+		"divorceButton": {
+			"eng": "End Marriage",
+			"trans": "Rozvést"
+		},
+		"noChanges": {
+			"eng": "No changes to save",
+			"trans": "Není nic ke uložení"
+		},
+		"notMarried": {
+			"eng": "You are not married",
+			"trans": "Ženatost nenastavena"
+		},
+		"saveError": {
+			"eng": "Failed to save settings. Please try again.",
+			"trans": "Uložení nastavení selhalo. Zkuste to prosím znovu."
+		},
+		"saved": {
+			"eng": "Marriage settings saved successfully!",
+			"trans": "Úspěšně uloženy nastavení svazku!"
+		},
+		"title": {
+			"eng": "Marriage Settings",
+			"trans": "Nastavení manželství"
+		},
+		"uploadError": {
+			"eng": "Failed to upload image. Please try again.",
+			"trans": "Chyba při nahrávání obrázku. Zkuste to znovu."
+		},
+		"uploadSuccess": {
+			"eng": "Image uploaded.",
+			"trans": "Obrázek nahrán."
+		},
+		"vowTooLong": {
+			"eng": "Vow phrase must be 64 words or less. Current: ${count} words",
+			"trans": "Fráze slibu musí mít maximálně 64 slov. Nyní: ${count} slov",
+			"vars": [
+				"count"
+			]
+		}
+	},
 	"messageImage": {
 		"hideImage": {
 			"eng": "Hide Image",
@@ -5298,7 +5748,7 @@
 			},
 			"progress": {
 				"eng": "Bands Intercepted",
-				"trans": "Bands Intercepted"
+				"trans": "Zachycená pásma"
 			},
 			"retry": {
 				"eng": "Retry Interception",
@@ -5402,6 +5852,16 @@
 		"level": {
 			"eng": "level",
 			"trans": "úroveň"
+		},
+		"marriage": {
+			"accept": {
+				"eng": "Accept",
+				"trans": "Přijmout"
+			},
+			"reject": {
+				"eng": "Reject",
+				"trans": "Odmítnout"
+			}
 		},
 		"missing": {
 			"eng": "missing",
@@ -5638,6 +6098,18 @@
 			"title": {
 				"eng": "Unofficial translation",
 				"trans": "Neoficiální překlad"
+			}
+		},
+		"marriageSttingsPage": {
+			"divorce": {
+				"description": {
+					"eng": "This action cannot be undone. Both you and your partner will lose all marriage benefits.",
+					"trans": "Tuto akci nelze vrátit zpět. Vy i váš partner ztratíte všechny výhody manželství."
+				},
+				"title": {
+					"eng": "Are you sure you want to end the marriage?",
+					"trans": "Chtěl(a)byste opravdu ukončit manželství?"
+				}
 			}
 		},
 		"newbieTutorial": {
@@ -6242,7 +6714,8 @@
 			},
 			"defaultLines": {
 				"eng": [
-					"Do you want to buy Units, or use your Units?"
+					"Do you want to buy Units, or use your Units?",
+					"We also have Eternal Bond Rings for those looking to unite with their partner forever."
 				],
 				"trans": [
 					"Chcete koupit Jednotky nebo použít své stávající Jednotky?"
@@ -6730,6 +7203,12 @@
 			"name": {
 				"eng": "Dog",
 				"trans": "Pes"
+			}
+		},
+		"rabbit": {
+			"name": {
+				"eng": "Rabbit",
+				"trans": "Králík"
 			}
 		}
 	},
@@ -10180,6 +10659,12 @@
 				"trans": "PIN kód potřebný k odemčení"
 			}
 		},
+		"generic": {
+			"days": {
+				"eng": "days",
+				"trans": "dny"
+			}
+		},
 		"inventory": {
 			"autoScrap": {
 				"button": {
@@ -10927,6 +11412,34 @@
 				"eng": "location",
 				"trans": "lokace"
 			},
+			"marriage": {
+				"cardTitle": {
+					"eng": "Relationship",
+					"trans": "Vztah"
+				},
+				"devotion": {
+					"eng": "Devotion",
+					"trans": "Oddanost"
+				},
+				"duration": {
+					"justMarried": {
+						"eng": "Just married!",
+						"trans": "Právě se oženil(a)!"
+					}
+				},
+				"expiresOn": {
+					"eng": "Expires on",
+					"trans": "Vyprší v"
+				},
+				"marriedFor": {
+					"eng": "Married for",
+					"trans": "Manželství trvá"
+				},
+				"settings": {
+					"eng": "Marriage Settings",
+					"trans": "Nastavení manželství"
+				}
+			},
 			"numOfMember": {
 				"eng": "Number of members",
 				"trans": "Počet členů"
@@ -10939,6 +11452,10 @@
 				"addToFriend": {
 					"eng": "add to Friend List",
 					"trans": "Přidat do seznamu přátel"
+				},
+				"alreadyMarried": {
+					"eng": "Already Married",
+					"trans": "Již vdaný"
 				},
 				"block": {
 					"eng": "Block Player",
@@ -10955,6 +11472,14 @@
 				"label": {
 					"eng": "Player Actions",
 					"trans": "Akce hráče"
+				},
+				"proposalCooldown": {
+					"eng": "Proposal on Cooldown",
+					"trans": "Návrh na cooldownu"
+				},
+				"propose": {
+					"eng": "Propose Marriage",
+					"trans": "Navrhnout manželství"
 				},
 				"removeFromFriend": {
 					"eng": "Remove from Friend List",
@@ -11703,6 +12228,10 @@
 			"locations": {
 				"eng": "locations",
 				"trans": "místa"
+			},
+			"marriage": {
+				"eng": "Marriage System",
+				"trans": "Systém manželství"
 			},
 			"profile": {
 				"eng": "profile",

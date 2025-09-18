@@ -627,7 +627,7 @@
 	},
 	"basicInfo": {
 		"nameInvalid": {
-			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'",
+			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or '_'",
 			"trans": "이름 길이는 4자 초과, 16자 이하여야 하며, 영어 문자, 숫자 또는 \\ '_ \\'만 포함해야합니다"
 		},
 		"nameProfane": {
@@ -3986,6 +3986,16 @@
 				"trans": "[버프] RNG 간섭기"
 			}
 		},
+		"roseBouquet": {
+			"description": {
+				"eng": "A beautifully preserved rose bouquet. A traditional gift that extends the marriage bond by 30 days when given to your partner. A symbol of enduring love even in the digital age.",
+				"trans": "아름답게 보존된 장미 부케입니다. 파트너에게 선물하면 결혼 기간을 30일 연장해 주는 전통적인 선물이에요. 디지털 시대에도 변치 않는 사랑의 상징이죠."
+			},
+			"name": {
+				"eng": "Rose Bouquet",
+				"trans": "장미꽃다발"
+			}
+		},
 		"seashell": {
 			"description": {
 				"eng": "A beautiful seashell that can be used to exchange items with Josie",
@@ -4239,6 +4249,16 @@
 			"name": {
 				"eng": "upper armor",
 				"trans": "상의"
+			}
+		},
+		"weddingRing": {
+			"description": {
+				"eng": "A finely crafted ring recognized by the City Registry. Present this to propose a marriage bond. The license is time-limited under city policy and can be extended by both partners.",
+				"trans": "시청 등기에서 인정받은 정교하게 제작된 반지입니다. 이 반지를 제시해 결혼을 제안하세요. 라이선스는 시 정책에 따라 기간 제한이 있으며, 두 파트너가 함께 연장할 수 있습니다."
+			},
+			"name": {
+				"eng": "Marriage Bond Ring",
+				"trans": "결혼 결속 반지"
 			}
 		}
 	},
@@ -5190,6 +5210,436 @@
 			]
 		}
 	},
+	"marriage": {
+		"accepted": {
+			"eng": "You are now married to ${proposer.getName()}!",
+			"trans": "이제 ${proposer.getName}와 결혼했어요!"
+		},
+		"acceptedProposer": {
+			"eng": "${player.getName()} accepted your proposal! You are now married!",
+			"trans": "${player.getName()}님이 제안을 받아들였습니다! 이제 결혼하셨습니다!"
+		},
+		"anniversary": {
+			"eng": "Anniversary",
+			"trans": "기념일"
+		},
+		"defaultMessage": {
+			"eng": "Will you marry me?",
+			"trans": "나랑 결혼해줄래?"
+		},
+		"defaultVow": {
+			"eng": "Together forever in the digital realm",
+			"trans": "디지털 세계에서 영원히 함께"
+		},
+		"divorce": {
+			"success": {
+				"eng": "Your marriage has been ended.",
+				"trans": "당신의 결혼이 종료되었습니다."
+			}
+		},
+		"error": {
+			"alreadyMarried": {
+				"eng": "You are already married",
+				"trans": "이미 결혼했습니다"
+			},
+			"blocked": {
+				"eng": "You cannot propose to this player",
+				"trans": "이 플레이어에게 청혼할 수 없습니다"
+			},
+			"cannotProposeSelf": {
+				"eng": "You cannot propose to yourself",
+				"trans": "스스로를 프로포즈할 수 없어요"
+			},
+			"cooldown": {
+				"eng": "You must wait ${minutes} more minutes before sending another proposal",
+				"trans": "다른 제안을 보내려면 ${minutes}분을 더 기다려야 합니다"
+			},
+			"deleteWhileMarried": {
+				"eng": "You can't delete your account while married. Please divorce first.",
+				"trans": "결혼 중일 때는 계정을 삭제할 수 없습니다. 먼저 이혼을 해주세요."
+			},
+			"mismatch": {
+				"eng": "Marriage data mismatch",
+				"trans": "결혼 데이터 미스매치"
+			},
+			"noBouquet": {
+				"eng": "You need an ${itemName} to extend your marriage bond.",
+				"trans": "당신의 결혼 바운드를 연장하려면 ${itemName}이 필요합니다.",
+				"vars": [
+					"itemName"
+				]
+			},
+			"noRing": {
+				"eng": "You need an Eternal Bond Ring to propose",
+				"trans": "결혼 제안하려면 영원한 결합 링이 필요합니다"
+			},
+			"partnerNotFound": {
+				"eng": "Your partner could not be found",
+				"trans": "배우자를 찾을 수 없습니다"
+			},
+			"playerNotFound": {
+				"eng": "Player not found",
+				"trans": "플레이어를 찾을 수 없어요"
+			},
+			"proposerAlreadyMarried": {
+				"eng": "The proposer is already married",
+				"trans": "이미 결혼한 상대입니다"
+			},
+			"proposerNotFound": {
+				"eng": "Proposer not found",
+				"trans": "제안자를 찾을 수 없습니다"
+			},
+			"ringMissing": {
+				"eng": "The proposer no longer has the ring",
+				"trans": "청혼자는 이제 반지를 가지고 있지 않습니다"
+			},
+			"targetAlreadyMarried": {
+				"eng": "That player is already married",
+				"trans": "이미 결혼 중인 대상입니다"
+			},
+			"targetMarried": {
+				"eng": "${targetPlayer.getName()} is already married",
+				"trans": "${targetPlayer.getName()}은 이미 결혼했어요"
+			}
+		},
+		"extend": {
+			"announcement": {
+				"eng": "${player1} has gifted an ${itemName} to ${player2}! 🌹💕",
+				"trans": "${player1}이(가) ${player2}한테 ${itemName}을 선물했어요! 🌹💕",
+				"vars": [
+					"player1",
+					"player2",
+					"itemName"
+				]
+			},
+			"success": {
+				"eng": "You've gifted a rose bouquet to ${partner}! Your marriage bond has been extended for another 30 days.",
+				"trans": "${partner}에게 장미 부케를 선물하셨어요! 당신의 결혼 바인드가 추가로 30일 연장되었어요!",
+				"vars": [
+					"partner"
+				]
+			}
+		},
+		"proposalSent": {
+			"eng": "Your marriage proposal has been sent!",
+			"trans": "결혼 제안이 전송되었습니다!"
+		},
+		"proposalSentMail": {
+			"eng": "You have proposed to ${targetName} with an Eternal Bond Ring",
+			"trans": "${targetName}에게 영원한 결합 반지와 함께 청혼했습니다",
+			"vars": [
+				"targetName"
+			]
+		},
+		"propose": {
+			"confirm": {
+				"eng": "Propose",
+				"trans": "제안"
+			},
+			"description": {
+				"eng": "Are you sure you want to propose to ${targetPlayer.getName()}? This will use your Eternal Bond Ring.",
+				"trans": "정말로 ${targetPlayer.getName()}에게 청혼하시겠습니까? 그러면 당신의 영원한 결합 반지가 사용됩니다."
+			},
+			"title": {
+				"eng": "Marriage Proposal",
+				"trans": "결혼 제안"
+			}
+		},
+		"rejected": {
+			"eng": "${player.displayName} has declined your marriage proposal.",
+			"trans": "${player.displayName}님께서 귀하의 결혼 제안을 거절하셨습니다."
+		},
+		"settings": {
+			"backgroundImage": {
+				"eng": "Background Image",
+				"trans": "배경 이미지"
+			},
+			"expired": {
+				"eng": "Marriage has expired",
+				"trans": "결혼 기간이 만료되었습니다"
+			},
+			"expiresIn": {
+				"eng": "Expires in ${days} days (${date})",
+				"trans": "${days}일 후 만료 (날짜: ${date})",
+				"vars": [
+					"days",
+					"date"
+				]
+			},
+			"extendButton": {
+				"eng": "Extend Marriage",
+				"trans": "결혼 연장"
+			},
+			"extendWithBouquet": {
+				"eng": "Gift a Rose Bouquet to extend for ${days} days",
+				"trans": "장미꽃다발을 선물해 ${days}일 연장하기",
+				"vars": [
+					"days"
+				]
+			},
+			"imageHint1": {
+				"eng": "Click to upload a background image",
+				"trans": "배경 사진을 올리려면 눌러 주세요"
+			},
+			"imageHint2": {
+				"eng": "Recommend uplaoding 2:1 ratio image",
+				"trans": "2:1 비율 이미지 업로드를 권장합니다"
+			},
+			"invalidSymbol": {
+				"eng": "Invalid marriage symbol selected",
+				"trans": "선택한 결혼 기호가 올바르지 않음"
+			},
+			"permanent": {
+				"eng": "Permanent marriage",
+				"trans": "영구 결혼"
+			},
+			"saveVow": {
+				"eng": "Save Vow",
+				"trans": "혼약 저장"
+			},
+			"status": {
+				"eng": "Marriage Status",
+				"trans": "결혼 상태"
+			},
+			"symbol": {
+				"eng": "Symbol",
+				"trans": "심볼"
+			},
+			"symbolHint": {
+				"eng": "Choose the emoji shown between your names",
+				"trans": "두 이름 사이에 표시된 이모지를 선택하세요"
+			},
+			"vowNotAllowed": {
+				"eng": "Your vow contains not allowed words",
+				"trans": "당신의 맹세에는 금지된 단어가 포함되어 있습니다"
+			},
+			"vowPhrase": {
+				"eng": "Vow Phrase",
+				"trans": "서약 문구"
+			},
+			"vowPlaceholder": {
+				"eng": "Write your romantic vow here...",
+				"trans": "여기에 당신의 낭만적인 서약을 적어보세요…"
+			},
+			"vowTooLong": {
+				"eng": "Vow phrase must be 64 words or less",
+				"trans": "서약 문구는 64단어 이하여야 합니다"
+			},
+			"wordCount": {
+				"eng": "${count} / 64 words",
+				"trans": "${count} / 64 단어",
+				"vars": [
+					"count"
+				]
+			}
+		},
+		"symbol": {
+			"crown": {
+				"eng": "Royalty",
+				"trans": "왕실"
+			},
+			"cyber": {
+				"eng": "Cyber Love",
+				"trans": "사이버 러브"
+			},
+			"fire": {
+				"eng": "On Fire",
+				"trans": "불타는 중"
+			},
+			"gaming": {
+				"eng": "Player Two",
+				"trans": "플레이어 2"
+			},
+			"heart": {
+				"eng": "Classic Heart",
+				"trans": "클래식 하트"
+			},
+			"infinity": {
+				"eng": "Infinity",
+				"trans": "영원"
+			},
+			"lightning": {
+				"eng": "Electric",
+				"trans": "전기"
+			},
+			"link": {
+				"eng": "Linked",
+				"trans": "연결되었습니다"
+			},
+			"lock": {
+				"eng": "Locked In",
+				"trans": "잠금 완료"
+			},
+			"pizza": {
+				"eng": "Pizza Love",
+				"trans": "피자 사랑"
+			},
+			"potato": {
+				"eng": "Spud Love",
+				"trans": "감자 애정"
+			},
+			"ring": {
+				"eng": "Wedding Ring",
+				"trans": "결혼 반지"
+			},
+			"rocket": {
+				"eng": "To The Moon",
+				"trans": "달까지"
+			},
+			"rose": {
+				"eng": "Rose",
+				"trans": "장미"
+			},
+			"sparkle": {
+				"eng": "Sparkling Heart",
+				"trans": "빛나는 하트"
+			},
+			"target": {
+				"eng": "Perfect Match",
+				"trans": "완벽한 궁합"
+			},
+			"unicorn": {
+				"eng": "Magical",
+				"trans": "마법의"
+			}
+		},
+		"systemAnnouncement": {
+			"eng": "💍 ${player1} and ${player2} have tied the knot! Congratulations to the happy couple! 🎉",
+			"trans": "💍 ${player1}과 ${player2}이 결혼했어요! 사랑스러운 커플에게 큰 박수 🎉",
+			"vars": [
+				"player1",
+				"player2"
+			]
+		},
+		"vow": {
+			"changeNotification": {
+				"eng": "${player} has updated their marriage vow to ${vow}",
+				"trans": "${player} has updated their marriage vow: \"${vow}\"",
+				"vars": [
+					"player",
+					"vow"
+				]
+			},
+			"cooldown": {
+				"eng": "You can update your vow again in ${minutes} minutes",
+				"trans": "${minutes}분 후에 다시 승서를 갱신할 수 있습니다",
+				"vars": [
+					"minutes"
+				]
+			}
+		}
+	},
+	"marriageExtendModal": {
+		"confirmButton": {
+			"eng": "Extend Marriage",
+			"trans": "결혼 연장"
+		},
+		"currentStatus": {
+			"eng": "Current Status",
+			"trans": "현재 상태"
+		},
+		"duration": {
+			"eng": "Duration:",
+			"trans": "기간:"
+		},
+		"expired": {
+			"eng": "Your marriage has expired",
+			"trans": "결혼 기간이 만료되었습니다"
+		},
+		"expiresIn": {
+			"eng": "Expires in ${days} days",
+			"trans": "만료까지 ${days}일 남음",
+			"vars": [
+				"days"
+			]
+		},
+		"expiryDate": {
+			"eng": "Expiry: ${date}",
+			"trans": "만료일: ${date}",
+			"vars": [
+				"date"
+			]
+		},
+		"extensionDetails": {
+			"eng": "Extension Details",
+			"trans": "확장 정보"
+		},
+		"failed": {
+			"eng": "Failed to extend marriage. Please try again.",
+			"trans": "결혼 연장에 실패했습니다. 다시 시도해 주세요."
+		},
+		"newExpiry": {
+			"eng": "New Expiry:",
+			"trans": "새로운 만료일:"
+		},
+		"permanent": {
+			"eng": "Permanent marriage - no extension needed",
+			"trans": "영구 결혼 – 연장 필요 없음"
+		},
+		"requirement": {
+			"eng": "Required:",
+			"trans": "필수 항목:"
+		},
+		"success": {
+			"eng": "You've gifted a rose bouquet! Your bond has been extended.",
+			"trans": "당신은 장미 꽃다발을 선물했어요! 관계가 연장되었습니다."
+		},
+		"timesExtended": {
+			"eng": "Times Extended:",
+			"trans": "연장 횟수:"
+		},
+		"title": {
+			"eng": "Extend Marriage",
+			"trans": "결혼 연장"
+		}
+	},
+	"marriageSttingsPage": {
+		"divorce": {
+			"error": {
+				"eng": "Failed to end marriage. Please try again.",
+				"trans": "결혼 해제에 실패했습니다. 다시 시도해 주세요."
+			}
+		},
+		"divorceButton": {
+			"eng": "End Marriage",
+			"trans": "이혼"
+		},
+		"noChanges": {
+			"eng": "No changes to save",
+			"trans": "저장할 내용이 없습니다"
+		},
+		"notMarried": {
+			"eng": "You are not married",
+			"trans": "미혼입니다"
+		},
+		"saveError": {
+			"eng": "Failed to save settings. Please try again.",
+			"trans": "설정 저장에 실패했습니다. 다시 시도해 주세요."
+		},
+		"saved": {
+			"eng": "Marriage settings saved successfully!",
+			"trans": "결혼 설정이 성공적으로 저장되었습니다!"
+		},
+		"title": {
+			"eng": "Marriage Settings",
+			"trans": "결혼 설정"
+		},
+		"uploadError": {
+			"eng": "Failed to upload image. Please try again.",
+			"trans": "이미지 업로드에 실패했습니다. 다시 시도해주세요."
+		},
+		"uploadSuccess": {
+			"eng": "Image uploaded.",
+			"trans": "이미지 업로드 완료"
+		},
+		"vowTooLong": {
+			"eng": "Vow phrase must be 64 words or less. Current: ${count} words",
+			"trans": "맹세 문구는 64단어 이하이어야 합니다. 현재: ${count} 단어",
+			"vars": [
+				"count"
+			]
+		}
+	},
 	"messageImage": {
 		"hideImage": {
 			"eng": "Hide Image",
@@ -5402,6 +5852,16 @@
 		"level": {
 			"eng": "level",
 			"trans": "레벨"
+		},
+		"marriage": {
+			"accept": {
+				"eng": "Accept",
+				"trans": "수락"
+			},
+			"reject": {
+				"eng": "Reject",
+				"trans": "거절"
+			}
 		},
 		"missing": {
 			"eng": "missing",
@@ -5638,6 +6098,18 @@
 			"title": {
 				"eng": "Unofficial translation",
 				"trans": "비공식 번역"
+			}
+		},
+		"marriageSttingsPage": {
+			"divorce": {
+				"description": {
+					"eng": "This action cannot be undone. Both you and your partner will lose all marriage benefits.",
+					"trans": "이 행위는 되돌릴 수 없습니다. 귀하와 파트너 모두 결혼 혜택을 잃게 됩니다."
+				},
+				"title": {
+					"eng": "Are you sure you want to end the marriage?",
+					"trans": "결혼을 끝내시겠습니까?"
+				}
 			}
 		},
 		"newbieTutorial": {
@@ -6323,7 +6795,8 @@
 			},
 			"defaultLines": {
 				"eng": [
-					"Do you want to buy Units, or use your Units?"
+					"Do you want to buy Units, or use your Units?",
+					"We also have Eternal Bond Rings for those looking to unite with their partner forever."
 				],
 				"trans": [
 					"유닛을 구매하거나 사용하시겠습니까?",
@@ -6839,6 +7312,12 @@
 			"name": {
 				"eng": "Dog",
 				"trans": "개"
+			}
+		},
+		"rabbit": {
+			"name": {
+				"eng": "Rabbit",
+				"trans": "토끼"
 			}
 		}
 	},
@@ -10289,6 +10768,12 @@
 				"trans": "잠금을 해제하려면 PIN코드가 필요합니다"
 			}
 		},
+		"generic": {
+			"days": {
+				"eng": "days",
+				"trans": "일"
+			}
+		},
 		"inventory": {
 			"autoScrap": {
 				"button": {
@@ -11036,6 +11521,34 @@
 				"eng": "location",
 				"trans": "위치"
 			},
+			"marriage": {
+				"cardTitle": {
+					"eng": "Relationship",
+					"trans": "관계"
+				},
+				"devotion": {
+					"eng": "Devotion",
+					"trans": "헌신"
+				},
+				"duration": {
+					"justMarried": {
+						"eng": "Just married!",
+						"trans": "신혼축하!"
+					}
+				},
+				"expiresOn": {
+					"eng": "Expires on",
+					"trans": "만료일"
+				},
+				"marriedFor": {
+					"eng": "Married for",
+					"trans": "결혼 기간"
+				},
+				"settings": {
+					"eng": "Marriage Settings",
+					"trans": "결혼 설정"
+				}
+			},
 			"numOfMember": {
 				"eng": "Number of members",
 				"trans": "갱단 인원"
@@ -11048,6 +11561,10 @@
 				"addToFriend": {
 					"eng": "add to Friend List",
 					"trans": "친구 추가하기"
+				},
+				"alreadyMarried": {
+					"eng": "Already Married",
+					"trans": "이미 결혼"
 				},
 				"block": {
 					"eng": "Block Player",
@@ -11064,6 +11581,14 @@
 				"label": {
 					"eng": "Player Actions",
 					"trans": "플레이어 메뉴"
+				},
+				"proposalCooldown": {
+					"eng": "Proposal on Cooldown",
+					"trans": "제안 대기 중"
+				},
+				"propose": {
+					"eng": "Propose Marriage",
+					"trans": "결혼 제안"
 				},
 				"removeFromFriend": {
 					"eng": "Remove from Friend List",
@@ -11812,6 +12337,10 @@
 			"locations": {
 				"eng": "locations",
 				"trans": "위치"
+			},
+			"marriage": {
+				"eng": "Marriage System",
+				"trans": "결혼 시스템"
 			},
 			"profile": {
 				"eng": "profile",

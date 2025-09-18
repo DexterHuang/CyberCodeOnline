@@ -627,7 +627,7 @@
 	},
 	"basicInfo": {
 		"nameInvalid": {
-			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'",
+			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or '_'",
 			"trans": "ความยาวชื่อต้องสูงกว่า 4 น้อยกว่าหรือเท่ากับ 16 และมีเฉพาะอักขระภาษาอังกฤษตัวเลขหรือ \\ '_ \\'"
 		},
 		"nameProfane": {
@@ -3986,6 +3986,16 @@
 				"trans": "rng interferer"
 			}
 		},
+		"roseBouquet": {
+			"description": {
+				"eng": "A beautifully preserved rose bouquet. A traditional gift that extends the marriage bond by 30 days when given to your partner. A symbol of enduring love even in the digital age.",
+				"trans": "ช่อกุหลาบเก็บรักษาไว้อย่างสวยงาม ของขวัญตามประเพณีที่ให้คุณและคู่ของคุณมีความสัมพันธ์ต่อเนื่องเป็นเวลา 30 วัน สัญลักษณ์แห่งความรักที่ยั่งยืน แม้ในยุคดิจิทัล"
+			},
+			"name": {
+				"eng": "Rose Bouquet",
+				"trans": "กลีบดอกกุหลาบ"
+			}
+		},
 		"seashell": {
 			"description": {
 				"eng": "A beautiful seashell that can be used to exchange items with Josie",
@@ -4239,6 +4249,16 @@
 			"name": {
 				"eng": "upper armor",
 				"trans": "เสื้อเกราะ"
+			}
+		},
+		"weddingRing": {
+			"description": {
+				"eng": "A finely crafted ring recognized by the City Registry. Present this to propose a marriage bond. The license is time-limited under city policy and can be extended by both partners.",
+				"trans": "แหวนที่ถูกสร้างอย่างพิถีพิถันและได้รับการยอมรับจากทะเบียนเมือง ส่งให้เพื่อเสนอขอสมรส ใบอนุญาตมีระยะเวลาจำกัดตามนโยบายของเมือง และสามารถต่ออายุได้โดยทั้งคู่"
+			},
+			"name": {
+				"eng": "Marriage Bond Ring",
+				"trans": "แหวนพันธะสมรส"
 			}
 		}
 	},
@@ -5190,6 +5210,436 @@
 			]
 		}
 	},
+	"marriage": {
+		"accepted": {
+			"eng": "You are now married to ${proposer.getName()}!",
+			"trans": "ตอนนี้คุณแต่งงานกับ ${proposer.getName()} แล้ว!"
+		},
+		"acceptedProposer": {
+			"eng": "${player.getName()} accepted your proposal! You are now married!",
+			"trans": "${player.getName()} ยอมรับข้อเสนอของคุณแล้ว! คุณได้แต่งงานกันเรียบร้อยแล้ว!"
+		},
+		"anniversary": {
+			"eng": "Anniversary",
+			"trans": "วันครบรอบ"
+		},
+		"defaultMessage": {
+			"eng": "Will you marry me?",
+			"trans": "อยากแต่งงานกับฉันไหม?"
+		},
+		"defaultVow": {
+			"eng": "Together forever in the digital realm",
+			"trans": "ยืนหยัดร่วมกันตลอดกาลในโลกดิจิทัล"
+		},
+		"divorce": {
+			"success": {
+				"eng": "Your marriage has been ended.",
+				"trans": "การแต่งงานของคุณได้สิ้นสุดลงแล้ว"
+			}
+		},
+		"error": {
+			"alreadyMarried": {
+				"eng": "You are already married",
+				"trans": "คุณได้แต่งงานแล้ว"
+			},
+			"blocked": {
+				"eng": "You cannot propose to this player",
+				"trans": "คุณไม่สามารถขอแต่งงานกับผู้เล่นนี้ได้"
+			},
+			"cannotProposeSelf": {
+				"eng": "You cannot propose to yourself",
+				"trans": "คุณไม่สามารถขอแต่งงานกับตัวเองได้"
+			},
+			"cooldown": {
+				"eng": "You must wait ${minutes} more minutes before sending another proposal",
+				"trans": "รอ ${minutes} นาทีก่อนจะเสนอคำขออีกครั้ง"
+			},
+			"deleteWhileMarried": {
+				"eng": "You can't delete your account while married. Please divorce first.",
+				"trans": "คุณไม่สามารถลบบัญชีได้ในขณะแต่งงาน กรุณาเลิกสมรสก่อน"
+			},
+			"mismatch": {
+				"eng": "Marriage data mismatch",
+				"trans": "ข้อมูลการสมรสไม่ตรงกัน"
+			},
+			"noBouquet": {
+				"eng": "You need an ${itemName} to extend your marriage bond.",
+				"trans": "คุณต้องมี ${itemName} เพื่อยืดอายุของความสัมพันธ์การแต่งงานของคุณ",
+				"vars": [
+					"itemName"
+				]
+			},
+			"noRing": {
+				"eng": "You need an Eternal Bond Ring to propose",
+				"trans": "คุณต้องมีแหวนความสัมพันธ์นิรันดร์เพื่อขอแต่งงาน"
+			},
+			"partnerNotFound": {
+				"eng": "Your partner could not be found",
+				"trans": "ไม่พบคู่ของคุณ"
+			},
+			"playerNotFound": {
+				"eng": "Player not found",
+				"trans": "ไม่พบผู้เล่น"
+			},
+			"proposerAlreadyMarried": {
+				"eng": "The proposer is already married",
+				"trans": "ผู้เสนอตัวได้แต่งงานแล้ว"
+			},
+			"proposerNotFound": {
+				"eng": "Proposer not found",
+				"trans": "ผู้เสนอไม่พบ"
+			},
+			"ringMissing": {
+				"eng": "The proposer no longer has the ring",
+				"trans": "ผู้ที่เสนอคำขอยังไม่มีกำไล"
+			},
+			"targetAlreadyMarried": {
+				"eng": "That player is already married",
+				"trans": "ผู้เล่นคนนั้นได้แต่งงานแล้ว"
+			},
+			"targetMarried": {
+				"eng": "${targetPlayer.getName()} is already married",
+				"trans": "${targetPlayer.getName()} ได้แต่งงานแล้ว"
+			}
+		},
+		"extend": {
+			"announcement": {
+				"eng": "${player1} has gifted an ${itemName} to ${player2}! 🌹💕",
+				"trans": "${player1} ได้มอบของขวัญ ${itemName} ให้กับ ${player2}! 🌹💕",
+				"vars": [
+					"player1",
+					"player2",
+					"itemName"
+				]
+			},
+			"success": {
+				"eng": "You've gifted a rose bouquet to ${partner}! Your marriage bond has been extended for another 30 days.",
+				"trans": "คุณได้มอบกลีบดอกกุหลาบให้ ${partner}! สัญญาแต่งงานของคุณได้รับการต่ออายุอีก 30 วัน",
+				"vars": [
+					"partner"
+				]
+			}
+		},
+		"proposalSent": {
+			"eng": "Your marriage proposal has been sent!",
+			"trans": "ข้อเสนอแต่งงานของคุณได้ถูกส่งแล้ว!"
+		},
+		"proposalSentMail": {
+			"eng": "You have proposed to ${targetName} with an Eternal Bond Ring",
+			"trans": "คุณได้ทำการเสนอตัวให้กับ ${targetName} พร้อมแหวนพันธะนิรันดร์",
+			"vars": [
+				"targetName"
+			]
+		},
+		"propose": {
+			"confirm": {
+				"eng": "Propose",
+				"trans": "ขอแต่งงาน"
+			},
+			"description": {
+				"eng": "Are you sure you want to propose to ${targetPlayer.getName()}? This will use your Eternal Bond Ring.",
+				"trans": "คุณแน่ใจหรือไม่ว่าต้องการขอแต่งงานกับ ${targetPlayer.getName()}? การทำเช่นนี้จะใช้แหวนพันธะนิรันดร์ของคุณ"
+			},
+			"title": {
+				"eng": "Marriage Proposal",
+				"trans": "ข้อเสนอแต่งงาน"
+			}
+		},
+		"rejected": {
+			"eng": "${player.displayName} has declined your marriage proposal.",
+			"trans": "${player.displayName} ปฏิเสธข้อเสนอแต่งงานของคุณ."
+		},
+		"settings": {
+			"backgroundImage": {
+				"eng": "Background Image",
+				"trans": "รูปพื้นหลัง"
+			},
+			"expired": {
+				"eng": "Marriage has expired",
+				"trans": "การสมรสของคุณหมดอายุแล้ว"
+			},
+			"expiresIn": {
+				"eng": "Expires in ${days} days (${date})",
+				"trans": "หมดอายุใน ${days} วัน (${date})",
+				"vars": [
+					"days",
+					"date"
+				]
+			},
+			"extendButton": {
+				"eng": "Extend Marriage",
+				"trans": "ต่ออายุคู่สมรส"
+			},
+			"extendWithBouquet": {
+				"eng": "Gift a Rose Bouquet to extend for ${days} days",
+				"trans": "มอบกุหลาบแหวนเพื่อยืดอายุต่อไปอีก ${days} วัน",
+				"vars": [
+					"days"
+				]
+			},
+			"imageHint1": {
+				"eng": "Click to upload a background image",
+				"trans": "คลิกเพื่ออัปโหลดภาพพื้นหลัง"
+			},
+			"imageHint2": {
+				"eng": "Recommend uplaoding 2:1 ratio image",
+				"trans": "กรุณาอัปโหลดภาพตามสัดส่วน 2:1"
+			},
+			"invalidSymbol": {
+				"eng": "Invalid marriage symbol selected",
+				"trans": "สัญลักษณ์การแต่งงานที่เลือกไม่ถูกต้อง"
+			},
+			"permanent": {
+				"eng": "Permanent marriage",
+				"trans": "สมรสถาวร"
+			},
+			"saveVow": {
+				"eng": "Save Vow",
+				"trans": "บันทึกคำสาบาน"
+			},
+			"status": {
+				"eng": "Marriage Status",
+				"trans": "สถานะการแต่งงาน"
+			},
+			"symbol": {
+				"eng": "Symbol",
+				"trans": "สัญลักษณ์"
+			},
+			"symbolHint": {
+				"eng": "Choose the emoji shown between your names",
+				"trans": "เลือกอิโมจิที่แสดงระหว่างชื่อของคุณ"
+			},
+			"vowNotAllowed": {
+				"eng": "Your vow contains not allowed words",
+				"trans": "คำสาบานของคุณมีคำที่ไม่ได้รับอนุญาต"
+			},
+			"vowPhrase": {
+				"eng": "Vow Phrase",
+				"trans": "วลีสัญญา"
+			},
+			"vowPlaceholder": {
+				"eng": "Write your romantic vow here...",
+				"trans": "เขียนคำสาบานรักของคุณที่นี่…"
+			},
+			"vowTooLong": {
+				"eng": "Vow phrase must be 64 words or less",
+				"trans": "คำสาบานต้องมีไม่เกิน 64 คำ"
+			},
+			"wordCount": {
+				"eng": "${count} / 64 words",
+				"trans": "คำ ${count}/64",
+				"vars": [
+					"count"
+				]
+			}
+		},
+		"symbol": {
+			"crown": {
+				"eng": "Royalty",
+				"trans": "ราชา"
+			},
+			"cyber": {
+				"eng": "Cyber Love",
+				"trans": "ความรักไซบอร์"
+			},
+			"fire": {
+				"eng": "On Fire",
+				"trans": "ติดไฟ"
+			},
+			"gaming": {
+				"eng": "Player Two",
+				"trans": "ผู้เล่นสอง"
+			},
+			"heart": {
+				"eng": "Classic Heart",
+				"trans": "หัวใจคลาสสิก"
+			},
+			"infinity": {
+				"eng": "Infinity",
+				"trans": "นิรันดร์"
+			},
+			"lightning": {
+				"eng": "Electric",
+				"trans": "ไฟฟ้า"
+			},
+			"link": {
+				"eng": "Linked",
+				"trans": "เชื่อมโยง"
+			},
+			"lock": {
+				"eng": "Locked In",
+				"trans": "ล็อคแล้ว"
+			},
+			"pizza": {
+				"eng": "Pizza Love",
+				"trans": "รักพิซซ่า"
+			},
+			"potato": {
+				"eng": "Spud Love",
+				"trans": "รักมันฝรั่ง"
+			},
+			"ring": {
+				"eng": "Wedding Ring",
+				"trans": "แหวนแต่งงาน"
+			},
+			"rocket": {
+				"eng": "To The Moon",
+				"trans": "สู่ดวงจันทร์"
+			},
+			"rose": {
+				"eng": "Rose",
+				"trans": "กุหลาบ"
+			},
+			"sparkle": {
+				"eng": "Sparkling Heart",
+				"trans": "หัวใจส่องแสง"
+			},
+			"target": {
+				"eng": "Perfect Match",
+				"trans": "คู่สมบูรณ์"
+			},
+			"unicorn": {
+				"eng": "Magical",
+				"trans": "มหัศจรรย์"
+			}
+		},
+		"systemAnnouncement": {
+			"eng": "💍 ${player1} and ${player2} have tied the knot! Congratulations to the happy couple! 🎉",
+			"trans": "💍 ${player1} และ ${player2} ได้จัดการแต่งงานกันแล้ว! ขอแสดงความยินดีกับคู่รักที่มีความสุข 🎉",
+			"vars": [
+				"player1",
+				"player2"
+			]
+		},
+		"vow": {
+			"changeNotification": {
+				"eng": "${player} has updated their marriage vow to ${vow}",
+				"trans": "${player} has updated their marriage vow: \"${vow}\"",
+				"vars": [
+					"player",
+					"vow"
+				]
+			},
+			"cooldown": {
+				"eng": "You can update your vow again in ${minutes} minutes",
+				"trans": "คุณสามารถอัปเดตสัญญาอีกครั้งได้ในอีก ${minutes} นาที",
+				"vars": [
+					"minutes"
+				]
+			}
+		}
+	},
+	"marriageExtendModal": {
+		"confirmButton": {
+			"eng": "Extend Marriage",
+			"trans": "ต่ออายุคู่สมรส"
+		},
+		"currentStatus": {
+			"eng": "Current Status",
+			"trans": "สถานะปัจจุบัน"
+		},
+		"duration": {
+			"eng": "Duration:",
+			"trans": "ระยะเวลา:"
+		},
+		"expired": {
+			"eng": "Your marriage has expired",
+			"trans": "การแต่งงานของคุณหมดอายุแล้ว"
+		},
+		"expiresIn": {
+			"eng": "Expires in ${days} days",
+			"trans": "หมดอายุในอีก ${days} วัน",
+			"vars": [
+				"days"
+			]
+		},
+		"expiryDate": {
+			"eng": "Expiry: ${date}",
+			"trans": "หมดอายุ: ${date}",
+			"vars": [
+				"date"
+			]
+		},
+		"extensionDetails": {
+			"eng": "Extension Details",
+			"trans": "ข้อมูลการต่ออายุ"
+		},
+		"failed": {
+			"eng": "Failed to extend marriage. Please try again.",
+			"trans": "ไม่สำเร็จในการต่ออายุการสมรส กรุณาลองอีกครั้ง"
+		},
+		"newExpiry": {
+			"eng": "New Expiry:",
+			"trans": "หมดอายุใหม่:"
+		},
+		"permanent": {
+			"eng": "Permanent marriage - no extension needed",
+			"trans": "การแต่งงานถาวร – ไม่ต้องต่ออายุ"
+		},
+		"requirement": {
+			"eng": "Required:",
+			"trans": "จำเป็น:"
+		},
+		"success": {
+			"eng": "You've gifted a rose bouquet! Your bond has been extended.",
+			"trans": "คุณได้มอบกลีบดอกกุหลาบ! ความสัมพันธ์ของคุณได้รับการขยายขึ้น"
+		},
+		"timesExtended": {
+			"eng": "Times Extended:",
+			"trans": "จำนวนครั้งที่ขยาย:"
+		},
+		"title": {
+			"eng": "Extend Marriage",
+			"trans": "ต่ออายุคู่สมรส"
+		}
+	},
+	"marriageSttingsPage": {
+		"divorce": {
+			"error": {
+				"eng": "Failed to end marriage. Please try again.",
+				"trans": "ไม่สามารถยกเลิกการสมรสได้ กรุณาลองใหม่อีกครั้ง"
+			}
+		},
+		"divorceButton": {
+			"eng": "End Marriage",
+			"trans": "ยกเลิกการสมรส"
+		},
+		"noChanges": {
+			"eng": "No changes to save",
+			"trans": "ไม่มีการเปลี่ยนแปลงที่ต้องบันทึก"
+		},
+		"notMarried": {
+			"eng": "You are not married",
+			"trans": "คุณยังไม่ได้แต่งงาน"
+		},
+		"saveError": {
+			"eng": "Failed to save settings. Please try again.",
+			"trans": "ไม่สามารถบันทึกการตั้งค่าได้ กรุณาลองอีกครั้ง"
+		},
+		"saved": {
+			"eng": "Marriage settings saved successfully!",
+			"trans": "บันทึกการตั้งค่าแต่งงานเรียบร้อยแล้ว!"
+		},
+		"title": {
+			"eng": "Marriage Settings",
+			"trans": "ตั้งค่าแต่งงาน"
+		},
+		"uploadError": {
+			"eng": "Failed to upload image. Please try again.",
+			"trans": "ไม่สามารถอัปโหลดรูปได้ กรุณาลองใหม่อีกครั้ง"
+		},
+		"uploadSuccess": {
+			"eng": "Image uploaded.",
+			"trans": "รูปถูกอัปโหลดแล้ว"
+		},
+		"vowTooLong": {
+			"eng": "Vow phrase must be 64 words or less. Current: ${count} words",
+			"trans": "คำสาบานต้องไม่เกิน 64 คำ — ปัจจุบัน: ${count} คำ",
+			"vars": [
+				"count"
+			]
+		}
+	},
 	"messageImage": {
 		"hideImage": {
 			"eng": "Hide Image",
@@ -5281,7 +5731,7 @@
 			"fail": {
 				"description": {
 					"eng": "The transmission encrypted itself. Try again.",
-					"trans": "The transmission encrypted itself. Try again."
+					"trans": "สัญญาณได้เข้ารหัสด้วยตนเอง ลองใหม่อีกครั้ง"
 				},
 				"title": {
 					"eng": "Signal Lost",
@@ -5298,7 +5748,7 @@
 			},
 			"progress": {
 				"eng": "Bands Intercepted",
-				"trans": "Bands Intercepted"
+				"trans": "แบนด์ที่ถูกยึด"
 			},
 			"retry": {
 				"eng": "Retry Interception",
@@ -5402,6 +5852,16 @@
 		"level": {
 			"eng": "level",
 			"trans": "ระดับ"
+		},
+		"marriage": {
+			"accept": {
+				"eng": "Accept",
+				"trans": "ยอมรับ"
+			},
+			"reject": {
+				"eng": "Reject",
+				"trans": "ปฏิเสธ"
+			}
 		},
 		"missing": {
 			"eng": "missing",
@@ -5638,6 +6098,18 @@
 			"title": {
 				"eng": "Unofficial translation",
 				"trans": "แปลอย่างไม่เป็นทางการ"
+			}
+		},
+		"marriageSttingsPage": {
+			"divorce": {
+				"description": {
+					"eng": "This action cannot be undone. Both you and your partner will lose all marriage benefits.",
+					"trans": "การกระทำนี้ไม่สามารถยกเลิกได้ ทั้งคุณและคู่สมรสของคุณจะสูญเสียสิทธิประโยชน์ทั้งหมดจากการแต่งงาน"
+				},
+				"title": {
+					"eng": "Are you sure you want to end the marriage?",
+					"trans": "คุณแน่ใจว่าต้องการยุติสมรส?"
+				}
 			}
 		},
 		"newbieTutorial": {
@@ -6242,7 +6714,8 @@
 			},
 			"defaultLines": {
 				"eng": [
-					"Do you want to buy Units, or use your Units?"
+					"Do you want to buy Units, or use your Units?",
+					"We also have Eternal Bond Rings for those looking to unite with their partner forever."
 				],
 				"trans": [
 					"คุณต้องการซื้อยูนิตหรือใช้ยูนิตของคุณเอง?"
@@ -6730,6 +7203,12 @@
 			"name": {
 				"eng": "Dog",
 				"trans": "หมา"
+			}
+		},
+		"rabbit": {
+			"name": {
+				"eng": "Rabbit",
+				"trans": "กระต่าย"
 			}
 		}
 	},
@@ -10180,6 +10659,12 @@
 				"trans": "จำเป็นต้องใช้ รหัส PIN ปลดล็อค"
 			}
 		},
+		"generic": {
+			"days": {
+				"eng": "days",
+				"trans": "วัน"
+			}
+		},
 		"inventory": {
 			"autoScrap": {
 				"button": {
@@ -10927,6 +11412,34 @@
 				"eng": "location",
 				"trans": "สถานที่"
 			},
+			"marriage": {
+				"cardTitle": {
+					"eng": "Relationship",
+					"trans": "ความสัมพันธ์"
+				},
+				"devotion": {
+					"eng": "Devotion",
+					"trans": "ความภักดี"
+				},
+				"duration": {
+					"justMarried": {
+						"eng": "Just married!",
+						"trans": "เพิ่งแต่งงานแล้ว!"
+					}
+				},
+				"expiresOn": {
+					"eng": "Expires on",
+					"trans": "หมดอายุเมื่อ"
+				},
+				"marriedFor": {
+					"eng": "Married for",
+					"trans": "แต่งงานมา"
+				},
+				"settings": {
+					"eng": "Marriage Settings",
+					"trans": "ตั้งค่าแต่งงาน"
+				}
+			},
 			"numOfMember": {
 				"eng": "Number of members",
 				"trans": "จำนวนสมาชิก"
@@ -10939,6 +11452,10 @@
 				"addToFriend": {
 					"eng": "add to Friend List",
 					"trans": "เพิ่มลงในรายชื่อเพื่อน"
+				},
+				"alreadyMarried": {
+					"eng": "Already Married",
+					"trans": "มีคู่แล้ว"
 				},
 				"block": {
 					"eng": "Block Player",
@@ -10955,6 +11472,14 @@
 				"label": {
 					"eng": "Player Actions",
 					"trans": "การกระทำทางผู้เล่น"
+				},
+				"proposalCooldown": {
+					"eng": "Proposal on Cooldown",
+					"trans": "ข้อเสนอยังอยู่ระยะเยือกแข็ง"
+				},
+				"propose": {
+					"eng": "Propose Marriage",
+					"trans": "ขอแต่งงาน"
 				},
 				"removeFromFriend": {
 					"eng": "Remove from Friend List",
@@ -11703,6 +12228,10 @@
 			"locations": {
 				"eng": "locations",
 				"trans": "สถานที่ตั้ง"
+			},
+			"marriage": {
+				"eng": "Marriage System",
+				"trans": "ระบบสมรส"
 			},
 			"profile": {
 				"eng": "profile",

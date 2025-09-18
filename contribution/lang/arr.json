@@ -627,7 +627,7 @@
 	},
 	"basicInfo": {
 		"nameInvalid": {
-			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'",
+			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or '_'",
 			"trans": "Yer handle needs t' be more'n 4 letters, but no more'n 16! An' be made o' letters, numbers, or that underscore '_', savvy?"
 		},
 		"nameProfane": {
@@ -3986,6 +3986,16 @@
 				"trans": "The Bilge Rat's Gambit"
 			}
 		},
+		"roseBouquet": {
+			"description": {
+				"eng": "A beautifully preserved rose bouquet. A traditional gift that extends the marriage bond by 30 days when given to your partner. A symbol of enduring love even in the digital age.",
+				"trans": "A grandly kept rose bouquet, matey! A classic gift that stretches yer marriage bond by 30 days when ye hand it over to yer partner. A true emblem o' steadfast love even in the digital age."
+			},
+			"name": {
+				"eng": "Rose Bouquet",
+				"trans": "Arrr! The Crimson Bloom"
+			}
+		},
 		"seashell": {
 			"description": {
 				"eng": "A beautiful seashell that can be used to exchange items with Josie",
@@ -4239,6 +4249,16 @@
 			"name": {
 				"eng": "upper armor",
 				"trans": "upperr armorrr"
+			}
+		},
+		"weddingRing": {
+			"description": {
+				"eng": "A finely crafted ring recognized by the City Registry. Present this to propose a marriage bond. The license is time-limited under city policy and can be extended by both partners.",
+				"trans": "A finely crafted ring, aye, marked by the City Registry. Hand it over when ye wish to tie the knot. The license's got a ticking clock per city law, but both mates can renew it if they be true partners."
+			},
+			"name": {
+				"eng": "Marriage Bond Ring",
+				"trans": "Arrr‑Bonded Marri‑Ring"
 			}
 		}
 	},
@@ -5190,6 +5210,436 @@
 			]
 		}
 	},
+	"marriage": {
+		"accepted": {
+			"eng": "You are now married to ${proposer.getName()}!",
+			"trans": "Aye, ye've tied the knot with ${proposer.getName()}!"
+		},
+		"acceptedProposer": {
+			"eng": "${player.getName()} accepted your proposal! You are now married!",
+			"trans": "Arrr, ${player.getName()} be acceptin’ yer betrothal! Ye’re bound in marriage now, matey!"
+		},
+		"anniversary": {
+			"eng": "Anniversary",
+			"trans": "Ahoy! The Anniversary"
+		},
+		"defaultMessage": {
+			"eng": "Will you marry me?",
+			"trans": "Will ye be set on a lifelong bond with me, matey?"
+		},
+		"defaultVow": {
+			"eng": "Together forever in the digital realm",
+			"trans": "Together forever in the digital realm"
+		},
+		"divorce": {
+			"success": {
+				"eng": "Your marriage has been ended.",
+				"trans": "Arr, yer weddin' be finished, matey."
+			}
+		},
+		"error": {
+			"alreadyMarried": {
+				"eng": "You are already married",
+				"trans": "You be already bound in matrimony, ye scallywag"
+			},
+			"blocked": {
+				"eng": "You cannot propose to this player",
+				"trans": "You can't be makin’ a proposal to that scallywag"
+			},
+			"cannotProposeSelf": {
+				"eng": "You cannot propose to yourself",
+				"trans": "You can't be asking yer own heart for a match, matey!"
+			},
+			"cooldown": {
+				"eng": "You must wait ${minutes} more minutes before sending another proposal",
+				"trans": "Avast! Wait ${minutes} minutes afore ye pop the question again"
+			},
+			"deleteWhileMarried": {
+				"eng": "You can't delete your account while married. Please divorce first.",
+				"trans": "You cannot scuttle yer account whilst bound in marriage—first ye must break the bond and set sail alone!"
+			},
+			"mismatch": {
+				"eng": "Marriage data mismatch",
+				"trans": "Arr! Yer marriage data be mismatched!"
+			},
+			"noBouquet": {
+				"eng": "You need an ${itemName} to extend your marriage bond.",
+				"trans": "You’ll need a ${itemName} to keep the shipshape of yer marriage bond.",
+				"vars": [
+					"itemName"
+				]
+			},
+			"noRing": {
+				"eng": "You need an Eternal Bond Ring to propose",
+				"trans": "You gotta snag yourself an Eternal Bond Ring before you can pop the big question, ye scallywag!"
+			},
+			"partnerNotFound": {
+				"eng": "Your partner could not be found",
+				"trans": "Your scallywag could not be located"
+			},
+			"playerNotFound": {
+				"eng": "Player not found",
+				"trans": "Aye, no player be found aboard yer ship"
+			},
+			"proposerAlreadyMarried": {
+				"eng": "The proposer is already married",
+				"trans": "Aye, that scallywag be already betrothed to another!"
+			},
+			"proposerNotFound": {
+				"eng": "Proposer not found",
+				"trans": "Aye, no matey named that yer looking for"
+			},
+			"ringMissing": {
+				"eng": "The proposer no longer has the ring",
+				"trans": "The proposer be outta the ring now, yarrr"
+			},
+			"targetAlreadyMarried": {
+				"eng": "That player is already married",
+				"trans": "That scallywag’s already bound to another!"
+			},
+			"targetMarried": {
+				"eng": "${targetPlayer.getName()} is already married",
+				"trans": "${targetPlayer.getName()} be already tied to a matey"
+			}
+		},
+		"extend": {
+			"announcement": {
+				"eng": "${player1} has gifted an ${itemName} to ${player2}! 🌹💕",
+				"trans": "${player1} be bestowin’ a fine ${itemName} to ${player2}! 🌹💕",
+				"vars": [
+					"player1",
+					"player2",
+					"itemName"
+				]
+			},
+			"success": {
+				"eng": "You've gifted a rose bouquet to ${partner}! Your marriage bond has been extended for another 30 days.",
+				"trans": "Arr, ye've gifted a rose bouquet to ${partner}! Yer marriage bond's be stretched for another 30 days.",
+				"vars": [
+					"partner"
+				]
+			}
+		},
+		"proposalSent": {
+			"eng": "Your marriage proposal has been sent!",
+			"trans": "Your marriage proposal be sendin’ across the seven seas!"
+		},
+		"proposalSentMail": {
+			"eng": "You have proposed to ${targetName} with an Eternal Bond Ring",
+			"trans": "You’ve sent a proposal to ${targetName} with an Eternal Bond Ring, matey!",
+			"vars": [
+				"targetName"
+			]
+		},
+		"propose": {
+			"confirm": {
+				"eng": "Propose",
+				"trans": "Hoist the Proposal!"
+			},
+			"description": {
+				"eng": "Are you sure you want to propose to ${targetPlayer.getName()}? This will use your Eternal Bond Ring.",
+				"trans": "Arr, ye ready t' offer yer heart to ${targetPlayer.getName()}? This’ll tie ye with yer Eternal Bond Ring."
+			},
+			"title": {
+				"eng": "Marriage Proposal",
+				"trans": "Propose to Ye, Matey"
+			}
+		},
+		"rejected": {
+			"eng": "${player.displayName} has declined your marriage proposal.",
+			"trans": "${player.displayName} tossed your marriage offer overboard."
+		},
+		"settings": {
+			"backgroundImage": {
+				"eng": "Background Image",
+				"trans": "Back-Deck Picture"
+			},
+			"expired": {
+				"eng": "Marriage has expired",
+				"trans": "That weddin’’s gone to sea"
+			},
+			"expiresIn": {
+				"eng": "Expires in ${days} days (${date})",
+				"trans": "Arr! Ye have ${days} days left till the contract be dead, matey – deadline set for ${date}",
+				"vars": [
+					"days",
+					"date"
+				]
+			},
+			"extendButton": {
+				"eng": "Extend Marriage",
+				"trans": "Lengthen Yer Union"
+			},
+			"extendWithBouquet": {
+				"eng": "Gift a Rose Bouquet to extend for ${days} days",
+				"trans": "Bestow a Rose Bouquet and stretch yer bond by ${days} days, yarrr!",
+				"vars": [
+					"days"
+				]
+			},
+			"imageHint1": {
+				"eng": "Click to upload a background image",
+				"trans": "Arr! Click t’ upload yer deck’s backdrop!"
+			},
+			"imageHint2": {
+				"eng": "Recommend uplaoding 2:1 ratio image",
+				"trans": "Avast! Upload a 2:1 ratio image, matey"
+			},
+			"invalidSymbol": {
+				"eng": "Invalid marriage symbol selected",
+				"trans": "Arr! Ye've chosen a wrong weddin' sig'n, matey!"
+			},
+			"permanent": {
+				"eng": "Permanent marriage",
+				"trans": "Aye, make this union forever"
+			},
+			"saveVow": {
+				"eng": "Save Vow",
+				"trans": "Store Ye Promise"
+			},
+			"status": {
+				"eng": "Marriage Status",
+				"trans": "Arrr! Marryin’ Mettle"
+			},
+			"symbol": {
+				"eng": "Symbol",
+				"trans": "Jolly Roger"
+			},
+			"symbolHint": {
+				"eng": "Choose the emoji shown between your names",
+				"trans": "Choose the emoji that’ll sit between yer monikers, matey!"
+			},
+			"vowNotAllowed": {
+				"eng": "Your vow contains not allowed words",
+				"trans": "Avast! Yer vow’s packed with disallowed lingo!"
+			},
+			"vowPhrase": {
+				"eng": "Vow Phrase",
+				"trans": "Arrr! Ye be sayin’ “Vow Phrase” in the high seas tongue? Aye, let’s make it proper pirate lingo: \"Swearin' Words\" or \"Oath of the Deck\" or simply \"Pirate Pledge.\" The best fit for a game UI setting would be \"Pirate Pledge.\""
+			},
+			"vowPlaceholder": {
+				"eng": "Write your romantic vow here...",
+				"trans": "Arrr, pen yer love pledge herin'..."
+			},
+			"vowTooLong": {
+				"eng": "Vow phrase must be 64 words or less",
+				"trans": "Ye gotta keep yer vow under 64 words, matey!"
+			},
+			"wordCount": {
+				"eng": "${count} / 64 words",
+				"trans": "${count} / 64 words",
+				"vars": [
+					"count"
+				]
+			}
+		},
+		"symbol": {
+			"crown": {
+				"eng": "Royalty",
+				"trans": "Arrr‑royal"
+			},
+			"cyber": {
+				"eng": "Cyber Love",
+				"trans": "Cyber Matey Love"
+			},
+			"fire": {
+				"eng": "On Fire",
+				"trans": "Aye, Ablaze!"
+			},
+			"gaming": {
+				"eng": "Player Two",
+				"trans": "Second Mate"
+			},
+			"heart": {
+				"eng": "Classic Heart",
+				"trans": "Ye Olde Heart"
+			},
+			"infinity": {
+				"eng": "Infinity",
+				"trans": "Ye Never-Ending"
+			},
+			"lightning": {
+				"eng": "Electric",
+				"trans": "Electri'"
+			},
+			"link": {
+				"eng": "Linked",
+				"trans": "Arrr‑linked"
+			},
+			"lock": {
+				"eng": "Locked In",
+				"trans": "Locked Tight, Matey!"
+			},
+			"pizza": {
+				"eng": "Pizza Love",
+				"trans": "Pizzarr Love"
+			},
+			"potato": {
+				"eng": "Spud Love",
+				"trans": "Love ’n’ Spuds, Matey!"
+			},
+			"ring": {
+				"eng": "Wedding Ring",
+				"trans": "Shipmate’s Signet"
+			},
+			"rocket": {
+				"eng": "To The Moon",
+				"trans": "To the moon, ye scallywags!"
+			},
+			"rose": {
+				"eng": "Rose",
+				"trans": "Red Bloom"
+			},
+			"sparkle": {
+				"eng": "Sparkling Heart",
+				"trans": "Shiny Treasure‑Heart"
+			},
+			"target": {
+				"eng": "Perfect Match",
+				"trans": "Aye, Ye’re a Perfect Mate"
+			},
+			"unicorn": {
+				"eng": "Magical",
+				"trans": "Argh, that be a magical thing!"
+			}
+		},
+		"systemAnnouncement": {
+			"eng": "💍 ${player1} and ${player2} have tied the knot! Congratulations to the happy couple! 🎉",
+			"trans": "Shiver me timbers! ${player1} and ${player2} have sealed their bond! Cheers to the happy pair, mateys!",
+			"vars": [
+				"player1",
+				"player2"
+			]
+		},
+		"vow": {
+			"changeNotification": {
+				"eng": "${player} has updated their marriage vow to ${vow}",
+				"trans": "${player} has updated their marriage vow: \"${vow}\"",
+				"vars": [
+					"player",
+					"vow"
+				]
+			},
+			"cooldown": {
+				"eng": "You can update your vow again in ${minutes} minutes",
+				"trans": "You can set yer next vow in ${minutes} minutes, matey",
+				"vars": [
+					"minutes"
+				]
+			}
+		}
+	},
+	"marriageExtendModal": {
+		"confirmButton": {
+			"eng": "Extend Marriage",
+			"trans": "Lengthen Yer Union"
+		},
+		"currentStatus": {
+			"eng": "Current Status",
+			"trans": "Avast! Yer Current Status"
+		},
+		"duration": {
+			"eng": "Duration:",
+			"trans": "Durashun:"
+		},
+		"expired": {
+			"eng": "Your marriage has expired",
+			"trans": "Your ship's love be gone ashore"
+		},
+		"expiresIn": {
+			"eng": "Expires in ${days} days",
+			"trans": "Shiver me timbers! Ye’ve got ${days} days left!",
+			"vars": [
+				"days"
+			]
+		},
+		"expiryDate": {
+			"eng": "Expiry: ${date}",
+			"trans": "Arr! Expiry: ${date}",
+			"vars": [
+				"date"
+			]
+		},
+		"extensionDetails": {
+			"eng": "Extension Details",
+			"trans": "Arr! Extendin’ Details"
+		},
+		"failed": {
+			"eng": "Failed to extend marriage. Please try again.",
+			"trans": "Yarr! Marriage extendin' went awry. Give it another shot."
+		},
+		"newExpiry": {
+			"eng": "New Expiry:",
+			"trans": "Renewed Expiry, Ahoy!"
+		},
+		"permanent": {
+			"eng": "Permanent marriage - no extension needed",
+			"trans": "Arr! Aye, a permanent bond—no need for any more swashbucklin’ extensions"
+		},
+		"requirement": {
+			"eng": "Required:",
+			"trans": "Ye Need:"
+		},
+		"success": {
+			"eng": "You've gifted a rose bouquet! Your bond has been extended.",
+			"trans": "Ye’ve gifted a bouquet o’ roses! Yer bond be stretched farther."
+		},
+		"timesExtended": {
+			"eng": "Times Extended:",
+			"trans": "Yer voyage's been lengthened a time or two, mate!"
+		},
+		"title": {
+			"eng": "Extend Marriage",
+			"trans": "Lengthen Yer Union"
+		}
+	},
+	"marriageSttingsPage": {
+		"divorce": {
+			"error": {
+				"eng": "Failed to end marriage. Please try again.",
+				"trans": "Arrr! The marriage couldn’t be ended. Give it another go, matey."
+			}
+		},
+		"divorceButton": {
+			"eng": "End Marriage",
+			"trans": "Aye, Split Ye Hooked Matey"
+		},
+		"noChanges": {
+			"eng": "No changes to save",
+			"trans": "No new changes to set sail with"
+		},
+		"notMarried": {
+			"eng": "You are not married",
+			"trans": "You be no matey yet"
+		},
+		"saveError": {
+			"eng": "Failed to save settings. Please try again.",
+			"trans": "Shiver me timbers! Settings failed to save. Try again."
+		},
+		"saved": {
+			"eng": "Marriage settings saved successfully!",
+			"trans": "Arrr! Ye've secured yer marriage settings like a proper treasure map—successfully set, matey!"
+		},
+		"title": {
+			"eng": "Marriage Settings",
+			"trans": "Aye, Marrying Arrangements"
+		},
+		"uploadError": {
+			"eng": "Failed to upload image. Please try again.",
+			"trans": "Arrr! Failed t' upload yer image. Try again, ye scallywag!"
+		},
+		"uploadSuccess": {
+			"eng": "Image uploaded.",
+			"trans": "Arrr! The image be successfully uploaded."
+		},
+		"vowTooLong": {
+			"eng": "Vow phrase must be 64 words or less. Current: ${count} words",
+			"trans": "Aye, keep yer pledge to 64 words tops, matey! Countin’ now: ${count} words",
+			"vars": [
+				"count"
+			]
+		}
+	},
 	"messageImage": {
 		"hideImage": {
 			"eng": "Hide Image",
@@ -5402,6 +5852,16 @@
 		"level": {
 			"eng": "level",
 			"trans": "Sea Dog Rank"
+		},
+		"marriage": {
+			"accept": {
+				"eng": "Accept",
+				"trans": "Arrr! Settle it!"
+			},
+			"reject": {
+				"eng": "Reject",
+				"trans": "Scuttle that"
+			}
 		},
 		"missing": {
 			"eng": "missing",
@@ -5638,6 +6098,18 @@
 			"title": {
 				"eng": "Unofficial translation",
 				"trans": "This Here Be a Bootleg Translation"
+			}
+		},
+		"marriageSttingsPage": {
+			"divorce": {
+				"description": {
+					"eng": "This action cannot be undone. Both you and your partner will lose all marriage benefits.",
+					"trans": "Avast! Ye can’t reverse this move. Ye and yer mate will forfeit every boon of the bond."
+				},
+				"title": {
+					"eng": "Are you sure you want to end the marriage?",
+					"trans": "Aye, ye be certain ye wants t' cut ties o' this weddin'?"
+				}
 			}
 		},
 		"newbieTutorial": {
@@ -6242,7 +6714,8 @@
 			},
 			"defaultLines": {
 				"eng": [
-					"Do you want to buy Units, or use your Units?"
+					"Do you want to buy Units, or use your Units?",
+					"We also have Eternal Bond Rings for those looking to unite with their partner forever."
 				],
 				"trans": [
 					"Do ye wants t' buy Units, or use yer Units?"
@@ -6730,6 +7203,12 @@
 			"name": {
 				"eng": "Dog",
 				"trans": "Scallywag"
+			}
+		},
+		"rabbit": {
+			"name": {
+				"eng": "Rabbit",
+				"trans": "Arrr‑Bunny"
 			}
 		}
 	},
@@ -10180,6 +10659,12 @@
 				"trans": "Pin code required t' unlock"
 			}
 		},
+		"generic": {
+			"days": {
+				"eng": "days",
+				"trans": "dayz"
+			}
+		},
 		"inventory": {
 			"autoScrap": {
 				"button": {
@@ -10927,6 +11412,34 @@
 				"eng": "location",
 				"trans": "Whereabouts"
 			},
+			"marriage": {
+				"cardTitle": {
+					"eng": "Relationship",
+					"trans": "Matey Bond"
+				},
+				"devotion": {
+					"eng": "Devotion",
+					"trans": "Avast! Loyalty"
+				},
+				"duration": {
+					"justMarried": {
+						"eng": "Just married!",
+						"trans": "Arrr, just tied the knot, matey!"
+					}
+				},
+				"expiresOn": {
+					"eng": "Expires on",
+					"trans": "Sails off by"
+				},
+				"marriedFor": {
+					"eng": "Married for",
+					"trans": "Arrr, married fer"
+				},
+				"settings": {
+					"eng": "Marriage Settings",
+					"trans": "Aye, Marrying Arrangements"
+				}
+			},
 			"numOfMember": {
 				"eng": "Number of members",
 				"trans": "Numberr o' members"
@@ -10939,6 +11452,10 @@
 				"addToFriend": {
 					"eng": "add to Friend List",
 					"trans": "add t' Shipmate List"
+				},
+				"alreadyMarried": {
+					"eng": "Already Married",
+					"trans": "Arr! Already Mated"
 				},
 				"block": {
 					"eng": "Block Player",
@@ -10955,6 +11472,14 @@
 				"label": {
 					"eng": "Player Actions",
 					"trans": "Playerr Actions"
+				},
+				"proposalCooldown": {
+					"eng": "Proposal on Cooldown",
+					"trans": "Arr, ye be on cooldown for makin’ a proposal!"
+				},
+				"propose": {
+					"eng": "Propose Marriage",
+					"trans": "Arrr, Matey! Tie the Knot!"
 				},
 				"removeFromFriend": {
 					"eng": "Remove from Friend List",
@@ -11703,6 +12228,10 @@
 			"locations": {
 				"eng": "locations",
 				"trans": "Ports o' Call"
+			},
+			"marriage": {
+				"eng": "Marriage System",
+				"trans": "Arrr‑Matey Bonding System"
 			},
 			"profile": {
 				"eng": "profile",

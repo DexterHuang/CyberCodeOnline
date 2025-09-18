@@ -627,7 +627,7 @@
 	},
 	"basicInfo": {
 		"nameInvalid": {
-			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'",
+			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or '_'",
 			"trans": "İsim uzunluğu 4'ten daha büyük olmalı, daha az veya 16'ya eşit olmalı ve sadece İngilizce karakterler, sayılar veya \\ '_ \\' içerir"
 		},
 		"nameProfane": {
@@ -3986,6 +3986,16 @@
 				"trans": "Rng interferer"
 			}
 		},
+		"roseBouquet": {
+			"description": {
+				"eng": "A beautifully preserved rose bouquet. A traditional gift that extends the marriage bond by 30 days when given to your partner. A symbol of enduring love even in the digital age.",
+				"trans": "Güzelce korunmuş bir gül buketi. Partnerinize hediye ettiğinizde evlilik bağını 30 gün uzatan geleneksel bir jest. Dijital çağda bile süregelen aşkın simgesi."
+			},
+			"name": {
+				"eng": "Rose Bouquet",
+				"trans": "Gül Buketi"
+			}
+		},
 		"seashell": {
 			"description": {
 				"eng": "A beautiful seashell that can be used to exchange items with Josie",
@@ -4239,6 +4249,16 @@
 			"name": {
 				"eng": "upper armor",
 				"trans": "Zırh"
+			}
+		},
+		"weddingRing": {
+			"description": {
+				"eng": "A finely crafted ring recognized by the City Registry. Present this to propose a marriage bond. The license is time-limited under city policy and can be extended by both partners.",
+				"trans": "Kota Kayıt Müdürlüğü tarafından tanınan ince işçilikle hazırlanmış bir yüzük. Bu yüzüğü, evlilik bağını önermek için sunun. Lisans, şehir politikası gereği süresizdir ve her iki taraf da uzatabilir."
+			},
+			"name": {
+				"eng": "Marriage Bond Ring",
+				"trans": "Evlilik Bağlantısı Yüzüğü"
 			}
 		}
 	},
@@ -5190,6 +5210,436 @@
 			]
 		}
 	},
+	"marriage": {
+		"accepted": {
+			"eng": "You are now married to ${proposer.getName()}!",
+			"trans": "Şimdi ${proposer.getName()} ile evlendiniz!"
+		},
+		"acceptedProposer": {
+			"eng": "${player.getName()} accepted your proposal! You are now married!",
+			"trans": "${player.getName()} evlilik teklifinizi kabul etti! Artık evlisiniz!"
+		},
+		"anniversary": {
+			"eng": "Anniversary",
+			"trans": "Yıl Dönümü"
+		},
+		"defaultMessage": {
+			"eng": "Will you marry me?",
+			"trans": "Benimle evlenir misin?"
+		},
+		"defaultVow": {
+			"eng": "Together forever in the digital realm",
+			"trans": "Dijital alemde sonsuza dek birlikte"
+		},
+		"divorce": {
+			"success": {
+				"eng": "Your marriage has been ended.",
+				"trans": "Evliliğiniz sona erdi."
+			}
+		},
+		"error": {
+			"alreadyMarried": {
+				"eng": "You are already married",
+				"trans": "Halihazırda evliyisin"
+			},
+			"blocked": {
+				"eng": "You cannot propose to this player",
+				"trans": "Bu oyuncuya evlilik teklifi veremezsiniz"
+			},
+			"cannotProposeSelf": {
+				"eng": "You cannot propose to yourself",
+				"trans": "Kendine evlenme teklif edemezsin"
+			},
+			"cooldown": {
+				"eng": "You must wait ${minutes} more minutes before sending another proposal",
+				"trans": "Tekrar evlilik teklifi vermeden önce ${minutes} dakika bekleyin"
+			},
+			"deleteWhileMarried": {
+				"eng": "You can't delete your account while married. Please divorce first.",
+				"trans": "Eşinizle evli iken hesabınızı silemezsiniz. Lütfen önce boşanma işlemini tamamlayın."
+			},
+			"mismatch": {
+				"eng": "Marriage data mismatch",
+				"trans": "Evlilik verileri uyuşmuyor"
+			},
+			"noBouquet": {
+				"eng": "You need an ${itemName} to extend your marriage bond.",
+				"trans": "Süper evlilik bağını uzatmak için bir ${itemName} gerekiyor.",
+				"vars": [
+					"itemName"
+				]
+			},
+			"noRing": {
+				"eng": "You need an Eternal Bond Ring to propose",
+				"trans": "Öneride bulunmak için Sonsuz Bağlılık Yüzüğü'ne ihtiyacın var"
+			},
+			"partnerNotFound": {
+				"eng": "Your partner could not be found",
+				"trans": "Partneriniz bulunamadı"
+			},
+			"playerNotFound": {
+				"eng": "Player not found",
+				"trans": "Oyuncu bulunamadı"
+			},
+			"proposerAlreadyMarried": {
+				"eng": "The proposer is already married",
+				"trans": "Teklif eden zaten evli"
+			},
+			"proposerNotFound": {
+				"eng": "Proposer not found",
+				"trans": "Teklifçi bulunamadı"
+			},
+			"ringMissing": {
+				"eng": "The proposer no longer has the ring",
+				"trans": "Teklifçinin elinde artık yüzük bulunmuyor"
+			},
+			"targetAlreadyMarried": {
+				"eng": "That player is already married",
+				"trans": "Zaten evli olan oyuncu var"
+			},
+			"targetMarried": {
+				"eng": "${targetPlayer.getName()} is already married",
+				"trans": "${targetPlayer.getName()} zaten evli"
+			}
+		},
+		"extend": {
+			"announcement": {
+				"eng": "${player1} has gifted an ${itemName} to ${player2}! 🌹💕",
+				"trans": "${player1} ${player2}'ye bir ${itemName} hediye etti! 🌹💖",
+				"vars": [
+					"player1",
+					"player2",
+					"itemName"
+				]
+			},
+			"success": {
+				"eng": "You've gifted a rose bouquet to ${partner}! Your marriage bond has been extended for another 30 days.",
+				"trans": "${partner} için gül buketi hediye ettin! Evlilik bağınız başka 30 gün daha uzatıldı.",
+				"vars": [
+					"partner"
+				]
+			}
+		},
+		"proposalSent": {
+			"eng": "Your marriage proposal has been sent!",
+			"trans": "Evlilik teklifiniz gönderildi!"
+		},
+		"proposalSentMail": {
+			"eng": "You have proposed to ${targetName} with an Eternal Bond Ring",
+			"trans": "${targetName}'e Sonsuz Bağlantı Yüzüğü ile evlilik teklifinde bulundun",
+			"vars": [
+				"targetName"
+			]
+		},
+		"propose": {
+			"confirm": {
+				"eng": "Propose",
+				"trans": "Teklif Et"
+			},
+			"description": {
+				"eng": "Are you sure you want to propose to ${targetPlayer.getName()}? This will use your Eternal Bond Ring.",
+				"trans": "Şu an ${targetPlayer.getName()} ile evlenmek istediğinize emin misiniz? Bu, Ebedi Bağ Yüzüğünüzü kullanacaktır."
+			},
+			"title": {
+				"eng": "Marriage Proposal",
+				"trans": "Evlilik Teklifi"
+			}
+		},
+		"rejected": {
+			"eng": "${player.displayName} has declined your marriage proposal.",
+			"trans": "${player.displayName} evlilik teklifini reddetti."
+		},
+		"settings": {
+			"backgroundImage": {
+				"eng": "Background Image",
+				"trans": "Arka Plan Resmi"
+			},
+			"expired": {
+				"eng": "Marriage has expired",
+				"trans": "Düğün süresi doldu"
+			},
+			"expiresIn": {
+				"eng": "Expires in ${days} days (${date})",
+				"trans": "Son kullanma süresi: ${days} gün (${date})",
+				"vars": [
+					"days",
+					"date"
+				]
+			},
+			"extendButton": {
+				"eng": "Extend Marriage",
+				"trans": "Evliliği Uzat"
+			},
+			"extendWithBouquet": {
+				"eng": "Gift a Rose Bouquet to extend for ${days} days",
+				"trans": "Gül Buketi vererek ${days} gün süre uzatın",
+				"vars": [
+					"days"
+				]
+			},
+			"imageHint1": {
+				"eng": "Click to upload a background image",
+				"trans": "Arka plan görseli yüklemek için tıklayın"
+			},
+			"imageHint2": {
+				"eng": "Recommend uplaoding 2:1 ratio image",
+				"trans": "İdeal 2:1 oranında bir görsel yüklemenizi öneririz"
+			},
+			"invalidSymbol": {
+				"eng": "Invalid marriage symbol selected",
+				"trans": "Geçersiz evlilik simgesi seçildi"
+			},
+			"permanent": {
+				"eng": "Permanent marriage",
+				"trans": "Kalıcı evlilik"
+			},
+			"saveVow": {
+				"eng": "Save Vow",
+				"trans": "Sözü Kaydet"
+			},
+			"status": {
+				"eng": "Marriage Status",
+				"trans": "Evlilik Durumu"
+			},
+			"symbol": {
+				"eng": "Symbol",
+				"trans": "Sembol"
+			},
+			"symbolHint": {
+				"eng": "Choose the emoji shown between your names",
+				"trans": "Adlarınız arasında gösterilen emojiyi seçin"
+			},
+			"vowNotAllowed": {
+				"eng": "Your vow contains not allowed words",
+				"trans": "Sözünüzde yasaklı kelimeler var"
+			},
+			"vowPhrase": {
+				"eng": "Vow Phrase",
+				"trans": "Yemin Cümlesi"
+			},
+			"vowPlaceholder": {
+				"eng": "Write your romantic vow here...",
+				"trans": "Romantik sözünü buraya yaz…"
+			},
+			"vowTooLong": {
+				"eng": "Vow phrase must be 64 words or less",
+				"trans": "Kıvılcım ifadesi 64 kelimeyi geçmemeli"
+			},
+			"wordCount": {
+				"eng": "${count} / 64 words",
+				"trans": "Kelime sayısı: ${count}/64",
+				"vars": [
+					"count"
+				]
+			}
+		},
+		"symbol": {
+			"crown": {
+				"eng": "Royalty",
+				"trans": "Kraliyet"
+			},
+			"cyber": {
+				"eng": "Cyber Love",
+				"trans": "Siber Aşk"
+			},
+			"fire": {
+				"eng": "On Fire",
+				"trans": "Yanıyor"
+			},
+			"gaming": {
+				"eng": "Player Two",
+				"trans": "İkinci Oyuncu"
+			},
+			"heart": {
+				"eng": "Classic Heart",
+				"trans": "Klasik Kalp"
+			},
+			"infinity": {
+				"eng": "Infinity",
+				"trans": "Sonsuzluk"
+			},
+			"lightning": {
+				"eng": "Electric",
+				"trans": "Elektrik"
+			},
+			"link": {
+				"eng": "Linked",
+				"trans": "Bağlı"
+			},
+			"lock": {
+				"eng": "Locked In",
+				"trans": "Kilitli"
+			},
+			"pizza": {
+				"eng": "Pizza Love",
+				"trans": "Pizza Love"
+			},
+			"potato": {
+				"eng": "Spud Love",
+				"trans": "Patates Aşkı"
+			},
+			"ring": {
+				"eng": "Wedding Ring",
+				"trans": "Düğün Yüzüğü"
+			},
+			"rocket": {
+				"eng": "To The Moon",
+				"trans": "Aya"
+			},
+			"rose": {
+				"eng": "Rose",
+				"trans": "Gül"
+			},
+			"sparkle": {
+				"eng": "Sparkling Heart",
+				"trans": "Parlayan Kalp"
+			},
+			"target": {
+				"eng": "Perfect Match",
+				"trans": "Mükemmel Uyum"
+			},
+			"unicorn": {
+				"eng": "Magical",
+				"trans": "Büyülü"
+			}
+		},
+		"systemAnnouncement": {
+			"eng": "💍 ${player1} and ${player2} have tied the knot! Congratulations to the happy couple! 🎉",
+			"trans": "💍 ${player1} ve ${player2} evlendi! Mutlu çiftimize tebrikler 🎉",
+			"vars": [
+				"player1",
+				"player2"
+			]
+		},
+		"vow": {
+			"changeNotification": {
+				"eng": "${player} has updated their marriage vow to ${vow}",
+				"trans": "${player} has updated their marriage vow: \"${vow}\"",
+				"vars": [
+					"player",
+					"vow"
+				]
+			},
+			"cooldown": {
+				"eng": "You can update your vow again in ${minutes} minutes",
+				"trans": "${minutes} dakika sonra sözünü yenileyebilirsin",
+				"vars": [
+					"minutes"
+				]
+			}
+		}
+	},
+	"marriageExtendModal": {
+		"confirmButton": {
+			"eng": "Extend Marriage",
+			"trans": "Evliliği Uzat"
+		},
+		"currentStatus": {
+			"eng": "Current Status",
+			"trans": "Mevcut Durum"
+		},
+		"duration": {
+			"eng": "Duration:",
+			"trans": "Süre:"
+		},
+		"expired": {
+			"eng": "Your marriage has expired",
+			"trans": "Evliliğiniz sona erdi"
+		},
+		"expiresIn": {
+			"eng": "Expires in ${days} days",
+			"trans": "${days} gün içinde süresi dolacak",
+			"vars": [
+				"days"
+			]
+		},
+		"expiryDate": {
+			"eng": "Expiry: ${date}",
+			"trans": "Geçerlilik Tarihi: ${date}",
+			"vars": [
+				"date"
+			]
+		},
+		"extensionDetails": {
+			"eng": "Extension Details",
+			"trans": "Genişletme Detayları"
+		},
+		"failed": {
+			"eng": "Failed to extend marriage. Please try again.",
+			"trans": "Evli kalma süresi uzatılmadı. Lütfen tekrar deneyin."
+		},
+		"newExpiry": {
+			"eng": "New Expiry:",
+			"trans": "Yeni Süre:"
+		},
+		"permanent": {
+			"eng": "Permanent marriage - no extension needed",
+			"trans": "Kalıcı evlilik – uzatma gerekmez"
+		},
+		"requirement": {
+			"eng": "Required:",
+			"trans": "Gereklidir:"
+		},
+		"success": {
+			"eng": "You've gifted a rose bouquet! Your bond has been extended.",
+			"trans": "Çiçek buketi hediye ettin! Bağlantınız uzatıldı."
+		},
+		"timesExtended": {
+			"eng": "Times Extended:",
+			"trans": "Uzantı Sayısı:"
+		},
+		"title": {
+			"eng": "Extend Marriage",
+			"trans": "Evliliği Uzat"
+		}
+	},
+	"marriageSttingsPage": {
+		"divorce": {
+			"error": {
+				"eng": "Failed to end marriage. Please try again.",
+				"trans": "Evlilik sona erdirilemedi. Lütfen tekrar deneyin."
+			}
+		},
+		"divorceButton": {
+			"eng": "End Marriage",
+			"trans": "Boşan"
+		},
+		"noChanges": {
+			"eng": "No changes to save",
+			"trans": "Kaydedilecek değişiklik yok"
+		},
+		"notMarried": {
+			"eng": "You are not married",
+			"trans": "Evli değilsiniz"
+		},
+		"saveError": {
+			"eng": "Failed to save settings. Please try again.",
+			"trans": "Ayarlara kaydedilemedi. Lütfen tekrar deneyin."
+		},
+		"saved": {
+			"eng": "Marriage settings saved successfully!",
+			"trans": "Evlilik ayarları başarıyla kaydedildi!"
+		},
+		"title": {
+			"eng": "Marriage Settings",
+			"trans": "Evlilik Ayarları"
+		},
+		"uploadError": {
+			"eng": "Failed to upload image. Please try again.",
+			"trans": "BİLGİ: Resim yüklenemedi. Lütfen tekrar deneyin."
+		},
+		"uploadSuccess": {
+			"eng": "Image uploaded.",
+			"trans": "Görsel yüklendi."
+		},
+		"vowTooLong": {
+			"eng": "Vow phrase must be 64 words or less. Current: ${count} words",
+			"trans": "Söz ifadesi 64 kelimeye eşit ya da daha az olmalı. Şu an: ${count} kelime",
+			"vars": [
+				"count"
+			]
+		}
+	},
 	"messageImage": {
 		"hideImage": {
 			"eng": "Hide Image",
@@ -5298,7 +5748,7 @@
 			},
 			"progress": {
 				"eng": "Bands Intercepted",
-				"trans": "Bands Intercepted"
+				"trans": "Alınan Bantlar"
 			},
 			"retry": {
 				"eng": "Retry Interception",
@@ -5402,6 +5852,16 @@
 		"level": {
 			"eng": "level",
 			"trans": "Seviye"
+		},
+		"marriage": {
+			"accept": {
+				"eng": "Accept",
+				"trans": "Kabul"
+			},
+			"reject": {
+				"eng": "Reject",
+				"trans": "Reddet"
+			}
 		},
 		"missing": {
 			"eng": "missing",
@@ -5638,6 +6098,18 @@
 			"title": {
 				"eng": "Unofficial translation",
 				"trans": "Resmi olmayan çeviri"
+			}
+		},
+		"marriageSttingsPage": {
+			"divorce": {
+				"description": {
+					"eng": "This action cannot be undone. Both you and your partner will lose all marriage benefits.",
+					"trans": "Bu işlem geri alınamaz. Hem sen hem de partnerin tüm evlilik avantajlarını kaybedecek."
+				},
+				"title": {
+					"eng": "Are you sure you want to end the marriage?",
+					"trans": "Evliliği sonlandırmak istediğinizden emin misiniz?"
+				}
 			}
 		},
 		"newbieTutorial": {
@@ -6243,7 +6715,8 @@
 			},
 			"defaultLines": {
 				"eng": [
-					"Do you want to buy Units, or use your Units?"
+					"Do you want to buy Units, or use your Units?",
+					"We also have Eternal Bond Rings for those looking to unite with their partner forever."
 				],
 				"trans": [
 					"Birim satın almak mı yoksa birim kullanmak mı istersin?"
@@ -6731,6 +7204,12 @@
 			"name": {
 				"eng": "Dog",
 				"trans": "Köpek"
+			}
+		},
+		"rabbit": {
+			"name": {
+				"eng": "Rabbit",
+				"trans": "Tavşan"
 			}
 		}
 	},
@@ -10181,6 +10660,12 @@
 				"trans": "Kilidi açmak için PIN kodu gereklidir"
 			}
 		},
+		"generic": {
+			"days": {
+				"eng": "days",
+				"trans": "Gün"
+			}
+		},
 		"inventory": {
 			"autoScrap": {
 				"button": {
@@ -10928,6 +11413,34 @@
 				"eng": "location",
 				"trans": "Lokasyon"
 			},
+			"marriage": {
+				"cardTitle": {
+					"eng": "Relationship",
+					"trans": "İlişki"
+				},
+				"devotion": {
+					"eng": "Devotion",
+					"trans": "Sadakat"
+				},
+				"duration": {
+					"justMarried": {
+						"eng": "Just married!",
+						"trans": "Yeni evli!"
+					}
+				},
+				"expiresOn": {
+					"eng": "Expires on",
+					"trans": "Bitiş Tarihi"
+				},
+				"marriedFor": {
+					"eng": "Married for",
+					"trans": "Evlilik süresi"
+				},
+				"settings": {
+					"eng": "Marriage Settings",
+					"trans": "Evlilik Ayarları"
+				}
+			},
 			"numOfMember": {
 				"eng": "Number of members",
 				"trans": "Üye Sayısı"
@@ -10940,6 +11453,10 @@
 				"addToFriend": {
 					"eng": "add to Friend List",
 					"trans": "Arkadaş Listesine ekle"
+				},
+				"alreadyMarried": {
+					"eng": "Already Married",
+					"trans": "Zaten evli"
 				},
 				"block": {
 					"eng": "Block Player",
@@ -10956,6 +11473,14 @@
 				"label": {
 					"eng": "Player Actions",
 					"trans": "Oyuncu Eylemleri"
+				},
+				"proposalCooldown": {
+					"eng": "Proposal on Cooldown",
+					"trans": "Teklif Beklemede"
+				},
+				"propose": {
+					"eng": "Propose Marriage",
+					"trans": "Evlilik Teklifi"
 				},
 				"removeFromFriend": {
 					"eng": "Remove from Friend List",
@@ -11704,6 +12229,10 @@
 			"locations": {
 				"eng": "locations",
 				"trans": "lokasyonlar"
+			},
+			"marriage": {
+				"eng": "Marriage System",
+				"trans": "Evlilik Sistemi"
 			},
 			"profile": {
 				"eng": "profile",

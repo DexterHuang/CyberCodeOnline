@@ -627,7 +627,7 @@
 	},
 	"basicInfo": {
 		"nameInvalid": {
-			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or \\'_\\'",
+			"eng": "name length must be greater then 4, less then or equal to 16 and only contains English characters, numbers or '_'",
 			"trans": "naamlengte moet groter zijn dan 4, minder dan of gelijk aan 16 en bevat alleen Engelse tekens, cijfers of \\ '_ \\'"
 		},
 		"nameProfane": {
@@ -3986,6 +3986,16 @@
 				"trans": "RNG-interferener"
 			}
 		},
+		"roseBouquet": {
+			"description": {
+				"eng": "A beautifully preserved rose bouquet. A traditional gift that extends the marriage bond by 30 days when given to your partner. A symbol of enduring love even in the digital age.",
+				"trans": "Een prachtig bewaard rozenboeket. Een traditioneel cadeau dat de huwelijksband 30 dagen verlengt wanneer je het aan je partner geeft. Een symbool van blijvende liefde, zelfs in het digitale tijdperk."
+			},
+			"name": {
+				"eng": "Rose Bouquet",
+				"trans": "Rozenboeket"
+			}
+		},
 		"seashell": {
 			"description": {
 				"eng": "A beautiful seashell that can be used to exchange items with Josie",
@@ -4239,6 +4249,16 @@
 			"name": {
 				"eng": "upper armor",
 				"trans": "bovenpantser"
+			}
+		},
+		"weddingRing": {
+			"description": {
+				"eng": "A finely crafted ring recognized by the City Registry. Present this to propose a marriage bond. The license is time-limited under city policy and can be extended by both partners.",
+				"trans": "Een zorgvuldig vervaardigde ring die door het Stadsregister wordt erkend. Presenteer dit als voorstel voor een huwelijk. De vergunning is tijdelijk, in overeenstemming met de stadswetgeving, maar kan door beide partners verlengd worden."
+			},
+			"name": {
+				"eng": "Marriage Bond Ring",
+				"trans": "Ring van het Huwelijk"
 			}
 		}
 	},
@@ -5190,6 +5210,436 @@
 			]
 		}
 	},
+	"marriage": {
+		"accepted": {
+			"eng": "You are now married to ${proposer.getName()}!",
+			"trans": "Je bent nu getrouwd met ${proposer.getName()}!"
+		},
+		"acceptedProposer": {
+			"eng": "${player.getName()} accepted your proposal! You are now married!",
+			"trans": "${player.getName()} heeft je verloving geaccepteerd! Je bent nu getrouwd!"
+		},
+		"anniversary": {
+			"eng": "Anniversary",
+			"trans": "Verjaardag"
+		},
+		"defaultMessage": {
+			"eng": "Will you marry me?",
+			"trans": "Wil je met mij trouwen?"
+		},
+		"defaultVow": {
+			"eng": "Together forever in the digital realm",
+			"trans": "Together forever in de digitale wereld"
+		},
+		"divorce": {
+			"success": {
+				"eng": "Your marriage has been ended.",
+				"trans": "Je huwelijk is beëindigd."
+			}
+		},
+		"error": {
+			"alreadyMarried": {
+				"eng": "You are already married",
+				"trans": "Je bent al getrouwd"
+			},
+			"blocked": {
+				"eng": "You cannot propose to this player",
+				"trans": "Je kunt deze speler niet trouwen"
+			},
+			"cannotProposeSelf": {
+				"eng": "You cannot propose to yourself",
+				"trans": "Je kunt niet aan jezelf voorstellen"
+			},
+			"cooldown": {
+				"eng": "You must wait ${minutes} more minutes before sending another proposal",
+				"trans": "Wacht ${minutes} minuten voordat je opnieuw een huwelijksverzoek kunt doen"
+			},
+			"deleteWhileMarried": {
+				"eng": "You can't delete your account while married. Please divorce first.",
+				"trans": "Je kunt je account niet verwijderen terwijl je getrouwd bent. Scheid eerst."
+			},
+			"mismatch": {
+				"eng": "Marriage data mismatch",
+				"trans": "Huwelijksgegevens komen niet overeen"
+			},
+			"noBouquet": {
+				"eng": "You need an ${itemName} to extend your marriage bond.",
+				"trans": "Je hebt een ${itemName} nodig om je huwelijksband te verlengen.",
+				"vars": [
+					"itemName"
+				]
+			},
+			"noRing": {
+				"eng": "You need an Eternal Bond Ring to propose",
+				"trans": "Je hebt een Eeuwige Verbintenis-ring nodig om te trouwen"
+			},
+			"partnerNotFound": {
+				"eng": "Your partner could not be found",
+				"trans": "Je partner kan niet worden gevonden"
+			},
+			"playerNotFound": {
+				"eng": "Player not found",
+				"trans": "Speler niet gevonden"
+			},
+			"proposerAlreadyMarried": {
+				"eng": "The proposer is already married",
+				"trans": "Aanvrager is al getrouwd"
+			},
+			"proposerNotFound": {
+				"eng": "Proposer not found",
+				"trans": "Verzoeker niet gevonden"
+			},
+			"ringMissing": {
+				"eng": "The proposer no longer has the ring",
+				"trans": "De aanvrager heeft de ring niet meer"
+			},
+			"targetAlreadyMarried": {
+				"eng": "That player is already married",
+				"trans": "Die speler is al getrouwd"
+			},
+			"targetMarried": {
+				"eng": "${targetPlayer.getName()} is already married",
+				"trans": "${targetPlayer.getName()} is al getrouwd"
+			}
+		},
+		"extend": {
+			"announcement": {
+				"eng": "${player1} has gifted an ${itemName} to ${player2}! 🌹💕",
+				"trans": "${player1} heeft een ${itemName} gegeven aan ${player2}! 🌹💗",
+				"vars": [
+					"player1",
+					"player2",
+					"itemName"
+				]
+			},
+			"success": {
+				"eng": "You've gifted a rose bouquet to ${partner}! Your marriage bond has been extended for another 30 days.",
+				"trans": "Je hebt een rozenboeket gegeven aan ${partner}! Je huwelijksband is nog eens 30 dagen verlengd.",
+				"vars": [
+					"partner"
+				]
+			}
+		},
+		"proposalSent": {
+			"eng": "Your marriage proposal has been sent!",
+			"trans": "Je huwelijksaanzoek is verzonden!"
+		},
+		"proposalSentMail": {
+			"eng": "You have proposed to ${targetName} with an Eternal Bond Ring",
+			"trans": "Je hebt je verloving aangeboden aan ${targetName} met een Eeuwige Verbonden Ring",
+			"vars": [
+				"targetName"
+			]
+		},
+		"propose": {
+			"confirm": {
+				"eng": "Propose",
+				"trans": "Stel voor"
+			},
+			"description": {
+				"eng": "Are you sure you want to propose to ${targetPlayer.getName()}? This will use your Eternal Bond Ring.",
+				"trans": "Weet je zeker dat je aan ${targetPlayer.getName()} wilt trouwen? Dit zal je Eeuwige Verbonden Ring gebruiken."
+			},
+			"title": {
+				"eng": "Marriage Proposal",
+				"trans": "Huwelijksaanzoek"
+			}
+		},
+		"rejected": {
+			"eng": "${player.displayName} has declined your marriage proposal.",
+			"trans": "`${player.displayName} heeft je huwelijksaanzoek afgewezen."
+		},
+		"settings": {
+			"backgroundImage": {
+				"eng": "Background Image",
+				"trans": "Achtergrondafbeelding"
+			},
+			"expired": {
+				"eng": "Marriage has expired",
+				"trans": "Huwelijk is verlopen"
+			},
+			"expiresIn": {
+				"eng": "Expires in ${days} days (${date})",
+				"trans": "Verloopt over ${days} dagen (${date})",
+				"vars": [
+					"days",
+					"date"
+				]
+			},
+			"extendButton": {
+				"eng": "Extend Marriage",
+				"trans": "Verleng het huwelijk"
+			},
+			"extendWithBouquet": {
+				"eng": "Gift a Rose Bouquet to extend for ${days} days",
+				"trans": "Stuur een rozenboeket om de huwelijksduur te verlengen met ${days} dagen",
+				"vars": [
+					"days"
+				]
+			},
+			"imageHint1": {
+				"eng": "Click to upload a background image",
+				"trans": "Klik om een achtergrondafbeelding te uploaden"
+			},
+			"imageHint2": {
+				"eng": "Recommend uplaoding 2:1 ratio image",
+				"trans": "Stel een afbeelding met een 2:1 verhouding voor"
+			},
+			"invalidSymbol": {
+				"eng": "Invalid marriage symbol selected",
+				"trans": "Ongeldige huwelijks‑symbool geselecteerd"
+			},
+			"permanent": {
+				"eng": "Permanent marriage",
+				"trans": "Permanente huwelijksverbintenis"
+			},
+			"saveVow": {
+				"eng": "Save Vow",
+				"trans": "Bewaar belofte"
+			},
+			"status": {
+				"eng": "Marriage Status",
+				"trans": "Huwelijksstatus"
+			},
+			"symbol": {
+				"eng": "Symbol",
+				"trans": "Symbool"
+			},
+			"symbolHint": {
+				"eng": "Choose the emoji shown between your names",
+				"trans": "Kies het emoji dat tussen jullie namen staat"
+			},
+			"vowNotAllowed": {
+				"eng": "Your vow contains not allowed words",
+				"trans": "Je belofte bevat niet-acceptabele termen"
+			},
+			"vowPhrase": {
+				"eng": "Vow Phrase",
+				"trans": "Eedzin"
+			},
+			"vowPlaceholder": {
+				"eng": "Write your romantic vow here...",
+				"trans": "Schrijf hier je liefdesgelofte..."
+			},
+			"vowTooLong": {
+				"eng": "Vow phrase must be 64 words or less",
+				"trans": "Het geloftespel moet maximaal 64 woorden bevatten"
+			},
+			"wordCount": {
+				"eng": "${count} / 64 words",
+				"trans": "${count} / 64 woorden",
+				"vars": [
+					"count"
+				]
+			}
+		},
+		"symbol": {
+			"crown": {
+				"eng": "Royalty",
+				"trans": "Kroon"
+			},
+			"cyber": {
+				"eng": "Cyber Love",
+				"trans": "Cyber Liefde"
+			},
+			"fire": {
+				"eng": "On Fire",
+				"trans": "Brandend"
+			},
+			"gaming": {
+				"eng": "Player Two",
+				"trans": "Speler Twee"
+			},
+			"heart": {
+				"eng": "Classic Heart",
+				"trans": "Klassiek Hart"
+			},
+			"infinity": {
+				"eng": "Infinity",
+				"trans": "Oneindigheid"
+			},
+			"lightning": {
+				"eng": "Electric",
+				"trans": "Elektrisch"
+			},
+			"link": {
+				"eng": "Linked",
+				"trans": "Gelinkt"
+			},
+			"lock": {
+				"eng": "Locked In",
+				"trans": "Vergrendeld"
+			},
+			"pizza": {
+				"eng": "Pizza Love",
+				"trans": "Pizzaliefde"
+			},
+			"potato": {
+				"eng": "Spud Love",
+				"trans": "Aardappelliefde"
+			},
+			"ring": {
+				"eng": "Wedding Ring",
+				"trans": "Huwelijksring"
+			},
+			"rocket": {
+				"eng": "To The Moon",
+				"trans": "Naar de maan"
+			},
+			"rose": {
+				"eng": "Rose",
+				"trans": "Roos"
+			},
+			"sparkle": {
+				"eng": "Sparkling Heart",
+				"trans": "Sprankelend Hart"
+			},
+			"target": {
+				"eng": "Perfect Match",
+				"trans": "Perfecte Match"
+			},
+			"unicorn": {
+				"eng": "Magical",
+				"trans": "magisch"
+			}
+		},
+		"systemAnnouncement": {
+			"eng": "💍 ${player1} and ${player2} have tied the knot! Congratulations to the happy couple! 🎉",
+			"trans": "💍 ${player1} en ${player2} zijn nu officieel samengevoegd! Gefeliciteerd met het gelukspaar! 🎉",
+			"vars": [
+				"player1",
+				"player2"
+			]
+		},
+		"vow": {
+			"changeNotification": {
+				"eng": "${player} has updated their marriage vow to ${vow}",
+				"trans": "${player} has updated their marriage vow: \"${vow}\"",
+				"vars": [
+					"player",
+					"vow"
+				]
+			},
+			"cooldown": {
+				"eng": "You can update your vow again in ${minutes} minutes",
+				"trans": "Je kan je belofte terugactiveren over ${minutes} minuten",
+				"vars": [
+					"minutes"
+				]
+			}
+		}
+	},
+	"marriageExtendModal": {
+		"confirmButton": {
+			"eng": "Extend Marriage",
+			"trans": "Verleng het huwelijk"
+		},
+		"currentStatus": {
+			"eng": "Current Status",
+			"trans": "Huidige status"
+		},
+		"duration": {
+			"eng": "Duration:",
+			"trans": "Duur:"
+		},
+		"expired": {
+			"eng": "Your marriage has expired",
+			"trans": "Je huwelijk is verlopen"
+		},
+		"expiresIn": {
+			"eng": "Expires in ${days} days",
+			"trans": "Vervalt over ${days} dagen",
+			"vars": [
+				"days"
+			]
+		},
+		"expiryDate": {
+			"eng": "Expiry: ${date}",
+			"trans": "Verloopt op: ${date}",
+			"vars": [
+				"date"
+			]
+		},
+		"extensionDetails": {
+			"eng": "Extension Details",
+			"trans": "Uitbreidingsdetails"
+		},
+		"failed": {
+			"eng": "Failed to extend marriage. Please try again.",
+			"trans": "Verlengen van het huwelijk mislukt. Probeer het opnieuw."
+		},
+		"newExpiry": {
+			"eng": "New Expiry:",
+			"trans": "Nieuwe vervaldatum:"
+		},
+		"permanent": {
+			"eng": "Permanent marriage - no extension needed",
+			"trans": "Permanente huwelijksstatus – geen verlenging vereist"
+		},
+		"requirement": {
+			"eng": "Required:",
+			"trans": "Verplicht:"
+		},
+		"success": {
+			"eng": "You've gifted a rose bouquet! Your bond has been extended.",
+			"trans": "Je hebt een rozenboeket geschenkt! Jullie band is verlengd."
+		},
+		"timesExtended": {
+			"eng": "Times Extended:",
+			"trans": "Aantal verlengingen:"
+		},
+		"title": {
+			"eng": "Extend Marriage",
+			"trans": "Verleng het huwelijk"
+		}
+	},
+	"marriageSttingsPage": {
+		"divorce": {
+			"error": {
+				"eng": "Failed to end marriage. Please try again.",
+				"trans": "Het beëindigen van het huwelijk is mislukt. Probeer het nogmaals."
+			}
+		},
+		"divorceButton": {
+			"eng": "End Marriage",
+			"trans": "Huwelijk beëindigen"
+		},
+		"noChanges": {
+			"eng": "No changes to save",
+			"trans": "Geen wijzigingen om op te slaan"
+		},
+		"notMarried": {
+			"eng": "You are not married",
+			"trans": "Je bent nog niet getrouwd"
+		},
+		"saveError": {
+			"eng": "Failed to save settings. Please try again.",
+			"trans": "Instellingen niet opgeslagen. Probeer het opnieuw."
+		},
+		"saved": {
+			"eng": "Marriage settings saved successfully!",
+			"trans": "Huwelijksinstellingen succesvol opgeslagen!"
+		},
+		"title": {
+			"eng": "Marriage Settings",
+			"trans": "Instellingen Huwelijk"
+		},
+		"uploadError": {
+			"eng": "Failed to upload image. Please try again.",
+			"trans": "Uploaden van de afbeelding is niet gelukt. Probeer het nogmaals."
+		},
+		"uploadSuccess": {
+			"eng": "Image uploaded.",
+			"trans": "Afbeelding geüpload."
+		},
+		"vowTooLong": {
+			"eng": "Vow phrase must be 64 words or less. Current: ${count} words",
+			"trans": "Je geloften mogen maximaal 64 woorden zijn. Momenteel: ${count} woorden",
+			"vars": [
+				"count"
+			]
+		}
+	},
 	"messageImage": {
 		"hideImage": {
 			"eng": "Hide Image",
@@ -5298,7 +5748,7 @@
 			},
 			"progress": {
 				"eng": "Bands Intercepted",
-				"trans": "Bands Intercepted"
+				"trans": "Banden geintercepteerd"
 			},
 			"retry": {
 				"eng": "Retry Interception",
@@ -5402,6 +5852,16 @@
 		"level": {
 			"eng": "level",
 			"trans": "niveau"
+		},
+		"marriage": {
+			"accept": {
+				"eng": "Accept",
+				"trans": "Accepteren"
+			},
+			"reject": {
+				"eng": "Reject",
+				"trans": "Weigeren"
+			}
 		},
 		"missing": {
 			"eng": "missing",
@@ -5638,6 +6098,18 @@
 			"title": {
 				"eng": "Unofficial translation",
 				"trans": "Niet-officiële vertaling"
+			}
+		},
+		"marriageSttingsPage": {
+			"divorce": {
+				"description": {
+					"eng": "This action cannot be undone. Both you and your partner will lose all marriage benefits.",
+					"trans": "Deze actie kan niet ongedaan worden gemaakt. Jij en je partner verliezen alle huwelijksvoordelen."
+				},
+				"title": {
+					"eng": "Are you sure you want to end the marriage?",
+					"trans": "Ben je zeker dat je het huwelijk wilt beëindigen?"
+				}
 			}
 		},
 		"newbieTutorial": {
@@ -6242,7 +6714,8 @@
 			},
 			"defaultLines": {
 				"eng": [
-					"Do you want to buy Units, or use your Units?"
+					"Do you want to buy Units, or use your Units?",
+					"We also have Eternal Bond Rings for those looking to unite with their partner forever."
 				],
 				"trans": [
 					"Do you want to buy Units, or use your Units?"
@@ -6730,6 +7203,12 @@
 			"name": {
 				"eng": "Dog",
 				"trans": "Hond"
+			}
+		},
+		"rabbit": {
+			"name": {
+				"eng": "Rabbit",
+				"trans": "Konijn"
 			}
 		}
 	},
@@ -10180,6 +10659,12 @@
 				"trans": "PIN-code vereist om te ontgrendelen"
 			}
 		},
+		"generic": {
+			"days": {
+				"eng": "days",
+				"trans": "dagen"
+			}
+		},
 		"inventory": {
 			"autoScrap": {
 				"button": {
@@ -10927,6 +11412,34 @@
 				"eng": "location",
 				"trans": "locatie"
 			},
+			"marriage": {
+				"cardTitle": {
+					"eng": "Relationship",
+					"trans": "Relatie"
+				},
+				"devotion": {
+					"eng": "Devotion",
+					"trans": "Trouw"
+				},
+				"duration": {
+					"justMarried": {
+						"eng": "Just married!",
+						"trans": "Net getrouwd!"
+					}
+				},
+				"expiresOn": {
+					"eng": "Expires on",
+					"trans": "Vervalt op"
+				},
+				"marriedFor": {
+					"eng": "Married for",
+					"trans": "Getrouwd sinds"
+				},
+				"settings": {
+					"eng": "Marriage Settings",
+					"trans": "Instellingen Huwelijk"
+				}
+			},
 			"numOfMember": {
 				"eng": "Number of members",
 				"trans": "Aantal leden"
@@ -10939,6 +11452,10 @@
 				"addToFriend": {
 					"eng": "add to Friend List",
 					"trans": "voeg toe aan Vriendenlijst"
+				},
+				"alreadyMarried": {
+					"eng": "Already Married",
+					"trans": "Bestaande huwelijk"
 				},
 				"block": {
 					"eng": "Block Player",
@@ -10955,6 +11472,14 @@
 				"label": {
 					"eng": "Player Actions",
 					"trans": "Speler Acties"
+				},
+				"proposalCooldown": {
+					"eng": "Proposal on Cooldown",
+					"trans": "Voorstel in cooldown"
+				},
+				"propose": {
+					"eng": "Propose Marriage",
+					"trans": "Huwelijk voorstellen"
 				},
 				"removeFromFriend": {
 					"eng": "Remove from Friend List",
@@ -11703,6 +12228,10 @@
 			"locations": {
 				"eng": "locations",
 				"trans": "locaties"
+			},
+			"marriage": {
+				"eng": "Marriage System",
+				"trans": "Verbinding Systeem"
 			},
 			"profile": {
 				"eng": "profile",
