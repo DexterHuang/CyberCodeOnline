@@ -33,7 +33,7 @@ Please send your feedback to my Discord or email directly.
   - Either partner can end the marriage at any time
     For detailed information, please refer to the marriage tutorial page.
 
-  ❓ Why not add gameplay features like shared apartment/vault or others?
+  ❓ Why not include gameplay features like shared apartment/vault or others?
 
   - The main reason to keep this feature cosmetic and roplay focused is that I want to stay commited cosmetic/paid content to have a little gameplay effect as possible, to keep the game non-pay to win.
 
