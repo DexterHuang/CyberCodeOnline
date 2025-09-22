@@ -16,6 +16,29 @@ Please send your feedback to my Discord or email directly.
 
 ## Updates
 
+### 0.1879
+
+- **Marriage System**:
+  Long requested marriage system is finally here! marriage system is a cosmetic/roleplay feature, it allows two players to be married to each other and requires both players to agree to the marriage.
+  it allows two players to show off their partnership as custom marriage banner and vow phrase in both chat popup and player profile.
+
+  - Propose to other players using wedding rings (available for purchase in-game)
+  - Create custom marriage banners with:
+    - Romantic symbols and heart emojis
+    - Custom background images (ultra-wide 2:1 ratio recommended)
+    - Personal vow phrases (up to 64 characters)
+  - Marriage contracts with expiry dates that can be extended using Rose Bouquet gifts to your partner.
+  - Marriage extensions trigger global chat announcements celebrating enduring love
+  - Access marriage settings through player profiles for customization
+  - Either partner can end the marriage at any time
+    For detailed information, please refer to the marriage tutorial page.
+
+  ❓ Why not add gameplay features like shared apartment/vault or others?
+
+  - The main reason to keep this feature cosmetic and roplay focused is that I want to stay commited cosmetic/paid content to have a little gameplay effect as possible, to keep the game non-pay to win.
+
+  **Feedback and suggestion are welcome :) please send your feedback to my Discord or email directly.**
+
 ### 0.1878
 
 - B3llial will show up in Alleyway during September, you can redeem `Cassette Tape` and equipments from him, `Cassette Tape` WILL expire after September 30th, so be sure to use it before then.
