@@ -4,23 +4,30 @@ If you found a bug please post a bug report in our [Discord server](https://disc
 
 Did you like the game and fancy helping the game? you can:
 
-- Leave a 5-star review on the store, this will help others see the game more
-- Report bugs or suggestions for improvement to our Discord, the developer checks Discord frequently (due to time limitations I can't really check Reddit or other places)
+- Leave a 5-star review on the store. This will help others see the game more
+- Report bugs or suggestions for improvement to our Discord; the developer checks Discord frequently (due to time limitations, I can't really check Reddit or other places)
 - Deploy some global buff or skips for the community
 - Contribute to our WIKI, Lores and other configs on our [GitHub](https://github.com/DexterHuang/CyberCodeOnlin
 
 ## Upcoming Update Notice
 
 **Feedback and suggestions are welcome**
-Please send your feedback to my Discord or email directly.
+Please send your feedback to my Discord or email me directly.
 
 ## Updates
+
+### 0.1880
+
+- The free random chat buffs are back! Sorry for the long wait. Due to previous gameplay updates, this feature had to be rewritten from scratch. now there is a new special UI for when a free random chat buff is deployed
 
 ### 0.1879
 
 - **Marriage System**:
-  Long requested marriage system is finally here! marriage system is a cosmetic/roleplay feature, it allows two players to be married to each other and requires both players to agree to the marriage.
-  it allows two players to show off their partnership as custom marriage banner and vow phrase in both chat popup and player profile.
+  Long-requested marriage system is finally here! Marriage system is a cosmetic/roleplay feature; it allows two players to be married to each other and requires both players to agree to the marriage.
+  it allows two players to show off their partnership as a custom marriage banner and vow phrase in both chat pop-up and player profile.
+
+<img width="388" height="354" alt="image" src="https://github.com/user-attachments/assets/02a1d70e-7f08-4b9e-90a1-f322a178245a" />
+
 
   - Propose to other players using wedding rings (available for purchase in-game)
   - Create custom marriage banners with:
@@ -29,7 +36,7 @@ Please send your feedback to my Discord or email directly.
     - Personal vow phrases (up to 64 characters)
   - Marriage contracts with expiry dates that can be extended using Rose Bouquet gifts to your partner.
   - Marriage extensions trigger global chat announcements celebrating enduring love
-  - Access marriage settings through player profiles for customization
+  - Access marriage settings through player profiles for customisation
   - Either partner can end the marriage at any time
     For detailed information, please refer to the marriage tutorial page.
 
