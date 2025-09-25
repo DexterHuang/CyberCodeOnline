@@ -16,6 +16,10 @@ Please send your feedback to my Discord or email me directly.
 
 ## Updates
 
+### 0.1881
+
+- Free chat buff is disabled due to issues reported by the community, I will be adjusting and re-enabling it in the future
+
 ### 0.1880
 
 - The free random chat buffs are back! Sorry for the long wait. Due to previous gameplay updates, this feature had to be rewritten from scratch. now there is a new special UI for when a free random chat buff is deployed
@@ -28,23 +32,22 @@ Please send your feedback to my Discord or email me directly.
 
 <img width="388" height="354" alt="image" src="https://github.com/user-attachments/assets/02a1d70e-7f08-4b9e-90a1-f322a178245a" />
 
+- Propose to other players using wedding rings (available for purchase in-game)
+- Create custom marriage banners with:
+  - Romantic symbols and heart emojis
+  - Custom background images (ultra-wide 2:1 ratio recommended)
+  - Personal vow phrases (up to 64 characters)
+- Marriage contracts with expiry dates that can be extended using Rose Bouquet gifts to your partner.
+- Marriage extensions trigger global chat announcements celebrating enduring love
+- Access marriage settings through player profiles for customisation
+- Either partner can end the marriage at any time
+  For detailed information, please refer to the marriage tutorial page.
 
-  - Propose to other players using wedding rings (available for purchase in-game)
-  - Create custom marriage banners with:
-    - Romantic symbols and heart emojis
-    - Custom background images (ultra-wide 2:1 ratio recommended)
-    - Personal vow phrases (up to 64 characters)
-  - Marriage contracts with expiry dates that can be extended using Rose Bouquet gifts to your partner.
-  - Marriage extensions trigger global chat announcements celebrating enduring love
-  - Access marriage settings through player profiles for customisation
-  - Either partner can end the marriage at any time
-    For detailed information, please refer to the marriage tutorial page.
+❓ Why not include gameplay features like shared apartment/vault or others?
 
-  ❓ Why not include gameplay features like shared apartment/vault or others?
+- The main reason to keep this feature cosmetic and roplay focused is that I want to stay commited to cosmetic/paid content to have a little gameplay effect as possible, to keep the game non-pay to win.
 
-  - The main reason to keep this feature cosmetic and roplay focused is that I want to stay commited to cosmetic/paid content to have a little gameplay effect as possible, to keep the game non-pay to win.
-
-  **Feedback and suggestion are welcome :) please send your feedback to my Discord or email directly.**
+**Feedback and suggestion are welcome :) please send your feedback to my Discord or email directly.**
 
 ### 0.1878
 
