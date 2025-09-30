@@ -16,6 +16,33 @@ Please send your feedback to my Discord or email me directly.
 
 ## Updates
 
+### 0.1882
+
+- Halloween Event (10/01 to 10/31):
+
+  - Enemies and AFK bot farms will drop `Pumpkin Bro's Seed` which you can exchange for various rewards with `Pumpkin Bro` at the Alleyway in Market Street
+  - `Pumpkin Bro's Seed` are tradable between players and can be exchanged for: Locked Legendary Container, Rare Equipment Crate, Pumpkin Pie, Caramel Apple, Pumpkin Bro's Lollipop, and Skip Discount Tickets
+  - `Caramel Apple` provides a 10% boost to AFK EXP and BTC gains for 20 minutes
+  - `Pumpkin Bro's Lollipop` provides a 20% damage boost for 10 minutes
+  - Halloween-themed chat frames and emblems are available during the event
+
+- Added translation support to gang chat channels
+- **Note**: Due to expected higher usage of the translation service, plus we changed the serviced provider, it may be unstable. Please let me know at ching.huang.dexter@gmail.com if you experience any issues
+
+- As suggested by the community, tutorial quest at the quest tab will now be hidden for player higher than level 100
+
+- **Display Shelf System**:
+
+  - Added display shelf functionality - players can now display up to 3 items on their profile for other players to see
+  - Display shelves are visible to all players and any player can customize their own display shelf
+  - Display shelf slots now unlock progressively based on level and BTC requirements
+  - This feature allows players to showcase their favorite equipment and inventory items
+
+- **Epic Equipment Exchange System Rework**:
+  - Instead of Extraction requiring buff activation, now we moved the buff requirement to Fragment Fusion instead. this way you can convert unwanted epic equipments into fragments at any time.
+  - This is great for inventory management - you can now easily convert unwanted epic equipments into fragments to save inventory slots without having to activate the buff
+  - Improved the Epic Cache Fragment drop rates from equipment extraction
+
 ### 0.1881
 
 - Free chat buff is disabled due to issues reported by the community, I will be adjusting and re-enabling it in the future
