@@ -1384,6 +1384,53 @@
 			}
 		}
 	},
+	"displayShelf": {
+		"error": {
+			"invalidSlot": {
+				"eng": "Invalid display shelf slot.",
+				"trans": "Slot de exhibición inválido."
+			},
+			"itemNotFound": {
+				"eng": "Item not found or not accessible.",
+				"trans": "No se encontró el ítem o no puedes acceder a él."
+			},
+			"levelReq": {
+				"eng": "Requires level ${level}",
+				"trans": "Nivel ${level} requerido",
+				"vars": [
+					"level"
+				]
+			},
+			"moneyReq": {
+				"eng": "Requires ${cost} ${currency}",
+				"trans": "Necesitas ${cost} ${currency}",
+				"vars": [
+					"cost",
+					"currency"
+				]
+			},
+			"unlockOrder": {
+				"eng": "You must unlock slots in order.",
+				"trans": "Debes desbloquear los espacios en orden."
+			},
+			"unlockUnavailable": {
+				"eng": "Slot cannot be unlocked.",
+				"trans": "La ranura no se puede desbloquear."
+			}
+		},
+		"selectItem": {
+			"eng": "Select an item to display",
+			"trans": "Elige un objeto para mostrar"
+		},
+		"unlocked": {
+			"eng": "Display shelf slot unlocked.",
+			"trans": "¡Slot en estante desbloqueado!"
+		},
+		"updated": {
+			"eng": "Display shelf updated.",
+			"trans": "La estantería de exhibición se ha actualizado."
+		}
+	},
 	"donationCard": {
 		"benefits": {
 			"bio": {
@@ -1673,7 +1720,7 @@
 			"trans": "Neón Elite"
 		},
 		"donation44": {
-			"eng": "Haunted Fog",
+			"eng": "CyberGhost",
 			"trans": "Niebla Embrujada"
 		},
 		"donation5": {
@@ -1961,27 +2008,6 @@
 		}
 	},
 	"equipmentExchange": {
-		"accessRequired": {
-			"eng": "Please activate Epic Fragment Extraction first",
-			"trans": "Activa primero la extracción de fragmentos épicos"
-		},
-		"activation": {
-			"button": {
-				"eng": "Activate Access",
-				"trans": "Activar Acceso"
-			},
-			"description": {
-				"eng": "Activate to start extracting your equioment for ${fragmenItem}",
-				"trans": "Inicia la extracción de tu equipo para obtener ${fragmenItem}",
-				"vars": [
-					"fragmenItem"
-				]
-			},
-			"title": {
-				"eng": "Epic Fragment Extraction Access",
-				"trans": "Clave de Extracción: Fragmento Épico"
-			}
-		},
 		"combineFragments": {
 			"button": {
 				"eng": "FUSE ${requiredFragments} FRAGMENTS",
@@ -2001,7 +2027,7 @@
 				"trans": "¿Seguro que quieres desmontar estos equipos y arriesgarte a conseguir fragmentos de caja épica?"
 			},
 			"description2": {
-				"eng": "This process is not reversible and the items WILL be destroyed in process",
+				"eng": "This process is not reversible and the item will be converted after you clicked confirm",
 				"trans": "Este proceso es irreversible. Los objetos serán destruidos sin posibilidad de recuperación"
 			},
 			"title": {
@@ -2046,13 +2072,13 @@
 				"eng": "${item.getName()} is locked",
 				"trans": "${item.getName()} está bloqueado"
 			},
-			"noAccess": {
-				"eng": "You need to activate Equipment Exchange Access to use this feature",
-				"trans": "No puedes usar esta función hasta activar el acceso al intercambio de equipamiento"
-			},
 			"noBackpacks": {
 				"eng": "Backpacks cannot be exchanged",
 				"trans": "Las mochilas no se pueden cambiar"
+			},
+			"noFusionAccess": {
+				"eng": "You need to activate Epic Fragment Fusion Access to use this feature",
+				"trans": "Activa el acceso a la Fusión de Fragmentos Épicos para usar esta función"
 			},
 			"noMoreItems": {
 				"eng": "No more eligible equipment available",
@@ -2075,7 +2101,7 @@
 			}
 		},
 		"exchange": {
-			"eng": "EXCHANGE EQUIPMENT",
+			"eng": "EXTRACT EQUIPMENT",
 			"success": {
 				"eng": "${player} has received ${amount} ${item} from ${npcName}",
 				"trans": "${player} ha recibido ${amount} ${item} del NPC ${npcName} — transacción completada",
@@ -2104,8 +2130,22 @@
 			"eng": "Epic Cache Fragments",
 			"trans": "Fragmentos de Núcleo Épico"
 		},
+		"fusionActivation": {
+			"button": {
+				"eng": "Activate Fusion",
+				"trans": "Activar Fusión"
+			},
+			"description": {
+				"eng": "Activate to fuse Epic Cache Fragments into Epic Equipment",
+				"trans": "Activa para fusionar Fragmentos de Caché Épicos en Equipo Épico"
+			},
+			"title": {
+				"eng": "Epic Fragment Fusion Access",
+				"trans": "Acceso a Fusión de Fragmentos Épicos"
+			}
+		},
 		"fusionDescription": {
-			"eng": "Combine ${amount} Epic Cache Fragments into 1 guaranteed Epic Equipment Cache",
+			"eng": "Fuse ${amount} Epic Cache Fragments into 1 guaranteed Epic Equipment Cache",
 			"trans": "Combina ${amount} Fragmentos de Caja Épica para obtener 1 Caja de Equipamiento Épico garantizada",
 			"vars": [
 				"amount"
@@ -2139,7 +2179,7 @@
 			"trans": "Selecciona tu equipo"
 		},
 		"tip": {
-			"eng": "Exchange ${amount} Epic Tier Equipments for random amount of ${itemName}",
+			"eng": "Extract ${amount} Epic Tier Equipments for random amount of ${itemName}. Extraction is FREE!",
 			"trans": "Intercambia ${amount} equipos Épico por una cantidad aleatoria de ${itemName}",
 			"vars": [
 				"amount",
@@ -2726,36 +2766,6 @@
 			"trans": "Organizar Fiesta"
 		}
 	},
-	"halloweenPromo": {
-		"desc1": {
-			"eng": "Its the spooky time of the year again! Shang-ri-la is celebrating Halloween with a special event!",
-			"trans": "¡Es la época espeluznante del año otra vez! ¡Shang-Ri-La celebra Halloween con un evento especial!"
-		},
-		"desc2v3": {
-			"eng": "Enemies and AI Core auto farm will have chance to drop ${item}!",
-			"trans": "¡Los enemigos y el núcleo de IA de la granja automática tendrán la oportunidad de soltar ${item}!",
-			"vars": [
-				"item"
-			]
-		},
-		"desc3v3": {
-			"eng": "You can find ${npc} at ${location} during Halloween, he will exchange your ${item} for rewards!",
-			"trans": "Puedes encontrar a ${npc} en ${location} durante Halloween, ¡te cambiará tu ${item} por recompensas!",
-			"vars": [
-				"npc",
-				"location",
-				"item"
-			]
-		},
-		"desc4v2": {
-			"eng": "During Halloween, a time limited halloween, cyber-bat chat donation tier and themed emblems will be available!",
-			"trans": "¡Durante Halloween, un Time Limited Halloween, el nivel de donación de chat cibernético y los emblemas temáticos estarán disponibles!"
-		},
-		"title": {
-			"eng": "Happy Halloween!",
-			"trans": "¡Feliz Halloween!"
-		}
-	},
 	"halloweenPromoSmall": {
 		"desc": {
 			"eng": "Collect ${item} to redeem various rewards!",
@@ -2767,6 +2777,36 @@
 		"title": {
 			"eng": "Halloween Event!",
 			"trans": "¡Evento de Halloween!"
+		}
+	},
+	"halloweenPromotion": {
+		"desc1": {
+			"eng": "It's the spooky time of year again! Shang-ri-la is celebrating Halloween with a special event!",
+			"trans": "¡Es esa época espeluznante del año otra vez! ¡Shang-ri-la celebra Halloween con un evento especial!"
+		},
+		"desc2v3": {
+			"eng": "Enemies and AI Core auto-farm have a chance to drop ${item}!",
+			"trans": "¡Los enemigos y el núcleo de IA en auto-farm pueden soltar ${item}!",
+			"vars": [
+				"item"
+			]
+		},
+		"desc3v3": {
+			"eng": "You can find ${npc} at ${location} during Halloween. He will exchange your ${item} for rewards!",
+			"trans": "Puedes encontrar a ${npc} en ${location} durante Halloween. ¡Él cambiará tu ${item} por recompensas!",
+			"vars": [
+				"npc",
+				"location",
+				"item"
+			]
+		},
+		"desc4": {
+			"eng": "During Halloween, a time-limited donation tier and themed emblems will be available!",
+			"trans": "¡En Halloween, habrá una categoría de donación limitada y emblemas con temática especial!"
+		},
+		"title": {
+			"eng": "Happy Halloween!",
+			"trans": "¡Feliz Halloween!"
 		}
 	},
 	"iapCurrency": {
@@ -3831,6 +3871,10 @@
 				]
 			}
 		},
+		"lollipopUseVerb": {
+			"eng": "Suck it up",
+			"trans": "Aguántatelo"
+		},
 		"lootBox1": {
 			"description": {
 				"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container",
@@ -4001,6 +4045,26 @@
 			"name": {
 				"eng": "Christmas Pudding",
 				"trans": "Pudín de Navidad"
+			}
+		},
+		"pumpkinBroLolipop": {
+			"description": {
+				"eng": "A large, sticky, pumpkin-bro-flavored lollipop. It’s way too big for your mouth, suspiciously moist, and Pumpkin Bro swears it was safe to eat. Delicious… probably.",
+				"trans": "Una piruleta gigante, pegajosa y con sabor a calabro-amigo. Es demasiado grande para caber en tu boca, sospechosamente húmeda, y Calabro Amigo jura que se puede comer sin problema. Deliciosa... o quizás no tanto."
+			},
+			"name": {
+				"eng": "Pumpkin Bro's Lolipop",
+				"trans": "La Chupeta de Pumpkin Bro"
+			}
+		},
+		"pumpkinBroSeed": {
+			"description": {
+				"eng": "A plump, moist seed. Pumpkin Bro says it’s his ‘special one.’ He’ll happily trade you something good for it.",
+				"trans": "Una semilla gruesa y húmeda. Hermano Calabaza dice que es su 'favorita'. Con gusto te intercambiará algo chido por ella."
+			},
+			"name": {
+				"eng": "Pumpkin Bro's Seed",
+				"trans": "Semilla de Pumpkin Bro"
 			}
 		},
 		"pumpkinPie": {
@@ -6610,7 +6674,8 @@
 					"Pumpkin is my source of power!",
 					"Check out my pumpkin costume!",
 					"Hmmmm, I wonder what's inside this pumpkin...",
-					"Give me your pumpkin, and I'll give you a treat!"
+					"Want a lollipop?",
+					"Give me your seeds, and I will give you a treat!"
 				],
 				"trans": [
 					"La calabaza es la fuente de mi poder!",
@@ -7401,6 +7466,107 @@
 			"title": {
 				"eng": "Chat Frames",
 				"trans": "Diseños de Chat"
+			}
+		},
+		"displayShelf": {
+			"close": {
+				"eng": "Close",
+				"trans": "Cerrar"
+			},
+			"empty": {
+				"eng": "Empty Slot",
+				"trans": "Ranura libre"
+			},
+			"error": {
+				"level": {
+					"eng": "Reach level ${level} to unlock this slot.",
+					"trans": "Alcanza el nivel ${level} para desbloquear esta ranura.",
+					"vars": [
+						"level"
+					]
+				},
+				"money": {
+					"eng": "You need ${cost} Bitcoins to unlock this slot.",
+					"trans": "Necesitas ${cost} Bitcoins para desbloquear esta ranura.",
+					"vars": [
+						"cost"
+					]
+				},
+				"unavailable": {
+					"eng": "Slot cannot be unlocked.",
+					"trans": "La ranura no se puede desbloquear."
+				}
+			},
+			"locked": {
+				"eng": "Locked Slot",
+				"trans": "Ranura bloqueada"
+			},
+			"lockedRequirement": {
+				"cost": {
+					"eng": "Cost ${cost} ${currency}",
+					"trans": "Costo ${cost} ${currency}",
+					"vars": [
+						"cost",
+						"currency"
+					]
+				},
+				"currentLevel": {
+					"eng": "You are Lv ${level}",
+					"trans": "Estás en nivel ${level}",
+					"vars": [
+						"level"
+					]
+				},
+				"level": {
+					"eng": "Requires Lv ${level}",
+					"trans": "Requiere nivel ${level}",
+					"vars": [
+						"level"
+					]
+				}
+			},
+			"lockedUnavailable": {
+				"eng": "Slot unavailable",
+				"trans": "Ranura no disponible"
+			},
+			"noItems": {
+				"eng": "This player has not placed any items on display.",
+				"trans": "Este jugador todavía no ha colocado nada en la vitrina."
+			},
+			"remove": {
+				"eng": "Remove displayed item",
+				"trans": "Quitar elemento mostrado"
+			},
+			"title": {
+				"eng": "Display Shelf",
+				"trans": "Estante de exhibición"
+			},
+			"unlockConfirm": {
+				"eng": "Unlock",
+				"trans": "Desbloquear"
+			},
+			"unlockDescription": {
+				"eng": "Unlock slot ${slot} for ${cost} ${currency}?",
+				"trans": "¿Quieres desbloquear la ranura ${slot} por ${cost} ${currency}?",
+				"vars": [
+					"slot",
+					"cost",
+					"currency"
+				]
+			},
+			"unlockRequirement": {
+				"cost": {
+					"eng": "Cost",
+					"trans": "Costo"
+				}
+			},
+			"unlockTitle": {
+				"eng": "Unlock Display Shelf Slot",
+				"trans": "Desbloquea la ranura del estante"
+			},
+			"unlockUnavailable": {
+				"eng": "Slot cannot be unlocked.",
+				"trans": "La ranura no se puede desbloquear."
 			}
 		},
 		"donationTiers": {
@@ -9095,11 +9261,11 @@
 			"trans": "Encriptación de chat VPN"
 		},
 		"equipmentExchangeAccess": {
-			"eng": "Equipment Exchange Access",
+			"eng": "Epic Fragment Fusion Access",
 			"trans": "Acceso al intercambio de equipo"
 		},
 		"equipmentExchangeAccessDesc": {
-			"eng": "Grants access to the Epic Fragment Extraction system. You can extract your Epic equipment for Epic Cache Fragments.",
+			"eng": "Grants access to the Epic Fragment Fusion system. You can fuse Epic Cache Fragments into Epic Equipment.",
 			"trans": "Accede al sistema de extracción de fragmentos épicos. Puedes extraer tu equipo épico para obtener fragmentos de caché épicos."
 		},
 		"expBonus": {
@@ -11640,6 +11806,10 @@
 			}
 		},
 		"profile": {
+			"assets": {
+				"eng": "assets",
+				"trans": "recursos"
+			},
 			"deleteAccount": {
 				"button": {
 					"eng": "Delete Account",

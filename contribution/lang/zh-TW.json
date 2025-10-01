@@ -1384,6 +1384,53 @@
 			}
 		}
 	},
+	"displayShelf": {
+		"error": {
+			"invalidSlot": {
+				"eng": "Invalid display shelf slot.",
+				"trans": "展示架欄位無效。"
+			},
+			"itemNotFound": {
+				"eng": "Item not found or not accessible.",
+				"trans": "未找到物品或無法存取。"
+			},
+			"levelReq": {
+				"eng": "Requires level ${level}",
+				"trans": "需要等級 ${level}",
+				"vars": [
+					"level"
+				]
+			},
+			"moneyReq": {
+				"eng": "Requires ${cost} ${currency}",
+				"trans": "需要 ${cost} ${currency}",
+				"vars": [
+					"cost",
+					"currency"
+				]
+			},
+			"unlockOrder": {
+				"eng": "You must unlock slots in order.",
+				"trans": "得先按順序解鎖欄位哦！"
+			},
+			"unlockUnavailable": {
+				"eng": "Slot cannot be unlocked.",
+				"trans": "該插槽無法解鎖。"
+			}
+		},
+		"selectItem": {
+			"eng": "Select an item to display",
+			"trans": "挑一個東西放上顯示架"
+		},
+		"unlocked": {
+			"eng": "Display shelf slot unlocked.",
+			"trans": "展示櫃格子已解鎖。"
+		},
+		"updated": {
+			"eng": "Display shelf updated.",
+			"trans": "顯示櫃更新囉！"
+		}
+	},
 	"donationCard": {
 		"benefits": {
 			"bio": {
@@ -1673,7 +1720,7 @@
 			"trans": "霓虹精英"
 		},
 		"donation44": {
-			"eng": "Haunted Fog",
+			"eng": "CyberGhost",
 			"trans": "鬼魅迷霧"
 		},
 		"donation5": {
@@ -1961,27 +2008,6 @@
 		}
 	},
 	"equipmentExchange": {
-		"accessRequired": {
-			"eng": "Please activate Epic Fragment Extraction first",
-			"trans": "請先啟動史詩碎片提取"
-		},
-		"activation": {
-			"button": {
-				"eng": "Activate Access",
-				"trans": "啟用存取"
-			},
-			"description": {
-				"eng": "Activate to start extracting your equioment for ${fragmenItem}",
-				"trans": "點擊啟動，立即從裝備中提取 ${fragmenItem} ",
-				"vars": [
-					"fragmenItem"
-				]
-			},
-			"title": {
-				"eng": "Epic Fragment Extraction Access",
-				"trans": "解鎖史詩碎片提取權限"
-			}
-		},
 		"combineFragments": {
 			"button": {
 				"eng": "FUSE ${requiredFragments} FRAGMENTS",
@@ -2001,7 +2027,7 @@
 				"trans": "你確定要從這些裝備中提取史詩快取碎片嗎？"
 			},
 			"description2": {
-				"eng": "This process is not reversible and the items WILL be destroyed in process",
+				"eng": "This process is not reversible and the item will be converted after you clicked confirm",
 				"trans": "這個過程無法逆轉，物品將被永久銷毀。"
 			},
 			"title": {
@@ -2046,13 +2072,13 @@
 				"eng": "${item.getName()} is locked",
 				"trans": "${item.getName()} 無法使用，已被鎖定"
 			},
-			"noAccess": {
-				"eng": "You need to activate Equipment Exchange Access to use this feature",
-				"trans": "要使用此功能，需先啟用裝備交換權限。"
-			},
 			"noBackpacks": {
 				"eng": "Backpacks cannot be exchanged",
 				"trans": "目前無法交換背包"
+			},
+			"noFusionAccess": {
+				"eng": "You need to activate Epic Fragment Fusion Access to use this feature",
+				"trans": "你需要啟用 Epic 碎片融合權限才能使用此功能"
 			},
 			"noMoreItems": {
 				"eng": "No more eligible equipment available",
@@ -2075,7 +2101,7 @@
 			}
 		},
 		"exchange": {
-			"eng": "EXCHANGE EQUIPMENT",
+			"eng": "EXTRACT EQUIPMENT",
 			"success": {
 				"eng": "${player} has received ${amount} ${item} from ${npcName}",
 				"trans": "${player} 從 ${npcName} 成功獲得 ${amount} 個 ${item}",
@@ -2104,8 +2130,22 @@
 			"eng": "Epic Cache Fragments",
 			"trans": "史詩快取碎片"
 		},
+		"fusionActivation": {
+			"button": {
+				"eng": "Activate Fusion",
+				"trans": "啟動融合"
+			},
+			"description": {
+				"eng": "Activate to fuse Epic Cache Fragments into Epic Equipment",
+				"trans": "啟用後可將史詩寶庫碎片融合為史詩裝備"
+			},
+			"title": {
+				"eng": "Epic Fragment Fusion Access",
+				"trans": "史詩碎片融合啟用"
+			}
+		},
 		"fusionDescription": {
-			"eng": "Combine ${amount} Epic Cache Fragments into 1 guaranteed Epic Equipment Cache",
+			"eng": "Fuse ${amount} Epic Cache Fragments into 1 guaranteed Epic Equipment Cache",
 			"trans": "把 ${amount} 個 ${fragmentName} 融合成一個史詩快取記憶體",
 			"vars": [
 				"amount"
@@ -2139,7 +2179,7 @@
 			"trans": "選擇裝備"
 		},
 		"tip": {
-			"eng": "Exchange ${amount} Epic Tier Equipments for random amount of ${itemName}",
+			"eng": "Extract ${amount} Epic Tier Equipments for random amount of ${itemName}. Extraction is FREE!",
 			"trans": "使用 ${amount} 件史詩裝備，獲得隨機數量的 ${itemName}",
 			"vars": [
 				"amount",
@@ -2726,36 +2766,6 @@
 			"trans": "舉辦派對"
 		}
 	},
-	"halloweenPromo": {
-		"desc1": {
-			"eng": "Its the spooky time of the year again! Shang-ri-la is celebrating Halloween with a special event!",
-			"trans": "又到了每年最古靈精怪的時間！ Shang-Ri-La正在透過特別活動慶祝萬聖節！"
-		},
-		"desc2v3": {
-			"eng": "Enemies and AI Core auto farm will have chance to drop ${item}!",
-			"trans": "敵人和AI掛機有機會掉落${item}！",
-			"vars": [
-				"item"
-			]
-		},
-		"desc3v3": {
-			"eng": "You can find ${npc} at ${location} during Halloween, he will exchange your ${item} for rewards!",
-			"trans": "萬聖節期間你可以在${location}找到${npc}，他會用你的${item}來換取獎勵！",
-			"vars": [
-				"npc",
-				"location",
-				"item"
-			]
-		},
-		"desc4v2": {
-			"eng": "During Halloween, a time limited halloween, cyber-bat chat donation tier and themed emblems will be available!",
-			"trans": "在萬聖節期間，賽博蝙蝠聊天外框和主題徽章限時販售！"
-		},
-		"title": {
-			"eng": "Happy Halloween!",
-			"trans": "萬聖節快樂！"
-		}
-	},
 	"halloweenPromoSmall": {
 		"desc": {
 			"eng": "Collect ${item} to redeem various rewards!",
@@ -2767,6 +2777,36 @@
 		"title": {
 			"eng": "Halloween Event!",
 			"trans": "萬聖節活動！"
+		}
+	},
+	"halloweenPromotion": {
+		"desc1": {
+			"eng": "It's the spooky time of year again! Shang-ri-la is celebrating Halloween with a special event!",
+			"trans": "詭異的季節又來了！香格里拉將舉辦萬聖節特別活動慶祝！"
+		},
+		"desc2v3": {
+			"eng": "Enemies and AI Core auto-farm have a chance to drop ${item}!",
+			"trans": "敵人與AI核心的自動農有機會掉落${item}！",
+			"vars": [
+				"item"
+			]
+		},
+		"desc3v3": {
+			"eng": "You can find ${npc} at ${location} during Halloween. He will exchange your ${item} for rewards!",
+			"trans": "在萬聖節期間，你可以在${location}找到${npc}！帶上你的${item}去跟他換獎勵吧！",
+			"vars": [
+				"npc",
+				"location",
+				"item"
+			]
+		},
+		"desc4": {
+			"eng": "During Halloween, a time-limited donation tier and themed emblems will be available!",
+			"trans": "萬聖節期間，將推出限時捐獻階層與主題徽章！"
+		},
+		"title": {
+			"eng": "Happy Halloween!",
+			"trans": "萬聖節來鬧一下！"
 		}
 	},
 	"iapCurrency": {
@@ -3831,6 +3871,10 @@
 				]
 			}
 		},
+		"lollipopUseVerb": {
+			"eng": "Suck it up",
+			"trans": "含起來"
+		},
 		"lootBox1": {
 			"description": {
 				"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container",
@@ -4001,6 +4045,26 @@
 			"name": {
 				"eng": "Christmas Pudding",
 				"trans": "聖誕布丁"
+			}
+		},
+		"pumpkinBroLolipop": {
+			"description": {
+				"eng": "A large, sticky, pumpkin-bro-flavored lollipop. It’s way too big for your mouth, suspiciously moist, and Pumpkin Bro swears it was safe to eat. Delicious… probably.",
+				"trans": "一支超大隻、黏糊糊的南瓜兄弟風味棒棒糖。大到根本塞不進嘴巴裡，濕答答得有點可疑，但南瓜兄弟還信誓旦旦說吃了沒問題。好吃……應該吧？"
+			},
+			"name": {
+				"eng": "Pumpkin Bro's Lolipop",
+				"trans": "南瓜兄弟的棒棒糖"
+			}
+		},
+		"pumpkinBroSeed": {
+			"description": {
+				"eng": "A plump, moist seed. Pumpkin Bro says it’s his ‘special one.’ He’ll happily trade you something good for it.",
+				"trans": "一顆飽滿潤澤的種子。南瓜小哥說這是他的「私房寶貝」。他會很樂意用這個跟你換點好東西。"
+			},
+			"name": {
+				"eng": "Pumpkin Bro's Seed",
+				"trans": "南瓜弟兄的種子"
 			}
 		},
 		"pumpkinPie": {
@@ -6661,7 +6725,8 @@
 					"Pumpkin is my source of power!",
 					"Check out my pumpkin costume!",
 					"Hmmmm, I wonder what's inside this pumpkin...",
-					"Give me your pumpkin, and I'll give you a treat!"
+					"Want a lollipop?",
+					"Give me your seeds, and I will give you a treat!"
 				],
 				"trans": [
 					"南瓜是我的能量來源！",
@@ -7605,6 +7670,107 @@
 			"title": {
 				"eng": "Chat Frames",
 				"trans": "聊天外框"
+			}
+		},
+		"displayShelf": {
+			"close": {
+				"eng": "Close",
+				"trans": "關閉"
+			},
+			"empty": {
+				"eng": "Empty Slot",
+				"trans": "空格子"
+			},
+			"error": {
+				"level": {
+					"eng": "Reach level ${level} to unlock this slot.",
+					"trans": "達到等級 ${level} 才能解鎖這個插槽。",
+					"vars": [
+						"level"
+					]
+				},
+				"money": {
+					"eng": "You need ${cost} Bitcoins to unlock this slot.",
+					"trans": "你需要 ${cost} 比特幣才能解鎖這個插槽。",
+					"vars": [
+						"cost"
+					]
+				},
+				"unavailable": {
+					"eng": "Slot cannot be unlocked.",
+					"trans": "該插槽無法解鎖。"
+				}
+			},
+			"locked": {
+				"eng": "Locked Slot",
+				"trans": "已鎖定格子"
+			},
+			"lockedRequirement": {
+				"cost": {
+					"eng": "Cost ${cost} ${currency}",
+					"trans": "費用 ${cost} ${currency}",
+					"vars": [
+						"cost",
+						"currency"
+					]
+				},
+				"currentLevel": {
+					"eng": "You are Lv ${level}",
+					"trans": "你的等級是 Lv ${level}",
+					"vars": [
+						"level"
+					]
+				},
+				"level": {
+					"eng": "Requires Lv ${level}",
+					"trans": "須達等級 ${level}",
+					"vars": [
+						"level"
+					]
+				}
+			},
+			"lockedUnavailable": {
+				"eng": "Slot unavailable",
+				"trans": "格子不可用"
+			},
+			"noItems": {
+				"eng": "This player has not placed any items on display.",
+				"trans": "這個玩家尚未在展示櫃上放置任何物品。"
+			},
+			"remove": {
+				"eng": "Remove displayed item",
+				"trans": "下架展示中的道具"
+			},
+			"title": {
+				"eng": "Display Shelf",
+				"trans": "展示架"
+			},
+			"unlockConfirm": {
+				"eng": "Unlock",
+				"trans": "解鎖"
+			},
+			"unlockDescription": {
+				"eng": "Unlock slot ${slot} for ${cost} ${currency}?",
+				"trans": "要花 ${cost} ${currency} 解鎖第${slot}個欄位嗎？",
+				"vars": [
+					"slot",
+					"cost",
+					"currency"
+				]
+			},
+			"unlockRequirement": {
+				"cost": {
+					"eng": "Cost",
+					"trans": "Cost"
+				}
+			},
+			"unlockTitle": {
+				"eng": "Unlock Display Shelf Slot",
+				"trans": "解鎖展示櫃格子"
+			},
+			"unlockUnavailable": {
+				"eng": "Slot cannot be unlocked.",
+				"trans": "該插槽無法解鎖。"
 			}
 		},
 		"donationTiers": {
@@ -9299,11 +9465,11 @@
 			"trans": "聊天加密"
 		},
 		"equipmentExchangeAccess": {
-			"eng": "Equipment Exchange Access",
+			"eng": "Epic Fragment Fusion Access",
 			"trans": "裝備交換權限"
 		},
 		"equipmentExchangeAccessDesc": {
-			"eng": "Grants access to the Epic Fragment Extraction system. You can extract your Epic equipment for Epic Cache Fragments.",
+			"eng": "Grants access to the Epic Fragment Fusion system. You can fuse Epic Cache Fragments into Epic Equipment.",
 			"trans": "解鎖史詩碎片提取系統權限，從你的史詩裝備中提取史詩碎片。"
 		},
 		"expBonus": {
@@ -11844,6 +12010,10 @@
 			}
 		},
 		"profile": {
+			"assets": {
+				"eng": "assets",
+				"trans": "資產"
+			},
 			"deleteAccount": {
 				"button": {
 					"eng": "Delete Account",

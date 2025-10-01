@@ -1384,6 +1384,53 @@
 			}
 		}
 	},
+	"displayShelf": {
+		"error": {
+			"invalidSlot": {
+				"eng": "Invalid display shelf slot.",
+				"trans": "Arrr, that be no good, matey! The slot be invalid."
+			},
+			"itemNotFound": {
+				"eng": "Item not found or not accessible.",
+				"trans": "Arr, item be lost or outta reach, matey!"
+			},
+			"levelReq": {
+				"eng": "Requires level ${level}",
+				"trans": "Ye need to be at least level ${level}",
+				"vars": [
+					"level"
+				]
+			},
+			"moneyReq": {
+				"eng": "Requires ${cost} ${currency}",
+				"trans": "Arrr, ye be short of ${cost} ${currency}!",
+				"vars": [
+					"cost",
+					"currency"
+				]
+			},
+			"unlockOrder": {
+				"eng": "You must unlock slots in order.",
+				"trans": "Ye gotta unlock 'em one by one, matey!"
+			},
+			"unlockUnavailable": {
+				"eng": "Slot cannot be unlocked.",
+				"trans": "This slot be still locked, matey!"
+			}
+		},
+		"selectItem": {
+			"eng": "Select an item to display",
+			"trans": "Pick yer loot to display, arrr!"
+		},
+		"unlocked": {
+			"eng": "Display shelf slot unlocked.",
+			"trans": "Shiver me timbers! A new slot on yer display shelf be unlocked!"
+		},
+		"updated": {
+			"eng": "Display shelf updated.",
+			"trans": "Ye display shelf be updated, matey."
+		}
+	},
 	"donationCard": {
 		"benefits": {
 			"bio": {
@@ -1673,7 +1720,7 @@
 			"trans": "Glowin' Elite"
 		},
 		"donation44": {
-			"eng": "Haunted Fog",
+			"eng": "CyberGhost",
 			"trans": "Ghostly Haze"
 		},
 		"donation5": {
@@ -1961,27 +2008,6 @@
 		}
 	},
 	"equipmentExchange": {
-		"accessRequired": {
-			"eng": "Please activate Epic Fragment Extraction first",
-			"trans": "Arrr! The Epic Fragment Extraction be needed before ye can splice this gear, matey!"
-		},
-		"activation": {
-			"button": {
-				"eng": "Activate Access",
-				"trans": "Arrr! Power up the access!"
-			},
-			"description": {
-				"eng": "Activate to start extracting your equioment for ${fragmenItem}",
-				"trans": "Avast! Activate to begin plundering yer gear for ${fragmenItem}, mate!",
-				"vars": [
-					"fragmenItem"
-				]
-			},
-			"title": {
-				"eng": "Epic Fragment Extraction Access",
-				"trans": "Arr! Access to the Epic Fragment Heist"
-			}
-		},
 		"combineFragments": {
 			"button": {
 				"eng": "FUSE ${requiredFragments} FRAGMENTS",
@@ -2001,7 +2027,7 @@
 				"trans": "Avast! Ye certain ye want to plunder these contraptions for a chance at the Epic Cache Fragments? Aye, it’s a gamble worth the risk!"
 			},
 			"description2": {
-				"eng": "This process is not reversible and the items WILL be destroyed in process",
+				"eng": "This process is not reversible and the item will be converted after you clicked confirm",
 				"trans": "Matey, this be irreversible—ye be destroyin’ the items, and there be no second chances!"
 			},
 			"title": {
@@ -2046,13 +2072,13 @@
 				"eng": "${item.getName()} is locked",
 				"trans": "Avast! ${item.getName()} be shackled—can’t trade it till it’s unchained!"
 			},
-			"noAccess": {
-				"eng": "You need to activate Equipment Exchange Access to use this feature",
-				"trans": "Arrr! No access to the Exchange yet, ye landlubber—gotta activate it first!"
-			},
 			"noBackpacks": {
 				"eng": "Backpacks cannot be exchanged",
 				"trans": "Backpacks be off-limits for trade, matey!"
+			},
+			"noFusionAccess": {
+				"eng": "You need to activate Epic Fragment Fusion Access to use this feature",
+				"trans": "Avast! Ye can't use this feature until ye activate the Epic Fragment Fusion access"
 			},
 			"noMoreItems": {
 				"eng": "No more eligible equipment available",
@@ -2075,7 +2101,7 @@
 			}
 		},
 		"exchange": {
-			"eng": "EXCHANGE EQUIPMENT",
+			"eng": "EXTRACT EQUIPMENT",
 			"success": {
 				"eng": "${player} has received ${amount} ${item} from ${npcName}",
 				"trans": "Avast! ${player} now holds ${amount} ${item} from ${npcName}—a proper haul, that be!",
@@ -2104,8 +2130,22 @@
 			"eng": "Epic Cache Fragments",
 			"trans": "Pieces o' the Epic Vault"
 		},
+		"fusionActivation": {
+			"button": {
+				"eng": "Activate Fusion",
+				"trans": "¡Enciende la fusión!"
+			},
+			"description": {
+				"eng": "Activate to fuse Epic Cache Fragments into Epic Equipment",
+				"trans": "Fire it up to merge Epic Cache Fragments into mighty gear!"
+			},
+			"title": {
+				"eng": "Epic Fragment Fusion Access",
+				"trans": "Epic Fragment Booty Access"
+			}
+		},
 		"fusionDescription": {
-			"eng": "Combine ${amount} Epic Cache Fragments into 1 guaranteed Epic Equipment Cache",
+			"eng": "Fuse ${amount} Epic Cache Fragments into 1 guaranteed Epic Equipment Cache",
 			"trans": "Batten down the hatches! Combine ${amount} ${fragmentName} to forge a random Epic Equipment Cache, matey!",
 			"vars": [
 				"amount"
@@ -2139,7 +2179,7 @@
 			"trans": "Choose yer gear, swashbuckler!"
 		},
 		"tip": {
-			"eng": "Exchange ${amount} Epic Tier Equipments for random amount of ${itemName}",
+			"eng": "Extract ${amount} Epic Tier Equipments for random amount of ${itemName}. Extraction is FREE!",
 			"trans": "Exchange ${amount} of your fancy Epic gear for a surprise stash o' ${itemName}, arrr!",
 			"vars": [
 				"amount",
@@ -2726,36 +2766,6 @@
 			"trans": "Gather the Crew"
 		}
 	},
-	"halloweenPromo": {
-		"desc1": {
-			"eng": "Its the spooky time of the year again! Shang-ri-la is celebrating Halloween with a special event!",
-			"trans": "Shiver me timbers! The ghostly tide be rollin' in! Shang-ri-la's hoistin' the colors for a Halloween shindig!"
-		},
-		"desc2v3": {
-			"eng": "Enemies and AI Core auto farm will have chance to drop ${item}!",
-			"trans": "Ahoy, mateys! Set yer rigs to plunderin' them foes and AI Cores automatically, and ye might just find ${item}!",
-			"vars": [
-				"item"
-			]
-		},
-		"desc3v3": {
-			"eng": "You can find ${npc} at ${location} during Halloween, he will exchange your ${item} for rewards!",
-			"trans": "Ahoy, matey! Find ${npc} at ${location} this Halloween, and he'll swap yer ${item} for booty!",
-			"vars": [
-				"npc",
-				"location",
-				"item"
-			]
-		},
-		"desc4v2": {
-			"eng": "During Halloween, a time limited halloween, cyber-bat chat donation tier and themed emblems will be available!",
-			"trans": "Avast, ye scallywags! This Halloween, a treasure trove o' limited-time cyber-bat chat doubloons and themed Jolly Rogers be up for grabs!"
-		},
-		"title": {
-			"eng": "Happy Halloween!",
-			"trans": "Ahoy, Mateys! 'Tis Halloween!"
-		}
-	},
 	"halloweenPromoSmall": {
 		"desc": {
 			"eng": "Collect ${item} to redeem various rewards!",
@@ -2767,6 +2777,36 @@
 		"title": {
 			"eng": "Halloween Event!",
 			"trans": "Avast! Halloween Booty Awaits!"
+		}
+	},
+	"halloweenPromotion": {
+		"desc1": {
+			"eng": "It's the spooky time of year again! Shang-ri-la is celebrating Halloween with a special event!",
+			"trans": "Arrr, it be that spooky time o' year once more! Shang-ri-la be celebratin' Halloween with a special event, matey!"
+		},
+		"desc2v3": {
+			"eng": "Enemies and AI Core auto-farm have a chance to drop ${item}!",
+			"trans": "Ye enemies and AI Core auto-farm have a shot at plunderin' ${item}! Ahoy!",
+			"vars": [
+				"item"
+			]
+		},
+		"desc3v3": {
+			"eng": "You can find ${npc} at ${location} during Halloween. He will exchange your ${item} for rewards!",
+			"trans": "Arrr! Find ${npc} at ${location} during Halloween. He'll trade yer ${item} for some fine booty!",
+			"vars": [
+				"npc",
+				"location",
+				"item"
+			]
+		},
+		"desc4": {
+			"eng": "During Halloween, a time-limited donation tier and themed emblems will be available!",
+			"trans": "Yo ho ho! This Halloween, a treasure trove of a donation tier and themed emblems be yours for a limited time!"
+		},
+		"title": {
+			"eng": "Happy Halloween!",
+			"trans": "Yo-ho-ho! Happy Halloween, me hearties!"
 		}
 	},
 	"iapCurrency": {
@@ -3831,6 +3871,10 @@
 				]
 			}
 		},
+		"lollipopUseVerb": {
+			"eng": "Suck it up",
+			"trans": "Swallow yer pride and carry on!"
+		},
 		"lootBox1": {
 			"description": {
 				"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container",
@@ -4001,6 +4045,26 @@
 			"name": {
 				"eng": "Christmas Pudding",
 				"trans": "Yule Tide Grub"
+			}
+		},
+		"pumpkinBroLolipop": {
+			"description": {
+				"eng": "A large, sticky, pumpkin-bro-flavored lollipop. It’s way too big for your mouth, suspiciously moist, and Pumpkin Bro swears it was safe to eat. Delicious… probably.",
+				"trans": "Arrr, a mighty big, gooey pumpkin-bro treat. Too big fer yer gob, looks a bit fishy, but Pumpkin Bro swears it be safe to chomp. Yummy... maybe."
+			},
+			"name": {
+				"eng": "Pumpkin Bro's Lolipop",
+				"trans": "Pumpkin Bro's Lolly, Arr!"
+			}
+		},
+		"pumpkinBroSeed": {
+			"description": {
+				"eng": "A plump, moist seed. Pumpkin Bro says it’s his ‘special one.’ He’ll happily trade you something good for it.",
+				"trans": "Arrr, a fat, juicy seed. Pumpkin Bro claims it's his 'special treasure.' He'll gladly swap ye somethin' mighty fine for it."
+			},
+			"name": {
+				"eng": "Pumpkin Bro's Seed",
+				"trans": "Pumpkin Buccaneer's Seed"
 			}
 		},
 		"pumpkinPie": {
@@ -6610,7 +6674,8 @@
 					"Pumpkin is my source of power!",
 					"Check out my pumpkin costume!",
 					"Hmmmm, I wonder what's inside this pumpkin...",
-					"Give me your pumpkin, and I'll give you a treat!"
+					"Want a lollipop?",
+					"Give me your seeds, and I will give you a treat!"
 				],
 				"trans": [
 					"Pumpkin is my source of power!",
@@ -7401,6 +7466,107 @@
 			"title": {
 				"eng": "Chat Frames",
 				"trans": "Aye, Speak-Boxes"
+			}
+		},
+		"displayShelf": {
+			"close": {
+				"eng": "Close",
+				"trans": "Shove off, matey!"
+			},
+			"empty": {
+				"eng": "Empty Slot",
+				"trans": "No Bounty Here"
+			},
+			"error": {
+				"level": {
+					"eng": "Reach level ${level} to unlock this slot.",
+					"trans": "Hoist yer level to ${level} to unlock this spot, matey!",
+					"vars": [
+						"level"
+					]
+				},
+				"money": {
+					"eng": "You need ${cost} Bitcoins to unlock this slot.",
+					"trans": "Arrr! Pay ${cost} pieces of eight to unlock this spot.",
+					"vars": [
+						"cost"
+					]
+				},
+				"unavailable": {
+					"eng": "Slot cannot be unlocked.",
+					"trans": "This slot be still locked, matey!"
+				}
+			},
+			"locked": {
+				"eng": "Locked Slot",
+				"trans": "Sealed Chest"
+			},
+			"lockedRequirement": {
+				"cost": {
+					"eng": "Cost ${cost} ${currency}",
+					"trans": "Doubloons required: ${cost} ${currency}",
+					"vars": [
+						"cost",
+						"currency"
+					]
+				},
+				"currentLevel": {
+					"eng": "You are Lv ${level}",
+					"trans": "Ye be Level ${level}, matey!",
+					"vars": [
+						"level"
+					]
+				},
+				"level": {
+					"eng": "Requires Lv ${level}",
+					"trans": "Requires Bounty ${level}",
+					"vars": [
+						"level"
+					]
+				}
+			},
+			"lockedUnavailable": {
+				"eng": "Slot unavailable",
+				"trans": "This spot be locked tight, matey!"
+			},
+			"noItems": {
+				"eng": "This player has not placed any items on display.",
+				"trans": "Arr, ye haven't got any loot on display, matey!"
+			},
+			"remove": {
+				"eng": "Remove displayed item",
+				"trans": "Ye can ditch this gear"
+			},
+			"title": {
+				"eng": "Display Shelf",
+				"trans": "Loot Locker"
+			},
+			"unlockConfirm": {
+				"eng": "Unlock",
+				"trans": "Open the Loot"
+			},
+			"unlockDescription": {
+				"eng": "Unlock slot ${slot} for ${cost} ${currency}?",
+				"trans": "Arrr! Want to open slot ${slot} fer ${cost} ${currency}? Aye, it’ll be worth the plunder!",
+				"vars": [
+					"slot",
+					"cost",
+					"currency"
+				]
+			},
+			"unlockRequirement": {
+				"cost": {
+					"eng": "Cost",
+					"trans": "Doubloons"
+				}
+			},
+			"unlockTitle": {
+				"eng": "Unlock Display Shelf Slot",
+				"trans": "Unleash a new spot fer yer loot!"
+			},
+			"unlockUnavailable": {
+				"eng": "Slot cannot be unlocked.",
+				"trans": "This slot be still locked, matey!"
 			}
 		},
 		"donationTiers": {
@@ -9095,11 +9261,11 @@
 			"trans": "Parley's Guard"
 		},
 		"equipmentExchangeAccess": {
-			"eng": "Equipment Exchange Access",
+			"eng": "Epic Fragment Fusion Access",
 			"trans": "Access to the Ship's Armory: Ready to Trade, Cap’n!"
 		},
 		"equipmentExchangeAccessDesc": {
-			"eng": "Grants access to the Epic Fragment Extraction system. You can extract your Epic equipment for Epic Cache Fragments.",
+			"eng": "Grants access to the Epic Fragment Fusion system. You can fuse Epic Cache Fragments into Epic Equipment.",
 			"trans": "Arr! Grants access to the Dread Fragment Extraction Rig. Ye can strip yer Epic gear for Cache Shards, me hearties!"
 		},
 		"expBonus": {
@@ -11640,6 +11806,10 @@
 			}
 		},
 		"profile": {
+			"assets": {
+				"eng": "assets",
+				"trans": "Treasure"
+			},
 			"deleteAccount": {
 				"button": {
 					"eng": "Delete Account",

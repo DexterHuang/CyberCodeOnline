@@ -1384,6 +1384,53 @@
 			}
 		}
 	},
+	"displayShelf": {
+		"error": {
+			"invalidSlot": {
+				"eng": "Invalid display shelf slot.",
+				"trans": "Slot rak tampilan tidak valid."
+			},
+			"itemNotFound": {
+				"eng": "Item not found or not accessible.",
+				"trans": "Item tidak ditemukan atau tidak bisa diakses."
+			},
+			"levelReq": {
+				"eng": "Requires level ${level}",
+				"trans": "Membutuhkan level ${level}",
+				"vars": [
+					"level"
+				]
+			},
+			"moneyReq": {
+				"eng": "Requires ${cost} ${currency}",
+				"trans": "Butuh ${cost} ${currency}",
+				"vars": [
+					"cost",
+					"currency"
+				]
+			},
+			"unlockOrder": {
+				"eng": "You must unlock slots in order.",
+				"trans": "Kamu harus membuka slot secara berurutan."
+			},
+			"unlockUnavailable": {
+				"eng": "Slot cannot be unlocked.",
+				"trans": "Slot tidak bisa dibuka kunci."
+			}
+		},
+		"selectItem": {
+			"eng": "Select an item to display",
+			"trans": "Pilih sebuah item untuk ditampilkan"
+		},
+		"unlocked": {
+			"eng": "Display shelf slot unlocked.",
+			"trans": "Slot rak tampilan terbuka."
+		},
+		"updated": {
+			"eng": "Display shelf updated.",
+			"trans": "Rak tampilan diperbarui."
+		}
+	},
 	"donationCard": {
 		"benefits": {
 			"bio": {
@@ -1673,7 +1720,7 @@
 			"trans": "Neon Elite"
 		},
 		"donation44": {
-			"eng": "Haunted Fog",
+			"eng": "CyberGhost",
 			"trans": "Kabut Berhantu"
 		},
 		"donation5": {
@@ -1961,27 +2008,6 @@
 		}
 	},
 	"equipmentExchange": {
-		"accessRequired": {
-			"eng": "Please activate Epic Fragment Extraction first",
-			"trans": "Aktifkan Ekstraksi Fragmen Epik terlebih dahulu untuk melanjutkan"
-		},
-		"activation": {
-			"button": {
-				"eng": "Activate Access",
-				"trans": "Nyalakan Akses"
-			},
-			"description": {
-				"eng": "Activate to start extracting your equioment for ${fragmenItem}",
-				"trans": "Tekan untuk mulai ekstrak peralatan Anda untuk ${fragmenItem}",
-				"vars": [
-					"fragmenItem"
-				]
-			},
-			"title": {
-				"eng": "Epic Fragment Extraction Access",
-				"trans": "Akses Ekstraksi Fragmen dari Dunia Lain"
-			}
-		},
 		"combineFragments": {
 			"button": {
 				"eng": "FUSE ${requiredFragments} FRAGMENTS",
@@ -2001,7 +2027,7 @@
 				"trans": "Yakin mau ekstrak peralatan ini demi kesempatan mendapat Fragmen Kunci Epik?"
 			},
 			"description2": {
-				"eng": "This process is not reversible and the items WILL be destroyed in process",
+				"eng": "This process is not reversible and the item will be converted after you clicked confirm",
 				"trans": "Tindakan ini tidak bisa dibatalkan, dan item akan dihancurkan dalam proses ini"
 			},
 			"title": {
@@ -2046,13 +2072,13 @@
 				"eng": "${item.getName()} is locked",
 				"trans": "Item ${item.getName()} sedang terkunci"
 			},
-			"noAccess": {
-				"eng": "You need to activate Equipment Exchange Access to use this feature",
-				"trans": "Untuk menggunakan fitur ini, Anda harus mengaktifkan akses Pertukaran Peralatan"
-			},
 			"noBackpacks": {
 				"eng": "Backpacks cannot be exchanged",
 				"trans": "ransel tidak bisa ditukar"
+			},
+			"noFusionAccess": {
+				"eng": "You need to activate Epic Fragment Fusion Access to use this feature",
+				"trans": "Anda perlu mengaktifkan Akses Fusi Fragmen Epik untuk menggunakan fitur ini"
 			},
 			"noMoreItems": {
 				"eng": "No more eligible equipment available",
@@ -2075,7 +2101,7 @@
 			}
 		},
 		"exchange": {
-			"eng": "EXCHANGE EQUIPMENT",
+			"eng": "EXTRACT EQUIPMENT",
 			"success": {
 				"eng": "${player} has received ${amount} ${item} from ${npcName}",
 				"trans": "${player} dapat ${amount} ${item} dari ${npcName}",
@@ -2104,8 +2130,22 @@
 			"eng": "Epic Cache Fragments",
 			"trans": "Fragmen Cache Epik"
 		},
+		"fusionActivation": {
+			"button": {
+				"eng": "Activate Fusion",
+				"trans": "Aktifkan Fusi"
+			},
+			"description": {
+				"eng": "Activate to fuse Epic Cache Fragments into Epic Equipment",
+				"trans": "Aktifkan untuk fusekan Potongan Kache Epik menjadi Alat Epik"
+			},
+			"title": {
+				"eng": "Epic Fragment Fusion Access",
+				"trans": "Akses Fusi Fragmen Epik"
+			}
+		},
 		"fusionDescription": {
-			"eng": "Combine ${amount} Epic Cache Fragments into 1 guaranteed Epic Equipment Cache",
+			"eng": "Fuse ${amount} Epic Cache Fragments into 1 guaranteed Epic Equipment Cache",
 			"trans": "Gabungkan ${amount} ${fragmentName} jadi 1 Peti Peralatan Epik acak",
 			"vars": [
 				"amount"
@@ -2139,7 +2179,7 @@
 			"trans": "Pilih Peralatan"
 		},
 		"tip": {
-			"eng": "Exchange ${amount} Epic Tier Equipments for random amount of ${itemName}",
+			"eng": "Extract ${amount} Epic Tier Equipments for random amount of ${itemName}. Extraction is FREE!",
 			"trans": "Tukar ${amount} Peralatan Epic Tier untuk jumlah acak ${itemName}",
 			"vars": [
 				"amount",
@@ -2726,36 +2766,6 @@
 			"trans": "Gelar Pesta"
 		}
 	},
-	"halloweenPromo": {
-		"desc1": {
-			"eng": "Its the spooky time of the year again! Shang-ri-la is celebrating Halloween with a special event!",
-			"trans": "Ini adalah waktu seram tahun ini lagi! Shang-ri-la merayakan Halloween dengan event khusus!"
-		},
-		"desc2v3": {
-			"eng": "Enemies and AI Core auto farm will have chance to drop ${item}!",
-			"trans": "Musuh dan AI Core auto farm akan memiliki kesempatan untuk menjatuhkan ${item}!",
-			"vars": [
-				"item"
-			]
-		},
-		"desc3v3": {
-			"eng": "You can find ${npc} at ${location} during Halloween, he will exchange your ${item} for rewards!",
-			"trans": "Kamu bisa menemukan ${npc} di ${location} saat Halloween, dia akan menukarkan ${item}mu dengan hadiah!",
-			"vars": [
-				"npc",
-				"location",
-				"item"
-			]
-		},
-		"desc4v2": {
-			"eng": "During Halloween, a time limited halloween, cyber-bat chat donation tier and themed emblems will be available!",
-			"trans": "Selama Halloween, Halloween terbatas waktu, tier donasi obrolan cyber-bat dan lambang bertema akan tersedia!"
-		},
-		"title": {
-			"eng": "Happy Halloween!",
-			"trans": "Selamat Halloween!"
-		}
-	},
 	"halloweenPromoSmall": {
 		"desc": {
 			"eng": "Collect ${item} to redeem various rewards!",
@@ -2767,6 +2777,36 @@
 		"title": {
 			"eng": "Halloween Event!",
 			"trans": "Acara Halloween!"
+		}
+	},
+	"halloweenPromotion": {
+		"desc1": {
+			"eng": "It's the spooky time of year again! Shang-ri-la is celebrating Halloween with a special event!",
+			"trans": "Waktu tahun yang spooky lagi! Shang-ri-la merayakan Halloween dengan acara khusus!"
+		},
+		"desc2v3": {
+			"eng": "Enemies and AI Core auto-farm have a chance to drop ${item}!",
+			"trans": "Musuh dan Farm Otomatis Inti AI memiliki kemungkinan melemparkan ${item}!",
+			"vars": [
+				"item"
+			]
+		},
+		"desc3v3": {
+			"eng": "You can find ${npc} at ${location} during Halloween. He will exchange your ${item} for rewards!",
+			"trans": "Kamu bisa temukan ${npc} di ${location} selama Halloween. Dia akan menukar ${item}mu untuk hadiah!",
+			"vars": [
+				"npc",
+				"location",
+				"item"
+			]
+		},
+		"desc4": {
+			"eng": "During Halloween, a time-limited donation tier and themed emblems will be available!",
+			"trans": "Selama Halloween, akan ada tingkat donasi terbatas waktu dan emblem tema!"
+		},
+		"title": {
+			"eng": "Happy Halloween!",
+			"trans": "Halloween yang bahagia!"
 		}
 	},
 	"iapCurrency": {
@@ -3831,6 +3871,10 @@
 				]
 			}
 		},
+		"lollipopUseVerb": {
+			"eng": "Suck it up",
+			"trans": "Sisikkan itu"
+		},
 		"lootBox1": {
 			"description": {
 				"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container",
@@ -4001,6 +4045,26 @@
 			"name": {
 				"eng": "Christmas Pudding",
 				"trans": "Puding Natal"
+			}
+		},
+		"pumpkinBroLolipop": {
+			"description": {
+				"eng": "A large, sticky, pumpkin-bro-flavored lollipop. It’s way too big for your mouth, suspiciously moist, and Pumpkin Bro swears it was safe to eat. Delicious… probably.",
+				"trans": "Lollipop besar, pekat, rasa Pumpkun Bro. Dia terlalu besar buat mulutmu, mencuriganya lembap, dan Pumpkun Bro berjanji keras ini aman dimakan. Enak… mungkin."
+			},
+			"name": {
+				"eng": "Pumpkin Bro's Lolipop",
+				"trans": "Pumpkin Bro Lolipop"
+			}
+		},
+		"pumpkinBroSeed": {
+			"description": {
+				"eng": "A plump, moist seed. Pumpkin Bro says it’s his ‘special one.’ He’ll happily trade you something good for it.",
+				"trans": "Benih yang gemuk dan lembab. Pumpkin Bro bilang ini tuh \"yang spesial\" dia. Dia bakal senang banget menuker sesuatu yang baik buat kamu untuk ini."
+			},
+			"name": {
+				"eng": "Pumpkin Bro's Seed",
+				"trans": "Benih Pumpkin Bro"
 			}
 		},
 		"pumpkinPie": {
@@ -6610,7 +6674,8 @@
 					"Pumpkin is my source of power!",
 					"Check out my pumpkin costume!",
 					"Hmmmm, I wonder what's inside this pumpkin...",
-					"Give me your pumpkin, and I'll give you a treat!"
+					"Want a lollipop?",
+					"Give me your seeds, and I will give you a treat!"
 				],
 				"trans": [
 					"Pumpkin is my source of power!",
@@ -7401,6 +7466,107 @@
 			"title": {
 				"eng": "Chat Frames",
 				"trans": "Desain Obrolan"
+			}
+		},
+		"displayShelf": {
+			"close": {
+				"eng": "Close",
+				"trans": "Tutup"
+			},
+			"empty": {
+				"eng": "Empty Slot",
+				"trans": "Slot Kosong"
+			},
+			"error": {
+				"level": {
+					"eng": "Reach level ${level} to unlock this slot.",
+					"trans": "Capai level ${level} untuk membuka slot ini.",
+					"vars": [
+						"level"
+					]
+				},
+				"money": {
+					"eng": "You need ${cost} Bitcoins to unlock this slot.",
+					"trans": "Anda perlu ${cost} Bitcoin untuk membuka slot ini.",
+					"vars": [
+						"cost"
+					]
+				},
+				"unavailable": {
+					"eng": "Slot cannot be unlocked.",
+					"trans": "Slot tidak bisa dibuka kunci."
+				}
+			},
+			"locked": {
+				"eng": "Locked Slot",
+				"trans": "Slot Terkunci"
+			},
+			"lockedRequirement": {
+				"cost": {
+					"eng": "Cost ${cost} ${currency}",
+					"trans": "Biaya ${cost} ${currency}",
+					"vars": [
+						"cost",
+						"currency"
+					]
+				},
+				"currentLevel": {
+					"eng": "You are Lv ${level}",
+					"trans": "Kamu Lv ${level}",
+					"vars": [
+						"level"
+					]
+				},
+				"level": {
+					"eng": "Requires Lv ${level}",
+					"trans": "Butuh Lv ${level}",
+					"vars": [
+						"level"
+					]
+				}
+			},
+			"lockedUnavailable": {
+				"eng": "Slot unavailable",
+				"trans": "Slot terkunci"
+			},
+			"noItems": {
+				"eng": "This player has not placed any items on display.",
+				"trans": "Pemain ini belum meletakkan item apa-apa di rak tampilannya."
+			},
+			"remove": {
+				"eng": "Remove displayed item",
+				"trans": "Hapus item tampilan"
+			},
+			"title": {
+				"eng": "Display Shelf",
+				"trans": "Rak Tampilan"
+			},
+			"unlockConfirm": {
+				"eng": "Unlock",
+				"trans": "Unlok"
+			},
+			"unlockDescription": {
+				"eng": "Unlock slot ${slot} for ${cost} ${currency}?",
+				"trans": "Unlok slot ${slot} dengan ${cost} ${currency}?",
+				"vars": [
+					"slot",
+					"cost",
+					"currency"
+				]
+			},
+			"unlockRequirement": {
+				"cost": {
+					"eng": "Cost",
+					"trans": "Biaya"
+				}
+			},
+			"unlockTitle": {
+				"eng": "Unlock Display Shelf Slot",
+				"trans": "Buka Slot Rak Tampilan"
+			},
+			"unlockUnavailable": {
+				"eng": "Slot cannot be unlocked.",
+				"trans": "Slot tidak bisa dibuka kunci."
 			}
 		},
 		"donationTiers": {
@@ -9095,11 +9261,11 @@
 			"trans": "Enkripsi obrolan"
 		},
 		"equipmentExchangeAccess": {
-			"eng": "Equipment Exchange Access",
+			"eng": "Epic Fragment Fusion Access",
 			"trans": "Akses Pertukaran Gear"
 		},
 		"equipmentExchangeAccessDesc": {
-			"eng": "Grants access to the Epic Fragment Extraction system. You can extract your Epic equipment for Epic Cache Fragments.",
+			"eng": "Grants access to the Epic Fragment Fusion system. You can fuse Epic Cache Fragments into Epic Equipment.",
 			"trans": "Membuka akses ke sistem ekstraksi fragmen Epic. Anda bisa ekstrak peralatan Epic untuk mendapatkan Fragmen Cache Epic."
 		},
 		"expBonus": {
@@ -11640,6 +11806,10 @@
 			}
 		},
 		"profile": {
+			"assets": {
+				"eng": "assets",
+				"trans": "Aset"
+			},
 			"deleteAccount": {
 				"button": {
 					"eng": "Delete Account",

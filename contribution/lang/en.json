@@ -849,7 +849,7 @@
 	"caliTrain": {
 		"announcement": {
 			"eng": "Calibration ${percent}% has been deployed",
-			"trans": "Calibration ${percent}% has been deployed",
+			"trans": "Calibration (${percent}%) will be deployed in a few minutes",
 			"vars": [
 				"percent"
 			]
@@ -1132,7 +1132,7 @@
 		},
 		"desc1": {
 			"eng": "'Tis the season to be jolly! Celebrate Christmas with special rewards and festive events.",
-			"trans": "'Tis the season to be jolly! Celebrate Christmas with special rewards and festive events."
+			"trans": "It's the most wonderful time of the year again! in Shang-ri-la we are celebrating the winter holiday with a special event!"
 		},
 		"specialMusic": {
 			"eng": "Enjoy the festive background music during the event!",
@@ -1140,7 +1140,7 @@
 		},
 		"title": {
 			"eng": "Christmas Celebration",
-			"trans": "Christmas Celebration"
+			"trans": "Happy Winter Holiday!"
 		},
 		"v3": {
 			"desc2": {
@@ -1281,7 +1281,7 @@
 		},
 		"exampleText": {
 			"eng": "example chat frame of ${tierName} Tier",
-			"trans": "example chat frame of ${tierName} Tier",
+			"trans": "Example chat frame of ${tierName} Tier",
 			"vars": [
 				"tierName"
 			]
@@ -1382,6 +1382,53 @@
 				"eng": "Gang Tag",
 				"trans": "Gang Tag"
 			}
+		}
+	},
+	"displayShelf": {
+		"error": {
+			"invalidSlot": {
+				"eng": "Invalid display shelf slot.",
+				"trans": "Invalid display shelf slot."
+			},
+			"itemNotFound": {
+				"eng": "Item not found or not accessible.",
+				"trans": "Item not found or not accessible."
+			},
+			"levelReq": {
+				"eng": "Requires level ${level}",
+				"trans": "Requires level ${level}",
+				"vars": [
+					"level"
+				]
+			},
+			"moneyReq": {
+				"eng": "Requires ${cost} ${currency}",
+				"trans": "Requires ${cost} ${currency}",
+				"vars": [
+					"cost",
+					"currency"
+				]
+			},
+			"unlockOrder": {
+				"eng": "You must unlock slots in order.",
+				"trans": "You must unlock slots in order."
+			},
+			"unlockUnavailable": {
+				"eng": "Slot cannot be unlocked.",
+				"trans": "Slot cannot be unlocked."
+			}
+		},
+		"selectItem": {
+			"eng": "Select an item to display",
+			"trans": "Select an item to display"
+		},
+		"unlocked": {
+			"eng": "Display shelf slot unlocked.",
+			"trans": "Display shelf slot unlocked."
+		},
+		"updated": {
+			"eng": "Display shelf updated.",
+			"trans": "Display shelf updated."
 		}
 	},
 	"donationCard": {
@@ -1673,7 +1720,7 @@
 			"trans": "Neon Elite"
 		},
 		"donation44": {
-			"eng": "Haunted Fog",
+			"eng": "CyberGhost",
 			"trans": "Haunted Fog"
 		},
 		"donation5": {
@@ -1961,27 +2008,6 @@
 		}
 	},
 	"equipmentExchange": {
-		"accessRequired": {
-			"eng": "Please activate Epic Fragment Extraction first",
-			"trans": "Please activate Epic Fragment Extraction first"
-		},
-		"activation": {
-			"button": {
-				"eng": "Activate Access",
-				"trans": "Activate Access"
-			},
-			"description": {
-				"eng": "Activate to start extracting your equioment for ${fragmenItem}",
-				"trans": "Activate to start extracting your equioment for ${fragmenItem}",
-				"vars": [
-					"fragmenItem"
-				]
-			},
-			"title": {
-				"eng": "Epic Fragment Extraction Access",
-				"trans": "Epic Fragment Extraction Access"
-			}
-		},
 		"combineFragments": {
 			"button": {
 				"eng": "FUSE ${requiredFragments} FRAGMENTS",
@@ -2001,8 +2027,8 @@
 				"trans": "Are you sure you want to extract the following equipments for a chance at Epic Cache Fragments?"
 			},
 			"description2": {
-				"eng": "This process is not reversible and the items WILL be destroyed in process",
-				"trans": "This process is not reversible and the items WILL be destroyed in process"
+				"eng": "This process is not reversible and the item will be converted after you clicked confirm",
+				"trans": "This process is not reversible and the item will be converted after you clicked confirm"
 			},
 			"title": {
 				"eng": "Exchange Equipment",
@@ -2046,13 +2072,13 @@
 				"eng": "${item.getName()} is locked",
 				"trans": "${item.getName()} is locked"
 			},
-			"noAccess": {
-				"eng": "You need to activate Equipment Exchange Access to use this feature",
-				"trans": "You need to activate Equipment Exchange Access to use this feature"
-			},
 			"noBackpacks": {
 				"eng": "Backpacks cannot be exchanged",
 				"trans": "Backpacks cannot be exchanged"
+			},
+			"noFusionAccess": {
+				"eng": "You need to activate Epic Fragment Fusion Access to use this feature",
+				"trans": "You need to activate Epic Fragment Fusion Access to use this feature"
 			},
 			"noMoreItems": {
 				"eng": "No more eligible equipment available",
@@ -2075,7 +2101,7 @@
 			}
 		},
 		"exchange": {
-			"eng": "EXCHANGE EQUIPMENT",
+			"eng": "EXTRACT EQUIPMENT",
 			"success": {
 				"eng": "${player} has received ${amount} ${item} from ${npcName}",
 				"trans": "${player} has received ${amount} ${item} from ${npcName}",
@@ -2086,7 +2112,7 @@
 					"npcName"
 				]
 			},
-			"trans": "EXCHANGE EQUIPMENT"
+			"trans": "EXTRACT EQUIPMENT"
 		},
 		"exchangeDescription": {
 			"eng": "Exchange ${amount} EPIC equipment for ${itemName}",
@@ -2104,9 +2130,23 @@
 			"eng": "Epic Cache Fragments",
 			"trans": "Epic Cache Fragments"
 		},
+		"fusionActivation": {
+			"button": {
+				"eng": "Activate Fusion",
+				"trans": "Activate Fusion"
+			},
+			"description": {
+				"eng": "Activate to fuse Epic Cache Fragments into Epic Equipment",
+				"trans": "Activate to fuse Epic Cache Fragments into Epic Equipment"
+			},
+			"title": {
+				"eng": "Epic Fragment Fusion Access",
+				"trans": "Epic Fragment Fusion Access"
+			}
+		},
 		"fusionDescription": {
-			"eng": "Combine ${amount} Epic Cache Fragments into 1 guaranteed Epic Equipment Cache",
-			"trans": "Combine ${amount} Epic Cache Fragments into 1 guaranteed Epic Equipment Cache",
+			"eng": "Fuse ${amount} Epic Cache Fragments into 1 guaranteed Epic Equipment Cache",
+			"trans": "Combine ${amount} ${fragmentName} into 1 random Epic Equipment Cache",
 			"vars": [
 				"amount"
 			]
@@ -2139,8 +2179,8 @@
 			"trans": "Select Equipment"
 		},
 		"tip": {
-			"eng": "Exchange ${amount} Epic Tier Equipments for random amount of ${itemName}",
-			"trans": "Exchange ${amount} Epic Tier Equipments for random amount of ${itemName}",
+			"eng": "Extract ${amount} Epic Tier Equipments for random amount of ${itemName}. Extraction is FREE!",
+			"trans": "Extract ${amount} Epic Tier Equipments for random amount of ${itemName}. Extraction is FREE!",
 			"vars": [
 				"amount",
 				"itemName"
@@ -2198,7 +2238,7 @@
 		},
 		"cannotUseItemInStatus": {
 			"eng": "You cannot use this item because there is a status effect that conflicts with it",
-			"trans": "You cannot use this item because there is a status effect that conflicts with it",
+			"trans": "Chat exploit has recently been used, chat exploits has an global deployment cooldown of ${minutes} minutes",
 			"vars": [
 				"minutes"
 			]
@@ -2316,7 +2356,7 @@
 			},
 			"received": {
 				"eng": "FRAGMENTS RECEIVED:",
-				"trans": "FRAGMENTS RECEIVED:"
+				"trans": "RECEIVED ITEMS:"
 			}
 		}
 	},
@@ -2726,36 +2766,6 @@
 			"trans": "Host Party"
 		}
 	},
-	"halloweenPromo": {
-		"desc1": {
-			"eng": "Its the spooky time of the year again! Shang-ri-la is celebrating Halloween with a special event!",
-			"trans": "Its the spooky time of the year again! Shang-ri-la is celebrating Halloween with a special event!"
-		},
-		"desc2v3": {
-			"eng": "Enemies and AI Core auto farm will have chance to drop ${item}!",
-			"trans": "Enemies and AI Core auto farm will have chance to drop ${item}!",
-			"vars": [
-				"item"
-			]
-		},
-		"desc3v3": {
-			"eng": "You can find ${npc} at ${location} during Halloween, he will exchange your ${item} for rewards!",
-			"trans": "You can find ${npc} at ${location} during Halloween, he will exchange your ${item} for rewards!",
-			"vars": [
-				"npc",
-				"location",
-				"item"
-			]
-		},
-		"desc4v2": {
-			"eng": "During Halloween, a time limited halloween, cyber-bat chat donation tier and themed emblems will be available!",
-			"trans": "During Halloween, a time limited halloween, cyber-bat chat donation tier and themed emblems will be available!"
-		},
-		"title": {
-			"eng": "Happy Halloween!",
-			"trans": "Happy Halloween!"
-		}
-	},
 	"halloweenPromoSmall": {
 		"desc": {
 			"eng": "Collect ${item} to redeem various rewards!",
@@ -2769,11 +2779,41 @@
 			"trans": "Halloween Event!"
 		}
 	},
+	"halloweenPromotion": {
+		"desc1": {
+			"eng": "It's the spooky time of year again! Shang-ri-la is celebrating Halloween with a special event!",
+			"trans": "It's the spooky time of year again! Shang-ri-la is celebrating Halloween with a special event!"
+		},
+		"desc2v3": {
+			"eng": "Enemies and AI Core auto-farm have a chance to drop ${item}!",
+			"trans": "Enemies and AI Core auto-farm have a chance to drop ${item}!",
+			"vars": [
+				"item"
+			]
+		},
+		"desc3v3": {
+			"eng": "You can find ${npc} at ${location} during Halloween. He will exchange your ${item} for rewards!",
+			"trans": "You can find ${npc} at ${location} during Halloween. He will exchange your ${item} for rewards!",
+			"vars": [
+				"npc",
+				"location",
+				"item"
+			]
+		},
+		"desc4": {
+			"eng": "During Halloween, a time-limited donation tier and themed emblems will be available!",
+			"trans": "During Halloween, a time-limited donation tier and themed emblems will be available!"
+		},
+		"title": {
+			"eng": "Happy Halloween!",
+			"trans": "Happy Halloween!"
+		}
+	},
 	"iapCurrency": {
 		"currency1": {
 			"description": {
 				"eng": "Receive ${unit} Unit (${bonus} bonus)",
-				"trans": "Receive ${unit} Unit (${bonus} bonus)",
+				"trans": "Receive ${unit} Unit",
 				"vars": [
 					"unit",
 					"bonus"
@@ -3831,6 +3871,10 @@
 				]
 			}
 		},
+		"lollipopUseVerb": {
+			"eng": "Suck it up",
+			"trans": "Suck it up"
+		},
 		"lootBox1": {
 			"description": {
 				"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container",
@@ -4001,6 +4045,26 @@
 			"name": {
 				"eng": "Christmas Pudding",
 				"trans": "Christmas Pudding"
+			}
+		},
+		"pumpkinBroLolipop": {
+			"description": {
+				"eng": "A large, sticky, pumpkin-bro-flavored lollipop. It’s way too big for your mouth, suspiciously moist, and Pumpkin Bro swears it was safe to eat. Delicious… probably.",
+				"trans": "A large, sticky, pumpkin-bro-flavored lollipop. It’s way too big for your mouth, suspiciously moist, and Pumpkin Bro swears it was safe to eat. Delicious… probably."
+			},
+			"name": {
+				"eng": "Pumpkin Bro's Lolipop",
+				"trans": "Pumpkin Bro's Lolipop"
+			}
+		},
+		"pumpkinBroSeed": {
+			"description": {
+				"eng": "A plump, moist seed. Pumpkin Bro says it’s his ‘special one.’ He’ll happily trade you something good for it.",
+				"trans": "A plump, moist seed. Pumpkin Bro says it’s his ‘special one.’ He’ll happily trade you something good for it."
+			},
+			"name": {
+				"eng": "Pumpkin Bro's Seed",
+				"trans": "Pumpkin Bro's Seed"
 			}
 		},
 		"pumpkinPie": {
@@ -4471,7 +4535,7 @@
 		},
 		"criticalDamageArmor": {
 			"eng": "of Brutality",
-			"trans": "of Brutality"
+			"trans": "of Crit Damage"
 		},
 		"criticalDamageWeapon": {
 			"eng": "of Crit Damage",
@@ -5337,7 +5401,7 @@
 			},
 			"cooldown": {
 				"eng": "You must wait ${minutes} more minutes before sending another proposal",
-				"trans": "You must wait ${minutes} more minutes before sending another proposal"
+				"trans": "Wait ${minutes} minutes before proposing again"
 			},
 			"deleteWhileMarried": {
 				"eng": "You can't delete your account while married. Please divorce first.",
@@ -5599,7 +5663,7 @@
 		"vow": {
 			"changeNotification": {
 				"eng": "${player} has updated their marriage vow to ${vow}",
-				"trans": "${player} has updated their marriage vow: \"${vow}\"",
+				"trans": "${player} has updated their marriage vow to ${vow}",
 				"vars": [
 					"player",
 					"vow"
@@ -6611,13 +6675,15 @@
 					"Pumpkin is my source of power!",
 					"Check out my pumpkin costume!",
 					"Hmmmm, I wonder what's inside this pumpkin...",
-					"Give me your pumpkin, and I'll give you a treat!"
+					"Want a lollipop?",
+					"Give me your seeds, and I will give you a treat!"
 				],
 				"trans": [
 					"Pumpkin is my source of power!",
 					"Check out my pumpkin costume!",
 					"Hmmmm, I wonder what's inside this pumpkin...",
-					"Give me your pumpkin, and I'll give you a treat!"
+					"Want a lollipop?",
+					"Give me your seeds, and I will give you a treat!"
 				]
 			},
 			"name": {
@@ -6915,7 +6981,7 @@
 		},
 		"noName": {
 			"eng": "unnamed",
-			"trans": "unnamed"
+			"trans": "Unnamed"
 		},
 		"played": {
 			"eng": "${player} has played with your pet ${pet}",
@@ -7021,7 +7087,7 @@
 		},
 		"cooldownTitle": {
 			"eng": "Adoption Available",
-			"trans": "Adoption Available"
+			"trans": "Adoption Cooldown"
 		},
 		"error": {
 			"cooldown": {
@@ -7041,7 +7107,7 @@
 			},
 			"noSlot": {
 				"eng": "You need to rent a bigger apartment to accommodate more pets",
-				"trans": "You need to rent a bigger apartment to accommodate more pets"
+				"trans": "An apartment is required to adopt a pet"
 			}
 		},
 		"noItemConfirmModal": {
@@ -7218,7 +7284,7 @@
 			},
 			"title": {
 				"eng": "Activate",
-				"trans": "Activate"
+				"trans": "Activate pet revive"
 			}
 		},
 		"reviveButton": {
@@ -7310,7 +7376,7 @@
 		"error": {
 			"cantPerformAction": {
 				"eng": "You can't perform this action during party buff",
-				"trans": "You can't perform this action during party buff"
+				"trans": "You can't perform this action now"
 			},
 			"deleteAccountTooEarly": {
 				"eng": "You can't delete this account now, please wait a few days",
@@ -7403,6 +7469,107 @@
 			"title": {
 				"eng": "Chat Frames",
 				"trans": "Chat Frames"
+			}
+		},
+		"displayShelf": {
+			"close": {
+				"eng": "Close",
+				"trans": "Close"
+			},
+			"empty": {
+				"eng": "Empty Slot",
+				"trans": "Empty Slot"
+			},
+			"error": {
+				"level": {
+					"eng": "Reach level ${level} to unlock this slot.",
+					"trans": "Reach level ${level} to unlock this slot.",
+					"vars": [
+						"level"
+					]
+				},
+				"money": {
+					"eng": "You need ${cost} Bitcoins to unlock this slot.",
+					"trans": "You need ${cost} Bitcoins to unlock this slot.",
+					"vars": [
+						"cost"
+					]
+				},
+				"unavailable": {
+					"eng": "Slot cannot be unlocked.",
+					"trans": "Slot cannot be unlocked."
+				}
+			},
+			"locked": {
+				"eng": "Locked Slot",
+				"trans": "Locked Slot"
+			},
+			"lockedRequirement": {
+				"cost": {
+					"eng": "Cost ${cost} ${currency}",
+					"trans": "Cost ${cost} ${currency}",
+					"vars": [
+						"cost",
+						"currency"
+					]
+				},
+				"currentLevel": {
+					"eng": "You are Lv ${level}",
+					"trans": "You are Lv ${level}",
+					"vars": [
+						"level"
+					]
+				},
+				"level": {
+					"eng": "Requires Lv ${level}",
+					"trans": "Requires Lv ${level}",
+					"vars": [
+						"level"
+					]
+				}
+			},
+			"lockedUnavailable": {
+				"eng": "Slot unavailable",
+				"trans": "Slot unavailable"
+			},
+			"noItems": {
+				"eng": "This player has not placed any items on display.",
+				"trans": "This player has not placed any items on display."
+			},
+			"remove": {
+				"eng": "Remove displayed item",
+				"trans": "Remove displayed item"
+			},
+			"title": {
+				"eng": "Display Shelf",
+				"trans": "Display Shelf"
+			},
+			"unlockConfirm": {
+				"eng": "Unlock",
+				"trans": "Unlock"
+			},
+			"unlockDescription": {
+				"eng": "Unlock slot ${slot} for ${cost} ${currency}?",
+				"trans": "Unlock slot ${slot} for ${cost} ${currency}?",
+				"vars": [
+					"slot",
+					"cost",
+					"currency"
+				]
+			},
+			"unlockRequirement": {
+				"cost": {
+					"eng": "Cost",
+					"trans": "Cost"
+				}
+			},
+			"unlockTitle": {
+				"eng": "Unlock Display Shelf Slot",
+				"trans": "Unlock Display Shelf Slot"
+			},
+			"unlockUnavailable": {
+				"eng": "Slot cannot be unlocked.",
+				"trans": "Slot cannot be unlocked."
 			}
 		},
 		"donationTiers": {
@@ -9097,12 +9264,12 @@
 			"trans": "Chat Encryption"
 		},
 		"equipmentExchangeAccess": {
-			"eng": "Equipment Exchange Access",
-			"trans": "Equipment Exchange Access"
+			"eng": "Epic Fragment Fusion Access",
+			"trans": "Epic Fragment Fusion Access"
 		},
 		"equipmentExchangeAccessDesc": {
-			"eng": "Grants access to the Epic Fragment Extraction system. You can extract your Epic equipment for Epic Cache Fragments.",
-			"trans": "Grants access to the Epic Fragment Extraction system. You can extract your Epic equipment for Epic Cache Fragments."
+			"eng": "Grants access to the Epic Fragment Fusion system. You can fuse Epic Cache Fragments into Epic Equipment.",
+			"trans": "Grants access to the Epic Fragment Fusion system. You can fuse Epic Cache Fragments into Epic Equipment."
 		},
 		"expBonus": {
 			"eng": "Frontal Cortex Enhancement",
@@ -9189,7 +9356,7 @@
 		},
 		"upgradeChance4": {
 			"eng": "Calibration Precision (Prestige)",
-			"trans": "Calibration Precision (Prestige)"
+			"trans": "Calibration Precision (Epic)"
 		},
 		"upgradeNoBreak": {
 			"eng": "Calibration Safety Nano Bot",
@@ -9387,7 +9554,7 @@
 		},
 		"desc2": {
 			"eng": "Two new donator frames added",
-			"trans": "Two new donator frames added"
+			"trans": "Added Dungeon token, you can use it to exchange items from Weapon Smith NPC, you can acquire this item from Techno Thief and Gang Quests"
 		},
 		"title": {
 			"eng": "Anniversary Update!",
@@ -9545,7 +9712,7 @@
 			},
 			"otherPlayerNotEnoughSpace": {
 				"eng": "${playerName} doesn't have enough space in their inventory for ${itemName} to complete the trade.",
-				"trans": "${playerName} doesn't have enough space in their inventory for ${itemName} to complete the trade.",
+				"trans": "${playerName} does't have enough space in their inventory for ${itemName}",
 				"vars": [
 					"itemName",
 					"playerName"
@@ -9561,7 +9728,7 @@
 			},
 			"targetPlayerLimited": {
 				"eng": "You cannot send trade invite to this player",
-				"trans": "You cannot send trade invite to this player"
+				"trans": "Target player cannot participate in trade"
 			},
 			"tooFrequentlyInvite": {
 				"eng": "You cannot invite too frequently, trade invite cooldown is ${minutes} minutes",
@@ -9587,7 +9754,7 @@
 			},
 			"youNotEnoughSpace": {
 				"eng": "You don't have enough space in your inventory for ${itemName} to complete the trade.",
-				"trans": "You don't have enough space in your inventory for ${itemName} to complete the trade.",
+				"trans": "You don't have enough space in your inventory for ${itemName}",
 				"vars": [
 					"itemName"
 				]
@@ -9788,7 +9955,7 @@
 		"backToPreviusLoc": {
 			"longPressBackToCity": {
 				"eng": "You can long press the back button to go back to city to visit various shops and features",
-				"trans": "You can long press the back button to go back to city to visit various shops and features"
+				"trans": "Long press to go back to city"
 			}
 		},
 		"bank": {
@@ -10851,7 +11018,7 @@
 			},
 			"cantEquip": {
 				"eng": "Your level is too low for this item, this item requires level ${level} to equip",
-				"trans": "Your level is too low for this item, this item requires level ${level} to equip",
+				"trans": "Your level is too low for this item",
 				"vars": [
 					"level"
 				]
@@ -11642,6 +11809,10 @@
 			}
 		},
 		"profile": {
+			"assets": {
+				"eng": "assets",
+				"trans": "assets"
+			},
 			"deleteAccount": {
 				"button": {
 					"eng": "Delete Account",
@@ -12113,7 +12284,7 @@
 				},
 				"small": {
 					"eng": "Tiny",
-					"trans": "Tiny"
+					"trans": "Small"
 				},
 				"tiny": {
 					"eng": "Tiny",

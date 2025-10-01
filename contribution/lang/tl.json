@@ -1384,6 +1384,53 @@
 			}
 		}
 	},
+	"displayShelf": {
+		"error": {
+			"invalidSlot": {
+				"eng": "Invalid display shelf slot.",
+				"trans": "Hindi valid na slot sa display shelf."
+			},
+			"itemNotFound": {
+				"eng": "Item not found or not accessible.",
+				"trans": "Item hindi makita o di ma-access."
+			},
+			"levelReq": {
+				"eng": "Requires level ${level}",
+				"trans": "Kailangan mong umabot sa antas ${level}",
+				"vars": [
+					"level"
+				]
+			},
+			"moneyReq": {
+				"eng": "Requires ${cost} ${currency}",
+				"trans": "Kailangan mo ng ${cost} ${currency}",
+				"vars": [
+					"cost",
+					"currency"
+				]
+			},
+			"unlockOrder": {
+				"eng": "You must unlock slots in order.",
+				"trans": "Dapat mong i-unlock ang mga slot nang sunud-sunod."
+			},
+			"unlockUnavailable": {
+				"eng": "Slot cannot be unlocked.",
+				"trans": "Di pa pwedeng buksan ang slot."
+			}
+		},
+		"selectItem": {
+			"eng": "Select an item to display",
+			"trans": "Pumili ng item para ipakita"
+		},
+		"unlocked": {
+			"eng": "Display shelf slot unlocked.",
+			"trans": "Bukas na ang slot sa display shelf."
+		},
+		"updated": {
+			"eng": "Display shelf updated.",
+			"trans": "Na-update na ang display shelf."
+		}
+	},
 	"donationCard": {
 		"benefits": {
 			"bio": {
@@ -1673,7 +1720,7 @@
 			"trans": "Neon Elypso"
 		},
 		"donation44": {
-			"eng": "Haunted Fog",
+			"eng": "CyberGhost",
 			"trans": "Nangungulilang Ulap"
 		},
 		"donation5": {
@@ -1961,27 +2008,6 @@
 		}
 	},
 	"equipmentExchange": {
-		"accessRequired": {
-			"eng": "Please activate Epic Fragment Extraction first",
-			"trans": "Una muna i-activate ang Epic Fragment Extraction"
-		},
-		"activation": {
-			"button": {
-				"eng": "Activate Access",
-				"trans": "Buksan ang Access"
-			},
-			"description": {
-				"eng": "Activate to start extracting your equioment for ${fragmenItem}",
-				"trans": "I-activate para i-extract ang iyong equipment para sa ${fragmenItem}",
-				"vars": [
-					"fragmenItem"
-				]
-			},
-			"title": {
-				"eng": "Epic Fragment Extraction Access",
-				"trans": "Access sa Paghihiwalay ng Epic Fragment"
-			}
-		},
 		"combineFragments": {
 			"button": {
 				"eng": "FUSE ${requiredFragments} FRAGMENTS",
@@ -2001,7 +2027,7 @@
 				"trans": "Sigurado ka bang gusto mong alisin ang mga sumusunod na equipment para makakuha ng pagkakataon para sa Epic Cache Fragments?"
 			},
 			"description2": {
-				"eng": "This process is not reversible and the items WILL be destroyed in process",
+				"eng": "This process is not reversible and the item will be converted after you clicked confirm",
 				"trans": "Hindi na mababago ang proseso—ang mga item ay sisira talaga sa proseso"
 			},
 			"title": {
@@ -2046,13 +2072,13 @@
 				"eng": "${item.getName()} is locked",
 				"trans": "Ang ${item.getName()} ay nakalock"
 			},
-			"noAccess": {
-				"eng": "You need to activate Equipment Exchange Access to use this feature",
-				"trans": "Para gamitin ang feature na ito, kailangan mong buksan ang access sa Equipment Exchange"
-			},
 			"noBackpacks": {
 				"eng": "Backpacks cannot be exchanged",
 				"trans": "Di pwede i-exchange ang mga backpack"
+			},
+			"noFusionAccess": {
+				"eng": "You need to activate Epic Fragment Fusion Access to use this feature",
+				"trans": "Hindi mo magagamit ang feature na ito hangga't hindi mo na-activate ang Epic Fragment Fusion"
 			},
 			"noMoreItems": {
 				"eng": "No more eligible equipment available",
@@ -2075,7 +2101,7 @@
 			}
 		},
 		"exchange": {
-			"eng": "EXCHANGE EQUIPMENT",
+			"eng": "EXTRACT EQUIPMENT",
 			"success": {
 				"eng": "${player} has received ${amount} ${item} from ${npcName}",
 				"trans": "Nakatanggap si ${player} ng ${amount} na ${item} mula kay ${npcName}",
@@ -2104,8 +2130,22 @@
 			"eng": "Epic Cache Fragments",
 			"trans": "Epiko Cache Fragments"
 		},
+		"fusionActivation": {
+			"button": {
+				"eng": "Activate Fusion",
+				"trans": "Paganahin ang Fusion"
+			},
+			"description": {
+				"eng": "Activate to fuse Epic Cache Fragments into Epic Equipment",
+				"trans": "I-activate para pagsamahin ang Epic Cache Fragments sa Epic Equipment"
+			},
+			"title": {
+				"eng": "Epic Fragment Fusion Access",
+				"trans": "Bukas para sa Epic Fragment Fusion"
+			}
+		},
 		"fusionDescription": {
-			"eng": "Combine ${amount} Epic Cache Fragments into 1 guaranteed Epic Equipment Cache",
+			"eng": "Fuse ${amount} Epic Cache Fragments into 1 guaranteed Epic Equipment Cache",
 			"trans": "Iugnay ang ${amount} na Epic Cache Fragments para makabuo ng 1 na Epic Equipment Cache—tiyak na galing, walang alinlangan",
 			"vars": [
 				"amount"
@@ -2139,7 +2179,7 @@
 			"trans": "Piliin ang Equip"
 		},
 		"tip": {
-			"eng": "Exchange ${amount} Epic Tier Equipments for random amount of ${itemName}",
+			"eng": "Extract ${amount} Epic Tier Equipments for random amount of ${itemName}. Extraction is FREE!",
 			"trans": "Ipagpalit mo na ang ${amount} na Epic Tier na Equipments para sa isang random na bilang ng ${itemName}",
 			"vars": [
 				"amount",
@@ -2726,36 +2766,6 @@
 			"trans": "Mag-organisa ng Party"
 		}
 	},
-	"halloweenPromo": {
-		"desc1": {
-			"eng": "Its the spooky time of the year again! Shang-ri-la is celebrating Halloween with a special event!",
-			"trans": "Ito ang nakakatakot na oras ng taon muli! Ipinagdiriwang ng Shang-Ri-La ang Halloween na may isang espesyal na kaganapan!"
-		},
-		"desc2v3": {
-			"eng": "Enemies and AI Core auto farm will have chance to drop ${item}!",
-			"trans": "Ang mga kaaway at AI Core auto farm ay magkakaroon ng pagkakataong magbaba ng ${item}!",
-			"vars": [
-				"item"
-			]
-		},
-		"desc3v3": {
-			"eng": "You can find ${npc} at ${location} during Halloween, he will exchange your ${item} for rewards!",
-			"trans": "Maaari mong makita si ${npc} sa ${location} tuwing Halloween, papalitan niya ang iyong ${item} ng mga gantimpala!",
-			"vars": [
-				"npc",
-				"location",
-				"item"
-			]
-		},
-		"desc4v2": {
-			"eng": "During Halloween, a time limited halloween, cyber-bat chat donation tier and themed emblems will be available!",
-			"trans": "Sa panahon ng Halloween, isang oras na limitado ang Halloween, ang cyber-bat chat donation tier at may temang mga emblema ay magagamit!"
-		},
-		"title": {
-			"eng": "Happy Halloween!",
-			"trans": "Maligayang Halloween!"
-		}
-	},
 	"halloweenPromoSmall": {
 		"desc": {
 			"eng": "Collect ${item} to redeem various rewards!",
@@ -2767,6 +2777,36 @@
 		"title": {
 			"eng": "Halloween Event!",
 			"trans": "Halloween Event!"
+		}
+	},
+	"halloweenPromotion": {
+		"desc1": {
+			"eng": "It's the spooky time of year again! Shang-ri-la is celebrating Halloween with a special event!",
+			"trans": "Muling dumaan ang nakakatakot na panahon! Nagdiriwang ang Shang-ri-la ng Halloween sa isang espesyal na event!"
+		},
+		"desc2v3": {
+			"eng": "Enemies and AI Core auto-farm have a chance to drop ${item}!",
+			"trans": "Pwedeng mag-drop ang enemies at AI Core ng ${item} sa auto-farm!",
+			"vars": [
+				"item"
+			]
+		},
+		"desc3v3": {
+			"eng": "You can find ${npc} at ${location} during Halloween. He will exchange your ${item} for rewards!",
+			"trans": "Makikita mo si ${npc} sa ${location} tuwing Halloween. Papalitan niya ang iyong ${item} para sa mga gantimpala!",
+			"vars": [
+				"npc",
+				"location",
+				"item"
+			]
+		},
+		"desc4": {
+			"eng": "During Halloween, a time-limited donation tier and themed emblems will be available!",
+			"trans": "Ngayong Halloween, may espesyal na donation tier at mga emblem na may temang limitado!"
+		},
+		"title": {
+			"eng": "Happy Halloween!",
+			"trans": "Maligayang Halloween!"
 		}
 	},
 	"iapCurrency": {
@@ -3831,6 +3871,10 @@
 				]
 			}
 		},
+		"lollipopUseVerb": {
+			"eng": "Suck it up",
+			"trans": "Kayanin mo na"
+		},
 		"lootBox1": {
 			"description": {
 				"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container",
@@ -4001,6 +4045,26 @@
 			"name": {
 				"eng": "Christmas Pudding",
 				"trans": "Christmas puding"
+			}
+		},
+		"pumpkinBroLolipop": {
+			"description": {
+				"eng": "A large, sticky, pumpkin-bro-flavored lollipop. It’s way too big for your mouth, suspiciously moist, and Pumpkin Bro swears it was safe to eat. Delicious… probably.",
+				"trans": "Isang malaking, malagkit, at pumpkin-bro na lollipop na sobrang laki para sa bibig mo. Medyo kahindik-hindik ang pagkabasa, pero swear si Pumpkin Bro na safe itong kainin. Masarap… siguro."
+			},
+			"name": {
+				"eng": "Pumpkin Bro's Lolipop",
+				"trans": "Lollipop ni Pumpkin Bro"
+			}
+		},
+		"pumpkinBroSeed": {
+			"description": {
+				"eng": "A plump, moist seed. Pumpkin Bro says it’s his ‘special one.’ He’ll happily trade you something good for it.",
+				"trans": "Isang makapal, mamasa-masang binhi. Sabi ni Pumpkin Bro, ito ang kanyang ‘special one’. Masaya siyang magpapalit ng maganda para dito."
+			},
+			"name": {
+				"eng": "Pumpkin Bro's Seed",
+				"trans": "Binhi ni Pumpkin Bro"
 			}
 		},
 		"pumpkinPie": {
@@ -6661,7 +6725,8 @@
 					"Pumpkin is my source of power!",
 					"Check out my pumpkin costume!",
 					"Hmmmm, I wonder what's inside this pumpkin...",
-					"Give me your pumpkin, and I'll give you a treat!"
+					"Want a lollipop?",
+					"Give me your seeds, and I will give you a treat!"
 				],
 				"trans": [
 					"Pumpkin is my source of power!",
@@ -7614,6 +7679,107 @@
 			"title": {
 				"eng": "Chat Frames",
 				"trans": "Mga Skin ng Chat"
+			}
+		},
+		"displayShelf": {
+			"close": {
+				"eng": "Close",
+				"trans": "Isara"
+			},
+			"empty": {
+				"eng": "Empty Slot",
+				"trans": "Walang Puwang"
+			},
+			"error": {
+				"level": {
+					"eng": "Reach level ${level} to unlock this slot.",
+					"trans": "Abutin ang level ${level} para mabuksan ang slot na ito.",
+					"vars": [
+						"level"
+					]
+				},
+				"money": {
+					"eng": "You need ${cost} Bitcoins to unlock this slot.",
+					"trans": "Kailangan mo ng ${cost} Bitcoins para ma-unlock ang slot na ito.",
+					"vars": [
+						"cost"
+					]
+				},
+				"unavailable": {
+					"eng": "Slot cannot be unlocked.",
+					"trans": "Di pa pwedeng buksan ang slot."
+				}
+			},
+			"locked": {
+				"eng": "Locked Slot",
+				"trans": "Naka-lock na Puwang"
+			},
+			"lockedRequirement": {
+				"cost": {
+					"eng": "Cost ${cost} ${currency}",
+					"trans": "Kailangan ${cost} ${currency}",
+					"vars": [
+						"cost",
+						"currency"
+					]
+				},
+				"currentLevel": {
+					"eng": "You are Lv ${level}",
+					"trans": "Level ${level} ka na",
+					"vars": [
+						"level"
+					]
+				},
+				"level": {
+					"eng": "Requires Lv ${level}",
+					"trans": "Kailangan ng Lv ${level}",
+					"vars": [
+						"level"
+					]
+				}
+			},
+			"lockedUnavailable": {
+				"eng": "Slot unavailable",
+				"trans": "Hindi available ang slot"
+			},
+			"noItems": {
+				"eng": "This player has not placed any items on display.",
+				"trans": "Walang items na naka-display ang player."
+			},
+			"remove": {
+				"eng": "Remove displayed item",
+				"trans": "Alisin ang nakadisplay na item"
+			},
+			"title": {
+				"eng": "Display Shelf",
+				"trans": "Shelf ng Display"
+			},
+			"unlockConfirm": {
+				"eng": "Unlock",
+				"trans": "Buksan"
+			},
+			"unlockDescription": {
+				"eng": "Unlock slot ${slot} for ${cost} ${currency}?",
+				"trans": "I-unlock ang slot ${slot} para sa ${cost} ${currency}?",
+				"vars": [
+					"slot",
+					"cost",
+					"currency"
+				]
+			},
+			"unlockRequirement": {
+				"cost": {
+					"eng": "Cost",
+					"trans": "Gastos"
+				}
+			},
+			"unlockTitle": {
+				"eng": "Unlock Display Shelf Slot",
+				"trans": "Unlock ang Slot sa Display Shelf"
+			},
+			"unlockUnavailable": {
+				"eng": "Slot cannot be unlocked.",
+				"trans": "Di pa pwedeng buksan ang slot."
 			}
 		},
 		"donationTiers": {
@@ -9308,11 +9474,11 @@
 			"trans": "Pag -encrypt ng chat"
 		},
 		"equipmentExchangeAccess": {
-			"eng": "Equipment Exchange Access",
+			"eng": "Epic Fragment Fusion Access",
 			"trans": "Access sa Pagpalitan ng Kagamitan"
 		},
 		"equipmentExchangeAccessDesc": {
-			"eng": "Grants access to the Epic Fragment Extraction system. You can extract your Epic equipment for Epic Cache Fragments.",
+			"eng": "Grants access to the Epic Fragment Fusion system. You can fuse Epic Cache Fragments into Epic Equipment.",
 			"trans": "Nagpapahintulot sa iyo na ihahati ang iyong Epic equipment para sa mga Epic Cache Fragments."
 		},
 		"expBonus": {
@@ -11853,6 +12019,10 @@
 			}
 		},
 		"profile": {
+			"assets": {
+				"eng": "assets",
+				"trans": "Mga asset"
+			},
 			"deleteAccount": {
 				"button": {
 					"eng": "Delete Account",

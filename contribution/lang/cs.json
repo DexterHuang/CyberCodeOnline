@@ -1384,6 +1384,53 @@
 			}
 		}
 	},
+	"displayShelf": {
+		"error": {
+			"invalidSlot": {
+				"eng": "Invalid display shelf slot.",
+				"trans": "Neplatný slot v polici."
+			},
+			"itemNotFound": {
+				"eng": "Item not found or not accessible.",
+				"trans": "Položka nebyla nalezena nebo je nedostupná."
+			},
+			"levelReq": {
+				"eng": "Requires level ${level}",
+				"trans": "Vyžaduje úroveň ${level}",
+				"vars": [
+					"level"
+				]
+			},
+			"moneyReq": {
+				"eng": "Requires ${cost} ${currency}",
+				"trans": "Potřebujete ${cost} ${currency}",
+				"vars": [
+					"cost",
+					"currency"
+				]
+			},
+			"unlockOrder": {
+				"eng": "You must unlock slots in order.",
+				"trans": "Nejdřív odemkni sloty v pořadí."
+			},
+			"unlockUnavailable": {
+				"eng": "Slot cannot be unlocked.",
+				"trans": "Nelze odemknout tento slot."
+			}
+		},
+		"selectItem": {
+			"eng": "Select an item to display",
+			"trans": "Zvolte položku, kterou chcete ukázat"
+		},
+		"unlocked": {
+			"eng": "Display shelf slot unlocked.",
+			"trans": "Nový slot na polici odemčen."
+		},
+		"updated": {
+			"eng": "Display shelf updated.",
+			"trans": "Polička s položkami byla aktualizována."
+		}
+	},
 	"donationCard": {
 		"benefits": {
 			"bio": {
@@ -1673,7 +1720,7 @@
 			"trans": "Neon Elita"
 		},
 		"donation44": {
-			"eng": "Haunted Fog",
+			"eng": "CyberGhost",
 			"trans": "Prokletá mlha"
 		},
 		"donation5": {
@@ -1961,27 +2008,6 @@
 		}
 	},
 	"equipmentExchange": {
-		"accessRequired": {
-			"eng": "Please activate Epic Fragment Extraction first",
-			"trans": "Nejprve aktivujte extrakci epických fragmentů"
-		},
-		"activation": {
-			"button": {
-				"eng": "Activate Access",
-				"trans": "Zapnout přístup"
-			},
-			"description": {
-				"eng": "Activate to start extracting your equioment for ${fragmenItem}",
-				"trans": "Spusť extrakci tvého vybavení pro ${fragmenItem} – aktivace začne",
-				"vars": [
-					"fragmenItem"
-				]
-			},
-			"title": {
-				"eng": "Epic Fragment Extraction Access",
-				"trans": "Přístup k extrakci epických fragmentů"
-			}
-		},
 		"combineFragments": {
 			"button": {
 				"eng": "FUSE ${requiredFragments} FRAGMENTS",
@@ -2001,7 +2027,7 @@
 				"trans": "Jste si jisti, že chcete zlikvidovat tento vybavení za šanci na epické kousky trezoru?"
 			},
 			"description2": {
-				"eng": "This process is not reversible and the items WILL be destroyed in process",
+				"eng": "This process is not reversible and the item will be converted after you clicked confirm",
 				"trans": "Tento krok je nevratný a předměty budou zničeny"
 			},
 			"title": {
@@ -2046,13 +2072,13 @@
 				"eng": "${item.getName()} is locked",
 				"trans": "${item.getName()} je uzamčena"
 			},
-			"noAccess": {
-				"eng": "You need to activate Equipment Exchange Access to use this feature",
-				"trans": "Chcete-li použít tuto funkci, musíte nejprve aktivovat přístup k výměně vybavení"
-			},
 			"noBackpacks": {
 				"eng": "Backpacks cannot be exchanged",
 				"trans": "Nelze vyměnit batohy – nemáš žádné"
+			},
+			"noFusionAccess": {
+				"eng": "You need to activate Epic Fragment Fusion Access to use this feature",
+				"trans": "K použití této funkce je nutné aktivovat přístup ke spojování epických fragmentů"
 			},
 			"noMoreItems": {
 				"eng": "No more eligible equipment available",
@@ -2075,7 +2101,7 @@
 			}
 		},
 		"exchange": {
-			"eng": "EXCHANGE EQUIPMENT",
+			"eng": "EXTRACT EQUIPMENT",
 			"success": {
 				"eng": "${player} has received ${amount} ${item} from ${npcName}",
 				"trans": "${player} dostal ${amount} ${item} od ${npcName} – transakce úspěšná!",
@@ -2104,8 +2130,22 @@
 			"eng": "Epic Cache Fragments",
 			"trans": "Epické fragmenty schránky"
 		},
+		"fusionActivation": {
+			"button": {
+				"eng": "Activate Fusion",
+				"trans": "Zapnout fúzi"
+			},
+			"description": {
+				"eng": "Activate to fuse Epic Cache Fragments into Epic Equipment",
+				"trans": "Aktivujte fúzi epických fragmentů na epické vybavení"
+			},
+			"title": {
+				"eng": "Epic Fragment Fusion Access",
+				"trans": "Přístup k fúzi epických fragmentů"
+			}
+		},
 		"fusionDescription": {
-			"eng": "Combine ${amount} Epic Cache Fragments into 1 guaranteed Epic Equipment Cache",
+			"eng": "Fuse ${amount} Epic Cache Fragments into 1 guaranteed Epic Equipment Cache",
 			"trans": "Kombinuj ${amount} ${fragmentName} na 1 náhodnou epickou skříňku s vybavením",
 			"vars": [
 				"amount"
@@ -2139,7 +2179,7 @@
 			"trans": "Vyber vybavení"
 		},
 		"tip": {
-			"eng": "Exchange ${amount} Epic Tier Equipments for random amount of ${itemName}",
+			"eng": "Extract ${amount} Epic Tier Equipments for random amount of ${itemName}. Extraction is FREE!",
 			"trans": "Vyměň ${amount} epických kousků za náhodný počet ${itemName} – možná budeš mít štěstí, možná ne",
 			"vars": [
 				"amount",
@@ -2726,36 +2766,6 @@
 			"trans": "Pořádat večírek"
 		}
 	},
-	"halloweenPromo": {
-		"desc1": {
-			"eng": "Its the spooky time of the year again! Shang-ri-la is celebrating Halloween with a special event!",
-			"trans": "Je to opět strašidelná doba roku! Shang-ri-la slaví Halloween speciální událostí!"
-		},
-		"desc2v3": {
-			"eng": "Enemies and AI Core auto farm will have chance to drop ${item}!",
-			"trans": "Nepřátelé a AI Core automatické farmy budou mít šanci na drop ${item}!",
-			"vars": [
-				"item"
-			]
-		},
-		"desc3v3": {
-			"eng": "You can find ${npc} at ${location} during Halloween, he will exchange your ${item} for rewards!",
-			"trans": "Můžeš najít ${npc} na ${location} během Halloweenu, vymění ti ${item} za odměny!",
-			"vars": [
-				"npc",
-				"location",
-				"item"
-			]
-		},
-		"desc4v2": {
-			"eng": "During Halloween, a time limited halloween, cyber-bat chat donation tier and themed emblems will be available!",
-			"trans": "Během Halloweenu bude k dispozici časově omezená Halloween, úroveň dárcovství Cyber-Bat Chat a tematické emblémy!"
-		},
-		"title": {
-			"eng": "Happy Halloween!",
-			"trans": "Šťastný Halloween!"
-		}
-	},
 	"halloweenPromoSmall": {
 		"desc": {
 			"eng": "Collect ${item} to redeem various rewards!",
@@ -2767,6 +2777,36 @@
 		"title": {
 			"eng": "Halloween Event!",
 			"trans": "Halloween akce!"
+		}
+	},
+	"halloweenPromotion": {
+		"desc1": {
+			"eng": "It's the spooky time of year again! Shang-ri-la is celebrating Halloween with a special event!",
+			"trans": "Je tu zas ta strašidelná doba roku! Shang-ri-la slaví Halloween s speciální akcí!"
+		},
+		"desc2v3": {
+			"eng": "Enemies and AI Core auto-farm have a chance to drop ${item}!",
+			"trans": "S nepřáteli a AI Core máte šanci získat ${item}!",
+			"vars": [
+				"item"
+			]
+		},
+		"desc3v3": {
+			"eng": "You can find ${npc} at ${location} during Halloween. He will exchange your ${item} for rewards!",
+			"trans": "Během Halloweenu můžeš potkat ${npc} na ${location}. Vymění ti ${item} za skvělé odměny!",
+			"vars": [
+				"npc",
+				"location",
+				"item"
+			]
+		},
+		"desc4": {
+			"eng": "During Halloween, a time-limited donation tier and themed emblems will be available!",
+			"trans": "Během Halloweenu přichází časově omezené dary a tematické odznaky, tak neváhejte!"
+		},
+		"title": {
+			"eng": "Happy Halloween!",
+			"trans": "Veselé Halloween!"
 		}
 	},
 	"iapCurrency": {
@@ -3831,6 +3871,10 @@
 				]
 			}
 		},
+		"lollipopUseVerb": {
+			"eng": "Suck it up",
+			"trans": "Vydrž to"
+		},
 		"lootBox1": {
 			"description": {
 				"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container",
@@ -4001,6 +4045,26 @@
 			"name": {
 				"eng": "Christmas Pudding",
 				"trans": "Vánoční puding"
+			}
+		},
+		"pumpkinBroLolipop": {
+			"description": {
+				"eng": "A large, sticky, pumpkin-bro-flavored lollipop. It’s way too big for your mouth, suspiciously moist, and Pumpkin Bro swears it was safe to eat. Delicious… probably.",
+				"trans": "Obrovský, lepkavý lízátko s příchutí dýňového bráchy. Je tak velký, že se do něj sotva vejdeš, a je podezřele vlhký. Pumpkin Bro tvrdí, že je to bezpečné k jídlu. Lahodné… asi."
+			},
+			"name": {
+				"eng": "Pumpkin Bro's Lolipop",
+				"trans": "Dudlík Bráška Dýně"
+			}
+		},
+		"pumpkinBroSeed": {
+			"description": {
+				"eng": "A plump, moist seed. Pumpkin Bro says it’s his ‘special one.’ He’ll happily trade you something good for it.",
+				"trans": "Šťavnaté, měkké semínko. Dýňák Brácha říká, že je to jeho „speciální kousek“. Rád ti vymění něco dobrého za něj."
+			},
+			"name": {
+				"eng": "Pumpkin Bro's Seed",
+				"trans": "Semínko Pumpkin Bro"
 			}
 		},
 		"pumpkinPie": {
@@ -6610,7 +6674,8 @@
 					"Pumpkin is my source of power!",
 					"Check out my pumpkin costume!",
 					"Hmmmm, I wonder what's inside this pumpkin...",
-					"Give me your pumpkin, and I'll give you a treat!"
+					"Want a lollipop?",
+					"Give me your seeds, and I will give you a treat!"
 				],
 				"trans": [
 					"Pumpkin is my source of power!",
@@ -7401,6 +7466,107 @@
 			"title": {
 				"eng": "Chat Frames",
 				"trans": "Rámečky chatu"
+			}
+		},
+		"displayShelf": {
+			"close": {
+				"eng": "Close",
+				"trans": "Zavřít"
+			},
+			"empty": {
+				"eng": "Empty Slot",
+				"trans": "Prázdné místo"
+			},
+			"error": {
+				"level": {
+					"eng": "Reach level ${level} to unlock this slot.",
+					"trans": "Pro odemčení tohoto místa je potřeba dosáhnout úrovně ${level}.",
+					"vars": [
+						"level"
+					]
+				},
+				"money": {
+					"eng": "You need ${cost} Bitcoins to unlock this slot.",
+					"trans": "Abyste odemkli tento slot, potřebujete ${cost} Bitcoinů.",
+					"vars": [
+						"cost"
+					]
+				},
+				"unavailable": {
+					"eng": "Slot cannot be unlocked.",
+					"trans": "Nelze odemknout tento slot."
+				}
+			},
+			"locked": {
+				"eng": "Locked Slot",
+				"trans": "Zamčený slot"
+			},
+			"lockedRequirement": {
+				"cost": {
+					"eng": "Cost ${cost} ${currency}",
+					"trans": "Cena ${cost} ${currency}",
+					"vars": [
+						"cost",
+						"currency"
+					]
+				},
+				"currentLevel": {
+					"eng": "You are Lv ${level}",
+					"trans": "Jsi na úrovni ${level}",
+					"vars": [
+						"level"
+					]
+				},
+				"level": {
+					"eng": "Requires Lv ${level}",
+					"trans": "Vyžaduje úroveň ${level}",
+					"vars": [
+						"level"
+					]
+				}
+			},
+			"lockedUnavailable": {
+				"eng": "Slot unavailable",
+				"trans": "Slot je zamčený"
+			},
+			"noItems": {
+				"eng": "This player has not placed any items on display.",
+				"trans": "Tento hráč nemá na výstavce žádné předměty."
+			},
+			"remove": {
+				"eng": "Remove displayed item",
+				"trans": "Odebrat zobrazený předmět"
+			},
+			"title": {
+				"eng": "Display Shelf",
+				"trans": "Polička na ukázky"
+			},
+			"unlockConfirm": {
+				"eng": "Unlock",
+				"trans": "Odemknout"
+			},
+			"unlockDescription": {
+				"eng": "Unlock slot ${slot} for ${cost} ${currency}?",
+				"trans": "Odemknout slot ${slot} za ${cost} ${currency}?",
+				"vars": [
+					"slot",
+					"cost",
+					"currency"
+				]
+			},
+			"unlockRequirement": {
+				"cost": {
+					"eng": "Cost",
+					"trans": "Cena"
+				}
+			},
+			"unlockTitle": {
+				"eng": "Unlock Display Shelf Slot",
+				"trans": "Odblokovat slot na výstavní polici"
+			},
+			"unlockUnavailable": {
+				"eng": "Slot cannot be unlocked.",
+				"trans": "Nelze odemknout tento slot."
 			}
 		},
 		"donationTiers": {
@@ -9095,11 +9261,11 @@
 			"trans": "Šifrování chatu"
 		},
 		"equipmentExchangeAccess": {
-			"eng": "Equipment Exchange Access",
+			"eng": "Epic Fragment Fusion Access",
 			"trans": "Aktivní výměna vybavení"
 		},
 		"equipmentExchangeAccessDesc": {
-			"eng": "Grants access to the Epic Fragment Extraction system. You can extract your Epic equipment for Epic Cache Fragments.",
+			"eng": "Grants access to the Epic Fragment Fusion system. You can fuse Epic Cache Fragments into Epic Equipment.",
 			"trans": "Otevírá přístup k epickému systému extrakce fragmentů. Převedeš své epické vybavení na epické fragmenty skladu."
 		},
 		"expBonus": {
@@ -11640,6 +11806,10 @@
 			}
 		},
 		"profile": {
+			"assets": {
+				"eng": "assets",
+				"trans": "Zásoby"
+			},
 			"deleteAccount": {
 				"button": {
 					"eng": "Delete Account",

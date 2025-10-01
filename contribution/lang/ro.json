@@ -1384,6 +1384,53 @@
 			}
 		}
 	},
+	"displayShelf": {
+		"error": {
+			"invalidSlot": {
+				"eng": "Invalid display shelf slot.",
+				"trans": "Poziția de pe raftul de afișare nu este validă."
+			},
+			"itemNotFound": {
+				"eng": "Item not found or not accessible.",
+				"trans": "Obiectul nu a fost găsit sau nu este accesibil."
+			},
+			"levelReq": {
+				"eng": "Requires level ${level}",
+				"trans": "Necesită nivel ${level}",
+				"vars": [
+					"level"
+				]
+			},
+			"moneyReq": {
+				"eng": "Requires ${cost} ${currency}",
+				"trans": "Necesită ${cost} ${currency}",
+				"vars": [
+					"cost",
+					"currency"
+				]
+			},
+			"unlockOrder": {
+				"eng": "You must unlock slots in order.",
+				"trans": "Trebuie să deblochezi sloturile în ordine."
+			},
+			"unlockUnavailable": {
+				"eng": "Slot cannot be unlocked.",
+				"trans": "Slot-ul nu poate fi deblocat."
+			}
+		},
+		"selectItem": {
+			"eng": "Select an item to display",
+			"trans": "Selectează un obiect pentru afișare"
+		},
+		"unlocked": {
+			"eng": "Display shelf slot unlocked.",
+			"trans": "Ai deblocat un nou slot pe raftul de afișare."
+		},
+		"updated": {
+			"eng": "Display shelf updated.",
+			"trans": "Secțiunea de afișare a fost actualizată."
+		}
+	},
 	"donationCard": {
 		"benefits": {
 			"bio": {
@@ -1673,7 +1720,7 @@
 			"trans": "Neon Elită"
 		},
 		"donation44": {
-			"eng": "Haunted Fog",
+			"eng": "CyberGhost",
 			"trans": "Ceata Bântuită"
 		},
 		"donation5": {
@@ -1961,27 +2008,6 @@
 		}
 	},
 	"equipmentExchange": {
-		"accessRequired": {
-			"eng": "Please activate Epic Fragment Extraction first",
-			"trans": "Activați mai întâi Extracția Fragmentelor Epic, vă rugăm"
-		},
-		"activation": {
-			"button": {
-				"eng": "Activate Access",
-				"trans": "Activează Conexiunea"
-			},
-			"description": {
-				"eng": "Activate to start extracting your equioment for ${fragmenItem}",
-				"trans": "Activează ca să pornești extracția echipamentului pentru ${fragmenItem}",
-				"vars": [
-					"fragmenItem"
-				]
-			},
-			"title": {
-				"eng": "Epic Fragment Extraction Access",
-				"trans": "Acces la Extracția Fragmentelor Epic"
-			}
-		},
 		"combineFragments": {
 			"button": {
 				"eng": "FUSE ${requiredFragments} FRAGMENTS",
@@ -2001,7 +2027,7 @@
 				"trans": "Sigur vrei să extragi următoarele echipamente pentru o șansă la fragmente Epic Cache?"
 			},
 			"description2": {
-				"eng": "This process is not reversible and the items WILL be destroyed in process",
+				"eng": "This process is not reversible and the item will be converted after you clicked confirm",
 				"trans": "Nu poți reveni din această acțiune – obiectele vor fi distruse fără posibilitate de recuperare"
 			},
 			"title": {
@@ -2046,13 +2072,13 @@
 				"eng": "${item.getName()} is locked",
 				"trans": "${item.getName()} este încuiat"
 			},
-			"noAccess": {
-				"eng": "You need to activate Equipment Exchange Access to use this feature",
-				"trans": "Nu ai acces la schimbul de echipament. Activează-l mai întâi"
-			},
 			"noBackpacks": {
 				"eng": "Backpacks cannot be exchanged",
 				"trans": "Nu se pot schimba rucsacurile"
+			},
+			"noFusionAccess": {
+				"eng": "You need to activate Epic Fragment Fusion Access to use this feature",
+				"trans": "Accesul la fuziunea fragmentelor epice trebuie activat pentru a putea folosi această funcție"
 			},
 			"noMoreItems": {
 				"eng": "No more eligible equipment available",
@@ -2075,7 +2101,7 @@
 			}
 		},
 		"exchange": {
-			"eng": "EXCHANGE EQUIPMENT",
+			"eng": "EXTRACT EQUIPMENT",
 			"success": {
 				"eng": "${player} has received ${amount} ${item} from ${npcName}",
 				"trans": "${player} a primit ${amount} ${item} de la ${npcName} – tranzacția a reușit!",
@@ -2104,8 +2130,22 @@
 			"eng": "Epic Cache Fragments",
 			"trans": "Fragmente Elite de Cache"
 		},
+		"fusionActivation": {
+			"button": {
+				"eng": "Activate Fusion",
+				"trans": "Activează Fuziunea"
+			},
+			"description": {
+				"eng": "Activate to fuse Epic Cache Fragments into Epic Equipment",
+				"trans": "Activează pentru a combina Fragmentele Epice de Cache în Echipament Epic"
+			},
+			"title": {
+				"eng": "Epic Fragment Fusion Access",
+				"trans": "Acces la Fuziunea Fragmentelor Epice"
+			}
+		},
 		"fusionDescription": {
-			"eng": "Combine ${amount} Epic Cache Fragments into 1 guaranteed Epic Equipment Cache",
+			"eng": "Fuse ${amount} Epic Cache Fragments into 1 guaranteed Epic Equipment Cache",
 			"trans": "Transformă ${amount} ${fragmentName} într-un Cache aleatoriu de Echipament Epic, într-o singură mișcare",
 			"vars": [
 				"amount"
@@ -2139,7 +2179,7 @@
 			"trans": "Selectează echipamentul"
 		},
 		"tip": {
-			"eng": "Exchange ${amount} Epic Tier Equipments for random amount of ${itemName}",
+			"eng": "Extract ${amount} Epic Tier Equipments for random amount of ${itemName}. Extraction is FREE!",
 			"trans": "Schimbă ${amount} echipamente Epic într-o cantitate aleatorie de ${itemName}",
 			"vars": [
 				"amount",
@@ -2726,36 +2766,6 @@
 			"trans": "Organizează o petrecere"
 		}
 	},
-	"halloweenPromo": {
-		"desc1": {
-			"eng": "Its the spooky time of the year again! Shang-ri-la is celebrating Halloween with a special event!",
-			"trans": "Este din nou perioada înfricoșătoare a anului! Shang-ri-La sărbătorește Halloween-ul cu un eveniment special!"
-		},
-		"desc2v3": {
-			"eng": "Enemies and AI Core auto farm will have chance to drop ${item}!",
-			"trans": "Dușmanii și AI Core auto farm vor avea șanse să lase ${item}!",
-			"vars": [
-				"item"
-			]
-		},
-		"desc3v3": {
-			"eng": "You can find ${npc} at ${location} during Halloween, he will exchange your ${item} for rewards!",
-			"trans": "Poți găsi ${npc} la ${location} în timpul Halloween-ului, el îți va schimba ${item} pentru recompense!",
-			"vars": [
-				"npc",
-				"location",
-				"item"
-			]
-		},
-		"desc4v2": {
-			"eng": "During Halloween, a time limited halloween, cyber-bat chat donation tier and themed emblems will be available!",
-			"trans": "În timpul Halloween-ului, vor fi disponibile un nivel de donație de chat de chat cyber-bat și embleme tematice și embleme tematice!"
-		},
-		"title": {
-			"eng": "Happy Halloween!",
-			"trans": "Halloween fericit!"
-		}
-	},
 	"halloweenPromoSmall": {
 		"desc": {
 			"eng": "Collect ${item} to redeem various rewards!",
@@ -2767,6 +2777,36 @@
 		"title": {
 			"eng": "Halloween Event!",
 			"trans": "Eveniment de Halloween!"
+		}
+	},
+	"halloweenPromotion": {
+		"desc1": {
+			"eng": "It's the spooky time of year again! Shang-ri-la is celebrating Halloween with a special event!",
+			"trans": "E din nou timpul înfricoșător al anului! Shang-ri-la sărbătorește Halloween-ul cu un eveniment special!"
+		},
+		"desc2v3": {
+			"eng": "Enemies and AI Core auto-farm have a chance to drop ${item}!",
+			"trans": "Atât inamicii, cât și AI Core-ul pot să cadă ${item}!",
+			"vars": [
+				"item"
+			]
+		},
+		"desc3v3": {
+			"eng": "You can find ${npc} at ${location} during Halloween. He will exchange your ${item} for rewards!",
+			"trans": "Poți găsi pe ${npc} la ${location} în timpul Halloween-ului. El va schimba ${item} pentru recompense!",
+			"vars": [
+				"npc",
+				"location",
+				"item"
+			]
+		},
+		"desc4": {
+			"eng": "During Halloween, a time-limited donation tier and themed emblems will be available!",
+			"trans": "În timpul Halloween-ului, vor fi disponibile un nivel de donație cu timp limitat și embleme cu tematică!"
+		},
+		"title": {
+			"eng": "Happy Halloween!",
+			"trans": "Sărbători de Halloween fericite!"
 		}
 	},
 	"iapCurrency": {
@@ -3831,6 +3871,10 @@
 				]
 			}
 		},
+		"lollipopUseVerb": {
+			"eng": "Suck it up",
+			"trans": "Înghite în sec"
+		},
 		"lootBox1": {
 			"description": {
 				"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container",
@@ -4001,6 +4045,26 @@
 			"name": {
 				"eng": "Christmas Pudding",
 				"trans": "Budinca de Craciun"
+			}
+		},
+		"pumpkinBroLolipop": {
+			"description": {
+				"eng": "A large, sticky, pumpkin-bro-flavored lollipop. It’s way too big for your mouth, suspiciously moist, and Pumpkin Bro swears it was safe to eat. Delicious… probably.",
+				"trans": "O mare, lipicioasă, cu aromă de dovleac-bro, suuuuper mare. E prea mare pentru gură, ușor umedă, și Pumpkin Bro jură că e sigur de mâncat. Delicios... sau cel puțin așa pare."
+			},
+			"name": {
+				"eng": "Pumpkin Bro's Lolipop",
+				"trans": "Lollipop-ul lui Pumpkin Bro"
+			}
+		},
+		"pumpkinBroSeed": {
+			"description": {
+				"eng": "A plump, moist seed. Pumpkin Bro says it’s his ‘special one.’ He’ll happily trade you something good for it.",
+				"trans": "O sămânță suculasă și plină, pe care Pumpkin Bro o numește „favorita” lui. Îți va face cu plăcere o schimbare bună pentru ea."
+			},
+			"name": {
+				"eng": "Pumpkin Bro's Seed",
+				"trans": "Sămânța lui Pumpkin Bro"
 			}
 		},
 		"pumpkinPie": {
@@ -6610,7 +6674,8 @@
 					"Pumpkin is my source of power!",
 					"Check out my pumpkin costume!",
 					"Hmmmm, I wonder what's inside this pumpkin...",
-					"Give me your pumpkin, and I'll give you a treat!"
+					"Want a lollipop?",
+					"Give me your seeds, and I will give you a treat!"
 				],
 				"trans": [
 					"Pumpkin is my source of power!",
@@ -7401,6 +7466,107 @@
 			"title": {
 				"eng": "Chat Frames",
 				"trans": "Chenare de chat"
+			}
+		},
+		"displayShelf": {
+			"close": {
+				"eng": "Close",
+				"trans": "Închide"
+			},
+			"empty": {
+				"eng": "Empty Slot",
+				"trans": "Loc gol"
+			},
+			"error": {
+				"level": {
+					"eng": "Reach level ${level} to unlock this slot.",
+					"trans": "Atunci când ajungi la nivelul ${level}, vei debloca această zonă.",
+					"vars": [
+						"level"
+					]
+				},
+				"money": {
+					"eng": "You need ${cost} Bitcoins to unlock this slot.",
+					"trans": "Îți trebuie ${cost} Bitcoins ca să deblochezi acest slot.",
+					"vars": [
+						"cost"
+					]
+				},
+				"unavailable": {
+					"eng": "Slot cannot be unlocked.",
+					"trans": "Slot-ul nu poate fi deblocat."
+				}
+			},
+			"locked": {
+				"eng": "Locked Slot",
+				"trans": "Slot blocat"
+			},
+			"lockedRequirement": {
+				"cost": {
+					"eng": "Cost ${cost} ${currency}",
+					"trans": "Preț ${cost} ${currency}",
+					"vars": [
+						"cost",
+						"currency"
+					]
+				},
+				"currentLevel": {
+					"eng": "You are Lv ${level}",
+					"trans": "Ești nivelul ${level}",
+					"vars": [
+						"level"
+					]
+				},
+				"level": {
+					"eng": "Requires Lv ${level}",
+					"trans": "Necesită nivel ${level}",
+					"vars": [
+						"level"
+					]
+				}
+			},
+			"lockedUnavailable": {
+				"eng": "Slot unavailable",
+				"trans": "Slot indisponibil"
+			},
+			"noItems": {
+				"eng": "This player has not placed any items on display.",
+				"trans": "Jucătorul acesta nu are niciun item expus."
+			},
+			"remove": {
+				"eng": "Remove displayed item",
+				"trans": "Șterge itemul afișat"
+			},
+			"title": {
+				"eng": "Display Shelf",
+				"trans": "Raftul de afișare"
+			},
+			"unlockConfirm": {
+				"eng": "Unlock",
+				"trans": "Deblochează"
+			},
+			"unlockDescription": {
+				"eng": "Unlock slot ${slot} for ${cost} ${currency}?",
+				"trans": "Vrei să deblochezi slotul ${slot} pentru ${cost} ${currency}?",
+				"vars": [
+					"slot",
+					"cost",
+					"currency"
+				]
+			},
+			"unlockRequirement": {
+				"cost": {
+					"eng": "Cost",
+					"trans": "Cost"
+				}
+			},
+			"unlockTitle": {
+				"eng": "Unlock Display Shelf Slot",
+				"trans": "Deblochează slotul pentru raftul de afișare"
+			},
+			"unlockUnavailable": {
+				"eng": "Slot cannot be unlocked.",
+				"trans": "Slot-ul nu poate fi deblocat."
 			}
 		},
 		"donationTiers": {
@@ -9095,11 +9261,11 @@
 			"trans": "Criptare de chat"
 		},
 		"equipmentExchangeAccess": {
-			"eng": "Equipment Exchange Access",
+			"eng": "Epic Fragment Fusion Access",
 			"trans": "Acces la Schimb de Echipament"
 		},
 		"equipmentExchangeAccessDesc": {
-			"eng": "Grants access to the Epic Fragment Extraction system. You can extract your Epic equipment for Epic Cache Fragments.",
+			"eng": "Grants access to the Epic Fragment Fusion system. You can fuse Epic Cache Fragments into Epic Equipment.",
 			"trans": "Acordă acces la sistemul de extracție a fragmentelor Epic. Poți extrage echipamentul Epic pentru Fragmente Epic Cache."
 		},
 		"expBonus": {
@@ -11640,6 +11806,10 @@
 			}
 		},
 		"profile": {
+			"assets": {
+				"eng": "assets",
+				"trans": "Resurse"
+			},
 			"deleteAccount": {
 				"button": {
 					"eng": "Delete Account",

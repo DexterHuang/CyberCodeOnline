@@ -1383,6 +1383,53 @@
 			}
 		}
 	},
+	"displayShelf": {
+		"error": {
+			"invalidSlot": {
+				"eng": "Invalid display shelf slot.",
+				"trans": "Невалідний слот полки відображення."
+			},
+			"itemNotFound": {
+				"eng": "Item not found or not accessible.",
+				"trans": "Предмет не знайдено або не доступний."
+			},
+			"levelReq": {
+				"eng": "Requires level ${level}",
+				"trans": "Потрібний рівень ${level}",
+				"vars": [
+					"level"
+				]
+			},
+			"moneyReq": {
+				"eng": "Requires ${cost} ${currency}",
+				"trans": "Потрібно ${cost} ${currency}",
+				"vars": [
+					"cost",
+					"currency"
+				]
+			},
+			"unlockOrder": {
+				"eng": "You must unlock slots in order.",
+				"trans": "Ви повинні розблокувати слоти по порядку."
+			},
+			"unlockUnavailable": {
+				"eng": "Slot cannot be unlocked.",
+				"trans": "Слот неможливо розблокувати."
+			}
+		},
+		"selectItem": {
+			"eng": "Select an item to display",
+			"trans": "Виберіть предмет для відображення"
+		},
+		"unlocked": {
+			"eng": "Display shelf slot unlocked.",
+			"trans": "Слот показової полиці розблокувався."
+		},
+		"updated": {
+			"eng": "Display shelf updated.",
+			"trans": "Показова полиця оновлена."
+		}
+	},
 	"donationCard": {
 		"benefits": {
 			"bio": {
@@ -1672,7 +1719,7 @@
 			"trans": "Нейон Еліта"
 		},
 		"donation44": {
-			"eng": "Haunted Fog",
+			"eng": "CyberGhost",
 			"trans": "Примарний туман"
 		},
 		"donation5": {
@@ -1960,27 +2007,6 @@
 		}
 	},
 	"equipmentExchange": {
-		"accessRequired": {
-			"eng": "Please activate Epic Fragment Extraction first",
-			"trans": "Спочатку увімкніть епічне витягування фрагментів"
-		},
-		"activation": {
-			"button": {
-				"eng": "Activate Access",
-				"trans": "Запустити доступ"
-			},
-			"description": {
-				"eng": "Activate to start extracting your equioment for ${fragmenItem}",
-				"trans": "Запустіть, щоб розібрати обладнання для ${fragmenItem}",
-				"vars": [
-					"fragmenItem"
-				]
-			},
-			"title": {
-				"eng": "Epic Fragment Extraction Access",
-				"trans": "Активізація епічного витягування фрагментів"
-			}
-		},
 		"combineFragments": {
 			"button": {
 				"eng": "FUSE ${requiredFragments} FRAGMENTS",
@@ -2000,7 +2026,7 @@
 				"trans": "Впевнені, що хочете витягнути цю техніку, щоб отримати шанс на епічні фрагменти скарбів?"
 			},
 			"description2": {
-				"eng": "This process is not reversible and the items WILL be destroyed in process",
+				"eng": "This process is not reversible and the item will be converted after you clicked confirm",
 				"trans": "Цей процес ніколи не відмінити — речі знищать без зворотного ходу"
 			},
 			"title": {
@@ -2045,13 +2071,13 @@
 				"eng": "${item.getName()} is locked",
 				"trans": "${item.getName()} не відкрито"
 			},
-			"noAccess": {
-				"eng": "You need to activate Equipment Exchange Access to use this feature",
-				"trans": "Для використання цієї функції потрібно активувати доступ до обміну обладнання"
-			},
 			"noBackpacks": {
 				"eng": "Backpacks cannot be exchanged",
 				"trans": "Не можна обміняти рюкзаки"
+			},
+			"noFusionAccess": {
+				"eng": "You need to activate Epic Fragment Fusion Access to use this feature",
+				"trans": "Вам потрібно активувати Доступ до Фуziї Епічних Фрагментів, щоб використовувати цю функцію"
 			},
 			"noMoreItems": {
 				"eng": "No more eligible equipment available",
@@ -2074,7 +2100,7 @@
 			}
 		},
 		"exchange": {
-			"eng": "EXCHANGE EQUIPMENT",
+			"eng": "EXTRACT EQUIPMENT",
 			"success": {
 				"eng": "${player} has received ${amount} ${item} from ${npcName}",
 				"trans": "${player} отримав ${amount} ${item} від ${npcName}",
@@ -2103,8 +2129,22 @@
 			"eng": "Epic Cache Fragments",
 			"trans": "Фрагменти епічного сховища"
 		},
+		"fusionActivation": {
+			"button": {
+				"eng": "Activate Fusion",
+				"trans": "Активуйте Фуziю"
+			},
+			"description": {
+				"eng": "Activate to fuse Epic Cache Fragments into Epic Equipment",
+				"trans": "Активируйте, щоб ск·lити епичні фрагменти кешу в епічне обладнання"
+			},
+			"title": {
+				"eng": "Epic Fragment Fusion Access",
+				"trans": "Доступ до злиття епичних фрагментів"
+			}
+		},
 		"fusionDescription": {
-			"eng": "Combine ${amount} Epic Cache Fragments into 1 guaranteed Epic Equipment Cache",
+			"eng": "Fuse ${amount} Epic Cache Fragments into 1 guaranteed Epic Equipment Cache",
 			"trans": "Злиття ${amount} ${fragmentName} дає один випадковий епічний скарбничок із обладнанням",
 			"vars": [
 				"amount"
@@ -2138,7 +2178,7 @@
 			"trans": "Вибрати обладнання"
 		},
 		"tip": {
-			"eng": "Exchange ${amount} Epic Tier Equipments for random amount of ${itemName}",
+			"eng": "Extract ${amount} Epic Tier Equipments for random amount of ${itemName}. Extraction is FREE!",
 			"trans": "Обміняти ${amount} епічних речей на випадкову кількість ${itemName} — ризик, але може випасти добрість",
 			"vars": [
 				"amount",
@@ -2725,36 +2765,6 @@
 			"trans": "Проведи вечірку"
 		}
 	},
-	"halloweenPromo": {
-		"desc1": {
-			"eng": "Its the spooky time of the year again! Shang-ri-la is celebrating Halloween with a special event!",
-			"trans": "Це моторошна пора року знову! Шанг-Рі-Ла святкує Хеллоуїн із спеціальною подією!"
-		},
-		"desc2v3": {
-			"eng": "Enemies and AI Core auto farm will have chance to drop ${item}!",
-			"trans": "Вороги та AI Core автоферма матимуть шанс випустити ${item}!",
-			"vars": [
-				"item"
-			]
-		},
-		"desc3v3": {
-			"eng": "You can find ${npc} at ${location} during Halloween, he will exchange your ${item} for rewards!",
-			"trans": "Ви можете знайти ${npc} на ${location} під час Хелловіну, він обміняє ваші ${item} на винагороди!",
-			"vars": [
-				"npc",
-				"location",
-				"item"
-			]
-		},
-		"desc4v2": {
-			"eng": "During Halloween, a time limited halloween, cyber-bat chat donation tier and themed emblems will be available!",
-			"trans": "Під час Хелловіну буде доступним обмежений у часі Хелловін рівень пожертвувань, у чаті кібер-бат і тематичні емблеми!"
-		},
-		"title": {
-			"eng": "Happy Halloween!",
-			"trans": "Щасливого Хеловіну!"
-		}
-	},
 	"halloweenPromoSmall": {
 		"desc": {
 			"eng": "Collect ${item} to redeem various rewards!",
@@ -2766,6 +2776,36 @@
 		"title": {
 			"eng": "Halloween Event!",
 			"trans": "Хелловінський захід!"
+		}
+	},
+	"halloweenPromotion": {
+		"desc1": {
+			"eng": "It's the spooky time of year again! Shang-ri-la is celebrating Halloween with a special event!",
+			"trans": "Знову пришов спукний час року! Shang-ri-la святкує Хеллоуїн з особливим заходом!"
+		},
+		"desc2v3": {
+			"eng": "Enemies and AI Core auto-farm have a chance to drop ${item}!",
+			"trans": "Ворожі та автоферма AI Core мають шанс випасти ${item}!",
+			"vars": [
+				"item"
+			]
+		},
+		"desc3v3": {
+			"eng": "You can find ${npc} at ${location} during Halloween. He will exchange your ${item} for rewards!",
+			"trans": "У Халлоуін ви зможете знайти ${npc} у ${location}. Він обмінить ваше ${item} на винагороди!",
+			"vars": [
+				"npc",
+				"location",
+				"item"
+			]
+		},
+		"desc4": {
+			"eng": "During Halloween, a time-limited donation tier and themed emblems will be available!",
+			"trans": "Під час Халлоуїну з’являться донатні тіри з часовим лімітом та тематичні эмблеми!"
+		},
+		"title": {
+			"eng": "Happy Halloween!",
+			"trans": "Щасливого Хеллоуіна!"
 		}
 	},
 	"iapCurrency": {
@@ -3830,6 +3870,10 @@
 				]
 			}
 		},
+		"lollipopUseVerb": {
+			"eng": "Suck it up",
+			"trans": "Сосити його"
+		},
 		"lootBox1": {
 			"description": {
 				"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container",
@@ -4000,6 +4044,26 @@
 			"name": {
 				"eng": "Christmas Pudding",
 				"trans": "Різдвяний пудинг"
+			}
+		},
+		"pumpkinBroLolipop": {
+			"description": {
+				"eng": "A large, sticky, pumpkin-bro-flavored lollipop. It’s way too big for your mouth, suspiciously moist, and Pumpkin Bro swears it was safe to eat. Delicious… probably.",
+				"trans": "Великий, ліпкий лоліпоп з смаком Pompon-Bro. Він набагато великий для твого рота, spodivally vologii, і Pompon-Bro стверджує, що воно безпечно їсти. Смачний… ймовірно."
+			},
+			"name": {
+				"eng": "Pumpkin Bro's Lolipop",
+				"trans": "Лолипоп Пумпкін-Брора"
+			}
+		},
+		"pumpkinBroSeed": {
+			"description": {
+				"eng": "A plump, moist seed. Pumpkin Bro says it’s his ‘special one.’ He’ll happily trade you something good for it.",
+				"trans": "Тютюндне вологие зерно. Тютюн Бро каже, що це його «спеціальне». Він з радістю обмінить це на щось dobre для тебе."
+			},
+			"name": {
+				"eng": "Pumpkin Bro's Seed",
+				"trans": "Зерно Помпкіна Бро"
 			}
 		},
 		"pumpkinPie": {
@@ -6659,7 +6723,8 @@
 					"Pumpkin is my source of power!",
 					"Check out my pumpkin costume!",
 					"Hmmmm, I wonder what's inside this pumpkin...",
-					"Give me your pumpkin, and I'll give you a treat!"
+					"Want a lollipop?",
+					"Give me your seeds, and I will give you a treat!"
 				],
 				"trans": [
 					"Гарбуз – моя сила!",
@@ -7601,6 +7666,107 @@
 			"title": {
 				"eng": "Chat Frames",
 				"trans": "Стили чату"
+			}
+		},
+		"displayShelf": {
+			"close": {
+				"eng": "Close",
+				"trans": "Закрити"
+			},
+			"empty": {
+				"eng": "Empty Slot",
+				"trans": "Порожній слот"
+			},
+			"error": {
+				"level": {
+					"eng": "Reach level ${level} to unlock this slot.",
+					"trans": "Дійдіть до рівня ${level}, щоб розблокувати цей слот.",
+					"vars": [
+						"level"
+					]
+				},
+				"money": {
+					"eng": "You need ${cost} Bitcoins to unlock this slot.",
+					"trans": "Потрібно ${cost} Біткоинів, щоб розблокувати цей слот.",
+					"vars": [
+						"cost"
+					]
+				},
+				"unavailable": {
+					"eng": "Slot cannot be unlocked.",
+					"trans": "Слот неможливо розблокувати."
+				}
+			},
+			"locked": {
+				"eng": "Locked Slot",
+				"trans": "Замкнений слот"
+			},
+			"lockedRequirement": {
+				"cost": {
+					"eng": "Cost ${cost} ${currency}",
+					"trans": "Вартість ${cost} ${currency}",
+					"vars": [
+						"cost",
+						"currency"
+					]
+				},
+				"currentLevel": {
+					"eng": "You are Lv ${level}",
+					"trans": "Ви Рв ${level}",
+					"vars": [
+						"level"
+					]
+				},
+				"level": {
+					"eng": "Requires Lv ${level}",
+					"trans": "Треба Лв ${level}",
+					"vars": [
+						"level"
+					]
+				}
+			},
+			"lockedUnavailable": {
+				"eng": "Slot unavailable",
+				"trans": "Слот недоступний"
+			},
+			"noItems": {
+				"eng": "This player has not placed any items on display.",
+				"trans": "Цей гравець не помістив жодних предметів на відображення."
+			},
+			"remove": {
+				"eng": "Remove displayed item",
+				"trans": "Видалити показаний предмет"
+			},
+			"title": {
+				"eng": "Display Shelf",
+				"trans": "Показова полиця"
+			},
+			"unlockConfirm": {
+				"eng": "Unlock",
+				"trans": "Рзблокуйте"
+			},
+			"unlockDescription": {
+				"eng": "Unlock slot ${slot} for ${cost} ${currency}?",
+				"trans": "Розблокувати слот ${slot} за ${cost} ${currency}?",
+				"vars": [
+					"slot",
+					"cost",
+					"currency"
+				]
+			},
+			"unlockRequirement": {
+				"cost": {
+					"eng": "Cost",
+					"trans": "Вартість"
+				}
+			},
+			"unlockTitle": {
+				"eng": "Unlock Display Shelf Slot",
+				"trans": "Розблокувати слот виставкової полиці"
+			},
+			"unlockUnavailable": {
+				"eng": "Slot cannot be unlocked.",
+				"trans": "Слот неможливо розблокувати."
 			}
 		},
 		"donationTiers": {
@@ -9295,11 +9461,11 @@
 			"trans": "Шифрування чату"
 		},
 		"equipmentExchangeAccess": {
-			"eng": "Equipment Exchange Access",
+			"eng": "Epic Fragment Fusion Access",
 			"trans": "Доступ до обміну обладнанням"
 		},
 		"equipmentExchangeAccessDesc": {
-			"eng": "Grants access to the Epic Fragment Extraction system. You can extract your Epic equipment for Epic Cache Fragments.",
+			"eng": "Grants access to the Epic Fragment Fusion system. You can fuse Epic Cache Fragments into Epic Equipment.",
 			"trans": "Дає доступ до системи витягування епічних фрагментів. Ви можете перетворити свою епічну устаткування на фрагменти епічного сховища."
 		},
 		"expBonus": {
@@ -11840,6 +12006,10 @@
 			}
 		},
 		"profile": {
+			"assets": {
+				"eng": "assets",
+				"trans": "Власності"
+			},
 			"deleteAccount": {
 				"button": {
 					"eng": "Delete Account",

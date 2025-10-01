@@ -20,10 +20,10 @@ Please send your feedback to my Discord or email me directly.
 
 - Halloween Event (10/01 to 10/31):
 
-  - Enemies and AFK bot farms will drop `Pumpkin Bro's Seed` which you can exchange for various rewards with `Pumpkin Bro` at the Alleyway in Market Street
-  - `Pumpkin Bro's Seed` are tradable between players and can be exchanged for: Locked Legendary Container, Rare Equipment Crate, Pumpkin Pie, Caramel Apple, Pumpkin Bro's Lollipop, and Skip Discount Tickets
-  - `Caramel Apple` provides a 10% boost to AFK EXP and BTC gains for 20 minutes
-  - `Pumpkin Bro's Lollipop` provides a 20% damage boost for 10 minutes
+  - Enemies and AFK bot farms will drop `Pumpkin Bro's Seed` which you can exchange for various rewards with `Pumpkin Bro` at the Alleyway in Market Street, event based item will expire when event ends
+  - `Pumpkin Bro's Seed` are tradable between players and can be exchanged for several items
+  - Added `Caramel Apple` provides a 10% boost to AFK EXP and BTC gains for 20 minutes, expires when event ends
+  - Added `Pumpkin Bro's Lollipop` provides a 20% damage boost for 10 minutes, expires when event ends
   - Halloween-themed chat frames and emblems are available during the event
 
 - Added translation support to gang chat channels

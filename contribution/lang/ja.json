@@ -1382,6 +1382,53 @@
 			}
 		}
 	},
+	"displayShelf": {
+		"error": {
+			"invalidSlot": {
+				"eng": "Invalid display shelf slot.",
+				"trans": "無効なディスプレイ棚のスロットです。"
+			},
+			"itemNotFound": {
+				"eng": "Item not found or not accessible.",
+				"trans": "アイテムが見つからないか、アクセスできません。"
+			},
+			"levelReq": {
+				"eng": "Requires level ${level}",
+				"trans": "レベル${level}が必要です",
+				"vars": [
+					"level"
+				]
+			},
+			"moneyReq": {
+				"eng": "Requires ${cost} ${currency}",
+				"trans": "${cost} ${currency} が必要です",
+				"vars": [
+					"cost",
+					"currency"
+				]
+			},
+			"unlockOrder": {
+				"eng": "You must unlock slots in order.",
+				"trans": "順番にスロットを解除してください。"
+			},
+			"unlockUnavailable": {
+				"eng": "Slot cannot be unlocked.",
+				"trans": "このスロットはアンロックできません。"
+			}
+		},
+		"selectItem": {
+			"eng": "Select an item to display",
+			"trans": "表示するアイテムを選ぼう。"
+		},
+		"unlocked": {
+			"eng": "Display shelf slot unlocked.",
+			"trans": "表示棚のスロットがアンロックされました。"
+		},
+		"updated": {
+			"eng": "Display shelf updated.",
+			"trans": "表示棚が更新されました。"
+		}
+	},
 	"donationCard": {
 		"benefits": {
 			"bio": {
@@ -1671,7 +1718,7 @@
 			"trans": "ネオン・エリート"
 		},
 		"donation44": {
-			"eng": "Haunted Fog",
+			"eng": "CyberGhost",
 			"trans": "お化けの霧"
 		},
 		"donation5": {
@@ -1959,27 +2006,6 @@
 		}
 	},
 	"equipmentExchange": {
-		"accessRequired": {
-			"eng": "Please activate Epic Fragment Extraction first",
-			"trans": "英雄キャッシュの欠片の抽出を起動してください"
-		},
-		"activation": {
-			"button": {
-				"eng": "Activate Access",
-				"trans": "アクセス起動"
-			},
-			"description": {
-				"eng": "Activate to start extracting your equioment for ${fragmenItem}",
-				"trans": "起動して${fragmenItem}の抽出を開始します",
-				"vars": [
-					"fragmenItem"
-				]
-			},
-			"title": {
-				"eng": "Epic Fragment Extraction Access",
-				"trans": "英雄キャッシュの欠片の抽出へアクセス"
-			}
-		},
 		"combineFragments": {
 			"button": {
 				"eng": "FUSE ${requiredFragments} FRAGMENTS",
@@ -1999,7 +2025,7 @@
 				"trans": "以下の装備を解体して英雄キャッシュの欠片を入手します。本当に良いですか？"
 			},
 			"description2": {
-				"eng": "This process is not reversible and the items WILL be destroyed in process",
+				"eng": "This process is not reversible and the item will be converted after you clicked confirm",
 				"trans": "この処理は取り消しできません。アイテムはこの過程で永久に破棄されます。"
 			},
 			"title": {
@@ -2044,13 +2070,13 @@
 				"eng": "${item.getName()} is locked",
 				"trans": "装備品「${item.getName()}」はロックされています"
 			},
-			"noAccess": {
-				"eng": "You need to activate Equipment Exchange Access to use this feature",
-				"trans": "この機能を利用するには、装備交換へのアクセスを起動する必要があります"
-			},
 			"noBackpacks": {
 				"eng": "Backpacks cannot be exchanged",
 				"trans": "バックパックは交換できません"
+			},
+			"noFusionAccess": {
+				"eng": "You need to activate Epic Fragment Fusion Access to use this feature",
+				"trans": "この機能を使うには、エピックフラグメント融合アクセスを有効にしてください。"
 			},
 			"noMoreItems": {
 				"eng": "No more eligible equipment available",
@@ -2073,7 +2099,7 @@
 			}
 		},
 		"exchange": {
-			"eng": "EXCHANGE EQUIPMENT",
+			"eng": "EXTRACT EQUIPMENT",
 			"success": {
 				"eng": "${player} has received ${amount} ${item} from ${npcName}",
 				"trans": "${player}が${npcName}から${amount}個の${item}を獲得しました",
@@ -2102,8 +2128,22 @@
 			"eng": "Epic Cache Fragments",
 			"trans": "英雄キャッシュの欠片"
 		},
+		"fusionActivation": {
+			"button": {
+				"eng": "Activate Fusion",
+				"trans": "フュージョンを発動"
+			},
+			"description": {
+				"eng": "Activate to fuse Epic Cache Fragments into Epic Equipment",
+				"trans": "エピックキャッシュフラグメントをエピック装備に融合させるには、アクティベートしてください。"
+			},
+			"title": {
+				"eng": "Epic Fragment Fusion Access",
+				"trans": "エピックフラグメント融合のアクセス"
+			}
+		},
 		"fusionDescription": {
-			"eng": "Combine ${amount} Epic Cache Fragments into 1 guaranteed Epic Equipment Cache",
+			"eng": "Fuse ${amount} Epic Cache Fragments into 1 guaranteed Epic Equipment Cache",
 			"trans": "${amount}個の${fragmentName}を融合して、ランダムな英雄装備キャッシュ1つを獲得する",
 			"vars": [
 				"amount"
@@ -2137,7 +2177,7 @@
 			"trans": "装備を選択"
 		},
 		"tip": {
-			"eng": "Exchange ${amount} Epic Tier Equipments for random amount of ${itemName}",
+			"eng": "Extract ${amount} Epic Tier Equipments for random amount of ${itemName}. Extraction is FREE!",
 			"trans": "${amount}個の英雄装備からランダムな数の${itemName}を獲得する",
 			"vars": [
 				"amount",
@@ -2724,36 +2764,6 @@
 			"trans": "パーティーを開催"
 		}
 	},
-	"halloweenPromo": {
-		"desc1": {
-			"eng": "Its the spooky time of the year again! Shang-ri-la is celebrating Halloween with a special event!",
-			"trans": "今年もまた不気味な季節がやってきました！ シャングリ・ラでは, ハロウィンを祝う特別なイベントを開催中！"
-		},
-		"desc2v3": {
-			"eng": "Enemies and AI Core auto farm will have chance to drop ${item}!",
-			"trans": "敵とAIコアの自動ファームから${item}がドロップするチャンスがあります！",
-			"vars": [
-				"item"
-			]
-		},
-		"desc3v3": {
-			"eng": "You can find ${npc} at ${location} during Halloween, he will exchange your ${item} for rewards!",
-			"trans": "ハロウィンの間, ${location}で${npc}を見つけることができます. 彼はあなたの${item}を報酬と交換してくれます！",
-			"vars": [
-				"npc",
-				"location",
-				"item"
-			]
-		},
-		"desc4v2": {
-			"eng": "During Halloween, a time limited halloween, cyber-bat chat donation tier and themed emblems will be available!",
-			"trans": "ハロウィンの間は, 期間限定のハロウィン, サイバーバットのチャット寄付ティア, テーマのエンブレムが登場します！"
-		},
-		"title": {
-			"eng": "Happy Halloween!",
-			"trans": "ハッピーハロウィン！"
-		}
-	},
 	"halloweenPromoSmall": {
 		"desc": {
 			"eng": "Collect ${item} to redeem various rewards!",
@@ -2765,6 +2775,36 @@
 		"title": {
 			"eng": "Halloween Event!",
 			"trans": "ハロウィンイベント！"
+		}
+	},
+	"halloweenPromotion": {
+		"desc1": {
+			"eng": "It's the spooky time of year again! Shang-ri-la is celebrating Halloween with a special event!",
+			"trans": "今年もハロウィンの季節が到来！シャングリラでスペシャルイベントと一緒にハロウィンを楽しもう！"
+		},
+		"desc2v3": {
+			"eng": "Enemies and AI Core auto-farm have a chance to drop ${item}!",
+			"trans": "敵とAIコアの自動ファームで${item}がドロップする可能性があります！",
+			"vars": [
+				"item"
+			]
+		},
+		"desc3v3": {
+			"eng": "You can find ${npc} at ${location} during Halloween. He will exchange your ${item} for rewards!",
+			"trans": "ハロウィンの間、${location}にいる${npc}を見つけてね！彼は${item}と交換して報酬をゲット！",
+			"vars": [
+				"npc",
+				"location",
+				"item"
+			]
+		},
+		"desc4": {
+			"eng": "During Halloween, a time-limited donation tier and themed emblems will be available!",
+			"trans": "ハロウィン期間中、限定の寄付レベルとテーマエンブレムが登場します！"
+		},
+		"title": {
+			"eng": "Happy Halloween!",
+			"trans": "ハッピーハロウィン！"
 		}
 	},
 	"iapCurrency": {
@@ -3829,6 +3869,10 @@
 				]
 			}
 		},
+		"lollipopUseVerb": {
+			"eng": "Suck it up",
+			"trans": "しっかりしろ"
+		},
 		"lootBox1": {
 			"description": {
 				"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container",
@@ -3999,6 +4043,26 @@
 			"name": {
 				"eng": "Christmas Pudding",
 				"trans": "クリスマス・プディング"
+			}
+		},
+		"pumpkinBroLolipop": {
+			"description": {
+				"eng": "A large, sticky, pumpkin-bro-flavored lollipop. It’s way too big for your mouth, suspiciously moist, and Pumpkin Bro swears it was safe to eat. Delicious… probably.",
+				"trans": "巨大でべたべたのパンプキンブロ味のロリポップ。口に入れるにはデカすぎて、ちょっと湿り気が怪しいけど、パンプキンブロは「安全だって言ってた」ってさ。美味しいかも…多分。"
+			},
+			"name": {
+				"eng": "Pumpkin Bro's Lolipop",
+				"trans": "パンプキン兄貴のロリポップ"
+			}
+		},
+		"pumpkinBroSeed": {
+			"description": {
+				"eng": "A plump, moist seed. Pumpkin Bro says it’s his ‘special one.’ He’ll happily trade you something good for it.",
+				"trans": "ふっくらとしたジューシーな種だよ。パンプキン兄さんはこれを『特別なやつ』って呼んでる。彼は喜んでいいものと交換してくれるぜ。"
+			},
+			"name": {
+				"eng": "Pumpkin Bro's Seed",
+				"trans": "かぼちゃ兄貴のタネ"
 			}
 		},
 		"pumpkinPie": {
@@ -6660,7 +6724,8 @@
 					"Pumpkin is my source of power!",
 					"Check out my pumpkin costume!",
 					"Hmmmm, I wonder what's inside this pumpkin...",
-					"Give me your pumpkin, and I'll give you a treat!"
+					"Want a lollipop?",
+					"Give me your seeds, and I will give you a treat!"
 				],
 				"trans": [
 					"カボチャは俺のパワーの源だ！",
@@ -7614,6 +7679,107 @@
 			"title": {
 				"eng": "Chat Frames",
 				"trans": "チャット枠"
+			}
+		},
+		"displayShelf": {
+			"close": {
+				"eng": "Close",
+				"trans": "閉じる"
+			},
+			"empty": {
+				"eng": "Empty Slot",
+				"trans": "空きスロット"
+			},
+			"error": {
+				"level": {
+					"eng": "Reach level ${level} to unlock this slot.",
+					"trans": "このスロットを解除するには、レベル${level}に到達してください。",
+					"vars": [
+						"level"
+					]
+				},
+				"money": {
+					"eng": "You need ${cost} Bitcoins to unlock this slot.",
+					"trans": "このスロットを解除するには、${cost}ビットコインが必要です。",
+					"vars": [
+						"cost"
+					]
+				},
+				"unavailable": {
+					"eng": "Slot cannot be unlocked.",
+					"trans": "このスロットはアンロックできません。"
+				}
+			},
+			"locked": {
+				"eng": "Locked Slot",
+				"trans": "ロック済みのスロット"
+			},
+			"lockedRequirement": {
+				"cost": {
+					"eng": "Cost ${cost} ${currency}",
+					"trans": "必要コスト: ${cost} ${currency}",
+					"vars": [
+						"cost",
+						"currency"
+					]
+				},
+				"currentLevel": {
+					"eng": "You are Lv ${level}",
+					"trans": "レベル${level}だぜ",
+					"vars": [
+						"level"
+					]
+				},
+				"level": {
+					"eng": "Requires Lv ${level}",
+					"trans": "レベル ${level} 必須",
+					"vars": [
+						"level"
+					]
+				}
+			},
+			"lockedUnavailable": {
+				"eng": "Slot unavailable",
+				"trans": "スロット利用不可"
+			},
+			"noItems": {
+				"eng": "This player has not placed any items on display.",
+				"trans": "まだアイテムが飾られていません。"
+			},
+			"remove": {
+				"eng": "Remove displayed item",
+				"trans": "表示アイテムを削除"
+			},
+			"title": {
+				"eng": "Display Shelf",
+				"trans": "展示棚"
+			},
+			"unlockConfirm": {
+				"eng": "Unlock",
+				"trans": "アンロック"
+			},
+			"unlockDescription": {
+				"eng": "Unlock slot ${slot} for ${cost} ${currency}?",
+				"trans": "${slot}番のスロットを${cost}${currency}で解除しますか？",
+				"vars": [
+					"slot",
+					"cost",
+					"currency"
+				]
+			},
+			"unlockRequirement": {
+				"cost": {
+					"eng": "Cost",
+					"trans": "コスト"
+				}
+			},
+			"unlockTitle": {
+				"eng": "Unlock Display Shelf Slot",
+				"trans": "ディスプレイ棚のスロットをアンロック"
+			},
+			"unlockUnavailable": {
+				"eng": "Slot cannot be unlocked.",
+				"trans": "このスロットはアンロックできません。"
 			}
 		},
 		"donationTiers": {
@@ -9308,11 +9474,11 @@
 			"trans": "チャット暗号化"
 		},
 		"equipmentExchangeAccess": {
-			"eng": "Equipment Exchange Access",
+			"eng": "Epic Fragment Fusion Access",
 			"trans": "装備交換へのアクセス"
 		},
 		"equipmentExchangeAccessDesc": {
-			"eng": "Grants access to the Epic Fragment Extraction system. You can extract your Epic equipment for Epic Cache Fragments.",
+			"eng": "Grants access to the Epic Fragment Fusion system. You can fuse Epic Cache Fragments into Epic Equipment.",
 			"trans": "英雄キャッシュの欠片の抽出システムへのアクセスを許可。英雄装備を抽出して英雄キャッシュの欠片を手に入れる。"
 		},
 		"expBonus": {
@@ -11853,6 +12019,10 @@
 			}
 		},
 		"profile": {
+			"assets": {
+				"eng": "assets",
+				"trans": "アセット"
+			},
 			"deleteAccount": {
 				"button": {
 					"eng": "Delete Account",

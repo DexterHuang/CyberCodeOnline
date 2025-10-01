@@ -1384,6 +1384,53 @@
 			}
 		}
 	},
+	"displayShelf": {
+		"error": {
+			"invalidSlot": {
+				"eng": "Invalid display shelf slot.",
+				"trans": "Slot shelf hiển thị không hợp lệ."
+			},
+			"itemNotFound": {
+				"eng": "Item not found or not accessible.",
+				"trans": "Vật phẩm không tìm thấy hoặc không thể truy cập."
+			},
+			"levelReq": {
+				"eng": "Requires level ${level}",
+				"trans": "Yêu cầu level ${level}",
+				"vars": [
+					"level"
+				]
+			},
+			"moneyReq": {
+				"eng": "Requires ${cost} ${currency}",
+				"trans": "Cần ${cost} ${currency}",
+				"vars": [
+					"cost",
+					"currency"
+				]
+			},
+			"unlockOrder": {
+				"eng": "You must unlock slots in order.",
+				"trans": "Bạn phải mở khóa các slot theo thứ tự."
+			},
+			"unlockUnavailable": {
+				"eng": "Slot cannot be unlocked.",
+				"trans": "Slot không thể được mở khóa"
+			}
+		},
+		"selectItem": {
+			"eng": "Select an item to display",
+			"trans": "Chọn một vật phẩm để hiển thị"
+		},
+		"unlocked": {
+			"eng": "Display shelf slot unlocked.",
+			"trans": "Slot kệ hiển thị đã mở khóa."
+		},
+		"updated": {
+			"eng": "Display shelf updated.",
+			"trans": "Kệ hiển thị đã được cập nhật."
+		}
+	},
 	"donationCard": {
 		"benefits": {
 			"bio": {
@@ -1673,7 +1720,7 @@
 			"trans": "Neon Elite"
 		},
 		"donation44": {
-			"eng": "Haunted Fog",
+			"eng": "CyberGhost",
 			"trans": "Sương Mù Ám Ảnh"
 		},
 		"donation5": {
@@ -1961,27 +2008,6 @@
 		}
 	},
 	"equipmentExchange": {
-		"accessRequired": {
-			"eng": "Please activate Epic Fragment Extraction first",
-			"trans": "Hãy bật Chế độ Trích xuất Mảnh Vĩ đại trước đã"
-		},
-		"activation": {
-			"button": {
-				"eng": "Activate Access",
-				"trans": "Bật truy cập"
-			},
-			"description": {
-				"eng": "Activate to start extracting your equioment for ${fragmenItem}",
-				"trans": "Kích hoạt để bắt đầu trích xuất trang bị ${fragmenItem}",
-				"vars": [
-					"fragmenItem"
-				]
-			},
-			"title": {
-				"eng": "Epic Fragment Extraction Access",
-				"trans": "Truy cập Trích Xuất Mảnh Vỡ Huyền Thoại"
-			}
-		},
 		"combineFragments": {
 			"button": {
 				"eng": "FUSE ${requiredFragments} FRAGMENTS",
@@ -2001,7 +2027,7 @@
 				"trans": "Bạn có chắc chắn muốn tháo dỡ các trang bị sau để có cơ hội nhận mảnh Fragments Kho Báu Cực Phẩm không?"
 			},
 			"description2": {
-				"eng": "This process is not reversible and the items WILL be destroyed in process",
+				"eng": "This process is not reversible and the item will be converted after you clicked confirm",
 				"trans": "Đây là thao tác không thể hoàn tác, và các vật phẩm sẽ bị hủy hoàn toàn trong quá trình thực hiện"
 			},
 			"title": {
@@ -2046,13 +2072,13 @@
 				"eng": "${item.getName()} is locked",
 				"trans": "${item.getName()} đang bị khóa"
 			},
-			"noAccess": {
-				"eng": "You need to activate Equipment Exchange Access to use this feature",
-				"trans": "Bạn cần bật quyền truy cập Trao đổi Thiết bị để sử dụng tính năng này"
-			},
 			"noBackpacks": {
 				"eng": "Backpacks cannot be exchanged",
 				"trans": "Không thể trao đổi hành lý"
+			},
+			"noFusionAccess": {
+				"eng": "You need to activate Epic Fragment Fusion Access to use this feature",
+				"trans": "Bạn cần kích hoạt Quyền Hợp Nhập Fragment Siêu Thú để sử dụng tính năng này"
 			},
 			"noMoreItems": {
 				"eng": "No more eligible equipment available",
@@ -2075,7 +2101,7 @@
 			}
 		},
 		"exchange": {
-			"eng": "EXCHANGE EQUIPMENT",
+			"eng": "EXTRACT EQUIPMENT",
 			"success": {
 				"eng": "${player} has received ${amount} ${item} from ${npcName}",
 				"trans": "${player} đã nhận được ${amount} ${item} từ ${npcName}",
@@ -2104,8 +2130,22 @@
 			"eng": "Epic Cache Fragments",
 			"trans": "Mảnh Vật Phẩm Cực Phẩm"
 		},
+		"fusionActivation": {
+			"button": {
+				"eng": "Activate Fusion",
+				"trans": "Kích hoạt Fusion"
+			},
+			"description": {
+				"eng": "Activate to fuse Epic Cache Fragments into Epic Equipment",
+				"trans": "Kích hoạt để hợp nhất Đá thảnh Kho Epik thành Thiết bị Siêu hạng"
+			},
+			"title": {
+				"eng": "Epic Fragment Fusion Access",
+				"trans": "Kích Hoạt Hợp Tạo Mảnh Epic"
+			}
+		},
 		"fusionDescription": {
-			"eng": "Combine ${amount} Epic Cache Fragments into 1 guaranteed Epic Equipment Cache",
+			"eng": "Fuse ${amount} Epic Cache Fragments into 1 guaranteed Epic Equipment Cache",
 			"trans": "Kết hợp ${amount} ${fragmentName} thành 1 Hòm Đồ Thiết Bị Cực Phẩm ngẫu nhiên",
 			"vars": [
 				"amount"
@@ -2139,7 +2179,7 @@
 			"trans": "Chọn trang bị"
 		},
 		"tip": {
-			"eng": "Exchange ${amount} Epic Tier Equipments for random amount of ${itemName}",
+			"eng": "Extract ${amount} Epic Tier Equipments for random amount of ${itemName}. Extraction is FREE!",
 			"trans": "Đổi ${amount} trang bị Cấp Tinh Anh để nhận ngẫu nhiên số lượng ${itemName}",
 			"vars": [
 				"amount",
@@ -2726,36 +2766,6 @@
 			"trans": "Tổ Chức Tiệc"
 		}
 	},
-	"halloweenPromo": {
-		"desc1": {
-			"eng": "Its the spooky time of the year again! Shang-ri-la is celebrating Halloween with a special event!",
-			"trans": "Đó là thời gian ma quái trong năm một lần nữa! Shang-ri-la đang kỷ niệm Halloween với một sự kiện đặc biệt!"
-		},
-		"desc2v3": {
-			"eng": "Enemies and AI Core auto farm will have chance to drop ${item}!",
-			"trans": "Kẻ thù và AI Core tự động farm sẽ có cơ hội rơi ${item}!",
-			"vars": [
-				"item"
-			]
-		},
-		"desc3v3": {
-			"eng": "You can find ${npc} at ${location} during Halloween, he will exchange your ${item} for rewards!",
-			"trans": "Bạn có thể tìm thấy ${npc} tại ${location} trong dịp Halloween, anh ấy sẽ đổi ${item} của bạn lấy phần thưởng!",
-			"vars": [
-				"npc",
-				"location",
-				"item"
-			]
-		},
-		"desc4v2": {
-			"eng": "During Halloween, a time limited halloween, cyber-bat chat donation tier and themed emblems will be available!",
-			"trans": "Trong Halloween, một Halloween giới hạn thời gian, tầng quyên góp trò chuyện trên mạng và các biểu tượng theo chủ đề sẽ có sẵn!"
-		},
-		"title": {
-			"eng": "Happy Halloween!",
-			"trans": "Halloween vui vẻ!"
-		}
-	},
 	"halloweenPromoSmall": {
 		"desc": {
 			"eng": "Collect ${item} to redeem various rewards!",
@@ -2767,6 +2777,36 @@
 		"title": {
 			"eng": "Halloween Event!",
 			"trans": "Sự kiện Halloween!"
+		}
+	},
+	"halloweenPromotion": {
+		"desc1": {
+			"eng": "It's the spooky time of year again! Shang-ri-la is celebrating Halloween with a special event!",
+			"trans": "Thời gian sợ khóc của năm lại đến rồi! Shang-ri-la đang tổ chức buổi lễ Halloween đặc biệt!"
+		},
+		"desc2v3": {
+			"eng": "Enemies and AI Core auto-farm have a chance to drop ${item}!",
+			"trans": "Kẻ thù và farm tự động Core AI có cơ hội drop ${item}!",
+			"vars": [
+				"item"
+			]
+		},
+		"desc3v3": {
+			"eng": "You can find ${npc} at ${location} during Halloween. He will exchange your ${item} for rewards!",
+			"trans": "Bạn sẽ gặp ${npc} tại ${location} trong dịp Halloween! Anh sẽ trao đổi ${item} của bạn để nhận quà tặng nhé",
+			"vars": [
+				"npc",
+				"location",
+				"item"
+			]
+		},
+		"desc4": {
+			"eng": "During Halloween, a time-limited donation tier and themed emblems will be available!",
+			"trans": "Trong dịp Halloween, sẽ có mức quyên góp có thời hạn và biểu tượng theo chủ đề có sẵn!"
+		},
+		"title": {
+			"eng": "Happy Halloween!",
+			"trans": "Chúc Mừng Halloween!"
 		}
 	},
 	"iapCurrency": {
@@ -3831,6 +3871,10 @@
 				]
 			}
 		},
+		"lollipopUseVerb": {
+			"eng": "Suck it up",
+			"trans": "Hút nó lên"
+		},
 		"lootBox1": {
 			"description": {
 				"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container",
@@ -4001,6 +4045,26 @@
 			"name": {
 				"eng": "Christmas Pudding",
 				"trans": "Bánh pút-đinh Giáng sinh"
+			}
+		},
+		"pumpkinBroLolipop": {
+			"description": {
+				"eng": "A large, sticky, pumpkin-bro-flavored lollipop. It’s way too big for your mouth, suspiciously moist, and Pumpkin Bro swears it was safe to eat. Delicious… probably.",
+				"trans": "Một lollipop to lớn, dính dáng, có hương vị Pumpkin Bro. Nó quá to cho miệng bạn, thấm ẩm đến mức đáng ngờ, và Pumpkin Bro phán bảo rằng nó an toàn để ăn. Ngon … có lẽ."
+			},
+			"name": {
+				"eng": "Pumpkin Bro's Lolipop",
+				"trans": "Lo-Li-Pop của Pumpkin Bro"
+			}
+		},
+		"pumpkinBroSeed": {
+			"description": {
+				"eng": "A plump, moist seed. Pumpkin Bro says it’s his ‘special one.’ He’ll happily trade you something good for it.",
+				"trans": "Một hạt đỏm-dôm、ẩm ướt。Pumpkin Bro nói đây là 'cái đặc biệt' của mình。Anh sẽ vui vẻ đổi cho bạn một thứ hay để lấy nó。"
+			},
+			"name": {
+				"eng": "Pumpkin Bro's Seed",
+				"trans": "Hạt Anh Pumpking"
 			}
 		},
 		"pumpkinPie": {
@@ -6610,7 +6674,8 @@
 					"Pumpkin is my source of power!",
 					"Check out my pumpkin costume!",
 					"Hmmmm, I wonder what's inside this pumpkin...",
-					"Give me your pumpkin, and I'll give you a treat!"
+					"Want a lollipop?",
+					"Give me your seeds, and I will give you a treat!"
 				],
 				"trans": [
 					"Pumpkin is my source of power!",
@@ -7401,6 +7466,107 @@
 			"title": {
 				"eng": "Chat Frames",
 				"trans": "Skin Chat"
+			}
+		},
+		"displayShelf": {
+			"close": {
+				"eng": "Close",
+				"trans": "Đóng"
+			},
+			"empty": {
+				"eng": "Empty Slot",
+				"trans": "Ô trống"
+			},
+			"error": {
+				"level": {
+					"eng": "Reach level ${level} to unlock this slot.",
+					"trans": "Cần đạt cấp độ ${level} để mở khóa ổ này.",
+					"vars": [
+						"level"
+					]
+				},
+				"money": {
+					"eng": "You need ${cost} Bitcoins to unlock this slot.",
+					"trans": "Bạn cần ${cost} Bitcoin để mở khóa slot này.",
+					"vars": [
+						"cost"
+					]
+				},
+				"unavailable": {
+					"eng": "Slot cannot be unlocked.",
+					"trans": "Slot không thể được mở khóa"
+				}
+			},
+			"locked": {
+				"eng": "Locked Slot",
+				"trans": "Slot Đã Khóa"
+			},
+			"lockedRequirement": {
+				"cost": {
+					"eng": "Cost ${cost} ${currency}",
+					"trans": "Giá ${cost} ${currency}",
+					"vars": [
+						"cost",
+						"currency"
+					]
+				},
+				"currentLevel": {
+					"eng": "You are Lv ${level}",
+					"trans": "Bạn đang ở Lv ${level}",
+					"vars": [
+						"level"
+					]
+				},
+				"level": {
+					"eng": "Requires Lv ${level}",
+					"trans": "Yêu cầu Lv ${level}",
+					"vars": [
+						"level"
+					]
+				}
+			},
+			"lockedUnavailable": {
+				"eng": "Slot unavailable",
+				"trans": "Vị trí không khả dụng"
+			},
+			"noItems": {
+				"eng": "This player has not placed any items on display.",
+				"trans": "Người chơi này chưa đặt bất kỳ vật phẩm nào lên kệ hiển thị."
+			},
+			"remove": {
+				"eng": "Remove displayed item",
+				"trans": "Gỡ bỏ vật phẩm hiển thị"
+			},
+			"title": {
+				"eng": "Display Shelf",
+				"trans": "Kệ Hiển Thị"
+			},
+			"unlockConfirm": {
+				"eng": "Unlock",
+				"trans": "Mở khóa"
+			},
+			"unlockDescription": {
+				"eng": "Unlock slot ${slot} for ${cost} ${currency}?",
+				"trans": "Mở khóa slot ${slot} với ${cost} ${currency}?",
+				"vars": [
+					"slot",
+					"cost",
+					"currency"
+				]
+			},
+			"unlockRequirement": {
+				"cost": {
+					"eng": "Cost",
+					"trans": "Chi phí"
+				}
+			},
+			"unlockTitle": {
+				"eng": "Unlock Display Shelf Slot",
+				"trans": "Mở khóa Slot Kệ Hiển Thị"
+			},
+			"unlockUnavailable": {
+				"eng": "Slot cannot be unlocked.",
+				"trans": "Slot không thể được mở khóa"
 			}
 		},
 		"donationTiers": {
@@ -9095,11 +9261,11 @@
 			"trans": "Mã hóa Chat"
 		},
 		"equipmentExchangeAccess": {
-			"eng": "Equipment Exchange Access",
+			"eng": "Epic Fragment Fusion Access",
 			"trans": "Truy cập trao đổi trang bị"
 		},
 		"equipmentExchangeAccessDesc": {
-			"eng": "Grants access to the Epic Fragment Extraction system. You can extract your Epic equipment for Epic Cache Fragments.",
+			"eng": "Grants access to the Epic Fragment Fusion system. You can fuse Epic Cache Fragments into Epic Equipment.",
 			"trans": "Mở khóa hệ thống trích xuất mảnh ghép cấp cao. Bạn có thể tái chế trang bị cấp cao để nhận mảnh ghép kho lưu trữ cấp cao."
 		},
 		"expBonus": {
@@ -11640,6 +11806,10 @@
 			}
 		},
 		"profile": {
+			"assets": {
+				"eng": "assets",
+				"trans": "Tài sản"
+			},
 			"deleteAccount": {
 				"button": {
 					"eng": "Delete Account",

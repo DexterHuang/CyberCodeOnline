@@ -1384,6 +1384,53 @@
 			}
 		}
 	},
+	"displayShelf": {
+		"error": {
+			"invalidSlot": {
+				"eng": "Invalid display shelf slot.",
+				"trans": "ช่องวางบนชั้นแสดงผลผิดพลาด"
+			},
+			"itemNotFound": {
+				"eng": "Item not found or not accessible.",
+				"trans": "ไอเท็มนี้หาไม่เจอหรือเข้าไม่ได้"
+			},
+			"levelReq": {
+				"eng": "Requires level ${level}",
+				"trans": "ต้องเลเวล ${level} ขึ้นไป",
+				"vars": [
+					"level"
+				]
+			},
+			"moneyReq": {
+				"eng": "Requires ${cost} ${currency}",
+				"trans": "ต้องใช้ ${cost} ${currency}",
+				"vars": [
+					"cost",
+					"currency"
+				]
+			},
+			"unlockOrder": {
+				"eng": "You must unlock slots in order.",
+				"trans": "คุณต้องปลดล็อคช่องตามลำดับก่อน"
+			},
+			"unlockUnavailable": {
+				"eng": "Slot cannot be unlocked.",
+				"trans": "ไม่สามารถปลดล็อคช่องนี้ได้"
+			}
+		},
+		"selectItem": {
+			"eng": "Select an item to display",
+			"trans": "เลือกไอเท็มเพื่อแสดง"
+		},
+		"unlocked": {
+			"eng": "Display shelf slot unlocked.",
+			"trans": "ปลดล็อคช่องวางบนชั้นแสดงผลแล้ว"
+		},
+		"updated": {
+			"eng": "Display shelf updated.",
+			"trans": "อัปเดตชั้นวางเรียบร้อยแล้ว"
+		}
+	},
 	"donationCard": {
 		"benefits": {
 			"bio": {
@@ -1673,7 +1720,7 @@
 			"trans": "เนออน อีลิท"
 		},
 		"donation44": {
-			"eng": "Haunted Fog",
+			"eng": "CyberGhost",
 			"trans": "หมอกหลอน"
 		},
 		"donation5": {
@@ -1961,27 +2008,6 @@
 		}
 	},
 	"equipmentExchange": {
-		"accessRequired": {
-			"eng": "Please activate Epic Fragment Extraction first",
-			"trans": "เปิด \"การดึงชิ้นส่วนอีพิก\" ก่อน แล้วค่อยเข้าใช้งาน"
-		},
-		"activation": {
-			"button": {
-				"eng": "Activate Access",
-				"trans": "เปิดใช้งานการเข้าถึง"
-			},
-			"description": {
-				"eng": "Activate to start extracting your equioment for ${fragmenItem}",
-				"trans": "เปิดใช้งานเพื่อเริ่มสกัดอุปกรณ์ของคุณเพื่อ ${fragmenItem}",
-				"vars": [
-					"fragmenItem"
-				]
-			},
-			"title": {
-				"eng": "Epic Fragment Extraction Access",
-				"trans": "เปิดใช้งานการดึงเศษส่วนระดับอีพิก"
-			}
-		},
 		"combineFragments": {
 			"button": {
 				"eng": "FUSE ${requiredFragments} FRAGMENTS",
@@ -2001,7 +2027,7 @@
 				"trans": "ยืนยันหรือเปล่า ว่าจะถอดอุปกรณ์นี้เพื่อลุ้นชิ้นส่วนคลังสมบัติอีพิก?"
 			},
 			"description2": {
-				"eng": "This process is not reversible and the items WILL be destroyed in process",
+				"eng": "This process is not reversible and the item will be converted after you clicked confirm",
 				"trans": "กระบวนการนี้ไม่สามารถย้อนกลับได้ และไอเทมจะถูกลบอย่างถาวรในกระบวนการนี้"
 			},
 			"title": {
@@ -2046,13 +2072,13 @@
 				"eng": "${item.getName()} is locked",
 				"trans": "${item.getName()} ถูกล็อกแล้ว"
 			},
-			"noAccess": {
-				"eng": "You need to activate Equipment Exchange Access to use this feature",
-				"trans": "ต้องเปิดใช้งานการแลกอุปกรณ์ก่อนถึงใช้ฟีเจอร์นี้ได้"
-			},
 			"noBackpacks": {
 				"eng": "Backpacks cannot be exchanged",
 				"trans": "กระเป๋าเก็บของไม่สามารถแลกเปลี่ยนได้"
+			},
+			"noFusionAccess": {
+				"eng": "You need to activate Epic Fragment Fusion Access to use this feature",
+				"trans": "ต้องเปิดใช้งานการรวมชิ้นส่วน Epic ก่อนนะ ถึงจะใช้ฟีเจอร์นี้ได้"
 			},
 			"noMoreItems": {
 				"eng": "No more eligible equipment available",
@@ -2075,7 +2101,7 @@
 			}
 		},
 		"exchange": {
-			"eng": "EXCHANGE EQUIPMENT",
+			"eng": "EXTRACT EQUIPMENT",
 			"success": {
 				"eng": "${player} has received ${amount} ${item} from ${npcName}",
 				"trans": "${player} ได้รับ ${item} ${amount} จาก ${npcName} สำเร็จ",
@@ -2104,8 +2130,22 @@
 			"eng": "Epic Cache Fragments",
 			"trans": "ชิ้นส่วนแคชอีพิก"
 		},
+		"fusionActivation": {
+			"button": {
+				"eng": "Activate Fusion",
+				"trans": "เปิดฟิวชั่น"
+			},
+			"description": {
+				"eng": "Activate to fuse Epic Cache Fragments into Epic Equipment",
+				"trans": "แตะเพื่อรวมชิ้นส่วนแคชระดับ Epic เข้ากับอุปกรณ์ระดับ Epic"
+			},
+			"title": {
+				"eng": "Epic Fragment Fusion Access",
+				"trans": "เข้าถึงฟิวชั่นเศษระดับตำนาน"
+			}
+		},
 		"fusionDescription": {
-			"eng": "Combine ${amount} Epic Cache Fragments into 1 guaranteed Epic Equipment Cache",
+			"eng": "Fuse ${amount} Epic Cache Fragments into 1 guaranteed Epic Equipment Cache",
 			"trans": "รวม ${amount} ${fragmentName} เพื่อสร้างกล่องของขวัญอุปกรณ์อีพิกสุ่ม 1 ชิ้น",
 			"vars": [
 				"amount"
@@ -2139,7 +2179,7 @@
 			"trans": "เลือกอุปกรณ์"
 		},
 		"tip": {
-			"eng": "Exchange ${amount} Epic Tier Equipments for random amount of ${itemName}",
+			"eng": "Extract ${amount} Epic Tier Equipments for random amount of ${itemName}. Extraction is FREE!",
 			"trans": "แลก ${amount} อุปกรณ์อีพิก เพื่อรับ ${itemName} สุ่มจำนวน",
 			"vars": [
 				"amount",
@@ -2726,36 +2766,6 @@
 			"trans": "จัดปาร์ตี้"
 		}
 	},
-	"halloweenPromo": {
-		"desc1": {
-			"eng": "Its the spooky time of the year again! Shang-ri-la is celebrating Halloween with a special event!",
-			"trans": "เป็นช่วงเวลาที่น่ากลัวของปีอีกครั้ง! Shang-ri-la กำลังฉลองวันฮาโลวีนด้วยกิจกรรมพิเศษ!"
-		},
-		"desc2v3": {
-			"eng": "Enemies and AI Core auto farm will have chance to drop ${item}!",
-			"trans": "ศัตรูและ AI Core ที่ฟาร์มอัตโนมัติจะมีโอกาสดรอป ${item}!",
-			"vars": [
-				"item"
-			]
-		},
-		"desc3v3": {
-			"eng": "You can find ${npc} at ${location} during Halloween, he will exchange your ${item} for rewards!",
-			"trans": "คุณสามารถพบ ${npc} ที่ ${location} ในช่วงฮาโลวีน เขาจะแลกเปลี่ยน ${item} ของคุณเป็นรางวัล!",
-			"vars": [
-				"npc",
-				"location",
-				"item"
-			]
-		},
-		"desc4v2": {
-			"eng": "During Halloween, a time limited halloween, cyber-bat chat donation tier and themed emblems will be available!",
-			"trans": "ในช่วงฮัลโลวีนเวลาฮัลโลวีน จำกัด เวลาการบริจาคแชทไซเบอร์แบ็ตและสัญลักษณ์ที่มีธีมจะพร้อมใช้งาน!"
-		},
-		"title": {
-			"eng": "Happy Halloween!",
-			"trans": "สุขสันต์วันฮาโลวีน!"
-		}
-	},
 	"halloweenPromoSmall": {
 		"desc": {
 			"eng": "Collect ${item} to redeem various rewards!",
@@ -2767,6 +2777,36 @@
 		"title": {
 			"eng": "Halloween Event!",
 			"trans": "งานอีเวนต์ฮาโลวีน!"
+		}
+	},
+	"halloweenPromotion": {
+		"desc1": {
+			"eng": "It's the spooky time of year again! Shang-ri-la is celebrating Halloween with a special event!",
+			"trans": "ถึงเวลาสยองอีกครั้ง! ชาง-รี-ลา ฉลองฮาโลวีนด้วยกิจกรรมสุดพิเศษ!"
+		},
+		"desc2v3": {
+			"eng": "Enemies and AI Core auto-farm have a chance to drop ${item}!",
+			"trans": "ศัตรูและ AI Core มีโอกาสดรอป ${item} จากออโต้ฟาร์ม!",
+			"vars": [
+				"item"
+			]
+		},
+		"desc3v3": {
+			"eng": "You can find ${npc} at ${location} during Halloween. He will exchange your ${item} for rewards!",
+			"trans": "ไปเจอ ${npc} ได้ที่ ${location} ช่วงฮาโลวีนนี้ เขาจะเปลี่ยน ${item} ของคุณเป็นของรางวัล!",
+			"vars": [
+				"npc",
+				"location",
+				"item"
+			]
+		},
+		"desc4": {
+			"eng": "During Halloween, a time-limited donation tier and themed emblems will be available!",
+			"trans": "ในช่วงฮาโลวีนนี้ จะมีระดับบริจาคแบบจำกัดเวลาและตราอีโมจิธีมพิเศษให้เลือก!"
+		},
+		"title": {
+			"eng": "Happy Halloween!",
+			"trans": "สุขสันต์วันฮาโลวีน!"
 		}
 	},
 	"iapCurrency": {
@@ -3831,6 +3871,10 @@
 				]
 			}
 		},
+		"lollipopUseVerb": {
+			"eng": "Suck it up",
+			"trans": "สู้ๆ ไปเลย"
+		},
 		"lootBox1": {
 			"description": {
 				"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container",
@@ -4001,6 +4045,26 @@
 			"name": {
 				"eng": "Christmas Pudding",
 				"trans": "พุดดิ้งวันคริสมาส"
+			}
+		},
+		"pumpkinBroLolipop": {
+			"description": {
+				"eng": "A large, sticky, pumpkin-bro-flavored lollipop. It’s way too big for your mouth, suspiciously moist, and Pumpkin Bro swears it was safe to eat. Delicious… probably.",
+				"trans": "ลูกอมลูกโป่งกล้วยฟักทองขนาดใหญ่ ยึดเหนียวสุดๆ กินไม่ลงแน่ๆ มันชื้นผิดปกติ แต่ Pumpkin Bro ก็ยืนยันว่าไม่เป็นไรนะ อร่อย... คงจะใช่แหละ"
+			},
+			"name": {
+				"eng": "Pumpkin Bro's Lolipop",
+				"trans": "ลูกอมของพี่ Pumpkin Bro"
+			}
+		},
+		"pumpkinBroSeed": {
+			"description": {
+				"eng": "A plump, moist seed. Pumpkin Bro says it’s his ‘special one.’ He’ll happily trade you something good for it.",
+				"trans": "เมล็ดพันธุ์อวบอิ่ม ชุ่มฉ่ำของฟักทอง บอกว่าเป็น ‘ของพิเศษ’ ของเขาเอง เขายินดีแลกของดีๆ ให้คุณแทนถ้าคุณมีมัน"
+			},
+			"name": {
+				"eng": "Pumpkin Bro's Seed",
+				"trans": "เมล็ดของ Pumpkin Bro"
 			}
 		},
 		"pumpkinPie": {
@@ -6610,7 +6674,8 @@
 					"Pumpkin is my source of power!",
 					"Check out my pumpkin costume!",
 					"Hmmmm, I wonder what's inside this pumpkin...",
-					"Give me your pumpkin, and I'll give you a treat!"
+					"Want a lollipop?",
+					"Give me your seeds, and I will give you a treat!"
 				],
 				"trans": [
 					"Pumpkin is my source of power!",
@@ -7401,6 +7466,107 @@
 			"title": {
 				"eng": "Chat Frames",
 				"trans": "เฟรมแชท"
+			}
+		},
+		"displayShelf": {
+			"close": {
+				"eng": "Close",
+				"trans": "ปิด"
+			},
+			"empty": {
+				"eng": "Empty Slot",
+				"trans": "ช่องเปล่า"
+			},
+			"error": {
+				"level": {
+					"eng": "Reach level ${level} to unlock this slot.",
+					"trans": "ต้องเลเวล ${level} ถึงจะปลดล็อคช่องนี้ได้",
+					"vars": [
+						"level"
+					]
+				},
+				"money": {
+					"eng": "You need ${cost} Bitcoins to unlock this slot.",
+					"trans": "คุณต้องมีบิทคอยน์ ${cost} ถึงจะปลดล็อกช่องนี้ได้",
+					"vars": [
+						"cost"
+					]
+				},
+				"unavailable": {
+					"eng": "Slot cannot be unlocked.",
+					"trans": "ไม่สามารถปลดล็อคช่องนี้ได้"
+				}
+			},
+			"locked": {
+				"eng": "Locked Slot",
+				"trans": "ช่องที่ล็อคไว้"
+			},
+			"lockedRequirement": {
+				"cost": {
+					"eng": "Cost ${cost} ${currency}",
+					"trans": "ราคา ${cost} ${currency}",
+					"vars": [
+						"cost",
+						"currency"
+					]
+				},
+				"currentLevel": {
+					"eng": "You are Lv ${level}",
+					"trans": "คุณอยู่ระดับ ${level}",
+					"vars": [
+						"level"
+					]
+				},
+				"level": {
+					"eng": "Requires Lv ${level}",
+					"trans": "ต้องการเลเวล ${level}",
+					"vars": [
+						"level"
+					]
+				}
+			},
+			"lockedUnavailable": {
+				"eng": "Slot unavailable",
+				"trans": "ช่องนี้ใช้ไม่ได้"
+			},
+			"noItems": {
+				"eng": "This player has not placed any items on display.",
+				"trans": "ยังไม่มีไอเท็มวางโชว์ในชั้นนี้"
+			},
+			"remove": {
+				"eng": "Remove displayed item",
+				"trans": "เอาไอเท็มออก"
+			},
+			"title": {
+				"eng": "Display Shelf",
+				"trans": "ชั้นโชว์ของ"
+			},
+			"unlockConfirm": {
+				"eng": "Unlock",
+				"trans": "ปลดล็อค"
+			},
+			"unlockDescription": {
+				"eng": "Unlock slot ${slot} for ${cost} ${currency}?",
+				"trans": "จะปลดล็อคช่อง ${slot} ในราคา ${cost} ${currency} ยืนยันไหม?",
+				"vars": [
+					"slot",
+					"cost",
+					"currency"
+				]
+			},
+			"unlockRequirement": {
+				"cost": {
+					"eng": "Cost",
+					"trans": "ราคา"
+				}
+			},
+			"unlockTitle": {
+				"eng": "Unlock Display Shelf Slot",
+				"trans": "ปลดล็อกช่องในชั้นวางแสดงผล"
+			},
+			"unlockUnavailable": {
+				"eng": "Slot cannot be unlocked.",
+				"trans": "ไม่สามารถปลดล็อคช่องนี้ได้"
 			}
 		},
 		"donationTiers": {
@@ -9095,11 +9261,11 @@
 			"trans": "การเข้ารหัสการแชท"
 		},
 		"equipmentExchangeAccess": {
-			"eng": "Equipment Exchange Access",
+			"eng": "Epic Fragment Fusion Access",
 			"trans": "สิทธิ์เปลี่ยนอุปกรณ์"
 		},
 		"equipmentExchangeAccessDesc": {
-			"eng": "Grants access to the Epic Fragment Extraction system. You can extract your Epic equipment for Epic Cache Fragments.",
+			"eng": "Grants access to the Epic Fragment Fusion system. You can fuse Epic Cache Fragments into Epic Equipment.",
 			"trans": "เปิดใช้งานระบบดึงชิ้นส่วนอีพิค (Epic Fragment Extraction) คุณสามารถดึงอุปกรณ์อีพิคของคุณเพื่อแลกชิ้นส่วนอีพิค (Epic Cache Fragments)"
 		},
 		"expBonus": {
@@ -11640,6 +11806,10 @@
 			}
 		},
 		"profile": {
+			"assets": {
+				"eng": "assets",
+				"trans": "ไอเทม"
+			},
 			"deleteAccount": {
 				"button": {
 					"eng": "Delete Account",
