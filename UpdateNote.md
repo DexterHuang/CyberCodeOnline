@@ -16,6 +16,12 @@ Please send your feedback to my Discord or email me directly.
 
 ## Updates
 
+### 0.1883
+
+- I _May_ have found the issue that causes in very rare cases some enemy has abnormally high damage and one-shots players in dungeon. Please let me know if any of you encounter the same issue again, hopefully we have fixed the problem now 🤞
+
+- Minor UI tweak; reduced the size of original text in message when translated to reduce the space taken by the message
+
 ### 0.1882
 
 - Halloween Event (10/01 to 10/31):
