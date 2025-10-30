@@ -325,6 +325,16 @@
 				"trans": "Gather Gang Resource"
 			}
 		},
+		"furnitureWorkshop": {
+			"description": {
+				"eng": "Search the coastline for beached cargo containers and salvage materials for furniture crafting.",
+				"trans": "Search the coastline for beached cargo containers and salvage materials for furniture crafting."
+			},
+			"name": {
+				"eng": "Salvage Beached Tech Cargo",
+				"trans": "Salvage Beached Tech Cargo"
+			}
+		},
 		"gambling1": {
 			"description": {
 				"eng": "Konnichiwa!! ^___^\n        Come play the MEGA Pachinko! With chance to win HUGE EPIC rewards\n        only 5000 btc per session, LIMITED TIME OFFER!!! <3<3<3\n        ##Special thanks for Militech for sponsoring this event##",
@@ -393,6 +403,16 @@
 			"name": {
 				"eng": "Pet Shelter Volunteer Shift",
 				"trans": "Pet Shelter Volunteer Shift"
+			}
+		},
+		"powerSalvage": {
+			"description": {
+				"eng": "Dismantle abandoned power units to extract energy cells and materials.",
+				"trans": "Dismantle abandoned power units to extract energy cells and materials."
+			},
+			"name": {
+				"eng": "Salvage Power Units",
+				"trans": "Salvage Power Units"
 			}
 		},
 		"reverseEngineer": {
@@ -569,6 +589,10 @@
 				"eng": "Shangri-la",
 				"trans": "Shangri-la"
 			}
+		},
+		"furniture": {
+			"eng": "Furniture",
+			"trans": "Furniture"
 		},
 		"jukeBox": {
 			"eng": "JukeBox",
@@ -1723,6 +1747,10 @@
 			"eng": "CyberGhost",
 			"trans": "Haunted Fog"
 		},
+		"donation45": {
+			"eng": "Vice City",
+			"trans": "Vice City"
+		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
 			"trans": "Cybernetic Potato"
@@ -2358,6 +2386,399 @@
 				"eng": "FRAGMENTS RECEIVED:",
 				"trans": "RECEIVED ITEMS:"
 			}
+		}
+	},
+	"furniture": {
+		"activate": {
+			"eng": "Activate",
+			"trans": "Activate"
+		},
+		"activateConfirm": {
+			"title": {
+				"eng": "Activate Furniture",
+				"trans": "Activate Furniture"
+			}
+		},
+		"activateError": {
+			"notEnoughResources": {
+				"eng": "Not enough resources: ${missing}",
+				"trans": "Not enough resources: ${missing}",
+				"vars": [
+					"missing"
+				]
+			}
+		},
+		"activateSuccess": {
+			"eng": "Successfully activated ${furnitureName}!",
+			"trans": "Successfully activated ${furnitureName}!",
+			"vars": [
+				"furnitureName"
+			]
+		},
+		"activeBonuses": {
+			"eng": "Active Bonuses",
+			"trans": "Active Bonuses"
+		},
+		"assetSynthesizer": {
+			"name": {
+				"eng": "Digital Asset Synthesizer",
+				"trans": "Digital Asset Synthesizer"
+			}
+		},
+		"assigning": {
+			"eng": "Assigning furniture...",
+			"trans": "Assigning furniture..."
+		},
+		"blockchainHub": {
+			"name": {
+				"eng": "Blockchain Processing Hub",
+				"trans": "Blockchain Processing Hub"
+			}
+		},
+		"category": {
+			"afk": {
+				"desc": {
+					"eng": "Boost AFK EXP gain",
+					"trans": "Boost AFK EXP gain"
+				}
+			},
+			"combat": {
+				"desc": {
+					"eng": "Increase damage",
+					"trans": "Increase damage"
+				}
+			},
+			"defense": {
+				"desc": {
+					"eng": "Increase defense",
+					"trans": "Increase defense"
+				}
+			},
+			"economy": {
+				"desc": {
+					"eng": "Increase BTC income",
+					"trans": "Increase BTC income"
+				}
+			},
+			"health": {
+				"desc": {
+					"eng": "Increase max HP",
+					"trans": "Increase max HP"
+				}
+			},
+			"speed": {
+				"desc": {
+					"eng": "Reduce AFK time",
+					"trans": "Reduce AFK time"
+				}
+			},
+			"study": {
+				"desc": {
+					"eng": "Increase EXP gain",
+					"trans": "Increase EXP gain"
+				}
+			},
+			"tip": {
+				"eng": "Trade assembly kits for furniture. Stat bonuses stack with each tier.",
+				"trans": "Trade assembly kits for furniture. Stat bonuses stack with each tier."
+			}
+		},
+		"cellularChamber": {
+			"name": {
+				"eng": "Cellular Enhancement Chamber",
+				"trans": "Cellular Enhancement Chamber"
+			}
+		},
+		"combatChamber": {
+			"name": {
+				"eng": "Combat Simulation Chamber",
+				"trans": "Combat Simulation Chamber"
+			}
+		},
+		"cost": {
+			"eng": "Cost",
+			"trans": "Cost"
+		},
+		"craft": {
+			"tip": {
+				"eng": "Craft assembly kits from materials, then use them to unlock furniture pieces.",
+				"trans": "Craft assembly kits from materials, then use them to unlock furniture pieces."
+			}
+		},
+		"craftSuccess": {
+			"eng": "Successfully crafted ${kitName}!",
+			"trans": "Successfully crafted ${kitName}!",
+			"vars": [
+				"kitName"
+			]
+		},
+		"cryptoArray": {
+			"name": {
+				"eng": "Crypto Mining Array",
+				"trans": "Crypto Mining Array"
+			}
+		},
+		"defensePanel": {
+			"name": {
+				"eng": "Active Defense Panel",
+				"trans": "Active Defense Panel"
+			}
+		},
+		"duration": {
+			"eng": "Duration",
+			"trans": "Duration"
+		},
+		"emptySlot": {
+			"eng": "Empty Slot ${number}",
+			"trans": "Empty Slot ${number}",
+			"vars": [
+				"number"
+			]
+		},
+		"error": {
+			"alreadyOwned": {
+				"eng": "You already own this furniture",
+				"trans": "You already own this furniture"
+			},
+			"alreadySlotted": {
+				"eng": "This furniture is already placed in another slot",
+				"trans": "This furniture is already placed in another slot"
+			},
+			"insufficientResources": {
+				"eng": "Insufficient resources to craft",
+				"trans": "Insufficient resources to craft"
+			},
+			"invalidAmount": {
+				"eng": "Invalid craft amount (must be between 1 and 100)",
+				"trans": "Invalid craft amount (must be between 1 and 100)"
+			},
+			"invalidFurniture": {
+				"eng": "Invalid furniture type",
+				"trans": "Invalid furniture type"
+			},
+			"invalidItem": {
+				"eng": "Invalid item type",
+				"trans": "Invalid item type"
+			},
+			"invalidRecipe": {
+				"eng": "Invalid furniture kit recipe",
+				"trans": "Invalid furniture kit recipe"
+			},
+			"invalidSlot": {
+				"eng": "Invalid slot index",
+				"trans": "Invalid slot index"
+			},
+			"levelRequired": {
+				"eng": "You need to be level ${level} to use this furniture",
+				"trans": "You need to be level ${level} to use this furniture",
+				"vars": [
+					"level"
+				]
+			},
+			"noApartment": {
+				"eng": "You need to rent an apartment first",
+				"trans": "You need to rent an apartment first"
+			},
+			"notEnoughEnergy": {
+				"eng": "Not enough Energy Cells (need ${amount})",
+				"trans": "Not enough Energy Cells (need 10)",
+				"vars": [
+					"amount"
+				]
+			},
+			"notInSlot": {
+				"eng": "Furniture must be placed in a slot before activation",
+				"trans": "Furniture must be placed in a slot before activation"
+			},
+			"notOwned": {
+				"eng": "You don't own this furniture",
+				"trans": "You don't own this furniture"
+			}
+		},
+		"gymStation": {
+			"name": {
+				"eng": "Cyber-Gym Station",
+				"trans": "Cyber-Gym Station"
+			}
+		},
+		"holoProjector": {
+			"name": {
+				"eng": "Holo-Training Projector",
+				"trans": "Holo-Training Projector"
+			}
+		},
+		"holoTerminal": {
+			"name": {
+				"eng": "Holographic Terminal",
+				"trans": "Holographic Terminal"
+			}
+		},
+		"learningStation": {
+			"name": {
+				"eng": "Automated Learning Station",
+				"trans": "Automated Learning Station"
+			}
+		},
+		"nanoFabricator": {
+			"name": {
+				"eng": "Nano-Armor Fabricator",
+				"trans": "Nano-Armor Fabricator"
+			}
+		},
+		"neuralAccelerator": {
+			"name": {
+				"eng": "Neural Accelerator",
+				"trans": "Neural Accelerator"
+			}
+		},
+		"neuralChair": {
+			"name": {
+				"eng": "Ergonomic Neural Chair",
+				"trans": "Ergonomic Neural Chair"
+			}
+		},
+		"neuralDesk": {
+			"name": {
+				"eng": "Neural Interface Desk",
+				"trans": "Neural Interface Desk"
+			}
+		},
+		"noApartment": {
+			"eng": "You need to rent an apartment to use furniture bonuses",
+			"trans": "You need to rent an apartment to use furniture bonuses"
+		},
+		"noAvailableDesc": {
+			"eng": "You don't have any unassigned furniture. All your furniture is already assigned to slots.",
+			"trans": "You don't have any unassigned furniture. All your furniture is already assigned to slots."
+		},
+		"owned": {
+			"eng": "Owned",
+			"trans": "Owned"
+		},
+		"quantumPod": {
+			"name": {
+				"eng": "Quantum Learning Pod",
+				"trans": "Quantum Learning Pod"
+			}
+		},
+		"regenPod": {
+			"name": {
+				"eng": "Bio-Regeneration Pod",
+				"trans": "Bio-Regeneration Pod"
+			}
+		},
+		"remove": {
+			"eng": "Remove",
+			"trans": "Remove"
+		},
+		"removeSlot": {
+			"eng": "Do you want to remove this furniture from the slot?",
+			"trans": "Do you want to remove this furniture from the slot?"
+		},
+		"removing": {
+			"eng": "Removing furniture...",
+			"trans": "Removing furniture..."
+		},
+		"selectFurniture": {
+			"eng": "Select Furniture",
+			"trans": "Select Furniture"
+		},
+		"shieldGenerator": {
+			"name": {
+				"eng": "Adaptive Shield Generator",
+				"trans": "Adaptive Shield Generator"
+			}
+		},
+		"skillEnhancer": {
+			"name": {
+				"eng": "Passive Skill Enhancer",
+				"trans": "Passive Skill Enhancer"
+			}
+		},
+		"slotCleared": {
+			"eng": "Successfully cleared slot ${slotIndex}!",
+			"trans": "Successfully cleared slot ${slotIndex}!",
+			"vars": [
+				"slotIndex"
+			]
+		},
+		"slotSuccess": {
+			"eng": "Successfully placed ${furnitureName} in slot ${slotIndex}!",
+			"trans": "Successfully placed ${furnitureName} in slot ${slotIndex}!",
+			"vars": [
+				"furnitureName",
+				"slotIndex"
+			]
+		},
+		"slots": {
+			"eng": "Furniture Slots",
+			"trans": "Furniture Slots"
+		},
+		"stats": {
+			"eng": "Stats",
+			"trans": "Stats"
+		},
+		"stimulantDispenser": {
+			"name": {
+				"eng": "Stimulant Dispenser",
+				"trans": "Stimulant Dispenser"
+			}
+		},
+		"tab": {
+			"craft": {
+				"eng": "Craft Kits",
+				"trans": "Craft Kits"
+			},
+			"trade": {
+				"eng": "Trade Furniture",
+				"trans": "Trade Furniture"
+			}
+		},
+		"tacticalModule": {
+			"name": {
+				"eng": "Tactical Enhancement Module",
+				"trans": "Tactical Enhancement Module"
+			}
+		},
+		"tapToAssign": {
+			"eng": "Tap to assign",
+			"trans": "Tap to assign"
+		},
+		"temporalChamber": {
+			"name": {
+				"eng": "Temporal Compression Chamber",
+				"trans": "Temporal Compression Chamber"
+			}
+		},
+		"trade": {
+			"confirm": {
+				"description": {
+					"eng": "This will consume the assembly kit to unlock this furniture piece.",
+					"trans": "This will consume the assembly kit to unlock this furniture piece."
+				},
+				"owned": {
+					"eng": "You already own this furniture piece.",
+					"trans": "You already own this furniture piece."
+				},
+				"title": {
+					"eng": "Trade for ${furnitureName}",
+					"trans": "Trade for ${furnitureName}",
+					"vars": [
+						"furnitureName"
+					]
+				}
+			},
+			"tip": {
+				"eng": "Select a category to view available furniture. Each category provides different stat bonuses.",
+				"trans": "Select a category to view available furniture. Each category provides different stat bonuses."
+			}
+		},
+		"tradeSuccess": {
+			"eng": "Successfully traded for ${furnitureName}!",
+			"trans": "Successfully traded for ${furnitureName}!",
+			"vars": [
+				"furnitureName"
+			]
 		}
 	},
 	"gameEvent": {
@@ -3018,6 +3439,16 @@
 		}
 	},
 	"item": {
+		"advancedFurnitureKit": {
+			"desc": {
+				"eng": "A premium kit for assembling advanced furniture. Trade with the Furniture Vendor for any Tier 2 furniture, or upgrade to high-end kits.",
+				"trans": "A premium kit for assembling advanced furniture. Trade with the Furniture Vendor for any Tier 2 furniture, or upgrade to high-end kits."
+			},
+			"name": {
+				"eng": "Advanced Furniture Assembly Kit",
+				"trans": "Advanced Furniture Assembly Kit"
+			}
+		},
 		"afkAcceleration": {
 			"description": {
 				"eng": "Broadcasts exploits to all cybernetically connected users, overclocking their synaptic processors thus allowing super-human mental capacity for short period of time.\n        \n        When used, gives Global Buff to all players online, allowing them to complete AFK tasks in +5% speed for 10 minutes (stackable)",
@@ -3071,6 +3502,16 @@
 			"name": {
 				"eng": "AI Core Cluster",
 				"trans": "AI Core Cluster"
+			}
+		},
+		"alloyFrame": {
+			"desc": {
+				"eng": "Reinforced metal framework component for furniture assembly.",
+				"trans": "Reinforced metal framework component for furniture assembly."
+			},
+			"name": {
+				"eng": "Alloy Frame",
+				"trans": "Alloy Frame"
 			}
 		},
 		"ammo1": {
@@ -3214,6 +3655,16 @@
 			"name": {
 				"eng": "Quantum Storage Unit",
 				"trans": "Quantum Storage Unit"
+			}
+		},
+		"basicFurnitureKit": {
+			"desc": {
+				"eng": "A kit containing materials to assemble basic tier furniture. Can be traded with the Furniture Vendor for any Tier 1 furniture, or combined to create advanced kits.",
+				"trans": "A kit containing materials to assemble basic tier furniture. Can be traded with the Furniture Vendor for any Tier 1 furniture, or combined to create advanced kits."
+			},
+			"name": {
+				"eng": "Basic Furniture Assembly Kit",
+				"trans": "Basic Furniture Assembly Kit"
 			}
 		},
 		"boots": {
@@ -3482,6 +3933,16 @@
 			"name": {
 				"eng": "Dungeon Token",
 				"trans": "Dungeon Token"
+			}
+		},
+		"energyCell": {
+			"desc": {
+				"eng": "Miniaturized fusion cell designed to power apartment furniture systems. Extracted from crashed corporate drones along Crystal Sands before cleanup crews arrive.",
+				"trans": "Miniaturized fusion cell designed to power apartment furniture systems. Extracted from crashed corporate drones along Crystal Sands before cleanup crews arrive."
+			},
+			"name": {
+				"eng": "Compact Energy Cell",
+				"trans": "Compact Energy Cell"
 			}
 		},
 		"epicCacheFragment": {
@@ -3854,6 +4315,16 @@
 				"trans": "helmet"
 			}
 		},
+		"highendFurnitureKit": {
+			"desc": {
+				"eng": "An elite kit for top-tier furniture fabrication. Trade with the Furniture Vendor for any Tier 3 furniture.",
+				"trans": "An elite kit for top-tier furniture fabrication. Trade with the Furniture Vendor for any Tier 3 furniture."
+			},
+			"name": {
+				"eng": "High-End Furniture Assembly Kit",
+				"trans": "High-End Furniture Assembly Kit"
+			}
+		},
 		"keyFragment": {
 			"description": {
 				"eng": "A secret key Fragment used to brute-force a secret key.\n                                Use the Terminal at city center [Hub] to brute-force a ${segmentDisplayName} secret key.\n                                You can acquire each of the 3 required keys in each dungeon (both normal or challenge),\n                                when you acquired 3 keys, you may use Terminal to brute-force (Craft) a key to the next area",
@@ -4169,6 +4640,16 @@
 				"trans": "Skip Discount Ticket"
 			}
 		},
+		"smartFabric": {
+			"desc": {
+				"eng": "Advanced textile material with embedded circuitry.",
+				"trans": "Advanced textile material with embedded circuitry."
+			},
+			"name": {
+				"eng": "Smart Fabric",
+				"trans": "Smart Fabric"
+			}
+		},
 		"soda": {
 			"description": {
 				"eng": "A refreshing soda that can be used to increase EXP received in AFK tasks by ${percent}%.\\nThis item can only be used during ${event} event",
@@ -4225,6 +4706,16 @@
 			"name": {
 				"eng": "Synthetic Alloy",
 				"trans": "Synthetic Alloy"
+			}
+		},
+		"syntheticPolymer": {
+			"desc": {
+				"eng": "High-grade synthetic material used in furniture construction.",
+				"trans": "High-grade synthetic material used in furniture construction."
+			},
+			"name": {
+				"eng": "Synthetic Polymer",
+				"trans": "Synthetic Polymer"
 			}
 		},
 		"techScrap": {
@@ -5000,13 +5491,6 @@
 			}
 		},
 		"coast": {
-			"cantEnterError": {
-				"eng": "You need to be at least level ${level} to access the Crystal Sands",
-				"trans": "You need to be at least level ${level} to access the Crystal Sands",
-				"vars": [
-					"level"
-				]
-			},
 			"description": {
 				"eng": "[Coast]\n        The beautiful coast a few kilometers away of downtown. The perfect place to relax and enjoy the sea breeze.",
 				"trans": "[Coast]\n        The beautiful coast a few kilometers away of downtown. The perfect place to relax and enjoy the sea breeze."
@@ -6012,6 +6496,14 @@
 			"eng": "missing",
 			"trans": "missing"
 		},
+		"missingItem": {
+			"eng": "Missing ${item} ${type}",
+			"trans": "Missing ${item} ${type}",
+			"vars": [
+				"item",
+				"type"
+			]
+		},
 		"moderators": {
 			"eng": "moderators",
 			"trans": "moderators"
@@ -6500,9 +6992,9 @@
 		"beach": {
 			"defaultLines": {
 				"eng": [
-					"Hey, beautiful. Wanna swap those seashells for something refreshing? I’ve got just the fix",
-					"Look who just jacked in. Trade those seashells with me, and I’ll give you something to remember.",
-					"Thirsty, choom? Trade those seashells for an ice-cold soda pop that’ll knock your socks off!"
+					"Hey, beautiful. Wanna swap those seashells for something refreshing? I've got just the fix",
+					"Look who just jacked in. Trade those seashells with me, and I'll give you something to remember.",
+					"Thirsty, choom? Trade those seashells for an ice-cold soda pop that'll knock your socks off!"
 				],
 				"trans": [
 					"Hey, beautiful. Wanna swap those seashells for something refreshing? I’ve got just the fix",
@@ -6665,6 +7157,44 @@
 				"trans": "Calibration Station"
 			}
 		},
+		"furnitureVendor": {
+			"defaultLines": {
+				"eng": [
+					"You think furniture is heavy? I install entire apartment rigs between sets at the gym.",
+					"Bring me your kits, choom. I'll have them assembled faster than you can say 'do you even lift?'",
+					"Looking preem today! Almost as good as this quantum learning pod I just installed with one hand.",
+					"These muscles aren't just for show, friend. Watch me carry your entire bedroom set up six flights of stairs.",
+					"Installation instructions? Never heard of them. I just flex and the furniture assembles itself.",
+					"Your apartment will look nova, almost as amazing as these chrome biceps. Almost.",
+					"Need help moving that couch? Please, I bench press cargo containers for fun.",
+					"I could dance circles around these assembly tasks. Want to see my moves?",
+					"Installation is like a dance, choom, and I'm the best dancer in town. Watch me work!",
+					"Some people need tools. I just need rhythm and these guns. *flexes while dancing*",
+					"They say I'm too distracted by dancing to work... but somehow everything gets installed perfectly!"
+				],
+				"trans": [
+					"You think furniture is heavy? I install entire apartment rigs between sets at the gym.",
+					"Bring me your kits, choom. I'll have them assembled faster than you can say 'do you even lift?'",
+					"Looking preem today! Almost as good as this quantum learning pod I just installed with one hand.",
+					"These muscles aren't just for show, friend. Watch me carry your entire bedroom set up six flights of stairs.",
+					"Installation instructions? Never heard of them. I just flex and the furniture assembles itself.",
+					"Your apartment will look nova, almost as amazing as these chrome biceps. Almost.",
+					"Need help moving that couch? Please, I bench press cargo containers for fun.",
+					"I could dance circles around these assembly tasks. Want to see my moves?",
+					"Installation is like a dance, choom, and I'm the best dancer in town. Watch me work!",
+					"Some people need tools. I just need rhythm and these guns. *flexes while dancing*",
+					"They say I'm too distracted by dancing to work... but somehow everything gets installed perfectly!"
+				]
+			},
+			"name": {
+				"eng": "Furnish Hub",
+				"trans": "Furnish Hub"
+			},
+			"npcName": {
+				"eng": "Miles",
+				"trans": "Miles"
+			}
+		},
 		"halloween": {
 			"defaultLines": {
 				"eng": [
@@ -6719,7 +7249,7 @@
 					"Hey choom, ready to chip in for the next 24-hour global party? We're just a few units short!",
 					"Ready to make an impact? Your contribution could launch the biggest party on the grid!",
 					"Looking to start the party? We're pooling funds now for a round-the-clock celebration.",
-					"If you’re aiming to see the city light up, help us fill the party meter. Every bit counts!",
+					"If you're aiming to see the city light up, help us fill the party meter. Every bit counts!",
 					"Hey, choomba! Here to plan another blockbuster event? Let's dive in!"
 				],
 				"trans": [
@@ -7592,6 +8122,31 @@
 				"trans": "Emblems"
 			}
 		},
+		"furniture": {
+			"activeFurniture": {
+				"eng": "Active Furniture",
+				"trans": "Active Furniture"
+			},
+			"collection": {
+				"eng": "Collection",
+				"trans": "Collection"
+			},
+			"noActiveFurniture": {
+				"eng": "No furniture currently active in slots",
+				"trans": "No furniture currently active in slots"
+			},
+			"title": {
+				"eng": "Furniture",
+				"trans": "Furniture"
+			},
+			"viewCollection": {
+				"eng": "${count} Owned",
+				"trans": "${count} Owned",
+				"vars": [
+					"count"
+				]
+			}
+		},
 		"pets": {
 			"noPets": {
 				"eng": "this player does not own any pets",
@@ -7617,6 +8172,30 @@
 				"eng": "stats",
 				"trans": "stats"
 			}
+		}
+	},
+	"playerFurnitureCollection": {
+		"count": {
+			"eng": "${count} furniture pieces owned",
+			"trans": "${count} furniture pieces owned",
+			"vars": [
+				"count"
+			]
+		},
+		"empty": {
+			"eng": "No furniture owned yet.",
+			"trans": "No furniture owned yet."
+		},
+		"slotted": {
+			"eng": "In Slot",
+			"trans": "In Slot"
+		},
+		"title": {
+			"eng": "${playerName}'s Furniture Collection",
+			"trans": "${playerName}'s Furniture Collection",
+			"vars": [
+				"playerName"
+			]
 		}
 	},
 	"playerStatusDisplay": {
@@ -7983,6 +8562,12 @@
 		}
 	},
 	"recipe": {
+		"advancedFurnitureKit": {
+			"name": {
+				"eng": "Advanced Furniture Assembly Kit",
+				"trans": "Advanced Furniture Assembly Kit"
+			}
+		},
 		"aiCoreCluster": {
 			"name": {
 				"eng": "AI Core Cluster",
@@ -8075,6 +8660,12 @@
 				"trans": "Quantum Storage Unit"
 			}
 		},
+		"basicFurnitureKit": {
+			"name": {
+				"eng": "Basic Furniture Assembly Kit",
+				"trans": "Basic Furniture Assembly Kit"
+			}
+		},
 		"christmasGift": {
 			"name": {
 				"eng": "Unlock Mysterious Container",
@@ -8107,6 +8698,12 @@
 			"name": {
 				"eng": "Craft Sanctuary Adoption Pass",
 				"trans": "Craft Sanctuary Adoption Pass"
+			}
+		},
+		"highendFurnitureKit": {
+			"name": {
+				"eng": "High-End Furniture Assembly Kit",
+				"trans": "High-End Furniture Assembly Kit"
 			}
 		},
 		"lunarLoot": {
@@ -9035,6 +9632,16 @@
 			"name": {
 				"eng": "Health",
 				"trans": "Health"
+			}
+		},
+		"healthMultiplier": {
+			"description": {
+				"eng": "Increases maximum health by percentage",
+				"trans": "Increases maximum health by percentage"
+			},
+			"name": {
+				"eng": "Health multiplier",
+				"trans": "Health multiplier"
 			}
 		},
 		"healthRegen": {
@@ -12478,6 +13085,10 @@
 				"eng": "faq",
 				"trans": "faq"
 			},
+			"furniture": {
+				"eng": "Furniture",
+				"trans": "Furniture"
+			},
 			"inventory": {
 				"eng": "inventory",
 				"trans": "inventory"
@@ -12493,6 +13104,10 @@
 			"marriage": {
 				"eng": "Marriage System",
 				"trans": "Marriage System"
+			},
+			"pets": {
+				"eng": "Pets",
+				"trans": "Pets"
 			},
 			"profile": {
 				"eng": "profile",

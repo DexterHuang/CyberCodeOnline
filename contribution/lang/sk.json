@@ -325,6 +325,16 @@
 				"trans": "Zhromaždiť zdroje gangov"
 			}
 		},
+		"furnitureWorkshop": {
+			"description": {
+				"eng": "Search the coastline for beached cargo containers and salvage materials for furniture crafting.",
+				"trans": "Prehľadávaj pobrežie, hľadaj opustené kontejnery a zbieraj suroviny na tvorbu nábytku."
+			},
+			"name": {
+				"eng": "Salvage Beached Tech Cargo",
+				"trans": "Zachrániť opustený technologický náklad"
+			}
+		},
 		"gambling1": {
 			"description": {
 				"eng": "Konnichiwa!! ^___^\n        Come play the MEGA Pachinko! With chance to win HUGE EPIC rewards\n        only 5000 btc per session, LIMITED TIME OFFER!!! <3<3<3\n        ##Special thanks for Militech for sponsoring this event##",
@@ -393,6 +403,16 @@
 			"name": {
 				"eng": "Pet Shelter Volunteer Shift",
 				"trans": "Dobrovoľnícka zmena v útulku pre zvieratá"
+			}
+		},
+		"powerSalvage": {
+			"description": {
+				"eng": "Dismantle abandoned power units to extract energy cells and materials.",
+				"trans": "Demontujte opustené napájacie jednotky a získajte energetické bunky a materiály."
+			},
+			"name": {
+				"eng": "Salvage Power Units",
+				"trans": "Zbaviť energetické jednotky"
 			}
 		},
 		"reverseEngineer": {
@@ -569,6 +589,10 @@
 				"eng": "Shangri-la",
 				"trans": "Shangri-la"
 			}
+		},
+		"furniture": {
+			"eng": "Furniture",
+			"trans": "nábytok"
 		},
 		"jukeBox": {
 			"eng": "JukeBox",
@@ -1723,6 +1747,10 @@
 			"eng": "CyberGhost",
 			"trans": "Strašidelná hmla"
 		},
+		"donation45": {
+			"eng": "Vice City",
+			"trans": "Vice City"
+		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
 			"trans": "Kybernetický zemiak"
@@ -2358,6 +2386,399 @@
 				"eng": "FRAGMENTS RECEIVED:",
 				"trans": "Prijaté predmety:"
 			}
+		}
+	},
+	"furniture": {
+		"activate": {
+			"eng": "Activate",
+			"trans": "Aktivovať"
+		},
+		"activateConfirm": {
+			"title": {
+				"eng": "Activate Furniture",
+				"trans": "Aktivovať nábytok"
+			}
+		},
+		"activateError": {
+			"notEnoughResources": {
+				"eng": "Not enough resources: ${missing}",
+				"trans": "Nie je dostatok zdrojov: ${missing}",
+				"vars": [
+					"missing"
+				]
+			}
+		},
+		"activateSuccess": {
+			"eng": "Successfully activated ${furnitureName}!",
+			"trans": "Aktivácia ${furnitureName} prebehla úspešne!",
+			"vars": [
+				"furnitureName"
+			]
+		},
+		"activeBonuses": {
+			"eng": "Active Bonuses",
+			"trans": "Aktívne bonusy"
+		},
+		"assetSynthesizer": {
+			"name": {
+				"eng": "Digital Asset Synthesizer",
+				"trans": "Digitálny syntetizátor aktív"
+			}
+		},
+		"assigning": {
+			"eng": "Assigning furniture...",
+			"trans": "Priraďujem nábytok..."
+		},
+		"blockchainHub": {
+			"name": {
+				"eng": "Blockchain Processing Hub",
+				"trans": "Centrum spracovania blockchainu"
+			}
+		},
+		"category": {
+			"afk": {
+				"desc": {
+					"eng": "Boost AFK EXP gain",
+					"trans": "Zvýšiť zisk AFK EXP"
+				}
+			},
+			"combat": {
+				"desc": {
+					"eng": "Increase damage",
+					"trans": "Zvyšuje poškodenie"
+				}
+			},
+			"defense": {
+				"desc": {
+					"eng": "Increase defense",
+					"trans": "Zvýšiť obranu"
+				}
+			},
+			"economy": {
+				"desc": {
+					"eng": "Increase BTC income",
+					"trans": "Zvýšiť príjem z BTC"
+				}
+			},
+			"health": {
+				"desc": {
+					"eng": "Increase max HP",
+					"trans": "Zvýšiť maximálne HP"
+				}
+			},
+			"speed": {
+				"desc": {
+					"eng": "Reduce AFK time",
+					"trans": "Znížiť čas AFK"
+				}
+			},
+			"study": {
+				"desc": {
+					"eng": "Increase EXP gain",
+					"trans": "Zvýšiť zisk EXP"
+				}
+			},
+			"tip": {
+				"eng": "Trade assembly kits for furniture. Stat bonuses stack with each tier.",
+				"trans": "Obchodujte montážnými kitmi pre nábytok. Stat bonusy sa hromadia s každou úrovňou."
+			}
+		},
+		"cellularChamber": {
+			"name": {
+				"eng": "Cellular Enhancement Chamber",
+				"trans": "Komora na vylepšenie buniek"
+			}
+		},
+		"combatChamber": {
+			"name": {
+				"eng": "Combat Simulation Chamber",
+				"trans": "Bojová simulacná komora"
+			}
+		},
+		"cost": {
+			"eng": "Cost",
+			"trans": "Cena"
+		},
+		"craft": {
+			"tip": {
+				"eng": "Craft assembly kits from materials, then use them to unlock furniture pieces.",
+				"trans": "Zostavte montážne komplety zo surovín a potom ich použite na odblokovanie kusov nábytku."
+			}
+		},
+		"craftSuccess": {
+			"eng": "Successfully crafted ${kitName}!",
+			"trans": "Úspešne vytvorené ${kitName}!",
+			"vars": [
+				"kitName"
+			]
+		},
+		"cryptoArray": {
+			"name": {
+				"eng": "Crypto Mining Array",
+				"trans": "Kriptová ťažebná mriežka"
+			}
+		},
+		"defensePanel": {
+			"name": {
+				"eng": "Active Defense Panel",
+				"trans": "Aktivní obranný panel"
+			}
+		},
+		"duration": {
+			"eng": "Duration",
+			"trans": "Trvanie"
+		},
+		"emptySlot": {
+			"eng": "Empty Slot ${number}",
+			"trans": "Prázdny slot ${number}",
+			"vars": [
+				"number"
+			]
+		},
+		"error": {
+			"alreadyOwned": {
+				"eng": "You already own this furniture",
+				"trans": "Tento nábytok už máte!"
+			},
+			"alreadySlotted": {
+				"eng": "This furniture is already placed in another slot",
+				"trans": "Tento nábytok už je v inom slotu"
+			},
+			"insufficientResources": {
+				"eng": "Insufficient resources to craft",
+				"trans": "Nedostatok zdrojov na výrobu"
+			},
+			"invalidAmount": {
+				"eng": "Invalid craft amount (must be between 1 and 100)",
+				"trans": "Nesprávny počet kusov na výrobu (musí byť medzi 1 a 100)"
+			},
+			"invalidFurniture": {
+				"eng": "Invalid furniture type",
+				"trans": "Neplatný typ nábytku"
+			},
+			"invalidItem": {
+				"eng": "Invalid item type",
+				"trans": "Neplatný typ položky"
+			},
+			"invalidRecipe": {
+				"eng": "Invalid furniture kit recipe",
+				"trans": "Neplatná receptúra nábytku"
+			},
+			"invalidSlot": {
+				"eng": "Invalid slot index",
+				"trans": "Neplatný index slotu"
+			},
+			"levelRequired": {
+				"eng": "You need to be level ${level} to use this furniture",
+				"trans": "Musíš mať úroveň ${level}, aby si mohol aktivovať tento nábytok",
+				"vars": [
+					"level"
+				]
+			},
+			"noApartment": {
+				"eng": "You need to rent an apartment first",
+				"trans": "Musíš najskôr prenajať byt"
+			},
+			"notEnoughEnergy": {
+				"eng": "Not enough Energy Cells (need ${amount})",
+				"trans": "Nedostatok energetických buniek (potrebujete ${amount})",
+				"vars": [
+					"amount"
+				]
+			},
+			"notInSlot": {
+				"eng": "Furniture must be placed in a slot before activation",
+				"trans": "Musíte nábytkový predmet vložiť do slotu pred aktiváciou"
+			},
+			"notOwned": {
+				"eng": "You don't own this furniture",
+				"trans": "Nemáte tento nábytok"
+			}
+		},
+		"gymStation": {
+			"name": {
+				"eng": "Cyber-Gym Station",
+				"trans": "Cyber‑Gym Stanica"
+			}
+		},
+		"holoProjector": {
+			"name": {
+				"eng": "Holo-Training Projector",
+				"trans": "Holo‑trénovací projektor"
+			}
+		},
+		"holoTerminal": {
+			"name": {
+				"eng": "Holographic Terminal",
+				"trans": "Holografický terminál"
+			}
+		},
+		"learningStation": {
+			"name": {
+				"eng": "Automated Learning Station",
+				"trans": "Automatizovaná učebná stanica"
+			}
+		},
+		"nanoFabricator": {
+			"name": {
+				"eng": "Nano-Armor Fabricator",
+				"trans": "Nanozbrojový fabricátor"
+			}
+		},
+		"neuralAccelerator": {
+			"name": {
+				"eng": "Neural Accelerator",
+				"trans": "Neurónový akcelerátor"
+			}
+		},
+		"neuralChair": {
+			"name": {
+				"eng": "Ergonomic Neural Chair",
+				"trans": "Ergonomická neuronová stolička"
+			}
+		},
+		"neuralDesk": {
+			"name": {
+				"eng": "Neural Interface Desk",
+				"trans": "Stôl s neurálnym rozhraním"
+			}
+		},
+		"noApartment": {
+			"eng": "You need to rent an apartment to use furniture bonuses",
+			"trans": "Musíte si prenajať byt, aby ste mohli využiť bonusy z nábytku"
+		},
+		"noAvailableDesc": {
+			"eng": "You don't have any unassigned furniture. All your furniture is already assigned to slots.",
+			"trans": "Nemáte žiadne nepriradené kusy nábytku. Všetky vaše kúsky sú už priradené do slotov."
+		},
+		"owned": {
+			"eng": "Owned",
+			"trans": "Vlastnené"
+		},
+		"quantumPod": {
+			"name": {
+				"eng": "Quantum Learning Pod",
+				"trans": "Kvantová vzdelávacia kapsula"
+			}
+		},
+		"regenPod": {
+			"name": {
+				"eng": "Bio-Regeneration Pod",
+				"trans": "Biologický regeneračný pod"
+			}
+		},
+		"remove": {
+			"eng": "Remove",
+			"trans": "Odstrániť"
+		},
+		"removeSlot": {
+			"eng": "Do you want to remove this furniture from the slot?",
+			"trans": "Chcete tento nábytok odstrániť zo zásuvky?"
+		},
+		"removing": {
+			"eng": "Removing furniture...",
+			"trans": "Odstraňujem nábytok…"
+		},
+		"selectFurniture": {
+			"eng": "Select Furniture",
+			"trans": "Vyberte nábytok"
+		},
+		"shieldGenerator": {
+			"name": {
+				"eng": "Adaptive Shield Generator",
+				"trans": "Adaptívny generátor štítu"
+			}
+		},
+		"skillEnhancer": {
+			"name": {
+				"eng": "Passive Skill Enhancer",
+				"trans": "Pasívny zlepšovateľ schopností"
+			}
+		},
+		"slotCleared": {
+			"eng": "Successfully cleared slot ${slotIndex}!",
+			"trans": "Slot ${slotIndex} bol úspešne vyčistený!",
+			"vars": [
+				"slotIndex"
+			]
+		},
+		"slotSuccess": {
+			"eng": "Successfully placed ${furnitureName} in slot ${slotIndex}!",
+			"trans": "Úspešne umiestnené ${furnitureName} do slotu ${slotIndex}!",
+			"vars": [
+				"furnitureName",
+				"slotIndex"
+			]
+		},
+		"slots": {
+			"eng": "Furniture Slots",
+			"trans": "Sloty nábytku"
+		},
+		"stats": {
+			"eng": "Stats",
+			"trans": "Štatistiky"
+		},
+		"stimulantDispenser": {
+			"name": {
+				"eng": "Stimulant Dispenser",
+				"trans": "Dispenzor stimulantov"
+			}
+		},
+		"tab": {
+			"craft": {
+				"eng": "Craft Kits",
+				"trans": "Sady na výrobu"
+			},
+			"trade": {
+				"eng": "Trade Furniture",
+				"trans": "Obchod s nábytkom"
+			}
+		},
+		"tacticalModule": {
+			"name": {
+				"eng": "Tactical Enhancement Module",
+				"trans": "Modul zlepšenia taktiky"
+			}
+		},
+		"tapToAssign": {
+			"eng": "Tap to assign",
+			"trans": "Klepni pre priradenie"
+		},
+		"temporalChamber": {
+			"name": {
+				"eng": "Temporal Compression Chamber",
+				"trans": "Časová kompresná kamra"
+			}
+		},
+		"trade": {
+			"confirm": {
+				"description": {
+					"eng": "This will consume the assembly kit to unlock this furniture piece.",
+					"trans": "Týmto spotrebuješ zostavovaciu súpravu a odomkneš tento kus nábytku."
+				},
+				"owned": {
+					"eng": "You already own this furniture piece.",
+					"trans": "Už vlastníte tento kus nábytku."
+				},
+				"title": {
+					"eng": "Trade for ${furnitureName}",
+					"trans": "Vymeniť za ${furnitureName}",
+					"vars": [
+						"furnitureName"
+					]
+				}
+			},
+			"tip": {
+				"eng": "Select a category to view available furniture. Each category provides different stat bonuses.",
+				"trans": "Vyberte kategóriu, aby ste si zobrazili dostupný nábytok. Každá kategória prináša odlišné bonusy na vlastnosti."
+			}
+		},
+		"tradeSuccess": {
+			"eng": "Successfully traded for ${furnitureName}!",
+			"trans": "Vymenené! Získali ste ${furnitureName}",
+			"vars": [
+				"furnitureName"
+			]
 		}
 	},
 	"gameEvent": {
@@ -3018,6 +3439,16 @@
 		}
 	},
 	"item": {
+		"advancedFurnitureKit": {
+			"desc": {
+				"eng": "A premium kit for assembling advanced furniture. Trade with the Furniture Vendor for any Tier 2 furniture, or upgrade to high-end kits.",
+				"trans": "Exkluzívny komplet na zostavovanie pokročilého nábytku. Vymieňajte sa s predajcom nábytku za akýkoľvek nábytok úrovne 2, alebo prejdite na prémiové komplety."
+			},
+			"name": {
+				"eng": "Advanced Furniture Assembly Kit",
+				"trans": "Pokročilá súprava na zostavovanie nábytku"
+			}
+		},
 		"afkAcceleration": {
 			"description": {
 				"eng": "Broadcasts exploits to all cybernetically connected users, overclocking their synaptic processors thus allowing super-human mental capacity for short period of time.\n        \n        When used, gives Global Buff to all players online, allowing them to complete AFK tasks in +5% speed for 10 minutes (stackable)",
@@ -3071,6 +3502,16 @@
 			"name": {
 				"eng": "AI Core Cluster",
 				"trans": "Klaster jadra AI"
+			}
+		},
+		"alloyFrame": {
+			"desc": {
+				"eng": "Reinforced metal framework component for furniture assembly.",
+				"trans": "Posilnený kovový rámový komponent pre montáž nábytku."
+			},
+			"name": {
+				"eng": "Alloy Frame",
+				"trans": "Rám z legie"
 			}
 		},
 		"ammo1": {
@@ -3214,6 +3655,16 @@
 			"name": {
 				"eng": "Quantum Storage Unit",
 				"trans": "Kvantová úložná jednotka"
+			}
+		},
+		"basicFurnitureKit": {
+			"desc": {
+				"eng": "A kit containing materials to assemble basic tier furniture. Can be traded with the Furniture Vendor for any Tier 1 furniture, or combined to create advanced kits.",
+				"trans": "Sada obsahujúca materiály na zostavenie základného nábytku. Môže byť vymenená u predajcu nábytku za akýkoľvek nábytok úrovne 1, alebo ju môžete kombinovať na tvorbu pokročilých sadí."
+			},
+			"name": {
+				"eng": "Basic Furniture Assembly Kit",
+				"trans": "Základná sada montáže nábytku"
 			}
 		},
 		"boots": {
@@ -3482,6 +3933,16 @@
 			"name": {
 				"eng": "Dungeon Token",
 				"trans": "Token"
+			}
+		},
+		"energyCell": {
+			"desc": {
+				"eng": "Miniaturized fusion cell designed to power apartment furniture systems. Extracted from crashed corporate drones along Crystal Sands before cleanup crews arrive.",
+				"trans": "Miniatúrna fúzníčka určená na napájanie systémov nábytku v bytech. Vytiahnutá z havarovaných korporátnych dronov po Crystal Sands pred príchodom čistiteckých tímov."
+			},
+			"name": {
+				"eng": "Compact Energy Cell",
+				"trans": "Kompaktná energetická bunka"
 			}
 		},
 		"epicCacheFragment": {
@@ -3854,6 +4315,16 @@
 				"trans": "prilba"
 			}
 		},
+		"highendFurnitureKit": {
+			"desc": {
+				"eng": "An elite kit for top-tier furniture fabrication. Trade with the Furniture Vendor for any Tier 3 furniture.",
+				"trans": "Elitná sada pre tvorbu nábytku najvyššej úrovne. Obchodujte s predajcom nábytku za akýkoľvek nábytok Úrovne 3."
+			},
+			"name": {
+				"eng": "High-End Furniture Assembly Kit",
+				"trans": "Sada na montáž prémiového nábytku"
+			}
+		},
 		"keyFragment": {
 			"description": {
 				"eng": "A secret key Fragment used to brute-force a secret key.\n                                Use the Terminal at city center [Hub] to brute-force a ${segmentDisplayName} secret key.\n                                You can acquire each of the 3 required keys in each dungeon (both normal or challenge),\n                                when you acquired 3 keys, you may use Terminal to brute-force (Craft) a key to the next area",
@@ -4169,6 +4640,16 @@
 				"trans": "Tiket na prekážku zľavy"
 			}
 		},
+		"smartFabric": {
+			"desc": {
+				"eng": "Advanced textile material with embedded circuitry.",
+				"trans": "Pokročilý textilný materiál s integrovanými obvody."
+			},
+			"name": {
+				"eng": "Smart Fabric",
+				"trans": "Chytrá tkanina"
+			}
+		},
 		"soda": {
 			"description": {
 				"eng": "A refreshing soda that can be used to increase EXP received in AFK tasks by ${percent}%.\\nThis item can only be used during ${event} event",
@@ -4225,6 +4706,16 @@
 			"name": {
 				"eng": "Synthetic Alloy",
 				"trans": "Syntetická zliatina"
+			}
+		},
+		"syntheticPolymer": {
+			"desc": {
+				"eng": "High-grade synthetic material used in furniture construction.",
+				"trans": "Vysoce kvalitný syntetický materiál používaný pri výrobe nábytku."
+			},
+			"name": {
+				"eng": "Synthetic Polymer",
+				"trans": "Syntetický polymér"
 			}
 		},
 		"techScrap": {
@@ -5000,13 +5491,6 @@
 			}
 		},
 		"coast": {
-			"cantEnterError": {
-				"eng": "You need to be at least level ${level} to access the Crystal Sands",
-				"trans": "Musíš mať aspoň úroveň ${level}, aby si mohol získať prístup k Kryštálovým pieskom",
-				"vars": [
-					"level"
-				]
-			},
 			"description": {
 				"eng": "[Coast]\n        The beautiful coast a few kilometers away of downtown. The perfect place to relax and enjoy the sea breeze.",
 				"trans": "[Coast]  \n        Krásne pobrežie len pár kilometrov od centra mesta. Ideálne miesto na oddych a vychutnanie si morského vánku."
@@ -6012,6 +6496,14 @@
 			"eng": "missing",
 			"trans": "chýbajúci"
 		},
+		"missingItem": {
+			"eng": "Missing ${item} ${type}",
+			"trans": "Chýba ${item} ${type}",
+			"vars": [
+				"item",
+				"type"
+			]
+		},
 		"moderators": {
 			"eng": "moderators",
 			"trans": "moderátori"
@@ -6521,9 +7013,9 @@
 		"beach": {
 			"defaultLines": {
 				"eng": [
-					"Hey, beautiful. Wanna swap those seashells for something refreshing? I’ve got just the fix",
-					"Look who just jacked in. Trade those seashells with me, and I’ll give you something to remember.",
-					"Thirsty, choom? Trade those seashells for an ice-cold soda pop that’ll knock your socks off!"
+					"Hey, beautiful. Wanna swap those seashells for something refreshing? I've got just the fix",
+					"Look who just jacked in. Trade those seashells with me, and I'll give you something to remember.",
+					"Thirsty, choom? Trade those seashells for an ice-cold soda pop that'll knock your socks off!"
 				],
 				"trans": [
 					"Hey, beautiful. Wanna swap those seashells for something refreshing? I’ve got just the fix",
@@ -6715,6 +7207,44 @@
 				"trans": "Kalibračná stanica"
 			}
 		},
+		"furnitureVendor": {
+			"defaultLines": {
+				"eng": [
+					"You think furniture is heavy? I install entire apartment rigs between sets at the gym.",
+					"Bring me your kits, choom. I'll have them assembled faster than you can say 'do you even lift?'",
+					"Looking preem today! Almost as good as this quantum learning pod I just installed with one hand.",
+					"These muscles aren't just for show, friend. Watch me carry your entire bedroom set up six flights of stairs.",
+					"Installation instructions? Never heard of them. I just flex and the furniture assembles itself.",
+					"Your apartment will look nova, almost as amazing as these chrome biceps. Almost.",
+					"Need help moving that couch? Please, I bench press cargo containers for fun.",
+					"I could dance circles around these assembly tasks. Want to see my moves?",
+					"Installation is like a dance, choom, and I'm the best dancer in town. Watch me work!",
+					"Some people need tools. I just need rhythm and these guns. *flexes while dancing*",
+					"They say I'm too distracted by dancing to work... but somehow everything gets installed perfectly!"
+				],
+				"trans": [
+					"You think furniture is heavy? I install entire apartment rigs between sets at the gym.",
+					"Bring me your kits, choom. I'll have them assembled faster than you can say 'do you even lift?'",
+					"Looking preem today! Almost as good as this quantum learning pod I just installed with one hand.",
+					"These muscles aren't just for show, friend. Watch me carry your entire bedroom set up six flights of stairs.",
+					"Installation instructions? Never heard of them. I just flex and the furniture assembles itself.",
+					"Your apartment will look nova, almost as amazing as these chrome biceps. Almost.",
+					"Need help moving that couch? Please, I bench press cargo containers for fun.",
+					"I could dance circles around these assembly tasks. Want to see my moves?",
+					"Installation is like a dance, choom, and I'm the best dancer in town. Watch me work!",
+					"Some people need tools. I just need rhythm and these guns. *flexes while dancing*",
+					"They say I'm too distracted by dancing to work... but somehow everything gets installed perfectly!"
+				]
+			},
+			"name": {
+				"eng": "Furnish Hub",
+				"trans": "Centrum nábytku"
+			},
+			"npcName": {
+				"eng": "Miles",
+				"trans": "Miles"
+			}
+		},
 		"halloween": {
 			"defaultLines": {
 				"eng": [
@@ -6768,7 +7298,7 @@
 					"Hey choom, ready to chip in for the next 24-hour global party? We're just a few units short!",
 					"Ready to make an impact? Your contribution could launch the biggest party on the grid!",
 					"Looking to start the party? We're pooling funds now for a round-the-clock celebration.",
-					"If you’re aiming to see the city light up, help us fill the party meter. Every bit counts!",
+					"If you're aiming to see the city light up, help us fill the party meter. Every bit counts!",
 					"Hey, choomba! Here to plan another blockbuster event? Let's dive in!"
 				],
 				"trans": [
@@ -7802,6 +8332,31 @@
 				"trans": "Odznaky"
 			}
 		},
+		"furniture": {
+			"activeFurniture": {
+				"eng": "Active Furniture",
+				"trans": "Aktivný nábytok"
+			},
+			"collection": {
+				"eng": "Collection",
+				"trans": "Kolekcia"
+			},
+			"noActiveFurniture": {
+				"eng": "No furniture currently active in slots",
+				"trans": "Momentálne žiadny nábytok nie je aktívny v slotoch"
+			},
+			"title": {
+				"eng": "Furniture",
+				"trans": "Nábytok"
+			},
+			"viewCollection": {
+				"eng": "${count} Owned",
+				"trans": "${count} Vlastnených",
+				"vars": [
+					"count"
+				]
+			}
+		},
 		"pets": {
 			"noPets": {
 				"eng": "this player does not own any pets",
@@ -7827,6 +8382,30 @@
 				"eng": "stats",
 				"trans": "štatistiky"
 			}
+		}
+	},
+	"playerFurnitureCollection": {
+		"count": {
+			"eng": "${count} furniture pieces owned",
+			"trans": "${count} kusy nábytku",
+			"vars": [
+				"count"
+			]
+		},
+		"empty": {
+			"eng": "No furniture owned yet.",
+			"trans": "Momentálne nemáte žiadny nábytok."
+		},
+		"slotted": {
+			"eng": "In Slot",
+			"trans": "V zásuvke"
+		},
+		"title": {
+			"eng": "${playerName}'s Furniture Collection",
+			"trans": "Kolekcia nábytku ${playerName}",
+			"vars": [
+				"playerName"
+			]
 		}
 	},
 	"playerStatusDisplay": {
@@ -8193,6 +8772,12 @@
 		}
 	},
 	"recipe": {
+		"advancedFurnitureKit": {
+			"name": {
+				"eng": "Advanced Furniture Assembly Kit",
+				"trans": "Pokročilá súprava na zostavovanie nábytku"
+			}
+		},
 		"aiCoreCluster": {
 			"name": {
 				"eng": "AI Core Cluster",
@@ -8285,6 +8870,12 @@
 				"trans": "Kvantová úložná jednotka"
 			}
 		},
+		"basicFurnitureKit": {
+			"name": {
+				"eng": "Basic Furniture Assembly Kit",
+				"trans": "Základná sada montáže nábytku"
+			}
+		},
 		"christmasGift": {
 			"name": {
 				"eng": "Unlock Mysterious Container",
@@ -8317,6 +8908,12 @@
 			"name": {
 				"eng": "Craft Sanctuary Adoption Pass",
 				"trans": "Vytvoriť Pas na Adopciu do Útočiska"
+			}
+		},
+		"highendFurnitureKit": {
+			"name": {
+				"eng": "High-End Furniture Assembly Kit",
+				"trans": "Sada na montáž prémiového nábytku"
 			}
 		},
 		"lunarLoot": {
@@ -9245,6 +9842,16 @@
 			"name": {
 				"eng": "Health",
 				"trans": "Zdravie"
+			}
+		},
+		"healthMultiplier": {
+			"description": {
+				"eng": "Increases maximum health by percentage",
+				"trans": "Zvyšuje maximálne zdravie o %"
+			},
+			"name": {
+				"eng": "Health multiplier",
+				"trans": "Násobiteľ zdravia"
 			}
 		},
 		"healthRegen": {
@@ -12688,6 +13295,10 @@
 				"eng": "faq",
 				"trans": "časté otázky"
 			},
+			"furniture": {
+				"eng": "Furniture",
+				"trans": "Meblá"
+			},
 			"inventory": {
 				"eng": "inventory",
 				"trans": "inventár"
@@ -12703,6 +13314,10 @@
 			"marriage": {
 				"eng": "Marriage System",
 				"trans": "Systém manželstva"
+			},
+			"pets": {
+				"eng": "Pets",
+				"trans": "Domáce zvieratá"
 			},
 			"profile": {
 				"eng": "profile",

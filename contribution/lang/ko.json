@@ -325,6 +325,16 @@
 				"trans": "갱단 자원 수집"
 			}
 		},
+		"furnitureWorkshop": {
+			"description": {
+				"eng": "Search the coastline for beached cargo containers and salvage materials for furniture crafting.",
+				"trans": "바닷가에서 좌초된 화물 컨테이너를 찾아 가구 제작에 쓸 수 있는 재료를 회수해 보세요."
+			},
+			"name": {
+				"eng": "Salvage Beached Tech Cargo",
+				"trans": "해안에 끼인 기술 화물 회수"
+			}
+		},
 		"gambling1": {
 			"description": {
 				"eng": "Konnichiwa!! ^___^\n        Come play the MEGA Pachinko! With chance to win HUGE EPIC rewards\n        only 5000 btc per session, LIMITED TIME OFFER!!! <3<3<3\n        ##Special thanks for Militech for sponsoring this event##",
@@ -393,6 +403,16 @@
 			"name": {
 				"eng": "Pet Shelter Volunteer Shift",
 				"trans": "동물 보호소 자원봉사자 교대 근무"
+			}
+		},
+		"powerSalvage": {
+			"description": {
+				"eng": "Dismantle abandoned power units to extract energy cells and materials.",
+				"trans": "버려진 파워 유닛을 해체하여 에너지 세포와 자원을 추출하세요."
+			},
+			"name": {
+				"eng": "Salvage Power Units",
+				"trans": "전력 유닛 회수"
 			}
 		},
 		"reverseEngineer": {
@@ -569,6 +589,10 @@
 				"eng": "Shangri-la",
 				"trans": "상그릴라"
 			}
+		},
+		"furniture": {
+			"eng": "Furniture",
+			"trans": "가구"
 		},
 		"jukeBox": {
 			"eng": "JukeBox",
@@ -1723,6 +1747,10 @@
 			"eng": "CyberGhost",
 			"trans": "유령 안개"
 		},
+		"donation45": {
+			"eng": "Vice City",
+			"trans": "바이스 시티"
+		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
 			"trans": "사이버네틱 감자"
@@ -2358,6 +2386,399 @@
 				"eng": "FRAGMENTS RECEIVED:",
 				"trans": "조각 획득:"
 			}
+		}
+	},
+	"furniture": {
+		"activate": {
+			"eng": "Activate",
+			"trans": "활성화"
+		},
+		"activateConfirm": {
+			"title": {
+				"eng": "Activate Furniture",
+				"trans": "가구 사용하기"
+			}
+		},
+		"activateError": {
+			"notEnoughResources": {
+				"eng": "Not enough resources: ${missing}",
+				"trans": "자원 부족: ${missing}",
+				"vars": [
+					"missing"
+				]
+			}
+		},
+		"activateSuccess": {
+			"eng": "Successfully activated ${furnitureName}!",
+			"trans": "축하합니다! ${furnitureName}이(가) 이제 활성화됐어요!",
+			"vars": [
+				"furnitureName"
+			]
+		},
+		"activeBonuses": {
+			"eng": "Active Bonuses",
+			"trans": "활성 보너스"
+		},
+		"assetSynthesizer": {
+			"name": {
+				"eng": "Digital Asset Synthesizer",
+				"trans": "디지털 자산 합성기"
+			}
+		},
+		"assigning": {
+			"eng": "Assigning furniture...",
+			"trans": "가구 배치 중…"
+		},
+		"blockchainHub": {
+			"name": {
+				"eng": "Blockchain Processing Hub",
+				"trans": "블록체인 처리 허브"
+			}
+		},
+		"category": {
+			"afk": {
+				"desc": {
+					"eng": "Boost AFK EXP gain",
+					"trans": "AFK 경험치 획득량 증가"
+				}
+			},
+			"combat": {
+				"desc": {
+					"eng": "Increase damage",
+					"trans": "피해량 상승"
+				}
+			},
+			"defense": {
+				"desc": {
+					"eng": "Increase defense",
+					"trans": "방어력 증가"
+				}
+			},
+			"economy": {
+				"desc": {
+					"eng": "Increase BTC income",
+					"trans": "BTC 수익 증대"
+				}
+			},
+			"health": {
+				"desc": {
+					"eng": "Increase max HP",
+					"trans": "최대 HP 증가"
+				}
+			},
+			"speed": {
+				"desc": {
+					"eng": "Reduce AFK time",
+					"trans": "AFK 시간을 단축합니다"
+				}
+			},
+			"study": {
+				"desc": {
+					"eng": "Increase EXP gain",
+					"trans": "EXP 획득량 증가"
+				}
+			},
+			"tip": {
+				"eng": "Trade assembly kits for furniture. Stat bonuses stack with each tier.",
+				"trans": "가구 제작용 조립키트를 거래해보세요! 각 티어마다 스탯 보너스가 쌓여요."
+			}
+		},
+		"cellularChamber": {
+			"name": {
+				"eng": "Cellular Enhancement Chamber",
+				"trans": "세포 강화 챔버"
+			}
+		},
+		"combatChamber": {
+			"name": {
+				"eng": "Combat Simulation Chamber",
+				"trans": "전투 모의실"
+			}
+		},
+		"cost": {
+			"eng": "Cost",
+			"trans": "가격"
+		},
+		"craft": {
+			"tip": {
+				"eng": "Craft assembly kits from materials, then use them to unlock furniture pieces.",
+				"trans": "자재로 조립 키트를 만들고, 이를 사용해 가구 부품을 잠금 해제하세요."
+			}
+		},
+		"craftSuccess": {
+			"eng": "Successfully crafted ${kitName}!",
+			"trans": "축하합니다! ${kitName}이 완료되었습니다!",
+			"vars": [
+				"kitName"
+			]
+		},
+		"cryptoArray": {
+			"name": {
+				"eng": "Crypto Mining Array",
+				"trans": "암호채굴 장치"
+			}
+		},
+		"defensePanel": {
+			"name": {
+				"eng": "Active Defense Panel",
+				"trans": "활성 방어 패널"
+			}
+		},
+		"duration": {
+			"eng": "Duration",
+			"trans": "지속시간"
+		},
+		"emptySlot": {
+			"eng": "Empty Slot ${number}",
+			"trans": "빈 슬롯 ${number}",
+			"vars": [
+				"number"
+			]
+		},
+		"error": {
+			"alreadyOwned": {
+				"eng": "You already own this furniture",
+				"trans": "이미 이 가구를 소유하고 있어요"
+			},
+			"alreadySlotted": {
+				"eng": "This furniture is already placed in another slot",
+				"trans": "이 가구는 이미 다른 슬롯에 배치되어 있어요"
+			},
+			"insufficientResources": {
+				"eng": "Insufficient resources to craft",
+				"trans": "재료가 부족해 제작이 불가능합니다"
+			},
+			"invalidAmount": {
+				"eng": "Invalid craft amount (must be between 1 and 100)",
+				"trans": "제작 수량이 잘못되었습니다 (1~100 사이여야 합니다)"
+			},
+			"invalidFurniture": {
+				"eng": "Invalid furniture type",
+				"trans": "유효하지 않은 가구 유형"
+			},
+			"invalidItem": {
+				"eng": "Invalid item type",
+				"trans": "아이템 종류가 올바르지 않아요"
+			},
+			"invalidRecipe": {
+				"eng": "Invalid furniture kit recipe",
+				"trans": "잘못된 가구 레시피입니다"
+			},
+			"invalidSlot": {
+				"eng": "Invalid slot index",
+				"trans": "슬롯 인덱스가 올바르지 않습니다"
+			},
+			"levelRequired": {
+				"eng": "You need to be level ${level} to use this furniture",
+				"trans": "가구를 켜려면 레벨 ${level} 이상이어야 해요",
+				"vars": [
+					"level"
+				]
+			},
+			"noApartment": {
+				"eng": "You need to rent an apartment first",
+				"trans": "먼저 아파트를 빌려야 해요"
+			},
+			"notEnoughEnergy": {
+				"eng": "Not enough Energy Cells (need ${amount})",
+				"trans": "에너지 셀이 모자라요 (필요: ${amount})",
+				"vars": [
+					"amount"
+				]
+			},
+			"notInSlot": {
+				"eng": "Furniture must be placed in a slot before activation",
+				"trans": "가구는 먼저 슬롯에 넣어야 활성화돼요"
+			},
+			"notOwned": {
+				"eng": "You don't own this furniture",
+				"trans": "해당 가구는 소유하고 있지 않아요"
+			}
+		},
+		"gymStation": {
+			"name": {
+				"eng": "Cyber-Gym Station",
+				"trans": "사이버 운동 스테이션"
+			}
+		},
+		"holoProjector": {
+			"name": {
+				"eng": "Holo-Training Projector",
+				"trans": "홀로트레이닝 프로젝터"
+			}
+		},
+		"holoTerminal": {
+			"name": {
+				"eng": "Holographic Terminal",
+				"trans": "홀로그램 터미널"
+			}
+		},
+		"learningStation": {
+			"name": {
+				"eng": "Automated Learning Station",
+				"trans": "자동 학습 스테이션"
+			}
+		},
+		"nanoFabricator": {
+			"name": {
+				"eng": "Nano-Armor Fabricator",
+				"trans": "나노 아머 제작기"
+			}
+		},
+		"neuralAccelerator": {
+			"name": {
+				"eng": "Neural Accelerator",
+				"trans": "신경 가속기"
+			}
+		},
+		"neuralChair": {
+			"name": {
+				"eng": "Ergonomic Neural Chair",
+				"trans": "인체공학적 신경 의자"
+			}
+		},
+		"neuralDesk": {
+			"name": {
+				"eng": "Neural Interface Desk",
+				"trans": "신경 인터페이스 책상"
+			}
+		},
+		"noApartment": {
+			"eng": "You need to rent an apartment to use furniture bonuses",
+			"trans": "먼저 아파트를 빌려야 가구 보너스를 이용할 수 있어요"
+		},
+		"noAvailableDesc": {
+			"eng": "You don't have any unassigned furniture. All your furniture is already assigned to slots.",
+			"trans": "배정되지 않은 가구가 없어요. 지금 가지고 있는 가구는 모두 슬롯에 꽂혀 있어요."
+		},
+		"owned": {
+			"eng": "Owned",
+			"trans": "보유"
+		},
+		"quantumPod": {
+			"name": {
+				"eng": "Quantum Learning Pod",
+				"trans": "양자 학습 팟"
+			}
+		},
+		"regenPod": {
+			"name": {
+				"eng": "Bio-Regeneration Pod",
+				"trans": "바이오 리젠 포드"
+			}
+		},
+		"remove": {
+			"eng": "Remove",
+			"trans": "제거"
+		},
+		"removeSlot": {
+			"eng": "Do you want to remove this furniture from the slot?",
+			"trans": "이 가구를 슬롯에서 제거할까요?"
+		},
+		"removing": {
+			"eng": "Removing furniture...",
+			"trans": "가구 제거 중..."
+		},
+		"selectFurniture": {
+			"eng": "Select Furniture",
+			"trans": "가구 선택"
+		},
+		"shieldGenerator": {
+			"name": {
+				"eng": "Adaptive Shield Generator",
+				"trans": "적응형 방패 생성기"
+			}
+		},
+		"skillEnhancer": {
+			"name": {
+				"eng": "Passive Skill Enhancer",
+				"trans": "패시브 스킬 강화기"
+			}
+		},
+		"slotCleared": {
+			"eng": "Successfully cleared slot ${slotIndex}!",
+			"trans": "성공! ${slotIndex} 슬롯을 깔끔하게 비웠어요!",
+			"vars": [
+				"slotIndex"
+			]
+		},
+		"slotSuccess": {
+			"eng": "Successfully placed ${furnitureName} in slot ${slotIndex}!",
+			"trans": "성공적으로 ${furnitureName}을 슬롯 ${slotIndex}에 배치했습니다!",
+			"vars": [
+				"furnitureName",
+				"slotIndex"
+			]
+		},
+		"slots": {
+			"eng": "Furniture Slots",
+			"trans": "가구 슬롯"
+		},
+		"stats": {
+			"eng": "Stats",
+			"trans": "스탯"
+		},
+		"stimulantDispenser": {
+			"name": {
+				"eng": "Stimulant Dispenser",
+				"trans": "각성제 디스펜서"
+			}
+		},
+		"tab": {
+			"craft": {
+				"eng": "Craft Kits",
+				"trans": "제작 키트"
+			},
+			"trade": {
+				"eng": "Trade Furniture",
+				"trans": "가구 거래"
+			}
+		},
+		"tacticalModule": {
+			"name": {
+				"eng": "Tactical Enhancement Module",
+				"trans": "전술 강화 모듈"
+			}
+		},
+		"tapToAssign": {
+			"eng": "Tap to assign",
+			"trans": "지정하려면 탭"
+		},
+		"temporalChamber": {
+			"name": {
+				"eng": "Temporal Compression Chamber",
+				"trans": "시간 압축 챔버"
+			}
+		},
+		"trade": {
+			"confirm": {
+				"description": {
+					"eng": "This will consume the assembly kit to unlock this furniture piece.",
+					"trans": "확인하면 부품 키트가 소비돼 가구를 잠금해제합니다."
+				},
+				"owned": {
+					"eng": "You already own this furniture piece.",
+					"trans": "이미 이 가구를 소유하고 있어요."
+				},
+				"title": {
+					"eng": "Trade for ${furnitureName}",
+					"trans": "${furnitureName}으로 교환하기",
+					"vars": [
+						"furnitureName"
+					]
+				}
+			},
+			"tip": {
+				"eng": "Select a category to view available furniture. Each category provides different stat bonuses.",
+				"trans": "카테고리를 선택해 가구 목록을 확인하세요. 각 카테고리별로 다른 스탯 보너스가 적용됩니다."
+			}
+		},
+		"tradeSuccess": {
+			"eng": "Successfully traded for ${furnitureName}!",
+			"trans": "축하합니다! ${furnitureName}을(를) 무사히 교환했습니다!",
+			"vars": [
+				"furnitureName"
+			]
 		}
 	},
 	"gameEvent": {
@@ -3018,6 +3439,16 @@
 		}
 	},
 	"item": {
+		"advancedFurnitureKit": {
+			"desc": {
+				"eng": "A premium kit for assembling advanced furniture. Trade with the Furniture Vendor for any Tier 2 furniture, or upgrade to high-end kits.",
+				"trans": "고급 가구 조립용 프리미엄 키트입니다! 가구 상인과 교환하면 티어 2 가구를 얻거나, 고급 키트로 업그레이드할 수 있어요."
+			},
+			"name": {
+				"eng": "Advanced Furniture Assembly Kit",
+				"trans": "고급 가구 조립 키트"
+			}
+		},
 		"afkAcceleration": {
 			"description": {
 				"eng": "Broadcasts exploits to all cybernetically connected users, overclocking their synaptic processors thus allowing super-human mental capacity for short period of time.\n        \n        When used, gives Global Buff to all players online, allowing them to complete AFK tasks in +5% speed for 10 minutes (stackable)",
@@ -3071,6 +3502,16 @@
 			"name": {
 				"eng": "AI Core Cluster",
 				"trans": "[부품] AI 코어 클러스터"
+			}
+		},
+		"alloyFrame": {
+			"desc": {
+				"eng": "Reinforced metal framework component for furniture assembly.",
+				"trans": "가구 조립용 강화 금속 프레임 부품"
+			},
+			"name": {
+				"eng": "Alloy Frame",
+				"trans": "합금 프레임"
 			}
 		},
 		"ammo1": {
@@ -3214,6 +3655,16 @@
 			"name": {
 				"eng": "Quantum Storage Unit",
 				"trans": "양자 저장 장치"
+			}
+		},
+		"basicFurnitureKit": {
+			"desc": {
+				"eng": "A kit containing materials to assemble basic tier furniture. Can be traded with the Furniture Vendor for any Tier 1 furniture, or combined to create advanced kits.",
+				"trans": "기본 등급 가구 제작에 필요한 재료가 담긴 키트입니다. 가구 상인과 교환하면 티어 1 가구를 얻을 수 있고, 조합해 고급 키트를 만들 수도 있어요."
+			},
+			"name": {
+				"eng": "Basic Furniture Assembly Kit",
+				"trans": "기본 가구 조립 키트"
 			}
 		},
 		"boots": {
@@ -3482,6 +3933,16 @@
 			"name": {
 				"eng": "Dungeon Token",
 				"trans": "던전 토큰"
+			}
+		},
+		"energyCell": {
+			"desc": {
+				"eng": "Miniaturized fusion cell designed to power apartment furniture systems. Extracted from crashed corporate drones along Crystal Sands before cleanup crews arrive.",
+				"trans": "아파트 가구 시스템에 전력을 공급하도록 설계된 소형 융합 셀. 크리스탈 샌즈에서 추락한 기업 드론 잔해를 수집해 청소팀이 도착하기 전에 확보했습니다."
+			},
+			"name": {
+				"eng": "Compact Energy Cell",
+				"trans": "콤팩트 에너지 셀"
 			}
 		},
 		"epicCacheFragment": {
@@ -3854,6 +4315,16 @@
 				"trans": "헬멧"
 			}
 		},
+		"highendFurnitureKit": {
+			"desc": {
+				"eng": "An elite kit for top-tier furniture fabrication. Trade with the Furniture Vendor for any Tier 3 furniture.",
+				"trans": "최상급 가구 제작용 엘리트 키트입니다. 가구 상인과 거래하면 티어 3 가구를 교환할 수 있어요."
+			},
+			"name": {
+				"eng": "High-End Furniture Assembly Kit",
+				"trans": "고급 가구 조립 키트"
+			}
+		},
 		"keyFragment": {
 			"description": {
 				"eng": "A secret key Fragment used to brute-force a secret key.\n                                Use the Terminal at city center [Hub] to brute-force a ${segmentDisplayName} secret key.\n                                You can acquire each of the 3 required keys in each dungeon (both normal or challenge),\n                                when you acquired 3 keys, you may use Terminal to brute-force (Craft) a key to the next area",
@@ -4169,6 +4640,16 @@
 				"trans": "스킵 할인권"
 			}
 		},
+		"smartFabric": {
+			"desc": {
+				"eng": "Advanced textile material with embedded circuitry.",
+				"trans": "전기 회로가 내장된 고급 섬유 소재입니다."
+			},
+			"name": {
+				"eng": "Smart Fabric",
+				"trans": "스마트 섬유"
+			}
+		},
 		"soda": {
 			"description": {
 				"eng": "A refreshing soda that can be used to increase EXP received in AFK tasks by ${percent}%.\\nThis item can only be used during ${event} event",
@@ -4225,6 +4706,16 @@
 			"name": {
 				"eng": "Synthetic Alloy",
 				"trans": "합성 합금"
+			}
+		},
+		"syntheticPolymer": {
+			"desc": {
+				"eng": "High-grade synthetic material used in furniture construction.",
+				"trans": "가구 제작용 고품질 합성 재료."
+			},
+			"name": {
+				"eng": "Synthetic Polymer",
+				"trans": "합성 폴리머"
 			}
 		},
 		"techScrap": {
@@ -5000,13 +5491,6 @@
 			}
 		},
 		"coast": {
-			"cantEnterError": {
-				"eng": "You need to be at least level ${level} to access the Crystal Sands",
-				"trans": "크리스탈 해안에 입장하려면 ${level}레벨 이상이어야 합니다",
-				"vars": [
-					"level"
-				]
-			},
 			"description": {
 				"eng": "[Coast]\n        The beautiful coast a few kilometers away of downtown. The perfect place to relax and enjoy the sea breeze.",
 				"trans": "[해안]\r\n        도심에서 몇 킬로미터 떨어진 곳에 위치한 아름다운 해안입니다.\n바닷바람을 만끽하며 휴식을 취하기 가장 완벽한 장소입니다."
@@ -6012,6 +6496,14 @@
 			"eng": "missing",
 			"trans": "없음"
 		},
+		"missingItem": {
+			"eng": "Missing ${item} ${type}",
+			"trans": "누락된 ${item} ${type}",
+			"vars": [
+				"item",
+				"type"
+			]
+		},
 		"moderators": {
 			"eng": "moderators",
 			"trans": "관리자"
@@ -6511,9 +7003,9 @@
 		"beach": {
 			"defaultLines": {
 				"eng": [
-					"Hey, beautiful. Wanna swap those seashells for something refreshing? I’ve got just the fix",
-					"Look who just jacked in. Trade those seashells with me, and I’ll give you something to remember.",
-					"Thirsty, choom? Trade those seashells for an ice-cold soda pop that’ll knock your socks off!"
+					"Hey, beautiful. Wanna swap those seashells for something refreshing? I've got just the fix",
+					"Look who just jacked in. Trade those seashells with me, and I'll give you something to remember.",
+					"Thirsty, choom? Trade those seashells for an ice-cold soda pop that'll knock your socks off!"
 				],
 				"trans": [
 					"거기, 멋쟁이! 조개껍질이랑 새로운 거랑 교환할래? 내가 방금 고친 건데!",
@@ -6691,6 +7183,44 @@
 				"trans": "장비 교정소"
 			}
 		},
+		"furnitureVendor": {
+			"defaultLines": {
+				"eng": [
+					"You think furniture is heavy? I install entire apartment rigs between sets at the gym.",
+					"Bring me your kits, choom. I'll have them assembled faster than you can say 'do you even lift?'",
+					"Looking preem today! Almost as good as this quantum learning pod I just installed with one hand.",
+					"These muscles aren't just for show, friend. Watch me carry your entire bedroom set up six flights of stairs.",
+					"Installation instructions? Never heard of them. I just flex and the furniture assembles itself.",
+					"Your apartment will look nova, almost as amazing as these chrome biceps. Almost.",
+					"Need help moving that couch? Please, I bench press cargo containers for fun.",
+					"I could dance circles around these assembly tasks. Want to see my moves?",
+					"Installation is like a dance, choom, and I'm the best dancer in town. Watch me work!",
+					"Some people need tools. I just need rhythm and these guns. *flexes while dancing*",
+					"They say I'm too distracted by dancing to work... but somehow everything gets installed perfectly!"
+				],
+				"trans": [
+					"You think furniture is heavy? I install entire apartment rigs between sets at the gym.",
+					"Bring me your kits, choom. I'll have them assembled faster than you can say 'do you even lift?'",
+					"Looking preem today! Almost as good as this quantum learning pod I just installed with one hand.",
+					"These muscles aren't just for show, friend. Watch me carry your entire bedroom set up six flights of stairs.",
+					"Installation instructions? Never heard of them. I just flex and the furniture assembles itself.",
+					"Your apartment will look nova, almost as amazing as these chrome biceps. Almost.",
+					"Need help moving that couch? Please, I bench press cargo containers for fun.",
+					"I could dance circles around these assembly tasks. Want to see my moves?",
+					"Installation is like a dance, choom, and I'm the best dancer in town. Watch me work!",
+					"Some people need tools. I just need rhythm and these guns. *flexes while dancing*",
+					"They say I'm too distracted by dancing to work... but somehow everything gets installed perfectly!"
+				]
+			},
+			"name": {
+				"eng": "Furnish Hub",
+				"trans": "가구허브"
+			},
+			"npcName": {
+				"eng": "Miles",
+				"trans": "마일스"
+			}
+		},
 		"halloween": {
 			"defaultLines": {
 				"eng": [
@@ -6744,7 +7274,7 @@
 					"Hey choom, ready to chip in for the next 24-hour global party? We're just a few units short!",
 					"Ready to make an impact? Your contribution could launch the biggest party on the grid!",
 					"Looking to start the party? We're pooling funds now for a round-the-clock celebration.",
-					"If you’re aiming to see the city light up, help us fill the party meter. Every bit counts!",
+					"If you're aiming to see the city light up, help us fill the party meter. Every bit counts!",
 					"Hey, choomba! Here to plan another blockbuster event? Let's dive in!"
 				],
 				"trans": [
@@ -7684,6 +8214,31 @@
 				"trans": "엠블럼"
 			}
 		},
+		"furniture": {
+			"activeFurniture": {
+				"eng": "Active Furniture",
+				"trans": "활성 가구"
+			},
+			"collection": {
+				"eng": "Collection",
+				"trans": "수집품"
+			},
+			"noActiveFurniture": {
+				"eng": "No furniture currently active in slots",
+				"trans": "현재 슬롯에 가구가 없습니다"
+			},
+			"title": {
+				"eng": "Furniture",
+				"trans": "가구"
+			},
+			"viewCollection": {
+				"eng": "${count} Owned",
+				"trans": "${count}개 소유",
+				"vars": [
+					"count"
+				]
+			}
+		},
 		"pets": {
 			"noPets": {
 				"eng": "this player does not own any pets",
@@ -7709,6 +8264,30 @@
 				"eng": "stats",
 				"trans": "스탯"
 			}
+		}
+	},
+	"playerFurnitureCollection": {
+		"count": {
+			"eng": "${count} furniture pieces owned",
+			"trans": "${count}개의 가구 보유",
+			"vars": [
+				"count"
+			]
+		},
+		"empty": {
+			"eng": "No furniture owned yet.",
+			"trans": "아직 가구를 보유하고 있지 않아요."
+		},
+		"slotted": {
+			"eng": "In Slot",
+			"trans": "슬롯에 있음"
+		},
+		"title": {
+			"eng": "${playerName}'s Furniture Collection",
+			"trans": "${playerName}의 가구 컬렉션",
+			"vars": [
+				"playerName"
+			]
 		}
 	},
 	"playerStatusDisplay": {
@@ -8075,6 +8654,12 @@
 		}
 	},
 	"recipe": {
+		"advancedFurnitureKit": {
+			"name": {
+				"eng": "Advanced Furniture Assembly Kit",
+				"trans": "고급 가구 조립 키트"
+			}
+		},
 		"aiCoreCluster": {
 			"name": {
 				"eng": "AI Core Cluster",
@@ -8167,6 +8752,12 @@
 				"trans": "양자 저장 장치"
 			}
 		},
+		"basicFurnitureKit": {
+			"name": {
+				"eng": "Basic Furniture Assembly Kit",
+				"trans": "기본 가구 조립 키트"
+			}
+		},
 		"christmasGift": {
 			"name": {
 				"eng": "Unlock Mysterious Container",
@@ -8199,6 +8790,12 @@
 			"name": {
 				"eng": "Craft Sanctuary Adoption Pass",
 				"trans": "성소 입양 패스권 제작"
+			}
+		},
+		"highendFurnitureKit": {
+			"name": {
+				"eng": "High-End Furniture Assembly Kit",
+				"trans": "고급 가구 조립 키트"
 			}
 		},
 		"lunarLoot": {
@@ -9127,6 +9724,16 @@
 			"name": {
 				"eng": "Health",
 				"trans": "체력"
+			}
+		},
+		"healthMultiplier": {
+			"description": {
+				"eng": "Increases maximum health by percentage",
+				"trans": "최대 체력이 %만큼 증가합니다"
+			},
+			"name": {
+				"eng": "Health multiplier",
+				"trans": "체력 배수"
 			}
 		},
 		"healthRegen": {
@@ -12570,6 +13177,10 @@
 				"eng": "faq",
 				"trans": "자주하는 질문"
 			},
+			"furniture": {
+				"eng": "Furniture",
+				"trans": "가구"
+			},
 			"inventory": {
 				"eng": "inventory",
 				"trans": "인벤토리"
@@ -12585,6 +13196,10 @@
 			"marriage": {
 				"eng": "Marriage System",
 				"trans": "결혼 시스템"
+			},
+			"pets": {
+				"eng": "Pets",
+				"trans": "펫"
 			},
 			"profile": {
 				"eng": "profile",

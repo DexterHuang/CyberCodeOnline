@@ -325,6 +325,16 @@
 				"trans": "收集公會資源"
 			}
 		},
+		"furnitureWorkshop": {
+			"description": {
+				"eng": "Search the coastline for beached cargo containers and salvage materials for furniture crafting.",
+				"trans": "沿著海岸線尋找沖上岸的貨櫃，並打撈用於製作家具的材料。"
+			},
+			"name": {
+				"eng": "Salvage Beached Tech Cargo",
+				"trans": "搜刮擱淺科技貨物"
+			}
+		},
 		"gambling1": {
 			"description": {
 				"eng": "Konnichiwa!! ^___^\n        Come play the MEGA Pachinko! With chance to win HUGE EPIC rewards\n        only 5000 btc per session, LIMITED TIME OFFER!!! <3<3<3\n        ##Special thanks for Militech for sponsoring this event##",
@@ -393,6 +403,16 @@
 			"name": {
 				"eng": "Pet Shelter Volunteer Shift",
 				"trans": "動物中途之家志工輪班"
+			}
+		},
+		"powerSalvage": {
+			"description": {
+				"eng": "Dismantle abandoned power units to extract energy cells and materials.",
+				"trans": "拆解廢棄動力裝置，提取能量細胞與材料。"
+			},
+			"name": {
+				"eng": "Salvage Power Units",
+				"trans": "回收動力單元"
 			}
 		},
 		"reverseEngineer": {
@@ -569,6 +589,10 @@
 				"eng": "Shangri-la",
 				"trans": "香格里拉"
 			}
+		},
+		"furniture": {
+			"eng": "Furniture",
+			"trans": "家具"
 		},
 		"jukeBox": {
 			"eng": "JukeBox",
@@ -1723,6 +1747,10 @@
 			"eng": "CyberGhost",
 			"trans": "鬼魅迷霧"
 		},
+		"donation45": {
+			"eng": "Vice City",
+			"trans": "靡都"
+		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
 			"trans": "電馭馬鈴薯"
@@ -2358,6 +2386,399 @@
 				"eng": "FRAGMENTS RECEIVED:",
 				"trans": "已獲得碎片："
 			}
+		}
+	},
+	"furniture": {
+		"activate": {
+			"eng": "Activate",
+			"trans": "啟動"
+		},
+		"activateConfirm": {
+			"title": {
+				"eng": "Activate Furniture",
+				"trans": "啟動家具"
+			}
+		},
+		"activateError": {
+			"notEnoughResources": {
+				"eng": "Not enough resources: ${missing}",
+				"trans": "資源不夠：${missing}",
+				"vars": [
+					"missing"
+				]
+			}
+		},
+		"activateSuccess": {
+			"eng": "Successfully activated ${furnitureName}!",
+			"trans": "${furnitureName}啟用成功！",
+			"vars": [
+				"furnitureName"
+			]
+		},
+		"activeBonuses": {
+			"eng": "Active Bonuses",
+			"trans": "作用中加成"
+		},
+		"assetSynthesizer": {
+			"name": {
+				"eng": "Digital Asset Synthesizer",
+				"trans": "數位資產合成器"
+			}
+		},
+		"assigning": {
+			"eng": "Assigning furniture...",
+			"trans": "正在布置家具…"
+		},
+		"blockchainHub": {
+			"name": {
+				"eng": "Blockchain Processing Hub",
+				"trans": "區塊鏈處理樞紐"
+			}
+		},
+		"category": {
+			"afk": {
+				"desc": {
+					"eng": "Boost AFK EXP gain",
+					"trans": "提升AFK經驗獲得量"
+				}
+			},
+			"combat": {
+				"desc": {
+					"eng": "Increase damage",
+					"trans": "增加傷害"
+				}
+			},
+			"defense": {
+				"desc": {
+					"eng": "Increase defense",
+					"trans": "增加防禦力"
+				}
+			},
+			"economy": {
+				"desc": {
+					"eng": "Increase BTC income",
+					"trans": "提升比特幣收益"
+				}
+			},
+			"health": {
+				"desc": {
+					"eng": "Increase max HP",
+					"trans": "提升最大HP"
+				}
+			},
+			"speed": {
+				"desc": {
+					"eng": "Reduce AFK time",
+					"trans": "減少AFK時間"
+				}
+			},
+			"study": {
+				"desc": {
+					"eng": "Increase EXP gain",
+					"trans": "增加EXP獲得"
+				}
+			},
+			"tip": {
+				"eng": "Trade assembly kits for furniture. Stat bonuses stack with each tier.",
+				"trans": "用組裝套件兌換家具。屬性加成隨各階層堆疊。"
+			}
+		},
+		"cellularChamber": {
+			"name": {
+				"eng": "Cellular Enhancement Chamber",
+				"trans": "細胞增強艙"
+			}
+		},
+		"combatChamber": {
+			"name": {
+				"eng": "Combat Simulation Chamber",
+				"trans": "戰鬥模擬艙"
+			}
+		},
+		"cost": {
+			"eng": "Cost",
+			"trans": "價格"
+		},
+		"craft": {
+			"tip": {
+				"eng": "Craft assembly kits from materials, then use them to unlock furniture pieces.",
+				"trans": "用材料製作組裝套組，然後使用它們來解鎖家具部件。"
+			}
+		},
+		"craftSuccess": {
+			"eng": "Successfully crafted ${kitName}!",
+			"trans": "${kitName}打造成功！",
+			"vars": [
+				"kitName"
+			]
+		},
+		"cryptoArray": {
+			"name": {
+				"eng": "Crypto Mining Array",
+				"trans": "加密挖礦陣列"
+			}
+		},
+		"defensePanel": {
+			"name": {
+				"eng": "Active Defense Panel",
+				"trans": "主動式防禦面板"
+			}
+		},
+		"duration": {
+			"eng": "Duration",
+			"trans": "持續時間"
+		},
+		"emptySlot": {
+			"eng": "Empty Slot ${number}",
+			"trans": "空格 ${number}",
+			"vars": [
+				"number"
+			]
+		},
+		"error": {
+			"alreadyOwned": {
+				"eng": "You already own this furniture",
+				"trans": "你已經有這個家具囉"
+			},
+			"alreadySlotted": {
+				"eng": "This furniture is already placed in another slot",
+				"trans": "此家具已經放在其他插槽中。"
+			},
+			"insufficientResources": {
+				"eng": "Insufficient resources to craft",
+				"trans": "資源不足，無法製作"
+			},
+			"invalidAmount": {
+				"eng": "Invalid craft amount (must be between 1 and 100)",
+				"trans": "家具製作數量無效（請輸入1至100之間的數字）"
+			},
+			"invalidFurniture": {
+				"eng": "Invalid furniture type",
+				"trans": "無效的家具類型"
+			},
+			"invalidItem": {
+				"eng": "Invalid item type",
+				"trans": "物品類型無效"
+			},
+			"invalidRecipe": {
+				"eng": "Invalid furniture kit recipe",
+				"trans": "無效的家具套組配方"
+			},
+			"invalidSlot": {
+				"eng": "Invalid slot index",
+				"trans": "無效的槽位索引"
+			},
+			"levelRequired": {
+				"eng": "You need to be level ${level} to use this furniture",
+				"trans": "要解鎖這件家具，你得先到 ${level} 級",
+				"vars": [
+					"level"
+				]
+			},
+			"noApartment": {
+				"eng": "You need to rent an apartment first",
+				"trans": "請先租一個公寓"
+			},
+			"notEnoughEnergy": {
+				"eng": "Not enough Energy Cells (need ${amount})",
+				"trans": "能量電池不夠（還差 10 個）",
+				"vars": [
+					"amount"
+				]
+			},
+			"notInSlot": {
+				"eng": "Furniture must be placed in a slot before activation",
+				"trans": "在啟用前，請先將傢俱放入槽位"
+			},
+			"notOwned": {
+				"eng": "You don't own this furniture",
+				"trans": "你還沒有擁有這件家具"
+			}
+		},
+		"gymStation": {
+			"name": {
+				"eng": "Cyber-Gym Station",
+				"trans": "賽博訓練站"
+			}
+		},
+		"holoProjector": {
+			"name": {
+				"eng": "Holo-Training Projector",
+				"trans": "霍洛訓練投影機"
+			}
+		},
+		"holoTerminal": {
+			"name": {
+				"eng": "Holographic Terminal",
+				"trans": "全息終端機"
+			}
+		},
+		"learningStation": {
+			"name": {
+				"eng": "Automated Learning Station",
+				"trans": "自動化學習站"
+			}
+		},
+		"nanoFabricator": {
+			"name": {
+				"eng": "Nano-Armor Fabricator",
+				"trans": "奈米裝甲製造機"
+			}
+		},
+		"neuralAccelerator": {
+			"name": {
+				"eng": "Neural Accelerator",
+				"trans": "神經加速器"
+			}
+		},
+		"neuralChair": {
+			"name": {
+				"eng": "Ergonomic Neural Chair",
+				"trans": "人體工學神經椅"
+			}
+		},
+		"neuralDesk": {
+			"name": {
+				"eng": "Neural Interface Desk",
+				"trans": "腦機介面桌"
+			}
+		},
+		"noApartment": {
+			"eng": "You need to rent an apartment to use furniture bonuses",
+			"trans": "要使用家具加成，你得先租間公寓"
+		},
+		"noAvailableDesc": {
+			"eng": "You don't have any unassigned furniture. All your furniture is already assigned to slots.",
+			"trans": "你沒有任何未指派的家具。你的所有家具都已經指派到插槽了。"
+		},
+		"owned": {
+			"eng": "Owned",
+			"trans": "已擁有"
+		},
+		"quantumPod": {
+			"name": {
+				"eng": "Quantum Learning Pod",
+				"trans": "量子學習艙"
+			}
+		},
+		"regenPod": {
+			"name": {
+				"eng": "Bio-Regeneration Pod",
+				"trans": "生物再生艙"
+			}
+		},
+		"remove": {
+			"eng": "Remove",
+			"trans": "移除"
+		},
+		"removeSlot": {
+			"eng": "Do you want to remove this furniture from the slot?",
+			"trans": "確定要把這件家具從格位中移除嗎？"
+		},
+		"removing": {
+			"eng": "Removing furniture...",
+			"trans": "移除家具中..."
+		},
+		"selectFurniture": {
+			"eng": "Select Furniture",
+			"trans": "選擇家具"
+		},
+		"shieldGenerator": {
+			"name": {
+				"eng": "Adaptive Shield Generator",
+				"trans": "自適應護盾產生器"
+			}
+		},
+		"skillEnhancer": {
+			"name": {
+				"eng": "Passive Skill Enhancer",
+				"trans": "被動技能增強器"
+			}
+		},
+		"slotCleared": {
+			"eng": "Successfully cleared slot ${slotIndex}!",
+			"trans": "成功清空第${slotIndex}號插槽！",
+			"vars": [
+				"slotIndex"
+			]
+		},
+		"slotSuccess": {
+			"eng": "Successfully placed ${furnitureName} in slot ${slotIndex}!",
+			"trans": "${furnitureName}已成功放入插槽${slotIndex}囉！",
+			"vars": [
+				"furnitureName",
+				"slotIndex"
+			]
+		},
+		"slots": {
+			"eng": "Furniture Slots",
+			"trans": "家具欄位"
+		},
+		"stats": {
+			"eng": "Stats",
+			"trans": "屬性"
+		},
+		"stimulantDispenser": {
+			"name": {
+				"eng": "Stimulant Dispenser",
+				"trans": "興奮劑自動分配器"
+			}
+		},
+		"tab": {
+			"craft": {
+				"eng": "Craft Kits",
+				"trans": "製作套組"
+			},
+			"trade": {
+				"eng": "Trade Furniture",
+				"trans": "交易家具"
+			}
+		},
+		"tacticalModule": {
+			"name": {
+				"eng": "Tactical Enhancement Module",
+				"trans": "戰術增強模組"
+			}
+		},
+		"tapToAssign": {
+			"eng": "Tap to assign",
+			"trans": "點一下來分配"
+		},
+		"temporalChamber": {
+			"name": {
+				"eng": "Temporal Compression Chamber",
+				"trans": "時間壓縮室"
+			}
+		},
+		"trade": {
+			"confirm": {
+				"description": {
+					"eng": "This will consume the assembly kit to unlock this furniture piece.",
+					"trans": "這將會消耗該裝配套件以解鎖這件家具"
+				},
+				"owned": {
+					"eng": "You already own this furniture piece.",
+					"trans": "你已經有這件家具囉！"
+				},
+				"title": {
+					"eng": "Trade for ${furnitureName}",
+					"trans": "交易換取${furnitureName}",
+					"vars": [
+						"furnitureName"
+					]
+				}
+			},
+			"tip": {
+				"eng": "Select a category to view available furniture. Each category provides different stat bonuses.",
+				"trans": "點選類別來查看可供交易的家具。每個類別都有不同的屬性加成。"
+			}
+		},
+		"tradeSuccess": {
+			"eng": "Successfully traded for ${furnitureName}!",
+			"trans": "順利換到${furnitureName}啦！",
+			"vars": [
+				"furnitureName"
+			]
 		}
 	},
 	"gameEvent": {
@@ -3018,6 +3439,16 @@
 		}
 	},
 	"item": {
+		"advancedFurnitureKit": {
+			"desc": {
+				"eng": "A premium kit for assembling advanced furniture. Trade with the Furniture Vendor for any Tier 2 furniture, or upgrade to high-end kits.",
+				"trans": "進階家具組裝專用頂級套組，可與家具商人交易換取任意二階家具，或升級為高階套組"
+			},
+			"name": {
+				"eng": "Advanced Furniture Assembly Kit",
+				"trans": "進階家具組裝套件"
+			}
+		},
 		"afkAcceleration": {
 			"description": {
 				"eng": "Broadcasts exploits to all cybernetically connected users, overclocking their synaptic processors thus allowing super-human mental capacity for short period of time.\n        \n        When used, gives Global Buff to all players online, allowing them to complete AFK tasks in +5% speed for 10 minutes (stackable)",
@@ -3071,6 +3502,16 @@
 			"name": {
 				"eng": "AI Core Cluster",
 				"trans": "AI核心集群"
+			}
+		},
+		"alloyFrame": {
+			"desc": {
+				"eng": "Reinforced metal framework component for furniture assembly.",
+				"trans": "強化金屬框架構件，供家具裝配使用。"
+			},
+			"name": {
+				"eng": "Alloy Frame",
+				"trans": "合金框架"
 			}
 		},
 		"ammo1": {
@@ -3214,6 +3655,16 @@
 			"name": {
 				"eng": "Quantum Storage Unit",
 				"trans": "量子儲存單位"
+			}
+		},
+		"basicFurnitureKit": {
+			"desc": {
+				"eng": "A kit containing materials to assemble basic tier furniture. Can be traded with the Furniture Vendor for any Tier 1 furniture, or combined to create advanced kits.",
+				"trans": "包含組裝基礎級家具材料的套組，可向家具商人兌換任一級1家具，或合成進階套組"
+			},
+			"name": {
+				"eng": "Basic Furniture Assembly Kit",
+				"trans": "基礎家具組裝套組"
 			}
 		},
 		"boots": {
@@ -3482,6 +3933,16 @@
 			"name": {
 				"eng": "Dungeon Token",
 				"trans": "地城代幣"
+			}
+		},
+		"energyCell": {
+			"desc": {
+				"eng": "Miniaturized fusion cell designed to power apartment furniture systems. Extracted from crashed corporate drones along Crystal Sands before cleanup crews arrive.",
+				"trans": "微型融合電池，專為公寓家電系統供電而設計。從沿水晶沙丘墜毀的企業無人機中提取，於清理隊伍抵達前取得。"
+			},
+			"name": {
+				"eng": "Compact Energy Cell",
+				"trans": "緊湊型能量細胞"
 			}
 		},
 		"epicCacheFragment": {
@@ -3854,6 +4315,16 @@
 				"trans": "頭盔"
 			}
 		},
+		"highendFurnitureKit": {
+			"desc": {
+				"eng": "An elite kit for top-tier furniture fabrication. Trade with the Furniture Vendor for any Tier 3 furniture.",
+				"trans": "頂級家具製作專用精英套組，可與家具商人兌換任意三階家具"
+			},
+			"name": {
+				"eng": "High-End Furniture Assembly Kit",
+				"trans": "高端家具組裝套件"
+			}
+		},
 		"keyFragment": {
 			"description": {
 				"eng": "A secret key Fragment used to brute-force a secret key.\n                                Use the Terminal at city center [Hub] to brute-force a ${segmentDisplayName} secret key.\n                                You can acquire each of the 3 required keys in each dungeon (both normal or challenge),\n                                when you acquired 3 keys, you may use Terminal to brute-force (Craft) a key to the next area",
@@ -4169,6 +4640,16 @@
 				"trans": "飛逝折扣券"
 			}
 		},
+		"smartFabric": {
+			"desc": {
+				"eng": "Advanced textile material with embedded circuitry.",
+				"trans": "內嵌電路的先進紡織材料"
+			},
+			"name": {
+				"eng": "Smart Fabric",
+				"trans": "智能布料"
+			}
+		},
 		"soda": {
 			"description": {
 				"eng": "A refreshing soda that can be used to increase EXP received in AFK tasks by ${percent}%.\\nThis item can only be used during ${event} event",
@@ -4225,6 +4706,16 @@
 			"name": {
 				"eng": "Synthetic Alloy",
 				"trans": "人造合金"
+			}
+		},
+		"syntheticPolymer": {
+			"desc": {
+				"eng": "High-grade synthetic material used in furniture construction.",
+				"trans": "高階合成素材，應用於傢具製作"
+			},
+			"name": {
+				"eng": "Synthetic Polymer",
+				"trans": "合成聚合物"
 			}
 		},
 		"techScrap": {
@@ -5000,13 +5491,6 @@
 			}
 		},
 		"coast": {
-			"cantEnterError": {
-				"eng": "You need to be at least level ${level} to access the Crystal Sands",
-				"trans": "你需要至少達到 ${level} 等才能進入水晶沙灘。",
-				"vars": [
-					"level"
-				]
-			},
 			"description": {
 				"eng": "[Coast]\n        The beautiful coast a few kilometers away of downtown. The perfect place to relax and enjoy the sea breeze.",
 				"trans": "[海岸]  \n        距市中心幾公里的美麗海岸。是放鬆心情、享受海風的完美地點。"
@@ -6012,6 +6496,14 @@
 			"eng": "missing",
 			"trans": "缺少"
 		},
+		"missingItem": {
+			"eng": "Missing ${item} ${type}",
+			"trans": "缺少 ${item} ${type}",
+			"vars": [
+				"item",
+				"type"
+			]
+		},
 		"moderators": {
 			"eng": "moderators",
 			"trans": "管理員"
@@ -6521,9 +7013,9 @@
 		"beach": {
 			"defaultLines": {
 				"eng": [
-					"Hey, beautiful. Wanna swap those seashells for something refreshing? I’ve got just the fix",
-					"Look who just jacked in. Trade those seashells with me, and I’ll give you something to remember.",
-					"Thirsty, choom? Trade those seashells for an ice-cold soda pop that’ll knock your socks off!"
+					"Hey, beautiful. Wanna swap those seashells for something refreshing? I've got just the fix",
+					"Look who just jacked in. Trade those seashells with me, and I'll give you something to remember.",
+					"Thirsty, choom? Trade those seashells for an ice-cold soda pop that'll knock your socks off!"
 				],
 				"trans": [
 					"Hey, beautiful. Wanna swap those seashells for something refreshing? I’ve got just the fix",
@@ -6715,6 +7207,44 @@
 				"trans": "校準站"
 			}
 		},
+		"furnitureVendor": {
+			"defaultLines": {
+				"eng": [
+					"You think furniture is heavy? I install entire apartment rigs between sets at the gym.",
+					"Bring me your kits, choom. I'll have them assembled faster than you can say 'do you even lift?'",
+					"Looking preem today! Almost as good as this quantum learning pod I just installed with one hand.",
+					"These muscles aren't just for show, friend. Watch me carry your entire bedroom set up six flights of stairs.",
+					"Installation instructions? Never heard of them. I just flex and the furniture assembles itself.",
+					"Your apartment will look nova, almost as amazing as these chrome biceps. Almost.",
+					"Need help moving that couch? Please, I bench press cargo containers for fun.",
+					"I could dance circles around these assembly tasks. Want to see my moves?",
+					"Installation is like a dance, choom, and I'm the best dancer in town. Watch me work!",
+					"Some people need tools. I just need rhythm and these guns. *flexes while dancing*",
+					"They say I'm too distracted by dancing to work... but somehow everything gets installed perfectly!"
+				],
+				"trans": [
+					"You think furniture is heavy? I install entire apartment rigs between sets at the gym.",
+					"Bring me your kits, choom. I'll have them assembled faster than you can say 'do you even lift?'",
+					"Looking preem today! Almost as good as this quantum learning pod I just installed with one hand.",
+					"These muscles aren't just for show, friend. Watch me carry your entire bedroom set up six flights of stairs.",
+					"Installation instructions? Never heard of them. I just flex and the furniture assembles itself.",
+					"Your apartment will look nova, almost as amazing as these chrome biceps. Almost.",
+					"Need help moving that couch? Please, I bench press cargo containers for fun.",
+					"I could dance circles around these assembly tasks. Want to see my moves?",
+					"Installation is like a dance, choom, and I'm the best dancer in town. Watch me work!",
+					"Some people need tools. I just need rhythm and these guns. *flexes while dancing*",
+					"They say I'm too distracted by dancing to work... but somehow everything gets installed perfectly!"
+				]
+			},
+			"name": {
+				"eng": "Furnish Hub",
+				"trans": "傢俱中心"
+			},
+			"npcName": {
+				"eng": "Miles",
+				"trans": "邁爾斯"
+			}
+		},
 		"halloween": {
 			"defaultLines": {
 				"eng": [
@@ -6768,7 +7298,7 @@
 					"Hey choom, ready to chip in for the next 24-hour global party? We're just a few units short!",
 					"Ready to make an impact? Your contribution could launch the biggest party on the grid!",
 					"Looking to start the party? We're pooling funds now for a round-the-clock celebration.",
-					"If you’re aiming to see the city light up, help us fill the party meter. Every bit counts!",
+					"If you're aiming to see the city light up, help us fill the party meter. Every bit counts!",
 					"Hey, choomba! Here to plan another blockbuster event? Let's dive in!"
 				],
 				"trans": [
@@ -7793,6 +8323,31 @@
 				"trans": "徽章"
 			}
 		},
+		"furniture": {
+			"activeFurniture": {
+				"eng": "Active Furniture",
+				"trans": "已啟用家具"
+			},
+			"collection": {
+				"eng": "Collection",
+				"trans": "收藏"
+			},
+			"noActiveFurniture": {
+				"eng": "No furniture currently active in slots",
+				"trans": "目前插槽裡沒有人放家具。"
+			},
+			"title": {
+				"eng": "Furniture",
+				"trans": "家具"
+			},
+			"viewCollection": {
+				"eng": "${count} Owned",
+				"trans": "已擁有 ${count}",
+				"vars": [
+					"count"
+				]
+			}
+		},
 		"pets": {
 			"noPets": {
 				"eng": "this player does not own any pets",
@@ -7818,6 +8373,30 @@
 				"eng": "stats",
 				"trans": "數據"
 			}
+		}
+	},
+	"playerFurnitureCollection": {
+		"count": {
+			"eng": "${count} furniture pieces owned",
+			"trans": "你擁有的家具：${count} 件",
+			"vars": [
+				"count"
+			]
+		},
+		"empty": {
+			"eng": "No furniture owned yet.",
+			"trans": "你還沒有家具喔。"
+		},
+		"slotted": {
+			"eng": "In Slot",
+			"trans": "已插入"
+		},
+		"title": {
+			"eng": "${playerName}'s Furniture Collection",
+			"trans": "${playerName}的家具收藏",
+			"vars": [
+				"playerName"
+			]
 		}
 	},
 	"playerStatusDisplay": {
@@ -8184,6 +8763,12 @@
 		}
 	},
 	"recipe": {
+		"advancedFurnitureKit": {
+			"name": {
+				"eng": "Advanced Furniture Assembly Kit",
+				"trans": "進階家具組裝套件"
+			}
+		},
 		"aiCoreCluster": {
 			"name": {
 				"eng": "AI Core Cluster",
@@ -8276,6 +8861,12 @@
 				"trans": "量子儲存單位"
 			}
 		},
+		"basicFurnitureKit": {
+			"name": {
+				"eng": "Basic Furniture Assembly Kit",
+				"trans": "基礎家具組裝套組"
+			}
+		},
 		"christmasGift": {
 			"name": {
 				"eng": "Unlock Mysterious Container",
@@ -8308,6 +8899,12 @@
 			"name": {
 				"eng": "Craft Sanctuary Adoption Pass",
 				"trans": "合成收容所領養通行證"
+			}
+		},
+		"highendFurnitureKit": {
+			"name": {
+				"eng": "High-End Furniture Assembly Kit",
+				"trans": "高端家具組裝套件"
 			}
 		},
 		"lunarLoot": {
@@ -9236,6 +9833,16 @@
 			"name": {
 				"eng": "Health",
 				"trans": "生命值"
+			}
+		},
+		"healthMultiplier": {
+			"description": {
+				"eng": "Increases maximum health by percentage",
+				"trans": "增加最大生命值的百分比"
+			},
+			"name": {
+				"eng": "Health multiplier",
+				"trans": "生命倍率"
 			}
 		},
 		"healthRegen": {
@@ -12679,6 +13286,10 @@
 				"eng": "faq",
 				"trans": "常見問題"
 			},
+			"furniture": {
+				"eng": "Furniture",
+				"trans": "家具"
+			},
 			"inventory": {
 				"eng": "inventory",
 				"trans": "背包"
@@ -12694,6 +13305,10 @@
 			"marriage": {
 				"eng": "Marriage System",
 				"trans": "婚姻系統"
+			},
+			"pets": {
+				"eng": "Pets",
+				"trans": "寵物"
 			},
 			"profile": {
 				"eng": "profile",

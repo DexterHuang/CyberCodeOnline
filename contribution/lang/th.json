@@ -325,6 +325,16 @@
 				"trans": "เก็บเกี่ยวทรัพยากรของแก็ง"
 			}
 		},
+		"furnitureWorkshop": {
+			"description": {
+				"eng": "Search the coastline for beached cargo containers and salvage materials for furniture crafting.",
+				"trans": "ค้นหาบริเวณชายฝั่งเพื่อหากองคอนเทนเนอร์ทุ่นและวัสดุรื้อฟื้นสำหรับสร้างเฟอร์นิเจอร์"
+			},
+			"name": {
+				"eng": "Salvage Beached Tech Cargo",
+				"trans": "กู้คืนสินค้าทางเทคที่ติดจอดบนชายฝั่ง"
+			}
+		},
 		"gambling1": {
 			"description": {
 				"eng": "Konnichiwa!! ^___^\n        Come play the MEGA Pachinko! With chance to win HUGE EPIC rewards\n        only 5000 btc per session, LIMITED TIME OFFER!!! <3<3<3\n        ##Special thanks for Militech for sponsoring this event##",
@@ -393,6 +403,16 @@
 			"name": {
 				"eng": "Pet Shelter Volunteer Shift",
 				"trans": "อาสาสมัครเลี้ยงสัตว์ในศูนย์พักพิงสัตว์"
+			}
+		},
+		"powerSalvage": {
+			"description": {
+				"eng": "Dismantle abandoned power units to extract energy cells and materials.",
+				"trans": "ถอดอุปกรณ์กำลังไฟที่ทิ้งไปแล้ว เพื่อเก็บเซลล์พลังงานและวัสดุ"
+			},
+			"name": {
+				"eng": "Salvage Power Units",
+				"trans": "กู้คืนหน่วยพลังงาน"
 			}
 		},
 		"reverseEngineer": {
@@ -569,6 +589,10 @@
 				"eng": "Shangri-la",
 				"trans": "ชางกรี-ลา"
 			}
+		},
+		"furniture": {
+			"eng": "Furniture",
+			"trans": "เฟอร์นิเจอร์"
 		},
 		"jukeBox": {
 			"eng": "JukeBox",
@@ -1723,6 +1747,10 @@
 			"eng": "CyberGhost",
 			"trans": "หมอกหลอน"
 		},
+		"donation45": {
+			"eng": "Vice City",
+			"trans": "วิซซีที้"
+		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
 			"trans": "มันฝรั่งไซเบอร์เนติก"
@@ -2358,6 +2386,399 @@
 				"eng": "FRAGMENTS RECEIVED:",
 				"trans": "ไอเทมที่ได้รับแล้ว"
 			}
+		}
+	},
+	"furniture": {
+		"activate": {
+			"eng": "Activate",
+			"trans": "เปิดใช้งาน"
+		},
+		"activateConfirm": {
+			"title": {
+				"eng": "Activate Furniture",
+				"trans": "เปิดใช้เฟอร์นิเจอร์"
+			}
+		},
+		"activateError": {
+			"notEnoughResources": {
+				"eng": "Not enough resources: ${missing}",
+				"trans": "ไม่พอทรัพยากร: ${missing}",
+				"vars": [
+					"missing"
+				]
+			}
+		},
+		"activateSuccess": {
+			"eng": "Successfully activated ${furnitureName}!",
+			"trans": "เปิดใช้งาน ${furnitureName} สำเร็จ!",
+			"vars": [
+				"furnitureName"
+			]
+		},
+		"activeBonuses": {
+			"eng": "Active Bonuses",
+			"trans": "โบนัสที่มีผล"
+		},
+		"assetSynthesizer": {
+			"name": {
+				"eng": "Digital Asset Synthesizer",
+				"trans": "เครื่องสังเคราะห์สินทรัพย์ดิจิทัล"
+			}
+		},
+		"assigning": {
+			"eng": "Assigning furniture...",
+			"trans": "กำหนดเฟอร์นิเจอร์..."
+		},
+		"blockchainHub": {
+			"name": {
+				"eng": "Blockchain Processing Hub",
+				"trans": "ศูนย์ประมวลผลบล็อกเชน"
+			}
+		},
+		"category": {
+			"afk": {
+				"desc": {
+					"eng": "Boost AFK EXP gain",
+					"trans": "เพิ่ม EXP ระหว่าง AFK"
+				}
+			},
+			"combat": {
+				"desc": {
+					"eng": "Increase damage",
+					"trans": "เพิ่มแดเมจ"
+				}
+			},
+			"defense": {
+				"desc": {
+					"eng": "Increase defense",
+					"trans": "เพิ่มความต้านทาน"
+				}
+			},
+			"economy": {
+				"desc": {
+					"eng": "Increase BTC income",
+					"trans": "เพิ่มรายได้ BTC"
+				}
+			},
+			"health": {
+				"desc": {
+					"eng": "Increase max HP",
+					"trans": "เพิ่ม HP สูงสุด"
+				}
+			},
+			"speed": {
+				"desc": {
+					"eng": "Reduce AFK time",
+					"trans": "ลดเวลานั่ง AFK"
+				}
+			},
+			"study": {
+				"desc": {
+					"eng": "Increase EXP gain",
+					"trans": "เพิ่ม EXP ที่ได้"
+				}
+			},
+			"tip": {
+				"eng": "Trade assembly kits for furniture. Stat bonuses stack with each tier.",
+				"trans": "ซื้อขายคีย์ประกอบเฟอร์นิเจอร์ ช่วยเพิ่มโบนัสสถิติ ซึ่งจะสะสมขึ้นทุกระดับ"
+			}
+		},
+		"cellularChamber": {
+			"name": {
+				"eng": "Cellular Enhancement Chamber",
+				"trans": "ห้องเสริมเซลล์"
+			}
+		},
+		"combatChamber": {
+			"name": {
+				"eng": "Combat Simulation Chamber",
+				"trans": "ห้องจำลองการต่อสู้"
+			}
+		},
+		"cost": {
+			"eng": "Cost",
+			"trans": "ราคา"
+		},
+		"craft": {
+			"tip": {
+				"eng": "Craft assembly kits from materials, then use them to unlock furniture pieces.",
+				"trans": "สร้างชุดประกอบจากวัตถุดิบแล้วใช้เพื่อปลดล็อกชิ้นส่วนเฟอร์นิเจอร์"
+			}
+		},
+		"craftSuccess": {
+			"eng": "Successfully crafted ${kitName}!",
+			"trans": "สร้าง ${kitName} สำเร็จ!",
+			"vars": [
+				"kitName"
+			]
+		},
+		"cryptoArray": {
+			"name": {
+				"eng": "Crypto Mining Array",
+				"trans": "อาร์เรย์ขุดคริปโต"
+			}
+		},
+		"defensePanel": {
+			"name": {
+				"eng": "Active Defense Panel",
+				"trans": "แผงป้องกันที่ใช้งานอยู่"
+			}
+		},
+		"duration": {
+			"eng": "Duration",
+			"trans": "ระยะเวลา"
+		},
+		"emptySlot": {
+			"eng": "Empty Slot ${number}",
+			"trans": "ช่องว่าง ${number}",
+			"vars": [
+				"number"
+			]
+		},
+		"error": {
+			"alreadyOwned": {
+				"eng": "You already own this furniture",
+				"trans": "ขออภัย! คุณได้ซื้อเฟอร์นิเจอร์นี้ไปแล้ว"
+			},
+			"alreadySlotted": {
+				"eng": "This furniture is already placed in another slot",
+				"trans": "ชิ้นเฟอร์นิเจอร์นี้ถูกวางไว้ที่ช่องอื่นแล้ว"
+			},
+			"insufficientResources": {
+				"eng": "Insufficient resources to craft",
+				"trans": "ทรัพยากรไม่พอสำหรับสร้าง"
+			},
+			"invalidAmount": {
+				"eng": "Invalid craft amount (must be between 1 and 100)",
+				"trans": "จำนวนการสร้างไม่ถูกต้อง (ต้องระหว่าง 1 ถึง 100)"
+			},
+			"invalidFurniture": {
+				"eng": "Invalid furniture type",
+				"trans": "ชนิดเฟอร์นิเจอร์ไม่ถูกต้อง"
+			},
+			"invalidItem": {
+				"eng": "Invalid item type",
+				"trans": "ชนิดของไอเทมไม่ถูกต้อง"
+			},
+			"invalidRecipe": {
+				"eng": "Invalid furniture kit recipe",
+				"trans": "สูตรเฟอร์นิเจอร์ไม่ถูกต้อง"
+			},
+			"invalidSlot": {
+				"eng": "Invalid slot index",
+				"trans": "ตำแหน่งช่องไม่ถูกต้อง"
+			},
+			"levelRequired": {
+				"eng": "You need to be level ${level} to use this furniture",
+				"trans": "คุณต้องเป็นระดับ ${level} เพื่อเปิดใช้เฟอร์นิเจอร์นี้",
+				"vars": [
+					"level"
+				]
+			},
+			"noApartment": {
+				"eng": "You need to rent an apartment first",
+				"trans": "คุณต้องเช่าอพาร์ตเมนต์ก่อน"
+			},
+			"notEnoughEnergy": {
+				"eng": "Not enough Energy Cells (need ${amount})",
+				"trans": "ไม่พอเซลล์พลังงาน (ต้องการ ${amount})",
+				"vars": [
+					"amount"
+				]
+			},
+			"notInSlot": {
+				"eng": "Furniture must be placed in a slot before activation",
+				"trans": "เฟอร์นิเจอร์ต้องวางไว้ในช่องก่อนเปิดใช้งาน"
+			},
+			"notOwned": {
+				"eng": "You don't own this furniture",
+				"trans": "คุณยังไม่ได้เป็นเจ้าของเฟอร์นิเจอร์นี้"
+			}
+		},
+		"gymStation": {
+			"name": {
+				"eng": "Cyber-Gym Station",
+				"trans": "สถานีฟิตเนสไซเบอร์"
+			}
+		},
+		"holoProjector": {
+			"name": {
+				"eng": "Holo-Training Projector",
+				"trans": "โปรเจคเตอร์โฮโลฝึกซ้อม"
+			}
+		},
+		"holoTerminal": {
+			"name": {
+				"eng": "Holographic Terminal",
+				"trans": "เทอร์มินัลโฮโลแกรม"
+			}
+		},
+		"learningStation": {
+			"name": {
+				"eng": "Automated Learning Station",
+				"trans": "สถานีเรียนอัตโนมัติ"
+			}
+		},
+		"nanoFabricator": {
+			"name": {
+				"eng": "Nano-Armor Fabricator",
+				"trans": "เครื่องสร้างเกราะนาโน"
+			}
+		},
+		"neuralAccelerator": {
+			"name": {
+				"eng": "Neural Accelerator",
+				"trans": "เร่งประสาท"
+			}
+		},
+		"neuralChair": {
+			"name": {
+				"eng": "Ergonomic Neural Chair",
+				"trans": "เก้าอี้ประสาทแบบเออร์กอนอมิค"
+			}
+		},
+		"neuralDesk": {
+			"name": {
+				"eng": "Neural Interface Desk",
+				"trans": "โต๊ะอินเทอร์เฟซประสาท"
+			}
+		},
+		"noApartment": {
+			"eng": "You need to rent an apartment to use furniture bonuses",
+			"trans": "คุณต้องเช่าอพาร์ตเมนต์ก่อนจึงจะใช้โบนัสเฟอร์นิเจอร์ได้"
+		},
+		"noAvailableDesc": {
+			"eng": "You don't have any unassigned furniture. All your furniture is already assigned to slots.",
+			"trans": "คุณไม่มีเฟอร์นิเจอร์ที่ยังไม่ได้จัดสรร ทั้งหมดของคุณได้ถูกกำหนดไว้ในช่องแล้ว"
+		},
+		"owned": {
+			"eng": "Owned",
+			"trans": "มีอยู่"
+		},
+		"quantumPod": {
+			"name": {
+				"eng": "Quantum Learning Pod",
+				"trans": "ห้องเรียนควอนตัม"
+			}
+		},
+		"regenPod": {
+			"name": {
+				"eng": "Bio-Regeneration Pod",
+				"trans": "พอดฟื้นฟูชีวภาพ"
+			}
+		},
+		"remove": {
+			"eng": "Remove",
+			"trans": "ถอดออก"
+		},
+		"removeSlot": {
+			"eng": "Do you want to remove this furniture from the slot?",
+			"trans": "ต้องการเอาเฟอร์นิเจอร์นี้ออกจากช่องหรือเปล่า?"
+		},
+		"removing": {
+			"eng": "Removing furniture...",
+			"trans": "กำลังถอดเฟอร์นิเจอร์…"
+		},
+		"selectFurniture": {
+			"eng": "Select Furniture",
+			"trans": "เลือกเฟอร์นิเจอร์"
+		},
+		"shieldGenerator": {
+			"name": {
+				"eng": "Adaptive Shield Generator",
+				"trans": "เครื่องกำเนิดโล่ปรับตัว"
+			}
+		},
+		"skillEnhancer": {
+			"name": {
+				"eng": "Passive Skill Enhancer",
+				"trans": "ตัวเพิ่มทักษะพาสซีฟ"
+			}
+		},
+		"slotCleared": {
+			"eng": "Successfully cleared slot ${slotIndex}!",
+			"trans": "เคลียร์ช่อง ${slotIndex} เสร็จแล้ว!",
+			"vars": [
+				"slotIndex"
+			]
+		},
+		"slotSuccess": {
+			"eng": "Successfully placed ${furnitureName} in slot ${slotIndex}!",
+			"trans": "สำเร็จ! ติดตั้ง ${furnitureName} ในช่องที่ ${slotIndex} แล้ว!",
+			"vars": [
+				"furnitureName",
+				"slotIndex"
+			]
+		},
+		"slots": {
+			"eng": "Furniture Slots",
+			"trans": "ช่องเฟอร์นิเจอร์"
+		},
+		"stats": {
+			"eng": "Stats",
+			"trans": "สถิติ"
+		},
+		"stimulantDispenser": {
+			"name": {
+				"eng": "Stimulant Dispenser",
+				"trans": "เครื่องแจกสารกระตุ้น"
+			}
+		},
+		"tab": {
+			"craft": {
+				"eng": "Craft Kits",
+				"trans": "ชุดคราฟต์"
+			},
+			"trade": {
+				"eng": "Trade Furniture",
+				"trans": "ซื้อ‑ขาย เฟอร์นิเจอร์"
+			}
+		},
+		"tacticalModule": {
+			"name": {
+				"eng": "Tactical Enhancement Module",
+				"trans": "โมดูลเสริมยุทธวิธี"
+			}
+		},
+		"tapToAssign": {
+			"eng": "Tap to assign",
+			"trans": "แตะเพื่อกำหนด"
+		},
+		"temporalChamber": {
+			"name": {
+				"eng": "Temporal Compression Chamber",
+				"trans": "ห้องบีบอัดเวลา"
+			}
+		},
+		"trade": {
+			"confirm": {
+				"description": {
+					"eng": "This will consume the assembly kit to unlock this furniture piece.",
+					"trans": "จะใช้ชุดประกอบเพื่อปลดล็อกชิ้นส่วนเฟอร์นิเจอร์นี้"
+				},
+				"owned": {
+					"eng": "You already own this furniture piece.",
+					"trans": "คุณมีชิ้นเฟอร์นิเจอร์นี้อยู่แล้ว"
+				},
+				"title": {
+					"eng": "Trade for ${furnitureName}",
+					"trans": "แลก ${furnitureName}",
+					"vars": [
+						"furnitureName"
+					]
+				}
+			},
+			"tip": {
+				"eng": "Select a category to view available furniture. Each category provides different stat bonuses.",
+				"trans": "เลือกหมวดเพื่อดูเฟอร์นิเจอร์ต่าง ๆ ทุกหมวดมีโบนัสสถิติที่แตกต่างกัน"
+			}
+		},
+		"tradeSuccess": {
+			"eng": "Successfully traded for ${furnitureName}!",
+			"trans": "ทำการแลกเปลี่ยนสำเร็จ! คุณได้รับ ${furnitureName}!",
+			"vars": [
+				"furnitureName"
+			]
 		}
 	},
 	"gameEvent": {
@@ -3018,6 +3439,16 @@
 		}
 	},
 	"item": {
+		"advancedFurnitureKit": {
+			"desc": {
+				"eng": "A premium kit for assembling advanced furniture. Trade with the Furniture Vendor for any Tier 2 furniture, or upgrade to high-end kits.",
+				"trans": "ชุดพรีเมี่ยมสำหรับประกอบเฟอร์นิเจอร์ขั้นสูง ลองแลกกับผู้ขายเฟอร์นิเจอร์เพื่อรับเฟอร์นิเจอร์ระดับ 2 หรืออัปเกรดเป็นคิทชั้นสูง"
+			},
+			"name": {
+				"eng": "Advanced Furniture Assembly Kit",
+				"trans": "ชุดประกอบเฟอร์นิเจอร์ขั้นสูง"
+			}
+		},
 		"afkAcceleration": {
 			"description": {
 				"eng": "Broadcasts exploits to all cybernetically connected users, overclocking their synaptic processors thus allowing super-human mental capacity for short period of time.\n        \n        When used, gives Global Buff to all players online, allowing them to complete AFK tasks in +5% speed for 10 minutes (stackable)",
@@ -3071,6 +3502,16 @@
 			"name": {
 				"eng": "AI Core Cluster",
 				"trans": "ai core cluster"
+			}
+		},
+		"alloyFrame": {
+			"desc": {
+				"eng": "Reinforced metal framework component for furniture assembly.",
+				"trans": "ชิ้นส่วนโครงเหล็กอัดแน่นสำหรับประกอบเฟอร์นิเจอร์"
+			},
+			"name": {
+				"eng": "Alloy Frame",
+				"trans": "กรอบโลหะผสม"
 			}
 		},
 		"ammo1": {
@@ -3214,6 +3655,16 @@
 			"name": {
 				"eng": "Quantum Storage Unit",
 				"trans": "หน่วยเก็บข้อมูลควอนตัม"
+			}
+		},
+		"basicFurnitureKit": {
+			"desc": {
+				"eng": "A kit containing materials to assemble basic tier furniture. Can be traded with the Furniture Vendor for any Tier 1 furniture, or combined to create advanced kits.",
+				"trans": "คิทนี้ประกอบด้วยวัสดุสำหรับประกอบเฟอร์นิเจอร์พื้นฐาน สามารถแลกกับพ่อค้าเฟอร์นิเจอร์เพื่อรับเฟอร์นิเจอร์ระดับ Tier 1 หรือรวมเข้ากับคิทอื่น ๆ เพื่อสร้างคิทขั้นสูง"
+			},
+			"name": {
+				"eng": "Basic Furniture Assembly Kit",
+				"trans": "ชุดประกอบเฟอร์นิเจอร์พื้นฐาน"
 			}
 		},
 		"boots": {
@@ -3482,6 +3933,16 @@
 			"name": {
 				"eng": "Dungeon Token",
 				"trans": "โทเค็นดันเจี้ยน"
+			}
+		},
+		"energyCell": {
+			"desc": {
+				"eng": "Miniaturized fusion cell designed to power apartment furniture systems. Extracted from crashed corporate drones along Crystal Sands before cleanup crews arrive.",
+				"trans": "เซลล์ฟิวชันขนาดเล็กที่ออกแบบมาเพื่อให้พลังงานแก่ระบบเฟอร์นิเจอร์ในอพาร์ตเมนต์ ถูกดึงมาจากโดรนบริษัทที่พังบน Crystal Sands ก่อนทีมทำความสะอาดมาถึง"
+			},
+			"name": {
+				"eng": "Compact Energy Cell",
+				"trans": "เซลล์พลังงานกะทัดรัด"
 			}
 		},
 		"epicCacheFragment": {
@@ -3854,6 +4315,16 @@
 				"trans": "หมวก"
 			}
 		},
+		"highendFurnitureKit": {
+			"desc": {
+				"eng": "An elite kit for top-tier furniture fabrication. Trade with the Furniture Vendor for any Tier 3 furniture.",
+				"trans": "ชุดอุปกรณ์ชั้นเลิศสำหรับสร้างเฟอร์นิเจอร์ระดับสูงสุด. แลกกับผู้จำหน่ายเฟอร์นิเจอร์เพื่อรับเฟอร์นิเจอร์ระดับ 3 ใด ๆ ได้เลย"
+			},
+			"name": {
+				"eng": "High-End Furniture Assembly Kit",
+				"trans": "ชุดประกอบเฟอร์นิเจอร์พรีเมียม"
+			}
+		},
 		"keyFragment": {
 			"description": {
 				"eng": "A secret key Fragment used to brute-force a secret key.\n                                Use the Terminal at city center [Hub] to brute-force a ${segmentDisplayName} secret key.\n                                You can acquire each of the 3 required keys in each dungeon (both normal or challenge),\n                                when you acquired 3 keys, you may use Terminal to brute-force (Craft) a key to the next area",
@@ -4169,6 +4640,16 @@
 				"trans": "ตั๋วข้ามด่วน ลดราคา"
 			}
 		},
+		"smartFabric": {
+			"desc": {
+				"eng": "Advanced textile material with embedded circuitry.",
+				"trans": "วัสดุเนื้อผ้าอัจฉริยะที่ฝังวงจรในตัว"
+			},
+			"name": {
+				"eng": "Smart Fabric",
+				"trans": "ผ้าอัจฉริยะ"
+			}
+		},
 		"soda": {
 			"description": {
 				"eng": "A refreshing soda that can be used to increase EXP received in AFK tasks by ${percent}%.\\nThis item can only be used during ${event} event",
@@ -4225,6 +4706,16 @@
 			"name": {
 				"eng": "Synthetic Alloy",
 				"trans": "โลหะ合成"
+			}
+		},
+		"syntheticPolymer": {
+			"desc": {
+				"eng": "High-grade synthetic material used in furniture construction.",
+				"trans": "วัสดุสังเคราะห์ระดับสูงที่ใช้ในการสร้างเฟอร์นิเจอร์"
+			},
+			"name": {
+				"eng": "Synthetic Polymer",
+				"trans": "โพลีเมอร์สังเคราะห์"
 			}
 		},
 		"techScrap": {
@@ -5000,13 +5491,6 @@
 			}
 		},
 		"coast": {
-			"cantEnterError": {
-				"eng": "You need to be at least level ${level} to access the Crystal Sands",
-				"trans": "คุณต้องมีเลเวลอย่างน้อย ${level} ถึงจะเข้าถึง Crystal Sands ได้",
-				"vars": [
-					"level"
-				]
-			},
 			"description": {
 				"eng": "[Coast]\n        The beautiful coast a few kilometers away of downtown. The perfect place to relax and enjoy the sea breeze.",
 				"trans": "[ชายฝั่ง]  \n        ชายฝั่งที่สวยงามอยู่ห่างจากตัวเมืองไม่กี่กิโลเมตร เป็นสถานที่ที่เหมาะสำหรับการพักผ่อนและเพลิดเพลินกับลมทะเล."
@@ -6012,6 +6496,14 @@
 			"eng": "missing",
 			"trans": "สูญหาย"
 		},
+		"missingItem": {
+			"eng": "Missing ${item} ${type}",
+			"trans": "ขาด ${item} ${type}",
+			"vars": [
+				"item",
+				"type"
+			]
+		},
 		"moderators": {
 			"eng": "moderators",
 			"trans": "ผู้ดูแล"
@@ -6500,9 +6992,9 @@
 		"beach": {
 			"defaultLines": {
 				"eng": [
-					"Hey, beautiful. Wanna swap those seashells for something refreshing? I’ve got just the fix",
-					"Look who just jacked in. Trade those seashells with me, and I’ll give you something to remember.",
-					"Thirsty, choom? Trade those seashells for an ice-cold soda pop that’ll knock your socks off!"
+					"Hey, beautiful. Wanna swap those seashells for something refreshing? I've got just the fix",
+					"Look who just jacked in. Trade those seashells with me, and I'll give you something to remember.",
+					"Thirsty, choom? Trade those seashells for an ice-cold soda pop that'll knock your socks off!"
 				],
 				"trans": [
 					"Hey, beautiful. Wanna swap those seashells for something refreshing? I’ve got just the fix",
@@ -6664,6 +7156,44 @@
 				"trans": "สถานีทดสอบ"
 			}
 		},
+		"furnitureVendor": {
+			"defaultLines": {
+				"eng": [
+					"You think furniture is heavy? I install entire apartment rigs between sets at the gym.",
+					"Bring me your kits, choom. I'll have them assembled faster than you can say 'do you even lift?'",
+					"Looking preem today! Almost as good as this quantum learning pod I just installed with one hand.",
+					"These muscles aren't just for show, friend. Watch me carry your entire bedroom set up six flights of stairs.",
+					"Installation instructions? Never heard of them. I just flex and the furniture assembles itself.",
+					"Your apartment will look nova, almost as amazing as these chrome biceps. Almost.",
+					"Need help moving that couch? Please, I bench press cargo containers for fun.",
+					"I could dance circles around these assembly tasks. Want to see my moves?",
+					"Installation is like a dance, choom, and I'm the best dancer in town. Watch me work!",
+					"Some people need tools. I just need rhythm and these guns. *flexes while dancing*",
+					"They say I'm too distracted by dancing to work... but somehow everything gets installed perfectly!"
+				],
+				"trans": [
+					"You think furniture is heavy? I install entire apartment rigs between sets at the gym.",
+					"Bring me your kits, choom. I'll have them assembled faster than you can say 'do you even lift?'",
+					"Looking preem today! Almost as good as this quantum learning pod I just installed with one hand.",
+					"These muscles aren't just for show, friend. Watch me carry your entire bedroom set up six flights of stairs.",
+					"Installation instructions? Never heard of them. I just flex and the furniture assembles itself.",
+					"Your apartment will look nova, almost as amazing as these chrome biceps. Almost.",
+					"Need help moving that couch? Please, I bench press cargo containers for fun.",
+					"I could dance circles around these assembly tasks. Want to see my moves?",
+					"Installation is like a dance, choom, and I'm the best dancer in town. Watch me work!",
+					"Some people need tools. I just need rhythm and these guns. *flexes while dancing*",
+					"They say I'm too distracted by dancing to work... but somehow everything gets installed perfectly!"
+				]
+			},
+			"name": {
+				"eng": "Furnish Hub",
+				"trans": "ศูนย์เฟอร์นิเจอร์"
+			},
+			"npcName": {
+				"eng": "Miles",
+				"trans": "ไมเลส"
+			}
+		},
 		"halloween": {
 			"defaultLines": {
 				"eng": [
@@ -6717,7 +7247,7 @@
 					"Hey choom, ready to chip in for the next 24-hour global party? We're just a few units short!",
 					"Ready to make an impact? Your contribution could launch the biggest party on the grid!",
 					"Looking to start the party? We're pooling funds now for a round-the-clock celebration.",
-					"If you’re aiming to see the city light up, help us fill the party meter. Every bit counts!",
+					"If you're aiming to see the city light up, help us fill the party meter. Every bit counts!",
 					"Hey, choomba! Here to plan another blockbuster event? Let's dive in!"
 				],
 				"trans": [
@@ -7589,6 +8119,31 @@
 				"trans": "ตราสัญลักษณ์"
 			}
 		},
+		"furniture": {
+			"activeFurniture": {
+				"eng": "Active Furniture",
+				"trans": "เฟอร์นิเจอร์ที่กำลังใช้งาน"
+			},
+			"collection": {
+				"eng": "Collection",
+				"trans": "คอลเลกชัน"
+			},
+			"noActiveFurniture": {
+				"eng": "No furniture currently active in slots",
+				"trans": "ยังไม่มีเฟอร์นิเจอร์ใส่ในสล็อตเลย"
+			},
+			"title": {
+				"eng": "Furniture",
+				"trans": "เฟอร์นิเจอร์"
+			},
+			"viewCollection": {
+				"eng": "${count} Owned",
+				"trans": "${count} รายการที่มีอยู่",
+				"vars": [
+					"count"
+				]
+			}
+		},
 		"pets": {
 			"noPets": {
 				"eng": "this player does not own any pets",
@@ -7614,6 +8169,30 @@
 				"eng": "stats",
 				"trans": "สถิติ"
 			}
+		}
+	},
+	"playerFurnitureCollection": {
+		"count": {
+			"eng": "${count} furniture pieces owned",
+			"trans": "${count} ชิ้นเฟอร์นิเจอร์ที่คุณมี",
+			"vars": [
+				"count"
+			]
+		},
+		"empty": {
+			"eng": "No furniture owned yet.",
+			"trans": "ยังไม่มีเฟอร์นิเจอร์"
+		},
+		"slotted": {
+			"eng": "In Slot",
+			"trans": "อยู่ในช่อง"
+		},
+		"title": {
+			"eng": "${playerName}'s Furniture Collection",
+			"trans": "คอลเลกชันเฟอร์นิเจอร์ของ ${playerName}",
+			"vars": [
+				"playerName"
+			]
 		}
 	},
 	"playerStatusDisplay": {
@@ -7980,6 +8559,12 @@
 		}
 	},
 	"recipe": {
+		"advancedFurnitureKit": {
+			"name": {
+				"eng": "Advanced Furniture Assembly Kit",
+				"trans": "ชุดประกอบเฟอร์นิเจอร์ขั้นสูง"
+			}
+		},
 		"aiCoreCluster": {
 			"name": {
 				"eng": "AI Core Cluster",
@@ -8072,6 +8657,12 @@
 				"trans": "หน่วยเก็บข้อมูลควอนตัม"
 			}
 		},
+		"basicFurnitureKit": {
+			"name": {
+				"eng": "Basic Furniture Assembly Kit",
+				"trans": "ชุดประกอบเฟอร์นิเจอร์พื้นฐาน"
+			}
+		},
 		"christmasGift": {
 			"name": {
 				"eng": "Unlock Mysterious Container",
@@ -8104,6 +8695,12 @@
 			"name": {
 				"eng": "Craft Sanctuary Adoption Pass",
 				"trans": "ผ่านการนำเข้าสัตว์เลี้ยงใน Craft Sanctuary"
+			}
+		},
+		"highendFurnitureKit": {
+			"name": {
+				"eng": "High-End Furniture Assembly Kit",
+				"trans": "ชุดประกอบเฟอร์นิเจอร์พรีเมียม"
 			}
 		},
 		"lunarLoot": {
@@ -9032,6 +9629,16 @@
 			"name": {
 				"eng": "Health",
 				"trans": "พลังชีวิต"
+			}
+		},
+		"healthMultiplier": {
+			"description": {
+				"eng": "Increases maximum health by percentage",
+				"trans": "เพิ่มค่า HP สูงสุดตามเปอร์เซ็นต์"
+			},
+			"name": {
+				"eng": "Health multiplier",
+				"trans": "คูณพลังชีวิต"
 			}
 		},
 		"healthRegen": {
@@ -12475,6 +13082,10 @@
 				"eng": "faq",
 				"trans": "คำถามที่พบบ่อย"
 			},
+			"furniture": {
+				"eng": "Furniture",
+				"trans": "เฟอร์นิเจอร์"
+			},
 			"inventory": {
 				"eng": "inventory",
 				"trans": "รายการสิ่งของ"
@@ -12490,6 +13101,10 @@
 			"marriage": {
 				"eng": "Marriage System",
 				"trans": "ระบบสมรส"
+			},
+			"pets": {
+				"eng": "Pets",
+				"trans": "สัตว์เลี้ยง"
 			},
 			"profile": {
 				"eng": "profile",

@@ -325,6 +325,16 @@
 				"trans": "Magtipon ng mapagkukunan ng gang"
 			}
 		},
+		"furnitureWorkshop": {
+			"description": {
+				"eng": "Search the coastline for beached cargo containers and salvage materials for furniture crafting.",
+				"trans": "Maghanap sa baybayin ng mga nakabaling cargo container at matirang materyales para sa paggawa ng muwebles."
+			},
+			"name": {
+				"eng": "Salvage Beached Tech Cargo",
+				"trans": "Kumuha ng kargamento ng teknolohiya na nakatambak sa baybayin"
+			}
+		},
 		"gambling1": {
 			"description": {
 				"eng": "Konnichiwa!! ^___^\n        Come play the MEGA Pachinko! With chance to win HUGE EPIC rewards\n        only 5000 btc per session, LIMITED TIME OFFER!!! <3<3<3\n        ##Special thanks for Militech for sponsoring this event##",
@@ -393,6 +403,16 @@
 			"name": {
 				"eng": "Pet Shelter Volunteer Shift",
 				"trans": "Oras ng Pagiging Volunteer sa Shelter ng mga Alagang Hayop"
+			}
+		},
+		"powerSalvage": {
+			"description": {
+				"eng": "Dismantle abandoned power units to extract energy cells and materials.",
+				"trans": "Buwagin ang mga luma nang walang gamit na power units upang makuha ang selula ng enerhiya at materyales."
+			},
+			"name": {
+				"eng": "Salvage Power Units",
+				"trans": "Kumuha ng mga Yunit ng Kapangyarihan"
 			}
 		},
 		"reverseEngineer": {
@@ -569,6 +589,10 @@
 				"eng": "Shangri-la",
 				"trans": "Shangri-la"
 			}
+		},
+		"furniture": {
+			"eng": "Furniture",
+			"trans": "Kasangkapan"
 		},
 		"jukeBox": {
 			"eng": "JukeBox",
@@ -1723,6 +1747,10 @@
 			"eng": "CyberGhost",
 			"trans": "Nangungulilang Ulap"
 		},
+		"donation45": {
+			"eng": "Vice City",
+			"trans": "Vice City"
+		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
 			"trans": "Cybernetic patatas"
@@ -2358,6 +2386,399 @@
 				"eng": "FRAGMENTS RECEIVED:",
 				"trans": "Nakuha ang Mga Fragment"
 			}
+		}
+	},
+	"furniture": {
+		"activate": {
+			"eng": "Activate",
+			"trans": "Aktibahin"
+		},
+		"activateConfirm": {
+			"title": {
+				"eng": "Activate Furniture",
+				"trans": "Aktibahin ang Muwebles"
+			}
+		},
+		"activateError": {
+			"notEnoughResources": {
+				"eng": "Not enough resources: ${missing}",
+				"trans": "Hindi sapat ang resources: ${missing}",
+				"vars": [
+					"missing"
+				]
+			}
+		},
+		"activateSuccess": {
+			"eng": "Successfully activated ${furnitureName}!",
+			"trans": "Na-activate nang maayos ang ${furnitureName}!",
+			"vars": [
+				"furnitureName"
+			]
+		},
+		"activeBonuses": {
+			"eng": "Active Bonuses",
+			"trans": "Mga Aktibong Bonus"
+		},
+		"assetSynthesizer": {
+			"name": {
+				"eng": "Digital Asset Synthesizer",
+				"trans": "Sintetisador ng Digital na Asset"
+			}
+		},
+		"assigning": {
+			"eng": "Assigning furniture...",
+			"trans": "Ana‑assign ang mga kasangkapan..."
+		},
+		"blockchainHub": {
+			"name": {
+				"eng": "Blockchain Processing Hub",
+				"trans": "Sentro ng Pagproseso ng Blockchain"
+			}
+		},
+		"category": {
+			"afk": {
+				"desc": {
+					"eng": "Boost AFK EXP gain",
+					"trans": "Dagdagan ang EXP na kinikita habang AFK"
+				}
+			},
+			"combat": {
+				"desc": {
+					"eng": "Increase damage",
+					"trans": "Dagdag na Pinsala"
+				}
+			},
+			"defense": {
+				"desc": {
+					"eng": "Increase defense",
+					"trans": "Palakihin ang Depensa"
+				}
+			},
+			"economy": {
+				"desc": {
+					"eng": "Increase BTC income",
+					"trans": "Taasan ang Kita ng BTC"
+				}
+			},
+			"health": {
+				"desc": {
+					"eng": "Increase max HP",
+					"trans": "Palakihin ang maximum na HP"
+				}
+			},
+			"speed": {
+				"desc": {
+					"eng": "Reduce AFK time",
+					"trans": "Bawasan ang oras ng pag‑AFK"
+				}
+			},
+			"study": {
+				"desc": {
+					"eng": "Increase EXP gain",
+					"trans": "Mas mataas ang EXP na nakukuha"
+				}
+			},
+			"tip": {
+				"eng": "Trade assembly kits for furniture. Stat bonuses stack with each tier.",
+				"trans": "Palitan ang mga assembly kit para sa kasangkapan. Nag‑iipon ang stat bonuses sa bawat antas."
+			}
+		},
+		"cellularChamber": {
+			"name": {
+				"eng": "Cellular Enhancement Chamber",
+				"trans": "Kamarang Pagpapahusay ng Selula"
+			}
+		},
+		"combatChamber": {
+			"name": {
+				"eng": "Combat Simulation Chamber",
+				"trans": "Silid‑Simula ng Pakikibaka"
+			}
+		},
+		"cost": {
+			"eng": "Cost",
+			"trans": "Presyo"
+		},
+		"craft": {
+			"tip": {
+				"eng": "Craft assembly kits from materials, then use them to unlock furniture pieces.",
+				"trans": "Gumawa ng mga assembly kit mula sa mga materyales, at gamitin ito para i-unlock ang mga piraso ng furniture."
+			}
+		},
+		"craftSuccess": {
+			"eng": "Successfully crafted ${kitName}!",
+			"trans": "Matagumpay mong ginawa ang ${kitName}!",
+			"vars": [
+				"kitName"
+			]
+		},
+		"cryptoArray": {
+			"name": {
+				"eng": "Crypto Mining Array",
+				"trans": "Koleksyon ng Pagmimina ng Crypto"
+			}
+		},
+		"defensePanel": {
+			"name": {
+				"eng": "Active Defense Panel",
+				"trans": "Panel ng Aktibong Depensa"
+			}
+		},
+		"duration": {
+			"eng": "Duration",
+			"trans": "Tagal"
+		},
+		"emptySlot": {
+			"eng": "Empty Slot ${number}",
+			"trans": "Slot ${number}: Walang laman",
+			"vars": [
+				"number"
+			]
+		},
+		"error": {
+			"alreadyOwned": {
+				"eng": "You already own this furniture",
+				"trans": "Mayroon ka na ng pirasong kasangkapan"
+			},
+			"alreadySlotted": {
+				"eng": "This furniture is already placed in another slot",
+				"trans": "Ang kasangkapang ito ay nakalagay na sa ibang slot"
+			},
+			"insufficientResources": {
+				"eng": "Insufficient resources to craft",
+				"trans": "Hindi sapat ang mga mapagkukunan para mag‑craft"
+			},
+			"invalidAmount": {
+				"eng": "Invalid craft amount (must be between 1 and 100)",
+				"trans": "Maling bilang ng paggawa (kailangan nasa pagitan ng 1 at 100)"
+			},
+			"invalidFurniture": {
+				"eng": "Invalid furniture type",
+				"trans": "Di-wastong uri ng kasangkapan"
+			},
+			"invalidItem": {
+				"eng": "Invalid item type",
+				"trans": "Maling uri ng item"
+			},
+			"invalidRecipe": {
+				"eng": "Invalid furniture kit recipe",
+				"trans": "Maling resipe ng kasangkapan"
+			},
+			"invalidSlot": {
+				"eng": "Invalid slot index",
+				"trans": "Maling indeks ng slot"
+			},
+			"levelRequired": {
+				"eng": "You need to be level ${level} to use this furniture",
+				"trans": "Kailangan mong maging level ${level} para i-activate ang kasangkapang ito",
+				"vars": [
+					"level"
+				]
+			},
+			"noApartment": {
+				"eng": "You need to rent an apartment first",
+				"trans": "Kailangan mong mag-renta ng apartment muna"
+			},
+			"notEnoughEnergy": {
+				"eng": "Not enough Energy Cells (need ${amount})",
+				"trans": "Hindi sapat ang Energy Cells (Kailangan ng ${amount})",
+				"vars": [
+					"amount"
+				]
+			},
+			"notInSlot": {
+				"eng": "Furniture must be placed in a slot before activation",
+				"trans": "Ilagay muna ang furniture sa slot bago ito i-activate"
+			},
+			"notOwned": {
+				"eng": "You don't own this furniture",
+				"trans": "Hindi mo pagmamay-ari ang kasangkapan na ito"
+			}
+		},
+		"gymStation": {
+			"name": {
+				"eng": "Cyber-Gym Station",
+				"trans": "Estasyon ng Cyber-Gym"
+			}
+		},
+		"holoProjector": {
+			"name": {
+				"eng": "Holo-Training Projector",
+				"trans": "Proyektor ng Hologramang Pagsasanay"
+			}
+		},
+		"holoTerminal": {
+			"name": {
+				"eng": "Holographic Terminal",
+				"trans": "Terminal ng Hologram"
+			}
+		},
+		"learningStation": {
+			"name": {
+				"eng": "Automated Learning Station",
+				"trans": "Estasyon ng Awtomatikong Pagkatuto"
+			}
+		},
+		"nanoFabricator": {
+			"name": {
+				"eng": "Nano-Armor Fabricator",
+				"trans": "Tagagawa ng Nano Armor"
+			}
+		},
+		"neuralAccelerator": {
+			"name": {
+				"eng": "Neural Accelerator",
+				"trans": "Pampabilis ng Neural"
+			}
+		},
+		"neuralChair": {
+			"name": {
+				"eng": "Ergonomic Neural Chair",
+				"trans": "Ergonomikong Neural na Silya"
+			}
+		},
+		"neuralDesk": {
+			"name": {
+				"eng": "Neural Interface Desk",
+				"trans": "Mesa ng Nerbiyal na Interface"
+			}
+		},
+		"noApartment": {
+			"eng": "You need to rent an apartment to use furniture bonuses",
+			"trans": "Kailangan mong magrenta ng apartment upang magamit ang mga bonus sa kasangkapan"
+		},
+		"noAvailableDesc": {
+			"eng": "You don't have any unassigned furniture. All your furniture is already assigned to slots.",
+			"trans": "Walang hindi pa naka-assign na kasangkapan. Lahat ng iyong kasangkapan ay naka-assign na sa mga slot."
+		},
+		"owned": {
+			"eng": "Owned",
+			"trans": "May-ari"
+		},
+		"quantumPod": {
+			"name": {
+				"eng": "Quantum Learning Pod",
+				"trans": "Pod ng Quantum na Kaalaman"
+			}
+		},
+		"regenPod": {
+			"name": {
+				"eng": "Bio-Regeneration Pod",
+				"trans": "Biyolohikal na Rehenerasyon na Pod"
+			}
+		},
+		"remove": {
+			"eng": "Remove",
+			"trans": "Alisin"
+		},
+		"removeSlot": {
+			"eng": "Do you want to remove this furniture from the slot?",
+			"trans": "Gusto mo bang alisin ang kasangkapang ito mula sa slot?"
+		},
+		"removing": {
+			"eng": "Removing furniture...",
+			"trans": "Ana-alis ang kasangkapan…"
+		},
+		"selectFurniture": {
+			"eng": "Select Furniture",
+			"trans": "Pumili ng Kasangkapan"
+		},
+		"shieldGenerator": {
+			"name": {
+				"eng": "Adaptive Shield Generator",
+				"trans": "Generator ng Adaptibong Pantanggol"
+			}
+		},
+		"skillEnhancer": {
+			"name": {
+				"eng": "Passive Skill Enhancer",
+				"trans": "Tagapagpataas ng Pasibong Kasanayan"
+			}
+		},
+		"slotCleared": {
+			"eng": "Successfully cleared slot ${slotIndex}!",
+			"trans": "Nakaalis na ang slot ${slotIndex} nang maayos!",
+			"vars": [
+				"slotIndex"
+			]
+		},
+		"slotSuccess": {
+			"eng": "Successfully placed ${furnitureName} in slot ${slotIndex}!",
+			"trans": "Matagumpay na inilagay ang ${furnitureName} sa slot ${slotIndex}!",
+			"vars": [
+				"furnitureName",
+				"slotIndex"
+			]
+		},
+		"slots": {
+			"eng": "Furniture Slots",
+			"trans": "Mga Slot ng Muwebles"
+		},
+		"stats": {
+			"eng": "Stats",
+			"trans": "Estatistika"
+		},
+		"stimulantDispenser": {
+			"name": {
+				"eng": "Stimulant Dispenser",
+				"trans": "Dispenser ng Pampasigla"
+			}
+		},
+		"tab": {
+			"craft": {
+				"eng": "Craft Kits",
+				"trans": "Mga Kit ng Paglikha"
+			},
+			"trade": {
+				"eng": "Trade Furniture",
+				"trans": "Palitan ang Muwebles"
+			}
+		},
+		"tacticalModule": {
+			"name": {
+				"eng": "Tactical Enhancement Module",
+				"trans": "Modyul ng Pinalakasang Taktika"
+			}
+		},
+		"tapToAssign": {
+			"eng": "Tap to assign",
+			"trans": "Pindutin upang itakda"
+		},
+		"temporalChamber": {
+			"name": {
+				"eng": "Temporal Compression Chamber",
+				"trans": "Kamarang Kompresyon ng Panahon"
+			}
+		},
+		"trade": {
+			"confirm": {
+				"description": {
+					"eng": "This will consume the assembly kit to unlock this furniture piece.",
+					"trans": "Kakonsumo nito ang kit ng pag-assemble para i-unlock ang pirasong kasangkapan."
+				},
+				"owned": {
+					"eng": "You already own this furniture piece.",
+					"trans": "Mayroon ka na ng pirasong kasangkapan na ito."
+				},
+				"title": {
+					"eng": "Trade for ${furnitureName}",
+					"trans": "I-trade ang ${furnitureName}",
+					"vars": [
+						"furnitureName"
+					]
+				}
+			},
+			"tip": {
+				"eng": "Select a category to view available furniture. Each category provides different stat bonuses.",
+				"trans": "Pumili ng kategorya upang makita ang available na kasangkapan. Ang bawat kategorya ay nag-aalok ng iba't ibang bonus sa stats."
+			}
+		},
+		"tradeSuccess": {
+			"eng": "Successfully traded for ${furnitureName}!",
+			"trans": "Matagumpay mong na-trade ang ${furnitureName}!",
+			"vars": [
+				"furnitureName"
+			]
 		}
 	},
 	"gameEvent": {
@@ -3018,6 +3439,16 @@
 		}
 	},
 	"item": {
+		"advancedFurnitureKit": {
+			"desc": {
+				"eng": "A premium kit for assembling advanced furniture. Trade with the Furniture Vendor for any Tier 2 furniture, or upgrade to high-end kits.",
+				"trans": "Isang premium na kit para sa pagsasaayos ng mga makabagong kasangkapan. Makipagpalitan sa Furniture Vendor para sa anumang Tier 2 na kasangkapan, o i-upgrade ito sa mga high‑end kit."
+			},
+			"name": {
+				"eng": "Advanced Furniture Assembly Kit",
+				"trans": "Kit ng Advanced na Pagsasama ng Muwebles"
+			}
+		},
 		"afkAcceleration": {
 			"description": {
 				"eng": "Broadcasts exploits to all cybernetically connected users, overclocking their synaptic processors thus allowing super-human mental capacity for short period of time.\n        \n        When used, gives Global Buff to all players online, allowing them to complete AFK tasks in +5% speed for 10 minutes (stackable)",
@@ -3071,6 +3502,16 @@
 			"name": {
 				"eng": "AI Core Cluster",
 				"trans": "AI Core Cluster"
+			}
+		},
+		"alloyFrame": {
+			"desc": {
+				"eng": "Reinforced metal framework component for furniture assembly.",
+				"trans": "Pinalakas na balangkas ng metal para sa pagbuo ng kasangkapan."
+			},
+			"name": {
+				"eng": "Alloy Frame",
+				"trans": "Balangkas ng Halong Metal"
 			}
 		},
 		"ammo1": {
@@ -3214,6 +3655,16 @@
 			"name": {
 				"eng": "Quantum Storage Unit",
 				"trans": "Yunit ng Quantum na Imbakan"
+			}
+		},
+		"basicFurnitureKit": {
+			"desc": {
+				"eng": "A kit containing materials to assemble basic tier furniture. Can be traded with the Furniture Vendor for any Tier 1 furniture, or combined to create advanced kits.",
+				"trans": "Isang kit na may mga materyales para magbuo ng basic tier na kasangkapan. Maaari itong ipagpalit sa Furniture Vendor para sa anumang Tier 1 na kasangkapan, o pagsamahin upang makabuo ng mas advanced na kits."
+			},
+			"name": {
+				"eng": "Basic Furniture Assembly Kit",
+				"trans": "Pangunahing Kiti para sa Paggawa ng Muwebles"
 			}
 		},
 		"boots": {
@@ -3482,6 +3933,16 @@
 			"name": {
 				"eng": "Dungeon Token",
 				"trans": "Dungeon Token"
+			}
+		},
+		"energyCell": {
+			"desc": {
+				"eng": "Miniaturized fusion cell designed to power apartment furniture systems. Extracted from crashed corporate drones along Crystal Sands before cleanup crews arrive.",
+				"trans": "Paliit na selula ng fusion na dinisenyo para magbigay kuryente sa mga kasangkapan ng apartment. Kinuha mula sa mga nahulog na corporate drone sa Crystal Sands bago dumating ang mga crew ng paglilinis."
+			},
+			"name": {
+				"eng": "Compact Energy Cell",
+				"trans": "Kompaktong Selda ng Enerhiya"
 			}
 		},
 		"epicCacheFragment": {
@@ -3854,6 +4315,16 @@
 				"trans": "helmet"
 			}
 		},
+		"highendFurnitureKit": {
+			"desc": {
+				"eng": "An elite kit for top-tier furniture fabrication. Trade with the Furniture Vendor for any Tier 3 furniture.",
+				"trans": "Kit na elite para sa pagbuo ng mga kasangkapang top‑tier. Makipagpalitan sa Furniture Vendor para makuha ang anumang Tier 3 furniture."
+			},
+			"name": {
+				"eng": "High-End Furniture Assembly Kit",
+				"trans": "Kits ng Pagsasaayos ng High-End na Muwebles"
+			}
+		},
 		"keyFragment": {
 			"description": {
 				"eng": "A secret key Fragment used to brute-force a secret key.\n                                Use the Terminal at city center [Hub] to brute-force a ${segmentDisplayName} secret key.\n                                You can acquire each of the 3 required keys in each dungeon (both normal or challenge),\n                                when you acquired 3 keys, you may use Terminal to brute-force (Craft) a key to the next area",
@@ -4169,6 +4640,16 @@
 				"trans": "Tiket-Diskwento sa Laktaw"
 			}
 		},
+		"smartFabric": {
+			"desc": {
+				"eng": "Advanced textile material with embedded circuitry.",
+				"trans": "Makabagong tela na may naka-embed na sirkits."
+			},
+			"name": {
+				"eng": "Smart Fabric",
+				"trans": "Matalinong Tela"
+			}
+		},
 		"soda": {
 			"description": {
 				"eng": "A refreshing soda that can be used to increase EXP received in AFK tasks by ${percent}%.\\nThis item can only be used during ${event} event",
@@ -4225,6 +4706,16 @@
 			"name": {
 				"eng": "Synthetic Alloy",
 				"trans": "Sintetikong Alloy"
+			}
+		},
+		"syntheticPolymer": {
+			"desc": {
+				"eng": "High-grade synthetic material used in furniture construction.",
+				"trans": "Mataas na kalidad na synthetikong materyal na ginagamit sa paggawa ng mga kasangkapan."
+			},
+			"name": {
+				"eng": "Synthetic Polymer",
+				"trans": "Sintetikong Polimer"
 			}
 		},
 		"techScrap": {
@@ -5000,13 +5491,6 @@
 			}
 		},
 		"coast": {
-			"cantEnterError": {
-				"eng": "You need to be at least level ${level} to access the Crystal Sands",
-				"trans": "Kailangan mong maging hindi bababa sa level ${level} para ma-access ang Crystal Sands",
-				"vars": [
-					"level"
-				]
-			},
 			"description": {
 				"eng": "[Coast]\n        The beautiful coast a few kilometers away of downtown. The perfect place to relax and enjoy the sea breeze.",
 				"trans": "[Baybayin]  \n        Ang magandang baybayin na ilang kilometro ang layo mula sa downtown. Ang perpektong lugar para magpahinga at tamasahin ang simoy ng dagat."
@@ -6012,6 +6496,14 @@
 			"eng": "missing",
 			"trans": "Nawawala"
 		},
+		"missingItem": {
+			"eng": "Missing ${item} ${type}",
+			"trans": "Nawawala ang ${item} ${type}",
+			"vars": [
+				"item",
+				"type"
+			]
+		},
 		"moderators": {
 			"eng": "moderators",
 			"trans": "Mga moderator"
@@ -6521,9 +7013,9 @@
 		"beach": {
 			"defaultLines": {
 				"eng": [
-					"Hey, beautiful. Wanna swap those seashells for something refreshing? I’ve got just the fix",
-					"Look who just jacked in. Trade those seashells with me, and I’ll give you something to remember.",
-					"Thirsty, choom? Trade those seashells for an ice-cold soda pop that’ll knock your socks off!"
+					"Hey, beautiful. Wanna swap those seashells for something refreshing? I've got just the fix",
+					"Look who just jacked in. Trade those seashells with me, and I'll give you something to remember.",
+					"Thirsty, choom? Trade those seashells for an ice-cold soda pop that'll knock your socks off!"
 				],
 				"trans": [
 					"Hey, beautiful. Wanna swap those seashells for something refreshing? I’ve got just the fix",
@@ -6715,6 +7207,44 @@
 				"trans": "Calibration Station"
 			}
 		},
+		"furnitureVendor": {
+			"defaultLines": {
+				"eng": [
+					"You think furniture is heavy? I install entire apartment rigs between sets at the gym.",
+					"Bring me your kits, choom. I'll have them assembled faster than you can say 'do you even lift?'",
+					"Looking preem today! Almost as good as this quantum learning pod I just installed with one hand.",
+					"These muscles aren't just for show, friend. Watch me carry your entire bedroom set up six flights of stairs.",
+					"Installation instructions? Never heard of them. I just flex and the furniture assembles itself.",
+					"Your apartment will look nova, almost as amazing as these chrome biceps. Almost.",
+					"Need help moving that couch? Please, I bench press cargo containers for fun.",
+					"I could dance circles around these assembly tasks. Want to see my moves?",
+					"Installation is like a dance, choom, and I'm the best dancer in town. Watch me work!",
+					"Some people need tools. I just need rhythm and these guns. *flexes while dancing*",
+					"They say I'm too distracted by dancing to work... but somehow everything gets installed perfectly!"
+				],
+				"trans": [
+					"You think furniture is heavy? I install entire apartment rigs between sets at the gym.",
+					"Bring me your kits, choom. I'll have them assembled faster than you can say 'do you even lift?'",
+					"Looking preem today! Almost as good as this quantum learning pod I just installed with one hand.",
+					"These muscles aren't just for show, friend. Watch me carry your entire bedroom set up six flights of stairs.",
+					"Installation instructions? Never heard of them. I just flex and the furniture assembles itself.",
+					"Your apartment will look nova, almost as amazing as these chrome biceps. Almost.",
+					"Need help moving that couch? Please, I bench press cargo containers for fun.",
+					"I could dance circles around these assembly tasks. Want to see my moves?",
+					"Installation is like a dance, choom, and I'm the best dancer in town. Watch me work!",
+					"Some people need tools. I just need rhythm and these guns. *flexes while dancing*",
+					"They say I'm too distracted by dancing to work... but somehow everything gets installed perfectly!"
+				]
+			},
+			"name": {
+				"eng": "Furnish Hub",
+				"trans": "Sentro ng Muwebles"
+			},
+			"npcName": {
+				"eng": "Miles",
+				"trans": "Miles"
+			}
+		},
 		"halloween": {
 			"defaultLines": {
 				"eng": [
@@ -6768,7 +7298,7 @@
 					"Hey choom, ready to chip in for the next 24-hour global party? We're just a few units short!",
 					"Ready to make an impact? Your contribution could launch the biggest party on the grid!",
 					"Looking to start the party? We're pooling funds now for a round-the-clock celebration.",
-					"If you’re aiming to see the city light up, help us fill the party meter. Every bit counts!",
+					"If you're aiming to see the city light up, help us fill the party meter. Every bit counts!",
 					"Hey, choomba! Here to plan another blockbuster event? Let's dive in!"
 				],
 				"trans": [
@@ -7802,6 +8332,31 @@
 				"trans": "Mga Sagisag"
 			}
 		},
+		"furniture": {
+			"activeFurniture": {
+				"eng": "Active Furniture",
+				"trans": "Aktibong Muwebles"
+			},
+			"collection": {
+				"eng": "Collection",
+				"trans": "Koleksyon"
+			},
+			"noActiveFurniture": {
+				"eng": "No furniture currently active in slots",
+				"trans": "Walang aktibong furniture sa mga slot"
+			},
+			"title": {
+				"eng": "Furniture",
+				"trans": "Muwebles"
+			},
+			"viewCollection": {
+				"eng": "${count} Owned",
+				"trans": "May ${count}",
+				"vars": [
+					"count"
+				]
+			}
+		},
 		"pets": {
 			"noPets": {
 				"eng": "this player does not own any pets",
@@ -7827,6 +8382,30 @@
 				"eng": "stats",
 				"trans": "estadistika"
 			}
+		}
+	},
+	"playerFurnitureCollection": {
+		"count": {
+			"eng": "${count} furniture pieces owned",
+			"trans": "May ${count} pirasong kasangkapan",
+			"vars": [
+				"count"
+			]
+		},
+		"empty": {
+			"eng": "No furniture owned yet.",
+			"trans": "Wala ka pang furniture."
+		},
+		"slotted": {
+			"eng": "In Slot",
+			"trans": "Naka-slot"
+		},
+		"title": {
+			"eng": "${playerName}'s Furniture Collection",
+			"trans": "Koleksyon ng Muwebles ni ${playerName}",
+			"vars": [
+				"playerName"
+			]
 		}
 	},
 	"playerStatusDisplay": {
@@ -8193,6 +8772,12 @@
 		}
 	},
 	"recipe": {
+		"advancedFurnitureKit": {
+			"name": {
+				"eng": "Advanced Furniture Assembly Kit",
+				"trans": "Kit ng Advanced na Pagsasama ng Muwebles"
+			}
+		},
 		"aiCoreCluster": {
 			"name": {
 				"eng": "AI Core Cluster",
@@ -8285,6 +8870,12 @@
 				"trans": "Yunit ng Quantum na Imbakan"
 			}
 		},
+		"basicFurnitureKit": {
+			"name": {
+				"eng": "Basic Furniture Assembly Kit",
+				"trans": "Pangunahing Kiti para sa Paggawa ng Muwebles"
+			}
+		},
 		"christmasGift": {
 			"name": {
 				"eng": "Unlock Mysterious Container",
@@ -8317,6 +8908,12 @@
 			"name": {
 				"eng": "Craft Sanctuary Adoption Pass",
 				"trans": "Gumawa ng Adoption Pass sa Craft Sanctuary"
+			}
+		},
+		"highendFurnitureKit": {
+			"name": {
+				"eng": "High-End Furniture Assembly Kit",
+				"trans": "Kits ng Pagsasaayos ng High-End na Muwebles"
 			}
 		},
 		"lunarLoot": {
@@ -9245,6 +9842,16 @@
 			"name": {
 				"eng": "Health",
 				"trans": "Kalusugan"
+			}
+		},
+		"healthMultiplier": {
+			"description": {
+				"eng": "Increases maximum health by percentage",
+				"trans": "Palakihin ang pinakamataas na kalusugan ng %"
+			},
+			"name": {
+				"eng": "Health multiplier",
+				"trans": "Multiplikador ng Kalusugan"
 			}
 		},
 		"healthRegen": {
@@ -12688,6 +13295,10 @@
 				"eng": "faq",
 				"trans": "FAQ"
 			},
+			"furniture": {
+				"eng": "Furniture",
+				"trans": "Kasangkapan"
+			},
 			"inventory": {
 				"eng": "inventory",
 				"trans": "imbentaryo"
@@ -12703,6 +13314,10 @@
 			"marriage": {
 				"eng": "Marriage System",
 				"trans": "Sistemang Kasal"
+			},
+			"pets": {
+				"eng": "Pets",
+				"trans": "Mga Alaga"
 			},
 			"profile": {
 				"eng": "profile",
