@@ -27,6 +27,8 @@ Please send your feedback to my Discord or email me directly.
   - Gather furniture materials from `Crystal Sands` AFK tasks (`Salvage Beached Tech Cargo` and `Salvage Power Units`)
   - For detailed information, please refer to the furniture tutorial page
 
+**PLEASE NOTE: As this is a new feature, things may change in the future as we gather more feedback, Please feel free to provide your feedback to my Discord DM or email me directly at ching.huang.dexter@gmail.com.**
+
 - **Apartment Updates**:
 
   - Reworked apartment UI for better user experience
