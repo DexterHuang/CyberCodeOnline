@@ -16,6 +16,29 @@ Please send your feedback to my Discord or email me directly.
 
 ## Updates
 
+### 0.1884
+
+- **Furniture System** (Level 300+ required):
+
+  - Added late-game collectible furniture system that provides minor stat bonuses to players
+  - Craft furniture using progressive Assembly Kit system (Basic → Advanced → High-End)
+  - Trade Assembly Kits with `Miles` the Furniture Vendor NPC at `Crystal Sands` for specific furniture
+  - Activate furniture using `Energy Cells` obtained from AFK tasks
+  - Gather furniture materials from `Crystal Sands` AFK tasks (`Salvage Beached Tech Cargo` and `Salvage Power Units`)
+  - For detailed information, please refer to the furniture tutorial page
+
+- **Apartment Updates**:
+
+  - Reworked apartment UI for better user experience
+  - Added new apartment tier with more furniture slots
+
+- **Thanksgiving Event** (11/01 to 11/30):
+  - Scavenging and AFK bot farm will drop `Roasted Turkey` rarely
+  - Consuming `Roasted Turkey` gives +20% AFK EXP boost for 20 minutes
+  - Party contribution receives up to 10% discount for early contributors
+  - During the event, top-ups will receive bonus `Rare Synaptic Acceleration Transmitter`
+  - Event items will expire when event ends
+
 ### 0.1883
 
 - I _May_ have found the issue that causes in very rare cases some enemy has abnormally high damage and one-shots players in dungeon. Please let me know if any of you encounter the same issue again, hopefully we have fixed the problem now 🤞
