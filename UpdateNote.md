@@ -20,7 +20,7 @@ Please send your feedback to my Discord or email me directly.
 
 - **Furniture System** (Level 300+ required):
 
-  - Added late-game collectible furniture system that provides minor stat bonuses to players
+  - Added late-game collectible furniture system that additionally provides minor stat bonuses to players when activated
   - Craft furniture using progressive Assembly Kit system (Basic → Advanced → High-End)
   - Trade Assembly Kits with `Miles` the Furniture Vendor NPC at `Crystal Sands` for specific furniture
   - Activate furniture using `Energy Cells` obtained from AFK tasks
@@ -32,12 +32,12 @@ Please send your feedback to my Discord or email me directly.
   - Reworked apartment UI for better user experience
   - Added new apartment tier with more furniture slots
 
-- **Thanksgiving Event** (11/01 to 11/30):
+- **Thanksgiving Event**
   - Scavenging and AFK bot farm will drop `Roasted Turkey` rarely
   - Consuming `Roasted Turkey` gives +20% AFK EXP boost for 20 minutes
   - Party contribution receives up to 10% discount for early contributors
   - During the event, top-ups will receive bonus `Rare Synaptic Acceleration Transmitter`
-  - Event items will expire when event ends
+  - **ALL** Event items will expire when event ends
 
 ### 0.1883
 
