@@ -20,7 +20,7 @@ Please send your feedback to my Discord or email me directly.
 
 - **Furniture System** (Level 300+ required):
 
-  - Added late-game collectible furniture system that additionally provides minor stat bonuses to players when activated
+  - Added late-game collectible furniture system that additionally provides minor stat bonuses to players when activated, **furniture stats stacks even in the same category**
   - Craft furniture using progressive Assembly Kit system (Basic → Advanced → High-End)
   - Trade Assembly Kits with `Miles` the Furniture Vendor NPC at `Crystal Sands` for specific furniture
   - Activate furniture using `Energy Cells` obtained from AFK tasks
