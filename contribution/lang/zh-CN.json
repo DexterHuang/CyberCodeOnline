@@ -590,6 +590,16 @@
 				"trans": "香格里拉"
 			}
 		},
+		"deleteNoteConfirm": {
+			"eng": "Delete this note?",
+			"trans": "删除此笔记？"
+		},
+		"error": {
+			"noApartment": {
+				"eng": "You don't have an apartment",
+				"trans": "你还没拿到套房"
+			}
+		},
 		"furniture": {
 			"eng": "Furniture",
 			"trans": "家具"
@@ -598,13 +608,68 @@
 			"eng": "Furniture Slots",
 			"trans": "家具位"
 		},
+		"getStickerHint": {
+			"eng": "Friendship Stickers can be obtained from quests and events.",
+			"trans": "友谊贴纸可通过完成任务和参与活动获得。"
+		},
 		"jukeBox": {
 			"eng": "JukeBox",
 			"trans": "点歌台"
 		},
+		"leaveNote": {
+			"eng": "Leave a Note",
+			"trans": "写便条"
+		},
+		"noNotes": {
+			"eng": "NO DATA FOUND // BE THE FIRST",
+			"trans": "暂无数据 // 首位作者等你"
+		},
+		"noSticker": {
+			"eng": "You need a Friendship Sticker to post a note!",
+			"trans": "你需要一张友情贴纸才能发布留言！"
+		},
+		"notePlaceholder": {
+			"eng": "Write something nice... (Max 128 chars)",
+			"trans": "请写一句暖心的话……（最多128字）"
+		},
 		"petSlots": {
 			"eng": "Pet Slots",
 			"trans": "宠物槽"
+		},
+		"post": {
+			"eng": "Post",
+			"trans": "发布"
+		},
+		"postNote": {
+			"error": {
+				"contentTooLong": {
+					"eng": "Content too long or empty",
+					"trans": "内容太长或为空"
+				},
+				"negativeSentiment": {
+					"eng": "Message is flagged by AI, only friendly content is allowed.",
+					"trans": "消息已被 AI 标记，只允许友好内容。"
+				},
+				"noItem": {
+					"eng": "You need a ${itemName} to leave a note. ${itemName} can be obtained from quests and events.",
+					"trans": "要留下便笺，先得拿到一张${itemName}！只需完成任务或参与事件就能获得。",
+					"vars": [
+						"itemName"
+					]
+				},
+				"notFriends": {
+					"eng": "You must be friends with the owner to post",
+					"trans": "要想在這裡發帖，你得先和房主加個好友。"
+				},
+				"ownerNotFound": {
+					"eng": "Owner not found",
+					"trans": "未找到房东"
+				},
+				"restricted": {
+					"eng": "This player has disabled their wall",
+					"trans": "此玩家已禁用他们的墙。"
+				}
+			}
 		},
 		"rent": {
 			"paidMail": {
@@ -627,6 +692,17 @@
 				"rentalDueDate"
 			]
 		},
+		"stickerCount": {
+			"eng": "You have: ${count}",
+			"trans": "你拥有：${count}",
+			"vars": [
+				"count"
+			]
+		},
+		"stickerRequired": {
+			"eng": "Friendship Sticker Required",
+			"trans": "需要好友贴纸"
+		},
 		"terminateLease": {
 			"eng": "Terminate Lease",
 			"trans": "终止租约"
@@ -645,6 +721,14 @@
 		"viewPets": {
 			"eng": "View Pets",
 			"trans": "查看宠物"
+		},
+		"wall": {
+			"eng": "Apartment Wall",
+			"trans": "公寓墙壁"
+		},
+		"wallDisabled": {
+			"eng": "WALL // DISABLED",
+			"trans": "墙 // 已停用"
 		}
 	},
 	"apartmentMarket": {
@@ -1213,6 +1297,336 @@
 			"trans": "圣诞节活动！"
 		}
 	},
+	"christmasWorkshop": {
+		"button": {
+			"subtitle": {
+				"eng": "SORT GIFTS & EARN REWARDS",
+				"trans": "分类礼物，赚取奖励"
+			},
+			"title": {
+				"eng": "CYBERSANTA'S WORKSHOP",
+				"trans": "赛博圣诞工坊"
+			}
+		},
+		"commentary": {
+			"combo1": {
+				"eng": "Efficiency Spiking!",
+				"trans": "效率飙升！"
+			},
+			"combo2": {
+				"eng": "Overclocked!",
+				"trans": "已超频！"
+			},
+			"combo3": {
+				"eng": "MAXIMUM VELOCITY!",
+				"trans": "极限速度！"
+			},
+			"combo4": {
+				"eng": "SYSTEMS CRITICAL!",
+				"trans": "系统崩溃！"
+			},
+			"combo5": {
+				"eng": "GODLIKE PRECISION!",
+				"trans": "神级精准！"
+			},
+			"finalWin1": {
+				"eng": "Mission Accomplished! Maximum Joy!",
+				"trans": "大功告成！最大喜悦！"
+			},
+			"finalWin2": {
+				"eng": "All systems nominal! You are a legend!",
+				"trans": "系统一切正常！你真是个传奇！"
+			},
+			"finalWin3": {
+				"eng": "Perfect execution! Happy Holidays!",
+				"trans": "完美执行！圣诞快乐！"
+			},
+			"positive1": {
+				"eng": "Optimal!",
+				"trans": "最佳！"
+			},
+			"positive2": {
+				"eng": "Precise!",
+				"trans": "精准！"
+			},
+			"positive3": {
+				"eng": "Confirmed!",
+				"trans": "已确认！"
+			},
+			"positive4": {
+				"eng": "Smooth!",
+				"trans": "流畅！"
+			},
+			"positive5": {
+				"eng": "Efficient!",
+				"trans": "高效！"
+			},
+			"positive6": {
+				"eng": "Target hit!",
+				"trans": "命中目标！"
+			},
+			"positive7": {
+				"eng": "Nice lock!",
+				"trans": "锁到位！"
+			},
+			"stageComplete1": {
+				"eng": "Batch complete! Efficiency rising!",
+				"trans": "一批搞定！效率飙升！"
+			},
+			"stageComplete2": {
+				"eng": "Excellent processing! Next wave!",
+				"trans": "干得漂亮！下一波来袭！"
+			},
+			"stageComplete3": {
+				"eng": "Protocol adherence: 100%!",
+				"trans": "协议完全遵守，满分100%！"
+			},
+			"start1": {
+				"eng": "Protocol initiated. Sort incoming!",
+				"trans": "协议已启动，快来分拣吧！"
+			},
+			"start2": {
+				"eng": "Systems online. Let's get sorting!",
+				"trans": "系统已上线。让我们开始整理吧！"
+			},
+			"start3": {
+				"eng": "Workshop efficiency is in your hands!",
+				"trans": "工坊效能，完全由你决定！"
+			},
+			"wrongSort1": {
+				"eng": "Error! Incorrect destination!",
+				"trans": "错误！目的地不正确！"
+			},
+			"wrongSort2": {
+				"eng": "System alert! Wrong bin!",
+				"trans": "系统提示：放错盒子啦！"
+			},
+			"wrongSort3": {
+				"eng": "Recalibrate your sensors!",
+				"trans": "重新校准你的传感器！"
+			}
+		},
+		"countdown": {
+			"sortGifts": {
+				"eng": "TARGET: ${count} GIFTS",
+				"trans": "目标：${count} 个礼物",
+				"vars": [
+					"count"
+				]
+			},
+			"stage": {
+				"eng": "STAGE ${stage}",
+				"trans": "第${stage}阶段",
+				"vars": [
+					"stage"
+				]
+			}
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The Christmas event has ended!",
+				"trans": "圣诞活动已结束！"
+			},
+			"noPass": {
+				"eng": "You need a Santa's Workshop Pass to play! Find them in dungeon chests or from AFK farming.",
+				"trans": "想玩就得拿到圣诞工坊通行证啦！它们藏在地牢宝箱里，也能靠挂机赚来。"
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "Close",
+				"trans": "关闭"
+			},
+			"message": {
+				"eng": "The game encountered an error. Don't worry - your Workshop Pass was not consumed!",
+				"trans": "游戏报错啦！别慌，你的工作坊通行证还在！"
+			},
+			"title": {
+				"eng": "Game Error",
+				"trans": "游戏错误"
+			}
+		},
+		"game": {
+			"combo": {
+				"eng": "Efficiency",
+				"trans": "效率"
+			},
+			"stage": {
+				"eng": "Stage ${stage}/5",
+				"trans": "第${stage}关/共5关",
+				"vars": [
+					"stage"
+				]
+			},
+			"timeLabel": {
+				"eng": "Time Remaining",
+				"trans": "剩余时间"
+			},
+			"waiting": {
+				"eng": "AWAITING INPUT...",
+				"trans": "等待输入..."
+			}
+		},
+		"gameOver": {
+			"close": {
+				"eng": "CLOSE TERMINAL",
+				"trans": "关闭终端"
+			},
+			"message": {
+				"eng": "ERROR AT STAGE ${stage}",
+				"trans": "在第 ${stage} 阶段发生错误",
+				"vars": [
+					"stage"
+				]
+			},
+			"noProgress": {
+				"eng": "No stages completed. Pass integrity maintained.",
+				"trans": "还没达成任何阶段，通行证依旧完好无损。"
+			},
+			"progress": {
+				"eng": "Protocol interrupted. ${completed} stages secured.",
+				"trans": "协议被打断，已完成 ${completed} 难关并安全封存。",
+				"vars": [
+					"completed"
+				]
+			},
+			"title": {
+				"eng": "SYSTEM FAILURE",
+				"trans": "系统故障"
+			}
+		},
+		"giftType": {
+			"clothes": {
+				"eng": "Clothes",
+				"trans": "服装"
+			},
+			"food": {
+				"eng": "Food",
+				"trans": "食物"
+			},
+			"tech": {
+				"eng": "Tech",
+				"trans": "科技"
+			},
+			"toy": {
+				"eng": "Toys",
+				"trans": "玩具"
+			}
+		},
+		"intro": {
+			"eventEnded": {
+				"eng": "Event Ended",
+				"trans": "活动已结束"
+			},
+			"eventInactive": {
+				"eng": "Event is not currently active",
+				"trans": "当前活动尚未激活"
+			},
+			"howToGet": {
+				"eng": "Find passes in dungeon chests or from AFK farming during the event!",
+				"trans": "在活动期间，您可以在地下城宝箱里找到通行证，也可通过离线挂机收集。"
+			},
+			"howToPlay": {
+				"eng": "How to Play",
+				"trans": "玩法介绍"
+			},
+			"needPass": {
+				"eng": "Need Workshop Pass",
+				"trans": "需要工作坊通行证"
+			},
+			"passesOwned": {
+				"eng": "Passes Owned:",
+				"trans": "已拥有的通行证："
+			},
+			"rule1": {
+				"eng": "• Swipe gifts to the correct sorting zones",
+				"trans": "• 将礼物滑动到正确的分类区"
+			},
+			"rule2": {
+				"eng": "• Complete 5 progressive stages",
+				"trans": "通关5个递进关卡"
+			},
+			"rule3": {
+				"eng": "• Each stage gets faster with more gifts",
+				"trans": "` 标签。\n\n<translation>• 每收集一份礼物，关卡就会加速。"
+			},
+			"rule4": {
+				"eng": "• Wrong swipes cost you 4 seconds",
+				"trans": "• 滑错一次扣四秒"
+			},
+			"rule5": {
+				"eng": "• Complete all stages for maximum rewards!",
+				"trans": "• 完成所有阶段，获取最高奖励！"
+			},
+			"startButton": {
+				"eng": "Start Workshop",
+				"trans": "开始工作坊"
+			},
+			"title": {
+				"eng": "Welcome to Santa's Workshop",
+				"trans": "欢迎来到圣诞老人的工作坊"
+			}
+		},
+		"loading": {
+			"message": {
+				"eng": "Preparing gifts for sorting...",
+				"trans": "正在为礼物进行分拣…"
+			},
+			"title": {
+				"eng": "Loading Workshop...",
+				"trans": "正在加载工作坊…"
+			}
+		},
+		"pleaseWait": {
+			"eng": "ESTABLISHING CONNECTION",
+			"trans": "正在建立连接"
+		},
+		"processing": {
+			"eng": "SYNCHRONIZING...",
+			"trans": "正在同步…"
+		},
+		"results": {
+			"close": {
+				"eng": "CLOSE REPORT",
+				"trans": "关闭报告"
+			},
+			"goodJob": {
+				"eng": "Good effort. Re-engage for maximum rewards.",
+				"trans": "做得挺好！再来一次，拿更多奖励吧！"
+			},
+			"rewards": {
+				"eng": "REWARDS ACQUIRED",
+				"trans": "已获取奖励"
+			}
+		},
+		"stageComplete": {
+			"continue": {
+				"eng": "INITIATE STAGE ${next}",
+				"trans": "进入${next}",
+				"vars": [
+					"next"
+				]
+			},
+			"nextStage": {
+				"eng": "Efficiency ratings optimal. Initializing Stage ${next} sequence...",
+				"trans": "效率满格！正在启动第${next}阶段序列…",
+				"vars": [
+					"next"
+				]
+			},
+			"stage": {
+				"eng": "STAGE ${stage} CLEARED",
+				"trans": "第${stage}关 已通关",
+				"vars": [
+					"stage"
+				]
+			},
+			"title": {
+				"eng": "PROTOCOL COMPLETE",
+				"trans": "协议完成"
+			}
+		}
+	},
 	"clanMemberSort": {
 		"gangExp": {
 			"displayName": {
@@ -1289,13 +1703,39 @@
 		}
 	},
 	"common": {
+		"cancel": {
+			"eng": "Cancel",
+			"trans": "取消"
+		},
 		"close": {
 			"eng": "Close",
 			"trans": "关闭"
 		},
+		"confirm": {
+			"eng": "Are you sure?",
+			"trans": "确认"
+		},
 		"delete": {
 			"eng": "Delete",
 			"trans": "删除"
+		},
+		"error": {
+			"permissionDenied": {
+				"eng": "Permission denied",
+				"trans": "权限已拒绝"
+			}
+		},
+		"gotIt": {
+			"eng": "Got it",
+			"trans": "了解"
+		},
+		"owned": {
+			"eng": "Owned",
+			"trans": "已拥有"
+		},
+		"purchase": {
+			"eng": "Purchase",
+			"trans": "购买"
 		},
 		"save": {
 			"eng": "Save",
@@ -1321,6 +1761,10 @@
 			"eng": "Donation Tier Gallery",
 			"trans": "捐赠档次展示"
 		},
+		"confirmPurchase": {
+			"eng": "Unlock Chat Frame",
+			"trans": "解锁聊天框"
+		},
 		"donationTire": {
 			"eng": "Select Frame",
 			"trans": "选择框架"
@@ -1336,6 +1780,17 @@
 			"eng": "Show how others see you",
 			"trans": "展示他人眼中的你"
 		},
+		"offSeason": {
+			"eng": "Off-Season",
+			"trans": "休赛期"
+		},
+		"offSeasonNotice": {
+			"eng": "*Off-Season chat frames have a +${percent}% cost",
+			"trans": "*离季聊天框费用上涨+${percent}%",
+			"vars": [
+				"percent"
+			]
+		},
 		"ownedFrames": {
 			"eng": "Donation Tier Owned: [${owned}/${total}]",
 			"trans": "已拥有的捐赠档位：[${owned}/${total}]",
@@ -1343,6 +1798,10 @@
 				"owned",
 				"total"
 			]
+		},
+		"previewText": {
+			"eng": "This is how you will look!",
+			"trans": "这就是你的新形象！"
 		}
 	},
 	"cosmeticSettingPage": {
@@ -1772,6 +2231,10 @@
 		"donation45": {
 			"eng": "Vice City",
 			"trans": "罪恶都市"
+		},
+		"donation46": {
+			"eng": "Candycane",
+			"trans": "糖果棒"
 		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
@@ -2678,6 +3141,10 @@
 		"noAvailableDesc": {
 			"eng": "You don't have any unassigned furniture. All your furniture is already assigned to slots.",
 			"trans": "手头上没有可供放置的家具，全部已经被占用。"
+		},
+		"noSlots": {
+			"eng": "This apartment tier does not have any furniture slots. Upgrade to a higher tier to unlock them.",
+			"trans": "该公寓等级暂无家具插槽，升级至更高级别即可解锁。"
 		},
 		"owned": {
 			"eng": "Owned",
@@ -3888,7 +4355,7 @@
 		},
 		"christmasToken": {
 			"description": {
-				"eng": "FrostByte Shards are fragments of Cybersanta’s corrupted Winter Protocol, packed with enough festive energy to keep his systems running—and his biceps flexing all season long",
+				"eng": "FrostByte Shards are fragments of Cybersanta's corrupted Winter Protocol, packed with enough festive energy to keep his systems running—and his biceps flexing all season long",
 				"trans": "FrostByte 碎片是网络圣诞老人被污染的冬季协议的碎片，蕴含着足够的节日能量，让他的系统持续运转——让他的肌肉在整个季节中保持强劲。"
 			},
 			"name": {
@@ -4047,6 +4514,16 @@
 			"name": {
 				"eng": "Flash Grenade",
 				"trans": "闪光弹"
+			}
+		},
+		"friendshipSticker": {
+			"desc": {
+				"eng": "A colorful sticker that symbolizes friendship and connection. Required to leave notes on friends' apartment walls. These special stickers help maintain positive interactions in the community.",
+				"trans": "这款彩色友情贴纸象征着友谊与连接。必须在朋友公寓的墙壁上留下一点小笔记，帮助维持社区里的正面互动。"
+			},
+			"name": {
+				"eng": "Friendship Sticker",
+				"trans": "友情贴纸"
 			}
 		},
 		"globalPartyBuff": {
@@ -4638,6 +5115,16 @@
 				"trans": "玫瑰花束"
 			}
 		},
+		"santaWorkshopPass": {
+			"description": {
+				"eng": "A holographic pass to CyberSanta's Workshop. Complete festive sorting challenges to earn rewards! 'Work hard, gift harder!' - CyberSanta",
+				"trans": "一张全息通行证，可前往赛博圣诞老人的工作坊。完成节日分类挑战，赢取丰厚奖励！“努力工作，更要送礼！”——赛博圣诞老人"
+			},
+			"name": {
+				"eng": "Santa's Workshop Pass",
+				"trans": "圣诞工坊通行证"
+			}
+		},
 		"seashell": {
 			"description": {
 				"eng": "A beautiful seashell that can be used to exchange items with Josie",
@@ -5144,27 +5631,85 @@
 		}
 	},
 	"jukeBox": {
-		"override": {
+		"apartment": {
 			"description": {
-				"eng": "Force system-wide playback of selected track",
-				"trans": "强制全局播放选定曲目"
+				"eng": "Playing for visitors in your apartment",
+				"trans": "给你公寓里的客人放歌"
+			},
+			"noChanges": {
+				"eng": "NO CHANGES",
+				"trans": "暂无更改"
+			},
+			"saveButton": {
+				"eng": "SAVE CONFIGURATION",
+				"trans": "保存设定"
 			},
 			"title": {
-				"eng": "Music Override Engaged",
+				"eng": "Apartment Broadcast",
+				"trans": "公寓广播"
+			}
+		},
+		"badge": {
+			"active": {
+				"eng": "ACTIVE",
+				"trans": "已激活"
+			},
+			"apartment": {
+				"eng": "APT",
+				"trans": "公寓"
+			},
+			"override": {
+				"eng": "OVR",
+				"trans": "覆盖"
+			}
+		},
+		"mode": {
+			"homeSpeaker": {
+				"eng": "HOME SPEAKER",
+				"trans": "家用音箱"
+			},
+			"walkman": {
+				"eng": "WALKMAN MODE",
+				"trans": "随身听模式"
+			}
+		},
+		"override": {
+			"description": {
+				"eng": "Play this track everywhere you go",
+				"trans": "强制全局播放选定曲目"
+			},
+			"label": {
+				"eng": "Override",
+				"trans": "覆盖"
+			},
+			"title": {
+				"eng": "Override Enabled",
 				"trans": "音乐覆盖已启动"
 			}
 		},
-		"selectTrack": {
-			"eng": "Select Audio Track",
-			"trans": "选择音轨"
-		},
-		"tip": {
-			"eng": "Customize your apartment's background music by selecting tracks and enabling override to replace location-based audio.",
-			"trans": "通过选择曲目并启用覆盖功能，自定义公寓的背景音乐以替换当前位置音效。"
+		"slot": {
+			"apartmentAudio": {
+				"eng": "APARTMENT AUDIO",
+				"trans": "公寓音效"
+			},
+			"personalPlayer": {
+				"eng": "PERSONAL PLAYER",
+				"trans": "个人播放器"
+			}
 		},
 		"title": {
 			"eng": "JukeBox",
 			"trans": "点歌台"
+		},
+		"trackList": {
+			"apartment": {
+				"eng": "Select Tape for Apartment",
+				"trans": "为公寓选择磁带"
+			},
+			"walkman": {
+				"eng": "Select Tape for Walkman",
+				"trans": "为随身听选择磁带"
+			}
 		},
 		"tracks": {
 			"afk": {
@@ -5503,9 +6048,9 @@
 					"level"
 				]
 			},
-			"description": {
-				"eng": "[Apartment]\n        Your cozy apartment in the city. your pets are waiting for you to come home.",
-				"trans": "【公寓】\n城市里的舒适小窝。你的宠物正在等着你回家。"
+			"descriptionv2": {
+				"eng": "Your cozy apartment in the city. your pets are waiting for you to come home.",
+				"trans": "你在城市里的温馨小窝，宠物们正等着你回家。"
 			},
 			"name": {
 				"eng": "My Apartment",
@@ -5519,9 +6064,9 @@
 			}
 		},
 		"coast": {
-			"description": {
-				"eng": "[Coast]\n        The beautiful coast a few kilometers away of downtown. The perfect place to relax and enjoy the sea breeze.",
-				"trans": "[海岸]  \n        距市中心几公里的美丽海岸。放松身心，享受海风的完美之地。"
+			"descriptionv2": {
+				"eng": "The beautiful coast a few kilometers away of downtown. The perfect place to relax and enjoy the sea breeze.",
+				"trans": "距离市区仅几公里的迷人海岸，绝佳的放松之地，让你尽情享受海风。"
 			},
 			"name": {
 				"eng": "Crystal Sands",
@@ -5539,9 +6084,9 @@
 				"eng": "You need to join a gang to enter this area",
 				"trans": "您需要加入帮派来进入此区域"
 			},
-			"description": {
-				"eng": "[Gang]\n        The headquarters for you and your gang members to plan and execute your next operation",
-				"trans": "[帮派]\r\n        您和您的帮派成员计划和执行下一次行动的总部"
+			"descriptionv2": {
+				"eng": "The headquarters for you and your gang members to plan and execute your next operation",
+				"trans": "这是你和你的帮派成员规划并执行下一次行动的总部。"
 			},
 			"name": {
 				"eng": "Gang Headquarters",
@@ -5549,9 +6094,9 @@
 			}
 		},
 		"job": {
-			"description": {
-				"eng": "[Job Hub]\n        Here are many shops and businesses reside. The perfect location to hone and refine your skills.",
-				"trans": "[工作中心]\r\n        这里有各种商店与公司，非常适合用于锻炼并提升您的各项技能。"
+			"descriptionv2": {
+				"eng": "Here are many shops and businesses reside. The perfect location to hone and refine your skills.",
+				"trans": "这里汇聚了无数商店与公司，是你打磨并升级技能的绝佳地点。"
 			},
 			"name": {
 				"eng": "Shangri-La Commercial Area",
@@ -5565,9 +6110,9 @@
 			}
 		},
 		"mainHub": {
-			"description": {
-				"eng": "[Central Hub]\n        One of the busiest cities in the continent. Here you can find all sorts of people from around the globe.",
-				"trans": "[市中心]\r\n        这片大陆上最繁华的城市之一, 在这里您可以看到来自五湖四海、形形色色的人"
+			"descriptionv2": {
+				"eng": "One of the busiest cities in the continent. Here you can find all sorts of people from around the globe.",
+				"trans": "本洲最繁忙的都市之一。在这里，你将遇到来自世界各地的各种人群。"
 			},
 			"name": {
 				"eng": "Shangri-La City center",
@@ -5623,9 +6168,9 @@
 			}
 		},
 		"market": {
-			"description": {
-				"eng": "[Player Market]\n        The famous market street in Shangri-La. Loads of market stalls fill the street.",
-				"trans": "[玩家交易区]\r\n        香格里拉人尽皆知的市场, 整条街上充满了各式各样的摊位, 或许您也可以在这里铺设摊位贩卖您的物品"
+			"descriptionv2": {
+				"eng": "The famous market street in Shangri-La. Loads of market stalls fill the street.",
+				"trans": "香格里拉最有名的市集街，整条街都挤满了摊位。"
 			},
 			"name": {
 				"eng": "Shangri-La Market Street",
@@ -5689,13 +6234,43 @@
 			}
 		},
 		"station": {
-			"description": {
-				"eng": "[Adventure]\n        Using the hyperloop, you can travel at supersonic speed across the continent with ease.",
-				"trans": "[探索]\r\n        通过乘坐高速电磁环路列车, 您可以轻易地以超音速横跨整块大陆。"
+			"descriptionv2": {
+				"eng": "Using the hyperloop, you can travel at supersonic speed across the continent with ease.",
+				"trans": "使用超循环，你可以以超音速轻松穿越整片大陆。"
 			},
 			"name": {
 				"eng": "Hyper Train Central Station",
 				"trans": "高速电磁列车总站"
+			}
+		},
+		"tag": {
+			"adventure": {
+				"eng": "Adventure",
+				"trans": "冒险"
+			},
+			"apartment": {
+				"eng": "Apartment",
+				"trans": "公寓"
+			},
+			"centralHub": {
+				"eng": "Central Hub",
+				"trans": "中央枢纽"
+			},
+			"coast": {
+				"eng": "Coast",
+				"trans": "海岸"
+			},
+			"gang": {
+				"eng": "Gang",
+				"trans": "帮派"
+			},
+			"jobHub": {
+				"eng": "Job Hub",
+				"trans": "任务中心"
+			},
+			"playerMarket": {
+				"eng": "Player Market",
+				"trans": "玩家市集"
 			}
 		},
 		"zone": {
@@ -5805,15 +6380,6 @@
 			"vars": [
 				"limit",
 				"hours"
-			]
-		}
-	},
-	"mailRoomContent": {
-		"time": {
-			"eng": "${time} ago",
-			"trans": "${time} 前",
-			"vars": [
-				"time"
 			]
 		}
 	},
@@ -6330,6 +6896,12 @@
 				"trans": "神经电路覆盖"
 			}
 		},
+		"common": {
+			"retry": {
+				"eng": "RETRY",
+				"trans": "重试"
+			}
+		},
 		"dataStream": {
 			"instructions": {
 				"eng": "INTERCEPT VALID DATA PACKETS [GLOWING] // AVOID CORRUPTED ONES",
@@ -6338,6 +6910,82 @@
 			"title": {
 				"eng": "Data Stream Interceptor",
 				"trans": "数据流拦截器"
+			}
+		},
+		"hexBuffer": {
+			"fail": {
+				"desc": {
+					"eng": "Connection Terminated",
+					"trans": "连接已中断"
+				},
+				"title": {
+					"eng": "BREACH FAILED",
+					"trans": "入侵失败"
+				}
+			},
+			"hint": {
+				"col": {
+					"eng": "Select a code from the highlighted COLUMN",
+					"trans": "从高亮列中挑选一个码"
+				},
+				"row": {
+					"eng": "Select a code from the highlighted ROW",
+					"trans": "在被高亮的那一行里选择一段代码"
+				}
+			},
+			"win": {
+				"desc": {
+					"eng": "Access Granted",
+					"trans": "已授权"
+				},
+				"title": {
+					"eng": "BREACH SUCCESS",
+					"trans": "入侵成功"
+				}
+			}
+		},
+		"relayGrid": {
+			"clearAll": {
+				"eng": "CLEAR",
+				"trans": "清除"
+			},
+			"clearConfirm": {
+				"eng": "CONFIRM?",
+				"trans": "确认？"
+			},
+			"hint": {
+				"detail": {
+					"eng": "Paths cannot cross - avoid broken nodes",
+					"trans": "路径不可交叉—请避开坏掉的节点。"
+				},
+				"eng": "ACTIVATE NODES TO CREATE PATHS",
+				"trans": "激活节点，构建路径"
+			},
+			"instructions": {
+				"eng": "Connect all signals - paths cannot cross",
+				"trans": "连接所有信号 - 路径不能交叉"
+			},
+			"smartHint": {
+				"dismiss": {
+					"eng": "[ TAP TO DISMISS ]",
+					"trans": "轻点即可消失"
+				},
+				"eng": "Paths cannot share nodes - route around obstacles",
+				"trans": "路径不能共享节点 — 绕开障碍物"
+			},
+			"undo": {
+				"eng": "UNDO",
+				"trans": "撤销"
+			},
+			"win": {
+				"description": {
+					"eng": "All routes established",
+					"trans": "所有线路已建立"
+				},
+				"title": {
+					"eng": "MISSION COMPLETE",
+					"trans": "任务完成"
+				}
 			}
 		},
 		"sequenceHack": {
@@ -7682,6 +8330,44 @@
 			}
 		}
 	},
+	"offSeasonInfoModal": {
+		"footer": {
+			"eng": "This compromise allows access while preserving the spirit of our events.",
+			"trans": "此折中方案让你可以进入，同时保持了我们活动的精神。"
+		},
+		"intro": {
+			"eng": "Seasonal chat frames are designed as seasonal exclusive limited-time cosmetics.",
+			"trans": "季节限定聊天框，是本季专属且限时上线的独家彩装。"
+		},
+		"reasonConvenience": {
+			"eng": "Convenience: Bypassing the standard event schedule.",
+			"trans": "便捷：跳过标准活动日程。"
+		},
+		"reasonFairness": {
+			"eng": "Fairness: Honors the dedication of players who participated during the original event.",
+			"trans": "公平性：向在原始活动中参与的玩家致敬，认可他们的付出。"
+		},
+		"reasonValue": {
+			"eng": "Event Value: Maintains the prestige and incentive to unlock cosmetics during the live rotation.",
+			"trans": "事件价值：保持在实时轮换期间解锁装饰品时的威望和动力。"
+		},
+		"title": {
+			"eng": "Off-Season Collection",
+			"trans": "淡季合集"
+		},
+		"whyAllowedBody": {
+			"eng": "Due to popular demand, we are opening the archives. We heard your requests for specific frames that are currently out of rotation and didn't want you to wait forever!",
+			"trans": "因玩家热烈呼声，我们正式开启档案库。我们收到了你们关于目前停用的特定框架的请求，绝不让你们等得像老鼠一样！"
+		},
+		"whyAllowedTitle": {
+			"eng": "Why are they available now?",
+			"trans": "现在为什么可用？"
+		},
+		"whyFee": {
+			"eng": "Why is there a vault fee?",
+			"trans": "为什么会有保险箱费用？"
+		}
+	},
 	"pet": {
 		"adopted": {
 			"eng": "${player} has adopted ${pet}",
@@ -8024,6 +8710,13 @@
 		"noPet": {
 			"eng": "You have no pet yet",
 			"trans": "你还没有宠物哦"
+		},
+		"noPetOther": {
+			"eng": "${playerName} has no pets",
+			"trans": "看来 ${playerName} 还没有收集任何宠物哦！",
+			"vars": [
+				"playerName"
+			]
 		}
 	},
 	"petReviveModal": {
@@ -8154,6 +8847,10 @@
 				"eng": "Invalid Travel Link, if persist please reload",
 				"trans": "无效的旅行链接，如果持续存在，请重新加载"
 			},
+			"muted": {
+				"eng": "You are muted",
+				"trans": "你已被禁言"
+			},
 			"notInBattle": {
 				"eng": "You are not in battle.",
 				"trans": "你不在战斗中。"
@@ -8210,6 +8907,30 @@
 				"eng": "Thank you for completing the survey, the rewards have been sent to your item inbox, you can access the inbox from the inventory tab",
 				"trans": "感谢您完成调查，奖励已发送至您的物品收件箱，您可以从库存选项卡访问收件箱。"
 			}
+		}
+	},
+	"playerApartmentPage": {
+		"noApartment": {
+			"eng": "${playerName} doesn't have an apartment",
+			"trans": "${playerName} 没有自己的公寓。",
+			"vars": [
+				"playerName"
+			]
+		},
+		"title": {
+			"eng": "${playerName}'s Apartment",
+			"trans": "${playerName}的公寓",
+			"vars": [
+				"playerName"
+			]
+		},
+		"viewFurniture": {
+			"eng": "View Furniture",
+			"trans": "查看家具"
+		},
+		"viewPets": {
+			"eng": "View Pets",
+			"trans": "查看宠物"
 		}
 	},
 	"playerDetailsAssetsTab": {
@@ -8365,17 +9086,9 @@
 				"eng": "Active Furniture",
 				"trans": "已激活家具"
 			},
-			"collection": {
-				"eng": "Collection",
-				"trans": "收藏"
-			},
 			"noActiveFurniture": {
 				"eng": "No furniture currently active in slots",
 				"trans": "当前插槽中暂无家具。"
-			},
-			"title": {
-				"eng": "Furniture",
-				"trans": "家具"
 			},
 			"viewCollection": {
 				"eng": "${count} Owned",
@@ -9227,6 +9940,73 @@
 		"unknown": {
 			"eng": "Unknown Items",
 			"trans": "未知的物品"
+		}
+	},
+	"rewardDisplay": {
+		"exp": {
+			"eng": "${amount} ${levelType} exp",
+			"trans": "${amount} ${levelType}经验值",
+			"vars": [
+				"amount",
+				"levelType"
+			]
+		},
+		"gangExp": {
+			"eng": "${clanExp} gang exp",
+			"trans": "${clanExp} 帮派经验",
+			"vars": [
+				"clanExp"
+			]
+		},
+		"gangFunding": {
+			"eng": "${clanMoney} gang funding",
+			"trans": "${clanMoney} 帮派资金",
+			"vars": [
+				"clanMoney"
+			]
+		},
+		"gangOccupationPoint": {
+			"eng": "${clanOccupationPoint} Occupation Control",
+			"trans": "${clanOccupationPoint} 控制点",
+			"vars": [
+				"clanOccupationPoint"
+			]
+		},
+		"gangResource": {
+			"eng": "${clanResource} gang resource",
+			"trans": "${clanResource}帮派资源",
+			"vars": [
+				"clanResource"
+			]
+		},
+		"globalQuestPoint": {
+			"eng": "${globalQuestPoint} SL Data Fortress breach progress",
+			"trans": "${globalQuestPoint} SL 数据堡垒突破进度",
+			"vars": [
+				"globalQuestPoint"
+			]
+		},
+		"health": {
+			"eng": "+${health} Health",
+			"trans": "+${health} 生命值",
+			"vars": [
+				"health"
+			]
+		},
+		"shield": {
+			"eng": "+${shield} Shield",
+			"trans": "+${shield} 护盾",
+			"vars": [
+				"shield"
+			]
+		},
+		"statusEffectDuration": {
+			"eng": "${effect} for ${duration}",
+			"trans": "${effect} 持续 ${duration}",
+			"vars": [
+				"effect",
+				"duration"
+			]
 		}
 	},
 	"sakuraPromo": {
@@ -10723,7 +11503,7 @@
 				"trans": "中止"
 			},
 			"abortWarning": {
-				"eng": "By aborting this you won\\'t receive any reward and the material used won\\'t be returned",
+				"eng": "By aborting this you won't receive any reward and the material used won't be returned",
 				"trans": "终止此任务后您将不会收到任何奖励，而且也不会退回任何使用的材料"
 			},
 			"abortWarningTitle": {
@@ -12157,13 +12937,6 @@
 			}
 		},
 		"map": {
-			"hiddenNpcTip": {
-				"eng": "${hiddenCount} more interactables can be unlocked at this location, level up to unlock them.",
-				"trans": "可以在此位置解锁${hiddenCount}个更多的交互功能，升级您的角色来解锁它们。",
-				"vars": [
-					"hiddenCount"
-				]
-			},
 			"hideLowerLevelTravels": {
 				"eng": "Hide lower levels",
 				"trans": "隐藏较低的水平"
@@ -12937,6 +13710,16 @@
 				"title": {
 					"eng": "Disable Victory Screen",
 					"trans": "禁用胜利界面"
+				}
+			},
+			"enableApartmentWall": {
+				"description": {
+					"eng": "Allow others to post on your apartment wall",
+					"trans": "允许其他玩家在你的公寓墙上发帖"
+				},
+				"title": {
+					"eng": "Enable Apartment Wall",
+					"trans": "开启公寓墙"
 				}
 			},
 			"enableBackgroundMusic": {

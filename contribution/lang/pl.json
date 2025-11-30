@@ -590,6 +590,16 @@
 				"trans": "Shangri-la"
 			}
 		},
+		"deleteNoteConfirm": {
+			"eng": "Delete this note?",
+			"trans": "Usuń tę notatkę?"
+		},
+		"error": {
+			"noApartment": {
+				"eng": "You don't have an apartment",
+				"trans": "Nie masz jeszcze własnego mieszkania"
+			}
+		},
 		"furniture": {
 			"eng": "Furniture",
 			"trans": "Meble"
@@ -598,13 +608,68 @@
 			"eng": "Furniture Slots",
 			"trans": "Sloty meblowe"
 		},
+		"getStickerHint": {
+			"eng": "Friendship Stickers can be obtained from quests and events.",
+			"trans": "Znaczki Przyjaźni można zdobyć z zadań i eventów."
+		},
 		"jukeBox": {
 			"eng": "JukeBox",
 			"trans": "Jukebox"
 		},
+		"leaveNote": {
+			"eng": "Leave a Note",
+			"trans": "Zostaw notatkę"
+		},
+		"noNotes": {
+			"eng": "NO DATA FOUND // BE THE FIRST",
+			"trans": "Brak danych // Bądź pierwszym"
+		},
+		"noSticker": {
+			"eng": "You need a Friendship Sticker to post a note!",
+			"trans": "Potrzebujesz Znacznika Przyjaźni, by opublikować notatkę!"
+		},
+		"notePlaceholder": {
+			"eng": "Write something nice... (Max 128 chars)",
+			"trans": "Napisz coś miłego… (max. 128 znaków)"
+		},
 		"petSlots": {
 			"eng": "Pet Slots",
 			"trans": "Sloty zwierząt"
+		},
+		"post": {
+			"eng": "Post",
+			"trans": "Wyślij"
+		},
+		"postNote": {
+			"error": {
+				"contentTooLong": {
+					"eng": "Content too long or empty",
+					"trans": "Treść jest zbyt długa lub pusta"
+				},
+				"negativeSentiment": {
+					"eng": "Message is flagged by AI, only friendly content is allowed.",
+					"trans": "Wiadomość została oznaczona przez AI – tylko przyjazna treść jest dozwolona."
+				},
+				"noItem": {
+					"eng": "You need a ${itemName} to leave a note. ${itemName} can be obtained from quests and events.",
+					"trans": "Potrzebujesz ${itemName}, aby zostawić notatkę. ${itemName} można zdobyć w zadaniach i wydarzeniach.",
+					"vars": [
+						"itemName"
+					]
+				},
+				"notFriends": {
+					"eng": "You must be friends with the owner to post",
+					"trans": "Musisz być przyjacielem właściciela, aby móc dodać notatkę"
+				},
+				"ownerNotFound": {
+					"eng": "Owner not found",
+					"trans": "Nie znaleziono właściciela"
+				},
+				"restricted": {
+					"eng": "This player has disabled their wall",
+					"trans": "Ten gracz wyłączył swoją tablicę"
+				}
+			}
 		},
 		"rent": {
 			"paidMail": {
@@ -627,6 +692,17 @@
 				"rentalDueDate"
 			]
 		},
+		"stickerCount": {
+			"eng": "You have: ${count}",
+			"trans": "Masz: ${count}",
+			"vars": [
+				"count"
+			]
+		},
+		"stickerRequired": {
+			"eng": "Friendship Sticker Required",
+			"trans": "Wymagana naklejka przyjaźni"
+		},
 		"terminateLease": {
 			"eng": "Terminate Lease",
 			"trans": "Zerwij umowę najmu"
@@ -645,6 +721,14 @@
 		"viewPets": {
 			"eng": "View Pets",
 			"trans": "Zobacz Zwierzaki"
+		},
+		"wall": {
+			"eng": "Apartment Wall",
+			"trans": "Ściana mieszkania"
+		},
+		"wallDisabled": {
+			"eng": "WALL // DISABLED",
+			"trans": "Ściana // Wyłączona"
 		}
 	},
 	"apartmentMarket": {
@@ -1213,6 +1297,336 @@
 			"trans": "Wydarzenie świąteczne!"
 		}
 	},
+	"christmasWorkshop": {
+		"button": {
+			"subtitle": {
+				"eng": "SORT GIFTS & EARN REWARDS",
+				"trans": "Sortuj prezenty i zdobywaj nagrody"
+			},
+			"title": {
+				"eng": "CYBERSANTA'S WORKSHOP",
+				"trans": "Warsztat Cybersanta"
+			}
+		},
+		"commentary": {
+			"combo1": {
+				"eng": "Efficiency Spiking!",
+				"trans": "Efektywność wzrasta!"
+			},
+			"combo2": {
+				"eng": "Overclocked!",
+				"trans": "Podkręcony!"
+			},
+			"combo3": {
+				"eng": "MAXIMUM VELOCITY!",
+				"trans": "Maksymalna prędkość!"
+			},
+			"combo4": {
+				"eng": "SYSTEMS CRITICAL!",
+				"trans": "SYSTEMY KRYTYCZNE!"
+			},
+			"combo5": {
+				"eng": "GODLIKE PRECISION!",
+				"trans": "BOSKA PRECYZJA!"
+			},
+			"finalWin1": {
+				"eng": "Mission Accomplished! Maximum Joy!",
+				"trans": "Misja ukończona! Maksymalna radość!"
+			},
+			"finalWin2": {
+				"eng": "All systems nominal! You are a legend!",
+				"trans": "Wszystkie systemy w porządku! Jesteś legendą!"
+			},
+			"finalWin3": {
+				"eng": "Perfect execution! Happy Holidays!",
+				"trans": "Perfekcyjne wykonanie! Wesołych Świąt!"
+			},
+			"positive1": {
+				"eng": "Optimal!",
+				"trans": "Idealne!"
+			},
+			"positive2": {
+				"eng": "Precise!",
+				"trans": "Precyzyjnie!"
+			},
+			"positive3": {
+				"eng": "Confirmed!",
+				"trans": "Potwierdzono!"
+			},
+			"positive4": {
+				"eng": "Smooth!",
+				"trans": "Gładko!"
+			},
+			"positive5": {
+				"eng": "Efficient!",
+				"trans": "Efektywne!"
+			},
+			"positive6": {
+				"eng": "Target hit!",
+				"trans": "C​el trafiony!"
+			},
+			"positive7": {
+				"eng": "Nice lock!",
+				"trans": "Świetna blokada!"
+			},
+			"stageComplete1": {
+				"eng": "Batch complete! Efficiency rising!",
+				"trans": "Partia zakończona! Efektywność rośnie!"
+			},
+			"stageComplete2": {
+				"eng": "Excellent processing! Next wave!",
+				"trans": "Świetna realizacja! Następna fala!"
+			},
+			"stageComplete3": {
+				"eng": "Protocol adherence: 100%!",
+				"trans": "Przestrzeganie protokołu: 100%!"
+			},
+			"start1": {
+				"eng": "Protocol initiated. Sort incoming!",
+				"trans": "Protokół aktywowany. Sortuj nadchodzące!"
+			},
+			"start2": {
+				"eng": "Systems online. Let's get sorting!",
+				"trans": "Systemy online. Zaczynamy sortowanie!"
+			},
+			"start3": {
+				"eng": "Workshop efficiency is in your hands!",
+				"trans": "Wydajność warsztatu zależy od Ciebie!"
+			},
+			"wrongSort1": {
+				"eng": "Error! Incorrect destination!",
+				"trans": "Ups! Złe miejsce docelowe!"
+			},
+			"wrongSort2": {
+				"eng": "System alert! Wrong bin!",
+				"trans": "Alert systemowy! Nieprawidłowy pojemnik!"
+			},
+			"wrongSort3": {
+				"eng": "Recalibrate your sensors!",
+				"trans": "Ponownie skalibruj swoje czujniki!"
+			}
+		},
+		"countdown": {
+			"sortGifts": {
+				"eng": "TARGET: ${count} GIFTS",
+				"trans": "Cel: ${count} prezentów",
+				"vars": [
+					"count"
+				]
+			},
+			"stage": {
+				"eng": "STAGE ${stage}",
+				"trans": "ETAP ${stage}",
+				"vars": [
+					"stage"
+				]
+			}
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The Christmas event has ended!",
+				"trans": "Świąteczne wydarzenie już się skończyło!"
+			},
+			"noPass": {
+				"eng": "You need a Santa's Workshop Pass to play! Find them in dungeon chests or from AFK farming.",
+				"trans": "Potrzebujesz Biletu do Warsztatu Świętego Mikołaja, aby grać! Znajdziesz go w skrzyniach lochów albo podczas AFK farmingu."
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "Close",
+				"trans": "Zamknij"
+			},
+			"message": {
+				"eng": "The game encountered an error. Don't worry - your Workshop Pass was not consumed!",
+				"trans": "W grze wystąpił błąd. Nie martw się – twój Workshop Pass nie został zużyty!"
+			},
+			"title": {
+				"eng": "Game Error",
+				"trans": "Błąd gry"
+			}
+		},
+		"game": {
+			"combo": {
+				"eng": "Efficiency",
+				"trans": "Efektywność"
+			},
+			"stage": {
+				"eng": "Stage ${stage}/5",
+				"trans": "Etap ${stage}/5",
+				"vars": [
+					"stage"
+				]
+			},
+			"timeLabel": {
+				"eng": "Time Remaining",
+				"trans": "Pozostały czas"
+			},
+			"waiting": {
+				"eng": "AWAITING INPUT...",
+				"trans": "Czekam na dane wejściowe…"
+			}
+		},
+		"gameOver": {
+			"close": {
+				"eng": "CLOSE TERMINAL",
+				"trans": "ZAMKNIJ TERMINAL"
+			},
+			"message": {
+				"eng": "ERROR AT STAGE ${stage}",
+				"trans": "Błąd w etapie ${stage}",
+				"vars": [
+					"stage"
+				]
+			},
+			"noProgress": {
+				"eng": "No stages completed. Pass integrity maintained.",
+				"trans": "Nie ukończono żadnych etapów. Integralność przepustki zachowana."
+			},
+			"progress": {
+				"eng": "Protocol interrupted. ${completed} stages secured.",
+				"trans": "Protokoł został przerwany. Zabezpieczono ${completed} etapów.",
+				"vars": [
+					"completed"
+				]
+			},
+			"title": {
+				"eng": "SYSTEM FAILURE",
+				"trans": "Awaria systemu"
+			}
+		},
+		"giftType": {
+			"clothes": {
+				"eng": "Clothes",
+				"trans": "Ubrania"
+			},
+			"food": {
+				"eng": "Food",
+				"trans": "Jedzenie"
+			},
+			"tech": {
+				"eng": "Tech",
+				"trans": "Technologia"
+			},
+			"toy": {
+				"eng": "Toys",
+				"trans": "Zabawki"
+			}
+		},
+		"intro": {
+			"eventEnded": {
+				"eng": "Event Ended",
+				"trans": "Koniec wydarzenia"
+			},
+			"eventInactive": {
+				"eng": "Event is not currently active",
+				"trans": "Obecnie wydarzenie jest niedostępne"
+			},
+			"howToGet": {
+				"eng": "Find passes in dungeon chests or from AFK farming during the event!",
+				"trans": "Pasy możesz zdobyć z lochowych skrzyń albo farmując AFK podczas wydarzenia"
+			},
+			"howToPlay": {
+				"eng": "How to Play",
+				"trans": "Jak grać"
+			},
+			"needPass": {
+				"eng": "Need Workshop Pass",
+				"trans": "Wymagana przepustka do warsztatu"
+			},
+			"passesOwned": {
+				"eng": "Passes Owned:",
+				"trans": "Pasy posiadane:"
+			},
+			"rule1": {
+				"eng": "• Swipe gifts to the correct sorting zones",
+				"trans": "Przesuń prezenty do odpowiednich stref sortowania"
+			},
+			"rule2": {
+				"eng": "• Complete 5 progressive stages",
+				"trans": "• Ukończ 5 kolejnych etapów"
+			},
+			"rule3": {
+				"eng": "• Each stage gets faster with more gifts",
+				"trans": "Im więcej prezentów, tym szybciej idą kolejne etapy"
+			},
+			"rule4": {
+				"eng": "• Wrong swipes cost you 4 seconds",
+				"trans": "Nieprawidłowe swipy kosztują Cię 4 sekundy"
+			},
+			"rule5": {
+				"eng": "• Complete all stages for maximum rewards!",
+				"trans": "Ukończ wszystkie etapy i zdobądź maksymalne nagrody!"
+			},
+			"startButton": {
+				"eng": "Start Workshop",
+				"trans": "Rozpocznij warsztat"
+			},
+			"title": {
+				"eng": "Welcome to Santa's Workshop",
+				"trans": "Witaj w warsztacie Mikołaja"
+			}
+		},
+		"loading": {
+			"message": {
+				"eng": "Preparing gifts for sorting...",
+				"trans": "Przygotowywanie prezentów do sortowania…"
+			},
+			"title": {
+				"eng": "Loading Workshop...",
+				"trans": "Ładowanie warsztatu..."
+			}
+		},
+		"pleaseWait": {
+			"eng": "ESTABLISHING CONNECTION",
+			"trans": "Nawiązywanie połączenia"
+		},
+		"processing": {
+			"eng": "SYNCHRONIZING...",
+			"trans": "Synchronizowanie…"
+		},
+		"results": {
+			"close": {
+				"eng": "CLOSE REPORT",
+				"trans": "Zamknij raport"
+			},
+			"goodJob": {
+				"eng": "Good effort. Re-engage for maximum rewards.",
+				"trans": "Dobra robota! Ponownie zaangażuj się, aby maksymalnie zdobywać nagrody."
+			},
+			"rewards": {
+				"eng": "REWARDS ACQUIRED",
+				"trans": "OTRZYMANO NAGRODY"
+			}
+		},
+		"stageComplete": {
+			"continue": {
+				"eng": "INITIATE STAGE ${next}",
+				"trans": "Rozpocznij etap ${next}",
+				"vars": [
+					"next"
+				]
+			},
+			"nextStage": {
+				"eng": "Efficiency ratings optimal. Initializing Stage ${next} sequence...",
+				"trans": "Oceny wydajności optymalne. Rozpoczynam sekwencję etapu ${next}...",
+				"vars": [
+					"next"
+				]
+			},
+			"stage": {
+				"eng": "STAGE ${stage} CLEARED",
+				"trans": "ETAP ${stage} ZAKOŃCZONY",
+				"vars": [
+					"stage"
+				]
+			},
+			"title": {
+				"eng": "PROTOCOL COMPLETE",
+				"trans": "Protokół zakończony"
+			}
+		}
+	},
 	"clanMemberSort": {
 		"gangExp": {
 			"displayName": {
@@ -1289,13 +1703,39 @@
 		}
 	},
 	"common": {
+		"cancel": {
+			"eng": "Cancel",
+			"trans": "Anuluj"
+		},
 		"close": {
 			"eng": "Close",
 			"trans": "Zamknij"
 		},
+		"confirm": {
+			"eng": "Are you sure?",
+			"trans": "Potwierdź"
+		},
 		"delete": {
 			"eng": "Delete",
 			"trans": "Usuń"
+		},
+		"error": {
+			"permissionDenied": {
+				"eng": "Permission denied",
+				"trans": "Brak uprawnień"
+			}
+		},
+		"gotIt": {
+			"eng": "Got it",
+			"trans": "Rozumiem"
+		},
+		"owned": {
+			"eng": "Owned",
+			"trans": "Posiadane"
+		},
+		"purchase": {
+			"eng": "Purchase",
+			"trans": "Kup"
 		},
 		"save": {
 			"eng": "Save",
@@ -1321,6 +1761,10 @@
 			"eng": "Donation Tier Gallery",
 			"trans": "Galeria poziomów dotacji"
 		},
+		"confirmPurchase": {
+			"eng": "Unlock Chat Frame",
+			"trans": "Odblokuj ramkę czatu"
+		},
 		"donationTire": {
 			"eng": "Select Frame",
 			"trans": "Wybierz Ramkę"
@@ -1336,6 +1780,17 @@
 			"eng": "Show how others see you",
 			"trans": "Pokaż, jak widzą cię inni"
 		},
+		"offSeason": {
+			"eng": "Off-Season",
+			"trans": "Poza sezonem"
+		},
+		"offSeasonNotice": {
+			"eng": "*Off-Season chat frames have a +${percent}% cost",
+			"trans": "*Ramki czatu poza sezonem mają koszt +${percent}%",
+			"vars": [
+				"percent"
+			]
+		},
 		"ownedFrames": {
 			"eng": "Donation Tier Owned: [${owned}/${total}]",
 			"trans": "Posiadane wsparcie: [${owned}/${total}]",
@@ -1343,6 +1798,10 @@
 				"owned",
 				"total"
 			]
+		},
+		"previewText": {
+			"eng": "This is how you will look!",
+			"trans": "Oto, jak będziesz wyglądał/a"
 		}
 	},
 	"cosmeticSettingPage": {
@@ -1772,6 +2231,10 @@
 		"donation45": {
 			"eng": "Vice City",
 			"trans": "Vice City"
+		},
+		"donation46": {
+			"eng": "Candycane",
+			"trans": "Płatek cukru"
 		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
@@ -2678,6 +3141,10 @@
 		"noAvailableDesc": {
 			"eng": "You don't have any unassigned furniture. All your furniture is already assigned to slots.",
 			"trans": "Nie masz żadnych nieprzypisanych mebli. Wszystkie Twoje meble są już przypisane do slotów."
+		},
+		"noSlots": {
+			"eng": "This apartment tier does not have any furniture slots. Upgrade to a higher tier to unlock them.",
+			"trans": "W tej klasie apartamentu brak slotów na meble. Ulepsz do wyższej klasy, aby je odblokować."
 		},
 		"owned": {
 			"eng": "Owned",
@@ -3888,7 +4355,7 @@
 		},
 		"christmasToken": {
 			"description": {
-				"eng": "FrostByte Shards are fragments of Cybersanta’s corrupted Winter Protocol, packed with enough festive energy to keep his systems running—and his biceps flexing all season long",
+				"eng": "FrostByte Shards are fragments of Cybersanta's corrupted Winter Protocol, packed with enough festive energy to keep his systems running—and his biceps flexing all season long",
 				"trans": "FrostByte Shards to fragmenty zainfekowanego Protokółu Zimowego Cybersanta, naładowane wystarczającą ilością świątecznej energii, by utrzymać jego systemy w ruchu — i bicepsy w formie przez cały sezon"
 			},
 			"name": {
@@ -4047,6 +4514,16 @@
 			"name": {
 				"eng": "Flash Grenade",
 				"trans": "Granat Błyskowy"
+			}
+		},
+		"friendshipSticker": {
+			"desc": {
+				"eng": "A colorful sticker that symbolizes friendship and connection. Required to leave notes on friends' apartment walls. These special stickers help maintain positive interactions in the community.",
+				"trans": "Kolorowa naklejka symbolizująca przyjaźń i więź. Potrzebna do zostawiania wiadomości na ścianach mieszkań przyjaciół. Dzięki niej utrzymujesz pozytywne interakcje w społeczności."
+			},
+			"name": {
+				"eng": "Friendship Sticker",
+				"trans": "Naklejka Przyjaźni"
 			}
 		},
 		"globalPartyBuff": {
@@ -4638,6 +5115,16 @@
 				"trans": "Bukiet róży"
 			}
 		},
+		"santaWorkshopPass": {
+			"description": {
+				"eng": "A holographic pass to CyberSanta's Workshop. Complete festive sorting challenges to earn rewards! 'Work hard, gift harder!' - CyberSanta",
+				"trans": "Holograficzna karta dostępowa do Warsztatu CyberSanta. Ukończ świąteczne wyzwania sortowania, aby zdobyć nagrody! „Wyrabiaj się, a prezenty będą jeszcze lepsze!” – CyberSanta"
+			},
+			"name": {
+				"eng": "Santa's Workshop Pass",
+				"trans": "Pas do Warsztatu Świętego Mikołaja"
+			}
+		},
 		"seashell": {
 			"description": {
 				"eng": "A beautiful seashell that can be used to exchange items with Josie",
@@ -5144,27 +5631,85 @@
 		}
 	},
 	"jukeBox": {
-		"override": {
+		"apartment": {
 			"description": {
-				"eng": "Force system-wide playback of selected track",
-				"trans": "Wymuś odtwarzanie wybranego utworu w całym systemie"
+				"eng": "Playing for visitors in your apartment",
+				"trans": "Odtwarzanie dźwięku dla gości w Twoim mieszkaniu"
+			},
+			"noChanges": {
+				"eng": "NO CHANGES",
+				"trans": "BRAK ZMIAN"
+			},
+			"saveButton": {
+				"eng": "SAVE CONFIGURATION",
+				"trans": "ZAPISZ USTAWIENIA"
 			},
 			"title": {
-				"eng": "Music Override Engaged",
+				"eng": "Apartment Broadcast",
+				"trans": "Transmisja w Apartamencie"
+			}
+		},
+		"badge": {
+			"active": {
+				"eng": "ACTIVE",
+				"trans": "AKTYWNE"
+			},
+			"apartment": {
+				"eng": "APT",
+				"trans": "Apartament"
+			},
+			"override": {
+				"eng": "OVR",
+				"trans": "PRZEŁADOWANIE"
+			}
+		},
+		"mode": {
+			"homeSpeaker": {
+				"eng": "HOME SPEAKER",
+				"trans": "Głośnik domowy"
+			},
+			"walkman": {
+				"eng": "WALKMAN MODE",
+				"trans": "Tryb Walkmana"
+			}
+		},
+		"override": {
+			"description": {
+				"eng": "Play this track everywhere you go",
+				"trans": "Wymuś odtwarzanie wybranego utworu w całym systemie"
+			},
+			"label": {
+				"eng": "Override",
+				"trans": "Zastąp"
+			},
+			"title": {
+				"eng": "Override Enabled",
 				"trans": "Muzyka przełączona"
 			}
 		},
-		"selectTrack": {
-			"eng": "Select Audio Track",
-			"trans": "Wybierz ścieżkę dźwiękową"
-		},
-		"tip": {
-			"eng": "Customize your apartment's background music by selecting tracks and enabling override to replace location-based audio.",
-			"trans": "Dostosuj muzykę tła w swoim mieszkaniu, wybierając utwory i włączając nadpisywanie, aby zastąpić dźwięk zależny od lokalizacji."
+		"slot": {
+			"apartmentAudio": {
+				"eng": "APARTMENT AUDIO",
+				"trans": "AUDIO MIESZKANIA"
+			},
+			"personalPlayer": {
+				"eng": "PERSONAL PLAYER",
+				"trans": "Osobisty odtwarzacz"
+			}
 		},
 		"title": {
 			"eng": "JukeBox",
 			"trans": "Jukebox"
+		},
+		"trackList": {
+			"apartment": {
+				"eng": "Select Tape for Apartment",
+				"trans": "Wybierz taśmę do mieszkania"
+			},
+			"walkman": {
+				"eng": "Select Tape for Walkman",
+				"trans": "Wybierz taśmę do Walkmana"
+			}
 		},
 		"tracks": {
 			"afk": {
@@ -5503,9 +6048,9 @@
 					"level"
 				]
 			},
-			"description": {
-				"eng": "[Apartment]\n        Your cozy apartment in the city. your pets are waiting for you to come home.",
-				"trans": "[Mieszkanie]\nTwoje przytulne mieszkanie w mieście. Twoje zwierzęta czekają, aż wrócisz do domu."
+			"descriptionv2": {
+				"eng": "Your cozy apartment in the city. your pets are waiting for you to come home.",
+				"trans": "Twój przytulny apartament w centrum miasta. Pupile już czekają na Twój powrót."
 			},
 			"name": {
 				"eng": "My Apartment",
@@ -5519,9 +6064,9 @@
 			}
 		},
 		"coast": {
-			"description": {
-				"eng": "[Coast]\n        The beautiful coast a few kilometers away of downtown. The perfect place to relax and enjoy the sea breeze.",
-				"trans": "[Wybrzeże]  \n        Piękne wybrzeże kilka kilometrów od centrum. Idealne miejsce na relaks i cieszenie się morską bryzą."
+			"descriptionv2": {
+				"eng": "The beautiful coast a few kilometers away of downtown. The perfect place to relax and enjoy the sea breeze.",
+				"trans": "Przepiękny brzeg, po kilku kilometrach od centrum. Idealne miejsce do relaksu i cieszenia się morskim powiewem."
 			},
 			"name": {
 				"eng": "Crystal Sands",
@@ -5539,9 +6084,9 @@
 				"eng": "You need to join a gang to enter this area",
 				"trans": "Musisz dołączyć do gangu, aby wejść do tego obszaru"
 			},
-			"description": {
-				"eng": "[Gang]\n        The headquarters for you and your gang members to plan and execute your next operation",
-				"trans": "[Gang]\r\n        Siedziba główna dla Ciebie i członków Twojego gangu, aby zaplanować i przeprowadzić następną operację"
+			"descriptionv2": {
+				"eng": "The headquarters for you and your gang members to plan and execute your next operation",
+				"trans": "Główny punkt spotkań dla Ciebie i członków gangu, by planować i przeprowadzać kolejną operację"
 			},
 			"name": {
 				"eng": "Gang Headquarters",
@@ -5549,9 +6094,9 @@
 			}
 		},
 		"job": {
-			"description": {
-				"eng": "[Job Hub]\n        Here are many shops and businesses reside. The perfect location to hone and refine your skills.",
-				"trans": "[Centrum Pracy]\r\n        Miejsce w którym znajduje się wiele sklepów i firm. Perfekcyjne do wypróbowania swoich umiejętności."
+			"descriptionv2": {
+				"eng": "Here are many shops and businesses reside. The perfect location to hone and refine your skills.",
+				"trans": "Tutaj znajdują się liczne sklepy i firmy. Idealne miejsce na doskonalenie swoich umiejętności."
 			},
 			"name": {
 				"eng": "Shangri-La Commercial Area",
@@ -5565,9 +6110,9 @@
 			}
 		},
 		"mainHub": {
-			"description": {
-				"eng": "[Central Hub]\n        One of the busiest cities in the continent. Here you can find all sorts of people from around the globe.",
-				"trans": "[HUB centralny]\r\n Jedno z najbardziej ruchliwych miast na kontynencie. Można tu spotkać najróżniejszych ludzi z całego świata."
+			"descriptionv2": {
+				"eng": "One of the busiest cities in the continent. Here you can find all sorts of people from around the globe.",
+				"trans": "Jedno z najbardziej pulsujących miast kontynentu. Tutaj możesz spotkać ludzi ze wszystkich stron świata."
 			},
 			"name": {
 				"eng": "Shangri-La City center",
@@ -5623,9 +6168,9 @@
 			}
 		},
 		"market": {
-			"description": {
-				"eng": "[Player Market]\n        The famous market street in Shangri-La. Loads of market stalls fill the street.",
-				"trans": "[Targ Graczy]\r\n        Słynny targ uliczny w Shangri-La, gdzie mnóstwo straganów wypełnia ulicę.\r\n        Może uda Ci się znaleźć coś, czego potrzebujesz lub samemu założyć sklep."
+			"descriptionv2": {
+				"eng": "The famous market street in Shangri-La. Loads of market stalls fill the street.",
+				"trans": "Słynna ulica targowa w Shangri‑La. Na niej rozciąga się mnóstwo straganów."
 			},
 			"name": {
 				"eng": "Shangri-La Market Street",
@@ -5689,13 +6234,43 @@
 			}
 		},
 		"station": {
-			"description": {
-				"eng": "[Adventure]\n        Using the hyperloop, you can travel at supersonic speed across the continent with ease.",
-				"trans": "[Przygoda]\r\n        Korzystając z hyperloop, możesz podróżować z ultradźwiękową prędkością przez kontynent."
+			"descriptionv2": {
+				"eng": "Using the hyperloop, you can travel at supersonic speed across the continent with ease.",
+				"trans": "Wykorzystując hyperloop, podróżujesz z prędkością naddźwiękową po całym kontynencie bez żadnego trudu."
 			},
 			"name": {
 				"eng": "Hyper Train Central Station",
 				"trans": "Dworzec Centralny Hyper Train"
+			}
+		},
+		"tag": {
+			"adventure": {
+				"eng": "Adventure",
+				"trans": "Przygoda"
+			},
+			"apartment": {
+				"eng": "Apartment",
+				"trans": "Mieszkanie"
+			},
+			"centralHub": {
+				"eng": "Central Hub",
+				"trans": "Centralny Hub"
+			},
+			"coast": {
+				"eng": "Coast",
+				"trans": "Wybrzeże"
+			},
+			"gang": {
+				"eng": "Gang",
+				"trans": "Gang"
+			},
+			"jobHub": {
+				"eng": "Job Hub",
+				"trans": "Centrum Zadań"
+			},
+			"playerMarket": {
+				"eng": "Player Market",
+				"trans": "Rynek graczy"
 			}
 		},
 		"zone": {
@@ -5805,15 +6380,6 @@
 			"vars": [
 				"limit",
 				"hours"
-			]
-		}
-	},
-	"mailRoomContent": {
-		"time": {
-			"eng": "${time} ago",
-			"trans": "${time} temu",
-			"vars": [
-				"time"
 			]
 		}
 	},
@@ -6330,6 +6896,12 @@
 				"trans": "Przejęcie Obwodu Neuronalnego"
 			}
 		},
+		"common": {
+			"retry": {
+				"eng": "RETRY",
+				"trans": "Spróbuj ponownie"
+			}
+		},
 		"dataStream": {
 			"instructions": {
 				"eng": "INTERCEPT VALID DATA PACKETS [GLOWING] // AVOID CORRUPTED ONES",
@@ -6338,6 +6910,82 @@
 			"title": {
 				"eng": "Data Stream Interceptor",
 				"trans": "Przechwytywacz Strumienia Danych"
+			}
+		},
+		"hexBuffer": {
+			"fail": {
+				"desc": {
+					"eng": "Connection Terminated",
+					"trans": "Połączenie przerwane"
+				},
+				"title": {
+					"eng": "BREACH FAILED",
+					"trans": "Naruszenie nieudane"
+				}
+			},
+			"hint": {
+				"col": {
+					"eng": "Select a code from the highlighted COLUMN",
+					"trans": "Wybierz kod z podświetlonej kolumny"
+				},
+				"row": {
+					"eng": "Select a code from the highlighted ROW",
+					"trans": "Wybierz kod z wyróżnionego wiersza"
+				}
+			},
+			"win": {
+				"desc": {
+					"eng": "Access Granted",
+					"trans": "Dostęp udzielony!"
+				},
+				"title": {
+					"eng": "BREACH SUCCESS",
+					"trans": "Udane przełamanie"
+				}
+			}
+		},
+		"relayGrid": {
+			"clearAll": {
+				"eng": "CLEAR",
+				"trans": "Wyczyść"
+			},
+			"clearConfirm": {
+				"eng": "CONFIRM?",
+				"trans": "Potwierdź?"
+			},
+			"hint": {
+				"detail": {
+					"eng": "Paths cannot cross - avoid broken nodes",
+					"trans": "Ścieżki nie mogą się przecinać – unikaj uszkodzonych węzłów"
+				},
+				"eng": "ACTIVATE NODES TO CREATE PATHS",
+				"trans": "Aktywuj węzły, aby utworzyć ścieżki"
+			},
+			"instructions": {
+				"eng": "Connect all signals - paths cannot cross",
+				"trans": "Połącz wszystkie sygnały – ścieżki nie mogą się przecinać"
+			},
+			"smartHint": {
+				"dismiss": {
+					"eng": "[ TAP TO DISMISS ]",
+					"trans": "Kliknij, by zamknąć"
+				},
+				"eng": "Paths cannot share nodes - route around obstacles",
+				"trans": "Ścieżki nie mogą współdzielić węzłów – przejedź wokół przeszkód"
+			},
+			"undo": {
+				"eng": "UNDO",
+				"trans": "Cofnij"
+			},
+			"win": {
+				"description": {
+					"eng": "All routes established",
+					"trans": "Wszystkie trasy ustalone"
+				},
+				"title": {
+					"eng": "MISSION COMPLETE",
+					"trans": "MISJA ZAKOŃCZONA"
+				}
 			}
 		},
 		"sequenceHack": {
@@ -7469,6 +8117,44 @@
 			}
 		}
 	},
+	"offSeasonInfoModal": {
+		"footer": {
+			"eng": "This compromise allows access while preserving the spirit of our events.",
+			"trans": "To kompromis umożliwia dostęp, jednocześnie zachowując ducha naszych wydarzeń."
+		},
+		"intro": {
+			"eng": "Seasonal chat frames are designed as seasonal exclusive limited-time cosmetics.",
+			"trans": "Sezonowe ramki czatów to ekskluzywne kosmetyki dostępne tylko na określony czas."
+		},
+		"reasonConvenience": {
+			"eng": "Convenience: Bypassing the standard event schedule.",
+			"trans": "Wygoda: Pomijamy standardowy harmonogram wydarzeń."
+		},
+		"reasonFairness": {
+			"eng": "Fairness: Honors the dedication of players who participated during the original event.",
+			"trans": "Sprawiedliwość: Uznanie zaangażowania graczy, którzy uczestniczyli w pierwotnym wydarzeniu."
+		},
+		"reasonValue": {
+			"eng": "Event Value: Maintains the prestige and incentive to unlock cosmetics during the live rotation.",
+			"trans": "Wartość eventu: utrzymuje prestiż i motywację do odblokowywania kosmetyków w trakcie bieżącej rotacji."
+		},
+		"title": {
+			"eng": "Off-Season Collection",
+			"trans": "Kolekcja poza sezonem"
+		},
+		"whyAllowedBody": {
+			"eng": "Due to popular demand, we are opening the archives. We heard your requests for specific frames that are currently out of rotation and didn't want you to wait forever!",
+			"trans": "Z powodu ogromnego zainteresowania otwieramy archiwa. Słyszeliśmy wasze prośby o konkretne ramki, które są obecnie poza rotacją i nie chcieliśmy, żebyście musieli czekać wiecznie!"
+		},
+		"whyAllowedTitle": {
+			"eng": "Why are they available now?",
+			"trans": "Dlaczego są dostępne teraz?"
+		},
+		"whyFee": {
+			"eng": "Why is there a vault fee?",
+			"trans": "Dlaczego pobieramy opłatę za sejf?"
+		}
+	},
 	"pet": {
 		"adopted": {
 			"eng": "${player} has adopted ${pet}",
@@ -7811,6 +8497,13 @@
 		"noPet": {
 			"eng": "You have no pet yet",
 			"trans": "Nie masz jeszcze zwierzaka domowego"
+		},
+		"noPetOther": {
+			"eng": "${playerName} has no pets",
+			"trans": "${playerName} nie ma żadnych pupili",
+			"vars": [
+				"playerName"
+			]
 		}
 	},
 	"petReviveModal": {
@@ -7941,6 +8634,10 @@
 				"eng": "Invalid Travel Link, if persist please reload",
 				"trans": "Nieprawidłowy link do podróży, jeśli się utrzymuje, ponownie załaduj"
 			},
+			"muted": {
+				"eng": "You are muted",
+				"trans": "Jesteś wyciszony"
+			},
 			"notInBattle": {
 				"eng": "You are not in battle.",
 				"trans": "Nie jesteś w bitwie."
@@ -7997,6 +8694,30 @@
 				"eng": "Thank you for completing the survey, the rewards have been sent to your item inbox, you can access the inbox from the inventory tab",
 				"trans": "Dzięki za wypełnienie ankiety, nagrody zostały wysłane do twojej skrzynki z przedmiotami, możesz uzyskać do niej dostęp z zakładki inwentarz"
 			}
+		}
+	},
+	"playerApartmentPage": {
+		"noApartment": {
+			"eng": "${playerName} doesn't have an apartment",
+			"trans": "${playerName} nie ma własnego mieszkania",
+			"vars": [
+				"playerName"
+			]
+		},
+		"title": {
+			"eng": "${playerName}'s Apartment",
+			"trans": "Mieszkanie ${playerName}",
+			"vars": [
+				"playerName"
+			]
+		},
+		"viewFurniture": {
+			"eng": "View Furniture",
+			"trans": "Zobacz meble"
+		},
+		"viewPets": {
+			"eng": "View Pets",
+			"trans": "Zobacz zwierzęta"
 		}
 	},
 	"playerDetailsAssetsTab": {
@@ -8152,17 +8873,9 @@
 				"eng": "Active Furniture",
 				"trans": "Aktywne meble"
 			},
-			"collection": {
-				"eng": "Collection",
-				"trans": "Kolekcja"
-			},
 			"noActiveFurniture": {
 				"eng": "No furniture currently active in slots",
 				"trans": "Brak aktywnych mebli w slotach"
-			},
-			"title": {
-				"eng": "Furniture",
-				"trans": "Meble"
 			},
 			"viewCollection": {
 				"eng": "${count} Owned",
@@ -9014,6 +9727,73 @@
 		"unknown": {
 			"eng": "Unknown Items",
 			"trans": "Nieznane Przedmioty"
+		}
+	},
+	"rewardDisplay": {
+		"exp": {
+			"eng": "${amount} ${levelType} exp",
+			"trans": "${amount} ${levelType} XP",
+			"vars": [
+				"amount",
+				"levelType"
+			]
+		},
+		"gangExp": {
+			"eng": "${clanExp} gang exp",
+			"trans": "${clanExp} punkty gangowe",
+			"vars": [
+				"clanExp"
+			]
+		},
+		"gangFunding": {
+			"eng": "${clanMoney} gang funding",
+			"trans": "${clanMoney} funduszy klanu",
+			"vars": [
+				"clanMoney"
+			]
+		},
+		"gangOccupationPoint": {
+			"eng": "${clanOccupationPoint} Occupation Control",
+			"trans": "${clanOccupationPoint} Kontrola zajętości",
+			"vars": [
+				"clanOccupationPoint"
+			]
+		},
+		"gangResource": {
+			"eng": "${clanResource} gang resource",
+			"trans": "${clanResource} zasób klanu",
+			"vars": [
+				"clanResource"
+			]
+		},
+		"globalQuestPoint": {
+			"eng": "${globalQuestPoint} SL Data Fortress breach progress",
+			"trans": "${globalQuestPoint} SL Postęp w przełamaniu Fortecy Danych",
+			"vars": [
+				"globalQuestPoint"
+			]
+		},
+		"health": {
+			"eng": "+${health} Health",
+			"trans": "+${health} Zdrowie",
+			"vars": [
+				"health"
+			]
+		},
+		"shield": {
+			"eng": "+${shield} Shield",
+			"trans": "+${shield} Pancerz",
+			"vars": [
+				"shield"
+			]
+		},
+		"statusEffectDuration": {
+			"eng": "${effect} for ${duration}",
+			"trans": "${effect} na ${duration}",
+			"vars": [
+				"effect",
+				"duration"
+			]
 		}
 	},
 	"sakuraPromo": {
@@ -10510,7 +11290,7 @@
 				"trans": "Anuluj"
 			},
 			"abortWarning": {
-				"eng": "By aborting this you won\\'t receive any reward and the material used won\\'t be returned",
+				"eng": "By aborting this you won't receive any reward and the material used won't be returned",
 				"trans": "Przerywając to, nie otrzymasz żadnej nagrody, a użyty materiał nie zostanie zwrócony!"
 			},
 			"abortWarningTitle": {
@@ -11944,13 +12724,6 @@
 			}
 		},
 		"map": {
-			"hiddenNpcTip": {
-				"eng": "${hiddenCount} more interactables can be unlocked at this location, level up to unlock them.",
-				"trans": "$Możesz odblokować {hiddenCount} nowe interakcje w tej lokalizacji, podnieś swój poziom, aby je odblokować.",
-				"vars": [
-					"hiddenCount"
-				]
-			},
 			"hideLowerLevelTravels": {
 				"eng": "Hide lower levels",
 				"trans": "Ukryj niższe poziomy"
@@ -12724,6 +13497,16 @@
 				"title": {
 					"eng": "Disable Victory Screen",
 					"trans": "Wyłącz Ekran Zwycięstwa"
+				}
+			},
+			"enableApartmentWall": {
+				"description": {
+					"eng": "Allow others to post on your apartment wall",
+					"trans": "Pozwól innym publikować na Twojej ścianie mieszkania"
+				},
+				"title": {
+					"eng": "Enable Apartment Wall",
+					"trans": "Włącz ścianę w apartamencie"
 				}
 			},
 			"enableBackgroundMusic": {

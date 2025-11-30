@@ -590,6 +590,16 @@
 				"trans": "상그릴라"
 			}
 		},
+		"deleteNoteConfirm": {
+			"eng": "Delete this note?",
+			"trans": "이 노트를 삭제할까요?"
+		},
+		"error": {
+			"noApartment": {
+				"eng": "You don't have an apartment",
+				"trans": "아파트가 없어요"
+			}
+		},
 		"furniture": {
 			"eng": "Furniture",
 			"trans": "가구"
@@ -598,13 +608,68 @@
 			"eng": "Furniture Slots",
 			"trans": "가구 슬롯"
 		},
+		"getStickerHint": {
+			"eng": "Friendship Stickers can be obtained from quests and events.",
+			"trans": "퀘스트와 이벤트에서 친구 스티커를 획득할 수 있어요."
+		},
 		"jukeBox": {
 			"eng": "JukeBox",
 			"trans": "주크박스"
 		},
+		"leaveNote": {
+			"eng": "Leave a Note",
+			"trans": "메모 남기기"
+		},
+		"noNotes": {
+			"eng": "NO DATA FOUND // BE THE FIRST",
+			"trans": "자료를 찾을 수 없어요 // 첫 번째 작성자가 되어보세요"
+		},
+		"noSticker": {
+			"eng": "You need a Friendship Sticker to post a note!",
+			"trans": "노트 올리려면 친구 스티커가 필요해요!"
+		},
+		"notePlaceholder": {
+			"eng": "Write something nice... (Max 128 chars)",
+			"trans": "여기에 멋진 글을 적어보세요... (최대 128자)"
+		},
 		"petSlots": {
 			"eng": "Pet Slots",
 			"trans": "펫 슬롯"
+		},
+		"post": {
+			"eng": "Post",
+			"trans": "게시물"
+		},
+		"postNote": {
+			"error": {
+				"contentTooLong": {
+					"eng": "Content too long or empty",
+					"trans": "내용이 너무 길거나 비어 있습니다"
+				},
+				"negativeSentiment": {
+					"eng": "Message is flagged by AI, only friendly content is allowed.",
+					"trans": "AI에 의해 메시지가 플래그 처리되었습니다. 친절한 내용만 허용돼요."
+				},
+				"noItem": {
+					"eng": "You need a ${itemName} to leave a note. ${itemName} can be obtained from quests and events.",
+					"trans": "노트를 남기려면 ${itemName}이 필요해요. ${itemName}은 퀘스트와 이벤트에서 얻을 수 있어요.",
+					"vars": [
+						"itemName"
+					]
+				},
+				"notFriends": {
+					"eng": "You must be friends with the owner to post",
+					"trans": "소유자와 친구가 되어야 게시할 수 있어요"
+				},
+				"ownerNotFound": {
+					"eng": "Owner not found",
+					"trans": "소유자를 찾을 수 없습니다"
+				},
+				"restricted": {
+					"eng": "This player has disabled their wall",
+					"trans": "이 플레이어는 벽을 비활성화했습니다"
+				}
+			}
 		},
 		"rent": {
 			"paidMail": {
@@ -627,6 +692,17 @@
 				"rentalDueDate"
 			]
 		},
+		"stickerCount": {
+			"eng": "You have: ${count}",
+			"trans": "보유: ${count}개",
+			"vars": [
+				"count"
+			]
+		},
+		"stickerRequired": {
+			"eng": "Friendship Sticker Required",
+			"trans": "친구 스티커 필요"
+		},
 		"terminateLease": {
 			"eng": "Terminate Lease",
 			"trans": "임대 계약 해지"
@@ -645,12 +721,24 @@
 		"viewPets": {
 			"eng": "View Pets",
 			"trans": "애완동물 보기"
+		},
+		"wall": {
+			"eng": "Apartment Wall",
+			"trans": "아파트 벽"
+		},
+		"wallDisabled": {
+			"eng": "WALL // DISABLED",
+			"trans": "벽 // 비활성화"
 		}
 	},
 	"apartmentMarket": {
 		"title": {
 			"eng": "Apartment Market",
 			"trans": "아파트 시장"
+		},
+		"week": {
+			"eng": "WEEK",
+			"trans": "주"
 		}
 	},
 	"artPromo": {
@@ -1209,6 +1297,336 @@
 			"trans": "크리스마스 이벤트!"
 		}
 	},
+	"christmasWorkshop": {
+		"button": {
+			"subtitle": {
+				"eng": "SORT GIFTS & EARN REWARDS",
+				"trans": "선물 정리하고 보상 받기"
+			},
+			"title": {
+				"eng": "CYBERSANTA'S WORKSHOP",
+				"trans": "사이버 산타의 워크숍"
+			}
+		},
+		"commentary": {
+			"combo1": {
+				"eng": "Efficiency Spiking!",
+				"trans": "효율 급상승!"
+			},
+			"combo2": {
+				"eng": "Overclocked!",
+				"trans": "오버클럭 완료!"
+			},
+			"combo3": {
+				"eng": "MAXIMUM VELOCITY!",
+				"trans": "최대 속도!"
+			},
+			"combo4": {
+				"eng": "SYSTEMS CRITICAL!",
+				"trans": "시스템이 치명적입니다!"
+			},
+			"combo5": {
+				"eng": "GODLIKE PRECISION!",
+				"trans": "신과 같은 정확도!"
+			},
+			"finalWin1": {
+				"eng": "Mission Accomplished! Maximum Joy!",
+				"trans": "미션 완수! 최고의 즐거움!"
+			},
+			"finalWin2": {
+				"eng": "All systems nominal! You are a legend!",
+				"trans": "모든 시스템 작동 중! 넌 진짜 전설이야!"
+			},
+			"finalWin3": {
+				"eng": "Perfect execution! Happy Holidays!",
+				"trans": "완벽한 실행! 즐거운 휴일 보내세요!"
+			},
+			"positive1": {
+				"eng": "Optimal!",
+				"trans": "완벽해!"
+			},
+			"positive2": {
+				"eng": "Precise!",
+				"trans": "정확해요!"
+			},
+			"positive3": {
+				"eng": "Confirmed!",
+				"trans": "완료됐어!"
+			},
+			"positive4": {
+				"eng": "Smooth!",
+				"trans": "완전 부드러워!"
+			},
+			"positive5": {
+				"eng": "Efficient!",
+				"trans": "효율적이네!"
+			},
+			"positive6": {
+				"eng": "Target hit!",
+				"trans": "적중!"
+			},
+			"positive7": {
+				"eng": "Nice lock!",
+				"trans": "정확히 락했어!"
+			},
+			"stageComplete1": {
+				"eng": "Batch complete! Efficiency rising!",
+				"trans": "배치 끝났어요! 효율이 올랐어요!"
+			},
+			"stageComplete2": {
+				"eng": "Excellent processing! Next wave!",
+				"trans": "완벽한 처치! 다음 웨이브!"
+			},
+			"stageComplete3": {
+				"eng": "Protocol adherence: 100%!",
+				"trans": "프로토콜 준수율: 100%!"
+			},
+			"start1": {
+				"eng": "Protocol initiated. Sort incoming!",
+				"trans": "프로토콜 실행 완료! 들어오는 걸 정리해!"
+			},
+			"start2": {
+				"eng": "Systems online. Let's get sorting!",
+				"trans": "시스템이 온라인입니다! 정리 시작하자!"
+			},
+			"start3": {
+				"eng": "Workshop efficiency is in your hands!",
+				"trans": "워크숍 효율은 네 손에 달려 있어!"
+			},
+			"wrongSort1": {
+				"eng": "Error! Incorrect destination!",
+				"trans": "오류! 잘못된 목적지예요!"
+			},
+			"wrongSort2": {
+				"eng": "System alert! Wrong bin!",
+				"trans": "시스템 알림! 잘못된 통이에요!"
+			},
+			"wrongSort3": {
+				"eng": "Recalibrate your sensors!",
+				"trans": "센서 재조정!"
+			}
+		},
+		"countdown": {
+			"sortGifts": {
+				"eng": "TARGET: ${count} GIFTS",
+				"trans": "목표: ${count}개의 선물",
+				"vars": [
+					"count"
+				]
+			},
+			"stage": {
+				"eng": "STAGE ${stage}",
+				"trans": "스테이지 ${stage}",
+				"vars": [
+					"stage"
+				]
+			}
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The Christmas event has ended!",
+				"trans": "크리스마스 이벤트가 끝났어요!"
+			},
+			"noPass": {
+				"eng": "You need a Santa's Workshop Pass to play! Find them in dungeon chests or from AFK farming.",
+				"trans": "게임을 즐기려면 산타 워크숍 패스가 필수예요. 던전 보물상자나 AFK 팜에서 획득할 수 있어요!"
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "Close",
+				"trans": "닫기"
+			},
+			"message": {
+				"eng": "The game encountered an error. Don't worry - your Workshop Pass was not consumed!",
+				"trans": "오류가 발생했어요! 걱정 마세요, 워크숍 패스는 아직 소모되지 않았습니다"
+			},
+			"title": {
+				"eng": "Game Error",
+				"trans": "게임 오류"
+			}
+		},
+		"game": {
+			"combo": {
+				"eng": "Efficiency",
+				"trans": "효율성"
+			},
+			"stage": {
+				"eng": "Stage ${stage}/5",
+				"trans": "스테이지 ${stage}/5",
+				"vars": [
+					"stage"
+				]
+			},
+			"timeLabel": {
+				"eng": "Time Remaining",
+				"trans": "남은 시간"
+			},
+			"waiting": {
+				"eng": "AWAITING INPUT...",
+				"trans": "입력 대기 중…"
+			}
+		},
+		"gameOver": {
+			"close": {
+				"eng": "CLOSE TERMINAL",
+				"trans": "터미널 닫기"
+			},
+			"message": {
+				"eng": "ERROR AT STAGE ${stage}",
+				"trans": "스테이지 ${stage}에서 오류가 발생했습니다",
+				"vars": [
+					"stage"
+				]
+			},
+			"noProgress": {
+				"eng": "No stages completed. Pass integrity maintained.",
+				"trans": "단계 하나도 끝내지 못했어요! 통과 게이트는 여전히 완전해요."
+			},
+			"progress": {
+				"eng": "Protocol interrupted. ${completed} stages secured.",
+				"trans": "프로토콜이 중단됐어요. ${completed} 단계 확보 완료.",
+				"vars": [
+					"completed"
+				]
+			},
+			"title": {
+				"eng": "SYSTEM FAILURE",
+				"trans": "시스템 오류"
+			}
+		},
+		"giftType": {
+			"clothes": {
+				"eng": "Clothes",
+				"trans": "의류"
+			},
+			"food": {
+				"eng": "Food",
+				"trans": "음식"
+			},
+			"tech": {
+				"eng": "Tech",
+				"trans": "테크"
+			},
+			"toy": {
+				"eng": "Toys",
+				"trans": "장난감"
+			}
+		},
+		"intro": {
+			"eventEnded": {
+				"eng": "Event Ended",
+				"trans": "이벤트 종료"
+			},
+			"eventInactive": {
+				"eng": "Event is not currently active",
+				"trans": "지금은 이벤트가 진행 중이 아닙니다"
+			},
+			"howToGet": {
+				"eng": "Find passes in dungeon chests or from AFK farming during the event!",
+				"trans": "이벤트 기간에 던전 상자와 AFK 재배에서 패스를 찾아보세요!"
+			},
+			"howToPlay": {
+				"eng": "How to Play",
+				"trans": "플레이 방법"
+			},
+			"needPass": {
+				"eng": "Need Workshop Pass",
+				"trans": "워크숍 패스가 필요합니다"
+			},
+			"passesOwned": {
+				"eng": "Passes Owned:",
+				"trans": "보유 패스:"
+			},
+			"rule1": {
+				"eng": "• Swipe gifts to the correct sorting zones",
+				"trans": "선물을 적절한 정리 구역으로 스와이프하세요"
+			},
+			"rule2": {
+				"eng": "• Complete 5 progressive stages",
+				"trans": "• 다섯 단계 순서대로 클리어하세요"
+			},
+			"rule3": {
+				"eng": "• Each stage gets faster with more gifts",
+				"trans": "선물이 많아질수록 각 스테이지가 빨라집니다"
+			},
+			"rule4": {
+				"eng": "• Wrong swipes cost you 4 seconds",
+				"trans": "• 잘못된 스와이프로 4초를 잃습니다"
+			},
+			"rule5": {
+				"eng": "• Complete all stages for maximum rewards!",
+				"trans": "• 모든 단계를 클리어해 최고 보상을 받아보세요!"
+			},
+			"startButton": {
+				"eng": "Start Workshop",
+				"trans": "공방 열기"
+			},
+			"title": {
+				"eng": "Welcome to Santa's Workshop",
+				"trans": "산타의 워크숍에 오신 것을 환영합니다"
+			}
+		},
+		"loading": {
+			"message": {
+				"eng": "Preparing gifts for sorting...",
+				"trans": "선물 정리 준비 중이에요..."
+			},
+			"title": {
+				"eng": "Loading Workshop...",
+				"trans": "워크숍 로딩 중..."
+			}
+		},
+		"pleaseWait": {
+			"eng": "ESTABLISHING CONNECTION",
+			"trans": "연결 중입니다"
+		},
+		"processing": {
+			"eng": "SYNCHRONIZING...",
+			"trans": "동기화 중…"
+		},
+		"results": {
+			"close": {
+				"eng": "CLOSE REPORT",
+				"trans": "리포트 닫기"
+			},
+			"goodJob": {
+				"eng": "Good effort. Re-engage for maximum rewards.",
+				"trans": "수고했어요! 최대 보상을 위해 재참여하세요."
+			},
+			"rewards": {
+				"eng": "REWARDS ACQUIRED",
+				"trans": "보상 획득"
+			}
+		},
+		"stageComplete": {
+			"continue": {
+				"eng": "INITIATE STAGE ${next}",
+				"trans": "다음 스테이지(${next}) 진행",
+				"vars": [
+					"next"
+				]
+			},
+			"nextStage": {
+				"eng": "Efficiency ratings optimal. Initializing Stage ${next} sequence...",
+				"trans": "효율성 지표가 최적입니다. 스테이지 ${next} 시퀀스를 초기화 중…",
+				"vars": [
+					"next"
+				]
+			},
+			"stage": {
+				"eng": "STAGE ${stage} CLEARED",
+				"trans": "스테이지 ${stage} 클리어",
+				"vars": [
+					"stage"
+				]
+			},
+			"title": {
+				"eng": "PROTOCOL COMPLETE",
+				"trans": "프로토콜 완료"
+			}
+		}
+	},
 	"clanMemberSort": {
 		"gangExp": {
 			"displayName": {
@@ -1285,13 +1703,39 @@
 		}
 	},
 	"common": {
+		"cancel": {
+			"eng": "Cancel",
+			"trans": "취소"
+		},
 		"close": {
 			"eng": "Close",
 			"trans": "닫기"
 		},
+		"confirm": {
+			"eng": "Are you sure?",
+			"trans": "확인"
+		},
 		"delete": {
 			"eng": "Delete",
 			"trans": "삭제"
+		},
+		"error": {
+			"permissionDenied": {
+				"eng": "Permission denied",
+				"trans": "권한 거부"
+			}
+		},
+		"gotIt": {
+			"eng": "Got it",
+			"trans": "알겠어요"
+		},
+		"owned": {
+			"eng": "Owned",
+			"trans": "보유"
+		},
+		"purchase": {
+			"eng": "Purchase",
+			"trans": "구매"
 		},
 		"save": {
 			"eng": "Save",
@@ -1317,6 +1761,10 @@
 			"eng": "Donation Tier Gallery",
 			"trans": "후원 타이틀 갤러리"
 		},
+		"confirmPurchase": {
+			"eng": "Unlock Chat Frame",
+			"trans": "채팅 프레임 잠금 해제"
+		},
 		"donationTire": {
 			"eng": "Select Frame",
 			"trans": "프레임 선택하기"
@@ -1332,6 +1780,17 @@
 			"eng": "Show how others see you",
 			"trans": "다른 사람에게 보이는 모습"
 		},
+		"offSeason": {
+			"eng": "Off-Season",
+			"trans": "오프 시즌"
+		},
+		"offSeasonNotice": {
+			"eng": "*Off-Season chat frames have a +${percent}% cost",
+			"trans": "* 오프시즌 챗 프레임 사용 시 +${percent}% 추가비용이 부과됩니다",
+			"vars": [
+				"percent"
+			]
+		},
 		"ownedFrames": {
 			"eng": "Donation Tier Owned: [${owned}/${total}]",
 			"trans": "보유한 후원 타이틀: [${owned}/${total}]",
@@ -1339,6 +1798,10 @@
 				"owned",
 				"total"
 			]
+		},
+		"previewText": {
+			"eng": "This is how you will look!",
+			"trans": "이게 바로 네 모습이야!"
 		}
 	},
 	"cosmeticSettingPage": {
@@ -1768,6 +2231,10 @@
 		"donation45": {
 			"eng": "Vice City",
 			"trans": "바이스 시티"
+		},
+		"donation46": {
+			"eng": "Candycane",
+			"trans": "캔디케인"
 		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
@@ -2674,6 +3141,10 @@
 		"noAvailableDesc": {
 			"eng": "You don't have any unassigned furniture. All your furniture is already assigned to slots.",
 			"trans": "배정되지 않은 가구가 없습니다. 가지고 있는 가구는 모두 슬롯에 들어 있습니다."
+		},
+		"noSlots": {
+			"eng": "This apartment tier does not have any furniture slots. Upgrade to a higher tier to unlock them.",
+			"trans": "현재 아파트 등급에는 가구 슬롯이 없습니다. 상위 등급으로 업그레이드하면 열릴 거예요."
 		},
 		"owned": {
 			"eng": "Owned",
@@ -3884,7 +4355,7 @@
 		},
 		"christmasToken": {
 			"description": {
-				"eng": "FrostByte Shards are fragments of Cybersanta’s corrupted Winter Protocol, packed with enough festive energy to keep his systems running—and his biceps flexing all season long",
+				"eng": "FrostByte Shards are fragments of Cybersanta's corrupted Winter Protocol, packed with enough festive energy to keep his systems running—and his biceps flexing all season long",
 				"trans": "프로스트바이트 샤드는 사이버산타의 손상된 겨울 프로토콜의 파편으로, 그의 시스템을 계속 가동하고 시즌 내내 팔뚝을 휘게 할 만큼의 축제 에너지로 가득 차 있습니다."
 			},
 			"name": {
@@ -4043,6 +4514,16 @@
 			"name": {
 				"eng": "Flash Grenade",
 				"trans": "섬광탄"
+			}
+		},
+		"friendshipSticker": {
+			"desc": {
+				"eng": "A colorful sticker that symbolizes friendship and connection. Required to leave notes on friends' apartment walls. These special stickers help maintain positive interactions in the community.",
+				"trans": "친구와의 연결을 상징하는 화려한 스티커예요. 친구 아파트 벽에 메모를 붙일 때 꼭 필요하죠. 이 특별한 스티커 덕분에 커뮤니티에서 긍정적인 분위기를 유지할 수 있어요."
+			},
+			"name": {
+				"eng": "Friendship Sticker",
+				"trans": "우정 스티커"
 			}
 		},
 		"globalPartyBuff": {
@@ -4634,6 +5115,16 @@
 				"trans": "장미꽃다발"
 			}
 		},
+		"santaWorkshopPass": {
+			"description": {
+				"eng": "A holographic pass to CyberSanta's Workshop. Complete festive sorting challenges to earn rewards! 'Work hard, gift harder!' - CyberSanta",
+				"trans": "사이버산타 워크숍 입장권(홀로그램). 축제 분위기가 물씬 나는 분류 챌린지를 완료하면 보상을 얻을 수 있어요! '열심히 일하고, 선물은 더 열심히!' - 사이버산타"
+			},
+			"name": {
+				"eng": "Santa's Workshop Pass",
+				"trans": "산타 작업장 패스"
+			}
+		},
 		"seashell": {
 			"description": {
 				"eng": "A beautiful seashell that can be used to exchange items with Josie",
@@ -5140,27 +5631,85 @@
 		}
 	},
 	"jukeBox": {
-		"override": {
+		"apartment": {
 			"description": {
-				"eng": "Force system-wide playback of selected track",
-				"trans": "선택한 트랙을 시스템 전역에서 강제로 재생합니다"
+				"eng": "Playing for visitors in your apartment",
+				"trans": "아파트 방문객을 위한 음악 재생"
+			},
+			"noChanges": {
+				"eng": "NO CHANGES",
+				"trans": "변경 없음"
+			},
+			"saveButton": {
+				"eng": "SAVE CONFIGURATION",
+				"trans": "설정 저장"
 			},
 			"title": {
-				"eng": "Music Override Engaged",
+				"eng": "Apartment Broadcast",
+				"trans": "아파트 방송"
+			}
+		},
+		"badge": {
+			"active": {
+				"eng": "ACTIVE",
+				"trans": "활성"
+			},
+			"apartment": {
+				"eng": "APT",
+				"trans": "아파트"
+			},
+			"override": {
+				"eng": "OVR",
+				"trans": "오버라이드"
+			}
+		},
+		"mode": {
+			"homeSpeaker": {
+				"eng": "HOME SPEAKER",
+				"trans": "홈 스피커"
+			},
+			"walkman": {
+				"eng": "WALKMAN MODE",
+				"trans": "워크맨 모드"
+			}
+		},
+		"override": {
+			"description": {
+				"eng": "Play this track everywhere you go",
+				"trans": "선택한 트랙을 시스템 전역에서 강제로 재생합니다"
+			},
+			"label": {
+				"eng": "Override",
+				"trans": "덮어쓰기"
+			},
+			"title": {
+				"eng": "Override Enabled",
 				"trans": "음악 오버라이드 적용"
 			}
 		},
-		"selectTrack": {
-			"eng": "Select Audio Track",
-			"trans": "사운드 트랙 선택"
-		},
-		"tip": {
-			"eng": "Customize your apartment's background music by selecting tracks and enabling override to replace location-based audio.",
-			"trans": "아파트의 BGM을 선택한 트랙으로 커스텀하고 오버라이드로 위치별 오디오를 대체하세요."
+		"slot": {
+			"apartmentAudio": {
+				"eng": "APARTMENT AUDIO",
+				"trans": "아파트 오디오"
+			},
+			"personalPlayer": {
+				"eng": "PERSONAL PLAYER",
+				"trans": "내 플레이어"
+			}
 		},
 		"title": {
 			"eng": "JukeBox",
 			"trans": "주크박스"
+		},
+		"trackList": {
+			"apartment": {
+				"eng": "Select Tape for Apartment",
+				"trans": "아파트용 테이프를 선택하세요"
+			},
+			"walkman": {
+				"eng": "Select Tape for Walkman",
+				"trans": "Walkman에 넣을 테이프를 고르세요"
+			}
 		},
 		"tracks": {
 			"afk": {
@@ -5499,9 +6048,9 @@
 					"level"
 				]
 			},
-			"description": {
-				"eng": "[Apartment]\n        Your cozy apartment in the city. your pets are waiting for you to come home.",
-				"trans": "[아파트]\r\n        도시 속 아늑한 아파트. 당신의 애완동물들이 당신이 집에 오길 기다리고 있습니다."
+			"descriptionv2": {
+				"eng": "Your cozy apartment in the city. your pets are waiting for you to come home.",
+				"trans": "도심 속 아늑한 아파트에 오셨군요! 반려동물들이 당신이 돌아오는 걸 손꼽아 기다리고 있어요."
 			},
 			"name": {
 				"eng": "My Apartment",
@@ -5515,9 +6064,9 @@
 			}
 		},
 		"coast": {
-			"description": {
-				"eng": "[Coast]\n        The beautiful coast a few kilometers away of downtown. The perfect place to relax and enjoy the sea breeze.",
-				"trans": "[해안]\r\n        도심에서 몇 킬로미터 떨어진 곳에 위치한 아름다운 해안입니다.\n바닷바람을 만끽하며 휴식을 취하기 가장 완벽한 장소입니다."
+			"descriptionv2": {
+				"eng": "The beautiful coast a few kilometers away of downtown. The perfect place to relax and enjoy the sea breeze.",
+				"trans": "도심에서 몇 킬로미터 떨어진 아름다운 해안가입니다. 바닷바람을 맡으며 휴식을 즐길 수 있는 완벽한 장소죠."
 			},
 			"name": {
 				"eng": "Crystal Sands",
@@ -5535,9 +6084,9 @@
 				"eng": "You need to join a gang to enter this area",
 				"trans": "이 구역에 들어가기 위해서는 갱에 가입해야 합니다"
 			},
-			"description": {
-				"eng": "[Gang]\n        The headquarters for you and your gang members to plan and execute your next operation",
-				"trans": "[갱단] \r\n         당신과 당신의 갱 조직원들이 작전을 세우고 실행하기 위한 본부입니다"
+			"descriptionv2": {
+				"eng": "The headquarters for you and your gang members to plan and execute your next operation",
+				"trans": "당신과 갱단원들이 다음 작전을 기획하고 실행하는 본부입니다"
 			},
 			"name": {
 				"eng": "Gang Headquarters",
@@ -5545,9 +6094,9 @@
 			}
 		},
 		"job": {
-			"description": {
-				"eng": "[Job Hub]\n        Here are many shops and businesses reside. The perfect location to hone and refine your skills.",
-				"trans": "[일자리 허브]\r\n        이곳에는 수많은 기업과 상점들이 있으며, 기술을 갈고 닦기에 완벽한 곳입니다."
+			"descriptionv2": {
+				"eng": "Here are many shops and businesses reside. The perfect location to hone and refine your skills.",
+				"trans": "여기에 많은 상점과 업소가 모여 있어요. 스킬을 갈아내고 다듬기에 최적의 장소죠."
 			},
 			"name": {
 				"eng": "Shangri-La Commercial Area",
@@ -5561,9 +6110,9 @@
 			}
 		},
 		"mainHub": {
-			"description": {
-				"eng": "[Central Hub]\n        One of the busiest cities in the continent. Here you can find all sorts of people from around the globe.",
-				"trans": "[중앙 허브]\r\n        샹그릴라는 이 대륙에서 가장 번화한 도시들 중 하나이며, 세계 각지에서 온 다양한 사람을 만날 수 있는 곳이다"
+			"descriptionv2": {
+				"eng": "One of the busiest cities in the continent. Here you can find all sorts of people from around the globe.",
+				"trans": "대륙에서 가장 번화한 도시 중 하나야. 여기서는 전 세계의 다양한 사람들을 만나볼 수 있어."
 			},
 			"name": {
 				"eng": "Shangri-La City center",
@@ -5619,9 +6168,9 @@
 			}
 		},
 		"market": {
-			"description": {
-				"eng": "[Player Market]\n        The famous market street in Shangri-La. Loads of market stalls fill the street.",
-				"trans": "[플레이어 마켓]\r\n        샹그릴라에서 가장 유명한 시장 거리이며, 각종 상점들이 거리를 가득 메우고 있습니다. \r\n        필요한 물건을 찾거나 직접 상점을 열 수도 있습니다."
+			"descriptionv2": {
+				"eng": "The famous market street in Shangri-La. Loads of market stalls fill the street.",
+				"trans": "샹그리-라에서 가장 인기 있는 마켓거리. 무수히 많은 상점들이 길을 가득 메워요."
 			},
 			"name": {
 				"eng": "Shangri-La Market Street",
@@ -5685,13 +6234,43 @@
 			}
 		},
 		"station": {
-			"description": {
-				"eng": "[Adventure]\n        Using the hyperloop, you can travel at supersonic speed across the continent with ease.",
-				"trans": "[모험]\r\n        하이퍼루프를 이용하면 대륙을 초음속으로 쉽게 횡단할 수 있습니다."
+			"descriptionv2": {
+				"eng": "Using the hyperloop, you can travel at supersonic speed across the continent with ease.",
+				"trans": "하이퍼루프를 이용하면 초음속으로 대륙 전체를 편리하게 여행할 수 있습니다."
 			},
 			"name": {
 				"eng": "Hyper Train Central Station",
 				"trans": "하이퍼트레인 중앙역"
+			}
+		},
+		"tag": {
+			"adventure": {
+				"eng": "Adventure",
+				"trans": "모험"
+			},
+			"apartment": {
+				"eng": "Apartment",
+				"trans": "아파트"
+			},
+			"centralHub": {
+				"eng": "Central Hub",
+				"trans": "중앙 허브"
+			},
+			"coast": {
+				"eng": "Coast",
+				"trans": "해안"
+			},
+			"gang": {
+				"eng": "Gang",
+				"trans": "갱단"
+			},
+			"jobHub": {
+				"eng": "Job Hub",
+				"trans": "작업 허브"
+			},
+			"playerMarket": {
+				"eng": "Player Market",
+				"trans": "플레이어 마켓"
 			}
 		},
 		"zone": {
@@ -5801,15 +6380,6 @@
 			"vars": [
 				"limit",
 				"hours"
-			]
-		}
-	},
-	"mailRoomContent": {
-		"time": {
-			"eng": "${time} ago",
-			"trans": "${time} 전",
-			"vars": [
-				"time"
 			]
 		}
 	},
@@ -6326,6 +6896,12 @@
 				"trans": "신경 회로 재정의"
 			}
 		},
+		"common": {
+			"retry": {
+				"eng": "RETRY",
+				"trans": "다시 시도"
+			}
+		},
 		"dataStream": {
 			"instructions": {
 				"eng": "INTERCEPT VALID DATA PACKETS [GLOWING] // AVOID CORRUPTED ONES",
@@ -6334,6 +6910,82 @@
 			"title": {
 				"eng": "Data Stream Interceptor",
 				"trans": "데이터 스트림 방해공작"
+			}
+		},
+		"hexBuffer": {
+			"fail": {
+				"desc": {
+					"eng": "Connection Terminated",
+					"trans": "연결이 끊어졌습니다"
+				},
+				"title": {
+					"eng": "BREACH FAILED",
+					"trans": "침투 실패"
+				}
+			},
+			"hint": {
+				"col": {
+					"eng": "Select a code from the highlighted COLUMN",
+					"trans": "하이라이트된 열에서 코드 하나를 고르세요!"
+				},
+				"row": {
+					"eng": "Select a code from the highlighted ROW",
+					"trans": "강조 표시된 행에서 코드를 선택하세요"
+				}
+			},
+			"win": {
+				"desc": {
+					"eng": "Access Granted",
+					"trans": "접속 승인"
+				},
+				"title": {
+					"eng": "BREACH SUCCESS",
+					"trans": "해킹 성공!"
+				}
+			}
+		},
+		"relayGrid": {
+			"clearAll": {
+				"eng": "CLEAR",
+				"trans": "전체 초기화"
+			},
+			"clearConfirm": {
+				"eng": "CONFIRM?",
+				"trans": "확인?"
+			},
+			"hint": {
+				"detail": {
+					"eng": "Paths cannot cross - avoid broken nodes",
+					"trans": "경로는 교차할 수 없습니다 – 깨진 노드를 피하세요"
+				},
+				"eng": "ACTIVATE NODES TO CREATE PATHS",
+				"trans": "노드를 켜서 길을 만들어라!"
+			},
+			"instructions": {
+				"eng": "Connect all signals - paths cannot cross",
+				"trans": "신호들을 모두 이어줘 – 선은 겹치면 안 돼"
+			},
+			"smartHint": {
+				"dismiss": {
+					"eng": "[ TAP TO DISMISS ]",
+					"trans": "닫으려면 탭하세요"
+				},
+				"eng": "Paths cannot share nodes - route around obstacles",
+				"trans": "경로는 노드를 공유할 수 없어요. 장애물을 피해서 길을 만들어 보세요"
+			},
+			"undo": {
+				"eng": "UNDO",
+				"trans": "되돌리기"
+			},
+			"win": {
+				"description": {
+					"eng": "All routes established",
+					"trans": "모든 경로가 연결되었습니다"
+				},
+				"title": {
+					"eng": "MISSION COMPLETE",
+					"trans": "미션 완료"
+				}
 			}
 		},
 		"sequenceHack": {
@@ -7561,6 +8213,44 @@
 			}
 		}
 	},
+	"offSeasonInfoModal": {
+		"footer": {
+			"eng": "This compromise allows access while preserving the spirit of our events.",
+			"trans": "이 타협은 접근을 허용하면서도 이벤트의 정신을 보존합니다."
+		},
+		"intro": {
+			"eng": "Seasonal chat frames are designed as seasonal exclusive limited-time cosmetics.",
+			"trans": "시즌별로만 사용 가능한 한정된 시간 동안 제공되는 독점적인 채팅 프레임입니다."
+		},
+		"reasonConvenience": {
+			"eng": "Convenience: Bypassing the standard event schedule.",
+			"trans": "편의성: 표준 이벤트 일정을 건너뛰기"
+		},
+		"reasonFairness": {
+			"eng": "Fairness: Honors the dedication of players who participated during the original event.",
+			"trans": "공정성: 원래 이벤트에 참여한 플레이어들의 헌신을 기립니다."
+		},
+		"reasonValue": {
+			"eng": "Event Value: Maintains the prestige and incentive to unlock cosmetics during the live rotation.",
+			"trans": "이벤트 점수는 라이브 회전 동안 코스미틱 언락의 명성과 보상을 지켜줍니다."
+		},
+		"title": {
+			"eng": "Off-Season Collection",
+			"trans": "오프 시즌 컬렉션"
+		},
+		"whyAllowedBody": {
+			"eng": "Due to popular demand, we are opening the archives. We heard your requests for specific frames that are currently out of rotation and didn't want you to wait forever!",
+			"trans": "인기 요청에 따라 아카이브를 열었습니다. 현재 회전 중이 아니던 특정 프레임을 원하신다고 들었으니, 여러분이 오래 기다리지 않도록 개방했어요!"
+		},
+		"whyAllowedTitle": {
+			"eng": "Why are they available now?",
+			"trans": "지금 왜 사용할 수 있나요?"
+		},
+		"whyFee": {
+			"eng": "Why is there a vault fee?",
+			"trans": "왜 보관소에 수수료가 부과돼요?"
+		}
+	},
 	"pet": {
 		"adopted": {
 			"eng": "${player} has adopted ${pet}",
@@ -7903,6 +8593,13 @@
 		"noPet": {
 			"eng": "You have no pet yet",
 			"trans": "아직 애완동물이 없습니다"
+		},
+		"noPetOther": {
+			"eng": "${playerName} has no pets",
+			"trans": "${playerName}은(는) 애완동물이 없어요",
+			"vars": [
+				"playerName"
+			]
 		}
 	},
 	"petReviveModal": {
@@ -8033,6 +8730,10 @@
 				"eng": "Invalid Travel Link, if persist please reload",
 				"trans": "유효하지 않은 링크입니다. 계속 진행하려면 새로고침하십시오"
 			},
+			"muted": {
+				"eng": "You are muted",
+				"trans": "음성 채널이 차단되었습니다"
+			},
 			"notInBattle": {
 				"eng": "You are not in battle.",
 				"trans": "당신은 전투 중이 아닙니다."
@@ -8089,6 +8790,30 @@
 				"eng": "Thank you for completing the survey, the rewards have been sent to your item inbox, you can access the inbox from the inventory tab",
 				"trans": "설문 조사를 완료해 주셔서 감사합니다. 보상은 우편함으로 전송되었습니다. 인벤토리 탭에서 우편함에 접근할 수 있습니다."
 			}
+		}
+	},
+	"playerApartmentPage": {
+		"noApartment": {
+			"eng": "${playerName} doesn't have an apartment",
+			"trans": "${playerName}은 아직 아파트가 없어요",
+			"vars": [
+				"playerName"
+			]
+		},
+		"title": {
+			"eng": "${playerName}'s Apartment",
+			"trans": "${playerName}의 아파트",
+			"vars": [
+				"playerName"
+			]
+		},
+		"viewFurniture": {
+			"eng": "View Furniture",
+			"trans": "가구 보기"
+		},
+		"viewPets": {
+			"eng": "View Pets",
+			"trans": "펫 보기"
 		}
 	},
 	"playerDetailsAssetsTab": {
@@ -8244,17 +8969,9 @@
 				"eng": "Active Furniture",
 				"trans": "활성 가구"
 			},
-			"collection": {
-				"eng": "Collection",
-				"trans": "수집품"
-			},
 			"noActiveFurniture": {
 				"eng": "No furniture currently active in slots",
 				"trans": "현재 슬롯에 가구가 없습니다"
-			},
-			"title": {
-				"eng": "Furniture",
-				"trans": "가구"
 			},
 			"viewCollection": {
 				"eng": "${count} Owned",
@@ -9106,6 +9823,73 @@
 		"unknown": {
 			"eng": "Unknown Items",
 			"trans": "무작위 아이템"
+		}
+	},
+	"rewardDisplay": {
+		"exp": {
+			"eng": "${amount} ${levelType} exp",
+			"trans": "${amount} ${levelType} 경험치",
+			"vars": [
+				"amount",
+				"levelType"
+			]
+		},
+		"gangExp": {
+			"eng": "${clanExp} gang exp",
+			"trans": "${clanExp} 갱크 경험치",
+			"vars": [
+				"clanExp"
+			]
+		},
+		"gangFunding": {
+			"eng": "${clanMoney} gang funding",
+			"trans": "${clanMoney} 갱단 자금",
+			"vars": [
+				"clanMoney"
+			]
+		},
+		"gangOccupationPoint": {
+			"eng": "${clanOccupationPoint} Occupation Control",
+			"trans": "${clanOccupationPoint} 클랜 점령 포인트",
+			"vars": [
+				"clanOccupationPoint"
+			]
+		},
+		"gangResource": {
+			"eng": "${clanResource} gang resource",
+			"trans": "${clanResource} 갱단 리소스",
+			"vars": [
+				"clanResource"
+			]
+		},
+		"globalQuestPoint": {
+			"eng": "${globalQuestPoint} SL Data Fortress breach progress",
+			"trans": "${globalQuestPoint} SL 데이터 포트리스 침입 진행도",
+			"vars": [
+				"globalQuestPoint"
+			]
+		},
+		"health": {
+			"eng": "+${health} Health",
+			"trans": "+${health} 체력",
+			"vars": [
+				"health"
+			]
+		},
+		"shield": {
+			"eng": "+${shield} Shield",
+			"trans": "+${shield} 방어막",
+			"vars": [
+				"shield"
+			]
+		},
+		"statusEffectDuration": {
+			"eng": "${effect} for ${duration}",
+			"trans": "${effect} ${duration}",
+			"vars": [
+				"effect",
+				"duration"
+			]
 		}
 	},
 	"sakuraPromo": {
@@ -10602,7 +11386,7 @@
 				"trans": "취소"
 			},
 			"abortWarning": {
-				"eng": "By aborting this you won\\'t receive any reward and the material used won\\'t be returned",
+				"eng": "By aborting this you won't receive any reward and the material used won't be returned",
 				"trans": "작업을 중단하게 되면 결과물을 받을 수 없으며, 작업에 사용된 자원 또한 반환되지 않습니다"
 			},
 			"abortWarningTitle": {
@@ -12036,13 +12820,6 @@
 			}
 		},
 		"map": {
-			"hiddenNpcTip": {
-				"eng": "${hiddenCount} more interactables can be unlocked at this location, level up to unlock them.",
-				"trans": "${hiddenCount}에서 더 많은 행동을 할 수 있습니다. 레벨을 올려 해금하세요.",
-				"vars": [
-					"hiddenCount"
-				]
-			},
 			"hideLowerLevelTravels": {
 				"eng": "Hide lower levels",
 				"trans": "낮은 레벨의 역 숨기기"
@@ -12816,6 +13593,16 @@
 				"title": {
 					"eng": "Disable Victory Screen",
 					"trans": "승리 화면 비활성화"
+				}
+			},
+			"enableApartmentWall": {
+				"description": {
+					"eng": "Allow others to post on your apartment wall",
+					"trans": "다른 사람들이 당신의 아파트 벽에 게시물을 올릴 수 있도록 허용합니다"
+				},
+				"title": {
+					"eng": "Enable Apartment Wall",
+					"trans": "아파트 벽 켜기"
 				}
 			},
 			"enableBackgroundMusic": {

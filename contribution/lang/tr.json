@@ -590,6 +590,16 @@
 				"trans": "Shangri-la"
 			}
 		},
+		"deleteNoteConfirm": {
+			"eng": "Delete this note?",
+			"trans": "Bu notu silmek ister misin?"
+		},
+		"error": {
+			"noApartment": {
+				"eng": "You don't have an apartment",
+				"trans": "Bir daireniz yok"
+			}
+		},
 		"furniture": {
 			"eng": "Furniture",
 			"trans": "Mobilya"
@@ -598,13 +608,68 @@
 			"eng": "Furniture Slots",
 			"trans": "Mobilya Slotları"
 		},
+		"getStickerHint": {
+			"eng": "Friendship Stickers can be obtained from quests and events.",
+			"trans": "Arkadaşlık çıkartmaları, görevler ve etkinliklerden elde edilebilir."
+		},
 		"jukeBox": {
 			"eng": "JukeBox",
 			"trans": "Dijital müzik kutusu"
 		},
+		"leaveNote": {
+			"eng": "Leave a Note",
+			"trans": "Not Bırak"
+		},
+		"noNotes": {
+			"eng": "NO DATA FOUND // BE THE FIRST",
+			"trans": "VERİ YOK // İLK OL"
+		},
+		"noSticker": {
+			"eng": "You need a Friendship Sticker to post a note!",
+			"trans": "Not bırakmak için bir arkadaşlık çıkartması lazım!"
+		},
+		"notePlaceholder": {
+			"eng": "Write something nice... (Max 128 chars)",
+			"trans": "İyi bir şey yazın... (En fazla 128 karakter)"
+		},
 		"petSlots": {
 			"eng": "Pet Slots",
 			"trans": "Evcil Hayvan Slotları"
+		},
+		"post": {
+			"eng": "Post",
+			"trans": "Gönder"
+		},
+		"postNote": {
+			"error": {
+				"contentTooLong": {
+					"eng": "Content too long or empty",
+					"trans": "İçerik çok uzun veya boş"
+				},
+				"negativeSentiment": {
+					"eng": "Message is flagged by AI, only friendly content is allowed.",
+					"trans": "AI mesajı işaretledi; sadece olumlu içerikler paylaşılabilir."
+				},
+				"noItem": {
+					"eng": "You need a ${itemName} to leave a note. ${itemName} can be obtained from quests and events.",
+					"trans": "Not bırakabilmek için bir ${itemName} gerekir. ${itemName}, görevler ve etkinliklerden elde edilebilir.",
+					"vars": [
+						"itemName"
+					]
+				},
+				"notFriends": {
+					"eng": "You must be friends with the owner to post",
+					"trans": "Yazmak için sahibinle arkadaş olman şart"
+				},
+				"ownerNotFound": {
+					"eng": "Owner not found",
+					"trans": "Sahip bulunamadı"
+				},
+				"restricted": {
+					"eng": "This player has disabled their wall",
+					"trans": "Bu oyuncu duvarını devre dışı bıraktı"
+				}
+			}
 		},
 		"rent": {
 			"paidMail": {
@@ -627,6 +692,17 @@
 				"rentalDueDate"
 			]
 		},
+		"stickerCount": {
+			"eng": "You have: ${count}",
+			"trans": "Stickers'ınız: ${count}",
+			"vars": [
+				"count"
+			]
+		},
+		"stickerRequired": {
+			"eng": "Friendship Sticker Required",
+			"trans": "Arkadaşlık Çıkartması Gerekli"
+		},
 		"terminateLease": {
 			"eng": "Terminate Lease",
 			"trans": "Kira Sözleşmesini Sonlandır"
@@ -645,6 +721,14 @@
 		"viewPets": {
 			"eng": "View Pets",
 			"trans": "Evcil Hayvanları Görüntüle"
+		},
+		"wall": {
+			"eng": "Apartment Wall",
+			"trans": "Daire Duvarı"
+		},
+		"wallDisabled": {
+			"eng": "WALL // DISABLED",
+			"trans": "Duvar // Devre Dışı"
 		}
 	},
 	"apartmentMarket": {
@@ -1213,6 +1297,336 @@
 			"trans": "Noel etkinliği!"
 		}
 	},
+	"christmasWorkshop": {
+		"button": {
+			"subtitle": {
+				"eng": "SORT GIFTS & EARN REWARDS",
+				"trans": "Hediyeleri Sırala ve Ödül Kazan"
+			},
+			"title": {
+				"eng": "CYBERSANTA'S WORKSHOP",
+				"trans": "CYBERSANTA'NIN ATÖLYESİ"
+			}
+		},
+		"commentary": {
+			"combo1": {
+				"eng": "Efficiency Spiking!",
+				"trans": "Verimlilik Patlıyor!"
+			},
+			"combo2": {
+				"eng": "Overclocked!",
+				"trans": "Aşırı Hızda!"
+			},
+			"combo3": {
+				"eng": "MAXIMUM VELOCITY!",
+				"trans": "Maksimum Hız!"
+			},
+			"combo4": {
+				"eng": "SYSTEMS CRITICAL!",
+				"trans": "Sistem kritik!"
+			},
+			"combo5": {
+				"eng": "GODLIKE PRECISION!",
+				"trans": "Tanrısal Keskinlik!"
+			},
+			"finalWin1": {
+				"eng": "Mission Accomplished! Maximum Joy!",
+				"trans": "Görev Tamamlandı! Maksimum Keyif!"
+			},
+			"finalWin2": {
+				"eng": "All systems nominal! You are a legend!",
+				"trans": "Tüm sistemler sorunsuz çalışıyor! Sen bir efsanesin!"
+			},
+			"finalWin3": {
+				"eng": "Perfect execution! Happy Holidays!",
+				"trans": "İşte tam bir başarı! Tatiliniz kutlu olsun!"
+			},
+			"positive1": {
+				"eng": "Optimal!",
+				"trans": "Mükemmel!"
+			},
+			"positive2": {
+				"eng": "Precise!",
+				"trans": "Mükemmel!"
+			},
+			"positive3": {
+				"eng": "Confirmed!",
+				"trans": "Onaylandı!"
+			},
+			"positive4": {
+				"eng": "Smooth!",
+				"trans": "Kusursuz!"
+			},
+			"positive5": {
+				"eng": "Efficient!",
+				"trans": "Verimli!"
+			},
+			"positive6": {
+				"eng": "Target hit!",
+				"trans": "Hedef vuruldu!"
+			},
+			"positive7": {
+				"eng": "Nice lock!",
+				"trans": "Süper kilit!"
+			},
+			"stageComplete1": {
+				"eng": "Batch complete! Efficiency rising!",
+				"trans": "Küme tamamlandı! Verimlilik yükseliyor!"
+			},
+			"stageComplete2": {
+				"eng": "Excellent processing! Next wave!",
+				"trans": "Harika işlem! Bir sonraki dalga!"
+			},
+			"stageComplete3": {
+				"eng": "Protocol adherence: 100%!",
+				"trans": "Protokol uyumu: %100!"
+			},
+			"start1": {
+				"eng": "Protocol initiated. Sort incoming!",
+				"trans": "Protokol devreye girdi. Gelenleri sırala!"
+			},
+			"start2": {
+				"eng": "Systems online. Let's get sorting!",
+				"trans": "Sistemler çevrimiçi. Hadi sıralayalım!"
+			},
+			"start3": {
+				"eng": "Workshop efficiency is in your hands!",
+				"trans": "Atölyenin verimliliği senin ellerinde!"
+			},
+			"wrongSort1": {
+				"eng": "Error! Incorrect destination!",
+				"trans": "Hata! Hedef yanlış!"
+			},
+			"wrongSort2": {
+				"eng": "System alert! Wrong bin!",
+				"trans": "Sistem uyarısı! Yanlış kutu!"
+			},
+			"wrongSort3": {
+				"eng": "Recalibrate your sensors!",
+				"trans": "Sensörlerini yeniden kalibre et!"
+			}
+		},
+		"countdown": {
+			"sortGifts": {
+				"eng": "TARGET: ${count} GIFTS",
+				"trans": "HEDEF: ${count} HEDIYE",
+				"vars": [
+					"count"
+				]
+			},
+			"stage": {
+				"eng": "STAGE ${stage}",
+				"trans": "SEVİYE ${stage}",
+				"vars": [
+					"stage"
+				]
+			}
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The Christmas event has ended!",
+				"trans": "Noel etkinliği sona erdi!"
+			},
+			"noPass": {
+				"eng": "You need a Santa's Workshop Pass to play! Find them in dungeon chests or from AFK farming.",
+				"trans": "Oyun oynamak için bir Noel Baba Atölyesi Bileti lazım! Zindan hazine sandıklarında ya da AFK tarımıyla elde edebilirsin."
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "Close",
+				"trans": "Kapat"
+			},
+			"message": {
+				"eng": "The game encountered an error. Don't worry - your Workshop Pass was not consumed!",
+				"trans": "Oyun bir hata ile karşılaştı. Endişelenmeyin – Çalışma Atölyesi Bileti tüketilmedi!"
+			},
+			"title": {
+				"eng": "Game Error",
+				"trans": "Oyun Hatası"
+			}
+		},
+		"game": {
+			"combo": {
+				"eng": "Efficiency",
+				"trans": "Verimlilik"
+			},
+			"stage": {
+				"eng": "Stage ${stage}/5",
+				"trans": "Aşama ${stage}/5",
+				"vars": [
+					"stage"
+				]
+			},
+			"timeLabel": {
+				"eng": "Time Remaining",
+				"trans": "Kalan Süre"
+			},
+			"waiting": {
+				"eng": "AWAITING INPUT...",
+				"trans": "Girdi bekleniyor..."
+			}
+		},
+		"gameOver": {
+			"close": {
+				"eng": "CLOSE TERMINAL",
+				"trans": "TERMINALI KAPAT"
+			},
+			"message": {
+				"eng": "ERROR AT STAGE ${stage}",
+				"trans": "Aşama ${stage} hatası",
+				"vars": [
+					"stage"
+				]
+			},
+			"noProgress": {
+				"eng": "No stages completed. Pass integrity maintained.",
+				"trans": "Hiçbir aşama tamamlanmadı. Geçit sağlam kaldı."
+			},
+			"progress": {
+				"eng": "Protocol interrupted. ${completed} stages secured.",
+				"trans": "Protokol kesildi. ${completed} aşama güvende.",
+				"vars": [
+					"completed"
+				]
+			},
+			"title": {
+				"eng": "SYSTEM FAILURE",
+				"trans": "Sistem Hatası"
+			}
+		},
+		"giftType": {
+			"clothes": {
+				"eng": "Clothes",
+				"trans": "Giysiler"
+			},
+			"food": {
+				"eng": "Food",
+				"trans": "Yiyecek"
+			},
+			"tech": {
+				"eng": "Tech",
+				"trans": "Tek"
+			},
+			"toy": {
+				"eng": "Toys",
+				"trans": "Oyuncaklar"
+			}
+		},
+		"intro": {
+			"eventEnded": {
+				"eng": "Event Ended",
+				"trans": "Etkinlik Bitti"
+			},
+			"eventInactive": {
+				"eng": "Event is not currently active",
+				"trans": "Etkinlik şu anda aktif değil"
+			},
+			"howToGet": {
+				"eng": "Find passes in dungeon chests or from AFK farming during the event!",
+				"trans": "Zindan hazine kutularında veya etkinlik süresince AFK tarımıyla geçitleri bul!"
+			},
+			"howToPlay": {
+				"eng": "How to Play",
+				"trans": "Nasıl Oynanır"
+			},
+			"needPass": {
+				"eng": "Need Workshop Pass",
+				"trans": "Atölye Geçidi Gerekli"
+			},
+			"passesOwned": {
+				"eng": "Passes Owned:",
+				"trans": "Elinizdeki Pass'ler:"
+			},
+			"rule1": {
+				"eng": "• Swipe gifts to the correct sorting zones",
+				"trans": "• Hediyeleri doğru sıralama alanına kaydırın"
+			},
+			"rule2": {
+				"eng": "• Complete 5 progressive stages",
+				"trans": "• 5 ilerleyen aşamayı tamamla"
+			},
+			"rule3": {
+				"eng": "• Each stage gets faster with more gifts",
+				"trans": "• Her aşama, daha fazla hediyeyle hızlanır"
+			},
+			"rule4": {
+				"eng": "• Wrong swipes cost you 4 seconds",
+				"trans": "• Yanlış kaydırmalar size 4 saniye tutar"
+			},
+			"rule5": {
+				"eng": "• Complete all stages for maximum rewards!",
+				"trans": "Tüm aşamaları tamamlayarak maksimum ödülleri elde edin!"
+			},
+			"startButton": {
+				"eng": "Start Workshop",
+				"trans": "Atölyeyi Başlat"
+			},
+			"title": {
+				"eng": "Welcome to Santa's Workshop",
+				"trans": "Aziz Babamın Atölyesine Hoşgeldin"
+			}
+		},
+		"loading": {
+			"message": {
+				"eng": "Preparing gifts for sorting...",
+				"trans": "Hediyeler sıralanmak üzere hazırlanıyor..."
+			},
+			"title": {
+				"eng": "Loading Workshop...",
+				"trans": "Atölye Yükleniyor..."
+			}
+		},
+		"pleaseWait": {
+			"eng": "ESTABLISHING CONNECTION",
+			"trans": "Bağlantı Kuruluyor"
+		},
+		"processing": {
+			"eng": "SYNCHRONIZING...",
+			"trans": "Senkronize ediliyor..."
+		},
+		"results": {
+			"close": {
+				"eng": "CLOSE REPORT",
+				"trans": "Raporu Kapat"
+			},
+			"goodJob": {
+				"eng": "Good effort. Re-engage for maximum rewards.",
+				"trans": "Harika bir çaba! Maksimum ödüller için tekrar dene."
+			},
+			"rewards": {
+				"eng": "REWARDS ACQUIRED",
+				"trans": "Ödüller Elde Edildi"
+			}
+		},
+		"stageComplete": {
+			"continue": {
+				"eng": "INITIATE STAGE ${next}",
+				"trans": "Aşama Başlat ${next}",
+				"vars": [
+					"next"
+				]
+			},
+			"nextStage": {
+				"eng": "Efficiency ratings optimal. Initializing Stage ${next} sequence...",
+				"trans": "Verimlilik puanları optimum. Stage ${next} dizisi başlatılıyor…",
+				"vars": [
+					"next"
+				]
+			},
+			"stage": {
+				"eng": "STAGE ${stage} CLEARED",
+				"trans": "SEVIYE ${stage} GEÇİLDİ",
+				"vars": [
+					"stage"
+				]
+			},
+			"title": {
+				"eng": "PROTOCOL COMPLETE",
+				"trans": "Protokol Tamamlandı"
+			}
+		}
+	},
 	"clanMemberSort": {
 		"gangExp": {
 			"displayName": {
@@ -1289,13 +1703,39 @@
 		}
 	},
 	"common": {
+		"cancel": {
+			"eng": "Cancel",
+			"trans": "İptal"
+		},
 		"close": {
 			"eng": "Close",
 			"trans": "Kapat"
 		},
+		"confirm": {
+			"eng": "Are you sure?",
+			"trans": "Onayla"
+		},
 		"delete": {
 			"eng": "Delete",
 			"trans": "Sil"
+		},
+		"error": {
+			"permissionDenied": {
+				"eng": "Permission denied",
+				"trans": "İzin reddedildi"
+			}
+		},
+		"gotIt": {
+			"eng": "Got it",
+			"trans": "Anladım"
+		},
+		"owned": {
+			"eng": "Owned",
+			"trans": "Sahip"
+		},
+		"purchase": {
+			"eng": "Purchase",
+			"trans": "Satın Al"
 		},
 		"save": {
 			"eng": "Save",
@@ -1321,6 +1761,10 @@
 			"eng": "Donation Tier Gallery",
 			"trans": "Bağış Seviye Galerisi"
 		},
+		"confirmPurchase": {
+			"eng": "Unlock Chat Frame",
+			"trans": "Chat Çerçevesi’ni Kapa"
+		},
 		"donationTire": {
 			"eng": "Select Frame",
 			"trans": "Çerçeve Seç"
@@ -1336,6 +1780,17 @@
 			"eng": "Show how others see you",
 			"trans": "Başkalarının seni nasıl gördüğünü göster"
 		},
+		"offSeason": {
+			"eng": "Off-Season",
+			"trans": "Sezon Dışı"
+		},
+		"offSeasonNotice": {
+			"eng": "*Off-Season chat frames have a +${percent}% cost",
+			"trans": "*Sezon dışı sohbet çerçeveleri +${percent}% ücretli",
+			"vars": [
+				"percent"
+			]
+		},
 		"ownedFrames": {
 			"eng": "Donation Tier Owned: [${owned}/${total}]",
 			"trans": "Bağış Seviyesi Sahibi: [${owned}/${total}]",
@@ -1343,6 +1798,10 @@
 				"owned",
 				"total"
 			]
+		},
+		"previewText": {
+			"eng": "This is how you will look!",
+			"trans": "Bu şekilde görünürsün!"
 		}
 	},
 	"cosmeticSettingPage": {
@@ -1772,6 +2231,10 @@
 		"donation45": {
 			"eng": "Vice City",
 			"trans": "Vice City"
+		},
+		"donation46": {
+			"eng": "Candycane",
+			"trans": "Şeker kamışı"
 		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
@@ -2678,6 +3141,10 @@
 		"noAvailableDesc": {
 			"eng": "You don't have any unassigned furniture. All your furniture is already assigned to slots.",
 			"trans": "Atanılmamış mobilyanız bulunmuyor. Tüm mobilyalarınız zaten slotlarda yer alıyor."
+		},
+		"noSlots": {
+			"eng": "This apartment tier does not have any furniture slots. Upgrade to a higher tier to unlock them.",
+			"trans": "Bu daire seviyesinde mobilya slotu yok. Daha yüksek bir seviyeye yükselerek yeni slotları açın."
 		},
 		"owned": {
 			"eng": "Owned",
@@ -3888,7 +4355,7 @@
 		},
 		"christmasToken": {
 			"description": {
-				"eng": "FrostByte Shards are fragments of Cybersanta’s corrupted Winter Protocol, packed with enough festive energy to keep his systems running—and his biceps flexing all season long",
+				"eng": "FrostByte Shards are fragments of Cybersanta's corrupted Winter Protocol, packed with enough festive energy to keep his systems running—and his biceps flexing all season long",
 				"trans": "FrostByte Parçaları, Cybersanta'nın bozulmuş Kış Protokolü'nün parçalarıdır; sistemlerini çalışır durumda tutacak ve kollarını tüm sezon boyunca kas yapacak kadar festivallik enerjiyle doludur"
 			},
 			"name": {
@@ -4047,6 +4514,16 @@
 			"name": {
 				"eng": "Flash Grenade",
 				"trans": "Flaş bombası"
+			}
+		},
+		"friendshipSticker": {
+			"desc": {
+				"eng": "A colorful sticker that symbolizes friendship and connection. Required to leave notes on friends' apartment walls. These special stickers help maintain positive interactions in the community.",
+				"trans": "Arkadaşlığı ve bağlantıyı simgeleyen renkli bir çıkartma. Arkadaşlarınızın daire duvarlarına not bırakmak için gereklidir. Bu özel plakalar toplulukta olumlu etkileşimleri sürdürmeye yardımcı olur."
+			},
+			"name": {
+				"eng": "Friendship Sticker",
+				"trans": "Dostluk Çıkartması"
 			}
 		},
 		"globalPartyBuff": {
@@ -4638,6 +5115,16 @@
 				"trans": "Gül Buketi"
 			}
 		},
+		"santaWorkshopPass": {
+			"description": {
+				"eng": "A holographic pass to CyberSanta's Workshop. Complete festive sorting challenges to earn rewards! 'Work hard, gift harder!' - CyberSanta",
+				"trans": "CyberSanta’nın Atölyesi’ne giriş için holografik bir geçiş kartı. Tatil temalı sınıflandırma maceralarını tamamlayarak ödüller kazan! “Çalış, hediye yap!” - CyberSanta"
+			},
+			"name": {
+				"eng": "Santa's Workshop Pass",
+				"trans": "Noel Baba Atölye Bileti"
+			}
+		},
 		"seashell": {
 			"description": {
 				"eng": "A beautiful seashell that can be used to exchange items with Josie",
@@ -5144,27 +5631,85 @@
 		}
 	},
 	"jukeBox": {
-		"override": {
+		"apartment": {
 			"description": {
-				"eng": "Force system-wide playback of selected track",
-				"trans": "Seçili parçayı sistem genelinde zorla oynat"
+				"eng": "Playing for visitors in your apartment",
+				"trans": "Dairenizdeki ziyaretçilere müzik çalıyor"
+			},
+			"noChanges": {
+				"eng": "NO CHANGES",
+				"trans": "Değişiklik Yok"
+			},
+			"saveButton": {
+				"eng": "SAVE CONFIGURATION",
+				"trans": "Yapılandırmayı kaydet"
 			},
 			"title": {
-				"eng": "Music Override Engaged",
+				"eng": "Apartment Broadcast",
+				"trans": "Apartman Yayını"
+			}
+		},
+		"badge": {
+			"active": {
+				"eng": "ACTIVE",
+				"trans": "Aktif"
+			},
+			"apartment": {
+				"eng": "APT",
+				"trans": "APARTMAN"
+			},
+			"override": {
+				"eng": "OVR",
+				"trans": "Geçersiz Kıl"
+			}
+		},
+		"mode": {
+			"homeSpeaker": {
+				"eng": "HOME SPEAKER",
+				"trans": "Ev Hoparlörü"
+			},
+			"walkman": {
+				"eng": "WALKMAN MODE",
+				"trans": "Walkman Modu"
+			}
+		},
+		"override": {
+			"description": {
+				"eng": "Play this track everywhere you go",
+				"trans": "Seçili parçayı sistem genelinde zorla oynat"
+			},
+			"label": {
+				"eng": "Override",
+				"trans": "Geçersiz Kıl"
+			},
+			"title": {
+				"eng": "Override Enabled",
 				"trans": "Müzik Aşırı Yükleme Etkin"
 			}
 		},
-		"selectTrack": {
-			"eng": "Select Audio Track",
-			"trans": "Ses Parçası Seçin"
-		},
-		"tip": {
-			"eng": "Customize your apartment's background music by selecting tracks and enabling override to replace location-based audio.",
-			"trans": "Daire'nin arka plan müziklerini seçilen parçalarla özelleştirin ve konum tabanlı sesi değiştirmek için geçersiz kılma seçeneğini etkinleştirin."
+		"slot": {
+			"apartmentAudio": {
+				"eng": "APARTMENT AUDIO",
+				"trans": "Daire Sesi"
+			},
+			"personalPlayer": {
+				"eng": "PERSONAL PLAYER",
+				"trans": "Kişisel Oynatıcı"
+			}
 		},
 		"title": {
 			"eng": "JukeBox",
 			"trans": "Dijital müzik kutusu"
+		},
+		"trackList": {
+			"apartment": {
+				"eng": "Select Tape for Apartment",
+				"trans": "Apartman İçin Parça Seç"
+			},
+			"walkman": {
+				"eng": "Select Tape for Walkman",
+				"trans": "Walkman için Bant Seç"
+			}
 		},
 		"tracks": {
 			"afk": {
@@ -5503,9 +6048,9 @@
 					"level"
 				]
 			},
-			"description": {
-				"eng": "[Apartment]\n        Your cozy apartment in the city. your pets are waiting for you to come home.",
-				"trans": "[Daire]\n        Şehirdeki rahat dairen. Evcil hayvanların seni eve gelmeni bekliyor."
+			"descriptionv2": {
+				"eng": "Your cozy apartment in the city. your pets are waiting for you to come home.",
+				"trans": "Şehirdeki sıcak ve konforlu daireniz. Evcil hayvanlarınız evine gelmenizi bekliyor."
 			},
 			"name": {
 				"eng": "My Apartment",
@@ -5519,9 +6064,9 @@
 			}
 		},
 		"coast": {
-			"description": {
-				"eng": "[Coast]\n        The beautiful coast a few kilometers away of downtown. The perfect place to relax and enjoy the sea breeze.",
-				"trans": "[Kıyı]  \n        Şehir merkezine birkaç kilometre uzaklıkta, güzel bir kıyı. Rahatlamak ve deniz melteminin tadını çıkarmak için mükemmel bir yer."
+			"descriptionv2": {
+				"eng": "The beautiful coast a few kilometers away of downtown. The perfect place to relax and enjoy the sea breeze.",
+				"trans": "Şehir merkezine birkaç kilometre uzakta bulunan güzel sahil. Dinlenip deniz esintisinin keyfini çıkarmak için mükemmel bir yer."
 			},
 			"name": {
 				"eng": "Crystal Sands",
@@ -5539,9 +6084,9 @@
 				"eng": "You need to join a gang to enter this area",
 				"trans": "Bu bölgeye girmek için bir çeteye katılmanız gerekir"
 			},
-			"description": {
-				"eng": "[Gang]\n        The headquarters for you and your gang members to plan and execute your next operation",
-				"trans": "Çete\r\n         Bir sonraki operasyonunuzu planlamak ve harekete geçirmek için siz ve çete üyelerinizin karargahı"
+			"descriptionv2": {
+				"eng": "The headquarters for you and your gang members to plan and execute your next operation",
+				"trans": "Senin ve çetenin, bir sonraki operasyonu planlayıp yürütmek için kullandığınız ana üs"
 			},
 			"name": {
 				"eng": "Gang Headquarters",
@@ -5549,9 +6094,9 @@
 			}
 		},
 		"job": {
-			"description": {
-				"eng": "[Job Hub]\n        Here are many shops and businesses reside. The perfect location to hone and refine your skills.",
-				"trans": "İş Merkezi\r\n        Burada birçok mağaza ve iş yeri var. Yeteneklerini test etmek ve geliştirmek için mükemmel bir yer."
+			"descriptionv2": {
+				"eng": "Here are many shops and businesses reside. The perfect location to hone and refine your skills.",
+				"trans": "Burada birçok dükkan ve işletme bulunuyor. Becerilerinizi geliştirmek için mükemmel bir yer."
 			},
 			"name": {
 				"eng": "Shangri-La Commercial Area",
@@ -5565,9 +6110,9 @@
 			}
 		},
 		"mainHub": {
-			"description": {
-				"eng": "[Central Hub]\n        One of the busiest cities in the continent. Here you can find all sorts of people from around the globe.",
-				"trans": "Şehir Merkezi\r\n        Kıtadaki en kalabalık şehirlerden birisi. Burada dünyanın dört bir yanından her türlü insana rastlayabilirsin."
+			"descriptionv2": {
+				"eng": "One of the busiest cities in the continent. Here you can find all sorts of people from around the globe.",
+				"trans": "Kıtanın en kalabalık şehirlerinden biri. Burada, dünya çapındaki her türlü insanla karşılaşabilirsiniz."
 			},
 			"name": {
 				"eng": "Shangri-La City center",
@@ -5623,9 +6168,9 @@
 			}
 		},
 		"market": {
-			"description": {
-				"eng": "[Player Market]\n        The famous market street in Shangri-La. Loads of market stalls fill the street.",
-				"trans": "Oyuncu Pazarı\r\n        Shangri-La'nın ünlü pazar caddesi. Bir sürü tezgah sokağı dolduruyor.\r\n        Burada ihtiyacın olan bir şeyi bulabilir veya kendi tezgahını açabilirsin."
+			"descriptionv2": {
+				"eng": "The famous market street in Shangri-La. Loads of market stalls fill the street.",
+				"trans": "Ünlü Şangri‑La pazar caddesi. Caddede bolca pazar tezgahı var."
 			},
 			"name": {
 				"eng": "Shangri-La Market Street",
@@ -5689,13 +6234,43 @@
 			}
 		},
 		"station": {
-			"description": {
-				"eng": "[Adventure]\n        Using the hyperloop, you can travel at supersonic speed across the continent with ease.",
-				"trans": "Macera\r\n        Hyperloop'u kullanarak kolaylıkla kıtalar arası ışık hızında seyahat edebilirsin."
+			"descriptionv2": {
+				"eng": "Using the hyperloop, you can travel at supersonic speed across the continent with ease.",
+				"trans": "Hiperloop ile kıta boyunca süper ses hızıyla rahatlıkla seyahat edebilirsiniz."
 			},
 			"name": {
 				"eng": "Hyper Train Central Station",
 				"trans": "Hızlı Tren Merkez İstasyonu'na git"
+			}
+		},
+		"tag": {
+			"adventure": {
+				"eng": "Adventure",
+				"trans": "Macera"
+			},
+			"apartment": {
+				"eng": "Apartment",
+				"trans": "Daire"
+			},
+			"centralHub": {
+				"eng": "Central Hub",
+				"trans": "Ana Merkez"
+			},
+			"coast": {
+				"eng": "Coast",
+				"trans": "Sahil"
+			},
+			"gang": {
+				"eng": "Gang",
+				"trans": "Çete"
+			},
+			"jobHub": {
+				"eng": "Job Hub",
+				"trans": "Görev Merkezi"
+			},
+			"playerMarket": {
+				"eng": "Player Market",
+				"trans": "Oyuncu Pazar Yeri"
 			}
 		},
 		"zone": {
@@ -5805,15 +6380,6 @@
 			"vars": [
 				"limit",
 				"hours"
-			]
-		}
-	},
-	"mailRoomContent": {
-		"time": {
-			"eng": "${time} ago",
-			"trans": "${time} önce",
-			"vars": [
-				"time"
 			]
 		}
 	},
@@ -6330,6 +6896,12 @@
 				"trans": "Nöral Devre Aşımı"
 			}
 		},
+		"common": {
+			"retry": {
+				"eng": "RETRY",
+				"trans": "TEKRAR"
+			}
+		},
 		"dataStream": {
 			"instructions": {
 				"eng": "INTERCEPT VALID DATA PACKETS [GLOWING] // AVOID CORRUPTED ONES",
@@ -6338,6 +6910,82 @@
 			"title": {
 				"eng": "Data Stream Interceptor",
 				"trans": "Veri Akışı Kesici"
+			}
+		},
+		"hexBuffer": {
+			"fail": {
+				"desc": {
+					"eng": "Connection Terminated",
+					"trans": "Bağlantı Kesildi"
+				},
+				"title": {
+					"eng": "BREACH FAILED",
+					"trans": "Sızma Başarısız"
+				}
+			},
+			"hint": {
+				"col": {
+					"eng": "Select a code from the highlighted COLUMN",
+					"trans": "Vurgulanan sütundan bir kod seçin"
+				},
+				"row": {
+					"eng": "Select a code from the highlighted ROW",
+					"trans": "Vurgulanan satırdan bir kod seç"
+				}
+			},
+			"win": {
+				"desc": {
+					"eng": "Access Granted",
+					"trans": "Erişim Onaylandı"
+				},
+				"title": {
+					"eng": "BREACH SUCCESS",
+					"trans": "Sızma Başarılı"
+				}
+			}
+		},
+		"relayGrid": {
+			"clearAll": {
+				"eng": "CLEAR",
+				"trans": "Temizle"
+			},
+			"clearConfirm": {
+				"eng": "CONFIRM?",
+				"trans": "ONAYLA?"
+			},
+			"hint": {
+				"detail": {
+					"eng": "Paths cannot cross - avoid broken nodes",
+					"trans": "Yollar çakışamaz – kırık düğümlere dikkat edin"
+				},
+				"eng": "ACTIVATE NODES TO CREATE PATHS",
+				"trans": "Noktaları etkinleştirip yollar kur"
+			},
+			"instructions": {
+				"eng": "Connect all signals - paths cannot cross",
+				"trans": "Bütün sinyalleri birleştir – yollar kesişemez"
+			},
+			"smartHint": {
+				"dismiss": {
+					"eng": "[ TAP TO DISMISS ]",
+					"trans": "Tıkla ve Kapat"
+				},
+				"eng": "Paths cannot share nodes - route around obstacles",
+				"trans": "Yollar aynı düğümü paylaşamaz – engellerden çevrili geç"
+			},
+			"undo": {
+				"eng": "UNDO",
+				"trans": "Geri Al"
+			},
+			"win": {
+				"description": {
+					"eng": "All routes established",
+					"trans": "All routes established"
+				},
+				"title": {
+					"eng": "MISSION COMPLETE",
+					"trans": "MISSION COMPLETE"
+				}
 			}
 		},
 		"sequenceHack": {
@@ -7470,6 +8118,44 @@
 			}
 		}
 	},
+	"offSeasonInfoModal": {
+		"footer": {
+			"eng": "This compromise allows access while preserving the spirit of our events.",
+			"trans": "Bu uzlaşma, etkinliklerimizin ruhunu koruyarak erişime izin veriyor."
+		},
+		"intro": {
+			"eng": "Seasonal chat frames are designed as seasonal exclusive limited-time cosmetics.",
+			"trans": "Sezonluk sohbet çerçeveleri, belirli dönemlerde geçici olarak sunulan, yalnızca o döneme özel kozmetiklerdir."
+		},
+		"reasonConvenience": {
+			"eng": "Convenience: Bypassing the standard event schedule.",
+			"trans": "Kolaylık: Standart etkinlik takvimini atlamak."
+		},
+		"reasonFairness": {
+			"eng": "Fairness: Honors the dedication of players who participated during the original event.",
+			"trans": "Adalet: Orijinal etkinlik sırasında katılan oyuncuların bağlılığını takdir eder."
+		},
+		"reasonValue": {
+			"eng": "Event Value: Maintains the prestige and incentive to unlock cosmetics during the live rotation.",
+			"trans": "Etkinlik Değeri: Canlı döngüde kozmetik açmanın prestijini ve cazibesini sürdürür."
+		},
+		"title": {
+			"eng": "Off-Season Collection",
+			"trans": "Sezon Dışı Koleksiyon"
+		},
+		"whyAllowedBody": {
+			"eng": "Due to popular demand, we are opening the archives. We heard your requests for specific frames that are currently out of rotation and didn't want you to wait forever!",
+			"trans": "Çokça talep aldığımız için arşivleri açıyoruz. Döngü dışında kalan özel çerçeveler için gelen isteklerinizi duyduk ve sizi sonsuza dek bekletmekten vazgeçtik!"
+		},
+		"whyAllowedTitle": {
+			"eng": "Why are they available now?",
+			"trans": "Şu anda neden mevcut?"
+		},
+		"whyFee": {
+			"eng": "Why is there a vault fee?",
+			"trans": "Depo ücreti neden var?"
+		}
+	},
 	"pet": {
 		"adopted": {
 			"eng": "${player} has adopted ${pet}",
@@ -7812,6 +8498,13 @@
 		"noPet": {
 			"eng": "You have no pet yet",
 			"trans": "Henüz bir evcil hayvanın yok"
+		},
+		"noPetOther": {
+			"eng": "${playerName} has no pets",
+			"trans": "${playerName}'in evcil hayvanı yok",
+			"vars": [
+				"playerName"
+			]
 		}
 	},
 	"petReviveModal": {
@@ -7942,6 +8635,10 @@
 				"eng": "Invalid Travel Link, if persist please reload",
 				"trans": "Geçersiz seyahat bağlantısı, devam ederse lütfen yeniden yükleyin"
 			},
+			"muted": {
+				"eng": "You are muted",
+				"trans": "Susturuldunuz"
+			},
 			"notInBattle": {
 				"eng": "You are not in battle.",
 				"trans": "Savaşta değilsin."
@@ -7998,6 +8695,30 @@
 				"eng": "Thank you for completing the survey, the rewards have been sent to your item inbox, you can access the inbox from the inventory tab",
 				"trans": "Anketi doldurduğun için teşekkürler, ödüller eşya kutuna gönderildi, kutuya envanter sekmesinden erişebilirsin"
 			}
+		}
+	},
+	"playerApartmentPage": {
+		"noApartment": {
+			"eng": "${playerName} doesn't have an apartment",
+			"trans": "${playerName} dairesi yok",
+			"vars": [
+				"playerName"
+			]
+		},
+		"title": {
+			"eng": "${playerName}'s Apartment",
+			"trans": "${playerName}’in Dairesi",
+			"vars": [
+				"playerName"
+			]
+		},
+		"viewFurniture": {
+			"eng": "View Furniture",
+			"trans": "Mobilyaları Görüntüle"
+		},
+		"viewPets": {
+			"eng": "View Pets",
+			"trans": "Evcil Hayvanlara Bak"
 		}
 	},
 	"playerDetailsAssetsTab": {
@@ -8153,17 +8874,9 @@
 				"eng": "Active Furniture",
 				"trans": "Aktif Mobilyalar"
 			},
-			"collection": {
-				"eng": "Collection",
-				"trans": "Koleksiyon"
-			},
 			"noActiveFurniture": {
 				"eng": "No furniture currently active in slots",
 				"trans": "Slotlarda şu anda aktif mobilya yok"
-			},
-			"title": {
-				"eng": "Furniture",
-				"trans": "Mobilya"
 			},
 			"viewCollection": {
 				"eng": "${count} Owned",
@@ -9015,6 +9728,73 @@
 		"unknown": {
 			"eng": "Unknown Items",
 			"trans": "Bilinmeyen ürünler"
+		}
+	},
+	"rewardDisplay": {
+		"exp": {
+			"eng": "${amount} ${levelType} exp",
+			"trans": "${amount} ${levelType} XP",
+			"vars": [
+				"amount",
+				"levelType"
+			]
+		},
+		"gangExp": {
+			"eng": "${clanExp} gang exp",
+			"trans": "${clanExp} çete deneyimi",
+			"vars": [
+				"clanExp"
+			]
+		},
+		"gangFunding": {
+			"eng": "${clanMoney} gang funding",
+			"trans": "${clanMoney} Çete Fonu",
+			"vars": [
+				"clanMoney"
+			]
+		},
+		"gangOccupationPoint": {
+			"eng": "${clanOccupationPoint} Occupation Control",
+			"trans": "${clanOccupationPoint} Bölge Kontrolü",
+			"vars": [
+				"clanOccupationPoint"
+			]
+		},
+		"gangResource": {
+			"eng": "${clanResource} gang resource",
+			"trans": "${clanResource} Çete Kaynağı",
+			"vars": [
+				"clanResource"
+			]
+		},
+		"globalQuestPoint": {
+			"eng": "${globalQuestPoint} SL Data Fortress breach progress",
+			"trans": "${globalQuestPoint} SL Veri Kalesi Sızma İlerlemesi",
+			"vars": [
+				"globalQuestPoint"
+			]
+		},
+		"health": {
+			"eng": "+${health} Health",
+			"trans": "+${health} Sağlık",
+			"vars": [
+				"health"
+			]
+		},
+		"shield": {
+			"eng": "+${shield} Shield",
+			"trans": "+${shield} Kalkan",
+			"vars": [
+				"shield"
+			]
+		},
+		"statusEffectDuration": {
+			"eng": "${effect} for ${duration}",
+			"trans": "${effect} için ${duration}",
+			"vars": [
+				"effect",
+				"duration"
+			]
 		}
 	},
 	"sakuraPromo": {
@@ -10511,7 +11291,7 @@
 				"trans": "İptal Et"
 			},
 			"abortWarning": {
-				"eng": "By aborting this you won\\'t receive any reward and the material used won\\'t be returned",
+				"eng": "By aborting this you won't receive any reward and the material used won't be returned",
 				"trans": "Bunu iptal ederseniz herhangi bir ödül alamayacaksınız ve kullanığınız malzemeler iade edilmeyecek"
 			},
 			"abortWarningTitle": {
@@ -11945,13 +12725,6 @@
 			}
 		},
 		"map": {
-			"hiddenNpcTip": {
-				"eng": "${hiddenCount} more interactables can be unlocked at this location, level up to unlock them.",
-				"trans": "${hiddenCount} daha etkileşime açık öğelerin kilidi bu konumda açılabilir, kilitlerini açmak için seviye atlayın.",
-				"vars": [
-					"hiddenCount"
-				]
-			},
 			"hideLowerLevelTravels": {
 				"eng": "Hide lower levels",
 				"trans": "Daha düşük seviyeleri gizle"
@@ -12725,6 +13498,16 @@
 				"title": {
 					"eng": "Disable Victory Screen",
 					"trans": "Zafer Ekranını Devre Dışı Bırak"
+				}
+			},
+			"enableApartmentWall": {
+				"description": {
+					"eng": "Allow others to post on your apartment wall",
+					"trans": "Diğer oyuncuların da apartman duvarınıza yazı bırakmasına izin ver"
+				},
+				"title": {
+					"eng": "Enable Apartment Wall",
+					"trans": "Apartman Duvarını Etkinleştir"
 				}
 			},
 			"enableBackgroundMusic": {

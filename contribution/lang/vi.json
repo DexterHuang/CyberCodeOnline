@@ -590,6 +590,16 @@
 				"trans": "Shangri-la"
 			}
 		},
+		"deleteNoteConfirm": {
+			"eng": "Delete this note?",
+			"trans": "Xóa ghi chú này?"
+		},
+		"error": {
+			"noApartment": {
+				"eng": "You don't have an apartment",
+				"trans": "Bạn chưa có căn hộ"
+			}
+		},
 		"furniture": {
 			"eng": "Furniture",
 			"trans": "Đồ nội thất"
@@ -598,13 +608,68 @@
 			"eng": "Furniture Slots",
 			"trans": "Khe Đồ Nội Thất"
 		},
+		"getStickerHint": {
+			"eng": "Friendship Stickers can be obtained from quests and events.",
+			"trans": "Sticker Tình Bạn có thể được nhận từ nhiệm vụ và sự kiện."
+		},
 		"jukeBox": {
 			"eng": "JukeBox",
 			"trans": "Thư viện nhạc"
 		},
+		"leaveNote": {
+			"eng": "Leave a Note",
+			"trans": "Để lại ghi chú"
+		},
+		"noNotes": {
+			"eng": "NO DATA FOUND // BE THE FIRST",
+			"trans": "Không có dữ liệu nào // Hãy là người đầu tiên"
+		},
+		"noSticker": {
+			"eng": "You need a Friendship Sticker to post a note!",
+			"trans": "Bạn cần một tem Tình Bạn để đăng ghi chú!"
+		},
+		"notePlaceholder": {
+			"eng": "Write something nice... (Max 128 chars)",
+			"trans": "Ghi chú dễ thương nào… (Tối đa 128 ký tự)"
+		},
 		"petSlots": {
 			"eng": "Pet Slots",
 			"trans": "Chỗ dành cho thú cưng"
+		},
+		"post": {
+			"eng": "Post",
+			"trans": "Bài đăng"
+		},
+		"postNote": {
+			"error": {
+				"contentTooLong": {
+					"eng": "Content too long or empty",
+					"trans": "Nội dung quá dài hoặc trống rỗng"
+				},
+				"negativeSentiment": {
+					"eng": "Message is flagged by AI, only friendly content is allowed.",
+					"trans": "AI đã gắn cờ tin nhắn này, chỉ những nội dung vui vẻ mới được chấp nhận."
+				},
+				"noItem": {
+					"eng": "You need a ${itemName} to leave a note. ${itemName} can be obtained from quests and events.",
+					"trans": "Để đăng ghi chú, bạn phải có một ${itemName}. Bạn có thể nhận ${itemName} qua các nhiệm vụ và sự kiện.",
+					"vars": [
+						"itemName"
+					]
+				},
+				"notFriends": {
+					"eng": "You must be friends with the owner to post",
+					"trans": "Hãy kết bạn với chủ sở hữu trước khi đăng bài"
+				},
+				"ownerNotFound": {
+					"eng": "Owner not found",
+					"trans": "Không tìm thấy chủ sở hữu"
+				},
+				"restricted": {
+					"eng": "This player has disabled their wall",
+					"trans": "Người chơi này đã tắt tường của họ"
+				}
+			}
 		},
 		"rent": {
 			"paidMail": {
@@ -627,6 +692,17 @@
 				"rentalDueDate"
 			]
 		},
+		"stickerCount": {
+			"eng": "You have: ${count}",
+			"trans": "Bạn có: ${count}",
+			"vars": [
+				"count"
+			]
+		},
+		"stickerRequired": {
+			"eng": "Friendship Sticker Required",
+			"trans": "Cần Sticker Tình Bạn"
+		},
 		"terminateLease": {
 			"eng": "Terminate Lease",
 			"trans": "Hủy hợp đồng thuê"
@@ -645,6 +721,14 @@
 		"viewPets": {
 			"eng": "View Pets",
 			"trans": "Xem Thú cưng"
+		},
+		"wall": {
+			"eng": "Apartment Wall",
+			"trans": "Tường căn hộ"
+		},
+		"wallDisabled": {
+			"eng": "WALL // DISABLED",
+			"trans": "Tường // Vô Hiệu"
 		}
 	},
 	"apartmentMarket": {
@@ -1213,6 +1297,336 @@
 			"trans": "Sự kiện Giáng sinh!"
 		}
 	},
+	"christmasWorkshop": {
+		"button": {
+			"subtitle": {
+				"eng": "SORT GIFTS & EARN REWARDS",
+				"trans": "Sắp Xếp Quà & Kiếm Thưởng"
+			},
+			"title": {
+				"eng": "CYBERSANTA'S WORKSHOP",
+				"trans": "Xưởng CYBERSANTA"
+			}
+		},
+		"commentary": {
+			"combo1": {
+				"eng": "Efficiency Spiking!",
+				"trans": "Hiệu suất tăng đột biến!"
+			},
+			"combo2": {
+				"eng": "Overclocked!",
+				"trans": "Quá tải!"
+			},
+			"combo3": {
+				"eng": "MAXIMUM VELOCITY!",
+				"trans": "Tốc độ tối đa!"
+			},
+			"combo4": {
+				"eng": "SYSTEMS CRITICAL!",
+				"trans": "Hệ thống khủng hoảng!"
+			},
+			"combo5": {
+				"eng": "GODLIKE PRECISION!",
+				"trans": "ĐỘ CHÍNH XÁC THẦN THÂN!"
+			},
+			"finalWin1": {
+				"eng": "Mission Accomplished! Maximum Joy!",
+				"trans": "Nhiệm vụ đã hoàn tất! Vui hết mức!"
+			},
+			"finalWin2": {
+				"eng": "All systems nominal! You are a legend!",
+				"trans": "Mọi thứ ổn! Bạn thực sự là một huyền thoại!"
+			},
+			"finalWin3": {
+				"eng": "Perfect execution! Happy Holidays!",
+				"trans": "Hoàn thành xuất sắc! Chúc các bạn có những ngày lễ vui vẻ!"
+			},
+			"positive1": {
+				"eng": "Optimal!",
+				"trans": "Đỉnh!"
+			},
+			"positive2": {
+				"eng": "Precise!",
+				"trans": "Chính xác!"
+			},
+			"positive3": {
+				"eng": "Confirmed!",
+				"trans": "Xác nhận rồi!"
+			},
+			"positive4": {
+				"eng": "Smooth!",
+				"trans": "Mượt!"
+			},
+			"positive5": {
+				"eng": "Efficient!",
+				"trans": "Hiệu quả lắm!"
+			},
+			"positive6": {
+				"eng": "Target hit!",
+				"trans": "Đánh trúng mục tiêu!"
+			},
+			"positive7": {
+				"eng": "Nice lock!",
+				"trans": "Khóa thật tuyệt!"
+			},
+			"stageComplete1": {
+				"eng": "Batch complete! Efficiency rising!",
+				"trans": "Lô đã hoàn tất! Hiệu suất đang leo!"
+			},
+			"stageComplete2": {
+				"eng": "Excellent processing! Next wave!",
+				"trans": "Xử lý xuất sắc! Đợt tiếp theo đang chờ!"
+			},
+			"stageComplete3": {
+				"eng": "Protocol adherence: 100%!",
+				"trans": "Tuân thủ giao thức: 100%!"
+			},
+			"start1": {
+				"eng": "Protocol initiated. Sort incoming!",
+				"trans": "Giao thức đã khởi động. Đang phân loại dữ liệu vào!"
+			},
+			"start2": {
+				"eng": "Systems online. Let's get sorting!",
+				"trans": "Hệ thống đã online. Bây giờ là lúc để sắp xếp mọi thứ!"
+			},
+			"start3": {
+				"eng": "Workshop efficiency is in your hands!",
+				"trans": "Bạn quyết định hiệu quả xưởng!"
+			},
+			"wrongSort1": {
+				"eng": "Error! Incorrect destination!",
+				"trans": "Lỗi! Đích không đúng!"
+			},
+			"wrongSort2": {
+				"eng": "System alert! Wrong bin!",
+				"trans": "Cảnh báo! Bạn đã đặt vào khay sai!"
+			},
+			"wrongSort3": {
+				"eng": "Recalibrate your sensors!",
+				"trans": "Cài lại cảm biến đi!"
+			}
+		},
+		"countdown": {
+			"sortGifts": {
+				"eng": "TARGET: ${count} GIFTS",
+				"trans": "MỤC TIÊU: ${count} QUÀ",
+				"vars": [
+					"count"
+				]
+			},
+			"stage": {
+				"eng": "STAGE ${stage}",
+				"trans": "Giai đoạn ${stage}",
+				"vars": [
+					"stage"
+				]
+			}
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The Christmas event has ended!",
+				"trans": "Sự kiện Giáng sinh đã kết thúc!"
+			},
+			"noPass": {
+				"eng": "You need a Santa's Workshop Pass to play! Find them in dungeon chests or from AFK farming.",
+				"trans": "Để chơi, bạn cần Thẻ Xưởng Ông Già Noel! Tìm chúng trong hòm ngục hoặc khi cày AFK."
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "Close",
+				"trans": "Đóng"
+			},
+			"message": {
+				"eng": "The game encountered an error. Don't worry - your Workshop Pass was not consumed!",
+				"trans": "Game đã gặp sự cố. Không cần lo – Pass Xưởng chưa bị tiêu thụ!"
+			},
+			"title": {
+				"eng": "Game Error",
+				"trans": "Lỗi trò chơi"
+			}
+		},
+		"game": {
+			"combo": {
+				"eng": "Efficiency",
+				"trans": "Hiệu suất"
+			},
+			"stage": {
+				"eng": "Stage ${stage}/5",
+				"trans": "Màn ${stage}/5",
+				"vars": [
+					"stage"
+				]
+			},
+			"timeLabel": {
+				"eng": "Time Remaining",
+				"trans": "Thời gian còn lại"
+			},
+			"waiting": {
+				"eng": "AWAITING INPUT...",
+				"trans": "Đang đợi phản hồi..."
+			}
+		},
+		"gameOver": {
+			"close": {
+				"eng": "CLOSE TERMINAL",
+				"trans": "Đóng Terminal"
+			},
+			"message": {
+				"eng": "ERROR AT STAGE ${stage}",
+				"trans": "Lỗi tại giai đoạn ${stage}",
+				"vars": [
+					"stage"
+				]
+			},
+			"noProgress": {
+				"eng": "No stages completed. Pass integrity maintained.",
+				"trans": "Không có giai đoạn nào được hoàn thành. Tính toàn vẹn của Pass vẫn giữ nguyên."
+			},
+			"progress": {
+				"eng": "Protocol interrupted. ${completed} stages secured.",
+				"trans": "Giao thức bị gián đoạn. Đã bảo vệ ${completed} giai đoạn.",
+				"vars": [
+					"completed"
+				]
+			},
+			"title": {
+				"eng": "SYSTEM FAILURE",
+				"trans": "Lỗi hệ thống"
+			}
+		},
+		"giftType": {
+			"clothes": {
+				"eng": "Clothes",
+				"trans": "Quần áo"
+			},
+			"food": {
+				"eng": "Food",
+				"trans": "Đồ ăn"
+			},
+			"tech": {
+				"eng": "Tech",
+				"trans": "Công nghệ"
+			},
+			"toy": {
+				"eng": "Toys",
+				"trans": "Đồ chơi"
+			}
+		},
+		"intro": {
+			"eventEnded": {
+				"eng": "Event Ended",
+				"trans": "Sự kiện đã kết thúc"
+			},
+			"eventInactive": {
+				"eng": "Event is not currently active",
+				"trans": "Sự kiện hiện chưa được kích hoạt"
+			},
+			"howToGet": {
+				"eng": "Find passes in dungeon chests or from AFK farming during the event!",
+				"trans": "Tìm pass trong hũ sắt ngục hoặc khi AFK farm trong thời gian sự kiện!"
+			},
+			"howToPlay": {
+				"eng": "How to Play",
+				"trans": "Cách chơi"
+			},
+			"needPass": {
+				"eng": "Need Workshop Pass",
+				"trans": "Cần Thẻ Xưởng"
+			},
+			"passesOwned": {
+				"eng": "Passes Owned:",
+				"trans": "Thẻ đã sở hữu:"
+			},
+			"rule1": {
+				"eng": "• Swipe gifts to the correct sorting zones",
+				"trans": "• Trượt quà tới vùng sắp xếp đúng"
+			},
+			"rule2": {
+				"eng": "• Complete 5 progressive stages",
+				"trans": "• Hoàn thành 5 giai đoạn tiến trình"
+			},
+			"rule3": {
+				"eng": "• Each stage gets faster with more gifts",
+				"trans": "• Mỗi giai đoạn sẽ nhanh hơn khi có thêm quà"
+			},
+			"rule4": {
+				"eng": "• Wrong swipes cost you 4 seconds",
+				"trans": "Swipe sai sẽ khiến bạn mất 4 giây"
+			},
+			"rule5": {
+				"eng": "• Complete all stages for maximum rewards!",
+				"trans": "Hoàn thành tất cả các giai đoạn để nhận phần thưởng tối đa!"
+			},
+			"startButton": {
+				"eng": "Start Workshop",
+				"trans": "Bắt đầu xưởng"
+			},
+			"title": {
+				"eng": "Welcome to Santa's Workshop",
+				"trans": "Chào mừng đến với Xưởng làm đồ của Ông già Noel"
+			}
+		},
+		"loading": {
+			"message": {
+				"eng": "Preparing gifts for sorting...",
+				"trans": "Đang chuẩn bị quà để phân loại..."
+			},
+			"title": {
+				"eng": "Loading Workshop...",
+				"trans": "Đang tải Xưởng…"
+			}
+		},
+		"pleaseWait": {
+			"eng": "ESTABLISHING CONNECTION",
+			"trans": "Đang thiết lập kết nối"
+		},
+		"processing": {
+			"eng": "SYNCHRONIZING...",
+			"trans": "Đang đồng bộ..."
+		},
+		"results": {
+			"close": {
+				"eng": "CLOSE REPORT",
+				"trans": "Đóng báo cáo"
+			},
+			"goodJob": {
+				"eng": "Good effort. Re-engage for maximum rewards.",
+				"trans": "Công sức đáng khen. Tham gia lại để nhận phần thưởng tối đa."
+			},
+			"rewards": {
+				"eng": "REWARDS ACQUIRED",
+				"trans": "PHẦN THƯỞNG ĐÃ NHẬN"
+			}
+		},
+		"stageComplete": {
+			"continue": {
+				"eng": "INITIATE STAGE ${next}",
+				"trans": "Bắt đầu Giai đoạn ${next}",
+				"vars": [
+					"next"
+				]
+			},
+			"nextStage": {
+				"eng": "Efficiency ratings optimal. Initializing Stage ${next} sequence...",
+				"trans": "Đánh giá hiệu suất tối ưu. Đang khởi động chuỗi Giai đoạn ${next}…",
+				"vars": [
+					"next"
+				]
+			},
+			"stage": {
+				"eng": "STAGE ${stage} CLEARED",
+				"trans": "MẮT ${stage} ĐÃ HOÀN THÀNH",
+				"vars": [
+					"stage"
+				]
+			},
+			"title": {
+				"eng": "PROTOCOL COMPLETE",
+				"trans": "GIAO THỨC HOÀN THÀNH"
+			}
+		}
+	},
 	"clanMemberSort": {
 		"gangExp": {
 			"displayName": {
@@ -1289,13 +1703,39 @@
 		}
 	},
 	"common": {
+		"cancel": {
+			"eng": "Cancel",
+			"trans": "Hủy"
+		},
 		"close": {
 			"eng": "Close",
 			"trans": "Đóng"
 		},
+		"confirm": {
+			"eng": "Are you sure?",
+			"trans": "Xác nhận"
+		},
 		"delete": {
 			"eng": "Delete",
 			"trans": "Xóa"
+		},
+		"error": {
+			"permissionDenied": {
+				"eng": "Permission denied",
+				"trans": "Quyền truy cập bị từ chối"
+			}
+		},
+		"gotIt": {
+			"eng": "Got it",
+			"trans": "Đã hiểu"
+		},
+		"owned": {
+			"eng": "Owned",
+			"trans": "Đã có"
+		},
+		"purchase": {
+			"eng": "Purchase",
+			"trans": "Mua"
 		},
 		"save": {
 			"eng": "Save",
@@ -1321,6 +1761,10 @@
 			"eng": "Donation Tier Gallery",
 			"trans": "Bảng Xếp Hạng Các Mức Đóng Góp"
 		},
+		"confirmPurchase": {
+			"eng": "Unlock Chat Frame",
+			"trans": "Mở khóa khung trò chuyện"
+		},
 		"donationTire": {
 			"eng": "Select Frame",
 			"trans": "Chọn Khung"
@@ -1336,6 +1780,17 @@
 			"eng": "Show how others see you",
 			"trans": "Hiển thị cách người khác nhìn nhận bạn"
 		},
+		"offSeason": {
+			"eng": "Off-Season",
+			"trans": "Ngoài mùa"
+		},
+		"offSeasonNotice": {
+			"eng": "*Off-Season chat frames have a +${percent}% cost",
+			"trans": "*Khung trò chuyện Off‑Season tính thêm +${percent}% phí",
+			"vars": [
+				"percent"
+			]
+		},
 		"ownedFrames": {
 			"eng": "Donation Tier Owned: [${owned}/${total}]",
 			"trans": "Cấp Độ Ủng Hộ Đã Sở Hữu: [${owned}/${total}]",
@@ -1343,6 +1798,10 @@
 				"owned",
 				"total"
 			]
+		},
+		"previewText": {
+			"eng": "This is how you will look!",
+			"trans": "Bạn sẽ trông như thế này!"
 		}
 	},
 	"cosmeticSettingPage": {
@@ -1772,6 +2231,10 @@
 		"donation45": {
 			"eng": "Vice City",
 			"trans": "Vice City"
+		},
+		"donation46": {
+			"eng": "Candycane",
+			"trans": "Đá Kẹo"
 		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
@@ -2678,6 +3141,10 @@
 		"noAvailableDesc": {
 			"eng": "You don't have any unassigned furniture. All your furniture is already assigned to slots.",
 			"trans": "Bạn không còn đồ nội thất chưa được gán. Mọi món đồ của bạn đã được đặt vào các vị trí."
+		},
+		"noSlots": {
+			"eng": "This apartment tier does not have any furniture slots. Upgrade to a higher tier to unlock them.",
+			"trans": "Bậc căn hộ này không có chỗ đặt đồ nội thất. Nâng cấp lên bậc cao hơn để mở khóa chúng."
 		},
 		"owned": {
 			"eng": "Owned",
@@ -3888,7 +4355,7 @@
 		},
 		"christmasToken": {
 			"description": {
-				"eng": "FrostByte Shards are fragments of Cybersanta’s corrupted Winter Protocol, packed with enough festive energy to keep his systems running—and his biceps flexing all season long",
+				"eng": "FrostByte Shards are fragments of Cybersanta's corrupted Winter Protocol, packed with enough festive energy to keep his systems running—and his biceps flexing all season long",
 				"trans": "FrostByte Shards là những mảnh vụn của Giao thức Mùa Đông bị hỏng của Cybersanta, chứa đầy năng lượng lễ hội để giữ cho hệ thống của hắn hoạt động—và cơ bắp của hắn luôn săn chắc suốt mùa này"
 			},
 			"name": {
@@ -4047,6 +4514,16 @@
 			"name": {
 				"eng": "Flash Grenade",
 				"trans": "Lựu đạn flash"
+			}
+		},
+		"friendshipSticker": {
+			"desc": {
+				"eng": "A colorful sticker that symbolizes friendship and connection. Required to leave notes on friends' apartment walls. These special stickers help maintain positive interactions in the community.",
+				"trans": "Mặt dán sặc sỡ biểu tượng cho tình bạn và sự gắn kết. Bạn cần dùng chúng để dán ghi chú lên tường căn hộ của người bạn. Mặt dán đặc biệt này giúp duy trì mối quan hệ tích cực trong cộng đồng."
+			},
+			"name": {
+				"eng": "Friendship Sticker",
+				"trans": "Sticker Tình Bạn"
 			}
 		},
 		"globalPartyBuff": {
@@ -4638,6 +5115,16 @@
 				"trans": "Bó hoa hồng"
 			}
 		},
+		"santaWorkshopPass": {
+			"description": {
+				"eng": "A holographic pass to CyberSanta's Workshop. Complete festive sorting challenges to earn rewards! 'Work hard, gift harder!' - CyberSanta",
+				"trans": "Thẻ hologram vào Xưởng Công nghệ của CyberSanta. Hoàn thành các thử thách sắp xếp lễ hội để nhận phần thưởng! 'Làm việc chăm chỉ, tặng quà càng lớn hơn!' - CyberSanta"
+			},
+			"name": {
+				"eng": "Santa's Workshop Pass",
+				"trans": "Thẻ Xưởng Ông Già Noel"
+			}
+		},
 		"seashell": {
 			"description": {
 				"eng": "A beautiful seashell that can be used to exchange items with Josie",
@@ -5144,27 +5631,85 @@
 		}
 	},
 	"jukeBox": {
-		"override": {
+		"apartment": {
 			"description": {
-				"eng": "Force system-wide playback of selected track",
-				"trans": "Phát nhạc được chọn trên toàn hệ thống"
+				"eng": "Playing for visitors in your apartment",
+				"trans": "Đang phát nhạc cho khách đến thăm căn hộ của bạn"
+			},
+			"noChanges": {
+				"eng": "NO CHANGES",
+				"trans": "Không có thay đổi"
+			},
+			"saveButton": {
+				"eng": "SAVE CONFIGURATION",
+				"trans": "Lưu cấu hình"
 			},
 			"title": {
-				"eng": "Music Override Engaged",
+				"eng": "Apartment Broadcast",
+				"trans": "Phát sóng căn hộ"
+			}
+		},
+		"badge": {
+			"active": {
+				"eng": "ACTIVE",
+				"trans": "HOẠT ĐỘNG"
+			},
+			"apartment": {
+				"eng": "APT",
+				"trans": "Căn hộ"
+			},
+			"override": {
+				"eng": "OVR",
+				"trans": "GHI LỆN"
+			}
+		},
+		"mode": {
+			"homeSpeaker": {
+				"eng": "HOME SPEAKER",
+				"trans": "Loa nhà"
+			},
+			"walkman": {
+				"eng": "WALKMAN MODE",
+				"trans": "Chế độ Walkman"
+			}
+		},
+		"override": {
+			"description": {
+				"eng": "Play this track everywhere you go",
+				"trans": "Phát nhạc được chọn trên toàn hệ thống"
+			},
+			"label": {
+				"eng": "Override",
+				"trans": "Ghi đè"
+			},
+			"title": {
+				"eng": "Override Enabled",
 				"trans": "Đã kích hoạt chế độ nhạc"
 			}
 		},
-		"selectTrack": {
-			"eng": "Select Audio Track",
-			"trans": "Chọn Track"
-		},
-		"tip": {
-			"eng": "Customize your apartment's background music by selecting tracks and enabling override to replace location-based audio.",
-			"trans": "Tùy chỉnh nhạc nền cho căn hộ của bạn bằng cách chọn các bản nhạc và bật chế độ thay thế để thay đổi âm thanh theo vị trí."
+		"slot": {
+			"apartmentAudio": {
+				"eng": "APARTMENT AUDIO",
+				"trans": "Âm thanh căn hộ"
+			},
+			"personalPlayer": {
+				"eng": "PERSONAL PLAYER",
+				"trans": "Người chơi cá nhân"
+			}
 		},
 		"title": {
 			"eng": "JukeBox",
 			"trans": "Thư viện nhạc"
+		},
+		"trackList": {
+			"apartment": {
+				"eng": "Select Tape for Apartment",
+				"trans": "Chọn băng cho căn hộ"
+			},
+			"walkman": {
+				"eng": "Select Tape for Walkman",
+				"trans": "Chọn băng cho Walkman"
+			}
 		},
 		"tracks": {
 			"afk": {
@@ -5503,9 +6048,9 @@
 					"level"
 				]
 			},
-			"description": {
-				"eng": "[Apartment]\n        Your cozy apartment in the city. your pets are waiting for you to come home.",
-				"trans": "[Căn hộ]\r\n        Căn hộ ấm cúng của bạn ở trong thành phố. Thú cưng của bạn đang đợi bạn về nhà đấy."
+			"descriptionv2": {
+				"eng": "Your cozy apartment in the city. your pets are waiting for you to come home.",
+				"trans": "Căn hộ ấm cúng của bạn ở trung tâm thành phố, nơi thú cưng đang chờ đợi bạn trở về."
 			},
 			"name": {
 				"eng": "My Apartment",
@@ -5519,9 +6064,9 @@
 			}
 		},
 		"coast": {
-			"description": {
-				"eng": "[Coast]\n        The beautiful coast a few kilometers away of downtown. The perfect place to relax and enjoy the sea breeze.",
-				"trans": "[Bờ Biển]  \n        Bờ biển xinh đẹp cách trung tâm thành phố vài cây số. Nơi lý tưởng để thư giãn và tận hưởng làn gió biển."
+			"descriptionv2": {
+				"eng": "The beautiful coast a few kilometers away of downtown. The perfect place to relax and enjoy the sea breeze.",
+				"trans": "Bãi biển tuyệt đẹp cách trung tâm thành phố vài km. Nơi lý tưởng để thư giãn và tận hưởng làn gió biển."
 			},
 			"name": {
 				"eng": "Crystal Sands",
@@ -5539,9 +6084,9 @@
 				"eng": "You need to join a gang to enter this area",
 				"trans": "Bạn phải tham gia một Tập Đoàn để vào khu vực này"
 			},
-			"description": {
-				"eng": "[Gang]\n        The headquarters for you and your gang members to plan and execute your next operation",
-				"trans": "[Tập Đoàn] \r\n         Trụ sở chính cho các thành viên Tập Đoàn lập kế hoạch thực hiện chiến dịch tiếp theo"
+			"descriptionv2": {
+				"eng": "The headquarters for you and your gang members to plan and execute your next operation",
+				"trans": "Trụ sở cho bạn và các thành viên nhóm, nơi lên kế hoạch và triển khai nhiệm vụ tiếp theo"
 			},
 			"name": {
 				"eng": "Gang Headquarters",
@@ -5549,9 +6094,9 @@
 			}
 		},
 		"job": {
-			"description": {
-				"eng": "[Job Hub]\n        Here are many shops and businesses reside. The perfect location to hone and refine your skills.",
-				"trans": "[Khu Treo Máy]\r\n        Tại đây có rất nhiều cửa hàng và doanh nghiệp, một nơi hoàn hảo để trau dồi và hoàn thiện kỹ năng."
+			"descriptionv2": {
+				"eng": "Here are many shops and businesses reside. The perfect location to hone and refine your skills.",
+				"trans": "Nơi đây tràn ngập các shop và doanh nghiệp, chính là địa chỉ lý tưởng để bồi dưỡng và tinh chỉnh kỹ năng."
 			},
 			"name": {
 				"eng": "Shangri-La Commercial Area",
@@ -5565,9 +6110,9 @@
 			}
 		},
 		"mainHub": {
-			"description": {
-				"eng": "[Central Hub]\n        One of the busiest cities in the continent. Here you can find all sorts of people from around the globe.",
-				"trans": "[Central Hub]\n       Một trong những thành phố nhộn nhịp nhất lục địa. Tại đây bạn có thể tìm thấy đủ loại người từ khắp nơi trên thế giới."
+			"descriptionv2": {
+				"eng": "One of the busiest cities in the continent. Here you can find all sorts of people from around the globe.",
+				"trans": "Một trong những thành phố nhộn nhịp nhất của lục địa. Ở đây, bạn sẽ gặp đủ loại người đến từ khắp nơi trên thế giới."
 			},
 			"name": {
 				"eng": "Shangri-La City center",
@@ -5623,9 +6168,9 @@
 			}
 		},
 		"market": {
-			"description": {
-				"eng": "[Player Market]\n        The famous market street in Shangri-La. Loads of market stalls fill the street.",
-				"trans": "[Chợ] \r\n         Khu chợ nổi tiếng ở Shangri-La với vô vàn gian hàng tràn ngập đường phố. \r\n         Bạn có thể tìm thấy bất cứ thứ gì hoặc mở một cửa hàng riêng cho mình."
+			"descriptionv2": {
+				"eng": "The famous market street in Shangri-La. Loads of market stalls fill the street.",
+				"trans": "Đường phố chợ nổi tiếng ở Shangri-La. Nhiều gian hàng bày bán lấp đầy đường."
 			},
 			"name": {
 				"eng": "Shangri-La Market Street",
@@ -5689,13 +6234,43 @@
 			}
 		},
 		"station": {
-			"description": {
-				"eng": "[Adventure]\n        Using the hyperloop, you can travel at supersonic speed across the continent with ease.",
-				"trans": "[Phiêu lưu]\r\n        Sử dụng công nghệ Hyperloop, bạn có thể di chuyển giữa các lục địa một cách dễ dàng với tốc độ siêu thanh."
+			"descriptionv2": {
+				"eng": "Using the hyperloop, you can travel at supersonic speed across the continent with ease.",
+				"trans": "Sử dụng Hyperloop, bạn có thể di chuyển với tốc độ siêu âm xuyên khắp lục địa một cách dễ dàng."
 			},
 			"name": {
 				"eng": "Hyper Train Central Station",
 				"trans": "Ga Tàu Trung Tâm"
+			}
+		},
+		"tag": {
+			"adventure": {
+				"eng": "Adventure",
+				"trans": "Phiêu lưu"
+			},
+			"apartment": {
+				"eng": "Apartment",
+				"trans": "Căn hộ"
+			},
+			"centralHub": {
+				"eng": "Central Hub",
+				"trans": "Trung Tâm"
+			},
+			"coast": {
+				"eng": "Coast",
+				"trans": "Bờ biển"
+			},
+			"gang": {
+				"eng": "Gang",
+				"trans": "Đội"
+			},
+			"jobHub": {
+				"eng": "Job Hub",
+				"trans": "Trung tâm công việc"
+			},
+			"playerMarket": {
+				"eng": "Player Market",
+				"trans": "Thị trường Người Chơi"
 			}
 		},
 		"zone": {
@@ -5805,15 +6380,6 @@
 			"vars": [
 				"limit",
 				"hours"
-			]
-		}
-	},
-	"mailRoomContent": {
-		"time": {
-			"eng": "${time} ago",
-			"trans": "${time} trước",
-			"vars": [
-				"time"
 			]
 		}
 	},
@@ -6330,6 +6896,12 @@
 				"trans": "Vượt Qua Mạch Nơ-ron"
 			}
 		},
+		"common": {
+			"retry": {
+				"eng": "RETRY",
+				"trans": "Thử lại"
+			}
+		},
 		"dataStream": {
 			"instructions": {
 				"eng": "INTERCEPT VALID DATA PACKETS [GLOWING] // AVOID CORRUPTED ONES",
@@ -6338,6 +6910,82 @@
 			"title": {
 				"eng": "Data Stream Interceptor",
 				"trans": "Bộ chặn Dữ liệu Stream"
+			}
+		},
+		"hexBuffer": {
+			"fail": {
+				"desc": {
+					"eng": "Connection Terminated",
+					"trans": "Kết nối đã bị ngắt"
+				},
+				"title": {
+					"eng": "BREACH FAILED",
+					"trans": "Khai phá thất bại"
+				}
+			},
+			"hint": {
+				"col": {
+					"eng": "Select a code from the highlighted COLUMN",
+					"trans": "Chọn một mã từ cột được tô sáng"
+				},
+				"row": {
+					"eng": "Select a code from the highlighted ROW",
+					"trans": "Chọn một mã từ dòng được tô sáng"
+				}
+			},
+			"win": {
+				"desc": {
+					"eng": "Access Granted",
+					"trans": "Truy cập thành công"
+				},
+				"title": {
+					"eng": "BREACH SUCCESS",
+					"trans": "Đột Phá Thành Công"
+				}
+			}
+		},
+		"relayGrid": {
+			"clearAll": {
+				"eng": "CLEAR",
+				"trans": "Xóa hết"
+			},
+			"clearConfirm": {
+				"eng": "CONFIRM?",
+				"trans": "Xác nhận?"
+			},
+			"hint": {
+				"detail": {
+					"eng": "Paths cannot cross - avoid broken nodes",
+					"trans": "Các đường không thể giao thoa – tránh các nút hỏng"
+				},
+				"eng": "ACTIVATE NODES TO CREATE PATHS",
+				"trans": "Kích hoạt các nút để tạo đường đi"
+			},
+			"instructions": {
+				"eng": "Connect all signals - paths cannot cross",
+				"trans": "Liên kết mọi tín hiệu – đường đi không được chéo qua nhau"
+			},
+			"smartHint": {
+				"dismiss": {
+					"eng": "[ TAP TO DISMISS ]",
+					"trans": "Nhấn để hủy"
+				},
+				"eng": "Paths cannot share nodes - route around obstacles",
+				"trans": "Hai đường không thể cùng dùng một nút – đi vòng qua chướng ngại"
+			},
+			"undo": {
+				"eng": "UNDO",
+				"trans": "Hoàn tác"
+			},
+			"win": {
+				"description": {
+					"eng": "All routes established",
+					"trans": "Tất cả tuyến đã được thiết lập"
+				},
+				"title": {
+					"eng": "MISSION COMPLETE",
+					"trans": "Nhiệm vụ đã hoàn thành"
+				}
 			}
 		},
 		"sequenceHack": {
@@ -7469,6 +8117,44 @@
 			}
 		}
 	},
+	"offSeasonInfoModal": {
+		"footer": {
+			"eng": "This compromise allows access while preserving the spirit of our events.",
+			"trans": "Giải pháp này cho phép truy cập trong khi vẫn giữ được tinh thần của các sự kiện."
+		},
+		"intro": {
+			"eng": "Seasonal chat frames are designed as seasonal exclusive limited-time cosmetics.",
+			"trans": "Các khung chat theo mùa là phụ kiện đặc biệt, chỉ có sẵn trong giai đoạn ngắn của mỗi mùa."
+		},
+		"reasonConvenience": {
+			"eng": "Convenience: Bypassing the standard event schedule.",
+			"trans": "Tiện lợi: Bỏ qua lịch trình sự kiện chuẩn."
+		},
+		"reasonFairness": {
+			"eng": "Fairness: Honors the dedication of players who participated during the original event.",
+			"trans": "Công bằng: Tri ân những gamer đã tham gia trong sự kiện gốc."
+		},
+		"reasonValue": {
+			"eng": "Event Value: Maintains the prestige and incentive to unlock cosmetics during the live rotation.",
+			"trans": "Giá trị Sự Kiện: Giữ vững uy tín và động lực để mở khóa đồ trang trí trong vòng quay live."
+		},
+		"title": {
+			"eng": "Off-Season Collection",
+			"trans": "Bộ sưu tập Ngoại Kỳ"
+		},
+		"whyAllowedBody": {
+			"eng": "Due to popular demand, we are opening the archives. We heard your requests for specific frames that are currently out of rotation and didn't want you to wait forever!",
+			"trans": "Vì yêu cầu đông đảo, chúng tôi đã mở kho lưu trữ. Chúng tôi lắng nghe những lời yêu cầu về các khung hình đang ngoại lệ trong vòng quay và không muốn các bạn phải đợi mãi!"
+		},
+		"whyAllowedTitle": {
+			"eng": "Why are they available now?",
+			"trans": "Tại sao chúng có sẵn ngay lúc này?"
+		},
+		"whyFee": {
+			"eng": "Why is there a vault fee?",
+			"trans": "Tại sao phải trả phí cho kho lưu trữ?"
+		}
+	},
 	"pet": {
 		"adopted": {
 			"eng": "${player} has adopted ${pet}",
@@ -7811,6 +8497,13 @@
 		"noPet": {
 			"eng": "You have no pet yet",
 			"trans": "Bạn chưa có thú cưng nào cả"
+		},
+		"noPetOther": {
+			"eng": "${playerName} has no pets",
+			"trans": "${playerName} chưa có thú cưng",
+			"vars": [
+				"playerName"
+			]
 		}
 	},
 	"petReviveModal": {
@@ -7941,6 +8634,10 @@
 				"eng": "Invalid Travel Link, if persist please reload",
 				"trans": "Liên kết du lịch không hợp lệ, nếu vẫn xảy ra vui lòng tải lại"
 			},
+			"muted": {
+				"eng": "You are muted",
+				"trans": "Bạn đã bị tắt tiếng"
+			},
 			"notInBattle": {
 				"eng": "You are not in battle.",
 				"trans": "Bạn không ở trong trận chiến."
@@ -7997,6 +8694,30 @@
 				"eng": "Thank you for completing the survey, the rewards have been sent to your item inbox, you can access the inbox from the inventory tab",
 				"trans": "Cảm ơn bạn đã hoàn thành khảo sát, phần thưởng đã được gửi vào hộp đồ vật của bạn, bạn có thể truy cập hộp thư từ tab kho hàng"
 			}
+		}
+	},
+	"playerApartmentPage": {
+		"noApartment": {
+			"eng": "${playerName} doesn't have an apartment",
+			"trans": "${playerName} chưa có căn hộ",
+			"vars": [
+				"playerName"
+			]
+		},
+		"title": {
+			"eng": "${playerName}'s Apartment",
+			"trans": "Căn hộ của ${playerName}",
+			"vars": [
+				"playerName"
+			]
+		},
+		"viewFurniture": {
+			"eng": "View Furniture",
+			"trans": "Xem nội thất"
+		},
+		"viewPets": {
+			"eng": "View Pets",
+			"trans": "Xem Thú Cưng"
 		}
 	},
 	"playerDetailsAssetsTab": {
@@ -8152,17 +8873,9 @@
 				"eng": "Active Furniture",
 				"trans": "Đồ nội thất đang hoạt động"
 			},
-			"collection": {
-				"eng": "Collection",
-				"trans": "Bộ sưu tập"
-			},
 			"noActiveFurniture": {
 				"eng": "No furniture currently active in slots",
 				"trans": "Chưa có món nội thất nào đang được gắn vào khe"
-			},
-			"title": {
-				"eng": "Furniture",
-				"trans": "Đồ nội thất"
 			},
 			"viewCollection": {
 				"eng": "${count} Owned",
@@ -9014,6 +9727,73 @@
 		"unknown": {
 			"eng": "Unknown Items",
 			"trans": "Vật phẩm không xác định"
+		}
+	},
+	"rewardDisplay": {
+		"exp": {
+			"eng": "${amount} ${levelType} exp",
+			"trans": "${amount} ${levelType} XP",
+			"vars": [
+				"amount",
+				"levelType"
+			]
+		},
+		"gangExp": {
+			"eng": "${clanExp} gang exp",
+			"trans": "${clanExp} EXP Băng Nhóm",
+			"vars": [
+				"clanExp"
+			]
+		},
+		"gangFunding": {
+			"eng": "${clanMoney} gang funding",
+			"trans": "${clanMoney} Vốn Gang",
+			"vars": [
+				"clanMoney"
+			]
+		},
+		"gangOccupationPoint": {
+			"eng": "${clanOccupationPoint} Occupation Control",
+			"trans": "${clanOccupationPoint} Điểm Kiểm soát",
+			"vars": [
+				"clanOccupationPoint"
+			]
+		},
+		"gangResource": {
+			"eng": "${clanResource} gang resource",
+			"trans": "${clanResource} nguồn lực gang",
+			"vars": [
+				"clanResource"
+			]
+		},
+		"globalQuestPoint": {
+			"eng": "${globalQuestPoint} SL Data Fortress breach progress",
+			"trans": "${globalQuestPoint} Tiến độ xâm nhập Tòa Tháp dữ liệu SL",
+			"vars": [
+				"globalQuestPoint"
+			]
+		},
+		"health": {
+			"eng": "+${health} Health",
+			"trans": "+${health} Sức khỏe",
+			"vars": [
+				"health"
+			]
+		},
+		"shield": {
+			"eng": "+${shield} Shield",
+			"trans": "+${shield} Chắn",
+			"vars": [
+				"shield"
+			]
+		},
+		"statusEffectDuration": {
+			"eng": "${effect} for ${duration}",
+			"trans": "${effect} trong ${duration}",
+			"vars": [
+				"effect",
+				"duration"
+			]
 		}
 	},
 	"sakuraPromo": {
@@ -10510,7 +11290,7 @@
 				"trans": "Huỷ"
 			},
 			"abortWarning": {
-				"eng": "By aborting this you won\\'t receive any reward and the material used won\\'t be returned",
+				"eng": "By aborting this you won't receive any reward and the material used won't be returned",
 				"trans": "Nếu hủy bạn sẽ không nhận được bất kỳ phần thưởng nào và tài nguyên đã được sử dụng sẽ mất"
 			},
 			"abortWarningTitle": {
@@ -11944,13 +12724,6 @@
 			}
 		},
 		"map": {
-			"hiddenNpcTip": {
-				"eng": "${hiddenCount} more interactables can be unlocked at this location, level up to unlock them.",
-				"trans": "${hiddenCount} Thêm tương tác có thể được mở khóa tại vị trí này, lên cấp để mở khóa chúng.",
-				"vars": [
-					"hiddenCount"
-				]
-			},
 			"hideLowerLevelTravels": {
 				"eng": "Hide lower levels",
 				"trans": "Ẩn cấp độ thấp hơn"
@@ -12724,6 +13497,16 @@
 				"title": {
 					"eng": "Disable Victory Screen",
 					"trans": "Vô hiệu hóa màn hình chiến thắng"
+				}
+			},
+			"enableApartmentWall": {
+				"description": {
+					"eng": "Allow others to post on your apartment wall",
+					"trans": "Cho phép người khác đăng bài lên tường căn hộ của bạn"
+				},
+				"title": {
+					"eng": "Enable Apartment Wall",
+					"trans": "Bật Tường Căn Hộ"
 				}
 			},
 			"enableBackgroundMusic": {

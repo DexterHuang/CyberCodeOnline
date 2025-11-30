@@ -590,6 +590,16 @@
 				"trans": "ชางกรี-ลา"
 			}
 		},
+		"deleteNoteConfirm": {
+			"eng": "Delete this note?",
+			"trans": "ลบโน้ตนี้ไหม?"
+		},
+		"error": {
+			"noApartment": {
+				"eng": "You don't have an apartment",
+				"trans": "คุณยังไม่มีอพาร์ตเมนต์"
+			}
+		},
 		"furniture": {
 			"eng": "Furniture",
 			"trans": "เฟอร์นิเจอร์"
@@ -598,13 +608,68 @@
 			"eng": "Furniture Slots",
 			"trans": "ที่วางเฟอร์นิเจอร์"
 		},
+		"getStickerHint": {
+			"eng": "Friendship Stickers can be obtained from quests and events.",
+			"trans": "สติ๊กเกอร์มิตรภาพสามารถรับได้จากภารกิจและอีเวนต์"
+		},
 		"jukeBox": {
 			"eng": "JukeBox",
 			"trans": "จู๊กบ็อกซ์"
 		},
+		"leaveNote": {
+			"eng": "Leave a Note",
+			"trans": "ฝากโน้ต"
+		},
+		"noNotes": {
+			"eng": "NO DATA FOUND // BE THE FIRST",
+			"trans": "ยังไม่มีข้อมูล // มาเป็นคนแรก"
+		},
+		"noSticker": {
+			"eng": "You need a Friendship Sticker to post a note!",
+			"trans": "ถ้าอยากโพสต์โน้ต ต้องใช้สติ๊กเกอร์มิตรภาพก่อนนะ"
+		},
+		"notePlaceholder": {
+			"eng": "Write something nice... (Max 128 chars)",
+			"trans": "พิมพ์ข้อความที่ดี... (สูงสุด 128 ตัวอักษร)"
+		},
 		"petSlots": {
 			"eng": "Pet Slots",
 			"trans": "ช่องสัตว์เลี้ยง"
+		},
+		"post": {
+			"eng": "Post",
+			"trans": "โพสต์"
+		},
+		"postNote": {
+			"error": {
+				"contentTooLong": {
+					"eng": "Content too long or empty",
+					"trans": "เนื้อหายาวเกินไปหรือว่างเปล่า"
+				},
+				"negativeSentiment": {
+					"eng": "Message is flagged by AI, only friendly content is allowed.",
+					"trans": "ข้อความได้ถูกทำเครื่องหมายโดย AI กรุณาใช้ภาษาที่เป็นมิตรเท่านั้น"
+				},
+				"noItem": {
+					"eng": "You need a ${itemName} to leave a note. ${itemName} can be obtained from quests and events.",
+					"trans": "ขาด ${itemName} ไม่สามารถทิ้งบันทึกได้ คุณหามาได้จากภารกิจและอีเวนต์",
+					"vars": [
+						"itemName"
+					]
+				},
+				"notFriends": {
+					"eng": "You must be friends with the owner to post",
+					"trans": "คุณต้องเป็นเพื่อนของเจ้าของก่อนจึงจะสามารถโพสต์ได้"
+				},
+				"ownerNotFound": {
+					"eng": "Owner not found",
+					"trans": "ไม่พบเจ้าของ"
+				},
+				"restricted": {
+					"eng": "This player has disabled their wall",
+					"trans": "ผู้เล่นคนนี้ได้ปิดกำแพงของเขา"
+				}
+			}
 		},
 		"rent": {
 			"paidMail": {
@@ -627,6 +692,17 @@
 				"rentalDueDate"
 			]
 		},
+		"stickerCount": {
+			"eng": "You have: ${count}",
+			"trans": "สติ๊กเกอร์ของคุณ: ${count}",
+			"vars": [
+				"count"
+			]
+		},
+		"stickerRequired": {
+			"eng": "Friendship Sticker Required",
+			"trans": "ต้องมีสติ๊กเกอร์มิตรภาพ"
+		},
 		"terminateLease": {
 			"eng": "Terminate Lease",
 			"trans": "ยกเลิกสัญญาเช่า"
@@ -645,6 +721,14 @@
 		"viewPets": {
 			"eng": "View Pets",
 			"trans": "ดูสัตว์เลี้ยง"
+		},
+		"wall": {
+			"eng": "Apartment Wall",
+			"trans": "ผนังอพาร์ตเมนต์"
+		},
+		"wallDisabled": {
+			"eng": "WALL // DISABLED",
+			"trans": "กำแพง // ไม่ทำงาน"
 		}
 	},
 	"apartmentMarket": {
@@ -1213,6 +1297,336 @@
 			"trans": "งานคริสต์มาส!"
 		}
 	},
+	"christmasWorkshop": {
+		"button": {
+			"subtitle": {
+				"eng": "SORT GIFTS & EARN REWARDS",
+				"trans": "จัดเรียงของขวัญ & รับรางวัล"
+			},
+			"title": {
+				"eng": "CYBERSANTA'S WORKSHOP",
+				"trans": "เวิร์กช็อปไซเบอร์ซานต้า"
+			}
+		},
+		"commentary": {
+			"combo1": {
+				"eng": "Efficiency Spiking!",
+				"trans": "ประสิทธิภาพบูม!"
+			},
+			"combo2": {
+				"eng": "Overclocked!",
+				"trans": "โอเวอร์คล็อก!"
+			},
+			"combo3": {
+				"eng": "MAXIMUM VELOCITY!",
+				"trans": "ความเร็วสูงสุด!"
+			},
+			"combo4": {
+				"eng": "SYSTEMS CRITICAL!",
+				"trans": "ระบบวิกฤติ!"
+			},
+			"combo5": {
+				"eng": "GODLIKE PRECISION!",
+				"trans": "ความแม่นยำระดับเทพ!"
+			},
+			"finalWin1": {
+				"eng": "Mission Accomplished! Maximum Joy!",
+				"trans": "ภารกิจสำเร็จแล้ว! สนุกเต็มที่!"
+			},
+			"finalWin2": {
+				"eng": "All systems nominal! You are a legend!",
+				"trans": "ทุกระบบพร้อมใช้งาน! คุณคือตำนาน!"
+			},
+			"finalWin3": {
+				"eng": "Perfect execution! Happy Holidays!",
+				"trans": "ทำได้อย่างสมบูรณ์แบบ! สุขสันต์วันหยุดนะ"
+			},
+			"positive1": {
+				"eng": "Optimal!",
+				"trans": "ยอดเยี่ยม!"
+			},
+			"positive2": {
+				"eng": "Precise!",
+				"trans": "แม่นยำเลย!"
+			},
+			"positive3": {
+				"eng": "Confirmed!",
+				"trans": "ยืนยันแล้ว!"
+			},
+			"positive4": {
+				"eng": "Smooth!",
+				"trans": "เจ๋งเลย!"
+			},
+			"positive5": {
+				"eng": "Efficient!",
+				"trans": "กระฉับกระเฉง!"
+			},
+			"positive6": {
+				"eng": "Target hit!",
+				"trans": "เป้าหมายถูกกระทบ!"
+			},
+			"positive7": {
+				"eng": "Nice lock!",
+				"trans": "ล็อกดีจัง!"
+			},
+			"stageComplete1": {
+				"eng": "Batch complete! Efficiency rising!",
+				"trans": "ชุดเสร็จแล้ว! ประสิทธิภาพสูงขึ้น!"
+			},
+			"stageComplete2": {
+				"eng": "Excellent processing! Next wave!",
+				"trans": "การจัดการยอดเยี่ยม! ลุยคลื่นต่อไป!"
+			},
+			"stageComplete3": {
+				"eng": "Protocol adherence: 100%!",
+				"trans": "การปฏิบัติตามโปรโตคอล: 100 %!"
+			},
+			"start1": {
+				"eng": "Protocol initiated. Sort incoming!",
+				"trans": "โพรโทคอลเปิดใช้งาน! จัดเรียงข้อมูลเข้าเลย!"
+			},
+			"start2": {
+				"eng": "Systems online. Let's get sorting!",
+				"trans": "ระบบออนไลน์แล้ว! มาเริ่มจัดระเบียบกันเลย!"
+			},
+			"start3": {
+				"eng": "Workshop efficiency is in your hands!",
+				"trans": "ประสิทธิภาพของเวิร์กช็อปอยู่ในมือคุณ!"
+			},
+			"wrongSort1": {
+				"eng": "Error! Incorrect destination!",
+				"trans": "เกิดข้อผิดพลาด! ปลายทางไม่ถูกต้อง!"
+			},
+			"wrongSort2": {
+				"eng": "System alert! Wrong bin!",
+				"trans": "แจ้งเตือนระบบ! ถังผิด!"
+			},
+			"wrongSort3": {
+				"eng": "Recalibrate your sensors!",
+				"trans": "ปรับเซ็นเซอร์ของคุณให้ตรงกันอีกครั้ง!"
+			}
+		},
+		"countdown": {
+			"sortGifts": {
+				"eng": "TARGET: ${count} GIFTS",
+				"trans": "เป้าหมาย: ${count} ของขวัญ",
+				"vars": [
+					"count"
+				]
+			},
+			"stage": {
+				"eng": "STAGE ${stage}",
+				"trans": "ระยะ ${stage}",
+				"vars": [
+					"stage"
+				]
+			}
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The Christmas event has ended!",
+				"trans": "อีเวนต์คริสต์มาสจบลงแล้ว!"
+			},
+			"noPass": {
+				"eng": "You need a Santa's Workshop Pass to play! Find them in dungeon chests or from AFK farming.",
+				"trans": "คุณจำเป็นต้องมี Pass ของเวิร์กช็อปซานต้าเพื่อเล่น! หาจากกระเป๋าถังดันเจี้ยนหรือทำ AFK farming"
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "Close",
+				"trans": "ปิด"
+			},
+			"message": {
+				"eng": "The game encountered an error. Don't worry - your Workshop Pass was not consumed!",
+				"trans": "เกมเจอข้อผิดพลาด ไม่ต้องห่วง! บัตรเวิร์กช็อปของคุณยังไม่ได้ถูกใช้เลย!"
+			},
+			"title": {
+				"eng": "Game Error",
+				"trans": "ข้อผิดพลาดเกม"
+			}
+		},
+		"game": {
+			"combo": {
+				"eng": "Efficiency",
+				"trans": "ประสิทธิภาพ"
+			},
+			"stage": {
+				"eng": "Stage ${stage}/5",
+				"trans": "ระยะ ${stage}/5",
+				"vars": [
+					"stage"
+				]
+			},
+			"timeLabel": {
+				"eng": "Time Remaining",
+				"trans": "เวลาเหลือ"
+			},
+			"waiting": {
+				"eng": "AWAITING INPUT...",
+				"trans": "กำลังรออินพุต…"
+			}
+		},
+		"gameOver": {
+			"close": {
+				"eng": "CLOSE TERMINAL",
+				"trans": "ปิดเทอร์มินัล"
+			},
+			"message": {
+				"eng": "ERROR AT STAGE ${stage}",
+				"trans": "ผิดพลาดที่ขั้นตอน ${stage}",
+				"vars": [
+					"stage"
+				]
+			},
+			"noProgress": {
+				"eng": "No stages completed. Pass integrity maintained.",
+				"trans": "ยังไม่มีขั้นตอนที่สำเร็จ การรักษาความสมบูรณ์ของ Pass ยังอยู่"
+			},
+			"progress": {
+				"eng": "Protocol interrupted. ${completed} stages secured.",
+				"trans": "โปรโตคอลถูกตัดขาด ระยะที่สำเร็จแล้วทั้งหมด ${completed}",
+				"vars": [
+					"completed"
+				]
+			},
+			"title": {
+				"eng": "SYSTEM FAILURE",
+				"trans": "ระบบขัดข้อง"
+			}
+		},
+		"giftType": {
+			"clothes": {
+				"eng": "Clothes",
+				"trans": "เสื้อผ้า"
+			},
+			"food": {
+				"eng": "Food",
+				"trans": "อาหาร"
+			},
+			"tech": {
+				"eng": "Tech",
+				"trans": "เทค"
+			},
+			"toy": {
+				"eng": "Toys",
+				"trans": "ของเล่น"
+			}
+		},
+		"intro": {
+			"eventEnded": {
+				"eng": "Event Ended",
+				"trans": "อีเวนท์จบแล้ว"
+			},
+			"eventInactive": {
+				"eng": "Event is not currently active",
+				"trans": "อีเวนต์ยังไม่เปิดใช้งานตอนนี้"
+			},
+			"howToGet": {
+				"eng": "Find passes in dungeon chests or from AFK farming during the event!",
+				"trans": "ค้นหาพาสในตู้สมบัติดันเจี้ยนหรือจากการ AFK farm ในระหว่างอีเวนต์!"
+			},
+			"howToPlay": {
+				"eng": "How to Play",
+				"trans": "วิธีเล่น"
+			},
+			"needPass": {
+				"eng": "Need Workshop Pass",
+				"trans": "ต้องการ Workshop Pass"
+			},
+			"passesOwned": {
+				"eng": "Passes Owned:",
+				"trans": "พาสที่คุณถือ:"
+			},
+			"rule1": {
+				"eng": "• Swipe gifts to the correct sorting zones",
+				"trans": "• ลากของขวัญไปยังโซนจัดเรียงที่ถูกต้อง"
+			},
+			"rule2": {
+				"eng": "• Complete 5 progressive stages",
+				"trans": "• ทำสำเร็จ 5 ระดับขั้นต่อเนื่อง"
+			},
+			"rule3": {
+				"eng": "• Each stage gets faster with more gifts",
+				"trans": "แต่ละขั้นตอนจะเร็วขึ้นตามจำนวนของขวัญที่เพิ่มขึ้น"
+			},
+			"rule4": {
+				"eng": "• Wrong swipes cost you 4 seconds",
+				"trans": "• ถ้าคุณสไลด์ผิด คุณจะโดนตัดเวลาลง 4 วินาที"
+			},
+			"rule5": {
+				"eng": "• Complete all stages for maximum rewards!",
+				"trans": "• ปิดท้ายทุกขั้นตอนเพื่อได้รับรางวัลสูงสุด!"
+			},
+			"startButton": {
+				"eng": "Start Workshop",
+				"trans": "เริ่มเวิร์กช็อป"
+			},
+			"title": {
+				"eng": "Welcome to Santa's Workshop",
+				"trans": "ยินดีต้อนรับสู่เวิร์กช็อปของซานต้า"
+			}
+		},
+		"loading": {
+			"message": {
+				"eng": "Preparing gifts for sorting...",
+				"trans": "กำลังเตรียมของขวัญเพื่อจัดเรียง..."
+			},
+			"title": {
+				"eng": "Loading Workshop...",
+				"trans": "กำลังโหลดเวิร์กช็อป..."
+			}
+		},
+		"pleaseWait": {
+			"eng": "ESTABLISHING CONNECTION",
+			"trans": "กำลังเชื่อมต่อ"
+		},
+		"processing": {
+			"eng": "SYNCHRONIZING...",
+			"trans": "กำลังซิงค์…"
+		},
+		"results": {
+			"close": {
+				"eng": "CLOSE REPORT",
+				"trans": "ปิดรายงาน"
+			},
+			"goodJob": {
+				"eng": "Good effort. Re-engage for maximum rewards.",
+				"trans": "เก่งเลย! กลับมาเล่นอีกเพื่อได้รางวัลเต็มที่"
+			},
+			"rewards": {
+				"eng": "REWARDS ACQUIRED",
+				"trans": "ได้รับรางวัลแล้ว"
+			}
+		},
+		"stageComplete": {
+			"continue": {
+				"eng": "INITIATE STAGE ${next}",
+				"trans": "เริ่มสเตจ ${next}",
+				"vars": [
+					"next"
+				]
+			},
+			"nextStage": {
+				"eng": "Efficiency ratings optimal. Initializing Stage ${next} sequence...",
+				"trans": "คะแนนประสิทธิภาพสูงสุด! บูทสเตจ ${next} ไปเลย…",
+				"vars": [
+					"next"
+				]
+			},
+			"stage": {
+				"eng": "STAGE ${stage} CLEARED",
+				"trans": "ผ่านระดับ ${stage}",
+				"vars": [
+					"stage"
+				]
+			},
+			"title": {
+				"eng": "PROTOCOL COMPLETE",
+				"trans": "โปรโตคอลสำเร็จ"
+			}
+		}
+	},
 	"clanMemberSort": {
 		"gangExp": {
 			"displayName": {
@@ -1289,13 +1703,39 @@
 		}
 	},
 	"common": {
+		"cancel": {
+			"eng": "Cancel",
+			"trans": "ยกเลิก"
+		},
 		"close": {
 			"eng": "Close",
 			"trans": "ปิด"
 		},
+		"confirm": {
+			"eng": "Are you sure?",
+			"trans": "ยืนยัน"
+		},
 		"delete": {
 			"eng": "Delete",
 			"trans": "ลบ"
+		},
+		"error": {
+			"permissionDenied": {
+				"eng": "Permission denied",
+				"trans": "การอนุญาตถูกปฏิเสธ"
+			}
+		},
+		"gotIt": {
+			"eng": "Got it",
+			"trans": "รับทราบ"
+		},
+		"owned": {
+			"eng": "Owned",
+			"trans": "มีอยู่แล้ว"
+		},
+		"purchase": {
+			"eng": "Purchase",
+			"trans": "ซื้อ"
 		},
 		"save": {
 			"eng": "Save",
@@ -1321,6 +1761,10 @@
 			"eng": "Donation Tier Gallery",
 			"trans": "แกลเลอรีระดับการบริจาค"
 		},
+		"confirmPurchase": {
+			"eng": "Unlock Chat Frame",
+			"trans": "ปลดล็อคกรอบแชท"
+		},
 		"donationTire": {
 			"eng": "Select Frame",
 			"trans": "เลือกเฟรม"
@@ -1336,6 +1780,17 @@
 			"eng": "Show how others see you",
 			"trans": "แสดงให้เห็นว่าคนอื่นมองคุณอย่างไร"
 		},
+		"offSeason": {
+			"eng": "Off-Season",
+			"trans": "นอกฤดูกาล"
+		},
+		"offSeasonNotice": {
+			"eng": "*Off-Season chat frames have a +${percent}% cost",
+			"trans": "*เฟรมแชทช่วงออฟซีซั่นมีค่าใช้จ่ายเพิ่ม +${percent}%",
+			"vars": [
+				"percent"
+			]
+		},
 		"ownedFrames": {
 			"eng": "Donation Tier Owned: [${owned}/${total}]",
 			"trans": "ระดับการบริจาคที่คุณเป็นเจ้าของ: [${owned}/${total}]",
@@ -1343,6 +1798,10 @@
 				"owned",
 				"total"
 			]
+		},
+		"previewText": {
+			"eng": "This is how you will look!",
+			"trans": "ส่องดูตัวเองนะ! นี่คือหน้าตาที่คุณจะได้หลังจากเปลี่ยนแปลง!"
 		}
 	},
 	"cosmeticSettingPage": {
@@ -1772,6 +2231,10 @@
 		"donation45": {
 			"eng": "Vice City",
 			"trans": "วิซซีที้"
+		},
+		"donation46": {
+			"eng": "Candycane",
+			"trans": "ขนมแท่งคริสต์มาส"
 		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
@@ -2678,6 +3141,10 @@
 		"noAvailableDesc": {
 			"eng": "You don't have any unassigned furniture. All your furniture is already assigned to slots.",
 			"trans": "คุณไม่มีเฟอร์นิเจอร์ที่ยังไม่ได้จัดสรร ทั้งหมดของคุณได้ถูกกำหนดไว้ในช่องแล้ว"
+		},
+		"noSlots": {
+			"eng": "This apartment tier does not have any furniture slots. Upgrade to a higher tier to unlock them.",
+			"trans": "อพาร์ตเมนต์ระดับนี้ไม่มีช่องวางเฟอร์นิเจอร์เลย ให้อัปเกรดเป็นระดับสูงกว่าเพื่อเปิดใช้งานได้"
 		},
 		"owned": {
 			"eng": "Owned",
@@ -3888,7 +4355,7 @@
 		},
 		"christmasToken": {
 			"description": {
-				"eng": "FrostByte Shards are fragments of Cybersanta’s corrupted Winter Protocol, packed with enough festive energy to keep his systems running—and his biceps flexing all season long",
+				"eng": "FrostByte Shards are fragments of Cybersanta's corrupted Winter Protocol, packed with enough festive energy to keep his systems running—and his biceps flexing all season long",
 				"trans": "FrostByte Shards เป็นเศษชิ้นส่วนของ Winter Protocol ที่เสียหายของ Cybersanta ซึ่งเต็มไปด้วยพลังงานเทศกาลมากพอที่จะทำให้ระบบของเขาทำงานได้—และให้กล้ามเนื้อแขนของเขาเฟิร์มตลอดทั้งฤดูกาล"
 			},
 			"name": {
@@ -4047,6 +4514,16 @@
 			"name": {
 				"eng": "Flash Grenade",
 				"trans": "ระเบิดมือแฟลช"
+			}
+		},
+		"friendshipSticker": {
+			"desc": {
+				"eng": "A colorful sticker that symbolizes friendship and connection. Required to leave notes on friends' apartment walls. These special stickers help maintain positive interactions in the community.",
+				"trans": "` tags.\n\n<translation>สติกเกอร์สีสันสดใสที่แสดงถึงมิตรภาพและความเชื่อมโยง จำเป็นต้องวางข้อความบนผนังอพาร์ทเมนต์ของเพื่อน สติ๊กเกอร์ต่าง ๆ เหล่านี้ช่วยให้การปฏิสัมพันธ์ในชุมชนมีบรรยากาศดีขึ้น"
+			},
+			"name": {
+				"eng": "Friendship Sticker",
+				"trans": "สติ๊กเกอร์มิตรภาพ"
 			}
 		},
 		"globalPartyBuff": {
@@ -4638,6 +5115,16 @@
 				"trans": "กลีบดอกกุหลาบ"
 			}
 		},
+		"santaWorkshopPass": {
+			"description": {
+				"eng": "A holographic pass to CyberSanta's Workshop. Complete festive sorting challenges to earn rewards! 'Work hard, gift harder!' - CyberSanta",
+				"trans": "บัตรโฮโลกราฟิกเพื่อเข้าถึงเวิร์กช็อปไซเบอร์ซานต้า ทำความท้าทายการจัดเรียงเทศกาลเพื่อรับรางวัล! “ทำงานหนัก ใส่ของขวัญเต็มกำลัง!” - ไซเบอร์ซานต้า"
+			},
+			"name": {
+				"eng": "Santa's Workshop Pass",
+				"trans": "บัตรผ่านเวิร์กช็อปซานต้า"
+			}
+		},
 		"seashell": {
 			"description": {
 				"eng": "A beautiful seashell that can be used to exchange items with Josie",
@@ -5144,27 +5631,85 @@
 		}
 	},
 	"jukeBox": {
-		"override": {
+		"apartment": {
 			"description": {
-				"eng": "Force system-wide playback of selected track",
-				"trans": "เล่นเพลงนี้ทั้งเกม"
+				"eng": "Playing for visitors in your apartment",
+				"trans": "เล่นดนตรีเพื่อแขกที่มาพักในอพาร์ตเมนต์ของคุณ"
+			},
+			"noChanges": {
+				"eng": "NO CHANGES",
+				"trans": "ไม่มีการเปลี่ยนแปลง"
+			},
+			"saveButton": {
+				"eng": "SAVE CONFIGURATION",
+				"trans": "บันทึกการตั้งค่า"
 			},
 			"title": {
-				"eng": "Music Override Engaged",
+				"eng": "Apartment Broadcast",
+				"trans": "สตรีมอพาร์ตเมนต์"
+			}
+		},
+		"badge": {
+			"active": {
+				"eng": "ACTIVE",
+				"trans": "กำลังใช้งาน"
+			},
+			"apartment": {
+				"eng": "APT",
+				"trans": "อพาร์ตเมนต์"
+			},
+			"override": {
+				"eng": "OVR",
+				"trans": "โอเวอร์ไรด์"
+			}
+		},
+		"mode": {
+			"homeSpeaker": {
+				"eng": "HOME SPEAKER",
+				"trans": "ลำโพงบ้าน"
+			},
+			"walkman": {
+				"eng": "WALKMAN MODE",
+				"trans": "โหมดวอล์คแมน"
+			}
+		},
+		"override": {
+			"description": {
+				"eng": "Play this track everywhere you go",
+				"trans": "เล่นเพลงนี้ทั้งเกม"
+			},
+			"label": {
+				"eng": "Override",
+				"trans": "แทนที่"
+			},
+			"title": {
+				"eng": "Override Enabled",
 				"trans": "โหมดควบคุมเพลง"
 			}
 		},
-		"selectTrack": {
-			"eng": "Select Audio Track",
-			"trans": "เลือกเพลง"
-		},
-		"tip": {
-			"eng": "Customize your apartment's background music by selecting tracks and enabling override to replace location-based audio.",
-			"trans": "ปรับแต่งเพลงประกอบห้องของคุณได้โดยเลือกเพลงและเปิดใช้งานการแทนที่เพื่อเปลี่ยนเสียงตามสถานที่"
+		"slot": {
+			"apartmentAudio": {
+				"eng": "APARTMENT AUDIO",
+				"trans": "เสียงอพาร์ตเมนต์"
+			},
+			"personalPlayer": {
+				"eng": "PERSONAL PLAYER",
+				"trans": "ผู้เล่นส่วนตัว"
+			}
 		},
 		"title": {
 			"eng": "JukeBox",
 			"trans": "จู๊กบ็อกซ์"
+		},
+		"trackList": {
+			"apartment": {
+				"eng": "Select Tape for Apartment",
+				"trans": "เลือกแผ่นเสียงสำหรับอพาร์ตเมนต์"
+			},
+			"walkman": {
+				"eng": "Select Tape for Walkman",
+				"trans": "เลือกแผ่นเสียงสำหรับวอล์คแมน"
+			}
 		},
 		"tracks": {
 			"afk": {
@@ -5503,9 +6048,9 @@
 					"level"
 				]
 			},
-			"description": {
-				"eng": "[Apartment]\n        Your cozy apartment in the city. your pets are waiting for you to come home.",
-				"trans": "[หอพัก]\n        คอนโดเล็กๆ ใจกลางเมืองที่เป็นบ้านของคุณ สัตว์เลี้ยงของคุณรอคอยคุณกลับบ้านนะจ๊ะ."
+			"descriptionv2": {
+				"eng": "Your cozy apartment in the city. your pets are waiting for you to come home.",
+				"trans": "อพาร์ตเมนต์อันอบอุ่นของคุณในเมือง สัตว์เลี้ยงของคุณกำลังรอให้คุณกลับบ้าน"
 			},
 			"name": {
 				"eng": "My Apartment",
@@ -5519,9 +6064,9 @@
 			}
 		},
 		"coast": {
-			"description": {
-				"eng": "[Coast]\n        The beautiful coast a few kilometers away of downtown. The perfect place to relax and enjoy the sea breeze.",
-				"trans": "[ชายฝั่ง]  \n        ชายฝั่งที่สวยงามอยู่ห่างจากตัวเมืองไม่กี่กิโลเมตร เป็นสถานที่ที่เหมาะสำหรับการพักผ่อนและเพลิดเพลินกับลมทะเล."
+			"descriptionv2": {
+				"eng": "The beautiful coast a few kilometers away of downtown. The perfect place to relax and enjoy the sea breeze.",
+				"trans": "ชายฝั่งที่งดงามไม่ไกลเกินกี่กิโลเมตรจากใจกลางเมือง เป็นจุดพักผ่อนและสัมผัสสายลมทะเลอย่างเต็มรูปแบบ"
 			},
 			"name": {
 				"eng": "Crystal Sands",
@@ -5539,9 +6084,9 @@
 				"eng": "You need to join a gang to enter this area",
 				"trans": "คุณต้องเข้าร่วมแก๊งเพื่อเข้าสู่บริเวณนี้"
 			},
-			"description": {
-				"eng": "[Gang]\n        The headquarters for you and your gang members to plan and execute your next operation",
-				"trans": "[แก๊ง] \r\n         สำนักงานใหญ่สำหรับคุณและสมาชิกแก๊งของคุณเพื่อวางแผนและดำเนินการต่อไปของคุณ"
+			"descriptionv2": {
+				"eng": "The headquarters for you and your gang members to plan and execute your next operation",
+				"trans": "ฐานหลักของคุณกับเพื่อนฝูงเพื่อวางแผนและดำเนินการปฏิบัติภารกิจครั้งต่อไป"
 			},
 			"name": {
 				"eng": "Gang Headquarters",
@@ -5549,9 +6094,9 @@
 			}
 		},
 		"job": {
-			"description": {
-				"eng": "[Job Hub]\n        Here are many shops and businesses reside. The perfect location to hone and refine your skills.",
-				"trans": "[Job Hub]\r\n        เป็นสถานที่ซึ่งมีร้านค้าและธุรกิจมากมาย เหมาะสำหรับการทดลองความสามารถของคุณ"
+			"descriptionv2": {
+				"eng": "Here are many shops and businesses reside. The perfect location to hone and refine your skills.",
+				"trans": "พื้นที่นี้เต็มไปด้วยร้านค้าและธุรกิจหลากหลาย เป็นที่ตั้งที่เหมาะสมที่สุดเพื่อฝึกฝนและพัฒนาทักษะของคุณ"
 			},
 			"name": {
 				"eng": "Shangri-La Commercial Area",
@@ -5565,9 +6110,9 @@
 			}
 		},
 		"mainHub": {
-			"description": {
-				"eng": "[Central Hub]\n        One of the busiest cities in the continent. Here you can find all sorts of people from around the globe.",
-				"trans": "[Central Hub]\r\n        หนึ่งในเมืองที่วุ่นวายที่สุดบนผืนทวีป คุณสามารถพบเจอกับผู้คนทุกประเภทจากทั่วโลกได้ที่นี่"
+			"descriptionv2": {
+				"eng": "One of the busiest cities in the continent. Here you can find all sorts of people from around the globe.",
+				"trans": "หนึ่งในเมืองคึกคักที่สุดของทวีป<br/>คุณจะเจอคนจากทั่วทุกมุมโลกที่นี่"
 			},
 			"name": {
 				"eng": "Shangri-La City center",
@@ -5623,9 +6168,9 @@
 			}
 		},
 		"market": {
-			"description": {
-				"eng": "[Player Market]\n        The famous market street in Shangri-La. Loads of market stalls fill the street.",
-				"trans": "[Player Market]\r\n        ตลาดนัดอันโด่งดังของ Shangri-La มีแผงลอยมากมายเรียงรายอยู่เต็มถนน\r\n        คุณอาจเจอสิ่งที่คุณต้องการ หรือจะตั้งร้านขายของเองเลยก็ได้นะ"
+			"descriptionv2": {
+				"eng": "The famous market street in Shangri-La. Loads of market stalls fill the street.",
+				"trans": "ถนนตลาดแสนดังของช้างรี‑ลา เต็มไปด้วยร้านค้ามากมาย"
 			},
 			"name": {
 				"eng": "Shangri-La Market Street",
@@ -5689,13 +6234,43 @@
 			}
 		},
 		"station": {
-			"description": {
-				"eng": "[Adventure]\n        Using the hyperloop, you can travel at supersonic speed across the continent with ease.",
-				"trans": "[Adventure]\r\n        ด้วยการใช้ไฮเปอร์ลูป คุณสามารถเดินทางด้วยความเร็วสูงข้ามทวีปได้อย่างง่ายดาย"
+			"descriptionv2": {
+				"eng": "Using the hyperloop, you can travel at supersonic speed across the continent with ease.",
+				"trans": "ใช้ Hyperloop คุณสามารถเดินทางด้วยความเร็วเหนือเสียงทั่วทวีปได้อย่างง่ายดาย"
 			},
 			"name": {
 				"eng": "Hyper Train Central Station",
 				"trans": "สถานีกลาง Hyper Train"
+			}
+		},
+		"tag": {
+			"adventure": {
+				"eng": "Adventure",
+				"trans": "ผจญภัย"
+			},
+			"apartment": {
+				"eng": "Apartment",
+				"trans": "อพาร์ทเมนต์"
+			},
+			"centralHub": {
+				"eng": "Central Hub",
+				"trans": "ศูนย์รวม"
+			},
+			"coast": {
+				"eng": "Coast",
+				"trans": "ชายฝั่ง"
+			},
+			"gang": {
+				"eng": "Gang",
+				"trans": "พวกโจร"
+			},
+			"jobHub": {
+				"eng": "Job Hub",
+				"trans": "ศูนย์หางาน"
+			},
+			"playerMarket": {
+				"eng": "Player Market",
+				"trans": "ตลาดผู้เล่น"
 			}
 		},
 		"zone": {
@@ -5805,15 +6380,6 @@
 			"vars": [
 				"limit",
 				"hours"
-			]
-		}
-	},
-	"mailRoomContent": {
-		"time": {
-			"eng": "${time} ago",
-			"trans": "เมื่อ ${time} ที่แล้ว",
-			"vars": [
-				"time"
 			]
 		}
 	},
@@ -6330,6 +6896,12 @@
 				"trans": "การควบคุมวงจรประสาท"
 			}
 		},
+		"common": {
+			"retry": {
+				"eng": "RETRY",
+				"trans": "ลองใหม่"
+			}
+		},
 		"dataStream": {
 			"instructions": {
 				"eng": "INTERCEPT VALID DATA PACKETS [GLOWING] // AVOID CORRUPTED ONES",
@@ -6338,6 +6910,82 @@
 			"title": {
 				"eng": "Data Stream Interceptor",
 				"trans": "ตัวแทรกสตรีมข้อมูล"
+			}
+		},
+		"hexBuffer": {
+			"fail": {
+				"desc": {
+					"eng": "Connection Terminated",
+					"trans": "เชื่อมต่อถูกตัด"
+				},
+				"title": {
+					"eng": "BREACH FAILED",
+					"trans": "บรีชล้มเหลว"
+				}
+			},
+			"hint": {
+				"col": {
+					"eng": "Select a code from the highlighted COLUMN",
+					"trans": "เลือกรหัสจากคอลัมน์ที่ไฮไลท์"
+				},
+				"row": {
+					"eng": "Select a code from the highlighted ROW",
+					"trans": "เลือกรหัสจากแถวนั้นที่เน้น"
+				}
+			},
+			"win": {
+				"desc": {
+					"eng": "Access Granted",
+					"trans": "เข้าถึงสำเร็จ"
+				},
+				"title": {
+					"eng": "BREACH SUCCESS",
+					"trans": "บรีชสำเร็จ!"
+				}
+			}
+		},
+		"relayGrid": {
+			"clearAll": {
+				"eng": "CLEAR",
+				"trans": "ล้างทั้งหมด"
+			},
+			"clearConfirm": {
+				"eng": "CONFIRM?",
+				"trans": "ยืนยัน?"
+			},
+			"hint": {
+				"detail": {
+					"eng": "Paths cannot cross - avoid broken nodes",
+					"trans": "เส้นทางไม่สามารถตัดกันได้ - หลีกเลี่ยงโหนดที่เสีย"
+				},
+				"eng": "ACTIVATE NODES TO CREATE PATHS",
+				"trans": "เปิดโหนดเพื่อสร้างเส้นทาง"
+			},
+			"instructions": {
+				"eng": "Connect all signals - paths cannot cross",
+				"trans": "เชื่อมสัญญาณทั้งหมด – เส้นทางไม่สามารถข้ามกันได้"
+			},
+			"smartHint": {
+				"dismiss": {
+					"eng": "[ TAP TO DISMISS ]",
+					"trans": "แตะเพื่อปิด"
+				},
+				"eng": "Paths cannot share nodes - route around obstacles",
+				"trans": "เส้นทางไม่แชร์โหนด – เลี้ยวรอบอุปสรรค"
+			},
+			"undo": {
+				"eng": "UNDO",
+				"trans": "ย้อนกลับ"
+			},
+			"win": {
+				"description": {
+					"eng": "All routes established",
+					"trans": "ทุกเส้นทางพร้อมใช้งาน"
+				},
+				"title": {
+					"eng": "MISSION COMPLETE",
+					"trans": "ภารกิจสำเร็จ"
+				}
 			}
 		},
 		"sequenceHack": {
@@ -7469,6 +8117,44 @@
 			}
 		}
 	},
+	"offSeasonInfoModal": {
+		"footer": {
+			"eng": "This compromise allows access while preserving the spirit of our events.",
+			"trans": "การประนีประนอมนี้ให้คุณเข้าถึงได้พร้อมกับรักษาจิตวิญญาณของกิจกรรมของเราไว้"
+		},
+		"intro": {
+			"eng": "Seasonal chat frames are designed as seasonal exclusive limited-time cosmetics.",
+			"trans": "เฟรมแชทแบบซีซั่นถูกออกแบบเพื่อเป็นเครื่องประดับที่มีจำหน่ายเฉพาะช่วงเวลาจำกัด"
+		},
+		"reasonConvenience": {
+			"eng": "Convenience: Bypassing the standard event schedule.",
+			"trans": "ความสะดวก: ข้ามตารางกิจกรรมมาตรฐาน"
+		},
+		"reasonFairness": {
+			"eng": "Fairness: Honors the dedication of players who participated during the original event.",
+			"trans": "ความยุติธรรม: สรรเสริญการทุ่มเทของผู้เล่นที่เข้าร่วมในกิจกรรมครั้งแรก"
+		},
+		"reasonValue": {
+			"eng": "Event Value: Maintains the prestige and incentive to unlock cosmetics during the live rotation.",
+			"trans": "ค่าของเหตุการณ์: ทำให้คุณยังมีเกียรติและกระตุ้นให้ปลดล็อคเครื่องแต่งกายในระหว่างรอบการหมุนสด"
+		},
+		"title": {
+			"eng": "Off-Season Collection",
+			"trans": "คอลเลกชันนอกฤดูกาล"
+		},
+		"whyAllowedBody": {
+			"eng": "Due to popular demand, we are opening the archives. We heard your requests for specific frames that are currently out of rotation and didn't want you to wait forever!",
+			"trans": "ตามคำขอของผู้เล่นจำนวนมาก เราจึงเปิดคลังข้อมูลใหม่! เราได้ยินว่าคุณอยากมีเฟรมเฉพาะที่กำลังออกนอกหมุนเวียนและเราไม่ต้องการให้คุณรอนานเกินไป!"
+		},
+		"whyAllowedTitle": {
+			"eng": "Why are they available now?",
+			"trans": "ทำไมถึงพร้อมใช้งานในขณะนี้?"
+		},
+		"whyFee": {
+			"eng": "Why is there a vault fee?",
+			"trans": "ทำไมต้องมีค่าธรรมเนียมใน Vault?"
+		}
+	},
 	"pet": {
 		"adopted": {
 			"eng": "${player} has adopted ${pet}",
@@ -7811,6 +8497,13 @@
 		"noPet": {
 			"eng": "You have no pet yet",
 			"trans": "ยังไม่มีสัตว์เลี้ยงในขณะนี้ครับ"
+		},
+		"noPetOther": {
+			"eng": "${playerName} has no pets",
+			"trans": "${playerName} ยังไม่มีสัตว์เลี้ยง",
+			"vars": [
+				"playerName"
+			]
 		}
 	},
 	"petReviveModal": {
@@ -7941,6 +8634,10 @@
 				"eng": "Invalid Travel Link, if persist please reload",
 				"trans": "ลิงค์การเดินทางที่ไม่ถูกต้องหากคงอยู่โปรดโหลดซ้ำ"
 			},
+			"muted": {
+				"eng": "You are muted",
+				"trans": "คุณถูกมิวต์แล้ว"
+			},
 			"notInBattle": {
 				"eng": "You are not in battle.",
 				"trans": "คุณไม่ได้อยู่ในการต่อสู้"
@@ -7997,6 +8694,30 @@
 				"eng": "Thank you for completing the survey, the rewards have been sent to your item inbox, you can access the inbox from the inventory tab",
 				"trans": "ขอบคุณสำหรับการทำแบบสำรวจ รางวัลถูกส่งไปที่กล่องของของของคุณแล้ว คุณสามารถเข้าถึงกล่องของของได้จากแท็บสินค้าในกระเป๋าของคุณ"
 			}
+		}
+	},
+	"playerApartmentPage": {
+		"noApartment": {
+			"eng": "${playerName} doesn't have an apartment",
+			"trans": "${playerName} ยังไม่มีอพาร์ตเมนต์",
+			"vars": [
+				"playerName"
+			]
+		},
+		"title": {
+			"eng": "${playerName}'s Apartment",
+			"trans": "อพาร์ตเมนต์ของ ${playerName}",
+			"vars": [
+				"playerName"
+			]
+		},
+		"viewFurniture": {
+			"eng": "View Furniture",
+			"trans": "ดูเฟอร์นิเจอร์"
+		},
+		"viewPets": {
+			"eng": "View Pets",
+			"trans": "ดูสัตว์เลี้ยง"
 		}
 	},
 	"playerDetailsAssetsTab": {
@@ -8152,17 +8873,9 @@
 				"eng": "Active Furniture",
 				"trans": "เฟอร์นิเจอร์ที่กำลังใช้งาน"
 			},
-			"collection": {
-				"eng": "Collection",
-				"trans": "คอลเลกชัน"
-			},
 			"noActiveFurniture": {
 				"eng": "No furniture currently active in slots",
 				"trans": "ยังไม่มีเฟอร์นิเจอร์ใส่ในสล็อตเลย"
-			},
-			"title": {
-				"eng": "Furniture",
-				"trans": "เฟอร์นิเจอร์"
 			},
 			"viewCollection": {
 				"eng": "${count} Owned",
@@ -9014,6 +9727,73 @@
 		"unknown": {
 			"eng": "Unknown Items",
 			"trans": "ไอเท็มที่ไม่รู้จัก"
+		}
+	},
+	"rewardDisplay": {
+		"exp": {
+			"eng": "${amount} ${levelType} exp",
+			"trans": "${amount} EXP ระดับ ${levelType}",
+			"vars": [
+				"amount",
+				"levelType"
+			]
+		},
+		"gangExp": {
+			"eng": "${clanExp} gang exp",
+			"trans": "${clanExp} XP ของกองโจร",
+			"vars": [
+				"clanExp"
+			]
+		},
+		"gangFunding": {
+			"eng": "${clanMoney} gang funding",
+			"trans": "${clanMoney} เงินทุนของกองกำลัง",
+			"vars": [
+				"clanMoney"
+			]
+		},
+		"gangOccupationPoint": {
+			"eng": "${clanOccupationPoint} Occupation Control",
+			"trans": "${clanOccupationPoint} คะแนนควบคุมอาณาเขต",
+			"vars": [
+				"clanOccupationPoint"
+			]
+		},
+		"gangResource": {
+			"eng": "${clanResource} gang resource",
+			"trans": "ทรัพยากรของ ${clanResource}",
+			"vars": [
+				"clanResource"
+			]
+		},
+		"globalQuestPoint": {
+			"eng": "${globalQuestPoint} SL Data Fortress breach progress",
+			"trans": "${globalQuestPoint} ความก้าวหน้าในการเจาะตึกข้อมูล SL",
+			"vars": [
+				"globalQuestPoint"
+			]
+		},
+		"health": {
+			"eng": "+${health} Health",
+			"trans": "+${health} HP",
+			"vars": [
+				"health"
+			]
+		},
+		"shield": {
+			"eng": "+${shield} Shield",
+			"trans": "+${shield} เกราะ",
+			"vars": [
+				"shield"
+			]
+		},
+		"statusEffectDuration": {
+			"eng": "${effect} for ${duration}",
+			"trans": "${effect} ระยะเวลา ${duration}",
+			"vars": [
+				"effect",
+				"duration"
+			]
 		}
 	},
 	"sakuraPromo": {
@@ -10510,7 +11290,7 @@
 				"trans": "ยกเลิก"
 			},
 			"abortWarning": {
-				"eng": "By aborting this you won\\'t receive any reward and the material used won\\'t be returned",
+				"eng": "By aborting this you won't receive any reward and the material used won't be returned",
 				"trans": "โดยการยกเลิกสิ่งนี้คุณจะได้รับรางวัลใด ๆ และวัสดุที่ใช้จะไม่กลับมา"
 			},
 			"abortWarningTitle": {
@@ -11944,13 +12724,6 @@
 			}
 		},
 		"map": {
-			"hiddenNpcTip": {
-				"eng": "${hiddenCount} more interactables can be unlocked at this location, level up to unlock them.",
-				"trans": "${hiddenCount} มีปฏิสัมพันธ์เพิ่มเติมสามารถปลดล็อคได้ที่ตำแหน่งนี้ระดับขึ้นเพื่อปลดล็อค",
-				"vars": [
-					"hiddenCount"
-				]
-			},
 			"hideLowerLevelTravels": {
 				"eng": "Hide lower levels",
 				"trans": "ซ่อนระดับล่าง"
@@ -12724,6 +13497,16 @@
 				"title": {
 					"eng": "Disable Victory Screen",
 					"trans": "ปิดหน้าจอแสดงชัยชนะ"
+				}
+			},
+			"enableApartmentWall": {
+				"description": {
+					"eng": "Allow others to post on your apartment wall",
+					"trans": "อนุญาตให้ผู้อื่นโพสต์บนกำแพงอพาร์ตเมนต์ของคุณ"
+				},
+				"title": {
+					"eng": "Enable Apartment Wall",
+					"trans": "เปิดใช้งานกำแพงอพาร์ทเมนต์"
 				}
 			},
 			"enableBackgroundMusic": {

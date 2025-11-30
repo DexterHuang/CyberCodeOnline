@@ -590,6 +590,16 @@
 				"trans": "シャングリ・ラ"
 			}
 		},
+		"deleteNoteConfirm": {
+			"eng": "Delete this note?",
+			"trans": "このメモを削除しますか？"
+		},
+		"error": {
+			"noApartment": {
+				"eng": "You don't have an apartment",
+				"trans": "アパートを所持していません。"
+			}
+		},
 		"furniture": {
 			"eng": "Furniture",
 			"trans": "家具"
@@ -598,13 +608,68 @@
 			"eng": "Furniture Slots",
 			"trans": "家具スロット"
 		},
+		"getStickerHint": {
+			"eng": "Friendship Stickers can be obtained from quests and events.",
+			"trans": "友達ステッカーはクエストとイベントでゲットできるんだ！"
+		},
 		"jukeBox": {
 			"eng": "JukeBox",
 			"trans": "ジュークボックス"
 		},
+		"leaveNote": {
+			"eng": "Leave a Note",
+			"trans": "メモを書く"
+		},
+		"noNotes": {
+			"eng": "NO DATA FOUND // BE THE FIRST",
+			"trans": "データが見つかりません / まずは自分から追加しよう"
+		},
+		"noSticker": {
+			"eng": "You need a Friendship Sticker to post a note!",
+			"trans": "メモを投稿するにはフレンドシップ・ステッカーが必須だよ！"
+		},
+		"notePlaceholder": {
+			"eng": "Write something nice... (Max 128 chars)",
+			"trans": "素敵なメッセージを書いてね…（最大128文字）"
+		},
 		"petSlots": {
 			"eng": "Pet Slots",
 			"trans": "ペット枠"
+		},
+		"post": {
+			"eng": "Post",
+			"trans": "投稿"
+		},
+		"postNote": {
+			"error": {
+				"contentTooLong": {
+					"eng": "Content too long or empty",
+					"trans": "内容が長すぎるか、空欄です"
+				},
+				"negativeSentiment": {
+					"eng": "Message is flagged by AI, only friendly content is allowed.",
+					"trans": "AIによってメッセージがフラグ付けされました。友好的な内容のみ許可されています。"
+				},
+				"noItem": {
+					"eng": "You need a ${itemName} to leave a note. ${itemName} can be obtained from quests and events.",
+					"trans": "メモを残すには${itemName}が必要です。${itemName}はクエストやイベントで入手できます。",
+					"vars": [
+						"itemName"
+					]
+				},
+				"notFriends": {
+					"eng": "You must be friends with the owner to post",
+					"trans": "オーナーと仲良くしていないと、ここに投稿できません！"
+				},
+				"ownerNotFound": {
+					"eng": "Owner not found",
+					"trans": "オーナーが見つかりません"
+				},
+				"restricted": {
+					"eng": "This player has disabled their wall",
+					"trans": "このプレイヤーは自分の壁をオフにしています。"
+				}
+			}
 		},
 		"rent": {
 			"paidMail": {
@@ -627,6 +692,17 @@
 				"rentalDueDate"
 			]
 		},
+		"stickerCount": {
+			"eng": "You have: ${count}",
+			"trans": "所持数: ${count}枚",
+			"vars": [
+				"count"
+			]
+		},
+		"stickerRequired": {
+			"eng": "Friendship Sticker Required",
+			"trans": "友情ステッカーが必要です"
+		},
 		"terminateLease": {
 			"eng": "Terminate Lease",
 			"trans": "契約を終了する"
@@ -645,6 +721,14 @@
 		"viewPets": {
 			"eng": "View Pets",
 			"trans": "ペットを見る"
+		},
+		"wall": {
+			"eng": "Apartment Wall",
+			"trans": "アパートの壁"
+		},
+		"wallDisabled": {
+			"eng": "WALL // DISABLED",
+			"trans": "壁 // 無効"
 		}
 	},
 	"apartmentMarket": {
@@ -1211,6 +1295,336 @@
 			"trans": "クリスマスイベント！"
 		}
 	},
+	"christmasWorkshop": {
+		"button": {
+			"subtitle": {
+				"eng": "SORT GIFTS & EARN REWARDS",
+				"trans": "ギフトを並べて報酬ゲット"
+			},
+			"title": {
+				"eng": "CYBERSANTA'S WORKSHOP",
+				"trans": "サイバーサンタのワークショップ"
+			}
+		},
+		"commentary": {
+			"combo1": {
+				"eng": "Efficiency Spiking!",
+				"trans": "効率急上昇！"
+			},
+			"combo2": {
+				"eng": "Overclocked!",
+				"trans": "オーバークロック！"
+			},
+			"combo3": {
+				"eng": "MAXIMUM VELOCITY!",
+				"trans": "最大速度！"
+			},
+			"combo4": {
+				"eng": "SYSTEMS CRITICAL!",
+				"trans": "システム、クリティカルだ！"
+			},
+			"combo5": {
+				"eng": "GODLIKE PRECISION!",
+				"trans": "神レベルの精度だ！"
+			},
+			"finalWin1": {
+				"eng": "Mission Accomplished! Maximum Joy!",
+				"trans": "ミッション完了！最高にハッピーだ！"
+			},
+			"finalWin2": {
+				"eng": "All systems nominal! You are a legend!",
+				"trans": "全システム正常！君はレジェンドだ！"
+			},
+			"finalWin3": {
+				"eng": "Perfect execution! Happy Holidays!",
+				"trans": "完全にやり遂げたね！ ハッピーホリデー！"
+			},
+			"positive1": {
+				"eng": "Optimal!",
+				"trans": "バッチリだ！"
+			},
+			"positive2": {
+				"eng": "Precise!",
+				"trans": "ピッタリだ！"
+			},
+			"positive3": {
+				"eng": "Confirmed!",
+				"trans": "確認完了！"
+			},
+			"positive4": {
+				"eng": "Smooth!",
+				"trans": "スムーズ！"
+			},
+			"positive5": {
+				"eng": "Efficient!",
+				"trans": "効率的だね！"
+			},
+			"positive6": {
+				"eng": "Target hit!",
+				"trans": "命中！"
+			},
+			"positive7": {
+				"eng": "Nice lock!",
+				"trans": "いいロックだね！"
+			},
+			"stageComplete1": {
+				"eng": "Batch complete! Efficiency rising!",
+				"trans": "バッチ完了！効率が上がる！"
+			},
+			"stageComplete2": {
+				"eng": "Excellent processing! Next wave!",
+				"trans": "処理完璧！次ウェーブだ！"
+			},
+			"stageComplete3": {
+				"eng": "Protocol adherence: 100%!",
+				"trans": "プロトコル完全遵守：100％！"
+			},
+			"start1": {
+				"eng": "Protocol initiated. Sort incoming!",
+				"trans": "プロトコル発動！入ってくるやつは整理だぜ。"
+			},
+			"start2": {
+				"eng": "Systems online. Let's get sorting!",
+				"trans": "システムはオンラインです。ソートを始めましょう！"
+			},
+			"start3": {
+				"eng": "Workshop efficiency is in your hands!",
+				"trans": "ワークショップの効率はあなたの手にかかっています！"
+			},
+			"wrongSort1": {
+				"eng": "Error! Incorrect destination!",
+				"trans": "エラー！目的地が違います！"
+			},
+			"wrongSort2": {
+				"eng": "System alert! Wrong bin!",
+				"trans": "システム警告！間違ったビン！"
+			},
+			"wrongSort3": {
+				"eng": "Recalibrate your sensors!",
+				"trans": "センサーを再調整しろ！"
+			}
+		},
+		"countdown": {
+			"sortGifts": {
+				"eng": "TARGET: ${count} GIFTS",
+				"trans": "tags.\n\n<translation>目標：${count} 個のギフト",
+				"vars": [
+					"count"
+				]
+			},
+			"stage": {
+				"eng": "STAGE ${stage}",
+				"trans": "ステージ ${stage}",
+				"vars": [
+					"stage"
+				]
+			}
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The Christmas event has ended!",
+				"trans": "クリスマスイベントは終了しました！"
+			},
+			"noPass": {
+				"eng": "You need a Santa's Workshop Pass to play! Find them in dungeon chests or from AFK farming.",
+				"trans": "プレイするためにサンタのワークショップパスが必要だよ！ダンジョンのチェストやAFKファーミングでゲットできるんだ。"
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "Close",
+				"trans": "閉じる"
+			},
+			"message": {
+				"eng": "The game encountered an error. Don't worry - your Workshop Pass was not consumed!",
+				"trans": "ゲームでエラーが発生しました。心配しないでください、ワークショップパスは消費されていません！"
+			},
+			"title": {
+				"eng": "Game Error",
+				"trans": "ゲームエラー"
+			}
+		},
+		"game": {
+			"combo": {
+				"eng": "Efficiency",
+				"trans": "効率"
+			},
+			"stage": {
+				"eng": "Stage ${stage}/5",
+				"trans": "ステージ${stage}/5",
+				"vars": [
+					"stage"
+				]
+			},
+			"timeLabel": {
+				"eng": "Time Remaining",
+				"trans": "残り時間"
+			},
+			"waiting": {
+				"eng": "AWAITING INPUT...",
+				"trans": "入力待機中…"
+			}
+		},
+		"gameOver": {
+			"close": {
+				"eng": "CLOSE TERMINAL",
+				"trans": "ターミナルを閉じる"
+			},
+			"message": {
+				"eng": "ERROR AT STAGE ${stage}",
+				"trans": "ステージ${stage}でエラーが発生しました",
+				"vars": [
+					"stage"
+				]
+			},
+			"noProgress": {
+				"eng": "No stages completed. Pass integrity maintained.",
+				"trans": "まだ何もクリアできてないよ。パスは無傷で保たれてるんだ。"
+			},
+			"progress": {
+				"eng": "Protocol interrupted. ${completed} stages secured.",
+				"trans": "プロトコル中断。${completed}ステージを確保しました。",
+				"vars": [
+					"completed"
+				]
+			},
+			"title": {
+				"eng": "SYSTEM FAILURE",
+				"trans": "システム障害"
+			}
+		},
+		"giftType": {
+			"clothes": {
+				"eng": "Clothes",
+				"trans": "服"
+			},
+			"food": {
+				"eng": "Food",
+				"trans": "フード"
+			},
+			"tech": {
+				"eng": "Tech",
+				"trans": "テック"
+			},
+			"toy": {
+				"eng": "Toys",
+				"trans": "おもちゃ"
+			}
+		},
+		"intro": {
+			"eventEnded": {
+				"eng": "Event Ended",
+				"trans": "イベント終了"
+			},
+			"eventInactive": {
+				"eng": "Event is not currently active",
+				"trans": "今のところイベントは開催されていません。"
+			},
+			"howToGet": {
+				"eng": "Find passes in dungeon chests or from AFK farming during the event!",
+				"trans": "ダンジョンの宝箱やイベント中にAFKでファームしてパスをゲットしよう！"
+			},
+			"howToPlay": {
+				"eng": "How to Play",
+				"trans": "遊び方"
+			},
+			"needPass": {
+				"eng": "Need Workshop Pass",
+				"trans": "ワークショップパスが必要です"
+			},
+			"passesOwned": {
+				"eng": "Passes Owned:",
+				"trans": "保有パス:"
+			},
+			"rule1": {
+				"eng": "• Swipe gifts to the correct sorting zones",
+				"trans": "ギフトを正しい仕分けエリアにスワイプしてね！"
+			},
+			"rule2": {
+				"eng": "• Complete 5 progressive stages",
+				"trans": "5つのステージをクリアしよう"
+			},
+			"rule3": {
+				"eng": "• Each stage gets faster with more gifts",
+				"trans": "• ステージは、ギフトを集めるほど速くなります"
+			},
+			"rule4": {
+				"eng": "• Wrong swipes cost you 4 seconds",
+				"trans": "スワイプミスで4秒減点"
+			},
+			"rule5": {
+				"eng": "• Complete all stages for maximum rewards!",
+				"trans": "すべてのステージをクリアして最大報酬を手に入れよう！"
+			},
+			"startButton": {
+				"eng": "Start Workshop",
+				"trans": "ワークショップを開始"
+			},
+			"title": {
+				"eng": "Welcome to Santa's Workshop",
+				"trans": "サンタの工房へようこそ"
+			}
+		},
+		"loading": {
+			"message": {
+				"eng": "Preparing gifts for sorting...",
+				"trans": "プレゼントの仕分け準備中…"
+			},
+			"title": {
+				"eng": "Loading Workshop...",
+				"trans": "ワークショップを読み込んでいます…"
+			}
+		},
+		"pleaseWait": {
+			"eng": "ESTABLISHING CONNECTION",
+			"trans": "接続確立中…"
+		},
+		"processing": {
+			"eng": "SYNCHRONIZING...",
+			"trans": "同期中…"
+		},
+		"results": {
+			"close": {
+				"eng": "CLOSE REPORT",
+				"trans": "レポートを閉じる"
+			},
+			"goodJob": {
+				"eng": "Good effort. Re-engage for maximum rewards.",
+				"trans": "よくやったね！もう一度挑戦すれば、最大の報酬が手に入るよ。"
+			},
+			"rewards": {
+				"eng": "REWARDS ACQUIRED",
+				"trans": "報酬獲得"
+			}
+		},
+		"stageComplete": {
+			"continue": {
+				"eng": "INITIATE STAGE ${next}",
+				"trans": "ステージ ${next} を始める",
+				"vars": [
+					"next"
+				]
+			},
+			"nextStage": {
+				"eng": "Efficiency ratings optimal. Initializing Stage ${next} sequence...",
+				"trans": "エフィシェンシーレーティングは最高！次のステージ${next}へ進行中…",
+				"vars": [
+					"next"
+				]
+			},
+			"stage": {
+				"eng": "STAGE ${stage} CLEARED",
+				"trans": "ステージ ${stage} クリア済み",
+				"vars": [
+					"stage"
+				]
+			},
+			"title": {
+				"eng": "PROTOCOL COMPLETE",
+				"trans": "プロトコル完了"
+			}
+		}
+	},
 	"clanMemberSort": {
 		"gangExp": {
 			"displayName": {
@@ -1287,13 +1701,39 @@
 		}
 	},
 	"common": {
+		"cancel": {
+			"eng": "Cancel",
+			"trans": "キャンセル"
+		},
 		"close": {
 			"eng": "Close",
 			"trans": "閉じる"
 		},
+		"confirm": {
+			"eng": "Are you sure?",
+			"trans": "決定"
+		},
 		"delete": {
 			"eng": "Delete",
 			"trans": "削除"
+		},
+		"error": {
+			"permissionDenied": {
+				"eng": "Permission denied",
+				"trans": "アクセスが拒否されました"
+			}
+		},
+		"gotIt": {
+			"eng": "Got it",
+			"trans": "了解"
+		},
+		"owned": {
+			"eng": "Owned",
+			"trans": "所持"
+		},
+		"purchase": {
+			"eng": "Purchase",
+			"trans": "購入"
 		},
 		"save": {
 			"eng": "Save",
@@ -1319,6 +1759,10 @@
 			"eng": "Donation Tier Gallery",
 			"trans": "フレームギャラリー"
 		},
+		"confirmPurchase": {
+			"eng": "Unlock Chat Frame",
+			"trans": "チャット枠をアンロック"
+		},
 		"donationTire": {
 			"eng": "Select Frame",
 			"trans": "フレームを選択"
@@ -1334,6 +1778,17 @@
 			"eng": "Show how others see you",
 			"trans": "他人からの見え方を表示する"
 		},
+		"offSeason": {
+			"eng": "Off-Season",
+			"trans": "オフシーズン"
+		},
+		"offSeasonNotice": {
+			"eng": "*Off-Season chat frames have a +${percent}% cost",
+			"trans": "オフシーズンのチャット枠には +${percent}% の追加コストがかかります。",
+			"vars": [
+				"percent"
+			]
+		},
 		"ownedFrames": {
 			"eng": "Donation Tier Owned: [${owned}/${total}]",
 			"trans": "フレーム所持数: [${owned}/${total}]",
@@ -1341,6 +1796,10 @@
 				"owned",
 				"total"
 			]
+		},
+		"previewText": {
+			"eng": "This is how you will look!",
+			"trans": "これがあなたの見た目になるよ！"
 		}
 	},
 	"cosmeticSettingPage": {
@@ -1770,6 +2229,10 @@
 		"donation45": {
 			"eng": "Vice City",
 			"trans": "ヴァイス・シティ"
+		},
+		"donation46": {
+			"eng": "Candycane",
+			"trans": "キャンディーケーン"
 		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
@@ -2676,6 +3139,10 @@
 		"noAvailableDesc": {
 			"eng": "You don't have any unassigned furniture. All your furniture is already assigned to slots.",
 			"trans": "未割り当ての家具はありません。すべての家具が既にスロットに配置されています。"
+		},
+		"noSlots": {
+			"eng": "This apartment tier does not have any furniture slots. Upgrade to a higher tier to unlock them.",
+			"trans": "このアパート階層には家具スロットがありません。上位の階層にアップグレードして解放しましょう。"
 		},
 		"owned": {
 			"eng": "Owned",
@@ -3886,7 +4353,7 @@
 		},
 		"christmasToken": {
 			"description": {
-				"eng": "FrostByte Shards are fragments of Cybersanta’s corrupted Winter Protocol, packed with enough festive energy to keep his systems running—and his biceps flexing all season long",
+				"eng": "FrostByte Shards are fragments of Cybersanta's corrupted Winter Protocol, packed with enough festive energy to keep his systems running—and his biceps flexing all season long",
 				"trans": "フロストバイトシャードは, サイバーサンタの破損したウィンタープロトコルの断片である. サイバーサンタのシステムを稼働させ, シーズン中ずっと彼の上腕二頭筋（バイセップス）を鍛え上げる祝福のエネルギーが詰まっている."
 			},
 			"name": {
@@ -4045,6 +4512,16 @@
 			"name": {
 				"eng": "Flash Grenade",
 				"trans": "閃光手榴弾"
+			}
+		},
+		"friendshipSticker": {
+			"desc": {
+				"eng": "A colorful sticker that symbolizes friendship and connection. Required to leave notes on friends' apartment walls. These special stickers help maintain positive interactions in the community.",
+				"trans": "友情とつながりを象徴するカラフルなステッカーです。友達のアパート壁にメモを貼るために必須で、コミュニティ内のポジティブな交流を維持する手助けとなります。"
+			},
+			"name": {
+				"eng": "Friendship Sticker",
+				"trans": "友情ステッカー"
 			}
 		},
 		"globalPartyBuff": {
@@ -4636,6 +5113,16 @@
 				"trans": "ローズブーケ"
 			}
 		},
+		"santaWorkshopPass": {
+			"description": {
+				"eng": "A holographic pass to CyberSanta's Workshop. Complete festive sorting challenges to earn rewards! 'Work hard, gift harder!' - CyberSanta",
+				"trans": "サイバーサンタのワークショップへのホログラム・パス。フェスティブな仕分けチャレンジをクリアして報酬ゲット！「一生懸命働いて、プレゼントをさらに盛り上げよう！」- CyberSanta"
+			},
+			"name": {
+				"eng": "Santa's Workshop Pass",
+				"trans": "サンタの工房パス"
+			}
+		},
 		"seashell": {
 			"description": {
 				"eng": "A beautiful seashell that can be used to exchange items with Josie",
@@ -5142,27 +5629,85 @@
 		}
 	},
 	"jukeBox": {
-		"override": {
+		"apartment": {
 			"description": {
-				"eng": "Force system-wide playback of selected track",
-				"trans": "選択した曲を強制的にシステム全体で再生します"
+				"eng": "Playing for visitors in your apartment",
+				"trans": "アパートの訪問者向けに再生中"
+			},
+			"noChanges": {
+				"eng": "NO CHANGES",
+				"trans": "変更なし"
+			},
+			"saveButton": {
+				"eng": "SAVE CONFIGURATION",
+				"trans": "設定を保存"
 			},
 			"title": {
-				"eng": "Music Override Engaged",
+				"eng": "Apartment Broadcast",
+				"trans": "アパート放送"
+			}
+		},
+		"badge": {
+			"active": {
+				"eng": "ACTIVE",
+				"trans": "アクティブ"
+			},
+			"apartment": {
+				"eng": "APT",
+				"trans": "アパート"
+			},
+			"override": {
+				"eng": "OVR",
+				"trans": "上書き"
+			}
+		},
+		"mode": {
+			"homeSpeaker": {
+				"eng": "HOME SPEAKER",
+				"trans": "ホームスピーカー"
+			},
+			"walkman": {
+				"eng": "WALKMAN MODE",
+				"trans": "ウォークマンモード"
+			}
+		},
+		"override": {
+			"description": {
+				"eng": "Play this track everywhere you go",
+				"trans": "選択した曲を強制的にシステム全体で再生します"
+			},
+			"label": {
+				"eng": "Override",
+				"trans": "オーバーライド"
+			},
+			"title": {
+				"eng": "Override Enabled",
 				"trans": "BGMオーバーライド有効"
 			}
 		},
-		"selectTrack": {
-			"eng": "Select Audio Track",
-			"trans": "サウンドトラックを選択"
-		},
-		"tip": {
-			"eng": "Customize your apartment's background music by selecting tracks and enabling override to replace location-based audio.",
-			"trans": "アパートのBGMをカスタマイズするには、曲を選択してオーバーライドを有効にし、ロケーションごとのBGMを置き換えます。"
+		"slot": {
+			"apartmentAudio": {
+				"eng": "APARTMENT AUDIO",
+				"trans": "アパート・オーディオ"
+			},
+			"personalPlayer": {
+				"eng": "PERSONAL PLAYER",
+				"trans": "個人プレイヤー"
+			}
 		},
 		"title": {
 			"eng": "JukeBox",
 			"trans": "ジュークボックス"
+		},
+		"trackList": {
+			"apartment": {
+				"eng": "Select Tape for Apartment",
+				"trans": "アパート向けトラックを選んでね！"
+			},
+			"walkman": {
+				"eng": "Select Tape for Walkman",
+				"trans": "ウォークマン用テープを選択"
+			}
 		},
 		"tracks": {
 			"afk": {
@@ -5501,9 +6046,9 @@
 					"level"
 				]
 			},
-			"description": {
-				"eng": "[Apartment]\n        Your cozy apartment in the city. your pets are waiting for you to come home.",
-				"trans": "[アパート] 街中の居心地の良いアパートメント. ペットたちが帰りを待っている."
+			"descriptionv2": {
+				"eng": "Your cozy apartment in the city. your pets are waiting for you to come home.",
+				"trans": "都会にある居心地抜群のアパートです。ペットたちは帰宅を待っているんだよ。"
 			},
 			"name": {
 				"eng": "My Apartment",
@@ -5517,9 +6062,9 @@
 			}
 		},
 		"coast": {
-			"description": {
-				"eng": "[Coast]\n        The beautiful coast a few kilometers away of downtown. The perfect place to relax and enjoy the sea breeze.",
-				"trans": "[海岸]  \nダウンタウンから数キロ離れた美しい海岸. リラックスして海風を楽しむのに最適な場所."
+			"descriptionv2": {
+				"eng": "The beautiful coast a few kilometers away of downtown. The perfect place to relax and enjoy the sea breeze.",
+				"trans": "ダウンタウンから数キロ離れた美しい海岸。リラックスしながら潮風を楽しめる、最高のスポットです。"
 			},
 			"name": {
 				"eng": "Crystal Sands",
@@ -5537,9 +6082,9 @@
 				"eng": "You need to join a gang to enter this area",
 				"trans": "このエリアに入るにはギャングのメンバーになる必要があります"
 			},
-			"description": {
-				"eng": "[Gang]\n        The headquarters for you and your gang members to plan and execute your next operation",
-				"trans": "[ギャング] ギャングメンバーたちが次の作戦を練り, 実行に移すための本拠地"
+			"descriptionv2": {
+				"eng": "The headquarters for you and your gang members to plan and execute your next operation",
+				"trans": "あなたとギャングメンバーが次のオペレーションを企画・実行するための本拠地です。"
 			},
 			"name": {
 				"eng": "Gang Headquarters",
@@ -5547,9 +6092,9 @@
 			}
 		},
 		"job": {
-			"description": {
-				"eng": "[Job Hub]\n        Here are many shops and businesses reside. The perfect location to hone and refine your skills.",
-				"trans": "[ジョブハブ] \r\n         スキルを試すのに最適な店や仕事がここに."
+			"descriptionv2": {
+				"eng": "Here are many shops and businesses reside. The perfect location to hone and refine your skills.",
+				"trans": "数々のショップとビジネスが集まるこの街は、腕を磨くのにピッタリなスポットだよ！"
 			},
 			"name": {
 				"eng": "Shangri-La Commercial Area",
@@ -5563,9 +6108,9 @@
 			}
 		},
 		"mainHub": {
-			"description": {
-				"eng": "[Central Hub]\n        One of the busiest cities in the continent. Here you can find all sorts of people from around the globe.",
-				"trans": "[セントラルハブ] \r\n         大陸で最も賑わう都市の1つ. ここには世界中の人々が集まる."
+			"descriptionv2": {
+				"eng": "One of the busiest cities in the continent. Here you can find all sorts of people from around the globe.",
+				"trans": "コンティネントで最も忙しい都市の一つ。ここでは、世界中から様々な人々に出会える。"
 			},
 			"name": {
 				"eng": "Shangri-La City center",
@@ -5621,9 +6166,9 @@
 			}
 		},
 		"market": {
-			"description": {
-				"eng": "[Player Market]\n        The famous market street in Shangri-La. Loads of market stalls fill the street.",
-				"trans": "[プレイヤーマーケット] \r\n         シャングリ・ラの有名な商店街. 屋台が通りを埋め尽くす. \r\n         大抵のものはここで見つけることができる."
+			"descriptionv2": {
+				"eng": "The famous market street in Shangri-La. Loads of market stalls fill the street.",
+				"trans": "シャングリラで有名な市場街。通りには多くの屋台が並び、賑わっている。"
 			},
 			"name": {
 				"eng": "Shangri-La Market Street",
@@ -5687,13 +6232,43 @@
 			}
 		},
 		"station": {
-			"description": {
-				"eng": "[Adventure]\n        Using the hyperloop, you can travel at supersonic speed across the continent with ease.",
-				"trans": "[冒険] ハイパーループを使用して, 簡単に超音速で大陸を横断できる."
+			"descriptionv2": {
+				"eng": "Using the hyperloop, you can travel at supersonic speed across the continent with ease.",
+				"trans": "ハイパーループを使えば、超音速で大陸を楽に横断できます。"
 			},
 			"name": {
 				"eng": "Hyper Train Central Station",
 				"trans": "ハイパーループセントラルステーション"
+			}
+		},
+		"tag": {
+			"adventure": {
+				"eng": "Adventure",
+				"trans": "冒険"
+			},
+			"apartment": {
+				"eng": "Apartment",
+				"trans": "アパート"
+			},
+			"centralHub": {
+				"eng": "Central Hub",
+				"trans": "セントラルハブ"
+			},
+			"coast": {
+				"eng": "Coast",
+				"trans": "海岸"
+			},
+			"gang": {
+				"eng": "Gang",
+				"trans": "ギャング"
+			},
+			"jobHub": {
+				"eng": "Job Hub",
+				"trans": "ジョブハブ"
+			},
+			"playerMarket": {
+				"eng": "Player Market",
+				"trans": "プレイヤーマーケット"
 			}
 		},
 		"zone": {
@@ -5803,15 +6378,6 @@
 			"vars": [
 				"limit",
 				"hours"
-			]
-		}
-	},
-	"mailRoomContent": {
-		"time": {
-			"eng": "${time} ago",
-			"trans": "${time} 前",
-			"vars": [
-				"time"
 			]
 		}
 	},
@@ -6328,6 +6894,12 @@
 				"trans": "神経回路オーバーライド"
 			}
 		},
+		"common": {
+			"retry": {
+				"eng": "RETRY",
+				"trans": "リトライ"
+			}
+		},
 		"dataStream": {
 			"instructions": {
 				"eng": "INTERCEPT VALID DATA PACKETS [GLOWING] // AVOID CORRUPTED ONES",
@@ -6336,6 +6908,82 @@
 			"title": {
 				"eng": "Data Stream Interceptor",
 				"trans": "データストリームインターセプター"
+			}
+		},
+		"hexBuffer": {
+			"fail": {
+				"desc": {
+					"eng": "Connection Terminated",
+					"trans": "接続が切れちゃった"
+				},
+				"title": {
+					"eng": "BREACH FAILED",
+					"trans": "突破失敗"
+				}
+			},
+			"hint": {
+				"col": {
+					"eng": "Select a code from the highlighted COLUMN",
+					"trans": "ハイライトされている列からコードを選びましょう！"
+				},
+				"row": {
+					"eng": "Select a code from the highlighted ROW",
+					"trans": "ハイライトされた行からコードを選んでください"
+				}
+			},
+			"win": {
+				"desc": {
+					"eng": "Access Granted",
+					"trans": "アクセスOK"
+				},
+				"title": {
+					"eng": "BREACH SUCCESS",
+					"trans": "侵入成功"
+				}
+			}
+		},
+		"relayGrid": {
+			"clearAll": {
+				"eng": "CLEAR",
+				"trans": "クリア"
+			},
+			"clearConfirm": {
+				"eng": "CONFIRM?",
+				"trans": "確認しますか？"
+			},
+			"hint": {
+				"detail": {
+					"eng": "Paths cannot cross - avoid broken nodes",
+					"trans": "パスは交差できません - 壊れたノードを避けてください"
+				},
+				"eng": "ACTIVATE NODES TO CREATE PATHS",
+				"trans": "ノードを起動して経路を作ろう"
+			},
+			"instructions": {
+				"eng": "Connect all signals - paths cannot cross",
+				"trans": "すべての信号を結び、経路が交差しないようにする"
+			},
+			"smartHint": {
+				"dismiss": {
+					"eng": "[ TAP TO DISMISS ]",
+					"trans": "[ タップで閉じる ]"
+				},
+				"eng": "Paths cannot share nodes - route around obstacles",
+				"trans": "パスはノードを共有できません - 障害物を迂回してください。"
+			},
+			"undo": {
+				"eng": "UNDO",
+				"trans": "取り消し"
+			},
+			"win": {
+				"description": {
+					"eng": "All routes established",
+					"trans": "全ルート確立！"
+				},
+				"title": {
+					"eng": "MISSION COMPLETE",
+					"trans": "ミッション完了"
+				}
 			}
 		},
 		"sequenceHack": {
@@ -7682,6 +8330,44 @@
 			}
 		}
 	},
+	"offSeasonInfoModal": {
+		"footer": {
+			"eng": "This compromise allows access while preserving the spirit of our events.",
+			"trans": "この妥協により、イベントの精神を守りつつアクセスが可能になります。"
+		},
+		"intro": {
+			"eng": "Seasonal chat frames are designed as seasonal exclusive limited-time cosmetics.",
+			"trans": "シーズン限定のチャット枠は、期間中のみ手に入るエクスクルーシブなコスメです。"
+		},
+		"reasonConvenience": {
+			"eng": "Convenience: Bypassing the standard event schedule.",
+			"trans": "便利：標準イベントスケジュールをバイパス。"
+		},
+		"reasonFairness": {
+			"eng": "Fairness: Honors the dedication of players who participated during the original event.",
+			"trans": "フェアネス：元イベントに参加したプレイヤーの献身を讃えます。"
+		},
+		"reasonValue": {
+			"eng": "Event Value: Maintains the prestige and incentive to unlock cosmetics during the live rotation.",
+			"trans": "イベント価値：ライブローテーション中にコスメをアンロックする際の名声とインセンティブを維持します。"
+		},
+		"title": {
+			"eng": "Off-Season Collection",
+			"trans": "オフシーズンコレクション"
+		},
+		"whyAllowedBody": {
+			"eng": "Due to popular demand, we are opening the archives. We heard your requests for specific frames that are currently out of rotation and didn't want you to wait forever!",
+			"trans": "人気のリクエストでアーカイブをオープンしました！今まで入れ替わっていないフレームへの要望が多かったので、永遠に待たせるつもりはありませんでした。"
+		},
+		"whyAllowedTitle": {
+			"eng": "Why are they available now?",
+			"trans": "なんで今使えるんだ？"
+		},
+		"whyFee": {
+			"eng": "Why is there a vault fee?",
+			"trans": "ボールトの手数料が発生する理由は何ですか？"
+		}
+	},
 	"pet": {
 		"adopted": {
 			"eng": "${player} has adopted ${pet}",
@@ -8024,6 +8710,13 @@
 		"noPet": {
 			"eng": "You have no pet yet",
 			"trans": "まだペットを飼っていません."
+		},
+		"noPetOther": {
+			"eng": "${playerName} has no pets",
+			"trans": "${playerName}はペットがいません",
+			"vars": [
+				"playerName"
+			]
 		}
 	},
 	"petReviveModal": {
@@ -8154,6 +8847,10 @@
 				"eng": "Invalid Travel Link, if persist please reload",
 				"trans": "無効なリンク　状況が改善しない場合は再読み込みを試してください"
 			},
+			"muted": {
+				"eng": "You are muted",
+				"trans": "ミュート状態です"
+			},
 			"notInBattle": {
 				"eng": "You are not in battle.",
 				"trans": "今は戦闘中ではありません."
@@ -8210,6 +8907,30 @@
 				"eng": "Thank you for completing the survey, the rewards have been sent to your item inbox, you can access the inbox from the inventory tab",
 				"trans": "アンケートの回答ありがとうございました. 報酬はアイテム受信ボックスに送信されました. インベントリータブから受信ボックスにアクセスできます."
 			}
+		}
+	},
+	"playerApartmentPage": {
+		"noApartment": {
+			"eng": "${playerName} doesn't have an apartment",
+			"trans": "おっと、${playerName}さん、アパートがありませんね",
+			"vars": [
+				"playerName"
+			]
+		},
+		"title": {
+			"eng": "${playerName}'s Apartment",
+			"trans": "${playerName}のアパート",
+			"vars": [
+				"playerName"
+			]
+		},
+		"viewFurniture": {
+			"eng": "View Furniture",
+			"trans": "家具を見る"
+		},
+		"viewPets": {
+			"eng": "View Pets",
+			"trans": "ペットを見る"
 		}
 	},
 	"playerDetailsAssetsTab": {
@@ -8365,17 +9086,9 @@
 				"eng": "Active Furniture",
 				"trans": "使用中の家具"
 			},
-			"collection": {
-				"eng": "Collection",
-				"trans": "コレクション"
-			},
 			"noActiveFurniture": {
 				"eng": "No furniture currently active in slots",
 				"trans": "スロットに現在アクティブな家具はありません。"
-			},
-			"title": {
-				"eng": "Furniture",
-				"trans": "家具"
 			},
 			"viewCollection": {
 				"eng": "${count} Owned",
@@ -9227,6 +9940,73 @@
 		"unknown": {
 			"eng": "Unknown Items",
 			"trans": "未知のアイテム"
+		}
+	},
+	"rewardDisplay": {
+		"exp": {
+			"eng": "${amount} ${levelType} exp",
+			"trans": "${amount} ${levelType} 経験値",
+			"vars": [
+				"amount",
+				"levelType"
+			]
+		},
+		"gangExp": {
+			"eng": "${clanExp} gang exp",
+			"trans": "ギャング経験値 ${clanExp}",
+			"vars": [
+				"clanExp"
+			]
+		},
+		"gangFunding": {
+			"eng": "${clanMoney} gang funding",
+			"trans": "${clanMoney} ギャング資金",
+			"vars": [
+				"clanMoney"
+			]
+		},
+		"gangOccupationPoint": {
+			"eng": "${clanOccupationPoint} Occupation Control",
+			"trans": "【${clanOccupationPoint}】占拠制御",
+			"vars": [
+				"clanOccupationPoint"
+			]
+		},
+		"gangResource": {
+			"eng": "${clanResource} gang resource",
+			"trans": "${clanResource} ギャング資源",
+			"vars": [
+				"clanResource"
+			]
+		},
+		"globalQuestPoint": {
+			"eng": "${globalQuestPoint} SL Data Fortress breach progress",
+			"trans": "${globalQuestPoint} SL データフォートレス突破進捗",
+			"vars": [
+				"globalQuestPoint"
+			]
+		},
+		"health": {
+			"eng": "+${health} Health",
+			"trans": "+${health} HP",
+			"vars": [
+				"health"
+			]
+		},
+		"shield": {
+			"eng": "+${shield} Shield",
+			"trans": "+${shield} シールド",
+			"vars": [
+				"shield"
+			]
+		},
+		"statusEffectDuration": {
+			"eng": "${effect} for ${duration}",
+			"trans": "${effect} ${duration}",
+			"vars": [
+				"effect",
+				"duration"
+			]
 		}
 	},
 	"sakuraPromo": {
@@ -10723,7 +11503,7 @@
 				"trans": "強制終了する"
 			},
 			"abortWarning": {
-				"eng": "By aborting this you won\\'t receive any reward and the material used won\\'t be returned",
+				"eng": "By aborting this you won't receive any reward and the material used won't be returned",
 				"trans": "タスクを強制終了すると報酬を受け取ることができません. また,タスク開始時に使用されたアイテムも返却されません."
 			},
 			"abortWarningTitle": {
@@ -12157,13 +12937,6 @@
 			}
 		},
 		"map": {
-			"hiddenNpcTip": {
-				"eng": "${hiddenCount} more interactables can be unlocked at this location, level up to unlock them.",
-				"trans": "${hiddenCount} レベルアップするといろいろなtipsを見ることができるようになります",
-				"vars": [
-					"hiddenCount"
-				]
-			},
 			"hideLowerLevelTravels": {
 				"eng": "Hide lower levels",
 				"trans": "低レベルの駅を非表示"
@@ -12937,6 +13710,16 @@
 				"title": {
 					"eng": "Disable Victory Screen",
 					"trans": "戦闘リザルト画面を表示しない"
+				}
+			},
+			"enableApartmentWall": {
+				"description": {
+					"eng": "Allow others to post on your apartment wall",
+					"trans": "他人があなたのアパート壁に投稿できるようにする"
+				},
+				"title": {
+					"eng": "Enable Apartment Wall",
+					"trans": "アパートの壁を有効化"
 				}
 			},
 			"enableBackgroundMusic": {
