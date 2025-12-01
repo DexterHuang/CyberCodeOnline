@@ -16,6 +16,51 @@ Please send your feedback to my Discord or email me directly.
 
 ## Updates
 
+### 0.1885
+
+**Christmas Event**:
+
+- During the event, FrostByte Shard will have a chance to drop from AFK bot farm and enemies
+- You can exchange FrostByte Shard with CyberSanta for various items
+- During the event, top-ups will receive bonus items
+- Added new Christmas-themed chat frames and emblems
+- **Christmas Workshop Event Game**:
+  - Added new event game where you sort gifts to correct zones across 5 progressive stages
+  - Each stage increases in difficulty with more gifts and faster pace
+  - Complete all stages for maximum rewards
+  - Requires Santa's Workshop Pass to play (obtainable during Christmas event)
+  - Access the game from CyberSanta at Market Street
+  - Added Santa's Workshop Pass item
+  - FrostByte Shard is now tradable
+  - Added Skip Discount Ticket exchange option at CyberSanta
+- **Jukebox System**:
+  - Reworked personal jukebox player (Walkman mode) - select background music to play everywhere you go
+  - Added apartment jukebox (Home Speaker mode) - set background music that plays for visitors in your apartment
+  - Override mode allows your personal selection to override location-based music
+  - Access jukebox from apartment page or settings menu
+- **Apartment Wall Feature**:
+
+  - Players can now post notes on other players' apartment walls
+  - Requires Friendship Sticker item to post notes, they can currently be obtained from dungeon
+  - Apartment owners can enable/disable wall feature in settings
+  - We only allow friendly notes to be posted to prevent abuse
+  - View recent notes posted by visitors on your apartment wall
+
+- Added new Relay Grid minigame with drag and touch support
+- Added new Hex Buffer minigame - follow the sequence of hex codes by alternating between rows and columns
+- Added Candycane chat frame
+- Updated several images for locations
+- Added some NPC animation
+- Enhanced video rendering performance with WebGL support
+- Reworked location display UI
+- Updated train station background image
+- Updated mail list UI
+- **Added some features from player suggestions**:
+  - Show player buffs to AFK start pages
+  - Made `Tech Scrap Cluster` shown as yellow in crafting option
+  - Added new icons for Event, furniture and consumable items
+  - Added filter by Event, Furniture and Consumable items in inventory page
+
 ### 0.1884
 
 - **Furniture System** (Level 300+ required):
