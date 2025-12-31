@@ -1277,20 +1277,6 @@
 		"title": {
 			"eng": "Christmas Celebration",
 			"trans": "크리스마스 기념 행사"
-		},
-		"v3": {
-			"desc2": {
-				"eng": "Dungeon chests and AI Core auto farm will have chance to drop ${itemName}, you can use it to exchange items with ${NPC}!",
-				"trans": "던전 상자와 AI 코어 자동 사냥에서 ${itemName}를 얻을 수 있는 확률이 있습니다. 이것들로 ${NPC}과 아이템을 교환할 수 있습니다!",
-				"vars": [
-					"itemName",
-					"NPC"
-				]
-			},
-			"desc3": {
-				"eng": "During the holiday season, Christmas chat frame and emblem will be available!",
-				"trans": "연말 연시에는 크리스마스 채팅 프레임과 엠블럼을 획득 가능합니다!"
-			}
 		}
 	},
 	"christmasPromoSmall": {
@@ -2241,6 +2227,10 @@
 		"donation46": {
 			"eng": "Candycane",
 			"trans": "캔디케인"
+		},
+		"donation47": {
+			"eng": "Golden New Year",
+			"trans": "황금 새해"
 		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
@@ -3321,6 +3311,14 @@
 				"eng": "May",
 				"trans": "5월"
 			}
+		},
+		"newYear": {
+			"eng": "New Year",
+			"skipDiscountTitle": {
+				"eng": "New Year Discount",
+				"trans": "신년 할인"
+			},
+			"trans": "새해"
 		},
 		"sakura": {
 			"name": {
@@ -4509,6 +4507,16 @@
 				]
 			}
 		},
+		"fireworksPass": {
+			"description": {
+				"eng": "A special pass granting access to the New Year Fireworks Show. Launch perfectly timed fireworks to earn spectacular rewards!",
+				"trans": "신년 폭죽쇼에 입장할 수 있는 특별 패스입니다. 정확히 타이밍을 맞춰 폭죽을 발사하면 멋진 보상을 획득하세요!"
+			},
+			"name": {
+				"eng": "Fireworks Pass",
+				"trans": "불꽃놀이 패스"
+			}
+		},
 		"flashGrenade": {
 			"description": {
 				"eng": "A flash grenade that can be used to blind enemies. increasing your chance of escape by ${escape}%",
@@ -4927,6 +4935,42 @@
 			"name": {
 				"eng": "Red Envelope",
 				"trans": "[이벤트] 빨간 봉투"
+			}
+		},
+		"newYearChampagne": {
+			"description": {
+				"eng": "A sparkling beverage infused with countdown energy. Pop the cork and toast to accelerated gains as the clock strikes midnight!",
+				"trans": "카운트다운 에너지가 주입된 반짝이는 음료입니다! 코르크를 터뜨리고 시계가 정각을 가리키면, 성장 속도가 폭발적으로 빨라집니다"
+			},
+			"error": {
+				"eng": "This item is only available during New Year Event",
+				"trans": "이 아이템은 새해 이벤트 기간에만 사용 가능합니다"
+			}
+		},
+		"newYearChampagne1": {
+			"name": {
+				"eng": "New Year Champagne",
+				"trans": "새해 샴페인"
+			}
+		},
+		"newYearGift": {
+			"description": {
+				"eng": "A dazzling gift box filled with fireworks and surprises. Unlock it at the [Terminal] during the New Year celebration to reveal its contents!",
+				"trans": "폭죽과 깜짝 놀랄만한 아이템으로 가득 찬 반짝이는 선물 상자. 새해 축하 이벤트 중에 [Terminal]에서 잠금 해제하면 내용이 드러나요!"
+			},
+			"name": {
+				"eng": "New Year Celebration Box",
+				"trans": "새해 축하 상자"
+			}
+		},
+		"newYearToken": {
+			"description": {
+				"eng": "Tokens filled with New Year celebration energy, used to unlock special rewards during the countdown festivities.",
+				"trans": "새해 축제 에너지로 가득 찬 토큰입니다. 카운트다운 행사 중에 특별 보상을 열어주는 데 사용됩니다."
+			},
+			"name": {
+				"eng": "New Year Token",
+				"trans": "새해 토큰"
 			}
 		},
 		"pawCredit": {
@@ -7534,6 +7578,326 @@
 			}
 		}
 	},
+	"moderator": {
+		"muteSuccess": {
+			"eng": "${name} has been muted",
+			"trans": "${name}님이 뮤트되었습니다",
+			"vars": [
+				"name"
+			]
+		},
+		"noPlayerFound": {
+			"eng": "No player named \"${search}\" found",
+			"trans": "\"${search}\"라는 이름의 플레이어를 찾을 수 없습니다",
+			"vars": [
+				"search"
+			]
+		},
+		"quickMute": {
+			"eng": "Quick Mute",
+			"trans": "빠른 음소거"
+		},
+		"searchHint": {
+			"eng": "Search is case-insensitive but requires exact name match",
+			"trans": "검색은 대소문자를 구분하지 않지만, 정확히 같은 이름이 필요합니다"
+		},
+		"searchPlaceholder": {
+			"eng": "Enter exact player name...",
+			"trans": "정확한 플레이어 이름 입력"
+		},
+		"searchPlayer": {
+			"eng": "Search Player",
+			"trans": "플레이어 검색"
+		},
+		"searchPlayerHint": {
+			"eng": "Enter player name to search",
+			"trans": "검색할 플레이어 이름을 입력하세요"
+		},
+		"viewProfile": {
+			"eng": "View Profile",
+			"trans": "프로필 보기"
+		}
+	},
+	"newYearFireworks": {
+		"button": {
+			"subtitle": {
+				"eng": "COUNTDOWN TIMING GAME",
+				"trans": "시간 맞추기 게임"
+			},
+			"title": {
+				"eng": "NEW YEAR FIREWORKS",
+				"trans": "새해 불꽃놀이"
+			}
+		},
+		"combo": {
+			"eng": "Combo",
+			"trans": "콤보"
+		},
+		"congratulations": {
+			"eng": "CONGRATULATIONS!",
+			"trans": "축하합니다!"
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The New Year event has ended!",
+				"trans": "새해 이벤트가 끝났어요!"
+			},
+			"noPass": {
+				"eng": "You need a Fireworks Pass to play! Find them in dungeon chests or from AFK farming.",
+				"trans": "플레이하려면 불꽃 폭죽 패스가 필요해요! 던전 보물상자나 AFK 농장에서 찾아보세요."
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "CLOSE",
+				"trans": "닫기"
+			},
+			"message": {
+				"eng": "The game encountered an error. Don't worry - your Fireworks Pass was not consumed!",
+				"trans": "게임에 오류가 발생했습니다. 걱정 마세요 - 불꽃놀이 패스는 소모되지 않았습니다!"
+			},
+			"title": {
+				"eng": "Game Error",
+				"trans": "게임 오류"
+			}
+		},
+		"eventComplete": {
+			"eng": "ALL COMPLETE!",
+			"trans": "모두 완료!"
+		},
+		"exit": {
+			"eng": "EXIT",
+			"trans": "닫기"
+		},
+		"failedStage": {
+			"eng": "FAILED AT STAGE ${stage}",
+			"trans": "스테이지 ${stage}에 실패했어요!",
+			"vars": [
+				"stage"
+			]
+		},
+		"finish": {
+			"eng": "FINISH",
+			"trans": "완료"
+		},
+		"gameOver": {
+			"eng": "NOT ENOUGH!",
+			"trans": "양이 부족해!"
+		},
+		"getReady": {
+			"eng": "GET READY!",
+			"trans": "준비하세요!"
+		},
+		"hits": {
+			"eng": "hits",
+			"trans": "폭발 수"
+		},
+		"intro": {
+			"eventEnded": {
+				"eng": "EVENT ENDED",
+				"trans": "이벤트 종료"
+			},
+			"eventInactive": {
+				"eng": "Event is not currently active",
+				"trans": "현재 이벤트가 비활성 상태입니다"
+			},
+			"howToGet": {
+				"eng": "Find passes in dungeon chests or from AFK farming during the event!",
+				"trans": "던전 상자나 앱크 농사 중에 이벤트 패스를 찾아보세요!"
+			},
+			"howToPlay": {
+				"eng": "How to Play",
+				"trans": "플레이 방법"
+			},
+			"needPass": {
+				"eng": "NEED PASS",
+				"trans": "패스가 필요해"
+			},
+			"passesOwned": {
+				"eng": "Passes Owned:",
+				"trans": "보유 패스:"
+			},
+			"rule1": {
+				"eng": "• Tap fireworks before they fizzle out!",
+				"trans": "• 불꽃이 꺼지기 전, 빠르게 탭해요!"
+			},
+			"rule2": {
+				"eng": "• Faster taps earn more points",
+				"trans": "빠른 탭으로 더 많은 점수를 획득할 수 있어요"
+			},
+			"rule3": {
+				"eng": "• Build combos for score multipliers",
+				"trans": "• 점수 배수를 위해 콤보를 만들어 보세요"
+			},
+			"rule4": {
+				"eng": "• Complete 5 stages for maximum rewards",
+				"trans": "• 보상을 최대로 받으려면 5단계를 끝내세요"
+			},
+			"startButton": {
+				"eng": "START GAME",
+				"trans": "게임 시작"
+			},
+			"title": {
+				"eng": "New Year Fireworks Frenzy",
+				"trans": "새해 폭죽 대잔치"
+			}
+		},
+		"invalidStage": {
+			"eng": "Invalid Stage",
+			"trans": "유효하지 않은 스테이지"
+		},
+		"loading": {
+			"message": {
+				"eng": "Preparing fireworks...",
+				"trans": "폭죽 준비 중…"
+			},
+			"title": {
+				"eng": "Loading Game...",
+				"trans": "게임 로딩 중..."
+			}
+		},
+		"missed": {
+			"eng": "missed",
+			"trans": "놓쳤어"
+		},
+		"needMoreHits": {
+			"eng": "You needed more hits to pass this stage",
+			"trans": "이 스테이지를 넘어가기 위해선 더 많은 타격이 필요했어요"
+		},
+		"nextStageIn": {
+			"eng": "Next Stage in",
+			"trans": "다음 스테이지까지"
+		},
+		"pleaseWait": {
+			"eng": "Calculating rewards...",
+			"trans": "보상 계산 중입니다…"
+		},
+		"processing": {
+			"eng": "PROCESSING...",
+			"trans": "처리 중…"
+		},
+		"rewards": {
+			"eng": "REWARDS!",
+			"trans": "보상!"
+		},
+		"rewardsEarned": {
+			"eng": "YOUR REWARDS",
+			"trans": "당신의 보상"
+		},
+		"score": {
+			"eng": "Score",
+			"trans": "점수"
+		},
+		"scoreResult": {
+			"eng": "SCORE: ${score}",
+			"trans": "점수: ${score}",
+			"vars": [
+				"score"
+			]
+		},
+		"seconds": {
+			"eng": "seconds",
+			"trans": "초"
+		},
+		"stage": {
+			"eng": "Stage",
+			"trans": "스테이지"
+		},
+		"stageClear": {
+			"eng": "STAGE CLEAR!",
+			"trans": "스테이지 클리어!"
+		},
+		"stageRewards": {
+			"eng": "STAGE ${stage} CLEARED",
+			"trans": "스테이지 ${stage} 클리어",
+			"vars": [
+				"stage"
+			]
+		},
+		"stats": {
+			"finalScore": {
+				"eng": "Final Score",
+				"trans": "최종 점수"
+			},
+			"good": {
+				"eng": "Good",
+				"trans": "좋음"
+			},
+			"great": {
+				"eng": "Great",
+				"trans": "대박"
+			},
+			"hits": {
+				"eng": "HITS",
+				"trans": "명중"
+			},
+			"missed": {
+				"eng": "MISSED",
+				"trans": "놓친"
+			},
+			"perfect": {
+				"eng": "Perfect",
+				"trans": "완벽"
+			}
+		},
+		"success": {
+			"eng": "SUCCESS!",
+			"trans": "성공!"
+		},
+		"targetHits": {
+			"eng": "Target: ${target} hits",
+			"trans": "타깃: ${target}번",
+			"vars": [
+				"target"
+			]
+		},
+		"timeUp": {
+			"eng": "Time's Up!",
+			"trans": "시간 초과!"
+		},
+		"toast": {
+			"good": {
+				"eng": "GOOD",
+				"trans": "굿!"
+			},
+			"great": {
+				"eng": "GREAT!",
+				"trans": "대박!"
+			},
+			"miss": {
+				"eng": "MISS",
+				"trans": "실패"
+			},
+			"perfect": {
+				"eng": "PERFECT!",
+				"trans": "완벽해!"
+			}
+		}
+	},
+	"newYearPromo": {
+		"desc1": {
+			"eng": "Ring in the New Year with spectacular fireworks and exclusive rewards!",
+			"trans": "멋진 불꽃놀이와 한정 보상으로 새해를 빛내세요!"
+		},
+		"specialGame": {
+			"eng": "Play the Fireworks Show mini-game for bonus rewards!",
+			"trans": "불꽃 쇼 미니게임에서 보너스 리워드를 획득하세요!"
+		},
+		"title": {
+			"eng": "New Year Celebration",
+			"trans": "새해 축제"
+		}
+	},
+	"newYearPromoSmall": {
+		"desc": {
+			"eng": "Fireworks, rewards & exclusive chat frame!",
+			"trans": "폭죽, 보상 & 전용 채팅 프레임!"
+		},
+		"title": {
+			"eng": "New Year Event!",
+			"trans": "새해 이벤트!"
+		}
+	},
 	"notificationModal": {
 		"cancel": {
 			"eng": "Cancel",
@@ -7945,6 +8309,32 @@
 			"npcName": {
 				"eng": "Luna",
 				"trans": "루나"
+			}
+		},
+		"newYear": {
+			"defaultLines": {
+				"eng": [
+					"Ready to light up the night? The countdown's about to begin!",
+					"Perfect timing is everything in fireworks, choom.",
+					"I've got the best pyrotechnics this side of Night City!",
+					"Wanna see some real fireworks? Show me what you've got!",
+					"The New Year's celebration won't wait forever, let's go!"
+				],
+				"trans": [
+					"Ready to light up the night? The countdown's about to begin!",
+					"Perfect timing is everything in fireworks, choom.",
+					"I've got the best pyrotechnics this side of Night City!",
+					"Wanna see some real fireworks? Show me what you've got!",
+					"The New Year's celebration won't wait forever, let's go!"
+				]
+			},
+			"name": {
+				"eng": "Fireworks Plaza",
+				"trans": "불꽃놀이 광장"
+			},
+			"npcName": {
+				"eng": "Fireworks Technician",
+				"trans": "폭죽 장인"
 			}
 		},
 		"party": {
@@ -9564,6 +9954,12 @@
 			"name": {
 				"eng": "Medical Tech Scrap",
 				"trans": "[부품] 의료 공학 조각"
+			}
+		},
+		"newYearGift": {
+			"name": {
+				"eng": "Midnight Celebration Box",
+				"trans": "새해 밤파티 박스"
 			}
 		},
 		"techScrapCluster": {
@@ -11455,10 +11851,6 @@
 				"eng": "Daily Reward",
 				"trans": "출석 체크"
 			},
-			"referral": {
-				"eng": "Referral Program",
-				"trans": "추천인 프로그램"
-			},
 			"skipQueue": {
 				"eng": "Skip Queue",
 				"trans": "스킵 대기열"
@@ -12304,6 +12696,10 @@
 			"links": {
 				"eng": "links",
 				"trans": "외부 링크"
+			},
+			"moderatorTools": {
+				"eng": "Mod Tools",
+				"trans": "관리자 도구"
 			},
 			"premiumShop": {
 				"eng": "Premium Shop",
