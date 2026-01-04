@@ -1,0 +1,1 @@
+Discovered in the depths of a corrupted holiday sub-routine. A heavy, rectangular container wrapped in a material that defies modern scanner.  Whatever is inside-- it carries a strange, calming frequency. In a world of cold code, this is a fragment of a warmer era.
