@@ -16,6 +16,29 @@ Please send your feedback to my Discord or email me directly.
 
 ## Updates
 
+### 0.1886
+
+**New Year Event**:
+
+- During the event, New Year Token, Fireworks Pass, and New Year Champagne will drop from AFK bot farming and dungeon chests
+- You can exchange New Year Token with the Fireworks Technician at Fireworks Plaza for various items
+- During the event, top-ups will receive bonus Rare Synaptic Acceleration Transmitter
+- Added Golden New Year chat frame
+- **New Year Fireworks Event Game**:
+  - Added new event game where you tap fireworks before they fizzle out across 5 progressive stages
+  - Each stage increases in difficulty with faster timing and more fireworks
+  - Complete all stages for maximum rewards
+  - Requires Fireworks Pass to play (obtainable from dungeon chests and AFK farming)
+  - Access the game from Fireworks Plaza at Market Street
+- New Year Champagne gives +20% AFK EXP boost for 20 minutes
+- Party contribution receives up to 10% discount for early contributors
+- New Year Token is tradable
+- Added Skip Discount Ticket exchange option at Fireworks Plaza
+- **ALL** Event items will expire when event ends
+
+- Updated action button icons and added category tags for better visual organization
+- **Gift Sending** - Added warning when sending gifts to help protect against potential scams
+
 ### 0.1885
 
 **Christmas Event**:
