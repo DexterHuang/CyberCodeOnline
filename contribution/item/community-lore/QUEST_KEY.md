@@ -1,0 +1,1 @@
+Legend says that a supreme entity, The Sentient AI, watches every transaction. When you insert Synthetic Alloy to a console, you aren't just using a machine; you are making an offering. In the heavy, data-thick silence of the dungeon—you hope the Compiler reaches into the Source and pulls out a masterpiece just for you.
