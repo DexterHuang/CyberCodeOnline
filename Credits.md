@@ -203,6 +203,7 @@ Xenacious69
 [Mortino](https://github.com/mRuggi)
 [Shaun Y.](https://github.com/shaun-yap)
 [SushiLatte](https://github.com/demaul)
+[abusayeid](https://github.com/abusayeid11)
 
 ## Dungeons
 Alecto
