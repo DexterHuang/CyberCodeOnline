@@ -61,11 +61,11 @@
 			"paypalBonus": {
 				"eng": "You will receive additional 10% more Units with paypal purchase",
 				"trans": "PayPalで購入すると10％追加でUNITを入手できます"
-			},
-			"paypalBonusTitle": {
-				"eng": "All PayPal purchases grants 10% additional Units! You may use paypal only on website version, simply login with your browser.",
-				"trans": "PayPalで購入することで, UNITを10％追加で獲得できます！PayPalはウェブ版でのみ利用できます. ブラウザからゲームにログインしてください."
 			}
+		},
+		"paypalBonusDescription": {
+			"eng": "Extra Units with all PayPal purchases",
+			"trans": "PayPal購入時に追加ユニットが付与されます"
 		},
 		"purchasing": {
 			"eng": "Purchasing",
@@ -1227,6 +1227,20 @@
 			"trans": "システム"
 		}
 	},
+	"chatAttachmentMenu": {
+		"addImage": {
+			"eng": "Add Image",
+			"trans": "画像を追加"
+		},
+		"rollDice": {
+			"eng": "Roll Dice",
+			"trans": "サイコロを振る"
+		},
+		"shareItem": {
+			"eng": "Share Item",
+			"trans": "アイテムを共有"
+		}
+	},
 	"chatExploit": {
 		"loveWords": {
 			"eng": [
@@ -1744,7 +1758,7 @@
 			"trans": "キャンセル"
 		},
 		"close": {
-			"eng": "Close",
+			"eng": "TERMINATE",
 			"trans": "閉じる"
 		},
 		"confirm": {
@@ -1925,6 +1939,70 @@
 			}
 		}
 	},
+	"dice": {
+		"modal": {
+			"description": {
+				"eng": "Roll a dice in chat for everyone to see!",
+				"trans": "チャットでみんなに見せるため、ダイスを振ろう！"
+			},
+			"howToGet": {
+				"eng": "Get Lucky Dice from AFK farming, dungeon drops, or buy from ${npc}.",
+				"trans": "AFK農業、ダンジョンでのドロップ、または${npc}から購入してラッキーダイスを入手できます。",
+				"vars": [
+					"npc"
+				]
+			},
+			"roll": {
+				"eng": "Roll Dice",
+				"trans": "サイコロを振る"
+			},
+			"title": {
+				"eng": "🎲 Roll Dice",
+				"trans": "🎲 サイコロを振る"
+			},
+			"youHave": {
+				"eng": "You have ${count} Lucky Dice",
+				"trans": "${count}個の幸運のダイス",
+				"vars": [
+					"count"
+				]
+			}
+		},
+		"roll": {
+			"cooldown": {
+				"eng": "You've used all ${maxRolls} dice rolls. Try again in ${minutes} minute(s)",
+				"trans": "すべての${maxRolls}回分のサイコロ振りを使い切りました。あと${minutes}分後に再試行してください。",
+				"vars": [
+					"maxRolls",
+					"minutes"
+				]
+			},
+			"invalidChannel": {
+				"eng": "Invalid chat channel",
+				"trans": "無効なチャットチャンネル"
+			},
+			"noDice": {
+				"eng": "You need a Lucky Dice to roll!",
+				"trans": "ロールするにはラッキーダイスが必要です！"
+			},
+			"result": {
+				"eng": "${slanc}: ${player} rolled a ${result}! 🎲",
+				"trans": "${slanc}: ${player} が ${result} を振った!",
+				"vars": [
+					"slanc",
+					"player",
+					"result"
+				]
+			},
+			"success": {
+				"eng": "You rolled a ${result}!",
+				"trans": "出目：${result}！",
+				"vars": [
+					"result"
+				]
+			}
+		}
+	},
 	"displayShelf": {
 		"error": {
 			"invalidSlot": {
@@ -2011,6 +2089,10 @@
 			"sendImage": {
 				"eng": "Send images in mail to players who added you as friend",
 				"trans": "フレンドに画像付きメールを送信可能！"
+			},
+			"shareItemInChat": {
+				"eng": "Share items in chat",
+				"trans": "チャットでアイテムを共有"
 			},
 			"title": {
 				"eng": "\"${name}\" donation title",
@@ -2276,6 +2358,10 @@
 			"eng": "Golden New Year",
 			"trans": "黄金の新年"
 		},
+		"donation48": {
+			"eng": "Lunar Stallion",
+			"trans": "月光の馬"
+		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
 			"trans": "サイバネティック・ポテト"
@@ -2299,6 +2385,322 @@
 		"moderator": {
 			"eng": "Moderator",
 			"trans": "モデレータ"
+		}
+	},
+	"dumpling": {
+		"action": {
+			"fold": {
+				"eng": "Fold",
+				"trans": "折る"
+			}
+		},
+		"button": {
+			"subtitle": {
+				"eng": "LUNAR PROTOCOL",
+				"trans": "月のキッチン"
+			},
+			"title": {
+				"eng": "DUMPLING MASTER",
+				"trans": "餃子マスター"
+			}
+		},
+		"chef": {
+			"correct1": {
+				"eng": "Excellent technique!",
+				"trans": "抜群のテクニックだ！"
+			},
+			"correct2": {
+				"eng": "Just like grandma used to make!",
+				"trans": "おばあちゃんが作っていたような味だ！"
+			},
+			"correct3": {
+				"eng": "Perfect fold!",
+				"trans": "折りたたみバッチリ！"
+			},
+			"correct4": {
+				"eng": "Beautiful work!",
+				"trans": "素晴らしい仕事！"
+			},
+			"correct5": {
+				"eng": "That's the spirit!",
+				"trans": "その調子だね！"
+			},
+			"encourage1": {
+				"eng": "Keep going!",
+				"trans": "頑張ってね！"
+			},
+			"encourage2": {
+				"eng": "You're doing great!",
+				"trans": "素晴らしい調子だね！"
+			},
+			"encourage3": {
+				"eng": "Almost there!",
+				"trans": "もうすぐだね！"
+			},
+			"encourage4": {
+				"eng": "Stay focused!",
+				"trans": "集中しよう！"
+			},
+			"timeWarn1": {
+				"eng": "Hurry! Time is running out!",
+				"trans": "急げ！もうすぐ時間切れだ！"
+			},
+			"timeWarn2": {
+				"eng": "Faster! Faster!",
+				"trans": "早くして！早くして！"
+			},
+			"timeWarn3": {
+				"eng": "The clock is ticking!",
+				"trans": "時間が迫ってる！"
+			},
+			"wrong1": {
+				"eng": "Not quite right...",
+				"trans": "ちょっと違うね…"
+			},
+			"wrong2": {
+				"eng": "Try again!",
+				"trans": "もう一度挑戦してね！"
+			},
+			"wrong3": {
+				"eng": "Focus on the recipe!",
+				"trans": "レシピに集中！"
+			},
+			"wrong4": {
+				"eng": "Careful now!",
+				"trans": "気をつけて！"
+			},
+			"wrong5": {
+				"eng": "Watch the order!",
+				"trans": "注文を確認しろ！"
+			}
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The Lunar New Year event has ended!",
+				"trans": "旧正月イベントは終了しました！"
+			},
+			"noPass": {
+				"eng": "You need a Lunar Chef Pass to play! Find them in dungeon chests or from AFK farming.",
+				"trans": "プレイにはルナシェフパスが必須！ダンジョンの宝箱か、AFKで自動収集して入手できるよ。"
+			}
+		},
+		"error": {
+			"title": {
+				"eng": "SYSTEM ERROR",
+				"trans": "システムエラー"
+			}
+		},
+		"game": {
+			"orders": {
+				"eng": "QUOTA",
+				"trans": "オーダー"
+			},
+			"recipe": {
+				"eng": "RECIPE SEQUENCE",
+				"trans": "レシピ"
+			},
+			"time": {
+				"eng": "TIMER",
+				"trans": "時間"
+			}
+		},
+		"gameOver": {
+			"noRewards": {
+				"eng": "NO DATA SECURED",
+				"trans": "ダンプリングを完了できませんでした。パスは消費されました。"
+			}
+		},
+		"ingredient": {
+			"cabbage": {
+				"eng": "Cabbage",
+				"trans": "キャベツ"
+			},
+			"chives": {
+				"eng": "Chives",
+				"trans": "チャイブ"
+			},
+			"dough": {
+				"eng": "Dough",
+				"trans": "生地"
+			},
+			"mushroom": {
+				"eng": "Mushroom",
+				"trans": "キノコ"
+			},
+			"pork": {
+				"eng": "Pork",
+				"trans": "豚肉"
+			},
+			"shrimp": {
+				"eng": "Shrimp",
+				"trans": "エビ"
+			},
+			"spice": {
+				"eng": "Spice",
+				"trans": "スパイス"
+			}
+		},
+		"intro": {
+			"authorized": {
+				"eng": "AUTHORIZED",
+				"trans": "認証済み"
+			},
+			"eventEnded": {
+				"eng": "EVENT TERMINATED",
+				"trans": "イベント終了"
+			},
+			"howToPlay": {
+				"eng": "MISSION PARAMETERS",
+				"trans": "キッチンプロトコル"
+			},
+			"missing": {
+				"eng": "REQUIRED",
+				"trans": "必須"
+			},
+			"needPass": {
+				"eng": "ACCESS DENIED",
+				"trans": "パスが必要です"
+			},
+			"passName": {
+				"eng": "Lunar Chef Pass",
+				"trans": "ルナシェフパス"
+			},
+			"rule1": {
+				"eng": "Analyze recipe sequence",
+				"trans": "レシピの手順をよく確認しよう"
+			},
+			"rule2": {
+				"eng": "Execute ingredient assembly",
+				"trans": "正しい順序で材料を入れよう"
+			},
+			"rule3": {
+				"eng": "Complete objectives within time limit",
+				"trans": "時間切れ前にオーダーを完了させよう"
+			},
+			"startButton": {
+				"eng": "INITIATE SEQUENCE",
+				"trans": "調理開始！"
+			},
+			"subtitle": {
+				"eng": "TACTICAL COOKING PROTOCOL",
+				"trans": "月のキッチン"
+			}
+		},
+		"loading": {
+			"processing": {
+				"eng": "CALCULATING RESULTS",
+				"trans": "結果を準備しています..."
+			},
+			"title": {
+				"eng": "INITIALIZING SYSTEM",
+				"trans": "中華鍋を温めている…"
+			}
+		},
+		"preview": {
+			"addFilling": {
+				"eng": "ADD FILLING",
+				"trans": "詰め物を追加"
+			},
+			"folding": {
+				"eng": "SEALING",
+				"trans": "折り畳み中…"
+			},
+			"ingredients": {
+				"eng": "ASSEMBLING... ${count}",
+				"trans": "${count} 個の食材",
+				"vars": [
+					"count"
+				]
+			},
+			"perfect": {
+				"eng": "COMPLETE",
+				"trans": "パーフェクト！"
+			},
+			"waiting": {
+				"eng": "WAITING",
+				"trans": "待機中…"
+			}
+		},
+		"results": {
+			"collect": {
+				"eng": "CLAIM REWARDS",
+				"trans": "報酬を受け取る"
+			},
+			"ended": {
+				"eng": "TIME'S UP",
+				"trans": "時間切れ"
+			},
+			"master": {
+				"eng": "DUMPLING MASTER",
+				"trans": "餃子の達人！"
+			},
+			"rewards": {
+				"eng": "MISSION REWARDS",
+				"trans": "報酬"
+			}
+		},
+		"stageComplete": {
+			"allDone": {
+				"eng": "ALL STAGES CLEARED",
+				"trans": "全ステージクリア！"
+			},
+			"continuing": {
+				"eng": "ADVANCING",
+				"trans": "継続中"
+			},
+			"label": {
+				"eng": "STAGE COMPLETE",
+				"trans": "ステージクリア"
+			},
+			"nextStage": {
+				"eng": "LOADING STAGE ${next}",
+				"trans": "次のステージ ${next} に備えよう",
+				"vars": [
+					"next"
+				]
+			},
+			"title": {
+				"eng": "OBJECTIVE MET",
+				"trans": "抜群だね！"
+			}
+		},
+		"title": {
+			"eng": "DUMPLING MASTER",
+			"trans": "餃子の達人"
+		},
+		"transition": {
+			"easy": {
+				"eng": "CLEARANCE-L",
+				"trans": "初心者"
+			},
+			"hard": {
+				"eng": "CLEARANCE-H",
+				"trans": "マスター"
+			},
+			"medium": {
+				"eng": "CLEARANCE-M",
+				"trans": "中級"
+			},
+			"orders": {
+				"eng": "QUOTA",
+				"trans": "オーダー"
+			},
+			"preparing": {
+				"eng": "LOADING SEQUENCE...",
+				"trans": "キッチンを準備しています..."
+			},
+			"stage": {
+				"eng": "STAGE",
+				"trans": "ステージ"
+			},
+			"steps": {
+				"eng": "STEPS",
+				"trans": "ステップ"
+			},
+			"time": {
+				"eng": "LIMIT",
+				"trans": "時間"
+			}
 		}
 	},
 	"dungeon": {
@@ -3319,6 +3721,10 @@
 	"gameEvent": {
 		"christmas": {
 			"eng": "Christmas",
+			"eventGame": {
+				"eng": "Santa's Workshop",
+				"trans": "サンタの工房"
+			},
 			"trans": "クリスマス"
 		},
 		"easter": {
@@ -3344,6 +3750,10 @@
 		},
 		"lunarNewYear": {
 			"eng": "Lunar New Year",
+			"eventGame": {
+				"eng": "Lunar Kitchen",
+				"trans": "月のキッチン"
+			},
 			"skipDiscountTitle": {
 				"eng": "Lunar New Year Discount",
 				"trans": "旧正月セール"
@@ -3358,6 +3768,10 @@
 		},
 		"newYear": {
 			"eng": "New Year",
+			"eventGame": {
+				"eng": "Fireworks Show",
+				"trans": "花火ショー"
+			},
 			"skipDiscountTitle": {
 				"eng": "New Year Discount",
 				"trans": "お正月セール"
@@ -3460,13 +3874,24 @@
 			"eng": "Early contributors receive higher discounts!",
 			"trans": "早期参加者にはより高い割引が適用されます！"
 		},
-		"lootCrateDesc": {
-			"eng": "Special items available in dungeon loot crates:",
-			"trans": "ダンジョンの宝箱から特別なアイテムを入手できます"
+		"eventGameDesc": {
+			"eng": "Play ${gameName} using ${passName} for bonus rewards!",
+			"trans": "${passName}で${gameName}をプレイして、ボーナス報酬をゲットしよう！",
+			"vars": [
+				"gameName",
+				"passName"
+			]
 		},
-		"lootTitle": {
-			"eng": "Dungeon Loot Crates",
-			"trans": "ダンジョンクレート戦利品"
+		"eventShop": {
+			"eng": "Event Shop",
+			"trans": "イベントショップ"
+		},
+		"eventShopDesc": {
+			"eng": "Visit ${npcName} for exclusive seasonal items!",
+			"trans": "${npcName}に行って、限定シーズンアイテムを手に入れよう！",
+			"vars": [
+				"npcName"
+			]
 		},
 		"monsterDrops": {
 			"eng": "Monster Drops",
@@ -3525,9 +3950,9 @@
 			"eng": "Express yourself with dazzling event-themed chat effects",
 			"trans": "華やかなイベントテーマのチャットエフェクトで自分を表現しよう"
 		},
-		"lootCrate": {
-			"eng": "Discover limited-time treasures in exclusive event loot crates",
-			"trans": "限定イベントのランダムな宝箱で期間限定の宝物を発見しよう！"
+		"dungeonDrops": {
+			"eng": "Collect bonus items from dungeon chests during the event",
+			"trans": "イベント期間中にダンジョンの宝箱からボーナスアイテムを獲得"
 		},
 		"partyDiscount": {
 			"eng": "Team up and save with exclusive party contribution discounts",
@@ -3942,6 +4367,20 @@
 				"current",
 				"max"
 			]
+		}
+	},
+	"insufficientUnitsModal": {
+		"cancel": {
+			"eng": "Cancel",
+			"trans": "キャンセル"
+		},
+		"getUnits": {
+			"eng": "Get Units",
+			"trans": "ユニットを入手"
+		},
+		"title": {
+			"eng": "Insufficient Units",
+			"trans": "ユニット不足"
 		}
 	},
 	"inventory": {
@@ -4587,7 +5026,7 @@
 		"globalPartyBuff": {
 			"announcement": {
 				"eng": "🎉Its Party Time!🥳, reduce AFK time by ${afkPercent}%, increased BTC gained by ${btcPercent}%, increase EXP gained by ${expPercent}%",
-				"trans": "🎉パーティータイム！🥳 AFK時間を${afkPercent}%短縮し, BTC獲得量を${btcPercent}%増加し, EXP獲得量を${expPercent}%増加させます.",
+				"trans": "パーティータイム！AFK時間を${afkPercent}%短縮、BTC獲得量を${btcPercent}%アップ、EXP獲得量も${expPercent}%アップ。",
 				"vars": [
 					"afkPercent",
 					"btcPercent",
@@ -4888,6 +5327,16 @@
 				"trans": "高級家具組み立てキット"
 			}
 		},
+		"inscriptionChip": {
+			"description": {
+				"eng": "A digital inscription chip used to rename equipment. comsumed when renaming equipment",
+				"trans": "デジタル刻印チップ。装備名変更時に消費されます。"
+			},
+			"name": {
+				"eng": "Inscription Chip",
+				"trans": "刻印チップ"
+			}
+		},
 		"keyFragment": {
 			"description": {
 				"eng": "A secret key Fragment used to brute-force a secret key.\n                                Use the Terminal at city center [Hub] to brute-force a ${segmentDisplayName} secret key.\n                                You can acquire each of the 3 required keys in each dungeon (both normal or challenge),\n                                when you acquired 3 keys, you may use Terminal to brute-force (Craft) a key to the next area",
@@ -4939,6 +5388,26 @@
 			"name": {
 				"eng": "lower armor",
 				"trans": "下半身装備"
+			}
+		},
+		"luckyDice": {
+			"description": {
+				"eng": "A holographic six-sided die you can use in chat. The system rolls a random number from 1 to 6 and posts the result to chat. 🎲",
+				"trans": "チャットで使えるホログラム六面ダイス。1〜6のランダムな数を振って、結果をチャットに投稿します。"
+			},
+			"name": {
+				"eng": "Lucky Dice",
+				"trans": "幸運ダイス"
+			}
+		},
+		"lunarChefPass": {
+			"description": {
+				"eng": "A special pass required to participate in the Dumpling Master event game. Can be found in Dungeon Chests or from AFK farming during the Lunar New Year event.",
+				"trans": "餃子マスターイベント参加に必要なスペシャルパスです。ダンジョンチェストや旧正月イベント期間中のAFKファーミングで入手可能。"
+			},
+			"name": {
+				"eng": "Lunar Chef Pass",
+				"trans": "ルナシェフパス"
 			}
 		},
 		"lunarCoin": {
@@ -5106,7 +5575,7 @@
 			},
 			"error": {
 				"eng": "This item is only available during Christmas Event",
-				"trans": "このアイテムは, クリスマスイベント中のみ利用できます"
+				"trans": "このアイテムはクリスマスイベント期間中にしか入手できません"
 			},
 			"name": {
 				"eng": "Christmas Pudding",
@@ -5154,6 +5623,30 @@
 			"name": {
 				"eng": "Rare Equipment Crate",
 				"trans": "珍しい装備品クレート"
+			}
+		},
+		"rename": {
+			"aiRejected": {
+				"eng": "Name was rejected by automated moderation, please try again with a different name",
+				"trans": "自動モデレーションで名前が拒否されました。別名を入力してください。"
+			},
+			"inappropriate": {
+				"eng": "Name contains inappropriate content",
+				"trans": "名前に不適切な内容が含まれています"
+			},
+			"rateLimited": {
+				"eng": "Too many rename attempts. Please try again in ${minutes} minute(s)",
+				"trans": "リネーム回数オーバーです。${minutes}分後に再度お試しください。",
+				"vars": [
+					"minutes"
+				]
+			},
+			"success": {
+				"eng": "Item renamed to \"${name}\"",
+				"trans": "アイテム名を \"${name}\" に変更しました",
+				"vars": [
+					"name"
+				]
 			}
 		},
 		"riceCake": {
@@ -5274,13 +5767,13 @@
 			},
 			"notAvailableError": {
 				"eng": "This item is only available during Summer Event",
-				"trans": "このアイテムはサマーイベント期間中のみ入手可能です."
+				"trans": "このアイテムは夏イベント期間中のみ入手可能です。"
 			}
 		},
 		"summonAI": {
 			"announcement": {
 				"eng": "SLANC has entered the chat",
-				"trans": "SLANCがチャットに登場しました"
+				"trans": "SLANCがチャットに入室しました"
 			},
 			"description": {
 				"eng": "Use SLANC Connector to connect SLANC to global chat for ${minute} minutes",
@@ -5374,6 +5867,21 @@
 			"name": {
 				"eng": "Roasted Turkey",
 				"trans": "ローストターキー"
+			}
+		},
+		"undoRename": {
+			"mailMessageInbox": {
+				"eng": "${moderatorName} has undone the rename of your item ${itemName}, an ${chipName} has been sent to your item inbox.",
+				"trans": "${moderatorName} has undone the rename of your item ${itemName}, 1 ${chipName} have been sent to your item inbox.",
+				"vars": [
+					"moderatorName",
+					"itemName",
+					"chipName"
+				]
+			},
+			"success": {
+				"eng": "Rename undone. Player received compensation.",
+				"trans": "リネームが取り消されました。プレイヤーに報酬が付与されました。"
 			}
 		},
 		"unknownCache": {
@@ -5604,6 +6112,32 @@
 				"eng": "Player contributed content",
 				"trans": "これは有志のプレイヤーによって製作されたコンテンツです"
 			}
+		}
+	},
+	"itemRenameHistory": {
+		"currentName": {
+			"eng": "Current Name",
+			"trans": "現在の名前"
+		},
+		"description": {
+			"eng": "Track of all name changes for this item",
+			"trans": "このアイテムの名称変更履歴"
+		},
+		"empty": {
+			"eng": "No rename history",
+			"trans": "リネーム履歴なし"
+		},
+		"original": {
+			"eng": "Original Name",
+			"trans": "元の名前"
+		},
+		"timeline": {
+			"eng": "Timeline",
+			"trans": "タイムライン"
+		},
+		"title": {
+			"eng": "Rename History",
+			"trans": "名前変更履歴"
 		}
 	},
 	"itemStack": {
@@ -5853,6 +6387,413 @@
 					"eng": "Market",
 					"trans": "マーケット"
 				}
+			}
+		}
+	},
+	"landingPage": {
+		"features": {
+			"browserBased": {
+				"description": {
+					"eng": "No downloads, no installs. Play instantly on any device with a browser.",
+					"trans": "ダウンロード不要・インストール不要。ブラウザだけで、いつでもどこでもすぐに遊べます。"
+				},
+				"title": {
+					"eng": "Browser Based",
+					"trans": "ブラウザベース"
+				}
+			},
+			"community": {
+				"description": {
+					"eng": "No PvP. 50k+ Discord members. Wholesome vibes only.",
+					"trans": "対戦モードなし。Discordで5万人以上の仲間が集結。ハッピーな雰囲気のみ！"
+				},
+				"title": {
+					"eng": "Friendly Community",
+					"trans": "親しみやすいコミュニティ"
+				}
+			},
+			"coreFeatures": {
+				"eng": "Core Features",
+				"trans": "コア機能"
+			},
+			"crafting": {
+				"description": {
+					"eng": "Forge weapons, print gear, cook buffs. Turn raw loot into endgame builds.",
+					"trans": "武器は鍛え、装備はプリントし、バフは調合。手に入れた戦利品を終盤のビルドへと変える。"
+				},
+				"title": {
+					"eng": "Deep Crafting",
+					"trans": "高度なクラフト"
+				}
+			},
+			"crossPlatform": {
+				"description": {
+					"eng": "Progress syncs across all devices. Start on PC, continue on mobile.",
+					"trans": "プレイの進捗をすべての端末でシンクロ！ PCで始めて、モバイルでそのまま継続できるよ。"
+				},
+				"title": {
+					"eng": "Cross Platform",
+					"trans": "クロスプラットフォーム"
+				}
+			},
+			"economy": {
+				"description": {
+					"eng": "Player-driven marketplace. Trade, sell, and build your fortune.",
+					"trans": "プレイヤー主導型マーケット。取引・販売であなたの富を築こう。"
+				},
+				"title": {
+					"eng": "Player Economy",
+					"trans": "プレイヤー経済"
+				}
+			},
+			"events": {
+				"description": {
+					"eng": "Regular limited-time events with exclusive rewards and unique gameplay.",
+					"trans": "毎回開催される期間限定イベントで、限定報酬とユニークなゲームプレイを楽しめます。"
+				},
+				"title": {
+					"eng": "Seasonal Events",
+					"trans": "季節イベント"
+				}
+			},
+			"gangs": {
+				"description": {
+					"eng": "Team up, climb leaderboards, unlock perks. Stronger together.",
+					"trans": "仲間と協力してリーダーボードを上げ、特典をアンロック。団結すればもっと強くなる。"
+				},
+				"title": {
+					"eng": "Join a Gang",
+					"trans": "ギャングに参加"
+				}
+			},
+			"globalBuffs": {
+				"description": {
+					"eng": "When someone donates, the ENTIRE server gets the buff. Community-powered progression.",
+					"trans": "誰かが寄付すると、サーバー全員にバフがもたらされるよ！みんなの力で進化だ！"
+				},
+				"title": {
+					"eng": "Global Buffs",
+					"trans": "全体バフ"
+				}
+			},
+			"housing": {
+				"description": {
+					"eng": "Own apartments from slums to penthouses. Decorate and customize your space.",
+					"trans": "スラムからペントハウスまで、アパートをゲットしちゃおう！デコレーションして、自分色にカスタマイズしよう。"
+				},
+				"title": {
+					"eng": "Housing System",
+					"trans": "ハウジングシステム"
+				}
+			},
+			"idlePlay": {
+				"description": {
+					"eng": "AFK farming when busy, engage in mini-games when active. Play your way.",
+					"trans": "立ち回っている間はAFK農業、アクティブ時はミニゲームに挑戦。好きなやり方で遊ぼう！"
+				},
+				"title": {
+					"eng": "Idle + Active",
+					"trans": "放置＋アクティブ"
+				}
+			},
+			"miniGames": {
+				"description": {
+					"eng": "Unlock loot the fun way. Quick puzzles, hacking sims, and more—never just click and wait.",
+					"trans": "お宝をゲットするなら、遊び方が大事！短時間で楽しめるパズルやハッキングシム… クリックと待ちの繰り返しはもう古い。"
+				},
+				"title": {
+					"eng": "Mini-Games Galore",
+					"trans": "ミニゲーム満載"
+				}
+			},
+			"noAds": {
+				"description": {
+					"eng": "Zero advertisements. Enjoy uninterrupted gameplay, completely free.",
+					"trans": "広告ゼロ！中断なしでプレイできます、完全無料です。"
+				},
+				"title": {
+					"eng": "No Ads Ever",
+					"trans": "広告ゼロ"
+				}
+			},
+			"noPayToWin": {
+				"description": {
+					"eng": "All purchases are cosmetic only. No stat boosts, no advantages. Everyone plays on equal footing.",
+					"trans": "購入できるのは見た目だけです。ステータスアップや優位性は一切ありません。みんな同じスタートラインでプレイできますよ。"
+				},
+				"title": {
+					"eng": "Zero Pay-to-Win",
+					"trans": "ペイ・トゥ・ウィンなし"
+				}
+			},
+			"pets": {
+				"description": {
+					"eng": "Adopt virtual pets. Feed, care for, and watch them grow. Tamagotchi vibes.",
+					"trans": "バーチャルペットを飼ってみよう！餌をあげてケアし、成長の様子を見守ろう。タマゴッチ風味です。"
+				},
+				"title": {
+					"eng": "Pet Companions",
+					"trans": "ペット相棒"
+				}
+			},
+			"playOn": {
+				"eng": "Play on any device",
+				"trans": "どのデバイスでもプレイ"
+			},
+			"signature": {
+				"eng": "Signature",
+				"trans": "シグネチャ"
+			},
+			"subtitle": {
+				"eng": "Built different. Plays different.",
+				"trans": "作り方がユニーク。プレイも全然違う。"
+			},
+			"title": {
+				"eng": "The MMORPG That Respects Your Time",
+				"trans": "あなたの時間を大切にするMMORPG"
+			}
+		},
+		"footer": {
+			"copyright": {
+				"eng": "(C) ${year} CyberCode Online",
+				"trans": "© ${year} CyberCode Online",
+				"vars": [
+					"year"
+				]
+			},
+			"cta": {
+				"eng": "Play Free Now",
+				"trans": "今すぐ無料でプレイ"
+			},
+			"discord": {
+				"eng": "Discord",
+				"trans": "ディスコード"
+			},
+			"github": {
+				"eng": "GitHub",
+				"trans": "GitHub"
+			},
+			"privacy": {
+				"eng": "Privacy Policy",
+				"trans": "プライバシーポリシー"
+			},
+			"subtitle": {
+				"eng": "Jump in. Make your mark.",
+				"trans": "飛び込んで、自分の痕跡を残せ！"
+			},
+			"terms": {
+				"eng": "Terms of Service",
+				"trans": "利用規約"
+			},
+			"title": {
+				"eng": "Your Crew is Waiting",
+				"trans": "クルーが待機中です"
+			}
+		},
+		"gameplay": {
+			"calibration": {
+				"eng": "Calibrate Gear. Risk It All.",
+				"trans": "ギア調整！全てを賭けろ！"
+			},
+			"crafting": {
+				"eng": "Print Loot from Dungeon Caches",
+				"trans": "ダンジョンキャッシュからの戦利品を印刷"
+			},
+			"inventory": {
+				"eng": "Manage Your Arsenal",
+				"trans": "装備を管理する"
+			},
+			"paused": {
+				"eng": "Paused",
+				"trans": "一時停止"
+			},
+			"profile": {
+				"eng": "Track Your Legend",
+				"trans": "あなたのレジェンドを追跡"
+			},
+			"subtitle": {
+				"eng": "See It In Action",
+				"trans": "アクションで確認しよう"
+			},
+			"title": {
+				"eng": "Real Gameplay",
+				"trans": "リアルゲームプレイ"
+			}
+		},
+		"hero": {
+			"cta": {
+				"eng": "Play Now - It's Free",
+				"trans": "今すぐプレイ！無料だよ"
+			},
+			"description": {
+				"eng": "A cyberpunk MMORPG with zero pay-to-win. Play free in your browser.",
+				"trans": "ペイ・トゥ・ウィンゼロのサイバーパンクMMORPG。ブラウザで無料プレイ！"
+			},
+			"scrollHint": {
+				"eng": "Scroll to explore",
+				"trans": "スクロールで探索"
+			},
+			"socialProof": {
+				"players": {
+					"eng": "1M+ Registers",
+					"trans": "100万+ 登録者"
+				}
+			}
+		},
+		"preview": {
+			"crafting": {
+				"description": {
+					"eng": "Craft weapons, armor, and mods. Use caches from dungeons.",
+					"trans": "武器、防具、モッドをクラフト。ダンジョンで入手したキャッシュを使用する。"
+				},
+				"title": {
+					"eng": "Equipment Crafting",
+					"trans": "装備作成"
+				}
+			},
+			"dungeons": {
+				"description": {
+					"eng": "Solo or co-op. Procedurally generated dungeons with rare loot drops.",
+					"trans": "一人でも仲間とともにも遊べます。プロシージャルに作られたダンジョンで、レアアイテムがドロップします。"
+				},
+				"title": {
+					"eng": "Endless Dungeons",
+					"trans": "無限のダンジョン"
+				}
+			},
+			"loot": {
+				"description": {
+					"eng": "Multiple tiers, random modifiers, upgrade slots. Chase the perfect roll.",
+					"trans": "複数階層、ランダムモディファイア、アップグレードスロット。完璧なロールを追いかけろ！"
+				},
+				"title": {
+					"eng": "Loot System",
+					"trans": "戦利品システム"
+				}
+			},
+			"progression": {
+				"description": {
+					"eng": "6 skill trees to master. Level combat, crafting, mining, and more.",
+					"trans": "6つのスキルツリーを極める。戦闘・クラフト・採掘などでレベルが上がる。"
+				},
+				"title": {
+					"eng": "Deep Progression",
+					"trans": "深層進化"
+				}
+			},
+			"selectFeature": {
+				"eng": "Select feature",
+				"trans": "機能を選択"
+			},
+			"social": {
+				"description": {
+					"eng": "Join gangs, chat globally, trade on the market. Make friends.",
+					"trans": "ギャングに参加して、世界中とチャット、マーケットでトレード。友達も作ろう。"
+				},
+				"title": {
+					"eng": "Social Hub",
+					"trans": "ソーシャルハブ"
+				}
+			},
+			"subtitle": {
+				"eng": "Deeper than you'd expect",
+				"trans": "思っているよりももっと奥がある"
+			},
+			"systemLabel": {
+				"eng": "SYSTEM // FEATURES",
+				"trans": "システム // 機能"
+			},
+			"title": {
+				"eng": "Get Lost in the Grind",
+				"trans": "グラインドに没入しよう"
+			},
+			"upgrade": {
+				"description": {
+					"eng": "Calibrate gear for stat boosts. High risk, high reward.",
+					"trans": "ギアを微調整して能力値アップ！危険度は高いが、得られる報酬も大きい。"
+				},
+				"title": {
+					"eng": "Equipment Upgrade",
+					"trans": "装備アップグレード"
+				}
+			}
+		},
+		"testimonials": {
+			"subtitle": {
+				"eng": "Real runners. Real opinions.",
+				"trans": "本物のランナー。真実の声。"
+			},
+			"title": {
+				"eng": "The Verdict Is In",
+				"trans": "判定が出た！"
+			}
+		},
+		"world": {
+			"loc": {
+				"coast": {
+					"desc": {
+						"eng": "Not all battles are fought with weapons. Unwind on pristine shores, master the art of crafting, or just watch the sunset.",
+						"trans": "戦いは必ずしも武器で決まるわけではない。無垢なビーチでリラックスしたり、クラフトの極意を磨いたり、夕日を眺めるだけでもOKだよ。"
+					},
+					"name": {
+						"eng": "Crystal Sands",
+						"trans": "クリスタルサンド"
+					},
+					"tag": {
+						"eng": "Crafting & Leisure",
+						"trans": "クラフトとリラックス"
+					}
+				},
+				"mainHub": {
+					"desc": {
+						"eng": "Where legends are forged. The neon-lit heart of civilization where runners gather, deals are struck, and your next adventure begins.",
+						"trans": "伝説が鍛えられる場所。ネオン輝く文明の中心で、ランナーたちが集い、取引が成立し、あなたの次なる冒険が始まる。"
+					},
+					"name": {
+						"eng": "Shangri-La City Center",
+						"trans": "シャングリラ・シティセンター"
+					},
+					"tag": {
+						"eng": "Central Hub",
+						"trans": "中央ハブ"
+					}
+				},
+				"market": {
+					"desc": {
+						"eng": "Fortune favors the bold. Hunt for rare gear, flip your loot, or score the deal of a lifetime in the sprawling player bazaar.",
+						"trans": "運は大胆な者に微笑む。レアギアを狩り、フリップで稼ぐか、広がるプレイヤーバザールで一生に一度の取引をゲットしよう。"
+					},
+					"name": {
+						"eng": "Market Street",
+						"trans": "マーケットストリート"
+					},
+					"tag": {
+						"eng": "Player Economy",
+						"trans": "プレイヤー経済"
+					}
+				},
+				"station": {
+					"desc": {
+						"eng": "Your gateway to the unknown. Board the hyperloop and venture into procedurally-generated dungeons filled with danger and epic loot.",
+						"trans": "未知へのゲートウェイ。ハイパーループに乗り込み、危険とエピックな宝物が詰まったプロシージャル生成ダンジョンへ飛び込もう！"
+					},
+					"name": {
+						"eng": "Hyper Train Station",
+						"trans": "ハイパートレイン駅"
+					},
+					"tag": {
+						"eng": "Dungeon Access",
+						"trans": "ダンジョンアクセス"
+					}
+				}
+			},
+			"subtitle": {
+				"eng": "Your next obsession",
+				"trans": "次にハマるもの"
+			},
+			"title": {
+				"eng": "Enter the Sprawl",
+				"trans": "スプラウルへ飛び込もう"
 			}
 		}
 	},
@@ -6410,57 +7351,23 @@
 		}
 	},
 	"lunarNewYearPromoSmall": {
-		"desc": {
-			"eng": "Receive free ${item1} and ${item2} during the lunar new year 🥳",
-			"trans": "旧正月の間, 無料の${item1}と${item2}を獲得できます🥳",
-			"vars": [
-				"item1",
-				"item2"
-			]
+		"desc-v2": {
+			"eng": "Festive rewards & exclusive seasonal items!",
+			"trans": "お祭りの報酬＆季節限定アイテム！"
 		},
 		"title": {
-			"eng": "Happy Lunar New Year!",
+			"eng": "Lunar New Year!",
 			"trans": "旧正月, 明けましておめでとうございます！"
 		}
 	},
 	"lunarPromo": {
-		"desc1": {
-			"eng": "The lunar new year is here, and we're celebrating in Shang-ri-la with a special event. Join us as we embrace the start of a new year, filled with traditions, joy, and togetherness.",
-			"trans": "春節が始まります. シャングリ・ラでは特別なイベントを開催中！ さぁ皆さんもご一緒に, 喜びに満ちたこの新しい年を迎えましょう！"
-		},
-		"desc2-v2": {
-			"eng": "${npcShopName} is now open for business! You can use ${coinItem} to purchase various special cuisines from ${npcName}!",
-			"trans": "${npcShopName}が営業中です！ ${coinItem}を使用して${npcName}のさまざまな特製料理を購入できます.",
-			"vars": [
-				"npcShopName",
-				"coinItem",
-				"npcName"
-			]
-		},
-		"desc3": {
-			"eng": "It's not new year if ${envelopItem} is not involved! Enemies and AI Core auto farm will drop ${envelopItem}, open them to receive random amount of ${coinItem}!",
-			"trans": "${envelopItem}の無い春節なんてありえない！ 敵からのドロップアイテムや, AIコアによる自動探索で ${envelopItem}を手に入れて, 中から${coinItem}をゲット！",
-			"vars": [
-				"envelopItem",
-				"coinItem"
-			]
+		"desc": {
+			"eng": "Celebrate the Year of the horse with festive rewards and special events!",
+			"trans": "馬の年を祝って、フェスティブな報酬とスペシャルイベントを体験しよう"
 		},
 		"title": {
-			"eng": "Happy Lunar New year!",
+			"eng": "Happy Lunar New Year!",
 			"trans": "明けましておめでとうございます！"
-		}
-	},
-	"lunarPromo1": {
-		"desc4": {
-			"eng": "Get free ${itemName} base on top up package!",
-			"trans": "UNITチャージで無料の${itemName}を入手しよう！",
-			"vars": [
-				"itemName"
-			]
-		},
-		"desc5": {
-			"eng": "Added new time limited chat frame and emblems, only purchasable during event period.",
-			"trans": "新たに期間限定のチャットフレームとエンブレムを追加しました. イベント期間中にのみ購入可能です."
 		}
 	},
 	"mail": {
@@ -6990,6 +7897,22 @@
 				"trans": "神経回路オーバーライド"
 			}
 		},
+		"circuitRotation": {
+			"instructions": {
+				"eng": "Tap tiles to rotate. Connect source to target.",
+				"trans": "タップしてタイルを回転させよう。ソースとターゲットをつなげてね。"
+			},
+			"title": {
+				"eng": "CIRCUIT ROTATION",
+				"trans": "サーキット回転"
+			},
+			"win": {
+				"title": {
+					"eng": "ESTABLISHED",
+					"trans": "確立済み"
+				}
+			}
+		},
 		"common": {
 			"retry": {
 				"eng": "RETRY",
@@ -7301,10 +8224,6 @@
 				"time"
 			]
 		},
-		"password": {
-			"eng": "Password",
-			"trans": "パスワード"
-		},
 		"purchase": {
 			"eng": "Purchase",
 			"trans": "購入"
@@ -7356,6 +8275,36 @@
 		"returnToAppMessage": {
 			"eng": "Syncing with server..",
 			"trans": "サーバー同期中..."
+		}
+	},
+	"mobileItemDisplay": {
+		"insufficientUnitsForRename": {
+			"eng": "You need ${required} Units to rename this item. You currently have ${current} Units.",
+			"trans": "このアイテムの名前変更には ${required} ユニットが必要です。現在 ${current} ユニット残っています。",
+			"vars": [
+				"required",
+				"current"
+			]
+		}
+	},
+	"mod": {
+		"undoRename": {
+			"button": {
+				"eng": "Undo Rename",
+				"trans": "名前変更を取り消す"
+			},
+			"confirm": {
+				"eng": "Confirm",
+				"trans": "決定"
+			},
+			"confirmMessage": {
+				"eng": "This will rollback the item name and give the player an Inscription Chip as compensation. Continue?",
+				"trans": "アイテム名を元に戻し、代わりにプレイヤーにインスクリプションチップを付与します。続行しますか？"
+			},
+			"confirmTitle": {
+				"eng": "Undo Rename",
+				"trans": "名前変更を取り消す"
+			}
 		}
 	},
 	"modal": {
@@ -10246,6 +11195,65 @@
 			"trans": "紹介報酬"
 		}
 	},
+	"renameItemModal": {
+		"confirm": {
+			"eng": "Confirm",
+			"trans": "確定"
+		},
+		"description": {
+			"eng": "Give your item a custom name",
+			"trans": "アイテムに好きな名前を付けてください"
+		},
+		"minLength": {
+			"eng": "Min ${min} characters",
+			"trans": "${min}文字以上",
+			"vars": [
+				"min"
+			]
+		},
+		"newName": {
+			"eng": "New Name",
+			"trans": "新しい名前"
+		},
+		"placeholder": {
+			"eng": "Enter custom name",
+			"trans": "任意の名前を入力"
+		},
+		"policy": {
+			"1": {
+				"eng": "No profanity or offensive language",
+				"trans": "下品・攻撃的な言葉は使用できません"
+			},
+			"2": {
+				"eng": "No special characters or emojis",
+				"trans": "特殊文字と絵文字は使用できません"
+			},
+			"3": {
+				"eng": "Only positive or neutral sentiment is allowed",
+				"trans": "ポジティブまたはニュートラルな感情のみが許可されます。"
+			},
+			"4": {
+				"eng": "No mention of real names of people, country, company etc.",
+				"trans": "人名・国名・企業名など、実際に存在する名前は使用しないでください。"
+			},
+			"5": {
+				"eng": "No missleading names, including level, stats, calibration level etc.",
+				"trans": "レベル・ステータス・キャリブレーションレベルなど、誤解を招く名前は禁止です"
+			},
+			"description": {
+				"eng": "Item naming is subject to strict rules for safety and moderation purposes:",
+				"trans": "アイテム名は、安全性とモデレーションのために厳格なルールが適用されます。"
+			}
+		},
+		"policyTitle": {
+			"eng": "Naming Policy",
+			"trans": "命名規則"
+		},
+		"title": {
+			"eng": "Rename Item",
+			"trans": "アイテム名変更"
+		}
+	},
 	"renamePetModal": {
 		"description": {
 			"eng": "Enter new name for your pet",
@@ -11607,6 +12615,110 @@
 			"trans": "クエスト"
 		}
 	},
+	"terminalAuth": {
+		"confirmPasswordLabel": {
+			"eng": "Confirm Password",
+			"trans": "パスワード（再入力）"
+		},
+		"emailLabel": {
+			"eng": "Email",
+			"trans": "メールアドレス"
+		},
+		"forgotPassword": {
+			"eng": "Forgot your password?",
+			"trans": "パスワードを忘れた？"
+		},
+		"header": {
+			"eng": "System Access",
+			"trans": "システムアクセス"
+		},
+		"loginButton": {
+			"eng": "Sign In",
+			"trans": "ログイン"
+		},
+		"loginTab": {
+			"eng": "Login",
+			"trans": "ログイン"
+		},
+		"passwordLabel": {
+			"eng": "Password",
+			"trans": "パスワード"
+		},
+		"passwordMismatch": {
+			"eng": "Passwords do not match",
+			"trans": "パスワードが一致しません"
+		},
+		"registerButton": {
+			"eng": "Create Account",
+			"trans": "アカウント作成"
+		},
+		"registerTab": {
+			"eng": "Register",
+			"trans": "登録"
+		}
+	},
+	"testimonial": {
+		"review1": {
+			"quote": {
+				"eng": "I went in with low expectations, thinking it would just be another game for ads. But it's actually a really high quality game, great for killing time and talking to people. The community I've met so far has been so kind and welcoming!",
+				"trans": "最初はあまり期待してなかったんだけど、広告ばかりのゲームだと思っていた。でも実際には本当に質が高くて、暇つぶしや人と話すのにピッタリ。今まで出会ったコミュニティは、とても親切で温かい歓迎だった！"
+			}
+		},
+		"review10": {
+			"quote": {
+				"eng": "The game is fun. I love how engaging the community is, especially when it comes to the global skips and buffs. Simple but not too demanding.",
+				"trans": "ゲームは楽しい！コミュニティの盛り上がりが好きで、特にグローバルスキップやバフがあるときは最高だね。シンプルだけど、あまり負担を感じないくらいだよ。"
+			}
+		},
+		"review2": {
+			"quote": {
+				"eng": "I love that the buffs benefit everyone playing the game. It's a new vibe to me - I'm used to using buffs for myself! Highly recommended for playing in your leisure time.",
+				"trans": "みんなでバフ効果が共有できるところが好きだよ。これまで自分専用のバフばかり使ってきたから、まったく新鮮な感覚だね！ゆっくりプレイする時間にぜひ試してほしい。"
+			}
+		},
+		"review3": {
+			"quote": {
+				"eng": "Everything is S tier in this game - the system, the community, and the developer. Everyone is generous. When I started, a high-leveled player literally gifted me 1000 painkillers and 5000 ammo.",
+				"trans": "このゲームはシステム・コミュニティ・開発者まで、すべてS級だ。みんな寛大で、始めたときに高レベルのプレイヤーが実際に1,000個の止痛薬と5,000発の弾薬をくれたんだ。"
+			}
+		},
+		"review4": {
+			"quote": {
+				"eng": "Definitely hooked! Especially how it has the cyberpunk vibe. I'm a big fan of the game already, makes this a hit for me.",
+				"trans": "完全にハマっちゃった！サイバーパンク感覚が最高だし、すでにこのゲームの熱狂的ファンなので、これは僕にとって大ヒット間違いなしだね。"
+			}
+		},
+		"review5": {
+			"quote": {
+				"eng": "Great for chill cyberpunk fans. Not for players who want fast action or flashy graphics.",
+				"trans": "ゆったりとしたサイバーパンク好きにおすすめ。速い動きや派手な映像を求めるプレイヤーには合わないかも。"
+			}
+		},
+		"review6": {
+			"quote": {
+				"eng": "A text-based game about exploring and surviving in a cyberpunk world. I love it. There are enemies you fight that are tied to references old and new.",
+				"trans": "サイバーパンク世界を探索しながら生き延びるテキストベースのゲームです。すごく好き！ 敵は昔と今のリファレンスが結びついており、戦うたびに新鮮さを感じます。"
+			}
+		},
+		"review7": {
+			"quote": {
+				"eng": "Very good experience. I suggest it to everyone. If you're finding something you can play anytime, this is it.",
+				"trans": "すごくいい経験だったよ。みんなにもぜひ試してほしいな。いつでも遊べるゲームを探しているなら、これがピッタリだよ！"
+			}
+		},
+		"review8": {
+			"quote": {
+				"eng": "Lots of fun, plenty to do, both actively and AFK. Best of all is no in-app purchases! Very much NOT pay to win.",
+				"trans": "めちゃくちゃ楽しい！アクティブに遊ぶのも、AFKで過ごすのも充実。さらに課金不要！本当にペイ・トゥー・ウィンじゃないんです。"
+			}
+		},
+		"review9": {
+			"quote": {
+				"eng": "I really love this app - the gameplay, the minimalist but engaging quests, especially the community! The players are really helpful and kind enough to give me gifts.",
+				"trans": "このアプリ、本当に好き！ ゲーム性はもちろん、ミニマルだけど面白いクエストやコミュニティが最高。プレイヤーの皆さんはとても親切で、ギフトまでくれてくれるんだよ。"
+			}
+		}
+	},
 	"thanksgivingPromo": {
 		"desc1": {
 			"eng": "During event period, Roasted Turkey will drop rarely from scavenging and AKF Bot on all levels",
@@ -12043,6 +13155,16 @@
 				"trans": "タイムスキップの待機列"
 			}
 		},
+		"auth": {
+			"continueWithApple": {
+				"eng": "Continue with Apple",
+				"trans": "Appleで続ける"
+			},
+			"continueWithGoogle": {
+				"eng": "Continue with Google",
+				"trans": "Googleで続ける"
+			}
+		},
 		"backToPreviusLoc": {
 			"longPressBackToCity": {
 				"eng": "You can long press the back button to go back to city to visit various shops and features",
@@ -12383,15 +13505,7 @@
 			}
 		},
 		"clan": {
-			"deposit": {
-				"eng": "Deposit Bitcoin",
-				"trans": "ビットコインを入金してください"
-			},
 			"editMotto": {
-				"button": {
-					"eng": "Edit Gang Motto",
-					"trans": "ギャングモットーを編集"
-				},
 				"modal": {
 					"title": {
 						"eng": "Please enter your gang motto",
@@ -12476,12 +13590,6 @@
 				},
 				"eng": "Direction",
 				"trans": "方向"
-			},
-			"updateImage": {
-				"button": {
-					"eng": "Update Gang Image",
-					"trans": "ギャングイメージを更新"
-				}
 			}
 		},
 		"clanPage": {
@@ -13032,6 +14140,10 @@
 				"eng": "Crafting",
 				"trans": "クラフト"
 			},
+			"empty": {
+				"eng": "Inventory Empty",
+				"trans": "在庫なし"
+			},
 			"equipped": {
 				"eng": "Equipped",
 				"trans": "装備品"
@@ -13047,6 +14159,17 @@
 			"items": {
 				"eng": "items",
 				"trans": "アイテム"
+			},
+			"matches": {
+				"eng": "Matches: ${count}",
+				"trans": "マッチ数：${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"search": {
+				"eng": "Search items...",
+				"trans": "アイテム検索…"
 			},
 			"secretKeys": {
 				"eng": "secret keys",
@@ -13136,9 +14259,19 @@
 					"currentAction"
 				]
 			},
+			"customName": {
+				"label": {
+					"eng": "Custom Name",
+					"trans": "カスタム名"
+				}
+			},
 			"equip": {
 				"eng": "Equip",
 				"trans": "装備"
+			},
+			"history": {
+				"eng": "History",
+				"trans": "履歴"
 			},
 			"lockModal": {
 				"lock": {
@@ -13181,6 +14314,17 @@
 			"printCacheDescription": {
 				"eng": "Turn this cache into a weapon or equipment item that you can use.",
 				"trans": "選択したキャッシュを武器や防具に変えます."
+			},
+			"rename": {
+				"eng": "Rename",
+				"trans": "名前変更"
+			},
+			"renamedBy": {
+				"eng": "This item was renamed by ${playerName}",
+				"trans": "${playerName}が名前を変更しました",
+				"vars": [
+					"playerName"
+				]
 			},
 			"timeLimited": {
 				"eng": "Time Limited",
@@ -13328,17 +14472,9 @@
 			}
 		},
 		"login": {
-			"forgotPassword": {
-				"eng": "Forgot Password?",
-				"trans": "パスワードをお忘れですか？"
-			},
-			"loginButton": {
-				"eng": "Login",
-				"trans": "ログイン"
-			},
-			"registerPageButton": {
-				"eng": "Create Account?",
-				"trans": "登録はこちら"
+			"continueWithEmail": {
+				"eng": "Continue with Email",
+				"trans": "メールで続行"
 			}
 		},
 		"logout": {
@@ -14048,14 +15184,6 @@
 			}
 		},
 		"register": {
-			"loginPageButton": {
-				"eng": "Have account?",
-				"trans": "アカウントをお持ちですか？"
-			},
-			"registerButton": {
-				"eng": "Create Account",
-				"trans": "登録"
-			},
 			"terms": {
 				"eng": "By creating an account, you agree to our",
 				"trans": "アカウントを作成することで, "

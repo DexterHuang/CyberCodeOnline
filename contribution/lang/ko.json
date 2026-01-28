@@ -61,11 +61,11 @@
 			"paypalBonus": {
 				"eng": "You will receive additional 10% more Units with paypal purchase",
 				"trans": "페이팔 결제시 10% 더 많은 유닛을 추가로 받게됩니다"
-			},
-			"paypalBonusTitle": {
-				"eng": "All PayPal purchases grants 10% additional Units! You may use paypal only on website version, simply login with your browser.",
-				"trans": "페이팔 결제시 10%의 보너스 유닛을 드립니다! 웹사이트 버전에서만 이용 가능하며, 브라우저에서 쉽게 로그인 가능합니다."
 			}
+		},
+		"paypalBonusDescription": {
+			"eng": "Extra Units with all PayPal purchases",
+			"trans": "PayPal 구매 시 추가 유닛 제공"
 		},
 		"purchasing": {
 			"eng": "Purchasing",
@@ -1227,6 +1227,20 @@
 			"trans": "시스템"
 		}
 	},
+	"chatAttachmentMenu": {
+		"addImage": {
+			"eng": "Add Image",
+			"trans": "이미지 추가"
+		},
+		"rollDice": {
+			"eng": "Roll Dice",
+			"trans": "주사위 굴리기"
+		},
+		"shareItem": {
+			"eng": "Share Item",
+			"trans": "아이템 공유"
+		}
+	},
 	"chatExploit": {
 		"loveWords": {
 			"eng": [
@@ -1746,7 +1760,7 @@
 			"trans": "취소"
 		},
 		"close": {
-			"eng": "Close",
+			"eng": "TERMINATE",
 			"trans": "닫기"
 		},
 		"confirm": {
@@ -1927,6 +1941,70 @@
 			}
 		}
 	},
+	"dice": {
+		"modal": {
+			"description": {
+				"eng": "Roll a dice in chat for everyone to see!",
+				"trans": "채팅에 주사위 굴리면 모두가 볼 수 있어요!"
+			},
+			"howToGet": {
+				"eng": "Get Lucky Dice from AFK farming, dungeon drops, or buy from ${npc}.",
+				"trans": "AFK 재배, 던전 드롭 또는 ${npc}에서 구매해 Lucky Dice를 획득하세요.",
+				"vars": [
+					"npc"
+				]
+			},
+			"roll": {
+				"eng": "Roll Dice",
+				"trans": "주사위 굴리기"
+			},
+			"title": {
+				"eng": "🎲 Roll Dice",
+				"trans": "🎲 주사위 굴리기"
+			},
+			"youHave": {
+				"eng": "You have ${count} Lucky Dice",
+				"trans": "럭키 주사위 ${count}개 보유",
+				"vars": [
+					"count"
+				]
+			}
+		},
+		"roll": {
+			"cooldown": {
+				"eng": "You've used all ${maxRolls} dice rolls. Try again in ${minutes} minute(s)",
+				"trans": "모든 ${maxRolls}번의 주사위 사용을 마쳤습니다. ${minutes}분 후에 다시 시도하세요",
+				"vars": [
+					"maxRolls",
+					"minutes"
+				]
+			},
+			"invalidChannel": {
+				"eng": "Invalid chat channel",
+				"trans": "채널이 잘못되었습니다"
+			},
+			"noDice": {
+				"eng": "You need a Lucky Dice to roll!",
+				"trans": "주사위를 굴리려면 럭키 주사위가 필요합니다!"
+			},
+			"result": {
+				"eng": "${slanc}: ${player} rolled a ${result}! 🎲",
+				"trans": "${slanc}: ${player}이(가) ${result}을 던졌습니다! 🎲",
+				"vars": [
+					"slanc",
+					"player",
+					"result"
+				]
+			},
+			"success": {
+				"eng": "You rolled a ${result}!",
+				"trans": "당신은 ${result}을 굴렸습니다!",
+				"vars": [
+					"result"
+				]
+			}
+		}
+	},
 	"displayShelf": {
 		"error": {
 			"invalidSlot": {
@@ -2013,6 +2091,10 @@
 			"sendImage": {
 				"eng": "Send images in mail to players who added you as friend",
 				"trans": "메시지로 친구에게 이미지 전송 가능"
+			},
+			"shareItemInChat": {
+				"eng": "Share items in chat",
+				"trans": "채팅에서 아이템 공유"
 			},
 			"title": {
 				"eng": "\"${name}\" donation title",
@@ -2278,6 +2360,10 @@
 			"eng": "Golden New Year",
 			"trans": "황금 새해"
 		},
+		"donation48": {
+			"eng": "Lunar Stallion",
+			"trans": "달의 말"
+		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
 			"trans": "사이버네틱 감자"
@@ -2301,6 +2387,322 @@
 		"moderator": {
 			"eng": "Moderator",
 			"trans": "관리자"
+		}
+	},
+	"dumpling": {
+		"action": {
+			"fold": {
+				"eng": "Fold",
+				"trans": "접기"
+			}
+		},
+		"button": {
+			"subtitle": {
+				"eng": "LUNAR PROTOCOL",
+				"trans": "달의 주방"
+			},
+			"title": {
+				"eng": "DUMPLING MASTER",
+				"trans": "만두 마스터"
+			}
+		},
+		"chef": {
+			"correct1": {
+				"eng": "Excellent technique!",
+				"trans": "훌륭한 솜씨!"
+			},
+			"correct2": {
+				"eng": "Just like grandma used to make!",
+				"trans": "할머니가 해주신 것처럼!"
+			},
+			"correct3": {
+				"eng": "Perfect fold!",
+				"trans": "접은 완벽해!"
+			},
+			"correct4": {
+				"eng": "Beautiful work!",
+				"trans": "잘했어! 멋지다!"
+			},
+			"correct5": {
+				"eng": "That's the spirit!",
+				"trans": "그 정신이죠!"
+			},
+			"encourage1": {
+				"eng": "Keep going!",
+				"trans": "계속 가자!"
+			},
+			"encourage2": {
+				"eng": "You're doing great!",
+				"trans": "잘하고 있어요!"
+			},
+			"encourage3": {
+				"eng": "Almost there!",
+				"trans": "거의 끝났어요!"
+			},
+			"encourage4": {
+				"eng": "Stay focused!",
+				"trans": "집중해!"
+			},
+			"timeWarn1": {
+				"eng": "Hurry! Time is running out!",
+				"trans": "빨리~! 남은 시간이 거의 다 돼갑니다!"
+			},
+			"timeWarn2": {
+				"eng": "Faster! Faster!",
+				"trans": "빨리! 빨리!"
+			},
+			"timeWarn3": {
+				"eng": "The clock is ticking!",
+				"trans": "시계가 울려대고 있어!"
+			},
+			"wrong1": {
+				"eng": "Not quite right...",
+				"trans": "아니, 조금 못했네…"
+			},
+			"wrong2": {
+				"eng": "Try again!",
+				"trans": "다시 시도해!"
+			},
+			"wrong3": {
+				"eng": "Focus on the recipe!",
+				"trans": "레시피에 집중해!"
+			},
+			"wrong4": {
+				"eng": "Careful now!",
+				"trans": "조심해요!"
+			},
+			"wrong5": {
+				"eng": "Watch the order!",
+				"trans": "순서대로 진행해!"
+			}
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The Lunar New Year event has ended!",
+				"trans": "설날 이벤트가 끝났어요!"
+			},
+			"noPass": {
+				"eng": "You need a Lunar Chef Pass to play! Find them in dungeon chests or from AFK farming.",
+				"trans": "루나 셰프 패스 없으면 게임 못 해! 던전 보물상자 또는 AFK 모드에서 획득 가능."
+			}
+		},
+		"error": {
+			"title": {
+				"eng": "SYSTEM ERROR",
+				"trans": "시스템 오류"
+			}
+		},
+		"game": {
+			"orders": {
+				"eng": "QUOTA",
+				"trans": "주문"
+			},
+			"recipe": {
+				"eng": "RECIPE SEQUENCE",
+				"trans": "레시피"
+			},
+			"time": {
+				"eng": "TIMER",
+				"trans": "시간"
+			}
+		},
+		"gameOver": {
+			"noRewards": {
+				"eng": "NO DATA SECURED",
+				"trans": "딤플링이 완료되지 않았어요. 패스가 소진됐어요."
+			}
+		},
+		"ingredient": {
+			"cabbage": {
+				"eng": "Cabbage",
+				"trans": "양배추"
+			},
+			"chives": {
+				"eng": "Chives",
+				"trans": "쪽파"
+			},
+			"dough": {
+				"eng": "Dough",
+				"trans": "반죽"
+			},
+			"mushroom": {
+				"eng": "Mushroom",
+				"trans": "버섯"
+			},
+			"pork": {
+				"eng": "Pork",
+				"trans": "돼지고기"
+			},
+			"shrimp": {
+				"eng": "Shrimp",
+				"trans": "새우"
+			},
+			"spice": {
+				"eng": "Spice",
+				"trans": "양념"
+			}
+		},
+		"intro": {
+			"authorized": {
+				"eng": "AUTHORIZED",
+				"trans": "인증됨"
+			},
+			"eventEnded": {
+				"eng": "EVENT TERMINATED",
+				"trans": "이벤트 종료"
+			},
+			"howToPlay": {
+				"eng": "MISSION PARAMETERS",
+				"trans": "주방 프로토콜"
+			},
+			"missing": {
+				"eng": "REQUIRED",
+				"trans": "필수"
+			},
+			"needPass": {
+				"eng": "ACCESS DENIED",
+				"trans": "비밀번호 필요"
+			},
+			"passName": {
+				"eng": "Lunar Chef Pass",
+				"trans": "루나 셰프 패스"
+			},
+			"rule1": {
+				"eng": "Analyze recipe sequence",
+				"trans": "레시피 순서를 꼼꼼히 체크해봐"
+			},
+			"rule2": {
+				"eng": "Execute ingredient assembly",
+				"trans": "정확한 순서로 재료를 차례차례 넣어보세요!"
+			},
+			"rule3": {
+				"eng": "Complete objectives within time limit",
+				"trans": "시간 내에 주문을 완료해 주세요!"
+			},
+			"startButton": {
+				"eng": "INITIATE SEQUENCE",
+				"trans": "요리 시작"
+			},
+			"subtitle": {
+				"eng": "TACTICAL COOKING PROTOCOL",
+				"trans": "달빛 부엌"
+			}
+		},
+		"loading": {
+			"processing": {
+				"eng": "CALCULATING RESULTS",
+				"trans": "결과를 준비 중…"
+			},
+			"title": {
+				"eng": "INITIALIZING SYSTEM",
+				"trans": "웍을 가열 중…"
+			}
+		},
+		"preview": {
+			"addFilling": {
+				"eng": "ADD FILLING",
+				"trans": "속재료 추가"
+			},
+			"folding": {
+				"eng": "SEALING",
+				"trans": "접는 중…"
+			},
+			"ingredients": {
+				"eng": "ASSEMBLING... ${count}",
+				"trans": "${count}개의 재료",
+				"vars": [
+					"count"
+				]
+			},
+			"perfect": {
+				"eng": "COMPLETE",
+				"trans": "완벽해!"
+			},
+			"waiting": {
+				"eng": "WAITING",
+				"trans": "대기 중…"
+			}
+		},
+		"results": {
+			"collect": {
+				"eng": "CLAIM REWARDS",
+				"trans": "보상 수령"
+			},
+			"ended": {
+				"eng": "TIME'S UP",
+				"trans": "타임업!"
+			},
+			"master": {
+				"eng": "DUMPLING MASTER",
+				"trans": "만두 마스터!"
+			},
+			"rewards": {
+				"eng": "MISSION REWARDS",
+				"trans": "보상"
+			}
+		},
+		"stageComplete": {
+			"allDone": {
+				"eng": "ALL STAGES CLEARED",
+				"trans": "모든 스테이지 클리어!"
+			},
+			"continuing": {
+				"eng": "ADVANCING",
+				"trans": "계속 진행 중"
+			},
+			"label": {
+				"eng": "STAGE COMPLETE",
+				"trans": "스테이지 완료"
+			},
+			"nextStage": {
+				"eng": "LOADING STAGE ${next}",
+				"trans": "스테이지 ${next} 준비하기",
+				"vars": [
+					"next"
+				]
+			},
+			"title": {
+				"eng": "OBJECTIVE MET",
+				"trans": "최고야!"
+			}
+		},
+		"title": {
+			"eng": "DUMPLING MASTER",
+			"trans": "만두 마스터"
+		},
+		"transition": {
+			"easy": {
+				"eng": "CLEARANCE-L",
+				"trans": "초보"
+			},
+			"hard": {
+				"eng": "CLEARANCE-H",
+				"trans": "마스터"
+			},
+			"medium": {
+				"eng": "CLEARANCE-M",
+				"trans": "중급"
+			},
+			"orders": {
+				"eng": "QUOTA",
+				"trans": "주문"
+			},
+			"preparing": {
+				"eng": "LOADING SEQUENCE...",
+				"trans": "주방 준비 중..."
+			},
+			"stage": {
+				"eng": "STAGE",
+				"trans": "스테이지"
+			},
+			"steps": {
+				"eng": "STEPS",
+				"trans": "단계"
+			},
+			"time": {
+				"eng": "LIMIT",
+				"trans": "시간"
+			}
 		}
 	},
 	"dungeon": {
@@ -3321,6 +3723,10 @@
 	"gameEvent": {
 		"christmas": {
 			"eng": "Christmas",
+			"eventGame": {
+				"eng": "Santa's Workshop",
+				"trans": "산타의 작업실"
+			},
 			"trans": "크리스마스"
 		},
 		"easter": {
@@ -3346,6 +3752,10 @@
 		},
 		"lunarNewYear": {
 			"eng": "Lunar New Year",
+			"eventGame": {
+				"eng": "Lunar Kitchen",
+				"trans": "달빛 부엌"
+			},
 			"skipDiscountTitle": {
 				"eng": "Lunar New Year Discount",
 				"trans": "설날 할인"
@@ -3360,6 +3770,10 @@
 		},
 		"newYear": {
 			"eng": "New Year",
+			"eventGame": {
+				"eng": "Fireworks Show",
+				"trans": "불꽃놀이 쇼"
+			},
 			"skipDiscountTitle": {
 				"eng": "New Year Discount",
 				"trans": "새해 할인"
@@ -3462,13 +3876,24 @@
 			"eng": "Early contributors receive higher discounts!",
 			"trans": "초기 기여자에게는 더 높은 할인 혜택이 제공됩니다!"
 		},
-		"lootCrateDesc": {
-			"eng": "Special items available in dungeon loot crates:",
-			"trans": "던전에서만 획득 가능한 특별 아이템:"
+		"eventGameDesc": {
+			"eng": "Play ${gameName} using ${passName} for bonus rewards!",
+			"trans": "${gameName}을(를) ${passName}으로 플레이하면 보너스 보상을 받을 수 있어요!",
+			"vars": [
+				"gameName",
+				"passName"
+			]
 		},
-		"lootTitle": {
-			"eng": "Dungeon Loot Crates",
-			"trans": "던전 노획물 상자"
+		"eventShop": {
+			"eng": "Event Shop",
+			"trans": "이벤트 상점"
+		},
+		"eventShopDesc": {
+			"eng": "Visit ${npcName} for exclusive seasonal items!",
+			"trans": "독점 시즌 아이템은 ${npcName}에서만! 지금 바로 가보세요!",
+			"vars": [
+				"npcName"
+			]
 		},
 		"monsterDrops": {
 			"eng": "Monster Drops",
@@ -3527,9 +3952,9 @@
 			"eng": "Express yourself with dazzling event-themed chat effects",
 			"trans": "화려한 이벤트 테마의 채팅 효과로 자신을 표현하세요!"
 		},
-		"lootCrate": {
-			"eng": "Discover limited-time treasures in exclusive event loot crates",
-			"trans": "한정된 기간 동안 특별 이벤트 보급품에서 보물을 발견하세요"
+		"dungeonDrops": {
+			"eng": "Collect bonus items from dungeon chests during the event",
+			"trans": "이벤트 기간 동안 던전 상자에서 보너스 아이템을 수집하세요"
 		},
 		"partyDiscount": {
 			"eng": "Team up and save with exclusive party contribution discounts",
@@ -3944,6 +4369,20 @@
 				"current",
 				"max"
 			]
+		}
+	},
+	"insufficientUnitsModal": {
+		"cancel": {
+			"eng": "Cancel",
+			"trans": "취소"
+		},
+		"getUnits": {
+			"eng": "Get Units",
+			"trans": "유닛 획득"
+		},
+		"title": {
+			"eng": "Insufficient Units",
+			"trans": "수량 부족"
 		}
 	},
 	"inventory": {
@@ -4589,7 +5028,7 @@
 		"globalPartyBuff": {
 			"announcement": {
 				"eng": "🎉Its Party Time!🥳, reduce AFK time by ${afkPercent}%, increased BTC gained by ${btcPercent}%, increase EXP gained by ${expPercent}%",
-				"trans": "🎉파티 시간!🥳, AFK 시간이 ${afkPercent}%만큼 줄고, BTC 획득량이 ${btcPercent}%, 경험치 획득량이 ${expPercent}%증가합니다.",
+				"trans": "🎉 파티 타임! 🥳 AFK 시간 ${afkPercent}% 감소, BTC 획득량 ${btcPercent}% 증가, EXP 획득량 ${expPercent}% 상승!",
 				"vars": [
 					"afkPercent",
 					"btcPercent",
@@ -4890,6 +5329,16 @@
 				"trans": "[가구] 최고급 가구 조립 키트"
 			}
 		},
+		"inscriptionChip": {
+			"description": {
+				"eng": "A digital inscription chip used to rename equipment. comsumed when renaming equipment",
+				"trans": "장비 이름 바꾸기에 쓰이는 디지털 인스크립션 칩. 사용 시 소모됩니다"
+			},
+			"name": {
+				"eng": "Inscription Chip",
+				"trans": "각인 칩"
+			}
+		},
 		"keyFragment": {
 			"description": {
 				"eng": "A secret key Fragment used to brute-force a secret key.\n                                Use the Terminal at city center [Hub] to brute-force a ${segmentDisplayName} secret key.\n                                You can acquire each of the 3 required keys in each dungeon (both normal or challenge),\n                                when you acquired 3 keys, you may use Terminal to brute-force (Craft) a key to the next area",
@@ -4941,6 +5390,26 @@
 			"name": {
 				"eng": "lower armor",
 				"trans": "하의"
+			}
+		},
+		"luckyDice": {
+			"description": {
+				"eng": "A holographic six-sided die you can use in chat. The system rolls a random number from 1 to 6 and posts the result to chat. 🎲",
+				"trans": "채팅에서 사용할 수 있는 홀로그램 6면체 주사위입니다. 시스템이 1부터 6까지의 무작위 숫자를 굴려 결과를 채팅에 표시합니다"
+			},
+			"name": {
+				"eng": "Lucky Dice",
+				"trans": "행운 주사위"
+			}
+		},
+		"lunarChefPass": {
+			"description": {
+				"eng": "A special pass required to participate in the Dumpling Master event game. Can be found in Dungeon Chests or from AFK farming during the Lunar New Year event.",
+				"trans": "만두 마스터 이벤트에 참가하려면 꼭 필요한 특별 패스예요! 던전 상자에서 찾거나 설날 이벤트 중 AFK 농사로 얻을 수 있어요."
+			},
+			"name": {
+				"eng": "Lunar Chef Pass",
+				"trans": "루나 셰프 패스"
 			}
 		},
 		"lunarCoin": {
@@ -5108,7 +5577,7 @@
 			},
 			"error": {
 				"eng": "This item is only available during Christmas Event",
-				"trans": "이 항목은 크리스마스 이벤트 중에만 사용할 수 있습니다"
+				"trans": "크리스마스 이벤트 기간에만 이 아이템을 사용할 수 있습니다"
 			},
 			"name": {
 				"eng": "Christmas Pudding",
@@ -5156,6 +5625,30 @@
 			"name": {
 				"eng": "Rare Equipment Crate",
 				"trans": "희귀 장비 상자"
+			}
+		},
+		"rename": {
+			"aiRejected": {
+				"eng": "Name was rejected by automated moderation, please try again with a different name",
+				"trans": "AI 모더레이션에 의해 이름이 거부되었습니다. 다른 이름으로 다시 시도하세요"
+			},
+			"inappropriate": {
+				"eng": "Name contains inappropriate content",
+				"trans": "이름에 부적절한 내용이 포함돼 있습니다"
+			},
+			"rateLimited": {
+				"eng": "Too many rename attempts. Please try again in ${minutes} minute(s)",
+				"trans": "이름 바꾸기 요청이 너무 많습니다. ${minutes}분 후에 다시 시도해주세요",
+				"vars": [
+					"minutes"
+				]
+			},
+			"success": {
+				"eng": "Item renamed to \"${name}\"",
+				"trans": "아이템이 \"${name}\"로 바뀌었습니다",
+				"vars": [
+					"name"
+				]
 			}
 		},
 		"riceCake": {
@@ -5276,13 +5769,13 @@
 			},
 			"notAvailableError": {
 				"eng": "This item is only available during Summer Event",
-				"trans": "이 아이템은 여름 이벤트 동안에만 구매할 수 있습니다"
+				"trans": "이 아이템은 여름 이벤트 기간에만 이용할 수 있습니다"
 			}
 		},
 		"summonAI": {
 			"announcement": {
 				"eng": "SLANC has entered the chat",
-				"trans": "SLANC가 채팅을 시작했습니다"
+				"trans": "SLANC이 채팅에 입장했습니다"
 			},
 			"description": {
 				"eng": "Use SLANC Connector to connect SLANC to global chat for ${minute} minutes",
@@ -5376,6 +5869,21 @@
 			"name": {
 				"eng": "Roasted Turkey",
 				"trans": "[버프] 구운 칠면조"
+			}
+		},
+		"undoRename": {
+			"mailMessageInbox": {
+				"eng": "${moderatorName} has undone the rename of your item ${itemName}, an ${chipName} has been sent to your item inbox.",
+				"trans": "${moderatorName} has undone the rename of your item ${itemName}, 1 ${chipName} have been sent to your item inbox.",
+				"vars": [
+					"moderatorName",
+					"itemName",
+					"chipName"
+				]
+			},
+			"success": {
+				"eng": "Rename undone. Player received compensation.",
+				"trans": "이름 변경 취소 완료. 보상이 지급되었습니다."
 			}
 		},
 		"unknownCache": {
@@ -5606,6 +6114,32 @@
 				"eng": "Player contributed content",
 				"trans": "플레이어가 기여하는 컨텐츠"
 			}
+		}
+	},
+	"itemRenameHistory": {
+		"currentName": {
+			"eng": "Current Name",
+			"trans": "현재 이름"
+		},
+		"description": {
+			"eng": "Track of all name changes for this item",
+			"trans": "이 아이템의 모든 이름 변경 기록"
+		},
+		"empty": {
+			"eng": "No rename history",
+			"trans": "이름 변경 기록 없음"
+		},
+		"original": {
+			"eng": "Original Name",
+			"trans": "원래 이름"
+		},
+		"timeline": {
+			"eng": "Timeline",
+			"trans": "타임라인"
+		},
+		"title": {
+			"eng": "Rename History",
+			"trans": "이름 바꾸기 기록"
 		}
 	},
 	"itemStack": {
@@ -5855,6 +6389,413 @@
 					"eng": "Market",
 					"trans": "마켓"
 				}
+			}
+		}
+	},
+	"landingPage": {
+		"features": {
+			"browserBased": {
+				"description": {
+					"eng": "No downloads, no installs. Play instantly on any device with a browser.",
+					"trans": "다운로드·설치 없이, 브라우저만 있으면 바로 게임을 즐길 수 있습니다."
+				},
+				"title": {
+					"eng": "Browser Based",
+					"trans": "브라우저 기반"
+				}
+			},
+			"community": {
+				"description": {
+					"eng": "No PvP. 50k+ Discord members. Wholesome vibes only.",
+					"trans": "PvP는 없어요. 디스코드 멤버가 5만 명이 넘습니다. 따뜻한 분위기만 가득해요."
+				},
+				"title": {
+					"eng": "Friendly Community",
+					"trans": "친근한 커뮤니티"
+				}
+			},
+			"coreFeatures": {
+				"eng": "Core Features",
+				"trans": "핵심 기능"
+			},
+			"crafting": {
+				"description": {
+					"eng": "Forge weapons, print gear, cook buffs. Turn raw loot into endgame builds.",
+					"trans": "무기 제작, 장비 인쇄, 버프 조리! 단순 전리품을 엔드게임 빌드로 변신시켜요."
+				},
+				"title": {
+					"eng": "Deep Crafting",
+					"trans": "심층 제작"
+				}
+			},
+			"crossPlatform": {
+				"description": {
+					"eng": "Progress syncs across all devices. Start on PC, continue on mobile.",
+					"trans": "진행 상황이 모든 기기에서 동기화돼요. PC에서 시작하고 모바일에서도 이어가세요."
+				},
+				"title": {
+					"eng": "Cross Platform",
+					"trans": "크로스플레이"
+				}
+			},
+			"economy": {
+				"description": {
+					"eng": "Player-driven marketplace. Trade, sell, and build your fortune.",
+					"trans": "플레이어 주도의 마켓플레이스. 거래하고, 판매하며 부를 쌓아라."
+				},
+				"title": {
+					"eng": "Player Economy",
+					"trans": "플레이어 경제"
+				}
+			},
+			"events": {
+				"description": {
+					"eng": "Regular limited-time events with exclusive rewards and unique gameplay.",
+					"trans": "주기적인 제한 시간 이벤트! 독점 보상과 차별화된 게임플레이가 기다립니다."
+				},
+				"title": {
+					"eng": "Seasonal Events",
+					"trans": "시즌 이벤트"
+				}
+			},
+			"gangs": {
+				"description": {
+					"eng": "Team up, climb leaderboards, unlock perks. Stronger together.",
+					"trans": "같이 팀을 만들고 리더보드를 올라가며 퍼크를 잠금 해제하세요. 함께하면 더 강력해집니다."
+				},
+				"title": {
+					"eng": "Join a Gang",
+					"trans": "갱단에 가입하기"
+				}
+			},
+			"globalBuffs": {
+				"description": {
+					"eng": "When someone donates, the ENTIRE server gets the buff. Community-powered progression.",
+					"trans": "기부할 때마다 전체 서버에 버프가 부여돼요! 모두의 힘으로 성장하는 시스템."
+				},
+				"title": {
+					"eng": "Global Buffs",
+					"trans": "전체 버프"
+				}
+			},
+			"housing": {
+				"description": {
+					"eng": "Own apartments from slums to penthouses. Decorate and customize your space.",
+					"trans": "저주진 슬럼부터 빛나는 펜트하우스까지, 당신만의 아파트를 소유하고 꾸미고 커스터마이징하세요."
+				},
+				"title": {
+					"eng": "Housing System",
+					"trans": "주택 시스템"
+				}
+			},
+			"idlePlay": {
+				"description": {
+					"eng": "AFK farming when busy, engage in mini-games when active. Play your way.",
+					"trans": "바쁜 시간엔 AFK로 수확하고, 활동적일 땐 미니게임을 즐겨보세요. 나만의 스타일대로 플레이!"
+				},
+				"title": {
+					"eng": "Idle + Active",
+					"trans": "휴면 + 활성"
+				}
+			},
+			"miniGames": {
+				"description": {
+					"eng": "Unlock loot the fun way. Quick puzzles, hacking sims, and more—never just click and wait.",
+					"trans": "보상은 재미있게 열어라! 신속한 퍼즐과 해킹 시뮬레이터 등—클릭만 하고 기다리는 건 절대 안 돼."
+				},
+				"title": {
+					"eng": "Mini-Games Galore",
+					"trans": "미니게임 가득!"
+				}
+			},
+			"noAds": {
+				"description": {
+					"eng": "Zero advertisements. Enjoy uninterrupted gameplay, completely free.",
+					"trans": "광고가 없어요. 끊김 없는 게임을 완전 무료로 즐기세요."
+				},
+				"title": {
+					"eng": "No Ads Ever",
+					"trans": "광고 없이 영원히!"
+				}
+			},
+			"noPayToWin": {
+				"description": {
+					"eng": "All purchases are cosmetic only. No stat boosts, no advantages. Everyone plays on equal footing.",
+					"trans": "구매는 전부 장식용이에요. 능력치 상승이나 특별 혜택은 없고, 모두 같은 조건으로 게임을 즐길 수 있어요."
+				},
+				"title": {
+					"eng": "Zero Pay-to-Win",
+					"trans": "제로 페이투윈"
+				}
+			},
+			"pets": {
+				"description": {
+					"eng": "Adopt virtual pets. Feed, care for, and watch them grow. Tamagotchi vibes.",
+					"trans": "가상 애완동물을 입양하세요. 먹이고 돌봐서 성장하는 모습을 지켜보세요. 타마고치 같은 감성."
+				},
+				"title": {
+					"eng": "Pet Companions",
+					"trans": "펫 동료"
+				}
+			},
+			"playOn": {
+				"eng": "Play on any device",
+				"trans": "모든 기기에서 바로 플레이!"
+			},
+			"signature": {
+				"eng": "Signature",
+				"trans": "대표 기능"
+			},
+			"subtitle": {
+				"eng": "Built different. Plays different.",
+				"trans": "형태는 다르고, 플레이도 다르다."
+			},
+			"title": {
+				"eng": "The MMORPG That Respects Your Time",
+				"trans": "당신의 시간을 존중하는 MMORPG"
+			}
+		},
+		"footer": {
+			"copyright": {
+				"eng": "(C) ${year} CyberCode Online",
+				"trans": "© ${year} 사이버코드 온라인",
+				"vars": [
+					"year"
+				]
+			},
+			"cta": {
+				"eng": "Play Free Now",
+				"trans": "지금 무료로 플레이하기"
+			},
+			"discord": {
+				"eng": "Discord",
+				"trans": "디스코드"
+			},
+			"github": {
+				"eng": "GitHub",
+				"trans": "GitHub"
+			},
+			"privacy": {
+				"eng": "Privacy Policy",
+				"trans": "개인정보 처리방침"
+			},
+			"subtitle": {
+				"eng": "Jump in. Make your mark.",
+				"trans": "뛰어들어! 내 흔적을 남겨."
+			},
+			"terms": {
+				"eng": "Terms of Service",
+				"trans": "이용약관"
+			},
+			"title": {
+				"eng": "Your Crew is Waiting",
+				"trans": "당신의 크루가 기다리고 있어요"
+			}
+		},
+		"gameplay": {
+			"calibration": {
+				"eng": "Calibrate Gear. Risk It All.",
+				"trans": "장비 정밀조정! 전부 걸어봐!"
+			},
+			"crafting": {
+				"eng": "Print Loot from Dungeon Caches",
+				"trans": "던전 캐시에서 전리품 출력"
+			},
+			"inventory": {
+				"eng": "Manage Your Arsenal",
+				"trans": "무기고 정리"
+			},
+			"paused": {
+				"eng": "Paused",
+				"trans": "일시 중지"
+			},
+			"profile": {
+				"eng": "Track Your Legend",
+				"trans": "레전드 추적"
+			},
+			"subtitle": {
+				"eng": "See It In Action",
+				"trans": "실제 액션을 체험하세요"
+			},
+			"title": {
+				"eng": "Real Gameplay",
+				"trans": "실감나는 게임플레이"
+			}
+		},
+		"hero": {
+			"cta": {
+				"eng": "Play Now - It's Free",
+				"trans": "지금 바로 플레이 - 무료"
+			},
+			"description": {
+				"eng": "A cyberpunk MMORPG with zero pay-to-win. Play free in your browser.",
+				"trans": "전혀 P2W가 없는 사이버펑크 MMORPG! 브라우저에서 완전 무료로 즐겨보세요!"
+			},
+			"scrollHint": {
+				"eng": "Scroll to explore",
+				"trans": "스크롤해서 탐험하기"
+			},
+			"socialProof": {
+				"players": {
+					"eng": "1M+ Registers",
+					"trans": "100만+ 등록자"
+				}
+			}
+		},
+		"preview": {
+			"crafting": {
+				"description": {
+					"eng": "Craft weapons, armor, and mods. Use caches from dungeons.",
+					"trans": "무기, 방어구 및 모드를 제작하세요. 던전의 캐시를 활용하세요."
+				},
+				"title": {
+					"eng": "Equipment Crafting",
+					"trans": "장비 제작"
+				}
+			},
+			"dungeons": {
+				"description": {
+					"eng": "Solo or co-op. Procedurally generated dungeons with rare loot drops.",
+					"trans": "솔로나 팀플 가능! 절차적으로 생성되는 던전에서 희귀 전리품을 뽑아보세요."
+				},
+				"title": {
+					"eng": "Endless Dungeons",
+					"trans": "무한 던전"
+				}
+			},
+			"loot": {
+				"description": {
+					"eng": "Multiple tiers, random modifiers, upgrade slots. Chase the perfect roll.",
+					"trans": "여러 단계와 랜덤 모디파이어, 업그레이드 슬롯이 있어요. 완벽한 굴림을 노려보세요!"
+				},
+				"title": {
+					"eng": "Loot System",
+					"trans": "전리품 시스템"
+				}
+			},
+			"progression": {
+				"description": {
+					"eng": "6 skill trees to master. Level combat, crafting, mining, and more.",
+					"trans": "마스터할 6개의 스킬 트리! 전투·제작·채굴 등 다양한 영역에서 레벨을 올려보세요."
+				},
+				"title": {
+					"eng": "Deep Progression",
+					"trans": "깊이 있는 성장"
+				}
+			},
+			"selectFeature": {
+				"eng": "Select feature",
+				"trans": "기능 선택"
+			},
+			"social": {
+				"description": {
+					"eng": "Join gangs, chat globally, trade on the market. Make friends.",
+					"trans": "갱크에 합류하고, 전 세계와 채팅하며, 마켓에서 거래해 보세요. 친구 사귀기!"
+				},
+				"title": {
+					"eng": "Social Hub",
+					"trans": "소셜 허브"
+				}
+			},
+			"subtitle": {
+				"eng": "Deeper than you'd expect",
+				"trans": "당신이 예상한 것보다 더 깊어"
+			},
+			"systemLabel": {
+				"eng": "SYSTEM // FEATURES",
+				"trans": "시스템 // 기능"
+			},
+			"title": {
+				"eng": "Get Lost in the Grind",
+				"trans": "그라인드에 빠져보자"
+			},
+			"upgrade": {
+				"description": {
+					"eng": "Calibrate gear for stat boosts. High risk, high reward.",
+					"trans": "장비 보정을 통해 스탯을 올려보세요. 위험이 높지만 그만큼 보상도 커요."
+				},
+				"title": {
+					"eng": "Equipment Upgrade",
+					"trans": "장비 업그레이드"
+				}
+			}
+		},
+		"testimonials": {
+			"subtitle": {
+				"eng": "Real runners. Real opinions.",
+				"trans": "진짜 러너들. 솔직한 의견."
+			},
+			"title": {
+				"eng": "The Verdict Is In",
+				"trans": "결과가 나왔어요"
+			}
+		},
+		"world": {
+			"loc": {
+				"coast": {
+					"desc": {
+						"eng": "Not all battles are fought with weapons. Unwind on pristine shores, master the art of crafting, or just watch the sunset.",
+						"trans": "모든 전투가 무기로만 끝나는 건 아니야. 깨끗한 해변에서 휴식을 즐기고, 공예 기술을 마스터하거나 단순히 노을을 감상해 보자."
+					},
+					"name": {
+						"eng": "Crystal Sands",
+						"trans": "수정 모래"
+					},
+					"tag": {
+						"eng": "Crafting & Leisure",
+						"trans": "제작 & 여가"
+					}
+				},
+				"mainHub": {
+					"desc": {
+						"eng": "Where legends are forged. The neon-lit heart of civilization where runners gather, deals are struck, and your next adventure begins.",
+						"trans": "전설이 탄생하는 곳, 네온빛이 반짝이는 도심 속에서 러너들이 모여 거래를 체결하며 당신의 새로운 모험이 시작됩니다."
+					},
+					"name": {
+						"eng": "Shangri-La City Center",
+						"trans": "샹그리라 시티 센터"
+					},
+					"tag": {
+						"eng": "Central Hub",
+						"trans": "중앙 허브"
+					}
+				},
+				"market": {
+					"desc": {
+						"eng": "Fortune favors the bold. Hunt for rare gear, flip your loot, or score the deal of a lifetime in the sprawling player bazaar.",
+						"trans": "행운은 대담자를 부른다. 희귀 장비를 사냥하고, 보물을 뒤집어 판매하거나, 광활한 플레이어 바자에서 평생 한 번뿐인 딜을 잡아라!"
+					},
+					"name": {
+						"eng": "Market Street",
+						"trans": "마켓 스트리트"
+					},
+					"tag": {
+						"eng": "Player Economy",
+						"trans": "플레이어 경제"
+					}
+				},
+				"station": {
+					"desc": {
+						"eng": "Your gateway to the unknown. Board the hyperloop and venture into procedurally-generated dungeons filled with danger and epic loot.",
+						"trans": "당신만의 미지의 세계로 통하는 게이트웨이. 하이퍼루프를 타고 절차적으로 생성되는 던전을 탐험하며 위험과 전설적인 전리품을 찾아라."
+					},
+					"name": {
+						"eng": "Hyper Train Station",
+						"trans": "하이퍼 기차역"
+					},
+					"tag": {
+						"eng": "Dungeon Access",
+						"trans": "던전 입장"
+					}
+				}
+			},
+			"subtitle": {
+				"eng": "Your next obsession",
+				"trans": "다음 중독"
+			},
+			"title": {
+				"eng": "Enter the Sprawl",
+				"trans": "스프롤 진입!"
 			}
 		}
 	},
@@ -6412,57 +7353,23 @@
 		}
 	},
 	"lunarNewYearPromoSmall": {
-		"desc": {
-			"eng": "Receive free ${item1} and ${item2} during the lunar new year 🥳",
-			"trans": "설 기간동안 ${item1}와 ${item2}를 무료로 받으세요 🥳",
-			"vars": [
-				"item1",
-				"item2"
-			]
+		"desc-v2": {
+			"eng": "Festive rewards & exclusive seasonal items!",
+			"trans": "축제 보상 & 한정판 시즌 아이템!"
 		},
 		"title": {
-			"eng": "Happy Lunar New Year!",
+			"eng": "Lunar New Year!",
 			"trans": "새해 복 많이 받으세요!"
 		}
 	},
 	"lunarPromo": {
-		"desc1": {
-			"eng": "The lunar new year is here, and we're celebrating in Shang-ri-la with a special event. Join us as we embrace the start of a new year, filled with traditions, joy, and togetherness.",
-			"trans": "새해가 오고, 까치 설날도 오고 있습니다! 그래서 샹그릴라에서 특별 행사를 준비했습니다. 전통, 기쁨, 공존으로 가득찰 새해의 시작을 같이 만끽해보세요."
-		},
-		"desc2-v2": {
-			"eng": "${npcShopName} is now open for business! You can use ${coinItem} to purchase various special cuisines from ${npcName}!",
-			"trans": "${npcShopName}이(가) 영업 중입니다! ${coinItem}을 사용하여 ${npcName}에서 다양한 특별 요리를 구입할 수 있습니다!",
-			"vars": [
-				"npcShopName",
-				"coinItem",
-				"npcName"
-			]
-		},
-		"desc3": {
-			"eng": "It's not new year if ${envelopItem} is not involved! Enemies and AI Core auto farm will drop ${envelopItem}, open them to receive random amount of ${coinItem}!",
-			"trans": "${envelopItem} 없이는 설날이라 부를 수 없죠! 전투와 자동 사냥에서 ${envelopItem}를 획득할 수 있으며, 봉투를 열어 랜덤한 양의 ${coinItem}을 얻어보세요!",
-			"vars": [
-				"envelopItem",
-				"coinItem"
-			]
+		"desc": {
+			"eng": "Celebrate the Year of the horse with festive rewards and special events!",
+			"trans": "말의 해를 기념하며 축제 보상과 특별 이벤트를 즐겨보세요!"
 		},
 		"title": {
-			"eng": "Happy Lunar New year!",
+			"eng": "Happy Lunar New Year!",
 			"trans": "새해 복 많이 받으세요!"
-		}
-	},
-	"lunarPromo1": {
-		"desc4": {
-			"eng": "Get free ${itemName} base on top up package!",
-			"trans": "결제 패키지에서 무료로 ${itemName}를 받으세요!",
-			"vars": [
-				"itemName"
-			]
-		},
-		"desc5": {
-			"eng": "Added new time limited chat frame and emblems, only purchasable during event period.",
-			"trans": "기간 한정 채팅 프레임과 엠블럼이 추가되었습니다. 이벤트 기간 동안만 구매할 수 있습니다."
 		}
 	},
 	"mail": {
@@ -6992,6 +7899,22 @@
 				"trans": "신경 회로 재정의"
 			}
 		},
+		"circuitRotation": {
+			"instructions": {
+				"eng": "Tap tiles to rotate. Connect source to target.",
+				"trans": "타일을 터치해서 돌려보세요. 출발점을 목표지점에 연결해 보세요."
+			},
+			"title": {
+				"eng": "CIRCUIT ROTATION",
+				"trans": "회로 회전"
+			},
+			"win": {
+				"title": {
+					"eng": "ESTABLISHED",
+					"trans": "연결 완료"
+				}
+			}
+		},
 		"common": {
 			"retry": {
 				"eng": "RETRY",
@@ -7303,10 +8226,6 @@
 				"time"
 			]
 		},
-		"password": {
-			"eng": "Password",
-			"trans": "비밀번호"
-		},
 		"purchase": {
 			"eng": "Purchase",
 			"trans": "구입"
@@ -7358,6 +8277,36 @@
 		"returnToAppMessage": {
 			"eng": "Syncing with server..",
 			"trans": "서버 동기화 중..."
+		}
+	},
+	"mobileItemDisplay": {
+		"insufficientUnitsForRename": {
+			"eng": "You need ${required} Units to rename this item. You currently have ${current} Units.",
+			"trans": "이 아이템을 이름 바꾸려면 ${required} 유닛이 필요합니다. 현재 ${current} 유닛 보유 중입니다.",
+			"vars": [
+				"required",
+				"current"
+			]
+		}
+	},
+	"mod": {
+		"undoRename": {
+			"button": {
+				"eng": "Undo Rename",
+				"trans": "이름 되돌리기"
+			},
+			"confirm": {
+				"eng": "Confirm",
+				"trans": "확인"
+			},
+			"confirmMessage": {
+				"eng": "This will rollback the item name and give the player an Inscription Chip as compensation. Continue?",
+				"trans": "이동을 취소하면 아이템 이름이 원래대로 되돌리고 보상으로 인스크립션 칩을 지급합니다. 계속하시겠습니까?"
+			},
+			"confirmTitle": {
+				"eng": "Undo Rename",
+				"trans": "이름 되돌리기"
+			}
 		}
 	},
 	"modal": {
@@ -10129,6 +11078,65 @@
 			"trans": "추천 보상"
 		}
 	},
+	"renameItemModal": {
+		"confirm": {
+			"eng": "Confirm",
+			"trans": "확인"
+		},
+		"description": {
+			"eng": "Give your item a custom name",
+			"trans": "아이템에 원하는 이름을 붙여 보세요"
+		},
+		"minLength": {
+			"eng": "Min ${min} characters",
+			"trans": "최소 ${min}자",
+			"vars": [
+				"min"
+			]
+		},
+		"newName": {
+			"eng": "New Name",
+			"trans": "새 이름"
+		},
+		"placeholder": {
+			"eng": "Enter custom name",
+			"trans": "맞춤형 이름 입력"
+		},
+		"policy": {
+			"1": {
+				"eng": "No profanity or offensive language",
+				"trans": "비속어와 혐오 표현 금지"
+			},
+			"2": {
+				"eng": "No special characters or emojis",
+				"trans": "특수문자와 이모지는 허용되지 않음"
+			},
+			"3": {
+				"eng": "Only positive or neutral sentiment is allowed",
+				"trans": "긍정적이거나 중립적인 감성만 허용됩니다"
+			},
+			"4": {
+				"eng": "No mention of real names of people, country, company etc.",
+				"trans": "실제 인물·국가·회사명 등은 언급 금지"
+			},
+			"5": {
+				"eng": "No missleading names, including level, stats, calibration level etc.",
+				"trans": "레벨 스탯 보정수준 등 허위 이름 금지"
+			},
+			"description": {
+				"eng": "Item naming is subject to strict rules for safety and moderation purposes:",
+				"trans": "아이템 이름은 안전과 모더레이션을 위해 엄격한 규칙에 따라 정해집니다:"
+			}
+		},
+		"policyTitle": {
+			"eng": "Naming Policy",
+			"trans": "이름 정책"
+		},
+		"title": {
+			"eng": "Rename Item",
+			"trans": "이름 바꾸기"
+		}
+	},
 	"renamePetModal": {
 		"description": {
 			"eng": "Enter new name for your pet",
@@ -11490,6 +12498,110 @@
 			"trans": "퀘스트"
 		}
 	},
+	"terminalAuth": {
+		"confirmPasswordLabel": {
+			"eng": "Confirm Password",
+			"trans": "비밀번호 재입력"
+		},
+		"emailLabel": {
+			"eng": "Email",
+			"trans": "이메일"
+		},
+		"forgotPassword": {
+			"eng": "Forgot your password?",
+			"trans": "비밀번호를 잊으셨나요?"
+		},
+		"header": {
+			"eng": "System Access",
+			"trans": "시스템 접속"
+		},
+		"loginButton": {
+			"eng": "Sign In",
+			"trans": "로그인"
+		},
+		"loginTab": {
+			"eng": "Login",
+			"trans": "로그인"
+		},
+		"passwordLabel": {
+			"eng": "Password",
+			"trans": "비밀번호"
+		},
+		"passwordMismatch": {
+			"eng": "Passwords do not match",
+			"trans": "비밀번호가 일치하지 않습니다"
+		},
+		"registerButton": {
+			"eng": "Create Account",
+			"trans": "계정 만들기"
+		},
+		"registerTab": {
+			"eng": "Register",
+			"trans": "회원가입"
+		}
+	},
+	"testimonial": {
+		"review1": {
+			"quote": {
+				"eng": "I went in with low expectations, thinking it would just be another game for ads. But it's actually a really high quality game, great for killing time and talking to people. The community I've met so far has been so kind and welcoming!",
+				"trans": "저는 낮은 기대감으로 들어갔는데, 광고만 있는 또 다른 게임일 줄 알았어요. 하지만 실제로 정말 고품질이었고, 시간을 보내거나 사람들과 대화하기에 딱이에요. 지금까지 만난 커뮤니티는 너무 친절하고 환영해 주더라고요!"
+			}
+		},
+		"review10": {
+			"quote": {
+				"eng": "The game is fun. I love how engaging the community is, especially when it comes to the global skips and buffs. Simple but not too demanding.",
+				"trans": "게임이 정말 재밌어요! 커뮤니티가 얼마나 몰입감 있게 운영되는지 좋아요, 특히 글로벌 스킵과 버프 덕분에 더욱 즐거워졌죠. 간단하면서도 부담이 없답니다."
+			}
+		},
+		"review2": {
+			"quote": {
+				"eng": "I love that the buffs benefit everyone playing the game. It's a new vibe to me - I'm used to using buffs for myself! Highly recommended for playing in your leisure time.",
+				"trans": "모두가 게임을 할 때 버프 혜택이 돌아간다는 게 진짜 좋아요. 새로워서 신기하네요—저는 보통 자신만의 버프를 쓰는데! 여유 시간에 플레이하면 완전 추천해요."
+			}
+		},
+		"review3": {
+			"quote": {
+				"eng": "Everything is S tier in this game - the system, the community, and the developer. Everyone is generous. When I started, a high-leveled player literally gifted me 1000 painkillers and 5000 ammo.",
+				"trans": "모든 게 이 게임에서 S급이라니까! 시스템도, 커뮤니티도, 개발자까지 다 최고예요. 모두가 관대해요. 제가 시작했을 때 고레벨 플레이어가 1,000개의 진통제와 5,000발의 탄약을 선물까지 줬어요."
+			}
+		},
+		"review4": {
+			"quote": {
+				"eng": "Definitely hooked! Especially how it has the cyberpunk vibe. I'm a big fan of the game already, makes this a hit for me.",
+				"trans": "완전 중독돼! 특히 사이버펑크 분위기가 대박이야. 이미 이 게임을 완전히 사랑하고 있어서, 나에게 딱 맞는 히트작이야."
+			}
+		},
+		"review5": {
+			"quote": {
+				"eng": "Great for chill cyberpunk fans. Not for players who want fast action or flashy graphics.",
+				"trans": "편안하게 즐길 수 있는 사이버펑크 팬에게 딱! 빠른 액션이나 화려한 그래픽을 좋아하는 사람은 별로 어울리지 않을 거예요."
+			}
+		},
+		"review6": {
+			"quote": {
+				"eng": "A text-based game about exploring and surviving in a cyberpunk world. I love it. There are enemies you fight that are tied to references old and new.",
+				"trans": "사이버펑크 세계를 탐험하고 생존하는 텍스트 기반 게임이에요. 완전 좋아해요! 적들은 옛날과 최신 레퍼런스를 동시에 반영한 모습이 인상적입니다."
+			}
+		},
+		"review7": {
+			"quote": {
+				"eng": "Very good experience. I suggest it to everyone. If you're finding something you can play anytime, this is it.",
+				"trans": "정말 멋진 체험이었어요! 모두에게 강력히 추천해요. 언제든지 즐길 수 있는 걸 찾고 있다면, 이게 바로 그 게임입니다."
+			}
+		},
+		"review8": {
+			"quote": {
+				"eng": "Lots of fun, plenty to do, both actively and AFK. Best of all is no in-app purchases! Very much NOT pay to win.",
+				"trans": "재미가 넘치고 할 일이 많아요—액티브하게 놀든 AFK 상태에서도 즐길 수 있죠. 가장 좋은 점은 인앱 구매 없이 플레이할 수 있다는 거예요! 진짜 페이 투 윈이 전혀 없어요."
+			}
+		},
+		"review9": {
+			"quote": {
+				"eng": "I really love this app - the gameplay, the minimalist but engaging quests, especially the community! The players are really helpful and kind enough to give me gifts.",
+				"trans": "이 앱 진짜 좋아요—게임 플레이, 미니멀하지만 매력적인 퀘스트들, 특히 커뮤니티가 최고예요! 플레이어들이 정말 친절하고 선물까지 주어서 기분 좋습니다."
+			}
+		}
+	},
 	"thanksgivingPromo": {
 		"desc1": {
 			"eng": "During event period, Roasted Turkey will drop rarely from scavenging and AKF Bot on all levels",
@@ -11926,6 +13038,16 @@
 				"trans": "스킵 대기열"
 			}
 		},
+		"auth": {
+			"continueWithApple": {
+				"eng": "Continue with Apple",
+				"trans": "애플로 계속하기"
+			},
+			"continueWithGoogle": {
+				"eng": "Continue with Google",
+				"trans": "구글로 계속하기"
+			}
+		},
 		"backToPreviusLoc": {
 			"longPressBackToCity": {
 				"eng": "You can long press the back button to go back to city to visit various shops and features",
@@ -12266,15 +13388,7 @@
 			}
 		},
 		"clan": {
-			"deposit": {
-				"eng": "Deposit Bitcoin",
-				"trans": "비트코인 입금"
-			},
 			"editMotto": {
-				"button": {
-					"eng": "Edit Gang Motto",
-					"trans": "갱단 모토 편집"
-				},
 				"modal": {
 					"title": {
 						"eng": "Please enter your gang motto",
@@ -12359,12 +13473,6 @@
 				},
 				"eng": "Direction",
 				"trans": "방식"
-			},
-			"updateImage": {
-				"button": {
-					"eng": "Update Gang Image",
-					"trans": "갱단 이미지 업데이트"
-				}
 			}
 		},
 		"clanPage": {
@@ -12915,6 +14023,10 @@
 				"eng": "Crafting",
 				"trans": "제작"
 			},
+			"empty": {
+				"eng": "Inventory Empty",
+				"trans": "인벤토리 비었음"
+			},
 			"equipped": {
 				"eng": "Equipped",
 				"trans": "장비"
@@ -12930,6 +14042,17 @@
 			"items": {
 				"eng": "items",
 				"trans": "아이템"
+			},
+			"matches": {
+				"eng": "Matches: ${count}",
+				"trans": "매치 수: ${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"search": {
+				"eng": "Search items...",
+				"trans": "아이템 검색..."
 			},
 			"secretKeys": {
 				"eng": "secret keys",
@@ -13019,9 +14142,19 @@
 					"currentAction"
 				]
 			},
+			"customName": {
+				"label": {
+					"eng": "Custom Name",
+					"trans": "맞춤 이름"
+				}
+			},
 			"equip": {
 				"eng": "Equip",
 				"trans": "장착"
+			},
+			"history": {
+				"eng": "History",
+				"trans": "이력"
 			},
 			"lockModal": {
 				"lock": {
@@ -13064,6 +14197,17 @@
 			"printCacheDescription": {
 				"eng": "Turn this cache into a weapon or equipment item that you can use.",
 				"trans": "이 캐시를 사용 가능한 무기나 장비로 인쇄합니다"
+			},
+			"rename": {
+				"eng": "Rename",
+				"trans": "이름 바꾸기"
+			},
+			"renamedBy": {
+				"eng": "This item was renamed by ${playerName}",
+				"trans": "${playerName} 님이 아이템의 이름을 바꿨습니다",
+				"vars": [
+					"playerName"
+				]
 			},
 			"timeLimited": {
 				"eng": "Time Limited",
@@ -13211,17 +14355,9 @@
 			}
 		},
 		"login": {
-			"forgotPassword": {
-				"eng": "Forgot Password?",
-				"trans": "비밀번호를 잊으셨나요?"
-			},
-			"loginButton": {
-				"eng": "Login",
-				"trans": "로그인"
-			},
-			"registerPageButton": {
-				"eng": "Create Account?",
-				"trans": "계정을 만드시겠습니까?"
+			"continueWithEmail": {
+				"eng": "Continue with Email",
+				"trans": "이메일로 계속하기"
 			}
 		},
 		"logout": {
@@ -13931,14 +15067,6 @@
 			}
 		},
 		"register": {
-			"loginPageButton": {
-				"eng": "Have account?",
-				"trans": "이미 계정이 있으신가요?"
-			},
-			"registerButton": {
-				"eng": "Create Account",
-				"trans": "계정 생성"
-			},
 			"terms": {
 				"eng": "By creating an account, you agree to our",
 				"trans": "계정을 생성하실 경우, 당신은 아래의 내용에 동의하는 것으로 간주합니다."

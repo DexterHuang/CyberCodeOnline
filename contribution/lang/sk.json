@@ -61,11 +61,11 @@
 			"paypalBonus": {
 				"eng": "You will receive additional 10% more Units with paypal purchase",
 				"trans": "Pri nákupe PayPal dostanete ďalších 10% viac jednotiek"
-			},
-			"paypalBonusTitle": {
-				"eng": "All PayPal purchases grants 10% additional Units! You may use paypal only on website version, simply login with your browser.",
-				"trans": "Všetky nákupy PayPal udeľujú 10% ďalších jednotiek! Môžete používať PayPal iba na verziu webových stránok, jednoducho sa prihlásiť s prehliadačom."
 			}
+		},
+		"paypalBonusDescription": {
+			"eng": "Extra Units with all PayPal purchases",
+			"trans": "Extra jednotky pri každom nákupe cez PayPal"
 		},
 		"purchasing": {
 			"eng": "Purchasing",
@@ -1227,6 +1227,20 @@
 			"trans": "Systém"
 		}
 	},
+	"chatAttachmentMenu": {
+		"addImage": {
+			"eng": "Add Image",
+			"trans": "Pridať obrázok"
+		},
+		"rollDice": {
+			"eng": "Roll Dice",
+			"trans": "Rolovať kocky"
+		},
+		"shareItem": {
+			"eng": "Share Item",
+			"trans": "Zdieľať položku"
+		}
+	},
 	"chatExploit": {
 		"loveWords": {
 			"eng": [
@@ -1746,7 +1760,7 @@
 			"trans": "Zrušiť"
 		},
 		"close": {
-			"eng": "Close",
+			"eng": "TERMINATE",
 			"trans": "Zatvoriť"
 		},
 		"confirm": {
@@ -1927,6 +1941,70 @@
 			}
 		}
 	},
+	"dice": {
+		"modal": {
+			"description": {
+				"eng": "Roll a dice in chat for everyone to see!",
+				"trans": "Roluj kocku v chate pre všetkých!"
+			},
+			"howToGet": {
+				"eng": "Get Lucky Dice from AFK farming, dungeon drops, or buy from ${npc}.",
+				"trans": "Získajte Lucky Dice z AFK farmovania, dropov z ložiska alebo ich kúpte od ${npc}",
+				"vars": [
+					"npc"
+				]
+			},
+			"roll": {
+				"eng": "Roll Dice",
+				"trans": "Rolovať kocky"
+			},
+			"title": {
+				"eng": "🎲 Roll Dice",
+				"trans": "Hodiť kocku"
+			},
+			"youHave": {
+				"eng": "You have ${count} Lucky Dice",
+				"trans": "Máte ${count} šťastných kociek",
+				"vars": [
+					"count"
+				]
+			}
+		},
+		"roll": {
+			"cooldown": {
+				"eng": "You've used all ${maxRolls} dice rolls. Try again in ${minutes} minute(s)",
+				"trans": "Použili ste všetky ${maxRolls} hody. Skúste znova za ${minutes} minút",
+				"vars": [
+					"maxRolls",
+					"minutes"
+				]
+			},
+			"invalidChannel": {
+				"eng": "Invalid chat channel",
+				"trans": "Neplatný chatový kanál"
+			},
+			"noDice": {
+				"eng": "You need a Lucky Dice to roll!",
+				"trans": "Potrebujete šťastnú kocku na hodenie!"
+			},
+			"result": {
+				"eng": "${slanc}: ${player} rolled a ${result}! 🎲",
+				"trans": "${slanc}: ${player} vyhodil ${result}!",
+				"vars": [
+					"slanc",
+					"player",
+					"result"
+				]
+			},
+			"success": {
+				"eng": "You rolled a ${result}!",
+				"trans": "Vyhodil ste ${result}!",
+				"vars": [
+					"result"
+				]
+			}
+		}
+	},
 	"displayShelf": {
 		"error": {
 			"invalidSlot": {
@@ -2013,6 +2091,10 @@
 			"sendImage": {
 				"eng": "Send images in mail to players who added you as friend",
 				"trans": "Posielaj obrázky v správach hráčom, ktorí ťa majú v priateľoch"
+			},
+			"shareItemInChat": {
+				"eng": "Share items in chat",
+				"trans": "Zdieľať položky do chatu"
 			},
 			"title": {
 				"eng": "\"${name}\" donation title",
@@ -2278,6 +2360,10 @@
 			"eng": "Golden New Year",
 			"trans": "Zlatý Nový Rok"
 		},
+		"donation48": {
+			"eng": "Lunar Stallion",
+			"trans": "Mesiacový kôň"
+		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
 			"trans": "Kybernetický zemiak"
@@ -2301,6 +2387,322 @@
 		"moderator": {
 			"eng": "Moderator",
 			"trans": "Moderátor"
+		}
+	},
+	"dumpling": {
+		"action": {
+			"fold": {
+				"eng": "Fold",
+				"trans": "Zložiť"
+			}
+		},
+		"button": {
+			"subtitle": {
+				"eng": "LUNAR PROTOCOL",
+				"trans": "Mesiacová kuchyňa"
+			},
+			"title": {
+				"eng": "DUMPLING MASTER",
+				"trans": "Majster knedlíkov"
+			}
+		},
+		"chef": {
+			"correct1": {
+				"eng": "Excellent technique!",
+				"trans": "Skvelá technika!"
+			},
+			"correct2": {
+				"eng": "Just like grandma used to make!",
+				"trans": "Presne tak, ako babička!"
+			},
+			"correct3": {
+				"eng": "Perfect fold!",
+				"trans": "Perfektné zloženie!"
+			},
+			"correct4": {
+				"eng": "Beautiful work!",
+				"trans": "Skvelá práca!"
+			},
+			"correct5": {
+				"eng": "That's the spirit!",
+				"trans": "Práve tak!"
+			},
+			"encourage1": {
+				"eng": "Keep going!",
+				"trans": "Poď ďalej!"
+			},
+			"encourage2": {
+				"eng": "You're doing great!",
+				"trans": "Dobre sa ti darí!"
+			},
+			"encourage3": {
+				"eng": "Almost there!",
+				"trans": "Tak blízko!"
+			},
+			"encourage4": {
+				"eng": "Stay focused!",
+				"trans": "Zostaň sústredený!"
+			},
+			"timeWarn1": {
+				"eng": "Hurry! Time is running out!",
+				"trans": "Rýchlo! Čas už ubieha!"
+			},
+			"timeWarn2": {
+				"eng": "Faster! Faster!",
+				"trans": "Rýchlejšie! Rýchlejšie!"
+			},
+			"timeWarn3": {
+				"eng": "The clock is ticking!",
+				"trans": "Čas plynie!"
+			},
+			"wrong1": {
+				"eng": "Not quite right...",
+				"trans": "Nie je úplne správne..."
+			},
+			"wrong2": {
+				"eng": "Try again!",
+				"trans": "Skúste znova!"
+			},
+			"wrong3": {
+				"eng": "Focus on the recipe!",
+				"trans": "Zameraj sa na recept!"
+			},
+			"wrong4": {
+				"eng": "Careful now!",
+				"trans": "Dávaj pozor!"
+			},
+			"wrong5": {
+				"eng": "Watch the order!",
+				"trans": "Pozor na poradie!"
+			}
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The Lunar New Year event has ended!",
+				"trans": "Událosť Lunárneho Nového roka skončila!"
+			},
+			"noPass": {
+				"eng": "You need a Lunar Chef Pass to play! Find them in dungeon chests or from AFK farming.",
+				"trans": "Pre hranie potrebuješ Lunar Chef Pass! Nájdeš ho v truhličkách podzemia alebo pri AFK farmovaní."
+			}
+		},
+		"error": {
+			"title": {
+				"eng": "SYSTEM ERROR",
+				"trans": "Chyba systému"
+			}
+		},
+		"game": {
+			"orders": {
+				"eng": "QUOTA",
+				"trans": "Objednávky"
+			},
+			"recipe": {
+				"eng": "RECIPE SEQUENCE",
+				"trans": "Recept"
+			},
+			"time": {
+				"eng": "TIMER",
+				"trans": "Čas"
+			}
+		},
+		"gameOver": {
+			"noRewards": {
+				"eng": "NO DATA SECURED",
+				"trans": "Neboli dokončené žiadne knedle. Pass spotrebovaný."
+			}
+		},
+		"ingredient": {
+			"cabbage": {
+				"eng": "Cabbage",
+				"trans": "Kapusta"
+			},
+			"chives": {
+				"eng": "Chives",
+				"trans": "Cibulička"
+			},
+			"dough": {
+				"eng": "Dough",
+				"trans": "Cesto"
+			},
+			"mushroom": {
+				"eng": "Mushroom",
+				"trans": "Hubka"
+			},
+			"pork": {
+				"eng": "Pork",
+				"trans": "svinina"
+			},
+			"shrimp": {
+				"eng": "Shrimp",
+				"trans": "Kreveta"
+			},
+			"spice": {
+				"eng": "Spice",
+				"trans": "Korenie"
+			}
+		},
+		"intro": {
+			"authorized": {
+				"eng": "AUTHORIZED",
+				"trans": "Autorizovaný"
+			},
+			"eventEnded": {
+				"eng": "EVENT TERMINATED",
+				"trans": "Událosť skončila"
+			},
+			"howToPlay": {
+				"eng": "MISSION PARAMETERS",
+				"trans": "Kuchynské protokoly"
+			},
+			"missing": {
+				"eng": "REQUIRED",
+				"trans": "Vyžadované"
+			},
+			"needPass": {
+				"eng": "ACCESS DENIED",
+				"trans": "Vyžaduje sa heslo"
+			},
+			"passName": {
+				"eng": "Lunar Chef Pass",
+				"trans": "Mesiacový kuchársky pás"
+			},
+			"rule1": {
+				"eng": "Analyze recipe sequence",
+				"trans": "Sleduj postup receptu starostlivo"
+			},
+			"rule2": {
+				"eng": "Execute ingredient assembly",
+				"trans": "Pridaj ingrediencie v správnom poradí"
+			},
+			"rule3": {
+				"eng": "Complete objectives within time limit",
+				"trans": "Dokončite objednávky skôr, než vyprší čas"
+			},
+			"startButton": {
+				"eng": "INITIATE SEQUENCE",
+				"trans": "Začať varenie"
+			},
+			"subtitle": {
+				"eng": "TACTICAL COOKING PROTOCOL",
+				"trans": "Kuchyňa Mesiaca"
+			}
+		},
+		"loading": {
+			"processing": {
+				"eng": "CALCULATING RESULTS",
+				"trans": "Spracúvam výsledky..."
+			},
+			"title": {
+				"eng": "INITIALIZING SYSTEM",
+				"trans": "Zahříva sa wok…"
+			}
+		},
+		"preview": {
+			"addFilling": {
+				"eng": "ADD FILLING",
+				"trans": "Pridať náplň"
+			},
+			"folding": {
+				"eng": "SEALING",
+				"trans": "Skládanie..."
+			},
+			"ingredients": {
+				"eng": "ASSEMBLING... ${count}",
+				"trans": "${count} zložka(y)",
+				"vars": [
+					"count"
+				]
+			},
+			"perfect": {
+				"eng": "COMPLETE",
+				"trans": "Perfektné!"
+			},
+			"waiting": {
+				"eng": "WAITING",
+				"trans": "Čakám…"
+			}
+		},
+		"results": {
+			"collect": {
+				"eng": "CLAIM REWARDS",
+				"trans": "Získaj odmeny"
+			},
+			"ended": {
+				"eng": "TIME'S UP",
+				"trans": "Čas vypršal!"
+			},
+			"master": {
+				"eng": "DUMPLING MASTER",
+				"trans": "Majster knedlíkov!"
+			},
+			"rewards": {
+				"eng": "MISSION REWARDS",
+				"trans": "ODMENY"
+			}
+		},
+		"stageComplete": {
+			"allDone": {
+				"eng": "ALL STAGES CLEARED",
+				"trans": "Všetky fázy prekonané!"
+			},
+			"continuing": {
+				"eng": "ADVANCING",
+				"trans": "Pokračovanie"
+			},
+			"label": {
+				"eng": "STAGE COMPLETE",
+				"trans": "Úroveň dokončená"
+			},
+			"nextStage": {
+				"eng": "LOADING STAGE ${next}",
+				"trans": "Priprav sa na fázu ${next}",
+				"vars": [
+					"next"
+				]
+			},
+			"title": {
+				"eng": "OBJECTIVE MET",
+				"trans": "Skvelé!"
+			}
+		},
+		"title": {
+			"eng": "DUMPLING MASTER",
+			"trans": "Mistr žemliek"
+		},
+		"transition": {
+			"easy": {
+				"eng": "CLEARANCE-L",
+				"trans": "Začiatočník"
+			},
+			"hard": {
+				"eng": "CLEARANCE-H",
+				"trans": "Majster"
+			},
+			"medium": {
+				"eng": "CLEARANCE-M",
+				"trans": "Stredný"
+			},
+			"orders": {
+				"eng": "QUOTA",
+				"trans": "Objednávky"
+			},
+			"preparing": {
+				"eng": "LOADING SEQUENCE...",
+				"trans": "Pripravujem kuchyňu..."
+			},
+			"stage": {
+				"eng": "STAGE",
+				"trans": "Fáza"
+			},
+			"steps": {
+				"eng": "STEPS",
+				"trans": "Kroky"
+			},
+			"time": {
+				"eng": "LIMIT",
+				"trans": "Čas"
+			}
 		}
 	},
 	"dungeon": {
@@ -3321,6 +3723,10 @@
 	"gameEvent": {
 		"christmas": {
 			"eng": "Christmas",
+			"eventGame": {
+				"eng": "Santa's Workshop",
+				"trans": "Dielňa Santy"
+			},
 			"trans": "Vianočné"
 		},
 		"easter": {
@@ -3346,6 +3752,10 @@
 		},
 		"lunarNewYear": {
 			"eng": "Lunar New Year",
+			"eventGame": {
+				"eng": "Lunar Kitchen",
+				"trans": "Kuchyňa Mesiaca"
+			},
 			"skipDiscountTitle": {
 				"eng": "Lunar New Year Discount",
 				"trans": "Zľava na Lunárny Nový Rok"
@@ -3360,6 +3770,10 @@
 		},
 		"newYear": {
 			"eng": "New Year",
+			"eventGame": {
+				"eng": "Fireworks Show",
+				"trans": "Ohňostroj"
+			},
 			"skipDiscountTitle": {
 				"eng": "New Year Discount",
 				"trans": "Novoročná zľava"
@@ -3462,13 +3876,24 @@
 			"eng": "Early contributors receive higher discounts!",
 			"trans": "Skorí prispievatelia získavajú vyššie zľavy!"
 		},
-		"lootCrateDesc": {
-			"eng": "Special items available in dungeon loot crates:",
-			"trans": "V pokladniciach z dierky sa objavujú výnimočné predmety"
+		"eventGameDesc": {
+			"eng": "Play ${gameName} using ${passName} for bonus rewards!",
+			"trans": "Hrajte ${gameName} s ${passName} a získajte bonusové odmeny!",
+			"vars": [
+				"gameName",
+				"passName"
+			]
 		},
-		"lootTitle": {
-			"eng": "Dungeon Loot Crates",
-			"trans": "Špeciálny loot"
+		"eventShop": {
+			"eng": "Event Shop",
+			"trans": "Obchod udalostí"
+		},
+		"eventShopDesc": {
+			"eng": "Visit ${npcName} for exclusive seasonal items!",
+			"trans": "Navštívte ${npcName} pre exkluzívne sezónne predmety!",
+			"vars": [
+				"npcName"
+			]
 		},
 		"monsterDrops": {
 			"eng": "Monster Drops",
@@ -3527,9 +3952,9 @@
 			"eng": "Express yourself with dazzling event-themed chat effects",
 			"trans": "Vyjadrite sa pomocou ohromujúcich efektov chatu tematických na udalosti"
 		},
-		"lootCrate": {
-			"eng": "Discover limited-time treasures in exclusive event loot crates",
-			"trans": "Objavte obmedzené poklady v exkluzívnych loot crate-och podujatia"
+		"dungeonDrops": {
+			"eng": "Collect bonus items from dungeon chests during the event",
+			"trans": "Zbierajte bonusové predmety z truhlí dungeónu počas udalosti"
 		},
 		"partyDiscount": {
 			"eng": "Team up and save with exclusive party contribution discounts",
@@ -3944,6 +4369,20 @@
 				"current",
 				"max"
 			]
+		}
+	},
+	"insufficientUnitsModal": {
+		"cancel": {
+			"eng": "Cancel",
+			"trans": "Zrušiť"
+		},
+		"getUnits": {
+			"eng": "Get Units",
+			"trans": "Získaj jednotky"
+		},
+		"title": {
+			"eng": "Insufficient Units",
+			"trans": "Nedostatok jednotiek"
 		}
 	},
 	"inventory": {
@@ -4589,7 +5028,7 @@
 		"globalPartyBuff": {
 			"announcement": {
 				"eng": "🎉Its Party Time!🥳, reduce AFK time by ${afkPercent}%, increased BTC gained by ${btcPercent}%, increase EXP gained by ${expPercent}%",
-				"trans": "🎉its Party Time! 🥳, Znížte čas AFK o ${afkPercent}%, zvýšené BTC získané o ${btcPercent}%, zvýšenie exp získaného o ${expPercent}%",
+				"trans": "🎉Je čas na párty!🥳, znížte dobu AFK o ${afkPercent}%, BTC získané o ${btcPercent}%, EXP získané o ${expPercent}%",
 				"vars": [
 					"afkPercent",
 					"btcPercent",
@@ -4890,6 +5329,16 @@
 				"trans": "Sada na montáž prémiového nábytku"
 			}
 		},
+		"inscriptionChip": {
+			"description": {
+				"eng": "A digital inscription chip used to rename equipment. comsumed when renaming equipment",
+				"trans": "Digitálny čip na premenovanie vybavenia. Spotrebuje sa pri premenovaní"
+			},
+			"name": {
+				"eng": "Inscription Chip",
+				"trans": "Zápisový čip"
+			}
+		},
 		"keyFragment": {
 			"description": {
 				"eng": "A secret key Fragment used to brute-force a secret key.\n                                Use the Terminal at city center [Hub] to brute-force a ${segmentDisplayName} secret key.\n                                You can acquire each of the 3 required keys in each dungeon (both normal or challenge),\n                                when you acquired 3 keys, you may use Terminal to brute-force (Craft) a key to the next area",
@@ -4941,6 +5390,26 @@
 			"name": {
 				"eng": "lower armor",
 				"trans": "dolná brnenie"
+			}
+		},
+		"luckyDice": {
+			"description": {
+				"eng": "A holographic six-sided die you can use in chat. The system rolls a random number from 1 to 6 and posts the result to chat. 🎲",
+				"trans": "Holografická šesťstranná kocka, ktorú môžete použiť v chate. Systém hodí náhodné číslo od 1 do 6 a vypíše výsledok do chatu 🎲"
+			},
+			"name": {
+				"eng": "Lucky Dice",
+				"trans": "Šťastná kocka"
+			}
+		},
+		"lunarChefPass": {
+			"description": {
+				"eng": "A special pass required to participate in the Dumpling Master event game. Can be found in Dungeon Chests or from AFK farming during the Lunar New Year event.",
+				"trans": "Špeciálny prechod potrebný na účasť v hre Dumpling Master. Nájde sa v truhliciach Dungeon alebo pri AFK farmovaní počas udalosti Lunar New Year."
+			},
+			"name": {
+				"eng": "Lunar Chef Pass",
+				"trans": "Mesiacový kuchársky prechod"
 			}
 		},
 		"lunarCoin": {
@@ -5108,7 +5577,7 @@
 			},
 			"error": {
 				"eng": "This item is only available during Christmas Event",
-				"trans": "Táto položka je k dispozícii iba počas vianočných podujatí"
+				"trans": "Tento predmet je k dispozícii iba počas Vianočného eventu"
 			},
 			"name": {
 				"eng": "Christmas Pudding",
@@ -5156,6 +5625,30 @@
 			"name": {
 				"eng": "Rare Equipment Crate",
 				"trans": "Prepravka vzácnych zariadení"
+			}
+		},
+		"rename": {
+			"aiRejected": {
+				"eng": "Name was rejected by automated moderation, please try again with a different name",
+				"trans": "Meno bolo zamietnuté automatickou moderáciou, skúste prosím iný názov"
+			},
+			"inappropriate": {
+				"eng": "Name contains inappropriate content",
+				"trans": "Názov obsahuje nevhodný obsah"
+			},
+			"rateLimited": {
+				"eng": "Too many rename attempts. Please try again in ${minutes} minute(s)",
+				"trans": "Príliš veľa pokusov o premenovanie. Skúste znova za ${minutes} minút",
+				"vars": [
+					"minutes"
+				]
+			},
+			"success": {
+				"eng": "Item renamed to \"${name}\"",
+				"trans": "Položka premenovaná na \\\"${name}\\\"",
+				"vars": [
+					"name"
+				]
 			}
 		},
 		"riceCake": {
@@ -5276,13 +5769,13 @@
 			},
 			"notAvailableError": {
 				"eng": "This item is only available during Summer Event",
-				"trans": "Tento predmet je k dispozícii iba počas Letného podujatia"
+				"trans": "Tento predmet je dostupný len počas letného podujatia"
 			}
 		},
 		"summonAI": {
 			"announcement": {
 				"eng": "SLANC has entered the chat",
-				"trans": "Slanc vstúpil do chatu"
+				"trans": "SLANC sa pripojil do chatu"
 			},
 			"description": {
 				"eng": "Use SLANC Connector to connect SLANC to global chat for ${minute} minutes",
@@ -5376,6 +5869,21 @@
 			"name": {
 				"eng": "Roasted Turkey",
 				"trans": "Pečená morka"
+			}
+		},
+		"undoRename": {
+			"mailMessageInbox": {
+				"eng": "${moderatorName} has undone the rename of your item ${itemName}, an ${chipName} has been sent to your item inbox.",
+				"trans": "${moderatorName} has undone the rename of your item ${itemName}, 1 ${chipName} have been sent to your item inbox.",
+				"vars": [
+					"moderatorName",
+					"itemName",
+					"chipName"
+				]
+			},
+			"success": {
+				"eng": "Rename undone. Player received compensation.",
+				"trans": "Premenovanie vrátené. Hráč dostal odškodnenie."
 			}
 		},
 		"unknownCache": {
@@ -5606,6 +6114,32 @@
 				"eng": "Player contributed content",
 				"trans": "Hráč prispel k obsahu"
 			}
+		}
+	},
+	"itemRenameHistory": {
+		"currentName": {
+			"eng": "Current Name",
+			"trans": "Aktuálny názov"
+		},
+		"description": {
+			"eng": "Track of all name changes for this item",
+			"trans": "Záznam všetkých zmien názvu tejto položky"
+		},
+		"empty": {
+			"eng": "No rename history",
+			"trans": "Žiadna história premenovania"
+		},
+		"original": {
+			"eng": "Original Name",
+			"trans": "Pôvodný názov"
+		},
+		"timeline": {
+			"eng": "Timeline",
+			"trans": "Časová os"
+		},
+		"title": {
+			"eng": "Rename History",
+			"trans": "História premenovania"
 		}
 	},
 	"itemStack": {
@@ -5855,6 +6389,413 @@
 					"eng": "Market",
 					"trans": "Obchod"
 				}
+			}
+		}
+	},
+	"landingPage": {
+		"features": {
+			"browserBased": {
+				"description": {
+					"eng": "No downloads, no installs. Play instantly on any device with a browser.",
+					"trans": "Žiadne sťahovanie, žiadna inštalácia. Hraj okamžite na každom zariadení prostredníctvom prehliadača."
+				},
+				"title": {
+					"eng": "Browser Based",
+					"trans": "Prehliadačový"
+				}
+			},
+			"community": {
+				"description": {
+					"eng": "No PvP. 50k+ Discord members. Wholesome vibes only.",
+					"trans": "Bez PvP. 50 tisíc+ členov na Discorde. Len pozitívna atmosféra."
+				},
+				"title": {
+					"eng": "Friendly Community",
+					"trans": "Priateľská komunita"
+				}
+			},
+			"coreFeatures": {
+				"eng": "Core Features",
+				"trans": "Kľúčové funkcie"
+			},
+			"crafting": {
+				"description": {
+					"eng": "Forge weapons, print gear, cook buffs. Turn raw loot into endgame builds.",
+					"trans": "Vytvárajte zbrane, tlačte vybavenie a varte buffy. Preveďte surový loot do konečných buildov."
+				},
+				"title": {
+					"eng": "Deep Crafting",
+					"trans": "Profúndne Craftovanie"
+				}
+			},
+			"crossPlatform": {
+				"description": {
+					"eng": "Progress syncs across all devices. Start on PC, continue on mobile.",
+					"trans": "Postup sa synchronizuje naprieč všetkými zariadeniami. Začnite na PC a pokračujte na mobilnom."
+				},
+				"title": {
+					"eng": "Cross Platform",
+					"trans": "Multiplatformový"
+				}
+			},
+			"economy": {
+				"description": {
+					"eng": "Player-driven marketplace. Trade, sell, and build your fortune.",
+					"trans": "Trh riadený hráčmi. Obchodujte, predávajte a budujte svoje bohatstvo."
+				},
+				"title": {
+					"eng": "Player Economy",
+					"trans": "Ekonomika hráča"
+				}
+			},
+			"events": {
+				"description": {
+					"eng": "Regular limited-time events with exclusive rewards and unique gameplay.",
+					"trans": "Pravidelné časovo obmedzené udalosti s exkluzívnymi odmenami a unikátnym herným zážitkom."
+				},
+				"title": {
+					"eng": "Seasonal Events",
+					"trans": "Sezónne udalosti"
+				}
+			},
+			"gangs": {
+				"description": {
+					"eng": "Team up, climb leaderboards, unlock perks. Stronger together.",
+					"trans": "Spojte sa, vystupujte na lídrovské tabuľky a odblokujte výhody. Silnejší spoločne."
+				},
+				"title": {
+					"eng": "Join a Gang",
+					"trans": "Vstúp do gangu"
+				}
+			},
+			"globalBuffs": {
+				"description": {
+					"eng": "When someone donates, the ENTIRE server gets the buff. Community-powered progression.",
+					"trans": "Keď niekto daruje, celý server dostane posilnenie. Pokrok pod podporou komunity."
+				},
+				"title": {
+					"eng": "Global Buffs",
+					"trans": "Globálne buffy"
+				}
+			},
+			"housing": {
+				"description": {
+					"eng": "Own apartments from slums to penthouses. Decorate and customize your space.",
+					"trans": "Maj svoje byty od špinavých čtvrtí po penthouse. Dekoruj a uprav svoj priestor."
+				},
+				"title": {
+					"eng": "Housing System",
+					"trans": "Systém bývania"
+				}
+			},
+			"idlePlay": {
+				"description": {
+					"eng": "AFK farming when busy, engage in mini-games when active. Play your way.",
+					"trans": "AFK farmovanie, keď ste zaneprázdnení; v aktivnom stave sa zapojte do minigier. Hraj po svojom."
+				},
+				"title": {
+					"eng": "Idle + Active",
+					"trans": "Nečinné + Aktívne"
+				}
+			},
+			"miniGames": {
+				"description": {
+					"eng": "Unlock loot the fun way. Quick puzzles, hacking sims, and more—never just click and wait.",
+					"trans": "Získavaj odmeny zábavným spôsobom. Rýchle hádanky, hackovacie simulátory a ďalšie — nikdy len klikni a čakaj."
+				},
+				"title": {
+					"eng": "Mini-Games Galore",
+					"trans": "Mini-hry bez limitu"
+				}
+			},
+			"noAds": {
+				"description": {
+					"eng": "Zero advertisements. Enjoy uninterrupted gameplay, completely free.",
+					"trans": "Bez reklam. Vychutnajte si plynulý herný zážitok úplne zadarmo."
+				},
+				"title": {
+					"eng": "No Ads Ever",
+					"trans": "Bez reklám navždy"
+				}
+			},
+			"noPayToWin": {
+				"description": {
+					"eng": "All purchases are cosmetic only. No stat boosts, no advantages. Everyone plays on equal footing.",
+					"trans": "Všetko, čo si kúpite, je iba kozmetika. Nezískate žiadny boost štatistík ani výhody. Hráči sú na rovnakom poli."
+				},
+				"title": {
+					"eng": "Zero Pay-to-Win",
+					"trans": "Bez platby za víťazstvo"
+				}
+			},
+			"pets": {
+				"description": {
+					"eng": "Adopt virtual pets. Feed, care for, and watch them grow. Tamagotchi vibes.",
+					"trans": "Adoptujte virtuálne domáce zvieratá. Kŕmite, starajte sa o ne a sledujte ich rast. Vibe z Tamagotchia."
+				},
+				"title": {
+					"eng": "Pet Companions",
+					"trans": "Domáce zvieratá – spoločníci"
+				}
+			},
+			"playOn": {
+				"eng": "Play on any device",
+				"trans": "Hrať na akomkoľvek zariadení"
+			},
+			"signature": {
+				"eng": "Signature",
+				"trans": "Značka"
+			},
+			"subtitle": {
+				"eng": "Built different. Plays different.",
+				"trans": "Postavený iný. Hra je iná."
+			},
+			"title": {
+				"eng": "The MMORPG That Respects Your Time",
+				"trans": "MMORPG, ktoré rešpektuje váš čas"
+			}
+		},
+		"footer": {
+			"copyright": {
+				"eng": "(C) ${year} CyberCode Online",
+				"trans": "© ${year} CyberCode Online",
+				"vars": [
+					"year"
+				]
+			},
+			"cta": {
+				"eng": "Play Free Now",
+				"trans": "Hraj bezplatne teraz"
+			},
+			"discord": {
+				"eng": "Discord",
+				"trans": "Discord"
+			},
+			"github": {
+				"eng": "GitHub",
+				"trans": "GitHub"
+			},
+			"privacy": {
+				"eng": "Privacy Policy",
+				"trans": "Zásady ochrany osobných údajov"
+			},
+			"subtitle": {
+				"eng": "Jump in. Make your mark.",
+				"trans": "Skáč! Zanechaj svoj odtlačok."
+			},
+			"terms": {
+				"eng": "Terms of Service",
+				"trans": "Podmienky používania"
+			},
+			"title": {
+				"eng": "Your Crew is Waiting",
+				"trans": "Tvoj tím čaká"
+			}
+		},
+		"gameplay": {
+			"calibration": {
+				"eng": "Calibrate Gear. Risk It All.",
+				"trans": "Kalibruj vybavenie. Riskuj všetko."
+			},
+			"crafting": {
+				"eng": "Print Loot from Dungeon Caches",
+				"trans": "Vytlačiť loot zo zásobníkov podzemia"
+			},
+			"inventory": {
+				"eng": "Manage Your Arsenal",
+				"trans": "Spravuj svoj arsenal"
+			},
+			"paused": {
+				"eng": "Paused",
+				"trans": "Pozastavené"
+			},
+			"profile": {
+				"eng": "Track Your Legend",
+				"trans": "Sleduj svoju legendu"
+			},
+			"subtitle": {
+				"eng": "See It In Action",
+				"trans": "Pozri si to v akcii"
+			},
+			"title": {
+				"eng": "Real Gameplay",
+				"trans": "Skutočné hranie"
+			}
+		},
+		"hero": {
+			"cta": {
+				"eng": "Play Now - It's Free",
+				"trans": "Hraj teraz – je to zadarmo"
+			},
+			"description": {
+				"eng": "A cyberpunk MMORPG with zero pay-to-win. Play free in your browser.",
+				"trans": "Cyberpunk MMORPG bez Pay-to-Win. Zahraj si zadarmo priamo vo svojom prehliadači."
+			},
+			"scrollHint": {
+				"eng": "Scroll to explore",
+				"trans": "Roluj a objavuj"
+			},
+			"socialProof": {
+				"players": {
+					"eng": "1M+ Registers",
+					"trans": "1M+ Registrovaní hráči"
+				}
+			}
+		},
+		"preview": {
+			"crafting": {
+				"description": {
+					"eng": "Craft weapons, armor, and mods. Use caches from dungeons.",
+					"trans": "Vytvárajte zbrane, brnenie a modifikácie. Využívajte zásoby zo jaskýň."
+				},
+				"title": {
+					"eng": "Equipment Crafting",
+					"trans": "Tvorenie vybavenia"
+				}
+			},
+			"dungeons": {
+				"description": {
+					"eng": "Solo or co-op. Procedurally generated dungeons with rare loot drops.",
+					"trans": "Solo alebo kooperácia. Procedurálne generované lochy s vzácnym lootom."
+				},
+				"title": {
+					"eng": "Endless Dungeons",
+					"trans": "Dungeony bez konca"
+				}
+			},
+			"loot": {
+				"description": {
+					"eng": "Multiple tiers, random modifiers, upgrade slots. Chase the perfect roll.",
+					"trans": "Viaceré úrovne, náhodné modifikátory a sloty na vylepšenia. Dosiahni dokonalý rool."
+				},
+				"title": {
+					"eng": "Loot System",
+					"trans": "Systém lootovania"
+				}
+			},
+			"progression": {
+				"description": {
+					"eng": "6 skill trees to master. Level combat, crafting, mining, and more.",
+					"trans": "6 stromov zručností na zvládnutie. Rozvíjaj boj, výrobu, ťažbu a viac."
+				},
+				"title": {
+					"eng": "Deep Progression",
+					"trans": "Hlboký Pokrok"
+				}
+			},
+			"selectFeature": {
+				"eng": "Select feature",
+				"trans": "Vyberte funkciu"
+			},
+			"social": {
+				"description": {
+					"eng": "Join gangs, chat globally, trade on the market. Make friends.",
+					"trans": "Zapojte sa do gangov, chatujte po celom svete, obchodujte na trhu. Získajte priateľov."
+				},
+				"title": {
+					"eng": "Social Hub",
+					"trans": "Sociálny Hub"
+				}
+			},
+			"subtitle": {
+				"eng": "Deeper than you'd expect",
+				"trans": "Hlbšie, než si myslíte"
+			},
+			"systemLabel": {
+				"eng": "SYSTEM // FEATURES",
+				"trans": "SYSTÉM // FUNKCIE"
+			},
+			"title": {
+				"eng": "Get Lost in the Grind",
+				"trans": "Zostaň v grindu"
+			},
+			"upgrade": {
+				"description": {
+					"eng": "Calibrate gear for stat boosts. High risk, high reward.",
+					"trans": "Kalibrujte vybavenie pre zvýšenie statov. Vysoké riziko, vysoká odmena."
+				},
+				"title": {
+					"eng": "Equipment Upgrade",
+					"trans": "Vylepšenie vybavenia"
+				}
+			}
+		},
+		"testimonials": {
+			"subtitle": {
+				"eng": "Real runners. Real opinions.",
+				"trans": "Skutoční bežci. Skutočné názory."
+			},
+			"title": {
+				"eng": "The Verdict Is In",
+				"trans": "Rozhodnutie je tu"
+			}
+		},
+		"world": {
+			"loc": {
+				"coast": {
+					"desc": {
+						"eng": "Not all battles are fought with weapons. Unwind on pristine shores, master the art of crafting, or just watch the sunset.",
+						"trans": "Ne všetky bitky sú vedené zbraňou. Oddýchnite si na čistých plážach, zdokonaľte svoje remeselné schopnosti alebo sa len pozerajte na západ slnka."
+					},
+					"name": {
+						"eng": "Crystal Sands",
+						"trans": "Krištálové piesky"
+					},
+					"tag": {
+						"eng": "Crafting & Leisure",
+						"trans": "Tvorba a odpočinok"
+					}
+				},
+				"mainHub": {
+					"desc": {
+						"eng": "Where legends are forged. The neon-lit heart of civilization where runners gather, deals are struck, and your next adventure begins.",
+						"trans": "Kde sa tvoria legendy. Neónovo osvetlené srdce civilizácie, kde sa stretávajú runneri, uzatvárajú sa obchody a začína tvoja ďalšia výprava."
+					},
+					"name": {
+						"eng": "Shangri-La City Center",
+						"trans": "Centrum mesta Shangri‑La"
+					},
+					"tag": {
+						"eng": "Central Hub",
+						"trans": "Centrálny uzol"
+					}
+				},
+				"market": {
+					"desc": {
+						"eng": "Fortune favors the bold. Hunt for rare gear, flip your loot, or score the deal of a lifetime in the sprawling player bazaar.",
+						"trans": "Šťastie láskavo obdaruje odvážnych. Lovte vzácne vybavenie, preprodávajte svoje nákupy alebo získajte deal roka v rozlehlom hráčskom bazári."
+					},
+					"name": {
+						"eng": "Market Street",
+						"trans": "Trhová ulica"
+					},
+					"tag": {
+						"eng": "Player Economy",
+						"trans": "Ekonomika hráča"
+					}
+				},
+				"station": {
+					"desc": {
+						"eng": "Your gateway to the unknown. Board the hyperloop and venture into procedurally-generated dungeons filled with danger and epic loot.",
+						"trans": "Váš vchod do neznáma. Posadnite sa v hyperloopu a vyrazte do procedurálne generovaných dungeónov plných nebezpečenstva a epických odmien."
+					},
+					"name": {
+						"eng": "Hyper Train Station",
+						"trans": "Hipervlaková stanica"
+					},
+					"tag": {
+						"eng": "Dungeon Access",
+						"trans": "Vstup do dungeonu"
+					}
+				}
+			},
+			"subtitle": {
+				"eng": "Your next obsession",
+				"trans": "Tvoja nasledujúca závislosť"
+			},
+			"title": {
+				"eng": "Enter the Sprawl",
+				"trans": "Vstúp do Rozlehlého Mesta"
 			}
 		}
 	},
@@ -6412,57 +7353,23 @@
 		}
 	},
 	"lunarNewYearPromoSmall": {
-		"desc": {
-			"eng": "Receive free ${item1} and ${item2} during the lunar new year 🥳",
-			"trans": "Počas lunárneho nového roka 🥳 dostávajte zadarmo ${item1} a ${item2}",
-			"vars": [
-				"item1",
-				"item2"
-			]
+		"desc-v2": {
+			"eng": "Festive rewards & exclusive seasonal items!",
+			"trans": "Sviatkové odmeny a exkluzívne sezónne predmety!"
 		},
 		"title": {
-			"eng": "Happy Lunar New Year!",
+			"eng": "Lunar New Year!",
 			"trans": "Šťastný lunárny Nový rok!"
 		}
 	},
 	"lunarPromo": {
-		"desc1": {
-			"eng": "The lunar new year is here, and we're celebrating in Shang-ri-la with a special event. Join us as we embrace the start of a new year, filled with traditions, joy, and togetherness.",
-			"trans": "Lunárny Nový rok je tu a oslavujeme v Shang-Ri-La so špeciálnou udalosťou. Pripojte sa k nám, keď prijímame začiatok nového roka, naplnený tradíciami, radosťou a spolupatričnosťou."
-		},
-		"desc2-v2": {
-			"eng": "${npcShopName} is now open for business! You can use ${coinItem} to purchase various special cuisines from ${npcName}!",
-			"trans": "${npcShopName} je teraz otvorená pre podnikanie! Môžete použiť ${coinItem} na nákup rôznych špeciálnych kuchýň od ${npcName}!",
-			"vars": [
-				"npcShopName",
-				"coinItem",
-				"npcName"
-			]
-		},
-		"desc3": {
-			"eng": "It's not new year if ${envelopItem} is not involved! Enemies and AI Core auto farm will drop ${envelopItem}, open them to receive random amount of ${coinItem}!",
-			"trans": "Nie je to nový rok, ak nie je zapojený ${envelopItem}! Nepriatelia a AI Core Auto Farm klesnú ${envelopItem}, otvorte ich, aby ste dostali náhodnú sumu ${coinItem}!",
-			"vars": [
-				"envelopItem",
-				"coinItem"
-			]
+		"desc": {
+			"eng": "Celebrate the Year of the horse with festive rewards and special events!",
+			"trans": "Oslávte Rok koní s sviatkovými odmenami a špeciálnymi udalosťami!"
 		},
 		"title": {
-			"eng": "Happy Lunar New year!",
+			"eng": "Happy Lunar New Year!",
 			"trans": "Šťastný lunárny Nový rok!"
-		}
-	},
-	"lunarPromo1": {
-		"desc4": {
-			"eng": "Get free ${itemName} base on top up package!",
-			"trans": "Získajte zadarmo ${itemName} základňu na balíku Top Up!",
-			"vars": [
-				"itemName"
-			]
-		},
-		"desc5": {
-			"eng": "Added new time limited chat frame and emblems, only purchasable during event period.",
-			"trans": "Pridal sa nový čas a emblémy v New Time Limited, ktorý je možné kúpiť iba počas obdobia udalostí."
 		}
 	},
 	"mail": {
@@ -6992,6 +7899,22 @@
 				"trans": "Prekročenie neurálneho obvodu"
 			}
 		},
+		"circuitRotation": {
+			"instructions": {
+				"eng": "Tap tiles to rotate. Connect source to target.",
+				"trans": "Klepni na dlaždice a otáčaj ich. Spoj zdroj s cieľom."
+			},
+			"title": {
+				"eng": "CIRCUIT ROTATION",
+				"trans": "Rotácia obvodu"
+			},
+			"win": {
+				"title": {
+					"eng": "ESTABLISHED",
+					"trans": "Zriadené"
+				}
+			}
+		},
 		"common": {
 			"retry": {
 				"eng": "RETRY",
@@ -7303,10 +8226,6 @@
 				"time"
 			]
 		},
-		"password": {
-			"eng": "Password",
-			"trans": "Heslo"
-		},
 		"purchase": {
 			"eng": "Purchase",
 			"trans": "Nákup"
@@ -7358,6 +8277,36 @@
 		"returnToAppMessage": {
 			"eng": "Syncing with server..",
 			"trans": "Synchronizácia so serverom .."
+		}
+	},
+	"mobileItemDisplay": {
+		"insufficientUnitsForRename": {
+			"eng": "You need ${required} Units to rename this item. You currently have ${current} Units.",
+			"trans": "Potrebujete ${required} jednotiek na premenovanie tohto predmetu. Momentálne máte ${current} jednotiek.",
+			"vars": [
+				"required",
+				"current"
+			]
+		}
+	},
+	"mod": {
+		"undoRename": {
+			"button": {
+				"eng": "Undo Rename",
+				"trans": "Zrušiť premenovanie"
+			},
+			"confirm": {
+				"eng": "Confirm",
+				"trans": "Potvrdiť"
+			},
+			"confirmMessage": {
+				"eng": "This will rollback the item name and give the player an Inscription Chip as compensation. Continue?",
+				"trans": "Vrátite pôvodný názov predmetu a získate Inskripčný čip ako odškodnenie. Pokračovať?"
+			},
+			"confirmTitle": {
+				"eng": "Undo Rename",
+				"trans": "Zrušiť premenovanie"
+			}
 		}
 	},
 	"modal": {
@@ -10246,6 +11195,65 @@
 			"trans": "Odporúčanie"
 		}
 	},
+	"renameItemModal": {
+		"confirm": {
+			"eng": "Confirm",
+			"trans": "Potvrdiť"
+		},
+		"description": {
+			"eng": "Give your item a custom name",
+			"trans": "Zadajte vlastné meno položky"
+		},
+		"minLength": {
+			"eng": "Min ${min} characters",
+			"trans": "Minimálne ${min} znakov",
+			"vars": [
+				"min"
+			]
+		},
+		"newName": {
+			"eng": "New Name",
+			"trans": "Nový názov"
+		},
+		"placeholder": {
+			"eng": "Enter custom name",
+			"trans": "Zadajte vlastný názov"
+		},
+		"policy": {
+			"1": {
+				"eng": "No profanity or offensive language",
+				"trans": "Bez vulgarít a urážok"
+			},
+			"2": {
+				"eng": "No special characters or emojis",
+				"trans": "Žiadne špeciálne znaky ani emotikony"
+			},
+			"3": {
+				"eng": "Only positive or neutral sentiment is allowed",
+				"trans": "Povolený je iba pozitívny alebo neutrálny sentiment"
+			},
+			"4": {
+				"eng": "No mention of real names of people, country, company etc.",
+				"trans": "Žiadne skutočné mená osob, krajín, spoločností atď."
+			},
+			"5": {
+				"eng": "No missleading names, including level, stats, calibration level etc.",
+				"trans": "Bez klamlivých názvov vrátane úrovne, štatistík a kalibračnej úrovne atď."
+			},
+			"description": {
+				"eng": "Item naming is subject to strict rules for safety and moderation purposes:",
+				"trans": "Názvy položiek podliehajú prísnym pravidlám pre bezpečnosť a moderovanie:"
+			}
+		},
+		"policyTitle": {
+			"eng": "Naming Policy",
+			"trans": "Politika pomenovania"
+		},
+		"title": {
+			"eng": "Rename Item",
+			"trans": "Premenovať položku"
+		}
+	},
 	"renamePetModal": {
 		"description": {
 			"eng": "Enter new name for your pet",
@@ -11607,6 +12615,110 @@
 			"trans": "Úlohy"
 		}
 	},
+	"terminalAuth": {
+		"confirmPasswordLabel": {
+			"eng": "Confirm Password",
+			"trans": "Potvrďte heslo"
+		},
+		"emailLabel": {
+			"eng": "Email",
+			"trans": "E‑mail"
+		},
+		"forgotPassword": {
+			"eng": "Forgot your password?",
+			"trans": "Zabudli ste heslo?"
+		},
+		"header": {
+			"eng": "System Access",
+			"trans": "Prístup do systému"
+		},
+		"loginButton": {
+			"eng": "Sign In",
+			"trans": "Prihlásiť"
+		},
+		"loginTab": {
+			"eng": "Login",
+			"trans": "Prihlásenie"
+		},
+		"passwordLabel": {
+			"eng": "Password",
+			"trans": "Heslo"
+		},
+		"passwordMismatch": {
+			"eng": "Passwords do not match",
+			"trans": "Heslá sa nezhodujú"
+		},
+		"registerButton": {
+			"eng": "Create Account",
+			"trans": "Založiť účet"
+		},
+		"registerTab": {
+			"eng": "Register",
+			"trans": "Registrácia"
+		}
+	},
+	"testimonial": {
+		"review1": {
+			"quote": {
+				"eng": "I went in with low expectations, thinking it would just be another game for ads. But it's actually a really high quality game, great for killing time and talking to people. The community I've met so far has been so kind and welcoming!",
+				"trans": "Pri vstupe som sa do toho pustil so nízkymi očakávaniami – predpokladal som, že to bude len ďalšia hra na reklamy. No je to vlastne výborná a vysoko kvalitná hra, ktorá je skvelá na zabíjanie času a rozhovory s ostatnými. Komunita, ktorú som stretol až do tejto chvíle, bola tak priateľská a vítajúca!"
+			}
+		},
+		"review10": {
+			"quote": {
+				"eng": "The game is fun. I love how engaging the community is, especially when it comes to the global skips and buffs. Simple but not too demanding.",
+				"trans": "Hra je zábavná. Milujem, aká zapojivá je komunita, hlavne keď ide o globálne preskakovanie a buffy. Jednoduchá, ale zároveň ne príliš náročná."
+			}
+		},
+		"review2": {
+			"quote": {
+				"eng": "I love that the buffs benefit everyone playing the game. It's a new vibe to me - I'm used to using buffs for myself! Highly recommended for playing in your leisure time.",
+				"trans": "Mám rád, že buffy prospievajú všetkým hráčom. Pre mňa je to úplne nový vibe – zvyknutý som používať buffy pre seba! Vysoko odporúčam hranie počas voľného času."
+			}
+		},
+		"review3": {
+			"quote": {
+				"eng": "Everything is S tier in this game - the system, the community, and the developer. Everyone is generous. When I started, a high-leveled player literally gifted me 1000 painkillers and 5000 ammo.",
+				"trans": "Všetko je na S‑tier v tejto hre – systém, komunita aj vývojár. Všichni sú priateľskí. Keď som začínal, jeden hráč na vysokom leveli mi doslova daroval 1000 liekov proti bolesti a 5000 amunicí."
+			}
+		},
+		"review4": {
+			"quote": {
+				"eng": "Definitely hooked! Especially how it has the cyberpunk vibe. I'm a big fan of the game already, makes this a hit for me.",
+				"trans": "Určite som na to závislý! Najmä preto, že má cyberpunkový vibe. Už som veľkým fanúšikom tejto hry, takže pre mňa je to hit."
+			}
+		},
+		"review5": {
+			"quote": {
+				"eng": "Great for chill cyberpunk fans. Not for players who want fast action or flashy graphics.",
+				"trans": "Výborne sa hodí pre fanúšikov relaxačného cyberpunka. Nie je určené pre hráčov, ktorí túžia po rýchlej akcii alebo pestrej grafike."
+			}
+		},
+		"review6": {
+			"quote": {
+				"eng": "A text-based game about exploring and surviving in a cyberpunk world. I love it. There are enemies you fight that are tied to references old and new.",
+				"trans": "Textová hra o skúmaní a prežívaniu v kyberpunkovom svete. Milujem ju. Nepriatelia, ktorých bojujete, sú viazaní na referencie z minulosti aj budúcnosti."
+			}
+		},
+		"review7": {
+			"quote": {
+				"eng": "Very good experience. I suggest it to everyone. If you're finding something you can play anytime, this is it.",
+				"trans": "Veľmi dobrý zážitok. Odporúčam ho všetkým. Ak hľadáte niečo, čo si môžete zahrať kedykoľvek, toto je to."
+			}
+		},
+		"review8": {
+			"quote": {
+				"eng": "Lots of fun, plenty to do, both actively and AFK. Best of all is no in-app purchases! Very much NOT pay to win.",
+				"trans": "Mnoho zábavy, veľa čo robiť – aj aktívne a AFK. Najlepšie je, že nie sú žiadne nákupy v aplikácii! Skutočne NIE pay-to-win."
+			}
+		},
+		"review9": {
+			"quote": {
+				"eng": "I really love this app - the gameplay, the minimalist but engaging quests, especially the community! The players are really helpful and kind enough to give me gifts.",
+				"trans": "Skutočne milujem túto aplikáciu – herná skúsenosť, minimalistické, ale pútavé úlohy a hlavne komunita! Hráči sú naozaj milí a ochotní mi dávať dary."
+			}
+		}
+	},
 	"thanksgivingPromo": {
 		"desc1": {
 			"eng": "During event period, Roasted Turkey will drop rarely from scavenging and AKF Bot on all levels",
@@ -12043,6 +13155,16 @@
 				"trans": "Preskočiť front"
 			}
 		},
+		"auth": {
+			"continueWithApple": {
+				"eng": "Continue with Apple",
+				"trans": "Pokračovať s Apple"
+			},
+			"continueWithGoogle": {
+				"eng": "Continue with Google",
+				"trans": "Prihlásiť sa cez Google"
+			}
+		},
 		"backToPreviusLoc": {
 			"longPressBackToCity": {
 				"eng": "You can long press the back button to go back to city to visit various shops and features",
@@ -12383,15 +13505,7 @@
 			}
 		},
 		"clan": {
-			"deposit": {
-				"eng": "Deposit Bitcoin",
-				"trans": "Vklad bitcoínu"
-			},
 			"editMotto": {
-				"button": {
-					"eng": "Edit Gang Motto",
-					"trans": "Upraviť motto gangu"
-				},
 				"modal": {
 					"title": {
 						"eng": "Please enter your gang motto",
@@ -12476,12 +13590,6 @@
 				},
 				"eng": "Direction",
 				"trans": "Smer"
-			},
-			"updateImage": {
-				"button": {
-					"eng": "Update Gang Image",
-					"trans": "Aktualizácia obrázka gangu"
-				}
 			}
 		},
 		"clanPage": {
@@ -13032,6 +14140,10 @@
 				"eng": "Crafting",
 				"trans": "Tvorba"
 			},
+			"empty": {
+				"eng": "Inventory Empty",
+				"trans": "Prázdny inventár"
+			},
 			"equipped": {
 				"eng": "Equipped",
 				"trans": "Vybavený"
@@ -13047,6 +14159,17 @@
 			"items": {
 				"eng": "items",
 				"trans": "predmety"
+			},
+			"matches": {
+				"eng": "Matches: ${count}",
+				"trans": "Zapaľovače: ${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"search": {
+				"eng": "Search items...",
+				"trans": "Hľadajte položky..."
 			},
 			"secretKeys": {
 				"eng": "secret keys",
@@ -13136,9 +14259,19 @@
 					"currentAction"
 				]
 			},
+			"customName": {
+				"label": {
+					"eng": "Custom Name",
+					"trans": "Vlastné meno"
+				}
+			},
 			"equip": {
 				"eng": "Equip",
 				"trans": "Vybaviť"
+			},
+			"history": {
+				"eng": "History",
+				"trans": "Historia"
 			},
 			"lockModal": {
 				"lock": {
@@ -13181,6 +14314,17 @@
 			"printCacheDescription": {
 				"eng": "Turn this cache into a weapon or equipment item that you can use.",
 				"trans": "Premeňte túto vyrovnávaciu pamäť na zbraň alebo vybavenie, ktorú môžete použiť."
+			},
+			"rename": {
+				"eng": "Rename",
+				"trans": "Premenovať"
+			},
+			"renamedBy": {
+				"eng": "This item was renamed by ${playerName}",
+				"trans": "Tento predmet bol premenovaný hráčom ${playerName}",
+				"vars": [
+					"playerName"
+				]
 			},
 			"timeLimited": {
 				"eng": "Time Limited",
@@ -13328,17 +14472,9 @@
 			}
 		},
 		"login": {
-			"forgotPassword": {
-				"eng": "Forgot Password?",
-				"trans": "Zabudol si heslo?"
-			},
-			"loginButton": {
-				"eng": "Login",
-				"trans": "Prihlásiť sa"
-			},
-			"registerPageButton": {
-				"eng": "Create Account?",
-				"trans": "Register?"
+			"continueWithEmail": {
+				"eng": "Continue with Email",
+				"trans": "Pokračovať s e‑mailom"
 			}
 		},
 		"logout": {
@@ -14048,14 +15184,6 @@
 			}
 		},
 		"register": {
-			"loginPageButton": {
-				"eng": "Have account?",
-				"trans": "Mať účet?"
-			},
-			"registerButton": {
-				"eng": "Create Account",
-				"trans": "Register"
-			},
 			"terms": {
 				"eng": "By creating an account, you agree to our",
 				"trans": "Vytvorením účtu súhlasíte s našim"

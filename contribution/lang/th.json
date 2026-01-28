@@ -61,11 +61,11 @@
 			"paypalBonus": {
 				"eng": "You will receive additional 10% more Units with paypal purchase",
 				"trans": "คุณจะได้รับหน่วยเพิ่มเติม 10% พร้อมการซื้อ PayPal"
-			},
-			"paypalBonusTitle": {
-				"eng": "All PayPal purchases grants 10% additional Units! You may use paypal only on website version, simply login with your browser.",
-				"trans": "การซื้อ PayPal ทั้งหมดมอบหน่วยเพิ่มเติม 10%!"
 			}
+		},
+		"paypalBonusDescription": {
+			"eng": "Extra Units with all PayPal purchases",
+			"trans": "เพิ่มหน่วยทุกครั้งที่ซื้อผ่าน PayPal"
 		},
 		"purchasing": {
 			"eng": "Purchasing",
@@ -1227,6 +1227,20 @@
 			"trans": "ข้อความระบบ"
 		}
 	},
+	"chatAttachmentMenu": {
+		"addImage": {
+			"eng": "Add Image",
+			"trans": "เพิ่มรูปภาพ"
+		},
+		"rollDice": {
+			"eng": "Roll Dice",
+			"trans": "ทอยลูกเต๋า"
+		},
+		"shareItem": {
+			"eng": "Share Item",
+			"trans": "แชร์ไอเทม"
+		}
+	},
 	"chatExploit": {
 		"loveWords": {
 			"eng": [
@@ -1746,7 +1760,7 @@
 			"trans": "ยกเลิก"
 		},
 		"close": {
-			"eng": "Close",
+			"eng": "TERMINATE",
 			"trans": "ปิด"
 		},
 		"confirm": {
@@ -1927,6 +1941,70 @@
 			}
 		}
 	},
+	"dice": {
+		"modal": {
+			"description": {
+				"eng": "Roll a dice in chat for everyone to see!",
+				"trans": "โยนลูกเต๋าในแชทเพื่อให้ทุกคนเห็น!"
+			},
+			"howToGet": {
+				"eng": "Get Lucky Dice from AFK farming, dungeon drops, or buy from ${npc}.",
+				"trans": "รับลูกเต๋าโชคได้จาก AFK farming, drop ในถ้ำ, หรือซื้อจาก ${npc}",
+				"vars": [
+					"npc"
+				]
+			},
+			"roll": {
+				"eng": "Roll Dice",
+				"trans": "ทอยลูกเต๋า"
+			},
+			"title": {
+				"eng": "🎲 Roll Dice",
+				"trans": "ทอยลูกเต๋า"
+			},
+			"youHave": {
+				"eng": "You have ${count} Lucky Dice",
+				"trans": "คุณมี ${count} ลูกเต๋าโชคดี",
+				"vars": [
+					"count"
+				]
+			}
+		},
+		"roll": {
+			"cooldown": {
+				"eng": "You've used all ${maxRolls} dice rolls. Try again in ${minutes} minute(s)",
+				"trans": "คุณใช้หมดแล้ว ${maxRolls} ครั้ง ลองใหม่ใน ${minutes} นาที",
+				"vars": [
+					"maxRolls",
+					"minutes"
+				]
+			},
+			"invalidChannel": {
+				"eng": "Invalid chat channel",
+				"trans": "ช่องแชทไม่ถูกต้อง"
+			},
+			"noDice": {
+				"eng": "You need a Lucky Dice to roll!",
+				"trans": "คุณต้องมีลูกเต๋าโชคดีเพื่อทอย!"
+			},
+			"result": {
+				"eng": "${slanc}: ${player} rolled a ${result}! 🎲",
+				"trans": "${slanc}: ${player} ทอยแล้วได้ ${result}!",
+				"vars": [
+					"slanc",
+					"player",
+					"result"
+				]
+			},
+			"success": {
+				"eng": "You rolled a ${result}!",
+				"trans": "คุณทอยได้ ${result}!",
+				"vars": [
+					"result"
+				]
+			}
+		}
+	},
 	"displayShelf": {
 		"error": {
 			"invalidSlot": {
@@ -2013,6 +2091,10 @@
 			"sendImage": {
 				"eng": "Send images in mail to players who added you as friend",
 				"trans": "ส่งรูปให้เพื่อนที่แอดมาทางจดหมายได้"
+			},
+			"shareItemInChat": {
+				"eng": "Share items in chat",
+				"trans": "แชร์ไอเทมในแชท"
 			},
 			"title": {
 				"eng": "\"${name}\" donation title",
@@ -2278,6 +2360,10 @@
 			"eng": "Golden New Year",
 			"trans": "ปีใหม่ทองคำ"
 		},
+		"donation48": {
+			"eng": "Lunar Stallion",
+			"trans": "ม้าแสงจันทร์"
+		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
 			"trans": "มันฝรั่งไซเบอร์เนติก"
@@ -2301,6 +2387,322 @@
 		"moderator": {
 			"eng": "Moderator",
 			"trans": "พิธีกร"
+		}
+	},
+	"dumpling": {
+		"action": {
+			"fold": {
+				"eng": "Fold",
+				"trans": "ยุบ"
+			}
+		},
+		"button": {
+			"subtitle": {
+				"eng": "LUNAR PROTOCOL",
+				"trans": "ครัวจันทร์"
+			},
+			"title": {
+				"eng": "DUMPLING MASTER",
+				"trans": "เจ้านายขนมจีบ"
+			}
+		},
+		"chef": {
+			"correct1": {
+				"eng": "Excellent technique!",
+				"trans": "เทคนิคยอดเยี่ยม!"
+			},
+			"correct2": {
+				"eng": "Just like grandma used to make!",
+				"trans": "เหมือนกับที่ยายเคยทำเลย!"
+			},
+			"correct3": {
+				"eng": "Perfect fold!",
+				"trans": "พับได้สุดยอด!"
+			},
+			"correct4": {
+				"eng": "Beautiful work!",
+				"trans": "ยอดเยี่ยมเลย!"
+			},
+			"correct5": {
+				"eng": "That's the spirit!",
+				"trans": "เย้! จิตวิญญาณของคุณยอดเยี่ยม!"
+			},
+			"encourage1": {
+				"eng": "Keep going!",
+				"trans": "ต่อไปเลย!"
+			},
+			"encourage2": {
+				"eng": "You're doing great!",
+				"trans": "คุณทำเก่งเลยนะ!"
+			},
+			"encourage3": {
+				"eng": "Almost there!",
+				"trans": "เกือบเสร็จแล้ว!"
+			},
+			"encourage4": {
+				"eng": "Stay focused!",
+				"trans": "อย่าลืมโฟกัส!"
+			},
+			"timeWarn1": {
+				"eng": "Hurry! Time is running out!",
+				"trans": "รีบเลย! เวลากำลังหมด!"
+			},
+			"timeWarn2": {
+				"eng": "Faster! Faster!",
+				"trans": "รีบเร็ว ๆ! รีบเร็ว ๆ!"
+			},
+			"timeWarn3": {
+				"eng": "The clock is ticking!",
+				"trans": "เวลาเริ่มหมดแล้ว!"
+			},
+			"wrong1": {
+				"eng": "Not quite right...",
+				"trans": "ยังไม่ถูกต้องเลย..."
+			},
+			"wrong2": {
+				"eng": "Try again!",
+				"trans": "ลองใหม่!"
+			},
+			"wrong3": {
+				"eng": "Focus on the recipe!",
+				"trans": "โฟกัสกับสูตรเลย!"
+			},
+			"wrong4": {
+				"eng": "Careful now!",
+				"trans": "ระวังนะ!"
+			},
+			"wrong5": {
+				"eng": "Watch the order!",
+				"trans": "ตรวจสอบคำสั่งให้ดี!"
+			}
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The Lunar New Year event has ended!",
+				"trans": "กิจกรรมปีใหม่จันทรคติเสร็จแล้ว!"
+			},
+			"noPass": {
+				"eng": "You need a Lunar Chef Pass to play! Find them in dungeon chests or from AFK farming.",
+				"trans": "ต้องมี Lunar Chef Pass เพื่อเล่น! หาพาสได้จาก chest dungeon หรือทำ AFK farming."
+			}
+		},
+		"error": {
+			"title": {
+				"eng": "SYSTEM ERROR",
+				"trans": "ข้อผิดพลาดของระบบ"
+			}
+		},
+		"game": {
+			"orders": {
+				"eng": "QUOTA",
+				"trans": "คำสั่ง"
+			},
+			"recipe": {
+				"eng": "RECIPE SEQUENCE",
+				"trans": "สูตร"
+			},
+			"time": {
+				"eng": "TIMER",
+				"trans": "เวลา"
+			}
+		},
+		"gameOver": {
+			"noRewards": {
+				"eng": "NO DATA SECURED",
+				"trans": "ขนมจีบยังไม่ครบ ทำไม่ได้! พาส์ของคุณได้ถูกใช้ไปแล้ว."
+			}
+		},
+		"ingredient": {
+			"cabbage": {
+				"eng": "Cabbage",
+				"trans": "กะหล่ำปลี"
+			},
+			"chives": {
+				"eng": "Chives",
+				"trans": "ต้นหอมฝรั่ง"
+			},
+			"dough": {
+				"eng": "Dough",
+				"trans": "แป้ง"
+			},
+			"mushroom": {
+				"eng": "Mushroom",
+				"trans": "เห็ด"
+			},
+			"pork": {
+				"eng": "Pork",
+				"trans": "หมู"
+			},
+			"shrimp": {
+				"eng": "Shrimp",
+				"trans": "กุ้ง"
+			},
+			"spice": {
+				"eng": "Spice",
+				"trans": "เครื่องเทศ"
+			}
+		},
+		"intro": {
+			"authorized": {
+				"eng": "AUTHORIZED",
+				"trans": "ได้รับอนุญาต"
+			},
+			"eventEnded": {
+				"eng": "EVENT TERMINATED",
+				"trans": "เหตุการณ์จบแล้ว"
+			},
+			"howToPlay": {
+				"eng": "MISSION PARAMETERS",
+				"trans": "กฎเกณฑ์ครัว"
+			},
+			"missing": {
+				"eng": "REQUIRED",
+				"trans": "จำเป็น"
+			},
+			"needPass": {
+				"eng": "ACCESS DENIED",
+				"trans": "ต้องมี Pass"
+			},
+			"passName": {
+				"eng": "Lunar Chef Pass",
+				"trans": "พาสเชฟดวงจันทร์"
+			},
+			"rule1": {
+				"eng": "Analyze recipe sequence",
+				"trans": "สังเกตลำดับสูตรอย่างรอบคอบ"
+			},
+			"rule2": {
+				"eng": "Execute ingredient assembly",
+				"trans": "ใส่วัตถุดิบตามลำดับที่ถูกต้อง"
+			},
+			"rule3": {
+				"eng": "Complete objectives within time limit",
+				"trans": "ทำคำสั่งให้เสร็จก่อนหมดเวลา"
+			},
+			"startButton": {
+				"eng": "INITIATE SEQUENCE",
+				"trans": "เริ่มทำอาหาร"
+			},
+			"subtitle": {
+				"eng": "TACTICAL COOKING PROTOCOL",
+				"trans": "ครัวดวงจันทร์"
+			}
+		},
+		"loading": {
+			"processing": {
+				"eng": "CALCULATING RESULTS",
+				"trans": "กำลังเตรียมผลลัพธ์..."
+			},
+			"title": {
+				"eng": "INITIALIZING SYSTEM",
+				"trans": "กำลังอุ่นกระทะ..."
+			}
+		},
+		"preview": {
+			"addFilling": {
+				"eng": "ADD FILLING",
+				"trans": "เพิ่มไส้"
+			},
+			"folding": {
+				"eng": "SEALING",
+				"trans": "กำลังพับ…"
+			},
+			"ingredients": {
+				"eng": "ASSEMBLING... ${count}",
+				"trans": "${count} ส่วนผสม",
+				"vars": [
+					"count"
+				]
+			},
+			"perfect": {
+				"eng": "COMPLETE",
+				"trans": "ยอดเยี่ยม!"
+			},
+			"waiting": {
+				"eng": "WAITING",
+				"trans": "กำลังรอ..."
+			}
+		},
+		"results": {
+			"collect": {
+				"eng": "CLAIM REWARDS",
+				"trans": "รับรางวัล"
+			},
+			"ended": {
+				"eng": "TIME'S UP",
+				"trans": "หมดเวลา!"
+			},
+			"master": {
+				"eng": "DUMPLING MASTER",
+				"trans": "มาสเตอร์ไส้อั่ว!"
+			},
+			"rewards": {
+				"eng": "MISSION REWARDS",
+				"trans": "รางวัล"
+			}
+		},
+		"stageComplete": {
+			"allDone": {
+				"eng": "ALL STAGES CLEARED",
+				"trans": "ทุกระดับสำเร็จแล้ว!"
+			},
+			"continuing": {
+				"eng": "ADVANCING",
+				"trans": "กำลังดำเนินต่อไป"
+			},
+			"label": {
+				"eng": "STAGE COMPLETE",
+				"trans": "เสร็จแล้ว"
+			},
+			"nextStage": {
+				"eng": "LOADING STAGE ${next}",
+				"trans": "เตรียมตัวสู่ระดับ ${next}",
+				"vars": [
+					"next"
+				]
+			},
+			"title": {
+				"eng": "OBJECTIVE MET",
+				"trans": "ยอดเยี่ยม!"
+			}
+		},
+		"title": {
+			"eng": "DUMPLING MASTER",
+			"trans": "หัวหน้าติ่มซำ"
+		},
+		"transition": {
+			"easy": {
+				"eng": "CLEARANCE-L",
+				"trans": "มือใหม่"
+			},
+			"hard": {
+				"eng": "CLEARANCE-H",
+				"trans": "มาสเตอร์"
+			},
+			"medium": {
+				"eng": "CLEARANCE-M",
+				"trans": "ระดับกลาง"
+			},
+			"orders": {
+				"eng": "QUOTA",
+				"trans": "คำสั่ง"
+			},
+			"preparing": {
+				"eng": "LOADING SEQUENCE...",
+				"trans": "กำลังจัดเตรียมครัว…"
+			},
+			"stage": {
+				"eng": "STAGE",
+				"trans": "ระยะ"
+			},
+			"steps": {
+				"eng": "STEPS",
+				"trans": "ขั้นตอน"
+			},
+			"time": {
+				"eng": "LIMIT",
+				"trans": "เวลา"
+			}
 		}
 	},
 	"dungeon": {
@@ -3321,6 +3723,10 @@
 	"gameEvent": {
 		"christmas": {
 			"eng": "Christmas",
+			"eventGame": {
+				"eng": "Santa's Workshop",
+				"trans": "โรงงานของซานต้า"
+			},
 			"trans": "คริสต์มาส"
 		},
 		"easter": {
@@ -3346,6 +3752,10 @@
 		},
 		"lunarNewYear": {
 			"eng": "Lunar New Year",
+			"eventGame": {
+				"eng": "Lunar Kitchen",
+				"trans": "ครัวดวงจันทร์"
+			},
 			"skipDiscountTitle": {
 				"eng": "Lunar New Year Discount",
 				"trans": "ส่วนลดปีใหม่จีน"
@@ -3360,6 +3770,10 @@
 		},
 		"newYear": {
 			"eng": "New Year",
+			"eventGame": {
+				"eng": "Fireworks Show",
+				"trans": "โชว์พลุ"
+			},
 			"skipDiscountTitle": {
 				"eng": "New Year Discount",
 				"trans": "ส่วนลดปีใหม่"
@@ -3462,13 +3876,24 @@
 			"eng": "Early contributors receive higher discounts!",
 			"trans": "ผู้ที่เข้าร่วมตั้งแต่แรกจะได้รับส่วนลดสูงกว่า!"
 		},
-		"lootCrateDesc": {
-			"eng": "Special items available in dungeon loot crates:",
-			"trans": "ไอเทมสุดพิเศษรออยู่ในกล่องสมบัติจากดันเจี้ยน:"
+		"eventGameDesc": {
+			"eng": "Play ${gameName} using ${passName} for bonus rewards!",
+			"trans": "เล่น ${gameName} ด้วย ${passName} เพื่อรับรางวัลโบนัส!",
+			"vars": [
+				"gameName",
+				"passName"
+			]
 		},
-		"lootTitle": {
-			"eng": "Dungeon Loot Crates",
-			"trans": "ของรางวัลพิเศษ"
+		"eventShop": {
+			"eng": "Event Shop",
+			"trans": "ร้านอีเวนต์"
+		},
+		"eventShopDesc": {
+			"eng": "Visit ${npcName} for exclusive seasonal items!",
+			"trans": "เยี่ยม ${npcName} เพื่อรับไอเท็มพิเศษตามฤดูกาล!",
+			"vars": [
+				"npcName"
+			]
 		},
 		"monsterDrops": {
 			"eng": "Monster Drops",
@@ -3527,9 +3952,9 @@
 			"eng": "Express yourself with dazzling event-themed chat effects",
 			"trans": "แสดงออกถึงตัวตนของคุณด้วยเอฟเฟกต์แชทธีมงานสุดตระการตา"
 		},
-		"lootCrate": {
-			"eng": "Discover limited-time treasures in exclusive event loot crates",
-			"trans": "ค้นพบสมบัติที่มีจำนวนจำกัดในกล่องของขวัญจากกิจกรรมพิเศษ"
+		"dungeonDrops": {
+			"eng": "Collect bonus items from dungeon chests during the event",
+			"trans": "รับไอเทมโบนัสจากกล่องดันเจี้ยนระหว่างกิจกรรม"
 		},
 		"partyDiscount": {
 			"eng": "Team up and save with exclusive party contribution discounts",
@@ -3944,6 +4369,20 @@
 				"current",
 				"max"
 			]
+		}
+	},
+	"insufficientUnitsModal": {
+		"cancel": {
+			"eng": "Cancel",
+			"trans": "ยกเลิก"
+		},
+		"getUnits": {
+			"eng": "Get Units",
+			"trans": "ซื้อหน่วย"
+		},
+		"title": {
+			"eng": "Insufficient Units",
+			"trans": "หน่วยไม่เพียงพอ"
 		}
 	},
 	"inventory": {
@@ -4589,7 +5028,7 @@
 		"globalPartyBuff": {
 			"announcement": {
 				"eng": "🎉Its Party Time!🥳, reduce AFK time by ${afkPercent}%, increased BTC gained by ${btcPercent}%, increase EXP gained by ${expPercent}%",
-				"trans": "🎉itsเวลาปาร์ตี้! 🥳ลดเวลา AFK ลง ${afkPercent}%เพิ่ม BTC ที่ได้รับ ${btcPercent}%เพิ่ม EXP ที่ได้รับ ${expPercent}%",
+				"trans": "เป็นช่วง Party Time! ลดเวลา AFK ลง ${afkPercent}%, BTC ที่ได้รับเพิ่มขึ้น ${btcPercent}%, EXP เพิ่มขึ้น ${expPercent}%",
 				"vars": [
 					"afkPercent",
 					"btcPercent",
@@ -4890,6 +5329,16 @@
 				"trans": "ชุดประกอบเฟอร์นิเจอร์พรีเมียม"
 			}
 		},
+		"inscriptionChip": {
+			"description": {
+				"eng": "A digital inscription chip used to rename equipment. comsumed when renaming equipment",
+				"trans": "ชิปลงรอยดิจิทัลสำหรับเปลี่ยนชื่ออุปกรณ์ ใช้ไปเมื่อทำการเปลี่ยนชื่อ"
+			},
+			"name": {
+				"eng": "Inscription Chip",
+				"trans": "ชิปจารึก"
+			}
+		},
 		"keyFragment": {
 			"description": {
 				"eng": "A secret key Fragment used to brute-force a secret key.\n                                Use the Terminal at city center [Hub] to brute-force a ${segmentDisplayName} secret key.\n                                You can acquire each of the 3 required keys in each dungeon (both normal or challenge),\n                                when you acquired 3 keys, you may use Terminal to brute-force (Craft) a key to the next area",
@@ -4941,6 +5390,26 @@
 			"name": {
 				"eng": "lower armor",
 				"trans": "กางเกง"
+			}
+		},
+		"luckyDice": {
+			"description": {
+				"eng": "A holographic six-sided die you can use in chat. The system rolls a random number from 1 to 6 and posts the result to chat. 🎲",
+				"trans": "ลูกเต๋าโฮโลกราฟิกหกด้านที่คุณสามารถใช้ในแชท ระบบจะโยนเลขสุ่มจาก 1 ถึง 6 แล้วโพสต์ผลลัพธ์ไปยังแชท 🎲"
+			},
+			"name": {
+				"eng": "Lucky Dice",
+				"trans": "ลูกเต๋าโชคดี"
+			}
+		},
+		"lunarChefPass": {
+			"description": {
+				"eng": "A special pass required to participate in the Dumpling Master event game. Can be found in Dungeon Chests or from AFK farming during the Lunar New Year event.",
+				"trans": "บัตรพิเศษที่จำเป็นสำหรับเข้าร่วมกิจกรรมเกม Dumpling Master พบได้ในกล่องดันเจนหรือจากการทำ AFK ระหว่างเทศกาลปีใหม่จันทรคติ"
+			},
+			"name": {
+				"eng": "Lunar Chef Pass",
+				"trans": "พาสเชฟจันทรา"
 			}
 		},
 		"lunarCoin": {
@@ -5108,7 +5577,7 @@
 			},
 			"error": {
 				"eng": "This item is only available during Christmas Event",
-				"trans": "รายการนี้มีให้เฉพาะในช่วงวันคริสต์มาส"
+				"trans": "รายการนี้ใช้ได้เฉพาะในช่วงเทศกาลคริสต์มาส"
 			},
 			"name": {
 				"eng": "Christmas Pudding",
@@ -5156,6 +5625,30 @@
 			"name": {
 				"eng": "Rare Equipment Crate",
 				"trans": "ลังอุปกรณ์หายาก"
+			}
+		},
+		"rename": {
+			"aiRejected": {
+				"eng": "Name was rejected by automated moderation, please try again with a different name",
+				"trans": "ชื่อถูกปฏิเสธโดยระบบตรวจสอบอัตโนมัติ กรุณาใช้ชื่ออื่น"
+			},
+			"inappropriate": {
+				"eng": "Name contains inappropriate content",
+				"trans": "ชื่อมีเนื้อหาที่ไม่เหมาะสม"
+			},
+			"rateLimited": {
+				"eng": "Too many rename attempts. Please try again in ${minutes} minute(s)",
+				"trans": "มีการพยายามเปลี่ยนชื่อเกินจำนวนครั้ง กรุณารออีก ${minutes} นาที",
+				"vars": [
+					"minutes"
+				]
+			},
+			"success": {
+				"eng": "Item renamed to \"${name}\"",
+				"trans": "ไอเทมถูกเปลี่ยนชื่อเป็น \\\"${name}\\\"",
+				"vars": [
+					"name"
+				]
 			}
 		},
 		"riceCake": {
@@ -5276,13 +5769,13 @@
 			},
 			"notAvailableError": {
 				"eng": "This item is only available during Summer Event",
-				"trans": "ไอเทมนี้มีให้เฉพาะในงาน Summer Event เท่านั้น"
+				"trans": "ไอเทมนี้มีจำหน่ายเฉพาะในช่วงกิจกรรมฤดูร้อน"
 			}
 		},
 		"summonAI": {
 			"announcement": {
 				"eng": "SLANC has entered the chat",
-				"trans": "Slanc ได้เข้าสู่การแชท"
+				"trans": "SLANC เข้าร่วมแชทแล้ว"
 			},
 			"description": {
 				"eng": "Use SLANC Connector to connect SLANC to global chat for ${minute} minutes",
@@ -5376,6 +5869,21 @@
 			"name": {
 				"eng": "Roasted Turkey",
 				"trans": "ไก่งวงย่าง"
+			}
+		},
+		"undoRename": {
+			"mailMessageInbox": {
+				"eng": "${moderatorName} has undone the rename of your item ${itemName}, an ${chipName} has been sent to your item inbox.",
+				"trans": "${moderatorName} has undone the rename of your item ${itemName}, 1 ${chipName} have been sent to your item inbox.",
+				"vars": [
+					"moderatorName",
+					"itemName",
+					"chipName"
+				]
+			},
+			"success": {
+				"eng": "Rename undone. Player received compensation.",
+				"trans": "ยกเลิกการเปลี่ยนชื่อสำเร็จ ผู้เล่นได้รับค่าชดเชย"
 			}
 		},
 		"unknownCache": {
@@ -5606,6 +6114,32 @@
 				"eng": "Player contributed content",
 				"trans": "ผู้เล่นบริจาคเนื้อหา"
 			}
+		}
+	},
+	"itemRenameHistory": {
+		"currentName": {
+			"eng": "Current Name",
+			"trans": "ชื่อปัจจุบัน"
+		},
+		"description": {
+			"eng": "Track of all name changes for this item",
+			"trans": "ประวัติการเปลี่ยนชื่อของไอเทมนี้"
+		},
+		"empty": {
+			"eng": "No rename history",
+			"trans": "ไม่มีประวัติการเปลี่ยนชื่อ"
+		},
+		"original": {
+			"eng": "Original Name",
+			"trans": "ชื่อเดิม"
+		},
+		"timeline": {
+			"eng": "Timeline",
+			"trans": "ไทม์ไลน์"
+		},
+		"title": {
+			"eng": "Rename History",
+			"trans": "ประวัติการเปลี่ยนชื่อ"
 		}
 	},
 	"itemStack": {
@@ -5855,6 +6389,413 @@
 					"eng": "Market",
 					"trans": "ตลาด"
 				}
+			}
+		}
+	},
+	"landingPage": {
+		"features": {
+			"browserBased": {
+				"description": {
+					"eng": "No downloads, no installs. Play instantly on any device with a browser.",
+					"trans": "ไม่ต้องดาวน์โหลด ไม่ต้องติดตั้ง เล่นได้เลยบนอุปกรณ์ใดก็ได้ผ่านเว็บ"
+				},
+				"title": {
+					"eng": "Browser Based",
+					"trans": "บนเว็บเบราว์เซอร์"
+				}
+			},
+			"community": {
+				"description": {
+					"eng": "No PvP. 50k+ Discord members. Wholesome vibes only.",
+					"trans": "PvP ไม่ได้เลย! Discord มีสมาชิกเกิน 50,000 คน! บรรยากาศสุขสันต์อย่างเดียว"
+				},
+				"title": {
+					"eng": "Friendly Community",
+					"trans": "ชุมชนเป็นกันเอง"
+				}
+			},
+			"coreFeatures": {
+				"eng": "Core Features",
+				"trans": "ฟีเจอร์หลัก"
+			},
+			"crafting": {
+				"description": {
+					"eng": "Forge weapons, print gear, cook buffs. Turn raw loot into endgame builds.",
+					"trans": "สร้างอาวุธ พิมพ์อุปกรณ์ ปรุงบัฟ – เปลี่ยนไอเทมดิบให้กลายเป็นบิวด์ระดับสูงสุด"
+				},
+				"title": {
+					"eng": "Deep Crafting",
+					"trans": "คราฟต์ลึก"
+				}
+			},
+			"crossPlatform": {
+				"description": {
+					"eng": "Progress syncs across all devices. Start on PC, continue on mobile.",
+					"trans": "ความคืบหน้าจะซิงค์กับอุปกรณ์ทั้งหมด เริ่มเล่นบนพีซี แล้วต่อเนื่องบนมือถือ"
+				},
+				"title": {
+					"eng": "Cross Platform",
+					"trans": "ข้ามแพลตฟอร์ม"
+				}
+			},
+			"economy": {
+				"description": {
+					"eng": "Player-driven marketplace. Trade, sell, and build your fortune.",
+					"trans": "ตลาดโดยผู้เล่น: แลกเปลี่ยน, ขาย และสร้างความร่ำรวยของคุณ"
+				},
+				"title": {
+					"eng": "Player Economy",
+					"trans": "ระบบเศรษฐกิจผู้เล่น"
+				}
+			},
+			"events": {
+				"description": {
+					"eng": "Regular limited-time events with exclusive rewards and unique gameplay.",
+					"trans": "กิจกรรมจำกัดเวลาเป็นประจำ พร้อมรางวัลพิเศษและเกมเพลย์ที่ไม่เหมือนใคร"
+				},
+				"title": {
+					"eng": "Seasonal Events",
+					"trans": "อีเวนท์ตามฤดูกาล"
+				}
+			},
+			"gangs": {
+				"description": {
+					"eng": "Team up, climb leaderboards, unlock perks. Stronger together.",
+					"trans": "ร่วมทีม ขึ้นตารางคะแนน ปลดล็อกความสามารถ แข็งแรงขึ้นเมื่อรวมกัน"
+				},
+				"title": {
+					"eng": "Join a Gang",
+					"trans": "เข้าร่วมกองโจร"
+				}
+			},
+			"globalBuffs": {
+				"description": {
+					"eng": "When someone donates, the ENTIRE server gets the buff. Community-powered progression.",
+					"trans": "เมื่อมีใครให้บริจาค เซิร์ฟเวอร์ทั้งหมดจะได้รับบัฟ ความก้าวหน้านี้ขับเคลื่อนด้วยพลังของชุมชน"
+				},
+				"title": {
+					"eng": "Global Buffs",
+					"trans": "บัฟทั่วโลก"
+				}
+			},
+			"housing": {
+				"description": {
+					"eng": "Own apartments from slums to penthouses. Decorate and customize your space.",
+					"trans": "ครอบครองอพาร์ตเมนต์ตั้งแต่ซอยจนถึงเพนท์เฮ้าส์ ตกแต่งและปรับเปลี่ยนพื้นที่ของคุณเอง"
+				},
+				"title": {
+					"eng": "Housing System",
+					"trans": "ระบบที่อยู่อาศัย"
+				}
+			},
+			"idlePlay": {
+				"description": {
+					"eng": "AFK farming when busy, engage in mini-games when active. Play your way.",
+					"trans": "เก็บผลผลิตแบบ AFK เมื่อคุณกำลังทำงาน, เล่นมินิเกมเมื่อพร้อม แล้วสนุกตามสไตล์ของคุณ"
+				},
+				"title": {
+					"eng": "Idle + Active",
+					"trans": "โหมดพัก + โหมดทำงาน"
+				}
+			},
+			"miniGames": {
+				"description": {
+					"eng": "Unlock loot the fun way. Quick puzzles, hacking sims, and more—never just click and wait.",
+					"trans": "ปลดล็อกของรางวัลแบบสนุก! เกมปริศนาไว, จำลองการแฮ็ก และอื่น ๆ — ไม่ต้องกดแล้วรอเพียงอย่างเดียว"
+				},
+				"title": {
+					"eng": "Mini-Games Galore",
+					"trans": "มินิเกมส์มากมาย"
+				}
+			},
+			"noAds": {
+				"description": {
+					"eng": "Zero advertisements. Enjoy uninterrupted gameplay, completely free.",
+					"trans": "ไม่มีโฆษณา เพลิดเพลินกับเกมอย่างต่อเนื่องโดยไม่ต้องเสียเงินทั้งหมดนี้ฟรีครับ"
+				},
+				"title": {
+					"eng": "No Ads Ever",
+					"trans": "ไม่มีโฆษณาเลย"
+				}
+			},
+			"noPayToWin": {
+				"description": {
+					"eng": "All purchases are cosmetic only. No stat boosts, no advantages. Everyone plays on equal footing.",
+					"trans": "การซื้อทั้งหมดเป็นเพียงอุปกรณ์ตกแต่งเท่านั้น ไม่เพิ่มสถิติหรือข้อได้เปรียบ ผู้เล่นทุกคนจึงอยู่ในฐานะเดียวกัน"
+				},
+				"title": {
+					"eng": "Zero Pay-to-Win",
+					"trans": "ไม่ต้องจ่ายเพื่อชัยชนะ"
+				}
+			},
+			"pets": {
+				"description": {
+					"eng": "Adopt virtual pets. Feed, care for, and watch them grow. Tamagotchi vibes.",
+					"trans": "รับสัตว์เลี้ยงดิจิตอล  \nให้กิน ดูแล และติดตามการเติบโตของพวกเขา  \nสไตล์แทมาจ็อคิ"
+				},
+				"title": {
+					"eng": "Pet Companions",
+					"trans": "สัตว์เลี้ยงคู่เดิน"
+				}
+			},
+			"playOn": {
+				"eng": "Play on any device",
+				"trans": "เล่นได้ทุกอุปกรณ์"
+			},
+			"signature": {
+				"eng": "Signature",
+				"trans": "ลายเซ็น"
+			},
+			"subtitle": {
+				"eng": "Built different. Plays different.",
+				"trans": "สร้างมาแตกต่าง. เล่นก็ไม่เหมือนใคร"
+			},
+			"title": {
+				"eng": "The MMORPG That Respects Your Time",
+				"trans": "เกม MMORPG ที่เคารพเวลาของคุณ"
+			}
+		},
+		"footer": {
+			"copyright": {
+				"eng": "(C) ${year} CyberCode Online",
+				"trans": "© ${year} CyberCode Online",
+				"vars": [
+					"year"
+				]
+			},
+			"cta": {
+				"eng": "Play Free Now",
+				"trans": "เล่นฟรีเลย"
+			},
+			"discord": {
+				"eng": "Discord",
+				"trans": "Discord"
+			},
+			"github": {
+				"eng": "GitHub",
+				"trans": "GitHub"
+			},
+			"privacy": {
+				"eng": "Privacy Policy",
+				"trans": "นโยบายความเป็นส่วนตัว"
+			},
+			"subtitle": {
+				"eng": "Jump in. Make your mark.",
+				"trans": "เข้ามาเลย แล้วทิ้งร่องรอยของคุณ"
+			},
+			"terms": {
+				"eng": "Terms of Service",
+				"trans": "ข้อกำหนดการให้บริการ"
+			},
+			"title": {
+				"eng": "Your Crew is Waiting",
+				"trans": "ทีมของคุณกำลังรอ"
+			}
+		},
+		"gameplay": {
+			"calibration": {
+				"eng": "Calibrate Gear. Risk It All.",
+				"trans": "ปรับแต่งอุปกรณ์ เสี่ยงทุกอย่าง"
+			},
+			"crafting": {
+				"eng": "Print Loot from Dungeon Caches",
+				"trans": "พิมพ์ของรางวัลจากคาชดันเจี้ยน"
+			},
+			"inventory": {
+				"eng": "Manage Your Arsenal",
+				"trans": "จัดการอาวุธของคุณ"
+			},
+			"paused": {
+				"eng": "Paused",
+				"trans": "หยุดเล่น"
+			},
+			"profile": {
+				"eng": "Track Your Legend",
+				"trans": "ติดตามตำนานของคุณ"
+			},
+			"subtitle": {
+				"eng": "See It In Action",
+				"trans": "มาดูแอคชั่น"
+			},
+			"title": {
+				"eng": "Real Gameplay",
+				"trans": "การเล่นจริง"
+			}
+		},
+		"hero": {
+			"cta": {
+				"eng": "Play Now - It's Free",
+				"trans": "เล่นเลย – ฟรี"
+			},
+			"description": {
+				"eng": "A cyberpunk MMORPG with zero pay-to-win. Play free in your browser.",
+				"trans": "เกม MMORPG cyberpunk ที่ไม่มีระบบ pay‑to‑win เล่นฟรีได้เลยบนเบราว์เซอร์ของคุณ"
+			},
+			"scrollHint": {
+				"eng": "Scroll to explore",
+				"trans": "เลื่อนเพื่อสำรวจ"
+			},
+			"socialProof": {
+				"players": {
+					"eng": "1M+ Registers",
+					"trans": "1 ล้าน+ ผู้ลงทะเบียน"
+				}
+			}
+		},
+		"preview": {
+			"crafting": {
+				"description": {
+					"eng": "Craft weapons, armor, and mods. Use caches from dungeons.",
+					"trans": "สร้างอาวุธ เกราะและมอด. ใช้แคชจากดันเจี้ยน."
+				},
+				"title": {
+					"eng": "Equipment Crafting",
+					"trans": "สร้างอุปกรณ์"
+				}
+			},
+			"dungeons": {
+				"description": {
+					"eng": "Solo or co-op. Procedurally generated dungeons with rare loot drops.",
+					"trans": "เล่นคนเดียวหรือร่วมทีม ดันเจี้ยนที่สร้างแบบสุ่มพร้อมไอเทมหายาก"
+				},
+				"title": {
+					"eng": "Endless Dungeons",
+					"trans": "ดันเจี้ยนไร้ขอบเขต"
+				}
+			},
+			"loot": {
+				"description": {
+					"eng": "Multiple tiers, random modifiers, upgrade slots. Chase the perfect roll.",
+					"trans": "หลายระดับ ตัวปรับแต่งสุ่มและช่องอัปเกรด – ไล่หาการทอยที่สมบูรณ์แบบ"
+				},
+				"title": {
+					"eng": "Loot System",
+					"trans": "ระบบเก็บของ"
+				}
+			},
+			"progression": {
+				"description": {
+					"eng": "6 skill trees to master. Level combat, crafting, mining, and more.",
+					"trans": "ทำให้เก่งใน 6 ต้นไม้ทักษะ: ต่อสู้ งานฝีมือ ขุดเหมือง ฯลฯ"
+				},
+				"title": {
+					"eng": "Deep Progression",
+					"trans": "ความคืบหน้าลึก"
+				}
+			},
+			"selectFeature": {
+				"eng": "Select feature",
+				"trans": "เลือกฟีเจอร์"
+			},
+			"social": {
+				"description": {
+					"eng": "Join gangs, chat globally, trade on the market. Make friends.",
+					"trans": "เข้าร่วมแก๊ง แชททั่วโลก แลกเปลี่ยนในตลาด พบเพื่อนใหม่"
+				},
+				"title": {
+					"eng": "Social Hub",
+					"trans": "ศูนย์สังคม"
+				}
+			},
+			"subtitle": {
+				"eng": "Deeper than you'd expect",
+				"trans": "ลึกเกินที่คุณคิด"
+			},
+			"systemLabel": {
+				"eng": "SYSTEM // FEATURES",
+				"trans": "ระบบ // ฟีเจอร์"
+			},
+			"title": {
+				"eng": "Get Lost in the Grind",
+				"trans": "จมตัวไปกับ Grind"
+			},
+			"upgrade": {
+				"description": {
+					"eng": "Calibrate gear for stat boosts. High risk, high reward.",
+					"trans": "ปรับอุปกรณ์ให้เต็มกำลัง เพิ่มสถิติ เสี่ยงแรงแต่คุ้มค่ามาก!"
+				},
+				"title": {
+					"eng": "Equipment Upgrade",
+					"trans": "อัปเกรดอุปกรณ์"
+				}
+			}
+		},
+		"testimonials": {
+			"subtitle": {
+				"eng": "Real runners. Real opinions.",
+				"trans": "นักวิ่งแท้ ความคิดเห็นแท้"
+			},
+			"title": {
+				"eng": "The Verdict Is In",
+				"trans": "คำตอบของผู้เล่นมาถึงแล้ว"
+			}
+		},
+		"world": {
+			"loc": {
+				"coast": {
+					"desc": {
+						"eng": "Not all battles are fought with weapons. Unwind on pristine shores, master the art of crafting, or just watch the sunset.",
+						"trans": "ไม่จำเป็นว่าต้องใช้ดาบหรือตัวอาวุธในทุกการต่อสู้. ผ่อนคลายบนชายฝั่งที่สะอาด, เชี่ยวชาญศิลปะการสร้างสรรค์ หรือเพียงแค่ดูพระอาทิตย์ตก."
+					},
+					"name": {
+						"eng": "Crystal Sands",
+						"trans": "ทรายคริสตัล"
+					},
+					"tag": {
+						"eng": "Crafting & Leisure",
+						"trans": "สร้างสรรค์ & ผ่อนคลาย"
+					}
+				},
+				"mainHub": {
+					"desc": {
+						"eng": "Where legends are forged. The neon-lit heart of civilization where runners gather, deals are struck, and your next adventure begins.",
+						"trans": "ที่นี่เป็นสถานที่สร้างตำนาน หัวใจของอารยธรรมส่องประกายไฟนีออน เมื่อนักวิ่งมาพบปะ ทำข้อตกลง และการผจญภัยครั้งต่อไปของคุณก็เริ่มต้น"
+					},
+					"name": {
+						"eng": "Shangri-La City Center",
+						"trans": "ศูนย์กลางเมืองช้างรีลา"
+					},
+					"tag": {
+						"eng": "Central Hub",
+						"trans": "ศูนย์กลาง"
+					}
+				},
+				"market": {
+					"desc": {
+						"eng": "Fortune favors the bold. Hunt for rare gear, flip your loot, or score the deal of a lifetime in the sprawling player bazaar.",
+						"trans": "โชคชะตาให้กับคนกล้า ค้นหาอุปกรณ์หายาก ขายต่อของรางวัล หรือได้ดีลที่สุดในบาซาร์ผู้เล่นขนาดใหญ่"
+					},
+					"name": {
+						"eng": "Market Street",
+						"trans": "ถนนตลาด"
+					},
+					"tag": {
+						"eng": "Player Economy",
+						"trans": "ระบบเศรษฐกิจผู้เล่น"
+					}
+				},
+				"station": {
+					"desc": {
+						"eng": "Your gateway to the unknown. Board the hyperloop and venture into procedurally-generated dungeons filled with danger and epic loot.",
+						"trans": "ประตูสู่ความไม่รู้จักของคุณ ขึ้น Hyperloop แล้วสำรวจดันเจี้ยนที่สร้างแบบอัตโนมัติ เต็มไปด้วยอันตรายและของรางวัลมหาศาล"
+					},
+					"name": {
+						"eng": "Hyper Train Station",
+						"trans": "สถานีรถไฟฮายเปอร์"
+					},
+					"tag": {
+						"eng": "Dungeon Access",
+						"trans": "เข้าถึงดันเจี้ยน"
+					}
+				}
+			},
+			"subtitle": {
+				"eng": "Your next obsession",
+				"trans": "ติดใจครั้งต่อไปของคุณ"
+			},
+			"title": {
+				"eng": "Enter the Sprawl",
+				"trans": "เข้าสู่สแปร์ล"
 			}
 		}
 	},
@@ -6412,57 +7353,23 @@
 		}
 	},
 	"lunarNewYearPromoSmall": {
-		"desc": {
-			"eng": "Receive free ${item1} and ${item2} during the lunar new year 🥳",
-			"trans": "รับฟรี ${item1} และ ${item2} ในช่วงปีใหม่ทางจันทรคติ🥳",
-			"vars": [
-				"item1",
-				"item2"
-			]
+		"desc-v2": {
+			"eng": "Festive rewards & exclusive seasonal items!",
+			"trans": "รางวัลเทศกาลและไอเทมพิเศษตามฤดูกาล!"
 		},
 		"title": {
-			"eng": "Happy Lunar New Year!",
+			"eng": "Lunar New Year!",
 			"trans": "สวัสดีปีใหม่จันทรคติ!"
 		}
 	},
 	"lunarPromo": {
-		"desc1": {
-			"eng": "The lunar new year is here, and we're celebrating in Shang-ri-la with a special event. Join us as we embrace the start of a new year, filled with traditions, joy, and togetherness.",
-			"trans": "ปีใหม่ทางจันทรคติอยู่ที่นี่และเรากำลังฉลองใน Shang-ri-la ด้วยกิจกรรมพิเศษ เข้าร่วมกับเราในขณะที่เราโอบกอดจุดเริ่มต้นของปีใหม่ที่เต็มไปด้วยประเพณีความสุขและการอยู่ร่วมกัน"
-		},
-		"desc2-v2": {
-			"eng": "${npcShopName} is now open for business! You can use ${coinItem} to purchase various special cuisines from ${npcName}!",
-			"trans": "${npcShopName} เปิดให้บริการแล้ว! คุณสามารถใช้ ${coinItem} เพื่อซื้ออาหารพิเศษหลากหลายชนิดจาก ${npcName}!",
-			"vars": [
-				"npcShopName",
-				"coinItem",
-				"npcName"
-			]
-		},
-		"desc3": {
-			"eng": "It's not new year if ${envelopItem} is not involved! Enemies and AI Core auto farm will drop ${envelopItem}, open them to receive random amount of ${coinItem}!",
-			"trans": "ไม่ใช่ปีใหม่ถ้า ${envelopItem} ไม่เกี่ยวข้อง! ศัตรูและ AI Core Auto Farm จะลดลง ${envelopItem}, เปิดพวกเขาเพื่อรับเงินสุ่มของ ${coinItem}!",
-			"vars": [
-				"envelopItem",
-				"coinItem"
-			]
+		"desc": {
+			"eng": "Celebrate the Year of the horse with festive rewards and special events!",
+			"trans": "เฉลิมฉลองปีม้าด้วยรางวัลและกิจกรรมพิเศษ!"
 		},
 		"title": {
-			"eng": "Happy Lunar New year!",
+			"eng": "Happy Lunar New Year!",
 			"trans": "สวัสดีปีใหม่จันทรคติ!"
-		}
-	},
-	"lunarPromo1": {
-		"desc4": {
-			"eng": "Get free ${itemName} base on top up package!",
-			"trans": "รับฟรี ${itemName} ฐานบนแพ็คเกจท็อปอัพ!",
-			"vars": [
-				"itemName"
-			]
-		},
-		"desc5": {
-			"eng": "Added new time limited chat frame and emblems, only purchasable during event period.",
-			"trans": "เพิ่มกรอบการแชทและตราสัญลักษณ์ จำกัด เวลาใหม่ซื้อได้เฉพาะในช่วงระยะเวลาเหตุการณ์"
 		}
 	},
 	"mail": {
@@ -6992,6 +7899,22 @@
 				"trans": "การควบคุมวงจรประสาท"
 			}
 		},
+		"circuitRotation": {
+			"instructions": {
+				"eng": "Tap tiles to rotate. Connect source to target.",
+				"trans": "แตะสี่เหลี่ยมเพื่อหมุน. เชื่อมต้นทางกับปลายทาง."
+			},
+			"title": {
+				"eng": "CIRCUIT ROTATION",
+				"trans": "หมุนวงจร"
+			},
+			"win": {
+				"title": {
+					"eng": "ESTABLISHED",
+					"trans": "ตั้งขึ้นแล้ว"
+				}
+			}
+		},
 		"common": {
 			"retry": {
 				"eng": "RETRY",
@@ -7303,10 +8226,6 @@
 				"time"
 			]
 		},
-		"password": {
-			"eng": "Password",
-			"trans": "รหัสผ่าน"
-		},
 		"purchase": {
 			"eng": "Purchase",
 			"trans": "ซื้อ"
@@ -7358,6 +8277,36 @@
 		"returnToAppMessage": {
 			"eng": "Syncing with server..",
 			"trans": "ซิงค์กับเซิร์ฟเวอร์ .."
+		}
+	},
+	"mobileItemDisplay": {
+		"insufficientUnitsForRename": {
+			"eng": "You need ${required} Units to rename this item. You currently have ${current} Units.",
+			"trans": "คุณต้องใช้ ${required} หน่วยเพื่อเปลี่ยนชื่อไอเทมนี้ แต่คุณมีเพียง ${current} หน่วย",
+			"vars": [
+				"required",
+				"current"
+			]
+		}
+	},
+	"mod": {
+		"undoRename": {
+			"button": {
+				"eng": "Undo Rename",
+				"trans": "คืนชื่อเดิม"
+			},
+			"confirm": {
+				"eng": "Confirm",
+				"trans": "ยืนยัน"
+			},
+			"confirmMessage": {
+				"eng": "This will rollback the item name and give the player an Inscription Chip as compensation. Continue?",
+				"trans": "จะคืนชื่อไอเทมและให้ผู้เล่นชิปลายเซ็นเป็นค่าตอบแทน คุณต้องการดำเนินการต่อหรือไม่?"
+			},
+			"confirmTitle": {
+				"eng": "Undo Rename",
+				"trans": "คืนชื่อเดิม"
+			}
 		}
 	},
 	"modal": {
@@ -10033,6 +10982,65 @@
 			"trans": "รางวัลการอ้างอิง"
 		}
 	},
+	"renameItemModal": {
+		"confirm": {
+			"eng": "Confirm",
+			"trans": "ยืนยัน"
+		},
+		"description": {
+			"eng": "Give your item a custom name",
+			"trans": "ตั้งชื่อไอเทมเอง"
+		},
+		"minLength": {
+			"eng": "Min ${min} characters",
+			"trans": "อย่างน้อย ${min} ตัวอักษร",
+			"vars": [
+				"min"
+			]
+		},
+		"newName": {
+			"eng": "New Name",
+			"trans": "ชื่อใหม่"
+		},
+		"placeholder": {
+			"eng": "Enter custom name",
+			"trans": "ป้อนชื่อกำหนดเอง"
+		},
+		"policy": {
+			"1": {
+				"eng": "No profanity or offensive language",
+				"trans": "ห้ามใช้คำหยาบและภาษาที่ทำร้าย"
+			},
+			"2": {
+				"eng": "No special characters or emojis",
+				"trans": "ไม่อนุญาตตัวอักษรพิเศษหรือตัวอิโมจิ"
+			},
+			"3": {
+				"eng": "Only positive or neutral sentiment is allowed",
+				"trans": "อนุญาตเฉพาะความรู้สึกบวกหรือเป็นกลาง"
+			},
+			"4": {
+				"eng": "No mention of real names of people, country, company etc.",
+				"trans": "อย่านิยามชื่อจริงของบุคคล ประเทศ หรือบริษัท ฯลฯ"
+			},
+			"5": {
+				"eng": "No missleading names, including level, stats, calibration level etc.",
+				"trans": "ห้ามใช้ชื่อหลอกลวง เช่น ระดับ สถิติ ระดับการแคลิบบรา ฯลฯ"
+			},
+			"description": {
+				"eng": "Item naming is subject to strict rules for safety and moderation purposes:",
+				"trans": "การตั้งชื่อต้องปฏิบัติตามกฎเข้มงวดเพื่อความปลอดภัยและการควบคุมเนื้อหา"
+			}
+		},
+		"policyTitle": {
+			"eng": "Naming Policy",
+			"trans": "นโยบายการตั้งชื่อ"
+		},
+		"title": {
+			"eng": "Rename Item",
+			"trans": "เปลี่ยนชื่อไอเทม"
+		}
+	},
 	"renamePetModal": {
 		"description": {
 			"eng": "Enter new name for your pet",
@@ -11394,6 +12402,110 @@
 			"trans": "เควส"
 		}
 	},
+	"terminalAuth": {
+		"confirmPasswordLabel": {
+			"eng": "Confirm Password",
+			"trans": "ยืนยันรหัสผ่าน"
+		},
+		"emailLabel": {
+			"eng": "Email",
+			"trans": "อีเมล"
+		},
+		"forgotPassword": {
+			"eng": "Forgot your password?",
+			"trans": "ลืมรหัสผ่านใช่ไหม?"
+		},
+		"header": {
+			"eng": "System Access",
+			"trans": "เข้าถึงระบบ"
+		},
+		"loginButton": {
+			"eng": "Sign In",
+			"trans": "เข้าสู่ระบบ"
+		},
+		"loginTab": {
+			"eng": "Login",
+			"trans": "ล็อกอิน"
+		},
+		"passwordLabel": {
+			"eng": "Password",
+			"trans": "รหัสผ่าน"
+		},
+		"passwordMismatch": {
+			"eng": "Passwords do not match",
+			"trans": "รหัสผ่านไม่ตรงกัน"
+		},
+		"registerButton": {
+			"eng": "Create Account",
+			"trans": "สร้างบัญชี"
+		},
+		"registerTab": {
+			"eng": "Register",
+			"trans": "สมัครสมาชิก"
+		}
+	},
+	"testimonial": {
+		"review1": {
+			"quote": {
+				"eng": "I went in with low expectations, thinking it would just be another game for ads. But it's actually a really high quality game, great for killing time and talking to people. The community I've met so far has been so kind and welcoming!",
+				"trans": "ฉันเริ่มเล่นด้วยความคาดหวังต่ำเลยว่ามันจะเป็นแค่เกมที่เต็มไปด้วยโฆษณา แต่จริง ๆ แล้วมันคือเกมคุณภาพสูงมาก เหมาะสำหรับใช้เวลาว่างและสนทนากับคน สังคมที่ได้พบเจอจนถึงตอนนี้ก็อบอุ่นและต้อนรับอย่างดี!"
+			}
+		},
+		"review10": {
+			"quote": {
+				"eng": "The game is fun. I love how engaging the community is, especially when it comes to the global skips and buffs. Simple but not too demanding.",
+				"trans": "เกมนี้สนุกจริง ๆ ฉันชอบว่าคอมมูนิตี้มีส่วนร่วมมากโดยเฉพาะเรื่องการสกิปและบัฟระดับโลก มันง่ายแต่ก็ไม่หนักเกินไป"
+			}
+		},
+		"review2": {
+			"quote": {
+				"eng": "I love that the buffs benefit everyone playing the game. It's a new vibe to me - I'm used to using buffs for myself! Highly recommended for playing in your leisure time.",
+				"trans": "ฉันชอบที่บัฟจะทำให้ทุกคนในเกมได้รับประโยชน์ มันเป็นความรู้สึกใหม่สำหรับฉัน – ฉันเคยใช้บัฟเพื่อเอาตัวเองเป็นหลัก! แนะนำแน่นอนถ้าคุณอยากเล่นเกมช่วงเวลาว่าง"
+			}
+		},
+		"review3": {
+			"quote": {
+				"eng": "Everything is S tier in this game - the system, the community, and the developer. Everyone is generous. When I started, a high-leveled player literally gifted me 1000 painkillers and 5000 ammo.",
+				"trans": "เกมนี้ทุกอย่างเป็นระดับ S – ระบบ ชุมชน และนักพัฒนา ทุกคนก็ใจดีมาก เมื่อเริ่มเล่นครั้งแรกผู้เล่นเลเวลสูงเลยมอบยาแก้ปวด 1,000 เม็ดและกระสุน 5,000 ลูกให้ฉัน"
+			}
+		},
+		"review4": {
+			"quote": {
+				"eng": "Definitely hooked! Especially how it has the cyberpunk vibe. I'm a big fan of the game already, makes this a hit for me.",
+				"trans": "แน่นอนติดเลย! เพราะมันเต็มไปด้วยบรรยากาศไซเบอร์พังก์แบบสุดชิค ผมเป็นแฟนเกมนี้ตั้งแต่แรกทำให้มันกลายเป็นฮิตสำหรับผม"
+			}
+		},
+		"review5": {
+			"quote": {
+				"eng": "Great for chill cyberpunk fans. Not for players who want fast action or flashy graphics.",
+				"trans": "ยอดเยี่ยมสำหรับแฟนไซเบอร์พังค์ที่ชอบผ่อนคลาย ไม่เหมาะกับผู้เล่นที่ต้องการแอ็คชั่นเร็วหรือกราฟิกสวยงามแบบโดดเด่น"
+			}
+		},
+		"review6": {
+			"quote": {
+				"eng": "A text-based game about exploring and surviving in a cyberpunk world. I love it. There are enemies you fight that are tied to references old and new.",
+				"trans": "เกมข้อความที่สำรวจและเอาตัวรอดในโลกไซเบอร์พังก์ ฉันชอบมันมาก ศัตรูต่าง ๆ ที่คุณต้องต่อสู้มีอ้างอิงทั้งแบบเก่า-ใหม่"
+			}
+		},
+		"review7": {
+			"quote": {
+				"eng": "Very good experience. I suggest it to everyone. If you're finding something you can play anytime, this is it.",
+				"trans": "ประสบการณ์สุดยอดจริง ๆ ผมขอแนะนำให้ทุกคน ลองเล่นเมื่อไรก็ได้ เพราะนี่คือเกมที่คุณกำลังหาอยู่"
+			}
+		},
+		"review8": {
+			"quote": {
+				"eng": "Lots of fun, plenty to do, both actively and AFK. Best of all is no in-app purchases! Very much NOT pay to win.",
+				"trans": "สนุกสุด ๆ มีอะไรให้ทำเยอะ ทั้งเล่นเต็มกำลังและ AFK แถมยังไม่มีการซื้อในแอปเลย! ไม่ได้ pay‑to‑win เลยจริง ๆ"
+			}
+		},
+		"review9": {
+			"quote": {
+				"eng": "I really love this app - the gameplay, the minimalist but engaging quests, especially the community! The players are really helpful and kind enough to give me gifts.",
+				"trans": "ฉันชอบแอปนี้มากเลย – เกมเพลย์, ภารกิจแบบมินิมอลแต่สนุกสนาน โดยเฉพาะชุมชน! ผู้เล่นช่วยเหลือและเมตตามากจนให้ของขวัญ"
+			}
+		}
+	},
 	"thanksgivingPromo": {
 		"desc1": {
 			"eng": "During event period, Roasted Turkey will drop rarely from scavenging and AKF Bot on all levels",
@@ -11830,6 +12942,16 @@
 				"trans": "ข้ามคิว"
 			}
 		},
+		"auth": {
+			"continueWithApple": {
+				"eng": "Continue with Apple",
+				"trans": "ใช้ Apple เพื่อเข้าสู่ระบบ"
+			},
+			"continueWithGoogle": {
+				"eng": "Continue with Google",
+				"trans": "เข้าสู่ระบบด้วย Google"
+			}
+		},
 		"backToPreviusLoc": {
 			"longPressBackToCity": {
 				"eng": "You can long press the back button to go back to city to visit various shops and features",
@@ -12170,15 +13292,7 @@
 			}
 		},
 		"clan": {
-			"deposit": {
-				"eng": "Deposit Bitcoin",
-				"trans": "ฝาก Bitcoin"
-			},
 			"editMotto": {
-				"button": {
-					"eng": "Edit Gang Motto",
-					"trans": "แก้ไขคำขวัญแก๊งค์"
-				},
 				"modal": {
 					"title": {
 						"eng": "Please enter your gang motto",
@@ -12263,12 +13377,6 @@
 				},
 				"eng": "Direction",
 				"trans": "ทิศทาง"
-			},
-			"updateImage": {
-				"button": {
-					"eng": "Update Gang Image",
-					"trans": "อัปเดตภาพแก๊งค์"
-				}
 			}
 		},
 		"clanPage": {
@@ -12819,6 +13927,10 @@
 				"eng": "Crafting",
 				"trans": "คราฟท์ไอเท็ม"
 			},
+			"empty": {
+				"eng": "Inventory Empty",
+				"trans": "คลังว่าง"
+			},
 			"equipped": {
 				"eng": "Equipped",
 				"trans": "สวมใส่อุปกรณ์"
@@ -12834,6 +13946,17 @@
 			"items": {
 				"eng": "items",
 				"trans": "ไอเท็ม"
+			},
+			"matches": {
+				"eng": "Matches: ${count}",
+				"trans": "ไม้ขีดไฟ: ${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"search": {
+				"eng": "Search items...",
+				"trans": "ค้นหาไอเทม..."
 			},
 			"secretKeys": {
 				"eng": "secret keys",
@@ -12923,9 +14046,19 @@
 					"currentAction"
 				]
 			},
+			"customName": {
+				"label": {
+					"eng": "Custom Name",
+					"trans": "ชื่อกำหนดเอง"
+				}
+			},
 			"equip": {
 				"eng": "Equip",
 				"trans": "สวมใส่"
+			},
+			"history": {
+				"eng": "History",
+				"trans": "ประวัติ"
 			},
 			"lockModal": {
 				"lock": {
@@ -12968,6 +14101,17 @@
 			"printCacheDescription": {
 				"eng": "Turn this cache into a weapon or equipment item that you can use.",
 				"trans": "เปลี่ยนแคชนี้ให้เป็นอาวุธหรืออุปกรณ์ที่คุณสามารถทำได้"
+			},
+			"rename": {
+				"eng": "Rename",
+				"trans": "เปลี่ยนชื่อ"
+			},
+			"renamedBy": {
+				"eng": "This item was renamed by ${playerName}",
+				"trans": "เปลี่ยนชื่อโดย ${playerName}",
+				"vars": [
+					"playerName"
+				]
 			},
 			"timeLimited": {
 				"eng": "Time Limited",
@@ -13115,17 +14259,9 @@
 			}
 		},
 		"login": {
-			"forgotPassword": {
-				"eng": "Forgot Password?",
-				"trans": "ลืมรหัสผ่าน?"
-			},
-			"loginButton": {
-				"eng": "Login",
-				"trans": "เข้าสู่ระบบ"
-			},
-			"registerPageButton": {
-				"eng": "Create Account?",
-				"trans": "ลงทะเบียน?"
+			"continueWithEmail": {
+				"eng": "Continue with Email",
+				"trans": "ต่อด้วยอีเมล"
 			}
 		},
 		"logout": {
@@ -13835,14 +14971,6 @@
 			}
 		},
 		"register": {
-			"loginPageButton": {
-				"eng": "Have account?",
-				"trans": "มีบัญชีมั้ย?"
-			},
-			"registerButton": {
-				"eng": "Create Account",
-				"trans": "ลงทะเบียน"
-			},
 			"terms": {
 				"eng": "By creating an account, you agree to our",
 				"trans": "โดยการสร้างบัญชีคุณเห็นด้วยกับเรา"
