@@ -16,6 +16,41 @@ Please send your feedback to my Discord or email me directly.
 
 ## Updates
 
+### 0.1887
+
+**Lunar New Year Event Updates (2026/02/01 to 2026/02/28)**:
+
+- During the event, `Red Envelope` and `Lunar Chef Pass` will drop from AFK bot farming and dungeon chests
+- Chat during the event for a chance to receive `Red Envelope` rewards
+- During the event, top-ups will receive bonus `Rare Synaptic Acceleration Transmitter`
+- Added `Lunar Stallion` chat frame with animated effects, available during the Lunar New Year event
+- **Dumpling Master Event Game**:
+  - Added new event game where you assemble dumplings by selecting the correct ingredients across progressive stages
+  - Features combo streak indicators and stage transition animations with sound effects
+  - Each stage increases in difficulty with faster timing and more complex recipes
+  - Requires `Lunar Chef Pass` to play (obtainable from dungeon chests and AFK farming during the Lunar New Year event)
+- **ALL** Event items will expire when event ends
+- **Search in inventory**: We have added search to inventory and some item listing, so you can type to find items faster
+- **Lucky Dice**:
+  - Added `Lucky Dice` item — roll it in chat to (for various community uses)
+  - `Lucky Dice` has a rare chance to drop from enemies and AFK farming
+  - Each roll consumes one dice and broadcasts the result to the chat channel
+  - `Lucky Dice` is a rare drop, not tradable and has a use rate limit to prevent spam or abuse.
+- Reworked chat server system to allow persistent chat history over server restarts.
+- Added new landing page for the game website
+- Updated login page UI
+- Enhanced top-up bonus banner with improved visual design
+- Improved chat rendering performance
+- **Item Renaming**:
+  - You can now give custom names to your equipments
+  - Rename costs 2048 Units
+  - Names are automatically moderated strictly for safety at the moment, this may be relaxed in the future based on feedback
+  - Rename history is tracked, viewable by clicking the rename history button on item details
+  - Renamed items display a pencil icon and "Custom Name" badge to help identify them
+  - Moderator can remove custom names if needed
+- **New Donator Benefit**
+  - player with donator frames(donator tier and above) can attach equipments to chat messages
+
 ### 0.1886
 
 **New Year Event**:
@@ -62,7 +97,6 @@ Please send your feedback to my Discord or email me directly.
   - Override mode allows your personal selection to override location-based music
   - Access jukebox from apartment page or settings menu
 - **Apartment Wall Feature**:
-
   - Players can now post notes on other players' apartment walls
   - Requires Friendship Sticker item to post notes, they can currently be obtained from dungeon
   - Apartment owners can enable/disable wall feature in settings
@@ -87,7 +121,6 @@ Please send your feedback to my Discord or email me directly.
 ### 0.1884
 
 - **Furniture System** (Level 300+ required):
-
   - Added late-game collectible furniture system that additionally provides minor stat bonuses to players when activated, **furniture stats stacks even in the same category**
   - Craft furniture using progressive Assembly Kit system (Basic → Advanced → High-End)
   - Trade Assembly Kits with `Miles` the Furniture Vendor NPC at `Crystal Sands` for specific furniture
@@ -98,7 +131,6 @@ Please send your feedback to my Discord or email me directly.
 **PLEASE NOTE: As this is a new feature, things may change in the future as we gather more feedback, Please feel free to provide your feedback to my Discord DM or email me directly at ching.huang.dexter@gmail.com.**
 
 - **Apartment Updates**:
-
   - Reworked apartment UI for better user experience
   - Added new apartment tier with more furniture slots
 
@@ -118,7 +150,6 @@ Please send your feedback to my Discord or email me directly.
 ### 0.1882
 
 - Halloween Event (10/01 to 10/31):
-
   - Enemies and AFK bot farms will drop `Pumpkin Bro's Seed` which you can exchange for various rewards with `Pumpkin Bro` at the Alleyway in Market Street, event based item will expire when event ends
   - `Pumpkin Bro's Seed` are tradable between players and can be exchanged for several items
   - Added `Caramel Apple` provides a 10% boost to AFK EXP and BTC gains for 20 minutes, expires when event ends
@@ -131,7 +162,6 @@ Please send your feedback to my Discord or email me directly.
 - As suggested by the community, tutorial quest at the quest tab will now be hidden for player higher than level 100
 
 - **Display Shelf System**:
-
   - Added display shelf functionality - players can now display up to 3 items on their profile for other players to see
   - Display shelves are visible to all players and any player can customize their own display shelf
   - Display shelf slots now unlock progressively based on level and BTC requirements
@@ -560,7 +590,6 @@ Please notify me if there is any bug with the updates 🫡🫡
 ### 0.1839
 
 - Calibration Rework/Code Re-write:
-
   - A new line of community fundraising with different starting time of cali train will be added; there will be two fundraising options, one will start at 00:00 UTC and the other will start at 12:00 UTC, the two funds will be independent of each other. The intention is to give people more options to choose which fund to raise depending on their preferred schedule while providing a predictable timing. the current funding will carry on to the 00:00 UTC fund, and the 12:00 UTC fund will start from 0% when the update is live.
     ![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/9736f045-d6b6-48d5-a0fe-649e8ee3100c)
 
@@ -749,7 +778,7 @@ Again, thank you for all the valuable feedback :)
 
   0.1818
 
-- Christmas Event starts today, during December, enemies, scavenge and AFK farm bots will have a chance to drop ` Frosty Container`` and  `Christmas Pudding`
+- Christmas Event starts today, during December, enemies, scavenge and AFK farm bots will have a chance to drop `Frosty Container`` and `Christmas Pudding`
 - You can open Frosty Container to get various rewards, including the chance of EPIC Cache and Tech Scrap Cluster
 - You can consume Christmas Pudding to get a 20 minutes buff that gives you a +20% EXP gain from AFK tasks
 - Added Christmas-themed cosmetics, including emblems and chat frames.
