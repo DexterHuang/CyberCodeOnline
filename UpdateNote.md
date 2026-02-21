@@ -16,6 +16,11 @@ Please send your feedback to my Discord or email me directly.
 
 ## Updates
 
+### 0.1888
+
+- **Lucky Dice** updates:
+  - You can now choose between `6-Sided Dice` and `20-Sided Dice` when rolling
+
 ### 0.1887
 
 **Lunar New Year Event Updates (2026/02/01 to 2026/02/28)**:
