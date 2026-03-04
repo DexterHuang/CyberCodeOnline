@@ -1232,6 +1232,13 @@
 			"eng": "Add Image",
 			"trans": "이미지 추가"
 		},
+		"cantShareItem": {
+			"eng": "Only players with ${tierName} donation tier and above can share items to chat.",
+			"trans": "${tierName} 도너 등급 이상의 플레이어만 채팅에 아이템을 공유할 수 있습니다.",
+			"vars": [
+				"tierName"
+			]
+		},
 		"rollDice": {
 			"eng": "Roll Dice",
 			"trans": "주사위 굴리기"
@@ -1851,6 +1858,17 @@
 				"total"
 			]
 		},
+		"previewMode": {
+			"eng": "Previewing ${tierName} Tier",
+			"trans": "${tierName} 티어 미리보기",
+			"vars": [
+				"tierName"
+			]
+		},
+		"previewOnProfile": {
+			"eng": "Preview on Profile",
+			"trans": "프로필 미리보기"
+		},
 		"previewText": {
 			"eng": "This is how you will look!",
 			"trans": "당신이 보이는 모습입니다!"
@@ -1943,6 +1961,14 @@
 	},
 	"dice": {
 		"modal": {
+			"d20": {
+				"eng": "20-Sided",
+				"trans": "20면체"
+			},
+			"d6": {
+				"eng": "6-Sided",
+				"trans": "육면체"
+			},
 			"description": {
 				"eng": "Roll a dice in chat for everyone to see!",
 				"trans": "모두가 볼 수 있도록 채팅에 주사위를 굴립니다!"
@@ -1957,6 +1983,10 @@
 			"roll": {
 				"eng": "Roll Dice",
 				"trans": "주사위 굴리기"
+			},
+			"selectType": {
+				"eng": "Select Dice Type:",
+				"trans": "주사위 종류 선택"
 			},
 			"title": {
 				"eng": "🎲 Roll Dice",
@@ -1983,24 +2013,30 @@
 				"eng": "Invalid chat channel",
 				"trans": "채널이 잘못되었습니다"
 			},
+			"invalidDiceType": {
+				"eng": "Invalid dice type. Allowed: 6-Sided, 20-Sided",
+				"trans": "유효하지 않은 주사위 유형입니다. 허용된 주사위: 6면, 20면"
+			},
 			"noDice": {
 				"eng": "You need a Lucky Dice to roll!",
 				"trans": "주사위를 굴리려면 행운의 주사위가 필요합니다!"
 			},
 			"result": {
-				"eng": "${slanc}: ${player} rolled a ${result}! 🎲",
-				"trans": "${slanc}: ${player}의 주사위! ${result}! 🎲",
+				"eng": "${slanc}: ${player} rolled a ${result} on ${diceSides}-Sided dice! 🎲",
+				"trans": "${slanc}: ${player}이(가) ${result}을 던졌습니다! 🎲",
 				"vars": [
 					"slanc",
 					"player",
-					"result"
+					"result",
+					"diceSides"
 				]
 			},
 			"success": {
-				"eng": "You rolled a ${result}!",
-				"trans": "당신의 주사위! ${result}!",
+				"eng": "You rolled a ${result} on ${diceSides}-Sided dice!",
+				"trans": "당신은 ${result}을 굴렸습니다!",
 				"vars": [
-					"result"
+					"result",
+					"diceSides"
 				]
 			}
 		}
@@ -2363,6 +2399,10 @@
 		"donation48": {
 			"eng": "Lunar Stallion",
 			"trans": "달의 종마"
+		},
+		"donation49": {
+			"eng": "Cyberbloom",
+			"trans": "사이버 블룸"
 		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
@@ -2928,6 +2968,12 @@
 		"title": {
 			"eng": "Easter Celebration",
 			"trans": "부활절 축제"
+		}
+	},
+	"emblems": {
+		"doge": {
+			"eng": "doge",
+			"trans": "도지"
 		}
 	},
 	"enemy": {
@@ -3782,7 +3828,7 @@
 		},
 		"sakura": {
 			"name": {
-				"eng": "March",
+				"eng": "Sakura Festival",
 				"trans": "3월"
 			}
 		},
@@ -3932,6 +3978,20 @@
 				"trans": "스킵 할인"
 			}
 		},
+		"skipReward": {
+			"description": {
+				"eng": "${chance} chance to receive free ${emblemName} every time you skip",
+				"trans": "스킵할 때마다 무료 ${emblemName}을(를) 얻을 확률 ${chance}%",
+				"vars": [
+					"emblemName",
+					"chance"
+				]
+			},
+			"title": {
+				"eng": "Skip Emblem Reward",
+				"trans": "에픽 보상 스킵"
+			}
+		},
 		"topUpReward": {
 			"description": {
 				"eng": "Get bonus reward when topping up during the event",
@@ -4074,10 +4134,6 @@
 		"cannotSend": {
 			"eng": "This player cannot receive gift now",
 			"trans": "이 플레이어는 지금 선물을 받을 수 없습니다"
-		},
-		"cannotSendAssociated": {
-			"eng": "You cannot send gift to this player due to alt prevention",
-			"trans": "부계정 차단으로 인해 이 플레이어에게 선물할 수 없습니다."
 		}
 	},
 	"giveCredButton": {
@@ -5704,6 +5760,16 @@
 				"trans": "장미꽃다발"
 			}
 		},
+		"sakuraPetal": {
+			"description": {
+				"eng": "A delicate cherry blossom petal infused with faint neon energy. Can be exchanged for items at the Shiba Shrine during the Sakura Festival",
+				"trans": "미약한 네온 에너지가 스며든 섬세한 벚꽃잎입니다. 시바 신사에서 벚꽃 축제 기간 중 아이템과 교환할 수 있습니다"
+			},
+			"name": {
+				"eng": "Sakura Petal",
+				"trans": "벚꽃잎"
+			}
+		},
 		"santaWorkshopPass": {
 			"description": {
 				"eng": "A holographic pass to CyberSanta's Workshop. Complete festive sorting challenges to earn rewards! 'Work hard, gift harder!' - CyberSanta",
@@ -6388,6 +6454,12 @@
 				"name": {
 					"eng": "Market",
 					"trans": "마켓"
+				}
+			},
+			"yearOfHorse": {
+				"name": {
+					"eng": "Year of Horse",
+					"trans": "말년"
 				}
 			}
 		}
@@ -8289,7 +8361,69 @@
 			]
 		}
 	},
+	"mod": {
+		"forcedBlocks": {
+			"blockedFrom": {
+				"eng": "Blocked from",
+				"trans": "차단 대상"
+			},
+			"by": {
+				"eng": "By",
+				"trans": "의"
+			},
+			"empty": {
+				"eng": "No forced blocks on this player",
+				"trans": "이 플레이어에 강제 차단이 없습니다"
+			},
+			"expires": {
+				"eng": "Expires",
+				"trans": "만료"
+			},
+			"reason": {
+				"eng": "Reason",
+				"trans": "사유"
+			},
+			"title": {
+				"eng": "Forced Blocks (Mod View)",
+				"trans": "강제 차단 (Mod 뷰)"
+			}
+		},
+		"unblock": {
+			"eng": "Unblock",
+			"trans": "차단 해제"
+		}
+	},
 	"modal": {
+		"altPrevention": {
+			"autoLiftText": {
+				"eng": "This restriction lifts automatically once both accounts stop sharing the same network for a while.",
+				"trans": "양 계정이 동일한 네트워크를 공유하지 않게 되면 제한이 자동으로 해제됩니다."
+			},
+			"dismissButton": {
+				"eng": "I Understand",
+				"trans": "알겠습니다"
+			},
+			"explanation": {
+				"eng": "You and the recipient appear to share a device or network. To prevent multi-account abuse, interactions between linked accounts are restricted.",
+				"trans": "당신과 상대방이 동일한 기기나 네트워크를 공유하는 것으로 보입니다. 다중 계정 악용을 방지하기 위해, 연동된 계정 간의 상호작용이 제한됩니다."
+			},
+			"siblingsText": {
+				"eng": "Sharing a network with a real player (siblings, roommates)? You can send items via a trusted third-party.",
+				"trans": "실제 플레이어와 공유 네트워크를 사용하고 있나요? 신뢰할 수 있는 제3자를 통해 아이템을 전송할 수 있습니다."
+			},
+			"title": {
+				"eng": "Action Blocked",
+				"trans": "행동 차단됨"
+			},
+			"viewRules": {
+				"eng": "View Rules",
+				"trans": "규칙 보기"
+			},
+			"warningText": {
+				"eng": "Accounts abusing multi-accounting may be suspended.",
+				"trans": "다중 계정 남용 시 정지될 수 있습니다."
+			}
+		},
 		"block": {
 			"title": {
 				"eng": "Are you sure you want to block this player?",
@@ -8470,15 +8604,27 @@
 		},
 		"playerSearch": {
 			"noPlayerFound": {
-				"eng": "No player with named \"${search}\" found",
+				"eng": "No player named \"${search}\" found",
 				"trans": "\"${search}\" 라는 닉네임을 가진 플레이어가 없습니다",
 				"vars": [
 					"search"
 				]
 			},
+			"placeholder": {
+				"eng": "Enter player name...",
+				"trans": "플레이어 이름..."
+			},
 			"searchPlayerHint": {
 				"eng": "Enter player name to search",
 				"trans": "검색할 플레이어 이름 입력"
+			},
+			"searching": {
+				"eng": "Searching...",
+				"trans": "검색 중..."
+			},
+			"title": {
+				"eng": "Search Player",
+				"trans": "플레이어 검색"
 			}
 		},
 		"promotion": {
@@ -9054,12 +9200,12 @@
 					"Stay online, stay strong, and stay true to yourself."
 				],
 				"trans": [
-					"Life is tough, but you're tougher. Keep fighting.",
-					"Stay strong, stay punk, and stay alive.",
-					"Remember, your worth is not defined by your struggles.",
-					"Don't let the system bring you down, rise up and rebel.",
-					"Stay connected to your inner self, and disconnect from the noise.",
-					"Stay online, stay strong, and stay true to yourself."
+					"삶은 힘들지만 넌 더 강해. 계속 싸워라.",
+					"강하게 남아, 펑크를 잃지 마, 그리고 살아남아.",
+					"기억해, 너의 가치는 겪은 시련으로 정의되지 않아.",
+					"시스템에 굴복하지 마라. 일어나 반란을 일으켜라.",
+					"본성에 연결되어라, 소음에서 분리되어라.",
+					"온라인에 연결되어, 강해져라, 그리고 진정한 자신을 지켜라."
 				]
 			},
 			"name": {
@@ -9102,7 +9248,8 @@
 					"허 허 허, 꼬맹이들! 전리품과 신년 기운을 교환할 준비가 됐니?",
 					"내 눈은 여기 있단다 꼬마야.",
 					"허 허 허! 짐승들이 거리를 지배하고 싶어 하지만 날 이길 순 없지!",
-					"허 허 허-어? 그게 들어올린 거니 꼬마야?"
+					"허 허 허-어? 그게 들어올린 거니 꼬마야?",
+					"굴뚝 따윈 필요 없어, 벽을 부수고 들어가면 돼"
 				]
 			},
 			"name": {
@@ -9421,6 +9568,38 @@
 			"name": {
 				"eng": "Automatic Recycler",
 				"trans": "자동 재활용 기계"
+			}
+		},
+		"sakuraDog": {
+			"defaultLines": {
+				"eng": [
+					"woof woof",
+					"bark bark bark",
+					"woof woof, **scratch scratch**",
+					"*yawns*",
+					"*snif snif*",
+					"I know what you did.",
+					"Such hack. Much cyber. Wow",
+					"what da dog doin?"
+				],
+				"trans": [
+					"멍멍",
+					"멍멍멍",
+					"멍멍, 글글",
+					"하품",
+					"킁킁..",
+					"네가 한 짓, 다 알고 있다.",
+					"이런 해킹? 진짜 사이버? 와!",
+					"개가 뭐 하고 있어?"
+				]
+			},
+			"name": {
+				"eng": "Shiba Shrine",
+				"trans": "시바 성소"
+			},
+			"npcName": {
+				"eng": "Mochi",
+				"trans": "모치"
 			}
 		},
 		"storageMerchant": {
@@ -10134,6 +10313,10 @@
 			}
 		},
 		"giveCred": {
+			"associatedError": {
+				"eng": "You cannot give street cred to an associated account",
+				"trans": "연동된 계정으로 스트릿 크레딧을 지급할 수 없습니다"
+			},
 			"cooldownError": {
 				"eng": "You cannot give street cred yet (once every day)",
 				"trans": "당신은 아직 명성을 줄 수 없습니다 (매일 한 번만 줄 수 있습니다)"
@@ -10150,7 +10333,7 @@
 				"trans": "다른 플레이어에게 명성을 보내려면 레벨 10 이상이어야합니다"
 			},
 			"success": {
-				"eng": "You have given daily street cred.",
+				"eng": "Daily street cred reward have been sent to your item inbox",
 				"trans": "당신은 일일 명성을 주었습니다."
 			}
 		},
@@ -11652,6 +11835,14 @@
 				"playerCount",
 				"skipTime",
 				"credButton"
+			]
+		},
+		"eventSkipReward": {
+			"eng": "Lucky! You received the \"${emblemName}\" emblem from the ${eventName} event skip reward!",
+			"trans": "운 좋아요! \"${emblemName}\" 문장을 \"${eventName}\" 이벤트 스킵 보상으로 획득했습니다!",
+			"vars": [
+				"emblemName",
+				"eventName"
 			]
 		},
 		"firstTimeAnnouncement": {
@@ -13547,6 +13738,10 @@
 						"trans": "엠블럼을 구매하시겠습니까?"
 					}
 				},
+				"exclusive": {
+					"eng": "Exclusive",
+					"trans": "한정"
+				},
 				"limitedEdition": {
 					"eng": "Limited Edition",
 					"trans": "한정판"
@@ -13554,6 +13749,10 @@
 				"owned": {
 					"eng": "owned",
 					"trans": "보유중"
+				},
+				"unobtainableToast": {
+					"eng": "This exclusive emblem cannot be purchased.",
+					"trans": "이 독점 문장장식은 구매할 수 없습니다."
 				}
 			}
 		},

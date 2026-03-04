@@ -1232,6 +1232,13 @@
 			"eng": "Add Image",
 			"trans": "Bild hinzufügen"
 		},
+		"cantShareItem": {
+			"eng": "Only players with ${tierName} donation tier and above can share items to chat.",
+			"trans": "Nur Spieler mit dem Spendenrang ${tierName} oder höher können Gegenstände an den Chat senden.",
+			"vars": [
+				"tierName"
+			]
+		},
 		"rollDice": {
 			"eng": "Roll Dice",
 			"trans": "Würfeln"
@@ -1279,7 +1286,7 @@
 				"Hab einen schönen Tag",
 				"Vermisse dich",
 				"Vermisse euch",
-				"KYAAAAAAAAA",
+				"AHHHH",
 				"Wünsche dir einen schönen Tag",
 				"Ich liebe dich",
 				"Können wir uns umarmen?",
@@ -1851,6 +1858,17 @@
 				"total"
 			]
 		},
+		"previewMode": {
+			"eng": "Previewing ${tierName} Tier",
+			"trans": "Vorschau: ${tierName} Stufe",
+			"vars": [
+				"tierName"
+			]
+		},
+		"previewOnProfile": {
+			"eng": "Preview on Profile",
+			"trans": "Profilvorschau"
+		},
 		"previewText": {
 			"eng": "This is how you will look!",
 			"trans": "So siehst du dann aus!"
@@ -1943,6 +1961,14 @@
 	},
 	"dice": {
 		"modal": {
+			"d20": {
+				"eng": "20-Sided",
+				"trans": "20-seitig"
+			},
+			"d6": {
+				"eng": "6-Sided",
+				"trans": "6-seitig"
+			},
 			"description": {
 				"eng": "Roll a dice in chat for everyone to see!",
 				"trans": "Würfle im Chat, damit alle sehen können!"
@@ -1957,6 +1983,10 @@
 			"roll": {
 				"eng": "Roll Dice",
 				"trans": "Würfeln"
+			},
+			"selectType": {
+				"eng": "Select Dice Type:",
+				"trans": "Würfeltyp auswählen:"
 			},
 			"title": {
 				"eng": "🎲 Roll Dice",
@@ -1983,24 +2013,30 @@
 				"eng": "Invalid chat channel",
 				"trans": "Ungültiger Chatkanal"
 			},
+			"invalidDiceType": {
+				"eng": "Invalid dice type. Allowed: 6-Sided, 20-Sided",
+				"trans": "Ungültiger Würfeltyp. Erlaubt: 6-seitig, 20-seitig"
+			},
 			"noDice": {
 				"eng": "You need a Lucky Dice to roll!",
 				"trans": "Du brauchst einen Glückswürfel zum Würfeln!"
 			},
 			"result": {
-				"eng": "${slanc}: ${player} rolled a ${result}! 🎲",
+				"eng": "${slanc}: ${player} rolled a ${result} on ${diceSides}-Sided dice! 🎲",
 				"trans": "${slanc}: ${player} hat eine ${result} gewürfelt!",
 				"vars": [
 					"slanc",
 					"player",
-					"result"
+					"result",
+					"diceSides"
 				]
 			},
 			"success": {
-				"eng": "You rolled a ${result}!",
+				"eng": "You rolled a ${result} on ${diceSides}-Sided dice!",
 				"trans": "Du hast ${result} gewürfelt!",
 				"vars": [
-					"result"
+					"result",
+					"diceSides"
 				]
 			}
 		}
@@ -2363,6 +2399,10 @@
 		"donation48": {
 			"eng": "Lunar Stallion",
 			"trans": "Mondstallion"
+		},
+		"donation49": {
+			"eng": "Cyberbloom",
+			"trans": "Cyberblüte"
 		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
@@ -2928,6 +2968,12 @@
 		"title": {
 			"eng": "Easter Celebration",
 			"trans": "Oster-Special"
+		}
+	},
+	"emblems": {
+		"doge": {
+			"eng": "doge",
+			"trans": "doge"
 		}
 	},
 	"enemy": {
@@ -3782,7 +3828,7 @@
 		},
 		"sakura": {
 			"name": {
-				"eng": "March",
+				"eng": "Sakura Festival",
 				"trans": "Sakura"
 			}
 		},
@@ -3932,6 +3978,20 @@
 				"trans": "Rabatt überspringen"
 			}
 		},
+		"skipReward": {
+			"description": {
+				"eng": "${chance} chance to receive free ${emblemName} every time you skip",
+				"trans": "${chance} Chance, jedes Mal beim Skippen ${emblemName} kostenlos zu erhalten",
+				"vars": [
+					"emblemName",
+					"chance"
+				]
+			},
+			"title": {
+				"eng": "Skip Emblem Reward",
+				"trans": "Emblem-Belohnung überspringen"
+			}
+		},
 		"topUpReward": {
 			"description": {
 				"eng": "Get bonus reward when topping up during the event",
@@ -4074,10 +4134,6 @@
 		"cannotSend": {
 			"eng": "This player cannot receive gift now",
 			"trans": "Dieser Spieler kann zurzeit kein Geschenk erhalten"
-		},
-		"cannotSendAssociated": {
-			"eng": "You cannot send gift to this player due to alt prevention",
-			"trans": "Sie können kein Geschenk an diesen Spieler senden, aufgrund von Alt-Prävention"
 		}
 	},
 	"giveCredButton": {
@@ -5704,6 +5760,16 @@
 				"trans": "Rosenstrauß"
 			}
 		},
+		"sakuraPetal": {
+			"description": {
+				"eng": "A delicate cherry blossom petal infused with faint neon energy. Can be exchanged for items at the Shiba Shrine during the Sakura Festival",
+				"trans": "Eine zarte Kirschblütenblüte, mit schwacher Neonenergie versetzt. Kann während des Kirschblütenfestivals am Shiba-Schrein gegen Gegenstände eingetauscht werden"
+			},
+			"name": {
+				"eng": "Sakura Petal",
+				"trans": "Sakura-Petal"
+			}
+		},
 		"santaWorkshopPass": {
 			"description": {
 				"eng": "A holographic pass to CyberSanta's Workshop. Complete festive sorting challenges to earn rewards! 'Work hard, gift harder!' - CyberSanta",
@@ -6388,6 +6454,12 @@
 				"name": {
 					"eng": "Market",
 					"trans": "Markt"
+				}
+			},
+			"yearOfHorse": {
+				"name": {
+					"eng": "Year of Horse",
+					"trans": "Jahr des Pferdes"
 				}
 			}
 		}
@@ -8289,7 +8361,69 @@
 			]
 		}
 	},
+	"mod": {
+		"forcedBlocks": {
+			"blockedFrom": {
+				"eng": "Blocked from",
+				"trans": "Gesperrt von"
+			},
+			"by": {
+				"eng": "By",
+				"trans": "Durch"
+			},
+			"empty": {
+				"eng": "No forced blocks on this player",
+				"trans": "Keine erzwungenen Blockaden für diesen Spieler"
+			},
+			"expires": {
+				"eng": "Expires",
+				"trans": "Ablaufdatum"
+			},
+			"reason": {
+				"eng": "Reason",
+				"trans": "Grund"
+			},
+			"title": {
+				"eng": "Forced Blocks (Mod View)",
+				"trans": "Erzwungene Blöcke (Mod-Ansicht)"
+			}
+		},
+		"unblock": {
+			"eng": "Unblock",
+			"trans": "Freischalten"
+		}
+	},
 	"modal": {
+		"altPrevention": {
+			"autoLiftText": {
+				"eng": "This restriction lifts automatically once both accounts stop sharing the same network for a while.",
+				"trans": "Diese Einschrnkung hebt sich automatisch auf, sobald beide Kontone eine Weile nicht mehr dasselbe Netzwerk nutzen."
+			},
+			"dismissButton": {
+				"eng": "I Understand",
+				"trans": "Verstanden"
+			},
+			"explanation": {
+				"eng": "You and the recipient appear to share a device or network. To prevent multi-account abuse, interactions between linked accounts are restricted.",
+				"trans": "Sie und der Empfänger scheinen ein gemeinsames Gerät oder Netzwerk zu nutzen. Um den Multi-Account-Missbrauch zu verhindern, sind Interaktionen zwischen verknüpften Konten eingeschränkt."
+			},
+			"siblingsText": {
+				"eng": "Sharing a network with a real player (siblings, roommates)? You can send items via a trusted third-party.",
+				"trans": "Teilen Sie Ihr Netzwerk mit einem echten Spieler (Geschwister, Mitbewohner)? Sie können Gegenstände über einen vertrauenswrdigen Dritten senden."
+			},
+			"title": {
+				"eng": "Action Blocked",
+				"trans": "Aktion blockiert"
+			},
+			"viewRules": {
+				"eng": "View Rules",
+				"trans": "Regeln ansehen"
+			},
+			"warningText": {
+				"eng": "Accounts abusing multi-accounting may be suspended.",
+				"trans": "Konten, die Multi-Accounting missbrauchen, können gesperrt werden."
+			}
+		},
 		"block": {
 			"title": {
 				"eng": "Are you sure you want to block this player?",
@@ -8470,15 +8604,27 @@
 		},
 		"playerSearch": {
 			"noPlayerFound": {
-				"eng": "No player with named \"${search}\" found",
+				"eng": "No player named \"${search}\" found",
 				"trans": "Kein Spieler mit dem Namen \"${search}\" gefunden",
 				"vars": [
 					"search"
 				]
 			},
+			"placeholder": {
+				"eng": "Enter player name...",
+				"trans": "Spielernamen eingeben..."
+			},
 			"searchPlayerHint": {
 				"eng": "Enter player name to search",
 				"trans": "Gib den Namen eines Spielers ein, um nach ihm zu suchen"
+			},
+			"searching": {
+				"eng": "Searching...",
+				"trans": "Suche..."
+			},
+			"title": {
+				"eng": "Search Player",
+				"trans": "Spieler suchen"
 			}
 		},
 		"promotion": {
@@ -9088,10 +9234,11 @@
 					"Who needs chimney when you can just punch through the wall?"
 				],
 				"trans": [
-					"Ho ho ho, choom! Ready to trade your loot for some holiday cheer?",
-					"My eyes are up here, little man.",
+					"Ho ho ho, Kumpel! Bist du bereit, deine Beute für Weihnachtsfreude einzutauschen?",
+					"Schau nach oben, Kleiner Mann.",
 					"Ho ho ho! The Animals want to rule the streets, but they’ll never outlift me.",
-					"Ho ho hold up—do you even lift, little man?"
+					"Ho ho, halt ein – kannst du überhaupt heben, Kleiner?",
+					"Wer braucht schon einen Schornstein, wenn man einfach durch die Wand durchbrechen kann?"
 				]
 			},
 			"name": {
@@ -9139,11 +9286,11 @@
 					"The fusion process is irreversible, but the rewards are worth it, most of the time at least."
 				],
 				"trans": [
-					"Got some epic gear collecting dust? I can turn that into something useful.",
-					"Three pieces of epic equipment you no longer need? one guaranteed shard. That's the deal.",
-					"Welcome to the fusion hub, where old gear becomes new possibilities.",
-					"One man's trash is another's treasure, choom. I can turn your unwanted gear into diamonds.",
-					"The fusion process is irreversible, but the rewards are worth it, most of the time at least."
+					"Hast du verstaubte epische Ausrüstung? Ich kann das zu etwas Nützlichem umwandeln.",
+					"Drei Epische Gegenstände, die du nicht mehr brauchst? Eine garantierte Scherbe. Das ist das Geschäft.",
+					"Willkommen im Fusions-Hub, wo alte Ausrüstung neue Möglichkeiten schafft.",
+					"Was für den einen Müll ist für den anderen Schatz, Kumpel. Ich kann dein Zeug in Diamanten verwandeln.",
+					"Der Fusionsprozess ist unumkehrbar, aber die Belohnungen sind es wert, zumindest meistens."
 				]
 			},
 			"name": {
@@ -9193,17 +9340,17 @@
 					"They say I'm too distracted by dancing to work... but somehow everything gets installed perfectly!"
 				],
 				"trans": [
-					"You think furniture is heavy? I install entire apartment rigs between sets at the gym.",
-					"Bring me your kits, choom. I'll have them assembled faster than you can say 'do you even lift?'",
-					"Looking preem today! Almost as good as this quantum learning pod I just installed with one hand.",
-					"These muscles aren't just for show, friend. Watch me carry your entire bedroom set up six flights of stairs.",
-					"Installation instructions? Never heard of them. I just flex and the furniture assembles itself.",
-					"Your apartment will look nova, almost as amazing as these chrome biceps. Almost.",
-					"Need help moving that couch? Please, I bench press cargo containers for fun.",
-					"I could dance circles around these assembly tasks. Want to see my moves?",
-					"Installation is like a dance, choom, and I'm the best dancer in town. Watch me work!",
-					"Some people need tools. I just need rhythm and these guns. *flexes while dancing*",
-					"They say I'm too distracted by dancing to work... but somehow everything gets installed perfectly!"
+					"Glaubst du, Möbel sind schwer? Ich richte ganze Wohnungseinrichtungen zwischen den Sätzen im Gym ein.",
+					"Bringt mir eure Kits, Kumpel. Ich bause sie zusammen, noch bevor du sagen kannst \"Kannst du überhaupt heben?\"",
+					"Sieht heute top aus! Fast so gut wie diese Quanten-Lern-Kapsel, die ich gerade mit einer Hand installiert habe.",
+					"Diese Muskeln sind nicht nur zum Anschauen, Freund. Schaut zu, wie ich eure komplette Schlafzimmersatzung die sechs Stockwerke hochtrage.",
+					"Montageanleitung? Habe ich noch nie gehört. Ich mache nur mein Ding und schon bauen sich die Möbel selbst.",
+					"Deine Wohnung wird neu aussehen, fast so beeindruckend wie diese Chrombizepsen. Fast.",
+					"Brauchst du Hilfe beim Rumbewegen des Sofas? Bitte, ich drücke Container zum Spaß.",
+					"Ich könnte die Montageaufgaben locker meistern. Willst du meine Moves sehen?",
+					"Die Installation ist wie ein Tanz, Kumpel, und ich bin der beste Tänzer der Stadt. Schau, wie ich das mache!",
+					"Manche Leute brauchen Werkzeuge. Ich brauche nur Rhythmus und diese Waffen. *macht beim Tanzen einen Bizeps*",
+					"Die sagen, ich bin zu abgelenkt von Tanzen, um zu arbeiten... aber irgendwie klappt die Installation immer perfekt!"
 				]
 			},
 			"name": {
@@ -9228,7 +9375,8 @@
 					"Kürbis ist die Quelle meiner Kraft!",
 					"Schau dir mein kürbis Köstüm an!",
 					"Hmmmm, Ich wundere mich was in diesem kürbis drinnen ist...",
-					"Gib mir deinen Kürbis, und ich werde dir Süßes geben!"
+					"Gib mir deinen Kürbis, und ich werde dir Süßes geben!",
+					"Gib mir deine Samen, und ich gebe dir etwas Süßes!"
 				]
 			},
 			"name": {
@@ -9268,11 +9416,11 @@
 					"The New Year's celebration won't wait forever, let's go!"
 				],
 				"trans": [
-					"Ready to light up the night? The countdown's about to begin!",
-					"Perfect timing is everything in fireworks, choom.",
-					"I've got the best pyrotechnics this side of Night City!",
-					"Wanna see some real fireworks? Show me what you've got!",
-					"The New Year's celebration won't wait forever, let's go!"
+					"Bereit, die Nacht zum Leuchten zu bringen? Der Countdown geht los!",
+					"Perfektes Timing ist alles beim Feuerwerk, Kumpel.",
+					"Ich habe das beste Feuerwerk hier in Night City!",
+					"Wollt ihr echtes Feuerwerk sehen? Zeigt mir, was ihr draufhabt!",
+					"Die Neujahrskugel wartet nicht, lass uns gehn!"
 				]
 			},
 			"name": {
@@ -9368,6 +9516,38 @@
 				"trans": "Automatischer Recycler"
 			}
 		},
+		"sakuraDog": {
+			"defaultLines": {
+				"eng": [
+					"woof woof",
+					"bark bark bark",
+					"woof woof, **scratch scratch**",
+					"*yawns*",
+					"*snif snif*",
+					"I know what you did.",
+					"Such hack. Much cyber. Wow",
+					"what da dog doin?"
+				],
+				"trans": [
+					"Wuff wuff",
+					"Wuff wuff wuff",
+					"Wuff wuff, kratzen kratzen",
+					"*gähnt*",
+					"*schnupper schnupper*",
+					"Ich weiß, was du getan hast.",
+					"So ein Hack. So viel Cyber. Wow",
+					"Was macht der Hund?"
+				]
+			},
+			"name": {
+				"eng": "Shiba Shrine",
+				"trans": "Shiba Schrein"
+			},
+			"npcName": {
+				"eng": "Mochi",
+				"trans": "Mochi"
+			}
+		},
 		"storageMerchant": {
 			"canAccessError": {
 				"eng": "You need to be at least level 10 to access merchant",
@@ -9441,7 +9621,8 @@
 					"We also have Eternal Bond Rings for those looking to unite with their partner forever."
 				],
 				"trans": [
-					"Möchtest du Units kaufen oder ausgeben?"
+					"Möchtest du Units kaufen oder ausgeben?",
+					"Wir haben auch Ewige Bindungsringe für diejenigen, die mit ihrem Partner für immer vereint sein möchten."
 				]
 			},
 			"name": {
@@ -10038,6 +10219,10 @@
 			}
 		},
 		"giveCred": {
+			"associatedError": {
+				"eng": "You cannot give street cred to an associated account",
+				"trans": "Du kannst Street-Respekt nicht an ein verknüpftes Konto geben"
+			},
 			"cooldownError": {
 				"eng": "You cannot give street cred yet (once every day)",
 				"trans": "Du kannst Street Cred noch nicht vergeben (einmal täglich)"
@@ -10054,7 +10239,7 @@
 				"trans": "Du musst Level 10 oder höher sein, um Player Street Cred zu geben"
 			},
 			"success": {
-				"eng": "You have given daily street cred.",
+				"eng": "Daily street cred reward have been sent to your item inbox",
 				"trans": "Du hast Daily Street Cred vergeben."
 			}
 		},
@@ -11556,6 +11741,14 @@
 				"playerCount",
 				"skipTime",
 				"credButton"
+			]
+		},
+		"eventSkipReward": {
+			"eng": "Lucky! You received the \"${emblemName}\" emblem from the ${eventName} event skip reward!",
+			"trans": "Glück gehabt! Du hast das \"${emblemName}\"-Abzeichen als Belohnung für das Überspringen des \"${eventName}\"-Events erhalten!",
+			"vars": [
+				"emblemName",
+				"eventName"
 			]
 		},
 		"firstTimeAnnouncement": {
@@ -13451,6 +13644,10 @@
 						"trans": "Emblem kaufen?"
 					}
 				},
+				"exclusive": {
+					"eng": "Exclusive",
+					"trans": "Exklusiv"
+				},
 				"limitedEdition": {
 					"eng": "Limited Edition",
 					"trans": "Limitierte Auflage"
@@ -13458,6 +13655,10 @@
 				"owned": {
 					"eng": "owned",
 					"trans": "Im Besitz"
+				},
+				"unobtainableToast": {
+					"eng": "This exclusive emblem cannot be purchased.",
+					"trans": "Dieses exklusive Emblem kann nicht gekauft werden."
 				}
 			}
 		},

@@ -1232,6 +1232,13 @@
 			"eng": "Add Image",
 			"trans": "أضف صورة"
 		},
+		"cantShareItem": {
+			"eng": "Only players with ${tierName} donation tier and above can share items to chat.",
+			"trans": "لا يمكن مشاركة العناصر إلا للاعبين بمستوى تبرع ${tierName} أو أعلى.",
+			"vars": [
+				"tierName"
+			]
+		},
 		"rollDice": {
 			"eng": "Roll Dice",
 			"trans": "ارْمي النرد"
@@ -1265,25 +1272,25 @@
 				"how much you love me?"
 			],
 			"trans": [
-				"Love you",
-				"You guys are great",
-				"You guys are the best",
-				"love yall",
-				"You are amazing",
-				"we are best friend",
-				"Love you all",
-				"you are great",
-				"you the best",
-				"we are awesome",
-				"you are awesome",
-				"have a nice day",
-				"miss you",
-				"miss you guys",
-				"KYAAAAAAAAA",
-				"wish you have nice day",
-				"I love you",
-				"can we hug?",
-				"how much you love me?"
+				"أحبك",
+				"أنتم رائعون",
+				"أنتم الأفضل",
+				"أحبكم",
+				"أنت مذهل",
+				"نحن أصدقاء أفضل",
+				"أحبكم جميعاً",
+				"أنت عظيم",
+				"أنت الأفضل",
+				"نحن رائعون",
+				"أنت رائع",
+				"عيش يوماً سعيداً",
+				"أشتاق إليك",
+				"أفتقدكم",
+				"آآآآ",
+				"طابت أيامك",
+				"أحبك",
+				"هل يمكننا أن نعانق؟",
+				"كم تحبني؟"
 			]
 		}
 	},
@@ -1851,6 +1858,17 @@
 				"total"
 			]
 		},
+		"previewMode": {
+			"eng": "Previewing ${tierName} Tier",
+			"trans": "جاري معاينة مستوى ${tierName}",
+			"vars": [
+				"tierName"
+			]
+		},
+		"previewOnProfile": {
+			"eng": "Preview on Profile",
+			"trans": "معاينة على الملف الشخصي"
+		},
 		"previewText": {
 			"eng": "This is how you will look!",
 			"trans": "ها هو شكلك الجديد!"
@@ -1943,6 +1961,14 @@
 	},
 	"dice": {
 		"modal": {
+			"d20": {
+				"eng": "20-Sided",
+				"trans": "20 وجه"
+			},
+			"d6": {
+				"eng": "6-Sided",
+				"trans": "سداسي"
+			},
 			"description": {
 				"eng": "Roll a dice in chat for everyone to see!",
 				"trans": "ارمي النرد في الدردشة حتى يراه الجميع"
@@ -1957,6 +1983,10 @@
 			"roll": {
 				"eng": "Roll Dice",
 				"trans": "ارْمي النرد"
+			},
+			"selectType": {
+				"eng": "Select Dice Type:",
+				"trans": "اختر نوع النرد:"
 			},
 			"title": {
 				"eng": "🎲 Roll Dice",
@@ -1983,24 +2013,30 @@
 				"eng": "Invalid chat channel",
 				"trans": "قناة الدردشة غير صالحة"
 			},
+			"invalidDiceType": {
+				"eng": "Invalid dice type. Allowed: 6-Sided, 20-Sided",
+				"trans": "نوع نرد غير صالح. المسموح: 20 جهات، 6 جهات"
+			},
 			"noDice": {
 				"eng": "You need a Lucky Dice to roll!",
 				"trans": "تحتاج إلى نرد حظ للرمّي!"
 			},
 			"result": {
-				"eng": "${slanc}: ${player} rolled a ${result}! 🎲",
+				"eng": "${slanc}: ${player} rolled a ${result} on ${diceSides}-Sided dice! 🎲",
 				"trans": "${slanc}: رمى ${player} رقم ${result}!",
 				"vars": [
 					"slanc",
 					"player",
-					"result"
+					"result",
+					"diceSides"
 				]
 			},
 			"success": {
-				"eng": "You rolled a ${result}!",
+				"eng": "You rolled a ${result} on ${diceSides}-Sided dice!",
 				"trans": "لقد رميت ${result}!",
 				"vars": [
-					"result"
+					"result",
+					"diceSides"
 				]
 			}
 		}
@@ -2363,6 +2399,10 @@
 		"donation48": {
 			"eng": "Lunar Stallion",
 			"trans": "الحصان القمري"
+		},
+		"donation49": {
+			"eng": "Cyberbloom",
+			"trans": "سيبروبلوم"
 		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
@@ -2928,6 +2968,12 @@
 		"title": {
 			"eng": "Easter Celebration",
 			"trans": "احتفالية عيد الفصح"
+		}
+	},
+	"emblems": {
+		"doge": {
+			"eng": "doge",
+			"trans": "دوج"
 		}
 	},
 	"enemy": {
@@ -3782,7 +3828,7 @@
 		},
 		"sakura": {
 			"name": {
-				"eng": "March",
+				"eng": "Sakura Festival",
 				"trans": "مارس"
 			}
 		},
@@ -3932,6 +3978,20 @@
 				"trans": "تخطي الخصم"
 			}
 		},
+		"skipReward": {
+			"description": {
+				"eng": "${chance} chance to receive free ${emblemName} every time you skip",
+				"trans": "فرصة ${chance} للحصول على شعار ${emblemName} مجاناً في كل مرة تتخطى",
+				"vars": [
+					"emblemName",
+					"chance"
+				]
+			},
+			"title": {
+				"eng": "Skip Emblem Reward",
+				"trans": "تخطي شارة المكافأة"
+			}
+		},
 		"topUpReward": {
 			"description": {
 				"eng": "Get bonus reward when topping up during the event",
@@ -4074,10 +4134,6 @@
 		"cannotSend": {
 			"eng": "This player cannot receive gift now",
 			"trans": "لا يمكن لهذا اللاعب الحصول على هدية الآن"
-		},
-		"cannotSendAssociated": {
-			"eng": "You cannot send gift to this player due to alt prevention",
-			"trans": "لا يمكنك إرسال هدية لهذا اللاعب بسبب منع الحسابات البديلة"
 		}
 	},
 	"giveCredButton": {
@@ -5704,6 +5760,16 @@
 				"trans": "باقة ورد"
 			}
 		},
+		"sakuraPetal": {
+			"description": {
+				"eng": "A delicate cherry blossom petal infused with faint neon energy. Can be exchanged for items at the Shiba Shrine during the Sakura Festival",
+				"trans": "ورقة زهرة الكرز الرقيقة التي تحتوي على طاقة نيون خافتة. يمكن استبدالها بالعناصر في معبد شيبا خلال احتفالات زهرة الكرز"
+			},
+			"name": {
+				"eng": "Sakura Petal",
+				"trans": "بتلة الساكورا"
+			}
+		},
 		"santaWorkshopPass": {
 			"description": {
 				"eng": "A holographic pass to CyberSanta's Workshop. Complete festive sorting challenges to earn rewards! 'Work hard, gift harder!' - CyberSanta",
@@ -6388,6 +6454,12 @@
 				"name": {
 					"eng": "Market",
 					"trans": "متجر الأغاني"
+				}
+			},
+			"yearOfHorse": {
+				"name": {
+					"eng": "Year of Horse",
+					"trans": "سنة الحصان"
 				}
 			}
 		}
@@ -8289,7 +8361,69 @@
 			]
 		}
 	},
+	"mod": {
+		"forcedBlocks": {
+			"blockedFrom": {
+				"eng": "Blocked from",
+				"trans": "ممنوع من"
+			},
+			"by": {
+				"eng": "By",
+				"trans": "بواسطة"
+			},
+			"empty": {
+				"eng": "No forced blocks on this player",
+				"trans": "لا توجد حجوبات إجبارية على هذا اللاعب"
+			},
+			"expires": {
+				"eng": "Expires",
+				"trans": "ينتهي"
+			},
+			"reason": {
+				"eng": "Reason",
+				"trans": "السبب"
+			},
+			"title": {
+				"eng": "Forced Blocks (Mod View)",
+				"trans": "الكتل الإجبارية (عرض المود)"
+			}
+		},
+		"unblock": {
+			"eng": "Unblock",
+			"trans": "فك الحظر"
+		}
+	},
 	"modal": {
+		"altPrevention": {
+			"autoLiftText": {
+				"eng": "This restriction lifts automatically once both accounts stop sharing the same network for a while.",
+				"trans": "سيتم رفع هذا القيد تلقائياً بمجرد أن يتوقف كلا الحسابين عن مشاركة نفس الشبكة لفترة."
+			},
+			"dismissButton": {
+				"eng": "I Understand",
+				"trans": "فهمت"
+			},
+			"explanation": {
+				"eng": "You and the recipient appear to share a device or network. To prevent multi-account abuse, interactions between linked accounts are restricted.",
+				"trans": "يبدو أنك والمرسل تستخدمان نفس الجهاز أو الشبكة. ولمنع إساءة استخدام الحسابات المتعددة، تم حظر التفاعلات بين الحسابات المرتبطة."
+			},
+			"siblingsText": {
+				"eng": "Sharing a network with a real player (siblings, roommates)? You can send items via a trusted third-party.",
+				"trans": "هل تشارك الشبكة مع لاعب حقيقي (إخوة، شركاء في السكن)؟ يمكنك إرسال العناصر عبر طرف ثالث موثوق."
+			},
+			"title": {
+				"eng": "Action Blocked",
+				"trans": "إجراء محظور"
+			},
+			"viewRules": {
+				"eng": "View Rules",
+				"trans": "عرض القواعد"
+			},
+			"warningText": {
+				"eng": "Accounts abusing multi-accounting may be suspended.",
+				"trans": "قد يتم حظر الحسابات التي تستخدم حسابات متعددة"
+			}
+		},
 		"block": {
 			"title": {
 				"eng": "Are you sure you want to block this player?",
@@ -8470,15 +8604,27 @@
 		},
 		"playerSearch": {
 			"noPlayerFound": {
-				"eng": "No player with named \"${search}\" found",
+				"eng": "No player named \"${search}\" found",
 				"trans": "لم يتم العثور على لاعب مع اسم \"${search}\"",
 				"vars": [
 					"search"
 				]
 			},
+			"placeholder": {
+				"eng": "Enter player name...",
+				"trans": "أدخل اسم اللاعب..."
+			},
 			"searchPlayerHint": {
 				"eng": "Enter player name to search",
 				"trans": "أدخل اسم اللاعب للبحث"
+			},
+			"searching": {
+				"eng": "Searching...",
+				"trans": "جاري البحث..."
+			},
+			"title": {
+				"eng": "Search Player",
+				"trans": "بحث عن لاعب"
 			}
 		},
 		"promotion": {
@@ -9002,7 +9148,7 @@
 					"Welcome. What can I store for you?"
 				],
 				"trans": [
-					"Welcome. What can I store for you?"
+					"أهلاً بك. ما الذي تود تخزينه؟"
 				]
 			},
 			"name": {
@@ -9043,12 +9189,12 @@
 					"Stay online, stay strong, and stay true to yourself."
 				],
 				"trans": [
-					"Life is tough, but you're tougher. Keep fighting.",
-					"Stay strong, stay punk, and stay alive.",
-					"Remember, your worth is not defined by your struggles.",
-					"Don't let the system bring you down, rise up and rebel.",
-					"Stay connected to your inner self, and disconnect from the noise.",
-					"Stay online, stay strong, and stay true to yourself."
+					"الحياة قاسية، لكنك أصلب. استمر في القتال.",
+					"ابق قوياً، ابق بانك، وابق حياً.",
+					"تذكر أن قيمتك لا تُحدد بصعوباتك",
+					"لا تدع النظام يخضعك، قم بالتمرد",
+					"ابقَ على تواصل مع روحك الداخلية، وانفصل عن الضجيج.",
+					"أبق متصلاً، أبق قوياً، وابق مخلصاً لنفسك."
 				]
 			},
 			"name": {
@@ -9062,7 +9208,7 @@
 					"Hey kid, wanna make some quick bucks?"
 				],
 				"trans": [
-					"Hey kid, wanna make some quick bucks?"
+					"يا صغير، هل تريد كسب بعض المال السريع؟"
 				]
 			},
 			"name": {
@@ -9088,10 +9234,11 @@
 					"Who needs chimney when you can just punch through the wall?"
 				],
 				"trans": [
-					"Ho ho ho, choom! Ready to trade your loot for some holiday cheer?",
-					"My eyes are up here, little man.",
+					"ها ها ها، يا صاحبي! هل أنت مستعد لتبادل غنائمك لكسب بعض روح العيد؟",
+					"عيني في الأعلى يا صغير",
 					"Ho ho ho! The Animals want to rule the streets, but they’ll never outlift me.",
-					"Ho ho hold up—do you even lift, little man?"
+					"ها ها توقف — هل ترفع شيئاً أصلاً يا صغير؟",
+					"لا داعي للمدخنة إذا كان بإمكانك اختراق الجدار؟"
 				]
 			},
 			"name": {
@@ -9113,7 +9260,7 @@
 					"Hi! Donate to get cosmetic perks and to help support Free-to-Win games like this one!"
 				],
 				"trans": [
-					"Hi! Donate to get cosmetic perks and to help support Free-to-Win games like this one!"
+					"مرحباً! تبرع للحصول على مميزات جمالية ودعم الألعاب المجانية للكسب مثل هذه!"
 				]
 			},
 			"name": {
@@ -9139,11 +9286,11 @@
 					"The fusion process is irreversible, but the rewards are worth it, most of the time at least."
 				],
 				"trans": [
-					"Got some epic gear collecting dust? I can turn that into something useful.",
-					"Three pieces of epic equipment you no longer need? one guaranteed shard. That's the deal.",
-					"Welcome to the fusion hub, where old gear becomes new possibilities.",
-					"One man's trash is another's treasure, choom. I can turn your unwanted gear into diamonds.",
-					"The fusion process is irreversible, but the rewards are worth it, most of the time at least."
+					"هل لديك عتاد أسطوري في العراء؟ يمكنني تحويله إلى شيء مفيد.",
+					"ثلاث قطع من المعدات الأسطورية التي لا تحتاجها؟ شظية واحدة مضمونة. هذه الصفقة。",
+					"أهلاً بك في مركز الدمج، حيث تتحول المعدات القديمة إلى إمكانيات جديدة.",
+					"ما يراه البعض قمامة هو كنز للآخرين، يا صديقي. سأحول عتادك غير المرغوب فيه إلى ماسات.",
+					"عملية الاندماج لا رجعة فيها، لكن المكافآت تستحق العناء، غالباً"
 				]
 			},
 			"name": {
@@ -9169,7 +9316,7 @@
 					"Insert a Calibration Core into the machine, and I shall help you calibrate any of your equipment."
 				],
 				"trans": [
-					"Insert a Calibration Core into the machine, and I shall help you calibrate any of your equipment."
+					"أدخل نواة المعايرة في الجهاز، وسأساعدك في ضبط معداتك."
 				]
 			},
 			"name": {
@@ -9193,17 +9340,17 @@
 					"They say I'm too distracted by dancing to work... but somehow everything gets installed perfectly!"
 				],
 				"trans": [
-					"You think furniture is heavy? I install entire apartment rigs between sets at the gym.",
-					"Bring me your kits, choom. I'll have them assembled faster than you can say 'do you even lift?'",
-					"Looking preem today! Almost as good as this quantum learning pod I just installed with one hand.",
-					"These muscles aren't just for show, friend. Watch me carry your entire bedroom set up six flights of stairs.",
-					"Installation instructions? Never heard of them. I just flex and the furniture assembles itself.",
-					"Your apartment will look nova, almost as amazing as these chrome biceps. Almost.",
-					"Need help moving that couch? Please, I bench press cargo containers for fun.",
-					"I could dance circles around these assembly tasks. Want to see my moves?",
-					"Installation is like a dance, choom, and I'm the best dancer in town. Watch me work!",
-					"Some people need tools. I just need rhythm and these guns. *flexes while dancing*",
-					"They say I'm too distracted by dancing to work... but somehow everything gets installed perfectly!"
+					"تظن أن الأثاث ثقيل؟ أثبت أثاث الشقق بين الجلسات في النادي.",
+					"أحضر لي حزمتك يا زميلي. سأقوم بتركيبها أسرع مما يمكنك قوله \"هل ترفع أثقال؟\"",
+					"تبدو رائعة اليوم! هذا الكبسولة الكمومية للتعلم التي ثبتتها بيد واحدة لا تضاهيها.",
+					"هذه العضلات ليست للعرض فقط، صديقي. شاهدني كيف أحمل إعداد غرفة نومك كاملة على ست درجات.",
+					"تعليمات التثبيت؟ لم أسمع بها قط. أنا فقط أُظهر قوتي ويتجمّع الأثاث تلقائياً.",
+					"ستكون شقتك بمستوى جديد، كادت أن تكون بمستوى روعة هذه العضلات الكرومية. كادت.",
+					"هل تحتاج مساعدة بنقل الأريكة؟ أرجوك، أنا أرفع حاويات الشحن للترفيه.",
+					"أستطيع تجميع هذه القطع بسهولة. هل تريد أن ترى حيلي؟",
+					"التثبيت مثل الرقصة يا صديقي، وأنا الأفضل في المدينة. شاهدني أعمل!",
+					"بعض الناس يحتاجون أدوات. أنا فقط أحتاج للإيقاع والأسلحة. *يتحرك عضلاته بينما يرقص*",
+					"يقولون إنني مشغول بالرقص ولا أستطيع العمل... لكن للأسف كل شيء يُثبت بشكل مثالي!"
 				]
 			},
 			"name": {
@@ -9225,10 +9372,11 @@
 					"Give me your seeds, and I will give you a treat!"
 				],
 				"trans": [
-					"Pumpkin is my source of power!",
-					"Check out my pumpkin costume!",
-					"Hmmmm, I wonder what's inside this pumpkin...",
-					"Give me your pumpkin, and I'll give you a treat!"
+					"القرع هو مصدر طاقتي!",
+					"تعالوا شوفوا قناعي بالقرع!",
+					"hmmmmm، أتساءل ماذا بداخل هذا القرع؟",
+					"Give me your pumpkin, and I'll give you a treat!",
+					"أعطني بذورك وسأعطيك مكافأة!"
 				]
 			},
 			"name": {
@@ -9246,7 +9394,7 @@
 					"Welcome, our family is always excited to help you find the perfect tech gear."
 				],
 				"trans": [
-					"Welcome, our family is always excited to help you find the perfect tech gear."
+					"أهلاً بك، عائلتنا دائماً متحمسة لمساعدتك في العثور على أفضل الأجهزة التقنية."
 				]
 			},
 			"name": {
@@ -9268,11 +9416,11 @@
 					"The New Year's celebration won't wait forever, let's go!"
 				],
 				"trans": [
-					"Ready to light up the night? The countdown's about to begin!",
-					"Perfect timing is everything in fireworks, choom.",
-					"I've got the best pyrotechnics this side of Night City!",
-					"Wanna see some real fireworks? Show me what you've got!",
-					"The New Year's celebration won't wait forever, let's go!"
+					"هل أنت مستعد لإضاءة السماء؟ العد التنازلي سيبدأ قريباً!",
+					"الوقت هو كل شيء في الألعاب النارية، يا صاحبي.",
+					"لدي أفضل الألعاب النارية في مدينة نايت سيتي!",
+					"هل تريد رؤية ألعاب نارية حقيقية؟ أثبت لي ما عندك!",
+					"لا يمكننا الانتظار للأبد للاحتفال برأس السنة، لنتجه!"
 				]
 			},
 			"name": {
@@ -9298,11 +9446,11 @@
 					"Hey, choomba! Here to plan another blockbuster event? Let's dive in!"
 				],
 				"trans": [
-					"Hey choom, ready to chip in for the next 24-hour global party? We're just a few units short!",
-					"Ready to make an impact? Your contribution could launch the biggest party on the grid!",
-					"Looking to start the party? We're pooling funds now for a round-the-clock celebration.",
+					"يا صاحبي، هل أنت مستعد للمساهمة في الحفل العالمي القادم؟ نحتاج فقط لبضعة عملات!",
+					"هل أنت مستعد لإحداث تأثير؟ مساهمتك قد تطلق أكبر حفل في الشبكة!",
+					"هل تود البدء بالحفلة؟ نحن نجمع الأموال الآن لاحتفال طوال الليل。",
 					"If you’re aiming to see the city light up, help us fill the party meter. Every bit counts!",
-					"Hey, choomba! Here to plan another blockbuster event? Let's dive in!"
+					"يا صاحبي! جئت لتنظيم حدث ضخم آخر؟ لننطلق!"
 				]
 			},
 			"name": {
@@ -9324,11 +9472,11 @@
 					"Cyberdeck in hand, heart on sleeve? Our critters need that daily touch or they'll fade into the static."
 				],
 				"trans": [
-					"Hey, choom! Neon Paws is for the brave. These sprites need your daily grind. Ready to dive in?",
-					"Lookin' sharp, netrunner! Here, pets are more than code, they need your daily hack to thrive.",
-					"What's up, street samurai? Partner with a survivor. Without your daily deeds, they're zeroed.",
-					"Edge runner, eh? This is where tech meets heart. Ignore them, and they vanish into the net. Daily care, got it?",
-					"Cyberdeck in hand, heart on sleeve? Our critters need that daily touch or they'll fade into the static."
+					"يا صاحي! \"نيون باوز\" للشجعان. هذه الكيانات تحتاج إلى جهدك اليومي. هل أنت مستعد للغوص؟",
+					"تبدو رائعاً، نيت رانر! الحيوانات الأليفة هنا ليست مجرد كود، بل تحتاج إلى هك يومي لتبقى نابضة بالحياة.",
+					"كيف الحال، الساموراي الشارعي؟ اشترِ رفيقاً ناجياً. بدون أعمالك اليومية، سيموتون.",
+					"يا مستقل، أه؟ هنا يلتقي التكنولوجيا بالقلب. اتركهم، وسيختفون في الشبكة. تحتاج لعناية يومية، فهمت؟",
+					"جهازكمبيوتر في اليد وقلبك عاطفي؟ حيواناتنا تحتاج عنايتها اليومية، وإلا تتلاشى في الضوضاء."
 				]
 			},
 			"name": {
@@ -9346,7 +9494,7 @@
 					"I'll print whatever you want if you have the cache!"
 				],
 				"trans": [
-					"I'll print whatever you want if you have the cache!"
+					"سأطبع لك أي شيء تريده مقابل الكاش!"
 				]
 			},
 			"name": {
@@ -9368,6 +9516,38 @@
 				"trans": "recycler التلقائي"
 			}
 		},
+		"sakuraDog": {
+			"defaultLines": {
+				"eng": [
+					"woof woof",
+					"bark bark bark",
+					"woof woof, **scratch scratch**",
+					"*yawns*",
+					"*snif snif*",
+					"I know what you did.",
+					"Such hack. Much cyber. Wow",
+					"what da dog doin?"
+				],
+				"trans": [
+					"وهو هو",
+					"هي هي هي",
+					"هَوَ، حَكّ",
+					"يتثاؤب",
+					"*ههه*",
+					"أعلم بما فعلته",
+					"هاكر فعلًا. سيبرانك كثير. واو",
+					"شو شغلانة الكلب؟"
+				]
+			},
+			"name": {
+				"eng": "Shiba Shrine",
+				"trans": "مزار الشيباء"
+			},
+			"npcName": {
+				"eng": "Mochi",
+				"trans": "موچي"
+			}
+		},
 		"storageMerchant": {
 			"canAccessError": {
 				"eng": "You need to be at least level 10 to access merchant",
@@ -9378,7 +9558,7 @@
 					"Hey kid, I'm Lee, You know, you don't have to carry everything you own in your pockets."
 				],
 				"trans": [
-					"Hey kid, I'm Lee, You know, you don't have to carry everything you own in your pockets."
+					"يا صغير، أنا لي، تعرف، ما عليك تحمل كل حاجتك في جيبك."
 				]
 			},
 			"description": {
@@ -9396,7 +9576,7 @@
 					"Hey kid... Come check out my goods."
 				],
 				"trans": [
-					"Hey kid... Come check out my goods."
+					"يا صغير... تعال تطلع على بضاعتي."
 				]
 			},
 			"name": {
@@ -9414,7 +9594,7 @@
 					"I'll help you to progress to the next area!"
 				],
 				"trans": [
-					"I'll help you to progress to the next area!"
+					"سأساعدك للتقدم للمنطقة التالية"
 				]
 			},
 			"description": {
@@ -9441,7 +9621,8 @@
 					"We also have Eternal Bond Rings for those looking to unite with their partner forever."
 				],
 				"trans": [
-					"Do you want to buy Units, or use your Units?"
+					"هل تريد شراء الوحدات أم استخدامها؟",
+					"نقدم أيضًا حلقات الإرتباط الأبدي لمن يرغبون في الانضمام إلى شريكهم للأبد."
 				]
 			},
 			"name": {
@@ -9459,7 +9640,7 @@
 					"You will find the best gear here, trust me."
 				],
 				"trans": [
-					"You will find the best gear here, trust me."
+					"ستجد أفضل عتاد هنا، صدقني."
 				]
 			},
 			"name": {
@@ -10038,6 +10219,10 @@
 			}
 		},
 		"giveCred": {
+			"associatedError": {
+				"eng": "You cannot give street cred to an associated account",
+				"trans": "لا يمكنك منح مكانة الشارع لحساب مرتبط"
+			},
 			"cooldownError": {
 				"eng": "You cannot give street cred yet (once every day)",
 				"trans": "لا يمكنك إعطاء رصيد الشارع حتى الآن (مرة واحدة كل يوم)"
@@ -10054,7 +10239,7 @@
 				"trans": "يجب أن تكون المستوى 10 أو أعلى لإعطاء Player Street Cred"
 			},
 			"success": {
-				"eng": "You have given daily street cred.",
+				"eng": "Daily street cred reward have been sent to your item inbox",
 				"trans": "لقد أعطيت ديلي ستريت كيرث."
 			}
 		},
@@ -11556,6 +11741,14 @@
 				"playerCount",
 				"skipTime",
 				"credButton"
+			]
+		},
+		"eventSkipReward": {
+			"eng": "Lucky! You received the \"${emblemName}\" emblem from the ${eventName} event skip reward!",
+			"trans": "حظ أوفر! لقد حصلت على شعار \"${emblemName}\" من مكافأة تخطي حدث ${eventName}!",
+			"vars": [
+				"emblemName",
+				"eventName"
 			]
 		},
 		"firstTimeAnnouncement": {
@@ -13451,6 +13644,10 @@
 						"trans": "شراء شعار؟"
 					}
 				},
+				"exclusive": {
+					"eng": "Exclusive",
+					"trans": "حصري"
+				},
 				"limitedEdition": {
 					"eng": "Limited Edition",
 					"trans": "طبعة محدودة"
@@ -13458,6 +13655,10 @@
 				"owned": {
 					"eng": "owned",
 					"trans": "مملوكة"
+				},
+				"unobtainableToast": {
+					"eng": "This exclusive emblem cannot be purchased.",
+					"trans": "هذه الشارة الحصرية غير متاحة للشراء"
 				}
 			}
 		},

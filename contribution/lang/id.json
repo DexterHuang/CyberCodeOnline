@@ -1232,6 +1232,13 @@
 			"eng": "Add Image",
 			"trans": "Tambah Gambar"
 		},
+		"cantShareItem": {
+			"eng": "Only players with ${tierName} donation tier and above can share items to chat.",
+			"trans": "Hanya pemain dengan tier donasi ${tierName} dan di atas yang bisa membagikan item ke chat.",
+			"vars": [
+				"tierName"
+			]
+		},
 		"rollDice": {
 			"eng": "Roll Dice",
 			"trans": "Putar Dadu"
@@ -1265,25 +1272,25 @@
 				"how much you love me?"
 			],
 			"trans": [
-				"Love you",
-				"You guys are great",
-				"You guys are the best",
-				"love yall",
-				"You are amazing",
-				"we are best friend",
-				"Love you all",
-				"you are great",
-				"you the best",
-				"we are awesome",
-				"you are awesome",
-				"have a nice day",
-				"miss you",
-				"miss you guys",
-				"KYAAAAAAAAA",
-				"wish you have nice day",
-				"I love you",
-				"can we hug?",
-				"how much you love me?"
+				"Sayang kamu",
+				"Kamu semua hebat",
+				"Kamu semua juara",
+				"sayang kalian",
+				"Kamu luar biasa",
+				"Kita adalah sahabat",
+				"Kasih sayang semua",
+				"Kamu Hebat",
+				"Kamu yang terbaik",
+				"Kita Hebat",
+				"Keren banget",
+				"Semoga harimu cerah",
+				"Aku rindu kamu",
+				"Rindu sama kalian",
+				"Aaaaaaah!",
+				"Semoga harimu menyenangkan",
+				"Aku sayang kamu",
+				"Bisa peluk?",
+				"Seberapa besar cintaku padamu?"
 			]
 		}
 	},
@@ -1851,6 +1858,17 @@
 				"total"
 			]
 		},
+		"previewMode": {
+			"eng": "Previewing ${tierName} Tier",
+			"trans": "Pratinjau ${tierName} Tier",
+			"vars": [
+				"tierName"
+			]
+		},
+		"previewOnProfile": {
+			"eng": "Preview on Profile",
+			"trans": "Pratinjau di Profil"
+		},
 		"previewText": {
 			"eng": "This is how you will look!",
 			"trans": "Inilah tampilanmu nanti!"
@@ -1943,6 +1961,14 @@
 	},
 	"dice": {
 		"modal": {
+			"d20": {
+				"eng": "20-Sided",
+				"trans": "20-Sisi"
+			},
+			"d6": {
+				"eng": "6-Sided",
+				"trans": "Enam Sisi"
+			},
 			"description": {
 				"eng": "Roll a dice in chat for everyone to see!",
 				"trans": "Lempar dadu di chat supaya semua orang bisa lihat!"
@@ -1957,6 +1983,10 @@
 			"roll": {
 				"eng": "Roll Dice",
 				"trans": "Putar Dadu"
+			},
+			"selectType": {
+				"eng": "Select Dice Type:",
+				"trans": "Pilih Tipe Dadu:"
 			},
 			"title": {
 				"eng": "🎲 Roll Dice",
@@ -1983,24 +2013,30 @@
 				"eng": "Invalid chat channel",
 				"trans": "Saluran obrolan tidak valid"
 			},
+			"invalidDiceType": {
+				"eng": "Invalid dice type. Allowed: 6-Sided, 20-Sided",
+				"trans": "Jenis dadu tidak valid. Diperbolehkan: 6 Sisi, 20 Sisi"
+			},
 			"noDice": {
 				"eng": "You need a Lucky Dice to roll!",
 				"trans": "Kamu perlu Dadu Keberuntungan untuk melempar!"
 			},
 			"result": {
-				"eng": "${slanc}: ${player} rolled a ${result}! 🎲",
+				"eng": "${slanc}: ${player} rolled a ${result} on ${diceSides}-Sided dice! 🎲",
 				"trans": "${slanc}: ${player} melempar dadu dan mendapat ${result}! 🎲",
 				"vars": [
 					"slanc",
 					"player",
-					"result"
+					"result",
+					"diceSides"
 				]
 			},
 			"success": {
-				"eng": "You rolled a ${result}!",
+				"eng": "You rolled a ${result} on ${diceSides}-Sided dice!",
 				"trans": "Kamu melempar ${result}!",
 				"vars": [
-					"result"
+					"result",
+					"diceSides"
 				]
 			}
 		}
@@ -2363,6 +2399,10 @@
 		"donation48": {
 			"eng": "Lunar Stallion",
 			"trans": "Kuda Bulan"
+		},
+		"donation49": {
+			"eng": "Cyberbloom",
+			"trans": "SiberBunga"
 		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
@@ -2928,6 +2968,12 @@
 		"title": {
 			"eng": "Easter Celebration",
 			"trans": "Pesta Paskah"
+		}
+	},
+	"emblems": {
+		"doge": {
+			"eng": "doge",
+			"trans": "doge"
 		}
 	},
 	"enemy": {
@@ -3782,7 +3828,7 @@
 		},
 		"sakura": {
 			"name": {
-				"eng": "March",
+				"eng": "Sakura Festival",
 				"trans": "Diskon ${percent}% selama acara"
 			}
 		},
@@ -3932,6 +3978,20 @@
 				"trans": "Diskon Skip"
 			}
 		},
+		"skipReward": {
+			"description": {
+				"eng": "${chance} chance to receive free ${emblemName} every time you skip",
+				"trans": "${chance} peluang mendapatkan ${emblemName} gratis setiap kali kamu melewatkan",
+				"vars": [
+					"emblemName",
+					"chance"
+				]
+			},
+			"title": {
+				"eng": "Skip Emblem Reward",
+				"trans": "white the best translation here and nothing else"
+			}
+		},
 		"topUpReward": {
 			"description": {
 				"eng": "Get bonus reward when topping up during the event",
@@ -4074,10 +4134,6 @@
 		"cannotSend": {
 			"eng": "This player cannot receive gift now",
 			"trans": "Pemain ini tidak dapat menerima hadiah sekarang"
-		},
-		"cannotSendAssociated": {
-			"eng": "You cannot send gift to this player due to alt prevention",
-			"trans": "Anda tidak dapat mengirim hadiah ke pemain ini karena kebijakan anti-alt"
 		}
 	},
 	"giveCredButton": {
@@ -5704,6 +5760,16 @@
 				"trans": "Buket Mawar"
 			}
 		},
+		"sakuraPetal": {
+			"description": {
+				"eng": "A delicate cherry blossom petal infused with faint neon energy. Can be exchanged for items at the Shiba Shrine during the Sakura Festival",
+				"trans": "Kelopak sakura yang tipis terinfusi energi neon samar. Dapat ditukar dengan barang di Kuil Shiba selama Festival Sakura"
+			},
+			"name": {
+				"eng": "Sakura Petal",
+				"trans": "Kelopak Sakura"
+			}
+		},
 		"santaWorkshopPass": {
 			"description": {
 				"eng": "A holographic pass to CyberSanta's Workshop. Complete festive sorting challenges to earn rewards! 'Work hard, gift harder!' - CyberSanta",
@@ -6388,6 +6454,12 @@
 				"name": {
 					"eng": "Market",
 					"trans": "Market"
+				}
+			},
+			"yearOfHorse": {
+				"name": {
+					"eng": "Year of Horse",
+					"trans": "Tahun Kuda"
 				}
 			}
 		}
@@ -8289,7 +8361,69 @@
 			]
 		}
 	},
+	"mod": {
+		"forcedBlocks": {
+			"blockedFrom": {
+				"eng": "Blocked from",
+				"trans": "Diblokir dari"
+			},
+			"by": {
+				"eng": "By",
+				"trans": "oleh"
+			},
+			"empty": {
+				"eng": "No forced blocks on this player",
+				"trans": "Pemain ini tidak memiliki blok paksa"
+			},
+			"expires": {
+				"eng": "Expires",
+				"trans": "Berakhir"
+			},
+			"reason": {
+				"eng": "Reason",
+				"trans": "Alasan"
+			},
+			"title": {
+				"eng": "Forced Blocks (Mod View)",
+				"trans": "Blok Terpaksa (Mod)"
+			}
+		},
+		"unblock": {
+			"eng": "Unblock",
+			"trans": "Buka Blokir"
+		}
+	},
 	"modal": {
+		"altPrevention": {
+			"autoLiftText": {
+				"eng": "This restriction lifts automatically once both accounts stop sharing the same network for a while.",
+				"trans": "Pembatasan ini akan otomatis berakhir jika kedua akun berhenti berbagi jaringan yang sama selama beberapa saat."
+			},
+			"dismissButton": {
+				"eng": "I Understand",
+				"trans": "Saya Mengerti"
+			},
+			"explanation": {
+				"eng": "You and the recipient appear to share a device or network. To prevent multi-account abuse, interactions between linked accounts are restricted.",
+				"trans": "Kamu dan penerima tampaknya berbagi perangkat atau jaringan. Untuk mencegah penyalahgunaan akun ganda, interaksi antar akun terhubung dibatasi."
+			},
+			"siblingsText": {
+				"eng": "Sharing a network with a real player (siblings, roommates)? You can send items via a trusted third-party.",
+				"trans": "Berbagi jaringan dengan pemain asli (saudara, teman kos)? Anda bisa mengirim item melalui pihak ketiga yang terpercaya."
+			},
+			"title": {
+				"eng": "Action Blocked",
+				"trans": "Tindakan Diblokir"
+			},
+			"viewRules": {
+				"eng": "View Rules",
+				"trans": "Lihat Aturan"
+			},
+			"warningText": {
+				"eng": "Accounts abusing multi-accounting may be suspended.",
+				"trans": "Akun yang menyalahgunakan multi-akun dapat disuspend."
+			}
+		},
 		"block": {
 			"title": {
 				"eng": "Are you sure you want to block this player?",
@@ -8470,15 +8604,27 @@
 		},
 		"playerSearch": {
 			"noPlayerFound": {
-				"eng": "No player with named \"${search}\" found",
+				"eng": "No player named \"${search}\" found",
 				"trans": "Pemain dengan nama \"${search}\" Tidak ditemukan",
 				"vars": [
 					"search"
 				]
 			},
+			"placeholder": {
+				"eng": "Enter player name...",
+				"trans": "Masukkan nama pemain..."
+			},
 			"searchPlayerHint": {
 				"eng": "Enter player name to search",
 				"trans": "Masukkan nama pemain untuk mencari"
+			},
+			"searching": {
+				"eng": "Searching...",
+				"trans": "Mencari..."
+			},
+			"title": {
+				"eng": "Search Player",
+				"trans": "Cari Pemain"
 			}
 		},
 		"promotion": {
@@ -9043,12 +9189,12 @@
 					"Stay online, stay strong, and stay true to yourself."
 				],
 				"trans": [
-					"Life is tough, but you're tougher. Keep fighting.",
-					"Stay strong, stay punk, and stay alive.",
-					"Remember, your worth is not defined by your struggles.",
-					"Don't let the system bring you down, rise up and rebel.",
-					"Stay connected to your inner self, and disconnect from the noise.",
-					"Stay online, stay strong, and stay true to yourself."
+					"Hidup itu keras, tapi kamu lebih keras. Teruslah bertarung.",
+					"Tetap kuat, tetap punk, dan bertahan hidup.",
+					"Ingat, harga diri Anda tidak ditentukan oleh penderitaan Anda.",
+					"Jangan biarkan sistem menundukkanmu, bangkitlah dan berontak.",
+					"Tetap terhubung dengan diri batinmu, dan putuskan dari kebisingan.",
+					"Tetap online, tetap kuat, dan tetap jujur pada diri sendiri."
 				]
 			},
 			"name": {
@@ -9088,10 +9234,11 @@
 					"Who needs chimney when you can just punch through the wall?"
 				],
 				"trans": [
-					"Ho ho ho, choom! Ready to trade your loot for some holiday cheer?",
-					"My eyes are up here, little man.",
+					"Ho ho ho, teman! Siap tukar loot untuk semangat liburan?",
+					"Matanya di sini, si kecil.",
 					"Ho ho ho! The Animals want to rule the streets, but they’ll never outlift me.",
-					"Ho ho hold up—do you even lift, little man?"
+					"Ho ho tunggu dulu—beneran bisa angkat gak sih, kecil man?",
+					"Siapa butuh cerobong asap, kalau cuma perlu pukul tembok saja?"
 				]
 			},
 			"name": {
@@ -9139,11 +9286,11 @@
 					"The fusion process is irreversible, but the rewards are worth it, most of the time at least."
 				],
 				"trans": [
-					"Got some epic gear collecting dust? I can turn that into something useful.",
-					"Three pieces of epic equipment you no longer need? one guaranteed shard. That's the deal.",
-					"Welcome to the fusion hub, where old gear becomes new possibilities.",
-					"One man's trash is another's treasure, choom. I can turn your unwanted gear into diamonds.",
-					"The fusion process is irreversible, but the rewards are worth it, most of the time at least."
+					"Punya persenjataan epik yang nggak dipakai? Aku bisa jadikannya berguna.",
+					"Tiga item epik yang nggak kamu butuh lagi? Dapat satu cincin jaminan. Itu dealnya.",
+					"Selamat datang di Hub Fusion, di mana peralatan lama menjadi peluang baru.",
+					"...",
+					"Proses fusi tidak bisa dibatalkan, tapi hadiahnya worth it, setidaknya sebagian besar waktunya."
 				]
 			},
 			"name": {
@@ -9193,17 +9340,17 @@
 					"They say I'm too distracted by dancing to work... but somehow everything gets installed perfectly!"
 				],
 				"trans": [
-					"You think furniture is heavy? I install entire apartment rigs between sets at the gym.",
-					"Bring me your kits, choom. I'll have them assembled faster than you can say 'do you even lift?'",
-					"Looking preem today! Almost as good as this quantum learning pod I just installed with one hand.",
-					"These muscles aren't just for show, friend. Watch me carry your entire bedroom set up six flights of stairs.",
-					"Installation instructions? Never heard of them. I just flex and the furniture assembles itself.",
-					"Your apartment will look nova, almost as amazing as these chrome biceps. Almost.",
-					"Need help moving that couch? Please, I bench press cargo containers for fun.",
-					"I could dance circles around these assembly tasks. Want to see my moves?",
-					"Installation is like a dance, choom, and I'm the best dancer in town. Watch me work!",
-					"Some people need tools. I just need rhythm and these guns. *flexes while dancing*",
-					"They say I'm too distracted by dancing to work... but somehow everything gets installed perfectly!"
+					"Pikir furniture itu berat? Saya pasang full set peralatan apartemen antar set di gym.",
+					"Bawakan kit-nya, teman. Aku bakal menyusunnya lebih cepat dari kata-katamu 'do you even lift'",
+					"Tampilan mantap hari ini! Hampir sebagus pod belajar kuantum yang baru saja saya pasang satu tangan.",
+					"Otot-ototku ini bukan cuma untuk dipamerkan, teman. Tonton saya bawa seluruh set kamar tidur kamu naik tujuh lantai tangga.",
+					"Instruksi pasang? Saya nggak pernah dengar istilahnya. Saya cuma memperbaiki, dan furniturnya terbentuk sendiri.",
+					"Apartemen kamu bakal jadi neon, hampir sebagus biceps krom ini. Hampir.",
+					"Butuh bantuan pindahin sofa? Tolong, saya angkat kontainer kargo buat asik aja.",
+					"Saya bisa menaklukkan tugas rakit ini dengan mudah. Ingin melihat gerak saya?",
+					"Instalasi itu seperti tarian, teman. Aku penari terbaik di kota. Tonton aku bekerja!",
+					"Sebagian orang butuh alat. Saya cuma butuh irama dan senjata ini. *menunjukkan otot sambil menari*",
+					"Mereka bilang aku terlalu terganggu oleh menari buat kerjaan... tapi entah bagaimana semuanya terpasang sempurna!"
 				]
 			},
 			"name": {
@@ -9225,10 +9372,11 @@
 					"Give me your seeds, and I will give you a treat!"
 				],
 				"trans": [
-					"Pumpkin is my source of power!",
-					"Check out my pumpkin costume!",
-					"Hmmmm, I wonder what's inside this pumpkin...",
-					"Give me your pumpkin, and I'll give you a treat!"
+					"Pumpkin adalah sumber kekuatanku!",
+					"Lihat kostum labu gue!",
+					"Hmmmm, aku penasaran isi labu ini...",
+					"Give me your pumpkin, and I'll give you a treat!",
+					"Berikan bijinya, dan aku akan kasih kado!"
 				]
 			},
 			"name": {
@@ -9246,7 +9394,7 @@
 					"Welcome, our family is always excited to help you find the perfect tech gear."
 				],
 				"trans": [
-					"Welcome, our family is always excited to help you find the perfect tech gear."
+					"Selamat datang, kami senang membantu Anda menemukan gear teknologi terbaik."
 				]
 			},
 			"name": {
@@ -9268,11 +9416,11 @@
 					"The New Year's celebration won't wait forever, let's go!"
 				],
 				"trans": [
-					"Ready to light up the night? The countdown's about to begin!",
-					"Perfect timing is everything in fireworks, choom.",
-					"I've got the best pyrotechnics this side of Night City!",
-					"Wanna see some real fireworks? Show me what you've got!",
-					"The New Year's celebration won't wait forever, let's go!"
+					"Siap menerangi malam? Hitung mundur akan segera dimulai!",
+					"Timing yang pas adalah segalanya saat kembang api, kawan.",
+					"Aku punya kembang api terbaik di Kota Malam!",
+					"Ingin lihat kembang api aslinya? Tunjukkan apa yang kamu bisa!",
+					"Perayaan Tahun Baru ini tidak bakal nunggu lama, ayo kita mulai!"
 				]
 			},
 			"name": {
@@ -9298,11 +9446,11 @@
 					"Hey, choomba! Here to plan another blockbuster event? Let's dive in!"
 				],
 				"trans": [
-					"Hey choom, ready to chip in for the next 24-hour global party? We're just a few units short!",
-					"Ready to make an impact? Your contribution could launch the biggest party on the grid!",
-					"Looking to start the party? We're pooling funds now for a round-the-clock celebration.",
+					"Halo choom, siap donasi buat pesta global 24 jam berikutnya? Kami cuma kurang sedikit unit!",
+					"Siap memberikan dampak? Kontribusimu bisa memunculkan grup terbesar di grid!",
+					"Ingin mulai pesta? Kita sedang mengumpulkan dana untuk perayaan 24 jam.",
 					"If you’re aiming to see the city light up, help us fill the party meter. Every bit counts!",
-					"Hey, choomba! Here to plan another blockbuster event? Let's dive in!"
+					"Hai, choomba! Siap buat event megah lagi? Ayo kita mulai!"
 				]
 			},
 			"name": {
@@ -9324,11 +9472,11 @@
 					"Cyberdeck in hand, heart on sleeve? Our critters need that daily touch or they'll fade into the static."
 				],
 				"trans": [
-					"Hey, choom! Neon Paws is for the brave. These sprites need your daily grind. Ready to dive in?",
-					"Lookin' sharp, netrunner! Here, pets are more than code, they need your daily hack to thrive.",
-					"What's up, street samurai? Partner with a survivor. Without your daily deeds, they're zeroed.",
-					"Edge runner, eh? This is where tech meets heart. Ignore them, and they vanish into the net. Daily care, got it?",
-					"Cyberdeck in hand, heart on sleeve? Our critters need that daily touch or they'll fade into the static."
+					"Hai choom! Neon Paws khusus untuk pahlawan. Sprite ini butuh perjuangan sehari-hari. Siap masuk?",
+					"Terlihat keren, netrunner! Di sini, hewan peliharaan bukan sekadar kode, mereka butuh hack harian untuk bertahan.",
+					"Apa kabar, samurai jalanan? Bekerja sama dengan penyintas. Tanpa perbuatan harianmu, nilai mereka nol.",
+					"Runner pinggiran, ya? Di sini tempat teknologi bertemu hati. Kalau diabaikan, mereka akan hilang ke dalam jaringan. Perawatan harian, paham?",
+					"Cyberdeck di tangan, hati terbuka? Makhluk-makhluk ini butuh sentuhan harian, atau mereka akan lenyap ke statis."
 				]
 			},
 			"name": {
@@ -9366,6 +9514,38 @@
 			"name": {
 				"eng": "Automatic Recycler",
 				"trans": "Pendaur Ulang Otomatis"
+			}
+		},
+		"sakuraDog": {
+			"defaultLines": {
+				"eng": [
+					"woof woof",
+					"bark bark bark",
+					"woof woof, **scratch scratch**",
+					"*yawns*",
+					"*snif snif*",
+					"I know what you did.",
+					"Such hack. Much cyber. Wow",
+					"what da dog doin?"
+				],
+				"trans": [
+					"guk guk",
+					"guk guk guk",
+					"guk guk, cengkerit cengkerit",
+					"mereduk",
+					"*Haf haf*",
+					"Aku tahu apa yang kamu lakukan.",
+					"Sepertinya hack. Banyak cyber. Wow",
+					"Anjing lagi ngapain?"
+				]
+			},
+			"name": {
+				"eng": "Shiba Shrine",
+				"trans": "Kuil Shiba"
+			},
+			"npcName": {
+				"eng": "Mochi",
+				"trans": "Mochi"
 			}
 		},
 		"storageMerchant": {
@@ -9441,7 +9621,8 @@
 					"We also have Eternal Bond Rings for those looking to unite with their partner forever."
 				],
 				"trans": [
-					"Apakah kamu ingin membeli Unit , atau menggunakan Unit yang kau punya?"
+					"Apakah kamu ingin membeli Unit , atau menggunakan Unit yang kau punya?",
+					"Kami juga menyediakan Cincin Ikatan Abadi bagi mereka yang ingin bersatu dengan pasangannya selamanya."
 				]
 			},
 			"name": {
@@ -10038,6 +10219,10 @@
 			}
 		},
 		"giveCred": {
+			"associatedError": {
+				"eng": "You cannot give street cred to an associated account",
+				"trans": "Anda tidak dapat memberikan Street Cred ke akun terkait"
+			},
 			"cooldownError": {
 				"eng": "You cannot give street cred yet (once every day)",
 				"trans": "Anda belum dapat memberikan kredibilitas jalanan (sekali setiap hari)"
@@ -10054,7 +10239,7 @@
 				"trans": "Anda harus level 10 atau lebih untuk memberikan kredo jalan pemain"
 			},
 			"success": {
-				"eng": "You have given daily street cred.",
+				"eng": "Daily street cred reward have been sent to your item inbox",
 				"trans": "Anda telah memberikan kredibilitas jalanan harian."
 			}
 		},
@@ -11556,6 +11741,14 @@
 				"playerCount",
 				"skipTime",
 				"credButton"
+			]
+		},
+		"eventSkipReward": {
+			"eng": "Lucky! You received the \"${emblemName}\" emblem from the ${eventName} event skip reward!",
+			"trans": "Beruntung! Anda mendapatkan lencana \"${emblemName}\" dari hadiah skip event ${eventName}!",
+			"vars": [
+				"emblemName",
+				"eventName"
 			]
 		},
 		"firstTimeAnnouncement": {
@@ -13451,6 +13644,10 @@
 						"trans": "Beli Emblem?"
 					}
 				},
+				"exclusive": {
+					"eng": "Exclusive",
+					"trans": "Eksklusif"
+				},
 				"limitedEdition": {
 					"eng": "Limited Edition",
 					"trans": "Edisi terbatas"
@@ -13458,6 +13655,10 @@
 				"owned": {
 					"eng": "owned",
 					"trans": "Dimiliki"
+				},
+				"unobtainableToast": {
+					"eng": "This exclusive emblem cannot be purchased.",
+					"trans": "Lencana eksklusif ini tidak dapat dibeli."
 				}
 			}
 		},

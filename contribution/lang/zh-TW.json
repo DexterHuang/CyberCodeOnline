@@ -1232,6 +1232,13 @@
 			"eng": "Add Image",
 			"trans": "新增圖片"
 		},
+		"cantShareItem": {
+			"eng": "Only players with ${tierName} donation tier and above can share items to chat.",
+			"trans": "只有達到 ${tierName} 捐贈等級及以上的玩家才能將物品分享至聊天。",
+			"vars": [
+				"tierName"
+			]
+		},
 		"rollDice": {
 			"eng": "Roll Dice",
 			"trans": "擲骰"
@@ -1279,7 +1286,7 @@
 				"你對我很重要",
 				"我想你",
 				"我好想你們喔",
-				"KYAAAAAAAAA",
+				"啊啊啊啊啊",
 				"祝你有個美好的一天",
 				"好愛你",
 				"要抱抱",
@@ -1851,6 +1858,17 @@
 				"total"
 			]
 		},
+		"previewMode": {
+			"eng": "Previewing ${tierName} Tier",
+			"trans": "${tierName} 等級預覽",
+			"vars": [
+				"tierName"
+			]
+		},
+		"previewOnProfile": {
+			"eng": "Preview on Profile",
+			"trans": "個人資料預覽"
+		},
 		"previewText": {
 			"eng": "This is how you will look!",
 			"trans": "看起來就是這樣啦！"
@@ -1943,6 +1961,14 @@
 	},
 	"dice": {
 		"modal": {
+			"d20": {
+				"eng": "20-Sided",
+				"trans": "20面骰"
+			},
+			"d6": {
+				"eng": "6-Sided",
+				"trans": "六面骰"
+			},
 			"description": {
 				"eng": "Roll a dice in chat for everyone to see!",
 				"trans": "在聊天室擲一個骰子，所有人都可看見！"
@@ -1957,6 +1983,10 @@
 			"roll": {
 				"eng": "Roll Dice",
 				"trans": "擲骰"
+			},
+			"selectType": {
+				"eng": "Select Dice Type:",
+				"trans": "選擇骰子類型："
 			},
 			"title": {
 				"eng": "🎲 Roll Dice",
@@ -1983,24 +2013,30 @@
 				"eng": "Invalid chat channel",
 				"trans": "聊天頻道無效"
 			},
+			"invalidDiceType": {
+				"eng": "Invalid dice type. Allowed: 6-Sided, 20-Sided",
+				"trans": "無效的骰子類型。允許：六面骰、二十面骰"
+			},
 			"noDice": {
 				"eng": "You need a Lucky Dice to roll!",
 				"trans": "需要幸運骰子來擲骰"
 			},
 			"result": {
-				"eng": "${slanc}: ${player} rolled a ${result}! 🎲",
+				"eng": "${slanc}: ${player} rolled a ${result} on ${diceSides}-Sided dice! 🎲",
 				"trans": "${slanc}：${player}擲出了${result}",
 				"vars": [
 					"slanc",
 					"player",
-					"result"
+					"result",
+					"diceSides"
 				]
 			},
 			"success": {
-				"eng": "You rolled a ${result}!",
+				"eng": "You rolled a ${result} on ${diceSides}-Sided dice!",
 				"trans": "你擲出了${result}！",
 				"vars": [
-					"result"
+					"result",
+					"diceSides"
 				]
 			}
 		}
@@ -2363,6 +2399,10 @@
 		"donation48": {
 			"eng": "Lunar Stallion",
 			"trans": "月光雄馬"
+		},
+		"donation49": {
+			"eng": "Cyberbloom",
+			"trans": "賽博櫻花"
 		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
@@ -2928,6 +2968,12 @@
 		"title": {
 			"eng": "Easter Celebration",
 			"trans": "電馭復活節"
+		}
+	},
+	"emblems": {
+		"doge": {
+			"eng": "doge",
+			"trans": "狗勾"
 		}
 	},
 	"enemy": {
@@ -3782,7 +3828,7 @@
 		},
 		"sakura": {
 			"name": {
-				"eng": "March",
+				"eng": "Sakura Festival",
 				"trans": "春季"
 			}
 		},
@@ -3932,6 +3978,20 @@
 				"trans": "飛逝折扣"
 			}
 		},
+		"skipReward": {
+			"description": {
+				"eng": "${chance} chance to receive free ${emblemName} every time you skip",
+				"trans": "每次跳過有 `${chance}%` 機率免費獲得 `${emblemName}`",
+				"vars": [
+					"emblemName",
+					"chance"
+				]
+			},
+			"title": {
+				"eng": "Skip Emblem Reward",
+				"trans": "跳過徽章獎勵"
+			}
+		},
 		"topUpReward": {
 			"description": {
 				"eng": "Get bonus reward when topping up during the event",
@@ -4074,10 +4134,6 @@
 		"cannotSend": {
 			"eng": "This player cannot receive gift now",
 			"trans": "這個玩家現在無法接收禮物"
-		},
-		"cannotSendAssociated": {
-			"eng": "You cannot send gift to this player due to alt prevention",
-			"trans": "受防小號措施影響，你無法向此玩家送禮。"
 		}
 	},
 	"giveCredButton": {
@@ -5704,6 +5760,16 @@
 				"trans": "玫瑰花束"
 			}
 		},
+		"sakuraPetal": {
+			"description": {
+				"eng": "A delicate cherry blossom petal infused with faint neon energy. Can be exchanged for items at the Shiba Shrine during the Sakura Festival",
+				"trans": "融有淡淡霓虹能量的櫻花花瓣。可在櫻花祭期間於柴神社兌換物品。"
+			},
+			"name": {
+				"eng": "Sakura Petal",
+				"trans": "櫻花瓣"
+			}
+		},
 		"santaWorkshopPass": {
 			"description": {
 				"eng": "A holographic pass to CyberSanta's Workshop. Complete festive sorting challenges to earn rewards! 'Work hard, gift harder!' - CyberSanta",
@@ -6388,6 +6454,12 @@
 				"name": {
 					"eng": "Market",
 					"trans": "市場"
+				}
+			},
+			"yearOfHorse": {
+				"name": {
+					"eng": "Year of Horse",
+					"trans": "馬年"
 				}
 			}
 		}
@@ -8289,7 +8361,69 @@
 			]
 		}
 	},
+	"mod": {
+		"forcedBlocks": {
+			"blockedFrom": {
+				"eng": "Blocked from",
+				"trans": "封鎖來源"
+			},
+			"by": {
+				"eng": "By",
+				"trans": "由"
+			},
+			"empty": {
+				"eng": "No forced blocks on this player",
+				"trans": "此玩家無強制封鎖"
+			},
+			"expires": {
+				"eng": "Expires",
+				"trans": "過期"
+			},
+			"reason": {
+				"eng": "Reason",
+				"trans": "原因"
+			},
+			"title": {
+				"eng": "Forced Blocks (Mod View)",
+				"trans": "強制區塊 (Mod 檢視)"
+			}
+		},
+		"unblock": {
+			"eng": "Unblock",
+			"trans": "解除封鎖"
+		}
+	},
 	"modal": {
+		"altPrevention": {
+			"autoLiftText": {
+				"eng": "This restriction lifts automatically once both accounts stop sharing the same network for a while.",
+				"trans": "當雙帳號不再共用同一網路一段時間後，此限制將自動解除。"
+			},
+			"dismissButton": {
+				"eng": "I Understand",
+				"trans": "我了解"
+			},
+			"explanation": {
+				"eng": "You and the recipient appear to share a device or network. To prevent multi-account abuse, interactions between linked accounts are restricted.",
+				"trans": "您與對方似乎共用同一設備或網路。為防止多帳號濫用，關聯帳號間的互動已受限。"
+			},
+			"siblingsText": {
+				"eng": "Sharing a network with a real player (siblings, roommates)? You can send items via a trusted third-party.",
+				"trans": "與真人玩家共用網路（兄弟姐妹、室友）？您可透過可信第三方發送物品。"
+			},
+			"title": {
+				"eng": "Action Blocked",
+				"trans": "此動作已遭封鎖"
+			},
+			"viewRules": {
+				"eng": "View Rules",
+				"trans": "查看規則"
+			},
+			"warningText": {
+				"eng": "Accounts abusing multi-accounting may be suspended.",
+				"trans": "涉及濫用多帳號者，其帳號可能遭停權"
+			}
+		},
 		"block": {
 			"title": {
 				"eng": "Are you sure you want to block this player?",
@@ -8470,15 +8604,27 @@
 		},
 		"playerSearch": {
 			"noPlayerFound": {
-				"eng": "No player with named \"${search}\" found",
+				"eng": "No player named \"${search}\" found",
 				"trans": "找不到名為“${search}”的玩家",
 				"vars": [
 					"search"
 				]
 			},
+			"placeholder": {
+				"eng": "Enter player name...",
+				"trans": "輸入玩家名稱"
+			},
 			"searchPlayerHint": {
 				"eng": "Enter player name to search",
 				"trans": "輸入要搜尋的玩家名稱"
+			},
+			"searching": {
+				"eng": "Searching...",
+				"trans": "搜尋中"
+			},
+			"title": {
+				"eng": "Search Player",
+				"trans": "搜尋玩家"
 			}
 		},
 		"promotion": {
@@ -9112,7 +9258,8 @@
 					"Ho ho ho，準備好拿你的戰利品來換點好東西了嗎",
 					"我的眼睛在這欸老哥",
 					"Ho ho ho! 野獸幫想統治街頭，但他們永遠比不過我!",
-					"登登登，登登-等等，小兄弟，你到底有沒有在訓練啊?"
+					"登登登，登登-等等，小兄弟，你到底有沒有在訓練啊?",
+					"既然可以直接打穿牆壁，誰還需要煙囪？"
 				]
 			},
 			"name": {
@@ -9244,17 +9391,17 @@
 					"They say I'm too distracted by dancing to work... but somehow everything gets installed perfectly!"
 				],
 				"trans": [
-					"You think furniture is heavy? I install entire apartment rigs between sets at the gym.",
-					"Bring me your kits, choom. I'll have them assembled faster than you can say 'do you even lift?'",
-					"Looking preem today! Almost as good as this quantum learning pod I just installed with one hand.",
-					"These muscles aren't just for show, friend. Watch me carry your entire bedroom set up six flights of stairs.",
-					"Installation instructions? Never heard of them. I just flex and the furniture assembles itself.",
-					"Your apartment will look nova, almost as amazing as these chrome biceps. Almost.",
-					"Need help moving that couch? Please, I bench press cargo containers for fun.",
-					"I could dance circles around these assembly tasks. Want to see my moves?",
-					"Installation is like a dance, choom, and I'm the best dancer in town. Watch me work!",
-					"Some people need tools. I just need rhythm and these guns. *flexes while dancing*",
-					"They say I'm too distracted by dancing to work... but somehow everything gets installed perfectly!"
+					"你以為家具很沉嗎？我能在健身房的組間休息時，就把整套公寓模組給搞定。",
+					"把你的套件拿來給我，兄弟。我組裝它們的速度比你說你練過沒還快。",
+					"今天看起來真有型！跟這量子學習艮... NO. -> 今天看起來真有型！跟這量子學習艙差不多一樣棒，我可是單手就搞定安裝的。",
+					"這身肌肉可不是為了好看，兄弟。看好了，我連你整套臥室家具都能扛上六層樓梯。",
+					"安裝說明書？我沒聽過。我只要耍個帥，傢俱就會自己組裝。",
+					"你的公寓會煥然一新，幾乎跟這些鍍鉻臂膀一樣帥氣。還差一點點。",
+					"white the best translation here and nothing else",
+					"跟這些組裝任務比，我簡直是在跳舞。想看看我的身手嗎？",
+					"安裝就像跳舞，老哥，我可是這條街上最頂的舞者。看仔細了！",
+					"有人需要工具，我只需律動跟這些傢伙。*邊跳邊秀肌肉*",
+					"大家都說我太著迷跳舞、沒空顧工作……但不知怎麼的，安裝總是妥妥的！"
 				]
 			},
 			"name": {
@@ -9279,7 +9426,8 @@
 					"南瓜是我的能量來源！",
 					"看看我的南瓜裝！",
 					"嗯...真好奇這南瓜裡面有什麼...",
-					"用你的南瓜換點好東西!"
+					"用你的南瓜換點好東西!",
+					"把你的種子給我，我就給你糖果！"
 				]
 			},
 			"name": {
@@ -9319,11 +9467,11 @@
 					"The New Year's celebration won't wait forever, let's go!"
 				],
 				"trans": [
-					"Ready to light up the night? The countdown's about to begin!",
-					"Perfect timing is everything in fireworks, choom.",
-					"I've got the best pyrotechnics this side of Night City!",
-					"Wanna see some real fireworks? Show me what you've got!",
-					"The New Year's celebration won't wait forever, let's go!"
+					"準備好點亮夜空了嗎？倒數即將開始！",
+					"煙火最講究時機，夥伴。",
+					"我在夜之城這一帶的煙火技術最強！",
+					"想看真正的煙火嗎？讓我看看你的真本事！",
+					"新年慶典不等人，我們走啦！"
 				]
 			},
 			"name": {
@@ -9457,6 +9605,38 @@
 			"name": {
 				"eng": "Automatic Recycler",
 				"trans": "自動回收器"
+			}
+		},
+		"sakuraDog": {
+			"defaultLines": {
+				"eng": [
+					"woof woof",
+					"bark bark bark",
+					"woof woof, **scratch scratch**",
+					"*yawns*",
+					"*snif snif*",
+					"I know what you did.",
+					"Such hack. Much cyber. Wow",
+					"what da dog doin?"
+				],
+				"trans": [
+					"汪汪",
+					"汪汪汪",
+					"汪汪，抓抓",
+					"*打哈欠*",
+					"嗅嗅",
+					"我知道你做了什麼",
+					"這太硬核了。這賽博味好重。哇。",
+					"我的刀盾"
+				]
+			},
+			"name": {
+				"eng": "Shiba Shrine",
+				"trans": "柴犬神社"
+			},
+			"npcName": {
+				"eng": "Mochi",
+				"trans": "麻糬"
 			}
 		},
 		"storageMerchant": {
@@ -10242,6 +10422,10 @@
 			}
 		},
 		"giveCred": {
+			"associatedError": {
+				"eng": "You cannot give street cred to an associated account",
+				"trans": "無法將街頭信用轉移至關聯帳號"
+			},
 			"cooldownError": {
 				"eng": "You cannot give street cred yet (once every day)",
 				"trans": "你還不能給予街頭聲望（每天一次）"
@@ -10258,7 +10442,7 @@
 				"trans": "你必須在10等以上才能給玩家街頭聲望"
 			},
 			"success": {
-				"eng": "You have given daily street cred.",
+				"eng": "Daily street cred reward have been sent to your item inbox",
 				"trans": "你已成功與給予街頭聲望"
 			}
 		},
@@ -11760,6 +11944,14 @@
 				"playerCount",
 				"skipTime",
 				"credButton"
+			]
+		},
+		"eventSkipReward": {
+			"eng": "Lucky! You received the \"${emblemName}\" emblem from the ${eventName} event skip reward!",
+			"trans": "幸運！你從「${eventName}」活動的跳过獎勵中獲得了\"${emblemName}\"徽章!",
+			"vars": [
+				"emblemName",
+				"eventName"
 			]
 		},
 		"firstTimeAnnouncement": {
@@ -13655,6 +13847,10 @@
 						"trans": "購買徽章？"
 					}
 				},
+				"exclusive": {
+					"eng": "Exclusive",
+					"trans": "獨家"
+				},
 				"limitedEdition": {
 					"eng": "Limited Edition",
 					"trans": "限量版"
@@ -13662,6 +13858,10 @@
 				"owned": {
 					"eng": "owned",
 					"trans": "擁有"
+				},
+				"unobtainableToast": {
+					"eng": "This exclusive emblem cannot be purchased.",
+					"trans": "此限定徽章無法購買。"
 				}
 			}
 		},

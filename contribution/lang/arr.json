@@ -1232,6 +1232,13 @@
 			"eng": "Add Image",
 			"trans": "Drop in a Pic"
 		},
+		"cantShareItem": {
+			"eng": "Only players with ${tierName} donation tier and above can share items to chat.",
+			"trans": "Only mates with ${tierName} tier can share loot in the chat.",
+			"vars": [
+				"tierName"
+			]
+		},
 		"rollDice": {
 			"eng": "Roll Dice",
 			"trans": "Roll the Bones"
@@ -1265,25 +1272,25 @@
 				"how much you love me?"
 			],
 			"trans": [
-				"Love you",
-				"You guys are great",
-				"You guys are the best",
-				"love yall",
-				"You are amazing",
-				"we are best friend",
-				"Love you all",
-				"you are great",
-				"you the best",
-				"we are awesome",
-				"you are awesome",
-				"have a nice day",
-				"miss you",
-				"miss you guys",
-				"KYAAAAAAAAA",
-				"wish you have nice day",
-				"I love you",
-				"can we hug?",
-				"how much you love me?"
+				"I love ye",
+				"Ye be grand",
+				"You be the best",
+				"I love ye all, ye scurvy dogs",
+				"You're a grand one",
+				"We be best mates",
+				"Love ye all",
+				"You be great",
+				"You be the finest",
+				"We be mighty",
+				"Thou art a grand fellow",
+				"Have a grand day, matey",
+				"I miss ye",
+				"I miss ye, mates",
+				"ARRRRRRRR",
+				"Wish ye a fine day",
+				"I love ye",
+				"Can we give a squeeze?",
+				"How much do ye love me?"
 			]
 		}
 	},
@@ -1851,6 +1858,17 @@
 				"total"
 			]
 		},
+		"previewMode": {
+			"eng": "Previewing ${tierName} Tier",
+			"trans": "Scouting the ${tierName} Class",
+			"vars": [
+				"tierName"
+			]
+		},
+		"previewOnProfile": {
+			"eng": "Preview on Profile",
+			"trans": "Behold the Portrait"
+		},
 		"previewText": {
 			"eng": "This is how you will look!",
 			"trans": "Arrr! Ye’ll look like this!"
@@ -1943,6 +1961,14 @@
 	},
 	"dice": {
 		"modal": {
+			"d20": {
+				"eng": "20-Sided",
+				"trans": "Twenty-Sided"
+			},
+			"d6": {
+				"eng": "6-Sided",
+				"trans": "Six-Sided"
+			},
 			"description": {
 				"eng": "Roll a dice in chat for everyone to see!",
 				"trans": "Throw a dice in the chat for ye all to see!"
@@ -1957,6 +1983,10 @@
 			"roll": {
 				"eng": "Roll Dice",
 				"trans": "Roll the Bones"
+			},
+			"selectType": {
+				"eng": "Select Dice Type:",
+				"trans": "Choose yer Dice:"
 			},
 			"title": {
 				"eng": "🎲 Roll Dice",
@@ -1983,24 +2013,30 @@
 				"eng": "Invalid chat channel",
 				"trans": "No good channel"
 			},
+			"invalidDiceType": {
+				"eng": "Invalid dice type. Allowed: 6-Sided, 20-Sided",
+				"trans": "That be an invalid dice type. Allowed: 6-Sided, 20-Sided"
+			},
 			"noDice": {
 				"eng": "You need a Lucky Dice to roll!",
 				"trans": "Ye need a Lucky Dice to roll!"
 			},
 			"result": {
-				"eng": "${slanc}: ${player} rolled a ${result}! 🎲",
+				"eng": "${slanc}: ${player} rolled a ${result} on ${diceSides}-Sided dice! 🎲",
 				"trans": "${slanc}: ${player} be rollin' a ${result}!",
 				"vars": [
 					"slanc",
 					"player",
-					"result"
+					"result",
+					"diceSides"
 				]
 			},
 			"success": {
-				"eng": "You rolled a ${result}!",
+				"eng": "You rolled a ${result} on ${diceSides}-Sided dice!",
 				"trans": "Ye rolled a ${result}!",
 				"vars": [
-					"result"
+					"result",
+					"diceSides"
 				]
 			}
 		}
@@ -2363,6 +2399,10 @@
 		"donation48": {
 			"eng": "Lunar Stallion",
 			"trans": "Moon‑Hoofed Buccaneer"
+		},
+		"donation49": {
+			"eng": "Cyberbloom",
+			"trans": "The Electric Blossom"
 		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
@@ -2928,6 +2968,12 @@
 		"title": {
 			"eng": "Easter Celebration",
 			"trans": "Easter Booty Haul"
+		}
+	},
+	"emblems": {
+		"doge": {
+			"eng": "doge",
+			"trans": "Cur"
 		}
 	},
 	"enemy": {
@@ -3782,7 +3828,7 @@
 		},
 		"sakura": {
 			"name": {
-				"eng": "March",
+				"eng": "Sakura Festival",
 				"trans": "${percent}% off during event"
 			}
 		},
@@ -3932,6 +3978,20 @@
 				"trans": "Shiver me timbers, no Discount!"
 			}
 		},
+		"skipReward": {
+			"description": {
+				"eng": "${chance} chance to receive free ${emblemName} every time you skip",
+				"trans": "${chance} chance to snag free ${emblemName} every time ye skip",
+				"vars": [
+					"emblemName",
+					"chance"
+				]
+			},
+			"title": {
+				"eng": "Skip Emblem Reward",
+				"trans": "Skipped Emblem Booty"
+			}
+		},
 		"topUpReward": {
 			"description": {
 				"eng": "Get bonus reward when topping up during the event",
@@ -4074,10 +4134,6 @@
 		"cannotSend": {
 			"eng": "This player cannot receive gift now",
 			"trans": "Blast it! This here matey ain't able to receive yer bounty"
-		},
-		"cannotSendAssociated": {
-			"eng": "You cannot send gift to this player due to alt prevention",
-			"trans": "Arrr, ye can't send no gift ter this matey 'cos o' alt prevention!"
 		}
 	},
 	"giveCredButton": {
@@ -5704,6 +5760,16 @@
 				"trans": "Arrr! The Crimson Bloom"
 			}
 		},
+		"sakuraPetal": {
+			"description": {
+				"eng": "A delicate cherry blossom petal infused with faint neon energy. Can be exchanged for items at the Shiba Shrine during the Sakura Festival",
+				"trans": "A cherry blossom petal, delicate and humming with ghostly neon energy. Can be traded for plunder at the Shiba Shrine during the Sakura Festival"
+			},
+			"name": {
+				"eng": "Sakura Petal",
+				"trans": "Cherry Blossom Petal"
+			}
+		},
 		"santaWorkshopPass": {
 			"description": {
 				"eng": "A holographic pass to CyberSanta's Workshop. Complete festive sorting challenges to earn rewards! 'Work hard, gift harder!' - CyberSanta",
@@ -6388,6 +6454,12 @@
 				"name": {
 					"eng": "Market",
 					"trans": "Pirate's Emporium"
+				}
+			},
+			"yearOfHorse": {
+				"name": {
+					"eng": "Year of Horse",
+					"trans": "The Year o' the Horse"
 				}
 			}
 		}
@@ -8289,7 +8361,69 @@
 			]
 		}
 	},
+	"mod": {
+		"forcedBlocks": {
+			"blockedFrom": {
+				"eng": "Blocked from",
+				"trans": "Barred from"
+			},
+			"by": {
+				"eng": "By",
+				"trans": "Thru"
+			},
+			"empty": {
+				"eng": "No forced blocks on this player",
+				"trans": "This player be free of chains"
+			},
+			"expires": {
+				"eng": "Expires",
+				"trans": "Doomsday"
+			},
+			"reason": {
+				"eng": "Reason",
+				"trans": "Cause"
+			},
+			"title": {
+				"eng": "Forced Blocks (Mod View)",
+				"trans": "Forced Blockades (Captain's View)"
+			}
+		},
+		"unblock": {
+			"eng": "Unblock",
+			"trans": "Break the Blockade"
+		}
+	},
 	"modal": {
+		"altPrevention": {
+			"autoLiftText": {
+				"eng": "This restriction lifts automatically once both accounts stop sharing the same network for a while.",
+				"trans": "The restriction be lifted when the two accounts cut the connection for a spell."
+			},
+			"dismissButton": {
+				"eng": "I Understand",
+				"trans": "Arr, I Understand"
+			},
+			"explanation": {
+				"eng": "You and the recipient appear to share a device or network. To prevent multi-account abuse, interactions between linked accounts are restricted.",
+				"trans": "Ye and yer matey seem to share a ship or the sea. To stop scallywags from faking their identity, talking between ships is barred."
+			},
+			"siblingsText": {
+				"eng": "Sharing a network with a real player (siblings, roommates)? You can send items via a trusted third-party.",
+				"trans": "Sharein' the network with a real player? Ye can send items via a trusted ally."
+			},
+			"title": {
+				"eng": "Action Blocked",
+				"trans": "Action Stopped"
+			},
+			"viewRules": {
+				"eng": "View Rules",
+				"trans": "Read the Articles"
+			},
+			"warningText": {
+				"eng": "Accounts abusing multi-accounting may be suspended.",
+				"trans": "Ships abusing multiple accounts may be thrown in the brig."
+			}
+		},
 		"block": {
 			"title": {
 				"eng": "Are you sure you want to block this player?",
@@ -8470,15 +8604,27 @@
 		},
 		"playerSearch": {
 			"noPlayerFound": {
-				"eng": "No player with named \"${search}\" found",
+				"eng": "No player named \"${search}\" found",
 				"trans": "Blast! No pirate named \"${search}\" in these waters!",
 				"vars": [
 					"search"
 				]
 			},
+			"placeholder": {
+				"eng": "Enter player name...",
+				"trans": "Enter the name of the matey..."
+			},
 			"searchPlayerHint": {
 				"eng": "Enter player name to search",
 				"trans": "Enter crewmate name t' search"
+			},
+			"searching": {
+				"eng": "Searching...",
+				"trans": "Searchin'..."
+			},
+			"title": {
+				"eng": "Search Player",
+				"trans": "Find Matey"
 			}
 		},
 		"promotion": {
@@ -9043,12 +9189,12 @@
 					"Stay online, stay strong, and stay true to yourself."
 				],
 				"trans": [
-					"Life is tough, but you're tougher. Keep fighting.",
-					"Stay strong, stay punk, and stay alive.",
-					"Remember, your worth is not defined by your struggles.",
-					"Don't let the system bring you down, rise up and rebel.",
-					"Stay connected to your inner self, and disconnect from the noise.",
-					"Stay online, stay strong, and stay true to yourself."
+					"Life is hard, but ye are tougher. Keep fighting.",
+					"Keep yer chin up, stay wild, and keep breathin'.",
+					"Remember, your worth ain't measured by your struggles.",
+					"Don't let the law bring ye down, rise up and mutiny.",
+					"Stay true to the spirit within and turn a deaf ear to the din.",
+					"Keep yer link, stand tall, and keep yer honor."
 				]
 			},
 			"name": {
@@ -9062,7 +9208,7 @@
 					"Hey kid, wanna make some quick bucks?"
 				],
 				"trans": [
-					"Hey kid, wanna make some quick bucks?"
+					"Arr, kid, wanna make a quick score?"
 				]
 			},
 			"name": {
@@ -9088,10 +9234,11 @@
 					"Who needs chimney when you can just punch through the wall?"
 				],
 				"trans": [
-					"Ho ho ho, choom! Ready to trade your loot for some holiday cheer?",
-					"My eyes are up here, little man.",
+					"Arr arr arr, matey! Ready to trade your booty for some Christmas cheer?",
+					"My eyes are up here, you little scallywag.",
 					"Ho ho ho! The Animals want to rule the streets, but they’ll never outlift me.",
-					"Ho ho hold up—do you even lift, little man?"
+					"Ho ho ho! Avast! Can ye heave a cannonball, ye shrimp?",
+					"Why bother with a chimney when ye can just smash through the wall?"
 				]
 			},
 			"name": {
@@ -9139,11 +9286,11 @@
 					"The fusion process is irreversible, but the rewards are worth it, most of the time at least."
 				],
 				"trans": [
-					"Got some epic gear collecting dust? I can turn that into something useful.",
-					"Three pieces of epic equipment you no longer need? one guaranteed shard. That's the deal.",
-					"Welcome to the fusion hub, where old gear becomes new possibilities.",
-					"One man's trash is another's treasure, choom. I can turn your unwanted gear into diamonds.",
-					"The fusion process is irreversible, but the rewards are worth it, most of the time at least."
+					"Arr, got some fine gear gatherin' dust? I can turn that into somethin' useful.",
+					"Three epic pieces ye don't need? One shard guaranteed. That's the trade.",
+					"Welcome to the fusion hub, matey, where old gear turns into treasure.",
+					"One man's junk is another man's treasure, matey. I can turn your scrap into diamonds.",
+					"Arr, the fusion be final, but the loot be worth it, mostly."
 				]
 			},
 			"name": {
@@ -9193,17 +9340,17 @@
 					"They say I'm too distracted by dancing to work... but somehow everything gets installed perfectly!"
 				],
 				"trans": [
-					"You think furniture is heavy? I install entire apartment rigs between sets at the gym.",
-					"Bring me your kits, choom. I'll have them assembled faster than you can say 'do you even lift?'",
-					"Looking preem today! Almost as good as this quantum learning pod I just installed with one hand.",
-					"These muscles aren't just for show, friend. Watch me carry your entire bedroom set up six flights of stairs.",
-					"Installation instructions? Never heard of them. I just flex and the furniture assembles itself.",
-					"Your apartment will look nova, almost as amazing as these chrome biceps. Almost.",
-					"Need help moving that couch? Please, I bench press cargo containers for fun.",
-					"I could dance circles around these assembly tasks. Want to see my moves?",
-					"Installation is like a dance, choom, and I'm the best dancer in town. Watch me work!",
-					"Some people need tools. I just need rhythm and these guns. *flexes while dancing*",
-					"They say I'm too distracted by dancing to work... but somehow everything gets installed perfectly!"
+					"Ye think furniture be heavy? I rig entire apartment rigs between sets at the gym!",
+					"Hand over yer kits, choom. I'll have 'em assembled faster'n you can say 'do you even lift?'",
+					"Arr, ye look grand today! Almost as fine as this quantum learning pod I just rigged with one hand.",
+					"Arrr, these muscles ain't just for showin' off, friend. Watch me haul yer whole bedroom set up six flights o' stairs!",
+					"Arrr, instructions? Never heard of 'em. I just flex and the furniture puts itself together.",
+					"Arrr, yer crib will be a supernova, just as grand as them chrome biceps. Almost.",
+					"Arr, need help movin' that couch? Please, I lift cargo crates fer fun.",
+					"I could spin these tasks 'round like a drunken sailor. Wanna see my style?",
+					"Arr, setting up is like a dance, matey! I'm the best dancer in town. Watch me!",
+					"Some scallywags need gear. I just need a beat and these pistols. *flexes while dancing*",
+					"Arrr, they say I be too distracted by shakin' me booty to work, but somehow everything gets installed sharp!"
 				]
 			},
 			"name": {
@@ -9225,10 +9372,11 @@
 					"Give me your seeds, and I will give you a treat!"
 				],
 				"trans": [
-					"Pumpkin is my source of power!",
-					"Check out my pumpkin costume!",
-					"Hmmmm, I wonder what's inside this pumpkin...",
-					"Give me your pumpkin, and I'll give you a treat!"
+					"The pumpkin be my strength!",
+					"Check out me pumpkin rig-out!",
+					"Arrr, I wonder what be inside this pumpkin.",
+					"Give me your pumpkin, and I'll give you a treat!",
+					"Give me yer seeds and I'll give ye a treat!"
 				]
 			},
 			"name": {
@@ -9246,7 +9394,7 @@
 					"Welcome, our family is always excited to help you find the perfect tech gear."
 				],
 				"trans": [
-					"Welcome, our family is always excited to help you find the perfect tech gear."
+					"Ahoy, welcome aboard! Me crew is always thrilled to help ye find the perfect gadgets."
 				]
 			},
 			"name": {
@@ -9268,11 +9416,11 @@
 					"The New Year's celebration won't wait forever, let's go!"
 				],
 				"trans": [
-					"Ready to light up the night? The countdown's about to begin!",
-					"Perfect timing is everything in fireworks, choom.",
-					"I've got the best pyrotechnics this side of Night City!",
-					"Wanna see some real fireworks? Show me what you've got!",
-					"The New Year's celebration won't wait forever, let's go!"
+					"Ready to set the night on fire, mates? The countdown starts now!",
+					"Arr, timing be everything in the fireworks, matey.",
+					"Arr, I've got the wickedest fireworks this side of Night City!",
+					"Wanna see some real fireworks? Show me what ye've got!",
+					"The New Year's bash won't wait forever, let's get goin'!"
 				]
 			},
 			"name": {
@@ -9298,11 +9446,11 @@
 					"Hey, choomba! Here to plan another blockbuster event? Let's dive in!"
 				],
 				"trans": [
-					"Hey choom, ready to chip in for the next 24-hour global party? We're just a few units short!",
-					"Ready to make an impact? Your contribution could launch the biggest party on the grid!",
-					"Looking to start the party? We're pooling funds now for a round-the-clock celebration.",
+					"Ahoy, matey! Ready to pitch in for the 24-hour shindig? We're just a few doubloons short!",
+					"Ready to make a splash? Your help could kick off the biggest bash on the grid!",
+					"Arr! Lookin' to start the party? We be gatherin' up the gold for a celebration that never ends.",
 					"If you’re aiming to see the city light up, help us fill the party meter. Every bit counts!",
-					"Hey, choomba! Here to plan another blockbuster event? Let's dive in!"
+					"Yo, matey! Ready to plan another grand scheme? Let's set sail!"
 				]
 			},
 			"name": {
@@ -9324,11 +9472,11 @@
 					"Cyberdeck in hand, heart on sleeve? Our critters need that daily touch or they'll fade into the static."
 				],
 				"trans": [
-					"Hey, choom! Neon Paws is for the brave. These sprites need your daily grind. Ready to dive in?",
-					"Lookin' sharp, netrunner! Here, pets are more than code, they need your daily hack to thrive.",
-					"What's up, street samurai? Partner with a survivor. Without your daily deeds, they're zeroed.",
-					"Edge runner, eh? This is where tech meets heart. Ignore them, and they vanish into the net. Daily care, got it?",
-					"Cyberdeck in hand, heart on sleeve? Our critters need that daily touch or they'll fade into the static."
+					"Arr, matey! Neon Paws is fer the bold. These little scallywags need their daily chores. Ready to set sail?",
+					"Arrr, lookin' sharp, ye netrunner! Here, pets be more than code, they need a daily hack to thrive.",
+					"Arr, Cutthroat! Partner with a survivor. Without your daily deeds, they're gone.",
+					"Arr, Edgerunner, eh? 'Tis where the machine meets the heart. Ignore 'em, and they vanish into the net. Tend to 'em daily, got it?",
+					"Cyberdeck in hand, heart on sleeve? Our critters need a daily poke or they'll fade into the static."
 				]
 			},
 			"name": {
@@ -9366,6 +9514,38 @@
 			"name": {
 				"eng": "Automatic Recycler",
 				"trans": "Automatic Recyclerrr"
+			}
+		},
+		"sakuraDog": {
+			"defaultLines": {
+				"eng": [
+					"woof woof",
+					"bark bark bark",
+					"woof woof, **scratch scratch**",
+					"*yawns*",
+					"*snif snif*",
+					"I know what you did.",
+					"Such hack. Much cyber. Wow",
+					"what da dog doin?"
+				],
+				"trans": [
+					"Arrr Arrr",
+					"Yap yap yap",
+					"Arrr arrr, scrape scrape",
+					"Arr, I be yawning",
+					"sniff sniff",
+					"I knows what ye did.",
+					"Much trick. Much tech. Arrr",
+					"What be the dog doin'?"
+				]
+			},
+			"name": {
+				"eng": "Shiba Shrine",
+				"trans": "Shiba's Temple"
+			},
+			"npcName": {
+				"eng": "Mochi",
+				"trans": "Biscuit"
 			}
 		},
 		"storageMerchant": {
@@ -9441,7 +9621,8 @@
 					"We also have Eternal Bond Rings for those looking to unite with their partner forever."
 				],
 				"trans": [
-					"Do ye wants t' buy Units, or use yer Units?"
+					"Do ye wants t' buy Units, or use yer Units?",
+					"We be havin' Eternal Bond Rings for those seekin' to bind with their love forever."
 				]
 			},
 			"name": {
@@ -10038,6 +10219,10 @@
 			}
 		},
 		"giveCred": {
+			"associatedError": {
+				"eng": "You cannot give street cred to an associated account",
+				"trans": "Ye cannae give street cred to a linked account"
+			},
 			"cooldownError": {
 				"eng": "You cannot give street cred yet (once every day)",
 				"trans": "Shiver me timbers! Ye can't be spreadin' the street cred, not 'til the morrow"
@@ -10054,7 +10239,7 @@
 				"trans": "Shiver me timbers! Ye need to be level 10 or better to share yer street cred, matey"
 			},
 			"success": {
-				"eng": "You have given daily street cred.",
+				"eng": "Daily street cred reward have been sent to your item inbox",
 				"trans": "Ye've shared yer daily due o' respect, arr!"
 			}
 		},
@@ -11556,6 +11741,14 @@
 				"playerCount",
 				"skipTime",
 				"credButton"
+			]
+		},
+		"eventSkipReward": {
+			"eng": "Lucky! You received the \"${emblemName}\" emblem from the ${eventName} event skip reward!",
+			"trans": "Arrr! Ye got lucky! Ye snagged the \"${emblemName}\" emblem from the \"${eventName}\" event skip reward!",
+			"vars": [
+				"emblemName",
+				"eventName"
 			]
 		},
 		"firstTimeAnnouncement": {
@@ -13451,6 +13644,10 @@
 						"trans": "Be ye wantin' t' buy this here emblem, matey?"
 					}
 				},
+				"exclusive": {
+					"eng": "Exclusive",
+					"trans": "Private"
+				},
 				"limitedEdition": {
 					"eng": "Limited Edition",
 					"trans": "One o' a Kind Doubloons"
@@ -13458,6 +13655,10 @@
 				"owned": {
 					"eng": "owned",
 					"trans": "Aye, 'tis mine"
+				},
+				"unobtainableToast": {
+					"eng": "This exclusive emblem cannot be purchased.",
+					"trans": "Ye cannae buy this exclusive badge."
 				}
 			}
 		},

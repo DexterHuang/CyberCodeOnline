@@ -1232,6 +1232,13 @@
 			"eng": "Add Image",
 			"trans": "Idagdag ang Larawan"
 		},
+		"cantShareItem": {
+			"eng": "Only players with ${tierName} donation tier and above can share items to chat.",
+			"trans": "Mga manlalaro na may ${tierName} donation tier at sa ibabaw lamang ang makakapag-share ng item sa chat.",
+			"vars": [
+				"tierName"
+			]
+		},
 		"rollDice": {
 			"eng": "Roll Dice",
 			"trans": "I-roll ang Dado"
@@ -1265,25 +1272,25 @@
 				"how much you love me?"
 			],
 			"trans": [
-				"Love you",
-				"You guys are great",
-				"You guys are the best",
-				"love yall",
-				"You are amazing",
-				"we are best friend",
-				"Love you all",
-				"you are great",
-				"you the best",
-				"we are awesome",
-				"you are awesome",
-				"have a nice day",
-				"miss you",
-				"miss you guys",
-				"KYAAAAAAAAA",
-				"wish you have nice day",
-				"I love you",
-				"can we hug?",
-				"how much you love me?"
+				"Mahal kita",
+				"Galing kayo",
+				"Kayo ang pinakamagaling",
+				"Mahal ko kayo",
+				"Ikaw ay galing",
+				"best friends na tayo",
+				"Mahal kayo lahat",
+				"Ang galing mo",
+				"Ikaw ang tayo",
+				"Tayo ay laking lakas",
+				"Galing mo",
+				"Magandang araw",
+				"Miss kita",
+				"Miss ko kayong lahat",
+				"Aaaah",
+				"Magandang araw",
+				"Mahal kita",
+				"Pwede ba tayong hug?",
+				"Galingan mo ba akong mahal?"
 			]
 		}
 	},
@@ -1851,6 +1858,17 @@
 				"total"
 			]
 		},
+		"previewMode": {
+			"eng": "Previewing ${tierName} Tier",
+			"trans": "Pinalipad ang ${tierName} Tier",
+			"vars": [
+				"tierName"
+			]
+		},
+		"previewOnProfile": {
+			"eng": "Preview on Profile",
+			"trans": "Preview sa Profile"
+		},
 		"previewText": {
 			"eng": "This is how you will look!",
 			"trans": "Ganito ang magiging hitsura mo!"
@@ -1943,6 +1961,14 @@
 	},
 	"dice": {
 		"modal": {
+			"d20": {
+				"eng": "20-Sided",
+				"trans": "20-sided"
+			},
+			"d6": {
+				"eng": "6-Sided",
+				"trans": "Anim na gilid"
+			},
 			"description": {
 				"eng": "Roll a dice in chat for everyone to see!",
 				"trans": "I-roll ang dado sa chat para makita ng lahat!"
@@ -1957,6 +1983,10 @@
 			"roll": {
 				"eng": "Roll Dice",
 				"trans": "I-roll ang Dado"
+			},
+			"selectType": {
+				"eng": "Select Dice Type:",
+				"trans": "Piliin ang Dice Type:"
 			},
 			"title": {
 				"eng": "🎲 Roll Dice",
@@ -1983,24 +2013,30 @@
 				"eng": "Invalid chat channel",
 				"trans": "Maling kanal ng pag-uusap"
 			},
+			"invalidDiceType": {
+				"eng": "Invalid dice type. Allowed: 6-Sided, 20-Sided",
+				"trans": "Maling uri ng dice. Pinapayagan: 6-gulod, 20-gulod"
+			},
 			"noDice": {
 				"eng": "You need a Lucky Dice to roll!",
 				"trans": "Kailangan mo ng Lucky Dice para mag-roll!"
 			},
 			"result": {
-				"eng": "${slanc}: ${player} rolled a ${result}! 🎲",
+				"eng": "${slanc}: ${player} rolled a ${result} on ${diceSides}-Sided dice! 🎲",
 				"trans": "${slanc}: Nag-roll si ${player} ng ${result}! 🎲",
 				"vars": [
 					"slanc",
 					"player",
-					"result"
+					"result",
+					"diceSides"
 				]
 			},
 			"success": {
-				"eng": "You rolled a ${result}!",
+				"eng": "You rolled a ${result} on ${diceSides}-Sided dice!",
 				"trans": "Nag-roll ka ng ${result}!",
 				"vars": [
-					"result"
+					"result",
+					"diceSides"
 				]
 			}
 		}
@@ -2363,6 +2399,10 @@
 		"donation48": {
 			"eng": "Lunar Stallion",
 			"trans": "Buwanang Kabayo"
+		},
+		"donation49": {
+			"eng": "Cyberbloom",
+			"trans": "Cyberbloom"
 		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
@@ -2928,6 +2968,12 @@
 		"title": {
 			"eng": "Easter Celebration",
 			"trans": "Pagdiriwang ng Pasko ng Pagkabuhay"
+		}
+	},
+	"emblems": {
+		"doge": {
+			"eng": "doge",
+			"trans": "Doge"
 		}
 	},
 	"enemy": {
@@ -3782,7 +3828,7 @@
 		},
 		"sakura": {
 			"name": {
-				"eng": "March",
+				"eng": "Sakura Festival",
 				"trans": "Marso"
 			}
 		},
@@ -3932,6 +3978,20 @@
 				"trans": "Laktawan ang Diskwento"
 			}
 		},
+		"skipReward": {
+			"description": {
+				"eng": "${chance} chance to receive free ${emblemName} every time you skip",
+				"trans": "Makakakuha ng libreng ${emblemName} bawat pag-skip na may ${chance} na pagkakataon",
+				"vars": [
+					"emblemName",
+					"chance"
+				]
+			},
+			"title": {
+				"eng": "Skip Emblem Reward",
+				"trans": "Premyo para sa Pag-skip ng Emblem"
+			}
+		},
 		"topUpReward": {
 			"description": {
 				"eng": "Get bonus reward when topping up during the event",
@@ -4074,10 +4134,6 @@
 		"cannotSend": {
 			"eng": "This player cannot receive gift now",
 			"trans": "Ang manlalaro na ito ay hindi maaaring makatanggap ng regalo ngayon"
-		},
-		"cannotSendAssociated": {
-			"eng": "You cannot send gift to this player due to alt prevention",
-			"trans": "Hindi mo maaaring ipadala ang regalo sa manlalaro na ito dahil sa pag-iwas sa alts"
 		}
 	},
 	"giveCredButton": {
@@ -5704,6 +5760,16 @@
 				"trans": "Rosang Buklod"
 			}
 		},
+		"sakuraPetal": {
+			"description": {
+				"eng": "A delicate cherry blossom petal infused with faint neon energy. Can be exchanged for items at the Shiba Shrine during the Sakura Festival",
+				"trans": "Isang malalambot na petal ng cherry blossom na naglalaman ng mahinang neon energy. Maipalitan ng mga item sa Shiba Shrine sa panahon ng Sakura Festival"
+			},
+			"name": {
+				"eng": "Sakura Petal",
+				"trans": "Sakura Petal"
+			}
+		},
 		"santaWorkshopPass": {
 			"description": {
 				"eng": "A holographic pass to CyberSanta's Workshop. Complete festive sorting challenges to earn rewards! 'Work hard, gift harder!' - CyberSanta",
@@ -6388,6 +6454,12 @@
 				"name": {
 					"eng": "Market",
 					"trans": "Bilihan"
+				}
+			},
+			"yearOfHorse": {
+				"name": {
+					"eng": "Year of Horse",
+					"trans": "Taon ng Kabayo"
 				}
 			}
 		}
@@ -8289,7 +8361,69 @@
 			]
 		}
 	},
+	"mod": {
+		"forcedBlocks": {
+			"blockedFrom": {
+				"eng": "Blocked from",
+				"trans": "Bawal sa"
+			},
+			"by": {
+				"eng": "By",
+				"trans": "Gawaan"
+			},
+			"empty": {
+				"eng": "No forced blocks on this player",
+				"trans": "Walang pwersadong block sa player na ito"
+			},
+			"expires": {
+				"eng": "Expires",
+				"trans": "Expirasyon"
+			},
+			"reason": {
+				"eng": "Reason",
+				"trans": "Dahilan"
+			},
+			"title": {
+				"eng": "Forced Blocks (Mod View)",
+				"trans": "Forced Blocks (Mod View)"
+			}
+		},
+		"unblock": {
+			"eng": "Unblock",
+			"trans": "I-unblock"
+		}
+	},
 	"modal": {
+		"altPrevention": {
+			"autoLiftText": {
+				"eng": "This restriction lifts automatically once both accounts stop sharing the same network for a while.",
+				"trans": "Ang restriction ay awtomatikong tinatanggal kapag hindi na magkakalapit ang mga account sa parehong network sa loob ng ilang oras."
+			},
+			"dismissButton": {
+				"eng": "I Understand",
+				"trans": "Naintindihan ko"
+			},
+			"explanation": {
+				"eng": "You and the recipient appear to share a device or network. To prevent multi-account abuse, interactions between linked accounts are restricted.",
+				"trans": "Nakikita na ang iyong account at ang tumatanggap ay may parehong device o network. Para maiwasan ang pag-abuso ng maraming account, naiwasan ang interaksyon sa mga naka-link."
+			},
+			"siblingsText": {
+				"eng": "Sharing a network with a real player (siblings, roommates)? You can send items via a trusted third-party.",
+				"trans": "Nagkakabahay ka ba sa tunay na lalaki (kapatid, magkakabahay)? Puwede mong ipasa ang mga item sa pamamagitan ng isang kumpiyansang tao."
+			},
+			"title": {
+				"eng": "Action Blocked",
+				"trans": "Tinanggihan ang Aksyon"
+			},
+			"viewRules": {
+				"eng": "View Rules",
+				"trans": "Tingnan ang Mga Patakaran"
+			},
+			"warningText": {
+				"eng": "Accounts abusing multi-accounting may be suspended.",
+				"trans": "Ang mga account na gumagamit ng multi-account ay maaaring ma-suspend."
+			}
+		},
 		"block": {
 			"title": {
 				"eng": "Are you sure you want to block this player?",
@@ -8470,15 +8604,27 @@
 		},
 		"playerSearch": {
 			"noPlayerFound": {
-				"eng": "No player with named \"${search}\" found",
+				"eng": "No player named \"${search}\" found",
 				"trans": "Walang manlalaro na may pinangalanan na \"${search}\" na natagpuan",
 				"vars": [
 					"search"
 				]
 			},
+			"placeholder": {
+				"eng": "Enter player name...",
+				"trans": "Ilagay ang pangalan ng player..."
+			},
 			"searchPlayerHint": {
 				"eng": "Enter player name to search",
 				"trans": "Ipasok ang pangalan ng manlalaro upang maghanap"
+			},
+			"searching": {
+				"eng": "Searching...",
+				"trans": "Naghahanap..."
+			},
+			"title": {
+				"eng": "Search Player",
+				"trans": "Maghanap ng Larawan"
 			}
 		},
 		"promotion": {
@@ -9002,7 +9148,7 @@
 					"Welcome. What can I store for you?"
 				],
 				"trans": [
-					"Welcome. What can I store for you?",
+					"Mabuhay. Ano ang pwede kong iimbak para sa inyo?",
 					"Hello. This is the safest place for your most precious items.",
 					"Lucky you! Here your items are in the safest place.",
 					"Welcome. Do you have something to deposit?",
@@ -9064,12 +9210,12 @@
 					"Stay online, stay strong, and stay true to yourself."
 				],
 				"trans": [
-					"Life is tough, but you're tougher. Keep fighting.",
-					"Stay strong, stay punk, and stay alive.",
-					"Remember, your worth is not defined by your struggles.",
-					"Don't let the system bring you down, rise up and rebel.",
-					"Stay connected to your inner self, and disconnect from the noise.",
-					"Stay online, stay strong, and stay true to yourself."
+					"Ang buhay ay mahirap, pero ikaw ay mas matibay. Magpatuloy kang lumaban.",
+					"Manatiling matibay, manatiling punk, at manatiling buhay.",
+					"Tandaan, ang iyong halaga ay hindi nakabatay sa mga paghihirap mong dumaan.",
+					"Huwag hayaang pababain ka ng sistema, tumayo at magrebelo.",
+					"Manatiling konektado sa iyong sarili, at mag-disconnect sa ingay.",
+					"Manatiling online, manatiling matibay, at manatiling tunay sa sarili mo."
 				]
 			},
 			"name": {
@@ -9083,7 +9229,7 @@
 					"Hey kid, wanna make some quick bucks?"
 				],
 				"trans": [
-					"Hey kid, wanna make some quick bucks?"
+					"Hey kabataan, gusto mo bang mabilis na pera?"
 				]
 			},
 			"name": {
@@ -9109,10 +9255,11 @@
 					"Who needs chimney when you can just punch through the wall?"
 				],
 				"trans": [
-					"Ho ho ho, choom! Ready to trade your loot for some holiday cheer?",
-					"My eyes are up here, little man.",
+					"Ting ting ting, choom! Handa ka bang palitan ang loot mo para sa paskong kaligayahan?",
+					"Ang mata ko nandito, maliit na lalaki.",
 					"Ho ho ho! The Animals want to rule the streets, but they’ll never outlift me.",
-					"Ho ho hold up—do you even lift, little man?"
+					"Wait—do you even lift, little man?",
+					"Sino ba ang nangangailangan ng poorok kung pwede mo lang punitin ang dingding?"
 				]
 			},
 			"name": {
@@ -9134,7 +9281,7 @@
 					"Hi! Donate to get cosmetic perks and to help support Free-to-Win games like this one!"
 				],
 				"trans": [
-					"Hi! Donate to get cosmetic perks and to help support Free-to-Win games like this one!",
+					"Hi! Mag-donate para makakuha ng cosmetic perks at tumulong sa Free-to-Win games tulad ng ito!",
 					"Have you considered making a monthly donation?",
 					"Nice to see you, what is it you require?",
 					"Want to stand out from the crowd? Maybe grab a subscription.",
@@ -9178,11 +9325,11 @@
 					"The fusion process is irreversible, but the rewards are worth it, most of the time at least."
 				],
 				"trans": [
-					"Got some epic gear collecting dust? I can turn that into something useful.",
-					"Three pieces of epic equipment you no longer need? one guaranteed shard. That's the deal.",
-					"Welcome to the fusion hub, where old gear becomes new possibilities.",
-					"One man's trash is another's treasure, choom. I can turn your unwanted gear into diamonds.",
-					"The fusion process is irreversible, but the rewards are worth it, most of the time at least."
+					"Mayroon kang epic na gear na naiwan? Puwede kong gawing kapaki-pakinabang.",
+					"Tatlong piraso ng epikong equipment na hindi mo na kailangan? Isang shard na guarantee. Ito na ang deal.",
+					"Maligayang pagdating sa fusion hub, kung saan ang lumang gear ay naging mga bagong pagkakataon.",
+					"Ang hindi mo mahal ay ang mahal ng iba, kaibigan. Makakapagbigay ako ng diamante sa mga hindi mo mahal na gamit.",
+					"Hindi naibabalik ang pagpapalitan, pero madalas na worth it ang resulta."
 				]
 			},
 			"name": {
@@ -9208,7 +9355,7 @@
 					"Insert a Calibration Core into the machine, and I shall help you calibrate any of your equipment."
 				],
 				"trans": [
-					"Insert a Calibration Core into the machine, and I shall help you calibrate any of your equipment.",
+					"Ilagay ang Calibration Core sa makina, at tutulungan kita sa calibrasyon ng anumang equipment mo.",
 					"I'll help you calibrate your equipment, but it ain't my problem if it's destroyed in the process.",
 					"My eyes are up here, bud—and so's my gun.",
 					"You feelin' lucky? Go ahead and give the machine a try.",
@@ -9244,17 +9391,17 @@
 					"They say I'm too distracted by dancing to work... but somehow everything gets installed perfectly!"
 				],
 				"trans": [
-					"You think furniture is heavy? I install entire apartment rigs between sets at the gym.",
-					"Bring me your kits, choom. I'll have them assembled faster than you can say 'do you even lift?'",
-					"Looking preem today! Almost as good as this quantum learning pod I just installed with one hand.",
-					"These muscles aren't just for show, friend. Watch me carry your entire bedroom set up six flights of stairs.",
-					"Installation instructions? Never heard of them. I just flex and the furniture assembles itself.",
-					"Your apartment will look nova, almost as amazing as these chrome biceps. Almost.",
-					"Need help moving that couch? Please, I bench press cargo containers for fun.",
-					"I could dance circles around these assembly tasks. Want to see my moves?",
-					"Installation is like a dance, choom, and I'm the best dancer in town. Watch me work!",
-					"Some people need tools. I just need rhythm and these guns. *flexes while dancing*",
-					"They say I'm too distracted by dancing to work... but somehow everything gets installed perfectly!"
+					"Hindi ba bigat ang furniture? I-install ko ang buong apartment rig sa pagitan ng sets sa gym.",
+					"Dala mo ang kit mo, kapatid. Mas mabilis kong i-assemble kaysa sabihin mo 'Kaya mo ba i-lift?'",
+					"Galing ka ngayon! Halos katulad nito ng quantum learning pod na inilagay ko gamit ang isang kamay.",
+					"Ang mga kalamnan na ito ay hindi lang para ipakita, kaibigan. Tignan mo kung kaya kong dalin ang buong kwarto mo sa loob ng anim na palapag.",
+					"Mga tagubilin sa pag-install? Hindi ko ito narinig. Kailan lang ako 'nag-flex' at inaayos na ang furniture.",
+					"Ang apartment mo ay magiging bago, halos kasing ganda ng mga kroming na biceps. Halos.",
+					"Kailangan ba ng tulong sa paglilipat ng sofa? Paki, bench press ko lang ang mga cargo container para sa sarili.",
+					"Makakadansalo ako sa mga gawaing ito. Gusto mo bang makita ang aking galing?",
+					"Ang pag-install ay parang sayaw, kaibigan, at ako ang pinakamagaling na mananayaw sa syudad. Tignan mo kung paano ito!",
+					"Ang iba ay kailangan ng kagamitan. Ang kailangan ko lang ay rhythm at mga baril na ito",
+					"Sinasabi nila sa akin na masyadong nawala sa sayaw para magtrabaho... pero somehow lahat ay naka-install nang perpekto!"
 				]
 			},
 			"name": {
@@ -9276,10 +9423,11 @@
 					"Give me your seeds, and I will give you a treat!"
 				],
 				"trans": [
-					"Pumpkin is my source of power!",
-					"Check out my pumpkin costume!",
-					"Hmmmm, I wonder what's inside this pumpkin...",
-					"Give me your pumpkin, and I'll give you a treat!"
+					"Ang kalabasa ang aking pinagmumulan ng lakas!",
+					"Tingnan mo ang costume ko, parang pumpkin!",
+					"Hmmm, alam ko bang ano ang loob ng pumpkin na ito...",
+					"Give me your pumpkin, and I'll give you a treat!",
+					"Ibigay mo ang iyong buto, at ibibigay ko sa'yo ng alaga!"
 				]
 			},
 			"name": {
@@ -9297,7 +9445,7 @@
 					"Welcome, our family is always excited to help you find the perfect tech gear."
 				],
 				"trans": [
-					"Welcome, our family is always excited to help you find the perfect tech gear."
+					"Maligayang pagdating, sadyang excited kami sa aming pamilya na tumulong sa iyong paghanap ng perpektong tech gear."
 				]
 			},
 			"name": {
@@ -9319,11 +9467,11 @@
 					"The New Year's celebration won't wait forever, let's go!"
 				],
 				"trans": [
-					"Ready to light up the night? The countdown's about to begin!",
-					"Perfect timing is everything in fireworks, choom.",
-					"I've got the best pyrotechnics this side of Night City!",
-					"Wanna see some real fireworks? Show me what you've got!",
-					"The New Year's celebration won't wait forever, let's go!"
+					"Handa kang mag-blast sa gabi? Magsisimula na ang countdown!",
+					"Ang tamang oras ang lahat sa mga paputok, choom.",
+					"Mayroon akong pinakamagandang pyrotechnics sa gilid ng Night City!",
+					"Gusto mo bang makita ang tunay na biyaya? Ipakita mo ang kaya mo!",
+					"Hindi na maghihintay ang pagdiriwang ng Bagong Taon, tayo na!"
 				]
 			},
 			"name": {
@@ -9349,11 +9497,11 @@
 					"Hey, choomba! Here to plan another blockbuster event? Let's dive in!"
 				],
 				"trans": [
-					"Hey choom, ready to chip in for the next 24-hour global party? We're just a few units short!",
-					"Ready to make an impact? Your contribution could launch the biggest party on the grid!",
-					"Looking to start the party? We're pooling funds now for a round-the-clock celebration.",
+					"Beshie, ready ka ba mag-contribute para sa susunod na 24-hour global party? Kulang na lang ng mga yunit!",
+					"Handa ka bang magdulot ng epekto? Ang iyong ambag ay maaaring magdulot ng pinakamalaking party sa grid!",
+					"Gusto mo bang simulan ang party? Kukunan tayo ngayon ng pondo para sa 24/7 na fiesta.",
 					"If you’re aiming to see the city light up, help us fill the party meter. Every bit counts!",
-					"Hey, choomba! Here to plan another blockbuster event? Let's dive in!"
+					"Hey, choomba! Nandito ka para bang magplano ng isang blockbuster event? Sige, tayo na!"
 				]
 			},
 			"name": {
@@ -9375,11 +9523,11 @@
 					"Cyberdeck in hand, heart on sleeve? Our critters need that daily touch or they'll fade into the static."
 				],
 				"trans": [
-					"Hey, choom! Neon Paws is for the brave. These sprites need your daily grind. Ready to dive in?",
-					"Lookin' sharp, netrunner! Here, pets are more than code, they need your daily hack to thrive.",
-					"What's up, street samurai? Partner with a survivor. Without your daily deeds, they're zeroed.",
-					"Edge runner, eh? This is where tech meets heart. Ignore them, and they vanish into the net. Daily care, got it?",
-					"Cyberdeck in hand, heart on sleeve? Our critters need that daily touch or they'll fade into the static."
+					"Choom! Ang Neon Paws ay para sa mga matatapang. Kailangan mong grind ang mga sprites na ito araw-araw. Handa ka bang pumasok?",
+					"Galing ka, netrunner! Dito, pets ay hindi lang code, kailangan mong i-hack sila araw-araw para sila ay lumaki.",
+					"Kamusta ka, street samurai? Magtulungan ka sa survivor. Kung walang gawa, zero na sila.",
+					"Runner, no? Dito nagsasama ang tech at puso. Kung iwasan mo sila, mawawala sila sa net. Araw-arang pangangalaga, got it?",
+					"Cyberdeck sa kamay, puso sa ibabaw? Kailangan ng pang-araw-araw na hawak ang mga hayop namin, kung hindi, sila ay mawawala sa static."
 				]
 			},
 			"name": {
@@ -9397,7 +9545,7 @@
 					"I'll print whatever you want if you have the cache!"
 				],
 				"trans": [
-					"I'll print whatever you want if you have the cache!",
+					"` text `",
 					"Show me the cache and I will show you the result!",
 					"Please, tell me you have some Epic cache with you.",
 					"Welcome. I hope you are a customer...",
@@ -9459,6 +9607,38 @@
 				"trans": "Awtomatikong Recycler"
 			}
 		},
+		"sakuraDog": {
+			"defaultLines": {
+				"eng": [
+					"woof woof",
+					"bark bark bark",
+					"woof woof, **scratch scratch**",
+					"*yawns*",
+					"*snif snif*",
+					"I know what you did.",
+					"Such hack. Much cyber. Wow",
+					"what da dog doin?"
+				],
+				"trans": [
+					"aw aw",
+					"gugoo gugoo gugoo",
+					"aw aw, kitkit kitkit",
+					"tulala",
+					"*Tsss-tsss*",
+					"Alam ko ang ginawa mo.",
+					"Ganyang hack. Much tech. Wow",
+					"Ano ang ginagawa ng aso?"
+				]
+			},
+			"name": {
+				"eng": "Shiba Shrine",
+				"trans": "Dambana ng Shiba"
+			},
+			"npcName": {
+				"eng": "Mochi",
+				"trans": "Mochi"
+			}
+		},
 		"storageMerchant": {
 			"canAccessError": {
 				"eng": "You need to be at least level 10 to access merchant",
@@ -9511,7 +9691,7 @@
 					"Hey kid... Come check out my goods."
 				],
 				"trans": [
-					"Hey kid... Come check out my goods.",
+					"Kamusta bata... Pupunta ka, tignan mo ang mga bilihin.",
 					"Hurting? You've come to the right place.",
 					"We've got the cheap stuff and the good stuff, kid.",
 					"Have you heard about the street angel?",
@@ -9561,7 +9741,7 @@
 					"I'll help you to progress to the next area!"
 				],
 				"trans": [
-					"I'll help you to progress to the next area!",
+					"Tutulungan kang lumipat sa susunod na lugar!",
 					"I can tap on the knowledge of the whole world... and yet I'm treated as a cookbook.",
 					"My daughter's name is not Mithra! Stop making fun of her!",
 					"Are you prepared?",
@@ -9595,7 +9775,7 @@
 					"We also have Eternal Bond Rings for those looking to unite with their partner forever."
 				],
 				"trans": [
-					"Do you want to buy Units, or use your Units?",
+					"Gusto mo bang bilihin ang Yunit o gamitin mo ang Yunit mo?",
 					"Thanks for checking the store out.",
 					"Did you know that the S.A.T. was in a developmental phase for a long time?",
 					"We just got a new stock of S.A.T.'s. Interested in getting one?",
@@ -9633,7 +9813,7 @@
 					"You will find the best gear here, trust me."
 				],
 				"trans": [
-					"You will find the best gear here, trust me.",
+					"Mabibigyan mo ng pinakamagagaling na gamit dito, kumpiyansa mo.",
 					"I can help you if you give me some BitCoin.",
 					"I can repair your equipment... for a price.",
 					"What do you want, stranger?",
@@ -10251,6 +10431,10 @@
 			}
 		},
 		"giveCred": {
+			"associatedError": {
+				"eng": "You cannot give street cred to an associated account",
+				"trans": "Hindi mo kayang magbigay ng street cred sa naka-link na account"
+			},
 			"cooldownError": {
 				"eng": "You cannot give street cred yet (once every day)",
 				"trans": "Hindi ka pa makapagbigay ng kredito sa kalye (isang beses araw -araw)"
@@ -10267,7 +10451,7 @@
 				"trans": "Dapat kang antas ng 10 o pataas upang magbigay ng kredito sa kalye ng player"
 			},
 			"success": {
-				"eng": "You have given daily street cred.",
+				"eng": "Daily street cred reward have been sent to your item inbox",
 				"trans": "Nagbigay ka ng pang -araw -araw na kredito sa kalye."
 			}
 		},
@@ -11769,6 +11953,14 @@
 				"playerCount",
 				"skipTime",
 				"credButton"
+			]
+		},
+		"eventSkipReward": {
+			"eng": "Lucky! You received the \"${emblemName}\" emblem from the ${eventName} event skip reward!",
+			"trans": "Binigyan ka ng chance! Na-receive mo ang \"${emblemName}\" emblem mula sa \"${eventName}\" reward sa pag-skip ng event!",
+			"vars": [
+				"emblemName",
+				"eventName"
 			]
 		},
 		"firstTimeAnnouncement": {
@@ -13664,6 +13856,10 @@
 						"trans": "Bumili ng Emblem?"
 					}
 				},
+				"exclusive": {
+					"eng": "Exclusive",
+					"trans": "Exclusive"
+				},
 				"limitedEdition": {
 					"eng": "Limited Edition",
 					"trans": "Limitadong edisyon"
@@ -13671,6 +13867,10 @@
 				"owned": {
 					"eng": "owned",
 					"trans": "pag -aari"
+				},
+				"unobtainableToast": {
+					"eng": "This exclusive emblem cannot be purchased.",
+					"trans": "Hindi mabibili ang eksklusibong sambal na ito."
 				}
 			}
 		},

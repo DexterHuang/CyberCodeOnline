@@ -1232,6 +1232,13 @@
 			"eng": "Add Image",
 			"trans": "Thêm ảnh"
 		},
+		"cantShareItem": {
+			"eng": "Only players with ${tierName} donation tier and above can share items to chat.",
+			"trans": "Chỉ người chơi có cấp độ quyên góp ${tierName} hoặc cao hơn mới được chia sẻ vật phẩm vào chat.",
+			"vars": [
+				"tierName"
+			]
+		},
 		"rollDice": {
 			"eng": "Roll Dice",
 			"trans": "Ném Xúc Sắc"
@@ -1278,9 +1285,9 @@
 				"Bạn thật đáng kinh ngạc!",
 				"Chúc một ngày tốt lành!",
 				"miss you, mòa",
-				"miss you guys",
+				"Thấy nhớ bọn mình",
 				"KYAAAAAAAAA",
-				"wish you have nice day",
+				"Chúc bạn một ngày thật vui vẻ",
 				"Gửi em trái tim anh",
 				"Ôm ôm, được không?",
 				"Anh yêu em nhiều như thế nào nào?"
@@ -1851,6 +1858,17 @@
 				"total"
 			]
 		},
+		"previewMode": {
+			"eng": "Previewing ${tierName} Tier",
+			"trans": "Đang xem trước ${tierName} tầng",
+			"vars": [
+				"tierName"
+			]
+		},
+		"previewOnProfile": {
+			"eng": "Preview on Profile",
+			"trans": "Xem trước trên hồ sơ"
+		},
 		"previewText": {
 			"eng": "This is how you will look!",
 			"trans": "Bạn sẽ trông như thế này!"
@@ -1943,6 +1961,14 @@
 	},
 	"dice": {
 		"modal": {
+			"d20": {
+				"eng": "20-Sided",
+				"trans": "20 mặt"
+			},
+			"d6": {
+				"eng": "6-Sided",
+				"trans": "Xúc xắc 6 mặt"
+			},
 			"description": {
 				"eng": "Roll a dice in chat for everyone to see!",
 				"trans": "Lăn xúc xắc trong trò chuyện để mọi người xem!"
@@ -1957,6 +1983,10 @@
 			"roll": {
 				"eng": "Roll Dice",
 				"trans": "Ném Xúc Sắc"
+			},
+			"selectType": {
+				"eng": "Select Dice Type:",
+				"trans": "Chọn loại xúc xắc:"
 			},
 			"title": {
 				"eng": "🎲 Roll Dice",
@@ -1983,24 +2013,30 @@
 				"eng": "Invalid chat channel",
 				"trans": "Kênh trò chuyện không hợp lệ"
 			},
+			"invalidDiceType": {
+				"eng": "Invalid dice type. Allowed: 6-Sided, 20-Sided",
+				"trans": "Loại xúc xắc không hợp lệ. Cho phép: Xúc xắc 6 mặt, 20 mặt"
+			},
 			"noDice": {
 				"eng": "You need a Lucky Dice to roll!",
 				"trans": "Bạn cần một viên xúc sắc may mắn để tung!"
 			},
 			"result": {
-				"eng": "${slanc}: ${player} rolled a ${result}! 🎲",
+				"eng": "${slanc}: ${player} rolled a ${result} on ${diceSides}-Sided dice! 🎲",
 				"trans": "${slanc}: ${player} đã tung ra một ${result}! 🎲",
 				"vars": [
 					"slanc",
 					"player",
-					"result"
+					"result",
+					"diceSides"
 				]
 			},
 			"success": {
-				"eng": "You rolled a ${result}!",
+				"eng": "You rolled a ${result} on ${diceSides}-Sided dice!",
 				"trans": "Bạn đã tung ra số ${result}!",
 				"vars": [
-					"result"
+					"result",
+					"diceSides"
 				]
 			}
 		}
@@ -2363,6 +2399,10 @@
 		"donation48": {
 			"eng": "Lunar Stallion",
 			"trans": "Ngựa Trăng"
+		},
+		"donation49": {
+			"eng": "Cyberbloom",
+			"trans": "Cyberbloom"
 		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
@@ -2928,6 +2968,12 @@
 		"title": {
 			"eng": "Easter Celebration",
 			"trans": "Phục Sinh Cyberpunk"
+		}
+	},
+	"emblems": {
+		"doge": {
+			"eng": "doge",
+			"trans": "doge"
 		}
 	},
 	"enemy": {
@@ -3782,7 +3828,7 @@
 		},
 		"sakura": {
 			"name": {
-				"eng": "March",
+				"eng": "Sakura Festival",
 				"trans": "Tháng Ba"
 			}
 		},
@@ -3932,6 +3978,20 @@
 				"trans": "Bỏ qua Giảm Giá"
 			}
 		},
+		"skipReward": {
+			"description": {
+				"eng": "${chance} chance to receive free ${emblemName} every time you skip",
+				"trans": "Cơ hội ${chance} nhận ${emblemName} miễn phí mỗi lần bỏ qua",
+				"vars": [
+					"emblemName",
+					"chance"
+				]
+			},
+			"title": {
+				"eng": "Skip Emblem Reward",
+				"trans": "Bỏ qua phần thưởng huy hiệu"
+			}
+		},
 		"topUpReward": {
 			"description": {
 				"eng": "Get bonus reward when topping up during the event",
@@ -4074,10 +4134,6 @@
 		"cannotSend": {
 			"eng": "This player cannot receive gift now",
 			"trans": "Người chơi này không thể nhận quà ngay bây giờ"
-		},
-		"cannotSendAssociated": {
-			"eng": "You cannot send gift to this player due to alt prevention",
-			"trans": "Bạn không thể gửi quà đến người chơi này do quy định chống đa tài khoản"
 		}
 	},
 	"giveCredButton": {
@@ -5704,6 +5760,16 @@
 				"trans": "Bó hoa hồng"
 			}
 		},
+		"sakuraPetal": {
+			"description": {
+				"eng": "A delicate cherry blossom petal infused with faint neon energy. Can be exchanged for items at the Shiba Shrine during the Sakura Festival",
+				"trans": "Nhụy hoa anh đào tinh tế được ngấm lẫn chút năng lượng neon mờ ảo. Có thể đổi lấy vật phẩm tại Đền Shiba trong dịp Lễ hội hoa anh đào"
+			},
+			"name": {
+				"eng": "Sakura Petal",
+				"trans": "cánh hoa anh đào"
+			}
+		},
 		"santaWorkshopPass": {
 			"description": {
 				"eng": "A holographic pass to CyberSanta's Workshop. Complete festive sorting challenges to earn rewards! 'Work hard, gift harder!' - CyberSanta",
@@ -6388,6 +6454,12 @@
 				"name": {
 					"eng": "Market",
 					"trans": "Cửa Hàng"
+				}
+			},
+			"yearOfHorse": {
+				"name": {
+					"eng": "Year of Horse",
+					"trans": "Năm Ngựa"
 				}
 			}
 		}
@@ -8289,7 +8361,69 @@
 			]
 		}
 	},
+	"mod": {
+		"forcedBlocks": {
+			"blockedFrom": {
+				"eng": "Blocked from",
+				"trans": "Chặn từ"
+			},
+			"by": {
+				"eng": "By",
+				"trans": "Bởi"
+			},
+			"empty": {
+				"eng": "No forced blocks on this player",
+				"trans": "Không có chặn buộc nào"
+			},
+			"expires": {
+				"eng": "Expires",
+				"trans": "Hết hạn"
+			},
+			"reason": {
+				"eng": "Reason",
+				"trans": "Lý do"
+			},
+			"title": {
+				"eng": "Forced Blocks (Mod View)",
+				"trans": "Khối Bắt Buộc (Góc độ Mod)"
+			}
+		},
+		"unblock": {
+			"eng": "Unblock",
+			"trans": "Bỏ chặn"
+		}
+	},
 	"modal": {
+		"altPrevention": {
+			"autoLiftText": {
+				"eng": "This restriction lifts automatically once both accounts stop sharing the same network for a while.",
+				"trans": "Hạn chế này sẽ tự động hết hạn khi cả hai tài khoản ngừng chia sẻ cùng mạng lưới trong một thời gian."
+			},
+			"dismissButton": {
+				"eng": "I Understand",
+				"trans": "Tôi Hiểu"
+			},
+			"explanation": {
+				"eng": "You and the recipient appear to share a device or network. To prevent multi-account abuse, interactions between linked accounts are restricted.",
+				"trans": "Bạn và người nhận có vẻ dùng chung thiết bị hoặc mạng. Để ngăn chặn lạm dụng tài khoản đa cấp, tương tác giữa các tài khoản liên kết đã bị hạn chế."
+			},
+			"siblingsText": {
+				"eng": "Sharing a network with a real player (siblings, roommates)? You can send items via a trusted third-party.",
+				"trans": "Bạn đang chia sẻ mạng với người chơi thật (anh em, bạn cùng phòng)? Bạn có thể gửi đồ qua bên thứ ba đáng tin cậy."
+			},
+			"title": {
+				"eng": "Action Blocked",
+				"trans": "Hành động bị chặn"
+			},
+			"viewRules": {
+				"eng": "View Rules",
+				"trans": "Xem Quy định"
+			},
+			"warningText": {
+				"eng": "Accounts abusing multi-accounting may be suspended.",
+				"trans": "Việc lạm dụng đa tài khoản có thể dẫn đến việc khóa tài khoản."
+			}
+		},
 		"block": {
 			"title": {
 				"eng": "Are you sure you want to block this player?",
@@ -8470,15 +8604,27 @@
 		},
 		"playerSearch": {
 			"noPlayerFound": {
-				"eng": "No player with named \"${search}\" found",
+				"eng": "No player named \"${search}\" found",
 				"trans": "Không có người chơi nào có tên \"${search}\"",
 				"vars": [
 					"search"
 				]
 			},
+			"placeholder": {
+				"eng": "Enter player name...",
+				"trans": "Nhập tên người chơi..."
+			},
 			"searchPlayerHint": {
 				"eng": "Enter player name to search",
 				"trans": "Nhập tên người chơi để tìm kiếm"
+			},
+			"searching": {
+				"eng": "Searching...",
+				"trans": "Đang tìm kiếm..."
+			},
+			"title": {
+				"eng": "Search Player",
+				"trans": "Tìm người chơi"
 			}
 		},
 		"promotion": {
@@ -9043,12 +9189,12 @@
 					"Stay online, stay strong, and stay true to yourself."
 				],
 				"trans": [
-					"Life is tough, but you're tougher. Keep fighting.",
-					"Stay strong, stay punk, and stay alive.",
-					"Remember, your worth is not defined by your struggles.",
-					"Don't let the system bring you down, rise up and rebel.",
-					"Stay connected to your inner self, and disconnect from the noise.",
-					"Stay online, stay strong, and stay true to yourself."
+					"Cuộc sống khắc nghiệt, nhưng bạn còn kiên cường hơn. Hãy chiến đấu tiếp.",
+					"Mạnh mẽ, giữ cái chất Punk và sống sót.",
+					"Hãy nhớ, giá trị của bạn không bị định nghĩa bởi những khó khăn.",
+					"Đừng để hệ thống làm bạn chùn bước, hãy đứng lên và nổi loạn.",
+					"Giữ kết nối với nội tâm, và ngắt kết nối khỏi tiếng ồn.",
+					"Hãy luôn kết nối, mạnh mẽ, và trung thực với chính mình."
 				]
 			},
 			"name": {
@@ -9088,10 +9234,11 @@
 					"Who needs chimney when you can just punch through the wall?"
 				],
 				"trans": [
-					"Ho ho ho, choom! Ready to trade your loot for some holiday cheer?",
-					"My eyes are up here, little man.",
+					"Hô hô hô, chú ơi! Sẵn sàng đổi đồ chiến cho chút vui lễ hội chưa?",
+					"Mắt nhìn lên đây, chàng trai.",
 					"Ho ho ho! The Animals want to rule the streets, but they’ll never outlift me.",
-					"Ho ho hold up—do you even lift, little man?"
+					"Ho ho khoan lại—bạn có chịu được không, thằng nhóc?",
+					"Ai cần ống khói, cứ đập băng tường là vào"
 				]
 			},
 			"name": {
@@ -9139,11 +9286,11 @@
 					"The fusion process is irreversible, but the rewards are worth it, most of the time at least."
 				],
 				"trans": [
-					"Got some epic gear collecting dust? I can turn that into something useful.",
-					"Three pieces of epic equipment you no longer need? one guaranteed shard. That's the deal.",
-					"Welcome to the fusion hub, where old gear becomes new possibilities.",
-					"One man's trash is another's treasure, choom. I can turn your unwanted gear into diamonds.",
-					"The fusion process is irreversible, but the rewards are worth it, most of the time at least."
+					"Bạn có trang bị Epic vứt đi không? Tôi có thể giúp bạn đổi lấy thứ tốt hơn.",
+					"Ba món trang bị Sấm không cần nữa? Đổi lấy một viên ngói. Đó là thỏa thuận.",
+					"Chào mừng đến Hub Hòa nhập, nơi trang bị cũ mở ra những khả năng mới.",
+					"Rác của người nọ là vàng của người kia, Choom. Tôi có thể biến những món đồ thừa của bạn thành kim cương.",
+					"Việc nối không thể hoàn tác, nhưng phần thưởng xứng đáng, ít nhất là đa số lúc."
 				]
 			},
 			"name": {
@@ -9193,17 +9340,17 @@
 					"They say I'm too distracted by dancing to work... but somehow everything gets installed perfectly!"
 				],
 				"trans": [
-					"You think furniture is heavy? I install entire apartment rigs between sets at the gym.",
-					"Bring me your kits, choom. I'll have them assembled faster than you can say 'do you even lift?'",
-					"Looking preem today! Almost as good as this quantum learning pod I just installed with one hand.",
-					"These muscles aren't just for show, friend. Watch me carry your entire bedroom set up six flights of stairs.",
-					"Installation instructions? Never heard of them. I just flex and the furniture assembles itself.",
-					"Your apartment will look nova, almost as amazing as these chrome biceps. Almost.",
-					"Need help moving that couch? Please, I bench press cargo containers for fun.",
-					"I could dance circles around these assembly tasks. Want to see my moves?",
-					"Installation is like a dance, choom, and I'm the best dancer in town. Watch me work!",
-					"Some people need tools. I just need rhythm and these guns. *flexes while dancing*",
-					"They say I'm too distracted by dancing to work... but somehow everything gets installed perfectly!"
+					"Bạn nghĩ đồ đạc nặng à? Tôi lắp đặt cả bộ rack phòng tập giữa các tập ở phòng gym.",
+					"Mang bộ kit của bạn lên đây, choom. Tôi sẽ lắp ráp nó nhanh hơn bạn kịp nói 'Bạn có biết tập gym không'",
+					"Hôm nay trông đỉnh như vậy! Gần như tương đương với cái giáo cụ học tập Quantum vừa lắp đặt bằng một tay.",
+					"Những cơ bắp này đâu chỉ để làm decor, bạn. Nhìn kìa, tôi sẽ bê cả bộ bàn ghế phòng ngủ lên tận 6 tầng lầu.",
+					"Hướng dẫn lắp đặt? Tôi chưa bao giờ nghe nói đến nó. Tôi chỉ cần ra oai và đồ tự lắp.",
+					"Căn hộ của bạn sẽ trông rất mới, gần như tuyệt vời như đôi cơ bắp chrome này. Gần như vậy.",
+					"Cần giúp đỡ chuyển cái ghế này không? Mình có thể nâng container hàng hóa như đùa.",
+					"Làm mấy cái lắp ráp này tôi làm cho đẹp. Muốn xem không?",
+					"Lắp đặt giống như điệu nhảy, bạn, và tôi là người nhảy hay nhất thành phố. Nhìn ta làm đi!",
+					"Mấy người kia cần công cụ. Còn tôi thì chỉ cần nhịp điệu và mấy súng này",
+					"Người ta bảo tôi nhảy nhót quá nên không làm được việc... nhưng kỳ lạ là mọi thứ lại được cài đặt hoàn hảo!"
 				]
 			},
 			"name": {
@@ -9225,10 +9372,11 @@
 					"Give me your seeds, and I will give you a treat!"
 				],
 				"trans": [
-					"Pumpkin is my source of power!",
-					"Check out my pumpkin costume!",
-					"Hmmmm, I wonder what's inside this pumpkin...",
-					"Give me your pumpkin, and I'll give you a treat!"
+					"Bí ngô là nguồn năng lượng của tôi!",
+					"Hãy xem bộ đồ bầu bí của tôi nào!",
+					"Hmmmm, bí này bên trong có gì nhỉ...",
+					"Give me your pumpkin, and I'll give you a treat!",
+					"Cho tôi hạt giống, tôi sẽ cho kẹo!"
 				]
 			},
 			"name": {
@@ -9268,11 +9416,11 @@
 					"The New Year's celebration won't wait forever, let's go!"
 				],
 				"trans": [
-					"Ready to light up the night? The countdown's about to begin!",
-					"Perfect timing is everything in fireworks, choom.",
-					"I've got the best pyrotechnics this side of Night City!",
-					"Wanna see some real fireworks? Show me what you've got!",
-					"The New Year's celebration won't wait forever, let's go!"
+					"Sẵn sàng làm cháy phố chưa? Đếm ngược sắp bắt đầu!",
+					"Thời điểm hoàn hảo là tất cả trong pháo hoa, bạn ơi.",
+					"Tôi có những loại pháo hoa tốt nhất ở phía này của Night City!",
+					"Muốn xem pháo hoa thật không? Hãy cho tôi thấy tài năng của bạn!",
+					"Lễ kỷ niệm năm mới không đợi nữa, đi thôi!"
 				]
 			},
 			"name": {
@@ -9298,11 +9446,11 @@
 					"Hey, choomba! Here to plan another blockbuster event? Let's dive in!"
 				],
 				"trans": [
-					"Hey choom, ready to chip in for the next 24-hour global party? We're just a few units short!",
-					"Ready to make an impact? Your contribution could launch the biggest party on the grid!",
-					"Looking to start the party? We're pooling funds now for a round-the-clock celebration.",
+					"Chào choom, sắp có bữa tiệc toàn cầu 24 giờ rồi, bạn góp chút không? Chỉ thiếu vài đơn vị nữa thôi!",
+					"Sẵn sàng tạo dấu ấn? Đóng góp của bạn có thể khởi động bữa tiệc lớn nhất trên Grid!",
+					"Bạn muốn bắt đầu bữa tiệc không? Chúng mình đang gom tiền để ăn chơi suốt đêm.",
 					"If you’re aiming to see the city light up, help us fill the party meter. Every bit counts!",
-					"Hey, choomba! Here to plan another blockbuster event? Let's dive in!"
+					"Này, choomba! Sắp xếp sự kiện lớn nào? Bắt đầu thôi!"
 				]
 			},
 			"name": {
@@ -9324,11 +9472,11 @@
 					"Cyberdeck in hand, heart on sleeve? Our critters need that daily touch or they'll fade into the static."
 				],
 				"trans": [
-					"Hey, choom! Neon Paws is for the brave. These sprites need your daily grind. Ready to dive in?",
-					"Lookin' sharp, netrunner! Here, pets are more than code, they need your daily hack to thrive.",
-					"What's up, street samurai? Partner with a survivor. Without your daily deeds, they're zeroed.",
-					"Edge runner, eh? This is where tech meets heart. Ignore them, and they vanish into the net. Daily care, got it?",
-					"Cyberdeck in hand, heart on sleeve? Our critters need that daily touch or they'll fade into the static."
+					"Này, bồ! Neon Paws dành cho những người máu chiến. Những con này cần sự chăm sóc mỗi ngày. Sẵn sàng chưa?",
+					"Trông thật bảnh, Netrunner! Ở đây, thú cưng không chỉ là code, chúng cần bạn hack hàng ngày để phát triển.",
+					"Nè, samurai phố thị, hãy hợp tác cùng người sống sót. Nếu không có những hành động hàng ngày của bạn, họ sẽ bị xóa sổ.",
+					"Người chạy đường, nhỉ? Đây là nơi công nghệ gặp trái tim. Bỏ bê chúng, chúng sẽ biến mất vào mạng. Chăm sóc hàng ngày, hiểu chưa?",
+					"Cyberdeck trong tay, tâm hồn nhạy cảm? Những chú thú cưng này cần sự chăm sóc hàng ngày, nếu không chúng sẽ biến mất vào tạp âm."
 				]
 			},
 			"name": {
@@ -9366,6 +9514,38 @@
 			"name": {
 				"eng": "Automatic Recycler",
 				"trans": "Tái Chế Tự Động"
+			}
+		},
+		"sakuraDog": {
+			"defaultLines": {
+				"eng": [
+					"woof woof",
+					"bark bark bark",
+					"woof woof, **scratch scratch**",
+					"*yawns*",
+					"*snif snif*",
+					"I know what you did.",
+					"Such hack. Much cyber. Wow",
+					"what da dog doin?"
+				],
+				"trans": [
+					"Gâu gâu",
+					"Gâu gâu gâu",
+					"Gâu gâu, cào cào",
+					"*ngáp*",
+					"*Huh hư*",
+					"Tôi biết bạn đã làm gì rồi.",
+					"Hack kiểu này. Cyber thật. Wow",
+					"Con chó đang làm gì?"
+				]
+			},
+			"name": {
+				"eng": "Shiba Shrine",
+				"trans": "Đền Shiba"
+			},
+			"npcName": {
+				"eng": "Mochi",
+				"trans": "Mochi"
 			}
 		},
 		"storageMerchant": {
@@ -9441,7 +9621,8 @@
 					"We also have Eternal Bond Rings for those looking to unite with their partner forever."
 				],
 				"trans": [
-					"Bạn muốn mua Unit hay sử dụng Unit của mình?"
+					"Bạn muốn mua Unit hay sử dụng Unit của mình?",
+					"Chúng tôi còn có Vòng Gắn Kết Vĩnh Cửu dành cho những người muốn gắn kết với đối tác mãi mãi."
 				]
 			},
 			"name": {
@@ -10038,6 +10219,10 @@
 			}
 		},
 		"giveCred": {
+			"associatedError": {
+				"eng": "You cannot give street cred to an associated account",
+				"trans": "Không thể trao uy tín đường phố cho tài khoản liên kết"
+			},
 			"cooldownError": {
 				"eng": "You cannot give street cred yet (once every day)",
 				"trans": "Bạn không thể cung cấp Street cred (một lần mỗi ngày)"
@@ -10054,7 +10239,7 @@
 				"trans": "Bạn phải ở cấp 10 trở lên để tặng cho người chơi khác Street cred"
 			},
 			"success": {
-				"eng": "You have given daily street cred.",
+				"eng": "Daily street cred reward have been sent to your item inbox",
 				"trans": "Bạn đã cung cấp Street cred hàng ngày."
 			}
 		},
@@ -11556,6 +11741,14 @@
 				"playerCount",
 				"skipTime",
 				"credButton"
+			]
+		},
+		"eventSkipReward": {
+			"eng": "Lucky! You received the \"${emblemName}\" emblem from the ${eventName} event skip reward!",
+			"trans": "May mắn! Bạn nhận được huy hiệu \"${emblemName}\" từ phần thưởng bỏ qua sự kiện ${eventName}!",
+			"vars": [
+				"emblemName",
+				"eventName"
 			]
 		},
 		"firstTimeAnnouncement": {
@@ -13451,6 +13644,10 @@
 						"trans": "Mua biểu tượng?"
 					}
 				},
+				"exclusive": {
+					"eng": "Exclusive",
+					"trans": "Độc quyền"
+				},
 				"limitedEdition": {
 					"eng": "Limited Edition",
 					"trans": "Phiên bản giới hạn"
@@ -13458,6 +13655,10 @@
 				"owned": {
 					"eng": "owned",
 					"trans": "sở hữu"
+				},
+				"unobtainableToast": {
+					"eng": "This exclusive emblem cannot be purchased.",
+					"trans": "Huy hiệu này không thể mua."
 				}
 			}
 		},

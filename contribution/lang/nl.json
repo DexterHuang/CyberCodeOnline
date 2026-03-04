@@ -1232,6 +1232,13 @@
 			"eng": "Add Image",
 			"trans": "Afbeelding toevoegen"
 		},
+		"cantShareItem": {
+			"eng": "Only players with ${tierName} donation tier and above can share items to chat.",
+			"trans": "Alleen spelers met ${tierName} donatie-niveau of hoger kunnen items delen in de chat.",
+			"vars": [
+				"tierName"
+			]
+		},
 		"rollDice": {
 			"eng": "Roll Dice",
 			"trans": "Gooi dobbelstenen"
@@ -1265,25 +1272,25 @@
 				"how much you love me?"
 			],
 			"trans": [
-				"Love you",
-				"You guys are great",
-				"You guys are the best",
-				"love yall",
-				"You are amazing",
-				"we are best friend",
-				"Love you all",
-				"you are great",
-				"you the best",
-				"we are awesome",
-				"you are awesome",
-				"have a nice day",
-				"miss you",
-				"miss you guys",
-				"KYAAAAAAAAA",
-				"wish you have nice day",
-				"I love you",
-				"can we hug?",
-				"how much you love me?"
+				"Ik hou van je",
+				"Jullie zijn geweldig",
+				"Jullie zijn de beste",
+				"Ik hou van jullie allemaal",
+				"Je bent geweldig",
+				"Wij zijn beste vrienden",
+				"Ik hou van jullie allemaal",
+				"je bent geweldig",
+				"Je bent de beste",
+				"Wij zijn geweldig",
+				"Je bent geweldig",
+				"Fijne dag",
+				"miss je",
+				"Ik mis jullie",
+				"Aaaaaaaaa!",
+				"Wens je een leuke dag",
+				"Ik hou van jou",
+				"kunnen we knuffelen?",
+				"Hoeveel hou ik van jou?"
 			]
 		}
 	},
@@ -1851,6 +1858,17 @@
 				"total"
 			]
 		},
+		"previewMode": {
+			"eng": "Previewing ${tierName} Tier",
+			"trans": "Bekijken ${tierName} Tier",
+			"vars": [
+				"tierName"
+			]
+		},
+		"previewOnProfile": {
+			"eng": "Preview on Profile",
+			"trans": "Voorvertoning op profiel"
+		},
 		"previewText": {
 			"eng": "This is how you will look!",
 			"trans": "Zo zie je eruit!"
@@ -1943,6 +1961,14 @@
 	},
 	"dice": {
 		"modal": {
+			"d20": {
+				"eng": "20-Sided",
+				"trans": "20-kantig"
+			},
+			"d6": {
+				"eng": "6-Sided",
+				"trans": "Zeskant"
+			},
 			"description": {
 				"eng": "Roll a dice in chat for everyone to see!",
 				"trans": "Gooi een dobbelsteen in de chat zodat iedereen het kan zien!"
@@ -1957,6 +1983,10 @@
 			"roll": {
 				"eng": "Roll Dice",
 				"trans": "Gooi dobbelstenen"
+			},
+			"selectType": {
+				"eng": "Select Dice Type:",
+				"trans": "Selecteer dobbelsteensoort:"
 			},
 			"title": {
 				"eng": "🎲 Roll Dice",
@@ -1983,24 +2013,30 @@
 				"eng": "Invalid chat channel",
 				"trans": "Ongeldig chatkanaal"
 			},
+			"invalidDiceType": {
+				"eng": "Invalid dice type. Allowed: 6-Sided, 20-Sided",
+				"trans": "Ongeldige dobbelsteen. Toegestaan: 6-zijkant, 20-zijkant"
+			},
 			"noDice": {
 				"eng": "You need a Lucky Dice to roll!",
 				"trans": "Je hebt een geluksdobbelsteen nodig om te gooien!"
 			},
 			"result": {
-				"eng": "${slanc}: ${player} rolled a ${result}! 🎲",
+				"eng": "${slanc}: ${player} rolled a ${result} on ${diceSides}-Sided dice! 🎲",
 				"trans": "${slanc}: ${player} gooide een ${result}!",
 				"vars": [
 					"slanc",
 					"player",
-					"result"
+					"result",
+					"diceSides"
 				]
 			},
 			"success": {
-				"eng": "You rolled a ${result}!",
+				"eng": "You rolled a ${result} on ${diceSides}-Sided dice!",
 				"trans": "Je hebt een ${result} gegooid!",
 				"vars": [
-					"result"
+					"result",
+					"diceSides"
 				]
 			}
 		}
@@ -2363,6 +2399,10 @@
 		"donation48": {
 			"eng": "Lunar Stallion",
 			"trans": "Maanpaard"
+		},
+		"donation49": {
+			"eng": "Cyberbloom",
+			"trans": "Cyberbloem"
 		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
@@ -2928,6 +2968,12 @@
 		"title": {
 			"eng": "Easter Celebration",
 			"trans": "Paasviering"
+		}
+	},
+	"emblems": {
+		"doge": {
+			"eng": "doge",
+			"trans": "doge"
 		}
 	},
 	"enemy": {
@@ -3782,7 +3828,7 @@
 		},
 		"sakura": {
 			"name": {
-				"eng": "March",
+				"eng": "Sakura Festival",
 				"trans": "Maart"
 			}
 		},
@@ -3932,6 +3978,20 @@
 				"trans": "Sla Korting Over"
 			}
 		},
+		"skipReward": {
+			"description": {
+				"eng": "${chance} chance to receive free ${emblemName} every time you skip",
+				"trans": "${chance} kans om gratis ${emblemName} te ontvangen bij elk overslaan",
+				"vars": [
+					"emblemName",
+					"chance"
+				]
+			},
+			"title": {
+				"eng": "Skip Emblem Reward",
+				"trans": "Embleembeloning overslaan"
+			}
+		},
 		"topUpReward": {
 			"description": {
 				"eng": "Get bonus reward when topping up during the event",
@@ -4074,10 +4134,6 @@
 		"cannotSend": {
 			"eng": "This player cannot receive gift now",
 			"trans": "Deze speler kan nu geen cadeau ontvangen"
-		},
-		"cannotSendAssociated": {
-			"eng": "You cannot send gift to this player due to alt prevention",
-			"trans": "Je kunt geen cadeau sturen naar deze speler vanwege alt-preventie"
 		}
 	},
 	"giveCredButton": {
@@ -5704,6 +5760,16 @@
 				"trans": "Rozenboeket"
 			}
 		},
+		"sakuraPetal": {
+			"description": {
+				"eng": "A delicate cherry blossom petal infused with faint neon energy. Can be exchanged for items at the Shiba Shrine during the Sakura Festival",
+				"trans": "Een delicate kersenbloesempetaltje met een zweem van neonenergie. Verhandelbaar voor items bij de Shiba Tempel tijdens het Kersenbloesemfestival"
+			},
+			"name": {
+				"eng": "Sakura Petal",
+				"trans": "Kersenbloesemblad"
+			}
+		},
 		"santaWorkshopPass": {
 			"description": {
 				"eng": "A holographic pass to CyberSanta's Workshop. Complete festive sorting challenges to earn rewards! 'Work hard, gift harder!' - CyberSanta",
@@ -6388,6 +6454,12 @@
 				"name": {
 					"eng": "Market",
 					"trans": "Markt"
+				}
+			},
+			"yearOfHorse": {
+				"name": {
+					"eng": "Year of Horse",
+					"trans": "Jaar van het Paard"
 				}
 			}
 		}
@@ -8289,7 +8361,69 @@
 			]
 		}
 	},
+	"mod": {
+		"forcedBlocks": {
+			"blockedFrom": {
+				"eng": "Blocked from",
+				"trans": "Geblokkeerd van"
+			},
+			"by": {
+				"eng": "By",
+				"trans": "Door"
+			},
+			"empty": {
+				"eng": "No forced blocks on this player",
+				"trans": "Geen gedwongen blokkades op deze speler"
+			},
+			"expires": {
+				"eng": "Expires",
+				"trans": "Verloopt"
+			},
+			"reason": {
+				"eng": "Reason",
+				"trans": "Reden"
+			},
+			"title": {
+				"eng": "Forced Blocks (Mod View)",
+				"trans": "Geforceerde Blokken (Mod-weergave)"
+			}
+		},
+		"unblock": {
+			"eng": "Unblock",
+			"trans": "ontblokken"
+		}
+	},
 	"modal": {
+		"altPrevention": {
+			"autoLiftText": {
+				"eng": "This restriction lifts automatically once both accounts stop sharing the same network for a while.",
+				"trans": "Deze beperking wordt automatisch opgeheven zodra beide accounts niet meer op hetzelfde netwerk staan."
+			},
+			"dismissButton": {
+				"eng": "I Understand",
+				"trans": "Begrepen"
+			},
+			"explanation": {
+				"eng": "You and the recipient appear to share a device or network. To prevent multi-account abuse, interactions between linked accounts are restricted.",
+				"trans": "Jij en de ontvanger lijken een apparaat of netwerk te delen. Om misbruik van meerdere accounts te voorkomen, zijn interacties tussen gekoppelde accounts beperkt."
+			},
+			"siblingsText": {
+				"eng": "Sharing a network with a real player (siblings, roommates)? You can send items via a trusted third-party.",
+				"trans": "Delen van een netwerk met een echte speler (broers of zussen, huisgenoten)? Je kunt items doorgeven via een vertrouwde derde."
+			},
+			"title": {
+				"eng": "Action Blocked",
+				"trans": "Actie geblokkeerd"
+			},
+			"viewRules": {
+				"eng": "View Rules",
+				"trans": "Bekijk regels"
+			},
+			"warningText": {
+				"eng": "Accounts abusing multi-accounting may be suspended.",
+				"trans": "Accounts die misbruik maken van multi-accounting kunnen geschorst worden."
+			}
+		},
 		"block": {
 			"title": {
 				"eng": "Are you sure you want to block this player?",
@@ -8470,15 +8604,27 @@
 		},
 		"playerSearch": {
 			"noPlayerFound": {
-				"eng": "No player with named \"${search}\" found",
+				"eng": "No player named \"${search}\" found",
 				"trans": "Geen speler met de naam \"${search}\" gevonden",
 				"vars": [
 					"search"
 				]
 			},
+			"placeholder": {
+				"eng": "Enter player name...",
+				"trans": "Voer spelernaam in..."
+			},
 			"searchPlayerHint": {
 				"eng": "Enter player name to search",
 				"trans": "Voer de naam van de speler in om te zoeken"
+			},
+			"searching": {
+				"eng": "Searching...",
+				"trans": "Zoeken..."
+			},
+			"title": {
+				"eng": "Search Player",
+				"trans": "Speler zoeken"
 			}
 		},
 		"promotion": {
@@ -9002,7 +9148,7 @@
 					"Welcome. What can I store for you?"
 				],
 				"trans": [
-					"Welcome. What can I store for you?"
+					"Welkom. Wat kan ik voor u opslaan?"
 				]
 			},
 			"name": {
@@ -9043,12 +9189,12 @@
 					"Stay online, stay strong, and stay true to yourself."
 				],
 				"trans": [
-					"Life is tough, but you're tougher. Keep fighting.",
-					"Stay strong, stay punk, and stay alive.",
-					"Remember, your worth is not defined by your struggles.",
-					"Don't let the system bring you down, rise up and rebel.",
-					"Stay connected to your inner self, and disconnect from the noise.",
-					"Stay online, stay strong, and stay true to yourself."
+					"Het leven is zwaar, maar jij bent taaier. Blijf vechten.",
+					"Blijf sterk, blijf punk, en blijf in leven.",
+					"Onthoud, je waarde wordt niet bepaald door je strijd.",
+					"Laat het systeem je niet neerhalen, sta op en rebelleer.",
+					"Blijf verbonden met je innerlijke ik en ontkoppel je van de ruis.",
+					"Blijf online, blijf sterk en blijf jezelf trouw."
 				]
 			},
 			"name": {
@@ -9062,7 +9208,7 @@
 					"Hey kid, wanna make some quick bucks?"
 				],
 				"trans": [
-					"Hey kid, wanna make some quick bucks?"
+					"Hé kind, wil je snel cash verdienen?"
 				]
 			},
 			"name": {
@@ -9088,10 +9234,11 @@
 					"Who needs chimney when you can just punch through the wall?"
 				],
 				"trans": [
-					"Ho ho ho, choom! Ready to trade your loot for some holiday cheer?",
-					"My eyes are up here, little man.",
+					"Ho ho ho, kameraad! Klaar om je buit te ruilen voor kerstgevoel?",
+					"Mijn ogen zijn hierboven, kleine man.",
 					"Ho ho ho! The Animals want to rule the streets, but they’ll never outlift me.",
-					"Ho ho hold up—do you even lift, little man?"
+					"Ho ho, wacht eens even—ben jij wel sterk, kleine man?",
+					"Wie heeft een schoorsteen nodig als je gewoon door de muur kunt slaan?"
 				]
 			},
 			"name": {
@@ -9113,7 +9260,7 @@
 					"Hi! Donate to get cosmetic perks and to help support Free-to-Win games like this one!"
 				],
 				"trans": [
-					"Hi! Donate to get cosmetic perks and to help support Free-to-Win games like this one!"
+					"Hoi! Doneer om cosmetische voordelen te krijgen en om gratis te spelen games zoals deze te ondersteunen!"
 				]
 			},
 			"name": {
@@ -9139,11 +9286,11 @@
 					"The fusion process is irreversible, but the rewards are worth it, most of the time at least."
 				],
 				"trans": [
-					"Got some epic gear collecting dust? I can turn that into something useful.",
-					"Three pieces of epic equipment you no longer need? one guaranteed shard. That's the deal.",
-					"Welcome to the fusion hub, where old gear becomes new possibilities.",
-					"One man's trash is another's treasure, choom. I can turn your unwanted gear into diamonds.",
-					"The fusion process is irreversible, but the rewards are worth it, most of the time at least."
+					"Heb je epische uitrusting liggen? Dat kan ik omzetten in iets nuttigs.",
+					"Drie stukken epische uitrusting die je niet meer nodig hebt? één gegarandeerde splinter. Dat is de deal.",
+					"Welkom bij de fusiehub, waar oude uitrusting nieuwe mogelijkheden biedt.",
+					"Wat de één verspilt, de ander spaart, makker. Ik kan je ongewenste uitrusting omzetten in diamanten.",
+					"Het fuseringsproces is onomkeerbaar, maar de beloningen zijn het meer dan waard, meestal tenminste."
 				]
 			},
 			"name": {
@@ -9169,7 +9316,7 @@
 					"Insert a Calibration Core into the machine, and I shall help you calibrate any of your equipment."
 				],
 				"trans": [
-					"Insert a Calibration Core into the machine, and I shall help you calibrate any of your equipment."
+					"Plaats een Kalibratie-Kern in de machine en ik zal je helpen om je uitrusting te kalibreren."
 				]
 			},
 			"name": {
@@ -9193,17 +9340,17 @@
 					"They say I'm too distracted by dancing to work... but somehow everything gets installed perfectly!"
 				],
 				"trans": [
-					"You think furniture is heavy? I install entire apartment rigs between sets at the gym.",
-					"Bring me your kits, choom. I'll have them assembled faster than you can say 'do you even lift?'",
-					"Looking preem today! Almost as good as this quantum learning pod I just installed with one hand.",
-					"These muscles aren't just for show, friend. Watch me carry your entire bedroom set up six flights of stairs.",
-					"Installation instructions? Never heard of them. I just flex and the furniture assembles itself.",
-					"Your apartment will look nova, almost as amazing as these chrome biceps. Almost.",
-					"Need help moving that couch? Please, I bench press cargo containers for fun.",
-					"I could dance circles around these assembly tasks. Want to see my moves?",
-					"Installation is like a dance, choom, and I'm the best dancer in town. Watch me work!",
-					"Some people need tools. I just need rhythm and these guns. *flexes while dancing*",
-					"They say I'm too distracted by dancing to work... but somehow everything gets installed perfectly!"
+					"Denk je dat meubels zwaar zijn? Ik installeer complete appartement-installaties tussen sets op de sportschool.",
+					"Breng me je kits, kameraad. Ik heb ze sneller opgebouwd dan je kunt zeggen: 'ben jij wel eens getrained?'",
+					"Ziet er vandaag top uit! Bijna zo goed als dit kwantum leer pod dat ik net met één hand heb geïnstalleerd.",
+					"Deze spieren zijn niet alleen voor de lol, vriend. Zie maar hoe ik je hele slaapkamer de zes trappen op draag.",
+					"Installatie-instructies? Nog nooit van gehoord. Ik laat ze gewoon staan en ze monteren zichzelf.",
+					"Je appartement ziet er strak uit, bijna zo geweldig als deze chrome biceps. Bijna.",
+					"Kan ik je helpen met die bank? Ik druk vrachtcontainers op voor de lol.",
+					"Ik kan deze montageklussen af in een handomdraai. Wil je mijn bewegingen zien?",
+					"De installatie is als een dans, mate, en ik ben de beste danser in de stad. Kijk maar hoe ik werk!",
+					"Sommige mensen hebben gereedschap nodig. Ik heb alleen ritme en deze pistolen. (*trekt een biceps terwijl hij dans*)",
+					"Ze zeggen dat ik te afgeleid word door te dansen om te werken... maar alles wordt toch perfect geïnstalleerd!"
 				]
 			},
 			"name": {
@@ -9225,10 +9372,11 @@
 					"Give me your seeds, and I will give you a treat!"
 				],
 				"trans": [
-					"Pumpkin is my source of power!",
-					"Check out my pumpkin costume!",
-					"Hmmmm, I wonder what's inside this pumpkin...",
-					"Give me your pumpkin, and I'll give you a treat!"
+					"Pompoen is mijn bron van kracht!",
+					"Kijk eens naar mijn pompoenkostuum!",
+					"Hmmmm, ik vraag me af wat erin zit...",
+					"Give me your pumpkin, and I'll give you a treat!",
+					"Geef me je zaden, en ik geef je een traktatie!"
 				]
 			},
 			"name": {
@@ -9246,7 +9394,7 @@
 					"Welcome, our family is always excited to help you find the perfect tech gear."
 				],
 				"trans": [
-					"Welcome, our family is always excited to help you find the perfect tech gear."
+					"Welkom, onze familie staat altijd klaar om u te helpen de perfecte techuitrusting te vinden."
 				]
 			},
 			"name": {
@@ -9268,11 +9416,11 @@
 					"The New Year's celebration won't wait forever, let's go!"
 				],
 				"trans": [
-					"Ready to light up the night? The countdown's about to begin!",
-					"Perfect timing is everything in fireworks, choom.",
-					"I've got the best pyrotechnics this side of Night City!",
-					"Wanna see some real fireworks? Show me what you've got!",
-					"The New Year's celebration won't wait forever, let's go!"
+					"Klaar om de nacht te verlichten? De aftelling begint!",
+					"Perfecte timing is alles bij vuurwerk, choom.",
+					"Ik heb de beste vuurwerk aan deze kant van Night City!",
+					"Wil je echt vuurwerk zien? Laat maar zien wat je kunt!",
+					"Het nieuwejaarsfeest gaat niet wachten, laten we gaan!"
 				]
 			},
 			"name": {
@@ -9298,11 +9446,11 @@
 					"Hey, choomba! Here to plan another blockbuster event? Let's dive in!"
 				],
 				"trans": [
-					"Hey choom, ready to chip in for the next 24-hour global party? We're just a few units short!",
-					"Ready to make an impact? Your contribution could launch the biggest party on the grid!",
-					"Looking to start the party? We're pooling funds now for a round-the-clock celebration.",
+					"Hoi kameraad, klaar om mee te betalen voor de volgende 24-uurs wereldwijde party? We hebben maar een paar eenheden nodig!",
+					"Klaar om een impact te maken? Jouw bijdrage kan de grootste party op het grid lanceren!",
+					"Wilt u het feest beginnen? We halen nu geld bij elkaar voor een 24-uurs feest.",
 					"If you’re aiming to see the city light up, help us fill the party meter. Every bit counts!",
-					"Hey, choomba! Here to plan another blockbuster event? Let's dive in!"
+					"Hé, kameraad! Ben je weer hier om een gigantisch evenement te plannen? Laten we erin duiken!"
 				]
 			},
 			"name": {
@@ -9324,11 +9472,11 @@
 					"Cyberdeck in hand, heart on sleeve? Our critters need that daily touch or they'll fade into the static."
 				],
 				"trans": [
-					"Hey, choom! Neon Paws is for the brave. These sprites need your daily grind. Ready to dive in?",
-					"Lookin' sharp, netrunner! Here, pets are more than code, they need your daily hack to thrive.",
-					"What's up, street samurai? Partner with a survivor. Without your daily deeds, they're zeroed.",
-					"Edge runner, eh? This is where tech meets heart. Ignore them, and they vanish into the net. Daily care, got it?",
-					"Cyberdeck in hand, heart on sleeve? Our critters need that daily touch or they'll fade into the static."
+					"Hé choom! Neon Paws is voor de moedigen. Deze sprites hebben je grind nodig. Klaar om aan de slag?",
+					"Knap, netrunner! Huisdieren zijn hier meer dan code, ze hebben je dagelijkse hack nodig om te gedijen.",
+					"Wat's up, street samurai? Sluit aan bij een overlevende. Zonder jouw daden zijn ze geëlimineerd.",
+					"Runner, he? Hier treffen tech en hart elkaar op. Negeer ze, dan verdwijnen ze in het net. Dagelijkse verzorging, snap je?",
+					"Cyberdeck in de hand, hart op de mouw? Onze beestjes hebben dagelijks contact nodig, of ze vervagen in de statis."
 				]
 			},
 			"name": {
@@ -9346,7 +9494,7 @@
 					"I'll print whatever you want if you have the cache!"
 				],
 				"trans": [
-					"I'll print whatever you want if you have the cache!"
+					"Ik druk alles af wat je wilt, als je de cache hebt"
 				]
 			},
 			"name": {
@@ -9368,6 +9516,38 @@
 				"trans": "Automatische recycler"
 			}
 		},
+		"sakuraDog": {
+			"defaultLines": {
+				"eng": [
+					"woof woof",
+					"bark bark bark",
+					"woof woof, **scratch scratch**",
+					"*yawns*",
+					"*snif snif*",
+					"I know what you did.",
+					"Such hack. Much cyber. Wow",
+					"what da dog doin?"
+				],
+				"trans": [
+					"Woef woef",
+					"blaffen blaffen blaffen",
+					"woef woef, krab krab",
+					"*grijnst*",
+					"*snif snif*",
+					"Ik weet wat je gedaan hebt.",
+					"Zo'n hack. Veel cyber. Wow",
+					"Wat doet de hond?"
+				]
+			},
+			"name": {
+				"eng": "Shiba Shrine",
+				"trans": "Shiba Schrijn"
+			},
+			"npcName": {
+				"eng": "Mochi",
+				"trans": "Mochi"
+			}
+		},
 		"storageMerchant": {
 			"canAccessError": {
 				"eng": "You need to be at least level 10 to access merchant",
@@ -9378,7 +9558,7 @@
 					"Hey kid, I'm Lee, You know, you don't have to carry everything you own in your pockets."
 				],
 				"trans": [
-					"Hey kid, I'm Lee, You know, you don't have to carry everything you own in your pockets."
+					"Hé kind, ik ben Lee. Je hoeft niet alles wat je hebt in je zakken te dragen."
 				]
 			},
 			"description": {
@@ -9396,7 +9576,7 @@
 					"Hey kid... Come check out my goods."
 				],
 				"trans": [
-					"Hey kid... Come check out my goods."
+					"Hé knul, kom eens kijken naar mijn spullen."
 				]
 			},
 			"name": {
@@ -9414,7 +9594,7 @@
 					"I'll help you to progress to the next area!"
 				],
 				"trans": [
-					"I'll help you to progress to the next area!"
+					"Ik help je naar het volgende gebied!"
 				]
 			},
 			"description": {
@@ -9441,7 +9621,8 @@
 					"We also have Eternal Bond Rings for those looking to unite with their partner forever."
 				],
 				"trans": [
-					"Do you want to buy Units, or use your Units?"
+					"Wil je eenheden kopen of gebruiken?",
+					"Wij hebben ook Eeuwige Band Ringen voor wie hun partner voor altijd met elkaar wil verbinden."
 				]
 			},
 			"name": {
@@ -9459,7 +9640,7 @@
 					"You will find the best gear here, trust me."
 				],
 				"trans": [
-					"You will find the best gear here, trust me."
+					"Hier vind je de beste uitrusting, vertrouw me."
 				]
 			},
 			"name": {
@@ -10038,6 +10219,10 @@
 			}
 		},
 		"giveCred": {
+			"associatedError": {
+				"eng": "You cannot give street cred to an associated account",
+				"trans": "Je kunt geen straatreputatie geven aan een gekoppeld account"
+			},
 			"cooldownError": {
 				"eng": "You cannot give street cred yet (once every day)",
 				"trans": "Je kunt nog geen street cred geven (eenmaal per dag)"
@@ -10054,7 +10239,7 @@
 				"trans": "Je moet niveau 10 of hoger zijn om speler street cred te geven"
 			},
 			"success": {
-				"eng": "You have given daily street cred.",
+				"eng": "Daily street cred reward have been sent to your item inbox",
 				"trans": "Je hebt Daily Street Cred gegeven."
 			}
 		},
@@ -11556,6 +11741,14 @@
 				"playerCount",
 				"skipTime",
 				"credButton"
+			]
+		},
+		"eventSkipReward": {
+			"eng": "Lucky! You received the \"${emblemName}\" emblem from the ${eventName} event skip reward!",
+			"trans": "Gelukkig! Je hebt het \"${emblemName}\" embleem ontvangen van de \"${eventName}\" event skip beloning!",
+			"vars": [
+				"emblemName",
+				"eventName"
 			]
 		},
 		"firstTimeAnnouncement": {
@@ -13451,6 +13644,10 @@
 						"trans": "Koop embleem?"
 					}
 				},
+				"exclusive": {
+					"eng": "Exclusive",
+					"trans": "Exclusief"
+				},
 				"limitedEdition": {
 					"eng": "Limited Edition",
 					"trans": "Beperkte editie"
@@ -13458,6 +13655,10 @@
 				"owned": {
 					"eng": "owned",
 					"trans": "eigendom"
+				},
+				"unobtainableToast": {
+					"eng": "This exclusive emblem cannot be purchased.",
+					"trans": "Dit exclusieve embleem kan niet worden gekocht."
 				}
 			}
 		},

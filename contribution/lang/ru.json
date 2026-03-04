@@ -1232,6 +1232,13 @@
 			"eng": "Add Image",
 			"trans": "Добавить изображение"
 		},
+		"cantShareItem": {
+			"eng": "Only players with ${tierName} donation tier and above can share items to chat.",
+			"trans": "Только игроки с донатным уровнем ${tierName} и выше могут отправлять предметы в чате",
+			"vars": [
+				"tierName"
+			]
+		},
 		"rollDice": {
 			"eng": "Roll Dice",
 			"trans": "Бросить кости"
@@ -1851,6 +1858,17 @@
 				"total"
 			]
 		},
+		"previewMode": {
+			"eng": "Previewing ${tierName} Tier",
+			"trans": "Просмотр ${tierName} ранга",
+			"vars": [
+				"tierName"
+			]
+		},
+		"previewOnProfile": {
+			"eng": "Preview on Profile",
+			"trans": "Предпросмотр в профиле"
+		},
 		"previewText": {
 			"eng": "This is how you will look!",
 			"trans": "Вот как ты будешь выглядеть!"
@@ -1943,6 +1961,14 @@
 	},
 	"dice": {
 		"modal": {
+			"d20": {
+				"eng": "20-Sided",
+				"trans": "Двадцатигранник"
+			},
+			"d6": {
+				"eng": "6-Sided",
+				"trans": "Шестигранный"
+			},
 			"description": {
 				"eng": "Roll a dice in chat for everyone to see!",
 				"trans": "Брось кубик в чате и покажи всем!"
@@ -1957,6 +1983,10 @@
 			"roll": {
 				"eng": "Roll Dice",
 				"trans": "Бросить кости"
+			},
+			"selectType": {
+				"eng": "Select Dice Type:",
+				"trans": "Выберите тип кубиков:"
 			},
 			"title": {
 				"eng": "🎲 Roll Dice",
@@ -1983,24 +2013,30 @@
 				"eng": "Invalid chat channel",
 				"trans": "Неверный канал чата"
 			},
+			"invalidDiceType": {
+				"eng": "Invalid dice type. Allowed: 6-Sided, 20-Sided",
+				"trans": "Неверный тип кубика. Допустимо: 6-гранный, 20-гранный"
+			},
 			"noDice": {
 				"eng": "You need a Lucky Dice to roll!",
 				"trans": "Для броска нужен кубик удачи"
 			},
 			"result": {
-				"eng": "${slanc}: ${player} rolled a ${result}! 🎲",
+				"eng": "${slanc}: ${player} rolled a ${result} on ${diceSides}-Sided dice! 🎲",
 				"trans": "${slanc}: ${player} бросил ${result}!",
 				"vars": [
 					"slanc",
 					"player",
-					"result"
+					"result",
+					"diceSides"
 				]
 			},
 			"success": {
-				"eng": "You rolled a ${result}!",
+				"eng": "You rolled a ${result} on ${diceSides}-Sided dice!",
 				"trans": "Вы бросили ${result}!",
 				"vars": [
-					"result"
+					"result",
+					"diceSides"
 				]
 			}
 		}
@@ -2363,6 +2399,10 @@
 		"donation48": {
 			"eng": "Lunar Stallion",
 			"trans": "Лунный конь"
+		},
+		"donation49": {
+			"eng": "Cyberbloom",
+			"trans": "Киберцветение"
 		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
@@ -2928,6 +2968,12 @@
 		"title": {
 			"eng": "Easter Celebration",
 			"trans": "КиберПасха"
+		}
+	},
+	"emblems": {
+		"doge": {
+			"eng": "doge",
+			"trans": "Доге"
 		}
 	},
 	"enemy": {
@@ -3782,7 +3828,7 @@
 		},
 		"sakura": {
 			"name": {
-				"eng": "March",
+				"eng": "Sakura Festival",
 				"trans": "${percent}% скидка во время мероприятия"
 			}
 		},
@@ -3932,6 +3978,20 @@
 				"trans": "Пропустить скидку"
 			}
 		},
+		"skipReward": {
+			"description": {
+				"eng": "${chance} chance to receive free ${emblemName} every time you skip",
+				"trans": "${chance} шанс получить бесплатную ${emblemName} при каждом пропуске",
+				"vars": [
+					"emblemName",
+					"chance"
+				]
+			},
+			"title": {
+				"eng": "Skip Emblem Reward",
+				"trans": "Награда за пропуск: Эмблема"
+			}
+		},
 		"topUpReward": {
 			"description": {
 				"eng": "Get bonus reward when topping up during the event",
@@ -4074,10 +4134,6 @@
 		"cannotSend": {
 			"eng": "This player cannot receive gift now",
 			"trans": "Этот игрок не может получить подарок сейчас"
-		},
-		"cannotSendAssociated": {
-			"eng": "You cannot send gift to this player due to alt prevention",
-			"trans": "Вы не можете отправить подарок этому игроку из-за ограничений на альт-аккаунты"
 		}
 	},
 	"giveCredButton": {
@@ -5704,6 +5760,16 @@
 				"trans": "Букет роз"
 			}
 		},
+		"sakuraPetal": {
+			"description": {
+				"eng": "A delicate cherry blossom petal infused with faint neon energy. Can be exchanged for items at the Shiba Shrine during the Sakura Festival",
+				"trans": "Изящный лепесток сакуры, пропитанный тусклой неоновой энергией. Можно обменять на предметы в Храме Сиба во время фестиваля сакуры"
+			},
+			"name": {
+				"eng": "Sakura Petal",
+				"trans": "Лепесток сакуры"
+			}
+		},
 		"santaWorkshopPass": {
 			"description": {
 				"eng": "A holographic pass to CyberSanta's Workshop. Complete festive sorting challenges to earn rewards! 'Work hard, gift harder!' - CyberSanta",
@@ -6388,6 +6454,12 @@
 				"name": {
 					"eng": "Market",
 					"trans": "Рынок"
+				}
+			},
+			"yearOfHorse": {
+				"name": {
+					"eng": "Year of Horse",
+					"trans": "Год Лошади"
 				}
 			}
 		}
@@ -8289,7 +8361,69 @@
 			]
 		}
 	},
+	"mod": {
+		"forcedBlocks": {
+			"blockedFrom": {
+				"eng": "Blocked from",
+				"trans": "Заблокирован от"
+			},
+			"by": {
+				"eng": "By",
+				"trans": "Автор"
+			},
+			"empty": {
+				"eng": "No forced blocks on this player",
+				"trans": "У этого игрока нет принудительных блокировок"
+			},
+			"expires": {
+				"eng": "Expires",
+				"trans": "Истекает"
+			},
+			"reason": {
+				"eng": "Reason",
+				"trans": "Причина"
+			},
+			"title": {
+				"eng": "Forced Blocks (Mod View)",
+				"trans": "Принудительные блоки (Просмотр модов)"
+			}
+		},
+		"unblock": {
+			"eng": "Unblock",
+			"trans": "Разблокировать"
+		}
+	},
 	"modal": {
+		"altPrevention": {
+			"autoLiftText": {
+				"eng": "This restriction lifts automatically once both accounts stop sharing the same network for a while.",
+				"trans": "Ограничение автоматически снимется, как только оба аккаунта перестанут использовать одну сеть."
+			},
+			"dismissButton": {
+				"eng": "I Understand",
+				"trans": "Я понимаю"
+			},
+			"explanation": {
+				"eng": "You and the recipient appear to share a device or network. To prevent multi-account abuse, interactions between linked accounts are restricted.",
+				"trans": "Похоже, вы и получатель используете одно устройство или сеть. Чтобы предотвратить злоупотребление мультиаккаунтами, взаимодействие между связанными аккаунтами ограничено."
+			},
+			"siblingsText": {
+				"eng": "Sharing a network with a real player (siblings, roommates)? You can send items via a trusted third-party.",
+				"trans": "Вы играете в сети с реальным игроком (братья, сестры, сожители)? Вы можете отправлять предметы через доверенное третье лицо."
+			},
+			"title": {
+				"eng": "Action Blocked",
+				"trans": "Действие заблокировано"
+			},
+			"viewRules": {
+				"eng": "View Rules",
+				"trans": "Посмотреть правила"
+			},
+			"warningText": {
+				"eng": "Accounts abusing multi-accounting may be suspended.",
+				"trans": "Аккаунты, злоупотребляющие мультиаккаунтингом, могут быть заблокированы."
+			}
+		},
 		"block": {
 			"title": {
 				"eng": "Are you sure you want to block this player?",
@@ -8470,15 +8604,27 @@
 		},
 		"playerSearch": {
 			"noPlayerFound": {
-				"eng": "No player with named \"${search}\" found",
+				"eng": "No player named \"${search}\" found",
 				"trans": "Не найдено ни одного игрока с именем \"${search}\"",
 				"vars": [
 					"search"
 				]
 			},
+			"placeholder": {
+				"eng": "Enter player name...",
+				"trans": "Введите имя игрока..."
+			},
 			"searchPlayerHint": {
 				"eng": "Enter player name to search",
 				"trans": "Введите имя игрока для поиска"
+			},
+			"searching": {
+				"eng": "Searching...",
+				"trans": "Поиск..."
+			},
+			"title": {
+				"eng": "Search Player",
+				"trans": "Поиск игрока"
 			}
 		},
 		"promotion": {
@@ -9043,12 +9189,12 @@
 					"Stay online, stay strong, and stay true to yourself."
 				],
 				"trans": [
-					"Life is tough, but you're tougher. Keep fighting.",
-					"Stay strong, stay punk, and stay alive.",
-					"Remember, your worth is not defined by your struggles.",
-					"Don't let the system bring you down, rise up and rebel.",
-					"Stay connected to your inner self, and disconnect from the noise.",
-					"Stay online, stay strong, and stay true to yourself."
+					"Жизнь сурова, но ты крепче. Продолжай сражаться.",
+					"Оставайся сильным, оставайся панком и оставайся живым.",
+					"Помни, твоя ценность не определяется твоими испытаниями.",
+					"Не позволяй системе сломить тебя, встань и восстань.",
+					"Оставайся на связи со своим внутренним Я, и отключись от шума.",
+					"Оставайся на связи, будь сильным и оставайся собой."
 				]
 			},
 			"name": {
@@ -9088,10 +9234,11 @@
 					"Who needs chimney when you can just punch through the wall?"
 				],
 				"trans": [
-					"Ho ho ho, choom! Ready to trade your loot for some holiday cheer?",
-					"My eyes are up here, little man.",
+					"Хо-хо-хо, друг! Готов обменять трофеи на праздничное веселье?",
+					"Мои глаза наверху, малыш.",
 					"Ho ho ho! The Animals want to rule the streets, but they’ll never outlift me.",
-					"Ho ho hold up—do you even lift, little man?"
+					"Хо-хо, погоди — ты вообще жмешь, малыш?",
+					"Кому нужна труба, если можно просто проломить стену?"
 				]
 			},
 			"name": {
@@ -9139,11 +9286,11 @@
 					"The fusion process is irreversible, but the rewards are worth it, most of the time at least."
 				],
 				"trans": [
-					"Got some epic gear collecting dust? I can turn that into something useful.",
-					"Three pieces of epic equipment you no longer need? one guaranteed shard. That's the deal.",
-					"Welcome to the fusion hub, where old gear becomes new possibilities.",
-					"One man's trash is another's treasure, choom. I can turn your unwanted gear into diamonds.",
-					"The fusion process is irreversible, but the rewards are worth it, most of the time at least."
+					"Эпическая броня пылью не пылит? Я превращу это в пользу.",
+					"Три эпических предмета, которые тебе больше не нужны? Один гарантированный осколок. Вот и всё.",
+					"Добро пожаловать в фьюжн-хаб, где старое снаряжение превращается в новые возможности.",
+					"Что одному мусор, то другому — сокровище, дружище. Я превращу твой хлам в бриллианты.",
+					"Процесс слияния необратим, но награды того стоят, по крайней мере, в большинстве случаев."
 				]
 			},
 			"name": {
@@ -9193,17 +9340,17 @@
 					"They say I'm too distracted by dancing to work... but somehow everything gets installed perfectly!"
 				],
 				"trans": [
-					"You think furniture is heavy? I install entire apartment rigs between sets at the gym.",
-					"Bring me your kits, choom. I'll have them assembled faster than you can say 'do you even lift?'",
-					"Looking preem today! Almost as good as this quantum learning pod I just installed with one hand.",
-					"These muscles aren't just for show, friend. Watch me carry your entire bedroom set up six flights of stairs.",
-					"Installation instructions? Never heard of them. I just flex and the furniture assembles itself.",
-					"Your apartment will look nova, almost as amazing as these chrome biceps. Almost.",
-					"Need help moving that couch? Please, I bench press cargo containers for fun.",
-					"I could dance circles around these assembly tasks. Want to see my moves?",
-					"Installation is like a dance, choom, and I'm the best dancer in town. Watch me work!",
-					"Some people need tools. I just need rhythm and these guns. *flexes while dancing*",
-					"They say I'm too distracted by dancing to work... but somehow everything gets installed perfectly!"
+					"Тебе кажется, мебель тяжелая? Я монтирую целые жилые тренажерные комплексы между подходами в спортзале.",
+					"Принеси мне свои наборы, чум. Я соберу их быстрее, чем ты успеешь сказать «ты вообще качаешь?»",
+					"Сегодня я выгляжу круто! Почти так же круто, как этот квантовый модуль для обучения, который я установил одной рукой.",
+					"Мои мышцы не для красоты, дружище. Смотри, как я подниму твой спальный гарнитур на шесть лестничных пролетов.",
+					"Инструкции? Не слышал. Я просто выставляю, и мебель собирается сама.",
+					"Твоя квартира станет новой, почти так же потрясающе, как эти хромовые бицепсы. Почти.",
+					"Нужна помощь с тем диваном? Пожалуй, я жму контейнеры с грузом для развлечения.",
+					"Я быстрый, как алгоритм. Хочешь看我 на это?",
+					"Установка — это как танец, дружище, и я лучший танцор в городе. Смотри, как я работаю!",
+					"Некоторым людям нужны инструменты. Мне нужен лишь ритм и эти пушки. *напрягает мышцы, танцуя*",
+					"Говорят, что танцы мешают мне работать... но каким-то образом всё ставится идеально!"
 				]
 			},
 			"name": {
@@ -9225,10 +9372,11 @@
 					"Give me your seeds, and I will give you a treat!"
 				],
 				"trans": [
-					"Pumpkin is my source of power!",
-					"Check out my pumpkin costume!",
-					"Hmmmm, I wonder what's inside this pumpkin...",
-					"Give me your pumpkin, and I'll give you a treat!"
+					"Тыква — мой источник силы!",
+					"Посмотри, как я похож на тыкву!",
+					"Хм, интересно, что внутри этой тыквы.",
+					"Give me your pumpkin, and I'll give you a treat!",
+					"Дай мне семечки, и я дам тебе угощение!"
 				]
 			},
 			"name": {
@@ -9268,11 +9416,11 @@
 					"The New Year's celebration won't wait forever, let's go!"
 				],
 				"trans": [
-					"Ready to light up the night? The countdown's about to begin!",
-					"Perfect timing is everything in fireworks, choom.",
-					"I've got the best pyrotechnics this side of Night City!",
-					"Wanna see some real fireworks? Show me what you've got!",
-					"The New Year's celebration won't wait forever, let's go!"
+					"Готовы разжечь ночь? Обратный отсчет уже начнется!",
+					"...",
+					"У меня лучшие пиротехники по эту сторону Найт-Сити!",
+					"Хочешь настоящий фейерверк? Покажи, на что ты способен!",
+					"Новый год не заставит себя ждать, давай, погнали!"
 				]
 			},
 			"name": {
@@ -9298,11 +9446,11 @@
 					"Hey, choomba! Here to plan another blockbuster event? Let's dive in!"
 				],
 				"trans": [
-					"Hey choom, ready to chip in for the next 24-hour global party? We're just a few units short!",
-					"Ready to make an impact? Your contribution could launch the biggest party on the grid!",
-					"Looking to start the party? We're pooling funds now for a round-the-clock celebration.",
+					"Эй, кум, готов скинуться на следующий глобальный марафон на 24 часа? Нам буквально пару единиц не хватает!",
+					"Готовы к прорыву? Ваш вклад может запустить крупнейшую группу на сетке!",
+					"Хочешь начать вечеринку? Мы уже собираем деньги на круглосуточный праздник.",
 					"If you’re aiming to see the city light up, help us fill the party meter. Every bit counts!",
-					"Hey, choomba! Here to plan another blockbuster event? Let's dive in!"
+					"Эй, чумба! Пришел спланировать еще одно грандиозное событие? Погнали!"
 				]
 			},
 			"name": {
@@ -9324,11 +9472,11 @@
 					"Cyberdeck in hand, heart on sleeve? Our critters need that daily touch or they'll fade into the static."
 				],
 				"trans": [
-					"Hey, choom! Neon Paws is for the brave. These sprites need your daily grind. Ready to dive in?",
-					"Lookin' sharp, netrunner! Here, pets are more than code, they need your daily hack to thrive.",
-					"What's up, street samurai? Partner with a survivor. Without your daily deeds, they're zeroed.",
-					"Edge runner, eh? This is where tech meets heart. Ignore them, and they vanish into the net. Daily care, got it?",
-					"Cyberdeck in hand, heart on sleeve? Our critters need that daily touch or they'll fade into the static."
+					"Привет, кочем! \"Неоновые Лапы\" для смелых. Им нужна твоя забота. Готов погрузиться?",
+					"Выглядит отлично, сетраннер! Питомцы здесь — это больше, чем просто код, им нужна твоя ежедневная хакерская активность, чтобы процветали.",
+					"Привет, уличный самурай. Стань напарником выжившего. Без твоих ежедневных дел, они обнулены.",
+					"Эджераннер, так? Здесь техника встречается с сердцем. Игнорируй их, и они исчезнут в сети. Ежедневный уход, ясно?",
+					"Кибердек в руке, сердце нараспашку? Наши питомцы нуждаются в ежедневном контакте, иначе они растворятся в статике."
 				]
 			},
 			"name": {
@@ -9366,6 +9514,38 @@
 			"name": {
 				"eng": "Automatic Recycler",
 				"trans": "Автоматический переработчик"
+			}
+		},
+		"sakuraDog": {
+			"defaultLines": {
+				"eng": [
+					"woof woof",
+					"bark bark bark",
+					"woof woof, **scratch scratch**",
+					"*yawns*",
+					"*snif snif*",
+					"I know what you did.",
+					"Such hack. Much cyber. Wow",
+					"what da dog doin?"
+				],
+				"trans": [
+					"Гав гав",
+					"Гав гав гав",
+					"Гав-гав, трах-трах",
+					"Зевает",
+					"*нюхает*",
+					"Я знаю, что ты сделал.",
+					"Такой хак. Много кибер. Ого",
+					"Что делает пес?"
+				]
+			},
+			"name": {
+				"eng": "Shiba Shrine",
+				"trans": "Храм Сиба"
+			},
+			"npcName": {
+				"eng": "Mochi",
+				"trans": "Моти"
 			}
 		},
 		"storageMerchant": {
@@ -9441,7 +9621,8 @@
 					"We also have Eternal Bond Rings for those looking to unite with their partner forever."
 				],
 				"trans": [
-					"Ты хочешь купить Юниты, или использовать свои Юниты?"
+					"Ты хочешь купить Юниты, или использовать свои Юниты?",
+					"Мы также предлагаем Кольца Вечной Связи для тех, кто хочет быть вместе с партнером навсегда."
 				]
 			},
 			"name": {
@@ -10038,6 +10219,10 @@
 			}
 		},
 		"giveCred": {
+			"associatedError": {
+				"eng": "You cannot give street cred to an associated account",
+				"trans": "Нельзя передать репутацию связанному аккаунту"
+			},
 			"cooldownError": {
 				"eng": "You cannot give street cred yet (once every day)",
 				"trans": "Вы не можете дать репутацию (один раз в день)"
@@ -10054,7 +10239,7 @@
 				"trans": "Вы должны быть 10 -го уровня или выше, чтобы дать игроку репутацию"
 			},
 			"success": {
-				"eng": "You have given daily street cred.",
+				"eng": "Daily street cred reward have been sent to your item inbox",
 				"trans": "Вы дали ежедневную репутацию."
 			}
 		},
@@ -11556,6 +11741,14 @@
 				"playerCount",
 				"skipTime",
 				"credButton"
+			]
+		},
+		"eventSkipReward": {
+			"eng": "Lucky! You received the \"${emblemName}\" emblem from the ${eventName} event skip reward!",
+			"trans": "Вам повезло! Вы получили \"${emblemName}\" из награды за пропуск ивента \"${eventName}\"!",
+			"vars": [
+				"emblemName",
+				"eventName"
 			]
 		},
 		"firstTimeAnnouncement": {
@@ -13451,6 +13644,10 @@
 						"trans": "Купить эмблему?"
 					}
 				},
+				"exclusive": {
+					"eng": "Exclusive",
+					"trans": "Эксклюзив"
+				},
 				"limitedEdition": {
 					"eng": "Limited Edition",
 					"trans": "Ограниченный выпуск"
@@ -13458,6 +13655,10 @@
 				"owned": {
 					"eng": "owned",
 					"trans": "владелец"
+				},
+				"unobtainableToast": {
+					"eng": "This exclusive emblem cannot be purchased.",
+					"trans": "Этот эксклюзивный значок нельзя купить."
 				}
 			}
 		},

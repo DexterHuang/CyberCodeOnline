@@ -1232,6 +1232,13 @@
 			"eng": "Add Image",
 			"trans": "Pridať obrázok"
 		},
+		"cantShareItem": {
+			"eng": "Only players with ${tierName} donation tier and above can share items to chat.",
+			"trans": "Hráči s ${tierName} darcovskou úrovňou a vyššou môžu zdieľať do chatu.",
+			"vars": [
+				"tierName"
+			]
+		},
 		"rollDice": {
 			"eng": "Roll Dice",
 			"trans": "Rolovať kocky"
@@ -1265,25 +1272,25 @@
 				"how much you love me?"
 			],
 			"trans": [
-				"Love you",
-				"You guys are great",
-				"You guys are the best",
-				"love yall",
-				"You are amazing",
-				"we are best friend",
-				"Love you all",
-				"you are great",
-				"you the best",
-				"we are awesome",
-				"you are awesome",
-				"have a nice day",
-				"miss you",
-				"miss you guys",
-				"KYAAAAAAAAA",
-				"wish you have nice day",
-				"I love you",
-				"can we hug?",
-				"how much you love me?"
+				"Milujem ťa",
+				"Vy ste skvelí",
+				"Vy ste skvelí",
+				"Milujem vás",
+				"Jsi úžasný",
+				"Sme najlepší priatelia",
+				"Milujem vás všetkých",
+				"Si úžasný",
+				"Ty si najlepší",
+				"Sme úžasní",
+				"si úžasný",
+				"Máš pekný deň",
+				"Chýbaš mi",
+				"Chýba nám",
+				"Aaaaaa",
+				"Prajem vám pekný deň",
+				"Milujem ťa",
+				"môžeme sa objať?",
+				"Koľko ma miluješ?"
 			]
 		}
 	},
@@ -1851,6 +1858,17 @@
 				"total"
 			]
 		},
+		"previewMode": {
+			"eng": "Previewing ${tierName} Tier",
+			"trans": "Náhľad ${tierName} Stupňa",
+			"vars": [
+				"tierName"
+			]
+		},
+		"previewOnProfile": {
+			"eng": "Preview on Profile",
+			"trans": "Náhľad na profil"
+		},
 		"previewText": {
 			"eng": "This is how you will look!",
 			"trans": "Takto budeš vyzerať!"
@@ -1943,6 +1961,14 @@
 	},
 	"dice": {
 		"modal": {
+			"d20": {
+				"eng": "20-Sided",
+				"trans": "D20 kocka"
+			},
+			"d6": {
+				"eng": "6-Sided",
+				"trans": "Šesťstranná kocka"
+			},
 			"description": {
 				"eng": "Roll a dice in chat for everyone to see!",
 				"trans": "Roluj kocku v chate pre všetkých!"
@@ -1957,6 +1983,10 @@
 			"roll": {
 				"eng": "Roll Dice",
 				"trans": "Rolovať kocky"
+			},
+			"selectType": {
+				"eng": "Select Dice Type:",
+				"trans": "Vyberte typ kocky:"
 			},
 			"title": {
 				"eng": "🎲 Roll Dice",
@@ -1983,24 +2013,30 @@
 				"eng": "Invalid chat channel",
 				"trans": "Neplatný chatový kanál"
 			},
+			"invalidDiceType": {
+				"eng": "Invalid dice type. Allowed: 6-Sided, 20-Sided",
+				"trans": "Neplatný typ kostky. Povolené: 6-stenné, 20-stenné"
+			},
 			"noDice": {
 				"eng": "You need a Lucky Dice to roll!",
 				"trans": "Potrebujete šťastnú kocku na hodenie!"
 			},
 			"result": {
-				"eng": "${slanc}: ${player} rolled a ${result}! 🎲",
+				"eng": "${slanc}: ${player} rolled a ${result} on ${diceSides}-Sided dice! 🎲",
 				"trans": "${slanc}: ${player} vyhodil ${result}!",
 				"vars": [
 					"slanc",
 					"player",
-					"result"
+					"result",
+					"diceSides"
 				]
 			},
 			"success": {
-				"eng": "You rolled a ${result}!",
+				"eng": "You rolled a ${result} on ${diceSides}-Sided dice!",
 				"trans": "Vyhodil ste ${result}!",
 				"vars": [
-					"result"
+					"result",
+					"diceSides"
 				]
 			}
 		}
@@ -2363,6 +2399,10 @@
 		"donation48": {
 			"eng": "Lunar Stallion",
 			"trans": "Mesiacový kôň"
+		},
+		"donation49": {
+			"eng": "Cyberbloom",
+			"trans": "Cyberkvetina"
 		},
 		"donation5": {
 			"eng": "Cybernetic Potato",
@@ -2928,6 +2968,12 @@
 		"title": {
 			"eng": "Easter Celebration",
 			"trans": "Veľkonočný Cyberboom"
+		}
+	},
+	"emblems": {
+		"doge": {
+			"eng": "doge",
+			"trans": "doge"
 		}
 	},
 	"enemy": {
@@ -3782,7 +3828,7 @@
 		},
 		"sakura": {
 			"name": {
-				"eng": "March",
+				"eng": "Sakura Festival",
 				"trans": "Marš"
 			}
 		},
@@ -3932,6 +3978,20 @@
 				"trans": "Preskočiť zľavu"
 			}
 		},
+		"skipReward": {
+			"description": {
+				"eng": "${chance} chance to receive free ${emblemName} every time you skip",
+				"trans": "${chance} šanca na získanie ${emblemName} zdarma za každé preskočenie",
+				"vars": [
+					"emblemName",
+					"chance"
+				]
+			},
+			"title": {
+				"eng": "Skip Emblem Reward",
+				"trans": "Preskočiť odznak odmeny"
+			}
+		},
 		"topUpReward": {
 			"description": {
 				"eng": "Get bonus reward when topping up during the event",
@@ -4074,10 +4134,6 @@
 		"cannotSend": {
 			"eng": "This player cannot receive gift now",
 			"trans": "Tento hráč teraz nemôže dostať darček"
-		},
-		"cannotSendAssociated": {
-			"eng": "You cannot send gift to this player due to alt prevention",
-			"trans": "Nemôžete posielať darček tomuto hráčovi kvôli prevencii alts"
 		}
 	},
 	"giveCredButton": {
@@ -5704,6 +5760,16 @@
 				"trans": "Kytica ruží"
 			}
 		},
+		"sakuraPetal": {
+			"description": {
+				"eng": "A delicate cherry blossom petal infused with faint neon energy. Can be exchanged for items at the Shiba Shrine during the Sakura Festival",
+				"trans": "Jemný list japonskej čerešne nasiadený jemnou neonovou energiou. Môže byť vymenená za predmety v Šibej svätyni počas Festivalu Sáky"
+			},
+			"name": {
+				"eng": "Sakura Petal",
+				"trans": "Sakurový okvetný lístok"
+			}
+		},
 		"santaWorkshopPass": {
 			"description": {
 				"eng": "A holographic pass to CyberSanta's Workshop. Complete festive sorting challenges to earn rewards! 'Work hard, gift harder!' - CyberSanta",
@@ -6388,6 +6454,12 @@
 				"name": {
 					"eng": "Market",
 					"trans": "Obchod"
+				}
+			},
+			"yearOfHorse": {
+				"name": {
+					"eng": "Year of Horse",
+					"trans": "Rok koňa"
 				}
 			}
 		}
@@ -8289,7 +8361,69 @@
 			]
 		}
 	},
+	"mod": {
+		"forcedBlocks": {
+			"blockedFrom": {
+				"eng": "Blocked from",
+				"trans": "Zablokované z"
+			},
+			"by": {
+				"eng": "By",
+				"trans": "autor"
+			},
+			"empty": {
+				"eng": "No forced blocks on this player",
+				"trans": "Hráč nemá žiadne vynútené bloky"
+			},
+			"expires": {
+				"eng": "Expires",
+				"trans": "Vyprší"
+			},
+			"reason": {
+				"eng": "Reason",
+				"trans": "Dôvod"
+			},
+			"title": {
+				"eng": "Forced Blocks (Mod View)",
+				"trans": "Vynútené bloky (Mod zobrazenie)"
+			}
+		},
+		"unblock": {
+			"eng": "Unblock",
+			"trans": "Odblokovať"
+		}
+	},
 	"modal": {
+		"altPrevention": {
+			"autoLiftText": {
+				"eng": "This restriction lifts automatically once both accounts stop sharing the same network for a while.",
+				"trans": "Toto obmedzenie sa automaticky zruší, keď prestanú oboje účty používať rovnakú sieť na chvíľu."
+			},
+			"dismissButton": {
+				"eng": "I Understand",
+				"trans": "Chápu"
+			},
+			"explanation": {
+				"eng": "You and the recipient appear to share a device or network. To prevent multi-account abuse, interactions between linked accounts are restricted.",
+				"trans": "Zdá sa, že vy a príjemca zdieľajú zariadenie alebo sieť. Na zabránenie zneužívaniu viacerých účtov sú interakcie medzi spojenými účtami obmedzené."
+			},
+			"siblingsText": {
+				"eng": "Sharing a network with a real player (siblings, roommates)? You can send items via a trusted third-party.",
+				"trans": "Zdieľate sieť s reálnym hráčom (súrodenci, spolubydlúci)? Môžete položky poslať prostredníctvom dôveryhodnej tretej strany."
+			},
+			"title": {
+				"eng": "Action Blocked",
+				"trans": "Akcia zablokovaná"
+			},
+			"viewRules": {
+				"eng": "View Rules",
+				"trans": "Zobraziť pravidlá"
+			},
+			"warningText": {
+				"eng": "Accounts abusing multi-accounting may be suspended.",
+				"trans": "Účty zneužívajúce viacnásobné účty môžu byť pozastavené."
+			}
+		},
 		"block": {
 			"title": {
 				"eng": "Are you sure you want to block this player?",
@@ -8470,15 +8604,27 @@
 		},
 		"playerSearch": {
 			"noPlayerFound": {
-				"eng": "No player with named \"${search}\" found",
+				"eng": "No player named \"${search}\" found",
 				"trans": "Žiadny hráč s menom „${search} nebol nájdený“",
 				"vars": [
 					"search"
 				]
 			},
+			"placeholder": {
+				"eng": "Enter player name...",
+				"trans": "Zadajte meno hráča..."
+			},
 			"searchPlayerHint": {
 				"eng": "Enter player name to search",
 				"trans": "Zadajte meno hráča ktoré hladáťe"
+			},
+			"searching": {
+				"eng": "Searching...",
+				"trans": "Hľadám..."
+			},
+			"title": {
+				"eng": "Search Player",
+				"trans": "Hľadať hráča"
 			}
 		},
 		"promotion": {
@@ -9002,7 +9148,7 @@
 					"Welcome. What can I store for you?"
 				],
 				"trans": [
-					"Welcome. What can I store for you?",
+					"Vitajte. Čo môžem pre vás uložiť?",
 					"Hello. This is the safest place for your most precious items.",
 					"Lucky you! Here your items are in the safest place.",
 					"Welcome. Do you have something to deposit?",
@@ -9064,12 +9210,12 @@
 					"Stay online, stay strong, and stay true to yourself."
 				],
 				"trans": [
-					"Life is tough, but you're tougher. Keep fighting.",
-					"Stay strong, stay punk, and stay alive.",
-					"Remember, your worth is not defined by your struggles.",
-					"Don't let the system bring you down, rise up and rebel.",
-					"Stay connected to your inner self, and disconnect from the noise.",
-					"Stay online, stay strong, and stay true to yourself."
+					"Život je ťažký, ale ty si silnejší. Bojuj ďalej.",
+					"Ostaň silný, ostaň punk a ostať nažive.",
+					"Pamätaj si, tvoja hodnota nie je definovaná tvojimi súbojmi.",
+					"Nenechajte, aby ho zničil, vstávajte a vzdorujte.",
+					"Udržiavajte kontakt so svojím vnútorným ja a odpojte sa od hluku.",
+					"Zostaň online, zostaň silný a zostaň verný sebe."
 				]
 			},
 			"name": {
@@ -9083,7 +9229,7 @@
 					"Hey kid, wanna make some quick bucks?"
 				],
 				"trans": [
-					"Hey kid, wanna make some quick bucks?"
+					"Hej, chlapec, chceš si zarobiť rýchlo?"
 				]
 			},
 			"name": {
@@ -9109,10 +9255,11 @@
 					"Who needs chimney when you can just punch through the wall?"
 				],
 				"trans": [
-					"Ho ho ho, choom! Ready to trade your loot for some holiday cheer?",
-					"My eyes are up here, little man.",
+					"Ho ho ho, choom! Chceš si vymeniť svoje zvyšky za novoročné veselie?",
+					"Moje oči sú tu hore, malý muž.",
 					"Ho ho ho! The Animals want to rule the streets, but they’ll never outlift me.",
-					"Ho ho hold up—do you even lift, little man?"
+					"Ho ho, počkaj—ešte sa budete trénovať, malý chlap?",
+					"Kto potrebuje komín, keď sa dá prebodnúť cez stenu?"
 				]
 			},
 			"name": {
@@ -9134,7 +9281,7 @@
 					"Hi! Donate to get cosmetic perks and to help support Free-to-Win games like this one!"
 				],
 				"trans": [
-					"Hi! Donate to get cosmetic perks and to help support Free-to-Win games like this one!",
+					"Ahoj! Donujte, aby ste získali kozmetické bonusy a podporili hry zadarmo na výhru, ako je táta!",
 					"Have you considered making a monthly donation?",
 					"Nice to see you, what is it you require?",
 					"Want to stand out from the crowd? Maybe grab a subscription.",
@@ -9178,11 +9325,11 @@
 					"The fusion process is irreversible, but the rewards are worth it, most of the time at least."
 				],
 				"trans": [
-					"Got some epic gear collecting dust? I can turn that into something useful.",
-					"Three pieces of epic equipment you no longer need? one guaranteed shard. That's the deal.",
-					"Welcome to the fusion hub, where old gear becomes new possibilities.",
-					"One man's trash is another's treasure, choom. I can turn your unwanted gear into diamonds.",
-					"The fusion process is irreversible, but the rewards are worth it, most of the time at least."
+					"Máš nejakú epickú výbavu, ktorá ti leží? Mám ju premeniť na niečo užitočné.",
+					"Tri kusy epického vybavenia, ktoré už nepotrebujete? O jednom garantovanom kuse. To je dohoda.",
+					"Vitajte v fúznom uzle, kde sa staré vybavenie mení na nové možnosti.",
+					"Čo niekomu je odpad, tomu niekomu je poklad, kolega. Môžem tvoje nepotrebné vybavenie zmeniť na diamanty.",
+					"Proces zlúčenia je neodvratný, ale odmeny stoja za to, aspoň väčšinou."
 				]
 			},
 			"name": {
@@ -9208,7 +9355,7 @@
 					"Insert a Calibration Core into the machine, and I shall help you calibrate any of your equipment."
 				],
 				"trans": [
-					"Insert a Calibration Core into the machine, and I shall help you calibrate any of your equipment.",
+					"Vložte kalibračné jadro do stroja a ja vám pomôžem kalibrovať vaše vybavenie.",
 					"I'll help you calibrate your equipment, but it ain't my problem if it's destroyed in the process.",
 					"My eyes are up here, bud—and so's my gun.",
 					"You feelin' lucky? Go ahead and give the machine a try.",
@@ -9244,17 +9391,17 @@
 					"They say I'm too distracted by dancing to work... but somehow everything gets installed perfectly!"
 				],
 				"trans": [
-					"You think furniture is heavy? I install entire apartment rigs between sets at the gym.",
-					"Bring me your kits, choom. I'll have them assembled faster than you can say 'do you even lift?'",
-					"Looking preem today! Almost as good as this quantum learning pod I just installed with one hand.",
-					"These muscles aren't just for show, friend. Watch me carry your entire bedroom set up six flights of stairs.",
-					"Installation instructions? Never heard of them. I just flex and the furniture assembles itself.",
-					"Your apartment will look nova, almost as amazing as these chrome biceps. Almost.",
-					"Need help moving that couch? Please, I bench press cargo containers for fun.",
-					"I could dance circles around these assembly tasks. Want to see my moves?",
-					"Installation is like a dance, choom, and I'm the best dancer in town. Watch me work!",
-					"Some people need tools. I just need rhythm and these guns. *flexes while dancing*",
-					"They say I'm too distracted by dancing to work... but somehow everything gets installed perfectly!"
+					"Myslíš, že je nábytok ťažký? Ja inštalujem celé bytové zariadenia medzi sériami v telocvični.",
+					"Prinesie mi svoje sady, kolega. Sestavím ich rýchlejšie, než by si zmenil tvar",
+					"Dnes vyznám skvele! Takmer tak dobrý ako tá kvantová kapsula na učenie, ktorú som práve nainštaloval jednou rukou.",
+					"Tieto svaly nie sú len na okázanie, kamarát. Uvidíte, ako prenesiem celý váš izbový nábytok pošesnosestre na siedmich poschodí.",
+					"Inštrukcie na inštaláciu? Neznám to. Len sa krátím a nábytok sa sám sestaví.",
+					"Tvoje byty budú vyzerať nové, takmer ako tieto chromové bicepsy. Takmer.",
+					"Potrebuješ pomôcť s tým gaučom? Prosím, ja si zdvihám nákladné kontajnery pre zábavu.",
+					"Môžem sa týchto úloh zblázniť. Chcete vidieť, ako to robím?",
+					"Inštalácia je ako tanec, kámo, a ja som najlepší tanečník v meste. Pozrite sa, ako to robím!",
+					"Niektorí ľudia potrebujú nástroje. Ja potrebujem len rytmus a tieto zbrane. *napína svaly pri tanci*",
+					"Hovoria, že som príliš rozptyľovaný tancom, aby som sa dokázal venovať práci... ale nejak sa všetko inštaluje dokonalé!"
 				]
 			},
 			"name": {
@@ -9276,10 +9423,11 @@
 					"Give me your seeds, and I will give you a treat!"
 				],
 				"trans": [
-					"Pumpkin is my source of power!",
-					"Check out my pumpkin costume!",
-					"Hmmmm, I wonder what's inside this pumpkin...",
-					"Give me your pumpkin, and I'll give you a treat!"
+					"Tekvica je môj zdroj sily!",
+					"Pozrite si moj tekvicový kostým!",
+					"Hmmmm, čo by sa dalo nájsť v tej tekvice...",
+					"Give me your pumpkin, and I'll give you a treat!",
+					"Daj mi svoje semienka a ja ti dám odmenu"
 				]
 			},
 			"name": {
@@ -9297,7 +9445,7 @@
 					"Welcome, our family is always excited to help you find the perfect tech gear."
 				],
 				"trans": [
-					"Welcome, our family is always excited to help you find the perfect tech gear."
+					"Vitajte, v našej rodine sme vždy radi vám pomôžu nájsť dokonalé tech vybavenie."
 				]
 			},
 			"name": {
@@ -9319,11 +9467,11 @@
 					"The New Year's celebration won't wait forever, let's go!"
 				],
 				"trans": [
-					"Ready to light up the night? The countdown's about to begin!",
-					"Perfect timing is everything in fireworks, choom.",
-					"I've got the best pyrotechnics this side of Night City!",
-					"Wanna see some real fireworks? Show me what you've got!",
-					"The New Year's celebration won't wait forever, let's go!"
+					"Sme pripravení osvietiť noc? Odpočet sa blíži!",
+					"Presný čas je pri ohňostrojoch všetko, kámoš.",
+					"Mám tu najlepšie pyrotechniky v tejto časti Night City!",
+					"Chceš vidieť skutočné ohňostroje? Ukaž mi, čo máš!",
+					"Novoročné oslavy sa neodkladajú, pojďme!"
 				]
 			},
 			"name": {
@@ -9349,11 +9497,11 @@
 					"Hey, choomba! Here to plan another blockbuster event? Let's dive in!"
 				],
 				"trans": [
-					"Hey choom, ready to chip in for the next 24-hour global party? We're just a few units short!",
-					"Ready to make an impact? Your contribution could launch the biggest party on the grid!",
-					"Looking to start the party? We're pooling funds now for a round-the-clock celebration.",
+					"Ahoj kolega, pripravený pridať na ďalšiu globálnu 24hodinovú párty? Chýba nám len pár jednotiek!",
+					"Máš to v sebe? S tvojou pomocou môžeme vytvoriť najväčšiu partiu na sieti!",
+					"Chceš začať párty? Sme teraz v kolektíve na celodennú oslavu.",
 					"If you’re aiming to see the city light up, help us fill the party meter. Every bit counts!",
-					"Hey, choomba! Here to plan another blockbuster event? Let's dive in!"
+					"Čau, kámoš! Tu na plánovanie ďalšieho veľkolepého projektu? Pustíme sa do toho!"
 				]
 			},
 			"name": {
@@ -9375,11 +9523,11 @@
 					"Cyberdeck in hand, heart on sleeve? Our critters need that daily touch or they'll fade into the static."
 				],
 				"trans": [
-					"Hey, choom! Neon Paws is for the brave. These sprites need your daily grind. Ready to dive in?",
-					"Lookin' sharp, netrunner! Here, pets are more than code, they need your daily hack to thrive.",
-					"What's up, street samurai? Partner with a survivor. Without your daily deeds, they're zeroed.",
-					"Edge runner, eh? This is where tech meets heart. Ignore them, and they vanish into the net. Daily care, got it?",
-					"Cyberdeck in hand, heart on sleeve? Our critters need that daily touch or they'll fade into the static."
+					"Ahoj, kámo! Neon Paws je pre odvážnych. Tieto sprity potrebujú tvoju dennú prácu. Chceš sa ponoriť?",
+					"Výborný vzhľad, netrunner! Tu sú zvieratá viac ako kód, potrebujú vaše každodenné hacknutie, aby prežili.",
+					"Čo sa deje, uličný samuraj? Spriatel sa s preživším. Bez tvojich každodenných činov sú nulované.",
+					"Kibernetický bežec, hej? Tu sa stretáva technika so srdcom. Ignoruj ich a zmiznú v sieti. Denná údržba, chápeš?",
+					"Cyberdeck v rukách, srdce na viditeľnom mieste? Našim zvieratám potrebujete každodenný kontakt, inak zmiznú v šume."
 				]
 			},
 			"name": {
@@ -9397,7 +9545,7 @@
 					"I'll print whatever you want if you have the cache!"
 				],
 				"trans": [
-					"I'll print whatever you want if you have the cache!",
+					"Vytlačím ti všetko, čo chceš, ak máš cache",
 					"Show me the cache and I will show you the result!",
 					"Please, tell me you have some Epic cache with you.",
 					"Welcome. I hope you are a customer...",
@@ -9459,6 +9607,38 @@
 				"trans": "Automatický recyklovač"
 			}
 		},
+		"sakuraDog": {
+			"defaultLines": {
+				"eng": [
+					"woof woof",
+					"bark bark bark",
+					"woof woof, **scratch scratch**",
+					"*yawns*",
+					"*snif snif*",
+					"I know what you did.",
+					"Such hack. Much cyber. Wow",
+					"what da dog doin?"
+				],
+				"trans": [
+					"Haf haf",
+					"haf haf haf",
+					"haf haf, škrab škrab",
+					"zahýba",
+					"*fuka fuka*",
+					"Viem, čo si urobil.",
+					"Taký hack. Veľa cyberu. Wow",
+					"Čo ten pes robí?"
+				]
+			},
+			"name": {
+				"eng": "Shiba Shrine",
+				"trans": "Svätynia Šiba"
+			},
+			"npcName": {
+				"eng": "Mochi",
+				"trans": "Mochi"
+			}
+		},
 		"storageMerchant": {
 			"canAccessError": {
 				"eng": "You need to be at least level 10 to access merchant",
@@ -9511,7 +9691,7 @@
 					"Hey kid... Come check out my goods."
 				],
 				"trans": [
-					"Hey kid... Come check out my goods.",
+					"Hej, chlapček, pozrite si to, čo tu mám.",
 					"Hurting? You've come to the right place.",
 					"We've got the cheap stuff and the good stuff, kid.",
 					"Have you heard about the street angel?",
@@ -9561,7 +9741,7 @@
 					"I'll help you to progress to the next area!"
 				],
 				"trans": [
-					"I'll help you to progress to the next area!",
+					"Pomôžem ti postúpiť na ďalšiu oblasť!",
 					"I can tap on the knowledge of the whole world... and yet I'm treated as a cookbook.",
 					"My daughter's name is not Mithra! Stop making fun of her!",
 					"Are you prepared?",
@@ -9595,7 +9775,7 @@
 					"We also have Eternal Bond Rings for those looking to unite with their partner forever."
 				],
 				"trans": [
-					"Do you want to buy Units, or use your Units?",
+					"Chceš kúpiť Jednotky, alebo ich použiť?",
 					"Thanks for checking the store out.",
 					"Did you know that the S.A.T. was in a developmental phase for a long time?",
 					"We just got a new stock of S.A.T.'s. Interested in getting one?",
@@ -9633,7 +9813,7 @@
 					"You will find the best gear here, trust me."
 				],
 				"trans": [
-					"You will find the best gear here, trust me.",
+					"Tu nájdeš najlepšie vybavenie, ver mi.",
 					"I can help you if you give me some BitCoin.",
 					"I can repair your equipment... for a price.",
 					"What do you want, stranger?",
@@ -10251,6 +10431,10 @@
 			}
 		},
 		"giveCred": {
+			"associatedError": {
+				"eng": "You cannot give street cred to an associated account",
+				"trans": "Nemôžete preniesť street cred na pripojený účet"
+			},
 			"cooldownError": {
 				"eng": "You cannot give street cred yet (once every day)",
 				"trans": "Zatiaľ nemôžete dať pouličnému kreditu (raz za každý deň)"
@@ -10267,7 +10451,7 @@
 				"trans": "Musíte byť úroveň 10 alebo viac, aby ste dali hráčovi ulicu kredit"
 			},
 			"success": {
-				"eng": "You have given daily street cred.",
+				"eng": "Daily street cred reward have been sent to your item inbox",
 				"trans": "Dali ste Daily Street Cred."
 			}
 		},
@@ -11769,6 +11953,14 @@
 				"playerCount",
 				"skipTime",
 				"credButton"
+			]
+		},
+		"eventSkipReward": {
+			"eng": "Lucky! You received the \"${emblemName}\" emblem from the ${eventName} event skip reward!",
+			"trans": "Páčilo sa ti! Prijal si odznak \"${emblemName}\" z odmeny za preskočenie udalosti \"${eventName}\"!",
+			"vars": [
+				"emblemName",
+				"eventName"
 			]
 		},
 		"firstTimeAnnouncement": {
@@ -13664,6 +13856,10 @@
 						"trans": "Kúpte znak?"
 					}
 				},
+				"exclusive": {
+					"eng": "Exclusive",
+					"trans": "Exkluzívny"
+				},
 				"limitedEdition": {
 					"eng": "Limited Edition",
 					"trans": "Limitovaná edícia"
@@ -13671,6 +13867,10 @@
 				"owned": {
 					"eng": "owned",
 					"trans": "vlastný"
+				},
+				"unobtainableToast": {
+					"eng": "This exclusive emblem cannot be purchased.",
+					"trans": "Tento výlučný emblém nie je kúpiteľný."
 				}
 			}
 		},
