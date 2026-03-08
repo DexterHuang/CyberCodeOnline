@@ -16,6 +16,20 @@ Please send your feedback to my Discord or email me directly.
 
 ## Updates
 
+### 0.1889
+
+- **Sakura Festival**:
+  - During the event, `Sakura Petal` can drop from AFK bot farming and dungeon chests
+  - Chat during the event for a chance to receive `Sakura Petal` rewards
+  - Calibration contribution receives up to 5% discount for early contributors
+  - Exchange `Sakura Petal` with `Mochi` at `Shiba Shrine` for various items including `Soda Pop`, `Pet Toy`, and `Skip Discount Ticket`
+  - Giving daily street cred now sends a small random item reward to your item inbox
+  - During the event, skips have a rare chance to award the unobtainable `doge` emblem
+- Added `Cyberbloom` chat frame with matching profile styling, available during the Sakura Festival
+- Added profile preview to the chat frame gallery so you can preview how cosmetic tiers look on your profile before redeem
+- Updated the emblem list with clearer Owned, Limited, and unobtainable states
+- Fixed `Soda Pop` can now be used outside the Summer event until it expires
+
 ### 0.1888
 
 - **Lucky Dice** updates:
