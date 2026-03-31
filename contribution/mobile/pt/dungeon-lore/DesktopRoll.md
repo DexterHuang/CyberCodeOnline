@@ -1,4 +1,23 @@
-Enquanto hackeia o desktop de um cara aleatório, você encontra uma pasta suspeitamente chamada 'Não abra'.    Atrás dessa pasta você encontra,<br> outra pasta, <br> depois outra. <br> Até que finalmente, você encontra uma transcrição de áudio. <br> Uma antiga canção pré-singularidade começa a tocar. <br> Uma melodia estranhamente cativante sobre promessas de nunca abandonar alguém, nunca decepcionar, nunca fugir e nunca fazer chorar. <br> O cantor parece muito apaixonado por essas promessas. <br> Você percebe que está balançando a cabeça no ritmo sem querer.
+Enquanto hackeia o desktop de um cara aleatório, você encontra uma pasta suspeitamente chamada "Não abra". Por algum motivo, você abre. Dentro dela… outra pasta. Depois outra. E mais outra. Até que, no fundo de tudo, há um único arquivo de áudio. Ao dar play, um modão antigo — pré-singularidade — começa a tocar:
+<br>Cê já sabe como é
+<br>Eu não vou te deixar
+<br>Não vou te fazer chorar
+<br>Nem fugir, nem mentir
+<br>Nem te abandonar
+<br>
+<br>A gente se conhece faz tempo
+<br>Cê sabe o que eu sinto, eu sei o que cê sente
+<br>Então para de fingir que não vê
+<br>Eu só quero que cê entenda
+<br>
+<br>Eu não vou te largar
+<br>Não vou te decepcionar
+<br>Não vou sair correndo
+<br>Nem te deixar pra trás
+<br>
+<br>Nunca… nunca… nunca…
+<br>O refrão se repete. De novo. E de novo. E mais uma vez.
+<br>Quando você percebe, está balançando a cabeça no ritmo.
 
 `[palavrão]`
-<br>Você não tem certeza de qual era o objetivo do áudio. Parecia ser alguma música antiga de antes da singularidade. Seja o que for, desperdiçou 5 minutos do seu tempo.
+<br>Você não sabe ao certo qual era o objetivo daquilo. Parecia só um modão esquecido de antes da singularidade. Seja lá o que for… Desperdiçou 5 minutos do seu tempo.
