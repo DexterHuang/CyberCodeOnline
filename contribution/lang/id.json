@@ -41,6 +41,10 @@
 				"eventName"
 			]
 		},
+		"bonusUnits": {
+			"eng": "Bonus Units",
+			"trans": "Unit Bonus"
+		},
 		"currency": {
 			"paypalExclusive": {
 				"eng": "PayPal Exclusive!",
@@ -1788,6 +1792,10 @@
 			"eng": "Got it",
 			"trans": "Paham!"
 		},
+		"max": {
+			"eng": "MAX",
+			"trans": "MAX"
+		},
 		"owned": {
 			"eng": "Owned",
 			"trans": "Dimiliki"
@@ -1796,9 +1804,17 @@
 			"eng": "Purchase",
 			"trans": "Beli"
 		},
+		"retry": {
+			"eng": "RETRY CONNECTION",
+			"trans": "Hubungkan kembali"
+		},
 		"save": {
 			"eng": "Save",
 			"trans": "Simpan"
+		},
+		"warning": {
+			"eng": "Warning",
+			"trans": "Peringatan"
 		}
 	},
 	"component": {
@@ -2408,6 +2424,10 @@
 			"eng": "Cybernetic Potato",
 			"trans": "Cybernetik kentang"
 		},
+		"donation50": {
+			"eng": "Netrunner",
+			"trans": "Netrunner"
+		},
 		"donation6": {
 			"eng": "Prestige",
 			"trans": "Prestise"
@@ -2676,6 +2696,10 @@
 				"eng": "DUMPLING MASTER",
 				"trans": "PAKAR PANGSI!"
 			},
+			"noRewards": {
+				"eng": "NO REWARDS RECORDED",
+				"trans": "TIDAK ADA HADIAH TERCATAT"
+			},
 			"rewards": {
 				"eng": "MISSION REWARDS",
 				"trans": "Hadiah"
@@ -2943,31 +2967,17 @@
 		}
 	},
 	"easterPromo": {
-		"desc1": {
-			"eng": "Spring has arrived, and it's time for the Easter celebration! Hunt for hidden chocolate bunnies throughout the game.",
-			"trans": "Musim semi sudah di sini! Saatnya ikut meriahnya Paskah! Buru kelinci cokelat tersembunyi di seluruh game, yuk!"
-		},
-		"dropBenefit1": {
-			"eng": "Enemies and AFK farming have a chance to drop ${item}!",
-			"trans": "Musuh dan AFK farming punya kesempatan memberikan drop ${item}!",
-			"vars": [
-				"item"
-			]
-		},
-		"smallDesc": {
-			"eng": "Find ${item} for EXP boosts!",
-			"trans": "Buruan cari ${item} biar EXP-nya naik!",
-			"vars": [
-				"item"
-			]
-		},
-		"specialBenefits": {
-			"eng": "Special Event Benefits:",
-			"trans": "Benefit Event spesial:"
-		},
 		"title": {
 			"eng": "Easter Celebration",
 			"trans": "Pesta Paskah"
+		},
+		"tokenDesc": {
+			"eng": "Spring has arrived, and it's time for the Easter celebration! Hunt for ${item} throughout the game and trade them at ${npcName}'s spring market.",
+			"trans": "Musim semi telah tiba, saatnya perayaan Paskah! Temukan ${item} di seluruh game dan tukarkan di pasar musim semi milik ${npcName}.",
+			"vars": [
+				"item",
+				"npcName"
+			]
 		}
 	},
 	"emblems": {
@@ -3777,6 +3787,10 @@
 		},
 		"easter": {
 			"eng": "Easter",
+			"springPop": {
+				"eng": "Spring Pop",
+				"trans": "Semarak Musim Semi"
+			},
 			"trans": "Paskah Cyberpunk"
 		},
 		"halloween": {
@@ -4975,6 +4989,26 @@
 				"trans": "Token Dungeon"
 			}
 		},
+		"easterEventPass": {
+			"description": {
+				"eng": "A special pass required to participate in the Spring Pop event game. Can be found in Dungeon Chests or from AFK farming during the Easter event.",
+				"trans": "Pass khusus yang diperlukan untuk berpartisipasi dalam event game Spring Pop. Dapat ditemukan di Peti Dungeon atau melalui AFK farming selama event Easter."
+			},
+			"name": {
+				"eng": "Easter Event Pass",
+				"trans": "Pass Event Paskah"
+			}
+		},
+		"easterToken": {
+			"description": {
+				"eng": "Cracked shell fragments stamped with Eggbert's spring market seal. Trade them in for Easter event supplies before the season ends.",
+				"trans": "Serpihan cangkang retak berstempel segel pasar musim semi Eggbert. Tukarkan dengan perlengkapan event Paskah sebelum musim berakhir."
+			},
+			"name": {
+				"eng": "Egg Shell Token",
+				"trans": "Token Cangkang Telur"
+			}
+		},
 		"energyCell": {
 			"desc": {
 				"eng": "Miniaturized fusion cell designed to power apartment furniture systems. Extracted from crashed corporate drones along Crystal Sands before cleanup crews arrive.",
@@ -5681,6 +5715,26 @@
 			"name": {
 				"eng": "Rare Equipment Crate",
 				"trans": "Peti Peralatan Langka"
+			}
+		},
+		"reclamationDepotVoucherHigh": {
+			"desc": {
+				"eng": "Voucher used for reclamation depot redemption. This voucher maps to High tier rewards.",
+				"trans": "Voucher untuk penukaran di depot reklamasi. Voucher ini memberikan hadiah tier Tinggi."
+			},
+			"name": {
+				"eng": "High Reclamation Voucher",
+				"trans": "Voucher Pengambilan Tinggi"
+			}
+		},
+		"reclamationDepotVoucherLow": {
+			"desc": {
+				"eng": "Voucher used for reclamation depot redemption. This voucher maps to Low tier rewards.",
+				"trans": "Voucher untuk penukaran di depot reklamasi. Voucher ini memberikan hadiah tier rendah."
+			},
+			"name": {
+				"eng": "Low Reclamation Voucher",
+				"trans": "Voucher Reklamasi Rendah"
 			}
 		},
 		"rename": {
@@ -7710,10 +7764,6 @@
 				"eng": "Vow Phrase",
 				"trans": "Ungkapan Janji"
 			},
-			"vowPlaceholder": {
-				"eng": "Write your romantic vow here...",
-				"trans": "Tuliskan janji romantismu di sini..."
-			},
 			"vowTooLong": {
 				"eng": "Vow phrase must be 64 words or less",
 				"trans": "Frase janji harus tidak melebihi 64 kata"
@@ -8579,24 +8629,6 @@
 				}
 			}
 		},
-		"newbieTutorial": {
-			"closeButton": {
-				"title": {
-					"eng": "Close",
-					"trans": "Tutup"
-				}
-			},
-			"noShowToggle": {
-				"description": {
-					"eng": "You can see the full tutorial at Profile > Tutorial tab",
-					"trans": "Kamu dapat melihat tutorial lengkap di Profil> Tutorial Tab"
-				},
-				"label": {
-					"eng": "Don't show this again",
-					"trans": "Jangan tampilkan ini lagi"
-				}
-			}
-		},
 		"playerSearch": {
 			"noPlayerFound": {
 				"eng": "No player named \"${search}\" found",
@@ -8883,6 +8915,10 @@
 		"nextStageIn": {
 			"eng": "Next Stage in",
 			"trans": "Selanjutnya dalam"
+		},
+		"noRewards": {
+			"eng": "No rewards obtained.",
+			"trans": "Tidak ada hadiah didapatkan."
 		},
 		"pleaseWait": {
 			"eng": "Calculating rewards...",
@@ -9267,6 +9303,28 @@
 				"trans": "Jika kamu suka game ini, pertimbangkan untuk donasi :)"
 			}
 		},
+		"easter": {
+			"defaultLines": {
+				"eng": [
+					"I'm Eggbert, and I've got an egg-cellent challenge for you.",
+					"Fancy a round of Spring Pop? Match those eggs before time runs out!",
+					"Stay sharp, don't crack under pressure, and let's get popping."
+				],
+				"trans": [
+					"Kenalin, gue Eggbert, dan ada tantangan mantap buat lo.",
+					"Mau main satu ronde Spring Pop? Cocokkan telur-telurnya sebelum waktu habis!",
+					"Jangan lengah, jangan sampai ciut karena tekanan, dan ayo kita beraksi!"
+				]
+			},
+			"name": {
+				"eng": "Eggbert",
+				"trans": "Eggbert"
+			},
+			"npcName": {
+				"eng": "Eggbert",
+				"trans": "Eggbert"
+			}
+		},
 		"equipmentExchange": {
 			"canAccessError": {
 				"eng": "You need to be at least level 15 to access the Equipment Exchange",
@@ -9499,6 +9557,16 @@
 			"tut": {
 				"eng": "You can use your Cache to print new equipment here",
 				"trans": "Kamu dapat menggunakan Cache untuk mencetak perlengkapan yang baru di sini"
+			}
+		},
+		"reclamationDepot": {
+			"description": {
+				"eng": "Exchange items for vouchers and redeem vouchers for pooled rewards.",
+				"trans": "Tukarkan item menjadi voucher, lalu klaim voucher tersebut untuk hadiah yang terkumpul."
+			},
+			"name": {
+				"eng": "Reclamation Depot",
+				"trans": "Depot Pemulihan"
 			}
 		},
 		"recycleMachine": {
@@ -11088,6 +11156,304 @@
 			"trans": "Fabrikasi Molekuler"
 		}
 	},
+	"reclamationDepot": {
+		"addStack": {
+			"eng": "Add Stack",
+			"trans": "Tambah Tumpukan"
+		},
+		"addStackHint": {
+			"eng": "Open picker",
+			"trans": "Buka pemilih"
+		},
+		"allItemsQueued": {
+			"eng": "All eligible stacks are already queued",
+			"trans": "Semua stack layak sudah masuk antrean"
+		},
+		"confirmDonateBtn": {
+			"eng": "CONFIRM DONATE",
+			"trans": "KONFIRMASI DONASI"
+		},
+		"confirmInlineDesc": {
+			"eng": "This will donate ${count} selected stack(s) and cannot be undone.",
+			"trans": "Ini akan mendonasikan ${count} stack terpilih dan tidak dapat dibatalkan.",
+			"vars": [
+				"count"
+			]
+		},
+		"confirmInlineTitle": {
+			"eng": "Confirm Batch Donation",
+			"trans": "Konfirmasi Donasi Sekaligus"
+		},
+		"donate": {
+			"levelBadge": {
+				"eng": "LVL ${level} REQUIRED",
+				"trans": "LEVEL ${level} DIBUTUHKAN",
+				"vars": [
+					"level"
+				]
+			},
+			"levelError": {
+				"eng": "Donation clearance not granted.",
+				"trans": "Otorisasi donasi gagal"
+			},
+			"levelRequirement": {
+				"eng": "Reach level ${level} to donate items to the reclamation depot.",
+				"trans": "Capai level ${level} untuk mendonasikan item ke depo reklamasi.",
+				"vars": [
+					"level"
+				]
+			},
+			"locked": {
+				"eng": "ACCESS DENIED (LVL ${level})",
+				"trans": "AKSES DITOLAK (LVL ${level})",
+				"vars": [
+					"level"
+				]
+			}
+		},
+		"donateBtn": {
+			"eng": "DONATE",
+			"trans": "Donasi"
+		},
+		"donateItemsCTA": {
+			"eng": "DONATE ITEMS",
+			"trans": "SUMBANGKAN ITEM"
+		},
+		"donateSuccessItem": {
+			"eng": "You have successfully donated ${items} and received ${voucherRewards}",
+			"trans": "Berhasil mendonasikan ${items} dan mendapatkan ${voucherRewards}",
+			"vars": [
+				"items",
+				"voucherRewards"
+			]
+		},
+		"donateSuccessNoItem": {
+			"eng": "You have successfully donated ${items}",
+			"trans": "Berhasil menyumbangkan ${items}",
+			"vars": [
+				"items"
+			]
+		},
+		"donateTitle": {
+			"eng": "Donate Items",
+			"trans": "Donasi Item"
+		},
+		"eligibleCount": {
+			"eng": "${count} available",
+			"trans": "${count} tersedia",
+			"vars": [
+				"count"
+			]
+		},
+		"emptySlotHint": {
+			"eng": "Tap to choose a donation stack",
+			"trans": "Ketuk untuk memilih tumpukan donasi"
+		},
+		"emptySlotTitle": {
+			"eng": "No Item Selected",
+			"trans": "Tidak ada item terpilih"
+		},
+		"error": {
+			"donateLevelRequirement": {
+				"eng": "You need to be at least level ${donateMinLevel} to donate",
+				"trans": "Minimal level ${donateMinLevel} diperlukan untuk donasi"
+			},
+			"levelLow": {
+				"eng": "Level ${level} required to redeem",
+				"trans": "Perlu Level ${level} untuk klaim",
+				"vars": [
+					"level"
+				]
+			},
+			"levelRequirement": {
+				"eng": "You need to be at least level ${minLevel} to redeem",
+				"trans": "Minimal level ${minLevel} untuk klaim"
+			},
+			"noPooledItems": {
+				"eng": "Selected tier has no pooled items. Your voucher was not consumed",
+				"trans": "Tidak ada item tersedia di tier ini. Voucher Anda tetap utuh"
+			},
+			"outOfStock": {
+				"eng": "Selected pool item is out of stock. Your voucher was not consumed",
+				"trans": "Item pool yang dipilih habis. Voucher Anda tidak berkurang"
+			}
+		},
+		"footerSelectedStacks": {
+			"eng": "Selected stacks: ${count}",
+			"trans": "Tumpukan terpilih: ${count}",
+			"vars": [
+				"count"
+			]
+		},
+		"footerTotalConsume": {
+			"eng": "Total consume: ${count}",
+			"trans": "Total konsumsi: ${count}",
+			"vars": [
+				"count"
+			]
+		},
+		"heroDesc": {
+			"eng": "Donate your surplus equipment to the community pool. ",
+			"trans": "Donasikan peralatan berlebih Anda ke simpanan bersama komunitas"
+		},
+		"heroTitle": {
+			"eng": "ASSET RECLAMATION",
+			"trans": "PENGAMBILAN ASET"
+		},
+		"itemCol": {
+			"eng": "Item",
+			"trans": "Barang"
+		},
+		"noEligibleInventory": {
+			"eng": "No eligible stacks found in cargo",
+			"trans": "Tidak ditemukan tumpukan yang sesuai di kargo"
+		},
+		"noEligibleItems": {
+			"eng": "No eligible items to donate.",
+			"trans": "Tidak ada item layak donasi."
+		},
+		"ownedVouchers": {
+			"eng": "VOUCHERS:",
+			"trans": "VOUCHER:"
+		},
+		"pickerMaxUnits": {
+			"eng": "Max units: ${count}",
+			"trans": "Maks. unit: ${count}",
+			"vars": [
+				"count"
+			]
+		},
+		"pickerOwnedAmount": {
+			"eng": "Owned: ${amount}",
+			"trans": "Milik: ${amount}",
+			"vars": [
+				"amount"
+			]
+		},
+		"pickerTitle": {
+			"eng": "Select Donation Stack",
+			"trans": "Pilih Tumpukan Donasi"
+		},
+		"qtyCol": {
+			"eng": "Qty",
+			"trans": "Jumlah"
+		},
+		"redeem": {
+			"awaitingSelection": {
+				"eng": "Select a tier above to continue.",
+				"trans": "Pilih tier di atas untuk melanjutkan."
+			},
+			"awaitingSelectionBtn": {
+				"eng": "AWAITING SELECTION",
+				"trans": "Menunggu Pilihan"
+			},
+			"emptyPoolErr": {
+				"eng": "The community pool is empty for this tier.",
+				"trans": "Pool komunitas untuk tier ini sudah kosong."
+			},
+			"emptyPoolError": {
+				"eng": "Pool is empty for this tier.",
+				"trans": "Tidak ada item tersedia di tier ini."
+			},
+			"emptyStock": {
+				"eng": "STOCK DEPLETED",
+				"trans": "Stok habis"
+			},
+			"executeMultiple": {
+				"eng": "REDEEM ${amount} VOUCHERS",
+				"trans": "TUKARKAN ${amount} VOUCHER",
+				"vars": [
+					"amount"
+				]
+			},
+			"executeSingle": {
+				"eng": "REDEEM 1 VOUCHER",
+				"trans": "TUKARKAN 1 VOUCHER"
+			},
+			"inboxWarning": {
+				"eng": "Rewards will be sent to your item inbox.",
+				"trans": "Hadiah akan dikirim ke inbox item Anda."
+			},
+			"levelError": {
+				"eng": "Insufficient clearance level.",
+				"trans": "Level akses tidak mencukupi."
+			},
+			"loadingBtn": {
+				"eng": "SYNCING...",
+				"trans": "MENYINKRONKAN..."
+			},
+			"loadingPool": {
+				"eng": "CONNECTING TO DEPOT...",
+				"trans": "MENGHUBUNGKAN KE DEPOT..."
+			},
+			"locked": {
+				"eng": "ACCESS DENIED (LVL ${level})",
+				"trans": "AKSES DITOLAK (LVL ${level})",
+				"vars": [
+					"level"
+				]
+			},
+			"noVouchersBtn": {
+				"eng": "INSUFFICIENT VOUCHERS",
+				"trans": "VOUCHER TIDAK CUKUP"
+			},
+			"noVouchersErr": {
+				"eng": "No Vouchers available for this tier.",
+				"trans": "Voucher tidak tersedia untuk tier ini."
+			},
+			"processingBtn": {
+				"eng": "REDEEMING...",
+				"trans": "MENUKARKAN..."
+			},
+			"readyMultiple": {
+				"eng": "Ready to consume ${amount} vouchers.",
+				"trans": "Siap menukarkan ${amount} voucher.",
+				"vars": [
+					"amount"
+				]
+			},
+			"readySingle": {
+				"eng": "Ready to consume 1 voucher.",
+				"trans": "1 voucer siap digunakan."
+			},
+			"requestCount": {
+				"eng": "Request Count",
+				"trans": "Jumlah Permintaan"
+			},
+			"sectionTitle": {
+				"eng": "VOUCHER REDEMPTION",
+				"trans": "PENUKARAN VOUCHER"
+			},
+			"sentToInboxMultiple": {
+				"eng": "Redeemed ${amount} ${tier} vouchers. Rewards sent to your item inbox.",
+				"trans": "Berhasil menukarkan ${amount} voucher ${tier}. Hadiah dikirim ke kotak masuk item.",
+				"vars": [
+					"amount",
+					"tier"
+				]
+			},
+			"voucherMaxRequestCount": {
+				"eng": "Voucher Max ${amount}",
+				"trans": "Voucher Maksimal ${amount}",
+				"vars": [
+					"amount"
+				]
+			}
+		},
+		"row": {
+			"ownedOnly": {
+				"eng": "Owned: ${amount}",
+				"trans": "Milik: ${amount}",
+				"vars": [
+					"amount"
+				]
+			}
+		},
+		"totalCol": {
+			"eng": "Total Items",
+			"trans": "Total Item"
+		}
+	},
 	"referralPromo": {
 		"desc1": {
 			"eng": "Free Unit*",
@@ -11938,6 +12304,180 @@
 			"vars": [
 				"amount"
 			]
+		}
+	},
+	"springPop": {
+		"allStagesCleared": {
+			"eng": "All Stages Cleared!",
+			"trans": "Semua Tahap Selesai!"
+		},
+		"button": {
+			"subtitle": {
+				"eng": "TAP TO POP EGGS",
+				"trans": "KETUK UNTUK PECAHKAN TELUR"
+			},
+			"title": {
+				"eng": "SPRING POP",
+				"trans": "LETUPAN PEGAS"
+			}
+		},
+		"calculating": {
+			"eng": "Calculating rewards...",
+			"trans": "Menghitung hadiah..."
+		},
+		"combo": {
+			"eng": "COMBO",
+			"trans": "COMBO"
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The Easter event has ended!",
+				"trans": "Event Paskah telah berakhir!"
+			},
+			"noPass": {
+				"eng": "You need an Easter Event Pass to play! Find them in dungeon chests or from AFK farming.",
+				"trans": "Kamu butuh Easter Event Pass untuk bermain! Temukan di peti dungeon atau lewat AFK farming."
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "CLOSE",
+				"trans": "Tutup"
+			},
+			"message": {
+				"eng": "The game encountered an error. Don't worry - your Pass was not consumed!",
+				"trans": "Game mengalami error. Jangan khawatir - Pass Anda tidak terpotong!"
+			},
+			"title": {
+				"eng": "Game Error",
+				"trans": "Error Game"
+			}
+		},
+		"failedStage": {
+			"eng": "You didn't reach the target score for Stage ${stage} in time.",
+			"trans": "Gagal mencapai skor target di Stage ${stage} sebelum waktu habis.",
+			"vars": [
+				"stage"
+			]
+		},
+		"finish": {
+			"eng": "Finish",
+			"trans": "Selesai"
+		},
+		"goodEffort": {
+			"eng": "Good Effort!",
+			"trans": "Usaha yang bagus!"
+		},
+		"intro": {
+			"eventEnded": {
+				"eng": "EVENT ENDED",
+				"trans": "EVENT BERAKHIR"
+			},
+			"eventInactive": {
+				"eng": "Event is not currently active",
+				"trans": "Event tidak sedang berlangsung"
+			},
+			"howToGet": {
+				"eng": "Find passes in dungeon chests or from AFK farming during the event!",
+				"trans": "Dapatkan pass lewat peti dungeon atau AFK farming saat event!"
+			},
+			"howToPlay": {
+				"eng": "How to Play",
+				"trans": "Cara Bermain"
+			},
+			"needPass": {
+				"eng": "NEED PASS",
+				"trans": "BUTUH AKSES"
+			},
+			"passesOwned": {
+				"eng": "Passes Owned:",
+				"trans": "Pass Dimiliki:"
+			},
+			"rule1": {
+				"eng": "Tap groups of matching eggs to pop them",
+				"trans": "Ketuk kelompok telur yang sama untuk meletuskannya"
+			},
+			"rule2": {
+				"eng": "Larger groups = more points and combos",
+				"trans": "Kelompok lebih besar = lebih banyak poin dan combo"
+			},
+			"rule3": {
+				"eng": "Reach the target score before time runs out",
+				"trans": "Raih skor target sebelum waktu habis"
+			},
+			"rule4": {
+				"eng": "Watch out for Cracked Eggs — pop them before they turn to stone!",
+				"trans": "Waspadai Telur Retak — pecahkan sebelum membatu!"
+			},
+			"startButton": {
+				"eng": "START GAME",
+				"trans": "Mulai Game"
+			},
+			"title": {
+				"eng": "Spring Pop",
+				"trans": "Semarak Musim Semi"
+			}
+		},
+		"loading": {
+			"message": {
+				"eng": "Hiding the eggs...",
+				"trans": "Menyembunyikan telur..."
+			},
+			"title": {
+				"eng": "Loading Game...",
+				"trans": "Memuat Game..."
+			}
+		},
+		"nextStage": {
+			"eng": "Next Stage",
+			"trans": "Tahap Selanjutnya"
+		},
+		"noRewards": {
+			"eng": "No rewards obtained.",
+			"trans": "Tidak ada hadiah yang didapat."
+		},
+		"processing": {
+			"eng": "PROCESSING...",
+			"trans": "MEMPROSES..."
+		},
+		"rewards": {
+			"eng": "REWARDS",
+			"trans": "Hadiah"
+		},
+		"score": {
+			"eng": "SCORE",
+			"trans": "SKOR"
+		},
+		"stage": {
+			"eng": "STAGE",
+			"trans": "<level>\n</level>"
+		},
+		"stageCleared": {
+			"eng": "Stage ${stage} Cleared",
+			"trans": "Tahap ${stage} Selesai",
+			"vars": [
+				"stage"
+			]
+		},
+		"stageComplete": {
+			"eng": "Stage Complete!",
+			"trans": "Tahap Selesai!"
+		},
+		"stagesCompletedResult": {
+			"eng": "Completed ${completedStages}/${maxTier} Stages",
+			"trans": "Menyelesaikan ${completedStages}/${maxTier} Tahap",
+			"vars": [
+				"completedStages",
+				"maxTier"
+			]
+		},
+		"timeUp": {
+			"eng": "Time's Up!",
+			"trans": "Waktu Habis!"
+		},
+		"viewResults": {
+			"eng": "View Results",
+			"trans": "Lihat Hasil"
 		}
 	},
 	"statsType": {
@@ -13109,6 +13649,10 @@
 				"eng": "Daily Reward",
 				"trans": "Hadiah harian."
 			},
+			"links": {
+				"eng": "Links",
+				"trans": "Tautan"
+			},
 			"skipQueue": {
 				"eng": "Skip Queue",
 				"trans": "Antrian Skip"
@@ -13813,6 +14357,10 @@
 			},
 			"quickSlots": {
 				"eng": "Quick Slots",
+				"tip": {
+					"eng": "Assign usable items to Quick Slots for quick access during battle.",
+					"trans": "Pasang item yang dapat digunakan ke Quick Slot untuk akses cepat saat pertempuran."
+				},
 				"trans": "Slot Cepat"
 			}
 		},
@@ -13955,10 +14503,6 @@
 				"eng": "Leaderboard",
 				"trans": "Papan peringkat"
 			},
-			"links": {
-				"eng": "links",
-				"trans": "tautan"
-			},
 			"moderatorTools": {
 				"eng": "Mod Tools",
 				"trans": "Alat Moderator"
@@ -13966,6 +14510,10 @@
 			"premiumShop": {
 				"eng": "Premium Shop",
 				"trans": "Toko Premium"
+			},
+			"promo": {
+				"eng": "Promo",
+				"trans": "Promo"
 			},
 			"settings": {
 				"eng": "Settings",
@@ -14319,6 +14867,10 @@
 			"unlocked": {
 				"eng": "Unlocked",
 				"trans": "Kunci terbuka"
+			},
+			"upgradeModuleTip": {
+				"eng": "Upgrade modules enhance equipment stats; tap an empty slot to install one, or an installed module to remove it.",
+				"trans": "Modul upgrade meningkatkan status peralatan; ketuk slot kosong untuk memasang, atau ketuk modul yang sudah terpasang untuk melepasnya."
 			},
 			"upgradeModuleTitle": {
 				"eng": "upgrade slot ${index}",
@@ -15100,9 +15652,9 @@
 						"trans": "Berikan Reputasi Jalanan"
 					}
 				},
-				"title": {
-					"eng": "Tutorials",
-					"trans": "Tutorial"
+				"title2": {
+					"eng": "Miscellaneous",
+					"trans": "Lain-lain"
 				}
 			},
 			"globalParty": {
@@ -15148,6 +15700,20 @@
 					"eng": "Select min value",
 					"trans": "Pilih Nilai Minimal"
 				}
+			}
+		},
+		"reclamationDepot": {
+			"dataHeader": {
+				"eng": "SHARED POOL READOUT",
+				"trans": "Status Kumpulan Bersama"
+			},
+			"loadError": {
+				"eng": "Unable to load reclamation pool.",
+				"trans": "Gagal memuat pool reklamasi."
+			},
+			"poolUpdateNote": {
+				"eng": "// COUNTS UPDATED PERIODICALLY",
+				"trans": "/// Jumlah diperbarui secara berkala"
 			}
 		},
 		"register": {
@@ -15269,6 +15835,16 @@
 				"title": {
 					"eng": "Disable Victory Screen",
 					"trans": "Nonaktifkan layar kemenangan"
+				}
+			},
+			"disableWelcomeTutorial": {
+				"description": {
+					"eng": "Hide the first login welcome tutorial modal until you turn this back off",
+					"trans": "Sembunyikan tutorial selamat datang pada login pertama hingga opsi ini dimatikan kembali"
+				},
+				"title": {
+					"eng": "Disable Welcome Tutorial",
+					"trans": "Nonaktifkan Tutorial Selamat Datang"
 				}
 			},
 			"enableApartmentWall": {
@@ -15697,6 +16273,10 @@
 				"eng": "quests",
 				"trans": "pencarian"
 			},
+			"reclamationDepot": {
+				"eng": "Reclamation Depot",
+				"trans": "Depot Pemulihan"
+			},
 			"referral": {
 				"eng": "referral",
 				"trans": "rujukan"
@@ -15856,6 +16436,146 @@
 		"title": {
 			"eng": "Valentine Event",
 			"trans": "Acara Valentine"
+		}
+	},
+	"voucherTier": {
+		"high": {
+			"eng": "High",
+			"trans": "Tinggi"
+		},
+		"low": {
+			"eng": "Low",
+			"trans": "Rendah"
+		}
+	},
+	"welcome": {
+		"afk": {
+			"headline": {
+				"eng": "Progress While Offline",
+				"trans": "Progres Selama Offline"
+			},
+			"sentence": {
+				"eng": "Start a task before logging off to continue gathering resources and leveling up in the background.",
+				"trans": "Jalankan tugas sebelum logout untuk terus mengumpulkan sumber daya dan naik level di latar belakang."
+			}
+		},
+		"animation": {
+			"asset": {
+				"eng": "Asset",
+				"trans": "Aset"
+			},
+			"autotask": {
+				"eng": "AUTOTASK",
+				"trans": "TUGAS OTOMATIS"
+			},
+			"buy": {
+				"eng": "EXECUTE: BUY",
+				"trans": "EKSEKUSI: BELI"
+			},
+			"chat1": {
+				"eng": "LFG Abandoned Factory, need healer.",
+				"trans": "Cari tim Pabrik Terbengkalai, butuh healer."
+			},
+			"chat2": {
+				"eng": "Inv, I got medkits.",
+				"trans": "Inv, gue dapet medkit."
+			},
+			"chat3": {
+				"eng": "Global Buff Activated by Kael",
+				"trans": "Buff Global Diaktifkan oleh Kael"
+			},
+			"efficiency": {
+				"eng": "Efficiency",
+				"trans": "Efisiensi"
+			},
+			"price": {
+				"eng": "Lowest Price",
+				"trans": "Harga Terendah"
+			},
+			"reverse_engineering": {
+				"eng": "REVERSE_ENGINEERING",
+				"trans": "REKAYASA BALIK"
+			},
+			"system": {
+				"eng": "System:",
+				"trans": "Sistem:"
+			},
+			"waiting": {
+				"eng": "WAITING FOR ORDERS...",
+				"trans": "MENUNGGU PERINTAH..."
+			},
+			"yield_acquired": {
+				"eng": "YIELD ACQUIRED",
+				"trans": "HASIL DIDAPATKAN"
+			}
+		},
+		"cta": {
+			"done": {
+				"eng": "Start Playing",
+				"trans": "Mulai Bermain"
+			},
+			"next": {
+				"eng": "Next",
+				"trans": "Lanjut"
+			}
+		},
+		"economy": {
+			"headline": {
+				"eng": "Player-Driven Economy",
+				"trans": "Ekonomi Berbasis Pemain"
+			},
+			"sentence": {
+				"eng": "Every item in the market is crafted and traded by real players like you.",
+				"trans": "Semua item di pasar dirakit dan diperdagangkan oleh pemain sungguhan seperti kamu."
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "Continue",
+				"trans": "Lanjutkan"
+			},
+			"description": {
+				"eng": "Your character was created successfully. You can continue playing normally.",
+				"trans": "Karakter Anda berhasil dibuat. Anda dapat melanjutkan bermain seperti biasa."
+			},
+			"title": {
+				"eng": "Welcome Screen Failed to Load",
+				"trans": "Gagal Memuat Layar Selamat Datang"
+			}
+		},
+		"fairness": {
+			"headline": {
+				"eng": "Zero Pay-To-Win",
+				"trans": "Tanpa Pay-To-Win"
+			},
+			"sentence": {
+				"eng": "All premium buffs are shared globally across the server. When someone supports the game, the entire community benefits and progresses together.",
+				"trans": "Semua buff premium berlaku untuk seluruh server. Saat seseorang mendukung game ini, seluruh komunitas akan merasakan manfaat dan kemajuannya secara bersama-sama."
+			}
+		},
+		"loading": {
+			"title": {
+				"eng": "Initializing Welcome Sequence",
+				"trans": "Menginisialisasi Sekuens Sambutan"
+			}
+		},
+		"skip": {
+			"eng": "Skip",
+			"trans": "Lewati"
+		},
+		"splash": {
+			"connection": {
+				"eng": "// Connection Established",
+				"trans": "/// Koneksi Tersambung"
+			},
+			"sys_init": {
+				"eng": "Sys.Init_Seq.01",
+				"trans": "Sistem.Urutan_Inisialisasi.01"
+			},
+			"welcome": {
+				"eng": "Welcome To",
+				"trans": "Selamat Datang di"
+			}
 		}
 	}
 }

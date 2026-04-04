@@ -41,6 +41,10 @@
 				"eventName"
 			]
 		},
+		"bonusUnits": {
+			"eng": "Bonus Units",
+			"trans": "Unidades extra"
+		},
 		"currency": {
 			"paypalExclusive": {
 				"eng": "PayPal Exclusive!",
@@ -1788,6 +1792,10 @@
 			"eng": "Got it",
 			"trans": "Entendido"
 		},
+		"max": {
+			"eng": "MAX",
+			"trans": "Máximo"
+		},
 		"owned": {
 			"eng": "Owned",
 			"trans": "Poseído"
@@ -1796,9 +1804,17 @@
 			"eng": "Purchase",
 			"trans": "Comprar"
 		},
+		"retry": {
+			"eng": "RETRY CONNECTION",
+			"trans": "REINTENTAR CONEXIÓN"
+		},
 		"save": {
 			"eng": "Save",
 			"trans": "Guardar"
+		},
+		"warning": {
+			"eng": "Warning",
+			"trans": "Advertencia"
 		}
 	},
 	"component": {
@@ -2408,6 +2424,10 @@
 			"eng": "Cybernetic Potato",
 			"trans": "CiberPatata"
 		},
+		"donation50": {
+			"eng": "Netrunner",
+			"trans": "Netrunner"
+		},
 		"donation6": {
 			"eng": "Prestige",
 			"trans": "AntiVirus"
@@ -2676,6 +2696,10 @@
 				"eng": "DUMPLING MASTER",
 				"trans": "¡MAESTRO DE LOS DUMPLINGS!"
 			},
+			"noRewards": {
+				"eng": "NO REWARDS RECORDED",
+				"trans": "Sin recompensas registradas"
+			},
 			"rewards": {
 				"eng": "MISSION REWARDS",
 				"trans": "Recompensas"
@@ -2943,31 +2967,17 @@
 		}
 	},
 	"easterPromo": {
-		"desc1": {
-			"eng": "Spring has arrived, and it's time for the Easter celebration! Hunt for hidden chocolate bunnies throughout the game.",
-			"trans": "¡La primavera está aquí, y con ella la gran Fiesta de Pascua! Descubre los conejitos de chocolate ocultos por todo el juego."
-		},
-		"dropBenefit1": {
-			"eng": "Enemies and AFK farming have a chance to drop ${item}!",
-			"trans": "¡Los enemigos y la recolección AFK tienen la posibilidad de soltar ${item}!",
-			"vars": [
-				"item"
-			]
-		},
-		"smallDesc": {
-			"eng": "Find ${item} for EXP boosts!",
-			"trans": "¡Consigue ${item} y aumenta tu EXP!",
-			"vars": [
-				"item"
-			]
-		},
-		"specialBenefits": {
-			"eng": "Special Event Benefits:",
-			"trans": "Evento Épico: ¡Beneficios Exclusivos!"
-		},
 		"title": {
 			"eng": "Easter Celebration",
 			"trans": "Promo Pascua"
+		},
+		"tokenDesc": {
+			"eng": "Spring has arrived, and it's time for the Easter celebration! Hunt for ${item} throughout the game and trade them at ${npcName}'s spring market.",
+			"trans": "¡La primavera ha llegado y es hora de celebrar la Pascua! Busca ${item} por todo el juego e intercámbialos en el mercado primaveral de ${npcName}.",
+			"vars": [
+				"item",
+				"npcName"
+			]
 		}
 	},
 	"emblems": {
@@ -3777,6 +3787,10 @@
 		},
 		"easter": {
 			"eng": "Easter",
+			"springPop": {
+				"eng": "Spring Pop",
+				"trans": "Estallido Primaveral"
+			},
 			"trans": "Pascua: Edición Limitada"
 		},
 		"halloween": {
@@ -4975,6 +4989,26 @@
 				"trans": "Token de mazmorra"
 			}
 		},
+		"easterEventPass": {
+			"description": {
+				"eng": "A special pass required to participate in the Spring Pop event game. Can be found in Dungeon Chests or from AFK farming during the Easter event.",
+				"trans": "Pase especial necesario para participar en el juego del evento Spring Pop. Se puede encontrar en cofres de mazmorra o mediante farmeo AFK durante el evento de Pascua."
+			},
+			"name": {
+				"eng": "Easter Event Pass",
+				"trans": "Pase del Evento de Pascua"
+			}
+		},
+		"easterToken": {
+			"description": {
+				"eng": "Cracked shell fragments stamped with Eggbert's spring market seal. Trade them in for Easter event supplies before the season ends.",
+				"trans": "Fragmentos de cáscara agrietada estampados con el sello del mercado de primavera de Eggbert. Canjéalos por suministros del evento de Pascua antes de que termine la temporada."
+			},
+			"name": {
+				"eng": "Egg Shell Token",
+				"trans": "Token de cáscara de huevo"
+			}
+		},
 		"energyCell": {
 			"desc": {
 				"eng": "Miniaturized fusion cell designed to power apartment furniture systems. Extracted from crashed corporate drones along Crystal Sands before cleanup crews arrive.",
@@ -5681,6 +5715,26 @@
 			"name": {
 				"eng": "Rare Equipment Crate",
 				"trans": "Caja de equipos raros"
+			}
+		},
+		"reclamationDepotVoucherHigh": {
+			"desc": {
+				"eng": "Voucher used for reclamation depot redemption. This voucher maps to High tier rewards.",
+				"trans": "Vale para el canje en el depósito de recuperación. Este vale corresponde a recompensas de nivel alto."
+			},
+			"name": {
+				"eng": "High Reclamation Voucher",
+				"trans": "Vale de Recuperación Superior"
+			}
+		},
+		"reclamationDepotVoucherLow": {
+			"desc": {
+				"eng": "Voucher used for reclamation depot redemption. This voucher maps to Low tier rewards.",
+				"trans": "Vale para canje en el depósito de recuperación. Este vale corresponde a recompensas de nivel bajo."
+			},
+			"name": {
+				"eng": "Low Reclamation Voucher",
+				"trans": "Vale de reclamación bajo"
 			}
 		},
 		"rename": {
@@ -7710,10 +7764,6 @@
 				"eng": "Vow Phrase",
 				"trans": "Frase de Voto"
 			},
-			"vowPlaceholder": {
-				"eng": "Write your romantic vow here...",
-				"trans": "Escribe aquí tu juramento romántico…"
-			},
 			"vowTooLong": {
 				"eng": "Vow phrase must be 64 words or less",
 				"trans": "La frase del juramento debe tener 64 palabras o menos"
@@ -8579,24 +8629,6 @@
 				}
 			}
 		},
-		"newbieTutorial": {
-			"closeButton": {
-				"title": {
-					"eng": "Close",
-					"trans": "Cerrar"
-				}
-			},
-			"noShowToggle": {
-				"description": {
-					"eng": "You can see the full tutorial at Profile > Tutorial tab",
-					"trans": "Puedes ver el tutorial completo en la pestaña de: Perfil > Tutoriales."
-				},
-				"label": {
-					"eng": "Don't show this again",
-					"trans": "No mostrar esto de nuevo"
-				}
-			}
-		},
 		"playerSearch": {
 			"noPlayerFound": {
 				"eng": "No player named \"${search}\" found",
@@ -8883,6 +8915,10 @@
 		"nextStageIn": {
 			"eng": "Next Stage in",
 			"trans": "Siguiente etapa en"
+		},
+		"noRewards": {
+			"eng": "No rewards obtained.",
+			"trans": "No se obtuvieron recompensas."
 		},
 		"pleaseWait": {
 			"eng": "Calculating rewards...",
@@ -9267,6 +9303,28 @@
 				"trans": "Si te gusta el juego, por favor, considera realizar una donación :)"
 			}
 		},
+		"easter": {
+			"defaultLines": {
+				"eng": [
+					"I'm Eggbert, and I've got an egg-cellent challenge for you.",
+					"Fancy a round of Spring Pop? Match those eggs before time runs out!",
+					"Stay sharp, don't crack under pressure, and let's get popping."
+				],
+				"trans": [
+					"Soy Eggbert, y tengo un desafío huevo-lente para ti.",
+					"¿Te animas a jugar Spring Pop? ¡Combina los huevos antes de que expire el tiempo!",
+					"No bajes la guardia, aguanta la presión y vamos con todo."
+				]
+			},
+			"name": {
+				"eng": "Eggbert",
+				"trans": "Eggbert"
+			},
+			"npcName": {
+				"eng": "Eggbert",
+				"trans": "Eggbert"
+			}
+		},
 		"equipmentExchange": {
 			"canAccessError": {
 				"eng": "You need to be at least level 15 to access the Equipment Exchange",
@@ -9499,6 +9557,16 @@
 			"tut": {
 				"eng": "You can use your Cache to print new equipment here",
 				"trans": "Puedes utilizar tus Cachés para imprimir nuevo equipo aquí."
+			}
+		},
+		"reclamationDepot": {
+			"description": {
+				"eng": "Exchange items for vouchers and redeem vouchers for pooled rewards.",
+				"trans": "Cambia objetos por vales y canjea los vales por recompensas colectivas."
+			},
+			"name": {
+				"eng": "Reclamation Depot",
+				"trans": "Depósito de Recuperación"
 			}
 		},
 		"recycleMachine": {
@@ -11088,6 +11156,304 @@
 			"trans": "Fabricación Molecular"
 		}
 	},
+	"reclamationDepot": {
+		"addStack": {
+			"eng": "Add Stack",
+			"trans": "Añadir pila"
+		},
+		"addStackHint": {
+			"eng": "Open picker",
+			"trans": "Abrir selector"
+		},
+		"allItemsQueued": {
+			"eng": "All eligible stacks are already queued",
+			"trans": "Todos los montones aptos ya están en cola"
+		},
+		"confirmDonateBtn": {
+			"eng": "CONFIRM DONATE",
+			"trans": "Confirmar donación"
+		},
+		"confirmInlineDesc": {
+			"eng": "This will donate ${count} selected stack(s) and cannot be undone.",
+			"trans": "Se donarán ${count} acumulaciones seleccionadas y la acción es irreversible.",
+			"vars": [
+				"count"
+			]
+		},
+		"confirmInlineTitle": {
+			"eng": "Confirm Batch Donation",
+			"trans": "Confirmar donación múltiple"
+		},
+		"donate": {
+			"levelBadge": {
+				"eng": "LVL ${level} REQUIRED",
+				"trans": "NIVEL ${level} REQUERIDO",
+				"vars": [
+					"level"
+				]
+			},
+			"levelError": {
+				"eng": "Donation clearance not granted.",
+				"trans": "Autorización de donación denegada."
+			},
+			"levelRequirement": {
+				"eng": "Reach level ${level} to donate items to the reclamation depot.",
+				"trans": "Alcanza el nivel ${level} para donar objetos al depósito de recuperación.",
+				"vars": [
+					"level"
+				]
+			},
+			"locked": {
+				"eng": "ACCESS DENIED (LVL ${level})",
+				"trans": "ACCESO DENEGADO (NIVEL ${level})",
+				"vars": [
+					"level"
+				]
+			}
+		},
+		"donateBtn": {
+			"eng": "DONATE",
+			"trans": "DONAR"
+		},
+		"donateItemsCTA": {
+			"eng": "DONATE ITEMS",
+			"trans": "DONAR OBJETOS"
+		},
+		"donateSuccessItem": {
+			"eng": "You have successfully donated ${items} and received ${voucherRewards}",
+			"trans": "Has donado ${items} con éxito y has recibido ${voucherRewards}",
+			"vars": [
+				"items",
+				"voucherRewards"
+			]
+		},
+		"donateSuccessNoItem": {
+			"eng": "You have successfully donated ${items}",
+			"trans": "Has donado ${items} con éxito",
+			"vars": [
+				"items"
+			]
+		},
+		"donateTitle": {
+			"eng": "Donate Items",
+			"trans": "Donar objetos"
+		},
+		"eligibleCount": {
+			"eng": "${count} available",
+			"trans": "${count} disponibles",
+			"vars": [
+				"count"
+			]
+		},
+		"emptySlotHint": {
+			"eng": "Tap to choose a donation stack",
+			"trans": "Toca para elegir un lote de donaciones"
+		},
+		"emptySlotTitle": {
+			"eng": "No Item Selected",
+			"trans": "Ningún objeto seleccionado"
+		},
+		"error": {
+			"donateLevelRequirement": {
+				"eng": "You need to be at least level ${donateMinLevel} to donate",
+				"trans": "Necesitas al menos el nivel ${donateMinLevel} para donar"
+			},
+			"levelLow": {
+				"eng": "Level ${level} required to redeem",
+				"trans": "Se requiere nivel ${level} para canjear",
+				"vars": [
+					"level"
+				]
+			},
+			"levelRequirement": {
+				"eng": "You need to be at least level ${minLevel} to redeem",
+				"trans": "Necesitas al menos el nivel ${minLevel} para canjear"
+			},
+			"noPooledItems": {
+				"eng": "Selected tier has no pooled items. Your voucher was not consumed",
+				"trans": "El nivel seleccionado no tiene elementos en la reserva. Tu vale no ha sido consumido"
+			},
+			"outOfStock": {
+				"eng": "Selected pool item is out of stock. Your voucher was not consumed",
+				"trans": "El artículo seleccionado del lote está agotado. Tu vale no ha sido consumido"
+			}
+		},
+		"footerSelectedStacks": {
+			"eng": "Selected stacks: ${count}",
+			"trans": "Pilas seleccionadas: ${count}",
+			"vars": [
+				"count"
+			]
+		},
+		"footerTotalConsume": {
+			"eng": "Total consume: ${count}",
+			"trans": "Consumo total: ${count}",
+			"vars": [
+				"count"
+			]
+		},
+		"heroDesc": {
+			"eng": "Donate your surplus equipment to the community pool. ",
+			"trans": "Donar tu equipo excedente al fondo comunitario"
+		},
+		"heroTitle": {
+			"eng": "ASSET RECLAMATION",
+			"trans": "Recuperación de activos"
+		},
+		"itemCol": {
+			"eng": "Item",
+			"trans": "Artículo"
+		},
+		"noEligibleInventory": {
+			"eng": "No eligible stacks found in cargo",
+			"trans": "No se encontraron pilas aptas en la carga"
+		},
+		"noEligibleItems": {
+			"eng": "No eligible items to donate.",
+			"trans": "No hay artículos aptos para donar."
+		},
+		"ownedVouchers": {
+			"eng": "VOUCHERS:",
+			"trans": "VALES:"
+		},
+		"pickerMaxUnits": {
+			"eng": "Max units: ${count}",
+			"trans": "Unidades máx.: ${count}",
+			"vars": [
+				"count"
+			]
+		},
+		"pickerOwnedAmount": {
+			"eng": "Owned: ${amount}",
+			"trans": "Poseído: ${amount}",
+			"vars": [
+				"amount"
+			]
+		},
+		"pickerTitle": {
+			"eng": "Select Donation Stack",
+			"trans": "Seleccionar pila de donaciones"
+		},
+		"qtyCol": {
+			"eng": "Qty",
+			"trans": "Cantidad"
+		},
+		"redeem": {
+			"awaitingSelection": {
+				"eng": "Select a tier above to continue.",
+				"trans": "Selecciona un nivel superior para continuar."
+			},
+			"awaitingSelectionBtn": {
+				"eng": "AWAITING SELECTION",
+				"trans": "Esperando selección"
+			},
+			"emptyPoolErr": {
+				"eng": "The community pool is empty for this tier.",
+				"trans": "El fondo comunitario está vacío para este nivel."
+			},
+			"emptyPoolError": {
+				"eng": "Pool is empty for this tier.",
+				"trans": "Reserva agotada para este nivel"
+			},
+			"emptyStock": {
+				"eng": "STOCK DEPLETED",
+				"trans": "STOCK AGOTADO"
+			},
+			"executeMultiple": {
+				"eng": "REDEEM ${amount} VOUCHERS",
+				"trans": "CANJEAR ${amount} VALES",
+				"vars": [
+					"amount"
+				]
+			},
+			"executeSingle": {
+				"eng": "REDEEM 1 VOUCHER",
+				"trans": "CANJEAR 1 CUPÓN"
+			},
+			"inboxWarning": {
+				"eng": "Rewards will be sent to your item inbox.",
+				"trans": "Las recompensas se enviarán a tu buzón de objetos."
+			},
+			"levelError": {
+				"eng": "Insufficient clearance level.",
+				"trans": "Nivel de autorización insuficiente"
+			},
+			"loadingBtn": {
+				"eng": "SYNCING...",
+				"trans": "SINCRONIZANDO..."
+			},
+			"loadingPool": {
+				"eng": "CONNECTING TO DEPOT...",
+				"trans": "CONECTANDO AL DEPÓSITO..."
+			},
+			"locked": {
+				"eng": "ACCESS DENIED (LVL ${level})",
+				"trans": "ACCESO DENEGADO (NIVEL ${level})",
+				"vars": [
+					"level"
+				]
+			},
+			"noVouchersBtn": {
+				"eng": "INSUFFICIENT VOUCHERS",
+				"trans": "Vales insuficientes"
+			},
+			"noVouchersErr": {
+				"eng": "No Vouchers available for this tier.",
+				"trans": "No hay cupones disponibles para este nivel."
+			},
+			"processingBtn": {
+				"eng": "REDEEMING...",
+				"trans": "CANJEANDO..."
+			},
+			"readyMultiple": {
+				"eng": "Ready to consume ${amount} vouchers.",
+				"trans": "Listo para consumir ${amount} vouchers.",
+				"vars": [
+					"amount"
+				]
+			},
+			"readySingle": {
+				"eng": "Ready to consume 1 voucher.",
+				"trans": "Listo para canjear 1 voucher."
+			},
+			"requestCount": {
+				"eng": "Request Count",
+				"trans": "Número de solicitudes"
+			},
+			"sectionTitle": {
+				"eng": "VOUCHER REDEMPTION",
+				"trans": "Canje de cupones"
+			},
+			"sentToInboxMultiple": {
+				"eng": "Redeemed ${amount} ${tier} vouchers. Rewards sent to your item inbox.",
+				"trans": "Canjeados ${amount} cupones de ${tier}. Recompensas enviadas a tu buzón de objetos.",
+				"vars": [
+					"amount",
+					"tier"
+				]
+			},
+			"voucherMaxRequestCount": {
+				"eng": "Voucher Max ${amount}",
+				"trans": "Máximo de cupones ${amount}",
+				"vars": [
+					"amount"
+				]
+			}
+		},
+		"row": {
+			"ownedOnly": {
+				"eng": "Owned: ${amount}",
+				"trans": "Poseído: ${amount}",
+				"vars": [
+					"amount"
+				]
+			}
+		},
+		"totalCol": {
+			"eng": "Total Items",
+			"trans": "Total de elementos"
+		}
+	},
 	"referralPromo": {
 		"desc1": {
 			"eng": "Free Unit*",
@@ -11938,6 +12304,180 @@
 			"vars": [
 				"amount"
 			]
+		}
+	},
+	"springPop": {
+		"allStagesCleared": {
+			"eng": "All Stages Cleared!",
+			"trans": "¡Todos los niveles completados!"
+		},
+		"button": {
+			"subtitle": {
+				"eng": "TAP TO POP EGGS",
+				"trans": "TOCA PARA REVENTAR HUEVOS"
+			},
+			"title": {
+				"eng": "SPRING POP",
+				"trans": "ESTALLIDO DE RESORTE"
+			}
+		},
+		"calculating": {
+			"eng": "Calculating rewards...",
+			"trans": "Calculando recompensas..."
+		},
+		"combo": {
+			"eng": "COMBO",
+			"trans": "COMBO"
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The Easter event has ended!",
+				"trans": "¡El evento de Pascua ha terminado!"
+			},
+			"noPass": {
+				"eng": "You need an Easter Event Pass to play! Find them in dungeon chests or from AFK farming.",
+				"trans": "¡Necesitas un Pase del Evento de Pascua para jugar! Encuéntralos en cofres de mazmorras o mediante farmeo AFK."
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "CLOSE",
+				"trans": "Cerrar"
+			},
+			"message": {
+				"eng": "The game encountered an error. Don't worry - your Pass was not consumed!",
+				"trans": "Se ha producido un error en el juego. ¡No te preocupes, tu Pass no se ha utilizado!"
+			},
+			"title": {
+				"eng": "Game Error",
+				"trans": "Error del juego"
+			}
+		},
+		"failedStage": {
+			"eng": "You didn't reach the target score for Stage ${stage} in time.",
+			"trans": "No alcanzaste la puntuación objetivo del Nivel ${stage} a tiempo.",
+			"vars": [
+				"stage"
+			]
+		},
+		"finish": {
+			"eng": "Finish",
+			"trans": "Finalizar"
+		},
+		"goodEffort": {
+			"eng": "Good Effort!",
+			"trans": "¡Buen intento!"
+		},
+		"intro": {
+			"eventEnded": {
+				"eng": "EVENT ENDED",
+				"trans": "EVENTO FINALIZADO"
+			},
+			"eventInactive": {
+				"eng": "Event is not currently active",
+				"trans": "Evento no activo actualmente"
+			},
+			"howToGet": {
+				"eng": "Find passes in dungeon chests or from AFK farming during the event!",
+				"trans": "¡Encuentra pases en cofres de mazmorras o farmeando AFK durante el evento!"
+			},
+			"howToPlay": {
+				"eng": "How to Play",
+				"trans": "Cómo jugar"
+			},
+			"needPass": {
+				"eng": "NEED PASS",
+				"trans": "AUTORIZACIÓN REQUERIDA"
+			},
+			"passesOwned": {
+				"eng": "Passes Owned:",
+				"trans": "Pases obtenidos:"
+			},
+			"rule1": {
+				"eng": "Tap groups of matching eggs to pop them",
+				"trans": "Toca grupos de huevos iguales para explotarlos"
+			},
+			"rule2": {
+				"eng": "Larger groups = more points and combos",
+				"trans": "Grupos más grandes = más puntos y combos"
+			},
+			"rule3": {
+				"eng": "Reach the target score before time runs out",
+				"trans": "Alcanza la puntuación objetivo antes de que se agote el tiempo"
+			},
+			"rule4": {
+				"eng": "Watch out for Cracked Eggs — pop them before they turn to stone!",
+				"trans": "¡Cuidado con los huevos agrietados — revientalos antes de que se petrifiquen!"
+			},
+			"startButton": {
+				"eng": "START GAME",
+				"trans": "Iniciar partida"
+			},
+			"title": {
+				"eng": "Spring Pop",
+				"trans": "Estallido Primaveral"
+			}
+		},
+		"loading": {
+			"message": {
+				"eng": "Hiding the eggs...",
+				"trans": "Ocultando los huevos..."
+			},
+			"title": {
+				"eng": "Loading Game...",
+				"trans": "Cargando juego..."
+			}
+		},
+		"nextStage": {
+			"eng": "Next Stage",
+			"trans": "Siguiente nivel"
+		},
+		"noRewards": {
+			"eng": "No rewards obtained.",
+			"trans": "No se obtuvieron recompensas."
+		},
+		"processing": {
+			"eng": "PROCESSING...",
+			"trans": "PROCESANDO..."
+		},
+		"rewards": {
+			"eng": "REWARDS",
+			"trans": "Recompensas"
+		},
+		"score": {
+			"eng": "SCORE",
+			"trans": "PUNTUACIÓN"
+		},
+		"stage": {
+			"eng": "STAGE",
+			"trans": "Nivel"
+		},
+		"stageCleared": {
+			"eng": "Stage ${stage} Cleared",
+			"trans": "Etapa ${stage} completada",
+			"vars": [
+				"stage"
+			]
+		},
+		"stageComplete": {
+			"eng": "Stage Complete!",
+			"trans": "¡Nivel completado!"
+		},
+		"stagesCompletedResult": {
+			"eng": "Completed ${completedStages}/${maxTier} Stages",
+			"trans": "Completadas ${completedStages}/${maxTier} etapas",
+			"vars": [
+				"completedStages",
+				"maxTier"
+			]
+		},
+		"timeUp": {
+			"eng": "Time's Up!",
+			"trans": "¡Tiempo agotado!"
+		},
+		"viewResults": {
+			"eng": "View Results",
+			"trans": "Ver resultados"
 		}
 	},
 	"statsType": {
@@ -13109,6 +13649,10 @@
 				"eng": "Daily Reward",
 				"trans": "Recompensa Diaria"
 			},
+			"links": {
+				"eng": "Links",
+				"trans": "Enlaces"
+			},
 			"skipQueue": {
 				"eng": "Skip Queue",
 				"trans": "Saltar cola global"
@@ -13813,6 +14357,10 @@
 			},
 			"quickSlots": {
 				"eng": "Quick Slots",
+				"tip": {
+					"eng": "Assign usable items to Quick Slots for quick access during battle.",
+					"trans": "Asigna ítems utilizables a las ranuras rápidas para un acceso rápido en combate."
+				},
 				"trans": "Ranuras Rápidas"
 			}
 		},
@@ -13955,10 +14503,6 @@
 				"eng": "Leaderboard",
 				"trans": "Tabla de clasificaciones"
 			},
-			"links": {
-				"eng": "links",
-				"trans": "Redes Sociales"
-			},
 			"moderatorTools": {
 				"eng": "Mod Tools",
 				"trans": "Herramientas de mod"
@@ -13966,6 +14510,10 @@
 			"premiumShop": {
 				"eng": "Premium Shop",
 				"trans": "Tienda Premium"
+			},
+			"promo": {
+				"eng": "Promo",
+				"trans": "Promo"
 			},
 			"settings": {
 				"eng": "Settings",
@@ -14319,6 +14867,10 @@
 			"unlocked": {
 				"eng": "Unlocked",
 				"trans": "Desbloqueado"
+			},
+			"upgradeModuleTip": {
+				"eng": "Upgrade modules enhance equipment stats; tap an empty slot to install one, or an installed module to remove it.",
+				"trans": "Los módulos de mejora potencian las estadísticas del equipo; toca una ranura vacía para instalar uno, o un módulo instalado para retirarlo."
 			},
 			"upgradeModuleTitle": {
 				"eng": "upgrade slot ${index}",
@@ -15100,9 +15652,9 @@
 						"trans": "Da Crédito de Calle"
 					}
 				},
-				"title": {
-					"eng": "Tutorials",
-					"trans": "Tutoriales"
+				"title2": {
+					"eng": "Miscellaneous",
+					"trans": "Varios"
 				}
 			},
 			"globalParty": {
@@ -15148,6 +15700,20 @@
 					"eng": "Select min value",
 					"trans": "Selecciona el valor mínimo"
 				}
+			}
+		},
+		"reclamationDepot": {
+			"dataHeader": {
+				"eng": "SHARED POOL READOUT",
+				"trans": "LECTURA DE RESERVA COMPARTIDA"
+			},
+			"loadError": {
+				"eng": "Unable to load reclamation pool.",
+				"trans": "No se pudo cargar la reserva de recuperación."
+			},
+			"poolUpdateNote": {
+				"eng": "// COUNTS UPDATED PERIODICALLY",
+				"trans": "/// CONTEOS ACTUALIZADOS PERIÓDICAMENTE"
 			}
 		},
 		"register": {
@@ -15269,6 +15835,16 @@
 				"title": {
 					"eng": "Disable Victory Screen",
 					"trans": "Deshabilitar la Pantalla de Victoria"
+				}
+			},
+			"disableWelcomeTutorial": {
+				"description": {
+					"eng": "Hide the first login welcome tutorial modal until you turn this back off",
+					"trans": "Ocultará el tutorial de bienvenida en tu primer inicio de sesión hasta que desactives esta opción"
+				},
+				"title": {
+					"eng": "Disable Welcome Tutorial",
+					"trans": "Desactivar tutorial de bienvenida"
 				}
 			},
 			"enableApartmentWall": {
@@ -15697,6 +16273,10 @@
 				"eng": "quests",
 				"trans": "Misiones"
 			},
+			"reclamationDepot": {
+				"eng": "Reclamation Depot",
+				"trans": "Depósito de Recuperación"
+			},
 			"referral": {
 				"eng": "referral",
 				"trans": "Invitación"
@@ -15856,6 +16436,146 @@
 		"title": {
 			"eng": "Valentine Event",
 			"trans": "Evento de San Valentín"
+		}
+	},
+	"voucherTier": {
+		"high": {
+			"eng": "High",
+			"trans": "Alto"
+		},
+		"low": {
+			"eng": "Low",
+			"trans": "Bajo"
+		}
+	},
+	"welcome": {
+		"afk": {
+			"headline": {
+				"eng": "Progress While Offline",
+				"trans": "Progreso sin conexión"
+			},
+			"sentence": {
+				"eng": "Start a task before logging off to continue gathering resources and leveling up in the background.",
+				"trans": "Inicia una tarea antes de desconectarte para seguir recolectando recursos y subiendo de nivel en segundo plano."
+			}
+		},
+		"animation": {
+			"asset": {
+				"eng": "Asset",
+				"trans": "Recurso"
+			},
+			"autotask": {
+				"eng": "AUTOTASK",
+				"trans": "TAREA AUTOMÁTICA"
+			},
+			"buy": {
+				"eng": "EXECUTE: BUY",
+				"trans": "EJECUTAR: COMPRAR"
+			},
+			"chat1": {
+				"eng": "LFG Abandoned Factory, need healer.",
+				"trans": "Busco grupo para Fábrica Abandonada, necesito healer."
+			},
+			"chat2": {
+				"eng": "Inv, I got medkits.",
+				"trans": "Inv, traigo botiquines."
+			},
+			"chat3": {
+				"eng": "Global Buff Activated by Kael",
+				"trans": "Mejora global activada por Kael"
+			},
+			"efficiency": {
+				"eng": "Efficiency",
+				"trans": "Eficiencia"
+			},
+			"price": {
+				"eng": "Lowest Price",
+				"trans": "Precio más bajo"
+			},
+			"reverse_engineering": {
+				"eng": "REVERSE_ENGINEERING",
+				"trans": "INGENIERÍA INVERSA"
+			},
+			"system": {
+				"eng": "System:",
+				"trans": "Sistema:"
+			},
+			"waiting": {
+				"eng": "WAITING FOR ORDERS...",
+				"trans": "ESPERANDO ÓRDENES..."
+			},
+			"yield_acquired": {
+				"eng": "YIELD ACQUIRED",
+				"trans": "RENDIMIENTO OBTENIDO"
+			}
+		},
+		"cta": {
+			"done": {
+				"eng": "Start Playing",
+				"trans": "Empezar a jugar"
+			},
+			"next": {
+				"eng": "Next",
+				"trans": "Siguiente"
+			}
+		},
+		"economy": {
+			"headline": {
+				"eng": "Player-Driven Economy",
+				"trans": "Economía impulsada por jugadores"
+			},
+			"sentence": {
+				"eng": "Every item in the market is crafted and traded by real players like you.",
+				"trans": "Cada artículo en el mercado es fabricado y comercializado por jugadores reales como tú."
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "Continue",
+				"trans": "Continuar"
+			},
+			"description": {
+				"eng": "Your character was created successfully. You can continue playing normally.",
+				"trans": "Tu personaje se ha creado con éxito. Puedes continuar jugando normalmente."
+			},
+			"title": {
+				"eng": "Welcome Screen Failed to Load",
+				"trans": "Error al cargar la pantalla de bienvenida"
+			}
+		},
+		"fairness": {
+			"headline": {
+				"eng": "Zero Pay-To-Win",
+				"trans": "Cero Pay-To-Win"
+			},
+			"sentence": {
+				"eng": "All premium buffs are shared globally across the server. When someone supports the game, the entire community benefits and progresses together.",
+				"trans": "Todos los buffs premium se comparten en todo el servidor. Cuando alguien apoya el juego, toda la comunidad se beneficia y progresa junta."
+			}
+		},
+		"loading": {
+			"title": {
+				"eng": "Initializing Welcome Sequence",
+				"trans": "Inicializando secuencia de bienvenida"
+			}
+		},
+		"skip": {
+			"eng": "Skip",
+			"trans": "Saltar"
+		},
+		"splash": {
+			"connection": {
+				"eng": "// Connection Established",
+				"trans": "/// Conexión establecida"
+			},
+			"sys_init": {
+				"eng": "Sys.Init_Seq.01",
+				"trans": "Sist.Ini_Sec.01"
+			},
+			"welcome": {
+				"eng": "Welcome To",
+				"trans": "Bienvenido a"
+			}
 		}
 	}
 }

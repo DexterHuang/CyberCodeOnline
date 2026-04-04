@@ -41,6 +41,10 @@
 				"eventName"
 			]
 		},
+		"bonusUnits": {
+			"eng": "Bonus Units",
+			"trans": "Bonus Booty"
+		},
 		"currency": {
 			"paypalExclusive": {
 				"eng": "PayPal Exclusive!",
@@ -1788,6 +1792,10 @@
 			"eng": "Got it",
 			"trans": "Aye, I hear ye!"
 		},
+		"max": {
+			"eng": "MAX",
+			"trans": "Full Mast"
+		},
 		"owned": {
 			"eng": "Owned",
 			"trans": "Ye Own It!"
@@ -1796,9 +1804,17 @@
 			"eng": "Purchase",
 			"trans": "Buyin'"
 		},
+		"retry": {
+			"eng": "RETRY CONNECTION",
+			"trans": "RE-CAST THE LINE"
+		},
 		"save": {
 			"eng": "Save",
 			"trans": "Secure the Booty!"
+		},
+		"warning": {
+			"eng": "Warning",
+			"trans": "Avast"
 		}
 	},
 	"component": {
@@ -2408,6 +2424,10 @@
 			"eng": "Cybernetic Potato",
 			"trans": "Aye, a Cyber-Tuber!"
 		},
+		"donation50": {
+			"eng": "Netrunner",
+			"trans": "Wire-Corsair"
+		},
 		"donation6": {
 			"eng": "Prestige",
 			"trans": "Sea Dog's Glory"
@@ -2676,6 +2696,10 @@
 				"eng": "DUMPLING MASTER",
 				"trans": "DUMPLIN’ MASTAH!"
 			},
+			"noRewards": {
+				"eng": "NO REWARDS RECORDED",
+				"trans": "NO BOOTY RECORDED"
+			},
 			"rewards": {
 				"eng": "MISSION REWARDS",
 				"trans": "BOOTY"
@@ -2943,31 +2967,17 @@
 		}
 	},
 	"easterPromo": {
-		"desc1": {
-			"eng": "Spring has arrived, and it's time for the Easter celebration! Hunt for hidden chocolate bunnies throughout the game.",
-			"trans": "Ahoy, mateys! Fair winds be blowin' in, and it's time for Easter plunder! Seek out stashed chocolate doubloons in every nook and cranny o' the game, savvy?"
-		},
-		"dropBenefit1": {
-			"eng": "Enemies and AFK farming have a chance to drop ${item}!",
-			"trans": "Aye, ye bilge rats and AFK'n might cough up ${item}!",
-			"vars": [
-				"item"
-			]
-		},
-		"smallDesc": {
-			"eng": "Find ${item} for EXP boosts!",
-			"trans": "Ahoy! Snag the ${item} for a treasure trove o' XP!",
-			"vars": [
-				"item"
-			]
-		},
-		"specialBenefits": {
-			"eng": "Special Event Benefits:",
-			"trans": "Ahoy! Doubloons 'n' Plunder from this Haul:"
-		},
 		"title": {
 			"eng": "Easter Celebration",
 			"trans": "Easter Booty Haul"
+		},
+		"tokenDesc": {
+			"eng": "Spring has arrived, and it's time for the Easter celebration! Hunt for ${item} throughout the game and trade them at ${npcName}'s spring market.",
+			"trans": "The tides have turned, and 'tis time for the Easter bounty! Scour the seas for ${item} throughout the game and barter 'em at ${npcName}'s spring market.",
+			"vars": [
+				"item",
+				"npcName"
+			]
 		}
 	},
 	"emblems": {
@@ -3777,6 +3787,10 @@
 		},
 		"easter": {
 			"eng": "Easter",
+			"springPop": {
+				"eng": "Spring Pop",
+				"trans": "Spring Boom"
+			},
 			"trans": "Doubloon Day"
 		},
 		"halloween": {
@@ -4975,6 +4989,26 @@
 				"trans": "Booty Doubloon"
 			}
 		},
+		"easterEventPass": {
+			"description": {
+				"eng": "A special pass required to participate in the Spring Pop event game. Can be found in Dungeon Chests or from AFK farming during the Easter event.",
+				"trans": "A rare permit needed to join the Spring Pop fray. Be found in Dungeon booty or through idle looting during the Easter tide."
+			},
+			"name": {
+				"eng": "Easter Event Pass",
+				"trans": "Easter Bounty Pass"
+			}
+		},
+		"easterToken": {
+			"description": {
+				"eng": "Cracked shell fragments stamped with Eggbert's spring market seal. Trade them in for Easter event supplies before the season ends.",
+				"trans": "Cracked shell fragments stamped with Eggbert's spring market seal. Swappin' 'em for Easter supplies ere the season sails away."
+			},
+			"name": {
+				"eng": "Egg Shell Token",
+				"trans": "Egg Shell Doubloon"
+			}
+		},
 		"energyCell": {
 			"desc": {
 				"eng": "Miniaturized fusion cell designed to power apartment furniture systems. Extracted from crashed corporate drones along Crystal Sands before cleanup crews arrive.",
@@ -5681,6 +5715,26 @@
 			"name": {
 				"eng": "Rare Equipment Crate",
 				"trans": "Chest o' Rare Gear"
+			}
+		},
+		"reclamationDepotVoucherHigh": {
+			"desc": {
+				"eng": "Voucher used for reclamation depot redemption. This voucher maps to High tier rewards.",
+				"trans": "This scrap be for claimin' loot at the depot. It leads to high-tier booty!"
+			},
+			"name": {
+				"eng": "High Reclamation Voucher",
+				"trans": "Grand Bounty Scrip"
+			}
+		},
+		"reclamationDepotVoucherLow": {
+			"desc": {
+				"eng": "Voucher used for reclamation depot redemption. This voucher maps to Low tier rewards.",
+				"trans": "Voucher for redeemin' loot at the reclamation depot. Low tier booty, arrr!"
+			},
+			"name": {
+				"eng": "Low Reclamation Voucher",
+				"trans": "Scrappy Salvage Voucher"
 			}
 		},
 		"rename": {
@@ -7710,10 +7764,6 @@
 				"eng": "Vow Phrase",
 				"trans": "Arrr! Ye be sayin’ “Vow Phrase” in the high seas tongue? Aye, let’s make it proper pirate lingo: \"Swearin' Words\" or \"Oath of the Deck\" or simply \"Pirate Pledge.\" The best fit for a game UI setting would be \"Pirate Pledge.\""
 			},
-			"vowPlaceholder": {
-				"eng": "Write your romantic vow here...",
-				"trans": "Arrr, pen yer love pledge herin'..."
-			},
 			"vowTooLong": {
 				"eng": "Vow phrase must be 64 words or less",
 				"trans": "Ye gotta keep yer vow under 64 words, matey!"
@@ -8579,24 +8629,6 @@
 				}
 			}
 		},
-		"newbieTutorial": {
-			"closeButton": {
-				"title": {
-					"eng": "Close",
-					"trans": "Belay that!"
-				}
-			},
-			"noShowToggle": {
-				"description": {
-					"eng": "You can see the full tutorial at Profile > Tutorial tab",
-					"trans": "Ye can see tharr full tutorial at Profile > Tutorial tab"
-				},
-				"label": {
-					"eng": "Don't show this again",
-					"trans": "No more o' this, savvy?"
-				}
-			}
-		},
 		"playerSearch": {
 			"noPlayerFound": {
 				"eng": "No player named \"${search}\" found",
@@ -8883,6 +8915,10 @@
 		"nextStageIn": {
 			"eng": "Next Stage in",
 			"trans": "Arr, Next Stage in"
+		},
+		"noRewards": {
+			"eng": "No rewards obtained.",
+			"trans": "No booty found."
 		},
 		"pleaseWait": {
 			"eng": "Calculating rewards...",
@@ -9267,6 +9303,28 @@
 				"trans": "If ye liked tharr game, please consider donation :)"
 			}
 		},
+		"easter": {
+			"defaultLines": {
+				"eng": [
+					"I'm Eggbert, and I've got an egg-cellent challenge for you.",
+					"Fancy a round of Spring Pop? Match those eggs before time runs out!",
+					"Stay sharp, don't crack under pressure, and let's get popping."
+				],
+				"trans": [
+					"I be Eggbert, and I've got an egg-cellent challenge for ye.",
+					"Avast! Fancy a bout o' Spring Pop? Match them eggs 'fore the tide turns!",
+					"Keep yer eyes peeled, don't sink in a storm, and let's weigh anchor!"
+				]
+			},
+			"name": {
+				"eng": "Eggbert",
+				"trans": "Eggbeard"
+			},
+			"npcName": {
+				"eng": "Eggbert",
+				"trans": "Eggbeard"
+			}
+		},
 		"equipmentExchange": {
 			"canAccessError": {
 				"eng": "You need to be at least level 15 to access the Equipment Exchange",
@@ -9499,6 +9557,16 @@
 			"tut": {
 				"eng": "You can use your Cache to print new equipment here",
 				"trans": "Ye can use yer Cache t' print new equipment 'ere"
+			}
+		},
+		"reclamationDepot": {
+			"description": {
+				"eng": "Exchange items for vouchers and redeem vouchers for pooled rewards.",
+				"trans": "Swap yer loot for tokens and redeem tokens for a share o' the booty."
+			},
+			"name": {
+				"eng": "Reclamation Depot",
+				"trans": "Salvage Hold"
 			}
 		},
 		"recycleMachine": {
@@ -11088,6 +11156,304 @@
 			"trans": "Brewin' Up Molecules"
 		}
 	},
+	"reclamationDepot": {
+		"addStack": {
+			"eng": "Add Stack",
+			"trans": "Pile 'em high"
+		},
+		"addStackHint": {
+			"eng": "Open picker",
+			"trans": "Pick yer plunder"
+		},
+		"allItemsQueued": {
+			"eng": "All eligible stacks are already queued",
+			"trans": "All worthy booty be lined up already"
+		},
+		"confirmDonateBtn": {
+			"eng": "CONFIRM DONATE",
+			"trans": "HAND OVER THE BOOTY"
+		},
+		"confirmInlineDesc": {
+			"eng": "This will donate ${count} selected stack(s) and cannot be undone.",
+			"trans": "Arr this be donating ${count} selected stack(s) and no undoing be possible!",
+			"vars": [
+				"count"
+			]
+		},
+		"confirmInlineTitle": {
+			"eng": "Confirm Batch Donation",
+			"trans": "Confirm the Bounty"
+		},
+		"donate": {
+			"levelBadge": {
+				"eng": "LVL ${level} REQUIRED",
+				"trans": "LVL ${level} BE NEEDED",
+				"vars": [
+					"level"
+				]
+			},
+			"levelError": {
+				"eng": "Donation clearance not granted.",
+				"trans": "Ye lack the rank to donate, matey!"
+			},
+			"levelRequirement": {
+				"eng": "Reach level ${level} to donate items to the reclamation depot.",
+				"trans": "Reach level ${level} to toss yer booty into the reclamation depot.",
+				"vars": [
+					"level"
+				]
+			},
+			"locked": {
+				"eng": "ACCESS DENIED (LVL ${level})",
+				"trans": "YE BE DENIED (LVL ${level})",
+				"vars": [
+					"level"
+				]
+			}
+		},
+		"donateBtn": {
+			"eng": "DONATE",
+			"trans": "TOSS THE LOOT"
+		},
+		"donateItemsCTA": {
+			"eng": "DONATE ITEMS",
+			"trans": "Toss in the loot"
+		},
+		"donateSuccessItem": {
+			"eng": "You have successfully donated ${items} and received ${voucherRewards}",
+			"trans": "Ye've successfully donated ${items} and pocketed ${voucherRewards} as booty!",
+			"vars": [
+				"items",
+				"voucherRewards"
+			]
+		},
+		"donateSuccessNoItem": {
+			"eng": "You have successfully donated ${items}",
+			"trans": "Ye've successfully surrendered ${items}",
+			"vars": [
+				"items"
+			]
+		},
+		"donateTitle": {
+			"eng": "Donate Items",
+			"trans": "Hand Over the Booty"
+		},
+		"eligibleCount": {
+			"eng": "${count} available",
+			"trans": "${count} ready for plunder",
+			"vars": [
+				"count"
+			]
+		},
+		"emptySlotHint": {
+			"eng": "Tap to choose a donation stack",
+			"trans": "Strike to pick a pile o' tribute"
+		},
+		"emptySlotTitle": {
+			"eng": "No Item Selected",
+			"trans": "No loot selected"
+		},
+		"error": {
+			"donateLevelRequirement": {
+				"eng": "You need to be at least level ${donateMinLevel} to donate",
+				"trans": "Ye need to be at least level ${donateMinLevel} to share the booty"
+			},
+			"levelLow": {
+				"eng": "Level ${level} required to redeem",
+				"trans": "Ye need Level ${level} to claim this booty",
+				"vars": [
+					"level"
+				]
+			},
+			"levelRequirement": {
+				"eng": "You need to be at least level ${minLevel} to redeem",
+				"trans": "Ye need at least level ${minLevel} to claim this booty"
+			},
+			"noPooledItems": {
+				"eng": "Selected tier has no pooled items. Your voucher was not consumed",
+				"trans": "Selected tier holds no booty. Your voucher was not consumed"
+			},
+			"outOfStock": {
+				"eng": "Selected pool item is out of stock. Your voucher was not consumed",
+				"trans": "The loot ye sought be gone. Yer doubloons remain untouched"
+			}
+		},
+		"footerSelectedStacks": {
+			"eng": "Selected stacks: ${count}",
+			"trans": "Selected booty: ${count}",
+			"vars": [
+				"count"
+			]
+		},
+		"footerTotalConsume": {
+			"eng": "Total consume: ${count}",
+			"trans": "Total booty devoured: ${count}",
+			"vars": [
+				"count"
+			]
+		},
+		"heroDesc": {
+			"eng": "Donate your surplus equipment to the community pool. ",
+			"trans": "Add yer extra gear to the crew's stash"
+		},
+		"heroTitle": {
+			"eng": "ASSET RECLAMATION",
+			"trans": "Reclaiming the Spoils"
+		},
+		"itemCol": {
+			"eng": "Item",
+			"trans": "Loot"
+		},
+		"noEligibleInventory": {
+			"eng": "No eligible stacks found in cargo",
+			"trans": "No proper loot be found in the hold"
+		},
+		"noEligibleItems": {
+			"eng": "No eligible items to donate.",
+			"trans": "No booty fits the haul!"
+		},
+		"ownedVouchers": {
+			"eng": "VOUCHERS:",
+			"trans": "TREASURE CHITS:"
+		},
+		"pickerMaxUnits": {
+			"eng": "Max units: ${count}",
+			"trans": "Max crew: ${count}",
+			"vars": [
+				"count"
+			]
+		},
+		"pickerOwnedAmount": {
+			"eng": "Owned: ${amount}",
+			"trans": "Booty: ${amount}",
+			"vars": [
+				"amount"
+			]
+		},
+		"pickerTitle": {
+			"eng": "Select Donation Stack",
+			"trans": "Pick yer booty pile"
+		},
+		"qtyCol": {
+			"eng": "Qty",
+			"trans": "Loot Count"
+		},
+		"redeem": {
+			"awaitingSelection": {
+				"eng": "Select a tier above to continue.",
+				"trans": "Choose yer plunder tier aloft to continue."
+			},
+			"awaitingSelectionBtn": {
+				"eng": "AWAITING SELECTION",
+				"trans": "Pick yer loot"
+			},
+			"emptyPoolErr": {
+				"eng": "The community pool is empty for this tier.",
+				"trans": "Arr, the booty pool for this tier be dry!"
+			},
+			"emptyPoolError": {
+				"eng": "Pool is empty for this tier.",
+				"trans": "The bounty be dry for this tier."
+			},
+			"emptyStock": {
+				"eng": "STOCK DEPLETED",
+				"trans": "No booty left"
+			},
+			"executeMultiple": {
+				"eng": "REDEEM ${amount} VOUCHERS",
+				"trans": "CLAIM ${amount} BOUNTY TOKENS",
+				"vars": [
+					"amount"
+				]
+			},
+			"executeSingle": {
+				"eng": "REDEEM 1 VOUCHER",
+				"trans": "CLAIM 1 TOKEN"
+			},
+			"inboxWarning": {
+				"eng": "Rewards will be sent to your item inbox.",
+				"trans": "Booty shall be sent to yer sea locker."
+			},
+			"levelError": {
+				"eng": "Insufficient clearance level.",
+				"trans": "Ye lack the proper rank."
+			},
+			"loadingBtn": {
+				"eng": "SYNCING...",
+				"trans": "MATCHIN' THE CHARTS..."
+			},
+			"loadingPool": {
+				"eng": "CONNECTING TO DEPOT...",
+				"trans": "DOCKING AT THE DEPOT..."
+			},
+			"locked": {
+				"eng": "ACCESS DENIED (LVL ${level})",
+				"trans": "YE BE DENIED (LVL ${level})",
+				"vars": [
+					"level"
+				]
+			},
+			"noVouchersBtn": {
+				"eng": "INSUFFICIENT VOUCHERS",
+				"trans": "Not enough vouchers, matey!"
+			},
+			"noVouchersErr": {
+				"eng": "No Vouchers available for this tier.",
+				"trans": "No booty for this rank, matey!"
+			},
+			"processingBtn": {
+				"eng": "REDEEMING...",
+				"trans": "CLAIMING BOOTY..."
+			},
+			"readyMultiple": {
+				"eng": "Ready to consume ${amount} vouchers.",
+				"trans": "Ready to plunder ${amount} vouchers.",
+				"vars": [
+					"amount"
+				]
+			},
+			"readySingle": {
+				"eng": "Ready to consume 1 voucher.",
+				"trans": "Aye, ready to burn 1 voucher."
+			},
+			"requestCount": {
+				"eng": "Request Count",
+				"trans": "Tally o' Requests"
+			},
+			"sectionTitle": {
+				"eng": "VOUCHER REDEMPTION",
+				"trans": "Claiming the Loot"
+			},
+			"sentToInboxMultiple": {
+				"eng": "Redeemed ${amount} ${tier} vouchers. Rewards sent to your item inbox.",
+				"trans": "Claimed ${amount} ${tier} vouchers! Loot be sent to yer sea chest.",
+				"vars": [
+					"amount",
+					"tier"
+				]
+			},
+			"voucherMaxRequestCount": {
+				"eng": "Voucher Max ${amount}",
+				"trans": "Max voucher haul: ${amount}",
+				"vars": [
+					"amount"
+				]
+			}
+		},
+		"row": {
+			"ownedOnly": {
+				"eng": "Owned: ${amount}",
+				"trans": "Booty: ${amount}",
+				"vars": [
+					"amount"
+				]
+			}
+		},
+		"totalCol": {
+			"eng": "Total Items",
+			"trans": "Total Booty"
+		}
+	},
 	"referralPromo": {
 		"desc1": {
 			"eng": "Free Unit*",
@@ -11938,6 +12304,180 @@
 			"vars": [
 				"amount"
 			]
+		}
+	},
+	"springPop": {
+		"allStagesCleared": {
+			"eng": "All Stages Cleared!",
+			"trans": "All Seas Conquered!"
+		},
+		"button": {
+			"subtitle": {
+				"eng": "TAP TO POP EGGS",
+				"trans": "SMASH THE EGGS, MATEY!"
+			},
+			"title": {
+				"eng": "SPRING POP",
+				"trans": "SPRING POP MATEY"
+			}
+		},
+		"calculating": {
+			"eng": "Calculating rewards...",
+			"trans": "Counting the booty..."
+		},
+		"combo": {
+			"eng": "COMBO",
+			"trans": "ARRR! STREAK!"
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The Easter event has ended!",
+				"trans": "The Easter raid be over!"
+			},
+			"noPass": {
+				"eng": "You need an Easter Event Pass to play! Find them in dungeon chests or from AFK farming.",
+				"trans": "Ye need an Easter Event Pass to set sail! Find 'em in dungeon chests or by lootin' while ye drift!"
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "CLOSE",
+				"trans": "Belay"
+			},
+			"message": {
+				"eng": "The game encountered an error. Don't worry - your Pass was not consumed!",
+				"trans": "Avast! A blunder has occurred. Fear not, yer Pass wasn't plundered!"
+			},
+			"title": {
+				"eng": "Game Error",
+				"trans": "Shipwrecked!"
+			}
+		},
+		"failedStage": {
+			"eng": "You didn't reach the target score for Stage ${stage} in time.",
+			"trans": "Arrr, ye failed to plunder the required loot for Stage ${stage} 'fore the tide turned!",
+			"vars": [
+				"stage"
+			]
+		},
+		"finish": {
+			"eng": "Finish",
+			"trans": "Drop anchor"
+		},
+		"goodEffort": {
+			"eng": "Good Effort!",
+			"trans": "Ye did well, matey!"
+		},
+		"intro": {
+			"eventEnded": {
+				"eng": "EVENT ENDED",
+				"trans": "The voyage be over"
+			},
+			"eventInactive": {
+				"eng": "Event is not currently active",
+				"trans": "The event be docked, matey"
+			},
+			"howToGet": {
+				"eng": "Find passes in dungeon chests or from AFK farming during the event!",
+				"trans": "Seek yer passes in dungeon chests or through AFK pillagin' durin' the event!"
+			},
+			"howToPlay": {
+				"eng": "How to Play",
+				"trans": "The Pirate's Code"
+			},
+			"needPass": {
+				"eng": "NEED PASS",
+				"trans": "YE NEED A PASS"
+			},
+			"passesOwned": {
+				"eng": "Passes Owned:",
+				"trans": "Booty Held:"
+			},
+			"rule1": {
+				"eng": "Tap groups of matching eggs to pop them",
+				"trans": "Tap groups o' matchin' eggs to pop 'em matey"
+			},
+			"rule2": {
+				"eng": "Larger groups = more points and combos",
+				"trans": "Bigger crews = more loot and combos"
+			},
+			"rule3": {
+				"eng": "Reach the target score before time runs out",
+				"trans": "Claim the booty 'fore the tide turns"
+			},
+			"rule4": {
+				"eng": "Watch out for Cracked Eggs — pop them before they turn to stone!",
+				"trans": "Watch for them cracked eggs — pop 'em 'fore they turn to stone!"
+			},
+			"startButton": {
+				"eng": "START GAME",
+				"trans": "SET SAIL"
+			},
+			"title": {
+				"eng": "Spring Pop",
+				"trans": "Spring Boom"
+			}
+		},
+		"loading": {
+			"message": {
+				"eng": "Hiding the eggs...",
+				"trans": "Stowin' the eggs..."
+			},
+			"title": {
+				"eng": "Loading Game...",
+				"trans": "Hauling the anchor..."
+			}
+		},
+		"nextStage": {
+			"eng": "Next Stage",
+			"trans": "Next Voyage"
+		},
+		"noRewards": {
+			"eng": "No rewards obtained.",
+			"trans": "No booty found."
+		},
+		"processing": {
+			"eng": "PROCESSING...",
+			"trans": "Workin' the ropes..."
+		},
+		"rewards": {
+			"eng": "REWARDS",
+			"trans": "Booty"
+		},
+		"score": {
+			"eng": "SCORE",
+			"trans": "Booty"
+		},
+		"stage": {
+			"eng": "STAGE",
+			"trans": "Voyage"
+		},
+		"stageCleared": {
+			"eng": "Stage ${stage} Cleared",
+			"trans": "Stage ${stage} Conquered",
+			"vars": [
+				"stage"
+			]
+		},
+		"stageComplete": {
+			"eng": "Stage Complete!",
+			"trans": "The voyage be done!"
+		},
+		"stagesCompletedResult": {
+			"eng": "Completed ${completedStages}/${maxTier} Stages",
+			"trans": "Conquered ${completedStages}/${maxTier} Voyages",
+			"vars": [
+				"completedStages",
+				"maxTier"
+			]
+		},
+		"timeUp": {
+			"eng": "Time's Up!",
+			"trans": "Avast! Time be up!"
+		},
+		"viewResults": {
+			"eng": "View Results",
+			"trans": "Spy the Spoils"
 		}
 	},
 	"statsType": {
@@ -13109,6 +13649,10 @@
 				"eng": "Daily Reward",
 				"trans": "Daily Reward Fer Ye"
 			},
+			"links": {
+				"eng": "Links",
+				"trans": "Sea Routes"
+			},
 			"skipQueue": {
 				"eng": "Skip Queue",
 				"trans": "Tharr Skip Queue"
@@ -13813,6 +14357,10 @@
 			},
 			"quickSlots": {
 				"eng": "Quick Slots",
+				"tip": {
+					"eng": "Assign usable items to Quick Slots for quick access during battle.",
+					"trans": "Assign yer useful loot to Quick Slots for a speedy draw during battle, matey."
+				},
 				"trans": "Cutlass-Ready Slots"
 			}
 		},
@@ -13955,10 +14503,6 @@
 				"eng": "Leaderboard",
 				"trans": "The Captain's Log"
 			},
-			"links": {
-				"eng": "links",
-				"trans": "The Rum Runners"
-			},
 			"moderatorTools": {
 				"eng": "Mod Tools",
 				"trans": "Cap'n's Kit"
@@ -13966,6 +14510,10 @@
 			"premiumShop": {
 				"eng": "Premium Shop",
 				"trans": "The Captain's Booty Emporium"
+			},
+			"promo": {
+				"eng": "Promo",
+				"trans": "Bounty"
 			},
 			"settings": {
 				"eng": "Settings",
@@ -14319,6 +14867,10 @@
 			"unlocked": {
 				"eng": "Unlocked",
 				"trans": "Avast! Ye got it!"
+			},
+			"upgradeModuleTip": {
+				"eng": "Upgrade modules enhance equipment stats; tap an empty slot to install one, or an installed module to remove it.",
+				"trans": "Upgrade modules boost yer gear's might; tap an empty slot to load one, or a loaded module to toss overboard."
 			},
 			"upgradeModuleTitle": {
 				"eng": "upgrade slot ${index}",
@@ -15100,9 +15652,9 @@
 						"trans": "Arrr, hand over the street cred!"
 					}
 				},
-				"title": {
-					"eng": "Tutorials",
-					"trans": "Avast Ye! Pirate's Primer!"
+				"title2": {
+					"eng": "Miscellaneous",
+					"trans": "Odds and Ends"
 				}
 			},
 			"globalParty": {
@@ -15148,6 +15700,20 @@
 					"eng": "Select min value",
 					"trans": "Set yer lowest mark, matey!"
 				}
+			}
+		},
+		"reclamationDepot": {
+			"dataHeader": {
+				"eng": "SHARED POOL READOUT",
+				"trans": "Shared Loot Tally"
+			},
+			"loadError": {
+				"eng": "Unable to load reclamation pool.",
+				"trans": "Can't haul up the reclamation pool!"
+			},
+			"poolUpdateNote": {
+				"eng": "// COUNTS UPDATED PERIODICALLY",
+				"trans": "/// TALLIES KEPT AT EVERY WATCH"
 			}
 		},
 		"register": {
@@ -15269,6 +15835,16 @@
 				"title": {
 					"eng": "Disable Victory Screen",
 					"trans": "Avast the Victory Show!"
+				}
+			},
+			"disableWelcomeTutorial": {
+				"description": {
+					"eng": "Hide the first login welcome tutorial modal until you turn this back off",
+					"trans": "Hide the first login welcome tutorial modal until ye turn this back off"
+				},
+				"title": {
+					"eng": "Disable Welcome Tutorial",
+					"trans": "Scuttle the Welcome Map"
 				}
 			},
 			"enableApartmentWall": {
@@ -15697,6 +16273,10 @@
 				"eng": "quests",
 				"trans": "The Captain's Orders"
 			},
+			"reclamationDepot": {
+				"eng": "Reclamation Depot",
+				"trans": "Salvage Hold"
+			},
 			"referral": {
 				"eng": "referral",
 				"trans": "Recruit a Matey"
@@ -15856,6 +16436,146 @@
 		"title": {
 			"eng": "Valentine Event",
 			"trans": "Love & Booty"
+		}
+	},
+	"voucherTier": {
+		"high": {
+			"eng": "High",
+			"trans": "Upper Deck"
+		},
+		"low": {
+			"eng": "Low",
+			"trans": "Shallow"
+		}
+	},
+	"welcome": {
+		"afk": {
+			"headline": {
+				"eng": "Progress While Offline",
+				"trans": "Sailing on, even if ye be ashore"
+			},
+			"sentence": {
+				"eng": "Start a task before logging off to continue gathering resources and leveling up in the background.",
+				"trans": "Begin a plunder 'ere ye depart, to keep gatherin' booty and growin' yer legend while adrift."
+			}
+		},
+		"animation": {
+			"asset": {
+				"eng": "Asset",
+				"trans": "Loot"
+			},
+			"autotask": {
+				"eng": "AUTOTASK",
+				"trans": "AUTO-SAIL"
+			},
+			"buy": {
+				"eng": "EXECUTE: BUY",
+				"trans": "COMMAND: PLUNDER"
+			},
+			"chat1": {
+				"eng": "LFG Abandoned Factory, need healer.",
+				"trans": "Seekin' crew for Abandoned Factory, need a doc."
+			},
+			"chat2": {
+				"eng": "Inv, I got medkits.",
+				"trans": "Inv, I got medkits."
+			},
+			"chat3": {
+				"eng": "Global Buff Activated by Kael",
+				"trans": "A Bounty for All Hands Unleashed by Kael"
+			},
+			"efficiency": {
+				"eng": "Efficiency",
+				"trans": "Shipshape"
+			},
+			"price": {
+				"eng": "Lowest Price",
+				"trans": "Min' Booty"
+			},
+			"reverse_engineering": {
+				"eng": "REVERSE_ENGINEERING",
+				"trans": "TAKIN' IT APART"
+			},
+			"system": {
+				"eng": "System:",
+				"trans": "Ship's Log:"
+			},
+			"waiting": {
+				"eng": "WAITING FOR ORDERS...",
+				"trans": "AWAITIN' THE CAPTAIN'S ORDERS..."
+			},
+			"yield_acquired": {
+				"eng": "YIELD ACQUIRED",
+				"trans": "BOOTY SECURED"
+			}
+		},
+		"cta": {
+			"done": {
+				"eng": "Start Playing",
+				"trans": "Set Sail!"
+			},
+			"next": {
+				"eng": "Next",
+				"trans": "Next"
+			}
+		},
+		"economy": {
+			"headline": {
+				"eng": "Player-Driven Economy",
+				"trans": "Loot ruled by the crew"
+			},
+			"sentence": {
+				"eng": "Every item in the market is crafted and traded by real players like you.",
+				"trans": "Every piece o' booty in the market be crafted and traded by real sailors like yerself."
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "Continue",
+				"trans": "Sail on"
+			},
+			"description": {
+				"eng": "Your character was created successfully. You can continue playing normally.",
+				"trans": "Ahoy! Yer character be forged true. Smooth sailin' awaits ye!"
+			},
+			"title": {
+				"eng": "Welcome Screen Failed to Load",
+				"trans": "Welcome Screen Be Sunk"
+			}
+		},
+		"fairness": {
+			"headline": {
+				"eng": "Zero Pay-To-Win",
+				"trans": "No Doubloons for Victory"
+			},
+			"sentence": {
+				"eng": "All premium buffs are shared globally across the server. When someone supports the game, the entire community benefits and progresses together.",
+				"trans": "All fine treasures be shared 'mongst the whole fleet. When gold finds our coffers, the entire crew reaps the bounty and sails ever forward together."
+			}
+		},
+		"loading": {
+			"title": {
+				"eng": "Initializing Welcome Sequence",
+				"trans": "Preparin' the Welcome Voyage"
+			}
+		},
+		"skip": {
+			"eng": "Skip",
+			"trans": ""
+		},
+		"splash": {
+			"connection": {
+				"eng": "// Connection Established",
+				"trans": "// Docking Complete"
+			},
+			"sys_init": {
+				"eng": "Sys.Init_Seq.01",
+				"trans": "Ship.Set_Sails_Seq.01"
+			},
+			"welcome": {
+				"eng": "Welcome To",
+				"trans": "Ahoy"
+			}
 		}
 	}
 }

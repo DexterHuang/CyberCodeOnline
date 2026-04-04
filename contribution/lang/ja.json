@@ -41,6 +41,10 @@
 				"eventName"
 			]
 		},
+		"bonusUnits": {
+			"eng": "Bonus Units",
+			"trans": "ボーナスユニット"
+		},
 		"currency": {
 			"paypalExclusive": {
 				"eng": "PayPal Exclusive!",
@@ -1788,6 +1792,10 @@
 			"eng": "Got it",
 			"trans": "了解"
 		},
+		"max": {
+			"eng": "MAX",
+			"trans": "最大"
+		},
 		"owned": {
 			"eng": "Owned",
 			"trans": "所持"
@@ -1796,9 +1804,17 @@
 			"eng": "Purchase",
 			"trans": "購入"
 		},
+		"retry": {
+			"eng": "RETRY CONNECTION",
+			"trans": "再接続"
+		},
 		"save": {
 			"eng": "Save",
 			"trans": "セーブ"
+		},
+		"warning": {
+			"eng": "Warning",
+			"trans": "警告"
 		}
 	},
 	"component": {
@@ -2408,6 +2424,10 @@
 			"eng": "Cybernetic Potato",
 			"trans": "サイバネティック・ポテト"
 		},
+		"donation50": {
+			"eng": "Netrunner",
+			"trans": "ネットランナー"
+		},
 		"donation6": {
 			"eng": "Prestige",
 			"trans": "名声"
@@ -2676,6 +2696,10 @@
 				"eng": "DUMPLING MASTER",
 				"trans": "餃子の達人！"
 			},
+			"noRewards": {
+				"eng": "NO REWARDS RECORDED",
+				"trans": "報酬の記録はありません"
+			},
 			"rewards": {
 				"eng": "MISSION REWARDS",
 				"trans": "報酬"
@@ -2943,31 +2967,17 @@
 		}
 	},
 	"easterPromo": {
-		"desc1": {
-			"eng": "Spring has arrived, and it's time for the Easter celebration! Hunt for hidden chocolate bunnies throughout the game.",
-			"trans": "春到来！イースターイベント開催！ゲーム内のどこかに隠された, チョコレートバニーを探し出そう！"
-		},
-		"dropBenefit1": {
-			"eng": "Enemies and AFK farming have a chance to drop ${item}!",
-			"trans": "モンスターや放置でも, ${item}をゲットできるかも！",
-			"vars": [
-				"item"
-			]
-		},
-		"smallDesc": {
-			"eng": "Find ${item} for EXP boosts!",
-			"trans": "${item}を見つけて, 経験値ブーストをゲット！",
-			"vars": [
-				"item"
-			]
-		},
-		"specialBenefits": {
-			"eng": "Special Event Benefits:",
-			"trans": "スペシャルイベント特典:"
-		},
 		"title": {
 			"eng": "Easter Celebration",
 			"trans": "電脳イースター"
+		},
+		"tokenDesc": {
+			"eng": "Spring has arrived, and it's time for the Easter celebration! Hunt for ${item} throughout the game and trade them at ${npcName}'s spring market.",
+			"trans": "春到来！イースター・セレブレーションが幕を開ける。ゲーム内で${item}を探索し、${npcName}の春のマーケットで交換しよう。",
+			"vars": [
+				"item",
+				"npcName"
+			]
 		}
 	},
 	"emblems": {
@@ -3777,6 +3787,10 @@
 		},
 		"easter": {
 			"eng": "Easter",
+			"springPop": {
+				"eng": "Spring Pop",
+				"trans": "スプリング・ポップ"
+			},
 			"trans": "イースター"
 		},
 		"halloween": {
@@ -4975,6 +4989,26 @@
 				"trans": "ダンジョントークン"
 			}
 		},
+		"easterEventPass": {
+			"description": {
+				"eng": "A special pass required to participate in the Spring Pop event game. Can be found in Dungeon Chests or from AFK farming during the Easter event.",
+				"trans": "「Spring Pop」イベントへの参加に必要な特別パス。イースターイベント期間中のダンジョン宝箱、または放置プレイによって入手可能です。"
+			},
+			"name": {
+				"eng": "Easter Event Pass",
+				"trans": "イースターイベントパス"
+			}
+		},
+		"easterToken": {
+			"description": {
+				"eng": "Cracked shell fragments stamped with Eggbert's spring market seal. Trade them in for Easter event supplies before the season ends.",
+				"trans": "エッグバートのスプリングマーケットの印が押された、ひび割れた殻の破片。シーズン終了までにイースターイベントの支給品と交換可能。"
+			},
+			"name": {
+				"eng": "Egg Shell Token",
+				"trans": "エッグシェル・トークン"
+			}
+		},
 		"energyCell": {
 			"desc": {
 				"eng": "Miniaturized fusion cell designed to power apartment furniture systems. Extracted from crashed corporate drones along Crystal Sands before cleanup crews arrive.",
@@ -5681,6 +5715,26 @@
 			"name": {
 				"eng": "Rare Equipment Crate",
 				"trans": "珍しい装備品クレート"
+			}
+		},
+		"reclamationDepotVoucherHigh": {
+			"desc": {
+				"eng": "Voucher used for reclamation depot redemption. This voucher maps to High tier rewards.",
+				"trans": "回収デポでの引き換えに使用するバウチャー。ハイティアの報酬に対応しています。"
+			},
+			"name": {
+				"eng": "High Reclamation Voucher",
+				"trans": "高級回収バウチャー"
+			}
+		},
+		"reclamationDepotVoucherLow": {
+			"desc": {
+				"eng": "Voucher used for reclamation depot redemption. This voucher maps to Low tier rewards.",
+				"trans": "リクレイメーション・デポの交換用バウチャー。低ティア報酬に対応。"
+			},
+			"name": {
+				"eng": "Low Reclamation Voucher",
+				"trans": "低級回収バウチャー"
 			}
 		},
 		"rename": {
@@ -7710,10 +7764,6 @@
 				"eng": "Vow Phrase",
 				"trans": "誓いフレーズ"
 			},
-			"vowPlaceholder": {
-				"eng": "Write your romantic vow here...",
-				"trans": "あなたのロマンティックな誓いをここに書いてください..."
-			},
 			"vowTooLong": {
 				"eng": "Vow phrase must be 64 words or less",
 				"trans": "誓いのフレーズは64語以内にしてください"
@@ -8579,24 +8629,6 @@
 				}
 			}
 		},
-		"newbieTutorial": {
-			"closeButton": {
-				"title": {
-					"eng": "Close",
-					"trans": "閉じる"
-				}
-			},
-			"noShowToggle": {
-				"description": {
-					"eng": "You can see the full tutorial at Profile > Tutorial tab",
-					"trans": "[プロフィール]> [チュートリアル]タブでチュートリアルを見ることができます"
-				},
-				"label": {
-					"eng": "Don't show this again",
-					"trans": "次回から表示しない"
-				}
-			}
-		},
 		"playerSearch": {
 			"noPlayerFound": {
 				"eng": "No player named \"${search}\" found",
@@ -8883,6 +8915,10 @@
 		"nextStageIn": {
 			"eng": "Next Stage in",
 			"trans": "次のステージまで"
+		},
+		"noRewards": {
+			"eng": "No rewards obtained.",
+			"trans": "報酬は獲得できませんでした"
 		},
 		"pleaseWait": {
 			"eng": "Calculating rewards...",
@@ -9306,6 +9342,28 @@
 				"trans": "ゲームをお楽しみ頂けていますか? 寄付を検討いただけると幸いです:)"
 			}
 		},
+		"easter": {
+			"defaultLines": {
+				"eng": [
+					"I'm Eggbert, and I've got an egg-cellent challenge for you.",
+					"Fancy a round of Spring Pop? Match those eggs before time runs out!",
+					"Stay sharp, don't crack under pressure, and let's get popping."
+				],
+				"trans": [
+					"エグバートだ。お前の殻を破る、最高の挑戦を用意しているぜ。",
+					"「スプリング・ポップ」はどうだい？制限時間内に卵を揃えるんだ！",
+					"気を引き締めろ、プレッシャーに屈するな、ぶちかまそうぜ。"
+				]
+			},
+			"name": {
+				"eng": "Eggbert",
+				"trans": "エグバート"
+			},
+			"npcName": {
+				"eng": "Eggbert",
+				"trans": "エッグバート"
+			}
+		},
 		"equipmentExchange": {
 			"canAccessError": {
 				"eng": "You need to be at least level 15 to access the Equipment Exchange",
@@ -9591,6 +9649,16 @@
 			"tut": {
 				"eng": "You can use your Cache to print new equipment here",
 				"trans": "集めたキャッシュを使って, 新たな装備品を3Dプリントできます"
+			}
+		},
+		"reclamationDepot": {
+			"description": {
+				"eng": "Exchange items for vouchers and redeem vouchers for pooled rewards.",
+				"trans": "アイテムをバウチャーに交換。バウチャーを使用して報酬プールから景品を獲得。"
+			},
+			"name": {
+				"eng": "Reclamation Depot",
+				"trans": "回収拠点"
 			}
 		},
 		"recycleMachine": {
@@ -11301,6 +11369,304 @@
 			"trans": "分子パターン形成"
 		}
 	},
+	"reclamationDepot": {
+		"addStack": {
+			"eng": "Add Stack",
+			"trans": "スタックを追加"
+		},
+		"addStackHint": {
+			"eng": "Open picker",
+			"trans": "リストから選択"
+		},
+		"allItemsQueued": {
+			"eng": "All eligible stacks are already queued",
+			"trans": "対象となるスタックはすべてキューに追加済みです。"
+		},
+		"confirmDonateBtn": {
+			"eng": "CONFIRM DONATE",
+			"trans": "寄付を確定"
+		},
+		"confirmInlineDesc": {
+			"eng": "This will donate ${count} selected stack(s) and cannot be undone.",
+			"trans": "選択したスタック${count}個を寄付します。この操作は取り消せません。",
+			"vars": [
+				"count"
+			]
+		},
+		"confirmInlineTitle": {
+			"eng": "Confirm Batch Donation",
+			"trans": "一括寄付の確認"
+		},
+		"donate": {
+			"levelBadge": {
+				"eng": "LVL ${level} REQUIRED",
+				"trans": "レベル ${level} 以上",
+				"vars": [
+					"level"
+				]
+			},
+			"levelError": {
+				"eng": "Donation clearance not granted.",
+				"trans": "寄付の承認が下りませんでした"
+			},
+			"levelRequirement": {
+				"eng": "Reach level ${level} to donate items to the reclamation depot.",
+				"trans": "回収デポへのアイテム寄付には、レベル${level}が必要です。",
+				"vars": [
+					"level"
+				]
+			},
+			"locked": {
+				"eng": "ACCESS DENIED (LVL ${level})",
+				"trans": "アクセス拒否 (LVL ${level})",
+				"vars": [
+					"level"
+				]
+			}
+		},
+		"donateBtn": {
+			"eng": "DONATE",
+			"trans": "寄付"
+		},
+		"donateItemsCTA": {
+			"eng": "DONATE ITEMS",
+			"trans": "アイテムを寄付"
+		},
+		"donateSuccessItem": {
+			"eng": "You have successfully donated ${items} and received ${voucherRewards}",
+			"trans": "${items} を寄付し、${voucherRewards} を獲得しました。",
+			"vars": [
+				"items",
+				"voucherRewards"
+			]
+		},
+		"donateSuccessNoItem": {
+			"eng": "You have successfully donated ${items}",
+			"trans": "${items} の寄付が完了しました",
+			"vars": [
+				"items"
+			]
+		},
+		"donateTitle": {
+			"eng": "Donate Items",
+			"trans": "アイテム寄付"
+		},
+		"eligibleCount": {
+			"eng": "${count} available",
+			"trans": "${count} 個 利用可能",
+			"vars": [
+				"count"
+			]
+		},
+		"emptySlotHint": {
+			"eng": "Tap to choose a donation stack",
+			"trans": "タップして寄付スタックを選択"
+		},
+		"emptySlotTitle": {
+			"eng": "No Item Selected",
+			"trans": "アイテム未選択"
+		},
+		"error": {
+			"donateLevelRequirement": {
+				"eng": "You need to be at least level ${donateMinLevel} to donate",
+				"trans": "寄付にはレベル ${donateMinLevel} 以上が必要です"
+			},
+			"levelLow": {
+				"eng": "Level ${level} required to redeem",
+				"trans": "引き換えにはレベル${level}が必要です",
+				"vars": [
+					"level"
+				]
+			},
+			"levelRequirement": {
+				"eng": "You need to be at least level ${minLevel} to redeem",
+				"trans": "引き換えるにはレベル${minLevel}以上が必要です。"
+			},
+			"noPooledItems": {
+				"eng": "Selected tier has no pooled items. Your voucher was not consumed",
+				"trans": "選択したティアに、プールされたアイテムがありません。バウチャーは消費されませんでした。"
+			},
+			"outOfStock": {
+				"eng": "Selected pool item is out of stock. Your voucher was not consumed",
+				"trans": "指定アイテムは在庫切れです。バウチャーは消費されませんでした。"
+			}
+		},
+		"footerSelectedStacks": {
+			"eng": "Selected stacks: ${count}",
+			"trans": "選択済みスタック: ${count}",
+			"vars": [
+				"count"
+			]
+		},
+		"footerTotalConsume": {
+			"eng": "Total consume: ${count}",
+			"trans": "合計消費量: ${count}",
+			"vars": [
+				"count"
+			]
+		},
+		"heroDesc": {
+			"eng": "Donate your surplus equipment to the community pool. ",
+			"trans": "余剰装備をコミュニティの共有プールへ寄付する。"
+		},
+		"heroTitle": {
+			"eng": "ASSET RECLAMATION",
+			"trans": "アセット回収"
+		},
+		"itemCol": {
+			"eng": "Item",
+			"trans": "アイテム"
+		},
+		"noEligibleInventory": {
+			"eng": "No eligible stacks found in cargo",
+			"trans": "カーゴ内に該当スタック未検出"
+		},
+		"noEligibleItems": {
+			"eng": "No eligible items to donate.",
+			"trans": "寄付可能なアイテムがありません。"
+		},
+		"ownedVouchers": {
+			"eng": "VOUCHERS:",
+			"trans": "バウチャー:"
+		},
+		"pickerMaxUnits": {
+			"eng": "Max units: ${count}",
+			"trans": "最大ユニット数: ${count}",
+			"vars": [
+				"count"
+			]
+		},
+		"pickerOwnedAmount": {
+			"eng": "Owned: ${amount}",
+			"trans": "保有: ${amount}",
+			"vars": [
+				"amount"
+			]
+		},
+		"pickerTitle": {
+			"eng": "Select Donation Stack",
+			"trans": "寄付スタックを選択"
+		},
+		"qtyCol": {
+			"eng": "Qty",
+			"trans": "数量"
+		},
+		"redeem": {
+			"awaitingSelection": {
+				"eng": "Select a tier above to continue.",
+				"trans": "上のティアを選択して続行"
+			},
+			"awaitingSelectionBtn": {
+				"eng": "AWAITING SELECTION",
+				"trans": "選択待ち"
+			},
+			"emptyPoolErr": {
+				"eng": "The community pool is empty for this tier.",
+				"trans": "該当ティアのコミュニティプールが空です。"
+			},
+			"emptyPoolError": {
+				"eng": "Pool is empty for this tier.",
+				"trans": "このティアのプールは空です。"
+			},
+			"emptyStock": {
+				"eng": "STOCK DEPLETED",
+				"trans": "在庫切れ"
+			},
+			"executeMultiple": {
+				"eng": "REDEEM ${amount} VOUCHERS",
+				"trans": "バウチャー${amount}枚を引き換える",
+				"vars": [
+					"amount"
+				]
+			},
+			"executeSingle": {
+				"eng": "REDEEM 1 VOUCHER",
+				"trans": "クーポンを1枚引き換える"
+			},
+			"inboxWarning": {
+				"eng": "Rewards will be sent to your item inbox.",
+				"trans": "報酬はアイテム受信箱に送られます。"
+			},
+			"levelError": {
+				"eng": "Insufficient clearance level.",
+				"trans": "権限レベルが不足しています。"
+			},
+			"loadingBtn": {
+				"eng": "SYNCING...",
+				"trans": "同期中..."
+			},
+			"loadingPool": {
+				"eng": "CONNECTING TO DEPOT...",
+				"trans": "デポに接続中..."
+			},
+			"locked": {
+				"eng": "ACCESS DENIED (LVL ${level})",
+				"trans": "アクセス拒否 (LVL ${level})",
+				"vars": [
+					"level"
+				]
+			},
+			"noVouchersBtn": {
+				"eng": "INSUFFICIENT VOUCHERS",
+				"trans": "バウチャー不足"
+			},
+			"noVouchersErr": {
+				"eng": "No Vouchers available for this tier.",
+				"trans": "このティアで利用可能なバウチャーはありません。"
+			},
+			"processingBtn": {
+				"eng": "REDEEMING...",
+				"trans": "引き換え中..."
+			},
+			"readyMultiple": {
+				"eng": "Ready to consume ${amount} vouchers.",
+				"trans": "${amount}枚のバウチャーを消費可能です。",
+				"vars": [
+					"amount"
+				]
+			},
+			"readySingle": {
+				"eng": "Ready to consume 1 voucher.",
+				"trans": "バウチャー1枚を引き換える準備完了"
+			},
+			"requestCount": {
+				"eng": "Request Count",
+				"trans": "リクエスト数"
+			},
+			"sectionTitle": {
+				"eng": "VOUCHER REDEMPTION",
+				"trans": "バウチャー引き換え"
+			},
+			"sentToInboxMultiple": {
+				"eng": "Redeemed ${amount} ${tier} vouchers. Rewards sent to your item inbox.",
+				"trans": "${amount}個の${tier}バウチャーを引き換えました。報酬はアイテムインボックスに送付されました。",
+				"vars": [
+					"amount",
+					"tier"
+				]
+			},
+			"voucherMaxRequestCount": {
+				"eng": "Voucher Max ${amount}",
+				"trans": "バウチャー上限 ${amount}",
+				"vars": [
+					"amount"
+				]
+			}
+		},
+		"row": {
+			"ownedOnly": {
+				"eng": "Owned: ${amount}",
+				"trans": "所持: ${amount}",
+				"vars": [
+					"amount"
+				]
+			}
+		},
+		"totalCol": {
+			"eng": "Total Items",
+			"trans": "アイテム合計"
+		}
+	},
 	"referralPromo": {
 		"desc1": {
 			"eng": "Free Unit*",
@@ -12151,6 +12517,180 @@
 			"vars": [
 				"amount"
 			]
+		}
+	},
+	"springPop": {
+		"allStagesCleared": {
+			"eng": "All Stages Cleared!",
+			"trans": "全ステージクリア！"
+		},
+		"button": {
+			"subtitle": {
+				"eng": "TAP TO POP EGGS",
+				"trans": "タップで卵をポップ"
+			},
+			"title": {
+				"eng": "SPRING POP",
+				"trans": "スプリングポップ"
+			}
+		},
+		"calculating": {
+			"eng": "Calculating rewards...",
+			"trans": "報酬を計算中..."
+		},
+		"combo": {
+			"eng": "COMBO",
+			"trans": "コンボ"
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The Easter event has ended!",
+				"trans": "イースターイベント終了！"
+			},
+			"noPass": {
+				"eng": "You need an Easter Event Pass to play! Find them in dungeon chests or from AFK farming.",
+				"trans": "プレイするにはイースターイベントパスが必要です！ダンジョンの宝箱や、放置報酬から入手してください。"
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "CLOSE",
+				"trans": "閉じる"
+			},
+			"message": {
+				"eng": "The game encountered an error. Don't worry - your Pass was not consumed!",
+				"trans": "ゲーム内でエラーが発生しました。ご安心ください、パスは消費されていません！"
+			},
+			"title": {
+				"eng": "Game Error",
+				"trans": "ゲームエラー"
+			}
+		},
+		"failedStage": {
+			"eng": "You didn't reach the target score for Stage ${stage} in time.",
+			"trans": "ステージ ${stage} の目標スコアを時間内に達成できませんでした。",
+			"vars": [
+				"stage"
+			]
+		},
+		"finish": {
+			"eng": "Finish",
+			"trans": "終了"
+		},
+		"goodEffort": {
+			"eng": "Good Effort!",
+			"trans": "よくやった！"
+		},
+		"intro": {
+			"eventEnded": {
+				"eng": "EVENT ENDED",
+				"trans": "イベント終了"
+			},
+			"eventInactive": {
+				"eng": "Event is not currently active",
+				"trans": "イベントは現在開催されていません"
+			},
+			"howToGet": {
+				"eng": "Find passes in dungeon chests or from AFK farming during the event!",
+				"trans": "イベント期間中、ダンジョン宝箱や放置プレイでパスを入手可能！"
+			},
+			"howToPlay": {
+				"eng": "How to Play",
+				"trans": "遊び方"
+			},
+			"needPass": {
+				"eng": "NEED PASS",
+				"trans": "パスが必要"
+			},
+			"passesOwned": {
+				"eng": "Passes Owned:",
+				"trans": "所持パス:"
+			},
+			"rule1": {
+				"eng": "Tap groups of matching eggs to pop them",
+				"trans": "同じ卵の塊をタップして、ポップさせよう"
+			},
+			"rule2": {
+				"eng": "Larger groups = more points and combos",
+				"trans": "大きなグループ = ポイントとコンボが増加"
+			},
+			"rule3": {
+				"eng": "Reach the target score before time runs out",
+				"trans": "制限時間内に目標スコアを達成すること"
+			},
+			"rule4": {
+				"eng": "Watch out for Cracked Eggs — pop them before they turn to stone!",
+				"trans": "ひび割れた卵に注意 — 石化する前にポップしよう！"
+			},
+			"startButton": {
+				"eng": "START GAME",
+				"trans": "ゲーム開始"
+			},
+			"title": {
+				"eng": "Spring Pop",
+				"trans": "スプリング・ポップ"
+			}
+		},
+		"loading": {
+			"message": {
+				"eng": "Hiding the eggs...",
+				"trans": "エッグを隠蔽中..."
+			},
+			"title": {
+				"eng": "Loading Game...",
+				"trans": "ゲームをロード中..."
+			}
+		},
+		"nextStage": {
+			"eng": "Next Stage",
+			"trans": "次のステージ"
+		},
+		"noRewards": {
+			"eng": "No rewards obtained.",
+			"trans": "報酬を獲得できませんでした。"
+		},
+		"processing": {
+			"eng": "PROCESSING...",
+			"trans": "処理中..."
+		},
+		"rewards": {
+			"eng": "REWARDS",
+			"trans": "報酬"
+		},
+		"score": {
+			"eng": "SCORE",
+			"trans": "スコア"
+		},
+		"stage": {
+			"eng": "STAGE",
+			"trans": "ステージ"
+		},
+		"stageCleared": {
+			"eng": "Stage ${stage} Cleared",
+			"trans": "ステージ ${stage} クリア",
+			"vars": [
+				"stage"
+			]
+		},
+		"stageComplete": {
+			"eng": "Stage Complete!",
+			"trans": "ステージクリア!"
+		},
+		"stagesCompletedResult": {
+			"eng": "Completed ${completedStages}/${maxTier} Stages",
+			"trans": "ステージ ${completedStages}/${maxTier} クリア",
+			"vars": [
+				"completedStages",
+				"maxTier"
+			]
+		},
+		"timeUp": {
+			"eng": "Time's Up!",
+			"trans": "時間切れ！"
+		},
+		"viewResults": {
+			"eng": "View Results",
+			"trans": "結果を確認"
 		}
 	},
 	"statsType": {
@@ -13322,6 +13862,10 @@
 				"eng": "Daily Reward",
 				"trans": "デイリーログインボーナス"
 			},
+			"links": {
+				"eng": "Links",
+				"trans": "リンク"
+			},
 			"skipQueue": {
 				"eng": "Skip Queue",
 				"trans": "タイムスキップの待機列"
@@ -14026,6 +14570,10 @@
 			},
 			"quickSlots": {
 				"eng": "Quick Slots",
+				"tip": {
+					"eng": "Assign usable items to Quick Slots for quick access during battle.",
+					"trans": "戦闘中に素早くアクセスできるよう、使用可能なアイテムをクイックスロットに割り当ててください。"
+				},
 				"trans": "クイックスロット"
 			}
 		},
@@ -14168,10 +14716,6 @@
 				"eng": "Leaderboard",
 				"trans": "リーダーボード"
 			},
-			"links": {
-				"eng": "links",
-				"trans": "リンク"
-			},
 			"moderatorTools": {
 				"eng": "Mod Tools",
 				"trans": "モデレーター ツール"
@@ -14179,6 +14723,10 @@
 			"premiumShop": {
 				"eng": "Premium Shop",
 				"trans": "プレミアムショップ"
+			},
+			"promo": {
+				"eng": "Promo",
+				"trans": "キャンペーン"
 			},
 			"settings": {
 				"eng": "Settings",
@@ -14532,6 +15080,10 @@
 			"unlocked": {
 				"eng": "Unlocked",
 				"trans": "未ロック"
+			},
+			"upgradeModuleTip": {
+				"eng": "Upgrade modules enhance equipment stats; tap an empty slot to install one, or an installed module to remove it.",
+				"trans": "アップグレードモジュールは装備のステータスを強化します。空のスロットをタップして装着、または装着済みのモジュールをタップして解除できます。"
 			},
 			"upgradeModuleTitle": {
 				"eng": "upgrade slot ${index}",
@@ -15313,9 +15865,9 @@
 						"trans": "リスペクトを贈る"
 					}
 				},
-				"title": {
-					"eng": "Tutorials",
-					"trans": "チュートリアル"
+				"title2": {
+					"eng": "Miscellaneous",
+					"trans": "その他"
 				}
 			},
 			"globalParty": {
@@ -15361,6 +15913,20 @@
 					"eng": "Select min value",
 					"trans": "最小値を選択してください"
 				}
+			}
+		},
+		"reclamationDepot": {
+			"dataHeader": {
+				"eng": "SHARED POOL READOUT",
+				"trans": "共有プール・リードアウト"
+			},
+			"loadError": {
+				"eng": "Unable to load reclamation pool.",
+				"trans": "回収プールの読み込みに失敗しました。"
+			},
+			"poolUpdateNote": {
+				"eng": "// COUNTS UPDATED PERIODICALLY",
+				"trans": "/// 数値は定期的に更新されます"
 			}
 		},
 		"register": {
@@ -15482,6 +16048,16 @@
 				"title": {
 					"eng": "Disable Victory Screen",
 					"trans": "戦闘リザルト画面を表示しない"
+				}
+			},
+			"disableWelcomeTutorial": {
+				"description": {
+					"eng": "Hide the first login welcome tutorial modal until you turn this back off",
+					"trans": "この設定をオフにするまで、初回ログイン時のウェルカムチュートリアルモーダルを非表示にします"
+				},
+				"title": {
+					"eng": "Disable Welcome Tutorial",
+					"trans": "ウェルカムチュートリアルの無効化"
 				}
 			},
 			"enableApartmentWall": {
@@ -15910,6 +16486,10 @@
 				"eng": "quests",
 				"trans": "クエスト"
 			},
+			"reclamationDepot": {
+				"eng": "Reclamation Depot",
+				"trans": "回収拠点"
+			},
 			"referral": {
 				"eng": "referral",
 				"trans": "新規ユーザーへの紹介"
@@ -16069,6 +16649,146 @@
 		"title": {
 			"eng": "Valentine Event",
 			"trans": "バレンタインイベント"
+		}
+	},
+	"voucherTier": {
+		"high": {
+			"eng": "High",
+			"trans": "ハイ"
+		},
+		"low": {
+			"eng": "Low",
+			"trans": "低"
+		}
+	},
+	"welcome": {
+		"afk": {
+			"headline": {
+				"eng": "Progress While Offline",
+				"trans": "オフライン進捗"
+			},
+			"sentence": {
+				"eng": "Start a task before logging off to continue gathering resources and leveling up in the background.",
+				"trans": "ログオフ前にタスクを開始すれば、バックグラウンドでのリソース収集とレベルアップを継続できます。"
+			}
+		},
+		"animation": {
+			"asset": {
+				"eng": "Asset",
+				"trans": "アセット"
+			},
+			"autotask": {
+				"eng": "AUTOTASK",
+				"trans": "オートタスク"
+			},
+			"buy": {
+				"eng": "EXECUTE: BUY",
+				"trans": "実行: 購入"
+			},
+			"chat1": {
+				"eng": "LFG Abandoned Factory, need healer.",
+				"trans": "廃工場、ヒーラー求む。"
+			},
+			"chat2": {
+				"eng": "Inv, I got medkits.",
+				"trans": "インベントリ、メドキットはある。"
+			},
+			"chat3": {
+				"eng": "Global Buff Activated by Kael",
+				"trans": "Kaelによる全体バフ発動"
+			},
+			"efficiency": {
+				"eng": "Efficiency",
+				"trans": "効率"
+			},
+			"price": {
+				"eng": "Lowest Price",
+				"trans": "最安値"
+			},
+			"reverse_engineering": {
+				"eng": "REVERSE_ENGINEERING",
+				"trans": "リバースエンジニアリング"
+			},
+			"system": {
+				"eng": "System:",
+				"trans": "システム:"
+			},
+			"waiting": {
+				"eng": "WAITING FOR ORDERS...",
+				"trans": "命令待機中..."
+			},
+			"yield_acquired": {
+				"eng": "YIELD ACQUIRED",
+				"trans": "収益獲得"
+			}
+		},
+		"cta": {
+			"done": {
+				"eng": "Start Playing",
+				"trans": "プレイ開始"
+			},
+			"next": {
+				"eng": "Next",
+				"trans": "次へ"
+			}
+		},
+		"economy": {
+			"headline": {
+				"eng": "Player-Driven Economy",
+				"trans": "プレイヤー主導の経済"
+			},
+			"sentence": {
+				"eng": "Every item in the market is crafted and traded by real players like you.",
+				"trans": "市場のアイテムはすべて、あなたと同じプレイヤーによって製作・取引されています。"
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "Continue",
+				"trans": "続行"
+			},
+			"description": {
+				"eng": "Your character was created successfully. You can continue playing normally.",
+				"trans": "キャラクター作成完了。引き続き、通常通りプレイ可能です。"
+			},
+			"title": {
+				"eng": "Welcome Screen Failed to Load",
+				"trans": "ウェルカムスクリーンのロード失敗"
+			}
+		},
+		"fairness": {
+			"headline": {
+				"eng": "Zero Pay-To-Win",
+				"trans": "Pay-to-winゼロ"
+			},
+			"sentence": {
+				"eng": "All premium buffs are shared globally across the server. When someone supports the game, the entire community benefits and progresses together.",
+				"trans": "すべてのプレミアムバフはサーバー全体で共有されます。誰かがゲームを支援すれば、コミュニティ全体がその恩恵を受け、共にさらなる進展へと向かいます。"
+			}
+		},
+		"loading": {
+			"title": {
+				"eng": "Initializing Welcome Sequence",
+				"trans": "ウェルカム・シーケンスを初期化中"
+			}
+		},
+		"skip": {
+			"eng": "Skip",
+			"trans": "スキップ"
+		},
+		"splash": {
+			"connection": {
+				"eng": "// Connection Established",
+				"trans": "// 接続確立"
+			},
+			"sys_init": {
+				"eng": "Sys.Init_Seq.01",
+				"trans": "システム初期化シーケンス 01"
+			},
+			"welcome": {
+				"eng": "Welcome To",
+				"trans": "ようこそ"
+			}
 		}
 	}
 }

@@ -41,6 +41,10 @@
 				"eventName"
 			]
 		},
+		"bonusUnits": {
+			"eng": "Bonus Units",
+			"trans": "Bonus Eenheden"
+		},
 		"currency": {
 			"paypalExclusive": {
 				"eng": "PayPal Exclusive!",
@@ -1788,6 +1792,10 @@
 			"eng": "Got it",
 			"trans": "Begrepen"
 		},
+		"max": {
+			"eng": "MAX",
+			"trans": "MAX"
+		},
 		"owned": {
 			"eng": "Owned",
 			"trans": "Eigen"
@@ -1796,9 +1804,17 @@
 			"eng": "Purchase",
 			"trans": "Kopen"
 		},
+		"retry": {
+			"eng": "RETRY CONNECTION",
+			"trans": "Opnieuw verbinden"
+		},
 		"save": {
 			"eng": "Save",
 			"trans": "Opslaan"
+		},
+		"warning": {
+			"eng": "Warning",
+			"trans": "Waarschuwing"
 		}
 	},
 	"component": {
@@ -2408,6 +2424,10 @@
 			"eng": "Cybernetic Potato",
 			"trans": "Cybernetische aardappel"
 		},
+		"donation50": {
+			"eng": "Netrunner",
+			"trans": "Netrunner"
+		},
 		"donation6": {
 			"eng": "Prestige",
 			"trans": "Prestige"
@@ -2676,6 +2696,10 @@
 				"eng": "DUMPLING MASTER",
 				"trans": "DUMPLING MEESTER!"
 			},
+			"noRewards": {
+				"eng": "NO REWARDS RECORDED",
+				"trans": "GEEN BELONINGEN GEREGISTREERD"
+			},
 			"rewards": {
 				"eng": "MISSION REWARDS",
 				"trans": "Beloningen"
@@ -2943,31 +2967,17 @@
 		}
 	},
 	"easterPromo": {
-		"desc1": {
-			"eng": "Spring has arrived, and it's time for the Easter celebration! Hunt for hidden chocolate bunnies throughout the game.",
-			"trans": "De lente is hier, tijd voor het Paasfeest! Speur naar verborgen chocolade paaseitjes door het hele spel."
-		},
-		"dropBenefit1": {
-			"eng": "Enemies and AFK farming have a chance to drop ${item}!",
-			"trans": "Versla vijanden of ga offline farmen en maak kans op ${item}!",
-			"vars": [
-				"item"
-			]
-		},
-		"smallDesc": {
-			"eng": "Find ${item} for EXP boosts!",
-			"trans": "Haal ${item} binnen voor EXP-boosts!",
-			"vars": [
-				"item"
-			]
-		},
-		"specialBenefits": {
-			"eng": "Special Event Benefits:",
-			"trans": "De Voordelen van dit Speciale Event:"
-		},
 		"title": {
 			"eng": "Easter Celebration",
 			"trans": "Paasviering"
+		},
+		"tokenDesc": {
+			"eng": "Spring has arrived, and it's time for the Easter celebration! Hunt for ${item} throughout the game and trade them at ${npcName}'s spring market.",
+			"trans": "De lente is aangebroken, en het is tijd voor het Paasfeest! Speur door het spel naar ${item} en verhandel ze op de lentemarkt van ${npcName}.",
+			"vars": [
+				"item",
+				"npcName"
+			]
 		}
 	},
 	"emblems": {
@@ -3777,6 +3787,10 @@
 		},
 		"easter": {
 			"eng": "Easter",
+			"springPop": {
+				"eng": "Spring Pop",
+				"trans": "Lentesprong"
+			},
 			"trans": "Pasen"
 		},
 		"halloween": {
@@ -4975,6 +4989,26 @@
 				"trans": "Dungeon Token"
 			}
 		},
+		"easterEventPass": {
+			"description": {
+				"eng": "A special pass required to participate in the Spring Pop event game. Can be found in Dungeon Chests or from AFK farming during the Easter event.",
+				"trans": "Speciale pas vereist voor deelname aan het Spring Pop evenement. Te vinden in Dungeon-kisten of via AFK-farming tijdens het Pasen-evenement."
+			},
+			"name": {
+				"eng": "Easter Event Pass",
+				"trans": "Pasen Event Pass"
+			}
+		},
+		"easterToken": {
+			"description": {
+				"eng": "Cracked shell fragments stamped with Eggbert's spring market seal. Trade them in for Easter event supplies before the season ends.",
+				"trans": "Gebarsten schaalfragmenten, gestempeld met het zegel van de voorjaarsmarkt van Eggbert. Wissel ze in voor benodigdheden voor het Paas-evenement voordat het seizoen eindigt."
+			},
+			"name": {
+				"eng": "Egg Shell Token",
+				"trans": "Eierschaal Token"
+			}
+		},
 		"energyCell": {
 			"desc": {
 				"eng": "Miniaturized fusion cell designed to power apartment furniture systems. Extracted from crashed corporate drones along Crystal Sands before cleanup crews arrive.",
@@ -5681,6 +5715,26 @@
 			"name": {
 				"eng": "Rare Equipment Crate",
 				"trans": "Zeldzame apparatuurkrat"
+			}
+		},
+		"reclamationDepotVoucherHigh": {
+			"desc": {
+				"eng": "Voucher used for reclamation depot redemption. This voucher maps to High tier rewards.",
+				"trans": "Voucher voor inwisseling bij het reclamation depot. Deze voucher is gekoppeld aan beloningen van het hoogste niveau."
+			},
+			"name": {
+				"eng": "High Reclamation Voucher",
+				"trans": "Hoogwaardige Terugvorderingsvoucher"
+			}
+		},
+		"reclamationDepotVoucherLow": {
+			"desc": {
+				"eng": "Voucher used for reclamation depot redemption. This voucher maps to Low tier rewards.",
+				"trans": "Voucher voor inwisseling bij het reclamation depot. Geeft lage-tier beloningen."
+			},
+			"name": {
+				"eng": "Low Reclamation Voucher",
+				"trans": "Lage terugvinningsvoucher"
 			}
 		},
 		"rename": {
@@ -7710,10 +7764,6 @@
 				"eng": "Vow Phrase",
 				"trans": "Eedzin"
 			},
-			"vowPlaceholder": {
-				"eng": "Write your romantic vow here...",
-				"trans": "Schrijf hier je liefdesgelofte..."
-			},
 			"vowTooLong": {
 				"eng": "Vow phrase must be 64 words or less",
 				"trans": "Het geloftespel moet maximaal 64 woorden bevatten"
@@ -8579,24 +8629,6 @@
 				}
 			}
 		},
-		"newbieTutorial": {
-			"closeButton": {
-				"title": {
-					"eng": "Close",
-					"trans": "Dichtbij"
-				}
-			},
-			"noShowToggle": {
-				"description": {
-					"eng": "You can see the full tutorial at Profile > Tutorial tab",
-					"trans": "Je kunt de volledige tutorial bekijken op profiel> Tutorial Tab"
-				},
-				"label": {
-					"eng": "Don't show this again",
-					"trans": "Laat dit niet opnieuw zien"
-				}
-			}
-		},
 		"playerSearch": {
 			"noPlayerFound": {
 				"eng": "No player named \"${search}\" found",
@@ -8883,6 +8915,10 @@
 		"nextStageIn": {
 			"eng": "Next Stage in",
 			"trans": "Volgende fase over"
+		},
+		"noRewards": {
+			"eng": "No rewards obtained.",
+			"trans": "Geen beloningen ontvangen."
 		},
 		"pleaseWait": {
 			"eng": "Calculating rewards...",
@@ -9267,6 +9303,28 @@
 				"trans": "Als je het spel leuk vindt, overweeg dan te doneren :)"
 			}
 		},
+		"easter": {
+			"defaultLines": {
+				"eng": [
+					"I'm Eggbert, and I've got an egg-cellent challenge for you.",
+					"Fancy a round of Spring Pop? Match those eggs before time runs out!",
+					"Stay sharp, don't crack under pressure, and let's get popping."
+				],
+				"trans": [
+					"Ik ben Eggbert, en ik heb een eier-spectaculaire uitdaging voor je.",
+					"Zin in een potje Spring Pop? Match die eieren voordat de tijd op is!",
+					"Blijf scherp, laat je niet kisten onder druk, en laten we knallen."
+				]
+			},
+			"name": {
+				"eng": "Eggbert",
+				"trans": "Ei-bert"
+			},
+			"npcName": {
+				"eng": "Eggbert",
+				"trans": "Eggbert"
+			}
+		},
 		"equipmentExchange": {
 			"canAccessError": {
 				"eng": "You need to be at least level 15 to access the Equipment Exchange",
@@ -9499,6 +9557,16 @@
 			"tut": {
 				"eng": "You can use your Cache to print new equipment here",
 				"trans": "Je kunt hier je Cache gebruiken om nieuwe uitrusting te printen"
+			}
+		},
+		"reclamationDepot": {
+			"description": {
+				"eng": "Exchange items for vouchers and redeem vouchers for pooled rewards.",
+				"trans": "Ruil items voor vouchers en verzilver deze voor gezamenlijke beloningen."
+			},
+			"name": {
+				"eng": "Reclamation Depot",
+				"trans": "Terugwinningsdepot"
 			}
 		},
 		"recycleMachine": {
@@ -11088,6 +11156,304 @@
 			"trans": "Moleculaire Fabricage"
 		}
 	},
+	"reclamationDepot": {
+		"addStack": {
+			"eng": "Add Stack",
+			"trans": "Stapel toevoegen"
+		},
+		"addStackHint": {
+			"eng": "Open picker",
+			"trans": "Open selectiemenu"
+		},
+		"allItemsQueued": {
+			"eng": "All eligible stacks are already queued",
+			"trans": "Alle geldige stacks staan al in de wachtrij"
+		},
+		"confirmDonateBtn": {
+			"eng": "CONFIRM DONATE",
+			"trans": "DONATIE BEVESTIGEN"
+		},
+		"confirmInlineDesc": {
+			"eng": "This will donate ${count} selected stack(s) and cannot be undone.",
+			"trans": "Hiermee doneer je ${count} geselecteerde stack(s) en is dit onomkeerbaar.",
+			"vars": [
+				"count"
+			]
+		},
+		"confirmInlineTitle": {
+			"eng": "Confirm Batch Donation",
+			"trans": "Batchdonatie bevestigen"
+		},
+		"donate": {
+			"levelBadge": {
+				"eng": "LVL ${level} REQUIRED",
+				"trans": "LEVEL ${level} NODIG",
+				"vars": [
+					"level"
+				]
+			},
+			"levelError": {
+				"eng": "Donation clearance not granted.",
+				"trans": "Donatie-autorisatie niet verleend."
+			},
+			"levelRequirement": {
+				"eng": "Reach level ${level} to donate items to the reclamation depot.",
+				"trans": "Bereik level ${level} om items te doneren aan het recyclingdepot.",
+				"vars": [
+					"level"
+				]
+			},
+			"locked": {
+				"eng": "ACCESS DENIED (LVL ${level})",
+				"trans": "TOEGANG WEIGERD (NIV ${level})",
+				"vars": [
+					"level"
+				]
+			}
+		},
+		"donateBtn": {
+			"eng": "DONATE",
+			"trans": "DONEREN"
+		},
+		"donateItemsCTA": {
+			"eng": "DONATE ITEMS",
+			"trans": "ITEMS DONEREN"
+		},
+		"donateSuccessItem": {
+			"eng": "You have successfully donated ${items} and received ${voucherRewards}",
+			"trans": "Je hebt ${items} succesvol gedoneerd en ${voucherRewards} ontvangen",
+			"vars": [
+				"items",
+				"voucherRewards"
+			]
+		},
+		"donateSuccessNoItem": {
+			"eng": "You have successfully donated ${items}",
+			"trans": "Donatie van ${items} is geslaagd",
+			"vars": [
+				"items"
+			]
+		},
+		"donateTitle": {
+			"eng": "Donate Items",
+			"trans": "Items doneren"
+		},
+		"eligibleCount": {
+			"eng": "${count} available",
+			"trans": "${count} beschikbaar",
+			"vars": [
+				"count"
+			]
+		},
+		"emptySlotHint": {
+			"eng": "Tap to choose a donation stack",
+			"trans": "Tik om een donatiestapel te selecteren"
+		},
+		"emptySlotTitle": {
+			"eng": "No Item Selected",
+			"trans": "Geen item geselecteerd"
+		},
+		"error": {
+			"donateLevelRequirement": {
+				"eng": "You need to be at least level ${donateMinLevel} to donate",
+				"trans": "Je hebt minimaal level ${donateMinLevel} nodig om te doneren"
+			},
+			"levelLow": {
+				"eng": "Level ${level} required to redeem",
+				"trans": "Level ${level} vereist om in te wisselen",
+				"vars": [
+					"level"
+				]
+			},
+			"levelRequirement": {
+				"eng": "You need to be at least level ${minLevel} to redeem",
+				"trans": "Je moet minimaal level ${minLevel} zijn om te claimen"
+			},
+			"noPooledItems": {
+				"eng": "Selected tier has no pooled items. Your voucher was not consumed",
+				"trans": "De gekozen tier bevat geen items in de pool. Je voucher is niet verbruikt"
+			},
+			"outOfStock": {
+				"eng": "Selected pool item is out of stock. Your voucher was not consumed",
+				"trans": "Geselecteerd item uit de pool is niet op voorraad. Je voucher is niet verbruikt"
+			}
+		},
+		"footerSelectedStacks": {
+			"eng": "Selected stacks: ${count}",
+			"trans": "Geselecteerde stapels: ${count}",
+			"vars": [
+				"count"
+			]
+		},
+		"footerTotalConsume": {
+			"eng": "Total consume: ${count}",
+			"trans": "Totaal verbruik: ${count}",
+			"vars": [
+				"count"
+			]
+		},
+		"heroDesc": {
+			"eng": "Donate your surplus equipment to the community pool. ",
+			"trans": "Doneer je overtollige uitrusting aan de gezamenlijke voorraad"
+		},
+		"heroTitle": {
+			"eng": "ASSET RECLAMATION",
+			"trans": "Asset-terugvordering"
+		},
+		"itemCol": {
+			"eng": "Item",
+			"trans": "Item"
+		},
+		"noEligibleInventory": {
+			"eng": "No eligible stacks found in cargo",
+			"trans": "Geen geschikte stapels gevonden in de vracht"
+		},
+		"noEligibleItems": {
+			"eng": "No eligible items to donate.",
+			"trans": "Geen geschikte items om te doneren."
+		},
+		"ownedVouchers": {
+			"eng": "VOUCHERS:",
+			"trans": "VOUCHERS:"
+		},
+		"pickerMaxUnits": {
+			"eng": "Max units: ${count}",
+			"trans": "Max. eenheden: ${count}",
+			"vars": [
+				"count"
+			]
+		},
+		"pickerOwnedAmount": {
+			"eng": "Owned: ${amount}",
+			"trans": "In bezit: ${amount}",
+			"vars": [
+				"amount"
+			]
+		},
+		"pickerTitle": {
+			"eng": "Select Donation Stack",
+			"trans": "Selecteer donatiestapel"
+		},
+		"qtyCol": {
+			"eng": "Qty",
+			"trans": "Aantal"
+		},
+		"redeem": {
+			"awaitingSelection": {
+				"eng": "Select a tier above to continue.",
+				"trans": "Selecteer een niveau hierboven om door te gaan."
+			},
+			"awaitingSelectionBtn": {
+				"eng": "AWAITING SELECTION",
+				"trans": "Wacht op selectie"
+			},
+			"emptyPoolErr": {
+				"eng": "The community pool is empty for this tier.",
+				"trans": "De communitypool is leeg voor deze tier."
+			},
+			"emptyPoolError": {
+				"eng": "Pool is empty for this tier.",
+				"trans": "Geen aanbod beschikbaar voor deze tier"
+			},
+			"emptyStock": {
+				"eng": "STOCK DEPLETED",
+				"trans": "Voorraad uitgeput"
+			},
+			"executeMultiple": {
+				"eng": "REDEEM ${amount} VOUCHERS",
+				"trans": "${amount} VOUCHERS INWISSEN",
+				"vars": [
+					"amount"
+				]
+			},
+			"executeSingle": {
+				"eng": "REDEEM 1 VOUCHER",
+				"trans": "1 VOUCHER INWISSELEN"
+			},
+			"inboxWarning": {
+				"eng": "Rewards will be sent to your item inbox.",
+				"trans": "Beloningen worden naar je item-inbox verzonden."
+			},
+			"levelError": {
+				"eng": "Insufficient clearance level.",
+				"trans": "Onvoldoende toegangsniveau."
+			},
+			"loadingBtn": {
+				"eng": "SYNCING...",
+				"trans": "SYNCEN..."
+			},
+			"loadingPool": {
+				"eng": "CONNECTING TO DEPOT...",
+				"trans": "VERBINDEN MET DEPOT..."
+			},
+			"locked": {
+				"eng": "ACCESS DENIED (LVL ${level})",
+				"trans": "TOEGANG WEIGERD (NIV ${level})",
+				"vars": [
+					"level"
+				]
+			},
+			"noVouchersBtn": {
+				"eng": "INSUFFICIENT VOUCHERS",
+				"trans": "Onvoldoende vouchers"
+			},
+			"noVouchersErr": {
+				"eng": "No Vouchers available for this tier.",
+				"trans": "Geen voucher beschikbaar voor deze tier."
+			},
+			"processingBtn": {
+				"eng": "REDEEMING...",
+				"trans": "INWISSELEN..."
+			},
+			"readyMultiple": {
+				"eng": "Ready to consume ${amount} vouchers.",
+				"trans": "Klaar om ${amount} vouchers te gebruiken.",
+				"vars": [
+					"amount"
+				]
+			},
+			"readySingle": {
+				"eng": "Ready to consume 1 voucher.",
+				"trans": "Klaar om 1 voucher in te wisselen."
+			},
+			"requestCount": {
+				"eng": "Request Count",
+				"trans": "Aantal aanvragen"
+			},
+			"sectionTitle": {
+				"eng": "VOUCHER REDEMPTION",
+				"trans": "VOUCHER INWISSELING"
+			},
+			"sentToInboxMultiple": {
+				"eng": "Redeemed ${amount} ${tier} vouchers. Rewards sent to your item inbox.",
+				"trans": "${amount} ${tier} vouchers ingewisseld. Beloningen naar je item-inbox verstuurd.",
+				"vars": [
+					"amount",
+					"tier"
+				]
+			},
+			"voucherMaxRequestCount": {
+				"eng": "Voucher Max ${amount}",
+				"trans": "Maximaal ${amount} vouchers",
+				"vars": [
+					"amount"
+				]
+			}
+		},
+		"row": {
+			"ownedOnly": {
+				"eng": "Owned: ${amount}",
+				"trans": "In bezit: ${amount}",
+				"vars": [
+					"amount"
+				]
+			}
+		},
+		"totalCol": {
+			"eng": "Total Items",
+			"trans": "Totaal aantal items"
+		}
+	},
 	"referralPromo": {
 		"desc1": {
 			"eng": "Free Unit*",
@@ -11938,6 +12304,180 @@
 			"vars": [
 				"amount"
 			]
+		}
+	},
+	"springPop": {
+		"allStagesCleared": {
+			"eng": "All Stages Cleared!",
+			"trans": "Alle levels voltooid!"
+		},
+		"button": {
+			"subtitle": {
+				"eng": "TAP TO POP EGGS",
+				"trans": "Tik om eieren te poppen"
+			},
+			"title": {
+				"eng": "SPRING POP",
+				"trans": "SPRING POP"
+			}
+		},
+		"calculating": {
+			"eng": "Calculating rewards...",
+			"trans": "Beloningen berekenen..."
+		},
+		"combo": {
+			"eng": "COMBO",
+			"trans": "COMBO"
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The Easter event has ended!",
+				"trans": "Het Paas-event is afgelopen!"
+			},
+			"noPass": {
+				"eng": "You need an Easter Event Pass to play! Find them in dungeon chests or from AFK farming.",
+				"trans": "Je hebt een Easter Event Pass nodig om te spelen! Vind ze in dungeon-kisten of via AFK farming."
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "CLOSE",
+				"trans": "Sluiten"
+			},
+			"message": {
+				"eng": "The game encountered an error. Don't worry - your Pass was not consumed!",
+				"trans": "Er is een fout opgetreden in de game. Geen zorgen - je Pass is niet verbruikt!"
+			},
+			"title": {
+				"eng": "Game Error",
+				"trans": "Fout in de game"
+			}
+		},
+		"failedStage": {
+			"eng": "You didn't reach the target score for Stage ${stage} in time.",
+			"trans": "Je hebt de doelscore voor Stage ${stage} niet op tijd behaald.",
+			"vars": [
+				"stage"
+			]
+		},
+		"finish": {
+			"eng": "Finish",
+			"trans": "Voltooien"
+		},
+		"goodEffort": {
+			"eng": "Good Effort!",
+			"trans": "Lekker bezig!"
+		},
+		"intro": {
+			"eventEnded": {
+				"eng": "EVENT ENDED",
+				"trans": "EVENT BEËINDIGD"
+			},
+			"eventInactive": {
+				"eng": "Event is not currently active",
+				"trans": "Event is niet momenteel actief"
+			},
+			"howToGet": {
+				"eng": "Find passes in dungeon chests or from AFK farming during the event!",
+				"trans": "Scoor passes uit dungeon kisten of via AFK farming tijdens het event!"
+			},
+			"howToPlay": {
+				"eng": "How to Play",
+				"trans": "Hoe te spelen"
+			},
+			"needPass": {
+				"eng": "NEED PASS",
+				"trans": "PAS NODIG"
+			},
+			"passesOwned": {
+				"eng": "Passes Owned:",
+				"trans": "Passes in bezit:"
+			},
+			"rule1": {
+				"eng": "Tap groups of matching eggs to pop them",
+				"trans": "Tik op groepen met dezelfde eieren om ze te laten knappen"
+			},
+			"rule2": {
+				"eng": "Larger groups = more points and combos",
+				"trans": "Grotere groepen = meer punten en combo's"
+			},
+			"rule3": {
+				"eng": "Reach the target score before time runs out",
+				"trans": "Behaal de doelscore voordat de tijd om is"
+			},
+			"rule4": {
+				"eng": "Watch out for Cracked Eggs — pop them before they turn to stone!",
+				"trans": "Pas op voor gebarsten eieren — pop ze voordat ze verstenen!"
+			},
+			"startButton": {
+				"eng": "START GAME",
+				"trans": "START SPEL"
+			},
+			"title": {
+				"eng": "Spring Pop",
+				"trans": "Lentesprong"
+			}
+		},
+		"loading": {
+			"message": {
+				"eng": "Hiding the eggs...",
+				"trans": "Eieren verstoppen..."
+			},
+			"title": {
+				"eng": "Loading Game...",
+				"trans": "Game laden..."
+			}
+		},
+		"nextStage": {
+			"eng": "Next Stage",
+			"trans": "Volgende fase"
+		},
+		"noRewards": {
+			"eng": "No rewards obtained.",
+			"trans": "Geen beloningen ontvangen."
+		},
+		"processing": {
+			"eng": "PROCESSING...",
+			"trans": "VERWERKEN..."
+		},
+		"rewards": {
+			"eng": "REWARDS",
+			"trans": "Beloningen"
+		},
+		"score": {
+			"eng": "SCORE",
+			"trans": "Score"
+		},
+		"stage": {
+			"eng": "STAGE",
+			"trans": "Level"
+		},
+		"stageCleared": {
+			"eng": "Stage ${stage} Cleared",
+			"trans": "Stage ${stage} voltooid",
+			"vars": [
+				"stage"
+			]
+		},
+		"stageComplete": {
+			"eng": "Stage Complete!",
+			"trans": "Level voltooid!"
+		},
+		"stagesCompletedResult": {
+			"eng": "Completed ${completedStages}/${maxTier} Stages",
+			"trans": "${completedStages}/${maxTier} Stages voltooid",
+			"vars": [
+				"completedStages",
+				"maxTier"
+			]
+		},
+		"timeUp": {
+			"eng": "Time's Up!",
+			"trans": "De tijd is om!"
+		},
+		"viewResults": {
+			"eng": "View Results",
+			"trans": "Bekijk resultaten"
 		}
 	},
 	"statsType": {
@@ -13109,6 +13649,10 @@
 				"eng": "Daily Reward",
 				"trans": "Dagelijkse beloning"
 			},
+			"links": {
+				"eng": "Links",
+				"trans": "Links"
+			},
 			"skipQueue": {
 				"eng": "Skip Queue",
 				"trans": "Wachtrij"
@@ -13813,6 +14357,10 @@
 			},
 			"quickSlots": {
 				"eng": "Quick Slots",
+				"tip": {
+					"eng": "Assign usable items to Quick Slots for quick access during battle.",
+					"trans": "Wijs bruikbare items toe aan Quick Slots voor snelle toegang tijdens het gevecht."
+				},
 				"trans": "Snelle slots"
 			}
 		},
@@ -13955,10 +14503,6 @@
 				"eng": "Leaderboard",
 				"trans": "Scorebord"
 			},
-			"links": {
-				"eng": "links",
-				"trans": "koppelingen"
-			},
 			"moderatorTools": {
 				"eng": "Mod Tools",
 				"trans": "Moderatiehulpmiddelen"
@@ -13966,6 +14510,10 @@
 			"premiumShop": {
 				"eng": "Premium Shop",
 				"trans": "Premiumwinkel"
+			},
+			"promo": {
+				"eng": "Promo",
+				"trans": "Actie"
 			},
 			"settings": {
 				"eng": "Settings",
@@ -14319,6 +14867,10 @@
 			"unlocked": {
 				"eng": "Unlocked",
 				"trans": "Ontgrendeld"
+			},
+			"upgradeModuleTip": {
+				"eng": "Upgrade modules enhance equipment stats; tap an empty slot to install one, or an installed module to remove it.",
+				"trans": "Upgrade-modules verbeteren de stats van je gear; tik op een leeg slot om er een te installeren, of op een geïnstalleerde module om deze te verwijderen."
 			},
 			"upgradeModuleTitle": {
 				"eng": "upgrade slot ${index}",
@@ -15100,9 +15652,9 @@
 						"trans": "Geef Straatcredit"
 					}
 				},
-				"title": {
-					"eng": "Tutorials",
-					"trans": "Tutorials"
+				"title2": {
+					"eng": "Miscellaneous",
+					"trans": "Overig"
 				}
 			},
 			"globalParty": {
@@ -15148,6 +15700,20 @@
 					"eng": "Select min value",
 					"trans": "Selecteer MIN-waarde"
 				}
+			}
+		},
+		"reclamationDepot": {
+			"dataHeader": {
+				"eng": "SHARED POOL READOUT",
+				"trans": "UITLEZING GEDEELDE POOL"
+			},
+			"loadError": {
+				"eng": "Unable to load reclamation pool.",
+				"trans": "Terugwinningspool kan niet worden geladen."
+			},
+			"poolUpdateNote": {
+				"eng": "// COUNTS UPDATED PERIODICALLY",
+				"trans": "/// AANTALLEN PERIODIEK BIJGEWERKT"
 			}
 		},
 		"register": {
@@ -15269,6 +15835,16 @@
 				"title": {
 					"eng": "Disable Victory Screen",
 					"trans": "Schakel het scherm van de overwinning uit"
+				}
+			},
+			"disableWelcomeTutorial": {
+				"description": {
+					"eng": "Hide the first login welcome tutorial modal until you turn this back off",
+					"trans": "Verberg de welkomsttutorial bij de eerste login totdat je dit weer uitschakelt"
+				},
+				"title": {
+					"eng": "Disable Welcome Tutorial",
+					"trans": "Welkomstutorial uitschakelen"
 				}
 			},
 			"enableApartmentWall": {
@@ -15697,6 +16273,10 @@
 				"eng": "quests",
 				"trans": "speurtochten"
 			},
+			"reclamationDepot": {
+				"eng": "Reclamation Depot",
+				"trans": "Terugwinningsdepot"
+			},
 			"referral": {
 				"eng": "referral",
 				"trans": "doorverwijzing"
@@ -15856,6 +16436,146 @@
 		"title": {
 			"eng": "Valentine Event",
 			"trans": "Valentijns evenement"
+		}
+	},
+	"voucherTier": {
+		"high": {
+			"eng": "High",
+			"trans": "Hoog"
+		},
+		"low": {
+			"eng": "Low",
+			"trans": "Laag"
+		}
+	},
+	"welcome": {
+		"afk": {
+			"headline": {
+				"eng": "Progress While Offline",
+				"trans": "Voortgang tijdens offline-modus"
+			},
+			"sentence": {
+				"eng": "Start a task before logging off to continue gathering resources and leveling up in the background.",
+				"trans": "Start een missie voordat je uitlogt om op de achtergrond resources te blijven verzamelen en te levelen."
+			}
+		},
+		"animation": {
+			"asset": {
+				"eng": "Asset",
+				"trans": "Asset"
+			},
+			"autotask": {
+				"eng": "AUTOTASK",
+				"trans": "AUTOTAAK"
+			},
+			"buy": {
+				"eng": "EXECUTE: BUY",
+				"trans": "UITVOERDER: KOPEN"
+			},
+			"chat1": {
+				"eng": "LFG Abandoned Factory, need healer.",
+				"trans": "LFG Verlaten fabriek, zoek healer."
+			},
+			"chat2": {
+				"eng": "Inv, I got medkits.",
+				"trans": "Inv, ik heb medkits."
+			},
+			"chat3": {
+				"eng": "Global Buff Activated by Kael",
+				"trans": "Globale buff geactiveerd door Kael"
+			},
+			"efficiency": {
+				"eng": "Efficiency",
+				"trans": "Efficiëntie"
+			},
+			"price": {
+				"eng": "Lowest Price",
+				"trans": "Laagste prijs"
+			},
+			"reverse_engineering": {
+				"eng": "REVERSE_ENGINEERING",
+				"trans": "Reverse engineering"
+			},
+			"system": {
+				"eng": "System:",
+				"trans": "Systeem:"
+			},
+			"waiting": {
+				"eng": "WAITING FOR ORDERS...",
+				"trans": "WACHT OP OPDRACHTEN..."
+			},
+			"yield_acquired": {
+				"eng": "YIELD ACQUIRED",
+				"trans": "Opbrengst verkregen"
+			}
+		},
+		"cta": {
+			"done": {
+				"eng": "Start Playing",
+				"trans": "Speel nu"
+			},
+			"next": {
+				"eng": "Next",
+				"trans": "Volgende"
+			}
+		},
+		"economy": {
+			"headline": {
+				"eng": "Player-Driven Economy",
+				"trans": "Speler-gestuurde economie"
+			},
+			"sentence": {
+				"eng": "Every item in the market is crafted and traded by real players like you.",
+				"trans": "Elk item op de markt wordt gemaakt en verhandeld door echte spelers zoals jij."
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "Continue",
+				"trans": "Doorgaan"
+			},
+			"description": {
+				"eng": "Your character was created successfully. You can continue playing normally.",
+				"trans": "Je personage is succesvol aangemaakt. Je kunt gewoon verder spelen."
+			},
+			"title": {
+				"eng": "Welcome Screen Failed to Load",
+				"trans": "Laden welkomstscherm mislukt"
+			}
+		},
+		"fairness": {
+			"headline": {
+				"eng": "Zero Pay-To-Win",
+				"trans": "Geen Pay-To-Win"
+			},
+			"sentence": {
+				"eng": "All premium buffs are shared globally across the server. When someone supports the game, the entire community benefits and progresses together.",
+				"trans": "Alle premium buffs worden wereldwijd over de hele server gedeeld. Wanneer iemand het spel ondersteunt, profiteert de gehele community en gaat iedereen samen vooruit."
+			}
+		},
+		"loading": {
+			"title": {
+				"eng": "Initializing Welcome Sequence",
+				"trans": "Welkomstsequentie initialiseren"
+			}
+		},
+		"skip": {
+			"eng": "Skip",
+			"trans": "Overslaan"
+		},
+		"splash": {
+			"connection": {
+				"eng": "// Connection Established",
+				"trans": "// Verbinding tot stand gebracht"
+			},
+			"sys_init": {
+				"eng": "Sys.Init_Seq.01",
+				"trans": "Systeem.Init_Seq.01"
+			},
+			"welcome": {
+				"eng": "Welcome To",
+				"trans": "Welkom bij"
+			}
 		}
 	}
 }

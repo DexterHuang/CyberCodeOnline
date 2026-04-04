@@ -41,6 +41,10 @@
 				"eventName"
 			]
 		},
+		"bonusUnits": {
+			"eng": "Bonus Units",
+			"trans": "Bonus na Units"
+		},
 		"currency": {
 			"paypalExclusive": {
 				"eng": "PayPal Exclusive!",
@@ -1788,6 +1792,10 @@
 			"eng": "Got it",
 			"trans": "Na-gets ko"
 		},
+		"max": {
+			"eng": "MAX",
+			"trans": "MAX"
+		},
 		"owned": {
 			"eng": "Owned",
 			"trans": "May‑Ari"
@@ -1796,9 +1804,17 @@
 			"eng": "Purchase",
 			"trans": "Bili"
 		},
+		"retry": {
+			"eng": "RETRY CONNECTION",
+			"trans": "MULING KUMONEKTA"
+		},
 		"save": {
 			"eng": "Save",
 			"trans": "I-save"
+		},
+		"warning": {
+			"eng": "Warning",
+			"trans": "Babala"
 		}
 	},
 	"component": {
@@ -2408,6 +2424,10 @@
 			"eng": "Cybernetic Potato",
 			"trans": "Cybernetic patatas"
 		},
+		"donation50": {
+			"eng": "Netrunner",
+			"trans": "Netrunner"
+		},
 		"donation6": {
 			"eng": "Prestige",
 			"trans": "Prestige"
@@ -2676,6 +2696,10 @@
 				"eng": "DUMPLING MASTER",
 				"trans": "Dalubhasang Dumpling!"
 			},
+			"noRewards": {
+				"eng": "NO REWARDS RECORDED",
+				"trans": "WALANG NAKATALANG PREMYO"
+			},
 			"rewards": {
 				"eng": "MISSION REWARDS",
 				"trans": "PREMIYOS"
@@ -2943,31 +2967,17 @@
 		}
 	},
 	"easterPromo": {
-		"desc1": {
-			"eng": "Spring has arrived, and it's time for the Easter celebration! Hunt for hidden chocolate bunnies throughout the game.",
-			"trans": "Dumating na ang Easter! Maghanap ng mga nakatagong chocolate bunnies sa buong laro!"
-		},
-		"dropBenefit1": {
-			"eng": "Enemies and AFK farming have a chance to drop ${item}!",
-			"trans": "May chance na mag-drop ng ${item} ang mga kalaban at AFK farming!",
-			"vars": [
-				"item"
-			]
-		},
-		"smallDesc": {
-			"eng": "Find ${item} for EXP boosts!",
-			"trans": "Hanapin ang ${item}! EXP boost!",
-			"vars": [
-				"item"
-			]
-		},
-		"specialBenefits": {
-			"eng": "Special Event Benefits:",
-			"trans": "Mga Special na Benepisyo:"
-		},
 		"title": {
 			"eng": "Easter Celebration",
 			"trans": "Pagdiriwang ng Pasko ng Pagkabuhay"
+		},
+		"tokenDesc": {
+			"eng": "Spring has arrived, and it's time for the Easter celebration! Hunt for ${item} throughout the game and trade them at ${npcName}'s spring market.",
+			"trans": "Narito na ang tagsibol, at panahon na para sa Easter celebration! Hanapin ang mga ${item} sa buong laro at i-trade ang mga ito sa spring market ni ${npcName}.",
+			"vars": [
+				"item",
+				"npcName"
+			]
 		}
 	},
 	"emblems": {
@@ -3777,6 +3787,10 @@
 		},
 		"easter": {
 			"eng": "Easter",
+			"springPop": {
+				"eng": "Spring Pop",
+				"trans": "Biglang Pagsibol"
+			},
 			"trans": "Pasko ng Pagkabuhay"
 		},
 		"halloween": {
@@ -4975,6 +4989,26 @@
 				"trans": "Dungeon Token"
 			}
 		},
+		"easterEventPass": {
+			"description": {
+				"eng": "A special pass required to participate in the Spring Pop event game. Can be found in Dungeon Chests or from AFK farming during the Easter event.",
+				"trans": "Espesyal na pass na kailangan para makasali sa Spring Pop event game. Makukuha ito sa mga Dungeon Chest o sa pamamagitan ng AFK farming habang may Easter event."
+			},
+			"name": {
+				"eng": "Easter Event Pass",
+				"trans": "Easter Event Pass"
+			}
+		},
+		"easterToken": {
+			"description": {
+				"eng": "Cracked shell fragments stamped with Eggbert's spring market seal. Trade them in for Easter event supplies before the season ends.",
+				"trans": "Mga basag na piraso ng balat na may tatak ng spring market seal ni Eggbert. Ipalit ang mga ito para sa mga suplay ng Easter event bago matapos ang season."
+			},
+			"name": {
+				"eng": "Egg Shell Token",
+				"trans": "Balat ng Itlog Token"
+			}
+		},
 		"energyCell": {
 			"desc": {
 				"eng": "Miniaturized fusion cell designed to power apartment furniture systems. Extracted from crashed corporate drones along Crystal Sands before cleanup crews arrive.",
@@ -5681,6 +5715,26 @@
 			"name": {
 				"eng": "Rare Equipment Crate",
 				"trans": "Bihirang kagamitan crate"
+			}
+		},
+		"reclamationDepotVoucherHigh": {
+			"desc": {
+				"eng": "Voucher used for reclamation depot redemption. This voucher maps to High tier rewards.",
+				"trans": "Voucher para sa redemption sa reclamation depot. Ang voucher na ito ay may katumbas na High tier rewards."
+			},
+			"name": {
+				"eng": "High Reclamation Voucher",
+				"trans": "Mataas na Voucher sa Pagbawi"
+			}
+		},
+		"reclamationDepotVoucherLow": {
+			"desc": {
+				"eng": "Voucher used for reclamation depot redemption. This voucher maps to Low tier rewards.",
+				"trans": "Voucher para sa reclamation depot redemption. Nakalaan ito para sa mga low-tier rewards."
+			},
+			"name": {
+				"eng": "Low Reclamation Voucher",
+				"trans": "Mababang Voucher sa Pagbawi"
 			}
 		},
 		"rename": {
@@ -7710,10 +7764,6 @@
 				"eng": "Vow Phrase",
 				"trans": "Pahayag ng Panata"
 			},
-			"vowPlaceholder": {
-				"eng": "Write your romantic vow here...",
-				"trans": "Ilagay dito ang iyong romantikong pangako…"
-			},
 			"vowTooLong": {
 				"eng": "Vow phrase must be 64 words or less",
 				"trans": "Ang pangako ay dapat nasa 64 salita o mas mababa"
@@ -8579,24 +8629,6 @@
 				}
 			}
 		},
-		"newbieTutorial": {
-			"closeButton": {
-				"title": {
-					"eng": "Close",
-					"trans": "Malapit"
-				}
-			},
-			"noShowToggle": {
-				"description": {
-					"eng": "You can see the full tutorial at Profile > Tutorial tab",
-					"trans": "Maaari mong makita ang buong tutorial sa Profile> Tutorial Tab"
-				},
-				"label": {
-					"eng": "Don't show this again",
-					"trans": "Huwag ipakita ito muli"
-				}
-			}
-		},
 		"playerSearch": {
 			"noPlayerFound": {
 				"eng": "No player named \"${search}\" found",
@@ -8883,6 +8915,10 @@
 		"nextStageIn": {
 			"eng": "Next Stage in",
 			"trans": "Susunod na yugto sa loob ng"
+		},
+		"noRewards": {
+			"eng": "No rewards obtained.",
+			"trans": "Walang nakuhang premyo."
 		},
 		"pleaseWait": {
 			"eng": "Calculating rewards...",
@@ -9306,6 +9342,28 @@
 				"trans": "If you like the game, please consider donating :)"
 			}
 		},
+		"easter": {
+			"defaultLines": {
+				"eng": [
+					"I'm Eggbert, and I've got an egg-cellent challenge for you.",
+					"Fancy a round of Spring Pop? Match those eggs before time runs out!",
+					"Stay sharp, don't crack under pressure, and let's get popping."
+				],
+				"trans": [
+					"Ako si Eggbert, at may 'egg-cellent' na challenge ako para sa iyo.",
+					"Gusto mo bang mag-Spring Pop? I-match ang mga itlog bago maubos ang oras!",
+					"Maging alerto, 'wag kang bibigay sa pressure, at G na."
+				]
+			},
+			"name": {
+				"eng": "Eggbert",
+				"trans": "Eggbert"
+			},
+			"npcName": {
+				"eng": "Eggbert",
+				"trans": "Eggbert"
+			}
+		},
 		"equipmentExchange": {
 			"canAccessError": {
 				"eng": "You need to be at least level 15 to access the Equipment Exchange",
@@ -9590,6 +9648,16 @@
 			"tut": {
 				"eng": "You can use your Cache to print new equipment here",
 				"trans": "You can use your acquired Caches to print new equipment here"
+			}
+		},
+		"reclamationDepot": {
+			"description": {
+				"eng": "Exchange items for vouchers and redeem vouchers for pooled rewards.",
+				"trans": "Ipagpalit ang mga item para sa mga voucher at i-redeem ang mga ito para sa mga pooled reward."
+			},
+			"name": {
+				"eng": "Reclamation Depot",
+				"trans": "Depot ng Pagbawi"
 			}
 		},
 		"recycleMachine": {
@@ -11300,6 +11368,304 @@
 			"trans": "Molecular Printing"
 		}
 	},
+	"reclamationDepot": {
+		"addStack": {
+			"eng": "Add Stack",
+			"trans": "Dagdag Stack"
+		},
+		"addStackHint": {
+			"eng": "Open picker",
+			"trans": "Buksan ang picker"
+		},
+		"allItemsQueued": {
+			"eng": "All eligible stacks are already queued",
+			"trans": "Naka-queue na ang lahat ng eligible na stack"
+		},
+		"confirmDonateBtn": {
+			"eng": "CONFIRM DONATE",
+			"trans": "KUMPIRMAHIN ANG DONASYON"
+		},
+		"confirmInlineDesc": {
+			"eng": "This will donate ${count} selected stack(s) and cannot be undone.",
+			"trans": "Ibibigay nito ang ${count} na napiling stack at hindi na ito mababawi.",
+			"vars": [
+				"count"
+			]
+		},
+		"confirmInlineTitle": {
+			"eng": "Confirm Batch Donation",
+			"trans": "Kumpirmahin ang Maramihang Donasyon"
+		},
+		"donate": {
+			"levelBadge": {
+				"eng": "LVL ${level} REQUIRED",
+				"trans": "KAILANGANG LVL ${level}",
+				"vars": [
+					"level"
+				]
+			},
+			"levelError": {
+				"eng": "Donation clearance not granted.",
+				"trans": "Walang clearance para sa donasyon."
+			},
+			"levelRequirement": {
+				"eng": "Reach level ${level} to donate items to the reclamation depot.",
+				"trans": "Abutin ang level ${level} para makapag-donate ng mga item sa reclamation depot.",
+				"vars": [
+					"level"
+				]
+			},
+			"locked": {
+				"eng": "ACCESS DENIED (LVL ${level})",
+				"trans": "HINDI PINAHIHINTULUTAN (LVL ${level})",
+				"vars": [
+					"level"
+				]
+			}
+		},
+		"donateBtn": {
+			"eng": "DONATE",
+			"trans": "AMBAG"
+		},
+		"donateItemsCTA": {
+			"eng": "DONATE ITEMS",
+			"trans": "MAG-AMBAG NG MGA GAMIT"
+		},
+		"donateSuccessItem": {
+			"eng": "You have successfully donated ${items} and received ${voucherRewards}",
+			"trans": "Tagumpay na naibigay ang ${items} at natanggap ang ${voucherRewards}",
+			"vars": [
+				"items",
+				"voucherRewards"
+			]
+		},
+		"donateSuccessNoItem": {
+			"eng": "You have successfully donated ${items}",
+			"trans": "Tagumpay na na-donate ang ${items}",
+			"vars": [
+				"items"
+			]
+		},
+		"donateTitle": {
+			"eng": "Donate Items",
+			"trans": "Mag-donate ng mga Item"
+		},
+		"eligibleCount": {
+			"eng": "${count} available",
+			"trans": "${count} available",
+			"vars": [
+				"count"
+			]
+		},
+		"emptySlotHint": {
+			"eng": "Tap to choose a donation stack",
+			"trans": "I-tap para pumili ng donation stack"
+		},
+		"emptySlotTitle": {
+			"eng": "No Item Selected",
+			"trans": "Walang napiling item"
+		},
+		"error": {
+			"donateLevelRequirement": {
+				"eng": "You need to be at least level ${donateMinLevel} to donate",
+				"trans": "Kailangan ng level ${donateMinLevel} para makapag-donate"
+			},
+			"levelLow": {
+				"eng": "Level ${level} required to redeem",
+				"trans": "Kailangan ng Level ${level} para makapag-redeem",
+				"vars": [
+					"level"
+				]
+			},
+			"levelRequirement": {
+				"eng": "You need to be at least level ${minLevel} to redeem",
+				"trans": "Kailangan mong maging level ${minLevel} para makapag-redeem"
+			},
+			"noPooledItems": {
+				"eng": "Selected tier has no pooled items. Your voucher was not consumed",
+				"trans": "Walang pooled items sa piniling tier. Hindi nabawasan ang iyong voucher"
+			},
+			"outOfStock": {
+				"eng": "Selected pool item is out of stock. Your voucher was not consumed",
+				"trans": "Ubos na ang napiling pool item. Hindi nagamit ang iyong voucher"
+			}
+		},
+		"footerSelectedStacks": {
+			"eng": "Selected stacks: ${count}",
+			"trans": "Mga piniling stack: ${count}",
+			"vars": [
+				"count"
+			]
+		},
+		"footerTotalConsume": {
+			"eng": "Total consume: ${count}",
+			"trans": "Kabuuang kinonsumo: ${count}",
+			"vars": [
+				"count"
+			]
+		},
+		"heroDesc": {
+			"eng": "Donate your surplus equipment to the community pool. ",
+			"trans": "I-donate ang iyong mga sobrang kagamitan sa community pool"
+		},
+		"heroTitle": {
+			"eng": "ASSET RECLAMATION",
+			"trans": "Pagbawi ng Asset"
+		},
+		"itemCol": {
+			"eng": "Item",
+			"trans": "Gamit"
+		},
+		"noEligibleInventory": {
+			"eng": "No eligible stacks found in cargo",
+			"trans": "Walang nahanap na angkop na stack sa cargo"
+		},
+		"noEligibleItems": {
+			"eng": "No eligible items to donate.",
+			"trans": "Walang kwalipikadong item na maaaring i-donate."
+		},
+		"ownedVouchers": {
+			"eng": "VOUCHERS:",
+			"trans": "MGA VOUCHER:"
+		},
+		"pickerMaxUnits": {
+			"eng": "Max units: ${count}",
+			"trans": "Max na yunit: ${count}",
+			"vars": [
+				"count"
+			]
+		},
+		"pickerOwnedAmount": {
+			"eng": "Owned: ${amount}",
+			"trans": "Mayroon: ${amount}",
+			"vars": [
+				"amount"
+			]
+		},
+		"pickerTitle": {
+			"eng": "Select Donation Stack",
+			"trans": "Pumili ng Donation Stack"
+		},
+		"qtyCol": {
+			"eng": "Qty",
+			"trans": "Dami"
+		},
+		"redeem": {
+			"awaitingSelection": {
+				"eng": "Select a tier above to continue.",
+				"trans": "Pumili ng antas sa itaas para magpatuloy."
+			},
+			"awaitingSelectionBtn": {
+				"eng": "AWAITING SELECTION",
+				"trans": "Hinihintay ang pagpili"
+			},
+			"emptyPoolErr": {
+				"eng": "The community pool is empty for this tier.",
+				"trans": "Walang laman ang community pool para sa tier na ito."
+			},
+			"emptyPoolError": {
+				"eng": "Pool is empty for this tier.",
+				"trans": "Walang laman ang pool para sa tier na ito."
+			},
+			"emptyStock": {
+				"eng": "STOCK DEPLETED",
+				"trans": "UBOS NA ANG STOCK"
+			},
+			"executeMultiple": {
+				"eng": "REDEEM ${amount} VOUCHERS",
+				"trans": "I-REDEEM ANG ${amount} NA VOUCHER",
+				"vars": [
+					"amount"
+				]
+			},
+			"executeSingle": {
+				"eng": "REDEEM 1 VOUCHER",
+				"trans": "I-REDEEM ANG 1 VOUCHER"
+			},
+			"inboxWarning": {
+				"eng": "Rewards will be sent to your item inbox.",
+				"trans": "Ipadadala ang mga reward sa iyong item inbox."
+			},
+			"levelError": {
+				"eng": "Insufficient clearance level.",
+				"trans": "Hindi sapat ang clearance level."
+			},
+			"loadingBtn": {
+				"eng": "SYNCING...",
+				"trans": "NAGSA-SYNC..."
+			},
+			"loadingPool": {
+				"eng": "CONNECTING TO DEPOT...",
+				"trans": "NAGKOKONEKTA SA DEPOT..."
+			},
+			"locked": {
+				"eng": "ACCESS DENIED (LVL ${level})",
+				"trans": "HINDI PINAHIHINTULUTAN (LVL ${level})",
+				"vars": [
+					"level"
+				]
+			},
+			"noVouchersBtn": {
+				"eng": "INSUFFICIENT VOUCHERS",
+				"trans": "Hindi sapat ang mga voucher"
+			},
+			"noVouchersErr": {
+				"eng": "No Vouchers available for this tier.",
+				"trans": "Walang voucher para sa tier na ito."
+			},
+			"processingBtn": {
+				"eng": "REDEEMING...",
+				"trans": "NAGRE-REDEEM..."
+			},
+			"readyMultiple": {
+				"eng": "Ready to consume ${amount} vouchers.",
+				"trans": "Handa nang i-consume ang ${amount} vouchers.",
+				"vars": [
+					"amount"
+				]
+			},
+			"readySingle": {
+				"eng": "Ready to consume 1 voucher.",
+				"trans": "Handa nang gamitin ang 1 voucher."
+			},
+			"requestCount": {
+				"eng": "Request Count",
+				"trans": "Bilang ng Request"
+			},
+			"sectionTitle": {
+				"eng": "VOUCHER REDEMPTION",
+				"trans": "PAG-REDEEM NG VOUCHER"
+			},
+			"sentToInboxMultiple": {
+				"eng": "Redeemed ${amount} ${tier} vouchers. Rewards sent to your item inbox.",
+				"trans": "Na-redeem ang ${amount} ${tier} vouchers. Ipinadala na ang mga reward sa iyong item inbox.",
+				"vars": [
+					"amount",
+					"tier"
+				]
+			},
+			"voucherMaxRequestCount": {
+				"eng": "Voucher Max ${amount}",
+				"trans": "Max Voucher ${amount}",
+				"vars": [
+					"amount"
+				]
+			}
+		},
+		"row": {
+			"ownedOnly": {
+				"eng": "Owned: ${amount}",
+				"trans": "Pag-aari: ${amount}",
+				"vars": [
+					"amount"
+				]
+			}
+		},
+		"totalCol": {
+			"eng": "Total Items",
+			"trans": "Kabuuang Item"
+		}
+	},
 	"referralPromo": {
 		"desc1": {
 			"eng": "Free Unit*",
@@ -12150,6 +12516,180 @@
 			"vars": [
 				"amount"
 			]
+		}
+	},
+	"springPop": {
+		"allStagesCleared": {
+			"eng": "All Stages Cleared!",
+			"trans": "Lahat ng Stage, Tapos Na!"
+		},
+		"button": {
+			"subtitle": {
+				"eng": "TAP TO POP EGGS",
+				"trans": "Tap para pumutok ang mga itlog"
+			},
+			"title": {
+				"eng": "SPRING POP",
+				"trans": "SPRING POP"
+			}
+		},
+		"calculating": {
+			"eng": "Calculating rewards...",
+			"trans": "Kinakalkula ang mga reward..."
+		},
+		"combo": {
+			"eng": "COMBO",
+			"trans": "COMBO"
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The Easter event has ended!",
+				"trans": "Tapos na ang Easter event!"
+			},
+			"noPass": {
+				"eng": "You need an Easter Event Pass to play! Find them in dungeon chests or from AFK farming.",
+				"trans": "Kailangan mo ng Easter Event Pass para makapaglaro! Hanapin ang mga ito sa mga dungeon chest o sa AFK farming."
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "CLOSE",
+				"trans": "ISARA"
+			},
+			"message": {
+				"eng": "The game encountered an error. Don't worry - your Pass was not consumed!",
+				"trans": "Nagkaroon ng error ang laro. Huwag mag-alala - hindi nabawasan ang iyong Pass!"
+			},
+			"title": {
+				"eng": "Game Error",
+				"trans": "Error sa Laro"
+			}
+		},
+		"failedStage": {
+			"eng": "You didn't reach the target score for Stage ${stage} in time.",
+			"trans": "Hindi mo naabot ang target score para sa Stage ${stage} bago maubos ang oras.",
+			"vars": [
+				"stage"
+			]
+		},
+		"finish": {
+			"eng": "Finish",
+			"trans": "Tapos"
+		},
+		"goodEffort": {
+			"eng": "Good Effort!",
+			"trans": "Galing!"
+		},
+		"intro": {
+			"eventEnded": {
+				"eng": "EVENT ENDED",
+				"trans": "TAPOS NA ANG EVENT"
+			},
+			"eventInactive": {
+				"eng": "Event is not currently active",
+				"trans": "Hindi aktibo ang event ngayon"
+			},
+			"howToGet": {
+				"eng": "Find passes in dungeon chests or from AFK farming during the event!",
+				"trans": "Hanapin ang mga pass sa dungeon chests o sa AFK farming habang may event!"
+			},
+			"howToPlay": {
+				"eng": "How to Play",
+				"trans": "Paano Maglaro"
+			},
+			"needPass": {
+				"eng": "NEED PASS",
+				"trans": "Kailangan ng pass"
+			},
+			"passesOwned": {
+				"eng": "Passes Owned:",
+				"trans": "Mga Hawak na Pass:"
+			},
+			"rule1": {
+				"eng": "Tap groups of matching eggs to pop them",
+				"trans": "I-tap ang mga magkakaparehong itlog para pumutok"
+			},
+			"rule2": {
+				"eng": "Larger groups = more points and combos",
+				"trans": "Mas malalaking grupo = mas maraming points at combos"
+			},
+			"rule3": {
+				"eng": "Reach the target score before time runs out",
+				"trans": "Abutin ang target score bago maubos ang oras"
+			},
+			"rule4": {
+				"eng": "Watch out for Cracked Eggs — pop them before they turn to stone!",
+				"trans": "Mag-ingat sa mga Basag na Itlog — putukin sila bago maging bato!"
+			},
+			"startButton": {
+				"eng": "START GAME",
+				"trans": "Simulan ang laro"
+			},
+			"title": {
+				"eng": "Spring Pop",
+				"trans": "Biglang Pagsibol"
+			}
+		},
+		"loading": {
+			"message": {
+				"eng": "Hiding the eggs...",
+				"trans": "Itinatago ang mga itlog..."
+			},
+			"title": {
+				"eng": "Loading Game...",
+				"trans": "Inihahanda ang laro..."
+			}
+		},
+		"nextStage": {
+			"eng": "Next Stage",
+			"trans": "Susunod na Yugto"
+		},
+		"noRewards": {
+			"eng": "No rewards obtained.",
+			"trans": "Walang nakuhang premyo."
+		},
+		"processing": {
+			"eng": "PROCESSING...",
+			"trans": "Nagpoproseso..."
+		},
+		"rewards": {
+			"eng": "REWARDS",
+			"trans": "GANTIMPALA"
+		},
+		"score": {
+			"eng": "SCORE",
+			"trans": "ISKOR"
+		},
+		"stage": {
+			"eng": "STAGE",
+			"trans": "Antas"
+		},
+		"stageCleared": {
+			"eng": "Stage ${stage} Cleared",
+			"trans": "Stage ${stage} Natapos",
+			"vars": [
+				"stage"
+			]
+		},
+		"stageComplete": {
+			"eng": "Stage Complete!",
+			"trans": "Tapos na ang Stage!"
+		},
+		"stagesCompletedResult": {
+			"eng": "Completed ${completedStages}/${maxTier} Stages",
+			"trans": "Natapos na ${completedStages}/${maxTier} na Stages",
+			"vars": [
+				"completedStages",
+				"maxTier"
+			]
+		},
+		"timeUp": {
+			"eng": "Time's Up!",
+			"trans": "Tapos na ang oras!"
+		},
+		"viewResults": {
+			"eng": "View Results",
+			"trans": "Tingnan ang Resulta"
 		}
 	},
 	"statsType": {
@@ -13321,6 +13861,10 @@
 				"eng": "Daily Reward",
 				"trans": "Pang -araw -araw na Gantimpala"
 			},
+			"links": {
+				"eng": "Links",
+				"trans": "Mga Link"
+			},
 			"skipQueue": {
 				"eng": "Skip Queue",
 				"trans": "Laktawan ang pila"
@@ -14025,6 +14569,10 @@
 			},
 			"quickSlots": {
 				"eng": "Quick Slots",
+				"tip": {
+					"eng": "Assign usable items to Quick Slots for quick access during battle.",
+					"trans": "I-assign ang mga usable items sa Quick Slots para sa mabilis na access habang lumalaban."
+				},
 				"trans": "Mabilis na mga puwang"
 			}
 		},
@@ -14167,10 +14715,6 @@
 				"eng": "Leaderboard",
 				"trans": "Leaderboard"
 			},
-			"links": {
-				"eng": "links",
-				"trans": "Mga link"
-			},
 			"moderatorTools": {
 				"eng": "Mod Tools",
 				"trans": "Kagamitan ng Mod"
@@ -14178,6 +14722,10 @@
 			"premiumShop": {
 				"eng": "Premium Shop",
 				"trans": "Premium Shop"
+			},
+			"promo": {
+				"eng": "Promo",
+				"trans": "Promo"
 			},
 			"settings": {
 				"eng": "Settings",
@@ -14531,6 +15079,10 @@
 			"unlocked": {
 				"eng": "Unlocked",
 				"trans": "Naka -lock"
+			},
+			"upgradeModuleTip": {
+				"eng": "Upgrade modules enhance equipment stats; tap an empty slot to install one, or an installed module to remove it.",
+				"trans": "Pinapalakas ng mga upgrade module ang stats ng equipment; i-tap ang bakanteng slot para mag-install, o ang naka-install na module para tanggalin ito."
 			},
 			"upgradeModuleTitle": {
 				"eng": "upgrade slot ${index}",
@@ -15312,9 +15864,9 @@
 						"trans": "Dagdag Street Cred"
 					}
 				},
-				"title": {
-					"eng": "Tutorials",
-					"trans": "Mga Tutorial"
+				"title2": {
+					"eng": "Miscellaneous",
+					"trans": "Iba pa"
 				}
 			},
 			"globalParty": {
@@ -15360,6 +15912,20 @@
 					"eng": "Select min value",
 					"trans": "Piliin ang halaga ng min"
 				}
+			}
+		},
+		"reclamationDepot": {
+			"dataHeader": {
+				"eng": "SHARED POOL READOUT",
+				"trans": "Status ng Shared Pool"
+			},
+			"loadError": {
+				"eng": "Unable to load reclamation pool.",
+				"trans": "Hindi ma-load ang reclamation pool."
+			},
+			"poolUpdateNote": {
+				"eng": "// COUNTS UPDATED PERIODICALLY",
+				"trans": "/// Regular ang pag-update ng mga bilang"
 			}
 		},
 		"register": {
@@ -15481,6 +16047,16 @@
 				"title": {
 					"eng": "Disable Victory Screen",
 					"trans": "Huwag paganahin ang screen ng tagumpay"
+				}
+			},
+			"disableWelcomeTutorial": {
+				"description": {
+					"eng": "Hide the first login welcome tutorial modal until you turn this back off",
+					"trans": "Itatago ang welcome tutorial modal sa unang login hanggang sa i-off mo itong muli"
+				},
+				"title": {
+					"eng": "Disable Welcome Tutorial",
+					"trans": "I-disable ang Welcome Tutorial"
 				}
 			},
 			"enableApartmentWall": {
@@ -15909,6 +16485,10 @@
 				"eng": "quests",
 				"trans": "mga pakikipagsapalaran"
 			},
+			"reclamationDepot": {
+				"eng": "Reclamation Depot",
+				"trans": "Depot ng Pagbawi"
+			},
 			"referral": {
 				"eng": "referral",
 				"trans": "Referral"
@@ -16068,6 +16648,146 @@
 		"title": {
 			"eng": "Valentine Event",
 			"trans": "Kaganapan ng Araw ng mga Puso"
+		}
+	},
+	"voucherTier": {
+		"high": {
+			"eng": "High",
+			"trans": "Mataas"
+		},
+		"low": {
+			"eng": "Low",
+			"trans": "Mababa"
+		}
+	},
+	"welcome": {
+		"afk": {
+			"headline": {
+				"eng": "Progress While Offline",
+				"trans": "Progress Habang Offline"
+			},
+			"sentence": {
+				"eng": "Start a task before logging off to continue gathering resources and leveling up in the background.",
+				"trans": "Mag-umpisa ng task bago mag-log off para magpatuloy ang pagkuha ng resources at pag-level up sa background."
+			}
+		},
+		"animation": {
+			"asset": {
+				"eng": "Asset",
+				"trans": "<thought>\n1.  **Wika**: Tagalog. Alam ko na sa mga technical context, madalas ay hindi binabago ang English terms, pero kailangan kong maghanap ng pinaka-angkop at professional na salin para sa isang UI.\n\n2.  **Konteksto**: Ang location ay `welcome > animation > asset`. Ito ay isang structural path o hierarchy sa loob ng app. Ang \"Asset\" sa kontekstong ito (lalo na sa animation) ay tumutukoy sa mga reusable components gaya ng 3D models, textures, o sounds—mga \"resources\" na ginagamit sa proseso.\n\n3.  **Mga Potensyal na Salin**:\n    *   `Ari-arian`\n    *   `Kasangkapan`\n    *   `Kagamitan`\n    *   `Yaman`\n\n4.  **Pros at Cons**:\n    *   `Ari-arian`: Ang ibig sabihin nito ay \"property\" o \"possession\". Bagaman ang \"asset\" sa finance ay \"ari-arian\", masyado itong mabigat at pang-negosyo para sa isang animation node. Hindi ito natural pakinggan sa isang technical UI hierarchy.\n    *   `Kasangkapan`: Ang ibig sabihin nito ay \"tool\" o \"instrument\". Maaaring gamitin kung ang asset ay tinitignan bilang isang tool, pero medyo limitado ang scope (parang hammer o wrench).\n    *   `Kagamitan`: Ang ibig sabihin nito ay \"equipment\", \"materials\", o \"items\". Ito ay mas malawak at mas swak sa diwa ng \"assets\" sa animation (mga materyales o gamit na kailangan para mabuo ang animation). Professional, concise, at natural itong pakinggan sa isang game UI.\n    *   `Yaman`: Ang ibig sabihin nito ay \"wealth\". Masyadong malayo ang konteksto; ito ay tungkol sa pera o kayamanan, hindi tungong technical resources.\n\n5.  **Pagpili**: Ang `Kagamitan` ang pinakamagandang salin dahil ito ang pinaka-accurate para sa mga \"resources\" o \"materials\" na ginagamit sa animation process, at ito ay professional pakinggan sa isang UI hierarchy.\n</thought>\nKagamitan"
+			},
+			"autotask": {
+				"eng": "AUTOTASK",
+				"trans": "Awtomatikong Gawain"
+			},
+			"buy": {
+				"eng": "EXECUTE: BUY",
+				"trans": "ISAGAWA: BILI"
+			},
+			"chat1": {
+				"eng": "LFG Abandoned Factory, need healer.",
+				"trans": "LFG Abandoned Factory, kailangan ng healer."
+			},
+			"chat2": {
+				"eng": "Inv, I got medkits.",
+				"trans": "Imbentaryo, may mga medkit ako."
+			},
+			"chat3": {
+				"eng": "Global Buff Activated by Kael",
+				"trans": "Global Buff na-activate ni Kaeel"
+			},
+			"efficiency": {
+				"eng": "Efficiency",
+				"trans": "Kahusayan"
+			},
+			"price": {
+				"eng": "Lowest Price",
+				"trans": "Pinakamababang Presyo"
+			},
+			"reverse_engineering": {
+				"eng": "REVERSE_ENGINEERING",
+				"trans": "REVERSE_ENGINEERING"
+			},
+			"system": {
+				"eng": "System:",
+				"trans": "Sistema:"
+			},
+			"waiting": {
+				"eng": "WAITING FOR ORDERS...",
+				"trans": "NAGHIHINTAY NG UTOS..."
+			},
+			"yield_acquired": {
+				"eng": "YIELD ACQUIRED",
+				"trans": "Nakuha ang kita"
+			}
+		},
+		"cta": {
+			"done": {
+				"eng": "Start Playing",
+				"trans": "Simulan ang Laro"
+			},
+			"next": {
+				"eng": "Next",
+				"trans": "Susunod"
+			}
+		},
+		"economy": {
+			"headline": {
+				"eng": "Player-Driven Economy",
+				"trans": "Ekonomiyang Pinapattakbo ng mga Manlalaro"
+			},
+			"sentence": {
+				"eng": "Every item in the market is crafted and traded by real players like you.",
+				"trans": "Bawat item sa market ay gawa at trade ng mga player na gaya mo."
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "Continue",
+				"trans": "Magpatuloy"
+			},
+			"description": {
+				"eng": "Your character was created successfully. You can continue playing normally.",
+				"trans": "Matagumpay na nalikha ang iyong karakter. Maaari ka nang magpatuloy sa paglalaro."
+			},
+			"title": {
+				"eng": "Welcome Screen Failed to Load",
+				"trans": "Nabigong i-load ang Welcome Screen"
+			}
+		},
+		"fairness": {
+			"headline": {
+				"eng": "Zero Pay-To-Win",
+				"trans": "Walang Pay-to-Win"
+			},
+			"sentence": {
+				"eng": "All premium buffs are shared globally across the server. When someone supports the game, the entire community benefits and progresses together.",
+				"trans": "Lahat ng premium buffs ay ibinabahagi sa buong server. Sa bawat suportang ibinibigay sa laro, ang buong komunidad ay sabay-sabay na uunlad at makikinabang."
+			}
+		},
+		"loading": {
+			"title": {
+				"eng": "Initializing Welcome Sequence",
+				"trans": "Sinisimulan ang Welcome Sequence"
+			}
+		},
+		"skip": {
+			"eng": "Skip",
+			"trans": "Laktawan"
+		},
+		"splash": {
+			"connection": {
+				"eng": "// Connection Established",
+				"trans": "/// Konektado na"
+			},
+			"sys_init": {
+				"eng": "Sys.Init_Seq.01",
+				"trans": "Sistema.Simula_Serye.01"
+			},
+			"welcome": {
+				"eng": "Welcome To",
+				"trans": "Maligayang Pagdating sa"
+			}
 		}
 	}
 }

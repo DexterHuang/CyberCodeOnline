@@ -41,6 +41,10 @@
 				"eventName"
 			]
 		},
+		"bonusUnits": {
+			"eng": "Bonus Units",
+			"trans": "加贈單位"
+		},
 		"currency": {
 			"paypalExclusive": {
 				"eng": "PayPal Exclusive!",
@@ -1788,6 +1792,10 @@
 			"eng": "Got it",
 			"trans": "知道了"
 		},
+		"max": {
+			"eng": "MAX",
+			"trans": "最大"
+		},
 		"owned": {
 			"eng": "Owned",
 			"trans": "已擁有"
@@ -1796,9 +1804,17 @@
 			"eng": "Purchase",
 			"trans": "購買"
 		},
+		"retry": {
+			"eng": "RETRY CONNECTION",
+			"trans": "重新連線"
+		},
 		"save": {
 			"eng": "Save",
 			"trans": "存檔"
+		},
+		"warning": {
+			"eng": "Warning",
+			"trans": "警告"
 		}
 	},
 	"component": {
@@ -2408,6 +2424,10 @@
 			"eng": "Cybernetic Potato",
 			"trans": "電馭馬鈴薯"
 		},
+		"donation50": {
+			"eng": "Netrunner",
+			"trans": "網路駭客"
+		},
 		"donation6": {
 			"eng": "Prestige",
 			"trans": "至尊"
@@ -2676,6 +2696,10 @@
 				"eng": "DUMPLING MASTER",
 				"trans": "餃子大師！"
 			},
+			"noRewards": {
+				"eng": "NO REWARDS RECORDED",
+				"trans": "無獎勵紀錄"
+			},
 			"rewards": {
 				"eng": "MISSION REWARDS",
 				"trans": "獎勵"
@@ -2943,31 +2967,17 @@
 		}
 	},
 	"easterPromo": {
-		"desc1": {
-			"eng": "Spring has arrived, and it's time for the Easter celebration! Hunt for hidden chocolate bunnies throughout the game.",
-			"trans": "春暖花開，復活節慶典開跑啦！在遊戲中尋找隱藏的巧克力兔子吧！"
-		},
-		"dropBenefit1": {
-			"eng": "Enemies and AFK farming have a chance to drop ${item}!",
-			"trans": "欸！打怪跟掛機都有機會噴${item}喔！",
-			"vars": [
-				"item"
-			]
-		},
-		"smallDesc": {
-			"eng": "Find ${item} for EXP boosts!",
-			"trans": "找到 ${item}，經驗值爽爽拿！",
-			"vars": [
-				"item"
-			]
-		},
-		"specialBenefits": {
-			"eng": "Special Event Benefits:",
-			"trans": "限時活動好康："
-		},
 		"title": {
 			"eng": "Easter Celebration",
 			"trans": "電馭復活節"
+		},
+		"tokenDesc": {
+			"eng": "Spring has arrived, and it's time for the Easter celebration! Hunt for ${item} throughout the game and trade them at ${npcName}'s spring market.",
+			"trans": "春天已至，復活節慶典正式啟動！在遊戲中搜集 ${item}，並前往 ${npcName} 的春季市集進行交易。",
+			"vars": [
+				"item",
+				"npcName"
+			]
 		}
 	},
 	"emblems": {
@@ -3777,6 +3787,10 @@
 		},
 		"easter": {
 			"eng": "Easter",
+			"springPop": {
+				"eng": "Spring Pop",
+				"trans": "春之綻放"
+			},
 			"trans": "復活節"
 		},
 		"halloween": {
@@ -4975,6 +4989,26 @@
 				"trans": "地城代幣"
 			}
 		},
+		"easterEventPass": {
+			"description": {
+				"eng": "A special pass required to participate in the Spring Pop event game. Can be found in Dungeon Chests or from AFK farming during the Easter event.",
+				"trans": "參加 Spring Pop 活動遊戲所需的特殊通行證。可從地城寶箱取得，或於復活節活動期間透過掛機獲得。"
+			},
+			"name": {
+				"eng": "Easter Event Pass",
+				"trans": "復活節活動通行證"
+			}
+		},
+		"easterToken": {
+			"description": {
+				"eng": "Cracked shell fragments stamped with Eggbert's spring market seal. Trade them in for Easter event supplies before the season ends.",
+				"trans": "印有 蛋伯特 春季市場印記的碎裂殼片。可在賽季結束前，用來兌換復活節活動物資。"
+			},
+			"name": {
+				"eng": "Egg Shell Token",
+				"trans": "蛋殼代幣"
+			}
+		},
 		"energyCell": {
 			"desc": {
 				"eng": "Miniaturized fusion cell designed to power apartment furniture systems. Extracted from crashed corporate drones along Crystal Sands before cleanup crews arrive.",
@@ -5681,6 +5715,26 @@
 			"name": {
 				"eng": "Rare Equipment Crate",
 				"trans": "稀有裝備箱"
+			}
+		},
+		"reclamationDepotVoucherHigh": {
+			"desc": {
+				"eng": "Voucher used for reclamation depot redemption. This voucher maps to High tier rewards.",
+				"trans": "用於回收據點兌換的憑證。此憑證對應高階獎勵。"
+			},
+			"name": {
+				"eng": "High Reclamation Voucher",
+				"trans": "高階回收憑證"
+			}
+		},
+		"reclamationDepotVoucherLow": {
+			"desc": {
+				"eng": "Voucher used for reclamation depot redemption. This voucher maps to Low tier rewards.",
+				"trans": "用於回收據點兌換的憑證。此券對應低階獎勵。"
+			},
+			"name": {
+				"eng": "Low Reclamation Voucher",
+				"trans": "低階回收券"
 			}
 		},
 		"rename": {
@@ -7710,10 +7764,6 @@
 				"eng": "Vow Phrase",
 				"trans": "誓言語句"
 			},
-			"vowPlaceholder": {
-				"eng": "Write your romantic vow here...",
-				"trans": "在此寫下你的浪漫誓言…"
-			},
 			"vowTooLong": {
 				"eng": "Vow phrase must be 64 words or less",
 				"trans": "誓言文字不可超過 64 字"
@@ -8579,24 +8629,6 @@
 				}
 			}
 		},
-		"newbieTutorial": {
-			"closeButton": {
-				"title": {
-					"eng": "Close",
-					"trans": "關閉"
-				}
-			},
-			"noShowToggle": {
-				"description": {
-					"eng": "You can see the full tutorial at Profile > Tutorial tab",
-					"trans": "你可以在個人檔案 > 教學的選項下查看完整教學"
-				},
-				"label": {
-					"eng": "Don't show this again",
-					"trans": "不再顯示"
-				}
-			}
-		},
 		"playerSearch": {
 			"noPlayerFound": {
 				"eng": "No player named \"${search}\" found",
@@ -8883,6 +8915,10 @@
 		"nextStageIn": {
 			"eng": "Next Stage in",
 			"trans": "下一關卡倒數"
+		},
+		"noRewards": {
+			"eng": "No rewards obtained.",
+			"trans": "未獲得獎勵。"
 		},
 		"pleaseWait": {
 			"eng": "Calculating rewards...",
@@ -9306,6 +9342,28 @@
 				"trans": "喜歡這個遊戲的話，請多多贊助支持作者喔 :)"
 			}
 		},
+		"easter": {
+			"defaultLines": {
+				"eng": [
+					"I'm Eggbert, and I've got an egg-cellent challenge for you.",
+					"Fancy a round of Spring Pop? Match those eggs before time runs out!",
+					"Stay sharp, don't crack under pressure, and let's get popping."
+				],
+				"trans": [
+					"我是 蛋伯特，我準備了一個蛋正的挑戰要給你。",
+					"要不要來一場 Spring Pop？趁時間還沒用完，快把那些蛋配對起來！",
+					"保持警覺，別被壓力壓垮，我們開搞。"
+				]
+			},
+			"name": {
+				"eng": "Eggbert",
+				"trans": "蛋伯特"
+			},
+			"npcName": {
+				"eng": "Eggbert",
+				"trans": "蛋伯特"
+			}
+		},
 		"equipmentExchange": {
 			"canAccessError": {
 				"eng": "You need to be at least level 15 to access the Equipment Exchange",
@@ -9590,6 +9648,16 @@
 			"tut": {
 				"eng": "You can use your Cache to print new equipment here",
 				"trans": "你可以在這裡使用快取記憶體製作新裝備"
+			}
+		},
+		"reclamationDepot": {
+			"description": {
+				"eng": "Exchange items for vouchers and redeem vouchers for pooled rewards.",
+				"trans": "將物品兌換為憑證，並使用憑證兌換獎池獎勵。"
+			},
+			"name": {
+				"eng": "Reclamation Depot",
+				"trans": "回收站"
 			}
 		},
 		"recycleMachine": {
@@ -11291,6 +11359,304 @@
 			"trans": "分子列印"
 		}
 	},
+	"reclamationDepot": {
+		"addStack": {
+			"eng": "Add Stack",
+			"trans": "新增堆疊"
+		},
+		"addStackHint": {
+			"eng": "Open picker",
+			"trans": "開啟選擇器"
+		},
+		"allItemsQueued": {
+			"eng": "All eligible stacks are already queued",
+			"trans": "所有符合條件的堆疊均已加入隊列"
+		},
+		"confirmDonateBtn": {
+			"eng": "CONFIRM DONATE",
+			"trans": "確認捐贈"
+		},
+		"confirmInlineDesc": {
+			"eng": "This will donate ${count} selected stack(s) and cannot be undone.",
+			"trans": "此操作將捐贈 ${count} 個選取的堆疊，且無法撤銷。",
+			"vars": [
+				"count"
+			]
+		},
+		"confirmInlineTitle": {
+			"eng": "Confirm Batch Donation",
+			"trans": "確認批次捐贈"
+		},
+		"donate": {
+			"levelBadge": {
+				"eng": "LVL ${level} REQUIRED",
+				"trans": "需達 ${level} 級",
+				"vars": [
+					"level"
+				]
+			},
+			"levelError": {
+				"eng": "Donation clearance not granted.",
+				"trans": "捐贈權限不足"
+			},
+			"levelRequirement": {
+				"eng": "Reach level ${level} to donate items to the reclamation depot.",
+				"trans": "需達到 ${level} 級才能向回收站捐贈物品。",
+				"vars": [
+					"level"
+				]
+			},
+			"locked": {
+				"eng": "ACCESS DENIED (LVL ${level})",
+				"trans": "存取遭拒 (LVL ${level})",
+				"vars": [
+					"level"
+				]
+			}
+		},
+		"donateBtn": {
+			"eng": "DONATE",
+			"trans": "捐贈"
+		},
+		"donateItemsCTA": {
+			"eng": "DONATE ITEMS",
+			"trans": "捐贈物資"
+		},
+		"donateSuccessItem": {
+			"eng": "You have successfully donated ${items} and received ${voucherRewards}",
+			"trans": "已成功捐贈 ${items} 並獲得 ${voucherRewards}",
+			"vars": [
+				"items",
+				"voucherRewards"
+			]
+		},
+		"donateSuccessNoItem": {
+			"eng": "You have successfully donated ${items}",
+			"trans": "已成功捐贈 ${items}",
+			"vars": [
+				"items"
+			]
+		},
+		"donateTitle": {
+			"eng": "Donate Items",
+			"trans": "捐贈物品"
+		},
+		"eligibleCount": {
+			"eng": "${count} available",
+			"trans": "${count} 可用",
+			"vars": [
+				"count"
+			]
+		},
+		"emptySlotHint": {
+			"eng": "Tap to choose a donation stack",
+			"trans": "點擊選擇捐贈堆疊"
+		},
+		"emptySlotTitle": {
+			"eng": "No Item Selected",
+			"trans": "未選擇物品"
+		},
+		"error": {
+			"donateLevelRequirement": {
+				"eng": "You need to be at least level ${donateMinLevel} to donate",
+				"trans": "需達到 ${donateMinLevel} 級以上才能捐贈"
+			},
+			"levelLow": {
+				"eng": "Level ${level} required to redeem",
+				"trans": "需達 ${level} 級才能兌換",
+				"vars": [
+					"level"
+				]
+			},
+			"levelRequirement": {
+				"eng": "You need to be at least level ${minLevel} to redeem",
+				"trans": "需達到 ${minLevel} 等級方可兌換"
+			},
+			"noPooledItems": {
+				"eng": "Selected tier has no pooled items. Your voucher was not consumed",
+				"trans": "所選等級目前無可用物資。您的代金券並未扣除。"
+			},
+			"outOfStock": {
+				"eng": "Selected pool item is out of stock. Your voucher was not consumed",
+				"trans": "所選池中的項目庫存不足，您的兌換券並未扣除。"
+			}
+		},
+		"footerSelectedStacks": {
+			"eng": "Selected stacks: ${count}",
+			"trans": "已選取堆疊：${count}",
+			"vars": [
+				"count"
+			]
+		},
+		"footerTotalConsume": {
+			"eng": "Total consume: ${count}",
+			"trans": "總消耗量: ${count}",
+			"vars": [
+				"count"
+			]
+		},
+		"heroDesc": {
+			"eng": "Donate your surplus equipment to the community pool. ",
+			"trans": "將閒置裝備捐贈至社區共用庫。"
+		},
+		"heroTitle": {
+			"eng": "ASSET RECLAMATION",
+			"trans": "資產回收"
+		},
+		"itemCol": {
+			"eng": "Item",
+			"trans": "物品"
+		},
+		"noEligibleInventory": {
+			"eng": "No eligible stacks found in cargo",
+			"trans": "貨艙中未發現符合條件的堆疊"
+		},
+		"noEligibleItems": {
+			"eng": "No eligible items to donate.",
+			"trans": "沒有符合捐贈條件的物資。"
+		},
+		"ownedVouchers": {
+			"eng": "VOUCHERS:",
+			"trans": "兌換券:"
+		},
+		"pickerMaxUnits": {
+			"eng": "Max units: ${count}",
+			"trans": "最大數量：${count}",
+			"vars": [
+				"count"
+			]
+		},
+		"pickerOwnedAmount": {
+			"eng": "Owned: ${amount}",
+			"trans": "擁有: ${amount}",
+			"vars": [
+				"amount"
+			]
+		},
+		"pickerTitle": {
+			"eng": "Select Donation Stack",
+			"trans": "選擇捐贈堆疊"
+		},
+		"qtyCol": {
+			"eng": "Qty",
+			"trans": "數量"
+		},
+		"redeem": {
+			"awaitingSelection": {
+				"eng": "Select a tier above to continue.",
+				"trans": "請選擇上方的等級以繼續。"
+			},
+			"awaitingSelectionBtn": {
+				"eng": "AWAITING SELECTION",
+				"trans": "待選取"
+			},
+			"emptyPoolErr": {
+				"eng": "The community pool is empty for this tier.",
+				"trans": "此等級的社群獎池已空。"
+			},
+			"emptyPoolError": {
+				"eng": "Pool is empty for this tier.",
+				"trans": "此等級獎池已空。"
+			},
+			"emptyStock": {
+				"eng": "STOCK DEPLETED",
+				"trans": "庫存已耗盡"
+			},
+			"executeMultiple": {
+				"eng": "REDEEM ${amount} VOUCHERS",
+				"trans": "兌換 ${amount} 張券",
+				"vars": [
+					"amount"
+				]
+			},
+			"executeSingle": {
+				"eng": "REDEEM 1 VOUCHER",
+				"trans": "兌換 1 張券"
+			},
+			"inboxWarning": {
+				"eng": "Rewards will be sent to your item inbox.",
+				"trans": "獎勵將發送至您的道具收件匣。"
+			},
+			"levelError": {
+				"eng": "Insufficient clearance level.",
+				"trans": "權限等級不足。"
+			},
+			"loadingBtn": {
+				"eng": "SYNCING...",
+				"trans": "同步中..."
+			},
+			"loadingPool": {
+				"eng": "CONNECTING TO DEPOT...",
+				"trans": "正在連線至倉庫..."
+			},
+			"locked": {
+				"eng": "ACCESS DENIED (LVL ${level})",
+				"trans": "存取遭拒 (LVL ${level})",
+				"vars": [
+					"level"
+				]
+			},
+			"noVouchersBtn": {
+				"eng": "INSUFFICIENT VOUCHERS",
+				"trans": "兌換券不足"
+			},
+			"noVouchersErr": {
+				"eng": "No Vouchers available for this tier.",
+				"trans": "此層級無可用優惠券。"
+			},
+			"processingBtn": {
+				"eng": "REDEEMING...",
+				"trans": "兌換中..."
+			},
+			"readyMultiple": {
+				"eng": "Ready to consume ${amount} vouchers.",
+				"trans": "準備消耗 ${amount} 個憑證。",
+				"vars": [
+					"amount"
+				]
+			},
+			"readySingle": {
+				"eng": "Ready to consume 1 voucher.",
+				"trans": "準備好使用 1 張券。"
+			},
+			"requestCount": {
+				"eng": "Request Count",
+				"trans": "請求次數"
+			},
+			"sectionTitle": {
+				"eng": "VOUCHER REDEMPTION",
+				"trans": "優惠券兌換"
+			},
+			"sentToInboxMultiple": {
+				"eng": "Redeemed ${amount} ${tier} vouchers. Rewards sent to your item inbox.",
+				"trans": "已兌換 ${amount} 張 ${tier} 憑證。獎勵已發送至道具信箱。",
+				"vars": [
+					"amount",
+					"tier"
+				]
+			},
+			"voucherMaxRequestCount": {
+				"eng": "Voucher Max ${amount}",
+				"trans": "優惠券上限 ${amount}",
+				"vars": [
+					"amount"
+				]
+			}
+		},
+		"row": {
+			"ownedOnly": {
+				"eng": "Owned: ${amount}",
+				"trans": "擁有：${amount}",
+				"vars": [
+					"amount"
+				]
+			}
+		},
+		"totalCol": {
+			"eng": "Total Items",
+			"trans": "總件數"
+		}
+	},
 	"referralPromo": {
 		"desc1": {
 			"eng": "Free Unit*",
@@ -12141,6 +12507,180 @@
 			"vars": [
 				"amount"
 			]
+		}
+	},
+	"springPop": {
+		"allStagesCleared": {
+			"eng": "All Stages Cleared!",
+			"trans": "所有關卡已通關！"
+		},
+		"button": {
+			"subtitle": {
+				"eng": "TAP TO POP EGGS",
+				"trans": "點擊破蛋"
+			},
+			"title": {
+				"eng": "SPRING POP",
+				"trans": "Spring Pop"
+			}
+		},
+		"calculating": {
+			"eng": "Calculating rewards...",
+			"trans": "計算獎勵中..."
+		},
+		"combo": {
+			"eng": "COMBO",
+			"trans": "連擊"
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The Easter event has ended!",
+				"trans": "復活節活動已結束！"
+			},
+			"noPass": {
+				"eng": "You need an Easter Event Pass to play! Find them in dungeon chests or from AFK farming.",
+				"trans": "你需要復活節活動通行證才能遊玩！可以在地下城寶箱或透過掛機取得！"
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "CLOSE",
+				"trans": "關閉"
+			},
+			"message": {
+				"eng": "The game encountered an error. Don't worry - your Pass was not consumed!",
+				"trans": "遊戲發生錯誤。別擔心 - 您的通行證並未被扣除！"
+			},
+			"title": {
+				"eng": "Game Error",
+				"trans": "遊戲錯誤"
+			}
+		},
+		"failedStage": {
+			"eng": "You didn't reach the target score for Stage ${stage} in time.",
+			"trans": "第 ${stage} 關未能及時達成目標分數。",
+			"vars": [
+				"stage"
+			]
+		},
+		"finish": {
+			"eng": "Finish",
+			"trans": "完成"
+		},
+		"goodEffort": {
+			"eng": "Good Effort!",
+			"trans": "做得好！"
+		},
+		"intro": {
+			"eventEnded": {
+				"eng": "EVENT ENDED",
+				"trans": "活動已結束"
+			},
+			"eventInactive": {
+				"eng": "Event is not currently active",
+				"trans": "活動目前尚未開啟"
+			},
+			"howToGet": {
+				"eng": "Find passes in dungeon chests or from AFK farming during the event!",
+				"trans": "活動期間，可從地下城寶箱或透過掛機獲得通行證！"
+			},
+			"howToPlay": {
+				"eng": "How to Play",
+				"trans": "玩法"
+			},
+			"needPass": {
+				"eng": "NEED PASS",
+				"trans": "需要通行證"
+			},
+			"passesOwned": {
+				"eng": "Passes Owned:",
+				"trans": "持有通行證："
+			},
+			"rule1": {
+				"eng": "Tap groups of matching eggs to pop them",
+				"trans": "點擊一組相同的蛋來消除它們"
+			},
+			"rule2": {
+				"eng": "Larger groups = more points and combos",
+				"trans": "群組越大 = 分數與連擊越多"
+			},
+			"rule3": {
+				"eng": "Reach the target score before time runs out",
+				"trans": "於時間結束前達成目標分數"
+			},
+			"rule4": {
+				"eng": "Watch out for Cracked Eggs — pop them before they turn to stone!",
+				"trans": "注意裂紋蛋 — 趁它們石化前趕快戳破！"
+			},
+			"startButton": {
+				"eng": "START GAME",
+				"trans": "開始遊戲"
+			},
+			"title": {
+				"eng": "Spring Pop",
+				"trans": "春日綻放"
+			}
+		},
+		"loading": {
+			"message": {
+				"eng": "Hiding the eggs...",
+				"trans": "正在藏蛋..."
+			},
+			"title": {
+				"eng": "Loading Game...",
+				"trans": "遊戲載入中..."
+			}
+		},
+		"nextStage": {
+			"eng": "Next Stage",
+			"trans": "下一關"
+		},
+		"noRewards": {
+			"eng": "No rewards obtained.",
+			"trans": "未獲得獎勵。"
+		},
+		"processing": {
+			"eng": "PROCESSING...",
+			"trans": "處理中..."
+		},
+		"rewards": {
+			"eng": "REWARDS",
+			"trans": "獎勵"
+		},
+		"score": {
+			"eng": "SCORE",
+			"trans": "得分"
+		},
+		"stage": {
+			"eng": "STAGE",
+			"trans": "關卡"
+		},
+		"stageCleared": {
+			"eng": "Stage ${stage} Cleared",
+			"trans": "第 ${stage} 關 已通關",
+			"vars": [
+				"stage"
+			]
+		},
+		"stageComplete": {
+			"eng": "Stage Complete!",
+			"trans": "關卡完成！"
+		},
+		"stagesCompletedResult": {
+			"eng": "Completed ${completedStages}/${maxTier} Stages",
+			"trans": "已完成 ${completedStages}/${maxTier} 關卡",
+			"vars": [
+				"completedStages",
+				"maxTier"
+			]
+		},
+		"timeUp": {
+			"eng": "Time's Up!",
+			"trans": "時間到！"
+		},
+		"viewResults": {
+			"eng": "View Results",
+			"trans": "查看結果"
 		}
 	},
 	"statsType": {
@@ -13312,6 +13852,10 @@
 				"eng": "Daily Reward",
 				"trans": "每日獎勵"
 			},
+			"links": {
+				"eng": "Links",
+				"trans": "連結"
+			},
 			"skipQueue": {
 				"eng": "Skip Queue",
 				"trans": "飛逝佇列"
@@ -14016,6 +14560,10 @@
 			},
 			"quickSlots": {
 				"eng": "Quick Slots",
+				"tip": {
+					"eng": "Assign usable items to Quick Slots for quick access during battle.",
+					"trans": "將可用道具設置於快捷欄，戰鬥時可快速取用。"
+				},
 				"trans": "快捷欄"
 			}
 		},
@@ -14158,10 +14706,6 @@
 				"eng": "Leaderboard",
 				"trans": "排行榜"
 			},
-			"links": {
-				"eng": "links",
-				"trans": "連結"
-			},
 			"moderatorTools": {
 				"eng": "Mod Tools",
 				"trans": "版主工具"
@@ -14169,6 +14713,10 @@
 			"premiumShop": {
 				"eng": "Premium Shop",
 				"trans": "高級商店"
+			},
+			"promo": {
+				"eng": "Promo",
+				"trans": "優惠"
 			},
 			"settings": {
 				"eng": "Settings",
@@ -14522,6 +15070,10 @@
 			"unlocked": {
 				"eng": "Unlocked",
 				"trans": "已解鎖"
+			},
+			"upgradeModuleTip": {
+				"eng": "Upgrade modules enhance equipment stats; tap an empty slot to install one, or an installed module to remove it.",
+				"trans": "升級模組可強化裝備屬性；點擊空白插槽以安裝，或點擊已安裝的模組以移除。"
 			},
 			"upgradeModuleTitle": {
 				"eng": "upgrade slot ${index}",
@@ -15303,9 +15855,9 @@
 						"trans": "給予街頭聲望"
 					}
 				},
-				"title": {
-					"eng": "Tutorials",
-					"trans": "教學"
+				"title2": {
+					"eng": "Miscellaneous",
+					"trans": "其他"
 				}
 			},
 			"globalParty": {
@@ -15351,6 +15903,20 @@
 					"eng": "Select min value",
 					"trans": "選擇最小值"
 				}
+			}
+		},
+		"reclamationDepot": {
+			"dataHeader": {
+				"eng": "SHARED POOL READOUT",
+				"trans": "共享池讀數"
+			},
+			"loadError": {
+				"eng": "Unable to load reclamation pool.",
+				"trans": "無法載入回收池。"
+			},
+			"poolUpdateNote": {
+				"eng": "// COUNTS UPDATED PERIODICALLY",
+				"trans": "/// 數值定期更新"
 			}
 		},
 		"register": {
@@ -15472,6 +16038,16 @@
 				"title": {
 					"eng": "Disable Victory Screen",
 					"trans": "停用勝利畫面"
+				}
+			},
+			"disableWelcomeTutorial": {
+				"description": {
+					"eng": "Hide the first login welcome tutorial modal until you turn this back off",
+					"trans": "啟用後將隱藏首次登入的歡迎教學對話框，直到您再次關閉此功能。"
+				},
+				"title": {
+					"eng": "Disable Welcome Tutorial",
+					"trans": "停用新手教學"
 				}
 			},
 			"enableApartmentWall": {
@@ -15900,6 +16476,10 @@
 				"eng": "quests",
 				"trans": "任務"
 			},
+			"reclamationDepot": {
+				"eng": "Reclamation Depot",
+				"trans": "回收站"
+			},
 			"referral": {
 				"eng": "referral",
 				"trans": "邀請"
@@ -16059,6 +16639,146 @@
 		"title": {
 			"eng": "Valentine Event",
 			"trans": "情人節活動"
+		}
+	},
+	"voucherTier": {
+		"high": {
+			"eng": "High",
+			"trans": "高"
+		},
+		"low": {
+			"eng": "Low",
+			"trans": "低"
+		}
+	},
+	"welcome": {
+		"afk": {
+			"headline": {
+				"eng": "Progress While Offline",
+				"trans": "離線進度"
+			},
+			"sentence": {
+				"eng": "Start a task before logging off to continue gathering resources and leveling up in the background.",
+				"trans": "登出前請先開啟任務，即可於背景持續蒐集資源與練等。"
+			}
+		},
+		"animation": {
+			"asset": {
+				"eng": "Asset",
+				"trans": "素材"
+			},
+			"autotask": {
+				"eng": "AUTOTASK",
+				"trans": "自動任務"
+			},
+			"buy": {
+				"eng": "EXECUTE: BUY",
+				"trans": "執行：購買"
+			},
+			"chat1": {
+				"eng": "LFG Abandoned Factory, need healer.",
+				"trans": "找團：廢棄工廠，缺補師。"
+			},
+			"chat2": {
+				"eng": "Inv, I got medkits.",
+				"trans": "Inv，我有醫療包。"
+			},
+			"chat3": {
+				"eng": "Global Buff Activated by Kael",
+				"trans": "Kael 已啟動全域 Buff"
+			},
+			"efficiency": {
+				"eng": "Efficiency",
+				"trans": "效率"
+			},
+			"price": {
+				"eng": "Lowest Price",
+				"trans": "最低價"
+			},
+			"reverse_engineering": {
+				"eng": "REVERSE_ENGINEERING",
+				"trans": "逆向工程"
+			},
+			"system": {
+				"eng": "System:",
+				"trans": "系統:"
+			},
+			"waiting": {
+				"eng": "WAITING FOR ORDERS...",
+				"trans": "等待指令中..."
+			},
+			"yield_acquired": {
+				"eng": "YIELD ACQUIRED",
+				"trans": "收益入帳"
+			}
+		},
+		"cta": {
+			"done": {
+				"eng": "Start Playing",
+				"trans": "開始遊戲"
+			},
+			"next": {
+				"eng": "Next",
+				"trans": "下一步"
+			}
+		},
+		"economy": {
+			"headline": {
+				"eng": "Player-Driven Economy",
+				"trans": "玩家主導的經濟體系"
+			},
+			"sentence": {
+				"eng": "Every item in the market is crafted and traded by real players like you.",
+				"trans": "市集裡的每項道具，皆由你這樣的真實玩家親手打造與交易。"
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "Continue",
+				"trans": "繼續"
+			},
+			"description": {
+				"eng": "Your character was created successfully. You can continue playing normally.",
+				"trans": "角色創建成功。您可以繼續正常遊玩。"
+			},
+			"title": {
+				"eng": "Welcome Screen Failed to Load",
+				"trans": "歡迎畫面載入失敗"
+			}
+		},
+		"fairness": {
+			"headline": {
+				"eng": "Zero Pay-To-Win",
+				"trans": "杜絕課金致勝"
+			},
+			"sentence": {
+				"eng": "All premium buffs are shared globally across the server. When someone supports the game, the entire community benefits and progresses together.",
+				"trans": "所有特權增益皆在全伺服器內共享。每當有人支持遊戲，整個社群都將共同獲益、一同進步。"
+			}
+		},
+		"loading": {
+			"title": {
+				"eng": "Initializing Welcome Sequence",
+				"trans": "初始化歡迎程序"
+			}
+		},
+		"skip": {
+			"eng": "Skip",
+			"trans": "跳過"
+		},
+		"splash": {
+			"connection": {
+				"eng": "// Connection Established",
+				"trans": "/// 連線已建立"
+			},
+			"sys_init": {
+				"eng": "Sys.Init_Seq.01",
+				"trans": "系統初始化序列.01"
+			},
+			"welcome": {
+				"eng": "Welcome To",
+				"trans": "歡迎來到"
+			}
 		}
 	}
 }
