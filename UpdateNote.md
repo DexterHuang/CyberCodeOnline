@@ -16,6 +16,25 @@ Please send your feedback to my Discord or email me directly.
 
 ## Updates
 
+### 0.1890
+
+- **Reclamation Depot**:
+  - Added `Reclamation Depot` at `Crystal Sands`, where you can donate surplus equipment into a shared community reward pool
+  - Donations has low chance of dropping `Low Reclamation Voucher` or `High Reclamation Voucher` depending on the equipment tier, and vouchers can be redeemed for random pooled rewards
+  - Reclamation Depot donations unlock at level 100, and voucher redemption unlocks at level 30
+- **Easter Event** (04/01 to 04/30):
+  - During the event, `Egg Shell Token` and `Easter Event Pass` can drop from AFK bot farming and dungeon chests
+  - Exchange `Egg Shell Token` with `Eggbert` for Easter event supplies
+  - Party contribution receives up to 10% discount for early contributors
+  - Skips receive a 5% discount during the event
+  - **Spring Pop Event Game**:
+    - Added new event game where you match eggs before time runs out across progressive stages
+    - Requires `Easter Event Pass` to play (obtainable from dungeon chests and AFK farming during the Easter event)
+- Added a new first-login welcome flow after character creation
+- fixed marriage setting related problem
+- Added the `Bababoey cat` emblem
+- added the `Netrunner` chat frame
+
 ### 0.1889
 
 - **Sakura Festival**:
