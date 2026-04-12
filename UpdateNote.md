@@ -16,6 +16,13 @@ Please send your feedback to my Discord or email me directly.
 
 ## Updates
 
+### 0.1891
+
+- Fixed issue with AI Core crafting exp causing some player to unable to access the crafting option
+- Added animation for all AFK tasks.
+- Fixed issues with minigame
+- Updated the recycle machine icon to better match its recycler function
+
 ### 0.1890
 
 - **Reclamation Depot**:
