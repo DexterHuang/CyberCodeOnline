@@ -16,6 +16,18 @@ Please send your feedback to my Discord or email me directly.
 
 ## Updates
 
+### 0.1892
+
+- Overhauled mobile AFK animations for a smoother, more polished experience across the AFK flow.
+- Added many new bespoke animations for different AFK activities.
+- Improved fallback visuals so AFK activities still look good even when a dedicated animation isn't available.
+- Added admin-only debug tools to help validate AFK animation behavior.
+- Refined the mobile global skip flow with clearer feedback, cleaner pricing and discount details, and a more polished card layout.
+- Mobile tips now load in your selected language for a more localized experience.
+- **Missile Command Event Game**:
+  - Added a new event game where you defend cities by launching interceptors against multiple missile variants across 5 progressive stages.
+  - Requires `Missile Command Pass` to play, obtainable from dungeon chests and AFK farming during the May event.
+
 ### 0.1891
 
 - Fixed issue with AI Core crafting exp causing some player to unable to access the crafting option
