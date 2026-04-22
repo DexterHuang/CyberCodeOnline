@@ -136,9 +136,6 @@ You can either scrap, destroy or store items in the bank located in the City Cen
 The quality of the armor will contribute a lot on the stat it gives; the higher the quality, the better the stats.
 Quality tiers go from Trash > Common > High Quality > Rare > Legendary > Epic. You cannot change the Quality of a weapon or armor.
 
-### What does "Durability" on weapons and armor means?
-*Durability is the ability of an equipment to remain functional, without requiring excessive maintenance or repair, when faced with the challenges of normal operation over it's designed lifetime (Wikipedia)*.  Durability only decreases when fighting Nearby Enemies.  Durability is not impacted when fighting in dungeons.
-
 ### How do I repair my equipment's durability?
 As of current update, Durability will just be a mere numbers on your gear stats. It will never be decreased & the feature to **Repair** gear's durability were no longer exist.
 
