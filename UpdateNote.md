@@ -18,15 +18,14 @@ Please send your feedback to my Discord or email me directly.
 
 ### 0.1892
 
-- Overhauled mobile AFK animations for a smoother, more polished experience across the AFK flow.
-- Added many new bespoke animations for different AFK activities.
-- Improved fallback visuals so AFK activities still look good even when a dedicated animation isn't available.
-- Added admin-only debug tools to help validate AFK animation behavior.
-- Refined the mobile global skip flow with clearer feedback, cleaner pricing and discount details, and a more polished card layout.
+- **May Event & Missile Command**:
+  - Added the May event with the new `Missile Command` event game, event drops, exchange rewards, contribution discounts, top-up bonuses, and dedicated promo display.
+  - Open the in-game promo popup during the event for the full reward, drop, and benefit details.
+- Improved mobile AFK visuals with smoother animations, more activity-specific scenes, and better fallback visuals.
+- Refined the mobile global skip flow with clearer feedback and cleaner discount details.
 - Mobile tips now load in your selected language for a more localized experience.
-- **Missile Command Event Game**:
-  - Added a new event game where you defend cities by launching interceptors against multiple missile variants across 5 progressive stages.
-  - Requires `Missile Command Pass` to play, obtainable from dungeon chests and AFK farming during the May event.
+- Improved mobile inventory controls with search and saved sorting options.
+- Updated buff activation icons across reward, pet, loot box, and fragment fusion flows for clearer visual recognition.
 
 ### 0.1891
 
