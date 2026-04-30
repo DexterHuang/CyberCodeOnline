@@ -1225,10 +1225,6 @@
 				"items",
 				"eventName"
 			]
-		},
-		"system": {
-			"eng": "SYSTEM",
-			"trans": "Systém"
 		}
 	},
 	"chatAttachmentMenu": {
@@ -2427,6 +2423,10 @@
 		"donation50": {
 			"eng": "Netrunner",
 			"trans": "Netrunner"
+		},
+		"donation51": {
+			"eng": "Cyberdeck",
+			"trans": "Kyberdeč"
 		},
 		"donation6": {
 			"eng": "Prestige",
@@ -3802,6 +3802,10 @@
 				"eng": "June",
 				"trans": "Jún"
 			},
+			"prismRunner": {
+				"eng": "Rainbow Run",
+				"trans": "Dúhový beh"
+			},
 			"skipDiscountTitle": {
 				"eng": "${percent}% off during event",
 				"trans": "${percent}% dole počas akcie",
@@ -3823,6 +3827,10 @@
 			"trans": "Lunárny Nový rok"
 		},
 		"may": {
+			"missileCommand": {
+				"eng": "Missile Command",
+				"trans": "Raketové velenie"
+			},
 			"name": {
 				"eng": "May",
 				"trans": "máj"
@@ -4966,6 +4974,16 @@
 				"trans": "OverClock Kreatín"
 			}
 		},
+		"defenseRationVoucher": {
+			"description": {
+				"eng": "A standardized voucher issued to Aegis Defense personnel. Can be exchanged for supplies at the battery station.",
+				"trans": "Štandardizovaný poukaz vydaný personálu obrany Aegis. Možno ho vymeniť za zásoby na batériovej stanici."
+			},
+			"name": {
+				"eng": "Defense Ration Voucher",
+				"trans": "Poukaz na obranné zásoby"
+			}
+		},
 		"dumplings": {
 			"description": {
 				"eng": "These dumplings are unlike any other. Made with love and care by Yen, these delicious pockets of goodness are filled with the finest ingredients and cooked to perfection.\\n recover ${percent}% health upon consumption",
@@ -5080,6 +5098,19 @@
 				"vars": [
 					"levelName"
 				]
+			}
+		},
+		"fieldRation": {
+			"description": {
+				"eng": "A dense, calorie-packed meal designed for extended combat deployments. Tastes like cardboard, but keeps you fighting. Consume to reduce damage taken by ${percent}% for 20 minutes.",
+				"trans": "Kompaktná strava s vysokým obsahom kalórií určená na dlhodobé bojové nasadenie. Chutí ako lepenka, ale udržuje ťa v boji. Po zjedení zníži prijaté poškodenie o ${percent}% počas 20 minút.",
+				"vars": [
+					"percent"
+				]
+			},
+			"name": {
+				"eng": "Emergency Field Ration",
+				"trans": "Núdzová polná racia"
 			}
 		},
 		"fireworksPass": {
@@ -5532,6 +5563,16 @@
 				"trans": "Lekárske technické diely"
 			}
 		},
+		"missileCommandPass": {
+			"description": {
+				"eng": "A special pass required to participate in the Missile Command event game. Can be found in Dungeon Chests or from AFK farming during the May event.",
+				"trans": "Špeciálna priepustka potrebná na účasť v hre Missile Command. Nájdete ju v podzemných truhlách alebo získate farmovaním v režime AFK počas májovej udalosti."
+			},
+			"name": {
+				"eng": "Missile Command Pass",
+				"trans": "Prístup k raketovému veleniu"
+			}
+		},
 		"newYear": {
 			"description": {
 				"eng": "A red envelope with a golden digital seal on it. looks like it contains some sort of currency",
@@ -5651,10 +5692,30 @@
 				"trans": "NanoŽuvačka Gulička"
 			}
 		},
+		"pridePrism": {
+			"description": {
+				"eng": "A radiant keepsake from the Rainbow Run.",
+				"trans": "Žiariaci suvenír z Dúhového behu."
+			},
+			"name": {
+				"eng": "Rainbow Prism",
+				"trans": "Duhová prizma"
+			}
+		},
 		"primaryWeapon": {
 			"name": {
 				"eng": "Primary Weapon",
 				"trans": "Primárna zbraň"
+			}
+		},
+		"prismRunPass": {
+			"description": {
+				"eng": "A chromatic access token for the June Rainbow Run event game. Required to enter the rainbow geometry course.",
+				"trans": "Chromatický prístupový token pre júnové podujatie Rainbow Run. Vyžaduje sa na vstup do dúhovo-geometrickej trate."
+			},
+			"name": {
+				"eng": "Rainbow Run Pass",
+				"trans": "Pas pre duhový beh"
 			}
 		},
 		"pudding": {
@@ -8380,6 +8441,230 @@
 			"trans": "využitie"
 		}
 	},
+	"missileCommand": {
+		"allComplete": {
+			"eng": "ALL COMPLETE!",
+			"trans": "VŠETKO DOKONČENÉ!"
+		},
+		"ammo": {
+			"eng": "Ammo",
+			"trans": "Strelivo"
+		},
+		"button": {
+			"subtitle": {
+				"eng": "TACTICAL BATTERY CONTROL",
+				"trans": "Taktické riadenie batérie"
+			},
+			"title": {
+				"eng": "MISSILE COMMAND",
+				"trans": "PRÍKAZ STRELY"
+			}
+		},
+		"cities": {
+			"eng": "Cities",
+			"trans": "Mestá"
+		},
+		"citiesSaved": {
+			"eng": "${count} cities saved",
+			"trans": "${count} zachovaných miest",
+			"vars": [
+				"count"
+			]
+		},
+		"congratulations": {
+			"eng": "CITY DEFENDED!",
+			"trans": "MESTO OBRÁNENÉ!"
+		},
+		"defend": {
+			"eng": "Defend the cities!",
+			"trans": "Obraňte mestá!"
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The May event has ended!",
+				"trans": "Májová udalosť sa skončila!"
+			},
+			"noPass": {
+				"eng": "You need a ${itemName} to play! Find them in dungeon chests or from AFK farming.",
+				"trans": "Na hru potrebuješ ${itemName}! Nájdete ich v truhlách v podzemíach alebo z farmenia AFK.",
+				"vars": [
+					"itemName"
+				]
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "ABORT",
+				"trans": "PRERUŠIŤ"
+			},
+			"message": {
+				"eng": "The tactical uplink encountered an error. Your pass was not consumed.",
+				"trans": "Pri taktickom prepojení došlo k chybe. Váš prístupový lístok nebol spotrebovaný."
+			},
+			"title": {
+				"eng": "SYSTEM_FAILURE",
+				"trans": "ZLYHANIE SYSTÉMU"
+			}
+		},
+		"exit": {
+			"eng": "EXIT",
+			"trans": "UKONČIŤ"
+		},
+		"failedStage": {
+			"eng": "FAILED AT STAGE ${stage}",
+			"trans": "Zlyhanie na fáze ${stage}",
+			"vars": [
+				"stage"
+			]
+		},
+		"finish": {
+			"eng": "FINISH",
+			"trans": "DOKONČIŤ"
+		},
+		"gameOver": {
+			"eng": "CITIES DESTROYED!",
+			"trans": "ZNÍČENÉ MESTÁ!"
+		},
+		"intro": {
+			"available": {
+				"eng": "AVAILABLE_QTY",
+				"trans": "DOSTUPNÉ MNOŽSTVO"
+			},
+			"eventEnded": {
+				"eng": "OFFLINE",
+				"trans": "OFFLINE"
+			},
+			"eventInactive": {
+				"eng": "NETWORK_OFFLINE: RETURN DURING ACTIVE THREAT WINDOWS",
+				"trans": "SIEŤ OFFLINE: VRÁŤTE SA POČAS AKTÍVNYCH OBDOBÍ HROZBÍ"
+			},
+			"howToGet": {
+				"eng": "> ACQUIRE [${itemName}] FROM DUNGEON CACHES OR AUTOMATED SWEEPS.",
+				"trans": "> ZÍSKAJTE [${itemName}] Z PODZEMNÝCH SKRÝŠ ALI AUTOMATICKÝCH PREHLIADOK.",
+				"vars": [
+					"itemName"
+				]
+			},
+			"howToPlay": {
+				"eng": "OPERATION_BRIEFING",
+				"trans": "Briefing operácie"
+			},
+			"logistics": {
+				"eng": "AUTHORIZATION_LOGISTICS",
+				"trans": "Schválenie logistiky"
+			},
+			"needItem": {
+				"eng": "AUTHORIZATION_REQUIRED",
+				"trans": "Vyžaduje sa autorizácia"
+			},
+			"requiredClearance": {
+				"eng": "REQUIRED_CLEARANCE",
+				"trans": "POŽADOVANÝ STUPEŇ PRÍSTUPU"
+			},
+			"rule1": {
+				"eng": "Tap grid coordinates to deploy interceptor missiles.",
+				"trans": "Ťukni na súradnice mriežky pre nasadenie interceptorov."
+			},
+			"rule2": {
+				"eng": "Neutralize incoming ballistic threats before impact.",
+				"trans": "Znič prilietávajúce balistické hrozby pred dopadom."
+			},
+			"rule3": {
+				"eng": "Defend civic sectors across five escalating threat levels.",
+				"trans": "Obraňuj občianske sektory v piatich úrovniach rastúcej hrozby."
+			},
+			"rule4": {
+				"eng": "Critical structural failure results in immediate mission abort.",
+				"trans": "Kritické zlyhanie štruktúry spôsobí okamžité prerušenie misie."
+			},
+			"startButton": {
+				"eng": "INITIATE_UPLINK",
+				"trans": "Nadviaž uplink"
+			},
+			"status": {
+				"eng": "SYS.STATUS",
+				"trans": "SYSTÉMOVÝ STAV"
+			},
+			"title": {
+				"eng": "Missile Command",
+				"trans": "Raketové velenie"
+			}
+		},
+		"loading": {
+			"message": {
+				"eng": "Connecting to defense grid...",
+				"trans": "Pripájanie k brannej sieti..."
+			},
+			"title": {
+				"eng": "ESTABLISHING_UPLINK...",
+				"trans": "NAVÄZUJEM_SPOJENIE..."
+			}
+		},
+		"nextStage": {
+			"eng": "NEXT STAGE",
+			"trans": "ĎALŠIA FÁZA"
+		},
+		"noRewards": {
+			"eng": "No rewards obtained.",
+			"trans": "Žiadne odmeny získané."
+		},
+		"pleaseWait": {
+			"eng": "Calculating rewards...",
+			"trans": "Prebieha výpočet odmien..."
+		},
+		"processing": {
+			"eng": "PROCESSING...",
+			"trans": "SPRACÚVANIE..."
+		},
+		"rewards": {
+			"eng": "REWARDS!",
+			"trans": "ODMENY!"
+		},
+		"rewardsEarned": {
+			"eng": "YOUR REWARDS",
+			"trans": "VAŠE ODMENY"
+		},
+		"seconds": {
+			"eng": "seconds",
+			"trans": "sekundy"
+		},
+		"stage": {
+			"eng": "STAGE ${stage}",
+			"trans": "FÁZA ${stage}",
+			"vars": [
+				"stage"
+			]
+		},
+		"stageClear": {
+			"eng": "STAGE CLEAR!",
+			"trans": "ÚROVEŇ PREKONANÁ!"
+		},
+		"stageRewards": {
+			"eng": "STAGE ${stage} CLEARED",
+			"trans": "FÁZA ${stage} PREKONANÁ",
+			"vars": [
+				"stage"
+			]
+		},
+		"stats": {
+			"citiesSaved": {
+				"eng": "CITIES LEFT",
+				"trans": "PREŽIVŠIE MIESTA"
+			},
+			"destroyed": {
+				"eng": "DESTROYED",
+				"trans": "ZNÍČENÉ"
+			}
+		},
+		"tapToFire": {
+			"eng": "TAP TO FIRE!",
+			"trans": "KLEPNI PRE STREĽBU!"
+		},
+		"tooManyCitiesLost": {
+			"eng": "Too many cities were destroyed",
+			"trans": "Zničených bolo príliš veľa miest"
+		}
+	},
 	"mobile": {
 		"appBanner": {
 			"description": {
@@ -9510,6 +9795,28 @@
 				"trans": "Breh"
 			}
 		},
+		"mayDefense": {
+			"defaultLines": {
+				"eng": [
+					"Inbound missile signatures detected. Intercept before impact.",
+					"Four cities. Limited ammo. No second chances.",
+					"Get on the battery and keep our skyline standing."
+				],
+				"trans": [
+					"Detekované signatúry prichádzajúcich raketiet. Zrážte ich pred dopadom.",
+					"Štyri mestá. Obmedzená munícia. Žiadne druhé šance.",
+					"Nastúp do veže a ochráň našu panorámu."
+				]
+			},
+			"name": {
+				"eng": "Aegis Defense Battery",
+				"trans": "Obronná veža Aegis"
+			},
+			"npcName": {
+				"eng": "Commander Aegis",
+				"trans": "Veliteľ Aegis"
+			}
+		},
 		"newYear": {
 			"defaultLines": {
 				"eng": [
@@ -9590,6 +9897,28 @@
 			"npcName": {
 				"eng": "Jin",
 				"trans": "Jin"
+			}
+		},
+		"pride": {
+			"defaultLines": {
+				"eng": [
+					"Ready to take on the Rainbow Run?",
+					"The route is live. Bring your Rainbow Run pass and launch when you're ready.",
+					"Keep your line clean, collect prisms, and push for the next reward band."
+				],
+				"trans": [
+					"Si pripravený zvládnuť Rainbow Run?",
+					"Trasa je aktívna. Vezmi si preukaz na Rainbow Run a odštartuj, keď budeš pripravený.",
+					"Udrž si čistou sériu, zbieraj hranoly a tlač na ďalšiu odmenu."
+				]
+			},
+			"name": {
+				"eng": "Rainbow Run Plaza",
+				"trans": "Pláza Duhového behu"
+			},
+			"npcName": {
+				"eng": "Prism Guide",
+				"trans": "Prízmový sprievodca"
 			}
 		},
 		"printer": {
@@ -10784,6 +11113,255 @@
 			"trans": "ZADARMO"
 		}
 	},
+	"prismRunner": {
+		"button": {
+			"status": {
+				"eng": "UPLINK: READY",
+				"trans": "PREPOJENIE: PRIPRAVENÉ"
+			},
+			"subtitle": {
+				"eng": "RAINBOW GEOMETRY ROUTE",
+				"trans": "DUHOVÁ GEOMETRICKÁ TRASA"
+			},
+			"title": {
+				"eng": "RAINBOW RUN",
+				"trans": "DUHOVÝ BEH"
+			}
+		},
+		"countdown": {
+			"tapToBoost": {
+				"eng": "TAP TO BOOST",
+				"trans": "ŤUKNI PRE BOOST"
+			},
+			"title": {
+				"eng": "PRISM RUNNER",
+				"trans": "BEŽEC PRISMY"
+			}
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The June event is not active.",
+				"trans": "Júnová udalosť nie je aktívna."
+			},
+			"noPass": {
+				"eng": "You need a ${itemName} to enter Rainbow Run.",
+				"trans": "Potrebuješ ${itemName} na vstup do Rainbow Run.",
+				"vars": [
+					"itemName"
+				]
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "CLOSE",
+				"trans": "ZAVRIEŤ"
+			},
+			"message": {
+				"eng": "The run encountered an error. If submission already began, your pass was consumed and rewards were granted.",
+				"trans": "Pri behu došlo k chybe. Ak už začalo odosielanie, váš prístupový token bol spotrebovaný a odmeny boli udelené."
+			},
+			"title": {
+				"eng": "PRISM_LINK_FAILURE",
+				"trans": "Zlyhanie prepojenia Prism"
+			}
+		},
+		"exit": {
+			"eng": "EXIT",
+			"trans": "UKONČIŤ"
+		},
+		"finish": {
+			"eng": "FINISH",
+			"trans": "DOKONČIŤ"
+		},
+		"gameOver": {
+			"subtitle": {
+				"eng": "No reward band reached",
+				"trans": "Žiadna odmena nedosiahnutá"
+			},
+			"title": {
+				"eng": "PRISM_BREAK",
+				"trans": "Zlom prizmy"
+			}
+		},
+		"hud": {
+			"expMax": {
+				"eng": "EXP MAX",
+				"trans": "MAX EXP"
+			},
+			"expProgress": {
+				"eng": "EXP ${current}/${next}",
+				"trans": "ZKUŠENOSTI ${current}/${next}",
+				"vars": [
+					"current",
+					"next"
+				]
+			},
+			"nearMisses": {
+				"eng": "NEAR ${count}",
+				"trans": "TAKMER ${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"op": {
+				"eng": "OP: PRISM_RUNNER",
+				"trans": "OPERÁTOR: PRISM_RUNNER"
+			},
+			"pickups": {
+				"eng": "PICKUPS ${count}",
+				"trans": "POLOŽKY ${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"score": {
+				"eng": "SCORE ${score}",
+				"trans": "SKOR ${score}",
+				"vars": [
+					"score"
+				]
+			},
+			"shards": {
+				"eng": "SHARDS ${count}",
+				"trans": "TRŽNE ${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"tier": {
+				"eng": "TIER ${tier}",
+				"trans": "STUPEŇ ${tier}",
+				"vars": [
+					"tier"
+				]
+			},
+			"tierUnlocked": {
+				"eng": "TIER ${tier} UNLOCKED",
+				"trans": "ÚROVEŇ ${tier} ODBLOKOVANÁ",
+				"vars": [
+					"tier"
+				]
+			},
+			"time": {
+				"eng": "TIME ${seconds}s",
+				"trans": "ČAS ${seconds}s",
+				"vars": [
+					"seconds"
+				]
+			}
+		},
+		"intro": {
+			"briefing": {
+				"eng": "RUN_BRIEFING",
+				"trans": "PRÍPRAVA MISIE"
+			},
+			"eventClosed": {
+				"eng": "EVENT CLOSED",
+				"trans": "UDALOSŤ UKONČENÁ"
+			},
+			"eventInactive": {
+				"eng": "June event inactive",
+				"trans": "Júnová akcia nie je aktívna"
+			},
+			"juneEvent": {
+				"eng": "JUNE_EVENT",
+				"trans": "Júnová udalosť"
+			},
+			"needPass": {
+				"eng": "NEED PASS",
+				"trans": "POTREBNÁ PREPUSTKA"
+			},
+			"rewardHint": {
+				"eng": "Reward bands pay June event supplies.",
+				"trans": "Odmenové kategórie poskytujú zdroje pre júnovú udalosť."
+			},
+			"rule1": {
+				"eng": "Tap to boost the prism marker upward.",
+				"trans": "Klepnutím posuniete prizmový ukazovateľ nahor."
+			},
+			"rule2": {
+				"eng": "Thread the marker through rainbow geometry gates.",
+				"trans": "Vedite značku cez dúhové geometrické brány."
+			},
+			"rule3": {
+				"eng": "Collect prism shards to fill the EXP bar and unlock reward tiers.",
+				"trans": "Zbieraj prízmové úlomky na naplnenie lišty skúseností a odomknutie úrovní odmen."
+			},
+			"rule4": {
+				"eng": "Skim close to hazards for bonus score only.",
+				"trans": "Prechádzaj tesne vedľa prekážok len za bonusové body."
+			},
+			"start": {
+				"eng": "START RUN",
+				"trans": "ZAČAŤ BEH"
+			},
+			"title": {
+				"eng": "Rainbow Run",
+				"trans": "Dúhový beh"
+			}
+		},
+		"loading": {
+			"title": {
+				"eng": "INITIALIZING_PRISM",
+				"trans": "Inicializácia PRISM"
+			}
+		},
+		"processing": {
+			"eng": "PROCESSING_RUN_DATA",
+			"trans": "Spracúvanie behových dát"
+		},
+		"processingRewards": {
+			"eng": "Calculating reward band...",
+			"trans": "Vypočítavam triedu odmeny..."
+		},
+		"results": {
+			"maxTitle": {
+				"eng": "MAX_TIER_REACHED",
+				"trans": "DOSIAHNUTÁ MAXIMÁLNA ÚROVEŇ"
+			},
+			"noRewards": {
+				"eng": "No rewards returned",
+				"trans": "Žiadne odmeny neboli získaté"
+			},
+			"rewards": {
+				"eng": "Route Rewards",
+				"trans": "Odmeny z trasy"
+			},
+			"tier": {
+				"eng": "Tier ${tier} prism route cleared",
+				"trans": "Tier ${tier} prizmová trasa prekonaná",
+				"vars": [
+					"tier"
+				]
+			},
+			"title": {
+				"eng": "REWARD_BAND_LOCKED",
+				"trans": "Zamknuté pásmo odmen"
+			}
+		},
+		"stats": {
+			"airtime": {
+				"eng": "Airtime",
+				"trans": "Čas vo vzduchu"
+			},
+			"distance": {
+				"eng": "Distance",
+				"trans": "Vzdialenosť"
+			},
+			"nearMisses": {
+				"eng": "Near Miss",
+				"trans": "Takmer zásah"
+			},
+			"pickups": {
+				"eng": "Pickups",
+				"trans": "Zozbierané predmety"
+			},
+			"score": {
+				"eng": "Score",
+				"trans": "Skóre"
+			}
+		}
+	},
 	"procedural": {
 		"equipmentName": {
 			"nameParts": {
@@ -10863,11 +11441,11 @@
 		},
 		"june": {
 			"desc": {
-				"eng": "🌈 All skips cost 5% less during June",
+				"eng": "Run the rainbow geometry route and earn June rewards",
 				"trans": "🌈 V júni sú všetky preskočenia lacnejšie o 5%"
 			},
 			"title": {
-				"eng": "5% off on skips during June!",
+				"eng": "June Rainbow Run",
 				"trans": "5% zľava na preskakovanie počas júna!"
 			}
 		},
@@ -14901,6 +15479,34 @@
 			"secretKeys": {
 				"eng": "secret keys",
 				"trans": "tajné kľúče"
+			},
+			"sort": {
+				"active": {
+					"eng": "Active",
+					"trans": "Aktívne"
+				},
+				"best": {
+					"eng": "Best",
+					"trans": "Najlepšie"
+				},
+				"eng": "Sort",
+				"level": {
+					"eng": "Level",
+					"trans": "Úroveň"
+				},
+				"name": {
+					"eng": "Name",
+					"trans": "Meno"
+				},
+				"price": {
+					"eng": "Price",
+					"trans": "Cena"
+				},
+				"tier": {
+					"eng": "Tier",
+					"trans": "Trieda"
+				},
+				"trans": "Zoradiť"
 			}
 		},
 		"itemDetails": {
@@ -15186,7 +15792,7 @@
 		},
 		"list": {
 			"longPressToMultiSelect": {
-				"eng": "Long press to multi-select",
+				"eng": "Long press to select",
 				"trans": "Podržťe na viacnásobné výbery"
 			}
 		},
@@ -15971,7 +16577,7 @@
 		"setting": {
 			"afkAnimation": {
 				"description": {
-					"eng": "Show visual animation section for AFK tasks",
+					"eng": "Show visual animation block for AFK tasks",
 					"trans": "Zobraziť sekciu vizuálnych animácií pre AFK úlohy"
 				},
 				"title": {
@@ -16341,9 +16947,9 @@
 					"trans": "Potvrdiť preskočenie?"
 				}
 			},
-			"description": {
-				"eng": "Global Skip allows you to skip the AFK waiting time, and finish it instantly.\n    This effect will be applied to all players performing an AFK task.",
-				"trans": "Global Skip ti umožní preskočiť AFK čakanie a skončiť okanžiťe.\n    Tento efekt bude použitý aj na ostatných hráčov ktorý robia AFK úlohy"
+			"globalSkipTip": {
+				"eng": "Global Skip instantly completes AFK tasks for all players, give the legend some cred, or contribute to empower the community.",
+				"trans": "Globálny preskok okamžite dokončí všetky úlohy pri nečinnosti pre všetkých hráčov, zvýši kredit legendy alebo prispieva k posilneniu komunity."
 			},
 			"inProgressBox": {
 				"subtitle": {

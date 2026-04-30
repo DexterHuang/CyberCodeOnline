@@ -1225,10 +1225,6 @@
 				"items",
 				"eventName"
 			]
-		},
-		"system": {
-			"eng": "SYSTEM",
-			"trans": "SYSTEM"
 		}
 	},
 	"chatAttachmentMenu": {
@@ -2427,6 +2423,10 @@
 		"donation50": {
 			"eng": "Netrunner",
 			"trans": "Netrunner"
+		},
+		"donation51": {
+			"eng": "Cyberdeck",
+			"trans": "Cyberdeck"
 		},
 		"donation6": {
 			"eng": "Prestige",
@@ -3802,6 +3802,10 @@
 				"eng": "June",
 				"trans": "Czerwiec"
 			},
+			"prismRunner": {
+				"eng": "Rainbow Run",
+				"trans": "Tęczowy Bieg"
+			},
 			"skipDiscountTitle": {
 				"eng": "${percent}% off during event",
 				"trans": "${percent}% zniżki podczas wydarzenia",
@@ -3823,6 +3827,10 @@
 			"trans": "Nowy Rok Księżycowy"
 		},
 		"may": {
+			"missileCommand": {
+				"eng": "Missile Command",
+				"trans": "Dowództwo Rakietowe"
+			},
 			"name": {
 				"eng": "May",
 				"trans": "Maj"
@@ -4966,6 +4974,16 @@
 				"trans": "OverClock Kreatyna"
 			}
 		},
+		"defenseRationVoucher": {
+			"description": {
+				"eng": "A standardized voucher issued to Aegis Defense personnel. Can be exchanged for supplies at the battery station.",
+				"trans": "Standardowy bon wydawany personelowi Obrony Aegis. Można wymienić na zaopatrzenie w stacji zasilania."
+			},
+			"name": {
+				"eng": "Defense Ration Voucher",
+				"trans": "Bon na racje obronne"
+			}
+		},
 		"dumplings": {
 			"description": {
 				"eng": "These dumplings are unlike any other. Made with love and care by Yen, these delicious pockets of goodness are filled with the finest ingredients and cooked to perfection.\\n recover ${percent}% health upon consumption",
@@ -5080,6 +5098,19 @@
 				"vars": [
 					"levelName"
 				]
+			}
+		},
+		"fieldRation": {
+			"description": {
+				"eng": "A dense, calorie-packed meal designed for extended combat deployments. Tastes like cardboard, but keeps you fighting. Consume to reduce damage taken by ${percent}% for 20 minutes.",
+				"trans": "Skondensowana, bogata w kalorie racja przeznaczona do długotrwałych misji bojowych. Smakuje jak karton, ale utrzymuje cię przy siłach. Użycie zmniejsza otrzymywane obrażenia o ${percent}% na 20 minut.",
+				"vars": [
+					"percent"
+				]
+			},
+			"name": {
+				"eng": "Emergency Field Ration",
+				"trans": "Awaryjna racja polowa"
 			}
 		},
 		"fireworksPass": {
@@ -5532,6 +5563,16 @@
 				"trans": "Skrawki Technologii Medycznej"
 			}
 		},
+		"missileCommandPass": {
+			"description": {
+				"eng": "A special pass required to participate in the Missile Command event game. Can be found in Dungeon Chests or from AFK farming during the May event.",
+				"trans": "Specjalna przepustka wymagana do udziału w grze eventowej Missile Command. Można ją zdobyć ze skrzyń lochowych lub z farmienia AFK podczas majowego wydarzenia."
+			},
+			"name": {
+				"eng": "Missile Command Pass",
+				"trans": "Przepustka komendy rakiet"
+			}
+		},
 		"newYear": {
 			"description": {
 				"eng": "A red envelope with a golden digital seal on it. looks like it contains some sort of currency",
@@ -5651,10 +5692,30 @@
 				"trans": "Kulka NanoGryzmo"
 			}
 		},
+		"pridePrism": {
+			"description": {
+				"eng": "A radiant keepsake from the Rainbow Run.",
+				"trans": "Świecząca pamiątka z Rainbow Run."
+			},
+			"name": {
+				"eng": "Rainbow Prism",
+				"trans": "Tęczowy pryzmat"
+			}
+		},
 		"primaryWeapon": {
 			"name": {
 				"eng": "Primary Weapon",
 				"trans": "Broń Podstawowa"
+			}
+		},
+		"prismRunPass": {
+			"description": {
+				"eng": "A chromatic access token for the June Rainbow Run event game. Required to enter the rainbow geometry course.",
+				"trans": "Chromatyczny żeton wstępu na wydarzenie June Rainbow Run. Wymagany do wejścia na tęczowy tor geometryczny."
+			},
+			"name": {
+				"eng": "Rainbow Run Pass",
+				"trans": "Przepustka Rainbow Run"
 			}
 		},
 		"pudding": {
@@ -8380,6 +8441,230 @@
 			"trans": "użyj"
 		}
 	},
+	"missileCommand": {
+		"allComplete": {
+			"eng": "ALL COMPLETE!",
+			"trans": "WSZYSTKO ZNIESZONE!"
+		},
+		"ammo": {
+			"eng": "Ammo",
+			"trans": "Amunicja"
+		},
+		"button": {
+			"subtitle": {
+				"eng": "TACTICAL BATTERY CONTROL",
+				"trans": "STEROWANIE BATERIAMI TAKTYCZNymi"
+			},
+			"title": {
+				"eng": "MISSILE COMMAND",
+				"trans": "STEROWANIE RAKIETAMI"
+			}
+		},
+		"cities": {
+			"eng": "Cities",
+			"trans": "Miasta"
+		},
+		"citiesSaved": {
+			"eng": "${count} cities saved",
+			"trans": "${count} ocalonych miast",
+			"vars": [
+				"count"
+			]
+		},
+		"congratulations": {
+			"eng": "CITY DEFENDED!",
+			"trans": "MIASTO OBRONIONE!"
+		},
+		"defend": {
+			"eng": "Defend the cities!",
+			"trans": "Obroń miasta!"
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The May event has ended!",
+				"trans": "Wydarzenie majowe się zakończyło!"
+			},
+			"noPass": {
+				"eng": "You need a ${itemName} to play! Find them in dungeon chests or from AFK farming.",
+				"trans": "Aby zagrać, potrzebujesz ${itemName}! Zdobędziesz je w skrzyniach z lochów lub na farmingu w trybie AFK.",
+				"vars": [
+					"itemName"
+				]
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "ABORT",
+				"trans": "PRZERWIJ"
+			},
+			"message": {
+				"eng": "The tactical uplink encountered an error. Your pass was not consumed.",
+				"trans": "Wystąpił błąd uplinku taktycznego. Twoja przepustka nie została zużyta."
+			},
+			"title": {
+				"eng": "SYSTEM_FAILURE",
+				"trans": "AWARIA SYSTEMU"
+			}
+		},
+		"exit": {
+			"eng": "EXIT",
+			"trans": "WYJŚCIE"
+		},
+		"failedStage": {
+			"eng": "FAILED AT STAGE ${stage}",
+			"trans": "PORAŻKA NA ETAPIE ${stage}",
+			"vars": [
+				"stage"
+			]
+		},
+		"finish": {
+			"eng": "FINISH",
+			"trans": "ZAKOŃCZ"
+		},
+		"gameOver": {
+			"eng": "CITIES DESTROYED!",
+			"trans": "Miasta zniszczone!"
+		},
+		"intro": {
+			"available": {
+				"eng": "AVAILABLE_QTY",
+				"trans": "DOSTĘPNA ILOŚĆ"
+			},
+			"eventEnded": {
+				"eng": "OFFLINE",
+				"trans": "OFFLINE"
+			},
+			"eventInactive": {
+				"eng": "NETWORK_OFFLINE: RETURN DURING ACTIVE THREAT WINDOWS",
+				"trans": "Brak połączenia z siecią: Wróć w trakcie aktywnych okien zagrożenia"
+			},
+			"howToGet": {
+				"eng": "> ACQUIRE [${itemName}] FROM DUNGEON CACHES OR AUTOMATED SWEEPS.",
+				"trans": "> POZYSKAJ [${itemName}] ZE SKRYTEK LUB AUTOMATYCZNYCH PRZEŚWIADCZEŃ.",
+				"vars": [
+					"itemName"
+				]
+			},
+			"howToPlay": {
+				"eng": "OPERATION_BRIEFING",
+				"trans": "BRIEFING OPERACYJNY"
+			},
+			"logistics": {
+				"eng": "AUTHORIZATION_LOGISTICS",
+				"trans": "AUTORYZACJA_LOGISTYKI"
+			},
+			"needItem": {
+				"eng": "AUTHORIZATION_REQUIRED",
+				"trans": "Autoryzacja wymagana"
+			},
+			"requiredClearance": {
+				"eng": "REQUIRED_CLEARANCE",
+				"trans": "Wymagane uprawnienia"
+			},
+			"rule1": {
+				"eng": "Tap grid coordinates to deploy interceptor missiles.",
+				"trans": "Dotknij współrzędne siatki, aby uruchomić interceptory"
+			},
+			"rule2": {
+				"eng": "Neutralize incoming ballistic threats before impact.",
+				"trans": "Zneutralizuj nadlatujące zagrożenia balistyczne przed uderzeniem."
+			},
+			"rule3": {
+				"eng": "Defend civic sectors across five escalating threat levels.",
+				"trans": "Obraniaj sektory cywilne na pięciu poziomach narastającego zagrożenia."
+			},
+			"rule4": {
+				"eng": "Critical structural failure results in immediate mission abort.",
+				"trans": "Krytyczna awaria struktury skutkuje natychmiastowym przerwaniem misji."
+			},
+			"startButton": {
+				"eng": "INITIATE_UPLINK",
+				"trans": "INICJUJ UPLINK"
+			},
+			"status": {
+				"eng": "SYS.STATUS",
+				"trans": "STATUS SYSTEMU"
+			},
+			"title": {
+				"eng": "Missile Command",
+				"trans": "Dowództwo Rakietowe"
+			}
+		},
+		"loading": {
+			"message": {
+				"eng": "Connecting to defense grid...",
+				"trans": "Łączenie z siecią obronną..."
+			},
+			"title": {
+				"eng": "ESTABLISHING_UPLINK...",
+				"trans": "USTANAWIANIE_POŁĄCZENIA..."
+			}
+		},
+		"nextStage": {
+			"eng": "NEXT STAGE",
+			"trans": "NASTĘPNY ETAP"
+		},
+		"noRewards": {
+			"eng": "No rewards obtained.",
+			"trans": "Nie otrzymano nagród."
+		},
+		"pleaseWait": {
+			"eng": "Calculating rewards...",
+			"trans": "Obliczanie nagród..."
+		},
+		"processing": {
+			"eng": "PROCESSING...",
+			"trans": "PRZETWARZANIE..."
+		},
+		"rewards": {
+			"eng": "REWARDS!",
+			"trans": "NAGRODY!"
+		},
+		"rewardsEarned": {
+			"eng": "YOUR REWARDS",
+			"trans": "Twoje nagrody"
+		},
+		"seconds": {
+			"eng": "seconds",
+			"trans": "sekundy"
+		},
+		"stage": {
+			"eng": "STAGE ${stage}",
+			"trans": "ETAP ${stage}",
+			"vars": [
+				"stage"
+			]
+		},
+		"stageClear": {
+			"eng": "STAGE CLEAR!",
+			"trans": "ETAP PRZEJŚCIANY!"
+		},
+		"stageRewards": {
+			"eng": "STAGE ${stage} CLEARED",
+			"trans": "ETAP ${stage} UKOŃCZONY",
+			"vars": [
+				"stage"
+			]
+		},
+		"stats": {
+			"citiesSaved": {
+				"eng": "CITIES LEFT",
+				"trans": "POZOSTAŁE MIASTA"
+			},
+			"destroyed": {
+				"eng": "DESTROYED",
+				"trans": "ZNISZCZONE"
+			}
+		},
+		"tapToFire": {
+			"eng": "TAP TO FIRE!",
+			"trans": "STUKNIJ, ABY STRZELAĆ!"
+		},
+		"tooManyCitiesLost": {
+			"eng": "Too many cities were destroyed",
+			"trans": "Zniszczono zbyt wiele miast"
+		}
+	},
 	"mobile": {
 		"appBanner": {
 			"description": {
@@ -9459,6 +9744,28 @@
 				"trans": "Luna"
 			}
 		},
+		"mayDefense": {
+			"defaultLines": {
+				"eng": [
+					"Inbound missile signatures detected. Intercept before impact.",
+					"Four cities. Limited ammo. No second chances.",
+					"Get on the battery and keep our skyline standing."
+				],
+				"trans": [
+					"Wykryto sygnatury nadlatujących pocisków. Zestrzel przed uderzeniem.",
+					"Cztery miasta. Ograniczona amunicja. Bez drugich szans.",
+					"Przyjmij stanowisko przy baterii i utrzymaj nasz horyzont."
+				]
+			},
+			"name": {
+				"eng": "Aegis Defense Battery",
+				"trans": "Bateria Obrony Aegis"
+			},
+			"npcName": {
+				"eng": "Commander Aegis",
+				"trans": "Dowódca Aegis"
+			}
+		},
 		"newYear": {
 			"defaultLines": {
 				"eng": [
@@ -9539,6 +9846,28 @@
 			"npcName": {
 				"eng": "Jin",
 				"trans": "Jin"
+			}
+		},
+		"pride": {
+			"defaultLines": {
+				"eng": [
+					"Ready to take on the Rainbow Run?",
+					"The route is live. Bring your Rainbow Run pass and launch when you're ready.",
+					"Keep your line clean, collect prisms, and push for the next reward band."
+				],
+				"trans": [
+					"Gotowy na Rainbow Run?",
+					"Trasa jest już aktywna. Zabierz kartę Rainbow Run i startuj, gdy będziesz gotowy.",
+					"Utrzymuj czyste łącze, zbieraj pryzmaty i awansuj do kolejnego poziomu nagród."
+				]
+			},
+			"name": {
+				"eng": "Rainbow Run Plaza",
+				"trans": "Plac Tęczy"
+			},
+			"npcName": {
+				"eng": "Prism Guide",
+				"trans": "Przewodnik Pryzmat"
 			}
 		},
 		"printer": {
@@ -10572,6 +10901,255 @@
 			"trans": "DARMOWY"
 		}
 	},
+	"prismRunner": {
+		"button": {
+			"status": {
+				"eng": "UPLINK: READY",
+				"trans": "UPLINK: GOTOWY"
+			},
+			"subtitle": {
+				"eng": "RAINBOW GEOMETRY ROUTE",
+				"trans": "TĘCZOWA GEOMETRYCZNA TRASA"
+			},
+			"title": {
+				"eng": "RAINBOW RUN",
+				"trans": "Przemknięcie tęczowe"
+			}
+		},
+		"countdown": {
+			"tapToBoost": {
+				"eng": "TAP TO BOOST",
+				"trans": "DOTKNIJ DLA BOOSTU"
+			},
+			"title": {
+				"eng": "PRISM RUNNER",
+				"trans": "PRYZMOWY BIEGACZ"
+			}
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The June event is not active.",
+				"trans": "Wydarzenie czerwcowe nie jest aktywne."
+			},
+			"noPass": {
+				"eng": "You need a ${itemName} to enter Rainbow Run.",
+				"trans": "Potrzebujesz ${itemName}, aby wejść do Rainbow Run.",
+				"vars": [
+					"itemName"
+				]
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "CLOSE",
+				"trans": "ZAMKNIJ"
+			},
+			"message": {
+				"eng": "The run encountered an error. If submission already began, your pass was consumed and rewards were granted.",
+				"trans": "Podczas przebiegu wystąpił błąd. Jeśli przesyłanie już się rozpoczęło, twoja karta została zużyta, a nagrody zostały przyznane."
+			},
+			"title": {
+				"eng": "PRISM_LINK_FAILURE",
+				"trans": "Błąd łącza Prism"
+			}
+		},
+		"exit": {
+			"eng": "EXIT",
+			"trans": "WYJŚCIE"
+		},
+		"finish": {
+			"eng": "FINISH",
+			"trans": "ZAKOŃCZ"
+		},
+		"gameOver": {
+			"subtitle": {
+				"eng": "No reward band reached",
+				"trans": "Nie osiągnięto żadnego poziomu nagrody"
+			},
+			"title": {
+				"eng": "PRISM_BREAK",
+				"trans": "AWARIA PRYZMATU"
+			}
+		},
+		"hud": {
+			"expMax": {
+				"eng": "EXP MAX",
+				"trans": "DOŚW MAX"
+			},
+			"expProgress": {
+				"eng": "EXP ${current}/${next}",
+				"trans": "DOŚW. ${current}/${next}",
+				"vars": [
+					"current",
+					"next"
+				]
+			},
+			"nearMisses": {
+				"eng": "NEAR ${count}",
+				"trans": "CIASNO ${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"op": {
+				"eng": "OP: PRISM_RUNNER",
+				"trans": "OP: PRISM_RUNNER"
+			},
+			"pickups": {
+				"eng": "PICKUPS ${count}",
+				"trans": "PRZEDMIOTY ${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"score": {
+				"eng": "SCORE ${score}",
+				"trans": "WYNIK ${score}",
+				"vars": [
+					"score"
+				]
+			},
+			"shards": {
+				"eng": "SHARDS ${count}",
+				"trans": "ODŁAMKI ${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"tier": {
+				"eng": "TIER ${tier}",
+				"trans": "KLASA ${tier}",
+				"vars": [
+					"tier"
+				]
+			},
+			"tierUnlocked": {
+				"eng": "TIER ${tier} UNLOCKED",
+				"trans": "POZIOM ${tier} ODBLOKOWANY",
+				"vars": [
+					"tier"
+				]
+			},
+			"time": {
+				"eng": "TIME ${seconds}s",
+				"trans": "CZAS ${seconds}s",
+				"vars": [
+					"seconds"
+				]
+			}
+		},
+		"intro": {
+			"briefing": {
+				"eng": "RUN_BRIEFING",
+				"trans": "Briefing misji"
+			},
+			"eventClosed": {
+				"eng": "EVENT CLOSED",
+				"trans": "ZAMKNIĘTE"
+			},
+			"eventInactive": {
+				"eng": "June event inactive",
+				"trans": "Czerwcowe wydarzenie nieaktywne"
+			},
+			"juneEvent": {
+				"eng": "JUNE_EVENT",
+				"trans": "Czerwcowe wydarzenie"
+			},
+			"needPass": {
+				"eng": "NEED PASS",
+				"trans": "WYMAGANE HASŁO"
+			},
+			"rewardHint": {
+				"eng": "Reward bands pay June event supplies.",
+				"trans": "Nagrody z klanów zapewniają zaopatrzenie na czerwcowe wydarzenie."
+			},
+			"rule1": {
+				"eng": "Tap to boost the prism marker upward.",
+				"trans": "Dotknij, aby marker pryzmatu wzniósł się w górę."
+			},
+			"rule2": {
+				"eng": "Thread the marker through rainbow geometry gates.",
+				"trans": "Przeprowadź wskaźnik przez tęczowe geometryczne bramy."
+			},
+			"rule3": {
+				"eng": "Collect prism shards to fill the EXP bar and unlock reward tiers.",
+				"trans": "Zbieraj odłamki pryzmatu, aby wypełnić pasek EXP i odblokować poziomy nagród."
+			},
+			"rule4": {
+				"eng": "Skim close to hazards for bonus score only.",
+				"trans": "Przelatuj tuż obok zagrożeń wyłącznie po punkty bonusowe."
+			},
+			"start": {
+				"eng": "START RUN",
+				"trans": "ROZPOCZNIJ PRZEBIEG"
+			},
+			"title": {
+				"eng": "Rainbow Run",
+				"trans": "Tęczowy Bieg"
+			}
+		},
+		"loading": {
+			"title": {
+				"eng": "INITIALIZING_PRISM",
+				"trans": "Inicjalizacja pryzmatu"
+			}
+		},
+		"processing": {
+			"eng": "PROCESSING_RUN_DATA",
+			"trans": "Przetwarzanie danych"
+		},
+		"processingRewards": {
+			"eng": "Calculating reward band...",
+			"trans": "Obliczanie zakresu nagrody..."
+		},
+		"results": {
+			"maxTitle": {
+				"eng": "MAX_TIER_REACHED",
+				"trans": "Osiągnięto maksymalny poziom"
+			},
+			"noRewards": {
+				"eng": "No rewards returned",
+				"trans": "Nie zwrócono nagród"
+			},
+			"rewards": {
+				"eng": "Route Rewards",
+				"trans": "Nagrody z trasy"
+			},
+			"tier": {
+				"eng": "Tier ${tier} prism route cleared",
+				"trans": "Trasa pryzmatu poziomu ${tier} ukończona",
+				"vars": [
+					"tier"
+				]
+			},
+			"title": {
+				"eng": "REWARD_BAND_LOCKED",
+				"trans": "Zablokowane nagrody"
+			}
+		},
+		"stats": {
+			"airtime": {
+				"eng": "Airtime",
+				"trans": "Czas w powietrzu"
+			},
+			"distance": {
+				"eng": "Distance",
+				"trans": "Dystans"
+			},
+			"nearMisses": {
+				"eng": "Near Miss",
+				"trans": "Bliski unik"
+			},
+			"pickups": {
+				"eng": "Pickups",
+				"trans": "Przedmioty"
+			},
+			"score": {
+				"eng": "Score",
+				"trans": "Wynik"
+			}
+		}
+	},
 	"procedural": {
 		"equipmentName": {
 			"nameParts": {
@@ -10651,11 +11229,11 @@
 		},
 		"june": {
 			"desc": {
-				"eng": "🌈 All skips cost 5% less during June",
+				"eng": "Run the rainbow geometry route and earn June rewards",
 				"trans": "🌈 Wszystkie pominięcia są o 5% tańsze w czerwcu"
 			},
 			"title": {
-				"eng": "5% off on skips during June!",
+				"eng": "June Rainbow Run",
 				"trans": "5% zniżki na przeskoki w czerwcu!"
 			}
 		},
@@ -14689,6 +15267,34 @@
 			"secretKeys": {
 				"eng": "secret keys",
 				"trans": "Tajne Klucze"
+			},
+			"sort": {
+				"active": {
+					"eng": "Active",
+					"trans": "Aktywne"
+				},
+				"best": {
+					"eng": "Best",
+					"trans": "Najlepsze"
+				},
+				"eng": "Sort",
+				"level": {
+					"eng": "Level",
+					"trans": "Poziom"
+				},
+				"name": {
+					"eng": "Name",
+					"trans": "Nazwa"
+				},
+				"price": {
+					"eng": "Price",
+					"trans": "Cena"
+				},
+				"tier": {
+					"eng": "Tier",
+					"trans": "Tiera"
+				},
+				"trans": "Posortuj"
 			}
 		},
 		"itemDetails": {
@@ -14974,7 +15580,7 @@
 		},
 		"list": {
 			"longPressToMultiSelect": {
-				"eng": "Long press to multi-select",
+				"eng": "Long press to select",
 				"trans": "Przytrzymaj, aby wybrać wiele przedmiotów"
 			}
 		},
@@ -15759,7 +16365,7 @@
 		"setting": {
 			"afkAnimation": {
 				"description": {
-					"eng": "Show visual animation section for AFK tasks",
+					"eng": "Show visual animation block for AFK tasks",
 					"trans": "Wyświetlaj sekcję animacji wizualnych dla zadań AFK"
 				},
 				"title": {
@@ -16129,9 +16735,9 @@
 					"trans": "Potwierdzasz użycie Pominięcia?"
 				}
 			},
-			"description": {
-				"eng": "Global Skip allows you to skip the AFK waiting time, and finish it instantly.\n    This effect will be applied to all players performing an AFK task.",
-				"trans": "Globalne Pominięcie umożliwia pominięcie czasu oczekiwania AFK i natychmiastowe zakończenie go.\n    Ten efekt zostanie zastosowany do wszystkich graczy wykonujących zadanie AFK"
+			"globalSkipTip": {
+				"eng": "Global Skip instantly completes AFK tasks for all players, give the legend some cred, or contribute to empower the community.",
+				"trans": "Globalny Skip natychmiast ukończa zadania AFK dla wszystkich graczy, nadaj legendie prestiżu lub wzmocnij społeczność."
 			},
 			"inProgressBox": {
 				"subtitle": {

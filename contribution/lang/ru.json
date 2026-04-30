@@ -447,12 +447,9 @@
 					"zoneName"
 				]
 			},
-			"name": {
-				"eng": "Scavenge in ${zoneName}",
-				"trans": "Сбор мусора в ${zoneName}",
-				"vars": [
-					"zoneName"
-				]
+			"name2": {
+				"eng": "Scavenging",
+				"trans": "Обыск"
 			}
 		},
 		"tag": {
@@ -1225,10 +1222,6 @@
 				"items",
 				"eventName"
 			]
-		},
-		"system": {
-			"eng": "SYSTEM",
-			"trans": "Система"
 		}
 	},
 	"chatAttachmentMenu": {
@@ -2427,6 +2420,10 @@
 		"donation50": {
 			"eng": "Netrunner",
 			"trans": "Нетраннер"
+		},
+		"donation51": {
+			"eng": "Cyberdeck",
+			"trans": "Кибердек"
 		},
 		"donation6": {
 			"eng": "Prestige",
@@ -3802,6 +3799,10 @@
 				"eng": "June",
 				"trans": "Июнь"
 			},
+			"prismRunner": {
+				"eng": "Rainbow Run",
+				"trans": "Радужный забег"
+			},
 			"skipDiscountTitle": {
 				"eng": "${percent}% off during event",
 				"trans": "${percent}% скидка во время события",
@@ -3823,6 +3824,10 @@
 			"trans": "Лунный Новый год"
 		},
 		"may": {
+			"missileCommand": {
+				"eng": "Missile Command",
+				"trans": "Ракетное командование"
+			},
 			"name": {
 				"eng": "May",
 				"trans": "Май"
@@ -4966,6 +4971,16 @@
 				"trans": "OverClock Креатин"
 			}
 		},
+		"defenseRationVoucher": {
+			"description": {
+				"eng": "A standardized voucher issued to Aegis Defense personnel. Can be exchanged for supplies at the battery station.",
+				"trans": "Стандартный ваучер, выдаваемый личному составу Aegis Defense. Обменивается на припасы в пункте снабжения."
+			},
+			"name": {
+				"eng": "Defense Ration Voucher",
+				"trans": "Ваучер на защитный паёк"
+			}
+		},
 		"dumplings": {
 			"description": {
 				"eng": "These dumplings are unlike any other. Made with love and care by Yen, these delicious pockets of goodness are filled with the finest ingredients and cooked to perfection.\\n recover ${percent}% health upon consumption",
@@ -5080,6 +5095,19 @@
 				"vars": [
 					"levelName"
 				]
+			}
+		},
+		"fieldRation": {
+			"description": {
+				"eng": "A dense, calorie-packed meal designed for extended combat deployments. Tastes like cardboard, but keeps you fighting. Consume to reduce damage taken by ${percent}% for 20 minutes.",
+				"trans": "Плотный высококалорийный паёк для длительных боевых выходов. На вкус как картон, зато держит в строю. Употребите, чтобы снизить получаемый урон на ${percent}% на 20 минут.",
+				"vars": [
+					"percent"
+				]
+			},
+			"name": {
+				"eng": "Emergency Field Ration",
+				"trans": "Экстренный полевой паёк"
 			}
 		},
 		"fireworksPass": {
@@ -5532,6 +5560,16 @@
 				"trans": "Детали мед. оборудования"
 			}
 		},
+		"missileCommandPass": {
+			"description": {
+				"eng": "A special pass required to participate in the Missile Command event game. Can be found in Dungeon Chests or from AFK farming during the May event.",
+				"trans": "Для участия в событии Missile Command требуется специальный пропуск. Получить его можно из сундуков подземелий или через AFK-фарм во время майского ивента."
+			},
+			"name": {
+				"eng": "Missile Command Pass",
+				"trans": "Абонемент Ракетное командование"
+			}
+		},
 		"newYear": {
 			"description": {
 				"eng": "A red envelope with a golden digital seal on it. looks like it contains some sort of currency",
@@ -5651,10 +5689,30 @@
 				"trans": "НаноКусачий Шар"
 			}
 		},
+		"pridePrism": {
+			"description": {
+				"eng": "A radiant keepsake from the Rainbow Run.",
+				"trans": "Сияющий сувенир с Радужного забега."
+			},
+			"name": {
+				"eng": "Rainbow Prism",
+				"trans": "Радужная призма"
+			}
+		},
 		"primaryWeapon": {
 			"name": {
 				"eng": "Primary Weapon",
 				"trans": "основное оружие"
+			}
+		},
+		"prismRunPass": {
+			"description": {
+				"eng": "A chromatic access token for the June Rainbow Run event game. Required to enter the rainbow geometry course.",
+				"trans": "Хроматический токен доступа для июньского события Радужный забег. Необходим для входа на радужную геометрическую трассу."
+			},
+			"name": {
+				"eng": "Rainbow Run Pass",
+				"trans": "Пропуск Радужного забега"
 			}
 		},
 		"pudding": {
@@ -7983,6 +8041,25 @@
 			]
 		}
 	},
+	"mayPromo": {
+		"description": {
+			"eng": "May deployment is live. Report to ${npcName}, intercept incoming threats, and clear stages for event rewards.",
+			"trans": "Майская операция активна. Отчитайтесь у ${npcName}, пресекайте вторжение и пройдите этапы за наградами.",
+			"vars": [
+				"npcName"
+			]
+		},
+		"title": {
+			"eng": "Missile Command",
+			"trans": "Ракетное командование"
+		}
+	},
+	"mayPromoSmall": {
+		"title": {
+			"eng": "Missile Command",
+			"trans": "Ракетная Оборона"
+		}
+	},
 	"messageImage": {
 		"hideImage": {
 			"eng": "Hide Image",
@@ -8378,6 +8455,230 @@
 		"use": {
 			"eng": "use",
 			"trans": "использовать"
+		}
+	},
+	"missileCommand": {
+		"allComplete": {
+			"eng": "ALL COMPLETE!",
+			"trans": "ВСЕ ЗАДАЧИ ВЫПОЛНЕНЫ"
+		},
+		"ammo": {
+			"eng": "Ammo",
+			"trans": "Боеприпасы"
+		},
+		"button": {
+			"subtitle": {
+				"eng": "TACTICAL BATTERY CONTROL",
+				"trans": "УПРАВЛЕНИЕ ТАКТИЧЕСКОЙ БАТАРЕЕЙ"
+			},
+			"title": {
+				"eng": "MISSILE COMMAND",
+				"trans": "Управление ракетами"
+			}
+		},
+		"cities": {
+			"eng": "Cities",
+			"trans": "Города"
+		},
+		"citiesSaved": {
+			"eng": "${count} cities saved",
+			"trans": "${count} городов спасено",
+			"vars": [
+				"count"
+			]
+		},
+		"congratulations": {
+			"eng": "CITY DEFENDED!",
+			"trans": "ГОРОД ЗАЩИЩЁН!"
+		},
+		"defend": {
+			"eng": "Defend the cities!",
+			"trans": "Обороняйте города!"
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The May event has ended!",
+				"trans": "Майский ивент завершён!"
+			},
+			"noPass": {
+				"eng": "You need a ${itemName} to play! Find them in dungeon chests or from AFK farming.",
+				"trans": "Вам нужен ${itemName} для игры! Найдите его в сундуках данжей или получите при AFK-фарме.",
+				"vars": [
+					"itemName"
+				]
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "ABORT",
+				"trans": "ПРЕРВАТЬ"
+			},
+			"message": {
+				"eng": "The tactical uplink encountered an error. Your pass was not consumed.",
+				"trans": "Сбой тактического канала связи. Ваш пропуск не израсходован."
+			},
+			"title": {
+				"eng": "SYSTEM_FAILURE",
+				"trans": "СИСТЕМНЫЙ СБОЙ"
+			}
+		},
+		"exit": {
+			"eng": "EXIT",
+			"trans": "ВЫХОД"
+		},
+		"failedStage": {
+			"eng": "FAILED AT STAGE ${stage}",
+			"trans": "НЕУДАЧА НА ЭТАПЕ ${stage}",
+			"vars": [
+				"stage"
+			]
+		},
+		"finish": {
+			"eng": "FINISH",
+			"trans": "ЗАВЕРШИТЬ"
+		},
+		"gameOver": {
+			"eng": "CITIES DESTROYED!",
+			"trans": "ГОРОДА УНИЧТОЖЕНЫ!"
+		},
+		"intro": {
+			"available": {
+				"eng": "AVAILABLE_QTY",
+				"trans": "ДОСТУПНО"
+			},
+			"eventEnded": {
+				"eng": "OFFLINE",
+				"trans": "НЕТ В СЕТИ"
+			},
+			"eventInactive": {
+				"eng": "NETWORK_OFFLINE: RETURN DURING ACTIVE THREAT WINDOWS",
+				"trans": "СЕТЬ НЕДОСТУПНА: ВОЗВРАЩАЙТЕСЬ ПРИ АКТИВНЫХ ОКНАХ УГРОЗЫ"
+			},
+			"howToGet": {
+				"eng": "> ACQUIRE [${itemName}] FROM DUNGEON CACHES OR AUTOMATED SWEEPS.",
+				"trans": "> Добыть ${itemName} из тайников в подземельях или при автоматических зачистках.",
+				"vars": [
+					"itemName"
+				]
+			},
+			"howToPlay": {
+				"eng": "OPERATION_BRIEFING",
+				"trans": "БРИФИНГ ОПЕРАЦИИ"
+			},
+			"logistics": {
+				"eng": "AUTHORIZATION_LOGISTICS",
+				"trans": "ДОПУСК К ЛОГИСТИКЕ"
+			},
+			"needItem": {
+				"eng": "AUTHORIZATION_REQUIRED",
+				"trans": "ТРЕБУЕТСЯ ДОПУСК"
+			},
+			"requiredClearance": {
+				"eng": "REQUIRED_CLEARANCE",
+				"trans": "ТРЕБУЕМЫЙ ДОПУСК"
+			},
+			"rule1": {
+				"eng": "Tap grid coordinates to deploy interceptor missiles.",
+				"trans": "Коснитесь координат сетки для запуска перехватывающих ракет."
+			},
+			"rule2": {
+				"eng": "Neutralize incoming ballistic threats before impact.",
+				"trans": "Нейтрализуйте приближающиеся баллистические угрозы до удара."
+			},
+			"rule3": {
+				"eng": "Defend civic sectors across five escalating threat levels.",
+				"trans": "Защищайте гражданские сектора на пяти уровнях нарастающей угрозы"
+			},
+			"rule4": {
+				"eng": "Critical structural failure results in immediate mission abort.",
+				"trans": "Критическое разрушение конструкции приводит к немедленной отмене миссии"
+			},
+			"startButton": {
+				"eng": "INITIATE_UPLINK",
+				"trans": "АКТИВИРОВАТЬ КАНАЛ СВЯЗИ"
+			},
+			"status": {
+				"eng": "SYS.STATUS",
+				"trans": "СОСТОЯНИЕ СИСТЕМЫ"
+			},
+			"title": {
+				"eng": "Missile Command",
+				"trans": "Ракетное командование"
+			}
+		},
+		"loading": {
+			"message": {
+				"eng": "Connecting to defense grid...",
+				"trans": "Подключение к оборонительной сети..."
+			},
+			"title": {
+				"eng": "ESTABLISHING_UPLINK...",
+				"trans": "УСТАНОВКА СВЯЗИ..."
+			}
+		},
+		"nextStage": {
+			"eng": "NEXT STAGE",
+			"trans": "СЛЕДУЮЩИЙ УРОВЕНЬ"
+		},
+		"noRewards": {
+			"eng": "No rewards obtained.",
+			"trans": "Наград не выпало"
+		},
+		"pleaseWait": {
+			"eng": "Calculating rewards...",
+			"trans": "Расчёт наград..."
+		},
+		"processing": {
+			"eng": "PROCESSING...",
+			"trans": "ОБРАБОТКА..."
+		},
+		"rewards": {
+			"eng": "REWARDS!",
+			"trans": "НАГРАДЫ!"
+		},
+		"rewardsEarned": {
+			"eng": "YOUR REWARDS",
+			"trans": "Ваши награды"
+		},
+		"seconds": {
+			"eng": "seconds",
+			"trans": "Сек"
+		},
+		"stage": {
+			"eng": "STAGE ${stage}",
+			"trans": "УРОВЕНЬ ${stage}",
+			"vars": [
+				"stage"
+			]
+		},
+		"stageClear": {
+			"eng": "STAGE CLEAR!",
+			"trans": "ЭТАП ЗАВЕРШЕН!"
+		},
+		"stageRewards": {
+			"eng": "STAGE ${stage} CLEARED",
+			"trans": "ЭТАП ${stage} ПРОЙДЕН",
+			"vars": [
+				"stage"
+			]
+		},
+		"stats": {
+			"citiesSaved": {
+				"eng": "CITIES LEFT",
+				"trans": "Городов осталось"
+			},
+			"destroyed": {
+				"eng": "DESTROYED",
+				"trans": "УНИЧТОЖЕНО"
+			}
+		},
+		"tapToFire": {
+			"eng": "TAP TO FIRE!",
+			"trans": "ОГОНЬ!"
+		},
+		"tooManyCitiesLost": {
+			"eng": "Too many cities were destroyed",
+			"trans": "Уничтожено слишком много городов"
 		}
 	},
 	"mobile": {
@@ -9459,6 +9760,28 @@
 				"trans": "Луна"
 			}
 		},
+		"mayDefense": {
+			"defaultLines": {
+				"eng": [
+					"Inbound missile signatures detected. Intercept before impact.",
+					"Four cities. Limited ammo. No second chances.",
+					"Get on the battery and keep our skyline standing."
+				],
+				"trans": [
+					"Зафиксированы приближающиеся ракеты. Перехватить до удара.",
+					"Четыре города. Боезапас ограничен. Вторых шансов нет.",
+					"Подключайся к батарее и держи наш горизонт"
+				]
+			},
+			"name": {
+				"eng": "Aegis Defense Battery",
+				"trans": "Защитная батарея Эгида"
+			},
+			"npcName": {
+				"eng": "Commander Aegis",
+				"trans": "Командир Эгид"
+			}
+		},
 		"newYear": {
 			"defaultLines": {
 				"eng": [
@@ -9539,6 +9862,28 @@
 			"npcName": {
 				"eng": "Jin",
 				"trans": "Джин"
+			}
+		},
+		"pride": {
+			"defaultLines": {
+				"eng": [
+					"Ready to take on the Rainbow Run?",
+					"The route is live. Bring your Rainbow Run pass and launch when you're ready.",
+					"Keep your line clean, collect prisms, and push for the next reward band."
+				],
+				"trans": [
+					"Готов к Радужной гонке?",
+					"Трасса открыта. Возьми пропуск Rainbow Run и выезжай по готовности.",
+					"Держи линию чистой, собирай призмы и продвигайся к следующему диапазону наград."
+				]
+			},
+			"name": {
+				"eng": "Rainbow Run Plaza",
+				"trans": "Плаза Рейнбоу Ран"
+			},
+			"npcName": {
+				"eng": "Prism Guide",
+				"trans": "Гид Призмы"
 			}
 		},
 		"printer": {
@@ -10572,6 +10917,255 @@
 			"trans": "БЕСПЛАТНО"
 		}
 	},
+	"prismRunner": {
+		"button": {
+			"status": {
+				"eng": "UPLINK: READY",
+				"trans": "КАНАЛ СВЯЗИ: ГОТОВ"
+			},
+			"subtitle": {
+				"eng": "RAINBOW GEOMETRY ROUTE",
+				"trans": "Маршрут радужной геометрии"
+			},
+			"title": {
+				"eng": "RAINBOW RUN",
+				"trans": "Радужный забег"
+			}
+		},
+		"countdown": {
+			"tapToBoost": {
+				"eng": "TAP TO BOOST",
+				"trans": "ТАПАЙ ДЛЯ УСКОРЕНИЯ"
+			},
+			"title": {
+				"eng": "PRISM RUNNER",
+				"trans": "РАННЕР ПРИЗМЫ"
+			}
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The June event is not active.",
+				"trans": "Июньский ивент не активен."
+			},
+			"noPass": {
+				"eng": "You need a ${itemName} to enter Rainbow Run.",
+				"trans": "Требуется ${itemName} для входа в Rainbow Run.",
+				"vars": [
+					"itemName"
+				]
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "CLOSE",
+				"trans": "ЗАКРЫТЬ"
+			},
+			"message": {
+				"eng": "The run encountered an error. If submission already began, your pass was consumed and rewards were granted.",
+				"trans": "Ошибка во время забега. Если отправка уже началась, ваш пропуск списан и награды начислены."
+			},
+			"title": {
+				"eng": "PRISM_LINK_FAILURE",
+				"trans": "Сбой подключения PRISM"
+			}
+		},
+		"exit": {
+			"eng": "EXIT",
+			"trans": "ВЫХОД"
+		},
+		"finish": {
+			"eng": "FINISH",
+			"trans": "ЗАВЕРШИТЬ"
+		},
+		"gameOver": {
+			"subtitle": {
+				"eng": "No reward band reached",
+				"trans": "Порог наград не достигнут"
+			},
+			"title": {
+				"eng": "PRISM_BREAK",
+				"trans": "СБОЙ ПРИЗМЫ"
+			}
+		},
+		"hud": {
+			"expMax": {
+				"eng": "EXP MAX",
+				"trans": "ОПЫТ МАКС"
+			},
+			"expProgress": {
+				"eng": "EXP ${current}/${next}",
+				"trans": "ОП ${current}/${next}",
+				"vars": [
+					"current",
+					"next"
+				]
+			},
+			"nearMisses": {
+				"eng": "NEAR ${count}",
+				"trans": "БЛИЗКО ${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"op": {
+				"eng": "OP: PRISM_RUNNER",
+				"trans": "OP: PRISM_RUNNER"
+			},
+			"pickups": {
+				"eng": "PICKUPS ${count}",
+				"trans": "УЛОВ ${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"score": {
+				"eng": "SCORE ${score}",
+				"trans": "СЧЁТ ${score}",
+				"vars": [
+					"score"
+				]
+			},
+			"shards": {
+				"eng": "SHARDS ${count}",
+				"trans": "ОСКОЛКОВ ${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"tier": {
+				"eng": "TIER ${tier}",
+				"trans": "ТИР ${tier}",
+				"vars": [
+					"tier"
+				]
+			},
+			"tierUnlocked": {
+				"eng": "TIER ${tier} UNLOCKED",
+				"trans": "УРОВЕНЬ ${tier} РАЗБЛОКИРОВАН",
+				"vars": [
+					"tier"
+				]
+			},
+			"time": {
+				"eng": "TIME ${seconds}s",
+				"trans": "ВРЕМЯ ${seconds} с",
+				"vars": [
+					"seconds"
+				]
+			}
+		},
+		"intro": {
+			"briefing": {
+				"eng": "RUN_BRIEFING",
+				"trans": "БРИФИНГ"
+			},
+			"eventClosed": {
+				"eng": "EVENT CLOSED",
+				"trans": "СОБЫТИЕ ЗАКРЫТО"
+			},
+			"eventInactive": {
+				"eng": "June event inactive",
+				"trans": "Событие июня неактивно"
+			},
+			"juneEvent": {
+				"eng": "JUNE_EVENT",
+				"trans": "Событие июня"
+			},
+			"needPass": {
+				"eng": "NEED PASS",
+				"trans": "ТРЕБУЕТСЯ ПРОПУСК"
+			},
+			"rewardHint": {
+				"eng": "Reward bands pay June event supplies.",
+				"trans": "Наградные полосы можно обменять на припасы июньского события."
+			},
+			"rule1": {
+				"eng": "Tap to boost the prism marker upward.",
+				"trans": "Нажмите, чтобы ускорить призматический маркер вверх."
+			},
+			"rule2": {
+				"eng": "Thread the marker through rainbow geometry gates.",
+				"trans": "Направляй маркер сквозь радужные геометрические ворота."
+			},
+			"rule3": {
+				"eng": "Collect prism shards to fill the EXP bar and unlock reward tiers.",
+				"trans": "Собирайте осколки призмы, чтобы заполнить шкалу опыта и разблокировать уровни наград."
+			},
+			"rule4": {
+				"eng": "Skim close to hazards for bonus score only.",
+				"trans": "Проходи близко к препятствиям ради бонусных очков."
+			},
+			"start": {
+				"eng": "START RUN",
+				"trans": "НАЧАТЬ ЗАБЕГ"
+			},
+			"title": {
+				"eng": "Rainbow Run",
+				"trans": "Радужный забег"
+			}
+		},
+		"loading": {
+			"title": {
+				"eng": "INITIALIZING_PRISM",
+				"trans": "Инициализация Призмы"
+			}
+		},
+		"processing": {
+			"eng": "PROCESSING_RUN_DATA",
+			"trans": "ОБРАБОТКА ДАННЫХ ЗАПУСКА"
+		},
+		"processingRewards": {
+			"eng": "Calculating reward band...",
+			"trans": "Расчет диапазона наград..."
+		},
+		"results": {
+			"maxTitle": {
+				"eng": "MAX_TIER_REACHED",
+				"trans": "ДОСТИГНУТ МАКСИМАЛЬНЫЙ ТИР"
+			},
+			"noRewards": {
+				"eng": "No rewards returned",
+				"trans": "Награды не получены"
+			},
+			"rewards": {
+				"eng": "Route Rewards",
+				"trans": "Награды за маршрут"
+			},
+			"tier": {
+				"eng": "Tier ${tier} prism route cleared",
+				"trans": "Пройден призматический маршрут ${tier}",
+				"vars": [
+					"tier"
+				]
+			},
+			"title": {
+				"eng": "REWARD_BAND_LOCKED",
+				"trans": "Тир наград заблокирован"
+			}
+		},
+		"stats": {
+			"airtime": {
+				"eng": "Airtime",
+				"trans": "Время в воздухе"
+			},
+			"distance": {
+				"eng": "Distance",
+				"trans": "Дистанция"
+			},
+			"nearMisses": {
+				"eng": "Near Miss",
+				"trans": "Узкое прохождение"
+			},
+			"pickups": {
+				"eng": "Pickups",
+				"trans": "Лут"
+			},
+			"score": {
+				"eng": "Score",
+				"trans": "Очки"
+			}
+		}
+	},
 	"procedural": {
 		"equipmentName": {
 			"nameParts": {
@@ -10651,11 +11245,11 @@
 		},
 		"june": {
 			"desc": {
-				"eng": "🌈 All skips cost 5% less during June",
+				"eng": "Run the rainbow geometry route and earn June rewards",
 				"trans": "🌈 Весь прыжки в июне дешевле на 5%"
 			},
 			"title": {
-				"eng": "5% off on skips during June!",
+				"eng": "June Rainbow Run",
 				"trans": "Скидка 5% на прыжки в июне!"
 			}
 		},
@@ -14689,6 +15283,34 @@
 			"secretKeys": {
 				"eng": "secret keys",
 				"trans": "ключи шифрования"
+			},
+			"sort": {
+				"active": {
+					"eng": "Active",
+					"trans": "Активные"
+				},
+				"best": {
+					"eng": "Best",
+					"trans": "Лучшие"
+				},
+				"eng": "Sort",
+				"level": {
+					"eng": "Level",
+					"trans": "Уровень"
+				},
+				"name": {
+					"eng": "Name",
+					"trans": "По имени"
+				},
+				"price": {
+					"eng": "Price",
+					"trans": "Цена"
+				},
+				"tier": {
+					"eng": "Tier",
+					"trans": "Редкость"
+				},
+				"trans": "Сортировка"
 			}
 		},
 		"itemDetails": {
@@ -14974,7 +15596,7 @@
 		},
 		"list": {
 			"longPressToMultiSelect": {
-				"eng": "Long press to multi-select",
+				"eng": "Long press to select",
 				"trans": "Зажмите для выбора нескольких предметов"
 			}
 		},
@@ -15759,7 +16381,7 @@
 		"setting": {
 			"afkAnimation": {
 				"description": {
-					"eng": "Show visual animation section for AFK tasks",
+					"eng": "Show visual animation block for AFK tasks",
 					"trans": "Отображать визуальную анимацию AFK-задач"
 				},
 				"title": {
@@ -16129,9 +16751,9 @@
 					"trans": "Подтвердить использование пропуска?"
 				}
 			},
-			"description": {
-				"eng": "Global Skip allows you to skip the AFK waiting time, and finish it instantly.\n    This effect will be applied to all players performing an AFK task.",
-				"trans": "Глобальный пропуск позволяет уменьшить время ожидания AFK и мгновенно завершить его.\r\nЭтот эффект будет применен ко всем игрокам, в порядке очереди, выполняющим AFK задачу"
+			"globalSkipTip": {
+				"eng": "Global Skip instantly completes AFK tasks for all players, give the legend some cred, or contribute to empower the community.",
+				"trans": "Глобальный скип мгновенно завершает задания для всех AFK-игроков. Отдайте должное легенде или внесите вклад, чтобы усилить сообщество."
 			},
 			"inProgressBox": {
 				"subtitle": {

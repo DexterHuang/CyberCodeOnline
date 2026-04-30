@@ -1225,10 +1225,6 @@
 				"items",
 				"eventName"
 			]
-		},
-		"system": {
-			"eng": "SYSTEM",
-			"trans": "Sistema"
 		}
 	},
 	"chatAttachmentMenu": {
@@ -2427,6 +2423,10 @@
 		"donation50": {
 			"eng": "Netrunner",
 			"trans": "Netrunner"
+		},
+		"donation51": {
+			"eng": "Cyberdeck",
+			"trans": "Cyberdeck"
 		},
 		"donation6": {
 			"eng": "Prestige",
@@ -3802,6 +3802,10 @@
 				"eng": "June",
 				"trans": "Hunyo"
 			},
+			"prismRunner": {
+				"eng": "Rainbow Run",
+				"trans": "Takbong Buhawis"
+			},
 			"skipDiscountTitle": {
 				"eng": "${percent}% off during event",
 				"trans": "${percent}% OFF sa event!",
@@ -3823,6 +3827,10 @@
 			"trans": "Bagong Taon ng mga Tsino"
 		},
 		"may": {
+			"missileCommand": {
+				"eng": "Missile Command",
+				"trans": "Missile Command"
+			},
 			"name": {
 				"eng": "May",
 				"trans": "May"
@@ -4966,6 +4974,16 @@
 				"trans": "OverClock Creatine"
 			}
 		},
+		"defenseRationVoucher": {
+			"description": {
+				"eng": "A standardized voucher issued to Aegis Defense personnel. Can be exchanged for supplies at the battery station.",
+				"trans": "Pamantayang voucher na ibinigay sa mga tauhan ng Aegis Defense. Maaaring palitan ng mga supply sa istasyon ng battery."
+			},
+			"name": {
+				"eng": "Defense Ration Voucher",
+				"trans": "Kupon ng Depensang Rasyon"
+			}
+		},
 		"dumplings": {
 			"description": {
 				"eng": "These dumplings are unlike any other. Made with love and care by Yen, these delicious pockets of goodness are filled with the finest ingredients and cooked to perfection.\\n recover ${percent}% health upon consumption",
@@ -5080,6 +5098,19 @@
 				"vars": [
 					"levelName"
 				]
+			}
+		},
+		"fieldRation": {
+			"description": {
+				"eng": "A dense, calorie-packed meal designed for extended combat deployments. Tastes like cardboard, but keeps you fighting. Consume to reduce damage taken by ${percent}% for 20 minutes.",
+				"trans": "Puno ng kalorya at masustansyang pagkain na idinisenyo para sa mahahabang operasyong panlaban. Parang karton ang lasa, pero nagbibigay ito ng lakas upang makipagsabog. Kainin upang bawasan ang damage na tinatanggap ng ${percent}% sa loob ng 20 minuto.",
+				"vars": [
+					"percent"
+				]
+			},
+			"name": {
+				"eng": "Emergency Field Ration",
+				"trans": "Rasyong Pang-emergency sa Medyo"
 			}
 		},
 		"fireworksPass": {
@@ -5532,6 +5563,16 @@
 				"trans": "Mga Bahagi ng Medikal na Tech"
 			}
 		},
+		"missileCommandPass": {
+			"description": {
+				"eng": "A special pass required to participate in the Missile Command event game. Can be found in Dungeon Chests or from AFK farming during the May event.",
+				"trans": "Espesyal na pass na kailangan para sumali sa Missile Command event game. Nakukuha ito mula sa mga Dungeon Chest o AFK farming sa panahon ng Mayo event."
+			},
+			"name": {
+				"eng": "Missile Command Pass",
+				"trans": "Pas ng Komando ng Misil"
+			}
+		},
 		"newYear": {
 			"description": {
 				"eng": "A red envelope with a golden digital seal on it. looks like it contains some sort of currency",
@@ -5651,10 +5692,30 @@
 				"trans": "NanoNibble Bola"
 			}
 		},
+		"pridePrism": {
+			"description": {
+				"eng": "A radiant keepsake from the Rainbow Run.",
+				"trans": "Isang nagniningas na alaala mula sa Rainbow Run."
+			},
+			"name": {
+				"eng": "Rainbow Prism",
+				"trans": "Prismang Arabukay"
+			}
+		},
 		"primaryWeapon": {
 			"name": {
 				"eng": "Primary Weapon",
 				"trans": "Pangunahing sandata"
+			}
+		},
+		"prismRunPass": {
+			"description": {
+				"eng": "A chromatic access token for the June Rainbow Run event game. Required to enter the rainbow geometry course.",
+				"trans": "Espesyal na token ng pagpasop para sa June Rainbow Run event. Kinakailangan ito upang makapasok sa kursong heometriko ng bahaghain."
+			},
+			"name": {
+				"eng": "Rainbow Run Pass",
+				"trans": "Pasa ng Pagtakbong Aroroy"
 			}
 		},
 		"pudding": {
@@ -8380,6 +8441,230 @@
 			"trans": "Gumamit"
 		}
 	},
+	"missileCommand": {
+		"allComplete": {
+			"eng": "ALL COMPLETE!",
+			"trans": "KUMPLETO NA LAHAT!"
+		},
+		"ammo": {
+			"eng": "Ammo",
+			"trans": "Ammo"
+		},
+		"button": {
+			"subtitle": {
+				"eng": "TACTICAL BATTERY CONTROL",
+				"trans": "Kontrol ng Taktikal na Bateriya"
+			},
+			"title": {
+				"eng": "MISSILE COMMAND",
+				"trans": "MISDIL KUMANDO"
+			}
+		},
+		"cities": {
+			"eng": "Cities",
+			"trans": "Mga Lungsod"
+		},
+		"citiesSaved": {
+			"eng": "${count} cities saved",
+			"trans": "${count} lungsod na naligtas",
+			"vars": [
+				"count"
+			]
+		},
+		"congratulations": {
+			"eng": "CITY DEFENDED!",
+			"trans": "NALUNOK ANG LUNSOD!"
+		},
+		"defend": {
+			"eng": "Defend the cities!",
+			"trans": "Pangalagaan ang mga lungsod!"
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The May event has ended!",
+				"trans": "Natapos na ang event ng Mayo!"
+			},
+			"noPass": {
+				"eng": "You need a ${itemName} to play! Find them in dungeon chests or from AFK farming.",
+				"trans": "Kailangan mo ng ${itemName} para makapaglaro! Hanapin ang mga ito sa mga kahon sa dungeon o galing sa AFK farming.",
+				"vars": [
+					"itemName"
+				]
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "ABORT",
+				"trans": "ITIGIL"
+			},
+			"message": {
+				"eng": "The tactical uplink encountered an error. Your pass was not consumed.",
+				"trans": "May error sa taktikal na uplink. Hindi napagastos ang iyong pass."
+			},
+			"title": {
+				"eng": "SYSTEM_FAILURE",
+				"trans": "BIGONG_SISTEMA"
+			}
+		},
+		"exit": {
+			"eng": "EXIT",
+			"trans": "Labas"
+		},
+		"failedStage": {
+			"eng": "FAILED AT STAGE ${stage}",
+			"trans": "Nabigo sa yugto ${stage}",
+			"vars": [
+				"stage"
+			]
+		},
+		"finish": {
+			"eng": "FINISH",
+			"trans": "TAPUSIN"
+		},
+		"gameOver": {
+			"eng": "CITIES DESTROYED!",
+			"trans": "MINSALA ANG MGA LUNGSOD!"
+		},
+		"intro": {
+			"available": {
+				"eng": "AVAILABLE_QTY",
+				"trans": "BILANG NG AVAILABLE"
+			},
+			"eventEnded": {
+				"eng": "OFFLINE",
+				"trans": "OFFLINE"
+			},
+			"eventInactive": {
+				"eng": "NETWORK_OFFLINE: RETURN DURING ACTIVE THREAT WINDOWS",
+				"trans": "OFFLINE ANG NETWORK: MAGBALIK SA PANAHONG AKTIBO NG MGA BANTA"
+			},
+			"howToGet": {
+				"eng": "> ACQUIRE [${itemName}] FROM DUNGEON CACHES OR AUTOMATED SWEEPS.",
+				"trans": "> Kunin ang [${itemName}] mula sa mga imbakan ng dungeon o awtomatikong pagsusuri.",
+				"vars": [
+					"itemName"
+				]
+			},
+			"howToPlay": {
+				"eng": "OPERATION_BRIEFING",
+				"trans": "IMPORMASYON SA OPERASYON"
+			},
+			"logistics": {
+				"eng": "AUTHORIZATION_LOGISTICS",
+				"trans": "Otorysasyon sa Lohistika"
+			},
+			"needItem": {
+				"eng": "AUTHORIZATION_REQUIRED",
+				"trans": "KAILANGAN NG PAHINTULOT"
+			},
+			"requiredClearance": {
+				"eng": "REQUIRED_CLEARANCE",
+				"trans": "KINAKAILANGANG PAHINTULOT"
+			},
+			"rule1": {
+				"eng": "Tap grid coordinates to deploy interceptor missiles.",
+				"trans": "Pindutin ang mga koordinado ng grid upang ilabas ang mga interceptor missile."
+			},
+			"rule2": {
+				"eng": "Neutralize incoming ballistic threats before impact.",
+				"trans": "Walain ang mga paparating na banta bago sila makabangga."
+			},
+			"rule3": {
+				"eng": "Defend civic sectors across five escalating threat levels.",
+				"trans": "Protektahan ang mga sektor sibil sa limang antas ng bantang patuloy na tumataas."
+			},
+			"rule4": {
+				"eng": "Critical structural failure results in immediate mission abort.",
+				"trans": "Kapag nasira nang kritikal ang istruktura, agad natitigil ang misyon."
+			},
+			"startButton": {
+				"eng": "INITIATE_UPLINK",
+				"trans": "Simulan ang Uplink"
+			},
+			"status": {
+				"eng": "SYS.STATUS",
+				"trans": "KALAGAYAN NG SISTEMA"
+			},
+			"title": {
+				"eng": "Missile Command",
+				"trans": "Missile Command"
+			}
+		},
+		"loading": {
+			"message": {
+				"eng": "Connecting to defense grid...",
+				"trans": "Kumukonekta sa grid ng depensa..."
+			},
+			"title": {
+				"eng": "ESTABLISHING_UPLINK...",
+				"trans": "BINUBUO ANG KONEKSYON..."
+			}
+		},
+		"nextStage": {
+			"eng": "NEXT STAGE",
+			"trans": "SUSUNOD NA ANTAS"
+		},
+		"noRewards": {
+			"eng": "No rewards obtained.",
+			"trans": "Walang nakuhang premyo."
+		},
+		"pleaseWait": {
+			"eng": "Calculating rewards...",
+			"trans": "Kinakalkula ang mga premyo..."
+		},
+		"processing": {
+			"eng": "PROCESSING...",
+			"trans": "PINOPROSESO..."
+		},
+		"rewards": {
+			"eng": "REWARDS!",
+			"trans": "PREMYO!"
+		},
+		"rewardsEarned": {
+			"eng": "YOUR REWARDS",
+			"trans": "MGA GANTIMPALA MO"
+		},
+		"seconds": {
+			"eng": "seconds",
+			"trans": "segundo"
+		},
+		"stage": {
+			"eng": "STAGE ${stage}",
+			"trans": "YUGTO ${stage}",
+			"vars": [
+				"stage"
+			]
+		},
+		"stageClear": {
+			"eng": "STAGE CLEAR!",
+			"trans": "NAKAPASA KA NA!"
+		},
+		"stageRewards": {
+			"eng": "STAGE ${stage} CLEARED",
+			"trans": "YUGTO ${stage} NATAPOS",
+			"vars": [
+				"stage"
+			]
+		},
+		"stats": {
+			"citiesSaved": {
+				"eng": "CITIES LEFT",
+				"trans": "NATITIRANG LUNGSOD"
+			},
+			"destroyed": {
+				"eng": "DESTROYED",
+				"trans": "NASIRA"
+			}
+		},
+		"tapToFire": {
+			"eng": "TAP TO FIRE!",
+			"trans": "PINDUTIN PARA MAGTUNAW!"
+		},
+		"tooManyCitiesLost": {
+			"eng": "Too many cities were destroyed",
+			"trans": "Masyadong maraming lungsod ang nasira"
+		}
+	},
 	"mobile": {
 		"appBanner": {
 			"description": {
@@ -9510,6 +9795,28 @@
 				"trans": "Luna"
 			}
 		},
+		"mayDefense": {
+			"defaultLines": {
+				"eng": [
+					"Inbound missile signatures detected. Intercept before impact.",
+					"Four cities. Limited ammo. No second chances.",
+					"Get on the battery and keep our skyline standing."
+				],
+				"trans": [
+					"Nadetect ang mga latas ng papalapit na missile. I-intercept bago sila makabangga.",
+					"Apat na lungsod. Limitadong munisyon. Isang pagkakataon lang.",
+					"Mag-standby sa posisyon ng bateriya at panatilihing buo ang ating skyline"
+				]
+			},
+			"name": {
+				"eng": "Aegis Defense Battery",
+				"trans": "Kalasag na Depensang Bateriya"
+			},
+			"npcName": {
+				"eng": "Commander Aegis",
+				"trans": "Kumander Aegis"
+			}
+		},
 		"newYear": {
 			"defaultLines": {
 				"eng": [
@@ -9590,6 +9897,28 @@
 			"npcName": {
 				"eng": "Jin",
 				"trans": "Jin"
+			}
+		},
+		"pride": {
+			"defaultLines": {
+				"eng": [
+					"Ready to take on the Rainbow Run?",
+					"The route is live. Bring your Rainbow Run pass and launch when you're ready.",
+					"Keep your line clean, collect prisms, and push for the next reward band."
+				],
+				"trans": [
+					"Handa ka na bang harapin ang Rainbow Run?",
+					"Aktibo na ang landas. Dalhin ang iyong Rainbow Run Pass at lumabas ka kapag handa ka na.",
+					"Panatilihing walang putol ang iyong linya, kolektahin ang mga prism, at pumunta sa susunod na antas ng gantimpala."
+				]
+			},
+			"name": {
+				"eng": "Rainbow Run Plaza",
+				"trans": "Plaza ng Landas ng Ara-ara"
+			},
+			"npcName": {
+				"eng": "Prism Guide",
+				"trans": "Gabay ng Prisma"
 			}
 		},
 		"printer": {
@@ -10784,6 +11113,255 @@
 			"trans": "LIBRE"
 		}
 	},
+	"prismRunner": {
+		"button": {
+			"status": {
+				"eng": "UPLINK: READY",
+				"trans": "KONEKSYON: HANDA"
+			},
+			"subtitle": {
+				"eng": "RAINBOW GEOMETRY ROUTE",
+				"trans": "RUTA NG KULAY KULAY NA HEOMETRIYA"
+			},
+			"title": {
+				"eng": "RAINBOW RUN",
+				"trans": "Takbong Bahaghari"
+			}
+		},
+		"countdown": {
+			"tapToBoost": {
+				"eng": "TAP TO BOOST",
+				"trans": "PINDUTIN PARA MAG-BOOST"
+			},
+			"title": {
+				"eng": "PRISM RUNNER",
+				"trans": "PRISM RUNNER"
+			}
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The June event is not active.",
+				"trans": "Hindi aktibo ang June event."
+			},
+			"noPass": {
+				"eng": "You need a ${itemName} to enter Rainbow Run.",
+				"trans": "Kailangan mo ng ${itemName} para pumasok sa Rainbow Run.",
+				"vars": [
+					"itemName"
+				]
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "CLOSE",
+				"trans": "ISARA"
+			},
+			"message": {
+				"eng": "The run encountered an error. If submission already began, your pass was consumed and rewards were granted.",
+				"trans": "May error sa run. Kung nagsimula na ang submission, ginastos na ang iyong pass at ibinigay na ang mga premyo."
+			},
+			"title": {
+				"eng": "PRISM_LINK_FAILURE",
+				"trans": "NABIGO ANG KONEKSYON SA PRISM"
+			}
+		},
+		"exit": {
+			"eng": "EXIT",
+			"trans": "Labas"
+		},
+		"finish": {
+			"eng": "FINISH",
+			"trans": "TAPUSIN"
+		},
+		"gameOver": {
+			"subtitle": {
+				"eng": "No reward band reached",
+				"trans": "Walang naabot na antas ng gantimpala"
+			},
+			"title": {
+				"eng": "PRISM_BREAK",
+				"trans": "PRISMA NA SIRÁ"
+			}
+		},
+		"hud": {
+			"expMax": {
+				"eng": "EXP MAX",
+				"trans": "HULÍ NG EXP"
+			},
+			"expProgress": {
+				"eng": "EXP ${current}/${next}",
+				"trans": "EXP ${current}/${next}",
+				"vars": [
+					"current",
+					"next"
+				]
+			},
+			"nearMisses": {
+				"eng": "NEAR ${count}",
+				"trans": "MALAPIT ${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"op": {
+				"eng": "OP: PRISM_RUNNER",
+				"trans": "OPERADOR: PRISM_RUNNER"
+			},
+			"pickups": {
+				"eng": "PICKUPS ${count}",
+				"trans": "NAKUHA ${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"score": {
+				"eng": "SCORE ${score}",
+				"trans": "ISKOR ${score}",
+				"vars": [
+					"score"
+				]
+			},
+			"shards": {
+				"eng": "SHARDS ${count}",
+				"trans": "SHARDS ${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"tier": {
+				"eng": "TIER ${tier}",
+				"trans": "ANTAS ${tier}",
+				"vars": [
+					"tier"
+				]
+			},
+			"tierUnlocked": {
+				"eng": "TIER ${tier} UNLOCKED",
+				"trans": "ANTAS ${tier} NABUKSAN",
+				"vars": [
+					"tier"
+				]
+			},
+			"time": {
+				"eng": "TIME ${seconds}s",
+				"trans": "ORAS ${seconds}s",
+				"vars": [
+					"seconds"
+				]
+			}
+		},
+		"intro": {
+			"briefing": {
+				"eng": "RUN_BRIEFING",
+				"trans": "TAGUBILIN SA MISYON"
+			},
+			"eventClosed": {
+				"eng": "EVENT CLOSED",
+				"trans": "ISINARA"
+			},
+			"eventInactive": {
+				"eng": "June event inactive",
+				"trans": "Hindi aktibo ang June event"
+			},
+			"juneEvent": {
+				"eng": "JUNE_EVENT",
+				"trans": "Pangyayari sa Hunyo"
+			},
+			"needPass": {
+				"eng": "NEED PASS",
+				"trans": "PASSWORD NA KAILANGAN"
+			},
+			"rewardHint": {
+				"eng": "Reward bands pay June event supplies.",
+				"trans": "Gamitin ang mga reward band para bumili ng mga suplay ng June event."
+			},
+			"rule1": {
+				"eng": "Tap to boost the prism marker upward.",
+				"trans": "Pindutin para ipataas ang prism marker."
+			},
+			"rule2": {
+				"eng": "Thread the marker through rainbow geometry gates.",
+				"trans": "Pasanin ang marker sa mga rainbow na geometric gate"
+			},
+			"rule3": {
+				"eng": "Collect prism shards to fill the EXP bar and unlock reward tiers.",
+				"trans": "Mag-ipon ng mga piraso ng prism upang punuin ang EXP bar at buksan ang mga antas ng gantimpala."
+			},
+			"rule4": {
+				"eng": "Skim close to hazards for bonus score only.",
+				"trans": "Lumipas nang halos tumama sa mga banta upang kumita ng karagdagang puntos lamang."
+			},
+			"start": {
+				"eng": "START RUN",
+				"trans": "MAGTAKBO NA"
+			},
+			"title": {
+				"eng": "Rainbow Run",
+				"trans": "Takbong Buhawis"
+			}
+		},
+		"loading": {
+			"title": {
+				"eng": "INITIALIZING_PRISM",
+				"trans": "SINISIMULA ANG PRISM"
+			}
+		},
+		"processing": {
+			"eng": "PROCESSING_RUN_DATA",
+			"trans": "Pagpoproseso ng Datos"
+		},
+		"processingRewards": {
+			"eng": "Calculating reward band...",
+			"trans": "Kinakalkula ang saklaw ng gantimpala..."
+		},
+		"results": {
+			"maxTitle": {
+				"eng": "MAX_TIER_REACHED",
+				"trans": "Pinakamataas na Antas Naabot"
+			},
+			"noRewards": {
+				"eng": "No rewards returned",
+				"trans": "Walang natanggap na premyo"
+			},
+			"rewards": {
+				"eng": "Route Rewards",
+				"trans": "Gantimpala sa Ruta"
+			},
+			"tier": {
+				"eng": "Tier ${tier} prism route cleared",
+				"trans": "Natapos ang Tier ${tier} na prism route",
+				"vars": [
+					"tier"
+				]
+			},
+			"title": {
+				"eng": "REWARD_BAND_LOCKED",
+				"trans": "NAKA-LOCK NA REWARD BAND"
+			}
+		},
+		"stats": {
+			"airtime": {
+				"eng": "Airtime",
+				"trans": "Oras sa Hangin"
+			},
+			"distance": {
+				"eng": "Distance",
+				"trans": "Distansya"
+			},
+			"nearMisses": {
+				"eng": "Near Miss",
+				"trans": "Kusina"
+			},
+			"pickups": {
+				"eng": "Pickups",
+				"trans": "Kinuha"
+			},
+			"score": {
+				"eng": "Score",
+				"trans": "Iskor"
+			}
+		}
+	},
 	"procedural": {
 		"equipmentName": {
 			"nameParts": {
@@ -10863,11 +11441,11 @@
 		},
 		"june": {
 			"desc": {
-				"eng": "🌈 All skips cost 5% less during June",
+				"eng": "Run the rainbow geometry route and earn June rewards",
 				"trans": "🌈 Lahat ng pag-skip ay may 5% na discount ngayong Hunyo"
 			},
 			"title": {
-				"eng": "5% off on skips during June!",
+				"eng": "June Rainbow Run",
 				"trans": "5% diskwento sa mga skips ngayong Hunyo!"
 			}
 		},
@@ -14901,6 +15479,34 @@
 			"secretKeys": {
 				"eng": "secret keys",
 				"trans": "mga lihim na susi"
+			},
+			"sort": {
+				"active": {
+					"eng": "Active",
+					"trans": "Aktibo"
+				},
+				"best": {
+					"eng": "Best",
+					"trans": "Pinakamabuti"
+				},
+				"eng": "Sort",
+				"level": {
+					"eng": "Level",
+					"trans": "Antas"
+				},
+				"name": {
+					"eng": "Name",
+					"trans": "Pangalan"
+				},
+				"price": {
+					"eng": "Price",
+					"trans": "Presyo"
+				},
+				"tier": {
+					"eng": "Tier",
+					"trans": "Antas"
+				},
+				"trans": "Ayusin"
 			}
 		},
 		"itemDetails": {
@@ -15186,7 +15792,7 @@
 		},
 		"list": {
 			"longPressToMultiSelect": {
-				"eng": "Long press to multi-select",
+				"eng": "Long press to select",
 				"trans": "Pindutin nang matagal upang pumili ng marami"
 			}
 		},
@@ -15971,7 +16577,7 @@
 		"setting": {
 			"afkAnimation": {
 				"description": {
-					"eng": "Show visual animation section for AFK tasks",
+					"eng": "Show visual animation block for AFK tasks",
 					"trans": "Ipakita ang visual animation section para sa mga AFK task"
 				},
 				"title": {
@@ -16341,9 +16947,9 @@
 					"trans": "Kumpirmahin ang paggamit ng paglaktaw sa oras?"
 				}
 			},
-			"description": {
-				"eng": "Global Skip allows you to skip the AFK waiting time, and finish it instantly.\n    This effect will be applied to all players performing an AFK task.",
-				"trans": "Sa pamamagitan ng Global Skip ay maaari mong laktawan ang oras ng paghihintay, at tapusin ito kaagad.\n    Ang epektong ito ay ilalapat sa lahat ng manlalaro na nagsasagawa ng AFK na gawain"
+			"globalSkipTip": {
+				"eng": "Global Skip instantly completes AFK tasks for all players, give the legend some cred, or contribute to empower the community.",
+				"trans": "Ang Global Skip ay agad nagtatapos sa mga AFK task para sa lahat ng manlalaro, nagbibigay ito ng reputasyon sa legend, o tumutulong upang mapalakas ang komunidad."
 			},
 			"inProgressBox": {
 				"subtitle": {

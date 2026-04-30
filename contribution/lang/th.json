@@ -1225,10 +1225,6 @@
 				"items",
 				"eventName"
 			]
-		},
-		"system": {
-			"eng": "SYSTEM",
-			"trans": "ข้อความระบบ"
 		}
 	},
 	"chatAttachmentMenu": {
@@ -2427,6 +2423,10 @@
 		"donation50": {
 			"eng": "Netrunner",
 			"trans": "เน็ตรันเนอร์"
+		},
+		"donation51": {
+			"eng": "Cyberdeck",
+			"trans": "ไซเบอร์เดค"
 		},
 		"donation6": {
 			"eng": "Prestige",
@@ -3802,6 +3802,10 @@
 				"eng": "June",
 				"trans": "มิถุนายน"
 			},
+			"prismRunner": {
+				"eng": "Rainbow Run",
+				"trans": "วิ่งสายรุ้ง"
+			},
 			"skipDiscountTitle": {
 				"eng": "${percent}% off during event",
 				"trans": "${percent}% ถูกลง! ช่วงกิจกรรมนี้",
@@ -3823,6 +3827,10 @@
 			"trans": "ปีใหม่ทางจันทรคติ"
 		},
 		"may": {
+			"missileCommand": {
+				"eng": "Missile Command",
+				"trans": "บัญชาการขีปนาวุธ"
+			},
 			"name": {
 				"eng": "May",
 				"trans": "เมย์"
@@ -4966,6 +4974,16 @@
 				"trans": "OverClock Creatine"
 			}
 		},
+		"defenseRationVoucher": {
+			"description": {
+				"eng": "A standardized voucher issued to Aegis Defense personnel. Can be exchanged for supplies at the battery station.",
+				"trans": "ใบเบิกปันส่วนมาตรฐานที่ออกให้บุคลากรของเอ吉斯ดีเฟนซ์ สามารถนำไปแลกเสบียงได้ที่สถานีแบตเตอรี่"
+			},
+			"name": {
+				"eng": "Defense Ration Voucher",
+				"trans": "คูปองแลกเสบียงทหาร"
+			}
+		},
 		"dumplings": {
 			"description": {
 				"eng": "These dumplings are unlike any other. Made with love and care by Yen, these delicious pockets of goodness are filled with the finest ingredients and cooked to perfection.\\n recover ${percent}% health upon consumption",
@@ -5080,6 +5098,19 @@
 				"vars": [
 					"levelName"
 				]
+			}
+		},
+		"fieldRation": {
+			"description": {
+				"eng": "A dense, calorie-packed meal designed for extended combat deployments. Tastes like cardboard, but keeps you fighting. Consume to reduce damage taken by ${percent}% for 20 minutes.",
+				"trans": "อาหารอัดพลังงานสูงสำหรับปฏิบัติการต่อสู้ต่อเนื่อง รสชาติเหมือนกระดาษแข็งแต่ช่วยคงสมรรถภาพในการรบ ใช้เพื่อลดความเสียหายที่ได้รับลง ${percent}% นาน 20 นาที",
+				"vars": [
+					"percent"
+				]
+			},
+			"name": {
+				"eng": "Emergency Field Ration",
+				"trans": "เสบียงฉุกเฉินภาคสนาม"
 			}
 		},
 		"fireworksPass": {
@@ -5532,6 +5563,16 @@
 				"trans": "ชิ้นส่วนเทคโนโลยีทางการแพทย์"
 			}
 		},
+		"missileCommandPass": {
+			"description": {
+				"eng": "A special pass required to participate in the Missile Command event game. Can be found in Dungeon Chests or from AFK farming during the May event.",
+				"trans": "บัตรผ่านพิเศษสำหรับเข้าร่วมเกมอีเวนต์มิสไซล์คอมมานด์ หาได้จากกล่องในดันเจี้ยนหรือการทำฟาร์มแบบ AFK ในช่วงกิจกรรมเดือนพฤษภาคม"
+			},
+			"name": {
+				"eng": "Missile Command Pass",
+				"trans": "มิสไซล์คอมมานด์พาส"
+			}
+		},
 		"newYear": {
 			"description": {
 				"eng": "A red envelope with a golden digital seal on it. looks like it contains some sort of currency",
@@ -5651,10 +5692,30 @@
 				"trans": "ลูกบอล NanoNibble"
 			}
 		},
+		"pridePrism": {
+			"description": {
+				"eng": "A radiant keepsake from the Rainbow Run.",
+				"trans": "ของที่ระลึกที่เปล่งประกายจากงานวิ่งสายรุ้ง"
+			},
+			"name": {
+				"eng": "Rainbow Prism",
+				"trans": "ปริซึมสายรุ้ง"
+			}
+		},
 		"primaryWeapon": {
 			"name": {
 				"eng": "Primary Weapon",
 				"trans": "อาวุธหลัก"
+			}
+		},
+		"prismRunPass": {
+			"description": {
+				"eng": "A chromatic access token for the June Rainbow Run event game. Required to enter the rainbow geometry course.",
+				"trans": "โทเค็นเข้าถึงโครมาติกสำหรับเกมอีเวนต์ June Rainbow Run จำเป็นต้องใช้เพื่อเข้าสู่เส้นทางเรขาคณิตสีรุ้ง"
+			},
+			"name": {
+				"eng": "Rainbow Run Pass",
+				"trans": "พาสรันสายรุ้ง"
 			}
 		},
 		"pudding": {
@@ -8380,6 +8441,230 @@
 			"trans": "ใช้"
 		}
 	},
+	"missileCommand": {
+		"allComplete": {
+			"eng": "ALL COMPLETE!",
+			"trans": "สำเร็จทั้งหมด!"
+		},
+		"ammo": {
+			"eng": "Ammo",
+			"trans": "กระสุน"
+		},
+		"button": {
+			"subtitle": {
+				"eng": "TACTICAL BATTERY CONTROL",
+				"trans": "การควบคุมแบตเตอรี่ยุทธวิธี"
+			},
+			"title": {
+				"eng": "MISSILE COMMAND",
+				"trans": "ระบบควบคุมขีปนาวุธ"
+			}
+		},
+		"cities": {
+			"eng": "Cities",
+			"trans": "เมือง"
+		},
+		"citiesSaved": {
+			"eng": "${count} cities saved",
+			"trans": "${count} เมืองรอด",
+			"vars": [
+				"count"
+			]
+		},
+		"congratulations": {
+			"eng": "CITY DEFENDED!",
+			"trans": "ป้องกันเมืองสำเร็จ!"
+		},
+		"defend": {
+			"eng": "Defend the cities!",
+			"trans": "ป้องกันเมือง"
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The May event has ended!",
+				"trans": "กิจกรรมเดือนพฤษภาคมสิ้นสุดแล้ว!"
+			},
+			"noPass": {
+				"eng": "You need a ${itemName} to play! Find them in dungeon chests or from AFK farming.",
+				"trans": "ต้องมี ${itemName} ถึงจะเล่นได้! หาได้จากกล่องในดันเจี้ยนหรือการฟาร์มแบบ AFK",
+				"vars": [
+					"itemName"
+				]
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "ABORT",
+				"trans": "ยกเลิก"
+			},
+			"message": {
+				"eng": "The tactical uplink encountered an error. Your pass was not consumed.",
+				"trans": "การเชื่อมต่อช่องสัญญาณยุทธวิธีเกิดข้อผิดพลาด สิทธิ์ใช้งานของคุณไม่ถูกนำไปใช้"
+			},
+			"title": {
+				"eng": "SYSTEM_FAILURE",
+				"trans": "ระบบล้มเหลว"
+			}
+		},
+		"exit": {
+			"eng": "EXIT",
+			"trans": "ออก"
+		},
+		"failedStage": {
+			"eng": "FAILED AT STAGE ${stage}",
+			"trans": "ล้มเหลวที่ด่าน${stage}",
+			"vars": [
+				"stage"
+			]
+		},
+		"finish": {
+			"eng": "FINISH",
+			"trans": "เสร็จสิ้น"
+		},
+		"gameOver": {
+			"eng": "CITIES DESTROYED!",
+			"trans": "นครพังพินาศ!"
+		},
+		"intro": {
+			"available": {
+				"eng": "AVAILABLE_QTY",
+				"trans": "จำนวนที่พร้อมใช้งาน"
+			},
+			"eventEnded": {
+				"eng": "OFFLINE",
+				"trans": "ออฟไลน์"
+			},
+			"eventInactive": {
+				"eng": "NETWORK_OFFLINE: RETURN DURING ACTIVE THREAT WINDOWS",
+				"trans": "เครือข่ายออฟไลน์: กรุณาเข้ากลับในช่วงที่เปิดหน้าต่างปฏิบัติการตอบโต้ภัยคุกคาม"
+			},
+			"howToGet": {
+				"eng": "> ACQUIRE [${itemName}] FROM DUNGEON CACHES OR AUTOMATED SWEEPS.",
+				"trans": "> รับ [${itemName}] จากจุดเก็บของในดันเจี้ยน หรือการเคลียร์อัตโนมัติ",
+				"vars": [
+					"itemName"
+				]
+			},
+			"howToPlay": {
+				"eng": "OPERATION_BRIEFING",
+				"trans": "สรุปปฏิบัติการ"
+			},
+			"logistics": {
+				"eng": "AUTHORIZATION_LOGISTICS",
+				"trans": "การอนุมัติโลจิสติกส์"
+			},
+			"needItem": {
+				"eng": "AUTHORIZATION_REQUIRED",
+				"trans": "ต้องได้รับอนุญาต"
+			},
+			"requiredClearance": {
+				"eng": "REQUIRED_CLEARANCE",
+				"trans": "ระดับสิทธิ์ที่จำเป็น"
+			},
+			"rule1": {
+				"eng": "Tap grid coordinates to deploy interceptor missiles.",
+				"trans": "แตะที่พิกัดตารางเพื่อปล่อยขีปนาวุธสกัดกั้น"
+			},
+			"rule2": {
+				"eng": "Neutralize incoming ballistic threats before impact.",
+				"trans": "ทำลายขีปนาวุธก่อนตกถึงพื้น"
+			},
+			"rule3": {
+				"eng": "Defend civic sectors across five escalating threat levels.",
+				"trans": "ปกป้องเขตเมืองผ่าน 5 ระดับภัยคุกคามที่ทวีความรุนแรงขึ้น"
+			},
+			"rule4": {
+				"eng": "Critical structural failure results in immediate mission abort.",
+				"trans": "ความล้มเหลวเชิงโครงสร้างขั้นวิกฤตส่งผลให้ต้องยกเลิกภารกิจทันที"
+			},
+			"startButton": {
+				"eng": "INITIATE_UPLINK",
+				"trans": "เริ่มเชื่อมต่อเครือข่าย"
+			},
+			"status": {
+				"eng": "SYS.STATUS",
+				"trans": "สถานะระบบ"
+			},
+			"title": {
+				"eng": "Missile Command",
+				"trans": "บัญชาการขีปนาวุธ"
+			}
+		},
+		"loading": {
+			"message": {
+				"eng": "Connecting to defense grid...",
+				"trans": "กำลังเชื่อมต่อกับระบบป้องกัน..."
+			},
+			"title": {
+				"eng": "ESTABLISHING_UPLINK...",
+				"trans": "กำลังเชื่อมต่ออัพลิงก์..."
+			}
+		},
+		"nextStage": {
+			"eng": "NEXT STAGE",
+			"trans": "ด่านต่อไป"
+		},
+		"noRewards": {
+			"eng": "No rewards obtained.",
+			"trans": "ไม่ได้รับรางวัล"
+		},
+		"pleaseWait": {
+			"eng": "Calculating rewards...",
+			"trans": "กำลังคำนวณรางวัล..."
+		},
+		"processing": {
+			"eng": "PROCESSING...",
+			"trans": "กำลังประมวลผล..."
+		},
+		"rewards": {
+			"eng": "REWARDS!",
+			"trans": "รางวัล"
+		},
+		"rewardsEarned": {
+			"eng": "YOUR REWARDS",
+			"trans": "รางวัลของคุณ"
+		},
+		"seconds": {
+			"eng": "seconds",
+			"trans": "วินาที"
+		},
+		"stage": {
+			"eng": "STAGE ${stage}",
+			"trans": "เฟสที่ ${stage}",
+			"vars": [
+				"stage"
+			]
+		},
+		"stageClear": {
+			"eng": "STAGE CLEAR!",
+			"trans": "ผ่านด่าน!"
+		},
+		"stageRewards": {
+			"eng": "STAGE ${stage} CLEARED",
+			"trans": "ผ่านด่าน ${stage} แล้ว",
+			"vars": [
+				"stage"
+			]
+		},
+		"stats": {
+			"citiesSaved": {
+				"eng": "CITIES LEFT",
+				"trans": "เมืองที่เหลือ"
+			},
+			"destroyed": {
+				"eng": "DESTROYED",
+				"trans": "ที่ทำลาย"
+			}
+		},
+		"tapToFire": {
+			"eng": "TAP TO FIRE!",
+			"trans": "แตะเพื่อยิง!"
+		},
+		"tooManyCitiesLost": {
+			"eng": "Too many cities were destroyed",
+			"trans": "เมืองถูกทำลายมากเกินไป"
+		}
+	},
 	"mobile": {
 		"appBanner": {
 			"description": {
@@ -9459,6 +9744,28 @@
 				"trans": "Luna"
 			}
 		},
+		"mayDefense": {
+			"defaultLines": {
+				"eng": [
+					"Inbound missile signatures detected. Intercept before impact.",
+					"Four cities. Limited ammo. No second chances.",
+					"Get on the battery and keep our skyline standing."
+				],
+				"trans": [
+					"ตรวจจับลายเซ็นขีปนาวุธเข้าใกล้ สกัดกั้นก่อนจุดปะทะ",
+					"สี่เมือง กระสุนมีจำกัด ไม่มีโอกาสครั้งที่สอง",
+					"เข้าประจำการณ์ที่แท่นอาวุธ และปกป้องเส้นขอบฟ้าของเราไว้"
+				]
+			},
+			"name": {
+				"eng": "Aegis Defense Battery",
+				"trans": "เครือข่ายป้องกันแอคิซ"
+			},
+			"npcName": {
+				"eng": "Commander Aegis",
+				"trans": "ผู้บังคับการแอจิส"
+			}
+		},
 		"newYear": {
 			"defaultLines": {
 				"eng": [
@@ -9539,6 +9846,28 @@
 			"npcName": {
 				"eng": "Jin",
 				"trans": "จิน"
+			}
+		},
+		"pride": {
+			"defaultLines": {
+				"eng": [
+					"Ready to take on the Rainbow Run?",
+					"The route is live. Bring your Rainbow Run pass and launch when you're ready.",
+					"Keep your line clean, collect prisms, and push for the next reward band."
+				],
+				"trans": [
+					"พร้อมลุยเรนโบว์รันหรือยัง",
+					"เส้นทางเปิดใช้งานแล้ว นำพาสเรนมโบรันมา แล้วออกตัวเมื่อพร้อม",
+					"อย่าให้ขาดสาย เก็บปริซึม แล้วเลื่อนสู่ระดับรางวัลถัดไป"
+				]
+			},
+			"name": {
+				"eng": "Rainbow Run Plaza",
+				"trans": "เรนโบว์รันพลาซ่า"
+			},
+			"npcName": {
+				"eng": "Prism Guide",
+				"trans": "ไกด์ปริซึม"
 			}
 		},
 		"printer": {
@@ -10572,6 +10901,255 @@
 			"trans": "ฟรี"
 		}
 	},
+	"prismRunner": {
+		"button": {
+			"status": {
+				"eng": "UPLINK: READY",
+				"trans": "อัปลิงก์: พร้อม"
+			},
+			"subtitle": {
+				"eng": "RAINBOW GEOMETRY ROUTE",
+				"trans": "เส้นทางเรขาคณิตสีรุ้ง"
+			},
+			"title": {
+				"eng": "RAINBOW RUN",
+				"trans": "วิ่งสายรุ้ง"
+			}
+		},
+		"countdown": {
+			"tapToBoost": {
+				"eng": "TAP TO BOOST",
+				"trans": "แตะเพื่อเร่งความเร็ว"
+			},
+			"title": {
+				"eng": "PRISM RUNNER",
+				"trans": "ปริซึมรันเนอร์"
+			}
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The June event is not active.",
+				"trans": "กิจกรรมเดือนมิถุนายนไม่เปิดให้บริการ"
+			},
+			"noPass": {
+				"eng": "You need a ${itemName} to enter Rainbow Run.",
+				"trans": "ต้องมี ${itemName} จึงจะเข้าถึง Rainbow Run",
+				"vars": [
+					"itemName"
+				]
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "CLOSE",
+				"trans": "ปิด"
+			},
+			"message": {
+				"eng": "The run encountered an error. If submission already began, your pass was consumed and rewards were granted.",
+				"trans": "การรันนี้พบข้อผิดพลาด หากเริ่มส่งข้อมูลไปแล้ว พาสของคุณจะถูกใช้ไปและได้รับรางวัลเรียบร้อยแล้ว"
+			},
+			"title": {
+				"eng": "PRISM_LINK_FAILURE",
+				"trans": "การเชื่อมต่อพริซึมล้มเหลว"
+			}
+		},
+		"exit": {
+			"eng": "EXIT",
+			"trans": "ออก"
+		},
+		"finish": {
+			"eng": "FINISH",
+			"trans": "เสร็จสิ้น"
+		},
+		"gameOver": {
+			"subtitle": {
+				"eng": "No reward band reached",
+				"trans": "ไม่ผ่านเกณฑ์รางวัล"
+			},
+			"title": {
+				"eng": "PRISM_BREAK",
+				"trans": "ปริзүмл่ม"
+			}
+		},
+		"hud": {
+			"expMax": {
+				"eng": "EXP MAX",
+				"trans": "EXP เต็ม"
+			},
+			"expProgress": {
+				"eng": "EXP ${current}/${next}",
+				"trans": "EXP ${current}/${next}",
+				"vars": [
+					"current",
+					"next"
+				]
+			},
+			"nearMisses": {
+				"eng": "NEAR ${count}",
+				"trans": "เฉียด ${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"op": {
+				"eng": "OP: PRISM_RUNNER",
+				"trans": "สถานะ: พริซึ่มรันเนอร์"
+			},
+			"pickups": {
+				"eng": "PICKUPS ${count}",
+				"trans": "ไอเท็มที่เก็บ ${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"score": {
+				"eng": "SCORE ${score}",
+				"trans": "คะแนน ${score}",
+				"vars": [
+					"score"
+				]
+			},
+			"shards": {
+				"eng": "SHARDS ${count}",
+				"trans": "เศษ ${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"tier": {
+				"eng": "TIER ${tier}",
+				"trans": "ระดับ ${tier}",
+				"vars": [
+					"tier"
+				]
+			},
+			"tierUnlocked": {
+				"eng": "TIER ${tier} UNLOCKED",
+				"trans": "ปลดล็อกชั้น ${tier} แล้ว",
+				"vars": [
+					"tier"
+				]
+			},
+			"time": {
+				"eng": "TIME ${seconds}s",
+				"trans": "เวลา ${seconds} วินาที",
+				"vars": [
+					"seconds"
+				]
+			}
+		},
+		"intro": {
+			"briefing": {
+				"eng": "RUN_BRIEFING",
+				"trans": "สรุปปฏิบัติการ"
+			},
+			"eventClosed": {
+				"eng": "EVENT CLOSED",
+				"trans": "กิจกรรมปิดแล้ว"
+			},
+			"eventInactive": {
+				"eng": "June event inactive",
+				"trans": "อีเวนต์มิถุนายนไม่เปิดให้บริการ"
+			},
+			"juneEvent": {
+				"eng": "JUNE_EVENT",
+				"trans": "กิจกรรมมิถุนายน"
+			},
+			"needPass": {
+				"eng": "NEED PASS",
+				"trans": "ต้องมีบัตรผ่าน"
+			},
+			"rewardHint": {
+				"eng": "Reward bands pay June event supplies.",
+				"trans": "แถบรางวัลจ่ายเป็นอุปกรณ์กิจกรรมเดือนมิถุนายน"
+			},
+			"rule1": {
+				"eng": "Tap to boost the prism marker upward.",
+				"trans": "แตะเพื่อเร่งให้ตัวชี้ปริซึมพุ่งขึ้น"
+			},
+			"rule2": {
+				"eng": "Thread the marker through rainbow geometry gates.",
+				"trans": "นำมาร์คเกอร์ลอดผ่านประตูรูปทรงเรขาคณิตสีรุ้ง"
+			},
+			"rule3": {
+				"eng": "Collect prism shards to fill the EXP bar and unlock reward tiers.",
+				"trans": "เก็บเศษปริซึมเพื่อเติมแถบ EXP และปลดล็อกระดับรางวัล"
+			},
+			"rule4": {
+				"eng": "Skim close to hazards for bonus score only.",
+				"trans": "วิ่งเฉียดสิ่งกีดขวางเพื่อรับคะแนนโบนัสเท่านั้น"
+			},
+			"start": {
+				"eng": "START RUN",
+				"trans": "เริ่มวิ่ง"
+			},
+			"title": {
+				"eng": "Rainbow Run",
+				"trans": "วิ่งสายรุ้ง"
+			}
+		},
+		"loading": {
+			"title": {
+				"eng": "INITIALIZING_PRISM",
+				"trans": "กำลังเริ่มต้นปริซึม"
+			}
+		},
+		"processing": {
+			"eng": "PROCESSING_RUN_DATA",
+			"trans": "ประมวลผลข้อมูลรัน"
+		},
+		"processingRewards": {
+			"eng": "Calculating reward band...",
+			"trans": "กำลังคำนวณช่วงรางวัล..."
+		},
+		"results": {
+			"maxTitle": {
+				"eng": "MAX_TIER_REACHED",
+				"trans": "ถึงระดับสูงสุดแล้ว"
+			},
+			"noRewards": {
+				"eng": "No rewards returned",
+				"trans": "ไม่ได้รับรางวัล"
+			},
+			"rewards": {
+				"eng": "Route Rewards",
+				"trans": "รางวัลเส้นทาง"
+			},
+			"tier": {
+				"eng": "Tier ${tier} prism route cleared",
+				"trans": "เคลียร์เส้นทางปริซึมระดับ ${tier}",
+				"vars": [
+					"tier"
+				]
+			},
+			"title": {
+				"eng": "REWARD_BAND_LOCKED",
+				"trans": "ชั้นรางวัลถูกล็อก"
+			}
+		},
+		"stats": {
+			"airtime": {
+				"eng": "Airtime",
+				"trans": "เวลาในอากาศ"
+			},
+			"distance": {
+				"eng": "Distance",
+				"trans": "ระยะทาง"
+			},
+			"nearMisses": {
+				"eng": "Near Miss",
+				"trans": "เฉียดผ่าน"
+			},
+			"pickups": {
+				"eng": "Pickups",
+				"trans": "ไอเท็มที่เก็บ"
+			},
+			"score": {
+				"eng": "Score",
+				"trans": "คะแนน"
+			}
+		}
+	},
 	"procedural": {
 		"equipmentName": {
 			"nameParts": {
@@ -10651,11 +11229,11 @@
 		},
 		"june": {
 			"desc": {
-				"eng": "🌈 All skips cost 5% less during June",
+				"eng": "Run the rainbow geometry route and earn June rewards",
 				"trans": "🌈 สเกิปทั้งหมดลด 5% ในเดือนมิถุนายน"
 			},
 			"title": {
-				"eng": "5% off on skips during June!",
+				"eng": "June Rainbow Run",
 				"trans": "ลด 5% สำหรับการข้ามระหว่างเดือนมิถุนายน!"
 			}
 		},
@@ -14689,6 +15267,34 @@
 			"secretKeys": {
 				"eng": "secret keys",
 				"trans": "กุญแจลับ"
+			},
+			"sort": {
+				"active": {
+					"eng": "Active",
+					"trans": "ใช้งาน"
+				},
+				"best": {
+					"eng": "Best",
+					"trans": "ดีที่สุด"
+				},
+				"eng": "Sort",
+				"level": {
+					"eng": "Level",
+					"trans": "ระดับ"
+				},
+				"name": {
+					"eng": "Name",
+					"trans": "ชื่อ"
+				},
+				"price": {
+					"eng": "Price",
+					"trans": "ราคา"
+				},
+				"tier": {
+					"eng": "Tier",
+					"trans": "ระดับ"
+				},
+				"trans": "จัดเรียง"
 			}
 		},
 		"itemDetails": {
@@ -14974,7 +15580,7 @@
 		},
 		"list": {
 			"longPressToMultiSelect": {
-				"eng": "Long press to multi-select",
+				"eng": "Long press to select",
 				"trans": "กดค้างไว้เพื่อมัลติเลือก"
 			}
 		},
@@ -15759,7 +16365,7 @@
 		"setting": {
 			"afkAnimation": {
 				"description": {
-					"eng": "Show visual animation section for AFK tasks",
+					"eng": "Show visual animation block for AFK tasks",
 					"trans": "แสดงส่วนแอนิเมชันภาพสำหรับการทำงานขณะ AFK"
 				},
 				"title": {
@@ -16129,9 +16735,9 @@
 					"trans": "ยืนยันการใช้ skip?"
 				}
 			},
-			"description": {
-				"eng": "Global Skip allows you to skip the AFK waiting time, and finish it instantly.\n    This effect will be applied to all players performing an AFK task.",
-				"trans": "Global Skip ช่วยให้คุณข้ามเวลารอ AFK และเสร็จสิ้นทันที \n     เอฟเฟกต์นี้จะถูกนำไปใช้กับผู้เล่นทุกคนที่ทำภารกิจ AFK"
+			"globalSkipTip": {
+				"eng": "Global Skip instantly completes AFK tasks for all players, give the legend some cred, or contribute to empower the community.",
+				"trans": "Global Skip ทำภารกิจ AFK ให้ผู้เล่นทุกคนเสร็จสิ้นทันที มอบชื่อเสียงให้ตำนาน หรือร่วมเสริมพลังชุมชน"
 			},
 			"inProgressBox": {
 				"subtitle": {

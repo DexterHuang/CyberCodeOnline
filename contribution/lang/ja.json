@@ -447,12 +447,9 @@
 					"zoneName"
 				]
 			},
-			"name": {
-				"eng": "Scavenge in ${zoneName}",
-				"trans": "${zoneName}での収集",
-				"vars": [
-					"zoneName"
-				]
+			"name2": {
+				"eng": "Scavenging",
+				"trans": "資源回収"
 			}
 		},
 		"tag": {
@@ -1225,10 +1222,6 @@
 				"items",
 				"eventName"
 			]
-		},
-		"system": {
-			"eng": "SYSTEM",
-			"trans": "システム"
 		}
 	},
 	"chatAttachmentMenu": {
@@ -2427,6 +2420,10 @@
 		"donation50": {
 			"eng": "Netrunner",
 			"trans": "ネットランナー"
+		},
+		"donation51": {
+			"eng": "Cyberdeck",
+			"trans": "サイバーデッキ"
 		},
 		"donation6": {
 			"eng": "Prestige",
@@ -3802,6 +3799,10 @@
 				"eng": "June",
 				"trans": "6月"
 			},
+			"prismRunner": {
+				"eng": "Rainbow Run",
+				"trans": "レインボーラン"
+			},
 			"skipDiscountTitle": {
 				"eng": "${percent}% off during event",
 				"trans": "イベント中の${percent}％オフ",
@@ -3823,6 +3824,10 @@
 			"trans": "旧正月"
 		},
 		"may": {
+			"missileCommand": {
+				"eng": "Missile Command",
+				"trans": "ミサイル指令"
+			},
 			"name": {
 				"eng": "May",
 				"trans": "5月"
@@ -4966,6 +4971,16 @@
 				"trans": "オーバークロック・クリエチン"
 			}
 		},
+		"defenseRationVoucher": {
+			"description": {
+				"eng": "A standardized voucher issued to Aegis Defense personnel. Can be exchanged for supplies at the battery station.",
+				"trans": "エーギス防衛隊員に配布される標準補充券です。バッテリーステーションにて物資と交換可能です。"
+			},
+			"name": {
+				"eng": "Defense Ration Voucher",
+				"trans": "防御用配給券"
+			}
+		},
 		"dumplings": {
 			"description": {
 				"eng": "These dumplings are unlike any other. Made with love and care by Yen, these delicious pockets of goodness are filled with the finest ingredients and cooked to perfection.\\n recover ${percent}% health upon consumption",
@@ -5080,6 +5095,19 @@
 				"vars": [
 					"levelName"
 				]
+			}
+		},
+		"fieldRation": {
+			"description": {
+				"eng": "A dense, calorie-packed meal designed for extended combat deployments. Tastes like cardboard, but keeps you fighting. Consume to reduce damage taken by ${percent}% for 20 minutes.",
+				"trans": "長時間の戦闘任務用に設計された高密度・高カロリー食料。味は段ボールのようだが、戦い続けられる。消費により20分間、被ダメージを${percent}%軽減する。",
+				"vars": [
+					"percent"
+				]
+			},
+			"name": {
+				"eng": "Emergency Field Ration",
+				"trans": "緊急用野外レーション"
 			}
 		},
 		"fireworksPass": {
@@ -5532,6 +5560,16 @@
 				"trans": "医療機器パーツ"
 			}
 		},
+		"missileCommandPass": {
+			"description": {
+				"eng": "A special pass required to participate in the Missile Command event game. Can be found in Dungeon Chests or from AFK farming during the May event.",
+				"trans": "ミサイルコマンド イベント参加に必要な特別パスです。5月イベント期間中にダンジョンの宝箱または放置プレイから入手可能です。"
+			},
+			"name": {
+				"eng": "Missile Command Pass",
+				"trans": "ミサイルコマンドパス"
+			}
+		},
 		"newYear": {
 			"description": {
 				"eng": "A red envelope with a golden digital seal on it. looks like it contains some sort of currency",
@@ -5651,10 +5689,30 @@
 				"trans": "ナノ粒子ニブルボール"
 			}
 		},
+		"pridePrism": {
+			"description": {
+				"eng": "A radiant keepsake from the Rainbow Run.",
+				"trans": "レインボーランの光り輝く記念品"
+			},
+			"name": {
+				"eng": "Rainbow Prism",
+				"trans": "レインボープリズム"
+			}
+		},
 		"primaryWeapon": {
 			"name": {
 				"eng": "Primary Weapon",
 				"trans": "メインウェポン"
+			}
+		},
+		"prismRunPass": {
+			"description": {
+				"eng": "A chromatic access token for the June Rainbow Run event game. Required to enter the rainbow geometry course.",
+				"trans": "六月レインボーランイベント用のクロマティックアクセストークン。レインボージオメトリーコースへの入場に必要。"
+			},
+			"name": {
+				"eng": "Rainbow Run Pass",
+				"trans": "レインボーランパス"
 			}
 		},
 		"pudding": {
@@ -8380,6 +8438,230 @@
 			"trans": "使用する"
 		}
 	},
+	"missileCommand": {
+		"allComplete": {
+			"eng": "ALL COMPLETE!",
+			"trans": "全目標完了！"
+		},
+		"ammo": {
+			"eng": "Ammo",
+			"trans": "弾薬"
+		},
+		"button": {
+			"subtitle": {
+				"eng": "TACTICAL BATTERY CONTROL",
+				"trans": "戦術バッテリー制御"
+			},
+			"title": {
+				"eng": "MISSILE COMMAND",
+				"trans": "ミサイル指令"
+			}
+		},
+		"cities": {
+			"eng": "Cities",
+			"trans": "都市"
+		},
+		"citiesSaved": {
+			"eng": "${count} cities saved",
+			"trans": "${count} 都市確保",
+			"vars": [
+				"count"
+			]
+		},
+		"congratulations": {
+			"eng": "CITY DEFENDED!",
+			"trans": "都市防衛完了！"
+		},
+		"defend": {
+			"eng": "Defend the cities!",
+			"trans": "都市を守れ！"
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The May event has ended!",
+				"trans": "5月イベントが終了しました！"
+			},
+			"noPass": {
+				"eng": "You need a ${itemName} to play! Find them in dungeon chests or from AFK farming.",
+				"trans": "プレイするには${itemName}が必要です！ダンジョンの宝箱や放置から入手してください。",
+				"vars": [
+					"itemName"
+				]
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "ABORT",
+				"trans": "中止"
+			},
+			"message": {
+				"eng": "The tactical uplink encountered an error. Your pass was not consumed.",
+				"trans": "戦術アップリンクにエラーが発生しました。パスは消費されませんでした。"
+			},
+			"title": {
+				"eng": "SYSTEM_FAILURE",
+				"trans": "システムエラー"
+			}
+		},
+		"exit": {
+			"eng": "EXIT",
+			"trans": "退出"
+		},
+		"failedStage": {
+			"eng": "FAILED AT STAGE ${stage}",
+			"trans": "ステージ${stage}で失敗",
+			"vars": [
+				"stage"
+			]
+		},
+		"finish": {
+			"eng": "FINISH",
+			"trans": "終了"
+		},
+		"gameOver": {
+			"eng": "CITIES DESTROYED!",
+			"trans": "都市全滅！"
+		},
+		"intro": {
+			"available": {
+				"eng": "AVAILABLE_QTY",
+				"trans": "利用可能数"
+			},
+			"eventEnded": {
+				"eng": "OFFLINE",
+				"trans": "オフライン"
+			},
+			"eventInactive": {
+				"eng": "NETWORK_OFFLINE: RETURN DURING ACTIVE THREAT WINDOWS",
+				"trans": "ネットワークオフライン：脅威活性化時間帯に復帰してください"
+			},
+			"howToGet": {
+				"eng": "> ACQUIRE [${itemName}] FROM DUNGEON CACHES OR AUTOMATED SWEEPS.",
+				"trans": "${itemName}はダンジョン内の保管庫または自動掃討で入手可能です。",
+				"vars": [
+					"itemName"
+				]
+			},
+			"howToPlay": {
+				"eng": "OPERATION_BRIEFING",
+				"trans": "作戦概要"
+			},
+			"logistics": {
+				"eng": "AUTHORIZATION_LOGISTICS",
+				"trans": "兵站承認"
+			},
+			"needItem": {
+				"eng": "AUTHORIZATION_REQUIRED",
+				"trans": "認証が必要です"
+			},
+			"requiredClearance": {
+				"eng": "REQUIRED_CLEARANCE",
+				"trans": "アクセス権限必須"
+			},
+			"rule1": {
+				"eng": "Tap grid coordinates to deploy interceptor missiles.",
+				"trans": "グリッド座標をタップして迎撃ミサイルを発射する。"
+			},
+			"rule2": {
+				"eng": "Neutralize incoming ballistic threats before impact.",
+				"trans": "着弾前に飛来する弾道脅威を撃破せよ。"
+			},
+			"rule3": {
+				"eng": "Defend civic sectors across five escalating threat levels.",
+				"trans": "市民区域を、脅威レベルが高まる5段階にわたって防衛せよ。"
+			},
+			"rule4": {
+				"eng": "Critical structural failure results in immediate mission abort.",
+				"trans": "重大な構造故障により、任務は直ちに中止となります。"
+			},
+			"startButton": {
+				"eng": "INITIATE_UPLINK",
+				"trans": "アップリンク開始"
+			},
+			"status": {
+				"eng": "SYS.STATUS",
+				"trans": "システムステータス"
+			},
+			"title": {
+				"eng": "Missile Command",
+				"trans": "ミサイル指令"
+			}
+		},
+		"loading": {
+			"message": {
+				"eng": "Connecting to defense grid...",
+				"trans": "防衛グリッドに接続中..."
+			},
+			"title": {
+				"eng": "ESTABLISHING_UPLINK...",
+				"trans": "アップリンク確立中"
+			}
+		},
+		"nextStage": {
+			"eng": "NEXT STAGE",
+			"trans": "次ステージ"
+		},
+		"noRewards": {
+			"eng": "No rewards obtained.",
+			"trans": "報酬なし"
+		},
+		"pleaseWait": {
+			"eng": "Calculating rewards...",
+			"trans": "報酬演算中..."
+		},
+		"processing": {
+			"eng": "PROCESSING...",
+			"trans": "処理中"
+		},
+		"rewards": {
+			"eng": "REWARDS!",
+			"trans": "報酬！"
+		},
+		"rewardsEarned": {
+			"eng": "YOUR REWARDS",
+			"trans": "獲得報酬"
+		},
+		"seconds": {
+			"eng": "seconds",
+			"trans": "秒"
+		},
+		"stage": {
+			"eng": "STAGE ${stage}",
+			"trans": "ステージ${stage}",
+			"vars": [
+				"stage"
+			]
+		},
+		"stageClear": {
+			"eng": "STAGE CLEAR!",
+			"trans": "ステージクリア！"
+		},
+		"stageRewards": {
+			"eng": "STAGE ${stage} CLEARED",
+			"trans": "ステージ${stage} クリア",
+			"vars": [
+				"stage"
+			]
+		},
+		"stats": {
+			"citiesSaved": {
+				"eng": "CITIES LEFT",
+				"trans": "残都市数"
+			},
+			"destroyed": {
+				"eng": "DESTROYED",
+				"trans": "破壊"
+			}
+		},
+		"tapToFire": {
+			"eng": "TAP TO FIRE!",
+			"trans": "タップして発射！"
+		},
+		"tooManyCitiesLost": {
+			"eng": "Too many cities were destroyed",
+			"trans": "都市の大半が破壊された"
+		}
+	},
 	"mobile": {
 		"appBanner": {
 			"description": {
@@ -9510,6 +9792,28 @@
 				"trans": "ルナ"
 			}
 		},
+		"mayDefense": {
+			"defaultLines": {
+				"eng": [
+					"Inbound missile signatures detected. Intercept before impact.",
+					"Four cities. Limited ammo. No second chances.",
+					"Get on the battery and keep our skyline standing."
+				],
+				"trans": [
+					"接近するミサイルを検知。着弾前に迎撃。",
+					"4都市。弾薬は限定的。二度のチャンスはない。",
+					"バッテリーを起動して、俺たちのスカイラインを守り抜くんだ。"
+				]
+			},
+			"name": {
+				"eng": "Aegis Defense Battery",
+				"trans": "アイギス防衛ユニット"
+			},
+			"npcName": {
+				"eng": "Commander Aegis",
+				"trans": "司令官アイギス"
+			}
+		},
 		"newYear": {
 			"defaultLines": {
 				"eng": [
@@ -9590,6 +9894,28 @@
 			"npcName": {
 				"eng": "Jin",
 				"trans": "ジン"
+			}
+		},
+		"pride": {
+			"defaultLines": {
+				"eng": [
+					"Ready to take on the Rainbow Run?",
+					"The route is live. Bring your Rainbow Run pass and launch when you're ready.",
+					"Keep your line clean, collect prisms, and push for the next reward band."
+				],
+				"trans": [
+					"レインボーランに挑む準備はいいか？",
+					"ルートが稼働しました。レインボーランパスを持って、準備ができたら発進してください。",
+					"ラインをきれいに保ち、プリズムを集めて次の報酬帯へ進め。"
+				]
+			},
+			"name": {
+				"eng": "Rainbow Run Plaza",
+				"trans": "レインボーランプラザ"
+			},
+			"npcName": {
+				"eng": "Prism Guide",
+				"trans": "プリズムガイド"
 			}
 		},
 		"printer": {
@@ -10785,6 +11111,255 @@
 			"trans": "無料"
 		}
 	},
+	"prismRunner": {
+		"button": {
+			"status": {
+				"eng": "UPLINK: READY",
+				"trans": "アップリンク：準備完了"
+			},
+			"subtitle": {
+				"eng": "RAINBOW GEOMETRY ROUTE",
+				"trans": "レインボージオメトリルート"
+			},
+			"title": {
+				"eng": "RAINBOW RUN",
+				"trans": "レインボーラン"
+			}
+		},
+		"countdown": {
+			"tapToBoost": {
+				"eng": "TAP TO BOOST",
+				"trans": "タップでブースト"
+			},
+			"title": {
+				"eng": "PRISM RUNNER",
+				"trans": "プリズムランナー"
+			}
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The June event is not active.",
+				"trans": "6月イベントは現在開催されていません。"
+			},
+			"noPass": {
+				"eng": "You need a ${itemName} to enter Rainbow Run.",
+				"trans": "レインボーランに進入するには、${itemName} が必要です。",
+				"vars": [
+					"itemName"
+				]
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "CLOSE",
+				"trans": "閉じる"
+			},
+			"message": {
+				"eng": "The run encountered an error. If submission already began, your pass was consumed and rewards were granted.",
+				"trans": "試行中にエラーが発生しました。提出処理が已经开始している場合は、パスは消費され報酬が付与済みです。"
+			},
+			"title": {
+				"eng": "PRISM_LINK_FAILURE",
+				"trans": "プリズム接続失敗"
+			}
+		},
+		"exit": {
+			"eng": "EXIT",
+			"trans": "終了"
+		},
+		"finish": {
+			"eng": "FINISH",
+			"trans": "クリア"
+		},
+		"gameOver": {
+			"subtitle": {
+				"eng": "No reward band reached",
+				"trans": "報酬帯未到達"
+			},
+			"title": {
+				"eng": "PRISM_BREAK",
+				"trans": "プリズムブレイク"
+			}
+		},
+		"hud": {
+			"expMax": {
+				"eng": "EXP MAX",
+				"trans": "経験値MAX"
+			},
+			"expProgress": {
+				"eng": "EXP ${current}/${next}",
+				"trans": "EXP ${current}/${next}",
+				"vars": [
+					"current",
+					"next"
+				]
+			},
+			"nearMisses": {
+				"eng": "NEAR ${count}",
+				"trans": "ニアミス ${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"op": {
+				"eng": "OP: PRISM_RUNNER",
+				"trans": "OP：プリズムランナー"
+			},
+			"pickups": {
+				"eng": "PICKUPS ${count}",
+				"trans": "ピックアップ ${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"score": {
+				"eng": "SCORE ${score}",
+				"trans": "スコア ${score}",
+				"vars": [
+					"score"
+				]
+			},
+			"shards": {
+				"eng": "SHARDS ${count}",
+				"trans": "シャード ${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"tier": {
+				"eng": "TIER ${tier}",
+				"trans": "ティア ${tier}",
+				"vars": [
+					"tier"
+				]
+			},
+			"tierUnlocked": {
+				"eng": "TIER ${tier} UNLOCKED",
+				"trans": "ティア${tier}解放",
+				"vars": [
+					"tier"
+				]
+			},
+			"time": {
+				"eng": "TIME ${seconds}s",
+				"trans": "時間 ${seconds}s",
+				"vars": [
+					"seconds"
+				]
+			}
+		},
+		"intro": {
+			"briefing": {
+				"eng": "RUN_BRIEFING",
+				"trans": "任務簡報"
+			},
+			"eventClosed": {
+				"eng": "EVENT CLOSED",
+				"trans": "イベント終了"
+			},
+			"eventInactive": {
+				"eng": "June event inactive",
+				"trans": "6月イベント 休止中"
+			},
+			"juneEvent": {
+				"eng": "JUNE_EVENT",
+				"trans": "6月イベント"
+			},
+			"needPass": {
+				"eng": "NEED PASS",
+				"trans": "通行許可が必要"
+			},
+			"rewardHint": {
+				"eng": "Reward bands pay June event supplies.",
+				"trans": "報酬で6月イベントアイテムを購入可能"
+			},
+			"rule1": {
+				"eng": "Tap to boost the prism marker upward.",
+				"trans": "タップしてプリズムマーカーを上へ送る"
+			},
+			"rule2": {
+				"eng": "Thread the marker through rainbow geometry gates.",
+				"trans": "マーカーを虹色ジオメトリゲートに誘導せよ。"
+			},
+			"rule3": {
+				"eng": "Collect prism shards to fill the EXP bar and unlock reward tiers.",
+				"trans": "プリズムシャードを集めてEXPゲージを満たし、報酬ティアを解放する。"
+			},
+			"rule4": {
+				"eng": "Skim close to hazards for bonus score only.",
+				"trans": "ハザードのぎりぎりを通過すると、ボーナススコアのみ加算される。"
+			},
+			"start": {
+				"eng": "START RUN",
+				"trans": "ラン開始"
+			},
+			"title": {
+				"eng": "Rainbow Run",
+				"trans": "レインボーラン"
+			}
+		},
+		"loading": {
+			"title": {
+				"eng": "INITIALIZING_PRISM",
+				"trans": "プリズム初期化中"
+			}
+		},
+		"processing": {
+			"eng": "PROCESSING_RUN_DATA",
+			"trans": "ランデータ処理"
+		},
+		"processingRewards": {
+			"eng": "Calculating reward band...",
+			"trans": "リワード帯算出中..."
+		},
+		"results": {
+			"maxTitle": {
+				"eng": "MAX_TIER_REACHED",
+				"trans": "最高タイア到達"
+			},
+			"noRewards": {
+				"eng": "No rewards returned",
+				"trans": "報酬なし"
+			},
+			"rewards": {
+				"eng": "Route Rewards",
+				"trans": "ルート報酬"
+			},
+			"tier": {
+				"eng": "Tier ${tier} prism route cleared",
+				"trans": "ティア${tier} プリズムルート クリア",
+				"vars": [
+					"tier"
+				]
+			},
+			"title": {
+				"eng": "REWARD_BAND_LOCKED",
+				"trans": "報酬帯 ロック"
+			}
+		},
+		"stats": {
+			"airtime": {
+				"eng": "Airtime",
+				"trans": "滞空時間"
+			},
+			"distance": {
+				"eng": "Distance",
+				"trans": "距離"
+			},
+			"nearMisses": {
+				"eng": "Near Miss",
+				"trans": "間一髪"
+			},
+			"pickups": {
+				"eng": "Pickups",
+				"trans": "ピックアップ"
+			},
+			"score": {
+				"eng": "Score",
+				"trans": "スコア"
+			}
+		}
+	},
 	"procedural": {
 		"equipmentName": {
 			"nameParts": {
@@ -10864,11 +11439,11 @@
 		},
 		"june": {
 			"desc": {
-				"eng": "🌈 All skips cost 5% less during June",
+				"eng": "Run the rainbow geometry route and earn June rewards",
 				"trans": "🌈 6月中は, スキップに必要なユニットが5%オフ！"
 			},
 			"title": {
-				"eng": "5% off on skips during June!",
+				"eng": "June Rainbow Run",
 				"trans": "6月中は, スキップに必要なユニットが5%オフになります！"
 			}
 		},
@@ -14902,6 +15477,34 @@
 			"secretKeys": {
 				"eng": "secret keys",
 				"trans": "シークレットキー"
+			},
+			"sort": {
+				"active": {
+					"eng": "Active",
+					"trans": "アクティブ"
+				},
+				"best": {
+					"eng": "Best",
+					"trans": "高品質"
+				},
+				"eng": "Sort",
+				"level": {
+					"eng": "Level",
+					"trans": "レベル"
+				},
+				"name": {
+					"eng": "Name",
+					"trans": "名前"
+				},
+				"price": {
+					"eng": "Price",
+					"trans": "価格"
+				},
+				"tier": {
+					"eng": "Tier",
+					"trans": "グレード"
+				},
+				"trans": "ソート"
 			}
 		},
 		"itemDetails": {
@@ -15187,7 +15790,7 @@
 		},
 		"list": {
 			"longPressToMultiSelect": {
-				"eng": "Long press to multi-select",
+				"eng": "Long press to select",
 				"trans": "長押しして複数選択"
 			}
 		},
@@ -15972,7 +16575,7 @@
 		"setting": {
 			"afkAnimation": {
 				"description": {
-					"eng": "Show visual animation section for AFK tasks",
+					"eng": "Show visual animation block for AFK tasks",
 					"trans": "放置時用のアニメーションセクションを表示"
 				},
 				"title": {
@@ -16342,9 +16945,9 @@
 					"trans": "グローバルスキップを実行しますか？"
 				}
 			},
-			"description": {
-				"eng": "Global Skip allows you to skip the AFK waiting time, and finish it instantly.\n    This effect will be applied to all players performing an AFK task.",
-				"trans": "AFKタスクの待ち時間をスキップして即座にタスクを終了することができます. \n     この効果はAFKタスクを実行中のすべてのプレイヤーに適用されます."
+			"globalSkipTip": {
+				"eng": "Global Skip instantly completes AFK tasks for all players, give the legend some cred, or contribute to empower the community.",
+				"trans": "グローバルスキップ機能により、プレイヤー全員が離席中でもタスクが瞬時に完了します。レジェンドへの敬意を表すか、コミュニティ強化のためにご協力ください。"
 			},
 			"inProgressBox": {
 				"subtitle": {

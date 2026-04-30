@@ -1225,10 +1225,6 @@
 				"items",
 				"eventName"
 			]
-		},
-		"system": {
-			"eng": "SYSTEM",
-			"trans": "Avast! The system be online!"
 		}
 	},
 	"chatAttachmentMenu": {
@@ -2427,6 +2423,10 @@
 		"donation50": {
 			"eng": "Netrunner",
 			"trans": "Wire-Corsair"
+		},
+		"donation51": {
+			"eng": "Cyberdeck",
+			"trans": "Dreadnought Deck"
 		},
 		"donation6": {
 			"eng": "Prestige",
@@ -3802,6 +3802,10 @@
 				"eng": "June",
 				"trans": "The Month of the Scallywags"
 			},
+			"prismRunner": {
+				"eng": "Rainbow Run",
+				"trans": "Sky-Arc Voyage"
+			},
 			"skipDiscountTitle": {
 				"eng": "${percent}% off during event",
 				"trans": "Arrr ${percent}% off durin' th' event!",
@@ -3823,6 +3827,10 @@
 			"trans": "New Moon's Revelry"
 		},
 		"may": {
+			"missileCommand": {
+				"eng": "Missile Command",
+				"trans": "Broadside Command"
+			},
 			"name": {
 				"eng": "May",
 				"trans": "Matey May"
@@ -4966,6 +4974,16 @@
 				"trans": "Kraken's Kick"
 			}
 		},
+		"defenseRationVoucher": {
+			"description": {
+				"eng": "A standardized voucher issued to Aegis Defense personnel. Can be exchanged for supplies at the battery station.",
+				"trans": "A standard ration chit issued to the Aegis Defense hands. Trade it for provisions at the battery station."
+			},
+			"name": {
+				"eng": "Defense Ration Voucher",
+				"trans": "Crew's Defense Scrip"
+			}
+		},
 		"dumplings": {
 			"description": {
 				"eng": "These dumplings are unlike any other. Made with love and care by Yen, these delicious pockets of goodness are filled with the finest ingredients and cooked to perfection.\\n recover ${percent}% health upon consumption",
@@ -5080,6 +5098,19 @@
 				"vars": [
 					"levelName"
 				]
+			}
+		},
+		"fieldRation": {
+			"description": {
+				"eng": "A dense, calorie-packed meal designed for extended combat deployments. Tastes like cardboard, but keeps you fighting. Consume to reduce damage taken by ${percent}% for 20 minutes.",
+				"trans": "A hardtack-dense ration forged for prolonged skirmishes. Tastes like splintered deck-wood, yet steadies yer grip. Consume to shrug off ${percent}% of harm fer twenty minutes.",
+				"vars": [
+					"percent"
+				]
+			},
+			"name": {
+				"eng": "Emergency Field Ration",
+				"trans": "Last-Ditch Sea Hardtack"
 			}
 		},
 		"fireworksPass": {
@@ -5532,6 +5563,16 @@
 				"trans": "Sawbones' Fixin's"
 			}
 		},
+		"missileCommandPass": {
+			"description": {
+				"eng": "A special pass required to participate in the Missile Command event game. Can be found in Dungeon Chests or from AFK farming during the May event.",
+				"trans": "A special clearance chit required fer entry into the Missile Command event game. Loot it from Bunker Lockboxes or gather it via idle farming during the May campaign."
+			},
+			"name": {
+				"eng": "Missile Command Pass",
+				"trans": "Missile Command Writ"
+			}
+		},
 		"newYear": {
 			"description": {
 				"eng": "A red envelope with a golden digital seal on it. looks like it contains some sort of currency",
@@ -5651,10 +5692,30 @@
 				"trans": "Davy Jones' Teething Ball"
 			}
 		},
+		"pridePrism": {
+			"description": {
+				"eng": "A radiant keepsake from the Rainbow Run.",
+				"trans": "A glimmering memento from the Rainbow Run"
+			},
+			"name": {
+				"eng": "Rainbow Prism",
+				"trans": "Rainbow Prism"
+			}
+		},
 		"primaryWeapon": {
 			"name": {
 				"eng": "Primary Weapon",
 				"trans": "Main Boomstick"
+			}
+		},
+		"prismRunPass": {
+			"description": {
+				"eng": "A chromatic access token for the June Rainbow Run event game. Required to enter the rainbow geometry course.",
+				"trans": "A spectrum key for the June Rainbow Run event game. Ye must bear it to sail the prismatic course."
+			},
+			"name": {
+				"eng": "Rainbow Run Pass",
+				"trans": "Spectral Run Waybill"
 			}
 		},
 		"pudding": {
@@ -8380,6 +8441,230 @@
 			"trans": "Make use o' it!"
 		}
 	},
+	"missileCommand": {
+		"allComplete": {
+			"eng": "ALL COMPLETE!",
+			"trans": "ALL TARGETS SUNK!"
+		},
+		"ammo": {
+			"eng": "Ammo",
+			"trans": "Shot"
+		},
+		"button": {
+			"subtitle": {
+				"eng": "TACTICAL BATTERY CONTROL",
+				"trans": "CANNON DECK COMMAND"
+			},
+			"title": {
+				"eng": "MISSILE COMMAND",
+				"trans": "Cannon Command"
+			}
+		},
+		"cities": {
+			"eng": "Cities",
+			"trans": "Ports"
+		},
+		"citiesSaved": {
+			"eng": "${count} cities saved",
+			"trans": "${count} ports spared",
+			"vars": [
+				"count"
+			]
+		},
+		"congratulations": {
+			"eng": "CITY DEFENDED!",
+			"trans": "PORT SECURE!"
+		},
+		"defend": {
+			"eng": "Defend the cities!",
+			"trans": "Guard the ports!"
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The May event has ended!",
+				"trans": "The May event be over!"
+			},
+			"noPass": {
+				"eng": "You need a ${itemName} to play! Find them in dungeon chests or from AFK farming.",
+				"trans": "Ye need a ${itemName} to play! Find them in dungeon chests or through idle plundering.",
+				"vars": [
+					"itemName"
+				]
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "ABORT",
+				"trans": "STAND DOWN"
+			},
+			"message": {
+				"eng": "The tactical uplink encountered an error. Your pass was not consumed.",
+				"trans": "The comms line struck a snag. Yer pass remains unspent."
+			},
+			"title": {
+				"eng": "SYSTEM_FAILURE",
+				"trans": "RIG SCUTTLED"
+			}
+		},
+		"exit": {
+			"eng": "EXIT",
+			"trans": "SCRAM"
+		},
+		"failedStage": {
+			"eng": "FAILED AT STAGE ${stage}",
+			"trans": "WRECKED AT STAGE ${stage}",
+			"vars": [
+				"stage"
+			]
+		},
+		"finish": {
+			"eng": "FINISH",
+			"trans": "JOB DONE"
+		},
+		"gameOver": {
+			"eng": "CITIES DESTROYED!",
+			"trans": "PORTS WRECKED!"
+		},
+		"intro": {
+			"available": {
+				"eng": "AVAILABLE_QTY",
+				"trans": "STORES TALLY"
+			},
+			"eventEnded": {
+				"eng": "OFFLINE",
+				"trans": "ADRIft"
+			},
+			"eventInactive": {
+				"eng": "NETWORK_OFFLINE: RETURN DURING ACTIVE THREAT WINDOWS",
+				"trans": "COMMS_DEAD: RETURN WHEN THE STORMS RISE"
+			},
+			"howToGet": {
+				"eng": "> ACQUIRE [${itemName}] FROM DUNGEON CACHES OR AUTOMATED SWEEPS.",
+				"trans": "> Plunder [${itemName}] from dungeon holds or iron sweeps.",
+				"vars": [
+					"itemName"
+				]
+			},
+			"howToPlay": {
+				"eng": "OPERATION_BRIEFING",
+				"trans": "CAPTAINS_ORDERS"
+			},
+			"logistics": {
+				"eng": "AUTHORIZATION_LOGISTICS",
+				"trans": "CLEARANCE_OF_STORES"
+			},
+			"needItem": {
+				"eng": "AUTHORIZATION_REQUIRED",
+				"trans": "CLEARANCE BE REQUIRED"
+			},
+			"requiredClearance": {
+				"eng": "REQUIRED_CLEARANCE",
+				"trans": "REQUIRED_SEA_ORDERS"
+			},
+			"rule1": {
+				"eng": "Tap grid coordinates to deploy interceptor missiles.",
+				"trans": "Strike the chart markers to loose interceptors."
+			},
+			"rule2": {
+				"eng": "Neutralize incoming ballistic threats before impact.",
+				"trans": "Scupper the incoming shot ere it strikes!"
+			},
+			"rule3": {
+				"eng": "Defend civic sectors across five escalating threat levels.",
+				"trans": "Hold fast to civic sectors across five surging waves of threat."
+			},
+			"rule4": {
+				"eng": "Critical structural failure results in immediate mission abort.",
+				"trans": "Hull breach means instant mission scuttle."
+			},
+			"startButton": {
+				"eng": "INITIATE_UPLINK",
+				"trans": "CAST_OFF"
+			},
+			"status": {
+				"eng": "SYS.STATUS",
+				"trans": "Fighting Trim"
+			},
+			"title": {
+				"eng": "Missile Command",
+				"trans": "Broadside Command"
+			}
+		},
+		"loading": {
+			"message": {
+				"eng": "Connecting to defense grid...",
+				"trans": "Hookin' up t' the defense rig..."
+			},
+			"title": {
+				"eng": "ESTABLISHING_UPLINK...",
+				"trans": "HOISTIN_THE_SIGNAL_FLAG..."
+			}
+		},
+		"nextStage": {
+			"eng": "NEXT STAGE",
+			"trans": "NEXT WATCH"
+		},
+		"noRewards": {
+			"eng": "No rewards obtained.",
+			"trans": "Not a scrap of booty secured."
+		},
+		"pleaseWait": {
+			"eng": "Calculating rewards...",
+			"trans": "Tallyin' yer spoils..."
+		},
+		"processing": {
+			"eng": "PROCESSING...",
+			"trans": "AIMIN'..."
+		},
+		"rewards": {
+			"eng": "REWARDS!",
+			"trans": "PLUNDER!"
+		},
+		"rewardsEarned": {
+			"eng": "YOUR REWARDS",
+			"trans": "THY PLUNDER"
+		},
+		"seconds": {
+			"eng": "seconds",
+			"trans": "Heartbeats"
+		},
+		"stage": {
+			"eng": "STAGE ${stage}",
+			"trans": "LEG ${stage}",
+			"vars": [
+				"stage"
+			]
+		},
+		"stageClear": {
+			"eng": "STAGE CLEAR!",
+			"trans": "COAST IS CLEAR!"
+		},
+		"stageRewards": {
+			"eng": "STAGE ${stage} CLEARED",
+			"trans": "STAGE ${stage} CONQUERED",
+			"vars": [
+				"stage"
+			]
+		},
+		"stats": {
+			"citiesSaved": {
+				"eng": "CITIES LEFT",
+				"trans": "PORTS REMAININ'"
+			},
+			"destroyed": {
+				"eng": "DESTROYED",
+				"trans": "SCUTTLED"
+			}
+		},
+		"tapToFire": {
+			"eng": "TAP TO FIRE!",
+			"trans": "PRESS TO LOOSE CANNONS!"
+		},
+		"tooManyCitiesLost": {
+			"eng": "Too many cities were destroyed",
+			"trans": "Too many ports lie scuppered"
+		}
+	},
 	"mobile": {
 		"appBanner": {
 			"description": {
@@ -9459,6 +9744,28 @@
 				"trans": "Silver Moon"
 			}
 		},
+		"mayDefense": {
+			"defaultLines": {
+				"eng": [
+					"Inbound missile signatures detected. Intercept before impact.",
+					"Four cities. Limited ammo. No second chances.",
+					"Get on the battery and keep our skyline standing."
+				],
+				"trans": [
+					"Hostile missiles inbound. Bring 'em down ere they strike.",
+					"Four ports. Scarce powder. One chance only.",
+					"Board the battery and hold our skyline fast"
+				]
+			},
+			"name": {
+				"eng": "Aegis Defense Battery",
+				"trans": "Corsair Bulwark Array"
+			},
+			"npcName": {
+				"eng": "Commander Aegis",
+				"trans": "Captain Aegis"
+			}
+		},
 		"newYear": {
 			"defaultLines": {
 				"eng": [
@@ -9539,6 +9846,28 @@
 			"npcName": {
 				"eng": "Jin",
 				"trans": "Ol' Jin"
+			}
+		},
+		"pride": {
+			"defaultLines": {
+				"eng": [
+					"Ready to take on the Rainbow Run?",
+					"The route is live. Bring your Rainbow Run pass and launch when you're ready.",
+					"Keep your line clean, collect prisms, and push for the next reward band."
+				],
+				"trans": [
+					"Ye ready to face the Rainbow Run?",
+					"The course is open, matey. Bring yer Rainbow Run pass and set sail when ye're ready.",
+					"Hold a steady course, gather yer prisms, and push fer the next tier of spoils."
+				]
+			},
+			"name": {
+				"eng": "Rainbow Run Plaza",
+				"trans": "Rainbow Run Wharf"
+			},
+			"npcName": {
+				"eng": "Prism Guide",
+				"trans": "Shardlight Pilot"
 			}
 		},
 		"printer": {
@@ -10572,6 +10901,255 @@
 			"trans": "Aye, Gratis!"
 		}
 	},
+	"prismRunner": {
+		"button": {
+			"status": {
+				"eng": "UPLINK: READY",
+				"trans": "SCUTTLE-LINK: AHOY"
+			},
+			"subtitle": {
+				"eng": "RAINBOW GEOMETRY ROUTE",
+				"trans": "PRISMATIC GEOMETRY COURSE"
+			},
+			"title": {
+				"eng": "RAINBOW RUN",
+				"trans": "RAINBOW RAID"
+			}
+		},
+		"countdown": {
+			"tapToBoost": {
+				"eng": "TAP TO BOOST",
+				"trans": "STRIKE TO SURGE"
+			},
+			"title": {
+				"eng": "PRISM RUNNER",
+				"trans": "SHARDWIND SKIMMER"
+			}
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The June event is not active.",
+				"trans": "The June voyage has ended its watch."
+			},
+			"noPass": {
+				"eng": "You need a ${itemName} to enter Rainbow Run.",
+				"trans": "Ye need a ${itemName} to board Rainbow Run.",
+				"vars": [
+					"itemName"
+				]
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "CLOSE",
+				"trans": "STOW"
+			},
+			"message": {
+				"eng": "The run encountered an error. If submission already began, your pass was consumed and rewards were granted.",
+				"trans": "The voyage met with a foul snag. If yer claim had already set sail, yer pass be spent and yer plunder secured."
+			},
+			"title": {
+				"eng": "PRISM_LINK_FAILURE",
+				"trans": "PRISM LINE SNAPPED"
+			}
+		},
+		"exit": {
+			"eng": "EXIT",
+			"trans": "SCRAM"
+		},
+		"finish": {
+			"eng": "FINISH",
+			"trans": "JOB DONE"
+		},
+		"gameOver": {
+			"subtitle": {
+				"eng": "No reward band reached",
+				"trans": "Not a single plunder tier claimed by ye"
+			},
+			"title": {
+				"eng": "PRISM_BREAK",
+				"trans": "SHIPWRECKED"
+			}
+		},
+		"hud": {
+			"expMax": {
+				"eng": "EXP MAX",
+				"trans": "FULL HOLD"
+			},
+			"expProgress": {
+				"eng": "EXP ${current}/${next}",
+				"trans": "TRAININ' ${current}/${next}",
+				"vars": [
+					"current",
+					"next"
+				]
+			},
+			"nearMisses": {
+				"eng": "NEAR ${count}",
+				"trans": "CLOSE SHAVES ${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"op": {
+				"eng": "OP: PRISM_RUNNER",
+				"trans": "HAND: GLASS_SCOUT"
+			},
+			"pickups": {
+				"eng": "PICKUPS ${count}",
+				"trans": "PLUNDER ${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"score": {
+				"eng": "SCORE ${score}",
+				"trans": "TALLY ${score}",
+				"vars": [
+					"score"
+				]
+			},
+			"shards": {
+				"eng": "SHARDS ${count}",
+				"trans": "GLASS BITS ${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"tier": {
+				"eng": "TIER ${tier}",
+				"trans": "RANK ${tier}",
+				"vars": [
+					"tier"
+				]
+			},
+			"tierUnlocked": {
+				"eng": "TIER ${tier} UNLOCKED",
+				"trans": "TIER ${tier} CLAIMED",
+				"vars": [
+					"tier"
+				]
+			},
+			"time": {
+				"eng": "TIME ${seconds}s",
+				"trans": "TIME ${seconds}s",
+				"vars": [
+					"seconds"
+				]
+			}
+		},
+		"intro": {
+			"briefing": {
+				"eng": "RUN_BRIEFING",
+				"trans": "Orders fer th' Run"
+			},
+			"eventClosed": {
+				"eng": "EVENT CLOSED",
+				"trans": "EVENT SEALED"
+			},
+			"eventInactive": {
+				"eng": "June event inactive",
+				"trans": "June bounty lies dormant"
+			},
+			"juneEvent": {
+				"eng": "JUNE_EVENT",
+				"trans": "June Plunder"
+			},
+			"needPass": {
+				"eng": "NEED PASS",
+				"trans": "PASS REQUIRED"
+			},
+			"rewardHint": {
+				"eng": "Reward bands pay June event supplies.",
+				"trans": "Prize bands grant June event provisions."
+			},
+			"rule1": {
+				"eng": "Tap to boost the prism marker upward.",
+				"trans": "Tap to heave the prism marker aloft."
+			},
+			"rule2": {
+				"eng": "Thread the marker through rainbow geometry gates.",
+				"trans": "Steer yer marker through the rainbow geometry gates."
+			},
+			"rule3": {
+				"eng": "Collect prism shards to fill the EXP bar and unlock reward tiers.",
+				"trans": "Gather prism shards to swell the EXP gauge and claim bounty tiers."
+			},
+			"rule4": {
+				"eng": "Skim close to hazards for bonus score only.",
+				"trans": "Brush past danger close fer bonus plunder only"
+			},
+			"start": {
+				"eng": "START RUN",
+				"trans": "SET SAIL"
+			},
+			"title": {
+				"eng": "Rainbow Run",
+				"trans": "Sky-Arc Voyage"
+			}
+		},
+		"loading": {
+			"title": {
+				"eng": "INITIALIZING_PRISM",
+				"trans": "SETTIN SAIL FOR PRISM"
+			}
+		},
+		"processing": {
+			"eng": "PROCESSING_RUN_DATA",
+			"trans": "Tallying Run Data"
+		},
+		"processingRewards": {
+			"eng": "Calculating reward band...",
+			"trans": "Tallyin' plunder tier..."
+		},
+		"results": {
+			"maxTitle": {
+				"eng": "MAX_TIER_REACHED",
+				"trans": "Highest Deck Claimed"
+			},
+			"noRewards": {
+				"eng": "No rewards returned",
+				"trans": "Naught Returned"
+			},
+			"rewards": {
+				"eng": "Route Rewards",
+				"trans": "Voyage Booty"
+			},
+			"tier": {
+				"eng": "Tier ${tier} prism route cleared",
+				"trans": "Tier ${tier} Prism Route Bested",
+				"vars": [
+					"tier"
+				]
+			},
+			"title": {
+				"eng": "REWARD_BAND_LOCKED",
+				"trans": "SEALED BOOTY TIER"
+			}
+		},
+		"stats": {
+			"airtime": {
+				"eng": "Airtime",
+				"trans": "Skytime"
+			},
+			"distance": {
+				"eng": "Distance",
+				"trans": "Distance"
+			},
+			"nearMisses": {
+				"eng": "Near Miss",
+				"trans": "Close Shave"
+			},
+			"pickups": {
+				"eng": "Pickups",
+				"trans": "Booty"
+			},
+			"score": {
+				"eng": "Score",
+				"trans": "Plunder"
+			}
+		}
+	},
 	"procedural": {
 		"equipmentName": {
 			"nameParts": {
@@ -10651,11 +11229,11 @@
 		},
 		"june": {
 			"desc": {
-				"eng": "🌈 All skips cost 5% less during June",
+				"eng": "Run the rainbow geometry route and earn June rewards",
 				"trans": "Ahoy, mateys! All skips be 5% cheaper this June, savvy?"
 			},
 			"title": {
-				"eng": "5% off on skips during June!",
+				"eng": "June Rainbow Run",
 				"trans": "Shiver me timbers! Skips be 5% cheaper this June, savvy?"
 			}
 		},
@@ -14689,6 +15267,34 @@
 			"secretKeys": {
 				"eng": "secret keys",
 				"trans": "Booty Keys"
+			},
+			"sort": {
+				"active": {
+					"eng": "Active",
+					"trans": "Rigged"
+				},
+				"best": {
+					"eng": "Best",
+					"trans": "Finest"
+				},
+				"eng": "Sort",
+				"level": {
+					"eng": "Level",
+					"trans": "Rank"
+				},
+				"name": {
+					"eng": "Name",
+					"trans": "Moniker"
+				},
+				"price": {
+					"eng": "Price",
+					"trans": "Bounty"
+				},
+				"tier": {
+					"eng": "Tier",
+					"trans": "Rank"
+				},
+				"trans": "Sort"
 			}
 		},
 		"itemDetails": {
@@ -14974,7 +15580,7 @@
 		},
 		"list": {
 			"longPressToMultiSelect": {
-				"eng": "Long press to multi-select",
+				"eng": "Long press to select",
 				"trans": "Long press t' multi-select"
 			}
 		},
@@ -15759,7 +16365,7 @@
 		"setting": {
 			"afkAnimation": {
 				"description": {
-					"eng": "Show visual animation section for AFK tasks",
+					"eng": "Show visual animation block for AFK tasks",
 					"trans": "Show animations for yer tasks while ye be adrift"
 				},
 				"title": {
@@ -16129,9 +16735,9 @@
 					"trans": "Confirm ye use th' skip?"
 				}
 			},
-			"description": {
-				"eng": "Global Skip allows you to skip the AFK waiting time, and finish it instantly.\n    This effect will be applied to all players performing an AFK task.",
-				"trans": "Global Skip allow ye t' skip th' AFK waitin' time, an' finish it instantly.\n    this effect will be applied t' all crewmate performin' AFK task"
+			"globalSkipTip": {
+				"eng": "Global Skip instantly completes AFK tasks for all players, give the legend some cred, or contribute to empower the community.",
+				"trans": "Global Skip instantly clears idle tasks for every hand aboard, grants respect to the legend, and strengthens the crew."
 			},
 			"inProgressBox": {
 				"subtitle": {

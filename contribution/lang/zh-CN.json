@@ -447,12 +447,9 @@
 					"zoneName"
 				]
 			},
-			"name": {
-				"eng": "Scavenge in ${zoneName}",
-				"trans": "在${zoneName}搜刮物资",
-				"vars": [
-					"zoneName"
-				]
+			"name2": {
+				"eng": "Scavenging",
+				"trans": "搜刮"
 			}
 		},
 		"tag": {
@@ -1225,10 +1222,6 @@
 				"items",
 				"eventName"
 			]
-		},
-		"system": {
-			"eng": "SYSTEM",
-			"trans": "系统"
 		}
 	},
 	"chatAttachmentMenu": {
@@ -2427,6 +2420,10 @@
 		"donation50": {
 			"eng": "Netrunner",
 			"trans": "网络跑者"
+		},
+		"donation51": {
+			"eng": "Cyberdeck",
+			"trans": "网络甲板"
 		},
 		"donation6": {
 			"eng": "Prestige",
@@ -3802,6 +3799,10 @@
 				"eng": "June",
 				"trans": "朱妮"
 			},
+			"prismRunner": {
+				"eng": "Rainbow Run",
+				"trans": "彩虹冲刺"
+			},
 			"skipDiscountTitle": {
 				"eng": "${percent}% off during event",
 				"trans": "活动期间${percent}% 折扣",
@@ -3823,6 +3824,10 @@
 			"trans": "农历新年"
 		},
 		"may": {
+			"missileCommand": {
+				"eng": "Missile Command",
+				"trans": "导弹司令部"
+			},
 			"name": {
 				"eng": "May",
 				"trans": "五月"
@@ -4966,6 +4971,16 @@
 				"trans": "超频肌酸"
 			}
 		},
+		"defenseRationVoucher": {
+			"description": {
+				"eng": "A standardized voucher issued to Aegis Defense personnel. Can be exchanged for supplies at the battery station.",
+				"trans": "专为神盾防卫人员配发的标准凭证。可于电池站兑换补给物资。"
+			},
+			"name": {
+				"eng": "Defense Ration Voucher",
+				"trans": "防御配给券"
+			}
+		},
 		"dumplings": {
 			"description": {
 				"eng": "These dumplings are unlike any other. Made with love and care by Yen, these delicious pockets of goodness are filled with the finest ingredients and cooked to perfection.\\n recover ${percent}% health upon consumption",
@@ -5080,6 +5095,19 @@
 				"vars": [
 					"levelName"
 				]
+			}
+		},
+		"fieldRation": {
+			"description": {
+				"eng": "A dense, calorie-packed meal designed for extended combat deployments. Tastes like cardboard, but keeps you fighting. Consume to reduce damage taken by ${percent}% for 20 minutes.",
+				"trans": "专为长期实战部署设计的高密度高能口粮。味道如同嚼纸板，却能维持你的战斗力。食用后二十分钟内，受到的伤害降低${percent}%。",
+				"vars": [
+					"percent"
+				]
+			},
+			"name": {
+				"eng": "Emergency Field Ration",
+				"trans": "紧急野战口粮"
 			}
 		},
 		"fireworksPass": {
@@ -5532,6 +5560,16 @@
 				"trans": "医疗科技零件"
 			}
 		},
+		"missileCommandPass": {
+			"description": {
+				"eng": "A special pass required to participate in the Missile Command event game. Can be found in Dungeon Chests or from AFK farming during the May event.",
+				"trans": "参与导弹指令活动需持有此特殊通行证。可通过副本宝箱或五月期间的挂机玩法获得。"
+			},
+			"name": {
+				"eng": "Missile Command Pass",
+				"trans": "导弹指挥通行证"
+			}
+		},
 		"newYear": {
 			"description": {
 				"eng": "A red envelope with a golden digital seal on it. looks like it contains some sort of currency",
@@ -5651,10 +5689,30 @@
 				"trans": "纳米咬球"
 			}
 		},
+		"pridePrism": {
+			"description": {
+				"eng": "A radiant keepsake from the Rainbow Run.",
+				"trans": "来自彩虹竞速的璀璨纪念品"
+			},
+			"name": {
+				"eng": "Rainbow Prism",
+				"trans": "彩虹棱镜"
+			}
+		},
 		"primaryWeapon": {
 			"name": {
 				"eng": "Primary Weapon",
 				"trans": "主武器"
+			}
+		},
+		"prismRunPass": {
+			"description": {
+				"eng": "A chromatic access token for the June Rainbow Run event game. Required to enter the rainbow geometry course.",
+				"trans": "六月彩虹跑活动的幻彩通行凭证。进入彩虹几何赛道的必备物品。"
+			},
+			"name": {
+				"eng": "Rainbow Run Pass",
+				"trans": "虹彩竞速通行证"
 			}
 		},
 		"pudding": {
@@ -8380,6 +8438,230 @@
 			"trans": "使用"
 		}
 	},
+	"missileCommand": {
+		"allComplete": {
+			"eng": "ALL COMPLETE!",
+			"trans": "全部完成！"
+		},
+		"ammo": {
+			"eng": "Ammo",
+			"trans": "弹药"
+		},
+		"button": {
+			"subtitle": {
+				"eng": "TACTICAL BATTERY CONTROL",
+				"trans": "战术火力控制"
+			},
+			"title": {
+				"eng": "MISSILE COMMAND",
+				"trans": "导弹指令"
+			}
+		},
+		"cities": {
+			"eng": "Cities",
+			"trans": "城市"
+		},
+		"citiesSaved": {
+			"eng": "${count} cities saved",
+			"trans": "已拯救 ${count} 座城市",
+			"vars": [
+				"count"
+			]
+		},
+		"congratulations": {
+			"eng": "CITY DEFENDED!",
+			"trans": "城市防卫成功！"
+		},
+		"defend": {
+			"eng": "Defend the cities!",
+			"trans": "保卫城市！"
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The May event has ended!",
+				"trans": "五月活动已结束！"
+			},
+			"noPass": {
+				"eng": "You need a ${itemName} to play! Find them in dungeon chests or from AFK farming.",
+				"trans": "需要${itemName}方可进入！可通过副本宝箱或挂机获取。",
+				"vars": [
+					"itemName"
+				]
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "ABORT",
+				"trans": "中止"
+			},
+			"message": {
+				"eng": "The tactical uplink encountered an error. Your pass was not consumed.",
+				"trans": "战术链路连接异常。您的通行凭证未消耗。"
+			},
+			"title": {
+				"eng": "SYSTEM_FAILURE",
+				"trans": "系统故障"
+			}
+		},
+		"exit": {
+			"eng": "EXIT",
+			"trans": "退出"
+		},
+		"failedStage": {
+			"eng": "FAILED AT STAGE ${stage}",
+			"trans": "${stage}关卡挑战失败",
+			"vars": [
+				"stage"
+			]
+		},
+		"finish": {
+			"eng": "FINISH",
+			"trans": "完成"
+		},
+		"gameOver": {
+			"eng": "CITIES DESTROYED!",
+			"trans": "城市沦陷！"
+		},
+		"intro": {
+			"available": {
+				"eng": "AVAILABLE_QTY",
+				"trans": "可用数量"
+			},
+			"eventEnded": {
+				"eng": "OFFLINE",
+				"trans": "离线"
+			},
+			"eventInactive": {
+				"eng": "NETWORK_OFFLINE: RETURN DURING ACTIVE THREAT WINDOWS",
+				"trans": "网络离线：于活跃威胁窗口期重新接入"
+			},
+			"howToGet": {
+				"eng": "> ACQUIRE [${itemName}] FROM DUNGEON CACHES OR AUTOMATED SWEEPS.",
+				"trans": "通过副本宝箱或自动扫荡获取[${itemName}]",
+				"vars": [
+					"itemName"
+				]
+			},
+			"howToPlay": {
+				"eng": "OPERATION_BRIEFING",
+				"trans": "行动简报"
+			},
+			"logistics": {
+				"eng": "AUTHORIZATION_LOGISTICS",
+				"trans": "后勤授权"
+			},
+			"needItem": {
+				"eng": "AUTHORIZATION_REQUIRED",
+				"trans": "需要授权"
+			},
+			"requiredClearance": {
+				"eng": "REQUIRED_CLEARANCE",
+				"trans": "所需权限"
+			},
+			"rule1": {
+				"eng": "Tap grid coordinates to deploy interceptor missiles.",
+				"trans": "点击网格坐标部署拦截导弹。"
+			},
+			"rule2": {
+				"eng": "Neutralize incoming ballistic threats before impact.",
+				"trans": "命中前歼灭来袭弹道目标"
+			},
+			"rule3": {
+				"eng": "Defend civic sectors across five escalating threat levels.",
+				"trans": "保卫市民防区，应对五个逐级攀升的威胁等级。"
+			},
+			"rule4": {
+				"eng": "Critical structural failure results in immediate mission abort.",
+				"trans": "关键结构损毁将导致任务立即中止。"
+			},
+			"startButton": {
+				"eng": "INITIATE_UPLINK",
+				"trans": "启动上行链路"
+			},
+			"status": {
+				"eng": "SYS.STATUS",
+				"trans": "系统状态"
+			},
+			"title": {
+				"eng": "Missile Command",
+				"trans": "导弹司令部"
+			}
+		},
+		"loading": {
+			"message": {
+				"eng": "Connecting to defense grid...",
+				"trans": "正在连接防御网络..."
+			},
+			"title": {
+				"eng": "ESTABLISHING_UPLINK...",
+				"trans": "链路建立中"
+			}
+		},
+		"nextStage": {
+			"eng": "NEXT STAGE",
+			"trans": "下一阶段"
+		},
+		"noRewards": {
+			"eng": "No rewards obtained.",
+			"trans": "未获得奖励"
+		},
+		"pleaseWait": {
+			"eng": "Calculating rewards...",
+			"trans": "奖励结算中"
+		},
+		"processing": {
+			"eng": "PROCESSING...",
+			"trans": "运算中"
+		},
+		"rewards": {
+			"eng": "REWARDS!",
+			"trans": "奖励！"
+		},
+		"rewardsEarned": {
+			"eng": "YOUR REWARDS",
+			"trans": "所获奖励"
+		},
+		"seconds": {
+			"eng": "seconds",
+			"trans": "秒"
+		},
+		"stage": {
+			"eng": "STAGE ${stage}",
+			"trans": "第${stage}关",
+			"vars": [
+				"stage"
+			]
+		},
+		"stageClear": {
+			"eng": "STAGE CLEAR!",
+			"trans": "关卡通过"
+		},
+		"stageRewards": {
+			"eng": "STAGE ${stage} CLEARED",
+			"trans": "关卡${stage}已通关",
+			"vars": [
+				"stage"
+			]
+		},
+		"stats": {
+			"citiesSaved": {
+				"eng": "CITIES LEFT",
+				"trans": "剩余城市"
+			},
+			"destroyed": {
+				"eng": "DESTROYED",
+				"trans": "摧毁"
+			}
+		},
+		"tapToFire": {
+			"eng": "TAP TO FIRE!",
+			"trans": "点击发射！"
+		},
+		"tooManyCitiesLost": {
+			"eng": "Too many cities were destroyed",
+			"trans": "城市损毁过多"
+		}
+	},
 	"mobile": {
 		"appBanner": {
 			"description": {
@@ -9510,6 +9792,28 @@
 				"trans": "露娜"
 			}
 		},
+		"mayDefense": {
+			"defaultLines": {
+				"eng": [
+					"Inbound missile signatures detected. Intercept before impact.",
+					"Four cities. Limited ammo. No second chances.",
+					"Get on the battery and keep our skyline standing."
+				],
+				"trans": [
+					"侦测到来袭导弹信号。立即拦截，防止命中。",
+					"四座城市。弹药有限。只有一次机会。",
+					"接入动力核心，守住我们的天际线"
+				]
+			},
+			"name": {
+				"eng": "Aegis Defense Battery",
+				"trans": "神盾防御炮台"
+			},
+			"npcName": {
+				"eng": "Commander Aegis",
+				"trans": "埃吉斯指挥官"
+			}
+		},
 		"newYear": {
 			"defaultLines": {
 				"eng": [
@@ -9590,6 +9894,28 @@
 			"npcName": {
 				"eng": "Jin",
 				"trans": "金"
+			}
+		},
+		"pride": {
+			"defaultLines": {
+				"eng": [
+					"Ready to take on the Rainbow Run?",
+					"The route is live. Bring your Rainbow Run pass and launch when you're ready.",
+					"Keep your line clean, collect prisms, and push for the next reward band."
+				],
+				"trans": [
+					"准备好挑战彩虹跑了吗？",
+					"路线已激活。带好彩虹跑通行证，随时准备发车。",
+					"保持专注，收集棱镜，冲刺下一档奖励。"
+				]
+			},
+			"name": {
+				"eng": "Rainbow Run Plaza",
+				"trans": "霓虹竞逐广场"
+			},
+			"npcName": {
+				"eng": "Prism Guide",
+				"trans": "棱镜引航员"
 			}
 		},
 		"printer": {
@@ -10784,6 +11110,255 @@
 			"trans": "免费"
 		}
 	},
+	"prismRunner": {
+		"button": {
+			"status": {
+				"eng": "UPLINK: READY",
+				"trans": "链路就绪"
+			},
+			"subtitle": {
+				"eng": "RAINBOW GEOMETRY ROUTE",
+				"trans": "彩虹几何路线"
+			},
+			"title": {
+				"eng": "RAINBOW RUN",
+				"trans": "霓虹冲刺"
+			}
+		},
+		"countdown": {
+			"tapToBoost": {
+				"eng": "TAP TO BOOST",
+				"trans": "点击加速"
+			},
+			"title": {
+				"eng": "PRISM RUNNER",
+				"trans": "棱镜行者"
+			}
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The June event is not active.",
+				"trans": "六月活动已结束"
+			},
+			"noPass": {
+				"eng": "You need a ${itemName} to enter Rainbow Run.",
+				"trans": "需持有${itemName}方可进入彩虹赛道。",
+				"vars": [
+					"itemName"
+				]
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "CLOSE",
+				"trans": "关闭"
+			},
+			"message": {
+				"eng": "The run encountered an error. If submission already began, your pass was consumed and rewards were granted.",
+				"trans": "本次流程发生错误。若提交已启动，您的通行凭证已被消耗，奖励也已发放。"
+			},
+			"title": {
+				"eng": "PRISM_LINK_FAILURE",
+				"trans": "棱镜连接失败"
+			}
+		},
+		"exit": {
+			"eng": "EXIT",
+			"trans": "退出"
+		},
+		"finish": {
+			"eng": "FINISH",
+			"trans": "完成"
+		},
+		"gameOver": {
+			"subtitle": {
+				"eng": "No reward band reached",
+				"trans": "未达奖励等级"
+			},
+			"title": {
+				"eng": "PRISM_BREAK",
+				"trans": "棱镜破碎"
+			}
+		},
+		"hud": {
+			"expMax": {
+				"eng": "EXP MAX",
+				"trans": "经验已满"
+			},
+			"expProgress": {
+				"eng": "EXP ${current}/${next}",
+				"trans": "经验 ${current}/${next}",
+				"vars": [
+					"current",
+					"next"
+				]
+			},
+			"nearMisses": {
+				"eng": "NEAR ${count}",
+				"trans": "险避 ${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"op": {
+				"eng": "OP: PRISM_RUNNER",
+				"trans": "操作员：棱镜跑者"
+			},
+			"pickups": {
+				"eng": "PICKUPS ${count}",
+				"trans": "拾取物 ${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"score": {
+				"eng": "SCORE ${score}",
+				"trans": "分数 ${score}",
+				"vars": [
+					"score"
+				]
+			},
+			"shards": {
+				"eng": "SHARDS ${count}",
+				"trans": "碎片 ${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"tier": {
+				"eng": "TIER ${tier}",
+				"trans": "${tier}阶",
+				"vars": [
+					"tier"
+				]
+			},
+			"tierUnlocked": {
+				"eng": "TIER ${tier} UNLOCKED",
+				"trans": "${tier}阶已解锁",
+				"vars": [
+					"tier"
+				]
+			},
+			"time": {
+				"eng": "TIME ${seconds}s",
+				"trans": "时间 ${seconds}s",
+				"vars": [
+					"seconds"
+				]
+			}
+		},
+		"intro": {
+			"briefing": {
+				"eng": "RUN_BRIEFING",
+				"trans": "行动简报"
+			},
+			"eventClosed": {
+				"eng": "EVENT CLOSED",
+				"trans": "活动已结束"
+			},
+			"eventInactive": {
+				"eng": "June event inactive",
+				"trans": "六月活动未开放"
+			},
+			"juneEvent": {
+				"eng": "JUNE_EVENT",
+				"trans": "六月活动"
+			},
+			"needPass": {
+				"eng": "NEED PASS",
+				"trans": "需要通行证"
+			},
+			"rewardHint": {
+				"eng": "Reward bands pay June event supplies.",
+				"trans": "各奖励档位含六月活动补给。"
+			},
+			"rule1": {
+				"eng": "Tap to boost the prism marker upward.",
+				"trans": "轻触推动棱镜标记上冲"
+			},
+			"rule2": {
+				"eng": "Thread the marker through rainbow geometry gates.",
+				"trans": "引导光标穿过彩虹几何门。"
+			},
+			"rule3": {
+				"eng": "Collect prism shards to fill the EXP bar and unlock reward tiers.",
+				"trans": "收集棱镜碎片填满经验条，并解锁奖励档位。"
+			},
+			"rule4": {
+				"eng": "Skim close to hazards for bonus score only.",
+				"trans": "极限贴边障碍可获奖励分"
+			},
+			"start": {
+				"eng": "START RUN",
+				"trans": "开始奔跑"
+			},
+			"title": {
+				"eng": "Rainbow Run",
+				"trans": "彩虹冲刺"
+			}
+		},
+		"loading": {
+			"title": {
+				"eng": "INITIALIZING_PRISM",
+				"trans": "棱镜初始化中"
+			}
+		},
+		"processing": {
+			"eng": "PROCESSING_RUN_DATA",
+			"trans": "处理运行数据"
+		},
+		"processingRewards": {
+			"eng": "Calculating reward band...",
+			"trans": "正在计算奖励档位..."
+		},
+		"results": {
+			"maxTitle": {
+				"eng": "MAX_TIER_REACHED",
+				"trans": "最高阶已达成"
+			},
+			"noRewards": {
+				"eng": "No rewards returned",
+				"trans": "无奖励"
+			},
+			"rewards": {
+				"eng": "Route Rewards",
+				"trans": "路线奖励"
+			},
+			"tier": {
+				"eng": "Tier ${tier} prism route cleared",
+				"trans": "${tier}阶棱镜路线已通关",
+				"vars": [
+					"tier"
+				]
+			},
+			"title": {
+				"eng": "REWARD_BAND_LOCKED",
+				"trans": "奖励档位锁定"
+			}
+		},
+		"stats": {
+			"airtime": {
+				"eng": "Airtime",
+				"trans": "滞空时间"
+			},
+			"distance": {
+				"eng": "Distance",
+				"trans": "距离"
+			},
+			"nearMisses": {
+				"eng": "Near Miss",
+				"trans": "极限闪避"
+			},
+			"pickups": {
+				"eng": "Pickups",
+				"trans": "拾取物"
+			},
+			"score": {
+				"eng": "Score",
+				"trans": "分数"
+			}
+		}
+	},
 	"procedural": {
 		"equipmentName": {
 			"nameParts": {
@@ -10863,11 +11438,11 @@
 		},
 		"june": {
 			"desc": {
-				"eng": "🌈 All skips cost 5% less during June",
+				"eng": "Run the rainbow geometry route and earn June rewards",
 				"trans": "🌈 6月期间所有跳过的成本降低5%"
 			},
 			"title": {
-				"eng": "5% off on skips during June!",
+				"eng": "June Rainbow Run",
 				"trans": "六月份购买跳跃道具享受5%折扣！"
 			}
 		},
@@ -14901,6 +15476,34 @@
 			"secretKeys": {
 				"eng": "secret keys",
 				"trans": "密钥"
+			},
+			"sort": {
+				"active": {
+					"eng": "Active",
+					"trans": "使用中"
+				},
+				"best": {
+					"eng": "Best",
+					"trans": "最佳"
+				},
+				"eng": "Sort",
+				"level": {
+					"eng": "Level",
+					"trans": "等级"
+				},
+				"name": {
+					"eng": "Name",
+					"trans": "名称"
+				},
+				"price": {
+					"eng": "Price",
+					"trans": "价格"
+				},
+				"tier": {
+					"eng": "Tier",
+					"trans": "品质"
+				},
+				"trans": "排序"
 			}
 		},
 		"itemDetails": {
@@ -15186,7 +15789,7 @@
 		},
 		"list": {
 			"longPressToMultiSelect": {
-				"eng": "Long press to multi-select",
+				"eng": "Long press to select",
 				"trans": "长按以选择多个项目"
 			}
 		},
@@ -15971,7 +16574,7 @@
 		"setting": {
 			"afkAnimation": {
 				"description": {
-					"eng": "Show visual animation section for AFK tasks",
+					"eng": "Show visual animation block for AFK tasks",
 					"trans": "显示挂机任务动画区域"
 				},
 				"title": {
@@ -16341,9 +16944,9 @@
 					"trans": "确定要发起全球时间跳跃吗？"
 				}
 			},
-			"description": {
-				"eng": "Global Skip allows you to skip the AFK waiting time, and finish it instantly.\n    This effect will be applied to all players performing an AFK task.",
-				"trans": "全球时间跳跃会让您跳过挂机等待时间并立即完成手上的任务。 \n     这将对所有执行挂机任务中的玩家生效。"
+			"globalSkipTip": {
+				"eng": "Global Skip instantly completes AFK tasks for all players, give the legend some cred, or contribute to empower the community.",
+				"trans": "全局跳过将瞬间完成全服挂机任务。致敬传说，或贡献力量赋能社区。"
 			},
 			"inProgressBox": {
 				"subtitle": {

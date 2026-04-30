@@ -1225,10 +1225,6 @@
 				"items",
 				"eventName"
 			]
-		},
-		"system": {
-			"eng": "SYSTEM",
-			"trans": "نظام"
 		}
 	},
 	"chatAttachmentMenu": {
@@ -2427,6 +2423,10 @@
 		"donation50": {
 			"eng": "Netrunner",
 			"trans": "متسلل شبكي"
+		},
+		"donation51": {
+			"eng": "Cyberdeck",
+			"trans": "سايبردك"
 		},
 		"donation6": {
 			"eng": "Prestige",
@@ -3802,6 +3802,10 @@
 				"eng": "June",
 				"trans": "يونيو"
 			},
+			"prismRunner": {
+				"eng": "Rainbow Run",
+				"trans": "ركض الأطياف"
+			},
 			"skipDiscountTitle": {
 				"eng": "${percent}% off during event",
 				"trans": "خصم ${percent}% لفترة الفعالية",
@@ -3823,6 +3827,10 @@
 			"trans": "السنة القمرية الجديدة"
 		},
 		"may": {
+			"missileCommand": {
+				"eng": "Missile Command",
+				"trans": "قيادة الصواريخ"
+			},
 			"name": {
 				"eng": "May",
 				"trans": "ماي"
@@ -4966,6 +4974,16 @@
 				"trans": "أوفر كلوك كرياتين"
 			}
 		},
+		"defenseRationVoucher": {
+			"description": {
+				"eng": "A standardized voucher issued to Aegis Defense personnel. Can be exchanged for supplies at the battery station.",
+				"trans": "قسيمة موحدة تُصدر لأفراد دفاع أيجيس. يمكن صرفها مقابل المؤن عند محطة البطارية."
+			},
+			"name": {
+				"eng": "Defense Ration Voucher",
+				"trans": "قسيمة حصص دفاعية"
+			}
+		},
 		"dumplings": {
 			"description": {
 				"eng": "These dumplings are unlike any other. Made with love and care by Yen, these delicious pockets of goodness are filled with the finest ingredients and cooked to perfection.\\n recover ${percent}% health upon consumption",
@@ -5080,6 +5098,19 @@
 				"vars": [
 					"levelName"
 				]
+			}
+		},
+		"fieldRation": {
+			"description": {
+				"eng": "A dense, calorie-packed meal designed for extended combat deployments. Tastes like cardboard, but keeps you fighting. Consume to reduce damage taken by ${percent}% for 20 minutes.",
+				"trans": "وجبة حقلية عالية الكثافة والسعرات، مصممة للعمليات القتالية الممتدة. طعمه كالكرتون، لكنه يضمن استمرارك في القتال. استهلك لتخفيض الضرر المتلقى بنسبة ${percent}% لمدة 20 دقيقة.",
+				"vars": [
+					"percent"
+				]
+			},
+			"name": {
+				"eng": "Emergency Field Ration",
+				"trans": "وجبة حقلية طارئة"
 			}
 		},
 		"fireworksPass": {
@@ -5532,6 +5563,16 @@
 				"trans": "أجزاء التكنولوجيا الطبية"
 			}
 		},
+		"missileCommandPass": {
+			"description": {
+				"eng": "A special pass required to participate in the Missile Command event game. Can be found in Dungeon Chests or from AFK farming during the May event.",
+				"trans": "تذكرة خاصة مطلوبة للمشاركة في لعبة حدث قيادة الصواريخ. يمكن الحصول عليها من صناديق الكهوف أو عبر نظام AFK التلقائي خلال حدث شهر مايو."
+			},
+			"name": {
+				"eng": "Missile Command Pass",
+				"trans": "عبور قيادة الصواريخ"
+			}
+		},
 		"newYear": {
 			"description": {
 				"eng": "A red envelope with a golden digital seal on it. looks like it contains some sort of currency",
@@ -5651,10 +5692,30 @@
 				"trans": "كرة نانونيبل"
 			}
 		},
+		"pridePrism": {
+			"description": {
+				"eng": "A radiant keepsake from the Rainbow Run.",
+				"trans": "تذكار متوهج من سباق القوس قزح"
+			},
+			"name": {
+				"eng": "Rainbow Prism",
+				"trans": "المنشور القزحي"
+			}
+		},
 		"primaryWeapon": {
 			"name": {
 				"eng": "Primary Weapon",
 				"trans": "سلاح أساسي"
+			}
+		},
+		"prismRunPass": {
+			"description": {
+				"eng": "A chromatic access token for the June Rainbow Run event game. Required to enter the rainbow geometry course.",
+				"trans": "رمز الدخول متعدد الألوان لفعالية سباق ألوان يونيو. مطلوب للوصول إلى المسار الهندسي الملون."
+			},
+			"name": {
+				"eng": "Rainbow Run Pass",
+				"trans": "تمرير جري قوس القزح"
 			}
 		},
 		"pudding": {
@@ -8380,6 +8441,230 @@
 			"trans": "استعمال"
 		}
 	},
+	"missileCommand": {
+		"allComplete": {
+			"eng": "ALL COMPLETE!",
+			"trans": "مكتمل بالكامل!"
+		},
+		"ammo": {
+			"eng": "Ammo",
+			"trans": "ذخيرة"
+		},
+		"button": {
+			"subtitle": {
+				"eng": "TACTICAL BATTERY CONTROL",
+				"trans": "تحكم البطاريات التكتيكية"
+			},
+			"title": {
+				"eng": "MISSILE COMMAND",
+				"trans": "قيادة الصواريخ"
+			}
+		},
+		"cities": {
+			"eng": "Cities",
+			"trans": "مدن"
+		},
+		"citiesSaved": {
+			"eng": "${count} cities saved",
+			"trans": "${count} مدن مُنقذة",
+			"vars": [
+				"count"
+			]
+		},
+		"congratulations": {
+			"eng": "CITY DEFENDED!",
+			"trans": "المدينة محمية!"
+		},
+		"defend": {
+			"eng": "Defend the cities!",
+			"trans": "دافع عن المدن!"
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The May event has ended!",
+				"trans": "انتهت فعالية مايو!"
+			},
+			"noPass": {
+				"eng": "You need a ${itemName} to play! Find them in dungeon chests or from AFK farming.",
+				"trans": "تحتاج إلى ${itemName} للعب! ستجدها في صناديق الكهوف أو عبر التجميع التلقائي.",
+				"vars": [
+					"itemName"
+				]
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "ABORT",
+				"trans": "ألغِ"
+			},
+			"message": {
+				"eng": "The tactical uplink encountered an error. Your pass was not consumed.",
+				"trans": "حدث خطأ في الرابط التكتيكي. لم تُستهلك التذكرة الخاصة بك."
+			},
+			"title": {
+				"eng": "SYSTEM_FAILURE",
+				"trans": "فشل النظام"
+			}
+		},
+		"exit": {
+			"eng": "EXIT",
+			"trans": "خروج"
+		},
+		"failedStage": {
+			"eng": "FAILED AT STAGE ${stage}",
+			"trans": "فشل في المرحلة ${stage}",
+			"vars": [
+				"stage"
+			]
+		},
+		"finish": {
+			"eng": "FINISH",
+			"trans": "إنهاء"
+		},
+		"gameOver": {
+			"eng": "CITIES DESTROYED!",
+			"trans": "المدن المدمرة"
+		},
+		"intro": {
+			"available": {
+				"eng": "AVAILABLE_QTY",
+				"trans": "العدد المتاح"
+			},
+			"eventEnded": {
+				"eng": "OFFLINE",
+				"trans": "غير متصل"
+			},
+			"eventInactive": {
+				"eng": "NETWORK_OFFLINE: RETURN DURING ACTIVE THREAT WINDOWS",
+				"trans": "الشبكة غير متصلة: العودة أثناء نوافذ التهديد النشطة"
+			},
+			"howToGet": {
+				"eng": "> ACQUIRE [${itemName}] FROM DUNGEON CACHES OR AUTOMATED SWEEPS.",
+				"trans": "> احصل على [${itemName}] من مخابئ الكهوف أو العمليات الآلية.",
+				"vars": [
+					"itemName"
+				]
+			},
+			"howToPlay": {
+				"eng": "OPERATION_BRIEFING",
+				"trans": "توجيهات العملية"
+			},
+			"logistics": {
+				"eng": "AUTHORIZATION_LOGISTICS",
+				"trans": "التفويض اللوجستي"
+			},
+			"needItem": {
+				"eng": "AUTHORIZATION_REQUIRED",
+				"trans": "تفويض مطلوب"
+			},
+			"requiredClearance": {
+				"eng": "REQUIRED_CLEARANCE",
+				"trans": "التصريح المطلوب"
+			},
+			"rule1": {
+				"eng": "Tap grid coordinates to deploy interceptor missiles.",
+				"trans": "اضغط على إحداثيات الشبكة لإطلاق الصواريخ الاعتراضية."
+			},
+			"rule2": {
+				"eng": "Neutralize incoming ballistic threats before impact.",
+				"trans": "تحييد التهديدات الباليستية الواردة قبل الاصطدام"
+			},
+			"rule3": {
+				"eng": "Defend civic sectors across five escalating threat levels.",
+				"trans": "دافع عن القطاعات المدنية عبر خمسة مستويات تهديد متصاعدة"
+			},
+			"rule4": {
+				"eng": "Critical structural failure results in immediate mission abort.",
+				"trans": "يؤدي الانهيار الهيكلي الحرج إلى إنهاء المهمة فورياً"
+			},
+			"startButton": {
+				"eng": "INITIATE_UPLINK",
+				"trans": "تفعيل الارتباط"
+			},
+			"status": {
+				"eng": "SYS.STATUS",
+				"trans": "حالة النظام"
+			},
+			"title": {
+				"eng": "Missile Command",
+				"trans": "قيادة الصواريخ"
+			}
+		},
+		"loading": {
+			"message": {
+				"eng": "Connecting to defense grid...",
+				"trans": "جاري الاتصال بشبكة الدفاع..."
+			},
+			"title": {
+				"eng": "ESTABLISHING_UPLINK...",
+				"trans": "إنشاء الاتصال الصاعد..."
+			}
+		},
+		"nextStage": {
+			"eng": "NEXT STAGE",
+			"trans": "المرحلة التالية"
+		},
+		"noRewards": {
+			"eng": "No rewards obtained.",
+			"trans": "لم تحصل على أي مكافآت"
+		},
+		"pleaseWait": {
+			"eng": "Calculating rewards...",
+			"trans": "جارٍ حساب المكافآت"
+		},
+		"processing": {
+			"eng": "PROCESSING...",
+			"trans": "جاري المعالجة"
+		},
+		"rewards": {
+			"eng": "REWARDS!",
+			"trans": "مكافآت"
+		},
+		"rewardsEarned": {
+			"eng": "YOUR REWARDS",
+			"trans": "مكافآتُك"
+		},
+		"seconds": {
+			"eng": "seconds",
+			"trans": "ثواني"
+		},
+		"stage": {
+			"eng": "STAGE ${stage}",
+			"trans": "مرحلة ${stage}",
+			"vars": [
+				"stage"
+			]
+		},
+		"stageClear": {
+			"eng": "STAGE CLEAR!",
+			"trans": "المستوى مكتمل"
+		},
+		"stageRewards": {
+			"eng": "STAGE ${stage} CLEARED",
+			"trans": "تجاوز المرحلة ${stage}",
+			"vars": [
+				"stage"
+			]
+		},
+		"stats": {
+			"citiesSaved": {
+				"eng": "CITIES LEFT",
+				"trans": "المدن المتبقية"
+			},
+			"destroyed": {
+				"eng": "DESTROYED",
+				"trans": "مُدَمَّر"
+			}
+		},
+		"tapToFire": {
+			"eng": "TAP TO FIRE!",
+			"trans": "اضغط للإطلاق!"
+		},
+		"tooManyCitiesLost": {
+			"eng": "Too many cities were destroyed",
+			"trans": "دُمر عدد كبير من المدن"
+		}
+	},
 	"mobile": {
 		"appBanner": {
 			"description": {
@@ -9459,6 +9744,28 @@
 				"trans": "لونا"
 			}
 		},
+		"mayDefense": {
+			"defaultLines": {
+				"eng": [
+					"Inbound missile signatures detected. Intercept before impact.",
+					"Four cities. Limited ammo. No second chances.",
+					"Get on the battery and keep our skyline standing."
+				],
+				"trans": [
+					"تم رصد بصمات صواريخ واردة. اعترضها قبل الاصطدام.",
+					"أربع مدن. ذخيرة محدودة. لا فرص ثانية.",
+					"توجه إلى البطارية وأبقِ أفقنا قائماً."
+				]
+			},
+			"name": {
+				"eng": "Aegis Defense Battery",
+				"trans": "بطارية الدفاع إيجيس"
+			},
+			"npcName": {
+				"eng": "Commander Aegis",
+				"trans": "القائد إيجيس"
+			}
+		},
 		"newYear": {
 			"defaultLines": {
 				"eng": [
@@ -9539,6 +9846,28 @@
 			"npcName": {
 				"eng": "Jin",
 				"trans": "جين"
+			}
+		},
+		"pride": {
+			"defaultLines": {
+				"eng": [
+					"Ready to take on the Rainbow Run?",
+					"The route is live. Bring your Rainbow Run pass and launch when you're ready.",
+					"Keep your line clean, collect prisms, and push for the next reward band."
+				],
+				"trans": [
+					"هل أنت مستعد لخوض سباق قوس قزح؟",
+					"المسار نشط الآن. أحضر بطاقة سباق قوس القزح وانطلق عندما تكون جاهزاً.",
+					"حافظ على خطك دون انقطاع، اجمع البريسمات، وصعد لفئة المكافآت التالية."
+				]
+			},
+			"name": {
+				"eng": "Rainbow Run Plaza",
+				"trans": "ساحة مسار قوس القزح"
+			},
+			"npcName": {
+				"eng": "Prism Guide",
+				"trans": "مرشد المنشور"
 			}
 		},
 		"printer": {
@@ -10572,6 +10901,255 @@
 			"trans": "مجانا"
 		}
 	},
+	"prismRunner": {
+		"button": {
+			"status": {
+				"eng": "UPLINK: READY",
+				"trans": "الاتصال: جاهز"
+			},
+			"subtitle": {
+				"eng": "RAINBOW GEOMETRY ROUTE",
+				"trans": "المسار الهندسي القزحي"
+			},
+			"title": {
+				"eng": "RAINBOW RUN",
+				"trans": "جولة قوس القزح"
+			}
+		},
+		"countdown": {
+			"tapToBoost": {
+				"eng": "TAP TO BOOST",
+				"trans": "اضغط للتسريع"
+			},
+			"title": {
+				"eng": "PRISM RUNNER",
+				"trans": "عداء البريزم"
+			}
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The June event is not active.",
+				"trans": "حدث يونيو غير نشط."
+			},
+			"noPass": {
+				"eng": "You need a ${itemName} to enter Rainbow Run.",
+				"trans": "تحتاج إلى ${itemName} للدخول إلى رينبو رن.",
+				"vars": [
+					"itemName"
+				]
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "CLOSE",
+				"trans": "إغلاق"
+			},
+			"message": {
+				"eng": "The run encountered an error. If submission already began, your pass was consumed and rewards were granted.",
+				"trans": "واجهت المحاولة خطأً. إذا بدأ الإرسال بالفعل، فقد استُهلكت التمريرة وتم منح المكافآت."
+			},
+			"title": {
+				"eng": "PRISM_LINK_FAILURE",
+				"trans": "فشل ربط البريزم"
+			}
+		},
+		"exit": {
+			"eng": "EXIT",
+			"trans": "خروج"
+		},
+		"finish": {
+			"eng": "FINISH",
+			"trans": "إنهاء"
+		},
+		"gameOver": {
+			"subtitle": {
+				"eng": "No reward band reached",
+				"trans": "لم يتم الوصول إلى أي فئة مكافأة"
+			},
+			"title": {
+				"eng": "PRISM_BREAK",
+				"trans": "انهيار البريزم"
+			}
+		},
+		"hud": {
+			"expMax": {
+				"eng": "EXP MAX",
+				"trans": "خبرة كاملة"
+			},
+			"expProgress": {
+				"eng": "EXP ${current}/${next}",
+				"trans": "XP ${current}/${next}",
+				"vars": [
+					"current",
+					"next"
+				]
+			},
+			"nearMisses": {
+				"eng": "NEAR ${count}",
+				"trans": "قريب ${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"op": {
+				"eng": "OP: PRISM_RUNNER",
+				"trans": "مشغّل: عدّاء المنشور"
+			},
+			"pickups": {
+				"eng": "PICKUPS ${count}",
+				"trans": "عناصر ${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"score": {
+				"eng": "SCORE ${score}",
+				"trans": "النقاط ${score}",
+				"vars": [
+					"score"
+				]
+			},
+			"shards": {
+				"eng": "SHARDS ${count}",
+				"trans": "شظايا ${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"tier": {
+				"eng": "TIER ${tier}",
+				"trans": "مستوى ${tier}",
+				"vars": [
+					"tier"
+				]
+			},
+			"tierUnlocked": {
+				"eng": "TIER ${tier} UNLOCKED",
+				"trans": "${tier} مُفتَّح",
+				"vars": [
+					"tier"
+				]
+			},
+			"time": {
+				"eng": "TIME ${seconds}s",
+				"trans": "الوقت ${seconds} ثانية",
+				"vars": [
+					"seconds"
+				]
+			}
+		},
+		"intro": {
+			"briefing": {
+				"eng": "RUN_BRIEFING",
+				"trans": "توجيهات العملية"
+			},
+			"eventClosed": {
+				"eng": "EVENT CLOSED",
+				"trans": "الفعالية مغلقة"
+			},
+			"eventInactive": {
+				"eng": "June event inactive",
+				"trans": "حدث يونيو غير نشط"
+			},
+			"juneEvent": {
+				"eng": "JUNE_EVENT",
+				"trans": "حدث يونيو"
+			},
+			"needPass": {
+				"eng": "NEED PASS",
+				"trans": "مطلوب تصريح الدخول"
+			},
+			"rewardHint": {
+				"eng": "Reward bands pay June event supplies.",
+				"trans": "مستويات المكافآت تمنح إمدادات حدث يونيو"
+			},
+			"rule1": {
+				"eng": "Tap to boost the prism marker upward.",
+				"trans": "انقر لرفع مؤشر المنشور إلى الأعلى"
+			},
+			"rule2": {
+				"eng": "Thread the marker through rainbow geometry gates.",
+				"trans": "اجتزِ المؤشر عبر البوابات الهندسية المتدرجة الألوان."
+			},
+			"rule3": {
+				"eng": "Collect prism shards to fill the EXP bar and unlock reward tiers.",
+				"trans": "اجمع شظايا المنشور لملء شريط الخبرة وفتح مستويات المكافآت."
+			},
+			"rule4": {
+				"eng": "Skim close to hazards for bonus score only.",
+				"trans": "مرّ قريباً جداً من الأخطار للحصول على نقاط إضافية فقط."
+			},
+			"start": {
+				"eng": "START RUN",
+				"trans": "ابدأ الجري"
+			},
+			"title": {
+				"eng": "Rainbow Run",
+				"trans": "ركض الأطياف"
+			}
+		},
+		"loading": {
+			"title": {
+				"eng": "INITIALIZING_PRISM",
+				"trans": "تهيئة البريزم"
+			}
+		},
+		"processing": {
+			"eng": "PROCESSING_RUN_DATA",
+			"trans": "معالجة بيانات التشغيل"
+		},
+		"processingRewards": {
+			"eng": "Calculating reward band...",
+			"trans": "حساب نطاق المكافأة..."
+		},
+		"results": {
+			"maxTitle": {
+				"eng": "MAX_TIER_REACHED",
+				"trans": "أعلى رتبة محققة"
+			},
+			"noRewards": {
+				"eng": "No rewards returned",
+				"trans": "لم يتم الحصول على مكافآت"
+			},
+			"rewards": {
+				"eng": "Route Rewards",
+				"trans": "مكافآت المسار"
+			},
+			"tier": {
+				"eng": "Tier ${tier} prism route cleared",
+				"trans": "تم اجتياز مسار البريزم للمستوى ${tier}",
+				"vars": [
+					"tier"
+				]
+			},
+			"title": {
+				"eng": "REWARD_BAND_LOCKED",
+				"trans": "فئة المكافأة مقفلة"
+			}
+		},
+		"stats": {
+			"airtime": {
+				"eng": "Airtime",
+				"trans": "زمن الطيران"
+			},
+			"distance": {
+				"eng": "Distance",
+				"trans": "المسافة"
+			},
+			"nearMisses": {
+				"eng": "Near Miss",
+				"trans": "تفادي ضيق"
+			},
+			"pickups": {
+				"eng": "Pickups",
+				"trans": "التقاطات"
+			},
+			"score": {
+				"eng": "Score",
+				"trans": "النتيجة"
+			}
+		}
+	},
 	"procedural": {
 		"equipmentName": {
 			"nameParts": {
@@ -10651,11 +11229,11 @@
 		},
 		"june": {
 			"desc": {
-				"eng": "🌈 All skips cost 5% less during June",
+				"eng": "Run the rainbow geometry route and earn June rewards",
 				"trans": "🌈 كل تخطي يكلف 5% أقل خلال شهر يونيو"
 			},
 			"title": {
-				"eng": "5% off on skips during June!",
+				"eng": "June Rainbow Run",
 				"trans": "خصم 5% على السكيبس خلال شهر يونيو!"
 			}
 		},
@@ -14689,6 +15267,34 @@
 			"secretKeys": {
 				"eng": "secret keys",
 				"trans": "مفاتيح سرية"
+			},
+			"sort": {
+				"active": {
+					"eng": "Active",
+					"trans": "نشط"
+				},
+				"best": {
+					"eng": "Best",
+					"trans": "الأفضل"
+				},
+				"eng": "Sort",
+				"level": {
+					"eng": "Level",
+					"trans": "مستوى"
+				},
+				"name": {
+					"eng": "Name",
+					"trans": "الاسم"
+				},
+				"price": {
+					"eng": "Price",
+					"trans": "السعر"
+				},
+				"tier": {
+					"eng": "Tier",
+					"trans": "رتبة"
+				},
+				"trans": "ترتيب"
 			}
 		},
 		"itemDetails": {
@@ -14974,7 +15580,7 @@
 		},
 		"list": {
 			"longPressToMultiSelect": {
-				"eng": "Long press to multi-select",
+				"eng": "Long press to select",
 				"trans": "اضغط لفترة طويلة إلى متعدد الاختيار"
 			}
 		},
@@ -15759,7 +16365,7 @@
 		"setting": {
 			"afkAnimation": {
 				"description": {
-					"eng": "Show visual animation section for AFK tasks",
+					"eng": "Show visual animation block for AFK tasks",
 					"trans": "إظهار قسم الرسوم المتحركة لمهام الخمول"
 				},
 				"title": {
@@ -16129,9 +16735,9 @@
 					"trans": "تأكيد استخدام تخطي؟"
 				}
 			},
-			"description": {
-				"eng": "Global Skip allows you to skip the AFK waiting time, and finish it instantly.\n    This effect will be applied to all players performing an AFK task.",
-				"trans": "يتيح لك Global Skip تخطي وقت انتظار AFK، وإنهائه على الفور.\n    سيتم تطبيق هذا التأثير على جميع اللاعبين الذين يؤدون مهمة AFK "
+			"globalSkipTip": {
+				"eng": "Global Skip instantly completes AFK tasks for all players, give the legend some cred, or contribute to empower the community.",
+				"trans": "يُنهي التخطي العالمي مهام الخمول فوراً لجميع اللاعبين، ليمنح الأسطورة بعض السمعة أو يسهم في تعزيز قوة المجتمع."
 			},
 			"inProgressBox": {
 				"subtitle": {

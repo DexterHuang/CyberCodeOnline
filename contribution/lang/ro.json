@@ -447,12 +447,9 @@
 					"zoneName"
 				]
 			},
-			"name": {
-				"eng": "Scavenge in ${zoneName}",
-				"trans": "Caută materiale în ${zoneName}",
-				"vars": [
-					"zoneName"
-				]
+			"name2": {
+				"eng": "Scavenging",
+				"trans": "Colectare"
 			}
 		},
 		"tag": {
@@ -1225,10 +1222,6 @@
 				"items",
 				"eventName"
 			]
-		},
-		"system": {
-			"eng": "SYSTEM",
-			"trans": "Sistem"
 		}
 	},
 	"chatAttachmentMenu": {
@@ -2427,6 +2420,10 @@
 		"donation50": {
 			"eng": "Netrunner",
 			"trans": "Netrunner"
+		},
+		"donation51": {
+			"eng": "Cyberdeck",
+			"trans": "Terminal cibernetic"
 		},
 		"donation6": {
 			"eng": "Prestige",
@@ -3802,6 +3799,10 @@
 				"eng": "June",
 				"trans": "Iunie"
 			},
+			"prismRunner": {
+				"eng": "Rainbow Run",
+				"trans": "Cursa Curcubeului"
+			},
 			"skipDiscountTitle": {
 				"eng": "${percent}% off during event",
 				"trans": "Reducere de ${percent}% în timpul evenimentului",
@@ -3823,6 +3824,10 @@
 			"trans": "Anul Nou Lunar"
 		},
 		"may": {
+			"missileCommand": {
+				"eng": "Missile Command",
+				"trans": "Comandă Rachete"
+			},
 			"name": {
 				"eng": "May",
 				"trans": "Mai"
@@ -4966,6 +4971,16 @@
 				"trans": "OverClock Creatină"
 			}
 		},
+		"defenseRationVoucher": {
+			"description": {
+				"eng": "A standardized voucher issued to Aegis Defense personnel. Can be exchanged for supplies at the battery station.",
+				"trans": "Voucher standardizat emis personalului Aegis Defense. Poate fi schimbat cu provizii la stația de baterii."
+			},
+			"name": {
+				"eng": "Defense Ration Voucher",
+				"trans": "Bon rație apărare"
+			}
+		},
 		"dumplings": {
 			"description": {
 				"eng": "These dumplings are unlike any other. Made with love and care by Yen, these delicious pockets of goodness are filled with the finest ingredients and cooked to perfection.\\n recover ${percent}% health upon consumption",
@@ -5080,6 +5095,19 @@
 				"vars": [
 					"levelName"
 				]
+			}
+		},
+		"fieldRation": {
+			"description": {
+				"eng": "A dense, calorie-packed meal designed for extended combat deployments. Tastes like cardboard, but keeps you fighting. Consume to reduce damage taken by ${percent}% for 20 minutes.",
+				"trans": "O rație densă și extrem de calorică, concepută pentru operațiuni de luptă prelungite. Gustă a carton, dar te menține în luptă. Consumă pentru a reduce daunele primite cu ${percent}% timp de 20 minute.",
+				"vars": [
+					"percent"
+				]
+			},
+			"name": {
+				"eng": "Emergency Field Ration",
+				"trans": "Rație de teren de urgență"
 			}
 		},
 		"fireworksPass": {
@@ -5532,6 +5560,16 @@
 				"trans": "Componente Tehnice Medicale"
 			}
 		},
+		"missileCommandPass": {
+			"description": {
+				"eng": "A special pass required to participate in the Missile Command event game. Can be found in Dungeon Chests or from AFK farming during the May event.",
+				"trans": "Pass special necesar pentru a participa la evenimentul Missile Command. Se poate obține din cuferele de dungeon sau prin farmat AFK pe durata evenimentului din mai."
+			},
+			"name": {
+				"eng": "Missile Command Pass",
+				"trans": "Abonament Comandă Rachete"
+			}
+		},
 		"newYear": {
 			"description": {
 				"eng": "A red envelope with a golden digital seal on it. looks like it contains some sort of currency",
@@ -5651,10 +5689,30 @@
 				"trans": "Nanomuşcă Bila"
 			}
 		},
+		"pridePrism": {
+			"description": {
+				"eng": "A radiant keepsake from the Rainbow Run.",
+				"trans": "O amintire strălucitoare de la Rainbow Run."
+			},
+			"name": {
+				"eng": "Rainbow Prism",
+				"trans": "Prismă Curcubeu"
+			}
+		},
 		"primaryWeapon": {
 			"name": {
 				"eng": "Primary Weapon",
 				"trans": "Armă Principală"
+			}
+		},
+		"prismRunPass": {
+			"description": {
+				"eng": "A chromatic access token for the June Rainbow Run event game. Required to enter the rainbow geometry course.",
+				"trans": "Jeton de acces cromatic pentru evenimentul June Rainbow Run. Necesar pentru a intra pe traseul cu geometrie curcubeie."
+			},
+			"name": {
+				"eng": "Rainbow Run Pass",
+				"trans": "Trecerea Cursei Curcubeii"
 			}
 		},
 		"pudding": {
@@ -8380,6 +8438,230 @@
 			"trans": "utilizare"
 		}
 	},
+	"missileCommand": {
+		"allComplete": {
+			"eng": "ALL COMPLETE!",
+			"trans": "TOTUL FINALIZAT!"
+		},
+		"ammo": {
+			"eng": "Ammo",
+			"trans": "Muniție"
+		},
+		"button": {
+			"subtitle": {
+				"eng": "TACTICAL BATTERY CONTROL",
+				"trans": "COMANDĂ BATERIE TACTICĂ"
+			},
+			"title": {
+				"eng": "MISSILE COMMAND",
+				"trans": "COMANDĂ RACHETE"
+			}
+		},
+		"cities": {
+			"eng": "Cities",
+			"trans": "Orașe"
+		},
+		"citiesSaved": {
+			"eng": "${count} cities saved",
+			"trans": "${count} orașe salvate",
+			"vars": [
+				"count"
+			]
+		},
+		"congratulations": {
+			"eng": "CITY DEFENDED!",
+			"trans": "ORAȘ APĂRAT!"
+		},
+		"defend": {
+			"eng": "Defend the cities!",
+			"trans": "Apără orașele!"
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The May event has ended!",
+				"trans": "Evenimentul din mai s-a încheiat!"
+			},
+			"noPass": {
+				"eng": "You need a ${itemName} to play! Find them in dungeon chests or from AFK farming.",
+				"trans": "Ai nevoie de ${itemName} pentru a juca! Găsește-le în lăzi din dunjon sau prin farmat AFK.",
+				"vars": [
+					"itemName"
+				]
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "ABORT",
+				"trans": "ANULEAZĂ"
+			},
+			"message": {
+				"eng": "The tactical uplink encountered an error. Your pass was not consumed.",
+				"trans": "Legătura tactică a întâmpinat o eroare. Accesul tău nu a fost consumat."
+			},
+			"title": {
+				"eng": "SYSTEM_FAILURE",
+				"trans": "AVERIE DE SISTEM"
+			}
+		},
+		"exit": {
+			"eng": "EXIT",
+			"trans": "IEȘIRE"
+		},
+		"failedStage": {
+			"eng": "FAILED AT STAGE ${stage}",
+			"trans": "ETAPA ${stage} EȘUATĂ",
+			"vars": [
+				"stage"
+			]
+		},
+		"finish": {
+			"eng": "FINISH",
+			"trans": "FINALIZARE"
+		},
+		"gameOver": {
+			"eng": "CITIES DESTROYED!",
+			"trans": "ORAȘE DISTRUSE!"
+		},
+		"intro": {
+			"available": {
+				"eng": "AVAILABLE_QTY",
+				"trans": "CANTITATE DISPONIBILĂ"
+			},
+			"eventEnded": {
+				"eng": "OFFLINE",
+				"trans": "OFFLINE"
+			},
+			"eventInactive": {
+				"eng": "NETWORK_OFFLINE: RETURN DURING ACTIVE THREAT WINDOWS",
+				"trans": "NETWORK_OFFLINE: REVINEȚI ÎN INTERVALELE DE AMENINȚARE ACTIVĂ"
+			},
+			"howToGet": {
+				"eng": "> ACQUIRE [${itemName}] FROM DUNGEON CACHES OR AUTOMATED SWEEPS.",
+				"trans": "ACUMULEAZĂ [${itemName}] DIN TEZAURELE DUNGEON-URILOR SAU DIN SCANĂRI AUTOMATE.",
+				"vars": [
+					"itemName"
+				]
+			},
+			"howToPlay": {
+				"eng": "OPERATION_BRIEFING",
+				"trans": "BRIEFING OPERAȚIE"
+			},
+			"logistics": {
+				"eng": "AUTHORIZATION_LOGISTICS",
+				"trans": "AUTORIZARE LOGISTICĂ"
+			},
+			"needItem": {
+				"eng": "AUTHORIZATION_REQUIRED",
+				"trans": "AUTORIZAȚIE NECESARĂ"
+			},
+			"requiredClearance": {
+				"eng": "REQUIRED_CLEARANCE",
+				"trans": "AUTORIZAȚIE NECESARĂ"
+			},
+			"rule1": {
+				"eng": "Tap grid coordinates to deploy interceptor missiles.",
+				"trans": "Atinge coordonatele de pe grilă pentru a lansa rachete interceptoare"
+			},
+			"rule2": {
+				"eng": "Neutralize incoming ballistic threats before impact.",
+				"trans": "Neutralizează amenințările balistice înainte de impact."
+			},
+			"rule3": {
+				"eng": "Defend civic sectors across five escalating threat levels.",
+				"trans": "Apără sectoarele civile prin cele cinci niveluri progresive de amenințare."
+			},
+			"rule4": {
+				"eng": "Critical structural failure results in immediate mission abort.",
+				"trans": "O defecțiune structurală critică duce la anularea imediată a misiunii."
+			},
+			"startButton": {
+				"eng": "INITIATE_UPLINK",
+				"trans": "Inițializează conexiunea"
+			},
+			"status": {
+				"eng": "SYS.STATUS",
+				"trans": "STARE SISTEM"
+			},
+			"title": {
+				"eng": "Missile Command",
+				"trans": "Comandă Rachete"
+			}
+		},
+		"loading": {
+			"message": {
+				"eng": "Connecting to defense grid...",
+				"trans": "Se conectează la rețeaua de apărare..."
+			},
+			"title": {
+				"eng": "ESTABLISHING_UPLINK...",
+				"trans": "STABLINDU-SE CONEXIUNEA..."
+			}
+		},
+		"nextStage": {
+			"eng": "NEXT STAGE",
+			"trans": "URMĂTOAREA ETAPĂ"
+		},
+		"noRewards": {
+			"eng": "No rewards obtained.",
+			"trans": "Nicio recompensă obținută."
+		},
+		"pleaseWait": {
+			"eng": "Calculating rewards...",
+			"trans": "Se calculează recompensele..."
+		},
+		"processing": {
+			"eng": "PROCESSING...",
+			"trans": "PROCESARE..."
+		},
+		"rewards": {
+			"eng": "REWARDS!",
+			"trans": "RECOMPENSE!"
+		},
+		"rewardsEarned": {
+			"eng": "YOUR REWARDS",
+			"trans": "RECOMPENSELE TALE"
+		},
+		"seconds": {
+			"eng": "seconds",
+			"trans": "secunde"
+		},
+		"stage": {
+			"eng": "STAGE ${stage}",
+			"trans": "ETAPA ${stage}",
+			"vars": [
+				"stage"
+			]
+		},
+		"stageClear": {
+			"eng": "STAGE CLEAR!",
+			"trans": "NIVEL FINALIZAT!"
+		},
+		"stageRewards": {
+			"eng": "STAGE ${stage} CLEARED",
+			"trans": "NIVEL ${stage} FINALIZAT",
+			"vars": [
+				"stage"
+			]
+		},
+		"stats": {
+			"citiesSaved": {
+				"eng": "CITIES LEFT",
+				"trans": "ORAȘE RĂMASE"
+			},
+			"destroyed": {
+				"eng": "DESTROYED",
+				"trans": "Distruse"
+			}
+		},
+		"tapToFire": {
+			"eng": "TAP TO FIRE!",
+			"trans": "APASĂ PENTRU A TRAGE!"
+		},
+		"tooManyCitiesLost": {
+			"eng": "Too many cities were destroyed",
+			"trans": "Prea multe orașe au fost distruse"
+		}
+	},
 	"mobile": {
 		"appBanner": {
 			"description": {
@@ -9459,6 +9741,28 @@
 				"trans": "Luna"
 			}
 		},
+		"mayDefense": {
+			"defaultLines": {
+				"eng": [
+					"Inbound missile signatures detected. Intercept before impact.",
+					"Four cities. Limited ammo. No second chances.",
+					"Get on the battery and keep our skyline standing."
+				],
+				"trans": [
+					"Semnaluri de rachete detectate. Interceptați înainte de impact.",
+					"Patru orașe. Muniție limitată. Fără a doua șansă.",
+					"Activează bateria și ține linia noastră"
+				]
+			},
+			"name": {
+				"eng": "Aegis Defense Battery",
+				"trans": "Bateria de Apărare Eghina"
+			},
+			"npcName": {
+				"eng": "Commander Aegis",
+				"trans": "Comandant Aegis"
+			}
+		},
 		"newYear": {
 			"defaultLines": {
 				"eng": [
@@ -9539,6 +9843,28 @@
 			"npcName": {
 				"eng": "Jin",
 				"trans": "Jin"
+			}
+		},
+		"pride": {
+			"defaultLines": {
+				"eng": [
+					"Ready to take on the Rainbow Run?",
+					"The route is live. Bring your Rainbow Run pass and launch when you're ready.",
+					"Keep your line clean, collect prisms, and push for the next reward band."
+				],
+				"trans": [
+					"Gata să înfrunți Rainbow Run?",
+					"Traseul este activ. Folosește accesul Rainbow Run și pornește când ești pregătit.",
+					"Menține linia curată, colectează prismele și avansează spre următoarea bandă de recompense."
+				]
+			},
+			"name": {
+				"eng": "Rainbow Run Plaza",
+				"trans": "Piața Traseul Curcubeului"
+			},
+			"npcName": {
+				"eng": "Prism Guide",
+				"trans": "Ghid Prismă"
 			}
 		},
 		"printer": {
@@ -10572,6 +10898,255 @@
 			"trans": "LIBER"
 		}
 	},
+	"prismRunner": {
+		"button": {
+			"status": {
+				"eng": "UPLINK: READY",
+				"trans": "UPLINK: GATA"
+			},
+			"subtitle": {
+				"eng": "RAINBOW GEOMETRY ROUTE",
+				"trans": "TRASEU GEOMETRIC CURCUBEU"
+			},
+			"title": {
+				"eng": "RAINBOW RUN",
+				"trans": "PARCURS CURCUBEU"
+			}
+		},
+		"countdown": {
+			"tapToBoost": {
+				"eng": "TAP TO BOOST",
+				"trans": "ATINGE PENTRU ACCELERARE"
+			},
+			"title": {
+				"eng": "PRISM RUNNER",
+				"trans": "FUGAR PRISMATIC"
+			}
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The June event is not active.",
+				"trans": "Evenimentul din iunie nu este activ."
+			},
+			"noPass": {
+				"eng": "You need a ${itemName} to enter Rainbow Run.",
+				"trans": "Ai nevoie de ${itemName} pentru a intra în Rainbow Run.",
+				"vars": [
+					"itemName"
+				]
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "CLOSE",
+				"trans": "Închide"
+			},
+			"message": {
+				"eng": "The run encountered an error. If submission already began, your pass was consumed and rewards were granted.",
+				"trans": "Tentativa a întâmpinat o eroare. Dacă procesul de trimitere a început deja, tichetul tău a fost consumat și recompensele au fost acordate."
+			},
+			"title": {
+				"eng": "PRISM_LINK_FAILURE",
+				"trans": "EȘEC DE CONEXIUNE PRISM"
+			}
+		},
+		"exit": {
+			"eng": "EXIT",
+			"trans": "IEȘIRE"
+		},
+		"finish": {
+			"eng": "FINISH",
+			"trans": "TERMINĂ"
+		},
+		"gameOver": {
+			"subtitle": {
+				"eng": "No reward band reached",
+				"trans": "Niciun rang de recompense atins"
+			},
+			"title": {
+				"eng": "PRISM_BREAK",
+				"trans": "COLAPS_PRISMATIC"
+			}
+		},
+		"hud": {
+			"expMax": {
+				"eng": "EXP MAX",
+				"trans": "EXP MAXIMĂ"
+			},
+			"expProgress": {
+				"eng": "EXP ${current}/${next}",
+				"trans": "EXP ${current}/${next}",
+				"vars": [
+					"current",
+					"next"
+				]
+			},
+			"nearMisses": {
+				"eng": "NEAR ${count}",
+				"trans": "LA UN PAS ${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"op": {
+				"eng": "OP: PRISM_RUNNER",
+				"trans": "OPERATOR: CURSOR_PRISMATIC"
+			},
+			"pickups": {
+				"eng": "PICKUPS ${count}",
+				"trans": "COLECTATE ${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"score": {
+				"eng": "SCORE ${score}",
+				"trans": "SCOR ${score}",
+				"vars": [
+					"score"
+				]
+			},
+			"shards": {
+				"eng": "SHARDS ${count}",
+				"trans": "FRAGMENTE ${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"tier": {
+				"eng": "TIER ${tier}",
+				"trans": "NIVEL ${tier}",
+				"vars": [
+					"tier"
+				]
+			},
+			"tierUnlocked": {
+				"eng": "TIER ${tier} UNLOCKED",
+				"trans": "TIER ${tier} DEBLOCAT",
+				"vars": [
+					"tier"
+				]
+			},
+			"time": {
+				"eng": "TIME ${seconds}s",
+				"trans": "TIMP ${seconds}s",
+				"vars": [
+					"seconds"
+				]
+			}
+		},
+		"intro": {
+			"briefing": {
+				"eng": "RUN_BRIEFING",
+				"trans": "PORNEȘTE BRIEFINGUL"
+			},
+			"eventClosed": {
+				"eng": "EVENT CLOSED",
+				"trans": "Eveniment închis"
+			},
+			"eventInactive": {
+				"eng": "June event inactive",
+				"trans": "Evenimentul din iunie este inactiv"
+			},
+			"juneEvent": {
+				"eng": "JUNE_EVENT",
+				"trans": "Evenimentul din iunie"
+			},
+			"needPass": {
+				"eng": "NEED PASS",
+				"trans": "PERMIS NECESAR"
+			},
+			"rewardHint": {
+				"eng": "Reward bands pay June event supplies.",
+				"trans": "Nivelurile de recompensă acordă resursele evenimentului din iunie."
+			},
+			"rule1": {
+				"eng": "Tap to boost the prism marker upward.",
+				"trans": "Apasă pentru a propulsa markerul prismă în sus."
+			},
+			"rule2": {
+				"eng": "Thread the marker through rainbow geometry gates.",
+				"trans": "Trece markerul prin porțile geometrice curcubeii."
+			},
+			"rule3": {
+				"eng": "Collect prism shards to fill the EXP bar and unlock reward tiers.",
+				"trans": "Colectează fragmente de prismă pentru a completa bara de EXP și a debloca nivelurile de recompense."
+			},
+			"rule4": {
+				"eng": "Skim close to hazards for bonus score only.",
+				"trans": "Treci foarte aproape de obstacole doar pentru puncte bonus."
+			},
+			"start": {
+				"eng": "START RUN",
+				"trans": "PORNEȘTE MISIUNEA"
+			},
+			"title": {
+				"eng": "Rainbow Run",
+				"trans": "Cursa Curcubeului"
+			}
+		},
+		"loading": {
+			"title": {
+				"eng": "INITIALIZING_PRISM",
+				"trans": "Inițializare prismă"
+			}
+		},
+		"processing": {
+			"eng": "PROCESSING_RUN_DATA",
+			"trans": "PROCESARE DATE DE RULARE"
+		},
+		"processingRewards": {
+			"eng": "Calculating reward band...",
+			"trans": "Se calculează categoria recompenselor..."
+		},
+		"results": {
+			"maxTitle": {
+				"eng": "MAX_TIER_REACHED",
+				"trans": "Nivel maxim atins"
+			},
+			"noRewards": {
+				"eng": "No rewards returned",
+				"trans": "Fără recompense"
+			},
+			"rewards": {
+				"eng": "Route Rewards",
+				"trans": "Recompensele Rutei"
+			},
+			"tier": {
+				"eng": "Tier ${tier} prism route cleared",
+				"trans": "Nivelul ${tier} al rutei prismatice completat",
+				"vars": [
+					"tier"
+				]
+			},
+			"title": {
+				"eng": "REWARD_BAND_LOCKED",
+				"trans": "Bandă de premii blocată"
+			}
+		},
+		"stats": {
+			"airtime": {
+				"eng": "Airtime",
+				"trans": "Timp în aer"
+			},
+			"distance": {
+				"eng": "Distance",
+				"trans": "Distanță"
+			},
+			"nearMisses": {
+				"eng": "Near Miss",
+				"trans": "Escapare la milimetru"
+			},
+			"pickups": {
+				"eng": "Pickups",
+				"trans": "Colectate"
+			},
+			"score": {
+				"eng": "Score",
+				"trans": "Scor"
+			}
+		}
+	},
 	"procedural": {
 		"equipmentName": {
 			"nameParts": {
@@ -10651,11 +11226,11 @@
 		},
 		"june": {
 			"desc": {
-				"eng": "🌈 All skips cost 5% less during June",
+				"eng": "Run the rainbow geometry route and earn June rewards",
 				"trans": "🌈 Toate săriturile costă cu 5% mai puțin în luna iunie"
 			},
 			"title": {
-				"eng": "5% off on skips during June!",
+				"eng": "June Rainbow Run",
 				"trans": "Reducere de 5% la skipuri în luna iunie!"
 			}
 		},
@@ -14689,6 +15264,34 @@
 			"secretKeys": {
 				"eng": "secret keys",
 				"trans": "cheile secrete"
+			},
+			"sort": {
+				"active": {
+					"eng": "Active",
+					"trans": "Activ"
+				},
+				"best": {
+					"eng": "Best",
+					"trans": "Cele mai bune"
+				},
+				"eng": "Sort",
+				"level": {
+					"eng": "Level",
+					"trans": "Nivel"
+				},
+				"name": {
+					"eng": "Name",
+					"trans": "Nume"
+				},
+				"price": {
+					"eng": "Price",
+					"trans": "Preț"
+				},
+				"tier": {
+					"eng": "Tier",
+					"trans": "Nivel"
+				},
+				"trans": "Sortare"
 			}
 		},
 		"itemDetails": {
@@ -14974,7 +15577,7 @@
 		},
 		"list": {
 			"longPressToMultiSelect": {
-				"eng": "Long press to multi-select",
+				"eng": "Long press to select",
 				"trans": "Apăsați lung pentru multi-selectat"
 			}
 		},
@@ -15759,7 +16362,7 @@
 		"setting": {
 			"afkAnimation": {
 				"description": {
-					"eng": "Show visual animation section for AFK tasks",
+					"eng": "Show visual animation block for AFK tasks",
 					"trans": "Afișează secțiunea de animații vizuale pentru task-urile AFK"
 				},
 				"title": {
@@ -16129,9 +16732,9 @@
 					"trans": "Confirmați folosiți săriți?"
 				}
 			},
-			"description": {
-				"eng": "Global Skip allows you to skip the AFK waiting time, and finish it instantly.\n    This effect will be applied to all players performing an AFK task.",
-				"trans": "Global Skip vă permite să săriți timpul de așteptare AFK și să îl terminați instantaneu. \n     Acest efect va fi aplicat tuturor jucătorului care efectuează sarcina AFK"
+			"globalSkipTip": {
+				"eng": "Global Skip instantly completes AFK tasks for all players, give the legend some cred, or contribute to empower the community.",
+				"trans": "Global Skip completează instantaneu sarcinile AFK ale tuturor jucătorilor; acordă-i lui Legend credit sau contribuie pentru a susține comunitatea."
 			},
 			"inProgressBox": {
 				"subtitle": {

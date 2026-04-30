@@ -447,12 +447,9 @@
 					"zoneName"
 				]
 			},
-			"name": {
-				"eng": "Scavenge in ${zoneName}",
-				"trans": "${zoneName} Bölgesinde Yağma Yap",
-				"vars": [
-					"zoneName"
-				]
+			"name2": {
+				"eng": "Scavenging",
+				"trans": "eşfetme\n</"
 			}
 		},
 		"tag": {
@@ -1225,10 +1222,6 @@
 				"items",
 				"eventName"
 			]
-		},
-		"system": {
-			"eng": "SYSTEM",
-			"trans": "SİSTEM"
 		}
 	},
 	"chatAttachmentMenu": {
@@ -2427,6 +2420,10 @@
 		"donation50": {
 			"eng": "Netrunner",
 			"trans": "trunner\n</t"
+		},
+		"donation51": {
+			"eng": "Cyberdeck",
+			"trans": "berdeck\n</t"
 		},
 		"donation6": {
 			"eng": "Prestige",
@@ -3802,6 +3799,10 @@
 				"eng": "June",
 				"trans": "Haziran"
 			},
+			"prismRunner": {
+				"eng": "Rainbow Run",
+				"trans": "Gökkuşağı Koşusu"
+			},
 			"skipDiscountTitle": {
 				"eng": "${percent}% off during event",
 				"trans": "Etkinlik sırasında %${percent} indirim",
@@ -3823,6 +3824,10 @@
 			"trans": "Aysal yeni yıl"
 		},
 		"may": {
+			"missileCommand": {
+				"eng": "Missile Command",
+				"trans": "Füze Komutası"
+			},
 			"name": {
 				"eng": "May",
 				"trans": "Mayıs"
@@ -4966,6 +4971,16 @@
 				"trans": "OverClock Kreatin"
 			}
 		},
+		"defenseRationVoucher": {
+			"description": {
+				"eng": "A standardized voucher issued to Aegis Defense personnel. Can be exchanged for supplies at the battery station.",
+				"trans": "egis Savunma personeline verilen standart bir kupon. Batarya İstasyonu'nda malzeme alımında geçerlidir. </t"
+			},
+			"name": {
+				"eng": "Defense Ration Voucher",
+				"trans": "Savunma Rasyonu Fişi"
+			}
+		},
 		"dumplings": {
 			"description": {
 				"eng": "These dumplings are unlike any other. Made with love and care by Yen, these delicious pockets of goodness are filled with the finest ingredients and cooked to perfection.\\n recover ${percent}% health upon consumption",
@@ -5080,6 +5095,19 @@
 				"vars": [
 					"levelName"
 				]
+			}
+		},
+		"fieldRation": {
+			"description": {
+				"eng": "A dense, calorie-packed meal designed for extended combat deployments. Tastes like cardboard, but keeps you fighting. Consume to reduce damage taken by ${percent}% for 20 minutes.",
+				"trans": "Uzun süreli çatışma operasyonları için tasarlanmış, yoğun ve yüksek kalorili bir rasyon. Kartondan farksız tadı var ama seni sahada ayakta tutar. Tüketildiğinde 20 dakika boyunca alınan hasarı %${percent} oranında azaltır.",
+				"vars": [
+					"percent"
+				]
+			},
+			"name": {
+				"eng": "Emergency Field Ration",
+				"trans": "Acil Saha Rasyonu"
 			}
 		},
 		"fireworksPass": {
@@ -5532,6 +5560,16 @@
 				"trans": "Tıbbi Teknolojik Parçalar"
 			}
 		},
+		"missileCommandPass": {
+			"description": {
+				"eng": "A special pass required to participate in the Missile Command event game. Can be found in Dungeon Chests or from AFK farming during the May event.",
+				"trans": "issile Command etkinlik oyununa katılmak için özel pas gerekmektedir. Mayıs etkinliği süresince Zindan Sandıkları'nda veya otomatik toplama ile elde edilebilir. </"
+			},
+			"name": {
+				"eng": "Missile Command Pass",
+				"trans": "Füze Komuta Paketi"
+			}
+		},
 		"newYear": {
 			"description": {
 				"eng": "A red envelope with a golden digital seal on it. looks like it contains some sort of currency",
@@ -5651,10 +5689,30 @@
 				"trans": "NanoKüçük Top"
 			}
 		},
+		"pridePrism": {
+			"description": {
+				"eng": "A radiant keepsake from the Rainbow Run.",
+				"trans": "Gökkuşağı Koşusundan kalan ışıltılı bir hatıra.\n<"
+			},
+			"name": {
+				"eng": "Rainbow Prism",
+				"trans": "ökkuşağı Prizması\n</"
+			}
+		},
 		"primaryWeapon": {
 			"name": {
 				"eng": "Primary Weapon",
 				"trans": "Birincil Silah"
+			}
+		},
+		"prismRunPass": {
+			"description": {
+				"eng": "A chromatic access token for the June Rainbow Run event game. Required to enter the rainbow geometry course.",
+				"trans": "aziran Gökkuşağı Koşusu etkinliği için kromatik erişim jetonu. Gökkuşağı Geometri Parkuruna girmek için gereklidir.<"
+			},
+			"name": {
+				"eng": "Rainbow Run Pass",
+				"trans": "Gökkuşağı Koşu Bileti"
 			}
 		},
 		"pudding": {
@@ -8380,6 +8438,230 @@
 			"trans": "Kullan"
 		}
 	},
+	"missileCommand": {
+		"allComplete": {
+			"eng": "ALL COMPLETE!",
+			"trans": "ANDI!</translation"
+		},
+		"ammo": {
+			"eng": "Ammo",
+			"trans": "Mermi"
+		},
+		"button": {
+			"subtitle": {
+				"eng": "TACTICAL BATTERY CONTROL",
+				"trans": "Taktik Batarya Kontrolü"
+			},
+			"title": {
+				"eng": "MISSILE COMMAND",
+				"trans": "UTU\n</transla"
+			}
+		},
+		"cities": {
+			"eng": "Cities",
+			"trans": "Şehirler"
+		},
+		"citiesSaved": {
+			"eng": "${count} cities saved",
+			"trans": "${count} şehir kurtarıldı",
+			"vars": [
+				"count"
+			]
+		},
+		"congratulations": {
+			"eng": "CITY DEFENDED!",
+			"trans": "SAVUNULDU!\n</transl"
+		},
+		"defend": {
+			"eng": "Defend the cities!",
+			"trans": "Şehirleri savun!"
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The May event has ended!",
+				"trans": "Mayıs etkinliği sona erdi!"
+			},
+			"noPass": {
+				"eng": "You need a ${itemName} to play! Find them in dungeon chests or from AFK farming.",
+				"trans": "Oynamak için bir ${itemName} gerekli! Bunları zindan sandıklarında veya AFK farmında bulabilirsin.\n<",
+				"vars": [
+					"itemName"
+				]
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "ABORT",
+				"trans": "L ET </tran"
+			},
+			"message": {
+				"eng": "The tactical uplink encountered an error. Your pass was not consumed.",
+				"trans": "ktiksel bağlantıda hata oluştu. Geçiş izniniz işleme alınmadı. </t"
+			},
+			"title": {
+				"eng": "SYSTEM_FAILURE",
+				"trans": "ASI</translatio"
+			}
+		},
+		"exit": {
+			"eng": "EXIT",
+			"trans": "IKIŞ </"
+		},
+		"failedStage": {
+			"eng": "FAILED AT STAGE ${stage}",
+			"trans": "A ${stage} BAŞARISIZ </tra",
+			"vars": [
+				"stage"
+			]
+		},
+		"finish": {
+			"eng": "FINISH",
+			"trans": "NAYLA </"
+		},
+		"gameOver": {
+			"eng": "CITIES DESTROYED!",
+			"trans": "RLER İMHA EDİLDİ!</transl"
+		},
+		"intro": {
+			"available": {
+				"eng": "AVAILABLE_QTY",
+				"trans": "KTAR </translati"
+			},
+			"eventEnded": {
+				"eng": "OFFLINE",
+				"trans": "Çevrimdışı"
+			},
+			"eventInactive": {
+				"eng": "NETWORK_OFFLINE: RETURN DURING ACTIVE THREAT WINDOWS",
+				"trans": "DİT DÖNEMİNDE GERİ DÖNÜN </translation>"
+			},
+			"howToGet": {
+				"eng": "> ACQUIRE [${itemName}] FROM DUNGEON CACHES OR AUTOMATED SWEEPS.",
+				"trans": "> ${itemName} öğesini zindan kasalarından ya da otomatik taramalardan elde et.",
+				"vars": [
+					"itemName"
+				]
+			},
+			"howToPlay": {
+				"eng": "OPERATION_BRIEFING",
+				"trans": "slation>"
+			},
+			"logistics": {
+				"eng": "AUTHORIZATION_LOGISTICS",
+				"trans": "istik Yetkisi </tr"
+			},
+			"needItem": {
+				"eng": "AUTHORIZATION_REQUIRED",
+				"trans": "Yetki Gerekli"
+			},
+			"requiredClearance": {
+				"eng": "REQUIRED_CLEARANCE",
+				"trans": ""
+			},
+			"rule1": {
+				"eng": "Tap grid coordinates to deploy interceptor missiles.",
+				"trans": "Izgara koordinatlarına dokunarak savunma füzelerini konuşlandırın."
+			},
+			"rule2": {
+				"eng": "Neutralize incoming ballistic threats before impact.",
+				"trans": "klaşan balistik tehditleri isabet etmeden önce imha edin.</"
+			},
+			"rule3": {
+				"eng": "Defend civic sectors across five escalating threat levels.",
+				"trans": "eş artan tehdit seviyesi boyunca şehir sektörlerini savun.\n</"
+			},
+			"rule4": {
+				"eng": "Critical structural failure results in immediate mission abort.",
+				"trans": "Kritik yapısal hasar anında görev iptaline yol açar."
+			},
+			"startButton": {
+				"eng": "INITIATE_UPLINK",
+				"trans": "AT </translation>"
+			},
+			"status": {
+				"eng": "SYS.STATUS",
+				"trans": "Sistem Durumu"
+			},
+			"title": {
+				"eng": "Missile Command",
+				"trans": "Füze Komutası"
+			}
+		},
+		"loading": {
+			"message": {
+				"eng": "Connecting to defense grid...",
+				"trans": "Savunma ağına bağlanılıyor..."
+			},
+			"title": {
+				"eng": "ESTABLISHING_UPLINK...",
+				"trans": "I KURULUYOR... </transl"
+			}
+		},
+		"nextStage": {
+			"eng": "NEXT STAGE",
+			"trans": "AMA </translatio"
+		},
+		"noRewards": {
+			"eng": "No rewards obtained.",
+			"trans": "Ödül elde edilmedi."
+		},
+		"pleaseWait": {
+			"eng": "Calculating rewards...",
+			"trans": "Ödüller hesaplanıyor..."
+		},
+		"processing": {
+			"eng": "PROCESSING...",
+			"trans": "OR... </translat"
+		},
+		"rewards": {
+			"eng": "REWARDS!",
+			"trans": "ÖDÜLLER <"
+		},
+		"rewardsEarned": {
+			"eng": "YOUR REWARDS",
+			"trans": "Kazandıklarınız"
+		},
+		"seconds": {
+			"eng": "seconds",
+			"trans": "Saniye"
+		},
+		"stage": {
+			"eng": "STAGE ${stage}",
+			"trans": "YE ${stage}</tra",
+			"vars": [
+				"stage"
+			]
+		},
+		"stageClear": {
+			"eng": "STAGE CLEAR!",
+			"trans": "ÇTİN!\n</translatio"
+		},
+		"stageRewards": {
+			"eng": "STAGE ${stage} CLEARED",
+			"trans": "E ${stage} TAMAMLANDI\n</trans",
+			"vars": [
+				"stage"
+			]
+		},
+		"stats": {
+			"citiesSaved": {
+				"eng": "CITIES LEFT",
+				"trans": "HİRLER </translat"
+			},
+			"destroyed": {
+				"eng": "DESTROYED",
+				"trans": "</translation>"
+			}
+		},
+		"tapToFire": {
+			"eng": "TAP TO FIRE!",
+			"trans": "ETMEK İÇİN DOKUN!\n</transl"
+		},
+		"tooManyCitiesLost": {
+			"eng": "Too many cities were destroyed",
+			"trans": "Aşırı sayıda şehir imha edildi"
+		}
+	},
 	"mobile": {
 		"appBanner": {
 			"description": {
@@ -9459,6 +9741,28 @@
 				"trans": "Luna"
 			}
 		},
+		"mayDefense": {
+			"defaultLines": {
+				"eng": [
+					"Inbound missile signatures detected. Intercept before impact.",
+					"Four cities. Limited ammo. No second chances.",
+					"Get on the battery and keep our skyline standing."
+				],
+				"trans": [
+					"Gelen füzeler tespit edildi. Vuruş öncesi imha edin.",
+					"t şehir. Sınıllı mermi. İkinci şans yok. </tra",
+					"Bataryaya geç, şehrimizi ayakta tutalım."
+				]
+			},
+			"name": {
+				"eng": "Aegis Defense Battery",
+				"trans": "Egis Savunma Bataryası <"
+			},
+			"npcName": {
+				"eng": "Commander Aegis",
+				"trans": "Komutan Aegis <"
+			}
+		},
 		"newYear": {
 			"defaultLines": {
 				"eng": [
@@ -9539,6 +9843,28 @@
 			"npcName": {
 				"eng": "Jin",
 				"trans": "Jin"
+			}
+		},
+		"pride": {
+			"defaultLines": {
+				"eng": [
+					"Ready to take on the Rainbow Run?",
+					"The route is live. Bring your Rainbow Run pass and launch when you're ready.",
+					"Keep your line clean, collect prisms, and push for the next reward band."
+				],
+				"trans": [
+					"Rainbow Run'a hazır mısın? <",
+					"ta aktif. Rainbow Run giriş kartını yanına al ve hazır olduğunda yola çık.</",
+					"attını temiz tut, prizmaları topla ve bir sonraki ödül bandına ilerle.<"
+				]
+			},
+			"name": {
+				"eng": "Rainbow Run Plaza",
+				"trans": "Gökkuşağı Koşu Meydanı"
+			},
+			"npcName": {
+				"eng": "Prism Guide",
+				"trans": "Prizma Rehberi"
 			}
 		},
 		"printer": {
@@ -10572,6 +10898,255 @@
 			"trans": "BEDAVA"
 		}
 	},
+	"prismRunner": {
+		"button": {
+			"status": {
+				"eng": "UPLINK: READY",
+				"trans": "ĞLANTI: HAZIR</"
+			},
+			"subtitle": {
+				"eng": "RAINBOW GEOMETRY ROUTE",
+				"trans": "GEOMETRİ ROTASI</translat"
+			},
+			"title": {
+				"eng": "RAINBOW RUN",
+				"trans": "Gökkuşağı Koşusu\n<"
+			}
+		},
+		"countdown": {
+			"tapToBoost": {
+				"eng": "TAP TO BOOST",
+				"trans": "İN DOKUN\n</translation>"
+			},
+			"title": {
+				"eng": "PRISM RUNNER",
+				"trans": "RUNNER</tran"
+			}
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The June event is not active.",
+				"trans": "Haziran etkinliği aktif değil.\n<"
+			},
+			"noPass": {
+				"eng": "You need a ${itemName} to enter Rainbow Run.",
+				"trans": "ökkuşağı Koşusu'na girmek için ${itemName} gerekiyor.\n</",
+				"vars": [
+					"itemName"
+				]
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "CLOSE",
+				"trans": "APAT </"
+			},
+			"message": {
+				"eng": "The run encountered an error. If submission already began, your pass was consumed and rewards were granted.",
+				"trans": "Sefer sırasında bir hata oluştu. Gönderim başladıysa, geçitiniz harcanmış ve ödülünüz verilmiştir.\n<"
+			},
+			"title": {
+				"eng": "PRISM_LINK_FAILURE",
+				"trans": "TISI HATASI</translation>"
+			}
+		},
+		"exit": {
+			"eng": "EXIT",
+			"trans": "IKIŞ\n</"
+		},
+		"finish": {
+			"eng": "FINISH",
+			"trans": "transla"
+		},
+		"gameOver": {
+			"subtitle": {
+				"eng": "No reward band reached",
+				"trans": "içbir ödülü alamadınız<"
+			},
+			"title": {
+				"eng": "PRISM_BREAK",
+				"trans": "LDI\n</translation"
+			}
+		},
+		"hud": {
+			"expMax": {
+				"eng": "EXP MAX",
+				"trans": "KS</translati"
+			},
+			"expProgress": {
+				"eng": "EXP ${current}/${next}",
+				"trans": "XP ${current}/${next}<",
+				"vars": [
+					"current",
+					"next"
+				]
+			},
+			"nearMisses": {
+				"eng": "NEAR ${count}",
+				"trans": "AKIN KAÇIŞ ${count}\n</",
+				"vars": [
+					"count"
+				]
+			},
+			"op": {
+				"eng": "OP: PRISM_RUNNER",
+				"trans": "ÖR: PRISM_RUNNER\n</trans"
+			},
+			"pickups": {
+				"eng": "PICKUPS ${count}",
+				"trans": "TOP LANANLAR ${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"score": {
+				"eng": "SCORE ${score}",
+				"trans": "SKOR ${score}",
+				"vars": [
+					"score"
+				]
+			},
+			"shards": {
+				"eng": "SHARDS ${count}",
+				"trans": "PARÇA ${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"tier": {
+				"eng": "TIER ${tier}",
+				"trans": "${tier}</trans",
+				"vars": [
+					"tier"
+				]
+			},
+			"tierUnlocked": {
+				"eng": "TIER ${tier} UNLOCKED",
+				"trans": "${tier} AÇILDI</tran",
+				"vars": [
+					"tier"
+				]
+			},
+			"time": {
+				"eng": "TIME ${seconds}s",
+				"trans": "SÜRE ${seconds}sn",
+				"vars": [
+					"seconds"
+				]
+			}
+		},
+		"intro": {
+			"briefing": {
+				"eng": "RUN_BRIEFING",
+				"trans": "Operasyon Tanıtımı"
+			},
+			"eventClosed": {
+				"eng": "EVENT CLOSED",
+				"trans": "nslation>"
+			},
+			"eventInactive": {
+				"eng": "June event inactive",
+				"trans": "Haziran etkinliği devre dışı"
+			},
+			"juneEvent": {
+				"eng": "JUNE_EVENT",
+				"trans": "/translation>"
+			},
+			"needPass": {
+				"eng": "NEED PASS",
+				"trans": "ion>"
+			},
+			"rewardHint": {
+				"eng": "Reward bands pay June event supplies.",
+				"trans": "aziran etkinlik malzemeleri için ödül bantları kullanın<"
+			},
+			"rule1": {
+				"eng": "Tap to boost the prism marker upward.",
+				"trans": "rizma işaretleyicisini yükseltmek için dokunun.<"
+			},
+			"rule2": {
+				"eng": "Thread the marker through rainbow geometry gates.",
+				"trans": "tçiyi gökkuşağı geometri kapılarından geçir.</tran"
+			},
+			"rule3": {
+				"eng": "Collect prism shards to fill the EXP bar and unlock reward tiers.",
+				"trans": "rizma parçalarını topla, XP çubuğunu doldur ve ödül kademelerini aç.<"
+			},
+			"rule4": {
+				"eng": "Skim close to hazards for bonus score only.",
+				"trans": "alnızca tuzaklara yakın süzülerek bonus puan kazan.\n</"
+			},
+			"start": {
+				"eng": "START RUN",
+				"trans": "/tran"
+			},
+			"title": {
+				"eng": "Rainbow Run",
+				"trans": "Gökkuşağı Koşusu"
+			}
+		},
+		"loading": {
+			"title": {
+				"eng": "INITIALIZING_PRISM",
+				"trans": "ATILIYOR</translatio"
+			}
+		},
+		"processing": {
+			"eng": "PROCESSING_RUN_DATA",
+			"trans": "Çalıştırma verisi işleniyor\n<"
+		},
+		"processingRewards": {
+			"eng": "Calculating reward band...",
+			"trans": "Ödül aralığı hesaplanıyor..."
+		},
+		"results": {
+			"maxTitle": {
+				"eng": "MAX_TIER_REACHED",
+				"trans": "ksimum Seviye</"
+			},
+			"noRewards": {
+				"eng": "No rewards returned",
+				"trans": "iç ödül yok </"
+			},
+			"rewards": {
+				"eng": "Route Rewards",
+				"trans": "ota Ödülleri<"
+			},
+			"tier": {
+				"eng": "Tier ${tier} prism route cleared",
+				"trans": "${tier}. Seviye Prizm Rotası Geçildi",
+				"vars": [
+					"tier"
+				]
+			},
+			"title": {
+				"eng": "REWARD_BAND_LOCKED",
+				"trans": "dül Derecesi Kilitli<"
+			}
+		},
+		"stats": {
+			"airtime": {
+				"eng": "Airtime",
+				"trans": "Hava süresi"
+			},
+			"distance": {
+				"eng": "Distance",
+				"trans": "Mesafe"
+			},
+			"nearMisses": {
+				"eng": "Near Miss",
+				"trans": "Yakın Kaçış"
+			},
+			"pickups": {
+				"eng": "Pickups",
+				"trans": "lananlar</t"
+			},
+			"score": {
+				"eng": "Score",
+				"trans": "uan<"
+			}
+		}
+	},
 	"procedural": {
 		"equipmentName": {
 			"nameParts": {
@@ -10651,11 +11226,11 @@
 		},
 		"june": {
 			"desc": {
-				"eng": "🌈 All skips cost 5% less during June",
+				"eng": "Run the rainbow geometry route and earn June rewards",
 				"trans": "🌈 Haziran ayı boyunca tüm atlama işlemleri %5 daha ucuzdur"
 			},
 			"title": {
-				"eng": "5% off on skips during June!",
+				"eng": "June Rainbow Run",
 				"trans": "Haziran ayında skip'lerde %5 indirim!"
 			}
 		},
@@ -14689,6 +15264,34 @@
 			"secretKeys": {
 				"eng": "secret keys",
 				"trans": "Gizli Anahtarlar"
+			},
+			"sort": {
+				"active": {
+					"eng": "Active",
+					"trans": "Aktif <"
+				},
+				"best": {
+					"eng": "Best",
+					"trans": "</transl"
+				},
+				"eng": "Sort",
+				"level": {
+					"eng": "Level",
+					"trans": "eviye<"
+				},
+				"name": {
+					"eng": "Name",
+					"trans": "/transl"
+				},
+				"price": {
+					"eng": "Price",
+					"trans": "Fiyat"
+				},
+				"tier": {
+					"eng": "Tier",
+					"trans": "Kalite"
+				},
+				"trans": "ırala<"
 			}
 		},
 		"itemDetails": {
@@ -14974,7 +15577,7 @@
 		},
 		"list": {
 			"longPressToMultiSelect": {
-				"eng": "Long press to multi-select",
+				"eng": "Long press to select",
 				"trans": "Çoklu seçim için basılı tutun"
 			}
 		},
@@ -15759,12 +16362,12 @@
 		"setting": {
 			"afkAnimation": {
 				"description": {
-					"eng": "Show visual animation section for AFK tasks",
+					"eng": "Show visual animation block for AFK tasks",
 					"trans": "AFK görevleri için görsel animasyon bölümünü göster"
 				},
 				"title": {
 					"eng": "AFK Animation",
-					"trans": "AFK Animation"
+					"trans": "AFK Animasyonu"
 				}
 			},
 			"animatedNpcCharacter": {
@@ -16129,9 +16732,9 @@
 					"trans": "Kullanımı onayla?"
 				}
 			},
-			"description": {
-				"eng": "Global Skip allows you to skip the AFK waiting time, and finish it instantly.\n    This effect will be applied to all players performing an AFK task.",
-				"trans": "Küresel Hızlandırma, AFK bekleme süresini geçmenizi ve anında bitirmenizi sağlar.\r\n     Bu etki, AFK görevinde olan tüm oyunculara uygulanacaktır"
+			"globalSkipTip": {
+				"eng": "Global Skip instantly completes AFK tasks for all players, give the legend some cred, or contribute to empower the community.",
+				"trans": "Global Skip tüm oyuncuların AFK görevlerini anında tamamlar; efsaneyi destekleyerek ona değer katın ya da topluluğu güçlendirmek için katkıda bulunun.\n<"
 			},
 			"inProgressBox": {
 				"subtitle": {
