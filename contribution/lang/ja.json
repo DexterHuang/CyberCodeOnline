@@ -1240,6 +1240,10 @@
 			"eng": "Roll Dice",
 			"trans": "サイコロを振る"
 		},
+		"selectEquipmentToShare": {
+			"eng": "Select Equipment to Share",
+			"trans": "共有する装備を選択"
+		},
 		"shareItem": {
 			"eng": "Share Item",
 			"trans": "アイテムを共有"
@@ -2110,6 +2114,10 @@
 					"chatFrame"
 				]
 			},
+			"chatProfileImage": {
+				"eng": "Profile image chat frame",
+				"trans": "チャット用プロフィール画像枠"
+			},
 			"clanImage": {
 				"eng": "Unlock gang banner image customization",
 				"trans": "ギャングバナー画像のカスタマイズ機能を開放"
@@ -2330,7 +2338,7 @@
 			"trans": "エリート"
 		},
 		"donation30": {
-			"eng": "Rainbow",
+			"eng": "Spectrum",
 			"trans": "レインボー"
 		},
 		"donation31": {
@@ -2424,6 +2432,14 @@
 		"donation51": {
 			"eng": "Cyberdeck",
 			"trans": "サイバーデッキ"
+		},
+		"donation52": {
+			"eng": "Rogue Signal",
+			"trans": "不正電波"
+		},
+		"donation53": {
+			"eng": "Lightwalker",
+			"trans": "ライトウォーカー"
 		},
 		"donation6": {
 			"eng": "Prestige",
@@ -3799,16 +3815,16 @@
 				"eng": "June",
 				"trans": "6月"
 			},
-			"prismRunner": {
-				"eng": "Rainbow Run",
-				"trans": "レインボーラン"
-			},
 			"skipDiscountTitle": {
 				"eng": "${percent}% off during event",
 				"trans": "イベント中の${percent}％オフ",
 				"vars": [
 					"percent"
 				]
+			},
+			"spectrumJump": {
+				"eng": "Spectrum Jump",
+				"trans": "スペクトラムジャンプ"
 			}
 		},
 		"lunarNewYear": {
@@ -3858,6 +3874,10 @@
 			}
 		},
 		"summer": {
+			"eventGame": {
+				"eng": "Solar Float Stack",
+				"trans": "太陽浮遊スタック"
+			},
 			"name": {
 				"eng": "Summer",
 				"trans": "サマー"
@@ -4927,6 +4947,20 @@
 				"trans": "フロストバイトシャード"
 			}
 		},
+		"chromaStabilizer": {
+			"description": {
+				"eng": "A refractive neural booster tuned by Lightwalker. Consume to increase EXP received in AFK tasks by ${percent}% for ${minutes} minutes.",
+				"trans": "ライトウォーカーが調整した屈折型ニューラルブースター。消費することで、${minutes}分間、自動タスクにおける経験値獲得量が${percent}%増加する。",
+				"vars": [
+					"percent",
+					"minutes"
+				]
+			},
+			"name": {
+				"eng": "Chroma Stabilizer",
+				"trans": "クロマ安定装置"
+			}
+		},
 		"clanDungeonKey": {
 			"description": {
 				"eng": "A simple transmitter device that can be bind to your gang encrypted channel and give out invasion order.\n        This item is required to activate Gang Dungeons",
@@ -5689,30 +5723,10 @@
 				"trans": "ナノ粒子ニブルボール"
 			}
 		},
-		"pridePrism": {
-			"description": {
-				"eng": "A radiant keepsake from the Rainbow Run.",
-				"trans": "レインボーランの光り輝く記念品"
-			},
-			"name": {
-				"eng": "Rainbow Prism",
-				"trans": "レインボープリズム"
-			}
-		},
 		"primaryWeapon": {
 			"name": {
 				"eng": "Primary Weapon",
 				"trans": "メインウェポン"
-			}
-		},
-		"prismRunPass": {
-			"description": {
-				"eng": "A chromatic access token for the June Rainbow Run event game. Required to enter the rainbow geometry course.",
-				"trans": "六月レインボーランイベント用のクロマティックアクセストークン。レインボージオメトリーコースへの入場に必要。"
-			},
-			"name": {
-				"eng": "Rainbow Run Pass",
-				"trans": "レインボーランパス"
 			}
 		},
 		"pudding": {
@@ -5943,6 +5957,36 @@
 			"name": {
 				"eng": "Soda Pop",
 				"trans": "ソーダポップ"
+			}
+		},
+		"solarFloatPass": {
+			"description": {
+				"eng": "A sealed beach access pass required to initialize Solar Float Stack during the Summer event.",
+				"trans": "サマーイベント期間中、ソーラーフロートスタックの初期化に必要な未使用ビーチアクセスパスです。"
+			},
+			"name": {
+				"eng": "Solar Float Pass",
+				"trans": "ソーラーフロートパス"
+			}
+		},
+		"spectrumJumpPass": {
+			"description": {
+				"eng": "A chromatic access pass issued by Lightwalker for the June Spectrum Jump event game.",
+				"trans": "ライトウォーカーが6月のスペクトラムジャンプイベント向けに発行したクロマティックアクセスパス"
+			},
+			"name": {
+				"eng": "Spectrum Jump Pass",
+				"trans": "スペクトルジャンプパス"
+			}
+		},
+		"spectrumPrism": {
+			"description": {
+				"eng": "A radiant prism recovered from Spectrum Jump. Its surface splits light into unstable color bands.",
+				"trans": "スペクトルジャンプより回収された発光プリズム。その表面は光を不安定な色の帯に分光する。"
+			},
+			"name": {
+				"eng": "Spectrum Prism",
+				"trans": "分光プリズム"
 			}
 		},
 		"summonAI": {
@@ -7556,6 +7600,10 @@
 			"eng": "You can only send images to players who has added you to their friend list",
 			"trans": "相互にフレンド登録されているプレイヤーへのみ画像送信できます"
 		},
+		"cannotShareItem": {
+			"eng": "You cannot share items in mail",
+			"trans": "メールでのアイテム共有はできません。"
+		},
 		"imageSendLimit": {
 			"eng": "You can only send ${limit} images every ${hours} hours",
 			"trans": "${hours}時間ごとに${limit}枚まで画像送信できます",
@@ -7563,6 +7611,14 @@
 				"limit",
 				"hours"
 			]
+		},
+		"itemNotFound": {
+			"eng": "Item not found",
+			"trans": "アイテムが見つかりません"
+		},
+		"onlyEquipmentCanBeShared": {
+			"eng": "Only equipment can be shared",
+			"trans": "装備品のみ共有可能です"
 		}
 	},
 	"market": {
@@ -8158,25 +8214,25 @@
 			}
 		},
 		"relayGrid": {
-			"clearAll": {
-				"eng": "CLEAR",
-				"trans": "クリア"
-			},
-			"clearConfirm": {
-				"eng": "CONFIRM?",
-				"trans": "確認しますか？"
-			},
 			"hint": {
 				"detail": {
 					"eng": "Paths cannot cross - avoid broken nodes",
 					"trans": "パスは交差できません - 壊れたノードを避けてください"
 				},
-				"eng": "ACTIVATE NODES TO CREATE PATHS",
+				"eng": "TAP NODES OR DRAG TO CREATE PATHS",
+				"systemActive": {
+					"eng": "SYSTEM ACTIVE",
+					"trans": "システム稼働中"
+				},
 				"trans": "ノードを起動して経路を作ろう"
 			},
 			"instructions": {
 				"eng": "Connect all signals - paths cannot cross",
 				"trans": "すべての信号を結び、経路が交差しないようにする"
+			},
+			"objective": {
+				"eng": "OBJECTIVE:",
+				"trans": "目标："
 			},
 			"smartHint": {
 				"dismiss": {
@@ -8184,16 +8240,44 @@
 					"trans": "[ タップで閉じる ]"
 				},
 				"eng": "Paths cannot share nodes - route around obstacles",
+				"title": {
+					"eng": "HINT",
+					"trans": "ヒント"
+				},
 				"trans": "パスはノードを共有できません - 障害物を迂回してください。"
-			},
-			"undo": {
-				"eng": "UNDO",
-				"trans": "取り消し"
 			},
 			"win": {
 				"description": {
 					"eng": "All routes established",
 					"trans": "全ルート確立！"
+				},
+				"efficiency": {
+					"acceptable": {
+						"eng": "ACCEPTABLE",
+						"trans": "合格"
+					},
+					"eng": "EFFICIENCY:",
+					"good": {
+						"eng": "GOOD",
+						"trans": "グッド"
+					},
+					"optimal": {
+						"eng": "OPTIMAL",
+						"trans": "最適"
+					},
+					"trans": "効率："
+				},
+				"nodesUsed": {
+					"eng": "NODES USED:",
+					"trans": "使用ノード数："
+				},
+				"routes": {
+					"eng": "ROUTES:",
+					"trans": "経路"
+				},
+				"status": {
+					"eng": "OPERATION STATUS",
+					"trans": "作戦ステータス"
 				},
 				"title": {
 					"eng": "MISSION COMPLETE",
@@ -8220,6 +8304,76 @@
 			"title": {
 				"eng": "Memory Bank Override",
 				"trans": "メモリーバンクオーバーライド"
+			}
+		},
+		"signalSplice": {
+			"endpoint": {
+				"error": {
+					"eng": "ERR",
+					"trans": "エラー"
+				}
+			},
+			"fail": {
+				"description": {
+					"eng": "Bad splice detected. Reinitialize board.",
+					"trans": "スパイスエラーを検知しました。盤面を再初期化してください。"
+				},
+				"retry": {
+					"eng": "Retry",
+					"trans": "リトライ"
+				},
+				"title": {
+					"eng": "Signal lost",
+					"trans": "通信途絶"
+				}
+			},
+			"nodeCount": {
+				"eng": "LINK ${completed} / ${total}",
+				"trans": "リンク ${completed} / ${total}",
+				"vars": [
+					"completed",
+					"total"
+				]
+			},
+			"progress": {
+				"eng": "Linked ${completed} of ${total}",
+				"trans": "${total}中${completed}リンク済",
+				"vars": [
+					"completed",
+					"total"
+				]
+			},
+			"status": {
+				"rejected": {
+					"eng": "SIGNAL REJECTED",
+					"trans": "信号拒否"
+				},
+				"selectSource": {
+					"eng": "SELECT SOURCE",
+					"trans": "ソース選択"
+				},
+				"signalSynced": {
+					"eng": "SIGNAL SYNCED",
+					"trans": "シグナル同期完了"
+				},
+				"targetArmed": {
+					"eng": "TARGET ARMED",
+					"trans": "ターゲット警戒状態"
+				}
+			},
+			"title": {
+				"eng": "Signal Splice",
+				"trans": "信号編集"
+			},
+			"win": {
+				"description": {
+					"eng": "Processing splice report...",
+					"trans": "結合レポート処理中..."
+				},
+				"title": {
+					"eng": "Signal restored",
+					"trans": "信号復旧"
+				}
 			}
 		},
 		"symbolAlignment": {
@@ -8802,7 +8956,7 @@
 				"trans": "ギフトを送る"
 			},
 			"sendPrivateMessage": {
-				"eng": "Send Private Message",
+				"eng": "Private Message",
 				"trans": "プライベートメッセージを送る"
 			}
 		},
@@ -9918,9 +10072,9 @@
 		"pride": {
 			"defaultLines": {
 				"eng": [
-					"Ready to take on the Rainbow Run?",
-					"The route is live. Bring your Rainbow Run pass and launch when you're ready.",
-					"Keep your line clean, collect prisms, and push for the next reward band."
+					"Ready to try Spectrum Jump?",
+					"The spectrum gates are live. Bring your Spectrum Jump Pass and launch when you're ready.",
+					"Keep your line clean, collect chroma shards, and push for the next reward band."
 				],
 				"trans": [
 					"レインボーランに挑む準備はいいか？",
@@ -9929,11 +10083,11 @@
 				]
 			},
 			"name": {
-				"eng": "Rainbow Run Plaza",
+				"eng": "Spectrum Plaza",
 				"trans": "レインボーランプラザ"
 			},
 			"npcName": {
-				"eng": "Prism Guide",
+				"eng": "Lightwalker",
 				"trans": "プリズムガイド"
 			}
 		},
@@ -10053,43 +10207,31 @@
 				"eng": "You need to be at least level 10 to access merchant",
 				"trans": "交易所にアクセスするためにはレベル10以上になる必要があります"
 			},
-			"defaultLines": {
-				"eng": [
-					"Hey kid, I'm Lee, You know, you don't have to carry everything you own in your pockets."
-				],
-				"trans": [
-					"よう, 俺はリーだ. なんでもポケットに突っ込むわけにはいかないだろ？",
-					"お前さんが欲しい物ぐらいならなんだって揃えてやるぜ.",
-					"さぁ, 取引といこうじゃないか.",
-					"お前さんはこれが欲しい, 俺はそれが欲しい. 交易成立だ.",
-					"で, どうするんだ？ 交易をご希望かい？",
-					"そろそろバッグを新調するかい？",
-					"ここじゃあカネは役に立たんぜ. それ以外のモンを見せてもらおうか.",
-					"いらっしゃい. 大してでかくもない交易所だが, まぁ好きなだけ見てってくれや.",
-					"今日は何を持ってきたんだ？ 見せてもらおうじゃないか.",
-					"ウチみたいな店はそう多くないと思うぜ.",
-					"今日は何を持ってきたんだ？",
-					"バックパックがあれば, 見つけたお宝をザックザック持って帰れるってな.",
-					"質より量を重視してるんでね.",
-					"交易するのかしないのか, どうなんだ？",
-					"全てのバッグは「『収納の』バッグ」だと思うんだが...どう思う？",
-					"もっとかしこく持ち物を収納するやり方があるぜ.",
-					"俺はリー. お前さんが探してたのはまさに俺さ.",
-					"そうやって荷物を引きずって歩くのにも疲れてきたんじゃないか？",
-					"そろそろ新しいバックパックがいるんじゃないのかい.",
-					"気に入ったか？ そんならぜひ交易してくれ.",
-					"ポケットが一杯のようだな. 荷物を軽くしたいんなら力になるぜ.",
-					"ポケットいっぱいに物が入ってちゃあ, まともに戦闘なんて出来んだろ？",
-					"持ち物を全部ポケットに突っ込む必要はないんだぜ.",
-					"さぁ取引だ. お前さんは中古のバッグをたくさん持ってくる, 俺は新しいバッグを渡す.",
-					"ふらついてるように見えるぞ. 荷物を背負いきれてないんじゃないか？",
-					"メイ……今は''センパイ''だったな. 話は裏で聞く.",
-					"バッグが入り用なときはウチに来い. バックパックもある."
-				]
-			},
 			"description": {
 				"eng": "A family run trading shop that lets you trade with what they have found while scavenging",
 				"trans": "収集した物を交換できる家族経営の交易所"
+			},
+			"lines": {
+				"eng": [
+					"Where's everyone going? Bag shopping?",
+					"When's the last time you cleaned that backpack?",
+					"That pouch looks like it came with the demo.",
+					"Take this. Go commit inventory crimes.",
+					"Grace's bag is tiny. Yours doesn't have to be.",
+					"You think bag upgrades are hard? You should see what I fought through for mine.",
+					"We all got older. Your carry capacity didn't.",
+					"No thanks, bro. Unless you're buying a bag."
+				],
+				"trans": [
+					"皆、どこへ行くんだ？バッグでも買いに？",
+					"そのバックパック、最後にお手入れしたのはいつだ？",
+					"そのポーチ、デモ機の付属品みたいだな。",
+					"これ、受け取って。インベントリ犯罪でも犯してこい。",
+					"グレイスのバッグは小さいけど、君のはもっと広くできるよ。",
+					"バッグのアップグレードが難しいと思っている？私の分を手に入れるために、どんだけの戦いを乗り越えたか見てみろ。",
+					"歳は取ったけど、君の運搬能力は一向に上がらないな",
+					"パスだ兄弟。バッグ買うなら別だが。"
+				]
 			},
 			"name": {
 				"eng": "Lee's Trading Post",
@@ -10498,7 +10640,7 @@
 			}
 		},
 		"cooldownTitle": {
-			"eng": "Adoption Available",
+			"eng": "Adoption Cooldown",
 			"trans": "ペット譲渡会の開催可能"
 		},
 		"error": {
@@ -10545,6 +10687,10 @@
 		"petSlot": {
 			"eng": "Apartment pet capacity",
 			"trans": "アパートのペット飼育可能数"
+		},
+		"readyStatus": {
+			"eng": "Adoption Ready",
+			"trans": "迎え入れ可能"
 		}
 	},
 	"petDetailsPage": {
@@ -10685,7 +10831,7 @@
 		"activateButton": {
 			"confirmModal": {
 				"message": {
-					"eng": "Are you sure you want to activate pet revive buff? this will allow all players to revive one pet during the buff duration",
+					"eng": "Activate a global revive window? Any player whose pet needs revival can revive one pet while it is active.",
 					"trans": "ペット復活バフを起動しますか？これにより, バフ期間中に全てのプレイヤーがペットを1匹復活させることができます"
 				},
 				"title": {
@@ -10715,7 +10861,7 @@
 			"trans": "復活"
 		},
 		"reviveDescription": {
-			"eng": "You may revive your pet when ${buffName} buff is active",
+			"eng": "You may revive your pet while the global ${buffName} buff is active",
 			"trans": "${buffName}バフがアクティブの時に, ペットを復活させることができます.",
 			"vars": [
 				"buffName"
@@ -11130,6 +11276,27 @@
 			"trans": "無料"
 		}
 	},
+	"pridePromo": {
+		"description": {
+			"eng": "Report to ${npcName}, spend Spectrum Jump Passes, and convert clean runs into chroma rewards.",
+			"trans": "${npcName}に報告し、スペクトラムジャンプパスを消費してクリーンランをクロマ報酬に変換。",
+			"vars": [
+				"npcName"
+			]
+		},
+		"kicker": {
+			"eng": "June Event",
+			"trans": "6月イベント"
+		},
+		"rewardSignal": {
+			"eng": "Reward Signal",
+			"trans": "報酬シグナル"
+		},
+		"title": {
+			"eng": "Spectrum Jump",
+			"trans": "スペクトルジャンプ"
+		}
+	},
 	"prismRunner": {
 		"button": {
 			"status": {
@@ -11137,11 +11304,11 @@
 				"trans": "アップリンク：準備完了"
 			},
 			"subtitle": {
-				"eng": "RAINBOW GEOMETRY ROUTE",
+				"eng": "SPECTRUM GATE COURSE",
 				"trans": "レインボージオメトリルート"
 			},
 			"title": {
-				"eng": "RAINBOW RUN",
+				"eng": "SPECTRUM JUMP",
 				"trans": "レインボーラン"
 			}
 		},
@@ -11161,7 +11328,7 @@
 				"trans": "6月イベントは現在開催されていません。"
 			},
 			"noPass": {
-				"eng": "You need a ${itemName} to enter Rainbow Run.",
+				"eng": "You need a ${itemName} to enter Spectrum Jump.",
 				"trans": "レインボーランに進入するには、${itemName} が必要です。",
 				"vars": [
 					"itemName"
@@ -11196,7 +11363,7 @@
 				"trans": "報酬帯未到達"
 			},
 			"title": {
-				"eng": "PRISM_BREAK",
+				"eng": "SIGNAL_FRACTURE",
 				"trans": "プリズムブレイク"
 			}
 		},
@@ -11293,15 +11460,15 @@
 				"trans": "報酬で6月イベントアイテムを購入可能"
 			},
 			"rule1": {
-				"eng": "Tap to boost the prism marker upward.",
+				"eng": "Tap to boost the spectrum marker upward.",
 				"trans": "タップしてプリズムマーカーを上へ送る"
 			},
 			"rule2": {
-				"eng": "Thread the marker through rainbow geometry gates.",
+				"eng": "Thread the marker through spectrum gates.",
 				"trans": "マーカーを虹色ジオメトリゲートに誘導せよ。"
 			},
 			"rule3": {
-				"eng": "Collect prism shards to fill the EXP bar and unlock reward tiers.",
+				"eng": "Collect chroma shards to fill the EXP bar and unlock reward tiers.",
 				"trans": "プリズムシャードを集めてEXPゲージを満たし、報酬ティアを解放する。"
 			},
 			"rule4": {
@@ -11309,17 +11476,17 @@
 				"trans": "ハザードのぎりぎりを通過すると、ボーナススコアのみ加算される。"
 			},
 			"start": {
-				"eng": "START RUN",
+				"eng": "START JUMP",
 				"trans": "ラン開始"
 			},
 			"title": {
-				"eng": "Rainbow Run",
+				"eng": "Spectrum Jump",
 				"trans": "レインボーラン"
 			}
 		},
 		"loading": {
 			"title": {
-				"eng": "INITIALIZING_PRISM",
+				"eng": "INITIALIZING_SPECTRUM",
 				"trans": "プリズム初期化中"
 			}
 		},
@@ -11341,11 +11508,11 @@
 				"trans": "報酬なし"
 			},
 			"rewards": {
-				"eng": "Route Rewards",
+				"eng": "Spectrum Rewards",
 				"trans": "ルート報酬"
 			},
 			"tier": {
-				"eng": "Tier ${tier} prism route cleared",
+				"eng": "Tier ${tier} spectrum gate cleared",
 				"trans": "ティア${tier} プリズムルート クリア",
 				"vars": [
 					"tier"
@@ -11457,12 +11624,8 @@
 			}
 		},
 		"june": {
-			"desc": {
-				"eng": "Run the rainbow geometry route and earn June rewards",
-				"trans": "🌈 6月中は, スキップに必要なユニットが5%オフ！"
-			},
 			"title": {
-				"eng": "June Rainbow Run",
+				"eng": "June Spectrum Jump",
 				"trans": "6月中は, スキップに必要なユニットが5%オフになります！"
 			}
 		},
@@ -13833,6 +13996,254 @@
 			"trans": "サマーフィエスタ：お見逃しなく！"
 		}
 	},
+	"summerStack": {
+		"button": {
+			"subtitle": {
+				"eng": "CONTAINMENT STACK COURSE",
+				"trans": "隔離スタックコース"
+			},
+			"title": {
+				"eng": "SOLAR FLOAT STACK",
+				"trans": "ソーラーフロートスタック"
+			}
+		},
+		"complete": {
+			"notification": {
+				"eng": "Solar Float Stack cleared through stage ${stage}. Rewards sent to inbox.",
+				"trans": "Solar Float Stackを${stage}ステージまでクリアしました。報酬はインボックスに送付しました。",
+				"vars": [
+					"stage"
+				]
+			}
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "The summer event is not active.",
+				"trans": "サマーイベントは現在開催しておりません。"
+			},
+			"noPass": {
+				"eng": "You need a ${itemName} to enter Solar Float Stack.",
+				"trans": "ソーラーフロートスタックへの進入には、${itemName}が必要です。",
+				"vars": [
+					"itemName"
+				]
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "EXIT",
+				"trans": "閉じる"
+			},
+			"message": {
+				"eng": "The stack runtime failed before reward submission completed.",
+				"trans": "報酬提出完了前にスタック実行が失敗しました。"
+			},
+			"title": {
+				"eng": "STACK_RUNTIME_FAILURE",
+				"trans": "スタック実行時エラー"
+			}
+		},
+		"failed": {
+			"notification": {
+				"eng": "Solar Float Stack failed. Pass consumed.",
+				"trans": "ソーラーフロートスタックに失敗しました。パスが消費されました。"
+			}
+		},
+		"hud": {
+			"drops": {
+				"eng": "DROPS",
+				"trans": "ドロップ"
+			},
+			"dropsLeft": {
+				"eng": "${dropsLeft} LEFT",
+				"trans": "残り${dropsLeft}",
+				"vars": [
+					"dropsLeft"
+				]
+			},
+			"lossRules": {
+				"eng": "Lose if time hits 0 or drops run out before target is made.",
+				"trans": "時間切れまたはドロップが尽き、ターゲットを達成できない場合は敗北"
+			},
+			"stage": {
+				"eng": "STAGE ${stage}",
+				"trans": "ステージ${stage}",
+				"vars": [
+					"stage"
+				]
+			},
+			"target": {
+				"eng": "Make ${targetName} to clear this stage.",
+				"trans": "${targetName}を倒してこのステージをクリア",
+				"vars": [
+					"targetName"
+				]
+			},
+			"targetProgress": {
+				"eng": "${current}/${target}",
+				"trans": "${current}/${target}",
+				"vars": [
+					"current",
+					"target"
+				]
+			},
+			"time": {
+				"eng": "TIME",
+				"trans": "時刻"
+			},
+			"timeLeft": {
+				"eng": "${time}s",
+				"trans": "${time}秒",
+				"vars": [
+					"time"
+				]
+			},
+			"title": {
+				"eng": "SOLAR_FLOAT_STACK",
+				"trans": "ソーラーフロートスタック"
+			},
+			"win": {
+				"eng": "WIN",
+				"trans": "勝利"
+			}
+		},
+		"intro": {
+			"briefing": {
+				"eng": "STACK_BRIEFING",
+				"trans": "スタックブリーフィング"
+			},
+			"eventClosed": {
+				"eng": "EVENT CLOSED",
+				"trans": "イベント終了"
+			},
+			"eventInactive": {
+				"eng": "Summer event inactive",
+				"trans": "サマーイベント 非アクティブ"
+			},
+			"eventLabel": {
+				"eng": "SUMMER_EVENT",
+				"trans": "サマーイベント"
+			},
+			"needPass": {
+				"eng": "NEED PASS",
+				"trans": "パスが必要です"
+			},
+			"rewardHint": {
+				"eng": "Reward bands pay summer materials and tech salvage.",
+				"trans": "報酬帯からはサマー素材とテックサルベージが支給されます。"
+			},
+			"rule1": {
+				"eng": "Drag along the rail, release, and drop a summer sphere.",
+				"trans": "レールに沿ってドラッグし、指を離してサマースフィアをドロップしてください。"
+			},
+			"rule2": {
+				"eng": "Match identical round objects to merge into larger floats.",
+				"trans": "同じ円形アイテムを合わせて、大きなフロートに合体させましょう。"
+			},
+			"rule3": {
+				"eng": "Make the target float before time or drops run out.",
+				"trans": "時間かドロップが尽きる前に、ターゲットを浮かせる。"
+			},
+			"rule4": {
+				"eng": "Only the terminal stage result consumes the pass and pays rewards.",
+				"trans": "最終ステージの結果のみでパスが消費され、報酬が授与されます。"
+			},
+			"start": {
+				"eng": "START STACK",
+				"trans": "スタック開始"
+			},
+			"title": {
+				"eng": "Solar Float Stack",
+				"trans": "太陽浮遊スタック"
+			}
+		},
+		"loading": {
+			"title": {
+				"eng": "INITIALIZING_STACK",
+				"trans": "スタック初期化中"
+			}
+		},
+		"stageClear": {
+			"continue": {
+				"eng": "NEXT STAGE",
+				"trans": "次のステージ"
+			},
+			"next": {
+				"eng": "Target tier secured. Continue stacking.",
+				"trans": "目標ティア確保。スタッキング続行。"
+			},
+			"title": {
+				"eng": "STAGE_CLEAR",
+				"trans": "ステージクリア"
+			}
+		},
+		"submissionError": {
+			"exit": {
+				"eng": "EXIT",
+				"trans": "閉じる"
+			},
+			"message": {
+				"eng": "Reward submission failed or timed out. Do not retry this run. Contact support or exit.",
+				"trans": "報酬の送信失敗またはタイムアウトしました。この試行は再試行しないでください。サポートへ連絡するか、終了してください。"
+			},
+			"title": {
+				"eng": "SUBMISSION_UNCERTAIN",
+				"trans": "提出状況不明"
+			}
+		},
+		"submitting": {
+			"message": {
+				"eng": "Terminal result locked. Do not retry.",
+				"trans": "ターミナル結果はロックされています。再試行しないでください。"
+			},
+			"title": {
+				"eng": "SUBMITTING_RUN_DATA",
+				"trans": "データ送信中"
+			}
+		},
+		"tier": {
+			"coconutBuoy": {
+				"eng": "Coconut Buoy",
+				"trans": "ココナッツブイ"
+			},
+			"megaBeachBall": {
+				"eng": "Mega Beach Ball",
+				"trans": "メガビーチボール"
+			},
+			"miniBeachBall": {
+				"eng": "Mini Beach Ball",
+				"trans": "ミニビーチボール"
+			},
+			"neonSurfOrb": {
+				"eng": "Neon Surf Orb",
+				"trans": "ネオンサーフオーブ"
+			},
+			"rescueRing": {
+				"eng": "Rescue Ring",
+				"trans": "レスキューリング"
+			},
+			"signalFloatRing": {
+				"eng": "Signal Float Ring",
+				"trans": "シグナルフロートリング"
+			},
+			"solarDiscFloat": {
+				"eng": "Solar Disc Float",
+				"trans": "ソーラーディスクフロート"
+			},
+			"solarWatermelonFloat": {
+				"eng": "Solar Watermelon Float",
+				"trans": "ソーラースイカフロート"
+			},
+			"stripedSignalBall": {
+				"eng": "Striped Signal Ball",
+				"trans": "ストライプシグナルボール"
+			},
+			"waterBalloonOrb": {
+				"eng": "Water Balloon Orb",
+				"trans": "水風船オーブ"
+			}
+		}
+	},
 	"surveyModal": {
 		"des1": {
 			"eng": "Hi! I'm Dexter, the developer of this game, and I hope to know your experience so far.",
@@ -15885,6 +16296,17 @@
 			}
 		},
 		"mail": {
+			"addImage": {
+				"eng": "Add Image",
+				"trans": "画像を追加"
+			},
+			"cantShareItem": {
+				"eng": "Only players with ${tierName} donation tier and above can share items.",
+				"trans": "アイテムの共有は、${tierName}以上の寄付ティアを持つプレイヤーのみ可能です。",
+				"vars": [
+					"tierName"
+				]
+			},
 			"levelRequiredToChat": {
 				"eng": "You need to be at least level ${level} to chat",
 				"trans": "チャットするにはレベル${level}になる必要があります",
@@ -15898,6 +16320,14 @@
 				"vars": [
 					"donationName"
 				]
+			},
+			"selectEquipmentToShare": {
+				"eng": "Select Equipment to Share",
+				"trans": "共有する装備を選択"
+			},
+			"shareItem": {
+				"eng": "Share Item",
+				"trans": "アイテム共有"
 			}
 		},
 		"map": {
@@ -16185,6 +16615,42 @@
 			"adapt": {
 				"eng": "Adopt a new pet",
 				"trans": "新しいペットを飼う"
+			},
+			"reviveBuff": {
+				"buttonText": {
+					"activated": {
+						"eng": "Activated",
+						"trans": "発動中"
+					},
+					"notActivated": {
+						"eng": "Activate Buff",
+						"trans": "バフ発動"
+					}
+				},
+				"confirmDescription": {
+					"eng": "Activate a global revive window. Any player whose pet needs revival can revive one pet while it is active.",
+					"noDeadPets": {
+						"eng": "Your pets do not need revival right now, but this global revive window can still help other players revive pets that need care.",
+						"trans": "現在あなたのペットは蘇生不要ですが、このグローバル蘇生枠は他のプレイヤーが必要なペットの復活を支援します。"
+					},
+					"noPets": {
+						"eng": "You do not have pets yet, but this global revive window can still help other players revive pets that need care.",
+						"trans": "まだペットがいませんが、このグローバル復活枠は他プレイヤーの世話が必要なペットを回復させる支援として機能します。"
+					},
+					"trans": "グローバル蘇生期間を開始します。有効中、ペットの蘇生が必要なプレイヤーは1体まで蘇生可能です。"
+				},
+				"confirmTitle": {
+					"eng": "Activate Pet Revive Buff",
+					"trans": "ペット復活バフの有効化"
+				},
+				"description": {
+					"eng": "Deploy a global revive window. Any player whose pet needs revival can revive one pet while the buff is active.",
+					"trans": "全プレイヤー対象の復活枠を展開する。バフ有効中、ペットが倒れているプレイヤーは1匹まで復活可能。"
+				},
+				"title": {
+					"eng": "Activate Pet Revive Buff",
+					"trans": "ペット復活バフの有効化"
+				}
 			}
 		},
 		"playerDetails": {

@@ -16,6 +16,28 @@ Please send your feedback to my Discord or email me directly.
 
 ## Updates
 
+### 0.1894
+
+- **June Event Spectrum Jump**:
+  - Updated the June event presentation around `Spectrum Jump`, `Spectrum Prism`, and `Lightwalker` at `Spectrum Plaza`.
+  - Added a dedicated June promo screen with event benefits, rewards, and entry details.
+  - During the June event, skips have a rare chance to award the unobtainable `doge` emblem.
+- Added the new `Signal Splice` minigame.
+- Improved chat and mail attachment controls with cleaner previews and shared remove/action menus.
+- Improved chat translation and moderation handling for player names, images, and game-context.messages.
+- Improved mobile tabs with better accessibility behaviour.
+- Clarified global pet buff flows, including `Pet Revive` activation and pet adoption ready status.
+- Donation cards now show when a tier supports profile-image chat frames.
+- Updated `Lee`'s NPC illustration.
+- Updated `Bank of Arasaka` NPC illustration.
+- Updated `Calibration Station` NPC illustration.
+
+### 0.1893
+
+- Improved `Relay Grid` and fixed issues with solving algorithm.
+- Added mail equipment sharing for eligible donation tiers, so equipment can now be attached directly in private messages.
+- Improved leaderboards by filtering inactive players and refreshing cached rankings for cleaner results.
+
 ### 0.1892
 
 - **May Event & Missile Command**:
