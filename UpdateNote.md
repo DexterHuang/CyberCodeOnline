@@ -24,7 +24,6 @@ Please send your feedback to my Discord or email me directly.
   - During the June event, skips have a rare chance to award the unobtainable `doge` emblem.
 - Added the new `Signal Splice` minigame.
 - Improved chat and mail attachment controls with cleaner previews and shared remove/action menus.
-- Improved chat translation and moderation handling for player names, images, and game-context.messages.
 - Improved mobile tabs with better accessibility behaviour.
 - Clarified global pet buff flows, including `Pet Revive` activation and pet adoption ready status.
 - Donation cards now show when a tier supports profile-image chat frames.
