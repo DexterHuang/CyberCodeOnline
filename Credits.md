@@ -266,7 +266,7 @@ zomg
 [Manz](https://github.com/manztellen)
 [xmonkx](https://github.com/xmonkx)
 [Wootles](https://github.com/Wootles)
-[K4LM3D](https://github.com/mksalada)
+[K4LM3D](https://github.com/k4lm3d)
 [NTHiG](https://github.com/NTHGiT)
 [Jefreesujit](https://github.com/Jefreesujit)
 B3n7y
@@ -380,7 +380,7 @@ RsKaiser
 SKIFFI
 spyd3r
 [Tripplehelix](https://github.com/tripplehelix)
-[K4LM3D](https://github.com/mksalada)
+[K4LM3D](https://github.com/k4lm3d)
 [Wootles](https://github.com/Wootles)
 [Manz](https://github.com/manztellen)
 [Jefreesujit](https://github.com/Jefreesujit)
