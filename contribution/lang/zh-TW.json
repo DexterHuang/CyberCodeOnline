@@ -1114,6 +1114,13 @@
 				"percent"
 			]
 		},
+		"eventDiscountTitle": {
+			"eng": "${eventName} Discount",
+			"trans": "${eventName} 特惠",
+			"vars": [
+				"eventName"
+			]
+		},
 		"hintBox": {
 			"text2": {
 				"eng": "When calibration train funding reaches 100%, the system will automatically deploy +1 to +10 calibration success rate and destruction prevention buffs in sequence with interval of ${deployInterval} minutes. the buff train will starting at the next designated time",
@@ -2440,6 +2447,10 @@
 		"donation53": {
 			"eng": "Lightwalker",
 			"trans": "逐光者"
+		},
+		"donation54": {
+			"eng": "Vice Heat",
+			"trans": "罪惡熾焰"
 		},
 		"donation6": {
 			"eng": "Prestige",
@@ -3883,8 +3894,18 @@
 				"trans": "夏季"
 			},
 			"topUpRewardTitle": {
-				"eng": "Summer Bonus",
+				"eng": "Heatwave Festival Bonus",
 				"trans": "夏日獎勵"
+			}
+		},
+		"summerNights": {
+			"eventGame": {
+				"eng": "Neon Nights Grid",
+				"trans": "霓虹夜方陣"
+			},
+			"name": {
+				"eng": "Summer Nights",
+				"trans": "夏夜"
 			}
 		},
 		"thanksgiving": {
@@ -4241,6 +4262,13 @@
 			"trans": "早鳥貢獻者可享高達 ${percent}% 的折扣",
 			"vars": [
 				"percent"
+			]
+		},
+		"eventDiscountTitle": {
+			"eng": "${eventName} Discount",
+			"trans": "${eventName} 特惠",
+			"vars": [
+				"eventName"
 			]
 		},
 		"hint": {
@@ -5604,6 +5632,16 @@
 				"trans": "飛彈指揮官通行證"
 			}
 		},
+		"neonNightsPass": {
+			"description": {
+				"eng": "A neon boardwalk access pass required to initialize Neon Nights Grid during the Summer Nights event. Can be found from AFK farming during Summer Nights.",
+				"trans": "用於在夏夜活動期間初始化霓虹之夜格網的霓虹步道通行證。可於活動期間藉由掛機作業取得。"
+			},
+			"name": {
+				"eng": "Neon Nights Pass",
+				"trans": "霓虹之夜通行證"
+			}
+		},
 		"newYear": {
 			"description": {
 				"eng": "A red envelope with a golden digital seal on it. looks like it contains some sort of currency",
@@ -5961,7 +5999,7 @@
 		},
 		"solarFloatPass": {
 			"description": {
-				"eng": "A sealed beach access pass required to initialize Solar Float Stack during the Summer event.",
+				"eng": "A sealed beach access pass required to initialize Solar Float Stack during Heatwave Festival.",
 				"trans": "夏季活動期間，用於初始化太陽能浮台組之密封海灘通行憑證。"
 			},
 			"name": {
@@ -9219,6 +9257,437 @@
 		"viewProfile": {
 			"eng": "View Profile",
 			"trans": "查看個人資料"
+		}
+	},
+	"neonNightsGrid": {
+		"button": {
+			"subtitle": {
+				"eng": "BOARDWALK LIGHT CIRCUIT",
+				"trans": "濱海大道照明迴路"
+			},
+			"title": {
+				"eng": "NEON NIGHTS GRID",
+				"trans": "霓虹之夜網格"
+			}
+		},
+		"canvas": {
+			"label": {
+				"eng": "Neon Nights Grid playfield. Drag tray pieces onto the 8 by 8 board.",
+				"trans": "霓虹之夜方格區。請將托盤中的元件拖曳至八乘八棋盤上。"
+			}
+		},
+		"drag": {
+			"occupied": {
+				"eng": "OCCUPIED",
+				"trans": "已被佔用"
+			},
+			"offGrid": {
+				"eng": "OFF GRID",
+				"trans": "脫網"
+			}
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "Summer Nights is not active.",
+				"trans": "夏日之夜活動目前未進行中。"
+			},
+			"noPass": {
+				"eng": "You need a ${itemName} to enter Neon Nights Grid.",
+				"trans": "須持有 ${itemName} 方可進入霓虹夜網。",
+				"vars": [
+					"itemName"
+				]
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "EXIT",
+				"trans": "離開"
+			},
+			"message": {
+				"eng": "Submission interrupted. Reward sync status is unknown.",
+				"trans": "提交中斷。獎勵同步狀態未知。"
+			},
+			"title": {
+				"eng": "SYNC STATUS UNKNOWN",
+				"trans": "同步狀態未知"
+			},
+			"verify": {
+				"eng": "Exit, then verify inventory/event log before starting another run.",
+				"trans": "退出後，請先確認背包與事件紀錄，再開始下一場實戰。"
+			}
+		},
+		"exit": {
+			"eng": "Exit",
+			"trans": "離開"
+		},
+		"feedback": {
+			"comboLost": {
+				"eng": "COMBO LOST",
+				"trans": "連擊中斷"
+			},
+			"invalid": {
+				"eng": "INVALID FIT",
+				"trans": "無法放置"
+			},
+			"lineClearCombo": {
+				"eng": "+${score} LINE CLEAR x${combo}",
+				"trans": "+${score} 消行 x${combo}",
+				"vars": [
+					"score",
+					"combo"
+				]
+			},
+			"lineClearScore": {
+				"eng": "+${score} LINE CLEAR",
+				"trans": "+${score} 消行分數",
+				"vars": [
+					"score"
+				]
+			},
+			"maxScore": {
+				"eng": "MAX TIER SYNCED",
+				"trans": "最高階同步達成"
+			},
+			"noFit": {
+				"eng": "NO FIT FOUND",
+				"trans": "未找到適用特效"
+			},
+			"occupied": {
+				"eng": "OCCUPIED",
+				"trans": "已被佔用"
+			},
+			"offGrid": {
+				"eng": "OFF GRID",
+				"trans": "脫網"
+			},
+			"placedScore": {
+				"eng": "+${score} PLACED",
+				"trans": "+${score} 已放置",
+				"vars": [
+					"score"
+				]
+			},
+			"timeout": {
+				"eng": "TIME EXPIRED",
+				"trans": "時間到"
+			}
+		},
+		"finish": {
+			"eng": "Finish",
+			"trans": "完成"
+		},
+		"gameOver": {
+			"subtitle": {
+				"eng": "No reward tier reached. Pass consumed.",
+				"trans": "未達獎勵門檻。門票已扣除。"
+			},
+			"title": {
+				"eng": "GRID LOCKED",
+				"trans": "系統鎖死"
+			}
+		},
+		"hint": {
+			"drag": {
+				"eng": "Drag tray pieces onto the board",
+				"trans": "拖曳托盤拼塊至面板上"
+			}
+		},
+		"hud": {
+			"comboValue": {
+				"eng": "Combo: x${combo}",
+				"trans": "連擊：x${combo}",
+				"vars": [
+					"combo"
+				]
+			},
+			"linesValue": {
+				"eng": "Lines: ${lines}",
+				"trans": "消行：${lines}",
+				"vars": [
+					"lines"
+				]
+			},
+			"maxTier": {
+				"eng": "MAX",
+				"trans": "極限"
+			},
+			"nextValue": {
+				"eng": "Next: ${threshold}",
+				"trans": "下個目標值：${threshold}",
+				"vars": [
+					"threshold"
+				]
+			},
+			"piecesValue": {
+				"eng": "Pieces: ${pieces}",
+				"trans": "零件: ${pieces}",
+				"vars": [
+					"pieces"
+				]
+			},
+			"score": {
+				"eng": "Score",
+				"trans": "分數"
+			},
+			"seconds": {
+				"eng": "${seconds}s",
+				"trans": "${seconds}秒",
+				"vars": [
+					"seconds"
+				]
+			},
+			"tier": {
+				"eng": "Tier",
+				"trans": "等級"
+			},
+			"time": {
+				"eng": "Time",
+				"trans": "時間"
+			}
+		},
+		"intro": {
+			"briefing": {
+				"eng": "GRID_BRIEFING",
+				"trans": "網格任務簡報"
+			},
+			"combo": {
+				"eng": "Consecutive line clears build a combo. Complete a full 3-piece tray with no line clear and it resets.",
+				"trans": "連續消行可疊加連擊。若填滿三格積木槽卻未消行，連擊數將歸零。"
+			},
+			"eventClosed": {
+				"eng": "EVENT CLOSED",
+				"trans": "活動已結束"
+			},
+			"eventInactive": {
+				"eng": "Summer Nights inactive",
+				"trans": "夏日之夜 未開放"
+			},
+			"eventLabel": {
+				"eng": "Summer Nights",
+				"trans": "夏夜"
+			},
+			"needPass": {
+				"eng": "NEED PASS",
+				"trans": "需輸入存取碼"
+			},
+			"passLabel": {
+				"eng": "ENTRY_PASS",
+				"trans": "入場憑證"
+			},
+			"rewardHint": {
+				"eng": "Reward tiers pay Summer Nights seashells and tech salvage.",
+				"trans": "獎勵階層將發放夏夜貝殼與科技殘骸。"
+			},
+			"rule1": {
+				"eng": "Drag one of three neon blocks onto the 8x8 board.",
+				"trans": "將三枚霓虹方塊之一拖曳至 8×8 棋盤上。"
+			},
+			"rule2": {
+				"eng": "Fill full rows or columns to clear lines and score.",
+				"trans": "填滿整列或整行即可消除並獲得分數。"
+			},
+			"rule3": {
+				"eng": "Score thresholds advance reward tiers during one continuous ${seconds}s run.",
+				"trans": "在單次連續${seconds}s的挑戰中，達成分數門檻即可晉升獎勵等級。",
+				"vars": [
+					"seconds"
+				]
+			},
+			"rule4": {
+				"eng": "Timeout submits the tier reached; ${score} score wins tier ${tier}.",
+				"trans": "逾時即結算當前階層；取得${score}分可晉升${tier}階。",
+				"vars": [
+					"score",
+					"tier"
+				]
+			},
+			"rule5": {
+				"eng": "If none of the current pieces can fit, the run ends and submits your reached tier.",
+				"trans": "若目前方塊無處可放，本局將結束並記錄你達到的階層。"
+			},
+			"start": {
+				"eng": "START GRID",
+				"trans": "啟動網格"
+			},
+			"title": {
+				"eng": "Neon Nights Grid",
+				"trans": "霓虹夜方陣"
+			}
+		},
+		"loading": {
+			"title": {
+				"eng": "INITIALIZING_GRID",
+				"trans": "網格初始化中"
+			}
+		},
+		"results": {
+			"maxTitle": {
+				"eng": "MAX TIER SYNCED",
+				"trans": "最高階同步達成"
+			},
+			"noRewards": {
+				"eng": "No rewards returned",
+				"trans": "未獲得獎勵"
+			},
+			"rewards": {
+				"eng": "Summer Nights Rewards",
+				"trans": "夏夜獎勵"
+			},
+			"seconds": {
+				"eng": "${seconds}s",
+				"trans": "${seconds}秒",
+				"vars": [
+					"seconds"
+				]
+			},
+			"tier": {
+				"eng": "Tier ${tier} neon circuit cleared",
+				"trans": "${tier} 階霓虹電路已通關",
+				"vars": [
+					"tier"
+				]
+			},
+			"title": {
+				"eng": "REWARD TIER SYNCED",
+				"trans": "獎勵等級已同步"
+			}
+		},
+		"stats": {
+			"achievedTier": {
+				"eng": "Achieved Tier",
+				"trans": "已達階級"
+			},
+			"bestCombo": {
+				"eng": "Best Combo",
+				"trans": "最高連擊數"
+			},
+			"combo": {
+				"eng": "Combo",
+				"trans": "連擊"
+			},
+			"lines": {
+				"eng": "Lines",
+				"trans": "行數"
+			},
+			"linesCleared": {
+				"eng": "Lines Cleared",
+				"trans": "消除行數"
+			},
+			"remaining": {
+				"eng": "Remain",
+				"trans": "剩餘"
+			},
+			"score": {
+				"eng": "Score",
+				"trans": "分數"
+			}
+		},
+		"submission": {
+			"doNotRetry": {
+				"eng": "Submission interrupted. Do not retry this run.",
+				"trans": "提交已中斷。請勿重試本次作業。"
+			},
+			"localOutcome": {
+				"eng": "LOCAL OUTCOME",
+				"trans": "區域結果"
+			},
+			"localResultShown": {
+				"eng": "Local result shown above. Server sync status unknown.",
+				"trans": "本機結果已顯示於上方，伺服器同步狀態未知。"
+			},
+			"noRetry": {
+				"eng": "Exit, then verify inventory/event log before starting another run.",
+				"trans": "退出後，請先確認背包與事件紀錄，再開始下一場實戰。"
+			},
+			"outcomeMaxTier": {
+				"eng": "MAX TIER",
+				"trans": "最高等階"
+			},
+			"outcomeNoFit": {
+				"eng": "NO FIT",
+				"trans": "無法放置"
+			},
+			"outcomeTimeout": {
+				"eng": "TIME EXPIRED",
+				"trans": "時間到"
+			},
+			"outcomeUnknown": {
+				"eng": "RUN ENDED",
+				"trans": "本局結束"
+			},
+			"syncUnknown": {
+				"eng": "REWARD SYNC UNKNOWN",
+				"trans": "獎勵同步未知"
+			}
+		},
+		"submitting": {
+			"subtitle": {
+				"eng": "Submitting final tier. Do not close.",
+				"trans": "正在提交最終階層資料，請勿關閉。"
+			},
+			"title": {
+				"eng": "SYNCING RUN DATA",
+				"trans": "同步遊玩數據中"
+			}
+		},
+		"tierUp": {
+			"title": {
+				"eng": "Tier ${tier} Synced",
+				"trans": "第 ${tier} 階同步完成",
+				"vars": [
+					"tier"
+				]
+			}
+		},
+		"vfx": {
+			"combo": {
+				"eng": "COMBO x${combo}",
+				"trans": "連擊 x${combo}",
+				"vars": [
+					"combo"
+				]
+			},
+			"endTier": {
+				"eng": "TIER ${tier}",
+				"trans": "${tier} 階",
+				"vars": [
+					"tier"
+				]
+			},
+			"maxGridSync": {
+				"eng": "MAX GRID SYNC",
+				"trans": "最大網格同步"
+			},
+			"noFitFound": {
+				"eng": "NO FIT FOUND",
+				"trans": "未找到適用特效"
+			},
+			"scoreGain": {
+				"eng": "+${score}",
+				"trans": "+${score}",
+				"vars": [
+					"score"
+				]
+			},
+			"tierSync": {
+				"eng": "TIER ${tier} SYNC",
+				"trans": "等級 ${tier} 同步",
+				"vars": [
+					"tier"
+				]
+			},
+			"timeExpired": {
+				"eng": "TIME EXPIRED",
+				"trans": "時間到"
+			},
+			"timer": {
+				"eng": "T-${seconds}",
+				"trans": "T-${seconds}",
+				"vars": [
+					"seconds"
+				]
+			}
 		}
 	},
 	"newYearFireworks": {
@@ -13961,13 +14430,40 @@
 			"trans": "拿取全部物品"
 		}
 	},
+	"summerNightsPromo": {
+		"subtitle": {
+			"eng": "Miami neon hits the coast. Collect seashells, trade with Josie, and run Neon Nights Grid.",
+			"trans": "邁阿密霓虹閃耀海岸。收集貝殼、與喬西交易，並遊玩霓虹之夜方塊關卡。"
+		},
+		"title": {
+			"eng": "Summer Nights",
+			"trans": "夏夜"
+		}
+	},
+	"summerNightsPromoSmall": {
+		"desc1": {
+			"eng": "Neon Nights Grid is live at Crystal Beach.",
+			"trans": "霓虹之夜格網現已於水晶海灘上線。"
+		},
+		"desc2": {
+			"eng": "Collect ${item} and trade with Josie.",
+			"trans": "收集 ${item}，與喬西兌換。",
+			"vars": [
+				"item"
+			]
+		},
+		"title": {
+			"eng": "Summer Nights",
+			"trans": "夏夜"
+		}
+	},
 	"summerPromo": {
 		"subtitle": {
-			"eng": "Its time for the summer beach! don't miss out on the fun!",
+			"eng": "Heat is rising on the coast. Collect seashells, trade with Josie, and run Solar Float Stack.",
 			"trans": "是時候好好享受夏天的海灘了！別錯過這樣的歡樂時光！"
 		},
 		"title": {
-			"eng": "Summer Fiesta Event",
+			"eng": "Heatwave Festival",
 			"trans": "夏季嘉年華活動"
 		}
 	},
@@ -13987,14 +14483,40 @@
 			]
 		},
 		"title": {
-			"eng": "Summer Fiesta: Don't Miss Out!",
+			"eng": "Heatwave Festival",
 			"trans": "夏季嘉年華：千萬別錯過！"
 		}
 	},
 	"summerStack": {
+		"assets": {
+			"exit": {
+				"eng": "EXIT",
+				"trans": "離開"
+			},
+			"failedMessage": {
+				"eng": "Required stack art did not load. No pass was consumed.",
+				"trans": "必要堆疊圖檔未能載入。未扣除使用次數。"
+			},
+			"failedTitle": {
+				"eng": "ASSET_LOAD_FAILED",
+				"trans": "資源載入失敗"
+			},
+			"loadingMessage": {
+				"eng": "Preparing required float sprites.",
+				"trans": "正在準備所需的懸浮貼圖"
+			},
+			"loadingTitle": {
+				"eng": "LOADING_STACK_ASSETS",
+				"trans": "載入資源中"
+			},
+			"retry": {
+				"eng": "RETRY",
+				"trans": "重試"
+			}
+		},
 		"button": {
 			"subtitle": {
-				"eng": "CONTAINMENT STACK COURSE",
+				"eng": "BEACH FLOAT MERGE",
 				"trans": "收容棧課程"
 			},
 			"title": {
@@ -14002,18 +14524,9 @@
 				"trans": "光能懸浮積層"
 			}
 		},
-		"complete": {
-			"notification": {
-				"eng": "Solar Float Stack cleared through stage ${stage}. Rewards sent to inbox.",
-				"trans": "太陽浮塔挑戰已通關至第 ${stage} 階，獎勵已發送至信箱。",
-				"vars": [
-					"stage"
-				]
-			}
-		},
 		"entry": {
 			"eventEnded": {
-				"eng": "The summer event is not active.",
+				"eng": "The Heatwave Festival is not active.",
 				"trans": "夏日活動已結束"
 			},
 			"noPass": {
@@ -14038,13 +14551,11 @@
 				"trans": "堆疊執行階段失敗"
 			}
 		},
-		"failed": {
-			"notification": {
-				"eng": "Solar Float Stack failed. Pass consumed.",
-				"trans": "太陽能懸浮疊加失敗。通行證已消耗。"
-			}
-		},
 		"hud": {
+			"currentFloat": {
+				"eng": "CURRENT",
+				"trans": "當前"
+			},
 			"drops": {
 				"eng": "DROPS",
 				"trans": "掉落物"
@@ -14056,9 +14567,9 @@
 					"dropsLeft"
 				]
 			},
-			"lossRules": {
-				"eng": "Lose if time hits 0 or drops run out before target is made.",
-				"trans": "時間歸零或可用物資耗盡前未完成目標即判定失敗。"
+			"nextFloat": {
+				"eng": "NEXT",
+				"trans": "下一步"
 			},
 			"stage": {
 				"eng": "STAGE ${stage}",
@@ -14067,24 +14578,30 @@
 					"stage"
 				]
 			},
-			"target": {
-				"eng": "Make ${targetName} to clear this stage.",
-				"trans": "擊敗 ${targetName} 即可通關。",
+			"surge": {
+				"eng": "SURGE",
+				"trans": "電湧"
+			},
+			"surgeCharge": {
+				"eng": "${charge}/${required}",
+				"trans": "${charge}/${required}",
 				"vars": [
-					"targetName"
+					"charge",
+					"required"
 				]
 			},
+			"surgeReady": {
+				"eng": "READY",
+				"trans": "就緒"
+			},
 			"targetProgress": {
-				"eng": "${current}/${target}",
+				"eng": "${current}/${target} • ${targetName}",
 				"trans": "${current}/${target}",
 				"vars": [
 					"current",
-					"target"
+					"target",
+					"targetName"
 				]
-			},
-			"time": {
-				"eng": "TIME",
-				"trans": "時間"
 			},
 			"timeLeft": {
 				"eng": "${time}s",
@@ -14104,7 +14621,7 @@
 		},
 		"intro": {
 			"briefing": {
-				"eng": "STACK_BRIEFING",
+				"eng": "HOW TO PLAY",
 				"trans": "簡報"
 			},
 			"eventClosed": {
@@ -14112,36 +14629,44 @@
 				"trans": "活動已結束"
 			},
 			"eventInactive": {
-				"eng": "Summer event inactive",
+				"eng": "Heatwave Festival inactive",
 				"trans": "夏季活動暫未開放"
 			},
 			"eventLabel": {
-				"eng": "SUMMER_EVENT",
+				"eng": "HEATWAVE_FESTIVAL",
 				"trans": "夏季活動"
 			},
 			"needPass": {
 				"eng": "NEED PASS",
 				"trans": "需購買通行證"
 			},
+			"passLabel": {
+				"eng": "ENTRY_PASS",
+				"trans": "入場憑證"
+			},
 			"rewardHint": {
-				"eng": "Reward bands pay summer materials and tech salvage.",
+				"eng": "Reward bands pay Heatwave materials and tech salvage.",
 				"trans": "獎勵檔次將發放夏季素材與科技廢料。"
 			},
 			"rule1": {
-				"eng": "Drag along the rail, release, and drop a summer sphere.",
+				"eng": "Move along the rail, then release to drop the current float.",
 				"trans": "沿滑軌拖曳並鬆手，即可投放夏日球。"
 			},
 			"rule2": {
-				"eng": "Match identical round objects to merge into larger floats.",
+				"eng": "Put two matching floats together to merge them into a bigger float.",
 				"trans": "配對相同的圓形物件以合成更大的漂浮物。"
 			},
 			"rule3": {
-				"eng": "Make the target float before time or drops run out.",
+				"eng": "Reach the target float before the timer or your drops run out.",
 				"trans": "於時限或水滴耗盡前，使目標物保持懸浮。"
 			},
 			"rule4": {
-				"eng": "Only the terminal stage result consumes the pass and pays rewards.",
+				"eng": "Your pass is used when the run ends. Rewards depend on the last stage you cleared.",
 				"trans": "僅最終階段結果會消耗通行證並發放獎勵。"
+			},
+			"ruleCombo": {
+				"eng": "Chain merges pull nearby matching floats and can give back drops.",
+				"trans": "連鎖合成可吸引鄰近同類懸浮塊，並有機會返還掉落物品。"
 			},
 			"start": {
 				"eng": "START STACK",
@@ -14158,17 +14683,96 @@
 				"trans": "堆疊初始化中"
 			}
 		},
-		"stageClear": {
-			"continue": {
-				"eng": "NEXT STAGE",
-				"trans": "下一關"
+		"results": {
+			"biggestLabel": {
+				"eng": "BIGGEST_FLOAT",
+				"trans": "最大漂浮"
 			},
-			"next": {
-				"eng": "Target tier secured. Continue stacking.",
-				"trans": "目標等級已達成，繼續堆疊。"
+			"completeTitle": {
+				"eng": "RUN_COMPLETE",
+				"trans": "執行完畢"
+			},
+			"failedTitle": {
+				"eng": "RUN_FAILED",
+				"trans": "挑戰失敗"
+			},
+			"finish": {
+				"eng": "FINISH",
+				"trans": "完成"
+			},
+			"fullClearTitle": {
+				"eng": "FULL_CLEAR",
+				"trans": "完全攻略"
+			},
+			"noFloat": {
+				"eng": "No float reached",
+				"trans": "未觸發懸浮狀態"
+			},
+			"noRewardMessage": {
+				"eng": "No stage cleared. Pass consumed.",
+				"trans": "未能通關。已消耗券數。"
+			},
+			"rewardMessage": {
+				"eng": "Rewards sent to your item inbox.",
+				"trans": "獎勵已發送至您的道具信箱。"
+			},
+			"scoreLabel": {
+				"eng": "SCORE",
+				"trans": "得分"
+			},
+			"stageLabel": {
+				"eng": "STAGE",
+				"trans": "關卡"
+			},
+			"stageValue": {
+				"eng": "${stage}/${maxStage}",
+				"trans": "${stage}/${maxStage}",
+				"vars": [
+					"stage",
+					"maxStage"
+				]
+			}
+		},
+		"stageClear": {
+			"bestFloat": {
+				"eng": "BEST FLOAT",
+				"trans": "最佳漂浮"
+			},
+			"cleared": {
+				"eng": "Stage ${stage} cleared",
+				"trans": "第 ${stage} 關已通過",
+				"vars": [
+					"stage"
+				]
+			},
+			"continue": {
+				"eng": "START STAGE ${stage}",
+				"trans": "下一關",
+				"vars": [
+					"stage"
+				]
+			},
+			"kicker": {
+				"eng": "STAGE COMPLETE",
+				"trans": "關卡完成"
+			},
+			"nextTarget": {
+				"eng": "Next stage: build ${target}",
+				"trans": "下一關：打造 ${target}",
+				"vars": [
+					"target"
+				]
+			},
+			"score": {
+				"eng": "SCORE",
+				"trans": "得分"
+			},
+			"stageLabel": {
+				"eng": "STAGE",
+				"trans": "關卡"
 			},
 			"title": {
-				"eng": "STAGE_CLEAR",
+				"eng": "STAGE CLEAR",
 				"trans": "闖關成功"
 			}
 		},
@@ -14178,21 +14782,21 @@
 				"trans": "關閉"
 			},
 			"message": {
-				"eng": "Reward submission failed or timed out. Do not retry this run. Contact support or exit.",
+				"eng": "Run could not be saved. Exit and contact support if rewards are missing.",
 				"trans": "獎勵提交失敗或已逾時。請勿重試本次執行，請聯繫客服或直接退出。"
 			},
 			"title": {
-				"eng": "SUBMISSION_UNCERTAIN",
+				"eng": "SAVE FAILED",
 				"trans": "提交狀態未知"
 			}
 		},
 		"submitting": {
 			"message": {
-				"eng": "Terminal result locked. Do not retry.",
+				"eng": "Saving your run. Do not close this screen.",
 				"trans": "終端結果已鎖定，請勿重複操作。"
 			},
 			"title": {
-				"eng": "SUBMITTING_RUN_DATA",
+				"eng": "SAVING RUN",
 				"trans": "上傳遊玩資料中"
 			}
 		},
@@ -14236,6 +14840,23 @@
 			"waterBalloonOrb": {
 				"eng": "Water Balloon Orb",
 				"trans": "水氣球"
+			}
+		},
+		"toast": {
+			"chain": {
+				"eng": "CHAIN x${chainCount}",
+				"trans": "連擊 x${chainCount}",
+				"vars": [
+					"chainCount"
+				]
+			},
+			"dropRefund": {
+				"eng": "DROP REFUND ${count}/${max}",
+				"trans": "掉落退還 ${count}/${max}",
+				"vars": [
+					"count",
+					"max"
+				]
 			}
 		}
 	},
@@ -17460,6 +18081,13 @@
 				"description": {
 					"eng": "Finish the task instantly for all players in the game and earn skip points to show your support to other players!",
 					"trans": "「全域時光飛逝」讓你跳過掛機等待時間，立即完成掛機作業。 \n     此效果將適用於全球所有正在執行掛機作業的玩家"
+				},
+				"discountPercentOff": {
+					"eng": "${percent}% OFF",
+					"trans": "${percent}% 折扣",
+					"vars": [
+						"percent"
+					]
 				},
 				"minute": {
 					"eng": "Skip ${minutes} minutes",

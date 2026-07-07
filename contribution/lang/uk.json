@@ -1114,6 +1114,13 @@
 				"percent"
 			]
 		},
+		"eventDiscountTitle": {
+			"eng": "${eventName} Discount",
+			"trans": "Знижка до ${eventName}",
+			"vars": [
+				"eventName"
+			]
+		},
 		"hintBox": {
 			"text2": {
 				"eng": "When calibration train funding reaches 100%, the system will automatically deploy +1 to +10 calibration success rate and destruction prevention buffs in sequence with interval of ${deployInterval} minutes. the buff train will starting at the next designated time",
@@ -2440,6 +2447,10 @@
 		"donation53": {
 			"eng": "Lightwalker",
 			"trans": "Мандрівник Світла"
+		},
+		"donation54": {
+			"eng": "Vice Heat",
+			"trans": "Жар Пороку"
 		},
 		"donation6": {
 			"eng": "Prestige",
@@ -3883,8 +3894,18 @@
 				"trans": "Літо"
 			},
 			"topUpRewardTitle": {
-				"eng": "Summer Bonus",
+				"eng": "Heatwave Festival Bonus",
 				"trans": "Літнє підкріплення"
+			}
+		},
+		"summerNights": {
+			"eventGame": {
+				"eng": "Neon Nights Grid",
+				"trans": "Сітка неонових ночей"
+			},
+			"name": {
+				"eng": "Summer Nights",
+				"trans": "Літні ночі"
 			}
 		},
 		"thanksgiving": {
@@ -4241,6 +4262,13 @@
 			"trans": "До ${percent}% знижки для ранніх учасників",
 			"vars": [
 				"percent"
+			]
+		},
+		"eventDiscountTitle": {
+			"eng": "${eventName} Discount",
+			"trans": "Знижка до ${eventName}",
+			"vars": [
+				"eventName"
 			]
 		},
 		"hint": {
@@ -5604,6 +5632,16 @@
 				"trans": "Пропуск ракетного командування"
 			}
 		},
+		"neonNightsPass": {
+			"description": {
+				"eng": "A neon boardwalk access pass required to initialize Neon Nights Grid during the Summer Nights event. Can be found from AFK farming during Summer Nights.",
+				"trans": "Пропуск на неонові набережні, необхідний для активації сітки Неонічних ночей під час події Літні ночі. Отримується з AFK-фарму в період івенту."
+			},
+			"name": {
+				"eng": "Neon Nights Pass",
+				"trans": "Пас Неонових Ночей"
+			}
+		},
 		"newYear": {
 			"description": {
 				"eng": "A red envelope with a golden digital seal on it. looks like it contains some sort of currency",
@@ -5961,7 +5999,7 @@
 		},
 		"solarFloatPass": {
 			"description": {
-				"eng": "A sealed beach access pass required to initialize Solar Float Stack during the Summer event.",
+				"eng": "A sealed beach access pass required to initialize Solar Float Stack during Heatwave Festival.",
 				"trans": "Запечатаний пропуск на пляж, необхідний для активації Solar Float Stack під час літньої події."
 			},
 			"name": {
@@ -9219,6 +9257,437 @@
 		"viewProfile": {
 			"eng": "View Profile",
 			"trans": "Переглянути профіль"
+		}
+	},
+	"neonNightsGrid": {
+		"button": {
+			"subtitle": {
+				"eng": "BOARDWALK LIGHT CIRCUIT",
+				"trans": "Світловий контур набережної"
+			},
+			"title": {
+				"eng": "NEON NIGHTS GRID",
+				"trans": "СІТКА НЕОНОВИХ НОЧЕЙ"
+			}
+		},
+		"canvas": {
+			"label": {
+				"eng": "Neon Nights Grid playfield. Drag tray pieces onto the 8 by 8 board.",
+				"trans": "Ігрове поле Neon Nights. Перетягніть фішки з лотка на дошку 8 на 8."
+			}
+		},
+		"drag": {
+			"occupied": {
+				"eng": "OCCUPIED",
+				"trans": "ЗАЙНЯТО"
+			},
+			"offGrid": {
+				"eng": "OFF GRID",
+				"trans": "ПОЗА МЕРЕЖЕЮ"
+			}
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "Summer Nights is not active.",
+				"trans": "Літні ночі неактивні."
+			},
+			"noPass": {
+				"eng": "You need a ${itemName} to enter Neon Nights Grid.",
+				"trans": "Для входу до Neon Nights Grid потрібен ${itemName}.",
+				"vars": [
+					"itemName"
+				]
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "EXIT",
+				"trans": "ВИХІД"
+			},
+			"message": {
+				"eng": "Submission interrupted. Reward sync status is unknown.",
+				"trans": "Надсилання перервано. Статус синхронізації винагороди невідомий."
+			},
+			"title": {
+				"eng": "SYNC STATUS UNKNOWN",
+				"trans": "СТАТУС СИНХРОНІЗАЦІЇ НЕВІДОМИЙ"
+			},
+			"verify": {
+				"eng": "Exit, then verify inventory/event log before starting another run.",
+				"trans": "Вийдіть, перевірте інвентар/журнал подій перед початком нового проходу."
+			}
+		},
+		"exit": {
+			"eng": "Exit",
+			"trans": "Вихід"
+		},
+		"feedback": {
+			"comboLost": {
+				"eng": "COMBO LOST",
+				"trans": "КОМБО ВТРАЧЕНО"
+			},
+			"invalid": {
+				"eng": "INVALID FIT",
+				"trans": "НЕ ПАСУЄ"
+			},
+			"lineClearCombo": {
+				"eng": "+${score} LINE CLEAR x${combo}",
+				"trans": "+${score} ОЧИЩЕННЯ ЛИНІЇ x${combo}",
+				"vars": [
+					"score",
+					"combo"
+				]
+			},
+			"lineClearScore": {
+				"eng": "+${score} LINE CLEAR",
+				"trans": "+${score} ЗА ЛИНІЮ",
+				"vars": [
+					"score"
+				]
+			},
+			"maxScore": {
+				"eng": "MAX TIER SYNCED",
+				"trans": "МАКСИМАЛЬНИЙ ТІЕР СИНХРОНІЗОВАНО"
+			},
+			"noFit": {
+				"eng": "NO FIT FOUND",
+				"trans": "ПІДХОДИЙ ВАРІАНТ НЕ ЗНАЙДЕНО"
+			},
+			"occupied": {
+				"eng": "OCCUPIED",
+				"trans": "ЗАЙНЯТО"
+			},
+			"offGrid": {
+				"eng": "OFF GRID",
+				"trans": "ПОЗА МЕРЕЖЕЮ"
+			},
+			"placedScore": {
+				"eng": "+${score} PLACED",
+				"trans": "+${score} РОЗМІЩЕНО",
+				"vars": [
+					"score"
+				]
+			},
+			"timeout": {
+				"eng": "TIME EXPIRED",
+				"trans": "ЧАС ВИЙШОВ"
+			}
+		},
+		"finish": {
+			"eng": "Finish",
+			"trans": "Готово"
+		},
+		"gameOver": {
+			"subtitle": {
+				"eng": "No reward tier reached. Pass consumed.",
+				"trans": "Жодного рівня винагород не досягнуто. Пропуск використано."
+			},
+			"title": {
+				"eng": "GRID LOCKED",
+				"trans": "СІТКА ЗАБЛОКОВАНА"
+			}
+		},
+		"hint": {
+			"drag": {
+				"eng": "Drag tray pieces onto the board",
+				"trans": "Перетягніть фігури з лотка на поле"
+			}
+		},
+		"hud": {
+			"comboValue": {
+				"eng": "Combo: x${combo}",
+				"trans": "Комбо: x${combo}",
+				"vars": [
+					"combo"
+				]
+			},
+			"linesValue": {
+				"eng": "Lines: ${lines}",
+				"trans": "Лінії: ${lines}",
+				"vars": [
+					"lines"
+				]
+			},
+			"maxTier": {
+				"eng": "MAX",
+				"trans": "МАКС"
+			},
+			"nextValue": {
+				"eng": "Next: ${threshold}",
+				"trans": "Наступний: ${threshold}",
+				"vars": [
+					"threshold"
+				]
+			},
+			"piecesValue": {
+				"eng": "Pieces: ${pieces}",
+				"trans": "Фігури: ${pieces}",
+				"vars": [
+					"pieces"
+				]
+			},
+			"score": {
+				"eng": "Score",
+				"trans": "Рахунок"
+			},
+			"seconds": {
+				"eng": "${seconds}s",
+				"trans": "${seconds} с",
+				"vars": [
+					"seconds"
+				]
+			},
+			"tier": {
+				"eng": "Tier",
+				"trans": "Рівень"
+			},
+			"time": {
+				"eng": "Time",
+				"trans": "Час"
+			}
+		},
+		"intro": {
+			"briefing": {
+				"eng": "GRID_BRIEFING",
+				"trans": "Брифінг сітки"
+			},
+			"combo": {
+				"eng": "Consecutive line clears build a combo. Complete a full 3-piece tray with no line clear and it resets.",
+				"trans": "Послідовне очищення рядків формує комбо. Використання всіх трьох фігур із лотка без видалення ліній скидає комбо."
+			},
+			"eventClosed": {
+				"eng": "EVENT CLOSED",
+				"trans": "Подія завершена"
+			},
+			"eventInactive": {
+				"eng": "Summer Nights inactive",
+				"trans": "Літні ночі неактивні"
+			},
+			"eventLabel": {
+				"eng": "Summer Nights",
+				"trans": "Літні ночі"
+			},
+			"needPass": {
+				"eng": "NEED PASS",
+				"trans": "Потрібен пропуск"
+			},
+			"passLabel": {
+				"eng": "ENTRY_PASS",
+				"trans": "Вхідний пропуск"
+			},
+			"rewardHint": {
+				"eng": "Reward tiers pay Summer Nights seashells and tech salvage.",
+				"trans": "Рівні нагород дають раковини Літніх ночей та техбрухт."
+			},
+			"rule1": {
+				"eng": "Drag one of three neon blocks onto the 8x8 board.",
+				"trans": "Перетягни один із трьох неонових блоків на поле 8x8."
+			},
+			"rule2": {
+				"eng": "Fill full rows or columns to clear lines and score.",
+				"trans": "Збирай повні ряди чи стовпці, щоб видаляти їх і набирати очки."
+			},
+			"rule3": {
+				"eng": "Score thresholds advance reward tiers during one continuous ${seconds}s run.",
+				"trans": "Поріги очок підвищують рівень винагород під час однієї безперервної спроби тривалістю ${seconds}s.",
+				"vars": [
+					"seconds"
+				]
+			},
+			"rule4": {
+				"eng": "Timeout submits the tier reached; ${score} score wins tier ${tier}.",
+				"trans": "При вичерпанні часу фіксується досягнутий тир; за ${score} очків ви отримуєте тір ${tier}.",
+				"vars": [
+					"score",
+					"tier"
+				]
+			},
+			"rule5": {
+				"eng": "If none of the current pieces can fit, the run ends and submits your reached tier.",
+				"trans": "Якщо жодна з поточних фігур не вписується на поле, раунд завершується і фіксується ваш досягнутий рівень."
+			},
+			"start": {
+				"eng": "START GRID",
+				"trans": "ЗАПУСТИТИ СІТКУ"
+			},
+			"title": {
+				"eng": "Neon Nights Grid",
+				"trans": "Сітка неонових ночей"
+			}
+		},
+		"loading": {
+			"title": {
+				"eng": "INITIALIZING_GRID",
+				"trans": "Ініціалізація сітки"
+			}
+		},
+		"results": {
+			"maxTitle": {
+				"eng": "MAX TIER SYNCED",
+				"trans": "МАКСИМАЛЬНИЙ ТІЕР СИНХРОНІЗОВАНО"
+			},
+			"noRewards": {
+				"eng": "No rewards returned",
+				"trans": "Нагород не отримано"
+			},
+			"rewards": {
+				"eng": "Summer Nights Rewards",
+				"trans": "Нагороди літніх ночей"
+			},
+			"seconds": {
+				"eng": "${seconds}s",
+				"trans": "${seconds} с",
+				"vars": [
+					"seconds"
+				]
+			},
+			"tier": {
+				"eng": "Tier ${tier} neon circuit cleared",
+				"trans": "Неонова схема рівня ${tier} пройдена",
+				"vars": [
+					"tier"
+				]
+			},
+			"title": {
+				"eng": "REWARD TIER SYNCED",
+				"trans": "РІВЕНЬ НАГОРІД СИНХРОНІЗОВАНО"
+			}
+		},
+		"stats": {
+			"achievedTier": {
+				"eng": "Achieved Tier",
+				"trans": "Досягнутий ранг"
+			},
+			"bestCombo": {
+				"eng": "Best Combo",
+				"trans": "Рекордне комбо"
+			},
+			"combo": {
+				"eng": "Combo",
+				"trans": "Комбо"
+			},
+			"lines": {
+				"eng": "Lines",
+				"trans": "Ряди"
+			},
+			"linesCleared": {
+				"eng": "Lines Cleared",
+				"trans": "Очищені лінії"
+			},
+			"remaining": {
+				"eng": "Remain",
+				"trans": "Залишок"
+			},
+			"score": {
+				"eng": "Score",
+				"trans": "Рахунок"
+			}
+		},
+		"submission": {
+			"doNotRetry": {
+				"eng": "Submission interrupted. Do not retry this run.",
+				"trans": "Надсилання перервано. Не повторюйте цю спробу."
+			},
+			"localOutcome": {
+				"eng": "LOCAL OUTCOME",
+				"trans": "Локальний результат"
+			},
+			"localResultShown": {
+				"eng": "Local result shown above. Server sync status unknown.",
+				"trans": "Локальний результат відображено вище. Статус синхронізації з сервером невідомий."
+			},
+			"noRetry": {
+				"eng": "Exit, then verify inventory/event log before starting another run.",
+				"trans": "Вийдіть, перевірте інвентар/журнал подій перед початком нового проходу."
+			},
+			"outcomeMaxTier": {
+				"eng": "MAX TIER",
+				"trans": "МАКСИМАЛЬНИЙ РІВЕНЬ"
+			},
+			"outcomeNoFit": {
+				"eng": "NO FIT",
+				"trans": "НЕ ПІДХОДИТЬ"
+			},
+			"outcomeTimeout": {
+				"eng": "TIME EXPIRED",
+				"trans": "ЧАС ВИЙШОВ"
+			},
+			"outcomeUnknown": {
+				"eng": "RUN ENDED",
+				"trans": "РАН ЗАКІНЧИВСЯ"
+			},
+			"syncUnknown": {
+				"eng": "REWARD SYNC UNKNOWN",
+				"trans": "НЕВІДОМА СИНХРОНІЗАЦІЯ НАГОРОДИ"
+			}
+		},
+		"submitting": {
+			"subtitle": {
+				"eng": "Submitting final tier. Do not close.",
+				"trans": "Надсилання фінального рівня. Не закривайте."
+			},
+			"title": {
+				"eng": "SYNCING RUN DATA",
+				"trans": "СИНХРОНІЗАЦІЯ ДАНИХ ПРОХОДЖЕННЯ"
+			}
+		},
+		"tierUp": {
+			"title": {
+				"eng": "Tier ${tier} Synced",
+				"trans": "Рівень ${tier} синхронізовано",
+				"vars": [
+					"tier"
+				]
+			}
+		},
+		"vfx": {
+			"combo": {
+				"eng": "COMBO x${combo}",
+				"trans": "КОМБО x${combo}",
+				"vars": [
+					"combo"
+				]
+			},
+			"endTier": {
+				"eng": "TIER ${tier}",
+				"trans": "РІВЕНЬ ${tier}",
+				"vars": [
+					"tier"
+				]
+			},
+			"maxGridSync": {
+				"eng": "MAX GRID SYNC",
+				"trans": "МАКСИМАЛЬНА СИНХРОНІЗАЦІЯ СІТКИ"
+			},
+			"noFitFound": {
+				"eng": "NO FIT FOUND",
+				"trans": "ПІДХОДИЙ ВАРІАНТ НЕ ЗНАЙДЕНО"
+			},
+			"scoreGain": {
+				"eng": "+${score}",
+				"trans": "+${score}",
+				"vars": [
+					"score"
+				]
+			},
+			"tierSync": {
+				"eng": "TIER ${tier} SYNC",
+				"trans": "Синхронізація рівня ${tier}",
+				"vars": [
+					"tier"
+				]
+			},
+			"timeExpired": {
+				"eng": "TIME EXPIRED",
+				"trans": "ЧАС ВИЙШОВ"
+			},
+			"timer": {
+				"eng": "T-${seconds}",
+				"trans": "Т-${seconds}",
+				"vars": [
+					"seconds"
+				]
+			}
 		}
 	},
 	"newYearFireworks": {
@@ -13955,13 +14424,40 @@
 			"trans": "Взяти все"
 		}
 	},
+	"summerNightsPromo": {
+		"subtitle": {
+			"eng": "Miami neon hits the coast. Collect seashells, trade with Josie, and run Neon Nights Grid.",
+			"trans": "Неонове Майамі розпалює узбережжя. Збирай черепашки, торгуйся з Джосі та пройдеш сітку неонових ночей."
+		},
+		"title": {
+			"eng": "Summer Nights",
+			"trans": "Літні ночі"
+		}
+	},
+	"summerNightsPromoSmall": {
+		"desc1": {
+			"eng": "Neon Nights Grid is live at Crystal Beach.",
+			"trans": "Сітка Неонових ночей вже доступна на Кришталевому пляжі."
+		},
+		"desc2": {
+			"eng": "Collect ${item} and trade with Josie.",
+			"trans": "Збирай ${item} та торгуйся з Джозі.",
+			"vars": [
+				"item"
+			]
+		},
+		"title": {
+			"eng": "Summer Nights",
+			"trans": "Літні ночі"
+		}
+	},
 	"summerPromo": {
 		"subtitle": {
-			"eng": "Its time for the summer beach! don't miss out on the fun!",
+			"eng": "Heat is rising on the coast. Collect seashells, trade with Josie, and run Solar Float Stack.",
 			"trans": "Час на літній пляж! Не пропустіть веселощі!"
 		},
 		"title": {
-			"eng": "Summer Fiesta Event",
+			"eng": "Heatwave Festival",
 			"trans": "Літнє Фієсто Подія"
 		}
 	},
@@ -13981,14 +14477,40 @@
 			]
 		},
 		"title": {
-			"eng": "Summer Fiesta: Don't Miss Out!",
+			"eng": "Heatwave Festival",
 			"trans": "Літнє свято: Не пропустіть!"
 		}
 	},
 	"summerStack": {
+		"assets": {
+			"exit": {
+				"eng": "EXIT",
+				"trans": "ВИХІД"
+			},
+			"failedMessage": {
+				"eng": "Required stack art did not load. No pass was consumed.",
+				"trans": "Не вдалося завантажити необхідну графіку стеку. Пропуск не було витрачено."
+			},
+			"failedTitle": {
+				"eng": "ASSET_LOAD_FAILED",
+				"trans": "Помилка завантаження ресурсу"
+			},
+			"loadingMessage": {
+				"eng": "Preparing required float sprites.",
+				"trans": "Підготовка необхідних плаваючих спрайтів."
+			},
+			"loadingTitle": {
+				"eng": "LOADING_STACK_ASSETS",
+				"trans": "Завантаження ресурсів літньої події"
+			},
+			"retry": {
+				"eng": "RETRY",
+				"trans": "ПОВТОРИТИ"
+			}
+		},
 		"button": {
 			"subtitle": {
-				"eng": "CONTAINMENT STACK COURSE",
+				"eng": "BEACH FLOAT MERGE",
 				"trans": "Курс ізоляційного стеку"
 			},
 			"title": {
@@ -13996,18 +14518,9 @@
 				"trans": "Набір сонячної левітації"
 			}
 		},
-		"complete": {
-			"notification": {
-				"eng": "Solar Float Stack cleared through stage ${stage}. Rewards sent to inbox.",
-				"trans": "Сонячний плавучий стек пройдено до етапу ${stage}. Нагороди надіслано у вхідні.",
-				"vars": [
-					"stage"
-				]
-			}
-		},
 		"entry": {
 			"eventEnded": {
-				"eng": "The summer event is not active.",
+				"eng": "The Heatwave Festival is not active.",
 				"trans": "Літня подія неактивна."
 			},
 			"noPass": {
@@ -14032,13 +14545,11 @@
 				"trans": "Збій стеку під час виконання"
 			}
 		},
-		"failed": {
-			"notification": {
-				"eng": "Solar Float Stack failed. Pass consumed.",
-				"trans": "Стек Solar Float не вдалося активувати. Пропуск витрачено."
-			}
-		},
 		"hud": {
+			"currentFloat": {
+				"eng": "CURRENT",
+				"trans": "ПОТОЧНИЙ"
+			},
 			"drops": {
 				"eng": "DROPS",
 				"trans": "ДРОПИ"
@@ -14050,9 +14561,9 @@
 					"dropsLeft"
 				]
 			},
-			"lossRules": {
-				"eng": "Lose if time hits 0 or drops run out before target is made.",
-				"trans": "Програш, якщо час сягне 0 або закінчиться дроп до виконання завдання."
+			"nextFloat": {
+				"eng": "NEXT",
+				"trans": "ДАЛІ"
 			},
 			"stage": {
 				"eng": "STAGE ${stage}",
@@ -14061,24 +14572,30 @@
 					"stage"
 				]
 			},
-			"target": {
-				"eng": "Make ${targetName} to clear this stage.",
-				"trans": "Знищіть ${targetName}, щоб пройти рівень.",
+			"surge": {
+				"eng": "SURGE",
+				"trans": "Імпульс"
+			},
+			"surgeCharge": {
+				"eng": "${charge}/${required}",
+				"trans": "Заряд: ${charge}/${required}",
 				"vars": [
-					"targetName"
+					"charge",
+					"required"
 				]
 			},
+			"surgeReady": {
+				"eng": "READY",
+				"trans": "ГОТОВО"
+			},
 			"targetProgress": {
-				"eng": "${current}/${target}",
+				"eng": "${current}/${target} • ${targetName}",
 				"trans": "${current}/${target}",
 				"vars": [
 					"current",
-					"target"
+					"target",
+					"targetName"
 				]
-			},
-			"time": {
-				"eng": "TIME",
-				"trans": "ЧАС"
 			},
 			"timeLeft": {
 				"eng": "${time}s",
@@ -14098,7 +14615,7 @@
 		},
 		"intro": {
 			"briefing": {
-				"eng": "STACK_BRIEFING",
+				"eng": "HOW TO PLAY",
 				"trans": "Інструктаж"
 			},
 			"eventClosed": {
@@ -14106,36 +14623,44 @@
 				"trans": "ПОДІЮ ЗАКРИТО"
 			},
 			"eventInactive": {
-				"eng": "Summer event inactive",
+				"eng": "Heatwave Festival inactive",
 				"trans": "Літня подія неактивна"
 			},
 			"eventLabel": {
-				"eng": "SUMMER_EVENT",
+				"eng": "HEATWAVE_FESTIVAL",
 				"trans": "Літній захід"
 			},
 			"needPass": {
 				"eng": "NEED PASS",
 				"trans": "ПОТРІБЕН ПРОПУСК"
 			},
+			"passLabel": {
+				"eng": "ENTRY_PASS",
+				"trans": "Вхідний пропуск"
+			},
 			"rewardHint": {
-				"eng": "Reward bands pay summer materials and tech salvage.",
+				"eng": "Reward bands pay Heatwave materials and tech salvage.",
 				"trans": "Рівні нагород дають літні матеріали та технобрухт."
 			},
 			"rule1": {
-				"eng": "Drag along the rail, release, and drop a summer sphere.",
+				"eng": "Move along the rail, then release to drop the current float.",
 				"trans": "Перетягни вздовж рейки, відпусти та скинь літню сферу."
 			},
 			"rule2": {
-				"eng": "Match identical round objects to merge into larger floats.",
+				"eng": "Put two matching floats together to merge them into a bigger float.",
 				"trans": "Поєднуй однакові круглі фігури, щоб вони злилися у більші плавучі об'єкти."
 			},
 			"rule3": {
-				"eng": "Make the target float before time or drops run out.",
+				"eng": "Reach the target float before the timer or your drops run out.",
 				"trans": "Змусьте мішень зависнути, перш ніж вичерпаються час або краплі."
 			},
 			"rule4": {
-				"eng": "Only the terminal stage result consumes the pass and pays rewards.",
+				"eng": "Your pass is used when the run ends. Rewards depend on the last stage you cleared.",
 				"trans": "Пропуск витрачається та нагорода нараховується лише за результат останнього етапу."
+			},
+			"ruleCombo": {
+				"eng": "Chain merges pull nearby matching floats and can give back drops.",
+				"trans": "Ланцюжкові злиття притягують сусідні однакові предмети та можуть давати бонуси."
 			},
 			"start": {
 				"eng": "START STACK",
@@ -14152,17 +14677,96 @@
 				"trans": "Ініціалізація стеку"
 			}
 		},
-		"stageClear": {
-			"continue": {
-				"eng": "NEXT STAGE",
-				"trans": "НАСТУПНИЙ РІВЕНЬ"
+		"results": {
+			"biggestLabel": {
+				"eng": "BIGGEST_FLOAT",
+				"trans": "НАЙБІЛЬШИЙ ПЛАВАЮЧИЙ ОБ'ЄКТ"
 			},
-			"next": {
-				"eng": "Target tier secured. Continue stacking.",
-				"trans": "Цільовий рівень досягнуто. Продовжуйте накопичувати."
+			"completeTitle": {
+				"eng": "RUN_COMPLETE",
+				"trans": "Завдання виконано"
+			},
+			"failedTitle": {
+				"eng": "RUN_FAILED",
+				"trans": "НЕВДАЛА СПРОБА"
+			},
+			"finish": {
+				"eng": "FINISH",
+				"trans": "ЗАВЕРШИТИ"
+			},
+			"fullClearTitle": {
+				"eng": "FULL_CLEAR",
+				"trans": "Повне проходження"
+			},
+			"noFloat": {
+				"eng": "No float reached",
+				"trans": "Платформи не досягнуто"
+			},
+			"noRewardMessage": {
+				"eng": "No stage cleared. Pass consumed.",
+				"trans": "Жодного етапу не пройдено. Пропуск витрачено."
+			},
+			"rewardMessage": {
+				"eng": "Rewards sent to your item inbox.",
+				"trans": "Нагороди доставлено до вашої пошти."
+			},
+			"scoreLabel": {
+				"eng": "SCORE",
+				"trans": "РАХУНОК"
+			},
+			"stageLabel": {
+				"eng": "STAGE",
+				"trans": "ЕТАП"
+			},
+			"stageValue": {
+				"eng": "${stage}/${maxStage}",
+				"trans": "${stage}/${maxStage}",
+				"vars": [
+					"stage",
+					"maxStage"
+				]
+			}
+		},
+		"stageClear": {
+			"bestFloat": {
+				"eng": "BEST FLOAT",
+				"trans": "НАЙКРАЩИЙ ПОЛІТ"
+			},
+			"cleared": {
+				"eng": "Stage ${stage} cleared",
+				"trans": "Рівень ${stage} пройдено",
+				"vars": [
+					"stage"
+				]
+			},
+			"continue": {
+				"eng": "START STAGE ${stage}",
+				"trans": "РОЗПОЧАТИ ЕТАП ${stage}",
+				"vars": [
+					"stage"
+				]
+			},
+			"kicker": {
+				"eng": "STAGE COMPLETE",
+				"trans": "ТАБІЧНО ПРОЙДЕНО"
+			},
+			"nextTarget": {
+				"eng": "Next stage: build ${target}",
+				"trans": "Наступний рівень: побудувати ${target}",
+				"vars": [
+					"target"
+				]
+			},
+			"score": {
+				"eng": "SCORE",
+				"trans": "РАХУНОК"
+			},
+			"stageLabel": {
+				"eng": "STAGE",
+				"trans": "ЕТАП"
 			},
 			"title": {
-				"eng": "STAGE_CLEAR",
+				"eng": "STAGE CLEAR",
 				"trans": "РІВЕНЬ ПРОЙДЕНО"
 			}
 		},
@@ -14172,21 +14776,21 @@
 				"trans": "ВИХІД"
 			},
 			"message": {
-				"eng": "Reward submission failed or timed out. Do not retry this run. Contact support or exit.",
+				"eng": "Run could not be saved. Exit and contact support if rewards are missing.",
 				"trans": "Надсилання запиту на нагороду не вдалося або вичерпано час очікування. Не повторюйте цю спробу. Зверніться до підтримки або вийдіть."
 			},
 			"title": {
-				"eng": "SUBMISSION_UNCERTAIN",
+				"eng": "SAVE FAILED",
 				"trans": "Невизначений статус подачі"
 			}
 		},
 		"submitting": {
 			"message": {
-				"eng": "Terminal result locked. Do not retry.",
+				"eng": "Saving your run. Do not close this screen.",
 				"trans": "Результат терміналу заблоковано. Не повторюйте спробу."
 			},
 			"title": {
-				"eng": "SUBMITTING_RUN_DATA",
+				"eng": "SAVING RUN",
 				"trans": "Надсилання даних пробігу"
 			}
 		},
@@ -14230,6 +14834,23 @@
 			"waterBalloonOrb": {
 				"eng": "Water Balloon Orb",
 				"trans": "Сфера водяного шару"
+			}
+		},
+		"toast": {
+			"chain": {
+				"eng": "CHAIN x${chainCount}",
+				"trans": "КОМБО x${chainCount}",
+				"vars": [
+					"chainCount"
+				]
+			},
+			"dropRefund": {
+				"eng": "DROP REFUND ${count}/${max}",
+				"trans": "Повернення дропу ${count}/${max}",
+				"vars": [
+					"count",
+					"max"
+				]
 			}
 		}
 	},
@@ -17454,6 +18075,13 @@
 				"description": {
 					"eng": "Finish the task instantly for all players in the game and earn skip points to show your support to other players!",
 					"trans": "Закінчити завдання миттєво для всіх гравців у грі та отримати очки пропуску, щоб показати вашу підтримку гравцям!"
+				},
+				"discountPercentOff": {
+					"eng": "${percent}% OFF",
+					"trans": "${percent}% ЗНИЖКИ",
+					"vars": [
+						"percent"
+					]
 				},
 				"minute": {
 					"eng": "Skip ${minutes} minutes",

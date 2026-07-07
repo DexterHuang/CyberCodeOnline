@@ -1114,6 +1114,13 @@
 				"percent"
 			]
 		},
+		"eventDiscountTitle": {
+			"eng": "${eventName} Discount",
+			"trans": "Diskon ${eventName}",
+			"vars": [
+				"eventName"
+			]
+		},
 		"hintBox": {
 			"text2": {
 				"eng": "When calibration train funding reaches 100%, the system will automatically deploy +1 to +10 calibration success rate and destruction prevention buffs in sequence with interval of ${deployInterval} minutes. the buff train will starting at the next designated time",
@@ -2440,6 +2447,10 @@
 		"donation53": {
 			"eng": "Lightwalker",
 			"trans": "Lightwalker"
+		},
+		"donation54": {
+			"eng": "Vice Heat",
+			"trans": "Intensitas Gelap"
 		},
 		"donation6": {
 			"eng": "Prestige",
@@ -3883,8 +3894,18 @@
 				"trans": "Musim Panas"
 			},
 			"topUpRewardTitle": {
-				"eng": "Summer Bonus",
+				"eng": "Heatwave Festival Bonus",
 				"trans": "Hadiah Musim Panas"
+			}
+		},
+		"summerNights": {
+			"eventGame": {
+				"eng": "Neon Nights Grid",
+				"trans": "Kisi Malam Neon"
+			},
+			"name": {
+				"eng": "Summer Nights",
+				"trans": "Malam Musim Panas"
 			}
 		},
 		"thanksgiving": {
@@ -4241,6 +4262,13 @@
 			"trans": "Hingga ${percent}% diskon untuk kontributor awal",
 			"vars": [
 				"percent"
+			]
+		},
+		"eventDiscountTitle": {
+			"eng": "${eventName} Discount",
+			"trans": "Diskon ${eventName}",
+			"vars": [
+				"eventName"
 			]
 		},
 		"hint": {
@@ -5604,6 +5632,16 @@
 				"trans": "Pass Komando Misil"
 			}
 		},
+		"neonNightsPass": {
+			"description": {
+				"eng": "A neon boardwalk access pass required to initialize Neon Nights Grid during the Summer Nights event. Can be found from AFK farming during Summer Nights.",
+				"trans": "Kartu akses boardwalk neon yang diperlukan untuk mengaktifkan Neon Nights Grid selama acara Summer Nights. Dapat diperoleh melalui farming AFK selama acara Summer Nights."
+			},
+			"name": {
+				"eng": "Neon Nights Pass",
+				"trans": "Lolosan Malam Neon"
+			}
+		},
 		"newYear": {
 			"description": {
 				"eng": "A red envelope with a golden digital seal on it. looks like it contains some sort of currency",
@@ -5961,7 +5999,7 @@
 		},
 		"solarFloatPass": {
 			"description": {
-				"eng": "A sealed beach access pass required to initialize Solar Float Stack during the Summer event.",
+				"eng": "A sealed beach access pass required to initialize Solar Float Stack during Heatwave Festival.",
 				"trans": "Izin akses pantai bersegel yang diperlukan untuk menginisialisasi Solar Float Stack selama acara Musim Panas."
 			},
 			"name": {
@@ -9219,6 +9257,437 @@
 		"viewProfile": {
 			"eng": "View Profile",
 			"trans": "Lihat Profil"
+		}
+	},
+	"neonNightsGrid": {
+		"button": {
+			"subtitle": {
+				"eng": "BOARDWALK LIGHT CIRCUIT",
+				"trans": "Sirkuit Lampu Jalan Setapak"
+			},
+			"title": {
+				"eng": "NEON NIGHTS GRID",
+				"trans": "PETAK MALAM NEON"
+			}
+		},
+		"canvas": {
+			"label": {
+				"eng": "Neon Nights Grid playfield. Drag tray pieces onto the 8 by 8 board.",
+				"trans": "Bidang permainan Neon Nights Grid. Seret keping dari baki ke papan berukuran 8x8."
+			}
+		},
+		"drag": {
+			"occupied": {
+				"eng": "OCCUPIED",
+				"trans": "TERISI"
+			},
+			"offGrid": {
+				"eng": "OFF GRID",
+				"trans": "LUAR JARINGAN"
+			}
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "Summer Nights is not active.",
+				"trans": "Summer Nights tidak aktif."
+			},
+			"noPass": {
+				"eng": "You need a ${itemName} to enter Neon Nights Grid.",
+				"trans": "Kamu memerlukan ${itemName} untuk mengakses Neon Nights Grid.",
+				"vars": [
+					"itemName"
+				]
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "EXIT",
+				"trans": "KELUAR"
+			},
+			"message": {
+				"eng": "Submission interrupted. Reward sync status is unknown.",
+				"trans": "Pengiriman terputus. Status sinkronisasi hadiah tidak diketahui."
+			},
+			"title": {
+				"eng": "SYNC STATUS UNKNOWN",
+				"trans": "STATUS SINKRONISASI TIDAK DIKETAHUI"
+			},
+			"verify": {
+				"eng": "Exit, then verify inventory/event log before starting another run.",
+				"trans": "Keluar, lalu verifikasi inventaris/log peristiwa sebelum memulai putaran berikutnya."
+			}
+		},
+		"exit": {
+			"eng": "Exit",
+			"trans": "Keluar"
+		},
+		"feedback": {
+			"comboLost": {
+				"eng": "COMBO LOST",
+				"trans": "KOMBO PUTUS"
+			},
+			"invalid": {
+				"eng": "INVALID FIT",
+				"trans": "TIDAK COCOK"
+			},
+			"lineClearCombo": {
+				"eng": "+${score} LINE CLEAR x${combo}",
+				"trans": "+${score} HAPUS BARIS x${combo}",
+				"vars": [
+					"score",
+					"combo"
+				]
+			},
+			"lineClearScore": {
+				"eng": "+${score} LINE CLEAR",
+				"trans": "+${score} BARIS TERHAPUS",
+				"vars": [
+					"score"
+				]
+			},
+			"maxScore": {
+				"eng": "MAX TIER SYNCED",
+				"trans": "Tier Maksimum Tersinkronisasi"
+			},
+			"noFit": {
+				"eng": "NO FIT FOUND",
+				"trans": "TIADA KECOCOKAN"
+			},
+			"occupied": {
+				"eng": "OCCUPIED",
+				"trans": "TERISI"
+			},
+			"offGrid": {
+				"eng": "OFF GRID",
+				"trans": "LUAR JARINGAN"
+			},
+			"placedScore": {
+				"eng": "+${score} PLACED",
+				"trans": "+${score} DITEMPATKAN",
+				"vars": [
+					"score"
+				]
+			},
+			"timeout": {
+				"eng": "TIME EXPIRED",
+				"trans": "WAKTU HABIS"
+			}
+		},
+		"finish": {
+			"eng": "Finish",
+			"trans": "Selesai"
+		},
+		"gameOver": {
+			"subtitle": {
+				"eng": "No reward tier reached. Pass consumed.",
+				"trans": "Tingkat hadiah tidak tercapai. Pass terpakai."
+			},
+			"title": {
+				"eng": "GRID LOCKED",
+				"trans": "GRID TERKUNCI"
+			}
+		},
+		"hint": {
+			"drag": {
+				"eng": "Drag tray pieces onto the board",
+				"trans": "Seret potongan dari baki ke papan"
+			}
+		},
+		"hud": {
+			"comboValue": {
+				"eng": "Combo: x${combo}",
+				"trans": "Kombo: x${combo}",
+				"vars": [
+					"combo"
+				]
+			},
+			"linesValue": {
+				"eng": "Lines: ${lines}",
+				"trans": "Baris: ${lines}",
+				"vars": [
+					"lines"
+				]
+			},
+			"maxTier": {
+				"eng": "MAX",
+				"trans": "MAKS"
+			},
+			"nextValue": {
+				"eng": "Next: ${threshold}",
+				"trans": "Berikutnya: ${threshold}",
+				"vars": [
+					"threshold"
+				]
+			},
+			"piecesValue": {
+				"eng": "Pieces: ${pieces}",
+				"trans": "Bidak: ${pieces}",
+				"vars": [
+					"pieces"
+				]
+			},
+			"score": {
+				"eng": "Score",
+				"trans": "Skor"
+			},
+			"seconds": {
+				"eng": "${seconds}s",
+				"trans": "${seconds} dtk",
+				"vars": [
+					"seconds"
+				]
+			},
+			"tier": {
+				"eng": "Tier",
+				"trans": "Tingkat"
+			},
+			"time": {
+				"eng": "Time",
+				"trans": "Waktu"
+			}
+		},
+		"intro": {
+			"briefing": {
+				"eng": "GRID_BRIEFING",
+				"trans": "BRIEFING GRID"
+			},
+			"combo": {
+				"eng": "Consecutive line clears build a combo. Complete a full 3-piece tray with no line clear and it resets.",
+				"trans": "Hapus baris secara beruntun untuk menumpuk kombo. Isi penuh wadah 3 blok tanpa menghapus baris dan kombo akan reset."
+			},
+			"eventClosed": {
+				"eng": "EVENT CLOSED",
+				"trans": "ACARA TERTUTUP"
+			},
+			"eventInactive": {
+				"eng": "Summer Nights inactive",
+				"trans": "Malam Musim Panas Tidak Aktif"
+			},
+			"eventLabel": {
+				"eng": "Summer Nights",
+				"trans": "Malam Musim Panas"
+			},
+			"needPass": {
+				"eng": "NEED PASS",
+				"trans": "DIBUTUHKAN IZIN"
+			},
+			"passLabel": {
+				"eng": "ENTRY_PASS",
+				"trans": "PAS MASUK"
+			},
+			"rewardHint": {
+				"eng": "Reward tiers pay Summer Nights seashells and tech salvage.",
+				"trans": "Tier hadiah memberikan cangkang kerang Malam Musim Panas dan sisa teknologi."
+			},
+			"rule1": {
+				"eng": "Drag one of three neon blocks onto the 8x8 board.",
+				"trans": "Seret salah satu dari tiga balok neon ke papan 8x8."
+			},
+			"rule2": {
+				"eng": "Fill full rows or columns to clear lines and score.",
+				"trans": "Isi baris atau kolom hingga penuh untuk menghapusnya dan mendapatkan poin."
+			},
+			"rule3": {
+				"eng": "Score thresholds advance reward tiers during one continuous ${seconds}s run.",
+				"trans": "Ambang batas skor akan menaikkan tingkat hadiah dalam satu putaran tanpa henti selama ${seconds} detik.",
+				"vars": [
+					"seconds"
+				]
+			},
+			"rule4": {
+				"eng": "Timeout submits the tier reached; ${score} score wins tier ${tier}.",
+				"trans": "Saat waktu habis, tingkat yang tercapai otomatis tersimpan; capai skor ${score} untuk membuka tingkat ${tier}.",
+				"vars": [
+					"score",
+					"tier"
+				]
+			},
+			"rule5": {
+				"eng": "If none of the current pieces can fit, the run ends and submits your reached tier.",
+				"trans": "Jika tidak ada blok yang dapat ditempatkan, permainan berakhir dan tier yang dicapai akan dicatat."
+			},
+			"start": {
+				"eng": "START GRID",
+				"trans": "MULAI PERMAINAN"
+			},
+			"title": {
+				"eng": "Neon Nights Grid",
+				"trans": "Kisi Malam Neon"
+			}
+		},
+		"loading": {
+			"title": {
+				"eng": "INITIALIZING_GRID",
+				"trans": "MEMUAT_GRID"
+			}
+		},
+		"results": {
+			"maxTitle": {
+				"eng": "MAX TIER SYNCED",
+				"trans": "Tier Maksimum Tersinkronisasi"
+			},
+			"noRewards": {
+				"eng": "No rewards returned",
+				"trans": "Tidak ada hadiah yang diperoleh"
+			},
+			"rewards": {
+				"eng": "Summer Nights Rewards",
+				"trans": "Hadiah Malam Musim Panas"
+			},
+			"seconds": {
+				"eng": "${seconds}s",
+				"trans": "${seconds} dtk",
+				"vars": [
+					"seconds"
+				]
+			},
+			"tier": {
+				"eng": "Tier ${tier} neon circuit cleared",
+				"trans": "Tingkat ${tier} sirkuit neon berhasil diselesaikan",
+				"vars": [
+					"tier"
+				]
+			},
+			"title": {
+				"eng": "REWARD TIER SYNCED",
+				"trans": "TINGKAT HADIAH DISENKRONKAN"
+			}
+		},
+		"stats": {
+			"achievedTier": {
+				"eng": "Achieved Tier",
+				"trans": "Peringkat Tercapai"
+			},
+			"bestCombo": {
+				"eng": "Best Combo",
+				"trans": "Kombo Tertinggi"
+			},
+			"combo": {
+				"eng": "Combo",
+				"trans": "Kombo"
+			},
+			"lines": {
+				"eng": "Lines",
+				"trans": "Baris"
+			},
+			"linesCleared": {
+				"eng": "Lines Cleared",
+				"trans": "Baris Terhapus"
+			},
+			"remaining": {
+				"eng": "Remain",
+				"trans": "Sisa"
+			},
+			"score": {
+				"eng": "Score",
+				"trans": "Skor"
+			}
+		},
+		"submission": {
+			"doNotRetry": {
+				"eng": "Submission interrupted. Do not retry this run.",
+				"trans": "Pengiriman terputus. Jangan ulangi upaya ini."
+			},
+			"localOutcome": {
+				"eng": "LOCAL OUTCOME",
+				"trans": "HASIL LOKAL"
+			},
+			"localResultShown": {
+				"eng": "Local result shown above. Server sync status unknown.",
+				"trans": "Hasil lokal ditampilkan di atas. Status sinkronisasi server tidak diketahui."
+			},
+			"noRetry": {
+				"eng": "Exit, then verify inventory/event log before starting another run.",
+				"trans": "Keluar, lalu verifikasi inventaris/log peristiwa sebelum memulai putaran berikutnya."
+			},
+			"outcomeMaxTier": {
+				"eng": "MAX TIER",
+				"trans": "TINGKAT MAKS"
+			},
+			"outcomeNoFit": {
+				"eng": "NO FIT",
+				"trans": "TIDAK COCOK"
+			},
+			"outcomeTimeout": {
+				"eng": "TIME EXPIRED",
+				"trans": "WAKTU HABIS"
+			},
+			"outcomeUnknown": {
+				"eng": "RUN ENDED",
+				"trans": "PUTARAN BERAKHIR"
+			},
+			"syncUnknown": {
+				"eng": "REWARD SYNC UNKNOWN",
+				"trans": "SINCRONISASI HADIAH TIDAK DIKETAHUI"
+			}
+		},
+		"submitting": {
+			"subtitle": {
+				"eng": "Submitting final tier. Do not close.",
+				"trans": "Mengirim tahap akhir. Jangan tutup."
+			},
+			"title": {
+				"eng": "SYNCING RUN DATA",
+				"trans": "MENYINKRONKAN DATA RUN"
+			}
+		},
+		"tierUp": {
+			"title": {
+				"eng": "Tier ${tier} Synced",
+				"trans": "Tier ${tier} Tersinkronisasi",
+				"vars": [
+					"tier"
+				]
+			}
+		},
+		"vfx": {
+			"combo": {
+				"eng": "COMBO x${combo}",
+				"trans": "KOMBO x${combo}",
+				"vars": [
+					"combo"
+				]
+			},
+			"endTier": {
+				"eng": "TIER ${tier}",
+				"trans": "TINGKATAN ${tier}",
+				"vars": [
+					"tier"
+				]
+			},
+			"maxGridSync": {
+				"eng": "MAX GRID SYNC",
+				"trans": "SINKRONISASI KISI MAKS"
+			},
+			"noFitFound": {
+				"eng": "NO FIT FOUND",
+				"trans": "TIADA KECOCOKAN"
+			},
+			"scoreGain": {
+				"eng": "+${score}",
+				"trans": "+${score}",
+				"vars": [
+					"score"
+				]
+			},
+			"tierSync": {
+				"eng": "TIER ${tier} SYNC",
+				"trans": "SINKRONISASI TINGKAT ${tier}",
+				"vars": [
+					"tier"
+				]
+			},
+			"timeExpired": {
+				"eng": "TIME EXPIRED",
+				"trans": "WAKTU HABIS"
+			},
+			"timer": {
+				"eng": "T-${seconds}",
+				"trans": "T-${seconds}",
+				"vars": [
+					"seconds"
+				]
+			}
 		}
 	},
 	"newYearFireworks": {
@@ -13779,13 +14248,40 @@
 			"trans": "Ambil semua"
 		}
 	},
+	"summerNightsPromo": {
+		"subtitle": {
+			"eng": "Miami neon hits the coast. Collect seashells, trade with Josie, and run Neon Nights Grid.",
+			"trans": "Neon Miami menyinari pesisir. Kumpulkan kerang, tukar dengan Josie, dan mainkan Neon Nights Grid."
+		},
+		"title": {
+			"eng": "Summer Nights",
+			"trans": "Malam Musim Panas"
+		}
+	},
+	"summerNightsPromoSmall": {
+		"desc1": {
+			"eng": "Neon Nights Grid is live at Crystal Beach.",
+			"trans": "Neon Nights Grid kini aktif di Crystal Beach."
+		},
+		"desc2": {
+			"eng": "Collect ${item} and trade with Josie.",
+			"trans": "Kumpulkan ${item} dan tukarkan dengan Josie.",
+			"vars": [
+				"item"
+			]
+		},
+		"title": {
+			"eng": "Summer Nights",
+			"trans": "Malam Musim Panas"
+		}
+	},
 	"summerPromo": {
 		"subtitle": {
-			"eng": "Its time for the summer beach! don't miss out on the fun!",
+			"eng": "Heat is rising on the coast. Collect seashells, trade with Josie, and run Solar Float Stack.",
 			"trans": "Saatnya pantai musim panas! Jangan sampai ketinggalan keseruan!"
 		},
 		"title": {
-			"eng": "Summer Fiesta Event",
+			"eng": "Heatwave Festival",
 			"trans": "Acara Fiesta Musim Panas"
 		}
 	},
@@ -13805,14 +14301,40 @@
 			]
 		},
 		"title": {
-			"eng": "Summer Fiesta: Don't Miss Out!",
+			"eng": "Heatwave Festival",
 			"trans": "Summer Fiesta: Jangan Lewatkan!"
 		}
 	},
 	"summerStack": {
+		"assets": {
+			"exit": {
+				"eng": "EXIT",
+				"trans": "KELUAR"
+			},
+			"failedMessage": {
+				"eng": "Required stack art did not load. No pass was consumed.",
+				"trans": "Grafik tumpukan yang dibutuhkan gagal dimuat. Pas tidak dikurangi."
+			},
+			"failedTitle": {
+				"eng": "ASSET_LOAD_FAILED",
+				"trans": "Gagal Memuat Aset"
+			},
+			"loadingMessage": {
+				"eng": "Preparing required float sprites.",
+				"trans": "Menyiapkan sprite melayang yang diperlukan."
+			},
+			"loadingTitle": {
+				"eng": "LOADING_STACK_ASSETS",
+				"trans": "Memuat Aset"
+			},
+			"retry": {
+				"eng": "RETRY",
+				"trans": "COBA LAGI"
+			}
+		},
 		"button": {
 			"subtitle": {
-				"eng": "CONTAINMENT STACK COURSE",
+				"eng": "BEACH FLOAT MERGE",
 				"trans": "KURSUS RANGKAIAN PENAHANAN"
 			},
 			"title": {
@@ -13820,18 +14342,9 @@
 				"trans": "TUMPUKAN MELAYANG SURYA"
 			}
 		},
-		"complete": {
-			"notification": {
-				"eng": "Solar Float Stack cleared through stage ${stage}. Rewards sent to inbox.",
-				"trans": "Solar Float Stack selesai hingga tahap ${stage}. Hadiah telah dikirim ke kotak masuk.",
-				"vars": [
-					"stage"
-				]
-			}
-		},
 		"entry": {
 			"eventEnded": {
-				"eng": "The summer event is not active.",
+				"eng": "The Heatwave Festival is not active.",
 				"trans": "Acara musim panas tidak aktif."
 			},
 			"noPass": {
@@ -13856,13 +14369,11 @@
 				"trans": "Kegagalan Eksekusi Stack"
 			}
 		},
-		"failed": {
-			"notification": {
-				"eng": "Solar Float Stack failed. Pass consumed.",
-				"trans": "Tumpukan Apung Solar gagal. Kupon terpakai."
-			}
-		},
 		"hud": {
+			"currentFloat": {
+				"eng": "CURRENT",
+				"trans": "SAAT INI"
+			},
 			"drops": {
 				"eng": "DROPS",
 				"trans": "DROP"
@@ -13874,9 +14385,9 @@
 					"dropsLeft"
 				]
 			},
-			"lossRules": {
-				"eng": "Lose if time hits 0 or drops run out before target is made.",
-				"trans": "Kalah jika waktu mencapai 0 atau drop habis sebelum target tercapai."
+			"nextFloat": {
+				"eng": "NEXT",
+				"trans": "LANJUT"
 			},
 			"stage": {
 				"eng": "STAGE ${stage}",
@@ -13885,24 +14396,30 @@
 					"stage"
 				]
 			},
-			"target": {
-				"eng": "Make ${targetName} to clear this stage.",
-				"trans": "Kalahkan ${targetName} untuk menyelesaikan tahap ini.",
+			"surge": {
+				"eng": "SURGE",
+				"trans": "LONJAKAN"
+			},
+			"surgeCharge": {
+				"eng": "${charge}/${required}",
+				"trans": "${charge}/${required}",
 				"vars": [
-					"targetName"
+					"charge",
+					"required"
 				]
 			},
+			"surgeReady": {
+				"eng": "READY",
+				"trans": "SIAP"
+			},
 			"targetProgress": {
-				"eng": "${current}/${target}",
+				"eng": "${current}/${target} • ${targetName}",
 				"trans": "${current}/${target}",
 				"vars": [
 					"current",
-					"target"
+					"target",
+					"targetName"
 				]
-			},
-			"time": {
-				"eng": "TIME",
-				"trans": "WAKTU"
 			},
 			"timeLeft": {
 				"eng": "${time}s",
@@ -13922,7 +14439,7 @@
 		},
 		"intro": {
 			"briefing": {
-				"eng": "STACK_BRIEFING",
+				"eng": "HOW TO PLAY",
 				"trans": "Keterangan Misi"
 			},
 			"eventClosed": {
@@ -13930,36 +14447,44 @@
 				"trans": "ACARA DITUTUP"
 			},
 			"eventInactive": {
-				"eng": "Summer event inactive",
+				"eng": "Heatwave Festival inactive",
 				"trans": "Event musim panas tidak aktif"
 			},
 			"eventLabel": {
-				"eng": "SUMMER_EVENT",
+				"eng": "HEATWAVE_FESTIVAL",
 				"trans": "ACARA MUSIM PANAS"
 			},
 			"needPass": {
 				"eng": "NEED PASS",
 				"trans": "KARTU AKSES DIPERLUKAN"
 			},
+			"passLabel": {
+				"eng": "ENTRY_PASS",
+				"trans": "PAS MASUK"
+			},
 			"rewardHint": {
-				"eng": "Reward bands pay summer materials and tech salvage.",
+				"eng": "Reward bands pay Heatwave materials and tech salvage.",
 				"trans": "Tingkat hadiah memberikan bahan musim panas dan rongsokan teknologi."
 			},
 			"rule1": {
-				"eng": "Drag along the rail, release, and drop a summer sphere.",
+				"eng": "Move along the rail, then release to drop the current float.",
 				"trans": "Geser sepanjang rel, lepaskan, dan jatuhkan bola musim panas."
 			},
 			"rule2": {
-				"eng": "Match identical round objects to merge into larger floats.",
+				"eng": "Put two matching floats together to merge them into a bigger float.",
 				"trans": "Cocokkan benda bulat sejenis agar menyatu menjadi pelampung yang lebih besar."
 			},
 			"rule3": {
-				"eng": "Make the target float before time or drops run out.",
+				"eng": "Reach the target float before the timer or your drops run out.",
 				"trans": "Buat target melayang sebelum waktu atau tetesan habis."
 			},
 			"rule4": {
-				"eng": "Only the terminal stage result consumes the pass and pays rewards.",
+				"eng": "Your pass is used when the run ends. Rewards depend on the last stage you cleared.",
 				"trans": "Hanya hasil pada tahap akhir yang menggunakan pass dan memberikan hadiah."
+			},
+			"ruleCombo": {
+				"eng": "Chain merges pull nearby matching floats and can give back drops.",
+				"trans": "Penggabungan berantai menarik objek melayang serupa di sekitarnya serta berpotensi memberikan drop."
 			},
 			"start": {
 				"eng": "START STACK",
@@ -13976,17 +14501,96 @@
 				"trans": "INISIALISASI TUMPUKAN"
 			}
 		},
-		"stageClear": {
-			"continue": {
-				"eng": "NEXT STAGE",
-				"trans": "TAHAP BERIKUTNYA"
+		"results": {
+			"biggestLabel": {
+				"eng": "BIGGEST_FLOAT",
+				"trans": "Kemenangan Terbesar"
 			},
-			"next": {
-				"eng": "Target tier secured. Continue stacking.",
-				"trans": "Tingkat target terkunci. Lanjutkan penumpukan."
+			"completeTitle": {
+				"eng": "RUN_COMPLETE",
+				"trans": "MISI_SELESAI"
+			},
+			"failedTitle": {
+				"eng": "RUN_FAILED",
+				"trans": "PERCOBAAN GAGAL"
+			},
+			"finish": {
+				"eng": "FINISH",
+				"trans": "SELESAI"
+			},
+			"fullClearTitle": {
+				"eng": "FULL_CLEAR",
+				"trans": "KLIR_PENUH"
+			},
+			"noFloat": {
+				"eng": "No float reached",
+				"trans": "Float tidak tercapai"
+			},
+			"noRewardMessage": {
+				"eng": "No stage cleared. Pass consumed.",
+				"trans": "Tak satu tahap pun berhasil diselesaikan. Pass telah digunakan."
+			},
+			"rewardMessage": {
+				"eng": "Rewards sent to your item inbox.",
+				"trans": "Hadiah telah dikirim ke kotak masuk item Anda."
+			},
+			"scoreLabel": {
+				"eng": "SCORE",
+				"trans": "Skor"
+			},
+			"stageLabel": {
+				"eng": "STAGE",
+				"trans": "TAHAP"
+			},
+			"stageValue": {
+				"eng": "${stage}/${maxStage}",
+				"trans": "Tahap ${stage}/${maxStage}",
+				"vars": [
+					"stage",
+					"maxStage"
+				]
+			}
+		},
+		"stageClear": {
+			"bestFloat": {
+				"eng": "BEST FLOAT",
+				"trans": "MELAYANG TERBAIK"
+			},
+			"cleared": {
+				"eng": "Stage ${stage} cleared",
+				"trans": "Tahap ${stage} berhasil dilalui",
+				"vars": [
+					"stage"
+				]
+			},
+			"continue": {
+				"eng": "START STAGE ${stage}",
+				"trans": "TAHAP BERIKUTNYA",
+				"vars": [
+					"stage"
+				]
+			},
+			"kicker": {
+				"eng": "STAGE COMPLETE",
+				"trans": "TAHAP SELESAI"
+			},
+			"nextTarget": {
+				"eng": "Next stage: build ${target}",
+				"trans": "Tahap berikutnya: bangun ${target}",
+				"vars": [
+					"target"
+				]
+			},
+			"score": {
+				"eng": "SCORE",
+				"trans": "SKOR"
+			},
+			"stageLabel": {
+				"eng": "STAGE",
+				"trans": "TAHAP"
 			},
 			"title": {
-				"eng": "STAGE_CLEAR",
+				"eng": "STAGE CLEAR",
 				"trans": "TAHAP SELESAI"
 			}
 		},
@@ -13996,21 +14600,21 @@
 				"trans": "KELUAR"
 			},
 			"message": {
-				"eng": "Reward submission failed or timed out. Do not retry this run. Contact support or exit.",
+				"eng": "Run could not be saved. Exit and contact support if rewards are missing.",
 				"trans": "Pengajuan hadiah gagal atau waktu habis. Jangan coba ulang sesi ini. Hubungi tim bantuan atau keluar."
 			},
 			"title": {
-				"eng": "SUBMISSION_UNCERTAIN",
+				"eng": "SAVE FAILED",
 				"trans": "Status Pengiriman Tidak Diketahui"
 			}
 		},
 		"submitting": {
 			"message": {
-				"eng": "Terminal result locked. Do not retry.",
+				"eng": "Saving your run. Do not close this screen.",
 				"trans": "Hasil terminal terkunci. Jangan coba lagi."
 			},
 			"title": {
-				"eng": "SUBMITTING_RUN_DATA",
+				"eng": "SAVING RUN",
 				"trans": "Mengirimkan Data Sesi"
 			}
 		},
@@ -14054,6 +14658,23 @@
 			"waterBalloonOrb": {
 				"eng": "Water Balloon Orb",
 				"trans": "Bola Balon Air"
+			}
+		},
+		"toast": {
+			"chain": {
+				"eng": "CHAIN x${chainCount}",
+				"trans": "KOMBO x${chainCount}",
+				"vars": [
+					"chainCount"
+				]
+			},
+			"dropRefund": {
+				"eng": "DROP REFUND ${count}/${max}",
+				"trans": "PENGEMBALIAN DROP ${count}/${max}",
+				"vars": [
+					"count",
+					"max"
+				]
 			}
 		}
 	},
@@ -17278,6 +17899,13 @@
 				"description": {
 					"eng": "Finish the task instantly for all players in the game and earn skip points to show your support to other players!",
 					"trans": "Skip Global memungkinkan kamu untuk melewati waktu tunggu AFK, dan menyelesaikannya secara instan. \n     Efek ini akan diterapkan pada semua pemain yang sedang melakukan tugas AFK"
+				},
+				"discountPercentOff": {
+					"eng": "${percent}% OFF",
+					"trans": "DISKON ${percent}%",
+					"vars": [
+						"percent"
+					]
 				},
 				"minute": {
 					"eng": "Skip ${minutes} minutes",
