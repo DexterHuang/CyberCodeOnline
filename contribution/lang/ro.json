@@ -1114,6 +1114,13 @@
 				"percent"
 			]
 		},
+		"eventDiscountTitle": {
+			"eng": "${eventName} Discount",
+			"trans": "Reducere ${eventName}",
+			"vars": [
+				"eventName"
+			]
+		},
 		"hintBox": {
 			"text2": {
 				"eng": "When calibration train funding reaches 100%, the system will automatically deploy +1 to +10 calibration success rate and destruction prevention buffs in sequence with interval of ${deployInterval} minutes. the buff train will starting at the next designated time",
@@ -2440,6 +2447,10 @@
 		"donation53": {
 			"eng": "Lightwalker",
 			"trans": "Călător în Lumină"
+		},
+		"donation54": {
+			"eng": "Vice Heat",
+			"trans": "Vice Heat"
 		},
 		"donation6": {
 			"eng": "Prestige",
@@ -3883,8 +3894,18 @@
 				"trans": "Vara"
 			},
 			"topUpRewardTitle": {
-				"eng": "Summer Bonus",
+				"eng": "Heatwave Festival Bonus",
 				"trans": "Bonus de Vară"
+			}
+		},
+		"summerNights": {
+			"eventGame": {
+				"eng": "Neon Nights Grid",
+				"trans": "Grila Nopților de Neon"
+			},
+			"name": {
+				"eng": "Summer Nights",
+				"trans": "Seri de vară"
 			}
 		},
 		"thanksgiving": {
@@ -4241,6 +4262,13 @@
 			"trans": "Până la ${percent}% reducere pentru contribuabilii timpurii",
 			"vars": [
 				"percent"
+			]
+		},
+		"eventDiscountTitle": {
+			"eng": "${eventName} Discount",
+			"trans": "Reducere ${eventName}",
+			"vars": [
+				"eventName"
 			]
 		},
 		"hint": {
@@ -5604,6 +5632,16 @@
 				"trans": "Abonament Comandă Rachete"
 			}
 		},
+		"neonNightsPass": {
+			"description": {
+				"eng": "A neon boardwalk access pass required to initialize Neon Nights Grid during the Summer Nights event. Can be found from AFK farming during Summer Nights.",
+				"trans": "Un tichet de acces la promenada neon necesar pentru inițializarea grilei Neon Nights în cadrul evenimentului Summer Nights. Poate fi obținut prin farming AFK pe durata evenimentului."
+			},
+			"name": {
+				"eng": "Neon Nights Pass",
+				"trans": "Bilet Neon Nights"
+			}
+		},
 		"newYear": {
 			"description": {
 				"eng": "A red envelope with a golden digital seal on it. looks like it contains some sort of currency",
@@ -5961,7 +5999,7 @@
 		},
 		"solarFloatPass": {
 			"description": {
-				"eng": "A sealed beach access pass required to initialize Solar Float Stack during the Summer event.",
+				"eng": "A sealed beach access pass required to initialize Solar Float Stack during Heatwave Festival.",
 				"trans": "Permis sigilat de acces pe plajă necesar pentru inițializarea Stivei Flotatoarelor Solare în timpul evenimentului de vară."
 			},
 			"name": {
@@ -9219,6 +9257,437 @@
 		"viewProfile": {
 			"eng": "View Profile",
 			"trans": "Vezi profilul"
+		}
+	},
+	"neonNightsGrid": {
+		"button": {
+			"subtitle": {
+				"eng": "BOARDWALK LIGHT CIRCUIT",
+				"trans": "Circuit Iluminat al Promenadei"
+			},
+			"title": {
+				"eng": "NEON NIGHTS GRID",
+				"trans": "GRILA NOAPTEI DE NEON"
+			}
+		},
+		"canvas": {
+			"label": {
+				"eng": "Neon Nights Grid playfield. Drag tray pieces onto the 8 by 8 board.",
+				"trans": "Câmpul de joc Neon Nights Grid. Trage piesele din suport pe tabla 8x8."
+			}
+		},
+		"drag": {
+			"occupied": {
+				"eng": "OCCUPIED",
+				"trans": "OCUPAT"
+			},
+			"offGrid": {
+				"eng": "OFF GRID",
+				"trans": "ÎN AFARA REȚELEI"
+			}
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "Summer Nights is not active.",
+				"trans": "Evenimentul Summer Nights nu este activ."
+			},
+			"noPass": {
+				"eng": "You need a ${itemName} to enter Neon Nights Grid.",
+				"trans": "Ai nevoie de ${itemName} pentru a accesa Neon Nights Grid.",
+				"vars": [
+					"itemName"
+				]
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "EXIT",
+				"trans": "IEȘIRE"
+			},
+			"message": {
+				"eng": "Submission interrupted. Reward sync status is unknown.",
+				"trans": "Transmiterea a fost întreruptă. Starea sincronizării recompenselor este necunoscută."
+			},
+			"title": {
+				"eng": "SYNC STATUS UNKNOWN",
+				"trans": "Stare sincronizare necunoscută"
+			},
+			"verify": {
+				"eng": "Exit, then verify inventory/event log before starting another run.",
+				"trans": "Ieșiți, apoi verificați inventarul/jurnalul de evenimente înainte de a începe o nouă tentativă."
+			}
+		},
+		"exit": {
+			"eng": "Exit",
+			"trans": "Ieșire"
+		},
+		"feedback": {
+			"comboLost": {
+				"eng": "COMBO LOST",
+				"trans": "COMBO PIERDUT"
+			},
+			"invalid": {
+				"eng": "INVALID FIT",
+				"trans": "NU SE POTRIVEȘTE"
+			},
+			"lineClearCombo": {
+				"eng": "+${score} LINE CLEAR x${combo}",
+				"trans": "+${score} LINIE ȘTEARSĂ x${combo}",
+				"vars": [
+					"score",
+					"combo"
+				]
+			},
+			"lineClearScore": {
+				"eng": "+${score} LINE CLEAR",
+				"trans": "+${score} LINII ȘTERSE",
+				"vars": [
+					"score"
+				]
+			},
+			"maxScore": {
+				"eng": "MAX TIER SYNCED",
+				"trans": "NIVEL MAXIM SINCRONIZAT"
+			},
+			"noFit": {
+				"eng": "NO FIT FOUND",
+				"trans": "NU S-A GĂSIT POTRIVIRE"
+			},
+			"occupied": {
+				"eng": "OCCUPIED",
+				"trans": "OCUPAT"
+			},
+			"offGrid": {
+				"eng": "OFF GRID",
+				"trans": "ÎN AFARA REȚELEI"
+			},
+			"placedScore": {
+				"eng": "+${score} PLACED",
+				"trans": "+${score} PLASAT",
+				"vars": [
+					"score"
+				]
+			},
+			"timeout": {
+				"eng": "TIME EXPIRED",
+				"trans": "TIMPUL A EXPIRAT"
+			}
+		},
+		"finish": {
+			"eng": "Finish",
+			"trans": "Termină"
+		},
+		"gameOver": {
+			"subtitle": {
+				"eng": "No reward tier reached. Pass consumed.",
+				"trans": "Niciun palier de recompense atins. Tichet consumat."
+			},
+			"title": {
+				"eng": "GRID LOCKED",
+				"trans": "GRILĂ BLOCATĂ"
+			}
+		},
+		"hint": {
+			"drag": {
+				"eng": "Drag tray pieces onto the board",
+				"trans": "Glisează piesele de pe suport pe grilă"
+			}
+		},
+		"hud": {
+			"comboValue": {
+				"eng": "Combo: x${combo}",
+				"trans": "Combo: x${combo}",
+				"vars": [
+					"combo"
+				]
+			},
+			"linesValue": {
+				"eng": "Lines: ${lines}",
+				"trans": "Linii: ${lines}",
+				"vars": [
+					"lines"
+				]
+			},
+			"maxTier": {
+				"eng": "MAX",
+				"trans": "MAX"
+			},
+			"nextValue": {
+				"eng": "Next: ${threshold}",
+				"trans": "Următorul: ${threshold}",
+				"vars": [
+					"threshold"
+				]
+			},
+			"piecesValue": {
+				"eng": "Pieces: ${pieces}",
+				"trans": "Piese: ${pieces}",
+				"vars": [
+					"pieces"
+				]
+			},
+			"score": {
+				"eng": "Score",
+				"trans": "Scor"
+			},
+			"seconds": {
+				"eng": "${seconds}s",
+				"trans": "${seconds} sec",
+				"vars": [
+					"seconds"
+				]
+			},
+			"tier": {
+				"eng": "Tier",
+				"trans": "Clasă"
+			},
+			"time": {
+				"eng": "Time",
+				"trans": "Timp"
+			}
+		},
+		"intro": {
+			"briefing": {
+				"eng": "GRID_BRIEFING",
+				"trans": "BREVIAR REȚEAUĂ"
+			},
+			"combo": {
+				"eng": "Consecutive line clears build a combo. Complete a full 3-piece tray with no line clear and it resets.",
+				"trans": "Ștergerea consecutivă a rândurilor generează un combo. Dacă completezi grila cu 3 piese fără să elimini vreun rând, combo-ul se resetează."
+			},
+			"eventClosed": {
+				"eng": "EVENT CLOSED",
+				"trans": "EVENIMENT ÎNCHEIAT"
+			},
+			"eventInactive": {
+				"eng": "Summer Nights inactive",
+				"trans": "Nopți de vară inactive"
+			},
+			"eventLabel": {
+				"eng": "Summer Nights",
+				"trans": "Seri de vară"
+			},
+			"needPass": {
+				"eng": "NEED PASS",
+				"trans": "PERMIS NECESAR"
+			},
+			"passLabel": {
+				"eng": "ENTRY_PASS",
+				"trans": "BILET_DE_INTRARE"
+			},
+			"rewardHint": {
+				"eng": "Reward tiers pay Summer Nights seashells and tech salvage.",
+				"trans": "Nivelele de recompense oferă cochișe Summer Nights și deșeuri tehnologice."
+			},
+			"rule1": {
+				"eng": "Drag one of three neon blocks onto the 8x8 board.",
+				"trans": "Trage unul dintre cele trei blocuri neon pe grila de 8x8."
+			},
+			"rule2": {
+				"eng": "Fill full rows or columns to clear lines and score.",
+				"trans": "Completează rânduri sau coloane întregi pentru a șterge linii și a câștiga puncte."
+			},
+			"rule3": {
+				"eng": "Score thresholds advance reward tiers during one continuous ${seconds}s run.",
+				"trans": "Atinzi pragurile de scor pentru a avansa la următoarea treaptă de recompense într-o singură rundă continuă de ${seconds}s.",
+				"vars": [
+					"seconds"
+				]
+			},
+			"rule4": {
+				"eng": "Timeout submits the tier reached; ${score} score wins tier ${tier}.",
+				"trans": "Timp expirat înregistrează nivelul atins; scorul ${score} deblochează nivelul ${tier}.",
+				"vars": [
+					"score",
+					"tier"
+				]
+			},
+			"rule5": {
+				"eng": "If none of the current pieces can fit, the run ends and submits your reached tier.",
+				"trans": "Dacă nicio piesă curentă nu se mai poate potrivi, runda se termină și se înregistrează nivelul atins."
+			},
+			"start": {
+				"eng": "START GRID",
+				"trans": "PORNEȘTE GRILA"
+			},
+			"title": {
+				"eng": "Neon Nights Grid",
+				"trans": "Grila Nopților de Neon"
+			}
+		},
+		"loading": {
+			"title": {
+				"eng": "INITIALIZING_GRID",
+				"trans": "INIȚIALIZARE_GRILĂ"
+			}
+		},
+		"results": {
+			"maxTitle": {
+				"eng": "MAX TIER SYNCED",
+				"trans": "NIVEL MAXIM SINCRONIZAT"
+			},
+			"noRewards": {
+				"eng": "No rewards returned",
+				"trans": "Fără recompense"
+			},
+			"rewards": {
+				"eng": "Summer Nights Rewards",
+				"trans": "Răsplăți Nopți de Vară"
+			},
+			"seconds": {
+				"eng": "${seconds}s",
+				"trans": "${seconds} sec",
+				"vars": [
+					"seconds"
+				]
+			},
+			"tier": {
+				"eng": "Tier ${tier} neon circuit cleared",
+				"trans": "Nivel ${tier}: Circuitul Neon completat",
+				"vars": [
+					"tier"
+				]
+			},
+			"title": {
+				"eng": "REWARD TIER SYNCED",
+				"trans": "NIVEL RECOMPENSĂ SINCRONIZAT"
+			}
+		},
+		"stats": {
+			"achievedTier": {
+				"eng": "Achieved Tier",
+				"trans": "Nivel atins"
+			},
+			"bestCombo": {
+				"eng": "Best Combo",
+				"trans": "Cel mai bun combo"
+			},
+			"combo": {
+				"eng": "Combo",
+				"trans": "Combo"
+			},
+			"lines": {
+				"eng": "Lines",
+				"trans": "Linii"
+			},
+			"linesCleared": {
+				"eng": "Lines Cleared",
+				"trans": "Rânduri eliminate"
+			},
+			"remaining": {
+				"eng": "Remain",
+				"trans": "Rămas"
+			},
+			"score": {
+				"eng": "Score",
+				"trans": "Scor"
+			}
+		},
+		"submission": {
+			"doNotRetry": {
+				"eng": "Submission interrupted. Do not retry this run.",
+				"trans": "Transmisia a fost întreruptă. Nu reîncercați această execuție."
+			},
+			"localOutcome": {
+				"eng": "LOCAL OUTCOME",
+				"trans": "REZULTAT LOCAL"
+			},
+			"localResultShown": {
+				"eng": "Local result shown above. Server sync status unknown.",
+				"trans": "Rezultatul local este afișat mai sus. Starea sincronizării cu serverul este necunoscută."
+			},
+			"noRetry": {
+				"eng": "Exit, then verify inventory/event log before starting another run.",
+				"trans": "Ieșiți, apoi verificați inventarul/jurnalul de evenimente înainte de a începe o nouă tentativă."
+			},
+			"outcomeMaxTier": {
+				"eng": "MAX TIER",
+				"trans": "NIVEL MAXIM"
+			},
+			"outcomeNoFit": {
+				"eng": "NO FIT",
+				"trans": "NU SE POTRIVEȘTE"
+			},
+			"outcomeTimeout": {
+				"eng": "TIME EXPIRED",
+				"trans": "TIMPUL A EXPIRAT"
+			},
+			"outcomeUnknown": {
+				"eng": "RUN ENDED",
+				"trans": "EXECUȚIE FINALIZATĂ"
+			},
+			"syncUnknown": {
+				"eng": "REWARD SYNC UNKNOWN",
+				"trans": "SINCRONIZARE RECOMPENSĂ NECUNOASCUTĂ"
+			}
+		},
+		"submitting": {
+			"subtitle": {
+				"eng": "Submitting final tier. Do not close.",
+				"trans": "Se transmite nivelul final. Nu închideți."
+			},
+			"title": {
+				"eng": "SYNCING RUN DATA",
+				"trans": "Sincronizare date rulare"
+			}
+		},
+		"tierUp": {
+			"title": {
+				"eng": "Tier ${tier} Synced",
+				"trans": "Nivel ${tier} Sincronizat",
+				"vars": [
+					"tier"
+				]
+			}
+		},
+		"vfx": {
+			"combo": {
+				"eng": "COMBO x${combo}",
+				"trans": "COMBO x${combo}",
+				"vars": [
+					"combo"
+				]
+			},
+			"endTier": {
+				"eng": "TIER ${tier}",
+				"trans": "NIVEL ${tier}",
+				"vars": [
+					"tier"
+				]
+			},
+			"maxGridSync": {
+				"eng": "MAX GRID SYNC",
+				"trans": "MAX SINCRONIZARE GRILĂ"
+			},
+			"noFitFound": {
+				"eng": "NO FIT FOUND",
+				"trans": "NU S-A GĂSIT POTRIVIRE"
+			},
+			"scoreGain": {
+				"eng": "+${score}",
+				"trans": "+${score}",
+				"vars": [
+					"score"
+				]
+			},
+			"tierSync": {
+				"eng": "TIER ${tier} SYNC",
+				"trans": "NIVEL ${tier} SINCRONIZAT",
+				"vars": [
+					"tier"
+				]
+			},
+			"timeExpired": {
+				"eng": "TIME EXPIRED",
+				"trans": "TIMPUL A EXPIRAT"
+			},
+			"timer": {
+				"eng": "T-${seconds}",
+				"trans": "T-${seconds}",
+				"vars": [
+					"seconds"
+				]
+			}
 		}
 	},
 	"newYearFireworks": {
@@ -13779,13 +14248,40 @@
 			"trans": "Ia totul"
 		}
 	},
+	"summerNightsPromo": {
+		"subtitle": {
+			"eng": "Miami neon hits the coast. Collect seashells, trade with Josie, and run Neon Nights Grid.",
+			"trans": "Luminile neon din Miami ating țărmul. Colectează scoici, negociază cu Josie și joacă Neon Nights Grid."
+		},
+		"title": {
+			"eng": "Summer Nights",
+			"trans": "Seri de vară"
+		}
+	},
+	"summerNightsPromoSmall": {
+		"desc1": {
+			"eng": "Neon Nights Grid is live at Crystal Beach.",
+			"trans": "Neon Nights Grid este acum disponibil la Crystal Beach."
+		},
+		"desc2": {
+			"eng": "Collect ${item} and trade with Josie.",
+			"trans": "Colectează ${item} și schimbă-le cu Josie.",
+			"vars": [
+				"item"
+			]
+		},
+		"title": {
+			"eng": "Summer Nights",
+			"trans": "Seri de vară"
+		}
+	},
 	"summerPromo": {
 		"subtitle": {
-			"eng": "Its time for the summer beach! don't miss out on the fun!",
+			"eng": "Heat is rising on the coast. Collect seashells, trade with Josie, and run Solar Float Stack.",
 			"trans": "E timpul pentru plaja de vară! Nu rata distracția!"
 		},
 		"title": {
-			"eng": "Summer Fiesta Event",
+			"eng": "Heatwave Festival",
 			"trans": "Evenimentul Fiesta de Vară"
 		}
 	},
@@ -13805,14 +14301,44 @@
 			]
 		},
 		"title": {
-			"eng": "Summer Fiesta: Don't Miss Out!",
+			"eng": "Heatwave Festival",
 			"trans": "Sărbătoarea Verii: Nu rata!"
 		}
 	},
 	"summerStack": {
+		"assets": {
+			"exit": {
+				"eng": "EXIT",
+				"trans": "IEȘIRE"
+			},
+			"failedMessage": {
+				"eng": "Required stack art did not load. No pass was consumed.",
+				"trans": "Arta necesară pentru stivă nu s-a încărcat. Nu s-a consumat niciun tichet."
+			},
+			"failedTitle": {
+				"eng": "ASSET_LOAD_FAILED",
+				"trans": "Încărcarea resurselor a eșuat"
+			},
+			"loadingMessage": {
+				"eng": "Preparing required float sprites.",
+				"trans": "Pregătire sprite-uri flotante necesare."
+			},
+			"loadingTitle": {
+				"eng": "LOADING_STACK_ASSETS",
+				"trans": "Încărcare resurse Stivă"
+			},
+			"retry": {
+				"eng": "RETRY",
+				"trans": "Încearcă din nou"
+			}
+		},
 		"button": {
+			"enter": {
+				"eng": "Play",
+				"trans": "Joacă"
+			},
 			"subtitle": {
-				"eng": "CONTAINMENT STACK COURSE",
+				"eng": "BEACH FLOAT MERGE",
 				"trans": "PARCURSUL STIVEI DE CONFINARE"
 			},
 			"title": {
@@ -13820,18 +14346,9 @@
 				"trans": "Stivă Flotantă Solară"
 			}
 		},
-		"complete": {
-			"notification": {
-				"eng": "Solar Float Stack cleared through stage ${stage}. Rewards sent to inbox.",
-				"trans": "Solar Float Stack completat până la etapa ${stage}. Răsplățile au fost trimise în căsuța de mesaje.",
-				"vars": [
-					"stage"
-				]
-			}
-		},
 		"entry": {
 			"eventEnded": {
-				"eng": "The summer event is not active.",
+				"eng": "The Heatwave Festival is not active.",
 				"trans": "Evenimentul de vară nu este activ."
 			},
 			"noPass": {
@@ -13856,13 +14373,11 @@
 				"trans": "EȘEC LA EXECUȚIA STIVEI"
 			}
 		},
-		"failed": {
-			"notification": {
-				"eng": "Solar Float Stack failed. Pass consumed.",
-				"trans": "Stiva Flotanță Solară a eșuat. Încercare consumată."
-			}
-		},
 		"hud": {
+			"currentFloat": {
+				"eng": "CURRENT",
+				"trans": "ACTUAL"
+			},
 			"drops": {
 				"eng": "DROPS",
 				"trans": "Drop-uri"
@@ -13874,9 +14389,9 @@
 					"dropsLeft"
 				]
 			},
-			"lossRules": {
-				"eng": "Lose if time hits 0 or drops run out before target is made.",
-				"trans": "Pierzi dacă timpul ajunge la 0 sau se termină drop-urile înainte de a atinge ținta."
+			"nextFloat": {
+				"eng": "NEXT",
+				"trans": "ÎNAINTE"
 			},
 			"stage": {
 				"eng": "STAGE ${stage}",
@@ -13885,24 +14400,30 @@
 					"stage"
 				]
 			},
-			"target": {
-				"eng": "Make ${targetName} to clear this stage.",
-				"trans": "Completează ${targetName} pentru a trece nivelul.",
+			"surge": {
+				"eng": "SURGE",
+				"trans": "IMPULS"
+			},
+			"surgeCharge": {
+				"eng": "${charge}/${required}",
+				"trans": "${charge}/${required}",
 				"vars": [
-					"targetName"
+					"charge",
+					"required"
 				]
 			},
+			"surgeReady": {
+				"eng": "READY",
+				"trans": "GATA"
+			},
 			"targetProgress": {
-				"eng": "${current}/${target}",
+				"eng": "${current}/${target} • ${targetName}",
 				"trans": "${current}/${target}",
 				"vars": [
 					"current",
-					"target"
+					"target",
+					"targetName"
 				]
-			},
-			"time": {
-				"eng": "TIME",
-				"trans": "ORA"
 			},
 			"timeLeft": {
 				"eng": "${time}s",
@@ -13922,7 +14443,7 @@
 		},
 		"intro": {
 			"briefing": {
-				"eng": "STACK_BRIEFING",
+				"eng": "HOW TO PLAY",
 				"trans": "Informări Stivă"
 			},
 			"eventClosed": {
@@ -13930,36 +14451,44 @@
 				"trans": "EVENIMENT ÎNCHIS"
 			},
 			"eventInactive": {
-				"eng": "Summer event inactive",
+				"eng": "Heatwave Festival inactive",
 				"trans": "Eveniment de vară inactiv"
 			},
 			"eventLabel": {
-				"eng": "SUMMER_EVENT",
+				"eng": "HEATWAVE_FESTIVAL",
 				"trans": "Eveniment de Vară"
 			},
 			"needPass": {
 				"eng": "NEED PASS",
 				"trans": "PERMIS NECESAR"
 			},
+			"passLabel": {
+				"eng": "ENTRY_PASS",
+				"trans": "BILET_DE_INTRARE"
+			},
 			"rewardHint": {
-				"eng": "Reward bands pay summer materials and tech salvage.",
+				"eng": "Reward bands pay Heatwave materials and tech salvage.",
 				"trans": "Treptele de recompense acordă materiale de vară și resurse tehnologice."
 			},
 			"rule1": {
-				"eng": "Drag along the rail, release, and drop a summer sphere.",
+				"eng": "Move along the rail, then release to drop the current float.",
 				"trans": "Trage de-a lungul șinei, eliberează și plasează sfera de vară."
 			},
 			"rule2": {
-				"eng": "Match identical round objects to merge into larger floats.",
+				"eng": "Put two matching floats together to merge them into a bigger float.",
 				"trans": "Potrivește obiectele rotunde identice pentru a le îmbina în plutitori mai mari."
 			},
 			"rule3": {
-				"eng": "Make the target float before time or drops run out.",
+				"eng": "Reach the target float before the timer or your drops run out.",
 				"trans": "Menține ținta în aer înainte ca timpul sau picăturile să se termine."
 			},
 			"rule4": {
-				"eng": "Only the terminal stage result consumes the pass and pays rewards.",
+				"eng": "Your pass is used when the run ends. Rewards depend on the last stage you cleared.",
 				"trans": "Doar rezultatul etapei finale consumă tichetul și acordă recompensele."
+			},
+			"ruleCombo": {
+				"eng": "Chain merges pull nearby matching floats and can give back drops.",
+				"trans": "Fuziunile în lanț atrag elemente plutitoare similare din apropiere și pot acorda bonusuri."
 			},
 			"start": {
 				"eng": "START STACK",
@@ -13976,17 +14505,96 @@
 				"trans": "INIȚIALIZARE STIVĂ"
 			}
 		},
-		"stageClear": {
-			"continue": {
-				"eng": "NEXT STAGE",
-				"trans": "URMĂTORA ETAPE"
+		"results": {
+			"biggestLabel": {
+				"eng": "BIGGEST_FLOAT",
+				"trans": "VALOARE MAXIMĂ"
 			},
-			"next": {
-				"eng": "Target tier secured. Continue stacking.",
-				"trans": "Rang țintă atins. Continuă acumularea."
+			"completeTitle": {
+				"eng": "RUN_COMPLETE",
+				"trans": "RUNDĂ FINALIZATĂ"
+			},
+			"failedTitle": {
+				"eng": "RUN_FAILED",
+				"trans": "Încercare eșuată"
+			},
+			"finish": {
+				"eng": "FINISH",
+				"trans": "FINALIZEAZĂ"
+			},
+			"fullClearTitle": {
+				"eng": "FULL_CLEAR",
+				"trans": "COMPLETAT INTEGRAL"
+			},
+			"noFloat": {
+				"eng": "No float reached",
+				"trans": "Nicio plutire atinsă"
+			},
+			"noRewardMessage": {
+				"eng": "No stage cleared. Pass consumed.",
+				"trans": "Niciun nivel trecut. Biletul consumat."
+			},
+			"rewardMessage": {
+				"eng": "Rewards sent to your item inbox.",
+				"trans": "Recompensele au fost livrate în inventar."
+			},
+			"scoreLabel": {
+				"eng": "SCORE",
+				"trans": "SCOR"
+			},
+			"stageLabel": {
+				"eng": "STAGE",
+				"trans": "NIVEL"
+			},
+			"stageValue": {
+				"eng": "${stage}/${maxStage}",
+				"trans": "${stage}/${maxStage}",
+				"vars": [
+					"stage",
+					"maxStage"
+				]
+			}
+		},
+		"stageClear": {
+			"bestFloat": {
+				"eng": "BEST FLOAT",
+				"trans": "RECORD FLOTARE"
+			},
+			"cleared": {
+				"eng": "Stage ${stage} cleared",
+				"trans": "Etapa ${stage} finalizată",
+				"vars": [
+					"stage"
+				]
+			},
+			"continue": {
+				"eng": "START STAGE ${stage}",
+				"trans": "URMĂTORA ETAPE",
+				"vars": [
+					"stage"
+				]
+			},
+			"kicker": {
+				"eng": "STAGE COMPLETE",
+				"trans": "NIVEL FINALIZAT"
+			},
+			"nextTarget": {
+				"eng": "Next stage: build ${target}",
+				"trans": "Următorul nivel: construiește ${target}",
+				"vars": [
+					"target"
+				]
+			},
+			"score": {
+				"eng": "SCORE",
+				"trans": "SCOR"
+			},
+			"stageLabel": {
+				"eng": "STAGE",
+				"trans": "NIVEL"
 			},
 			"title": {
-				"eng": "STAGE_CLEAR",
+				"eng": "STAGE CLEAR",
 				"trans": "ETAPĂ TRECUTĂ"
 			}
 		},
@@ -13996,21 +14604,21 @@
 				"trans": "IEȘIRE"
 			},
 			"message": {
-				"eng": "Reward submission failed or timed out. Do not retry this run. Contact support or exit.",
+				"eng": "Run could not be saved. Exit and contact support if rewards are missing.",
 				"trans": "Transmiterea recompensei a eșuat sau a expirat. Nu repeta această tentativă. Contactează asistența sau părăsește fereastra."
 			},
 			"title": {
-				"eng": "SUBMISSION_UNCERTAIN",
+				"eng": "SAVE FAILED",
 				"trans": "TRIMITERIE_INDETERMINATĂ"
 			}
 		},
 		"submitting": {
 			"message": {
-				"eng": "Terminal result locked. Do not retry.",
+				"eng": "Saving your run. Do not close this screen.",
 				"trans": "Rezultatul terminalului este blocat. Nu reîncercați."
 			},
 			"title": {
-				"eng": "SUBMITTING_RUN_DATA",
+				"eng": "SAVING RUN",
 				"trans": "SE ÎNCARCĂ DATELE PARTIDEI"
 			}
 		},
@@ -14054,6 +14662,23 @@
 			"waterBalloonOrb": {
 				"eng": "Water Balloon Orb",
 				"trans": "Sferă de Balon cu Apă"
+			}
+		},
+		"toast": {
+			"chain": {
+				"eng": "CHAIN x${chainCount}",
+				"trans": "COMBO x${chainCount}",
+				"vars": [
+					"chainCount"
+				]
+			},
+			"dropRefund": {
+				"eng": "DROP REFUND ${count}/${max}",
+				"trans": "RETURNARE DROP ${count}/${max}",
+				"vars": [
+					"count",
+					"max"
+				]
 			}
 		}
 	},
@@ -17234,6 +17859,20 @@
 		},
 		"timeSkip": {
 			"confirmModal": {
+				"confirmSpendUnits": {
+					"eng": "Spend ${units} units",
+					"trans": "Cheltuiește ${units} unități",
+					"vars": [
+						"units"
+					]
+				},
+				"cost": {
+					"eng": "Cost: ${units} units",
+					"trans": "Cost: ${units} unități",
+					"vars": [
+						"units"
+					]
+				},
 				"subtitle": {
 					"eng": "Global Skip will skip the waiting time for all players performing AFK task",
 					"trans": "Global Skip va sări peste timpul de așteptare pentru toți jucătorii care efectuează sarcina AFK"
@@ -17279,6 +17918,21 @@
 					"eng": "Finish the task instantly for all players in the game and earn skip points to show your support to other players!",
 					"trans": "Global Skip vă permite să săriți timpul de așteptare AFK și să îl terminați instantaneu. \n     Acest efect va fi aplicat tuturor jucătorului care efectuează sarcina AFK"
 				},
+				"discountPercent": {
+					"eng": "${percent}%",
+					"trans": "${percent}%",
+					"vars": [
+						"percent"
+					]
+				},
+				"eventDiscount": {
+					"eng": "Event Discount",
+					"trans": "Reducere eveniment"
+				},
+				"longSkipDiscount": {
+					"eng": "Long Skip Discount",
+					"trans": "Reducere săritură prelungită"
+				},
 				"minute": {
 					"eng": "Skip ${minutes} minutes",
 					"trans": "${minutes} unități",
@@ -17286,13 +17940,9 @@
 						"minutes"
 					]
 				},
-				"ticketItem": {
-					"eng": "${percent}% off from ${itemName}",
-					"trans": "Promoție: ${percent}% de la ${itemName}",
-					"vars": [
-						"itemName",
-						"percent"
-					]
+				"offLabel": {
+					"eng": "OFF",
+					"trans": "OPRIT"
 				},
 				"title2": {
 					"eng": "Finish Now",

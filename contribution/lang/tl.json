@@ -1114,6 +1114,13 @@
 				"percent"
 			]
 		},
+		"eventDiscountTitle": {
+			"eng": "${eventName} Discount",
+			"trans": "${eventName} Diskwento",
+			"vars": [
+				"eventName"
+			]
+		},
 		"hintBox": {
 			"text2": {
 				"eng": "When calibration train funding reaches 100%, the system will automatically deploy +1 to +10 calibration success rate and destruction prevention buffs in sequence with interval of ${deployInterval} minutes. the buff train will starting at the next designated time",
@@ -2440,6 +2447,10 @@
 		"donation53": {
 			"eng": "Lightwalker",
 			"trans": "Manlalakbay sa Liwanag"
+		},
+		"donation54": {
+			"eng": "Vice Heat",
+			"trans": "Init ng Kasakiman"
 		},
 		"donation6": {
 			"eng": "Prestige",
@@ -3883,8 +3894,18 @@
 				"trans": "Tag-init"
 			},
 			"topUpRewardTitle": {
-				"eng": "Summer Bonus",
+				"eng": "Heatwave Festival Bonus",
 				"trans": "Summer Blowout!"
+			}
+		},
+		"summerNights": {
+			"eventGame": {
+				"eng": "Neon Nights Grid",
+				"trans": "Tablerong Gabing Neon"
+			},
+			"name": {
+				"eng": "Summer Nights",
+				"trans": "Gabing Tag-init"
 			}
 		},
 		"thanksgiving": {
@@ -4241,6 +4262,13 @@
 			"trans": "Hanggang ${percent}% na diskwento para sa mga maagang nag-ambag",
 			"vars": [
 				"percent"
+			]
+		},
+		"eventDiscountTitle": {
+			"eng": "${eventName} Discount",
+			"trans": "${eventName} Diskwento",
+			"vars": [
+				"eventName"
 			]
 		},
 		"hint": {
@@ -5604,6 +5632,16 @@
 				"trans": "Pas ng Komando ng Misil"
 			}
 		},
+		"neonNightsPass": {
+			"description": {
+				"eng": "A neon boardwalk access pass required to initialize Neon Nights Grid during the Summer Nights event. Can be found from AFK farming during Summer Nights.",
+				"trans": "Pasa para sa neon boardwalk na kinakailangan upang ma-activate ang Neon Nights Grid sa panahon ng Summer Nights event. Makukuha ito sa pamamagitan ng AFK farming habang aktibo ang Summer Nights."
+			},
+			"name": {
+				"eng": "Neon Nights Pass",
+				"trans": "Neon Nights Pasaporte"
+			}
+		},
 		"newYear": {
 			"description": {
 				"eng": "A red envelope with a golden digital seal on it. looks like it contains some sort of currency",
@@ -5961,7 +5999,7 @@
 		},
 		"solarFloatPass": {
 			"description": {
-				"eng": "A sealed beach access pass required to initialize Solar Float Stack during the Summer event.",
+				"eng": "A sealed beach access pass required to initialize Solar Float Stack during Heatwave Festival.",
 				"trans": "Naka-seal na Beach Access Pass na kinakailangan upang ma-initialize ang Solar Float Stack sa panahon ng Summer event."
 			},
 			"name": {
@@ -9219,6 +9257,437 @@
 		"viewProfile": {
 			"eng": "View Profile",
 			"trans": "Tingnan ang Profile"
+		}
+	},
+	"neonNightsGrid": {
+		"button": {
+			"subtitle": {
+				"eng": "BOARDWALK LIGHT CIRCUIT",
+				"trans": "Liwanag na Sirkito ng Paseo"
+			},
+			"title": {
+				"eng": "NEON NIGHTS GRID",
+				"trans": "ZONA NG MGA GABING NEON"
+			}
+		},
+		"canvas": {
+			"label": {
+				"eng": "Neon Nights Grid playfield. Drag tray pieces onto the 8 by 8 board.",
+				"trans": "Larangan ng Neon Nights Grid. Hilaan ang mga piraso mula sa tray patungo sa 8x8 na tablero."
+			}
+		},
+		"drag": {
+			"occupied": {
+				"eng": "OCCUPIED",
+				"trans": "OKUPADO"
+			},
+			"offGrid": {
+				"eng": "OFF GRID",
+				"trans": "LABAS NG SISTEMA"
+			}
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "Summer Nights is not active.",
+				"trans": "Hindi aktibo ang Summer Nights."
+			},
+			"noPass": {
+				"eng": "You need a ${itemName} to enter Neon Nights Grid.",
+				"trans": "Kailangan mo ng ${itemName} para makapasok sa Neon Nights Grid.",
+				"vars": [
+					"itemName"
+				]
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "EXIT",
+				"trans": "LUMINIS"
+			},
+			"message": {
+				"eng": "Submission interrupted. Reward sync status is unknown.",
+				"trans": "Napigil ang pagsusumite. Hindi alam ang status ng sync ng gantimpala."
+			},
+			"title": {
+				"eng": "SYNC STATUS UNKNOWN",
+				"trans": "HINDI KILALA ANG SYNC STATUS"
+			},
+			"verify": {
+				"eng": "Exit, then verify inventory/event log before starting another run.",
+				"trans": "Lumabas, suriin ang inventory at event log bago simulan ang bagong run."
+			}
+		},
+		"exit": {
+			"eng": "Exit",
+			"trans": "Lumabas"
+		},
+		"feedback": {
+			"comboLost": {
+				"eng": "COMBO LOST",
+				"trans": "NAWALA ANG COMBO"
+			},
+			"invalid": {
+				"eng": "INVALID FIT",
+				"trans": "HINDI AKMA"
+			},
+			"lineClearCombo": {
+				"eng": "+${score} LINE CLEAR x${combo}",
+				"trans": "+${score} CLEAR NA LINYA x${combo}",
+				"vars": [
+					"score",
+					"combo"
+				]
+			},
+			"lineClearScore": {
+				"eng": "+${score} LINE CLEAR",
+				"trans": "+${score} TINANGGAL ANG LINYA",
+				"vars": [
+					"score"
+				]
+			},
+			"maxScore": {
+				"eng": "MAX TIER SYNCED",
+				"trans": "PINAKAMATAAS NA ANTA NASINDRONISYO"
+			},
+			"noFit": {
+				"eng": "NO FIT FOUND",
+				"trans": "WALANG ANGKOP NA NAHANAP"
+			},
+			"occupied": {
+				"eng": "OCCUPIED",
+				"trans": "OKUPADO"
+			},
+			"offGrid": {
+				"eng": "OFF GRID",
+				"trans": "LABAS NG SISTEMA"
+			},
+			"placedScore": {
+				"eng": "+${score} PLACED",
+				"trans": "+${score} NAIPASOK",
+				"vars": [
+					"score"
+				]
+			},
+			"timeout": {
+				"eng": "TIME EXPIRED",
+				"trans": "NAUBOS NA ANG ORAS"
+			}
+		},
+		"finish": {
+			"eng": "Finish",
+			"trans": "Tapos"
+		},
+		"gameOver": {
+			"subtitle": {
+				"eng": "No reward tier reached. Pass consumed.",
+				"trans": "Walang naabot na antas ng gantimpala. Naubos ang pass."
+			},
+			"title": {
+				"eng": "GRID LOCKED",
+				"trans": "NAKALOCK ANG GRID"
+			}
+		},
+		"hint": {
+			"drag": {
+				"eng": "Drag tray pieces onto the board",
+				"trans": "Hilain ang mga piraso ng tray patungo sa board"
+			}
+		},
+		"hud": {
+			"comboValue": {
+				"eng": "Combo: x${combo}",
+				"trans": "Combo: x${combo}",
+				"vars": [
+					"combo"
+				]
+			},
+			"linesValue": {
+				"eng": "Lines: ${lines}",
+				"trans": "Linya: ${lines}",
+				"vars": [
+					"lines"
+				]
+			},
+			"maxTier": {
+				"eng": "MAX",
+				"trans": "MAX"
+			},
+			"nextValue": {
+				"eng": "Next: ${threshold}",
+				"trans": "Susunod: ${threshold}",
+				"vars": [
+					"threshold"
+				]
+			},
+			"piecesValue": {
+				"eng": "Pieces: ${pieces}",
+				"trans": "Piraso: ${pieces}",
+				"vars": [
+					"pieces"
+				]
+			},
+			"score": {
+				"eng": "Score",
+				"trans": "Iskor"
+			},
+			"seconds": {
+				"eng": "${seconds}s",
+				"trans": "${seconds}s",
+				"vars": [
+					"seconds"
+				]
+			},
+			"tier": {
+				"eng": "Tier",
+				"trans": "Antas"
+			},
+			"time": {
+				"eng": "Time",
+				"trans": "Oras"
+			}
+		},
+		"intro": {
+			"briefing": {
+				"eng": "GRID_BRIEFING",
+				"trans": "Paunang Impormasyon sa Grid"
+			},
+			"combo": {
+				"eng": "Consecutive line clears build a combo. Complete a full 3-piece tray with no line clear and it resets.",
+				"trans": "Ang magkasunod-sunod na paglinis ng mga linya ay nagpapataas ng combo. Kapag napuno ang 3-piece tray nang walang linisin na linya, maa-reset ang combo."
+			},
+			"eventClosed": {
+				"eng": "EVENT CLOSED",
+				"trans": "ISINARA NA ANG EVENT"
+			},
+			"eventInactive": {
+				"eng": "Summer Nights inactive",
+				"trans": "Mga Gabi ng Tag-init hindi aktibo"
+			},
+			"eventLabel": {
+				"eng": "Summer Nights",
+				"trans": "Gabing Tag-init"
+			},
+			"needPass": {
+				"eng": "NEED PASS",
+				"trans": "KAILANGAN NG PASS"
+			},
+			"passLabel": {
+				"eng": "ENTRY_PASS",
+				"trans": "PASO NG PAGPASOK"
+			},
+			"rewardHint": {
+				"eng": "Reward tiers pay Summer Nights seashells and tech salvage.",
+				"trans": "Nagbibigay ang mga antas ng gantimpala ng Summer Nights na mga kabibe at salbabe ng teknolohiya."
+			},
+			"rule1": {
+				"eng": "Drag one of three neon blocks onto the 8x8 board.",
+				"trans": "Hilain ang isa sa tatlong neon block papunta sa 8x8 grid."
+			},
+			"rule2": {
+				"eng": "Fill full rows or columns to clear lines and score.",
+				"trans": "Kumpletuhin ang mga hilera o kolum upang mawala ang mga linya at makakuha ng puntos."
+			},
+			"rule3": {
+				"eng": "Score thresholds advance reward tiers during one continuous ${seconds}s run.",
+				"trans": "Ang pag-abot sa mga target na puntos ay nagpapataas sa antas ng gantimpala sa loob ng isang tuloy-tuloy na ${seconds}s na pagtakbo.",
+				"vars": [
+					"seconds"
+				]
+			},
+			"rule4": {
+				"eng": "Timeout submits the tier reached; ${score} score wins tier ${tier}.",
+				"trans": "Kapag naubos ang oras, automatic na iisumite ang pinakamataas na tier; kailangan ng ${score} upang maabot ang tier ${tier}.",
+				"vars": [
+					"score",
+					"tier"
+				]
+			},
+			"rule5": {
+				"eng": "If none of the current pieces can fit, the run ends and submits your reached tier.",
+				"trans": "Kung walang pirasong magkasya, tapos na ang laro at isusumite ang iyong naabot na antas."
+			},
+			"start": {
+				"eng": "START GRID",
+				"trans": "SIMULAN ANG GRID"
+			},
+			"title": {
+				"eng": "Neon Nights Grid",
+				"trans": "Tablerong Gabing Neon"
+			}
+		},
+		"loading": {
+			"title": {
+				"eng": "INITIALIZING_GRID",
+				"trans": "Pinapagana ang Grid"
+			}
+		},
+		"results": {
+			"maxTitle": {
+				"eng": "MAX TIER SYNCED",
+				"trans": "PINAKAMATAAS NA ANTA NASINDRONISYO"
+			},
+			"noRewards": {
+				"eng": "No rewards returned",
+				"trans": "Walang ibinigay na premyo"
+			},
+			"rewards": {
+				"eng": "Summer Nights Rewards",
+				"trans": "Mga Gantimpala sa Gabi ng Tag-init"
+			},
+			"seconds": {
+				"eng": "${seconds}s",
+				"trans": "${seconds}s",
+				"vars": [
+					"seconds"
+				]
+			},
+			"tier": {
+				"eng": "Tier ${tier} neon circuit cleared",
+				"trans": "Nakumpleto ang Tier ${tier} Neon Sirkito",
+				"vars": [
+					"tier"
+				]
+			},
+			"title": {
+				"eng": "REWARD TIER SYNCED",
+				"trans": "NATUGMA NA ANG ANTAS NG GANTIMPALA"
+			}
+		},
+		"stats": {
+			"achievedTier": {
+				"eng": "Achieved Tier",
+				"trans": "Naabot na Antas"
+			},
+			"bestCombo": {
+				"eng": "Best Combo",
+				"trans": "Pinakamataas na Combo"
+			},
+			"combo": {
+				"eng": "Combo",
+				"trans": "Combo"
+			},
+			"lines": {
+				"eng": "Lines",
+				"trans": "Linya"
+			},
+			"linesCleared": {
+				"eng": "Lines Cleared",
+				"trans": "Na-clear na Linya"
+			},
+			"remaining": {
+				"eng": "Remain",
+				"trans": "Natitira"
+			},
+			"score": {
+				"eng": "Score",
+				"trans": "Iskor"
+			}
+		},
+		"submission": {
+			"doNotRetry": {
+				"eng": "Submission interrupted. Do not retry this run.",
+				"trans": "Nahinto ang pagsumite. Huwag subukan muli ang sesyon na ito."
+			},
+			"localOutcome": {
+				"eng": "LOCAL OUTCOME",
+				"trans": "LOKAL NA RESULTA"
+			},
+			"localResultShown": {
+				"eng": "Local result shown above. Server sync status unknown.",
+				"trans": "Ang lokal na resulta ay ipinapakita sa itaas. Hindi tiyak ang status ng pag-sync sa server."
+			},
+			"noRetry": {
+				"eng": "Exit, then verify inventory/event log before starting another run.",
+				"trans": "Lumabas, suriin ang inventory at event log bago simulan ang bagong run."
+			},
+			"outcomeMaxTier": {
+				"eng": "MAX TIER",
+				"trans": "PINAKAMATAAS NA ANTAS"
+			},
+			"outcomeNoFit": {
+				"eng": "NO FIT",
+				"trans": "HINDI KASYA"
+			},
+			"outcomeTimeout": {
+				"eng": "TIME EXPIRED",
+				"trans": "NAUBOS NA ANG ORAS"
+			},
+			"outcomeUnknown": {
+				"eng": "RUN ENDED",
+				"trans": "NATAPOS NA ANG RUN"
+			},
+			"syncUnknown": {
+				"eng": "REWARD SYNC UNKNOWN",
+				"trans": "HINDI KILALA ANG PAG-SYNC NG GANTIMPALA"
+			}
+		},
+		"submitting": {
+			"subtitle": {
+				"eng": "Submitting final tier. Do not close.",
+				"trans": "Ipinapadala ang huling antas. Huwag itong isara."
+			},
+			"title": {
+				"eng": "SYNCING RUN DATA",
+				"trans": "NAGSISYNC ANG DATOS NG PAGLALARO"
+			}
+		},
+		"tierUp": {
+			"title": {
+				"eng": "Tier ${tier} Synced",
+				"trans": "Tier ${tier} Na-sync na",
+				"vars": [
+					"tier"
+				]
+			}
+		},
+		"vfx": {
+			"combo": {
+				"eng": "COMBO x${combo}",
+				"trans": "COMBO x${combo}",
+				"vars": [
+					"combo"
+				]
+			},
+			"endTier": {
+				"eng": "TIER ${tier}",
+				"trans": "ANTAS ${tier}",
+				"vars": [
+					"tier"
+				]
+			},
+			"maxGridSync": {
+				"eng": "MAX GRID SYNC",
+				"trans": "Maksimum na Pagtugma ng Grid"
+			},
+			"noFitFound": {
+				"eng": "NO FIT FOUND",
+				"trans": "WALANG ANGKOP NA NAHANAP"
+			},
+			"scoreGain": {
+				"eng": "+${score}",
+				"trans": "+${score}",
+				"vars": [
+					"score"
+				]
+			},
+			"tierSync": {
+				"eng": "TIER ${tier} SYNC",
+				"trans": "PAG-SYNC NG ANTAS ${tier}",
+				"vars": [
+					"tier"
+				]
+			},
+			"timeExpired": {
+				"eng": "TIME EXPIRED",
+				"trans": "NAUBOS NA ANG ORAS"
+			},
+			"timer": {
+				"eng": "T-${seconds}",
+				"trans": "T-${seconds}",
+				"vars": [
+					"seconds"
+				]
+			}
 		}
 	},
 	"newYearFireworks": {
@@ -13967,13 +14436,40 @@
 			"trans": "Kunin lahat"
 		}
 	},
+	"summerNightsPromo": {
+		"subtitle": {
+			"eng": "Miami neon hits the coast. Collect seashells, trade with Josie, and run Neon Nights Grid.",
+			"trans": "Dumarating ang neon ng Miami sa baybayin. Mangolekta ng mga kabibe, makipag-trade kay Josie, at laruin ang Neon Nights Grid."
+		},
+		"title": {
+			"eng": "Summer Nights",
+			"trans": "Gabing Tag-init"
+		}
+	},
+	"summerNightsPromoSmall": {
+		"desc1": {
+			"eng": "Neon Nights Grid is live at Crystal Beach.",
+			"trans": "Available na ang Neon Nights Grid sa Crystal Beach."
+		},
+		"desc2": {
+			"eng": "Collect ${item} and trade with Josie.",
+			"trans": "Magtipon ng ${item} at ipagpalit kay Josie.",
+			"vars": [
+				"item"
+			]
+		},
+		"title": {
+			"eng": "Summer Nights",
+			"trans": "Gabing Tag-init"
+		}
+	},
 	"summerPromo": {
 		"subtitle": {
-			"eng": "Its time for the summer beach! don't miss out on the fun!",
+			"eng": "Heat is rising on the coast. Collect seashells, trade with Josie, and run Solar Float Stack.",
 			"trans": "Panahon na para sa tag-init sa dalampasigan! Huwag palampasin ang saya!"
 		},
 		"title": {
-			"eng": "Summer Fiesta Event",
+			"eng": "Heatwave Festival",
 			"trans": "Summer Fiesta Event"
 		}
 	},
@@ -13993,14 +14489,44 @@
 			]
 		},
 		"title": {
-			"eng": "Summer Fiesta: Don't Miss Out!",
+			"eng": "Heatwave Festival",
 			"trans": "Summer Fiesta: Huwag Palampasin!"
 		}
 	},
 	"summerStack": {
+		"assets": {
+			"exit": {
+				"eng": "EXIT",
+				"trans": "LUMINIS"
+			},
+			"failedMessage": {
+				"eng": "Required stack art did not load. No pass was consumed.",
+				"trans": "Hindi ma-load ang kailangan na stack art. Walang ginamit na pass."
+			},
+			"failedTitle": {
+				"eng": "ASSET_LOAD_FAILED",
+				"trans": "Nabigong Pag-load ng Asset"
+			},
+			"loadingMessage": {
+				"eng": "Preparing required float sprites.",
+				"trans": "Ihinahanda ang mga kinakailangang float sprites."
+			},
+			"loadingTitle": {
+				"eng": "LOADING_STACK_ASSETS",
+				"trans": "Paglo-load ng mga Aset"
+			},
+			"retry": {
+				"eng": "RETRY",
+				"trans": "ULITIN"
+			}
+		},
 		"button": {
+			"enter": {
+				"eng": "Play",
+				"trans": "Maglaro"
+			},
 			"subtitle": {
-				"eng": "CONTAINMENT STACK COURSE",
+				"eng": "BEACH FLOAT MERGE",
 				"trans": "KURSO SA PANIGBING STACK"
 			},
 			"title": {
@@ -14008,18 +14534,9 @@
 				"trans": "Solar Paglutang Pila"
 			}
 		},
-		"complete": {
-			"notification": {
-				"eng": "Solar Float Stack cleared through stage ${stage}. Rewards sent to inbox.",
-				"trans": "Natapos na ang Solar Float Stack hanggang sa Yugto ${stage}. Ipinadala na ang mga gantimpala sa inbox.",
-				"vars": [
-					"stage"
-				]
-			}
-		},
 		"entry": {
 			"eventEnded": {
-				"eng": "The summer event is not active.",
+				"eng": "The Heatwave Festival is not active.",
 				"trans": "Hindi aktibo ang summer event."
 			},
 			"noPass": {
@@ -14044,13 +14561,11 @@
 				"trans": "PAGKABIGO NG RUNTIME STACK"
 			}
 		},
-		"failed": {
-			"notification": {
-				"eng": "Solar Float Stack failed. Pass consumed.",
-				"trans": "Nabigo ang Solar Float Stack. Ginamit na ang Pass."
-			}
-		},
 		"hud": {
+			"currentFloat": {
+				"eng": "CURRENT",
+				"trans": "Kasalukuyan"
+			},
 			"drops": {
 				"eng": "DROPS",
 				"trans": "NATANGGAP"
@@ -14062,9 +14577,9 @@
 					"dropsLeft"
 				]
 			},
-			"lossRules": {
-				"eng": "Lose if time hits 0 or drops run out before target is made.",
-				"trans": "Mapapatalo kung zero na ang timer o maubos na ang mga drop bago makuha ang target."
+			"nextFloat": {
+				"eng": "NEXT",
+				"trans": "SUNOD"
 			},
 			"stage": {
 				"eng": "STAGE ${stage}",
@@ -14073,24 +14588,30 @@
 					"stage"
 				]
 			},
-			"target": {
-				"eng": "Make ${targetName} to clear this stage.",
-				"trans": "Patayin si ${targetName} upang makapag-complete sa stage na ito.",
+			"surge": {
+				"eng": "SURGE",
+				"trans": "SURO"
+			},
+			"surgeCharge": {
+				"eng": "${charge}/${required}",
+				"trans": "${charge}/${required}",
 				"vars": [
-					"targetName"
+					"charge",
+					"required"
 				]
 			},
+			"surgeReady": {
+				"eng": "READY",
+				"trans": "HANDA"
+			},
 			"targetProgress": {
-				"eng": "${current}/${target}",
+				"eng": "${current}/${target} • ${targetName}",
 				"trans": "${current}/${target}",
 				"vars": [
 					"current",
-					"target"
+					"target",
+					"targetName"
 				]
-			},
-			"time": {
-				"eng": "TIME",
-				"trans": "ORAS"
 			},
 			"timeLeft": {
 				"eng": "${time}s",
@@ -14110,7 +14631,7 @@
 		},
 		"intro": {
 			"briefing": {
-				"eng": "STACK_BRIEFING",
+				"eng": "HOW TO PLAY",
 				"trans": "PAUNAWA SA STACK"
 			},
 			"eventClosed": {
@@ -14118,36 +14639,44 @@
 				"trans": "TAPUS NA ANG PANGYAYARI"
 			},
 			"eventInactive": {
-				"eng": "Summer event inactive",
+				"eng": "Heatwave Festival inactive",
 				"trans": "Hindi aktibo ang kaganapan ng tag-init"
 			},
 			"eventLabel": {
-				"eng": "SUMMER_EVENT",
+				"eng": "HEATWAVE_FESTIVAL",
 				"trans": "Pangyayaring Tag-init"
 			},
 			"needPass": {
 				"eng": "NEED PASS",
 				"trans": "PASSWORD NA KAILANGAN"
 			},
+			"passLabel": {
+				"eng": "ENTRY_PASS",
+				"trans": "PASO NG PAGPASOK"
+			},
 			"rewardHint": {
-				"eng": "Reward bands pay summer materials and tech salvage.",
+				"eng": "Reward bands pay Heatwave materials and tech salvage.",
 				"trans": "Ang mga reward band ay nagbibigay ng summer materials at tech salvage."
 			},
 			"rule1": {
-				"eng": "Drag along the rail, release, and drop a summer sphere.",
+				"eng": "Move along the rail, then release to drop the current float.",
 				"trans": "Ilusot sa landas, palayin, at ibuhos ang summer sphere."
 			},
 			"rule2": {
-				"eng": "Match identical round objects to merge into larger floats.",
+				"eng": "Put two matching floats together to merge them into a bigger float.",
 				"trans": "Ipares ang magkapareho ring bilog na bagay upang magsama at maging mas malalaking lumulutang."
 			},
 			"rule3": {
-				"eng": "Make the target float before time or drops run out.",
+				"eng": "Reach the target float before the timer or your drops run out.",
 				"trans": "Gawing lumulutang ang target bago maubos ang oras o mga drop."
 			},
 			"rule4": {
-				"eng": "Only the terminal stage result consumes the pass and pays rewards.",
+				"eng": "Your pass is used when the run ends. Rewards depend on the last stage you cleared.",
 				"trans": "Ang resulta ng huling yugto lamang ang gumagamit ng Pass at nagbibigay ng mga premyo."
+			},
+			"ruleCombo": {
+				"eng": "Chain merges pull nearby matching floats and can give back drops.",
+				"trans": "Hinihila ng mga chain merge ang katugmang floats sa kalapitan at maaari ring magbigay ng mga drops."
 			},
 			"start": {
 				"eng": "START STACK",
@@ -14164,17 +14693,96 @@
 				"trans": "NAGLO-LOAD NG SISTEMA"
 			}
 		},
-		"stageClear": {
-			"continue": {
-				"eng": "NEXT STAGE",
-				"trans": "Susunod na Yugto"
+		"results": {
+			"biggestLabel": {
+				"eng": "BIGGEST_FLOAT",
+				"trans": "PINAKAMALAKING_FLOAT"
 			},
-			"next": {
-				"eng": "Target tier secured. Continue stacking.",
-				"trans": "Naabot na ang target tier. Ituloy ang stacking."
+			"completeTitle": {
+				"eng": "RUN_COMPLETE",
+				"trans": "NATAPUS NA ANG MISYON"
+			},
+			"failedTitle": {
+				"eng": "RUN_FAILED",
+				"trans": "NABIGONG PAGTAKBO"
+			},
+			"finish": {
+				"eng": "FINISH",
+				"trans": "TAPUS"
+			},
+			"fullClearTitle": {
+				"eng": "FULL_CLEAR",
+				"trans": "BUONG_PAGTAPUS"
+			},
+			"noFloat": {
+				"eng": "No float reached",
+				"trans": "Walang naabot na float"
+			},
+			"noRewardMessage": {
+				"eng": "No stage cleared. Pass consumed.",
+				"trans": "Walang napasa na lebel. Ginamit ang pass."
+			},
+			"rewardMessage": {
+				"eng": "Rewards sent to your item inbox.",
+				"trans": "Ipinadala na ang mga premyo sa iyong item inbox."
+			},
+			"scoreLabel": {
+				"eng": "SCORE",
+				"trans": "ISKOR"
+			},
+			"stageLabel": {
+				"eng": "STAGE",
+				"trans": "YUGTO"
+			},
+			"stageValue": {
+				"eng": "${stage}/${maxStage}",
+				"trans": "${stage}/${maxStage}",
+				"vars": [
+					"stage",
+					"maxStage"
+				]
+			}
+		},
+		"stageClear": {
+			"bestFloat": {
+				"eng": "BEST FLOAT",
+				"trans": "Pinakamataas na Float"
+			},
+			"cleared": {
+				"eng": "Stage ${stage} cleared",
+				"trans": "Antas ${stage} natalo",
+				"vars": [
+					"stage"
+				]
+			},
+			"continue": {
+				"eng": "START STAGE ${stage}",
+				"trans": "Susunod na Yugto",
+				"vars": [
+					"stage"
+				]
+			},
+			"kicker": {
+				"eng": "STAGE COMPLETE",
+				"trans": "YUGTO NATAPUS"
+			},
+			"nextTarget": {
+				"eng": "Next stage: build ${target}",
+				"trans": "Susunod na yugto: magtayo ng ${target}",
+				"vars": [
+					"target"
+				]
+			},
+			"score": {
+				"eng": "SCORE",
+				"trans": "ISKOR"
+			},
+			"stageLabel": {
+				"eng": "STAGE",
+				"trans": "YUGTO"
 			},
 			"title": {
-				"eng": "STAGE_CLEAR",
+				"eng": "STAGE CLEAR",
 				"trans": "NATAPOS NA ANG YUGTO"
 			}
 		},
@@ -14184,21 +14792,21 @@
 				"trans": "LUMINIS"
 			},
 			"message": {
-				"eng": "Reward submission failed or timed out. Do not retry this run. Contact support or exit.",
+				"eng": "Run could not be saved. Exit and contact support if rewards are missing.",
 				"trans": "Nabigo ang pagpasa ng reward o nag-timeout. Huwag nang subukan muli ang session na ito. Makipag-ugnayan sa suporta o lumabas."
 			},
 			"title": {
-				"eng": "SUBMISSION_UNCERTAIN",
+				"eng": "SAVE FAILED",
 				"trans": "Hindi Tiyaang Pagpasa"
 			}
 		},
 		"submitting": {
 			"message": {
-				"eng": "Terminal result locked. Do not retry.",
+				"eng": "Saving your run. Do not close this screen.",
 				"trans": "Naka-lock ang resulta ng terminal. Huwag subukan muli."
 			},
 			"title": {
-				"eng": "SUBMITTING_RUN_DATA",
+				"eng": "SAVING RUN",
 				"trans": "Naipapadala ang Datos ng Pagsubok"
 			}
 		},
@@ -14242,6 +14850,23 @@
 			"waterBalloonOrb": {
 				"eng": "Water Balloon Orb",
 				"trans": "Bola ng Balon ng Tubig"
+			}
+		},
+		"toast": {
+			"chain": {
+				"eng": "CHAIN x${chainCount}",
+				"trans": "COMBO x${chainCount}",
+				"vars": [
+					"chainCount"
+				]
+			},
+			"dropRefund": {
+				"eng": "DROP REFUND ${count}/${max}",
+				"trans": "REFUND NG DROP ${count}/${max}",
+				"vars": [
+					"count",
+					"max"
+				]
 			}
 		}
 	},
@@ -17422,6 +18047,20 @@
 		},
 		"timeSkip": {
 			"confirmModal": {
+				"confirmSpendUnits": {
+					"eng": "Spend ${units} units",
+					"trans": "Gamitin ang ${units} units",
+					"vars": [
+						"units"
+					]
+				},
+				"cost": {
+					"eng": "Cost: ${units} units",
+					"trans": "Gastos: ${units} yunit",
+					"vars": [
+						"units"
+					]
+				},
 				"subtitle": {
 					"eng": "Global Skip will skip the waiting time for all players performing AFK task",
 					"trans": "Lalampasan ng Global Skip ang oras ng paghihintay para sa lahat ng manlalaro na nagsasagawa ng gawain sa AFK"
@@ -17467,6 +18106,21 @@
 					"eng": "Finish the task instantly for all players in the game and earn skip points to show your support to other players!",
 					"trans": "Sa pamamagitan ng Global Skip ay maaari mong laktawan ang oras ng paghihintay, at tapusin ito kaagad.\n    Ang epektong ito ay ilalapat sa lahat ng manlalaro na nagsasagawa ng AFK na gawain"
 				},
+				"discountPercent": {
+					"eng": "${percent}%",
+					"trans": "${percent}%",
+					"vars": [
+						"percent"
+					]
+				},
+				"eventDiscount": {
+					"eng": "Event Discount",
+					"trans": "Diskwento sa Event"
+				},
+				"longSkipDiscount": {
+					"eng": "Long Skip Discount",
+					"trans": "Diskwento sa Mahabang Pag-skip"
+				},
 				"minute": {
 					"eng": "Skip ${minutes} minutes",
 					"trans": "${minutes} unit",
@@ -17474,13 +18128,9 @@
 						"minutes"
 					]
 				},
-				"ticketItem": {
-					"eng": "${percent}% off from ${itemName}",
-					"trans": "Bawas ng ${percent}% sa ${itemName}",
-					"vars": [
-						"itemName",
-						"percent"
-					]
+				"offLabel": {
+					"eng": "OFF",
+					"trans": "DEAKTIBA"
 				},
 				"title2": {
 					"eng": "Finish Now",

@@ -1114,6 +1114,13 @@
 				"percent"
 			]
 		},
+		"eventDiscountTitle": {
+			"eng": "${eventName} Discount",
+			"trans": "خصم ${eventName}",
+			"vars": [
+				"eventName"
+			]
+		},
 		"hintBox": {
 			"text2": {
 				"eng": "When calibration train funding reaches 100%, the system will automatically deploy +1 to +10 calibration success rate and destruction prevention buffs in sequence with interval of ${deployInterval} minutes. the buff train will starting at the next designated time",
@@ -2440,6 +2447,10 @@
 		"donation53": {
 			"eng": "Lightwalker",
 			"trans": "سائر الضوء"
+		},
+		"donation54": {
+			"eng": "Vice Heat",
+			"trans": "هيجان الرذيلة"
 		},
 		"donation6": {
 			"eng": "Prestige",
@@ -3883,8 +3894,18 @@
 				"trans": "صيف"
 			},
 			"topUpRewardTitle": {
-				"eng": "Summer Bonus",
+				"eng": "Heatwave Festival Bonus",
 				"trans": "مكافآت الصيف"
+			}
+		},
+		"summerNights": {
+			"eventGame": {
+				"eng": "Neon Nights Grid",
+				"trans": "شبكة ليالي النيون"
+			},
+			"name": {
+				"eng": "Summer Nights",
+				"trans": "ليالي الصيف"
 			}
 		},
 		"thanksgiving": {
@@ -4241,6 +4262,13 @@
 			"trans": "خصم يصل إلى ${percent}% للمساهمين الأوائل",
 			"vars": [
 				"percent"
+			]
+		},
+		"eventDiscountTitle": {
+			"eng": "${eventName} Discount",
+			"trans": "خصم ${eventName}",
+			"vars": [
+				"eventName"
 			]
 		},
 		"hint": {
@@ -5604,6 +5632,16 @@
 				"trans": "عبور قيادة الصواريخ"
 			}
 		},
+		"neonNightsPass": {
+			"description": {
+				"eng": "A neon boardwalk access pass required to initialize Neon Nights Grid during the Summer Nights event. Can be found from AFK farming during Summer Nights.",
+				"trans": "تذكرة وصول لممشى النيون، مطلوبة لتفعيل شبكة ليالي النيون خلال حدث ليالي الصيف. يمكن الحصول عليها عبر التجميع التلقائي أثناء الحدث."
+			},
+			"name": {
+				"eng": "Neon Nights Pass",
+				"trans": "بطاقة ليالي النيون"
+			}
+		},
 		"newYear": {
 			"description": {
 				"eng": "A red envelope with a golden digital seal on it. looks like it contains some sort of currency",
@@ -5961,7 +5999,7 @@
 		},
 		"solarFloatPass": {
 			"description": {
-				"eng": "A sealed beach access pass required to initialize Solar Float Stack during the Summer event.",
+				"eng": "A sealed beach access pass required to initialize Solar Float Stack during Heatwave Festival.",
 				"trans": "تذكرة دخول شاطئ مختومة مطلوبة لتفعيل مكدس الطفو الشمسي خلال حدث الصيف."
 			},
 			"name": {
@@ -9219,6 +9257,437 @@
 		"viewProfile": {
 			"eng": "View Profile",
 			"trans": "عرض الملف الشخصي"
+		}
+	},
+	"neonNightsGrid": {
+		"button": {
+			"subtitle": {
+				"eng": "BOARDWALK LIGHT CIRCUIT",
+				"trans": "دائرة الكورنيش المضيء"
+			},
+			"title": {
+				"eng": "NEON NIGHTS GRID",
+				"trans": "شبكة ليالي النيون"
+			}
+		},
+		"canvas": {
+			"label": {
+				"eng": "Neon Nights Grid playfield. Drag tray pieces onto the 8 by 8 board.",
+				"trans": "حقل لعب نيون نايتس غريد. اسحب القطع من الصينية إلى لوحة الـ 8 في 8."
+			}
+		},
+		"drag": {
+			"occupied": {
+				"eng": "OCCUPIED",
+				"trans": "مشغول"
+			},
+			"offGrid": {
+				"eng": "OFF GRID",
+				"trans": "خارج الشبكة"
+			}
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "Summer Nights is not active.",
+				"trans": "ليالي الصيف غير نشطة"
+			},
+			"noPass": {
+				"eng": "You need a ${itemName} to enter Neon Nights Grid.",
+				"trans": "تحتاج إلى ${itemName} للدخول إلى شبكة الليالي النيونية.",
+				"vars": [
+					"itemName"
+				]
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "EXIT",
+				"trans": "خروج"
+			},
+			"message": {
+				"eng": "Submission interrupted. Reward sync status is unknown.",
+				"trans": "تم مقاطعة الإرسال. حالة مزامنة المكافأة غير معروفة."
+			},
+			"title": {
+				"eng": "SYNC STATUS UNKNOWN",
+				"trans": "حالة المزامنة غير معروفة"
+			},
+			"verify": {
+				"eng": "Exit, then verify inventory/event log before starting another run.",
+				"trans": "اخرج، ثم تحقق من المخزون وسجل الأحداث قبل بدء محاولة جديدة."
+			}
+		},
+		"exit": {
+			"eng": "Exit",
+			"trans": "خروج"
+		},
+		"feedback": {
+			"comboLost": {
+				"eng": "COMBO LOST",
+				"trans": "فُقد الكومبو"
+			},
+			"invalid": {
+				"eng": "INVALID FIT",
+				"trans": "تركيب غير صالح"
+			},
+			"lineClearCombo": {
+				"eng": "+${score} LINE CLEAR x${combo}",
+				"trans": "+${score} تصفية صفوف x${combo}",
+				"vars": [
+					"score",
+					"combo"
+				]
+			},
+			"lineClearScore": {
+				"eng": "+${score} LINE CLEAR",
+				"trans": "+${score} حذف صف",
+				"vars": [
+					"score"
+				]
+			},
+			"maxScore": {
+				"eng": "MAX TIER SYNCED",
+				"trans": "تم مزامنة أعلى فئة"
+			},
+			"noFit": {
+				"eng": "NO FIT FOUND",
+				"trans": "لم يُعثر على تطابق"
+			},
+			"occupied": {
+				"eng": "OCCUPIED",
+				"trans": "مشغول"
+			},
+			"offGrid": {
+				"eng": "OFF GRID",
+				"trans": "خارج الشبكة"
+			},
+			"placedScore": {
+				"eng": "+${score} PLACED",
+				"trans": "+${score} مُوضَّع",
+				"vars": [
+					"score"
+				]
+			},
+			"timeout": {
+				"eng": "TIME EXPIRED",
+				"trans": "انتهى الوقت"
+			}
+		},
+		"finish": {
+			"eng": "Finish",
+			"trans": "إنهاء"
+		},
+		"gameOver": {
+			"subtitle": {
+				"eng": "No reward tier reached. Pass consumed.",
+				"trans": "لم يتم بلوغ أي مستوى مكافآت. تم استهلاك التمريرة."
+			},
+			"title": {
+				"eng": "GRID LOCKED",
+				"trans": "قفل الشبكة"
+			}
+		},
+		"hint": {
+			"drag": {
+				"eng": "Drag tray pieces onto the board",
+				"trans": "اسحب قطع الدرج إلى اللوحة"
+			}
+		},
+		"hud": {
+			"comboValue": {
+				"eng": "Combo: x${combo}",
+				"trans": "كومبو: x${combo}",
+				"vars": [
+					"combo"
+				]
+			},
+			"linesValue": {
+				"eng": "Lines: ${lines}",
+				"trans": "الأسطر: ${lines}",
+				"vars": [
+					"lines"
+				]
+			},
+			"maxTier": {
+				"eng": "MAX",
+				"trans": "أقصى"
+			},
+			"nextValue": {
+				"eng": "Next: ${threshold}",
+				"trans": "التالي: ${threshold}",
+				"vars": [
+					"threshold"
+				]
+			},
+			"piecesValue": {
+				"eng": "Pieces: ${pieces}",
+				"trans": "القطع: ${pieces}",
+				"vars": [
+					"pieces"
+				]
+			},
+			"score": {
+				"eng": "Score",
+				"trans": "النقاط"
+			},
+			"seconds": {
+				"eng": "${seconds}s",
+				"trans": "${seconds} ثانية",
+				"vars": [
+					"seconds"
+				]
+			},
+			"tier": {
+				"eng": "Tier",
+				"trans": "مستوى"
+			},
+			"time": {
+				"eng": "Time",
+				"trans": "الوقت"
+			}
+		},
+		"intro": {
+			"briefing": {
+				"eng": "GRID_BRIEFING",
+				"trans": "ملخص المهمة"
+			},
+			"combo": {
+				"eng": "Consecutive line clears build a combo. Complete a full 3-piece tray with no line clear and it resets.",
+				"trans": "المسح المتتالي للصفوف يزيد من سلسلة الكومبو. أما ملء الحاوية المكونة من ثلاث قطع بالكامل دون مسح أي صف فيُعيد تعيينها إلى الصفر."
+			},
+			"eventClosed": {
+				"eng": "EVENT CLOSED",
+				"trans": "الحدث مغلق"
+			},
+			"eventInactive": {
+				"eng": "Summer Nights inactive",
+				"trans": "ليالي الصيف غير نشطة"
+			},
+			"eventLabel": {
+				"eng": "Summer Nights",
+				"trans": "ليالي الصيف"
+			},
+			"needPass": {
+				"eng": "NEED PASS",
+				"trans": "مطلوب تصريح"
+			},
+			"passLabel": {
+				"eng": "ENTRY_PASS",
+				"trans": "تذكرة الدخول"
+			},
+			"rewardHint": {
+				"eng": "Reward tiers pay Summer Nights seashells and tech salvage.",
+				"trans": "تمنح مستويات المكافآت أصداف ليالي الصيف وخردة تقنية."
+			},
+			"rule1": {
+				"eng": "Drag one of three neon blocks onto the 8x8 board.",
+				"trans": "اسحب إحدى الكتل النيونية الثلاثة إلى شبكة اللعب ذات الأبعاد 8×8"
+			},
+			"rule2": {
+				"eng": "Fill full rows or columns to clear lines and score.",
+				"trans": "املأ الصفوف أو الأعمدة بالكامل لإزالتها وكسب النقاط"
+			},
+			"rule3": {
+				"eng": "Score thresholds advance reward tiers during one continuous ${seconds}s run.",
+				"trans": "ترتقي فئات المكافآت عند تحقيق عتبات النقاط خلال محاولة واحدة مستمرة لمدة ${seconds} ثانية.",
+				"vars": [
+					"seconds"
+				]
+			},
+			"rule4": {
+				"eng": "Timeout submits the tier reached; ${score} score wins tier ${tier}.",
+				"trans": "عند انتهاء الوقت، يُسجل المستوى الذي وصلت إليه؛ احصل على ${score} نقطة لتحقيق المستوى ${tier}.",
+				"vars": [
+					"score",
+					"tier"
+				]
+			},
+			"rule5": {
+				"eng": "If none of the current pieces can fit, the run ends and submits your reached tier.",
+				"trans": "إذا تعذر تركيب أي من القطع الحالية، تنتهي المحاولة ويتم تسجيل المستوى الذي وصلت إليه."
+			},
+			"start": {
+				"eng": "START GRID",
+				"trans": "بدء الشبكة"
+			},
+			"title": {
+				"eng": "Neon Nights Grid",
+				"trans": "شبكة ليالي النيون"
+			}
+		},
+		"loading": {
+			"title": {
+				"eng": "INITIALIZING_GRID",
+				"trans": "تهيئة الشبكة"
+			}
+		},
+		"results": {
+			"maxTitle": {
+				"eng": "MAX TIER SYNCED",
+				"trans": "تم مزامنة أعلى فئة"
+			},
+			"noRewards": {
+				"eng": "No rewards returned",
+				"trans": "لا توجد مكافآت"
+			},
+			"rewards": {
+				"eng": "Summer Nights Rewards",
+				"trans": "مكافآت ليالي الصيف"
+			},
+			"seconds": {
+				"eng": "${seconds}s",
+				"trans": "${seconds} ثانية",
+				"vars": [
+					"seconds"
+				]
+			},
+			"tier": {
+				"eng": "Tier ${tier} neon circuit cleared",
+				"trans": "تم إكمال دائرة النيون للمستوى ${tier}",
+				"vars": [
+					"tier"
+				]
+			},
+			"title": {
+				"eng": "REWARD TIER SYNCED",
+				"trans": "فئة المكافأة متزامنة"
+			}
+		},
+		"stats": {
+			"achievedTier": {
+				"eng": "Achieved Tier",
+				"trans": "الرتبة المحققة"
+			},
+			"bestCombo": {
+				"eng": "Best Combo",
+				"trans": "أعلى كومبو"
+			},
+			"combo": {
+				"eng": "Combo",
+				"trans": "كومبو"
+			},
+			"lines": {
+				"eng": "Lines",
+				"trans": "الصفوف"
+			},
+			"linesCleared": {
+				"eng": "Lines Cleared",
+				"trans": "الصفوف المكتملة"
+			},
+			"remaining": {
+				"eng": "Remain",
+				"trans": "المتبقي"
+			},
+			"score": {
+				"eng": "Score",
+				"trans": "النقاط"
+			}
+		},
+		"submission": {
+			"doNotRetry": {
+				"eng": "Submission interrupted. Do not retry this run.",
+				"trans": "تم مقاطعة عملية الإرسال. لا تقم بإعادة المحاولة."
+			},
+			"localOutcome": {
+				"eng": "LOCAL OUTCOME",
+				"trans": "النتيجة المحلية"
+			},
+			"localResultShown": {
+				"eng": "Local result shown above. Server sync status unknown.",
+				"trans": "النتيجة المحلية معروضة بالأعلى. حالة مزامنة الخادم غير معروفة."
+			},
+			"noRetry": {
+				"eng": "Exit, then verify inventory/event log before starting another run.",
+				"trans": "اخرج، ثم تحقق من المخزون وسجل الأحداث قبل بدء محاولة جديدة."
+			},
+			"outcomeMaxTier": {
+				"eng": "MAX TIER",
+				"trans": "أعلى درجة"
+			},
+			"outcomeNoFit": {
+				"eng": "NO FIT",
+				"trans": "غير متوافق"
+			},
+			"outcomeTimeout": {
+				"eng": "TIME EXPIRED",
+				"trans": "انتهى الوقت"
+			},
+			"outcomeUnknown": {
+				"eng": "RUN ENDED",
+				"trans": "انتهت المحاولة"
+			},
+			"syncUnknown": {
+				"eng": "REWARD SYNC UNKNOWN",
+				"trans": "مزامنة المكافأة غير معروفة"
+			}
+		},
+		"submitting": {
+			"subtitle": {
+				"eng": "Submitting final tier. Do not close.",
+				"trans": "جارٍ إرسال المستوى النهائي. لا تُغلّق."
+			},
+			"title": {
+				"eng": "SYNCING RUN DATA",
+				"trans": "مزامنة بيانات الجلسة"
+			}
+		},
+		"tierUp": {
+			"title": {
+				"eng": "Tier ${tier} Synced",
+				"trans": "المستوى ${tier} مزامن",
+				"vars": [
+					"tier"
+				]
+			}
+		},
+		"vfx": {
+			"combo": {
+				"eng": "COMBO x${combo}",
+				"trans": "كومبو x${combo}",
+				"vars": [
+					"combo"
+				]
+			},
+			"endTier": {
+				"eng": "TIER ${tier}",
+				"trans": "المستوى ${tier}",
+				"vars": [
+					"tier"
+				]
+			},
+			"maxGridSync": {
+				"eng": "MAX GRID SYNC",
+				"trans": "المزامنة القصوى للشبكة"
+			},
+			"noFitFound": {
+				"eng": "NO FIT FOUND",
+				"trans": "لم يُعثر على تطابق"
+			},
+			"scoreGain": {
+				"eng": "+${score}",
+				"trans": "+${score}",
+				"vars": [
+					"score"
+				]
+			},
+			"tierSync": {
+				"eng": "TIER ${tier} SYNC",
+				"trans": "مزامنة المستوى ${tier}",
+				"vars": [
+					"tier"
+				]
+			},
+			"timeExpired": {
+				"eng": "TIME EXPIRED",
+				"trans": "انتهى الوقت"
+			},
+			"timer": {
+				"eng": "T-${seconds}",
+				"trans": "T-${seconds}",
+				"vars": [
+					"seconds"
+				]
+			}
 		}
 	},
 	"newYearFireworks": {
@@ -13779,13 +14248,40 @@
 			"trans": "خذها كلها"
 		}
 	},
+	"summerNightsPromo": {
+		"subtitle": {
+			"eng": "Miami neon hits the coast. Collect seashells, trade with Josie, and run Neon Nights Grid.",
+			"trans": "يتوهج نيون ميامي على الشاطئ. اجمع الأصداف، وتاجر مع جوسي، وشارك في شبكة ليالي النيون."
+		},
+		"title": {
+			"eng": "Summer Nights",
+			"trans": "ليالي الصيف"
+		}
+	},
+	"summerNightsPromoSmall": {
+		"desc1": {
+			"eng": "Neon Nights Grid is live at Crystal Beach.",
+			"trans": "انطلقت شبكة ليالي النيون الآن في كريستال بيتش."
+		},
+		"desc2": {
+			"eng": "Collect ${item} and trade with Josie.",
+			"trans": "اجمع ${item} وتاجر مع جوسي.",
+			"vars": [
+				"item"
+			]
+		},
+		"title": {
+			"eng": "Summer Nights",
+			"trans": "ليالي الصيف"
+		}
+	},
 	"summerPromo": {
 		"subtitle": {
-			"eng": "Its time for the summer beach! don't miss out on the fun!",
+			"eng": "Heat is rising on the coast. Collect seashells, trade with Josie, and run Solar Float Stack.",
 			"trans": "حان وقت الشاطئ الصيفي! لا تفوت المرح!"
 		},
 		"title": {
-			"eng": "Summer Fiesta Event",
+			"eng": "Heatwave Festival",
 			"trans": "حدث مهرجان الصيف"
 		}
 	},
@@ -13805,14 +14301,44 @@
 			]
 		},
 		"title": {
-			"eng": "Summer Fiesta: Don't Miss Out!",
+			"eng": "Heatwave Festival",
 			"trans": "مهرجان الصيف: لا تفوت الفرصة!"
 		}
 	},
 	"summerStack": {
+		"assets": {
+			"exit": {
+				"eng": "EXIT",
+				"trans": "خروج"
+			},
+			"failedMessage": {
+				"eng": "Required stack art did not load. No pass was consumed.",
+				"trans": "تعذر تحميل رسومات المكدس المطلوبة. لم تُستهلك أي تمريرة."
+			},
+			"failedTitle": {
+				"eng": "ASSET_LOAD_FAILED",
+				"trans": "فشل تحميل الموارد"
+			},
+			"loadingMessage": {
+				"eng": "Preparing required float sprites.",
+				"trans": "تجهيز الرسومات العائمة المطلوبة."
+			},
+			"loadingTitle": {
+				"eng": "LOADING_STACK_ASSETS",
+				"trans": "جاري تحميل الموارد"
+			},
+			"retry": {
+				"eng": "RETRY",
+				"trans": "إعادة المحاولة"
+			}
+		},
 		"button": {
+			"enter": {
+				"eng": "Play",
+				"trans": "العب"
+			},
 			"subtitle": {
-				"eng": "CONTAINMENT STACK COURSE",
+				"eng": "BEACH FLOAT MERGE",
 				"trans": "دورة نظام الاحتواء"
 			},
 			"title": {
@@ -13820,18 +14346,9 @@
 				"trans": "حزمة الطفو الشمسي"
 			}
 		},
-		"complete": {
-			"notification": {
-				"eng": "Solar Float Stack cleared through stage ${stage}. Rewards sent to inbox.",
-				"trans": "تم إكمال مكدس الطفو الشمسي حتى المرحلة ${stage}. أُرسلت المكافآت إلى صندوق الرسائل.",
-				"vars": [
-					"stage"
-				]
-			}
-		},
 		"entry": {
 			"eventEnded": {
-				"eng": "The summer event is not active.",
+				"eng": "The Heatwave Festival is not active.",
 				"trans": "حدث الصيف غير نشط حالياً"
 			},
 			"noPass": {
@@ -13856,13 +14373,11 @@
 				"trans": "فشل تشغيل المكدس"
 			}
 		},
-		"failed": {
-			"notification": {
-				"eng": "Solar Float Stack failed. Pass consumed.",
-				"trans": "فشل مكدس الطفو الشمسي. تم استهلاك التذكرة."
-			}
-		},
 		"hud": {
+			"currentFloat": {
+				"eng": "CURRENT",
+				"trans": "الحالي"
+			},
 			"drops": {
 				"eng": "DROPS",
 				"trans": "الغنائم"
@@ -13874,9 +14389,9 @@
 					"dropsLeft"
 				]
 			},
-			"lossRules": {
-				"eng": "Lose if time hits 0 or drops run out before target is made.",
-				"trans": "تُخسر إذا انضب الوقت أو نفدت الإمدادات قبل تحقيق الهدف."
+			"nextFloat": {
+				"eng": "NEXT",
+				"trans": "التالي"
 			},
 			"stage": {
 				"eng": "STAGE ${stage}",
@@ -13885,24 +14400,30 @@
 					"stage"
 				]
 			},
-			"target": {
-				"eng": "Make ${targetName} to clear this stage.",
-				"trans": "أخضع ${targetName} لتجاوز هذه المرحلة.",
+			"surge": {
+				"eng": "SURGE",
+				"trans": "اندفاع"
+			},
+			"surgeCharge": {
+				"eng": "${charge}/${required}",
+				"trans": "${charge}/${required}",
 				"vars": [
-					"targetName"
+					"charge",
+					"required"
 				]
 			},
+			"surgeReady": {
+				"eng": "READY",
+				"trans": "جاهز"
+			},
 			"targetProgress": {
-				"eng": "${current}/${target}",
+				"eng": "${current}/${target} • ${targetName}",
 				"trans": "${current}/${target}",
 				"vars": [
 					"current",
-					"target"
+					"target",
+					"targetName"
 				]
-			},
-			"time": {
-				"eng": "TIME",
-				"trans": "الوقت"
 			},
 			"timeLeft": {
 				"eng": "${time}s",
@@ -13922,7 +14443,7 @@
 		},
 		"intro": {
 			"briefing": {
-				"eng": "STACK_BRIEFING",
+				"eng": "HOW TO PLAY",
 				"trans": "إيجاز الفريق"
 			},
 			"eventClosed": {
@@ -13930,36 +14451,44 @@
 				"trans": "انتهى الحدث"
 			},
 			"eventInactive": {
-				"eng": "Summer event inactive",
+				"eng": "Heatwave Festival inactive",
 				"trans": "حدث الصيف غير نشط"
 			},
 			"eventLabel": {
-				"eng": "SUMMER_EVENT",
+				"eng": "HEATWAVE_FESTIVAL",
 				"trans": "حدث الصيف"
 			},
 			"needPass": {
 				"eng": "NEED PASS",
 				"trans": "مطلوب إذن دخول"
 			},
+			"passLabel": {
+				"eng": "ENTRY_PASS",
+				"trans": "تذكرة الدخول"
+			},
 			"rewardHint": {
-				"eng": "Reward bands pay summer materials and tech salvage.",
+				"eng": "Reward bands pay Heatwave materials and tech salvage.",
 				"trans": "تمنح شرائح المكافآت مواد الصيف والخردة التقنية."
 			},
 			"rule1": {
-				"eng": "Drag along the rail, release, and drop a summer sphere.",
+				"eng": "Move along the rail, then release to drop the current float.",
 				"trans": "اسحب على طول المسار، ثم حرّرها لإسقاط كرة الصيف."
 			},
 			"rule2": {
-				"eng": "Match identical round objects to merge into larger floats.",
+				"eng": "Put two matching floats together to merge them into a bigger float.",
 				"trans": "طابق الأجسام الكروية المتطابقة لدمجها في عناصر عائمة أكبر"
 			},
 			"rule3": {
-				"eng": "Make the target float before time or drops run out.",
+				"eng": "Reach the target float before the timer or your drops run out.",
 				"trans": "اجعل الهدف يطفو قبل نفاد الوقت أو القطرات."
 			},
 			"rule4": {
-				"eng": "Only the terminal stage result consumes the pass and pays rewards.",
+				"eng": "Your pass is used when the run ends. Rewards depend on the last stage you cleared.",
 				"trans": "يُستهلك الباس وتُمنح المكافآت عند نتيجة المرحلة الأخيرة فقط."
+			},
+			"ruleCombo": {
+				"eng": "Chain merges pull nearby matching floats and can give back drops.",
+				"trans": "يُجذب الدمج المتسلسل العناصر العائمة المتطابقة القريبة وقد يُعيد إسقاط عناصر جديدة."
 			},
 			"start": {
 				"eng": "START STACK",
@@ -13976,17 +14505,96 @@
 				"trans": "جاري تهيئة المكدس"
 			}
 		},
-		"stageClear": {
-			"continue": {
-				"eng": "NEXT STAGE",
-				"trans": "المرحلة التالية"
+		"results": {
+			"biggestLabel": {
+				"eng": "BIGGEST_FLOAT",
+				"trans": "الأكبر"
 			},
-			"next": {
-				"eng": "Target tier secured. Continue stacking.",
-				"trans": "تم تأمين الدرجة المستهدفة. واصل التجميع."
+			"completeTitle": {
+				"eng": "RUN_COMPLETE",
+				"trans": "اكتملت الجولة"
+			},
+			"failedTitle": {
+				"eng": "RUN_FAILED",
+				"trans": "محاولة فاشلة"
+			},
+			"finish": {
+				"eng": "FINISH",
+				"trans": "إنهاء"
+			},
+			"fullClearTitle": {
+				"eng": "FULL_CLEAR",
+				"trans": "إكمال كامل"
+			},
+			"noFloat": {
+				"eng": "No float reached",
+				"trans": "لم يُسجَّل أيّ طفو"
+			},
+			"noRewardMessage": {
+				"eng": "No stage cleared. Pass consumed.",
+				"trans": "لم يتم إنهاء أي مرحلة. تم استهلاك الباس."
+			},
+			"rewardMessage": {
+				"eng": "Rewards sent to your item inbox.",
+				"trans": "تم إرسال المكافآت إلى صندوق العناصر الخاص بك."
+			},
+			"scoreLabel": {
+				"eng": "SCORE",
+				"trans": "النتيجة"
+			},
+			"stageLabel": {
+				"eng": "STAGE",
+				"trans": "مرحلة"
+			},
+			"stageValue": {
+				"eng": "${stage}/${maxStage}",
+				"trans": "${stage}/${maxStage}",
+				"vars": [
+					"stage",
+					"maxStage"
+				]
+			}
+		},
+		"stageClear": {
+			"bestFloat": {
+				"eng": "BEST FLOAT",
+				"trans": "أفضل تقييم"
+			},
+			"cleared": {
+				"eng": "Stage ${stage} cleared",
+				"trans": "تم اجتياز المرحلة ${stage}",
+				"vars": [
+					"stage"
+				]
+			},
+			"continue": {
+				"eng": "START STAGE ${stage}",
+				"trans": "المرحلة التالية",
+				"vars": [
+					"stage"
+				]
+			},
+			"kicker": {
+				"eng": "STAGE COMPLETE",
+				"trans": "اكتملت المرحلة"
+			},
+			"nextTarget": {
+				"eng": "Next stage: build ${target}",
+				"trans": "المرحلة التالية: بناء ${target}",
+				"vars": [
+					"target"
+				]
+			},
+			"score": {
+				"eng": "SCORE",
+				"trans": "النتيجة"
+			},
+			"stageLabel": {
+				"eng": "STAGE",
+				"trans": "مرحلة"
 			},
 			"title": {
-				"eng": "STAGE_CLEAR",
+				"eng": "STAGE CLEAR",
 				"trans": "تم اجتياز المرحلة"
 			}
 		},
@@ -13996,21 +14604,21 @@
 				"trans": "خروج"
 			},
 			"message": {
-				"eng": "Reward submission failed or timed out. Do not retry this run. Contact support or exit.",
+				"eng": "Run could not be saved. Exit and contact support if rewards are missing.",
 				"trans": "تعذر إرسال المكافأة أو انتهت مهلة الاتصال. لا تكرر هذه المحاولة، وتواصل مع الدعم الفني أو أغلق اللعبة."
 			},
 			"title": {
-				"eng": "SUBMISSION_UNCERTAIN",
+				"eng": "SAVE FAILED",
 				"trans": "الإرسال غير مؤكد"
 			}
 		},
 		"submitting": {
 			"message": {
-				"eng": "Terminal result locked. Do not retry.",
+				"eng": "Saving your run. Do not close this screen.",
 				"trans": "تم قفل نتيجة الطرفية. يُمنع إعادة المحاولة."
 			},
 			"title": {
-				"eng": "SUBMITTING_RUN_DATA",
+				"eng": "SAVING RUN",
 				"trans": "إرسال بيانات التشغيل"
 			}
 		},
@@ -14054,6 +14662,23 @@
 			"waterBalloonOrb": {
 				"eng": "Water Balloon Orb",
 				"trans": "كُرة بالون الماء"
+			}
+		},
+		"toast": {
+			"chain": {
+				"eng": "CHAIN x${chainCount}",
+				"trans": "سلسلة x${chainCount}",
+				"vars": [
+					"chainCount"
+				]
+			},
+			"dropRefund": {
+				"eng": "DROP REFUND ${count}/${max}",
+				"trans": "استرداد المقتنيات ${count}/${max}",
+				"vars": [
+					"count",
+					"max"
+				]
 			}
 		}
 	},
@@ -17234,6 +17859,20 @@
 		},
 		"timeSkip": {
 			"confirmModal": {
+				"confirmSpendUnits": {
+					"eng": "Spend ${units} units",
+					"trans": "إنفاق ${units} وحدات",
+					"vars": [
+						"units"
+					]
+				},
+				"cost": {
+					"eng": "Cost: ${units} units",
+					"trans": "التكلفة: ${units} وحدة",
+					"vars": [
+						"units"
+					]
+				},
 				"subtitle": {
 					"eng": "Global Skip will skip the waiting time for all players performing AFK task",
 					"trans": "سوف تخطي Global Skip وقت الانتظار لجميع اللاعبين الذين يقومون بأداء مهمة AFK"
@@ -17279,6 +17918,21 @@
 					"eng": "Finish the task instantly for all players in the game and earn skip points to show your support to other players!",
 					"trans": "يتيح لك Global Skip تخطي وقت انتظار AFK، وإنهائه على الفور.\n    سيتم تطبيق هذا التأثير على جميع اللاعبين الذين يؤدون مهمة AFK"
 				},
+				"discountPercent": {
+					"eng": "${percent}%",
+					"trans": "${percent}%",
+					"vars": [
+						"percent"
+					]
+				},
+				"eventDiscount": {
+					"eng": "Event Discount",
+					"trans": "خصم الحدث"
+				},
+				"longSkipDiscount": {
+					"eng": "Long Skip Discount",
+					"trans": "خصم التخطي الطويل"
+				},
 				"minute": {
 					"eng": "Skip ${minutes} minutes",
 					"trans": "تخطي الدقائق ${minutes}",
@@ -17286,13 +17940,9 @@
 						"minutes"
 					]
 				},
-				"ticketItem": {
-					"eng": "${percent}% off from ${itemName}",
-					"trans": "${percent}% خصم على ${itemName}",
-					"vars": [
-						"itemName",
-						"percent"
-					]
+				"offLabel": {
+					"eng": "OFF",
+					"trans": "إيقاف"
 				},
 				"title2": {
 					"eng": "Finish Now",

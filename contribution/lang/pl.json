@@ -1114,6 +1114,13 @@
 				"percent"
 			]
 		},
+		"eventDiscountTitle": {
+			"eng": "${eventName} Discount",
+			"trans": "Rabat na ${eventName}",
+			"vars": [
+				"eventName"
+			]
+		},
 		"hintBox": {
 			"text2": {
 				"eng": "When calibration train funding reaches 100%, the system will automatically deploy +1 to +10 calibration success rate and destruction prevention buffs in sequence with interval of ${deployInterval} minutes. the buff train will starting at the next designated time",
@@ -2440,6 +2447,10 @@
 		"donation53": {
 			"eng": "Lightwalker",
 			"trans": "Wędrowiec Światła"
+		},
+		"donation54": {
+			"eng": "Vice Heat",
+			"trans": "Podziemna Gorączka"
 		},
 		"donation6": {
 			"eng": "Prestige",
@@ -3883,8 +3894,18 @@
 				"trans": "Lato"
 			},
 			"topUpRewardTitle": {
-				"eng": "Summer Bonus",
+				"eng": "Heatwave Festival Bonus",
 				"trans": "Bonus letni"
+			}
+		},
+		"summerNights": {
+			"eventGame": {
+				"eng": "Neon Nights Grid",
+				"trans": "Siatka Neonowych Nocy"
+			},
+			"name": {
+				"eng": "Summer Nights",
+				"trans": "Letnie noce"
 			}
 		},
 		"thanksgiving": {
@@ -4241,6 +4262,13 @@
 			"trans": "Do ${percent}% zniżki dla wczesnych uczestników",
 			"vars": [
 				"percent"
+			]
+		},
+		"eventDiscountTitle": {
+			"eng": "${eventName} Discount",
+			"trans": "Rabat na ${eventName}",
+			"vars": [
+				"eventName"
 			]
 		},
 		"hint": {
@@ -5604,6 +5632,16 @@
 				"trans": "Przepustka komendy rakiet"
 			}
 		},
+		"neonNightsPass": {
+			"description": {
+				"eng": "A neon boardwalk access pass required to initialize Neon Nights Grid during the Summer Nights event. Can be found from AFK farming during Summer Nights.",
+				"trans": "Przepustka do neonowej promenady wymagana do aktywacji Siatki Neonowych Nocy podczas wydarzenia Letnie Noce. Można ją zdobyć w farmie AFK w trakcie trwania eventu."
+			},
+			"name": {
+				"eng": "Neon Nights Pass",
+				"trans": "Przepustka Neonowych Nocy"
+			}
+		},
 		"newYear": {
 			"description": {
 				"eng": "A red envelope with a golden digital seal on it. looks like it contains some sort of currency",
@@ -5961,7 +5999,7 @@
 		},
 		"solarFloatPass": {
 			"description": {
-				"eng": "A sealed beach access pass required to initialize Solar Float Stack during the Summer event.",
+				"eng": "A sealed beach access pass required to initialize Solar Float Stack during Heatwave Festival.",
 				"trans": "Zabezpieczona przepustka na plażę wymagana do aktywacji Solar Float Stack podczas letniego wydarzenia."
 			},
 			"name": {
@@ -9219,6 +9257,437 @@
 		"viewProfile": {
 			"eng": "View Profile",
 			"trans": "Zobacz profil"
+		}
+	},
+	"neonNightsGrid": {
+		"button": {
+			"subtitle": {
+				"eng": "BOARDWALK LIGHT CIRCUIT",
+				"trans": "OBWÓD OŚWIETLENIOWY BULWARU"
+			},
+			"title": {
+				"eng": "NEON NIGHTS GRID",
+				"trans": "SIATKA NEONOWYCH NOCY"
+			}
+		},
+		"canvas": {
+			"label": {
+				"eng": "Neon Nights Grid playfield. Drag tray pieces onto the 8 by 8 board.",
+				"trans": "Plansza Neon Nights Grid. Przeciągnij elementy z tacki na planszę 8x8."
+			}
+		},
+		"drag": {
+			"occupied": {
+				"eng": "OCCUPIED",
+				"trans": "ZAJĘTE"
+			},
+			"offGrid": {
+				"eng": "OFF GRID",
+				"trans": "POZA SIĘCIĄ"
+			}
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "Summer Nights is not active.",
+				"trans": "Letnie Noce nie są aktywne."
+			},
+			"noPass": {
+				"eng": "You need a ${itemName} to enter Neon Nights Grid.",
+				"trans": "Aby wejść do Neon Nights Grid, potrzebujesz ${itemName}.",
+				"vars": [
+					"itemName"
+				]
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "EXIT",
+				"trans": "WYJŚCIE"
+			},
+			"message": {
+				"eng": "Submission interrupted. Reward sync status is unknown.",
+				"trans": "Wysyłka przerwana. Status synchronizacji nagrody nieznany."
+			},
+			"title": {
+				"eng": "SYNC STATUS UNKNOWN",
+				"trans": "STATUS SYNCHRONIZACJI NIEZNANY"
+			},
+			"verify": {
+				"eng": "Exit, then verify inventory/event log before starting another run.",
+				"trans": "Wyjdź, sprawdź ekwipunek i dziennik wydarzeń przed rozpoczęciem kolejnej próby."
+			}
+		},
+		"exit": {
+			"eng": "Exit",
+			"trans": "Wyjście"
+		},
+		"feedback": {
+			"comboLost": {
+				"eng": "COMBO LOST",
+				"trans": "COMBO STRACONE"
+			},
+			"invalid": {
+				"eng": "INVALID FIT",
+				"trans": "BRAK DOPASOWANIA"
+			},
+			"lineClearCombo": {
+				"eng": "+${score} LINE CLEAR x${combo}",
+				"trans": "+${score} USUNIĘTA LINIA x${combo}",
+				"vars": [
+					"score",
+					"combo"
+				]
+			},
+			"lineClearScore": {
+				"eng": "+${score} LINE CLEAR",
+				"trans": "+${score} USUNIĘCIE LINII",
+				"vars": [
+					"score"
+				]
+			},
+			"maxScore": {
+				"eng": "MAX TIER SYNCED",
+				"trans": "NAJWYŻSZY POZIOM ZSYNCHRONIZOWANY"
+			},
+			"noFit": {
+				"eng": "NO FIT FOUND",
+				"trans": "BRAK DOPASOWANIA"
+			},
+			"occupied": {
+				"eng": "OCCUPIED",
+				"trans": "ZAJĘTE"
+			},
+			"offGrid": {
+				"eng": "OFF GRID",
+				"trans": "POZA SIĘCIĄ"
+			},
+			"placedScore": {
+				"eng": "+${score} PLACED",
+				"trans": "+${score} PRZYDZIELONE",
+				"vars": [
+					"score"
+				]
+			},
+			"timeout": {
+				"eng": "TIME EXPIRED",
+				"trans": "CZAS MINĄŁ"
+			}
+		},
+		"finish": {
+			"eng": "Finish",
+			"trans": "Zakończ"
+		},
+		"gameOver": {
+			"subtitle": {
+				"eng": "No reward tier reached. Pass consumed.",
+				"trans": "Nie osiągnięto żadnego poziomu nagród. Przepustka zużyta."
+			},
+			"title": {
+				"eng": "GRID LOCKED",
+				"trans": "SIATKA ZABLOKOWANA"
+			}
+		},
+		"hint": {
+			"drag": {
+				"eng": "Drag tray pieces onto the board",
+				"trans": "Przeciągnij elementy z tacki na planszę"
+			}
+		},
+		"hud": {
+			"comboValue": {
+				"eng": "Combo: x${combo}",
+				"trans": "Kombo: x${combo}",
+				"vars": [
+					"combo"
+				]
+			},
+			"linesValue": {
+				"eng": "Lines: ${lines}",
+				"trans": "Linie: ${lines}",
+				"vars": [
+					"lines"
+				]
+			},
+			"maxTier": {
+				"eng": "MAX",
+				"trans": "MAKS"
+			},
+			"nextValue": {
+				"eng": "Next: ${threshold}",
+				"trans": "Następny: ${threshold}",
+				"vars": [
+					"threshold"
+				]
+			},
+			"piecesValue": {
+				"eng": "Pieces: ${pieces}",
+				"trans": "Elementy: ${pieces}",
+				"vars": [
+					"pieces"
+				]
+			},
+			"score": {
+				"eng": "Score",
+				"trans": "Wynik"
+			},
+			"seconds": {
+				"eng": "${seconds}s",
+				"trans": "${seconds}s",
+				"vars": [
+					"seconds"
+				]
+			},
+			"tier": {
+				"eng": "Tier",
+				"trans": "Poziom"
+			},
+			"time": {
+				"eng": "Time",
+				"trans": "Czas"
+			}
+		},
+		"intro": {
+			"briefing": {
+				"eng": "GRID_BRIEFING",
+				"trans": "Briefing Siatki"
+			},
+			"combo": {
+				"eng": "Consecutive line clears build a combo. Complete a full 3-piece tray with no line clear and it resets.",
+				"trans": "Kolejne usuwanie linii buduje kombinację. Wypełnienie pełnej tacy bez usunięcia linii ją resetuje."
+			},
+			"eventClosed": {
+				"eng": "EVENT CLOSED",
+				"trans": "EVENT ZAMKNIĘTY"
+			},
+			"eventInactive": {
+				"eng": "Summer Nights inactive",
+				"trans": "Letnie noce wyłączone"
+			},
+			"eventLabel": {
+				"eng": "Summer Nights",
+				"trans": "Letnie noce"
+			},
+			"needPass": {
+				"eng": "NEED PASS",
+				"trans": "HASŁO WYMAGANE"
+			},
+			"passLabel": {
+				"eng": "ENTRY_PASS",
+				"trans": "PRZEPUSTKA"
+			},
+			"rewardHint": {
+				"eng": "Reward tiers pay Summer Nights seashells and tech salvage.",
+				"trans": "Poziomy nagród dają muszle z Letnich Nocy oraz technologiczny złom."
+			},
+			"rule1": {
+				"eng": "Drag one of three neon blocks onto the 8x8 board.",
+				"trans": "Przeciągnij jedną z trzech neonowych kostek na planszę 8x8."
+			},
+			"rule2": {
+				"eng": "Fill full rows or columns to clear lines and score.",
+				"trans": "Uzupełniaj linie poziome lub pionowe, aby je usuwać i zdobywać punkty."
+			},
+			"rule3": {
+				"eng": "Score thresholds advance reward tiers during one continuous ${seconds}s run.",
+				"trans": "Osiągnięcie progów punktowych awansuje do wyższych poziomów nagród w trakcie jednej nieprzerwanej rundy (${seconds}).",
+				"vars": [
+					"seconds"
+				]
+			},
+			"rule4": {
+				"eng": "Timeout submits the tier reached; ${score} score wins tier ${tier}.",
+				"trans": "Upływ czasu automatycznie zatwierdza osiągnięty poziom; wynik ${score} gwarantuje awans na poziom ${tier}.",
+				"vars": [
+					"score",
+					"tier"
+				]
+			},
+			"rule5": {
+				"eng": "If none of the current pieces can fit, the run ends and submits your reached tier.",
+				"trans": "Jeśli żaden z obecnych elementów nie zmieści się na planszy, sesja kończy się, a osiągnięty poziom jest przesyłany."
+			},
+			"start": {
+				"eng": "START GRID",
+				"trans": "URUCHOM SIATKĘ"
+			},
+			"title": {
+				"eng": "Neon Nights Grid",
+				"trans": "Siatka Neonowych Nocy"
+			}
+		},
+		"loading": {
+			"title": {
+				"eng": "INITIALIZING_GRID",
+				"trans": "INICJALIZACJA SIATKI"
+			}
+		},
+		"results": {
+			"maxTitle": {
+				"eng": "MAX TIER SYNCED",
+				"trans": "NAJWYŻSZY POZIOM ZSYNCHRONIZOWANY"
+			},
+			"noRewards": {
+				"eng": "No rewards returned",
+				"trans": "Brak nagród"
+			},
+			"rewards": {
+				"eng": "Summer Nights Rewards",
+				"trans": "Nagrody Letnich Nocy"
+			},
+			"seconds": {
+				"eng": "${seconds}s",
+				"trans": "${seconds}s",
+				"vars": [
+					"seconds"
+				]
+			},
+			"tier": {
+				"eng": "Tier ${tier} neon circuit cleared",
+				"trans": "Neonowy układ poziomu ${tier} ukończony",
+				"vars": [
+					"tier"
+				]
+			},
+			"title": {
+				"eng": "REWARD TIER SYNCED",
+				"trans": "POZIOM NAGRODY ZSYNCHRONIZOWANY"
+			}
+		},
+		"stats": {
+			"achievedTier": {
+				"eng": "Achieved Tier",
+				"trans": "Osiągnięty poziom"
+			},
+			"bestCombo": {
+				"eng": "Best Combo",
+				"trans": "Najlepszy combo"
+			},
+			"combo": {
+				"eng": "Combo",
+				"trans": "Combo"
+			},
+			"lines": {
+				"eng": "Lines",
+				"trans": "Linie"
+			},
+			"linesCleared": {
+				"eng": "Lines Cleared",
+				"trans": "Usunięte linie"
+			},
+			"remaining": {
+				"eng": "Remain",
+				"trans": "Pozostało"
+			},
+			"score": {
+				"eng": "Score",
+				"trans": "Wynik"
+			}
+		},
+		"submission": {
+			"doNotRetry": {
+				"eng": "Submission interrupted. Do not retry this run.",
+				"trans": "Przesyłanie przerwane. Nie powtarzaj tej próby."
+			},
+			"localOutcome": {
+				"eng": "LOCAL OUTCOME",
+				"trans": "LOKALNY WYNIK"
+			},
+			"localResultShown": {
+				"eng": "Local result shown above. Server sync status unknown.",
+				"trans": "Powyżej wyświetlono wynik lokalny. Status synchronizacji z serwerem nieznany."
+			},
+			"noRetry": {
+				"eng": "Exit, then verify inventory/event log before starting another run.",
+				"trans": "Wyjdź, sprawdź ekwipunek i dziennik wydarzeń przed rozpoczęciem kolejnej próby."
+			},
+			"outcomeMaxTier": {
+				"eng": "MAX TIER",
+				"trans": "POZIOM MAX"
+			},
+			"outcomeNoFit": {
+				"eng": "NO FIT",
+				"trans": "NIEDOPASOWANIE"
+			},
+			"outcomeTimeout": {
+				"eng": "TIME EXPIRED",
+				"trans": "CZAS MINĄŁ"
+			},
+			"outcomeUnknown": {
+				"eng": "RUN ENDED",
+				"trans": "KONIEC RUNDY"
+			},
+			"syncUnknown": {
+				"eng": "REWARD SYNC UNKNOWN",
+				"trans": "Status synchronizacji nagrody nieznany"
+			}
+		},
+		"submitting": {
+			"subtitle": {
+				"eng": "Submitting final tier. Do not close.",
+				"trans": "Wysyłanie ostatniego poziomu. Nie zamykaj."
+			},
+			"title": {
+				"eng": "SYNCING RUN DATA",
+				"trans": "Synchronizowanie danych przebiegu"
+			}
+		},
+		"tierUp": {
+			"title": {
+				"eng": "Tier ${tier} Synced",
+				"trans": "Poziom ${tier} zsynchronizowany",
+				"vars": [
+					"tier"
+				]
+			}
+		},
+		"vfx": {
+			"combo": {
+				"eng": "COMBO x${combo}",
+				"trans": "KOMBO x${combo}",
+				"vars": [
+					"combo"
+				]
+			},
+			"endTier": {
+				"eng": "TIER ${tier}",
+				"trans": "POZIOM ${tier}",
+				"vars": [
+					"tier"
+				]
+			},
+			"maxGridSync": {
+				"eng": "MAX GRID SYNC",
+				"trans": "Maksymalna synchronizacja siatki"
+			},
+			"noFitFound": {
+				"eng": "NO FIT FOUND",
+				"trans": "BRAK DOPASOWANIA"
+			},
+			"scoreGain": {
+				"eng": "+${score}",
+				"trans": "+${score}",
+				"vars": [
+					"score"
+				]
+			},
+			"tierSync": {
+				"eng": "TIER ${tier} SYNC",
+				"trans": "SYNCHRONIZACJA POZIOMU ${tier}",
+				"vars": [
+					"tier"
+				]
+			},
+			"timeExpired": {
+				"eng": "TIME EXPIRED",
+				"trans": "CZAS MINĄŁ"
+			},
+			"timer": {
+				"eng": "T-${seconds}",
+				"trans": "T-${seconds}",
+				"vars": [
+					"seconds"
+				]
+			}
 		}
 	},
 	"newYearFireworks": {
@@ -13779,13 +14248,40 @@
 			"trans": "Weź wszystko"
 		}
 	},
+	"summerNightsPromo": {
+		"subtitle": {
+			"eng": "Miami neon hits the coast. Collect seashells, trade with Josie, and run Neon Nights Grid.",
+			"trans": "Miamijski neon rozświetla wybrzeże. Zbieraj muszle, handluj z Josie i graj w Siatkę Neonowych Nocy."
+		},
+		"title": {
+			"eng": "Summer Nights",
+			"trans": "Letnie noce"
+		}
+	},
+	"summerNightsPromoSmall": {
+		"desc1": {
+			"eng": "Neon Nights Grid is live at Crystal Beach.",
+			"trans": "Siatka Neonowych Nocy jest już aktywna na Crystal Beach."
+		},
+		"desc2": {
+			"eng": "Collect ${item} and trade with Josie.",
+			"trans": "Zbierz ${item} i wymień u Josie.",
+			"vars": [
+				"item"
+			]
+		},
+		"title": {
+			"eng": "Summer Nights",
+			"trans": "Letnie noce"
+		}
+	},
 	"summerPromo": {
 		"subtitle": {
-			"eng": "Its time for the summer beach! don't miss out on the fun!",
+			"eng": "Heat is rising on the coast. Collect seashells, trade with Josie, and run Solar Float Stack.",
 			"trans": "Czas na letnią plażę! Nie przegap zabawy!"
 		},
 		"title": {
-			"eng": "Summer Fiesta Event",
+			"eng": "Heatwave Festival",
 			"trans": "Letnia Fiesta"
 		}
 	},
@@ -13805,14 +14301,44 @@
 			]
 		},
 		"title": {
-			"eng": "Summer Fiesta: Don't Miss Out!",
+			"eng": "Heatwave Festival",
 			"trans": "Letnia Fiesta: Nie przegap!"
 		}
 	},
 	"summerStack": {
+		"assets": {
+			"exit": {
+				"eng": "EXIT",
+				"trans": "WYJŚCIE"
+			},
+			"failedMessage": {
+				"eng": "Required stack art did not load. No pass was consumed.",
+				"trans": "Wymagana grafika stosu nie została załadowana. Nie zużyto żadnego przepustu."
+			},
+			"failedTitle": {
+				"eng": "ASSET_LOAD_FAILED",
+				"trans": "Nie udało się wczytać zasobu"
+			},
+			"loadingMessage": {
+				"eng": "Preparing required float sprites.",
+				"trans": "Przygotowywanie wymaganych pływających grafik."
+			},
+			"loadingTitle": {
+				"eng": "LOADING_STACK_ASSETS",
+				"trans": "ŁADOWANIE ZASOBÓW"
+			},
+			"retry": {
+				"eng": "RETRY",
+				"trans": "PONÓW"
+			}
+		},
 		"button": {
+			"enter": {
+				"eng": "Play",
+				"trans": "Graj"
+			},
 			"subtitle": {
-				"eng": "CONTAINMENT STACK COURSE",
+				"eng": "BEACH FLOAT MERGE",
 				"trans": "Kurs stosu izolacji"
 			},
 			"title": {
@@ -13820,18 +14346,9 @@
 				"trans": "STOS SOLARNYCH PŁYWAKÓW"
 			}
 		},
-		"complete": {
-			"notification": {
-				"eng": "Solar Float Stack cleared through stage ${stage}. Rewards sent to inbox.",
-				"trans": "Solar Float Stack ukończony do etapu ${stage}. Nagrody wysłano na skrzynkę.",
-				"vars": [
-					"stage"
-				]
-			}
-		},
 		"entry": {
 			"eventEnded": {
-				"eng": "The summer event is not active.",
+				"eng": "The Heatwave Festival is not active.",
 				"trans": "Letnie wydarzenie nie jest aktywne."
 			},
 			"noPass": {
@@ -13856,13 +14373,11 @@
 				"trans": "AWARIA STOSU W CZASIE DZIAŁANIA"
 			}
 		},
-		"failed": {
-			"notification": {
-				"eng": "Solar Float Stack failed. Pass consumed.",
-				"trans": "Zestaw Solar Float nie powiódł się. Bilet zużyty."
-			}
-		},
 		"hud": {
+			"currentFloat": {
+				"eng": "CURRENT",
+				"trans": "AKTUALNY"
+			},
 			"drops": {
 				"eng": "DROPS",
 				"trans": "ŁUPY"
@@ -13874,9 +14389,9 @@
 					"dropsLeft"
 				]
 			},
-			"lossRules": {
-				"eng": "Lose if time hits 0 or drops run out before target is made.",
-				"trans": "Przegrajesz, jeśli czas dojdzie do zera lub zabraknie dropów przed osiągnięciem celu."
+			"nextFloat": {
+				"eng": "NEXT",
+				"trans": "DALEJ"
 			},
 			"stage": {
 				"eng": "STAGE ${stage}",
@@ -13885,24 +14400,30 @@
 					"stage"
 				]
 			},
-			"target": {
-				"eng": "Make ${targetName} to clear this stage.",
-				"trans": "Wykonaj ${targetName}, aby przejść ten etap.",
+			"surge": {
+				"eng": "SURGE",
+				"trans": "PODSZYCIE"
+			},
+			"surgeCharge": {
+				"eng": "${charge}/${required}",
+				"trans": "${charge}/${required}",
 				"vars": [
-					"targetName"
+					"charge",
+					"required"
 				]
 			},
+			"surgeReady": {
+				"eng": "READY",
+				"trans": "GOTOWY"
+			},
 			"targetProgress": {
-				"eng": "${current}/${target}",
+				"eng": "${current}/${target} • ${targetName}",
 				"trans": "${current}/${target}",
 				"vars": [
 					"current",
-					"target"
+					"target",
+					"targetName"
 				]
-			},
-			"time": {
-				"eng": "TIME",
-				"trans": "CZAS"
 			},
 			"timeLeft": {
 				"eng": "${time}s",
@@ -13922,7 +14443,7 @@
 		},
 		"intro": {
 			"briefing": {
-				"eng": "STACK_BRIEFING",
+				"eng": "HOW TO PLAY",
 				"trans": "Briefing zespołu"
 			},
 			"eventClosed": {
@@ -13930,36 +14451,44 @@
 				"trans": "ZDARZENIE ZAKOŃCZONE"
 			},
 			"eventInactive": {
-				"eng": "Summer event inactive",
+				"eng": "Heatwave Festival inactive",
 				"trans": "Wydarzenie letnie nieaktywne"
 			},
 			"eventLabel": {
-				"eng": "SUMMER_EVENT",
+				"eng": "HEATWAVE_FESTIVAL",
 				"trans": "Letnie wydarzenie"
 			},
 			"needPass": {
 				"eng": "NEED PASS",
 				"trans": "Wymagana przepustka"
 			},
+			"passLabel": {
+				"eng": "ENTRY_PASS",
+				"trans": "PRZEPUSTKA"
+			},
 			"rewardHint": {
-				"eng": "Reward bands pay summer materials and tech salvage.",
+				"eng": "Reward bands pay Heatwave materials and tech salvage.",
 				"trans": "Pasy nagród przyznają letnie materiały i techniczny złom."
 			},
 			"rule1": {
-				"eng": "Drag along the rail, release, and drop a summer sphere.",
+				"eng": "Move along the rail, then release to drop the current float.",
 				"trans": "Przesuwaj wzdłuż linii, puść i upuść letnią kulę."
 			},
 			"rule2": {
-				"eng": "Match identical round objects to merge into larger floats.",
+				"eng": "Put two matching floats together to merge them into a bigger float.",
 				"trans": "Połącz identyczne okrągłe obiekty, aby scalić je w większe pływaki."
 			},
 			"rule3": {
-				"eng": "Make the target float before time or drops run out.",
+				"eng": "Reach the target float before the timer or your drops run out.",
 				"trans": "Utrzymuj cel na powierzchni przed upływem czasu lub wyczerpaniem kropli."
 			},
 			"rule4": {
-				"eng": "Only the terminal stage result consumes the pass and pays rewards.",
+				"eng": "Your pass is used when the run ends. Rewards depend on the last stage you cleared.",
 				"trans": "Tylko wynik ostatniej fazy zużywa przepustkę i przyznaje nagrody."
+			},
+			"ruleCombo": {
+				"eng": "Chain merges pull nearby matching floats and can give back drops.",
+				"trans": "Łańcuchowe połączenia przyciągają pobliskie pasujące pływaki i mogą przywracać spadające elementy."
 			},
 			"start": {
 				"eng": "START STACK",
@@ -13976,17 +14505,96 @@
 				"trans": "Inicjalizacja staka"
 			}
 		},
-		"stageClear": {
-			"continue": {
-				"eng": "NEXT STAGE",
-				"trans": "NASTĘPNY ETAP"
+		"results": {
+			"biggestLabel": {
+				"eng": "BIGGEST_FLOAT",
+				"trans": "NAJWIĘKSZY MNOŻNIK"
 			},
-			"next": {
-				"eng": "Target tier secured. Continue stacking.",
-				"trans": "Docelowy poziom osiągnięty. Kontynuuj kumulację."
+			"completeTitle": {
+				"eng": "RUN_COMPLETE",
+				"trans": "UKOŃCZONO"
+			},
+			"failedTitle": {
+				"eng": "RUN_FAILED",
+				"trans": "Nieudany przebieg"
+			},
+			"finish": {
+				"eng": "FINISH",
+				"trans": "ZAKOŃCZYJ"
+			},
+			"fullClearTitle": {
+				"eng": "FULL_CLEAR",
+				"trans": "PEŁNY_KLEAR"
+			},
+			"noFloat": {
+				"eng": "No float reached",
+				"trans": "Nie osiągnięto żadnego floata"
+			},
+			"noRewardMessage": {
+				"eng": "No stage cleared. Pass consumed.",
+				"trans": "Nie ukończono żadnego etapu. Przepustka zużyta."
+			},
+			"rewardMessage": {
+				"eng": "Rewards sent to your item inbox.",
+				"trans": "Nagrody zostały wysłane do skrzynki przedmiotów."
+			},
+			"scoreLabel": {
+				"eng": "SCORE",
+				"trans": "WYNIK"
+			},
+			"stageLabel": {
+				"eng": "STAGE",
+				"trans": "ETAP"
+			},
+			"stageValue": {
+				"eng": "${stage}/${maxStage}",
+				"trans": "${stage}/${maxStage}",
+				"vars": [
+					"stage",
+					"maxStage"
+				]
+			}
+		},
+		"stageClear": {
+			"bestFloat": {
+				"eng": "BEST FLOAT",
+				"trans": "NAJLEPSZE UNOSZENIE SIĘ"
+			},
+			"cleared": {
+				"eng": "Stage ${stage} cleared",
+				"trans": "Etap ${stage} ukończony",
+				"vars": [
+					"stage"
+				]
+			},
+			"continue": {
+				"eng": "START STAGE ${stage}",
+				"trans": "NASTĘPNY ETAP",
+				"vars": [
+					"stage"
+				]
+			},
+			"kicker": {
+				"eng": "STAGE COMPLETE",
+				"trans": "ETAP UKOŃCZONY"
+			},
+			"nextTarget": {
+				"eng": "Next stage: build ${target}",
+				"trans": "Następny etap: zbuduj ${target}",
+				"vars": [
+					"target"
+				]
+			},
+			"score": {
+				"eng": "SCORE",
+				"trans": "WYNIK"
+			},
+			"stageLabel": {
+				"eng": "STAGE",
+				"trans": "ETAP"
 			},
 			"title": {
-				"eng": "STAGE_CLEAR",
+				"eng": "STAGE CLEAR",
 				"trans": "POZIOM UKOŃCZONY"
 			}
 		},
@@ -13996,21 +14604,21 @@
 				"trans": "Zamknij"
 			},
 			"message": {
-				"eng": "Reward submission failed or timed out. Do not retry this run. Contact support or exit.",
+				"eng": "Run could not be saved. Exit and contact support if rewards are missing.",
 				"trans": "Przesyłanie nagrody nie powiodło się lub upłynął limit czasu. Nie powtarzaj tej próby. Skontaktuj się z pomocą techniczną lub wyjdź."
 			},
 			"title": {
-				"eng": "SUBMISSION_UNCERTAIN",
+				"eng": "SAVE FAILED",
 				"trans": "Niepotwierdzone przesłanie"
 			}
 		},
 		"submitting": {
 			"message": {
-				"eng": "Terminal result locked. Do not retry.",
+				"eng": "Saving your run. Do not close this screen.",
 				"trans": "Wynik terminala zablokowany. Nie próbuj ponownie."
 			},
 			"title": {
-				"eng": "SUBMITTING_RUN_DATA",
+				"eng": "SAVING RUN",
 				"trans": "PRZESYŁANIE_DANYCH_SESJI"
 			}
 		},
@@ -14054,6 +14662,23 @@
 			"waterBalloonOrb": {
 				"eng": "Water Balloon Orb",
 				"trans": "Kula z balonem wodnym"
+			}
+		},
+		"toast": {
+			"chain": {
+				"eng": "CHAIN x${chainCount}",
+				"trans": "KOMBO x${chainCount}",
+				"vars": [
+					"chainCount"
+				]
+			},
+			"dropRefund": {
+				"eng": "DROP REFUND ${count}/${max}",
+				"trans": "ZWROT ZRZUTÓW ${count}/${max}",
+				"vars": [
+					"count",
+					"max"
+				]
 			}
 		}
 	},
@@ -17234,6 +17859,20 @@
 		},
 		"timeSkip": {
 			"confirmModal": {
+				"confirmSpendUnits": {
+					"eng": "Spend ${units} units",
+					"trans": "Wykorzystaj ${units} jednostek",
+					"vars": [
+						"units"
+					]
+				},
+				"cost": {
+					"eng": "Cost: ${units} units",
+					"trans": "Koszt: ${units} jednostek",
+					"vars": [
+						"units"
+					]
+				},
 				"subtitle": {
 					"eng": "Global Skip will skip the waiting time for all players performing AFK task",
 					"trans": "Globalne Pominięcie pomija czas oczekiwania dla wszystkich graczy wykonujących zadanie AFK"
@@ -17279,6 +17918,21 @@
 					"eng": "Finish the task instantly for all players in the game and earn skip points to show your support to other players!",
 					"trans": "Zakończ zadanie natychmiast dla wszystkich graczy i zdobądź punkty pomijania, aby pokazać swoje wsparcie innym graczom!"
 				},
+				"discountPercent": {
+					"eng": "${percent}%",
+					"trans": "${percent}%",
+					"vars": [
+						"percent"
+					]
+				},
+				"eventDiscount": {
+					"eng": "Event Discount",
+					"trans": "Zniżka z wydarzenia"
+				},
+				"longSkipDiscount": {
+					"eng": "Long Skip Discount",
+					"trans": "Zniżka na długi skok czasowy"
+				},
 				"minute": {
 					"eng": "Skip ${minutes} minutes",
 					"trans": "Pomiń ${minutes} minut",
@@ -17286,13 +17940,9 @@
 						"minutes"
 					]
 				},
-				"ticketItem": {
-					"eng": "${percent}% off from ${itemName}",
-					"trans": "${percent}% zniżki na ${itemName}",
-					"vars": [
-						"itemName",
-						"percent"
-					]
+				"offLabel": {
+					"eng": "OFF",
+					"trans": "WYŁ"
 				},
 				"title2": {
 					"eng": "Finish Now",

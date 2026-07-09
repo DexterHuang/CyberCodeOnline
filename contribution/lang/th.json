@@ -1114,6 +1114,13 @@
 				"percent"
 			]
 		},
+		"eventDiscountTitle": {
+			"eng": "${eventName} Discount",
+			"trans": "${eventName} ส่วนลด",
+			"vars": [
+				"eventName"
+			]
+		},
 		"hintBox": {
 			"text2": {
 				"eng": "When calibration train funding reaches 100%, the system will automatically deploy +1 to +10 calibration success rate and destruction prevention buffs in sequence with interval of ${deployInterval} minutes. the buff train will starting at the next designated time",
@@ -2440,6 +2447,10 @@
 		"donation53": {
 			"eng": "Lightwalker",
 			"trans": "ผู้เดินแสง"
+		},
+		"donation54": {
+			"eng": "Vice Heat",
+			"trans": "ไฟมิจฉาทิฐิ"
 		},
 		"donation6": {
 			"eng": "Prestige",
@@ -3883,8 +3894,18 @@
 				"trans": "ฤดูร้อน"
 			},
 			"topUpRewardTitle": {
-				"eng": "Summer Bonus",
+				"eng": "Heatwave Festival Bonus",
 				"trans": "ซัมเมอร์สุดปัง"
+			}
+		},
+		"summerNights": {
+			"eventGame": {
+				"eng": "Neon Nights Grid",
+				"trans": "ตารางค่ำคืนนีออน"
+			},
+			"name": {
+				"eng": "Summer Nights",
+				"trans": "คืนหน้าร้อน"
 			}
 		},
 		"thanksgiving": {
@@ -4241,6 +4262,13 @@
 			"trans": "ลดสูงสุดถึง ${percent}% สำหรับผู้สนับสนุนแต่แรก",
 			"vars": [
 				"percent"
+			]
+		},
+		"eventDiscountTitle": {
+			"eng": "${eventName} Discount",
+			"trans": "${eventName} ส่วนลด",
+			"vars": [
+				"eventName"
 			]
 		},
 		"hint": {
@@ -5604,6 +5632,16 @@
 				"trans": "มิสไซล์คอมมานด์พาส"
 			}
 		},
+		"neonNightsPass": {
+			"description": {
+				"eng": "A neon boardwalk access pass required to initialize Neon Nights Grid during the Summer Nights event. Can be found from AFK farming during Summer Nights.",
+				"trans": "บัตรผ่านทางเดินนีออน ใช้สำหรับเปิดใช้งานระบบกริดเนออนไนต์ส์ในช่วงกิจกรรมซัมเมอร์ไนต์ส์ สามารถได้รับจากการฟาร์มแบบ AFK ระหว่างช่วงเวลาของกิจกรรมได้"
+			},
+			"name": {
+				"eng": "Neon Nights Pass",
+				"trans": "พาสราตรีเรืองแสง"
+			}
+		},
 		"newYear": {
 			"description": {
 				"eng": "A red envelope with a golden digital seal on it. looks like it contains some sort of currency",
@@ -5961,7 +5999,7 @@
 		},
 		"solarFloatPass": {
 			"description": {
-				"eng": "A sealed beach access pass required to initialize Solar Float Stack during the Summer event.",
+				"eng": "A sealed beach access pass required to initialize Solar Float Stack during Heatwave Festival.",
 				"trans": "บัตรผ่านเข้าชายหาดแบบประทับตรา จำเป็นสำหรับการเปิดใช้งาน Solar Float Stack ในช่วงกิจกรรมฤดูร้อน"
 			},
 			"name": {
@@ -9219,6 +9257,437 @@
 		"viewProfile": {
 			"eng": "View Profile",
 			"trans": "ดูโปรไฟล์"
+		}
+	},
+	"neonNightsGrid": {
+		"button": {
+			"subtitle": {
+				"eng": "BOARDWALK LIGHT CIRCUIT",
+				"trans": "วงจรแสงทางเดินริมน้ำ"
+			},
+			"title": {
+				"eng": "NEON NIGHTS GRID",
+				"trans": "กริดคืนแสงนีออน"
+			}
+		},
+		"canvas": {
+			"label": {
+				"eng": "Neon Nights Grid playfield. Drag tray pieces onto the 8 by 8 board.",
+				"trans": "พื้นที่เล่น นีออนไนต์สกริด ลากชิ้นส่วนจากถาดวางบนกระดานขนาด 8x8"
+			}
+		},
+		"drag": {
+			"occupied": {
+				"eng": "OCCUPIED",
+				"trans": "ถูกครอบครอง"
+			},
+			"offGrid": {
+				"eng": "OFF GRID",
+				"trans": "นอกระบบ"
+			}
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "Summer Nights is not active.",
+				"trans": "Summer Nights ไม่เปิดให้บริการอยู่"
+			},
+			"noPass": {
+				"eng": "You need a ${itemName} to enter Neon Nights Grid.",
+				"trans": "จำเป็นต้องมี ${itemName} เพื่อเข้าสู่เขตนีออนไนท์สกริด",
+				"vars": [
+					"itemName"
+				]
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "EXIT",
+				"trans": "ออก"
+			},
+			"message": {
+				"eng": "Submission interrupted. Reward sync status is unknown.",
+				"trans": "การส่งข้อมูลถูกขัดจังหวะ ไม่สามารถตรวจสอบสถานะการซิงค์รางวัลได้"
+			},
+			"title": {
+				"eng": "SYNC STATUS UNKNOWN",
+				"trans": "สถานะการซิงค์ไม่ทราบ"
+			},
+			"verify": {
+				"eng": "Exit, then verify inventory/event log before starting another run.",
+				"trans": "ออกจากระบบ แล้วตรวจสอบไอเท็มและบันทึกเหตุการณ์ ก่อนเริ่มการรันครั้งถัดไป"
+			}
+		},
+		"exit": {
+			"eng": "Exit",
+			"trans": "ออก"
+		},
+		"feedback": {
+			"comboLost": {
+				"eng": "COMBO LOST",
+				"trans": "คอมโบขาด"
+			},
+			"invalid": {
+				"eng": "INVALID FIT",
+				"trans": "เข้ากันไม่ได้"
+			},
+			"lineClearCombo": {
+				"eng": "+${score} LINE CLEAR x${combo}",
+				"trans": "+${score} เคลียร์ไลน์ x${combo}",
+				"vars": [
+					"score",
+					"combo"
+				]
+			},
+			"lineClearScore": {
+				"eng": "+${score} LINE CLEAR",
+				"trans": "+${score} เคลียร์ไลน์",
+				"vars": [
+					"score"
+				]
+			},
+			"maxScore": {
+				"eng": "MAX TIER SYNCED",
+				"trans": "ซิงค์ระดับสูงสุดแล้ว"
+			},
+			"noFit": {
+				"eng": "NO FIT FOUND",
+				"trans": "ไม่พบการจับคู่"
+			},
+			"occupied": {
+				"eng": "OCCUPIED",
+				"trans": "ถูกครอบครอง"
+			},
+			"offGrid": {
+				"eng": "OFF GRID",
+				"trans": "นอกระบบ"
+			},
+			"placedScore": {
+				"eng": "+${score} PLACED",
+				"trans": "+${score} วางสำเร็จ",
+				"vars": [
+					"score"
+				]
+			},
+			"timeout": {
+				"eng": "TIME EXPIRED",
+				"trans": "หมดเวลา"
+			}
+		},
+		"finish": {
+			"eng": "Finish",
+			"trans": "เสร็จสิ้น"
+		},
+		"gameOver": {
+			"subtitle": {
+				"eng": "No reward tier reached. Pass consumed.",
+				"trans": "ไม่ผ่านระดับรับรางวัล พาสถูกใช้ไปแล้ว"
+			},
+			"title": {
+				"eng": "GRID LOCKED",
+				"trans": "กริดถูกล็อก"
+			}
+		},
+		"hint": {
+			"drag": {
+				"eng": "Drag tray pieces onto the board",
+				"trans": "ลากชิ้นส่วนในถาดขึ้นบนกระดาน"
+			}
+		},
+		"hud": {
+			"comboValue": {
+				"eng": "Combo: x${combo}",
+				"trans": "คอมโบ: x${combo}",
+				"vars": [
+					"combo"
+				]
+			},
+			"linesValue": {
+				"eng": "Lines: ${lines}",
+				"trans": "แถว: ${lines}",
+				"vars": [
+					"lines"
+				]
+			},
+			"maxTier": {
+				"eng": "MAX",
+				"trans": "สูงสุด"
+			},
+			"nextValue": {
+				"eng": "Next: ${threshold}",
+				"trans": "ถัดไป: ${threshold}",
+				"vars": [
+					"threshold"
+				]
+			},
+			"piecesValue": {
+				"eng": "Pieces: ${pieces}",
+				"trans": "ชิ้นส่วน: ${pieces}",
+				"vars": [
+					"pieces"
+				]
+			},
+			"score": {
+				"eng": "Score",
+				"trans": "คะแนน"
+			},
+			"seconds": {
+				"eng": "${seconds}s",
+				"trans": "${seconds}วิ",
+				"vars": [
+					"seconds"
+				]
+			},
+			"tier": {
+				"eng": "Tier",
+				"trans": "ระดับ"
+			},
+			"time": {
+				"eng": "Time",
+				"trans": "เวลา"
+			}
+		},
+		"intro": {
+			"briefing": {
+				"eng": "GRID_BRIEFING",
+				"trans": "เบรฟวิ่ง"
+			},
+			"combo": {
+				"eng": "Consecutive line clears build a combo. Complete a full 3-piece tray with no line clear and it resets.",
+				"trans": "การลบแถวต่อเนื่องจะสะสมค่าคอมโบ หากเติมถาด 3 ช่องให้เต็มโดยไม่มีการลบแถวใดเลย ค่าคอมโบจะถูกรีเซ็ต"
+			},
+			"eventClosed": {
+				"eng": "EVENT CLOSED",
+				"trans": "กิจกรรมปิดแล้ว"
+			},
+			"eventInactive": {
+				"eng": "Summer Nights inactive",
+				"trans": "ซัมเมอร์ไนทส์ ยังไม่เปิดให้บริการ"
+			},
+			"eventLabel": {
+				"eng": "Summer Nights",
+				"trans": "คืนหน้าร้อน"
+			},
+			"needPass": {
+				"eng": "NEED PASS",
+				"trans": "ต้องมีพาส"
+			},
+			"passLabel": {
+				"eng": "ENTRY_PASS",
+				"trans": "บัตรผ่านเข้า"
+			},
+			"rewardHint": {
+				"eng": "Reward tiers pay Summer Nights seashells and tech salvage.",
+				"trans": "แต่ละขั้นรางวัลจะมอบ เปลือกหอยซัมเมอร์ไนต์ และ เศษซากเทคโนโลยี"
+			},
+			"rule1": {
+				"eng": "Drag one of three neon blocks onto the 8x8 board.",
+				"trans": "ลากบล็อกนีออน 1 ใน 3 ก้อนไปวางบนกระดาน 8x8"
+			},
+			"rule2": {
+				"eng": "Fill full rows or columns to clear lines and score.",
+				"trans": "เติมให้เต็มแถวหรือหลักเพื่อเคลียร์และรับคะแนน"
+			},
+			"rule3": {
+				"eng": "Score thresholds advance reward tiers during one continuous ${seconds}s run.",
+				"trans": "การผ่านเกณฑ์คะแนนจะเลื่อนระดับรางวัลสูงขึ้น ในหนึ่งรอบเล่นต่อเนื่อง ${seconds} วินาที",
+				"vars": [
+					"seconds"
+				]
+			},
+			"rule4": {
+				"eng": "Timeout submits the tier reached; ${score} score wins tier ${tier}.",
+				"trans": "หมดเวลาจะบันทึกขั้นสูงสุดที่ทำได้; คะแนน ${score} ผ่านขั้นที่ ${tier}",
+				"vars": [
+					"score",
+					"tier"
+				]
+			},
+			"rule5": {
+				"eng": "If none of the current pieces can fit, the run ends and submits your reached tier.",
+				"trans": "หากไม่มีชิ้นส่วนใดที่วางได้ เกมจะสิ้นสุดและบันทึกระดับสูงสุดของคุณ"
+			},
+			"start": {
+				"eng": "START GRID",
+				"trans": "เริ่มกริด"
+			},
+			"title": {
+				"eng": "Neon Nights Grid",
+				"trans": "ตารางค่ำคืนนีออน"
+			}
+		},
+		"loading": {
+			"title": {
+				"eng": "INITIALIZING_GRID",
+				"trans": "กำลังเตรียมระบบกริด"
+			}
+		},
+		"results": {
+			"maxTitle": {
+				"eng": "MAX TIER SYNCED",
+				"trans": "ซิงค์ระดับสูงสุดแล้ว"
+			},
+			"noRewards": {
+				"eng": "No rewards returned",
+				"trans": "ไม่ได้รับรางวัล"
+			},
+			"rewards": {
+				"eng": "Summer Nights Rewards",
+				"trans": "รางวัลคืนฤดูร้อน"
+			},
+			"seconds": {
+				"eng": "${seconds}s",
+				"trans": "${seconds}วิ",
+				"vars": [
+					"seconds"
+				]
+			},
+			"tier": {
+				"eng": "Tier ${tier} neon circuit cleared",
+				"trans": "เนโอนเซอร์กิต ระดับ ${tier} เคลียร์สำเร็จ",
+				"vars": [
+					"tier"
+				]
+			},
+			"title": {
+				"eng": "REWARD TIER SYNCED",
+				"trans": "ระดับรางวัลซิงค์เรียบร้อย"
+			}
+		},
+		"stats": {
+			"achievedTier": {
+				"eng": "Achieved Tier",
+				"trans": "ขั้นที่ผ่าน"
+			},
+			"bestCombo": {
+				"eng": "Best Combo",
+				"trans": "คอมโบสูงสุด"
+			},
+			"combo": {
+				"eng": "Combo",
+				"trans": "คอมโบ"
+			},
+			"lines": {
+				"eng": "Lines",
+				"trans": "บรรทัด"
+			},
+			"linesCleared": {
+				"eng": "Lines Cleared",
+				"trans": "แถวที่เคลียร์"
+			},
+			"remaining": {
+				"eng": "Remain",
+				"trans": "คงเหลือ"
+			},
+			"score": {
+				"eng": "Score",
+				"trans": "คะแนน"
+			}
+		},
+		"submission": {
+			"doNotRetry": {
+				"eng": "Submission interrupted. Do not retry this run.",
+				"trans": "การส่งถูกขัดจังหวะ ห้ามลองใหม่ในรอบนี้"
+			},
+			"localOutcome": {
+				"eng": "LOCAL OUTCOME",
+				"trans": "ผลลัพธ์ในพื้นที่"
+			},
+			"localResultShown": {
+				"eng": "Local result shown above. Server sync status unknown.",
+				"trans": "ข้อมูลที่แสดงด้านบนเป็นค่าเฉพาะเครื่อง ไม่ทราบสถานะการซิงค์เซิร์ฟเวอร์"
+			},
+			"noRetry": {
+				"eng": "Exit, then verify inventory/event log before starting another run.",
+				"trans": "ออกจากระบบ แล้วตรวจสอบไอเท็มและบันทึกเหตุการณ์ ก่อนเริ่มการรันครั้งถัดไป"
+			},
+			"outcomeMaxTier": {
+				"eng": "MAX TIER",
+				"trans": "ระดับสูงสุด"
+			},
+			"outcomeNoFit": {
+				"eng": "NO FIT",
+				"trans": "ไม่เข้าที่"
+			},
+			"outcomeTimeout": {
+				"eng": "TIME EXPIRED",
+				"trans": "หมดเวลา"
+			},
+			"outcomeUnknown": {
+				"eng": "RUN ENDED",
+				"trans": "จบรัน"
+			},
+			"syncUnknown": {
+				"eng": "REWARD SYNC UNKNOWN",
+				"trans": "การซิงค์รางวัลไม่ทราบสถานะ"
+			}
+		},
+		"submitting": {
+			"subtitle": {
+				"eng": "Submitting final tier. Do not close.",
+				"trans": "กำลังส่งข้อมูลชั้นสุดท้าย กรุณาอย่าปิด"
+			},
+			"title": {
+				"eng": "SYNCING RUN DATA",
+				"trans": "กำลังซิงค์ข้อมูลการรัน"
+			}
+		},
+		"tierUp": {
+			"title": {
+				"eng": "Tier ${tier} Synced",
+				"trans": "ระดับ ${tier} ซิงค์สำเร็จ",
+				"vars": [
+					"tier"
+				]
+			}
+		},
+		"vfx": {
+			"combo": {
+				"eng": "COMBO x${combo}",
+				"trans": "คอมโบ x${combo}",
+				"vars": [
+					"combo"
+				]
+			},
+			"endTier": {
+				"eng": "TIER ${tier}",
+				"trans": "ระดับ ${tier}",
+				"vars": [
+					"tier"
+				]
+			},
+			"maxGridSync": {
+				"eng": "MAX GRID SYNC",
+				"trans": "การซิงค์กริดสูงสุด"
+			},
+			"noFitFound": {
+				"eng": "NO FIT FOUND",
+				"trans": "ไม่พบการจับคู่"
+			},
+			"scoreGain": {
+				"eng": "+${score}",
+				"trans": "+${score} คะแนน",
+				"vars": [
+					"score"
+				]
+			},
+			"tierSync": {
+				"eng": "TIER ${tier} SYNC",
+				"trans": "ซิงค์ระดับ ${tier}",
+				"vars": [
+					"tier"
+				]
+			},
+			"timeExpired": {
+				"eng": "TIME EXPIRED",
+				"trans": "หมดเวลา"
+			},
+			"timer": {
+				"eng": "T-${seconds}",
+				"trans": "เหลือ ${seconds} วินาที",
+				"vars": [
+					"seconds"
+				]
+			}
 		}
 	},
 	"newYearFireworks": {
@@ -13779,13 +14248,40 @@
 			"trans": "เก็บทั้งหมด"
 		}
 	},
+	"summerNightsPromo": {
+		"subtitle": {
+			"eng": "Miami neon hits the coast. Collect seashells, trade with Josie, and run Neon Nights Grid.",
+			"trans": "แสงนีออนไมอามี่เรืองรองริมชายฝั่ง เก็บเปลือกหอย แลกเปลี่ยนกับโจซี และเล่น Neon Nights Grid"
+		},
+		"title": {
+			"eng": "Summer Nights",
+			"trans": "คืนหน้าร้อน"
+		}
+	},
+	"summerNightsPromoSmall": {
+		"desc1": {
+			"eng": "Neon Nights Grid is live at Crystal Beach.",
+			"trans": "นีออนไนตส์กริด เปิดให้บริการแล้วที่คริสตัลบีช"
+		},
+		"desc2": {
+			"eng": "Collect ${item} and trade with Josie.",
+			"trans": "เก็บ ${item} แล้วนำไปแลกกับโจซี่",
+			"vars": [
+				"item"
+			]
+		},
+		"title": {
+			"eng": "Summer Nights",
+			"trans": "คืนหน้าร้อน"
+		}
+	},
 	"summerPromo": {
 		"subtitle": {
-			"eng": "Its time for the summer beach! don't miss out on the fun!",
+			"eng": "Heat is rising on the coast. Collect seashells, trade with Josie, and run Solar Float Stack.",
 			"trans": "ถึงเวลาช่วงฤดูร้อนที่ชายหาดแล้ว! อย่าพลาดความสนุกนะ!"
 		},
 		"title": {
-			"eng": "Summer Fiesta Event",
+			"eng": "Heatwave Festival",
 			"trans": "งานเทศกาลซัมเมอร์ฟีสต้า"
 		}
 	},
@@ -13805,14 +14301,44 @@
 			]
 		},
 		"title": {
-			"eng": "Summer Fiesta: Don't Miss Out!",
+			"eng": "Heatwave Festival",
 			"trans": "เทศกาลซัมเมอร์: ห้ามพลาด!"
 		}
 	},
 	"summerStack": {
+		"assets": {
+			"exit": {
+				"eng": "EXIT",
+				"trans": "ออก"
+			},
+			"failedMessage": {
+				"eng": "Required stack art did not load. No pass was consumed.",
+				"trans": "การโหลดภาพสแต็กที่จำเป็นล้มเหลว ไม่มีการตัด Pass"
+			},
+			"failedTitle": {
+				"eng": "ASSET_LOAD_FAILED",
+				"trans": "การโหลดทรัพยากรล้มเหลว"
+			},
+			"loadingMessage": {
+				"eng": "Preparing required float sprites.",
+				"trans": "กำลังจัดเตรียมสไปรต์แบบลอยตัวที่จำเป็น"
+			},
+			"loadingTitle": {
+				"eng": "LOADING_STACK_ASSETS",
+				"trans": "กำลังโหลดทรัพยากร"
+			},
+			"retry": {
+				"eng": "RETRY",
+				"trans": "ลองอีกครั้ง"
+			}
+		},
 		"button": {
+			"enter": {
+				"eng": "Play",
+				"trans": "เริ่มเกม"
+			},
 			"subtitle": {
-				"eng": "CONTAINMENT STACK COURSE",
+				"eng": "BEACH FLOAT MERGE",
 				"trans": "หลักสูตรฝึกปฏิบัติการควบคุมพื้นที่"
 			},
 			"title": {
@@ -13820,18 +14346,9 @@
 				"trans": "ชุดลอยตัวพลังงานแสงอาทิตย์"
 			}
 		},
-		"complete": {
-			"notification": {
-				"eng": "Solar Float Stack cleared through stage ${stage}. Rewards sent to inbox.",
-				"trans": "ผ่าน Solar Float Stack ถึงด่าน ${stage} เรียบร้อยแล้ว รางวัลได้ส่งเข้ากล่องข้อความแล้ว",
-				"vars": [
-					"stage"
-				]
-			}
-		},
 		"entry": {
 			"eventEnded": {
-				"eng": "The summer event is not active.",
+				"eng": "The Heatwave Festival is not active.",
 				"trans": "กิจกรรมฤดูร้อนไม่เปิดให้บริการอยู่"
 			},
 			"noPass": {
@@ -13856,13 +14373,11 @@
 				"trans": "ความล้มเหลวของสแต็กขณะประมวลผล"
 			}
 		},
-		"failed": {
-			"notification": {
-				"eng": "Solar Float Stack failed. Pass consumed.",
-				"trans": "โซลาร์ฟลอตสแต็กล้มเหลว พาสถูกใช้ไปแล้ว"
-			}
-		},
 		"hud": {
+			"currentFloat": {
+				"eng": "CURRENT",
+				"trans": "ปัจจุบัน"
+			},
 			"drops": {
 				"eng": "DROPS",
 				"trans": "ของตก"
@@ -13874,9 +14389,9 @@
 					"dropsLeft"
 				]
 			},
-			"lossRules": {
-				"eng": "Lose if time hits 0 or drops run out before target is made.",
-				"trans": "แพ้หากเวลาเหลือ 0 หรือจำนวนดรอปหมดก่อนทำเป้าหมายสำเร็จ"
+			"nextFloat": {
+				"eng": "NEXT",
+				"trans": "ถัดไป"
 			},
 			"stage": {
 				"eng": "STAGE ${stage}",
@@ -13885,24 +14400,30 @@
 					"stage"
 				]
 			},
-			"target": {
-				"eng": "Make ${targetName} to clear this stage.",
-				"trans": "กำจัด ${targetName} เพื่อเคลียร์ด่านนี้",
+			"surge": {
+				"eng": "SURGE",
+				"trans": "การเร่งพลัง"
+			},
+			"surgeCharge": {
+				"eng": "${charge}/${required}",
+				"trans": "${charge}/${required}",
 				"vars": [
-					"targetName"
+					"charge",
+					"required"
 				]
 			},
+			"surgeReady": {
+				"eng": "READY",
+				"trans": "พร้อม"
+			},
 			"targetProgress": {
-				"eng": "${current}/${target}",
+				"eng": "${current}/${target} • ${targetName}",
 				"trans": "${current}/${target}",
 				"vars": [
 					"current",
-					"target"
+					"target",
+					"targetName"
 				]
-			},
-			"time": {
-				"eng": "TIME",
-				"trans": "เวลา"
 			},
 			"timeLeft": {
 				"eng": "${time}s",
@@ -13922,7 +14443,7 @@
 		},
 		"intro": {
 			"briefing": {
-				"eng": "STACK_BRIEFING",
+				"eng": "HOW TO PLAY",
 				"trans": "เบรฟวิ่งกลุ่มปฏิบัติการ"
 			},
 			"eventClosed": {
@@ -13930,36 +14451,44 @@
 				"trans": "กิจกรรมสิ้นสุดแล้ว"
 			},
 			"eventInactive": {
-				"eng": "Summer event inactive",
+				"eng": "Heatwave Festival inactive",
 				"trans": "กิจกรรมฤดูร้อนไม่เปิดให้บริการ"
 			},
 			"eventLabel": {
-				"eng": "SUMMER_EVENT",
+				"eng": "HEATWAVE_FESTIVAL",
 				"trans": "อีเวนต์ฤดูร้อน"
 			},
 			"needPass": {
 				"eng": "NEED PASS",
 				"trans": "ต้องมีบัตรผ่าน"
 			},
+			"passLabel": {
+				"eng": "ENTRY_PASS",
+				"trans": "บัตรผ่านเข้า"
+			},
 			"rewardHint": {
-				"eng": "Reward bands pay summer materials and tech salvage.",
+				"eng": "Reward bands pay Heatwave materials and tech salvage.",
 				"trans": "ระดับรางวัลจะมอบวัสดุฤดูร้อนและเศษซากเทคโนโลยี"
 			},
 			"rule1": {
-				"eng": "Drag along the rail, release, and drop a summer sphere.",
+				"eng": "Move along the rail, then release to drop the current float.",
 				"trans": "ลากตามรางนำทางแล้วปล่อยเพื่อหย่อนลูกบอลฤดูร้อน"
 			},
 			"rule2": {
-				"eng": "Match identical round objects to merge into larger floats.",
+				"eng": "Put two matching floats together to merge them into a bigger float.",
 				"trans": "จับคู่วัตถุทรงกลมเดียวกันเพื่อรวมเป็นชิ้นส่วนลอยขนาดใหญ่ขึ้น"
 			},
 			"rule3": {
-				"eng": "Make the target float before time or drops run out.",
+				"eng": "Reach the target float before the timer or your drops run out.",
 				"trans": "ทำให้เป้าหมายลอยตัวก่อนที่เวลาหรือดรอปส์จะหมด"
 			},
 			"rule4": {
-				"eng": "Only the terminal stage result consumes the pass and pays rewards.",
+				"eng": "Your pass is used when the run ends. Rewards depend on the last stage you cleared.",
 				"trans": "เฉพาะผลลัพธ์จากขั้นสุดท้ายเท่านั้นที่จะถูกหักพาสและมอบรางวัล"
+			},
+			"ruleCombo": {
+				"eng": "Chain merges pull nearby matching floats and can give back drops.",
+				"trans": "การรวมแบบเชนจะดึงไอเทมลอยที่ตรงกันบริเวณใกล้เคียงเข้ามา และอาจมีไอเท็มดรอปกลับคืน"
 			},
 			"start": {
 				"eng": "START STACK",
@@ -13976,17 +14505,96 @@
 				"trans": "กำลังเริ่มต้นระบบสแต็ก"
 			}
 		},
-		"stageClear": {
-			"continue": {
-				"eng": "NEXT STAGE",
-				"trans": "ด่านต่อไป"
+		"results": {
+			"biggestLabel": {
+				"eng": "BIGGEST_FLOAT",
+				"trans": "FLOAT สูงสุด"
 			},
-			"next": {
-				"eng": "Target tier secured. Continue stacking.",
-				"trans": "บรรลุระดับเป้าหมายแล้ว เริ่มสะสมต่อได้เลย"
+			"completeTitle": {
+				"eng": "RUN_COMPLETE",
+				"trans": "ปฏิบัติการเสร็จสิ้น"
+			},
+			"failedTitle": {
+				"eng": "RUN_FAILED",
+				"trans": "ภารกิจล้มเหลว"
+			},
+			"finish": {
+				"eng": "FINISH",
+				"trans": "เสร็จสิ้น"
+			},
+			"fullClearTitle": {
+				"eng": "FULL_CLEAR",
+				"trans": "ผ่านครบทุกภารกิจ"
+			},
+			"noFloat": {
+				"eng": "No float reached",
+				"trans": "ล้มเหลวในการลอย"
+			},
+			"noRewardMessage": {
+				"eng": "No stage cleared. Pass consumed.",
+				"trans": "ผ่านด่านไม่สำเร็จ พาสถูกใช้ไปแล้ว"
+			},
+			"rewardMessage": {
+				"eng": "Rewards sent to your item inbox.",
+				"trans": "ส่งของรางวัลเข้ากล่องรับไอเทมของคุณแล้ว"
+			},
+			"scoreLabel": {
+				"eng": "SCORE",
+				"trans": "คะแนน"
+			},
+			"stageLabel": {
+				"eng": "STAGE",
+				"trans": "ด่าน"
+			},
+			"stageValue": {
+				"eng": "${stage}/${maxStage}",
+				"trans": "${stage}/${maxStage}",
+				"vars": [
+					"stage",
+					"maxStage"
+				]
+			}
+		},
+		"stageClear": {
+			"bestFloat": {
+				"eng": "BEST FLOAT",
+				"trans": "สถิติลอยตัวสูงสุด"
+			},
+			"cleared": {
+				"eng": "Stage ${stage} cleared",
+				"trans": "ผ่านด่านที่ ${stage}",
+				"vars": [
+					"stage"
+				]
+			},
+			"continue": {
+				"eng": "START STAGE ${stage}",
+				"trans": "ด่านต่อไป",
+				"vars": [
+					"stage"
+				]
+			},
+			"kicker": {
+				"eng": "STAGE COMPLETE",
+				"trans": "ผ่านด่านสำเร็จ"
+			},
+			"nextTarget": {
+				"eng": "Next stage: build ${target}",
+				"trans": "เป้าหมายถัดไป: สร้าง ${target}",
+				"vars": [
+					"target"
+				]
+			},
+			"score": {
+				"eng": "SCORE",
+				"trans": "คะแนน"
+			},
+			"stageLabel": {
+				"eng": "STAGE",
+				"trans": "ด่าน"
 			},
 			"title": {
-				"eng": "STAGE_CLEAR",
+				"eng": "STAGE CLEAR",
 				"trans": "ผ่านด่านแล้ว"
 			}
 		},
@@ -13996,21 +14604,21 @@
 				"trans": "ออก"
 			},
 			"message": {
-				"eng": "Reward submission failed or timed out. Do not retry this run. Contact support or exit.",
+				"eng": "Run could not be saved. Exit and contact support if rewards are missing.",
 				"trans": "การส่งคำขอรับรางวัลล้มเหลวหรือหมดเวลา ห้ามลองทำซ้ำในรอบนี้ ติดต่อฝ่ายช่วยเหลือหรือออกจากระบบ"
 			},
 			"title": {
-				"eng": "SUBMISSION_UNCERTAIN",
+				"eng": "SAVE FAILED",
 				"trans": "สถานะการส่งไม่ชัดเจน"
 			}
 		},
 		"submitting": {
 			"message": {
-				"eng": "Terminal result locked. Do not retry.",
+				"eng": "Saving your run. Do not close this screen.",
 				"trans": "ผลลัพธ์จากเทอร์มินัลถูกล็อกแล้ว ห้ามส่งซ้ำ"
 			},
 			"title": {
-				"eng": "SUBMITTING_RUN_DATA",
+				"eng": "SAVING RUN",
 				"trans": "กำลังส่งข้อมูลการเล่น"
 			}
 		},
@@ -14054,6 +14662,23 @@
 			"waterBalloonOrb": {
 				"eng": "Water Balloon Orb",
 				"trans": "ออร์บลูกโป่งน้ำ"
+			}
+		},
+		"toast": {
+			"chain": {
+				"eng": "CHAIN x${chainCount}",
+				"trans": "เชน x${chainCount}",
+				"vars": [
+					"chainCount"
+				]
+			},
+			"dropRefund": {
+				"eng": "DROP REFUND ${count}/${max}",
+				"trans": "คืนไอเทม ${count}/${max}",
+				"vars": [
+					"count",
+					"max"
+				]
 			}
 		}
 	},
@@ -17234,6 +17859,20 @@
 		},
 		"timeSkip": {
 			"confirmModal": {
+				"confirmSpendUnits": {
+					"eng": "Spend ${units} units",
+					"trans": "ใช้ ${units} หน่วย",
+					"vars": [
+						"units"
+					]
+				},
+				"cost": {
+					"eng": "Cost: ${units} units",
+					"trans": "ค่าใช้จ่าย: ${units} หน่วย",
+					"vars": [
+						"units"
+					]
+				},
 				"subtitle": {
 					"eng": "Global Skip will skip the waiting time for all players performing AFK task",
 					"trans": "Global Skip จะเร่งเวลาให้ผู้เล่นทุกคนปฏิบัติงาน AFK"
@@ -17279,6 +17918,21 @@
 					"eng": "Finish the task instantly for all players in the game and earn skip points to show your support to other players!",
 					"trans": "Global Skip ช่วยให้คุณข้ามเวลารอ AFK และเสร็จสิ้นทันที \n     เอฟเฟกต์นี้จะถูกนำไปใช้กับผู้เล่นทุกคนที่ทำภารกิจ AFK"
 				},
+				"discountPercent": {
+					"eng": "${percent}%",
+					"trans": "${percent}%",
+					"vars": [
+						"percent"
+					]
+				},
+				"eventDiscount": {
+					"eng": "Event Discount",
+					"trans": "ส่วนลดกิจกรรม"
+				},
+				"longSkipDiscount": {
+					"eng": "Long Skip Discount",
+					"trans": "ส่วนลดข้ามเวลารยะยาว"
+				},
 				"minute": {
 					"eng": "Skip ${minutes} minutes",
 					"trans": "${minutes} หน่วย",
@@ -17286,13 +17940,9 @@
 						"minutes"
 					]
 				},
-				"ticketItem": {
-					"eng": "${percent}% off from ${itemName}",
-					"trans": "ส่วนลด ${percent}% สำหรับ ${itemName}",
-					"vars": [
-						"itemName",
-						"percent"
-					]
+				"offLabel": {
+					"eng": "OFF",
+					"trans": "ปิด"
 				},
 				"title2": {
 					"eng": "Finish Now",

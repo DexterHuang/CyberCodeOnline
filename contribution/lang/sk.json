@@ -1114,6 +1114,13 @@
 				"percent"
 			]
 		},
+		"eventDiscountTitle": {
+			"eng": "${eventName} Discount",
+			"trans": "Zľava na ${eventName}",
+			"vars": [
+				"eventName"
+			]
+		},
 		"hintBox": {
 			"text2": {
 				"eng": "When calibration train funding reaches 100%, the system will automatically deploy +1 to +10 calibration success rate and destruction prevention buffs in sequence with interval of ${deployInterval} minutes. the buff train will starting at the next designated time",
@@ -2440,6 +2447,10 @@
 		"donation53": {
 			"eng": "Lightwalker",
 			"trans": "Pútnik svetla"
+		},
+		"donation54": {
+			"eng": "Vice Heat",
+			"trans": "Hriešna Horúčka"
 		},
 		"donation6": {
 			"eng": "Prestige",
@@ -3883,8 +3894,18 @@
 				"trans": "Leto"
 			},
 			"topUpRewardTitle": {
-				"eng": "Summer Bonus",
+				"eng": "Heatwave Festival Bonus",
 				"trans": "Letný Bonus"
+			}
+		},
+		"summerNights": {
+			"eventGame": {
+				"eng": "Neon Nights Grid",
+				"trans": "Mriežka neónových nocí"
+			},
+			"name": {
+				"eng": "Summer Nights",
+				"trans": "Letné noci"
 			}
 		},
 		"thanksgiving": {
@@ -4241,6 +4262,13 @@
 			"trans": "Až ${percent}% zľava pre prvých prispievateľov",
 			"vars": [
 				"percent"
+			]
+		},
+		"eventDiscountTitle": {
+			"eng": "${eventName} Discount",
+			"trans": "Zľava na ${eventName}",
+			"vars": [
+				"eventName"
 			]
 		},
 		"hint": {
@@ -5604,6 +5632,16 @@
 				"trans": "Prístup k raketovému veleniu"
 			}
 		},
+		"neonNightsPass": {
+			"description": {
+				"eng": "A neon boardwalk access pass required to initialize Neon Nights Grid during the Summer Nights event. Can be found from AFK farming during Summer Nights.",
+				"trans": "Prístupový lístok na neónovú promenádu vyžadovaný na inicializáciu Neon Nights Grid počas udalosti Letné noci. Získava sa pri AFK farmení počas letných nocí."
+			},
+			"name": {
+				"eng": "Neon Nights Pass",
+				"trans": "Prechod Neónových nocí"
+			}
+		},
 		"newYear": {
 			"description": {
 				"eng": "A red envelope with a golden digital seal on it. looks like it contains some sort of currency",
@@ -5961,7 +5999,7 @@
 		},
 		"solarFloatPass": {
 			"description": {
-				"eng": "A sealed beach access pass required to initialize Solar Float Stack during the Summer event.",
+				"eng": "A sealed beach access pass required to initialize Solar Float Stack during Heatwave Festival.",
 				"trans": "Zapečatený vstupný preukaz na pláž potrebný na inicializáciu solárneho plovúceho systému počas letnej udalosti."
 			},
 			"name": {
@@ -9219,6 +9257,437 @@
 		"viewProfile": {
 			"eng": "View Profile",
 			"trans": "Zobraziť profil"
+		}
+	},
+	"neonNightsGrid": {
+		"button": {
+			"subtitle": {
+				"eng": "BOARDWALK LIGHT CIRCUIT",
+				"trans": "Nábrežný svetelný okruh"
+			},
+			"title": {
+				"eng": "NEON NIGHTS GRID",
+				"trans": "Mriežka neónových nocí"
+			}
+		},
+		"canvas": {
+			"label": {
+				"eng": "Neon Nights Grid playfield. Drag tray pieces onto the 8 by 8 board.",
+				"trans": "Herná plocha Neon Nights Grid. Presuň diely z zásobníka na pole 8x8."
+			}
+		},
+		"drag": {
+			"occupied": {
+				"eng": "OCCUPIED",
+				"trans": "OBSADENÉ"
+			},
+			"offGrid": {
+				"eng": "OFF GRID",
+				"trans": "MIMO SIEŤE"
+			}
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "Summer Nights is not active.",
+				"trans": "Udalosť Letné noci nie je aktívna."
+			},
+			"noPass": {
+				"eng": "You need a ${itemName} to enter Neon Nights Grid.",
+				"trans": "Na vstup do Neon Nights Grid potrebujete ${itemName}.",
+				"vars": [
+					"itemName"
+				]
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "EXIT",
+				"trans": "VÝCHOD"
+			},
+			"message": {
+				"eng": "Submission interrupted. Reward sync status is unknown.",
+				"trans": "Odoslanie prerušené. Stav synchronizácie odmeny nie je známy."
+			},
+			"title": {
+				"eng": "SYNC STATUS UNKNOWN",
+				"trans": "Neznámy stav synchronizácie"
+			},
+			"verify": {
+				"eng": "Exit, then verify inventory/event log before starting another run.",
+				"trans": "Ukončite hru a pred začatím ďalšieho behu si skontrolujte inventár aj záznam udalostí."
+			}
+		},
+		"exit": {
+			"eng": "Exit",
+			"trans": "Opustiť"
+		},
+		"feedback": {
+			"comboLost": {
+				"eng": "COMBO LOST",
+				"trans": "KOMBO PRERUŠENÉ"
+			},
+			"invalid": {
+				"eng": "INVALID FIT",
+				"trans": "NEZLUČITEĽNÉ"
+			},
+			"lineClearCombo": {
+				"eng": "+${score} LINE CLEAR x${combo}",
+				"trans": "+${score} ODSTRÁNENIE RADU x${combo}",
+				"vars": [
+					"score",
+					"combo"
+				]
+			},
+			"lineClearScore": {
+				"eng": "+${score} LINE CLEAR",
+				"trans": "+${score} ODSTRÁNENÉ RIADKY",
+				"vars": [
+					"score"
+				]
+			},
+			"maxScore": {
+				"eng": "MAX TIER SYNCED",
+				"trans": "SYNCHRONIZOVANÉ NA MAXIMÁLNU TRIEDU"
+			},
+			"noFit": {
+				"eng": "NO FIT FOUND",
+				"trans": "ŽIADNA ZHODA"
+			},
+			"occupied": {
+				"eng": "OCCUPIED",
+				"trans": "OBSADENÉ"
+			},
+			"offGrid": {
+				"eng": "OFF GRID",
+				"trans": "MIMO SIEŤE"
+			},
+			"placedScore": {
+				"eng": "+${score} PLACED",
+				"trans": "+${score} UMIEŠTENÝCH",
+				"vars": [
+					"score"
+				]
+			},
+			"timeout": {
+				"eng": "TIME EXPIRED",
+				"trans": "ČAS SA VYČERPAL"
+			}
+		},
+		"finish": {
+			"eng": "Finish",
+			"trans": "Dokončiť"
+		},
+		"gameOver": {
+			"subtitle": {
+				"eng": "No reward tier reached. Pass consumed.",
+				"trans": "Nedosiahnutá žiadna odmenová úroveň. Pas vyčerpaný."
+			},
+			"title": {
+				"eng": "GRID LOCKED",
+				"trans": "ZAMKNUTÁ SIEŢ"
+			}
+		},
+		"hint": {
+			"drag": {
+				"eng": "Drag tray pieces onto the board",
+				"trans": "Pretiahni dieliky zo zásobníka na dosku"
+			}
+		},
+		"hud": {
+			"comboValue": {
+				"eng": "Combo: x${combo}",
+				"trans": "Kombo: x${combo}",
+				"vars": [
+					"combo"
+				]
+			},
+			"linesValue": {
+				"eng": "Lines: ${lines}",
+				"trans": "Rady: ${lines}",
+				"vars": [
+					"lines"
+				]
+			},
+			"maxTier": {
+				"eng": "MAX",
+				"trans": "MAX"
+			},
+			"nextValue": {
+				"eng": "Next: ${threshold}",
+				"trans": "Ďalší: ${threshold}",
+				"vars": [
+					"threshold"
+				]
+			},
+			"piecesValue": {
+				"eng": "Pieces: ${pieces}",
+				"trans": "Kúsky: ${pieces}",
+				"vars": [
+					"pieces"
+				]
+			},
+			"score": {
+				"eng": "Score",
+				"trans": "Skóre"
+			},
+			"seconds": {
+				"eng": "${seconds}s",
+				"trans": "${seconds} s",
+				"vars": [
+					"seconds"
+				]
+			},
+			"tier": {
+				"eng": "Tier",
+				"trans": "Úroveň"
+			},
+			"time": {
+				"eng": "Time",
+				"trans": "Čas"
+			}
+		},
+		"intro": {
+			"briefing": {
+				"eng": "GRID_BRIEFING",
+				"trans": "Informácie o GRID-e"
+			},
+			"combo": {
+				"eng": "Consecutive line clears build a combo. Complete a full 3-piece tray with no line clear and it resets.",
+				"trans": "Po sebe nasledujúce vymazania riadkov budujú kombó. Ak vyplníte herné pole bez vymazania riadku, kombó sa resetuje."
+			},
+			"eventClosed": {
+				"eng": "EVENT CLOSED",
+				"trans": "UDALOSŤ UKONČENÁ"
+			},
+			"eventInactive": {
+				"eng": "Summer Nights inactive",
+				"trans": "Letné noci neaktívne"
+			},
+			"eventLabel": {
+				"eng": "Summer Nights",
+				"trans": "Letné noci"
+			},
+			"needPass": {
+				"eng": "NEED PASS",
+				"trans": "VYŽADOVANÝ PRÍSTUP"
+			},
+			"passLabel": {
+				"eng": "ENTRY_PASS",
+				"trans": "Vstupný preukaz"
+			},
+			"rewardHint": {
+				"eng": "Reward tiers pay Summer Nights seashells and tech salvage.",
+				"trans": "Úrovne odmen udávajú mušle Letných nocí a technický šrot."
+			},
+			"rule1": {
+				"eng": "Drag one of three neon blocks onto the 8x8 board.",
+				"trans": "Potiahni jeden z troch neónových blokov na dosku 8x8."
+			},
+			"rule2": {
+				"eng": "Fill full rows or columns to clear lines and score.",
+				"trans": "Doplň celé riadky alebo stĺpce na ich vymazanie a získanie bodov."
+			},
+			"rule3": {
+				"eng": "Score thresholds advance reward tiers during one continuous ${seconds}s run.",
+				"trans": "Hranice skóre posúvajú odmeny do vyšších kategórií počas jedného súvislého behu trvania ${seconds} s.",
+				"vars": [
+					"seconds"
+				]
+			},
+			"rule4": {
+				"eng": "Timeout submits the tier reached; ${score} score wins tier ${tier}.",
+				"trans": "Uplynutie času odovzdá dosiahnutú úroveň; skóre ${score} znamená víťazstvo v úrovni ${tier}.",
+				"vars": [
+					"score",
+					"tier"
+				]
+			},
+			"rule5": {
+				"eng": "If none of the current pieces can fit, the run ends and submits your reached tier.",
+				"trans": "Ak sa žiadny z aktuálnych dielov nezmestí, kolo sa ukončí a zaregistruje sa vaša dosiahnutá úroveň."
+			},
+			"start": {
+				"eng": "START GRID",
+				"trans": "SPUSTIŤ MREŽU"
+			},
+			"title": {
+				"eng": "Neon Nights Grid",
+				"trans": "Mriežka neónových nocí"
+			}
+		},
+		"loading": {
+			"title": {
+				"eng": "INITIALIZING_GRID",
+				"trans": "Inicializácia mriežky"
+			}
+		},
+		"results": {
+			"maxTitle": {
+				"eng": "MAX TIER SYNCED",
+				"trans": "SYNCHRONIZOVANÉ NA MAXIMÁLNU TRIEDU"
+			},
+			"noRewards": {
+				"eng": "No rewards returned",
+				"trans": "Žiadne odmeny neboli vrátené"
+			},
+			"rewards": {
+				"eng": "Summer Nights Rewards",
+				"trans": "Odmeny za letné noci"
+			},
+			"seconds": {
+				"eng": "${seconds}s",
+				"trans": "${seconds} s",
+				"vars": [
+					"seconds"
+				]
+			},
+			"tier": {
+				"eng": "Tier ${tier} neon circuit cleared",
+				"trans": "Neónový obvod stupňa ${tier} prekonaný",
+				"vars": [
+					"tier"
+				]
+			},
+			"title": {
+				"eng": "REWARD TIER SYNCED",
+				"trans": "ÚROVEŇ ODMENY SYNCHRONIZOVANÁ"
+			}
+		},
+		"stats": {
+			"achievedTier": {
+				"eng": "Achieved Tier",
+				"trans": "Dosiahnutý stupeň"
+			},
+			"bestCombo": {
+				"eng": "Best Combo",
+				"trans": "Najlepšie kombo"
+			},
+			"combo": {
+				"eng": "Combo",
+				"trans": "Kombo"
+			},
+			"lines": {
+				"eng": "Lines",
+				"trans": "Línie"
+			},
+			"linesCleared": {
+				"eng": "Lines Cleared",
+				"trans": "Vyčistené riadky"
+			},
+			"remaining": {
+				"eng": "Remain",
+				"trans": "Zostatok"
+			},
+			"score": {
+				"eng": "Score",
+				"trans": "Skóre"
+			}
+		},
+		"submission": {
+			"doNotRetry": {
+				"eng": "Submission interrupted. Do not retry this run.",
+				"trans": "Odoslanie prerušené. Tento pokus neopakujte."
+			},
+			"localOutcome": {
+				"eng": "LOCAL OUTCOME",
+				"trans": "LOKÁLNY VÝSLEDOK"
+			},
+			"localResultShown": {
+				"eng": "Local result shown above. Server sync status unknown.",
+				"trans": "Lokálny výsledok je zobrazený vyššie. Stav synchronizácie so serverom nie je známy."
+			},
+			"noRetry": {
+				"eng": "Exit, then verify inventory/event log before starting another run.",
+				"trans": "Ukončite hru a pred začatím ďalšieho behu si skontrolujte inventár aj záznam udalostí."
+			},
+			"outcomeMaxTier": {
+				"eng": "MAX TIER",
+				"trans": "Maximálna úroveň"
+			},
+			"outcomeNoFit": {
+				"eng": "NO FIT",
+				"trans": "NEPASUJE"
+			},
+			"outcomeTimeout": {
+				"eng": "TIME EXPIRED",
+				"trans": "ČAS SA VYČERPAL"
+			},
+			"outcomeUnknown": {
+				"eng": "RUN ENDED",
+				"trans": "BEH DOŠIEL"
+			},
+			"syncUnknown": {
+				"eng": "REWARD SYNC UNKNOWN",
+				"trans": "NEZNÁMA SYNCHRONIZÁCIA ODMEŇOVANIA"
+			}
+		},
+		"submitting": {
+			"subtitle": {
+				"eng": "Submitting final tier. Do not close.",
+				"trans": "Odosielanie poslednej fázy. Nezatvárajte."
+			},
+			"title": {
+				"eng": "SYNCING RUN DATA",
+				"trans": "SYNCHRONIZÁCIA DÁT Z BEHU"
+			}
+		},
+		"tierUp": {
+			"title": {
+				"eng": "Tier ${tier} Synced",
+				"trans": "Úroveň ${tier} synchronizovaná",
+				"vars": [
+					"tier"
+				]
+			}
+		},
+		"vfx": {
+			"combo": {
+				"eng": "COMBO x${combo}",
+				"trans": "KOMBÓ x${combo}",
+				"vars": [
+					"combo"
+				]
+			},
+			"endTier": {
+				"eng": "TIER ${tier}",
+				"trans": "ÚROVEŇ ${tier}",
+				"vars": [
+					"tier"
+				]
+			},
+			"maxGridSync": {
+				"eng": "MAX GRID SYNC",
+				"trans": "MAXIMÁLNA SYNCHRONIZÁCIA MRIEŽKY"
+			},
+			"noFitFound": {
+				"eng": "NO FIT FOUND",
+				"trans": "ŽIADNA ZHODA"
+			},
+			"scoreGain": {
+				"eng": "+${score}",
+				"trans": "+${score}",
+				"vars": [
+					"score"
+				]
+			},
+			"tierSync": {
+				"eng": "TIER ${tier} SYNC",
+				"trans": "SYNCHRONIZÁCIA ÚROVNE ${tier}",
+				"vars": [
+					"tier"
+				]
+			},
+			"timeExpired": {
+				"eng": "TIME EXPIRED",
+				"trans": "ČAS SA VYČERPAL"
+			},
+			"timer": {
+				"eng": "T-${seconds}",
+				"trans": "T-${seconds}",
+				"vars": [
+					"seconds"
+				]
+			}
 		}
 	},
 	"newYearFireworks": {
@@ -13967,13 +14436,40 @@
 			"trans": "Vziať všetko"
 		}
 	},
+	"summerNightsPromo": {
+		"subtitle": {
+			"eng": "Miami neon hits the coast. Collect seashells, trade with Josie, and run Neon Nights Grid.",
+			"trans": "Miamijské neóny osvecujú pobrežie. Zbieraj lastúry, obchoduj s Josie a prebeži Grid Neónových nocí."
+		},
+		"title": {
+			"eng": "Summer Nights",
+			"trans": "Letné noci"
+		}
+	},
+	"summerNightsPromoSmall": {
+		"desc1": {
+			"eng": "Neon Nights Grid is live at Crystal Beach.",
+			"trans": "Neon Nights Grid je už aktívna na Crystal Beach."
+		},
+		"desc2": {
+			"eng": "Collect ${item} and trade with Josie.",
+			"trans": "Zbieraj ${item} a vymieňaj s Josi.",
+			"vars": [
+				"item"
+			]
+		},
+		"title": {
+			"eng": "Summer Nights",
+			"trans": "Letné noci"
+		}
+	},
 	"summerPromo": {
 		"subtitle": {
-			"eng": "Its time for the summer beach! don't miss out on the fun!",
+			"eng": "Heat is rising on the coast. Collect seashells, trade with Josie, and run Solar Float Stack.",
 			"trans": "Je čas na letnú pláž! Nenechaj si ujsť zábavu!"
 		},
 		"title": {
-			"eng": "Summer Fiesta Event",
+			"eng": "Heatwave Festival",
 			"trans": "Letná Fiesta Akcia"
 		}
 	},
@@ -13993,14 +14489,44 @@
 			]
 		},
 		"title": {
-			"eng": "Summer Fiesta: Don't Miss Out!",
+			"eng": "Heatwave Festival",
 			"trans": "Letná fiesta: Nenechajte si to ujsť!"
 		}
 	},
 	"summerStack": {
+		"assets": {
+			"exit": {
+				"eng": "EXIT",
+				"trans": "VÝCHOD"
+			},
+			"failedMessage": {
+				"eng": "Required stack art did not load. No pass was consumed.",
+				"trans": "Nepodarilo sa načítať požadovanú grafiku stohu. Žiadny lístok nebol spotrebovaný."
+			},
+			"failedTitle": {
+				"eng": "ASSET_LOAD_FAILED",
+				"trans": "Zlyhanie načítania súboru"
+			},
+			"loadingMessage": {
+				"eng": "Preparing required float sprites.",
+				"trans": "Príprava potrebných plávajúcich sprite."
+			},
+			"loadingTitle": {
+				"eng": "LOADING_STACK_ASSETS",
+				"trans": "Načítavanie obsahu zásobníka"
+			},
+			"retry": {
+				"eng": "RETRY",
+				"trans": "SKÚSIŤ ZNOVA"
+			}
+		},
 		"button": {
+			"enter": {
+				"eng": "Play",
+				"trans": "Hraj"
+			},
 			"subtitle": {
-				"eng": "CONTAINMENT STACK COURSE",
+				"eng": "BEACH FLOAT MERGE",
 				"trans": "KURZ IZOLAČNÉHO KOMPLEXU"
 			},
 			"title": {
@@ -14008,18 +14534,9 @@
 				"trans": "Plovúca solárna súprava"
 			}
 		},
-		"complete": {
-			"notification": {
-				"eng": "Solar Float Stack cleared through stage ${stage}. Rewards sent to inbox.",
-				"trans": "Solar Float Stack dokončený až po úroveň ${stage}. Odmeny odoslané do schránky.",
-				"vars": [
-					"stage"
-				]
-			}
-		},
 		"entry": {
 			"eventEnded": {
-				"eng": "The summer event is not active.",
+				"eng": "The Heatwave Festival is not active.",
 				"trans": "Letná akcia nie je aktívna."
 			},
 			"noPass": {
@@ -14044,13 +14561,11 @@
 				"trans": "Chyba behu zásobníka"
 			}
 		},
-		"failed": {
-			"notification": {
-				"eng": "Solar Float Stack failed. Pass consumed.",
-				"trans": "Solar Float Stack zlyhalo. Použitá vstupenka."
-			}
-		},
 		"hud": {
+			"currentFloat": {
+				"eng": "CURRENT",
+				"trans": "SÚČASNÝ"
+			},
 			"drops": {
 				"eng": "DROPS",
 				"trans": "DROPY"
@@ -14062,9 +14577,9 @@
 					"dropsLeft"
 				]
 			},
-			"lossRules": {
-				"eng": "Lose if time hits 0 or drops run out before target is made.",
-				"trans": "Prehraješ, ak dobehne čas alebo dôjdú dropy predtým, než bude cieľ splnený."
+			"nextFloat": {
+				"eng": "NEXT",
+				"trans": "DAĽŠÍ"
 			},
 			"stage": {
 				"eng": "STAGE ${stage}",
@@ -14073,24 +14588,30 @@
 					"stage"
 				]
 			},
-			"target": {
-				"eng": "Make ${targetName} to clear this stage.",
-				"trans": "Dokončite ${targetName} na prekonanie tejto úrovne.",
+			"surge": {
+				"eng": "SURGE",
+				"trans": "NÁRST"
+			},
+			"surgeCharge": {
+				"eng": "${charge}/${required}",
+				"trans": "${charge}/${required}",
 				"vars": [
-					"targetName"
+					"charge",
+					"required"
 				]
 			},
+			"surgeReady": {
+				"eng": "READY",
+				"trans": "PRIPRAVENÝ"
+			},
 			"targetProgress": {
-				"eng": "${current}/${target}",
+				"eng": "${current}/${target} • ${targetName}",
 				"trans": "${current}/${target}",
 				"vars": [
 					"current",
-					"target"
+					"target",
+					"targetName"
 				]
-			},
-			"time": {
-				"eng": "TIME",
-				"trans": "ČAS"
 			},
 			"timeLeft": {
 				"eng": "${time}s",
@@ -14110,7 +14631,7 @@
 		},
 		"intro": {
 			"briefing": {
-				"eng": "STACK_BRIEFING",
+				"eng": "HOW TO PLAY",
 				"trans": "BRIEFING"
 			},
 			"eventClosed": {
@@ -14118,36 +14639,44 @@
 				"trans": "UDALOSŤ UZAVRETÁ"
 			},
 			"eventInactive": {
-				"eng": "Summer event inactive",
+				"eng": "Heatwave Festival inactive",
 				"trans": "Letná udalosť neaktívna"
 			},
 			"eventLabel": {
-				"eng": "SUMMER_EVENT",
+				"eng": "HEATWAVE_FESTIVAL",
 				"trans": "Letná udalosť"
 			},
 			"needPass": {
 				"eng": "NEED PASS",
 				"trans": "POŽADOVANÉ HESLO"
 			},
+			"passLabel": {
+				"eng": "ENTRY_PASS",
+				"trans": "Vstupný preukaz"
+			},
 			"rewardHint": {
-				"eng": "Reward bands pay summer materials and tech salvage.",
+				"eng": "Reward bands pay Heatwave materials and tech salvage.",
 				"trans": "Odmenové pásma poskytujú letné materiály a technologický šrot."
 			},
 			"rule1": {
-				"eng": "Drag along the rail, release, and drop a summer sphere.",
+				"eng": "Move along the rail, then release to drop the current float.",
 				"trans": "Potiahni po dráze, pusť a nech spadne letná guľa."
 			},
 			"rule2": {
-				"eng": "Match identical round objects to merge into larger floats.",
+				"eng": "Put two matching floats together to merge them into a bigger float.",
 				"trans": "Zlúč identické okrúhle predmety na tvorbu väčších plavákov."
 			},
 			"rule3": {
-				"eng": "Make the target float before time or drops run out.",
+				"eng": "Reach the target float before the timer or your drops run out.",
 				"trans": "Zavešte cieľ skôr, než vyprší čas alebo sa minú kvapky."
 			},
 			"rule4": {
-				"eng": "Only the terminal stage result consumes the pass and pays rewards.",
+				"eng": "Your pass is used when the run ends. Rewards depend on the last stage you cleared.",
 				"trans": "Iba výsledok konečnej fázy spotrebuje prehod a vyplatí odmeny."
+			},
+			"ruleCombo": {
+				"eng": "Chain merges pull nearby matching floats and can give back drops.",
+				"trans": "Reťazové zlúčenia priťahujú blízke zhodné plávajúce prvky a môžu vrátiť odmeny."
 			},
 			"start": {
 				"eng": "START STACK",
@@ -14164,17 +14693,96 @@
 				"trans": "Inicializácia zásobníka"
 			}
 		},
-		"stageClear": {
-			"continue": {
-				"eng": "NEXT STAGE",
-				"trans": "ĎALŠIA FÁZA"
+		"results": {
+			"biggestLabel": {
+				"eng": "BIGGEST_FLOAT",
+				"trans": "Najväčší float"
 			},
-			"next": {
-				"eng": "Target tier secured. Continue stacking.",
-				"trans": "Cieľová úroveň zaručená. Pokračujte v hromadení."
+			"completeTitle": {
+				"eng": "RUN_COMPLETE",
+				"trans": "BEH DOKONČENÝ"
+			},
+			"failedTitle": {
+				"eng": "RUN_FAILED",
+				"trans": "Nepodarilo sa"
+			},
+			"finish": {
+				"eng": "FINISH",
+				"trans": "DOKONČIŤ"
+			},
+			"fullClearTitle": {
+				"eng": "FULL_CLEAR",
+				"trans": "KOMPLETNÉ DOKONČENIE"
+			},
+			"noFloat": {
+				"eng": "No float reached",
+				"trans": "Žiadny float nedosiahnutý"
+			},
+			"noRewardMessage": {
+				"eng": "No stage cleared. Pass consumed.",
+				"trans": "Žiadna úroveň prekonaná. Pokus odpočítaný."
+			},
+			"rewardMessage": {
+				"eng": "Rewards sent to your item inbox.",
+				"trans": "Odmeny odoslané do vašej schránky predmetov."
+			},
+			"scoreLabel": {
+				"eng": "SCORE",
+				"trans": "SKÓRE"
+			},
+			"stageLabel": {
+				"eng": "STAGE",
+				"trans": "FÁZA"
+			},
+			"stageValue": {
+				"eng": "${stage}/${maxStage}",
+				"trans": "${stage}/${maxStage}",
+				"vars": [
+					"stage",
+					"maxStage"
+				]
+			}
+		},
+		"stageClear": {
+			"bestFloat": {
+				"eng": "BEST FLOAT",
+				"trans": "NAJLEPŠÍ PLAVEC"
+			},
+			"cleared": {
+				"eng": "Stage ${stage} cleared",
+				"trans": "Úroveň ${stage} dokončená",
+				"vars": [
+					"stage"
+				]
+			},
+			"continue": {
+				"eng": "START STAGE ${stage}",
+				"trans": "ĎALŠIA FÁZA",
+				"vars": [
+					"stage"
+				]
+			},
+			"kicker": {
+				"eng": "STAGE COMPLETE",
+				"trans": "ÚROVEŇ DOKONČENÁ"
+			},
+			"nextTarget": {
+				"eng": "Next stage: build ${target}",
+				"trans": "Ďalšia fáza: vybudovať ${target}",
+				"vars": [
+					"target"
+				]
+			},
+			"score": {
+				"eng": "SCORE",
+				"trans": "SKÓRE"
+			},
+			"stageLabel": {
+				"eng": "STAGE",
+				"trans": "FÁZA"
 			},
 			"title": {
-				"eng": "STAGE_CLEAR",
+				"eng": "STAGE CLEAR",
 				"trans": "ÚROVEŇ SPLNENÁ"
 			}
 		},
@@ -14184,21 +14792,21 @@
 				"trans": "Zavrieť"
 			},
 			"message": {
-				"eng": "Reward submission failed or timed out. Do not retry this run. Contact support or exit.",
+				"eng": "Run could not be saved. Exit and contact support if rewards are missing.",
 				"trans": "Odoslanie odmeny zlyhalo alebo prekročilo časový limit. Neopakujte tento beh. Kontaktujte podporu alebo ukončite hru."
 			},
 			"title": {
-				"eng": "SUBMISSION_UNCERTAIN",
+				"eng": "SAVE FAILED",
 				"trans": "Nepotvrdené odoslanie"
 			}
 		},
 		"submitting": {
 			"message": {
-				"eng": "Terminal result locked. Do not retry.",
+				"eng": "Saving your run. Do not close this screen.",
 				"trans": "Výsledok terminálu je uzamknutý. Neopakujte pokus."
 			},
 			"title": {
-				"eng": "SUBMITTING_RUN_DATA",
+				"eng": "SAVING RUN",
 				"trans": "Odosielanie údajov behu"
 			}
 		},
@@ -14242,6 +14850,23 @@
 			"waterBalloonOrb": {
 				"eng": "Water Balloon Orb",
 				"trans": "Sféra vodného balónu"
+			}
+		},
+		"toast": {
+			"chain": {
+				"eng": "CHAIN x${chainCount}",
+				"trans": "KOMBO x${chainCount}",
+				"vars": [
+					"chainCount"
+				]
+			},
+			"dropRefund": {
+				"eng": "DROP REFUND ${count}/${max}",
+				"trans": "REFUNDÁCIA DROPU ${count}/${max}",
+				"vars": [
+					"count",
+					"max"
+				]
 			}
 		}
 	},
@@ -17422,6 +18047,20 @@
 		},
 		"timeSkip": {
 			"confirmModal": {
+				"confirmSpendUnits": {
+					"eng": "Spend ${units} units",
+					"trans": "Minúť ${units} jednotiek",
+					"vars": [
+						"units"
+					]
+				},
+				"cost": {
+					"eng": "Cost: ${units} units",
+					"trans": "Cena: ${units} jednotiek",
+					"vars": [
+						"units"
+					]
+				},
 				"subtitle": {
 					"eng": "Global Skip will skip the waiting time for all players performing AFK task",
 					"trans": "Global Skip vynechá čakaciu dobu pre všetkých hráčov, ktorí vykonávajú AFK úlohu"
@@ -17467,6 +18106,21 @@
 					"eng": "Finish the task instantly for all players in the game and earn skip points to show your support to other players!",
 					"trans": "Global Skip ti umožní preskočiť AFK čakanie a skončiť okanžiťe.\n    Tento efekt bude použitý aj na ostatných hráčov ktorý robia AFK úlohy"
 				},
+				"discountPercent": {
+					"eng": "${percent}%",
+					"trans": "${percent}%",
+					"vars": [
+						"percent"
+					]
+				},
+				"eventDiscount": {
+					"eng": "Event Discount",
+					"trans": "Zľava na podujatí"
+				},
+				"longSkipDiscount": {
+					"eng": "Long Skip Discount",
+					"trans": "Zľava na dlhé preskočenie"
+				},
 				"minute": {
 					"eng": "Skip ${minutes} minutes",
 					"trans": "${minutes} jednotky",
@@ -17474,13 +18128,9 @@
 						"minutes"
 					]
 				},
-				"ticketItem": {
-					"eng": "${percent}% off from ${itemName}",
-					"trans": "Ušetrite ${percent}% na ${itemName}",
-					"vars": [
-						"itemName",
-						"percent"
-					]
+				"offLabel": {
+					"eng": "OFF",
+					"trans": "VYPNUTÉ"
 				},
 				"title2": {
 					"eng": "Finish Now",

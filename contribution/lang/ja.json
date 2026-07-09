@@ -1114,6 +1114,13 @@
 				"percent"
 			]
 		},
+		"eventDiscountTitle": {
+			"eng": "${eventName} Discount",
+			"trans": "${eventName}割引",
+			"vars": [
+				"eventName"
+			]
+		},
 		"hintBox": {
 			"text2": {
 				"eng": "When calibration train funding reaches 100%, the system will automatically deploy +1 to +10 calibration success rate and destruction prevention buffs in sequence with interval of ${deployInterval} minutes. the buff train will starting at the next designated time",
@@ -2440,6 +2447,10 @@
 		"donation53": {
 			"eng": "Lightwalker",
 			"trans": "ライトウォーカー"
+		},
+		"donation54": {
+			"eng": "Vice Heat",
+			"trans": "バイスヒート"
 		},
 		"donation6": {
 			"eng": "Prestige",
@@ -3883,8 +3894,18 @@
 				"trans": "サマー"
 			},
 			"topUpRewardTitle": {
-				"eng": "Summer Bonus",
+				"eng": "Heatwave Festival Bonus",
 				"trans": "サマーボーナス"
+			}
+		},
+		"summerNights": {
+			"eventGame": {
+				"eng": "Neon Nights Grid",
+				"trans": "ネオンナイトグリッド"
+			},
+			"name": {
+				"eng": "Summer Nights",
+				"trans": "サマーナイトズ"
 			}
 		},
 		"thanksgiving": {
@@ -4241,6 +4262,13 @@
 			"trans": "早期貢献者には最大${percent}%オフ！",
 			"vars": [
 				"percent"
+			]
+		},
+		"eventDiscountTitle": {
+			"eng": "${eventName} Discount",
+			"trans": "${eventName}割引",
+			"vars": [
+				"eventName"
 			]
 		},
 		"hint": {
@@ -5604,6 +5632,16 @@
 				"trans": "ミサイルコマンドパス"
 			}
 		},
+		"neonNightsPass": {
+			"description": {
+				"eng": "A neon boardwalk access pass required to initialize Neon Nights Grid during the Summer Nights event. Can be found from AFK farming during Summer Nights.",
+				"trans": "サマーナイトズイベント中にネオン・ナイツグリッドの初期化に必要なネオンボードウォーク通行券です。サマーナイトズ期間中は放置プレイで入手可能です。"
+			},
+			"name": {
+				"eng": "Neon Nights Pass",
+				"trans": "ネオンナイトパス"
+			}
+		},
 		"newYear": {
 			"description": {
 				"eng": "A red envelope with a golden digital seal on it. looks like it contains some sort of currency",
@@ -5961,7 +5999,7 @@
 		},
 		"solarFloatPass": {
 			"description": {
-				"eng": "A sealed beach access pass required to initialize Solar Float Stack during the Summer event.",
+				"eng": "A sealed beach access pass required to initialize Solar Float Stack during Heatwave Festival.",
 				"trans": "サマーイベント期間中、ソーラーフロートスタックの初期化に必要な未使用ビーチアクセスパスです。"
 			},
 			"name": {
@@ -9219,6 +9257,437 @@
 		"viewProfile": {
 			"eng": "View Profile",
 			"trans": "プロフィールを見る"
+		}
+	},
+	"neonNightsGrid": {
+		"button": {
+			"subtitle": {
+				"eng": "BOARDWALK LIGHT CIRCUIT",
+				"trans": "ボードウォーク照明回路"
+			},
+			"title": {
+				"eng": "NEON NIGHTS GRID",
+				"trans": "ネオンナイトグリッド"
+			}
+		},
+		"canvas": {
+			"label": {
+				"eng": "Neon Nights Grid playfield. Drag tray pieces onto the 8 by 8 board.",
+				"trans": "ネオンナイツグリッド プレイフィールド。トレーのピースを8×8盤面にドラッグしてください。"
+			}
+		},
+		"drag": {
+			"occupied": {
+				"eng": "OCCUPIED",
+				"trans": "使用中"
+			},
+			"offGrid": {
+				"eng": "OFF GRID",
+				"trans": "オフグリッド"
+			}
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "Summer Nights is not active.",
+				"trans": "サマー・ナイツは終了しました。"
+			},
+			"noPass": {
+				"eng": "You need a ${itemName} to enter Neon Nights Grid.",
+				"trans": "ネオンナイトグリッドへのアクセスには、${itemName}が必要です。",
+				"vars": [
+					"itemName"
+				]
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "EXIT",
+				"trans": "終了"
+			},
+			"message": {
+				"eng": "Submission interrupted. Reward sync status is unknown.",
+				"trans": "提出が中断されました。報酬の同期状況は不明です。"
+			},
+			"title": {
+				"eng": "SYNC STATUS UNKNOWN",
+				"trans": "同期状態不明"
+			},
+			"verify": {
+				"eng": "Exit, then verify inventory/event log before starting another run.",
+				"trans": "一度退出し、次のラン開始前にインベントリとイベントログをご確認ください。"
+			}
+		},
+		"exit": {
+			"eng": "Exit",
+			"trans": "離脱"
+		},
+		"feedback": {
+			"comboLost": {
+				"eng": "COMBO LOST",
+				"trans": "コンボ切れ"
+			},
+			"invalid": {
+				"eng": "INVALID FIT",
+				"trans": "適合不可"
+			},
+			"lineClearCombo": {
+				"eng": "+${score} LINE CLEAR x${combo}",
+				"trans": "+${score} ラインクリア コンボx${combo}",
+				"vars": [
+					"score",
+					"combo"
+				]
+			},
+			"lineClearScore": {
+				"eng": "+${score} LINE CLEAR",
+				"trans": "+${score} ラインクリア",
+				"vars": [
+					"score"
+				]
+			},
+			"maxScore": {
+				"eng": "MAX TIER SYNCED",
+				"trans": "最大ティア同期完了"
+			},
+			"noFit": {
+				"eng": "NO FIT FOUND",
+				"trans": "配置不可"
+			},
+			"occupied": {
+				"eng": "OCCUPIED",
+				"trans": "使用中"
+			},
+			"offGrid": {
+				"eng": "OFF GRID",
+				"trans": "オフグリッド"
+			},
+			"placedScore": {
+				"eng": "+${score} PLACED",
+				"trans": "+${score} 配置",
+				"vars": [
+					"score"
+				]
+			},
+			"timeout": {
+				"eng": "TIME EXPIRED",
+				"trans": "タイムアップ"
+			}
+		},
+		"finish": {
+			"eng": "Finish",
+			"trans": "完了"
+		},
+		"gameOver": {
+			"subtitle": {
+				"eng": "No reward tier reached. Pass consumed.",
+				"trans": "報酬段階未達。パス消費済み。"
+			},
+			"title": {
+				"eng": "GRID LOCKED",
+				"trans": "グリッドロック"
+			}
+		},
+		"hint": {
+			"drag": {
+				"eng": "Drag tray pieces onto the board",
+				"trans": "トレイのピースをボードにドラッグ"
+			}
+		},
+		"hud": {
+			"comboValue": {
+				"eng": "Combo: x${combo}",
+				"trans": "コンボ: x${combo}",
+				"vars": [
+					"combo"
+				]
+			},
+			"linesValue": {
+				"eng": "Lines: ${lines}",
+				"trans": "ライン数：${lines}",
+				"vars": [
+					"lines"
+				]
+			},
+			"maxTier": {
+				"eng": "MAX",
+				"trans": "MAX"
+			},
+			"nextValue": {
+				"eng": "Next: ${threshold}",
+				"trans": "次：${threshold}",
+				"vars": [
+					"threshold"
+				]
+			},
+			"piecesValue": {
+				"eng": "Pieces: ${pieces}",
+				"trans": "ピース: ${pieces}",
+				"vars": [
+					"pieces"
+				]
+			},
+			"score": {
+				"eng": "Score",
+				"trans": "スコア"
+			},
+			"seconds": {
+				"eng": "${seconds}s",
+				"trans": "${seconds}秒",
+				"vars": [
+					"seconds"
+				]
+			},
+			"tier": {
+				"eng": "Tier",
+				"trans": "ランク"
+			},
+			"time": {
+				"eng": "Time",
+				"trans": "時間"
+			}
+		},
+		"intro": {
+			"briefing": {
+				"eng": "GRID_BRIEFING",
+				"trans": "グリッドブリーフィング"
+			},
+			"combo": {
+				"eng": "Consecutive line clears build a combo. Complete a full 3-piece tray with no line clear and it resets.",
+				"trans": "ラインを連続で消すとコンボ数が伸びます。3ピースのトレーを使い切ってもラインが消えなければ、コンボはリセットされます。"
+			},
+			"eventClosed": {
+				"eng": "EVENT CLOSED",
+				"trans": "イベント終了"
+			},
+			"eventInactive": {
+				"eng": "Summer Nights inactive",
+				"trans": "サマーナイト：非アクティブ"
+			},
+			"eventLabel": {
+				"eng": "Summer Nights",
+				"trans": "夏の夜"
+			},
+			"needPass": {
+				"eng": "NEED PASS",
+				"trans": "パス必須"
+			},
+			"passLabel": {
+				"eng": "ENTRY_PASS",
+				"trans": "入場パス"
+			},
+			"rewardHint": {
+				"eng": "Reward tiers pay Summer Nights seashells and tech salvage.",
+				"trans": "各段階の報酬として、サマーナイツ貝殻とテックサルベージが配布されます。"
+			},
+			"rule1": {
+				"eng": "Drag one of three neon blocks onto the 8x8 board.",
+				"trans": "3つのネオンブロックのうち1つを、8×8のボードにドラッグしてください。"
+			},
+			"rule2": {
+				"eng": "Fill full rows or columns to clear lines and score.",
+				"trans": "行や列をすべて埋めると、ラインが消えて得点が加算されます。"
+			},
+			"rule3": {
+				"eng": "Score thresholds advance reward tiers during one continuous ${seconds}s run.",
+				"trans": "1回の${seconds}秒間連続プレイ中にスコア目標を達成すると、報酬ランクが上昇します。",
+				"vars": [
+					"seconds"
+				]
+			},
+			"rule4": {
+				"eng": "Timeout submits the tier reached; ${score} score wins tier ${tier}.",
+				"trans": "時間切れで到達したティアが確定されます。スコア${score}達成でティア${tier}獲得。",
+				"vars": [
+					"score",
+					"tier"
+				]
+			},
+			"rule5": {
+				"eng": "If none of the current pieces can fit, the run ends and submits your reached tier.",
+				"trans": "現在のピースがどこにも配置できなくなると、プレイは終了し、到達したティアが提出されます。"
+			},
+			"start": {
+				"eng": "START GRID",
+				"trans": "グリッド起動"
+			},
+			"title": {
+				"eng": "Neon Nights Grid",
+				"trans": "ネオンナイツグリッド"
+			}
+		},
+		"loading": {
+			"title": {
+				"eng": "INITIALIZING_GRID",
+				"trans": "グリッド初期化中"
+			}
+		},
+		"results": {
+			"maxTitle": {
+				"eng": "MAX TIER SYNCED",
+				"trans": "最大ティア同期完了"
+			},
+			"noRewards": {
+				"eng": "No rewards returned",
+				"trans": "報酬なし"
+			},
+			"rewards": {
+				"eng": "Summer Nights Rewards",
+				"trans": "サマーナイト報酬"
+			},
+			"seconds": {
+				"eng": "${seconds}s",
+				"trans": "${seconds}秒",
+				"vars": [
+					"seconds"
+				]
+			},
+			"tier": {
+				"eng": "Tier ${tier} neon circuit cleared",
+				"trans": "ティア${tier} ネオン回線 クリア",
+				"vars": [
+					"tier"
+				]
+			},
+			"title": {
+				"eng": "REWARD TIER SYNCED",
+				"trans": "報酬ティア同期完了"
+			}
+		},
+		"stats": {
+			"achievedTier": {
+				"eng": "Achieved Tier",
+				"trans": "到達ティア"
+			},
+			"bestCombo": {
+				"eng": "Best Combo",
+				"trans": "ベストコンボ"
+			},
+			"combo": {
+				"eng": "Combo",
+				"trans": "コンボ"
+			},
+			"lines": {
+				"eng": "Lines",
+				"trans": "ライン"
+			},
+			"linesCleared": {
+				"eng": "Lines Cleared",
+				"trans": "クリアライン数"
+			},
+			"remaining": {
+				"eng": "Remain",
+				"trans": "残り"
+			},
+			"score": {
+				"eng": "Score",
+				"trans": "スコア"
+			}
+		},
+		"submission": {
+			"doNotRetry": {
+				"eng": "Submission interrupted. Do not retry this run.",
+				"trans": "提出処理が中断されました。この試行の再実行は不可です。"
+			},
+			"localOutcome": {
+				"eng": "LOCAL OUTCOME",
+				"trans": "地域結果"
+			},
+			"localResultShown": {
+				"eng": "Local result shown above. Server sync status unknown.",
+				"trans": "上記はローカル結果です。サーバー同期状況は不明です。"
+			},
+			"noRetry": {
+				"eng": "Exit, then verify inventory/event log before starting another run.",
+				"trans": "退出後、次のランを開始する前にインベントリ／イベントログを確認してください。"
+			},
+			"outcomeMaxTier": {
+				"eng": "MAX TIER",
+				"trans": "最高ランク"
+			},
+			"outcomeNoFit": {
+				"eng": "NO FIT",
+				"trans": "配置不可"
+			},
+			"outcomeTimeout": {
+				"eng": "TIME EXPIRED",
+				"trans": "時間切れ"
+			},
+			"outcomeUnknown": {
+				"eng": "RUN ENDED",
+				"trans": "試行終了"
+			},
+			"syncUnknown": {
+				"eng": "REWARD SYNC UNKNOWN",
+				"trans": "報酬同期不明"
+			}
+		},
+		"submitting": {
+			"subtitle": {
+				"eng": "Submitting final tier. Do not close.",
+				"trans": "最終階層送信中。閉じないでください。"
+			},
+			"title": {
+				"eng": "SYNCING RUN DATA",
+				"trans": "ランデータ同期中"
+			}
+		},
+		"tierUp": {
+			"title": {
+				"eng": "Tier ${tier} Synced",
+				"trans": "ティア ${tier} 同期完了",
+				"vars": [
+					"tier"
+				]
+			}
+		},
+		"vfx": {
+			"combo": {
+				"eng": "COMBO x${combo}",
+				"trans": "コンボ x${combo}",
+				"vars": [
+					"combo"
+				]
+			},
+			"endTier": {
+				"eng": "TIER ${tier}",
+				"trans": "ティア ${tier}",
+				"vars": [
+					"tier"
+				]
+			},
+			"maxGridSync": {
+				"eng": "MAX GRID SYNC",
+				"trans": "グリッド完全同期"
+			},
+			"noFitFound": {
+				"eng": "NO FIT FOUND",
+				"trans": "配置可能な場所がありません"
+			},
+			"scoreGain": {
+				"eng": "+${score}",
+				"trans": "+${score}",
+				"vars": [
+					"score"
+				]
+			},
+			"tierSync": {
+				"eng": "TIER ${tier} SYNC",
+				"trans": "ティア${tier}同期",
+				"vars": [
+					"tier"
+				]
+			},
+			"timeExpired": {
+				"eng": "TIME EXPIRED",
+				"trans": "時間切れ"
+			},
+			"timer": {
+				"eng": "T-${seconds}",
+				"trans": "T-${seconds}",
+				"vars": [
+					"seconds"
+				]
+			}
 		}
 	},
 	"newYearFireworks": {
@@ -13993,13 +14462,40 @@
 			"trans": "すべて取得する"
 		}
 	},
+	"summerNightsPromo": {
+		"subtitle": {
+			"eng": "Miami neon hits the coast. Collect seashells, trade with Josie, and run Neon Nights Grid.",
+			"trans": "マイアミのネオンが海岸を照らす。貝殻を集め、ジョジーと取引し、ネオンナイツグリッドをプレイしよう。"
+		},
+		"title": {
+			"eng": "Summer Nights",
+			"trans": "サマーナイトズ"
+		}
+	},
+	"summerNightsPromoSmall": {
+		"desc1": {
+			"eng": "Neon Nights Grid is live at Crystal Beach.",
+			"trans": "ネオン・ナイツ・グリッドがクリスタルビーチで公開されました。"
+		},
+		"desc2": {
+			"eng": "Collect ${item} and trade with Josie.",
+			"trans": "${item}を集めてジョーシーと交換しよう。",
+			"vars": [
+				"item"
+			]
+		},
+		"title": {
+			"eng": "Summer Nights",
+			"trans": "サマーナイトズ"
+		}
+	},
 	"summerPromo": {
 		"subtitle": {
-			"eng": "Its time for the summer beach! don't miss out on the fun!",
+			"eng": "Heat is rising on the coast. Collect seashells, trade with Josie, and run Solar Float Stack.",
 			"trans": "夏のビーチの時間だ！楽しいことをお見逃しなく！"
 		},
 		"title": {
-			"eng": "Summer Fiesta Event",
+			"eng": "Heatwave Festival",
 			"trans": "サマーフィエスタイベント"
 		}
 	},
@@ -14019,14 +14515,44 @@
 			]
 		},
 		"title": {
-			"eng": "Summer Fiesta: Don't Miss Out!",
+			"eng": "Heatwave Festival",
 			"trans": "サマーフィエスタ：お見逃しなく！"
 		}
 	},
 	"summerStack": {
+		"assets": {
+			"exit": {
+				"eng": "EXIT",
+				"trans": "終了"
+			},
+			"failedMessage": {
+				"eng": "Required stack art did not load. No pass was consumed.",
+				"trans": "必要なスタックアートの読み込みに失敗しました。パスは消費されていません。"
+			},
+			"failedTitle": {
+				"eng": "ASSET_LOAD_FAILED",
+				"trans": "アセット読み込み失敗"
+			},
+			"loadingMessage": {
+				"eng": "Preparing required float sprites.",
+				"trans": "必要なフロートスプライトを準備中"
+			},
+			"loadingTitle": {
+				"eng": "LOADING_STACK_ASSETS",
+				"trans": "スタックアセットの読み込み中"
+			},
+			"retry": {
+				"eng": "RETRY",
+				"trans": "リトライ"
+			}
+		},
 		"button": {
+			"enter": {
+				"eng": "Play",
+				"trans": "プレイ"
+			},
 			"subtitle": {
-				"eng": "CONTAINMENT STACK COURSE",
+				"eng": "BEACH FLOAT MERGE",
 				"trans": "隔離スタックコース"
 			},
 			"title": {
@@ -14034,18 +14560,9 @@
 				"trans": "ソーラーフロートスタック"
 			}
 		},
-		"complete": {
-			"notification": {
-				"eng": "Solar Float Stack cleared through stage ${stage}. Rewards sent to inbox.",
-				"trans": "Solar Float Stackを${stage}ステージまでクリアしました。報酬はインボックスに送付しました。",
-				"vars": [
-					"stage"
-				]
-			}
-		},
 		"entry": {
 			"eventEnded": {
-				"eng": "The summer event is not active.",
+				"eng": "The Heatwave Festival is not active.",
 				"trans": "サマーイベントは現在開催しておりません。"
 			},
 			"noPass": {
@@ -14070,13 +14587,11 @@
 				"trans": "スタック実行時エラー"
 			}
 		},
-		"failed": {
-			"notification": {
-				"eng": "Solar Float Stack failed. Pass consumed.",
-				"trans": "ソーラーフロートスタックに失敗しました。パスが消費されました。"
-			}
-		},
 		"hud": {
+			"currentFloat": {
+				"eng": "CURRENT",
+				"trans": "カレント"
+			},
 			"drops": {
 				"eng": "DROPS",
 				"trans": "ドロップ"
@@ -14088,9 +14603,9 @@
 					"dropsLeft"
 				]
 			},
-			"lossRules": {
-				"eng": "Lose if time hits 0 or drops run out before target is made.",
-				"trans": "時間切れまたはドロップが尽き、ターゲットを達成できない場合は敗北"
+			"nextFloat": {
+				"eng": "NEXT",
+				"trans": "次へ"
 			},
 			"stage": {
 				"eng": "STAGE ${stage}",
@@ -14099,24 +14614,30 @@
 					"stage"
 				]
 			},
-			"target": {
-				"eng": "Make ${targetName} to clear this stage.",
-				"trans": "${targetName}を倒してこのステージをクリア",
+			"surge": {
+				"eng": "SURGE",
+				"trans": "サージ"
+			},
+			"surgeCharge": {
+				"eng": "${charge}/${required}",
+				"trans": "${charge}/${required}",
 				"vars": [
-					"targetName"
+					"charge",
+					"required"
 				]
 			},
+			"surgeReady": {
+				"eng": "READY",
+				"trans": "準備完了"
+			},
 			"targetProgress": {
-				"eng": "${current}/${target}",
+				"eng": "${current}/${target} • ${targetName}",
 				"trans": "${current}/${target}",
 				"vars": [
 					"current",
-					"target"
+					"target",
+					"targetName"
 				]
-			},
-			"time": {
-				"eng": "TIME",
-				"trans": "時刻"
 			},
 			"timeLeft": {
 				"eng": "${time}s",
@@ -14136,7 +14657,7 @@
 		},
 		"intro": {
 			"briefing": {
-				"eng": "STACK_BRIEFING",
+				"eng": "HOW TO PLAY",
 				"trans": "スタックブリーフィング"
 			},
 			"eventClosed": {
@@ -14144,36 +14665,44 @@
 				"trans": "イベント終了"
 			},
 			"eventInactive": {
-				"eng": "Summer event inactive",
+				"eng": "Heatwave Festival inactive",
 				"trans": "サマーイベント 非アクティブ"
 			},
 			"eventLabel": {
-				"eng": "SUMMER_EVENT",
+				"eng": "HEATWAVE_FESTIVAL",
 				"trans": "サマーイベント"
 			},
 			"needPass": {
 				"eng": "NEED PASS",
 				"trans": "パスが必要です"
 			},
+			"passLabel": {
+				"eng": "ENTRY_PASS",
+				"trans": "エントリーパス"
+			},
 			"rewardHint": {
-				"eng": "Reward bands pay summer materials and tech salvage.",
+				"eng": "Reward bands pay Heatwave materials and tech salvage.",
 				"trans": "報酬帯からはサマー素材とテックサルベージが支給されます。"
 			},
 			"rule1": {
-				"eng": "Drag along the rail, release, and drop a summer sphere.",
+				"eng": "Move along the rail, then release to drop the current float.",
 				"trans": "レールに沿ってドラッグし、指を離してサマースフィアをドロップしてください。"
 			},
 			"rule2": {
-				"eng": "Match identical round objects to merge into larger floats.",
+				"eng": "Put two matching floats together to merge them into a bigger float.",
 				"trans": "同じ円形アイテムを合わせて、大きなフロートに合体させましょう。"
 			},
 			"rule3": {
-				"eng": "Make the target float before time or drops run out.",
+				"eng": "Reach the target float before the timer or your drops run out.",
 				"trans": "時間かドロップが尽きる前に、ターゲットを浮かせる。"
 			},
 			"rule4": {
-				"eng": "Only the terminal stage result consumes the pass and pays rewards.",
+				"eng": "Your pass is used when the run ends. Rewards depend on the last stage you cleared.",
 				"trans": "最終ステージの結果のみでパスが消費され、報酬が授与されます。"
+			},
+			"ruleCombo": {
+				"eng": "Chain merges pull nearby matching floats and can give back drops.",
+				"trans": "チェーンマージは近隣の同じフローターを引き寄せ、ドロップを返すことがある。"
 			},
 			"start": {
 				"eng": "START STACK",
@@ -14190,17 +14719,96 @@
 				"trans": "スタック初期化中"
 			}
 		},
-		"stageClear": {
-			"continue": {
-				"eng": "NEXT STAGE",
-				"trans": "次のステージ"
+		"results": {
+			"biggestLabel": {
+				"eng": "BIGGEST_FLOAT",
+				"trans": "最大FLOAT"
 			},
-			"next": {
-				"eng": "Target tier secured. Continue stacking.",
-				"trans": "目標ティア確保。スタッキング続行。"
+			"completeTitle": {
+				"eng": "RUN_COMPLETE",
+				"trans": "ラン完了"
+			},
+			"failedTitle": {
+				"eng": "RUN_FAILED",
+				"trans": "任務失敗"
+			},
+			"finish": {
+				"eng": "FINISH",
+				"trans": "終了"
+			},
+			"fullClearTitle": {
+				"eng": "FULL_CLEAR",
+				"trans": "フルクリア"
+			},
+			"noFloat": {
+				"eng": "No float reached",
+				"trans": "フロート到達なし"
+			},
+			"noRewardMessage": {
+				"eng": "No stage cleared. Pass consumed.",
+				"trans": "クリアしたステージはありません。パスが消費されました。"
+			},
+			"rewardMessage": {
+				"eng": "Rewards sent to your item inbox.",
+				"trans": "報酬はアイテム受取BOXに配送しました。"
+			},
+			"scoreLabel": {
+				"eng": "SCORE",
+				"trans": "スコア"
+			},
+			"stageLabel": {
+				"eng": "STAGE",
+				"trans": "ステージ"
+			},
+			"stageValue": {
+				"eng": "${stage}/${maxStage}",
+				"trans": "${stage}/${maxStage}",
+				"vars": [
+					"stage",
+					"maxStage"
+				]
+			}
+		},
+		"stageClear": {
+			"bestFloat": {
+				"eng": "BEST FLOAT",
+				"trans": "フロートベスト"
+			},
+			"cleared": {
+				"eng": "Stage ${stage} cleared",
+				"trans": "ステージ${stage} クリア",
+				"vars": [
+					"stage"
+				]
+			},
+			"continue": {
+				"eng": "START STAGE ${stage}",
+				"trans": "次のステージ",
+				"vars": [
+					"stage"
+				]
+			},
+			"kicker": {
+				"eng": "STAGE COMPLETE",
+				"trans": "ステージクリア"
+			},
+			"nextTarget": {
+				"eng": "Next stage: build ${target}",
+				"trans": "次のステージ：${target}を構築",
+				"vars": [
+					"target"
+				]
+			},
+			"score": {
+				"eng": "SCORE",
+				"trans": "スコア"
+			},
+			"stageLabel": {
+				"eng": "STAGE",
+				"trans": "ステージ"
 			},
 			"title": {
-				"eng": "STAGE_CLEAR",
+				"eng": "STAGE CLEAR",
 				"trans": "ステージクリア"
 			}
 		},
@@ -14210,21 +14818,21 @@
 				"trans": "閉じる"
 			},
 			"message": {
-				"eng": "Reward submission failed or timed out. Do not retry this run. Contact support or exit.",
+				"eng": "Run could not be saved. Exit and contact support if rewards are missing.",
 				"trans": "報酬の送信失敗またはタイムアウトしました。この試行は再試行しないでください。サポートへ連絡するか、終了してください。"
 			},
 			"title": {
-				"eng": "SUBMISSION_UNCERTAIN",
+				"eng": "SAVE FAILED",
 				"trans": "提出状況不明"
 			}
 		},
 		"submitting": {
 			"message": {
-				"eng": "Terminal result locked. Do not retry.",
+				"eng": "Saving your run. Do not close this screen.",
 				"trans": "ターミナル結果はロックされています。再試行しないでください。"
 			},
 			"title": {
-				"eng": "SUBMITTING_RUN_DATA",
+				"eng": "SAVING RUN",
 				"trans": "データ送信中"
 			}
 		},
@@ -14268,6 +14876,23 @@
 			"waterBalloonOrb": {
 				"eng": "Water Balloon Orb",
 				"trans": "水風船オーブ"
+			}
+		},
+		"toast": {
+			"chain": {
+				"eng": "CHAIN x${chainCount}",
+				"trans": "チェーン x${chainCount}",
+				"vars": [
+					"chainCount"
+				]
+			},
+			"dropRefund": {
+				"eng": "DROP REFUND ${count}/${max}",
+				"trans": "ドロップ返金 ${count}/${max}",
+				"vars": [
+					"count",
+					"max"
+				]
 			}
 		}
 	},
@@ -17448,6 +18073,20 @@
 		},
 		"timeSkip": {
 			"confirmModal": {
+				"confirmSpendUnits": {
+					"eng": "Spend ${units} units",
+					"trans": "${units}ユニットを消費します",
+					"vars": [
+						"units"
+					]
+				},
+				"cost": {
+					"eng": "Cost: ${units} units",
+					"trans": "消費: ${units}",
+					"vars": [
+						"units"
+					]
+				},
 				"subtitle": {
 					"eng": "Global Skip will skip the waiting time for all players performing AFK task",
 					"trans": "AFKタスクを実行中の全プレイヤーの待ち時間を短縮します"
@@ -17493,6 +18132,21 @@
 					"eng": "Finish the task instantly for all players in the game and earn skip points to show your support to other players!",
 					"trans": "AFKタスクの待ち時間をスキップして即座にタスクを終了することができます. \n     この効果はAFKタスクを実行中のすべてのプレイヤーに適用されます."
 				},
+				"discountPercent": {
+					"eng": "${percent}%",
+					"trans": "${percent}%割引",
+					"vars": [
+						"percent"
+					]
+				},
+				"eventDiscount": {
+					"eng": "Event Discount",
+					"trans": "イベント割引"
+				},
+				"longSkipDiscount": {
+					"eng": "Long Skip Discount",
+					"trans": "長期スキップ割引"
+				},
 				"minute": {
 					"eng": "Skip ${minutes} minutes",
 					"trans": "${minutes}分をスキップします.",
@@ -17500,13 +18154,9 @@
 						"minutes"
 					]
 				},
-				"ticketItem": {
-					"eng": "${percent}% off from ${itemName}",
-					"trans": "${itemName}が${percent}% OFF",
-					"vars": [
-						"itemName",
-						"percent"
-					]
+				"offLabel": {
+					"eng": "OFF",
+					"trans": "オフ"
 				},
 				"title2": {
 					"eng": "Finish Now",

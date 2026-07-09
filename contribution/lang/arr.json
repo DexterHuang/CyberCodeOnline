@@ -1114,6 +1114,13 @@
 				"percent"
 			]
 		},
+		"eventDiscountTitle": {
+			"eng": "${eventName} Discount",
+			"trans": "${eventName} Booty Cut",
+			"vars": [
+				"eventName"
+			]
+		},
 		"hintBox": {
 			"text2": {
 				"eng": "When calibration train funding reaches 100%, the system will automatically deploy +1 to +10 calibration success rate and destruction prevention buffs in sequence with interval of ${deployInterval} minutes. the buff train will starting at the next designated time",
@@ -2440,6 +2447,10 @@
 		"donation53": {
 			"eng": "Lightwalker",
 			"trans": "Dawnstrider"
+		},
+		"donation54": {
+			"eng": "Vice Heat",
+			"trans": "Dreadful Fury"
 		},
 		"donation6": {
 			"eng": "Prestige",
@@ -3883,8 +3894,18 @@
 				"trans": "Summer's Swashbuckle"
 			},
 			"topUpRewardTitle": {
-				"eng": "Summer Bonus",
+				"eng": "Heatwave Festival Bonus",
 				"trans": "Summer Booty"
+			}
+		},
+		"summerNights": {
+			"eventGame": {
+				"eng": "Neon Nights Grid",
+				"trans": "Bright Nights Grid"
+			},
+			"name": {
+				"eng": "Summer Nights",
+				"trans": "Summer Tides"
 			}
 		},
 		"thanksgiving": {
@@ -4241,6 +4262,13 @@
 			"trans": "Ahoy, early birds! Plunder up to ${percent}% off!",
 			"vars": [
 				"percent"
+			]
+		},
+		"eventDiscountTitle": {
+			"eng": "${eventName} Discount",
+			"trans": "${eventName} Booty Cut",
+			"vars": [
+				"eventName"
 			]
 		},
 		"hint": {
@@ -5604,6 +5632,16 @@
 				"trans": "Missile Command Writ"
 			}
 		},
+		"neonNightsPass": {
+			"description": {
+				"eng": "A neon boardwalk access pass required to initialize Neon Nights Grid during the Summer Nights event. Can be found from AFK farming during Summer Nights.",
+				"trans": "A neon boardwalk access pass required to launch the Neon Nights Grid during the Summer Nights event. Gathered through idle plunderin whilst Summer Nights holds court."
+			},
+			"name": {
+				"eng": "Neon Nights Pass",
+				"trans": "Glowin' Night Writ"
+			}
+		},
 		"newYear": {
 			"description": {
 				"eng": "A red envelope with a golden digital seal on it. looks like it contains some sort of currency",
@@ -5961,7 +5999,7 @@
 		},
 		"solarFloatPass": {
 			"description": {
-				"eng": "A sealed beach access pass required to initialize Solar Float Stack during the Summer event.",
+				"eng": "A sealed beach access pass required to initialize Solar Float Stack during Heatwave Festival.",
 				"trans": "A wax-sealed shore permit required to fire up the Solar Float Stack during the Summer event."
 			},
 			"name": {
@@ -9219,6 +9257,437 @@
 		"viewProfile": {
 			"eng": "View Profile",
 			"trans": "Check yer profile, matey!"
+		}
+	},
+	"neonNightsGrid": {
+		"button": {
+			"subtitle": {
+				"eng": "BOARDWALK LIGHT CIRCUIT",
+				"trans": "DOCKSIDE LANTERN ROUTE"
+			},
+			"title": {
+				"eng": "NEON NIGHTS GRID",
+				"trans": "LANTERN HARBOR CHART"
+			}
+		},
+		"canvas": {
+			"label": {
+				"eng": "Neon Nights Grid playfield. Drag tray pieces onto the 8 by 8 board.",
+				"trans": "Neon Nights Grid deck. Haul yer tray pieces onto the 8 by 8 board."
+			}
+		},
+		"drag": {
+			"occupied": {
+				"eng": "OCCUPIED",
+				"trans": "CLAIMED"
+			},
+			"offGrid": {
+				"eng": "OFF GRID",
+				"trans": "UNMOORED"
+			}
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "Summer Nights is not active.",
+				"trans": "Summer Nights has dropped anchor."
+			},
+			"noPass": {
+				"eng": "You need a ${itemName} to enter Neon Nights Grid.",
+				"trans": "Ye'll need a ${itemName} t' enter Neon Nights Grid.",
+				"vars": [
+					"itemName"
+				]
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "EXIT",
+				"trans": "SCRAM"
+			},
+			"message": {
+				"eng": "Submission interrupted. Reward sync status is unknown.",
+				"trans": "Delivery interrupted. Booty sync unaccounted."
+			},
+			"title": {
+				"eng": "SYNC STATUS UNKNOWN",
+				"trans": "SYNC STATUS UNCHARTED"
+			},
+			"verify": {
+				"eng": "Exit, then verify inventory/event log before starting another run.",
+				"trans": "Exit to port, tally yer plunder and logs, then begin a fresh run."
+			}
+		},
+		"exit": {
+			"eng": "Exit",
+			"trans": "Cast Off"
+		},
+		"feedback": {
+			"comboLost": {
+				"eng": "COMBO LOST",
+				"trans": "STREAK SEVERED"
+			},
+			"invalid": {
+				"eng": "INVALID FIT",
+				"trans": "UNSEAWORTHY FIT"
+			},
+			"lineClearCombo": {
+				"eng": "+${score} LINE CLEAR x${combo}",
+				"trans": "+${score} DECK CLEARED x${combo}",
+				"vars": [
+					"score",
+					"combo"
+				]
+			},
+			"lineClearScore": {
+				"eng": "+${score} LINE CLEAR",
+				"trans": "+${score} PLANK WALKED",
+				"vars": [
+					"score"
+				]
+			},
+			"maxScore": {
+				"eng": "MAX TIER SYNCED",
+				"trans": "FIRST RATE MATCHED"
+			},
+			"noFit": {
+				"eng": "NO FIT FOUND",
+				"trans": "NO FIT SIGHTED"
+			},
+			"occupied": {
+				"eng": "OCCUPIED",
+				"trans": "CLAIMED"
+			},
+			"offGrid": {
+				"eng": "OFF GRID",
+				"trans": "UNMOORED"
+			},
+			"placedScore": {
+				"eng": "+${score} PLACED",
+				"trans": "+${score} STOW'D",
+				"vars": [
+					"score"
+				]
+			},
+			"timeout": {
+				"eng": "TIME EXPIRED",
+				"trans": "YER TIME IS DONE"
+			}
+		},
+		"finish": {
+			"eng": "Finish",
+			"trans": "Avast"
+		},
+		"gameOver": {
+			"subtitle": {
+				"eng": "No reward tier reached. Pass consumed.",
+				"trans": "No bounty tier reached. Pass spent."
+			},
+			"title": {
+				"eng": "GRID LOCKED",
+				"trans": "SHACKLED FAST"
+			}
+		},
+		"hint": {
+			"drag": {
+				"eng": "Drag tray pieces onto the board",
+				"trans": "Haul them tray pieces onto the board matey"
+			}
+		},
+		"hud": {
+			"comboValue": {
+				"eng": "Combo: x${combo}",
+				"trans": "Chain: x${combo}",
+				"vars": [
+					"combo"
+				]
+			},
+			"linesValue": {
+				"eng": "Lines: ${lines}",
+				"trans": "Lines Tally: ${lines}",
+				"vars": [
+					"lines"
+				]
+			},
+			"maxTier": {
+				"eng": "MAX",
+				"trans": "MAX"
+			},
+			"nextValue": {
+				"eng": "Next: ${threshold}",
+				"trans": "Next bounty: ${threshold}",
+				"vars": [
+					"threshold"
+				]
+			},
+			"piecesValue": {
+				"eng": "Pieces: ${pieces}",
+				"trans": "Loot: ${pieces}",
+				"vars": [
+					"pieces"
+				]
+			},
+			"score": {
+				"eng": "Score",
+				"trans": "Tally"
+			},
+			"seconds": {
+				"eng": "${seconds}s",
+				"trans": "${seconds}s",
+				"vars": [
+					"seconds"
+				]
+			},
+			"tier": {
+				"eng": "Tier",
+				"trans": "Rank"
+			},
+			"time": {
+				"eng": "Time",
+				"trans": "Time"
+			}
+		},
+		"intro": {
+			"briefing": {
+				"eng": "GRID_BRIEFING",
+				"trans": "Data Sea Orders"
+			},
+			"combo": {
+				"eng": "Consecutive line clears build a combo. Complete a full 3-piece tray with no line clear and it resets.",
+				"trans": "Clearin' lines back to back builds yer combo. Fill a three-row tray without clearin' a line an' it resets."
+			},
+			"eventClosed": {
+				"eng": "EVENT CLOSED",
+				"trans": "TREASURE CHASE SEALED"
+			},
+			"eventInactive": {
+				"eng": "Summer Nights inactive",
+				"trans": "Summer Nights Off Watch"
+			},
+			"eventLabel": {
+				"eng": "Summer Nights",
+				"trans": "Summer Tides"
+			},
+			"needPass": {
+				"eng": "NEED PASS",
+				"trans": "TOKEN REQUIRED"
+			},
+			"passLabel": {
+				"eng": "ENTRY_PASS",
+				"trans": "BOARDING_PASS"
+			},
+			"rewardHint": {
+				"eng": "Reward tiers pay Summer Nights seashells and tech salvage.",
+				"trans": "Loot tiers yield Summer Nights seashells and tech salvage."
+			},
+			"rule1": {
+				"eng": "Drag one of three neon blocks onto the 8x8 board.",
+				"trans": "Haul one of three neon blocks onto the 8x8 board."
+			},
+			"rule2": {
+				"eng": "Fill full rows or columns to clear lines and score.",
+				"trans": "Pack full rows or columns to clear the lines and tally yer score."
+			},
+			"rule3": {
+				"eng": "Score thresholds advance reward tiers during one continuous ${seconds}s run.",
+				"trans": "Plunder targets upgrade bounty tiers during one unbroken ${seconds}s run.",
+				"vars": [
+					"seconds"
+				]
+			},
+			"rule4": {
+				"eng": "Timeout submits the tier reached; ${score} score wins tier ${tier}.",
+				"trans": "Time's up secures yer reached tier; ${score} score claims tier ${tier}.",
+				"vars": [
+					"score",
+					"tier"
+				]
+			},
+			"rule5": {
+				"eng": "If none of the current pieces can fit, the run ends and submits your reached tier.",
+				"trans": "If none of the current pieces can fit, yer run drops anchor and submits yer reached tier."
+			},
+			"start": {
+				"eng": "START GRID",
+				"trans": "Set Sail on da Grid"
+			},
+			"title": {
+				"eng": "Neon Nights Grid",
+				"trans": "Bright Nights Grid"
+			}
+		},
+		"loading": {
+			"title": {
+				"eng": "INITIALIZING_GRID",
+				"trans": "RIGGIN_THE_GRID"
+			}
+		},
+		"results": {
+			"maxTitle": {
+				"eng": "MAX TIER SYNCED",
+				"trans": "FIRST RATE MATCHED"
+			},
+			"noRewards": {
+				"eng": "No rewards returned",
+				"trans": "No booty recovered"
+			},
+			"rewards": {
+				"eng": "Summer Nights Rewards",
+				"trans": "Summer Nights Booty"
+			},
+			"seconds": {
+				"eng": "${seconds}s",
+				"trans": "${seconds}s",
+				"vars": [
+					"seconds"
+				]
+			},
+			"tier": {
+				"eng": "Tier ${tier} neon circuit cleared",
+				"trans": "Tier ${tier} neon circuit charted",
+				"vars": [
+					"tier"
+				]
+			},
+			"title": {
+				"eng": "REWARD TIER SYNCED",
+				"trans": "LOOT TIER LOCKED IN"
+			}
+		},
+		"stats": {
+			"achievedTier": {
+				"eng": "Achieved Tier",
+				"trans": "Secured Rank"
+			},
+			"bestCombo": {
+				"eng": "Best Combo",
+				"trans": "Finest Streak"
+			},
+			"combo": {
+				"eng": "Combo",
+				"trans": "Strike Chain"
+			},
+			"lines": {
+				"eng": "Lines",
+				"trans": "Planks"
+			},
+			"linesCleared": {
+				"eng": "Lines Cleared",
+				"trans": "Decks Cleared"
+			},
+			"remaining": {
+				"eng": "Remain",
+				"trans": "Left"
+			},
+			"score": {
+				"eng": "Score",
+				"trans": "Tally"
+			}
+		},
+		"submission": {
+			"doNotRetry": {
+				"eng": "Submission interrupted. Do not retry this run.",
+				"trans": "Submission interrupted. Belay this run."
+			},
+			"localOutcome": {
+				"eng": "LOCAL OUTCOME",
+				"trans": "LOCAL TALLY"
+			},
+			"localResultShown": {
+				"eng": "Local result shown above. Server sync status unknown.",
+				"trans": "Shipboard result shown above. Admiralty sync status uncharted."
+			},
+			"noRetry": {
+				"eng": "Exit, then verify inventory/event log before starting another run.",
+				"trans": "Exit to port, tally yer plunder and logs, then begin a fresh run."
+			},
+			"outcomeMaxTier": {
+				"eng": "MAX TIER",
+				"trans": "TOP RANK"
+			},
+			"outcomeNoFit": {
+				"eng": "NO FIT",
+				"trans": "WON'T STOW"
+			},
+			"outcomeTimeout": {
+				"eng": "TIME EXPIRED",
+				"trans": "YER TIME IS DONE"
+			},
+			"outcomeUnknown": {
+				"eng": "RUN ENDED",
+				"trans": "VOYAGE ENDED"
+			},
+			"syncUnknown": {
+				"eng": "REWARD SYNC UNKNOWN",
+				"trans": "BOOTY SYNC UNCHARTED"
+			}
+		},
+		"submitting": {
+			"subtitle": {
+				"eng": "Submitting final tier. Do not close.",
+				"trans": "Sendin' off the final tier. Keep yer hatch open."
+			},
+			"title": {
+				"eng": "SYNCING RUN DATA",
+				"trans": "MATCHIN' RUN TALLIES"
+			}
+		},
+		"tierUp": {
+			"title": {
+				"eng": "Tier ${tier} Synced",
+				"trans": "Tier ${tier} Claimed",
+				"vars": [
+					"tier"
+				]
+			}
+		},
+		"vfx": {
+			"combo": {
+				"eng": "COMBO x${combo}",
+				"trans": "STRIKE x${combo}",
+				"vars": [
+					"combo"
+				]
+			},
+			"endTier": {
+				"eng": "TIER ${tier}",
+				"trans": "RANK ${tier}",
+				"vars": [
+					"tier"
+				]
+			},
+			"maxGridSync": {
+				"eng": "MAX GRID SYNC",
+				"trans": "PEAK NET TUNE"
+			},
+			"noFitFound": {
+				"eng": "NO FIT FOUND",
+				"trans": "NO FIT SIGHTED"
+			},
+			"scoreGain": {
+				"eng": "+${score}",
+				"trans": "+${score}",
+				"vars": [
+					"score"
+				]
+			},
+			"tierSync": {
+				"eng": "TIER ${tier} SYNC",
+				"trans": "RANK ${tier} MATCH",
+				"vars": [
+					"tier"
+				]
+			},
+			"timeExpired": {
+				"eng": "TIME EXPIRED",
+				"trans": "YER TIME IS DONE"
+			},
+			"timer": {
+				"eng": "T-${seconds}",
+				"trans": "T-${seconds}",
+				"vars": [
+					"seconds"
+				]
+			}
 		}
 	},
 	"newYearFireworks": {
@@ -13779,13 +14248,40 @@
 			"trans": "Gather all the loot!"
 		}
 	},
+	"summerNightsPromo": {
+		"subtitle": {
+			"eng": "Miami neon hits the coast. Collect seashells, trade with Josie, and run Neon Nights Grid.",
+			"trans": "Miami's neon strikes the coast. Gather shells, barter with Josie, and chart the Neon Nights Grid."
+		},
+		"title": {
+			"eng": "Summer Nights",
+			"trans": "Summer Tides"
+		}
+	},
+	"summerNightsPromoSmall": {
+		"desc1": {
+			"eng": "Neon Nights Grid is live at Crystal Beach.",
+			"trans": "The Neon Nights Grid awaits all hands at Crystal Beach."
+		},
+		"desc2": {
+			"eng": "Collect ${item} and trade with Josie.",
+			"trans": "Gather ${item} and barter with Josie.",
+			"vars": [
+				"item"
+			]
+		},
+		"title": {
+			"eng": "Summer Nights",
+			"trans": "Summer Tides"
+		}
+	},
 	"summerPromo": {
 		"subtitle": {
-			"eng": "Its time for the summer beach! don't miss out on the fun!",
+			"eng": "Heat is rising on the coast. Collect seashells, trade with Josie, and run Solar Float Stack.",
 			"trans": "Ahoy, mateys! Time to hit the beach! Don't be a landlubber, join the fun!"
 		},
 		"title": {
-			"eng": "Summer Fiesta Event",
+			"eng": "Heatwave Festival",
 			"trans": "Summer Plunder Party"
 		}
 	},
@@ -13805,14 +14301,44 @@
 			]
 		},
 		"title": {
-			"eng": "Summer Fiesta: Don't Miss Out!",
+			"eng": "Heatwave Festival",
 			"trans": "Summer Fiesta: Heave Ho, or Ye'll Be Swabbin' the Decks!"
 		}
 	},
 	"summerStack": {
+		"assets": {
+			"exit": {
+				"eng": "EXIT",
+				"trans": "SCRAM"
+			},
+			"failedMessage": {
+				"eng": "Required stack art did not load. No pass was consumed.",
+				"trans": "Required stack visuals failed to surface. Yer pass remains untouched."
+			},
+			"failedTitle": {
+				"eng": "ASSET_LOAD_FAILED",
+				"trans": "CARGO_HOIST_FAILED"
+			},
+			"loadingMessage": {
+				"eng": "Preparing required float sprites.",
+				"trans": "Rigging required drift specters"
+			},
+			"loadingTitle": {
+				"eng": "LOADING_STACK_ASSETS",
+				"trans": "Loadin' Stack Cargo"
+			},
+			"retry": {
+				"eng": "RETRY",
+				"trans": "TRY AGAIN"
+			}
+		},
 		"button": {
+			"enter": {
+				"eng": "Play",
+				"trans": "Set Sail"
+			},
 			"subtitle": {
-				"eng": "CONTAINMENT STACK COURSE",
+				"eng": "BEACH FLOAT MERGE",
 				"trans": "SECURE HOLD TIER DRILL"
 			},
 			"title": {
@@ -13820,18 +14346,9 @@
 				"trans": "SUN DRIFT RIG"
 			}
 		},
-		"complete": {
-			"notification": {
-				"eng": "Solar Float Stack cleared through stage ${stage}. Rewards sent to inbox.",
-				"trans": "Solar Float Stack cleared through stage ${stage}. Plunder sent to yer inbox.",
-				"vars": [
-					"stage"
-				]
-			}
-		},
 		"entry": {
 			"eventEnded": {
-				"eng": "The summer event is not active.",
+				"eng": "The Heatwave Festival is not active.",
 				"trans": "Summer event be inactive."
 			},
 			"noPass": {
@@ -13856,13 +14373,11 @@
 				"trans": "Keel Fractured Under Sail"
 			}
 		},
-		"failed": {
-			"notification": {
-				"eng": "Solar Float Stack failed. Pass consumed.",
-				"trans": "Solar Float Stack went aground. Pass consumed."
-			}
-		},
 		"hud": {
+			"currentFloat": {
+				"eng": "CURRENT",
+				"trans": "NOW"
+			},
 			"drops": {
 				"eng": "DROPS",
 				"trans": "BOOTY"
@@ -13874,9 +14389,9 @@
 					"dropsLeft"
 				]
 			},
-			"lossRules": {
-				"eng": "Lose if time hits 0 or drops run out before target is made.",
-				"trans": "Lose if time strikes zero or drops run dry ere the target is claimed"
+			"nextFloat": {
+				"eng": "NEXT",
+				"trans": "AHEAD"
 			},
 			"stage": {
 				"eng": "STAGE ${stage}",
@@ -13885,24 +14400,30 @@
 					"stage"
 				]
 			},
-			"target": {
-				"eng": "Make ${targetName} to clear this stage.",
-				"trans": "Lay low ${targetName} to complete this watch.",
+			"surge": {
+				"eng": "SURGE",
+				"trans": "SWELL"
+			},
+			"surgeCharge": {
+				"eng": "${charge}/${required}",
+				"trans": "${charge}/${required}",
 				"vars": [
-					"targetName"
+					"charge",
+					"required"
 				]
 			},
+			"surgeReady": {
+				"eng": "READY",
+				"trans": "READY"
+			},
 			"targetProgress": {
-				"eng": "${current}/${target}",
+				"eng": "${current}/${target} • ${targetName}",
 				"trans": "${current}/${target}",
 				"vars": [
 					"current",
-					"target"
+					"target",
+					"targetName"
 				]
-			},
-			"time": {
-				"eng": "TIME",
-				"trans": "WATCH"
 			},
 			"timeLeft": {
 				"eng": "${time}s",
@@ -13922,7 +14443,7 @@
 		},
 		"intro": {
 			"briefing": {
-				"eng": "STACK_BRIEFING",
+				"eng": "HOW TO PLAY",
 				"trans": "Crew Orders"
 			},
 			"eventClosed": {
@@ -13930,36 +14451,44 @@
 				"trans": "AFFAIR ENDED"
 			},
 			"eventInactive": {
-				"eng": "Summer event inactive",
+				"eng": "Heatwave Festival inactive",
 				"trans": "Summer event holdin anchor"
 			},
 			"eventLabel": {
-				"eng": "SUMMER_EVENT",
+				"eng": "HEATWAVE_FESTIVAL",
 				"trans": "FAIRWEATHER_FEAST"
 			},
 			"needPass": {
 				"eng": "NEED PASS",
 				"trans": "YER PASS IS NEEDED"
 			},
+			"passLabel": {
+				"eng": "ENTRY_PASS",
+				"trans": "BOARDING_PASS"
+			},
 			"rewardHint": {
-				"eng": "Reward bands pay summer materials and tech salvage.",
+				"eng": "Reward bands pay Heatwave materials and tech salvage.",
 				"trans": "Reward bands drop summer plunder and tech salvage."
 			},
 			"rule1": {
-				"eng": "Drag along the rail, release, and drop a summer sphere.",
+				"eng": "Move along the rail, then release to drop the current float.",
 				"trans": "Drag along the rail, let loose, and drop a summer sphere."
 			},
 			"rule2": {
-				"eng": "Match identical round objects to merge into larger floats.",
+				"eng": "Put two matching floats together to merge them into a bigger float.",
 				"trans": "Pair up identical round contraptions to fuse into larger floats."
 			},
 			"rule3": {
-				"eng": "Make the target float before time or drops run out.",
+				"eng": "Reach the target float before the timer or your drops run out.",
 				"trans": "Float the target afore time or drops run dry."
 			},
 			"rule4": {
-				"eng": "Only the terminal stage result consumes the pass and pays rewards.",
+				"eng": "Your pass is used when the run ends. Rewards depend on the last stage you cleared.",
 				"trans": "Only the final stage outcome claims yer pass and awards plunder."
+			},
+			"ruleCombo": {
+				"eng": "Chain merges pull nearby matching floats and can give back drops.",
+				"trans": "Chain mergin' pulls in matchin' floats an' may yield drops."
 			},
 			"start": {
 				"eng": "START STACK",
@@ -13976,17 +14505,96 @@
 				"trans": "RIGGING_THE_DECK"
 			}
 		},
-		"stageClear": {
-			"continue": {
-				"eng": "NEXT STAGE",
-				"trans": "NEXT PORT"
+		"results": {
+			"biggestLabel": {
+				"eng": "BIGGEST_FLOAT",
+				"trans": "Biggermost Drift"
 			},
-			"next": {
-				"eng": "Target tier secured. Continue stacking.",
-				"trans": "Haul secured. Keep stackin' the plunder."
+			"completeTitle": {
+				"eng": "RUN_COMPLETE",
+				"trans": "Voyage Complete"
+			},
+			"failedTitle": {
+				"eng": "RUN_FAILED",
+				"trans": "RUN_SCUTTLED"
+			},
+			"finish": {
+				"eng": "FINISH",
+				"trans": "SET SAIL"
+			},
+			"fullClearTitle": {
+				"eng": "FULL_CLEAR",
+				"trans": "BOUNTY CLAIMED"
+			},
+			"noFloat": {
+				"eng": "No float reached",
+				"trans": "Float Unclaimed"
+			},
+			"noRewardMessage": {
+				"eng": "No stage cleared. Pass consumed.",
+				"trans": "No stage conquered. Pass consumed."
+			},
+			"rewardMessage": {
+				"eng": "Rewards sent to your item inbox.",
+				"trans": "Booty delivered to yer locker."
+			},
+			"scoreLabel": {
+				"eng": "SCORE",
+				"trans": "TALLY"
+			},
+			"stageLabel": {
+				"eng": "STAGE",
+				"trans": "DECK"
+			},
+			"stageValue": {
+				"eng": "${stage}/${maxStage}",
+				"trans": "${stage}/${maxStage}",
+				"vars": [
+					"stage",
+					"maxStage"
+				]
+			}
+		},
+		"stageClear": {
+			"bestFloat": {
+				"eng": "BEST FLOAT",
+				"trans": "FINEST FLOAT"
+			},
+			"cleared": {
+				"eng": "Stage ${stage} cleared",
+				"trans": "Leg ${stage} Conquered",
+				"vars": [
+					"stage"
+				]
+			},
+			"continue": {
+				"eng": "START STAGE ${stage}",
+				"trans": "NEXT PORT",
+				"vars": [
+					"stage"
+				]
+			},
+			"kicker": {
+				"eng": "STAGE COMPLETE",
+				"trans": "COURSE COMPLETED"
+			},
+			"nextTarget": {
+				"eng": "Next stage: build ${target}",
+				"trans": "Next voyage: forge ${target}",
+				"vars": [
+					"target"
+				]
+			},
+			"score": {
+				"eng": "SCORE",
+				"trans": "TALLY"
+			},
+			"stageLabel": {
+				"eng": "STAGE",
+				"trans": "DECK"
 			},
 			"title": {
-				"eng": "STAGE_CLEAR",
+				"eng": "STAGE CLEAR",
 				"trans": "COURSE_CLEARED"
 			}
 		},
@@ -13996,21 +14604,21 @@
 				"trans": "Clear Out"
 			},
 			"message": {
-				"eng": "Reward submission failed or timed out. Do not retry this run. Contact support or exit.",
+				"eng": "Run could not be saved. Exit and contact support if rewards are missing.",
 				"trans": "Loot claim failed or timed out. Stand down from another run. Hail support or abandon ship."
 			},
 			"title": {
-				"eng": "SUBMISSION_UNCERTAIN",
+				"eng": "SAVE FAILED",
 				"trans": "Yer Submission Status Be Unknown"
 			}
 		},
 		"submitting": {
 			"message": {
-				"eng": "Terminal result locked. Do not retry.",
+				"eng": "Saving your run. Do not close this screen.",
 				"trans": "Terminal result be fastened. Do not trouble it twice."
 			},
 			"title": {
-				"eng": "SUBMITTING_RUN_DATA",
+				"eng": "SAVING RUN",
 				"trans": "SENDIN' RUN TALLY"
 			}
 		},
@@ -14054,6 +14662,23 @@
 			"waterBalloonOrb": {
 				"eng": "Water Balloon Orb",
 				"trans": "Brine Balloon Orb"
+			}
+		},
+		"toast": {
+			"chain": {
+				"eng": "CHAIN x${chainCount}",
+				"trans": "RAID x${chainCount}",
+				"vars": [
+					"chainCount"
+				]
+			},
+			"dropRefund": {
+				"eng": "DROP REFUND ${count}/${max}",
+				"trans": "RECLAIM BOOTY ${count}/${max}",
+				"vars": [
+					"count",
+					"max"
+				]
 			}
 		}
 	},
@@ -17234,6 +17859,20 @@
 		},
 		"timeSkip": {
 			"confirmModal": {
+				"confirmSpendUnits": {
+					"eng": "Spend ${units} units",
+					"trans": "Fork over ${units} units",
+					"vars": [
+						"units"
+					]
+				},
+				"cost": {
+					"eng": "Cost: ${units} units",
+					"trans": "Price: ${units} units",
+					"vars": [
+						"units"
+					]
+				},
 				"subtitle": {
 					"eng": "Global Skip will skip the waiting time for all players performing AFK task",
 					"trans": "Global Skip will skip th' waitin' time fer all crewmates performin' AFK task"
@@ -17279,6 +17918,21 @@
 					"eng": "Finish the task instantly for all players in the game and earn skip points to show your support to other players!",
 					"trans": "Global Skip allow ye t' skip th' AFK waitin' time, an' finish it instantly.\n    this effect will be applied t' all crewmate performin' AFK task"
 				},
+				"discountPercent": {
+					"eng": "${percent}%",
+					"trans": "${percent}%",
+					"vars": [
+						"percent"
+					]
+				},
+				"eventDiscount": {
+					"eng": "Event Discount",
+					"trans": "Event Bargain"
+				},
+				"longSkipDiscount": {
+					"eng": "Long Skip Discount",
+					"trans": "Long Skip Bargain"
+				},
 				"minute": {
 					"eng": "Skip ${minutes} minutes",
 					"trans": "Ahoy! Fast forward ${minutes} minutes, ye scurvy dog!",
@@ -17286,13 +17940,9 @@
 						"minutes"
 					]
 				},
-				"ticketItem": {
-					"eng": "${percent}% off from ${itemName}",
-					"trans": "Arrr, ${percent}% off fer yer ${itemName}!",
-					"vars": [
-						"itemName",
-						"percent"
-					]
+				"offLabel": {
+					"eng": "OFF",
+					"trans": "OFF"
 				},
 				"title2": {
 					"eng": "Finish Now",

@@ -1114,6 +1114,13 @@
 				"percent"
 			]
 		},
+		"eventDiscountTitle": {
+			"eng": "${eventName} Discount",
+			"trans": "${eventName} İndirimi\n<",
+			"vars": [
+				"eventName"
+			]
+		},
 		"hintBox": {
 			"text2": {
 				"eng": "When calibration train funding reaches 100%, the system will automatically deploy +1 to +10 calibration success rate and destruction prevention buffs in sequence with interval of ${deployInterval} minutes. the buff train will starting at the next designated time",
@@ -2440,6 +2447,10 @@
 		"donation53": {
 			"eng": "Lightwalker",
 			"trans": "Işık Yürüyeni"
+		},
+		"donation54": {
+			"eng": "Vice Heat",
+			"trans": "Karanlık Gerilim"
 		},
 		"donation6": {
 			"eng": "Prestige",
@@ -3883,8 +3894,18 @@
 				"trans": "Yaz"
 			},
 			"topUpRewardTitle": {
-				"eng": "Summer Bonus",
+				"eng": "Heatwave Festival Bonus",
 				"trans": "Yaz Bonusu"
+			}
+		},
+		"summerNights": {
+			"eventGame": {
+				"eng": "Neon Nights Grid",
+				"trans": "Neon Gece Izgarası"
+			},
+			"name": {
+				"eng": "Summer Nights",
+				"trans": "Yaz Geceleri"
 			}
 		},
 		"thanksgiving": {
@@ -4241,6 +4262,13 @@
 			"trans": "Erken katkıda bulunanlar için ${percent}% indirim!",
 			"vars": [
 				"percent"
+			]
+		},
+		"eventDiscountTitle": {
+			"eng": "${eventName} Discount",
+			"trans": "${eventName} İndirimi\n<",
+			"vars": [
+				"eventName"
 			]
 		},
 		"hint": {
@@ -5604,6 +5632,16 @@
 				"trans": "Füze Komuta Paketi"
 			}
 		},
+		"neonNightsPass": {
+			"description": {
+				"eng": "A neon boardwalk access pass required to initialize Neon Nights Grid during the Summer Nights event. Can be found from AFK farming during Summer Nights.",
+				"trans": "Yaz Geceleri etkinliği sırasında Neon Nights Grid'i başlatmak için gereken neon yürüyüş yolu erişim geçidi. Yaz Geceleri boyunca AFK çiftçiliği ile elde edilebilir."
+			},
+			"name": {
+				"eng": "Neon Nights Pass",
+				"trans": "Neon Geceler Bileti"
+			}
+		},
 		"newYear": {
 			"description": {
 				"eng": "A red envelope with a golden digital seal on it. looks like it contains some sort of currency",
@@ -5961,7 +5999,7 @@
 		},
 		"solarFloatPass": {
 			"description": {
-				"eng": "A sealed beach access pass required to initialize Solar Float Stack during the Summer event.",
+				"eng": "A sealed beach access pass required to initialize Solar Float Stack during Heatwave Festival.",
 				"trans": "Yaz etkinliği süresince Solar Float Yığıdı'nı başlatmak için gereken mühürlü plaj erişim kartı."
 			},
 			"name": {
@@ -9219,6 +9257,437 @@
 		"viewProfile": {
 			"eng": "View Profile",
 			"trans": "Profili Görüntüle"
+		}
+	},
+	"neonNightsGrid": {
+		"button": {
+			"subtitle": {
+				"eng": "BOARDWALK LIGHT CIRCUIT",
+				"trans": "İskele Aydınlatma Devresi\n<"
+			},
+			"title": {
+				"eng": "NEON NIGHTS GRID",
+				"trans": "Neon Geceler İzgarası\n<"
+			}
+		},
+		"canvas": {
+			"label": {
+				"eng": "Neon Nights Grid playfield. Drag tray pieces onto the 8 by 8 board.",
+				"trans": "Neon Nights Grid oyun alanı. Tepsideki parçaları 8x8 tahtaya sürükleyin."
+			}
+		},
+		"drag": {
+			"occupied": {
+				"eng": "OCCUPIED",
+				"trans": "DOLU"
+			},
+			"offGrid": {
+				"eng": "OFF GRID",
+				"trans": "AĞ DIŞI"
+			}
+		},
+		"entry": {
+			"eventEnded": {
+				"eng": "Summer Nights is not active.",
+				"trans": "Yaz Geceleri aktif değil."
+			},
+			"noPass": {
+				"eng": "You need a ${itemName} to enter Neon Nights Grid.",
+				"trans": "Neon Nights Grid'e girmek için ${itemName} gerekiyor.",
+				"vars": [
+					"itemName"
+				]
+			}
+		},
+		"error": {
+			"close": {
+				"eng": "EXIT",
+				"trans": "ÇIKIŞ"
+			},
+			"message": {
+				"eng": "Submission interrupted. Reward sync status is unknown.",
+				"trans": "Gönderim kesintiye uğradı. Ödül senkronizasyon durumu bilinmiyor."
+			},
+			"title": {
+				"eng": "SYNC STATUS UNKNOWN",
+				"trans": "SENKRONİZASYON DURUMU BİLİNMIYOR\n</t"
+			},
+			"verify": {
+				"eng": "Exit, then verify inventory/event log before starting another run.",
+				"trans": "Çıkış yap, ardından yeni bir tur başlatmadan önce envanter ve olay günlüğünü kontrol et."
+			}
+		},
+		"exit": {
+			"eng": "Exit",
+			"trans": "Çıkış"
+		},
+		"feedback": {
+			"comboLost": {
+				"eng": "COMBO LOST",
+				"trans": "KOMBO KIRILDI"
+			},
+			"invalid": {
+				"eng": "INVALID FIT",
+				"trans": "HATALI YERLEŞİM\n<"
+			},
+			"lineClearCombo": {
+				"eng": "+${score} LINE CLEAR x${combo}",
+				"trans": "+${score} SATIR TEMIZLEME x${combo}",
+				"vars": [
+					"score",
+					"combo"
+				]
+			},
+			"lineClearScore": {
+				"eng": "+${score} LINE CLEAR",
+				"trans": "+${score} SATIR TEMIZLE",
+				"vars": [
+					"score"
+				]
+			},
+			"maxScore": {
+				"eng": "MAX TIER SYNCED",
+				"trans": "MAKSİMUM DÜZEY SENKRONİZASYONU\n</"
+			},
+			"noFit": {
+				"eng": "NO FIT FOUND",
+				"trans": "UYGUN EŞLEŞME BULUNAMADI"
+			},
+			"occupied": {
+				"eng": "OCCUPIED",
+				"trans": "DOLU"
+			},
+			"offGrid": {
+				"eng": "OFF GRID",
+				"trans": "AĞ DIŞI"
+			},
+			"placedScore": {
+				"eng": "+${score} PLACED",
+				"trans": "+${score} YERLEŞTİRİLDİ\n</t",
+				"vars": [
+					"score"
+				]
+			},
+			"timeout": {
+				"eng": "TIME EXPIRED",
+				"trans": "SÜRE DOLDU"
+			}
+		},
+		"finish": {
+			"eng": "Finish",
+			"trans": "Bitir"
+		},
+		"gameOver": {
+			"subtitle": {
+				"eng": "No reward tier reached. Pass consumed.",
+				"trans": "Ödül seviyesi elde edilmedi. Bilet harcandı."
+			},
+			"title": {
+				"eng": "GRID LOCKED",
+				"trans": "IZGARA KİLİT</"
+			}
+		},
+		"hint": {
+			"drag": {
+				"eng": "Drag tray pieces onto the board",
+				"trans": "Tepsideki parçaları ızgaraya sürükle"
+			}
+		},
+		"hud": {
+			"comboValue": {
+				"eng": "Combo: x${combo}",
+				"trans": "Kombo: x${combo}",
+				"vars": [
+					"combo"
+				]
+			},
+			"linesValue": {
+				"eng": "Lines: ${lines}",
+				"trans": "Satırlar: ${lines}",
+				"vars": [
+					"lines"
+				]
+			},
+			"maxTier": {
+				"eng": "MAX",
+				"trans": "MAKS"
+			},
+			"nextValue": {
+				"eng": "Next: ${threshold}",
+				"trans": "Sonraki: ${threshold}",
+				"vars": [
+					"threshold"
+				]
+			},
+			"piecesValue": {
+				"eng": "Pieces: ${pieces}",
+				"trans": "Parça: ${pieces}",
+				"vars": [
+					"pieces"
+				]
+			},
+			"score": {
+				"eng": "Score",
+				"trans": "Skor"
+			},
+			"seconds": {
+				"eng": "${seconds}s",
+				"trans": "${seconds} sn",
+				"vars": [
+					"seconds"
+				]
+			},
+			"tier": {
+				"eng": "Tier",
+				"trans": "Seviye"
+			},
+			"time": {
+				"eng": "Time",
+				"trans": "Zaman"
+			}
+		},
+		"intro": {
+			"briefing": {
+				"eng": "GRID_BRIEFING",
+				"trans": "Şebeke Ön Bilgisi"
+			},
+			"combo": {
+				"eng": "Consecutive line clears build a combo. Complete a full 3-piece tray with no line clear and it resets.",
+				"trans": "Arka arkaya satır silmek combo oluşturur. Hiç satır silmeden 3'lü tepsini tamamlarsan combo sıfırlanır."
+			},
+			"eventClosed": {
+				"eng": "EVENT CLOSED",
+				"trans": "ETKİNLİK KAPALI\n</"
+			},
+			"eventInactive": {
+				"eng": "Summer Nights inactive",
+				"trans": "Yaz Geceleri Pasif"
+			},
+			"eventLabel": {
+				"eng": "Summer Nights",
+				"trans": "Yaz Geceleri"
+			},
+			"needPass": {
+				"eng": "NEED PASS",
+				"trans": "GEÇİT GEREKLİ\n</"
+			},
+			"passLabel": {
+				"eng": "ENTRY_PASS",
+				"trans": "GİRİŞ BİLETİ</tr"
+			},
+			"rewardHint": {
+				"eng": "Reward tiers pay Summer Nights seashells and tech salvage.",
+				"trans": "Ödül kademeleri Summer Nights deniz kabukları ve teknolojik hurda verir."
+			},
+			"rule1": {
+				"eng": "Drag one of three neon blocks onto the 8x8 board.",
+				"trans": "Üç neon bloktan birini 8x8'lik tahtaya sürükleyin."
+			},
+			"rule2": {
+				"eng": "Fill full rows or columns to clear lines and score.",
+				"trans": "Satır veya sütunları tamamen doldurarak çizgileri temizleyip puan kazanın."
+			},
+			"rule3": {
+				"eng": "Score thresholds advance reward tiers during one continuous ${seconds}s run.",
+				"trans": "Kesintisiz ${seconds} saniyelik tek turda puan eşikleri ödül kademelerini ilerletir.",
+				"vars": [
+					"seconds"
+				]
+			},
+			"rule4": {
+				"eng": "Timeout submits the tier reached; ${score} score wins tier ${tier}.",
+				"trans": "Süre dolduğunda ulaşılan seviye kaydedilir; ${score} puan ile ${tier}. seviyeye ulaşılır.",
+				"vars": [
+					"score",
+					"tier"
+				]
+			},
+			"rule5": {
+				"eng": "If none of the current pieces can fit, the run ends and submits your reached tier.",
+				"trans": "Mevcut parçalardan hiçbiri sığamıyorsa tur sona erer ve ulaştığınız seviye gönderilir."
+			},
+			"start": {
+				"eng": "START GRID",
+				"trans": "BAŞLAT"
+			},
+			"title": {
+				"eng": "Neon Nights Grid",
+				"trans": "Neon Gece Izgarası"
+			}
+		},
+		"loading": {
+			"title": {
+				"eng": "INITIALIZING_GRID",
+				"trans": "Ağ Başlatılıyor"
+			}
+		},
+		"results": {
+			"maxTitle": {
+				"eng": "MAX TIER SYNCED",
+				"trans": "MAKSİMUM DÜZEY SENKRONİZASYONU\n</"
+			},
+			"noRewards": {
+				"eng": "No rewards returned",
+				"trans": "Kazanılan ödül yok"
+			},
+			"rewards": {
+				"eng": "Summer Nights Rewards",
+				"trans": "Yaz Geceleri Ödülleri"
+			},
+			"seconds": {
+				"eng": "${seconds}s",
+				"trans": "${seconds} sn",
+				"vars": [
+					"seconds"
+				]
+			},
+			"tier": {
+				"eng": "Tier ${tier} neon circuit cleared",
+				"trans": "Seviye ${tier} neon devresi tamamlandı",
+				"vars": [
+					"tier"
+				]
+			},
+			"title": {
+				"eng": "REWARD TIER SYNCED",
+				"trans": "Ödül Kademesi Eşlendi"
+			}
+		},
+		"stats": {
+			"achievedTier": {
+				"eng": "Achieved Tier",
+				"trans": "Ulaşılan Kademe"
+			},
+			"bestCombo": {
+				"eng": "Best Combo",
+				"trans": "En İyi Kombo\n<"
+			},
+			"combo": {
+				"eng": "Combo",
+				"trans": "Kombo"
+			},
+			"lines": {
+				"eng": "Lines",
+				"trans": "Satırlar"
+			},
+			"linesCleared": {
+				"eng": "Lines Cleared",
+				"trans": "Temizlenen Satır"
+			},
+			"remaining": {
+				"eng": "Remain",
+				"trans": "Kalan"
+			},
+			"score": {
+				"eng": "Score",
+				"trans": "Skor"
+			}
+		},
+		"submission": {
+			"doNotRetry": {
+				"eng": "Submission interrupted. Do not retry this run.",
+				"trans": "Gönderim kesildi. Bu işlemi yeniden denemeyin."
+			},
+			"localOutcome": {
+				"eng": "LOCAL OUTCOME",
+				"trans": "YEREL SONUÇ"
+			},
+			"localResultShown": {
+				"eng": "Local result shown above. Server sync status unknown.",
+				"trans": "Yerel sonuç yukarıda gösteriliyor. Sunucu senkronizasyonu durumu bilinmiyor."
+			},
+			"noRetry": {
+				"eng": "Exit, then verify inventory/event log before starting another run.",
+				"trans": "Çıkış yap, ardından yeni bir tur başlatmadan önce envanter ve olay günlüğünü kontrol et."
+			},
+			"outcomeMaxTier": {
+				"eng": "MAX TIER",
+				"trans": "MAKS KADEME"
+			},
+			"outcomeNoFit": {
+				"eng": "NO FIT",
+				"trans": "Sığmıyor"
+			},
+			"outcomeTimeout": {
+				"eng": "TIME EXPIRED",
+				"trans": "SÜRE DOLDU"
+			},
+			"outcomeUnknown": {
+				"eng": "RUN ENDED",
+				"trans": "TUR SONA ERDİ\n<"
+			},
+			"syncUnknown": {
+				"eng": "REWARD SYNC UNKNOWN",
+				"trans": "ÖDÜL SENKRONİZASYONU BİLİNMIYOR</t"
+			}
+		},
+		"submitting": {
+			"subtitle": {
+				"eng": "Submitting final tier. Do not close.",
+				"trans": "Son aşama gönderiliyor. Kapatmayın."
+			},
+			"title": {
+				"eng": "SYNCING RUN DATA",
+				"trans": "RUN VERİLERİ SENKRONIZE EDİLİYOR\n</tr"
+			}
+		},
+		"tierUp": {
+			"title": {
+				"eng": "Tier ${tier} Synced",
+				"trans": "${tier}. Seviye Senkronize Edildi",
+				"vars": [
+					"tier"
+				]
+			}
+		},
+		"vfx": {
+			"combo": {
+				"eng": "COMBO x${combo}",
+				"trans": "KOMBO x${combo}",
+				"vars": [
+					"combo"
+				]
+			},
+			"endTier": {
+				"eng": "TIER ${tier}",
+				"trans": "SEVİYE ${tier}\n<",
+				"vars": [
+					"tier"
+				]
+			},
+			"maxGridSync": {
+				"eng": "MAX GRID SYNC",
+				"trans": "MAKSİMUM IZGARA SENKRONİZASYONU\n</"
+			},
+			"noFitFound": {
+				"eng": "NO FIT FOUND",
+				"trans": "UYGUN EŞLEŞME BULUNAMADI"
+			},
+			"scoreGain": {
+				"eng": "+${score}",
+				"trans": "+${score}",
+				"vars": [
+					"score"
+				]
+			},
+			"tierSync": {
+				"eng": "TIER ${tier} SYNC",
+				"trans": "SEVİYE ${tier} SENKRONU\n<",
+				"vars": [
+					"tier"
+				]
+			},
+			"timeExpired": {
+				"eng": "TIME EXPIRED",
+				"trans": "SÜRE DOLDU"
+			},
+			"timer": {
+				"eng": "T-${seconds}",
+				"trans": "T-${seconds}",
+				"vars": [
+					"seconds"
+				]
+			}
 		}
 	},
 	"newYearFireworks": {
@@ -13779,13 +14248,40 @@
 			"trans": "Hepsini al"
 		}
 	},
+	"summerNightsPromo": {
+		"subtitle": {
+			"eng": "Miami neon hits the coast. Collect seashells, trade with Josie, and run Neon Nights Grid.",
+			"trans": "Miami'nin neon ışıkları sahile vuruyor. Deniz kabuklarını topla, Josie ile takas et ve Neon Nights Grid'i oyna."
+		},
+		"title": {
+			"eng": "Summer Nights",
+			"trans": "Yaz Geceleri"
+		}
+	},
+	"summerNightsPromoSmall": {
+		"desc1": {
+			"eng": "Neon Nights Grid is live at Crystal Beach.",
+			"trans": "Neon Nights Grid, Crystal Beach'te aktif."
+		},
+		"desc2": {
+			"eng": "Collect ${item} and trade with Josie.",
+			"trans": "${item}'i topla ve Josie ile takas yap.",
+			"vars": [
+				"item"
+			]
+		},
+		"title": {
+			"eng": "Summer Nights",
+			"trans": "Yaz Geceleri"
+		}
+	},
 	"summerPromo": {
 		"subtitle": {
-			"eng": "Its time for the summer beach! don't miss out on the fun!",
+			"eng": "Heat is rising on the coast. Collect seashells, trade with Josie, and run Solar Float Stack.",
 			"trans": "Yaz plajı zamanı! Eğlenceyi kaçırma!"
 		},
 		"title": {
-			"eng": "Summer Fiesta Event",
+			"eng": "Heatwave Festival",
 			"trans": "Yaz Fiesta Etkinliği"
 		}
 	},
@@ -13805,14 +14301,44 @@
 			]
 		},
 		"title": {
-			"eng": "Summer Fiesta: Don't Miss Out!",
+			"eng": "Heatwave Festival",
 			"trans": "Yaz Fiesta'sını Kaçırmayın!"
 		}
 	},
 	"summerStack": {
+		"assets": {
+			"exit": {
+				"eng": "EXIT",
+				"trans": "ÇIKIŞ"
+			},
+			"failedMessage": {
+				"eng": "Required stack art did not load. No pass was consumed.",
+				"trans": "Gerekli yığın görseli yüklenemedi. Geçiş harcanmadı."
+			},
+			"failedTitle": {
+				"eng": "ASSET_LOAD_FAILED",
+				"trans": "Varlık Yüklenemedi"
+			},
+			"loadingMessage": {
+				"eng": "Preparing required float sprites.",
+				"trans": "Gerekli yüzen grafikler hazırlanıyor."
+			},
+			"loadingTitle": {
+				"eng": "LOADING_STACK_ASSETS",
+				"trans": "VARLIKLAR YÜKLENİYOR\n<"
+			},
+			"retry": {
+				"eng": "RETRY",
+				"trans": "TEKRAR DENE"
+			}
+		},
 		"button": {
+			"enter": {
+				"eng": "Play",
+				"trans": "Oyna"
+			},
 			"subtitle": {
-				"eng": "CONTAINMENT STACK COURSE",
+				"eng": "BEACH FLOAT MERGE",
 				"trans": "İZOLASYON YIĞINI KURSU<"
 			},
 			"title": {
@@ -13820,18 +14346,9 @@
 				"trans": "SOLAR YÜZEN SET"
 			}
 		},
-		"complete": {
-			"notification": {
-				"eng": "Solar Float Stack cleared through stage ${stage}. Rewards sent to inbox.",
-				"trans": "Solar Float Stack ${stage} aşamasına kadar tamamlandı. Ödüller gelen kutusuna gönderildi.",
-				"vars": [
-					"stage"
-				]
-			}
-		},
 		"entry": {
 			"eventEnded": {
-				"eng": "The summer event is not active.",
+				"eng": "The Heatwave Festival is not active.",
 				"trans": "Yaz etkinliği aktif değil."
 			},
 			"noPass": {
@@ -13856,13 +14373,11 @@
 				"trans": "Çalışma Zamanı Hatası"
 			}
 		},
-		"failed": {
-			"notification": {
-				"eng": "Solar Float Stack failed. Pass consumed.",
-				"trans": "Solar Float Stack başarısız oldu. Geçiş hakkı kullanıldı."
-			}
-		},
 		"hud": {
+			"currentFloat": {
+				"eng": "CURRENT",
+				"trans": "MEVCUT"
+			},
 			"drops": {
 				"eng": "DROPS",
 				"trans": "Ganimet"
@@ -13874,9 +14389,9 @@
 					"dropsLeft"
 				]
 			},
-			"lossRules": {
-				"eng": "Lose if time hits 0 or drops run out before target is made.",
-				"trans": "Süre sıfıra düşerse veya drop'lar biterse hedef tamamlanmadan önce kaybedersin."
+			"nextFloat": {
+				"eng": "NEXT",
+				"trans": "SONRAKİ\n<"
 			},
 			"stage": {
 				"eng": "STAGE ${stage}",
@@ -13885,24 +14400,30 @@
 					"stage"
 				]
 			},
-			"target": {
-				"eng": "Make ${targetName} to clear this stage.",
-				"trans": "Bu bölüyü geçmek için ${targetName}'i yok et.",
+			"surge": {
+				"eng": "SURGE",
+				"trans": "Yükselme"
+			},
+			"surgeCharge": {
+				"eng": "${charge}/${required}",
+				"trans": "${charge}/${required}",
 				"vars": [
-					"targetName"
+					"charge",
+					"required"
 				]
 			},
+			"surgeReady": {
+				"eng": "READY",
+				"trans": "HAZIR"
+			},
 			"targetProgress": {
-				"eng": "${current}/${target}",
+				"eng": "${current}/${target} • ${targetName}",
 				"trans": "${current}/${target}",
 				"vars": [
 					"current",
-					"target"
+					"target",
+					"targetName"
 				]
-			},
-			"time": {
-				"eng": "TIME",
-				"trans": "ZAMAN"
 			},
 			"timeLeft": {
 				"eng": "${time}s",
@@ -13922,7 +14443,7 @@
 		},
 		"intro": {
 			"briefing": {
-				"eng": "STACK_BRIEFING",
+				"eng": "HOW TO PLAY",
 				"trans": "OPERASYON BİLGİSİ</t"
 			},
 			"eventClosed": {
@@ -13930,36 +14451,44 @@
 				"trans": "ETKİNLİK KAPALI\n</"
 			},
 			"eventInactive": {
-				"eng": "Summer event inactive",
+				"eng": "Heatwave Festival inactive",
 				"trans": "Yaz etkinliği aktif değil"
 			},
 			"eventLabel": {
-				"eng": "SUMMER_EVENT",
+				"eng": "HEATWAVE_FESTIVAL",
 				"trans": "Yaz Etkinliği"
 			},
 			"needPass": {
 				"eng": "NEED PASS",
 				"trans": "YETKİ GEREKLİ\n</"
 			},
+			"passLabel": {
+				"eng": "ENTRY_PASS",
+				"trans": "GİRİŞ BİLETİ</tr"
+			},
 			"rewardHint": {
-				"eng": "Reward bands pay summer materials and tech salvage.",
+				"eng": "Reward bands pay Heatwave materials and tech salvage.",
 				"trans": "Ödül bantları yaz materyalleri ve teknik kurtarma sağlar."
 			},
 			"rule1": {
-				"eng": "Drag along the rail, release, and drop a summer sphere.",
+				"eng": "Move along the rail, then release to drop the current float.",
 				"trans": "Ray üzerinde sürükleyip serbest bırakarak yaz küresini düşürün."
 			},
 			"rule2": {
-				"eng": "Match identical round objects to merge into larger floats.",
+				"eng": "Put two matching floats together to merge them into a bigger float.",
 				"trans": "Eş yuvarlak nesneleri birleştirerek daha büyük yüzen platformlar oluşturun."
 			},
 			"rule3": {
-				"eng": "Make the target float before time or drops run out.",
+				"eng": "Reach the target float before the timer or your drops run out.",
 				"trans": "Zaman veya düşen öğeler tükenmeden hedefi yüzdür."
 			},
 			"rule4": {
-				"eng": "Only the terminal stage result consumes the pass and pays rewards.",
+				"eng": "Your pass is used when the run ends. Rewards depend on the last stage you cleared.",
 				"trans": "Sadece son aşama sonucu geçişi harcar ve ödül verir."
+			},
+			"ruleCombo": {
+				"eng": "Chain merges pull nearby matching floats and can give back drops.",
+				"trans": "Zincirleme birleşimler yakındaki eşleşen yüzenleri çeker ve ganimet verebilir."
 			},
 			"start": {
 				"eng": "START STACK",
@@ -13976,17 +14505,96 @@
 				"trans": "SİSTEM BAŞLATILIYOR\n<"
 			}
 		},
-		"stageClear": {
-			"continue": {
-				"eng": "NEXT STAGE",
-				"trans": "SONRAKI AŞAMA"
+		"results": {
+			"biggestLabel": {
+				"eng": "BIGGEST_FLOAT",
+				"trans": "EN BÜYÜK KAYAN DEĞER"
 			},
-			"next": {
-				"eng": "Target tier secured. Continue stacking.",
-				"trans": "Hedef kademe tamamlandı. Biriktirmeye devam et."
+			"completeTitle": {
+				"eng": "RUN_COMPLETE",
+				"trans": "TAMAMLANDI"
+			},
+			"failedTitle": {
+				"eng": "RUN_FAILED",
+				"trans": "GÖREV BAŞARISIZ"
+			},
+			"finish": {
+				"eng": "FINISH",
+				"trans": "BİTİR\n</"
+			},
+			"fullClearTitle": {
+				"eng": "FULL_CLEAR",
+				"trans": "MÜKEMMEL GEÇİŞ\n<"
+			},
+			"noFloat": {
+				"eng": "No float reached",
+				"trans": "Yüzen hedefe ulaşılamadı"
+			},
+			"noRewardMessage": {
+				"eng": "No stage cleared. Pass consumed.",
+				"trans": "Hiç aşama geçilemedi. Geçiş hakkı tüketildi."
+			},
+			"rewardMessage": {
+				"eng": "Rewards sent to your item inbox.",
+				"trans": "Ödülleriniz gelen kutunuza gönderildi."
+			},
+			"scoreLabel": {
+				"eng": "SCORE",
+				"trans": "PUAN"
+			},
+			"stageLabel": {
+				"eng": "STAGE",
+				"trans": "SEVİYE\n<"
+			},
+			"stageValue": {
+				"eng": "${stage}/${maxStage}",
+				"trans": "${stage}/${maxStage}",
+				"vars": [
+					"stage",
+					"maxStage"
+				]
+			}
+		},
+		"stageClear": {
+			"bestFloat": {
+				"eng": "BEST FLOAT",
+				"trans": "EN İYİ YÜZEN\n</"
+			},
+			"cleared": {
+				"eng": "Stage ${stage} cleared",
+				"trans": "Bölüm ${stage} geçildi",
+				"vars": [
+					"stage"
+				]
+			},
+			"continue": {
+				"eng": "START STAGE ${stage}",
+				"trans": "SONRAKI AŞAMA",
+				"vars": [
+					"stage"
+				]
+			},
+			"kicker": {
+				"eng": "STAGE COMPLETE",
+				"trans": "ETAP TAMAMLANDI"
+			},
+			"nextTarget": {
+				"eng": "Next stage: build ${target}",
+				"trans": "Sonraki aşama: ${target} inşa et",
+				"vars": [
+					"target"
+				]
+			},
+			"score": {
+				"eng": "SCORE",
+				"trans": "PUAN"
+			},
+			"stageLabel": {
+				"eng": "STAGE",
+				"trans": "SEVİYE\n<"
 			},
 			"title": {
-				"eng": "STAGE_CLEAR",
+				"eng": "STAGE CLEAR",
 				"trans": "SEVİYE TAMAMLANDI\n<"
 			}
 		},
@@ -13996,21 +14604,21 @@
 				"trans": "ÇIKIŞ"
 			},
 			"message": {
-				"eng": "Reward submission failed or timed out. Do not retry this run. Contact support or exit.",
+				"eng": "Run could not be saved. Exit and contact support if rewards are missing.",
 				"trans": "Ödül gönderimi başarısız oldu veya zaman aşımı yaşandı. Bu denemeyi tekrarlamayın. Destek ekibiyle iletişime geçin veya çıkın."
 			},
 			"title": {
-				"eng": "SUBMISSION_UNCERTAIN",
+				"eng": "SAVE FAILED",
 				"trans": "Gönderim Durumu Belirsiz"
 			}
 		},
 		"submitting": {
 			"message": {
-				"eng": "Terminal result locked. Do not retry.",
+				"eng": "Saving your run. Do not close this screen.",
 				"trans": "Terminal sonucu kilitli. Tekrar denemeyin."
 			},
 			"title": {
-				"eng": "SUBMITTING_RUN_DATA",
+				"eng": "SAVING RUN",
 				"trans": "Oturum Verisi Gönderiliyor"
 			}
 		},
@@ -14054,6 +14662,23 @@
 			"waterBalloonOrb": {
 				"eng": "Water Balloon Orb",
 				"trans": "Su Topu Küresi"
+			}
+		},
+		"toast": {
+			"chain": {
+				"eng": "CHAIN x${chainCount}",
+				"trans": "COMBO x${chainCount}",
+				"vars": [
+					"chainCount"
+				]
+			},
+			"dropRefund": {
+				"eng": "DROP REFUND ${count}/${max}",
+				"trans": "BIRAKILAN İADESİ ${count}/${max}</",
+				"vars": [
+					"count",
+					"max"
+				]
 			}
 		}
 	},
@@ -17234,6 +17859,20 @@
 		},
 		"timeSkip": {
 			"confirmModal": {
+				"confirmSpendUnits": {
+					"eng": "Spend ${units} units",
+					"trans": "${units} birim harca",
+					"vars": [
+						"units"
+					]
+				},
+				"cost": {
+					"eng": "Cost: ${units} units",
+					"trans": "Maliyet: ${units} birim",
+					"vars": [
+						"units"
+					]
+				},
 				"subtitle": {
 					"eng": "Global Skip will skip the waiting time for all players performing AFK task",
 					"trans": "Küresel hızlandırma, AFK görevinde olan tüm oyuncuları etkiliyecektir"
@@ -17279,6 +17918,21 @@
 					"eng": "Finish the task instantly for all players in the game and earn skip points to show your support to other players!",
 					"trans": "Küresel Hızlandırma, AFK bekleme süresini geçmenizi ve anında bitirmenizi sağlar.\r\n     Bu etki, AFK görevinde olan tüm oyunculara uygulanacaktır"
 				},
+				"discountPercent": {
+					"eng": "${percent}%",
+					"trans": "${percent}%",
+					"vars": [
+						"percent"
+					]
+				},
+				"eventDiscount": {
+					"eng": "Event Discount",
+					"trans": "Etkinlik İndirimi\n<"
+				},
+				"longSkipDiscount": {
+					"eng": "Long Skip Discount",
+					"trans": "Uzun Atlama İndirimi\n<"
+				},
 				"minute": {
 					"eng": "Skip ${minutes} minutes",
 					"trans": "${minutes} birimleri",
@@ -17286,13 +17940,9 @@
 						"minutes"
 					]
 				},
-				"ticketItem": {
-					"eng": "${percent}% off from ${itemName}",
-					"trans": "${percent}% indirim ${itemName}'den",
-					"vars": [
-						"itemName",
-						"percent"
-					]
+				"offLabel": {
+					"eng": "OFF",
+					"trans": "KAPALI"
 				},
 				"title2": {
 					"eng": "Finish Now",
