@@ -8,6 +8,7 @@ Mentor to doświadczony gracz, który prowadzi uprawnionych podopiecznych przez 
 - Konto podopiecznego nie może mieć więcej niż `60` dni.
 - Musisz mieć co najmniej poziom `200`.
 - Przy wyborze i ponownie na poziomie `50` system sprawdza dodatkowe konta podopiecznego oraz pozostałe warunki. Nagrody nie są gwarantowane.
+- Ani podopieczny, ani mentor nie mogą mieć innych kont. Jeśli któreś z nich takie ma, mentoring automatycznie staje się nieuprawniony i nie jest przyznawana żadna nagroda mentora ani punkt mentoringu.
 
 ## Jak podopieczny wybiera mnie?
 1. Podopieczny otwiera twój profil gracza.

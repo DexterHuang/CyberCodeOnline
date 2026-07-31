@@ -8,6 +8,7 @@ A Guide be an experienced player who steers eligible deckhands through their ear
 - The deckhand's account must be no older than `60` days.
 - Ye must be at least level `200`.
 - The system checks the deckhand's alt accounts and other rules at selection and again at level `50`. Rewards be never guaranteed.
+- Neither the deckhand nor the Guide can have other accounts. If either does, the guidin' automatically be ineligible, and no Guide reward or guidin' point be granted.
 
 ## How does a deckhand choose me?
 1. The deckhand opens yer player profile.

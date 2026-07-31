@@ -8,6 +8,7 @@ Un mentore è un giocatore esperto che guida gli allievi idonei durante i primi 
 - L'account dell'allievo non deve avere più di `60` giorni.
 - Devi essere almeno di livello `200`.
 - Il sistema controlla gli account alternativi dell'allievo e gli altri requisiti al momento della scelta e di nuovo al livello `50`. Le ricompense non sono garantite.
+- Né l'allievo né il mentore possono avere altri account. Se uno dei due ne ha, il tutoraggio diventa automaticamente non idoneo e non viene assegnata alcuna ricompensa da mentore né alcun punto di tutoraggio.
 
 ## Come fa un allievo a scegliermi?
 1. L'allievo apre il tuo profilo giocatore.

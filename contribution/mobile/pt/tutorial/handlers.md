@@ -8,6 +8,7 @@ Um mentor é um jogador experiente que orienta aprendizes elegíveis durante os 
 - A conta do aprendiz deve ter no máximo `60` dias.
 - Você deve ter pelo menos nível `200`.
 - O sistema verifica as contas alternativas do aprendiz e outros requisitos no momento da escolha e novamente no nível `50`. As recompensas não são garantidas.
+- Nem o aprendiz nem o mentor podem ter outras contas. Se qualquer um deles tiver, a mentoria fica automaticamente inelegível e nenhuma recompensa de mentor ou ponto de mentoria é concedida.
 
 ## Como um aprendiz me escolhe?
 1. O aprendiz abre o seu perfil de jogador.

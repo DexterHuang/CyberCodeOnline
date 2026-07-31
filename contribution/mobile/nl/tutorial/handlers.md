@@ -8,6 +8,7 @@ Een mentor is een ervaren speler die geschikte mentees tijdens hun eerste levels
 - Het account van de mentee mag niet ouder zijn dan `60` dagen.
 - Je moet minstens level `200` zijn.
 - Bij de keuze en opnieuw op level `50` controleert het systeem de alternatieve accounts van de mentee en andere voorwaarden. Beloningen zijn niet gegarandeerd.
+- Noch de mentee, noch de mentor mag andere accounts hebben. Als een van beiden dat wel heeft, wordt het mentorschap automatisch ongeldig en krijg je geen mentorbeloning of mentorschapspunt.
 
 ## Hoe kiest een mentee mij?
 1. De mentee opent je spelersprofiel.

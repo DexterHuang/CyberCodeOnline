@@ -8,6 +8,7 @@ Rehber, uygun yeni oyunculara ilk seviyelerinde yardımcı olan deneyimli bir oy
 - Yeni oyuncunun hesabı `60` günden eski olmamalı.
 - En az seviye `200` olmalısın.
 - Sistem, seçim sırasında ve tekrar seviye `50`'de yeni oyuncunun alt hesaplarını ve diğer koşulları kontrol eder. Ödüller garanti değildir.
+- Ne yeni oyuncunun ne de rehberin başka hesabı olamaz. İkisinden birinde varsa, rehberlik otomatik olarak geçersiz olur ve ne rehber ödülü ne de rehberlik puanı verilir.
 
 ## Yeni oyuncu beni nasıl seçer?
 1. Yeni oyuncu senin oyuncu profilini açar.

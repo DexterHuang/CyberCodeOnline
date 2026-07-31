@@ -8,6 +8,7 @@ Ein Mentor ist ein erfahrener Spieler, der berechtigte Schützlinge bei ihrem Ei
 - Das Konto des Schützlings darf nicht älter als `60` Tage sein.
 - Du musst mindestens Level `200` haben.
 - Das System prüft bei der Auswahl und erneut auf Level `50` die Zweitkonten des Schützlings sowie weitere Voraussetzungen. Belohnungen sind nicht garantiert.
+- Weder Schützling noch Mentor dürfen andere Konten haben. Hat einer von beiden weitere Konten, ist die Mentorschaft automatisch nicht mehr berechtigt, und es wird weder eine Mentor-Belohnung noch ein Mentorpunkt vergeben.
 
 ## Wie wählt mich ein Schützling?
 1. Der Schützling öffnet dein Spielerprofil.

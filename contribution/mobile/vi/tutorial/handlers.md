@@ -8,6 +8,7 @@ Người hướng dẫn là người chơi giàu kinh nghiệm giúp các học 
 - Tài khoản học viên không được quá `60` ngày tuổi.
 - Bạn phải đạt ít nhất cấp `200`.
 - Khi lựa chọn và một lần nữa ở cấp `50`, hệ thống sẽ kiểm tra các tài khoản phụ của học viên và những điều kiện khác. Phần thưởng không được đảm bảo.
+- Cả học viên lẫn người hướng dẫn đều không được có tài khoản khác. Nếu một trong hai người có, mối quan hệ hướng dẫn sẽ tự động không đủ điều kiện, và sẽ không có phần thưởng người hướng dẫn hay điểm hướng dẫn nào được trao.
 
 ## Học viên chọn tôi bằng cách nào?
 1. Học viên mở hồ sơ người chơi của bạn.

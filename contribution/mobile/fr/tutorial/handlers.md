@@ -8,6 +8,7 @@ Un mentor est un joueur expérimenté qui accompagne des protégés admissibles 
 - Le compte du protégé doit avoir au plus `60` jours.
 - Vous devez être au moins de niveau `200`.
 - Le système recherche les comptes secondaires du protégé et vérifie les autres conditions lors du choix, puis à nouveau au niveau `50`. Les récompenses ne sont pas garanties.
+- Ni le protégé ni le mentor ne peuvent avoir d'autres comptes. Si l'un ou l'autre en a, le mentorat devient automatiquement inéligible, et aucune récompense de mentor ni aucun point de mentorat n'est accordé.
 
 ## Comment un protégé me choisit-il ?
 1. Le protégé ouvre votre profil de joueur.

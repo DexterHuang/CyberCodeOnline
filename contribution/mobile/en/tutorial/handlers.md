@@ -8,6 +8,7 @@ A Handler is an experienced player who guides eligible newcomers through early p
 - The runner's account must be no more than `60` days old.
 - You must be at least level `200`.
 - The system checks the runner's alt accounts and other eligibility rules at selection and again at level `50`. Rewards are not guaranteed.
+- Neither the runner nor the Handler can have other accounts. If either does, the mentorship automatically becomes ineligible, and no Handler reward or mentorship point is granted.
 
 ## How does a runner choose me?
 1. The runner opens your player profile.

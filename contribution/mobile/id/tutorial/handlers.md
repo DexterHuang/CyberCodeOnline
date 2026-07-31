@@ -8,6 +8,7 @@ Mentor adalah pemain berpengalaman yang membimbing pemain baru yang memenuhi sya
 - Akun pemain baru harus berusia tidak lebih dari `60` hari.
 - Kamu harus minimal level `200`.
 - Sistem memeriksa akun alternatif pemain baru dan persyaratan lainnya saat pemilihan dan sekali lagi pada level `50`. Hadiah tidak dijamin.
+- Baik pemain baru maupun mentor tidak boleh memiliki akun lain. Jika salah satu punya, bimbingan itu otomatis menjadi tidak memenuhi syarat, dan hadiah mentor maupun poin bimbingan tidak diberikan.
 
 ## Bagaimana pemain baru memilih saya?
 1. Pemain baru membuka profilmu.

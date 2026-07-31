@@ -8,6 +8,7 @@ Mentor je zkušený hráč, který vede způsobilé svěřence během počáteč
 - Účet svěřence nesmí být starší než `60` dní.
 - Musíš mít alespoň úroveň `200`.
 - Systém zkontroluje vedlejší účty svěřence a další podmínky při výběru a znovu na úrovni `50`. Odměny nejsou zaručené.
+- Svěřenec ani mentor nesmí mít další účty. Pokud je má kdokoli z nich, mentorství se automaticky stane nezpůsobilým a nezíská se odměna mentora ani bod mentorství.
 
 ## Jak si mě svěřenec vybere?
 1. Svěřenec otevře tvůj hráčský profil.

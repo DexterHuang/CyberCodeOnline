@@ -8,6 +8,7 @@ Mentor je skúsený hráč, ktorý vedie oprávnených zverencov na prvých úro
 - Účet zverenca nesmie byť starší ako `60` dní.
 - Musíš mať aspoň úroveň `200`.
 - Pri výbere a znova na úrovni `50` systém skontroluje vedľajšie účty zverenca aj ostatné podmienky. Odmeny nie sú zaručené.
+- Zverenec ani mentor nesmú mať iné účty. Ak ich má niektorý z nich, mentorstvo sa automaticky stane neoprávneným a nedostaneš ani odmenu mentora, ani bod mentorstva.
 
 ## Ako si ma zverenec vyberie?
 1. Zverenec otvorí tvoj hráčsky profil.

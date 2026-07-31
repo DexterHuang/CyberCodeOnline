@@ -16,6 +16,41 @@ Please send your feedback to my Discord or email me directly.
 
 ## Updates
 
+### 0.1896
+
+- **Summer Nights (08/01 to 08/31)**:
+  - Added `Neon Nights Grid` event game.
+  - Collect `Seashell` and `Neon Nights Pass` from AFK bot farming and dungeon chests, to exchange rewards from `Josie` at `Crystal Beach`.
+  - Top-ups receive bonus `Rare Synaptic Acceleration Transmitter` items during the event.
+  - Added the weekly `Summer Nights Fusion Bundle` with three `Equipment Exchange Access Token` items at 30% off during event period.
+- **Handler System**:
+  - Eligible new players can choose an experienced player as their Handler.
+  - Verified level 50 completions reward the Handler and count toward milestone emblems, helping new players can earn you free emblems.
+- **Community Raffles**:
+  - Create and join public raffles from `Mobile Apps` or `Global Chat` header.
+  - Requires level 300+ and a `Community Raffle Kit` to create a raffle
+  - More information can be found in the tutorial page.
+  - `Community Raffle kit` can be obtained from redeeming `Low Reclamation Voucher` or `High Reclamation Voucher` from `Reclamation Depot` or purchased from Arasaka Unit Exchange.
+- Added pinned profile emblems, you can now pin up to 5 emblems to your profile for other players to see.
+- Added ability to search in tutorial pages, supports searching in current language and English.
+- Added new `Order Sync` minigame
+- Event game pass details page now links directly to the matching event NPC.
+- Improved Global Skip banner, smaller size and more compact; less intrusive.
+- Added `Cheese` emblem
+- Improved chat frame previews, dungeon layouts, and donation tier list performance.
+- Improved the reliability of weekly clan occupation resets.
+- Background music is now enabled by default for players without a saved preference.
+- Fixed issue with renaming item
+- Fixed issue with posting notes on apartment wall
+
+### 0.1895
+
+- **Heatwave Festival (07/01 to 07/31)**:
+  - Added the level 15 `Solar Float Stack` event game.
+  - Collect `Seashell` and `Solar Float Pass` through event activities, then visit `Josie` at `Crystal Beach` to play and exchange rewards.
+  - Early contributors get a discount on party contributions, and top-ups receive bonus `Rare Synaptic Acceleration Transmitter` items.
+- Improved chat frame presentation and added another idle animation for `Josie`.
+
 ### 0.1894
 
 - **June Event Spectrum Jump**:

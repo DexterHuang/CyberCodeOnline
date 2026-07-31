@@ -8,6 +8,7 @@ Un mentor este un jucător experimentat care îndrumă ucenicii eligibili la pri
 - Contul ucenicului trebuie să aibă cel mult `60` de zile.
 - Trebuie să ai cel puțin nivelul `200`.
 - Sistemul verifică existența conturilor secundare ale ucenicului și celelalte condiții la alegere și din nou la nivelul `50`. Recompensele nu sunt garantate.
+- Nici ucenicul, nici mentorul nu pot avea alte conturi. Dacă unul dintre ei are, mentoratul devine automat neeligibil și nu se oferă nici recompensa mentorului, nici punctul de mentorat.
 
 ## Cum mă alege un ucenic?
 1. Ucenicul îți deschide profilul de jucător.

@@ -8,6 +8,7 @@ Ang tagapayo ay isang bihasang manlalaro na gumagabay sa mga kwalipikadong baguh
 - Ang account ng baguhang manlalaro ay hindi dapat lumagpas sa `60` na araw ang edad.
 - Dapat hindi bababa sa level `200` ang iyong level.
 - Sa pagpili at muli sa level `50`, susuriin ng system ang mga alternatibong account ng baguhang manlalaro at iba pang kondisyon. Hindi garantisado ang mga reward.
+- Hindi dapat may iba pang account ang baguhang manlalaro o ang tagapayo. Kapag meron ang isa sa kanila, awtomatikong magiging hindi na kwalipikado ang paggabay, at walang reward ng tagapayo o punto ng paggabay na ibibigay.
 
 ## Paano ako pipiliin ng baguhang manlalaro?
 1. Bubuksan ng baguhang manlalaro ang iyong profile.
