@@ -965,6 +965,13 @@
 				}
 			}
 		},
+		"discount": {
+			"eng": "${percent}% off",
+			"trans": "${percent}%OFF",
+			"vars": [
+				"percent"
+			]
+		},
 		"free": {
 			"eng": "Free",
 			"trans": "無料"
@@ -974,6 +981,10 @@
 				"eng": "Free Personal Skip",
 				"trans": "無料の個人用スキップ"
 			}
+		},
+		"notAvailable": {
+			"eng": "Bundle not available",
+			"trans": "バンドルは利用できません"
 		},
 		"rareEquipmentCrate": {
 			"name": {
@@ -991,6 +1002,12 @@
 			"name": {
 				"eng": "Skip supply bundle",
 				"trans": "タイムスキップバンドル"
+			}
+		},
+		"summerNightsFragmentFusion": {
+			"name": {
+				"eng": "Summer Nights Fusion Bundle",
+				"trans": "サマーナイトフュージョンパック"
 			}
 		}
 	},
@@ -1306,12 +1323,6 @@
 		"offRotation": {
 			"eng": "Out of rotation",
 			"trans": "販売終了"
-		}
-	},
-	"chatHeader": {
-		"skipAvailable": {
-			"eng": "Available",
-			"trans": "実行可能"
 		}
 	},
 	"chatInput": {
@@ -1796,6 +1807,14 @@
 			"eng": "Got it",
 			"trans": "了解"
 		},
+		"keep": {
+			"eng": "Keep raffle",
+			"trans": "抽選"
+		},
+		"loading": {
+			"eng": "Loading",
+			"trans": "読み込み中"
+		},
 		"max": {
 			"eng": "MAX",
 			"trans": "最大"
@@ -1809,7 +1828,7 @@
 			"trans": "購入"
 		},
 		"retry": {
-			"eng": "RETRY CONNECTION",
+			"eng": "Retry",
 			"trans": "再接続"
 		},
 		"save": {
@@ -1819,6 +1838,608 @@
 		"warning": {
 			"eng": "Warning",
 			"trans": "警告"
+		}
+	},
+	"communityRaffle": {
+		"action": {
+			"accountBlocked": {
+				"eng": "Limited accounts cannot join Community Raffles.",
+				"trans": "制限済みアカウントはコミュニティ抽選に参加できません。"
+			},
+			"closeRaffle": {
+				"eng": "Close raffle",
+				"trans": "抽選終了"
+			},
+			"closeRaffleDescription": {
+				"eng": "Select and announce the winner",
+				"trans": "当選者を選択して発表する"
+			},
+			"graceExpired": {
+				"eng": "Winner selection window expired.",
+				"trans": "当選者決定期間が終了しました。"
+			},
+			"join": {
+				"eng": "Join raffle",
+				"trans": "参加する"
+			},
+			"levelBlocked": {
+				"eng": "Reach level ${level} to join.",
+				"trans": "参加するにはレベル${level}に到達してください",
+				"vars": [
+					"level"
+				]
+			}
+		},
+		"chatHeader": {
+			"open": {
+				"eng": "Open Community Raffles",
+				"trans": "コミュニティ抽選を開く"
+			}
+		},
+		"closeRaffle": {
+			"deadline": {
+				"eng": "Winner selection is available after the entry deadline.",
+				"trans": "エントリー締切後に当選者の決定が可能です。"
+			},
+			"notOrganizer": {
+				"eng": "Only this Community Raffle's organizer can select the winner.",
+				"trans": "このコミュニティくじの主催者のみが当選者を選定できます。"
+			},
+			"unavailable": {
+				"eng": "Winner selection is not available for this Community Raffle.",
+				"trans": "このコミュニティくじの当選判定は現在ご利用いただけません。"
+			}
+		},
+		"create": {
+			"accountLimited": {
+				"eng": "Limited accounts cannot create Community Raffles.",
+				"trans": "制限中のアカウントではコミュニティラッフルは作成できません。"
+			},
+			"accountLimitedToast": {
+				"eng": "Limited accounts cannot create Community Raffles.",
+				"trans": "制限中のアカウントではコミュニティラッフルは作成できません。"
+			},
+			"action": {
+				"eng": "Create raffle",
+				"trans": "抽選作成"
+			},
+			"addEquipment": {
+				"eng": "Attach equipment",
+				"trans": "装備を取り付ける"
+			},
+			"backToEdit": {
+				"eng": "Back to edit",
+				"trans": "編集に戻る"
+			},
+			"composerCounts": {
+				"eng": "${attachments} / ${maximumAttachments} · ${characters} / ${maximumCharacters}",
+				"trans": "${attachments} / ${maximumAttachments} ・ ${characters} / ${maximumCharacters}",
+				"vars": [
+					"attachments",
+					"maximumAttachments",
+					"characters",
+					"maximumCharacters"
+				]
+			},
+			"confirmAction": {
+				"eng": "Consume 1 Kit and publish",
+				"trans": "キットを1つ消費して公開する"
+			},
+			"confirmKitCost": {
+				"eng": "Publishing consumes one Community Raffle Kit.",
+				"trans": "公開するとコミュニティくじ引きキットが1つ消費されます。"
+			},
+			"confirmPermanent": {
+				"eng": "Published settings cannot be edited. Deleting the raffle will not refund the Kit.",
+				"trans": "一度公開すると設定は変更できません。ラッフルを削除しても、キットは返金されません。"
+			},
+			"confirmTitle": {
+				"eng": "Publish Community Raffle?",
+				"trans": "コミュニティ抽選を公開しますか？"
+			},
+			"cost": {
+				"eng": "1 Raffle Kit",
+				"trans": "ラッフルキット 1"
+			},
+			"decreaseMinimumLevel": {
+				"eng": "Decrease minimum level by 50",
+				"trans": "最低レベルを50引き下げる"
+			},
+			"description": {
+				"eng": "Description (optional)",
+				"trans": "説明（任意）"
+			},
+			"duration": {
+				"eng": "Duration",
+				"trans": "期間"
+			},
+			"durationFourteenDays": {
+				"eng": "14 days",
+				"trans": "14日間"
+			},
+			"durationOneDay": {
+				"eng": "1 day",
+				"trans": "1日"
+			},
+			"durationOptionFourteenDays": {
+				"eng": "14D",
+				"trans": "14日"
+			},
+			"durationOptionFourteenDaysAccessible": {
+				"eng": "14 days",
+				"trans": "14日間"
+			},
+			"durationOptionOneDay": {
+				"eng": "1D",
+				"trans": "1日"
+			},
+			"durationOptionOneDayAccessible": {
+				"eng": "1 day",
+				"trans": "1日"
+			},
+			"durationOptionSevenDays": {
+				"eng": "7D",
+				"trans": "7日間"
+			},
+			"durationOptionSevenDaysAccessible": {
+				"eng": "7 days",
+				"trans": "7日間"
+			},
+			"durationOptionThirtyDays": {
+				"eng": "30D",
+				"trans": "30日"
+			},
+			"durationOptionThirtyDaysAccessible": {
+				"eng": "30 days",
+				"trans": "30日"
+			},
+			"durationOptionThreeDays": {
+				"eng": "3D",
+				"trans": "3日"
+			},
+			"durationOptionThreeDaysAccessible": {
+				"eng": "3 days",
+				"trans": "3日間"
+			},
+			"durationSevenDays": {
+				"eng": "7 days",
+				"trans": "7日間"
+			},
+			"durationThirtyDays": {
+				"eng": "30 days",
+				"trans": "30日"
+			},
+			"durationThreeDays": {
+				"eng": "3 days",
+				"trans": "3日間"
+			},
+			"equipment": {
+				"eng": "Equipment snapshot (optional)",
+				"trans": "装備画像（任意）"
+			},
+			"equipmentDeliveryDescription": {
+				"eng": "Attached equipment stays in your inventory and is not sent to the winner. You must deliver it yourself.",
+				"trans": "追加装備はインベントリに残り、当選者には発送されません。当該装備はご自身での配送が必要です。"
+			},
+			"equipmentDeliveryTitle": {
+				"eng": "Equipment delivery is manual",
+				"trans": "装備配送は手動"
+			},
+			"equipmentNotOwned": {
+				"eng": "Selected equipment is not owned by this account.",
+				"trans": "このアカウントでは選択した装備品を所持していません。"
+			},
+			"equipmentRequired": {
+				"eng": "Only equipment can be attached to a Community Raffle.",
+				"trans": "コミュニティ抽選に設定できるのは装備のみです。"
+			},
+			"globalAnnouncement": {
+				"eng": "${creatorName} created a Community ${raffleLink}.",
+				"trans": "${creatorName} がコミュニティ ${raffleLink} を作成しました。",
+				"vars": [
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"increaseMinimumLevel": {
+				"eng": "Increase minimum level by 50",
+				"trans": "最低レベルを50増加"
+			},
+			"kitRequired": {
+				"eng": "You need a Community Raffle Kit to create this raffle.",
+				"trans": "この抽選を作成するにはコミュニティラッフルキットが必要です。"
+			},
+			"levelRequired": {
+				"eng": "Reach level ${level} to create a Community Raffle.",
+				"trans": "コミュニティくじを作成するにはレベル${level}が必要です。",
+				"vars": [
+					"level"
+				]
+			},
+			"levelRequiredToast": {
+				"eng": "Reach level ${level} to create a Community Raffle.",
+				"trans": "コミュニティくじを作成するにはレベル${level}が必要です。",
+				"vars": [
+					"level"
+				]
+			},
+			"minimumLevel": {
+				"eng": "Minimum level",
+				"trans": "最低レベル"
+			},
+			"moderationRejected": {
+				"eng": "Automated check found the title or description inappropriate or unrelated to the Community Raffle. Update the title or description, then try again.",
+				"trans": "自動審査によりタイトルまたは説明文が不適切であるかコミュニティラッフルの目的に関連していないことが検出されました。内容を変更して再度お試しください。"
+			},
+			"moderationUnavailable": {
+				"eng": "Automated check is temporarily unavailable. Try again in a moment.",
+				"trans": "自動チェックは一時的に利用できません。少し待ってから再度お試しください。"
+			},
+			"noDescription": {
+				"eng": "None",
+				"trans": "なし"
+			},
+			"noEquipment": {
+				"eng": "None",
+				"trans": "なし"
+			},
+			"pageTitle": {
+				"eng": "Create Community Raffle",
+				"trans": "コミュニティ抽選の作成"
+			},
+			"removeEquipmentSnapshot": {
+				"eng": "Remove equipment snapshot",
+				"trans": "装備スナップを削除"
+			},
+			"review": {
+				"eng": "Review raffle",
+				"trans": "くじ引きの確認"
+			},
+			"selectEquipment": {
+				"eng": "Select equipment snapshot",
+				"trans": "装備スナップを選択"
+			},
+			"title": {
+				"eng": "Title",
+				"trans": "タイトル"
+			},
+			"titleCount": {
+				"eng": "${current} / ${maximum}",
+				"trans": "${current} / ${maximum}",
+				"vars": [
+					"current",
+					"maximum"
+				]
+			},
+			"titleLength": {
+				"eng": "Title must be ${minimum}–${maximum} characters.",
+				"trans": "タイトルは${minimum}〜${maximum}文字に設定してください。",
+				"vars": [
+					"minimum",
+					"maximum"
+				]
+			},
+			"titleRequired": {
+				"eng": "Enter a title.",
+				"trans": "タイトルを入力してください"
+			}
+		},
+		"delete": {
+			"action": {
+				"eng": "Delete raffle",
+				"trans": "抽選を削除"
+			},
+			"confirmAction": {
+				"eng": "Delete permanently",
+				"trans": "永久に削除"
+			},
+			"confirmTitle": {
+				"eng": "Delete Community Raffle?",
+				"trans": "コミュニティ抽選を削除しますか？"
+			},
+			"creatorMail": {
+				"body": {
+					"eng": "Moderator ${moderatorName} deleted your Community Raffle: ${title}",
+					"trans": "モデレーター ${moderatorName} があなたのコミュニティ抽選 ${title} を削除しました。",
+					"vars": [
+						"moderatorName",
+						"title"
+					]
+				}
+			},
+			"creatorSuccess": {
+				"eng": "You deleted your Community Raffle.",
+				"trans": "コミュニティくじを削除しました。"
+			},
+			"creatorWarning": {
+				"eng": "This permanently removes your raffle and cannot be undone. The Community Raffle Kit will not be refunded.",
+				"trans": "この操作により、あなたのくじは永久に削除され、取り消すことはできません。コミュニティくじキットも返金されません。"
+			},
+			"moderatorMail": {
+				"body": {
+					"eng": "You deleted ${creatorName}'s Community Raffle: ${title}",
+					"trans": "${creatorName}さんのコミュニティ抽選 ${title} を削除しました",
+					"vars": [
+						"creatorName",
+						"title"
+					]
+				}
+			},
+			"moderatorWarning": {
+				"eng": "This permanently removes ${creator}'s raffle. They will be notified by mail.",
+				"trans": "この操作により${creator}さんのくじは永久に削除されます。作成者にはメールにてお知らせします。",
+				"vars": [
+					"creator"
+				]
+			}
+		},
+		"delivery": {
+			"creatorNoWinnerMail": {
+				"eng": "Your Community ${raffleLink} “${title}” is complete. No eligible winner remained.",
+				"trans": "あなたのコミュニティ ${raffleLink} “${title}” は終了しました。該当する当選者はいませんでした。",
+				"vars": [
+					"title",
+					"raffleLink"
+				]
+			},
+			"creatorWinnerMail": {
+				"eng": "Your Community ${raffleLink} “${title}” is complete. Winner: ${winnerName}.",
+				"trans": "あなたのコミュニティイベント「${title}」（${raffleLink}）は終了しました。当選者：${winnerName}。",
+				"vars": [
+					"title",
+					"winnerName",
+					"raffleLink"
+				]
+			},
+			"globalAnnouncement": {
+				"eng": "🎉 ${winnerName} won a Community ${raffleLink}!",
+				"trans": "🎉 ${winnerName} がコミュニティ ${raffleLink} の当選です！",
+				"vars": [
+					"winnerName",
+					"raffleLink"
+				]
+			},
+			"winnerMail": {
+				"eng": "You won the Community ${raffleLink} “${title}”.",
+				"trans": "コミュニティ抽選「${raffleLink}」で「${title}」に当選しました。",
+				"vars": [
+					"title",
+					"raffleLink"
+				]
+			}
+		},
+		"detail": {
+			"abandonedState": {
+				"eng": "Winner selection was not completed within the seven-day window.",
+				"trans": "当選者決定が7日以内に完了しませんでした。"
+			},
+			"attachments": {
+				"eng": "Attachments",
+				"trans": "添付ファイル"
+			},
+			"closed": {
+				"eng": "Closed",
+				"trans": "終了"
+			},
+			"closesLabel": {
+				"eng": "Closes in",
+				"trans": "残り"
+			},
+			"entrantList": {
+				"eng": "Entrants",
+				"trans": "参加者"
+			},
+			"hostLabel": {
+				"eng": "Host",
+				"trans": "ホスト"
+			},
+			"levelShort": {
+				"eng": "LV ${level}+",
+				"trans": "Lv.${level}+",
+				"vars": [
+					"level"
+				]
+			},
+			"minimumLevel": {
+				"eng": "Minimum level",
+				"trans": "最低レベル"
+			},
+			"noEntrants": {
+				"eng": "No entries yet.",
+				"trans": "まだエントリーはありません"
+			},
+			"notFound": {
+				"eng": "We cannot find this raffle.",
+				"trans": "該当のくじ引きは見つかりません"
+			},
+			"refresh": {
+				"eng": "Refresh raffle details",
+				"trans": "くじ引きの詳細を更新"
+			},
+			"selectedWinner": {
+				"eng": "Winner",
+				"trans": "当選者"
+			},
+			"statusLabel": {
+				"eng": "Status",
+				"trans": "ステータス"
+			},
+			"unavailable": {
+				"eng": "Community Raffle unavailable",
+				"trans": "コミュニティ抽選は利用できません"
+			},
+			"winnerMarker": {
+				"eng": "Winner",
+				"trans": "当選者"
+			}
+		},
+		"empty": {
+			"description": {
+				"eng": "Active and past raffles will appear here.",
+				"trans": "開催中および過去の抽選会はここに表示されます。"
+			},
+			"title": {
+				"eng": "No Community Raffles yet",
+				"trans": "まだコミュニティ抽選はありません"
+			}
+		},
+		"error": {
+			"notFound": {
+				"eng": "Community Raffle not found.",
+				"trans": "コミュニティ抽選は見つかりません。"
+			}
+		},
+		"join": {
+			"accountLimited": {
+				"eng": "Limited accounts cannot join Community Raffles.",
+				"trans": "制限済みアカウントはコミュニティ抽選に参加できません。"
+			},
+			"alreadyJoined": {
+				"eng": "You already joined this Community Raffle.",
+				"trans": "このコミュニティくじにはすでに応募済みです。"
+			},
+			"associatedEntry": {
+				"eng": "An associated account already entered this Community Raffle.",
+				"trans": "関連アカウントはすでにこのコミュニティラッフルに参加しています。"
+			},
+			"closed": {
+				"eng": "This Community Raffle is no longer open for entry.",
+				"trans": "コミュニティ抽選の参加募集は終了しました。"
+			},
+			"creatorMail": {
+				"eng": "${playerName} has joined your ${raffleLink}. Total entrants: ${totalEntrants}.",
+				"trans": "${playerName}があなたの${raffleLink}に参加しました。合計参加者：${totalEntrants}",
+				"vars": [
+					"playerName",
+					"raffleLink",
+					"totalEntrants"
+				]
+			},
+			"creatorMailOthers": {
+				"eng": "${playerName} and ${otherCount} more have joined your ${raffleLink}. Total entrants: ${totalEntrants}.",
+				"trans": "${playerName}さんほか${otherCount}名があなたの${raffleLink}に参加しました。総参加者数：${totalEntrants}人です。",
+				"vars": [
+					"playerName",
+					"otherCount",
+					"raffleLink",
+					"totalEntrants"
+				]
+			},
+			"globalAnnouncement": {
+				"eng": "${playerName} has joined ${creatorName}'s ${raffleLink}.",
+				"trans": "${playerName}が${creatorName}の${raffleLink}に参加しました。",
+				"vars": [
+					"playerName",
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"globalAnnouncementOthers": {
+				"eng": "${playerName} and ${otherCount} more have joined ${creatorName}'s ${raffleLink}.",
+				"trans": "${playerName}ほか${otherCount}名が、${creatorName}の${raffleLink}に参加しました。",
+				"vars": [
+					"playerName",
+					"otherCount",
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"levelRequired": {
+				"eng": "Reach level ${level} to join this Community Raffle.",
+				"trans": "このコミュニティ抽選に参加するにはレベル${level}が必要です",
+				"vars": [
+					"level"
+				]
+			},
+			"organizer": {
+				"eng": "You cannot join your own Community Raffle.",
+				"trans": "主催したコミュニティ抽選には参加できません。"
+			}
+		},
+		"loadError": {
+			"title": {
+				"eng": "Raffle list unavailable",
+				"trans": "抽選リストが利用できません"
+			}
+		},
+		"raffleLink": {
+			"eng": "Raffle",
+			"trans": "抽選"
+		},
+		"refresh": {
+			"eng": "Refresh raffle list",
+			"trans": "ラッフルリストを更新"
+		},
+		"row": {
+			"awaitingOrganizer": {
+				"eng": "Awaiting organizer",
+				"trans": "主催者待ち"
+			},
+			"closedLabel": {
+				"eng": "Closed",
+				"trans": "終了"
+			},
+			"closesLabel": {
+				"eng": "Closes in",
+				"trans": "残り"
+			},
+			"entriesLabel": {
+				"eng": "Entries",
+				"trans": "応募数"
+			},
+			"hostLabel": {
+				"eng": "Host",
+				"trans": "ホスト"
+			},
+			"levelShort": {
+				"eng": "LV ${level}+",
+				"trans": "Lv.${level}+",
+				"vars": [
+					"level"
+				]
+			},
+			"resultLabel": {
+				"eng": "Result",
+				"trans": "結果"
+			}
+		},
+		"status": {
+			"abandoned": {
+				"eng": "Abandoned",
+				"trans": "放棄済み"
+			},
+			"awaitingOrganizer": {
+				"eng": "Awaiting organizer",
+				"trans": "主催者待ち"
+			},
+			"completed": {
+				"eng": "Completed",
+				"trans": "完了"
+			},
+			"open": {
+				"eng": "Open",
+				"trans": "オープン"
+			}
+		},
+		"title": {
+			"eng": "Community Raffles",
+			"trans": "コミュニティ抽選"
+		},
+		"tutorial": {
+			"description": {
+				"eng": "Create, join, and select a winner.",
+				"trans": "作成・参加・当選者の決定"
+			},
+			"title": {
+				"eng": "How Community Raffles work",
+				"trans": "コミュニティくじの仕組み"
+			}
+		},
+		"validation": {
+			"request": {
+				"eng": "Invalid Community Raffle request.",
+				"trans": "コミュニティ抽選リクエストは無効です。"
+			}
 		}
 	},
 	"component": {
@@ -2452,6 +3073,10 @@
 			"eng": "Vice Heat",
 			"trans": "バイスヒート"
 		},
+		"donation55": {
+			"eng": "Black Press",
+			"trans": "ブラックプレス"
+		},
 		"donation6": {
 			"eng": "Prestige",
 			"trans": "名声"
@@ -3002,6 +3627,28 @@
 				"item",
 				"npcName"
 			]
+		}
+	},
+	"emblem": {
+		"showcase": {
+			"error": {
+				"emblemRequired": {
+					"eng": "Emblem is required",
+					"trans": "エンブルの選択が必要です"
+				},
+				"invalidEmblem": {
+					"eng": "Invalid emblem type",
+					"trans": "無効なエンブレムタイプ"
+				},
+				"invalidSlot": {
+					"eng": "Invalid emblem showcase slot",
+					"trans": "エンブレム展示スロットが無効です"
+				},
+				"notOwned": {
+					"eng": "You don't own this emblem",
+					"trans": "このエンブレムは所持していません"
+				}
+			}
 		}
 	},
 	"emblems": {
@@ -5019,6 +5666,16 @@
 				"trans": "支援クレート[ギャング]"
 			}
 		},
+		"communityRaffleKit": {
+			"description": {
+				"eng": "A deployable kit for creating one public Community Raffle. Consumed when the raffle is published.",
+				"trans": "公開コミュニティくじを1件作成できる設置キット。抽選の公開時に消耗します。"
+			},
+			"name": {
+				"eng": "Community Raffle Kit",
+				"trans": "コミュニティ抽選キット"
+			}
+		},
 		"creatine": {
 			"description": {
 				"eng": "Push past your limits and grind like a machine--When consumed, increase damage dealt by ${percent}% for ${minutes} minutes",
@@ -5620,6 +6277,19 @@
 			"name": {
 				"eng": "Medical Tech Parts",
 				"trans": "医療機器パーツ"
+			}
+		},
+		"mentorSkipVoucher": {
+			"description": {
+				"eng": "An evergreen voucher earned by helping a new runner reach level 50. It automatically applies a ${discountPercent}% Global Skip discount.",
+				"trans": "新規ランナーをレベル50まで導いた報酬として入手可能な永久有効バウチャー。使用時にグローバルスキップの${discountPercent}%割引が自動的に適用されます。",
+				"vars": [
+					"discountPercent"
+				]
+			},
+			"name": {
+				"eng": "Handler Skip Voucher",
+				"trans": "ハンドラースキップチケット"
 			}
 		},
 		"missileCommandPass": {
@@ -6329,6 +6999,13 @@
 		}
 	},
 	"itemInbox": {
+		"movedToInventory": {
+			"eng": "${item} has been moved from your item inbox to your inventory automatically",
+			"trans": "${item} はインボックスからインベントリへ自動移動しました",
+			"vars": [
+				"item"
+			]
+		},
 		"notifySender": {
 			"eng": "${recipient} has retrived your gift items (${itemNames}) from their inbox into their inventory.",
 			"trans": "${recipient}が${itemNames}をインベントリへ受け取りました",
@@ -6395,6 +7072,43 @@
 		"title": {
 			"eng": "Rename History",
 			"trans": "名前変更履歴"
+		}
+	},
+	"itemSource": {
+		"drop": {
+			"dungeons": {
+				"eng": "Dungeons",
+				"trans": "ダンジョン"
+			},
+			"enemies": {
+				"eng": "Enemies",
+				"trans": "敵"
+			},
+			"lootBoxes": {
+				"eng": "Loot boxes",
+				"trans": "ルートボックス"
+			},
+			"reclamationTier": {
+				"eng": "Drop on ${tier}",
+				"trans": "${tier}へドロップ",
+				"vars": [
+					"tier"
+				]
+			}
+		}
+	},
+	"itemSourceModal": {
+		"description": {
+			"eng": "You can get this item from:",
+			"trans": "このアイテムの入手先："
+		},
+		"empty": {
+			"eng": "No current sources found.",
+			"trans": "現在、該当する入手先はありません。"
+		},
+		"title": {
+			"eng": "Item sources",
+			"trans": "入手元"
 		}
 	},
 	"itemStack": {
@@ -7125,6 +7839,10 @@
 		"streetcred": {
 			"eng": "Street Cred",
 			"trans": "リスペクト"
+		},
+		"topHandlers": {
+			"eng": "Top Handlers",
+			"trans": "上位ハンドラー"
 		}
 	},
 	"leaderboardTypePage": {
@@ -8154,6 +8872,106 @@
 			"trans": "ミサイルコマンド"
 		}
 	},
+	"mentorship": {
+		"completion": {
+			"handlerMail": {
+				"eng": "${runnerName} reached level ${completionLevel} and passed verification. Your Handler rewards were delivered.",
+				"trans": "${runnerName}がLv.${completionLevel}に到達し、認証を完了しました。ハンドラー報酬の配布が完了しました。",
+				"vars": [
+					"runnerName",
+					"completionLevel"
+				]
+			}
+		},
+		"confirm": {
+			"currentHandler": {
+				"eng": "Current Handler",
+				"trans": "現在の担当者"
+			},
+			"endPermanently": {
+				"eng": "End permanently",
+				"trans": "永久に終了"
+			},
+			"endPurpose": {
+				"eng": "End your mentorship with this Handler.",
+				"trans": "このハンドラーとのメンタシップを終了する"
+			},
+			"endTitle": {
+				"eng": "End mentorship",
+				"trans": "メンタリング終了"
+			},
+			"endWarning": {
+				"eng": "This is permanent. You cannot choose another Handler.",
+				"trans": "この決定は取り消せません。他のハンドラーを選択することはできません。"
+			},
+			"mentorDetails": {
+				"eng": "${name} — Level ${level}",
+				"trans": "${name} Lv.${level}",
+				"vars": [
+					"name",
+					"level"
+				]
+			},
+			"selectPermanently": {
+				"eng": "Choose permanently",
+				"trans": "永久確定"
+			},
+			"selectPurpose": {
+				"eng": "Choose a Handler to guide your early progression.",
+				"trans": "序盤の進行をサポートするハンドラーを選択してください。"
+			},
+			"selectTitle": {
+				"eng": "Choose Handler",
+				"trans": "ハンドラーを選択"
+			},
+			"selectWarning": {
+				"eng": "Choose only someone who has greatly helped you learn the game. Never choose a Handler for trades, items, or other favors. You cannot choose another Handler later, even if you end the mentorship.",
+				"trans": "ハンドラーは1回しか選択できません。この選択は変更できません。"
+			}
+		},
+		"revoke": {
+			"invalid": {
+				"eng": "This mentorship can no longer be ended.",
+				"trans": "このメンタシップは解除できません。"
+			}
+		},
+		"select": {
+			"handlerMail": {
+				"eng": "${runnerName} chose you as their Handler. Their mentorship will complete if they reach level ${completionLevel} and pass system verification.",
+				"trans": "${runnerName}はあなたをハンドラーに選びました。レベル${completionLevel}到達およびシステム認証の完了により、メンタリングは完了します。",
+				"vars": [
+					"runnerName",
+					"completionLevel"
+				]
+			},
+			"ineligible": {
+				"eng": "This Handler selection is not eligible.",
+				"trans": "該当するハンドラーは選択できません。"
+			}
+		}
+	},
+	"mentorshipAssignmentsPage": {
+		"empty": {
+			"eng": "No runners are currently assigned to you.",
+			"trans": "現在、担当のランナーはいません。"
+		},
+		"loadFailed": {
+			"eng": "Mentoring runners failed to load.",
+			"trans": "メンタリング用ランナーの読み込みに失敗しました。"
+		},
+		"loading": {
+			"eng": "Loading mentoring runners...",
+			"trans": "メンタリングエージェントを読み込み中..."
+		},
+		"private": {
+			"eng": "Private — only you can see this",
+			"trans": "非公開 — あなただけが閲覧できます"
+		},
+		"title": {
+			"eng": "Mentoring Runners",
+			"trans": "メンター付ランナー"
+		}
+	},
 	"messageImage": {
 		"hideImage": {
 			"eng": "Hide Image",
@@ -8249,6 +9067,91 @@
 					"eng": "BREACH SUCCESS",
 					"trans": "侵入成功"
 				}
+			}
+		},
+		"orderSync": {
+			"board": {
+				"summary": {
+					"eng": "Sorting minigame. Arrange the bars from smallest to largest, left to right within the move budget. Drag a bar to reposition it, or tap two bars to swap them.",
+					"trans": "ソートミニゲーム。移動制限内で棒を左から小さい順に整列させてください。バーをドラッグで移動するか、2つのバーをタップして入れ替えてください。"
+				}
+			},
+			"fail": {
+				"description": {
+					"eng": "Sort the row before you run out of moves.",
+					"trans": "手数が尽きる前に行をソートしてください。"
+				},
+				"retry": {
+					"eng": "Retry",
+					"trans": "再試行"
+				},
+				"status": {
+					"eng": "ORDER REJECTED",
+					"trans": "注文拒否"
+				},
+				"title": {
+					"eng": "Out of moves",
+					"trans": "残り手数なし"
+				}
+			},
+			"instruction": {
+				"eng": "Sort small to big, left to right. Drag a bar to move it, or tap two to swap.",
+				"trans": "左から右へ小さい順に並べます。バーをドラッグして移動するか、2つをタップして位置を入れ替えてください。"
+			},
+			"item": {
+				"aria": {
+					"eng": "Bar, value ${value}",
+					"trans": "バーの値：${value}",
+					"vars": [
+						"value"
+					]
+				}
+			},
+			"scale": {
+				"high": {
+					"eng": "HIGH",
+					"trans": "高"
+				},
+				"label": {
+					"eng": "SIGNAL MAGNITUDE",
+					"trans": "シグナル強度"
+				},
+				"low": {
+					"eng": "LOW",
+					"trans": "低"
+				}
+			},
+			"status": {
+				"failed": {
+					"eng": "FAILED",
+					"trans": "失敗"
+				},
+				"locked": {
+					"eng": "SORTED",
+					"trans": "処理済"
+				},
+				"moves": {
+					"eng": "MOVES ${count}/${max}",
+					"trans": "手数 ${count}/${max}",
+					"vars": [
+						"count",
+						"max"
+					]
+				}
+			},
+			"success": {
+				"status": {
+					"eng": "ORDER VALIDATED",
+					"trans": "注文検証済"
+				},
+				"title": {
+					"eng": "Sequence sorted",
+					"trans": "シーケンス整列完了"
+				}
+			},
+			"title": {
+				"eng": "Order Sync",
+				"trans": "オーダーシンクロ"
 			}
 		},
 		"relayGrid": {
@@ -11704,6 +12607,65 @@
 				"vars": [
 					"count"
 				]
+			}
+		},
+		"mentorship": {
+			"currentReward": {
+				"eng": "Reward per verified player",
+				"trans": "認証済みプレイヤー1人あたり報酬"
+			},
+			"endMentorship": {
+				"eng": "End mentorship",
+				"trans": "メンタリング終了"
+			},
+			"futureHandlerHint": {
+				"eng": "At level ${handlerLevel}, you can also become a Handler, guide eligible new players, and earn rewards.",
+				"trans": "レベル${handlerLevel}に達すると、ハンドラーとして条件を満たす新規プレイヤーを導き、報酬を獲得できます。",
+				"vars": [
+					"handlerLevel"
+				]
+			},
+			"handler": {
+				"eng": "Handler",
+				"trans": "ハンドラー"
+			},
+			"handlerHint": {
+				"eng": "You can now guide eligible new players as a Handler. They can choose you from your profile. Verified mentorships increase your public total and grant the reward below.",
+				"trans": "ハンダーとして条件を満たす新規プレイヤーを導くことができるようになりました。新規プレイヤーはプロフィールからあなたを選ぶことができます。成立したメンターシップはあなたの公開評価を向上させ、以下の報酬を獲得できます。"
+			},
+			"handlerLoadFailed": {
+				"eng": "Handler load failed.",
+				"trans": "ハンドラーの読み込みに失敗しました。"
+			},
+			"loadingHandler": {
+				"eng": "Loading Handler...",
+				"trans": "ハンドラー読み込み中…"
+			},
+			"private": {
+				"eng": "Private — only you can see this",
+				"trans": "非公開 — あなただけが閲覧できます"
+			},
+			"selectionEndedHint": {
+				"eng": "Your opportunity to choose a Handler ended after level ${maxLevel}. New players can choose one from level ${minLevel} to ${maxLevel} if their account is no more than ${maxAgeDays} days old. At level ${handlerLevel}, you can become a Handler, guide eligible new players, and earn rewards.",
+				"trans": "ハンドラーの選択権はレベル${maxLevel}到達後に終了しました。アカウント作成から${maxAgeDays}日以内の新規プレイヤーは、レベル${minLevel}〜${maxLevel}の間でハンドラーを選べます。レベル${handlerLevel}に達すると、ハンドラーとして登録でき、条件を満たす新規プレイヤーを指導して報酬を獲得できます。",
+				"vars": [
+					"minLevel",
+					"maxLevel",
+					"maxAgeDays",
+					"handlerLevel"
+				]
+			},
+			"title": {
+				"eng": "Mentorship",
+				"trans": "メンタリング"
+			},
+			"unknownHandler": {
+				"eng": "Unknown Handler",
+				"trans": "不明なハンドラー"
+			},
+			"viewMentoringRunners": {
+				"eng": "View Mentoring Runners",
+				"trans": "メンタリングランナー一覧"
 			}
 		},
 		"pets": {
@@ -15511,6 +16473,10 @@
 				"eng": "Block List",
 				"trans": "ブロックリスト"
 			},
+			"communityRaffle": {
+				"eng": "Community Raffles",
+				"trans": "コミュニティ抽選"
+			},
 			"coupon": {
 				"eng": "Claim Coupon",
 				"trans": "クーポン"
@@ -15865,9 +16831,17 @@
 				}
 			},
 			"skippingBuff": {
-				"title": {
-					"eng": "Skip buff sponsored by:",
-					"trans": "スキップ実行中...："
+				"dismiss": {
+					"eng": "Dismiss Global Skip banner",
+					"trans": "グローバルスキップバナーを閉じる"
+				},
+				"info": {
+					"eng": "Global Skip info",
+					"trans": "グローバルスキップ情報"
+				},
+				"sponsor": {
+					"eng": "Global Skip by",
+					"trans": "グローバルスキップ 提供"
 				}
 			}
 		},
@@ -16682,6 +17656,23 @@
 				"eng": "Equip",
 				"trans": "装備"
 			},
+			"eventGamePass": {
+				"visitNpc": {
+					"eng": "Go to ${npcName}",
+					"trans": "${npcName}へ行く",
+					"vars": [
+						"npcName"
+					]
+				},
+				"visitNpcDescription": {
+					"eng": "Bring this pass to ${personName} to play ${gameName}.",
+					"trans": "このパスを${personName}に渡せば、${gameName}をプレイできます。",
+					"vars": [
+						"personName",
+						"gameName"
+					]
+				}
+			},
 			"history": {
 				"eng": "History",
 				"trans": "履歴"
@@ -16809,6 +17800,10 @@
 			"getAllItems": {
 				"eng": "Get All Items",
 				"trans": "すべてのアイテムを取得する"
+			},
+			"noExpiry": {
+				"eng": "Does not expire",
+				"trans": "無期限"
 			},
 			"title": {
 				"eng": "Item Inbox",
@@ -16994,6 +17989,12 @@
 			"travel": {
 				"eng": "Travel",
 				"trans": "トラベル"
+			}
+		},
+		"markdown": {
+			"error": {
+				"eng": "Content unavailable. Check your connection and retry.",
+				"trans": "コンテンツは利用できません。接続を確認して再試行してください。"
 			}
 		},
 		"market": {
@@ -17333,6 +18334,92 @@
 				"eng": "Property of SLPD",
 				"trans": "SLPDに所属"
 			},
+			"emblemShowcase": {
+				"addSlot": {
+					"eng": "Add emblem to slot ${slot}",
+					"trans": "エンブレムをスロット${slot}に追加",
+					"vars": [
+						"slot"
+					]
+				},
+				"chooseEmblemByOption": {
+					"eng": "Select emblem option ${option} for slot ${slot}",
+					"trans": "スロット${slot}にエンブレムオプション${option}を選択",
+					"vars": [
+						"option",
+						"slot"
+					]
+				},
+				"clearSlot": {
+					"eng": "Remove emblem from slot ${slot}",
+					"trans": "スロット${slot}からエンブレムを外す",
+					"vars": [
+						"slot"
+					]
+				},
+				"closePicker": {
+					"eng": "Close emblem picker",
+					"trans": "エンブレム選択を閉じる"
+				},
+				"confirmSelection": {
+					"eng": "Confirm Selection",
+					"trans": "選択を確定する"
+				},
+				"editSlot": {
+					"eng": "Change emblem in slot ${slot}",
+					"trans": "スロット${slot}のエンブレムを変更",
+					"vars": [
+						"slot"
+					]
+				},
+				"emblemLabelBySlot": {
+					"eng": "Showcase emblem in slot ${slot}",
+					"trans": "スロット${slot}にエンブレムを表示",
+					"vars": [
+						"slot"
+					]
+				},
+				"pickerInstruction": {
+					"eng": "Select an emblem for slot ${slot}, then confirm.",
+					"trans": "スロット${slot}のエンブレムを選択後、確定してください。",
+					"vars": [
+						"slot"
+					]
+				},
+				"pickerTitle": {
+					"eng": "Choose Emblem",
+					"trans": "エンブレムを選択"
+				},
+				"playAudioBySlot": {
+					"eng": "Play audio for emblem in slot ${slot}",
+					"trans": "スロット${slot}のエンブレムオーディオ再生",
+					"vars": [
+						"slot"
+					]
+				},
+				"remove": {
+					"eng": "Remove",
+					"trans": "取り外す"
+				},
+				"removeConfirmationTitle": {
+					"eng": "Remove emblem from slot ${slot}?",
+					"trans": "スロット${slot}からエンブレムを外しますか？",
+					"vars": [
+						"slot"
+					]
+				},
+				"slotMarker": {
+					"eng": "Slot ${slot}",
+					"trans": "スロット${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"title": {
+					"eng": "pinned emblems",
+					"trans": "ピン留め済みエンブレム"
+				}
+			},
 			"gangAction": {
 				"editPermissions": {
 					"eng": "Permissions",
@@ -17407,6 +18494,10 @@
 				"block": {
 					"eng": "Block Player",
 					"trans": "ブロックプレーヤー"
+				},
+				"chooseHandler": {
+					"eng": "Choose as Handler",
+					"trans": "ハンドラーに設定"
 				},
 				"giveStreetCred": {
 					"eng": "Give Street Cred",
@@ -17934,6 +19025,16 @@
 					"trans": "エンブレムを非公開にする"
 				}
 			},
+			"privateHandler": {
+				"description": {
+					"eng": "Hide your Handler from other players",
+					"trans": "他のプレイヤーからハンドラーを隠す"
+				},
+				"title": {
+					"eng": "Hide my Handler",
+					"trans": "ハンドラーを非表示"
+				}
+			},
 			"promoOnlyShowWhenUpdate": {
 				"description": {
 					"eng": "Only show promo popup when there is a new event",
@@ -18198,6 +19299,10 @@
 				"eng": "combat",
 				"trans": "戦闘"
 			},
+			"communityRaffles": {
+				"eng": "Community Raffles",
+				"trans": "コミュニティ抽選"
+			},
 			"dataFortress": {
 				"eng": "SL-Data Fortress",
 				"trans": "SLデータ防壁"
@@ -18229,6 +19334,10 @@
 			"furniture": {
 				"eng": "Furniture",
 				"trans": "家具"
+			},
+			"handlers": {
+				"eng": "Handlers",
+				"trans": "ハンドラー"
 			},
 			"inventory": {
 				"eng": "inventory",
@@ -18281,6 +19390,74 @@
 			"timeSkip": {
 				"eng": "time skip",
 				"trans": "タイムスキップ"
+			}
+		},
+		"tutorialSearch": {
+			"clear": {
+				"eng": "Clear search",
+				"trans": "検索クリア"
+			},
+			"close": {
+				"eng": "Close tutorial search",
+				"trans": "チュートリアル検索を閉じる"
+			},
+			"error": {
+				"eng": "Tutorial search is unavailable. Check your connection and retry.",
+				"trans": "チュートリアル検索は現在利用できません。接続を確認して再試行してください。"
+			},
+			"label": {
+				"eng": "Tutorial Search",
+				"trans": "チュートリアル検索"
+			},
+			"loading": {
+				"eng": "Indexing tutorials...",
+				"trans": "チュートリアルをインデックスしています..."
+			},
+			"matchEnglishSectionLabel": {
+				"eng": "English section",
+				"trans": "英語セクション"
+			},
+			"matchEnglishTitleLabel": {
+				"eng": "English title",
+				"trans": "英語タイトル"
+			},
+			"matchSectionLabel": {
+				"eng": "Section",
+				"trans": "セクション"
+			},
+			"matchTitle": {
+				"eng": "Title match",
+				"trans": "タイトル一致"
+			},
+			"noResults": {
+				"eng": "No tutorial results for \"${query}\"",
+				"trans": "${query}に該当するチュートラルは見つかりません",
+				"vars": [
+					"query"
+				]
+			},
+			"partial": {
+				"eng": "Some tutorials could not be indexed.",
+				"trans": "一部のチュートリアルは検索対象に登録できませんでした。"
+			},
+			"placeholder": {
+				"eng": "Search tutorials...",
+				"trans": "チュートリアルを検索..."
+			},
+			"ready": {
+				"eng": "Search tutorial titles, sections, and content.",
+				"trans": "チュートリアルのタイトル、セクション、コンテンツを検索"
+			},
+			"resultCount": {
+				"eng": "${count} results",
+				"trans": "${count}件の結果",
+				"vars": [
+					"count"
+				]
+			},
+			"resultCountOne": {
+				"eng": "1 result",
+				"trans": "1件の結果"
 			}
 		},
 		"unit": {

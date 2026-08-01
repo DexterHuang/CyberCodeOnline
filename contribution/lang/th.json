@@ -965,6 +965,13 @@
 				}
 			}
 		},
+		"discount": {
+			"eng": "${percent}% off",
+			"trans": "ลด ${percent}%",
+			"vars": [
+				"percent"
+			]
+		},
 		"free": {
 			"eng": "Free",
 			"trans": "ฟรี"
@@ -974,6 +981,10 @@
 				"eng": "Free Personal Skip",
 				"trans": "ข้ามส่วนบุคคลฟรี"
 			}
+		},
+		"notAvailable": {
+			"eng": "Bundle not available",
+			"trans": "Bundle ยังไม่พร้อมใช้งาน"
 		},
 		"rareEquipmentCrate": {
 			"name": {
@@ -991,6 +1002,12 @@
 			"name": {
 				"eng": "Skip supply bundle",
 				"trans": "ข้ามชุดซัพพลาย"
+			}
+		},
+		"summerNightsFragmentFusion": {
+			"name": {
+				"eng": "Summer Nights Fusion Bundle",
+				"trans": "เซตฟิวชั่นซัมเมอร์ไนท์"
 			}
 		}
 	},
@@ -1306,12 +1323,6 @@
 		"offRotation": {
 			"eng": "Out of rotation",
 			"trans": "ไม่อยู่ในรอบ"
-		}
-	},
-	"chatHeader": {
-		"skipAvailable": {
-			"eng": "Available",
-			"trans": "พร้อมใช้งานแล้วครับ"
 		}
 	},
 	"chatInput": {
@@ -1796,6 +1807,14 @@
 			"eng": "Got it",
 			"trans": "รับทราบ"
 		},
+		"keep": {
+			"eng": "Keep raffle",
+			"trans": "เข้าสุ่มรางวัล"
+		},
+		"loading": {
+			"eng": "Loading",
+			"trans": "กำลังโหลด"
+		},
 		"max": {
 			"eng": "MAX",
 			"trans": "สูงสุด"
@@ -1809,7 +1828,7 @@
 			"trans": "ซื้อ"
 		},
 		"retry": {
-			"eng": "RETRY CONNECTION",
+			"eng": "Retry",
 			"trans": "เชื่อมต่อใหม่"
 		},
 		"save": {
@@ -1819,6 +1838,608 @@
 		"warning": {
 			"eng": "Warning",
 			"trans": "คำเตือน"
+		}
+	},
+	"communityRaffle": {
+		"action": {
+			"accountBlocked": {
+				"eng": "Limited accounts cannot join Community Raffles.",
+				"trans": "บัญชีที่มีข้อจำกัดไม่สามารถเข้าร่วมการออกรางวัลชุมชนได้"
+			},
+			"closeRaffle": {
+				"eng": "Close raffle",
+				"trans": "ปิดการออกรางวัล"
+			},
+			"closeRaffleDescription": {
+				"eng": "Select and announce the winner",
+				"trans": "เลือกผู้ชนะและประกาศผล"
+			},
+			"graceExpired": {
+				"eng": "Winner selection window expired.",
+				"trans": "หมดเวลาเลือกผู้ชนะแล้ว"
+			},
+			"join": {
+				"eng": "Join raffle",
+				"trans": "เข้าร่วมราฟเฟิล"
+			},
+			"levelBlocked": {
+				"eng": "Reach level ${level} to join.",
+				"trans": "ต้องถึงเลเวล ${level} ถึงจะเข้าร่วมได้",
+				"vars": [
+					"level"
+				]
+			}
+		},
+		"chatHeader": {
+			"open": {
+				"eng": "Open Community Raffles",
+				"trans": "เปิดห้องแจกรางวัลชุมชน"
+			}
+		},
+		"closeRaffle": {
+			"deadline": {
+				"eng": "Winner selection is available after the entry deadline.",
+				"trans": "สามารถเลือกผู้ชนะได้หลังจากหมดเขตส่งชื่อ"
+			},
+			"notOrganizer": {
+				"eng": "Only this Community Raffle's organizer can select the winner.",
+				"trans": "มีเพียงผู้จัดกิจกรรมสุ่มรางวัลของชุมชนนี้เท่านั้นที่มีสิทธิ์เลือกผู้ชนะได้"
+			},
+			"unavailable": {
+				"eng": "Winner selection is not available for this Community Raffle.",
+				"trans": "การเลือกผู้ชนะไม่พร้อมใช้งานสำหรับงานแจกรางวัลชุมชนนี้"
+			}
+		},
+		"create": {
+			"accountLimited": {
+				"eng": "Limited accounts cannot create Community Raffles.",
+				"trans": "บัญชีจำกัดไม่สามารถสร้างการจับฉลากชุมชนได้"
+			},
+			"accountLimitedToast": {
+				"eng": "Limited accounts cannot create Community Raffles.",
+				"trans": "บัญชีจำกัดไม่สามารถสร้างการจับฉลากชุมชนได้"
+			},
+			"action": {
+				"eng": "Create raffle",
+				"trans": "สร้างลอตเตอรี่"
+			},
+			"addEquipment": {
+				"eng": "Attach equipment",
+				"trans": "ติดตั้งอุปกรณ์"
+			},
+			"backToEdit": {
+				"eng": "Back to edit",
+				"trans": "กลับไปแก้ไข"
+			},
+			"composerCounts": {
+				"eng": "${attachments} / ${maximumAttachments} · ${characters} / ${maximumCharacters}",
+				"trans": "${attachments} / ${maximumAttachments} · ${characters} / ${maximumCharacters}",
+				"vars": [
+					"attachments",
+					"maximumAttachments",
+					"characters",
+					"maximumCharacters"
+				]
+			},
+			"confirmAction": {
+				"eng": "Consume 1 Kit and publish",
+				"trans": "ใช้คิต 1 ชิ้นและเผยแพร่"
+			},
+			"confirmKitCost": {
+				"eng": "Publishing consumes one Community Raffle Kit.",
+				"trans": "การประกาศจะใช้ชุดสลากชุมชน 1 ชุด"
+			},
+			"confirmPermanent": {
+				"eng": "Published settings cannot be edited. Deleting the raffle will not refund the Kit.",
+				"trans": "ไม่สามารถแก้ไขการตั้งค่าหลังเผยแพร่ได้ การลบกิจกรรมจะไม่คืนคิท"
+			},
+			"confirmTitle": {
+				"eng": "Publish Community Raffle?",
+				"trans": "เผยแพร่การออกรางวัลชุมชน?"
+			},
+			"cost": {
+				"eng": "1 Raffle Kit",
+				"trans": "1 ชุดสุ่มรางวัล"
+			},
+			"decreaseMinimumLevel": {
+				"eng": "Decrease minimum level by 50",
+				"trans": "ลดระดับขั้นต่ำลง 50"
+			},
+			"description": {
+				"eng": "Description (optional)",
+				"trans": "คำอธิบาย (ไม่บังคับ)"
+			},
+			"duration": {
+				"eng": "Duration",
+				"trans": "ระยะเวลา"
+			},
+			"durationFourteenDays": {
+				"eng": "14 days",
+				"trans": "14 วัน"
+			},
+			"durationOneDay": {
+				"eng": "1 day",
+				"trans": "1 วัน"
+			},
+			"durationOptionFourteenDays": {
+				"eng": "14D",
+				"trans": "14 วัน"
+			},
+			"durationOptionFourteenDaysAccessible": {
+				"eng": "14 days",
+				"trans": "14 วัน"
+			},
+			"durationOptionOneDay": {
+				"eng": "1D",
+				"trans": "1 วัน"
+			},
+			"durationOptionOneDayAccessible": {
+				"eng": "1 day",
+				"trans": "1 วัน"
+			},
+			"durationOptionSevenDays": {
+				"eng": "7D",
+				"trans": "7 วัน"
+			},
+			"durationOptionSevenDaysAccessible": {
+				"eng": "7 days",
+				"trans": "7 วัน"
+			},
+			"durationOptionThirtyDays": {
+				"eng": "30D",
+				"trans": "30 วัน"
+			},
+			"durationOptionThirtyDaysAccessible": {
+				"eng": "30 days",
+				"trans": "30 วัน"
+			},
+			"durationOptionThreeDays": {
+				"eng": "3D",
+				"trans": "3 วัน"
+			},
+			"durationOptionThreeDaysAccessible": {
+				"eng": "3 days",
+				"trans": "3 วัน"
+			},
+			"durationSevenDays": {
+				"eng": "7 days",
+				"trans": "7 วัน"
+			},
+			"durationThirtyDays": {
+				"eng": "30 days",
+				"trans": "30 วัน"
+			},
+			"durationThreeDays": {
+				"eng": "3 days",
+				"trans": "3 วัน"
+			},
+			"equipment": {
+				"eng": "Equipment snapshot (optional)",
+				"trans": "รูปภาพอุปกรณ์ (ไม่บังคับ)"
+			},
+			"equipmentDeliveryDescription": {
+				"eng": "Attached equipment stays in your inventory and is not sent to the winner. You must deliver it yourself.",
+				"trans": "อุปกรณ์ที่แนบจะคงอยู่ในคลังของคุณและจะไม่ถูกโอนให้ผู้เล่นที่ถูกรางวัล คุณต้องดำเนินการจัดส่งด้วยตนเอง"
+			},
+			"equipmentDeliveryTitle": {
+				"eng": "Equipment delivery is manual",
+				"trans": "การส่งมอบอุปกรณ์เป็นแบบแมนนวล"
+			},
+			"equipmentNotOwned": {
+				"eng": "Selected equipment is not owned by this account.",
+				"trans": "บัญชีนี้ยังไม่มีอุปกรณ์ที่เลือกอยู่"
+			},
+			"equipmentRequired": {
+				"eng": "Only equipment can be attached to a Community Raffle.",
+				"trans": "สามารถแนบได้เฉพาะอุปกรณ์สำหรับการลุ้นรางวัลชุมชนเท่านั้น"
+			},
+			"globalAnnouncement": {
+				"eng": "${creatorName} created a Community ${raffleLink}.",
+				"trans": "${creatorName} สร้าง Community ${raffleLink}",
+				"vars": [
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"increaseMinimumLevel": {
+				"eng": "Increase minimum level by 50",
+				"trans": "เพิ่มระดับขั้นต่ำ 50"
+			},
+			"kitRequired": {
+				"eng": "You need a Community Raffle Kit to create this raffle.",
+				"trans": "คุณต้องมีชุดจับรางวัลชุมชนเพื่อสร้างการจับรางวัลนี้"
+			},
+			"levelRequired": {
+				"eng": "Reach level ${level} to create a Community Raffle.",
+				"trans": "ต้องอยู่ที่เลเวล ${level} จึงจะสามารถจัดกิจกรรมสุ่มรางวัลชุมชนได้",
+				"vars": [
+					"level"
+				]
+			},
+			"levelRequiredToast": {
+				"eng": "Reach level ${level} to create a Community Raffle.",
+				"trans": "ต้องอยู่ที่เลเวล ${level} จึงจะสามารถจัดกิจกรรมสุ่มรางวัลชุมชนได้",
+				"vars": [
+					"level"
+				]
+			},
+			"minimumLevel": {
+				"eng": "Minimum level",
+				"trans": "ระดับขั้นต่ำ"
+			},
+			"moderationRejected": {
+				"eng": "Automated check found the title or description inappropriate or unrelated to the Community Raffle. Update the title or description, then try again.",
+				"trans": "ระบบตรวจสอบอัตโนมัติพบว่าชื่อหรือคำอธิบายไม่เหมาะสมหรือไม่เกี่ยวข้องกับกิจกรรม Community Raffle โปรดแก้ไขแล้วลองอีกครั้ง"
+			},
+			"moderationUnavailable": {
+				"eng": "Automated check is temporarily unavailable. Try again in a moment.",
+				"trans": "ระบบตรวจสอบอัตโนมัติขัดข้องชั่วคราว กรุณาลองใหม่อีกครั้งในภายหลัง"
+			},
+			"noDescription": {
+				"eng": "None",
+				"trans": "ไม่มี"
+			},
+			"noEquipment": {
+				"eng": "None",
+				"trans": "ไม่มี"
+			},
+			"pageTitle": {
+				"eng": "Create Community Raffle",
+				"trans": "สร้างการจับฉลากชุมชน"
+			},
+			"removeEquipmentSnapshot": {
+				"eng": "Remove equipment snapshot",
+				"trans": "ลบสแนปช็อตอุปกรณ์"
+			},
+			"review": {
+				"eng": "Review raffle",
+				"trans": "ตรวจสอบแรฟเฟิล"
+			},
+			"selectEquipment": {
+				"eng": "Select equipment snapshot",
+				"trans": "เลือกภาพตัวอย่างอุปกรณ์"
+			},
+			"title": {
+				"eng": "Title",
+				"trans": "ชื่อ"
+			},
+			"titleCount": {
+				"eng": "${current} / ${maximum}",
+				"trans": "${current} / ${maximum}",
+				"vars": [
+					"current",
+					"maximum"
+				]
+			},
+			"titleLength": {
+				"eng": "Title must be ${minimum}–${maximum} characters.",
+				"trans": "ชื่อเรื่องต้องมีความยาว ${minimum}–${maximum} ตัวอักษร",
+				"vars": [
+					"minimum",
+					"maximum"
+				]
+			},
+			"titleRequired": {
+				"eng": "Enter a title.",
+				"trans": "ระบุชื่อ"
+			}
+		},
+		"delete": {
+			"action": {
+				"eng": "Delete raffle",
+				"trans": "ลบการสุ่มรางวัล"
+			},
+			"confirmAction": {
+				"eng": "Delete permanently",
+				"trans": "ลบถาวร"
+			},
+			"confirmTitle": {
+				"eng": "Delete Community Raffle?",
+				"trans": "ลบกิจกรรมราร์ฟเฟิลชุมชนหรือไม่?"
+			},
+			"creatorMail": {
+				"body": {
+					"eng": "Moderator ${moderatorName} deleted your Community Raffle: ${title}",
+					"trans": "ผู้ดูแลระบบ ${moderatorName} ลบกิจกรรมออกรางวัลชุมชนของคุณแล้ว: ${title}",
+					"vars": [
+						"moderatorName",
+						"title"
+					]
+				}
+			},
+			"creatorSuccess": {
+				"eng": "You deleted your Community Raffle.",
+				"trans": "ดำเนินการลบการออกรางวัลชุมชนสำเร็จแล้ว"
+			},
+			"creatorWarning": {
+				"eng": "This permanently removes your raffle and cannot be undone. The Community Raffle Kit will not be refunded.",
+				"trans": "การดำเนินการนี้จะลบกิจกรรมสุ่มรางวัลของคุณออกอย่างถาวรและไม่สามารถย้อนกลับได้ โดยไม่มีการคืน Community Raffle Kit"
+			},
+			"moderatorMail": {
+				"body": {
+					"eng": "You deleted ${creatorName}'s Community Raffle: ${title}",
+					"trans": "คุณได้ลบกิจกรรมเสี่ยงโชคชุมชนของ ${creatorName}: ${title} เรียบร้อยแล้ว",
+					"vars": [
+						"creatorName",
+						"title"
+					]
+				}
+			},
+			"moderatorWarning": {
+				"eng": "This permanently removes ${creator}'s raffle. They will be notified by mail.",
+				"trans": "การดำเนินการนี้จะลบการออกรางวัลของ ${creator} ถาวร ผู้สร้างจะได้รับการแจ้งเตือนผ่านจดmail ในเกม",
+				"vars": [
+					"creator"
+				]
+			}
+		},
+		"delivery": {
+			"creatorNoWinnerMail": {
+				"eng": "Your Community ${raffleLink} “${title}” is complete. No eligible winner remained.",
+				"trans": "กิจกรรม \"${title}\" ของชุมชนคุณ (${raffleLink}) เสร็จสิ้นแล้ว ไม่พบผู้ชนะที่มีสิทธิ์รับรางวัล",
+				"vars": [
+					"title",
+					"raffleLink"
+				]
+			},
+			"creatorWinnerMail": {
+				"eng": "Your Community ${raffleLink} “${title}” is complete. Winner: ${winnerName}.",
+				"trans": "กิจกรรม ${raffleLink} \"${title}\" ของชุมชนคุณเสร็จสิ้นลงแล้ว ผู้ชนะคือ ${winnerName}",
+				"vars": [
+					"title",
+					"winnerName",
+					"raffleLink"
+				]
+			},
+			"globalAnnouncement": {
+				"eng": "🎉 ${winnerName} won a Community ${raffleLink}!",
+				"trans": "🎉 ${winnerName} คว้ารางวัลจากกิจกรรม ${raffleLink} ของชุมชน!",
+				"vars": [
+					"winnerName",
+					"raffleLink"
+				]
+			},
+			"winnerMail": {
+				"eng": "You won the Community ${raffleLink} “${title}”.",
+				"trans": "คุณชนะการเสี่ยงโชคชุมชน ${raffleLink} “${title}” แล้ว",
+				"vars": [
+					"title",
+					"raffleLink"
+				]
+			}
+		},
+		"detail": {
+			"abandonedState": {
+				"eng": "Winner selection was not completed within the seven-day window.",
+				"trans": "ไม่สามารถคัดเลือกผู้ชนะได้ภายในระยะเวลา 7 วัน"
+			},
+			"attachments": {
+				"eng": "Attachments",
+				"trans": "ไฟล์แนบ"
+			},
+			"closed": {
+				"eng": "Closed",
+				"trans": "ปิดแล้ว"
+			},
+			"closesLabel": {
+				"eng": "Closes in",
+				"trans": "ปิดใน"
+			},
+			"entrantList": {
+				"eng": "Entrants",
+				"trans": "ผู้เข้าร่วม"
+			},
+			"hostLabel": {
+				"eng": "Host",
+				"trans": "ผู้จัด"
+			},
+			"levelShort": {
+				"eng": "LV ${level}+",
+				"trans": "เลเวล ${level}+",
+				"vars": [
+					"level"
+				]
+			},
+			"minimumLevel": {
+				"eng": "Minimum level",
+				"trans": "ระดับขั้นต่ำ"
+			},
+			"noEntrants": {
+				"eng": "No entries yet.",
+				"trans": "ยังไม่มีผู้เข้าร่วม"
+			},
+			"notFound": {
+				"eng": "We cannot find this raffle.",
+				"trans": "ไม่พบการออกรางวัลนี้"
+			},
+			"refresh": {
+				"eng": "Refresh raffle details",
+				"trans": "อัปเดตข้อมูลสลาก"
+			},
+			"selectedWinner": {
+				"eng": "Winner",
+				"trans": "ผู้ชนะ"
+			},
+			"statusLabel": {
+				"eng": "Status",
+				"trans": "สถานะ"
+			},
+			"unavailable": {
+				"eng": "Community Raffle unavailable",
+				"trans": "การสุ่มรางวัลชุมชนยังไม่เปิดใช้งาน"
+			},
+			"winnerMarker": {
+				"eng": "Winner",
+				"trans": "ผู้ชนะ"
+			}
+		},
+		"empty": {
+			"description": {
+				"eng": "Active and past raffles will appear here.",
+				"trans": "กิจกรรมสอยรางวัลที่กำลังดำเนินการและย้อนหลังจะแสดงผลที่นี่"
+			},
+			"title": {
+				"eng": "No Community Raffles yet",
+				"trans": "ยังไม่มีสลากชุมชน"
+			}
+		},
+		"error": {
+			"notFound": {
+				"eng": "Community Raffle not found.",
+				"trans": "ไม่พบการจับฉลากของชุมชน"
+			}
+		},
+		"join": {
+			"accountLimited": {
+				"eng": "Limited accounts cannot join Community Raffles.",
+				"trans": "บัญชีที่มีข้อจำกัดไม่สามารถเข้าร่วมการออกรางวัลชุมชนได้"
+			},
+			"alreadyJoined": {
+				"eng": "You already joined this Community Raffle.",
+				"trans": "คุณเข้าร่วมการออกรางวัลชุมชนนี้เรียบร้อยแล้ว"
+			},
+			"associatedEntry": {
+				"eng": "An associated account already entered this Community Raffle.",
+				"trans": "บัญชีที่เกี่ยวข้องได้เข้าร่วมการสุ่รางวัลชุมชนนี้แล้ว"
+			},
+			"closed": {
+				"eng": "This Community Raffle is no longer open for entry.",
+				"trans": "การแจกรางวัลชุมชนนี้ไม่เปิดให้เข้าร่วมอีกต่อไปแล้ว"
+			},
+			"creatorMail": {
+				"eng": "${playerName} has joined your ${raffleLink}. Total entrants: ${totalEntrants}.",
+				"trans": "${playerName} เข้าร่วม ${raffleLink} ของคุณแล้ว จำนวนผู้เข้าร่วมทั้งหมด: ${totalEntrants}",
+				"vars": [
+					"playerName",
+					"raffleLink",
+					"totalEntrants"
+				]
+			},
+			"creatorMailOthers": {
+				"eng": "${playerName} and ${otherCount} more have joined your ${raffleLink}. Total entrants: ${totalEntrants}.",
+				"trans": "${playerName} และอีก ${otherCount} คน ได้เข้าร่วม${raffleLink} ของคุณแล้ว จำนวนผู้ร่วมลุ้นทั้งหมด: ${totalEntrants}",
+				"vars": [
+					"playerName",
+					"otherCount",
+					"raffleLink",
+					"totalEntrants"
+				]
+			},
+			"globalAnnouncement": {
+				"eng": "${playerName} has joined ${creatorName}'s ${raffleLink}.",
+				"trans": "${playerName} เข้าร่วม ${raffleLink} ของ ${creatorName}",
+				"vars": [
+					"playerName",
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"globalAnnouncementOthers": {
+				"eng": "${playerName} and ${otherCount} more have joined ${creatorName}'s ${raffleLink}.",
+				"trans": "${playerName} และอีก ${otherCount} คน เข้าร่วม${raffleLink} ของ ${creatorName} แล้ว.",
+				"vars": [
+					"playerName",
+					"otherCount",
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"levelRequired": {
+				"eng": "Reach level ${level} to join this Community Raffle.",
+				"trans": "ต้องถึงเลเวล ${level} เพื่อเข้าร่วมการจับฉลากชุมชนนี้",
+				"vars": [
+					"level"
+				]
+			},
+			"organizer": {
+				"eng": "You cannot join your own Community Raffle.",
+				"trans": "คุณไม่สามารถเข้าร่วมการจับฉลากชุมชนของคุณเองได้"
+			}
+		},
+		"loadError": {
+			"title": {
+				"eng": "Raffle list unavailable",
+				"trans": "รายการสุ่มรางวัลไม่พร้อมใช้งาน"
+			}
+		},
+		"raffleLink": {
+			"eng": "Raffle",
+			"trans": "ลอตเตอรี่"
+		},
+		"refresh": {
+			"eng": "Refresh raffle list",
+			"trans": "รีเฟรชลิสต์สุ่มรางวัล"
+		},
+		"row": {
+			"awaitingOrganizer": {
+				"eng": "Awaiting organizer",
+				"trans": "รอดำเนินการโดยผู้จัด"
+			},
+			"closedLabel": {
+				"eng": "Closed",
+				"trans": "ปิดแล้ว"
+			},
+			"closesLabel": {
+				"eng": "Closes in",
+				"trans": "ปิดใน"
+			},
+			"entriesLabel": {
+				"eng": "Entries",
+				"trans": "ผู้เข้าร่วม"
+			},
+			"hostLabel": {
+				"eng": "Host",
+				"trans": "ผู้จัด"
+			},
+			"levelShort": {
+				"eng": "LV ${level}+",
+				"trans": "เลเวล ${level}+",
+				"vars": [
+					"level"
+				]
+			},
+			"resultLabel": {
+				"eng": "Result",
+				"trans": "ผลลัพธ์"
+			}
+		},
+		"status": {
+			"abandoned": {
+				"eng": "Abandoned",
+				"trans": "ละทิ้ง"
+			},
+			"awaitingOrganizer": {
+				"eng": "Awaiting organizer",
+				"trans": "รอดำเนินการโดยผู้จัด"
+			},
+			"completed": {
+				"eng": "Completed",
+				"trans": "เสร็จสิ้น"
+			},
+			"open": {
+				"eng": "Open",
+				"trans": "เปิด"
+			}
+		},
+		"title": {
+			"eng": "Community Raffles",
+			"trans": "การสุ่มรางวัลชุมชน"
+		},
+		"tutorial": {
+			"description": {
+				"eng": "Create, join, and select a winner.",
+				"trans": "สร้างเข้าร่วมและเลือกผู้ชนะ"
+			},
+			"title": {
+				"eng": "How Community Raffles work",
+				"trans": "การทำงานของริฟเฟิลชุมชน"
+			}
+		},
+		"validation": {
+			"request": {
+				"eng": "Invalid Community Raffle request.",
+				"trans": "คำขอเข้าร่วมการออกรางวัลชุมชนไม่ถูกต้อง"
+			}
 		}
 	},
 	"component": {
@@ -2452,6 +3073,10 @@
 			"eng": "Vice Heat",
 			"trans": "ไฟมิจฉาทิฐิ"
 		},
+		"donation55": {
+			"eng": "Black Press",
+			"trans": "สำนักข่าวแบล็ก"
+		},
 		"donation6": {
 			"eng": "Prestige",
 			"trans": "ศักดิ์ศรี"
@@ -3002,6 +3627,28 @@
 				"item",
 				"npcName"
 			]
+		}
+	},
+	"emblem": {
+		"showcase": {
+			"error": {
+				"emblemRequired": {
+					"eng": "Emblem is required",
+					"trans": "จำเป็นต้องมีตรา"
+				},
+				"invalidEmblem": {
+					"eng": "Invalid emblem type",
+					"trans": "ประเภทอีเมลล์ไม่ถูกต้อง"
+				},
+				"invalidSlot": {
+					"eng": "Invalid emblem showcase slot",
+					"trans": "ช่องจัดแสดงตราสัญลักษณ์ไม่ถูกต้อง"
+				},
+				"notOwned": {
+					"eng": "You don't own this emblem",
+					"trans": "คุณยังไม่มีสัญลักษณ์นี้"
+				}
+			}
 		}
 	},
 	"emblems": {
@@ -5019,6 +5666,16 @@
 				"trans": "กล่องซัพพลาย [แก๊ง]"
 			}
 		},
+		"communityRaffleKit": {
+			"description": {
+				"eng": "A deployable kit for creating one public Community Raffle. Consumed when the raffle is published.",
+				"trans": "ชุดสร้างการออกรางวัลชุมชนแบบสาธารณะ 1 รายการ ของใช้จะหมดไปเมื่อเริ่มเผยแพร่กิจกรรม"
+			},
+			"name": {
+				"eng": "Community Raffle Kit",
+				"trans": "ชุดสุ่มรางวัลชุมชน"
+			}
+		},
 		"creatine": {
 			"description": {
 				"eng": "Push past your limits and grind like a machine--When consumed, increase damage dealt by ${percent}% for ${minutes} minutes",
@@ -5620,6 +6277,19 @@
 			"name": {
 				"eng": "Medical Tech Parts",
 				"trans": "ชิ้นส่วนเทคโนโลยีทางการแพทย์"
+			}
+		},
+		"mentorSkipVoucher": {
+			"description": {
+				"eng": "An evergreen voucher earned by helping a new runner reach level 50. It automatically applies a ${discountPercent}% Global Skip discount.",
+				"trans": "คูปองถาวรที่ได้จากการช่วยรันเนอร์มือใหม่ไปถึงเลเวล 50 ระบบจะหักส่วนลด Global Skip อัตโนมัติจำนวน ${discountPercent}%",
+				"vars": [
+					"discountPercent"
+				]
+			},
+			"name": {
+				"eng": "Handler Skip Voucher",
+				"trans": "คูปองข้ามภารกิจผู้ควบคุม"
 			}
 		},
 		"missileCommandPass": {
@@ -6329,6 +6999,13 @@
 		}
 	},
 	"itemInbox": {
+		"movedToInventory": {
+			"eng": "${item} has been moved from your item inbox to your inventory automatically",
+			"trans": "${item} ย้ายจากกล่องข้อความไปยังคลังไอเทมของคุณโดยอัตโนมัติ",
+			"vars": [
+				"item"
+			]
+		},
 		"notifySender": {
 			"eng": "${recipient} has retrived your gift items (${itemNames}) from their inbox into their inventory.",
 			"trans": "${recipient} จับของขวัญของคุณ (${itemNames}) จากกล่องจดหมายและเก็บไว้ในคลังของเขา",
@@ -6395,6 +7072,43 @@
 		"title": {
 			"eng": "Rename History",
 			"trans": "ประวัติการเปลี่ยนชื่อ"
+		}
+	},
+	"itemSource": {
+		"drop": {
+			"dungeons": {
+				"eng": "Dungeons",
+				"trans": "ดันเจี้ยน"
+			},
+			"enemies": {
+				"eng": "Enemies",
+				"trans": "ศัตรู"
+			},
+			"lootBoxes": {
+				"eng": "Loot boxes",
+				"trans": "กล่องสุ่มไอเท็ม"
+			},
+			"reclamationTier": {
+				"eng": "Drop on ${tier}",
+				"trans": "ดรอปที่ระดับ ${tier}",
+				"vars": [
+					"tier"
+				]
+			}
+		}
+	},
+	"itemSourceModal": {
+		"description": {
+			"eng": "You can get this item from:",
+			"trans": "คุณสามารถรับไอเทมนี้ได้จาก:"
+		},
+		"empty": {
+			"eng": "No current sources found.",
+			"trans": "ไม่พบแหล่งข้อมูลในขณะนี้"
+		},
+		"title": {
+			"eng": "Item sources",
+			"trans": "แหล่งที่มาของไอเทม"
 		}
 	},
 	"itemStack": {
@@ -7125,6 +7839,10 @@
 		"streetcred": {
 			"eng": "Street Cred",
 			"trans": "เครดิตถนน"
+		},
+		"topHandlers": {
+			"eng": "Top Handlers",
+			"trans": "สุดยอดผู้ดำเนินการ"
 		}
 	},
 	"leaderboardTypePage": {
@@ -8154,6 +8872,106 @@
 			"trans": "ยุทธ์ขีปนาวุธ"
 		}
 	},
+	"mentorship": {
+		"completion": {
+			"handlerMail": {
+				"eng": "${runnerName} reached level ${completionLevel} and passed verification. Your Handler rewards were delivered.",
+				"trans": "${runnerName} บรรลุเลเวล ${completionLevel} และผ่านการตรวจสอบเรียบร้อยแล้ว ของรางวัลสำหรับผู้ดูแลของคุณได้รับการจัดส่งแล้ว",
+				"vars": [
+					"runnerName",
+					"completionLevel"
+				]
+			}
+		},
+		"confirm": {
+			"currentHandler": {
+				"eng": "Current Handler",
+				"trans": "ผู้ดูแลปัจจุบัน"
+			},
+			"endPermanently": {
+				"eng": "End permanently",
+				"trans": "ยกเลิกถาวร"
+			},
+			"endPurpose": {
+				"eng": "End your mentorship with this Handler.",
+				"trans": "ยุติการฝึกสอนกับแฮนด์เลอร์รายนี้"
+			},
+			"endTitle": {
+				"eng": "End mentorship",
+				"trans": "ยุติการเป็นพี่เลี้ยง"
+			},
+			"endWarning": {
+				"eng": "This is permanent. You cannot choose another Handler.",
+				"trans": "การยืนยันนี้ถาวร ไม่สามารถเลือก Handler รายอื่นได้อีก"
+			},
+			"mentorDetails": {
+				"eng": "${name} — Level ${level}",
+				"trans": "${name} — เลเวล ${level}",
+				"vars": [
+					"name",
+					"level"
+				]
+			},
+			"selectPermanently": {
+				"eng": "Choose permanently",
+				"trans": "เลือกแบบถาวร"
+			},
+			"selectPurpose": {
+				"eng": "Choose a Handler to guide your early progression.",
+				"trans": "เลือกผู้ฝึกสอนเพื่อนำทางเส้นทางพัฒนาตัวคุณในช่วงแรก"
+			},
+			"selectTitle": {
+				"eng": "Choose Handler",
+				"trans": "เลือกผู้ดูแล"
+			},
+			"selectWarning": {
+				"eng": "Choose only someone who has greatly helped you learn the game. Never choose a Handler for trades, items, or other favors. You cannot choose another Handler later, even if you end the mentorship.",
+				"trans": "ควรเลือกเฉพาะคนที่เคยช่วยคุณเรียนรู้เกมได้อย่างแท้จริง ห้ามใช้แฮนเดิลเลอร์เพื่อทำการค้า แลกเปลี่ยนไอเท็ม หรือขอความช่วยเหลือใดๆ คุณไม่สามารถเลือกแฮนเดิลเลอร์คนใหม่ได้แม้จะเลิกการรับความช่วยเหลือไปแล้วก็ตาม"
+			}
+		},
+		"revoke": {
+			"invalid": {
+				"eng": "This mentorship can no longer be ended.",
+				"trans": "ไม่สามารถยกเลิกการฝึกสอนนี้ได้แล้ว"
+			}
+		},
+		"select": {
+			"handlerMail": {
+				"eng": "${runnerName} chose you as their Handler. Their mentorship will complete if they reach level ${completionLevel} and pass system verification.",
+				"trans": "${runnerName} เลือกคุณเป็นผู้ควบคุม การเป็นพี่เลี้ยงจะสำเร็จเมื่อพวกเขาถึงระดับ ${completionLevel} และผ่านการตรวจสอบจากระบบ",
+				"vars": [
+					"runnerName",
+					"completionLevel"
+				]
+			},
+			"ineligible": {
+				"eng": "This Handler selection is not eligible.",
+				"trans": "การเลือก Handler นี้ไม่ผ่านเกณฑ์"
+			}
+		}
+	},
+	"mentorshipAssignmentsPage": {
+		"empty": {
+			"eng": "No runners are currently assigned to you.",
+			"trans": "ขณะนี้คุณยังไม่มีรันเนอร์ภายใต้การดูแล"
+		},
+		"loadFailed": {
+			"eng": "Mentoring runners failed to load.",
+			"trans": "ไม่สามารถโหลดข้อมูลรันเนอร์ฝึกสอนได้"
+		},
+		"loading": {
+			"eng": "Loading mentoring runners...",
+			"trans": "กำลังโหลดข้อมูลรันเนอร์เพื่อการสอนงาน..."
+		},
+		"private": {
+			"eng": "Private — only you can see this",
+			"trans": "ส่วนตัว — มีเฉพาะคุณเท่านั้นที่มองเห็น"
+		},
+		"title": {
+			"eng": "Mentoring Runners",
+			"trans": "การฝึกสอนรันเนอร์"
+		}
+	},
 	"messageImage": {
 		"hideImage": {
 			"eng": "Hide Image",
@@ -8249,6 +9067,91 @@
 					"eng": "BREACH SUCCESS",
 					"trans": "บรีชสำเร็จ!"
 				}
+			}
+		},
+		"orderSync": {
+			"board": {
+				"summary": {
+					"eng": "Sorting minigame. Arrange the bars from smallest to largest, left to right within the move budget. Drag a bar to reposition it, or tap two bars to swap them.",
+					"trans": "มินิเกมเรียงลำดับ จัดเรียงแท่งจากเล็กสุดไปใหญ่ที่สุดจากซ้ายไปขวา โดยอยู่ภายใต้ขีดจำกัดการขยับ ลากแท่งเพื่อเปลี่ยนตำแหน่ง หรือกดเลือกสองแท่งเพื่อสลับกัน"
+				}
+			},
+			"fail": {
+				"description": {
+					"eng": "Sort the row before you run out of moves.",
+					"trans": "Sort the row before you run out of moves."
+				},
+				"retry": {
+					"eng": "Retry",
+					"trans": "ลองใหม่"
+				},
+				"status": {
+					"eng": "ORDER REJECTED",
+					"trans": "คำสั่งถูกปฏิเสธ"
+				},
+				"title": {
+					"eng": "Out of moves",
+					"trans": "หมดตาเดิน"
+				}
+			},
+			"instruction": {
+				"eng": "Sort small to big, left to right. Drag a bar to move it, or tap two to swap.",
+				"trans": "เรียงจากเล็กไปใหญ่ตามลำดับซ้ายไปขวา ลากแท่งเพื่อย้ายตำแหน่ง หรือกดเลือกสองรายการเพื่อสลับที่กัน"
+			},
+			"item": {
+				"aria": {
+					"eng": "Bar, value ${value}",
+					"trans": "ค่าในแถบ ${value}",
+					"vars": [
+						"value"
+					]
+				}
+			},
+			"scale": {
+				"high": {
+					"eng": "HIGH",
+					"trans": "สูง"
+				},
+				"label": {
+					"eng": "SIGNAL MAGNITUDE",
+					"trans": "กำลังสัญญาณ"
+				},
+				"low": {
+					"eng": "LOW",
+					"trans": "ต่ำ"
+				}
+			},
+			"status": {
+				"failed": {
+					"eng": "FAILED",
+					"trans": "ล้มเหลว"
+				},
+				"locked": {
+					"eng": "SORTED",
+					"trans": "จัดเรียงเรียบร้อย"
+				},
+				"moves": {
+					"eng": "MOVES ${count}/${max}",
+					"trans": "ขั้นตอน ${count}/${max}",
+					"vars": [
+						"count",
+						"max"
+					]
+				}
+			},
+			"success": {
+				"status": {
+					"eng": "ORDER VALIDATED",
+					"trans": "ยืนยันคำสั่งซื้อสำเร็จ"
+				},
+				"title": {
+					"eng": "Sequence sorted",
+					"trans": "เรียงลำดับเรียบร้อย"
+				}
+			},
+			"title": {
+				"eng": "Order Sync",
+				"trans": "ซิงก์ออเดอร์"
 			}
 		},
 		"relayGrid": {
@@ -11490,6 +12393,65 @@
 				"vars": [
 					"count"
 				]
+			}
+		},
+		"mentorship": {
+			"currentReward": {
+				"eng": "Reward per verified player",
+				"trans": "รางวัลต่อผู้เล่นที่ผ่านการยืนยันแล้ว"
+			},
+			"endMentorship": {
+				"eng": "End mentorship",
+				"trans": "ยุติการเป็นพี่เลี้ยง"
+			},
+			"futureHandlerHint": {
+				"eng": "At level ${handlerLevel}, you can also become a Handler, guide eligible new players, and earn rewards.",
+				"trans": "เมื่อถึงระดับ ${handlerLevel} คุณสามารถรับบทบาทเป็น Handler ได้ โดยแนะนำผู้เล่นหน้าใหม่ที่ผ่านเกณฑ์ พร้อมรับรางวัลตอบแทน",
+				"vars": [
+					"handlerLevel"
+				]
+			},
+			"handler": {
+				"eng": "Handler",
+				"trans": "ผู้จัดการ"
+			},
+			"handlerHint": {
+				"eng": "You can now guide eligible new players as a Handler. They can choose you from your profile. Verified mentorships increase your public total and grant the reward below.",
+				"trans": "ตอนนี้คุณสามารถทำหน้าที่ Handler แนะนำผู้เล่นใหม่ที่มีคุณสมบัติเหมาะสมได้แล้ว ผู้เล่นสามารถเลือกคุณจากหน้าโปรไฟล์ได้ การทำ Mentorship ที่ผ่านการยืนยันจะเพิ่มสถิติสาธารณะและมอบรางวัลตามรายละเอียดด้านล่าง"
+			},
+			"handlerLoadFailed": {
+				"eng": "Handler load failed.",
+				"trans": "โหลด Handler ล้มเหลว"
+			},
+			"loadingHandler": {
+				"eng": "Loading Handler...",
+				"trans": "กำลังโหลดตัวจัดการ..."
+			},
+			"private": {
+				"eng": "Private — only you can see this",
+				"trans": "ส่วนตัว - มีเพียงคุณเท่านั้นที่มองเห็น"
+			},
+			"selectionEndedHint": {
+				"eng": "Your opportunity to choose a Handler ended after level ${maxLevel}. New players can choose one from level ${minLevel} to ${maxLevel} if their account is no more than ${maxAgeDays} days old. At level ${handlerLevel}, you can become a Handler, guide eligible new players, and earn rewards.",
+				"trans": "โอกาสเลือก Handler ของคุณจะสิ้นสุดลงเมื่อคุณขึ้นถึงเลเวล ${maxLevel} ผู้เล่นใหม่สามารถเลือก Handler ได้ในช่วงเลเวล ${minLevel} ถึง ${maxLevel} โดยบัญชีต้องมีอายุไม่เกิน ${maxAgeDays} วัน เมื่อคุณขึ้นถึงเลเวล ${handlerLevel} คุณสามารถเปลี่ยนเป็น Handler เพื่อแนะนำผู้เล่นใหม่ที่ผ่านเกณฑ์และรับรางวัลได้",
+				"vars": [
+					"minLevel",
+					"maxLevel",
+					"maxAgeDays",
+					"handlerLevel"
+				]
+			},
+			"title": {
+				"eng": "Mentorship",
+				"trans": "พี่เลี้ยง"
+			},
+			"unknownHandler": {
+				"eng": "Unknown Handler",
+				"trans": "ผู้ดูแลไม่ทราบ"
+			},
+			"viewMentoringRunners": {
+				"eng": "View Mentoring Runners",
+				"trans": "แสดงรายชื่อรันเนอร์สที่รับคำปรึกษา"
 			}
 		},
 		"pets": {
@@ -15297,6 +16259,10 @@
 				"eng": "Block List",
 				"trans": "รายการบล็อก"
 			},
+			"communityRaffle": {
+				"eng": "Community Raffles",
+				"trans": "การสุ่มรางวัลชุมชน"
+			},
 			"coupon": {
 				"eng": "Claim Coupon",
 				"trans": "คูปองรับสิทธิ์"
@@ -15651,9 +16617,17 @@
 				}
 			},
 			"skippingBuff": {
-				"title": {
-					"eng": "Skip buff sponsored by:",
-					"trans": "บัฟข้าม โดย:"
+				"dismiss": {
+					"eng": "Dismiss Global Skip banner",
+					"trans": "ปิดแบนเนอร์ข้ามทั่วโลก"
+				},
+				"info": {
+					"eng": "Global Skip info",
+					"trans": "Global Skip info"
+				},
+				"sponsor": {
+					"eng": "Global Skip by",
+					"trans": "ข้ามเซิร์ฟเวอร์โดย"
 				}
 			}
 		},
@@ -16468,6 +17442,23 @@
 				"eng": "Equip",
 				"trans": "สวมใส่"
 			},
+			"eventGamePass": {
+				"visitNpc": {
+					"eng": "Go to ${npcName}",
+					"trans": "ไปที่ ${npcName}",
+					"vars": [
+						"npcName"
+					]
+				},
+				"visitNpcDescription": {
+					"eng": "Bring this pass to ${personName} to play ${gameName}.",
+					"trans": "นำพาสนี้ไปหา ${personName} เพื่อเล่น ${gameName}.",
+					"vars": [
+						"personName",
+						"gameName"
+					]
+				}
+			},
 			"history": {
 				"eng": "History",
 				"trans": "ประวัติ"
@@ -16595,6 +17586,10 @@
 			"getAllItems": {
 				"eng": "Get All Items",
 				"trans": "เก็บไอเท็มทั้งหมด"
+			},
+			"noExpiry": {
+				"eng": "Does not expire",
+				"trans": "ไม่หมดอายุ"
 			},
 			"title": {
 				"eng": "Item Inbox",
@@ -16780,6 +17775,12 @@
 			"travel": {
 				"eng": "Travel",
 				"trans": "เดินทาง"
+			}
+		},
+		"markdown": {
+			"error": {
+				"eng": "Content unavailable. Check your connection and retry.",
+				"trans": "เนื้อหาไม่สามารถเข้าถึงได้ กรุณาตรวจสอบการเชื่อมต่อแล้วลองใหม่อีกครั้ง"
 			}
 		},
 		"market": {
@@ -17119,6 +18120,92 @@
 				"eng": "Property of SLPD",
 				"trans": "คุณสมบัติของ SLPD"
 			},
+			"emblemShowcase": {
+				"addSlot": {
+					"eng": "Add emblem to slot ${slot}",
+					"trans": "เพิ่มตราลงในช่อง ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"chooseEmblemByOption": {
+					"eng": "Select emblem option ${option} for slot ${slot}",
+					"trans": "เลือกตัวเลือกตราสัญลักษณ์ ${option} สำหรับช่อง ${slot}",
+					"vars": [
+						"option",
+						"slot"
+					]
+				},
+				"clearSlot": {
+					"eng": "Remove emblem from slot ${slot}",
+					"trans": "นำเอมเบิลออกจากช่องที่ ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"closePicker": {
+					"eng": "Close emblem picker",
+					"trans": "ปิดตัวเลือกรูปตรา"
+				},
+				"confirmSelection": {
+					"eng": "Confirm Selection",
+					"trans": "ยืนยันการเลือก"
+				},
+				"editSlot": {
+					"eng": "Change emblem in slot ${slot}",
+					"trans": "เปลี่ยนตราสัญลักษณ์ในช่อง ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"emblemLabelBySlot": {
+					"eng": "Showcase emblem in slot ${slot}",
+					"trans": "จัดแสดงตราสัญลักษณ์ในช่อง ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"pickerInstruction": {
+					"eng": "Select an emblem for slot ${slot}, then confirm.",
+					"trans": "เลือกตราสำหรับช่อง ${slot} แล้วกดยืนยัน",
+					"vars": [
+						"slot"
+					]
+				},
+				"pickerTitle": {
+					"eng": "Choose Emblem",
+					"trans": "เลือกตราประจำตัว"
+				},
+				"playAudioBySlot": {
+					"eng": "Play audio for emblem in slot ${slot}",
+					"trans": "เล่นเสียงตราประจำตัวช่อง ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"remove": {
+					"eng": "Remove",
+					"trans": "ลบ"
+				},
+				"removeConfirmationTitle": {
+					"eng": "Remove emblem from slot ${slot}?",
+					"trans": "ลบตราออกจากช่อง ${slot}?",
+					"vars": [
+						"slot"
+					]
+				},
+				"slotMarker": {
+					"eng": "Slot ${slot}",
+					"trans": "ช่องที่ ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"title": {
+					"eng": "pinned emblems",
+					"trans": "ตราปักหมุด"
+				}
+			},
 			"gangAction": {
 				"editPermissions": {
 					"eng": "Permissions",
@@ -17193,6 +18280,10 @@
 				"block": {
 					"eng": "Block Player",
 					"trans": "บล็อกผู้เล่น"
+				},
+				"chooseHandler": {
+					"eng": "Choose as Handler",
+					"trans": "เลือกเป็นผู้จัดการ"
 				},
 				"giveStreetCred": {
 					"eng": "Give Street Cred",
@@ -17720,6 +18811,16 @@
 					"trans": "ซ่อนสัญลักษณ์"
 				}
 			},
+			"privateHandler": {
+				"description": {
+					"eng": "Hide your Handler from other players",
+					"trans": "ซ่อนแฮนเดิลเลอร์ของคุณจากผู้เล่นคนอื่น"
+				},
+				"title": {
+					"eng": "Hide my Handler",
+					"trans": "ซ่อนตัวช่วยส่วนตัว"
+				}
+			},
 			"promoOnlyShowWhenUpdate": {
 				"description": {
 					"eng": "Only show promo popup when there is a new event",
@@ -17984,6 +19085,10 @@
 				"eng": "combat",
 				"trans": "การต่อสู้"
 			},
+			"communityRaffles": {
+				"eng": "Community Raffles",
+				"trans": "การสุ่มรางวัลชุมชน"
+			},
 			"dataFortress": {
 				"eng": "SL-Data Fortress",
 				"trans": "ป้อมข้อมข้อมข้อมข้อมข้อมข้อมข้อมข้อม"
@@ -18015,6 +19120,10 @@
 			"furniture": {
 				"eng": "Furniture",
 				"trans": "เฟอร์นิเจอร์"
+			},
+			"handlers": {
+				"eng": "Handlers",
+				"trans": "ตัวจัดการ"
 			},
 			"inventory": {
 				"eng": "inventory",
@@ -18067,6 +19176,74 @@
 			"timeSkip": {
 				"eng": "time skip",
 				"trans": "ข้ามเวลา"
+			}
+		},
+		"tutorialSearch": {
+			"clear": {
+				"eng": "Clear search",
+				"trans": "ล้างการค้นหา"
+			},
+			"close": {
+				"eng": "Close tutorial search",
+				"trans": "ปิดการค้นหาบทเรียน"
+			},
+			"error": {
+				"eng": "Tutorial search is unavailable. Check your connection and retry.",
+				"trans": "การค้นหาบทเรียนไม่พร้อมใช้งาน โปรดตรวจสอบการเชื่อมต่อแล้วลองใหม่"
+			},
+			"label": {
+				"eng": "Tutorial Search",
+				"trans": "ค้นหาบทเรียน"
+			},
+			"loading": {
+				"eng": "Indexing tutorials...",
+				"trans": "กำลังจัดทำดัชนีบทเรียน..."
+			},
+			"matchEnglishSectionLabel": {
+				"eng": "English section",
+				"trans": "ส่วนภาษาอังกฤษ"
+			},
+			"matchEnglishTitleLabel": {
+				"eng": "English title",
+				"trans": "ชื่อเรื่องภาษาอังกฤษ"
+			},
+			"matchSectionLabel": {
+				"eng": "Section",
+				"trans": "ส่วน"
+			},
+			"matchTitle": {
+				"eng": "Title match",
+				"trans": "ชื่อที่ตรงกัน"
+			},
+			"noResults": {
+				"eng": "No tutorial results for \"${query}\"",
+				"trans": "ไม่พบบทแนะนำที่ตรงกับ \"${query}\"",
+				"vars": [
+					"query"
+				]
+			},
+			"partial": {
+				"eng": "Some tutorials could not be indexed.",
+				"trans": "ไม่สามารถจัดทำดัชนีบทเรียนบางส่วนได้"
+			},
+			"placeholder": {
+				"eng": "Search tutorials...",
+				"trans": "ค้นหาบทช่วยสอน..."
+			},
+			"ready": {
+				"eng": "Search tutorial titles, sections, and content.",
+				"trans": "ค้นหาชื่อบทเรียน หมวดหมู่ และเนื้อหา"
+			},
+			"resultCount": {
+				"eng": "${count} results",
+				"trans": "${count} รายการ",
+				"vars": [
+					"count"
+				]
+			},
+			"resultCountOne": {
+				"eng": "1 result",
+				"trans": "พบ 1 รายการ"
 			}
 		},
 		"unit": {

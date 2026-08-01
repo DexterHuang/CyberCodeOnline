@@ -965,6 +965,13 @@
 				}
 			}
 		},
+		"discount": {
+			"eng": "${percent}% off",
+			"trans": "${percent}% скидка",
+			"vars": [
+				"percent"
+			]
+		},
 		"free": {
 			"eng": "Free",
 			"trans": "Бесплатно"
@@ -974,6 +981,10 @@
 				"eng": "Free Personal Skip",
 				"trans": "Бесплатный личный пропуск"
 			}
+		},
+		"notAvailable": {
+			"eng": "Bundle not available",
+			"trans": "Набор недоступен"
 		},
 		"rareEquipmentCrate": {
 			"name": {
@@ -991,6 +1002,12 @@
 			"name": {
 				"eng": "Skip supply bundle",
 				"trans": "Пропустить пакет снабжения"
+			}
+		},
+		"summerNightsFragmentFusion": {
+			"name": {
+				"eng": "Summer Nights Fusion Bundle",
+				"trans": "Летний набор слияния"
 			}
 		}
 	},
@@ -1306,12 +1323,6 @@
 		"offRotation": {
 			"eng": "Out of rotation",
 			"trans": "Вне ротации"
-		}
-	},
-	"chatHeader": {
-		"skipAvailable": {
-			"eng": "Available",
-			"trans": "Доступно"
 		}
 	},
 	"chatInput": {
@@ -1796,6 +1807,14 @@
 			"eng": "Got it",
 			"trans": "Понятно"
 		},
+		"keep": {
+			"eng": "Keep raffle",
+			"trans": "Сохранить розыгрыш"
+		},
+		"loading": {
+			"eng": "Loading",
+			"trans": "Загрузка"
+		},
 		"max": {
 			"eng": "MAX",
 			"trans": "Максимум"
@@ -1809,7 +1828,7 @@
 			"trans": "Купить"
 		},
 		"retry": {
-			"eng": "RETRY CONNECTION",
+			"eng": "Retry",
 			"trans": "Повторить подключение"
 		},
 		"save": {
@@ -1819,6 +1838,608 @@
 		"warning": {
 			"eng": "Warning",
 			"trans": "Предупреждение"
+		}
+	},
+	"communityRaffle": {
+		"action": {
+			"accountBlocked": {
+				"eng": "Limited accounts cannot join Community Raffles.",
+				"trans": "Аккаунты с ограничениями не могут участвовать в розыгрышах сообщества."
+			},
+			"closeRaffle": {
+				"eng": "Close raffle",
+				"trans": "Закрыть лотерею"
+			},
+			"closeRaffleDescription": {
+				"eng": "Select and announce the winner",
+				"trans": "Выберите и объявите победителя"
+			},
+			"graceExpired": {
+				"eng": "Winner selection window expired.",
+				"trans": "Период выбора победителя истёк"
+			},
+			"join": {
+				"eng": "Join raffle",
+				"trans": "Участвовать в розыгрыше"
+			},
+			"levelBlocked": {
+				"eng": "Reach level ${level} to join.",
+				"trans": "Достигните уровня ${level}, чтобы participate.",
+				"vars": [
+					"level"
+				]
+			}
+		},
+		"chatHeader": {
+			"open": {
+				"eng": "Open Community Raffles",
+				"trans": "Розыгрыши сообщества"
+			}
+		},
+		"closeRaffle": {
+			"deadline": {
+				"eng": "Winner selection is available after the entry deadline.",
+				"trans": "Выбор победителей начнётся после завершения приёма заявок."
+			},
+			"notOrganizer": {
+				"eng": "Only this Community Raffle's organizer can select the winner.",
+				"trans": "Выбрать победителя может только организатор этого розыгрыша в сообществе."
+			},
+			"unavailable": {
+				"eng": "Winner selection is not available for this Community Raffle.",
+				"trans": "Выбор победителя недоступен для данного розыгрыша сообщества."
+			}
+		},
+		"create": {
+			"accountLimited": {
+				"eng": "Limited accounts cannot create Community Raffles.",
+				"trans": "Ограниченные аккаунты не могут создавать розыгрыши сообщества."
+			},
+			"accountLimitedToast": {
+				"eng": "Limited accounts cannot create Community Raffles.",
+				"trans": "Ограниченные аккаунты не могут создавать розыгрыши сообщества."
+			},
+			"action": {
+				"eng": "Create raffle",
+				"trans": "Создать розыгрыш"
+			},
+			"addEquipment": {
+				"eng": "Attach equipment",
+				"trans": "Установить оборудование"
+			},
+			"backToEdit": {
+				"eng": "Back to edit",
+				"trans": "Назад к редактированию"
+			},
+			"composerCounts": {
+				"eng": "${attachments} / ${maximumAttachments} · ${characters} / ${maximumCharacters}",
+				"trans": "${attachments} / ${maximumAttachments} · ${characters} / ${maximumCharacters}",
+				"vars": [
+					"attachments",
+					"maximumAttachments",
+					"characters",
+					"maximumCharacters"
+				]
+			},
+			"confirmAction": {
+				"eng": "Consume 1 Kit and publish",
+				"trans": "Использовать 1 набор и опубликовать"
+			},
+			"confirmKitCost": {
+				"eng": "Publishing consumes one Community Raffle Kit.",
+				"trans": "Для публикации расходуется один комплект для розыгрыша сообщества."
+			},
+			"confirmPermanent": {
+				"eng": "Published settings cannot be edited. Deleting the raffle will not refund the Kit.",
+				"trans": "Изменить опубликованные настройки нельзя. Удаление розыгрыша не вернёт Кит."
+			},
+			"confirmTitle": {
+				"eng": "Publish Community Raffle?",
+				"trans": "Опубликовать розыгрыш сообщества?"
+			},
+			"cost": {
+				"eng": "1 Raffle Kit",
+				"trans": "1 набор для розыгрыша"
+			},
+			"decreaseMinimumLevel": {
+				"eng": "Decrease minimum level by 50",
+				"trans": "Снизить минимальный уровень на 50"
+			},
+			"description": {
+				"eng": "Description (optional)",
+				"trans": "Описание (необязательно)"
+			},
+			"duration": {
+				"eng": "Duration",
+				"trans": "Длительность"
+			},
+			"durationFourteenDays": {
+				"eng": "14 days",
+				"trans": "14 дней"
+			},
+			"durationOneDay": {
+				"eng": "1 day",
+				"trans": "1 день"
+			},
+			"durationOptionFourteenDays": {
+				"eng": "14D",
+				"trans": "14 дней"
+			},
+			"durationOptionFourteenDaysAccessible": {
+				"eng": "14 days",
+				"trans": "14 дней"
+			},
+			"durationOptionOneDay": {
+				"eng": "1D",
+				"trans": "1 день"
+			},
+			"durationOptionOneDayAccessible": {
+				"eng": "1 day",
+				"trans": "1 день"
+			},
+			"durationOptionSevenDays": {
+				"eng": "7D",
+				"trans": "7 дней"
+			},
+			"durationOptionSevenDaysAccessible": {
+				"eng": "7 days",
+				"trans": "7 дней"
+			},
+			"durationOptionThirtyDays": {
+				"eng": "30D",
+				"trans": "30 дней"
+			},
+			"durationOptionThirtyDaysAccessible": {
+				"eng": "30 days",
+				"trans": "30 дней"
+			},
+			"durationOptionThreeDays": {
+				"eng": "3D",
+				"trans": "3 дня"
+			},
+			"durationOptionThreeDaysAccessible": {
+				"eng": "3 days",
+				"trans": "3 дня"
+			},
+			"durationSevenDays": {
+				"eng": "7 days",
+				"trans": "7 дней"
+			},
+			"durationThirtyDays": {
+				"eng": "30 days",
+				"trans": "30 дней"
+			},
+			"durationThreeDays": {
+				"eng": "3 days",
+				"trans": "3 дня"
+			},
+			"equipment": {
+				"eng": "Equipment snapshot (optional)",
+				"trans": "Изображение экипировки (необязательно)"
+			},
+			"equipmentDeliveryDescription": {
+				"eng": "Attached equipment stays in your inventory and is not sent to the winner. You must deliver it yourself.",
+				"trans": "Привязанное снаряжение останется в вашем инвентаре и не будет отправлено победителю. Доставить его необходимо самостоятельно."
+			},
+			"equipmentDeliveryTitle": {
+				"eng": "Equipment delivery is manual",
+				"trans": "Ручная доставка"
+			},
+			"equipmentNotOwned": {
+				"eng": "Selected equipment is not owned by this account.",
+				"trans": "Выбранное снаряжение не принадлежит данному аккаунту."
+			},
+			"equipmentRequired": {
+				"eng": "Only equipment can be attached to a Community Raffle.",
+				"trans": "К розыгрышу сообщества можно привязать только экипировку."
+			},
+			"globalAnnouncement": {
+				"eng": "${creatorName} created a Community ${raffleLink}.",
+				"trans": "${creatorName} создал розыгрыш сообщества. ${raffleLink}",
+				"vars": [
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"increaseMinimumLevel": {
+				"eng": "Increase minimum level by 50",
+				"trans": "Повысить минимальный уровень на 50"
+			},
+			"kitRequired": {
+				"eng": "You need a Community Raffle Kit to create this raffle.",
+				"trans": "Для создания этого розыгрыша требуется набор сообщества для лотереи."
+			},
+			"levelRequired": {
+				"eng": "Reach level ${level} to create a Community Raffle.",
+				"trans": "Достигните уровня ${level}, чтобы создать розыгрыш сообщества.",
+				"vars": [
+					"level"
+				]
+			},
+			"levelRequiredToast": {
+				"eng": "Reach level ${level} to create a Community Raffle.",
+				"trans": "Достигните уровня ${level}, чтобы создать розыгрыш сообщества.",
+				"vars": [
+					"level"
+				]
+			},
+			"minimumLevel": {
+				"eng": "Minimum level",
+				"trans": "Минимальный уровень"
+			},
+			"moderationRejected": {
+				"eng": "Automated check found the title or description inappropriate or unrelated to the Community Raffle. Update the title or description, then try again.",
+				"trans": "Автоматическая проверка обнаружила неподходящее название или описание, не связанное с темой розыгрыша сообщества. Измените заголовок или описание и попробуйте снова."
+			},
+			"moderationUnavailable": {
+				"eng": "Automated check is temporarily unavailable. Try again in a moment.",
+				"trans": "Автоматическая проверка временно недоступна. Повторите попытку чуть позже."
+			},
+			"noDescription": {
+				"eng": "None",
+				"trans": "Нет"
+			},
+			"noEquipment": {
+				"eng": "None",
+				"trans": "Нет"
+			},
+			"pageTitle": {
+				"eng": "Create Community Raffle",
+				"trans": "Создать розыгрыш сообщества"
+			},
+			"removeEquipmentSnapshot": {
+				"eng": "Remove equipment snapshot",
+				"trans": "Удалить снимок экипировки"
+			},
+			"review": {
+				"eng": "Review raffle",
+				"trans": "Проверка розыгрыша"
+			},
+			"selectEquipment": {
+				"eng": "Select equipment snapshot",
+				"trans": "Выберите снимок экипировки"
+			},
+			"title": {
+				"eng": "Title",
+				"trans": "Название"
+			},
+			"titleCount": {
+				"eng": "${current} / ${maximum}",
+				"trans": "${current} / ${maximum}",
+				"vars": [
+					"current",
+					"maximum"
+				]
+			},
+			"titleLength": {
+				"eng": "Title must be ${minimum}–${maximum} characters.",
+				"trans": "Название должно быть от ${minimum} до ${maximum} символов.",
+				"vars": [
+					"minimum",
+					"maximum"
+				]
+			},
+			"titleRequired": {
+				"eng": "Enter a title.",
+				"trans": "Введите название"
+			}
+		},
+		"delete": {
+			"action": {
+				"eng": "Delete raffle",
+				"trans": "Удалить розыгрыш"
+			},
+			"confirmAction": {
+				"eng": "Delete permanently",
+				"trans": "Удалить навсегда"
+			},
+			"confirmTitle": {
+				"eng": "Delete Community Raffle?",
+				"trans": "Удалить розыгрыш сообщества?"
+			},
+			"creatorMail": {
+				"body": {
+					"eng": "Moderator ${moderatorName} deleted your Community Raffle: ${title}",
+					"trans": "Модератор ${moderatorName} удалил ваш розыгрыш сообщества: ${title}",
+					"vars": [
+						"moderatorName",
+						"title"
+					]
+				}
+			},
+			"creatorSuccess": {
+				"eng": "You deleted your Community Raffle.",
+				"trans": "Вы удалили свой розыгрыш в сообществе."
+			},
+			"creatorWarning": {
+				"eng": "This permanently removes your raffle and cannot be undone. The Community Raffle Kit will not be refunded.",
+				"trans": "Это действие необратимо и приведёт к полному удалению вашего розыгрыша. Все ресурсы, использованные для создания розыгрыша сообщества, не возвращаются."
+			},
+			"moderatorMail": {
+				"body": {
+					"eng": "You deleted ${creatorName}'s Community Raffle: ${title}",
+					"trans": "Вы удалили розыгрыш сообщества ${creatorName}: ${title}",
+					"vars": [
+						"creatorName",
+						"title"
+					]
+				}
+			},
+			"moderatorWarning": {
+				"eng": "This permanently removes ${creator}'s raffle. They will be notified by mail.",
+				"trans": "Розыгрыш ${creator} будет безвозвратно удалён. Оператор оповестит его по почте.",
+				"vars": [
+					"creator"
+				]
+			}
+		},
+		"delivery": {
+			"creatorNoWinnerMail": {
+				"eng": "Your Community ${raffleLink} “${title}” is complete. No eligible winner remained.",
+				"trans": "Розыгрыш сообщества \"${title}\" завершён. Подходящих победителей не нашлось. ${raffleLink}",
+				"vars": [
+					"title",
+					"raffleLink"
+				]
+			},
+			"creatorWinnerMail": {
+				"eng": "Your Community ${raffleLink} “${title}” is complete. Winner: ${winnerName}.",
+				"trans": "Ваш розыгрыш сообщества «${title}» завершён. Победитель: ${winnerName}. ${raffleLink}",
+				"vars": [
+					"title",
+					"winnerName",
+					"raffleLink"
+				]
+			},
+			"globalAnnouncement": {
+				"eng": "🎉 ${winnerName} won a Community ${raffleLink}!",
+				"trans": "${winnerName} выиграл в розыгрыше сообщества! ${raffleLink}",
+				"vars": [
+					"winnerName",
+					"raffleLink"
+				]
+			},
+			"winnerMail": {
+				"eng": "You won the Community ${raffleLink} “${title}”.",
+				"trans": "Вы выиграли в розыгрыше сообщества «${title}». ${raffleLink}",
+				"vars": [
+					"title",
+					"raffleLink"
+				]
+			}
+		},
+		"detail": {
+			"abandonedState": {
+				"eng": "Winner selection was not completed within the seven-day window.",
+				"trans": "Выбор победителей не был завершён в течение семи дней."
+			},
+			"attachments": {
+				"eng": "Attachments",
+				"trans": "Вложения"
+			},
+			"closed": {
+				"eng": "Closed",
+				"trans": "Закрыто"
+			},
+			"closesLabel": {
+				"eng": "Closes in",
+				"trans": "Закроется через"
+			},
+			"entrantList": {
+				"eng": "Entrants",
+				"trans": "Участники"
+			},
+			"hostLabel": {
+				"eng": "Host",
+				"trans": "Организатор"
+			},
+			"levelShort": {
+				"eng": "LV ${level}+",
+				"trans": "Ур. ${level}+",
+				"vars": [
+					"level"
+				]
+			},
+			"minimumLevel": {
+				"eng": "Minimum level",
+				"trans": "Минимальный уровень"
+			},
+			"noEntrants": {
+				"eng": "No entries yet.",
+				"trans": "Пока нет участников."
+			},
+			"notFound": {
+				"eng": "We cannot find this raffle.",
+				"trans": "Розыгрыш не найден"
+			},
+			"refresh": {
+				"eng": "Refresh raffle details",
+				"trans": "Обновить информацию о розыгрыше"
+			},
+			"selectedWinner": {
+				"eng": "Winner",
+				"trans": "Победитель"
+			},
+			"statusLabel": {
+				"eng": "Status",
+				"trans": "Статус"
+			},
+			"unavailable": {
+				"eng": "Community Raffle unavailable",
+				"trans": "Розыгрыш сообщества недоступен"
+			},
+			"winnerMarker": {
+				"eng": "Winner",
+				"trans": "Победитель"
+			}
+		},
+		"empty": {
+			"description": {
+				"eng": "Active and past raffles will appear here.",
+				"trans": "Здесь появятся активные и завершённые розыгрыши."
+			},
+			"title": {
+				"eng": "No Community Raffles yet",
+				"trans": "Розыгрышей сообщества пока нет"
+			}
+		},
+		"error": {
+			"notFound": {
+				"eng": "Community Raffle not found.",
+				"trans": "Розыгрыш сообщества не найден."
+			}
+		},
+		"join": {
+			"accountLimited": {
+				"eng": "Limited accounts cannot join Community Raffles.",
+				"trans": "Аккаунты с ограничениями не могут участвовать в розыгрышах сообщества."
+			},
+			"alreadyJoined": {
+				"eng": "You already joined this Community Raffle.",
+				"trans": "Вы уже присоединились к этому розыгрышу сообщества."
+			},
+			"associatedEntry": {
+				"eng": "An associated account already entered this Community Raffle.",
+				"trans": "Связанный аккаунт уже участвовал в этом розыгрыше сообщества."
+			},
+			"closed": {
+				"eng": "This Community Raffle is no longer open for entry.",
+				"trans": "Набор на розыгрыш сообщества закрыт."
+			},
+			"creatorMail": {
+				"eng": "${playerName} has joined your ${raffleLink}. Total entrants: ${totalEntrants}.",
+				"trans": "${playerName} присоединился к вашей ${raffleLink}. Всего участников: ${totalEntrants}.",
+				"vars": [
+					"playerName",
+					"raffleLink",
+					"totalEntrants"
+				]
+			},
+			"creatorMailOthers": {
+				"eng": "${playerName} and ${otherCount} more have joined your ${raffleLink}. Total entrants: ${totalEntrants}.",
+				"trans": "${playerName} и ещё ${otherCount} присоединились к вашему ${raffleLink}. Всего участников: ${totalEntrants}.",
+				"vars": [
+					"playerName",
+					"otherCount",
+					"raffleLink",
+					"totalEntrants"
+				]
+			},
+			"globalAnnouncement": {
+				"eng": "${playerName} has joined ${creatorName}'s ${raffleLink}.",
+				"trans": "${playerName} присоединился к розыгрышу ${raffleLink} пользователя ${creatorName}.",
+				"vars": [
+					"playerName",
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"globalAnnouncementOthers": {
+				"eng": "${playerName} and ${otherCount} more have joined ${creatorName}'s ${raffleLink}.",
+				"trans": "${playerName} и ещё ${otherCount} присоединились к розыгрышу ${creatorName}: ${raffleLink}.",
+				"vars": [
+					"playerName",
+					"otherCount",
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"levelRequired": {
+				"eng": "Reach level ${level} to join this Community Raffle.",
+				"trans": "Достигните уровня ${level}, чтобы участвовать в розыгрыше сообщества.",
+				"vars": [
+					"level"
+				]
+			},
+			"organizer": {
+				"eng": "You cannot join your own Community Raffle.",
+				"trans": "Вы не можете участвовать в собственном розыгрыше."
+			}
+		},
+		"loadError": {
+			"title": {
+				"eng": "Raffle list unavailable",
+				"trans": "Список розыгрыша недоступен"
+			}
+		},
+		"raffleLink": {
+			"eng": "Raffle",
+			"trans": "Розыгрыш"
+		},
+		"refresh": {
+			"eng": "Refresh raffle list",
+			"trans": "Обновить список розыгрышей"
+		},
+		"row": {
+			"awaitingOrganizer": {
+				"eng": "Awaiting organizer",
+				"trans": "Ожидает организатора"
+			},
+			"closedLabel": {
+				"eng": "Closed",
+				"trans": "Закрыто"
+			},
+			"closesLabel": {
+				"eng": "Closes in",
+				"trans": "Закроется через"
+			},
+			"entriesLabel": {
+				"eng": "Entries",
+				"trans": "Участники"
+			},
+			"hostLabel": {
+				"eng": "Host",
+				"trans": "Организатор"
+			},
+			"levelShort": {
+				"eng": "LV ${level}+",
+				"trans": "Ур. ${level}+",
+				"vars": [
+					"level"
+				]
+			},
+			"resultLabel": {
+				"eng": "Result",
+				"trans": "Результат"
+			}
+		},
+		"status": {
+			"abandoned": {
+				"eng": "Abandoned",
+				"trans": "Отменён"
+			},
+			"awaitingOrganizer": {
+				"eng": "Awaiting organizer",
+				"trans": "Ожидает организатора"
+			},
+			"completed": {
+				"eng": "Completed",
+				"trans": "Завершено"
+			},
+			"open": {
+				"eng": "Open",
+				"trans": "Открыто"
+			}
+		},
+		"title": {
+			"eng": "Community Raffles",
+			"trans": "Розыгрыши сообщества"
+		},
+		"tutorial": {
+			"description": {
+				"eng": "Create, join, and select a winner.",
+				"trans": "Создавайте розыгрыши, присоединяйтесь к ним и выбирайте победителя."
+			},
+			"title": {
+				"eng": "How Community Raffles work",
+				"trans": "Как работает коллективный розыгрыш"
+			}
+		},
+		"validation": {
+			"request": {
+				"eng": "Invalid Community Raffle request.",
+				"trans": "Некорректный запрос на розыгрыш сообщества."
+			}
 		}
 	},
 	"component": {
@@ -2452,6 +3073,10 @@
 			"eng": "Vice Heat",
 			"trans": "Жар пороков"
 		},
+		"donation55": {
+			"eng": "Black Press",
+			"trans": "Чёрная пресса"
+		},
 		"donation6": {
 			"eng": "Prestige",
 			"trans": "Престиж"
@@ -3002,6 +3627,28 @@
 				"item",
 				"npcName"
 			]
+		}
+	},
+	"emblem": {
+		"showcase": {
+			"error": {
+				"emblemRequired": {
+					"eng": "Emblem is required",
+					"trans": "Эмблема обязательна"
+				},
+				"invalidEmblem": {
+					"eng": "Invalid emblem type",
+					"trans": "Неверный тип эмблемы"
+				},
+				"invalidSlot": {
+					"eng": "Invalid emblem showcase slot",
+					"trans": "Недопустимый слот витрины для эмблемы"
+				},
+				"notOwned": {
+					"eng": "You don't own this emblem",
+					"trans": "У вас нет этой эмблемы"
+				}
+			}
 		}
 	},
 	"emblems": {
@@ -5019,6 +5666,16 @@
 				"trans": "Ящик с припасами для банды"
 			}
 		},
+		"communityRaffleKit": {
+			"description": {
+				"eng": "A deployable kit for creating one public Community Raffle. Consumed when the raffle is published.",
+				"trans": "Набор для создания одного публичного розыгрыша сообщества. Расходуется при публикации."
+			},
+			"name": {
+				"eng": "Community Raffle Kit",
+				"trans": "Лотерейный набор сообщества"
+			}
+		},
 		"creatine": {
 			"description": {
 				"eng": "Push past your limits and grind like a machine--When consumed, increase damage dealt by ${percent}% for ${minutes} minutes",
@@ -5620,6 +6277,19 @@
 			"name": {
 				"eng": "Medical Tech Parts",
 				"trans": "Детали мед. оборудования"
+			}
+		},
+		"mentorSkipVoucher": {
+			"description": {
+				"eng": "An evergreen voucher earned by helping a new runner reach level 50. It automatically applies a ${discountPercent}% Global Skip discount.",
+				"trans": "Бессрочный купон за помощь новичку в достижении 50 уровня. Автоматически применяет скидку ${discountPercent}% на Глобальный пропуск.",
+				"vars": [
+					"discountPercent"
+				]
+			},
+			"name": {
+				"eng": "Handler Skip Voucher",
+				"trans": "Ваучер пропуска Хендлера"
 			}
 		},
 		"missileCommandPass": {
@@ -6329,6 +6999,13 @@
 		}
 	},
 	"itemInbox": {
+		"movedToInventory": {
+			"eng": "${item} has been moved from your item inbox to your inventory automatically",
+			"trans": "${item} автоматически перемещён из ящика предметов в инвентарь",
+			"vars": [
+				"item"
+			]
+		},
 		"notifySender": {
 			"eng": "${recipient} has retrived your gift items (${itemNames}) from their inbox into their inventory.",
 			"trans": "${recipient} забрал ваши подарки (${itemNames}) из своего почтового ящика и положил их в инвентарь.",
@@ -6395,6 +7072,43 @@
 		"title": {
 			"eng": "Rename History",
 			"trans": "История переименования"
+		}
+	},
+	"itemSource": {
+		"drop": {
+			"dungeons": {
+				"eng": "Dungeons",
+				"trans": "Подземелья"
+			},
+			"enemies": {
+				"eng": "Enemies",
+				"trans": "Враги"
+			},
+			"lootBoxes": {
+				"eng": "Loot boxes",
+				"trans": "Лутбоксы"
+			},
+			"reclamationTier": {
+				"eng": "Drop on ${tier}",
+				"trans": "Сбросить на уровень ${tier}",
+				"vars": [
+					"tier"
+				]
+			}
+		}
+	},
+	"itemSourceModal": {
+		"description": {
+			"eng": "You can get this item from:",
+			"trans": "Этот предмет можно получить:"
+		},
+		"empty": {
+			"eng": "No current sources found.",
+			"trans": "Нет текущих источников."
+		},
+		"title": {
+			"eng": "Item sources",
+			"trans": "Источники предметов"
 		}
 	},
 	"itemStack": {
@@ -7125,6 +7839,10 @@
 		"streetcred": {
 			"eng": "Street Cred",
 			"trans": "Репутация"
+		},
+		"topHandlers": {
+			"eng": "Top Handlers",
+			"trans": "Топ операторов"
 		}
 	},
 	"leaderboardTypePage": {
@@ -8154,6 +8872,106 @@
 			"trans": "Ракетная Оборона"
 		}
 	},
+	"mentorship": {
+		"completion": {
+			"handlerMail": {
+				"eng": "${runnerName} reached level ${completionLevel} and passed verification. Your Handler rewards were delivered.",
+				"trans": "${runnerName} достиг уровня ${completionLevel} и прошел верификацию. Ваши награды куратора доставлены.",
+				"vars": [
+					"runnerName",
+					"completionLevel"
+				]
+			}
+		},
+		"confirm": {
+			"currentHandler": {
+				"eng": "Current Handler",
+				"trans": "Текущий куратор"
+			},
+			"endPermanently": {
+				"eng": "End permanently",
+				"trans": "Завершить навсегда"
+			},
+			"endPurpose": {
+				"eng": "End your mentorship with this Handler.",
+				"trans": "Завершить наставничество с этим Хендлером."
+			},
+			"endTitle": {
+				"eng": "End mentorship",
+				"trans": "Завершить наставничество"
+			},
+			"endWarning": {
+				"eng": "This is permanent. You cannot choose another Handler.",
+				"trans": "Выбор окончательный. Сменить хендлера нельзя."
+			},
+			"mentorDetails": {
+				"eng": "${name} — Level ${level}",
+				"trans": "${name} — Уровень ${level}",
+				"vars": [
+					"name",
+					"level"
+				]
+			},
+			"selectPermanently": {
+				"eng": "Choose permanently",
+				"trans": "Выбрать навсегда"
+			},
+			"selectPurpose": {
+				"eng": "Choose a Handler to guide your early progression.",
+				"trans": "Выберите оператора, чтобы начать свой путь."
+			},
+			"selectTitle": {
+				"eng": "Choose Handler",
+				"trans": "Выберите куратора"
+			},
+			"selectWarning": {
+				"eng": "Choose only someone who has greatly helped you learn the game. Never choose a Handler for trades, items, or other favors. You cannot choose another Handler later, even if you end the mentorship.",
+				"trans": "Выбрать куратора можно только один раз. Это решение необратимо."
+			}
+		},
+		"revoke": {
+			"invalid": {
+				"eng": "This mentorship can no longer be ended.",
+				"trans": "Завершить это наставничество больше невозможно."
+			}
+		},
+		"select": {
+			"handlerMail": {
+				"eng": "${runnerName} chose you as their Handler. Their mentorship will complete if they reach level ${completionLevel} and pass system verification.",
+				"trans": "${runnerName} выбрал вас своим Хендлером. Наставничество завершится при достижении им уровня ${completionLevel} и успешной системной проверке.",
+				"vars": [
+					"runnerName",
+					"completionLevel"
+				]
+			},
+			"ineligible": {
+				"eng": "This Handler selection is not eligible.",
+				"trans": "Выбор данного наставника недоступен."
+			}
+		}
+	},
+	"mentorshipAssignmentsPage": {
+		"empty": {
+			"eng": "No runners are currently assigned to you.",
+			"trans": "На вас пока не назначены бегуны."
+		},
+		"loadFailed": {
+			"eng": "Mentoring runners failed to load.",
+			"trans": "Не удалось загрузить участников наставничества."
+		},
+		"loading": {
+			"eng": "Loading mentoring runners...",
+			"trans": "Загрузка данных курьеров-наставников..."
+		},
+		"private": {
+			"eng": "Private — only you can see this",
+			"trans": "Приватно — видно только вам"
+		},
+		"title": {
+			"eng": "Mentoring Runners",
+			"trans": "Менторство раннеров"
+		}
+	},
 	"messageImage": {
 		"hideImage": {
 			"eng": "Hide Image",
@@ -8249,6 +9067,91 @@
 					"eng": "BREACH SUCCESS",
 					"trans": "Успешный взлом"
 				}
+			}
+		},
+		"orderSync": {
+			"board": {
+				"summary": {
+					"eng": "Sorting minigame. Arrange the bars from smallest to largest, left to right within the move budget. Drag a bar to reposition it, or tap two bars to swap them.",
+					"trans": "Мини-игра Сортировка. Расположите полосы слева направо по возрастанию размеров в пределах лимита ходов. Перетащите полосу для перемещения или коснитесь двух полос для их обмена."
+				}
+			},
+			"fail": {
+				"description": {
+					"eng": "Sort the row before you run out of moves.",
+					"trans": "Успейте отсортировать ряд до исчерпания лимита ходов."
+				},
+				"retry": {
+					"eng": "Retry",
+					"trans": "Повторить"
+				},
+				"status": {
+					"eng": "ORDER REJECTED",
+					"trans": "ЗАКАЗ ОТКЛОНЁН"
+				},
+				"title": {
+					"eng": "Out of moves",
+					"trans": "Нет ходов"
+				}
+			},
+			"instruction": {
+				"eng": "Sort small to big, left to right. Drag a bar to move it, or tap two to swap.",
+				"trans": "Расположите элементы по возрастанию слева направо. Перетаскивайте блок для перемещения или нажимайте на два элемента, чтобы поменять их местами."
+			},
+			"item": {
+				"aria": {
+					"eng": "Bar, value ${value}",
+					"trans": "Полоса, значение ${value}",
+					"vars": [
+						"value"
+					]
+				}
+			},
+			"scale": {
+				"high": {
+					"eng": "HIGH",
+					"trans": "ВЫСОКИЙ"
+				},
+				"label": {
+					"eng": "SIGNAL MAGNITUDE",
+					"trans": "СИЛА СИГНАЛА"
+				},
+				"low": {
+					"eng": "LOW",
+					"trans": "НИЗКИЙ"
+				}
+			},
+			"status": {
+				"failed": {
+					"eng": "FAILED",
+					"trans": "СБОЙ"
+				},
+				"locked": {
+					"eng": "SORTED",
+					"trans": "СОРТИРОВАНО"
+				},
+				"moves": {
+					"eng": "MOVES ${count}/${max}",
+					"trans": "ХОДЫ ${count}/${max}",
+					"vars": [
+						"count",
+						"max"
+					]
+				}
+			},
+			"success": {
+				"status": {
+					"eng": "ORDER VALIDATED",
+					"trans": "ЗАКАЗ ПОДТВЕРЖДЁН"
+				},
+				"title": {
+					"eng": "Sequence sorted",
+					"trans": "Последовательность выстроена"
+				}
+			},
+			"title": {
+				"eng": "Order Sync",
+				"trans": "Синхрон заказов"
 			}
 		},
 		"relayGrid": {
@@ -11490,6 +12393,65 @@
 				"vars": [
 					"count"
 				]
+			}
+		},
+		"mentorship": {
+			"currentReward": {
+				"eng": "Reward per verified player",
+				"trans": "Награда за каждого верифицированного игрока"
+			},
+			"endMentorship": {
+				"eng": "End mentorship",
+				"trans": "Завершить наставничество"
+			},
+			"futureHandlerHint": {
+				"eng": "At level ${handlerLevel}, you can also become a Handler, guide eligible new players, and earn rewards.",
+				"trans": "При достижении уровня ${handlerLevel} вы также сможете стать наставником, помогать соответствующим требованиям новичкам и получать награды.",
+				"vars": [
+					"handlerLevel"
+				]
+			},
+			"handler": {
+				"eng": "Handler",
+				"trans": "Куратор"
+			},
+			"handlerHint": {
+				"eng": "You can now guide eligible new players as a Handler. They can choose you from your profile. Verified mentorships increase your public total and grant the reward below.",
+				"trans": "Теперь вы можете направлять подходящих новых игроков в роли Хендлера. Они смогут выбрать вас через ваш профиль. Подтверждённые наставничества увеличат ваши публичные показатели и принесут награду ниже."
+			},
+			"handlerLoadFailed": {
+				"eng": "Handler load failed.",
+				"trans": "Не удалось загрузить обработчик."
+			},
+			"loadingHandler": {
+				"eng": "Loading Handler...",
+				"trans": "Загрузка данных..."
+			},
+			"private": {
+				"eng": "Private — only you can see this",
+				"trans": "Приватно — видно только вам"
+			},
+			"selectionEndedHint": {
+				"eng": "Your opportunity to choose a Handler ended after level ${maxLevel}. New players can choose one from level ${minLevel} to ${maxLevel} if their account is no more than ${maxAgeDays} days old. At level ${handlerLevel}, you can become a Handler, guide eligible new players, and earn rewards.",
+				"trans": "Возможность выбора Хендлера исчерпана после ${maxLevel} уровня. Новички могут выбрать одного в диапазоне от ${minLevel} до ${maxLevel}, если возраст их аккаунта не превышает ${maxAgeDays} дней. Начиная с уровня ${handlerLevel} вы сможете стать Хендлером, наставлять подходящих новичков и получать награды.",
+				"vars": [
+					"minLevel",
+					"maxLevel",
+					"maxAgeDays",
+					"handlerLevel"
+				]
+			},
+			"title": {
+				"eng": "Mentorship",
+				"trans": "Наставничество"
+			},
+			"unknownHandler": {
+				"eng": "Unknown Handler",
+				"trans": "Неизвестный куратор"
+			},
+			"viewMentoringRunners": {
+				"eng": "View Mentoring Runners",
+				"trans": "Смотреть подопечных"
 			}
 		},
 		"pets": {
@@ -15297,6 +16259,10 @@
 				"eng": "Block List",
 				"trans": "Черный список"
 			},
+			"communityRaffle": {
+				"eng": "Community Raffles",
+				"trans": "Розыгрыши сообщества"
+			},
 			"coupon": {
 				"eng": "Claim Coupon",
 				"trans": "Использовать Купон"
@@ -15651,9 +16617,17 @@
 				}
 			},
 			"skippingBuff": {
-				"title": {
-					"eng": "Skip buff sponsored by:",
-					"trans": "Пропуск баффа от спонсора:"
+				"dismiss": {
+					"eng": "Dismiss Global Skip banner",
+					"trans": "Закрыть баннер глобального пропуска"
+				},
+				"info": {
+					"eng": "Global Skip info",
+					"trans": "Информация о глобальном пропуске"
+				},
+				"sponsor": {
+					"eng": "Global Skip by",
+					"trans": "Глобальный пропуск от"
 				}
 			}
 		},
@@ -16468,6 +17442,23 @@
 				"eng": "Equip",
 				"trans": "Надеть"
 			},
+			"eventGamePass": {
+				"visitNpc": {
+					"eng": "Go to ${npcName}",
+					"trans": "Отправляйся к ${npcName}",
+					"vars": [
+						"npcName"
+					]
+				},
+				"visitNpcDescription": {
+					"eng": "Bring this pass to ${personName} to play ${gameName}.",
+					"trans": "Принеси этот пропуск ${personName}, чтобы сыграть в ${gameName}.",
+					"vars": [
+						"personName",
+						"gameName"
+					]
+				}
+			},
 			"history": {
 				"eng": "History",
 				"trans": "История"
@@ -16595,6 +17586,10 @@
 			"getAllItems": {
 				"eng": "Get All Items",
 				"trans": "Забрать все предметы"
+			},
+			"noExpiry": {
+				"eng": "Does not expire",
+				"trans": "Бессрочно"
 			},
 			"title": {
 				"eng": "Item Inbox",
@@ -16780,6 +17775,12 @@
 			"travel": {
 				"eng": "Travel",
 				"trans": "Отправиться"
+			}
+		},
+		"markdown": {
+			"error": {
+				"eng": "Content unavailable. Check your connection and retry.",
+				"trans": "Контент недоступен. Проверьте соединение с интернетом и повторите попытку."
 			}
 		},
 		"market": {
@@ -17119,6 +18120,92 @@
 				"eng": "Property of SLPD",
 				"trans": "Собственность SLPD"
 			},
+			"emblemShowcase": {
+				"addSlot": {
+					"eng": "Add emblem to slot ${slot}",
+					"trans": "Добавить эмблему в слот ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"chooseEmblemByOption": {
+					"eng": "Select emblem option ${option} for slot ${slot}",
+					"trans": "Выберите вариант эмблемы ${option} для слота ${slot}",
+					"vars": [
+						"option",
+						"slot"
+					]
+				},
+				"clearSlot": {
+					"eng": "Remove emblem from slot ${slot}",
+					"trans": "Убрать эмблему из слота ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"closePicker": {
+					"eng": "Close emblem picker",
+					"trans": "Закрыть"
+				},
+				"confirmSelection": {
+					"eng": "Confirm Selection",
+					"trans": "Подтвердить выбор"
+				},
+				"editSlot": {
+					"eng": "Change emblem in slot ${slot}",
+					"trans": "Заменить эмблему в ячейке ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"emblemLabelBySlot": {
+					"eng": "Showcase emblem in slot ${slot}",
+					"trans": "Демонстрация эмблемы в слоте ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"pickerInstruction": {
+					"eng": "Select an emblem for slot ${slot}, then confirm.",
+					"trans": "Выберите эмблему для слота ${slot}, затем подтвердите.",
+					"vars": [
+						"slot"
+					]
+				},
+				"pickerTitle": {
+					"eng": "Choose Emblem",
+					"trans": "Выбор эмблемы"
+				},
+				"playAudioBySlot": {
+					"eng": "Play audio for emblem in slot ${slot}",
+					"trans": "Воспроизвести звук эмблемы в слоте ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"remove": {
+					"eng": "Remove",
+					"trans": "Удалить"
+				},
+				"removeConfirmationTitle": {
+					"eng": "Remove emblem from slot ${slot}?",
+					"trans": "Удалить эмблему из слота ${slot}?",
+					"vars": [
+						"slot"
+					]
+				},
+				"slotMarker": {
+					"eng": "Slot ${slot}",
+					"trans": "Слот ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"title": {
+					"eng": "pinned emblems",
+					"trans": "Закрепленные эмблемы"
+				}
+			},
 			"gangAction": {
 				"editPermissions": {
 					"eng": "Permissions",
@@ -17193,6 +18280,10 @@
 				"block": {
 					"eng": "Block Player",
 					"trans": "Блок игрок"
+				},
+				"chooseHandler": {
+					"eng": "Choose as Handler",
+					"trans": "Назначить куратором"
 				},
 				"giveStreetCred": {
 					"eng": "Give Street Cred",
@@ -17720,6 +18811,16 @@
 					"trans": "Сделать эмблемы приватными"
 				}
 			},
+			"privateHandler": {
+				"description": {
+					"eng": "Hide your Handler from other players",
+					"trans": "Скрыть своего Хендлера от других игроков"
+				},
+				"title": {
+					"eng": "Hide my Handler",
+					"trans": "Скрыть оператора"
+				}
+			},
 			"promoOnlyShowWhenUpdate": {
 				"description": {
 					"eng": "Only show promo popup when there is a new event",
@@ -17984,6 +19085,10 @@
 				"eng": "combat",
 				"trans": "бой"
 			},
+			"communityRaffles": {
+				"eng": "Community Raffles",
+				"trans": "Розыгрыши сообщества"
+			},
 			"dataFortress": {
 				"eng": "SL-Data Fortress",
 				"trans": "SL-Данные Крепость"
@@ -18015,6 +19120,10 @@
 			"furniture": {
 				"eng": "Furniture",
 				"trans": "Мебель"
+			},
+			"handlers": {
+				"eng": "Handlers",
+				"trans": "Управление"
 			},
 			"inventory": {
 				"eng": "inventory",
@@ -18067,6 +19176,74 @@
 			"timeSkip": {
 				"eng": "time skip",
 				"trans": "пропуск времени"
+			}
+		},
+		"tutorialSearch": {
+			"clear": {
+				"eng": "Clear search",
+				"trans": "Очистить поиск"
+			},
+			"close": {
+				"eng": "Close tutorial search",
+				"trans": "Закрыть поиск обучения"
+			},
+			"error": {
+				"eng": "Tutorial search is unavailable. Check your connection and retry.",
+				"trans": "Поиск уроков недоступен. Проверьте подключение и повторите попытку."
+			},
+			"label": {
+				"eng": "Tutorial Search",
+				"trans": "Поиск гайдов"
+			},
+			"loading": {
+				"eng": "Indexing tutorials...",
+				"trans": "Идёт индексация обучающих материалов..."
+			},
+			"matchEnglishSectionLabel": {
+				"eng": "English section",
+				"trans": "Английский раздел"
+			},
+			"matchEnglishTitleLabel": {
+				"eng": "English title",
+				"trans": "Английское название"
+			},
+			"matchSectionLabel": {
+				"eng": "Section",
+				"trans": "Раздел"
+			},
+			"matchTitle": {
+				"eng": "Title match",
+				"trans": "Совпадение названия"
+			},
+			"noResults": {
+				"eng": "No tutorial results for \"${query}\"",
+				"trans": "Уроки по запросу \"${query}\" не найдены",
+				"vars": [
+					"query"
+				]
+			},
+			"partial": {
+				"eng": "Some tutorials could not be indexed.",
+				"trans": "Некоторые руководства не были проиндексированы."
+			},
+			"placeholder": {
+				"eng": "Search tutorials...",
+				"trans": "Поиск гайдов"
+			},
+			"ready": {
+				"eng": "Search tutorial titles, sections, and content.",
+				"trans": "Поиск по названиям, разделам и содержимому руководств"
+			},
+			"resultCount": {
+				"eng": "${count} results",
+				"trans": "${count} результатов",
+				"vars": [
+					"count"
+				]
+			},
+			"resultCountOne": {
+				"eng": "1 result",
+				"trans": "1 результат"
 			}
 		},
 		"unit": {

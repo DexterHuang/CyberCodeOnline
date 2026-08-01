@@ -18,7 +18,7 @@ Please send your feedback to my Discord or email me directly.
 
 ### 0.1896
 
-- **Summer Nights (08/01 to 08/31)**:
+- **Summer Nights**:
   - Added `Neon Nights Grid` event game.
   - Collect `Seashell` and `Neon Nights Pass` from AFK bot farming and dungeon chests, to exchange rewards from `Josie` at `Crystal Beach`.
   - Top-ups receive bonus `Rare Synaptic Acceleration Transmitter` items during the event.

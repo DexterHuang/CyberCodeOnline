@@ -965,6 +965,13 @@
 				}
 			}
 		},
+		"discount": {
+			"eng": "${percent}% off",
+			"trans": "Знижка ${percent}%",
+			"vars": [
+				"percent"
+			]
+		},
 		"free": {
 			"eng": "Free",
 			"trans": "Безкоштовний"
@@ -974,6 +981,10 @@
 				"eng": "Free Personal Skip",
 				"trans": "Безкоштовний особистий пропуск"
 			}
+		},
+		"notAvailable": {
+			"eng": "Bundle not available",
+			"trans": "Набір недоступний"
 		},
 		"rareEquipmentCrate": {
 			"name": {
@@ -991,6 +1002,12 @@
 			"name": {
 				"eng": "Skip supply bundle",
 				"trans": "Пропустити набір поставок"
+			}
+		},
+		"summerNightsFragmentFusion": {
+			"name": {
+				"eng": "Summer Nights Fusion Bundle",
+				"trans": "Набір літніх ночів ф'южн"
 			}
 		}
 	},
@@ -1306,12 +1323,6 @@
 		"offRotation": {
 			"eng": "Out of rotation",
 			"trans": "Поза ротацією"
-		}
-	},
-	"chatHeader": {
-		"skipAvailable": {
-			"eng": "Available",
-			"trans": "Доступно"
 		}
 	},
 	"chatInput": {
@@ -1796,6 +1807,14 @@
 			"eng": "Got it",
 			"trans": "Зрозуміло"
 		},
+		"keep": {
+			"eng": "Keep raffle",
+			"trans": "Зберегти розіграш"
+		},
+		"loading": {
+			"eng": "Loading",
+			"trans": "Завантаження"
+		},
 		"max": {
 			"eng": "MAX",
 			"trans": "МАКСИМУМ"
@@ -1809,7 +1828,7 @@
 			"trans": "Купити"
 		},
 		"retry": {
-			"eng": "RETRY CONNECTION",
+			"eng": "Retry",
 			"trans": "ПЕРЕЗАВ'ЯЗАТИ З'ЄДНАННЯ"
 		},
 		"save": {
@@ -1819,6 +1838,608 @@
 		"warning": {
 			"eng": "Warning",
 			"trans": "Попередження"
+		}
+	},
+	"communityRaffle": {
+		"action": {
+			"accountBlocked": {
+				"eng": "Limited accounts cannot join Community Raffles.",
+				"trans": "Акаунти з обмеженнями не можуть долучатися до Спільних Розіграшів."
+			},
+			"closeRaffle": {
+				"eng": "Close raffle",
+				"trans": "Закрити розіграш"
+			},
+			"closeRaffleDescription": {
+				"eng": "Select and announce the winner",
+				"trans": "Вибрати та оголосити переможця"
+			},
+			"graceExpired": {
+				"eng": "Winner selection window expired.",
+				"trans": "Термін вибору переможця минув."
+			},
+			"join": {
+				"eng": "Join raffle",
+				"trans": "Долучитися до розіграшу"
+			},
+			"levelBlocked": {
+				"eng": "Reach level ${level} to join.",
+				"trans": "Досягніть рівня ${level}, щоб взяти участь.",
+				"vars": [
+					"level"
+				]
+			}
+		},
+		"chatHeader": {
+			"open": {
+				"eng": "Open Community Raffles",
+				"trans": "Відкриті розіграші спільноти"
+			}
+		},
+		"closeRaffle": {
+			"deadline": {
+				"eng": "Winner selection is available after the entry deadline.",
+				"trans": "Переможців буде обрано після завершення терміну реєстрації."
+			},
+			"notOrganizer": {
+				"eng": "Only this Community Raffle's organizer can select the winner.",
+				"trans": "Тільки організатор цього розіграшу спільноти може обрати переможця."
+			},
+			"unavailable": {
+				"eng": "Winner selection is not available for this Community Raffle.",
+				"trans": "Вибір переможця недоступний у цьому спільнотному розіграші."
+			}
+		},
+		"create": {
+			"accountLimited": {
+				"eng": "Limited accounts cannot create Community Raffles.",
+				"trans": "Обмежені акаунти не можуть створювати спільні розіграші."
+			},
+			"accountLimitedToast": {
+				"eng": "Limited accounts cannot create Community Raffles.",
+				"trans": "Обмежені акаунти не можуть створювати спільні розіграші."
+			},
+			"action": {
+				"eng": "Create raffle",
+				"trans": "Створити розіграш"
+			},
+			"addEquipment": {
+				"eng": "Attach equipment",
+				"trans": "Додати спорядження"
+			},
+			"backToEdit": {
+				"eng": "Back to edit",
+				"trans": "Назад до редагування"
+			},
+			"composerCounts": {
+				"eng": "${attachments} / ${maximumAttachments} · ${characters} / ${maximumCharacters}",
+				"trans": "${attachments} / ${maximumAttachments} · ${characters} / ${maximumCharacters}",
+				"vars": [
+					"attachments",
+					"maximumAttachments",
+					"characters",
+					"maximumCharacters"
+				]
+			},
+			"confirmAction": {
+				"eng": "Consume 1 Kit and publish",
+				"trans": "Витратити 1 набір та опублікувати"
+			},
+			"confirmKitCost": {
+				"eng": "Publishing consumes one Community Raffle Kit.",
+				"trans": "Публікація витрачає один комплект для спільного розіграшу."
+			},
+			"confirmPermanent": {
+				"eng": "Published settings cannot be edited. Deleting the raffle will not refund the Kit.",
+				"trans": "Опубліковані налаштування змінити неможливо. Видалення розіграшу не передбачає повернення набору."
+			},
+			"confirmTitle": {
+				"eng": "Publish Community Raffle?",
+				"trans": "Опублікувати розіграш у спільноті?"
+			},
+			"cost": {
+				"eng": "1 Raffle Kit",
+				"trans": "1 набір для розіграшу"
+			},
+			"decreaseMinimumLevel": {
+				"eng": "Decrease minimum level by 50",
+				"trans": "Зменшити мінімальний рівень на 50"
+			},
+			"description": {
+				"eng": "Description (optional)",
+				"trans": "Опис (необов'язково)"
+			},
+			"duration": {
+				"eng": "Duration",
+				"trans": "Тривалість"
+			},
+			"durationFourteenDays": {
+				"eng": "14 days",
+				"trans": "14 днів"
+			},
+			"durationOneDay": {
+				"eng": "1 day",
+				"trans": "1 день"
+			},
+			"durationOptionFourteenDays": {
+				"eng": "14D",
+				"trans": "14 днів"
+			},
+			"durationOptionFourteenDaysAccessible": {
+				"eng": "14 days",
+				"trans": "14 днів"
+			},
+			"durationOptionOneDay": {
+				"eng": "1D",
+				"trans": "1 день"
+			},
+			"durationOptionOneDayAccessible": {
+				"eng": "1 day",
+				"trans": "1 день"
+			},
+			"durationOptionSevenDays": {
+				"eng": "7D",
+				"trans": "7 днів"
+			},
+			"durationOptionSevenDaysAccessible": {
+				"eng": "7 days",
+				"trans": "7 днів"
+			},
+			"durationOptionThirtyDays": {
+				"eng": "30D",
+				"trans": "30 днів"
+			},
+			"durationOptionThirtyDaysAccessible": {
+				"eng": "30 days",
+				"trans": "30 днів"
+			},
+			"durationOptionThreeDays": {
+				"eng": "3D",
+				"trans": "3 дні"
+			},
+			"durationOptionThreeDaysAccessible": {
+				"eng": "3 days",
+				"trans": "3 дні"
+			},
+			"durationSevenDays": {
+				"eng": "7 days",
+				"trans": "7 днів"
+			},
+			"durationThirtyDays": {
+				"eng": "30 days",
+				"trans": "30 днів"
+			},
+			"durationThreeDays": {
+				"eng": "3 days",
+				"trans": "3 дні"
+			},
+			"equipment": {
+				"eng": "Equipment snapshot (optional)",
+				"trans": "Знімок спорядження (необов'язково)"
+			},
+			"equipmentDeliveryDescription": {
+				"eng": "Attached equipment stays in your inventory and is not sent to the winner. You must deliver it yourself.",
+				"trans": "Прикріплене обладнання залишається у вашому інвентарі та не надсилається переможцю. Ви зобов'язані доставити його самостійно."
+			},
+			"equipmentDeliveryTitle": {
+				"eng": "Equipment delivery is manual",
+				"trans": "Ручна доставка спорядження"
+			},
+			"equipmentNotOwned": {
+				"eng": "Selected equipment is not owned by this account.",
+				"trans": "Обране спорядження не належить цьому акаунту."
+			},
+			"equipmentRequired": {
+				"eng": "Only equipment can be attached to a Community Raffle.",
+				"trans": "До спільного розіграшу можна додати лише спорядження."
+			},
+			"globalAnnouncement": {
+				"eng": "${creatorName} created a Community ${raffleLink}.",
+				"trans": "${creatorName} створив спільний розіграш. ${raffleLink}",
+				"vars": [
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"increaseMinimumLevel": {
+				"eng": "Increase minimum level by 50",
+				"trans": "Підвищити мінімальний рівень на 50"
+			},
+			"kitRequired": {
+				"eng": "You need a Community Raffle Kit to create this raffle.",
+				"trans": "Для створення цього розіграшу потрібен набір для розіграшу спільноти"
+			},
+			"levelRequired": {
+				"eng": "Reach level ${level} to create a Community Raffle.",
+				"trans": "Досягніть рівня ${level}, щоб створити спільний розіграш.",
+				"vars": [
+					"level"
+				]
+			},
+			"levelRequiredToast": {
+				"eng": "Reach level ${level} to create a Community Raffle.",
+				"trans": "Досягніть рівня ${level}, щоб створити спільний розіграш.",
+				"vars": [
+					"level"
+				]
+			},
+			"minimumLevel": {
+				"eng": "Minimum level",
+				"trans": "Мінімальний рівень"
+			},
+			"moderationRejected": {
+				"eng": "Automated check found the title or description inappropriate or unrelated to the Community Raffle. Update the title or description, then try again.",
+				"trans": "Автоматична перевірка виявила, що назва або опис є неприйнятними або не стосуються розіграшу для спільноти. Відредагуйте їх і повторіть спробу."
+			},
+			"moderationUnavailable": {
+				"eng": "Automated check is temporarily unavailable. Try again in a moment.",
+				"trans": "Автоматична перевірка тимчасово недоступна. Спробуйте ще раз згодом."
+			},
+			"noDescription": {
+				"eng": "None",
+				"trans": "Немає"
+			},
+			"noEquipment": {
+				"eng": "None",
+				"trans": "Немає"
+			},
+			"pageTitle": {
+				"eng": "Create Community Raffle",
+				"trans": "Створити розіграш спільноти"
+			},
+			"removeEquipmentSnapshot": {
+				"eng": "Remove equipment snapshot",
+				"trans": "Видалити пресет спорядження"
+			},
+			"review": {
+				"eng": "Review raffle",
+				"trans": "Перевірка розіграшу"
+			},
+			"selectEquipment": {
+				"eng": "Select equipment snapshot",
+				"trans": "Вибрати знімок екіпірування"
+			},
+			"title": {
+				"eng": "Title",
+				"trans": "Назва"
+			},
+			"titleCount": {
+				"eng": "${current} / ${maximum}",
+				"trans": "${current} / ${maximum}",
+				"vars": [
+					"current",
+					"maximum"
+				]
+			},
+			"titleLength": {
+				"eng": "Title must be ${minimum}–${maximum} characters.",
+				"trans": "Назва має містити від ${minimum} до ${maximum} символів.",
+				"vars": [
+					"minimum",
+					"maximum"
+				]
+			},
+			"titleRequired": {
+				"eng": "Enter a title.",
+				"trans": "Введіть назву."
+			}
+		},
+		"delete": {
+			"action": {
+				"eng": "Delete raffle",
+				"trans": "Видалити розіграш"
+			},
+			"confirmAction": {
+				"eng": "Delete permanently",
+				"trans": "Видалити назавжди"
+			},
+			"confirmTitle": {
+				"eng": "Delete Community Raffle?",
+				"trans": "Видалити розіграш спільноти?"
+			},
+			"creatorMail": {
+				"body": {
+					"eng": "Moderator ${moderatorName} deleted your Community Raffle: ${title}",
+					"trans": "Модератор ${moderatorName} видалив ваш спільний розіграш: ${title}",
+					"vars": [
+						"moderatorName",
+						"title"
+					]
+				}
+			},
+			"creatorSuccess": {
+				"eng": "You deleted your Community Raffle.",
+				"trans": "Ви видалили розіграш у спільноті."
+			},
+			"creatorWarning": {
+				"eng": "This permanently removes your raffle and cannot be undone. The Community Raffle Kit will not be refunded.",
+				"trans": "Це остаточно видалить ваш розіграш без можливості скасування. Набір для розіграшу у спільноті не буде повернуто."
+			},
+			"moderatorMail": {
+				"body": {
+					"eng": "You deleted ${creatorName}'s Community Raffle: ${title}",
+					"trans": "Ви видалили розіграш у спільноті ${creatorName}: ${title}",
+					"vars": [
+						"creatorName",
+						"title"
+					]
+				}
+			},
+			"moderatorWarning": {
+				"eng": "This permanently removes ${creator}'s raffle. They will be notified by mail.",
+				"trans": "Ця дія остаточно видалить розіграш ${creator}. Його автора буде сповіщено листом.",
+				"vars": [
+					"creator"
+				]
+			}
+		},
+		"delivery": {
+			"creatorNoWinnerMail": {
+				"eng": "Your Community ${raffleLink} “${title}” is complete. No eligible winner remained.",
+				"trans": "Ваш розіграш у спільноті “${title}” завершено. Не залишилось жодного переможця, що відповідає вимогам. ${raffleLink}",
+				"vars": [
+					"title",
+					"raffleLink"
+				]
+			},
+			"creatorWinnerMail": {
+				"eng": "Your Community ${raffleLink} “${title}” is complete. Winner: ${winnerName}.",
+				"trans": "Ваш спільний розіграш «${title}» завершено. Переможець: ${winnerName}. ${raffleLink}",
+				"vars": [
+					"title",
+					"winnerName",
+					"raffleLink"
+				]
+			},
+			"globalAnnouncement": {
+				"eng": "🎉 ${winnerName} won a Community ${raffleLink}!",
+				"trans": "🎉 ${winnerName} виграв у спільному розіграші! ${raffleLink}",
+				"vars": [
+					"winnerName",
+					"raffleLink"
+				]
+			},
+			"winnerMail": {
+				"eng": "You won the Community ${raffleLink} “${title}”.",
+				"trans": "Ви виграли у розіграші спільноти \"${title}\". ${raffleLink}",
+				"vars": [
+					"title",
+					"raffleLink"
+				]
+			}
+		},
+		"detail": {
+			"abandonedState": {
+				"eng": "Winner selection was not completed within the seven-day window.",
+				"trans": "Вибір переможця не завершено протягом семи днів."
+			},
+			"attachments": {
+				"eng": "Attachments",
+				"trans": "Вкладення"
+			},
+			"closed": {
+				"eng": "Closed",
+				"trans": "Закрито"
+			},
+			"closesLabel": {
+				"eng": "Closes in",
+				"trans": "Закінчується через"
+			},
+			"entrantList": {
+				"eng": "Entrants",
+				"trans": "Учасники"
+			},
+			"hostLabel": {
+				"eng": "Host",
+				"trans": "Організатор"
+			},
+			"levelShort": {
+				"eng": "LV ${level}+",
+				"trans": "Рів. ${level}+",
+				"vars": [
+					"level"
+				]
+			},
+			"minimumLevel": {
+				"eng": "Minimum level",
+				"trans": "Мінімальний рівень"
+			},
+			"noEntrants": {
+				"eng": "No entries yet.",
+				"trans": "Ще немає учасників."
+			},
+			"notFound": {
+				"eng": "We cannot find this raffle.",
+				"trans": "Цей розіграш не знайдено."
+			},
+			"refresh": {
+				"eng": "Refresh raffle details",
+				"trans": "Оновити деталі розіграшу"
+			},
+			"selectedWinner": {
+				"eng": "Winner",
+				"trans": "Переможець"
+			},
+			"statusLabel": {
+				"eng": "Status",
+				"trans": "Статус"
+			},
+			"unavailable": {
+				"eng": "Community Raffle unavailable",
+				"trans": "Розіграш спільноти недоступний"
+			},
+			"winnerMarker": {
+				"eng": "Winner",
+				"trans": "Переможець"
+			}
+		},
+		"empty": {
+			"description": {
+				"eng": "Active and past raffles will appear here.",
+				"trans": "Активні та минулі розіграші з'являтимуться тут."
+			},
+			"title": {
+				"eng": "No Community Raffles yet",
+				"trans": "Ще немає спільних розіграшів"
+			}
+		},
+		"error": {
+			"notFound": {
+				"eng": "Community Raffle not found.",
+				"trans": "Розіграш у спільноті не знайдено."
+			}
+		},
+		"join": {
+			"accountLimited": {
+				"eng": "Limited accounts cannot join Community Raffles.",
+				"trans": "Акаунти з обмеженнями не можуть долучатися до Спільних Розіграшів."
+			},
+			"alreadyJoined": {
+				"eng": "You already joined this Community Raffle.",
+				"trans": "Ви вже взяли участь у цьому розіграші спільноти."
+			},
+			"associatedEntry": {
+				"eng": "An associated account already entered this Community Raffle.",
+				"trans": "Пов'язаний обліковий запис уже взяв участь у цьому Розіграші спільноти."
+			},
+			"closed": {
+				"eng": "This Community Raffle is no longer open for entry.",
+				"trans": "Цей розіграш спільноти закрито для участі."
+			},
+			"creatorMail": {
+				"eng": "${playerName} has joined your ${raffleLink}. Total entrants: ${totalEntrants}.",
+				"trans": "${playerName} долучився до вашого ${raffleLink}. Загальна кількість учасників: ${totalEntrants}.",
+				"vars": [
+					"playerName",
+					"raffleLink",
+					"totalEntrants"
+				]
+			},
+			"creatorMailOthers": {
+				"eng": "${playerName} and ${otherCount} more have joined your ${raffleLink}. Total entrants: ${totalEntrants}.",
+				"trans": "${playerName} та ще ${otherCount} приєдналися до вашого ${raffleLink}. Всього учасників: ${totalEntrants}.",
+				"vars": [
+					"playerName",
+					"otherCount",
+					"raffleLink",
+					"totalEntrants"
+				]
+			},
+			"globalAnnouncement": {
+				"eng": "${playerName} has joined ${creatorName}'s ${raffleLink}.",
+				"trans": "${playerName} долучився до розіграшу від ${creatorName}: ${raffleLink}.",
+				"vars": [
+					"playerName",
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"globalAnnouncementOthers": {
+				"eng": "${playerName} and ${otherCount} more have joined ${creatorName}'s ${raffleLink}.",
+				"trans": "${playerName} та ще ${otherCount} приєдналися до розіграшу ${raffleLink} від ${creatorName}.",
+				"vars": [
+					"playerName",
+					"otherCount",
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"levelRequired": {
+				"eng": "Reach level ${level} to join this Community Raffle.",
+				"trans": "Досягніть рівня ${level} для участі в цьому розіграші спільноти.",
+				"vars": [
+					"level"
+				]
+			},
+			"organizer": {
+				"eng": "You cannot join your own Community Raffle.",
+				"trans": "Ви не можете долучитися до власної лотереї спільноти."
+			}
+		},
+		"loadError": {
+			"title": {
+				"eng": "Raffle list unavailable",
+				"trans": "Список розіграшу недоступний"
+			}
+		},
+		"raffleLink": {
+			"eng": "Raffle",
+			"trans": "Розіграш"
+		},
+		"refresh": {
+			"eng": "Refresh raffle list",
+			"trans": "Оновити список розіграшів"
+		},
+		"row": {
+			"awaitingOrganizer": {
+				"eng": "Awaiting organizer",
+				"trans": "Очікує на дії організатора"
+			},
+			"closedLabel": {
+				"eng": "Closed",
+				"trans": "Закрито"
+			},
+			"closesLabel": {
+				"eng": "Closes in",
+				"trans": "Закінчується через"
+			},
+			"entriesLabel": {
+				"eng": "Entries",
+				"trans": "Квитків"
+			},
+			"hostLabel": {
+				"eng": "Host",
+				"trans": "Організатор"
+			},
+			"levelShort": {
+				"eng": "LV ${level}+",
+				"trans": "Рів. ${level}+",
+				"vars": [
+					"level"
+				]
+			},
+			"resultLabel": {
+				"eng": "Result",
+				"trans": "Результат"
+			}
+		},
+		"status": {
+			"abandoned": {
+				"eng": "Abandoned",
+				"trans": "Закинуто"
+			},
+			"awaitingOrganizer": {
+				"eng": "Awaiting organizer",
+				"trans": "Очікує на дії організатора"
+			},
+			"completed": {
+				"eng": "Completed",
+				"trans": "Завершено"
+			},
+			"open": {
+				"eng": "Open",
+				"trans": "Відкрито"
+			}
+		},
+		"title": {
+			"eng": "Community Raffles",
+			"trans": "Розіграші спільноти"
+		},
+		"tutorial": {
+			"description": {
+				"eng": "Create, join, and select a winner.",
+				"trans": "Створити, приєднатися та обрати переможця."
+			},
+			"title": {
+				"eng": "How Community Raffles work",
+				"trans": "Як працюють спільні розіграші"
+			}
+		},
+		"validation": {
+			"request": {
+				"eng": "Invalid Community Raffle request.",
+				"trans": "Недійсний запит участі в розіграші спільноти."
+			}
 		}
 	},
 	"component": {
@@ -2452,6 +3073,10 @@
 			"eng": "Vice Heat",
 			"trans": "Жар Пороку"
 		},
+		"donation55": {
+			"eng": "Black Press",
+			"trans": "Чорна преса"
+		},
 		"donation6": {
 			"eng": "Prestige",
 			"trans": "Престиж"
@@ -3002,6 +3627,28 @@
 				"item",
 				"npcName"
 			]
+		}
+	},
+	"emblem": {
+		"showcase": {
+			"error": {
+				"emblemRequired": {
+					"eng": "Emblem is required",
+					"trans": "Емблема обов'язкова"
+				},
+				"invalidEmblem": {
+					"eng": "Invalid emblem type",
+					"trans": "Недійсний тип емблеми"
+				},
+				"invalidSlot": {
+					"eng": "Invalid emblem showcase slot",
+					"trans": "Недійсний слот у вітрині емблем"
+				},
+				"notOwned": {
+					"eng": "You don't own this emblem",
+					"trans": "У вас немає цієї емблеми"
+				}
+			}
 		}
 	},
 	"emblems": {
@@ -5019,6 +5666,16 @@
 				"trans": "Ящик ресурсів [Ватага]"
 			}
 		},
+		"communityRaffleKit": {
+			"description": {
+				"eng": "A deployable kit for creating one public Community Raffle. Consumed when the raffle is published.",
+				"trans": "Пакет для створення одного загальнодоступного спільнотного розіграшу. Споживається під час його публікації."
+			},
+			"name": {
+				"eng": "Community Raffle Kit",
+				"trans": "Спільний розіграшний набір"
+			}
+		},
 		"creatine": {
 			"description": {
 				"eng": "Push past your limits and grind like a machine--When consumed, increase damage dealt by ${percent}% for ${minutes} minutes",
@@ -5620,6 +6277,19 @@
 			"name": {
 				"eng": "Medical Tech Parts",
 				"trans": "Техно-медичні деталі"
+			}
+		},
+		"mentorSkipVoucher": {
+			"description": {
+				"eng": "An evergreen voucher earned by helping a new runner reach level 50. It automatically applies a ${discountPercent}% Global Skip discount.",
+				"trans": "Безстроковий ваучер, отриманий за допомогу новому бігуну у досягненні 50 рівня. Автоматично надає знижку ${discountPercent}% на глобальне пропускання.",
+				"vars": [
+					"discountPercent"
+				]
+			},
+			"name": {
+				"eng": "Handler Skip Voucher",
+				"trans": "Ваучер на пропуск хендлера"
 			}
 		},
 		"missileCommandPass": {
@@ -6329,6 +6999,13 @@
 		}
 	},
 	"itemInbox": {
+		"movedToInventory": {
+			"eng": "${item} has been moved from your item inbox to your inventory automatically",
+			"trans": "${item} було автоматично переміщено з інбоксу в інвентар",
+			"vars": [
+				"item"
+			]
+		},
 		"notifySender": {
 			"eng": "${recipient} has retrived your gift items (${itemNames}) from their inbox into their inventory.",
 			"trans": "${recipient} отримав(ла) твої подарунки (${itemNames}) зі своєї скрині й додав їх до інвентаря.",
@@ -6395,6 +7072,43 @@
 		"title": {
 			"eng": "Rename History",
 			"trans": "Історія перейменувань"
+		}
+	},
+	"itemSource": {
+		"drop": {
+			"dungeons": {
+				"eng": "Dungeons",
+				"trans": "Підземелля"
+			},
+			"enemies": {
+				"eng": "Enemies",
+				"trans": "Вороги"
+			},
+			"lootBoxes": {
+				"eng": "Loot boxes",
+				"trans": "Нагородні скрині"
+			},
+			"reclamationTier": {
+				"eng": "Drop on ${tier}",
+				"trans": "Розмістити на ${tier}",
+				"vars": [
+					"tier"
+				]
+			}
+		}
+	},
+	"itemSourceModal": {
+		"description": {
+			"eng": "You can get this item from:",
+			"trans": "Ви можете здобути цей предмет у:"
+		},
+		"empty": {
+			"eng": "No current sources found.",
+			"trans": "Джерел не знайдено."
+		},
+		"title": {
+			"eng": "Item sources",
+			"trans": "Джерела предметів"
 		}
 	},
 	"itemStack": {
@@ -7125,6 +7839,10 @@
 		"streetcred": {
 			"eng": "Street Cred",
 			"trans": "Репутаація"
+		},
+		"topHandlers": {
+			"eng": "Top Handlers",
+			"trans": "Топ операторів"
 		}
 	},
 	"leaderboardTypePage": {
@@ -8154,6 +8872,106 @@
 			"trans": "Командування ракетами"
 		}
 	},
+	"mentorship": {
+		"completion": {
+			"handlerMail": {
+				"eng": "${runnerName} reached level ${completionLevel} and passed verification. Your Handler rewards were delivered.",
+				"trans": "${runnerName} досяг рівня ${completionLevel} і пройшов верифікацію. Винагороди вашого оператора вже доставлено.",
+				"vars": [
+					"runnerName",
+					"completionLevel"
+				]
+			}
+		},
+		"confirm": {
+			"currentHandler": {
+				"eng": "Current Handler",
+				"trans": "Поточний оператор"
+			},
+			"endPermanently": {
+				"eng": "End permanently",
+				"trans": "Завершити остаточно"
+			},
+			"endPurpose": {
+				"eng": "End your mentorship with this Handler.",
+				"trans": "Завершити наставництво з цим оператором."
+			},
+			"endTitle": {
+				"eng": "End mentorship",
+				"trans": "Завершити наставництво"
+			},
+			"endWarning": {
+				"eng": "This is permanent. You cannot choose another Handler.",
+				"trans": "Це остаточний вибір. Ви не зможете обрати іншого Хендлера."
+			},
+			"mentorDetails": {
+				"eng": "${name} — Level ${level}",
+				"trans": "${name} — Рівень ${level}",
+				"vars": [
+					"name",
+					"level"
+				]
+			},
+			"selectPermanently": {
+				"eng": "Choose permanently",
+				"trans": "Обрати назавжди"
+			},
+			"selectPurpose": {
+				"eng": "Choose a Handler to guide your early progression.",
+				"trans": "Виберіть наставника для супроводу на початковому етапі."
+			},
+			"selectTitle": {
+				"eng": "Choose Handler",
+				"trans": "Оберіть куратора"
+			},
+			"selectWarning": {
+				"eng": "Choose only someone who has greatly helped you learn the game. Never choose a Handler for trades, items, or other favors. You cannot choose another Handler later, even if you end the mentorship.",
+				"trans": "Обрати обробника можна лише один раз. Цей вибір є незворотним."
+			}
+		},
+		"revoke": {
+			"invalid": {
+				"eng": "This mentorship can no longer be ended.",
+				"trans": "Завершити це наставництво більше неможливо."
+			}
+		},
+		"select": {
+			"handlerMail": {
+				"eng": "${runnerName} chose you as their Handler. Their mentorship will complete if they reach level ${completionLevel} and pass system verification.",
+				"trans": "${runnerName} обрав тебе своїм Керівником. Наставництво завершиться, коли вони досягнуть рівня ${completionLevel} та пройдуть системну перевірку.",
+				"vars": [
+					"runnerName",
+					"completionLevel"
+				]
+			},
+			"ineligible": {
+				"eng": "This Handler selection is not eligible.",
+				"trans": "Обраний Handler не відповідає вимогам."
+			}
+		}
+	},
+	"mentorshipAssignmentsPage": {
+		"empty": {
+			"eng": "No runners are currently assigned to you.",
+			"trans": "Зараз вам не призначено жодного раннера."
+		},
+		"loadFailed": {
+			"eng": "Mentoring runners failed to load.",
+			"trans": "Не вдалося завантажити учасників менторства."
+		},
+		"loading": {
+			"eng": "Loading mentoring runners...",
+			"trans": "Завантаження процесів наставництва..."
+		},
+		"private": {
+			"eng": "Private — only you can see this",
+			"trans": "Приватний — доступ лише для вас"
+		},
+		"title": {
+			"eng": "Mentoring Runners",
+			"trans": "Наставництво бігунів"
+		}
+	},
 	"messageImage": {
 		"hideImage": {
 			"eng": "Hide Image",
@@ -8249,6 +9067,91 @@
 					"eng": "BREACH SUCCESS",
 					"trans": "Успіх прориву"
 				}
+			}
+		},
+		"orderSync": {
+			"board": {
+				"summary": {
+					"eng": "Sorting minigame. Arrange the bars from smallest to largest, left to right within the move budget. Drag a bar to reposition it, or tap two bars to swap them.",
+					"trans": "Мінігра сортування. Розмістіть смуги від найменшої до найбільшої зліва направо в межах ліміту переміщень. Перетягуйте смугу для зміни позиції або торкайтеся двох смуг для обміну."
+				}
+			},
+			"fail": {
+				"description": {
+					"eng": "Sort the row before you run out of moves.",
+					"trans": "Відсортуй рядок, перш ніж закінчаться ходи."
+				},
+				"retry": {
+					"eng": "Retry",
+					"trans": "Повторити"
+				},
+				"status": {
+					"eng": "ORDER REJECTED",
+					"trans": "ЗАМОВЛЕННЯ ВІДХИЛЕНО"
+				},
+				"title": {
+					"eng": "Out of moves",
+					"trans": "Закінчилися ходи"
+				}
+			},
+			"instruction": {
+				"eng": "Sort small to big, left to right. Drag a bar to move it, or tap two to swap.",
+				"trans": "Відсортуйте від найменшого до найбільшого зліва направо. Перетягніть смугу для переміщення або торкніться двох, щоб поміняти місцями."
+			},
+			"item": {
+				"aria": {
+					"eng": "Bar, value ${value}",
+					"trans": "Смуга, значення ${value}",
+					"vars": [
+						"value"
+					]
+				}
+			},
+			"scale": {
+				"high": {
+					"eng": "HIGH",
+					"trans": "ВИСОКИЙ"
+				},
+				"label": {
+					"eng": "SIGNAL MAGNITUDE",
+					"trans": "СИЛА СИГНАЛУ"
+				},
+				"low": {
+					"eng": "LOW",
+					"trans": "НИЗЬКИЙ"
+				}
+			},
+			"status": {
+				"failed": {
+					"eng": "FAILED",
+					"trans": "НЕ ВДАЛОСЯ"
+				},
+				"locked": {
+					"eng": "SORTED",
+					"trans": "СОРТОВАНО"
+				},
+				"moves": {
+					"eng": "MOVES ${count}/${max}",
+					"trans": "ХОДИ ${count}/${max}",
+					"vars": [
+						"count",
+						"max"
+					]
+				}
+			},
+			"success": {
+				"status": {
+					"eng": "ORDER VALIDATED",
+					"trans": "ЗАМОВЛЕННЯ ЗАТВЕРДЖЕНО"
+				},
+				"title": {
+					"eng": "Sequence sorted",
+					"trans": "Послідовність упорядковано"
+				}
+			},
+			"title": {
+				"eng": "Order Sync",
+				"trans": "Синхронізація замовлень"
 			}
 		},
 		"relayGrid": {
@@ -11666,6 +12569,65 @@
 				"vars": [
 					"count"
 				]
+			}
+		},
+		"mentorship": {
+			"currentReward": {
+				"eng": "Reward per verified player",
+				"trans": "Винагорода за верифікованого гравця"
+			},
+			"endMentorship": {
+				"eng": "End mentorship",
+				"trans": "Завершити наставництво"
+			},
+			"futureHandlerHint": {
+				"eng": "At level ${handlerLevel}, you can also become a Handler, guide eligible new players, and earn rewards.",
+				"trans": "На рівні ${handlerLevel} ви також зможете стати Handlerом, наставляти новачків, що відповідають вимогам, та отримувати винагороди.",
+				"vars": [
+					"handlerLevel"
+				]
+			},
+			"handler": {
+				"eng": "Handler",
+				"trans": "Куратор"
+			},
+			"handlerHint": {
+				"eng": "You can now guide eligible new players as a Handler. They can choose you from your profile. Verified mentorships increase your public total and grant the reward below.",
+				"trans": "Тепер ви можете наставляти нових гравців, що відповідають критеріям, у ролі Handler. Вони зможуть обрати вас через ваш профіль. Підтверджені наставництва підвищують ваш публічний показник і приносять винагороду, зазначену нижче."
+			},
+			"handlerLoadFailed": {
+				"eng": "Handler load failed.",
+				"trans": "Не вдалося завантажити обробник."
+			},
+			"loadingHandler": {
+				"eng": "Loading Handler...",
+				"trans": "Завантаження обробника..."
+			},
+			"private": {
+				"eng": "Private — only you can see this",
+				"trans": "Приватний — доступ лише для вас"
+			},
+			"selectionEndedHint": {
+				"eng": "Your opportunity to choose a Handler ended after level ${maxLevel}. New players can choose one from level ${minLevel} to ${maxLevel} if their account is no more than ${maxAgeDays} days old. At level ${handlerLevel}, you can become a Handler, guide eligible new players, and earn rewards.",
+				"trans": "Можливість обрати хендлера закінчилася після досягнення рівня ${maxLevel}. Нові гравці можуть обрати одного з рівня ${minLevel} до ${maxLevel}, якщо їхньому акаунту не більше ${maxAgeDays} днів. На рівні ${handlerLevel} ви зможете стати хендлером, наставляти підходящих новачків та заробляти винагороди.",
+				"vars": [
+					"minLevel",
+					"maxLevel",
+					"maxAgeDays",
+					"handlerLevel"
+				]
+			},
+			"title": {
+				"eng": "Mentorship",
+				"trans": "Наставництво"
+			},
+			"unknownHandler": {
+				"eng": "Unknown Handler",
+				"trans": "Невідомий куратор"
+			},
+			"viewMentoringRunners": {
+				"eng": "View Mentoring Runners",
+				"trans": "Переглянути наставників-раннерів"
 			}
 		},
 		"pets": {
@@ -15473,6 +16435,10 @@
 				"eng": "Block List",
 				"trans": "Заблоковані гравці"
 			},
+			"communityRaffle": {
+				"eng": "Community Raffles",
+				"trans": "Розіграші спільноти"
+			},
 			"coupon": {
 				"eng": "Claim Coupon",
 				"trans": "Купон"
@@ -15827,9 +16793,17 @@
 				}
 			},
 			"skippingBuff": {
-				"title": {
-					"eng": "Skip buff sponsored by:",
-					"trans": "Пропуск буста за спонсорством:"
+				"dismiss": {
+					"eng": "Dismiss Global Skip banner",
+					"trans": "Закрити банер глобального пропуску"
+				},
+				"info": {
+					"eng": "Global Skip info",
+					"trans": "Інформація про глобальний пропуск"
+				},
+				"sponsor": {
+					"eng": "Global Skip by",
+					"trans": "Глобальний пропуск на"
 				}
 			}
 		},
@@ -16644,6 +17618,23 @@
 				"eng": "Equip",
 				"trans": "Одягнути"
 			},
+			"eventGamePass": {
+				"visitNpc": {
+					"eng": "Go to ${npcName}",
+					"trans": "Йти до ${npcName}",
+					"vars": [
+						"npcName"
+					]
+				},
+				"visitNpcDescription": {
+					"eng": "Bring this pass to ${personName} to play ${gameName}.",
+					"trans": "Принесіть цей пропуск до ${personName}, щоб грати в ${gameName}.",
+					"vars": [
+						"personName",
+						"gameName"
+					]
+				}
+			},
 			"history": {
 				"eng": "History",
 				"trans": "Історія"
@@ -16771,6 +17762,10 @@
 			"getAllItems": {
 				"eng": "Get All Items",
 				"trans": "Отримати всі предмети"
+			},
+			"noExpiry": {
+				"eng": "Does not expire",
+				"trans": "Термін дії не обмежено"
 			},
 			"title": {
 				"eng": "Item Inbox",
@@ -16956,6 +17951,12 @@
 			"travel": {
 				"eng": "Travel",
 				"trans": "Подорожувати"
+			}
+		},
+		"markdown": {
+			"error": {
+				"eng": "Content unavailable. Check your connection and retry.",
+				"trans": "Контент недоступний. Перевірте підключення до мережі та повторіть спробу."
 			}
 		},
 		"market": {
@@ -17295,6 +18296,92 @@
 				"eng": "Property of SLPD",
 				"trans": "Власність SLPD"
 			},
+			"emblemShowcase": {
+				"addSlot": {
+					"eng": "Add emblem to slot ${slot}",
+					"trans": "Додати емблему в слот ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"chooseEmblemByOption": {
+					"eng": "Select emblem option ${option} for slot ${slot}",
+					"trans": "Виберіть варіант емблеми ${option} для слота ${slot}",
+					"vars": [
+						"option",
+						"slot"
+					]
+				},
+				"clearSlot": {
+					"eng": "Remove emblem from slot ${slot}",
+					"trans": "Зняти емблему зі слоту ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"closePicker": {
+					"eng": "Close emblem picker",
+					"trans": "Закрити вибір емблем"
+				},
+				"confirmSelection": {
+					"eng": "Confirm Selection",
+					"trans": "Підтвердити вибір"
+				},
+				"editSlot": {
+					"eng": "Change emblem in slot ${slot}",
+					"trans": "Замінити емблему в слоті ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"emblemLabelBySlot": {
+					"eng": "Showcase emblem in slot ${slot}",
+					"trans": "Емблема у слоті ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"pickerInstruction": {
+					"eng": "Select an emblem for slot ${slot}, then confirm.",
+					"trans": "Оберіть емблему для слота ${slot}, після чого підтвердьте.",
+					"vars": [
+						"slot"
+					]
+				},
+				"pickerTitle": {
+					"eng": "Choose Emblem",
+					"trans": "Виберіть емблему"
+				},
+				"playAudioBySlot": {
+					"eng": "Play audio for emblem in slot ${slot}",
+					"trans": "Відтворити аудіо для емблеми у слоті ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"remove": {
+					"eng": "Remove",
+					"trans": "Видалити"
+				},
+				"removeConfirmationTitle": {
+					"eng": "Remove emblem from slot ${slot}?",
+					"trans": "Видалити емблему зі слота ${slot}?",
+					"vars": [
+						"slot"
+					]
+				},
+				"slotMarker": {
+					"eng": "Slot ${slot}",
+					"trans": "Слот ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"title": {
+					"eng": "pinned emblems",
+					"trans": "закріплені емблеми"
+				}
+			},
 			"gangAction": {
 				"editPermissions": {
 					"eng": "Permissions",
@@ -17369,6 +18456,10 @@
 				"block": {
 					"eng": "Block Player",
 					"trans": "Заблокувати гравця"
+				},
+				"chooseHandler": {
+					"eng": "Choose as Handler",
+					"trans": "Призначити контактом"
 				},
 				"giveStreetCred": {
 					"eng": "Give Street Cred",
@@ -17896,6 +18987,16 @@
 					"trans": "Емблеми лише для мене"
 				}
 			},
+			"privateHandler": {
+				"description": {
+					"eng": "Hide your Handler from other players",
+					"trans": "Приховати свого хендлера від інших гравців"
+				},
+				"title": {
+					"eng": "Hide my Handler",
+					"trans": "Приховати мого агента"
+				}
+			},
 			"promoOnlyShowWhenUpdate": {
 				"description": {
 					"eng": "Only show promo popup when there is a new event",
@@ -18160,6 +19261,10 @@
 				"eng": "combat",
 				"trans": "бій"
 			},
+			"communityRaffles": {
+				"eng": "Community Raffles",
+				"trans": "Розіграші спільноти"
+			},
 			"dataFortress": {
 				"eng": "SL-Data Fortress",
 				"trans": "SL-Дані Фортеця"
@@ -18191,6 +19296,10 @@
 			"furniture": {
 				"eng": "Furniture",
 				"trans": "Меблі"
+			},
+			"handlers": {
+				"eng": "Handlers",
+				"trans": "Керування"
 			},
 			"inventory": {
 				"eng": "inventory",
@@ -18243,6 +19352,74 @@
 			"timeSkip": {
 				"eng": "time skip",
 				"trans": "прискорення завдань"
+			}
+		},
+		"tutorialSearch": {
+			"clear": {
+				"eng": "Clear search",
+				"trans": "Очистити пошук"
+			},
+			"close": {
+				"eng": "Close tutorial search",
+				"trans": "Закрити пошук уроків"
+			},
+			"error": {
+				"eng": "Tutorial search is unavailable. Check your connection and retry.",
+				"trans": "Пошук інструкцій недоступний. Перевірте з'єднання та повторіть спробу."
+			},
+			"label": {
+				"eng": "Tutorial Search",
+				"trans": "Пошук інструкцій"
+			},
+			"loading": {
+				"eng": "Indexing tutorials...",
+				"trans": "Індексація посібників..."
+			},
+			"matchEnglishSectionLabel": {
+				"eng": "English section",
+				"trans": "Англійський розділ"
+			},
+			"matchEnglishTitleLabel": {
+				"eng": "English title",
+				"trans": "Англійська назва"
+			},
+			"matchSectionLabel": {
+				"eng": "Section",
+				"trans": "Розділ"
+			},
+			"matchTitle": {
+				"eng": "Title match",
+				"trans": "Збіг назви"
+			},
+			"noResults": {
+				"eng": "No tutorial results for \"${query}\"",
+				"trans": "Інструкцій за запитом ${query} не знайдено",
+				"vars": [
+					"query"
+				]
+			},
+			"partial": {
+				"eng": "Some tutorials could not be indexed.",
+				"trans": "Деякі інструкції не вдалося індексувати."
+			},
+			"placeholder": {
+				"eng": "Search tutorials...",
+				"trans": "Пошук інструкцій..."
+			},
+			"ready": {
+				"eng": "Search tutorial titles, sections, and content.",
+				"trans": "Шукайте за назвами, розділами та змістом посібників."
+			},
+			"resultCount": {
+				"eng": "${count} results",
+				"trans": "${count} результатів",
+				"vars": [
+					"count"
+				]
+			},
+			"resultCountOne": {
+				"eng": "1 result",
+				"trans": "1 результат"
 			}
 		},
 		"unit": {

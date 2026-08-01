@@ -965,6 +965,13 @@
 				}
 			}
 		},
+		"discount": {
+			"eng": "${percent}% off",
+			"trans": "${percent}% Rabatt",
+			"vars": [
+				"percent"
+			]
+		},
 		"free": {
 			"eng": "Free",
 			"trans": "Kostenlos"
@@ -974,6 +981,10 @@
 				"eng": "Free Personal Skip",
 				"trans": "Kostenloser persönlicher Übersprung"
 			}
+		},
+		"notAvailable": {
+			"eng": "Bundle not available",
+			"trans": "Bundle nicht verfügbar"
 		},
 		"rareEquipmentCrate": {
 			"name": {
@@ -991,6 +1002,12 @@
 			"name": {
 				"eng": "Skip supply bundle",
 				"trans": "Versorgungsbündel überspringen"
+			}
+		},
+		"summerNightsFragmentFusion": {
+			"name": {
+				"eng": "Summer Nights Fusion Bundle",
+				"trans": "Sommernacht-Fusionspaket"
 			}
 		}
 	},
@@ -1306,12 +1323,6 @@
 		"offRotation": {
 			"eng": "Out of rotation",
 			"trans": "Aus der Rotation"
-		}
-	},
-	"chatHeader": {
-		"skipAvailable": {
-			"eng": "Available",
-			"trans": "Verfügbar"
 		}
 	},
 	"chatInput": {
@@ -1796,6 +1807,14 @@
 			"eng": "Got it",
 			"trans": "Alles klar!"
 		},
+		"keep": {
+			"eng": "Keep raffle",
+			"trans": "Beitrag behalten"
+		},
+		"loading": {
+			"eng": "Loading",
+			"trans": "Wird geladen"
+		},
 		"max": {
 			"eng": "MAX",
 			"trans": "MAX"
@@ -1809,7 +1828,7 @@
 			"trans": "Kaufen"
 		},
 		"retry": {
-			"eng": "RETRY CONNECTION",
+			"eng": "Retry",
 			"trans": "VERBINDUNG ERNEUT VERSUCHEN"
 		},
 		"save": {
@@ -1819,6 +1838,608 @@
 		"warning": {
 			"eng": "Warning",
 			"trans": "Warnung"
+		}
+	},
+	"communityRaffle": {
+		"action": {
+			"accountBlocked": {
+				"eng": "Limited accounts cannot join Community Raffles.",
+				"trans": "Eingeschränkte Konten können nicht an Community-Raffles teilnehmen."
+			},
+			"closeRaffle": {
+				"eng": "Close raffle",
+				"trans": "Verlosung beenden"
+			},
+			"closeRaffleDescription": {
+				"eng": "Select and announce the winner",
+				"trans": "Gewinner auswählen und verkünden"
+			},
+			"graceExpired": {
+				"eng": "Winner selection window expired.",
+				"trans": "Das Zeitfenster zur Gewinnerauswahl ist abgelaufen."
+			},
+			"join": {
+				"eng": "Join raffle",
+				"trans": "An der Verlosung teilnehmen"
+			},
+			"levelBlocked": {
+				"eng": "Reach level ${level} to join.",
+				"trans": "Erreiche Level ${level}, um teilzunehmen.",
+				"vars": [
+					"level"
+				]
+			}
+		},
+		"chatHeader": {
+			"open": {
+				"eng": "Open Community Raffles",
+				"trans": "Community-Verlosungen öffnen"
+			}
+		},
+		"closeRaffle": {
+			"deadline": {
+				"eng": "Winner selection is available after the entry deadline.",
+				"trans": "Die Gewinnerauswahl ist nach dem Teilnahmeschluss möglich."
+			},
+			"notOrganizer": {
+				"eng": "Only this Community Raffle's organizer can select the winner.",
+				"trans": "Nur der Organisator dieser Community-Verlosung kann den Gewinner auswählen."
+			},
+			"unavailable": {
+				"eng": "Winner selection is not available for this Community Raffle.",
+				"trans": "Die Gewinnermittlung ist für diese Community-Verlosung nicht verfügbar."
+			}
+		},
+		"create": {
+			"accountLimited": {
+				"eng": "Limited accounts cannot create Community Raffles.",
+				"trans": "Eingeschränkte Konten können keine Community Raffles erstellen."
+			},
+			"accountLimitedToast": {
+				"eng": "Limited accounts cannot create Community Raffles.",
+				"trans": "Eingeschränkte Konten können keine Community Raffles erstellen."
+			},
+			"action": {
+				"eng": "Create raffle",
+				"trans": "Verlosung erstellen"
+			},
+			"addEquipment": {
+				"eng": "Attach equipment",
+				"trans": "Ausrüstung anfügen"
+			},
+			"backToEdit": {
+				"eng": "Back to edit",
+				"trans": "Zurück zur Bearbeitung"
+			},
+			"composerCounts": {
+				"eng": "${attachments} / ${maximumAttachments} · ${characters} / ${maximumCharacters}",
+				"trans": "${attachments} / ${maximumAttachments} · ${characters} / ${maximumCharacters}",
+				"vars": [
+					"attachments",
+					"maximumAttachments",
+					"characters",
+					"maximumCharacters"
+				]
+			},
+			"confirmAction": {
+				"eng": "Consume 1 Kit and publish",
+				"trans": "1 Kit verbrauchen und veröffentlichen"
+			},
+			"confirmKitCost": {
+				"eng": "Publishing consumes one Community Raffle Kit.",
+				"trans": "Veröffentlichung verbraucht ein Community Raffle Kit."
+			},
+			"confirmPermanent": {
+				"eng": "Published settings cannot be edited. Deleting the raffle will not refund the Kit.",
+				"trans": "Veröffentlichte Einstellungen können nicht bearbeitet werden. Das Löschen der Verlosung erstattet das Kit nicht."
+			},
+			"confirmTitle": {
+				"eng": "Publish Community Raffle?",
+				"trans": "Community-Verlosung veröffentlichen?"
+			},
+			"cost": {
+				"eng": "1 Raffle Kit",
+				"trans": "1 Lotterieset"
+			},
+			"decreaseMinimumLevel": {
+				"eng": "Decrease minimum level by 50",
+				"trans": "Mindestlevel um 50 senken"
+			},
+			"description": {
+				"eng": "Description (optional)",
+				"trans": "Optionale Beschreibung"
+			},
+			"duration": {
+				"eng": "Duration",
+				"trans": "Dauer"
+			},
+			"durationFourteenDays": {
+				"eng": "14 days",
+				"trans": "14 Tage"
+			},
+			"durationOneDay": {
+				"eng": "1 day",
+				"trans": "1 Tag"
+			},
+			"durationOptionFourteenDays": {
+				"eng": "14D",
+				"trans": "14 Tage"
+			},
+			"durationOptionFourteenDaysAccessible": {
+				"eng": "14 days",
+				"trans": "14 Tage"
+			},
+			"durationOptionOneDay": {
+				"eng": "1D",
+				"trans": "1 Tag"
+			},
+			"durationOptionOneDayAccessible": {
+				"eng": "1 day",
+				"trans": "1 Tag"
+			},
+			"durationOptionSevenDays": {
+				"eng": "7D",
+				"trans": "7 Tage"
+			},
+			"durationOptionSevenDaysAccessible": {
+				"eng": "7 days",
+				"trans": "7 Tage"
+			},
+			"durationOptionThirtyDays": {
+				"eng": "30D",
+				"trans": "30 Tage"
+			},
+			"durationOptionThirtyDaysAccessible": {
+				"eng": "30 days",
+				"trans": "30 Tage"
+			},
+			"durationOptionThreeDays": {
+				"eng": "3D",
+				"trans": "3Tage"
+			},
+			"durationOptionThreeDaysAccessible": {
+				"eng": "3 days",
+				"trans": "3 Tage"
+			},
+			"durationSevenDays": {
+				"eng": "7 days",
+				"trans": "7 Tage"
+			},
+			"durationThirtyDays": {
+				"eng": "30 days",
+				"trans": "30 Tage"
+			},
+			"durationThreeDays": {
+				"eng": "3 days",
+				"trans": "3 Tage"
+			},
+			"equipment": {
+				"eng": "Equipment snapshot (optional)",
+				"trans": "Ausrüstungsscreenshot (optional)"
+			},
+			"equipmentDeliveryDescription": {
+				"eng": "Attached equipment stays in your inventory and is not sent to the winner. You must deliver it yourself.",
+				"trans": "Zugehörige Ausrüstung verbleibt in deinem Inventar und wird nicht an den Gewinner versandt. Du musst sie selbst übermitteln."
+			},
+			"equipmentDeliveryTitle": {
+				"eng": "Equipment delivery is manual",
+				"trans": "Manueller Versand der Ausrüstung"
+			},
+			"equipmentNotOwned": {
+				"eng": "Selected equipment is not owned by this account.",
+				"trans": "Die ausgewählte Ausrüstung gehört nicht zu diesem Konto."
+			},
+			"equipmentRequired": {
+				"eng": "Only equipment can be attached to a Community Raffle.",
+				"trans": "Nur Ausrüstung kann an einer Community-Raille angehängt werden."
+			},
+			"globalAnnouncement": {
+				"eng": "${creatorName} created a Community ${raffleLink}.",
+				"trans": "${creatorName} hat eine Community-Verlosung namens ${raffleLink} erstellt.",
+				"vars": [
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"increaseMinimumLevel": {
+				"eng": "Increase minimum level by 50",
+				"trans": "Mindestlevel um 50 erhöhen"
+			},
+			"kitRequired": {
+				"eng": "You need a Community Raffle Kit to create this raffle.",
+				"trans": "Du benötigst ein Community Raffle Kit, um diese Verlosung zu erstellen."
+			},
+			"levelRequired": {
+				"eng": "Reach level ${level} to create a Community Raffle.",
+				"trans": "Erreiche Level ${level}, um eine Community-Verlosung zu erstellen.",
+				"vars": [
+					"level"
+				]
+			},
+			"levelRequiredToast": {
+				"eng": "Reach level ${level} to create a Community Raffle.",
+				"trans": "Erreiche Level ${level}, um eine Community-Verlosung zu erstellen.",
+				"vars": [
+					"level"
+				]
+			},
+			"minimumLevel": {
+				"eng": "Minimum level",
+				"trans": "Mindeststufe"
+			},
+			"moderationRejected": {
+				"eng": "Automated check found the title or description inappropriate or unrelated to the Community Raffle. Update the title or description, then try again.",
+				"trans": "Die automatische Prüfung hat den Titel oder die Beschreibung als unangemessen oder nicht zur Community-Raffle passend eingestuft. Ändern Sie Titel oder Beschreibung und versuchen Sie es erneut."
+			},
+			"moderationUnavailable": {
+				"eng": "Automated check is temporarily unavailable. Try again in a moment.",
+				"trans": "Die automatisierte Prüfung ist vorübergehend nicht verfügbar. Bitte versuchen Sie es gleich erneut."
+			},
+			"noDescription": {
+				"eng": "None",
+				"trans": "Keine"
+			},
+			"noEquipment": {
+				"eng": "None",
+				"trans": "Keine"
+			},
+			"pageTitle": {
+				"eng": "Create Community Raffle",
+				"trans": "Community-Verlosung erstellen"
+			},
+			"removeEquipmentSnapshot": {
+				"eng": "Remove equipment snapshot",
+				"trans": "Ausrüstungssnapshot entfernen"
+			},
+			"review": {
+				"eng": "Review raffle",
+				"trans": "Verlosung prüfen"
+			},
+			"selectEquipment": {
+				"eng": "Select equipment snapshot",
+				"trans": "Ausrüstungsbild auswählen"
+			},
+			"title": {
+				"eng": "Title",
+				"trans": "Titel"
+			},
+			"titleCount": {
+				"eng": "${current} / ${maximum}",
+				"trans": "${current} von ${maximum}",
+				"vars": [
+					"current",
+					"maximum"
+				]
+			},
+			"titleLength": {
+				"eng": "Title must be ${minimum}–${maximum} characters.",
+				"trans": "Der Titel muss ${minimum}–${maximum} Zeichen lang sein.",
+				"vars": [
+					"minimum",
+					"maximum"
+				]
+			},
+			"titleRequired": {
+				"eng": "Enter a title.",
+				"trans": "Titel eingeben."
+			}
+		},
+		"delete": {
+			"action": {
+				"eng": "Delete raffle",
+				"trans": "Verlosung löschen"
+			},
+			"confirmAction": {
+				"eng": "Delete permanently",
+				"trans": "Dauerhaft löschen"
+			},
+			"confirmTitle": {
+				"eng": "Delete Community Raffle?",
+				"trans": "Community-Verlosung löschen?"
+			},
+			"creatorMail": {
+				"body": {
+					"eng": "Moderator ${moderatorName} deleted your Community Raffle: ${title}",
+					"trans": "Moderator ${moderatorName} hat deine Community-Verlosung ${title} gelöscht",
+					"vars": [
+						"moderatorName",
+						"title"
+					]
+				}
+			},
+			"creatorSuccess": {
+				"eng": "You deleted your Community Raffle.",
+				"trans": "Deine Community-Verlosung wurde gelöscht."
+			},
+			"creatorWarning": {
+				"eng": "This permanently removes your raffle and cannot be undone. The Community Raffle Kit will not be refunded.",
+				"trans": "Deine Verlosung wird endgültig gelöscht und kann nicht rückgängig gemacht werden. Das Community-Raffle-Kit wird nicht zurückerstattet."
+			},
+			"moderatorMail": {
+				"body": {
+					"eng": "You deleted ${creatorName}'s Community Raffle: ${title}",
+					"trans": "Du hast die Community-Verlosung von ${creatorName} gelöscht: ${title}",
+					"vars": [
+						"creatorName",
+						"title"
+					]
+				}
+			},
+			"moderatorWarning": {
+				"eng": "This permanently removes ${creator}'s raffle. They will be notified by mail.",
+				"trans": "Die Raffle von ${creator} wird dadurch endgültig gelöscht. Der Ersteller erhält eine Benachrichtigung per Mail.",
+				"vars": [
+					"creator"
+				]
+			}
+		},
+		"delivery": {
+			"creatorNoWinnerMail": {
+				"eng": "Your Community ${raffleLink} “${title}” is complete. No eligible winner remained.",
+				"trans": "Deine Community-Verlosung ${raffleLink} „${title}“ ist abgeschlossen. Es sind keine qualifizierten Gewinner übrig geblieben.",
+				"vars": [
+					"title",
+					"raffleLink"
+				]
+			},
+			"creatorWinnerMail": {
+				"eng": "Your Community ${raffleLink} “${title}” is complete. Winner: ${winnerName}.",
+				"trans": "Die Community-Verlosung \"${title}\" (${raffleLink}) ist abgeschlossen. Gewinner: ${winnerName}.",
+				"vars": [
+					"title",
+					"winnerName",
+					"raffleLink"
+				]
+			},
+			"globalAnnouncement": {
+				"eng": "🎉 ${winnerName} won a Community ${raffleLink}!",
+				"trans": "🎉 ${winnerName} hat in der Community-Verlosung einen ${raffleLink} gewonnen!",
+				"vars": [
+					"winnerName",
+					"raffleLink"
+				]
+			},
+			"winnerMail": {
+				"eng": "You won the Community ${raffleLink} “${title}”.",
+				"trans": "Du hast den Community ${raffleLink} „${title}“ gewonnen.",
+				"vars": [
+					"title",
+					"raffleLink"
+				]
+			}
+		},
+		"detail": {
+			"abandonedState": {
+				"eng": "Winner selection was not completed within the seven-day window.",
+				"trans": "Die Gewinnerauswahl wurde nicht innerhalb der Sieben-Tage-Frist abgeschlossen."
+			},
+			"attachments": {
+				"eng": "Attachments",
+				"trans": "Anhänge"
+			},
+			"closed": {
+				"eng": "Closed",
+				"trans": "Geschlossen"
+			},
+			"closesLabel": {
+				"eng": "Closes in",
+				"trans": "Endet in"
+			},
+			"entrantList": {
+				"eng": "Entrants",
+				"trans": "Teilnehmer"
+			},
+			"hostLabel": {
+				"eng": "Host",
+				"trans": "Veranstalter"
+			},
+			"levelShort": {
+				"eng": "LV ${level}+",
+				"trans": "Stufe ${level}+",
+				"vars": [
+					"level"
+				]
+			},
+			"minimumLevel": {
+				"eng": "Minimum level",
+				"trans": "Mindeststufe"
+			},
+			"noEntrants": {
+				"eng": "No entries yet.",
+				"trans": "Bisher keine Einträge."
+			},
+			"notFound": {
+				"eng": "We cannot find this raffle.",
+				"trans": "Diese Verlosung konnte nicht gefunden werden."
+			},
+			"refresh": {
+				"eng": "Refresh raffle details",
+				"trans": "Raffledetails aktualisieren"
+			},
+			"selectedWinner": {
+				"eng": "Winner",
+				"trans": "Gewinner"
+			},
+			"statusLabel": {
+				"eng": "Status",
+				"trans": "Status"
+			},
+			"unavailable": {
+				"eng": "Community Raffle unavailable",
+				"trans": "Community-Verlosung nicht verfügbar"
+			},
+			"winnerMarker": {
+				"eng": "Winner",
+				"trans": "Gewinner"
+			}
+		},
+		"empty": {
+			"description": {
+				"eng": "Active and past raffles will appear here.",
+				"trans": "Aktive und vergangene Verlosungen werden hier angezeigt."
+			},
+			"title": {
+				"eng": "No Community Raffles yet",
+				"trans": "Noch keine Community-Verlosungen"
+			}
+		},
+		"error": {
+			"notFound": {
+				"eng": "Community Raffle not found.",
+				"trans": "Community-Verlosung nicht gefunden."
+			}
+		},
+		"join": {
+			"accountLimited": {
+				"eng": "Limited accounts cannot join Community Raffles.",
+				"trans": "Eingeschränkte Konten können nicht an Community-Raffles teilnehmen."
+			},
+			"alreadyJoined": {
+				"eng": "You already joined this Community Raffle.",
+				"trans": "Du nimmst bereits an dieser Community-Verlosung teil."
+			},
+			"associatedEntry": {
+				"eng": "An associated account already entered this Community Raffle.",
+				"trans": "Ein verknüpftes Konto hat bereits an dieser Communityverlosung teilgenommen."
+			},
+			"closed": {
+				"eng": "This Community Raffle is no longer open for entry.",
+				"trans": "Die Teilnahme an diesem Community Gewinnspiel ist nicht mehr möglich."
+			},
+			"creatorMail": {
+				"eng": "${playerName} has joined your ${raffleLink}. Total entrants: ${totalEntrants}.",
+				"trans": "${playerName} hat sich deinem ${raffleLink} angeschlossen. Gesamtanzahl der Teilnehmer: ${totalEntrants}.",
+				"vars": [
+					"playerName",
+					"raffleLink",
+					"totalEntrants"
+				]
+			},
+			"creatorMailOthers": {
+				"eng": "${playerName} and ${otherCount} more have joined your ${raffleLink}. Total entrants: ${totalEntrants}.",
+				"trans": "${playerName} und ${otherCount} weitere haben sich für dein ${raffleLink} angemeldet. Gesamtteilnehmer: ${totalEntrants}.",
+				"vars": [
+					"playerName",
+					"otherCount",
+					"raffleLink",
+					"totalEntrants"
+				]
+			},
+			"globalAnnouncement": {
+				"eng": "${playerName} has joined ${creatorName}'s ${raffleLink}.",
+				"trans": "${playerName} nimmt jetzt an ${creatorName}'s ${raffleLink} teil.",
+				"vars": [
+					"playerName",
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"globalAnnouncementOthers": {
+				"eng": "${playerName} and ${otherCount} more have joined ${creatorName}'s ${raffleLink}.",
+				"trans": "${playerName} und ${otherCount} weitere haben sich ${creatorName}'s ${raffleLink} angeschlossen.",
+				"vars": [
+					"playerName",
+					"otherCount",
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"levelRequired": {
+				"eng": "Reach level ${level} to join this Community Raffle.",
+				"trans": "Erreiche Level ${level}, um an der Community-Verlosung teilzunehmen.",
+				"vars": [
+					"level"
+				]
+			},
+			"organizer": {
+				"eng": "You cannot join your own Community Raffle.",
+				"trans": "Du kannst nicht an deiner eigenen Community-Verlosung teilnehmen."
+			}
+		},
+		"loadError": {
+			"title": {
+				"eng": "Raffle list unavailable",
+				"trans": "Verlosungsliste nicht verfügbar"
+			}
+		},
+		"raffleLink": {
+			"eng": "Raffle",
+			"trans": "Verlosung"
+		},
+		"refresh": {
+			"eng": "Refresh raffle list",
+			"trans": "Verlosungsliste aktualisieren"
+		},
+		"row": {
+			"awaitingOrganizer": {
+				"eng": "Awaiting organizer",
+				"trans": "Wartet auf Organisator"
+			},
+			"closedLabel": {
+				"eng": "Closed",
+				"trans": "Geschlossen"
+			},
+			"closesLabel": {
+				"eng": "Closes in",
+				"trans": "Endet in"
+			},
+			"entriesLabel": {
+				"eng": "Entries",
+				"trans": "Teilnahmen"
+			},
+			"hostLabel": {
+				"eng": "Host",
+				"trans": "Veranstalter"
+			},
+			"levelShort": {
+				"eng": "LV ${level}+",
+				"trans": "Stufe ${level}+",
+				"vars": [
+					"level"
+				]
+			},
+			"resultLabel": {
+				"eng": "Result",
+				"trans": "Ergebnis"
+			}
+		},
+		"status": {
+			"abandoned": {
+				"eng": "Abandoned",
+				"trans": "Aufgegeben"
+			},
+			"awaitingOrganizer": {
+				"eng": "Awaiting organizer",
+				"trans": "Wartet auf Organisator"
+			},
+			"completed": {
+				"eng": "Completed",
+				"trans": "Abgeschlossen"
+			},
+			"open": {
+				"eng": "Open",
+				"trans": "Offen"
+			}
+		},
+		"title": {
+			"eng": "Community Raffles",
+			"trans": "Community-Verlosung"
+		},
+		"tutorial": {
+			"description": {
+				"eng": "Create, join, and select a winner.",
+				"trans": "Erstellen, teilnehmen und den Gewinner auswählen."
+			},
+			"title": {
+				"eng": "How Community Raffles work",
+				"trans": "So funktionieren Community-Verlosungen"
+			}
+		},
+		"validation": {
+			"request": {
+				"eng": "Invalid Community Raffle request.",
+				"trans": "Ungültige Community-Verlosungsanfrage."
+			}
 		}
 	},
 	"component": {
@@ -2452,6 +3073,10 @@
 			"eng": "Vice Heat",
 			"trans": "Lasterhitze"
 		},
+		"donation55": {
+			"eng": "Black Press",
+			"trans": "Schwarze Presse"
+		},
 		"donation6": {
 			"eng": "Prestige",
 			"trans": "Prestige"
@@ -3002,6 +3627,28 @@
 				"item",
 				"npcName"
 			]
+		}
+	},
+	"emblem": {
+		"showcase": {
+			"error": {
+				"emblemRequired": {
+					"eng": "Emblem is required",
+					"trans": "Emblem erforderlich"
+				},
+				"invalidEmblem": {
+					"eng": "Invalid emblem type",
+					"trans": "Ungültiger Emblemtyp"
+				},
+				"invalidSlot": {
+					"eng": "Invalid emblem showcase slot",
+					"trans": "Ungültiger Slot in der Emblem-Anzeige"
+				},
+				"notOwned": {
+					"eng": "You don't own this emblem",
+					"trans": "Du besitzt dieses Emblem nicht"
+				}
+			}
 		}
 	},
 	"emblems": {
@@ -5019,6 +5666,16 @@
 				"trans": "Versorgungskiste [Gang]"
 			}
 		},
+		"communityRaffleKit": {
+			"description": {
+				"eng": "A deployable kit for creating one public Community Raffle. Consumed when the raffle is published.",
+				"trans": "Ein Kit zur Erstellung einer öffentlichen Community-Verlosung. Wird bei Veröffentlichung verbraucht."
+			},
+			"name": {
+				"eng": "Community Raffle Kit",
+				"trans": "Community Verlosungsset"
+			}
+		},
 		"creatine": {
 			"description": {
 				"eng": "Push past your limits and grind like a machine--When consumed, increase damage dealt by ${percent}% for ${minutes} minutes",
@@ -5620,6 +6277,19 @@
 			"name": {
 				"eng": "Medical Tech Parts",
 				"trans": "Medizinisches Technologieteil"
+			}
+		},
+		"mentorSkipVoucher": {
+			"description": {
+				"eng": "An evergreen voucher earned by helping a new runner reach level 50. It automatically applies a ${discountPercent}% Global Skip discount.",
+				"trans": "Ein unbefristeter Gutschein, den du erhältst, indem du einem neuen Runner auf Stufe 50 hilfst. Er gewährt automatisch einen Rabatt von ${discountPercent}% auf das globale Überspringen.",
+				"vars": [
+					"discountPercent"
+				]
+			},
+			"name": {
+				"eng": "Handler Skip Voucher",
+				"trans": "Handler-Skip-Gutschein"
 			}
 		},
 		"missileCommandPass": {
@@ -6329,6 +6999,13 @@
 		}
 	},
 	"itemInbox": {
+		"movedToInventory": {
+			"eng": "${item} has been moved from your item inbox to your inventory automatically",
+			"trans": "${item} wurde automatisch von deinem Item-Eingang in dein Inventar verschoben",
+			"vars": [
+				"item"
+			]
+		},
 		"notifySender": {
 			"eng": "${recipient} has retrived your gift items (${itemNames}) from their inbox into their inventory.",
 			"trans": "${recipient} hat deine Geschenke (${itemNames}) aus dem Postfach in das Inventar übernommen.",
@@ -6395,6 +7072,43 @@
 		"title": {
 			"eng": "Rename History",
 			"trans": "Umbenennungsverlauf"
+		}
+	},
+	"itemSource": {
+		"drop": {
+			"dungeons": {
+				"eng": "Dungeons",
+				"trans": "Instanzen"
+			},
+			"enemies": {
+				"eng": "Enemies",
+				"trans": "Gegner"
+			},
+			"lootBoxes": {
+				"eng": "Loot boxes",
+				"trans": "Beuteboxen"
+			},
+			"reclamationTier": {
+				"eng": "Drop on ${tier}",
+				"trans": "Auf ${tier} ablegen",
+				"vars": [
+					"tier"
+				]
+			}
+		}
+	},
+	"itemSourceModal": {
+		"description": {
+			"eng": "You can get this item from:",
+			"trans": "Dieses Item gibt es bei:"
+		},
+		"empty": {
+			"eng": "No current sources found.",
+			"trans": "Aktuell keine Quellen verfügbar."
+		},
+		"title": {
+			"eng": "Item sources",
+			"trans": "Herkunft des Gegenstands"
 		}
 	},
 	"itemStack": {
@@ -7125,6 +7839,10 @@
 		"streetcred": {
 			"eng": "Street Cred",
 			"trans": "Glaubwürdigkeit"
+		},
+		"topHandlers": {
+			"eng": "Top Handlers",
+			"trans": "Top-Handler"
 		}
 	},
 	"leaderboardTypePage": {
@@ -8154,6 +8872,106 @@
 			"trans": "Raketenkommando"
 		}
 	},
+	"mentorship": {
+		"completion": {
+			"handlerMail": {
+				"eng": "${runnerName} reached level ${completionLevel} and passed verification. Your Handler rewards were delivered.",
+				"trans": "${runnerName} hat Level ${completionLevel} erreicht und die Verifikation bestanden. Deine Handler-Belohnungen wurden zugestellt.",
+				"vars": [
+					"runnerName",
+					"completionLevel"
+				]
+			}
+		},
+		"confirm": {
+			"currentHandler": {
+				"eng": "Current Handler",
+				"trans": "Aktueller Ansprechpartner"
+			},
+			"endPermanently": {
+				"eng": "End permanently",
+				"trans": "Endgültig beenden"
+			},
+			"endPurpose": {
+				"eng": "End your mentorship with this Handler.",
+				"trans": "Beende dein Mentoring mit diesem Handler."
+			},
+			"endTitle": {
+				"eng": "End mentorship",
+				"trans": "Mentoring beenden"
+			},
+			"endWarning": {
+				"eng": "This is permanent. You cannot choose another Handler.",
+				"trans": "Dies ist endgültig. Du kannst keinen anderen Handler wählen."
+			},
+			"mentorDetails": {
+				"eng": "${name} — Level ${level}",
+				"trans": "${name} — Stufe ${level}",
+				"vars": [
+					"name",
+					"level"
+				]
+			},
+			"selectPermanently": {
+				"eng": "Choose permanently",
+				"trans": "Dauerhaft auswählen"
+			},
+			"selectPurpose": {
+				"eng": "Choose a Handler to guide your early progression.",
+				"trans": "Wähle einen Handler, der dich in der Anfangsphase begleitet."
+			},
+			"selectTitle": {
+				"eng": "Choose Handler",
+				"trans": "Handler auswählen"
+			},
+			"selectWarning": {
+				"eng": "Choose only someone who has greatly helped you learn the game. Never choose a Handler for trades, items, or other favors. You cannot choose another Handler later, even if you end the mentorship.",
+				"trans": "Wähle nur jemanden, der dich maßgeblich in die Spielwelt eingewiesen hat. Wähle keinen Handler für Geschäfte, Items oder Gefälligkeiten. Ein späterer Wechsel ist ausgeschlossen, auch nicht nach Auflösung der Mentorschaft."
+			}
+		},
+		"revoke": {
+			"invalid": {
+				"eng": "This mentorship can no longer be ended.",
+				"trans": "Diese Mentorschaft kann nicht mehr beendet werden."
+			}
+		},
+		"select": {
+			"handlerMail": {
+				"eng": "${runnerName} chose you as their Handler. Their mentorship will complete if they reach level ${completionLevel} and pass system verification.",
+				"trans": "${runnerName} hat dich als seinen Handler ausgewählt. Das Mentoring ist erfolgreich abgeschlossen, wenn er Level ${completionLevel} erreicht und die Systemverifikation besteht.",
+				"vars": [
+					"runnerName",
+					"completionLevel"
+				]
+			},
+			"ineligible": {
+				"eng": "This Handler selection is not eligible.",
+				"trans": "Diese Handler-Auswahl ist nicht möglich."
+			}
+		}
+	},
+	"mentorshipAssignmentsPage": {
+		"empty": {
+			"eng": "No runners are currently assigned to you.",
+			"trans": "Derzeit sind dir keine Runner zugewiesen."
+		},
+		"loadFailed": {
+			"eng": "Mentoring runners failed to load.",
+			"trans": "Mentoring-Runner konnten nicht geladen werden."
+		},
+		"loading": {
+			"eng": "Loading mentoring runners...",
+			"trans": "Mentoring-Prozesse werden geladen..."
+		},
+		"private": {
+			"eng": "Private — only you can see this",
+			"trans": "Privat – nur für dich sichtbar"
+		},
+		"title": {
+			"eng": "Mentoring Runners",
+			"trans": "Runner-Mentoring"
+		}
+	},
 	"messageImage": {
 		"hideImage": {
 			"eng": "Hide Image",
@@ -8249,6 +9067,91 @@
 					"eng": "BREACH SUCCESS",
 					"trans": "Erfolgreicher Durchbruch"
 				}
+			}
+		},
+		"orderSync": {
+			"board": {
+				"summary": {
+					"eng": "Sorting minigame. Arrange the bars from smallest to largest, left to right within the move budget. Drag a bar to reposition it, or tap two bars to swap them.",
+					"trans": "Sortier-Minigame. Ordne die Balken von links nach rechts in aufsteigender Größe an, innerhalb des verfügbaren Zuglimits. Ziehe einen Balken zum Verschieben oder tippe auf zwei Balken zum Tauschen."
+				}
+			},
+			"fail": {
+				"description": {
+					"eng": "Sort the row before you run out of moves.",
+					"trans": "Sortiere die Zeile, bevor dir die Züge ausgehen."
+				},
+				"retry": {
+					"eng": "Retry",
+					"trans": "Wiederholen"
+				},
+				"status": {
+					"eng": "ORDER REJECTED",
+					"trans": "AUFTRAG ABGELEHNT"
+				},
+				"title": {
+					"eng": "Out of moves",
+					"trans": "Keine Züge mehr"
+				}
+			},
+			"instruction": {
+				"eng": "Sort small to big, left to right. Drag a bar to move it, or tap two to swap.",
+				"trans": "Balken klein nach groß, von links nach rechts anordnen. Zum Verschieben einen Balken ziehen oder zwei zum Vertauschen tippen."
+			},
+			"item": {
+				"aria": {
+					"eng": "Bar, value ${value}",
+					"trans": "Balken, Wert ${value}",
+					"vars": [
+						"value"
+					]
+				}
+			},
+			"scale": {
+				"high": {
+					"eng": "HIGH",
+					"trans": "HOCH"
+				},
+				"label": {
+					"eng": "SIGNAL MAGNITUDE",
+					"trans": "SIGNALSTÄRKE"
+				},
+				"low": {
+					"eng": "LOW",
+					"trans": "NIEDRIG"
+				}
+			},
+			"status": {
+				"failed": {
+					"eng": "FAILED",
+					"trans": "FEHLGESCHLAGEN"
+				},
+				"locked": {
+					"eng": "SORTED",
+					"trans": "VERARBEITET"
+				},
+				"moves": {
+					"eng": "MOVES ${count}/${max}",
+					"trans": "ZÜGE ${count}/${max}",
+					"vars": [
+						"count",
+						"max"
+					]
+				}
+			},
+			"success": {
+				"status": {
+					"eng": "ORDER VALIDATED",
+					"trans": "AUFTRAG BESTÄTIGT"
+				},
+				"title": {
+					"eng": "Sequence sorted",
+					"trans": "Reihenfolge sortiert"
+				}
+			},
+			"title": {
+				"eng": "Order Sync",
+				"trans": "Bestellungssync"
 			}
 		},
 		"relayGrid": {
@@ -11490,6 +12393,65 @@
 				"vars": [
 					"count"
 				]
+			}
+		},
+		"mentorship": {
+			"currentReward": {
+				"eng": "Reward per verified player",
+				"trans": "Belohnung pro verifiziertem Spieler"
+			},
+			"endMentorship": {
+				"eng": "End mentorship",
+				"trans": "Mentoring beenden"
+			},
+			"futureHandlerHint": {
+				"eng": "At level ${handlerLevel}, you can also become a Handler, guide eligible new players, and earn rewards.",
+				"trans": "Ab Level ${handlerLevel} kannst du auch Handler werden, geeignete Neulinge anleiten und Belohnungen verdienen.",
+				"vars": [
+					"handlerLevel"
+				]
+			},
+			"handler": {
+				"eng": "Handler",
+				"trans": "Ansprechpartner"
+			},
+			"handlerHint": {
+				"eng": "You can now guide eligible new players as a Handler. They can choose you from your profile. Verified mentorships increase your public total and grant the reward below.",
+				"trans": "Du kannst ab jetzt berechtigte Neulinge als Handler anleiten. Sie können dich über dein Profil auswählen. Bestätigte Mentorate erhöhen deinen öffentlichen Gesamtwert und gewähren die unten angegebene Belohnung."
+			},
+			"handlerLoadFailed": {
+				"eng": "Handler load failed.",
+				"trans": "Laden des Handlers fehlgeschlagen."
+			},
+			"loadingHandler": {
+				"eng": "Loading Handler...",
+				"trans": "Wird geladen..."
+			},
+			"private": {
+				"eng": "Private — only you can see this",
+				"trans": "Privat – nur für dich sichtbar"
+			},
+			"selectionEndedHint": {
+				"eng": "Your opportunity to choose a Handler ended after level ${maxLevel}. New players can choose one from level ${minLevel} to ${maxLevel} if their account is no more than ${maxAgeDays} days old. At level ${handlerLevel}, you can become a Handler, guide eligible new players, and earn rewards.",
+				"trans": "Deine Möglichkeit, einen Handler auszuwählen, endet nach Level ${maxLevel}. Neue Spieler können zwischen Level ${minLevel} und ${maxLevel} einen auswählen, solange das Konto nicht älter als ${maxAgeDays} Tage ist. Ab Level ${handlerLevel} kannst du selbst Handler werden, geeignete Neulinge anleiten und Belohnungen verdienen.",
+				"vars": [
+					"minLevel",
+					"maxLevel",
+					"maxAgeDays",
+					"handlerLevel"
+				]
+			},
+			"title": {
+				"eng": "Mentorship",
+				"trans": "Mentorschaft"
+			},
+			"unknownHandler": {
+				"eng": "Unknown Handler",
+				"trans": "Unbekannter Handler"
+			},
+			"viewMentoringRunners": {
+				"eng": "View Mentoring Runners",
+				"trans": "Betreute Runner anzeigen"
 			}
 		},
 		"pets": {
@@ -15297,6 +16259,10 @@
 				"eng": "Block List",
 				"trans": "Blockliste"
 			},
+			"communityRaffle": {
+				"eng": "Community Raffles",
+				"trans": "Community-Verlosung"
+			},
 			"coupon": {
 				"eng": "Claim Coupon",
 				"trans": "Gutschein einlösen"
@@ -15651,9 +16617,17 @@
 				}
 			},
 			"skippingBuff": {
-				"title": {
-					"eng": "Skip buff sponsored by:",
-					"trans": "Buff überspringen, gesponsert von:"
+				"dismiss": {
+					"eng": "Dismiss Global Skip banner",
+					"trans": "Global Skip Banner schließen"
+				},
+				"info": {
+					"eng": "Global Skip info",
+					"trans": "Globale Skip-Info"
+				},
+				"sponsor": {
+					"eng": "Global Skip by",
+					"trans": "Globaler Skip von"
 				}
 			}
 		},
@@ -16468,6 +17442,23 @@
 				"eng": "Equip",
 				"trans": "Ausrüsten"
 			},
+			"eventGamePass": {
+				"visitNpc": {
+					"eng": "Go to ${npcName}",
+					"trans": "Gehe zu ${npcName}",
+					"vars": [
+						"npcName"
+					]
+				},
+				"visitNpcDescription": {
+					"eng": "Bring this pass to ${personName} to play ${gameName}.",
+					"trans": "Bringe diesen Pass zu ${personName}, um ${gameName} zu spielen.",
+					"vars": [
+						"personName",
+						"gameName"
+					]
+				}
+			},
 			"history": {
 				"eng": "History",
 				"trans": "Chronik"
@@ -16595,6 +17586,10 @@
 			"getAllItems": {
 				"eng": "Get All Items",
 				"trans": "Alle Gegenstände nehmen"
+			},
+			"noExpiry": {
+				"eng": "Does not expire",
+				"trans": "Läuft nicht ab"
 			},
 			"title": {
 				"eng": "Item Inbox",
@@ -16780,6 +17775,12 @@
 			"travel": {
 				"eng": "Travel",
 				"trans": "Reisen"
+			}
+		},
+		"markdown": {
+			"error": {
+				"eng": "Content unavailable. Check your connection and retry.",
+				"trans": "Inhalt nicht verfügbar. Verbindung prüfen und erneut versuchen."
 			}
 		},
 		"market": {
@@ -17119,6 +18120,92 @@
 				"eng": "Property of SLPD",
 				"trans": "Eigentum der SLPD"
 			},
+			"emblemShowcase": {
+				"addSlot": {
+					"eng": "Add emblem to slot ${slot}",
+					"trans": "Emblem in Slot ${slot} einfügen",
+					"vars": [
+						"slot"
+					]
+				},
+				"chooseEmblemByOption": {
+					"eng": "Select emblem option ${option} for slot ${slot}",
+					"trans": "Wähle Emblem-Option ${option} für Slot ${slot}",
+					"vars": [
+						"option",
+						"slot"
+					]
+				},
+				"clearSlot": {
+					"eng": "Remove emblem from slot ${slot}",
+					"trans": "Emblem aus Slot ${slot} entfernen",
+					"vars": [
+						"slot"
+					]
+				},
+				"closePicker": {
+					"eng": "Close emblem picker",
+					"trans": "Emblemauswahl schließen"
+				},
+				"confirmSelection": {
+					"eng": "Confirm Selection",
+					"trans": "Auswahl bestätigen"
+				},
+				"editSlot": {
+					"eng": "Change emblem in slot ${slot}",
+					"trans": "Emblem in Slot ${slot} ändern",
+					"vars": [
+						"slot"
+					]
+				},
+				"emblemLabelBySlot": {
+					"eng": "Showcase emblem in slot ${slot}",
+					"trans": "Emblem in Slot ${slot} anzeigen",
+					"vars": [
+						"slot"
+					]
+				},
+				"pickerInstruction": {
+					"eng": "Select an emblem for slot ${slot}, then confirm.",
+					"trans": "Wähle ein Emblem für Slot ${slot} und bestätige.",
+					"vars": [
+						"slot"
+					]
+				},
+				"pickerTitle": {
+					"eng": "Choose Emblem",
+					"trans": "Emblem auswählen"
+				},
+				"playAudioBySlot": {
+					"eng": "Play audio for emblem in slot ${slot}",
+					"trans": "Audio für Emblem in Slot ${slot} abspielen",
+					"vars": [
+						"slot"
+					]
+				},
+				"remove": {
+					"eng": "Remove",
+					"trans": "Entfernen"
+				},
+				"removeConfirmationTitle": {
+					"eng": "Remove emblem from slot ${slot}?",
+					"trans": "Emblem aus Slot ${slot} entfernen?",
+					"vars": [
+						"slot"
+					]
+				},
+				"slotMarker": {
+					"eng": "Slot ${slot}",
+					"trans": "Slot ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"title": {
+					"eng": "pinned emblems",
+					"trans": "Angeheftete Embleme"
+				}
+			},
 			"gangAction": {
 				"editPermissions": {
 					"eng": "Permissions",
@@ -17193,6 +18280,10 @@
 				"block": {
 					"eng": "Block Player",
 					"trans": "Spieler bockieren"
+				},
+				"chooseHandler": {
+					"eng": "Choose as Handler",
+					"trans": "Als Handler auswählen"
 				},
 				"giveStreetCred": {
 					"eng": "Give Street Cred",
@@ -17720,6 +18811,16 @@
 					"trans": "Emblem-Privatsphäre"
 				}
 			},
+			"privateHandler": {
+				"description": {
+					"eng": "Hide your Handler from other players",
+					"trans": "Deinen Handler vor anderen Spielern ausblenden"
+				},
+				"title": {
+					"eng": "Hide my Handler",
+					"trans": "Meinen Handler ausblenden"
+				}
+			},
 			"promoOnlyShowWhenUpdate": {
 				"description": {
 					"eng": "Only show promo popup when there is a new event",
@@ -17984,6 +19085,10 @@
 				"eng": "combat",
 				"trans": "Kampf"
 			},
+			"communityRaffles": {
+				"eng": "Community Raffles",
+				"trans": "Community-Verlosung"
+			},
 			"dataFortress": {
 				"eng": "SL-Data Fortress",
 				"trans": "SL-Datenfestung"
@@ -18015,6 +19120,10 @@
 			"furniture": {
 				"eng": "Furniture",
 				"trans": "Möbel"
+			},
+			"handlers": {
+				"eng": "Handlers",
+				"trans": "Handler"
 			},
 			"inventory": {
 				"eng": "inventory",
@@ -18067,6 +19176,74 @@
 			"timeSkip": {
 				"eng": "time skip",
 				"trans": "Zeitsprünge"
+			}
+		},
+		"tutorialSearch": {
+			"clear": {
+				"eng": "Clear search",
+				"trans": "Suche löschen"
+			},
+			"close": {
+				"eng": "Close tutorial search",
+				"trans": "Tutorialsuche schließen"
+			},
+			"error": {
+				"eng": "Tutorial search is unavailable. Check your connection and retry.",
+				"trans": "Die Tutorialsuche ist nicht verfügbar. Prüfen Sie Ihre Verbindung und versuchen Sie es erneut."
+			},
+			"label": {
+				"eng": "Tutorial Search",
+				"trans": "Tutorialsuche"
+			},
+			"loading": {
+				"eng": "Indexing tutorials...",
+				"trans": "Tutorials werden indiziert..."
+			},
+			"matchEnglishSectionLabel": {
+				"eng": "English section",
+				"trans": "Englischer Abschnitt"
+			},
+			"matchEnglishTitleLabel": {
+				"eng": "English title",
+				"trans": "Englischer Titel"
+			},
+			"matchSectionLabel": {
+				"eng": "Section",
+				"trans": "Bereich"
+			},
+			"matchTitle": {
+				"eng": "Title match",
+				"trans": "Übereinstimmender Titel"
+			},
+			"noResults": {
+				"eng": "No tutorial results for \"${query}\"",
+				"trans": "Keine Tutorial-Ergebnisse für \"${query}\"",
+				"vars": [
+					"query"
+				]
+			},
+			"partial": {
+				"eng": "Some tutorials could not be indexed.",
+				"trans": "Einige Tutorials konnten nicht indexiert werden."
+			},
+			"placeholder": {
+				"eng": "Search tutorials...",
+				"trans": "Tutorials suchen..."
+			},
+			"ready": {
+				"eng": "Search tutorial titles, sections, and content.",
+				"trans": "Tutorialtitel, Abschnitte und Inhalte durchsuchen."
+			},
+			"resultCount": {
+				"eng": "${count} results",
+				"trans": "${count} Ergebnisse",
+				"vars": [
+					"count"
+				]
+			},
+			"resultCountOne": {
+				"eng": "1 result",
+				"trans": "1 Ergebnis"
 			}
 		},
 		"unit": {

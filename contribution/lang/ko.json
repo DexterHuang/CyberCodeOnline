@@ -965,6 +965,13 @@
 				}
 			}
 		},
+		"discount": {
+			"eng": "${percent}% off",
+			"trans": "${percent}% 할인",
+			"vars": [
+				"percent"
+			]
+		},
 		"free": {
 			"eng": "Free",
 			"trans": "무료"
@@ -974,6 +981,10 @@
 				"eng": "Free Personal Skip",
 				"trans": "무료 개인 스킵"
 			}
+		},
+		"notAvailable": {
+			"eng": "Bundle not available",
+			"trans": "팩 사용 불가"
 		},
 		"rareEquipmentCrate": {
 			"name": {
@@ -991,6 +1002,12 @@
 			"name": {
 				"eng": "Skip supply bundle",
 				"trans": "오프라인 스킵 패키지"
+			}
+		},
+		"summerNightsFragmentFusion": {
+			"name": {
+				"eng": "Summer Nights Fusion Bundle",
+				"trans": "서머 나이트 퓨전 번들"
 			}
 		}
 	},
@@ -1306,12 +1323,6 @@
 		"offRotation": {
 			"eng": "Out of rotation",
 			"trans": "로테이션 외"
-		}
-	},
-	"chatHeader": {
-		"skipAvailable": {
-			"eng": "Available",
-			"trans": "사용 가능"
 		}
 	},
 	"chatInput": {
@@ -1796,6 +1807,14 @@
 			"eng": "Got it",
 			"trans": "알겠어요"
 		},
+		"keep": {
+			"eng": "Keep raffle",
+			"trans": "보관함 추첨"
+		},
+		"loading": {
+			"eng": "Loading",
+			"trans": "로딩 중"
+		},
 		"max": {
 			"eng": "MAX",
 			"trans": "최대"
@@ -1809,7 +1828,7 @@
 			"trans": "구매"
 		},
 		"retry": {
-			"eng": "RETRY CONNECTION",
+			"eng": "Retry",
 			"trans": "연결 재시도"
 		},
 		"save": {
@@ -1819,6 +1838,608 @@
 		"warning": {
 			"eng": "Warning",
 			"trans": "경고"
+		}
+	},
+	"communityRaffle": {
+		"action": {
+			"accountBlocked": {
+				"eng": "Limited accounts cannot join Community Raffles.",
+				"trans": "제한 계정은 커뮤니티 추첨에 참여할 수 없습니다."
+			},
+			"closeRaffle": {
+				"eng": "Close raffle",
+				"trans": "추첨 종료"
+			},
+			"closeRaffleDescription": {
+				"eng": "Select and announce the winner",
+				"trans": "당첨자를 선정하고 발표합니다"
+			},
+			"graceExpired": {
+				"eng": "Winner selection window expired.",
+				"trans": "당첨자 선정 기간이 만료되었습니다."
+			},
+			"join": {
+				"eng": "Join raffle",
+				"trans": "추첨 참여"
+			},
+			"levelBlocked": {
+				"eng": "Reach level ${level} to join.",
+				"trans": "Lv.${level}에 도달해야 참여 가능합니다.",
+				"vars": [
+					"level"
+				]
+			}
+		},
+		"chatHeader": {
+			"open": {
+				"eng": "Open Community Raffles",
+				"trans": "커뮤니티 추첨 열기"
+			}
+		},
+		"closeRaffle": {
+			"deadline": {
+				"eng": "Winner selection is available after the entry deadline.",
+				"trans": "참가 마감 후 당첨자 선정이 가능합니다."
+			},
+			"notOrganizer": {
+				"eng": "Only this Community Raffle's organizer can select the winner.",
+				"trans": "해당 커뮤니티 추첨의 주최자만 당첨자를 선정할 수 있습니다."
+			},
+			"unavailable": {
+				"eng": "Winner selection is not available for this Community Raffle.",
+				"trans": "해당 커뮤니티 라플에서는 당첨자 선정을 진행할 수 없습니다."
+			}
+		},
+		"create": {
+			"accountLimited": {
+				"eng": "Limited accounts cannot create Community Raffles.",
+				"trans": "제한 계정에서는 커뮤니티 추첨을 생성할 수 없습니다."
+			},
+			"accountLimitedToast": {
+				"eng": "Limited accounts cannot create Community Raffles.",
+				"trans": "제한 계정에서는 커뮤니티 추첨을 생성할 수 없습니다."
+			},
+			"action": {
+				"eng": "Create raffle",
+				"trans": "추첨 생성"
+			},
+			"addEquipment": {
+				"eng": "Attach equipment",
+				"trans": "장비 등록"
+			},
+			"backToEdit": {
+				"eng": "Back to edit",
+				"trans": "편집으로 돌아가기"
+			},
+			"composerCounts": {
+				"eng": "${attachments} / ${maximumAttachments} · ${characters} / ${maximumCharacters}",
+				"trans": "첨부 ${attachments} / ${maximumAttachments} · 글자 수 ${characters} / ${maximumCharacters}",
+				"vars": [
+					"attachments",
+					"maximumAttachments",
+					"characters",
+					"maximumCharacters"
+				]
+			},
+			"confirmAction": {
+				"eng": "Consume 1 Kit and publish",
+				"trans": "킷 1개 소모 및 발행"
+			},
+			"confirmKitCost": {
+				"eng": "Publishing consumes one Community Raffle Kit.",
+				"trans": "발행 시 커뮤니티 추첨 키트 1개가 소모됩니다."
+			},
+			"confirmPermanent": {
+				"eng": "Published settings cannot be edited. Deleting the raffle will not refund the Kit.",
+				"trans": "게시된 설정은 수정할 수 없습니다. 추첨을 삭제해도 킷은 환불되지 않습니다."
+			},
+			"confirmTitle": {
+				"eng": "Publish Community Raffle?",
+				"trans": "커뮤니티 추첨을 공개하시겠습니까?"
+			},
+			"cost": {
+				"eng": "1 Raffle Kit",
+				"trans": "추첨 키트 1개"
+			},
+			"decreaseMinimumLevel": {
+				"eng": "Decrease minimum level by 50",
+				"trans": "최소 레벨 50 감소"
+			},
+			"description": {
+				"eng": "Description (optional)",
+				"trans": "설명 (선택사항)"
+			},
+			"duration": {
+				"eng": "Duration",
+				"trans": "기간"
+			},
+			"durationFourteenDays": {
+				"eng": "14 days",
+				"trans": "14일"
+			},
+			"durationOneDay": {
+				"eng": "1 day",
+				"trans": "1일"
+			},
+			"durationOptionFourteenDays": {
+				"eng": "14D",
+				"trans": "14일"
+			},
+			"durationOptionFourteenDaysAccessible": {
+				"eng": "14 days",
+				"trans": "14일"
+			},
+			"durationOptionOneDay": {
+				"eng": "1D",
+				"trans": "1일"
+			},
+			"durationOptionOneDayAccessible": {
+				"eng": "1 day",
+				"trans": "1일"
+			},
+			"durationOptionSevenDays": {
+				"eng": "7D",
+				"trans": "7일"
+			},
+			"durationOptionSevenDaysAccessible": {
+				"eng": "7 days",
+				"trans": "7일"
+			},
+			"durationOptionThirtyDays": {
+				"eng": "30D",
+				"trans": "30일"
+			},
+			"durationOptionThirtyDaysAccessible": {
+				"eng": "30 days",
+				"trans": "30일"
+			},
+			"durationOptionThreeDays": {
+				"eng": "3D",
+				"trans": "3일"
+			},
+			"durationOptionThreeDaysAccessible": {
+				"eng": "3 days",
+				"trans": "3일"
+			},
+			"durationSevenDays": {
+				"eng": "7 days",
+				"trans": "7일"
+			},
+			"durationThirtyDays": {
+				"eng": "30 days",
+				"trans": "30일"
+			},
+			"durationThreeDays": {
+				"eng": "3 days",
+				"trans": "3일"
+			},
+			"equipment": {
+				"eng": "Equipment snapshot (optional)",
+				"trans": "장비 이미지 (선택 사항)"
+			},
+			"equipmentDeliveryDescription": {
+				"eng": "Attached equipment stays in your inventory and is not sent to the winner. You must deliver it yourself.",
+				"trans": "장착된 장비는 인벤토리에 그대로 유지되며 당첨자에게 발송되지 않습니다. 직접 배송해야 합니다."
+			},
+			"equipmentDeliveryTitle": {
+				"eng": "Equipment delivery is manual",
+				"trans": "장비 전달은 수동입니다"
+			},
+			"equipmentNotOwned": {
+				"eng": "Selected equipment is not owned by this account.",
+				"trans": "선택한 장비는 현재 계정 소유물이 아닙니다."
+			},
+			"equipmentRequired": {
+				"eng": "Only equipment can be attached to a Community Raffle.",
+				"trans": "커뮤니티 추첨에는 장비만 등록할 수 있습니다."
+			},
+			"globalAnnouncement": {
+				"eng": "${creatorName} created a Community ${raffleLink}.",
+				"trans": "${creatorName} 님이 커뮤니티 ${raffleLink}을 생성했습니다.",
+				"vars": [
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"increaseMinimumLevel": {
+				"eng": "Increase minimum level by 50",
+				"trans": "최소 레벨 50 증가"
+			},
+			"kitRequired": {
+				"eng": "You need a Community Raffle Kit to create this raffle.",
+				"trans": "이 추첨을 생성하려면 커뮤니티 추첨 키트가 필요합니다."
+			},
+			"levelRequired": {
+				"eng": "Reach level ${level} to create a Community Raffle.",
+				"trans": "레벨 ${level} 이상이어야 커뮤니티 로퍼를 생성할 수 있습니다.",
+				"vars": [
+					"level"
+				]
+			},
+			"levelRequiredToast": {
+				"eng": "Reach level ${level} to create a Community Raffle.",
+				"trans": "레벨 ${level} 이상이어야 커뮤니티 로퍼를 생성할 수 있습니다.",
+				"vars": [
+					"level"
+				]
+			},
+			"minimumLevel": {
+				"eng": "Minimum level",
+				"trans": "최소 레벨"
+			},
+			"moderationRejected": {
+				"eng": "Automated check found the title or description inappropriate or unrelated to the Community Raffle. Update the title or description, then try again.",
+				"trans": "시스템 자동 검토 결과 제목이나 설명이 부적절하거나 커뮤니티 추첨 주제와 맞지 않습니다. 제목이나 설명을 수정한 후 다시 시도해 주세요."
+			},
+			"moderationUnavailable": {
+				"eng": "Automated check is temporarily unavailable. Try again in a moment.",
+				"trans": "자동 심사 시스템이 일시적으로 사용 불가합니다. 잠시 후 다시 시도해 주세요."
+			},
+			"noDescription": {
+				"eng": "None",
+				"trans": "없음"
+			},
+			"noEquipment": {
+				"eng": "None",
+				"trans": "없음"
+			},
+			"pageTitle": {
+				"eng": "Create Community Raffle",
+				"trans": "커뮤니티 추첨 생성"
+			},
+			"removeEquipmentSnapshot": {
+				"eng": "Remove equipment snapshot",
+				"trans": "장비 스냅샷 삭제"
+			},
+			"review": {
+				"eng": "Review raffle",
+				"trans": "추첨 확인"
+			},
+			"selectEquipment": {
+				"eng": "Select equipment snapshot",
+				"trans": "장비 구성 선택"
+			},
+			"title": {
+				"eng": "Title",
+				"trans": "제목"
+			},
+			"titleCount": {
+				"eng": "${current} / ${maximum}",
+				"trans": "${current}개 / 최대 ${maximum}개",
+				"vars": [
+					"current",
+					"maximum"
+				]
+			},
+			"titleLength": {
+				"eng": "Title must be ${minimum}–${maximum} characters.",
+				"trans": "제목은 최소 ${minimum}자에서 최대 ${maximum}자 사이여야 합니다.",
+				"vars": [
+					"minimum",
+					"maximum"
+				]
+			},
+			"titleRequired": {
+				"eng": "Enter a title.",
+				"trans": "제목을 입력하세요"
+			}
+		},
+		"delete": {
+			"action": {
+				"eng": "Delete raffle",
+				"trans": "추첨 삭제"
+			},
+			"confirmAction": {
+				"eng": "Delete permanently",
+				"trans": "영구 삭제"
+			},
+			"confirmTitle": {
+				"eng": "Delete Community Raffle?",
+				"trans": "커뮤니티 추첨을 삭제하시겠습니까?"
+			},
+			"creatorMail": {
+				"body": {
+					"eng": "Moderator ${moderatorName} deleted your Community Raffle: ${title}",
+					"trans": "운영자 ${moderatorName}님이 ${title} 커뮤니티 추첨 이벤트를 삭제했습니다",
+					"vars": [
+						"moderatorName",
+						"title"
+					]
+				}
+			},
+			"creatorSuccess": {
+				"eng": "You deleted your Community Raffle.",
+				"trans": "커뮤니티 추첨이 삭제되었습니다."
+			},
+			"creatorWarning": {
+				"eng": "This permanently removes your raffle and cannot be undone. The Community Raffle Kit will not be refunded.",
+				"trans": "이 추첨은 영구적으로 삭제되며 되돌릴 수 없습니다. 커뮤니티 추첨 키트는 반환되지 않습니다."
+			},
+			"moderatorMail": {
+				"body": {
+					"eng": "You deleted ${creatorName}'s Community Raffle: ${title}",
+					"trans": "당신은 ${creatorName}의 커뮤니티 추첨 ${title}을 삭제했습니다",
+					"vars": [
+						"creatorName",
+						"title"
+					]
+				}
+			},
+			"moderatorWarning": {
+				"eng": "This permanently removes ${creator}'s raffle. They will be notified by mail.",
+				"trans": "이 작업은 ${creator}님의 추첨 이벤트를 영구적으로 삭제합니다. 해당 사용자에게 메일로 통보됩니다.",
+				"vars": [
+					"creator"
+				]
+			}
+		},
+		"delivery": {
+			"creatorNoWinnerMail": {
+				"eng": "Your Community ${raffleLink} “${title}” is complete. No eligible winner remained.",
+				"trans": "커뮤니티 ${raffleLink} “${title}” 추첨이 완료되었습니다. 유효한 당첨자는 없습니다.",
+				"vars": [
+					"title",
+					"raffleLink"
+				]
+			},
+			"creatorWinnerMail": {
+				"eng": "Your Community ${raffleLink} “${title}” is complete. Winner: ${winnerName}.",
+				"trans": "커뮤니티 ${raffleLink} “${title}” 추첨이 완료되었습니다. 당첨자: ${winnerName}.",
+				"vars": [
+					"title",
+					"winnerName",
+					"raffleLink"
+				]
+			},
+			"globalAnnouncement": {
+				"eng": "🎉 ${winnerName} won a Community ${raffleLink}!",
+				"trans": "🎉 ${winnerName} 님이 커뮤니티 ${raffleLink}에 당첨되었습니다!",
+				"vars": [
+					"winnerName",
+					"raffleLink"
+				]
+			},
+			"winnerMail": {
+				"eng": "You won the Community ${raffleLink} “${title}”.",
+				"trans": "커뮤니티 ${raffleLink}에서 “${title}” 당첨되셨습니다.",
+				"vars": [
+					"title",
+					"raffleLink"
+				]
+			}
+		},
+		"detail": {
+			"abandonedState": {
+				"eng": "Winner selection was not completed within the seven-day window.",
+				"trans": "당첨자 선정이 7일 이내에 완료되지 않았습니다."
+			},
+			"attachments": {
+				"eng": "Attachments",
+				"trans": "첨부 파일"
+			},
+			"closed": {
+				"eng": "Closed",
+				"trans": "마감"
+			},
+			"closesLabel": {
+				"eng": "Closes in",
+				"trans": "종료까지"
+			},
+			"entrantList": {
+				"eng": "Entrants",
+				"trans": "참가자"
+			},
+			"hostLabel": {
+				"eng": "Host",
+				"trans": "주최자"
+			},
+			"levelShort": {
+				"eng": "LV ${level}+",
+				"trans": "Lv. ${level}+",
+				"vars": [
+					"level"
+				]
+			},
+			"minimumLevel": {
+				"eng": "Minimum level",
+				"trans": "최소 레벨"
+			},
+			"noEntrants": {
+				"eng": "No entries yet.",
+				"trans": "아직 응모자가 없습니다."
+			},
+			"notFound": {
+				"eng": "We cannot find this raffle.",
+				"trans": "해당 추첨을 찾을 수 없습니다."
+			},
+			"refresh": {
+				"eng": "Refresh raffle details",
+				"trans": "추첨 상세 정보 새로 고침"
+			},
+			"selectedWinner": {
+				"eng": "Winner",
+				"trans": "당첨자"
+			},
+			"statusLabel": {
+				"eng": "Status",
+				"trans": "상태"
+			},
+			"unavailable": {
+				"eng": "Community Raffle unavailable",
+				"trans": "커뮤니티 추첨 이용 불가"
+			},
+			"winnerMarker": {
+				"eng": "Winner",
+				"trans": "당첨자"
+			}
+		},
+		"empty": {
+			"description": {
+				"eng": "Active and past raffles will appear here.",
+				"trans": "진행 중 및 완료된 추첨 결과가 이곳에 표시됩니다."
+			},
+			"title": {
+				"eng": "No Community Raffles yet",
+				"trans": "아직 커뮤니티 추첨이 없습니다"
+			}
+		},
+		"error": {
+			"notFound": {
+				"eng": "Community Raffle not found.",
+				"trans": "커뮤니티 추첨을 찾을 수 없습니다."
+			}
+		},
+		"join": {
+			"accountLimited": {
+				"eng": "Limited accounts cannot join Community Raffles.",
+				"trans": "제한 계정은 커뮤니티 추첨에 참여할 수 없습니다."
+			},
+			"alreadyJoined": {
+				"eng": "You already joined this Community Raffle.",
+				"trans": "이미 이 커뮤니티 추첨에 참여하셨습니다."
+			},
+			"associatedEntry": {
+				"eng": "An associated account already entered this Community Raffle.",
+				"trans": "연계된 계정이 이미 이 커뮤니티 추첨에 참가했습니다."
+			},
+			"closed": {
+				"eng": "This Community Raffle is no longer open for entry.",
+				"trans": "커뮤니티 추첨에 더 이상 참여할 수 없습니다."
+			},
+			"creatorMail": {
+				"eng": "${playerName} has joined your ${raffleLink}. Total entrants: ${totalEntrants}.",
+				"trans": "${playerName}님이 ${raffleLink}에 참여했습니다. 총 참가자 수: ${totalEntrants}명",
+				"vars": [
+					"playerName",
+					"raffleLink",
+					"totalEntrants"
+				]
+			},
+			"creatorMailOthers": {
+				"eng": "${playerName} and ${otherCount} more have joined your ${raffleLink}. Total entrants: ${totalEntrants}.",
+				"trans": "${playerName}을(를) 비롯해 ${otherCount}명께서 ${raffleLink}에 참가했습니다. 총 참가자 수: ${totalEntrants}",
+				"vars": [
+					"playerName",
+					"otherCount",
+					"raffleLink",
+					"totalEntrants"
+				]
+			},
+			"globalAnnouncement": {
+				"eng": "${playerName} has joined ${creatorName}'s ${raffleLink}.",
+				"trans": "${playerName}님이 ${creatorName}의 ${raffleLink}에 참여했습니다.",
+				"vars": [
+					"playerName",
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"globalAnnouncementOthers": {
+				"eng": "${playerName} and ${otherCount} more have joined ${creatorName}'s ${raffleLink}.",
+				"trans": "${playerName} 님 외 ${otherCount}명이 ${creatorName}님의 ${raffleLink}에 참여했습니다.",
+				"vars": [
+					"playerName",
+					"otherCount",
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"levelRequired": {
+				"eng": "Reach level ${level} to join this Community Raffle.",
+				"trans": "참여하려면 레벨 ${level} 이상이어야 합니다.",
+				"vars": [
+					"level"
+				]
+			},
+			"organizer": {
+				"eng": "You cannot join your own Community Raffle.",
+				"trans": "자신이 생성한 커뮤니티 추첨에는 참여할 수 없습니다."
+			}
+		},
+		"loadError": {
+			"title": {
+				"eng": "Raffle list unavailable",
+				"trans": "추첨 목록 이용 불가"
+			}
+		},
+		"raffleLink": {
+			"eng": "Raffle",
+			"trans": "추첨"
+		},
+		"refresh": {
+			"eng": "Refresh raffle list",
+			"trans": "추첨 목록 새로고침"
+		},
+		"row": {
+			"awaitingOrganizer": {
+				"eng": "Awaiting organizer",
+				"trans": "주최자 확인 대기 중"
+			},
+			"closedLabel": {
+				"eng": "Closed",
+				"trans": "마감"
+			},
+			"closesLabel": {
+				"eng": "Closes in",
+				"trans": "종료까지"
+			},
+			"entriesLabel": {
+				"eng": "Entries",
+				"trans": "응모 횟수"
+			},
+			"hostLabel": {
+				"eng": "Host",
+				"trans": "주최자"
+			},
+			"levelShort": {
+				"eng": "LV ${level}+",
+				"trans": "Lv. ${level}+",
+				"vars": [
+					"level"
+				]
+			},
+			"resultLabel": {
+				"eng": "Result",
+				"trans": "결과"
+			}
+		},
+		"status": {
+			"abandoned": {
+				"eng": "Abandoned",
+				"trans": "참여 중단"
+			},
+			"awaitingOrganizer": {
+				"eng": "Awaiting organizer",
+				"trans": "주최자 확인 대기 중"
+			},
+			"completed": {
+				"eng": "Completed",
+				"trans": "완료"
+			},
+			"open": {
+				"eng": "Open",
+				"trans": "오픈"
+			}
+		},
+		"title": {
+			"eng": "Community Raffles",
+			"trans": "커뮤니티 추첨"
+		},
+		"tutorial": {
+			"description": {
+				"eng": "Create, join, and select a winner.",
+				"trans": "생성하고 참여하여 당첨자를 선정하세요."
+			},
+			"title": {
+				"eng": "How Community Raffles work",
+				"trans": "커뮤니티 추첨 작동 방식"
+			}
+		},
+		"validation": {
+			"request": {
+				"eng": "Invalid Community Raffle request.",
+				"trans": "유효하지 않은 커뮤니티 추첨 요청입니다."
+			}
 		}
 	},
 	"component": {
@@ -2452,6 +3073,10 @@
 			"eng": "Vice Heat",
 			"trans": "바이스 히트"
 		},
+		"donation55": {
+			"eng": "Black Press",
+			"trans": "블랙프레스"
+		},
 		"donation6": {
 			"eng": "Prestige",
 			"trans": "프레스티지"
@@ -3002,6 +3627,28 @@
 				"item",
 				"npcName"
 			]
+		}
+	},
+	"emblem": {
+		"showcase": {
+			"error": {
+				"emblemRequired": {
+					"eng": "Emblem is required",
+					"trans": "인징이 필요합니다"
+				},
+				"invalidEmblem": {
+					"eng": "Invalid emblem type",
+					"trans": "지원되지 않는 엠블럼 유형입니다"
+				},
+				"invalidSlot": {
+					"eng": "Invalid emblem showcase slot",
+					"trans": "사용할 수 없는 엠블럼 쇼케이스 슬롯"
+				},
+				"notOwned": {
+					"eng": "You don't own this emblem",
+					"trans": "이 엠블럼을 보유하고 있지 않습니다"
+				}
+			}
 		}
 	},
 	"emblems": {
@@ -5019,6 +5666,16 @@
 				"trans": "보급 상자 [갱]"
 			}
 		},
+		"communityRaffleKit": {
+			"description": {
+				"eng": "A deployable kit for creating one public Community Raffle. Consumed when the raffle is published.",
+				"trans": "공개 커뮤니티 추첨 생성용 키트입니다. 추첨 개설 시 소모됩니다."
+			},
+			"name": {
+				"eng": "Community Raffle Kit",
+				"trans": "커뮤니티 추첨 키트"
+			}
+		},
 		"creatine": {
 			"description": {
 				"eng": "Push past your limits and grind like a machine--When consumed, increase damage dealt by ${percent}% for ${minutes} minutes",
@@ -5620,6 +6277,19 @@
 			"name": {
 				"eng": "Medical Tech Parts",
 				"trans": "[부품] 의료 공학 조각"
+			}
+		},
+		"mentorSkipVoucher": {
+			"description": {
+				"eng": "An evergreen voucher earned by helping a new runner reach level 50. It automatically applies a ${discountPercent}% Global Skip discount.",
+				"trans": "신규 러너를 레벨 50까지 육성해 획득한 영구 유효 쿠폰입니다. 글로벌 스킵 사용 시 자동으로 ${discountPercent}% 할인이 적용됩니다.",
+				"vars": [
+					"discountPercent"
+				]
+			},
+			"name": {
+				"eng": "Handler Skip Voucher",
+				"trans": "핸들러 스킵 바우처"
 			}
 		},
 		"missileCommandPass": {
@@ -6329,6 +6999,13 @@
 		}
 	},
 	"itemInbox": {
+		"movedToInventory": {
+			"eng": "${item} has been moved from your item inbox to your inventory automatically",
+			"trans": "수취함에 있는 ${item}이 인베텐티로 자동 이동되었습니다",
+			"vars": [
+				"item"
+			]
+		},
 		"notifySender": {
 			"eng": "${recipient} has retrived your gift items (${itemNames}) from their inbox into their inventory.",
 			"trans": "${recipient}님이 당신이 보낸 아이템(${itemNames})을 수령했습니다.",
@@ -6395,6 +7072,43 @@
 		"title": {
 			"eng": "Rename History",
 			"trans": "이름 변경 기록"
+		}
+	},
+	"itemSource": {
+		"drop": {
+			"dungeons": {
+				"eng": "Dungeons",
+				"trans": "던전"
+			},
+			"enemies": {
+				"eng": "Enemies",
+				"trans": "적"
+			},
+			"lootBoxes": {
+				"eng": "Loot boxes",
+				"trans": "루트박스"
+			},
+			"reclamationTier": {
+				"eng": "Drop on ${tier}",
+				"trans": "${tier}에 투입",
+				"vars": [
+					"tier"
+				]
+			}
+		}
+	},
+	"itemSourceModal": {
+		"description": {
+			"eng": "You can get this item from:",
+			"trans": "이 아이템을 얻을 수 있는 곳:"
+		},
+		"empty": {
+			"eng": "No current sources found.",
+			"trans": "현재 획득처가 없습니다."
+		},
+		"title": {
+			"eng": "Item sources",
+			"trans": "아이템 출처"
 		}
 	},
 	"itemStack": {
@@ -7125,6 +7839,10 @@
 		"streetcred": {
 			"eng": "Street Cred",
 			"trans": "명성"
+		},
+		"topHandlers": {
+			"eng": "Top Handlers",
+			"trans": "상위 핸들러"
 		}
 	},
 	"leaderboardTypePage": {
@@ -8154,6 +8872,106 @@
 			"trans": "미사일 커맨드"
 		}
 	},
+	"mentorship": {
+		"completion": {
+			"handlerMail": {
+				"eng": "${runnerName} reached level ${completionLevel} and passed verification. Your Handler rewards were delivered.",
+				"trans": "${runnerName}이(가) 레벨 ${completionLevel}에 도달하고 검증을 통과했습니다. 핸들러 보상이 지급되었습니다.",
+				"vars": [
+					"runnerName",
+					"completionLevel"
+				]
+			}
+		},
+		"confirm": {
+			"currentHandler": {
+				"eng": "Current Handler",
+				"trans": "현재 담당자"
+			},
+			"endPermanently": {
+				"eng": "End permanently",
+				"trans": "영구 종료"
+			},
+			"endPurpose": {
+				"eng": "End your mentorship with this Handler.",
+				"trans": "이 핸들러와의 멘토십을 종료합니다"
+			},
+			"endTitle": {
+				"eng": "End mentorship",
+				"trans": "멘토링 종료"
+			},
+			"endWarning": {
+				"eng": "This is permanent. You cannot choose another Handler.",
+				"trans": "이 결정은 영구 확정됩니다. 이후에는 다른 핸들러를 선택할 수 없습니다."
+			},
+			"mentorDetails": {
+				"eng": "${name} — Level ${level}",
+				"trans": "${name} Lv.${level}",
+				"vars": [
+					"name",
+					"level"
+				]
+			},
+			"selectPermanently": {
+				"eng": "Choose permanently",
+				"trans": "영구 선택"
+			},
+			"selectPurpose": {
+				"eng": "Choose a Handler to guide your early progression.",
+				"trans": "초반 진행을 이끌 핸들러를 선택하세요."
+			},
+			"selectTitle": {
+				"eng": "Choose Handler",
+				"trans": "핸들러 선택"
+			},
+			"selectWarning": {
+				"eng": "Choose only someone who has greatly helped you learn the game. Never choose a Handler for trades, items, or other favors. You cannot choose another Handler later, even if you end the mentorship.",
+				"trans": "게임을 익히는 데 실질적인 도움을 줄 수 있는 상대만 선택하십시오. 거래나 아이템, 기타 편의를 위해 핸들러를 지정하지 마십시오. 멘토십을 종료하더라도 이후 다른 핸들러를 선택할 수는 없습니다."
+			}
+		},
+		"revoke": {
+			"invalid": {
+				"eng": "This mentorship can no longer be ended.",
+				"trans": "이 멘토링은 더 이상 종료할 수 없습니다."
+			}
+		},
+		"select": {
+			"handlerMail": {
+				"eng": "${runnerName} chose you as their Handler. Their mentorship will complete if they reach level ${completionLevel} and pass system verification.",
+				"trans": "${runnerName}(이)가 핸들러로 당신을 선택했습니다. 멘토링은 해당 러너의 레벨 ${completionLevel} 달성 및 시스템 검증 통과 시 완료됩니다.",
+				"vars": [
+					"runnerName",
+					"completionLevel"
+				]
+			},
+			"ineligible": {
+				"eng": "This Handler selection is not eligible.",
+				"trans": "현재 선택한 핸들러는 조건을 충족하지 않습니다."
+			}
+		}
+	},
+	"mentorshipAssignmentsPage": {
+		"empty": {
+			"eng": "No runners are currently assigned to you.",
+			"trans": "현재 배정된 러너가 없습니다."
+		},
+		"loadFailed": {
+			"eng": "Mentoring runners failed to load.",
+			"trans": "멘토링 런너 로딩에 실패했습니다."
+		},
+		"loading": {
+			"eng": "Loading mentoring runners...",
+			"trans": "멘토링 러너 로딩 중..."
+		},
+		"private": {
+			"eng": "Private — only you can see this",
+			"trans": "비공개 — 오직 본인만 볼 수 있습니다"
+		},
+		"title": {
+			"eng": "Mentoring Runners",
+			"trans": "러너 멘토링"
+		}
+	},
 	"messageImage": {
 		"hideImage": {
 			"eng": "Hide Image",
@@ -8249,6 +9067,91 @@
 					"eng": "BREACH SUCCESS",
 					"trans": "돌파 성공"
 				}
+			}
+		},
+		"orderSync": {
+			"board": {
+				"summary": {
+					"eng": "Sorting minigame. Arrange the bars from smallest to largest, left to right within the move budget. Drag a bar to reposition it, or tap two bars to swap them.",
+					"trans": "정렬 미니게임입니다. 주어진 이동 횟수 내에서 작은 막대부터 큰 막대 순서로 왼쪽에서 오른쪽에 배치하세요. 막대를 드래그해 재배치하거나, 두 개의 막대를 연속으로 눌러 순서를 바꿔주세요."
+				}
+			},
+			"fail": {
+				"description": {
+					"eng": "Sort the row before you run out of moves.",
+					"trans": "이동 횟수 내에서 행 정렬을 완료하세요."
+				},
+				"retry": {
+					"eng": "Retry",
+					"trans": "재시도"
+				},
+				"status": {
+					"eng": "ORDER REJECTED",
+					"trans": "주문 거부"
+				},
+				"title": {
+					"eng": "Out of moves",
+					"trans": "턴 소진"
+				}
+			},
+			"instruction": {
+				"eng": "Sort small to big, left to right. Drag a bar to move it, or tap two to swap.",
+				"trans": "작은 것부터 큰 순서대로 왼쪽에서 오른쪽으로 정렬하세요. 막대를 드래그해 이동하거나 두 개를 탭하면 서로 위치가 바뀝니다."
+			},
+			"item": {
+				"aria": {
+					"eng": "Bar, value ${value}",
+					"trans": "바 값 ${value}",
+					"vars": [
+						"value"
+					]
+				}
+			},
+			"scale": {
+				"high": {
+					"eng": "HIGH",
+					"trans": "높음"
+				},
+				"label": {
+					"eng": "SIGNAL MAGNITUDE",
+					"trans": "신호 강도"
+				},
+				"low": {
+					"eng": "LOW",
+					"trans": "낮음"
+				}
+			},
+			"status": {
+				"failed": {
+					"eng": "FAILED",
+					"trans": "실패"
+				},
+				"locked": {
+					"eng": "SORTED",
+					"trans": "정렬 완료"
+				},
+				"moves": {
+					"eng": "MOVES ${count}/${max}",
+					"trans": "이동 ${count}/${max}",
+					"vars": [
+						"count",
+						"max"
+					]
+				}
+			},
+			"success": {
+				"status": {
+					"eng": "ORDER VALIDATED",
+					"trans": "주문 검증 완료"
+				},
+				"title": {
+					"eng": "Sequence sorted",
+					"trans": "시퀀스 정렬 완료"
+				}
+			},
+			"title": {
+				"eng": "Order Sync",
+				"trans": "주문 동기화"
 			}
 		},
 		"relayGrid": {
@@ -11574,6 +12477,65 @@
 				"vars": [
 					"count"
 				]
+			}
+		},
+		"mentorship": {
+			"currentReward": {
+				"eng": "Reward per verified player",
+				"trans": "인증 완료 플레이어 1인당 보상"
+			},
+			"endMentorship": {
+				"eng": "End mentorship",
+				"trans": "멘토링 종료"
+			},
+			"futureHandlerHint": {
+				"eng": "At level ${handlerLevel}, you can also become a Handler, guide eligible new players, and earn rewards.",
+				"trans": "${handlerLevel} 레벨에 도달하면 핸들러가 되어 자격을 갖춘 신규 플레이자를 안내하고 보상을 획득할 수 있습니다.",
+				"vars": [
+					"handlerLevel"
+				]
+			},
+			"handler": {
+				"eng": "Handler",
+				"trans": "담당자"
+			},
+			"handlerHint": {
+				"eng": "You can now guide eligible new players as a Handler. They can choose you from your profile. Verified mentorships increase your public total and grant the reward below.",
+				"trans": "이제 핸들러로서 자격을 갖춘 신규 플레이어를 가이드할 수 있습니다. 다른 플레이어는 내 프로필에서 나를 선택할 수 있으며, 인증된 멘토링은 공개 평점을 높이고 아래 보상을 지급합니다."
+			},
+			"handlerLoadFailed": {
+				"eng": "Handler load failed.",
+				"trans": "핸들러 로딩 실패"
+			},
+			"loadingHandler": {
+				"eng": "Loading Handler...",
+				"trans": "로딩 중..."
+			},
+			"private": {
+				"eng": "Private — only you can see this",
+				"trans": "비공개 — 오직 본인만 볼 수 있습니다"
+			},
+			"selectionEndedHint": {
+				"eng": "Your opportunity to choose a Handler ended after level ${maxLevel}. New players can choose one from level ${minLevel} to ${maxLevel} if their account is no more than ${maxAgeDays} days old. At level ${handlerLevel}, you can become a Handler, guide eligible new players, and earn rewards.",
+				"trans": "${maxLevel} 레벨 초과 시 핸들러 지정 기회가 종료됩니다. 계정 생성일 기준 ${maxAgeDays}일 이내이며 레벨이 ${minLevel}부터 ${maxLevel}까지인 신규 플레이어는 핸들러를 한 분 선택할 수 있습니다. ${handlerLevel} 레벨에 도달하면 자격을 갖춘 신규 플레이어를 지도하는 핸들러가 되어 보상을 획득하실 수 있습니다.",
+				"vars": [
+					"minLevel",
+					"maxLevel",
+					"maxAgeDays",
+					"handlerLevel"
+				]
+			},
+			"title": {
+				"eng": "Mentorship",
+				"trans": "멘토링"
+			},
+			"unknownHandler": {
+				"eng": "Unknown Handler",
+				"trans": "알 수 없는 처리기"
+			},
+			"viewMentoringRunners": {
+				"eng": "View Mentoring Runners",
+				"trans": "멘토링 러너 보기"
 			}
 		},
 		"pets": {
@@ -15381,6 +16343,10 @@
 				"eng": "Block List",
 				"trans": "차단 목록"
 			},
+			"communityRaffle": {
+				"eng": "Community Raffles",
+				"trans": "커뮤니티 추첨"
+			},
 			"coupon": {
 				"eng": "Claim Coupon",
 				"trans": "쿠폰 입력"
@@ -15735,9 +16701,17 @@
 				}
 			},
 			"skippingBuff": {
-				"title": {
-					"eng": "Skip buff sponsored by:",
-					"trans": "스킵을 사용한 플레이어:"
+				"dismiss": {
+					"eng": "Dismiss Global Skip banner",
+					"trans": "전역 스킵 배너 닫기"
+				},
+				"info": {
+					"eng": "Global Skip info",
+					"trans": "전역 스킵 정보"
+				},
+				"sponsor": {
+					"eng": "Global Skip by",
+					"trans": "전역 스킵 후원"
 				}
 			}
 		},
@@ -16552,6 +17526,23 @@
 				"eng": "Equip",
 				"trans": "장착"
 			},
+			"eventGamePass": {
+				"visitNpc": {
+					"eng": "Go to ${npcName}",
+					"trans": "${npcName} 찾아가기",
+					"vars": [
+						"npcName"
+					]
+				},
+				"visitNpcDescription": {
+					"eng": "Bring this pass to ${personName} to play ${gameName}.",
+					"trans": "이 패스를 ${personName}에게 가져가서 ${gameName}을 즐기세요.",
+					"vars": [
+						"personName",
+						"gameName"
+					]
+				}
+			},
 			"history": {
 				"eng": "History",
 				"trans": "이력"
@@ -16679,6 +17670,10 @@
 			"getAllItems": {
 				"eng": "Get All Items",
 				"trans": "모두 받기"
+			},
+			"noExpiry": {
+				"eng": "Does not expire",
+				"trans": "만료 기한 없음"
 			},
 			"title": {
 				"eng": "Item Inbox",
@@ -16864,6 +17859,12 @@
 			"travel": {
 				"eng": "Travel",
 				"trans": "여행"
+			}
+		},
+		"markdown": {
+			"error": {
+				"eng": "Content unavailable. Check your connection and retry.",
+				"trans": "콘텐츠에 접근할 수 없습니다. 네트워크 연결을 확인하고 다시 시도해 주세요."
 			}
 		},
 		"market": {
@@ -17203,6 +18204,92 @@
 				"eng": "Property of SLPD",
 				"trans": "SLPD 부처에서 발행함"
 			},
+			"emblemShowcase": {
+				"addSlot": {
+					"eng": "Add emblem to slot ${slot}",
+					"trans": "슬롯 ${slot}에 엠블럼 배치",
+					"vars": [
+						"slot"
+					]
+				},
+				"chooseEmblemByOption": {
+					"eng": "Select emblem option ${option} for slot ${slot}",
+					"trans": "슬롯 ${slot}에 ${option} 엠블럼 옵션 선택",
+					"vars": [
+						"option",
+						"slot"
+					]
+				},
+				"clearSlot": {
+					"eng": "Remove emblem from slot ${slot}",
+					"trans": "슬롯 ${slot}에서 엠블럼 제거",
+					"vars": [
+						"slot"
+					]
+				},
+				"closePicker": {
+					"eng": "Close emblem picker",
+					"trans": "엠블럼 선택창 닫기"
+				},
+				"confirmSelection": {
+					"eng": "Confirm Selection",
+					"trans": "선택 확정"
+				},
+				"editSlot": {
+					"eng": "Change emblem in slot ${slot}",
+					"trans": "슬롯 ${slot} 엠블럼 변경",
+					"vars": [
+						"slot"
+					]
+				},
+				"emblemLabelBySlot": {
+					"eng": "Showcase emblem in slot ${slot}",
+					"trans": "Slot ${slot}에 엠블럼 전시",
+					"vars": [
+						"slot"
+					]
+				},
+				"pickerInstruction": {
+					"eng": "Select an emblem for slot ${slot}, then confirm.",
+					"trans": "슬롯 ${slot}에 엠블럼을 선택한 뒤 확인하세요.",
+					"vars": [
+						"slot"
+					]
+				},
+				"pickerTitle": {
+					"eng": "Choose Emblem",
+					"trans": "엠블럼 선택"
+				},
+				"playAudioBySlot": {
+					"eng": "Play audio for emblem in slot ${slot}",
+					"trans": "슬롯 ${slot} 엠블럼 오디오 재생",
+					"vars": [
+						"slot"
+					]
+				},
+				"remove": {
+					"eng": "Remove",
+					"trans": "제거"
+				},
+				"removeConfirmationTitle": {
+					"eng": "Remove emblem from slot ${slot}?",
+					"trans": "슬롯 ${slot}에서 엠블럼을 제거하시겠습니까?",
+					"vars": [
+						"slot"
+					]
+				},
+				"slotMarker": {
+					"eng": "Slot ${slot}",
+					"trans": "슬롯 ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"title": {
+					"eng": "pinned emblems",
+					"trans": "고정 엠블럼"
+				}
+			},
 			"gangAction": {
 				"editPermissions": {
 					"eng": "Permissions",
@@ -17277,6 +18364,10 @@
 				"block": {
 					"eng": "Block Player",
 					"trans": "해당 플레이어 차단하기"
+				},
+				"chooseHandler": {
+					"eng": "Choose as Handler",
+					"trans": "담당자로 선택"
 				},
 				"giveStreetCred": {
 					"eng": "Give Street Cred",
@@ -17804,6 +18895,16 @@
 					"trans": "엠블럼 목록 숨기기"
 				}
 			},
+			"privateHandler": {
+				"description": {
+					"eng": "Hide your Handler from other players",
+					"trans": "다른 플레이어에게 내 핸들러 숨기기"
+				},
+				"title": {
+					"eng": "Hide my Handler",
+					"trans": "내 핸들러 숨기기"
+				}
+			},
 			"promoOnlyShowWhenUpdate": {
 				"description": {
 					"eng": "Only show promo popup when there is a new event",
@@ -18068,6 +19169,10 @@
 				"eng": "combat",
 				"trans": "전투"
 			},
+			"communityRaffles": {
+				"eng": "Community Raffles",
+				"trans": "커뮤니티 추첨"
+			},
 			"dataFortress": {
 				"eng": "SL-Data Fortress",
 				"trans": "SL-데이터 요새"
@@ -18099,6 +19204,10 @@
 			"furniture": {
 				"eng": "Furniture",
 				"trans": "가구"
+			},
+			"handlers": {
+				"eng": "Handlers",
+				"trans": "핸들러"
 			},
 			"inventory": {
 				"eng": "inventory",
@@ -18151,6 +19260,74 @@
 			"timeSkip": {
 				"eng": "time skip",
 				"trans": "시간 스킵"
+			}
+		},
+		"tutorialSearch": {
+			"clear": {
+				"eng": "Clear search",
+				"trans": "검색어 삭제"
+			},
+			"close": {
+				"eng": "Close tutorial search",
+				"trans": "튜토리얼 검색 닫기"
+			},
+			"error": {
+				"eng": "Tutorial search is unavailable. Check your connection and retry.",
+				"trans": "튜토리얼 검색 서비스를 이용할 수 없습니다. 네트워크 연결을 확인한 후 다시 시도해 주세요."
+			},
+			"label": {
+				"eng": "Tutorial Search",
+				"trans": "튜토리얼 검색"
+			},
+			"loading": {
+				"eng": "Indexing tutorials...",
+				"trans": "튜토리얼 인덱싱 중..."
+			},
+			"matchEnglishSectionLabel": {
+				"eng": "English section",
+				"trans": "영문 섹션"
+			},
+			"matchEnglishTitleLabel": {
+				"eng": "English title",
+				"trans": "영문 제목"
+			},
+			"matchSectionLabel": {
+				"eng": "Section",
+				"trans": "섹션"
+			},
+			"matchTitle": {
+				"eng": "Title match",
+				"trans": "제목 일치"
+			},
+			"noResults": {
+				"eng": "No tutorial results for \"${query}\"",
+				"trans": "\"${query}\"에 대한 튜토리얼을 찾지 못했습니다",
+				"vars": [
+					"query"
+				]
+			},
+			"partial": {
+				"eng": "Some tutorials could not be indexed.",
+				"trans": "일부 튜토리얼은 검색 결과에 포함되지 않았습니다."
+			},
+			"placeholder": {
+				"eng": "Search tutorials...",
+				"trans": "튜토리얼 검색"
+			},
+			"ready": {
+				"eng": "Search tutorial titles, sections, and content.",
+				"trans": "튜토리얼 제목, 섹션, 내용 검색"
+			},
+			"resultCount": {
+				"eng": "${count} results",
+				"trans": "결과 ${count}개",
+				"vars": [
+					"count"
+				]
+			},
+			"resultCountOne": {
+				"eng": "1 result",
+				"trans": "검색 결과 1개"
 			}
 		},
 		"unit": {

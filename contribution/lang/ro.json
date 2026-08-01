@@ -965,6 +965,13 @@
 				}
 			}
 		},
+		"discount": {
+			"eng": "${percent}% off",
+			"trans": "${percent}% reducere",
+			"vars": [
+				"percent"
+			]
+		},
 		"free": {
 			"eng": "Free",
 			"trans": "Liber"
@@ -974,6 +981,10 @@
 				"eng": "Free Personal Skip",
 				"trans": "Skip personal gratuit"
 			}
+		},
+		"notAvailable": {
+			"eng": "Bundle not available",
+			"trans": "Pachet indisponibil"
 		},
 		"rareEquipmentCrate": {
 			"name": {
@@ -991,6 +1002,12 @@
 			"name": {
 				"eng": "Skip supply bundle",
 				"trans": "Skip Supply Bundle"
+			}
+		},
+		"summerNightsFragmentFusion": {
+			"name": {
+				"eng": "Summer Nights Fusion Bundle",
+				"trans": "Pachet Fuziune Nopți de Vară"
 			}
 		}
 	},
@@ -1306,12 +1323,6 @@
 		"offRotation": {
 			"eng": "Out of rotation",
 			"trans": "Nu mai în rotație"
-		}
-	},
-	"chatHeader": {
-		"skipAvailable": {
-			"eng": "Available",
-			"trans": "Disponibil"
 		}
 	},
 	"chatInput": {
@@ -1796,6 +1807,14 @@
 			"eng": "Got it",
 			"trans": "Înțeles"
 		},
+		"keep": {
+			"eng": "Keep raffle",
+			"trans": "Păstrează loteria"
+		},
+		"loading": {
+			"eng": "Loading",
+			"trans": "Se încarcă"
+		},
 		"max": {
 			"eng": "MAX",
 			"trans": "MAX"
@@ -1809,7 +1828,7 @@
 			"trans": "Cumpără"
 		},
 		"retry": {
-			"eng": "RETRY CONNECTION",
+			"eng": "Retry",
 			"trans": "RECONECTARE"
 		},
 		"save": {
@@ -1819,6 +1838,608 @@
 		"warning": {
 			"eng": "Warning",
 			"trans": "Avertisment"
+		}
+	},
+	"communityRaffle": {
+		"action": {
+			"accountBlocked": {
+				"eng": "Limited accounts cannot join Community Raffles.",
+				"trans": "Conturile limitate nu pot participa la Loteriile Comunitare."
+			},
+			"closeRaffle": {
+				"eng": "Close raffle",
+				"trans": "Încheie loteria"
+			},
+			"closeRaffleDescription": {
+				"eng": "Select and announce the winner",
+				"trans": "Selectează și anunță câștigătorul"
+			},
+			"graceExpired": {
+				"eng": "Winner selection window expired.",
+				"trans": "Perioada de selecție a câștigătorilor a expirat."
+			},
+			"join": {
+				"eng": "Join raffle",
+				"trans": "Participă la loterie"
+			},
+			"levelBlocked": {
+				"eng": "Reach level ${level} to join.",
+				"trans": "Nivelul ${level} este necesar pentru a participa.",
+				"vars": [
+					"level"
+				]
+			}
+		},
+		"chatHeader": {
+			"open": {
+				"eng": "Open Community Raffles",
+				"trans": "Deschide Loteriile Comunitare"
+			}
+		},
+		"closeRaffle": {
+			"deadline": {
+				"eng": "Winner selection is available after the entry deadline.",
+				"trans": "Selecția câștigătorilor devine disponibilă după expirarea termenului limită de înscriere."
+			},
+			"notOrganizer": {
+				"eng": "Only this Community Raffle's organizer can select the winner.",
+				"trans": "Doar organizatorul acestei loterii comunitare poate alege câștigătorul."
+			},
+			"unavailable": {
+				"eng": "Winner selection is not available for this Community Raffle.",
+				"trans": "Selecția câștigătorilor nu este disponibilă pentru această raffle comunitară."
+			}
+		},
+		"create": {
+			"accountLimited": {
+				"eng": "Limited accounts cannot create Community Raffles.",
+				"trans": "Conturile limitate nu pot crea loterii comunitare."
+			},
+			"accountLimitedToast": {
+				"eng": "Limited accounts cannot create Community Raffles.",
+				"trans": "Conturile limitate nu pot crea loterii comunitare."
+			},
+			"action": {
+				"eng": "Create raffle",
+				"trans": "Creează raflă"
+			},
+			"addEquipment": {
+				"eng": "Attach equipment",
+				"trans": "Atașează echipament"
+			},
+			"backToEdit": {
+				"eng": "Back to edit",
+				"trans": "Înapoi la editare"
+			},
+			"composerCounts": {
+				"eng": "${attachments} / ${maximumAttachments} · ${characters} / ${maximumCharacters}",
+				"trans": "${attachments} / ${maximumAttachments} · ${characters} / ${maximumCharacters}",
+				"vars": [
+					"attachments",
+					"maximumAttachments",
+					"characters",
+					"maximumCharacters"
+				]
+			},
+			"confirmAction": {
+				"eng": "Consume 1 Kit and publish",
+				"trans": "Consumă 1 kit și publică"
+			},
+			"confirmKitCost": {
+				"eng": "Publishing consumes one Community Raffle Kit.",
+				"trans": "Publicarea consumă un Kit pentru Loteria Comunității."
+			},
+			"confirmPermanent": {
+				"eng": "Published settings cannot be edited. Deleting the raffle will not refund the Kit.",
+				"trans": "Setările publicate nu pot fi modificate. Ștergerea loteriei nu va restitui Kit-ul."
+			},
+			"confirmTitle": {
+				"eng": "Publish Community Raffle?",
+				"trans": "Publică loteria comunitară?"
+			},
+			"cost": {
+				"eng": "1 Raffle Kit",
+				"trans": "1 kit de loterie"
+			},
+			"decreaseMinimumLevel": {
+				"eng": "Decrease minimum level by 50",
+				"trans": "Scade nivelul minim cu 50"
+			},
+			"description": {
+				"eng": "Description (optional)",
+				"trans": "Descriere (opțional)"
+			},
+			"duration": {
+				"eng": "Duration",
+				"trans": "Durata"
+			},
+			"durationFourteenDays": {
+				"eng": "14 days",
+				"trans": "14 zile"
+			},
+			"durationOneDay": {
+				"eng": "1 day",
+				"trans": "1 zi"
+			},
+			"durationOptionFourteenDays": {
+				"eng": "14D",
+				"trans": "14 zile"
+			},
+			"durationOptionFourteenDaysAccessible": {
+				"eng": "14 days",
+				"trans": "14 zile"
+			},
+			"durationOptionOneDay": {
+				"eng": "1D",
+				"trans": "1 zi"
+			},
+			"durationOptionOneDayAccessible": {
+				"eng": "1 day",
+				"trans": "1 zi"
+			},
+			"durationOptionSevenDays": {
+				"eng": "7D",
+				"trans": "7 zile"
+			},
+			"durationOptionSevenDaysAccessible": {
+				"eng": "7 days",
+				"trans": "7 zile"
+			},
+			"durationOptionThirtyDays": {
+				"eng": "30D",
+				"trans": "30 de zile"
+			},
+			"durationOptionThirtyDaysAccessible": {
+				"eng": "30 days",
+				"trans": "30 zile"
+			},
+			"durationOptionThreeDays": {
+				"eng": "3D",
+				"trans": "3 zile"
+			},
+			"durationOptionThreeDaysAccessible": {
+				"eng": "3 days",
+				"trans": "3 zile"
+			},
+			"durationSevenDays": {
+				"eng": "7 days",
+				"trans": "7 zile"
+			},
+			"durationThirtyDays": {
+				"eng": "30 days",
+				"trans": "30 zile"
+			},
+			"durationThreeDays": {
+				"eng": "3 days",
+				"trans": "3 zile"
+			},
+			"equipment": {
+				"eng": "Equipment snapshot (optional)",
+				"trans": "Captură echipament (opțional)"
+			},
+			"equipmentDeliveryDescription": {
+				"eng": "Attached equipment stays in your inventory and is not sent to the winner. You must deliver it yourself.",
+				"trans": "Echipamentele atașate rămân în inventarul tău și nu sunt trimise câștigătorului. Trebuie să le livrezi manual."
+			},
+			"equipmentDeliveryTitle": {
+				"eng": "Equipment delivery is manual",
+				"trans": "Echipamentul se livrează manual"
+			},
+			"equipmentNotOwned": {
+				"eng": "Selected equipment is not owned by this account.",
+				"trans": "Echipamentul selectat nu aparține acestui cont."
+			},
+			"equipmentRequired": {
+				"eng": "Only equipment can be attached to a Community Raffle.",
+				"trans": "Doar echipamentele pot fi atașate la o raffle comunitară."
+			},
+			"globalAnnouncement": {
+				"eng": "${creatorName} created a Community ${raffleLink}.",
+				"trans": "${creatorName} a creat o extragere comunitară ${raffleLink}.",
+				"vars": [
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"increaseMinimumLevel": {
+				"eng": "Increase minimum level by 50",
+				"trans": "Crește nivelul minim cu 50"
+			},
+			"kitRequired": {
+				"eng": "You need a Community Raffle Kit to create this raffle.",
+				"trans": "Ai nevoie de un Kit pentru Răfiala Comunitară ca să creezi această răfială."
+			},
+			"levelRequired": {
+				"eng": "Reach level ${level} to create a Community Raffle.",
+				"trans": "Atinge nivelul ${level} pentru a crea o tragere la sorți comunitară.",
+				"vars": [
+					"level"
+				]
+			},
+			"levelRequiredToast": {
+				"eng": "Reach level ${level} to create a Community Raffle.",
+				"trans": "Atinge nivelul ${level} pentru a crea o tragere la sorți comunitară.",
+				"vars": [
+					"level"
+				]
+			},
+			"minimumLevel": {
+				"eng": "Minimum level",
+				"trans": "Nivel minim"
+			},
+			"moderationRejected": {
+				"eng": "Automated check found the title or description inappropriate or unrelated to the Community Raffle. Update the title or description, then try again.",
+				"trans": "Verificarea automată a găsit titlul sau descrierea nepotrivite sau irelevante pentru Raffle-ul Comunității. Actualizați titlul sau descrierea și încercați din nou."
+			},
+			"moderationUnavailable": {
+				"eng": "Automated check is temporarily unavailable. Try again in a moment.",
+				"trans": "Verificarea automată este momentan indisponibilă. Încearcă din nou peste puțin."
+			},
+			"noDescription": {
+				"eng": "None",
+				"trans": "Niciunul"
+			},
+			"noEquipment": {
+				"eng": "None",
+				"trans": "Niciunul"
+			},
+			"pageTitle": {
+				"eng": "Create Community Raffle",
+				"trans": "Creați tragerea la sorți a comunității"
+			},
+			"removeEquipmentSnapshot": {
+				"eng": "Remove equipment snapshot",
+				"trans": "Șterge captura de echipament"
+			},
+			"review": {
+				"eng": "Review raffle",
+				"trans": "Revizuiește loteria"
+			},
+			"selectEquipment": {
+				"eng": "Select equipment snapshot",
+				"trans": "Selectează captura echipamentului"
+			},
+			"title": {
+				"eng": "Title",
+				"trans": "Titlu"
+			},
+			"titleCount": {
+				"eng": "${current} / ${maximum}",
+				"trans": "${current} / ${maximum}",
+				"vars": [
+					"current",
+					"maximum"
+				]
+			},
+			"titleLength": {
+				"eng": "Title must be ${minimum}–${maximum} characters.",
+				"trans": "Titlul trebuie să fie de ${minimum}–${maximum} caractere.",
+				"vars": [
+					"minimum",
+					"maximum"
+				]
+			},
+			"titleRequired": {
+				"eng": "Enter a title.",
+				"trans": "Introduceți un titlu."
+			}
+		},
+		"delete": {
+			"action": {
+				"eng": "Delete raffle",
+				"trans": "Șterge loterie"
+			},
+			"confirmAction": {
+				"eng": "Delete permanently",
+				"trans": "Șterge definitiv"
+			},
+			"confirmTitle": {
+				"eng": "Delete Community Raffle?",
+				"trans": "Șterge Loteria Comunitară?"
+			},
+			"creatorMail": {
+				"body": {
+					"eng": "Moderator ${moderatorName} deleted your Community Raffle: ${title}",
+					"trans": "Moderatorul ${moderatorName} a șters Loteria Comunitară: ${title}",
+					"vars": [
+						"moderatorName",
+						"title"
+					]
+				}
+			},
+			"creatorSuccess": {
+				"eng": "You deleted your Community Raffle.",
+				"trans": "Ai șters loteria comunitară."
+			},
+			"creatorWarning": {
+				"eng": "This permanently removes your raffle and cannot be undone. The Community Raffle Kit will not be refunded.",
+				"trans": "Această acțiune va elimina definitiv loteria dvs. și este ireversibilă. Kitul pentru Loteria Comunitară nu va fi returnat."
+			},
+			"moderatorMail": {
+				"body": {
+					"eng": "You deleted ${creatorName}'s Community Raffle: ${title}",
+					"trans": "Ai șters loteria comunitară a lui ${creatorName}: ${title}",
+					"vars": [
+						"creatorName",
+						"title"
+					]
+				}
+			},
+			"moderatorWarning": {
+				"eng": "This permanently removes ${creator}'s raffle. They will be notified by mail.",
+				"trans": "Această acțiune șterge definitiv loteria lui ${creator}. Creatorul va fi notificat prin mesaj.",
+				"vars": [
+					"creator"
+				]
+			}
+		},
+		"delivery": {
+			"creatorNoWinnerMail": {
+				"eng": "Your Community ${raffleLink} “${title}” is complete. No eligible winner remained.",
+				"trans": "Rafa comunității tale ${raffleLink} „${title}” s-a încheiat. Nu a mai rămas niciun câștigător eligibil.",
+				"vars": [
+					"title",
+					"raffleLink"
+				]
+			},
+			"creatorWinnerMail": {
+				"eng": "Your Community ${raffleLink} “${title}” is complete. Winner: ${winnerName}.",
+				"trans": "Loteria comunității tale ${raffleLink} „${title}” s-a încheiat. Câștigător: ${winnerName}.",
+				"vars": [
+					"title",
+					"winnerName",
+					"raffleLink"
+				]
+			},
+			"globalAnnouncement": {
+				"eng": "🎉 ${winnerName} won a Community ${raffleLink}!",
+				"trans": "${winnerName} a câștigat un ${raffleLink} din loteria comunității!",
+				"vars": [
+					"winnerName",
+					"raffleLink"
+				]
+			},
+			"winnerMail": {
+				"eng": "You won the Community ${raffleLink} “${title}”.",
+				"trans": "Ai câștigat ${raffleLink} din comunitate „${title}”.",
+				"vars": [
+					"title",
+					"raffleLink"
+				]
+			}
+		},
+		"detail": {
+			"abandonedState": {
+				"eng": "Winner selection was not completed within the seven-day window.",
+				"trans": "Selecția câștigătorului nu a fost finalizată în termen de șapte zile."
+			},
+			"attachments": {
+				"eng": "Attachments",
+				"trans": "Atașamente"
+			},
+			"closed": {
+				"eng": "Closed",
+				"trans": "Încheiat"
+			},
+			"closesLabel": {
+				"eng": "Closes in",
+				"trans": "Se termină în"
+			},
+			"entrantList": {
+				"eng": "Entrants",
+				"trans": "Participanți"
+			},
+			"hostLabel": {
+				"eng": "Host",
+				"trans": "Gazdă"
+			},
+			"levelShort": {
+				"eng": "LV ${level}+",
+				"trans": "Niv. ${level}+",
+				"vars": [
+					"level"
+				]
+			},
+			"minimumLevel": {
+				"eng": "Minimum level",
+				"trans": "Nivel minim"
+			},
+			"noEntrants": {
+				"eng": "No entries yet.",
+				"trans": "Încă nu sunt înscrieri."
+			},
+			"notFound": {
+				"eng": "We cannot find this raffle.",
+				"trans": "Această tomboală nu a fost găsită."
+			},
+			"refresh": {
+				"eng": "Refresh raffle details",
+				"trans": "Actualizează detaliile extragerii"
+			},
+			"selectedWinner": {
+				"eng": "Winner",
+				"trans": "Câștigător"
+			},
+			"statusLabel": {
+				"eng": "Status",
+				"trans": "Statut"
+			},
+			"unavailable": {
+				"eng": "Community Raffle unavailable",
+				"trans": "Loterie comunitară indisponibilă"
+			},
+			"winnerMarker": {
+				"eng": "Winner",
+				"trans": "Câștigător"
+			}
+		},
+		"empty": {
+			"description": {
+				"eng": "Active and past raffles will appear here.",
+				"trans": "Loteriile active și cele trecute vor apărea aici."
+			},
+			"title": {
+				"eng": "No Community Raffles yet",
+				"trans": "Încă nu există loterii comunitare"
+			}
+		},
+		"error": {
+			"notFound": {
+				"eng": "Community Raffle not found.",
+				"trans": "Loteria comunitară nu a fost găsită."
+			}
+		},
+		"join": {
+			"accountLimited": {
+				"eng": "Limited accounts cannot join Community Raffles.",
+				"trans": "Conturile limitate nu pot participa la Loteriile Comunitare."
+			},
+			"alreadyJoined": {
+				"eng": "You already joined this Community Raffle.",
+				"trans": "Ești deja înscris la această Rafflă Comunitară."
+			},
+			"associatedEntry": {
+				"eng": "An associated account already entered this Community Raffle.",
+				"trans": "Un cont asociat s-a înscris deja la această loterie comunitară."
+			},
+			"closed": {
+				"eng": "This Community Raffle is no longer open for entry.",
+				"trans": "Această loterie a comunității nu mai acceptă înscrieri."
+			},
+			"creatorMail": {
+				"eng": "${playerName} has joined your ${raffleLink}. Total entrants: ${totalEntrants}.",
+				"trans": "${playerName} s-a alăturat loteriei tale ${raffleLink}. Total participanți: ${totalEntrants}.",
+				"vars": [
+					"playerName",
+					"raffleLink",
+					"totalEntrants"
+				]
+			},
+			"creatorMailOthers": {
+				"eng": "${playerName} and ${otherCount} more have joined your ${raffleLink}. Total entrants: ${totalEntrants}.",
+				"trans": "${playerName} și ${otherCount} alții s-au alăturat ${raffleLink}-ului tău. Total participanți: ${totalEntrants}.",
+				"vars": [
+					"playerName",
+					"otherCount",
+					"raffleLink",
+					"totalEntrants"
+				]
+			},
+			"globalAnnouncement": {
+				"eng": "${playerName} has joined ${creatorName}'s ${raffleLink}.",
+				"trans": "${playerName} a intrat în ${raffleLink} creat de ${creatorName}.",
+				"vars": [
+					"playerName",
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"globalAnnouncementOthers": {
+				"eng": "${playerName} and ${otherCount} more have joined ${creatorName}'s ${raffleLink}.",
+				"trans": "${playerName} și alte ${otherCount} persoane s-au alăturat ${raffleLink} lui ${creatorName}.",
+				"vars": [
+					"playerName",
+					"otherCount",
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"levelRequired": {
+				"eng": "Reach level ${level} to join this Community Raffle.",
+				"trans": "Trebuie să atingi nivelul ${level} pentru a participa la această rafflă comunitară.",
+				"vars": [
+					"level"
+				]
+			},
+			"organizer": {
+				"eng": "You cannot join your own Community Raffle.",
+				"trans": "Nu poți participa la propria ta extracție comunitară."
+			}
+		},
+		"loadError": {
+			"title": {
+				"eng": "Raffle list unavailable",
+				"trans": "Lista de loterie indisponibilă"
+			}
+		},
+		"raffleLink": {
+			"eng": "Raffle",
+			"trans": "Loterie"
+		},
+		"refresh": {
+			"eng": "Refresh raffle list",
+			"trans": "Actualizează lista de extrageri"
+		},
+		"row": {
+			"awaitingOrganizer": {
+				"eng": "Awaiting organizer",
+				"trans": "Așteaptă organizatorul"
+			},
+			"closedLabel": {
+				"eng": "Closed",
+				"trans": "Încheiat"
+			},
+			"closesLabel": {
+				"eng": "Closes in",
+				"trans": "Se termină în"
+			},
+			"entriesLabel": {
+				"eng": "Entries",
+				"trans": "Inscrieri"
+			},
+			"hostLabel": {
+				"eng": "Host",
+				"trans": "Gazdă"
+			},
+			"levelShort": {
+				"eng": "LV ${level}+",
+				"trans": "Niv. ${level}+",
+				"vars": [
+					"level"
+				]
+			},
+			"resultLabel": {
+				"eng": "Result",
+				"trans": "Rezultat"
+			}
+		},
+		"status": {
+			"abandoned": {
+				"eng": "Abandoned",
+				"trans": "Abandonat"
+			},
+			"awaitingOrganizer": {
+				"eng": "Awaiting organizer",
+				"trans": "Așteaptă organizatorul"
+			},
+			"completed": {
+				"eng": "Completed",
+				"trans": "Finalizat"
+			},
+			"open": {
+				"eng": "Open",
+				"trans": "Deschis"
+			}
+		},
+		"title": {
+			"eng": "Community Raffles",
+			"trans": "Loterii comunitare"
+		},
+		"tutorial": {
+			"description": {
+				"eng": "Create, join, and select a winner.",
+				"trans": "Creează, participă și alege un câștigător."
+			},
+			"title": {
+				"eng": "How Community Raffles work",
+				"trans": "Cum funcționează loteriile comunitare"
+			}
+		},
+		"validation": {
+			"request": {
+				"eng": "Invalid Community Raffle request.",
+				"trans": "Cerere invalidă la Loteria Comunității."
+			}
 		}
 	},
 	"component": {
@@ -2452,6 +3073,10 @@
 			"eng": "Vice Heat",
 			"trans": "Vice Heat"
 		},
+		"donation55": {
+			"eng": "Black Press",
+			"trans": "Presă Neagră"
+		},
 		"donation6": {
 			"eng": "Prestige",
 			"trans": "Prestigiu"
@@ -3002,6 +3627,28 @@
 				"item",
 				"npcName"
 			]
+		}
+	},
+	"emblem": {
+		"showcase": {
+			"error": {
+				"emblemRequired": {
+					"eng": "Emblem is required",
+					"trans": "Este necesară o emblemă"
+				},
+				"invalidEmblem": {
+					"eng": "Invalid emblem type",
+					"trans": "Tip de emblemă invalid"
+				},
+				"invalidSlot": {
+					"eng": "Invalid emblem showcase slot",
+					"trans": "Slot nevalid pentru vitrina emblemei"
+				},
+				"notOwned": {
+					"eng": "You don't own this emblem",
+					"trans": "Nu deții această emblemă"
+				}
+			}
 		}
 	},
 	"emblems": {
@@ -5019,6 +5666,16 @@
 				"trans": "Container de Aprovizionare [Gașcă]"
 			}
 		},
+		"communityRaffleKit": {
+			"description": {
+				"eng": "A deployable kit for creating one public Community Raffle. Consumed when the raffle is published.",
+				"trans": "Un kit activabil pentru crearea unei singure trageri la sorți publice comunitare. Se consumă în momentul publicării."
+			},
+			"name": {
+				"eng": "Community Raffle Kit",
+				"trans": "Set loterie comunitară"
+			}
+		},
 		"creatine": {
 			"description": {
 				"eng": "Push past your limits and grind like a machine--When consumed, increase damage dealt by ${percent}% for ${minutes} minutes",
@@ -5620,6 +6277,19 @@
 			"name": {
 				"eng": "Medical Tech Parts",
 				"trans": "Componente Tehnice Medicale"
+			}
+		},
+		"mentorSkipVoucher": {
+			"description": {
+				"eng": "An evergreen voucher earned by helping a new runner reach level 50. It automatically applies a ${discountPercent}% Global Skip discount.",
+				"trans": "Un cupon valabil pe termen nelimitat, obținut ajutând un nou jucător să atingă nivelul 50. Se aplică automat o reducere de ${discountPercent}% la Global Skip.",
+				"vars": [
+					"discountPercent"
+				]
+			},
+			"name": {
+				"eng": "Handler Skip Voucher",
+				"trans": "Tichet Salt Handler"
 			}
 		},
 		"missileCommandPass": {
@@ -6329,6 +6999,13 @@
 		}
 	},
 	"itemInbox": {
+		"movedToInventory": {
+			"eng": "${item} has been moved from your item inbox to your inventory automatically",
+			"trans": "${item} a fost transferat automat din cutia ta de primire în inventar",
+			"vars": [
+				"item"
+			]
+		},
 		"notifySender": {
 			"eng": "${recipient} has retrived your gift items (${itemNames}) from their inbox into their inventory.",
 			"trans": "${recipient} a preluat din poștă cadourile tale (${itemNames}) și le-a adăugat în inventar.",
@@ -6395,6 +7072,43 @@
 		"title": {
 			"eng": "Rename History",
 			"trans": "Istoricul redenumirii"
+		}
+	},
+	"itemSource": {
+		"drop": {
+			"dungeons": {
+				"eng": "Dungeons",
+				"trans": "Temnițe"
+			},
+			"enemies": {
+				"eng": "Enemies",
+				"trans": "Inamici"
+			},
+			"lootBoxes": {
+				"eng": "Loot boxes",
+				"trans": "Cutii cu premii"
+			},
+			"reclamationTier": {
+				"eng": "Drop on ${tier}",
+				"trans": "Recompense la ${tier}",
+				"vars": [
+					"tier"
+				]
+			}
+		}
+	},
+	"itemSourceModal": {
+		"description": {
+			"eng": "You can get this item from:",
+			"trans": "Poți obține acest obiect de la:"
+		},
+		"empty": {
+			"eng": "No current sources found.",
+			"trans": "Nicio sursă disponibilă momentan."
+		},
+		"title": {
+			"eng": "Item sources",
+			"trans": "Sursele obiectelor"
 		}
 	},
 	"itemStack": {
@@ -7125,6 +7839,10 @@
 		"streetcred": {
 			"eng": "Street Cred",
 			"trans": "Stradă cRED"
+		},
+		"topHandlers": {
+			"eng": "Top Handlers",
+			"trans": "Cei mai buni handleri"
 		}
 	},
 	"leaderboardTypePage": {
@@ -8154,6 +8872,106 @@
 			"trans": "Comanda Rachetelor"
 		}
 	},
+	"mentorship": {
+		"completion": {
+			"handlerMail": {
+				"eng": "${runnerName} reached level ${completionLevel} and passed verification. Your Handler rewards were delivered.",
+				"trans": "${runnerName} a ajuns la nivelul ${completionLevel} și a fost validat. Recompensele pentru Handler-ul tău au fost livrate.",
+				"vars": [
+					"runnerName",
+					"completionLevel"
+				]
+			}
+		},
+		"confirm": {
+			"currentHandler": {
+				"eng": "Current Handler",
+				"trans": "Coordonator actual"
+			},
+			"endPermanently": {
+				"eng": "End permanently",
+				"trans": "Încheie definitiv"
+			},
+			"endPurpose": {
+				"eng": "End your mentorship with this Handler.",
+				"trans": "Încheie mentoratul cu acest Handler."
+			},
+			"endTitle": {
+				"eng": "End mentorship",
+				"trans": "Încheie mentoratul"
+			},
+			"endWarning": {
+				"eng": "This is permanent. You cannot choose another Handler.",
+				"trans": "Această alegere este irevocabilă. Nu vă puteți alege un alt Operator."
+			},
+			"mentorDetails": {
+				"eng": "${name} — Level ${level}",
+				"trans": "${name} — Nivel ${level}",
+				"vars": [
+					"name",
+					"level"
+				]
+			},
+			"selectPermanently": {
+				"eng": "Choose permanently",
+				"trans": "Alege definitiv"
+			},
+			"selectPurpose": {
+				"eng": "Choose a Handler to guide your early progression.",
+				"trans": "Alege un Handler pentru a-ți ghida progresul în primele etape."
+			},
+			"selectTitle": {
+				"eng": "Choose Handler",
+				"trans": "Alege Operatorul"
+			},
+			"selectWarning": {
+				"eng": "Choose only someone who has greatly helped you learn the game. Never choose a Handler for trades, items, or other favors. You cannot choose another Handler later, even if you end the mentorship.",
+				"trans": "Alege doar persoana care te-a ajutat enorm să stăpânești jocul. Nu selecta un Handler exclusiv pentru tranzacții, obiecte sau alte favoruri. Nu vei putea alege alt Handler ulterior, chiar dacă închei mentoratul."
+			}
+		},
+		"revoke": {
+			"invalid": {
+				"eng": "This mentorship can no longer be ended.",
+				"trans": "Acest mentorat nu mai poate fi încheiat."
+			}
+		},
+		"select": {
+			"handlerMail": {
+				"eng": "${runnerName} chose you as their Handler. Their mentorship will complete if they reach level ${completionLevel} and pass system verification.",
+				"trans": "${runnerName} te-a ales Handler. Mentoratul se va finaliza când atinge nivelul ${completionLevel} și trece verificarea de sistem.",
+				"vars": [
+					"runnerName",
+					"completionLevel"
+				]
+			},
+			"ineligible": {
+				"eng": "This Handler selection is not eligible.",
+				"trans": "Acest Handler selectat nu este eligibil."
+			}
+		}
+	},
+	"mentorshipAssignmentsPage": {
+		"empty": {
+			"eng": "No runners are currently assigned to you.",
+			"trans": "Niciun runner nu ți-a fost atribuit momentan."
+		},
+		"loadFailed": {
+			"eng": "Mentoring runners failed to load.",
+			"trans": "Runnerii pentru mentorat nu s-au încărcat."
+		},
+		"loading": {
+			"eng": "Loading mentoring runners...",
+			"trans": "Se încarcă agenții de mentorat..."
+		},
+		"private": {
+			"eng": "Private — only you can see this",
+			"trans": "Privat — vizibil doar pentru tine"
+		},
+		"title": {
+			"eng": "Mentoring Runners",
+			"trans": "Mentoratul Curierilor"
+		}
+	},
 	"messageImage": {
 		"hideImage": {
 			"eng": "Hide Image",
@@ -8249,6 +9067,91 @@
 					"eng": "BREACH SUCCESS",
 					"trans": "Acces reușit"
 				}
+			}
+		},
+		"orderSync": {
+			"board": {
+				"summary": {
+					"eng": "Sorting minigame. Arrange the bars from smallest to largest, left to right within the move budget. Drag a bar to reposition it, or tap two bars to swap them.",
+					"trans": "Mini-joc de sortare. Așază barele de la cele mai mici la cele mai mari, de la stânga la dreapta, în limitele bugetului de mutări. Trage o bară pentru a o rearanja sau atinge două bare pentru a le interschimba."
+				}
+			},
+			"fail": {
+				"description": {
+					"eng": "Sort the row before you run out of moves.",
+					"trans": "Ordonează rândul înainte să rămâi fără mutări."
+				},
+				"retry": {
+					"eng": "Retry",
+					"trans": "Reîncearcă"
+				},
+				"status": {
+					"eng": "ORDER REJECTED",
+					"trans": "COMANDĂ RESPINSĂ"
+				},
+				"title": {
+					"eng": "Out of moves",
+					"trans": "Fără mutări rămase"
+				}
+			},
+			"instruction": {
+				"eng": "Sort small to big, left to right. Drag a bar to move it, or tap two to swap.",
+				"trans": "Sortează de la mic la mare, de la stânga la dreapta. Trage o bară pentru a o muta sau atinge pe două pentru a le interschimba."
+			},
+			"item": {
+				"aria": {
+					"eng": "Bar, value ${value}",
+					"trans": "Bară, valoare ${value}",
+					"vars": [
+						"value"
+					]
+				}
+			},
+			"scale": {
+				"high": {
+					"eng": "HIGH",
+					"trans": "RIDICAT"
+				},
+				"label": {
+					"eng": "SIGNAL MAGNITUDE",
+					"trans": "INTENSITATEA SEMNALULUI"
+				},
+				"low": {
+					"eng": "LOW",
+					"trans": "SCĂZUT"
+				}
+			},
+			"status": {
+				"failed": {
+					"eng": "FAILED",
+					"trans": "EȘUAT"
+				},
+				"locked": {
+					"eng": "SORTED",
+					"trans": "ORDONAT"
+				},
+				"moves": {
+					"eng": "MOVES ${count}/${max}",
+					"trans": "MUTĂRI ${count}/${max}",
+					"vars": [
+						"count",
+						"max"
+					]
+				}
+			},
+			"success": {
+				"status": {
+					"eng": "ORDER VALIDATED",
+					"trans": "COMANDĂ VALIDATĂ"
+				},
+				"title": {
+					"eng": "Sequence sorted",
+					"trans": "Secvență sortată"
+				}
+			},
+			"title": {
+				"eng": "Order Sync",
+				"trans": "Sincronizare Comenzi"
 			}
 		},
 		"relayGrid": {
@@ -11490,6 +12393,65 @@
 				"vars": [
 					"count"
 				]
+			}
+		},
+		"mentorship": {
+			"currentReward": {
+				"eng": "Reward per verified player",
+				"trans": "Recompensă per jucător verificat"
+			},
+			"endMentorship": {
+				"eng": "End mentorship",
+				"trans": "Încheie mentoratul"
+			},
+			"futureHandlerHint": {
+				"eng": "At level ${handlerLevel}, you can also become a Handler, guide eligible new players, and earn rewards.",
+				"trans": "La nivelul ${handlerLevel}, poți deveni Handler, ghida jucători noi eligibili și câștiga recompense.",
+				"vars": [
+					"handlerLevel"
+				]
+			},
+			"handler": {
+				"eng": "Handler",
+				"trans": "Operator"
+			},
+			"handlerHint": {
+				"eng": "You can now guide eligible new players as a Handler. They can choose you from your profile. Verified mentorships increase your public total and grant the reward below.",
+				"trans": "Poți acum să ghidezi jucători noi eligibili în rolul de Handler. Te pot selecta direct din profilul tău. Mentoratele verificate îți cresc scorul public și deblochează recompensa de mai jos."
+			},
+			"handlerLoadFailed": {
+				"eng": "Handler load failed.",
+				"trans": "Încărcarea handler-ului a eșuat."
+			},
+			"loadingHandler": {
+				"eng": "Loading Handler...",
+				"trans": "Se încarcă..."
+			},
+			"private": {
+				"eng": "Private — only you can see this",
+				"trans": "Privat — doar tu îl poți vedea"
+			},
+			"selectionEndedHint": {
+				"eng": "Your opportunity to choose a Handler ended after level ${maxLevel}. New players can choose one from level ${minLevel} to ${maxLevel} if their account is no more than ${maxAgeDays} days old. At level ${handlerLevel}, you can become a Handler, guide eligible new players, and earn rewards.",
+				"trans": "Oportunitatea ta de a alege un Handler s-a încheiat după nivelul ${maxLevel}. Jucătorii noi pot selecta unul dintre nivelurile ${minLevel} și ${maxLevel}, dacă contul lor este vechi de maximum ${maxAgeDays} de zile. La nivelul ${handlerLevel}, îți poți asuma rolul de Handler, ghidând jucători noi eligibili pentru a câștiga recompense.",
+				"vars": [
+					"minLevel",
+					"maxLevel",
+					"maxAgeDays",
+					"handlerLevel"
+				]
+			},
+			"title": {
+				"eng": "Mentorship",
+				"trans": "Mentorat"
+			},
+			"unknownHandler": {
+				"eng": "Unknown Handler",
+				"trans": "Operator Necunoscut"
+			},
+			"viewMentoringRunners": {
+				"eng": "View Mentoring Runners",
+				"trans": "Vizualizează runnerii în mentorat"
 			}
 		},
 		"pets": {
@@ -15297,6 +16259,10 @@
 				"eng": "Block List",
 				"trans": "Lista de blocati"
 			},
+			"communityRaffle": {
+				"eng": "Community Raffles",
+				"trans": "Loterii comunitare"
+			},
 			"coupon": {
 				"eng": "Claim Coupon",
 				"trans": "Revendicați cuponul"
@@ -15651,9 +16617,17 @@
 				}
 			},
 			"skippingBuff": {
-				"title": {
-					"eng": "Skip buff sponsored by:",
-					"trans": "Ignorați buff-ul sponsorizat de:"
+				"dismiss": {
+					"eng": "Dismiss Global Skip banner",
+					"trans": "Închide bannerul salt global"
+				},
+				"info": {
+					"eng": "Global Skip info",
+					"trans": "Detalii salt global"
+				},
+				"sponsor": {
+					"eng": "Global Skip by",
+					"trans": "Salt global de la"
 				}
 			}
 		},
@@ -16468,6 +17442,23 @@
 				"eng": "Equip",
 				"trans": "Echipa"
 			},
+			"eventGamePass": {
+				"visitNpc": {
+					"eng": "Go to ${npcName}",
+					"trans": "Mergi la ${npcName}",
+					"vars": [
+						"npcName"
+					]
+				},
+				"visitNpcDescription": {
+					"eng": "Bring this pass to ${personName} to play ${gameName}.",
+					"trans": "Adu acest bilet la ${personName} pentru a juca ${gameName}.",
+					"vars": [
+						"personName",
+						"gameName"
+					]
+				}
+			},
 			"history": {
 				"eng": "History",
 				"trans": "Istoric"
@@ -16595,6 +17586,10 @@
 			"getAllItems": {
 				"eng": "Get All Items",
 				"trans": "Obține Toate Obiectele"
+			},
+			"noExpiry": {
+				"eng": "Does not expire",
+				"trans": "Nu expiră"
 			},
 			"title": {
 				"eng": "Item Inbox",
@@ -16780,6 +17775,12 @@
 			"travel": {
 				"eng": "Travel",
 				"trans": "Călătorește"
+			}
+		},
+		"markdown": {
+			"error": {
+				"eng": "Content unavailable. Check your connection and retry.",
+				"trans": "Conținut indisponibil. Verificați conexiunea și încercați din nou."
 			}
 		},
 		"market": {
@@ -17119,6 +18120,92 @@
 				"eng": "Property of SLPD",
 				"trans": "Proprietatea SLPD"
 			},
+			"emblemShowcase": {
+				"addSlot": {
+					"eng": "Add emblem to slot ${slot}",
+					"trans": "Plasează emblema în slotul ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"chooseEmblemByOption": {
+					"eng": "Select emblem option ${option} for slot ${slot}",
+					"trans": "Selectează opțiunea de emblemă ${option} pentru slotul ${slot}",
+					"vars": [
+						"option",
+						"slot"
+					]
+				},
+				"clearSlot": {
+					"eng": "Remove emblem from slot ${slot}",
+					"trans": "Elimină emblema din slotul ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"closePicker": {
+					"eng": "Close emblem picker",
+					"trans": "Închide selectorul de embleme"
+				},
+				"confirmSelection": {
+					"eng": "Confirm Selection",
+					"trans": "Confirmă selecția"
+				},
+				"editSlot": {
+					"eng": "Change emblem in slot ${slot}",
+					"trans": "Schimbă emblemă în slotul ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"emblemLabelBySlot": {
+					"eng": "Showcase emblem in slot ${slot}",
+					"trans": "Afișează emblema în slotul ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"pickerInstruction": {
+					"eng": "Select an emblem for slot ${slot}, then confirm.",
+					"trans": "Selectează o emblema pentru slotul ${slot}, apoi confirmă.",
+					"vars": [
+						"slot"
+					]
+				},
+				"pickerTitle": {
+					"eng": "Choose Emblem",
+					"trans": "Alege emblema"
+				},
+				"playAudioBySlot": {
+					"eng": "Play audio for emblem in slot ${slot}",
+					"trans": "Redă sunetul emblei din slot ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"remove": {
+					"eng": "Remove",
+					"trans": "Elimină"
+				},
+				"removeConfirmationTitle": {
+					"eng": "Remove emblem from slot ${slot}?",
+					"trans": "Eliminați emblema din slotul ${slot}?",
+					"vars": [
+						"slot"
+					]
+				},
+				"slotMarker": {
+					"eng": "Slot ${slot}",
+					"trans": "Slot ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"title": {
+					"eng": "pinned emblems",
+					"trans": "Embleme fixate"
+				}
+			},
 			"gangAction": {
 				"editPermissions": {
 					"eng": "Permissions",
@@ -17193,6 +18280,10 @@
 				"block": {
 					"eng": "Block Player",
 					"trans": "Jucător de blocare"
+				},
+				"chooseHandler": {
+					"eng": "Choose as Handler",
+					"trans": "Setează ca Handler"
 				},
 				"giveStreetCred": {
 					"eng": "Give Street Cred",
@@ -17720,6 +18811,16 @@
 					"trans": "Menține emblemele private"
 				}
 			},
+			"privateHandler": {
+				"description": {
+					"eng": "Hide your Handler from other players",
+					"trans": "Ascunde-ți Handlerul de ceilalți jucători"
+				},
+				"title": {
+					"eng": "Hide my Handler",
+					"trans": "Ascunde operatorul meu"
+				}
+			},
 			"promoOnlyShowWhenUpdate": {
 				"description": {
 					"eng": "Only show promo popup when there is a new event",
@@ -17984,6 +19085,10 @@
 				"eng": "combat",
 				"trans": "luptă"
 			},
+			"communityRaffles": {
+				"eng": "Community Raffles",
+				"trans": "Loterii comunitare"
+			},
 			"dataFortress": {
 				"eng": "SL-Data Fortress",
 				"trans": "Fortăreața de Date SL"
@@ -18015,6 +19120,10 @@
 			"furniture": {
 				"eng": "Furniture",
 				"trans": "Mobilier"
+			},
+			"handlers": {
+				"eng": "Handlers",
+				"trans": "Handler-e"
 			},
 			"inventory": {
 				"eng": "inventory",
@@ -18067,6 +19176,74 @@
 			"timeSkip": {
 				"eng": "time skip",
 				"trans": "timpul săriți"
+			}
+		},
+		"tutorialSearch": {
+			"clear": {
+				"eng": "Clear search",
+				"trans": "Șterge căutarea"
+			},
+			"close": {
+				"eng": "Close tutorial search",
+				"trans": "Închide căutarea tutorialelor"
+			},
+			"error": {
+				"eng": "Tutorial search is unavailable. Check your connection and retry.",
+				"trans": "Căutarea tutorialelor nu este disponibilă. Verificați conexiunea și reîncercați."
+			},
+			"label": {
+				"eng": "Tutorial Search",
+				"trans": "Căutare tutoriale"
+			},
+			"loading": {
+				"eng": "Indexing tutorials...",
+				"trans": "Indexare tutoriale..."
+			},
+			"matchEnglishSectionLabel": {
+				"eng": "English section",
+				"trans": "Secțiunea engleză"
+			},
+			"matchEnglishTitleLabel": {
+				"eng": "English title",
+				"trans": "Titlu în engleză"
+			},
+			"matchSectionLabel": {
+				"eng": "Section",
+				"trans": "Secțiune"
+			},
+			"matchTitle": {
+				"eng": "Title match",
+				"trans": "Titlu potrivit"
+			},
+			"noResults": {
+				"eng": "No tutorial results for \"${query}\"",
+				"trans": "Nu s-au găsit tutoriale pentru \"${query}\"",
+				"vars": [
+					"query"
+				]
+			},
+			"partial": {
+				"eng": "Some tutorials could not be indexed.",
+				"trans": "Unele tutoriale nu au putut fi indexate."
+			},
+			"placeholder": {
+				"eng": "Search tutorials...",
+				"trans": "Caută tutoriale"
+			},
+			"ready": {
+				"eng": "Search tutorial titles, sections, and content.",
+				"trans": "Caută în titlurile, secțiunile și conținutul tutorialelor."
+			},
+			"resultCount": {
+				"eng": "${count} results",
+				"trans": "${count} rezultate",
+				"vars": [
+					"count"
+				]
+			},
+			"resultCountOne": {
+				"eng": "1 result",
+				"trans": "1 rezultat"
 			}
 		},
 		"unit": {

@@ -965,6 +965,13 @@
 				}
 			}
 		},
+		"discount": {
+			"eng": "${percent}% off",
+			"trans": "Giảm ${percent}%",
+			"vars": [
+				"percent"
+			]
+		},
 		"free": {
 			"eng": "Free",
 			"trans": "Miễn phí"
@@ -974,6 +981,10 @@
 				"eng": "Free Personal Skip",
 				"trans": "Bỏ qua cá nhân miễn phí"
 			}
+		},
+		"notAvailable": {
+			"eng": "Bundle not available",
+			"trans": "Gói không khả dụng"
 		},
 		"rareEquipmentCrate": {
 			"name": {
@@ -991,6 +1002,12 @@
 			"name": {
 				"eng": "Skip supply bundle",
 				"trans": "Gói cung cấp bỏ qua"
+			}
+		},
+		"summerNightsFragmentFusion": {
+			"name": {
+				"eng": "Summer Nights Fusion Bundle",
+				"trans": "Gói Hòa Trộn Đêm Hè"
 			}
 		}
 	},
@@ -1306,12 +1323,6 @@
 		"offRotation": {
 			"eng": "Out of rotation",
 			"trans": "Không trong vòng quay"
-		}
-	},
-	"chatHeader": {
-		"skipAvailable": {
-			"eng": "Available",
-			"trans": "Có sẵn"
 		}
 	},
 	"chatInput": {
@@ -1796,6 +1807,14 @@
 			"eng": "Got it",
 			"trans": "Đã hiểu"
 		},
+		"keep": {
+			"eng": "Keep raffle",
+			"trans": "Lưu vé quay số"
+		},
+		"loading": {
+			"eng": "Loading",
+			"trans": "Đang tải"
+		},
 		"max": {
 			"eng": "MAX",
 			"trans": "MAX"
@@ -1809,7 +1828,7 @@
 			"trans": "Mua"
 		},
 		"retry": {
-			"eng": "RETRY CONNECTION",
+			"eng": "Retry",
 			"trans": "Kết nối lại"
 		},
 		"save": {
@@ -1819,6 +1838,608 @@
 		"warning": {
 			"eng": "Warning",
 			"trans": "Cảnh báo"
+		}
+	},
+	"communityRaffle": {
+		"action": {
+			"accountBlocked": {
+				"eng": "Limited accounts cannot join Community Raffles.",
+				"trans": "Tài khoản bị hạn chế không thể tham gia Quay số cộng đồng."
+			},
+			"closeRaffle": {
+				"eng": "Close raffle",
+				"trans": "Kết thúc quay số"
+			},
+			"closeRaffleDescription": {
+				"eng": "Select and announce the winner",
+				"trans": "Chọn và công bố người trúng thưởng"
+			},
+			"graceExpired": {
+				"eng": "Winner selection window expired.",
+				"trans": "Hết thời gian chọn người trúng thưởng."
+			},
+			"join": {
+				"eng": "Join raffle",
+				"trans": "Tham gia bốc thăm"
+			},
+			"levelBlocked": {
+				"eng": "Reach level ${level} to join.",
+				"trans": "Đạt cấp ${level} để tham gia.",
+				"vars": [
+					"level"
+				]
+			}
+		},
+		"chatHeader": {
+			"open": {
+				"eng": "Open Community Raffles",
+				"trans": "Raffle Cộng Đồng Đang Mở"
+			}
+		},
+		"closeRaffle": {
+			"deadline": {
+				"eng": "Winner selection is available after the entry deadline.",
+				"trans": "Kết quả trúng thưởng sẽ được công bố sau khi hết hạn đăng ký."
+			},
+			"notOrganizer": {
+				"eng": "Only this Community Raffle's organizer can select the winner.",
+				"trans": "Chỉ người tổ chức cuộc rút thăm cộng đồng này mới có thể chọn người chiến thắng"
+			},
+			"unavailable": {
+				"eng": "Winner selection is not available for this Community Raffle.",
+				"trans": "Việc chọn người trúng thưởng chưa khả dụng cho cuộc bốc thăm cộng đồng này."
+			}
+		},
+		"create": {
+			"accountLimited": {
+				"eng": "Limited accounts cannot create Community Raffles.",
+				"trans": "Tài khoản bị giới hạn không thể tạo rút thăm cộng đồng."
+			},
+			"accountLimitedToast": {
+				"eng": "Limited accounts cannot create Community Raffles.",
+				"trans": "Tài khoản bị giới hạn không thể tạo rút thăm cộng đồng."
+			},
+			"action": {
+				"eng": "Create raffle",
+				"trans": "Tạo quay thưởng"
+			},
+			"addEquipment": {
+				"eng": "Attach equipment",
+				"trans": "Gắn thiết bị"
+			},
+			"backToEdit": {
+				"eng": "Back to edit",
+				"trans": "Quay lại chỉnh sửa"
+			},
+			"composerCounts": {
+				"eng": "${attachments} / ${maximumAttachments} · ${characters} / ${maximumCharacters}",
+				"trans": "${attachments} / ${maximumAttachments} · ${characters} / ${maximumCharacters}",
+				"vars": [
+					"attachments",
+					"maximumAttachments",
+					"characters",
+					"maximumCharacters"
+				]
+			},
+			"confirmAction": {
+				"eng": "Consume 1 Kit and publish",
+				"trans": "Sử dụng 1 Kit và đăng"
+			},
+			"confirmKitCost": {
+				"eng": "Publishing consumes one Community Raffle Kit.",
+				"trans": "Xuất bản sẽ tiêu thụ một Gói Quay Số Cộng Đồng."
+			},
+			"confirmPermanent": {
+				"eng": "Published settings cannot be edited. Deleting the raffle will not refund the Kit.",
+				"trans": "Cài đặt sau khi công bố không thể chỉnh sửa. Xóa raffle sẽ không hoàn lại Kit."
+			},
+			"confirmTitle": {
+				"eng": "Publish Community Raffle?",
+				"trans": "Công bố Rút thăm Cộng đồng?"
+			},
+			"cost": {
+				"eng": "1 Raffle Kit",
+				"trans": "1 gói quay số"
+			},
+			"decreaseMinimumLevel": {
+				"eng": "Decrease minimum level by 50",
+				"trans": "Giảm cấp độ tối thiểu đi 50"
+			},
+			"description": {
+				"eng": "Description (optional)",
+				"trans": "Mô tả (tùy chọn)"
+			},
+			"duration": {
+				"eng": "Duration",
+				"trans": "Thời gian"
+			},
+			"durationFourteenDays": {
+				"eng": "14 days",
+				"trans": "14 ngày"
+			},
+			"durationOneDay": {
+				"eng": "1 day",
+				"trans": "1 ngày"
+			},
+			"durationOptionFourteenDays": {
+				"eng": "14D",
+				"trans": "14 ngày"
+			},
+			"durationOptionFourteenDaysAccessible": {
+				"eng": "14 days",
+				"trans": "14 ngày"
+			},
+			"durationOptionOneDay": {
+				"eng": "1D",
+				"trans": "1 Ngày"
+			},
+			"durationOptionOneDayAccessible": {
+				"eng": "1 day",
+				"trans": "1 ngày"
+			},
+			"durationOptionSevenDays": {
+				"eng": "7D",
+				"trans": "7 ngày"
+			},
+			"durationOptionSevenDaysAccessible": {
+				"eng": "7 days",
+				"trans": "7 ngày"
+			},
+			"durationOptionThirtyDays": {
+				"eng": "30D",
+				"trans": "30 ngày"
+			},
+			"durationOptionThirtyDaysAccessible": {
+				"eng": "30 days",
+				"trans": "30 ngày"
+			},
+			"durationOptionThreeDays": {
+				"eng": "3D",
+				"trans": "3 ngày"
+			},
+			"durationOptionThreeDaysAccessible": {
+				"eng": "3 days",
+				"trans": "3 ngày"
+			},
+			"durationSevenDays": {
+				"eng": "7 days",
+				"trans": "7 ngày"
+			},
+			"durationThirtyDays": {
+				"eng": "30 days",
+				"trans": "30 ngày"
+			},
+			"durationThreeDays": {
+				"eng": "3 days",
+				"trans": "3 ngày"
+			},
+			"equipment": {
+				"eng": "Equipment snapshot (optional)",
+				"trans": "Ảnh trang bị (tùy chọn)"
+			},
+			"equipmentDeliveryDescription": {
+				"eng": "Attached equipment stays in your inventory and is not sent to the winner. You must deliver it yourself.",
+				"trans": "Trang bị đính kèm vẫn nằm trong kho đồ của bạn và không được gửi cho người trúng thưởng. Bạn cần tự vận chuyển đến tay họ."
+			},
+			"equipmentDeliveryTitle": {
+				"eng": "Equipment delivery is manual",
+				"trans": "Giao trang bị thủ công"
+			},
+			"equipmentNotOwned": {
+				"eng": "Selected equipment is not owned by this account.",
+				"trans": "Trang bị đã chọn không thuộc về tài khoản này."
+			},
+			"equipmentRequired": {
+				"eng": "Only equipment can be attached to a Community Raffle.",
+				"trans": "Chỉ trang thiết bị mới có thể đính kèm vào Rút thăm cộng đồng."
+			},
+			"globalAnnouncement": {
+				"eng": "${creatorName} created a Community ${raffleLink}.",
+				"trans": "${creatorName} đã mở Quay Số Cộng Đồng. ${raffleLink}",
+				"vars": [
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"increaseMinimumLevel": {
+				"eng": "Increase minimum level by 50",
+				"trans": "Tăng cấp độ tối thiểu thêm 50"
+			},
+			"kitRequired": {
+				"eng": "You need a Community Raffle Kit to create this raffle.",
+				"trans": "Bạn cần có Bộ công cụ Quay số Cộng đồng để tạo sự kiện này."
+			},
+			"levelRequired": {
+				"eng": "Reach level ${level} to create a Community Raffle.",
+				"trans": "Đạt cấp ${level} để tạo Raffle Cộng đồng.",
+				"vars": [
+					"level"
+				]
+			},
+			"levelRequiredToast": {
+				"eng": "Reach level ${level} to create a Community Raffle.",
+				"trans": "Đạt cấp ${level} để tạo Raffle Cộng đồng.",
+				"vars": [
+					"level"
+				]
+			},
+			"minimumLevel": {
+				"eng": "Minimum level",
+				"trans": "Cấp độ tối thiểu"
+			},
+			"moderationRejected": {
+				"eng": "Automated check found the title or description inappropriate or unrelated to the Community Raffle. Update the title or description, then try again.",
+				"trans": "Hệ thống tự động phát hiện tiêu đề hoặc mô tả không phù hợp hoặc không liên quan đến Raffle Cộng đồng. Vui lòng chỉnh sửa rồi thử lại."
+			},
+			"moderationUnavailable": {
+				"eng": "Automated check is temporarily unavailable. Try again in a moment.",
+				"trans": "Kiểm duyệt tự động tạm thời không khả dụng. Vui lòng thử lại sau."
+			},
+			"noDescription": {
+				"eng": "None",
+				"trans": "Chưa có trang bị"
+			},
+			"noEquipment": {
+				"eng": "None",
+				"trans": "Chưa có trang bị"
+			},
+			"pageTitle": {
+				"eng": "Create Community Raffle",
+				"trans": "Tạo Quay Số Cộng Đồng"
+			},
+			"removeEquipmentSnapshot": {
+				"eng": "Remove equipment snapshot",
+				"trans": "Xóa bản ghi trang bị"
+			},
+			"review": {
+				"eng": "Review raffle",
+				"trans": "Xem lại bốc thăm"
+			},
+			"selectEquipment": {
+				"eng": "Select equipment snapshot",
+				"trans": "Chọn cấu hình trang bị đã lưu"
+			},
+			"title": {
+				"eng": "Title",
+				"trans": "Tiêu đề"
+			},
+			"titleCount": {
+				"eng": "${current} / ${maximum}",
+				"trans": "${current} / ${maximum}",
+				"vars": [
+					"current",
+					"maximum"
+				]
+			},
+			"titleLength": {
+				"eng": "Title must be ${minimum}–${maximum} characters.",
+				"trans": "Tiêu đề phải có độ dài từ ${minimum} đến ${maximum} ký tự.",
+				"vars": [
+					"minimum",
+					"maximum"
+				]
+			},
+			"titleRequired": {
+				"eng": "Enter a title.",
+				"trans": "Nhập tiêu đề."
+			}
+		},
+		"delete": {
+			"action": {
+				"eng": "Delete raffle",
+				"trans": "Xóa cuộc bốc thăm"
+			},
+			"confirmAction": {
+				"eng": "Delete permanently",
+				"trans": "Xóa vĩnh viễn"
+			},
+			"confirmTitle": {
+				"eng": "Delete Community Raffle?",
+				"trans": "Xóa Bốc Thăm Cộng Đồng?"
+			},
+			"creatorMail": {
+				"body": {
+					"eng": "Moderator ${moderatorName} deleted your Community Raffle: ${title}",
+					"trans": "Quản trị viên ${moderatorName} đã xóa Rút Thăm Cộng Đồng của bạn: ${title}",
+					"vars": [
+						"moderatorName",
+						"title"
+					]
+				}
+			},
+			"creatorSuccess": {
+				"eng": "You deleted your Community Raffle.",
+				"trans": "Bạn đã xóa xổ số cộng đồng của mình."
+			},
+			"creatorWarning": {
+				"eng": "This permanently removes your raffle and cannot be undone. The Community Raffle Kit will not be refunded.",
+				"trans": "Hành động này sẽ xóa vĩnh viễn buổi rút thăm của bạn và không thể hoàn tác. Gói Dụng Cụ Bốc Thăm Cộng Đồng sẽ không được hoàn lại."
+			},
+			"moderatorMail": {
+				"body": {
+					"eng": "You deleted ${creatorName}'s Community Raffle: ${title}",
+					"trans": "Bạn đã xóa Raffle Cộng đồng của ${creatorName}: ${title}",
+					"vars": [
+						"creatorName",
+						"title"
+					]
+				}
+			},
+			"moderatorWarning": {
+				"eng": "This permanently removes ${creator}'s raffle. They will be notified by mail.",
+				"trans": "Thao tác này sẽ xóa vĩnh viễn rút thăm của ${creator}. Họ sẽ nhận được thông báo qua thư.",
+				"vars": [
+					"creator"
+				]
+			}
+		},
+		"delivery": {
+			"creatorNoWinnerMail": {
+				"eng": "Your Community ${raffleLink} “${title}” is complete. No eligible winner remained.",
+				"trans": "Cuộc bốc thăm cộng đồng \"${title}\" của bạn đã kết thúc. Không có người trúng thưởng đủ điều kiện. ${raffleLink}",
+				"vars": [
+					"title",
+					"raffleLink"
+				]
+			},
+			"creatorWinnerMail": {
+				"eng": "Your Community ${raffleLink} “${title}” is complete. Winner: ${winnerName}.",
+				"trans": "Raffle cộng đồng “${title}” của bạn đã hoàn tất. Người trúng thưởng: ${winnerName}. ${raffleLink}",
+				"vars": [
+					"title",
+					"winnerName",
+					"raffleLink"
+				]
+			},
+			"globalAnnouncement": {
+				"eng": "🎉 ${winnerName} won a Community ${raffleLink}!",
+				"trans": "🎉 ${winnerName} đã trúng xổ số cộng đồng! ${raffleLink}",
+				"vars": [
+					"winnerName",
+					"raffleLink"
+				]
+			},
+			"winnerMail": {
+				"eng": "You won the Community ${raffleLink} “${title}”.",
+				"trans": "Bạn đã trúng Raffle cộng đồng “${title}”. ${raffleLink}",
+				"vars": [
+					"title",
+					"raffleLink"
+				]
+			}
+		},
+		"detail": {
+			"abandonedState": {
+				"eng": "Winner selection was not completed within the seven-day window.",
+				"trans": "Không thể chọn người trúng thưởng trong vòng bảy ngày."
+			},
+			"attachments": {
+				"eng": "Attachments",
+				"trans": "Đính kèm"
+			},
+			"closed": {
+				"eng": "Closed",
+				"trans": "Đã đóng"
+			},
+			"closesLabel": {
+				"eng": "Closes in",
+				"trans": "Kết thúc sau"
+			},
+			"entrantList": {
+				"eng": "Entrants",
+				"trans": "Người tham gia"
+			},
+			"hostLabel": {
+				"eng": "Host",
+				"trans": "Người tổ chức"
+			},
+			"levelShort": {
+				"eng": "LV ${level}+",
+				"trans": "Cấp ${level}+",
+				"vars": [
+					"level"
+				]
+			},
+			"minimumLevel": {
+				"eng": "Minimum level",
+				"trans": "Cấp độ tối thiểu"
+			},
+			"noEntrants": {
+				"eng": "No entries yet.",
+				"trans": "Chưa có người tham gia."
+			},
+			"notFound": {
+				"eng": "We cannot find this raffle.",
+				"trans": "Không tìm thấy sự kiện bốc thăm này."
+			},
+			"refresh": {
+				"eng": "Refresh raffle details",
+				"trans": "Làm mới chi tiết bốc thăm"
+			},
+			"selectedWinner": {
+				"eng": "Winner",
+				"trans": "Người chiến thắng"
+			},
+			"statusLabel": {
+				"eng": "Status",
+				"trans": "Trạng thái"
+			},
+			"unavailable": {
+				"eng": "Community Raffle unavailable",
+				"trans": "Rút thăm cộng đồng tạm khóa"
+			},
+			"winnerMarker": {
+				"eng": "Winner",
+				"trans": "Người chiến thắng"
+			}
+		},
+		"empty": {
+			"description": {
+				"eng": "Active and past raffles will appear here.",
+				"trans": "Các lượt rút thăm đang diễn ra và đã kết thúc sẽ hiển thị tại đây."
+			},
+			"title": {
+				"eng": "No Community Raffles yet",
+				"trans": "Chưa có Quay thưởng Cộng đồng nào"
+			}
+		},
+		"error": {
+			"notFound": {
+				"eng": "Community Raffle not found.",
+				"trans": "Không tìm thấy sự kiện trúng thưởng cộng đồng."
+			}
+		},
+		"join": {
+			"accountLimited": {
+				"eng": "Limited accounts cannot join Community Raffles.",
+				"trans": "Tài khoản bị hạn chế không thể tham gia Quay số cộng đồng."
+			},
+			"alreadyJoined": {
+				"eng": "You already joined this Community Raffle.",
+				"trans": "Bạn đã tham gia cuộc xổ số cộng đồng này rồi."
+			},
+			"associatedEntry": {
+				"eng": "An associated account already entered this Community Raffle.",
+				"trans": "Tài khoản liên kết đã tham gia cuộc bốc thăm cộng đồng này."
+			},
+			"closed": {
+				"eng": "This Community Raffle is no longer open for entry.",
+				"trans": "Kỳ bốc thăm cộng đồng này đã đóng cửa tham gia"
+			},
+			"creatorMail": {
+				"eng": "${playerName} has joined your ${raffleLink}. Total entrants: ${totalEntrants}.",
+				"trans": "${playerName} đã tham gia ${raffleLink}. Tổng số người dự: ${totalEntrants}.",
+				"vars": [
+					"playerName",
+					"raffleLink",
+					"totalEntrants"
+				]
+			},
+			"creatorMailOthers": {
+				"eng": "${playerName} and ${otherCount} more have joined your ${raffleLink}. Total entrants: ${totalEntrants}.",
+				"trans": "${playerName} và ${otherCount} người nữa đã tham gia ${raffleLink} của bạn. Tổng số người tham gia: ${totalEntrants}.",
+				"vars": [
+					"playerName",
+					"otherCount",
+					"raffleLink",
+					"totalEntrants"
+				]
+			},
+			"globalAnnouncement": {
+				"eng": "${playerName} has joined ${creatorName}'s ${raffleLink}.",
+				"trans": "${playerName} đã tham gia ${raffleLink} của ${creatorName}.",
+				"vars": [
+					"playerName",
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"globalAnnouncementOthers": {
+				"eng": "${playerName} and ${otherCount} more have joined ${creatorName}'s ${raffleLink}.",
+				"trans": "${playerName} cùng ${otherCount} người khác đã tham gia ${raffleLink} của ${creatorName}.",
+				"vars": [
+					"playerName",
+					"otherCount",
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"levelRequired": {
+				"eng": "Reach level ${level} to join this Community Raffle.",
+				"trans": "Đạt cấp độ ${level} để tham gia cuộc rút thăm cộng đồng này.",
+				"vars": [
+					"level"
+				]
+			},
+			"organizer": {
+				"eng": "You cannot join your own Community Raffle.",
+				"trans": "Bạn không thể tham gia Raffle Cộng đồng của chính bạn"
+			}
+		},
+		"loadError": {
+			"title": {
+				"eng": "Raffle list unavailable",
+				"trans": "Danh sách rút thăm tạm không khả dụng"
+			}
+		},
+		"raffleLink": {
+			"eng": "Raffle",
+			"trans": "Trúng thưởng"
+		},
+		"refresh": {
+			"eng": "Refresh raffle list",
+			"trans": "Cập nhật danh sách bốc thăm"
+		},
+		"row": {
+			"awaitingOrganizer": {
+				"eng": "Awaiting organizer",
+				"trans": "Đang chờ người điều hành"
+			},
+			"closedLabel": {
+				"eng": "Closed",
+				"trans": "Đã đóng"
+			},
+			"closesLabel": {
+				"eng": "Closes in",
+				"trans": "Kết thúc sau"
+			},
+			"entriesLabel": {
+				"eng": "Entries",
+				"trans": "Lượt tham gia"
+			},
+			"hostLabel": {
+				"eng": "Host",
+				"trans": "Người tổ chức"
+			},
+			"levelShort": {
+				"eng": "LV ${level}+",
+				"trans": "Cấp ${level}+",
+				"vars": [
+					"level"
+				]
+			},
+			"resultLabel": {
+				"eng": "Result",
+				"trans": "Kết quả"
+			}
+		},
+		"status": {
+			"abandoned": {
+				"eng": "Abandoned",
+				"trans": "Đã hủy"
+			},
+			"awaitingOrganizer": {
+				"eng": "Awaiting organizer",
+				"trans": "Đang chờ người điều hành"
+			},
+			"completed": {
+				"eng": "Completed",
+				"trans": "Hoàn tất"
+			},
+			"open": {
+				"eng": "Open",
+				"trans": "Mở"
+			}
+		},
+		"title": {
+			"eng": "Community Raffles",
+			"trans": "Quay Số Cộng Đồng"
+		},
+		"tutorial": {
+			"description": {
+				"eng": "Create, join, and select a winner.",
+				"trans": "Tạo, tham gia và chọn người chiến thắng."
+			},
+			"title": {
+				"eng": "How Community Raffles work",
+				"trans": "Cơ chế bốc thăm cộng đồng"
+			}
+		},
+		"validation": {
+			"request": {
+				"eng": "Invalid Community Raffle request.",
+				"trans": "Yêu cầu Raffle Cộng đồng không hợp lệ."
+			}
 		}
 	},
 	"component": {
@@ -2452,6 +3073,10 @@
 			"eng": "Vice Heat",
 			"trans": "Nhiệt Ngầm"
 		},
+		"donation55": {
+			"eng": "Black Press",
+			"trans": "Báo Đen"
+		},
 		"donation6": {
 			"eng": "Prestige",
 			"trans": "Uy tín"
@@ -3002,6 +3627,28 @@
 				"item",
 				"npcName"
 			]
+		}
+	},
+	"emblem": {
+		"showcase": {
+			"error": {
+				"emblemRequired": {
+					"eng": "Emblem is required",
+					"trans": "Huy hiệu là bắt buộc"
+				},
+				"invalidEmblem": {
+					"eng": "Invalid emblem type",
+					"trans": "Loại huy hiệu không hợp lệ"
+				},
+				"invalidSlot": {
+					"eng": "Invalid emblem showcase slot",
+					"trans": "Vị trí trưng bày huy hiệu không hợp lệ"
+				},
+				"notOwned": {
+					"eng": "You don't own this emblem",
+					"trans": "Bạn chưa sở hữu huy hiệu này"
+				}
+			}
 		}
 	},
 	"emblems": {
@@ -4231,22 +4878,22 @@
 	"globalPartyBanner": {
 		"button,": {
 			"eng": "Give street cred",
-			"trans": "Cung cấp tín dụng đường phố",
+			"trans": "Give street cred",
 			"vars": [
 				"playerName"
 			]
 		},
 		"subtitle": {
 			"eng": "Hosted by:",
-			"trans": "Tổ chức bởi:"
+			"trans": "Chủ trì bởi:"
 		},
 		"subtitleMulti": {
 			"eng": "Click to view party hosts:",
-			"trans": "Nhấn để xem các người chơi chủ trì bữa tiệc:"
+			"trans": "Nhấn để xem chủ nhóm:"
 		},
 		"title": {
 			"eng": "🎉 Global Party 🎉",
-			"trans": "🎉 Ăn mừng khắp chốn 🎉"
+			"trans": "Tiệc Toàn Cầu"
 		}
 	},
 	"globalPartyPage": {
@@ -5019,6 +5666,16 @@
 				"trans": "Hàng tiếp tế [Tập Đoàn]"
 			}
 		},
+		"communityRaffleKit": {
+			"description": {
+				"eng": "A deployable kit for creating one public Community Raffle. Consumed when the raffle is published.",
+				"trans": "Gói công cụ triển khai để tạo một sự kiện quay số cộng đồng công khai. Tự động bị tiêu hao ngay khi sự kiện được khởi chạy."
+			},
+			"name": {
+				"eng": "Community Raffle Kit",
+				"trans": "Gói Bốc Thăm Cộng Đồng"
+			}
+		},
 		"creatine": {
 			"description": {
 				"eng": "Push past your limits and grind like a machine--When consumed, increase damage dealt by ${percent}% for ${minutes} minutes",
@@ -5620,6 +6277,19 @@
 			"name": {
 				"eng": "Medical Tech Parts",
 				"trans": "Vật Tư Y Tế"
+			}
+		},
+		"mentorSkipVoucher": {
+			"description": {
+				"eng": "An evergreen voucher earned by helping a new runner reach level 50. It automatically applies a ${discountPercent}% Global Skip discount.",
+				"trans": "Phiếu giảm giá vĩnh cửu có được khi hỗ trợ Runner mới lên cấp 50. Tự động áp dụng giảm giá ${discountPercent}% cho Global Skip.",
+				"vars": [
+					"discountPercent"
+				]
+			},
+			"name": {
+				"eng": "Handler Skip Voucher",
+				"trans": "Phiếu Nhảy Lọt Trợ Lý"
 			}
 		},
 		"missileCommandPass": {
@@ -6329,6 +6999,13 @@
 		}
 	},
 	"itemInbox": {
+		"movedToInventory": {
+			"eng": "${item} has been moved from your item inbox to your inventory automatically",
+			"trans": "${item} đã được chuyển tự động từ hộp thư sang kho đồ",
+			"vars": [
+				"item"
+			]
+		},
 		"notifySender": {
 			"eng": "${recipient} has retrived your gift items (${itemNames}) from their inbox into their inventory.",
 			"trans": "${recipient} đã nhận các món quà (${itemNames}) từ hộp thư và chuyển chúng vào kho của mình.",
@@ -6395,6 +7072,43 @@
 		"title": {
 			"eng": "Rename History",
 			"trans": "Lịch sử đổi tên"
+		}
+	},
+	"itemSource": {
+		"drop": {
+			"dungeons": {
+				"eng": "Dungeons",
+				"trans": "Động Ngục"
+			},
+			"enemies": {
+				"eng": "Enemies",
+				"trans": "Kẻ thù"
+			},
+			"lootBoxes": {
+				"eng": "Loot boxes",
+				"trans": "Hộp vật phẩm"
+			},
+			"reclamationTier": {
+				"eng": "Drop on ${tier}",
+				"trans": "Thả vào ${tier}",
+				"vars": [
+					"tier"
+				]
+			}
+		}
+	},
+	"itemSourceModal": {
+		"description": {
+			"eng": "You can get this item from:",
+			"trans": "Bạn có thể nhận được vật phẩm này tại:"
+		},
+		"empty": {
+			"eng": "No current sources found.",
+			"trans": "Hiện không tìm thấy nguồn nào."
+		},
+		"title": {
+			"eng": "Item sources",
+			"trans": "Nguồn vật phẩm"
 		}
 	},
 	"itemStack": {
@@ -7125,6 +7839,10 @@
 		"streetcred": {
 			"eng": "Street Cred",
 			"trans": "Tín dụng đường phố"
+		},
+		"topHandlers": {
+			"eng": "Top Handlers",
+			"trans": "Top Nhà Điều Hành"
 		}
 	},
 	"leaderboardTypePage": {
@@ -8154,6 +8872,106 @@
 			"trans": "Chỉ Huy Tên Lửa"
 		}
 	},
+	"mentorship": {
+		"completion": {
+			"handlerMail": {
+				"eng": "${runnerName} reached level ${completionLevel} and passed verification. Your Handler rewards were delivered.",
+				"trans": "${runnerName} đã đạt cấp ${completionLevel} và hoàn tất xác minh. Phần thưởng Handler của bạn đã được chuyển tới.",
+				"vars": [
+					"runnerName",
+					"completionLevel"
+				]
+			}
+		},
+		"confirm": {
+			"currentHandler": {
+				"eng": "Current Handler",
+				"trans": "Người phụ trách hiện tại"
+			},
+			"endPermanently": {
+				"eng": "End permanently",
+				"trans": "Chấm dứt vĩnh viễn"
+			},
+			"endPurpose": {
+				"eng": "End your mentorship with this Handler.",
+				"trans": "Chấm dứt quá trình hướng dẫn với Người điều hành này."
+			},
+			"endTitle": {
+				"eng": "End mentorship",
+				"trans": "Kết thúc hướng dẫn"
+			},
+			"endWarning": {
+				"eng": "This is permanent. You cannot choose another Handler.",
+				"trans": "Đây là quyết định vĩnh viễn. Bạn không thể chọn Handler khác."
+			},
+			"mentorDetails": {
+				"eng": "${name} — Level ${level}",
+				"trans": "${name} - Trình độ ${level}",
+				"vars": [
+					"name",
+					"level"
+				]
+			},
+			"selectPermanently": {
+				"eng": "Choose permanently",
+				"trans": "Chọn vĩnh viễn"
+			},
+			"selectPurpose": {
+				"eng": "Choose a Handler to guide your early progression.",
+				"trans": "Chọn người hướng dẫn để dẫn lối giai đoạn phát triển ban đầu của bạn."
+			},
+			"selectTitle": {
+				"eng": "Choose Handler",
+				"trans": "Chọn người điều phối"
+			},
+			"selectWarning": {
+				"eng": "Choose only someone who has greatly helped you learn the game. Never choose a Handler for trades, items, or other favors. You cannot choose another Handler later, even if you end the mentorship.",
+				"trans": "Bạn chỉ được chọn Handler một lần duy nhất. Quyết định này sẽ không thể thay đổi."
+			}
+		},
+		"revoke": {
+			"invalid": {
+				"eng": "This mentorship can no longer be ended.",
+				"trans": "Không thể kết thúc mối quan hệ hướng dẫn này nữa."
+			}
+		},
+		"select": {
+			"handlerMail": {
+				"eng": "${runnerName} chose you as their Handler. Their mentorship will complete if they reach level ${completionLevel} and pass system verification.",
+				"trans": "${runnerName} đã chọn bạn làm Handler. Quá trình đào tạo sẽ hoàn tất khi họ đạt cấp ${completionLevel} và vượt qua xác thực hệ thống.",
+				"vars": [
+					"runnerName",
+					"completionLevel"
+				]
+			},
+			"ineligible": {
+				"eng": "This Handler selection is not eligible.",
+				"trans": "Lựa chọn Handler này không đủ điều kiện."
+			}
+		}
+	},
+	"mentorshipAssignmentsPage": {
+		"empty": {
+			"eng": "No runners are currently assigned to you.",
+			"trans": "Hiện không có Runner nào được phân công cho bạn."
+		},
+		"loadFailed": {
+			"eng": "Mentoring runners failed to load.",
+			"trans": "Không thể tải danh sách Runner hỗ trợ."
+		},
+		"loading": {
+			"eng": "Loading mentoring runners...",
+			"trans": "Đang tải tác nhân hướng dẫn..."
+		},
+		"private": {
+			"eng": "Private — only you can see this",
+			"trans": "Riêng tư — chỉ bạn mới có thể xem"
+		},
+		"title": {
+			"eng": "Mentoring Runners",
+			"trans": "Hướng Dẫn Runner"
+		}
+	},
 	"messageImage": {
 		"hideImage": {
 			"eng": "Hide Image",
@@ -8249,6 +9067,91 @@
 					"eng": "BREACH SUCCESS",
 					"trans": "Đột Phá Thành Công"
 				}
+			}
+		},
+		"orderSync": {
+			"board": {
+				"summary": {
+					"eng": "Sorting minigame. Arrange the bars from smallest to largest, left to right within the move budget. Drag a bar to reposition it, or tap two bars to swap them.",
+					"trans": "Minigame Sắp xếp. Xếp các thanh từ nhỏ nhất đến lớn nhất theo thứ tự trái sang phải trong giới hạn lượt di chuyển. Kéo một thanh để đặt lại vị trí hoặc chạm vào hai thanh để hoán đổi."
+				}
+			},
+			"fail": {
+				"description": {
+					"eng": "Sort the row before you run out of moves.",
+					"trans": "Sắp xếp hàng trước khi hết nước đi."
+				},
+				"retry": {
+					"eng": "Retry",
+					"trans": "Thử lại"
+				},
+				"status": {
+					"eng": "ORDER REJECTED",
+					"trans": "ĐƠN HÀNG BỊ TỪ CHỐI"
+				},
+				"title": {
+					"eng": "Out of moves",
+					"trans": "Hết lượt đi"
+				}
+			},
+			"instruction": {
+				"eng": "Sort small to big, left to right. Drag a bar to move it, or tap two to swap.",
+				"trans": "Sắp xếp từ nhỏ đến lớn, từ trái sang phải. Kéo thanh để di chuyển, hoặc chạm hai thanh để đổi chỗ."
+			},
+			"item": {
+				"aria": {
+					"eng": "Bar, value ${value}",
+					"trans": "Thanh, giá trị ${value}",
+					"vars": [
+						"value"
+					]
+				}
+			},
+			"scale": {
+				"high": {
+					"eng": "HIGH",
+					"trans": "CAO"
+				},
+				"label": {
+					"eng": "SIGNAL MAGNITUDE",
+					"trans": "Cường độ tín hiệu"
+				},
+				"low": {
+					"eng": "LOW",
+					"trans": "THẤP"
+				}
+			},
+			"status": {
+				"failed": {
+					"eng": "FAILED",
+					"trans": "THẤT BẠI"
+				},
+				"locked": {
+					"eng": "SORTED",
+					"trans": "Đã sắp xếp"
+				},
+				"moves": {
+					"eng": "MOVES ${count}/${max}",
+					"trans": "NƯỚC ĐI ${count}/${max}",
+					"vars": [
+						"count",
+						"max"
+					]
+				}
+			},
+			"success": {
+				"status": {
+					"eng": "ORDER VALIDATED",
+					"trans": "ĐƠN HÀNG ĐÃ XÁC THỰC"
+				},
+				"title": {
+					"eng": "Sequence sorted",
+					"trans": "Trình tự đã được sắp xếp"
+				}
+			},
+			"title": {
+				"eng": "Order Sync",
+				"trans": "Đồng Bộ Lệnh"
 			}
 		},
 		"relayGrid": {
@@ -11490,6 +12393,65 @@
 				"vars": [
 					"count"
 				]
+			}
+		},
+		"mentorship": {
+			"currentReward": {
+				"eng": "Reward per verified player",
+				"trans": "Phần thưởng cho mỗi người chơi đã xác thực"
+			},
+			"endMentorship": {
+				"eng": "End mentorship",
+				"trans": "Kết thúc hướng dẫn"
+			},
+			"futureHandlerHint": {
+				"eng": "At level ${handlerLevel}, you can also become a Handler, guide eligible new players, and earn rewards.",
+				"trans": "Khi đạt cấp ${handlerLevel}, bạn cũng có thể trở thành Handler, hướng dẫn người chơi mới đủ điều kiện và nhận phần thưởng.",
+				"vars": [
+					"handlerLevel"
+				]
+			},
+			"handler": {
+				"eng": "Handler",
+				"trans": "Người hướng dẫn"
+			},
+			"handlerHint": {
+				"eng": "You can now guide eligible new players as a Handler. They can choose you from your profile. Verified mentorships increase your public total and grant the reward below.",
+				"trans": "Bạn có thể bắt đầu dẫn dắt người chơi mới đủ điều kiện với tư cách Handler. Người chơi sẽ chọn bạn từ trang cá nhân. Mỗi mentorship được xác thực sẽ tăng tổng điểm công khai của bạn đồng thời cấp phần thưởng như bên dưới."
+			},
+			"handlerLoadFailed": {
+				"eng": "Handler load failed.",
+				"trans": "Không thể tải trình xử lý."
+			},
+			"loadingHandler": {
+				"eng": "Loading Handler...",
+				"trans": "Đang tải trình xử lý..."
+			},
+			"private": {
+				"eng": "Private — only you can see this",
+				"trans": "Riêng tư — chỉ bạn mới có thể xem"
+			},
+			"selectionEndedHint": {
+				"eng": "Your opportunity to choose a Handler ended after level ${maxLevel}. New players can choose one from level ${minLevel} to ${maxLevel} if their account is no more than ${maxAgeDays} days old. At level ${handlerLevel}, you can become a Handler, guide eligible new players, and earn rewards.",
+				"trans": "Cơ hội chọn Handler của bạn đã kết thúc sau cấp độ ${maxLevel}. Người chơi mới có thể lựa chọn vai trò này từ cấp ${minLevel} đến ${maxLevel} nếu tài khoản chưa quá ${maxAgeDays} ngày. Tại cấp ${handlerLevel}, bạn đủ điều kiện trở thành Handler, dẫn dắt người chơi mới và nhận phần thưởng.",
+				"vars": [
+					"minLevel",
+					"maxLevel",
+					"maxAgeDays",
+					"handlerLevel"
+				]
+			},
+			"title": {
+				"eng": "Mentorship",
+				"trans": "Huấn luyện"
+			},
+			"unknownHandler": {
+				"eng": "Unknown Handler",
+				"trans": "Handler Chưa Xác Định"
+			},
+			"viewMentoringRunners": {
+				"eng": "View Mentoring Runners",
+				"trans": "Xem Các Runner Được Huấn Luyện"
 			}
 		},
 		"pets": {
@@ -15297,6 +16259,10 @@
 				"eng": "Block List",
 				"trans": "Danh sách chặn"
 			},
+			"communityRaffle": {
+				"eng": "Community Raffles",
+				"trans": "Quay Số Cộng Đồng"
+			},
 			"coupon": {
 				"eng": "Claim Coupon",
 				"trans": "Mã thưởng"
@@ -15651,9 +16617,17 @@
 				}
 			},
 			"skippingBuff": {
-				"title": {
-					"eng": "Skip buff sponsored by:",
-					"trans": "Bỏ qua buff do tài trợ từ:"
+				"dismiss": {
+					"eng": "Dismiss Global Skip banner",
+					"trans": "Đóng thông báo Bỏ qua Toàn hệ thống"
+				},
+				"info": {
+					"eng": "Global Skip info",
+					"trans": "Thông tin buff bỏ qua toàn cục"
+				},
+				"sponsor": {
+					"eng": "Global Skip by",
+					"trans": "Bỏ Qua Toàn Cục Do"
 				}
 			}
 		},
@@ -16468,6 +17442,23 @@
 				"eng": "Equip",
 				"trans": "Trang bị"
 			},
+			"eventGamePass": {
+				"visitNpc": {
+					"eng": "Go to ${npcName}",
+					"trans": "Đến gặp ${npcName}",
+					"vars": [
+						"npcName"
+					]
+				},
+				"visitNpcDescription": {
+					"eng": "Bring this pass to ${personName} to play ${gameName}.",
+					"trans": "Đưa vé này cho ${personName} để chơi ${gameName}.",
+					"vars": [
+						"personName",
+						"gameName"
+					]
+				}
+			},
 			"history": {
 				"eng": "History",
 				"trans": "Lịch sử"
@@ -16595,6 +17586,10 @@
 			"getAllItems": {
 				"eng": "Get All Items",
 				"trans": "Lấy tất cả vật phẩm"
+			},
+			"noExpiry": {
+				"eng": "Does not expire",
+				"trans": "Không hết hạn"
 			},
 			"title": {
 				"eng": "Item Inbox",
@@ -16780,6 +17775,12 @@
 			"travel": {
 				"eng": "Travel",
 				"trans": "Du hành"
+			}
+		},
+		"markdown": {
+			"error": {
+				"eng": "Content unavailable. Check your connection and retry.",
+				"trans": "Nội dung không khả dụng. Kiểm tra kết nối mạng và thử lại."
 			}
 		},
 		"market": {
@@ -17119,6 +18120,92 @@
 				"eng": "Property of SLPD",
 				"trans": "Tài sản của SLPD"
 			},
+			"emblemShowcase": {
+				"addSlot": {
+					"eng": "Add emblem to slot ${slot}",
+					"trans": "Thêm huy hiệu vào khe ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"chooseEmblemByOption": {
+					"eng": "Select emblem option ${option} for slot ${slot}",
+					"trans": "Chọn tùy chọn huy hiệu ${option} cho vị trí ${slot}",
+					"vars": [
+						"option",
+						"slot"
+					]
+				},
+				"clearSlot": {
+					"eng": "Remove emblem from slot ${slot}",
+					"trans": "Gỡ huy hiệu khỏi khe ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"closePicker": {
+					"eng": "Close emblem picker",
+					"trans": "Đóng trình chọn huy hiệu"
+				},
+				"confirmSelection": {
+					"eng": "Confirm Selection",
+					"trans": "Xác nhận lựa chọn"
+				},
+				"editSlot": {
+					"eng": "Change emblem in slot ${slot}",
+					"trans": "Đổi huy hiệu ở khe ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"emblemLabelBySlot": {
+					"eng": "Showcase emblem in slot ${slot}",
+					"trans": "Trưng bày huy hiệu tại khe ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"pickerInstruction": {
+					"eng": "Select an emblem for slot ${slot}, then confirm.",
+					"trans": "Chọn huy hiệu cho ô ${slot}, sau đó xác nhận.",
+					"vars": [
+						"slot"
+					]
+				},
+				"pickerTitle": {
+					"eng": "Choose Emblem",
+					"trans": "Chọn Biểu Tượng"
+				},
+				"playAudioBySlot": {
+					"eng": "Play audio for emblem in slot ${slot}",
+					"trans": "Phát âm thanh huy hiệu tại khe ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"remove": {
+					"eng": "Remove",
+					"trans": "Xóa"
+				},
+				"removeConfirmationTitle": {
+					"eng": "Remove emblem from slot ${slot}?",
+					"trans": "Gỡ biểu tượng khỏi vị trí ${slot}?",
+					"vars": [
+						"slot"
+					]
+				},
+				"slotMarker": {
+					"eng": "Slot ${slot}",
+					"trans": "Vị trí ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"title": {
+					"eng": "pinned emblems",
+					"trans": "Huy hiệu đã ghim"
+				}
+			},
 			"gangAction": {
 				"editPermissions": {
 					"eng": "Permissions",
@@ -17193,6 +18280,10 @@
 				"block": {
 					"eng": "Block Player",
 					"trans": "Chặn người chơi"
+				},
+				"chooseHandler": {
+					"eng": "Choose as Handler",
+					"trans": "Chọn làm Điều phối viên"
 				},
 				"giveStreetCred": {
 					"eng": "Give Street Cred",
@@ -17720,6 +18811,16 @@
 					"trans": "Đặt biểu tượng ở chế độ riêng tư"
 				}
 			},
+			"privateHandler": {
+				"description": {
+					"eng": "Hide your Handler from other players",
+					"trans": "Ẩn Handler của bạn khỏi người chơi khác"
+				},
+				"title": {
+					"eng": "Hide my Handler",
+					"trans": "Ẩn Handler Của Tôi"
+				}
+			},
 			"promoOnlyShowWhenUpdate": {
 				"description": {
 					"eng": "Only show promo popup when there is a new event",
@@ -17984,6 +19085,10 @@
 				"eng": "combat",
 				"trans": "Chiến đấu"
 			},
+			"communityRaffles": {
+				"eng": "Community Raffles",
+				"trans": "Quay Số Cộng Đồng"
+			},
 			"dataFortress": {
 				"eng": "SL-Data Fortress",
 				"trans": "Thành trì dữ liệu SL"
@@ -18015,6 +19120,10 @@
 			"furniture": {
 				"eng": "Furniture",
 				"trans": "Đồ nội thất"
+			},
+			"handlers": {
+				"eng": "Handlers",
+				"trans": "Điều hành viên"
 			},
 			"inventory": {
 				"eng": "inventory",
@@ -18067,6 +19176,74 @@
 			"timeSkip": {
 				"eng": "time skip",
 				"trans": "Thời gian bỏ qua"
+			}
+		},
+		"tutorialSearch": {
+			"clear": {
+				"eng": "Clear search",
+				"trans": "Xóa tìm kiếm"
+			},
+			"close": {
+				"eng": "Close tutorial search",
+				"trans": "Đóng tìm kiếm hướng dẫn"
+			},
+			"error": {
+				"eng": "Tutorial search is unavailable. Check your connection and retry.",
+				"trans": "Tìm kiếm hướng dẫn tạm thời không khả dụng. Vui lòng kiểm tra kết nối mạng và thử lại."
+			},
+			"label": {
+				"eng": "Tutorial Search",
+				"trans": "Tìm hướng dẫn"
+			},
+			"loading": {
+				"eng": "Indexing tutorials...",
+				"trans": "Đang xử lý hướng dẫn..."
+			},
+			"matchEnglishSectionLabel": {
+				"eng": "English section",
+				"trans": "Tiếng Anh"
+			},
+			"matchEnglishTitleLabel": {
+				"eng": "English title",
+				"trans": "Tiêu đề tiếng Anh"
+			},
+			"matchSectionLabel": {
+				"eng": "Section",
+				"trans": "PHÂN ĐOẠN"
+			},
+			"matchTitle": {
+				"eng": "Title match",
+				"trans": "Khớp tiêu đề"
+			},
+			"noResults": {
+				"eng": "No tutorial results for \"${query}\"",
+				"trans": "Không tìm thấy hướng dẫn nào cho \"${query}\"",
+				"vars": [
+					"query"
+				]
+			},
+			"partial": {
+				"eng": "Some tutorials could not be indexed.",
+				"trans": "Một số hướng dẫn không thể được thêm vào danh sách tìm kiếm"
+			},
+			"placeholder": {
+				"eng": "Search tutorials...",
+				"trans": "Tìm kiếm hướng dẫn..."
+			},
+			"ready": {
+				"eng": "Search tutorial titles, sections, and content.",
+				"trans": "Tìm tiêu đề, phần và nội dung hướng dẫn."
+			},
+			"resultCount": {
+				"eng": "${count} results",
+				"trans": "${count} kết quả",
+				"vars": [
+					"count"
+				]
+			},
+			"resultCountOne": {
+				"eng": "1 result",
+				"trans": "1 kết quả"
 			}
 		},
 		"unit": {

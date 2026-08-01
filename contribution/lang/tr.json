@@ -965,6 +965,13 @@
 				}
 			}
 		},
+		"discount": {
+			"eng": "${percent}% off",
+			"trans": "%${percent} indirim",
+			"vars": [
+				"percent"
+			]
+		},
 		"free": {
 			"eng": "Free",
 			"trans": "Özgür"
@@ -974,6 +981,10 @@
 				"eng": "Free Personal Skip",
 				"trans": "Ücretsiz kişisel atlama"
 			}
+		},
+		"notAvailable": {
+			"eng": "Bundle not available",
+			"trans": "Paket Kullanılamıyor"
 		},
 		"rareEquipmentCrate": {
 			"name": {
@@ -991,6 +1002,12 @@
 			"name": {
 				"eng": "Skip supply bundle",
 				"trans": "Tedarik paketini atla"
+			}
+		},
+		"summerNightsFragmentFusion": {
+			"name": {
+				"eng": "Summer Nights Fusion Bundle",
+				"trans": "Yaz Geceleri Füzyon Paketi"
 			}
 		}
 	},
@@ -1306,12 +1323,6 @@
 		"offRotation": {
 			"eng": "Out of rotation",
 			"trans": "Döngüde değil"
-		}
-	},
-	"chatHeader": {
-		"skipAvailable": {
-			"eng": "Available",
-			"trans": "Uygun"
 		}
 	},
 	"chatInput": {
@@ -1796,6 +1807,14 @@
 			"eng": "Got it",
 			"trans": "Anladım"
 		},
+		"keep": {
+			"eng": "Keep raffle",
+			"trans": "Sahiplendirme Çekilişi"
+		},
+		"loading": {
+			"eng": "Loading",
+			"trans": "Yükleniyor"
+		},
 		"max": {
 			"eng": "MAX",
 			"trans": "Maksimum"
@@ -1809,7 +1828,7 @@
 			"trans": "Satın Al"
 		},
 		"retry": {
-			"eng": "RETRY CONNECTION",
+			"eng": "Retry",
 			"trans": "Yeniden Bağlan"
 		},
 		"save": {
@@ -1819,6 +1838,608 @@
 		"warning": {
 			"eng": "Warning",
 			"trans": "Uyarı"
+		}
+	},
+	"communityRaffle": {
+		"action": {
+			"accountBlocked": {
+				"eng": "Limited accounts cannot join Community Raffles.",
+				"trans": "Kısıtlı hesaplar topluluk çekilişlerine katılamaz."
+			},
+			"closeRaffle": {
+				"eng": "Close raffle",
+				"trans": "Çekilişi Kapat"
+			},
+			"closeRaffleDescription": {
+				"eng": "Select and announce the winner",
+				"trans": "Kazananı seç ve duyur"
+			},
+			"graceExpired": {
+				"eng": "Winner selection window expired.",
+				"trans": "Kazanan seçimi süresi doldu."
+			},
+			"join": {
+				"eng": "Join raffle",
+				"trans": "Çekilişe Katıl"
+			},
+			"levelBlocked": {
+				"eng": "Reach level ${level} to join.",
+				"trans": "Katılmak için ${level} seviyesine ulaşın.",
+				"vars": [
+					"level"
+				]
+			}
+		},
+		"chatHeader": {
+			"open": {
+				"eng": "Open Community Raffles",
+				"trans": "Açık Topluluk Çekilişleri"
+			}
+		},
+		"closeRaffle": {
+			"deadline": {
+				"eng": "Winner selection is available after the entry deadline.",
+				"trans": "Kazanan seçimi, giriş süresi bitiminde gerçekleştirilir."
+			},
+			"notOrganizer": {
+				"eng": "Only this Community Raffle's organizer can select the winner.",
+				"trans": "Yalnızca bu topluluk çekilişinin düzenleyicisi kazananı seçebilir."
+			},
+			"unavailable": {
+				"eng": "Winner selection is not available for this Community Raffle.",
+				"trans": "Bu Topluluk Çekilişi için kazanan seçimi mevcut değil."
+			}
+		},
+		"create": {
+			"accountLimited": {
+				"eng": "Limited accounts cannot create Community Raffles.",
+				"trans": "Kısıtlı hesaplar topluluk çekilişi oluşturamaz."
+			},
+			"accountLimitedToast": {
+				"eng": "Limited accounts cannot create Community Raffles.",
+				"trans": "Kısıtlı hesaplar topluluk çekilişi oluşturamaz."
+			},
+			"action": {
+				"eng": "Create raffle",
+				"trans": "Çekiliş oluştur"
+			},
+			"addEquipment": {
+				"eng": "Attach equipment",
+				"trans": "Ekipman Ekle"
+			},
+			"backToEdit": {
+				"eng": "Back to edit",
+				"trans": "Düzenlemeye Dön"
+			},
+			"composerCounts": {
+				"eng": "${attachments} / ${maximumAttachments} · ${characters} / ${maximumCharacters}",
+				"trans": "${attachments} / ${maximumAttachments} · ${characters} / ${maximumCharacters}",
+				"vars": [
+					"attachments",
+					"maximumAttachments",
+					"characters",
+					"maximumCharacters"
+				]
+			},
+			"confirmAction": {
+				"eng": "Consume 1 Kit and publish",
+				"trans": "1 Kit tüket ve yayınla"
+			},
+			"confirmKitCost": {
+				"eng": "Publishing consumes one Community Raffle Kit.",
+				"trans": "Bu yayınlama işlemi için bir Topluluk Çekilişi Seti harcanacaktır."
+			},
+			"confirmPermanent": {
+				"eng": "Published settings cannot be edited. Deleting the raffle will not refund the Kit.",
+				"trans": "Yayınlanan ayarlar düzenlenemez. Çekilişi sildiğinizde Kit iadesi yapılmaz."
+			},
+			"confirmTitle": {
+				"eng": "Publish Community Raffle?",
+				"trans": "Topluluk Çekilişini Yayınla mı?"
+			},
+			"cost": {
+				"eng": "1 Raffle Kit",
+				"trans": "1 Çekiliş Paketi"
+			},
+			"decreaseMinimumLevel": {
+				"eng": "Decrease minimum level by 50",
+				"trans": "Minimum seviyeyi 50 düşür"
+			},
+			"description": {
+				"eng": "Description (optional)",
+				"trans": "Açıklama (isteğe bağlı)"
+			},
+			"duration": {
+				"eng": "Duration",
+				"trans": "Süre"
+			},
+			"durationFourteenDays": {
+				"eng": "14 days",
+				"trans": "14 gün"
+			},
+			"durationOneDay": {
+				"eng": "1 day",
+				"trans": "1 gün"
+			},
+			"durationOptionFourteenDays": {
+				"eng": "14D",
+				"trans": "14 Gün"
+			},
+			"durationOptionFourteenDaysAccessible": {
+				"eng": "14 days",
+				"trans": "14 gün"
+			},
+			"durationOptionOneDay": {
+				"eng": "1D",
+				"trans": "1 gün"
+			},
+			"durationOptionOneDayAccessible": {
+				"eng": "1 day",
+				"trans": "1 gün"
+			},
+			"durationOptionSevenDays": {
+				"eng": "7D",
+				"trans": "7Gün"
+			},
+			"durationOptionSevenDaysAccessible": {
+				"eng": "7 days",
+				"trans": "7 gün"
+			},
+			"durationOptionThirtyDays": {
+				"eng": "30D",
+				"trans": "30 Gün"
+			},
+			"durationOptionThirtyDaysAccessible": {
+				"eng": "30 days",
+				"trans": "30 gün"
+			},
+			"durationOptionThreeDays": {
+				"eng": "3D",
+				"trans": "3 gün"
+			},
+			"durationOptionThreeDaysAccessible": {
+				"eng": "3 days",
+				"trans": "3 gün"
+			},
+			"durationSevenDays": {
+				"eng": "7 days",
+				"trans": "7 gün"
+			},
+			"durationThirtyDays": {
+				"eng": "30 days",
+				"trans": "30 gün"
+			},
+			"durationThreeDays": {
+				"eng": "3 days",
+				"trans": "3 gün"
+			},
+			"equipment": {
+				"eng": "Equipment snapshot (optional)",
+				"trans": "Ekipman görüntüsü (isteğe bağlı)"
+			},
+			"equipmentDeliveryDescription": {
+				"eng": "Attached equipment stays in your inventory and is not sent to the winner. You must deliver it yourself.",
+				"trans": "Ekli ekipman envanterinizde kalır ve kazanan'a gönderilmez. Teslimatı kendiniz yapmalısınız."
+			},
+			"equipmentDeliveryTitle": {
+				"eng": "Equipment delivery is manual",
+				"trans": "Ekipman teslimi elle yapılır"
+			},
+			"equipmentNotOwned": {
+				"eng": "Selected equipment is not owned by this account.",
+				"trans": "Seçilen ekipman bu hesaba ait değil."
+			},
+			"equipmentRequired": {
+				"eng": "Only equipment can be attached to a Community Raffle.",
+				"trans": "Yalnızca ekipman Topluluk Çekilişi'ne eklenebilir."
+			},
+			"globalAnnouncement": {
+				"eng": "${creatorName} created a Community ${raffleLink}.",
+				"trans": "${creatorName} Topluluk ${raffleLink} oluşturdu.",
+				"vars": [
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"increaseMinimumLevel": {
+				"eng": "Increase minimum level by 50",
+				"trans": "Minimum seviyeyi 50 artır"
+			},
+			"kitRequired": {
+				"eng": "You need a Community Raffle Kit to create this raffle.",
+				"trans": "Bu çekilişi oluşturmak için Topluluk Çekilişi Seti gerekiyor."
+			},
+			"levelRequired": {
+				"eng": "Reach level ${level} to create a Community Raffle.",
+				"trans": "Topluluk Çekilişi oluşturmak için ${level}. seviyeye ulaşın",
+				"vars": [
+					"level"
+				]
+			},
+			"levelRequiredToast": {
+				"eng": "Reach level ${level} to create a Community Raffle.",
+				"trans": "Topluluk Çekilişi oluşturmak için ${level}. seviyeye ulaşın",
+				"vars": [
+					"level"
+				]
+			},
+			"minimumLevel": {
+				"eng": "Minimum level",
+				"trans": "Minimum seviye"
+			},
+			"moderationRejected": {
+				"eng": "Automated check found the title or description inappropriate or unrelated to the Community Raffle. Update the title or description, then try again.",
+				"trans": "Otomatik denetim, başlık veya açıklamanın Topluluk Çekilişi için uygunsuz ya da konuyla alakasız olduğunu tespit etti. Başlığı veya açıklamayı güncelleyip yeniden deneyin."
+			},
+			"moderationUnavailable": {
+				"eng": "Automated check is temporarily unavailable. Try again in a moment.",
+				"trans": "Otomatik denetim geçici olarak kullanılamıyor. Kısa süre sonra tekrar deneyin."
+			},
+			"noDescription": {
+				"eng": "None",
+				"trans": "Yok"
+			},
+			"noEquipment": {
+				"eng": "None",
+				"trans": "Yok"
+			},
+			"pageTitle": {
+				"eng": "Create Community Raffle",
+				"trans": "Topluluk Çekilişi Oluştur"
+			},
+			"removeEquipmentSnapshot": {
+				"eng": "Remove equipment snapshot",
+				"trans": "Ekipman kaydını sil"
+			},
+			"review": {
+				"eng": "Review raffle",
+				"trans": "Çekilişi Gözden Geçir"
+			},
+			"selectEquipment": {
+				"eng": "Select equipment snapshot",
+				"trans": "Ekipman Konfigürasyonunu Seç"
+			},
+			"title": {
+				"eng": "Title",
+				"trans": "Başlık"
+			},
+			"titleCount": {
+				"eng": "${current} / ${maximum}",
+				"trans": "${current} / ${maximum}",
+				"vars": [
+					"current",
+					"maximum"
+				]
+			},
+			"titleLength": {
+				"eng": "Title must be ${minimum}–${maximum} characters.",
+				"trans": "Başlık ${minimum}–${maximum} karakter arasında olmalıdır.",
+				"vars": [
+					"minimum",
+					"maximum"
+				]
+			},
+			"titleRequired": {
+				"eng": "Enter a title.",
+				"trans": "Başlık girin."
+			}
+		},
+		"delete": {
+			"action": {
+				"eng": "Delete raffle",
+				"trans": "Çekilişi sil"
+			},
+			"confirmAction": {
+				"eng": "Delete permanently",
+				"trans": "Kalıcı olarak sil"
+			},
+			"confirmTitle": {
+				"eng": "Delete Community Raffle?",
+				"trans": "Topluluk Çekilişi Silinsin Mi?"
+			},
+			"creatorMail": {
+				"body": {
+					"eng": "Moderator ${moderatorName} deleted your Community Raffle: ${title}",
+					"trans": "Moderatör ${moderatorName} topluluk çekilişinizi sildi: ${title}",
+					"vars": [
+						"moderatorName",
+						"title"
+					]
+				}
+			},
+			"creatorSuccess": {
+				"eng": "You deleted your Community Raffle.",
+				"trans": "Topluluk çekilişinizi sildiniz."
+			},
+			"creatorWarning": {
+				"eng": "This permanently removes your raffle and cannot be undone. The Community Raffle Kit will not be refunded.",
+				"trans": "Bu işlem çekilişinizi kalıcı olarak kaldırır ve geri dönüşü yoktur. Topluluk Çekilişi Kiti iade edilmez."
+			},
+			"moderatorMail": {
+				"body": {
+					"eng": "You deleted ${creatorName}'s Community Raffle: ${title}",
+					"trans": "Siz ${creatorName}'ın Topluluk Çekilişi olan ${title}'ı sildiniz",
+					"vars": [
+						"creatorName",
+						"title"
+					]
+				}
+			},
+			"moderatorWarning": {
+				"eng": "This permanently removes ${creator}'s raffle. They will be notified by mail.",
+				"trans": "${creator} kullanıcısının çekilişi kalıcı olarak kaldırılacak. Kullanıcıya posta yoluyla bildirim gönderilecek.",
+				"vars": [
+					"creator"
+				]
+			}
+		},
+		"delivery": {
+			"creatorNoWinnerMail": {
+				"eng": "Your Community ${raffleLink} “${title}” is complete. No eligible winner remained.",
+				"trans": "Topluluğunuzun ${raffleLink} “${title}” çekilişi sona erdi. Geçerli bir kazanan bulunamadı.",
+				"vars": [
+					"title",
+					"raffleLink"
+				]
+			},
+			"creatorWinnerMail": {
+				"eng": "Your Community ${raffleLink} “${title}” is complete. Winner: ${winnerName}.",
+				"trans": "Topluluğunuzun ${raffleLink} “${title}” çekilişi tamamlandı. Kazanan: ${winnerName}.",
+				"vars": [
+					"title",
+					"winnerName",
+					"raffleLink"
+				]
+			},
+			"globalAnnouncement": {
+				"eng": "🎉 ${winnerName} won a Community ${raffleLink}!",
+				"trans": "🎉 ${winnerName} Topluluk Çekilişi'nde ${raffleLink} kazandı!",
+				"vars": [
+					"winnerName",
+					"raffleLink"
+				]
+			},
+			"winnerMail": {
+				"eng": "You won the Community ${raffleLink} “${title}”.",
+				"trans": "Topluluk ${raffleLink} “${title}” kazandınız.",
+				"vars": [
+					"title",
+					"raffleLink"
+				]
+			}
+		},
+		"detail": {
+			"abandonedState": {
+				"eng": "Winner selection was not completed within the seven-day window.",
+				"trans": "Kazanan seçimi yedi günlük süre içinde tamamlanamadı."
+			},
+			"attachments": {
+				"eng": "Attachments",
+				"trans": "Ekler"
+			},
+			"closed": {
+				"eng": "Closed",
+				"trans": "Kapalı"
+			},
+			"closesLabel": {
+				"eng": "Closes in",
+				"trans": "Kalan Süre"
+			},
+			"entrantList": {
+				"eng": "Entrants",
+				"trans": "Katılımcılar"
+			},
+			"hostLabel": {
+				"eng": "Host",
+				"trans": "Ev Sahibi"
+			},
+			"levelShort": {
+				"eng": "LV ${level}+",
+				"trans": "Seviye ${level}+",
+				"vars": [
+					"level"
+				]
+			},
+			"minimumLevel": {
+				"eng": "Minimum level",
+				"trans": "Minimum seviye"
+			},
+			"noEntrants": {
+				"eng": "No entries yet.",
+				"trans": "Henüz kayıt yok."
+			},
+			"notFound": {
+				"eng": "We cannot find this raffle.",
+				"trans": "Bu çekiliş bulunamadı."
+			},
+			"refresh": {
+				"eng": "Refresh raffle details",
+				"trans": "Çekiliş detaylarını yenile"
+			},
+			"selectedWinner": {
+				"eng": "Winner",
+				"trans": "Kazanan"
+			},
+			"statusLabel": {
+				"eng": "Status",
+				"trans": "Durum"
+			},
+			"unavailable": {
+				"eng": "Community Raffle unavailable",
+				"trans": "Topluluk Çekilişi Erişilemiyor"
+			},
+			"winnerMarker": {
+				"eng": "Winner",
+				"trans": "Kazanan"
+			}
+		},
+		"empty": {
+			"description": {
+				"eng": "Active and past raffles will appear here.",
+				"trans": "Aktif ve geçmiş çekilişler burada listelenecek."
+			},
+			"title": {
+				"eng": "No Community Raffles yet",
+				"trans": "Henüz topluluk çekilişi yok"
+			}
+		},
+		"error": {
+			"notFound": {
+				"eng": "Community Raffle not found.",
+				"trans": "Topluluk çekilişi bulunamadı."
+			}
+		},
+		"join": {
+			"accountLimited": {
+				"eng": "Limited accounts cannot join Community Raffles.",
+				"trans": "Kısıtlı hesaplar topluluk çekilişlerine katılamaz."
+			},
+			"alreadyJoined": {
+				"eng": "You already joined this Community Raffle.",
+				"trans": "Bu topluluk çekilişine zaten katıldınız."
+			},
+			"associatedEntry": {
+				"eng": "An associated account already entered this Community Raffle.",
+				"trans": "Bu topluluk çekilişine bağlı bir hesap zaten katıldı."
+			},
+			"closed": {
+				"eng": "This Community Raffle is no longer open for entry.",
+				"trans": "Bu topluluk çekilişi artık katılıma açık değil."
+			},
+			"creatorMail": {
+				"eng": "${playerName} has joined your ${raffleLink}. Total entrants: ${totalEntrants}.",
+				"trans": "${playerName} ${raffleLink}'e katıldı. Toplam katılımcı: ${totalEntrants}.",
+				"vars": [
+					"playerName",
+					"raffleLink",
+					"totalEntrants"
+				]
+			},
+			"creatorMailOthers": {
+				"eng": "${playerName} and ${otherCount} more have joined your ${raffleLink}. Total entrants: ${totalEntrants}.",
+				"trans": "${playerName} ve ${otherCount} kişi daha ${raffleLink}'e katıldı. Toplam katılımcı: ${totalEntrants}.",
+				"vars": [
+					"playerName",
+					"otherCount",
+					"raffleLink",
+					"totalEntrants"
+				]
+			},
+			"globalAnnouncement": {
+				"eng": "${playerName} has joined ${creatorName}'s ${raffleLink}.",
+				"trans": "${playerName}, ${creatorName}'ın ${raffleLink}ine katıldı.",
+				"vars": [
+					"playerName",
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"globalAnnouncementOthers": {
+				"eng": "${playerName} and ${otherCount} more have joined ${creatorName}'s ${raffleLink}.",
+				"trans": "${playerName} ve ${otherCount} kişi daha ${creatorName}'in ${raffleLink} çekilişine katıldı.",
+				"vars": [
+					"playerName",
+					"otherCount",
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"levelRequired": {
+				"eng": "Reach level ${level} to join this Community Raffle.",
+				"trans": "Bu topluluk çekilişine katılmak için ${level} seviyeye ulaşın.",
+				"vars": [
+					"level"
+				]
+			},
+			"organizer": {
+				"eng": "You cannot join your own Community Raffle.",
+				"trans": "Kendi topluluk çekilişinize katılamazsınız."
+			}
+		},
+		"loadError": {
+			"title": {
+				"eng": "Raffle list unavailable",
+				"trans": "Çekiliş Listesi Erişilemiyor"
+			}
+		},
+		"raffleLink": {
+			"eng": "Raffle",
+			"trans": "Çekiliş"
+		},
+		"refresh": {
+			"eng": "Refresh raffle list",
+			"trans": "Çekiliş listesini yenile"
+		},
+		"row": {
+			"awaitingOrganizer": {
+				"eng": "Awaiting organizer",
+				"trans": "Organizatör bekleniyor"
+			},
+			"closedLabel": {
+				"eng": "Closed",
+				"trans": "Kapalı"
+			},
+			"closesLabel": {
+				"eng": "Closes in",
+				"trans": "Kalan Süre"
+			},
+			"entriesLabel": {
+				"eng": "Entries",
+				"trans": "Katılım"
+			},
+			"hostLabel": {
+				"eng": "Host",
+				"trans": "Ev Sahibi"
+			},
+			"levelShort": {
+				"eng": "LV ${level}+",
+				"trans": "Seviye ${level}+",
+				"vars": [
+					"level"
+				]
+			},
+			"resultLabel": {
+				"eng": "Result",
+				"trans": "Sonuç"
+			}
+		},
+		"status": {
+			"abandoned": {
+				"eng": "Abandoned",
+				"trans": "Terk Edildi"
+			},
+			"awaitingOrganizer": {
+				"eng": "Awaiting organizer",
+				"trans": "Organizatör bekleniyor"
+			},
+			"completed": {
+				"eng": "Completed",
+				"trans": "Tamamlandı"
+			},
+			"open": {
+				"eng": "Open",
+				"trans": "Açık"
+			}
+		},
+		"title": {
+			"eng": "Community Raffles",
+			"trans": "Topluluk Çekilişleri"
+		},
+		"tutorial": {
+			"description": {
+				"eng": "Create, join, and select a winner.",
+				"trans": "Oluştur, katıl ve bir kazanan seç."
+			},
+			"title": {
+				"eng": "How Community Raffles work",
+				"trans": "Topluluk Çekilişleri Nasıl İşler?<"
+			}
+		},
+		"validation": {
+			"request": {
+				"eng": "Invalid Community Raffle request.",
+				"trans": "Geçersiz topluluk çekilişi talebi."
+			}
 		}
 	},
 	"component": {
@@ -2452,6 +3073,10 @@
 			"eng": "Vice Heat",
 			"trans": "Karanlık Gerilim"
 		},
+		"donation55": {
+			"eng": "Black Press",
+			"trans": "Kara Basın"
+		},
 		"donation6": {
 			"eng": "Prestige",
 			"trans": "Prestij"
@@ -3002,6 +3627,28 @@
 				"item",
 				"npcName"
 			]
+		}
+	},
+	"emblem": {
+		"showcase": {
+			"error": {
+				"emblemRequired": {
+					"eng": "Emblem is required",
+					"trans": "Rozet gereklidir"
+				},
+				"invalidEmblem": {
+					"eng": "Invalid emblem type",
+					"trans": "Geçersiz emleji türü"
+				},
+				"invalidSlot": {
+					"eng": "Invalid emblem showcase slot",
+					"trans": "Geçersiz rozet vitrin yuvası"
+				},
+				"notOwned": {
+					"eng": "You don't own this emblem",
+					"trans": "Bu embleme sahip değilsiniz"
+				}
+			}
 		}
 	},
 	"emblems": {
@@ -5019,6 +5666,16 @@
 				"trans": "Erzak Kasası [Çete]"
 			}
 		},
+		"communityRaffleKit": {
+			"description": {
+				"eng": "A deployable kit for creating one public Community Raffle. Consumed when the raffle is published.",
+				"trans": "Tek bir halka açık Topluluk Çekilişi oluşturmak için kullanıma hazır set. Çekiliş yayınlandığında tüketilir."
+			},
+			"name": {
+				"eng": "Community Raffle Kit",
+				"trans": "Topluluk Çekilişi Seti"
+			}
+		},
 		"creatine": {
 			"description": {
 				"eng": "Push past your limits and grind like a machine--When consumed, increase damage dealt by ${percent}% for ${minutes} minutes",
@@ -5620,6 +6277,19 @@
 			"name": {
 				"eng": "Medical Tech Parts",
 				"trans": "Tıbbi Teknolojik Parçalar"
+			}
+		},
+		"mentorSkipVoucher": {
+			"description": {
+				"eng": "An evergreen voucher earned by helping a new runner reach level 50. It automatically applies a ${discountPercent}% Global Skip discount.",
+				"trans": "Yeni bir koşucunun 50. seviyeye ulaşmasına yardımcı olarak kazanılan kalıcı kupon. Otomatik olarak %${discountPercent} Global Atla indirimini uygular.",
+				"vars": [
+					"discountPercent"
+				]
+			},
+			"name": {
+				"eng": "Handler Skip Voucher",
+				"trans": "Rehber Atlama Bileti"
 			}
 		},
 		"missileCommandPass": {
@@ -6329,6 +6999,13 @@
 		}
 	},
 	"itemInbox": {
+		"movedToInventory": {
+			"eng": "${item} has been moved from your item inbox to your inventory automatically",
+			"trans": "${item} eşya kutunuzdan envanterinize otomatik olarak aktarıldı",
+			"vars": [
+				"item"
+			]
+		},
 		"notifySender": {
 			"eng": "${recipient} has retrived your gift items (${itemNames}) from their inbox into their inventory.",
 			"trans": "${recipient} hediyelerinizin (${itemNames}) gelen kutusundan envanterine taşındığını gördü.",
@@ -6395,6 +7072,43 @@
 		"title": {
 			"eng": "Rename History",
 			"trans": "Yeniden Adlandırma Geçmişi"
+		}
+	},
+	"itemSource": {
+		"drop": {
+			"dungeons": {
+				"eng": "Dungeons",
+				"trans": "Zindanlar"
+			},
+			"enemies": {
+				"eng": "Enemies",
+				"trans": "Düşmanlar"
+			},
+			"lootBoxes": {
+				"eng": "Loot boxes",
+				"trans": "Ganimet Kutuları"
+			},
+			"reclamationTier": {
+				"eng": "Drop on ${tier}",
+				"trans": "${tier}'de Düşer",
+				"vars": [
+					"tier"
+				]
+			}
+		}
+	},
+	"itemSourceModal": {
+		"description": {
+			"eng": "You can get this item from:",
+			"trans": "Bu öğeyi şu kaynaktan temin edebilirsiniz:"
+		},
+		"empty": {
+			"eng": "No current sources found.",
+			"trans": "Mevcut kaynak bulunamadı."
+		},
+		"title": {
+			"eng": "Item sources",
+			"trans": "Öğe Kaynakları"
 		}
 	},
 	"itemStack": {
@@ -7125,6 +7839,10 @@
 		"streetcred": {
 			"eng": "Street Cred",
 			"trans": "Sokak kredisi"
+		},
+		"topHandlers": {
+			"eng": "Top Handlers",
+			"trans": "En İyi Operatörler\n<"
 		}
 	},
 	"leaderboardTypePage": {
@@ -8154,6 +8872,106 @@
 			"trans": "Füze Komutanlığı"
 		}
 	},
+	"mentorship": {
+		"completion": {
+			"handlerMail": {
+				"eng": "${runnerName} reached level ${completionLevel} and passed verification. Your Handler rewards were delivered.",
+				"trans": "${runnerName} seviye ${completionLevel}'e ulaştı ve doğrulandı. Handler ödülünüz size iletilmiştir.",
+				"vars": [
+					"runnerName",
+					"completionLevel"
+				]
+			}
+		},
+		"confirm": {
+			"currentHandler": {
+				"eng": "Current Handler",
+				"trans": "Mevcut Görevli"
+			},
+			"endPermanently": {
+				"eng": "End permanently",
+				"trans": "Kalıcı Olarak Sonlandır"
+			},
+			"endPurpose": {
+				"eng": "End your mentorship with this Handler.",
+				"trans": "Bu Handler ile mentorluğunu sonlandır."
+			},
+			"endTitle": {
+				"eng": "End mentorship",
+				"trans": "Mentörlüğü Bitir"
+			},
+			"endWarning": {
+				"eng": "This is permanent. You cannot choose another Handler.",
+				"trans": "Bu karar kalıcıdır. Başka bir Handler seçemezsiniz."
+			},
+			"mentorDetails": {
+				"eng": "${name} — Level ${level}",
+				"trans": "${name} — Seviye ${level}",
+				"vars": [
+					"name",
+					"level"
+				]
+			},
+			"selectPermanently": {
+				"eng": "Choose permanently",
+				"trans": "Kalıcı olarak seç"
+			},
+			"selectPurpose": {
+				"eng": "Choose a Handler to guide your early progression.",
+				"trans": "Choose a Handler to guide your early progression."
+			},
+			"selectTitle": {
+				"eng": "Choose Handler",
+				"trans": "Sorumlu Seçin"
+			},
+			"selectWarning": {
+				"eng": "Choose only someone who has greatly helped you learn the game. Never choose a Handler for trades, items, or other favors. You cannot choose another Handler later, even if you end the mentorship.",
+				"trans": "Sadece oyun öğrenmenize ciddi şekilde yardımcı olmuş birini seçin. Asla işlem, eşya veya başka türlü yardımlar için Handler seçmeyin. Mentorluğu sonlandırsanız bile daha sonra başka bir Handler seçemezsiniz."
+			}
+		},
+		"revoke": {
+			"invalid": {
+				"eng": "This mentorship can no longer be ended.",
+				"trans": "Bu mentorluk artık sonlandırılamaz."
+			}
+		},
+		"select": {
+			"handlerMail": {
+				"eng": "${runnerName} chose you as their Handler. Their mentorship will complete if they reach level ${completionLevel} and pass system verification.",
+				"trans": "${runnerName} seni Kontrolcü olarak seçti. Mentorluk süreci ${completionLevel} seviyesine ulaşıp sistem doğrulamasından geçtiklerinde tamamlanır.",
+				"vars": [
+					"runnerName",
+					"completionLevel"
+				]
+			},
+			"ineligible": {
+				"eng": "This Handler selection is not eligible.",
+				"trans": "Bu Handler seçimi uygun değildir."
+			}
+		}
+	},
+	"mentorshipAssignmentsPage": {
+		"empty": {
+			"eng": "No runners are currently assigned to you.",
+			"trans": "Şu anda size atanmış runner bulunmuyor."
+		},
+		"loadFailed": {
+			"eng": "Mentoring runners failed to load.",
+			"trans": "Mentörlük koşucuları yüklenemedi."
+		},
+		"loading": {
+			"eng": "Loading mentoring runners...",
+			"trans": "Mentorluk işlemleri yükleniyor..."
+		},
+		"private": {
+			"eng": "Private — only you can see this",
+			"trans": "Özel — yalnızca siz görebilirsiniz"
+		},
+		"title": {
+			"eng": "Mentoring Runners",
+			"trans": "Runnerlara Mentorluk"
+		}
+	},
 	"messageImage": {
 		"hideImage": {
 			"eng": "Hide Image",
@@ -8249,6 +9067,91 @@
 					"eng": "BREACH SUCCESS",
 					"trans": "Sızma Başarılı"
 				}
+			}
+		},
+		"orderSync": {
+			"board": {
+				"summary": {
+					"eng": "Sorting minigame. Arrange the bars from smallest to largest, left to right within the move budget. Drag a bar to reposition it, or tap two bars to swap them.",
+					"trans": "Sıralama mini oyunu. Barları en küçükten en büyüğe doğru soldan sağa sıralayın. Belirtilen hamle sınırını aşmayın. Bir çubuğu sürükleyerek taşıyabilir veya iki çubuğa dokunarak yerlerini değiştirebilirsiniz."
+				}
+			},
+			"fail": {
+				"description": {
+					"eng": "Sort the row before you run out of moves.",
+					"trans": "Hamleniz bitmeden satırı sıralayın."
+				},
+				"retry": {
+					"eng": "Retry",
+					"trans": "Yeniden Dene"
+				},
+				"status": {
+					"eng": "ORDER REJECTED",
+					"trans": "SİPARİŞ REDDEDİLDİ\n</tr"
+				},
+				"title": {
+					"eng": "Out of moves",
+					"trans": "Hamle kalmadı"
+				}
+			},
+			"instruction": {
+				"eng": "Sort small to big, left to right. Drag a bar to move it, or tap two to swap.",
+				"trans": "Küçükten büyüğe, soldan sağa sıralayın. Bir çubuğu sürükleyerek taşıyın veya iki çubuğa dokunarak yer değiştirin."
+			},
+			"item": {
+				"aria": {
+					"eng": "Bar, value ${value}",
+					"trans": "Bar, değeri ${value}",
+					"vars": [
+						"value"
+					]
+				}
+			},
+			"scale": {
+				"high": {
+					"eng": "HIGH",
+					"trans": "YÜKSEK"
+				},
+				"label": {
+					"eng": "SIGNAL MAGNITUDE",
+					"trans": "SİNYAL GÜCÜ\n<"
+				},
+				"low": {
+					"eng": "LOW",
+					"trans": "DÜŞÜK"
+				}
+			},
+			"status": {
+				"failed": {
+					"eng": "FAILED",
+					"trans": "BAŞARISIZ"
+				},
+				"locked": {
+					"eng": "SORTED",
+					"trans": "SIRALANDI"
+				},
+				"moves": {
+					"eng": "MOVES ${count}/${max}",
+					"trans": "HAMLE ${count}/${max}",
+					"vars": [
+						"count",
+						"max"
+					]
+				}
+			},
+			"success": {
+				"status": {
+					"eng": "ORDER VALIDATED",
+					"trans": "SİPARİŞ DOĞRULANDI\n</"
+				},
+				"title": {
+					"eng": "Sequence sorted",
+					"trans": "Dizilim düzenlendi"
+				}
+			},
+			"title": {
+				"eng": "Order Sync",
+				"trans": "Sipariş Senkronu"
 			}
 		},
 		"relayGrid": {
@@ -11490,6 +12393,65 @@
 				"vars": [
 					"count"
 				]
+			}
+		},
+		"mentorship": {
+			"currentReward": {
+				"eng": "Reward per verified player",
+				"trans": "Doğrulanmış Oyuncu Başına Ödül"
+			},
+			"endMentorship": {
+				"eng": "End mentorship",
+				"trans": "Mentörlüğü Bitir"
+			},
+			"futureHandlerHint": {
+				"eng": "At level ${handlerLevel}, you can also become a Handler, guide eligible new players, and earn rewards.",
+				"trans": "${handlerLevel} seviyesine ulaştığınızda Handler rolünü üstlenip nitelikli yeni oyunculara rehberlik edebilir ve ödül kazanabilirsiniz.",
+				"vars": [
+					"handlerLevel"
+				]
+			},
+			"handler": {
+				"eng": "Handler",
+				"trans": "Koordinatör"
+			},
+			"handlerHint": {
+				"eng": "You can now guide eligible new players as a Handler. They can choose you from your profile. Verified mentorships increase your public total and grant the reward below.",
+				"trans": "Artık Handler olarak uygun yeni oyunculara rehberlik edebilirsin. Onlar seni profiline seçebilir. Doğrulanmış mentorluklar görünürlük toplamını artırır ve aşağıdaki ödülü kazandırır."
+			},
+			"handlerLoadFailed": {
+				"eng": "Handler load failed.",
+				"trans": "İşleyici yüklenemedi.\n<"
+			},
+			"loadingHandler": {
+				"eng": "Loading Handler...",
+				"trans": "Yükleniyor..."
+			},
+			"private": {
+				"eng": "Private — only you can see this",
+				"trans": "Özel — yalnızca siz görebilirsiniz"
+			},
+			"selectionEndedHint": {
+				"eng": "Your opportunity to choose a Handler ended after level ${maxLevel}. New players can choose one from level ${minLevel} to ${maxLevel} if their account is no more than ${maxAgeDays} days old. At level ${handlerLevel}, you can become a Handler, guide eligible new players, and earn rewards.",
+				"trans": "${maxLevel} seviyesinden sonra Mentor seçme süreniz doldu. Hesap yaşı ${maxAgeDays} günü aşmamış yeni oyuncular, seviye ${minLevel}-${maxLevel} arasında bir Mentor seçebilir. ${handlerLevel} seviyesinde Mentor olup uygun yeni oyuncuları yönlendirebilir ve ödül kazanabilirsiniz.",
+				"vars": [
+					"minLevel",
+					"maxLevel",
+					"maxAgeDays",
+					"handlerLevel"
+				]
+			},
+			"title": {
+				"eng": "Mentorship",
+				"trans": "Mentorluk"
+			},
+			"unknownHandler": {
+				"eng": "Unknown Handler",
+				"trans": "Bilinmeyen İşleyici\n<"
+			},
+			"viewMentoringRunners": {
+				"eng": "View Mentoring Runners",
+				"trans": "Mentorluk Koşucularını Görüntüle"
 			}
 		},
 		"pets": {
@@ -15297,6 +16259,10 @@
 				"eng": "Block List",
 				"trans": "Blok listesi"
 			},
+			"communityRaffle": {
+				"eng": "Community Raffles",
+				"trans": "Topluluk Çekilişleri"
+			},
 			"coupon": {
 				"eng": "Claim Coupon",
 				"trans": "Kupon Kodu Girişi"
@@ -15651,9 +16617,17 @@
 				}
 			},
 			"skippingBuff": {
-				"title": {
-					"eng": "Skip buff sponsored by:",
-					"trans": "Buff'u geç sponsorlu:"
+				"dismiss": {
+					"eng": "Dismiss Global Skip banner",
+					"trans": "Global Atlama Bildirimini Kapat"
+				},
+				"info": {
+					"eng": "Global Skip info",
+					"trans": "Genel atlama bilgisi"
+				},
+				"sponsor": {
+					"eng": "Global Skip by",
+					"trans": "Global Atlama ile"
 				}
 			}
 		},
@@ -16468,6 +17442,23 @@
 				"eng": "Equip",
 				"trans": "Kuşan"
 			},
+			"eventGamePass": {
+				"visitNpc": {
+					"eng": "Go to ${npcName}",
+					"trans": "${npcName}'e git",
+					"vars": [
+						"npcName"
+					]
+				},
+				"visitNpcDescription": {
+					"eng": "Bring this pass to ${personName} to play ${gameName}.",
+					"trans": "Bu bileti ${personName}'e götürerek ${gameName} oynayabilirsin.",
+					"vars": [
+						"personName",
+						"gameName"
+					]
+				}
+			},
 			"history": {
 				"eng": "History",
 				"trans": "Geçmiş"
@@ -16595,6 +17586,10 @@
 			"getAllItems": {
 				"eng": "Get All Items",
 				"trans": "Tüm öğeleri al"
+			},
+			"noExpiry": {
+				"eng": "Does not expire",
+				"trans": "Sona ermez"
 			},
 			"title": {
 				"eng": "Item Inbox",
@@ -16780,6 +17775,12 @@
 			"travel": {
 				"eng": "Travel",
 				"trans": "Seyahat"
+			}
+		},
+		"markdown": {
+			"error": {
+				"eng": "Content unavailable. Check your connection and retry.",
+				"trans": "İçerik kullanılamıyor. Bağlantınızı kontrol edip yeniden deneyin.\n<"
 			}
 		},
 		"market": {
@@ -17119,6 +18120,92 @@
 				"eng": "Property of SLPD",
 				"trans": "SLPD'nin mülkü"
 			},
+			"emblemShowcase": {
+				"addSlot": {
+					"eng": "Add emblem to slot ${slot}",
+					"trans": "${slot} yuvasına embleme ekle",
+					"vars": [
+						"slot"
+					]
+				},
+				"chooseEmblemByOption": {
+					"eng": "Select emblem option ${option} for slot ${slot}",
+					"trans": "Slot ${slot} için ${option}. emblemi seç",
+					"vars": [
+						"option",
+						"slot"
+					]
+				},
+				"clearSlot": {
+					"eng": "Remove emblem from slot ${slot}",
+					"trans": "${slot}. yuvadan emblemi kaldır",
+					"vars": [
+						"slot"
+					]
+				},
+				"closePicker": {
+					"eng": "Close emblem picker",
+					"trans": "Nişan seçicisini kapat"
+				},
+				"confirmSelection": {
+					"eng": "Confirm Selection",
+					"trans": "Seçimi Onayla"
+				},
+				"editSlot": {
+					"eng": "Change emblem in slot ${slot}",
+					"trans": "${slot} yuvasındaki emblemi değiştir",
+					"vars": [
+						"slot"
+					]
+				},
+				"emblemLabelBySlot": {
+					"eng": "Showcase emblem in slot ${slot}",
+					"trans": "${slot} Yuvasındaki Rozet",
+					"vars": [
+						"slot"
+					]
+				},
+				"pickerInstruction": {
+					"eng": "Select an emblem for slot ${slot}, then confirm.",
+					"trans": "${slot} yeri için bir amblem seçin, ardından onaylayın.",
+					"vars": [
+						"slot"
+					]
+				},
+				"pickerTitle": {
+					"eng": "Choose Emblem",
+					"trans": "Emblem Seç"
+				},
+				"playAudioBySlot": {
+					"eng": "Play audio for emblem in slot ${slot}",
+					"trans": "${slot} Yuvasındaki Rozetin Sesini Oynat",
+					"vars": [
+						"slot"
+					]
+				},
+				"remove": {
+					"eng": "Remove",
+					"trans": "Kaldır"
+				},
+				"removeConfirmationTitle": {
+					"eng": "Remove emblem from slot ${slot}?",
+					"trans": "Emblem ${slot} slotundan kaldırılsın mı?",
+					"vars": [
+						"slot"
+					]
+				},
+				"slotMarker": {
+					"eng": "Slot ${slot}",
+					"trans": "Slot ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"title": {
+					"eng": "pinned emblems",
+					"trans": "sabit rozetler"
+				}
+			},
 			"gangAction": {
 				"editPermissions": {
 					"eng": "Permissions",
@@ -17193,6 +18280,10 @@
 				"block": {
 					"eng": "Block Player",
 					"trans": "Block Player"
+				},
+				"chooseHandler": {
+					"eng": "Choose as Handler",
+					"trans": "Handler Olarak Seç"
 				},
 				"giveStreetCred": {
 					"eng": "Give Street Cred",
@@ -17720,6 +18811,16 @@
 					"trans": "Amblemleri özel yap"
 				}
 			},
+			"privateHandler": {
+				"description": {
+					"eng": "Hide your Handler from other players",
+					"trans": "Handler'ını diğer oyunculara gizle"
+				},
+				"title": {
+					"eng": "Hide my Handler",
+					"trans": "Handlerimi Gizle"
+				}
+			},
 			"promoOnlyShowWhenUpdate": {
 				"description": {
 					"eng": "Only show promo popup when there is a new event",
@@ -17984,6 +19085,10 @@
 				"eng": "combat",
 				"trans": "Savaşlar"
 			},
+			"communityRaffles": {
+				"eng": "Community Raffles",
+				"trans": "Topluluk Çekilişleri"
+			},
 			"dataFortress": {
 				"eng": "SL-Data Fortress",
 				"trans": "SL-Veri Kalesi"
@@ -18015,6 +19120,10 @@
 			"furniture": {
 				"eng": "Furniture",
 				"trans": "Mobilya"
+			},
+			"handlers": {
+				"eng": "Handlers",
+				"trans": "Yöneticiler"
 			},
 			"inventory": {
 				"eng": "inventory",
@@ -18067,6 +19176,74 @@
 			"timeSkip": {
 				"eng": "time skip",
 				"trans": "Zaman Atlaması"
+			}
+		},
+		"tutorialSearch": {
+			"clear": {
+				"eng": "Clear search",
+				"trans": "Aramayı Temizle"
+			},
+			"close": {
+				"eng": "Close tutorial search",
+				"trans": "Ders aramasını kapat"
+			},
+			"error": {
+				"eng": "Tutorial search is unavailable. Check your connection and retry.",
+				"trans": "Rehber araması şu anda kullanılamıyor. Bağlantınızı kontrol edip yeniden deneyin."
+			},
+			"label": {
+				"eng": "Tutorial Search",
+				"trans": "Rehber Araması"
+			},
+			"loading": {
+				"eng": "Indexing tutorials...",
+				"trans": "Rehberler dizine ekleniyor"
+			},
+			"matchEnglishSectionLabel": {
+				"eng": "English section",
+				"trans": "İngilizce Bölümü<"
+			},
+			"matchEnglishTitleLabel": {
+				"eng": "English title",
+				"trans": "İngilizce Başlık\n<"
+			},
+			"matchSectionLabel": {
+				"eng": "Section",
+				"trans": "Bölüm"
+			},
+			"matchTitle": {
+				"eng": "Title match",
+				"trans": "Başlık Eşleşmesi"
+			},
+			"noResults": {
+				"eng": "No tutorial results for \"${query}\"",
+				"trans": "\"${query}\" için öğretici bulunamadı",
+				"vars": [
+					"query"
+				]
+			},
+			"partial": {
+				"eng": "Some tutorials could not be indexed.",
+				"trans": "Bazı öğreticiler listelenemiyor."
+			},
+			"placeholder": {
+				"eng": "Search tutorials...",
+				"trans": "Öğretici ara..."
+			},
+			"ready": {
+				"eng": "Search tutorial titles, sections, and content.",
+				"trans": "Ders başlıkları, bölümleri ve içeriği arayın"
+			},
+			"resultCount": {
+				"eng": "${count} results",
+				"trans": "${count} sonuç",
+				"vars": [
+					"count"
+				]
+			},
+			"resultCountOne": {
+				"eng": "1 result",
+				"trans": "1 sonuç"
 			}
 		},
 		"unit": {

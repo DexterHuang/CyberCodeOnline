@@ -965,6 +965,13 @@
 				}
 			}
 		},
+		"discount": {
+			"eng": "${percent}% off",
+			"trans": "${percent}%折扣",
+			"vars": [
+				"percent"
+			]
+		},
 		"free": {
 			"eng": "Free",
 			"trans": "免费"
@@ -974,6 +981,10 @@
 				"eng": "Free Personal Skip",
 				"trans": "免费的个人跳跃"
 			}
+		},
+		"notAvailable": {
+			"eng": "Bundle not available",
+			"trans": "组合包不可用"
 		},
 		"rareEquipmentCrate": {
 			"name": {
@@ -991,6 +1002,12 @@
 			"name": {
 				"eng": "Skip supply bundle",
 				"trans": "跳跃资源捆绑包"
+			}
+		},
+		"summerNightsFragmentFusion": {
+			"name": {
+				"eng": "Summer Nights Fusion Bundle",
+				"trans": "夏夜融合礼包"
 			}
 		}
 	},
@@ -1306,12 +1323,6 @@
 		"offRotation": {
 			"eng": "Out of rotation",
 			"trans": "已下架"
-		}
-	},
-	"chatHeader": {
-		"skipAvailable": {
-			"eng": "Available",
-			"trans": "可用的"
 		}
 	},
 	"chatInput": {
@@ -1796,6 +1807,14 @@
 			"eng": "Got it",
 			"trans": "了解"
 		},
+		"keep": {
+			"eng": "Keep raffle",
+			"trans": "保留抽奖券"
+		},
+		"loading": {
+			"eng": "Loading",
+			"trans": "加载中"
+		},
 		"max": {
 			"eng": "MAX",
 			"trans": "最大"
@@ -1809,7 +1828,7 @@
 			"trans": "购买"
 		},
 		"retry": {
-			"eng": "RETRY CONNECTION",
+			"eng": "Retry",
 			"trans": "重新连接"
 		},
 		"save": {
@@ -1819,6 +1838,608 @@
 		"warning": {
 			"eng": "Warning",
 			"trans": "警告"
+		}
+	},
+	"communityRaffle": {
+		"action": {
+			"accountBlocked": {
+				"eng": "Limited accounts cannot join Community Raffles.",
+				"trans": "受限账号无法参与社区抽奖。"
+			},
+			"closeRaffle": {
+				"eng": "Close raffle",
+				"trans": "结束抽奖"
+			},
+			"closeRaffleDescription": {
+				"eng": "Select and announce the winner",
+				"trans": "选定并公布中奖者"
+			},
+			"graceExpired": {
+				"eng": "Winner selection window expired.",
+				"trans": "中奖者选择窗口已失效。"
+			},
+			"join": {
+				"eng": "Join raffle",
+				"trans": "参与抽奖"
+			},
+			"levelBlocked": {
+				"eng": "Reach level ${level} to join.",
+				"trans": "达到 ${level} 级即可参与。",
+				"vars": [
+					"level"
+				]
+			}
+		},
+		"chatHeader": {
+			"open": {
+				"eng": "Open Community Raffles",
+				"trans": "开启社区抽奖"
+			}
+		},
+		"closeRaffle": {
+			"deadline": {
+				"eng": "Winner selection is available after the entry deadline.",
+				"trans": "抽奖结果将于报名截止后公布。"
+			},
+			"notOrganizer": {
+				"eng": "Only this Community Raffle's organizer can select the winner.",
+				"trans": "仅本社区抽奖的主办方可指定中奖者。"
+			},
+			"unavailable": {
+				"eng": "Winner selection is not available for this Community Raffle.",
+				"trans": "该社区抽奖无法开奖。"
+			}
+		},
+		"create": {
+			"accountLimited": {
+				"eng": "Limited accounts cannot create Community Raffles.",
+				"trans": "受限账号无法创建社区抽奖"
+			},
+			"accountLimitedToast": {
+				"eng": "Limited accounts cannot create Community Raffles.",
+				"trans": "受限账号无法创建社区抽奖"
+			},
+			"action": {
+				"eng": "Create raffle",
+				"trans": "创建抽奖"
+			},
+			"addEquipment": {
+				"eng": "Attach equipment",
+				"trans": "加装装备"
+			},
+			"backToEdit": {
+				"eng": "Back to edit",
+				"trans": "返回编辑"
+			},
+			"composerCounts": {
+				"eng": "${attachments} / ${maximumAttachments} · ${characters} / ${maximumCharacters}",
+				"trans": "附件 ${attachments}/${maximumAttachments} · 字数 ${characters}/${maximumCharacters}",
+				"vars": [
+					"attachments",
+					"maximumAttachments",
+					"characters",
+					"maximumCharacters"
+				]
+			},
+			"confirmAction": {
+				"eng": "Consume 1 Kit and publish",
+				"trans": "消耗1个套件并发布"
+			},
+			"confirmKitCost": {
+				"eng": "Publishing consumes one Community Raffle Kit.",
+				"trans": "发布将消耗1个社区抽奖箱。"
+			},
+			"confirmPermanent": {
+				"eng": "Published settings cannot be edited. Deleting the raffle will not refund the Kit.",
+				"trans": "发布后设置将无法修改。删除该活动不会退还套件。"
+			},
+			"confirmTitle": {
+				"eng": "Publish Community Raffle?",
+				"trans": "确认发布社区抽奖？"
+			},
+			"cost": {
+				"eng": "1 Raffle Kit",
+				"trans": "1张抽奖券"
+			},
+			"decreaseMinimumLevel": {
+				"eng": "Decrease minimum level by 50",
+				"trans": "将最低等级降低50"
+			},
+			"description": {
+				"eng": "Description (optional)",
+				"trans": "描述（选填）"
+			},
+			"duration": {
+				"eng": "Duration",
+				"trans": "时长"
+			},
+			"durationFourteenDays": {
+				"eng": "14 days",
+				"trans": "14天"
+			},
+			"durationOneDay": {
+				"eng": "1 day",
+				"trans": "1天"
+			},
+			"durationOptionFourteenDays": {
+				"eng": "14D",
+				"trans": "14天"
+			},
+			"durationOptionFourteenDaysAccessible": {
+				"eng": "14 days",
+				"trans": "14天"
+			},
+			"durationOptionOneDay": {
+				"eng": "1D",
+				"trans": "1天"
+			},
+			"durationOptionOneDayAccessible": {
+				"eng": "1 day",
+				"trans": "1天"
+			},
+			"durationOptionSevenDays": {
+				"eng": "7D",
+				"trans": "7天"
+			},
+			"durationOptionSevenDaysAccessible": {
+				"eng": "7 days",
+				"trans": "7天"
+			},
+			"durationOptionThirtyDays": {
+				"eng": "30D",
+				"trans": "30天"
+			},
+			"durationOptionThirtyDaysAccessible": {
+				"eng": "30 days",
+				"trans": "30天"
+			},
+			"durationOptionThreeDays": {
+				"eng": "3D",
+				"trans": "3天"
+			},
+			"durationOptionThreeDaysAccessible": {
+				"eng": "3 days",
+				"trans": "三天"
+			},
+			"durationSevenDays": {
+				"eng": "7 days",
+				"trans": "7天"
+			},
+			"durationThirtyDays": {
+				"eng": "30 days",
+				"trans": "30天"
+			},
+			"durationThreeDays": {
+				"eng": "3 days",
+				"trans": "三天"
+			},
+			"equipment": {
+				"eng": "Equipment snapshot (optional)",
+				"trans": "装备截图（可选）"
+			},
+			"equipmentDeliveryDescription": {
+				"eng": "Attached equipment stays in your inventory and is not sent to the winner. You must deliver it yourself.",
+				"trans": "附带装备将保留在您的库存中，不会随奖品发出。需您自行交付。"
+			},
+			"equipmentDeliveryTitle": {
+				"eng": "Equipment delivery is manual",
+				"trans": "装备需手动配送"
+			},
+			"equipmentNotOwned": {
+				"eng": "Selected equipment is not owned by this account.",
+				"trans": "当前账号未拥有所选装备"
+			},
+			"equipmentRequired": {
+				"eng": "Only equipment can be attached to a Community Raffle.",
+				"trans": "社区抽奖仅支持添加装备。"
+			},
+			"globalAnnouncement": {
+				"eng": "${creatorName} created a Community ${raffleLink}.",
+				"trans": "${creatorName} 创建了社区抽奖。${raffleLink}",
+				"vars": [
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"increaseMinimumLevel": {
+				"eng": "Increase minimum level by 50",
+				"trans": "最低等级提升50级"
+			},
+			"kitRequired": {
+				"eng": "You need a Community Raffle Kit to create this raffle.",
+				"trans": "创建此抽奖需使用社区抽奖套装。"
+			},
+			"levelRequired": {
+				"eng": "Reach level ${level} to create a Community Raffle.",
+				"trans": "达到${level}级即可创建社区抽奖。",
+				"vars": [
+					"level"
+				]
+			},
+			"levelRequiredToast": {
+				"eng": "Reach level ${level} to create a Community Raffle.",
+				"trans": "达到${level}级即可创建社区抽奖。",
+				"vars": [
+					"level"
+				]
+			},
+			"minimumLevel": {
+				"eng": "Minimum level",
+				"trans": "最低等级"
+			},
+			"moderationRejected": {
+				"eng": "Automated check found the title or description inappropriate or unrelated to the Community Raffle. Update the title or description, then try again.",
+				"trans": "系统检测到标题或描述内容不当，或与社区抽奖无关。请修改标题或描述后重试。"
+			},
+			"moderationUnavailable": {
+				"eng": "Automated check is temporarily unavailable. Try again in a moment.",
+				"trans": "自动审核暂时不可用，请稍后重试。"
+			},
+			"noDescription": {
+				"eng": "None",
+				"trans": "无"
+			},
+			"noEquipment": {
+				"eng": "None",
+				"trans": "无"
+			},
+			"pageTitle": {
+				"eng": "Create Community Raffle",
+				"trans": "创建社区抽奖"
+			},
+			"removeEquipmentSnapshot": {
+				"eng": "Remove equipment snapshot",
+				"trans": "删除装备快照"
+			},
+			"review": {
+				"eng": "Review raffle",
+				"trans": "抽奖确认"
+			},
+			"selectEquipment": {
+				"eng": "Select equipment snapshot",
+				"trans": "选择装备快照"
+			},
+			"title": {
+				"eng": "Title",
+				"trans": "标题"
+			},
+			"titleCount": {
+				"eng": "${current} / ${maximum}",
+				"trans": "${current} / ${maximum}",
+				"vars": [
+					"current",
+					"maximum"
+				]
+			},
+			"titleLength": {
+				"eng": "Title must be ${minimum}–${maximum} characters.",
+				"trans": "标题须为${minimum}至${maximum}个字符。",
+				"vars": [
+					"minimum",
+					"maximum"
+				]
+			},
+			"titleRequired": {
+				"eng": "Enter a title.",
+				"trans": "输入标题"
+			}
+		},
+		"delete": {
+			"action": {
+				"eng": "Delete raffle",
+				"trans": "删除抽奖"
+			},
+			"confirmAction": {
+				"eng": "Delete permanently",
+				"trans": "永久删除"
+			},
+			"confirmTitle": {
+				"eng": "Delete Community Raffle?",
+				"trans": "删除社区抽奖？"
+			},
+			"creatorMail": {
+				"body": {
+					"eng": "Moderator ${moderatorName} deleted your Community Raffle: ${title}",
+					"trans": "管理员${moderatorName}已删除您的社区抽奖活动：${title}",
+					"vars": [
+						"moderatorName",
+						"title"
+					]
+				}
+			},
+			"creatorSuccess": {
+				"eng": "You deleted your Community Raffle.",
+				"trans": "您已删除社区抽奖。"
+			},
+			"creatorWarning": {
+				"eng": "This permanently removes your raffle and cannot be undone. The Community Raffle Kit will not be refunded.",
+				"trans": "此操作将永久删除您的抽奖活动，且不可撤销。社区抽奖工具包不予退还。"
+			},
+			"moderatorMail": {
+				"body": {
+					"eng": "You deleted ${creatorName}'s Community Raffle: ${title}",
+					"trans": "您已删除${creatorName}的社区抽奖：${title}",
+					"vars": [
+						"creatorName",
+						"title"
+					]
+				}
+			},
+			"moderatorWarning": {
+				"eng": "This permanently removes ${creator}'s raffle. They will be notified by mail.",
+				"trans": "此操作将永久删除${creator}的抽奖活动，并会通过邮件通知其本人。",
+				"vars": [
+					"creator"
+				]
+			}
+		},
+		"delivery": {
+			"creatorNoWinnerMail": {
+				"eng": "Your Community ${raffleLink} “${title}” is complete. No eligible winner remained.",
+				"trans": "您的社区抽奖“${title}”已结束，未产生符合条件的获奖者。${raffleLink}",
+				"vars": [
+					"title",
+					"raffleLink"
+				]
+			},
+			"creatorWinnerMail": {
+				"eng": "Your Community ${raffleLink} “${title}” is complete. Winner: ${winnerName}.",
+				"trans": "您的社区抽奖“${title}”已结束。中奖者：${winnerName} ${raffleLink}",
+				"vars": [
+					"title",
+					"winnerName",
+					"raffleLink"
+				]
+			},
+			"globalAnnouncement": {
+				"eng": "🎉 ${winnerName} won a Community ${raffleLink}!",
+				"trans": "🎉 ${winnerName} 赢得社区抽奖！${raffleLink}",
+				"vars": [
+					"winnerName",
+					"raffleLink"
+				]
+			},
+			"winnerMail": {
+				"eng": "You won the Community ${raffleLink} “${title}”.",
+				"trans": "你已赢得社区抽奖「${title}」。${raffleLink}",
+				"vars": [
+					"title",
+					"raffleLink"
+				]
+			}
+		},
+		"detail": {
+			"abandonedState": {
+				"eng": "Winner selection was not completed within the seven-day window.",
+				"trans": "未在七日期限内完成获奖者评选。"
+			},
+			"attachments": {
+				"eng": "Attachments",
+				"trans": "附件"
+			},
+			"closed": {
+				"eng": "Closed",
+				"trans": "已关闭"
+			},
+			"closesLabel": {
+				"eng": "Closes in",
+				"trans": "即将截止"
+			},
+			"entrantList": {
+				"eng": "Entrants",
+				"trans": "参与者"
+			},
+			"hostLabel": {
+				"eng": "Host",
+				"trans": "主办"
+			},
+			"levelShort": {
+				"eng": "LV ${level}+",
+				"trans": "LV${level}+",
+				"vars": [
+					"level"
+				]
+			},
+			"minimumLevel": {
+				"eng": "Minimum level",
+				"trans": "最低等级"
+			},
+			"noEntrants": {
+				"eng": "No entries yet.",
+				"trans": "暂无参与记录"
+			},
+			"notFound": {
+				"eng": "We cannot find this raffle.",
+				"trans": "未找到该抽奖"
+			},
+			"refresh": {
+				"eng": "Refresh raffle details",
+				"trans": "刷新抽奖详情"
+			},
+			"selectedWinner": {
+				"eng": "Winner",
+				"trans": "中奖者"
+			},
+			"statusLabel": {
+				"eng": "Status",
+				"trans": "状态"
+			},
+			"unavailable": {
+				"eng": "Community Raffle unavailable",
+				"trans": "社区抽奖暂不可用"
+			},
+			"winnerMarker": {
+				"eng": "Winner",
+				"trans": "中奖者"
+			}
+		},
+		"empty": {
+			"description": {
+				"eng": "Active and past raffles will appear here.",
+				"trans": "当前及往期抽奖将在此显示。"
+			},
+			"title": {
+				"eng": "No Community Raffles yet",
+				"trans": "暂无社区抽奖活动"
+			}
+		},
+		"error": {
+			"notFound": {
+				"eng": "Community Raffle not found.",
+				"trans": "社区抽奖未找到"
+			}
+		},
+		"join": {
+			"accountLimited": {
+				"eng": "Limited accounts cannot join Community Raffles.",
+				"trans": "受限账号无法参与社区抽奖。"
+			},
+			"alreadyJoined": {
+				"eng": "You already joined this Community Raffle.",
+				"trans": "您已加入该社区抽奖。"
+			},
+			"associatedEntry": {
+				"eng": "An associated account already entered this Community Raffle.",
+				"trans": "关联账号已报名本次社区抽奖。"
+			},
+			"closed": {
+				"eng": "This Community Raffle is no longer open for entry.",
+				"trans": "该社区抽奖现已不再接受报名。"
+			},
+			"creatorMail": {
+				"eng": "${playerName} has joined your ${raffleLink}. Total entrants: ${totalEntrants}.",
+				"trans": "${playerName} 已加入你的 ${raffleLink}。总参与人数：${totalEntrants}",
+				"vars": [
+					"playerName",
+					"raffleLink",
+					"totalEntrants"
+				]
+			},
+			"creatorMailOthers": {
+				"eng": "${playerName} and ${otherCount} more have joined your ${raffleLink}. Total entrants: ${totalEntrants}.",
+				"trans": "${playerName} and ${otherCount} others have joined your ${raffleLink}. Total entrants: ${totalEntrants}.",
+				"vars": [
+					"playerName",
+					"otherCount",
+					"raffleLink",
+					"totalEntrants"
+				]
+			},
+			"globalAnnouncement": {
+				"eng": "${playerName} has joined ${creatorName}'s ${raffleLink}.",
+				"trans": "${playerName} has joined ${creatorName}'s ${raffleLink}.\",\n          messageVariables,\n        );\n        creatorMail = serverLang(\n          \"communityRaffle.join.creatorMail\",\n          \"${playerName} has joined your ${raffleLink}. Total entrants: ${totalEntrants}.\",\n          messageVariables,\n        );\n      } else if (joinedCount === 2) {\n        announcement = serverLang(\n          \"communityRaffle.join.globalAnnouncementOneOther\",\n          \"${playerName} and 1 other have joined ${creatorName}'s ${raffleLink}.\",\n          messageVariables,\n        );\n        creatorMail = serverLang(\n          \"communityRaffle.join.creatorMailOneOther\",\n          \"${playerName} and 1 other have joined your ${raffleLink}. Total entrants: ${totalEntrants}.\",\n          messageVariables,\n        );\n      } else {\n        announcement = serverLang(\n          \"communityRaffle.join.globalAnnouncementOthers\",\n          \"${playerName} and ${otherCount} others have joined ${creatorName}'s ${raffleLink}.",
+				"vars": [
+					"playerName",
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"globalAnnouncementOthers": {
+				"eng": "${playerName} and ${otherCount} more have joined ${creatorName}'s ${raffleLink}.",
+				"trans": "${playerName} 和 ${otherCount} 人已加入 ${creatorName} 的 ${raffleLink}",
+				"vars": [
+					"playerName",
+					"otherCount",
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"levelRequired": {
+				"eng": "Reach level ${level} to join this Community Raffle.",
+				"trans": "达到 ${level} 级即可参与本社区抽奖",
+				"vars": [
+					"level"
+				]
+			},
+			"organizer": {
+				"eng": "You cannot join your own Community Raffle.",
+				"trans": "无法加入您创建的社区抽奖。"
+			}
+		},
+		"loadError": {
+			"title": {
+				"eng": "Raffle list unavailable",
+				"trans": "抽奖列表暂不可用"
+			}
+		},
+		"raffleLink": {
+			"eng": "Raffle",
+			"trans": "抽奖"
+		},
+		"refresh": {
+			"eng": "Refresh raffle list",
+			"trans": "刷新抽奖列表"
+		},
+		"row": {
+			"awaitingOrganizer": {
+				"eng": "Awaiting organizer",
+				"trans": "等待组织者"
+			},
+			"closedLabel": {
+				"eng": "Closed",
+				"trans": "已关闭"
+			},
+			"closesLabel": {
+				"eng": "Closes in",
+				"trans": "即将截止"
+			},
+			"entriesLabel": {
+				"eng": "Entries",
+				"trans": "参与次数"
+			},
+			"hostLabel": {
+				"eng": "Host",
+				"trans": "主办"
+			},
+			"levelShort": {
+				"eng": "LV ${level}+",
+				"trans": "LV${level}+",
+				"vars": [
+					"level"
+				]
+			},
+			"resultLabel": {
+				"eng": "Result",
+				"trans": "结果"
+			}
+		},
+		"status": {
+			"abandoned": {
+				"eng": "Abandoned",
+				"trans": "已作废"
+			},
+			"awaitingOrganizer": {
+				"eng": "Awaiting organizer",
+				"trans": "等待组织者"
+			},
+			"completed": {
+				"eng": "Completed",
+				"trans": "已完成"
+			},
+			"open": {
+				"eng": "Open",
+				"trans": "开启"
+			}
+		},
+		"title": {
+			"eng": "Community Raffles",
+			"trans": "社区抽奖"
+		},
+		"tutorial": {
+			"description": {
+				"eng": "Create, join, and select a winner.",
+				"trans": "创建加入并选出中奖者"
+			},
+			"title": {
+				"eng": "How Community Raffles work",
+				"trans": "社区抽奖玩法"
+			}
+		},
+		"validation": {
+			"request": {
+				"eng": "Invalid Community Raffle request.",
+				"trans": "社区抽奖请求无效。"
+			}
 		}
 	},
 	"component": {
@@ -2452,6 +3073,10 @@
 			"eng": "Vice Heat",
 			"trans": "罪恶热浪"
 		},
+		"donation55": {
+			"eng": "Black Press",
+			"trans": "黑色传媒"
+		},
 		"donation6": {
 			"eng": "Prestige",
 			"trans": "至尊"
@@ -3002,6 +3627,28 @@
 				"item",
 				"npcName"
 			]
+		}
+	},
+	"emblem": {
+		"showcase": {
+			"error": {
+				"emblemRequired": {
+					"eng": "Emblem is required",
+					"trans": "需要徽章"
+				},
+				"invalidEmblem": {
+					"eng": "Invalid emblem type",
+					"trans": "无效的徽章类型"
+				},
+				"invalidSlot": {
+					"eng": "Invalid emblem showcase slot",
+					"trans": "徽章展示槽位无效"
+				},
+				"notOwned": {
+					"eng": "You don't own this emblem",
+					"trans": "未持有此徽章"
+				}
+			}
 		}
 	},
 	"emblems": {
@@ -4231,18 +4878,18 @@
 	"globalPartyBanner": {
 		"button,": {
 			"eng": "Give street cred",
-			"trans": "给予街头声望",
+			"trans": "Give street cred",
 			"vars": [
 				"playerName"
 			]
 		},
 		"subtitle": {
 			"eng": "Hosted by:",
-			"trans": "由主办："
+			"trans": "主办方："
 		},
 		"subtitleMulti": {
 			"eng": "Click to view party hosts:",
-			"trans": "点击查看派对主办者："
+			"trans": "点击查看队伍队长："
 		},
 		"title": {
 			"eng": "🎉 Global Party 🎉",
@@ -5019,6 +5666,16 @@
 				"trans": "补给箱[帮派]"
 			}
 		},
+		"communityRaffleKit": {
+			"description": {
+				"eng": "A deployable kit for creating one public Community Raffle. Consumed when the raffle is published.",
+				"trans": "用于创建单次公开社区抽奖的可部署工具包，发布后自动消耗。"
+			},
+			"name": {
+				"eng": "Community Raffle Kit",
+				"trans": "社区抽奖补给包"
+			}
+		},
 		"creatine": {
 			"description": {
 				"eng": "Push past your limits and grind like a machine--When consumed, increase damage dealt by ${percent}% for ${minutes} minutes",
@@ -5620,6 +6277,19 @@
 			"name": {
 				"eng": "Medical Tech Parts",
 				"trans": "医疗科技零件"
+			}
+		},
+		"mentorSkipVoucher": {
+			"description": {
+				"eng": "An evergreen voucher earned by helping a new runner reach level 50. It automatically applies a ${discountPercent}% Global Skip discount.",
+				"trans": "协助新手跑者达到50级后获得的永久有效凭证。使用后将自动享受${discountPercent}%的全局跳过折扣。",
+				"vars": [
+					"discountPercent"
+				]
+			},
+			"name": {
+				"eng": "Handler Skip Voucher",
+				"trans": "引导者跳过券"
 			}
 		},
 		"missileCommandPass": {
@@ -6329,6 +6999,13 @@
 		}
 	},
 	"itemInbox": {
+		"movedToInventory": {
+			"eng": "${item} has been moved from your item inbox to your inventory automatically",
+			"trans": "${item} 已自动从收件箱转入背包",
+			"vars": [
+				"item"
+			]
+		},
 		"notifySender": {
 			"eng": "${recipient} has retrived your gift items (${itemNames}) from their inbox into their inventory.",
 			"trans": "${recipient} 已把你的礼物道具（${itemNames}）从收件箱搬进了自己的背包。",
@@ -6395,6 +7072,43 @@
 		"title": {
 			"eng": "Rename History",
 			"trans": "重命名历史"
+		}
+	},
+	"itemSource": {
+		"drop": {
+			"dungeons": {
+				"eng": "Dungeons",
+				"trans": "副本"
+			},
+			"enemies": {
+				"eng": "Enemies",
+				"trans": "敌人"
+			},
+			"lootBoxes": {
+				"eng": "Loot boxes",
+				"trans": "战利品箱"
+			},
+			"reclamationTier": {
+				"eng": "Drop on ${tier}",
+				"trans": "投放至${tier}",
+				"vars": [
+					"tier"
+				]
+			}
+		}
+	},
+	"itemSourceModal": {
+		"description": {
+			"eng": "You can get this item from:",
+			"trans": "获取途径："
+		},
+		"empty": {
+			"eng": "No current sources found.",
+			"trans": "当前无可用来源。"
+		},
+		"title": {
+			"eng": "Item sources",
+			"trans": "物品来源"
 		}
 	},
 	"itemStack": {
@@ -7125,6 +7839,10 @@
 		"streetcred": {
 			"eng": "Street Cred",
 			"trans": "街头威望"
+		},
+		"topHandlers": {
+			"eng": "Top Handlers",
+			"trans": "顶尖操控师"
 		}
 	},
 	"leaderboardTypePage": {
@@ -8154,6 +8872,106 @@
 			"trans": "导弹指令"
 		}
 	},
+	"mentorship": {
+		"completion": {
+			"handlerMail": {
+				"eng": "${runnerName} reached level ${completionLevel} and passed verification. Your Handler rewards were delivered.",
+				"trans": "${runnerName} 已达到 ${completionLevel} 级并通过验证。您的导师奖励已发放。",
+				"vars": [
+					"runnerName",
+					"completionLevel"
+				]
+			}
+		},
+		"confirm": {
+			"currentHandler": {
+				"eng": "Current Handler",
+				"trans": "当前导师"
+			},
+			"endPermanently": {
+				"eng": "End permanently",
+				"trans": "永久终止"
+			},
+			"endPurpose": {
+				"eng": "End your mentorship with this Handler.",
+				"trans": "终止与该联络人的导师关系。"
+			},
+			"endTitle": {
+				"eng": "End mentorship",
+				"trans": "结束指导"
+			},
+			"endWarning": {
+				"eng": "This is permanent. You cannot choose another Handler.",
+				"trans": "此决定不可更改。您无法更换其他负责人。"
+			},
+			"mentorDetails": {
+				"eng": "${name} — Level ${level}",
+				"trans": "${name} — 等级${level}",
+				"vars": [
+					"name",
+					"level"
+				]
+			},
+			"selectPermanently": {
+				"eng": "Choose permanently",
+				"trans": "永久选择"
+			},
+			"selectPurpose": {
+				"eng": "Choose a Handler to guide your early progression.",
+				"trans": "选择一位引导者以指引你的初期发展。"
+			},
+			"selectTitle": {
+				"eng": "Choose Handler",
+				"trans": "选择导师"
+			},
+			"selectWarning": {
+				"eng": "Choose only someone who has greatly helped you learn the game. Never choose a Handler for trades, items, or other favors. You cannot choose another Handler later, even if you end the mentorship.",
+				"trans": "Handler仅可选定一次，该选择将永久生效。"
+			}
+		},
+		"revoke": {
+			"invalid": {
+				"eng": "This mentorship can no longer be ended.",
+				"trans": "此师徒关系已无法解除。"
+			}
+		},
+		"select": {
+			"handlerMail": {
+				"eng": "${runnerName} chose you as their Handler. Their mentorship will complete if they reach level ${completionLevel} and pass system verification.",
+				"trans": "${runnerName}已指定你担任其导师。待该成员等级达到${completionLevel}且通过系统核验，本次指导任务即可正式完成。",
+				"vars": [
+					"runnerName",
+					"completionLevel"
+				]
+			},
+			"ineligible": {
+				"eng": "This Handler selection is not eligible.",
+				"trans": "该联络人选择不符合条件"
+			}
+		}
+	},
+	"mentorshipAssignmentsPage": {
+		"empty": {
+			"eng": "No runners are currently assigned to you.",
+			"trans": "当前未为您分配任何跑手。"
+		},
+		"loadFailed": {
+			"eng": "Mentoring runners failed to load.",
+			"trans": "导师跑者加载失败"
+		},
+		"loading": {
+			"eng": "Loading mentoring runners...",
+			"trans": "正在加载辅导进程..."
+		},
+		"private": {
+			"eng": "Private — only you can see this",
+			"trans": "私密 — 仅自己可见"
+		},
+		"title": {
+			"eng": "Mentoring Runners",
+			"trans": "指导跑者"
+		}
+	},
 	"messageImage": {
 		"hideImage": {
 			"eng": "Hide Image",
@@ -8249,6 +9067,91 @@
 					"eng": "BREACH SUCCESS",
 					"trans": "入侵成功"
 				}
+			}
+		},
+		"orderSync": {
+			"board": {
+				"summary": {
+					"eng": "Sorting minigame. Arrange the bars from smallest to largest, left to right within the move budget. Drag a bar to reposition it, or tap two bars to swap them.",
+					"trans": "排序小游戏。在限定步数内，将条块从左至右按从小到大排列。拖拽可移动条块，或点击两个条块进行交换。"
+				}
+			},
+			"fail": {
+				"description": {
+					"eng": "Sort the row before you run out of moves.",
+					"trans": "请在步数耗尽前完成行排序。"
+				},
+				"retry": {
+					"eng": "Retry",
+					"trans": "重试"
+				},
+				"status": {
+					"eng": "ORDER REJECTED",
+					"trans": "订单被拒"
+				},
+				"title": {
+					"eng": "Out of moves",
+					"trans": "步数耗尽"
+				}
+			},
+			"instruction": {
+				"eng": "Sort small to big, left to right. Drag a bar to move it, or tap two to swap.",
+				"trans": "从小到大从左往右排序。拖动长条可调整位置，或点击两个互换。"
+			},
+			"item": {
+				"aria": {
+					"eng": "Bar, value ${value}",
+					"trans": "进度条，当前值${value}",
+					"vars": [
+						"value"
+					]
+				}
+			},
+			"scale": {
+				"high": {
+					"eng": "HIGH",
+					"trans": "高"
+				},
+				"label": {
+					"eng": "SIGNAL MAGNITUDE",
+					"trans": "信号强度"
+				},
+				"low": {
+					"eng": "LOW",
+					"trans": "低"
+				}
+			},
+			"status": {
+				"failed": {
+					"eng": "FAILED",
+					"trans": "失败"
+				},
+				"locked": {
+					"eng": "SORTED",
+					"trans": "已整理"
+				},
+				"moves": {
+					"eng": "MOVES ${count}/${max}",
+					"trans": "步数 ${count}/${max}",
+					"vars": [
+						"count",
+						"max"
+					]
+				}
+			},
+			"success": {
+				"status": {
+					"eng": "ORDER VALIDATED",
+					"trans": "订单已验证"
+				},
+				"title": {
+					"eng": "Sequence sorted",
+					"trans": "序列已排序"
+				}
+			},
+			"title": {
+				"eng": "Order Sync",
+				"trans": "订单同步"
 			}
 		},
 		"relayGrid": {
@@ -11678,6 +12581,65 @@
 				"vars": [
 					"count"
 				]
+			}
+		},
+		"mentorship": {
+			"currentReward": {
+				"eng": "Reward per verified player",
+				"trans": "每位已验证玩家奖励"
+			},
+			"endMentorship": {
+				"eng": "End mentorship",
+				"trans": "结束指导"
+			},
+			"futureHandlerHint": {
+				"eng": "At level ${handlerLevel}, you can also become a Handler, guide eligible new players, and earn rewards.",
+				"trans": "达到${handlerLevel}级后，你还可成为引导者，指导符合条件的新玩家并获取奖励。",
+				"vars": [
+					"handlerLevel"
+				]
+			},
+			"handler": {
+				"eng": "Handler",
+				"trans": "联络人"
+			},
+			"handlerHint": {
+				"eng": "You can now guide eligible new players as a Handler. They can choose you from your profile. Verified mentorships increase your public total and grant the reward below.",
+				"trans": "你现在可以以引导者身份指导符合条件的新玩家。他们可通过个人主页选择你。成功认证的导师关系将提升你的公开数值，并获得下方奖励。"
+			},
+			"handlerLoadFailed": {
+				"eng": "Handler load failed.",
+				"trans": "处理器加载失败"
+			},
+			"loadingHandler": {
+				"eng": "Loading Handler...",
+				"trans": "正在加载处理程序..."
+			},
+			"private": {
+				"eng": "Private — only you can see this",
+				"trans": "私密 — 仅自己可见"
+			},
+			"selectionEndedHint": {
+				"eng": "Your opportunity to choose a Handler ended after level ${maxLevel}. New players can choose one from level ${minLevel} to ${maxLevel} if their account is no more than ${maxAgeDays} days old. At level ${handlerLevel}, you can become a Handler, guide eligible new players, and earn rewards.",
+				"trans": "选择导师的资格已在等级 ${maxLevel} 后失效。账号创建不超过 ${maxAgeDays} 天的新玩家，可在 ${minLevel} 至 ${maxLevel} 级期间选择导师。达到 ${handlerLevel} 级后，你将解锁导师身份，指导符合条件的新玩家并赢取奖励。",
+				"vars": [
+					"minLevel",
+					"maxLevel",
+					"maxAgeDays",
+					"handlerLevel"
+				]
+			},
+			"title": {
+				"eng": "Mentorship",
+				"trans": "师徒"
+			},
+			"unknownHandler": {
+				"eng": "Unknown Handler",
+				"trans": "未知联络人"
+			},
+			"viewMentoringRunners": {
+				"eng": "View Mentoring Runners",
+				"trans": "查看受训跑者"
 			}
 		},
 		"pets": {
@@ -15485,6 +16447,10 @@
 				"eng": "Block List",
 				"trans": "黑名单"
 			},
+			"communityRaffle": {
+				"eng": "Community Raffles",
+				"trans": "社区抽奖"
+			},
 			"coupon": {
 				"eng": "Claim Coupon",
 				"trans": "领取优惠券"
@@ -15839,9 +16805,17 @@
 				}
 			},
 			"skippingBuff": {
-				"title": {
-					"eng": "Skip buff sponsored by:",
-					"trans": "时间跳跃提供者："
+				"dismiss": {
+					"eng": "Dismiss Global Skip banner",
+					"trans": "关闭全局跳过横幅"
+				},
+				"info": {
+					"eng": "Global Skip info",
+					"trans": "全局跳过说明"
+				},
+				"sponsor": {
+					"eng": "Global Skip by",
+					"trans": "全局跳过 赞助方"
 				}
 			}
 		},
@@ -16656,6 +17630,23 @@
 				"eng": "Equip",
 				"trans": "装备"
 			},
+			"eventGamePass": {
+				"visitNpc": {
+					"eng": "Go to ${npcName}",
+					"trans": "前往${npcName}",
+					"vars": [
+						"npcName"
+					]
+				},
+				"visitNpcDescription": {
+					"eng": "Bring this pass to ${personName} to play ${gameName}.",
+					"trans": "将此通行证交给${personName}即可体验${gameName}",
+					"vars": [
+						"personName",
+						"gameName"
+					]
+				}
+			},
 			"history": {
 				"eng": "History",
 				"trans": "历史"
@@ -16783,6 +17774,10 @@
 			"getAllItems": {
 				"eng": "Get All Items",
 				"trans": "领取所有物品"
+			},
+			"noExpiry": {
+				"eng": "Does not expire",
+				"trans": "永不过期"
 			},
 			"title": {
 				"eng": "Item Inbox",
@@ -16968,6 +17963,12 @@
 			"travel": {
 				"eng": "Travel",
 				"trans": "旅行"
+			}
+		},
+		"markdown": {
+			"error": {
+				"eng": "Content unavailable. Check your connection and retry.",
+				"trans": "内容不可用，请检查网络连接并重试。"
 			}
 		},
 		"market": {
@@ -17307,6 +18308,92 @@
 				"eng": "Property of SLPD",
 				"trans": "SLPD所属"
 			},
+			"emblemShowcase": {
+				"addSlot": {
+					"eng": "Add emblem to slot ${slot}",
+					"trans": "向槽位${slot}添加徽章",
+					"vars": [
+						"slot"
+					]
+				},
+				"chooseEmblemByOption": {
+					"eng": "Select emblem option ${option} for slot ${slot}",
+					"trans": "为 ${slot} 号槽位选择徽章选项 ${option}",
+					"vars": [
+						"option",
+						"slot"
+					]
+				},
+				"clearSlot": {
+					"eng": "Remove emblem from slot ${slot}",
+					"trans": "移除 ${slot} 的徽章",
+					"vars": [
+						"slot"
+					]
+				},
+				"closePicker": {
+					"eng": "Close emblem picker",
+					"trans": "关闭徽章选择器"
+				},
+				"confirmSelection": {
+					"eng": "Confirm Selection",
+					"trans": "确认选择"
+				},
+				"editSlot": {
+					"eng": "Change emblem in slot ${slot}",
+					"trans": "更换${slot}槽位徽章",
+					"vars": [
+						"slot"
+					]
+				},
+				"emblemLabelBySlot": {
+					"eng": "Showcase emblem in slot ${slot}",
+					"trans": "槽位${slot}展示的徽章",
+					"vars": [
+						"slot"
+					]
+				},
+				"pickerInstruction": {
+					"eng": "Select an emblem for slot ${slot}, then confirm.",
+					"trans": "请为${slot}槽位选择徽章，然后确认。",
+					"vars": [
+						"slot"
+					]
+				},
+				"pickerTitle": {
+					"eng": "Choose Emblem",
+					"trans": "选择徽章"
+				},
+				"playAudioBySlot": {
+					"eng": "Play audio for emblem in slot ${slot}",
+					"trans": "播放插槽${slot}徽章音效",
+					"vars": [
+						"slot"
+					]
+				},
+				"remove": {
+					"eng": "Remove",
+					"trans": "移除"
+				},
+				"removeConfirmationTitle": {
+					"eng": "Remove emblem from slot ${slot}?",
+					"trans": "确认从 ${slot} 号位卸下徽章？",
+					"vars": [
+						"slot"
+					]
+				},
+				"slotMarker": {
+					"eng": "Slot ${slot}",
+					"trans": "槽位${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"title": {
+					"eng": "pinned emblems",
+					"trans": "置顶徽章"
+				}
+			},
 			"gangAction": {
 				"editPermissions": {
 					"eng": "Permissions",
@@ -17381,6 +18468,10 @@
 				"block": {
 					"eng": "Block Player",
 					"trans": "屏蔽玩家"
+				},
+				"chooseHandler": {
+					"eng": "Choose as Handler",
+					"trans": "设为联络员"
 				},
 				"giveStreetCred": {
 					"eng": "Give Street Cred",
@@ -17908,6 +18999,16 @@
 					"trans": "徽章设为私密"
 				}
 			},
+			"privateHandler": {
+				"description": {
+					"eng": "Hide your Handler from other players",
+					"trans": "隐藏你的专属代理，其他玩家将无法看到"
+				},
+				"title": {
+					"eng": "Hide my Handler",
+					"trans": "隐藏我的联络人"
+				}
+			},
 			"promoOnlyShowWhenUpdate": {
 				"description": {
 					"eng": "Only show promo popup when there is a new event",
@@ -18172,6 +19273,10 @@
 				"eng": "combat",
 				"trans": "战斗"
 			},
+			"communityRaffles": {
+				"eng": "Community Raffles",
+				"trans": "社区抽奖"
+			},
 			"dataFortress": {
 				"eng": "SL-Data Fortress",
 				"trans": "SL-数据堡垒"
@@ -18203,6 +19308,10 @@
 			"furniture": {
 				"eng": "Furniture",
 				"trans": "家具"
+			},
+			"handlers": {
+				"eng": "Handlers",
+				"trans": "控制器"
 			},
 			"inventory": {
 				"eng": "inventory",
@@ -18255,6 +19364,74 @@
 			"timeSkip": {
 				"eng": "time skip",
 				"trans": "时间跳跃"
+			}
+		},
+		"tutorialSearch": {
+			"clear": {
+				"eng": "Clear search",
+				"trans": "清除搜索"
+			},
+			"close": {
+				"eng": "Close tutorial search",
+				"trans": "关闭教程搜索"
+			},
+			"error": {
+				"eng": "Tutorial search is unavailable. Check your connection and retry.",
+				"trans": "教程搜索暂时不可用。请检查网络连接并重试。"
+			},
+			"label": {
+				"eng": "Tutorial Search",
+				"trans": "教程搜索"
+			},
+			"loading": {
+				"eng": "Indexing tutorials...",
+				"trans": "正在索引教程..."
+			},
+			"matchEnglishSectionLabel": {
+				"eng": "English section",
+				"trans": "英语专区"
+			},
+			"matchEnglishTitleLabel": {
+				"eng": "English title",
+				"trans": "英文标题"
+			},
+			"matchSectionLabel": {
+				"eng": "Section",
+				"trans": "区"
+			},
+			"matchTitle": {
+				"eng": "Title match",
+				"trans": "标题匹配"
+			},
+			"noResults": {
+				"eng": "No tutorial results for \"${query}\"",
+				"trans": "未找到与\"${query}\"相关的教程",
+				"vars": [
+					"query"
+				]
+			},
+			"partial": {
+				"eng": "Some tutorials could not be indexed.",
+				"trans": "部分教程未能成功收录"
+			},
+			"placeholder": {
+				"eng": "Search tutorials...",
+				"trans": "搜索教程..."
+			},
+			"ready": {
+				"eng": "Search tutorial titles, sections, and content.",
+				"trans": "搜索教程标题、章节和内容。"
+			},
+			"resultCount": {
+				"eng": "${count} results",
+				"trans": "${count} 个结果",
+				"vars": [
+					"count"
+				]
+			},
+			"resultCountOne": {
+				"eng": "1 result",
+				"trans": "1 条结果"
 			}
 		},
 		"unit": {
