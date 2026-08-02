@@ -1,108 +1,105 @@
-# Equipment / Gears
-You can equip an equipment (gear) that you own as long as the gear level that you wish to equip is not higher than your current character level.  
+# Wyposażenie / sprzęt
+Możesz założyć posiadane wyposażenie, o ile jego poziom nie jest wyższy od obecnego poziomu twojej postaci.  
 
-All equipment (and equipment caches) have rarities, as follows:
-- Trash (Grey)
-- Common (White)
-- High Quality (Green)
-- Rare (Yellow)
-- Legendary (Fuchsia, Deep Pink)
-- Epic (Dark Red)
+Całe wyposażenie (a także schematy wyposażenia) ma jedną z poniższych klas jakości:
+- Trash (szary)
+- Common (biały)
+- High Quality (zielony)
+- Rare (żółty)
+- Legendary (fuksjowy, ciemnoróżowy)
+- Epic (ciemnoczerwony)
 
-Keep in mind that higher rarities will have better stats and more module upgrade slots, depending on the piece of equipment.  
+Pamiętaj, że wyższa jakość oznacza lepsze statystyki i większą liczbę miejsc na moduły ulepszeń, zależnie od rodzaju wyposażenia.  
 
-## Knowing Your Caches
-Here's a couple of guiding point on how or when to print certain caches:
-> From level 1 to 5, it's recommended to print / use **Trash** caches for your gear set as it's the cheapest one of all
+## Dobieranie schematów wyposażenia
+Poniżej znajdziesz kilka wskazówek, kiedy warto drukować określone schematy:
+> Od poziomu 1 do 5 zaleca się drukować/używać schematów **Trash** jako zestawu wyposażenia, ponieważ są najtańsze ze wszystkich.
  
-> From level 5 to 15, it's recommended to print / use **Common** caches for your gear set
+> Od poziomu 5 do 15 zaleca się drukować/używać schematów **Common** jako zestawu wyposażenia.
 
-> From level 15 to 30, it's recommended to print / use **High Quality** caches for your gear set
+> Od poziomu 15 do 30 zaleca się drukować/używać schematów **High Quality** jako zestawu wyposażenia.
 
-> From level 30 to 50, it's recommended to print / use **Rare** caches for your gear set
+> Od poziomu 30 do 50 zaleca się drukować/używać schematów **Rare** jako zestawu wyposażenia.
 
-> From level 50+, it's recommended to print / use **Legendary** caches for your gear set
+> Od poziomu 50+ zaleca się drukować/używać schematów **Legendary** jako zestawu wyposażenia.
 
-> From level 100+, it's recommended to print / use **Epic** caches for your gear set (if a player ever gets the chance to find or buy one, as it's the rarest cache / gear of all)
+> Od poziomu 100+ zaleca się drukować/używać schematów **Epic** jako zestawu wyposażenia (jeśli graczowi uda się taki znaleźć lub kupić, ponieważ jest to najrzadszy schemat i najrzadsze wyposażenie ze wszystkich).
 
-Keep in mind that this guidance were only served as a reference rather than enforcing players into managing certain plays. Also, **Gear Quality** reflects the stats on the gear itself perspectively, thus inspecting it's quality is essential for optimal gear stats.
+Pamiętaj, że te wskazówki mają służyć jako punkt odniesienia, a nie narzucać konkretny sposób gry. **Jakość wyposażenia** opisuje statystyki samego wyposażenia, dlatego sprawdzanie jego jakości jest niezbędne, aby uzyskać optymalne statystyki.
 
-## Finding Your Equipment
-You can find both gear and equipment caches in dungeons or when fighting individual enemies (street fights). Once you are level 5, you will be able to use the Player Market to purchase different types of gears, crafting materials and other items.
+## Znajdowanie wyposażenia
+Wyposażenie i schematy wyposażenia można znaleźć w lochach lub zdobyć podczas walki z pojedynczymi wrogami (walk ulicznych). Po osiągnięciu poziomu 5 możesz korzystać z Rynku graczy, aby kupować różne rodzaje wyposażenia, materiały rzemieślnicze i inne przedmioty.
 
-## Printing Your Equipment
-Caches can be used to print equipment at your current Printing Rank at the Molecular 3D Printer in the City Center. The level of the printed gear will be the same as your Printing Rank, so make sure to keep your Printing Rank at the same level as your player level.
+## Drukowanie wyposażenia
+Schematy wyposażenia pozwalają drukować wyposażenie na obecnym poziomie drukowania w Molekularnej drukarce 3D w Centrum Miasta. Poziom wydrukowanego wyposażenia będzie taki sam jak poziom drukowania, dlatego zadbaj, aby poziom drukowania odpowiadał poziomowi twojej postaci.
 
-## Repairing Your Equipment
-When a player can't use their equipment (labeled by red text / color), it's indicated that player needs to repair their equipment for further uses. In order to repair your equipment, player needs to visit **Weapon Smith** that can be found in **Shangri-La City Center**. After entering the Weapon Smith, an option to **Repair Equipment** can be found below the **Sell** option. This option can only be availiable if player the equipped damaged gear & the gear's **Durability** are below 100%.
+## Moduły ulepszeń
+Do wyposażenia można dołączać **moduły ulepszeń**. Poziom modułu nie może być wyższy od poziomu wyposażenia (na przykład nie można dołączyć modułu ulepszeń poziomu 20 do broni podstawowej poziomu 5).  
 
-## Upgrade Modules
-You can attach **Upgrade Modules** onto your equipment. In order to equip the module, the module level cannot be higher than the equipment's level (For example: you can't attach a level 20 upgrade module onto level 5 primary weapon).  
+Moduły ulepszeń można odłączyć w dowolnym momencie. Odłączone moduły zajmują miejsce w ekwipunku (są traktowane tak samo jak wyposażenie, czyli każdy zajmuje osobne miejsce). Przed usunięciem ulepszeń upewnij się, że masz wystarczająco dużo wolnego miejsca w ekwipunku.  
 
-Upgrade modules can be removed at any time. Removed upgrade modules will take space in your inventory (it has a same unique inventory treatment as gear / equipment). Make sure you have enough space in your inventory before removing any upgrades.  
+Jeśli ekwipunek zapełnia się modułami ulepszeń, których nie możesz się pozbyć, zawsze możesz przechować nieużywane moduły w magazynie bankowym. 
 
-If your inventory is getting cluttered with upgrade modules that you can't rid of, you can always store unused module into your Bank Item Storage. 
+Przed zezłomowaniem nieużywanego wyposażenia warto odłączyć moduł ulepszeń. Złomowanie wyposażenia z zamontowanym modułem zostanie zaliczone wyłącznie jako usunięcie modułu. Zawsze sprawdzaj, który przedmiot złomujesz, ponieważ tej czynności nie można cofnąć.  
 
-It is advisable to remove the upgrade module before scrapping your unused gear as scrapping a piece of gear with module in it will only accounts as a module deletion. Always keep an eye on which item that you'll scrap as it's not recoverable.  
+## Miejsca na ulepszenia
+Każdy element wyposażenia ma określoną liczbę miejsc na ulepszenia, zależną od jego rzadkości i jakości:
 
-## Upgrade Slots
-Each equipment has a dedicated **Upgrade Slots** depending on it's rarity and quality, which can be summarized as follows:
+#### Broń podstawowa
+ - Trash: 0–1 miejsc
+ - Common: 1–2 miejsca
+ - High Quality: 2–3 miejsca
+ - Rare: 3 miejsca
+ - Legendary: 3 miejsca
+ - Epic: 4 miejsca
 
-#### Primary Weapon
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 to 3 Slots
- - Rare: 3 Slots
- - Legendary: 3 Slots
- - Epic: 4 Slots
+#### Broń specjalna
+ - Trash: 0–1 miejsc
+ - Common: 1–2 miejsca
+ - High Quality: 2 miejsca
+ - Rare: 2 miejsca
+ - Legendary: 2 miejsca
+ - Epic: 3 miejsca
 
-#### Special Weapon
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 Slots
- - Rare: 2 Slots
- - Legendary: 2 Slots
- - Epic: 3 Slots
+#### Broń niszczycielska
+ - Trash: 0–1 miejsc
+ - Common: 1–2 miejsca
+ - High Quality: 2 miejsca
+ - Rare: 2 miejsca
+ - Legendary: 2 miejsca
+ - Epic: 3 miejsca
 
-#### Destructive Weapon
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 Slots
- - Rare: 2 Slots
- - Legendary: 2 Slots
- - Epic: 3 Slots
+#### Hełm
+ - Trash: 0–1 miejsc
+ - Common: 1–2 miejsca
+ - High Quality: 2 miejsca
+ - Rare: 2 miejsca
+ - Legendary: 2 miejsca
+ - Epic: 3 miejsca
 
-#### Helmet
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 Slots
- - Rare: 2 Slots
- - Legendary: 2 Slots
- - Epic: 3 Slots
+#### Pancerz górny
+ - Trash: 0–1 miejsc
+ - Common: 1–2 miejsca
+ - High Quality: 2–3 miejsca
+ - Rare: 3–4 miejsca
+ - Legendary: 4 miejsca
+ - Epic: 5 miejsc
 
-#### Upper Armor
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 to 3 Slots
- - Rare: 3 to 4 Slots
- - Legendary: 4 Slots
- - Epic: 5 Slots
+#### Pancerz dolny
+ - Trash: 0–1 miejsc
+ - Common: 1 miejsce
+ - High Quality: 2 miejsca
+ - Rare: 3 miejsca
+ - Legendary: 3 miejsca
+ - Epic: 4 miejsca
 
-#### Lower Armor
- - Trash: 0 to 1 Slots
- - Common: 1 Slot
- - High Quality: 2 Slots
- - Rare: 3 Slots
- - Legendary: 3 Slots
- - Epic: 4 Slots
+#### Buty
+ - Trash: 0–1 miejsc
+ - Common: 1 miejsce
+ - High Quality: 2 miejsca
+ - Rare: 2 miejsca
+ - Legendary: 2 miejsca
+ - Epic: 3 miejsca
 
-#### Boots
- - Trash: 0 to 1 Slots
- - Common: 1 Slot
- - High Quality: 2 Slots
- - Rare: 2 Slots
- - Legendary: 2 Slots
- - Epic: 3 Slots
-
-## Other Items
-Explanation about other inventory such as parts and consumables, can be found on both [Inventory](https://cybercodeonline.com/markdown?path=tutorial%2Finventory.md) and [Resource's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md)
+## Inne przedmioty
+Wyjaśnienie dotyczące innych przedmiotów w ekwipunku, takich jak części i materiały zużywalne, znajdziesz w samouczkach [Ekwipunek](https://cybercodeonline.com/markdown?path=tutorial%2Finventory.md) oraz [Zasoby](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md).

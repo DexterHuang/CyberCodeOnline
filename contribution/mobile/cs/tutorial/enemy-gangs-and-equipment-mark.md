@@ -1,41 +1,41 @@
 
-# Enemy Gangs & Mark
+# Nepřátelské gangy a značka
 
 ![EnemyGangGraph](/resources/mobile-tutorial/EnemyGangGraph.png)
 
-All enemies have a gang that it belongs to, as each area will have a different gang _'dominant'_ in retrospect. These gangs will affect how players approach as the enemy gang will either benefit players or make the fight even harder.
+Všichni nepřátelé patří k nějakému gangu a v každé oblasti dominuje jiný gang. Tyto gangy ovlivňují způsob, jakým k boji přistupujete: nepřátelský gang vám může pomoci, nebo naopak boj ještě ztížit.
 
-In summary, enemy gangs name & trait as follows:
-- **Animals:** Increased damage to **Disruptor** players (up to 10%)
+Ve zkratce vypadají názvy a vlastnosti nepřátelských gangů takto:
+- **Zvířata:** Zvyšují poškození proti hráčům se značkou **Disruptivní** (až o 10 %)
 
-- **Voodoo Boys**: Increased damage to **Makeshift** players (up to 10%)
+- **Voodoo**: Zvyšuje poškození proti hráčům se značkou **Provizorní** (až o 10 %)
 
-- **Scavengers**: Increased damage to **Lethal** players (up to 10%)
+- **Mrchožrouti**: Zvyšují poškození proti hráčům se značkou **Smrtící** (až o 10 %)
 
 ![EnemyGang](/resources/mobile-tutorial/EnemyGang.png)
 
-One of the few ways to know which gangs are dominating the area is through **Nearby Enemies** or surfing around **Dungeon**. By seeing their gang name on the top of its health bar, you can notify who's who very quickly. Players can still change their gear in-fight stance if they think the enemies will benefit from its **Mark** spots.
+Jedním z mála způsobů, jak zjistit, které gangy v oblasti dominují, je podívat se na **Blízké nepřátele** nebo prozkoumat **dungeon**. Podle názvu gangu nad ukazatelem zdraví rychle poznáte, kdo je kdo. Hráči mohou během boje stále změnit vybavení, pokud usoudí, že by nepřátelé mohli těžit z jejich **značky**.
 
-## Equipment Mark
+## Značka vybavení
 
-All gear / equipment (Except backpacks & modules) has a **Mark** that attach to it, which has a different effect depending on their enemy's influence.
+Veškeré vybavení (kromě batohů a modulů vylepšení) má připojenou **značku**, která má podle vlivu nepřátelského gangu různý účinek.
 
-In summary, marks name & trait as follows:
+Ve zkratce vypadají názvy a vlastnosti značek takto:
 
-- **Lethal**: Increase damage to **Animals** enemies (up to 10%)
+- **Smrtící**: Zvyšuje poškození proti nepřátelům gangu **Zvířata** (až o 10 %)
 
-- **Disruptor**: Increase damage to **Voodoo Boys** enemies (up to 10%)
+- **Disruptivní**: Zvyšuje poškození proti nepřátelům gangu **Voodoo** (až o 10 %)
 
-- **Makeshift**: Increase damage to **Scavengers** enemies (up to 10%)
+- **Provizorní**: Zvyšuje poškození proti nepřátelům gangu **Mrchožrouti** (až o 10 %)
 
-Keep in mind that every gear that players gain via print or drop either before or after **2022/01/05 update**, will have random Mark that's automaticly attached to it.
+Pamatujte, že každé vybavení, které hráči získají tiskem nebo dropem před i po **aktualizaci 2022/01/05**, bude mít náhodnou značku, která k němu bude automaticky připojena.
 
-## Knowing Your Designated Mark
+## Zjištění své přiřazené značky
 
 ![EnemyGangMark](/resources/mobile-tutorial/EnemyGangMark.png)
 
-Every player has a different **Mark**, determined by the majority of the gear mark's that you have as your arsenal (you can see your designated **Mark** at the **Equipped** section on **Inventory** tab). For example, if your equipped gear were dominated by **Makeshift** mark, then Makeshift is your classified Mark.
+Každý hráč má jinou **značku**, která je určena převládající značkou vybavení v jeho arzenálu (svou přiřazenou značku můžete vidět v sekci **Vybaveno** na kartě **Inventář**). Pokud je například vaše vybavení převážně **Provizorní**, pak je to vaše přiřazená značka.
 
 ![EnemyGangStats](/resources/mobile-tutorial/EnemyGangStats.png)
 
-Players can see the effects of having a certain amount of **Mark** by tapping the yellow Mark text on Equipped section or from the Player's stats on **Profile** tab. As the graph suggested above, every Mark will affect both gangs in a good or bad sense of ways.
+Hráči mohou vidět účinky konkrétní značky klepnutím na žlutý text značky v sekci **Vybaveno** nebo ve statistikách hráče na kartě **Profil**. Jak naznačuje graf výše, každá značka ovlivňuje dva ze tří nepřátelských gangů pozitivně nebo negativně.

@@ -1,14 +1,14 @@
-## Quests
-Quests can be found in the Quest tab at the bottom of the screen. Here is where you are given specific tasks that will earn you extra Experience (EXP) points and Bitcoins (**you can get an additional EXP if you finish the quest when Frontal Cortex Enhancement [/ EXP Boost] were in-effects**). There are a variety of tasks available ranging from the Kill Enemies task to the Printing task. The quest itself is divided into two categories, as follows:
+## Úkoly
+Úkoly najdete na kartě **Úkoly** ve spodní části obrazovky. Tady dostáváte konkrétní úkoly, které vám přinesou další zkušenosti (EXP) a bitcoiny (**pokud úkol dokončíte, když je aktivní Optimalizace vysílače frontálního kortexu [/ EXP buff], dostanete i další EXP**). K dispozici je řada úkolů od **Kill Enemies** až po **Printing**. Samotné úkoly jsou rozdělené do dvou kategorií:
 
 1. Normal Quest
-Normal Quest consisted of single or individual tasks that were oriented around certain activities or dungeon delving. Once a quest was completed, players will be given another task immediately, as the task itself was random and monotone.
+Normal Quest jsou jednotlivé úkoly zaměřené na určité aktivity nebo průchod dungeony. Jakmile je úkol dokončen, hráč okamžitě dostane další, protože úkol je náhodný a opakuje se.
 
 ![QuestTab1](/resources/mobile-tutorial/QuestTab1.png)
 
 2. Dungeon Quest
-Dungeon Quest can only be found by interacting with the '?' icon in Dungeon, these were referred to as **Quest Giver**. The quest itself consisted of one thing and one thing only: "give me [X] item, and you'll get [Y] item".
+Dungeon Quest lze najít jen interakcí s ikonou `?` v dungeonu; této postavě se říká **Quest Giver**. Samotný úkol má jedinou podobu: „dej mi předmět [X] a dostaneš předmět [Y]“.
 
-The reward for the quest itself ranged from Items to Perks. These perks (such as Overcharge, Reinforced, & Shield Enhance) were only usable in Nearby Enemies & Dungeon, and can only be used for a certain amount of duration.
+Odměna za úkol může sahat od předmětů po perky. Tyto perky (například Overcharge, Reinforced a Shield Enhance) lze použít jen u **Blízkých nepřátel** a v dungeonech, a to jen po omezenou dobu.
 
 ![QuestTab2](/resources/mobile-tutorial/QuestTab2.png)

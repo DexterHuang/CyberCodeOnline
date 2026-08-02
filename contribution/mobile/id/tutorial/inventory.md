@@ -1,46 +1,34 @@
-## Inventory
+# Inventaris
+Anda dapat mengakses **Inventory** dengan mengeklik opsi pada bilah menu bagian bawah. Dalam inventory, Anda dapat melihat semua item yang dimiliki, mulai dari **Equipment** (yang juga mencakup **Upgrade Modules** dan **Equipment Caches**), **Ammo**, **Medical Items**, **Crafting Ingredients**, **Key Fragment / Secret Keys**, **Global Boost**, dan item habis pakai lainnya. Dengan mengeklik item, Anda dapat melihat detail dan lore item tersebut.
 
-You can access your inventory by clicking the option at the bottom menu bar. In your inventory, you can see all items that you own, including equipment, upgrade modules, ammo, medical items, secret keys, caches, and other consumables. By clicking on the item, you can see the details of that item.  
+Penjelasan tentang item dan sumber daya dapat ditemukan di [Tutorial Sumber Daya](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md)
 
-You can choose to equip gear by choosing the equip button. Equipped gear will be highlighted at the top of the inventory page. By clicking on gears, you can also choose to install upgrade modules that will enhance certain values of that item.
 
-To remove installed upgrade modules, simply click on the installed module. Better quality equipment have more upgrade module slots.
+## Fungsi Inventory
+Berikut beberapa tips yang dapat digunakan pemain terkait fitur inventory:
 
-## Items in your Inventory
+> Dengan mengeklik ikon di atas daftar inventory, Anda dapat memfilter item tertentu. Opsi ini mencakup pengurutan alfabetis hingga filter item.
 
-Your caches in your inventory can be consumed to print gear using the Molecular 3D Printer in the City Center.  
+> Anda akan memulai dengan 50 slot inventory; melengkapi **Backpack** atau gear / upgrade modules dengan stat **pocket** akan memberi Anda lebih banyak ruang inventory.
 
-Medical items can be consumed in dungeons to regenerate health (your character will not automatically regenerate health in dungeons as they would after normal battles in a train station).  
+> Untuk membuang equipment dan upgrade modules, Anda dapat mengeklik item tersebut lalu mengeklik tombol **Scrap**. Sebagai alternatif, Anda dapat menahan klik pada satu item, memilih semua item yang ingin di-scrap, lalu menekan tombol **Scrap** yang akan muncul di kiri atas daftar item.
 
-Ammo can be used to perform special attacks and destructive attacks during combat.
+> Terdapat tombol khusus **Auto Scrap** yang dapat ditemukan dengan mengeklik tombol dropdown di sisi kanan ikon filter. Auto Scrap hanya akan melakukan scrap pada gear dengan kelangkaan Common atau Trash dan mengabaikan Upgrade Module dengan kelangkaan apa pun.
 
-Locked containers (✧) can be found in dungeons and can be unlocked using Tech Scraps at the Terminal in the main HUB.  
-Depending on the quality of the locked container, the amount of Tech Scrap needed for unlocking it may be greater; the required Tech Scraps start at 32. If you don't see the option for unlocking the container at the Terminal, it means you do not have enough Tech Scraps.
+> Setiap item yang dapat di-scrap oleh pemain akan menghasilkan Tech Scrap. Namun, beberapa item juga memberikan item lain, seperti **Medical Tech Parts** (yang hanya dapat diperoleh dengan melakukan scrap pada **Pain Away**) atau **Ammunition Tech Parts** (yang hanya dapat diperoleh dengan melakukan scrap pada **Anti Matter Charge** atau **Energy Cell**). Selain itu, beberapa item (seperti **Pain Away** dan **Equipment Caches**) tidak dijamin menghasilkan Tech Scrap atau Med Tech; ada peluang 50% untuk menghasilkan salah satunya.
 
-Secret key fragments that you obtained in special dungeon chests can be merged into a secret key by brute-forcing it at the Terminal. Secret keys will grant you access to higher level enemy areas and dungeons.  
-
-Other consumables, such as Hash Processors and AI Cores, can be used to perform AFK tasks.
-
-Learn more about all the different types of resources in the Resources Tutorial.
-
-## Functions in your Inventory
-
-By clicking the icons above your inventory list, you can filter out specific items. You will start with 50 empty slots; equipping gear with the **pocket** stat will give you more inventory space. To get rid of equipment and upgrade modules, you can click on the item itself and then on the **SCRAP** button. Alternatively, you can hold click on one item, select every item you want to scrap, then press the **SCRAP** button that will appear at the top left of the item list. Every item scrapped will give you Tech Scrap. To get rid of other items that are not scrappable, you can click on the **DESTROY** button. Destroyed items will not give you anything in return, so be cautious when performing this action.  
+> Untuk membuang item lain yang tidak dapat di-scrap, Anda dapat mengeklik tombol **Destroy**. Item yang dihancurkan tidak akan memberikan apa pun sebagai imbalan, jadi berhati-hatilah saat melakukan tindakan ini.
 
 ## Item Inbox
-
-Items that other players send will be automatically placed in your item inbox. Once you have enough space in your inventory, they will be moved automatically to your inventory. There is sometimes a delay before this happens.
+Item yang dikirim pemain lain (atau dikirim kembali dari **Player Market** dan diklaim dari **Daily Reward**) akan otomatis ditempatkan di **Item Inbox** Anda. Setelah inventory Anda memiliki cukup ruang, item-item tersebut akan dipindahkan otomatis ke inventory saat Anda mengeklik opsi **Get All Items**. Perlu diingat bahwa item yang disimpan di Item Inbox akan kedaluwarsa dalam 7 hari jika tidak diklaim.
 
 ## Crafting
+Crafting memungkinkan Anda membuat berbagai jenis item, seperti **Medicine**, **Ammo**, **Item Ingredient**, dan item habis pakai lainnya (seperti **Hash Processor** dan **AI Core**).
 
-This tab in your inventory allows you to craft different types of items: medicine, ammo, Hash Processors and AI Cores.  
+Pada Medical Tab, sebagian besar item penyembuhan memerlukan **Medical Tech Parts** dan **Medical Science Level** untuk dibuat. Misalnya, untuk membuat 4 **Nano Medic Bot**, pemain harus memiliki 8 **Medical Tech Parts** dan Medical Science level 30 (atau lebih tinggi). Beberapa item penyembuhan juga memerlukan **Tech Scrap** untuk membuat versi **Medical Drone**-nya. Misalnya, untuk membuat **Nano Medic Drone**, pemain harus memiliki **Nano Medic Bot** dan **Tech Scrap** di inventory (serta Medical Science level 40 (atau lebih tinggi)).
 
-Medical crafting uses medical tech parts.  
+Pada Ammo Tab, setiap amunisi memerlukan bahan yang berbeda untuk dibuat. Untuk **Energy Cells**, pemain harus memiliki **Ammunition Tech Parts** untuk membuatnya, sedangkan untuk **Anti Matter Charge**, pemain harus memiliki **Military Ammunition Tech Parts**. Pemain juga dapat membuat **Military Ammunition Tech Parts** dengan menggabungkan minimal 20 **Ammunition Tech Parts** untuk menghasilkan satu. Karena hanya ada dua jenis amunisi, peran **Ammo Crafting Skill** berkaitan dengan jumlah amunisi yang dapat diperoleh pemain setiap 10 level. Misalnya, pada Ammo Crafting Level 20, pemain dapat memperoleh 3 **Energy Cells** untuk setiap 1 **Ammunition Tech Parts** (rasio 3:1), dan pada level 30, pemain akan mendapatkan 1 unit **Energy Cells** tambahan dengan jumlah **Ammunition Tech Parts** yang sama. Hal yang sama berlaku untuk membuat **Anti Matter Charge**.
 
-Ammo crafting can use either ammunition tech parts (for Energy Cells) or military ammunition tech parts (for Anti Matter Charges).
+Pada Material Tab, pemain dapat membuat **Hash Processor** dan **AI Core** sesuai kebutuhan. Khusus **AI Core**, pemain disarankan menaikkan Mining Skills terlebih dahulu ke level 190 untuk mendapatkan rasio pembuatan yang seimbang (20 **Hash Processor** : 20 **AI Core**), karena pembuatan AI pada level lebih rendah tidak menguntungkan sekaligus menghabiskan bahan lebih banyak daripada yang diperlukan. Hal ini tidak berlaku untuk pembuatan **Hash Processor** karena rasionya selalu sama.
 
-Hash Processors use military ammunition tech parts, medical tech parts and Tech Scraps.  
-
-AI Cores use Hash Processors and Tech Scraps.  
-
-As you level up the relevant skills (medical science, ammo crafting, and mining), you will unlock new recipes and become more proficient, allowing you to craft more and better items.
+Singkatnya, saat Anda menaikkan level skill yang relevan (Medical Science, Ammo Crafting, dan Mining Skill), Anda akan membuka resep baru dan menjadi lebih mahir, sehingga dapat membuat lebih banyak item dan item yang lebih baik.

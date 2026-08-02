@@ -1,147 +1,134 @@
-## Profil
-dimenu Profil mu, ada beberapa menu yang dapat membantu dan informasi akun mu.
+# Profil
+Di Profil Anda, tersedia beberapa informasi dan opsi. Dari atas ke bawah, berikut informasi yang dapat Anda lihat di profil:
 
-ini yang akan kau lihat di menu Profil mu
- - Alias / Nama Pengguna
- - Gelar / Title and Foto Profil (jika kau terapkan)
- - Jumlah BitCoins (BTC)
- - Level Rata-Rata Perlengkapan mu (Gear Score)
- - Lokasi mu saat ini
- - Status Online/Offline (System Link)
- - Reputasi Jalanan
- - Aktifitas mu saat ini (Status)
- - level akun mu
- - Level mencetak mu
- - level keahlian mu
- - Stats / Statistik mu
- - Gang
- - Kunci rahasia (untuk dungeon)
+- **Alias** : Nama pengguna Anda
+- **Title dan profile picture (jika ada)** : Fitur Donator; menampilkan title dan Profile Picture yang sedang digunakan. Klik Profile Picture untuk mengubah gambar
+- **Jumlah BitCoin** : BTC Anda saat ini. Menampilkan BTC yang belum disimpan di bank dan BTC yang tersimpan di bank
+- **Rata-rata Gear Level (Gear Score)** : Rata-rata Gear Level Anda saat ini. Memengaruhi perolehan EXP Anda saat melakukan AI Farming
+- **Lokasi Saat Ini** : Lokasi karakter Anda saat ini
+- **Online/Offline Status (System Link)** : Status akun Anda saat ini
+- **Street Cred** : Jumlah Street Cred yang Anda peroleh
+- **Aktivitas Saat Ini (Status)** : Aktivitas Anda saat ini
+- **Level Anda** : Level karakter Anda saat ini
+- **Level Skill** : Level skill Anda saat ini
+- **Stats** : Informasi terperinci tentang status karakter Anda
+- **Gang** : Gang Anda saat ini (informasi ini tidak akan muncul jika Anda tidak memiliki gang)
+- **Secret Keys** : Daftar Secret Keys yang telah diperoleh sejauh ini
 
-di bagian [STATS], kau bisa melihat 'efek global' atau transmisi yang sedang aktif (atau nama lainnya adalah boost).
+## Statistik (Stats)
+Di bagian **Stats**, Anda dapat melihat 'Global Effects' dari Transmitter (atau boost) yang diaktifkan. Di sini Anda juga dapat melihat berapa lama status [MUTED] akan berlangsung.
 
-disini kau bisa melihat berapa lama status [MUTED] mu berlangsung / habis.
+Sesuai namanya, seseorang dengan status 'MUTED' tidak dapat berkomunikasi dengan orang lain selama jangka waktu tertentu.
 
-sesuai namanya, seseorang dengan status 'MUTED' tidak dapat melakukan komunikasi dengan yang lain selama beberapa waktu.
+- Status 'MUTED' memengaruhi semua jenis chat: Global, Gang, dan Mail (Private Messaging).
+- Status 'MUTED' tidak memengaruhi kemampuan menerima atau mengirim item kepada pemain lain maupun kemampuan bermain game.
+- Status 'MUTED' diterapkan oleh moderator (mods) kepada pemain yang melanggar aturan game atau aturan yang berkaitan dengan chat.
 
-Status 'MUTED' bereffek pada seluruh chat: baik global, gang, dan juga pesan (pesan pribadi).
+Di bagian bawah profil Anda, Anda akan melihat beberapa opsi tambahan, seperti:
+- **QUIT GANG** : ini akan membuat Anda meninggalkan gang jika Anda tergabung di dalamnya;
+- **LOGOUT** : ini akan mengeluarkan Anda dari game.
 
-Status'MUTED' tidak memberikan efek ke penerimaan atau pemberian item ke pemain lain ataupun akses bermain game.
+Pada profil pemain lain, Anda akan menemukan opsi yang berbeda, seperti:
+- **SEND PRIVATE MESSAGE** : kirim pesan pribadi kepada pemain melalui Mail dalam game.
+- **SEND GIFT** : kirim item (cache, item penyembuhan, amunisi, dan sebagainya) dari inventory Anda ke inventory pemain lain. Anda tidak dapat mengirim Secret Key Fragments kepada pemain lain.
+- **INVITE TO GANG** : undang pemain ke gang Anda, hanya jika Anda adalah Leader atau memiliki izin untuk mengundang pemain lain ke gang.
+- **ADD TO FRIEND LIST** : tambahkan pemain ke daftar teman Anda; jika pemain tersebut sedang tidak online, mereka juga akan menerima notifikasi bahwa Anda menambahkannya sebagai teman.
+- **SEND TRADE REQUEST** : pertukaran barang antara dua pihak (Anda dan pemain lain) tanpa melibatkan BTC sebagai alat transaksi.
+- **SEND STREET CRED** : berikan 1 poin Street Cred kepada pemain.
 
-Status 'MUTED' hanya diterapkan oleh mederator (mods) kepada pemain yang melanggar aturan permainan yang berkaitan dengan in game chat. 
+Street Cred adalah sistem poin yang mirip dengan sistem "Karma" di Reddit. Sistem ini dimaksudkan untuk menunjukkan seberapa dapat dipercaya atau membantu seorang pemain. Anda dibatasi hanya dapat mengirim 1 Street Cred per hari. Anda tidak dibatasi dalam jumlah Street Cred yang dapat diterima dari pemain lain.
 
-dibawah Profil mu, kau akan menemukan beberapa tombol lain yaitu:
+## Jenis Level
 
-- [DONASI] - ini akan membawamu ke tier donasi (Kosmetik);
+### Level Pemain (Player Level)
 
-- [KELUAR GANG] - ini akan membuatmu keluar dari gang, jika kau bergabung (hati hati jika menekan ini jika kau gang leader);
+Ini adalah level yang menjadi batas maksimum semua skill Anda yang lain. Anda dapat meningkatkan level pemain dengan bertarung di dungeon, melawan musuh, dan menggunakan Experience Memories. Untuk efisiensi tertinggi, usahakan semua level Anda kurang lebih sama dengan level pemain. Ini disarankan.
 
-- [KELUAR] - ini akan membuatmu keluar dari akun game mu (kau bisa login lagi).
+### Peringkat Printing (Printing Rank)
 
-On other players' Profils, you will encounter different options:
-
-- [SEND PRIVATE MESSAGE] - send a private message to the player through in-game Mail.
-
-- [SEND GIFT] - send items (caches, healing items, ammo, etc.) from your inventory to the other player's inventory. You cannot send Secret Key Fragments to other players.
-
-- [INVITE TO GANG] - invite the player to your gang, only if you are the Leader or you have the permission to invite others players into the gang.
-
-- [ADD TO FRIEND LIST] - add the player to your friend list, and if the player is not currenty online, they will also receive a notification about the fact that you added them as a friend.
-
-- [SEND STREET CRED] - give 1 Street Cred point to the player.
-
-Street Cred is a point system similar to "Karma" found on Reddit. It's meant to indicate how trustful or helpful a player is.
-
-You're limited to sending only 1 Street Cred per day. You are not limited in how much Street Cred you receive from other players.
-
-## Types of levels
-
-### Player Level
-
-This is the level all your other skills will be capped at. You can increase your player level by fighting in dungeons, fighting enemies and using Experience Memories. For the highest efficiency, you want to keep all your levels about even with your player level. This is recommended.
-
-### Printing Rank
-
-Printing rank determines the level of the equipment you will print at the 3D Molecular Printer. You can level your printing rank by printing equipment, Reverse Engineering Tech Scraps or working at a Printing Factory. The latter two options are AFK jobs at the Job Hub.
+Peringkat printing menentukan level equipment yang akan Anda cetak di 3D Molecular Printer. Anda dapat menaikkan peringkat printing dengan mencetak equipment, melakukan Reverse Engineering Tech Scraps, atau bekerja di Printing Factory. Dua opsi terakhir adalah pekerjaan AFK di Job Hub.
 
 ### Medical Science
-Crafting medical items or initiating the relevant job at the Job Hub will give you medical crafting experience. You will need these levels to craft better healing items.
+
+Membuat item medis atau memulai pekerjaan terkait di Job Hub akan memberi Anda pengalaman crafting medis. Anda memerlukan level ini untuk membuat item penyembuhan yang lebih baik.
 
 ### Ammo Crafting
 
-Crafting ammo or initiating a job at the Job Hub will give you ammo crafting experience. It's useful to craft more ammo with less materials.
+Membuat amunisi atau memulai pekerjaan di Job Hub akan memberi Anda pengalaman crafting amunisi. Skill ini berguna untuk membuat lebih banyak amunisi dengan lebih sedikit bahan.
 
 ### Scavenge Skill
 
-To start scavenging, you must start at the lowest level area (Flori Station, Grandiose Parking Lot 1 - 4). As your scavenge skill improves, you can start to scavenge at higher levels. The level requirements are listed in those areas.
-
-Higher scavenge levels will also grant you better rewards of (ammunition, military ammunition and medical) tech parts. You can only gain scavenge experience by scavenging.
+Untuk mulai melakukan scavenging, Anda harus memulainya di area dengan level terendah (Flori Station, Grandiose Parking Lot 1 - 4). Seiring meningkatnya Scavenge Skill, Anda dapat mulai melakukan scavenging di level yang lebih tinggi. Persyaratan level tercantum di area tersebut. Level scavenging yang lebih tinggi juga memberi Anda hadiah tech parts (ammunition, military ammunition, dan medical) yang lebih baik. Anda hanya dapat memperoleh pengalaman scavenging dengan melakukan scavenging.
 
 ### Mining Skill
 
-Mining can be done only with 'Hash Processors' that drop from both normal and challenge dungeons.
+Mining hanya dapat dilakukan dengan 'Hash Processors' yang diperoleh sebagai drop dari dungeon normal dan challenge. Level mining yang lebih tinggi dapat menghasilkan lebih banyak BTC per 15 menit mining AFK. Anda dapat memperoleh pengalaman mining dengan menyelesaikan pekerjaan mining di Job Hub. Dengan level mining yang lebih tinggi, Anda juga dapat membuat AI cores dengan lebih efisien.
 
-Higher mining levels can earn you more BTC per 15 minutes of AFK mining. You can get mining experience by completing mining jobs at the Job Hub. With higher mining levels, you can craft AI cores more efficiently as well.
-
-## Stats
-
-Every player has 20 different Stats. 
+## Statistik (Stats)
+Setiap pemain memiliki 22 Stats berbeda yang dapat ditampilkan di profil, sebagai berikut:  
 
 ### Max Shield
-The maximum shield that the player has. Upon receiving an attack, the shield is hit first before deducting from the player's health.
- 
+Jumlah shield maksimum yang dimiliki pemain. Saat menerima serangan, shield akan terkena serangan terlebih dahulu sebelum health pemain dikurangi.
+  
 ### Max Health
-The maximum health that the player has. Determined by player equipment and equipment upgrades.  
+Health maksimum yang dimiliki pemain. Ditentukan oleh equipment pemain dan upgrade equipment.  
   
 ### Armor
-The armor that the player has. It reduces damage taken by that specified amount.  
-  
+Armor yang dimiliki pemain. Armor mengurangi damage yang diterima sebesar jumlah tersebut.  
+  
 ### Health Regen
-Health regenerated after a battle in a dungeon. 
-   
+Health yang dipulihkan setelah pertempuran di dungeon.
+    
 ### Damage (dmg)
-The total damage the player deals. Your damage is calculated by adding up the damage modifiers given by equipment and equipment upgrades.  
+Total damage yang diberikan pemain. Damage Anda dihitung dengan menjumlahkan modifier damage yang diberikan oleh equipment dan upgrade equipment.  
   
 ### Crit Chance
-The chance of the player critically striking when attacking. The max crit chance is 70%.  
+Peluang pemain melakukan serangan kritis saat menyerang. Crit chance maksimum adalah 70%.  
   
 ### Crit Damage
-The multiplier to your damage when critically striking. The max crit damage multiplier is 200%.  
+Pengali damage saat melakukan serangan kritis. Pengali crit damage maksimum adalah 200%.  
   
 ### Escape
-The chance of escaping from an enemy encounter. The max escape chance is 80%.  
+Peluang melarikan diri dari pertemuan dengan musuh. Peluang escape maksimum adalah 80%.  
   
 ### Stun Chance
-The chance of stunning an enemy. If an enemy is stunned, they cannot perform a response action during that turn. The max stun chance is 20%.  
+Peluang membuat musuh terkena stun. Jika musuh terkena stun, musuh tidak dapat melakukan response action selama giliran tersebut. Stun chance maksimum adalah 20%.  
   
 ### Evade
-The chance of evading an enemy attack, taking no damage. The max evade chance is 40%.  
+Peluang menghindari serangan musuh sehingga tidak menerima damage. Peluang evade maksimum adalah 40%.  
   
 ### Bargain
-The percentage the price is discounted or increased when buying or selling from the mart. The max bargain percentage is 40%.  
+Persentase harga yang didiskon atau dinaikkan saat membeli atau menjual dari mart. Persentase bargain maksimum adalah 40%.  
   
 ### Pocket
-The amount of additional inventory space. The max additional pocket space is 32.  
+Jumlah ruang inventory tambahan. Ruang pocket tambahan maksimum adalah 128.  
   
 ### Damage Multiplier
-A percent multiplier to attacks. The max multiplier is 40%.  
+Pengali persentase untuk serangan. Pengali maksimum adalah 40%.  
   
 ### Defence Multiplier
-A percent multiplier to your armor. The max multiplier is 40%.  
+Pengali persentase untuk armor Anda. Pengali maksimum adalah 40%.  
   
 ### Stun Evade
-The chance of evading an enemy stun. The max chance is 40%.  
+Peluang menghindari stun musuh. Peluang maksimum adalah 40%.  
   
 ### Shield Multiplier
-A percent multiplier to your shield. The max multiplier is 40%.  
+Pengali persentase untuk shield Anda. Pengali maksimum adalah 40%.  
 
 ### Healing Multiplier
-A percent multiplier to heals received from healing items. The max multiplier is 100%.
+Pengali persentase untuk heal yang diterima dari item penyembuhan. Pengali maksimum adalah 100%.
 
 ### Time Reduction
-A percent multiplier for how much time is reduced during AFK activities. The max time reduction is 80%.
+Pengali persentase untuk besarnya pengurangan waktu selama aktivitas AFK. Pengurangan waktu maksimum adalah 80%.
 
 ### Experience Multiplier
-A percent multiplier showing how much EXP you can additionally gain. The max multiplier is 100%.
+Pengali persentase yang menunjukkan tambahan EXP yang dapat Anda peroleh. Pengali maksimum adalah 80%.
 
 ### BitCoin (BTC) Multiplier
-A percent multiplier showing how much BitCoin you can additionally gain. The max multiplier is 100%.
+Pengali persentase yang menunjukkan tambahan BitCoin yang dapat Anda peroleh. Pengali maksimum adalah 100%.
+
+### Gang Nemesis
+Tingkat afeksi Current Enemy Gang yang akan meningkatkan damage mereka terhadap Anda. Pengali maksimum adalah 10%.
+
+### Mark
+Mark yang saat ini ditetapkan pada karakter Anda. Mark ini akan memengaruhi damage Anda terhadap Enemy Gang tertentu. Pengali maksimum adalah 10%.

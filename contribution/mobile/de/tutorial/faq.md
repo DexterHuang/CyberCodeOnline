@@ -117,7 +117,7 @@ Du kannst Gegenstände verschrotten, zerstören, oder in deine Bankfächer legen
 Die Qualität von Rüstung wird viel zum Modifikator beitraten den sie gibt - je höher die Qualität, desto besser die Eigenschaften. Die Qualitätsstufen sind, in aufsteigender Reihenfolge:  Schrott > Gewöhnlich > Hochwertig > Selten > Legendär > Episch. Du kannst die Qualität von Waffen oder Rüstungen nicht im Nachhinein ändern.
 
 ### Was heißt Haltbarkeit bei Waffen und Rüstungen?
-*Durability is the ability of an equipment to remain functional, without requiring excessive maintenance or repair, when faced with the challenges of normal operation over it's designed lifetime (Wikipedia)*. Die Haltbarkeit verringerte sich nur wenn du gegen **Feinde in der Nähe** kämpfst, nicht aber in Dungeons. Halbarkeit ist im aktuellen Update deaktiviert.
+*Haltbarkeit bezeichnet die Fähigkeit eines Ausrüstungsgegenstands, während seiner vorgesehenen Lebensdauer bei den Herausforderungen des normalen Betriebs funktionsfähig zu bleiben, ohne dass übermäßige Wartung oder Reparaturen erforderlich sind (Wikipedia)*. Die Haltbarkeit verringerte sich nur wenn du gegen **Feinde in der Nähe** kämpfst, nicht aber in Dungeons. Halbarkeit ist im aktuellen Update deaktiviert.
 
 ### Wie stelle ich die Haltbarkeit wieder her?
 Im aktuellen Update ist die Haltbarkeit nur eine Nummer auf deiner Gegenstandsbeschreibung. Sie verringert sich nicht und die **Repariere** Fuktion existiert nicht mehr. 

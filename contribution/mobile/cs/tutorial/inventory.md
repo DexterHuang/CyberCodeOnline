@@ -1,34 +1,34 @@
-# Inventory
-You can access your **Inventory** by clicking the option at the bottom menu bar. In your inventory, you can see all items that you own, ranging from **Equipment** (which also includes **Upgrade Modules** and **Equipment Caches**), **Ammo**, **Medical Items**, **Crafting Ingredients**, **Key Fragment / Secret Keys**, **Global Boost**, and other consumables. By clicking on the item, you can see the details and lores of that item respectively.
+# Inventář
+Do **Inventáře** se dostanete kliknutím na možnost ve spodní liště nabídky. V inventáři vidíte všechny předměty, které vlastníte: **Vybavení** (včetně **modulů vylepšení** a **schémat vybavení**), **munici**, **léčivé předměty**, **ingredience pro výrobu**, **fragmenty klíčů / tajné klíče**, **globální posílení** a další spotřební předměty. Kliknutím na předmět si zobrazíte jeho podrobnosti a lore.
 
-Explanation about item / resources, can be found on [Resource's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md)
+Vysvětlení předmětů a zdrojů najdete v [Tutoriálu zdrojů](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md)
 
 
-## Functionality on Inventory
-Here's a few tips that players can utilize around inventory feature, as follows:
+## Funkce inventáře
+Zde je několik tipů, které můžete při práci s inventářem využít:
 
-> By clicking the icons above your inventory list, you can filter out specific items. This option ranged from alphabetical sort up to item filter.
+> Kliknutím na ikony nad seznamem inventáře můžete filtrovat konkrétní předměty. Tato volba sahá od abecedního řazení až po filtrování podle typu předmětu.
 
-> You will start with 50 inventory slots; equipping **Backpack** or gear / upgrade modules with **pocket** stat will give you more inventory space. 
+> Začínáte s 50 sloty v inventáři; nasazení **batohu** nebo vybavení a modulů vylepšení se statistikou **Počet kapes** vám dá více místa v inventáři.
 
-> To get rid of equipment and upgrade modules, you can click on the item itself and then on the **Scrap** button. Alternatively, you can hold click on one item, select every item you want to scrap, then press the **Scrap** button that will appear at the top left of the item list. 
+> Chcete-li se zbavit vybavení a modulů vylepšení, klikněte na samotný předmět a poté na tlačítko **Rozebrat**. Případně podržte kliknutí na jednom předmětu, vyberte všechny předměty, které chcete rozebrat, a poté stiskněte tlačítko **Rozebrat**, které se objeví vlevo nahoře nad seznamem předmětů.
 
-> There's a dedicated **Auto Scrap** button which players can find by clicking the dropdown button on the right side of the filter icon. Auto Scrap will only be scrapping Common or Trash rarity gear while ignoring any Upgrade Module of any rarity.
+> K dispozici je i samostatné tlačítko **Automaticky rozložit**, které najdete po kliknutí na rozbalovací tlačítko vpravo od ikony filtru. Tato funkce bude rozebírat pouze vybavení rarity Common nebo Trash a bude ignorovat modul vylepšení jakékoli rarity.
 
-> Every item that the player can scrap will yield **Tech Scrap** in return. However, some item does give you other items such as **Medical Tech Parts** (which can only be gained by scrapping **Pain Away**) or **Ammunition Tech Parts** (which can only be gained by scrapping either **Anti Matter Charge** or **Energy Cell**). Not only that, some items (such as Pain Away and **Equipment Caches**) aren't guaranteed to yield either Tech Scrap or Med Tech, with a 50% chance to yield one.
+> Každý předmět, který lze rozebrat, dá jako odměnu **technický šrot**. Některé předměty ale dávají i jiné věci, například **technické součástky léčiv** (které lze získat pouze rozebráním **Bolest pryč**) nebo **součástky munice** (které lze získat pouze rozebráním **antihmotového náboje** nebo **energetického článku**). Navíc některé předměty (například Bolest pryč a **schémata vybavení**) nemají zaručený výsledek v podobě technického šrotu nebo součástek léčiv, ale mají 50% šanci, že dají jeden z nich.
 
-> To get rid of other items that are not scrappable, you can click on the **Destroy** button. Destroyed items will not give you anything in return, so be cautious when performing this action.  
+> Ostatních předmětů, které nelze rozebrat, se zbavíte tlačítkem **Zničit**. Zničené předměty vám nic nevrátí, proto buďte při této akci opatrní.
 
-## Item Inbox
-Items that other players send (or sent back from **Player Market** & claimed from **Daily Reward**) will automatically be placed in your **Item Inbox**. Once you have enough space in your inventory, they will be moved automatically to your inventory by clicking **Get All Items** option. Keep in mind that items stored in Item Inbox will expire in 7 days if not claimed. 
+## Schránka s předměty
+Předměty, které vám pošlou ostatní hráči (nebo které se vrátí z **Trhu hráčů** či je získáte z **Denní odměny**), se automaticky uloží do **Schránky**. Jakmile budete mít v inventáři dost místa, přesunou se do něj kliknutím na možnost **Získat všechny předměty**. Pamatujte, že předměty uložené ve Schránce po 7 dnech propadnou, pokud si je nevyzvednete.
 
-## Crafting
-Crafting allows you to craft different types of items such as **Medicine**, **Ammo**, **Item Ingredient**, and other consumables (such as **Hash Processor** and **AI Core**).  
+## Výroba
+Výroba vám umožňuje vyrábět různé typy předmětů, jako jsou **léčiva**, **munice**, **ingredience předmětů** a další spotřební předměty (například **Hash Procesor** a **AI Jádro**).
 
-On Medical Tab, most heal item relies on **Medical Tech Parts** and **Medical Science Level** to craft one. For example, to craft 4 Nano Medic Bot, players need to have 8 Medical Tech Parts while also on a Medical Science level 30 (or higher). Some heal items will also require **Tech Scrap** in order to make a **Medical Drone** version of it. For example, in order to make Nano Medic Drone, players must have both Nano Medic Bot and Tech Scrap on their inventory (while also on a Medical Science level 40 (or higher)). 
+Na kartě Zdravotnické většina léčivých předmětů vyžaduje k výrobě **technické součástky léčiv** a **úroveň lékařské vědy**. Například k výrobě 4 lékařských nanobotů potřebujete 8 technických součástek léčiv a zároveň lékařskou vědu na úrovni 30 (nebo vyšší). Některé léčivé předměty budou také vyžadovat **technický šrot**, aby z nich šla vyrobit verze **lékařského dronu**. Například pro výrobu lékařského nanodronu musíte mít v inventáři lékařský nanobot i technický šrot (a zároveň lékařskou vědu na úrovni 40 nebo vyšší).
 
-On Ammo Tab, each ammo requires a different ingredient to craft. For **Energy Cells**, a player must have **Ammunition Tech Parts** to make one, and as for **Anti Matter Charge**, plater must have **Military Ammunition Tech Parts**. Players can also make Military Ammunition Tech Parts by combining a minimum of 20 Ammunition Tech Parts to make one. Since there are only two types of ammo, the role of **Ammo Crafting Skill** revolves around the ammo quantity that the player can get per 10 levels. For example, on Ammo Crafting Level 20, players can get 3 Energy Cells for every 1 Ammunition Tech Parts (3:1 ratio), and by level 30, players will get 1 more Energy Cells with the same amount of Ammunition Tech Parts. The same case applies to making Anti Matter Charge.   
+Na kartě Munice vyžaduje každý druh munice jiné ingredience. Pro **energetické články** musíte mít k výrobě **součástky munice**, zatímco pro **antihmotový náboj** potřebujete **součástky vojenské munice**. Součástky vojenské munice lze vyrobit i spojením minimálně 20 součástek munice. Protože existují jen dva typy munice, role **dovednosti výroby munice** se točí kolem množství munice, které hráč získá za každých 10 úrovní. Například na úrovni výroby munice 20 získáte 3 energetické články za každou 1 součástku munice (poměr 3:1) a na úrovni 30 získáte o 1 energetický článek více při stejném množství součástek munice. Totéž platí i pro výrobu antihmotového náboje.
 
-On Material Tab, players can craft **Hash Processor** and **AI Core** for their needs. Specifically for AI Core, it is advisable for players to level up their Mining Skills to level 190 first to get an even crafting rate (20 Hash Processor : 20 AI Core) as lower-level AI crafting aren't profitable while consuming even more ingredient than it's needed. This doesn't apply to Hash Processor crafting as it's always at the same rate.  
+Na kartě Komponenty mohou hráči pro své potřeby vyrábět **Hash Procesor** a **AI Jádro**. U AI Jádra se doporučuje nejprve zvýšit dovednost těžby na úroveň 190, aby byl poměr výroby vyrovnaný (20 Hash Procesorů : 20 AI Jader), protože výroba AI na nižších úrovních není zisková a spotřebovává více ingrediencí, než je potřeba. To neplatí pro výrobu Hash Procesoru, protože ta má vždy stejný poměr.
 
-In summary, as you level up the relevant skills (Medical Science, Ammo Crafting, and Mining Skill), you will unlock new recipes and become more proficient, allowing you to craft more and better items.
+Shrnutí: jak budete zvyšovat příslušné dovednosti (lékařská věda, výroba munice a těžba), odemknete nové recepty a budete se stávat zručnějšími, takže vyrobíte více a lepších předmětů.

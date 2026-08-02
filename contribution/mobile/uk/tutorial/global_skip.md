@@ -1,62 +1,62 @@
-# Global Skip
+# Глобальне прискорення
 
-**Global Skip** is an in-game feature that allows players to accelerate AFK times up to a certain duration. When a player activates Global Skip, it affects every player that started their AFK task beforehand. As the benefit applies to all AFK players, it adds to the queue system and progresses one by one. It takes 1 ~ 3 minutes for the effects to apply to everyone (it might take even longer depending on how big the queue is).
+**Глобальне прискорення** — це ігрова функція, що дає змогу гравцям скоротити час AFK-завдання на певну тривалість. Коли гравець активує глобальне прискорення, воно впливає на всіх гравців, які запустили свої AFK-завдання раніше. Оскільки ефект отримують усі гравці з AFK-завданнями, він потрапляє до системи черги й застосовується по одному. Щоб ефект спрацював для всіх, потрібно 1–3 хвилини (або й довше, якщо черга велика).
 
 ![GlobalSkip](/resources/mobile-tutorial/GlobalSkip.png)
 
-To activate Global Skip, players must acquire a premium currency called Units which can only be bought with Real Money. The cost for Global Skip depends on the duration that applies, with an increment of 64 Units for every 15 minutes (for example: if a player wants to do a 30 minute Global Skip, it'll cost them 128 Units on doing so).
+Щоб активувати глобальне прискорення, гравцям потрібно придбати преміальну валюту Юніти, яку можна купити лише за реальні гроші. Вартість прискорення залежить від тривалості та збільшується на 64 Юніти за кожні 15 хвилин (наприклад, 30-хвилинне глобальне прискорення коштуватиме 128 Юнітів).
 
 ![GlobalSkip2](/resources/mobile-tutorial/GlobalSkip2.png)
 
-Players can do Global Skip for up to 8 hours AFK task, which costs 2048 Units upon purchase. It is advisable to wait for at least 10-30 seconds before applying Global Skip so that other players can gain the benefit at times. Once purchased, no new skips can be purchased until the skip is completed.
+Гравці можуть застосувати глобальне прискорення до AFK-завдання тривалістю до 8 годин; це коштує 2048 Юнітів. Радимо зачекати хоча б 10–30 секунд перед активацією прискорення, щоб інші гравці встигли скористатися ефектом. Після покупки нове прискорення не можна придбати, доки поточне не завершиться.
 
-## Global Skip & Efficiency
+## Глобальне прискорення та ефективність
 
-While doing a sole Global Skip was a thing, players were advised to do a Global Skip while having a certain **Accelerator / Global Buff** that makes the Skip more efficient per cost. In general, the Global Buff itself is as follows:
+Раніше гравці використовували лише глобальне прискорення, але тепер радять запускати його разом із певним **прискорювачем / глобальним бафом**, який робить його вигіднішим щодо витрат. Основні глобальні бафи такі:
 
-### Synaptic Acceleration Transmitter
+### Синаптичний передавач прискорення
 
 ![GlobalBuff_AFK](/resources/mobile-tutorial/GlobalBuff_AFK.png)
 
-This item will boost how quickly AFK time passes by +5% for 10 minutes, stackable to +80%. Players only need to use one at times to extend the duration of the boost, resetting the timer. To make use of the boost, players need to begin an AFK session while the boost is active. This item affects globally and does not stack with the rare version. Players can only find this item on Dungeon or via Player Trade.
+Цей предмет підвищує швидкість проходження AFK-часу на +5% на 10 хвилин; ефект складається до +80%. Щоб продовжити дію бафа, достатньо використати ще один — таймер скинеться. Щоб скористатися бафом, потрібно почати AFK-сесію, поки він активний. Цей предмет діє глобально і не складається з рідкісною версією. Знайти його можна лише в підземеллі або через Player Trade.
 
-### Rare Synaptic Acceleration Transmitter
+### Рідкісний синаптичний передавач прискорення
 
 ![GlobalBuff_AFK2](/resources/mobile-tutorial/GlobalBuff_AFK2.png)
 
-These are similar to regular **Synaptic Acceleration Transmitters** but don't stack with them. The rare version will instantly boost how quickly AFK time passes by +40% for 20 minutes, stackable to +80%. You only need to use one at times to extend the duration of the boost, resetting the timer. To make use of the boost, you just need to begin an AFK session while the boost is active. You can only find this item on Dungeon or buy one via Arasaka Unit Exchange.
+Це схожий на звичайний **синаптичний передавач прискорення** предмет, але він не складається з ним. Рідкісна версія миттєво підвищує швидкість проходження AFK-часу на +40% на 20 хвилин; ефект складається до +80%. Щоб продовжити дію бафа, достатньо використати ще один — таймер скинеться. Щоб скористатися бафом, треба просто почати AFK-сесію, поки баф активний. Знайти його можна лише в підземеллі або купити через **Обмін валют Арасаки**.
 
-### Transaction Exploit Transmitter
+### Передавач експлойту транзакцій
 
 ![GlobalBuff_BTC](/resources/mobile-tutorial/GlobalBuff_BTC.png)
 
-The **Transaction Exploit Transmitter** is used to boost BitCoin gains and works the same way as the transmitters in that you can use multiple to stack the effect and prolong the timer. Each Transaction Exploit Transmitter will provide a +40% boost to BitCoin gain for 20 minutes. Stacking maxes out at 100%.
+**Передавач експлойту транзакцій** використовується для підвищення заробітку біткойнів і працює так само, як інші передавачі: можна використовувати кілька, щоб складати ефект і продовжувати таймер. Кожен такий передавач дає +40% до заробітку біткойнів на 20 хвилин. Максимум накопичення — 100%.
 
-### Frontal Cortex Optimization Transmitter
+### Передавач оптимізації лобової кібер-кори мозку
 
 ![GlobalBuff_EXP](/resources/mobile-tutorial/GlobalBuff_EXP.png)
 
-The **Frontal Cortex Optimization Transmitter** is used to boost EXP gains. Each Frontal Cortex Optimization Transmitter will provide a +80% boost to EXP gain for 20 minutes.
+**Передавач оптимізації лобової кібер-кори мозку** використовується для підвищення заробітку EXP. Кожен такий передавач дає +80% до заробітку EXP на 20 хвилин.
 
-As for efficiency, players were advised to buy both **Rare Synaptic Acceleration Transmitters** and use both of them before Global Skip applies. This way, players can get more AFK tasks per Global Skip duration than per casual timer.
+Щодо ефективності, гравцям радили купувати **рідкісні синаптичні передавачі прискорення** і використовувати обидва перед тим, як спрацює глобальне прискорення. Так можна виконати більше AFK-завдань за один сеанс прискорення, ніж за звичайним таймером.
 
-Here's a quick example of it:
+Ось короткий приклад:
 
--   If a player applies 2 hour / 120 minutes Global Skip for one task alone, it'll cost them **512 Units**.
--   If a player used both Rare Synaps (costs 64 Units x 2), a 2 hours task now cuts into a 24 minutes task, which allows them to do 30 minutes Global Skip (costs 128 Units) instead. This brings in a total of **256 Units** (and a bonus of 2 more 30 minutes Global Skips with the same previous Units total).
+-   Якщо гравець застосовує 2-годинне / 120-хвилинне глобальне прискорення лише для одного завдання, це коштуватиме **512 Юнітів**.
+-   Якщо гравець використає обидва Rare Synaps (64 Юніти x 2), 2-годинне завдання скоротиться до 24 хвилин, що дає змогу застосувати замість нього 30-хвилинне глобальне прискорення (128 Юнітів). У підсумку це дає **256 Юнітів** (і ще бонусом 2 додаткові 30-хвилинні прискорення з тим самим загальним запасом Юнітів).
 
-It is optional to use other Global Buff (such as Transaction Exploit or Frontal Cortex) as it accounts as a bonus buff for every player.
+Інші глобальні бафи (наприклад, передавач експлойту транзакцій або передавач оптимізації лобової кібер-кори мозку) використовувати не обов'язково, бо вони є додатковим бонусом для кожного гравця.
 
-## Respecting The Skipper
+## Повага до ініціатора
 
-When a Global Skip occurs, the game will tell as for who's the skipper is in a format of a system message on Chat's room. The information itself shows the duration of the skip and the total of a queue for that skip duration.
+Коли відбувається глобальне прискорення, гра показує в чаті системне повідомлення про того, хто його запустив. У ньому вказано тривалість прискорення та загальну кількість гравців у черзі для цієї тривалості.
 
 ![SkipperRespect](/resources/mobile-tutorial/SkipperRespect.png)
 
-When a skip is initialized, a unique button (represented with a fast forward icon) will appear on the right side of the Chat room, at the top of the "Send" button. The fast forward-like button was referred to as a **Skipper Respect** button. This button alone will only appear during Global Skip and vanish after Global Skip is finished.
+Коли прискорення активовано, праворуч у чаті, над кнопкою **Надіслати**, з'являється окрема кнопка (з іконкою швидкого перемотування). Цю кнопку називають **Подяка пропускачу (Skipper Respect)**. Вона з'являється лише під час глобального прискорення і зникає після його завершення.
 
 ![SkipperRespect2](/resources/mobile-tutorial/SkipperRespect2.png)
 
-It's been told that whenever a player taps the button (indicated by colored hearts / snowflakes), there's a chance that a player itself will win a prize from it. The prize themselves ranged from Medical Tech, AI Cores, Backpack, and Epic Gear. This activity was referred to as a **Skip Raffle**.
+Кажуть, що коли гравець натискає цю кнопку (це видно за кольоровими сердечками / сніжинками), є шанс виграти приз. Серед призів трапляються техно-медичні деталі, ядра ШІ, рюкзак і епічне спорядження. Цю активність називають **розіграшем за прискорення (Skip Raffle)**.
 
-At times, the hearts / snow effects might lag the game (depending on the player's phone specs), resulting in a mixed experience in between. Players can disable the effect (which also prevents them from joining Skip Raffle) by tapping the Phone Icon on either Map or Profile tab and choosing the Settings option.
+Іноді ефекти сердець / снігу можуть гальмувати гру (залежно від потужності телефона), через що враження стає неоднозначним. Гравці можуть вимкнути ефект (це також не дасть їм брати участь у розіграші за прискорення), натиснувши значок телефону на вкладці **Мапа** або **Профіль** і вибравши **Налаштування**.

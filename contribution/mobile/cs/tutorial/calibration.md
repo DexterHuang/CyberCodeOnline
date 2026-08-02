@@ -1,41 +1,41 @@
-# Calibration
-![CalibrationStation](/resources/mobile-tutorial/CalibrationStation.png)
+# Kalibrace
+![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/84a0f895-5a3e-4648-b93d-375ae1a469c2)
 
-**Calibration** is an action where players upgrade their gear to a certain point of improvement, with the purpose of gear longevity and usability on a higher level later on. Calibrating a gear does not increase its level, yet it increases its base stats up to a certain tier of calibration.
+**Kalibrace** prodlužuje životnost vybavení a umožňuje jeho používání na vyšších úrovních, ale nezvyšuje jeho úroveň – pouze zvyšuje jeho základní statistiky do určité úrovně.
 
-It is advisable to start Calibrating your gear around level 50 (and above) as the lower level will outgrow the calibrated gear quickly making the calibrated gear useless on longer runs. It is also advisable to calibrate gear that's at least a Rare (up to Epic) rarity as higher rarity provides more calibration tier's to improve.
+Vybavení začněte **kalibrovat** od úrovně 50, abyste ho při delších výpravách příliš rychle nepřerostli. Kalibrujte alespoň vybavení rarity Rare (až po Epic), protože má více úrovní, na které ho lze vylepšit.
 
-To do Calibration, A player needs to visit the Calibration Station that can be found in Shangri-La City Center (Map).
+Pro **kalibraci** předmětu musíte navštívit **Kalibrační stanici**, kterou najdete v Centru města Shangri-La (Mapa).
 
-## Performing Calibration
+## Provedení kalibrace
 ![CalibrationStation2](/resources/mobile-tutorial/CalibrationStation2.png)
 
-Inside **Calibration Station**, the player will be asked to insert the **Equipment Calibration Core** to start the process. After inserting the core, the player needs to wait for 30 minutes before the Station allows the player to calibrate their gear (**This waiting process is not affected by any global buff / skips, including AFK Accelerators [Synaptic Acceleration Transmitter]**).
+Uvnitř **Kalibrační stanice** budete vyzváni, abyste vložili **Kalibrační jádro vybavení** a spustili tak proces. Po vložení jádra je potřeba počkat 30 minut, než stanice dovolí kalibrovat vybavení (**Tato čekací doba není ovlivněna žádným globálním buffem ani skipem, včetně AFK akcelerátorů [Vysílač synaptického zrychlení]**).
 
 ![CalibrationStation3](/resources/mobile-tutorial/CalibrationStation3.png)
 
-After 30 minutes, A player is allowed to calibrate any gear (excluding maxed Calibrated Gear) that's not equipped into their equipped slot. 
+Po vložení **Kalibračního jádra vybavení** a vyčkání 30 minut můžete kalibrovat jakékoli vybavení (kromě plně kalibrovaného vybavení), které právě není nasazené.
 
-## Outside of Calibration Station
+## Mimo kalibrační stanice
 
-As of **v0.780 (2022/03/04) update**, players were allowed to do Calibration during the AFK Task / Dungeon session. 
+Od aktualizace **v0.780 (2022/03/04)** mohou hráči kalibrovat vybavení i během AFK úkolu nebo dungeonové session.
 
 ![CalibrationStationAlt](/resources/mobile-tutorial/CalibrationStationAlt.png)
 
-In order to do so, players must click on its designated gear then pick the `View Details` option. On the **Equipment Details** section, click on the **Upgrade** or **Calibration Slots** button to navigate to Calibration Station. In this way, players can do calibration at ease.
+Chcete-li to udělat, klikněte na vybrané vybavení, zvolte možnost `Zobrazit podrobnosti` a v části **Podrobnosti vybavení** klikněte na tlačítko **Vylepšit** nebo **Kalibrační sloty**. Tím se dostanete do Kalibrační stanice.
 
-Keep in mind that only unequipped gear was the ones that can be calibrated.
+Pamatujte, že kalibrovat lze pouze nenasazené vybavení.
 
-## Chance of Destructive Failure
+## Šance na destruktivní selhání
 
 ![CalibrationStation4](/resources/mobile-tutorial/CalibrationStation4.png)
 
-In process of calibrating the gear, there's a chance that the process will fail, resulting in a gear being destroyed. The percentage of failure is indicated by the red number on top of the selected gear in %.
+Při kalibraci existuje šance, že proces selže a vybavení bude zničeno. Tato šance je na vybavení vyznačena červeným procentem.
 
-It is advisable to remove the Upgrade Module that's attached to the gear before attempting to calibrate, as both gear and module will get destroyed in process of fail.
+Než začnete kalibrovat, doporučujeme odstranit všechny připojené **moduly vylepšení**, aby se při selhání nezničilo vybavení i modul.
 
-In general, the gear capacity / fail percentage of each tier is as follows:
-| Gear Capacity | Tier | Chance to Fail |
+Obecně platí, že kapacita vybavení a šance na selhání podle úrovně jsou následující:
+| Kapacita vybavení | Úroveň | Šance na selhání |
 |--|--|--|
 | Trash | +1 | 2% |
 | Trash | +2 | 5% |
@@ -48,25 +48,22 @@ In general, the gear capacity / fail percentage of each tier is as follows:
 | Epic | +9 | 400% |
 | Epic | +10 | 666% |
 
-## Override The Chance
-Any +6 calibration and beyond is *impossible to achieve* without the use of **Calibration Boost**. They reduce the failure percentage and they stack / add with each other.
+## Přepsání šance
+Kalibrace na +6 a výš je *nemožná*, protože šance na selhání je 100 % nebo vyšší. Pro zvýšení šance na úspěch mohou hráči použít **kalibrační buffy**, které šanci na selhání přepíšou.
+Pro aktivaci buffu jednoduše klikněte na tlačítko `Zvýšit úspěšnost`; buff se aktivuje pro **všechny hráče na serveru** a poté uvidíte aktualizovanou šanci podle aktuálně zvýšeného účinku buffů, jak je ukázáno níže:
 
-In general, the calibration boost tier (and where to find them) is as follows:
-- **Calibration AI Shard (Common)** reduce the chance of failure by 5%; only for Personal Use; can be found in Rare Locked Containers
-- **Calibration AI Shard (Rare)** reduce the chance of failure by 10%; Global Buff; can only be bought in the Arasaka Unit Exchange
-- **Calibration AI Shard (Legendary)** reduce the chance of failure by 50%; Global Buff; can only be bought in the Arasaka Unit Exchange
-- **Calibration AI Shard (Epic)** reduce the chance of failure by 100%; Global Buff; can only be bought in the Arasaka Unit Exchange
-- **Calibration AI Shard (Prestige)** reduce the chance of failure by 300%; Global Buff; can only be bought in the Arasaka Unit Exchange 
+![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/7d45ef02-a914-482d-83fe-0a9c9cd19c06)
 
-Players can also negate the destructive effect by activating **Calibration Safety Nano Bots** (which can be found in Mysterious Containers / or bought in the Arasaka Unit Exchange) before calibrating the gear.
 
-Keep in mind that the boosts **will only last for 5 min** & each tier / rarity of boost **can only be stacked twice** (excluding Common Shard). It's best to be prepared before boosting.
+Můžete také použít **ochranu před zničením**, aby se vaše vybavení při selhání kalibrace natrvalo nezničilo. Stačí kliknout na `Zabránit zničení`; tím se pro všechny na 5 minut aktivuje buff **ochrany před zničením**.
 
-## Gear Improvement
-With each calibration, gear gets improved and far better than un-calibrated gear (depending on its level). These improvements ranged from higher health, better damage, more inventory slots, etc.
+Pamatujte, že buffy vydrží **jen 5 minut** a každou úroveň / raritu **lze naskládat pouze dvakrát** (s výjimkou Common Shards), takže je nejlepší být před použitím připravený.
 
-Improvement (from calibration; from its base stats) percentage as follows:
-| Tier | Gear Improvement |
+## Zlepšení vybavení
+Každá kalibrace vybavení výrazně vylepšuje jeho vlastnosti, například zvyšuje zdraví a poškození a přidává sloty v inventáři, podle úrovně vybavení.
+
+Procentní zlepšení z kalibrace oproti základním statistikám je následující:
+| Úroveň | Zlepšení vybavení |
 |--|--|
 | +1 | 5% |
 | +2 | 10% |
@@ -80,5 +77,5 @@ Improvement (from calibration; from its base stats) percentage as follows:
 | +10 | 200% |
 
 
-##  Trade / Sell Calibrated Gear 
-Players can't trade / sell their calibrated gear. To trade / sell related gear, players need to **Reset** the calibrated gear by using **Factory Reset Shard** (that can be found on Scavenge or Market).
+##  Obchodování / prodej kalibrovaného vybavení
+Kalibrované vybavení nelze obchodovat ani prodávat. Pokud ho chcete obchodovat nebo prodat, musíte ho **resetovat** pomocí **střepu obnovení továrního nastavení**, který lze najít při scavengování nebo na Trhu hráčů.

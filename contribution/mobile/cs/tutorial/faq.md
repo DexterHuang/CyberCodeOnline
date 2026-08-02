@@ -1,268 +1,267 @@
-> This FAQ (Frequently Asked Question) were compiled based on major question thats been asked by community and new player in general. Feel free to edit & add more FAQ-related content on [Github](https://github.com/DexterHuang/CyberCodeOnline).
+> Nemůžete najít odpověď na svou otázku? Neváhejte se zeptat v **globálním / jazykovém chatu** nebo na **Discordu CCO**! 😃
 
-> Can't find an Answer for your Question? Feel free to ask them in **Global / Language Chat** or **CCO's Discord**! 😃
+> **Důležité upozornění:** **Pozor na možné podvody a nabídky s příliš nízkou cenou herních předmětů**. Než potvrdíte obchod na trhu / výměnu (zejména u **epického vybavení / cache**), vždy se zeptejte členů svého gangu / přátel / v globálním chatu na hodnotu předmětu. 😊
 
-> **Important Note:** **Beware of potential scam & lowballing price on in-game items**. Always ask your Gangmates / Friends / Global Chat about it's item value before confirming a market / trade deal (especially Epic Gear / Caches)! 😊
+## Začátek
 
-## Starting Point
+### Co je to za hru a jak se hraje?
+Stručně řečeno, pohybujete se po **vlakových stanicích**, porážíte nepřátele nebo dobýváte celé dungeony. Hra postoupí (na další vlakovou stanici), jakmile v každé oblasti / dungeonu stanice získáte všechny **fragmenty klíče**. Po získání všech 3 fragmentů klíče je musíte na určeném **Terminálu** přeměnit na **klíč** (ten hráči najdou v **Centru města Shangri-La**).
 
-### What Is This Game? And How To Play It?
-In summary, you basically adventure around **Train Stations** while defeating individual enemies or conquer entire dungeons. The game will progress (onto the next Train Station) after you gain each **Key Fragments** on every area / dungeons in the station. After getting all 3 key fragments, you need to make convert the fragments into **Key** on dedicated **Terminal** (which player can find it on **Shangri-la City Center**). After that, *Rinse and Repeat*.
+Podrobnější vysvětlení najdete na stránce Tutoriálu. Otevřete ji přes Profil > Tutoriál.
 
-More in-depth explanation can be found on dedicated Tutorial section.
+### Co získám bojem s nepřáteli?
 
-### What Do I Get From Joining / Finishing A Fight?
+Během boje získáte herní měnu **BTC (Bitcoin)** a herní zkušenosti **EXP (zkušenosti)**. Po poražení nepřátel můžete někdy náhodně získat předměty, vybavení nebo cache.
 
-You'll receive in-game currency called **BTC (Bitcoin)** and in-game experience called **EXP (Experience)** inside a battle. At times, you'll randomly receive items, equipment or caches after defeating enemies.
+**[V boji vždy získáte BTC a EXP, ale předměty nepadnou po každém jednotlivém boji.]** 
 
-**[You'll always be receive BTC and EXP in a battle, but items won't drop after every single battle.]** 
+### Co jsou dovednosti? Jak zvýšit úroveň dovednosti „X“?
+Existuje 5 dovedností, které může hráč rozvíjet, a každá z nich přináší vlastní výhodu. Stručný přehled zvyšování úrovně jednotlivých dovedností:
 
-### What Is Skills? How to Level Up "X" Skills?
-There are 5 skills that player can develop & it has it's own perk upon doing so. In summary, here's how to level up certain skills:
+> **Dovednost tisku** lze zvyšovat plněním **úkolu tisku** nebo pomocí **zpětné rekonstrukce** (stojí technický šrot) v **Obchodní oblasti** (/ Centrum úkolů) nebo tiskem cache Trash v **Molekulární 3D tiskárně**.  
 
-> For **Printing Skills**, player can level up by doing **Printing Task** or **Reverse Engineer** (costs Tech Scraps) on **Commercial Area** (/ Job Hub) or by printing trash cache at **Molecular 3D Printer**.  
+> **Lékařskou vědu** lze zvyšovat plněním **úkolu lékařské vědy** v **Obchodní oblasti** (/ Centrum úkolů) nebo výrobou **léčivých předmětů** v **Inventář > Výroba > Zdravotnické**.
 
-> For **Medical Skills**, player can level up by doing **Medical Task** on **Commercial Area** (/ Job Hub) or by crafting **Medical Items** on **Inventory > Crafting > Medical**.
+> **Dovednost výroby munice** lze zvyšovat plněním **úkolu výroby munice** v **Obchodní oblasti** (/ Centrum úkolů) nebo výrobou munice v **Inventář > Výroba > Munice** (předtím je potřeba dosáhnout alespoň úrovně 10 v dovednosti výroby munice).  
 
-> For **Ammo Crafting Skills**, player can level up by doing **Ammo Crafting Task** on **Commercial Area** (/ Job Hub) or by crafting Ammo on **Inventory > Crafting > Ammo** (Needs to be atleast level 10 Ammo Crafting before doing so).  
+> **Dovednost scavengování** lze zvyšovat plněním **úkolu scavengování**. Úkol scavengování najdete v každé oblasti pod úkolem **Deploy Farm Bot**. Je důležité si uvědomit, že na začátku musíte začít v oblasti úrovně 1-4, protože pozdější oblasti vyžadují vyšší úroveň scavengování.
 
-> For **Scavenge Skills**, player can level up by doing **Scavenge Task**. Player can find Scavenge task below **Deploy Farm Bot** Task on each area. It is important to note that starting out, you must start at the level 1-4 area due to the requirements on scavenging level of later areas.
+> **Dovednost těžby** lze zvyšovat plněním úkolu **Crypto Mining** v **Obchodní oblasti** (/ Centrum úkolů) nebo plněním **gangového úkolu**, který najdete ve svém velitelství gangu.
 
-> For **Mining Skills**, player can level up by doing **Crypto Mining Task** on **Commercial Area** (/ Job Hub) or by doing **Gang Task** that player can find on their Gang Headquarters.
+### Jaký je přínos zvyšování úrovně dovedností „X“?
+Existuje 5 dovedností, které může hráč rozvíjet, a každá z nich přináší vlastní výhodu. Stručný přehled výhod zvyšování úrovně jednotlivých dovedností:
 
-### What's the Benefit of Leveling Up "X" Skills?
-There are 5 skills that player can develop & it has it's own perk upon doing so. In summary, here's the benefit of leveling up certain skills:
+> **Dovednost tisku** vám umožní tisknout lepší vybavení na vyšší úrovni. Lepší vybavení ve vašem arzenálu zvyšuje vaše statistiky a usnadňuje boje.
 
-> For **Printing Skills**, player can print a better and higher level gear. Having a better gear onto player's arsenal adds better stats into players favour, making fight less difficult. 
+> **Lékařská věda** vám umožní vyrábět lepší léčiva (až po epické lékařské nanoboty), což vám pomůže vydržet déle a při každém použití vám poskytne více zdraví.
 
-> For **Medical Skills**, player can craft better meds into their arsenal (up to Epic Nano Medic Bots), helping player on a longer run while also providing better health pool per usage.
+> **Dovednost výroby munice** vám každých 10 úrovní umožní vyrobit více munice se stejným množstvím ingrediencí.
 
-> For **Ammo Crafting Skills**, player can craft more ammo per 10 levels with the same amount of ingredients.
+> **Dovednost scavengování** vám umožní plnit úkoly scavengování na vyšší úrovni, které nabízejí ještě lepší šanci na získání předmětů.
 
-> For **Scavenge Skills**, player can do higher level Scavenge Task, which allows player to get an even better item drop rate. 
+> **Dovednost těžby** vám přinese více BTC za jeden úkol **Crypto Mining** a také vyšší výtěžnost výroby AI na každé úrovni se stejným množstvím ingrediencí.
 
-> For **Mining Skills**, player can get better BTC amount per 1 Crypto Mining task and also higher output of AI craft per level with the same amount of ingredients.
+### Může být úroveň dovednosti vyšší než úroveň postavy?
+Ne. Úroveň postavy je maximální hranicí úrovně dovednosti.
 
-### Can Skills Level be higher than our Character Level?
-No. Character Level is the max / boundary of player's skill level.
+### Mohu používat vybavení vyšší úrovně, než je úroveň mé postavy?
+Ne. Hráč nemůže používat vybavení, které je vyšší než jeho současná úroveň postavy.
 
-### Can I Use Gear that's higher than our Character Level?
-No. player can't use gear that's higher than it's current character level.
+### Proč se moje dovednost XXX zasekla na 99 %?
+Je to většinou proto, že sekundární dovednosti nemohou být vyšší než úroveň vaší postavy.
+Zvýšení úrovně postavy by mělo umožnit další postup dovednosti.
 
-### What is the fastest way to level up in this game?
-On **lower level (1-7)**, the fastest and best way to level up is to fight **Nearby Enemies** constantly. Defeating the **yellow enemies** will result in more EXP gain, while also risking in having a harder fight than a normal enemies.
+### Jaký je nejrychlejší způsob, jak ve hře získat úroveň?
+Na **nižší úrovni (1-7)** je nejrychlejším a nejlepším způsobem neustále bojovat s **blízkými nepřáteli**. Poražení **žlutých nepřátel** přinese více EXP, ale zároveň hrozí náročnější boj než s běžnými nepřáteli.
 
-**After reaching level 7**, try to equip / print a gear that has same gear level as your character level, and jumps into solo **Normal Dungeon**. Player can also join other players Dungeon via **Dungeon List** feature on **Map > Phone Icon > Dungeon List**. Finishing a dungeon will gain more EXP yield than Nearby Enemies.
+**Po dosažení úrovně 7** se pokuste vybavit / vytisknout vybavení, které má stejnou úroveň jako vaše postava, a pusťte se sami do **normálního dungeonu**. Do dungeonu jiných hráčů se můžete připojit také pomocí funkce **Seznam dungeonů** přes **Mapa > ikona telefonu > Seznam dungeonů**. Dokončení dungeonu přinese více EXP než boj s blízkými nepřáteli.
 
-For best results, try to compelete **Challenge Dungeons** at rare and below gear or **Gang Dungeons** at legendary or above gear while having an active **Frontal Cortex Transmitter** (EXP Buff / Booster).
+Nejlepších výsledků dosáhnete dokončením **Challenge Dungeonů** s vybavením rarity Rare nebo nižší, případně **Gang Dungeonů** s vybavením rarity Legendary nebo vyšší, a to s aktivní **optimalizací vysílače frontálního kortexu** (EXP buff / posílení).
 
-Note: You could also level up by doing AFK Task (**Deploy Farm Bot**) that requires **AI Core**. These task takes time (up to 2 hours) & only be profitable if a Global Skip event is happening, which recudes the task time (making it the most efficient way to level up). Explanation around Time Skip can be found on [Time Skip's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fglobal_skip.md)
+Poznámka: Úroveň můžete získávat také plněním AFK úkolu (**Deploy Farm Bot**), který vyžaduje **AI Jádro**. Tyto úkoly trvají dlouho (až 2 hodiny) a jsou ziskové pouze během události Global Skip, která zkracuje dobu úkolu (a činí z něj nejefektivnější způsob získávání úrovní). Vysvětlení časového skipu najdete v [Tutoriálu časového skipu](https://cybercodeonline.com/markdown?path=tutorial%2Fglobal_skip.md)
 
-### I Need more BTC. Help!
-You can yield / gain BTC quickly by selling certain items on **Shangri-La Market Street**. At the start, its recommended to sell your Medical Tech Parts, Tech Scrap, and Hash Processor onto the market following the current market price. Specifically for Hash Processor, as a lower level player (for at least below level 100), it's best to sell Hash Processor at the start rather than using it for **Crypto Mining** task as it yields for less BTC than it's actual market price.
+### Potřebuji více BTC. Pomozte!
+BTC můžete rychle získat prodejem určitých předmětů na **Tržní ulici Shangri-La**. Na začátku se doporučuje prodávat na trhu technické součástky léčiv, technický šrot a **Hash Procesory** za aktuální tržní cenu. Konkrétně u **Hash Procesoru** je pro hráče na nižší úrovni (pod úrovní 100) zpočátku lepší ho prodat, než ho používat k úkolu **Crypto Mining**, protože přináší méně BTC, než je jeho skutečná tržní cena.
 
-With addition of Black Market (as of 2022/04/18), players can also "print" their own BTC by selling their caches onto Black Market. However, this action will only be profitable on higher level (with addition on Bargain stats), making it more likely to become a high-level player feature.
+Od přidání Černého trhu (stav k 2022/04/18) mohou hráči také „tisknout“ vlastní BTC prodejem cache na Černém trhu. Tato činnost však bude zisková až na vyšší úrovni (se statistikou Smlouvání), takže jde spíše o funkci pro hráče na vysoké úrovni.
 
-### What will happen if I Die / Flatlined?
-**After level 10, you will lose 10% of your unbanked BTC and EXP**; however your inventory will be safe. It is advisable to keep your BTC in **Arasaka Bank** in order to prevent major losses.
+### Co se stane, když zemřu / jsem vyřazen?
+**Po dosažení úrovně 10 ztratíte 10 % neuložených BTC a EXP**; váš inventář však zůstane v bezpečí. Doporučujeme ukládat BTC do **Arasakské banky**, abyste předešli velkým ztrátám.
 
-### Why can't I use my Special and Destructive weapons?
-These weapons require ammo. Special weapons uses **Energy Cells** and Destructive weapons use **Anti-Matter Charges**. Ammo can be looted form enemies, crafted in your Inventory, or bought on the player market.
+### Proč nemohu používat speciální a ničivé zbraně?
+Tyto zbraně vyžadují munici. Speciální zbraně používají **energetické články** a ničivé zbraně používají **antihmotové náboje**. Munici lze získat jako kořist od nepřátel, vyrobit v Inventáři nebo koupit na trhu hráčů.
 
-### What are caches and what should I do with them?
-Cache is an item that you can use to craft equipment at the Molecular 3D Printer.  It is not recommended to scrap your caches as it has 50% chance of giving Tech Scrap & also more valuable to print or sell.
+### Co jsou cache a co s nimi mám dělat?
+Cache je předmět, který můžete použít k výrobě vybavení v **Molekulární 3D tiskárně**. Nedoporučuje se cache rozebírat, protože mají jen 50% šanci, že z nich získáte technický šrot; cennější je vytisknout je nebo prodat.
 
-### When do I Print "X" cache?
-Explanation around Cache printing can be found on [Equipment's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fequipment.md)
+### Kdy mám vytisknout cache „X“?
+Vysvětlení tisku cache najdete v [Tutoriálu vybavení](https://cybercodeonline.com/markdown?path=tutorial%2Fequipment.md)
 
-### Where can I get healing items?
-Healing items can be crafted (which can be found on Inventory > Crafting > Medical), found when defeating an enemy or when looting a crate in a dungeon, or purchased at the Trinoky Mart in the City Center. They can also be purchased from the Player Market. Full detail around heal amount can be found on [Resource's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md)
+### Kde mohu získat léčivé předměty?
+Léčivé předměty lze vyrábět v nabídce Inventář > Výroba > Zdravotnické, získat po poražení nepřítele nebo vyrabováním bedny v dungeonu, případně koupit v Trinoky Martu v Centru města. Koupit je můžete také na Trhu hráčů. Podrobnosti o množství léčení najdete v [Tutoriálu zdrojů](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md)
 
-### How do I use my healing items?
-To equip and use your healing items, go to your inventory and under Equipped tab, you will find 3 'Quick Slots' (on top of your equipped weapon slot). Click on one of them and assign your desired healing item to it. Healing items can be used only inside dungeons.  
+### Jak používám léčivé předměty?
+Chcete-li léčivé předměty vybavit a používat, otevřete inventář a na kartě Vybavení najdete 3 „Rychlé sloty“ (nad slotem vybavené zbraně). Klikněte na jeden z nich a přiřaďte k němu požadovaný léčivý předmět. Léčivé předměty lze používat pouze uvnitř dungeonů.  
 
-### How do I craft "X" items?
-At the top of the Inventory page, you will find a tab called 'Crafting'.
+### Jak vyrábím předměty „X“?
+V horní části stránky Inventáře najdete kartu „Výroba“.
 
-### Someone Sending Me Item / Gift. Where Can I Find Them?
-All the item that been sent or removed from Market Stall, can be found on Inventory page, on a tab called 'Item Inbox'. 
+### Někdo mi poslal předmět / dárek. Kde ho najdu?
+Všechny předměty, které vám někdo poslal nebo které byly odstraněny z prodejního stánku, najdete v Inventáři na kartě „Schránka“.
 
-### Where is "X" Place?
-Explanation around Game Area can be found on [Location's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Flocations.md)
+### Kde se nachází místo „X“?
+Vysvětlení herních oblastí najdete v [Tutoriálu lokací](https://cybercodeonline.com/markdown?path=tutorial%2Flocations.md)
 
-### What is "X" Item?
-Explanation around Item / Resources can be found on both [Inventory](https://cybercodeonline.com/markdown?path=tutorial%2Finventory.md) and [Resource's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md)
+### Co je předmět „X“?
+Vysvětlení předmětů / zdrojů najdete v [Inventáři](https://cybercodeonline.com/markdown?path=tutorial%2Finventory.md) a [Tutoriálu zdrojů](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md)
 
 
-## Advanced / Gameplay Related
+## Pokročilé / související s hrou
 
-### What is the Gear Score?
-**Gear Score** is the average level of the equipment you wear. This is calculated by averaging the 5 levels of your equipped gear, this includes: Primary or Special Weapon (it only accounts for the highest level between the two gear) and 4 Non-Weapon / Armor (Helmet, Upper Armor, Lower Armor, Boots) gears. 
+### Co je Skóre vybavení?
+**Skóre vybavení** je průměrná úroveň vybavení, které nosíte. Vypočítá se průměrem 5 úrovní vašeho vybavení, mezi něž patří primární nebo speciální zbraň (započítává se pouze vyšší úroveň z těchto dvou) a 4 kusy nezbraňového / obranného vybavení (helma, horní brnění, dolní brnění, boty).
 
-It is recommended to continue upgrading your gear as you progress through the game as high level items have better inherent stats like health, damage and armor and will make Nearby Enemies and Dungeons much easier to survive on higher levels. The percentage bracket for modifiers are constant irregardless of item level. Utilise the Profile page and check your Stats to determine which modifiers you require when planning your build.
+Doporučuje se vybavení průběžně vylepšovat, protože předměty na vyšší úrovni mají lepší základní statistiky, například zdraví, poškození a brnění, a na vyšších úrovních výrazně usnadní přežití proti blízkým nepřátelům i v dungeonech. Procentní rozsahy modifikátorů jsou stejné bez ohledu na úroveň předmětu. Při plánování sestavy využijte stránku Profil a zkontrolujte své Statistiky, abyste určili, které modifikátory potřebujete.
 
-#### Why should I Care About Gear Score? 
-Checking your Gear Score on your profile page can not only give you a quick idea whether you need to look to upgrade but it has two secret impacts directly tied into gameplay other than stats.
-- The higher your gear score, the more XP you’ll gain through the AFK XP Farm - Deploy Farm Bot, thus having an “AFK Set” will maximize your EXP gain.
-- Dungeons will not allow you to obtain loot from chests or XP from enemies if your Gear Score is 10+ levels higher than the Dungeon Level itself.
+#### Proč bych se měl zajímat o Skóre vybavení?
+Kontrola Skóre vybavení na stránce vašeho profilu vám nejen rychle napoví, zda byste měli vybavení vylepšit, ale má také dva skryté dopady přímo na hratelnost, které nesouvisejí se statistikami.
+- Čím vyšší je vaše Skóre vybavení, tím více XP získáte prostřednictvím AFK farmy XP – **Deploy Farm Bot**; „AFK sada“ proto maximalizuje váš zisk EXP.
+- Dungeony vám nedovolí získat kořist z truhel ani XP od nepřátel, pokud je vaše Skóre vybavení o 10+ úrovní vyšší než samotná úroveň dungeonu.
 
-### What is an AFK Set?
-Many players have a swappable “AFK Set”; for this, only the gear score matters not the stats nor modifiers so Trash Caches can be printed to fill all 5 gear slots (Primary / Special Weapon, Helmet, Upper Armor, Lower Armor, Boots) and bring your Gear Score back inline with your Character Level.  Before you rush off to start printing though; remember to make sure to check your level of Printing Rank on your Profile page as subsequent prints will only have the level equal to your current Printing Rank; if not, printing Weapon, Armor or Mod Caches will raise your Printing Rank.
+### Co je AFK sada?
+Mnoho hráčů má přepínatelnou „AFK sadu“; důležité je pouze Skóre vybavení, nikoli statistiky nebo modifikátory, takže můžete vytisknout Trash Caches a zaplnit všech 5 slotů vybavení (primární / speciální zbraň, helma, horní brnění, dolní brnění, boty) a vrátit Skóre vybavení do souladu s úrovní postavy. Než se pustíte do tisku, nezapomeňte na stránce Profil zkontrolovat svou Hodnost tisku, protože další tisky budou mít pouze úroveň odpovídající vaší současné Hodnosti tisku; pokud ji nemáte na potřebné úrovni, tisk cache zbraní, brnění nebo modulů vám Hodnost tisku zvýší.
 
-### What is the Max Item / Stack?
-You can carry up to 10000 items (same amount applies to Bank, Market, and Item Inbox) into your Inventory, excluding Gear & Upgrade Modules.
+### Jaké je maximum počtu předmětů / velikosti stacku?
+V inventáři můžete mít až 10000 předmětů (stejná hodnota platí pro Banku, Trh a Schránku), s výjimkou vybavení a modulů vylepšení.
 
-### What is the amount of Inventory Slot that we can acquired?
-At the start, players will have the base of 50 Inventory Slot. Players can increase the amount of slot by equipping backpack (which can be acquired via Lee's Trading Post, Player Market, and Player Trade) and using gear or modules that has a **Pocket** stats. The max Inventory Slots are 178.
+### Kolik slotů inventáře můžeme získat?
+Na začátku mají hráči základních 50 slotů inventáře. Počet slotů lze zvýšit vybavením batohu (který lze získat přes Lee's Trading Post, Trh hráčů a obchodování mezi hráči) a používáním vybavení nebo modulů se statistikou **Počet kapes**. Maximum slotů inventáře je 178.
 
-### What is Global Skip?
-Explanation around Global / Time Skip can be found on [Time Skip's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fglobal_skip.md)
+### Co je Global Skip?
+Vysvětlení globálního / časového skipu najdete v [Tutoriálu časového skipu](https://cybercodeonline.com/markdown?path=tutorial%2Fglobal_skip.md)
 
-### What is Calibration?
-Explanation around Calibration can be found on [Calibration's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
+### Co je kalibrace?
+Vysvětlení kalibrace najdete v [Tutoriálu kalibrace](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
 
-### What is Pachinko?
-**Pachinko** or **Pachinko's Plus Pro Max** is an AFK task that simulates the real-life game of Pachinko, where players put their in-game currency on a line for a chance to get a high-tier item (in this case, there's a chance of getting an **Epic Gear** from Pachinko) or merely a low-tier item (ranged from **Pain Away**, **Energy Cells**, and other materials). In order to "play" Pachinko, player must have at least 5,000 (for normal Pachinko) & 1,000,000 (for Pachinko's Plus Pro Max) Bitcoin in hand before starting the task. 
+### Co je Pachinko?
+**Pachinko** nebo **Pachinko's Plus Pro Max** je AFK úkol simulující skutečnou hru Pachinko, při níž hráči vsadí herní měnu na jednu linii s šancí získat předmět vysoké úrovně (v tomto případě je šance získat z Pachinka **epické vybavení**) nebo jen předmět nízké úrovně (v rozmezí od **Pain Away**, **energetických článků** a dalších materiálů). Pro „hraní“ Pachinka musí mít hráč před spuštěním úkolu u sebe alespoň 5,000 Bitcoinů (běžné Pachinko) a 1,000,000 Bitcoinů (Pachinko's Plus Pro Max).
 
-### Does the game support trading among players?
-Yes, partially. You can send items to other players, but there isn't a system that forces the other person to give something in exchange. Most trades are conducted with trust. You can't gift BTC and key fragments to other players. Only Healing Items, Ammo, Materials, Hash Processors, AI Cores and other types of items.
+### Podporuje hra obchodování mezi hráči?
+Ano, od aktualizace 2023/01/21 existuje oficiální systém obchodování. Předměty můžete stále posílat ostatním hráčům mimo systém obchodování pomocí funkce dárku, například kliknutím na uživatelské jméno hráče v chatu a stisknutím tlačítka **„Poslat dárek“**. Pokud chcete obchodovat prostřednictvím systému, otevřete profil hráče a klikněte na **Odeslat obchodní žádost**. Fragmenty klíčů a některé další konkrétní předměty událostí nelze s ostatními hráči obchodovat. Obchodovat lze pouze léčivé předměty, munici, materiály, Hash Procesory, AI Jádra a další typy předmětů, včetně BTC. Obchodovat nelze během aktivního AFK úkolu ani uprostřed boje, ale lze, když se pohybujete po dungeonu nebo jste obecně nečinní.
 
-### What should I do if my inventory is full?
-You can either scrap, destroy or store items in the bank located in the City Center. Note that the fee for each item you deposit in the bank is 100 BTC. It doesn't cost anything to take the item back out. You can also temporarily increase your inventory capacity with the 'Pocket' stat found on equipment and upgrade modules.
+### Co mám dělat, když mám plný inventář?
+Předměty můžete rozebrat, zničit nebo uložit do banky v Centru města. Poplatek za uložení každého předmětu v bance činí 100 BTC. Za vyzvednutí předmětu se nic neplatí. Kapacitu inventáře můžete také dočasně zvýšit statistikou „Počet kapes“ na vybavení a modulech vylepšení.
 
-### What does "Quality" on weapons and armor means?
-The quality of the armor will contribute a lot on the stat it gives; the higher the quality, the better the stats.
-Quality tiers go from Trash > Common > High Quality > Rare > Legendary > Epic. You cannot change the Quality of a weapon or armor.
+### Co znamená „Kvalita“ u zbraní a brnění?
+Kvalita brnění výrazně ovlivňuje statistiky, které poskytuje; čím vyšší kvalita, tím lepší statistiky.
+Stupně kvality jsou Trash > Common > High Quality > Rare > Legendary > Epic. Kvalitu zbraně ani brnění nelze změnit.
 
-### What does "Durability" on weapons and armor means?
-*Durability is the ability of an equipment to remain functional, without requiring excessive maintenance or repair, when faced with the challenges of normal operation over it's designed lifetime (Wikipedia)*.  Durability only decreases when fighting Nearby Enemies.  Durability is not impacted when fighting in dungeons.
+### Jak opravím odolnost svého vybavení?
+Podle aktuální aktualizace je odolnost pouze číslo ve statistikách vybavení. Nikdy se nesnižuje a funkce **Opravit** odolnost vybavení už neexistuje.
 
-### How do I repair my equipment's durability?
-As of current update, Durability will just be a mere numbers on your gear stats. It will never be decreased & the feature to **Repair** gear's durability were no longer exist.
+### Škálují se cache podle mé úrovně? Mám si je schovat na později?
+Cache, které vytisknete, se řídí vaší Hodností tisku. Vybavení, které z nich získáte, bude mít vždy stejnou úroveň jako vaše Hodnost tisku. Hodnost tisku zvyšujte na úroveň své postavy, abyste při tisku vždy získali nejlepší možné vybavení.
 
-### Do caches scale with my level? Should I keep them for later?
-The caches you print scale with your Printing Rank. The gear that you obtain from them will always have the same level as your Printing Rank. Make sure to level your Printing Rank to your current player level to always receive the best equipment possible from printing.
+Nezáleží na tom, zda cache vytisknete nyní, nebo později, ale doporučuje se schovat si Legendary Caches na úroveň 50 / 60+. Pokud najdete Epic Cache, ponechte si ji do úrovně 100+ nebo ji prodejte ostatním hráčům.
 
-It doesn't matter if you print your caches now or later, but it's recommended to keep your Legendary caches for level 50 / 60+. If you happen to find an Epic cache, hold onto it until level 100+ or sell it to other players.
+Legendary a Epic Caches jsou na výrobu mnohem dražší než Rare Caches, ale předměty z nich mají výrazně lepší statistiky. Předměty vyšší kvality vám mohou dlouho sloužit a často se vyplatí je kalibrovat na Kalibrační stanici.
 
-Legendary and Epic caches are much more expensive to craft than Rare ones, but the items have much better stats.  Higher quality items can last you for a long time, and are often worth calibrating at the Calibration Station.
+### Mohu vylepšit statistiky svých zbraní a brnění?
+Ano, zbraně můžete vylepšit na Kalibrační stanici na hlavní mapě. Vysvětlení kalibrace najdete v [Tutoriálu kalibrace](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
 
-### Can I upgrade the stats of my weapons and armour?
-Yes, you can upgrade your weapons at the Calibration Station found in your main map. Explanation around Calibration can be found on [Calibration's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
+### Mohu odstranit nainstalované moduly vylepšení?
+Ano. Kliknutím na nainstalovaný modul vylepšení ho z vybavení odstraníte.
 
-### Can I remove installed upgrade modules?
-Yes. Click on the installed upgrade module to remove it from the equipment.
+### Proč má vybavení, které vytisknu, nesprávnou úroveň?
+Vytištěné vybavení bude mít stejnou úroveň jako vaše Hodnost tisku. Neřídí se úrovní hráče.
 
-### Why is the equipment I print the wrong level?
-Your printed gear will have the same level as the one from your 'Printing Rank'. It does not scale with player level.
+### Dávají nepřátelé na vyšší úrovni lepší odměny?
+Ano. Nepřátelé na vyšší úrovni vám po poražení dají více BTC a zkušeností.
 
-### Will higher level enemies give more rewards?
-Yes. Higher level enemies give you more BTC and experience after you defeat them.
+### Co jsou uzamčené kontejnery a jak je odemknu?
+**Uzamčené kontejnery (✧)** můžete najít a sebrat v dungeonech nebo je získat plněním úkolu scavengování. Odemknout je lze pomocí technického šrotu v Terminálu v hlavním HUBu a obsahují různé odměny od technického šrotu po legendární vybavení. Otevření kontejnerů stojí 32 kusů technického šrotu u běžných kontejnerů, 64 u vzácných kontejnerů a 128 u legendárních kontejnerů. Pokud se vám v Terminálu nezobrazuje možnost kontejner odemknout, nemáte dostatek technického šrotu.
 
-### What are Locked Containers and how do I unlock them?
-**Locked Containers (✧)** can be found and picked up from dungeons or by doing Scavenge Task. They can be unlocked using Tech Scraps at the Terminal in the main HUB, and contain various rewards ranging from Tech Scrap to Legendary gear. Tech scrap costs for opening the containers are 32 Tech Scrap for common containers, 64 for rare containers, and 128 for legendary ones. If you don't see the option for unlocking the container at the Terminal, it means you do not have enough Tech Scraps.
+### Co je Street Cred?
+**Street Cred (Street Credit)** je způsob, jak ocenit někoho, koho máte rádi nebo kdo vám pomohl. Jde o body podobné systému „Karma“ na Redditu. Jeden Street Cred můžete udělit denně. Chcete-li někomu udělit Street Cred, otevřete jeho profil, sjeďte dolů k části „Akce hráče“ a klikněte na možnost **Dát pouliční karmu**, která se nachází pod tlačítkem **Přidat do seznamu přátel**. Zvažte udělení Street Cred lidem, kteří přispěli k této hře! Seznam zobrazíte přes Profil > ikona telefonu > Žebříček > Street Cred.
 
-### What is Street Cred?
-**Street Cred (Street Credit)** is a way to appreciate someone you like or who has helped you. They are similar to "Karma" points on Reddit. You can give 1 Street Cred per day. To give Street Cred, go to the person's profile, scroll down to 'Player Actions' and click on **Give Street Cred** option that's located under **Add to Friend List** button. Consider giving some Street Credit to the people that contributed to this game! You can view the list at Profile > Phone Icon > Leaderboard > Street Cred.
+### Co je ta věc v podobě srdce / sněhové vločky, která se objevuje v chatovací místnosti?
+Když se inicializuje skip, na pravé straně chatovací místnosti nad tlačítkem „Odeslat“ se objeví jedinečné tlačítko (znázorněné ikonou rychlého převíjení vpřed). Tlačítko připomínající rychlé převíjení vpřed se nazývá **Skipper Respect**. Zobrazí se pouze během **Global Skip** a po skončení **Global Skip** zmizí.
 
-### What's That Heart / Snowflake Thing That Emits on Chat Room?
-When a skip is initialized, a unique button (represented with a fast forward icon) will appear on the right side of the Chat room, at the top of the "Send" button. The fast forward-like button was referred to as a **Skipper Respect** button. This button alone will only appear during Global Skip and vanish after Global Skip is finished.
+Říká se, že pokaždé, když hráč na tlačítko klepne (což se projeví barevnými srdíčky / sněhovými vločkami), má šanci vyhrát cenu. Ceny sahají od technických součástek léčiv přes AI Jádra a batoh až po epické vybavení. Tato aktivita se nazývá **Skip Raffle**.
 
-It's been told that whenever a player taps the button (indicated by colored hearts / snowflakes), there's a chance that a player itself will win a prize from it. The prize themselves ranged from Medical Tech, AI Cores, Backpack, and Epic Gear. This activity was referred to as a **Skip Raffle**.
 
+## Pokročilé / související s dungeony
 
-## Advanced / Dungeon Related
+### Co je „X“ v dungeonu?
+Vysvětlení dungeonů najdete v [Tutoriálu dungeonů](https://cybercodeonline.com/markdown?path=tutorial%2Fdungeon.md)
 
-### What is "X" in Dungeon?
-Explanation around Dungeon can be found on [Dungeon's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fdungeon.md)
+### Jak opustím dungeon?
+Dungeon můžete kdykoli opustit kliknutím na tlačítko **Opustit dungeon** (pokud právě nebojujete nebo nejste v inventáři).
 
-### How to Exit Dungeon?
-You can exit a dungeon by clicking **Leave Dungeon** button whenever you wants (as long as you're not in a fighting / inventory state).
+### Jak někoho pozvu do svého dungeonu?
+Do dungeonu můžete pozvat kohokoli kliknutím na tlačítko **Pozvat do chatu** (pozvánka se odešle globálně).
 
-### How to Invite Someone onto my Dungeon?
-You can invite anyone into your dungeon by clicking **Invite To Chat** button (keep in mind that the invite sends globally).
+### Co jsou veřejné, soukromé a heslem chráněné dungeony?
+Při vytváření dungeonu bude výchozí nastavení soukromé. To znamená, že dungeon bude pro ostatní hráče neviditelný a nepřístupný. Pokud dungeon nastavíte jako veřejný, kdokoli ho může vidět a připojit se k němu, pokud splňuje požadavky na úroveň. Můžete také pro svůj dungeon vytvořit heslo, aby k němu měli přístup pouze uživatelé, kteří ho znají.
 
-### What are Public and Private Dungeons, and Password Protected Dungeons?
-When creating a dungeon, it will default to Private.  This means that it will be invisible and inaccessible to other players. If you make your dungeon Public, This means that anyone can see and join your dungeon as long as they meet the level requirements. You may also create a password for your dungeon so that it is only accessible by users who know the password.
+### Jak najdu veřejné dungeony?
+Veřejný dungeon najdete pomocí možnosti Seznam dungeonů (najdete ji přes Profil > ikona telefonu > Seznam dungeonů).
 
-### How to find Public Dungeons?
-You can find Public Dungeon via Dungeon List option (which found on Profile > Phone Icon > Dungeon List).
+### Co znamenají symboly v dungeonech?
+- „?“ představuje úkol. Přijaté úkoly najdete na kartě Úkoly.
+- „!“ představuje lore.
+- Bedny jsou znázorněny malými bílými čtverci.  
+- Bedny, které mají uvnitř znak „+“, obsahují fragmenty klíče.
+- Žluté hvězdy / ✧ obsahují uzamčený kontejner.
+- „Mimozemsky vypadající ikony“ představují monstra v dungeonu.
 
-### What are the symbols in dungeons?
-- "?" represents a quest. You can access accepted quests in your Quest tab.
-- "!" represents lore.
-- Crates are represented by small white boxes.  
-- Crates that have a "+" inside them contain key fragments.
-- The yellow stars / ✧ contains a locked container.
-- The "alien looking icons" represent monsters inside the dungeon.
+### Někdo mi bere kořist. Pomoc!
+Kořist v bednách se pro každého hráče generuje náhodně. Proto vám ji nikdo nemůže ukrást.
 
-### People are looting my stuff. Help!
-The loot in the crates is randomly generated for each player. Therefore, it's impossible for someone to steal your loot.
 
+## Pokročilé / související s gangy
 
-## Advance / Gang Related
+### Co je „X“ v gangu?
+Vysvětlení gangů najdete v [Tutoriálu gangů](https://cybercodeonline.com/markdown?path=tutorial%2Fgangs.md)
 
-### What is "X" in Gang?
-Explanation around Gang can be found on [Gang's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fgangs.md)
+### Co jsou gangy a jak si jeden vytvořím?
+Gangy jsou podobné cechům nebo klanům v jiných MMORPG. Připojení ke gangu vám zpřístupní nové AFK úkoly, recyklátor na výrobu technického šrotu a gangový chat! Získáte také přístup ke gangovým dungeonům, které jsou sice mnohem náročnější než běžné dungeony, ale nabízejí větší odměny.
 
-### What are Gangs and how do I create one?
-Gangs are similar to guilds or clans in other MMORPGs. Joining a gang gives you access to new AFK tasks, a recycler to make tech scrap, and gang chat!  You also gain access to gang dungeons, which have a high level of difficulty but greater rewards than the regular dungeons.
+Gang můžete vytvořit výběrem gangového chatu. Vytvoření gangu stojí 50,000 BTC. Gangy mají týdenní poplatek za údržbu, který musí být uhrazen, jinak budou rozpuštěny. Gangy mohou mít v okraji chatu štítek ze 3 písmen, který se vybere při vytvoření gangu.
 
-You can create one by selecting the Gang chat. The cost to create a gang is 50,000 BTC.  Gangs have a weekly upkeep cost that must be met to avoid being disbanded. Gangs allow you to have a tag of 3 letters, chosen when the gang was created, in your chat border.
+### Jak vyhledám gang? Jak se k nějakému připojím?
+V současnosti ve hře nelze zobrazit seznam gangů. Do gangu se můžete připojit tak, že si ho sami vytvoříte nebo obdržíte pozvánku od jiného gangu.
 
-### How do I search for a Gang? How do I join one?
-Currently, you can't see a list of gangs in the game. You can join one by creating it yourself or by receiving an invite from a gang.
+### Kde se nachází velitelství gangu (HQ)? Co tam mohu dělat?
+Velitelství gangu se nachází v hlavním HUBu pod [Trhem hráčů]. Ve velitelství gangu můžete darovat bitcoin, sbírat zdroje a plnit různé AFK úkoly.
 
-### Where are the Gang Headquarters (HQ)? What can I do there?
-Gang HQ is located in the main HUB, under [Player Market].  At the Gang HQ you're able to donate bitcoin, gather resources, and do a varitety of AFK tasks.
+### Mohu svůj gang přejmenovat? Mohu mít stejný štítek jako jiný gang?
+V současnosti nelze svůj gang přejmenovat. Je zakázáno mít stejný štítek jako jiný gang. Všechny gangy musí mít odlišné / jedinečné štítky, aby nedocházelo k nejasnostem.
 
-### Can I rename my Gang? Can I have the same tag as another Gang has?
-Currently, you can't rename your own gang. It's forbidden to have the same tag as other gangs. All gangs should have different / unique tags in order to avoid confusion.
+### Jak mohu zvýšit úroveň svého gangu?
+Aby gang mohl fungovat a zvyšovat svou úroveň, musí každý jeho člen sbírat zdroje (prostřednictvím AFK úkolu ve velitelství gangu) a také do něj přispívat bitcoiny.
 
-### How can I level up my Gang?
-To be able to maintain your gang and to level it up, each member of the gang will have to gather resources (through an AFK task in the Gang Headquarters) and will also have to donate bitcoins to it.
+### Jak opustím svůj gang?
+Chcete-li opustit gang, přejděte na Profil > posuňte se dolů > Opustit gang.
 
-### How to Leave my Gang?
-To leave a Gang, go to Profile > Scroll Down > Quit Gang.
 
+## Obecné / ostatní
 
-## General / Other
+### Je tato hra P2W (Pay-to-Win)?
+Ne. Ve hře není žádný prvek, který by některým hráčům poskytoval výhodu či další výhody oproti ostatním. Vysílače / buffy prodávané v Arasakské směnárně jednotek působí globálně, takže jakmile je někdo aktivuje, budou z jejich účinku těžit všichni hráči na serveru. Stejně tak zakoupené Global Skips platí pro všechny hráče, kteří spustili AFK úkoly.
 
-### Is this game P2W (Pay-to-Win)?
-No. There's no element in this game that would benefit or offer additional advantages to some players over others. The Transmitters / Buffs sold in the Arasaka Unit Exchange have a global effect, which means once it is activated, all players on the server will benefit from the effect that it gives. Similarly, the Global Skips that can be purchased apply to all players who have started AFK tasks.
+Vývojář chce hru i do budoucna udržet bez P2W.
 
-The developer intends to keep the game non-P2W into the future.
+### Má tato hra PvP?
+Ne. PvP v současnosti není ve hře dostupné.
 
-### Does this game have PvP?
-No. PvP is not currently available in the game.
+### Co je BitCoin (BTC) a jak ho vyplatím do své peněženky?
+BitCoin (BTC) je měna hry. BitCoin ve hře není stejný jako ten ze skutečného světa. Kdyby byl, byli bychom všichni bohatší než Elon Musk! :)
 
-### What is BitCoin (BTC) and how do I redeem it to my wallet?
-BitCoin (BTC) is the game's currency.  Your in game BitCoin isn't the same as the one from the real world. If it was, we would all be richer than Elon Musk! :)
+### Jak mohu pomoci?
+Veškerý obsah vytvořený uživateli najdete na [Github](https://github.com/DexterHuang/CyberCodeOnline). Neváhejte odeslat PR (Pull Request).
 
-### How can I help out?
-All user-contributed content can be found on the [Github](https://github.com/DexterHuang/CyberCodeOnline). Feel free to submit a PR (Pull Request).
+### Má tato hra sociální sítě?
+Ano. Naši komunitu najdete na [Discordu](https://discord.link/cco) a [Redditu](https://www.reddit.com/r/CyberCode_Online/). Vývojář (DexterHuang) má také [Patreon](https://www.patreon.com/cybercodeonline) pro dary, které pomáhají hru podporovat a udržovat.
 
-### Does this game have any social media?
-Yes. You can find our community on [Discord](https://discord.link/cco) and on [Reddit](https://www.reddit.com/r/CyberCode_Online/). The developer (DexterHuang) also has a [Patreon](https://www.patreon.com/cybercodeonline) for donations that will help support and maintain the game.
+Tyto odkazy na sociální sítě najdete také otevřením ☰ a kliknutím na symbol řetězu v mobilním zobrazení nebo kliknutím na ikony příslušných platforem na levé straně webového zobrazení.
 
-These social links can also be found by accessing ☰ and clicking on the chain link symbol on mobile or by accessing the respective platform icons on the left side of the web view.
+### Jaké programy nebo jazyky se používají při tvorbě této hry?
+CyberCode Online je hra vyvinutá pomocí [ReactJS](https://reactjs.org/) s příspěvky hráčů z [Githubu](https://github.com/DexterHuang/CyberCodeOnline).
 
-### What programs or languages are being used for the creation of this game?
-CyberCode Online is a game developed using [ReactJS](https://reactjs.org/) with player contributions from [Github](https://github.com/DexterHuang/CyberCodeOnline).
+### Je hra přeložena do dalších jazyků?
+Ano. Tato hra je v současnosti přeložena do 15 jazyků (a dalších!). Chcete-li změnit jazyk hry, přejděte na Mapu a klikněte na ⚙️. Upozorňujeme, že překlady mohou obsahovat chyby, být neúplné nebo některé části hry mohou být zcela nepřeložené.
 
-### Is the game translated in other languages?
-Yes. This game is currently translated in 15 languages (and more!). To change the language of the game, go to Map and click on ⚙️. Please notice that the translations might contain mistakes, be incomplete or some parts of the game might be completely untranslated.
+Pokud hra není přeložena do vašeho jazyka nebo chcete současné překlady zlepšit, přejděte na náš [Github](https://github.com/DexterHuang/CyberCodeOnline).
 
-If the game is not translated in your language or you want to improve the current translations, please head out to our [Github](https://github.com/DexterHuang/CyberCodeOnline).
+### Mohu změnit své jméno?
+Ne, své jméno změnit nemůžete. Uživatelské jméno je prozatím trvalé. Moderátoři / vývojáři mohou vaše uživatelské jméno změnit, pokud obsahuje nevhodná / vulgární / NSFW slova.
 
-### Can I change my name?
-No, you can't change your name.  Your username is permanent for now. Mods / Devs have rights to change your username if the username contains bad / profanity / NSFW words in it.
+### Jak někoho označím? Mohu vyhledávat uživatelská jména ostatních hráčů?
+Uživatele můžete označit a vyhledávat tak, že v chatu napíšete znak @ a za něj jeho jméno (například zadejte @DexterHuang). Zobrazí se, i když není online, a obdrží oznámení.
 
-### How do I tag someone? Can I search the usernames of other people?
-You can tag and search for a user by typing @ in chat followed by their name (for example, type @DexterHuang). They will show up even if they are not online and they will receive a notification.
+### Podporuje chat emoji a kaomoji?
+Ano. Jen je prosím nepoužívejte nadměrně ani nespamujte, protože takové chování porušuje pravidla chatu.
 
-### Does the chat support emojis and kaomojis?
-Yup 🤠 ฅ^•ﻌ•^ฅ. Please don't overuse or spam these, as this kind of practice is against the Chat Rules.
-
-### Is there any customization in the game?
-You can have a custom profile picture in your profile, a Title and a coloured chat border, if you decide to subscribe to one of the 5 Donation Tiers available. Elite Tier and higher, will have access to a bio on their profile and a barcode. These benefits are purely cosmetic.
+### Nabízí hra nějaké možnosti přizpůsobení?
+Pokud se přihlásíte k odběru jedné z 5 dostupných **Donation Tiers**, můžete mít ve svém profilu vlastní profilový obrázek, titul a barevný okraj chatu. **Elite Tier** a vyšší zpřístupní v profilu bio a čárový kód. Tyto výhody jsou čistě kosmetické.

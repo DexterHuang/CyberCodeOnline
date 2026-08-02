@@ -1,36 +1,36 @@
-# Social
-In CyberCodeOnline, there are few ways of communicating with other players around the world, which ranged from social chatting onto personal messaging with other player.
+# Sociální funkce
+V CyberCodeOnline existuje několik způsobů, jak komunikovat s ostatními hráči po celém světě, od společného chatování až po soukromé zprávy.
 
-## Chats
-Chats consist of different channels, with a goal to socialize with each other. These were justified by having **Chat Quest** being activated after player speaks in chat for the first time.  
+## Chaty
+Chaty se skládají z různých kanálů a jejich cílem je socializace mezi hráči. To potvrzuje i skutečnost, že se po prvním napsání do chatu aktivuje **Chat Quest**.
 
-Explanation around Chat can be found on [Chat's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fchat.md)
+Vysvětlení chatu najdete v [Tutoriálu chatu](https://cybercodeonline.com/markdown?path=tutorial%2Fchat.md)
 
-## Gangs
-Currently gangs are just a private chat area for a group of up to 32 (and more) friends to communicate, with a side of gang task and other gang exclusive feature. There are plans to add more gang related feature in the future. 
+## Gangy
+V současnosti jsou gangy soukromou chatovací oblastí pro skupinu až 32 (i více) přátel, kde mohou komunikovat, a navíc nabízejí gangové úkoly a další exkluzivní funkce. V budoucnu se plánuje přidat další gangové funkce.
 
-Explanation around Gangs can be found on [Gang's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fgangs.md)
+Vysvětlení gangů najdete v [Tutoriálu gangů](https://cybercodeonline.com/markdown?path=tutorial%2Fgangs.md)
 
-## Adding Friends
-To access your personal friends list, click on the floating menu and choose the **People**'s icon. You can add friends by going into a user's profile, scrolling down and clicking **Add to Friend List**. You can do the same to remove a friend by clicking the **Remove From Friend List** button.
+## Přidávání přátel
+Chcete-li otevřít svůj osobní seznam přátel, klikněte na plovoucí nabídku a vyberte ikonu **Lidé**. Přátele můžete přidat tak, že přejdete na profil uživatele, sjedete dolů a kliknete na **Přidat do seznamu přátel**. Stejně tak můžete přítele odebrat kliknutím na tlačítko **Odebrat ze seznamu přátel**.
 
-Adding someone to your friends list will not require the other person to accept the request. They will simply be added to your friends list. Viewing your friends list will allow you to see if they are online, idle or offline.
+Přidání někoho do seznamu přátel nevyžaduje, aby druhá osoba žádost potvrdila. Prostě se přidá do vašeho seznamu přátel. V seznamu přátel také uvidíte, zda je online, nečinná nebo offline.
 
-## Block Feature
+## Funkce blokování
 
 ![BlockFeature1](/resources/mobile-tutorial/BlockFeature1.png)
 
-Players are able to block other players when necessary. To do so, a player needs to click their Username (in chat) and pick **Block Option** that's below the Profile option. When a player gets blocked, the player who blocked them can't see their messages until they unblock them.
+Hráči mohou v případě potřeby blokovat jiné hráče. Stačí kliknout na jejich uživatelské jméno (v chatu) a vybrat možnost **Blokovat**, která je pod možností Profil. Když je hráč zablokován, hráč, který ho zablokoval, neuvidí jeho zprávy, dokud ho neodblokuje.
 
 ![BlockFeature2](/resources/mobile-tutorial/BlockFeature2.png)
 
-To unblock other players, a player needs to find **Block List** option, which can be found on Profile / Map > Phone Icon > All Apps > Block List. After that, the player chooses the player's username and click **Unblock** button that's on the right side of the blocked player's username.
+Chcete-li odblokovat jiné hráče, je třeba najít možnost **Seznam blokovaných**, kterou najdete na **Profil / Mapa** > ikona telefonu > **Všechny aplikace** > **Seznam blokovaných**. Poté vyberte uživatelské jméno hráče a klikněte na tlačítko **Odblokovat** na pravé straně jeho jména.
 
 ![BlockFeature3](/resources/mobile-tutorial/BlockFeature3.png)
 
-After choosing out which player will be unblocked, a pop-up will be shown, to confirm player's action on unblocking the stated player. Clicking on **YES** button implies that the stated player will be unblocked and its chat can be seen again.
+Po výběru hráče, kterého chcete odblokovat, se zobrazí vyskakovací okno pro potvrzení této akce. Kliknutí na tlačítko **ANO** znamená, že daný hráč bude odblokován a jeho chat bude opět viditelný.
 
-## Player Trading
-While there is no official feature to trade, **Sending Gift to Player** works in a way bridge out the way of trading in this game. To initialize a trade, both players arrange a deal via **Private Message** with a sense of trust on both sides. Once a deal is approved, both players trade their goods and thank each other when a deal is done.
+## Obchodování mezi hráči
+I když neexistuje oficiální obchodní funkce, **Poslat dárek hráči** slouží jako způsob, jak obchod v této hře obejít. K zahájení obchodu si oba hráči domluví dohodu přes **soukromou zprávu** a spoléhají na vzájemnou důvěru. Jakmile je dohoda potvrzena, oba si vymění zboží a po dokončení si poděkují.
 
-If a player tries to scam others, it's recommended to report this behavior to in-game `Moderator` via Private Message rather than announce it in **Global Chat** to prevent misinformation or bad behavior by any means.
+Pokud se vás někdo pokusí podvést, doporučuje se toto chování nahlásit hernímu `moderátorovi` přes soukromou zprávu a neoznamovat ho v **globálním chatu**, aby se předešlo dezinformacím nebo dalšímu špatnému chování.

@@ -1,41 +1,41 @@
-# Calibration
-![CalibrationStation](/resources/mobile-tutorial/CalibrationStation.png)
+# Kalibracja
+![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/84a0f895-5a3e-4648-b93d-375ae1a469c2)
 
-**Calibration** is an action where players upgrade their gear to a certain point of improvement, with the purpose of gear longevity and usability on a higher level later on. Calibrating a gear does not increase its level, yet it increases its base stats up to a certain tier of calibration.
+**Kalibracja** zwiększa trwałość i użyteczność wyposażenia na wyższych poziomach, ale nie podnosi jego poziomu — zwiększa jedynie jego statystyki bazowe do określonego poziomu.
 
-It is advisable to start Calibrating your gear around level 50 (and above) as the lower level will outgrow the calibrated gear quickly making the calibrated gear useless on longer runs. It is also advisable to calibrate gear that's at least a Rare (up to Epic) rarity as higher rarity provides more calibration tier's to improve.
+Zacznij **kalibrować** wyposażenie od poziomu 50, aby nie przestało być przydatne zbyt szybko podczas dłuższych wypraw. Kalibruj co najmniej wyposażenie Rare (maksymalnie Epic), aby móc ulepszać je na większej liczbie poziomów.
 
-To do Calibration, A player needs to visit the Calibration Station that can be found in Shangri-La City Center (Map).
+Aby **skalibrować** przedmiot, odwiedź **Stację Kalibracyjną** znajdującą się w Centrum Miasta Shangri-La (Mapa).
 
-## Performing Calibration
+## Wykonywanie kalibracji
 ![CalibrationStation2](/resources/mobile-tutorial/CalibrationStation2.png)
 
-Inside **Calibration Station**, the player will be asked to insert the **Equipment Calibration Core** to start the process. After inserting the core, the player needs to wait for 30 minutes before the Station allows the player to calibrate their gear (**This waiting process is not affected by any global buff / skips, including AFK Accelerators [Synaptic Acceleration Transmitter]**).
+W **Stacji Kalibracyjnej** gracz zostanie poproszony o włożenie **Rdzenia Kalibracji Sprzętu**, aby rozpocząć proces. Po włożeniu rdzenia trzeba odczekać 30 minut, zanim stacja pozwoli skalibrować wyposażenie (**ten czas oczekiwania nie jest skracany przez żadne globalne wzmocnienia ani pominięcia, w tym akceleratory AFK [Nadajnik Przyspieszenia Synaptycznego]**).
 
 ![CalibrationStation3](/resources/mobile-tutorial/CalibrationStation3.png)
 
-After 30 minutes, A player is allowed to calibrate any gear (excluding maxed Calibrated Gear) that's not equipped into their equipped slot. 
+Po włożeniu **Rdzenia Kalibracji Sprzętu** i odczekaniu 30 minut gracz może skalibrować dowolne wyposażenie (z wyjątkiem wyposażenia o maksymalnym poziomie kalibracji), które nie jest założone.
 
-## Outside of Calibration Station
+## Poza Stacją Kalibracyjną
 
-As of **v0.780 (2022/03/04) update**, players were allowed to do Calibration during the AFK Task / Dungeon session. 
+Od aktualizacji **v0.780 (2022/03/04)** można kalibrować wyposażenie podczas sesji zadania AFK lub w lochu.
 
 ![CalibrationStationAlt](/resources/mobile-tutorial/CalibrationStationAlt.png)
 
-In order to do so, players must click on its designated gear then pick the `View Details` option. On the **Equipment Details** section, click on the **Upgrade** or **Calibration Slots** button to navigate to Calibration Station. In this way, players can do calibration at ease.
+Aby skalibrować wyposażenie, kliknij wybrany przedmiot, wybierz **Pokaż Szczegóły**, a następnie w sekcji **Szczegóły wyposażenia** kliknij przycisk **Ulepsz** lub **Miejsca kalibracji**, aby przejść do Stacji Kalibracyjnej.
 
-Keep in mind that only unequipped gear was the ones that can be calibrated.
+Pamiętaj, że kalibrować można wyłącznie niezałożone wyposażenie.
 
-## Chance of Destructive Failure
+## Ryzyko zniszczenia w razie niepowodzenia
 
 ![CalibrationStation4](/resources/mobile-tutorial/CalibrationStation4.png)
 
-In process of calibrating the gear, there's a chance that the process will fail, resulting in a gear being destroyed. The percentage of failure is indicated by the red number on top of the selected gear in %.
+Podczas kalibracji proces może się nie udać, a wyposażenie może zostać zniszczone. Ryzyko wskazuje czerwona wartość procentowa wyświetlana na przedmiocie.
 
-It is advisable to remove the Upgrade Module that's attached to the gear before attempting to calibrate, as both gear and module will get destroyed in process of fail.
+Przed kalibracją wyposażenia warto odłączyć wszystkie zamontowane moduły ulepszeń, aby w razie niepowodzenia nie ryzykować zniszczenia zarówno wyposażenia, jak i modułu.
 
-In general, the gear capacity / fail percentage of each tier is as follows:
-| Gear Capacity | Tier | Chance to Fail |
+Ogólnie rzadkość wyposażenia i szansa niepowodzenia na poszczególnych poziomach przedstawiają się następująco:
+| Rzadkość wyposażenia | Poziom | Szansa na niepowodzenie |
 |--|--|--|
 | Trash | +1 | 2% |
 | Trash | +2 | 5% |
@@ -48,19 +48,35 @@ In general, the gear capacity / fail percentage of each tier is as follows:
 | Epic | +9 | 400% |
 | Epic | +10 | 666% |
 
-## Override The Chance
-Any +6 calibration and beyond is *impossible to achieve* without the use of **Calibration Boost**. They reduce the failure percentage and they stack / add with each other.
+## Zwiększanie szansy powodzenia
 
-In general, the calibration boost tier (and where to find them) is as follows:
-- **Calibration AI Shard (Common)** reduce the chance of failure by 5%; only for Personal Use; can be found in Rare Locked Containers
-- **Calibration AI Shard (Rare)** reduce the chance of failure by 10%; Global Buff; can only be bought in the Arasaka Unit Exchange
-- **Calibration AI Shard (Legendary)** reduce the chance of failure by 50%; Global Buff; can only be bought in the Arasaka Unit Exchange
-- **Calibration AI Shard (Legendary)** reduce the chance of failure by 100%; Global Buff; can only be bought in the Arasaka Unit Exchange
-- **Calibration AI Shard (Prestige)** reduce the chance of failure by 300%; Global Buff; can only be bought in the Arasaka Unit Exchange 
+Kalibracja do poziomu +6 lub wyższego jest *niemożliwa*, ponieważ szansa niepowodzenia wynosi wtedy co najmniej 100%. Aby zwiększyć szansę powodzenia, można użyć **wzmocnień kalibracji**, które omijają szansę niepowodzenia.
+Aby wdrożyć wzmocnienie, kliknij przycisk `Zwiększ szanse sukcesu`. Wzmocnienie zostanie wdrożone dla **wszystkich graczy na serwerze**, a poniżej zobaczysz zaktualizowaną szansę wraz z aktualnym zwiększeniem zapewnianym przez wzmocnienia:
 
-Players can also negate the destructive effect by activating **Calibration Safety Nano Bots** (which can be found in Mysterious Containers / or bought in the Arasaka Unit Exchange) before calibrating the gear.
+![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/7d45ef02-a914-482d-83fe-0a9c9cd19c06)
 
-Keep in mind that the boosts **will only last for 5 min** & each tier / rarity of boost **can only be stacked twice** (excluding Common Shard). It's best to be prepared before boosting.
 
-##  Trade / Sell Calibrated Gear 
-Players can't trade / sell their calibrated gear. To trade / sell related gear, players need to **Reset** the calibrated gear by using **Factory Reset Shard** (that can be found on Scavenge or Market).
+Możesz także użyć **zapobiegania zniszczeniu**, aby uniknąć trwałego zniszczenia wyposażenia w razie nieudanej kalibracji. Kliknij `Zapobierzenie zniszczeniu`, aby wdrożyć dla wszystkich graczy wzmocnienie **zapobiegania zniszczeniu** na 5 minut.
+
+Pamiętaj, że wzmocnienia trwają **tylko 5 minut**, a każdy poziom/rzadkość **można kumulować najwyżej dwukrotnie** (z wyjątkiem odłamków Common), dlatego najlepiej przygotować się przed ich użyciem.
+
+## Ulepszanie wyposażenia
+Każda kalibracja znacznie poprawia wyposażenie. W zależności od jego poziomu może zwiększyć między innymi zdrowie, obrażenia i liczbę miejsc w ekwipunku.
+
+Procentowa poprawa wynikająca z kalibracji (względem statystyk bazowych) przedstawia się następująco:
+| Poziom | Poprawa wyposażenia |
+|--|--|
+| +1 | 5% |
+| +2 | 10% |
+| +3 | 15% |
+| +4 | 20% |
+| +5 | 40% |
+| +6 | 60% |
+| +7 | 80% |
+| +8 | 110% |
+| +9 | 150% |
+| +10 | 200% |
+
+
+## Handel / sprzedaż skalibrowanego wyposażenia
+Skalibrowanego wyposażenia nie można wymieniać ani sprzedawać, ale można je zresetować za pomocą **Fragmentu Resetu do Ustawień Fabrycznych**, dostępnego podczas Poszukiwań lub na Rynku. Umożliwi to ponowną wymianę lub sprzedaż danego wyposażenia.

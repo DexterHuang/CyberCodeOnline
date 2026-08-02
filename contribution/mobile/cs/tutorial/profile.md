@@ -1,129 +1,130 @@
-# Profile
-In your Profile, there are several pieces of information and options at your disposal. From top to bottom, Here are some informations that you can see from your profile:
+# Profil
+V profilu máte k dispozici několik informací a možností. Odshora dolů zde najdete přehled toho, co v profilu uvidíte:
 
-- **Alias** : Your username
-- **Title and profile picture (if applicable)** : Donator feature; shows the current title & displayed Profile Picture. Click the Profile Picture to change the image
-- **Amount of BitCoins** : Your current BTC. Shows both unbanked & banked BTC
-- **Average Gear Level (Gear Score)** : Your current average Gear Level. Affects your EXP gain on AI Farming
-- **Current Location** : Your current character location
-- **Online/Offline Status (System Link)** : Your current account status
-- **Street Cred** : The amount of Street Cred that you get
-- **Your Current Activity (Status)** : Your current action
-- **Your level** : Your current character level
-- **Skill levels** : Your current skill levels
-- **Stats** : Detailed information about your character's status
-- **Gang** : Your current gang (this information will not appear if you're gangless)
-- **Secret Keys** : Your list of Secret Keys that's been obtained so far
+- **Alias** : vaše uživatelské jméno
+- **Titul a profilový obrázek (pokud je k dispozici)** : funkce pro dárce; zobrazuje aktuální titul a profilový obrázek. Kliknutím na profilový obrázek ho změníte
+- **Množství bitcoinů** : vaše aktuální BTC. Zobrazuje BTC mimo banku i v bance
+- **Průměrná úroveň vybavení (Gear Score)** : vaše aktuální průměrná úroveň vybavení. Ovlivňuje zisk EXP při farmení AI
+- **Aktuální lokace** : aktuální poloha postavy
+- **Stav online/offline (System Link)** : aktuální stav účtu
+- **Street Cred** : množství Street Cred, které máte
+- **Aktuální aktivita (stav)** : vaše aktuální činnost
+- **Vaše úroveň** : aktuální úroveň postavy
+- **Úrovně dovedností** : vaše aktuální úrovně dovedností
+- **Statistiky** : podrobné informace o stavu vaší postavy
+- **Gang** : váš aktuální gang (tato informace se nezobrazí, pokud nejste v gangu)
+- **Tajné klíče** : seznam tajných klíčů, které jste dosud získali
 
-## Stats
-In the **Stats** section, you can see the 'Global Effects' of an activated Transmitter (or boost). Here you can also see how long the [MUTED] status will last.
+## Statistiky
+V části **Statistiky** můžete vidět „globální účinky“ aktivovaného vysílače (nebo buffu). Tady také vidíte, jak dlouho bude trvat stav [MUTED].
 
-As the name suggests, someone with the 'MUTED' status will not be able to communication with others for a certain amount of time.
+Jak název napovídá, někdo se stavem „MUTED“ nebude po určitou dobu moci komunikovat s ostatními.
 
-- The 'MUTED' status affects all kinds of chats: both Global, Gang and Mail (Private Messaging).
-- The 'MUTED' status does not affect the ability to receive or send items to other players or the ability to play the game.
-- The 'MUTED' status is applied by the moderators (mods) to a player who has broken the rules of the game or the ones related to the chat. 
+- Stav „MUTED“ ovlivňuje všechny druhy chatu: Global, Gang i Mail (soukromé zprávy).
+- Stav „MUTED“ neovlivňuje schopnost přijímat nebo posílat předměty jiným hráčům ani možnost hrát hru.
+- Stav „MUTED“ udělují moderátoři hráči, který porušil pravidla hry nebo pravidla chatu.
 
-At the bottom of your profile, you will see a few additional options such as:
-- **QUIT GANG** : this will leave your gang, if you are in one;
-- **LOGOUT** : this will log you out of the game.
+Ve spodní části profilu uvidíte několik dalších možností, například:
+- **Opustit gang** : opustí gang, pokud v nějakém jste;
+- **Odhlásit se** : odhlásí vás ze hry.
 
-On other players' profiles, you will encounter different options such as:
-- **SEND PRIVATE MESSAGE** : send a private message to the player through in-game Mail.
-- **SEND GIFT** : send items (caches, healing items, ammo, etc.) from your inventory to the other player's inventory. You cannot send Secret Key Fragments to other players.
-- **INVITE TO GANG** : invite the player to your gang, only if you are the Leader or you have the permission to invite others players into the gang.
-- **ADD TO FRIEND LIST** : add the player to your friend list, and if the player is not currenty online, they will also receive a notification about the fact that you added them as a friend.
-- **SEND STREET CRED** : give 1 Street Cred point to the player.
+Na profilech ostatních hráčů narazíte na jiné možnosti, například:
+- **Poslat soukromou zprávu** : pošle hráči soukromou zprávu přes herní Mail.
+- **Poslat dárek** : pošle předměty (cache, léčivé předměty, munici atd.) z vašeho inventáře do inventáře jiného hráče. Fragmenty tajných klíčů nelze posílat ostatním hráčům.
+- **Pozvat do gangu** : pozve hráče do vašeho gangu, pouze pokud jste vedoucí nebo máte oprávnění zvát další hráče do gangu.
+- **Přidat do seznamu přátel** : přidá hráče do seznamu přátel, a pokud není zrovna online, dostane také oznámení o tom, že jste si ho přidali jako přítele.
+- **Odeslat obchodní žádost** : umožní směnit zboží mezi dvěma stranami (vámi a druhým hráčem) bez použití BTC jako prostředku transakce.
+- **Dát pouliční karmu** : dá hráči 1 bod Street Cred.
 
-Street Cred is a point system similar to "Karma" system found on Reddit. It's meant to indicate how trustful or helpful a player is. You're limited to sending only 1 Street Cred per day. You are not limited in how much Street Cred you receive from other players.
+Street Cred je bodový systém podobný systému „Karma“ na Redditu. Slouží k označení toho, jak důvěryhodný nebo užitečný hráč je. Každý den můžete poslat jen 1 Street Cred. Kolik Street Cred dostanete od ostatních hráčů, omezené není.
 
-## Types of levels
+## Typy úrovní
 
-### Player Level
+### Úroveň hráče
 
-This is the level all your other skills will be capped at. You can increase your player level by fighting in dungeons, fighting enemies and using Experience Memories. For the highest efficiency, you want to keep all your levels about even with your player level. This is recommended.
+Toto je úroveň, na kterou budou omezeny všechny vaše ostatní dovednosti. Svou úroveň hráče můžete zvyšovat bojem v dungeonech, bojem s nepřáteli a používáním pamětí se zkušenostmi. Pro nejvyšší efektivitu je vhodné držet všechny své úrovně přibližně na stejné úrovni jako úroveň hráče. To se doporučuje.
 
-### Printing Rank
+### Hodnost tisku
 
-Printing rank determines the level of the equipment you will print at the 3D Molecular Printer. You can level your printing rank by printing equipment, Reverse Engineering Tech Scraps or working at a Printing Factory. The latter two options are AFK jobs at the Job Hub.
+Hodnost tisku určuje úroveň vybavení, které budete tisknout na Molekulární 3D tiskárně. Hodnost tisku můžete zvyšovat tiskem vybavení, zpětnou rekonstrukcí technického šrotu nebo prací v tiskárně vybavení. Poslední dvě možnosti jsou AFK úkoly v Centru úkolů.
 
-### Medical Science
-Crafting medical items or initiating the relevant job at the Job Hub will give you medical crafting experience. You will need these levels to craft better healing items.
+### Lékařská věda
+Výroba léčivých předmětů nebo spuštění příslušného úkolu v Centru úkolů vám dá zkušenosti s výrobou léčiv. Tyto úrovně potřebujete k výrobě lepších léčivých předmětů.
 
-### Ammo Crafting
-Crafting ammo or initiating a job at the Job Hub will give you ammo crafting experience. It's useful to craft more ammo with less materials.
+### Výroba munice
+Výroba munice nebo spuštění úkolu v Centru úkolů vám dá zkušenosti s výrobou munice. Vyšší úroveň vám umožní vyrábět větší množství munice s menším množstvím materiálů.
 
-### Scavenge Skill
-To start scavenging, you must start at the lowest level area (Flori Station, Grandiose Parking Lot 1 - 4). As your scavenge skill improves, you can start to scavenge at higher levels. The level requirements are listed in those areas. Higher scavenge levels will also grant you better rewards of (ammunition, military ammunition and medical) tech parts. You can only gain scavenge experience by scavenging.
+### Dovednost scavengování
+Chcete-li začít se scavengováním, musíte začít v oblasti s nejnižší úrovní (Flori Station, Grandiose Parking Lot 1–4). Jak se vaše dovednost scavengování zlepšuje, můžete začít scavengovat ve vyšších úrovních. Požadavky na úroveň jsou uvedeny v těchto oblastech. Vyšší úrovně scavengování vám také dají lepší odměny v podobě technických součástek (munice, vojenské munice a léčiv). Zkušenosti ve scavengování získáte pouze scavengováním.
 
-### Mining Skill
-Mining can be done only with 'Hash Processors' that drop from both normal and challenge dungeons. Higher mining levels can earn you more BTC per 15 minutes of AFK mining. You can get mining experience by completing mining jobs at the Job Hub. With higher mining levels, you can craft AI cores more efficiently as well.
+### Dovednost těžby
+Těžbu lze provádět pouze s **Hash Procesory**, které padají z normálních i challenge dungeonů. Vyšší úrovně těžby vám mohou přinést více BTC za každých 15 minut AFK těžby. Zkušenosti v těžbě získáte plněním těžebních úkolů v Centru úkolů. S vyšší úrovní těžby můžete také efektivněji vyrábět AI jádra.
 
-## Stats
-Every player has 22 different Stats that can be showned on profiles, as follows:  
+## Statistiky
+Každý hráč má 22 různých statistik, které lze zobrazit na profilech, a to následovně:  
 
-### Max Shield
-The maximum shield that the player has. Upon receiving an attack, the shield is hit first before deducting from the player's health.
- 
-### Max Health
-The maximum health that the player has. Determined by player equipment and equipment upgrades.  
+### Maximální štít
+Maximální štít, který má hráč. Při obdržení útoku se nejdřív zasáhne štít, teprve potom zdraví hráče.
   
-### Armor
-The armor that the player has. It reduces damage taken by that specified amount.  
+### Maximální zdraví
+Maximální zdraví, které má hráč. Je určeno vybavením hráče a jeho vylepšeními.  
   
-### Health Regen
-Health regenerated after a battle in a dungeon. 
+### Brnění
+Brnění, které má hráč. Snižuje obdržené poškození o danou hodnotu.  
+  
+### Regenerace zdraví
+Zdraví regenerované po boji v dungeonu. 
    
-### Damage (dmg)
-The total damage the player deals. Your damage is calculated by adding up the damage modifiers given by equipment and equipment upgrades.  
+### Poškození (dmg)
+Celkové poškození, které hráč způsobuje. Poškození se počítá sečtením modifikátorů poškození z vybavení a jeho vylepšení.  
   
-### Crit Chance
-The chance of the player critically striking when attacking. The max crit chance is 70%.  
-  
-### Crit Damage
-The multiplier to your damage when critically striking. The max crit damage multiplier is 200%.  
-  
-### Escape
-The chance of escaping from an enemy encounter. The max escape chance is 80%.  
-  
-### Stun Chance
-The chance of stunning an enemy. If an enemy is stunned, they cannot perform a response action during that turn. The max stun chance is 20%.  
-  
-### Evade
-The chance of evading an enemy attack, taking no damage. The max evade chance is 40%.  
-  
-### Bargain
-The percentage the price is discounted or increased when buying or selling from the mart. The max bargain percentage is 40%.  
-  
-### Pocket
-The amount of additional inventory space. The max additional pocket space is 128.  
-  
-### Damage Multiplier
-A percent multiplier to attacks. The max multiplier is 40%.  
-  
-### Defence Multiplier
-A percent multiplier to your armor. The max multiplier is 40%.  
-  
-### Stun Evade
-The chance of evading an enemy stun. The max chance is 40%.  
-  
-### Shield Multiplier
-A percent multiplier to your shield. The max multiplier is 40%.  
+### Kritická šance
+Šance hráče na kritický zásah při útoku. Maximální kritická šance je 70 %.
 
-### Healing Multiplier
-A percent multiplier to heals received from healing items. The max multiplier is 100%.
+### Kritické poškození
+Násobitel vašeho poškození při kritickém zásahu. Maximální násobič kritického poškození je 200 %.  
+  
+### Šance úniku
+Šance na útěk z nepřátelského střetu. Maximální šance úniku je 80 %.  
+  
+### Šance na omráčení
+Šance na omráčení nepřítele. Pokud je nepřítel omráčen, nemůže v daném tahu provést reakční akci. Maximální šance na omráčení je 20 %.  
+  
+### Vyhýbání
+Šance vyhnout se útoku nepřítele a neutrpět žádné poškození. Maximální šance na vyhnutí se útoku je 40 %.  
+  
+### Smlouvání
+Procento, o které se cena sníží nebo zvýší při nákupu či prodeji v obchodě. Maximální procento smlouvání je 40 %.  
+  
+### Počet kapes
+Množství dodatečného místa v inventáři. Maximální dodatečný prostor z kapes je 128.  
+  
+### Násobič poškození
+Procentní násobič útoků. Maximální násobič je 40 %.  
+  
+### Násobič obrany
+Procentní násobič vašeho brnění. Maximální násobič je 40 %.  
+  
+### Odolnost proti omráčení
+Šance vyhnout se omráčení od nepřítele. Maximální šance je 40 %.  
+  
+### Násobič štítu
+Procentní násobič vašeho štítu. Maximální násobič je 40 %.  
 
-### Time Reduction
-A percent multiplier for how much time is reduced during AFK activities. The max time reduction is 80%.
+### Násobič léčení
+Procentní násobič léčby přijaté z léčivých předmětů. Maximální násobič je 100 %.
 
-### Experience Multiplier
-A percent multiplier showing how much EXP you can additionally gain. The max multiplier is 80%.
+### Zkrácení času
+Procentní násobič, o kolik se zkracuje čas během AFK aktivit. Maximální zkrácení času je 80 %.
 
-### BitCoin (BTC) Multiplier
-A percent multiplier showing how much BitCoin you can additionally gain. The max multiplier is 100%.
+### Násobič zkušeností
+Procentní násobič ukazující, kolik EXP navíc můžete získat. Maximální násobič je 80 %.
 
-### Gang Nemesis
-Current Enemy Gang's affection that'll increase their damage against you. The max multiplier is 10%.
+### Násobič BitCoinu (BTC)
+Procentní násobič ukazující, kolik BitCoinu navíc můžete získat. Maximální násobič je 100 %.
 
-### Mark
-Current Mark thats assigned to your charatcer. This Mark will affect your damage against specific Enemy Gang. The max multiplier is 10%.
+### Nemesis gangu
+Aktuální náklonnost nepřátelského gangu, která zvyšuje jeho poškození proti vám. Maximální násobič je 10 %.
+
+### Značka
+Aktuální značka přiřazená vaší postavě. Tato značka ovlivňuje vaše poškození proti konkrétnímu nepřátelskému gangu. Maximální násobič je 10 %.

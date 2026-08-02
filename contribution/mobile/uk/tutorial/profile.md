@@ -1,129 +1,130 @@
-# Profile
-In your Profile, there are several pieces of information and options at your disposal. From top to bottom, Here are some informations that you can see from your profile:
+# Профіль
+У вашому профілі доступні різні відомості й опції. Зверху вниз у ньому відображаються:
 
-- **Alias** : Your username
-- **Title and profile picture (if applicable)** : Donator feature; shows the current title & displayed Profile Picture. Click the Profile Picture to change the image
-- **Amount of BitCoins** : Your current BTC. Shows both unbanked & banked BTC
-- **Average Gear Level (Gear Score)** : Your current average Gear Level. Affects your EXP gain on AI Farming
-- **Current Location** : Your current character location
-- **Online/Offline Status (System Link)** : Your current account status
-- **Street Cred** : The amount of Street Cred that you get
-- **Your Current Activity (Status)** : Your current action
-- **Your level** : Your current character level
-- **Skill levels** : Your current skill levels
-- **Stats** : Detailed information about your character's status
-- **Gang** : Your current gang (this information will not appear if you're gangless)
-- **Secret Keys** : Your list of Secret Keys that's been obtained so far
+- **Псевдонім** : ваше ім'я користувача
+- **Звання і зображення профілю (якщо є)** : функція для донорів; показує поточне звання та зображення профілю. Натисніть на зображення профілю, щоб змінити його
+- **Кількість біткойнів** : ваш поточний BTC. Показує і BTC поза банком, і BTC у банку
+- **Середній рівень спорядження (Рівень обладнання)** : ваш поточний середній рівень спорядження. Впливає на приріст EXP під час автофарму
+- **Поточне розташування** : місце, де зараз перебуває ваш персонаж
+- **Статус онлайн/офлайн (Системний зв'язок)** : поточний статус акаунта
+- **Репутація** : ваша поточна репутація
+- **Поточна дія (Статус)** : ваша поточна дія
+- **Ваш рівень** : поточний рівень персонажа
+- **Рівні навичок** : поточні рівні навичок
+- **Статистики** : докладна інформація про стан персонажа
+- **Банда** : ваша поточна банда (це поле не показується, якщо ви без банди)
+- **Секретні ключі** : список секретних ключів, які ви вже отримали
 
-## Stats
-In the **Stats** section, you can see the 'Global Effects' of an activated Transmitter (or boost). Here you can also see how long the [MUTED] status will last.
+## Статистики
+У розділі **Статистики** ви можете побачити глобальні ефекти активованого передавача (або бафа). Тут також видно, скільки ще триватиме статус [MUTED].
 
-As the name suggests, someone with the 'MUTED' status will not be able to communication with others for a certain amount of time.
+Як випливає з назви, гравець зі статусом [MUTED] не зможе спілкуватися з іншими протягом певного часу.
 
-- The 'MUTED' status affects all kinds of chats: both Global, Gang and Mail (Private Messaging).
-- The 'MUTED' status does not affect the ability to receive or send items to other players or the ability to play the game.
-- The 'MUTED' status is applied by the moderators (mods) to a player who has broken the rules of the game or the ones related to the chat. 
+- Статус [MUTED] впливає на всі види чатів: глобальний чат, чат банди та пошту (приватні повідомлення).
+- Статус [MUTED] не впливає на можливість отримувати або надсилати предмети іншим гравцям чи на можливість грати.
+- Статус [MUTED] накладають модератори на гравця, який порушив правила гри або правила, пов'язані з чатом.
 
-At the bottom of your profile, you will see a few additional options such as:
-- **QUIT GANG** : this will leave your gang, if you are in one;
-- **LOGOUT** : this will log you out of the game.
+У нижній частині профілю ви побачите ще кілька опцій, наприклад:
+- **Вийти з банди** : це дозволить вам покинути банду, якщо ви в ній;
+- **Вийти** : це виведе вас із гри.
 
-On other players' profiles, you will encounter different options such as:
-- **SEND PRIVATE MESSAGE** : send a private message to the player through in-game Mail.
-- **SEND GIFT** : send items (caches, healing items, ammo, etc.) from your inventory to the other player's inventory. You cannot send Secret Key Fragments to other players.
-- **INVITE TO GANG** : invite the player to your gang, only if you are the Leader or you have the permission to invite others players into the gang.
-- **ADD TO FRIEND LIST** : add the player to your friend list, and if the player is not currenty online, they will also receive a notification about the fact that you added them as a friend.
-- **SEND STREET CRED** : give 1 Street Cred point to the player.
+У профілях інших гравців ви зустрінете інші опції, наприклад:
+- **Надіслати приватне повідомлення** : надіслати приватне повідомлення гравцеві через внутрішню пошту;
+- **Надіслати подарунок** : надіслати предмети (схеми, лікувальні предмети, боєприпаси тощо) зі свого інвентаря до інвентаря іншого гравця. Ви не можете надсилати іншим гравцям фрагменти секретних ключів;
+- **Запросити до банди** : запросити гравця до своєї банди, лише якщо ви лідер або маєте дозвіл запрошувати інших гравців у банду;
+- **Додати до друзів** : додати гравця до списку друзів, і якщо він зараз не в мережі, то також отримає сповіщення про те, що ви додали його в друзі;
+- **Надіслати торговий запит** : обмін товарами між двома сторонами (вами та іншим гравцем) без використання BTC як засобу оплати;
+- **Підвищити репутацію** : дати гравцеві 1 бал репутації.
 
-Street Cred is a point system similar to "Karma" system found on Reddit. It's meant to indicate how trustful or helpful a player is. You're limited to sending only 1 Street Cred per day. You are not limited in how much Street Cred you receive from other players.
+Репутація — це система очок, схожа на систему «Karma» на Reddit. Вона має показувати, наскільки гравець надійний або корисний. Підвищити репутацію іншого гравця можна лише 1 раз на день. Обмежень на кількість репутації, яку ви можете отримати від інших гравців, немає.
 
-## Types of levels
+## Типи рівнів
 
-### Player Level
+### Рівень гравця
 
-This is the level all your other skills will be capped at. You can increase your player level by fighting in dungeons, fighting enemies and using Experience Memories. For the highest efficiency, you want to keep all your levels about even with your player level. This is recommended.
+Це рівень, на якому обмежені всі інші ваші навички. Підвищувати рівень гравця можна, б'ючись у підземеллях, воюючи з ворогами та використовуючи **Флеш-досвід**. Для найкращої ефективності бажано, щоб усі ваші навички були приблизно на рівні гравця.
 
-### Printing Rank
+### Ранг друку
 
-Printing rank determines the level of the equipment you will print at the 3D Molecular Printer. You can level your printing rank by printing equipment, Reverse Engineering Tech Scraps or working at a Printing Factory. The latter two options are AFK jobs at the Job Hub.
+Ранг друку визначає рівень спорядження, яке ви друкуватимете в **Молекулярному 3D-принтері**. Підвищувати ранг друку можна, друкуючи спорядження, виконуючи завдання **Реконструювати техно-брухт** або працюючи на **заводі друку**. Останні дві опції — це AFK-роботи в **Центрі зайнятості**.
 
-### Medical Science
-Crafting medical items or initiating the relevant job at the Job Hub will give you medical crafting experience. You will need these levels to craft better healing items.
+### Медична наука
+Виготовлення медичних предметів або виконання відповідної роботи в **Центрі зайнятості** дає вам досвід виготовлення медичних предметів. Ці рівні потрібні, щоб створювати кращі лікувальні предмети.
 
-### Ammo Crafting
-Crafting ammo or initiating a job at the Job Hub will give you ammo crafting experience. It's useful to craft more ammo with less materials.
+### Виготовлення боєприпасів
+Виготовлення боєприпасів або виконання роботи в **Центрі зайнятості** дає вам досвід виготовлення боєприпасів. Це корисно, щоб створювати більше боєприпасів із меншою кількістю матеріалів.
 
-### Scavenge Skill
-To start scavenging, you must start at the lowest level area (Flori Station, Grandiose Parking Lot 1 - 4). As your scavenge skill improves, you can start to scavenge at higher levels. The level requirements are listed in those areas. Higher scavenge levels will also grant you better rewards of (ammunition, military ammunition and medical) tech parts. You can only gain scavenge experience by scavenging.
+### Навичка збирання
+Щоб почати збирання, треба стартувати з найнижчої локації (Flori Station, Grandiose Parking Lot 1 - 4). Коли навичка збирання зростає, ви зможете збирати матеріали на вищих рівнях. Вимоги до рівня вказані в цих локаціях. Вищі рівні збирання також дають кращі нагороди у вигляді техно-деталей для патронів, військових тех-деталей для боєприпасів і техно-медичних деталей. Досвід збирання можна отримати лише під час збирання.
 
-### Mining Skill
-Mining can be done only with 'Hash Processors' that drop from both normal and challenge dungeons. Higher mining levels can earn you more BTC per 15 minutes of AFK mining. You can get mining experience by completing mining jobs at the Job Hub. With higher mining levels, you can craft AI cores more efficiently as well.
+### Навичка гірництва
+Займатися гірництвом можна лише за допомогою **Хеш-процесорів**, які випадають і зі звичайних підземель, і з підземель-випробувань. Вищі рівні гірництва дають більше BTC за кожні 15 хвилин AFK-видобутку. Досвід гірництва можна отримати, виконуючи завдання з гірництва в **Центрі зайнятості**. На вищих рівнях гірництва ви також ефективніше виготовлятимете ядра ШІ.
 
-## Stats
-Every player has 22 different Stats that can be showned on profiles, as follows:  
+## Статистики
+У кожного гравця є 22 різні характеристики, які можуть відображатися в профілі, а саме:  
 
-### Max Shield
-The maximum shield that the player has. Upon receiving an attack, the shield is hit first before deducting from the player's health.
- 
-### Max Health
-The maximum health that the player has. Determined by player equipment and equipment upgrades.  
+### Макс-щит
+Максимальний щит гравця. Коли гравець отримує удар, спочатку витрачається щит, а вже потім здоров'я.
   
-### Armor
-The armor that the player has. It reduces damage taken by that specified amount.  
-  
-### Health Regen
-Health regenerated after a battle in a dungeon. 
+### Макс. здоров'я
+Максимальне здоров'я гравця. Визначається спорядженням і покращеннями спорядження.  
    
-### Damage (dmg)
-The total damage the player deals. Your damage is calculated by adding up the damage modifiers given by equipment and equipment upgrades.  
-  
-### Crit Chance
-The chance of the player critically striking when attacking. The max crit chance is 70%.  
-  
-### Crit Damage
-The multiplier to your damage when critically striking. The max crit damage multiplier is 200%.  
-  
-### Escape
-The chance of escaping from an enemy encounter. The max escape chance is 80%.  
-  
-### Stun Chance
-The chance of stunning an enemy. If an enemy is stunned, they cannot perform a response action during that turn. The max stun chance is 20%.  
-  
-### Evade
-The chance of evading an enemy attack, taking no damage. The max evade chance is 40%.  
-  
-### Bargain
-The percentage the price is discounted or increased when buying or selling from the mart. The max bargain percentage is 40%.  
-  
-### Pocket
-The amount of additional inventory space. The max additional pocket space is 128.  
-  
-### Damage Multiplier
-A percent multiplier to attacks. The max multiplier is 40%.  
-  
-### Defence Multiplier
-A percent multiplier to your armor. The max multiplier is 40%.  
-  
-### Stun Evade
-The chance of evading an enemy stun. The max chance is 40%.  
-  
-### Shield Multiplier
-A percent multiplier to your shield. The max multiplier is 40%.  
+### Броня
+Броня гравця. Вона зменшує отримувану шкоду на вказану величину.  
+   
+### Відновлення здоров'я
+Відновлення здоров'я після бою в підземеллі. 
+   
+### Збиток (dmg)
+Загальна шкода, яку завдає гравець. Ваша шкода обчислюється як сума модифікаторів шкоди від спорядження та покращень спорядження.  
+   
+### Крит-шанс
+Шанс критичного удару під час атаки. Максимальний шанс криту — 70%.  
+   
+### Крит-збиток
+Множник шкоди під час критичного удару. Максимальний множник критичної шкоди — 200%.  
+   
+### Шанс втекти
+Шанс втекти від ворога під час бою. Максимальний шанс втечі — 80%.  
+   
+### Шанс оглушити
+Шанс оглушити ворога. Якщо ворог оглушений, він не може виконати відповідну дію в цьому ході. Максимальний шанс оглушення — 20%.  
+   
+### Ухилення
+Шанс ухилитися від атаки ворога й не отримати шкоди. Максимальний шанс ухилення — 40%.  
+   
+### Торгівля
+Відсоток знижки або націнки під час купівлі чи продажу в магазині. Максимальний відсоток торгівлі — 40%.  
+   
+### Кишеня
+Кількість додаткового місця в інвентарі. Максимум додаткового місця за параметром «Кишеня» — 128.  
+   
+### Множник збитку
+Відсотковий множник до атак. Максимальний множник — 40%.  
+   
+### Множник захисту
+Відсотковий множник до вашої броні. Максимальний множник — 40%.  
+   
+### Уникнення оглушення
+Шанс уникнути оглушення від ворога. Максимальний шанс — 40%.  
+   
+### Множник щита
+Відсотковий множник до вашого щита. Максимальний множник — 40%.  
 
-### Healing Multiplier
-A percent multiplier to heals received from healing items. The max multiplier is 100%.
+### Множник зцілення
+Відсотковий множник до лікування, отриманого з лікувальних предметів. Максимальний множник — 100%.
 
-### Time Reduction
-A percent multiplier for how much time is reduced during AFK activities. The max time reduction is 80%.
+### Скорочення часу
+Відсотковий множник того, наскільки скорочується час під час AFK-активностей. Максимальне скорочення часу — 80%.
 
-### Experience Multiplier
-A percent multiplier showing how much EXP you can additionally gain. The max multiplier is 80%.
+### Множник досвіду
+Відсотковий множник, який показує, скільки додаткового EXP ви можете отримати. Максимальний множник — 80%.
 
-### BitCoin (BTC) Multiplier
-A percent multiplier showing how much BitCoin you can additionally gain. The max multiplier is 100%.
+### Множник біткойна (BTC)
+Відсотковий множник, який показує, скільки додаткових біткойнів ви можете отримати. Максимальний множник — 100%.
 
-### Gang Nemesis
-Current Enemy Gang's affection that'll increase their damage against you. The max multiplier is 10%.
+### Ворожість банди
+Поточна ворожість ворожої банди, що збільшує шкоду, якої вона завдає вам. Максимальний множник — 10%.
 
-### Mark
-Current Mark thats assigned to your charatcer. This Mark will affect your damage against specific Enemy Gang. The max multiplier is 10%.
+### Мітка
+Поточна мітка, призначена вашому персонажу. Ця мітка впливає на вашу шкоду проти певної ворожої банди. Максимальний множник — 10%.

@@ -1,13 +1,13 @@
 # Chat
 
-There are 6 types of chat rooms in CyberCode Online currently: 
-- **Global & Language Channel** : Where everyone can chat freely and interact with each other. With newly added Language Channels, players can chat with their respective language in their dedicated channel. Chat rules still applies, even in different channels. 
-- **Gang Chat** : Only the members of your gang can chat and see the messages sent in that channel. You can tag other people in the gang chat as well.
-- **Private Messages (Mail)** : Where you can privately chat with other players. You will also receive notifications as in a form of Mail from the System after you sent items to someone or vice versa, when someone bought your listings on the Player Market or when you receive a Street Cred from someone.
-- **Auction Channel** : Where players can put items into auction for other players to bid on them. Usually, AI Cores are used as a currency in this channel. 
-- **Market Channel** : Where players can put ads for items they want to sell / buy / trade. Usually, AI cores and rates are used as a currency in this channel (rates usually appear as Item amount:AI Core amount, unless stated otherwise). 
-- **Roleplay Channel** : Where players can roleplay freely as they wish, creating their own stories and lore. 
+V CyberCode Online je nyní k dispozici 6 typů chatovacích místností:
+- **Global & Language Channel**: Místo, kde může každý volně chatovat a komunikovat s ostatními. Díky nově přidaným jazykovým kanálům mohou hráči chatovat ve svém jazyce ve vyhrazeném kanálu. Pravidla chatu platí i v ostatních kanálech.
+- **Gang Chat**: Chatovat a zobrazovat zprávy v tomto kanálu mohou jen členové vašeho gangu. V gangovém chatu můžete také označovat další hráče.
+- **Private Messages (Mail)**: Místo pro soukromý chat s ostatními hráči. Od systému také budete dostávat zprávy do Mailu po odeslání či přijetí předmětů, po nákupu vašeho inzerátu na **Trhu hráčů** nebo po obdržení Street Cred od jiného hráče.
+- **Auction Channel**: Místo, kde mohou hráči nabídnout předměty do aukce a ostatní na ně mohou přihazovat. Jako měna se zde obvykle používají **AI jádra**.
+- **Market Channel**: Místo, kde mohou hráči zveřejnit nabídky předmětů, které chtějí prodat, koupit nebo vyměnit. Jako měna se zde obvykle používají **AI jádra** a kurzy (poměry se obvykle zobrazují jako počet předmětů : počet AI jader, pokud není uvedeno jinak).
+- **Roleplay Channel**: Místo, kde mohou hráči volně hrát roleplay podle svého a vytvářet vlastní příběhy a lore.
 
-In order to mention (or tag) someone in the Global chat, you can use '@' and the name of the user (for example: '@DexterHuang'). As you type their name, a list will appear and you can select the desired name from that list. You can also mention other players by clicking their username and then select the Option **Reply** The player mentioned by you will receive a notification that you mentioned them. 
+Chcete-li v globálním chatu někoho zmínit (označit), použijte znak `@` a jméno uživatele (například `@DexterHuang`). Jakmile začnete psát jeho jméno, zobrazí se seznam, ze kterého můžete vybrat požadované jméno. Ostatní hráče můžete také zmínit kliknutím na jejich uživatelské jméno a následným výběrem možnosti **Odpovědět**. Označený hráč obdrží upozornění, že jste ho zmínili.
 
-Note: You can't mention (tag) someone in the private chat for obvious reasons, as it accounts as **Ghosting** and will annoy tagged player, however, if someone tags you in gang chats, you will receive a notification of that message, but will not be able to visualize it. 
+Poznámka: V soukromém chatu nemůžete nikoho zmínit (označit), protože by to bylo zjevným **Ghostingem** a obtěžovalo by to označeného hráče. Pokud vás ale někdo označí v gangovém chatu, dostanete upozornění na danou zprávu, ale neuvidíte její obsah.

@@ -1,62 +1,62 @@
 # Global Skip
 
-**Global Skip** is an in-game feature that allows players to accelerate AFK times up to a certain duration. When a player activates Global Skip, it affects every player that started their AFK task beforehand. As the benefit applies to all AFK players, it adds to the queue system and progresses one by one. It takes 1 ~ 3 minutes for the effects to apply to everyone (it might take even longer depending on how big the queue is).
+**Global Skip** to funkcja w grze, która pozwala przyspieszyć czas zadań AFK o określony czas. Po aktywowaniu Global Skip wpływa na każdego gracza, który wcześniej rozpoczął swoje zadanie AFK. Ponieważ korzyść obejmuje wszystkich graczy AFK, zadania trafiają do kolejki i są przyspieszane po kolei. Zastosowanie efektu u wszystkich graczy zajmuje od 1 ~ 3 minut (a przy dużej kolejce może potrwać jeszcze dłużej).
 
 ![GlobalSkip](/resources/mobile-tutorial/GlobalSkip.png)
 
-To activate Global Skip, players must acquire a premium currency called Units which can only be bought with Real Money. The cost for Global Skip depends on the duration that applies, with an increment of 64 Units for every 15 minutes (for example: if a player wants to do a 30 minute Global Skip, it'll cost them 128 Units on doing so).
+Aby aktywować Global Skip, trzeba zdobyć walutę premium Units, którą można kupić wyłącznie za prawdziwe pieniądze. Cena Global Skip zależy od długości pominięcia i rośnie o 64 Units za każde 15 minut (na przykład 30-minutowy Global Skip kosztuje 128 Units).
 
 ![GlobalSkip2](/resources/mobile-tutorial/GlobalSkip2.png)
 
-Players can do Global Skip for up to 8 hours AFK task, which costs 2048 Units upon purchase. It is advisable to wait for at least 10-30 seconds before applying Global Skip so that other players can gain the benefit at times. Once purchased, no new skips can be purchased until the skip is completed.
+Global Skip może objąć zadanie AFK trwające maksymalnie 8 godzin, a jego zakup kosztuje 2048 Units. Warto odczekać co najmniej 10-30 sekund przed zastosowaniem Global Skip, aby inni gracze również mogli czasem skorzystać z efektu. Po zakupie nie można kupić kolejnego pominięcia, dopóki obecne się nie zakończy.
 
-## Global Skip & Efficiency
+## Global Skip i efektywność
 
-While doing a sole Global Skip was a thing, players were advised to do a Global Skip while having a certain **Accelerator / Global Buff** that makes the Skip more efficient per cost. In general, the Global Buff itself is as follows:
+Gdy korzystanie z samego Global Skip było powszechne, zalecano aktywować go razem z określonym **akceleratorem lub globalnym wzmocnieniem**, dzięki któremu pominięcie było wydajniejsze w przeliczeniu na koszt. Ogólne globalne wzmocnienie działa następująco:
 
-### Synaptic Acceleration Transmitter
+### Nadajnik Przyspieszenia Synaptycznego
 
 ![GlobalBuff_AFK](/resources/mobile-tutorial/GlobalBuff_AFK.png)
 
-This item will boost how quickly AFK time passes by +5% for 10 minutes, stackable to +80%. Players only need to use one at times to extend the duration of the boost, resetting the timer. To make use of the boost, players need to begin an AFK session while the boost is active. This item affects globally and does not stack with the rare version. Players can only find this item on Dungeon or via Player Trade.
+**Nadajnik Przyspieszenia Synaptycznego** przyspiesza upływ czasu AFK o +5% przez 10 minut, a efekt można kumulować do +80%. Aby przedłużyć czas działania wzmocnienia, wystarczy użyć kolejnego nadajnika — spowoduje to zresetowanie licznika. Aby skorzystać z efektu, rozpocznij sesję AFK, gdy wzmocnienie jest aktywne. Przedmiot działa globalnie i nie kumuluje się z rzadką wersją. Można go znaleźć wyłącznie w lochu lub zdobyć przez wymianę między graczami.
 
-### Rare Synaptic Acceleration Transmitter
+### Rzadki Nadajnik Przyspieszenia Synaptycznego
 
 ![GlobalBuff_AFK2](/resources/mobile-tutorial/GlobalBuff_AFK2.png)
 
-These are similar to regular **Synaptic Acceleration Transmitters** but don't stack with them. The rare version will instantly boost how quickly AFK time passes by +40% for 20 minutes, stackable to +80%. You only need to use one at times to extend the duration of the boost, resetting the timer. To make use of the boost, you just need to begin an AFK session while the boost is active. You can only find this item on Dungeon or buy one via Arasaka Unit Exchange.
+**Rzadkie Nadajniki Przyspieszenia Synaptycznego** działają podobnie do zwykłych **Nadajników Przyspieszenia Synaptycznego**, ale nie kumulują się z nimi. Rzadka wersja natychmiast przyspiesza upływ czasu AFK o +40% przez 20 minut, a efekt można kumulować do +80%. Aby przedłużyć czas działania, wystarczy użyć kolejnego nadajnika, co zresetuje licznik. Aby wykorzystać wzmocnienie, rozpocznij sesję AFK, gdy jest aktywne. Przedmiot można znaleźć wyłącznie w lochu lub kupić w Arasaka Unit Exchange.
 
-### Transaction Exploit Transmitter
+### Transmiter Exploitu Transakcji
 
 ![GlobalBuff_BTC](/resources/mobile-tutorial/GlobalBuff_BTC.png)
 
-The **Transaction Exploit Transmitter** is used to boost BitCoin gains and works the same way as the transmitters in that you can use multiple to stack the effect and prolong the timer. Each Transaction Exploit Transmitter will provide a +40% boost to BitCoin gain for 20 minutes. Stacking maxes out at 100%.
+**Transmiter Exploitu Transakcji** służy do zwiększania zdobywanych BitCoinów i działa tak samo jak pozostałe nadajniki: można używać wielu sztuk, aby kumulować efekt i przedłużać jego czas. Każdy Transmiter Exploitu Transakcji zapewnia +40% do zdobywanych BitCoinów przez 20 minut. Maksymalna wartość kumulacji wynosi 100%.
 
-### Frontal Cortex Optimization Transmitter
+### Przetwornik Optymalizacji Kory Czołowej
 
 ![GlobalBuff_EXP](/resources/mobile-tutorial/GlobalBuff_EXP.png)
 
-The **Frontal Cortex Optimization Transmitter** is used to boost EXP gains. Each Frontal Cortex Optimization Transmitter will provide a +80% boost to EXP gain for 20 minutes.
+**Przetwornik Optymalizacji Kory Czołowej** służy do zwiększania zdobywanego EXP. Każdy Przetwornik Optymalizacji Kory Czołowej zapewnia +80% do zdobywanego EXP przez 20 minut.
 
-As for efficiency, players were advised to buy both **Rare Synaptic Acceleration Transmitters** and use both of them before Global Skip applies. This way, players can get more AFK tasks per Global Skip duration than per casual timer.
+Jeśli chodzi o efektywność, zaleca się kupić oba **Rzadkie Nadajniki Przyspieszenia Synaptycznego** i użyć ich przed zastosowaniem Global Skip. Dzięki temu w czasie jednego Global Skip można wykonać więcej zadań AFK niż przy zwykłym odliczaniu czasu.
 
-Here's a quick example of it:
+Oto szybki przykład:
 
--   If a player applies 2 hour / 120 minutes Global Skip for one task alone, it'll cost them **512 Units**.
--   If a player used both Rare Synaps (costs 64 Units x 2), a 2 hours task now cuts into a 24 minutes task, which allows them to do 30 minutes Global Skip (costs 128 Units) instead. This brings in a total of **256 Units** (and a bonus of 2 more 30 minutes Global Skips with the same previous Units total).
+- Jeśli gracz zastosuje 2-godzinny / 120-minutowy Global Skip tylko do jednego zadania, zapłaci **512 Units**.
+- Jeśli gracz użyje obu rzadkich nadajników synaptycznych (koszt: 64 Units x 2), zadanie trwające 2 godziny skróci się do zadania trwającego 24 minuty, co pozwoli zamiast tego zastosować 30-minutowy Global Skip (kosztujący 128 Units). Łączny koszt wyniesie **256 Units** (a przy tej samej wcześniejszej liczbie Units pozostaną jeszcze 2 dodatkowe 30-minutowe Global Skip).
 
-It is optional to use other Global Buff (such as Transaction Exploit or Frontal Cortex) as it accounts as a bonus buff for every player.
+Używanie innych globalnych wzmocnień (takich jak Transmiter Exploitu Transakcji lub Przetwornik Optymalizacji Kory Czołowej) jest opcjonalne, ponieważ działają one jako dodatkowy bonus dla każdego gracza.
 
-## Respecting The Skipper
+## Szacunek dla Skippera
 
-When a Global Skip occurs, the game will tell as for who's the skipper is in a format of a system message on Chat's room. The information itself shows the duration of the skip and the total of a queue for that skip duration.
+Gdy uruchomiony zostanie Global Skip, gra poinformuje na czacie systemową wiadomością, kto jest Skipperem. Wiadomość pokaże długość pominięcia oraz całkowitą liczbę zadań w kolejce dla tego czasu.
 
 ![SkipperRespect](/resources/mobile-tutorial/SkipperRespect.png)
 
-When a skip is initialized, a unique button (represented with a fast forward icon) will appear on the right side of the Chat room, at the top of the "Send" button. The fast forward-like button was referred to as a **Skipper Respect** button. This button alone will only appear during Global Skip and vanish after Global Skip is finished.
+Po rozpoczęciu pominięcia po prawej stronie pokoju czatu, nad przyciskiem „Wyślij”, pojawi się wyjątkowy przycisk z ikoną przewijania do przodu. Przycisk ten nazywa się **Skipper Respect**. Jest widoczny wyłącznie podczas Global Skip i znika po jego zakończeniu.
 
 ![SkipperRespect2](/resources/mobile-tutorial/SkipperRespect2.png)
 
-It's been told that whenever a player taps the button (indicated by colored hearts / snowflakes), there's a chance that a player itself will win a prize from it. The prize themselves ranged from Medical Tech, AI Cores, Backpack, and Epic Gear. This activity was referred to as a **Skip Raffle**.
+Mówi się, że za każdym razem, gdy gracz dotknie tego przycisku (oznaczonego kolorowymi sercami lub płatkami śniegu), może wygrać nagrodę. Wśród nagród są Skrawki Technologii Medycznej, Rdzenie SI, plecak i epickie wyposażenie. Funkcja ta nosi nazwę **Skip Raffle**.
 
-At times, the hearts / snow effects might lag the game (depending on the player's phone specs), resulting in a mixed experience in between. Players can disable the effect (which also prevents them from joining Skip Raffle) by tapping the Phone Icon on either Map or Profile tab and choosing the Settings option.
+Czasami efekty serc i śniegu mogą spowalniać grę (zależnie od parametrów telefonu), co pogarsza płynność działania. Możesz wyłączyć ten efekt (co uniemożliwi także udział w Skip Raffle), dotykając ikony telefonu na karcie Mapa lub Profil i wybierając Ustawienia.

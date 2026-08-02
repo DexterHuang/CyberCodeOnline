@@ -1,10 +1,10 @@
-## Secret Keys
-Leveling areas of the game are called 'Stations'. Each Station has 3 mini-areas, each with mobs within a certain level range and normal and challenge dungeons. Every dungeon has a boss room, with either lots of tough mobs which are higher level or a super boss which has a lot of hitpoints, potentially defeating players in one hit.
+## Tajné klíče
+Oblasti hry rozdělené podle úrovně se nazývají „stanice“. Každá stanice má 3 menší oblasti, v nichž jsou mobové v určitém rozsahu úrovní a normální i challenge dungeony. Každý dungeon má místnost s bossem, kde bývá buď hodně silných mobů s vyšší úrovní, nebo super boss s velkým množstvím životů, který může hráče potenciálně porazit jednou ranou.
 
-After defeating all of the enemies in the boss room of a challenge dungeon, you will find a key fragment which is represented by a window icon in the room. Once you have all 3 fragments from one station, you can craft a Secret Key at the Terminal, which is found at the Shangri-La City Center (main HUB area of the game). Each Secret Key will grant you access to a new Station and a new list of higher-level enemies and dungeons to explore.  
+Po poražení všech nepřátel v místnosti s bossem challenge dungeonu najdete fragment klíče, který je v místnosti znázorněn ikonou okna. Jakmile máte všechny 3 fragmenty z jedné stanice, můžete v Terminálu, který se nachází v Centru města Shangri-La (hlavní centrální uzel hry), vyrobit tajný klíč. Každý tajný klíč vám otevře přístup k nové stanici a novému seznamu nepřátel a dungeonů vyšší úrovně.
 
-Additional key fragments can either be discarded (when interacting with the icon in the dungeon) or destroyed (from your inventory).
+Další fragmenty klíče lze buď odhodit (interakcí s ikonou v dungeonu), nebo zničit (z inventáře).
 
-Key fragments cannot be sent to other people nor be sold on the Player Market.
+Fragmenty klíče nelze poslat jiným hráčům ani prodat na **Trhu hráčů**.
 
-This is the main progression mechanic of the game and dungeons will continue to increase in level and difficulty with you. However, if your player level is 10 levels below the dungeon's recommended level, you won't be able to join it. If you are too many levels above a mob, you also won't receive any loot rewards on defeating the enemy. If you are 12 levels above the recommended dungeon level, you won't be able to interact with anything, including doors, quest givers and loot.
+Tohle je hlavní postupový mechanismus hry a dungeony budou s vámi dál růst co do úrovně i obtížnosti. Pokud je ale úroveň vaší postavy o 10 úrovní nižší než doporučená úroveň dungeonu, nebudete se do něj moci připojit. Pokud jste proti mobovi o příliš mnoho úrovní výš, nedostanete po jeho poražení žádnou kořist ani jinou odměnu. Pokud jste o 12 úrovní nad doporučenou úrovní dungeonu, nebudete moci interagovat s ničím, včetně dveří, zadavatelů úkolů a kořisti.

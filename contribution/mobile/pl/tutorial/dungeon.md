@@ -1,92 +1,114 @@
-## Dungeons
+## Lochy
 
-## Types of Dungeons
-  
+Lochy to jedna z funkcji gry, która pozwala graczom zagłębić się w cyberprzestrzeń i walczyć z przeciwnikami oraz bossami. Aktywności te zapewniają EXP (doświadczenie), BTC (Bitcoin) oraz łupy lub inne nagrody — ich zakres obejmuje wyposażenie od jakości Trash aż po Epic (a także schematy).
+
+Lochy zaprojektowano jako rozgrywkę gracz kontra przeciwnicy (player-versus-enemy, czyli PvE). Gracz może dołączyć do lochu innego gracza, jeśli jest on publiczny [normalny lub wyzwaniowy] albo jeśli należy do tego samego gangu [loch gangu]. W tym samym lochu każdy gracz ma osobną pulę nagród i łupów, dzięki czemu nagrody są dostępne dla wszystkich.
+
+### Rodzaje lochów
+
 ![DungeonTypes](/resources/mobile-tutorial/DungeonTypes.png)
-  
-These are the three types of dungeons that you are able to enter. The [normal] dungeon will include a key fragment in the treasure room and no boss. The [challenge] dungeon is a lot harder but includes more crates for loot and has a boss in the treasure room that gives a lot of EXP.  The [gang] dungeon is the hardest of all and requires that you are in a gang and have a Gang Invasion Order Transmitter.  Enemies are 4-5x stronger than normal dungeons but has greater rewards.
 
-## Creating / Joining a Dungeon
-  
-When creating a dungeon, select the dungeon you want to create. You can name it and choose to make it Public or Private. You can also protect the dungeon with a password.
+Gracze mogą wejść do trzech rodzajów lochów:
 
-Public Dungeons are available to everyone to see and join (if they meet the level requirements) by accessing the list of dungeons. 
+-   **Normal Dungeon**: ten loch zawiera fragment klucza (znajdujący się w **Treasure Room**) oraz stosunkowo łatwych do pokonania przeciwników.
+-   **Challenge Dungeon**: działa tak samo jak Normal Dungeon, ale ma trudniejszych przeciwników. W tym wariancie w **Treasure Room** pojawiają się także bossowie.
+-   **Gang Dungeon**: dostępny wyłącznie dla członków gangu; zapewnia 4x-5x więcej nagród niż Challenge Dungeon i ma jeszcze trudniejszych przeciwników. Zaleca się wchodzić do Gang Dungeon dopiero po osiągnięciu poziomu 50 i z odpowiednim wyposażeniem (Legendary+).
 
-Password protected dungeons can be seen by other players but they cannot join unless they know the password. This is useful if you want to clear a dungeon with specific friends. Share the password in Gang chat or through Mail.
+### Tworzenie i dołączanie do lochu
 
-![DungeonCoop4](/resources/mobile-tutorial/DungeonCoop4.png)
+Podczas tworzenia lochu wybierz loch, który chcesz utworzyć. Możesz nadać mu nazwę i ustawić go jako publiczny lub prywatny. Możesz także ograniczyć dostęp, dodając hasło. Publiczne lochy są widoczne dla wszystkich i można do nich dołączyć (po spełnieniu wymagań obszaru i poziomu) z poziomu listy lochów, dostępnej przez ikonę telefonu > Lista Lochów.
+
+Lochy chronione hasłem są widoczne dla innych graczy, ale nie można do nich dołączyć bez znajomości hasła. Jest to przydatne, jeśli chcesz przejść loch z konkretnymi znajomymi. Hasło udostępnij na czacie gangu lub przez pocztę.
+
 ![DungeonCoop3](/resources/mobile-tutorial/DungeonCoop3.png)
 
-If you'd rather join an existing dungeon, you can press the floating menu button at the bottom right, then select the buildings icon to view a list of open dungeons, as shown above in the screenshots.
+Jeśli wolisz dołączyć do istniejącego lochu, naciśnij unoszącą się ikonę telefonu w prawym dolnym rogu ekranu gry, a następnie wybierz ikonę budynków (Lista Lochów), aby wyświetlić listę otwartych lochów, jak pokazano na powyższych zrzutach ekranu.
 
-At the top right of each dungeon panel, you can find the dungeon level. Each panel includes a list of players and their status in the dungeon. At the bottom, you can see how many enemies are left. You can choose to join a fresher dungeon to gain more EXP or enter empty dungeons to claim loot.
- 
+W lewym i prawym górnym rogu każdego panelu lochu znajdziesz jego nazwę oraz typ. Każdy panel zawiera informacje o lochu, a także nazwę obszaru, wymagania poziomu, fragment klucza możliwy do zdobycia oraz liczbę graczy połączonych z tym samym lochem. Możesz dołączyć do świeżo utworzonego lochu, aby zdobyć więcej EXP, albo wejść do pustego lochu, aby odebrać jego łupy.
+
 ![DungeonCoop](/resources/mobile-tutorial/DungeonCoop.png)
-  
-As shown in the images above, there are several players in the same dungeon. The rules are the same regardless of how many players are in a dungeon; the only difference is that players can help each other out. When using heals, players may use the AOE items (such as Pain Away Spray) to heal both yourself and your co-op partners. You can see everyone's health bars above the player icons. Players may also help dungeonmates by killing the enemy, as the HPs of dungeons enemies are shared by the whole co-op.
 
-When an enemy is killed with the help from a friend, everyone who dealt 20% or more damage is given EXP and a chance for a reward, as long as their level isn't too high for the mob. All crates and loot are unique to each player, so you don't need to worry about sharing loot or having yours stolen. Grab everything you want and discard the rest!
+Jak pokazano na powyższych obrazach, w tym samym lochu może znajdować się kilku graczy. Zasady są takie same niezależnie od liczby osób w lochu; jedyną różnicą jest możliwość wzajemnej pomocy. Podczas leczenia można używać przedmiotów AOE (Area of Effect), takich jak Sprej Po Bólu, aby leczyć siebie i partnerów w trybie współpracy. Paski zdrowia wszystkich graczy są widoczne nad ich ikonami. Możesz także pomóc towarzyszom z lochu, zabijając wroga, ponieważ HP wrogów w lochu jest wspólne dla całej grupy.
+
+Gdy wróg zostanie pokonany z pomocą znajomego, każdy gracz, który zadał co najmniej 20% obrażeń, otrzyma EXP i szansę na nagrodę (łupy z bossów są gwarantowane), o ile jego poziom nie jest zbyt wysoki dla danego przeciwnika. Wszystkie skrzynie i łupy są unikalne dla każdego gracza, więc nie trzeba martwić się dzieleniem łupów ani ich kradzieżą. Zabierz wszystko, czego potrzebujesz, a resztę odrzuć!
 
 ![DungeonCoop2](/resources/mobile-tutorial/DungeonCoop2.png)
 
-In this image, at the bottom under the '[QUIT DUNGEON]' button, you will find a button labeled '[Send invite to global chat]'. This will send an invite to the global chat so others can join easily by clicking on the message. Anyone around your level can join and help you out as long as they are within 10 levels below or 12 levels above your dungeon.
+Na dole, pod przyciskiem `[Quit Dungeon]`, znajdziesz przycisk `[Send Invite to Global Chat]`. Wyśle on zaproszenie na czat globalny (z wyjątkiem Gang Dungeon — w tym przypadku zaproszenie trafi na Gang Chat), aby inni mogli łatwo dołączyć po kliknięciu wiadomości. Każdy gracz na zbliżonym poziomie może dołączyć i pomóc, o ile znajduje się nie więcej niż 10 poziomów poniżej lub 12 poziomów powyżej poziomu lochu. Możesz także kliknąć wiadomość innego gracza, aby dołączyć do jego lochu.
 
-You can also click on messages from other players to join their dungeon.
+Po śmierci lub opuszczeniu lochu gracz nie może już do niego wrócić. Loch pozostanie otwarty, dopóki ostatnia osoba w środku nie opuści go lub nie zginie.
 
-After a player dies or leaves, they cannot rejoin the dungeon.
-  
-## Entrance and Icons
-  
+## Wejście i ikony
+
 ![DungeonEntranceUsed](/resources/mobile-tutorial/DungeonEntranceUsed.png)
-  
-Here you can see the first room of a dungeon. There are doors which will take you to another room in the dungeon. You can find these doors on all sides of the dungeon rooms.  You cannot enter a new room until you have killed all enemies in the current room.
 
-This also shows an example of a room that has been completed. Note the greyed out crates, indicating that they have been looted already. The door on the right wall is also greyed out, which means you have already been through it. This is essential to not get lost while exploring the dungeon. 
+Tutaj widać pierwsze pomieszczenie lochu. Znajduje się w nim wiele drzwi lub tylko kilka drzwi prowadzących do kolejnych pomieszczeń. Drzwi mogą znajdować się po każdej stronie pomieszczenia. Nie można wejść do nowego pomieszczenia, dopóki wszyscy przeciwnicy w obecnym pomieszczeniu nie zostaną pokonani.
 
-### Enemies
-  
+Po wejściu do kolejnego pomieszczenia drzwi, przez które przeszedł gracz, zmienią biały kolor na szary, wskazując, że były już używane. To samo dotyczy skrzyń z łupami, pojemników, zadań i elementów fabularnych po wejściu z nimi w interakcję. Jest to ważne, aby nie zgubić się podczas eksploracji lochu.
+
+### Wrogowie
+
 ![DungeonEnemies](/resources/mobile-tutorial/DungeonEnemies.png)
-  
-There are at most four alien looking icons spread across the room, and these are the enemies you have to defeat before proceeding to the next room or accessing the crates in the room. Click on one of them to fight them.
-  
+
+Zwykłe pomieszczenie z przeciwnikami zawiera najwyżej 3–4 ikony przypominające kosmitów, rozmieszczone po pomieszczeniu (chyba że jest to Treasure Room, w którym znajdzie się co najmniej 5 przeciwników, w tym 1 boss). Ikony oznaczają przeciwników w lochu, których trzeba pokonać przed przejściem do kolejnego pomieszczenia lub otwarciem skrzyń w tym samym pomieszczeniu.
+
 ![DungeonFight](/resources/mobile-tutorial/DungeonFight.png)
-  
-Rules are slightly different in the dungeons when you fight enemies. You will have a row of 3 buttons above your attack options which you can assign to usable items from your inventory. You should assign medical items to this hotbar since your health doesn't regenerate automatically after each fight.
 
-You also have an 'Escape' button on the top left. The success rate of you escaping is based on your player 'escape' stat.  
- 
-### Good Guy (?)
-  
+Zasady walki z wrogami w lochach są nieco inne. Nad opcjami ataku znajduje się rząd przycisków, do których można przypisać przedmioty możliwe do użycia z ekwipunku. Do tego Hotbar warto przypisać przedmioty medyczne, ponieważ zdrowie nie regeneruje się automatycznie po każdej walce (chyba że w statystykach lub wyposażeniu gracza znajduje się **Regen**).
+
+Możesz także użyć `Ucieczka` podczas walki, klikając przycisk **Ucieczka** w lewym górnym rogu ekranu gry. Szansa ucieczki zależy od statystyki **Ucieczka** gracza.
+
+### Zleceniodawca zadania (?)
+
 ![DungeonGoodguy](/resources/mobile-tutorial/DungeonGoodguy.png)
-  
-Here, you can see the '?' icon, indicating a quest if you choose to accept it. You can find one quest giver per dungeon, and they are usually placed randomly in one of the rooms.
-  
-![DungeonGoodguy2](/resources/mobile-tutorial/DungeonGoodguy2.png)
-  
-Here is an example of the dialogue that pops up after clicking on the '?'. They will ask for items in return for other items or power-ups. It is up to you to decide if the trade is worthwhile; however, if you can afford it, it is usually worth accepting for the extra EXP you gain from completing it. Some of the text on this screen is randomly generated from a file, so you may get odd or funny references, if it makes any sense at all.
 
-### Lore (!)
+Ikona znaku zapytania (?) oznacza zadanie, które możesz przyjąć. W każdym lochu znajduje się jeden zleceniodawca zadań, zwykle umieszczony losowo w jednym z pomieszczeń.
+
+![DungeonGoodguy2](/resources/mobile-tutorial/DungeonGoodguy2.png)
+
+Powyżej pokazano przykładowy dialog pojawiający się po kliknięciu „?”. Zleceniodawca poprosi o określone przedmioty w zamian za inne przedmioty lub wzmocnienia. To od ciebie zależy, czy wymiana jest opłacalna, jednak jeśli możesz sobie na nią pozwolić, zwykle warto ją zaakceptować ze względu na dodatkowy EXP za ukończenie zadania. Część tekstu na tym ekranie jest losowo generowana z pliku, dlatego mogą pojawić się dziwne lub zabawne odniesienia (o ile w ogóle mają sens).
+
+### Fabuła (!)
 
 ![DungeonLoreguy](/resources/mobile-tutorial/DungeonLoreguy.png)
 
-There are exclamation marks dotted around dungeons that provide snippets of game lore. These don't have an impact on your game or the dungeon but may be interesting to read.
+W lochach znajdują się rozrzucone wykrzykniki (!), które przedstawiają fragmenty fabuły gry. Nie wpływają one na rozgrywkę ani na sam loch, ale mogą być interesujące do przeczytania.
 
 ### Treasure / Boss Room
-  
+
 ![DungeonBossTreasureCoop](/resources/mobile-tutorial/DungeonBossTreasureCoop.png)
+
+To pomieszczenie jest wyjątkowe, co można rozpoznać po większej liczbie skrzyń oraz obecności co najmniej 5 przeciwników. Skrzynia wyglądająca jak okno zawiera fragment klucza, którego można użyć do stworzenia tajnych kluczy odblokowujących nowe obszary.
+
+Na tym zrzucie ekranu widać także innych graczy, którzy przechodzą loch „solo”. Na wyższych poziomach może to być możliwe, ale na niższych poziomach lub w przypadku członków tego samego gangu zaleca się przechodzić loch w co najmniej 2 osoby. Loch współpracy zapewnia wiele korzyści, takich jak szybsze ukończenie i wspólne zdobywanie łupów.
+
+### Żargon lochów
+
+**Dungeon Lingo**, czyli skróty, to jeden z kilku sposobów komunikowania się z towarzyszami z lochu i kierowania ich do celu (w tym przypadku do **Treasure Room** i znajdujących się w nim **Bosses**). Poniżej znajdują się określenia najczęściej używane przez graczy podczas sesji w lochach:
   
-This room is special, as you can tell from the increased number of crates. The crate that looks like a window contains a key fragment that can be used for crafting Secret Keys that unlock new areas.
+| Skrót | Opis |
+|--|--|
+| [number] | Wskazuje liczbę drzwi w lochu (np. 0) |
+| [direction] | Wskazuje następne miejsce gracza i informuje, że znajduje się tam kolejne drzwi (np. R [/ Right])  |
+| [number] [direction] | Wskazuje liczbę drzwi w podanym kierunku (np. 0 R) |
+| DE  | Oznacza znalezienie **Dead End**, czyli miejsca bez pobliskich drzwi (poza tymi, przez które gracz wszedł) |
+| BR | Oznacza, że w danym miejscu znajduje się **Treasure / Bosses Room** |
+| B  | Oznacza znalezienie bossa |
+| B [type] | Oznacza znalezienie bossa i podaje jego typ (np. B Agile) |
+| G | Oznacza spełnienie wymogu otrzymania nagrody za Bosses (co najmniej 20% obrażeń) |
+| G? | Służy do potwierdzenia innym graczom, czy spełnili już ten wymóg |
+| M / Minigame | Oznacza, że gracz właśnie bierze udział w minigrze |
+| OMW  | „On My Way (w drodze do określonego celu)” |
+| BRT | „Be Right There (zaraz tam będę, w drodze do określonego celu)” |
 
-In this screenshot, you can also see other players helping out. This is especially advised at low levels and when attempting a challenge dungeon, as the boss of challenge dungeons has greatly increased health and power in return for more EXP.
+### Minigra
 
-### Minigame
-
-Once in a while, a minigame will show up after defeating an enemy, when trying to loot a box, or when entering another room, to insinuate a variety of dungeon dwellings. At the current state (as of 11-02-2022 / v.0780 Update), there's only 1 minigame that's been implemented to the game, called **Color Scheme Minigame**.
+Od czasu do czasu po pokonaniu wroga, podczas próby zrabowania skrzyni lub po wejściu do kolejnego pomieszczenia pojawi się minigra urozmaicająca eksplorację lochu. Na dzień 11-02-2022 / aktualizację v.0780 w grze zaimplementowano tylko 1 minigrę o nazwie **Color Scheme Minigame**.
 
 ![DungeonMinigame1](/resources/mobile-tutorial/DungeonMinigame1.png)
 
-The minigame itself consists of 3 colors (red, green, and yellow; with added symbols as an accessibility add-on) that need to be clicked on in sequence (40 times) in 60 seconds. You can also see the upcoming 2 colors as thinner color strips.
+Minigra składa się z 3 kolorów (czerwonego, zielonego i żółtego; dla ułatwień dostępu dodano także symbole), które trzeba klikać w odpowiedniej kolejności (40 razy) w ciągu 60 sekund. Możesz także zobaczyć 2 nadchodzące kolory przedstawione jako węższe paski.
 
 ![DungeonMinigameFail1](/resources/mobile-tutorial/DungeonMinigameFail1.png)
 
-Failing a minigame will result in a `DECRYPTION FAILED` screen, stating that a player failed to pick a correct color in sequence. Players are able to redo the minigame by clicking the **Try Again** button.
+Niepowodzenie w minigrze wyświetli ekran `DECRYPTION FAILED` z informacją, że gracz nie wybrał prawidłowego koloru w odpowiedniej kolejności. Minigrę można powtórzyć, klikając przycisk **Try Again**.

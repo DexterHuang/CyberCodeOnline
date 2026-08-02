@@ -1,9 +1,9 @@
 
-## How to refer someone?
-Simply give the person your in game name, and when they create a new character, they simply need to select you as referrer at the character creation screen (where you name your character).
+## Jak někoho doporučit?
+Jednoduše danému člověku sdělte své jméno ve hře. Až si vytvoří novou postavu, musí vás na obrazovce vytváření postavy (tam, kde se postava pojmenovává) vybrat jako doporučitele.
 
-##  Referral Benefits
-1. Whenever the player you referred purchased unit, you will also receive 10% of it, for example when the player you referred purchased 2000 Unit, you would receieve 200 Unit automatically.
-3. When ever a player you referred reached level `20`, you will receieve some rewards: 
-	- 1 `Fanny Pack`
-	- 1`Locked Rare Container`
+##  Výhody doporučení
+1. Kdykoli hráč, kterého jste doporučili, koupí Units, obdržíte také 10 % z této částky. Například když hráč, kterého jste doporučili, koupí 2000 Units, automaticky dostanete 200 Units.
+2. Kdykoli hráč, kterého jste doporučili, dosáhne úrovně `20`, obdržíte následující odměny:
+	- 1 `Ledvinka`
+	- 1 `Vzácný uzamčený kontejner`

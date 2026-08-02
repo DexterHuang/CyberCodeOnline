@@ -1,62 +1,62 @@
 # Global Skip
 
-**Global Skip** is an in-game feature that allows players to accelerate AFK times up to a certain duration. When a player activates Global Skip, it affects every player that started their AFK task beforehand. As the benefit applies to all AFK players, it adds to the queue system and progresses one by one. It takes 1 ~ 3 minutes for the effects to apply to everyone (it might take even longer depending on how big the queue is).
+**Global Skip** je herní funkce, která umožňuje hráčům urychlit AFK čas až o určitou dobu. Když hráč aktivuje Global Skip, ovlivní každého hráče, který svůj AFK úkol spustil dříve. Protože se výhoda vztahuje na všechny AFK hráče, zařadí se do fronty a postupuje k nim postupně. Než se účinky projeví u všech, trvá to 1 až 3 minuty (podle délky fronty to může trvat i déle).
 
 ![GlobalSkip](/resources/mobile-tutorial/GlobalSkip.png)
 
-To activate Global Skip, players must acquire a premium currency called Units which can only be bought with Real Money. The cost for Global Skip depends on the duration that applies, with an increment of 64 Units for every 15 minutes (for example: if a player wants to do a 30 minute Global Skip, it'll cost them 128 Units on doing so).
+Pro aktivaci Global Skip musí hráči získat prémiovou měnu zvanou Units, kterou lze koupit pouze za skutečné peníze. Cena Global Skip závisí na zvolené délce a za každých 15 minut se zvyšuje o 64 Units (například pokud hráč chce Global Skip na 30 minut, bude ho to stát 128 Units).
 
 ![GlobalSkip2](/resources/mobile-tutorial/GlobalSkip2.png)
 
-Players can do Global Skip for up to 8 hours AFK task, which costs 2048 Units upon purchase. It is advisable to wait for at least 10-30 seconds before applying Global Skip so that other players can gain the benefit at times. Once purchased, no new skips can be purchased until the skip is completed.
+Hráči mohou Global Skip použít až na 8 hodin AFK úkolu, což při zakoupení stojí 2048 Units. Doporučuje se počkat alespoň 10 až 30 sekund, než Global Skip použijete, aby z něj mohli mít prospěch i ostatní hráči. Jakmile je skip zakoupen, nelze koupit další, dokud není tento dokončen.
 
-## Global Skip & Efficiency
+## Global Skip a efektivita
 
-While doing a sole Global Skip was a thing, players were advised to do a Global Skip while having a certain **Accelerator / Global Buff** that makes the Skip more efficient per cost. In general, the Global Buff itself is as follows:
+I když lze používat samotný Global Skip, doporučuje se jej používat spolu s určitým **akcelerátorem / globálním buffem**, který zvyšuje efektivitu vzhledem k ceně. Obecně platí, že globální buffy vypadají takto:
 
-### Synaptic Acceleration Transmitter
+### Vysílač synaptického zrychlení
 
 ![GlobalBuff_AFK](/resources/mobile-tutorial/GlobalBuff_AFK.png)
 
-This item will boost how quickly AFK time passes by +5% for 10 minutes, stackable to +80%. Players only need to use one at times to extend the duration of the boost, resetting the timer. To make use of the boost, players need to begin an AFK session while the boost is active. This item affects globally and does not stack with the rare version. Players can only find this item on Dungeon or via Player Trade.
+Tento předmět zvýší rychlost plynutí AFK času o +5 % na 10 minut a lze jej skládat až na +80 %. Pro prodloužení účinku stačí čas od času použít další kus, čímž se resetuje časovač. Aby se buff využil, je potřeba začít AFK session, zatímco je aktivní. Tento předmět působí globálně a neskládá se se vzácnou verzí. Najít ho lze pouze v dungeonu nebo při obchodování mezi hráči.
 
-### Rare Synaptic Acceleration Transmitter
+### Vzácný vysílač synaptického zrychlení
 
 ![GlobalBuff_AFK2](/resources/mobile-tutorial/GlobalBuff_AFK2.png)
 
-These are similar to regular **Synaptic Acceleration Transmitters** but don't stack with them. The rare version will instantly boost how quickly AFK time passes by +40% for 20 minutes, stackable to +80%. You only need to use one at times to extend the duration of the boost, resetting the timer. To make use of the boost, you just need to begin an AFK session while the boost is active. You can only find this item on Dungeon or buy one via Arasaka Unit Exchange.
+Jsou podobné běžným **vysílačům synaptického zrychlení**, ale neskládají se s nimi. Vzácná verze okamžitě zvýší rychlost plynutí AFK času o +40 % na 20 minut a lze ji skládat až na +80 %. Pro prodloužení účinku stačí čas od času použít další kus, čímž se resetuje časovač. Aby se buff využil, stačí začít AFK session, zatímco je aktivní. Tento předmět lze najít pouze v dungeonu nebo koupit přes Arasakskou směnárnu jednotek.
 
-### Transaction Exploit Transmitter
+### Vysílač obchodního exploitu
 
 ![GlobalBuff_BTC](/resources/mobile-tutorial/GlobalBuff_BTC.png)
 
-The **Transaction Exploit Transmitter** is used to boost BitCoin gains and works the same way as the transmitters in that you can use multiple to stack the effect and prolong the timer. Each Transaction Exploit Transmitter will provide a +40% boost to BitCoin gain for 20 minutes. Stacking maxes out at 100%.
+**Vysílač obchodního exploitu** se používá ke zvýšení zisků BitCoinu a funguje stejně jako ostatní vysílače, takže můžete použít více kusů pro skládání efektu a prodloužení časovače. Každý vysílač obchodního exploitu poskytne +40 % bonus k zisku BitCoinu na 20 minut. Skládání se zastaví na 100 %.
 
-### Frontal Cortex Optimization Transmitter
+### Optimalizace vysílače frontálního kortexu
 
 ![GlobalBuff_EXP](/resources/mobile-tutorial/GlobalBuff_EXP.png)
 
-The **Frontal Cortex Optimization Transmitter** is used to boost EXP gains. Each Frontal Cortex Optimization Transmitter will provide a +80% boost to EXP gain for 20 minutes.
+**Optimalizace vysílače frontálního kortexu** se používá ke zvýšení zisků EXP. Každý takový vysílač poskytne +80 % bonus k zisku EXP na 20 minut.
 
-As for efficiency, players were advised to buy both **Rare Synaptic Acceleration Transmitters** and use both of them before Global Skip applies. This way, players can get more AFK tasks per Global Skip duration than per casual timer.
+Z hlediska efektivity se hráčům doporučuje koupit oba **vzácné vysílače synaptického zrychlení** a použít je před aktivací Global Skip. Tím získáte více AFK úkolů na jednu dobu Global Skip než při běžném časovači.
 
-Here's a quick example of it:
+Tady je rychlý příklad:
 
--   If a player applies 2 hour / 120 minutes Global Skip for one task alone, it'll cost them **512 Units**.
--   If a player used both Rare Synaps (costs 64 Units x 2), a 2 hours task now cuts into a 24 minutes task, which allows them to do 30 minutes Global Skip (costs 128 Units) instead. This brings in a total of **256 Units** (and a bonus of 2 more 30 minutes Global Skips with the same previous Units total).
+-   Pokud hráč použije Global Skip na 2 hodiny / 120 minut jen pro jeden úkol, bude ho to stát **512 Units**.
+-   Pokud hráč použije oba vzácné vysílače (64 Units × 2), 2hodinový úkol se zkrátí na 24 minut, takže pak může použít 30minutový Global Skip (128 Units). Celkem to vyjde na **256 Units** (a navíc získá ještě 2 další 30minutové Global Skips se stejným původním počtem Units).
 
-It is optional to use other Global Buff (such as Transaction Exploit or Frontal Cortex) as it accounts as a bonus buff for every player.
+Je volitelné použít i další globální buffy (například vysílač obchodního exploitu nebo optimalizaci frontálního kortexu), protože se počítají jako bonusový buff pro každého hráče.
 
-## Respecting The Skipper
+## Respekt vůči skippujícímu hráči
 
-When a Global Skip occurs, the game will tell as for who's the skipper is in a format of a system message on Chat's room. The information itself shows the duration of the skip and the total of a queue for that skip duration.
+Když dojde k Global Skipu, hra oznámí, kdo skip aktivoval, ve formě systémové zprávy v chatovací místnosti. Samotná informace ukazuje délku skipu a celkový počet čekajících ve frontě pro tuto délku.
 
 ![SkipperRespect](/resources/mobile-tutorial/SkipperRespect.png)
 
-When a skip is initialized, a unique button (represented with a fast forward icon) will appear on the right side of the Chat room, at the top of the "Send" button. The fast forward-like button was referred to as a **Skipper Respect** button. This button alone will only appear during Global Skip and vanish after Global Skip is finished.
+Když je skip aktivní, na pravé straně chatovací místnosti, nad tlačítkem `Odeslat`, se objeví unikátní tlačítko (značené ikonou rychlého přetáčení vpřed). Tomuto tlačítku se říká **Skipper Respect**. Zobrazí se jen během Global Skipu a po jeho skončení zmizí.
 
 ![SkipperRespect2](/resources/mobile-tutorial/SkipperRespect2.png)
 
-It's been told that whenever a player taps the button (indicated by colored hearts / snowflakes), there's a chance that a player itself will win a prize from it. The prize themselves ranged from Medical Tech, AI Cores, Backpack, and Epic Gear. This activity was referred to as a **Skip Raffle**.
+Říká se, že kdykoli hráč na toto tlačítko klepne (poznáte to podle barevných srdíček / sněhových vloček), existuje šance, že za to získá odměnu. Odměny sahají od technických součástek léčiv přes **AI jádra** a batoh až po epické vybavení. Této aktivitě se říká **Skip Raffle**.
 
-At times, the hearts / snow effects might lag the game (depending on the player's phone specs), resulting in a mixed experience in between. Players can disable the effect (which also prevents them from joining Skip Raffle) by tapping the Phone Icon on either Map or Profile tab and choosing the Settings option.
+Někdy mohou srdíčka / sněhové efekty způsobovat lag hry (podle výkonu telefonu hráče), což vede k horšímu zážitku. Hráči mohou efekt vypnout (což jim zároveň zabrání zapojit se do Skip Raffle) klepnutím na ikonu telefonu na kartě **Mapa** nebo **Profil** a výběrem možnosti **Nastavení**.

@@ -1,34 +1,34 @@
-# Inventory
-You can access your **Inventory** by clicking the option at the bottom menu bar. In your inventory, you can see all items that you own, ranging from **Equipment** (which also includes **Upgrade Modules** and **Equipment Caches**), **Ammo**, **Medical Items**, **Crafting Ingredients**, **Key Fragment / Secret Keys**, **Global Boost**, and other consumables. By clicking on the item, you can see the details and lores of that item respectively.
+# Ekwipunek
+Do swojego **Ekwipunku** możesz wejść, klikając odpowiednią opcję na dolnym pasku menu. W ekwipunku zobaczysz wszystkie posiadane przedmioty: **wyposażenie** (w tym **moduły ulepszeń** i **schematy wyposażenia**), **amunicję**, **przedmioty medyczne**, **składniki rzemieślnicze**, **fragmenty kluczy / tajne klucze**, **globalne wzmocnienia** oraz inne materiały zużywalne. Kliknięcie przedmiotu wyświetli jego szczegóły i informacje fabularne.
 
-Explanation about item / resources, can be found on [Resource's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md)
+Wyjaśnienie dotyczące przedmiotów i zasobów znajdziesz w [Samouczku zasobów](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md).
 
 
-## Functionality on Inventory
-Here's a few tips that players can utilize around inventory feature, as follows:
+## Funkcje ekwipunku
+Oto kilka wskazówek dotyczących korzystania z ekwipunku:
 
-> By clicking the icons above your inventory list, you can filter out specific items. This option ranged from alphabetical sort up to item filter.
+> Klikając ikony nad listą ekwipunku, możesz filtrować określone przedmioty. Dostępne opcje obejmują sortowanie alfabetyczne oraz filtrowanie według rodzaju przedmiotu.
 
-> You will start with 50 inventory slots; equipping **Backpack** or gear / upgrade modules with **pocket** stat will give you more inventory space. 
+> Na początku masz 50 miejsc w ekwipunku. Założenie plecaka albo wyposażenia lub modułów ulepszeń ze statystyką **Kieszeń** zwiększy dostępną przestrzeń.
 
-> To get rid of equipment and upgrade modules, you can click on the item itself and then on the **Scrap** button. Alternatively, you can hold click on one item, select every item you want to scrap, then press the **Scrap** button that will appear at the top left of the item list. 
+> Aby pozbyć się wyposażenia i modułów ulepszeń, kliknij przedmiot, a następnie przycisk **Złomuj**. Możesz też przytrzymać kliknięcie na jednym przedmiocie, zaznaczyć wszystkie przedmioty przeznaczone do złomowania, a następnie nacisnąć przycisk **Złomuj**, który pojawi się w lewym górnym rogu listy.
 
-> There's a dedicated **Auto Scrap** button which players can find by clicking the dropdown button on the right side of the filter icon. Auto Scrap will only be scrapping Common or Trash rarity gear while ignoring any Upgrade Module of any rarity.
+> Dostępny jest także przycisk **Automatyczne Złomowanie**, który znajdziesz po kliknięciu przycisku rozwijania po prawej stronie ikony filtrowania. Automatyczne złomowanie obejmuje wyłącznie wyposażenie jakości Common lub Trash i pomija moduły ulepszeń każdej jakości.
 
-> Every item that the player can scrap will yield **Tech Scrap** in return. However, some item does give you other items such as **Medical Tech Parts** (which can only be gained by scrapping **Pain Away**) or **Ammunition Tech Parts** (which can only be gained by scrapping either **Anti Matter Charge** or **Energy Cell**). Not only that, some items (such as Pain Away and **Equipment Caches**) aren't guaranteed to yield either Tech Scrap or Med Tech, with a 50% chance to yield one.
+> Każdy przedmiot, który można zezłomować, zapewnia w zamian **Złom Technologiczny**. Niektóre przedmioty dają jednak inne przedmioty, takie jak **Skrawki Technologii Medycznej** (zdobywane wyłącznie przez złomowanie **Po Bólu**) lub **Komponenty techniczne amunicji** (zdobywane wyłącznie przez złomowanie **Ładunku Antymaterii** albo **Ogniwa Energetycznego**). Ponadto niektóre przedmioty, takie jak Po Bólu i **schematy wyposażenia**, nie gwarantują otrzymania Złomu Technologicznego ani Skrawków Technologii Medycznej — szansa na otrzymanie jednego z nich wynosi 50%.
 
-> To get rid of other items that are not scrappable, you can click on the **Destroy** button. Destroyed items will not give you anything in return, so be cautious when performing this action.  
+> Aby pozbyć się innych przedmiotów, których nie można złomować, kliknij przycisk **Zniszcz**. Zniszczone przedmioty nie zwrócą ci niczego, dlatego zachowaj ostrożność podczas wykonywania tej czynności.  
 
-## Item Inbox
-Items that other players send (or sent back from **Player Market** & claimed from **Daily Reward**) will automatically be placed in your **Item Inbox**. Once you have enough space in your inventory, they will be moved automatically to your inventory by clicking **Get All Items** option. Keep in mind that items stored in Item Inbox will expire in 7 days if not claimed. 
+## Skrzynka na przedmioty
+Przedmioty wysłane przez innych graczy (lub zwrócone z **Rynku graczy**, a także odebrane jako **Codzienna Nagroda**) trafią do sekcji **Skrzynka na Przedmioty**. Gdy w ekwipunku będzie wystarczająco dużo miejsca, zostaną automatycznie przeniesione do ekwipunku po kliknięciu opcji **Weź Wszystkie Przedmioty**. Pamiętaj, że nieodebrane przedmioty w sekcji Skrzynka na Przedmioty wygasają po 7 dniach.
 
-## Crafting
-Crafting allows you to craft different types of items such as **Medicine**, **Ammo**, **Item Ingredient**, and other consumables (such as **Hash Processor** and **AI Core**).  
+## Tworzenie
+Tworzenie pozwala wytwarzać różne rodzaje przedmiotów, takie jak lekarstwa, amunicja, składniki przedmiotów i inne materiały zużywalne (np. **Procesor Haszujący** oraz **Rdzeń SI**).  
 
-On Medical Tab, most heal item relies on **Medical Tech Parts** and **Medical Science Level** to craft one. For example, to craft 4 Nano Medic Bot, players need to have 8 Medical Tech Parts while also on a Medical Science level 30 (or higher). Some heal items will also require **Tech Scrap** in order to make a **Medical Drone** version of it. For example, in order to make Nano Medic Drone, players must have both Nano Medic Bot and Tech Scrap on their inventory (while also on a Medical Science level 40 (or higher)). 
+Na karcie **Med** większość przedmiotów leczniczych wymaga do wytworzenia **Skrawków Technologii Medycznej** i odpowiedniego poziomu **Nauk medycznych**. Na przykład, aby wytworzyć 4 Nano Boty Medyczne, trzeba mieć 8 Skrawków Technologii Medycznej oraz Nauki medyczne na poziomie 30 (lub wyższym). Niektóre przedmioty lecznicze wymagają także **Złomu Technologicznego**, aby utworzyć ich wersję **Drona Medycznego**. Na przykład do stworzenia Nano Drona Medycznego potrzebujesz Nano Bota Medycznego i Złomu Technologicznego w ekwipunku oraz Nauk medycznych na poziomie 40 (lub wyższym).
 
-On Ammo Tab, each ammo requires a different ingredient to craft. For **Energy Cells**, a player must have **Ammunition Tech Parts** to make one, and as for **Anti Matter Charge**, plater must have **Military Ammunition Tech Parts**. Players can also make Military Ammunition Tech Parts by combining a minimum of 20 Ammunition Tech Parts to make one. Since there are only two types of ammo, the role of **Ammo Crafting Skill** revolves around the ammo quantity that the player can get per 10 levels. For example, on Ammo Crafting Level 20, players can get 3 Energy Cells for every 1 Ammunition Tech Parts (3:1 ratio), and by level 30, players will get 1 more Energy Cells with the same amount of Ammunition Tech Parts. The same case applies to making Anti Matter Charge.   
+Na karcie **Amunicja** każda amunicja wymaga innego składnika. Do wytworzenia **Ogniw Energetycznych** potrzebne są **Komponenty techniczne amunicji**, a do wytworzenia **Ładunku Antymaterii** — **Wojskowe części do ammo**. Możesz także wytworzyć Wojskowe części do ammo, łącząc co najmniej 20 Komponentów technicznych amunicji. Ponieważ istnieją tylko dwa rodzaje amunicji, **Wytwarzanie amunicji** określa liczbę sztuk amunicji otrzymywanych co 10 poziomów. Na przykład na 20. poziomie Wytwarzania amunicji za 1 Komponent techniczny amunicji otrzymasz 3 Ogniwa Energetyczne (stosunek 3:1), a na poziomie 30 otrzymasz o 1 Ogniwo Energetyczne więcej za tę samą liczbę Komponentów technicznych amunicji. To samo dotyczy tworzenia Ładunku Antymaterii.   
 
-On Material Tab, players can craft **Hash Processor** and **AI Core** for their needs. Specifically for AI Core, it is advisable for players to level up their Mining Skills to level 190 first to get an even crafting rate (20 Hash Processor : 20 AI Core) as lower-level AI crafting aren't profitable while consuming even more ingredient than it's needed. This doesn't apply to Hash Processor crafting as it's always at the same rate.  
+Na karcie **Materiały** możesz wytwarzać **Procesor Haszujący** i **Rdzeń SI**. W przypadku Rdzenia SI zaleca się najpierw podnieść **Umiejętność górniczą** do poziomu 190, aby uzyskać równy stosunek tworzenia (20 Procesorów Haszujących : 20 Rdzeni SI). Tworzenie Rdzeni SI na niższych poziomach nie jest opłacalne, ponieważ zużywa więcej składników, niż potrzeba. Nie dotyczy to tworzenia Procesorów Haszujących, które zawsze odbywa się w tym samym stosunku.  
 
-In summary, as you level up the relevant skills (Medical Science, Ammo Crafting, and Mining Skill), you will unlock new recipes and become more proficient, allowing you to craft more and better items.
+Podsumowując: wraz z rozwijaniem odpowiednich umiejętności (Nauk medycznych, Wytwarzania amunicji i Umiejętności górniczej) odblokujesz nowe receptury i zwiększysz swoje umiejętności, dzięki czemu będziesz w stanie tworzyć więcej lepszych przedmiotów.

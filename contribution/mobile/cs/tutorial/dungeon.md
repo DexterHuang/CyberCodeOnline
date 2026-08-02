@@ -1,114 +1,114 @@
-## Dungeons
+## Dungeony
 
-Dungeons are one of the game features that allow a player to delve into cyberspace to fight mobs and bosses. These activities will result in giving players EXP (Experience), BTC (Bitcoin), and loot or rewards, as the reward itself ranges from trash tier gear up to epic tier gear (and or caches).
+Dungeony jsou jednou z herních funkcí, které hráčům umožňují ponořit se do kyberprostoru a bojovat s moby a bossy. Tyto aktivity přinášejí EXP (zkušenosti), BTC (Bitcoin) a kořist nebo odměny, přičemž odměna sahá od vybavení třídy Trash až po vybavení třídy Epic (a/nebo schémata).
 
-Dungeons were designed as a player-versus-enemy (or PvE) format, with the player itself can join other players' dungeon (as long as it's public [normal or challenge dungeon] or in the same gang [gang dungeon]). When in the same dungeon, all players will have a different pool of rewards or loot, making it accessible for all players.
+Dungeony byly navrženy jako režim hráč proti nepříteli (PvE), přičemž do dungeonu se může připojit i jiný hráč (pokud je veřejný [normální nebo challenge dungeon] nebo je ve stejném gangu [gang dungeon]). Když jsou hráči ve stejném dungeonu, každý má vlastní sadu odměn nebo kořisti, takže je dungeon přístupný všem.
 
-### Types of Dungeons
+### Typy dungeonů
 
 ![DungeonTypes](/resources/mobile-tutorial/DungeonTypes.png)
 
-There are three types of dungeons that players can enter, as follows:
+Hráči mohou vstoupit do tří typů dungeonů:
 
--   Normal Dungeon: This dungeon includes a key fragment (which can be found in the **Treasure Room**), and relatively easy-to-beat mobs.
--   Challenge Dungeon: Same as Normal Dungeon, but with more challenging mobs. This time, **Bosses** were added to the **Treasure Room**
--   Gang Dungeon: Exclusive to only gang members; 4x-5x more rewarding than Challenge Dungeon, with even more challenging mobs. Players were recommended to only enter the Gang Dungeon after level 50 & with proper gear (Legendary+)
+-   Normal Dungeon: Tento dungeon obsahuje fragment klíče (který lze najít v **Treasure Room**) a moby, které lze porazit poměrně snadno.
+-   Challenge Dungeon: Stejný jako Normal Dungeon, ale s náročnějšími moby. Tentokrát byli do **Treasure Room** přidáni i **Bosses**.
+-   Gang Dungeon: Určený pouze pro členy gangu; odměňuje 4x-5x více než Challenge Dungeon a má ještě náročnější moby. Doporučuje se vstupovat až po úrovni 50 a s pořádným vybavením (Legendary+).
 
-### Creating / Joining a Dungeon
+### Vytvoření / připojení k dungeonu
 
-When creating a dungeon, select the dungeon that the player wants to create. Players can name it and choose to make it Public or Private. Players can also limit the accessibility of the dungeon by adding an additional password to the space. Public Dungeons are available for everyone to see and join (if players met the area & level requirements) by accessing the list of dungeons (which can be found on Phone Icon > Dungeon List).
+Při vytváření dungeonu vyberte dungeon, který chcete vytvořit. Můžete mu dát jméno a zvolit, zda bude veřejný nebo soukromý. Dungeon lze také omezit přidáním hesla. Veřejné dungeony jsou viditelné a přístupné všem, kteří splní požadavky oblasti a úrovně, přes seznam dungeonů (který najdete přes ikonu telefonu > **Seznam dungeonů**).
 
-Password-protected dungeons can be seen by other players but they cannot join unless they know the password. This is useful if players want to clear a dungeon with specific friends. Share the password in Gang chat or through Mail.
+Dungeony chráněné heslem ostatní hráči uvidí, ale nepřipojí se k nim, pokud heslo neznají. To je užitečné, když chcete projít dungeon s konkrétními přáteli. Heslo sdílejte v gangovém chatu nebo přes Mail.
 
 ![DungeonCoop3](/resources/mobile-tutorial/DungeonCoop3.png)
 
-If players rather joined an existing dungeon, players can press the floating phone icon at the bottom right of the in-game screen, then select the buildings icon (Dungeon List) to view a list of open dungeons, as shown above in the screenshots.
+Pokud se chcete raději připojit k existujícímu dungeonu, klepněte na plovoucí ikonu telefonu v pravém dolním rohu hry a poté vyberte ikonu budov (**Seznam dungeonů**), abyste zobrazili seznam otevřených dungeonů, jak je vidět na obrázcích výše.
 
-At the top left & right of each dungeon panel, players can find the name of the dungeon, and also the types of it. Each panel includes information about the dungeon, followed by the area's name, level requirements, the key fragment that players can obtain, and the number of players that are connected to the same dungeon. Players can choose to join a fresher dungeon to gain more EXP or enter empty dungeons to claim their loot.
+V levém a pravém horním rohu každého panelu dungeonu najdete název dungeonu a také jeho typ. Každý panel obsahuje informace o dungeonu, název oblasti, požadavky na úroveň, fragment klíče, který lze získat, a počet hráčů připojených ke stejnému dungeonu. Hráči si mohou vybrat novější dungeon a získat více EXP, nebo vstoupit do prázdných dungeonů a sebrat kořist.
 
 ![DungeonCoop](/resources/mobile-tutorial/DungeonCoop.png)
 
-As shown in the images above, there are several players in the same dungeon. The rules are the same regardless of how many players are in a dungeon; the only difference is that players can help each other out. When using heals, players may use the AOE (or Area of Effect) items (such as Pain Away Spray) to heal both players themselves and their co-op partners. Players can see everyone's health bars above the player icons. Players may also help their dungeon buddies by killing the enemy, as the HPs of dungeons enemies are shared by the whole co-op.
+Jak ukazují obrázky výše, ve stejném dungeonu může být více hráčů. Pravidla jsou stejná bez ohledu na to, kolik hráčů je uvnitř; jediný rozdíl je, že si mohou navzájem pomáhat. Při léčení mohou hráči používat předměty s plošným účinkem (AOE), jako je Pain Away Spray, aby vyléčili sebe i své spoluhráče. Zdraví všech hráčů je vidět nad jejich ikonami. Hráči si také mohou pomáhat zabíjením nepřátel, protože HP nepřátel v dungeonu sdílí celá skupina.
 
-When an enemy is killed with the help of a friend, everyone who dealt 20% or more damage is given EXP and a chance for a reward (Bosses drops are guaranteed), as long as their level isn't too high for the mob. All crates and loot are unique to each player, so players don't need to worry about sharing loot or having yours stolen. Grab everything players want and discard the rest!
+Když nepřítele zabijete s pomocí přítele, každý, kdo způsobil 20 % nebo více poškození, získá EXP a šanci na odměnu (drop z bossů je zaručen), pokud jeho úroveň není na daného moba příliš vysoká. Všechny bedny a kořist jsou jedinečné pro každého hráče, takže se nemusíte bát sdílení kořisti ani toho, že vám ji někdo ukradne. Seberte vše, co chcete, a zbytek vyhoďte!
 
 ![DungeonCoop2](/resources/mobile-tutorial/DungeonCoop2.png)
 
- In this image, at the bottom under the `[Quit Dungeon]` button, players will find a button labeled `[Send Invite to Global Chat]`. This will send an invite to the global chat (excluding Gang Dungeon; it will send to Gang Chat instead) so others can join easily by clicking on the message. Anyone around players' level can join and help players out as long as they are within 10 levels below or 12 levels above players' dungeon. Players can also click on messages from other players to join their dungeon.
+  Na tomto obrázku hráči dole pod tlačítkem `[Quit Dungeon]` najdou tlačítko `[Send Invite to Global Chat]`. To pošle pozvánku do globálního chatu (s výjimkou Gang Dungeon; tam se pošle do gangového chatu), aby se ostatní mohli snadno připojit kliknutím na zprávu. Připojit a pomoci může kdokoli v podobné úrovni, pokud je maximálně 10 úrovní pod nebo 12 úrovní nad úrovní vašeho dungeonu. Hráči mohou také kliknout na zprávy jiných hráčů a připojit se k jejich dungeonu.
 
-After a player dies or leaves, they cannot rejoin the dungeon. The dungeon will still be open until the last person in the dungeon itself were leaving or dies.
+Po smrti nebo odchodu už se hráč nemůže do dungeonu znovu připojit. Dungeon zůstane otevřený, dokud z něj neodejde nebo nezemře poslední osoba.
 
-## Entrance and Icons
+## Vstup a ikony
 
 ![DungeonEntranceUsed](/resources/mobile-tutorial/DungeonEntranceUsed.png)
 
-Here players can see the first room of a dungeon. There are many/few doors that will take players to another room in the dungeon. Players can find these doors on all sides of the dungeon rooms. Players cannot enter a new room until players have killed all enemies in the current room.
+Zde hráči vidí první místnost dungeonu. V místnosti je několik dveří, které vedou do dalších místností dungeonu. Tyto dveře najdete na všech stranách místností. Do nové místnosti nelze vstoupit, dokud nezabijete všechny nepřátele v aktuální místnosti.
 
-Whenever a player enters another room, the doors that the player enters will change their white-looking color into a greyed-out color, indicating that they have been entered before. The same thing can be said with loot crates, containers, quests, and lore, as players have interacted with them. This is essential to not get lost while exploring the dungeon.
+Kdykoli hráč vstoupí do další místnosti, dveře, kterými prošel, změní svou bílou barvu na šedou, což značí, že už jimi prošel. Totéž platí pro bedny s kořistí, kontejnery, úkoly i lore, se kterými hráč interagoval. To je důležité, aby se člověk při průzkumu dungeonu neztratil.
 
-### Enemies
+### Nepřátelé
 
 ![DungeonEnemies](/resources/mobile-tutorial/DungeonEnemies.png)
 
-At most, a normal mob room will consist of 3 to 4 alien-looking icons spread across the room (unless it's a Treasure Room, which will have at least 5 or more mobs inside [including 1 Boss]), and these are represented as the enemies inside the dungeon, and players have to defeat them before proceeding to the next room or accessing the crates in the same room.
+Normální místnost s moby se obvykle skládá ze 3 až 4 ikon vypadajících jako mimozemšťané rozmístěných po místnosti (pokud to není **Treasure Room**, která bude mít uvnitř alespoň 5 nebo více mobů [včetně 1 bosse]). Tyto ikony představují nepřátele v dungeonu a hráči je musí porazit, než budou pokračovat do další místnosti nebo otevřou bedny ve stejné místnosti.
 
 ![DungeonFight](/resources/mobile-tutorial/DungeonFight.png)
 
-Rules are slightly different in the dungeons when players fight enemies. Players will have a row of buttons above players' attack options which players can assign to usable items from players' inventory. Players should assign medical items to this Hotbar since players' health doesn't regenerate automatically after each fight (unless the player had a **Regen** built on their stats/gear).
+Pravidla jsou v dungeonech při boji s nepřáteli trochu jiná. Hráči mají nad možnostmi útoku řadu tlačítek, na která si mohou přiřadit použitelné předměty z inventáře. Na tento hotbar by si měli přiřadit léčivé předměty, protože zdraví se po každém boji samo neregeneruje (pokud hráč nemá ve statistikách nebo vybavení aktivovaný **Regen**).
 
-Players can also `Escape` the fight by clicking the **Escape** button on the top left of the in-game screen. The success rate of players escaping is based on players' `escape` stats.
+Hráči mohou také z boje utéct kliknutím na tlačítko **Útěk** vlevo nahoře na herní obrazovce. Úspěšnost útěku se odvíjí od hráčovy statistiky **Šance úniku**.
 
-### Quest Giver (?)
+### Zadavatel úkolu (?)
 
 ![DungeonGoodguy](/resources/mobile-tutorial/DungeonGoodguy.png)
 
-Here, players can see the question mark (?) icon, indicating a quest if players choose to accept it. Players can find one quest giver per dungeon, and they are usually placed randomly in one of the rooms.
+Zde hráči vidí ikonu otazníku (?), která značí úkol, pokud se ho rozhodnou přijmout. V každém dungeonu je jeden zadavatel úkolu, obvykle náhodně umístěný v jedné z místností.
 
 ![DungeonGoodguy2](/resources/mobile-tutorial/DungeonGoodguy2.png)
 
-Here is an example of the dialogue that pops up after clicking on the '?'. They will ask for items in return for other items or power-ups. It is up to players to decide if the trade is worthwhile; however, if players can afford it, it is usually worth accepting for the extra EXP players gain from completing it. Some of the text on this screen is randomly generated from a file, so players may get odd or funny references (if it makes any sense at all).
+Zde je příklad dialogu, který se zobrazí po kliknutí na `?`. Zadavatel požádá o předměty výměnou za jiné předměty nebo posílení. Je na hráčích, aby rozhodli, zda se výměna vyplatí; pokud si to ale mohou dovolit, většinou stojí za to ji přijmout kvůli dalším EXP, které hráč získá dokončením. Část textu na této obrazovce se náhodně generuje ze souboru, takže se mohou objevit podivné nebo vtipné narážky (pokud to vůbec dává smysl).
 
 ### Lore (!)
 
 ![DungeonLoreguy](/resources/mobile-tutorial/DungeonLoreguy.png)
 
-There are exclamation marks (!) dotted around dungeons that provide snippets of the game lore. These don't have an impact on players' game or the dungeon but may be interesting to read.
+V dungeonech jsou rozmístěné vykřičníky (!), které poskytují úryvky herního lore. Nemají vliv na samotnou hru ani dungeon, ale může být zajímavé si je přečíst.
 
-### Treasure / Boss Room
+### Pokladnice / Boss Room
 
 ![DungeonBossTreasureCoop](/resources/mobile-tutorial/DungeonBossTreasureCoop.png)
 
-This room is special, as players can tell from the increased number of crates & have at least 5 or more mobs inside. The crate that looks like a window contains a key fragment that can be used for crafting Secret Keys that unlock new areas.
+Tato místnost je zvláštní, poznáte ji podle většího počtu beden a toho, že uvnitř má alespoň 5 nebo více mobů. Bedna, která vypadá jako okno, obsahuje fragment klíče, který lze použít k výrobě tajných klíčů a odemykání nových oblastí.
 
-In this screenshot, players might see that these other players were "solo" -ing the dungeon. This may be plausible on a higher level, but in a lower level or gangmates context, players were advised to do a dungeon with at least 2 or more players, as there are many benefits in doing a co-op dungeon, such as time-efficient dungeon clearing and loot sharing.
+Na tomto snímku obrazovky si hráči mohou všimnout, že ostatní hráči dungeon procházejí „solo“. U vyšších úrovní to může být proveditelné, ale v nižších úrovních nebo mezi členy gangu se doporučuje dělat dungeon alespoň ve dvou, protože kooperativní dungeon má mnoho výhod, například rychlejší vyčištění dungeonu a sdílení kořisti.
 
 ### Dungeon Lingo
 
-**Dungeon Lingo** or abbreviation is one of few ways for players to communicate with their dungeon buddies in order to navigate them towards a goal (in this case, are finding the **Treasure Room** & its **Bosses** inside their dungeon). Here are a few lingoes that most players were frequently used during their dungeon sessions:
+**Dungeon Lingo**, neboli zkratky, jsou jedním z mála způsobů, jak mohou hráči komunikovat se svými dungeonovými parťáky a navigovat je k cíli (v tomto případě najít **Treasure Room** a její **Bosses** uvnitř dungeonu). Zde je několik výrazů, které hráči během dungeonové session často používají:
   
-| Lingo | Description |
+| Lingo | Popis |
 |--|--|
-| [number] | Indicate the number of doors inside the dungeon (ex. 0) |
-| [direction] | Indicate the players next location; stated that there's another door inside (ex. R [/ Right])  |
-| [number] [direction] | Indicate the amount of doors of stated direction (ex. 0 R) |
-| DE  | Indicate that player found a **Dead End**, meaning that there's no door nearby (except the ones that the player enters) |
-| BR | Indicate that there's a **Treasure / Bosses Room** inside players location |
-| B  | Indicate that player found the boss |
-| B [type] | Indicate that player found the boss while stating the types of it (ex. B Agile) |
-| G | Indicate that players hit the requirement of getting Bosses reward (20% or more) |
-| G? | Confirming to other players if they have already reach the requirement |
-| M / Minigame | Indicate that players were facing a minigame at the moment |
-| OMW  | "On My Way (towards a certain goal)" |
-| BRT | "Be Right There (towards a certain goal)" |
+| [number] | Označuje počet dveří uvnitř dungeonu (např. 0) |
+| [direction] | Označuje další lokaci hráčů a říká, že v daném směru jsou další dveře (např. R [/ Right])  |
+| [number] [direction] | Označuje počet dveří v uvedeném směru (např. 0 R) |
+| DE  | Označuje, že hráč našel **Dead End**, tedy že poblíž nejsou žádné další dveře (kromě těch, kterými hráč vstoupil) |
+| BR | Označuje, že se v lokaci hráče nachází **Treasure / Bosses Room** |
+| B  | Označuje, že hráč našel bosse |
+| B [type] | Označuje, že hráč našel bosse a zároveň uvedl jeho typ (např. B Agile) |
+| G | Označuje, že hráč splnil podmínku pro získání odměny z bosse (20 % nebo více) |
+| G? | Potvrzení ostatním hráčům, zda už podmínku splnili |
+| M / Minigame | Označuje, že hráči právě čelí minihře |
+| OMW  | „On My Way“ (jsem na cestě k určitému cíli) |
+| BRT | „Be Right There“ (hned tam budu) |
 
-### Minigame
+### Minihra
 
-Once in a while, a minigame will show up after defeating an enemy, when trying to loot a box, or when entering another room, to insinuate a variety of dungeon dwellings. At the current state (as of 11-02-2022 / v.0780 Update), there's only 1 minigame that's been implemented to the game, called **Color Scheme Minigame**.
+Občas se po poražení nepřítele, při pokusu o otevření bedny nebo při vstupu do další místnosti objeví minihra, aby dungeon působil pestřeji. V současném stavu (k 11-02-2022 / aktualizace v.0780) je do hry implementována jen 1 minihra, nazvaná **Color Scheme Minigame**.
 
 ![DungeonMinigame1](/resources/mobile-tutorial/DungeonMinigame1.png)
 
-The minigame itself consists of 3 colors (red, green, and yellow; with added symbols as an accessibility add-on) that need to be clicked on in sequence (40 times) in 60 seconds. Players can also see the upcoming 2 colors as thinner color strips.
+Samotná minihra se skládá ze 3 barev (červené, zelené a žluté; navíc se symboly pro přístupnost), na které je potřeba klikat ve správném pořadí (40krát) během 60 sekund. Hráči také vidí další 2 barvy jako tenčí barevné proužky.
 
 ![DungeonMinigameFail1](/resources/mobile-tutorial/DungeonMinigameFail1.png)
 
-Failing a minigame will result in a `DECRYPTION FAILED` screen, stating that a player failed to pick a correct color in sequence. Players are able to redo the minigame by clicking the **Try Again** button.
+Neúspěch v minihře vede na obrazovku `DECRYPTION FAILED`, která oznámí, že hráč nedokázal správně vybrat barvy ve správném pořadí. Hráč může minihru zkusit znovu kliknutím na tlačítko **Try Again**.

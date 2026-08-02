@@ -1,28 +1,32 @@
-## Gangs
-Gangs are a great way to join forces with your friends.  Members gain the ability to access gang headquarters, dungeons, and chat. Gangs can be created and joined once you're level 3.  Creating a gang costs 50,000BTC and then has a weekly upkeep fee of resources and BTC.  
+# Gang
+**Gang** adalah cara yang bagus untuk bekerja sama dengan teman-teman Anda. Anggota dapat mengakses markas gang, dungeon, dan chat. Anda dapat membuat atau bergabung dengan gang setelah mencapai level 3. Membuat gang membutuhkan biaya 50,000BTC dan biaya pemeliharaan mingguan berupa Resources dan BTC.
 
-## Gang HQ
-The gang headquarters show your gang level, necessary upkeep, amount of members, and control over Shangri-La.  It also has new AFK tasks and an automatic recycler.  
+## Markas Gang (Gang HQ)
+Markas gang menampilkan level gang, pemeliharaan yang diperlukan, jumlah anggota, dan kendali atas Shangri-La. Markas ini juga memiliki tugas-tugas AFK baru dan **Automatic Recycler**.  
 
-Gang level impacts how many members can be in a gang.  To level up, collect gang Exp with the AFK tasks 'Gather Gang Resource' and 'Decrypt Memory Shard'.  There is a leaderboard for gangs, ranked by level.
+Level gang memengaruhi jumlah anggota yang dapat dimiliki sebuah gang. Untuk menaikkan level, kumpulkan Gang EXP dengan melakukan AFK Task seperti **Gather Gang Resource** dan **Decrypt Memory Shard**. Gang juga memiliki leaderboard khusus, yang diurutkan berdasarkan level gang.
 
-There's a weekly upkeep due for all gangs. If the upkeep quota isn't met, the gang will be automatically disbanded.  Upkeep amounts are based on the number of members the gang has -- so the more members there are, the more resources and BitCoin are needed.  Minimize the amount of inactive players in your gang to keep upkeep goals lower.
+Semua gang memiliki kewajiban pemeliharaan mingguan. Jika kuota pemeliharaan tidak terpenuhi, gang akan dibubarkan secara otomatis. Jumlah pemeliharaan didasarkan pada jumlah anggota gang; semakin banyak anggotanya, semakin banyak Resources dan BitCoin yang dibutuhkan. Minimalkan jumlah pemain tidak aktif dalam gang Anda agar target pemeliharaan tetap rendah.
 
-Occupation gives gangs control over different areas of Shangri-La.  If a gang is in the top two gangs on the Occupation Leaderboard, those members have access to a task called 'Collect Protection Fees'.  Control is gained by performing the 'Reinforce Occupation at Shangri-La' task, which consumes one gang supply crate.  It is recommended to discuss with your gang whether you want to gather occupation points or not.
+## Kendali Wilayah (Occupation Control)
+Occupation memungkinkan gang mengendalikan berbagai area di Shangri-La. Jika sebuah gang berada di dua peringkat teratas pada **Occupation Leaderboard**, anggotanya dapat mengakses tugas khusus bernama **Collect Protection Fees**. Kendali Occupation diperoleh dengan menjalankan **Reinforce Occupation at Shangri-La** Task, yang mengonsumsi satu gang supply crate. Anda disarankan berdiskusi dengan gang Anda apakah ingin mengumpulkan poin occupation atau tidak.
 
-The automatic recycler will break down various items like med tech or caches into tech scrap. This can be an efficient way to create tech scrap.  Each item that's being recycled has a different timer and tech scrap payout, so be sure to consider the return on tech scrap and time.  
+## Pendaur Ulang Teknologi (Tech Recycler)
+**Automatic Recycler** akan menguraikan berbagai item seperti Med Tech, Millitary Ammo Tech Parts, atau Caches menjadi Tech Scrap. Ini dianggap sebagai salah satu cara paling efisien untuk mendapatkan Tech Scrap dan menghasilkan Tech Scrap dengan rasio yang lebih tinggi. Karena Recycler dihitung sebagai AFK Task, pemain perlu mempertimbangkan durasi tugas berdasarkan jumlah item yang perlu diubah menjadi Tech Scrap. Selain itu, beberapa item (seperti Cache) menghasilkan hingga x4 Tech Scrap per cache, tetapi waktu tugasnya lebih lama daripada Med Tech dan Millitary Ammo (yang hanya menghasilkan x1.2 per item).
 
-The final AFK task available to gang members is 'Hack SL Data Fortress'.  This task uses Protocal Breach Shards to make progress on the SL-Data Fortress Breach.  Total progress can be seen in the Quest tab.  When a Breach has been completed, a global buff will go into effect.  
+## Meretas Benteng (Hack Into Fortress)
+AFK Task terakhir yang tersedia bagi anggota gang adalah **Hack SL Data Fortress**. Tugas ini menggunakan **Protocol Breach Shards** untuk membuat kemajuan pada SL-Data Fortress Breach. Kemajuan total dapat dilihat di tab Quest. Setelah Breach selesai, Global Buff acak berdurasi 20 menit akan mulai berlaku.
 
-## Gang Dungeons
-Gang dungeon consumes a Gang Invasion Order Transmitter when being created.  After the dungeon has been created, anyone in the gang can join, regardless of their level. Enemies are 4-5x stronger than regular enemies and give 2x the exp.  Bosses are guaranteed to drop a Rare Locked Container, Rare equipment, and some Gang Supply Crates.
+## Dungeon Gang
+Pembuatan dungeon gang mengonsumsi **Gang Invasion Order Transmitter**. Setelah dungeon dibuat, siapa pun di dalam gang dapat bergabung, tanpa memandang levelnya. Musuh 4-5x lebih kuat daripada musuh biasa dan memberikan EXP 2x. Bos dijamin menjatuhkan **Rare Locked Container**, perlengkapan Rare, dan **Gang Supply Crates**.
 
-As Gang Leader, you will have 3 additional options when visiting one of your gang members' profiles:
- - [KICK] - you can kick the gang member from the gang;
- - [PERMISSIONS] - here you can grant permissions to the gang member:
-   - Invite - it allows the gang member to invite other players to the gang;
-   - Kick  - it allows the gang member to kick other gang members;
-   - Manage - it allows the gang member to add or remove other gang members' permissions.
- - [TRANSFER LEADERSHIP] - you can set another gang member as the leader in case you don't want to be the leader anymore or want to leave the gang.
+## Opsi Gang
+Sebagai Gang Leader, Anda memiliki 3 opsi tambahan saat mengunjungi profil salah satu anggota gang Anda:
+  - [KICK] : Anda dapat mengeluarkan anggota gang tersebut dari gang;
+  - [PERMISSIONS] : di sini Anda dapat memberikan izin kepada anggota gang:
+    - Invite : memungkinkan anggota gang tersebut mengundang pemain lain ke gang;
+    - Kick  : memungkinkan anggota gang tersebut mengeluarkan anggota gang lain;
+    - Manage : memungkinkan anggota gang tersebut menambah atau menghapus izin anggota gang lain.
+  - [TRANSFER LEADERSHIP] - Anda dapat menetapkan anggota gang lain sebagai pemimpin jika tidak ingin lagi menjadi pemimpin atau ingin meninggalkan gang.
 
-Also as the Leader, in the Gang chat, if you click on the numbers of players in the gang on the top right, you will be able to [DELETE GANG] there.
+Sebagai Leader juga, di chat Gang, jika Anda mengeklik jumlah pemain dalam gang di kanan atas, Anda dapat memilih [DELETE GANG] di sana.

@@ -1,241 +1,246 @@
-# Resources
-Every item has it's own purposes, ranging from ranging from **Equipment** (which also includes **Upgrade Modules** and **Equipment Caches**), **Ammo**, **Medical Items**, **Crafting Ingredients**, **Key Fragment / Secret Keys**, **Global Boost**, and other consumables. Here are some items that are catalogued onto it's respective category.
+# Zasoby
+Każdy przedmiot ma własne zastosowanie — od **wyposażenia** (w tym **modułów ulepszeń** i **schematów wyposażenia**), przez **amunicję**, **przedmioty medyczne**, **składniki rzemieślnicze**, **fragmenty kluczy / tajne klucze** i **globalne wzmocnienia**, po inne materiały zużywalne. Poniżej opisano przedmioty uporządkowane według kategorii.
 
 
-## Ammo (for weapons)
+## Amunicja (dla broni)
 
-### Energy Cells  
-Your **Special Weapon** uses **Energy Cells**. You can find Energy Cells as drops after winning fights or by crafting them using Ammunition Tech Parts. You can carry a maximum of 10000 Energy Cells at a time.
+### Ogniwa Energetyczne  
+Twoja **Broń Specjalna** używa **Ogniw Energetycznych**. Ogniwa Energetyczne mogą wypaść po wygranej walce albo zostać wytworzone z Komponentów technicznych amunicji. Jednocześnie możesz przenosić maksymalnie 10000 Ogniw Energetycznych.
 
-### Anti Matter Charge 
-Your **Destructive Weapon** uses **Anti Matter Charge**. You can find them as drops (less often than Energy Cells) or by crafting them from Military Ammunition Tech Parts. You can carry a maximum of 10000 Antimatter Charges at a time.
-
-
-## Equipment
-
-### Gears / Upgrade Module
-On your inventory, both **Equipment** and **Upgrade Module** were treated as a unique item thus it takes one inventory space per item (even with a same item name / rarity / quality). At this point, it's recommended to put your unused gear onto Bank Storage. Selling or scrapping unused gear were also an option to conserve inventory space.
-
-You can choose when to equip a gear by choosing the **Equip** button. Equipped gear will be highlighted at the top of the inventory page. By clicking on gears, you can also choose to install upgrade modules that will enhance certain values of that item. To remove installed upgrade modules, simply click on the installed module. Better rarity & quality equipment will have more upgrade slots.
-
-You can get both Gear and Upgrade Module as a boss / crate drops in Dungeon, via printing in **Molecular 3D Printer**, as a **Daily Rewards**, or by buying one on either NPC Market (**Weapon Smith**) or Players Market (**Shangri-La Market Street**).  
-
-### Equipment Caches
-On your Inventory, all **Equipment Caches** were grouped based on their rarity and types of caches. You can stock as many caches as you want with a maximum of 10000 items per type of cache.
-
-In order to use (or which we'll refer to as "Print" later on) one, a player must visit **Molecular 3D Printer** which can be found in **Shangri-La City Center**. Not only that, a player must have their BTC on its character in order to print one. The price of printing equipment caches was ranged based on both rarity and Printing Skills level.
-
-You can get both Equipment as a boss / crate drops in Dungeon, via **Deploy Farm Bot** task, or by buying one on Players Market (**Shangri-La Market Street**). 
+### Ładunek Antymaterii 
+Twoja **Broń Niszczycielska** używa **Ładunku Antymaterii**. Przedmioty te wypadają rzadziej niż Ogniwa Energetyczne albo można je wytworzyć z Wojskowych części do ammo. Jednocześnie możesz przenosić maksymalnie 10000 Ładunków Antymaterii.
 
 
-## Tech Parts
-Tech Parts are an item ingredient to craft corresponding items via Crafting tab that's located in your Inventory menu. Tech Parts can be used for other dedicated tasks or even converted into other types of tech scrap.
+## Wyposażenie
 
-### Ammunition Tech Parts
-One of the item ingredients to craft **Energy Cells** and **Military Ammunition Tech Parts**.
+### Wyposażenie / moduły ulepszeń
+W ekwipunku zarówno **wyposażenie**, jak i **moduły ulepszeń** są traktowane jako unikalne przedmioty, dlatego każdy zajmuje jedno miejsce (nawet jeśli ma tę samą nazwę, rzadkość i jakość co inny przedmiot). Warto przechowywać nieużywane wyposażenie w magazynie bankowym. Sprzedaż lub złomowanie nieużywanego wyposażenia również pozwala zaoszczędzić miejsce w ekwipunku.
 
-Other Ammunition Tech Parts usage is as follows:
-- Can be recycled to yield Tech Scrap (which can be done in **Gang Headquarters**)
-- Tradeable items that players can buy / sell to other players via **Player Trade**
+Możesz założyć wyposażenie, wybierając przycisk **Załóż**. Założone wyposażenie zostanie wyróżnione u góry strony ekwipunku. Klikając wyposażenie, możesz także zainstalować moduły ulepszeń, które zwiększają wybrane wartości przedmiotu. Aby usunąć zainstalowany moduł, po prostu go kliknij. Wyposażenie o lepszej rzadkości i jakości ma więcej miejsc na ulepszenia.
 
-### Military Ammunition Tech Parts
-One of the item ingredients to craft **Anti Matter Charge** and **Hash Processor**.
+Wyposażenie i moduły ulepszeń można zdobyć jako łupy z bossa lub skrzyni w lochu, wydrukować w **Molekularnej drukarce 3D**, otrzymać jako **Codzienną Nagrodę** albo kupić u NPC, czyli u **Rusznikarza**, lub na **Rynku graczy** (**Targu ulicznym Shangri-La**).  
 
-Other Military Ammunition Tech Parts usage is as follows:
-- Can be recycled to yield Tech Scrap (which can be done in **Gang Headquarters**)
-- Tradeable items that players can buy / sell to other players via **Player Trade**
+### Schematy wyposażenia
+W ekwipunku wszystkie **schematy wyposażenia** są pogrupowane według rzadkości i typu. Możesz przechowywać dowolną liczbę schematów, maksymalnie 10000 przedmiotów danego typu.
 
-### Medical Tech Parts
-One of the item ingredients to craft **Healing Items** and **Hash Processor**.
+Aby użyć schematu (co dalej będziemy nazywać „drukowaniem”), odwiedź **Molekularną drukarkę 3D** w **Centrum Miasta Shangri-La**. Ponadto BTC potrzebne do drukowania musi znajdować się przy twojej postaci. Cena drukowania schematów wyposażenia zależy od ich rzadkości oraz rangi drukowania.
 
-Other Medical Tech Parts usage is as follows:
-- Can be recycled to yield Tech Scrap (which can be done in **Gang Headquarters**)
-- Tradeable items that players can buy / sell to other players via **Player Trade**
-
-### Tech Scrap
-One of the item ingredients to craft **Drone Healing** items, Hash Processor, and AI Core. 
-
-Other Tech Scrap usage is as follows:
-- Initialize **Reverse Engineering** task (which can be found in **Shangri-La Commercial Area**)
-- An item / requirements to open Locked Container (which can be found in **Terminal**)
-- An item / requirements to trade Backpack (which can be done in **Lee's Trade Post**)
-- Tradeable items that players can buy / sell to other players via **Player Trade**
+Wyposażenie można zdobyć jako łup z bossa lub skrzyni w lochu, dzięki zadaniu **Deploy Farm Bot** albo kupić na **Rynku graczy** (**Targu ulicznym Shangri-La**). 
 
 
-## Medical / Healing Items
-Players can use **Medical Tech Parts** and **Tech Scrap** to craft medicine for use in dungeons. In order to craft better medicine, players need to improve their medical science levels which can be done by performing the associated job training or by crafting medicine. Furthermore, better medicine requires players to use more Medical Tech Parts. For example, the lowest level medicine that can be crafted is the Pain Away for 1 Medical Tech Part while the Degraded Nano Repair Bot needs 2 Medical Tech Parts and a medical science level of 10.  
+## Części techniczne
+Części techniczne to składniki przedmiotów używane do tworzenia odpowiednich przedmiotów na karcie **Tworzenie** w menu Ekwipunku. Można ich używać także do innych zadań lub przetwarzać w inne rodzaje złomu technicznego.
+
+### Komponenty techniczne amunicji
+Jeden ze składników używanych do tworzenia **Ogniw Energetycznych** i **Wojskowych części do ammo**.
+
+Pozostałe zastosowania Komponentów technicznych amunicji:
+- można je przetworzyć na Złom Technologiczny (w **Siedzibie Gangu**);
+- można nimi handlować — gracze mogą je kupować i sprzedawać podczas wymiany między graczami.
+
+### Wojskowe części do ammo
+Jeden ze składników używanych do tworzenia **Ładunku Antymaterii** i **Procesora Haszującego**.
+
+Pozostałe zastosowania Wojskowych części do ammo:
+- można je przetworzyć na Złom Technologiczny (w **Siedzibie Gangu**);
+- można nimi handlować — gracze mogą je kupować i sprzedawać podczas wymiany między graczami.
+
+### Skrawki Technologii Medycznej
+Jeden ze składników używanych do tworzenia **przedmiotów leczniczych** i **Procesora Haszującego**.
+
+Pozostałe zastosowania Skrawków Technologii Medycznej:
+- można je przetworzyć na Złom Technologiczny (w **Siedzibie Gangu**);
+- można nimi handlować — gracze mogą je kupować i sprzedawać podczas wymiany między graczami.
+
+### Złom Technologiczny
+Jeden ze składników używanych do tworzenia przedmiotów leczniczych w wersji dronów, Procesora Haszującego i Rdzenia SI. 
+
+Pozostałe zastosowania Złomu Technologicznego:
+- rozpoczęcie zadania **inżynierii wstecznej** (dostępnego w **Centrum Zadań**);
+- przedmiot/wymaganie potrzebne do otwierania zamkniętych pojemników (w **Terminalu**);
+- przedmiot/wymaganie potrzebne do wymiany na **plecak** (w **Lee's Trading Post**);
+- przedmiot, którym można handlować — gracze mogą go kupować i sprzedawać podczas **wymiany między graczami**.
+
+
+## Przedmioty medyczne / lecznicze
+Gracze mogą używać **Skrawków Technologii Medycznej** i **Złomu Technologicznego** do tworzenia lekarstw na potrzeby lochów. Aby tworzyć lepsze lekarstwa, trzeba rozwijać poziom Nauk medycznych, wykonując powiązane zadania szkoleniowe albo wytwarzając lekarstwa. Lepsze lekarstwa wymagają także większej liczby Skrawków Technologii Medycznej. Na przykład najniższym lekarstwem, które można wytworzyć, jest **Po Bólu** za 1 Skrawek Technologii Medycznej, natomiast **Podniszczony Nano Bot Naprawczy** wymaga 2 Skrawków Technologii Medycznej oraz Nauk medycznych na poziomie 10.  
   
-There are two categories of medicine that can be crafted which are **Single Heals** and **Group Heals**. Further information as follows:
+Tworzone lekarstwa dzielą się na dwie kategorie: **leczenie pojedyncze** i **leczenie grupowe**. Więcej informacji znajduje się poniżej:
 
-### Single Heals  
-As the name suggests, single heals will only heal yourself for the specified amount. Single heal medicines are items such as Pain Away and anything ending with Bot (e.g. Nano Medic Bot). In order to craft single heals, you need the specified medical science level and Medical Tech Parts.  
+### Leczenie pojedyncze  
+Jak sama nazwa wskazuje, leczenie pojedyncze leczy tylko ciebie o określoną wartość. Należą do niego między innymi **Po Bólu** oraz wszystkie przedmioty kończące się w nazwie na „Bot” (np. **Nano Bot Medyczny**). Do tworzenia leczenia pojedynczego potrzebujesz wskazanego poziomu Nauk medycznych i Skrawków Technologii Medycznej.  
 
-In general, the healing item / heal amount / medical level requirement / med tech amount as follows:
+Ogólny zestaw informacji — przedmiot leczniczy / liczba leczonych punktów zdrowia / wymagany poziom Nauk medycznych / liczba Skrawków Technologii Medycznej — wygląda następująco:
 
-> **Pain Away** (501+ Health) - No Level ; 1 Med Tech
+> **Po Bólu** (501+ Zdrowia) - Bez poziomu ; 1 Skrawek Technologii Medycznej
 
-> **Degraded Nano Repair Bot** (1201+ Health) - Med Science 10 ; 2 Med Tech
+> **Podniszczony Nano Bot Naprawczy** (1201+ Zdrowia) - Nauki medyczne 10 ; 2 Skrawki Technologii Medycznej
 
-> **Degraded Nano Medic Bot** (6001+ Health) - Med Science 20 ; 4 Med Tech
+> **Podniszczony Nano Bot Medyczny** (6001+ Zdrowia) - Nauki medyczne 20 ; 4 Skrawki Technologii Medycznej
 
-> **Nano Medic Bot** (12001+ Health) - Med Science 30 ; 8 Med Tech
+> **Nano Bot Medyczny** (12001+ Zdrowia) - Nauki medyczne 30 ; 8 Skrawków Technologii Medycznej
 
-> **Military Nano Medic Bot** (26001+ Health) - Med Science 40 ; 16 Med Tech
+> **Wojskowej Klasy Nano Bot Medyczny** (26001+ Zdrowia) - Nauki medyczne 40 ; 16 Skrawków Technologii Medycznej
 
-> **Advanced Nano Medic Bot**  (54001+ Health) - Med Science 50 ; 32 Med Tech
+> **Zaawansowany Nano Bot Medyczny**  (54001+ Zdrowia) - Nauki medyczne 50 ; 32 Skrawki Technologii Medycznej
 
-> **High Quality Nano Medic Bot** (110001+ Health)- Med Science 70 ; 64 Med Tech
+> **Wysokiej Jakości Nano Bot Medyczny** (110001+ Zdrowia)- Nauki medyczne 70 ; 64 Skrawki Technologii Medycznej
 
-> **Rare Nano Medic Bot** (240001+ Health) - Med Science 90 ; 128 Med Tech
+> **Rzadki Nano Bot Medyczny** (240001+ Zdrowia) - Nauki medyczne 90 ; 128 Skrawków Technologii Medycznej
 
-> **Legendary Nano Medic Bot** (480001+ Health) - Med Science 110 ; 256 Med Tech
+> **Legendarny Nano Bot Medyczny** (480001+ Zdrowia) - Nauki medyczne 110 ; 256 Skrawków Technologii Medycznej
 
-> **Epic Nano Medic Bot** (1000001+ Health) - Med Science 130 ; 256 Med Tech
+> **Epicki Nano Bot Medyczny** (1000001+ Zdrowia) - Nauki medyczne 130 ; 256 Skrawków Technologii Medycznej
 
-### Group Heals  
-Group heals can heal the entire group in a dungeon when used but will heal each person less than single heals of the same tier. Group heals are items such as Pain Away Spray and anything ending with Drone (e.g. Nano Medic Drone). In order to craft group heals, you need the same level single heal and the associated number of Tech Scrap. For instance, to make Pain Away Spray you need 1 Pain Away and 1 Tech Scrap. 
+### Leczenie grupowe  
+Leczenie grupowe może po użyciu leczyć całą grupę w lochu, ale leczy każdą osobę słabiej niż leczenie pojedyncze tego samego poziomu. Należą do niego między innymi **Sprej Po Bólu** oraz wszystkie przedmioty kończące się w nazwie na „Dron” (np. **Nano Dron Medyczny**). Do tworzenia leczenia grupowego potrzebujesz leczenia pojedynczego tego samego poziomu oraz odpowiedniej liczby Złomu Technologicznego. Na przykład do stworzenia **Spreju Po Bólu** potrzebujesz 1 **Po Bólu** i 1 Złomu Technologicznego. 
 
-In general, the healing item / heal amount / medical level requirement / healing item & tech scrap amount as follows:
+Ogólny zestaw informacji — przedmiot leczniczy / liczba leczonych punktów zdrowia / wymagany poziom Nauk medycznych / liczba przedmiotów leczniczych i Złomu Technologicznego — wygląda następująco:
 
-> **Pain Away Spray** (301+ Health) - Med Science 10 ; 1 Pain Away & 1 Tech Scrap
+> **Sprej Po Bólu** (301+ Zdrowia) - Nauki medyczne 10 ; 1 Po Bólu & 1 Złom Technologiczny
 
-> **Degraded Repair Drone** (901+ Health) - Med Science 20 ; 1 Degraded Nano Repair Bot & 1 Tech Scrap
+> **Podniszczony Dron Naprawczy** (901+ Zdrowia) - Nauki medyczne 20 ; 1 Podniszczony Nano Bot Naprawczy & 1 Złom Technologiczny
 
-> **Degraded Nano Medic Drone** (4001+ Health) - Med Science 30 ; 1 Degreaded Nano Medic Bot & 1 Tech Scrap
+> **Podniszczony Nano Dron Medyczny** (4001+ Zdrowia) - Nauki medyczne 30 ; 1 Podniszczony Nano Bot Medyczny & 1 Złom Technologiczny
 
-> **Nano Medic Drone** (10001+ Health) - Med Science 40 ; 1 Nano Medic Bot & 1 Tech Scrap
+> **Nano Dron Medyczny** (10001+ Zdrowia) - Nauki medyczne 40 ; 1 Nano Bot Medyczny & 1 Złom Technologiczny
 
-> **Military Nano Medic Drone** (20001+ Health) - Med Science 50 ; 1 Military Nano Medic Bot & 1 Tech Scrap
+> **Wojskowy Nano Dron Medyczny** (20001+ Zdrowia) - Nauki medyczne 50 ; 1 Wojskowej Klasy Nano Bot Medyczny & 1 Złom Technologiczny
 
-> **Advanced Nano Medic Drone** (40001+ Health) - Med Science 60 ; 1 Advanced Nano Medic Bot & 1 Tech Scrap
+> **Zaawansowany Nano Dron Medyczny** (40001+ Zdrowia) - Nauki medyczne 60 ; 1 Zaawansowany Nano Bot Medyczny & 1 Złom Technologiczny
 
-> **High Quality Nano Medic Drone** (80001+ Health) - Med Science 80 ; 1 High Quality Nano Medic Bot & 1 Tech Scrap
+> **Wysokiej Jakości Nano Dron Medyczny** (80001+ Zdrowia) - Nauki medyczne 80 ; 1 Wysokiej Jakości Nano Bot Medyczny & 1 Złom Technologiczny
 
-> **Rare Nano Medic Drone** (160001+ Health) - Med Science 100 ; 1 Rare Nano Medic Bot & 1 Tech Scrap
+> **Rzadki Nano Dron Medyczny** (160001+ Zdrowia) - Nauki medyczne 100 ; 1 Rzadki Nano Bot Medyczny & 1 Złom Technologiczny
 
-> **Legendary Nano Medic Drone** (320001+ Health) - Med Science 120 ; 1 Legendary Nano Medic Bot & 1 Tech Scrap
+> **Legendarny Nano Dron Medyczny** (320001+ Zdrowia) - Nauki medyczne 120 ; 1 Legendarny Nano Bot Medyczny & 1 Złom Technologiczny
 
-> **Epic Nano Medic Drone** (640001+ Health) - Med Science 140 ; 1 Epic Nano Medic Bot & 1 Tech Scrap
-
-
-## Consumables
-These are an item that players can use for various needs, ranging from AFK Task, Market Item, Trade Item, or just a plain consumable.
-
-### AI Core
-**AI Cores** are essential for players as a way to gain Character EXP, a Market-value item, and Trade Currency. 
-
-- For EXP purposes, players can use it on the highest unlocked area on Station via **Deploy Farm Bot** task. 
-- For Market purposes, players can sell these items on **Shangri-La Market Street**, following current market prices. 
-- For Trade purposes, players can trade their AI Cores for various items with other players such as Medical Tech Parts, Hash Processor, Containers, etc. 
-
-### Hash Processor
-**Hash Processor** are essential for players as a way to gain Mining EXP, a Market-value item, and Trade Currency.  
-
-- For EXP purposes, players can use it on **Shangri-La Commercial Area** via **Crypto Mining** task. 
-- For Market purposes, players can sell these items on **Shangri-La Market Street**, following current market prices. 
-- For Trade purposes, players can trade their Hash Processor for various items with other players such as Medical Tech Parts, AI Cores, Containers, etc. 
-
-### Experience Memory / Shard
-**Experience Memory / Shard** is an item that players can use to gain EXP instantly. The difference between Memory & Shard was the type of EXP, as Memory gains Character EXP and Shard gains Skills EXP respectively. These items are not tradable and best to be used when **Frontal Cortex Optimization Transmitter** or **EXP Buff** were in effect.
-
-### Containers
-**Containers** are essential for players as an alternative way of finding AI / Hash Processor, a Market-value item, and Trade Currency.  
-
-To open Locked Containers, players must visit **Terminal** while having BTC and Tech Scrap in its inventory. When opening Containers, players will mostly find items such as AI Core, Hash Processor, Gear (based on players level), and unique drop which can only be found on specific Containers.
-
-Players can also use Container as a Market item or as Trade Currency, which both benefits players via BTC or other traded items.
-
-### Equipment Calibration Core
-**Equipment Calibration Core** was used as a calibration item. Whenever a player attempts to do calibration, players must insert Equipment Calibration Core before proceeding to gear calibration. Explanation around Calibration can be found on [Calibration's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
-
-Players can also use Equipment Calibration Core as a Market item or as Trade Currency, which both benefit players via BTC or other traded items.
-
-### Factory Reset Shard
-**Factory Shard** was used as a way to reset calibration, thus players can trade / sell the designated gear. Explanation around Calibration can be found on [Calibration's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
-
-Players can also use Factory Shard as a Market item or as Trade Currency, which both benefit players via BTC or other traded items.
+> **Epicki Nano Dron Medyczny** (640001+ Zdrowia) - Nauki medyczne 140 ; 1 Epicki Nano Bot Medyczny & 1 Złom Technologiczny
 
 
-## Gang Items
-These are an item that players can use for gang needs, ranging from AFK Task, Trade Item, or as a requirement to do a certain activity. For in-depth explanation around Gangs can be found on [Gang's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fgangs.md)
+## Materiały zużywalne
+Są to przedmioty, których gracze mogą używać do różnych celów: zadań AFK, sprzedaży na rynku, wymiany lub zwykłego zużycia.
 
-### Supply Crate
-**Supply Crates** were used as a way to gain Gang Resources & Gang EXP. To do so, players must do Gang Task which involves using Supply Crates as a requirement (these certain tasks will also give players Mining EXP). Supply Crates can also be used as a way to "define gang territory" by doing **Occupation Control** task, as this will give the gang a certain **Occupation Point** with no contribution to Gang Resources.
+### Rdzeń SI
+**Rdzenie SI** są dla graczy ważne jako sposób zdobywania EXP postaci, przedmiot o wartości rynkowej oraz waluta wymiany. 
 
-Supply Crates are tradeable and can be sold or traded with other players.
+- Aby zdobywać EXP, możesz używać ich na najwyższym odblokowanym obszarze stacji w zadaniu **Deploy Farm Bot**.
+- Na potrzeby rynku możesz sprzedawać je na **Targu ulicznym Shangri-La** po aktualnych cenach rynkowych.
+- W ramach wymiany możesz wymieniać Rdzenie SI z innymi graczami na różne przedmioty, takie jak Skrawki Technologii Medycznej, Procesor Haszujący, pojemniki itd.
 
-### Encrypted Gang Memory Shard
-**Encrypted Gang Memory Shard** was used as a way to gain Gang EXP. To do so, players must do Gang Task which involves using Encrypted Gang Memory Shard as a requirement (these certain tasks will also give players Mining EXP & Equipment Drops).
+### Klaster Rdzeni SI
+**Klaster Rdzeni SI** to skompresowana wersja SI. 1 Klaster Rdzeni SI zawiera 1,000 Rdzeni SI, dzięki czemu jest łatwiejszy do przechowywania w ekwipunku. Klaster Rdzeni SI można utworzyć (wymaga 1,000 Rdzeni SI i 50,000 BTC) oraz rozłożyć na części za pomocą Tworzenia.
 
-Encrypted Gang Memory Shard are tradeable and can be sold or traded with other players.
+Klaster Rdzeni SI może być także przedmiotem o wartości rynkowej i walutą wymiany.
 
-### Protocol Breach Shard
-**Protocol Breach Shard** was used as a way to contribute to **SL-Data Fortress Breach** (which player can see its progression on **Quest** tab). To contribute to one, players must do Gang Task which involves using Protocol Breach Shard as a requirement.
+### Procesor Haszujący
+**Procesory Haszujące** są dla graczy ważne jako sposób zdobywania EXP wydobywania, przedmiot o wartości rynkowej oraz waluta wymiany.  
 
-Protocol Breach Shard are tradeable and can be sold or traded with other players.
+- Aby zdobywać EXP, możesz używać ich w **Shangri-La Commercial Area** w zadaniu **Kopanie Kryptowalut**.
+- Na potrzeby rynku możesz sprzedawać je na **Targu ulicznym Shangri-La** po aktualnych cenach rynkowych.
+- W ramach wymiany możesz wymieniać Procesory Haszujące z innymi graczami na różne przedmioty, takie jak Skrawki Technologii Medycznej, Rdzenie SI, pojemniki itd.
 
-### Gang Invasion Order Transmitter
-**Gang Invasion Order Transmitter** was used as a way to enter **Gang Dungeons**. When entering one, keep in mind that Gang Dungeons are the most difficult dungeon of all, thus having proper gear might help ease out the difficulty.
+### Pamięć doświadczenia / odłamek
+**Pamięć doświadczenia / odłamek** to przedmiot, który pozwala natychmiast zdobyć EXP. Różnica między pamięcią a odłamkiem polega na rodzaju doświadczenia: pamięć zapewnia EXP postaci, a odłamek zapewnia EXP umiejętności. Przedmioty te nie mogą być wymieniane i najlepiej używać ich, gdy aktywny jest **Przetwornik Optymalizacji Kory Czołowej** lub **wzmocnienie EXP**.
 
-Gang Invasion Order Transmitters are tradeable and can be sold or traded with other players.
+### Pojemniki
+**Pojemniki** są dla graczy ważne jako alternatywny sposób zdobywania Rdzeni SI i Procesorów Haszujących, a także jako przedmioty o wartości rynkowej i waluta wymiany.  
+
+Aby otworzyć zamknięte pojemniki, odwiedź **Terminal**, mając przy sobie BTC i Złom Technologiczny. Po otwarciu pojemników najczęściej znajdziesz takie przedmioty jak Rdzeń SI, Procesor Haszujący, wyposażenie (zależne od poziomu gracza) oraz unikalny łup dostępny wyłącznie w określonych pojemnikach.
+
+Pojemniki można także wykorzystywać jako przedmioty rynkowe lub walutę wymiany, co pozwala zdobywać BTC albo inne wymieniane przedmioty.
+
+### Rdzeń Kalibracji Sprzętu
+**Rdzeń Kalibracji Sprzętu** służy do kalibracji. Za każdym razem, gdy gracz próbuje przeprowadzić kalibrację, musi włożyć Rdzeń Kalibracji Sprzętu przed rozpoczęciem kalibracji wyposażenia. Wyjaśnienie kalibracji znajdziesz w [samouczku kalibracji](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
+
+Rdzeń Kalibracji Sprzętu można także wykorzystywać jako przedmiot rynkowy lub walutę wymiany, aby zdobywać BTC albo inne przedmioty.
+
+### Fragment Resetu do Ustawień Fabrycznych
+**Fragment Resetu do Ustawień Fabrycznych** służy do resetowania kalibracji, dzięki czemu wybrany element wyposażenia można ponownie wymieniać lub sprzedawać. Wyjaśnienie kalibracji znajdziesz w [samouczku kalibracji](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
+
+Fragment Resetu do Ustawień Fabrycznych można także wykorzystywać jako przedmiot rynkowy lub walutę wymiany, aby zdobywać BTC albo inne przedmioty.
 
 
-## Boosts
-While most **Boost** can be purchased in the **Arasaka Unit Exchange**, some of the boost below can only be found on specific places and cannot be bought on any store.
+## Przedmioty gangu
+Są to przedmioty wykorzystywane na potrzeby gangu — do zadań AFK, wymiany lub jako wymagania określonych aktywności. Szczegółowe wyjaśnienie dotyczące gangów znajdziesz w [samouczku gangów](https://cybercodeonline.com/markdown?path=tutorial%2Fgangs.md)
 
-### Synaptic Acceleration Transmitter
-This item will boost how quickly AFK time passes by +5% for 10 minutes, stackable up to +80%. You can use another to extend the duration of the boost, resetting the timer. To make use of the boost, you just need to begin an AFK session while the boost is active. This item is global and will affect and stack with other player. This does not stack with the rare version. This item can only be found on both **Dungeon's Boss Room crates** and **Pachinko**.
+### Skrzynia z Zaopatrzeniem [Gang]
+**Skrzynie z Zaopatrzeniem [Gang]** służą do zdobywania zasobów gangu i EXP gangu. W tym celu trzeba wykonywać zadania gangu, które wymagają użycia skrzyń z zaopatrzeniem (niektóre z tych zadań zapewniają także EXP wydobywania). Skrzynie z zaopatrzeniem mogą również służyć do „wyznaczania terytorium gangu” poprzez zadanie **Kontrola okupacji**, ponieważ zapewnia ono gangowi określony **punkt okupacji** bez zwiększania zasobów gangu.
 
-### Personal Calibration Shard
-This item can only be used as a personal needs. It only affects for 5 minutes with a purpose of minimize the chance of calibration failure by 5% (or 50% if player stumble upon the **Personal Event** variation). The personal ones does not stack with the global ones. It stacks infinitely and not affected with other players.  This item can only be found on **Rare Container**. Explanation around Calibration can be found on [Calibration's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
+Skrzynie z zaopatrzeniem można wymieniać oraz sprzedawać lub przekazywać innym graczom.
+
+### Szyfrowany Odłamek Pamięci Gangstera
+**Szyfrowany Odłamek Pamięci Gangstera** służy do zdobywania EXP gangu. W tym celu trzeba wykonywać zadania gangu, które wymagają użycia szyfrowanego odłamka pamięci (niektóre z tych zadań zapewniają także EXP wydobywania i łupy wyposażenia).
+
+Szyfrowany odłamek pamięci można wymieniać oraz sprzedawać lub przekazywać innym graczom.
+
+### Odłamek Naruszenia Protokołu
+**Odłamek Naruszenia Protokołu** służy do zwiększania postępu **włamania do SL-Data Fortress** (postęp można sprawdzić w zakładce **Zadania**). Aby zwiększyć postęp, trzeba wykonać zadanie gangu, które wymaga użycia odłamka naruszenia protokołu.
+
+Odłamek naruszenia protokołu można wymieniać oraz sprzedawać lub przekazywać innym graczom.
+
+### Nadajnik Rozkazu Inwazji Gangów
+**Nadajnik Rozkazu Inwazji Gangów** służy do wchodzenia do lochów gangu. Pamiętaj, że lochy gangu są najtrudniejszymi lochami, dlatego odpowiednie wyposażenie może znacznie ułatwić rozgrywkę.
+
+Nadajniki rozkazu inwazji gangów można wymieniać oraz sprzedawać lub przekazywać innym graczom.
+
+
+## Wzmocnienia
+Większość wzmocnień można kupić w **Arasaka Unit Exchange**, ale niektóre z poniższych wzmocnień można znaleźć wyłącznie w określonych miejscach i nie można ich kupić w żadnym sklepie.
+
+### Nadajnik Przyspieszenia Synaptycznego
+Przedmiot przyspiesza upływ czasu AFK o +5% przez 10 minut, a efekt można kumulować do +80%. Możesz użyć kolejnego nadajnika, aby przedłużyć działanie wzmocnienia i zresetować licznik. Aby skorzystać z efektu, rozpocznij sesję AFK, gdy wzmocnienie jest aktywne. Przedmiot działa globalnie i wpływa na innych graczy oraz kumuluje się z ich efektami. Nie kumuluje się z rzadką wersją. Można go znaleźć wyłącznie w skrzyniach w pomieszczeniu bossa lochu i w Pachinko.
+
+### Osobisty odłamek kalibracji
+Ten przedmiot służy wyłącznie do osobistego użytku. Działa przez 5 minut i ma zmniejszać szansę niepowodzenia kalibracji o 5% (lub o 50%, jeśli gracz trafi na wariant **Personal Event**). Wersje osobiste nie kumulują się z globalnymi. Kumulują się bez ograniczeń i nie zależą od innych graczy. Ten przedmiot można znaleźć wyłącznie w rzadkim pojemniku. Wyjaśnienie kalibracji znajdziesz w [samouczku kalibracji](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
 
 ### CyberTunnel VPN
-This item will negates all chat exploits for 1 hour. It can only be used as a personal needs and not affected by other players. This item can be found on **Rare / Mysterious Container** and via Unit purchase on **Arasaka Unit Exchange**.
+Przedmiot ten neguje wszystkie exploity czatu przez 1 godzinę. Można go używać wyłącznie osobiście, a jego działanie nie zależy od innych graczy. Można go znaleźć w **rzadkim / tajemniczym pojemniku** albo kupić za Units w **Arasaka Unit Exchange**.
 
 
-## Global Boosts
-These items can only be purchased in the **Arasaka Unit Exchange**. The effects are global and will give everyone the benefits based on its buffs.
+## Globalne wzmocnienia
+Te przedmioty można kupić wyłącznie w **Arasaka Unit Exchange**. Ich działanie jest globalne, więc wszyscy otrzymują korzyści wynikające z aktywnego wzmocnienia.
 
-### Rare Synaptic Acceleration Transmitter
-These are similar to regular Synaptic Acceleration Transmitters but don't stack with them. The rare version will instantly boost how quickly AFK time passes by +40% for 20 minutes, stackable to +80%. You can use another to extend the duration of the boost, thus resetting the timer. To make use of the boost, you just need to begin an AFK session while the boost is active. This item is global and will affect and stack with other players.
+### Rzadki Nadajnik Przyspieszenia Synaptycznego
+Działa podobnie do zwykłych Nadajników Przyspieszenia Synaptycznego, ale nie kumuluje się z nimi. Rzadka wersja natychmiast przyspiesza upływ czasu AFK o +40% przez 20 minut, a efekt można kumulować do +80%. Możesz użyć kolejnego nadajnika, aby przedłużyć działanie wzmocnienia i zresetować licznik. Aby skorzystać z efektu, rozpocznij sesję AFK, gdy wzmocnienie jest aktywne. Przedmiot działa globalnie i wpływa na innych graczy oraz kumuluje się z ich efektami.
 
-### Transaction Exploit Transmitter
-This item affects globally and is used to boost BitCoin. Each Transaction Exploit Transmitter will provide a +40% boost to BitCoin gain for 20 minutes while stacking maxes out at 100%. You can use another to extend the duration of the boost, thus resetting the timer.
+### Transmiter Exploitu Transakcji
+Przedmiot działa globalnie i służy do zwiększania zdobywanych BitCoinów. Każdy Transmiter Exploitu Transakcji zapewnia +40% do zdobywanych BitCoinów przez 20 minut, a maksymalna wartość kumulacji wynosi 100%. Możesz użyć kolejnego nadajnika, aby przedłużyć działanie wzmocnienia i zresetować licznik.
 
-### Frontal Cortex Optimization Transmitter
-This item affects globally and is used to boost EXP gains. Each Frontal Cortex Optimization Transmitter will provide a +80% boost to EXP gain for 20 minutes. Stacking does nothing other than resetting it's timer due to it's max boost. You can use another to extend the duration of the boost, thus resetting the timer.
+### Przetwornik Optymalizacji Kory Czołowej
+Przedmiot działa globalnie i służy do zwiększania zdobywanego EXP. Każdy Przetwornik Optymalizacji Kory Czołowej zapewnia +80% do zdobywanego EXP przez 20 minut. Kumulowanie nie zwiększa efektu ponad maksimum, a jedynie resetuje jego licznik. Możesz użyć kolejnego nadajnika, aby przedłużyć działanie wzmocnienia i zresetować licznik.
 
-### Calibration Shard
-This item affects globally. It only affects for 5 minutes with a purpose to minimize the chance of calibration failure (ranging from 10% to 300%). It only stacks twice with each rarity (for example, the 10% (or called Rare Shard) can only stack with the other 10% and not with other variations such as 50% or even 100%). Explanation around Calibration can be found on [Calibration's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
+### Odłamek kalibracji
+Przedmiot działa globalnie. Przez 5 minut zmniejsza szansę niepowodzenia kalibracji (od 10% do 300%). Każdą rzadkość można kumulować tylko dwa razy (na przykład wariant 10% (nazywany Rare Shard) można połączyć wyłącznie z innym wariantem 10%, a nie z wariantem 50% ani 100%). Wyjaśnienie kalibracji znajdziesz w [samouczku kalibracji](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
 
-### Safety Nano Calibration Bot
-This item affects globally. It only affects for 5 minutes with a purpose to negate calibration failure (up to 100%). It stacks with other Safety Nano. Explanation around Calibration can be found on [Calibration's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
+### Nano Boty Bezpiecznej Kalibracji
+Przedmiot działa globalnie. Przez 5 minut niweluje niepowodzenie kalibracji (do 100%). Kumuluje się z innymi Nano Botami Bezpiecznej Kalibracji. Wyjaśnienie kalibracji znajdziesz w [samouczku kalibracji](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
 
 ### Chat Exploit
-This item does not give the player any benefits aside from altering chat text. It affects globally and can be interrupted by using **CyberTunnel VPN**. The Chat Exploit itself has a variety of alterations ranging from UwU (which UwU-ifies the text) up to Pirate (which alters the text into pirate speak).
+Przedmiot nie daje graczowi żadnych korzyści poza zmianą tekstu czatu. Działa globalnie i można go przerwać za pomocą **CyberTunnel VPN**. Chat Exploit ma różne warianty, od UwU (zmieniającego tekst na styl UwU) po Pirate (zmieniającego tekst na styl piracki).
 
 ### RNG Interferer
-This item affects the drop percentage of **Legendary Container** (the effect only applies AFTER the buff starts and not before). When opening Legendary Container during the buff, it affects both Legendary (by 1%) & Epic (by 0.5%) drop percentage while also dropping additional item / loot to the table. These additional drop does not affect the probability of gaining either Legendary / Epic gear in the first place. It only affects for 2 minutes and affects globally.
+Przedmiot wpływa na procentową szansę wypadnięcia **Legendary Container** (efekt działa DOPIERO po rozpoczęciu wzmocnienia, a nie wcześniej). Podczas otwierania Legendary Container w czasie działania wzmocnienia zwiększa szansę na Legendary o 1% i na Epic o 0.5%, a także dodaje dodatkowy przedmiot/łup do tabeli. Dodatkowe przedmioty nie wpływają na pierwotne prawdopodobieństwo zdobycia wyposażenia Legendary lub Epic. Przedmiot działa przez 2 minuty i globalnie.
 
 
-## Modifiers
-**Modifiers**. These modifiers can only be found in the dungeon, by picking up **Quest Giver** that is represented by `?` symbol. For full modifier list, can be found on [Combat's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcombat.md)
+## Modyfikatory
+Modyfikatory można znaleźć wyłącznie w lochu, podnosząc **zleceniodawcę zadania** oznaczonego symbolem `?`. Pełną listę modyfikatorów znajdziesz w [samouczku walki](https://cybercodeonline.com/markdown?path=tutorial%2Fcombat.md)
 
-Type / kinds of Modifiers can be summarized as follows:
+Rodzaje modyfikatorów można podsumować następująco:
 
 ### Overcharged
-**Overcharged** affects player's damage within a span amount of time. The damage modifiers ranged from +5% (**Overcharged I**) up to +25% (**Overcharged V**)
+**Overcharged** wpływa na obrażenia gracza przez określony czas. Modyfikator obrażeń wynosi od +5% (**Overcharged I**) do +25% (**Overcharged V**).
 
 ### Reinforced
-**Reinforced** affect player's defence within a span amount of time. The defence modifiers ranged from +5% (**Reinforced I**) up to +25% (**Reinforced V**)
+**Reinforced** wpływa na obronę gracza przez określony czas. Modyfikator obrony wynosi od +5% (**Reinforced I**) do +25% (**Reinforced V**).
 
 ### Shield Enhance  
-**Shield Enhance** affect player's shield multiplier within a span amount of time. The shield multiplier modifiers ranged from +5% (**Shield Enhance I**) up to +25% (**Shield Enhance V**)
+**Shield Enhance** wpływa na mnożnik tarczy gracza przez określony czas. Modyfikator mnożnika tarczy wynosi od +5% (**Shield Enhance I**) do +25% (**Shield Enhance V**).
 
 
-## Global Time Skips
-Although these aren't items, players can also purchase global skips from their AFK screen (the Map tab when an AFK task is in progress). Skippers can choose from a range of 15 minutes to 180 minutes to skip. The time skips work with boosts, so it's more cost-efficient to use skips when boosts are already running.
+## Globalne pominięcia czasu
+Chociaż nie są to przedmioty, gracze mogą także kupować globalne pominięcia na ekranie AFK (na karcie Mapy, gdy trwa zadanie AFK). Skipperzy mogą wybrać pominięcie od 15 do 180 minut. Pominięcia czasu działają razem ze wzmocnieniami, dlatego bardziej opłaca się ich używać, gdy wzmocnienia są już aktywne.
 
-As with all other paid items, time skips apply to everyone on the server. However, since they skip time immediately, only players who have started AFK tasks before the button is pressed will receive the benefit. Often it can be helpful to coordinate in global chat so player are ready to tag along.
+Tak jak wszystkie inne płatne przedmioty, pominięcia czasu dotyczą wszystkich graczy na serwerze. Ponieważ jednak natychmiast pomijają czas, korzyść otrzymają tylko gracze, którzy rozpoczęli zadania AFK przed naciśnięciem przycisku. Często warto uzgodnić to na czacie globalnym, aby inni gracze byli gotowi dołączyć.
 
-The benefit is also applied to all AFK players one-by-one, so it may take 1 ~ 3 minutes for the effects to apply for everyone. Most regular skippers will recommend waiting around 1 minute after the skip button becomes available again, and purchasing 30-minute skips is the most popular choice when boosts are also running.
+Korzyść jest także przyznawana wszystkim graczom AFK po kolei, dlatego zastosowanie efektu u wszystkich może zająć 1 ~ 3 minuty. Większość stałych Skipperów zaleca odczekać około 1 minuty po ponownym pojawieniu się przycisku pominięcia, a zakup 30-minutowych pominięć jest najpopularniejszym wyborem, gdy działają również wzmocnienia.

@@ -1,34 +1,34 @@
-# Inventory
-You can access your **Inventory** by clicking the option at the bottom menu bar. In your inventory, you can see all items that you own, ranging from **Equipment** (which also includes **Upgrade Modules** and **Equipment Caches**), **Ammo**, **Medical Items**, **Crafting Ingredients**, **Key Fragment / Secret Keys**, **Global Boost**, and other consumables. By clicking on the item, you can see the details and lores of that item respectively.
+# Інвентар
+Ви можете відкрити **Інвентар**, натиснувши відповідний пункт у нижній панелі меню. В інвентарі видно всі предмети, які ви маєте: **спорядження** (до нього також належать **модулі покращення** та **схеми спорядження**), **набої**, **медичні предмети**, **інгредієнти для виготовлення**, **фрагменти ключів / секретні ключі**, **глобальні бафи** та інші витратні предмети. Натиснувши на предмет, ви побачите його деталі та опис.
 
-Explanation about item / resources, can be found on [Resource's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md)
+Пояснення щодо предметів і ресурсів можна знайти в [туторіалі про ресурси](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md)
 
 
-## Functionality on Inventory
-Here's a few tips that players can utilize around inventory feature, as follows:
+## Функції інвентаря
+Ось кілька порад щодо роботи з інвентарем:
 
-> By clicking the icons above your inventory list, you can filter out specific items. This option ranged from alphabetical sort up to item filter.
+> Натискаючи на іконки над списком інвентаря, ви можете відфільтрувати потрібні предмети. Доступні як сортування за абеткою, так і фільтрування за типом предмета.
 
-> You will start with 50 inventory slots; equipping **Backpack** or gear / upgrade modules with **pocket** stat will give you more inventory space. 
+> На старті у вас буде 50 слотів інвентаря; рюкзак або спорядження / модулі покращення зі статом **Кишеня** дадуть вам більше місця в інвентарі. 
 
-> To get rid of equipment and upgrade modules, you can click on the item itself and then on the **Scrap** button. Alternatively, you can hold click on one item, select every item you want to scrap, then press the **Scrap** button that will appear at the top left of the item list. 
+> Щоб позбутися спорядження та модулів покращення, натисніть на сам предмет, а потім кнопку **на брухт**. Або ж затисніть один предмет, виберіть усі предмети, які хочете розібрати, а потім натисніть кнопку **на брухт**, що з'явиться у верхньому лівому куті списку предметів. 
 
-> There's a dedicated **Auto Scrap** button which players can find by clicking the dropdown button on the right side of the filter icon. Auto Scrap will only be scrapping Common or Trash rarity gear while ignoring any Upgrade Module of any rarity.
+> Є окрема кнопка **Автоматична переробка**, яку можна знайти, натиснувши кнопку розкривання праворуч від іконки фільтра. Автоматична переробка розбиратиме лише спорядження рідкості «Звичайне» або «Таке-собі» й ігноруватиме модулі покращення будь-якої рідкості.
 
-> Every item that the player can scrap will yield **Tech Scrap** in return. However, some item does give you other items such as **Medical Tech Parts** (which can only be gained by scrapping **Pain Away**) or **Ammunition Tech Parts** (which can only be gained by scrapping either **Anti Matter Charge** or **Energy Cell**). Not only that, some items (such as Pain Away and **Equipment Caches**) aren't guaranteed to yield either Tech Scrap or Med Tech, with a 50% chance to yield one.
+> Кожен предмет, який можна розібрати, дає **Техно-брухт**. Водночас деякі предмети дають інші ресурси, наприклад **Техно-медичні деталі** (їх можна отримати лише, розібравши **Знеболююче**) або **Техно-деталі для патронів** (їх можна отримати лише, розібравши **заряд анти-матерії** або **Енергостільник**). Ба більше, деякі предмети (наприклад, Знеболююче та **схеми спорядження**) не гарантують ані техно-брухту, ані техно-медичних деталей: шанс отримати щось одне становить 50%.
 
-> To get rid of other items that are not scrappable, you can click on the **Destroy** button. Destroyed items will not give you anything in return, so be cautious when performing this action.  
+> Щоб позбутися інших предметів, які не можна розібрати, натисніть кнопку **Знищити**. Знищені предмети нічого не дають, тож будьте обережні, виконуючи цю дію.  
 
-## Item Inbox
-Items that other players send (or sent back from **Player Market** & claimed from **Daily Reward**) will automatically be placed in your **Item Inbox**. Once you have enough space in your inventory, they will be moved automatically to your inventory by clicking **Get All Items** option. Keep in mind that items stored in Item Inbox will expire in 7 days if not claimed. 
+## Посилки
+Предмети, які надсилають інші гравці (або які повернулися з **Ринку гравців** та були отримані з **Щоденної винагороди**), автоматично потрапляють у ваші **Посилки**. Щойно у вашому інвентарі з'явиться достатньо місця, вони перемістяться до інвентаря після натискання опції **Отримати всі предмети**. Пам'ятайте: предмети, що зберігаються в посилках, зникнуть через 7 днів, якщо їх не забрати. 
 
-## Crafting
-Crafting allows you to craft different types of items such as **Medicine**, **Ammo**, **Item Ingredient**, and other consumables (such as **Hash Processor** and **AI Core**).  
+## Виготовлення
+Виготовлення дає змогу створювати різні типи предметів, як-от **медичні предмети**, **набої**, **інгредієнти** та інші витратні предмети (наприклад, **Хеш-процесор** і **Ядро ШІ**).  
 
-On Medical Tab, most heal item relies on **Medical Tech Parts** and **Medical Science Level** to craft one. For example, to craft 4 Nano Medic Bot, players need to have 8 Medical Tech Parts while also on a Medical Science level 30 (or higher). Some heal items will also require **Tech Scrap** in order to make a **Medical Drone** version of it. For example, in order to make Nano Medic Drone, players must have both Nano Medic Bot and Tech Scrap on their inventory (while also on a Medical Science level 40 (or higher)). 
+На вкладці **Медичні** більшість лікувальних предметів потребують **Техно-медичних деталей** і певного рівня **медичної науки**. Наприклад, щоб створити 4 **Наноботи-медики**, гравець має мати 8 техно-медичних деталей і медичну науку 30-го рівня або вище. Деякі лікувальні предмети також потребують **Техно-брухту**, щоб створити версію **медичного дрона**. Наприклад, щоб створити **Нанодрон-медик**, гравець має мати в інвентарі і **Нанобот-медик**, і техно-брухт (а також медичну науку 40-го рівня або вище). 
 
-On Ammo Tab, each ammo requires a different ingredient to craft. For **Energy Cells**, a player must have **Ammunition Tech Parts** to make one, and as for **Anti Matter Charge**, plater must have **Military Ammunition Tech Parts**. Players can also make Military Ammunition Tech Parts by combining a minimum of 20 Ammunition Tech Parts to make one. Since there are only two types of ammo, the role of **Ammo Crafting Skill** revolves around the ammo quantity that the player can get per 10 levels. For example, on Ammo Crafting Level 20, players can get 3 Energy Cells for every 1 Ammunition Tech Parts (3:1 ratio), and by level 30, players will get 1 more Energy Cells with the same amount of Ammunition Tech Parts. The same case applies to making Anti Matter Charge.   
+На вкладці **Набої** кожен тип боєприпасів вимагає окремого інгредієнта. Для **Енергостільників** гравець має мати **Техно-деталі для патронів**, а для **зарядів анти-матерії** — **Військові тех-деталі для боєприпасів**. Гравці також можуть створювати військові тех-деталі для боєприпасів, поєднавши щонайменше 20 техно-деталей для патронів. Оскільки є лише два типи боєприпасів, роль **навички виготовлення боєприпасів** полягає в тому, скільки боєприпасів гравець отримує за кожні 10 рівнів. Наприклад, на 20-му рівні навички виготовлення боєприпасів гравці можуть отримати 3 енергостільники за кожну одиницю техно-деталей для патронів (співвідношення 3:1), а на 30-му рівні — ще 1 енергостільник із тієї самої кількості техно-деталей для патронів. Те саме стосується виготовлення зарядів анти-матерії.   
 
-On Material Tab, players can craft **Hash Processor** and **AI Core** for their needs. Specifically for AI Core, it is advisable for players to level up their Mining Skills to level 190 first to get an even crafting rate (20 Hash Processor : 20 AI Core) as lower-level AI crafting aren't profitable while consuming even more ingredient than it's needed. This doesn't apply to Hash Processor crafting as it's always at the same rate.  
+На вкладці **Матеріали** гравці можуть створювати **Хеш-процесор** і **Ядро ШІ** для своїх потреб. Щодо ядра ШІ, радимо спершу підняти рівень гірництва до 190, щоб отримати рівний темп виготовлення (20 Хеш-процесорів : 20 ядер ШІ), адже виготовлення ядер ШІ на нижчих рівнях не приносить прибутку й витрачає більше інгредієнтів, ніж потрібно. Це не стосується виготовлення хеш-процесора, бо воно завжди має однакове співвідношення.  
 
-In summary, as you level up the relevant skills (Medical Science, Ammo Crafting, and Mining Skill), you will unlock new recipes and become more proficient, allowing you to craft more and better items.
+Підсумовуючи: що вищими стають відповідні навички (медична наука, виготовлення боєприпасів і гірництво), то більше рецептів ви відкриваєте й то вправнішими стаєте, а отже можете створювати більше та кращі предмети.

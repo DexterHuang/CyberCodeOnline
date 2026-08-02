@@ -1,246 +1,246 @@
-# Resources
-Every item has it's own purposes, ranging from **Equipment** (which also includes **Upgrade Modules** and **Equipment Caches**), **Ammo**, **Medical Items**, **Crafting Ingredients**, **Key Fragment / Secret Keys**, **Global Boost**, and other consumables. Here are some items that are catalogued onto it's respective category.
+# Zdroje
+Každý předmět má svůj účel, od **vybavení** (které zahrnuje i **moduly vylepšení** a **schémata vybavení**), přes **munici**, **léčivé předměty**, **ingredience pro výrobu**, **fragmenty klíčů / tajné klíče**, **globální posílení** až po další spotřební předměty. Zde jsou některé předměty rozdělené do jednotlivých kategorií.
 
 
-## Ammo (for weapons)
+## Munice (pro zbraně)
 
-### Energy Cells  
-Your **Special Weapon** uses **Energy Cells**. You can find Energy Cells as drops after winning fights or by crafting them using Ammunition Tech Parts. You can carry a maximum of 10000 Energy Cells at a time.
+### Energetické články  
+Vaše **speciální zbraň** používá **energetické články**. Energetické články můžete získat jako drop po výhře v boji nebo jejich výrobou ze součástek munice. Nosit jich můžete maximálně 10000 najednou.
 
-### Anti Matter Charge 
-Your **Destructive Weapon** uses **Anti Matter Charge**. You can find them as drops (less often than Energy Cells) or by crafting them from Military Ammunition Tech Parts. You can carry a maximum of 10000 Antimatter Charges at a time.
+### Antihmotový náboj 
+Vaše **ničivá zbraň** používá **antihmotový náboj**. Můžete ho získat jako drop (méně často než energetické články) nebo jeho výrobou ze součástek vojenské munice. Nosit jich můžete maximálně 10000 najednou.
 
 
-## Equipment
+## Vybavení
 
-### Gears / Upgrade Module
-On your inventory, both **Equipment** and **Upgrade Module** were treated as a unique item thus it takes one inventory space per item (even with a same item name / rarity / quality). At this point, it's recommended to put your unused gear onto Bank Storage. Selling or scrapping unused gear were also an option to conserve inventory space.
+### Vybavení / modul vylepšení
+V inventáři jsou **vybavení** i **moduly vylepšení** považovány za jedinečné předměty, takže každý zabírá jeden slot v inventáři (i když mají stejné jméno, raritu a kvalitu). V této fázi se doporučuje ukládat nepoužívané vybavení do bankovního úložiště. Prodej nebo rozebrání nepoužívaného vybavení je také možnost, jak ušetřit místo v inventáři.
 
-You can choose when to equip a gear by choosing the **Equip** button. Equipped gear will be highlighted at the top of the inventory page. By clicking on gears, you can also choose to install upgrade modules that will enhance certain values of that item. To remove installed upgrade modules, simply click on the installed module. Better rarity & quality equipment will have more upgrade slots.
+Vybavení si můžete nasadit tlačítkem **Vybavit**. Nasazené vybavení bude zvýrazněno v horní části inventáře. Kliknutím na vybavení můžete také nainstalovat moduly vylepšení, které zlepší určité hodnoty daného předmětu. Chcete-li nainstalované moduly vylepšení odstranit, jednoduše klikněte na nainstalovaný modul. Vybavení s lepší raritou a kvalitou má více slotů pro vylepšení.
 
-You can get both Gear and Upgrade Module as a boss / crate drops in Dungeon, via printing in **Molecular 3D Printer**, as a **Daily Rewards**, or by buying one on either NPC Market (**Weapon Smith**) or Players Market (**Shangri-La Market Street**).  
+Vybavení i moduly vylepšení můžete získat jako drop z bosse nebo bedny v dungeonu, tiskem na **Molekulární 3D tiskárně**, jako **Denní odměny**, nebo nákupem u NPC na trhu (**Zbrojíř**) či na Trhu hráčů (**Tržní ulice Shangri-La**).  
 
-### Equipment Caches
-On your Inventory, all **Equipment Caches** were grouped based on their rarity and types of caches. You can stock as many caches as you want with a maximum of 10000 items per type of cache.
+### Schémata vybavení
+V inventáři jsou všechna **schémata vybavení** seskupená podle rarity a typu cache. Můžete jich skladovat kolik chcete, maximálně 10000 předmětů na typ cache.
 
-In order to use (or which we'll refer to as "Print" later on) one, a player must visit **Molecular 3D Printer** which can be found in **Shangri-La City Center**. Not only that, a player must have their BTC on its character in order to print one. The price of printing equipment caches was ranged based on both rarity and Printing Skills level.
+Abyste je mohli použít (nebo jak tomu později budeme říkat „tisk“), musíte navštívit **Molekulární 3D tiskárnu**, která se nachází v **Centru města Shangri-La**. Navíc musíte mít u postavy BTC, abyste cache mohli vytisknout. Cena tisku schémat vybavení se odvíjí od rarity i úrovně hodnosti tisku.
 
-You can get both Equipment as a boss / crate drops in Dungeon, via **Deploy Farm Bot** task, or by buying one on Players Market (**Shangri-La Market Street**). 
+Vybavení můžete získat jako drop z bosse nebo bedny v dungeonu, přes úkol **Deploy Farm Bot**, nebo koupí na Trhu hráčů (**Tržní ulice Shangri-La**). 
 
 
-## Tech Parts
-Tech Parts are an item ingredient to craft corresponding items via Crafting tab that's located in your Inventory menu. Tech Parts can be used for other dedicated tasks or even converted into other types of tech scrap.
+## Technické součástky
+Technické součástky jsou ingredience pro výrobu odpovídajících předmětů přes kartu **Výroba** v inventáři. Lze je použít i pro další specializované úkoly nebo je převést na jiné typy technického šrotu.
 
-### Ammunition Tech Parts
-One of the item ingredients to craft **Energy Cells** and **Military Ammunition Tech Parts**.
+### Součástky munice
+Patří mezi ingredience pro výrobu **energetických článků** a **součástek vojenské munice**.
 
-Other Ammunition Tech Parts usage is as follows:
-- Can be recycled to yield Tech Scrap (which can be done in **Gang Headquarters**)
-- Tradeable items that players can buy / sell to other players via **Player Trade**
+Další využití součástek munice:
+- Lze je recyklovat a získat technický šrot (což lze provést ve **Velitelství gangu**)
+- Jsou obchodovatelné a hráči je mohou kupovat nebo prodávat přes obchodování mezi hráči
 
-### Military Ammunition Tech Parts
-One of the item ingredients to craft **Anti Matter Charge** and **Hash Processor**.
+### Součástky vojenské munice
+Patří mezi ingredience pro výrobu **antihmotového náboje** a **Hash Procesoru**.
 
-Other Military Ammunition Tech Parts usage is as follows:
-- Can be recycled to yield Tech Scrap (which can be done in **Gang Headquarters**)
-- Tradeable items that players can buy / sell to other players via **Player Trade**
+Další využití součástek vojenské munice:
+- Lze je recyklovat a získat technický šrot (což lze provést ve **Velitelství gangu**)
+- Jsou obchodovatelné a hráči je mohou kupovat nebo prodávat přes obchodování mezi hráči
 
-### Medical Tech Parts
-One of the item ingredients to craft **Healing Items** and **Hash Processor**.
+### Technické součástky léčiv
+Patří mezi ingredience pro výrobu **léčivých předmětů** a **Hash Procesoru**.
 
-Other Medical Tech Parts usage is as follows:
-- Can be recycled to yield Tech Scrap (which can be done in **Gang Headquarters**)
-- Tradeable items that players can buy / sell to other players via **Player Trade**
+Další využití technických součástek léčiv:
+- Lze je recyklovat a získat technický šrot (což lze provést ve **Velitelství gangu**)
+- Jsou obchodovatelné a hráči je mohou kupovat nebo prodávat přes obchodování mezi hráči
 
-### Tech Scrap
-One of the item ingredients to craft **Drone Healing** items, Hash Processor, and AI Core. 
+### Technický šrot
+Patří mezi ingredience pro výrobu **léčivých dronů**, Hash Procesoru a AI Jádra.
 
-Other Tech Scrap usage is as follows:
-- Initialize **Reverse Engineering** task (which can be found in **Shangri-La Commercial Area**)
-- An item / requirements to open Locked Container (which can be found in **Terminal**)
-- An item / requirements to trade Backpack (which can be done in **Lee's Trade Post**)
-- Tradeable items that players can buy / sell to other players via **Player Trade**
+Další využití technického šrotu:
+- Spuštění úkolu **Reverse Engineering** (který najdete v **Obchodní oblasti Shangri-La**)
+- Předmět / požadavek k otevření uzamčeného kontejneru (který najdete v **Terminálu**)
+- Předmět / požadavek k obchodování za batoh (což lze provést v **Lee's Trade Post**)
+- Obchodovatelný předmět, který si hráči mohou koupit nebo prodat při obchodování mezi hráči
 
 
-## Medical / Healing Items
-Players can use **Medical Tech Parts** and **Tech Scrap** to craft medicine for use in dungeons. In order to craft better medicine, players need to improve their medical science levels which can be done by performing the associated job training or by crafting medicine. Furthermore, better medicine requires players to use more Medical Tech Parts. For example, the lowest level medicine that can be crafted is the Pain Away for 1 Medical Tech Part while the Degraded Nano Repair Bot needs 2 Medical Tech Parts and a medical science level of 10.  
-  
-There are two categories of medicine that can be crafted which are **Single Heals** and **Group Heals**. Further information as follows:
+## Léčivé předměty
+Hráči mohou používat **technické součástky léčiv** a **technický šrot** k výrobě léčiv pro použití v dungeonech. Pro výrobu lepších léčiv musí hráči zvyšovat úroveň lékařské vědy, což lze dělat plněním příslušného tréninkového úkolu nebo výrobou léčiv. Lepší léčiva navíc vyžadují více technických součástek léčiv. Například nejnižší léčivý předmět, který lze vyrobit, je **Bolest pryč** za 1 technickou součástku léčiv, zatímco **Degradovaný opravný nanobot** potřebuje 2 technické součástky léčiv a úroveň lékařské vědy 10.
 
-### Single Heals  
-As the name suggests, single heals will only heal yourself for the specified amount. Single heal medicines are items such as Pain Away and anything ending with Bot (e.g. Nano Medic Bot). In order to craft single heals, you need the specified medical science level and Medical Tech Parts.  
+Existují dvě kategorie léčiv, které lze vyrábět: **léčiva pro jednoho** a **skupinová léčiva**. Další informace:
 
-In general, the healing item / heal amount / medical level requirement / med tech amount as follows:
+### Léčiva pro jednoho  
+Jak název napovídá, léčiva pro jednoho vyléčí jen vás, a to o uvedené množství. Patří mezi ně předměty jako **Bolest pryč** a cokoli, co v názvu končí na „Bot“ (např. **Lékařský nanobot**). K jejich výrobě potřebujete příslušnou úroveň lékařské vědy a technické součástky léčiv.
 
-> **Pain Away** (501+ Health) - No Level ; 1 Med Tech
+Obecně platí, že léčivý předmět / množství léčby / požadavek na úroveň / množství technických součástek léčiv je následující:
 
-> **Degraded Nano Repair Bot** (1201+ Health) - Med Science 10 ; 2 Med Tech
+> **Bolest pryč** (501+ zdraví) – bez úrovně ; 1 technická součástka léčiv
 
-> **Degraded Nano Medic Bot** (6001+ Health) - Med Science 20 ; 4 Med Tech
+> **Degradovaný opravný nanobot** (1201+ zdraví) – lékařská věda 10 ; 2 technické součástky léčiv
 
-> **Nano Medic Bot** (12001+ Health) - Med Science 30 ; 8 Med Tech
+> **Degradovaný lékařský nanobot** (6001+ zdraví) – lékařská věda 20 ; 4 technické součástky léčiv
 
-> **Military Nano Medic Bot** (26001+ Health) - Med Science 40 ; 16 Med Tech
+> **Lékařský nanobot** (12001+ zdraví) – lékařská věda 30 ; 8 technických součástek léčiv
 
-> **Advanced Nano Medic Bot**  (54001+ Health) - Med Science 50 ; 32 Med Tech
+> **Vojenský zdravotnický nanobot** (26001+ zdraví) – lékařská věda 40 ; 16 technických součástek léčiv
 
-> **High Quality Nano Medic Bot** (110001+ Health)- Med Science 70 ; 64 Med Tech
+> **Pokročilý lékařský nanobot**  (54001+ zdraví) – lékařská věda 50 ; 32 technických součástek léčiv
 
-> **Rare Nano Medic Bot** (240001+ Health) - Med Science 90 ; 128 Med Tech
+> **Vysoce kvalitní lékařský nanobot** (110001+ zdraví) – lékařská věda 70 ; 64 technických součástek léčiv
 
-> **Legendary Nano Medic Bot** (480001+ Health) - Med Science 110 ; 256 Med Tech
+> **Vzácný lékařský nanobot** (240001+ zdraví) – lékařská věda 90 ; 128 technických součástek léčiv
 
-> **Epic Nano Medic Bot** (1000001+ Health) - Med Science 130 ; 256 Med Tech
+> **Legendární lékařský nanobot** (480001+ zdraví) – lékařská věda 110 ; 256 technických součástek léčiv
 
-### Group Heals  
-Group heals can heal the entire group in a dungeon when used but will heal each person less than single heals of the same tier. Group heals are items such as Pain Away Spray and anything ending with Drone (e.g. Nano Medic Drone). In order to craft group heals, you need the same level single heal and the associated number of Tech Scrap. For instance, to make Pain Away Spray you need 1 Pain Away and 1 Tech Scrap. 
+> **Epický lékařský nanobot** (1000001+ zdraví) – lékařská věda 130 ; 256 technických součástek léčiv
 
-In general, the healing item / heal amount / medical level requirement / healing item & tech scrap amount as follows:
+### Skupinová léčiva  
+Skupinová léčiva dokážou při použití v dungeonu vyléčit celou skupinu, ale každého vyléčí méně než léčivo pro jednoho stejné rarity. Patří mezi ně předměty jako **PainAway ve spreji** a cokoli, co v názvu končí na „Drone“ (např. **lékařský nanodron**). K jejich výrobě potřebujete léčivo pro jednoho stejné úrovně a příslušné množství technického šrotu. Například k výrobě PainAway ve spreji potřebujete 1 Bolest pryč a 1 technický šrot.
 
-> **Pain Away Spray** (301+ Health) - Med Science 10 ; 1 Pain Away & 1 Tech Scrap
+Obecně platí, že léčivý předmět / množství léčby / požadavek na úroveň / množství léčivého předmětu a technického šrotu je následující:
 
-> **Degraded Repair Drone** (901+ Health) - Med Science 20 ; 1 Degraded Nano Repair Bot & 1 Tech Scrap
+> **PainAway ve spreji** (301+ zdraví) – lékařská věda 10 ; 1 Bolest pryč a 1 technický šrot
 
-> **Degraded Nano Medic Drone** (4001+ Health) - Med Science 30 ; 1 Degreaded Nano Medic Bot & 1 Tech Scrap
+> **Degradovaný opravný dron** (901+ zdraví) – lékařská věda 20 ; 1 Degradovaný opravný nanobot a 1 technický šrot
 
-> **Nano Medic Drone** (10001+ Health) - Med Science 40 ; 1 Nano Medic Bot & 1 Tech Scrap
+> **Degradovaný lékařský nanodron** (4001+ zdraví) – lékařská věda 30 ; 1 Degradovaný lékařský nanobot a 1 technický šrot
 
-> **Military Nano Medic Drone** (20001+ Health) - Med Science 50 ; 1 Military Nano Medic Bot & 1 Tech Scrap
+> **Lékařský nanodron** (10001+ zdraví) – lékařská věda 40 ; 1 Lékařský nanobot a 1 technický šrot
 
-> **Advanced Nano Medic Drone** (40001+ Health) - Med Science 60 ; 1 Advanced Nano Medic Bot & 1 Tech Scrap
+> **Vojenský lékařský nanodron** (20001+ zdraví) – lékařská věda 50 ; 1 Vojenský zdravotnický nanobot a 1 technický šrot
 
-> **High Quality Nano Medic Drone** (80001+ Health) - Med Science 80 ; 1 High Quality Nano Medic Bot & 1 Tech Scrap
+> **Pokročilý lékařský nanodron** (40001+ zdraví) – lékařská věda 60 ; 1 Pokročilý lékařský nanobot a 1 technický šrot
 
-> **Rare Nano Medic Drone** (160001+ Health) - Med Science 100 ; 1 Rare Nano Medic Bot & 1 Tech Scrap
+> **Vysoce kvalitní lékařský nanodron** (80001+ zdraví) – lékařská věda 80 ; 1 Vysoce kvalitní lékařský nanobot a 1 technický šrot
 
-> **Legendary Nano Medic Drone** (320001+ Health) - Med Science 120 ; 1 Legendary Nano Medic Bot & 1 Tech Scrap
+> **Vzácný lékařský nanodron** (160001+ zdraví) – lékařská věda 100 ; 1 Vzácný lékařský nanobot a 1 technický šrot
 
-> **Epic Nano Medic Drone** (640001+ Health) - Med Science 140 ; 1 Epic Nano Medic Bot & 1 Tech Scrap
+> **Legendární lékařský nanodron** (320001+ zdraví) – lékařská věda 120 ; 1 Legendární lékařský nanobot a 1 technický šrot
 
+> **Epický lékařský nanodron** (640001+ zdraví) – lékařská věda 140 ; 1 Epický lékařský nanobot a 1 technický šrot
 
-## Consumables
-These are an item that players can use for various needs, ranging from AFK Task, Market Item, Trade Item, or just a plain consumable.
 
-### AI Core
-**AI Cores** are essential for players as a way to gain Character EXP, a Market-value item, and Trade Currency. 
+## Spotřební předměty
+Jsou to předměty, které mohou hráči používat pro různé potřeby, od AFK úkolů přes předměty pro trh a obchodování až po běžné spotřební předměty.
 
-- For EXP purposes, players can use it on the highest unlocked area on Station via **Deploy Farm Bot** task. 
-- For Market purposes, players can sell these items on **Shangri-La Market Street**, following current market prices. 
-- For Trade purposes, players can trade their AI Cores for various items with other players such as Medical Tech Parts, Hash Processor, Containers, etc. 
+### AI Jádro
+**AI jádra** jsou pro hráče důležitá jako způsob získávání zkušeností postavy, jako předmět s hodnotou na trhu a jako měna pro obchodování.
 
-### AI Core Cluster
-**AI Core Cluster** is the compressed version of AI. 1 AI Core Cluster contains 1,000 AI, making it more managable and easy to store inside player's inventory. AI Core Cluster can be made (needs 1,000 AI & 50,000 BTC) and disassembled via Crafting.
+- Pro EXP účely je lze použít v nejvyšší odemčené oblasti na stanici přes úkol **Deploy Farm Bot**.
+- Pro účely trhu je lze prodávat na **Tržní ulici Shangri-La** za aktuální tržní ceny.
+- Pro obchodování je lze směňovat s ostatními hráči za různé předměty, jako jsou technické součástky léčiv, Hash Procesor, kontejnery atd.
 
-AI Core Cluster can also be used as a Market-value item, and Trade Currency.
+### Cluster AI Core
+**Cluster AI Core** je komprimovaná verze AI. 1 Cluster AI Core obsahuje 1 000 AI, takže se lépe skladuje v inventáři. Cluster AI Core lze vyrobit (vyžaduje 1 000 AI a 50 000 BTC) i rozebrat přes Výrobu.
 
-### Hash Processor
-**Hash Processor** are essential for players as a way to gain Mining EXP, a Market-value item, and Trade Currency.  
+Cluster AI Core lze také používat jako předmět s hodnotou na trhu a jako měnu pro obchodování.
 
-- For EXP purposes, players can use it on **Shangri-La Commercial Area** via **Crypto Mining** task. 
-- For Market purposes, players can sell these items on **Shangri-La Market Street**, following current market prices. 
-- For Trade purposes, players can trade their Hash Processor for various items with other players such as Medical Tech Parts, AI Cores, Containers, etc. 
+### Hash Procesor
+**Hash Procesory** jsou pro hráče důležité jako způsob získávání zkušeností z těžby, jako předmět s hodnotou na trhu a jako měna pro obchodování.  
 
-### Experience Memory / Shard
-**Experience Memory / Shard** is an item that players can use to gain EXP instantly. The difference between Memory & Shard was the type of EXP, as Memory gains Character EXP and Shard gains Skills EXP respectively. These items are not tradable and best to be used when **Frontal Cortex Optimization Transmitter** or **EXP Buff** were in effect.
+- Pro EXP účely je lze použít v **Obchodní oblasti Shangri-La** přes úkol **Crypto Mining**. 
+- Pro účely trhu je lze prodávat na **Tržní ulici Shangri-La** za aktuální tržní ceny. 
+- Pro obchodování je lze směňovat s ostatními hráči za různé předměty, jako jsou technické součástky léčiv, AI jádra, kontejnery atd.
 
-### Containers
-**Containers** are essential for players as an alternative way of finding AI / Hash Processor, a Market-value item, and Trade Currency.  
+### Paměť / střep se zkušenostmi
+**Paměť / střep se zkušenostmi** je předmět, který lze použít k okamžitému zisku EXP. Rozdíl mezi pamětí a střepem je v typu EXP, protože paměť zvyšuje zkušenosti postavy a střep zvyšuje zkušenosti dovedností. Tyto předměty nelze obchodovat a je nejlepší je použít, když je aktivní **Optimalizace vysílače frontálního kortexu** nebo **EXP buff**.
 
-To open Locked Containers, players must visit **Terminal** while having BTC and Tech Scrap in its inventory. When opening Containers, players will mostly find items such as AI Core, Hash Processor, Gear (based on players level), and unique drop which can only be found on specific Containers.
+### Kontejnery
+**Kontejnery** jsou pro hráče důležité jako další způsob, jak získat AI / Hash Procesor, jako předmět s hodnotou na trhu a jako měna pro obchodování.  
 
-Players can also use Container as a Market item or as Trade Currency, which both benefits players via BTC or other traded items.
+K otevření uzamčených kontejnerů musí hráči navštívit **Terminál** a mít v inventáři BTC a technický šrot. Při otevírání kontejnerů hráči většinou najdou předměty jako AI jádro, Hash Procesor, vybavení (podle úrovně hráče) a unikátní drop, který lze najít jen v určitých kontejnerech.
 
-### Equipment Calibration Core
-**Equipment Calibration Core** was used as a calibration item. Whenever a player attempts to do calibration, players must insert Equipment Calibration Core before proceeding to gear calibration. Explanation around Calibration can be found on [Calibration's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
+Kontejner lze také používat jako předmět na trhu nebo jako měnu pro obchodování, což hráčům přináší výhody přes BTC nebo jiné obchodované předměty.
 
-Players can also use Equipment Calibration Core as a Market item or as Trade Currency, which both benefit players via BTC or other traded items.
+### Kalibrační jádro vybavení
+**Kalibrační jádro vybavení** se používá jako kalibrační předmět. Kdykoli se hráč pokouší o kalibraci, musí nejprve vložit kalibrační jádro vybavení a teprve potom pokračovat v kalibraci vybavení. Vysvětlení kalibrace najdete v [Tutoriálu kalibrace](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
 
-### Factory Reset Shard
-**Factory Shard** was used as a way to reset calibration, thus players can trade / sell the designated gear. Explanation around Calibration can be found on [Calibration's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
+Kalibrační jádro vybavení lze také používat jako předmět na trhu nebo měnu pro obchodování, což hráčům přináší BTC nebo jiné obchodované předměty.
 
-Players can also use Factory Shard as a Market item or as Trade Currency, which both benefit players via BTC or other traded items.
+### Střep obnovení továrního nastavení
+**Střep obnovení továrního nastavení** se používá k resetování kalibrace, takže hráči mohou dané vybavení obchodovat nebo prodávat. Vysvětlení kalibrace najdete v [Tutoriálu kalibrace](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
 
+Střep obnovení továrního nastavení lze také používat jako předmět na trhu nebo měnu pro obchodování, což hráčům přináší BTC nebo jiné obchodované předměty.
 
-## Gang Items
-These are an item that players can use for gang needs, ranging from AFK Task, Trade Item, or as a requirement to do a certain activity. For in-depth explanation around Gangs can be found on [Gang's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fgangs.md)
 
-### Supply Crate
-**Supply Crates** were used as a way to gain Gang Resources & Gang EXP. To do so, players must do Gang Task which involves using Supply Crates as a requirement (these certain tasks will also give players Mining EXP). Supply Crates can also be used as a way to "define gang territory" by doing **Occupation Control** task, as this will give the gang a certain **Occupation Point** with no contribution to Gang Resources.
+## Gangové předměty
+Jsou to předměty, které hráči používají pro potřeby gangu, od AFK úkolů a obchodovatelných předmětů až po požadavky k určitým aktivitám. Podrobnější vysvětlení gangů najdete v [Tutoriálu gangů](https://cybercodeonline.com/markdown?path=tutorial%2Fgangs.md)
 
-Supply Crates are tradeable and can be sold or traded with other players.
+### Zásobovací bedna
+**Zásobovací bedny** se používají k získávání zdrojů gangu a Gang EXP. K tomu musí hráči plnit gangové úkoly, které vyžadují použití zásobovacích beden (tyto úkoly také dávají zkušenosti z těžby). Zásobovací bedny lze také použít k „určování území gangu“ při plnění úkolu **Kontrola území**, protože tak gang získá určitý **bod okupace** bez příspěvku do zdrojů gangu.
+
+Zásobovací bedny jsou obchodovatelné a lze je prodávat nebo směňovat s ostatními hráči.
 
 ### Encrypted Gang Memory Shard
-**Encrypted Gang Memory Shard** was used as a way to gain Gang EXP. To do so, players must do Gang Task which involves using Encrypted Gang Memory Shard as a requirement (these certain tasks will also give players Mining EXP & Equipment Drops).
+**Encrypted Gang Memory Shard** se používá k získávání Gang EXP. Hráči musí plnit gangové úkoly, které vyžadují použití Encrypted Gang Memory Shard (tyto úkoly také dávají zkušenosti z těžby a dropy vybavení).
 
-Encrypted Gang Memory Shard are tradeable and can be sold or traded with other players.
+Encrypted Gang Memory Shard je obchodovatelný a lze ho prodávat nebo směňovat s ostatními hráči.
 
-### Protocol Breach Shard
-**Protocol Breach Shard** was used as a way to contribute to **SL-Data Fortress Breach** (which player can see its progression on **Quest** tab). To contribute to one, players must do Gang Task which involves using Protocol Breach Shard as a requirement.
+### Střep protokolu narušení
+**Střep protokolu narušení** se používá k přispívání do **průlomu SL-Data Pevnost** (jeho postup lze vidět na kartě **Úkoly**). K přispění je potřeba plnit gangové úkoly, které vyžadují použití střepu protokolu narušení.
 
-Protocol Breach Shard are tradeable and can be sold or traded with other players.
+Střepy protokolu narušení jsou obchodovatelné a lze je prodávat nebo směňovat s ostatními hráči.
 
-### Gang Invasion Order Transmitter
-**Gang Invasion Order Transmitter** was used as a way to enter **Gang Dungeons**. When entering one, keep in mind that Gang Dungeons are the most difficult dungeon of all, thus having proper gear might help ease out the difficulty.
+### Vysílač rozkazu pro invazi gangu
+**Vysílač rozkazu pro invazi gangu** se používá ke vstupu do **gangových dungeonů**. Pamatujte, že gangové dungeony jsou nejtěžší dungeony ze všech, takže správné vybavení může obtížnost výrazně zmírnit.
 
-Gang Invasion Order Transmitters are tradeable and can be sold or traded with other players.
+Vysílače rozkazu pro invazi gangu jsou obchodovatelné a lze je prodávat nebo směňovat s ostatními hráči.
 
 
-## Boosts
-While most **Boost** can be purchased in the **Arasaka Unit Exchange**, some of the boost below can only be found on specific places and cannot be bought on any store.
+## Buffy
+Zatímco většinu **buffů** lze koupit v **Arasakské směnárně jednotek**, některé z níže uvedených buffů lze najít jen na konkrétních místech a nelze je koupit v žádném obchodě.
 
-### Synaptic Acceleration Transmitter
-This item will boost how quickly AFK time passes by +5% for 10 minutes, stackable up to +80%. You can use another to extend the duration of the boost, resetting the timer. To make use of the boost, you just need to begin an AFK session while the boost is active. This item is global and will affect and stack with other player. This does not stack with the rare version. This item can only be found on both **Dungeon's Boss Room crates** and **Pachinko**.
+### Vysílač synaptického zrychlení
+Tento předmět zvýší rychlost plynutí AFK času o +5 % na 10 minut, lze jej skládat až na +80 %. Dalším kusem lze prodloužit dobu účinku a resetovat časovač. Aby se buff využil, stačí začít AFK session, zatímco je aktivní. Tento předmět je globální, ovlivní i ostatní hráče a bude se s jejich buffy skládat. Neskládá se se vzácnou verzí. Tento předmět lze najít pouze v **bednách v místnosti s bossem dungeonu** a v **Pachinko**.
 
 ### Personal Calibration Shard
-This item can only be used as a personal needs. It only affects for 5 minutes with a purpose of minimize the chance of calibration failure by 5% (or 50% if player stumble upon the **Personal Event** variation). The personal ones does not stack with the global ones. It stacks infinitely and not affected with other players.  This item can only be found on **Rare Container**. Explanation around Calibration can be found on [Calibration's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
+Tento předmět lze použít jen pro osobní potřebu. Působí pouze 5 minut a jeho účelem je snížit šanci na selhání kalibrace o 5 % (nebo o 50 %, pokud hráč narazí na variantu **Personal Event**). Osobní verze se neskládají s globálními. Lze jej skládat donekonečna a není ovlivněn ostatními hráči. Tento předmět lze najít pouze ve **vzácném kontejneru**. Vysvětlení kalibrace najdete v [Tutoriálu kalibrace](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
 
 ### CyberTunnel VPN
-This item will negates all chat exploits for 1 hour. It can only be used as a personal needs and not affected by other players. This item can be found on **Rare / Mysterious Container** and via Unit purchase on **Arasaka Unit Exchange**.
+Tento předmět na 1 hodinu neguje všechny chatové exploity. Lze jej použít jen pro osobní potřebu a ostatní hráči ho neovlivní. Tento předmět lze najít ve **vzácném / tajemném kontejneru** a také jej koupit za Units v **Arasakské směnárně jednotek**.
 
 
-## Global Boosts
-These items can only be purchased in the **Arasaka Unit Exchange**. The effects are global and will give everyone the benefits based on its buffs.
+## Globální buffy
+Tyto předměty lze koupit pouze v **Arasakské směnárně jednotek**. Jejich účinky jsou globální a dají všem hráčům výhody podle jejich buffů.
 
-### Rare Synaptic Acceleration Transmitter
-These are similar to regular Synaptic Acceleration Transmitters but don't stack with them. The rare version will instantly boost how quickly AFK time passes by +40% for 20 minutes, stackable to +80%. You can use another to extend the duration of the boost, thus resetting the timer. To make use of the boost, you just need to begin an AFK session while the boost is active. This item is global and will affect and stack with other players.
+### Vzácný vysílač synaptického zrychlení
+Jsou podobné běžným vysílačům synaptického zrychlení, ale neskládají se s nimi. Vzácná verze okamžitě zvýší rychlost plynutí AFK času o +40 % na 20 minut, lze ji skládat až na +80 %. Dalším kusem lze prodloužit dobu účinku a resetovat časovač. Aby se buff využil, stačí začít AFK session, zatímco je aktivní. Tento předmět je globální a bude se skládat s buffy ostatních hráčů.
 
-### Transaction Exploit Transmitter
-This item affects globally and is used to boost BitCoin. Each Transaction Exploit Transmitter will provide a +40% boost to BitCoin gain for 20 minutes while stacking maxes out at 100%. You can use another to extend the duration of the boost, thus resetting the timer.
+### Vysílač obchodního exploitu
+Tento předmět působí globálně a používá se ke zvýšení zisku BitCoinu. Každý vysílač obchodního exploitu poskytne +40 % bonus k zisku BitCoinu na 20 minut, přičemž maximum skládání je 100 %. Dalším kusem lze prodloužit dobu účinku a resetovat časovač.
 
-### Frontal Cortex Optimization Transmitter
-This item affects globally and is used to boost EXP gains. Each Frontal Cortex Optimization Transmitter will provide a +80% boost to EXP gain for 20 minutes. Stacking does nothing other than resetting it's timer due to it's max boost. You can use another to extend the duration of the boost, thus resetting the timer.
+### Optimalizace vysílače frontálního kortexu
+Tento předmět působí globálně a používá se ke zvýšení zisku EXP. Každá optimalizace vysílače frontálního kortexu poskytne +80 % bonus k zisku EXP na 20 minut. Skládání už jen resetuje časovač, protože buff dosahuje svého maxima. Dalším kusem lze prodloužit dobu účinku a resetovat časovač.
 
 ### Calibration Shard
-This item affects globally. It only affects for 5 minutes with a purpose to minimize the chance of calibration failure (ranging from 10% to 300%). It only stacks twice with each rarity (for example, the 10% (or called Rare Shard) can only stack with the other 10% and not with other variations such as 50% or even 100%). Explanation around Calibration can be found on [Calibration's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
+Tento předmět působí globálně. Působí jen 5 minut a jeho účelem je snížit šanci na selhání kalibrace (v rozsahu od 10 % do 300 %). Pro každou raritu jej lze naskládat jen dvakrát (například 10 % (neboli Rare Shard) se může skládat pouze s dalším 10 % a ne s jinými variantami, jako je 50 % nebo 100 %). Vysvětlení kalibrace najdete v [Tutoriálu kalibrace](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
 
 ### Safety Nano Calibration Bot
-This item affects globally. It only affects for 5 minutes with a purpose to negate calibration failure (up to 100%). It stacks with other Safety Nano. Explanation around Calibration can be found on [Calibration's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
+Tento předmět působí globálně. Působí jen 5 minut a jeho účelem je zrušit selhání kalibrace (až do 100 %). Skládá se s ostatními Safety Nano. Vysvětlení kalibrace najdete v [Tutoriálu kalibrace](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
 
 ### Chat Exploit
-This item does not give the player any benefits aside from altering chat text. It affects globally and can be interrupted by using **CyberTunnel VPN**. The Chat Exploit itself has a variety of alterations ranging from UwU (which UwU-ifies the text) up to Pirate (which alters the text into pirate speak).
+Tento předmět nedává hráči žádné výhody kromě změny textu chatu. Působí globálně a lze ho přerušit použitím **CyberTunnel VPN**. Samotný Chat Exploit má různé úpravy, od UwU (které text převádí do UwU stylu) až po Pirate (které text změní na pirátskou mluvu).
 
 ### RNG Interferer
-This item affects the drop percentage of **Legendary Container** (the effect only applies AFTER the buff starts and not before). When opening Legendary Container during the buff, it affects both Legendary (by 1%) & Epic (by 0.5%) drop percentage while also dropping additional item / loot to the table. These additional drop does not affect the probability of gaining either Legendary / Epic gear in the first place. It only affects for 2 minutes and affects globally.
+Tento předmět ovlivňuje procento dropu **Legendary Container** (efekt se aplikuje až PO spuštění buffu, ne před ním). Při otevírání Legendary Container během buffu zvyšuje šanci na drop Legendary o 1 % a Epic o 0,5 % a zároveň přidává do tabulky další předmět nebo kořist. Tyto dodatečné dropy neovlivňují samotnou pravděpodobnost získání vybavení Legendary nebo Epic. Působí jen 2 minuty a globálně.
 
 
-## Modifiers
-**Modifiers**. These modifiers can only be found in the dungeon, by picking up **Quest Giver** that is represented by `?` symbol. For full modifier list, can be found on [Combat's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcombat.md)
+## Modifikátory
+Tyto modifikátory lze najít pouze v dungeonu, a to vyzvednutím úkolu u **Quest Giver**, který je označen symbolem `?`. Kompletní seznam modifikátorů najdete v [Tutoriálu boje](https://cybercodeonline.com/markdown?path=tutorial%2Fcombat.md)
 
-Type / kinds of Modifiers can be summarized as follows:
+Typy / druhy modifikátorů lze shrnout takto:
 
 ### Overcharged
-**Overcharged** affects player's damage within a span amount of time. The damage modifiers ranged from +5% (**Overcharged I**) up to +25% (**Overcharged V**)
+**Overcharged** ovlivňuje poškození hráče po určitou dobu. Modifikátory poškození sahají od +5 % (**Overcharged I**) až po +25 % (**Overcharged V**).
 
 ### Reinforced
-**Reinforced** affect player's defence within a span amount of time. The defence modifiers ranged from +5% (**Reinforced I**) up to +25% (**Reinforced V**)
+**Reinforced** ovlivňuje obranu hráče po určitou dobu. Modifikátory obrany sahají od +5 % (**Reinforced I**) až po +25 % (**Reinforced V**).
 
 ### Shield Enhance  
-**Shield Enhance** affect player's shield multiplier within a span amount of time. The shield multiplier modifiers ranged from +5% (**Shield Enhance I**) up to +25% (**Shield Enhance V**)
+**Shield Enhance** ovlivňuje násobič štítu hráče po určitou dobu. Modifikátory násobiče štítu sahají od +5 % (**Shield Enhance I**) až po +25 % (**Shield Enhance V**).
 
 
-## Global Time Skips
-Although these aren't items, players can also purchase global skips from their AFK screen (the Map tab when an AFK task is in progress). Skippers can choose from a range of 15 minutes to 180 minutes to skip. The time skips work with boosts, so it's more cost-efficient to use skips when boosts are already running.
+## Globální časové skippy
+Ačkoliv to nejsou předměty, hráči si mohou koupit také globální skipy z obrazovky AFK (karta **Mapa**, když běží AFK úkol). Skipper může volit mezi rozsahem 15 až 180 minut. Časové skipy fungují s buffy, takže je cenově výhodnější používat je, když jsou buffy už aktivní.
 
-As with all other paid items, time skips apply to everyone on the server. However, since they skip time immediately, only players who have started AFK tasks before the button is pressed will receive the benefit. Often it can be helpful to coordinate in global chat so player are ready to tag along.
+Stejně jako všechny ostatní placené předměty se časové skipy vztahují na všechny na serveru. Protože ale čas přeskočí okamžitě, výhodu získají jen hráči, kteří začali AFK úkoly před stisknutím tlačítka. Často je užitečné domluvit se v globálním chatu, aby byli všichni připraveni.
 
-The benefit is also applied to all AFK players one-by-one, so it may take 1 ~ 3 minutes for the effects to apply for everyone. Most regular skippers will recommend waiting around 1 minute after the skip button becomes available again, and purchasing 30-minute skips is the most popular choice when boosts are also running.
+Výhoda se také aplikuje na všechny AFK hráče jednoho po druhém, takže může trvat 1 až 3 minuty, než se projeví u všech. Většina pravidelných skipperů doporučuje počkat zhruba 1 minutu poté, co je tlačítko skipu znovu dostupné, a nejpopulárnější volbou při běžících buffech je nákup 30minutových skipů.

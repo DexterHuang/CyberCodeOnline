@@ -1,105 +1,105 @@
-# Equipment / Gears
-You can equip an equipment (gear) that you own as long as the gear level that you wish to equip is not higher than your current character level.  
+# Vybavení / výbava
+Vybavit si můžete vybavení, které vlastníte, pokud jeho úroveň není vyšší než úroveň vaší postavy.
 
-All equipment (and equipment caches) have rarities, as follows:
-- Trash (Grey)
-- Common (White)
-- High Quality (Green)
-- Rare (Yellow)
-- Legendary (Fuchsia, Deep Pink)
-- Epic (Dark Red)
+Veškeré vybavení (včetně schémat vybavení) má jednu z těchto rarit:
+- Trash (šedá)
+- Common (bílá)
+- High Quality (zelená)
+- Rare (žlutá)
+- Legendary (fuchsiová, sytě růžová)
+- Epic (tmavě červená)
 
-Keep in mind that higher rarities will have better stats and more module upgrade slots, depending on the piece of equipment.  
+Pamatujte, že vyšší rarity mají podle konkrétního kusu vybavení lepší statistiky a více slotů pro moduly vylepšení.
 
-## Knowing Your Caches
-Here's a couple of guiding point on how or when to print certain caches:
-> From level 1 to 5, it's recommended to print / use **Trash** caches for your gear set as it's the cheapest one of all
+## Jak vybírat cache
+Zde je několik vodítek, kdy tisknout jednotlivé druhy cache:
+> Od 1. do 5. úrovně se doporučuje tisknout nebo používat cache třídy **Trash** pro celou sadu vybavení, protože jsou ze všech nejlevnější.
  
-> From level 5 to 15, it's recommended to print / use **Common** caches for your gear set
+> Od 5. do 15. úrovně se doporučuje tisknout nebo používat cache třídy **Common** pro celou sadu vybavení.
 
-> From level 15 to 30, it's recommended to print / use **High Quality** caches for your gear set
+> Od 15. do 30. úrovně se doporučuje tisknout nebo používat cache třídy **High Quality** pro celou sadu vybavení.
 
-> From level 30 to 50, it's recommended to print / use **Rare** caches for your gear set
+> Od 30. do 50. úrovně se doporučuje tisknout nebo používat cache třídy **Rare** pro celou sadu vybavení.
 
-> From level 50+, it's recommended to print / use **Legendary** caches for your gear set
+> Od úrovně 50 výše se doporučuje tisknout nebo používat cache třídy **Legendary** pro celou sadu vybavení.
 
-> From level 100+, it's recommended to print / use **Epic** caches for your gear set (if a player ever gets the chance to find or buy one, as it's the rarest cache / gear of all)
+> Od úrovně 100 výše se doporučuje tisknout nebo používat cache třídy **Epic** pro celou sadu vybavení (pokud má hráč vůbec šanci nějakou najít nebo koupit, protože jde o nejvzácnější cache i vybavení ze všech).
 
-Keep in mind that this guidance were only served as a reference rather than enforcing players into managing certain plays. Also, **Gear Quality** reflects the stats on the gear itself perspectively, thus inspecting it's quality is essential for optimal gear stats.
+Pamatujte, že tato doporučení slouží jen jako vodítko, ne jako povinný způsob hraní. Také **kvalita vybavení** přímo ovlivňuje jeho statistiky, takže kontrola kvality je důležitá pro dosažení optimálních hodnot.
 
-## Finding Your Equipment
-You can find both gear and equipment caches in dungeons or when fighting individual enemies (street fights). Once you are level 5, you will be able to use the Player Market to purchase different types of gears, crafting materials and other items.
+## Kde vybavení najít
+Vybavení i schémata vybavení najdete v dungeonech nebo při boji s jednotlivými nepřáteli (pouliční boje). Jakmile dosáhnete úrovně 5, budete moci používat **Trh hráčů** k nákupu různých typů vybavení, materiálů pro výrobu a dalších předmětů.
 
-## Printing Your Equipment
-Caches can be used to print equipment at your current Printing Rank at the Molecular 3D Printer in the City Center. The level of the printed gear will be the same as your Printing Rank, so make sure to keep your Printing Rank at the same level as your player level.
+## Tisk vybavení
+Cache lze použít k tisku vybavení na vaší aktuální hodnosti tisku v **Molekulární 3D tiskárně** v Centru města. Úroveň vytištěného vybavení bude stejná jako vaše hodnost tisku, takže se ji snažte udržovat na stejné úrovni jako úroveň své postavy.
 
-## Upgrade Modules
-You can attach **Upgrade Modules** onto your equipment. In order to equip the module, the module level cannot be higher than the equipment's level (For example: you can't attach a level 20 upgrade module onto level 5 primary weapon).  
+## Moduly vylepšení
+Na vybavení můžete připevnit **moduly vylepšení**. Aby šel modul nasadit, jeho úroveň nesmí být vyšší než úroveň vybavení (například na primární zbraň úrovně 5 nelze nasadit modul vylepšení úrovně 20).
 
-Upgrade modules can be removed at any time. Removed upgrade modules will take space in your inventory (it has a same unique inventory treatment as gear / equipment). Make sure you have enough space in your inventory before removing any upgrades.  
+Moduly vylepšení lze kdykoli sejmout. Sejmuté moduly zabírají místo v inventáři, přičemž každý se započítává samostatně stejně jako vybavení. Před sundáváním jakýchkoli vylepšení si proto dejte pozor, abyste měli v inventáři dost místa.
 
-If your inventory is getting cluttered with upgrade modules that you can't rid of, you can always store unused module into your Bank Item Storage. 
+Pokud se vám inventář plní moduly vylepšení, kterých se nechcete zbavit, můžete je uložit do bankovního úložiště předmětů.
 
-It is advisable to remove the upgrade module before scrapping your unused gear as scrapping a piece of gear with module in it will only accounts as a module deletion. Always keep an eye on which item that you'll scrap as it's not recoverable.  
+Doporučuje se odstranit modul vylepšení ještě před rozebráním nepoužívaného vybavení, protože rozebrání vybavení s modulem se počítá jen jako smazání modulu. Vždy si hlídejte, který předmět rozebíráte, protože ho už nelze obnovit.
 
-## Upgrade Slots
-Each equipment has a dedicated **Upgrade Slots** depending on it's rarity and quality, which can be summarized as follows:
+## Sloty pro vylepšení
+Každé vybavení má podle rarity a kvality vyhrazené **sloty pro vylepšení**, což lze shrnout následovně:
 
-#### Primary Weapon
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 to 3 Slots
- - Rare: 3 Slots
- - Legendary: 3 Slots
- - Epic: 4 Slots
+#### Primární zbraň
+ - Trash: 0 až 1 slot
+ - Common: 1 až 2 sloty
+ - High Quality: 2 až 3 sloty
+ - Rare: 3 sloty
+ - Legendary: 3 sloty
+ - Epic: 4 sloty
 
-#### Special Weapon
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 Slots
- - Rare: 2 Slots
- - Legendary: 2 Slots
- - Epic: 3 Slots
+#### Speciální zbraň
+ - Trash: 0 až 1 slot
+ - Common: 1 až 2 sloty
+ - High Quality: 2 sloty
+ - Rare: 2 sloty
+ - Legendary: 2 sloty
+ - Epic: 3 sloty
 
-#### Destructive Weapon
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 Slots
- - Rare: 2 Slots
- - Legendary: 2 Slots
- - Epic: 3 Slots
+#### Ničivá zbraň
+ - Trash: 0 až 1 slot
+ - Common: 1 až 2 sloty
+ - High Quality: 2 sloty
+ - Rare: 2 sloty
+ - Legendary: 2 sloty
+ - Epic: 3 sloty
 
-#### Helmet
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 Slots
- - Rare: 2 Slots
- - Legendary: 2 Slots
- - Epic: 3 Slots
+#### Helma
+ - Trash: 0 až 1 slot
+ - Common: 1 až 2 sloty
+ - High Quality: 2 sloty
+ - Rare: 2 sloty
+ - Legendary: 2 sloty
+ - Epic: 3 sloty
 
-#### Upper Armor
- - Trash: 0 to 1 Slots
- - Common: 1 to 2 Slots
- - High Quality: 2 to 3 Slots
- - Rare: 3 to 4 Slots
- - Legendary: 4 Slots
- - Epic: 5 Slots
+#### Horní brnění
+ - Trash: 0 až 1 slot
+ - Common: 1 až 2 sloty
+ - High Quality: 2 až 3 sloty
+ - Rare: 3 až 4 sloty
+ - Legendary: 4 sloty
+ - Epic: 5 slotů
 
-#### Lower Armor
- - Trash: 0 to 1 Slots
- - Common: 1 Slot
- - High Quality: 2 Slots
- - Rare: 3 Slots
- - Legendary: 3 Slots
- - Epic: 4 Slots
+#### Dolní brnění
+ - Trash: 0 až 1 slot
+ - Common: 1 slot
+ - High Quality: 2 sloty
+ - Rare: 3 sloty
+ - Legendary: 3 sloty
+ - Epic: 4 sloty
 
-#### Boots
- - Trash: 0 to 1 Slots
- - Common: 1 Slot
- - High Quality: 2 Slots
- - Rare: 2 Slots
- - Legendary: 2 Slots
- - Epic: 3 Slots
+#### Boty
+ - Trash: 0 až 1 slot
+ - Common: 1 slot
+ - High Quality: 2 sloty
+ - Rare: 2 sloty
+ - Legendary: 2 sloty
+ - Epic: 3 sloty
 
-## Other Items
-Explanation about other inventory such as parts and consumables, can be found on both [Inventory](https://cybercodeonline.com/markdown?path=tutorial%2Finventory.md) and [Resource's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md)
+## Ostatní předměty
+Vysvětlení dalších položek v inventáři, například součástek a spotřebních předmětů, najdete v [Inventáři](https://cybercodeonline.com/markdown?path=tutorial%2Finventory.md) a [Tutoriálu zdrojů](https://cybercodeonline.com/markdown?path=tutorial%2Fresources.md)

@@ -1,32 +1,32 @@
-# Gangs
-**Gangs** are a great way to join forces with your friends. Members gain the ability to access gang headquarters, dungeons, and chat. Gangs can be created and joined once you're level 3. Creating a gang costs 50,000BTC and has a weekly upkeep fee of Resources and BTC.
+# Банди
+**Банди** — чудовий спосіб об'єднатися з друзями. Учасники отримують доступ до штабу банди, підземель і чату. Створювати банду та приєднуватися до неї можна з 3-го рівня. Створення банди коштує 50,000 BTC, а щотижневе утримання потребує ресурсів і BTC.
 
-## Gang HQ
-The gang headquarters show your gang level, necessary upkeep, amount of members, and control over Shangri-La. It also has new AFK tasks and an Automatic Recycler.  
+## Штаб банди
+У штабі банди показано її рівень, необхідне утримання, кількість учасників і контроль над Шангрі-Ла. Тут також доступні нові AFK-завдання та **Автоматичний переробник**.  
 
-Gang level impacts how many members can be in a gang.  To level up, collect Gang EXP by doing AFK tasks such as **Gather Gang Resource** and **Decrypt Memory Shard**. There is also a dedicated leaderboard for gangs, which are ranked by gang level.
+Рівень банди визначає максимальну кількість її учасників. Щоб підвищувати рівень, здобувайте досвід банди, виконуючи AFK-завдання, наприклад **Зібрати ресурси для банди** і **Розшифрувати уламок пам'яті**. Також є окрема таблиця лідерів банд, у якій їх ранжують за рівнем.
 
-There's a weekly upkeep due for all gangs. If the upkeep quota isn't met, the gang will be automatically disbanded.  Upkeep amounts are based on the number of members the gang has, thus more members there are, the more Resources and BitCoin are needed. Minimize the amount of inactive players in your gang to keep upkeep goals lower.
+Щотижня кожна банда повинна сплачувати утримання. Якщо квоту не виконати, банду буде автоматично розпущено. Сума утримання залежить від кількості учасників, тож чим їх більше, тим більше потрібно ресурсів і біткойнів. Намагайтеся зменшувати кількість неактивних гравців у банді, щоб знизити витрати на утримання.
 
-## Occupation Control
-Occupation gives gangs control over different areas of Shangri-La. If a gang is in the top two gangs on the **Occupation Leaderboard**, those members have access to a special task called **Collect Protection Fees**. Occupation Control is gained by performing the **Reinforce Occupation at Shangri-La** Task, which consumes one gang supply crate.  It is recommended to discuss with your gang whether you want to gather occupation points or not.
+## Окупаційний контроль
+Окупаційний контроль дає бандам владу над різними районами Шангрі-Ла. Якщо банда входить до топ-2 у **таблиці лідерів окупації**, її учасники отримують доступ до спеціального завдання **Зібрати данину з місцевих**. Окупаційний контроль здобувається виконанням завдання **Збільшити контроль над Шангрі-Ла**, яке витрачає один **Ящик ресурсів [Ватага]**. Радимо заздалегідь обговорити з учасниками банди, чи хочете ви збирати очки окупації.
 
-## Tech Recycler
-The **Automatic Recycler** will break down various items like Med Tech, Millitary Ammo Tech Parts, or Caches and turn it into Tech Scrap. It is consider one of the most efficient way of getting Tech Scrap, that also yield more Tech Scrap per rate. Since Recycler accounts as an AFK Task, player need to consider it's task duration based on the ammount of item that needs to be turn into Tech Scrap. Not only that, some items (such as Cache) yields up to x4 times of Tech Scrap per cache with a cost of having longer task time than both Med Tech and Millitary Ammo (which only yields x1.2 times per item)   
+## Технопереробник
+**Автоматичний переробник** розбирає різні предмети, як-от техно-медичні деталі, військові тех-деталі для боєприпасів або схеми, і перетворює їх на техно-брухт. Це один із найефективніших способів отримувати техно-брухт і давати більше техно-брухту на одиницю предмета. Оскільки переробник є AFK-завданням, враховуйте його тривалість залежно від кількості предметів, які потрібно переробити. Ба більше, деякі предмети (наприклад, схема) дають до x4 техно-брухту за одну схему, але потребують більше часу, ніж техно-медичні деталі та військові тех-деталі для боєприпасів (які дають лише x1.2 за предмет).   
 
-## Hack Into Fortress
-The final AFK task available to gang members is **Hack SL Data Fortress**.  This task uses **Protocol Breach Shards** to make progress on the SL-Data Fortress Breach.  Total progress can be seen in the Quest tab. When a Breach has been completed, a random 20 minute Global Buff will go into effect.  
+## Злам фортеці
+Останнє AFK-завдання, доступне членам банди, — **Хакнути Фортецю даних Шангрі-Ла**. Це завдання використовує **Уламки прориву протоколу** для просування прориву фортеці даних Шангрі-Ла. Загальний прогрес можна побачити у вкладці **Завдання**. Коли прорив завершено, активується випадковий глобальний баф на 20 хвилин.  
 
-## Gang Dungeons
-Gang dungeon consumes a **Gang Invasion Order Transmitter** when being created.  After the dungeon has been created, anyone in the gang can join, regardless of their level. Enemies are 4-5x stronger than regular enemies and give 2x the exp. Bosses are guaranteed to drop a Rare Locked Container, Rare equipment, and Gang Supply Crates.
+## Підземелля банди
+Створення підземелля банди витрачає **Передавач наказу вторгнення для ватаги**. Після створення до підземелля може приєднатися будь-хто з банди, незалежно від рівня. Вороги тут у 4–5 разів сильніші за звичайних і дають удвічі більше EXP. Боси гарантовано скидають рідкісний заблокований контейнер, рідкісне спорядження та ящики ресурсів банди.
 
-## Gang Options
-As Gang Leader, you will have 3 additional options when visiting one of your gang members' profiles:
- - [KICK] : you can kick the gang member from the gang;
- - [PERMISSIONS] : here you can grant permissions to the gang member:
-   - Invite : it allows the gang member to invite other players to the gang;
-   - Kick  : it allows the gang member to kick other gang members;
-   - Manage : it allows the gang member to add or remove other gang members' permissions.
- - [TRANSFER LEADERSHIP] - you can set another gang member as the leader in case you don't want to be the leader anymore or want to leave the gang.
+## Налаштування банди
+Як лідер банди, ви матимете 3 додаткові варіанти, коли переглядатимете профіль одного з учасників банди:
+  - [ВИГНАТИ] : ви можете вигнати учасника з банди;
+  - [КЕРУВАННЯ ДОСТУПОМ] : тут ви можете надати учаснику права:
+    - Запросити : дозволяє учаснику запрошувати інших гравців до банди;
+    - Вигнати : дозволяє учаснику виганяти інших учасників банди;
+    - Керування : дозволяє учаснику додавати або прибирати права інших учасників банди.
+  - [ПЕРЕДАТИ ЛІДЕРСТВО] - ви можете призначити іншого учасника лідером, якщо більше не хочете бути лідером або хочете покинути банду.
 
-Also as the Leader, in the Gang chat, if you click on the numbers of players in the gang on the top right, you will be able to [DELETE GANG] there.
+Також як лідер у чаті банди, якщо натиснути на число гравців банди у правому верхньому куті, ви зможете там [РОЗПУСТИТИ БАНДУ].

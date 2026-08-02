@@ -1,9 +1,9 @@
 
-## How to refer someone?
-Simply give the person your in game name, and when they create a new character, they simply need to select you as referrer at the character creation screen (where you name your character).
+## Jak polecić kogoś?
+Po prostu podaj tej osobie swoją nazwę w grze. Podczas tworzenia nowej postaci musi ona wybrać cię jako osobę polecającą na ekranie tworzenia postaci, na którym nadaje się jej nazwę.
 
-##  Referral Benefits
-1. Whenever the player you referred purchased unit, you will also receive 10% of it, for example when the player you referred purchased 2000 Unit, you would receieve 200 Unit automatically.
-3. When ever a player you referred reached level `20`, you will receieve some rewards: 
-	- 1 `Fanny Pack`
-	- 1`Locked Rare Container`
+## Korzyści z poleceń
+1. Za każdym razem, gdy polecony przez ciebie gracz kupi Units, otrzymasz również 10% zakupionej przez niego liczby Units. Na przykład po zakupie 2000 Units przez poleconego gracza automatycznie otrzymasz 200 Units.
+2. Gdy polecony przez ciebie gracz osiągnie poziom `20`, otrzymasz następujące nagrody:
+	- 1 `Nerka`
+	- 1 `Rzadki zamknięty pojemnik`

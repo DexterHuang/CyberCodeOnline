@@ -1,55 +1,55 @@
 # Community Raffles
 
-**Community Raffles** be free, player-run giveaways. A matey organizer publishes a raffle, players join before the deadline, an' the game randomly picks an eligible winner when the organizer closes it.
+**Community Raffles** be free, player-run giveaways. A matey organizer publishes a raffle, players join afore th' deadline, an' th' game randomly picks an eligible winner when th' organizer closes it.
 
-The organizer be responsible fer deliverin' any promised prize. The game does not hold, transfer, or guarantee prizes.
+Th' organizer be responsible fer deliverin' any promised prize. Th' game does nah hold, transfer, or guarantee prizes.
 
-## Open Community Raffles
+## Openin' Community Raffles
 
-- Open **Apps**, then select **Community Raffles**.
+- Open **Apps**, then select **Community Raffles**, matey.
 - Ye can also use the lottery-drum icon in the Global Chat header.
 
-## Join a Raffle
+## Joinin' a Raffle
 
-1. Open a raffle and read its title, description, and any equipment snapshots.
-2. Check the minimum level and deadline.
-3. Select **Join raffle** before the deadline.
+1. Open a raffle 'n read its title, description, 'n any equipment snapshots.
+2. Check th' minimum level 'n deadline.
+3. Select **Join raffle** afore th' deadline.
 
 Joinin' be free, but ye cannot undo it. Ye cannot leave a raffle or enter it twice.
 
-Ye cannot join yer own raffle. Yer account must meet the minimum level and have no account restrictions. If one o' yer associated accounts has joined, yer other associated accounts cannot join the same raffle.
+Ye can nah join yer own raffle. Yer account must meet th' minimum level 'n 'ave no account restrictions. If one o' yer associated accounts 'as joined, yer other associated accounts can nah join th' same raffle.
 
-## Create a Raffle
+## Creatin' a Raffle
 
-Ye must be level 300, have no account restrictions, and own one **Community Raffle Kit**.
+Ye must be level 300, 'ave no account restrictions, 'n own one **Community Raffle Kit**.
 
 When creatin' a raffle, ye choose:
 
-- A title and optional description
+- A title 'n optional description
 - A duration o' 1, 3, 7, 14, or 30 days
-- A minimum entry level from 50 to 300
-- Up to three optional equipment snapshots
+- A minimum entry level from 50 t' 300, matey
+- Up t' three optional equipment snapshots
 
-The title and description must be relevant and follow the game rules. They be checked before publishin'.
+Th' title 'n description must be relevant 'n follow th' game rules. Th' game checks 'em afore publishin'.
 
-Publishin' consumes one Community Raffle Kit. Published settings cannot be edited, and deletin' the raffle does not refund the Kit.
+Publishin' consumes one Community Raffle Kit. Published settings can nah be edited, an' deletin' th' raffle does nah refund th' Kit.
 
-## Equipment Snapshots and Prizes
+## Equipment Snapshots 'n Prizes
 
 Attached equipment be shown as a snapshot fer players to inspect. Attachin' equipment does not remove it from the organizer, reserve it fer the winner, or make the game deliver it automatically.
 
-The organizer must clearly explain the prize and deliver it to the winner. Only join raffles whose terms ye understand.
+Th' organizer must clearly explain th' prize 'n deliver it t' th' winner. Only join raffles whose terms ye understand.
 
-## Close a Raffle
+## Closin' a Raffle
 
-After the entry deadline, the organizer has seven days to select **Close raffle**. The game then randomly selects one entrant who be still eligible.
+Aft th' entry deadline, th' organizer 'as seven days t' select **Close raffle**. Th' game then randomly selects one entrant who be still eligible.
 
-The winner and organizer receive mail, and the result be announced in Global Chat. If no eligible entrant remains, the raffle closes without a winner.
+Th' winner 'n organizer receive mail, an' th' result be announced in Global Chat. If no eligible entrant remains, th' raffle closes without a winner.
 
-If the organizer does not close the raffle within seven days after the deadline, it becomes abandoned and no winner can be selected.
+If th' organizer does nah close th' raffle within seven days aft th' deadline, it becomes abandoned an' no winner can be selected.
 
-## Delete a Raffle
+## Deletin' a Raffle
 
-The organizer can permanently delete their raffle at any time. Deletion cannot be undone and does not refund the Community Raffle Kit.
+Th' organizer can permanently delete thar raffle at any time. Deletion can nah be undone an' does nah refund th' Community Raffle Kit.
 
-Moderators may also delete raffles that break the game rules.
+Moderators may also delete raffles that break th' game rules.

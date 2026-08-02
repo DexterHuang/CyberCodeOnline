@@ -1,246 +1,246 @@
-# Resources
-Every item has it's own purposes, ranging from ranging from **Equipment** (which also includes **Upgrade Modules** and **Equipment Caches**), **Ammo**, **Medical Items**, **Crafting Ingredients**, **Key Fragment / Secret Keys**, **Global Boost**, and other consumables. Here are some items that are catalogued onto it's respective category.
+# Ресурси
+Кожен предмет має власне призначення — від **спорядження** (до якого також належать **модулі покращення** й **схеми спорядження**), **набоїв**, **медичних предметів**, **інгредієнтів для виготовлення**, **фрагментів ключів / секретних ключів**, **глобальних бафів** та інших витратних предметів. Нижче наведено деякі предмети з відповідних категорій.
 
 
-## Ammo (for weapons)
+## Набої (для зброї)
 
-### Energy Cells  
-Your **Special Weapon** uses **Energy Cells**. You can find Energy Cells as drops after winning fights or by crafting them using Ammunition Tech Parts. You can carry a maximum of 10000 Energy Cells at a time.
+### Енергостільники  
+Ваша **спеціальна зброя** використовує **Енергостільники**. Їх можна знаходити як здобич після перемоги в боях або виготовляти з техно-деталей для патронів. Ви можете носити максимум 10000 енергостільників одночасно.
 
-### Anti Matter Charge 
-Your **Destructive Weapon** uses **Anti Matter Charge**. You can find them as drops (less often than Energy Cells) or by crafting them from Military Ammunition Tech Parts. You can carry a maximum of 10000 Antimatter Charges at a time.
-
-
-## Equipment
-
-### Gears / Upgrade Module
-On your inventory, both **Equipment** and **Upgrade Module** were treated as a unique item thus it takes one inventory space per item (even with a same item name / rarity / quality). At this point, it's recommended to put your unused gear onto Bank Storage. Selling or scrapping unused gear were also an option to conserve inventory space.
-
-You can choose when to equip a gear by choosing the **Equip** button. Equipped gear will be highlighted at the top of the inventory page. By clicking on gears, you can also choose to install upgrade modules that will enhance certain values of that item. To remove installed upgrade modules, simply click on the installed module. Better rarity & quality equipment will have more upgrade slots.
-
-You can get both Gear and Upgrade Module as a boss / crate drops in Dungeon, via printing in **Molecular 3D Printer**, as a **Daily Rewards**, or by buying one on either NPC Market (**Weapon Smith**) or Players Market (**Shangri-La Market Street**).  
-
-### Equipment Caches
-On your Inventory, all **Equipment Caches** were grouped based on their rarity and types of caches. You can stock as many caches as you want with a maximum of 10000 items per type of cache.
-
-In order to use (or which we'll refer to as "Print" later on) one, a player must visit **Molecular 3D Printer** which can be found in **Shangri-La City Center**. Not only that, a player must have their BTC on its character in order to print one. The price of printing equipment caches was ranged based on both rarity and Printing Skills level.
-
-You can get both Equipment as a boss / crate drops in Dungeon, via **Deploy Farm Bot** task, or by buying one on Players Market (**Shangri-La Market Street**). 
+### Заряд анти-матерії 
+Ваша **руйнівна зброя** використовує **заряди анти-матерії**. Їх можна знаходити як здобич (рідше, ніж енергостільники) або виготовляти з військових тех-деталей для боєприпасів. Ви можете носити максимум 10000 зарядів анти-матерії одночасно.
 
 
-## Tech Parts
-Tech Parts are an item ingredient to craft corresponding items via Crafting tab that's located in your Inventory menu. Tech Parts can be used for other dedicated tasks or even converted into other types of tech scrap.
+## Спорядження
 
-### Ammunition Tech Parts
-One of the item ingredients to craft **Energy Cells** and **Military Ammunition Tech Parts**.
+### Спорядження / модулі покращення
+В інвентарі і **спорядження**, і **модулі покращення** вважаються окремими предметами, тож кожен із них займає один слот інвентаря (навіть якщо назва / рідкість / якість однакові). Тому зараз краще складати зайве спорядження в банківське сховище. Продати або розібрати зайве спорядження також можна, щоб зберегти місце в інвентарі.
 
-Other Ammunition Tech Parts usage is as follows:
-- Can be recycled to yield Tech Scrap (which can be done in **Gang Headquarters**)
-- Tradeable items that players can buy / sell to other players via **Player Trade**
+Спорядження можна вдягати кнопкою **Одягнути**. Одягнене спорядження підсвічується у верхній частині сторінки інвентаря. Натиснувши на спорядження, ви також можете встановлювати модулі покращення, які підсилюють певні параметри предмета. Щоб зняти встановлені модулі покращення, просто натисніть на встановлений модуль. Спорядження кращої рідкості та якості має більше слотів для покращень.
 
-### Military Ammunition Tech Parts
-One of the item ingredients to craft **Anti Matter Charge** and **Hash Processor**.
+І спорядження, і модулі покращення можна отримати як здобич із босів / скринь у підземеллі, під час друку в **Молекулярному 3D-принтері**, як **Щоденні винагороди**, або купити на ринку NPC (**Зброяр**) чи на **Ринку гравців** (**Ринок Шангрі-Ла**).  
 
-Other Military Ammunition Tech Parts usage is as follows:
-- Can be recycled to yield Tech Scrap (which can be done in **Gang Headquarters**)
-- Tradeable items that players can buy / sell to other players via **Player Trade**
+### Схеми спорядження
+В інвентарі всі **схеми спорядження** згруповані за рідкістю та типом схеми. Ви можете зберігати стільки схем, скільки хочете, але максимум 10000 предметів на тип схеми.
 
-### Medical Tech Parts
-One of the item ingredients to craft **Healing Items** and **Hash Processor**.
+Щоб використати (або, як ми далі називатимемо, «друкувати») одну схему, гравець має відвідати **Молекулярний 3D-принтер**, який можна знайти в **Центрі міста Шангрі-Ла**. Ба більше, для друку на персонажі мають бути BTC. Вартість друку схем спорядження залежить і від рідкості, і від рівня навички друку.
 
-Other Medical Tech Parts usage is as follows:
-- Can be recycled to yield Tech Scrap (which can be done in **Gang Headquarters**)
-- Tradeable items that players can buy / sell to other players via **Player Trade**
-
-### Tech Scrap
-One of the item ingredients to craft **Drone Healing** items, Hash Processor, and AI Core. 
-
-Other Tech Scrap usage is as follows:
-- Initialize **Reverse Engineering** task (which can be found in **Shangri-La Commercial Area**)
-- An item / requirements to open Locked Container (which can be found in **Terminal**)
-- An item / requirements to trade Backpack (which can be done in **Lee's Trade Post**)
-- Tradeable items that players can buy / sell to other players via **Player Trade**
+Спорядження можна отримати як здобич із босів / скринь у підземеллі, через завдання **Запустити фарм-бот** або купивши його на **Ринку гравців** (**Ринок Шангрі-Ла**). 
 
 
-## Medical / Healing Items
-Players can use **Medical Tech Parts** and **Tech Scrap** to craft medicine for use in dungeons. In order to craft better medicine, players need to improve their medical science levels which can be done by performing the associated job training or by crafting medicine. Furthermore, better medicine requires players to use more Medical Tech Parts. For example, the lowest level medicine that can be crafted is the Pain Away for 1 Medical Tech Part while the Degraded Nano Repair Bot needs 2 Medical Tech Parts and a medical science level of 10.  
+## Технодеталі
+Технодеталі — це інгредієнти для виготовлення відповідних предметів через вкладку **Виготовлення**, що міститься в меню **Інвентар**. Технодеталі також можна використовувати в окремих завданнях або навіть перетворювати на інші види техно-брухту.
+
+### Техно-деталі для патронів
+Один із інгредієнтів для виготовлення **Енергостільників** і **військових тех-деталей для боєприпасів**.
+
+Інші способи використання техно-деталей для патронів:
+- Можна переробити на техно-брухт (це робиться у **штабі банди**)
+- Торговий предмет, який гравці можуть купувати / продавати в інших гравців через **Player Trade**
+
+### Військові тех-деталі для боєприпасів
+Один із інгредієнтів для виготовлення **зарядів анти-матерії** і **Хеш-процесора**.
+
+Інші способи використання військових тех-деталей для боєприпасів:
+- Можна переробити на техно-брухт (це робиться у **штабі банди**)
+- Торговий предмет, який гравці можуть купувати / продавати в інших гравців через **Player Trade**
+
+### Техно-медичні деталі
+Один із інгредієнтів для виготовлення **лікувальних предметів** і **Хеш-процесора**.
+
+Інші способи використання техно-медичних деталей:
+- Можна переробити на техно-брухт (це робиться у **штабі банди**)
+- Торговий предмет, який гравці можуть купувати / продавати в інших гравців через **Player Trade**
+
+### Техно-брухт
+Один із інгредієнтів для виготовлення предметів **лікувальних дронів**, Хеш-процесора і ядер ШІ. 
+
+Інші способи використання техно-брухту:
+- Запуск завдання **Реконструювати техно-брухт** (його можна знайти в **Комерційній зоні Шангрі-Ла**)
+- Предмет / вимога для відкриття заблокованого контейнера (його можна знайти в **Терміналі**)
+- Предмет / вимога для обміну на рюкзак (це можна зробити в **Точці обміну Лі**)
+- Торговий предмет, який гравці можуть купувати / продавати в інших гравців через **Player Trade**
+
+
+## Медичні / лікувальні предмети
+Гравці можуть використовувати **техно-медичні деталі** і **техно-брухт**, щоб виготовляти ліки для використання в підземеллях. Щоб створювати кращі ліки, гравцям потрібно підвищувати рівень медичної науки — це можна зробити, виконуючи відповідну навчальну роботу або виготовляючи ліки. Крім того, кращі ліки вимагають більше техно-медичних деталей. Наприклад, найнижчий рівень ліків, який можна створити, — **Знеболююче** за 1 техно-медичну деталь, тоді як **Деградований нанобот-ремонтник** потребує 2 техно-медичні деталі й 10-го рівня медичної науки.  
   
-There are two categories of medicine that can be crafted which are **Single Heals** and **Group Heals**. Further information as follows:
+Є дві категорії ліків, які можна виготовляти: **одиночне лікування** і **групове лікування**. Деталі нижче:
 
-### Single Heals  
-As the name suggests, single heals will only heal yourself for the specified amount. Single heal medicines are items such as Pain Away and anything ending with Bot (e.g. Nano Medic Bot). In order to craft single heals, you need the specified medical science level and Medical Tech Parts.  
+### Одиночне лікування  
+Як випливає з назви, одиночне лікування зцілює лише вас і лише на вказану кількість. До нього належать предмети на кшталт **Знеболюючого** й усі предмети, назви яких закінчуються на Bot (наприклад, **Нанобот-медик**). Щоб створити такі предмети, потрібні вказаний рівень медичної науки й техно-медичні деталі.  
 
-In general, the healing item / heal amount / medical level requirement / med tech amount as follows:
+Загалом список лікувальних предметів / кількості лікування / вимог до рівня / кількості техно-медичних деталей такий:
 
-> **Pain Away** (501+ Health) - No Level ; 1 Med Tech
+> **Знеболююче** (501+ здоров'я) - без рівня ; 1 техно-медична деталь
 
-> **Degraded Nano Repair Bot** (1201+ Health) - Med Science 10 ; 2 Med Tech
+> **Деградований нанобот-ремонтник** (1201+ здоров'я) - медична наука 10 ; 2 техно-медичні деталі
 
-> **Degraded Nano Medic Bot** (6001+ Health) - Med Science 20 ; 4 Med Tech
+> **Деградований нанобот-медик** (6001+ здоров'я) - медична наука 20 ; 4 техно-медичні деталі
 
-> **Nano Medic Bot** (12001+ Health) - Med Science 30 ; 8 Med Tech
+> **Нанобот-медик** (12001+ здоров'я) - медична наука 30 ; 8 техно-медичних деталей
 
-> **Military Nano Medic Bot** (26001+ Health) - Med Science 40 ; 16 Med Tech
+> **Нанобот-медик військового ґатунку** (26001+ здоров'я) - медична наука 40 ; 16 техно-медичних деталей
 
-> **Advanced Nano Medic Bot**  (54001+ Health) - Med Science 50 ; 32 Med Tech
+> **Передовий нанобот-медик**  (54001+ здоров'я) - медична наука 50 ; 32 техно-медичні деталі
 
-> **High Quality Nano Medic Bot** (110001+ Health)- Med Science 70 ; 64 Med Tech
+> **Високоякісний нанобот-медик** (110001+ здоров'я) - медична наука 70 ; 64 техно-медичні деталі
 
-> **Rare Nano Medic Bot** (240001+ Health) - Med Science 90 ; 128 Med Tech
+> **Рідкісний нанобот-медик** (240001+ здоров'я) - медична наука 90 ; 128 техно-медичних деталей
 
-> **Legendary Nano Medic Bot** (480001+ Health) - Med Science 110 ; 256 Med Tech
+> **Легендарний нанобот-медик** (480001+ здоров'я) - медична наука 110 ; 256 техно-медичних деталей
 
-> **Epic Nano Medic Bot** (1000001+ Health) - Med Science 130 ; 256 Med Tech
+> **Епічний нанобот-медик** (1000001+ здоров'я) - медична наука 130 ; 256 техно-медичних деталей
 
-### Group Heals  
-Group heals can heal the entire group in a dungeon when used but will heal each person less than single heals of the same tier. Group heals are items such as Pain Away Spray and anything ending with Drone (e.g. Nano Medic Drone). In order to craft group heals, you need the same level single heal and the associated number of Tech Scrap. For instance, to make Pain Away Spray you need 1 Pain Away and 1 Tech Scrap. 
+### Групове лікування  
+Групове лікування зцілює всю групу в підземеллі, але кожного окремого гравця лікує менше, ніж одиночне лікування того самого рівня. До нього належать предмети на кшталт **Знеболюючого Спрею** й усі предмети, назви яких закінчуються на Drone (наприклад, **Нанодрон-медик**). Щоб створити групове лікування, потрібен одиночний лікувальний предмет того самого рівня та відповідна кількість техно-брухту. Наприклад, щоб зробити **Знеболюючий Спрей**, вам потрібні 1 **Знеболююче** і 1 техно-брухт. 
 
-In general, the healing item / heal amount / medical level requirement / healing item & tech scrap amount as follows:
+Загалом список лікувальних предметів / кількості лікування / вимог до рівня / лікувального предмета та техно-брухту такий:
 
-> **Pain Away Spray** (301+ Health) - Med Science 10 ; 1 Pain Away & 1 Tech Scrap
+> **Знеболюючий Спрей** (301+ здоров'я) - медична наука 10 ; 1 **Знеболююче** & 1 техно-брухт
 
-> **Degraded Repair Drone** (901+ Health) - Med Science 20 ; 1 Degraded Nano Repair Bot & 1 Tech Scrap
+> **Деградований дрон-ремонтник** (901+ здоров'я) - медична наука 20 ; 1 **Деградований нанобот-ремонтник** & 1 техно-брухт
 
-> **Degraded Nano Medic Drone** (4001+ Health) - Med Science 30 ; 1 Degreaded Nano Medic Bot & 1 Tech Scrap
+> **Деградований нанодрон-медик** (4001+ здоров'я) - медична наука 30 ; 1 **Деградований нанобот-медик** & 1 техно-брухт
 
-> **Nano Medic Drone** (10001+ Health) - Med Science 40 ; 1 Nano Medic Bot & 1 Tech Scrap
+> **Нанодрон-медик** (10001+ здоров'я) - медична наука 40 ; 1 **Нанобот-медик** & 1 техно-брухт
 
-> **Military Nano Medic Drone** (20001+ Health) - Med Science 50 ; 1 Military Nano Medic Bot & 1 Tech Scrap
+> **Нанодрон медик військового ґатунку** (20001+ здоров'я) - медична наука 50 ; 1 **Нанобот-медик військового ґатунку** & 1 техно-брухт
 
-> **Advanced Nano Medic Drone** (40001+ Health) - Med Science 60 ; 1 Advanced Nano Medic Bot & 1 Tech Scrap
+> **Передовий нанодрон-медик** (40001+ здоров'я) - медична наука 60 ; 1 **Передовий нанобот-медик** & 1 техно-брухт
 
-> **High Quality Nano Medic Drone** (80001+ Health) - Med Science 80 ; 1 High Quality Nano Medic Bot & 1 Tech Scrap
+> **Високоякісний нанодрон-медик** (80001+ здоров'я) - медична наука 80 ; 1 **Високоякісний нанобот-медик** & 1 техно-брухт
 
-> **Rare Nano Medic Drone** (160001+ Health) - Med Science 100 ; 1 Rare Nano Medic Bot & 1 Tech Scrap
+> **Рідкісний нанодрон-медик** (160001+ здоров'я) - медична наука 100 ; 1 **Рідкісний нанобот-медик** & 1 техно-брухт
 
-> **Legendary Nano Medic Drone** (320001+ Health) - Med Science 120 ; 1 Legendary Nano Medic Bot & 1 Tech Scrap
+> **Легендарний нанодрон-медик** (320001+ здоров'я) - медична наука 120 ; 1 **Легендарний нанобот-медик** & 1 техно-брухт
 
-> **Epic Nano Medic Drone** (640001+ Health) - Med Science 140 ; 1 Epic Nano Medic Bot & 1 Tech Scrap
+> **Епічний нанодрон-медик** (640001+ здоров'я) - медична наука 140 ; 1 **Епічний нанобот-медик** & 1 техно-брухт
 
 
-## Consumables
-These are an item that players can use for various needs, ranging from AFK Task, Market Item, Trade Item, or just a plain consumable.
+## Витратні предмети
+Це предмети, які гравці можуть використовувати для різних потреб — від предметів для AFK-завдань, ринку й обміну до звичайних витратних предметів.
 
-### AI Core
-**AI Cores** are essential for players as a way to gain Character EXP, a Market-value item, and Trade Currency. 
+### Ядро ШІ
+**Ядра ШІ** важливі для гравців: вони дають досвід персонажа, мають ринкову цінність і слугують торговою валютою. 
 
-- For EXP purposes, players can use it on the highest unlocked area on Station via **Deploy Farm Bot** task. 
-- For Market purposes, players can sell these items on **Shangri-La Market Street**, following current market prices. 
-- For Trade purposes, players can trade their AI Cores for various items with other players such as Medical Tech Parts, Hash Processor, Containers, etc. 
+- Для EXP гравці можуть використовувати їх у найвищому відкритому районі станції через завдання **Запустити фарм-бот**. 
+- На ринку гравці можуть продавати ці предмети на **Ринку Шангрі-Ла** за поточними ринковими цінами. 
+- Для обміну гравці можуть міняти свої ядра ШІ на різні предмети в інших гравців, як-от техно-медичні деталі, Хеш-процесор, контейнери тощо. 
 
-### AI Core Cluster
-**AI Core Cluster** is the compressed version of AI. 1 AI Core Cluster contains 1,000 AI, making it more managable and easy to store inside player's inventory. AI Core Cluster can be made (needs 1,000 AI & 50,000 BTC) and disassembled via Crafting.
+### Кластер ядер ШІ
+**Кластер ядер ШІ** — це стиснена версія ядер ШІ. 1 кластер ядер ШІ містить 1,000 ядер ШІ, що робить його зручнішим для зберігання в інвентарі гравця. Кластер ядер ШІ можна створити (потрібно 1,000 ядер ШІ і 50,000 BTC) і розібрати через **Виготовлення**.
 
-AI Core Cluster can also be used as a Market-value item, and Trade Currency.
+Кластер ядер ШІ також можна використовувати як предмет ринкової цінності та торгову валюту.
 
-### Hash Processor
-**Hash Processor** are essential for players as a way to gain Mining EXP, a Market-value item, and Trade Currency.  
+### Хеш-процесор
+**Хеш-процесори** важливі для гравців: вони дають досвід гірництва, мають ринкову цінність і слугують торговою валютою.  
 
-- For EXP purposes, players can use it on **Shangri-La Commercial Area** via **Crypto Mining** task. 
-- For Market purposes, players can sell these items on **Shangri-La Market Street**, following current market prices. 
-- For Trade purposes, players can trade their Hash Processor for various items with other players such as Medical Tech Parts, AI Cores, Containers, etc. 
+- Для EXP гравці можуть використовувати їх у **Комерційній зоні Шангрі-Ла** через завдання **Запустити крипто майнинг**. 
+- На ринку гравці можуть продавати ці предмети на **Ринку Шангрі-Ла** за поточними ринковими цінами. 
+- Для обміну гравці можуть міняти свої хеш-процесори на різні предмети в інших гравців, як-от техно-медичні деталі, ядра ШІ, контейнери тощо. 
 
-### Experience Memory / Shard
-**Experience Memory / Shard** is an item that players can use to gain EXP instantly. The difference between Memory & Shard was the type of EXP, as Memory gains Character EXP and Shard gains Skills EXP respectively. These items are not tradable and best to be used when **Frontal Cortex Optimization Transmitter** or **EXP Buff** were in effect.
+### Флеш-досвід / уламок досвіду
+**Флеш-досвід / уламок** — це предмет, який можна використати, щоб миттєво отримати EXP. Різниця між Memory та Shard полягає в типі EXP: Memory дає досвід персонажа, а Shard — досвід навичок. Ці предмети не можна обмінювати, і найкраще використовувати їх, коли активний **Передавач оптимізації лобової кібер-кори мозку** або баф EXP. 
 
-### Containers
-**Containers** are essential for players as an alternative way of finding AI / Hash Processor, a Market-value item, and Trade Currency.  
+### Контейнери
+**Контейнери** є важливим альтернативним способом знаходити ядра ШІ / хеш-процесори, а також мають ринкову цінність і можуть бути торговою валютою.  
 
-To open Locked Containers, players must visit **Terminal** while having BTC and Tech Scrap in its inventory. When opening Containers, players will mostly find items such as AI Core, Hash Processor, Gear (based on players level), and unique drop which can only be found on specific Containers.
+Щоб відкрити заблоковані контейнери, гравці мають прийти до **Терміналу**, маючи BTC і техно-брухт в інвентарі. Відкриваючи контейнери, гравці найчастіше знаходять ядро ШІ, хеш-процесор, спорядження (залежно від рівня гравця) та унікальні предмети, які можна знайти лише в певних контейнерах.
 
-Players can also use Container as a Market item or as Trade Currency, which both benefits players via BTC or other traded items.
+Гравці також можуть використовувати контейнер як предмет для ринку або торгову валюту, отримуючи натомість BTC чи інші предмети для обміну.
 
-### Equipment Calibration Core
-**Equipment Calibration Core** was used as a calibration item. Whenever a player attempts to do calibration, players must insert Equipment Calibration Core before proceeding to gear calibration. Explanation around Calibration can be found on [Calibration's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
+### Ядро калібрування обладнання
+**Ядро калібрування обладнання** використовується як предмет для калібрування. Коли гравець намагається виконати калібрування, спершу треба вставити ядро калібрування обладнання, а вже потім продовжувати калібрування спорядження. Пояснення щодо калібрування можна знайти в [туторіалі про калібрування](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
 
-Players can also use Equipment Calibration Core as a Market item or as Trade Currency, which both benefit players via BTC or other traded items.
+Гравці також можуть використовувати ядро калібрування обладнання як предмет для ринку або торгову валюту, отримуючи натомість BTC чи інші предмети для обміну.
 
-### Factory Reset Shard
-**Factory Shard** was used as a way to reset calibration, thus players can trade / sell the designated gear. Explanation around Calibration can be found on [Calibration's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
+### Уламок заводських налаштувань
+**Уламок заводських налаштувань** використовується як спосіб скинути калібрування, щоб гравці могли торгувати / продавати відповідне спорядження. Пояснення щодо калібрування можна знайти в [туторіалі про калібрування](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
 
-Players can also use Factory Shard as a Market item or as Trade Currency, which both benefit players via BTC or other traded items.
+Гравці також можуть використовувати уламок заводських налаштувань як предмет для ринку або торгову валюту, отримуючи натомість BTC чи інші предмети для обміну.
 
 
-## Gang Items
-These are an item that players can use for gang needs, ranging from AFK Task, Trade Item, or as a requirement to do a certain activity. For in-depth explanation around Gangs can be found on [Gang's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fgangs.md)
+## Предмети банди
+Це предмети, які гравці можуть використовувати для потреб банди — в AFK-завданнях, для обміну або як вимогу для виконання певної дії. Детальніше про банди можна прочитати в [туторіалі про банди](https://cybercodeonline.com/markdown?path=tutorial%2Fgangs.md)
 
-### Supply Crate
-**Supply Crates** were used as a way to gain Gang Resources & Gang EXP. To do so, players must do Gang Task which involves using Supply Crates as a requirement (these certain tasks will also give players Mining EXP). Supply Crates can also be used as a way to "define gang territory" by doing **Occupation Control** task, as this will give the gang a certain **Occupation Point** with no contribution to Gang Resources.
+### Ящик ресурсів [Ватага]
+**Ящики ресурсів банди** використовуються, щоб отримувати ресурси та досвід банди. Для цього гравці мають виконувати завдання банди, які вимагають ящиків ресурсів (ці завдання також дають досвід гірництва). Ящики ресурсів також можна використовувати, щоб «визначати територію банди», виконуючи завдання **Окупаційний контроль**, адже це дає банді певне **очко окупації** без внеску до ресурсів банди.
 
-Supply Crates are tradeable and can be sold or traded with other players.
+Ящики ресурсів можна обмінювати й продавати іншим гравцям.
 
-### Encrypted Gang Memory Shard
-**Encrypted Gang Memory Shard** was used as a way to gain Gang EXP. To do so, players must do Gang Task which involves using Encrypted Gang Memory Shard as a requirement (these certain tasks will also give players Mining EXP & Equipment Drops).
+### Зашифрований уламок пам'яті банди
+**Зашифровані уламки пам'яті банди** використовуються, щоб отримувати досвід банди. Для цього гравці мають виконувати завдання банди, які вимагають зашифрованих уламків пам'яті банди (ці завдання також дають досвід гірництва та здобич спорядження).
 
-Encrypted Gang Memory Shard are tradeable and can be sold or traded with other players.
+Зашифровані уламки пам'яті банди можна обмінювати й продавати іншим гравцям.
 
-### Protocol Breach Shard
-**Protocol Breach Shard** was used as a way to contribute to **SL-Data Fortress Breach** (which player can see its progression on **Quest** tab). To contribute to one, players must do Gang Task which involves using Protocol Breach Shard as a requirement.
+### Уламок прориву протоколу
+**Уламки прориву протоколу** використовуються, щоб робити внесок у **прорив фортеці даних SL** (його прогрес гравець може бачити у вкладці **Завдання**). Щоб зробити внесок, гравці мають виконувати завдання банди, які вимагають уламків прориву протоколу.
 
-Protocol Breach Shard are tradeable and can be sold or traded with other players.
+Уламки прориву протоколу можна обмінювати й продавати іншим гравцям.
 
-### Gang Invasion Order Transmitter
-**Gang Invasion Order Transmitter** was used as a way to enter **Gang Dungeons**. When entering one, keep in mind that Gang Dungeons are the most difficult dungeon of all, thus having proper gear might help ease out the difficulty.
+### Передавач наказу вторгнення для ватаги
+**Передавачі наказу вторгнення для ватаги** використовуються, щоб потрапити в **підземелля банди**. Пам'ятайте: підземелля банди — найважчі підземелля, тож відповідне спорядження може значно полегшити проходження.
 
-Gang Invasion Order Transmitters are tradeable and can be sold or traded with other players.
+Передавачі наказу вторгнення для ватаги можна обмінювати й продавати іншим гравцям.
 
 
-## Boosts
-While most **Boost** can be purchased in the **Arasaka Unit Exchange**, some of the boost below can only be found on specific places and cannot be bought on any store.
+## Бафи
+Хоча більшість **бафів** можна купити в **Обміні валют Арасаки**, деякі з наведених нижче бафів можна знайти лише в певних місцях, і їх не продають у жодному магазині.
 
-### Synaptic Acceleration Transmitter
-This item will boost how quickly AFK time passes by +5% for 10 minutes, stackable up to +80%. You can use another to extend the duration of the boost, resetting the timer. To make use of the boost, you just need to begin an AFK session while the boost is active. This item is global and will affect and stack with other player. This does not stack with the rare version. This item can only be found on both **Dungeon's Boss Room crates** and **Pachinko**.
+### Синаптичний передавач прискорення
+Цей предмет підвищує швидкість проходження AFK-часу на +5% на 10 хвилин, ефект складається до +80%. Ви можете використати ще один, щоб продовжити дію бафа й скинути таймер. Щоб скористатися бафом, достатньо почати AFK-сесію, поки баф активний. Цей предмет діє глобально, впливає на інших гравців і складається з їхніми ефектами, але не складається з рідкісною версією. Знайти його можна лише в **ящиках кімнати боса підземелля** та **Pachinko**.
 
-### Personal Calibration Shard
-This item can only be used as a personal needs. It only affects for 5 minutes with a purpose of minimize the chance of calibration failure by 5% (or 50% if player stumble upon the **Personal Event** variation). The personal ones does not stack with the global ones. It stacks infinitely and not affected with other players.  This item can only be found on **Rare Container**. Explanation around Calibration can be found on [Calibration's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
+### Особистий уламок калібрування
+Цей предмет можна використовувати лише для особистих потреб. Він діє 5 хвилин і зменшує шанс невдачі калібрування на 5% (або на 50%, якщо гравець натрапить на варіант **«Подія» (Personal Event)**). Особисті версії не складаються з глобальними. Вони складаються безмежно і не залежать від інших гравців. Цей предмет можна знайти лише в рідкісному контейнері. Пояснення щодо калібрування можна знайти в [туторіалі про калібрування](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
 
-### CyberTunnel VPN
-This item will negates all chat exploits for 1 hour. It can only be used as a personal needs and not affected by other players. This item can be found on **Rare / Mysterious Container** and via Unit purchase on **Arasaka Unit Exchange**.
+### КіберТунель VPN
+Цей предмет на 1 годину прибирає всі чат-експлойти. Його можна використовувати лише для особистих потреб, і він не залежить від інших гравців. Знайти його можна в **рідкісному / таємничому контейнері** або купити за Юніти в **Обміні валют Арасаки**.
 
 
-## Global Boosts
-These items can only be purchased in the **Arasaka Unit Exchange**. The effects are global and will give everyone the benefits based on its buffs.
+## Глобальні бафи
+Ці предмети можна купити лише в **Обміні валют Арасаки**. Ефекти є глобальними і дають користь усім залежно від бафу.
 
-### Rare Synaptic Acceleration Transmitter
-These are similar to regular Synaptic Acceleration Transmitters but don't stack with them. The rare version will instantly boost how quickly AFK time passes by +40% for 20 minutes, stackable to +80%. You can use another to extend the duration of the boost, thus resetting the timer. To make use of the boost, you just need to begin an AFK session while the boost is active. This item is global and will affect and stack with other players.
+### Рідкісний синаптичний передавач прискорення
+Це схожий на звичайний синаптичний передавач прискорення предмет, але він не складається з ним. Рідкісна версія миттєво підвищує швидкість проходження AFK-часу на +40% на 20 хвилин, ефект складається до +80%. Ви можете використати ще один, щоб продовжити дію бафа й скинути таймер. Щоб скористатися бафом, достатньо почати AFK-сесію, поки баф активний. Цей предмет діє глобально і впливає на інших гравців, складаючись з їхніми ефектами.
 
-### Transaction Exploit Transmitter
-This item affects globally and is used to boost BitCoin. Each Transaction Exploit Transmitter will provide a +40% boost to BitCoin gain for 20 minutes while stacking maxes out at 100%. You can use another to extend the duration of the boost, thus resetting the timer.
+### Передавач експлойту транзакцій
+Цей предмет діє глобально й використовується для підвищення заробітку біткойнів. Кожен передавач експлойту транзакцій дає +40% до заробітку біткойнів на 20 хвилин, а максимальне накопичення — 100%. Ви можете використати ще один, щоб продовжити дію бафа й скинути таймер.
 
-### Frontal Cortex Optimization Transmitter
-This item affects globally and is used to boost EXP gains. Each Frontal Cortex Optimization Transmitter will provide a +80% boost to EXP gain for 20 minutes. Stacking does nothing other than resetting it's timer due to it's max boost. You can use another to extend the duration of the boost, thus resetting the timer.
+### Передавач оптимізації лобової кібер-кори мозку
+Цей предмет діє глобально й використовується для підвищення заробітку EXP. Кожен передавач оптимізації лобової кібер-кори мозку дає +80% до заробітку EXP на 20 хвилин. Накопичення нічого не додає, окрім скидання таймера, бо це його максимальний ефект. Ви можете використати ще один, щоб продовжити дію бафа й скинути таймер.
 
-### Calibration Shard
-This item affects globally. It only affects for 5 minutes with a purpose to minimize the chance of calibration failure (ranging from 10% to 300%). It only stacks twice with each rarity (for example, the 10% (or called Rare Shard) can only stack with the other 10% and not with other variations such as 50% or even 100%). Explanation around Calibration can be found on [Calibration's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
+### Уламок ШІ калібрування
+Цей предмет діє глобально. Він діє лише 5 хвилин і потрібен, щоб зменшити шанс невдачі калібрування (від 10% до 300%). Кожна рідкість може складатися лише двічі (наприклад, 10% — або так званий рідкісний уламок (Rare Shard) — може складатися лише з іншим 10% і не з такими варіантами, як 50% чи навіть 100%). Пояснення щодо калібрування можна знайти в [туторіалі про калібрування](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
 
-### Safety Nano Calibration Bot
-This item affects globally. It only affects for 5 minutes with a purpose to negate calibration failure (up to 100%). It stacks with other Safety Nano. Explanation around Calibration can be found on [Calibration's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
+### Наноботи безпечного калібрування
+Цей предмет діє глобально. Він діє лише 5 хвилин і потрібен, щоб повністю прибрати невдачу калібрування (до 100%). Він складається з іншими наноботами безпечного калібрування. Пояснення щодо калібрування можна знайти в [туторіалі про калібрування](https://cybercodeonline.com/markdown?path=tutorial%2Fcalibration.md)
 
-### Chat Exploit
-This item does not give the player any benefits aside from altering chat text. It affects globally and can be interrupted by using **CyberTunnel VPN**. The Chat Exploit itself has a variety of alterations ranging from UwU (which UwU-ifies the text) up to Pirate (which alters the text into pirate speak).
+### Чат-експлойт
+Цей предмет не дає гравцеві жодних переваг, окрім зміни тексту чату. Він діє глобально і може бути перерваний за допомогою **КіберТунель VPN**. Сам чат-експлойт має різні варіанти змін — від UwU (який перетворює текст у UwU-стиль) до Pirate (який перетворює текст на піратську мову).
 
-### RNG Interferer
-This item affects the drop percentage of **Legendary Container** (the effect only applies AFTER the buff starts and not before). When opening Legendary Container during the buff, it affects both Legendary (by 1%) & Epic (by 0.5%) drop percentage while also dropping additional item / loot to the table. These additional drop does not affect the probability of gaining either Legendary / Epic gear in the first place. It only affects for 2 minutes and affects globally.
+### Рандомізатор
+Цей предмет впливає на відсоток випадання **легендарного контейнера** (ефект працює лише ПІСЛЯ початку бафа, а не до нього). Під час відкривання легендарного контейнера у період дії бафа він збільшує шанс випадання легендарного спорядження (на 1%) і епічного спорядження (на 0.5%), а також додає до таблиці додаткові предмети / здобич. Ці додаткові предмети не впливають на початкову ймовірність отримати легендарне чи епічне спорядження. Він діє лише 2 хвилини і глобально.
 
 
-## Modifiers
-**Modifiers**. These modifiers can only be found in the dungeon, by picking up **Quest Giver** that is represented by `?` symbol. For full modifier list, can be found on [Combat's Tutorial](https://cybercodeonline.com/markdown?path=tutorial%2Fcombat.md)
+## Модифікатори
+**Модифікатори**. Ці модифікатори можна знайти лише в підземеллі, взаємодіючи з **квестодавцем (Quest Giver)**, який позначається символом `?`. Повний список модифікаторів можна знайти в [туторіалі про бій](https://cybercodeonline.com/markdown?path=tutorial%2Fcombat.md)
 
-Type / kinds of Modifiers can be summarized as follows:
+Типи модифікаторів можна підсумувати так:
 
 ### Overcharged
-**Overcharged** affects player's damage within a span amount of time. The damage modifiers ranged from +5% (**Overcharged I**) up to +25% (**Overcharged V**)
+**Overcharged** впливає на шкоду гравця протягом певного часу. Модифікатори шкоди сягають від +5% (**Overcharged I**) до +25% (**Overcharged V**).
 
 ### Reinforced
-**Reinforced** affect player's defence within a span amount of time. The defence modifiers ranged from +5% (**Reinforced I**) up to +25% (**Reinforced V**)
+**Reinforced** впливає на захист гравця протягом певного часу. Модифікатори захисту сягають від +5% (**Reinforced I**) до +25% (**Reinforced V**).
 
 ### Shield Enhance  
-**Shield Enhance** affect player's shield multiplier within a span amount of time. The shield multiplier modifiers ranged from +5% (**Shield Enhance I**) up to +25% (**Shield Enhance V**)
+**Shield Enhance** впливає на множник щита гравця протягом певного часу. Модифікатори множника щита сягають від +5% (**Shield Enhance I**) до +25% (**Shield Enhance V**).
 
 
-## Global Time Skips
-Although these aren't items, players can also purchase global skips from their AFK screen (the Map tab when an AFK task is in progress). Skippers can choose from a range of 15 minutes to 180 minutes to skip. The time skips work with boosts, so it's more cost-efficient to use skips when boosts are already running.
+## Глобальні прискорення
+Хоч це й не предмети, гравці також можуть купувати глобальні прискорення з екрана AFK (вкладка **Мапа**, коли виконується AFK-завдання). Гравці можуть обрати прискорення від 15 до 180 хвилин. Глобальні прискорення працюють із бафами, тож вигідніше використовувати їх, коли бафи вже активні.
 
-As with all other paid items, time skips apply to everyone on the server. However, since they skip time immediately, only players who have started AFK tasks before the button is pressed will receive the benefit. Often it can be helpful to coordinate in global chat so player are ready to tag along.
+Як і всі інші платні предмети, глобальні прискорення діють на всіх на сервері. Але оскільки вони пропускають час миттєво, користь отримають лише гравці, які запустили AFK-завдання до натискання кнопки. Часто корисно домовитися в глобальному чаті, щоб гравці встигли підготуватися.
 
-The benefit is also applied to all AFK players one-by-one, so it may take 1 ~ 3 minutes for the effects to apply for everyone. Most regular skippers will recommend waiting around 1 minute after the skip button becomes available again, and purchasing 30-minute skips is the most popular choice when boosts are also running.
+Ефект також застосовується до всіх AFK-гравців по одному, тож на його розгортання може піти 1–3 хвилини. Більшість гравців, які регулярно запускають прискорення, радять зачекати приблизно 1 хвилину після того, як кнопка прискорення знову стане доступною, а 30-хвилинні прискорення — найпопулярніший вибір, коли бафи також активні.

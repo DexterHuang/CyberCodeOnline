@@ -1,97 +1,97 @@
-# Locations
-The game begins in Shangri-La City Center. From there, you can explore various areas by going to different subway stations. 
+# Lokace
+Hra začíná v Centru města Shangri-La. Odtud můžete prozkoumávat různé oblasti cestou na jednotlivé stanice metra.
 
-## City Map
+## Mapa města
 
 ![Map](/resources/mobile-tutorial/Map.png)
 
-## Shangri-La City Center  
+## Centrum města Shangri-La  
 ![Shangri-La City Center](/resources/mobile-tutorial/Shangri-LaCityCenter.png)  
-This is the Main HUB to which you will often return to after you die, to print equipment, to make purchases and for various other activities.
+Tohle je hlavní centrální uzel, kam se budete často vracet po smrti, kvůli tisku vybavení, nákupům a dalším činnostem.
 
-## 3D Molecular Printer  
+## Molekulární 3D tiskárna  
 ![3D Molecular Printer](/resources/mobile-tutorial/Molecular3DPrinter.png)  
-In the City Center, you can find the Molecular 3D Printer, which will be used to print your equipment from various caches.
+V Centru města najdete Molekulární 3D tiskárnu, která se používá k tisku vybavení z různých cache.
 
-Clicking on the printer option will bring you to the printing panel which lists all the caches you have.  
-It costs BitCoin to print, so make sure you have enough. All details including BTC cost and printing experience given will be listed on the cache printing panel.  
-If you wish to print a cache, all you need to do is to click on the cache you wish to print. If you have multiple caches of the same quality and type, it will bring up a dialog asking how many you want to print.  
+Klepnutí na možnost tiskárny vás přivede na panel tisku, kde jsou vypsány všechny cache, které máte.  
+Tisk stojí BitCoiny, takže si dejte pozor, abyste jich měli dost. Všechny podrobnosti včetně ceny v BTC a získané tiskové zkušenosti jsou uvedeny na panelu tisku cache.  
+Chcete-li nějakou cache vytisknout, stačí na ni kliknout. Pokud máte více cache stejné kvality a typu, zobrazí se dialog, který se zeptá, kolik jich chcete vytisknout.  
 
-A good strategy is to print all the trash items first then the common, saving rare, legendary and epic for later levels. The reason for this is that printing trash and common quality items first will provide you with printing experience; these items can then be scrapped to acquire Tech Scraps, which can also boost your Printing Level or be used to craft other items and unlock locked containers.
+Dobrá strategie je nejprve vytisknout všechny předměty Trash, potom Common a Rare, Legendary a Epic si nechat na pozdější úrovně. Důvodem je, že tisk předmětů Trash a Common vám dá tiskové zkušenosti; tyto předměty pak můžete rozebrat na technický šrot, který může zvyšovat hodnost tisku nebo se používat k výrobě dalších předmětů a otevírání uzamčených kontejnerů.
 
-## Weaponsmith  
+## Zbrojíř  
 ![Weaponsmith](/resources/mobile-tutorial/WeaponSmith.png)  
-The Weaponsmith is a vendor in Shangri-La City Center who has items for sale and allows you to sell your items for BTC. You will see the items available for sale at the top. You can click on any of them and choose Buy if you can afford them.  
-If you have equipment with the **bargain** stat, you will get a better deal.  
+Zbrojíř je prodejce v Centru města Shangri-La, který má předměty na prodej a umožňuje vám prodávat vaše předměty za BTC. Nahoře uvidíte předměty, které jsou momentálně v nabídce. Na kterýkoli z nich můžete kliknout a zvolit **Koupit**, pokud si ho můžete dovolit.  
+Pokud máte vybavení se statistikou **Smlouvání**, dostanete lepší cenu.
 
-If you want to sell something to the Weaponsmith, you will need to open your inventory, click on any item you wish to sell and choose the Sell option. For some items, it may be more worth it to sell them at the player market.
+Pokud chcete něco Zbrojířovi prodat, musíte otevřít inventář, kliknout na předmět, který chcete prodat, a zvolit možnost **Prodat**. U některých předmětů může být výhodnější prodat je na Trhu hráčů.
 
-You can repair your items here too. You lose durability the more you use your equipment. It costs very little to repair them to mint condition, so be sure to repair frequently as needed.
+Předměty zde můžete také opravovat. Při používání vybavení ztrácíte odolnost. Oprava do stavu jako nového stojí velmi málo, takže opravujte často podle potřeby.
 
 ## Trinoky Mart  
 ![Trinoky Mart](/resources/mobile-tutorial/TrinokyMart.png)  
-Here you can buy medical items with BTC. Prices are completely separate from the player market, so be sure to check both!  
+Zde si můžete za BTC kupovat léčivé předměty. Ceny jsou úplně oddělené od Trhu hráčů, takže se vyplatí zkontrolovat oba.
 
-## Terminal 
+## Terminál
 ![Terminal](/resources/mobile-tutorial/Terminal.png)  
-The terminal is used to merge key fragments into secret keys to unlock higher-level train stations.
+Terminál slouží ke spojování fragmentů klíče do tajných klíčů, které odemykají vlakové stanice vyšší úrovně.
 
-Here you can also unlock locked containers (found in dungeons) with the Tech Scrap that you have.
+Zde také můžete pomocí technického šrotu odemykat uzamčené kontejnery, které najdete v dungeonech.
 
 ## Lee's Trading Post
 ![LeesTradePost](/resources/mobile-tutorial/LeesTradingPost.png)
-Here you can trade both BTC and Tech Scrap to gain a backpack (only applicable to Old Pouch). Higher backpacks required a fair amount of lower tier backpacks in order to gain one.
+Zde můžete vyměnit BTC i technický šrot za batoh (platí pouze pro Staré pouzdro). Větší batohy vyžadují k získání velké množství batohů nižší úrovně.
 
 ## Bank of Arasaka
 ![Bank of Arasaka](/resources/mobile-tutorial/BankOfArasaka.png)  
-In addition to your inventory, each player also has access to a vault in the Shangri-La State Bank.
+Kromě inventáře má každý hráč také přístup k trezoru ve státní bance Shangri-La.
 
-Initially you have 6 bank slots. You can choose to permanently expand slots by paying BTC. Keep in mind that the cost of the slots you buy will increase with each purchase.  
+Zpočátku máte 6 bankovních slotů. Můžete si je natrvalo rozšířit za BTC. Pamatujte, že cena slotů roste s každým nákupem.  
 
-Items that are stackable will occupy only one bank slot just like in your inventory. Each deposit will cost 100 BTC, but taking something out is free of charge.  
+Předměty, které lze stackovat, zabírají pouze jeden bankovní slot stejně jako v inventáři. Každý vklad stojí 100 BTC, ale vyzvednutí předmětu je zdarma.  
 
 ## Hyper Train Central Station  
 ![Hyper Train Station](/resources/mobile-tutorial/HyperTrainCentralStation.png)  
-This is where your adventure begins. The train can take you to multiple stations. Each station has three areas full of enemies of different levels. This is also where you will find dungeons. Gather 3 unique key fragments from the dungeons to unlock the next train station.  
+Tady vaše dobrodružství začíná. Vlak vás může zavést do několika stanic. Každá stanice má tři oblasti plné nepřátel různé úrovně. Právě zde také najdete dungeony. Z dungeonů sesbírejte 3 jedinečné fragmenty klíče a odemkněte tak další vlakovou stanici.  
 
-In each station, you can also use your AI Cores to farm EXP and scavenge for materials that are needed for crafting healing items and ammo.
+V každé stanici můžete také používat AI jádra k získávání EXP a hledání materiálů potřebných pro výrobu léčivých předmětů a munice.
 
-## Shangri-La Commercial Area (Job Hub)  
+## Obchodní oblast Shangri-La (Centrum úkolů)  
 ![Commercial Area](/resources/mobile-tutorial/Shangri-LaCommercialArea.png)  
-At this location, you can look for jobs to increase your printing level, ammo/medical crafting levels, and mining level. Each job (AFK activity) contains details on what you can accomplish with it.
+Na tomto místě můžete hledat práce, které zvyšují hodnost tisku, úroveň výroby munice a léčiv a úroveň těžby. Každý úkol (AFK aktivita) obsahuje podrobnosti o tom, čeho s ním můžete dosáhnout.
 
-## Shangri-La Market Street  
+## Tržní ulice Shangri-La  
 ![Street Market](/resources/mobile-tutorial/Shangri-LaMarketStreet.png)  
-Here you can sell and purchase items to and from other players within the game for BTC.  
+Zde můžete za BTC prodávat a kupovat předměty od ostatních hráčů ve hře.  
 
-Keep in mind that whenever you want to sell or buy an item on the market, you will have to complete a captcha of 4 numbers.  
-This is in place to prevent bots from using and manipulating the player market.
+Pamatujte, že kdykoli chcete na trhu něco prodat nebo koupit, budete muset projít captchou se 4 čísly.  
+To je zavedeno proto, aby boti nemohli používat a manipulovat Trh hráčů.
 
-## Black Market
+## Černý trh
 ![Black Market](/resources/mobile-tutorial/BlackMarket.png)
-An underground market with all kinds of shady deals and quick profit.
+Podzemní trh se všemi možnými pochybnými obchody a rychlým ziskem.
 
-In Black Market, you can sell your caches via AFK Task, making it easier and quicker to generate BTC for your pocket.
-Black Market can be found on Shangri-La Market Street.
+Na Černém trhu můžete přes AFK úkol prodávat svoje cache, což usnadňuje a zrychluje získávání BTC do kapsy.
+Černý trh najdete na Tržní ulici Shangri-La.
 
-## Cosmetic Cyberwear  
+## Kosmetické kyberoblečení  
 ![Cosmetic Cyberwear](/resources/mobile-tutorial/CosmeticCyberwear.png)  
-In this location you can buy in-game subscriptions for real money.  
+Na tomto místě si můžete koupit předplatné do hry za reálné peníze.  
 
-These subscriptions help maintain the cost of the game and allows you, depending on the type of subscription, to have a coloured chat border, a background animation for your profile, a title and the ability to upload a custom profile picture.
+Tato předplatná pomáhají pokrýt náklady na hru a podle typu předplatného vám umožní mít barevný okraj chatu, animační pozadí profilu, titul a možnost nahrát vlastní profilový obrázek.
 
-Please keep in mind that you are not forced to purchase these subscriptions at all and **these subscriptions offer no P2W benefits**.  
-These subscription benefits are purely cosmetic.  
-You can still play the game without subscribing.
+Pamatujte, že tato předplatná si nemusíte vůbec kupovat a **nenabízejí žádné P2W výhody**.  
+Výhody předplatného jsou čistě kosmetické.  
+Hru můžete dál hrát i bez předplatného.
 
-## Arasaka Unit Exchange
+## Arasakská směnárna jednotek
 ![Arasaka Exchange](/resources/mobile-tutorial/ArasakaUnitExchange.png)  
-Here you can buy Transmitters that have various effects. These Transmitters are purchaseable only with Units (premium currency).  
+Zde můžete kupovat vysílače s různými účinky. Tyto vysílače lze koupit pouze za Units (prémiová měna).  
 
-Keep in mind that if one player activates a Transmitter, every player on the server will benefit from it.  
-**They are not P2W.**  
-They can't offer an advantage to only one player. Everyone benefits from the effects.  
+Pamatujte, že pokud jeden hráč aktivuje vysílač, budou z něj těžit všichni hráči na serveru.  
+**Nejde o P2W.**  
+Nemohou poskytnout výhodu jen jednomu hráči. Z účinku těží všichni.
 
-Here you can also purchase Units, the in-game premium currency, with real money.
-In the Android/Apple application, the prices of Units will appear in your local currency.  
-In the browser version (both mobile or desktop views), the prices will appear in USD only.
+Zde si také můžete za skutečné peníze koupit Units, tedy prémiovou měnu ve hře.
+V aplikaci pro Android / Apple se ceny Units zobrazují ve vaší lokální měně.  
+Ve webové verzi (mobilní i desktopové zobrazení) se ceny zobrazují pouze v USD.

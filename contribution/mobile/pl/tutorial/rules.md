@@ -1,43 +1,67 @@
+#### W CCO chcemy utrzymywać przyjazną społeczność. Aby każdy mógł dobrze się bawić i czerpać przyjemność z gry, zapoznaj się z poniższymi zasadami.
 
+> Jeśli zauważysz, że ktoś łamie zasady lub powoduje inne konflikty na czacie, skontaktuj się z zespołem moderatorów. Możesz **zgłosić** gracza, **zgłosić go i zablokować** albo **oznaczyć moderatora** na czacie. Jesteśmy tu, aby pomóc! Nie eskaluj sytuacji odwetem ani dalszym prowokowaniem — jeśli pojawią się problemy, zajmie się nimi nasz zespół moderatorów. Skład zespołu moderatorów zobaczysz w Profil / Mapa > ikona telefonu > Linki > Kredyty.
 
-#### Here at CCO, we hope to maintain a friendly community. In order for everyone to have fun and enjoy the game, please familiarise yourself with the rules. 
+> Jeśli masz problem z oszustwem, nieprzyjaznym czatem w wiadomościach prywatnych lub na czacie gangu albo nie ma akurat moderatora, nie mścij się i nie prowokuj. Zrób zrzut ekranu i zgłoś sprawę, wysyłając bezpośrednią wiadomość moderatorom na [serwerze Discord](https://discord.gg/JREx8xz).
 
-> If you feel someone is violating one of the rules and no moderators are around, take a screenshot and report it via direct messaging the moderators in the [Discord server](https://discord.gg/JREx8xz).
-### Important Guideline
-* It is strongly recommended to play with only one account per person, as our system will flag alt accounts, preventing you from sending items between your accounts. *this can happen even if you only have one alt* (We will not help you move your items or unlock the account if the system flags you.)
-* Never ever use in-game chat (including email) to send any kind of sensitive/personal information. Game chat is NOT encrypted and NOT secure. CCO does not bear any responsibility to protect your information you write in chat. Bear in mind that moderators have access to the chat log for moderation purposes. 
+### Najważniejsze wskazówki
 
-### Game Rules
-* The use of bots and scripts are prohibited.
-* No tool assistance.
-* No excessive alts (**Unless you provide a reason to justify the necessity of creating an alt, it is deemed unnecessary, therefore excessive**) 
-    * Example of valid reason:
-      * You forgot the password of your main, and got locked out of account
-      * Your main account has been bugged and becomes unplayable
-    * Example of "cheating is not a valid reason":  
-      * I want to create alts so I can trade faster then normal players
-      * I want to create alts to store unlimited amount of items
-      * I want to create alts so I can AFK with unlimited parallel tasks
-      * I want to create alts so I can scam people with new names
-* Don't exploit bugs, report them instead
-* Keep usernames family friendly
-* Advertising (global chat/discord/bio/gang motto) of Selling/Buying account/items for IRL money (both directly or indirectly) is not allowed
-* Tagging people for fun or with no real purpose is not allowed. This is to prevent people from creating accounts just so they can tag them (doing so will also breach the "No excessive alts" rule) 
-* Any illegal activities will get you instantly banned -- including but not limited to -- harrassing underage person you met in game
+-   Zdecydowanie zaleca się, aby każda osoba grała tylko na jednym koncie, ponieważ system oznaczy konta alternatywne i uniemożliwi wysyłanie przedmiotów między twoimi kontami. _Może się tak stać nawet wtedy, gdy masz tylko jedno konto alternatywne._ (Jeśli system oznaczy konto, nie pomożemy ci przenieść przedmiotów ani odblokować konta.)
+-   Nigdy nie używaj czatu w grze (w tym poczty) do wysyłania jakichkolwiek poufnych lub osobistych informacji. Czat gry NIE jest szyfrowany ani BEZPIECZNY. CCO nie ponosi odpowiedzialności za ochronę informacji wpisywanych na czacie. Pamiętaj, że moderatorzy mają dostęp do dziennika czatu na potrzeby moderacji.
 
-### Chat Rules
-**All rules are listed here, there is NO "unwritten rules", but be respectful and stop if other players don't like what you are sending in chat**
-#### Not Allowed: 
-* unfriendly, disrespectful to others opinion / offensive or passive agressive messages (Expample, racist, sexist comments)
-* non-family-friendly chat
-* Spamming / Trolling 
-* Advertising / Mentioning other games or anything else
-* Impersonating others  
-* Placing links in chat
-* Posting ads about your market sales more then once in 15 minutes
+### Zasady gry
 
-#### Allowed(as long as you don't breach the rules above):
-* Emojis😃 / Kaomoji ~ヾ(＾∇＾) / 𝕹𝖔𝖓𝖊-𝖘𝖙𝖆𝖓𝖉𝖆𝖗𝖉 𝕱𝖔𝖓𝖙𝖘 (Must be easily readable and doesn't create chaos)
-* Roleplay / Roleplaying
-* Discussing Politics, Religions, or COVID-19 (and any major events)
-* Using any language in any chat channel.
+-   Oszukiwanie jest zabronione. Zabronione jest używanie botów, skryptów, autoklikaczy i innych narzędzi zaprojektowanych do automatyzacji gry lub zapewniania przewagi.
+-   Surowo zabrania się używania niestandardowych klientów, wywołań API oraz wysyłania do serwera pakietów pochodzących z nieoryginalnej gry. Takie działania są niesprawiedliwe wobec innych graczy i mogą być niezgodne z lokalnym prawem. Gra zastrzega sobie wszelkie prawa do podjęcia działań prawnych lub zgłoszenia sprawy lokalnym władzom na podstawie dowodów elektronicznych, takich jak adresy IP.
+-   Wszelkie złośliwe działania lub zamiary wobec gry są surowo zabronione. Odmówimy świadczenia usług wszystkim osobom działającym złośliwie, a w przypadku zniesławienia mogą zostać podjęte kroki prawne. Przykłady złośliwych działań obejmują między innymi:
+    -   sugerowanie innym osobom lub uczestniczenie w rozpowszechnianiu fałszywych plotek i wiadomości na czacie gry, serwerze Discord lub w recenzjach sklepu;
+    -   sugerowanie innym osobom lub uczestniczenie w używaniu wielu kont do rozpowszechniania bezsensownych wiadomości, dezinformacji, skarg, nienawiści, plotek, spamu lub innych wiadomości na czacie gry, serwerze Discord lub w recenzjach sklepu;
+    -   sugerowanie innym osobom lub uczestniczenie w działaniach wywołujących chaos albo inny negatywny wpływ na grę.
+-   Nie używaj nadmiernej liczby kont alternatywnych (**Jeśli nie podasz powodu uzasadniającego konieczność utworzenia konta alternatywnego, zostanie ono uznane za niepotrzebne, a tym samym za nadmierne**).
+    -   Przykłady uzasadnionych powodów:
+        -   zapomnienie hasła do głównego konta i utrata dostępu do niego;
+        -   błąd na głównym koncie uniemożliwiający grę.
+    -   Przykłady powodów, które nie uzasadniają oszukiwania:
+        -   chcę utworzyć konta alternatywne, aby handlować szybciej niż zwykli gracze;
+        -   chcę utworzyć konta alternatywne, aby przechowywać nieograniczoną liczbę przedmiotów;
+        -   chcę utworzyć konta alternatywne, aby wykonywać nieograniczoną liczbę równoległych zadań AFK;
+        -   chcę utworzyć konta alternatywne, aby oszukiwać ludzi, używając nowych nazw.
+-   Nie wykorzystuj błędów — zamiast tego je zgłaszaj.
+-   Nazwy użytkowników muszą być odpowiednie dla całej rodziny.
+-   Reklamowanie (na czacie globalnym, Discordzie, w bio lub motcie gangu) sprzedaży, kupna lub wymiany kont/przedmiotów za pieniądze w świecie rzeczywistym (IRL) — bezpośrednio lub pośrednio, na przykład za pomocą walut wirtualnych, takich jak karty Google Play, karty Walmart lub waluty innych usług — jest zabronione.
+-   Używanie lub reklamowanie używania prezentów kosmetycznych jako części wymiany jest zabronione. Każdy wysłany prezent kosmetyczny może być wyłącznie bezwarunkowym prezentem dla znajomego.
+-   Oznaczanie osób dla zabawy lub bez rzeczywistego powodu jest zabronione. Ma to zapobiegać tworzeniu kont wyłącznie po to, aby je oznaczać (takie działanie narusza także zasadę zakazu nadmiernej liczby kont alternatywnych).
+-   Wszelkie działania niezgodne z prawem skutkują natychmiastową blokadą — dotyczy to między innymi nękania osoby niepełnoletniej poznanej w grze.
+
+### Zasady czatu
+
+**Wszystkie zasady są wymienione tutaj — nie istnieją „niepisane zasady”. Szanuj innych i przestań, jeśli innym graczom nie podoba się to, co wysyłasz na czacie.**
+
+#### Zabronione:
+
+-   nieprzyjazne, napastliwe, kłótliwe, lekceważące, obraźliwe lub pasywno-agresywne wiadomości, w tym nękanie innych za ich opinie;
+    -   Jeśli musisz kłócić się lub spierać z innym graczem, nie rób tego na czacie gry — zdecydowanie zalecamy wzajemną życzliwość.
+    -   Jeśli masz uwagi dotyczące moderacji, skontaktuj się z moderatorem przez wiadomość prywatną lub Discord.
+    -   Jeśli chcesz zgłosić moderatora z powodu nadużycia lub innego problemu, napisz do Dextera na adres ching.huang.dexter@gmail.com.
+    -   Jeśli napotkasz błąd w grze, zgłoś go na kanale bug-report na naszym oficjalnym serwerze Discord.
+
+**UWAGA: Nie kłóć się ani nie spieraj na czacie gry. Korzystaj z odpowiedniego kanału do przekazywania uwag i zgłoszeń, aby twoja wiadomość dotarła do właściwych osób (czat globalny zostanie wyczyszczony po kilku minutach, a deweloper nie obserwuje go bez przerwy). Dzięki temu twoja wiadomość będzie skuteczna, a prawo innych graczy do przyjaznego i bezpiecznego środowiska gry nie zostanie naruszone.**
+
+-   nadmierne przeklinanie, treści seksualne, makabra i przemoc;
+-   osobiste zniewagi;
+-   spamowanie / trolling;
+-   reklamowanie lub wspominanie o innych grach albo innych usługach, szczególnie o grach podobnych do tej;
+-   podszywanie się pod inne osoby;
+-   umieszczanie linków na czacie;
+-   publikowanie ogłoszeń o sprzedaży na rynku częściej niż raz na 15 minut.
+
+#### Dozwolone (o ile nie narusza powyższych zasad):
+
+-   Emoji😃 / kaomoji ~ヾ(＾ ∇ ＾) / 𝕹𝖔𝖓-𝖘𝖙𝖆𝖓𝖉𝖆𝖗𝖉 𝕱𝖔𝖓𝖙𝖘 (muszą być łatwe do odczytania i nie powodować chaosu);
+-   Roleplay / odgrywanie ról;
+-   rozmowy o polityce, religiach lub COVID-19 (oraz o innych ważnych wydarzeniach);
+-   używanie dowolnego języka na dowolnym kanale czatu.
+
+### DODATEK
+
+Pamiętaj, że zespół moderatorów może w szczególnych przypadkach nakładać wyciszenia lub blokady, aby zapewnić bezpieczne, przyjazne i uczciwe doświadczenie wszystkim graczom. Nasz zespół moderatorów będzie wspólnie wypracowywać spójne rozstrzygnięcia w takich sprawach.

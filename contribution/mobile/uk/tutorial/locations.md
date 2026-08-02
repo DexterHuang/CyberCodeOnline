@@ -1,97 +1,97 @@
-# Locations
-The game begins in Shangri-La City Center. From there, you can explore various areas by going to different subway stations. 
+# Локації
+Гра починається в Центрі міста Шангрі-Ла. Звідти ви можете досліджувати різні райони, вирушаючи до різних станцій метро. 
 
-## City Map
+## Мапа міста
 
 ![Map](/resources/mobile-tutorial/Map.png)
 
-## Shangri-La City Center  
+## Центр міста Шангрі-Ла  
 ![Shangri-La City Center](/resources/mobile-tutorial/Shangri-LaCityCenter.png)  
-This is the Main HUB to which you will often return to after you die, to print equipment, to make purchases and for various other activities.
+Це головний хаб, куди ви часто повертатиметеся після смерті, щоб друкувати спорядження, робити покупки та займатися іншими справами.
 
-## 3D Molecular Printer  
+## Молекулярний 3D-принтер  
 ![3D Molecular Printer](/resources/mobile-tutorial/Molecular3DPrinter.png)  
-In the City Center, you can find the Molecular 3D Printer, which will be used to print your equipment from various caches.
+У Центрі міста ви знайдете Молекулярний 3D-принтер, який використовується для друку спорядження зі схем.
 
-Clicking on the printer option will bring you to the printing panel which lists all the caches you have.  
-It costs BitCoin to print, so make sure you have enough. All details including BTC cost and printing experience given will be listed on the cache printing panel.  
-If you wish to print a cache, all you need to do is to click on the cache you wish to print. If you have multiple caches of the same quality and type, it will bring up a dialog asking how many you want to print.  
+Натиснувши на опцію принтера, ви перейдете на панель друку, де буде список усіх ваших схем.  
+За друк потрібно платити біткойнами, тож переконайтеся, що у вас достатньо коштів. Усі деталі, зокрема вартість у BTC і кількість досвіду за друк, будуть показані на панелі друку схем.  
+Щоб надрукувати схему, достатньо натиснути на ту, яку ви хочете надрукувати. Якщо у вас є кілька схем однакової якості та типу, з'явиться діалогове вікно з питанням, скільки саме ви хочете надрукувати.  
 
-A good strategy is to print all the trash items first then the common, saving rare, legendary and epic for later levels. The reason for this is that printing trash and common quality items first will provide you with printing experience; these items can then be scrapped to acquire Tech Scraps, which can also boost your Printing Level or be used to craft other items and unlock locked containers.
+Хороша стратегія — спочатку друкувати всі предмети рідкості «Таке-собі», потім «Звичайне», а «Рідкісне», «Легендарне» та «Епічне» залишити на пізніші рівні. Причина в тому, що друк предметів рідкості «Таке-собі» та «Звичайне» дає вам досвід друку; ці предмети потім можна розібрати на техно-брухт, який також підвищує рівень друку або використовується для виготовлення інших предметів і відкриття заблокованих контейнерів.
 
-## Weaponsmith  
+## Зброяр  
 ![Weaponsmith](/resources/mobile-tutorial/WeaponSmith.png)  
-The Weaponsmith is a vendor in Shangri-La City Center who has items for sale and allows you to sell your items for BTC. You will see the items available for sale at the top. You can click on any of them and choose Buy if you can afford them.  
-If you have equipment with the **bargain** stat, you will get a better deal.  
+Зброяр — це торговець у Центрі міста Шангрі-Ла, який продає предмети й дає змогу продавати свої речі за BTC. Зверху ви побачите предмети, доступні для покупки. Натисніть на будь-який із них і виберіть **Придбати**, якщо можете собі це дозволити.  
+Якщо у вас є спорядження зі статом **Торгівля**, ви отримаєте кращу ціну.  
 
-If you want to sell something to the Weaponsmith, you will need to open your inventory, click on any item you wish to sell and choose the Sell option. For some items, it may be more worth it to sell them at the player market.
+Якщо хочете продати щось Зброяру, спершу відкрийте інвентар, натисніть на предмет, який хочете продати, і виберіть опцію **Продати**. Для деяких предметів вигідніше продати їх на ринку гравців.
 
-You can repair your items here too. You lose durability the more you use your equipment. It costs very little to repair them to mint condition, so be sure to repair frequently as needed.
+Тут також можна ремонтувати свої предмети. Чим частіше ви використовуєте спорядження, тим більше зношується його міцність. Відновити його до ідеального стану коштує зовсім недорого, тож ремонтуйте речі регулярно, коли це потрібно.
 
-## Trinoky Mart  
+## Трінокі-март  
 ![Trinoky Mart](/resources/mobile-tutorial/TrinokyMart.png)  
-Here you can buy medical items with BTC. Prices are completely separate from the player market, so be sure to check both!  
+Тут можна купити медичні предмети за BTC. Ціни повністю окремі від ринку гравців, тож перевіряйте обидва!
 
-## Terminal 
+## Термінал  
 ![Terminal](/resources/mobile-tutorial/Terminal.png)  
-The terminal is used to merge key fragments into secret keys to unlock higher-level train stations.
+Термінал використовується, щоб поєднувати фрагменти ключів у секретні ключі й відкривати станції потяга вищого рівня.
 
-Here you can also unlock locked containers (found in dungeons) with the Tech Scrap that you have.
+Тут також можна відкривати заблоковані контейнери (які трапляються в підземеллях) за допомогою наявного техно-брухту.
 
-## Lee's Trading Post
+## Точка обміну Лі
 ![LeesTradePost](/resources/mobile-tutorial/LeesTradingPost.png)
-Here you can trade both BTC and Tech Scrap to gain a backpack (only applicable to Old Pouch). Higher backpacks required a fair amount of lower tier backpacks in order to gain one.
+Тут можна обміняти BTC і техно-брухт, щоб отримати рюкзак (це стосується лише предмета **Стара Торбина**). Для отримання рюкзаків вищого рівня потрібно досить багато рюкзаків нижчого рівня.
 
-## Bank of Arasaka
+## Банк Арасаки
 ![Bank of Arasaka](/resources/mobile-tutorial/BankOfArasaka.png)  
-In addition to your inventory, each player also has access to a vault in the Shangri-La State Bank.
+Окрім інвентаря, кожен гравець також має доступ до сховища в державному банку Шангрі-Ла.
 
-Initially you have 6 bank slots. You can choose to permanently expand slots by paying BTC. Keep in mind that the cost of the slots you buy will increase with each purchase.  
+Спочатку у вас є 6 банківських слотів. Ви можете назавжди збільшити їх, заплативши BTC. Пам'ятайте, що вартість слотів, які ви купуєте, зростатиме з кожною покупкою.  
 
-Items that are stackable will occupy only one bank slot just like in your inventory. Each deposit will cost 100 BTC, but taking something out is free of charge.  
+Предмети, що складаються в стеки, займають лише один банківський слот, так само як і в інвентарі. Кожен депозит коштує 100 BTC, а знімати предмети зі сховища можна безкоштовно.  
 
-## Hyper Train Central Station  
+## Центральний вокзал
 ![Hyper Train Station](/resources/mobile-tutorial/HyperTrainCentralStation.png)  
-This is where your adventure begins. The train can take you to multiple stations. Each station has three areas full of enemies of different levels. This is also where you will find dungeons. Gather 3 unique key fragments from the dungeons to unlock the next train station.  
+Саме тут починається ваша пригода. Потяг може доставити вас до кількох станцій. У кожній станції є три райони, повні ворогів різних рівнів. Тут же ви знайдете й підземелля. Зберіть 3 унікальні фрагменти ключа в підземеллях, щоб відкрити наступну станцію потяга.  
 
-In each station, you can also use your AI Cores to farm EXP and scavenge for materials that are needed for crafting healing items and ammo.
+У кожній станції також можна використати ваші ядра ШІ, щоб здобувати EXP і збирати матеріали, потрібні для виготовлення лікувальних предметів і набоїв.
 
-## Shangri-La Commercial Area (Job Hub)  
+## Комерційна зона Шангрі-Ла (Центр зайнятості)  
 ![Commercial Area](/resources/mobile-tutorial/Shangri-LaCommercialArea.png)  
-At this location, you can look for jobs to increase your printing level, ammo/medical crafting levels, and mining level. Each job (AFK activity) contains details on what you can accomplish with it.
+У цій локації можна шукати роботу, щоб підвищувати рівень друку, рівні виготовлення боєприпасів і медичних предметів, а також рівень гірництва. Кожна робота (AFK-активність) містить деталі про те, що саме можна виконати в її межах.
 
-## Shangri-La Market Street  
+## Ринок Шангрі-Ла  
 ![Street Market](/resources/mobile-tutorial/Shangri-LaMarketStreet.png)  
-Here you can sell and purchase items to and from other players within the game for BTC.  
+Тут можна продавати й купувати предмети в інших гравців у грі за BTC.  
 
-Keep in mind that whenever you want to sell or buy an item on the market, you will have to complete a captcha of 4 numbers.  
-This is in place to prevent bots from using and manipulating the player market.
+Пам'ятайте: щоразу, коли ви хочете продати або купити предмет на ринку, потрібно пройти капчу з 4 цифр.  
+Це зроблено, щоб боти не могли використовувати та маніпулювати ринком гравців.
 
-## Black Market
+## Чорний ринок
 ![Black Market](/resources/mobile-tutorial/BlackMarket.png)
-An underground market with all kinds of shady deals and quick profit.
+Підпільний ринок із різними сумнівними угодами та швидким прибутком.
 
-In Black Market, you can sell your caches via AFK Task, making it easier and quicker to generate BTC for your pocket.
-Black Market can be found on Shangri-La Market Street.
+На Чорному ринку можна продавати свої схеми через AFK-завдання, що дає змогу швидше й простіше заробляти BTC.
+Чорний ринок можна знайти на Ринку Шангрі-Ла.
 
-## Cosmetic Cyberwear  
+## Декоративне кібер-вбрання  
 ![Cosmetic Cyberwear](/resources/mobile-tutorial/CosmeticCyberwear.png)  
-In this location you can buy in-game subscriptions for real money.  
+Тут можна купувати ігрові підписки за реальні гроші.  
 
-These subscriptions help maintain the cost of the game and allows you, depending on the type of subscription, to have a coloured chat border, a background animation for your profile, a title and the ability to upload a custom profile picture.
+Ці підписки допомагають покривати витрати на гру і, залежно від типу підписки, дають кольорову рамку чату, фонову анімацію для профілю, звання і можливість завантажити власне зображення профілю.
 
-Please keep in mind that you are not forced to purchase these subscriptions at all and **these subscriptions offer no P2W benefits**.  
-These subscription benefits are purely cosmetic.  
-You can still play the game without subscribing.
+Пам'ятайте, що ви зовсім не зобов'язані купувати ці підписки, і **вони не дають P2W-переваг**.  
+Ці бонуси підписки є суто косметичними.  
+Ви й далі можете грати без підписки.
 
-## Arasaka Unit Exchange
+## Обмін валют Арасаки
 ![Arasaka Exchange](/resources/mobile-tutorial/ArasakaUnitExchange.png)  
-Here you can buy Transmitters that have various effects. These Transmitters are purchaseable only with Units (premium currency).  
+Тут можна купувати передавачі з різними ефектами. Їх можна придбати лише за Юніти (преміальну валюту).  
 
-Keep in mind that if one player activates a Transmitter, every player on the server will benefit from it.  
-**They are not P2W.**  
-They can't offer an advantage to only one player. Everyone benefits from the effects.  
+Пам'ятайте: якщо один гравець активує передавач, усі гравці на сервері отримають від нього користь.  
+**Це не P2W.**  
+Він не може дати перевагу лише одному гравцеві. Усі отримують ефект.
 
-Here you can also purchase Units, the in-game premium currency, with real money.
-In the Android/Apple application, the prices of Units will appear in your local currency.  
-In the browser version (both mobile or desktop views), the prices will appear in USD only.
+Тут також можна купити Юніти, ігрову преміальну валюту, за реальні гроші.
+У застосунку для Android/Apple ціни Юнітів відображатимуться у вашій локальній валюті.  
+У браузерній версії (і для мобільного, і для настільного вигляду) ціни відображаються лише в USD.

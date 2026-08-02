@@ -1,10 +1,10 @@
-## Secret Keys
-Leveling areas of the game are called 'Stations'. Each Station has 3 mini-areas, each with mobs within a certain level range and normal and challenge dungeons. Every dungeon has a boss room, with either lots of tough mobs which are higher level or a super boss which has a lot of hitpoints, potentially defeating players in one hit.
+## Tajne klucze
+Obszary, w których zdobywa się kolejne poziomy, nazywają się stacjami. Każda stacja ma 3 miniobszary, w których znajdują się przeciwnicy z określonego przedziału poziomów oraz normalne i wyzwaniowe lochy. W każdym lochu znajduje się pomieszczenie bossa z wieloma trudnymi przeciwnikami na wyższym poziomie albo z superbossem, który ma bardzo dużo punktów zdrowia i może pokonać gracza jednym ciosem.
 
-After defeating all of the enemies in the boss room of a challenge dungeon, you will find a key fragment which is represented by a window icon in the room. Once you have all 3 fragments from one station, you can craft a Secret Key at the Terminal, which is found at the Shangri-La City Center (main HUB area of the game). Each Secret Key will grant you access to a new Station and a new list of higher-level enemies and dungeons to explore.  
+Po pokonaniu wszystkich przeciwników w pomieszczeniu bossa w lochu wyzwań znajdziesz fragment klucza oznaczony ikoną okna. Gdy zbierzesz wszystkie 3 fragmenty z jednej stacji, możesz stworzyć tajny klucz w Terminalu znajdującym się w Centrum Miasta Shangri-La (głównym centrum gry). Każdy tajny klucz zapewnia dostęp do nowej stacji oraz nowej listy wrogów i lochów na wyższych poziomach.
+  
+Dodatkowe fragmenty kluczy możesz odrzucić (wchodząc w interakcję z ikoną w lochu) albo zniszczyć w ekwipunku.
 
-Additional key fragments can either be discarded (when interacting with the icon in the dungeon) or destroyed (from your inventory).
+Fragmentów kluczy nie można wysyłać innym osobom ani sprzedawać na Rynku graczy.
 
-Key fragments cannot be sent to other people nor be sold on the Player Market.
-
-This is the main progression mechanic of the game and dungeons will continue to increase in level and difficulty with you. However, if your player level is 10 levels below the dungeon's recommended level, you won't be able to join it. If you are too many levels above a mob, you also won't receive any loot rewards on defeating the enemy. If you are 12 levels above the recommended dungeon level, you won't be able to interact with anything, including doors, quest givers and loot.
+Jest to główna mechanika postępów w grze, a poziom i trudność lochów będą rosnąć razem z tobą. Jeśli poziom twojej postaci jest o 10 poziomów niższy od zalecanego poziomu lochu, nie możesz do niego dołączyć. Jeśli masz zbyt wiele poziomów przewagi nad przeciwnikiem, nie otrzymasz żadnych nagród w postaci łupów za jego pokonanie. Jeśli masz 12 poziomów więcej niż zalecany poziom lochu, nie możesz wejść w interakcję z niczym, w tym z drzwiami, zleceniodawcami zadań ani łupami.
