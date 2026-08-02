@@ -965,6 +965,13 @@
 				}
 			}
 		},
+		"discount": {
+			"eng": "${percent}% off",
+			"trans": "${percent}% BAWAS",
+			"vars": [
+				"percent"
+			]
+		},
 		"free": {
 			"eng": "Free",
 			"trans": "Libre"
@@ -974,6 +981,10 @@
 				"eng": "Free Personal Skip",
 				"trans": "Libreng personal na laktawan"
 			}
+		},
+		"notAvailable": {
+			"eng": "Bundle not available",
+			"trans": "Hindi available ang bundle"
 		},
 		"rareEquipmentCrate": {
 			"name": {
@@ -991,6 +1002,12 @@
 			"name": {
 				"eng": "Skip supply bundle",
 				"trans": "Laktawan ang Bundle ng Supply"
+			}
+		},
+		"summerNightsFragmentFusion": {
+			"name": {
+				"eng": "Summer Nights Fusion Bundle",
+				"trans": "Pinagsamang Pakete ng Gabi ng Tag-init"
 			}
 		}
 	},
@@ -1306,12 +1323,6 @@
 		"offRotation": {
 			"eng": "Out of rotation",
 			"trans": "Wala sa pag‑ikot"
-		}
-	},
-	"chatHeader": {
-		"skipAvailable": {
-			"eng": "Available",
-			"trans": "Magagamit"
 		}
 	},
 	"chatInput": {
@@ -1796,6 +1807,14 @@
 			"eng": "Got it",
 			"trans": "Na-gets ko"
 		},
+		"keep": {
+			"eng": "Keep raffle",
+			"trans": "Sumali sa Raffle"
+		},
+		"loading": {
+			"eng": "Loading",
+			"trans": "Loading"
+		},
 		"max": {
 			"eng": "MAX",
 			"trans": "MAX"
@@ -1809,7 +1828,7 @@
 			"trans": "Bili"
 		},
 		"retry": {
-			"eng": "RETRY CONNECTION",
+			"eng": "Retry",
 			"trans": "MULING KUMONEKTA"
 		},
 		"save": {
@@ -1819,6 +1838,593 @@
 		"warning": {
 			"eng": "Warning",
 			"trans": "Babala"
+		}
+	},
+	"communityRaffle": {
+		"action": {
+			"accountBlocked": {
+				"eng": "Limited accounts cannot join Community Raffles.",
+				"trans": "Hindi makakasali ang mga account na may limitasyon sa Community Raffle."
+			},
+			"closeRaffle": {
+				"eng": "Close raffle",
+				"trans": "Tapusin ang Raffle"
+			},
+			"closeRaffleDescription": {
+				"eng": "Select and announce the winner",
+				"trans": "Pumili at ihayag ang panalo"
+			},
+			"graceExpired": {
+				"eng": "Winner selection window expired.",
+				"trans": "Lumipas na ang takdang-oras para sa pagpili ng nanalo."
+			},
+			"join": {
+				"eng": "Join raffle",
+				"trans": "sumali sa raffle"
+			},
+			"levelBlocked": {
+				"eng": "Reach level ${level} to join.",
+				"trans": "Maabot ang level ${level} para sumali.",
+				"vars": [
+					"level"
+				]
+			}
+		},
+		"chatHeader": {
+			"open": {
+				"eng": "Open Community Raffles",
+				"trans": "Aktibong Komunidad Raffle"
+			}
+		},
+		"closeRaffle": {
+			"deadline": {
+				"eng": "Winner selection is available after the entry deadline.",
+				"trans": "Ang pagpili ng mananalo ay magsisimula pagkatapos maabot ang deadline ng pagsali."
+			},
+			"notOrganizer": {
+				"eng": "Only this Community Raffle's organizer can select the winner.",
+				"trans": "Ang tagapag-organisa lamang ng Community Raffle na ito ang makakapili ng panalo."
+			},
+			"unavailable": {
+				"eng": "Winner selection is not available for this Community Raffle.",
+				"trans": "Hindi available ang pagpili ng mananalo sa Community Raffle na ito"
+			}
+		},
+		"create": {
+			"accountLimited": {
+				"eng": "Limited accounts cannot create Community Raffles.",
+				"trans": "Mga account na may limitasyon ay hindi pwedeng gumawa ng Community Raffle."
+			},
+			"accountLimitedToast": {
+				"eng": "Limited accounts cannot create Community Raffles.",
+				"trans": "Mga account na may limitasyon ay hindi pwedeng gumawa ng Community Raffle."
+			},
+			"action": {
+				"eng": "Create raffle",
+				"trans": "Gumawa ng Raffle"
+			},
+			"addEquipment": {
+				"eng": "Attach equipment",
+				"trans": "Ilagay ang Kagamitan"
+			},
+			"backToEdit": {
+				"eng": "Back to edit",
+				"trans": "Balik sa Edit"
+			},
+			"composerCounts": {
+				"eng": "${attachments} / ${maximumAttachments} · ${characters} / ${maximumCharacters}",
+				"trans": "${attachments} / ${maximumAttachments} · ${characters} / ${maximumCharacters}",
+				"vars": [
+					"attachments",
+					"maximumAttachments",
+					"characters",
+					"maximumCharacters"
+				]
+			},
+			"confirmAction": {
+				"eng": "Consume 1 Kit and publish",
+				"trans": "Gamitin ang 1 Kit at ilathala"
+			},
+			"confirmKitCost": {
+				"eng": "Publishing consumes one Community Raffle Kit.",
+				"trans": "Ginagamit ang isang Community Raffle Kit sa pagpublish."
+			},
+			"confirmPermanent": {
+				"eng": "Published settings cannot be edited. Deleting the raffle will not refund the Kit.",
+				"trans": "Hindi na mababago ang settings kapag inilathala na. Hindi na ibabalik ang Kit kung idedelete mo ang raffle."
+			},
+			"confirmTitle": {
+				"eng": "Publish Community Raffle?",
+				"trans": "Ilathala ba ang Korona ng Komunidad?"
+			},
+			"cost": {
+				"eng": "1 Raffle Kit",
+				"trans": "1 Kit ng Raffle"
+			},
+			"decreaseMinimumLevel": {
+				"eng": "Decrease minimum level by 50",
+				"trans": "Babawasan ang minimum level ng 50"
+			},
+			"description": {
+				"eng": "Description (optional)",
+				"trans": "Deskripsyon (opsyonal)"
+			},
+			"duration": {
+				"eng": "Duration",
+				"trans": "Durasyon"
+			},
+			"durationFourteenDays": {
+				"eng": "14 days",
+				"trans": "14 araw"
+			},
+			"durationOneDay": {
+				"eng": "1 day",
+				"trans": "1 Araw"
+			},
+			"durationOptionFourteenDays": {
+				"eng": "14D",
+				"trans": "14 araw"
+			},
+			"durationOptionFourteenDaysAccessible": {
+				"eng": "14 days",
+				"trans": "14 araw"
+			},
+			"durationOptionOneDay": {
+				"eng": "1D",
+				"trans": "1 Araw"
+			},
+			"durationOptionOneDayAccessible": {
+				"eng": "1 day",
+				"trans": "1 Araw"
+			},
+			"durationOptionSevenDays": {
+				"eng": "7D",
+				"trans": "7 araw"
+			},
+			"durationOptionSevenDaysAccessible": {
+				"eng": "7 days",
+				"trans": "7 araw"
+			},
+			"durationOptionThirtyDays": {
+				"eng": "30D",
+				"trans": "30 Araw"
+			},
+			"durationOptionThirtyDaysAccessible": {
+				"eng": "30 days",
+				"trans": "30 araw"
+			},
+			"durationOptionThreeDays": {
+				"eng": "3D",
+				"trans": "Tatlong Araw"
+			},
+			"durationOptionThreeDaysAccessible": {
+				"eng": "3 days",
+				"trans": "3 araw"
+			},
+			"durationSevenDays": {
+				"eng": "7 days",
+				"trans": "7 araw"
+			},
+			"durationThirtyDays": {
+				"eng": "30 days",
+				"trans": "30 araw"
+			},
+			"durationThreeDays": {
+				"eng": "3 days",
+				"trans": "3 araw"
+			},
+			"equipment": {
+				"eng": "Equipment snapshot (optional)",
+				"trans": "Larawan ng kagamitan (opsyonal)"
+			},
+			"equipmentDeliveryDescription": {
+				"eng": "Attached equipment stays in your inventory and is not sent to the winner. You must deliver it yourself.",
+				"trans": "Ang kabit na equipment ay mananatili sa inventory mo at hindi ipinapadala sa nanalo. Kailangan mong ipadala mo mismo."
+			},
+			"equipmentDeliveryTitle": {
+				"eng": "Equipment delivery is manual",
+				"trans": "Manuwal ang paghahatid ng kagamitan"
+			},
+			"equipmentNotOwned": {
+				"eng": "Selected equipment is not owned by this account.",
+				"trans": "Hindi pag-aari ang piniling equipment sa account na ito."
+			},
+			"equipmentRequired": {
+				"eng": "Only equipment can be attached to a Community Raffle.",
+				"trans": "Equipment lang ang maikabit sa Community Raffle."
+			},
+			"globalAnnouncement": {
+				"eng": "${creatorName} created a Community ${raffleLink}.",
+				"trans": "Gumawa si ${creatorName} ng Komunidad na Raffle na ${raffleLink}.",
+				"vars": [
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"increaseMinimumLevel": {
+				"eng": "Increase minimum level by 50",
+				"trans": "Dagdagan ang minimum level ng 50"
+			},
+			"kitRequired": {
+				"eng": "You need a Community Raffle Kit to create this raffle.",
+				"trans": "Kailangan mo ng Community Raffle Kit para gumawa ng raffle na ito."
+			},
+			"levelRequired": {
+				"eng": "Reach level ${level} to create a Community Raffle.",
+				"trans": "Abutin ang antas na ${level} para lumikha ng Community Raffle.",
+				"vars": [
+					"level"
+				]
+			},
+			"levelRequiredToast": {
+				"eng": "Reach level ${level} to create a Community Raffle.",
+				"trans": "Abutin ang antas na ${level} para lumikha ng Community Raffle.",
+				"vars": [
+					"level"
+				]
+			},
+			"minimumLevel": {
+				"eng": "Minimum level",
+				"trans": "Pinakamababang Antas"
+			},
+			"moderationRejected": {
+				"eng": "Automated check found the title or description inappropriate or unrelated to the Community Raffle. Update the title or description, then try again.",
+				"trans": "Ayon sa awtomatikong pagsusuri, hindi angkop o hindi kaugnay sa Community Raffle ang pamagat o deskripsyon. Baguhin ito at subukan ulit."
+			},
+			"moderationUnavailable": {
+				"eng": "Automated check is temporarily unavailable. Try again in a moment.",
+				"trans": "Panandaliang hindi available ang awtomatikong pagsusuri. Subukan ulit sa sandali."
+			},
+			"noDescription": {
+				"eng": "None",
+				"trans": "Wala"
+			},
+			"noEquipment": {
+				"eng": "None",
+				"trans": "Wala"
+			},
+			"pageTitle": {
+				"eng": "Create Community Raffle",
+				"trans": "Gumawa ng Raffle sa Komunidad"
+			},
+			"removeEquipmentSnapshot": {
+				"eng": "Remove equipment snapshot",
+				"trans": "Tanggalin ang snapshot ng kagamitan"
+			},
+			"review": {
+				"eng": "Review raffle",
+				"trans": "Suriin ang Raffle"
+			},
+			"selectEquipment": {
+				"eng": "Select equipment snapshot",
+				"trans": "Pumili ng Larawan ng Kagamitan"
+			},
+			"title": {
+				"eng": "Title",
+				"trans": "Pamagat"
+			},
+			"titleCount": {
+				"eng": "${current} / ${maximum}",
+				"trans": "${current}/${maximum}",
+				"vars": [
+					"current",
+					"maximum"
+				]
+			},
+			"titleLength": {
+				"eng": "Title must be ${minimum}–${maximum} characters.",
+				"trans": "Dapat ${minimum}–${maximum} karakter ang pamagat.",
+				"vars": [
+					"minimum",
+					"maximum"
+				]
+			},
+			"titleRequired": {
+				"eng": "Enter a title.",
+				"trans": "Ilagay ang pamagat."
+			}
+		},
+		"delete": {
+			"action": {
+				"eng": "Delete raffle",
+				"trans": "Burahin ang raffle"
+			},
+			"confirmAction": {
+				"eng": "Delete permanently",
+				"trans": "Permanenteng burahin"
+			},
+			"confirmTitle": {
+				"eng": "Delete Community Raffle?",
+				"trans": "Burahin ba ang Raffle ng Komunidad?"
+			},
+			"creatorMail": {
+				"body": {
+					"eng": "Moderator ${moderatorName} deleted your Community Raffle: ${title}",
+					"trans": "Tinanggal ng Moderator ${moderatorName} ang iyong Community Raffle: ${title}",
+					"vars": [
+						"moderatorName",
+						"title"
+					]
+				}
+			},
+			"creatorSuccess": {
+				"eng": "You deleted your Community Raffle.",
+				"trans": "Tinanggal mo na ang iyong Community Raffle"
+			},
+			"creatorWarning": {
+				"eng": "This permanently removes your raffle and cannot be undone. The Community Raffle Kit will not be refunded.",
+				"trans": "Permanenteng tatatanggalin nito ang iyong raffle at hindi na ito maibabalik. Ang Community Raffle Kit ay hindi na ire-refund."
+			},
+			"moderatorMail": {
+				"body": {
+					"eng": "You deleted ${creatorName}'s Community Raffle: ${title}",
+					"trans": "Tinanggal mo ang Community Raffle ni ${creatorName}: ${title}",
+					"vars": [
+						"creatorName",
+						"title"
+					]
+				}
+			},
+			"moderatorWarning": {
+				"eng": "This permanently removes ${creator}'s raffle. They will be notified by mail.",
+				"trans": "Permanenteng tatatanggalin ang raffle ni ${creator}. Mail na abiso ang ipapadala sa kanila.",
+				"vars": [
+					"creator"
+				]
+			}
+		},
+		"delivery": {
+			"creatorNoWinnerMail": {
+				"eng": "Your Community ${raffleLink} “${title}” is complete. No eligible winner remained.",
+				"trans": "Tapos na ang ${raffleLink} “${title}” ng iyong komunidad. Wala nang kwalipikadong panalo.",
+				"vars": [
+					"title",
+					"raffleLink"
+				]
+			},
+			"creatorWinnerMail": {
+				"eng": "Your Community ${raffleLink} “${title}” is complete. Winner: ${winnerName}.",
+				"trans": "Natapos na ang iyong Community ${raffleLink} “${title}”. Panalo: ${winnerName}.",
+				"vars": [
+					"title",
+					"winnerName",
+					"raffleLink"
+				]
+			},
+			"globalAnnouncement": {
+				"eng": "🎉 ${winnerName} won a Community ${raffleLink}!",
+				"trans": "🎉 Nanalo si ${winnerName} ng Community ${raffleLink}!",
+				"vars": [
+					"winnerName",
+					"raffleLink"
+				]
+			},
+			"winnerMail": {
+				"eng": "You won the Community ${raffleLink} “${title}”.",
+				"trans": "Nakapanalo ka sa Community ${raffleLink} “${title}”.",
+				"vars": [
+					"title",
+					"raffleLink"
+				]
+			}
+		},
+		"detail": {
+			"abandonedState": {
+				"eng": "Winner selection was not completed within the seven-day window.",
+				"trans": "Hindi natapos ang pagpili ng panalo sa loob ng pitong araw."
+			},
+			"attachments": {
+				"eng": "Attachments",
+				"trans": "Mga Attachment"
+			},
+			"closed": {
+				"eng": "Closed",
+				"trans": "Sarado"
+			},
+			"closesLabel": {
+				"eng": "Closes in",
+				"trans": "Matatapos sa loob ng"
+			},
+			"entrantList": {
+				"eng": "Entrants",
+				"trans": "Mga Nakilahok"
+			},
+			"hostLabel": {
+				"eng": "Host",
+				"trans": "Host"
+			},
+			"levelShort": {
+				"eng": "LV ${level}+",
+				"trans": "LV ${level}+",
+				"vars": [
+					"level"
+				]
+			},
+			"minimumLevel": {
+				"eng": "Minimum level",
+				"trans": "Pinakamababang Antas"
+			},
+			"noEntrants": {
+				"eng": "No entries yet.",
+				"trans": "Wala pang sumali."
+			},
+			"notFound": {
+				"eng": "We cannot find this raffle.",
+				"trans": "Hindi namin mahanap ang raffle na ito."
+			},
+			"refresh": {
+				"eng": "Refresh raffle details",
+				"trans": "I-update ang mga detalye ng raffle"
+			},
+			"selectedWinner": {
+				"eng": "Winner",
+				"trans": "Tagapanalo"
+			},
+			"statusLabel": {
+				"eng": "Status",
+				"trans": "Katayuan"
+			},
+			"unavailable": {
+				"eng": "Community Raffle unavailable",
+				"trans": "Pansamantalang Naka-lock ang Community Raffle"
+			},
+			"winnerMarker": {
+				"eng": "Winner",
+				"trans": "Tagapanalo"
+			}
+		},
+		"empty": {
+			"description": {
+				"eng": "Active and past raffles will appear here.",
+				"trans": "Dito makikita ang mga aktibong at nakaraang raffle."
+			},
+			"title": {
+				"eng": "No Community Raffles yet",
+				"trans": "Walang community raffle pa"
+			}
+		},
+		"error": {
+			"notFound": {
+				"eng": "Community Raffle not found.",
+				"trans": "Hindi nahanap ang Community Raffle."
+			}
+		},
+		"join": {
+			"accountLimited": {
+				"eng": "Limited accounts cannot join Community Raffles.",
+				"trans": "Hindi makakasali ang mga account na may limitasyon sa Community Raffle."
+			},
+			"alreadyJoined": {
+				"eng": "You already joined this Community Raffle.",
+				"trans": "Naka-join ka na sa Raffle ng Komunidad."
+			},
+			"associatedEntry": {
+				"eng": "An associated account already entered this Community Raffle.",
+				"trans": "May kaugnay na account na pumasok na sa Community Raffle na ito."
+			},
+			"blocked": {
+				"eng": "You cannot join this Community Raffle.",
+				"trans": "Hindi ka pwedeng sumali sa Community Raffle na ito."
+			},
+			"closed": {
+				"eng": "This Community Raffle is no longer open for entry.",
+				"trans": "Hindi na bukas ang pagsali sa Community Raffle na ito."
+			},
+			"globalAnnouncement": {
+				"eng": "${playerName} has joined ${creatorName}'s ${raffleLink}.",
+				"trans": "${playerName} ay sumali sa ${raffleLink} ni ${creatorName}.",
+				"vars": [
+					"playerName",
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"globalAnnouncementOthers": {
+				"eng": "${playerName} and ${otherCount} more have joined ${creatorName}'s ${raffleLink}.",
+				"trans": "Si ${playerName} at ${otherCount} pa ay sumali na sa ${raffleLink} ni ${creatorName}.",
+				"vars": [
+					"playerName",
+					"otherCount",
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"levelRequired": {
+				"eng": "Reach level ${level} to join this Community Raffle.",
+				"trans": "Abutin ang antas na ${level} para sumali sa raffle ng komunidad.",
+				"vars": [
+					"level"
+				]
+			},
+			"organizer": {
+				"eng": "You cannot join your own Community Raffle.",
+				"trans": "Hindi mo maaaring sumali sa sarili mong Community Raffle."
+			}
+		},
+		"loadError": {
+			"title": {
+				"eng": "Raffle list unavailable",
+				"trans": "Hindi Available ang Listahan ng Raffle"
+			}
+		},
+		"raffleLink": {
+			"eng": "Raffle",
+			"trans": "Lucky Draw"
+		},
+		"refresh": {
+			"eng": "Refresh raffle list",
+			"trans": "I-refresh ang Listahan ng Raffle"
+		},
+		"row": {
+			"awaitingOrganizer": {
+				"eng": "Awaiting organizer",
+				"trans": "Naghihintay ng Organizer"
+			},
+			"closedLabel": {
+				"eng": "Closed",
+				"trans": "Sarado"
+			},
+			"closesLabel": {
+				"eng": "Closes in",
+				"trans": "Matatapos sa loob ng"
+			},
+			"entriesLabel": {
+				"eng": "Entries",
+				"trans": "Kasabayan"
+			},
+			"hostLabel": {
+				"eng": "Host",
+				"trans": "Host"
+			},
+			"levelShort": {
+				"eng": "LV ${level}+",
+				"trans": "LV ${level}+",
+				"vars": [
+					"level"
+				]
+			},
+			"resultLabel": {
+				"eng": "Result",
+				"trans": "Resulta"
+			}
+		},
+		"status": {
+			"abandoned": {
+				"eng": "Abandoned",
+				"trans": "Kinansela"
+			},
+			"awaitingOrganizer": {
+				"eng": "Awaiting organizer",
+				"trans": "Naghihintay ng Organizer"
+			},
+			"completed": {
+				"eng": "Completed",
+				"trans": "Natapos"
+			},
+			"open": {
+				"eng": "Open",
+				"trans": "Bukas"
+			}
+		},
+		"title": {
+			"eng": "Community Raffles",
+			"trans": "Raffle ng Komunidad"
+		},
+		"tutorial": {
+			"description": {
+				"eng": "Create, join, and select a winner.",
+				"trans": "Gumawa, sumali, at pumili ng mananalo."
+			},
+			"title": {
+				"eng": "How Community Raffles work",
+				"trans": "Paano Gumagana ang Raffle ng Komunidad"
+			}
+		},
+		"validation": {
+			"request": {
+				"eng": "Invalid Community Raffle request.",
+				"trans": "Hindi balido ang kahilingan sa raffle ng komunidad."
+			}
 		}
 	},
 	"component": {
@@ -2452,6 +3058,10 @@
 			"eng": "Vice Heat",
 			"trans": "Init ng Kasakiman"
 		},
+		"donation55": {
+			"eng": "Black Press",
+			"trans": "Itim na Pressa"
+		},
 		"donation6": {
 			"eng": "Prestige",
 			"trans": "Prestige"
@@ -3002,6 +3612,28 @@
 				"item",
 				"npcName"
 			]
+		}
+	},
+	"emblem": {
+		"showcase": {
+			"error": {
+				"emblemRequired": {
+					"eng": "Emblem is required",
+					"trans": "Kinakailangan ang Emblem"
+				},
+				"invalidEmblem": {
+					"eng": "Invalid emblem type",
+					"trans": "Hindi Wastong Uri ng Emblem"
+				},
+				"invalidSlot": {
+					"eng": "Invalid emblem showcase slot",
+					"trans": "Hindi wastong slot sa showcase ng emblem"
+				},
+				"notOwned": {
+					"eng": "You don't own this emblem",
+					"trans": "Hindi mo itong emblem pinag-aari"
+				}
+			}
 		}
 	},
 	"emblems": {
@@ -5019,6 +5651,16 @@
 				"trans": "Supply Crate [Gang]"
 			}
 		},
+		"communityRaffleKit": {
+			"description": {
+				"eng": "A deployable kit for creating one public Community Raffle. Consumed when the raffle is published.",
+				"trans": "Kit na pwedeng i-deploy para sa paggawa ng isang pampublikong Community Raffle. Uubos ito kapag na-publish na ang raffle."
+			},
+			"name": {
+				"eng": "Community Raffle Kit",
+				"trans": "Pakete ng Komunidad sa Pagpupulot"
+			}
+		},
 		"creatine": {
 			"description": {
 				"eng": "Push past your limits and grind like a machine--When consumed, increase damage dealt by ${percent}% for ${minutes} minutes",
@@ -5620,6 +6262,19 @@
 			"name": {
 				"eng": "Medical Tech Parts",
 				"trans": "Mga Bahagi ng Medikal na Tech"
+			}
+		},
+		"mentorSkipVoucher": {
+			"description": {
+				"eng": "An evergreen voucher earned by helping a new runner reach level 50. It automatically applies a ${discountPercent}% Global Skip discount.",
+				"trans": "Permanent na voucher na nakukuha kapag natulungan ang bagong runner na umabot sa level 50. Awtomatikong nagbibigay nito ng ${discountPercent}% diskwento para sa Global Skip.",
+				"vars": [
+					"discountPercent"
+				]
+			},
+			"name": {
+				"eng": "Handler Skip Voucher",
+				"trans": "Kupon para sa Pagpapalampas ng Handler"
 			}
 		},
 		"missileCommandPass": {
@@ -6329,6 +6984,13 @@
 		}
 	},
 	"itemInbox": {
+		"movedToInventory": {
+			"eng": "${item} has been moved from your item inbox to your inventory automatically",
+			"trans": "${item} awtomatikong inilipat mula sa iyong item inbox patungo sa inventory",
+			"vars": [
+				"item"
+			]
+		},
 		"notifySender": {
 			"eng": "${recipient} has retrived your gift items (${itemNames}) from their inbox into their inventory.",
 			"trans": "Nakuha na ni ${recipient} ang iyong mga regalo (${itemNames}) mula sa inbox nila at inilagay ito sa imbentaryo.",
@@ -6395,6 +7057,43 @@
 		"title": {
 			"eng": "Rename History",
 			"trans": "Kasaysayan ng Pagbabago ng Pangalan"
+		}
+	},
+	"itemSource": {
+		"drop": {
+			"dungeons": {
+				"eng": "Dungeons",
+				"trans": "Dungeon"
+			},
+			"enemies": {
+				"eng": "Enemies",
+				"trans": "Mga Kalaban"
+			},
+			"lootBoxes": {
+				"eng": "Loot boxes",
+				"trans": "Loot Boxes"
+			},
+			"reclamationTier": {
+				"eng": "Drop on ${tier}",
+				"trans": "I-drop sa ${tier}",
+				"vars": [
+					"tier"
+				]
+			}
+		}
+	},
+	"itemSourceModal": {
+		"description": {
+			"eng": "You can get this item from:",
+			"trans": "Makukuha ang item na ito sa:"
+		},
+		"empty": {
+			"eng": "No current sources found.",
+			"trans": "Walang natagpuang pinagkuran sa kasalukuyan."
+		},
+		"title": {
+			"eng": "Item sources",
+			"trans": "Pinagkukunan ng Item"
 		}
 	},
 	"itemStack": {
@@ -7125,6 +7824,10 @@
 		"streetcred": {
 			"eng": "Street Cred",
 			"trans": "Kilala kahit saan"
+		},
+		"topHandlers": {
+			"eng": "Top Handlers",
+			"trans": "Nangungunang Handler"
 		}
 	},
 	"leaderboardTypePage": {
@@ -8154,6 +8857,106 @@
 			"trans": "Missile Command"
 		}
 	},
+	"mentorship": {
+		"completion": {
+			"handlerMail": {
+				"eng": "${runnerName} reached level ${completionLevel} and passed verification. Your Handler rewards were delivered.",
+				"trans": "${runnerName} nakarating na sa antas ${completionLevel} at naipasa ang verification. Naipadala na ang mga reward mula sa iyong Handler.",
+				"vars": [
+					"runnerName",
+					"completionLevel"
+				]
+			}
+		},
+		"confirm": {
+			"currentHandler": {
+				"eng": "Current Handler",
+				"trans": "Kasalukuyang Tagapamahala"
+			},
+			"endPermanently": {
+				"eng": "End permanently",
+				"trans": "Permanenteng tapusin"
+			},
+			"endPurpose": {
+				"eng": "End your mentorship with this Handler.",
+				"trans": "Itigil ang mentorship mo sa Handler na ito."
+			},
+			"endTitle": {
+				"eng": "End mentorship",
+				"trans": "Itigil ang Mentorship"
+			},
+			"endWarning": {
+				"eng": "This is permanent. You cannot choose another Handler.",
+				"trans": "Permanenteng aksyon ito. Hindi mo na mapipili ang ibang Handler."
+			},
+			"mentorDetails": {
+				"eng": "${name} — Level ${level}",
+				"trans": "${name} — Antas ${level}",
+				"vars": [
+					"name",
+					"level"
+				]
+			},
+			"selectPermanently": {
+				"eng": "Choose permanently",
+				"trans": "Permanenteng Pagpili"
+			},
+			"selectPurpose": {
+				"eng": "Choose a Handler to guide your early progression.",
+				"trans": "Pumili ng Handler upang gabayan ang iyong simula."
+			},
+			"selectTitle": {
+				"eng": "Choose Handler",
+				"trans": "Pumili ng Tagapamahala"
+			},
+			"selectWarning": {
+				"eng": "Choose only someone who has greatly helped you learn the game. Never choose a Handler for trades, items, or other favors. You cannot choose another Handler later, even if you end the mentorship.",
+				"trans": "Pumili lamang ng taong lubos na nakatulong sa iyo para matutunan mo ang laro. Huwag kailanman pumili ng Handler para sa palitan, mga item, o anumang pabor. Kapag pinili na, hindi ka na makakapagpalit ng Handler kahit pa itigil mo ang mentorship."
+			}
+		},
+		"revoke": {
+			"invalid": {
+				"eng": "This mentorship can no longer be ended.",
+				"trans": "Hindi na kayang tapusin ang mentorya na ito."
+			}
+		},
+		"select": {
+			"handlerMail": {
+				"eng": "${runnerName} chose you as their Handler. Their mentorship will complete if they reach level ${completionLevel} and pass system verification.",
+				"trans": "Pumili ka ni ${runnerName} bilang Handler nila. Matatapos ang kanilang mentorship kung abutin na nila ang level ${completionLevel} at makapasa sa pagsusuri ng sistema.",
+				"vars": [
+					"runnerName",
+					"completionLevel"
+				]
+			},
+			"ineligible": {
+				"eng": "This Handler selection is not eligible.",
+				"trans": "Hindi pwedeng pumili ng Handler na ito."
+			}
+		}
+	},
+	"mentorshipAssignmentsPage": {
+		"empty": {
+			"eng": "No runners are currently assigned to you.",
+			"trans": "Walang runner na nakatalaga sa iyo sa ngayon."
+		},
+		"loadFailed": {
+			"eng": "Mentoring runners failed to load.",
+			"trans": "Nabigong i-load ang mga mentoring runner."
+		},
+		"loading": {
+			"eng": "Loading mentoring runners...",
+			"trans": "Naglo-load ng mga proseso sa mentoring..."
+		},
+		"private": {
+			"eng": "Private — only you can see this",
+			"trans": "Pribado — tanging ikaw lamang makakakita nito"
+		},
+		"title": {
+			"eng": "Mentoring Runners",
+			"trans": "Pagpapayo sa mga Runner"
+		}
+	},
 	"messageImage": {
 		"hideImage": {
 			"eng": "Hide Image",
@@ -8249,6 +9052,91 @@
 					"eng": "BREACH SUCCESS",
 					"trans": "Tagumpay ng Breach"
 				}
+			}
+		},
+		"orderSync": {
+			"board": {
+				"summary": {
+					"eng": "Sorting minigame. Arrange the bars from smallest to largest, left to right within the move budget. Drag a bar to reposition it, or tap two bars to swap them.",
+					"trans": "Minigame sa Pagkakasunod-sunod. Ayusin ang mga bar mula sa pinakamaliit hanggang pinakamalaki, kaliwa pakanan, habang sinusunod ang limitasyon ng galaw. Hatak ang isang bar para ilipat, o pindutin ang dalawa para palitan."
+				}
+			},
+			"fail": {
+				"description": {
+					"eng": "Sort the row before you run out of moves.",
+					"trans": "Ayusin ang hanay bago ubos na ang mga galaw."
+				},
+				"retry": {
+					"eng": "Retry",
+					"trans": "Subukan Muli"
+				},
+				"status": {
+					"eng": "ORDER REJECTED",
+					"trans": "ORDER TINANGGIHAN"
+				},
+				"title": {
+					"eng": "Out of moves",
+					"trans": "Wala nang galaw"
+				}
+			},
+			"instruction": {
+				"eng": "Sort small to big, left to right. Drag a bar to move it, or tap two to swap.",
+				"trans": "Iayos mula sa maliit hanggang malaki, kaliwa patungo sa kanan. I-drag ang bar para ilipat ito o i-tap ang dalawa para palitan."
+			},
+			"item": {
+				"aria": {
+					"eng": "Bar, value ${value}",
+					"trans": "Bar, halaga ${value}",
+					"vars": [
+						"value"
+					]
+				}
+			},
+			"scale": {
+				"high": {
+					"eng": "HIGH",
+					"trans": "MATAAS"
+				},
+				"label": {
+					"eng": "SIGNAL MAGNITUDE",
+					"trans": "LAKAS NG SIGNAL"
+				},
+				"low": {
+					"eng": "LOW",
+					"trans": "mababa"
+				}
+			},
+			"status": {
+				"failed": {
+					"eng": "FAILED",
+					"trans": "NALIGAWAN"
+				},
+				"locked": {
+					"eng": "SORTED",
+					"trans": "NAAYOS"
+				},
+				"moves": {
+					"eng": "MOVES ${count}/${max}",
+					"trans": "GALAW ${count}/${max}",
+					"vars": [
+						"count",
+						"max"
+					]
+				}
+			},
+			"success": {
+				"status": {
+					"eng": "ORDER VALIDATED",
+					"trans": "KUMPIRMADO NA ANG ORDER"
+				},
+				"title": {
+					"eng": "Sequence sorted",
+					"trans": "Naisort na ang Sekansya"
+				}
+			},
+			"title": {
+				"eng": "Order Sync",
+				"trans": "Pagtugma ng Order"
 			}
 		},
 		"relayGrid": {
@@ -11680,6 +12568,65 @@
 				]
 			}
 		},
+		"mentorship": {
+			"currentReward": {
+				"eng": "Reward per verified player",
+				"trans": "Gantimpala bawat napatunayang manlalaro"
+			},
+			"endMentorship": {
+				"eng": "End mentorship",
+				"trans": "Itigil ang Mentorship"
+			},
+			"futureHandlerHint": {
+				"eng": "At level ${handlerLevel}, you can also become a Handler, guide eligible new players, and earn rewards.",
+				"trans": "Sa Antas ${handlerLevel}, maaari kang maging Handler, gabayan ang mga kwalipikadong bagong manlalaro, at kumita ng gantimpala.",
+				"vars": [
+					"handlerLevel"
+				]
+			},
+			"handler": {
+				"eng": "Handler",
+				"trans": "Tagapamahala"
+			},
+			"handlerHint": {
+				"eng": "You can now guide eligible new players as a Handler. They can choose you from your profile. Verified mentorships increase your public total and grant the reward below.",
+				"trans": "Pwede ka nang gabayan ang mga eligible na bagong manlalaro bilang Handler. Pipiliin ka nila mula sa iyong profile. Ang mga napatunayang mentorship ay nagpapataas ng public total mo at nagbibigay ng reward sa baba."
+			},
+			"handlerLoadFailed": {
+				"eng": "Handler load failed.",
+				"trans": "Nabigong i-load ang Handler."
+			},
+			"loadingHandler": {
+				"eng": "Loading Handler...",
+				"trans": "Naglo-load ng tagaproseso..."
+			},
+			"private": {
+				"eng": "Private — only you can see this",
+				"trans": "Pribado — tanging ikaw lamang makakakita nito"
+			},
+			"selectionEndedHint": {
+				"eng": "Your opportunity to choose a Handler ended after level ${maxLevel}. New players can choose one from level ${minLevel} to ${maxLevel} if their account is no more than ${maxAgeDays} days old. At level ${handlerLevel}, you can become a Handler, guide eligible new players, and earn rewards.",
+				"trans": "Your opportunity to choose a Handler ended after level ${maxLevel}. New players can choose one from level ${minLevel} to ${maxLevel} if their account is no more than ${maxAgeDays} days old. At level ${handlerLevel}, you can become a Handler, guide eligible new players, and earn rewards.",
+				"vars": [
+					"minLevel",
+					"maxLevel",
+					"maxAgeDays",
+					"handlerLevel"
+				]
+			},
+			"title": {
+				"eng": "Mentorship",
+				"trans": "Mentorship"
+			},
+			"unknownHandler": {
+				"eng": "Unknown Handler",
+				"trans": "Hindi kilalang tagapamahala"
+			},
+			"viewMentoringRunners": {
+				"eng": "View Mentoring Runners",
+				"trans": "Tingnan ang mga Runner na Mentor"
+			}
+		},
 		"pets": {
 			"noPets": {
 				"eng": "this player does not own any pets",
@@ -11729,6 +12676,28 @@
 			"vars": [
 				"playerName"
 			]
+		}
+	},
+	"playerStatisticDisplay": {
+		"mentorships": {
+			"description": {
+				"eng": "Eligible new players this Handler has guided to level 50.",
+				"trans": "Mga kwalipikadong bagong manlalaro ang ginabayan ng Handler na ito hanggang Level 50."
+			},
+			"label": {
+				"eng": "Verified Mentorships",
+				"trans": "Napatunayang Mentorship"
+			}
+		},
+		"skipPoints": {
+			"description": {
+				"eng": "Points earned by using Global Skip to finish tasks for all players.",
+				"trans": "Mga puntos na nakukuha sa paggamit ng Global Skip upang matapos ang mga gawain para sa lahat ng manlalaro"
+			},
+			"label": {
+				"eng": "Skip Points",
+				"trans": "Puntos ng Paglampas"
+			}
 		}
 	},
 	"playerStatusDisplay": {
@@ -15485,6 +16454,10 @@
 				"eng": "Block List",
 				"trans": "Listahan ng I -block"
 			},
+			"communityRaffle": {
+				"eng": "Community Raffles",
+				"trans": "Raffle ng Komunidad"
+			},
 			"coupon": {
 				"eng": "Claim Coupon",
 				"trans": "Mag -claim ng kupon"
@@ -15839,9 +16812,17 @@
 				}
 			},
 			"skippingBuff": {
-				"title": {
-					"eng": "Skip buff sponsored by:",
-					"trans": "Skip buff, hatid sa inyo ng:"
+				"dismiss": {
+					"eng": "Dismiss Global Skip banner",
+					"trans": "Isara ang Banner ng Pag-skip"
+				},
+				"info": {
+					"eng": "Global Skip info",
+					"trans": "Impormasyon sa Global Skip"
+				},
+				"sponsor": {
+					"eng": "Global Skip by",
+					"trans": "Pambansang skip ni"
 				}
 			}
 		},
@@ -16656,6 +17637,23 @@
 				"eng": "Equip",
 				"trans": "Magbigay ng kasangkapan"
 			},
+			"eventGamePass": {
+				"visitNpc": {
+					"eng": "Go to ${npcName}",
+					"trans": "Pumunta kay ${npcName}",
+					"vars": [
+						"npcName"
+					]
+				},
+				"visitNpcDescription": {
+					"eng": "Bring this pass to ${personName} to play ${gameName}.",
+					"trans": "Dalhin ang pass na ito kay ${personName} para makapaglaro ng ${gameName}.",
+					"vars": [
+						"personName",
+						"gameName"
+					]
+				}
+			},
 			"history": {
 				"eng": "History",
 				"trans": "Kasaysayan"
@@ -16783,6 +17781,10 @@
 			"getAllItems": {
 				"eng": "Get All Items",
 				"trans": "Kunin ang lahat ng mga item"
+			},
+			"noExpiry": {
+				"eng": "Does not expire",
+				"trans": "Hindi nag-e-expire"
 			},
 			"title": {
 				"eng": "Item Inbox",
@@ -16968,6 +17970,12 @@
 			"travel": {
 				"eng": "Travel",
 				"trans": "Paglalakbay"
+			}
+		},
+		"markdown": {
+			"error": {
+				"eng": "Content unavailable. Check your connection and retry.",
+				"trans": "Hindi available ang nilalaman. Suriin ang iyong koneksyon at subukan ulit."
 			}
 		},
 		"market": {
@@ -17307,6 +18315,92 @@
 				"eng": "Property of SLPD",
 				"trans": "Pag -aari ng SLPD"
 			},
+			"emblemShowcase": {
+				"addSlot": {
+					"eng": "Add emblem to slot ${slot}",
+					"trans": "Ilagay ang emblema sa slot ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"chooseEmblemByOption": {
+					"eng": "Select emblem option ${option} for slot ${slot}",
+					"trans": "Pumili ng opsyon sa emblem na ${option} para sa slot na ${slot}",
+					"vars": [
+						"option",
+						"slot"
+					]
+				},
+				"clearSlot": {
+					"eng": "Remove emblem from slot ${slot}",
+					"trans": "Tanggalin ang emblem mula sa slot ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"closePicker": {
+					"eng": "Close emblem picker",
+					"trans": "I-sara ang tagapili ng emblem"
+				},
+				"confirmSelection": {
+					"eng": "Confirm Selection",
+					"trans": "Kumpirmahin ang Pagpili"
+				},
+				"editSlot": {
+					"eng": "Change emblem in slot ${slot}",
+					"trans": "Palitan ang emblem sa slot ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"emblemLabelBySlot": {
+					"eng": "Showcase emblem in slot ${slot}",
+					"trans": "Ipakita ang emblem sa slot ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"pickerInstruction": {
+					"eng": "Select an emblem for slot ${slot}, then confirm.",
+					"trans": "Pumili ng emblem para sa slot ${slot}, pagkatapos ay kumpirmahin.",
+					"vars": [
+						"slot"
+					]
+				},
+				"pickerTitle": {
+					"eng": "Choose Emblem",
+					"trans": "Pumili ng Emblema"
+				},
+				"playAudioBySlot": {
+					"eng": "Play audio for emblem in slot ${slot}",
+					"trans": "I-play ang audio ng emblem sa slot ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"remove": {
+					"eng": "Remove",
+					"trans": "Tanggalin"
+				},
+				"removeConfirmationTitle": {
+					"eng": "Remove emblem from slot ${slot}?",
+					"trans": "Tanggalin ba ang emblema sa slot ${slot}?",
+					"vars": [
+						"slot"
+					]
+				},
+				"slotMarker": {
+					"eng": "Slot ${slot}",
+					"trans": "Slot ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"title": {
+					"eng": "pinned emblems",
+					"trans": "Mga Nakapin na Emblem"
+				}
+			},
 			"gangAction": {
 				"editPermissions": {
 					"eng": "Permissions",
@@ -17381,6 +18475,10 @@
 				"block": {
 					"eng": "Block Player",
 					"trans": "I -block ang manlalaro"
+				},
+				"chooseHandler": {
+					"eng": "Choose as Handler",
+					"trans": "Itakda bilang Handler"
 				},
 				"giveStreetCred": {
 					"eng": "Give Street Cred",
@@ -17908,6 +19006,16 @@
 					"trans": "Gawing Pribado ang mga Sagisag"
 				}
 			},
+			"privateHandler": {
+				"description": {
+					"eng": "Hide your Handler from other players",
+					"trans": "Itago ang Handler mo sa ibang manlalaro"
+				},
+				"title": {
+					"eng": "Hide my Handler",
+					"trans": "Itago ang Handler Ko"
+				}
+			},
 			"promoOnlyShowWhenUpdate": {
 				"description": {
 					"eng": "Only show promo popup when there is a new event",
@@ -18172,6 +19280,10 @@
 				"eng": "combat",
 				"trans": "labanan"
 			},
+			"communityRaffles": {
+				"eng": "Community Raffles",
+				"trans": "Raffle ng Komunidad"
+			},
 			"dataFortress": {
 				"eng": "SL-Data Fortress",
 				"trans": "SL-Data Fortress"
@@ -18203,6 +19315,10 @@
 			"furniture": {
 				"eng": "Furniture",
 				"trans": "Kasangkapan"
+			},
+			"handlers": {
+				"eng": "Handlers",
+				"trans": "Mga Tagapagproseso"
 			},
 			"inventory": {
 				"eng": "inventory",
@@ -18255,6 +19371,74 @@
 			"timeSkip": {
 				"eng": "time skip",
 				"trans": "Laktawan ang oras"
+			}
+		},
+		"tutorialSearch": {
+			"clear": {
+				"eng": "Clear search",
+				"trans": "Burahin ang Paghahanap"
+			},
+			"close": {
+				"eng": "Close tutorial search",
+				"trans": "Isara ang Paghanap ng Tutorial"
+			},
+			"error": {
+				"eng": "Tutorial search is unavailable. Check your connection and retry.",
+				"trans": "Hindi available ang tutorial search. Suriin ang koneksyon at subukan ulit."
+			},
+			"label": {
+				"eng": "Tutorial Search",
+				"trans": "Paghahanap ng Tutorial"
+			},
+			"loading": {
+				"eng": "Indexing tutorials...",
+				"trans": "Ina-index ang mga tutorial..."
+			},
+			"matchEnglishSectionLabel": {
+				"eng": "English section",
+				"trans": "Bahaging Ingles"
+			},
+			"matchEnglishTitleLabel": {
+				"eng": "English title",
+				"trans": "Pamagat sa Ingles"
+			},
+			"matchSectionLabel": {
+				"eng": "Section",
+				"trans": "Bahagi"
+			},
+			"matchTitle": {
+				"eng": "Title match",
+				"trans": "Naitugma ang Pamagat"
+			},
+			"noResults": {
+				"eng": "No tutorial results for \"${query}\"",
+				"trans": "Walang natagpuan na tutorial para sa ${query}",
+				"vars": [
+					"query"
+				]
+			},
+			"partial": {
+				"eng": "Some tutorials could not be indexed.",
+				"trans": "Hindi ma-index ang ilang tutorial."
+			},
+			"placeholder": {
+				"eng": "Search tutorials...",
+				"trans": "Maghanap ng tutorial..."
+			},
+			"ready": {
+				"eng": "Search tutorial titles, sections, and content.",
+				"trans": "Maghanap sa pamagat, seksyon, at nilalaman ng tutorial."
+			},
+			"resultCount": {
+				"eng": "${count} results",
+				"trans": "${count} resulta",
+				"vars": [
+					"count"
+				]
+			},
+			"resultCountOne": {
+				"eng": "1 result",
+				"trans": "1 resulta"
 			}
 		},
 		"unit": {

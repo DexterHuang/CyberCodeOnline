@@ -965,6 +965,13 @@
 				}
 			}
 		},
+		"discount": {
+			"eng": "${percent}% off",
+			"trans": "${percent}% sleva",
+			"vars": [
+				"percent"
+			]
+		},
 		"free": {
 			"eng": "Free",
 			"trans": "Volný, uvolnit"
@@ -974,6 +981,10 @@
 				"eng": "Free Personal Skip",
 				"trans": "Osobní přeskočení zdarma"
 			}
+		},
+		"notAvailable": {
+			"eng": "Bundle not available",
+			"trans": "Balíček není dostupný"
 		},
 		"rareEquipmentCrate": {
 			"name": {
@@ -991,6 +1002,12 @@
 			"name": {
 				"eng": "Skip supply bundle",
 				"trans": "Přeskočit svazek zásobování"
+			}
+		},
+		"summerNightsFragmentFusion": {
+			"name": {
+				"eng": "Summer Nights Fusion Bundle",
+				"trans": "Balíček letních nocí Fúze"
 			}
 		}
 	},
@@ -1306,12 +1323,6 @@
 		"offRotation": {
 			"eng": "Out of rotation",
 			"trans": "Není v rotaci"
-		}
-	},
-	"chatHeader": {
-		"skipAvailable": {
-			"eng": "Available",
-			"trans": "K dispozici"
 		}
 	},
 	"chatInput": {
@@ -1796,6 +1807,14 @@
 			"eng": "Got it",
 			"trans": "Rozumím"
 		},
+		"keep": {
+			"eng": "Keep raffle",
+			"trans": "Zachovat los"
+		},
+		"loading": {
+			"eng": "Loading",
+			"trans": "Načítání"
+		},
 		"max": {
 			"eng": "MAX",
 			"trans": "MAX"
@@ -1809,7 +1828,7 @@
 			"trans": "Koupit"
 		},
 		"retry": {
-			"eng": "RETRY CONNECTION",
+			"eng": "Retry",
 			"trans": "Znovu připojit"
 		},
 		"save": {
@@ -1819,6 +1838,593 @@
 		"warning": {
 			"eng": "Warning",
 			"trans": "Varování"
+		}
+	},
+	"communityRaffle": {
+		"action": {
+			"accountBlocked": {
+				"eng": "Limited accounts cannot join Community Raffles.",
+				"trans": "Omezené účty se nemohou zúčastnit komunitních losování."
+			},
+			"closeRaffle": {
+				"eng": "Close raffle",
+				"trans": "Ukončit losování"
+			},
+			"closeRaffleDescription": {
+				"eng": "Select and announce the winner",
+				"trans": "Vybrat a vyhlásit vítěze"
+			},
+			"graceExpired": {
+				"eng": "Winner selection window expired.",
+				"trans": "Časový limit na výběr vítěze vypršel."
+			},
+			"join": {
+				"eng": "Join raffle",
+				"trans": "Zúčastnit se losu"
+			},
+			"levelBlocked": {
+				"eng": "Reach level ${level} to join.",
+				"trans": "Pro účast dosáhněte úrovně ${level}.",
+				"vars": [
+					"level"
+				]
+			}
+		},
+		"chatHeader": {
+			"open": {
+				"eng": "Open Community Raffles",
+				"trans": "Otevřít komunitní losování"
+			}
+		},
+		"closeRaffle": {
+			"deadline": {
+				"eng": "Winner selection is available after the entry deadline.",
+				"trans": "Výběr vítězů proběhne po uplynutí termínu účasti."
+			},
+			"notOrganizer": {
+				"eng": "Only this Community Raffle's organizer can select the winner.",
+				"trans": "Pouze organizátor tohoto komunitního losování může vybrat vítěze."
+			},
+			"unavailable": {
+				"eng": "Winner selection is not available for this Community Raffle.",
+				"trans": "Výběr vítěze není pro toto komunitní losování dostupný."
+			}
+		},
+		"create": {
+			"accountLimited": {
+				"eng": "Limited accounts cannot create Community Raffles.",
+				"trans": "Omezené účty nemohou zakládat komunitní losování."
+			},
+			"accountLimitedToast": {
+				"eng": "Limited accounts cannot create Community Raffles.",
+				"trans": "Omezené účty nemohou zakládat komunitní losování."
+			},
+			"action": {
+				"eng": "Create raffle",
+				"trans": "Vytvořit losování"
+			},
+			"addEquipment": {
+				"eng": "Attach equipment",
+				"trans": "Připojit vybavení"
+			},
+			"backToEdit": {
+				"eng": "Back to edit",
+				"trans": "Zpět k úpravám"
+			},
+			"composerCounts": {
+				"eng": "${attachments} / ${maximumAttachments} · ${characters} / ${maximumCharacters}",
+				"trans": "${attachments} / ${maximumAttachments} · ${characters} / ${maximumCharacters}",
+				"vars": [
+					"attachments",
+					"maximumAttachments",
+					"characters",
+					"maximumCharacters"
+				]
+			},
+			"confirmAction": {
+				"eng": "Consume 1 Kit and publish",
+				"trans": "Spotřebuj 1 Kit a zveřejni"
+			},
+			"confirmKitCost": {
+				"eng": "Publishing consumes one Community Raffle Kit.",
+				"trans": "Publikování spotřebuje jeden balíček komunitní loterie."
+			},
+			"confirmPermanent": {
+				"eng": "Published settings cannot be edited. Deleting the raffle will not refund the Kit.",
+				"trans": "Publikovaná nastavení nelze upravovat. Odstraněním losování nebudou vráceny položky z balíčku Kit."
+			},
+			"confirmTitle": {
+				"eng": "Publish Community Raffle?",
+				"trans": "Zveřejnit komunitní losování?"
+			},
+			"cost": {
+				"eng": "1 Raffle Kit",
+				"trans": "1 sada k losování"
+			},
+			"decreaseMinimumLevel": {
+				"eng": "Decrease minimum level by 50",
+				"trans": "Snížit minimální úroveň o 50"
+			},
+			"description": {
+				"eng": "Description (optional)",
+				"trans": "Popis (nepovinné)"
+			},
+			"duration": {
+				"eng": "Duration",
+				"trans": "Trvání"
+			},
+			"durationFourteenDays": {
+				"eng": "14 days",
+				"trans": "14 dní"
+			},
+			"durationOneDay": {
+				"eng": "1 day",
+				"trans": "1 den"
+			},
+			"durationOptionFourteenDays": {
+				"eng": "14D",
+				"trans": "14 dní"
+			},
+			"durationOptionFourteenDaysAccessible": {
+				"eng": "14 days",
+				"trans": "14 dní"
+			},
+			"durationOptionOneDay": {
+				"eng": "1D",
+				"trans": "1 den"
+			},
+			"durationOptionOneDayAccessible": {
+				"eng": "1 day",
+				"trans": "1 den"
+			},
+			"durationOptionSevenDays": {
+				"eng": "7D",
+				"trans": "7 dní"
+			},
+			"durationOptionSevenDaysAccessible": {
+				"eng": "7 days",
+				"trans": "7 dní"
+			},
+			"durationOptionThirtyDays": {
+				"eng": "30D",
+				"trans": "30 dní"
+			},
+			"durationOptionThirtyDaysAccessible": {
+				"eng": "30 days",
+				"trans": "30 dnů"
+			},
+			"durationOptionThreeDays": {
+				"eng": "3D",
+				"trans": "3 dny"
+			},
+			"durationOptionThreeDaysAccessible": {
+				"eng": "3 days",
+				"trans": "3 dny"
+			},
+			"durationSevenDays": {
+				"eng": "7 days",
+				"trans": "7 dní"
+			},
+			"durationThirtyDays": {
+				"eng": "30 days",
+				"trans": "30 dnů"
+			},
+			"durationThreeDays": {
+				"eng": "3 days",
+				"trans": "3 dny"
+			},
+			"equipment": {
+				"eng": "Equipment snapshot (optional)",
+				"trans": "Snímek vybavení (volitelné)"
+			},
+			"equipmentDeliveryDescription": {
+				"eng": "Attached equipment stays in your inventory and is not sent to the winner. You must deliver it yourself.",
+				"trans": "Připojené vybavení zůstává ve vašem inventáři a neodesílá se vítězi. Předání je pouze na vás."
+			},
+			"equipmentDeliveryTitle": {
+				"eng": "Equipment delivery is manual",
+				"trans": "Doručení vybavení probíhá ručně"
+			},
+			"equipmentNotOwned": {
+				"eng": "Selected equipment is not owned by this account.",
+				"trans": "Vybrané vybavení nepatří tomuto účtu."
+			},
+			"equipmentRequired": {
+				"eng": "Only equipment can be attached to a Community Raffle.",
+				"trans": "K komunitnímu losování lze přiřadit pouze vybavení."
+			},
+			"globalAnnouncement": {
+				"eng": "${creatorName} created a Community ${raffleLink}.",
+				"trans": "${creatorName} vytvořil komunitní ${raffleLink}.",
+				"vars": [
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"increaseMinimumLevel": {
+				"eng": "Increase minimum level by 50",
+				"trans": "Zvýšit minimální úroveň o 50"
+			},
+			"kitRequired": {
+				"eng": "You need a Community Raffle Kit to create this raffle.",
+				"trans": "K vytvoření této soutěže potřebujete sadu Komunitního losování."
+			},
+			"levelRequired": {
+				"eng": "Reach level ${level} to create a Community Raffle.",
+				"trans": "Pro vytvoření komunitního losování dosáhni úrovně ${level}.",
+				"vars": [
+					"level"
+				]
+			},
+			"levelRequiredToast": {
+				"eng": "Reach level ${level} to create a Community Raffle.",
+				"trans": "Pro vytvoření komunitního losování dosáhni úrovně ${level}.",
+				"vars": [
+					"level"
+				]
+			},
+			"minimumLevel": {
+				"eng": "Minimum level",
+				"trans": "Minimální úroveň"
+			},
+			"moderationRejected": {
+				"eng": "Automated check found the title or description inappropriate or unrelated to the Community Raffle. Update the title or description, then try again.",
+				"trans": "Automatická kontrola označila název nebo popis za nevhodný nebo nesouvisející s komunitním losováním. Upravte název nebo popis a zkuste to znovu."
+			},
+			"moderationUnavailable": {
+				"eng": "Automated check is temporarily unavailable. Try again in a moment.",
+				"trans": "Automatická kontrola je dočasně nedostupná. Zkuste to prosím znovu za chvíli."
+			},
+			"noDescription": {
+				"eng": "None",
+				"trans": "Žádné"
+			},
+			"noEquipment": {
+				"eng": "None",
+				"trans": "Žádné"
+			},
+			"pageTitle": {
+				"eng": "Create Community Raffle",
+				"trans": "Vytvořit komunitní losování"
+			},
+			"removeEquipmentSnapshot": {
+				"eng": "Remove equipment snapshot",
+				"trans": "Odstranit snímek výbavy"
+			},
+			"review": {
+				"eng": "Review raffle",
+				"trans": "Kontrola losu"
+			},
+			"selectEquipment": {
+				"eng": "Select equipment snapshot",
+				"trans": "Vyberte konfiguraci vybavení"
+			},
+			"title": {
+				"eng": "Title",
+				"trans": "Název"
+			},
+			"titleCount": {
+				"eng": "${current} / ${maximum}",
+				"trans": "${current} / ${maximum}",
+				"vars": [
+					"current",
+					"maximum"
+				]
+			},
+			"titleLength": {
+				"eng": "Title must be ${minimum}–${maximum} characters.",
+				"trans": "Název musí mít ${minimum}–${maximum} znaků.",
+				"vars": [
+					"minimum",
+					"maximum"
+				]
+			},
+			"titleRequired": {
+				"eng": "Enter a title.",
+				"trans": "Zadejte název."
+			}
+		},
+		"delete": {
+			"action": {
+				"eng": "Delete raffle",
+				"trans": "Smazat losování"
+			},
+			"confirmAction": {
+				"eng": "Delete permanently",
+				"trans": "Trvale smazat"
+			},
+			"confirmTitle": {
+				"eng": "Delete Community Raffle?",
+				"trans": "Smazat komunitní losování?"
+			},
+			"creatorMail": {
+				"body": {
+					"eng": "Moderator ${moderatorName} deleted your Community Raffle: ${title}",
+					"trans": "Moderátor ${moderatorName} smazal vaši soutěž komunity: ${title}",
+					"vars": [
+						"moderatorName",
+						"title"
+					]
+				}
+			},
+			"creatorSuccess": {
+				"eng": "You deleted your Community Raffle.",
+				"trans": "Smazal jsi své komunitní losování."
+			},
+			"creatorWarning": {
+				"eng": "This permanently removes your raffle and cannot be undone. The Community Raffle Kit will not be refunded.",
+				"trans": "Tato akce trvale smaže vaše losování a nelze ji vrátit zpět. Komunitní sada na losování nebude vrácena."
+			},
+			"moderatorMail": {
+				"body": {
+					"eng": "You deleted ${creatorName}'s Community Raffle: ${title}",
+					"trans": "Smazal jsi komunitní losování uživatele ${creatorName}: ${title}",
+					"vars": [
+						"creatorName",
+						"title"
+					]
+				}
+			},
+			"moderatorWarning": {
+				"eng": "This permanently removes ${creator}'s raffle. They will be notified by mail.",
+				"trans": "Tímto natrvalo odstraníte losování uživatele ${creator}. Oznámení obdrží poštou.",
+				"vars": [
+					"creator"
+				]
+			}
+		},
+		"delivery": {
+			"creatorNoWinnerMail": {
+				"eng": "Your Community ${raffleLink} “${title}” is complete. No eligible winner remained.",
+				"trans": "Losování ${raffleLink} “${title}” ve vaší komunitě bylo dokončeno. Žádný oprávněný vítěz nebyl vybrán.",
+				"vars": [
+					"title",
+					"raffleLink"
+				]
+			},
+			"creatorWinnerMail": {
+				"eng": "Your Community ${raffleLink} “${title}” is complete. Winner: ${winnerName}.",
+				"trans": "Vaše komunitní losování ${raffleLink} “${title}” bylo ukončeno. Vítěz: ${winnerName}.",
+				"vars": [
+					"title",
+					"winnerName",
+					"raffleLink"
+				]
+			},
+			"globalAnnouncement": {
+				"eng": "🎉 ${winnerName} won a Community ${raffleLink}!",
+				"trans": "🎉 ${winnerName} vyhrává komunitní ${raffleLink}!",
+				"vars": [
+					"winnerName",
+					"raffleLink"
+				]
+			},
+			"winnerMail": {
+				"eng": "You won the Community ${raffleLink} “${title}”.",
+				"trans": "Vyhrál jsi komunitní ${raffleLink} „${title}“.",
+				"vars": [
+					"title",
+					"raffleLink"
+				]
+			}
+		},
+		"detail": {
+			"abandonedState": {
+				"eng": "Winner selection was not completed within the seven-day window.",
+				"trans": "Výběr vítěze nebyl dokončen v rámci sedmidenní lhůty."
+			},
+			"attachments": {
+				"eng": "Attachments",
+				"trans": "Přílohy"
+			},
+			"closed": {
+				"eng": "Closed",
+				"trans": "Uzavřeno"
+			},
+			"closesLabel": {
+				"eng": "Closes in",
+				"trans": "Končí za"
+			},
+			"entrantList": {
+				"eng": "Entrants",
+				"trans": "Účastníci"
+			},
+			"hostLabel": {
+				"eng": "Host",
+				"trans": "Organizátor"
+			},
+			"levelShort": {
+				"eng": "LV ${level}+",
+				"trans": "LVL ${level}+",
+				"vars": [
+					"level"
+				]
+			},
+			"minimumLevel": {
+				"eng": "Minimum level",
+				"trans": "Minimální úroveň"
+			},
+			"noEntrants": {
+				"eng": "No entries yet.",
+				"trans": "Zatří žádná účast."
+			},
+			"notFound": {
+				"eng": "We cannot find this raffle.",
+				"trans": "Toto losování nebylo nalezeno."
+			},
+			"refresh": {
+				"eng": "Refresh raffle details",
+				"trans": "Aktualizovat detaily losování"
+			},
+			"selectedWinner": {
+				"eng": "Winner",
+				"trans": "Vítěz"
+			},
+			"statusLabel": {
+				"eng": "Status",
+				"trans": "Stav"
+			},
+			"unavailable": {
+				"eng": "Community Raffle unavailable",
+				"trans": "Komunitní los není dostupný"
+			},
+			"winnerMarker": {
+				"eng": "Winner",
+				"trans": "Vítěz"
+			}
+		},
+		"empty": {
+			"description": {
+				"eng": "Active and past raffles will appear here.",
+				"trans": "Zde se budou zobrazovat aktivní i ukončené soutěže."
+			},
+			"title": {
+				"eng": "No Community Raffles yet",
+				"trans": "Zatím žádné komunitní losy"
+			}
+		},
+		"error": {
+			"notFound": {
+				"eng": "Community Raffle not found.",
+				"trans": "Komunitní losování nebylo nalezeno."
+			}
+		},
+		"join": {
+			"accountLimited": {
+				"eng": "Limited accounts cannot join Community Raffles.",
+				"trans": "Omezené účty se nemohou zúčastnit komunitních losování."
+			},
+			"alreadyJoined": {
+				"eng": "You already joined this Community Raffle.",
+				"trans": "Již jste v tomto komunitním losování."
+			},
+			"associatedEntry": {
+				"eng": "An associated account already entered this Community Raffle.",
+				"trans": "Propojený účet je již v tomto komunitním losování registrován."
+			},
+			"blocked": {
+				"eng": "You cannot join this Community Raffle.",
+				"trans": "Nelze se zúčastnit tohoto komunitního losování."
+			},
+			"closed": {
+				"eng": "This Community Raffle is no longer open for entry.",
+				"trans": "Registrace do tohoto komunitního losování je uzavřena"
+			},
+			"globalAnnouncement": {
+				"eng": "${playerName} has joined ${creatorName}'s ${raffleLink}.",
+				"trans": "${playerName} se zapojil do ${raffleLink} od ${creatorName}.",
+				"vars": [
+					"playerName",
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"globalAnnouncementOthers": {
+				"eng": "${playerName} and ${otherCount} more have joined ${creatorName}'s ${raffleLink}.",
+				"trans": "${playerName} a ještě ${otherCount} dalších hráčů se připojilo k ${raffleLink} od ${creatorName}.",
+				"vars": [
+					"playerName",
+					"otherCount",
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"levelRequired": {
+				"eng": "Reach level ${level} to join this Community Raffle.",
+				"trans": "Dosahejte úrovně ${level} pro účast v komunitním losu.",
+				"vars": [
+					"level"
+				]
+			},
+			"organizer": {
+				"eng": "You cannot join your own Community Raffle.",
+				"trans": "Nelze se připojit k vlastní komunitní loterii."
+			}
+		},
+		"loadError": {
+			"title": {
+				"eng": "Raffle list unavailable",
+				"trans": "Seznam losování není k dispozici"
+			}
+		},
+		"raffleLink": {
+			"eng": "Raffle",
+			"trans": "Losování"
+		},
+		"refresh": {
+			"eng": "Refresh raffle list",
+			"trans": "Aktualizovat seznam losování"
+		},
+		"row": {
+			"awaitingOrganizer": {
+				"eng": "Awaiting organizer",
+				"trans": "Čeká na organizátora"
+			},
+			"closedLabel": {
+				"eng": "Closed",
+				"trans": "Uzavřeno"
+			},
+			"closesLabel": {
+				"eng": "Closes in",
+				"trans": "Končí za"
+			},
+			"entriesLabel": {
+				"eng": "Entries",
+				"trans": "Účastníků"
+			},
+			"hostLabel": {
+				"eng": "Host",
+				"trans": "Organizátor"
+			},
+			"levelShort": {
+				"eng": "LV ${level}+",
+				"trans": "LVL ${level}+",
+				"vars": [
+					"level"
+				]
+			},
+			"resultLabel": {
+				"eng": "Result",
+				"trans": "Výsledek"
+			}
+		},
+		"status": {
+			"abandoned": {
+				"eng": "Abandoned",
+				"trans": "Opuštěno"
+			},
+			"awaitingOrganizer": {
+				"eng": "Awaiting organizer",
+				"trans": "Čeká na organizátora"
+			},
+			"completed": {
+				"eng": "Completed",
+				"trans": "Dokončeno"
+			},
+			"open": {
+				"eng": "Open",
+				"trans": "Otevřeno"
+			}
+		},
+		"title": {
+			"eng": "Community Raffles",
+			"trans": "Komunitní losování"
+		},
+		"tutorial": {
+			"description": {
+				"eng": "Create, join, and select a winner.",
+				"trans": "Vytvořit, připojit se a vybrat vítěze."
+			},
+			"title": {
+				"eng": "How Community Raffles work",
+				"trans": "Jak funguje komunitní losování"
+			}
+		},
+		"validation": {
+			"request": {
+				"eng": "Invalid Community Raffle request.",
+				"trans": "Neplatný požadavek na Komunitní los."
+			}
 		}
 	},
 	"component": {
@@ -2452,6 +3058,10 @@
 			"eng": "Vice Heat",
 			"trans": "Tlak podsvětí"
 		},
+		"donation55": {
+			"eng": "Black Press",
+			"trans": "Černý tisk"
+		},
 		"donation6": {
 			"eng": "Prestige",
 			"trans": "Šlechta"
@@ -3002,6 +3612,28 @@
 				"item",
 				"npcName"
 			]
+		}
+	},
+	"emblem": {
+		"showcase": {
+			"error": {
+				"emblemRequired": {
+					"eng": "Emblem is required",
+					"trans": "Emblém je vyžadován"
+				},
+				"invalidEmblem": {
+					"eng": "Invalid emblem type",
+					"trans": "Neplatný typ emblému"
+				},
+				"invalidSlot": {
+					"eng": "Invalid emblem showcase slot",
+					"trans": "Neplatný slot ve vitríně emblémů"
+				},
+				"notOwned": {
+					"eng": "You don't own this emblem",
+					"trans": "Tento emblém nevlastníš"
+				}
+			}
 		}
 	},
 	"emblems": {
@@ -5019,6 +5651,16 @@
 				"trans": "Zásobovací bedna [Gang]"
 			}
 		},
+		"communityRaffleKit": {
+			"description": {
+				"eng": "A deployable kit for creating one public Community Raffle. Consumed when the raffle is published.",
+				"trans": "Sada pro založení jednoho veřejného komunitního losování. Spotřebuje se při zveřejnění."
+			},
+			"name": {
+				"eng": "Community Raffle Kit",
+				"trans": "Komunitní balíček losování"
+			}
+		},
 		"creatine": {
 			"description": {
 				"eng": "Push past your limits and grind like a machine--When consumed, increase damage dealt by ${percent}% for ${minutes} minutes",
@@ -5620,6 +6262,19 @@
 			"name": {
 				"eng": "Medical Tech Parts",
 				"trans": "Technické součástky léčiv"
+			}
+		},
+		"mentorSkipVoucher": {
+			"description": {
+				"eng": "An evergreen voucher earned by helping a new runner reach level 50. It automatically applies a ${discountPercent}% Global Skip discount.",
+				"trans": "Trvalý voucher získaný za pomoc novému běžci při dosažení 50. úrovně. Automaticky uplatní slevu ${discountPercent}% na Globální přeskok.",
+				"vars": [
+					"discountPercent"
+				]
+			},
+			"name": {
+				"eng": "Handler Skip Voucher",
+				"trans": "Poukaz na přeskočení handlera"
 			}
 		},
 		"missileCommandPass": {
@@ -6329,6 +6984,13 @@
 		}
 	},
 	"itemInbox": {
+		"movedToInventory": {
+			"eng": "${item} has been moved from your item inbox to your inventory automatically",
+			"trans": "${item} byl automaticky přesunut z vaší schránky předmětů do inventáře",
+			"vars": [
+				"item"
+			]
+		},
 		"notifySender": {
 			"eng": "${recipient} has retrived your gift items (${itemNames}) from their inbox into their inventory.",
 			"trans": "${recipient} převzal(a) vaše dárkové položky (${itemNames}) z jejich schránky do inventáře.",
@@ -6395,6 +7057,43 @@
 		"title": {
 			"eng": "Rename History",
 			"trans": "Historie přejmenování"
+		}
+	},
+	"itemSource": {
+		"drop": {
+			"dungeons": {
+				"eng": "Dungeons",
+				"trans": "Dungeony"
+			},
+			"enemies": {
+				"eng": "Enemies",
+				"trans": "Nepřátelé"
+			},
+			"lootBoxes": {
+				"eng": "Loot boxes",
+				"trans": "Krabice s odměnami"
+			},
+			"reclamationTier": {
+				"eng": "Drop on ${tier}",
+				"trans": "Výpad na úrovni ${tier}",
+				"vars": [
+					"tier"
+				]
+			}
+		}
+	},
+	"itemSourceModal": {
+		"description": {
+			"eng": "You can get this item from:",
+			"trans": "Tuto položku získáte z:"
+		},
+		"empty": {
+			"eng": "No current sources found.",
+			"trans": "Aktuálně nebyly nalezeny žádné zdroje."
+		},
+		"title": {
+			"eng": "Item sources",
+			"trans": "Zdroje předmětů"
 		}
 	},
 	"itemStack": {
@@ -7125,6 +7824,10 @@
 		"streetcred": {
 			"eng": "Street Cred",
 			"trans": "Street Credit"
+		},
+		"topHandlers": {
+			"eng": "Top Handlers",
+			"trans": "Nejlepší operátoři"
 		}
 	},
 	"leaderboardTypePage": {
@@ -8154,6 +8857,106 @@
 			"trans": "Velení raket"
 		}
 	},
+	"mentorship": {
+		"completion": {
+			"handlerMail": {
+				"eng": "${runnerName} reached level ${completionLevel} and passed verification. Your Handler rewards were delivered.",
+				"trans": "${runnerName} postoupil na úroveň ${completionLevel} a úspěšně prošel prověřením. Vaše odměny Handlera byly doručeny.",
+				"vars": [
+					"runnerName",
+					"completionLevel"
+				]
+			}
+		},
+		"confirm": {
+			"currentHandler": {
+				"eng": "Current Handler",
+				"trans": "Aktuální koordinátor"
+			},
+			"endPermanently": {
+				"eng": "End permanently",
+				"trans": "Trvale ukončit"
+			},
+			"endPurpose": {
+				"eng": "End your mentorship with this Handler.",
+				"trans": "Ukončit mentorství s tímto správcem."
+			},
+			"endTitle": {
+				"eng": "End mentorship",
+				"trans": "Ukončit mentorství"
+			},
+			"endWarning": {
+				"eng": "This is permanent. You cannot choose another Handler.",
+				"trans": "Krok je nevratný. Není možné zvolit jiného Handlera."
+			},
+			"mentorDetails": {
+				"eng": "${name} — Level ${level}",
+				"trans": "${name} — úroveň ${level}",
+				"vars": [
+					"name",
+					"level"
+				]
+			},
+			"selectPermanently": {
+				"eng": "Choose permanently",
+				"trans": "Zvolit trvale"
+			},
+			"selectPurpose": {
+				"eng": "Choose a Handler to guide your early progression.",
+				"trans": "Vyberte si Handlera, který vás provede úvodní fází."
+			},
+			"selectTitle": {
+				"eng": "Choose Handler",
+				"trans": "Vyberte kontakt"
+			},
+			"selectWarning": {
+				"eng": "Choose only someone who has greatly helped you learn the game. Never choose a Handler for trades, items, or other favors. You cannot choose another Handler later, even if you end the mentorship.",
+				"trans": "Vyberte si pouze toho, kdo vám výrazně pomohl osvojit si hru. Nikdy nevybírejte Handlera kvůli obchodům, předmětům či jiným výhodám. Později již nebudete moci zvolit jiného Handlera, a to ani v případě ukončení mentorství."
+			}
+		},
+		"revoke": {
+			"invalid": {
+				"eng": "This mentorship can no longer be ended.",
+				"trans": "Toto mentorství již nelze ukončit."
+			}
+		},
+		"select": {
+			"handlerMail": {
+				"eng": "${runnerName} chose you as their Handler. Their mentorship will complete if they reach level ${completionLevel} and pass system verification.",
+				"trans": "${runnerName} si vás vybral jako svého handlera. Mentoring bude úspěšně dokončen, pokud dosáhne úrovně ${completionLevel} a projde systémovým ověřením.",
+				"vars": [
+					"runnerName",
+					"completionLevel"
+				]
+			},
+			"ineligible": {
+				"eng": "This Handler selection is not eligible.",
+				"trans": "Výběr operátora je neplatný."
+			}
+		}
+	},
+	"mentorshipAssignmentsPage": {
+		"empty": {
+			"eng": "No runners are currently assigned to you.",
+			"trans": "V současné době vám nejsou přiřazeni žádní běžci."
+		},
+		"loadFailed": {
+			"eng": "Mentoring runners failed to load.",
+			"trans": "Selhalo načtení běžců pro mentorství."
+		},
+		"loading": {
+			"eng": "Loading mentoring runners...",
+			"trans": "Načítání mentoringových procesů..."
+		},
+		"private": {
+			"eng": "Private — only you can see this",
+			"trans": "Soukromé — viditelné pouze pro vás"
+		},
+		"title": {
+			"eng": "Mentoring Runners",
+			"trans": "Vedení runnerů"
+		}
+	},
 	"messageImage": {
 		"hideImage": {
 			"eng": "Hide Image",
@@ -8249,6 +9052,91 @@
 					"eng": "BREACH SUCCESS",
 					"trans": "Úspěšné prolomení"
 				}
+			}
+		},
+		"orderSync": {
+			"board": {
+				"summary": {
+					"eng": "Sorting minigame. Arrange the bars from smallest to largest, left to right within the move budget. Drag a bar to reposition it, or tap two bars to swap them.",
+					"trans": "Řadicí minihra. Seřaďte prvky od nejmenšího po největší zleva doprava v rámci limitu tahů. Přetáhněte prvek pro změnu pozice nebo klepněte na dva prvky pro jejich výměnu."
+				}
+			},
+			"fail": {
+				"description": {
+					"eng": "Sort the row before you run out of moves.",
+					"trans": "Seřaď řádek, než ti dojdou tahy."
+				},
+				"retry": {
+					"eng": "Retry",
+					"trans": "Zkusit znovu"
+				},
+				"status": {
+					"eng": "ORDER REJECTED",
+					"trans": "OBJEDNÁVKA ZAMÍTNUTA"
+				},
+				"title": {
+					"eng": "Out of moves",
+					"trans": "Došli jste tahy"
+				}
+			},
+			"instruction": {
+				"eng": "Sort small to big, left to right. Drag a bar to move it, or tap two to swap.",
+				"trans": "Seřaďte zleva doprava od nejmenšího po největší. Tažením přesunete čáru, nebo klepnutím na dvě čáry prohodíte jejich pořadí."
+			},
+			"item": {
+				"aria": {
+					"eng": "Bar, value ${value}",
+					"trans": "Páska, hodnota ${value}",
+					"vars": [
+						"value"
+					]
+				}
+			},
+			"scale": {
+				"high": {
+					"eng": "HIGH",
+					"trans": "VYSOKÝ"
+				},
+				"label": {
+					"eng": "SIGNAL MAGNITUDE",
+					"trans": "SÍLA SIGNÁLU"
+				},
+				"low": {
+					"eng": "LOW",
+					"trans": "NÍZKÝ"
+				}
+			},
+			"status": {
+				"failed": {
+					"eng": "FAILED",
+					"trans": "SELHAL"
+				},
+				"locked": {
+					"eng": "SORTED",
+					"trans": "SEŘAZENO"
+				},
+				"moves": {
+					"eng": "MOVES ${count}/${max}",
+					"trans": "TAHY ${count}/${max}",
+					"vars": [
+						"count",
+						"max"
+					]
+				}
+			},
+			"success": {
+				"status": {
+					"eng": "ORDER VALIDATED",
+					"trans": "OBJEDNÁVKA OVĚŘENA"
+				},
+				"title": {
+					"eng": "Sequence sorted",
+					"trans": "Sekvence seřazena"
+				}
+			},
+			"title": {
+				"eng": "Order Sync",
+				"trans": "Synchronizace objednávek"
 			}
 		},
 		"relayGrid": {
@@ -11492,6 +12380,65 @@
 				]
 			}
 		},
+		"mentorship": {
+			"currentReward": {
+				"eng": "Reward per verified player",
+				"trans": "Odměna za ověřeného hráče"
+			},
+			"endMentorship": {
+				"eng": "End mentorship",
+				"trans": "Ukončit mentorství"
+			},
+			"futureHandlerHint": {
+				"eng": "At level ${handlerLevel}, you can also become a Handler, guide eligible new players, and earn rewards.",
+				"trans": "Od úrovně ${handlerLevel} se můžete také stát Handlerem, vést kvalifikované nové hráče a získávat odměny.",
+				"vars": [
+					"handlerLevel"
+				]
+			},
+			"handler": {
+				"eng": "Handler",
+				"trans": "Zprostředkovatel"
+			},
+			"handlerHint": {
+				"eng": "You can now guide eligible new players as a Handler. They can choose you from your profile. Verified mentorships increase your public total and grant the reward below.",
+				"trans": "Nyní můžete jako Handler vést nové hráče splňující podmínky. Hráči si vás mohou vybrat přímo z vašeho profilu. Ověřená mentorství zvýší vaši veřejnou úroveň a přinesou níže uvedenou odměnu."
+			},
+			"handlerLoadFailed": {
+				"eng": "Handler load failed.",
+				"trans": "Selhalo načtení handleru."
+			},
+			"loadingHandler": {
+				"eng": "Loading Handler...",
+				"trans": "Načítá se handler..."
+			},
+			"private": {
+				"eng": "Private — only you can see this",
+				"trans": "Soukromé — viditelné pouze pro vás"
+			},
+			"selectionEndedHint": {
+				"eng": "Your opportunity to choose a Handler ended after level ${maxLevel}. New players can choose one from level ${minLevel} to ${maxLevel} if their account is no more than ${maxAgeDays} days old. At level ${handlerLevel}, you can become a Handler, guide eligible new players, and earn rewards.",
+				"trans": "Možnost vybrat si Handlera skončila po úrovní ${maxLevel}. Noví hráči si mohou zvolit z rozsahu ${minLevel} až ${maxLevel}, pokud je jejich účet starý nejvýše ${maxAgeDays} dní. Na úrovni ${handlerLevel} se můžete stát Handlerem, vést způsobilé nové hráče a získávat odměny.",
+				"vars": [
+					"minLevel",
+					"maxLevel",
+					"maxAgeDays",
+					"handlerLevel"
+				]
+			},
+			"title": {
+				"eng": "Mentorship",
+				"trans": "Mentorství"
+			},
+			"unknownHandler": {
+				"eng": "Unknown Handler",
+				"trans": "Neznámý kontakt"
+			},
+			"viewMentoringRunners": {
+				"eng": "View Mentoring Runners",
+				"trans": "Zobrazit mentorované běhce"
+			}
+		},
 		"pets": {
 			"noPets": {
 				"eng": "this player does not own any pets",
@@ -11541,6 +12488,28 @@
 			"vars": [
 				"playerName"
 			]
+		}
+	},
+	"playerStatisticDisplay": {
+		"mentorships": {
+			"description": {
+				"eng": "Eligible new players this Handler has guided to level 50.",
+				"trans": "Noví hráči splňující podmínky, kterým tento Handler pomohl dosáhnout úrovně 50."
+			},
+			"label": {
+				"eng": "Verified Mentorships",
+				"trans": "Ověřená mentorství"
+			}
+		},
+		"skipPoints": {
+			"description": {
+				"eng": "Points earned by using Global Skip to finish tasks for all players.",
+				"trans": "Body získané při použití Global Skipu k dokončení úkolů za všechny hráče."
+			},
+			"label": {
+				"eng": "Skip Points",
+				"trans": "Body na přeskočení"
+			}
 		}
 	},
 	"playerStatusDisplay": {
@@ -15297,6 +16266,10 @@
 				"eng": "Block List",
 				"trans": "Seznam blokovaných"
 			},
+			"communityRaffle": {
+				"eng": "Community Raffles",
+				"trans": "Komunitní losování"
+			},
 			"coupon": {
 				"eng": "Claim Coupon",
 				"trans": "Uplatnit kupón"
@@ -15651,9 +16624,17 @@
 				}
 			},
 			"skippingBuff": {
-				"title": {
-					"eng": "Skip buff sponsored by:",
-					"trans": "Skip buff – sponzorováno od:"
+				"dismiss": {
+					"eng": "Dismiss Global Skip banner",
+					"trans": "Zavřít banner Globálního skipu"
+				},
+				"info": {
+					"eng": "Global Skip info",
+					"trans": "Informace o globálním skip buffu"
+				},
+				"sponsor": {
+					"eng": "Global Skip by",
+					"trans": "Globální skip od"
 				}
 			}
 		},
@@ -16468,6 +17449,23 @@
 				"eng": "Equip",
 				"trans": "Vybavit"
 			},
+			"eventGamePass": {
+				"visitNpc": {
+					"eng": "Go to ${npcName}",
+					"trans": "Vydej se k ${npcName}",
+					"vars": [
+						"npcName"
+					]
+				},
+				"visitNpcDescription": {
+					"eng": "Bring this pass to ${personName} to play ${gameName}.",
+					"trans": "Přines tento průkaz ke ${personName}, abys mohl hrát ${gameName}.",
+					"vars": [
+						"personName",
+						"gameName"
+					]
+				}
+			},
 			"history": {
 				"eng": "History",
 				"trans": "Historie"
@@ -16595,6 +17593,10 @@
 			"getAllItems": {
 				"eng": "Get All Items",
 				"trans": "Získat všechny předměty"
+			},
+			"noExpiry": {
+				"eng": "Does not expire",
+				"trans": "Nevyprší"
 			},
 			"title": {
 				"eng": "Item Inbox",
@@ -16780,6 +17782,12 @@
 			"travel": {
 				"eng": "Travel",
 				"trans": "Cestovat"
+			}
+		},
+		"markdown": {
+			"error": {
+				"eng": "Content unavailable. Check your connection and retry.",
+				"trans": "Obsah není k dispozici. Zkontrolujte připojení a zkuste to znovu."
 			}
 		},
 		"market": {
@@ -17119,6 +18127,92 @@
 				"eng": "Property of SLPD",
 				"trans": "Majetek SLPD"
 			},
+			"emblemShowcase": {
+				"addSlot": {
+					"eng": "Add emblem to slot ${slot}",
+					"trans": "Přidat emblém do slotu ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"chooseEmblemByOption": {
+					"eng": "Select emblem option ${option} for slot ${slot}",
+					"trans": "Zvolte variantu emblému ${option} pro slot ${slot}",
+					"vars": [
+						"option",
+						"slot"
+					]
+				},
+				"clearSlot": {
+					"eng": "Remove emblem from slot ${slot}",
+					"trans": "Odebrat emblém ze slotu ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"closePicker": {
+					"eng": "Close emblem picker",
+					"trans": "Zavřít výběr emblému"
+				},
+				"confirmSelection": {
+					"eng": "Confirm Selection",
+					"trans": "Potvrdit výběr"
+				},
+				"editSlot": {
+					"eng": "Change emblem in slot ${slot}",
+					"trans": "Změnit emblém ve slotu ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"emblemLabelBySlot": {
+					"eng": "Showcase emblem in slot ${slot}",
+					"trans": "Zobrazit znak ve slotu ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"pickerInstruction": {
+					"eng": "Select an emblem for slot ${slot}, then confirm.",
+					"trans": "Vyber emblém do slotu ${slot} a potvrď",
+					"vars": [
+						"slot"
+					]
+				},
+				"pickerTitle": {
+					"eng": "Choose Emblem",
+					"trans": "Vyber emblém"
+				},
+				"playAudioBySlot": {
+					"eng": "Play audio for emblem in slot ${slot}",
+					"trans": "Přehrát zvuk emblému ve slotu ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"remove": {
+					"eng": "Remove",
+					"trans": "Odebrat"
+				},
+				"removeConfirmationTitle": {
+					"eng": "Remove emblem from slot ${slot}?",
+					"trans": "Odebrat emblém ze slotu ${slot}?",
+					"vars": [
+						"slot"
+					]
+				},
+				"slotMarker": {
+					"eng": "Slot ${slot}",
+					"trans": "Slot ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"title": {
+					"eng": "pinned emblems",
+					"trans": "Připnuté emblémy"
+				}
+			},
 			"gangAction": {
 				"editPermissions": {
 					"eng": "Permissions",
@@ -17193,6 +18287,10 @@
 				"block": {
 					"eng": "Block Player",
 					"trans": "Blok hráč"
+				},
+				"chooseHandler": {
+					"eng": "Choose as Handler",
+					"trans": "Zvolit jako asistenta"
 				},
 				"giveStreetCred": {
 					"eng": "Give Street Cred",
@@ -17720,6 +18818,16 @@
 					"trans": "Soukromé emblémy"
 				}
 			},
+			"privateHandler": {
+				"description": {
+					"eng": "Hide your Handler from other players",
+					"trans": "Skrýt svůj Handler před ostatními hráči"
+				},
+				"title": {
+					"eng": "Hide my Handler",
+					"trans": "Skrýt můj handler"
+				}
+			},
 			"promoOnlyShowWhenUpdate": {
 				"description": {
 					"eng": "Only show promo popup when there is a new event",
@@ -17984,6 +19092,10 @@
 				"eng": "combat",
 				"trans": "boj"
 			},
+			"communityRaffles": {
+				"eng": "Community Raffles",
+				"trans": "Komunitní losování"
+			},
 			"dataFortress": {
 				"eng": "SL-Data Fortress",
 				"trans": "SL-Data Pevnost"
@@ -18015,6 +19127,10 @@
 			"furniture": {
 				"eng": "Furniture",
 				"trans": "Meble"
+			},
+			"handlers": {
+				"eng": "Handlers",
+				"trans": "Zpracovatelé"
 			},
 			"inventory": {
 				"eng": "inventory",
@@ -18067,6 +19183,74 @@
 			"timeSkip": {
 				"eng": "time skip",
 				"trans": "přeskočení času"
+			}
+		},
+		"tutorialSearch": {
+			"clear": {
+				"eng": "Clear search",
+				"trans": "Vymazat vyhledávání"
+			},
+			"close": {
+				"eng": "Close tutorial search",
+				"trans": "Zavřít vyhledávání návodů"
+			},
+			"error": {
+				"eng": "Tutorial search is unavailable. Check your connection and retry.",
+				"trans": "Vyhledávání tutoriálů není dostupné. Zkontrolujte připojení a zkuste to znovu."
+			},
+			"label": {
+				"eng": "Tutorial Search",
+				"trans": "Vyhledávání v tutoriálech"
+			},
+			"loading": {
+				"eng": "Indexing tutorials...",
+				"trans": "Indexování tutoriálů..."
+			},
+			"matchEnglishSectionLabel": {
+				"eng": "English section",
+				"trans": "Anglická sekce"
+			},
+			"matchEnglishTitleLabel": {
+				"eng": "English title",
+				"trans": "Anglický název"
+			},
+			"matchSectionLabel": {
+				"eng": "Section",
+				"trans": "Sekce"
+			},
+			"matchTitle": {
+				"eng": "Title match",
+				"trans": "Shodný název"
+			},
+			"noResults": {
+				"eng": "No tutorial results for \"${query}\"",
+				"trans": "Pro \"${query}\" nebyly nalezeny žádné návody",
+				"vars": [
+					"query"
+				]
+			},
+			"partial": {
+				"eng": "Some tutorials could not be indexed.",
+				"trans": "Některé tutoriály se nepodařilo indexovat."
+			},
+			"placeholder": {
+				"eng": "Search tutorials...",
+				"trans": "Hledat návody..."
+			},
+			"ready": {
+				"eng": "Search tutorial titles, sections, and content.",
+				"trans": "Vyhledejte názvy návodů, sekce a obsah."
+			},
+			"resultCount": {
+				"eng": "${count} results",
+				"trans": "${count} výsledků",
+				"vars": [
+					"count"
+				]
+			},
+			"resultCountOne": {
+				"eng": "1 result",
+				"trans": "1 výsledek"
 			}
 		},
 		"unit": {

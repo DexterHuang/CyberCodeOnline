@@ -965,6 +965,13 @@
 				}
 			}
 		},
+		"discount": {
+			"eng": "${percent}% off",
+			"trans": "${percent}% less plunder",
+			"vars": [
+				"percent"
+			]
+		},
 		"free": {
 			"eng": "Free",
 			"trans": "For the Taking"
@@ -974,6 +981,10 @@
 				"eng": "Free Personal Skip",
 				"trans": "Yer Free Skip, Me Hearties!"
 			}
+		},
+		"notAvailable": {
+			"eng": "Bundle not available",
+			"trans": "Bundled loot be out of reach"
 		},
 		"rareEquipmentCrate": {
 			"name": {
@@ -991,6 +1002,12 @@
 			"name": {
 				"eng": "Skip supply bundle",
 				"trans": "Avast, skip the loot!"
+			}
+		},
+		"summerNightsFragmentFusion": {
+			"name": {
+				"eng": "Summer Nights Fusion Bundle",
+				"trans": "Summertime Night Fusion Stash"
 			}
 		}
 	},
@@ -1306,12 +1323,6 @@
 		"offRotation": {
 			"eng": "Out of rotation",
 			"trans": "Ye's out o' the rotation, matey!"
-		}
-	},
-	"chatHeader": {
-		"skipAvailable": {
-			"eng": "Available",
-			"trans": "Shiver me timbers, it's yours for the takin'!"
 		}
 	},
 	"chatInput": {
@@ -1796,6 +1807,14 @@
 			"eng": "Got it",
 			"trans": "Aye, I hear ye!"
 		},
+		"keep": {
+			"eng": "Keep raffle",
+			"trans": "Booty Draw"
+		},
+		"loading": {
+			"eng": "Loading",
+			"trans": "Setting Sail"
+		},
 		"max": {
 			"eng": "MAX",
 			"trans": "Full Mast"
@@ -1809,7 +1828,7 @@
 			"trans": "Buyin'"
 		},
 		"retry": {
-			"eng": "RETRY CONNECTION",
+			"eng": "Retry",
 			"trans": "RE-CAST THE LINE"
 		},
 		"save": {
@@ -1819,6 +1838,593 @@
 		"warning": {
 			"eng": "Warning",
 			"trans": "Avast"
+		}
+	},
+	"communityRaffle": {
+		"action": {
+			"accountBlocked": {
+				"eng": "Limited accounts cannot join Community Raffles.",
+				"trans": "Restricted accounts be barred from joining crew raffles."
+			},
+			"closeRaffle": {
+				"eng": "Close raffle",
+				"trans": "Scuttle the raffle"
+			},
+			"closeRaffleDescription": {
+				"eng": "Select and announce the winner",
+				"trans": "Pick tha victor and shout it to the crew"
+			},
+			"graceExpired": {
+				"eng": "Winner selection window expired.",
+				"trans": "Time to pick a winner be up."
+			},
+			"join": {
+				"eng": "Join raffle",
+				"trans": "Board the draw"
+			},
+			"levelBlocked": {
+				"eng": "Reach level ${level} to join.",
+				"trans": "Reach level ${level} to cast yer coin in the pot.",
+				"vars": [
+					"level"
+				]
+			}
+		},
+		"chatHeader": {
+			"open": {
+				"eng": "Open Community Raffles",
+				"trans": "Unfurl Community Raffles"
+			}
+		},
+		"closeRaffle": {
+			"deadline": {
+				"eng": "Winner selection is available after the entry deadline.",
+				"trans": "The crew draws the victor once the entry cutoff passes."
+			},
+			"notOrganizer": {
+				"eng": "Only this Community Raffle's organizer can select the winner.",
+				"trans": "Only the Organizer o' this Raffle be fit to select the winner."
+			},
+			"unavailable": {
+				"eng": "Winner selection is not available for this Community Raffle.",
+				"trans": "Drawin' the winner be unavailable fer this Community Raffle."
+			}
+		},
+		"create": {
+			"accountLimited": {
+				"eng": "Limited accounts cannot create Community Raffles.",
+				"trans": "Restricted accounts be barred from hosting Community Raffles."
+			},
+			"accountLimitedToast": {
+				"eng": "Limited accounts cannot create Community Raffles.",
+				"trans": "Restricted accounts be barred from hosting Community Raffles."
+			},
+			"action": {
+				"eng": "Create raffle",
+				"trans": "Spin Plunder Wheel"
+			},
+			"addEquipment": {
+				"eng": "Attach equipment",
+				"trans": "Rig Up Yer Gear"
+			},
+			"backToEdit": {
+				"eng": "Back to edit",
+				"trans": "Back to Tweakin'"
+			},
+			"composerCounts": {
+				"eng": "${attachments} / ${maximumAttachments} · ${characters} / ${maximumCharacters}",
+				"trans": "${attachments} / ${maximumAttachments} · ${characters} / ${maximumCharacters}",
+				"vars": [
+					"attachments",
+					"maximumAttachments",
+					"characters",
+					"maximumCharacters"
+				]
+			},
+			"confirmAction": {
+				"eng": "Consume 1 Kit and publish",
+				"trans": "Burn 1 Kit and Publish"
+			},
+			"confirmKitCost": {
+				"eng": "Publishing consumes one Community Raffle Kit.",
+				"trans": "Publishin' this raffle costs one Community Raffle Kit."
+			},
+			"confirmPermanent": {
+				"eng": "Published settings cannot be edited. Deleting the raffle will not refund the Kit.",
+				"trans": "Once published, the settings be locked tight. Ye cannae change a thing. Delete this raffle and ye'll get naught back from yer Kit."
+			},
+			"confirmTitle": {
+				"eng": "Publish Community Raffle?",
+				"trans": "Unfurl the Community Raffle?"
+			},
+			"cost": {
+				"eng": "1 Raffle Kit",
+				"trans": "1 Raffle Chest"
+			},
+			"decreaseMinimumLevel": {
+				"eng": "Decrease minimum level by 50",
+				"trans": "Drop the min level by 50"
+			},
+			"description": {
+				"eng": "Description (optional)",
+				"trans": "Raffle Tale (If Ye Wish)"
+			},
+			"duration": {
+				"eng": "Duration",
+				"trans": "Length o' Time"
+			},
+			"durationFourteenDays": {
+				"eng": "14 days",
+				"trans": "Two Weeks"
+			},
+			"durationOneDay": {
+				"eng": "1 day",
+				"trans": "A Day's Watch"
+			},
+			"durationOptionFourteenDays": {
+				"eng": "14D",
+				"trans": "Fourteen Days"
+			},
+			"durationOptionFourteenDaysAccessible": {
+				"eng": "14 days",
+				"trans": "Two Weeks"
+			},
+			"durationOptionOneDay": {
+				"eng": "1D",
+				"trans": "One Day"
+			},
+			"durationOptionOneDayAccessible": {
+				"eng": "1 day",
+				"trans": "A Day's Watch"
+			},
+			"durationOptionSevenDays": {
+				"eng": "7D",
+				"trans": "Seven Nights"
+			},
+			"durationOptionSevenDaysAccessible": {
+				"eng": "7 days",
+				"trans": "seven days"
+			},
+			"durationOptionThirtyDays": {
+				"eng": "30D",
+				"trans": "Thirtysuns"
+			},
+			"durationOptionThirtyDaysAccessible": {
+				"eng": "30 days",
+				"trans": "Thirty Suns"
+			},
+			"durationOptionThreeDays": {
+				"eng": "3D",
+				"trans": "Three Suns"
+			},
+			"durationOptionThreeDaysAccessible": {
+				"eng": "3 days",
+				"trans": "3 Days"
+			},
+			"durationSevenDays": {
+				"eng": "7 days",
+				"trans": "seven days"
+			},
+			"durationThirtyDays": {
+				"eng": "30 days",
+				"trans": "Thirty Suns"
+			},
+			"durationThreeDays": {
+				"eng": "3 days",
+				"trans": "3 Days"
+			},
+			"equipment": {
+				"eng": "Equipment snapshot (optional)",
+				"trans": "Equipment Snapshot (Up t' Ye)"
+			},
+			"equipmentDeliveryDescription": {
+				"eng": "Attached equipment stays in your inventory and is not sent to the winner. You must deliver it yourself.",
+				"trans": "Fitted gear stays in yer hold and won't ship tae the victor. Ye must hand it over yerself."
+			},
+			"equipmentDeliveryTitle": {
+				"eng": "Equipment delivery is manual",
+				"trans": "Equipment Delivered By Hand Matey"
+			},
+			"equipmentNotOwned": {
+				"eng": "Selected equipment is not owned by this account.",
+				"trans": "Yer account holds no claim tae that gear."
+			},
+			"equipmentRequired": {
+				"eng": "Only equipment can be attached to a Community Raffle.",
+				"trans": "Only gear may be lashed to a Community Raffle."
+			},
+			"globalAnnouncement": {
+				"eng": "${creatorName} created a Community ${raffleLink}.",
+				"trans": "${creatorName} forged a fresh community ${raffleLink}.",
+				"vars": [
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"increaseMinimumLevel": {
+				"eng": "Increase minimum level by 50",
+				"trans": "Hike the minimum rank by 50"
+			},
+			"kitRequired": {
+				"eng": "You need a Community Raffle Kit to create this raffle.",
+				"trans": "A Community Raffle Kit be required t' host this raffle."
+			},
+			"levelRequired": {
+				"eng": "Reach level ${level} to create a Community Raffle.",
+				"trans": "Climb to level ${level} aboard t' host the crew raffle.",
+				"vars": [
+					"level"
+				]
+			},
+			"levelRequiredToast": {
+				"eng": "Reach level ${level} to create a Community Raffle.",
+				"trans": "Climb to level ${level} aboard t' host the crew raffle.",
+				"vars": [
+					"level"
+				]
+			},
+			"minimumLevel": {
+				"eng": "Minimum level",
+				"trans": "Minimum Rank"
+			},
+			"moderationRejected": {
+				"eng": "Automated check found the title or description inappropriate or unrelated to the Community Raffle. Update the title or description, then try again.",
+				"trans": "Our automated check flagged yer title or description as unfit or irrelevant to the Community Raffle. Revise it and try again."
+			},
+			"moderationUnavailable": {
+				"eng": "Automated check is temporarily unavailable. Try again in a moment.",
+				"trans": "The automated checkin' system be temporarily offline. Await a short spell afore ye try again."
+			},
+			"noDescription": {
+				"eng": "None",
+				"trans": "Empty Hold"
+			},
+			"noEquipment": {
+				"eng": "None",
+				"trans": "Empty Hold"
+			},
+			"pageTitle": {
+				"eng": "Create Community Raffle",
+				"trans": "Launch the Crew Lottery"
+			},
+			"removeEquipmentSnapshot": {
+				"eng": "Remove equipment snapshot",
+				"trans": "Jettison equipment backup"
+			},
+			"review": {
+				"eng": "Review raffle",
+				"trans": "Check Yer Raffle"
+			},
+			"selectEquipment": {
+				"eng": "Select equipment snapshot",
+				"trans": "Choose Your Gear Stash"
+			},
+			"title": {
+				"eng": "Title",
+				"trans": "Booty Banner"
+			},
+			"titleCount": {
+				"eng": "${current} / ${maximum}",
+				"trans": "${current} / ${maximum}",
+				"vars": [
+					"current",
+					"maximum"
+				]
+			},
+			"titleLength": {
+				"eng": "Title must be ${minimum}–${maximum} characters.",
+				"trans": "Ye title must be ${minimum} tae ${maximum} characters long.",
+				"vars": [
+					"minimum",
+					"maximum"
+				]
+			},
+			"titleRequired": {
+				"eng": "Enter a title.",
+				"trans": "Name yer raffle"
+			}
+		},
+		"delete": {
+			"action": {
+				"eng": "Delete raffle",
+				"trans": "Scuttle Raffle"
+			},
+			"confirmAction": {
+				"eng": "Delete permanently",
+				"trans": "Scuttle forevermore"
+			},
+			"confirmTitle": {
+				"eng": "Delete Community Raffle?",
+				"trans": "Scuttle the Crew's Raffle?"
+			},
+			"creatorMail": {
+				"body": {
+					"eng": "Moderator ${moderatorName} deleted your Community Raffle: ${title}",
+					"trans": "Moderator ${moderatorName} scuttled yer Community Raffle: ${title}",
+					"vars": [
+						"moderatorName",
+						"title"
+					]
+				}
+			},
+			"creatorSuccess": {
+				"eng": "You deleted your Community Raffle.",
+				"trans": "Ye've tossed yer Community Raffle overboard"
+			},
+			"creatorWarning": {
+				"eng": "This permanently removes your raffle and cannot be undone. The Community Raffle Kit will not be refunded.",
+				"trans": "This permanently sinks yer raffle and can never be turned about. The Community Raffle Kit won't be refunded."
+			},
+			"moderatorMail": {
+				"body": {
+					"eng": "You deleted ${creatorName}'s Community Raffle: ${title}",
+					"trans": "Ye scrapped ${creatorName}'s Community Raffle: ${title}",
+					"vars": [
+						"creatorName",
+						"title"
+					]
+				}
+			},
+			"moderatorWarning": {
+				"eng": "This permanently removes ${creator}'s raffle. They will be notified by mail.",
+				"trans": "This permanently scuttles ${creator}'s raffle. They will receive word by shipmail.",
+				"vars": [
+					"creator"
+				]
+			}
+		},
+		"delivery": {
+			"creatorNoWinnerMail": {
+				"eng": "Your Community ${raffleLink} “${title}” is complete. No eligible winner remained.",
+				"trans": "Your Community ${raffleLink} “${title}” draw be at an end. No eligible winner remains to claim the spoils.",
+				"vars": [
+					"title",
+					"raffleLink"
+				]
+			},
+			"creatorWinnerMail": {
+				"eng": "Your Community ${raffleLink} “${title}” is complete. Winner: ${winnerName}.",
+				"trans": "Yer Community ${raffleLink} “${title}” be finished. Winner: ${winnerName}",
+				"vars": [
+					"title",
+					"winnerName",
+					"raffleLink"
+				]
+			},
+			"globalAnnouncement": {
+				"eng": "🎉 ${winnerName} won a Community ${raffleLink}!",
+				"trans": "${winnerName} claims the Community ${raffleLink}, arr matey",
+				"vars": [
+					"winnerName",
+					"raffleLink"
+				]
+			},
+			"winnerMail": {
+				"eng": "You won the Community ${raffleLink} “${title}”.",
+				"trans": "Ye claimed yer prize from the Community ${raffleLink} titled “${title}”.",
+				"vars": [
+					"title",
+					"raffleLink"
+				]
+			}
+		},
+		"detail": {
+			"abandonedState": {
+				"eng": "Winner selection was not completed within the seven-day window.",
+				"trans": "The winner was not chosen within seven suns."
+			},
+			"attachments": {
+				"eng": "Attachments",
+				"trans": "Linked Plunder"
+			},
+			"closed": {
+				"eng": "Closed",
+				"trans": "Sailed Away"
+			},
+			"closesLabel": {
+				"eng": "Closes in",
+				"trans": "Seals shut in"
+			},
+			"entrantList": {
+				"eng": "Entrants",
+				"trans": "Crew"
+			},
+			"hostLabel": {
+				"eng": "Host",
+				"trans": "Skipper"
+			},
+			"levelShort": {
+				"eng": "LV ${level}+",
+				"trans": "RANK ${level}+",
+				"vars": [
+					"level"
+				]
+			},
+			"minimumLevel": {
+				"eng": "Minimum level",
+				"trans": "Minimum Rank"
+			},
+			"noEntrants": {
+				"eng": "No entries yet.",
+				"trans": "Awaitin' yer bids yet."
+			},
+			"notFound": {
+				"eng": "We cannot find this raffle.",
+				"trans": "This raffle be nowhere to be found."
+			},
+			"refresh": {
+				"eng": "Refresh raffle details",
+				"trans": "Reload Raffle Intel"
+			},
+			"selectedWinner": {
+				"eng": "Winner",
+				"trans": "Treasure Hunter"
+			},
+			"statusLabel": {
+				"eng": "Status",
+				"trans": "Current Standing"
+			},
+			"unavailable": {
+				"eng": "Community Raffle unavailable",
+				"trans": "Shipmates' Raffle Locked Out"
+			},
+			"winnerMarker": {
+				"eng": "Winner",
+				"trans": "Treasure Hunter"
+			}
+		},
+		"empty": {
+			"description": {
+				"eng": "Active and past raffles will appear here.",
+				"trans": "Yer current and completed draws shall be logged right here."
+			},
+			"title": {
+				"eng": "No Community Raffles yet",
+				"trans": "Ain't No Community Raffles Yet"
+			}
+		},
+		"error": {
+			"notFound": {
+				"eng": "Community Raffle not found.",
+				"trans": "The community raffle ain't on no chart."
+			}
+		},
+		"join": {
+			"accountLimited": {
+				"eng": "Limited accounts cannot join Community Raffles.",
+				"trans": "Restricted accounts be barred from joining crew raffles."
+			},
+			"alreadyJoined": {
+				"eng": "You already joined this Community Raffle.",
+				"trans": "Ye already signed on to this crew raffle."
+			},
+			"associatedEntry": {
+				"eng": "An associated account already entered this Community Raffle.",
+				"trans": "A linked account already cast its lot in this Community Raffle."
+			},
+			"blocked": {
+				"eng": "You cannot join this Community Raffle.",
+				"trans": "Ye Be Barred From This Community Raffle."
+			},
+			"closed": {
+				"eng": "This Community Raffle is no longer open for entry.",
+				"trans": "This Community Raffle be sealed tight no more entry allowed"
+			},
+			"globalAnnouncement": {
+				"eng": "${playerName} has joined ${creatorName}'s ${raffleLink}.",
+				"trans": "${playerName} boarded ${creatorName}'s ${raffleLink}.",
+				"vars": [
+					"playerName",
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"globalAnnouncementOthers": {
+				"eng": "${playerName} and ${otherCount} more have joined ${creatorName}'s ${raffleLink}.",
+				"trans": "${playerName} and ${otherCount} more have signed on to ${creatorName}'s ${raffleLink}.",
+				"vars": [
+					"playerName",
+					"otherCount",
+					"creatorName",
+					"raffleLink"
+				]
+			},
+			"levelRequired": {
+				"eng": "Reach level ${level} to join this Community Raffle.",
+				"trans": "Ye must be level ${level} to board the Community Raffle.",
+				"vars": [
+					"level"
+				]
+			},
+			"organizer": {
+				"eng": "You cannot join your own Community Raffle.",
+				"trans": "Ye cannot join yer own raffle, Captain."
+			}
+		},
+		"loadError": {
+			"title": {
+				"eng": "Raffle list unavailable",
+				"trans": "Raffle List Lost at Sea"
+			}
+		},
+		"raffleLink": {
+			"eng": "Raffle",
+			"trans": "Booty Lottery"
+		},
+		"refresh": {
+			"eng": "Refresh raffle list",
+			"trans": "Reload raffle loot"
+		},
+		"row": {
+			"awaitingOrganizer": {
+				"eng": "Awaiting organizer",
+				"trans": "Waitin' Fer Th' Quartermaster"
+			},
+			"closedLabel": {
+				"eng": "Closed",
+				"trans": "Sailed Away"
+			},
+			"closesLabel": {
+				"eng": "Closes in",
+				"trans": "Locks in"
+			},
+			"entriesLabel": {
+				"eng": "Entries",
+				"trans": "Chances"
+			},
+			"hostLabel": {
+				"eng": "Host",
+				"trans": "Skipper"
+			},
+			"levelShort": {
+				"eng": "LV ${level}+",
+				"trans": "RANK ${level}+",
+				"vars": [
+					"level"
+				]
+			},
+			"resultLabel": {
+				"eng": "Result",
+				"trans": "Spoils"
+			}
+		},
+		"status": {
+			"abandoned": {
+				"eng": "Abandoned",
+				"trans": "Forsaken"
+			},
+			"awaitingOrganizer": {
+				"eng": "Awaiting organizer",
+				"trans": "Waitin' Fer Th' Quartermaster"
+			},
+			"completed": {
+				"eng": "Completed",
+				"trans": "Draw Sealed"
+			},
+			"open": {
+				"eng": "Open",
+				"trans": "Unbarred"
+			}
+		},
+		"title": {
+			"eng": "Community Raffles",
+			"trans": "Crew's Lucky Draws"
+		},
+		"tutorial": {
+			"description": {
+				"eng": "Create, join, and select a winner.",
+				"trans": "Forge a raffle, join the crew, and crown the victor."
+			},
+			"title": {
+				"eng": "How Community Raffles work",
+				"trans": "How the Fleet Draws Operate"
+			}
+		},
+		"validation": {
+			"request": {
+				"eng": "Invalid Community Raffle request.",
+				"trans": "Your community raffle request be invalid, matey."
+			}
 		}
 	},
 	"component": {
@@ -2452,6 +3058,10 @@
 			"eng": "Vice Heat",
 			"trans": "Dreadful Fury"
 		},
+		"donation55": {
+			"eng": "Black Press",
+			"trans": "Shadowed Scribes"
+		},
 		"donation6": {
 			"eng": "Prestige",
 			"trans": "Sea Dog's Glory"
@@ -3002,6 +3612,28 @@
 				"item",
 				"npcName"
 			]
+		}
+	},
+	"emblem": {
+		"showcase": {
+			"error": {
+				"emblemRequired": {
+					"eng": "Emblem is required",
+					"trans": "Yer Emblem Be Required"
+				},
+				"invalidEmblem": {
+					"eng": "Invalid emblem type",
+					"trans": "Wrong emblem kind"
+				},
+				"invalidSlot": {
+					"eng": "Invalid emblem showcase slot",
+					"trans": "Rotten badge display slot"
+				},
+				"notOwned": {
+					"eng": "You don't own this emblem",
+					"trans": "Ye lay no claim to this emblem"
+				}
+			}
 		}
 	},
 	"emblems": {
@@ -5019,6 +5651,16 @@
 				"trans": "Supply Crate [Gan']"
 			}
 		},
+		"communityRaffleKit": {
+			"description": {
+				"eng": "A deployable kit for creating one public Community Raffle. Consumed when the raffle is published.",
+				"trans": "A stowed rig for launchin' one public community draw. Vanishes once the event is cast to the crew."
+			},
+			"name": {
+				"eng": "Community Raffle Kit",
+				"trans": "Crew Lottery Stash"
+			}
+		},
 		"creatine": {
 			"description": {
 				"eng": "Push past your limits and grind like a machine--When consumed, increase damage dealt by ${percent}% for ${minutes} minutes",
@@ -5620,6 +6262,19 @@
 			"name": {
 				"eng": "Medical Tech Parts",
 				"trans": "Sawbones' Fixin's"
+			}
+		},
+		"mentorSkipVoucher": {
+			"description": {
+				"eng": "An evergreen voucher earned by helping a new runner reach level 50. It automatically applies a ${discountPercent}% Global Skip discount.",
+				"trans": "An everlasting voucher earned by steerin' a greenhorn to level 50. It instantly claims ${discountPercent}% off any Global Skip purchase.",
+				"vars": [
+					"discountPercent"
+				]
+			},
+			"name": {
+				"eng": "Handler Skip Voucher",
+				"trans": "Handler Skip Pardon"
 			}
 		},
 		"missileCommandPass": {
@@ -6329,6 +6984,13 @@
 		}
 	},
 	"itemInbox": {
+		"movedToInventory": {
+			"eng": "${item} has been moved from your item inbox to your inventory automatically",
+			"trans": "${item} has been shipped from the inbox straight to yer hold without ye liftin' a finger",
+			"vars": [
+				"item"
+			]
+		},
 		"notifySender": {
 			"eng": "${recipient} has retrived your gift items (${itemNames}) from their inbox into their inventory.",
 			"trans": "Yo ho! ${recipient}’ve hauled yer gifts (${itemNames}) from their inbox straight into their ship’s hold!",
@@ -6395,6 +7057,43 @@
 		"title": {
 			"eng": "Rename History",
 			"trans": "Rename Logbook"
+		}
+	},
+	"itemSource": {
+		"drop": {
+			"dungeons": {
+				"eng": "Dungeons",
+				"trans": "Sea Dungeons"
+			},
+			"enemies": {
+				"eng": "Enemies",
+				"trans": "Foes"
+			},
+			"lootBoxes": {
+				"eng": "Loot boxes",
+				"trans": "Treasure Chests"
+			},
+			"reclamationTier": {
+				"eng": "Drop on ${tier}",
+				"trans": "Toss yer plunder on ${tier}",
+				"vars": [
+					"tier"
+				]
+			}
+		}
+	},
+	"itemSourceModal": {
+		"description": {
+			"eng": "You can get this item from:",
+			"trans": "Ye may claim yer bounty from:"
+		},
+		"empty": {
+			"eng": "No current sources found.",
+			"trans": "No sources charted yet."
+		},
+		"title": {
+			"eng": "Item sources",
+			"trans": "Plunder Origins"
 		}
 	},
 	"itemStack": {
@@ -7125,6 +7824,10 @@
 		"streetcred": {
 			"eng": "Street Cred",
 			"trans": "Sea Dog's Rep"
+		},
+		"topHandlers": {
+			"eng": "Top Handlers",
+			"trans": "Top Captains"
 		}
 	},
 	"leaderboardTypePage": {
@@ -8154,6 +8857,106 @@
 			"trans": "Cannonade Helm"
 		}
 	},
+	"mentorship": {
+		"completion": {
+			"handlerMail": {
+				"eng": "${runnerName} reached level ${completionLevel} and passed verification. Your Handler rewards were delivered.",
+				"trans": "${runnerName} reached level ${completionLevel} and passed muster. Yer Handler shares be stowed in yer hold.",
+				"vars": [
+					"runnerName",
+					"completionLevel"
+				]
+			}
+		},
+		"confirm": {
+			"currentHandler": {
+				"eng": "Current Handler",
+				"trans": "Yer Current Quartermaster"
+			},
+			"endPermanently": {
+				"eng": "End permanently",
+				"trans": "Sever ties forever"
+			},
+			"endPurpose": {
+				"eng": "End your mentorship with this Handler.",
+				"trans": "Sever yer ties with this Handler."
+			},
+			"endTitle": {
+				"eng": "End mentorship",
+				"trans": "Sever crew bonds"
+			},
+			"endWarning": {
+				"eng": "This is permanent. You cannot choose another Handler.",
+				"trans": "This vow be sealed forever. Ye cannot choose another hand."
+			},
+			"mentorDetails": {
+				"eng": "${name} — Level ${level}",
+				"trans": "${name} — Rank ${level}",
+				"vars": [
+					"name",
+					"level"
+				]
+			},
+			"selectPermanently": {
+				"eng": "Choose permanently",
+				"trans": "Lock It Down For Good"
+			},
+			"selectPurpose": {
+				"eng": "Choose a Handler to guide your early progression.",
+				"trans": "Select a Quartermaster to chart yer early course."
+			},
+			"selectTitle": {
+				"eng": "Choose Handler",
+				"trans": "Select Yer Quartermaster"
+			},
+			"selectWarning": {
+				"eng": "Choose only someone who has greatly helped you learn the game. Never choose a Handler for trades, items, or other favors. You cannot choose another Handler later, even if you end the mentorship.",
+				"trans": "Only select someone who truly taught ye the ropes. Never pick a Handler for tradein' goods or favors. Ye cannot choose another Handler later, even if ye end the mentorship."
+			}
+		},
+		"revoke": {
+			"invalid": {
+				"eng": "This mentorship can no longer be ended.",
+				"trans": "This bond be sealed for good."
+			}
+		},
+		"select": {
+			"handlerMail": {
+				"eng": "${runnerName} chose you as their Handler. Their mentorship will complete if they reach level ${completionLevel} and pass system verification.",
+				"trans": "${runnerName} picked ye as their Handler. Their mentorship concludes when they reach level ${completionLevel} and pass system verification.",
+				"vars": [
+					"runnerName",
+					"completionLevel"
+				]
+			},
+			"ineligible": {
+				"eng": "This Handler selection is not eligible.",
+				"trans": "This handler be off-limits to ye."
+			}
+		}
+	},
+	"mentorshipAssignmentsPage": {
+		"empty": {
+			"eng": "No runners are currently assigned to you.",
+			"trans": "No deckhands be signed to yer command yet."
+		},
+		"loadFailed": {
+			"eng": "Mentoring runners failed to load.",
+			"trans": "The mentored crew could not load onto yer manifest."
+		},
+		"loading": {
+			"eng": "Loading mentoring runners...",
+			"trans": "Rallyin' mentor deckhands..."
+		},
+		"private": {
+			"eng": "Private — only you can see this",
+			"trans": "Private — Hidden From All Save Ye"
+		},
+		"title": {
+			"eng": "Mentoring Runners",
+			"trans": "Training the Scallywags"
+		}
+	},
 	"messageImage": {
 		"hideImage": {
 			"eng": "Hide Image",
@@ -8249,6 +9052,91 @@
 					"eng": "BREACH SUCCESS",
 					"trans": "Breach be a success!"
 				}
+			}
+		},
+		"orderSync": {
+			"board": {
+				"summary": {
+					"eng": "Sorting minigame. Arrange the bars from smallest to largest, left to right within the move budget. Drag a bar to reposition it, or tap two bars to swap them.",
+					"trans": "Sortin' Minigame. Line up the bars from smallest to largest, left to right, without wastin' yer move budget. Drag a bar to shift its spot, or tap two bars to swap their places."
+				}
+			},
+			"fail": {
+				"description": {
+					"eng": "Sort the row before you run out of moves.",
+					"trans": "Arrange that row afore ye run dry o' moves."
+				},
+				"retry": {
+					"eng": "Retry",
+					"trans": "Give It Another Shot"
+				},
+				"status": {
+					"eng": "ORDER REJECTED",
+					"trans": "ORDER TURNED AWAY"
+				},
+				"title": {
+					"eng": "Out of moves",
+					"trans": "All Me Moves Be Spent"
+				}
+			},
+			"instruction": {
+				"eng": "Sort small to big, left to right. Drag a bar to move it, or tap two to swap.",
+				"trans": "Arrange yer bars from smallest to largest, left to right. Drag a bar to shift it, or tap two bars to swap their spots."
+			},
+			"item": {
+				"aria": {
+					"eng": "Bar, value ${value}",
+					"trans": "Gauge, tally ${value}",
+					"vars": [
+						"value"
+					]
+				}
+			},
+			"scale": {
+				"high": {
+					"eng": "HIGH",
+					"trans": "YARDARM"
+				},
+				"label": {
+					"eng": "SIGNAL MAGNITUDE",
+					"trans": "SIGNAL MIGHT"
+				},
+				"low": {
+					"eng": "LOW",
+					"trans": "LOW TIDE"
+				}
+			},
+			"status": {
+				"failed": {
+					"eng": "FAILED",
+					"trans": "SUNK"
+				},
+				"locked": {
+					"eng": "SORTED",
+					"trans": "SHIPSHAPE"
+				},
+				"moves": {
+					"eng": "MOVES ${count}/${max}",
+					"trans": "PLAYS ${count}/${max}",
+					"vars": [
+						"count",
+						"max"
+					]
+				}
+			},
+			"success": {
+				"status": {
+					"eng": "ORDER VALIDATED",
+					"trans": "ORDER SEALED"
+				},
+				"title": {
+					"eng": "Sequence sorted",
+					"trans": "Sequence Set Right"
+				}
+			},
+			"title": {
+				"eng": "Order Sync",
+				"trans": "Cargo Linkup"
 			}
 		},
 		"relayGrid": {
@@ -11492,6 +12380,65 @@
 				]
 			}
 		},
+		"mentorship": {
+			"currentReward": {
+				"eng": "Reward per verified player",
+				"trans": "Loot per confirmed deckhand"
+			},
+			"endMentorship": {
+				"eng": "End mentorship",
+				"trans": "Sever crew bonds"
+			},
+			"futureHandlerHint": {
+				"eng": "At level ${handlerLevel}, you can also become a Handler, guide eligible new players, and earn rewards.",
+				"trans": "When ye reach level ${handlerLevel}, ye may also claim the Handler mantle, steer eligible recruits on de right course, and reap yer rewards.",
+				"vars": [
+					"handlerLevel"
+				]
+			},
+			"handler": {
+				"eng": "Handler",
+				"trans": "Quartermaster"
+			},
+			"handlerHint": {
+				"eng": "You can now guide eligible new players as a Handler. They can choose you from your profile. Verified mentorships increase your public total and grant the reward below.",
+				"trans": "Ye can now guide eligible new scallywags as a Handler. They can pick ye from yer profile. Verified mentorships boost yer public tally and grant the reward below."
+			},
+			"handlerLoadFailed": {
+				"eng": "Handler load failed.",
+				"trans": "Mentor's warrant failed to load."
+			},
+			"loadingHandler": {
+				"eng": "Loading Handler...",
+				"trans": "Bootin' up yer Handler..."
+			},
+			"private": {
+				"eng": "Private — only you can see this",
+				"trans": "Private — Hidden From All Save Ye"
+			},
+			"selectionEndedHint": {
+				"eng": "Your opportunity to choose a Handler ended after level ${maxLevel}. New players can choose one from level ${minLevel} to ${maxLevel} if their account is no more than ${maxAgeDays} days old. At level ${handlerLevel}, you can become a Handler, guide eligible new players, and earn rewards.",
+				"trans": "Yer chance ta choose a Handler shut tight once ye hit level ${maxLevel}. Fresh recruits may still claim one between levels ${minLevel} and ${maxLevel}, provided their account is no older than ${maxAgeDays} days. Once ye reach level ${handlerLevel}, ye can take command as a Handler, steer eligible newcomers, and pocket yer rewards.",
+				"vars": [
+					"minLevel",
+					"maxLevel",
+					"maxAgeDays",
+					"handlerLevel"
+				]
+			},
+			"title": {
+				"eng": "Mentorship",
+				"trans": "Captain Guidance"
+			},
+			"unknownHandler": {
+				"eng": "Unknown Handler",
+				"trans": "Unknown Quartermaster"
+			},
+			"viewMentoringRunners": {
+				"eng": "View Mentoring Runners",
+				"trans": "View Trained Scallywags"
+			}
+		},
 		"pets": {
 			"noPets": {
 				"eng": "this player does not own any pets",
@@ -11541,6 +12488,28 @@
 			"vars": [
 				"playerName"
 			]
+		}
+	},
+	"playerStatisticDisplay": {
+		"mentorships": {
+			"description": {
+				"eng": "Eligible new players this Handler has guided to level 50.",
+				"trans": "Eligible new scallywags this Handler has steered up to level 50."
+			},
+			"label": {
+				"eng": "Verified Mentorships",
+				"trans": "Sworn Mentorships"
+			}
+		},
+		"skipPoints": {
+			"description": {
+				"eng": "Points earned by using Global Skip to finish tasks for all players.",
+				"trans": "Points awarded when usin' Global Skip to complete tasks fer the entire crew."
+			},
+			"label": {
+				"eng": "Skip Points",
+				"trans": "Skip Shillings"
+			}
 		}
 	},
 	"playerStatusDisplay": {
@@ -15297,6 +16266,10 @@
 				"eng": "Block List",
 				"trans": "The Blockade Roster"
 			},
+			"communityRaffle": {
+				"eng": "Community Raffles",
+				"trans": "Crew's Lucky Draws"
+			},
 			"coupon": {
 				"eng": "Claim Coupon",
 				"trans": "Claim Yer Coupon"
@@ -15651,9 +16624,17 @@
 				}
 			},
 			"skippingBuff": {
-				"title": {
-					"eng": "Skip buff sponsored by:",
-					"trans": "Arrr, skip ye buff, sponsored be:"
+				"dismiss": {
+					"eng": "Dismiss Global Skip banner",
+					"trans": "Shove aside the Global Skip banner"
+				},
+				"info": {
+					"eng": "Global Skip info",
+					"trans": "Skip Across The Seven Seas Details"
+				},
+				"sponsor": {
+					"eng": "Global Skip by",
+					"trans": "Fleetwide Skip courtesy of"
 				}
 			}
 		},
@@ -16468,6 +17449,23 @@
 				"eng": "Equip",
 				"trans": "Fit 'er"
 			},
+			"eventGamePass": {
+				"visitNpc": {
+					"eng": "Go to ${npcName}",
+					"trans": "Sail tae ${npcName}",
+					"vars": [
+						"npcName"
+					]
+				},
+				"visitNpcDescription": {
+					"eng": "Bring this pass to ${personName} to play ${gameName}.",
+					"trans": "Deliver this pass to ${personName} to play ${gameName}.",
+					"vars": [
+						"personName",
+						"gameName"
+					]
+				}
+			},
 			"history": {
 				"eng": "History",
 				"trans": "Logbook"
@@ -16595,6 +17593,10 @@
 			"getAllItems": {
 				"eng": "Get All Items",
 				"trans": "Avast ye, claim all the loot!"
+			},
+			"noExpiry": {
+				"eng": "Does not expire",
+				"trans": "Lasts forevermore"
 			},
 			"title": {
 				"eng": "Item Inbox",
@@ -16780,6 +17782,12 @@
 			"travel": {
 				"eng": "Travel",
 				"trans": "Tra'el"
+			}
+		},
+		"markdown": {
+			"error": {
+				"eng": "Content unavailable. Check your connection and retry.",
+				"trans": "Data be missing. Check yer connection and try again."
 			}
 		},
 		"market": {
@@ -17119,6 +18127,92 @@
 				"eng": "Property of SLPD",
 				"trans": "SLPD Got This"
 			},
+			"emblemShowcase": {
+				"addSlot": {
+					"eng": "Add emblem to slot ${slot}",
+					"trans": "Fit yer emblem into slot ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"chooseEmblemByOption": {
+					"eng": "Select emblem option ${option} for slot ${slot}",
+					"trans": "Choose yer emblem option ${option} fer slot ${slot}",
+					"vars": [
+						"option",
+						"slot"
+					]
+				},
+				"clearSlot": {
+					"eng": "Remove emblem from slot ${slot}",
+					"trans": "Ditch the badge from rack ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"closePicker": {
+					"eng": "Close emblem picker",
+					"trans": "Belay Yer Emblem Picker"
+				},
+				"confirmSelection": {
+					"eng": "Confirm Selection",
+					"trans": "Confirm yer pick"
+				},
+				"editSlot": {
+					"eng": "Change emblem in slot ${slot}",
+					"trans": "Swap yer patch in slot ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"emblemLabelBySlot": {
+					"eng": "Showcase emblem in slot ${slot}",
+					"trans": "Hoist yer crest in berth ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"pickerInstruction": {
+					"eng": "Select an emblem for slot ${slot}, then confirm.",
+					"trans": "Pick a mark for slot ${slot}, then give the word.",
+					"vars": [
+						"slot"
+					]
+				},
+				"pickerTitle": {
+					"eng": "Choose Emblem",
+					"trans": "Pick Yer Mark"
+				},
+				"playAudioBySlot": {
+					"eng": "Play audio for emblem in slot ${slot}",
+					"trans": "Sound out yer sigil at post ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"remove": {
+					"eng": "Remove",
+					"trans": "Jettison"
+				},
+				"removeConfirmationTitle": {
+					"eng": "Remove emblem from slot ${slot}?",
+					"trans": "Ditch yer emblem from slot ${slot}?",
+					"vars": [
+						"slot"
+					]
+				},
+				"slotMarker": {
+					"eng": "Slot ${slot}",
+					"trans": "Bay ${slot}",
+					"vars": [
+						"slot"
+					]
+				},
+				"title": {
+					"eng": "pinned emblems",
+					"trans": "Anchored Badges"
+				}
+			},
 			"gangAction": {
 				"editPermissions": {
 					"eng": "Permissions",
@@ -17193,6 +18287,10 @@
 				"block": {
 					"eng": "Block Player",
 					"trans": "Silence the Scallywag"
+				},
+				"chooseHandler": {
+					"eng": "Choose as Handler",
+					"trans": "Select Yer Skipper"
 				},
 				"giveStreetCred": {
 					"eng": "Give Street Cred",
@@ -17720,6 +18818,16 @@
 					"trans": "Hide yer colors, matey!"
 				}
 			},
+			"privateHandler": {
+				"description": {
+					"eng": "Hide your Handler from other players",
+					"trans": "Hide yer Handler from other sea dogs"
+				},
+				"title": {
+					"eng": "Hide my Handler",
+					"trans": "Shroud Me Handler"
+				}
+			},
 			"promoOnlyShowWhenUpdate": {
 				"description": {
 					"eng": "Only show promo popup when there is a new event",
@@ -17984,6 +19092,10 @@
 				"eng": "combat",
 				"trans": "Melee"
 			},
+			"communityRaffles": {
+				"eng": "Community Raffles",
+				"trans": "Crew's Lucky Draws"
+			},
 			"dataFortress": {
 				"eng": "SL-Data Fortress",
 				"trans": "SL-Data Booty Cache"
@@ -18015,6 +19127,10 @@
 			"furniture": {
 				"eng": "Furniture",
 				"trans": "Ship's Furnishings"
+			},
+			"handlers": {
+				"eng": "Handlers",
+				"trans": "Ship Mates"
 			},
 			"inventory": {
 				"eng": "inventory",
@@ -18067,6 +19183,74 @@
 			"timeSkip": {
 				"eng": "time skip",
 				"trans": "Scuttle the clock!"
+			}
+		},
+		"tutorialSearch": {
+			"clear": {
+				"eng": "Clear search",
+				"trans": "Wipe the Search"
+			},
+			"close": {
+				"eng": "Close tutorial search",
+				"trans": "Cease lesson hunt"
+			},
+			"error": {
+				"eng": "Tutorial search is unavailable. Check your connection and retry.",
+				"trans": "Tutorial search be down. Check yer connection and try again."
+			},
+			"label": {
+				"eng": "Tutorial Search",
+				"trans": "Seek yer Guides"
+			},
+			"loading": {
+				"eng": "Indexing tutorials...",
+				"trans": "Catalogin' the guide logs..."
+			},
+			"matchEnglishSectionLabel": {
+				"eng": "English section",
+				"trans": "English Quarters"
+			},
+			"matchEnglishTitleLabel": {
+				"eng": "English title",
+				"trans": "Pirate Title"
+			},
+			"matchSectionLabel": {
+				"eng": "Section",
+				"trans": "Quarters"
+			},
+			"matchTitle": {
+				"eng": "Title match",
+				"trans": "Yer Title Be Matched"
+			},
+			"noResults": {
+				"eng": "No tutorial results for \"${query}\"",
+				"trans": "Ain't no tutorials fer \"${query}\"",
+				"vars": [
+					"query"
+				]
+			},
+			"partial": {
+				"eng": "Some tutorials could not be indexed.",
+				"trans": "Some tutorials weren't logged in the captain's ledger."
+			},
+			"placeholder": {
+				"eng": "Search tutorials...",
+				"trans": "Search tutorials..."
+			},
+			"ready": {
+				"eng": "Search tutorial titles, sections, and content.",
+				"trans": "Scour guide titles, chapters, and lore."
+			},
+			"resultCount": {
+				"eng": "${count} results",
+				"trans": "${count} finds",
+				"vars": [
+					"count"
+				]
+			},
+			"resultCountOne": {
+				"eng": "1 result",
+				"trans": "1 find"
 			}
 		},
 		"unit": {

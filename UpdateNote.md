@@ -16,6 +16,15 @@ Please send your feedback to my Discord or email me directly.
 
 ## Updates
 
+### 0.1897
+
+- **Community Raffles**:
+  - Missing `Community Raffle Kit` requirements now link to item sources.
+  - Player names and equipment attachments now open their matching details.
+  - Improved raffle announcements, entrant lists, timers, and reliability.
+- Added clearer explanations for `Skip Points` and `Verified Mentorships` on player profiles.
+- Improved Handler selection warnings and made Handler milestone emblems visible in the emblem list.
+
 ### 0.1896
 
 - **Summer Nights**:
