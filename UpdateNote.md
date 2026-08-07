@@ -16,6 +16,11 @@ Please send your feedback to my Discord or email me directly.
 
 ## Updates
 
+### 0.1898
+
+- Improved translated chat in `Global Chat` and `Gang Chat`, with better preservation of conversation context, player names, formatting, and message meaning.
+- `Handler` selection now explains why a player is ineligible instead of showing a generic error.
+
 ### 0.1897
 
 - **Community Raffles**:
