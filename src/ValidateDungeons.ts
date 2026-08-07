@@ -55,7 +55,7 @@ export class DungeonValidator {
         }
         for (let i = 0; i < dungeon.tiles.length; ++i) {
             if (dungeon.tiles[i] !== ' ' && dungeon.tiles[i] !== '#') {
-                throw new Error(`Tiles has a unkown character! possible character: " ", "#"`);
+                throw new Error(`Tiles has a unknown character! possible character: " ", "#"`);
             }
             const x = i % this.size;
             const y = Math.floor(i / this.size);
