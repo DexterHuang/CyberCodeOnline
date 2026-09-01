@@ -16,6 +16,20 @@ Please send your feedback to my Discord or email me directly.
 
 ## Updates
 
+### 0.1901
+
+- **Nightbloom Festival (09/01 to 09/30)**:
+  - Added the `Precision Tower` event game. Find `Nightbloom Access Shard` from AFK bot farming and dungeon chests to play.
+  - Collect `Nightbloom Petal` during the event and trade it with `Vesper` at the `Nightbloom Florist` for event rewards.
+  - Added `Nightbloom Infusion`, `Chat Lottery Skip Voucher`, event rewards, and the weekly `Epic Cache Fusion Bundle`.
+- Redesigned the `Bank of Arasaka` with ATM deposit and withdrawal flows plus an `Item Vault` for bulk storage, retrieval, capacity tracking, and upgrades.
+- Added the `Nightbloom` donation frame with matching profile styling and player-banner presentation.
+- Improved mobile chat frame previews
+- Added `Show My Message Translation` setting, allowing you to hide your own message translations.
+- `SLANC` replies now use your chat translation settings, with improved preservation of message context and formatting.
+- Improved mobile settings reliability when changing language or `Gang` notification preferences.
+- Improved performance for animated NPCs and emblems when they are off-screen.
+
 ### 0.1900
 
 - Improved `SLANC` with more natural conversations and clearer player replies.
