@@ -16,6 +16,16 @@ Please send your feedback to my Discord or email me directly.
 
 ## Updates
 
+### 0.1902
+
+- Improved dungeon combat reliability to help prevent unintended consecutive attacks. this should resolve the issue where in very rare cases enemy can one-shot players in dungeon unexpectedly due to netwrok lag or other issues. please let me know if you still encounter this issue after this update.
+- Improved market browsing with saved level and rarity filters, including an option to view all rarities.
+- Made `Molecular Printer` recipes clearer, showing what you can print, the costs, and the results.
+- `Global Skip` now always asks for confirmation before spending units.
+- Improved welcome-screen reliability after character setup.
+- Improved donation frame and profile presentation, including emblem visibility in the `Vice Heat` chat frame.
+- Security patch.
+
 ### 0.1901
 
 - **Nightbloom Festival (09/01 to 09/30)**:
