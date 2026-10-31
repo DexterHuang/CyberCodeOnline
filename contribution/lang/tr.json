@@ -3199,6 +3199,10 @@
 			"eng": "Blood Moon",
 			"trans": "Kan Ayı"
 		},
+		"donation59": {
+			"eng": "Prismatic",
+			"trans": "Prizmatik"
+		},
 		"donation6": {
 			"eng": "Prestige",
 			"trans": "Prestij"
@@ -7143,10 +7147,20 @@
 				"trans": "Kızarmış hindi"
 			}
 		},
+		"turkeyFeather": {
+			"description": {
+				"eng": "A feather shed by the runaway turkey. The Depot Tender trades Thanksgiving food and supplies for these.",
+				"trans": "Kaçan hindiden dökülen tüy. Depo Görevlisi bu tüylere karşılık Şükran Günü yiyecek ve malzemesi takas eder."
+			},
+			"name": {
+				"eng": "Turkey Feather",
+				"trans": "Hindi Tüyü"
+			}
+		},
 		"turkeyRunPass": {
 			"description": {
-				"eng": "Entry to Turkey on the Run during Thanksgiving. Found in dungeon crates and through Deploy farm bot.",
-				"trans": "Şükran Günü süresince Tavuk Kaçışı etkinliğine giriş sağlar. Zindan sandıklarından ve Yerleştir Çiftlik Botu üzerinden elde edilir."
+				"eng": "Entry to Turkey on the Run during Thanksgiving.",
+				"trans": "Şükran Günü boyunca Kaçan Hindi Girişi"
 			},
 			"name": {
 				"eng": "Turkey Run Pass",
@@ -9451,6 +9465,85 @@
 			"title": {
 				"eng": "Data Stream Interceptor",
 				"trans": "Veri Akışı Kesici"
+			}
+		},
+		"gyroLock": {
+			"containment": {
+				"eng": "CONTAINMENT",
+				"trans": "KONTROL"
+			},
+			"fail": {
+				"description": {
+					"eng": "The vault re-sealed before all three seals were set.",
+					"trans": "Kasa, üç mühürün tamamı yerleştirilmeden yeniden mühürlendi."
+				},
+				"retry": {
+					"eng": "Retry breach",
+					"trans": "İhlali tekrar dene\n<"
+				},
+				"status": {
+					"eng": "BREACH FAILED",
+					"trans": "SIZMA BAŞARISIZ"
+				},
+				"title": {
+					"eng": "Containment reset",
+					"trans": "Hapsedilme Sıfırlandı"
+				}
+			},
+			"hint": {
+				"eng": "Touch and drag to rotate",
+				"trans": "Döndürmek için dokun ve sürükle"
+			},
+			"instruction": {
+				"eng": "Drag around the dial. The ring steadies near the lock point. Hold it there to set the seal.",
+				"trans": "Kadranda döndürerek sürükle. Halka kilit noktasına yaklaşınca sabitlenir. Orada tutarak mühürle."
+			},
+			"status": {
+				"breached": {
+					"eng": "BREACHED",
+					"trans": "IHLAL EDİLDİ\n</"
+				},
+				"reset": {
+					"eng": "RESET",
+					"trans": "SIFIRLA"
+				},
+				"seal": {
+					"eng": "SEAL ${current}/${total}",
+					"trans": "SEAL ${current}/${total}",
+					"vars": [
+						"current",
+						"GyroLockConfig.SEAL_COUNT)",
+						"total"
+					]
+				}
+			},
+			"success": {
+				"status": {
+					"eng": "VAULT OPEN",
+					"trans": "KASA AÇIK"
+				},
+				"title": {
+					"eng": "Breach complete",
+					"trans": "Sızma tamamlandı"
+				}
+			},
+			"title": {
+				"eng": "Gyro Lock",
+				"trans": "Jiro Kilidi"
+			},
+			"vaultId": {
+				"eng": "VAULT ${id}",
+				"trans": "KASA ${id}",
+				"vars": [
+					"id"
+				]
+			},
+			"window": {
+				"eng": "WINDOW ±${degrees}°",
+				"trans": "PENCERE ±${degrees}°",
+				"vars": [
+					"degrees"
+				]
 			}
 		},
 		"hexBuffer": {
@@ -12034,12 +12127,14 @@
 		"thanksgiving": {
 			"defaultLines": {
 				"eng": [
-					"Dinner has escaped. The butcher is not taking it well.",
-					"Bring a Turkey Run Pass. Grab the corn. Avoid becoming dinner."
+					"Dinner has escaped. The chef is not taking it well.",
+					"Bring a Turkey Run Pass. Grab the corn. Avoid becoming dinner.",
+					"Turkey feathers! Bring me the feathers and I'll trade you a proper dinner."
 				],
 				"trans": [
-					"Yemek kaçtı. Kasap bundan pek memnun değil.",
-					"Tavuk Kosusu bileti getir. Misiri kap. Yemek olmaktan kacin."
+					"Yemek kaçtı. Şef bunu pek hazmetmiyor.",
+					"Tavuk Koşusu Bileti getir. Mısırları kap. Akşam yemeği olmaktan kaçın.",
+					"Hindi tüyleri! Tüyleri getir, karşılığında sana düzgün bir akşam yemeği çıkarayım."
 				]
 			},
 			"name": {
@@ -16862,6 +16957,12 @@
 				"trans": "Oyun eğlenceli. Topluluğun bu kadar etkileşimli olmasını seviyorum, özellikle küresel atlamalar ve güçlendirmeler söz konusu olduğunda. Basit ama çok zorlayıcı değil."
 			}
 		},
+		"review11": {
+			"quote": {
+				"eng": "I LOVE the global system! Whenever someone makes a purchase it benefits everyone on the server. One of the very few mobile games I've ever spent money on",
+				"trans": "Global sistemi ÇOK SEVİYORUM! Birisi her alışveriş yaptığında sunucudaki herkes bundan faydalanıyor. Şimdiye kadar para harcadığım nadir mobil oyunlardan biri.\n<"
+			}
+		},
 		"review2": {
 			"quote": {
 				"eng": "I love that the buffs benefit everyone playing the game. It's a new vibe to me - I'm used to using buffs for myself! Highly recommended for playing in your leisure time.",
@@ -16912,38 +17013,57 @@
 		}
 	},
 	"thanksgivingPromo": {
-		"desc1": {
-			"eng": "During event period, Roasted Turkey will drop rarely from scavenging and AKF Bot on all levels",
-			"trans": "Etkinlik döneminde, kavrulmuş Türkiye nadiren tüm seviyelerde temizleme ve AKF botundan düşecek"
+		"contentLabel": {
+			"eng": "Event Content",
+			"trans": "Etkinlik İçeriği\n<"
 		},
-		"desc2": {
-			"eng": "When a Roasted Turkey is consumed, you will get +20% EXP on AFK tasks for 20 minutes",
-			"trans": "Kavrulmuş bir hindi tüketildiğinde, 20 dakika boyunca AFK görevlerinde +% 20 exp alacaksınız"
+		"description": {
+			"eng": "Outrun the chef in Turkey on the Run, gather Turkey Feathers, and trade with ${npc}.",
+			"trans": "Tavuk Koşturmacasında aşçıdan kaç, Tavuk Tüyleri topla ve ${npc} ile takas et.",
+			"vars": [
+				"npc"
+			]
 		},
-		"footnote1": {
-			"eng": "Please note that the EXP bonus check is at AFK completion time, so you must have the Roasted Turkey buff active at the time of completion to receive the bonus.",
-			"trans": "Exp bonus kontrolünün AFK tamamlama süresinde olduğunu lütfen unutmayın, bu nedenle bonus almak için tamamlanma sırasında kavrulmuş hindi tutkunu aktif hale getirmeniz gerekir."
+		"donation": {
+			"eng": "During Thanksgiving, time-limited donation tiers and the Turkey emblem are available.",
+			"trans": "Şükran Günü boyunca, sınırlı süreli bağış kademeleri ve Hindi rozeti mevcut."
 		},
-		"footnote2": {
-			"eng": "This effect will stack with other EXP bonus, and will only affect AFK tasks; tasks that does not have AFK timers will not be affected.",
-			"trans": "Bu etki diğer exp bonusu ile istiflenecek ve yalnızca AFK görevlerini etkileyecektir; AFK zamanlayıcıları olmayan görevler etkilenmeyecektir."
+		"eyebrow": {
+			"eng": "Limited-time Event",
+			"trans": "Süreli Etkinlik"
 		},
-		"title": {
-			"eng": "Happy Thanksgiving!",
-			"trans": "Şükran Günü kutlu olsun!"
+		"titleV2": {
+			"eng": "Thanksgiving",
+			"trans": "Şükran Günü"
+		},
+		"turkeyBuff": {
+			"eng": "Trade Turkey Feathers for a ${turkey} at the ${depot}. Consume it for +20% AFK EXP for 20 minutes.",
+			"trans": "Hindi Tüylerini ${turkey} için ${depot} noktasında takas et. Onu tüketerek 20 dakika boyunca +%20 AFK EXP kazan.",
+			"vars": [
+				"turkey",
+				"depot"
+			]
+		},
+		"turkeyBuffRule": {
+			"eng": "Only AFK tasks count, and the buff must still be active when the task completes. Stacks with other EXP bonuses.",
+			"trans": "Yalnızca AFK görevleri sayılır, görev tamamlanırken buff hâlâ aktif olmalıdır. Diğer EXP bonuslarıyla birikir."
 		}
 	},
 	"thanksgivingPromoSmall": {
-		"desc": {
-			"eng": "Consume delicious turkey to get +${percent}% EXP on AFK tasks",
-			"trans": "AFK görevlerinde +${percent}% exp almak için lezzetli hindi tüketin",
+		"description": {
+			"eng": "Outrun the chef. Trade feathers with ${npc}.",
+			"trans": "Aşçıyı geride bırak. ${npc} ile tüy takası yap.",
 			"vars": [
-				"percent"
+				"npc"
 			]
 		},
-		"title": {
-			"eng": "Thanksgiving event",
-			"trans": "Şükran Günü etkinliği"
+		"eyebrow": {
+			"eng": "Limited-time Event",
+			"trans": "Süreli Etkinlik"
+		},
+		"titleV2": {
+			"eng": "Thanksgiving",
+			"trans": "Şükran Günü"
 		}
 	},
 	"thiefPromo": {
@@ -17274,6 +17394,31 @@
 		}
 	},
 	"turkeyRun": {
+		"banner": {
+			"cleared": {
+				"eng": "Stage ${stage} clear",
+				"trans": "Aşama ${stage} tamamlandı",
+				"vars": [
+					"stage"
+				]
+			},
+			"clearedDetail": {
+				"eng": "Tier ${tier} secured · Entering ${name}",
+				"trans": "Kademe ${tier} güvenceye alındı · ${name} bölgesine giriliyor",
+				"vars": [
+					"tier",
+					"name"
+				]
+			},
+			"escaped": {
+				"eng": "Escaped!",
+				"trans": "Kaçtın!"
+			},
+			"escapedDetail": {
+				"eng": "Tier 5 secured. The chef gives up.",
+				"trans": "5. seviye güvence altında. Aşçı pes ediyor."
+			}
+		},
 		"close": {
 			"eng": "Close",
 			"trans": "Kapat"
@@ -17295,6 +17440,13 @@
 			}
 		},
 		"hud": {
+			"clearAt": {
+				"eng": "Clear at ${count} corn cobs",
+				"trans": "${count} mısır koçanı ile temizlenir",
+				"vars": [
+					"count"
+				]
+			},
 			"corn": {
 				"eng": "${count} corn cobs",
 				"trans": "${count} mısır koçanı",
@@ -17309,9 +17461,12 @@
 					"distance"
 				]
 			},
-			"endless": {
-				"eng": "Endless — tier capped at 5",
-				"trans": "Sonsuz — Kademe 5 ile sınırlı"
+			"escapeAt": {
+				"eng": "Escape at ${count} corn cobs",
+				"trans": "${count} mısır koçanında kaçış",
+				"vars": [
+					"count"
+				]
 			},
 			"heartsLeft": {
 				"eng": "${count} hearts",
@@ -17320,12 +17475,9 @@
 					"count"
 				]
 			},
-			"nextStage": {
-				"eng": "Next stage at ${count} corn cobs",
-				"trans": "Sonraki aşama için ${count} mısır koçanı",
-				"vars": [
-					"count"
-				]
+			"noTier": {
+				"eng": "No tier secured",
+				"trans": "Güvenceli katman yok"
 			},
 			"oneHitLeft": {
 				"eng": "One hit left",
@@ -17338,9 +17490,9 @@
 					"stage"
 				]
 			},
-			"tier": {
-				"eng": "Tier ${tier} of 5",
-				"trans": "Seviye ${tier}/5",
+			"tierSecured": {
+				"eng": "Tier ${tier} secured",
+				"trans": "${tier}. Seviye güvende",
 				"vars": [
 					"tier"
 				]
@@ -17351,112 +17503,13 @@
 				"eng": "Event closed",
 				"trans": "Etkinlik kapalı"
 			},
-			"corn": {
-				"eng": "Collect golden corn.",
-				"trans": "Altın mısarı topla."
+			"getPasses": {
+				"eng": "Get passes",
+				"trans": "Geçişleri Al"
 			},
-			"cornDetail": {
-				"eng": "Corn cobs add up through the whole run and are never spent. Reaching a corn total opens the next stage with no pause: ${stages}. Short of corn, the current stage keeps going.",
-				"trans": "Mısır koçanları tüm koşu boyunca birikir ve asla harcanmaz. Gerekli mısır toplamına ulaşınca sonraki aşama kesintisiz açılır: ${stages}. Mısır yetersizse mevcut aşama devam eder.",
-				"vars": [
-					"stages"
-				]
-			},
-			"cost": {
-				"eng": "One pass is consumed when your result is submitted, even if you earn no reward tier. You can pause, but cannot exit during the chase.",
-				"trans": "Sonucun gönderildiğinde, ödül kademesi kazanmasan bile bir geçiş harcanır. Kovalamacada duraklatabilirsin ama çıkamazsın."
-			},
-			"dodge": {
-				"eng": "Dodge.",
-				"trans": "Kaçın."
-			},
-			"dodgeDetail": {
-				"eng": "Swipe left or right (or press the left/right arrow keys) to change lanes. Low crates need a swipe up or the up arrow key to jump; overhead beams need a swipe down or the down arrow key to slide; big freight blocks must be dodged.",
-				"trans": "Şerit değiştirmek için sola ya da sağa kaydır (veya sol/sağ ok tuşlarına bas). Alçak sandıklar için yukarıya kaydır ya da yukarı ok tuşuyla zıpla; üstteki kirişler için aşağıya kaydır ya da aşağı ok tuşuyla süzül; büyük yük bloklarından kaçın."
-			},
-			"endless": {
-				"eng": "${count}+ endless",
-				"trans": "${count}+ Sonsuz",
-				"vars": [
-					"count"
-				]
-			},
-			"hazards": {
-				"eng": "Watch the road.",
-				"trans": "Yola dikkat et."
-			},
-			"hazardsDetail": {
-				"eng": "From stage 2, scattered puddles lock controls for one second. Slipping does not cost a heart, but hitting traffic during the spin does. Stage 3 adds bombs, stage 4 crossing carts, and stage 5 warning-lit steam vents. Jump or change lanes to avoid them.",
-				"trans": "2. aşamadan itibaren yer yer su birikintileri kontrolleri 1 saniye kilitler. Kaymak can kaybettirmez, ancak dönüş sırasında trafiğe çarparsan can kaybedersin. 3. aşamada bombalar, 4. aşamada şeritleri kesen araçlar ve 5. aşamada uyarı ışıklı buhar menfezleri eklenir. Kaçınmak için zıpla veya şerit değiştir."
-			},
-			"needPass": {
-				"eng": "Need a pass",
-				"trans": "Geçiş belgesi gerekli"
-			},
-			"passCount": {
-				"eng": "Passes: ${count}",
-				"trans": "Geçişler: ${count}",
-				"vars": [
-					"count"
-				]
-			},
-			"powerUp": {
-				"eng": "Risk the 2× detour.",
-				"trans": "2× sapma riskini al."
-			},
-			"powerUpDetail": {
-				"eng": "Rare 2× power-ups appear from stage 3 off the main route. They double corn for 5 seconds; another pickup refreshes the timer without stacking.",
-				"trans": "Nadir 2x güçlendirmeler, ana rotanın dışında 3. aşamadan itibaren belirir. Mısırı 5 saniye boyunca iki katına çıkarır. Başka bir toplama zamanlayıcıyı yeniler ama üst üste binmez."
-			},
-			"rewards": {
-				"eng": "Earn tiers.",
-				"trans": "Kademeleri kazan."
-			},
-			"rewardsDetail": {
-				"eng": "Corn totals of ${tiers} unlock reward tiers 1–5, separately from stage entry. You can earn the top reward before reaching stage 5. The last stage runs endlessly until capture, but rewards never go past tier 5.",
-				"trans": "Mısır toplamları ${tiers}, aşama girişinden bağımsız olarak 1-5 ödül kademelerini açar. 5. aşamaya ulaşmadan en üst ödülü kazanabilirsin. Son aşama yakalanana kadar sonsuza dek sürer, ama ödüller asla 5. kademenin üzerine çıkmaz.",
-				"vars": [
-					"tiers"
-				]
-			},
-			"roofs": {
-				"eng": "Take the high route.",
-				"trans": "Üst yoldan ilerle."
-			},
-			"roofsDetail": {
-				"eng": "Expect jump, slide and lane-change combinations from the start. From stage 2, judge roof gaps yourself: corn does not mark where to jump. Stages 4 and 5 chain roof transfers with hazards on landing.",
-				"trans": "Baştan itibaren zıplama, kayma ve şerit değiştirme kombinasyonlarına hazırlan. 2. aşamadan itibaren çatı aralıklarını kendin değerlendir: corn nereye zıplaman gerektiğini belirtmez. 4. ve 5. aşamalarda inişlerde tehlikelerle zincirleme çatı geçişleri var."
-			},
-			"stageEntry": {
-				"eng": "${count} corn cobs",
-				"trans": "${count} mısır koçanı",
-				"vars": [
-					"count"
-				]
-			},
-			"stageRow": {
-				"eng": "Stage ${stage}: ${name}",
-				"trans": "Aşama ${stage}: ${name}",
-				"vars": [
-					"stage",
-					"name"
-				]
-			},
-			"start": {
-				"eng": "Start the run",
-				"trans": "Koşuyu Başlat"
-			},
-			"summary": {
-				"eng": "Escape the chef from the freight outskirts to the city centre. Grab golden corn, dodge the traffic, and don't get caught.",
-				"trans": "Yük bölgesi kenarlarından şehir merkezine şefin peşinden kaç. Altın mısırı topla, trafikten sıyrıl ve yakalanma."
-			},
-			"survive": {
-				"eng": "Avoid getting caught.",
-				"trans": "Yakalanmaktan kaçın."
-			},
-			"surviveDetail": {
-				"eng": "Start with three hearts and hold up to four. Each hit costs one heart and gives you a brief recovery window. More hearts keep the chef farther away; losing one brings him closer. Stages 3, 4 and 5 each contain one randomly placed recovery heart. Miss it and it is gone.",
-				"trans": "Üç kalple başla, en fazla dört kalp taşıyabilirsin. Her vuruş bir kalp alır ve kısa süreli bir toparlanma süresi verir. Daha çok kalp aşçıyı uzak tutar; birini kaybedince yaklaştırır. 3., 4. ve 5. aşamaların her biri rastgele yerleştirilmiş bir toparlanma kalbi içerir. Kaçırırsan kaybolur."
+			"play": {
+				"eng": "Play",
+				"trans": "Oyna"
 			}
 		},
 		"loadError": {
@@ -17487,16 +17540,20 @@
 		},
 		"results": {
 			"caught": {
-				"eng": "Caught by the butcher",
-				"trans": "Kasap tarafından yakalandın"
+				"eng": "Caught by the chef",
+				"trans": "Şef seni yakaladı"
+			},
+			"escaped": {
+				"eng": "You escaped!",
+				"trans": "Kaçtın!"
 			},
 			"inbox": {
 				"eng": "Your tier is secured. Rewards were sent to your item inbox.",
 				"trans": "Kademeniz sabitlendi. Ödüller eşya gelen kutunuza gönderildi."
 			},
 			"noTier": {
-				"eng": "Fewer than ${count} corn cobs means no reward tier. One pass was used.",
-				"trans": "${count} mısır koçusundan az ödül kademesi kazandırmaz. Bir geçiş kullanıldı.",
+				"eng": "Clear stage 1 at ${count} corn cobs to secure a reward tier. One pass was used.",
+				"trans": "${count} mısır koçuyla 1. aşamayı tamamla ve ödül kademesini garantiye al. Bir geçiş hakkı kullanıldı.",
 				"vars": [
 					"count"
 				]
@@ -17523,6 +17580,23 @@
 			"unconfirmedDetail": {
 				"eng": "The run could not be confirmed. Check your pass balance and item inbox before starting another run.",
 				"trans": "Koşu onaylanamadı. Başka bir koşuya başlamadan önce bilet bakiyenizi ve eşya gelen kutunuzu kontrol edin."
+			}
+		},
+		"splash": {
+			"passCost": {
+				"eng": "${name} · 1 per run",
+				"trans": "${name} · her koşuda 1",
+				"vars": [
+					"name"
+				]
+			},
+			"titleBottom": {
+				"eng": "on the Run",
+				"trans": "Kaçışta"
+			},
+			"titleTop": {
+				"eng": "Turkey",
+				"trans": "Turkey"
 			}
 		},
 		"stage": {
@@ -18067,6 +18141,12 @@
 			}
 		},
 		"battle": {
+			"attackBar": {
+				"max": {
+					"eng": "MAX",
+					"trans": "MAX"
+				}
+			},
 			"attackButton": {
 				"primary": {
 					"title": {
@@ -20245,10 +20325,10 @@
 				"trans": "Kullanım Şartları"
 			}
 		},
-		"rewardActionConfirmModal": {
+		"rewardActionCaptchaModal": {
 			"title": {
-				"eng": "Drag all processes icons into to the box entirely to initiate the task",
-				"trans": "Tüm işlem simgelerini kutunun içine tamamen sürükleyin ve görevi başlatın"
+				"eng": "Complete the check to start the task",
+				"trans": "Göreve başlamak için doğrulamayı tamamlayın"
 			}
 		},
 		"richInput": {
@@ -20294,6 +20374,16 @@
 				"title": {
 					"eng": "Animated NPC Character",
 					"trans": "Animasyonlu NPC Karakter"
+				}
+			},
+			"attackEffects": {
+				"description": {
+					"eng": "Hit effects on enemies and the timing bar. Turn off if combat lags",
+					"trans": "Düşmanlarda ve zamanlama çubuğunda vuruş efektleri. Savaşta takılma olursa kapatın"
+				},
+				"title": {
+					"eng": "Attack Effects",
+					"trans": "Saldırı Efektleri"
 				}
 			},
 			"backgroundMusicVolume": {
@@ -21095,63 +21185,27 @@
 	},
 	"welcome": {
 		"afk": {
+			"beat": {
+				"away": {
+					"eng": "Log off, it keeps running",
+					"trans": "Çıkış yap, devam ediyor"
+				},
+				"theirSkip": {
+					"eng": "Someone skips, you jump ahead",
+					"trans": "Birisi atlarsa, sen öne zıplarsın"
+				},
+				"yourSkip": {
+					"eng": "Your skip helps everyone",
+					"trans": "Atlayışın herkese yardım ediyor"
+				}
+			},
+			"body": {
+				"eng": "Tasks keep running while you're offline, and when someone skips, every player's task speeds up.",
+				"trans": "Çevrimdışıyken görevler akmaya devam eder, biri atladığında ise herkesin görevi hızlanır."
+			},
 			"headline": {
 				"eng": "Progress While Offline",
 				"trans": "Çevrimdışı İlerleme\n<"
-			},
-			"sentence": {
-				"eng": "Start a task before logging off to continue gathering resources and leveling up in the background.",
-				"trans": "Arkaplanda kaynak toplamaya ve seviye atlamaya devam etmek için çıkış yapmadan önce bir görev başlat."
-			}
-		},
-		"animation": {
-			"asset": {
-				"eng": "Asset",
-				"trans": "Kaynak"
-			},
-			"autotask": {
-				"eng": "AUTOTASK",
-				"trans": "OTOMATİK GÖREV\n<"
-			},
-			"buy": {
-				"eng": "EXECUTE: BUY",
-				"trans": "ÇALIŞTIR: SATIN AL"
-			},
-			"chat1": {
-				"eng": "LFG Abandoned Factory, need healer.",
-				"trans": "LFG Terk Edilmiş Fabrika, healer lazım.\n<"
-			},
-			"chat2": {
-				"eng": "Inv, I got medkits.",
-				"trans": "Envanterde medkit var."
-			},
-			"chat3": {
-				"eng": "Global Buff Activated by Kael",
-				"trans": "Kael tarafından Global Buff aktif edildi"
-			},
-			"efficiency": {
-				"eng": "Efficiency",
-				"trans": "erimlilik\n</"
-			},
-			"price": {
-				"eng": "Lowest Price",
-				"trans": "En Düşük Fiyat"
-			},
-			"reverse_engineering": {
-				"eng": "REVERSE_ENGINEERING",
-				"trans": "RSİNE MÜHENDİSLİK\n</tran"
-			},
-			"system": {
-				"eng": "System:",
-				"trans": "istem:\n</"
-			},
-			"waiting": {
-				"eng": "WAITING FOR ORDERS...",
-				"trans": "LENİYOR...\n</translation>"
-			},
-			"yield_acquired": {
-				"eng": "YIELD ACQUIRED",
-				"trans": "Kazanç Elde Edildi"
 			}
 		},
 		"cta": {
@@ -21165,13 +21219,27 @@
 			}
 		},
 		"economy": {
+			"beat": {
+				"buy": {
+					"eng": "You buy one",
+					"trans": "Bir adet alıyorsun"
+				},
+				"list": {
+					"eng": "Players craft & list",
+					"trans": "Oyuncu Üretimi ve Listeleme"
+				},
+				"pay": {
+					"eng": "Coins go to its maker",
+					"trans": "Coinler yapıcısına gider"
+				}
+			},
+			"body": {
+				"eng": "Everything on the market is made and sold by players, so your coins go to them.",
+				"trans": "Piyasada her şey oyuncular tarafından üretilip satıldığı için coinleriniz onlara gidiyor."
+			},
 			"headline": {
 				"eng": "Player-Driven Economy",
 				"trans": "Oyuncu Odaklı Ekonomi"
-			},
-			"sentence": {
-				"eng": "Every item in the market is crafted and traded by real players like you.",
-				"trans": "Pazardaki her eşya, senin gibi gerçek oyuncular tarafından üretilir ve takas edilir."
 			}
 		},
 		"error": {
@@ -21189,13 +21257,51 @@
 			}
 		},
 		"fairness": {
+			"beat": {
+				"deploy": {
+					"eng": "Someone deploys a buff",
+					"trans": "Biri bir güçlendirme kullanıyor"
+				},
+				"share": {
+					"eng": "Every player gets it",
+					"trans": "Her oyuncu bunu alır"
+				},
+				"you": {
+					"eng": "You get it too",
+					"trans": "Sen de alıyorsun"
+				}
+			},
+			"body": {
+				"eng": "When someone deploys a buff, every player on the server gets it, including you.",
+				"trans": "Birisi bir güçlendirme devreye soktuğunda, sunucudaki tüm oyuncular, sen de dahil olmak üzere, ondan yararlanır."
+			},
 			"headline": {
 				"eng": "Zero Pay-To-Win",
 				"trans": "Sıfır Öde-Kazan"
+			}
+		},
+		"gear": {
+			"beat": {
+				"calibrate": {
+					"eng": "Calibrate to push further",
+					"trans": "Sınırları zorlamak için ayarla"
+				},
+				"roll": {
+					"eng": "Every drop rolls",
+					"trans": "Her damla zar atar"
+				},
+				"unique": {
+					"eng": "One of a kind",
+					"trans": "Eşsiz"
+				}
 			},
-			"sentence": {
-				"eng": "All premium buffs are shared globally across the server. When someone supports the game, the entire community benefits and progresses together.",
-				"trans": "Tüm premium güçlendirmeler sunucu genelinde paylaşılır. Oyuna verilen her destekle tüm topluluk bu avantajdan yararlanır ve hep birlikte gelişir."
+			"body": {
+				"eng": "Every drop rolls its own tier and stats, and calibration pushes it even further.",
+				"trans": "Her düşen eşya kendi kademesini ve istatistiklerini yuvarlar, kalibrasyon ise onu daha da ileri taşır."
+			},
+			"headline": {
+				"eng": "One-of-a-Kind Gear",
+				"trans": "Benzersiz Ekipman"
 			}
 		},
 		"loading": {
@@ -21204,23 +21310,72 @@
 				"trans": "Karşılama Sekansı Başlatılıyor"
 			}
 		},
+		"raid": {
+			"beat": {
+				"loot": {
+					"eng": "Loot for everyone",
+					"trans": "Herkese ganimet"
+				},
+				"party": {
+					"eng": "Party up",
+					"trans": "Partile"
+				},
+				"raid": {
+					"eng": "Raid the boss",
+					"trans": "Patrona baskın yap"
+				}
+			},
+			"body": {
+				"eng": "Team up in shared dungeons, and everyone who helps take down a boss gets their own loot.",
+				"trans": "Ortak zindanlarda ekip kur, patronu devirmeye yardım eden herkes kendi ganimetini alır."
+			},
+			"headline": {
+				"eng": "Raid as a Squad",
+				"trans": "Takımla Baskına Çık"
+			}
+		},
+		"scene": {
+			"away": {
+				"eng": "${time} away",
+				"trans": "${time} sonra",
+				"vars": [
+					"time"
+				]
+			},
+			"expBoost": {
+				"eng": "+80% EXP",
+				"trans": "+%80 DENEYİM\n<"
+			},
+			"finishNowDescription": {
+				"eng": "Skips for every player",
+				"trans": "Tüm oyuncular için atlanır"
+			},
+			"paid": {
+				"eng": "+1,200",
+				"trans": "+1.200"
+			},
+			"playersHelped": {
+				"eng": "${count} players helped",
+				"trans": "${count} oyuncuya yardım edildi",
+				"vars": [
+					"count"
+				]
+			},
+			"skipped": {
+				"eng": "+${time} skipped",
+				"trans": "+${time} atlandı",
+				"vars": [
+					"time"
+				]
+			},
+			"you": {
+				"eng": "You",
+				"trans": "Sen"
+			}
+		},
 		"skip": {
 			"eng": "Skip",
 			"trans": "Atla"
-		},
-		"splash": {
-			"connection": {
-				"eng": "// Connection Established",
-				"trans": "/// Bağlantı Kuruldu"
-			},
-			"sys_init": {
-				"eng": "Sys.Init_Seq.01",
-				"trans": "Sis.Basl_Diz.01"
-			},
-			"welcome": {
-				"eng": "Welcome To",
-				"trans": "Hoş Geldiniz"
-			}
 		}
 	}
 }

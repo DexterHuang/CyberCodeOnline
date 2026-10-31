@@ -3199,6 +3199,10 @@
 			"eng": "Blood Moon",
 			"trans": "Bulan Darah"
 		},
+		"donation59": {
+			"eng": "Prismatic",
+			"trans": "Prismatik"
+		},
 		"donation6": {
 			"eng": "Prestige",
 			"trans": "Prestise"
@@ -7143,10 +7147,20 @@
 				"trans": "Kalkun panggang"
 			}
 		},
+		"turkeyFeather": {
+			"description": {
+				"eng": "A feather shed by the runaway turkey. The Depot Tender trades Thanksgiving food and supplies for these.",
+				"trans": "Bulu yang rontok dari kalkun yang kabur. Depot Tender menukar makanan dan perlengkapan Thanksgiving dengan bulu-bulu ini."
+			},
+			"name": {
+				"eng": "Turkey Feather",
+				"trans": "Bulu Kalkun"
+			}
+		},
 		"turkeyRunPass": {
 			"description": {
-				"eng": "Entry to Turkey on the Run during Thanksgiving. Found in dungeon crates and through Deploy farm bot.",
-				"trans": "Akses ke Turkey on the Run selama Thanksgiving. Ditemukan di peti dungeon dan melalui Deploy Farm Bot."
+				"eng": "Entry to Turkey on the Run during Thanksgiving.",
+				"trans": "Akses masuk ke Ayam Kabur selama Hari Raya Syukur."
 			},
 			"name": {
 				"eng": "Turkey Run Pass",
@@ -9451,6 +9465,85 @@
 			"title": {
 				"eng": "Data Stream Interceptor",
 				"trans": "Peng拦 Data Stream"
+			}
+		},
+		"gyroLock": {
+			"containment": {
+				"eng": "CONTAINMENT",
+				"trans": "PENAHANAN"
+			},
+			"fail": {
+				"description": {
+					"eng": "The vault re-sealed before all three seals were set.",
+					"trans": "Brankas menutup kembali sebelum ketiga segel terpasang."
+				},
+				"retry": {
+					"eng": "Retry breach",
+					"trans": "Ulangi Intrusi"
+				},
+				"status": {
+					"eng": "BREACH FAILED",
+					"trans": "PEMBOBOLAN GAGAL"
+				},
+				"title": {
+					"eng": "Containment reset",
+					"trans": "Pengaturan Ulang Penahanan"
+				}
+			},
+			"hint": {
+				"eng": "Touch and drag to rotate",
+				"trans": "Sentuh dan geser untuk memutar"
+			},
+			"instruction": {
+				"eng": "Drag around the dial. The ring steadies near the lock point. Hold it there to set the seal.",
+				"trans": "Seret mengelilingi piringan. Cincin akan stabil di dekat titik kunci. Tahan di sana untuk menetapkan segel."
+			},
+			"status": {
+				"breached": {
+					"eng": "BREACHED",
+					"trans": "TERJEBOL"
+				},
+				"reset": {
+					"eng": "RESET",
+					"trans": "RESET"
+				},
+				"seal": {
+					"eng": "SEAL ${current}/${total}",
+					"trans": "SEAL ${current}/${total}",
+					"vars": [
+						"current",
+						"GyroLockConfig.SEAL_COUNT)",
+						"total"
+					]
+				}
+			},
+			"success": {
+				"status": {
+					"eng": "VAULT OPEN",
+					"trans": "BRANKAS TERBUKA"
+				},
+				"title": {
+					"eng": "Breach complete",
+					"trans": "Pembobolan Selesai"
+				}
+			},
+			"title": {
+				"eng": "Gyro Lock",
+				"trans": "Kunci Giro"
+			},
+			"vaultId": {
+				"eng": "VAULT ${id}",
+				"trans": "BRANKAS ${id}",
+				"vars": [
+					"id"
+				]
+			},
+			"window": {
+				"eng": "WINDOW ±${degrees}°",
+				"trans": "RENTANG ±${degrees}°",
+				"vars": [
+					"degrees"
+				]
 			}
 		},
 		"hexBuffer": {
@@ -12034,12 +12127,14 @@
 		"thanksgiving": {
 			"defaultLines": {
 				"eng": [
-					"Dinner has escaped. The butcher is not taking it well.",
-					"Bring a Turkey Run Pass. Grab the corn. Avoid becoming dinner."
+					"Dinner has escaped. The chef is not taking it well.",
+					"Bring a Turkey Run Pass. Grab the corn. Avoid becoming dinner.",
+					"Turkey feathers! Bring me the feathers and I'll trade you a proper dinner."
 				],
 				"trans": [
-					"Makanan malam telah kabur. Tukang dagingnya tidak terima.",
-					"Bawa Tiket Turkey Run. Ambil jagungnya. Hindari jadi santapan."
+					"Makan malam telah kabur. Sang koki tidak terima.",
+					"Bawa tiket Lari Kalkun. Ambil jagungnya. Jangan sampai jadi santapan.",
+					"Bulu ayam kalkun! Bawa bulunya ke sini, nanti kutukar dengan makan malam yang layak."
 				]
 			},
 			"name": {
@@ -16862,6 +16957,12 @@
 				"trans": "Game ini seru banget. Aku suka betapa serunya komunitasnya, terutama soal skip global dan buff-nya. Sederhana tapi tidak terlalu menuntut."
 			}
 		},
+		"review11": {
+			"quote": {
+				"eng": "I LOVE the global system! Whenever someone makes a purchase it benefits everyone on the server. One of the very few mobile games I've ever spent money on",
+				"trans": "Saya suka banget sistem globalnya! Setiap kali seseorang membeli sesuatu, semua orang di server ikut diuntungkan. Ini salah satu dari sedikit game mobile yang pernah saya top up"
+			}
+		},
 		"review2": {
 			"quote": {
 				"eng": "I love that the buffs benefit everyone playing the game. It's a new vibe to me - I'm used to using buffs for myself! Highly recommended for playing in your leisure time.",
@@ -16912,38 +17013,57 @@
 		}
 	},
 	"thanksgivingPromo": {
-		"desc1": {
-			"eng": "During event period, Roasted Turkey will drop rarely from scavenging and AKF Bot on all levels",
-			"trans": "Selama periode acara, kalkun panggang akan jarang turun dari pemulungan dan AKF bot di semua tingkatan"
+		"contentLabel": {
+			"eng": "Event Content",
+			"trans": "Konten Acara"
 		},
-		"desc2": {
-			"eng": "When a Roasted Turkey is consumed, you will get +20% EXP on AFK tasks for 20 minutes",
-			"trans": "Saat kalkun panggang dikonsumsi, Anda akan mendapatkan +20% exp pada tugas AFK selama 20 menit"
+		"description": {
+			"eng": "Outrun the chef in Turkey on the Run, gather Turkey Feathers, and trade with ${npc}.",
+			"trans": "Kalahkan koki di Kalkun Kabur, kumpulkan Bulu Kalkun, dan tukar dengan ${npc}.",
+			"vars": [
+				"npc"
+			]
 		},
-		"footnote1": {
-			"eng": "Please note that the EXP bonus check is at AFK completion time, so you must have the Roasted Turkey buff active at the time of completion to receive the bonus.",
-			"trans": "Harap dicatat bahwa pemeriksaan bonus EXP ada pada waktu penyelesaian AFK, jadi Anda harus memiliki buff kalkun panggang yang aktif pada saat penyelesaian untuk menerima bonus."
+		"donation": {
+			"eng": "During Thanksgiving, time-limited donation tiers and the Turkey emblem are available.",
+			"trans": "Selama Thanksgiving, paket donasi berbatas waktu dan lencana Turkey tersedia."
 		},
-		"footnote2": {
-			"eng": "This effect will stack with other EXP bonus, and will only affect AFK tasks; tasks that does not have AFK timers will not be affected.",
-			"trans": "Efek ini akan ditumpuk dengan bonus EXP lainnya, dan hanya akan mempengaruhi tugas AFK; Tugas yang tidak memiliki timer AFK tidak akan terpengaruh."
+		"eyebrow": {
+			"eng": "Limited-time Event",
+			"trans": "Acara Berbatas Waktu"
 		},
-		"title": {
-			"eng": "Happy Thanksgiving!",
-			"trans": "Selamat Hari Thanksgiving!"
+		"titleV2": {
+			"eng": "Thanksgiving",
+			"trans": "Hari Raya Syukur"
+		},
+		"turkeyBuff": {
+			"eng": "Trade Turkey Feathers for a ${turkey} at the ${depot}. Consume it for +20% AFK EXP for 20 minutes.",
+			"trans": "Tukarkan Bulu Kalkun dengan ${turkey} di ${depot}. Gunakan untuk +20% EXP AFK selama 20 menit.",
+			"vars": [
+				"turkey",
+				"depot"
+			]
+		},
+		"turkeyBuffRule": {
+			"eng": "Only AFK tasks count, and the buff must still be active when the task completes. Stacks with other EXP bonuses.",
+			"trans": "Hanya tugas AFK yang dihitung, dan buff harus masih aktif saat tugas selesai. Dapat ditumpuk dengan bonus EXP lainnya."
 		}
 	},
 	"thanksgivingPromoSmall": {
-		"desc": {
-			"eng": "Consume delicious turkey to get +${percent}% EXP on AFK tasks",
-			"trans": "Konsumsi kalkun lezat untuk mendapatkan +${percent}% exp pada tugas AFK",
+		"description": {
+			"eng": "Outrun the chef. Trade feathers with ${npc}.",
+			"trans": "Salip koki. Tukar bulu dengan ${npc}.",
 			"vars": [
-				"percent"
+				"npc"
 			]
 		},
-		"title": {
-			"eng": "Thanksgiving event",
-			"trans": "Acara Thanksgiving"
+		"eyebrow": {
+			"eng": "Limited-time Event",
+			"trans": "Acara Berbatas Waktu"
+		},
+		"titleV2": {
+			"eng": "Thanksgiving",
+			"trans": "Hari Raya Syukur"
 		}
 	},
 	"thiefPromo": {
@@ -17274,6 +17394,31 @@
 		}
 	},
 	"turkeyRun": {
+		"banner": {
+			"cleared": {
+				"eng": "Stage ${stage} clear",
+				"trans": "Tahap ${stage} Selesai",
+				"vars": [
+					"stage"
+				]
+			},
+			"clearedDetail": {
+				"eng": "Tier ${tier} secured · Entering ${name}",
+				"trans": "Tier ${tier} Diamankan · Memasuki ${name}",
+				"vars": [
+					"tier",
+					"name"
+				]
+			},
+			"escaped": {
+				"eng": "Escaped!",
+				"trans": "Lolos!"
+			},
+			"escapedDetail": {
+				"eng": "Tier 5 secured. The chef gives up.",
+				"trans": "Tingkat 5 diamankan. Koki menyerah."
+			}
+		},
 		"close": {
 			"eng": "Close",
 			"trans": "Tutup"
@@ -17295,6 +17440,13 @@
 			}
 		},
 		"hud": {
+			"clearAt": {
+				"eng": "Clear at ${count} corn cobs",
+				"trans": "Selesai pada ${count} tongkol jagung",
+				"vars": [
+					"count"
+				]
+			},
 			"corn": {
 				"eng": "${count} corn cobs",
 				"trans": "${count} tongkol jagung",
@@ -17309,9 +17461,12 @@
 					"distance"
 				]
 			},
-			"endless": {
-				"eng": "Endless — tier capped at 5",
-				"trans": "Tanpa Batas, Tier Maksimum 5"
+			"escapeAt": {
+				"eng": "Escape at ${count} corn cobs",
+				"trans": "Lolos di ${count} tongkol jagung",
+				"vars": [
+					"count"
+				]
 			},
 			"heartsLeft": {
 				"eng": "${count} hearts",
@@ -17320,12 +17475,9 @@
 					"count"
 				]
 			},
-			"nextStage": {
-				"eng": "Next stage at ${count} corn cobs",
-				"trans": "Tahap berikutnya saat ${count} tongkol jagung",
-				"vars": [
-					"count"
-				]
+			"noTier": {
+				"eng": "No tier secured",
+				"trans": "Tidak ada tingkat yang diamankan"
 			},
 			"oneHitLeft": {
 				"eng": "One hit left",
@@ -17338,9 +17490,9 @@
 					"stage"
 				]
 			},
-			"tier": {
-				"eng": "Tier ${tier} of 5",
-				"trans": "Tingkat ${tier} dari 5",
+			"tierSecured": {
+				"eng": "Tier ${tier} secured",
+				"trans": "Tingkat ${tier} Aman",
 				"vars": [
 					"tier"
 				]
@@ -17351,112 +17503,13 @@
 				"eng": "Event closed",
 				"trans": "Acara ditutup"
 			},
-			"corn": {
-				"eng": "Collect golden corn.",
-				"trans": "Kumpulkan jagung emas."
+			"getPasses": {
+				"eng": "Get passes",
+				"trans": "Dapatkan Akses"
 			},
-			"cornDetail": {
-				"eng": "Corn cobs add up through the whole run and are never spent. Reaching a corn total opens the next stage with no pause: ${stages}. Short of corn, the current stage keeps going.",
-				"trans": "Bonggol jagung terus bertambah sepanjang lari dan tidak pernah terpakai. Mencapai total jagung membuka tahap berikutnya tanpa jeda: ${stages}. Jika kurang jagung, tahap saat ini tetap berlanjut.",
-				"vars": [
-					"stages"
-				]
-			},
-			"cost": {
-				"eng": "One pass is consumed when your result is submitted, even if you earn no reward tier. You can pause, but cannot exit during the chase.",
-				"trans": "Satu pass akan terpakai saat hasilmu dikirim, meskipun kamu tidak mendapatkan tingkat hadiah apa pun. Kamu bisa menjeda, tetapi tidak bisa keluar selama pengejaran."
-			},
-			"dodge": {
-				"eng": "Dodge.",
-				"trans": "Menghindar."
-			},
-			"dodgeDetail": {
-				"eng": "Swipe left or right (or press the left/right arrow keys) to change lanes. Low crates need a swipe up or the up arrow key to jump; overhead beams need a swipe down or the down arrow key to slide; big freight blocks must be dodged.",
-				"trans": "Geser ke kiri atau kanan (atau tekan tombol panah kiri/kanan) untuk ganti jalur. Peti rendah perlu geser ke atas atau tombol panah atas untuk melompat; balok di atas perlu geser ke bawah atau tombol panah bawah untuk merendah; blok kargo besar harus dihindari."
-			},
-			"endless": {
-				"eng": "${count}+ endless",
-				"trans": "${count}+ Tak Berujung",
-				"vars": [
-					"count"
-				]
-			},
-			"hazards": {
-				"eng": "Watch the road.",
-				"trans": "Awas jalannya."
-			},
-			"hazardsDetail": {
-				"eng": "From stage 2, scattered puddles lock controls for one second. Slipping does not cost a heart, but hitting traffic during the spin does. Stage 3 adds bombs, stage 4 crossing carts, and stage 5 warning-lit steam vents. Jump or change lanes to avoid them.",
-				"trans": "Mulai dari tahap 2, genangan air yang tersebar mengunci kontrol selama satu detik. Terpeleset tidak mengurangi nyawa, tetapi menabrak kendaraan saat berputar tetap mengurangi nyawa. Tahap 3 menambah bom, tahap 4 gerobak yang melintas, dan tahap 5 cerat uap berlampu peringatan. Lompat atau pindah jalur untuk menghindarinya."
-			},
-			"needPass": {
-				"eng": "Need a pass",
-				"trans": "Butuh Akses"
-			},
-			"passCount": {
-				"eng": "Passes: ${count}",
-				"trans": "Lolos: ${count}",
-				"vars": [
-					"count"
-				]
-			},
-			"powerUp": {
-				"eng": "Risk the 2× detour.",
-				"trans": "Ambil risiko jalan memutar 2x."
-			},
-			"powerUpDetail": {
-				"eng": "Rare 2× power-ups appear from stage 3 off the main route. They double corn for 5 seconds; another pickup refreshes the timer without stacking.",
-				"trans": "Power-up langka 2x muncul mulai tahap 3 di luar rute utama. Efeknya menggandakan jagung selama 5 detik; pickup lain memperbarui timer tanpa menumpuk."
-			},
-			"rewards": {
-				"eng": "Earn tiers.",
-				"trans": "Raih Tier."
-			},
-			"rewardsDetail": {
-				"eng": "Corn totals of ${tiers} unlock reward tiers 1–5, separately from stage entry. You can earn the top reward before reaching stage 5. The last stage runs endlessly until capture, but rewards never go past tier 5.",
-				"trans": "Total jagung sebesar ${tiers} membuka tier hadiah 1-5, terpisah dari masuk tahap. Kamu bisa mendapatkan hadiah tertinggi sebelum mencapai Tahap 5. Tahap terakhir berlangsung tanpa akhir sampai tertangkap, tetapi hadiah tidak akan melewati tier 5.",
-				"vars": [
-					"tiers"
-				]
-			},
-			"roofs": {
-				"eng": "Take the high route.",
-				"trans": "Ambil jalur atas."
-			},
-			"roofsDetail": {
-				"eng": "Expect jump, slide and lane-change combinations from the start. From stage 2, judge roof gaps yourself: corn does not mark where to jump. Stages 4 and 5 chain roof transfers with hazards on landing.",
-				"trans": "Siapkan kombinasi lompat, seluncur, dan ganti jalur sejak awal. Mulai tahap 2, tentukan sendiri jarak antar atap: jagung tidak menandai titik lompatan. Tahap 4 dan 5 menggabungkan perpindahan atap beruntun dengan bahaya saat mendarat."
-			},
-			"stageEntry": {
-				"eng": "${count} corn cobs",
-				"trans": "${count} tongkol jagung",
-				"vars": [
-					"count"
-				]
-			},
-			"stageRow": {
-				"eng": "Stage ${stage}: ${name}",
-				"trans": "Tahap ${stage}: ${name}",
-				"vars": [
-					"stage",
-					"name"
-				]
-			},
-			"start": {
-				"eng": "Start the run",
-				"trans": "Mulai Lari"
-			},
-			"summary": {
-				"eng": "Escape the chef from the freight outskirts to the city centre. Grab golden corn, dodge the traffic, and don't get caught.",
-				"trans": "Kabur dari si koki di pinggiran kawasan kargo menuju pusat kota. Kumpulkan jagung emas, hindari lalu lintas, dan jangan sampai tertangkap."
-			},
-			"survive": {
-				"eng": "Avoid getting caught.",
-				"trans": "Hindari tertangkap."
-			},
-			"surviveDetail": {
-				"eng": "Start with three hearts and hold up to four. Each hit costs one heart and gives you a brief recovery window. More hearts keep the chef farther away; losing one brings him closer. Stages 3, 4 and 5 each contain one randomly placed recovery heart. Miss it and it is gone.",
-				"trans": "Mulai dengan tiga hati dan dapat mempertahankan hingga empat. Setiap kali terkena, kamu kehilangan satu hati dan mendapat jeda pemulihan singkat. Semakin banyak hati, Koki semakin jauh; kehilangan satu akan mendekatkannya. Tahap 3, 4, dan 5 masing-masing memiliki satu hati pemulihan yang ditempatkan secara acak. Melewatkan akan membuatnya hilang."
+			"play": {
+				"eng": "Play",
+				"trans": "Main"
 			}
 		},
 		"loadError": {
@@ -17487,16 +17540,20 @@
 		},
 		"results": {
 			"caught": {
-				"eng": "Caught by the butcher",
-				"trans": "Tertangkap oleh tukang daging"
+				"eng": "Caught by the chef",
+				"trans": "Ditangkap Koki"
+			},
+			"escaped": {
+				"eng": "You escaped!",
+				"trans": "Kamu berhasil melarikan diri!"
 			},
 			"inbox": {
 				"eng": "Your tier is secured. Rewards were sent to your item inbox.",
 				"trans": "Tiermu sudah aman. Hadiah telah dikirim ke Kotak Masuk Item."
 			},
 			"noTier": {
-				"eng": "Fewer than ${count} corn cobs means no reward tier. One pass was used.",
-				"trans": "Kurang dari ${count} tongkol jagung berarti tidak ada tier hadiah. Satu pass terpakai.",
+				"eng": "Clear stage 1 at ${count} corn cobs to secure a reward tier. One pass was used.",
+				"trans": "Selesaikan Tahap 1 dengan ${count} tongkol jagung untuk mengamankan tier hadiah. Satu pass telah digunakan.",
 				"vars": [
 					"count"
 				]
@@ -17523,6 +17580,23 @@
 			"unconfirmedDetail": {
 				"eng": "The run could not be confirmed. Check your pass balance and item inbox before starting another run.",
 				"trans": "Run tidak dapat dikonfirmasi. Periksa saldo pass dan kotak masuk item sebelum memulai run lain."
+			}
+		},
+		"splash": {
+			"passCost": {
+				"eng": "${name} · 1 per run",
+				"trans": "${name} · 1 per lari",
+				"vars": [
+					"name"
+				]
+			},
+			"titleBottom": {
+				"eng": "on the Run",
+				"trans": "Dalam Pelarian"
+			},
+			"titleTop": {
+				"eng": "Turkey",
+				"trans": "Kalkun"
 			}
 		},
 		"stage": {
@@ -18067,6 +18141,12 @@
 			}
 		},
 		"battle": {
+			"attackBar": {
+				"max": {
+					"eng": "MAX",
+					"trans": "MAKS"
+				}
+			},
 			"attackButton": {
 				"primary": {
 					"title": {
@@ -20245,10 +20325,10 @@
 				"trans": "Ketentuan Layanan"
 			}
 		},
-		"rewardActionConfirmModal": {
+		"rewardActionCaptchaModal": {
 			"title": {
-				"eng": "Drag all processes icons into to the box entirely to initiate the task",
-				"trans": "Seret semua ikon proses ke dalam kotak sepenuhnya untuk memulai tugas"
+				"eng": "Complete the check to start the task",
+				"trans": "Selesaikan verifikasi untuk memulai tugas"
 			}
 		},
 		"richInput": {
@@ -20294,6 +20374,16 @@
 				"title": {
 					"eng": "Animated NPC Character",
 					"trans": "Karakter NPC Animasi"
+				}
+			},
+			"attackEffects": {
+				"description": {
+					"eng": "Hit effects on enemies and the timing bar. Turn off if combat lags",
+					"trans": "Efek serangan pada musuh dan bilah waktu. Matikan jika pertarungan lag"
+				},
+				"title": {
+					"eng": "Attack Effects",
+					"trans": "Efek Serangan"
 				}
 			},
 			"backgroundMusicVolume": {
@@ -21095,63 +21185,27 @@
 	},
 	"welcome": {
 		"afk": {
+			"beat": {
+				"away": {
+					"eng": "Log off, it keeps running",
+					"trans": "Keluar, permainan tetap berjalan"
+				},
+				"theirSkip": {
+					"eng": "Someone skips, you jump ahead",
+					"trans": "Ada yang skip, kamu melompat ke depan"
+				},
+				"yourSkip": {
+					"eng": "Your skip helps everyone",
+					"trans": "Melompati ini membantu semua orang"
+				}
+			},
+			"body": {
+				"eng": "Tasks keep running while you're offline, and when someone skips, every player's task speeds up.",
+				"trans": "Tugas tetap berjalan saat kamu offline, dan ketika ada yang melompati, kecepatan tugas semua pemain meningkat."
+			},
 			"headline": {
 				"eng": "Progress While Offline",
 				"trans": "Progres Selama Offline"
-			},
-			"sentence": {
-				"eng": "Start a task before logging off to continue gathering resources and leveling up in the background.",
-				"trans": "Mulai tugas sebelum keluar agar tetap mengumpulkan sumber daya dan menaikkan level di latar belakang."
-			}
-		},
-		"animation": {
-			"asset": {
-				"eng": "Asset",
-				"trans": "Aset"
-			},
-			"autotask": {
-				"eng": "AUTOTASK",
-				"trans": "TUGAS OTOMATIS"
-			},
-			"buy": {
-				"eng": "EXECUTE: BUY",
-				"trans": "EKSEKUSI: BELI"
-			},
-			"chat1": {
-				"eng": "LFG Abandoned Factory, need healer.",
-				"trans": "Cari tim ke Pabrik Terlantar, butuh penyembuh."
-			},
-			"chat2": {
-				"eng": "Inv, I got medkits.",
-				"trans": "Inv, aku sudah dapat beberapa bekas P3K."
-			},
-			"chat3": {
-				"eng": "Global Buff Activated by Kael",
-				"trans": "Penguatan Global Diaktifkan oleh Kael"
-			},
-			"efficiency": {
-				"eng": "Efficiency",
-				"trans": "Efisiensi"
-			},
-			"price": {
-				"eng": "Lowest Price",
-				"trans": "Harga Terendah"
-			},
-			"reverse_engineering": {
-				"eng": "REVERSE_ENGINEERING",
-				"trans": "REKAYASA_BALIK"
-			},
-			"system": {
-				"eng": "System:",
-				"trans": "Sistem:"
-			},
-			"waiting": {
-				"eng": "WAITING FOR ORDERS...",
-				"trans": "MENUNGGU PERINTAH..."
-			},
-			"yield_acquired": {
-				"eng": "YIELD ACQUIRED",
-				"trans": "YIELD ACQUIRED"
 			}
 		},
 		"cta": {
@@ -21165,13 +21219,27 @@
 			}
 		},
 		"economy": {
+			"beat": {
+				"buy": {
+					"eng": "You buy one",
+					"trans": "Beli satu"
+				},
+				"list": {
+					"eng": "Players craft & list",
+					"trans": "Pemain Membuat dan Mendaftarkan"
+				},
+				"pay": {
+					"eng": "Coins go to its maker",
+					"trans": "Koin dikirim ke pembuatnya"
+				}
+			},
+			"body": {
+				"eng": "Everything on the market is made and sold by players, so your coins go to them.",
+				"trans": "Semua barang di pasar dibuat dan dijual oleh pemain, sehingga koinmu masuk ke tangan mereka."
+			},
 			"headline": {
 				"eng": "Player-Driven Economy",
 				"trans": "Ekonomi Didorong oleh Pemain"
-			},
-			"sentence": {
-				"eng": "Every item in the market is crafted and traded by real players like you.",
-				"trans": "Setiap item di pasar dibuat dan diperdagangkan oleh pemain sungguhan seperti Anda."
 			}
 		},
 		"error": {
@@ -21189,13 +21257,51 @@
 			}
 		},
 		"fairness": {
+			"beat": {
+				"deploy": {
+					"eng": "Someone deploys a buff",
+					"trans": "Seseorang mengaktifkan buff"
+				},
+				"share": {
+					"eng": "Every player gets it",
+					"trans": "Semua pemain menerimanya"
+				},
+				"you": {
+					"eng": "You get it too",
+					"trans": "Kamu juga mendapatkannya"
+				}
+			},
+			"body": {
+				"eng": "When someone deploys a buff, every player on the server gets it, including you.",
+				"trans": "Saat seseorang menerapkan buff, semua pemain di server akan mendapatkannya, termasuk kamu."
+			},
 			"headline": {
 				"eng": "Zero Pay-To-Win",
 				"trans": "Tanpa Bayar untuk Menang"
+			}
+		},
+		"gear": {
+			"beat": {
+				"calibrate": {
+					"eng": "Calibrate to push further",
+					"trans": "Kalibrasikan untuk Melampaui Batas"
+				},
+				"roll": {
+					"eng": "Every drop rolls",
+					"trans": "Setiap ketukan bergulir"
+				},
+				"unique": {
+					"eng": "One of a kind",
+					"trans": "Tiada Duanya"
+				}
 			},
-			"sentence": {
-				"eng": "All premium buffs are shared globally across the server. When someone supports the game, the entire community benefits and progresses together.",
-				"trans": "Semua buff premium dibagikan secara global di seluruh server. Ketika seseorang mendukung game, seluruh komunitas akan mendapatkan manfaat dan berkembang bersama."
+			"body": {
+				"eng": "Every drop rolls its own tier and stats, and calibration pushes it even further.",
+				"trans": "Setiap item yang didapat memiliki tingkat dan statistik acak, serta kalibrasi akan meningkatkannya lebih jauh."
+			},
+			"headline": {
+				"eng": "One-of-a-Kind Gear",
+				"trans": "Perlengkapan Unik"
 			}
 		},
 		"loading": {
@@ -21204,23 +21310,72 @@
 				"trans": "Menginisialisasi Sekuens Sambutan"
 			}
 		},
+		"raid": {
+			"beat": {
+				"loot": {
+					"eng": "Loot for everyone",
+					"trans": "Rampasan untuk Semua"
+				},
+				"party": {
+					"eng": "Party up",
+					"trans": "Mulai Pesta"
+				},
+				"raid": {
+					"eng": "Raid the boss",
+					"trans": "Serbu Bos"
+				}
+			},
+			"body": {
+				"eng": "Team up in shared dungeons, and everyone who helps take down a boss gets their own loot.",
+				"trans": "Bertim di dungeon bersama, dan semua yang membantu mengalahkan bos akan mendapat lootnya masing-masing."
+			},
+			"headline": {
+				"eng": "Raid as a Squad",
+				"trans": "Raid sebagai Tim"
+			}
+		},
+		"scene": {
+			"away": {
+				"eng": "${time} away",
+				"trans": "${time} lagi",
+				"vars": [
+					"time"
+				]
+			},
+			"expBoost": {
+				"eng": "+80% EXP",
+				"trans": "+80% Pengalaman"
+			},
+			"finishNowDescription": {
+				"eng": "Skips for every player",
+				"trans": "Lewati untuk semua pemain"
+			},
+			"paid": {
+				"eng": "+1,200",
+				"trans": "+1.200"
+			},
+			"playersHelped": {
+				"eng": "${count} players helped",
+				"trans": "${count} pemain telah dibantu",
+				"vars": [
+					"count"
+				]
+			},
+			"skipped": {
+				"eng": "+${time} skipped",
+				"trans": "+${time} dilewati",
+				"vars": [
+					"time"
+				]
+			},
+			"you": {
+				"eng": "You",
+				"trans": "Kamu"
+			}
+		},
 		"skip": {
 			"eng": "Skip",
 			"trans": "Lewati"
-		},
-		"splash": {
-			"connection": {
-				"eng": "// Connection Established",
-				"trans": "// Koneksi Tersambung"
-			},
-			"sys_init": {
-				"eng": "Sys.Init_Seq.01",
-				"trans": "Sistem.Inisialisasi_Urutan.01"
-			},
-			"welcome": {
-				"eng": "Welcome To",
-				"trans": "Selamat Datang di"
-			}
 		}
 	}
 }

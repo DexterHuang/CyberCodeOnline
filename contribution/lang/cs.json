@@ -1879,10 +1879,6 @@
 				"eng": "Close raffle",
 				"trans": "Ukončit losování"
 			},
-			"closeRaffleDescription": {
-				"eng": "Select and announce the winner",
-				"trans": "Vybrat a vyhlásit vítěze"
-			},
 			"graceExpired": {
 				"eng": "Winner selection window expired.",
 				"trans": "Časový limit na výběr vítěze vypršel."
@@ -2242,36 +2238,53 @@
 				"eng": "Winner selection was not completed within the seven-day window.",
 				"trans": "Výběr vítěze nebyl dokončen v rámci sedmidenní lhůty."
 			},
-			"attachments": {
-				"eng": "Attachments",
-				"trans": "Přílohy"
+			"closedOn": {
+				"eng": "Closed ${date}",
+				"trans": "Uzavřeno ${date}",
+				"vars": [
+					"date"
+				]
 			},
-			"closed": {
-				"eng": "Closed",
-				"trans": "Uzavřeno"
+			"closesIn": {
+				"eng": "Closes in ${time}",
+				"trans": "Uzavírá se za ${time}",
+				"vars": [
+					"time"
+				]
 			},
-			"closesLabel": {
-				"eng": "Closes in",
-				"trans": "Končí za"
+			"descriptionLabel": {
+				"eng": "Description",
+				"trans": "Popis"
 			},
 			"entrantList": {
 				"eng": "Entrants",
 				"trans": "Účastníci"
 			},
+			"entriesLabel": {
+				"eng": "Entries",
+				"trans": "Účasti"
+			},
+			"entryClosedAgo": {
+				"eng": "Entry closed ${time} ago",
+				"trans": "Vstup uzavřen před ${time}",
+				"vars": [
+					"time"
+				]
+			},
+			"equipmentSnapshot": {
+				"eng": "Equipment snapshot",
+				"trans": "Snímek vybavení"
+			},
 			"hostLabel": {
 				"eng": "Host",
 				"trans": "Organizátor"
 			},
-			"levelShort": {
-				"eng": "LV ${level}+",
-				"trans": "LVL ${level}+",
+			"minimumLevelValue": {
+				"eng": "Minimum level ${level}",
+				"trans": "Minimální úroveň ${level}",
 				"vars": [
 					"level"
 				]
-			},
-			"minimumLevel": {
-				"eng": "Minimum level",
-				"trans": "Minimální úroveň"
 			},
 			"noEntrants": {
 				"eng": "No entries yet.",
@@ -2288,10 +2301,6 @@
 			"selectedWinner": {
 				"eng": "Winner",
 				"trans": "Vítěz"
-			},
-			"statusLabel": {
-				"eng": "Status",
-				"trans": "Stav"
 			},
 			"unavailable": {
 				"eng": "Community Raffle unavailable",
@@ -2384,37 +2393,73 @@
 			"eng": "Refresh raffle list",
 			"trans": "Aktualizovat seznam losování"
 		},
+		"relation": {
+			"hosting": {
+				"eng": "Hosting",
+				"trans": "Hostování"
+			},
+			"joined": {
+				"eng": "Joined",
+				"trans": "Zapojeno"
+			}
+		},
 		"row": {
-			"awaitingOrganizer": {
-				"eng": "Awaiting organizer",
-				"trans": "Čeká na organizátora"
+			"actionRequired": {
+				"eng": "Action required",
+				"trans": "Vyžadována akce"
 			},
-			"closedLabel": {
-				"eng": "Closed",
-				"trans": "Uzavřeno"
+			"closedOn": {
+				"eng": "Closed ${date}",
+				"trans": "Uzavřeno ${date}",
+				"vars": [
+					"date"
+				]
 			},
-			"closesLabel": {
-				"eng": "Closes in",
-				"trans": "Končí za"
+			"closesIn": {
+				"eng": "Closes in ${time}",
+				"trans": "Uzavírá se za ${time}",
+				"vars": [
+					"time"
+				]
 			},
 			"entriesLabel": {
 				"eng": "Entries",
 				"trans": "Účastníků"
 			},
+			"entryClosedAgo": {
+				"eng": "Entry closed ${time} ago",
+				"trans": "Vstup uzavřen před ${time}",
+				"vars": [
+					"time"
+				]
+			},
 			"hostLabel": {
 				"eng": "Host",
 				"trans": "Organizátor"
 			},
-			"levelShort": {
-				"eng": "LV ${level}+",
-				"trans": "LVL ${level}+",
-				"vars": [
-					"level"
-				]
+			"minimumLevelLabel": {
+				"eng": "Minimum level",
+				"trans": "Minimální úroveň"
+			},
+			"noResult": {
+				"eng": "No result",
+				"trans": "Žádný výsledek"
+			},
+			"noWinner": {
+				"eng": "No winner",
+				"trans": "Žádný výherce"
 			},
 			"resultLabel": {
 				"eng": "Result",
 				"trans": "Výsledek"
+			},
+			"selectWinner": {
+				"eng": "Select winner",
+				"trans": "Vybrat výherce"
+			},
+			"winnerLabel": {
+				"eng": "Winner",
+				"trans": "Vítěz"
 			}
 		},
 		"status": {
@@ -2422,17 +2467,17 @@
 				"eng": "Abandoned",
 				"trans": "Opuštěno"
 			},
-			"awaitingOrganizer": {
-				"eng": "Awaiting organizer",
-				"trans": "Čeká na organizátora"
+			"awaitingResult": {
+				"eng": "Awaiting result",
+				"trans": "Čeká se na výsledek"
 			},
 			"completed": {
 				"eng": "Completed",
 				"trans": "Dokončeno"
 			},
-			"open": {
-				"eng": "Open",
-				"trans": "Otevřeno"
+			"openForEntry": {
+				"eng": "Open for entry",
+				"trans": "Přijímáme přihlášky"
 			}
 		},
 		"title": {
@@ -2807,8 +2852,8 @@
 	},
 	"donationPage": {
 		"benefits": {
-			"eng": "benefits",
-			"trans": "výhody"
+			"eng": "Benefits",
+			"trans": "Výhody"
 		},
 		"emblem": {
 			"title": {
@@ -3145,6 +3190,18 @@
 		"donation56": {
 			"eng": "Nightbloom",
 			"trans": "Noční květ"
+		},
+		"donation57": {
+			"eng": "Space Kitty",
+			"trans": "Kosmická kočička"
+		},
+		"donation58": {
+			"eng": "Blood Moon",
+			"trans": "Krevní měsíc"
+		},
+		"donation59": {
+			"eng": "Prismatic",
+			"trans": "Duhový"
 		},
 		"donation6": {
 			"eng": "Prestige",
@@ -4751,10 +4808,6 @@
 			"eng": "Special Music",
 			"trans": "Unikátní hudba"
 		},
-		"caliSubtitle": {
-			"eng": "Reduced contribution requirements:",
-			"trans": "Snížené požadavky na příspěvky:"
-		},
 		"caliTitle": {
 			"eng": "Calibration Discount",
 			"trans": "Sleva na kalibraci"
@@ -4771,21 +4824,33 @@
 			"eng": "Chat Effects",
 			"trans": "Chat Efekty"
 		},
-		"discountTier": {
-			"eng": "${percent}% discount at: ${ranges}",
-			"trans": "Sleva ${percent}% na: ${ranges}",
-			"vars": [
-				"percent",
-				"ranges"
-			]
+		"contributionDiscount": {
+			"calibrationFundProgress": {
+				"eng": "Calibration fund progress",
+				"trans": "Pokrok kalibračního fondu"
+			},
+			"partyFundProgress": {
+				"eng": "Party fund progress",
+				"trans": "Pokrok stranického fondu"
+			},
+			"percent": {
+				"eng": "${percent}%",
+				"trans": "${percent}%",
+				"vars": [
+					"percent"
+				]
+			},
+			"promoSummary": {
+				"eng": "Contribute early to save up to ${percent}%.",
+				"trans": "Přispějte včas a ušetříte až ${percent} %.",
+				"vars": [
+					"percent"
+				]
+			}
 		},
 		"dungeonDrops": {
 			"eng": "Dungeon Chest Drops",
 			"trans": "Vylepšené odměny z truhel v kobkách"
-		},
-		"earlyContributors": {
-			"eng": "Early contributors receive higher discounts!",
-			"trans": "Brzké přispěvatele čekají vyšší slevy!"
 		},
 		"eventGameDesc": {
 			"eng": "Play ${gameName} using ${passName} for bonus rewards!",
@@ -4810,10 +4875,6 @@
 			"eng": "Monster Drops",
 			"trans": "Kořist z monster"
 		},
-		"partySubtitle": {
-			"eng": "Reduced contribution requirements:",
-			"trans": "Snížené požadavky na příspěvky:"
-		},
 		"partyTitle": {
 			"eng": "Party Discount",
 			"trans": "Sleva na párty"
@@ -4826,6 +4887,13 @@
 			"description": {
 				"eng": "All skips during the event period gets ${percent}% off discount on unit required",
 				"trans": "Všechny přeskočení během akčního období získávají ${percent}% slevu na požadovanou jednotku",
+				"vars": [
+					"percent"
+				]
+			},
+			"rate": {
+				"eng": "${percent}% off",
+				"trans": "Sleva ${percent} %",
 				"vars": [
 					"percent"
 				]
@@ -4850,9 +4918,9 @@
 			}
 		},
 		"topUpReward": {
-			"description": {
-				"eng": "Get bonus reward when topping up during the event",
-				"trans": "Při doplnění kreditu během akce získej extra odměnu"
+			"descriptionV2": {
+				"eng": "Receive bonus rewards when topping up during the event.",
+				"trans": "Během akce získáte bonusové odměny za dobití."
 			}
 		},
 		"topUpTitle": {
@@ -5033,10 +5101,6 @@
 				"playerName"
 			]
 		},
-		"subtitle": {
-			"eng": "Hosted by:",
-			"trans": "Hostila:"
-		},
 		"subtitleMulti": {
 			"eng": "Click to view party hosts:",
 			"trans": "Klikněte pro zobrazení hostitelů party:"
@@ -5078,46 +5142,65 @@
 		}
 	},
 	"halloweenPromoSmall": {
-		"desc": {
-			"eng": "Collect ${item} to redeem various rewards!",
-			"trans": "Nasbírej ${item} a vyměň je za různé odměny!",
+		"description": {
+			"eng": "Climb Phantom Ascent. Trade with ${npc}.",
+			"trans": "Vyjdi na Phantom Ascent. Obchoduj s ${npc}.",
 			"vars": [
-				"item"
+				"npc"
 			]
 		},
-		"title": {
-			"eng": "Halloween Event!",
-			"trans": "Halloween akce!"
+		"eyebrow": {
+			"eng": "Limited-time Event",
+			"trans": "Časově omezená akce"
+		},
+		"titleV2": {
+			"eng": "Halloween",
+			"trans": "Halloween"
 		}
 	},
 	"halloweenPromotion": {
-		"desc1": {
-			"eng": "It's the spooky time of year again! Shang-ri-la is celebrating Halloween with a special event!",
-			"trans": "Je tu zas ta strašidelná doba roku! Shang-ri-la slaví Halloween s speciální akcí!"
+		"collectionLabel": {
+			"eng": "Spirit Collection",
+			"trans": "Sbírka duchů"
 		},
-		"desc2v3": {
-			"eng": "Enemies and AI Core auto-farm have a chance to drop ${item}!",
-			"trans": "S nepřáteli a AI Core máte šanci získat ${item}!",
-			"vars": [
-				"item"
-			]
-		},
-		"desc3v3": {
-			"eng": "You can find ${npc} at ${location} during Halloween. He will exchange your ${item} for rewards!",
-			"trans": "Během Halloweenu můžeš potkat ${npc} na ${location}. Vymění ti ${item} za skvělé odměny!",
-			"vars": [
-				"npc",
-				"location",
-				"item"
-			]
+		"contentLabel": {
+			"eng": "Event Content",
+			"trans": "Obsah události"
 		},
 		"desc4": {
 			"eng": "During Halloween, a time-limited donation tier and themed emblems will be available!",
 			"trans": "Během Halloweenu přichází časově omezené dary a tematické odznaky, tak neváhejte!"
 		},
-		"title": {
-			"eng": "Happy Halloween!",
-			"trans": "Veselé Halloween!"
+		"description": {
+			"eng": "Climb Phantom Ascent, gather ${item}, and trade with ${npc}.",
+			"trans": "Vylez na Phantom Ascent, nasbírej ${item} a obchoduj s ${npc}.",
+			"vars": [
+				"item",
+				"npc"
+			]
+		},
+		"eyebrow": {
+			"eng": "Limited-time Event",
+			"trans": "Časově omezená akce"
+		},
+		"hauntedCacheEpic": {
+			"eng": "Unlock a ${cache} for a chance at Epic equipment.",
+			"trans": "Odemkni ${cache} a získej šanci na epické vybavení.",
+			"vars": [
+				"cache"
+			]
+		},
+		"spiritCollectionV3": {
+			"eng": "Reach tier 3 or higher in Phantom Ascent to earn ${fragment}. Find ${cache} as rare drops from Deploy farm bot and scavenging.",
+			"trans": "Dosažte v Phantom Ascent stupeň 3 nebo vyšší a získejte ${fragment}. Najděte ${cache} jako vzácné dropy z nasazení farmovacího bota a sběru.",
+			"vars": [
+				"fragment",
+				"cache"
+			]
+		},
+		"titleV2": {
+			"eng": "Halloween",
+			"trans": "Halloween"
 		}
 	},
 	"iapCurrency": {
@@ -5971,6 +6054,19 @@
 				"trans": "Přístupový token pro výměnu vybavení"
 			}
 		},
+		"eventSkipVoucher": {
+			"description": {
+				"eng": "automatically applies a ${discountPercent}% discount to any Global Time Skip. Consumed when applied; does not stack with other skip discounts.",
+				"trans": "Automaticky použije ${discountPercent}% slevu na jakékoli globální přeskočení času. Po použití se spotřebuje a nesčítá se s jinými slevami na přeskočení.",
+				"vars": [
+					"discountPercent"
+				]
+			},
+			"name": {
+				"eng": "Event Skip Voucher",
+				"trans": "Poukaz na přeskočení události"
+			}
+		},
 		"expMemory": {
 			"description": {
 				"eng": "Memory bank contains someone's memory. If used you may gain experience from this",
@@ -6095,6 +6191,16 @@
 			"name": {
 				"eng": "Jack-o'-lantern",
 				"trans": "Haloweenská dýně"
+			}
+		},
+		"halloweenLootBox": {
+			"description": {
+				"eng": "A sealed cache that whispers when held. Unlock it with Phantom Sigils at the Terminal for a random reward.",
+				"trans": "Zapečetěný poklad, který šepce, když ho držíte. Na Terminálu ho odemkněte fantomovými sigily a získejte náhodnou odměnu."
+			},
+			"name": {
+				"eng": "Haunted Cache",
+				"trans": "Prokletá skříňka"
 			}
 		},
 		"hashProcessor": {
@@ -6646,6 +6752,26 @@
 				"trans": "NanoKulička Ball"
 			}
 		},
+		"phantomAscentPass": {
+			"description": {
+				"eng": "A pass for one Phantom Ascent run with Pumpkin Bro during Halloween. Found in dungeon crates and through Deploy farm bot.",
+				"trans": "Vstupenka na jeden běh Phantom Ascent s Pumpkinn Bro během Halloween. Nachází se v truhlicích v podzemních prostorách a lze ji získat přes farmovacího bota nasazení."
+			},
+			"name": {
+				"eng": "Phantom Ascent Pass",
+				"trans": "Průkaz pro Fantomové stoupání"
+			}
+		},
+		"phantomSigil": {
+			"description": {
+				"eng": "A spectral mark that hums with strange energy. Used at the Terminal to unlock a Haunted Cache.",
+				"trans": "Spektrální znak bzučící podivnou energií. Používá se na Terminálu k odemčení Strašidelné skrýše."
+			},
+			"name": {
+				"eng": "Phantom Sigil",
+				"trans": "Znak fantomu"
+			}
+		},
 		"primaryWeapon": {
 			"name": {
 				"eng": "Primary Weapon",
@@ -6912,6 +7038,16 @@
 				"trans": "Spektrální hranol"
 			}
 		},
+		"spiritFragment": {
+			"descriptionV2": {
+				"eng": "A flicker of a freed spirit. Earned by reaching tier 3 or higher in Phantom Ascent during Halloween.",
+				"trans": "Záblesk osvobozeného ducha. Získá se dosažením třetího nebo vyššího stupně v Phantom Ascent během Halloween."
+			},
+			"name": {
+				"eng": "Spirit Fragment",
+				"trans": "Fragment ducha"
+			}
+		},
 		"summonAI": {
 			"announcement": {
 				"eng": "SLANC has entered the chat",
@@ -7009,6 +7145,26 @@
 			"name": {
 				"eng": "Roasted Turkey",
 				"trans": "Pečený krocan"
+			}
+		},
+		"turkeyFeather": {
+			"description": {
+				"eng": "A feather shed by the runaway turkey. The Depot Tender trades Thanksgiving food and supplies for these.",
+				"trans": "Péro z utíkající husy. Správce depa vyměňuje jídlo a zásoby na svátek Děkuvání za tato pera."
+			},
+			"name": {
+				"eng": "Turkey Feather",
+				"trans": "Peří hokščáka"
+			}
+		},
+		"turkeyRunPass": {
+			"description": {
+				"eng": "Entry to Turkey on the Run during Thanksgiving.",
+				"trans": "Vstup do akce Turek na útěku v den díkůvzdání."
+			},
+			"name": {
+				"eng": "Turkey Run Pass",
+				"trans": "Průchodka Turkey Run"
 			}
 		},
 		"undoRename": {
@@ -7625,8 +7781,8 @@
 			},
 			"community": {
 				"description": {
-					"eng": "No PvP. 50k+ Discord members. Wholesome vibes only.",
-					"trans": "Žádné PvP. Více než 50 000 členů Discordu. Pouze pozitivní atmosféra."
+					"eng": "No PvP. Work together, trade, and grow stronger with other players.",
+					"trans": "Bez PvP. Spolupracujte, vyměňujte se a posilujte spolu s dalšími hráči."
 				},
 				"title": {
 					"eng": "Friendly Community",
@@ -7785,10 +7941,6 @@
 			"cta": {
 				"eng": "Play Free Now",
 				"trans": "Hraj zdarma nyní"
-			},
-			"discord": {
-				"eng": "Discord",
-				"trans": "Discord"
 			},
 			"github": {
 				"eng": "GitHub",
@@ -8622,6 +8774,20 @@
 		}
 	},
 	"market": {
+		"error": {
+			"itemRemoved": {
+				"eng": "This item has been removed from market",
+				"trans": "Tato položka byla odebrána z trhu"
+			},
+			"levelRange": {
+				"eng": "Choose a valid market level range.",
+				"trans": "Zvolte platný rozsah úrovní trhu."
+			},
+			"purchaseNotAllowed": {
+				"eng": "You can't purchase from this player",
+				"trans": "Nelze koupit od tohoto hráče"
+			}
+		},
 		"purchaseModal": {
 			"purchase": {
 				"eng": "Purchase",
@@ -9299,6 +9465,85 @@
 			"title": {
 				"eng": "Data Stream Interceptor",
 				"trans": "Interceptor datového proudu"
+			}
+		},
+		"gyroLock": {
+			"containment": {
+				"eng": "CONTAINMENT",
+				"trans": "ZADRŽENÍ"
+			},
+			"fail": {
+				"description": {
+					"eng": "The vault re-sealed before all three seals were set.",
+					"trans": "Trezor se znovu uzavřel, než byly nastaveny všechny tři zámky."
+				},
+				"retry": {
+					"eng": "Retry breach",
+					"trans": "Opakovat vniknutí"
+				},
+				"status": {
+					"eng": "BREACH FAILED",
+					"trans": "PROLOMENÍ SELHALO"
+				},
+				"title": {
+					"eng": "Containment reset",
+					"trans": "Obnovení zajištění"
+				}
+			},
+			"hint": {
+				"eng": "Touch and drag to rotate",
+				"trans": "Pro otočení se dotkněte a táhněte"
+			},
+			"instruction": {
+				"eng": "Drag around the dial. The ring steadies near the lock point. Hold it there to set the seal.",
+				"trans": "Táhněte po obvodu ciferníku. Kroužek se ustálí poblíž bodu uzamčení. Podržte ho tam pro nastavení pečeti."
+			},
+			"status": {
+				"breached": {
+					"eng": "BREACHED",
+					"trans": "PROLOMĚNO"
+				},
+				"reset": {
+					"eng": "RESET",
+					"trans": "Obnovit"
+				},
+				"seal": {
+					"eng": "SEAL ${current}/${total}",
+					"trans": "SEAL ${current}/${total}",
+					"vars": [
+						"current",
+						"GyroLockConfig.SEAL_COUNT)",
+						"total"
+					]
+				}
+			},
+			"success": {
+				"status": {
+					"eng": "VAULT OPEN",
+					"trans": "Trezor otevřen"
+				},
+				"title": {
+					"eng": "Breach complete",
+					"trans": "Prolomení dokončeno"
+				}
+			},
+			"title": {
+				"eng": "Gyro Lock",
+				"trans": "Gyroskopový zámek"
+			},
+			"vaultId": {
+				"eng": "VAULT ${id}",
+				"trans": "TREZOR ${id}",
+				"vars": [
+					"id"
+				]
+			},
+			"window": {
+				"eng": "WINDOW ±${degrees}°",
+				"trans": "OKNO ±${degrees}°",
+				"vars": [
+					"degrees"
+				]
 			}
 		},
 		"hexBuffer": {
@@ -10353,20 +10598,9 @@
 			}
 		},
 		"unitDonationConfirm": {
-			"description": {
-				"eng": "This will donate ${amount} Unit from your account",
-				"trans": "Toto daruje ${amount} Jednotek z vašeho účtu",
-				"vars": [
-					"amount"
-				]
-			},
 			"notEnough": {
 				"eng": "You do not have enough Unit to donate.",
 				"trans": "Nemáte dostatek Jednotek k darování."
-			},
-			"title": {
-				"eng": "Confirm donation",
-				"trans": "Potvrdit dary"
 			}
 		},
 		"updateModal": {
@@ -10424,6 +10658,18 @@
 		"viewProfile": {
 			"eng": "View Profile",
 			"trans": "Zobrazit profil"
+		}
+	},
+	"molecularPrinter": {
+		"recipe": {
+			"cost": {
+				"eng": "Cost per print",
+				"trans": "Cena za tisk"
+			},
+			"craftable": {
+				"eng": "Craftable",
+				"trans": "Lze vyrobit"
+			}
 		}
 	},
 	"neonNightsGrid": {
@@ -11878,6 +12124,28 @@
 				"trans": "Chcete-li postoupit do další oblasti, musíte získat fragmenty tajných klíčů z dungeonů \r\n         a použít Terminál k vyrobení klíče další oblasti"
 			}
 		},
+		"thanksgiving": {
+			"defaultLines": {
+				"eng": [
+					"Dinner has escaped. The chef is not taking it well.",
+					"Bring a Turkey Run Pass. Grab the corn. Avoid becoming dinner.",
+					"Turkey feathers! Bring me the feathers and I'll trade you a proper dinner."
+				],
+				"trans": [
+					"Večeře unikla. Kuchař to špatně bere.",
+					"Vezmi průkaz na běh s krůtami. Seber si kukuřici. Nekonči jako večeře.",
+					"Krůtí peří! Přines mi to peří a vyměním ti ho za pořádnou večeři."
+				]
+			},
+			"name": {
+				"eng": "Thanksgiving Depot",
+				"trans": "Depo Děkování"
+			},
+			"npcName": {
+				"eng": "Depot Tender",
+				"trans": "Správce Depa"
+			}
+		},
 		"unitExchange": {
 			"canAccessError": {
 				"eng": "You need to be at least level 3 to access unit exchange",
@@ -12447,6 +12715,233 @@
 			}
 		}
 	},
+	"phantomAscent": {
+		"backgrounded": {
+			"eng": "Run ended while away",
+			"trans": "Běh ukončen během nepřítomnosti"
+		},
+		"cancelLoading": {
+			"eng": "Cancel",
+			"trans": "Zrušit"
+		},
+		"caughtReason": {
+			"eng": "The rising spikes caught you.",
+			"trans": "Zvedající se špičky vás dostaly."
+		},
+		"collisionReason": {
+			"eng": "The wall spikes tore the spirit apart.",
+			"trans": "Ostny na zdi roztrhaly ducha na kusy."
+		},
+		"depletedReason": {
+			"eng": "You ran out of hearts.",
+			"trans": "Došly ti všechny životy."
+		},
+		"errorTitle": {
+			"eng": "Couldn't finish the run",
+			"trans": "Nepodařilo se dokončit běh"
+		},
+		"escaped": {
+			"eng": "Escape complete",
+			"trans": "Útěk dokončen"
+		},
+		"exit": {
+			"eng": "Exit",
+			"trans": "Ukončit"
+		},
+		"holdHint": {
+			"eng": "Hold anywhere to begin",
+			"trans": "Podržte kdekoliv pro zahájení"
+		},
+		"hud": {
+			"powerMultiplier": {
+				"eng": "POWER ${multiplier}×",
+				"trans": "SÍLA ${multiplier}×",
+				"vars": [
+					"multiplier"
+				]
+			},
+			"powerReady": {
+				"eng": "POWER SEAL READY",
+				"trans": "ENERGETICKÁ PEČEŇ PŘIPRAVENA"
+			},
+			"secured": {
+				"eng": "Tier ${tier} secured",
+				"trans": "Úroveň ${tier} zajištěna",
+				"vars": [
+					"tier"
+				]
+			},
+			"shieldRemaining": {
+				"eng": "SHIELD ${seconds}s",
+				"trans": "ŠTÍT ${seconds}s",
+				"vars": [
+					"seconds"
+				]
+			},
+			"tapToLaunch": {
+				"eng": "TAP TO LAUNCH",
+				"trans": "KLEPNĚTE PRO SPUŠTĚNÍ"
+			},
+			"tier": {
+				"eng": "Tier ${tier}/${maxTier}",
+				"trans": "Úroveň ${tier}/${maxTier}",
+				"vars": [
+					"tier",
+					"maxTier"
+				]
+			}
+		},
+		"inbox": {
+			"eng": "Your highest tier is secured. Rewards were sent to your item inbox.",
+			"trans": "Tvoje nejvyšší úroveň je zabezpečena. Odměny byly odeslány do tvé schránky s předměty."
+		},
+		"intro": {
+			"climb": {
+				"eng": "Keep climbing.",
+				"trans": "Lez dál."
+			},
+			"climbDetail": {
+				"eng": "Walls bounce you back. If you fall, hold to catch an earlier seal above the spikes. Reach tier ${tier} to escape.",
+				"trans": "Stěny tě odrážejí zpět. Pokud spadneš, podrž a chytni dřívější pečeť nad hroty. Dosáhni úrovně ${tier} a utíkáš.",
+				"vars": [
+					"tier"
+				]
+			},
+			"closed": {
+				"eng": "Event closed",
+				"trans": "Událost ukončena"
+			},
+			"cost": {
+				"eng": "Each started run uses 1 pass. Your highest reward tier is kept if the run ends early. Switching apps after you start also ends the run.",
+				"trans": "Každý zahájený běh spotřebuje 1 průchod. Pokud běh skončí předčasně, vaše nejvyšší dosažená úroveň odměny se zachová. Přepnutí do jiné aplikace po spuštění také ukončí běh."
+			},
+			"findPass": {
+				"eng": "Find a pass",
+				"trans": "Najdi průchod"
+			},
+			"health": {
+				"eng": "Protect the spirit.",
+				"trans": "Chraň ducha."
+			},
+			"healthDetail": {
+				"eng": "Start with ${hearts} hearts — up to ${max}. Each wall or obstacle hit costs 1 heart; the rising spike floor ends the run on contact. Healing hearts appear from tier 2 onward; collect them to restore 1 heart each.",
+				"trans": "Počáteční počet srdcí: ${hearts} — max ${max}. Každý náraz do stěny nebo překážky odečte 1 srdce; vzestupující kolcová podlaha ukončí běh při dotyku. Od 2. úrovně se objevují léčící srdce; každé obnoví 1 srdce.",
+				"vars": [
+					"hearts",
+					"max"
+				]
+			},
+			"hold": {
+				"eng": "Hold.",
+				"trans": "Drž."
+			},
+			"holdDetail": {
+				"eng": "Your first hold starts the run. Hold anywhere to orbit the highlighted seal, or hold early to catch one as it comes into reach.",
+				"trans": "První podržení spouští běh. Podrž kdekoli a oběhni zvýrazněnou pečeť, nebo podrž dřív a chytni jednu, jakmile dojde do dosahu."
+			},
+			"invincibility": {
+				"eng": "Invincibility.",
+				"trans": "Nezranitelnost."
+			},
+			"invincibilityDetail": {
+				"eng": "For ${seconds}s, walls and obstacles cannot damage you; obstacles bounce you farther away. Another pickup refreshes the timer instead of stacking. The rising spike floor still ends the run.",
+				"trans": "Po dobu ${seconds} s stěny a překážky nemohou tě zranit. Překážky tě odrazí dále. Další bonus obnoví časovač místo naskládání. Stoupající podlaha s hroty stále ukončí běh.",
+				"vars": [
+					"seconds"
+				]
+			},
+			"knockback": {
+				"eng": "Push the spikes back.",
+				"trans": "Odežmi hroty."
+			},
+			"knockbackDetail": {
+				"eng": "Spikes rise faster with each tier. Each stage has an optional arrow pickup on the outside of an orbit: collect it to push the spikes down. The left-side strip shows the next 20 seconds of spike approach to your current altitude; red means less than 5 seconds.",
+				"trans": "S každou úrovní stoupají špičky rychleji. Každá fáze má volitelnou šipku vně orbity; sberte ji a zatlačte špičky dolů. Levý pás zobrazuje dalších 20 sekund přiblížování špiček k vaší aktuální výšce; červená znamená méně než 5 sekund."
+			},
+			"passCount": {
+				"eng": "Passes: ${count}",
+				"trans": "Průchody: ${count}",
+				"vars": [
+					"count"
+				]
+			},
+			"powerSeal": {
+				"eng": "Power Seal.",
+				"trans": "Zámek energie."
+			},
+			"powerSealDetail": {
+				"eng": "Stores one boosted launch. Release from orbit to lock your position and aim; tap again to fire at 1–${max}× power as the meter cycles. The shaft, spikes and buff timers keep moving while you charge. An obstacle hit cancels charging but keeps unused power.",
+				"trans": "Ukládá jedno zesílené vystřelení. Uvolnění z orbity uzamkne pozici a míření; druhým klepnutím vystřílíte s výkonem 1–${max}× během cyklování měřiče. Hřídel, trny a časovače buffů se při nabíjení dál pohybují. Náraz do překážky zruší nabíjení, ale zachová nepoužitý výkon.",
+				"vars": [
+					"max"
+				]
+			},
+			"release": {
+				"eng": "Release.",
+				"trans": "Uvolnit."
+			},
+			"releaseDetail": {
+				"eng": "Launch in the direction you're moving. Aim your release toward the next seal; gravity curves your flight.",
+				"trans": "Vystřel ve směru, kterým se pohybujes. Míř vypuštěním na další pečeť. Gravitace zahýbí tvou dráhu."
+			},
+			"stageBuffs": {
+				"eng": "Stage buffs.",
+				"trans": "Bonusy fáze."
+			},
+			"stageBuffsDetail": {
+				"eng": "Stages 2–5 each have one random buff pickup ahead: Power Seal or Invincibility.",
+				"trans": "Ve fázích 2-5 je před vámi vždy jeden náhodný buff ke sběru: Pečeť moci nebo Neznícnitelnost."
+			},
+			"start": {
+				"eng": "Start ascent",
+				"trans": "Zahájit výstup"
+			},
+			"summary": {
+				"eng": "Escape a collapsing containment shaft. One spirit. One touch. Keep climbing.",
+				"trans": "Uteč z hroutící se izolační šachty. Jeden duch. Jeden dotyk. Šplhej dál."
+			}
+		},
+		"loadError": {
+			"eng": "Couldn't load Phantom Ascent. Your pass was not used.",
+			"trans": "Nepodařilo se načíst Phantom Ascent. Vaše vstupenka nebyla použita."
+		},
+		"loading": {
+			"eng": "Opening the shaft…",
+			"trans": "Šachta se otevírá…"
+		},
+		"noTier": {
+			"eng": "Reach tier 1 to earn rewards. One pass was used.",
+			"trans": "Dosáhni 1. úrovně a získej odměny. Byl použit jeden průchod."
+		},
+		"resultTier": {
+			"eng": "Tier ${tier} of ${maxTier}",
+			"trans": "Úroveň ${tier} z ${maxTier}",
+			"vars": [
+				"tier",
+				"maxTier"
+			]
+		},
+		"runEnded": {
+			"eng": "Run ended",
+			"trans": "Běh ukončen"
+		},
+		"runtimeError": {
+			"eng": "Couldn't run Phantom Ascent. Your pass was not used.",
+			"trans": "Nepodařilo se spustit Phantom Ascent. Vaše vstupenka nebyla použita."
+		},
+		"submissionError": {
+			"eng": "Couldn't confirm your result. Check your pass balance and item inbox before starting another run.",
+			"trans": "Nepodařilo se potvrdit váš výsledek. Před dalším během zkontrolujte saldo passu a schránku předmětů."
+		},
+		"submitting": {
+			"eng": "Confirming your result…",
+			"trans": "Potvrzuji váš výsledek…"
+		},
+		"title": {
+			"eng": "Phantom Ascent",
+			"trans": "Vzestup fantoma"
+		}
+	},
 	"player": {
 		"died": {
 			"eng": "`You were killed by ${enemy}",
@@ -12459,6 +12954,10 @@
 			"cantPerformAction": {
 				"eng": "You can't perform this action now",
 				"trans": "Tuto akci nyní nelze provést"
+			},
+			"cantPerformActionInDungeon": {
+				"eng": "You can't perform this action while inside a dungeon",
+				"trans": "Tuto akci nelze provést uvnitř dungeonu"
 			},
 			"deleteAccountTooEarly": {
 				"eng": "You can't delete this account now, please wait a few days",
@@ -13979,6 +14478,12 @@
 		"unlock": {
 			"eng": "Unlock",
 			"trans": "Odemknout"
+		},
+		"unlockHalloweenLootBox": {
+			"name": {
+				"eng": "Unlock Haunted Cache",
+				"trans": "Odemknout strašidelný poklad"
+			}
 		},
 		"unlockLootBox1": {
 			"name": {
@@ -16452,6 +16957,12 @@
 				"trans": "Hra je fakt zábavná. Miluju, jak komunita zaujme, obzvláště když jde o globální skipy a buffy. Jednoduché, ale ne příliš náročné."
 			}
 		},
+		"review11": {
+			"quote": {
+				"eng": "I LOVE the global system! Whenever someone makes a purchase it benefits everyone on the server. One of the very few mobile games I've ever spent money on",
+				"trans": "Miluju globální systém! Každý nákup prospívá všem na serveru. Je to jedna z mála mobilních her, na které se mi vyplatilo utratit peníze"
+			}
+		},
 		"review2": {
 			"quote": {
 				"eng": "I love that the buffs benefit everyone playing the game. It's a new vibe to me - I'm used to using buffs for myself! Highly recommended for playing in your leisure time.",
@@ -16502,38 +17013,57 @@
 		}
 	},
 	"thanksgivingPromo": {
-		"desc1": {
-			"eng": "During event period, Roasted Turkey will drop rarely from scavenging and AKF Bot on all levels",
-			"trans": "Během období akce bude pečená krůta zřídka klesat z úklidu a AKF bota na všech úrovních"
+		"contentLabel": {
+			"eng": "Event Content",
+			"trans": "Obsah události"
 		},
-		"desc2": {
-			"eng": "When a Roasted Turkey is consumed, you will get +20% EXP on AFK tasks for 20 minutes",
-			"trans": "Když je spotřebována pečená krůta, získáte +20% exp za úkoly AFK po dobu 20 minut"
+		"description": {
+			"eng": "Outrun the chef in Turkey on the Run, gather Turkey Feathers, and trade with ${npc}.",
+			"trans": "Předej kuchaři ve hře Kuře na útěku, sbírej kuřecí pera a obchoduj s ${npc}.",
+			"vars": [
+				"npc"
+			]
 		},
-		"footnote1": {
-			"eng": "Please note that the EXP bonus check is at AFK completion time, so you must have the Roasted Turkey buff active at the time of completion to receive the bonus.",
-			"trans": "Vezměte prosím na vědomí, že kontrola bonusu EXP je v době dokončení AFK, takže musíte mít pečený krůtí buff aktivní v době dokončení, abyste získali bonus."
+		"donation": {
+			"eng": "During Thanksgiving, time-limited donation tiers and the Turkey emblem are available.",
+			"trans": "Během Dne dáků jsou k dispozici časově omezené úrovně darování a emblém Turek."
 		},
-		"footnote2": {
-			"eng": "This effect will stack with other EXP bonus, and will only affect AFK tasks; tasks that does not have AFK timers will not be affected.",
-			"trans": "Tento efekt bude hromadit další bonus EXP a bude mít vliv pouze na úkoly AFK; Úkoly, které nemají časovače AFK, nebudou ovlivněny."
+		"eyebrow": {
+			"eng": "Limited-time Event",
+			"trans": "Limitovaná událost"
 		},
-		"title": {
-			"eng": "Happy Thanksgiving!",
-			"trans": "Šťastné Díkuvzdání!"
+		"titleV2": {
+			"eng": "Thanksgiving",
+			"trans": "Den díkůvzdání"
+		},
+		"turkeyBuff": {
+			"eng": "Trade Turkey Feathers for a ${turkey} at the ${depot}. Consume it for +20% AFK EXP for 20 minutes.",
+			"trans": "Vyměň Kachní peří za ${turkey} na ${depot}. Požitím získáš +20 % AFK EXP na 20 minut.",
+			"vars": [
+				"turkey",
+				"depot"
+			]
+		},
+		"turkeyBuffRule": {
+			"eng": "Only AFK tasks count, and the buff must still be active when the task completes. Stacks with other EXP bonuses.",
+			"trans": "Počítají se pouze AFK úkoly a posílení musí být při dokončení úkolu stále aktivní. Kombinuje se s dalšími bonusy k EXP."
 		}
 	},
 	"thanksgivingPromoSmall": {
-		"desc": {
-			"eng": "Consume delicious turkey to get +${percent}% EXP on AFK tasks",
-			"trans": "Konzumujte lahodnou krůtu k získání +${percent}% exp na úkoly AFK",
+		"description": {
+			"eng": "Outrun the chef. Trade feathers with ${npc}.",
+			"trans": "Uprchni před kuchařem. Vyměň pírka s ${npc}.",
 			"vars": [
-				"percent"
+				"npc"
 			]
 		},
-		"title": {
-			"eng": "Thanksgiving event",
-			"trans": "Událost díkůvzdání"
+		"eyebrow": {
+			"eng": "Limited-time Event",
+			"trans": "Limitovaná událost"
+		},
+		"titleV2": {
+			"eng": "Thanksgiving",
+			"trans": "Den díkůvzdání"
 		}
 	},
 	"thiefPromo": {
@@ -16861,6 +17391,282 @@
 				"eng": "Unlock",
 				"trans": "Odemknout"
 			}
+		}
+	},
+	"turkeyRun": {
+		"banner": {
+			"cleared": {
+				"eng": "Stage ${stage} clear",
+				"trans": "Úroveň ${stage} splněna",
+				"vars": [
+					"stage"
+				]
+			},
+			"clearedDetail": {
+				"eng": "Tier ${tier} secured · Entering ${name}",
+				"trans": "Úroveň ${tier} zajištěna · Vstup do ${name}",
+				"vars": [
+					"tier",
+					"name"
+				]
+			},
+			"escaped": {
+				"eng": "Escaped!",
+				"trans": "Unikl jsi!"
+			},
+			"escapedDetail": {
+				"eng": "Tier 5 secured. The chef gives up.",
+				"trans": "Úroveň 5 zabezpečena. Kuchař kapituloval."
+			}
+		},
+		"close": {
+			"eng": "Close",
+			"trans": "Zavřít"
+		},
+		"countdown": {
+			"hint": {
+				"eng": "Swipe to dodge — run starts soon",
+				"trans": "Přejeď prstem a vyhni se – běh brzy začne"
+			}
+		},
+		"error": {
+			"message": {
+				"eng": "The game encountered a problem. Close it and try again. If results were being submitted, check your pass balance and item inbox first.",
+				"trans": "Hra narazila na problém. Zavři ji a zkus to znovu. Pokud se právě odesílaly výsledky, nejdříve zkontroluj zůstatek průchodu a schránku předmětů."
+			},
+			"title": {
+				"eng": "Run interrupted",
+				"trans": "Běh přerušen"
+			}
+		},
+		"hud": {
+			"clearAt": {
+				"eng": "Clear at ${count} corn cobs",
+				"trans": "Vyčištěno při ${count} kukuřičných klasech",
+				"vars": [
+					"count"
+				]
+			},
+			"corn": {
+				"eng": "${count} corn cobs",
+				"trans": "${count} klasů kukuřice",
+				"vars": [
+					"count"
+				]
+			},
+			"distance": {
+				"eng": "${distance}m from the depot",
+				"trans": "${distance} m od depa",
+				"vars": [
+					"distance"
+				]
+			},
+			"escapeAt": {
+				"eng": "Escape at ${count} corn cobs",
+				"trans": "Escape at ${count} corn cobs",
+				"vars": [
+					"count"
+				]
+			},
+			"heartsLeft": {
+				"eng": "${count} hearts",
+				"trans": "${count} srdce",
+				"vars": [
+					"count"
+				]
+			},
+			"noTier": {
+				"eng": "No tier secured",
+				"trans": "Žádná úroveň získána"
+			},
+			"oneHitLeft": {
+				"eng": "One hit left",
+				"trans": "Zbývá 1 život"
+			},
+			"stage": {
+				"eng": "Stage ${stage} of 5",
+				"trans": "Fáze ${stage} z 5",
+				"vars": [
+					"stage"
+				]
+			},
+			"tierSecured": {
+				"eng": "Tier ${tier} secured",
+				"trans": "Úroveň ${tier} zabezpečena",
+				"vars": [
+					"tier"
+				]
+			}
+		},
+		"intro": {
+			"closed": {
+				"eng": "Event closed",
+				"trans": "Událost ukončena"
+			},
+			"getPasses": {
+				"eng": "Get passes",
+				"trans": "Získejte průchody"
+			},
+			"play": {
+				"eng": "Play",
+				"trans": "Hrát"
+			}
+		},
+		"loadError": {
+			"eng": "The game encountered a problem. If results were being submitted, check your pass balance and item inbox before trying again.",
+			"trans": "Hra narazila na problém. Pokud se právě odesílaly výsledky, zkontrolujte saldo pasu a schránku s předmětami před dalším pokusem."
+		},
+		"loading": {
+			"eng": "Warming up the depot…",
+			"trans": "Zahřívám skladiště…"
+		},
+		"pause": {
+			"eng": "Pause",
+			"trans": "Pauza"
+		},
+		"paused": {
+			"detail": {
+				"eng": "The turkey waits. Resume when ready.",
+				"trans": "Bažant čeká. Pokračuj, až bude připraveno."
+			},
+			"resume": {
+				"eng": "Resume",
+				"trans": "Pokračovat"
+			},
+			"title": {
+				"eng": "Paused",
+				"trans": "Pauza"
+			}
+		},
+		"results": {
+			"caught": {
+				"eng": "Caught by the chef",
+				"trans": "Kuchař tě chytil"
+			},
+			"escaped": {
+				"eng": "You escaped!",
+				"trans": "Unikl jsi!"
+			},
+			"inbox": {
+				"eng": "Your tier is secured. Rewards were sent to your item inbox.",
+				"trans": "Váš stupeň je zajištěn. Odměny byly odeslány do vaší schránky předmětů."
+			},
+			"noTier": {
+				"eng": "Clear stage 1 at ${count} corn cobs to secure a reward tier. One pass was used.",
+				"trans": "Projdi 1. fázi s ${count} kukuřičnými latkami a zajisti si odměnu. Byl použit jeden průchod.",
+				"vars": [
+					"count"
+				]
+			},
+			"practice": {
+				"eng": "Practice run — no pass used, no rewards sent",
+				"trans": "Tréninkový běh — bez použití průkazu, bez odeslání odměn"
+			},
+			"practiceDetail": {
+				"eng": "Practice only. Your pass was untouched and nothing was sent to your inbox.",
+				"trans": "Pouze cvik. Tvůj pas nebyl dotčen a nic nebylo odesláno do tvé schránky."
+			},
+			"tier": {
+				"eng": "Tier ${tier} of 5",
+				"trans": "Úroveň ${tier} z 5",
+				"vars": [
+					"tier"
+				]
+			},
+			"unconfirmed": {
+				"eng": "Result not confirmed",
+				"trans": "Nepotvrzený výsledek"
+			},
+			"unconfirmedDetail": {
+				"eng": "The run could not be confirmed. Check your pass balance and item inbox before starting another run.",
+				"trans": "Běh se nepodařilo potvrdit. Před spuštěním dalšího běhu zkontrolujte zůstatek průchodky a schránku s položkami."
+			}
+		},
+		"splash": {
+			"passCost": {
+				"eng": "${name} · 1 per run",
+				"trans": "${name} · 1 na běh",
+				"vars": [
+					"name"
+				]
+			},
+			"titleBottom": {
+				"eng": "on the Run",
+				"trans": "Na útěku"
+			},
+			"titleTop": {
+				"eng": "Turkey",
+				"trans": "Turka"
+			}
+		},
+		"stage": {
+			"1": {
+				"eng": "Freight Outskirts",
+				"trans": "Nákladní předměstí"
+			},
+			"2": {
+				"eng": "Night Market",
+				"trans": "Noční trh"
+			},
+			"3": {
+				"eng": "Industrial Ward",
+				"trans": "Průmyslový sektor"
+			},
+			"4": {
+				"eng": "Downtown Avenues",
+				"trans": "Centrální bulváry"
+			},
+			"5": {
+				"eng": "City Core",
+				"trans": "Jádro města"
+			}
+		},
+		"stats": {
+			"corn": {
+				"eng": "Golden corn",
+				"trans": "Zlatá kukuřice"
+			},
+			"distance": {
+				"eng": "Distance",
+				"trans": "Vzdálenost"
+			},
+			"stage": {
+				"eng": "Stage reached",
+				"trans": "Dosažená fáze"
+			},
+			"stageValue": {
+				"eng": "${stage} of 5",
+				"trans": "Kolo ${stage} ze 5",
+				"vars": [
+					"stage"
+				]
+			},
+			"survived": {
+				"eng": "Survived",
+				"trans": "Přežití"
+			}
+		},
+		"submitting": {
+			"practice": {
+				"eng": "Practice over",
+				"trans": "Konec tréninku"
+			},
+			"tier": {
+				"eng": "Tier ${tier} of 5 · ${count} corn cobs",
+				"trans": "Úroveň ${tier} z 5 · ${count} klasů kukuřice",
+				"vars": [
+					"tier",
+					"count"
+				]
+			},
+			"title": {
+				"eng": "Confirming your run…",
+				"trans": "Potvrzuji váš běh…"
+			}
+		},
+		"title": {
+			"eng": "Turkey on the Run",
+			"trans": "Hus na útěku"
 		}
 	},
 	"tutorial": {
@@ -17335,6 +18141,12 @@
 			}
 		},
 		"battle": {
+			"attackBar": {
+				"max": {
+					"eng": "MAX",
+					"trans": "MAX"
+				}
+			},
 			"attackButton": {
 				"primary": {
 					"title": {
@@ -18719,10 +19531,26 @@
 				"eng": "You need to be at least level 4 to access the market",
 				"trans": "Musíte mít alespoň 4. úroveň pro přístup na trh"
 			},
-			"levelSelect": {
+			"filter": {
+				"apply": {
+					"eng": "Apply",
+					"trans": "Použít"
+				},
+				"cancel": {
+					"eng": "Cancel",
+					"trans": "Zrušit"
+				},
+				"maxLevel": {
+					"eng": "Max level",
+					"trans": "Nejvyšší úroveň"
+				},
+				"minLevel": {
+					"eng": "Min level",
+					"trans": "Minimální úroveň"
+				},
 				"title": {
-					"eng": "Level",
-					"trans": "Úroveň"
+					"eng": "Filters",
+					"trans": "Filtry"
 				}
 			},
 			"myMarketStall": {
@@ -18764,6 +19592,10 @@
 				}
 			},
 			"tierSelection": {
+				"any": {
+					"eng": "Any",
+					"trans": "Libovolný"
+				},
 				"title": {
 					"eng": "Rarity",
 					"trans": "Rarita"
@@ -19493,10 +20325,10 @@
 				"trans": "Podmínky služby"
 			}
 		},
-		"rewardActionConfirmModal": {
+		"rewardActionCaptchaModal": {
 			"title": {
-				"eng": "Drag all processes icons into to the box entirely to initiate the task",
-				"trans": "Přetáhněte všechny ikony procesů do boxu, abyste úkol spustili"
+				"eng": "Complete the check to start the task",
+				"trans": "Dokončete ověření pro spuštění úkolu"
 			}
 		},
 		"richInput": {
@@ -19542,6 +20374,16 @@
 				"title": {
 					"eng": "Animated NPC Character",
 					"trans": "Animovaná postava NPC"
+				}
+			},
+			"attackEffects": {
+				"description": {
+					"eng": "Hit effects on enemies and the timing bar. Turn off if combat lags",
+					"trans": "Efekty zásahů na nepřátelích i časové liště. Vypněte, pokud se boj zasekává"
+				},
+				"title": {
+					"eng": "Attack Effects",
+					"trans": "Účinky útoků"
 				}
 			},
 			"backgroundMusicVolume": {
@@ -20204,10 +21046,6 @@
 					"trans": "Tento kontejner nelze v tuto chvíli odemknout"
 				}
 			},
-			"hint": {
-				"eng": "Unlock a container to get the items inside, requires small amount of tech scraps",
-				"trans": "Odemkněte kontejner pro získání položek dovnitř, vyžaduje malé množství technických kousků"
-			},
 			"increaseEpicDropRate": {
 				"button": {
 					"eng": "Increase now",
@@ -20240,6 +21078,10 @@
 						"itemName"
 					]
 				}
+			},
+			"materialHint": {
+				"eng": "Unlock a container to receive its contents. Required materials are shown below.",
+				"trans": "Odemknutím kontejneru získáte jeho obsah. Požadované materiály najdete níže."
 			},
 			"selectContainer": {
 				"eng": "Select Container",
@@ -20343,63 +21185,27 @@
 	},
 	"welcome": {
 		"afk": {
+			"beat": {
+				"away": {
+					"eng": "Log off, it keeps running",
+					"trans": "Odhlás se, běží dál"
+				},
+				"theirSkip": {
+					"eng": "Someone skips, you jump ahead",
+					"trans": "Někdo přeskakuje, ty poskočíš vpřed"
+				},
+				"yourSkip": {
+					"eng": "Your skip helps everyone",
+					"trans": "Tvoje přeskočení pomůže všem"
+				}
+			},
+			"body": {
+				"eng": "Tasks keep running while you're offline, and when someone skips, every player's task speeds up.",
+				"trans": "Úkoly běží i když jste offline a pokud někdo přeskočí, zrychlí se úkoly všech hráčů."
+			},
 			"headline": {
 				"eng": "Progress While Offline",
 				"trans": "Pokrok v nepřítomnosti"
-			},
-			"sentence": {
-				"eng": "Start a task before logging off to continue gathering resources and leveling up in the background.",
-				"trans": "Spusť úkol před odhlášením, aby se pokračovalo ve sběru surovin a levelování v pozadí."
-			}
-		},
-		"animation": {
-			"asset": {
-				"eng": "Asset",
-				"trans": "Prvek"
-			},
-			"autotask": {
-				"eng": "AUTOTASK",
-				"trans": "Automatická úloha"
-			},
-			"buy": {
-				"eng": "EXECUTE: BUY",
-				"trans": "VYKONAT: KOUPIT"
-			},
-			"chat1": {
-				"eng": "LFG Abandoned Factory, need healer.",
-				"trans": "Hledám do opuštěné továrny, potřebuji healera."
-			},
-			"chat2": {
-				"eng": "Inv, I got medkits.",
-				"trans": "Inv, mám medikity."
-			},
-			"chat3": {
-				"eng": "Global Buff Activated by Kael",
-				"trans": "Globální buff aktivován Kaelem"
-			},
-			"efficiency": {
-				"eng": "Efficiency",
-				"trans": "Efektivita"
-			},
-			"price": {
-				"eng": "Lowest Price",
-				"trans": "Nejnižší cena"
-			},
-			"reverse_engineering": {
-				"eng": "REVERSE_ENGINEERING",
-				"trans": "REVERZNÍ_INŽENÝRING"
-			},
-			"system": {
-				"eng": "System:",
-				"trans": "Systém:"
-			},
-			"waiting": {
-				"eng": "WAITING FOR ORDERS...",
-				"trans": "ČEKAJÍ NA ROZKAZY..."
-			},
-			"yield_acquired": {
-				"eng": "YIELD ACQUIRED",
-				"trans": "Výtěžek získán"
 			}
 		},
 		"cta": {
@@ -20413,13 +21219,27 @@
 			}
 		},
 		"economy": {
+			"beat": {
+				"buy": {
+					"eng": "You buy one",
+					"trans": "Koupíš jedno"
+				},
+				"list": {
+					"eng": "Players craft & list",
+					"trans": "Hráči vyrábějí a nabízejí"
+				},
+				"pay": {
+					"eng": "Coins go to its maker",
+					"trans": "Mince putují k tvůrci"
+				}
+			},
+			"body": {
+				"eng": "Everything on the market is made and sold by players, so your coins go to them.",
+				"trans": "Všechno na trhu hráči vyrábí a prodávají, takže vaše mince putují k nim."
+			},
 			"headline": {
 				"eng": "Player-Driven Economy",
 				"trans": "Hráčem řízená ekonomika"
-			},
-			"sentence": {
-				"eng": "Every item in the market is crafted and traded by real players like you.",
-				"trans": "Každý předmět na trhu vyrábějí a obchodují reální hráči, jako jsi ty."
 			}
 		},
 		"error": {
@@ -20437,13 +21257,51 @@
 			}
 		},
 		"fairness": {
+			"beat": {
+				"deploy": {
+					"eng": "Someone deploys a buff",
+					"trans": "Někdo nasadil posílení"
+				},
+				"share": {
+					"eng": "Every player gets it",
+					"trans": "Každý hráč to dostane"
+				},
+				"you": {
+					"eng": "You get it too",
+					"trans": "Také to máš"
+				}
+			},
+			"body": {
+				"eng": "When someone deploys a buff, every player on the server gets it, including you.",
+				"trans": "Když někdo aktivuje buff, každý hráč na serveru ho dostane, včetně tebe."
+			},
 			"headline": {
 				"eng": "Zero Pay-To-Win",
 				"trans": "Žádné pay-to-win"
+			}
+		},
+		"gear": {
+			"beat": {
+				"calibrate": {
+					"eng": "Calibrate to push further",
+					"trans": "Zkalibruj a posouve se dál"
+				},
+				"roll": {
+					"eng": "Every drop rolls",
+					"trans": "Každá kapka se váleje"
+				},
+				"unique": {
+					"eng": "One of a kind",
+					"trans": "Jedinečný"
+				}
 			},
-			"sentence": {
-				"eng": "All premium buffs are shared globally across the server. When someone supports the game, the entire community benefits and progresses together.",
-				"trans": "Všechna prémiová vylepšení platí pro celý server. Podpora hry pomáhá celé komunitě růst a společně se posouvat vpřed."
+			"body": {
+				"eng": "Every drop rolls its own tier and stats, and calibration pushes it even further.",
+				"trans": "Každý padlý předmět si nahodí vlastní úroveň i statistiky a kalibrace ho posune ještě dál."
+			},
+			"headline": {
+				"eng": "One-of-a-Kind Gear",
+				"trans": "Jedinečné vybavení"
 			}
 		},
 		"loading": {
@@ -20452,23 +21310,72 @@
 				"trans": "Inicializace uvítací sekvence"
 			}
 		},
+		"raid": {
+			"beat": {
+				"loot": {
+					"eng": "Loot for everyone",
+					"trans": "Výbava pro všechny"
+				},
+				"party": {
+					"eng": "Party up",
+					"trans": "Spusť párty"
+				},
+				"raid": {
+					"eng": "Raid the boss",
+					"trans": "Zaútočte na šéfa"
+				}
+			},
+			"body": {
+				"eng": "Team up in shared dungeons, and everyone who helps take down a boss gets their own loot.",
+				"trans": "Spolupracujte ve sdílených podzemích a každý, kdo pomůže porazit šéfa, získá vlastní kořist."
+			},
+			"headline": {
+				"eng": "Raid as a Squad",
+				"trans": "Nájezd jako tým"
+			}
+		},
+		"scene": {
+			"away": {
+				"eng": "${time} away",
+				"trans": "Pryč na ${time}",
+				"vars": [
+					"time"
+				]
+			},
+			"expBoost": {
+				"eng": "+80% EXP",
+				"trans": "+80% zkušeností"
+			},
+			"finishNowDescription": {
+				"eng": "Skips for every player",
+				"trans": "Přeskočí se pro všechny hráče"
+			},
+			"paid": {
+				"eng": "+1,200",
+				"trans": "+1 200"
+			},
+			"playersHelped": {
+				"eng": "${count} players helped",
+				"trans": "${count} hráčů pomohlo",
+				"vars": [
+					"count"
+				]
+			},
+			"skipped": {
+				"eng": "+${time} skipped",
+				"trans": "+${time} přeskočeno",
+				"vars": [
+					"time"
+				]
+			},
+			"you": {
+				"eng": "You",
+				"trans": "Ty"
+			}
+		},
 		"skip": {
 			"eng": "Skip",
 			"trans": "Přeskočit"
-		},
-		"splash": {
-			"connection": {
-				"eng": "// Connection Established",
-				"trans": "// Spojení navázáno"
-			},
-			"sys_init": {
-				"eng": "Sys.Init_Seq.01",
-				"trans": "Sys.Init_Seq.01"
-			},
-			"welcome": {
-				"eng": "Welcome To",
-				"trans": "Vítejte v"
-			}
 		}
 	}
 }

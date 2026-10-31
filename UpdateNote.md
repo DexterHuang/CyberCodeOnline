@@ -16,6 +16,22 @@ Please send your feedback to my Discord or email me directly.
 
 ## Updates
 
+### 0.1903
+
+- **Thanksgiving (11/01 to 11/30)**:
+  - Added the `Turkey on the Run` event game. Play it at `Thanksgiving Depot` with a `Turkey Run Pass`, and collect corn across five stages to secure higher reward tiers.
+  - Find `Turkey Run Pass` from AFK bot farming and dungeon chests, and `Turkey Feather` from those plus scavenging. Trade `Turkey Feather` with `Depot Tender` for `Roasted Turkey` and supplies.
+  - Added the `Prismatic` donation frame, and `Vice Heat` returns with a refreshed look.
+- Added the new `Gyro Lock` minigame. Checks before starting a task now draw from all minigames.
+- Upgraded battle visuals with hit effects and animated enemy entrances and defeats. Turn them off with the new `Attack Effects` setting if combat lags.
+- Rebuilt the first-login welcome intro, and new players now start in `Global Chat`.
+- Added `Shrimp` emblem.
+- Streamlined donation frame purchases: tap a frame to review its preview, benefits, and price in one confirmation.
+- Redesigned event benefit listings so rewards, drops, and discounts are easier to find.
+- Improved `Community Raffle` screens with clearer status, timing, and actions.
+- Improved chat performance and message ordering.
+- Improved dungeon enemy encounter reliability.
+
 ### 0.1902
 
 - Improved dungeon combat reliability to help prevent unintended consecutive attacks. this should resolve the issue where in very rare cases enemy can one-shot players in dungeon unexpectedly due to netwrok lag or other issues. please let me know if you still encounter this issue after this update.

@@ -3199,6 +3199,10 @@
 			"eng": "Blood Moon",
 			"trans": "Luna Sangrienta"
 		},
+		"donation59": {
+			"eng": "Prismatic",
+			"trans": "Prismático"
+		},
 		"donation6": {
 			"eng": "Prestige",
 			"trans": "AntiVirus"
@@ -7143,10 +7147,20 @@
 				"trans": "Pavo asado"
 			}
 		},
+		"turkeyFeather": {
+			"description": {
+				"eng": "A feather shed by the runaway turkey. The Depot Tender trades Thanksgiving food and supplies for these.",
+				"trans": "Pluma que soltó el pavo fugitivo. El Encargado del Depósito intercambia comida y suministros de Acción de Gracias por estas plumas."
+			},
+			"name": {
+				"eng": "Turkey Feather",
+				"trans": "Pluma de Pavo"
+			}
+		},
 		"turkeyRunPass": {
 			"description": {
-				"eng": "Entry to Turkey on the Run during Thanksgiving. Found in dungeon crates and through Deploy farm bot.",
-				"trans": "Pase para Pavo en Fuga durante el Día de Acción de Gracias. Se obtiene en cajas de mazmorra y al desplegar el bot granjero."
+				"eng": "Entry to Turkey on the Run during Thanksgiving.",
+				"trans": "Acceso al Pavo en Fuga durante el Día de Acción de Gracias."
 			},
 			"name": {
 				"eng": "Turkey Run Pass",
@@ -9451,6 +9465,85 @@
 			"title": {
 				"eng": "Data Stream Interceptor",
 				"trans": "Interceptors de Flujo de Datos"
+			}
+		},
+		"gyroLock": {
+			"containment": {
+				"eng": "CONTAINMENT",
+				"trans": "CONTENCIÓN"
+			},
+			"fail": {
+				"description": {
+					"eng": "The vault re-sealed before all three seals were set.",
+					"trans": "La bóveda volvió a sellarse antes de colocar los tres sellos."
+				},
+				"retry": {
+					"eng": "Retry breach",
+					"trans": "Reintentar brecha"
+				},
+				"status": {
+					"eng": "BREACH FAILED",
+					"trans": "INTRUSIÓN FALLIDA"
+				},
+				"title": {
+					"eng": "Containment reset",
+					"trans": "Contención reiniciada"
+				}
+			},
+			"hint": {
+				"eng": "Touch and drag to rotate",
+				"trans": "Toca y arrastra para rotar"
+			},
+			"instruction": {
+				"eng": "Drag around the dial. The ring steadies near the lock point. Hold it there to set the seal.",
+				"trans": "Desliza alrededor del disco. El anillo se estabiliza cerca del punto de bloqueo. Mantén en ese punto para sellar."
+			},
+			"status": {
+				"breached": {
+					"eng": "BREACHED",
+					"trans": "COMPROMETIDO"
+				},
+				"reset": {
+					"eng": "RESET",
+					"trans": "REINICIAR"
+				},
+				"seal": {
+					"eng": "SEAL ${current}/${total}",
+					"trans": "SEAL ${current}/${total}",
+					"vars": [
+						"current",
+						"GyroLockConfig.SEAL_COUNT)",
+						"total"
+					]
+				}
+			},
+			"success": {
+				"status": {
+					"eng": "VAULT OPEN",
+					"trans": "BÓVEDA ABIERTA"
+				},
+				"title": {
+					"eng": "Breach complete",
+					"trans": "Incursión completada"
+				}
+			},
+			"title": {
+				"eng": "Gyro Lock",
+				"trans": "Bloqueo de Giroscopio"
+			},
+			"vaultId": {
+				"eng": "VAULT ${id}",
+				"trans": "BÓVEDA ${id}",
+				"vars": [
+					"id"
+				]
+			},
+			"window": {
+				"eng": "WINDOW ±${degrees}°",
+				"trans": "VENTANA ±${degrees}°",
+				"vars": [
+					"degrees"
+				]
 			}
 		},
 		"hexBuffer": {
@@ -12034,12 +12127,14 @@
 		"thanksgiving": {
 			"defaultLines": {
 				"eng": [
-					"Dinner has escaped. The butcher is not taking it well.",
-					"Bring a Turkey Run Pass. Grab the corn. Avoid becoming dinner."
+					"Dinner has escaped. The chef is not taking it well.",
+					"Bring a Turkey Run Pass. Grab the corn. Avoid becoming dinner.",
+					"Turkey feathers! Bring me the feathers and I'll trade you a proper dinner."
 				],
 				"trans": [
-					"La cena se ha escapado. El carnicero no lo lleva bien.",
-					"Lleva un pase para la Carrera del Pavo. Agarra el maíz. Evita convertirte en la cena."
+					"La cena se ha escapado. El chef no lo está tomando bien.",
+					"Lleva tu pase de la Carrera del Pavo. Consigue el maíz. Evita ser la cena.",
+					"¡Plumas de pavo! Tráeme las plumas y te cambio por una cena digna."
 				]
 			},
 			"name": {
@@ -16862,6 +16957,12 @@
 				"trans": "El juego es divertido. Me encanta lo participativa que es la comunidad, sobre todo con los saltos y buffs globales. Sencillo, pero sin ser demasiado exigente."
 			}
 		},
+		"review11": {
+			"quote": {
+				"eng": "I LOVE the global system! Whenever someone makes a purchase it benefits everyone on the server. One of the very few mobile games I've ever spent money on",
+				"trans": "¡ME ENCANTA el sistema global! Cada vez que alguien hace una compra, todos en el servidor se benefician. Es uno de los muy pocos juegos móviles en los que he gastado dinero"
+			}
+		},
 		"review2": {
 			"quote": {
 				"eng": "I love that the buffs benefit everyone playing the game. It's a new vibe to me - I'm used to using buffs for myself! Highly recommended for playing in your leisure time.",
@@ -16912,38 +17013,57 @@
 		}
 	},
 	"thanksgivingPromo": {
-		"desc1": {
-			"eng": "During event period, Roasted Turkey will drop rarely from scavenging and AKF Bot on all levels",
-			"trans": "Durante el período del evento, el pavo asado rara vez se eliminará de la eliminación y el bot de AKF en todos los niveles"
+		"contentLabel": {
+			"eng": "Event Content",
+			"trans": "Contenido del evento"
 		},
-		"desc2": {
-			"eng": "When a Roasted Turkey is consumed, you will get +20% EXP on AFK tasks for 20 minutes",
-			"trans": "Cuando se consume un pavo asado, obtendrá +20% de exp en tareas AFK durante 20 minutos"
+		"description": {
+			"eng": "Outrun the chef in Turkey on the Run, gather Turkey Feathers, and trade with ${npc}.",
+			"trans": "Escapa del cocinero en Pavo a la Fuga, recoge plumas de pavo y intercambia con ${npc}.",
+			"vars": [
+				"npc"
+			]
 		},
-		"footnote1": {
-			"eng": "Please note that the EXP bonus check is at AFK completion time, so you must have the Roasted Turkey buff active at the time of completion to receive the bonus.",
-			"trans": "Tenga en cuenta que el cheque de bonificación de EXP está en el momento de finalización de AFK, por lo que debe tener el aficionado al pavo asado al momento de la finalización para recibir el bono."
+		"donation": {
+			"eng": "During Thanksgiving, time-limited donation tiers and the Turkey emblem are available.",
+			"trans": "Durante la Acción de Gracias, estarán disponibles los niveles de donación temporales y el Emblema del Pavo."
 		},
-		"footnote2": {
-			"eng": "This effect will stack with other EXP bonus, and will only affect AFK tasks; tasks that does not have AFK timers will not be affected.",
-			"trans": "Este efecto se acumulará con otro bono de EXP, y solo afectará las tareas de AFK; Las tareas que no tienen temporizadores AFK no se verán afectadas."
+		"eyebrow": {
+			"eng": "Limited-time Event",
+			"trans": "Evento de tiempo limitado"
 		},
-		"title": {
-			"eng": "Happy Thanksgiving!",
-			"trans": "¡Feliz día de acción de gracias!"
+		"titleV2": {
+			"eng": "Thanksgiving",
+			"trans": "Acción de Gracias"
+		},
+		"turkeyBuff": {
+			"eng": "Trade Turkey Feathers for a ${turkey} at the ${depot}. Consume it for +20% AFK EXP for 20 minutes.",
+			"trans": "Intercambia Plumas de Pavo por un ${turkey} en el ${depot}. Consúmelo para obtener +20% de EXP AFK durante 20 minutos.",
+			"vars": [
+				"turkey",
+				"depot"
+			]
+		},
+		"turkeyBuffRule": {
+			"eng": "Only AFK tasks count, and the buff must still be active when the task completes. Stacks with other EXP bonuses.",
+			"trans": "Solo las tareas AFK cuentan y el buff debe seguir activo al completar la tarea. Se apila con otros bonus de EXP."
 		}
 	},
 	"thanksgivingPromoSmall": {
-		"desc": {
-			"eng": "Consume delicious turkey to get +${percent}% EXP on AFK tasks",
-			"trans": "Consume delicioso pavo para obtener +${percent}% exp en tareas de AFK",
+		"description": {
+			"eng": "Outrun the chef. Trade feathers with ${npc}.",
+			"trans": "Supera al chef. Intercambia plumas con ${npc}.",
 			"vars": [
-				"percent"
+				"npc"
 			]
 		},
-		"title": {
-			"eng": "Thanksgiving event",
-			"trans": "Evento de Acción de Gracias"
+		"eyebrow": {
+			"eng": "Limited-time Event",
+			"trans": "Evento de tiempo limitado"
+		},
+		"titleV2": {
+			"eng": "Thanksgiving",
+			"trans": "Acción de Gracias"
 		}
 	},
 	"thiefPromo": {
@@ -17274,6 +17394,31 @@
 		}
 	},
 	"turkeyRun": {
+		"banner": {
+			"cleared": {
+				"eng": "Stage ${stage} clear",
+				"trans": "Nivel ${stage} superado",
+				"vars": [
+					"stage"
+				]
+			},
+			"clearedDetail": {
+				"eng": "Tier ${tier} secured · Entering ${name}",
+				"trans": "Nivel ${tier} completado · Entrando a ${name}",
+				"vars": [
+					"tier",
+					"name"
+				]
+			},
+			"escaped": {
+				"eng": "Escaped!",
+				"trans": "¡Escapaste!"
+			},
+			"escapedDetail": {
+				"eng": "Tier 5 secured. The chef gives up.",
+				"trans": "Nivel 5 asegurado. El chef se rinde."
+			}
+		},
 		"close": {
 			"eng": "Close",
 			"trans": "Cerrar"
@@ -17295,6 +17440,13 @@
 			}
 		},
 		"hud": {
+			"clearAt": {
+				"eng": "Clear at ${count} corn cobs",
+				"trans": "Completa al llegar a ${count} mazorcas",
+				"vars": [
+					"count"
+				]
+			},
 			"corn": {
 				"eng": "${count} corn cobs",
 				"trans": "${count} mazorcas",
@@ -17309,9 +17461,12 @@
 					"distance"
 				]
 			},
-			"endless": {
-				"eng": "Endless — tier capped at 5",
-				"trans": "Infinito — nivel máx. 5"
+			"escapeAt": {
+				"eng": "Escape at ${count} corn cobs",
+				"trans": "Escapar con ${count} mazorcas",
+				"vars": [
+					"count"
+				]
 			},
 			"heartsLeft": {
 				"eng": "${count} hearts",
@@ -17320,12 +17475,9 @@
 					"count"
 				]
 			},
-			"nextStage": {
-				"eng": "Next stage at ${count} corn cobs",
-				"trans": "Siguiente etapa en ${count} mazorcas",
-				"vars": [
-					"count"
-				]
+			"noTier": {
+				"eng": "No tier secured",
+				"trans": "Nivel no asegurado"
 			},
 			"oneHitLeft": {
 				"eng": "One hit left",
@@ -17338,9 +17490,9 @@
 					"stage"
 				]
 			},
-			"tier": {
-				"eng": "Tier ${tier} of 5",
-				"trans": "Nivel ${tier} de 5",
+			"tierSecured": {
+				"eng": "Tier ${tier} secured",
+				"trans": "Nivel ${tier} asegurado",
 				"vars": [
 					"tier"
 				]
@@ -17351,112 +17503,13 @@
 				"eng": "Event closed",
 				"trans": "Evento cerrado"
 			},
-			"corn": {
-				"eng": "Collect golden corn.",
-				"trans": "Recoge maíz dorado."
+			"getPasses": {
+				"eng": "Get passes",
+				"trans": "Consigue pases"
 			},
-			"cornDetail": {
-				"eng": "Corn cobs add up through the whole run and are never spent. Reaching a corn total opens the next stage with no pause: ${stages}. Short of corn, the current stage keeps going.",
-				"trans": "Las mazorcas se acumulan durante toda la carrera y nunca se gastan. Alcanzar el total de maíz abre la siguiente etapa sin pausa: ${stages}. Sin maíz suficiente, la etapa actual continúa.",
-				"vars": [
-					"stages"
-				]
-			},
-			"cost": {
-				"eng": "One pass is consumed when your result is submitted, even if you earn no reward tier. You can pause, but cannot exit during the chase.",
-				"trans": "Se consume un pase al enviar tu resultado, incluso si no obtienes ningún nivel de recompensa. Puedes pausar, pero no salir durante la persecución."
-			},
-			"dodge": {
-				"eng": "Dodge.",
-				"trans": "Esquiva."
-			},
-			"dodgeDetail": {
-				"eng": "Swipe left or right (or press the left/right arrow keys) to change lanes. Low crates need a swipe up or the up arrow key to jump; overhead beams need a swipe down or the down arrow key to slide; big freight blocks must be dodged.",
-				"trans": "Desliza a la izquierda o a la derecha (o pulsa las flechas izquierda y derecha) para cambiar de carril. Para saltar sobre las cajas bajas, desliza hacia arriba o pulsa la flecha arriba; para agacharte bajo las vigas superiores, desliza hacia abajo o pulsa la flecha abajo; esquiva los bloques grandes de carga."
-			},
-			"endless": {
-				"eng": "${count}+ endless",
-				"trans": "${count}+ Infinito",
-				"vars": [
-					"count"
-				]
-			},
-			"hazards": {
-				"eng": "Watch the road.",
-				"trans": "Vigila el camino."
-			},
-			"hazardsDetail": {
-				"eng": "From stage 2, scattered puddles lock controls for one second. Slipping does not cost a heart, but hitting traffic during the spin does. Stage 3 adds bombs, stage 4 crossing carts, and stage 5 warning-lit steam vents. Jump or change lanes to avoid them.",
-				"trans": "A partir de la etapa 2, charcos dispersos bloquean los controles durante un segundo. Resbalar no cuesta un corazón, pero chocar con el tráfico durante el giro sí. La etapa 3 añade bombas, la etapa 4 carritos que cruzan y la etapa 5 escapes de vapor con luz de advertencia. Salta o cambia de carril para evitarlos."
-			},
-			"needPass": {
-				"eng": "Need a pass",
-				"trans": "Necesitas un pase"
-			},
-			"passCount": {
-				"eng": "Passes: ${count}",
-				"trans": "Pases: ${count}",
-				"vars": [
-					"count"
-				]
-			},
-			"powerUp": {
-				"eng": "Risk the 2× detour.",
-				"trans": "Atrévete al desvío x2."
-			},
-			"powerUpDetail": {
-				"eng": "Rare 2× power-ups appear from stage 3 off the main route. They double corn for 5 seconds; another pickup refreshes the timer without stacking.",
-				"trans": "Los potenciadores raros de 2× aparecen desde la etapa 3, fuera de la ruta principal. Duplican el maíz durante 5 segundos; recoger otro renueva el temporizador sin acumularse."
-			},
-			"rewards": {
-				"eng": "Earn tiers.",
-				"trans": "Gana niveles."
-			},
-			"rewardsDetail": {
-				"eng": "Corn totals of ${tiers} unlock reward tiers 1–5, separately from stage entry. You can earn the top reward before reaching stage 5. The last stage runs endlessly until capture, but rewards never go past tier 5.",
-				"trans": "Los totales de maíz de ${tiers} desbloquean los niveles de recompensa 1 a 5, independientemente del acceso a la etapa. Puedes conseguir la recompensa máxima antes de llegar a la etapa 5. La última etapa es infinita hasta la captura, pero las recompensas no superan el nivel 5.",
-				"vars": [
-					"tiers"
-				]
-			},
-			"roofs": {
-				"eng": "Take the high route.",
-				"trans": "Toma la ruta superior."
-			},
-			"roofsDetail": {
-				"eng": "Expect jump, slide and lane-change combinations from the start. From stage 2, judge roof gaps yourself: corn does not mark where to jump. Stages 4 and 5 chain roof transfers with hazards on landing.",
-				"trans": "Espera combinaciones de salto, deslizamiento y cambio de carril desde el inicio. A partir de la etapa 2, evalúa tú mismo los huecos entre techos: el maíz no marca dónde saltar. Las etapas 4 y 5 encadenan traslados entre techos con peligros al aterrizar."
-			},
-			"stageEntry": {
-				"eng": "${count} corn cobs",
-				"trans": "${count} mazorcas",
-				"vars": [
-					"count"
-				]
-			},
-			"stageRow": {
-				"eng": "Stage ${stage}: ${name}",
-				"trans": "Nivel ${stage}: ${name}",
-				"vars": [
-					"stage",
-					"name"
-				]
-			},
-			"start": {
-				"eng": "Start the run",
-				"trans": "Iniciar la carrera"
-			},
-			"summary": {
-				"eng": "Escape the chef from the freight outskirts to the city centre. Grab golden corn, dodge the traffic, and don't get caught.",
-				"trans": "Escapa del chef desde la periferia de carga hasta el centro de la ciudad. Atrapa el maíz dorado, esquiva el tráfico y no te dejes atrapar."
-			},
-			"survive": {
-				"eng": "Avoid getting caught.",
-				"trans": "No te dejes atrapar."
-			},
-			"surviveDetail": {
-				"eng": "Start with three hearts and hold up to four. Each hit costs one heart and gives you a brief recovery window. More hearts keep the chef farther away; losing one brings him closer. Stages 3, 4 and 5 each contain one randomly placed recovery heart. Miss it and it is gone.",
-				"trans": "Empiezas con tres corazones y puedes tener hasta cuatro. Cada golpe te cuesta un corazón y te da una breve ventana de recuperación. Cuantos más corazones, más lejos estará el chef; perder uno lo acerca. Las etapas 3, 4 y 5 contienen un corazón de recuperación en posición aleatoria. Si no lo recoges, desaparece."
+			"play": {
+				"eng": "Play",
+				"trans": "Jugar"
 			}
 		},
 		"loadError": {
@@ -17487,16 +17540,20 @@
 		},
 		"results": {
 			"caught": {
-				"eng": "Caught by the butcher",
-				"trans": "Atrapado por el carnicero"
+				"eng": "Caught by the chef",
+				"trans": "Atrapado por el chef"
+			},
+			"escaped": {
+				"eng": "You escaped!",
+				"trans": "¡Escapaste!"
 			},
 			"inbox": {
 				"eng": "Your tier is secured. Rewards were sent to your item inbox.",
 				"trans": "Tu rango está asegurado. Las recompensas fueron enviadas a tu bandeja de objetos."
 			},
 			"noTier": {
-				"eng": "Fewer than ${count} corn cobs means no reward tier. One pass was used.",
-				"trans": "Con menos de ${count} espigas de maíz no hay nivel de recompensa. Se utilizó un pase.",
+				"eng": "Clear stage 1 at ${count} corn cobs to secure a reward tier. One pass was used.",
+				"trans": "Completa la etapa 1 con ${count} mazorcas para asegurar un nivel de recompensa. Se usó un pase.",
 				"vars": [
 					"count"
 				]
@@ -17523,6 +17580,23 @@
 			"unconfirmedDetail": {
 				"eng": "The run could not be confirmed. Check your pass balance and item inbox before starting another run.",
 				"trans": "No se pudo confirmar la ejecución. Revisa el saldo de tu pase y el buzón de objetos antes de iniciar otra ejecución."
+			}
+		},
+		"splash": {
+			"passCost": {
+				"eng": "${name} · 1 per run",
+				"trans": "${name} · 1 por carrera",
+				"vars": [
+					"name"
+				]
+			},
+			"titleBottom": {
+				"eng": "on the Run",
+				"trans": "En fuga"
+			},
+			"titleTop": {
+				"eng": "Turkey",
+				"trans": "Pavo"
 			}
 		},
 		"stage": {
@@ -18067,6 +18141,12 @@
 			}
 		},
 		"battle": {
+			"attackBar": {
+				"max": {
+					"eng": "MAX",
+					"trans": "MAX"
+				}
+			},
 			"attackButton": {
 				"primary": {
 					"title": {
@@ -20245,10 +20325,10 @@
 				"trans": "Términos de servicio"
 			}
 		},
-		"rewardActionConfirmModal": {
+		"rewardActionCaptchaModal": {
 			"title": {
-				"eng": "Drag all processes icons into to the box entirely to initiate the task",
-				"trans": "Arrastra todos los íconos de procesos a la caja por completo para iniciar la tarea"
+				"eng": "Complete the check to start the task",
+				"trans": "Completa la verificación para iniciar la tarea"
 			}
 		},
 		"richInput": {
@@ -20294,6 +20374,16 @@
 				"title": {
 					"eng": "Animated NPC Character",
 					"trans": "NPC Animado"
+				}
+			},
+			"attackEffects": {
+				"description": {
+					"eng": "Hit effects on enemies and the timing bar. Turn off if combat lags",
+					"trans": "Efectos de impacto en enemigos y en la barra de acierto. Desactívalos si el combate se ralentiza"
+				},
+				"title": {
+					"eng": "Attack Effects",
+					"trans": "Efectos de ataque"
 				}
 			},
 			"backgroundMusicVolume": {
@@ -21095,63 +21185,27 @@
 	},
 	"welcome": {
 		"afk": {
+			"beat": {
+				"away": {
+					"eng": "Log off, it keeps running",
+					"trans": "Desconéctate, seguirá funcionando"
+				},
+				"theirSkip": {
+					"eng": "Someone skips, you jump ahead",
+					"trans": "Alguien salta, tú avanzas"
+				},
+				"yourSkip": {
+					"eng": "Your skip helps everyone",
+					"trans": "Tu salto ayuda a todos"
+				}
+			},
+			"body": {
+				"eng": "Tasks keep running while you're offline, and when someone skips, every player's task speeds up.",
+				"trans": "Las tareas siguen en marcha mientras no tengas conexión, y si alguien omite, la tarea de todos los jugadores avanza más rápido."
+			},
 			"headline": {
 				"eng": "Progress While Offline",
 				"trans": "Progreso sin conexión"
-			},
-			"sentence": {
-				"eng": "Start a task before logging off to continue gathering resources and leveling up in the background.",
-				"trans": "Inicia una tarea antes de desconectarte para continuar obteniendo recursos y subiendo de nivel en segundo plano."
-			}
-		},
-		"animation": {
-			"asset": {
-				"eng": "Asset",
-				"trans": "Recurso"
-			},
-			"autotask": {
-				"eng": "AUTOTASK",
-				"trans": "Tarea automática"
-			},
-			"buy": {
-				"eng": "EXECUTE: BUY",
-				"trans": "EJECUTAR: COMPRA"
-			},
-			"chat1": {
-				"eng": "LFG Abandoned Factory, need healer.",
-				"trans": "Buscando grupo para Fábrica Abandonada, necesito a un sanador."
-			},
-			"chat2": {
-				"eng": "Inv, I got medkits.",
-				"trans": "Inv, ya tengo kits médicos."
-			},
-			"chat3": {
-				"eng": "Global Buff Activated by Kael",
-				"trans": "Refuerzo global activado por Kael"
-			},
-			"efficiency": {
-				"eng": "Efficiency",
-				"trans": "Eficiencia"
-			},
-			"price": {
-				"eng": "Lowest Price",
-				"trans": "Precio más bajo"
-			},
-			"reverse_engineering": {
-				"eng": "REVERSE_ENGINEERING",
-				"trans": "INGENIERÍA INVERSA"
-			},
-			"system": {
-				"eng": "System:",
-				"trans": "Sistema:"
-			},
-			"waiting": {
-				"eng": "WAITING FOR ORDERS...",
-				"trans": "ESPERANDO ÓRDENES..."
-			},
-			"yield_acquired": {
-				"eng": "YIELD ACQUIRED",
-				"trans": "RENDIMIENTO OBTENIDO"
 			}
 		},
 		"cta": {
@@ -21165,13 +21219,27 @@
 			}
 		},
 		"economy": {
+			"beat": {
+				"buy": {
+					"eng": "You buy one",
+					"trans": "Compras uno"
+				},
+				"list": {
+					"eng": "Players craft & list",
+					"trans": "Los jugadores fabrican y publican"
+				},
+				"pay": {
+					"eng": "Coins go to its maker",
+					"trans": "Las monedas van a su creador"
+				}
+			},
+			"body": {
+				"eng": "Everything on the market is made and sold by players, so your coins go to them.",
+				"trans": "Todo en el mercado es creado y vendido por jugadores, así que tus monedas van a ellos."
+			},
 			"headline": {
 				"eng": "Player-Driven Economy",
 				"trans": "Economía impulsada por jugadores"
-			},
-			"sentence": {
-				"eng": "Every item in the market is crafted and traded by real players like you.",
-				"trans": "Cada objeto del mercado es creado e intercambiado por jugadores reales como tú."
 			}
 		},
 		"error": {
@@ -21189,13 +21257,51 @@
 			}
 		},
 		"fairness": {
+			"beat": {
+				"deploy": {
+					"eng": "Someone deploys a buff",
+					"trans": "Alguien despliega un refuerzo"
+				},
+				"share": {
+					"eng": "Every player gets it",
+					"trans": "Cada jugador lo recibe"
+				},
+				"you": {
+					"eng": "You get it too",
+					"trans": "Tú también lo entiendes"
+				}
+			},
+			"body": {
+				"eng": "When someone deploys a buff, every player on the server gets it, including you.",
+				"trans": "Cuando alguien despliega un refuerzo, todos los jugadores del servidor lo reciben, también tú."
+			},
 			"headline": {
 				"eng": "Zero Pay-To-Win",
 				"trans": "Cero pay-to-win"
+			}
+		},
+		"gear": {
+			"beat": {
+				"calibrate": {
+					"eng": "Calibrate to push further",
+					"trans": "Calibra para ir más allá"
+				},
+				"roll": {
+					"eng": "Every drop rolls",
+					"trans": "Cada golpe rueda"
+				},
+				"unique": {
+					"eng": "One of a kind",
+					"trans": "Único"
+				}
 			},
-			"sentence": {
-				"eng": "All premium buffs are shared globally across the server. When someone supports the game, the entire community benefits and progresses together.",
-				"trans": "Todas las ventajas premium se comparten a nivel global en todo el servidor. Cuando alguien apoya al juego, toda la comunidad se beneficia y avanza en conjunto."
+			"body": {
+				"eng": "Every drop rolls its own tier and stats, and calibration pushes it even further.",
+				"trans": "Cada bote genera su propio rango y estadísticas, y la calibración lo impulsa aún más."
+			},
+			"headline": {
+				"eng": "One-of-a-Kind Gear",
+				"trans": "Equipo Único"
 			}
 		},
 		"loading": {
@@ -21204,23 +21310,72 @@
 				"trans": "Inicializando secuencia de bienvenida"
 			}
 		},
+		"raid": {
+			"beat": {
+				"loot": {
+					"eng": "Loot for everyone",
+					"trans": "Botín para todos"
+				},
+				"party": {
+					"eng": "Party up",
+					"trans": "Iniciar fiesta"
+				},
+				"raid": {
+					"eng": "Raid the boss",
+					"trans": "Ataca al jefe"
+				}
+			},
+			"body": {
+				"eng": "Team up in shared dungeons, and everyone who helps take down a boss gets their own loot.",
+				"trans": "Forma equipo en mazmorras compartidas, y todos los que ayuden a derrotar a un jefe reciben su propio botín."
+			},
+			"headline": {
+				"eng": "Raid as a Squad",
+				"trans": "Incursión como escuadrón"
+			}
+		},
+		"scene": {
+			"away": {
+				"eng": "${time} away",
+				"trans": "A ${time}",
+				"vars": [
+					"time"
+				]
+			},
+			"expBoost": {
+				"eng": "+80% EXP",
+				"trans": "+80% EXP"
+			},
+			"finishNowDescription": {
+				"eng": "Skips for every player",
+				"trans": "Omite para todos los jugadores"
+			},
+			"paid": {
+				"eng": "+1,200",
+				"trans": "+1.200"
+			},
+			"playersHelped": {
+				"eng": "${count} players helped",
+				"trans": "${count} jugadores ayudados",
+				"vars": [
+					"count"
+				]
+			},
+			"skipped": {
+				"eng": "+${time} skipped",
+				"trans": "+${time} omitido",
+				"vars": [
+					"time"
+				]
+			},
+			"you": {
+				"eng": "You",
+				"trans": "Tú"
+			}
+		},
 		"skip": {
 			"eng": "Skip",
 			"trans": "Omitir"
-		},
-		"splash": {
-			"connection": {
-				"eng": "// Connection Established",
-				"trans": "// Conexión establecida"
-			},
-			"sys_init": {
-				"eng": "Sys.Init_Seq.01",
-				"trans": "Inicialización del Sistema Sec. 01"
-			},
-			"welcome": {
-				"eng": "Welcome To",
-				"trans": "Bienvenido a"
-			}
 		}
 	}
 }

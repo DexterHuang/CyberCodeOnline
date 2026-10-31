@@ -3199,6 +3199,10 @@
 			"eng": "Blood Moon",
 			"trans": "Luna de Sange"
 		},
+		"donation59": {
+			"eng": "Prismatic",
+			"trans": "Prismatic"
+		},
 		"donation6": {
 			"eng": "Prestige",
 			"trans": "Prestigiu"
@@ -7143,10 +7147,20 @@
 				"trans": "Curcan prăjit"
 			}
 		},
+		"turkeyFeather": {
+			"description": {
+				"eng": "A feather shed by the runaway turkey. The Depot Tender trades Thanksgiving food and supplies for these.",
+				"trans": "O pene pierdută de curcanul scăpat. Funcționarul depozitului schimba mâncarea și proviziile de Ziua Recunoștinței pe aceste pene."
+			},
+			"name": {
+				"eng": "Turkey Feather",
+				"trans": "Moaie de curcan"
+			}
+		},
 		"turkeyRunPass": {
 			"description": {
-				"eng": "Entry to Turkey on the Run during Thanksgiving. Found in dungeon crates and through Deploy farm bot.",
-				"trans": "Intrare la Fuga Curcanului în timpul Zilei Recunoștinței. Se găsește în cutiile din deznodăminte și prin deplierea robotului de fermă."
+				"eng": "Entry to Turkey on the Run during Thanksgiving.",
+				"trans": "Acces la Turkey on the Run în timpul Zilei Mulțumirii."
 			},
 			"name": {
 				"eng": "Turkey Run Pass",
@@ -9451,6 +9465,85 @@
 			"title": {
 				"eng": "Data Stream Interceptor",
 				"trans": "Interceptor de Flux de Date"
+			}
+		},
+		"gyroLock": {
+			"containment": {
+				"eng": "CONTAINMENT",
+				"trans": "INCAPSULARE"
+			},
+			"fail": {
+				"description": {
+					"eng": "The vault re-sealed before all three seals were set.",
+					"trans": "Seiful s-a resigilat înainte ca toate cele trei sigilii să fie activate."
+				},
+				"retry": {
+					"eng": "Retry breach",
+					"trans": "Reia pătrunderea"
+				},
+				"status": {
+					"eng": "BREACH FAILED",
+					"trans": "INCURSIONE EȘUATĂ"
+				},
+				"title": {
+					"eng": "Containment reset",
+					"trans": "Conținere resetată"
+				}
+			},
+			"hint": {
+				"eng": "Touch and drag to rotate",
+				"trans": "Atinge si trage pentru a roti"
+			},
+			"instruction": {
+				"eng": "Drag around the dial. The ring steadies near the lock point. Hold it there to set the seal.",
+				"trans": "Trage în jurul cadranului. Inelul se stabilizează lângă punctul de blocare. Ține-l acolo pentru a fixa sigiliul."
+			},
+			"status": {
+				"breached": {
+					"eng": "BREACHED",
+					"trans": "COMPROMIS"
+				},
+				"reset": {
+					"eng": "RESET",
+					"trans": "RESETARE"
+				},
+				"seal": {
+					"eng": "SEAL ${current}/${total}",
+					"trans": "SEAL ${current}/${total}",
+					"vars": [
+						"current",
+						"GyroLockConfig.SEAL_COUNT)",
+						"total"
+					]
+				}
+			},
+			"success": {
+				"status": {
+					"eng": "VAULT OPEN",
+					"trans": "SEIF DESCHIS"
+				},
+				"title": {
+					"eng": "Breach complete",
+					"trans": "Penetrare finalizată"
+				}
+			},
+			"title": {
+				"eng": "Gyro Lock",
+				"trans": "Blocare giroscop"
+			},
+			"vaultId": {
+				"eng": "VAULT ${id}",
+				"trans": "SEIF ${id}",
+				"vars": [
+					"id"
+				]
+			},
+			"window": {
+				"eng": "WINDOW ±${degrees}°",
+				"trans": "Fereastră ±${degrees}°",
+				"vars": [
+					"degrees"
+				]
 			}
 		},
 		"hexBuffer": {
@@ -12034,12 +12127,14 @@
 		"thanksgiving": {
 			"defaultLines": {
 				"eng": [
-					"Dinner has escaped. The butcher is not taking it well.",
-					"Bring a Turkey Run Pass. Grab the corn. Avoid becoming dinner."
+					"Dinner has escaped. The chef is not taking it well.",
+					"Bring a Turkey Run Pass. Grab the corn. Avoid becoming dinner.",
+					"Turkey feathers! Bring me the feathers and I'll trade you a proper dinner."
 				],
 				"trans": [
-					"Cina a scăpat. Macelarul nu primește bine.",
-					"Adu un bilet la Cursa cu Curcani. Ia porumbul. Evită să devii cină."
+					"Cina a fugit. Bucătarul e supărat.",
+					"Adu un bilet pentru Alergarea Curcanului. Adună porumbul. Evită să fii mâncat.",
+					"Pene de curcan! Adu-mi penele și-ți ofer în schimb o cină ca lumea."
 				]
 			},
 			"name": {
@@ -16862,6 +16957,12 @@
 				"trans": "Jocul e super distractiv. Îmi place cât de implicată este comunitatea, mai ales când vine vorba de salturile globale și buff‑urile. Simplu, dar fără să fie prea solicitant."
 			}
 		},
+		"review11": {
+			"quote": {
+				"eng": "I LOVE the global system! Whenever someone makes a purchase it benefits everyone on the server. One of the very few mobile games I've ever spent money on",
+				"trans": "Ador sistemul global! De fiecare dată când cineva face o achiziție, toată lumea de pe server are de câștigat. E unul dintre cele mai puține jocuri mobile pentru care am cheltuit bani vreodată"
+			}
+		},
 		"review2": {
 			"quote": {
 				"eng": "I love that the buffs benefit everyone playing the game. It's a new vibe to me - I'm used to using buffs for myself! Highly recommended for playing in your leisure time.",
@@ -16912,38 +17013,57 @@
 		}
 	},
 	"thanksgivingPromo": {
-		"desc1": {
-			"eng": "During event period, Roasted Turkey will drop rarely from scavenging and AKF Bot on all levels",
-			"trans": "În perioada evenimentului, Turcia prăjită va scădea rar de la Scavenging și AKF BOT la toate nivelurile"
+		"contentLabel": {
+			"eng": "Event Content",
+			"trans": "Conținutul evenimentului"
 		},
-		"desc2": {
-			"eng": "When a Roasted Turkey is consumed, you will get +20% EXP on AFK tasks for 20 minutes",
-			"trans": "Când se consumă un curcan prăjit, veți primi +20% EXP la sarcinile AFK timp de 20 de minute"
+		"description": {
+			"eng": "Outrun the chef in Turkey on the Run, gather Turkey Feathers, and trade with ${npc}.",
+			"trans": "Fugi în fața bucătarului în Curcanul pe fugă, colectează pene de curcan și schimbă-te cu ${npc}.",
+			"vars": [
+				"npc"
+			]
 		},
-		"footnote1": {
-			"eng": "Please note that the EXP bonus check is at AFK completion time, so you must have the Roasted Turkey buff active at the time of completion to receive the bonus.",
-			"trans": "Vă rugăm să rețineți că verificarea bonusului EXP este la momentul de finalizare AFK, așa că trebuie să aveți activitatea tamponului de curcan prăjit în momentul finalizării pentru a primi bonusul."
+		"donation": {
+			"eng": "During Thanksgiving, time-limited donation tiers and the Turkey emblem are available.",
+			"trans": "Cu ocazia Zilei Recunoștinței, nivelurile de donație cu durată limitată și insigna Curcanul sunt disponibile."
 		},
-		"footnote2": {
-			"eng": "This effect will stack with other EXP bonus, and will only affect AFK tasks; tasks that does not have AFK timers will not be affected.",
-			"trans": "Acest efect se va stiva cu un alt bonus EXP și va afecta doar sarcinile AFK; Sarcinile care nu au cronometre AFK nu vor fi afectate."
+		"eyebrow": {
+			"eng": "Limited-time Event",
+			"trans": "Eveniment cu durată limitată"
 		},
-		"title": {
-			"eng": "Happy Thanksgiving!",
-			"trans": "Ziua Recunoștinței fericită!"
+		"titleV2": {
+			"eng": "Thanksgiving",
+			"trans": "Ziua Recunoștinței"
+		},
+		"turkeyBuff": {
+			"eng": "Trade Turkey Feathers for a ${turkey} at the ${depot}. Consume it for +20% AFK EXP for 20 minutes.",
+			"trans": "Schimbă penele de curcan pentru un ${turkey} la ${depot}. Consumă-l pentru +20% EXP AFK timp de 20 de minute.",
+			"vars": [
+				"turkey",
+				"depot"
+			]
+		},
+		"turkeyBuffRule": {
+			"eng": "Only AFK tasks count, and the buff must still be active when the task completes. Stacks with other EXP bonuses.",
+			"trans": "Doar taskurile AFK contează, iar bufful trebuie să fie încă activ la completarea taskului. Se cumulează cu alte bonusuri de EXP."
 		}
 	},
 	"thanksgivingPromoSmall": {
-		"desc": {
-			"eng": "Consume delicious turkey to get +${percent}% EXP on AFK tasks",
-			"trans": "Consumați Turcia delicioasă pentru a obține +${percent}% Exp pe sarcinile AFK",
+		"description": {
+			"eng": "Outrun the chef. Trade feathers with ${npc}.",
+			"trans": "Scapă de bucătar. Fă schimb de pene cu ${npc}.",
 			"vars": [
-				"percent"
+				"npc"
 			]
 		},
-		"title": {
-			"eng": "Thanksgiving event",
-			"trans": "Eveniment de Ziua Recunoștinței"
+		"eyebrow": {
+			"eng": "Limited-time Event",
+			"trans": "Eveniment cu durată limitată"
+		},
+		"titleV2": {
+			"eng": "Thanksgiving",
+			"trans": "Ziua Recunoștinței"
 		}
 	},
 	"thiefPromo": {
@@ -17274,6 +17394,31 @@
 		}
 	},
 	"turkeyRun": {
+		"banner": {
+			"cleared": {
+				"eng": "Stage ${stage} clear",
+				"trans": "Etapa ${stage} finalizată",
+				"vars": [
+					"stage"
+				]
+			},
+			"clearedDetail": {
+				"eng": "Tier ${tier} secured · Entering ${name}",
+				"trans": "Nivelul ${tier} securizat · Intrare în ${name}",
+				"vars": [
+					"tier",
+					"name"
+				]
+			},
+			"escaped": {
+				"eng": "Escaped!",
+				"trans": "Scăpat!"
+			},
+			"escapedDetail": {
+				"eng": "Tier 5 secured. The chef gives up.",
+				"trans": "Nivelul 5 securizat. Bucătarul se dă bătut."
+			}
+		},
 		"close": {
 			"eng": "Close",
 			"trans": "Inchide"
@@ -17295,6 +17440,13 @@
 			}
 		},
 		"hud": {
+			"clearAt": {
+				"eng": "Clear at ${count} corn cobs",
+				"trans": "Se completează la ${count} ciori de porumb",
+				"vars": [
+					"count"
+				]
+			},
 			"corn": {
 				"eng": "${count} corn cobs",
 				"trans": "${count} codobori de porumb",
@@ -17309,9 +17461,12 @@
 					"distance"
 				]
 			},
-			"endless": {
-				"eng": "Endless — tier capped at 5",
-				"trans": "Infinit — nivel limitat la 5"
+			"escapeAt": {
+				"eng": "Escape at ${count} corn cobs",
+				"trans": "Eliberare la ${count} urechi de porumb",
+				"vars": [
+					"count"
+				]
 			},
 			"heartsLeft": {
 				"eng": "${count} hearts",
@@ -17320,12 +17475,9 @@
 					"count"
 				]
 			},
-			"nextStage": {
-				"eng": "Next stage at ${count} corn cobs",
-				"trans": "Etapa următoare la ${count} ciori",
-				"vars": [
-					"count"
-				]
+			"noTier": {
+				"eng": "No tier secured",
+				"trans": "Fără nivel securizat"
 			},
 			"oneHitLeft": {
 				"eng": "One hit left",
@@ -17338,9 +17490,9 @@
 					"stage"
 				]
 			},
-			"tier": {
-				"eng": "Tier ${tier} of 5",
-				"trans": "Rangul ${tier} din 5",
+			"tierSecured": {
+				"eng": "Tier ${tier} secured",
+				"trans": "Nivelul ${tier} securizat",
 				"vars": [
 					"tier"
 				]
@@ -17351,112 +17503,13 @@
 				"eng": "Event closed",
 				"trans": "Eveniment închis"
 			},
-			"corn": {
-				"eng": "Collect golden corn.",
-				"trans": "Colectează porumb auriu."
+			"getPasses": {
+				"eng": "Get passes",
+				"trans": "Obține permise de acces"
 			},
-			"cornDetail": {
-				"eng": "Corn cobs add up through the whole run and are never spent. Reaching a corn total opens the next stage with no pause: ${stages}. Short of corn, the current stage keeps going.",
-				"trans": "Ciobanii de porumb se acumulează pe parcursul întregii curse și nu sunt cheltuiți. Atingerea unui total de porumb deschide etapa următoare fără pauză: ${stages}. Dacă porumbul e insuficient, etapa curentă continuă.",
-				"vars": [
-					"stages"
-				]
-			},
-			"cost": {
-				"eng": "One pass is consumed when your result is submitted, even if you earn no reward tier. You can pause, but cannot exit during the chase.",
-				"trans": "Se consumă un permis la transmiterea rezultatului, chiar dacă nu obții niciun nivel de recompensă. Poți face pauză, dar nu poți ieși în timpul vânătorii."
-			},
-			"dodge": {
-				"eng": "Dodge.",
-				"trans": "Evită."
-			},
-			"dodgeDetail": {
-				"eng": "Swipe left or right (or press the left/right arrow keys) to change lanes. Low crates need a swipe up or the up arrow key to jump; overhead beams need a swipe down or the down arrow key to slide; big freight blocks must be dodged.",
-				"trans": "Glisează la stânga sau dreapta (sau apasă săgețile stânga/dreapta) pentru a schimba banda. Pentru cutiile joase, glisează în sus sau apasă săgeata de sus ca să sari; pentru grinzele de deasupra, glisează în jos sau apasă săgeata de jos ca să aluneci; blocurile mari de marfă trebuie evitate."
-			},
-			"endless": {
-				"eng": "${count}+ endless",
-				"trans": "${count}+ infinit",
-				"vars": [
-					"count"
-				]
-			},
-			"hazards": {
-				"eng": "Watch the road.",
-				"trans": "Fii atent la drum."
-			},
-			"hazardsDetail": {
-				"eng": "From stage 2, scattered puddles lock controls for one second. Slipping does not cost a heart, but hitting traffic during the spin does. Stage 3 adds bombs, stage 4 crossing carts, and stage 5 warning-lit steam vents. Jump or change lanes to avoid them.",
-				"trans": "Din etapa 2, betele de apă împrăștiate blochează controlul pe o secundă. Alunecarea nu îți ia o inimă, dar lovirea traficului în timpul rotirii îți ia una. Etapa 3 adaugă bombe, etapa 4 căruțe care traversează, iar etapa 5 supape de abur semnalizate. Sari sau schimbă benzile pentru a le evita."
-			},
-			"needPass": {
-				"eng": "Need a pass",
-				"trans": "Ai nevoie de un permis"
-			},
-			"passCount": {
-				"eng": "Passes: ${count}",
-				"trans": "Treceri: ${count}",
-				"vars": [
-					"count"
-				]
-			},
-			"powerUp": {
-				"eng": "Risk the 2× detour.",
-				"trans": "Riscă ocolirea x2."
-			},
-			"powerUpDetail": {
-				"eng": "Rare 2× power-ups appear from stage 3 off the main route. They double corn for 5 seconds; another pickup refreshes the timer without stacking.",
-				"trans": "Puteri rare 2x apar de la etapa 3, în afara rutei principale. Dublează porumbul timp de 5 secunde; un alt obiect de colectat reîncarcă cronometrul fără a se cumula."
-			},
-			"rewards": {
-				"eng": "Earn tiers.",
-				"trans": "Câștigă trepte."
-			},
-			"rewardsDetail": {
-				"eng": "Corn totals of ${tiers} unlock reward tiers 1–5, separately from stage entry. You can earn the top reward before reaching stage 5. The last stage runs endlessly until capture, but rewards never go past tier 5.",
-				"trans": "Totalul de porumb de ${tiers} deblochează nivelurile de recompense 1-5, separat de intrarea în etape. Poți obține recompensa maximă înainte să ajungi la etapa 5. Etapa finală continuă la infinit până la capturare, dar recompensele nu depășesc nivelul 5.",
-				"vars": [
-					"tiers"
-				]
-			},
-			"roofs": {
-				"eng": "Take the high route.",
-				"trans": "Ia traseul de sus."
-			},
-			"roofsDetail": {
-				"eng": "Expect jump, slide and lane-change combinations from the start. From stage 2, judge roof gaps yourself: corn does not mark where to jump. Stages 4 and 5 chain roof transfers with hazards on landing.",
-				"trans": "Așteaptă-te la combinații de săritură, glisadă și schimbare de bandă încă de la început. De la etapa 2, evaluează singur spațiile dintre acoperișuri: porumbul nu indică unde să sari. Etapele 4 și 5 lansează transferuri în lanț între acoperișuri, cu obstacole la aterizare."
-			},
-			"stageEntry": {
-				"eng": "${count} corn cobs",
-				"trans": "${count} codobori de porumb",
-				"vars": [
-					"count"
-				]
-			},
-			"stageRow": {
-				"eng": "Stage ${stage}: ${name}",
-				"trans": "Etapă ${stage}: ${name}",
-				"vars": [
-					"stage",
-					"name"
-				]
-			},
-			"start": {
-				"eng": "Start the run",
-				"trans": "Pornește alergarea"
-			},
-			"summary": {
-				"eng": "Escape the chef from the freight outskirts to the city centre. Grab golden corn, dodge the traffic, and don't get caught.",
-				"trans": "Fugi de bucătar din periferia cargo spre centrul orașului. Adună porumb auriu, evită traficul și nu te lăsa prins."
-			},
-			"survive": {
-				"eng": "Avoid getting caught.",
-				"trans": "Evită prinderea."
-			},
-			"surviveDetail": {
-				"eng": "Start with three hearts and hold up to four. Each hit costs one heart and gives you a brief recovery window. More hearts keep the chef farther away; losing one brings him closer. Stages 3, 4 and 5 each contain one randomly placed recovery heart. Miss it and it is gone.",
-				"trans": "Începi cu trei inimi și poți avea până la patru. Fiecare lovitură îți ia o inimă și îți oferă un interval scurt de recuperare. Cu cât ai mai multe inimi, bucătarul rămâne mai departe. Dacă pierzi una, se apropie. Etapele 3, 4 și 5 conțin câte o inimă de recuperare plasată aleatoriu. Dacă o ratezi, dispare."
+			"play": {
+				"eng": "Play",
+				"trans": "Joacă"
 			}
 		},
 		"loadError": {
@@ -17487,16 +17540,20 @@
 		},
 		"results": {
 			"caught": {
-				"eng": "Caught by the butcher",
-				"trans": "Prins de măcelar"
+				"eng": "Caught by the chef",
+				"trans": "Prins de bucătar"
+			},
+			"escaped": {
+				"eng": "You escaped!",
+				"trans": "Ai scăpat!"
 			},
 			"inbox": {
 				"eng": "Your tier is secured. Rewards were sent to your item inbox.",
 				"trans": "Rangul tău este securizat. Recompensele au fost trimise în cutia ta de obiecte."
 			},
 			"noTier": {
-				"eng": "Fewer than ${count} corn cobs means no reward tier. One pass was used.",
-				"trans": "Mai puțin de ${count} ciori de porumb înseamnă lipsa unui nivel de recompensă. A fost folosit un acces.",
+				"eng": "Clear stage 1 at ${count} corn cobs to secure a reward tier. One pass was used.",
+				"trans": "Finalizează etapa 1 la ${count} cocoloși de porumb pentru a obține un rang de recompense. S-a folosit o trecere.",
 				"vars": [
 					"count"
 				]
@@ -17523,6 +17580,23 @@
 			"unconfirmedDetail": {
 				"eng": "The run could not be confirmed. Check your pass balance and item inbox before starting another run.",
 				"trans": "Încercarea nu a putut fi confirmată. Verifică soldul pasului și cutia cu articole înainte de a începe o altă încercare."
+			}
+		},
+		"splash": {
+			"passCost": {
+				"eng": "${name} · 1 per run",
+				"trans": "${name} · 1 pe rulare",
+				"vars": [
+					"name"
+				]
+			},
+			"titleBottom": {
+				"eng": "on the Run",
+				"trans": "pe fugă"
+			},
+			"titleTop": {
+				"eng": "Turkey",
+				"trans": "Curca"
 			}
 		},
 		"stage": {
@@ -18067,6 +18141,12 @@
 			}
 		},
 		"battle": {
+			"attackBar": {
+				"max": {
+					"eng": "MAX",
+					"trans": "MAX"
+				}
+			},
 			"attackButton": {
 				"primary": {
 					"title": {
@@ -20245,10 +20325,10 @@
 				"trans": "Termenii serviciului"
 			}
 		},
-		"rewardActionConfirmModal": {
+		"rewardActionCaptchaModal": {
 			"title": {
-				"eng": "Drag all processes icons into to the box entirely to initiate the task",
-				"trans": "Trage toate icoanele proceselor în cutie complet pentru a iniția sarcina"
+				"eng": "Complete the check to start the task",
+				"trans": "Finalizează verificarea pentru a începe misiunea"
 			}
 		},
 		"richInput": {
@@ -20294,6 +20374,16 @@
 				"title": {
 					"eng": "Animated NPC Character",
 					"trans": "NPC Animat"
+				}
+			},
+			"attackEffects": {
+				"description": {
+					"eng": "Hit effects on enemies and the timing bar. Turn off if combat lags",
+					"trans": "Efecte la lovire asupra inamicilor și a barei de sincronizare. Dezactivează dacă lupta are laguri"
+				},
+				"title": {
+					"eng": "Attack Effects",
+					"trans": "Efecte de atac"
 				}
 			},
 			"backgroundMusicVolume": {
@@ -21095,63 +21185,27 @@
 	},
 	"welcome": {
 		"afk": {
+			"beat": {
+				"away": {
+					"eng": "Log off, it keeps running",
+					"trans": "Deconectează-te, continuă să ruleze"
+				},
+				"theirSkip": {
+					"eng": "Someone skips, you jump ahead",
+					"trans": "Cineva sare, tu avansezi"
+				},
+				"yourSkip": {
+					"eng": "Your skip helps everyone",
+					"trans": "Saltul tău ajută pe toți"
+				}
+			},
+			"body": {
+				"eng": "Tasks keep running while you're offline, and when someone skips, every player's task speeds up.",
+				"trans": "Sarcinile continuă să progreseze când ești offline, iar când cineva sare peste, sarcina fiecărui jucător avansează mai repede."
+			},
 			"headline": {
 				"eng": "Progress While Offline",
 				"trans": "Progres Offline"
-			},
-			"sentence": {
-				"eng": "Start a task before logging off to continue gathering resources and leveling up in the background.",
-				"trans": "Lansează o sarcină înainte de deconectare pentru a continua colectarea resurselor și creșterea nivelului pe fundal."
-			}
-		},
-		"animation": {
-			"asset": {
-				"eng": "Asset",
-				"trans": "Resursă"
-			},
-			"autotask": {
-				"eng": "AUTOTASK",
-				"trans": "SARCINĂ AUTOMATIZATĂ"
-			},
-			"buy": {
-				"eng": "EXECUTE: BUY",
-				"trans": "EXECUTĂ: CUMPĂRĂ"
-			},
-			"chat1": {
-				"eng": "LFG Abandoned Factory, need healer.",
-				"trans": "Caut grup pentru Fabrică Abandonată, am nevoie de healer."
-			},
-			"chat2": {
-				"eng": "Inv, I got medkits.",
-				"trans": "Inv, am medkit-uri."
-			},
-			"chat3": {
-				"eng": "Global Buff Activated by Kael",
-				"trans": "Buff global activat de Kael"
-			},
-			"efficiency": {
-				"eng": "Efficiency",
-				"trans": "Eficiență"
-			},
-			"price": {
-				"eng": "Lowest Price",
-				"trans": "Preț minim"
-			},
-			"reverse_engineering": {
-				"eng": "REVERSE_ENGINEERING",
-				"trans": "INGINERIE INVERSĂ"
-			},
-			"system": {
-				"eng": "System:",
-				"trans": "Sistem:"
-			},
-			"waiting": {
-				"eng": "WAITING FOR ORDERS...",
-				"trans": "Aștept comenzile..."
-			},
-			"yield_acquired": {
-				"eng": "YIELD ACQUIRED",
-				"trans": "Randament obținut"
 			}
 		},
 		"cta": {
@@ -21165,13 +21219,27 @@
 			}
 		},
 		"economy": {
+			"beat": {
+				"buy": {
+					"eng": "You buy one",
+					"trans": "Cumperi unul"
+				},
+				"list": {
+					"eng": "Players craft & list",
+					"trans": "Jucătorii fabrică și listează"
+				},
+				"pay": {
+					"eng": "Coins go to its maker",
+					"trans": "Monedele ajung la creatorul piesei"
+				}
+			},
+			"body": {
+				"eng": "Everything on the market is made and sold by players, so your coins go to them.",
+				"trans": "Totul de pe piață este creat și vândut de jucători, așa că monedele tale ajung la ei."
+			},
 			"headline": {
 				"eng": "Player-Driven Economy",
 				"trans": "Economie condusă de jucători"
-			},
-			"sentence": {
-				"eng": "Every item in the market is crafted and traded by real players like you.",
-				"trans": "Fiecare obiect din piață este creat și tranzacționat de jucători reali, ca tine."
 			}
 		},
 		"error": {
@@ -21189,13 +21257,51 @@
 			}
 		},
 		"fairness": {
+			"beat": {
+				"deploy": {
+					"eng": "Someone deploys a buff",
+					"trans": "Cineva activează un avantaj"
+				},
+				"share": {
+					"eng": "Every player gets it",
+					"trans": "Toți jucătorii o primesc"
+				},
+				"you": {
+					"eng": "You get it too",
+					"trans": "Și tu ai obținut"
+				}
+			},
+			"body": {
+				"eng": "When someone deploys a buff, every player on the server gets it, including you.",
+				"trans": "Când cineva activează o îmboldire, toți jucătorii de pe server o primesc, inclusiv tu."
+			},
 			"headline": {
 				"eng": "Zero Pay-To-Win",
 				"trans": "Fără avantaje cumpărate"
+			}
+		},
+		"gear": {
+			"beat": {
+				"calibrate": {
+					"eng": "Calibrate to push further",
+					"trans": "Calibrează pentru a merge mai departe"
+				},
+				"roll": {
+					"eng": "Every drop rolls",
+					"trans": "Fiecare drop se derulează"
+				},
+				"unique": {
+					"eng": "One of a kind",
+					"trans": "Unic"
+				}
 			},
-			"sentence": {
-				"eng": "All premium buffs are shared globally across the server. When someone supports the game, the entire community benefits and progresses together.",
-				"trans": "Toate buff-urile premium sunt active la nivel global pe tot serverul. Când cineva susține jocul, întreaga comunitate beneficiază și avansează împreună."
+			"body": {
+				"eng": "Every drop rolls its own tier and stats, and calibration pushes it even further.",
+				"trans": "Fiecare obiect dobândit are propriile valori aleatorii de treaptă și statistici, iar calibrarea îl împinge dincolo de orice limită."
+			},
+			"headline": {
+				"eng": "One-of-a-Kind Gear",
+				"trans": "Echipament Unicat"
 			}
 		},
 		"loading": {
@@ -21204,23 +21310,72 @@
 				"trans": "Inițializarea secvenței de bun venit"
 			}
 		},
+		"raid": {
+			"beat": {
+				"loot": {
+					"eng": "Loot for everyone",
+					"trans": "Pradă pentru toți"
+				},
+				"party": {
+					"eng": "Party up",
+					"trans": "Începe petrecerea"
+				},
+				"raid": {
+					"eng": "Raid the boss",
+					"trans": "Asaltează-l pe șef"
+				}
+			},
+			"body": {
+				"eng": "Team up in shared dungeons, and everyone who helps take down a boss gets their own loot.",
+				"trans": "Formați echipe în raiduri comune, iar toți cei care ajută la doborârea unui șef primesc propria lor pradă."
+			},
+			"headline": {
+				"eng": "Raid as a Squad",
+				"trans": "Raid în echipă"
+			}
+		},
+		"scene": {
+			"away": {
+				"eng": "${time} away",
+				"trans": "la ${time}",
+				"vars": [
+					"time"
+				]
+			},
+			"expBoost": {
+				"eng": "+80% EXP",
+				"trans": "+80% EXP"
+			},
+			"finishNowDescription": {
+				"eng": "Skips for every player",
+				"trans": "Sari peste pentru toți jucătorii"
+			},
+			"paid": {
+				"eng": "+1,200",
+				"trans": "+1.200"
+			},
+			"playersHelped": {
+				"eng": "${count} players helped",
+				"trans": "${count} de jucători ajutați",
+				"vars": [
+					"count"
+				]
+			},
+			"skipped": {
+				"eng": "+${time} skipped",
+				"trans": "+${time} sărit",
+				"vars": [
+					"time"
+				]
+			},
+			"you": {
+				"eng": "You",
+				"trans": "Tu"
+			}
+		},
 		"skip": {
 			"eng": "Skip",
 			"trans": "Omite"
-		},
-		"splash": {
-			"connection": {
-				"eng": "// Connection Established",
-				"trans": "/// Conexiune stabilită"
-			},
-			"sys_init": {
-				"eng": "Sys.Init_Seq.01",
-				"trans": "Sist.Iniț_Secv.01"
-			},
-			"welcome": {
-				"eng": "Welcome To",
-				"trans": "Bun ${_}_ ${_}_ venit în"
-			}
 		}
 	}
 }

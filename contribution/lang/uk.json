@@ -3199,6 +3199,10 @@
 			"eng": "Blood Moon",
 			"trans": "Кривавий Місяць"
 		},
+		"donation59": {
+			"eng": "Prismatic",
+			"trans": "Призмовий"
+		},
 		"donation6": {
 			"eng": "Prestige",
 			"trans": "Престиж"
@@ -7143,10 +7147,20 @@
 				"trans": "Смажена індичка"
 			}
 		},
+		"turkeyFeather": {
+			"description": {
+				"eng": "A feather shed by the runaway turkey. The Depot Tender trades Thanksgiving food and supplies for these.",
+				"trans": "Пірка, яку скинув втеклий індік. Депотник міняє їжу та припаси до Дня Подяки на неї."
+			},
+			"name": {
+				"eng": "Turkey Feather",
+				"trans": "Перо індіка"
+			}
+		},
 		"turkeyRunPass": {
 			"description": {
-				"eng": "Entry to Turkey on the Run during Thanksgiving. Found in dungeon crates and through Deploy farm bot.",
-				"trans": "Пропуск до події Індик у втечі на День подяки. Отримується з сундуків у підземеллі та через бота ферми розгортання."
+				"eng": "Entry to Turkey on the Run during Thanksgiving.",
+				"trans": "Вхід на Індик утікає під час Дня подяки."
 			},
 			"name": {
 				"eng": "Turkey Run Pass",
@@ -9451,6 +9465,85 @@
 			"title": {
 				"eng": "Data Stream Interceptor",
 				"trans": "Перехоплювач даних"
+			}
+		},
+		"gyroLock": {
+			"containment": {
+				"eng": "CONTAINMENT",
+				"trans": "ІЗОЛЯЦІЯ"
+			},
+			"fail": {
+				"description": {
+					"eng": "The vault re-sealed before all three seals were set.",
+					"trans": "Сховище знову запечаталося до того, як було встановлено всі три печатки."
+				},
+				"retry": {
+					"eng": "Retry breach",
+					"trans": "Повторити пролом"
+				},
+				"status": {
+					"eng": "BREACH FAILED",
+					"trans": "ПОРУШЕННЯ НЕ ВДАЛОСЯ"
+				},
+				"title": {
+					"eng": "Containment reset",
+					"trans": "Скидання утримання"
+				}
+			},
+			"hint": {
+				"eng": "Touch and drag to rotate",
+				"trans": "Торкніться та перетягніть, щоб повернути"
+			},
+			"instruction": {
+				"eng": "Drag around the dial. The ring steadies near the lock point. Hold it there to set the seal.",
+				"trans": "Перетягуйте по циферблату. Кільце стабілізується біля точки блокування. Утримуйте його там, щоб встановити пломбу."
+			},
+			"status": {
+				"breached": {
+					"eng": "BREACHED",
+					"trans": "ПРОРВАНО"
+				},
+				"reset": {
+					"eng": "RESET",
+					"trans": "СКИНУТИ"
+				},
+				"seal": {
+					"eng": "SEAL ${current}/${total}",
+					"trans": "SEAL ${current}/${total}",
+					"vars": [
+						"current",
+						"GyroLockConfig.SEAL_COUNT)",
+						"total"
+					]
+				}
+			},
+			"success": {
+				"status": {
+					"eng": "VAULT OPEN",
+					"trans": "СХРОН ВІДКРИТО"
+				},
+				"title": {
+					"eng": "Breach complete",
+					"trans": "Проникнення завершено"
+				}
+			},
+			"title": {
+				"eng": "Gyro Lock",
+				"trans": "Блокування гіроскопа"
+			},
+			"vaultId": {
+				"eng": "VAULT ${id}",
+				"trans": "СХОВИЩЕ ${id}",
+				"vars": [
+					"id"
+				]
+			},
+			"window": {
+				"eng": "WINDOW ±${degrees}°",
+				"trans": "ДІАПАЗОН ±${degrees}°",
+				"vars": [
+					"degrees"
+				]
 			}
 		},
 		"hexBuffer": {
@@ -12161,12 +12254,14 @@
 		"thanksgiving": {
 			"defaultLines": {
 				"eng": [
-					"Dinner has escaped. The butcher is not taking it well.",
-					"Bring a Turkey Run Pass. Grab the corn. Avoid becoming dinner."
+					"Dinner has escaped. The chef is not taking it well.",
+					"Bring a Turkey Run Pass. Grab the corn. Avoid becoming dinner.",
+					"Turkey feathers! Bring me the feathers and I'll trade you a proper dinner."
 				],
 				"trans": [
-					"Вечеря втекла. М'ясник погано це сприймає.",
-					"Візьми пропуск на Індичковий забіг. Забери кукурудзу. Не стань вечерєю."
+					"Вечеря втекла. Шеф погано це сприймає.",
+					"Візьми перепустку Turkey Run. Схопи кукурудзу. Не стань вечерєю.",
+					"Індиче перо! Принеси мені пір'я, і я обміняю його на гідну вечерю."
 				]
 			},
 			"name": {
@@ -17038,6 +17133,12 @@
 				"trans": "Гра – класна. Мені подобається, наскільки залучено спільноту, особливо коли йдеться про глобальні пропуски та буфери. Простий інтерфейс, але не надто вимогливий."
 			}
 		},
+		"review11": {
+			"quote": {
+				"eng": "I LOVE the global system! Whenever someone makes a purchase it benefits everyone on the server. One of the very few mobile games I've ever spent money on",
+				"trans": "Я обожнюю глобальну систему! Коли хтось щось купує, це вигідно всім на сервері. Одна з дуже небагатьох мобільних ігор, на які я колись витрачав гроші"
+			}
+		},
 		"review2": {
 			"quote": {
 				"eng": "I love that the buffs benefit everyone playing the game. It's a new vibe to me - I'm used to using buffs for myself! Highly recommended for playing in your leisure time.",
@@ -17088,38 +17189,57 @@
 		}
 	},
 	"thanksgivingPromo": {
-		"desc1": {
-			"eng": "During event period, Roasted Turkey will drop rarely from scavenging and AKF Bot on all levels",
-			"trans": "Під час періоду події смажена індичка інколи впаде від шпортання та бота AFK на всіх рівнях"
+		"contentLabel": {
+			"eng": "Event Content",
+			"trans": "Контент події"
 		},
-		"desc2": {
-			"eng": "When a Roasted Turkey is consumed, you will get +20% EXP on AFK tasks for 20 minutes",
-			"trans": "З'ївши смажену індичку, ви отримаєте +20% досвіду на завдання AFK протягом 20 хвилин"
+		"description": {
+			"eng": "Outrun the chef in Turkey on the Run, gather Turkey Feathers, and trade with ${npc}.",
+			"trans": "Перевтікни шефа під час втечі індики, збери пір'я індики та торгуйся з ${npc}.",
+			"vars": [
+				"npc"
+			]
 		},
-		"footnote1": {
-			"eng": "Please note that the EXP bonus check is at AFK completion time, so you must have the Roasted Turkey buff active at the time of completion to receive the bonus.",
-			"trans": "Зверніть увагу, що перевірка бонусів досвіду знаходиться в час завершення AFK, тому ви повинні з'їсти смажену індичку, до часу завершення завдання, щоб отримати бонус."
+		"donation": {
+			"eng": "During Thanksgiving, time-limited donation tiers and the Turkey emblem are available.",
+			"trans": "Під час Дня подяки доступні тимчасові рівні внесків та емблема Індички."
 		},
-		"footnote2": {
-			"eng": "This effect will stack with other EXP bonus, and will only affect AFK tasks; tasks that does not have AFK timers will not be affected.",
-			"trans": "Цей ефект буде сумуватися з іншим бонусом досвіду, і вплине лише на завдання AFK; Завдання, які не мають таймерів AFK, не отримуватимуть бонус."
+		"eyebrow": {
+			"eng": "Limited-time Event",
+			"trans": "Тимчасова подія"
 		},
-		"title": {
-			"eng": "Happy Thanksgiving!",
-			"trans": "Щасливого Дня Подяки!"
+		"titleV2": {
+			"eng": "Thanksgiving",
+			"trans": "День подяки"
+		},
+		"turkeyBuff": {
+			"eng": "Trade Turkey Feathers for a ${turkey} at the ${depot}. Consume it for +20% AFK EXP for 20 minutes.",
+			"trans": "Обміняй пір'я індика на ${turkey} у ${depot}. Використай його для +20% AFK EXP на 20 хвилин.",
+			"vars": [
+				"turkey",
+				"depot"
+			]
+		},
+		"turkeyBuffRule": {
+			"eng": "Only AFK tasks count, and the buff must still be active when the task completes. Stacks with other EXP bonuses.",
+			"trans": "Рахуються лише задачі в режимі AFK, а баф має бути активним на момент їхнього завершення. Сумується з іншими бонусами досвіду."
 		}
 	},
 	"thanksgivingPromoSmall": {
-		"desc": {
-			"eng": "Consume delicious turkey to get +${percent}% EXP on AFK tasks",
-			"trans": "Споживайте смачну індичку, щоб отримати +${percent}% досвіду у завданнях AFK",
+		"description": {
+			"eng": "Outrun the chef. Trade feathers with ${npc}.",
+			"trans": "Обігнай шефа. Обміняйся пір'ям з ${npc}.",
 			"vars": [
-				"percent"
+				"npc"
 			]
 		},
-		"title": {
-			"eng": "Thanksgiving event",
-			"trans": "День Подяки"
+		"eyebrow": {
+			"eng": "Limited-time Event",
+			"trans": "Тимчасова подія"
+		},
+		"titleV2": {
+			"eng": "Thanksgiving",
+			"trans": "День подяки"
 		}
 	},
 	"thiefPromo": {
@@ -17450,6 +17570,31 @@
 		}
 	},
 	"turkeyRun": {
+		"banner": {
+			"cleared": {
+				"eng": "Stage ${stage} clear",
+				"trans": "Етап ${stage} пройдено",
+				"vars": [
+					"stage"
+				]
+			},
+			"clearedDetail": {
+				"eng": "Tier ${tier} secured · Entering ${name}",
+				"trans": "Рівень ${tier} закріплено · Перехід до ${name}",
+				"vars": [
+					"tier",
+					"name"
+				]
+			},
+			"escaped": {
+				"eng": "Escaped!",
+				"trans": "Утік!"
+			},
+			"escapedDetail": {
+				"eng": "Tier 5 secured. The chef gives up.",
+				"trans": "Рівень 5 захищено. Шеф здається."
+			}
+		},
 		"close": {
 			"eng": "Close",
 			"trans": "Закрити"
@@ -17471,6 +17616,13 @@
 			}
 		},
 		"hud": {
+			"clearAt": {
+				"eng": "Clear at ${count} corn cobs",
+				"trans": "Пройде на ${count} початках кукурудзи",
+				"vars": [
+					"count"
+				]
+			},
 			"corn": {
 				"eng": "${count} corn cobs",
 				"trans": "${count} колосків кукурудзи",
@@ -17485,9 +17637,12 @@
 					"distance"
 				]
 			},
-			"endless": {
-				"eng": "Endless — tier capped at 5",
-				"trans": "Безкінечний — рівень обмежений на 5"
+			"escapeAt": {
+				"eng": "Escape at ${count} corn cobs",
+				"trans": "Втеча за ${count} качерушків",
+				"vars": [
+					"count"
+				]
 			},
 			"heartsLeft": {
 				"eng": "${count} hearts",
@@ -17496,12 +17651,9 @@
 					"count"
 				]
 			},
-			"nextStage": {
-				"eng": "Next stage at ${count} corn cobs",
-				"trans": "Наступний етап за ${count} качанів кукурудзи",
-				"vars": [
-					"count"
-				]
+			"noTier": {
+				"eng": "No tier secured",
+				"trans": "Жодного рівня не закріплено"
 			},
 			"oneHitLeft": {
 				"eng": "One hit left",
@@ -17514,9 +17666,9 @@
 					"stage"
 				]
 			},
-			"tier": {
-				"eng": "Tier ${tier} of 5",
-				"trans": "Рівень ${tier} із 5",
+			"tierSecured": {
+				"eng": "Tier ${tier} secured",
+				"trans": "Рівень ${tier} захищено",
 				"vars": [
 					"tier"
 				]
@@ -17527,112 +17679,13 @@
 				"eng": "Event closed",
 				"trans": "Подія закрита"
 			},
-			"corn": {
-				"eng": "Collect golden corn.",
-				"trans": "Зберіть золоту кукурудзу."
+			"getPasses": {
+				"eng": "Get passes",
+				"trans": "Отримати пропуски"
 			},
-			"cornDetail": {
-				"eng": "Corn cobs add up through the whole run and are never spent. Reaching a corn total opens the next stage with no pause: ${stages}. Short of corn, the current stage keeps going.",
-				"trans": "Кукурудзяні колоски накопичуються протягом усього забігу і ніколи не витрачаються. Досягнення потрібної кількості кукурудзи відкриває наступний етап без паузи: ${stages}. Якщо бракує кукурудзи, поточний етап продовжується.",
-				"vars": [
-					"stages"
-				]
-			},
-			"cost": {
-				"eng": "One pass is consumed when your result is submitted, even if you earn no reward tier. You can pause, but cannot exit during the chase.",
-				"trans": "Один пропуск витрачається при надсиланні результату, навіть без жодного рівня нагород. Під час гонитви можна поставити на паузу, але вийти неможливо."
-			},
-			"dodge": {
-				"eng": "Dodge.",
-				"trans": "Уникай."
-			},
-			"dodgeDetail": {
-				"eng": "Swipe left or right (or press the left/right arrow keys) to change lanes. Low crates need a swipe up or the up arrow key to jump; overhead beams need a swipe down or the down arrow key to slide; big freight blocks must be dodged.",
-				"trans": "Поведіть вліво або вправо (або натисніть клавіші зі стрілками вліво/вправо), щоб змінити смугу. Щоб стрибнути через низькі ящики, поведіть вгору або натисніть клавішу зі стрілкою вгору; щоб присісти під верхніми балками, поведіть вниз або натисніть клавішу зі стрілкою вниз. Великі вантажні блоки треба обходити."
-			},
-			"endless": {
-				"eng": "${count}+ endless",
-				"trans": "${count}+ безкінечний",
-				"vars": [
-					"count"
-				]
-			},
-			"hazards": {
-				"eng": "Watch the road.",
-				"trans": "Слідкуй за дорогою."
-			},
-			"hazardsDetail": {
-				"eng": "From stage 2, scattered puddles lock controls for one second. Slipping does not cost a heart, but hitting traffic during the spin does. Stage 3 adds bombs, stage 4 crossing carts, and stage 5 warning-lit steam vents. Jump or change lanes to avoid them.",
-				"trans": "Починаючи з етапу 2, розкидані калюжі блокують керування на одну секунду. Послизання не коштує серця, але зіткнення з транспортом під час обертання коштує серця. Етап 3 додає бомби, етап 4 вагонетки, що перетинають шлях, а етап 5 парові вентилі з попереджувальним світлом. Стрибай або змінюй смуги, щоб уникнути їх."
-			},
-			"needPass": {
-				"eng": "Need a pass",
-				"trans": "Потрібна перепустка"
-			},
-			"passCount": {
-				"eng": "Passes: ${count}",
-				"trans": "Пройдено: ${count}",
-				"vars": [
-					"count"
-				]
-			},
-			"powerUp": {
-				"eng": "Risk the 2× detour.",
-				"trans": "Ризикуй подвійним обходом."
-			},
-			"powerUpDetail": {
-				"eng": "Rare 2× power-ups appear from stage 3 off the main route. They double corn for 5 seconds; another pickup refreshes the timer without stacking.",
-				"trans": "Рідкісні бустери 2× з'являються від 3-го етапу поза основним маршрутом. Вони подвоюють кукурудзу на 5 секунд; повторний підбір оновлює таймер без накопичення."
-			},
-			"rewards": {
-				"eng": "Earn tiers.",
-				"trans": "Заробляй рівні."
-			},
-			"rewardsDetail": {
-				"eng": "Corn totals of ${tiers} unlock reward tiers 1–5, separately from stage entry. You can earn the top reward before reaching stage 5. The last stage runs endlessly until capture, but rewards never go past tier 5.",
-				"trans": "Загальна сума кукурудзи ${tiers} відкриває рівні винагород 1–5 окремо від входу в етап. Ви можете отримати найвищу нагороду до досягнення етапу 5. Останній етап триває безкінечно, поки вас не схоплять, але нагороди ніколи не перевищують рівень 5.",
-				"vars": [
-					"tiers"
-				]
-			},
-			"roofs": {
-				"eng": "Take the high route.",
-				"trans": "Обирай верхню доріжку."
-			},
-			"roofsDetail": {
-				"eng": "Expect jump, slide and lane-change combinations from the start. From stage 2, judge roof gaps yourself: corn does not mark where to jump. Stages 4 and 5 chain roof transfers with hazards on landing.",
-				"trans": "Очікуйте комбінації зі стрибками, слайдами та зміною смуг з самого початку. Починаючи з 2-го етапу, самі оцінюйте проміжки між дахами: кукурудза не вказує місце стрибка. На етапах 4 і 5 переходи між дахами ланцюжком супроводжуються небезпеками під час приземлення."
-			},
-			"stageEntry": {
-				"eng": "${count} corn cobs",
-				"trans": "${count} колосків кукурудзи",
-				"vars": [
-					"count"
-				]
-			},
-			"stageRow": {
-				"eng": "Stage ${stage}: ${name}",
-				"trans": "Етап ${stage}: ${name}",
-				"vars": [
-					"stage",
-					"name"
-				]
-			},
-			"start": {
-				"eng": "Start the run",
-				"trans": "Почати забіг"
-			},
-			"summary": {
-				"eng": "Escape the chef from the freight outskirts to the city centre. Grab golden corn, dodge the traffic, and don't get caught.",
-				"trans": "Втікни від шефа з вантових окраїн до центру міста. Збирай золоту кукурудзу, ухиляйся від транспорту та не дай себе спіймати."
-			},
-			"survive": {
-				"eng": "Avoid getting caught.",
-				"trans": "Не давай себе спіймати"
-			},
-			"surviveDetail": {
-				"eng": "Start with three hearts and hold up to four. Each hit costs one heart and gives you a brief recovery window. More hearts keep the chef farther away; losing one brings him closer. Stages 3, 4 and 5 each contain one randomly placed recovery heart. Miss it and it is gone.",
-				"trans": "На старті три серця, максимум чотири. Кожен удар віднімає одне серце та дає коротке вікно відновлення. Більше сердець тримають шефа подалі, а втрата одного наближає його. Кожен із етапів 3, 4 і 5 містить одне випадково розташоване серце відновлення. Якщо пропустите, воно зникне."
+			"play": {
+				"eng": "Play",
+				"trans": "Грати"
 			}
 		},
 		"loadError": {
@@ -17663,16 +17716,20 @@
 		},
 		"results": {
 			"caught": {
-				"eng": "Caught by the butcher",
-				"trans": "Схоплено м'ясником"
+				"eng": "Caught by the chef",
+				"trans": "Зловив шеф"
+			},
+			"escaped": {
+				"eng": "You escaped!",
+				"trans": "Ви втекли!"
 			},
 			"inbox": {
 				"eng": "Your tier is secured. Rewards were sent to your item inbox.",
 				"trans": "Ваш ранг зафіксовано. Нагороди надіслано до вашої предметної пошти."
 			},
 			"noTier": {
-				"eng": "Fewer than ${count} corn cobs means no reward tier. One pass was used.",
-				"trans": "Менше за ${count} початків кукурудзи означає, що немає рівня нагороди. Використано один прохід.",
+				"eng": "Clear stage 1 at ${count} corn cobs to secure a reward tier. One pass was used.",
+				"trans": "Пройди етап 1 за ${count} качанів кукурудзи, щоб отримати рівень нагороди. Використано один прохід.",
 				"vars": [
 					"count"
 				]
@@ -17699,6 +17756,23 @@
 			"unconfirmedDetail": {
 				"eng": "The run could not be confirmed. Check your pass balance and item inbox before starting another run.",
 				"trans": "Спробу не вдалося підтвердити. Перевірте баланс пропуску та пошту з предметами, перш ніж почати нову спробу."
+			}
+		},
+		"splash": {
+			"passCost": {
+				"eng": "${name} · 1 per run",
+				"trans": "${name} · 1 на пробіг",
+				"vars": [
+					"name"
+				]
+			},
+			"titleBottom": {
+				"eng": "on the Run",
+				"trans": "На втечі"
+			},
+			"titleTop": {
+				"eng": "Turkey",
+				"trans": "Індиця"
 			}
 		},
 		"stage": {
@@ -18243,6 +18317,12 @@
 			}
 		},
 		"battle": {
+			"attackBar": {
+				"max": {
+					"eng": "MAX",
+					"trans": "МАКС"
+				}
+			},
 			"attackButton": {
 				"primary": {
 					"title": {
@@ -20421,10 +20501,10 @@
 				"trans": "Умови використання"
 			}
 		},
-		"rewardActionConfirmModal": {
+		"rewardActionCaptchaModal": {
 			"title": {
-				"eng": "Drag all processes icons into to the box entirely to initiate the task",
-				"trans": "Перетягніть усі іконки процесів у коробку повністю, щоб розпочати завдання"
+				"eng": "Complete the check to start the task",
+				"trans": "Завершіть перевірку для запуску завдання"
 			}
 		},
 		"richInput": {
@@ -20470,6 +20550,16 @@
 				"title": {
 					"eng": "Animated NPC Character",
 					"trans": ".."
+				}
+			},
+			"attackEffects": {
+				"description": {
+					"eng": "Hit effects on enemies and the timing bar. Turn off if combat lags",
+					"trans": "Ефекти попадань на ворогах та часовій смужці. Вимкніть, якщо бій лагає"
+				},
+				"title": {
+					"eng": "Attack Effects",
+					"trans": "Ефекти атак"
 				}
 			},
 			"backgroundMusicVolume": {
@@ -21271,63 +21361,27 @@
 	},
 	"welcome": {
 		"afk": {
+			"beat": {
+				"away": {
+					"eng": "Log off, it keeps running",
+					"trans": "Вийдіть, процес продовжується"
+				},
+				"theirSkip": {
+					"eng": "Someone skips, you jump ahead",
+					"trans": "Хтось пропускає, ви проскакуєте вперед"
+				},
+				"yourSkip": {
+					"eng": "Your skip helps everyone",
+					"trans": "Твій пропуск допомагає всім"
+				}
+			},
+			"body": {
+				"eng": "Tasks keep running while you're offline, and when someone skips, every player's task speeds up.",
+				"trans": "Задачі продовжують виконуватися, поки ви офлайн, а коли хтось пропускає, задачі всіх гравців прискорюються."
+			},
 			"headline": {
 				"eng": "Progress While Offline",
 				"trans": "Прогрес під час офлайну"
-			},
-			"sentence": {
-				"eng": "Start a task before logging off to continue gathering resources and leveling up in the background.",
-				"trans": "Розпочніть завдання перед виходом, щоб продовжувати збирати ресурси та підвищувати рівень у фоновому режимі."
-			}
-		},
-		"animation": {
-			"asset": {
-				"eng": "Asset",
-				"trans": "Ресурс"
-			},
-			"autotask": {
-				"eng": "AUTOTASK",
-				"trans": "АВТОЗАВДАННЯ"
-			},
-			"buy": {
-				"eng": "EXECUTE: BUY",
-				"trans": "ВИКОНАТИ: КУПИТИ"
-			},
-			"chat1": {
-				"eng": "LFG Abandoned Factory, need healer.",
-				"trans": "Шукаю групу на закинуту фабрику, потрібен лікувальник."
-			},
-			"chat2": {
-				"eng": "Inv, I got medkits.",
-				"trans": "Інв, у мене є аптечки."
-			},
-			"chat3": {
-				"eng": "Global Buff Activated by Kael",
-				"trans": "Глобальний бафф активовано Кейлом"
-			},
-			"efficiency": {
-				"eng": "Efficiency",
-				"trans": "Ефективність"
-			},
-			"price": {
-				"eng": "Lowest Price",
-				"trans": "Найнижча ціна"
-			},
-			"reverse_engineering": {
-				"eng": "REVERSE_ENGINEERING",
-				"trans": "ЗВОРОТНА ІНЖЕНЕРІЯ"
-			},
-			"system": {
-				"eng": "System:",
-				"trans": "Система:"
-			},
-			"waiting": {
-				"eng": "WAITING FOR ORDERS...",
-				"trans": "ОЧІКУВАННЯ НА КОМАНДИ..."
-			},
-			"yield_acquired": {
-				"eng": "YIELD ACQUIRED",
-				"trans": "ОТРИМАНО ВИХІД"
 			}
 		},
 		"cta": {
@@ -21341,13 +21395,27 @@
 			}
 		},
 		"economy": {
+			"beat": {
+				"buy": {
+					"eng": "You buy one",
+					"trans": "Ви купуєте один"
+				},
+				"list": {
+					"eng": "Players craft & list",
+					"trans": "Гравці виготовляють і виставляють"
+				},
+				"pay": {
+					"eng": "Coins go to its maker",
+					"trans": "Монети переходять автору"
+				}
+			},
+			"body": {
+				"eng": "Everything on the market is made and sold by players, so your coins go to them.",
+				"trans": "Усе на ринку створюють і продають гравці, тому ваші монети потрапляють до них."
+			},
 			"headline": {
 				"eng": "Player-Driven Economy",
 				"trans": "Економіка під контролем гравців"
-			},
-			"sentence": {
-				"eng": "Every item in the market is crafted and traded by real players like you.",
-				"trans": "Кожен предмет на ринку виготовляють і продають реальні гравці, такі як ви."
 			}
 		},
 		"error": {
@@ -21365,13 +21433,51 @@
 			}
 		},
 		"fairness": {
+			"beat": {
+				"deploy": {
+					"eng": "Someone deploys a buff",
+					"trans": "Хтось застосовує баф"
+				},
+				"share": {
+					"eng": "Every player gets it",
+					"trans": "Доступно кожному гравцю"
+				},
+				"you": {
+					"eng": "You get it too",
+					"trans": "Ти теж це розумієш"
+				}
+			},
+			"body": {
+				"eng": "When someone deploys a buff, every player on the server gets it, including you.",
+				"trans": "Коли хтось активує баф, його отримують усі гравці на сервері, включно з тобою."
+			},
 			"headline": {
 				"eng": "Zero Pay-To-Win",
 				"trans": "Жодної плати за перемогу"
+			}
+		},
+		"gear": {
+			"beat": {
+				"calibrate": {
+					"eng": "Calibrate to push further",
+					"trans": "Відкалібруй і просунься далі"
+				},
+				"roll": {
+					"eng": "Every drop rolls",
+					"trans": "Кожна крапля кочеться"
+				},
+				"unique": {
+					"eng": "One of a kind",
+					"trans": "Унікальний"
+				}
 			},
-			"sentence": {
-				"eng": "All premium buffs are shared globally across the server. When someone supports the game, the entire community benefits and progresses together.",
-				"trans": "Усі преміальні бустери доступні всім гравцям на сервері. Коли хтось підтримує гру, вся спільнота отримує вигоду й розвивається разом."
+			"body": {
+				"eng": "Every drop rolls its own tier and stats, and calibration pushes it even further.",
+				"trans": "Кожен дроп має власний рівень і характеристики, а калібрування піднімає їх ще вище."
+			},
+			"headline": {
+				"eng": "One-of-a-Kind Gear",
+				"trans": "Унікальне спорядження"
 			}
 		},
 		"loading": {
@@ -21380,23 +21486,72 @@
 				"trans": "Ініціалізація вітальної послідовності"
 			}
 		},
+		"raid": {
+			"beat": {
+				"loot": {
+					"eng": "Loot for everyone",
+					"trans": "Лут для всіх"
+				},
+				"party": {
+					"eng": "Party up",
+					"trans": "Почни вечірку"
+				},
+				"raid": {
+					"eng": "Raid the boss",
+					"trans": "Рейд на боса"
+				}
+			},
+			"body": {
+				"eng": "Team up in shared dungeons, and everyone who helps take down a boss gets their own loot.",
+				"trans": "Об'єднайтеся в спільних підземках, і кожен, хто допоможе здолати боса, отримає свій лут."
+			},
+			"headline": {
+				"eng": "Raid as a Squad",
+				"trans": "Рейдуйте загоном"
+			}
+		},
+		"scene": {
+			"away": {
+				"eng": "${time} away",
+				"trans": "Через ${time}",
+				"vars": [
+					"time"
+				]
+			},
+			"expBoost": {
+				"eng": "+80% EXP",
+				"trans": "+80% ДОСВІДУ"
+			},
+			"finishNowDescription": {
+				"eng": "Skips for every player",
+				"trans": "Пропуск для всіх гравців"
+			},
+			"paid": {
+				"eng": "+1,200",
+				"trans": "+1,200"
+			},
+			"playersHelped": {
+				"eng": "${count} players helped",
+				"trans": "Допомогли ${count} гравцям",
+				"vars": [
+					"count"
+				]
+			},
+			"skipped": {
+				"eng": "+${time} skipped",
+				"trans": "+${time} пропущено",
+				"vars": [
+					"time"
+				]
+			},
+			"you": {
+				"eng": "You",
+				"trans": "Ти"
+			}
+		},
 		"skip": {
 			"eng": "Skip",
 			"trans": "Пропустити"
-		},
-		"splash": {
-			"connection": {
-				"eng": "// Connection Established",
-				"trans": "// З'єднання встановлено"
-			},
-			"sys_init": {
-				"eng": "Sys.Init_Seq.01",
-				"trans": "Сист.Ініт_Посл.01"
-			},
-			"welcome": {
-				"eng": "Welcome To",
-				"trans": "Ласкаво просимо до"
-			}
 		}
 	}
 }

@@ -3199,6 +3199,10 @@
 			"eng": "Blood Moon",
 			"trans": "Lune de sang"
 		},
+		"donation59": {
+			"eng": "Prismatic",
+			"trans": "Prismatique"
+		},
 		"donation6": {
 			"eng": "Prestige",
 			"trans": "Prestige"
@@ -7143,10 +7147,20 @@
 				"trans": "Dinde rôtie"
 			}
 		},
+		"turkeyFeather": {
+			"description": {
+				"eng": "A feather shed by the runaway turkey. The Depot Tender trades Thanksgiving food and supplies for these.",
+				"trans": "Une plume tombée de la dinde fugitive. Le Gardien du dépôt échange de la nourriture et des fournitures pour la Thanksgiving contre celles-ci."
+			},
+			"name": {
+				"eng": "Turkey Feather",
+				"trans": "Plume de dinde"
+			}
+		},
 		"turkeyRunPass": {
 			"description": {
-				"eng": "Entry to Turkey on the Run during Thanksgiving. Found in dungeon crates and through Deploy farm bot.",
-				"trans": "Passe d'accès à la course du dindon lors de l'Action de grâce. Se trouve dans les coffres de donjon et via le bot Farm Deploy."
+				"eng": "Entry to Turkey on the Run during Thanksgiving.",
+				"trans": "Accès à la Dinde en Fuite pendant Thanksgiving."
 			},
 			"name": {
 				"eng": "Turkey Run Pass",
@@ -9451,6 +9465,85 @@
 			"title": {
 				"eng": "Data Stream Interceptor",
 				"trans": "Intercepteur de flux de données"
+			}
+		},
+		"gyroLock": {
+			"containment": {
+				"eng": "CONTAINMENT",
+				"trans": "MAINTIEN"
+			},
+			"fail": {
+				"description": {
+					"eng": "The vault re-sealed before all three seals were set.",
+					"trans": "Le coffre a été rescellé avant la mise en place des trois sceaux."
+				},
+				"retry": {
+					"eng": "Retry breach",
+					"trans": "Réessayer l'intrusion"
+				},
+				"status": {
+					"eng": "BREACH FAILED",
+					"trans": "INTRUSION ÉCHOUÉE"
+				},
+				"title": {
+					"eng": "Containment reset",
+					"trans": "Réinitialisation du confinement"
+				}
+			},
+			"hint": {
+				"eng": "Touch and drag to rotate",
+				"trans": "Touchez et glissez pour pivoter"
+			},
+			"instruction": {
+				"eng": "Drag around the dial. The ring steadies near the lock point. Hold it there to set the seal.",
+				"trans": "Glissez autour du cadran. La bague se stabilise près du point de verrouillage. Maintenez-la en place pour sceller."
+			},
+			"status": {
+				"breached": {
+					"eng": "BREACHED",
+					"trans": "PERCÉ"
+				},
+				"reset": {
+					"eng": "RESET",
+					"trans": "RÉINITIALISER"
+				},
+				"seal": {
+					"eng": "SEAL ${current}/${total}",
+					"trans": "SEAL ${current}/${total}",
+					"vars": [
+						"current",
+						"GyroLockConfig.SEAL_COUNT)",
+						"total"
+					]
+				}
+			},
+			"success": {
+				"status": {
+					"eng": "VAULT OPEN",
+					"trans": "COFFRE OUVERT"
+				},
+				"title": {
+					"eng": "Breach complete",
+					"trans": "Intrusion réussie"
+				}
+			},
+			"title": {
+				"eng": "Gyro Lock",
+				"trans": "Verrou Gyroscopique"
+			},
+			"vaultId": {
+				"eng": "VAULT ${id}",
+				"trans": "COFFRE ${id}",
+				"vars": [
+					"id"
+				]
+			},
+			"window": {
+				"eng": "WINDOW ±${degrees}°",
+				"trans": "FENÊTRE ±${degrees}°",
+				"vars": [
+					"degrees"
+				]
 			}
 		},
 		"hexBuffer": {
@@ -12034,12 +12127,14 @@
 		"thanksgiving": {
 			"defaultLines": {
 				"eng": [
-					"Dinner has escaped. The butcher is not taking it well.",
-					"Bring a Turkey Run Pass. Grab the corn. Avoid becoming dinner."
+					"Dinner has escaped. The chef is not taking it well.",
+					"Bring a Turkey Run Pass. Grab the corn. Avoid becoming dinner.",
+					"Turkey feathers! Bring me the feathers and I'll trade you a proper dinner."
 				],
 				"trans": [
-					"Le repas s'est enfui. Le boucher n'aime pas ça.",
-					"Apporte ton pass Turkey Run. Attrape le maïs. Évite de devenir le dîner."
+					"Le dîner s'est échappé. Le cuisinier n'apprécie guère.",
+					"Apporte un laissez-passer pour la Course de la Dinde. Saisis le maïs. Évite de finir au menu.",
+					"Des plumes de dinde ! Apporte-moi ces plumes et je te donnerai un vrai repas en échange."
 				]
 			},
 			"name": {
@@ -16862,6 +16957,12 @@
 				"trans": "Le jeu est amusant. J'adore à quel point la communauté est si engageante, surtout lorsqu'il s'agit des sauts globaux et des buffs. Simple mais pas trop exigeant."
 			}
 		},
+		"review11": {
+			"quote": {
+				"eng": "I LOVE the global system! Whenever someone makes a purchase it benefits everyone on the server. One of the very few mobile games I've ever spent money on",
+				"trans": "J'adore le système global ! Dès que quelqu'un fait un achat, tout le monde sur le serveur en profite. C'est l'un des très rares jeux mobiles où j'ai mis la main au portefeuille"
+			}
+		},
 		"review2": {
 			"quote": {
 				"eng": "I love that the buffs benefit everyone playing the game. It's a new vibe to me - I'm used to using buffs for myself! Highly recommended for playing in your leisure time.",
@@ -16912,38 +17013,57 @@
 		}
 	},
 	"thanksgivingPromo": {
-		"desc1": {
-			"eng": "During event period, Roasted Turkey will drop rarely from scavenging and AKF Bot on all levels",
-			"trans": "Pendant la période de l'événement, la dinde rôtie tombera rarement de la récupération et du bot AKF à tous les niveaux"
+		"contentLabel": {
+			"eng": "Event Content",
+			"trans": "Contenu de l'événement"
 		},
-		"desc2": {
-			"eng": "When a Roasted Turkey is consumed, you will get +20% EXP on AFK tasks for 20 minutes",
-			"trans": "Lorsqu'une dinde rôtie est consommée, vous obtiendrez + 20% Exp sur les tâches AFK pendant 20 minutes"
+		"description": {
+			"eng": "Outrun the chef in Turkey on the Run, gather Turkey Feathers, and trade with ${npc}.",
+			"trans": "Dépassez le chef dans La Dinde en Fuite, collectez des Plumes de dinde et échangez avec ${npc}.",
+			"vars": [
+				"npc"
+			]
 		},
-		"footnote1": {
-			"eng": "Please note that the EXP bonus check is at AFK completion time, so you must have the Roasted Turkey buff active at the time of completion to receive the bonus.",
-			"trans": "Veuillez noter que la vérification des bonus EXP est à l'heure d'achèvement de l'AFK, vous devez donc avoir le buff de dinde rôti actif au moment de l'achèvement pour recevoir le bonus."
+		"donation": {
+			"eng": "During Thanksgiving, time-limited donation tiers and the Turkey emblem are available.",
+			"trans": "Pendant Thanksgiving, des paliers de don temporaires et l'emblème du dindon sont disponibles."
 		},
-		"footnote2": {
-			"eng": "This effect will stack with other EXP bonus, and will only affect AFK tasks; tasks that does not have AFK timers will not be affected.",
-			"trans": "Cet effet s'accumulera avec un autre bonus Exp et affectera uniquement les tâches AFK; Les tâches qui n'ont pas de minuteries AFK ne seront pas affectées."
+		"eyebrow": {
+			"eng": "Limited-time Event",
+			"trans": "Événement à durée limitée"
 		},
-		"title": {
-			"eng": "Happy Thanksgiving!",
-			"trans": "Joyeux Action de Graces!"
+		"titleV2": {
+			"eng": "Thanksgiving",
+			"trans": "Action de grâce"
+		},
+		"turkeyBuff": {
+			"eng": "Trade Turkey Feathers for a ${turkey} at the ${depot}. Consume it for +20% AFK EXP for 20 minutes.",
+			"trans": "Échangez des plumes de dinde contre ${turkey} au ${depot}. Sa consommation donne +20% EXP AFK pendant 20 minutes.",
+			"vars": [
+				"turkey",
+				"depot"
+			]
+		},
+		"turkeyBuffRule": {
+			"eng": "Only AFK tasks count, and the buff must still be active when the task completes. Stacks with other EXP bonuses.",
+			"trans": "Seules les missions AFK comptent, et le bonus doit toujours être actif lorsque la mission s'achève. Se cumule avec les autres bonus d'EXP."
 		}
 	},
 	"thanksgivingPromoSmall": {
-		"desc": {
-			"eng": "Consume delicious turkey to get +${percent}% EXP on AFK tasks",
-			"trans": "Consommez une délicieuse dinde pour obtenir + ${percent}% exp sur les tâches AFK",
+		"description": {
+			"eng": "Outrun the chef. Trade feathers with ${npc}.",
+			"trans": "Devance le chef. Échange des plumes avec ${npc}.",
 			"vars": [
-				"percent"
+				"npc"
 			]
 		},
-		"title": {
-			"eng": "Thanksgiving event",
-			"trans": "Événement de Thanksgiving"
+		"eyebrow": {
+			"eng": "Limited-time Event",
+			"trans": "Événement à durée limitée"
+		},
+		"titleV2": {
+			"eng": "Thanksgiving",
+			"trans": "Action de grâce"
 		}
 	},
 	"thiefPromo": {
@@ -17274,6 +17394,31 @@
 		}
 	},
 	"turkeyRun": {
+		"banner": {
+			"cleared": {
+				"eng": "Stage ${stage} clear",
+				"trans": "Niveau ${stage} terminé",
+				"vars": [
+					"stage"
+				]
+			},
+			"clearedDetail": {
+				"eng": "Tier ${tier} secured · Entering ${name}",
+				"trans": "Niveau ${tier} sécurisé · Accès à ${name}",
+				"vars": [
+					"tier",
+					"name"
+				]
+			},
+			"escaped": {
+				"eng": "Escaped!",
+				"trans": "Échappé !"
+			},
+			"escapedDetail": {
+				"eng": "Tier 5 secured. The chef gives up.",
+				"trans": "Niveau 5 sécurisé. Le chef abandonne."
+			}
+		},
 		"close": {
 			"eng": "Close",
 			"trans": "Fermer"
@@ -17295,6 +17440,13 @@
 			}
 		},
 		"hud": {
+			"clearAt": {
+				"eng": "Clear at ${count} corn cobs",
+				"trans": "Terminé à ${count} épis de maïs",
+				"vars": [
+					"count"
+				]
+			},
 			"corn": {
 				"eng": "${count} corn cobs",
 				"trans": "${count} épis de maïs",
@@ -17309,9 +17461,12 @@
 					"distance"
 				]
 			},
-			"endless": {
-				"eng": "Endless — tier capped at 5",
-				"trans": "Infini — rang plafonné à 5"
+			"escapeAt": {
+				"eng": "Escape at ${count} corn cobs",
+				"trans": "Échappement à ${count} épis de maïs",
+				"vars": [
+					"count"
+				]
 			},
 			"heartsLeft": {
 				"eng": "${count} hearts",
@@ -17320,12 +17475,9 @@
 					"count"
 				]
 			},
-			"nextStage": {
-				"eng": "Next stage at ${count} corn cobs",
-				"trans": "Prochaine étape à ${count} épis de maïs",
-				"vars": [
-					"count"
-				]
+			"noTier": {
+				"eng": "No tier secured",
+				"trans": "Aucun palier sécurisé"
 			},
 			"oneHitLeft": {
 				"eng": "One hit left",
@@ -17338,9 +17490,9 @@
 					"stage"
 				]
 			},
-			"tier": {
-				"eng": "Tier ${tier} of 5",
-				"trans": "Palier ${tier} sur 5",
+			"tierSecured": {
+				"eng": "Tier ${tier} secured",
+				"trans": "Niveau ${tier} sécurisé",
 				"vars": [
 					"tier"
 				]
@@ -17351,112 +17503,13 @@
 				"eng": "Event closed",
 				"trans": "Événement fermé"
 			},
-			"corn": {
-				"eng": "Collect golden corn.",
-				"trans": "Collectez le maïs doré."
+			"getPasses": {
+				"eng": "Get passes",
+				"trans": "Obtenir des laissez-passer"
 			},
-			"cornDetail": {
-				"eng": "Corn cobs add up through the whole run and are never spent. Reaching a corn total opens the next stage with no pause: ${stages}. Short of corn, the current stage keeps going.",
-				"trans": "Les épis de maïs s'accumulent pendant toute la course et ne sont jamais consommés. Atteindre un total d'épis ouvre l'étape suivante sans pause : ${stages}. À court de maïs, l'étape actuelle se poursuit.",
-				"vars": [
-					"stages"
-				]
-			},
-			"cost": {
-				"eng": "One pass is consumed when your result is submitted, even if you earn no reward tier. You can pause, but cannot exit during the chase.",
-				"trans": "Un passage est consommé lorsque votre résultat est soumis, même si vous n'obtiez aucun palier de récompense. Vous pouvez mettre en pause, mais ne pouvez pas quitter pendant la poursuite."
-			},
-			"dodge": {
-				"eng": "Dodge.",
-				"trans": "Esquive."
-			},
-			"dodgeDetail": {
-				"eng": "Swipe left or right (or press the left/right arrow keys) to change lanes. Low crates need a swipe up or the up arrow key to jump; overhead beams need a swipe down or the down arrow key to slide; big freight blocks must be dodged.",
-				"trans": "Balayez vers la gauche ou la droite (ou appuyez sur les touches fléchées gauche/droite) pour changer de voie. Balayez vers le haut ou appuyez sur la touche Flèche Haut pour sauter par-dessus les caisses basses ; balayez vers le bas ou appuyez sur la touche Flèche Bas pour glisser sous les poutres suspendues ; évitez les gros blocs de fret."
-			},
-			"endless": {
-				"eng": "${count}+ endless",
-				"trans": "${count}+ infini",
-				"vars": [
-					"count"
-				]
-			},
-			"hazards": {
-				"eng": "Watch the road.",
-				"trans": "Surveille la route."
-			},
-			"hazardsDetail": {
-				"eng": "From stage 2, scattered puddles lock controls for one second. Slipping does not cost a heart, but hitting traffic during the spin does. Stage 3 adds bombs, stage 4 crossing carts, and stage 5 warning-lit steam vents. Jump or change lanes to avoid them.",
-				"trans": "Dès le niveau 2, des flaques éparses verrouillent les commandes une seconde. Glisser ne coûte pas un cœur, mais percuter le trafic pendant la rotation en coûte un. Le niveau 3 ajoute des bombes, le niveau 4 des chariots croisés et le niveau 5 des évents de vapeur avec voyant d'alerte. Sautez ou changez de voie pour les éviter."
-			},
-			"needPass": {
-				"eng": "Need a pass",
-				"trans": "Laissez-passer requis"
-			},
-			"passCount": {
-				"eng": "Passes: ${count}",
-				"trans": "Passages : ${count}",
-				"vars": [
-					"count"
-				]
-			},
-			"powerUp": {
-				"eng": "Risk the 2× detour.",
-				"trans": "Ose le détour 2×."
-			},
-			"powerUpDetail": {
-				"eng": "Rare 2× power-ups appear from stage 3 off the main route. They double corn for 5 seconds; another pickup refreshes the timer without stacking.",
-				"trans": "Les boosts rares ×2 apparaissent à partir du niveau 3, hors du circuit principal. Ils doublent le maïs pendant 5 secondes ; un autre boost collecté réinitialise la minuterie sans se cumuler."
-			},
-			"rewards": {
-				"eng": "Earn tiers.",
-				"trans": "Gagnez des paliers."
-			},
-			"rewardsDetail": {
-				"eng": "Corn totals of ${tiers} unlock reward tiers 1–5, separately from stage entry. You can earn the top reward before reaching stage 5. The last stage runs endlessly until capture, but rewards never go past tier 5.",
-				"trans": "Les totaux de maïs de ${tiers} débloquent les paliers de récompenses 1 à 5, indépendamment de l'accès aux étapes. Vous pouvez obtenir la récompense maximale avant d'atteindre l'étape 5. La dernière étape se déroule à l'infini jusqu'à la capture, mais les récompenses ne dépassent jamais le palier 5.",
-				"vars": [
-					"tiers"
-				]
-			},
-			"roofs": {
-				"eng": "Take the high route.",
-				"trans": "Pars par le haut."
-			},
-			"roofsDetail": {
-				"eng": "Expect jump, slide and lane-change combinations from the start. From stage 2, judge roof gaps yourself: corn does not mark where to jump. Stages 4 and 5 chain roof transfers with hazards on landing.",
-				"trans": "Préparez-vous aux combinaisons de saut, de glissade et de changement de voie dès le début. À partir du niveau 2, évaluez vous-même les écarts entre toits : le maïs n'indique pas où sauter. Les niveaux 4 et 5 enchaînent les passages entre toits avec des dangers à l'atterrissage."
-			},
-			"stageEntry": {
-				"eng": "${count} corn cobs",
-				"trans": "${count} épis de maïs",
-				"vars": [
-					"count"
-				]
-			},
-			"stageRow": {
-				"eng": "Stage ${stage}: ${name}",
-				"trans": "Étape ${stage} : ${name}",
-				"vars": [
-					"stage",
-					"name"
-				]
-			},
-			"start": {
-				"eng": "Start the run",
-				"trans": "Lancer la course"
-			},
-			"summary": {
-				"eng": "Escape the chef from the freight outskirts to the city centre. Grab golden corn, dodge the traffic, and don't get caught.",
-				"trans": "Fuis le chef depuis la périphérie industrielle jusqu'au centre-ville. Attrape le maïs doré, esquive le trafic et ne te fais pas attraper."
-			},
-			"survive": {
-				"eng": "Avoid getting caught.",
-				"trans": "Ne te fais pas prendre."
-			},
-			"surviveDetail": {
-				"eng": "Start with three hearts and hold up to four. Each hit costs one heart and gives you a brief recovery window. More hearts keep the chef farther away; losing one brings him closer. Stages 3, 4 and 5 each contain one randomly placed recovery heart. Miss it and it is gone.",
-				"trans": "Vous commencez avec trois cœurs et pouvez en avoir jusqu'à quatre. Chaque coup coûte un cœur et vous laisse une brève fenêtre de récupération. Plus vous avez de cœurs, plus le chef reste loin ; en perdre un le rapproche. Les niveaux 3, 4 et 5 contiennent chacun un cœur de récupération placé aléatoirement. Manquez-le et il est perdu."
+			"play": {
+				"eng": "Play",
+				"trans": "Jouer"
 			}
 		},
 		"loadError": {
@@ -17487,16 +17540,20 @@
 		},
 		"results": {
 			"caught": {
-				"eng": "Caught by the butcher",
-				"trans": "Attrapé par le boucher"
+				"eng": "Caught by the chef",
+				"trans": "Attrapé par le chef"
+			},
+			"escaped": {
+				"eng": "You escaped!",
+				"trans": "Évasion réussie !"
 			},
 			"inbox": {
 				"eng": "Your tier is secured. Rewards were sent to your item inbox.",
 				"trans": "Votre palier est sécurisé. Les récompenses ont été envoyées à votre boîte aux objets."
 			},
 			"noTier": {
-				"eng": "Fewer than ${count} corn cobs means no reward tier. One pass was used.",
-				"trans": "Moins de ${count} épis de maïs ne donne pas lieu à un palier de récompense. Un passage a été utilisé.",
+				"eng": "Clear stage 1 at ${count} corn cobs to secure a reward tier. One pass was used.",
+				"trans": "Terminez le niveau 1 avec ${count} épis de maïs pour obtenir un palier de récompense. Une tentative a été utilisée.",
 				"vars": [
 					"count"
 				]
@@ -17523,6 +17580,23 @@
 			"unconfirmedDetail": {
 				"eng": "The run could not be confirmed. Check your pass balance and item inbox before starting another run.",
 				"trans": "La course n'a pas pu être confirmée. Vérifiez le solde de votre passe et votre boîte à objets avant de lancer une nouvelle course."
+			}
+		},
+		"splash": {
+			"passCost": {
+				"eng": "${name} · 1 per run",
+				"trans": "${name} · 1 par course",
+				"vars": [
+					"name"
+				]
+			},
+			"titleBottom": {
+				"eng": "on the Run",
+				"trans": "En cavale"
+			},
+			"titleTop": {
+				"eng": "Turkey",
+				"trans": "Turkey"
 			}
 		},
 		"stage": {
@@ -18067,6 +18141,12 @@
 			}
 		},
 		"battle": {
+			"attackBar": {
+				"max": {
+					"eng": "MAX",
+					"trans": "MAX"
+				}
+			},
 			"attackButton": {
 				"primary": {
 					"title": {
@@ -20245,10 +20325,10 @@
 				"trans": "Conditions d'utilisation"
 			}
 		},
-		"rewardActionConfirmModal": {
+		"rewardActionCaptchaModal": {
 			"title": {
-				"eng": "Drag all processes icons into to the box entirely to initiate the task",
-				"trans": "Faites glisser tous les icônes de processus dans la boîte pour initier la tâche"
+				"eng": "Complete the check to start the task",
+				"trans": "Complétez la vérification pour commencer la tâche"
 			}
 		},
 		"richInput": {
@@ -20294,6 +20374,16 @@
 				"title": {
 					"eng": "Animated NPC Character",
 					"trans": ".."
+				}
+			},
+			"attackEffects": {
+				"description": {
+					"eng": "Hit effects on enemies and the timing bar. Turn off if combat lags",
+					"trans": "Effets d'impact sur les ennemis et la barre de timing. À désactiver en cas de ralentissement du combat"
+				},
+				"title": {
+					"eng": "Attack Effects",
+					"trans": "Effets d'attaque"
 				}
 			},
 			"backgroundMusicVolume": {
@@ -21095,63 +21185,27 @@
 	},
 	"welcome": {
 		"afk": {
+			"beat": {
+				"away": {
+					"eng": "Log off, it keeps running",
+					"trans": "Déconnecte-toi, ça continue de tourner"
+				},
+				"theirSkip": {
+					"eng": "Someone skips, you jump ahead",
+					"trans": "Quelqu'un passe, tu avances"
+				},
+				"yourSkip": {
+					"eng": "Your skip helps everyone",
+					"trans": "Ton saut profite à tous"
+				}
+			},
+			"body": {
+				"eng": "Tasks keep running while you're offline, and when someone skips, every player's task speeds up.",
+				"trans": "Les tâches continuent de s'exécuter en votre absence, et quand un joueur saute une étape, la tâche de chacun s'accélère."
+			},
 			"headline": {
 				"eng": "Progress While Offline",
 				"trans": "Progression hors ligne"
-			},
-			"sentence": {
-				"eng": "Start a task before logging off to continue gathering resources and leveling up in the background.",
-				"trans": "Lance une tâche avant de te déconnecter pour continuer à récolter des ressources et monter en niveau en arrière-plan."
-			}
-		},
-		"animation": {
-			"asset": {
-				"eng": "Asset",
-				"trans": "Ressource"
-			},
-			"autotask": {
-				"eng": "AUTOTASK",
-				"trans": "TÂCHE AUTO"
-			},
-			"buy": {
-				"eng": "EXECUTE: BUY",
-				"trans": "EXÉCUTER : ACHAT"
-			},
-			"chat1": {
-				"eng": "LFG Abandoned Factory, need healer.",
-				"trans": "Je cherche un groupe pour l'usine abandonnée, besoin d'un soigneur."
-			},
-			"chat2": {
-				"eng": "Inv, I got medkits.",
-				"trans": "Inv, j'ai des kits médicaux."
-			},
-			"chat3": {
-				"eng": "Global Buff Activated by Kael",
-				"trans": "Buff global activé par Kael"
-			},
-			"efficiency": {
-				"eng": "Efficiency",
-				"trans": "Efficacité"
-			},
-			"price": {
-				"eng": "Lowest Price",
-				"trans": "Prix le plus bas"
-			},
-			"reverse_engineering": {
-				"eng": "REVERSE_ENGINEERING",
-				"trans": "INGENIERIE_INVERSE"
-			},
-			"system": {
-				"eng": "System:",
-				"trans": "Système :"
-			},
-			"waiting": {
-				"eng": "WAITING FOR ORDERS...",
-				"trans": "EN ATTENTE DES ORDRES..."
-			},
-			"yield_acquired": {
-				"eng": "YIELD ACQUIRED",
-				"trans": "RENDEMENT ACQUIS"
 			}
 		},
 		"cta": {
@@ -21165,13 +21219,27 @@
 			}
 		},
 		"economy": {
+			"beat": {
+				"buy": {
+					"eng": "You buy one",
+					"trans": "Vous en achetez un"
+				},
+				"list": {
+					"eng": "Players craft & list",
+					"trans": "Fabrication et mise en vente par les joueurs"
+				},
+				"pay": {
+					"eng": "Coins go to its maker",
+					"trans": "Les pièces reviennent à leur créateur"
+				}
+			},
+			"body": {
+				"eng": "Everything on the market is made and sold by players, so your coins go to them.",
+				"trans": "Tous les objets du marché sont fabriqués et vendus par d'autres joueurs, vos pièces leur reviennent donc directement."
+			},
 			"headline": {
 				"eng": "Player-Driven Economy",
 				"trans": "Économie pilotée par les joueurs"
-			},
-			"sentence": {
-				"eng": "Every item in the market is crafted and traded by real players like you.",
-				"trans": "Chaque objet sur le marché est fabriqué et échangé par de vrais joueurs comme vous."
 			}
 		},
 		"error": {
@@ -21189,13 +21257,51 @@
 			}
 		},
 		"fairness": {
+			"beat": {
+				"deploy": {
+					"eng": "Someone deploys a buff",
+					"trans": "Quelqu'un active un bonus"
+				},
+				"share": {
+					"eng": "Every player gets it",
+					"trans": "Chaque joueur y a droit"
+				},
+				"you": {
+					"eng": "You get it too",
+					"trans": "Toi aussi, tu captes"
+				}
+			},
+			"body": {
+				"eng": "When someone deploys a buff, every player on the server gets it, including you.",
+				"trans": "Lorsqu'un joueur active un bonus, tous les joueurs du serveur en bénéficient, y compris vous."
+			},
 			"headline": {
 				"eng": "Zero Pay-To-Win",
 				"trans": "Zéro avantage payant"
+			}
+		},
+		"gear": {
+			"beat": {
+				"calibrate": {
+					"eng": "Calibrate to push further",
+					"trans": "Calibrez pour aller plus loin"
+				},
+				"roll": {
+					"eng": "Every drop rolls",
+					"trans": "Chaque drop roule"
+				},
+				"unique": {
+					"eng": "One of a kind",
+					"trans": "Sans pareil"
+				}
 			},
-			"sentence": {
-				"eng": "All premium buffs are shared globally across the server. When someone supports the game, the entire community benefits and progresses together.",
-				"trans": "Tous les bonus premium sont partagés sur tout le serveur. Lorsqu'un joueur soutient le jeu, toute la communauté en profite et progresse ensemble."
+			"body": {
+				"eng": "Every drop rolls its own tier and stats, and calibration pushes it even further.",
+				"trans": "Chaque objet obtenu possède son propre rang et ses propres statistiques, et la calibration le pousse encore plus loin."
+			},
+			"headline": {
+				"eng": "One-of-a-Kind Gear",
+				"trans": "Équipement unique"
 			}
 		},
 		"loading": {
@@ -21204,23 +21310,72 @@
 				"trans": "Initialisation de la séquence d'accueil"
 			}
 		},
+		"raid": {
+			"beat": {
+				"loot": {
+					"eng": "Loot for everyone",
+					"trans": "Butin pour tous"
+				},
+				"party": {
+					"eng": "Party up",
+					"trans": "Lancer la fête"
+				},
+				"raid": {
+					"eng": "Raid the boss",
+					"trans": "Attaquer le boss"
+				}
+			},
+			"body": {
+				"eng": "Team up in shared dungeons, and everyone who helps take down a boss gets their own loot.",
+				"trans": "Formez des équipes dans les donjons partagés, et chacun qui aide à vaincre un boss repart avec son propre butin."
+			},
+			"headline": {
+				"eng": "Raid as a Squad",
+				"trans": "Raid en escouade"
+			}
+		},
+		"scene": {
+			"away": {
+				"eng": "${time} away",
+				"trans": "dans ${time}",
+				"vars": [
+					"time"
+				]
+			},
+			"expBoost": {
+				"eng": "+80% EXP",
+				"trans": "+80% XP"
+			},
+			"finishNowDescription": {
+				"eng": "Skips for every player",
+				"trans": "Saut pour tous les joueurs"
+			},
+			"paid": {
+				"eng": "+1,200",
+				"trans": "+1 200"
+			},
+			"playersHelped": {
+				"eng": "${count} players helped",
+				"trans": "${count} joueurs aidés",
+				"vars": [
+					"count"
+				]
+			},
+			"skipped": {
+				"eng": "+${time} skipped",
+				"trans": "+${time} de temps sauté",
+				"vars": [
+					"time"
+				]
+			},
+			"you": {
+				"eng": "You",
+				"trans": "Vous"
+			}
+		},
 		"skip": {
 			"eng": "Skip",
 			"trans": "Passer"
-		},
-		"splash": {
-			"connection": {
-				"eng": "// Connection Established",
-				"trans": "// Connexion établie"
-			},
-			"sys_init": {
-				"eng": "Sys.Init_Seq.01",
-				"trans": "Init.Système_01"
-			},
-			"welcome": {
-				"eng": "Welcome To",
-				"trans": "Bienvenue dans"
-			}
 		}
 	}
 }

@@ -3199,6 +3199,10 @@
 			"eng": "Blood Moon",
 			"trans": "血月"
 		},
+		"donation59": {
+			"eng": "Prismatic",
+			"trans": "虹彩"
+		},
 		"donation6": {
 			"eng": "Prestige",
 			"trans": "至尊"
@@ -7143,10 +7147,20 @@
 				"trans": "烤火鸡"
 			}
 		},
+		"turkeyFeather": {
+			"description": {
+				"eng": "A feather shed by the runaway turkey. The Depot Tender trades Thanksgiving food and supplies for these.",
+				"trans": "逃跑的火鸡掉落的羽毛。车站司炉工会用它们换取感恩节食物和补给。"
+			},
+			"name": {
+				"eng": "Turkey Feather",
+				"trans": "火鸡羽毛"
+			}
+		},
 		"turkeyRunPass": {
 			"description": {
-				"eng": "Entry to Turkey on the Run during Thanksgiving. Found in dungeon crates and through Deploy farm bot.",
-				"trans": "感恩节期间火鸡狂奔入场凭证，可从地牢箱和部署农场机器人获得"
+				"eng": "Entry to Turkey on the Run during Thanksgiving.",
+				"trans": "感恩节期间奔跑火鸡活动通行证"
 			},
 			"name": {
 				"eng": "Turkey Run Pass",
@@ -9451,6 +9465,85 @@
 			"title": {
 				"eng": "Data Stream Interceptor",
 				"trans": "数据流拦截器"
+			}
+		},
+		"gyroLock": {
+			"containment": {
+				"eng": "CONTAINMENT",
+				"trans": "收容"
+			},
+			"fail": {
+				"description": {
+					"eng": "The vault re-sealed before all three seals were set.",
+					"trans": "保险库在三个封印全部就位前重新封锁"
+				},
+				"retry": {
+					"eng": "Retry breach",
+					"trans": "重新突破"
+				},
+				"status": {
+					"eng": "BREACH FAILED",
+					"trans": "入侵失败"
+				},
+				"title": {
+					"eng": "Containment reset",
+					"trans": "管控重置"
+				}
+			},
+			"hint": {
+				"eng": "Touch and drag to rotate",
+				"trans": "点按拖拽以旋转"
+			},
+			"instruction": {
+				"eng": "Drag around the dial. The ring steadies near the lock point. Hold it there to set the seal.",
+				"trans": "拖动转盘。圆环在锁定点附近稳定后，按住该处即可完成封印。"
+			},
+			"status": {
+				"breached": {
+					"eng": "BREACHED",
+					"trans": "已突破"
+				},
+				"reset": {
+					"eng": "RESET",
+					"trans": "重置"
+				},
+				"seal": {
+					"eng": "SEAL ${current}/${total}",
+					"trans": "SEAL ${current}/${total}",
+					"vars": [
+						"current",
+						"GyroLockConfig.SEAL_COUNT)",
+						"total"
+					]
+				}
+			},
+			"success": {
+				"status": {
+					"eng": "VAULT OPEN",
+					"trans": "金库已开启"
+				},
+				"title": {
+					"eng": "Breach complete",
+					"trans": "突破完成"
+				}
+			},
+			"title": {
+				"eng": "Gyro Lock",
+				"trans": "陀螺锁定"
+			},
+			"vaultId": {
+				"eng": "VAULT ${id}",
+				"trans": "金库 ${id}",
+				"vars": [
+					"id"
+				]
+			},
+			"window": {
+				"eng": "WINDOW ±${degrees}°",
+				"trans": "窗口 ±${degrees}°",
+				"vars": [
+					"degrees"
+				]
 			}
 		},
 		"hexBuffer": {
@@ -12164,12 +12257,14 @@
 		"thanksgiving": {
 			"defaultLines": {
 				"eng": [
-					"Dinner has escaped. The butcher is not taking it well.",
-					"Bring a Turkey Run Pass. Grab the corn. Avoid becoming dinner."
+					"Dinner has escaped. The chef is not taking it well.",
+					"Bring a Turkey Run Pass. Grab the corn. Avoid becoming dinner.",
+					"Turkey feathers! Bring me the feathers and I'll trade you a proper dinner."
 				],
 				"trans": [
-					"晚饭跑了，屠夫气得不行。",
-					"带上火鸡狂奔通行证。去拿玉米。别被端上桌。"
+					"晚餐逃跑了。主厨有点受不了。",
+					"带上火鸡狂奔通行证。去拿玉米。别沦为盘中餐。",
+					"火鸡毛！把毛拿来，我给你换顿像样的晚餐。"
 				]
 			},
 			"name": {
@@ -17050,6 +17145,12 @@
 				"trans": "这款游戏真好玩！我特别喜欢社区的活跃氛围，尤其是全球跳过和增益。玩法简单，却又不至于太苛刻。"
 			}
 		},
+		"review11": {
+			"quote": {
+				"eng": "I LOVE the global system! Whenever someone makes a purchase it benefits everyone on the server. One of the very few mobile games I've ever spent money on",
+				"trans": "我超爱全球系统！只要有人氪金，整个服务器的玩家都能受益。这是我玩过极少数会充钱的手游之一。"
+			}
+		},
 		"review2": {
 			"quote": {
 				"eng": "I love that the buffs benefit everyone playing the game. It's a new vibe to me - I'm used to using buffs for myself! Highly recommended for playing in your leisure time.",
@@ -17100,38 +17201,57 @@
 		}
 	},
 	"thanksgivingPromo": {
-		"desc1": {
-			"eng": "During event period, Roasted Turkey will drop rarely from scavenging and AKF Bot on all levels",
-			"trans": "在活动期间，烤火鸡很少会从清除和AKF机器人中掉落"
+		"contentLabel": {
+			"eng": "Event Content",
+			"trans": "活动内容"
 		},
-		"desc2": {
-			"eng": "When a Roasted Turkey is consumed, you will get +20% EXP on AFK tasks for 20 minutes",
-			"trans": "当食用烤火鸡时，您将在20分钟内获得 +20％的经验"
+		"description": {
+			"eng": "Outrun the chef in Turkey on the Run, gather Turkey Feathers, and trade with ${npc}.",
+			"trans": "在出逃火鸡中甩开主厨，收集火鸡毛，并与${npc}交易。",
+			"vars": [
+				"npc"
+			]
 		},
-		"footnote1": {
-			"eng": "Please note that the EXP bonus check is at AFK completion time, so you must have the Roasted Turkey buff active at the time of completion to receive the bonus.",
-			"trans": "请注意，EXP奖金支票是在AFK完成的时间，因此您必须在完成时活跃烤火鸡抛光，才能获得奖金。"
+		"donation": {
+			"eng": "During Thanksgiving, time-limited donation tiers and the Turkey emblem are available.",
+			"trans": "感恩节期间可获取限时捐赠档位与火鸡徽章"
 		},
-		"footnote2": {
-			"eng": "This effect will stack with other EXP bonus, and will only affect AFK tasks; tasks that does not have AFK timers will not be affected.",
-			"trans": "这种效果将与其他EXP奖金一起堆叠，并且只会影响AFK任务； 没有AFK计时器的任务不会受到影响。"
+		"eyebrow": {
+			"eng": "Limited-time Event",
+			"trans": "限时活动"
 		},
-		"title": {
-			"eng": "Happy Thanksgiving!",
-			"trans": "感恩节快乐！"
+		"titleV2": {
+			"eng": "Thanksgiving",
+			"trans": "感恩节"
+		},
+		"turkeyBuff": {
+			"eng": "Trade Turkey Feathers for a ${turkey} at the ${depot}. Consume it for +20% AFK EXP for 20 minutes.",
+			"trans": "在${depot}用火鸡毛兑换${turkey}食用后可获得+20%离线经验持续20分钟",
+			"vars": [
+				"turkey",
+				"depot"
+			]
+		},
+		"turkeyBuffRule": {
+			"eng": "Only AFK tasks count, and the buff must still be active when the task completes. Stacks with other EXP bonuses.",
+			"trans": "仅统计挂机任务，且任务完成时增益须处于激活状态。可与其他经验加成叠加。"
 		}
 	},
 	"thanksgivingPromoSmall": {
-		"desc": {
-			"eng": "Consume delicious turkey to get +${percent}% EXP on AFK tasks",
-			"trans": "在AFK任务上消耗美味的火鸡以获得 +${percent}％exp",
+		"description": {
+			"eng": "Outrun the chef. Trade feathers with ${npc}.",
+			"trans": "甩开厨师。与${npc}交易羽毛。",
 			"vars": [
-				"percent"
+				"npc"
 			]
 		},
-		"title": {
-			"eng": "Thanksgiving event",
-			"trans": "感恩节活动"
+		"eyebrow": {
+			"eng": "Limited-time Event",
+			"trans": "限时活动"
+		},
+		"titleV2": {
+			"eng": "Thanksgiving",
+			"trans": "感恩节"
 		}
 	},
 	"thiefPromo": {
@@ -17462,6 +17582,31 @@
 		}
 	},
 	"turkeyRun": {
+		"banner": {
+			"cleared": {
+				"eng": "Stage ${stage} clear",
+				"trans": "第${stage}关已通关",
+				"vars": [
+					"stage"
+				]
+			},
+			"clearedDetail": {
+				"eng": "Tier ${tier} secured · Entering ${name}",
+				"trans": "第 ${tier} 层已锁定 · 正在进入 ${name}",
+				"vars": [
+					"tier",
+					"name"
+				]
+			},
+			"escaped": {
+				"eng": "Escaped!",
+				"trans": "逃脱成功！"
+			},
+			"escapedDetail": {
+				"eng": "Tier 5 secured. The chef gives up.",
+				"trans": "第5层已锁定，主厨认输。"
+			}
+		},
 		"close": {
 			"eng": "Close",
 			"trans": "关闭"
@@ -17483,6 +17628,13 @@
 			}
 		},
 		"hud": {
+			"clearAt": {
+				"eng": "Clear at ${count} corn cobs",
+				"trans": "${count} 根玉米棒时通关",
+				"vars": [
+					"count"
+				]
+			},
 			"corn": {
 				"eng": "${count} corn cobs",
 				"trans": "${count} 根玉米棒",
@@ -17497,9 +17649,12 @@
 					"distance"
 				]
 			},
-			"endless": {
-				"eng": "Endless — tier capped at 5",
-				"trans": "无尽模式 阶级上限5"
+			"escapeAt": {
+				"eng": "Escape at ${count} corn cobs",
+				"trans": "达到 ${count} 根玉米棒即可逃脱",
+				"vars": [
+					"count"
+				]
 			},
 			"heartsLeft": {
 				"eng": "${count} hearts",
@@ -17508,12 +17663,9 @@
 					"count"
 				]
 			},
-			"nextStage": {
-				"eng": "Next stage at ${count} corn cobs",
-				"trans": "${count}根玉米棒进入下一关",
-				"vars": [
-					"count"
-				]
+			"noTier": {
+				"eng": "No tier secured",
+				"trans": "未获得层级"
 			},
 			"oneHitLeft": {
 				"eng": "One hit left",
@@ -17526,9 +17678,9 @@
 					"stage"
 				]
 			},
-			"tier": {
-				"eng": "Tier ${tier} of 5",
-				"trans": "等级 ${tier}/5",
+			"tierSecured": {
+				"eng": "Tier ${tier} secured",
+				"trans": "第 ${tier} 层已锁定",
 				"vars": [
 					"tier"
 				]
@@ -17539,112 +17691,13 @@
 				"eng": "Event closed",
 				"trans": "活动已关闭"
 			},
-			"corn": {
-				"eng": "Collect golden corn.",
-				"trans": "收集金玉米。"
+			"getPasses": {
+				"eng": "Get passes",
+				"trans": "获取通行证"
 			},
-			"cornDetail": {
-				"eng": "Corn cobs add up through the whole run and are never spent. Reaching a corn total opens the next stage with no pause: ${stages}. Short of corn, the current stage keeps going.",
-				"trans": "玉米棒会在整局奔跑中持续累积且不会被消耗。达到目标玉米数后将无缝进入下一关：${stages}。若玉米不足，当前关卡会继续进行。",
-				"vars": [
-					"stages"
-				]
-			},
-			"cost": {
-				"eng": "One pass is consumed when your result is submitted, even if you earn no reward tier. You can pause, but cannot exit during the chase.",
-				"trans": "提交成绩将消耗一次通行次数，即使未获得任何奖励等级。追逐期间可暂停，但不可退出。"
-			},
-			"dodge": {
-				"eng": "Dodge.",
-				"trans": "闪避"
-			},
-			"dodgeDetail": {
-				"eng": "Swipe left or right (or press the left/right arrow keys) to change lanes. Low crates need a swipe up or the up arrow key to jump; overhead beams need a swipe down or the down arrow key to slide; big freight blocks must be dodged.",
-				"trans": "左右滑动或按左右方向键切换跑道。低矮货箱需上滑或按上方向键跳跃，上方横梁需下滑或按下方向键滑铲，大型货块必须躲开。"
-			},
-			"endless": {
-				"eng": "${count}+ endless",
-				"trans": "${count}+ 无尽",
-				"vars": [
-					"count"
-				]
-			},
-			"hazards": {
-				"eng": "Watch the road.",
-				"trans": "注意路况"
-			},
-			"hazardsDetail": {
-				"eng": "From stage 2, scattered puddles lock controls for one second. Slipping does not cost a heart, but hitting traffic during the spin does. Stage 3 adds bombs, stage 4 crossing carts, and stage 5 warning-lit steam vents. Jump or change lanes to avoid them.",
-				"trans": "第2阶段起，零星水洼会锁定操控1秒。滑倒不会扣除生命，但打转时撞上车流则会扣除生命。第3阶段加入炸弹，第4阶段加入横穿车辆，第5阶段加入带警示灯的蒸汽喷口。跳跃或切换车道即可避开它们。"
-			},
-			"needPass": {
-				"eng": "Need a pass",
-				"trans": "需要通行证"
-			},
-			"passCount": {
-				"eng": "Passes: ${count}",
-				"trans": "通过次数：${count}",
-				"vars": [
-					"count"
-				]
-			},
-			"powerUp": {
-				"eng": "Risk the 2× detour.",
-				"trans": "冒险走双倍绕路"
-			},
-			"powerUpDetail": {
-				"eng": "Rare 2× power-ups appear from stage 3 off the main route. They double corn for 5 seconds; another pickup refreshes the timer without stacking.",
-				"trans": "稀有2倍道具自第3关起出现在主线外。可使玉米翻倍，持续5秒；再次拾取将重置持续时间，效果不叠加。"
-			},
-			"rewards": {
-				"eng": "Earn tiers.",
-				"trans": "获取层级"
-			},
-			"rewardsDetail": {
-				"eng": "Corn totals of ${tiers} unlock reward tiers 1–5, separately from stage entry. You can earn the top reward before reaching stage 5. The last stage runs endlessly until capture, but rewards never go past tier 5.",
-				"trans": "累计玉米达到 ${tiers} 即可解锁第1至5档奖励，独立于阶段进入。你可在到达第5阶段前获得最高奖励。最后阶段会无限持续直到被捕获，但奖励不会超过第5档。",
-				"vars": [
-					"tiers"
-				]
-			},
-			"roofs": {
-				"eng": "Take the high route.",
-				"trans": "走上方的路线"
-			},
-			"roofsDetail": {
-				"eng": "Expect jump, slide and lane-change combinations from the start. From stage 2, judge roof gaps yourself: corn does not mark where to jump. Stages 4 and 5 chain roof transfers with hazards on landing.",
-				"trans": "开场即有跳跃、滑行与变道组合动作。第2关起需自行判断屋顶间隙，玉米不会标记跳跃点。第4、5关为连续屋顶转移，落地时有障碍。"
-			},
-			"stageEntry": {
-				"eng": "${count} corn cobs",
-				"trans": "${count} 根玉米棒",
-				"vars": [
-					"count"
-				]
-			},
-			"stageRow": {
-				"eng": "Stage ${stage}: ${name}",
-				"trans": "第${stage}关：${name}",
-				"vars": [
-					"stage",
-					"name"
-				]
-			},
-			"start": {
-				"eng": "Start the run",
-				"trans": "开始奔跑"
-			},
-			"summary": {
-				"eng": "Escape the chef from the freight outskirts to the city centre. Grab golden corn, dodge the traffic, and don't get caught.",
-				"trans": "从货运郊外逃往市中心，甩开主厨追捕，收集黄金玉米，躲开车流，别被抓住。"
-			},
-			"survive": {
-				"eng": "Avoid getting caught.",
-				"trans": "别被抓到"
-			},
-			"surviveDetail": {
-				"eng": "Start with three hearts and hold up to four. Each hit costs one heart and gives you a brief recovery window. More hearts keep the chef farther away; losing one brings him closer. Stages 3, 4 and 5 each contain one randomly placed recovery heart. Miss it and it is gone.",
-				"trans": "初始拥有3颗心，最多可持有4颗。每次被击中会损失1颗心，并开启短暂的补心窗口。心越多，厨师离你越远；失去一颗则会拉近他的距离。第3、4、5关各有一个随机出现的补心。错过即消失。"
+			"play": {
+				"eng": "Play",
+				"trans": "开始"
 			}
 		},
 		"loadError": {
@@ -17675,16 +17728,20 @@
 		},
 		"results": {
 			"caught": {
-				"eng": "Caught by the butcher",
-				"trans": "被屠夫抓住"
+				"eng": "Caught by the chef",
+				"trans": "被厨师抓住"
+			},
+			"escaped": {
+				"eng": "You escaped!",
+				"trans": "成功逃脱！"
 			},
 			"inbox": {
 				"eng": "Your tier is secured. Rewards were sent to your item inbox.",
 				"trans": "你的等级已锁定。奖励已发送到物品邮箱。"
 			},
 			"noTier": {
-				"eng": "Fewer than ${count} corn cobs means no reward tier. One pass was used.",
-				"trans": "玉米棒不足 ${count} 个则无奖励档位，已使用一次通行证。",
+				"eng": "Clear stage 1 at ${count} corn cobs to secure a reward tier. One pass was used.",
+				"trans": "以${count}根玉米棒通过第1阶段即可锁定奖励档位。已消耗一次机会。",
 				"vars": [
 					"count"
 				]
@@ -17711,6 +17768,23 @@
 			"unconfirmedDetail": {
 				"eng": "The run could not be confirmed. Check your pass balance and item inbox before starting another run.",
 				"trans": "本次奔跑无法确认。开始下一次奔跑前，请检查通行证余额和物品收件箱。"
+			}
+		},
+		"splash": {
+			"passCost": {
+				"eng": "${name} · 1 per run",
+				"trans": "${name} · 每局 1",
+				"vars": [
+					"name"
+				]
+			},
+			"titleBottom": {
+				"eng": "on the Run",
+				"trans": "亡命奔逃"
+			},
+			"titleTop": {
+				"eng": "Turkey",
+				"trans": "火鸡"
 			}
 		},
 		"stage": {
@@ -18255,6 +18329,12 @@
 			}
 		},
 		"battle": {
+			"attackBar": {
+				"max": {
+					"eng": "MAX",
+					"trans": "最大"
+				}
+			},
 			"attackButton": {
 				"primary": {
 					"title": {
@@ -20433,10 +20513,10 @@
 				"trans": "服务条款"
 			}
 		},
-		"rewardActionConfirmModal": {
+		"rewardActionCaptchaModal": {
 			"title": {
-				"eng": "Drag all processes icons into to the box entirely to initiate the task",
-				"trans": "将所有进程图标拖入框中以完全启动任务。"
+				"eng": "Complete the check to start the task",
+				"trans": "完成验证以开始任务"
 			}
 		},
 		"richInput": {
@@ -20482,6 +20562,16 @@
 				"title": {
 					"eng": "Animated NPC Character",
 					"trans": "动画NPC角色"
+				}
+			},
+			"attackEffects": {
+				"description": {
+					"eng": "Hit effects on enemies and the timing bar. Turn off if combat lags",
+					"trans": "敌人与时机条的打击特效，战斗卡顿时可关闭。"
+				},
+				"title": {
+					"eng": "Attack Effects",
+					"trans": "攻击特效"
 				}
 			},
 			"backgroundMusicVolume": {
@@ -21283,63 +21373,27 @@
 	},
 	"welcome": {
 		"afk": {
+			"beat": {
+				"away": {
+					"eng": "Log off, it keeps running",
+					"trans": "离线后继续运行"
+				},
+				"theirSkip": {
+					"eng": "Someone skips, you jump ahead",
+					"trans": "有人跳过，你抢先一步"
+				},
+				"yourSkip": {
+					"eng": "Your skip helps everyone",
+					"trans": "你的跳过对所有人都有帮助"
+				}
+			},
+			"body": {
+				"eng": "Tasks keep running while you're offline, and when someone skips, every player's task speeds up.",
+				"trans": "离线期间任务仍会持续进行，若有人跳过，所有玩家的任务都会加速。"
+			},
 			"headline": {
 				"eng": "Progress While Offline",
 				"trans": "离线进度"
-			},
-			"sentence": {
-				"eng": "Start a task before logging off to continue gathering resources and leveling up in the background.",
-				"trans": "下线前开启任务，即可在后台持续采集资源并提升等级。"
-			}
-		},
-		"animation": {
-			"asset": {
-				"eng": "Asset",
-				"trans": "资产"
-			},
-			"autotask": {
-				"eng": "AUTOTASK",
-				"trans": "自动任务"
-			},
-			"buy": {
-				"eng": "EXECUTE: BUY",
-				"trans": "执行购买"
-			},
-			"chat1": {
-				"eng": "LFG Abandoned Factory, need healer.",
-				"trans": "求组队，废弃工厂，缺奶妈。"
-			},
-			"chat2": {
-				"eng": "Inv, I got medkits.",
-				"trans": "Inv，我拿到医疗包了。"
-			},
-			"chat3": {
-				"eng": "Global Buff Activated by Kael",
-				"trans": "凯尔已开启全局增益"
-			},
-			"efficiency": {
-				"eng": "Efficiency",
-				"trans": "效率"
-			},
-			"price": {
-				"eng": "Lowest Price",
-				"trans": "最低价"
-			},
-			"reverse_engineering": {
-				"eng": "REVERSE_ENGINEERING",
-				"trans": "逆向工程"
-			},
-			"system": {
-				"eng": "System:",
-				"trans": "系统："
-			},
-			"waiting": {
-				"eng": "WAITING FOR ORDERS...",
-				"trans": "等待指令中..."
-			},
-			"yield_acquired": {
-				"eng": "YIELD ACQUIRED",
-				"trans": "已获取收益"
 			}
 		},
 		"cta": {
@@ -21353,13 +21407,27 @@
 			}
 		},
 		"economy": {
+			"beat": {
+				"buy": {
+					"eng": "You buy one",
+					"trans": "你购买一件"
+				},
+				"list": {
+					"eng": "Players craft & list",
+					"trans": "玩家制作与上架"
+				},
+				"pay": {
+					"eng": "Coins go to its maker",
+					"trans": "金币归制作者所有"
+				}
+			},
+			"body": {
+				"eng": "Everything on the market is made and sold by players, so your coins go to them.",
+				"trans": "市场上的一切均由玩家制造并出售，因此你的金币会流向他们。"
+			},
 			"headline": {
 				"eng": "Player-Driven Economy",
 				"trans": "玩家驱动型经济"
-			},
-			"sentence": {
-				"eng": "Every item in the market is crafted and traded by real players like you.",
-				"trans": "市场中的每件物品都由和你一样的真实玩家打造与交易"
 			}
 		},
 		"error": {
@@ -21377,13 +21445,51 @@
 			}
 		},
 		"fairness": {
+			"beat": {
+				"deploy": {
+					"eng": "Someone deploys a buff",
+					"trans": "有人部署了增益"
+				},
+				"share": {
+					"eng": "Every player gets it",
+					"trans": "每位玩家均可获得"
+				},
+				"you": {
+					"eng": "You get it too",
+					"trans": "你懂的"
+				}
+			},
+			"body": {
+				"eng": "When someone deploys a buff, every player on the server gets it, including you.",
+				"trans": "当有人部署增益时，全服所有玩家都会获得它，包括你。"
+			},
 			"headline": {
 				"eng": "Zero Pay-To-Win",
 				"trans": "零付费取胜"
+			}
+		},
+		"gear": {
+			"beat": {
+				"calibrate": {
+					"eng": "Calibrate to push further",
+					"trans": "校准以进一步突破"
+				},
+				"roll": {
+					"eng": "Every drop rolls",
+					"trans": "每一滴都随拍滚动"
+				},
+				"unique": {
+					"eng": "One of a kind",
+					"trans": "独一无二"
+				}
 			},
-			"sentence": {
-				"eng": "All premium buffs are shared globally across the server. When someone supports the game, the entire community benefits and progresses together.",
-				"trans": "所有高级增益均为全服共享。每当有玩家支持游戏时，整个社区都能受益并共同进步。"
+			"body": {
+				"eng": "Every drop rolls its own tier and stats, and calibration pushes it even further.",
+				"trans": "每份掉落都会随机生成独立的品阶和属性，校准还能进一步提升。"
+			},
+			"headline": {
+				"eng": "One-of-a-Kind Gear",
+				"trans": "孤品装备"
 			}
 		},
 		"loading": {
@@ -21392,23 +21498,72 @@
 				"trans": "正在初始化欢迎序列"
 			}
 		},
+		"raid": {
+			"beat": {
+				"loot": {
+					"eng": "Loot for everyone",
+					"trans": "全员战利品"
+				},
+				"party": {
+					"eng": "Party up",
+					"trans": "开趴"
+				},
+				"raid": {
+					"eng": "Raid the boss",
+					"trans": "突袭首领"
+				}
+			},
+			"body": {
+				"eng": "Team up in shared dungeons, and everyone who helps take down a boss gets their own loot.",
+				"trans": "在共享副本中组队协作，每位协助击败首领的玩家都能获得专属战利品。"
+			},
+			"headline": {
+				"eng": "Raid as a Squad",
+				"trans": "小队突袭"
+			}
+		},
+		"scene": {
+			"away": {
+				"eng": "${time} away",
+				"trans": "${time}后离开",
+				"vars": [
+					"time"
+				]
+			},
+			"expBoost": {
+				"eng": "+80% EXP",
+				"trans": "经验值+80%"
+			},
+			"finishNowDescription": {
+				"eng": "Skips for every player",
+				"trans": "为所有玩家跳过"
+			},
+			"paid": {
+				"eng": "+1,200",
+				"trans": "+1,200"
+			},
+			"playersHelped": {
+				"eng": "${count} players helped",
+				"trans": "已帮助 ${count} 名玩家",
+				"vars": [
+					"count"
+				]
+			},
+			"skipped": {
+				"eng": "+${time} skipped",
+				"trans": "+${time} 已跳过",
+				"vars": [
+					"time"
+				]
+			},
+			"you": {
+				"eng": "You",
+				"trans": "你"
+			}
+		},
 		"skip": {
 			"eng": "Skip",
 			"trans": "跳过"
-		},
-		"splash": {
-			"connection": {
-				"eng": "// Connection Established",
-				"trans": "// 连接已建立"
-			},
-			"sys_init": {
-				"eng": "Sys.Init_Seq.01",
-				"trans": "系统初始化序列01"
-			},
-			"welcome": {
-				"eng": "Welcome To",
-				"trans": "欢迎来到"
-			}
 		}
 	}
 }

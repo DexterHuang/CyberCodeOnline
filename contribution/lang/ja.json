@@ -3199,6 +3199,10 @@
 			"eng": "Blood Moon",
 			"trans": "血月"
 		},
+		"donation59": {
+			"eng": "Prismatic",
+			"trans": "プリズミック"
+		},
 		"donation6": {
 			"eng": "Prestige",
 			"trans": "名声"
@@ -7143,10 +7147,20 @@
 				"trans": "ローストターキー"
 			}
 		},
+		"turkeyFeather": {
+			"description": {
+				"eng": "A feather shed by the runaway turkey. The Depot Tender trades Thanksgiving food and supplies for these.",
+				"trans": "逃げ出した七面鳥が落とした羽毛。デポテンダーはこれらと引き換えに、感謝祭用の食料や物資を渡す。"
+			},
+			"name": {
+				"eng": "Turkey Feather",
+				"trans": "ターキーの羽"
+			}
+		},
 		"turkeyRunPass": {
 			"description": {
-				"eng": "Entry to Turkey on the Run during Thanksgiving. Found in dungeon crates and through Deploy farm bot.",
-				"trans": "サンクスギビング期間中のターキーオンザランへの参加パス。ダンジョンコンテナやデプロイファームボットから入手可能。"
+				"eng": "Entry to Turkey on the Run during Thanksgiving.",
+				"trans": "サンクスギビング中のターキーオンザランへの入場パス。"
 			},
 			"name": {
 				"eng": "Turkey Run Pass",
@@ -9451,6 +9465,85 @@
 			"title": {
 				"eng": "Data Stream Interceptor",
 				"trans": "データストリームインターセプター"
+			}
+		},
+		"gyroLock": {
+			"containment": {
+				"eng": "CONTAINMENT",
+				"trans": "封じ込め"
+			},
+			"fail": {
+				"description": {
+					"eng": "The vault re-sealed before all three seals were set.",
+					"trans": "全3つのシールを設定する前に、金庫が再び封印されました。"
+				},
+				"retry": {
+					"eng": "Retry breach",
+					"trans": "侵入を再試行"
+				},
+				"status": {
+					"eng": "BREACH FAILED",
+					"trans": "侵入失敗"
+				},
+				"title": {
+					"eng": "Containment reset",
+					"trans": "封じ込めリセット"
+				}
+			},
+			"hint": {
+				"eng": "Touch and drag to rotate",
+				"trans": "触れてドラッグで回転"
+			},
+			"instruction": {
+				"eng": "Drag around the dial. The ring steadies near the lock point. Hold it there to set the seal.",
+				"trans": "ダイヤルに沿ってドラッグする。リングはロックポイント付近で安定する。その位置で長押ししてシールを設定する。"
+			},
+			"status": {
+				"breached": {
+					"eng": "BREACHED",
+					"trans": "突破"
+				},
+				"reset": {
+					"eng": "RESET",
+					"trans": "リセット"
+				},
+				"seal": {
+					"eng": "SEAL ${current}/${total}",
+					"trans": "SEAL ${current}/${total}",
+					"vars": [
+						"current",
+						"GyroLockConfig.SEAL_COUNT)",
+						"total"
+					]
+				}
+			},
+			"success": {
+				"status": {
+					"eng": "VAULT OPEN",
+					"trans": "金庫開放"
+				},
+				"title": {
+					"eng": "Breach complete",
+					"trans": "侵入完了"
+				}
+			},
+			"title": {
+				"eng": "Gyro Lock",
+				"trans": "ジャイロロック"
+			},
+			"vaultId": {
+				"eng": "VAULT ${id}",
+				"trans": "金庫${id}",
+				"vars": [
+					"id"
+				]
+			},
+			"window": {
+				"eng": "WINDOW ±${degrees}°",
+				"trans": "ウィンドウ ±${degrees}°",
+				"vars": [
+					"degrees"
+				]
 			}
 		},
 		"hexBuffer": {
@@ -12190,12 +12283,14 @@
 		"thanksgiving": {
 			"defaultLines": {
 				"eng": [
-					"Dinner has escaped. The butcher is not taking it well.",
-					"Bring a Turkey Run Pass. Grab the corn. Avoid becoming dinner."
+					"Dinner has escaped. The chef is not taking it well.",
+					"Bring a Turkey Run Pass. Grab the corn. Avoid becoming dinner.",
+					"Turkey feathers! Bring me the feathers and I'll trade you a proper dinner."
 				],
 				"trans": [
-					"ディナーが逃げた。肉屋は機嫌が悪い。",
-					"ターキーランパスを持参。トウモロコシを確保。夕食にされないように。"
+					"ディナーが逃げた。シェフは参っている。",
+					"ターキーランパスを持参しろ。コーンを拾え。ディナーにされんな。",
+					"七面鳥の羽！羽をよこせ、ちゃんとしたディナーと交換だ。"
 				]
 			},
 			"name": {
@@ -17076,6 +17171,12 @@
 				"trans": "ゲームは楽しい！コミュニティの盛り上がりが好きで、特にグローバルスキップやバフがあるときは最高だね。シンプルだけど、あまり負担を感じないくらいだよ。"
 			}
 		},
+		"review11": {
+			"quote": {
+				"eng": "I LOVE the global system! Whenever someone makes a purchase it benefits everyone on the server. One of the very few mobile games I've ever spent money on",
+				"trans": "グローバルシステムが最高！誰かが課金するたびにサーバーの全員が得をするんだ。私が課金したスマホゲームの中でも数少ない1本だ。"
+			}
+		},
 		"review2": {
 			"quote": {
 				"eng": "I love that the buffs benefit everyone playing the game. It's a new vibe to me - I'm used to using buffs for myself! Highly recommended for playing in your leisure time.",
@@ -17126,37 +17227,56 @@
 		}
 	},
 	"thanksgivingPromo": {
-		"desc1": {
-			"eng": "During event period, Roasted Turkey will drop rarely from scavenging and AKF Bot on all levels",
-			"trans": "イベント期間中, すべてのレベルの収集とAFKボットからローストターキーがまれにドロップします"
+		"contentLabel": {
+			"eng": "Event Content",
+			"trans": "イベント内容"
 		},
-		"desc2": {
-			"eng": "When a Roasted Turkey is consumed, you will get +20% EXP on AFK tasks for 20 minutes",
-			"trans": "ローストターキーを使用すると, 20分間AFKタスクのExpが20％増加します"
+		"description": {
+			"eng": "Outrun the chef in Turkey on the Run, gather Turkey Feathers, and trade with ${npc}.",
+			"trans": "走れターキーでシェフから逃げ切り、ターキーの羽毛を集めて ${npc} と取引しよう。",
+			"vars": [
+				"npc"
+			]
 		},
-		"footnote1": {
-			"eng": "Please note that the EXP bonus check is at AFK completion time, so you must have the Roasted Turkey buff active at the time of completion to receive the bonus.",
-			"trans": "ExpボーナスチェックはAFK完了時に発生するため, ボーナスを受けるには, タスク終了時にローストターキーのバフが有効な必要があります."
+		"donation": {
+			"eng": "During Thanksgiving, time-limited donation tiers and the Turkey emblem are available.",
+			"trans": "感謝祭中は、期間限定の寄付ティアと七面鳥エンブレムが利用可能です。"
 		},
-		"footnote2": {
-			"eng": "This effect will stack with other EXP bonus, and will only affect AFK tasks; tasks that does not have AFK timers will not be affected.",
-			"trans": "この効果は, 他のEXPボーナスと積み重ねられ, AFKタスクのみに影響します. AFKタイマーがないタスクは影響を受けません."
+		"eyebrow": {
+			"eng": "Limited-time Event",
+			"trans": "期間限定イベント"
 		},
-		"title": {
-			"eng": "Happy Thanksgiving!",
-			"trans": "感謝祭おめでとう！"
+		"titleV2": {
+			"eng": "Thanksgiving",
+			"trans": "感謝祭"
+		},
+		"turkeyBuff": {
+			"eng": "Trade Turkey Feathers for a ${turkey} at the ${depot}. Consume it for +20% AFK EXP for 20 minutes.",
+			"trans": "${depot}でターキーの羽を${turkey}と交換。消費すると20分間AFK経験値+20%。",
+			"vars": [
+				"turkey",
+				"depot"
+			]
+		},
+		"turkeyBuffRule": {
+			"eng": "Only AFK tasks count, and the buff must still be active when the task completes. Stacks with other EXP bonuses.",
+			"trans": "AFK任務のみ対象で、任務完了時もバフが発動中である必要があります。他の経験値ボーナスと重複して適用されます。"
 		}
 	},
 	"thanksgivingPromoSmall": {
-		"desc": {
-			"eng": "Consume delicious turkey to get +${percent}% EXP on AFK tasks",
-			"trans": "美味しいローストターキーを食べると, AFKタスクで +${percent}％のExpを獲得できます",
+		"description": {
+			"eng": "Outrun the chef. Trade feathers with ${npc}.",
+			"trans": "シェフを追い抜け。${npc}と羽毛を交換しろ。",
 			"vars": [
-				"percent"
+				"npc"
 			]
 		},
-		"title": {
-			"eng": "Thanksgiving event",
+		"eyebrow": {
+			"eng": "Limited-time Event",
+			"trans": "期間限定イベント"
+		},
+		"titleV2": {
+			"eng": "Thanksgiving",
 			"trans": "感謝祭"
 		}
 	},
@@ -17488,6 +17608,31 @@
 		}
 	},
 	"turkeyRun": {
+		"banner": {
+			"cleared": {
+				"eng": "Stage ${stage} clear",
+				"trans": "ステージ${stage} クリア",
+				"vars": [
+					"stage"
+				]
+			},
+			"clearedDetail": {
+				"eng": "Tier ${tier} secured · Entering ${name}",
+				"trans": "ティア${tier}確保 · ${name}へ进入",
+				"vars": [
+					"tier",
+					"name"
+				]
+			},
+			"escaped": {
+				"eng": "Escaped!",
+				"trans": "脱出した！"
+			},
+			"escapedDetail": {
+				"eng": "Tier 5 secured. The chef gives up.",
+				"trans": "第5ティア確保。シェフ降参。"
+			}
+		},
 		"close": {
 			"eng": "Close",
 			"trans": "閉じる"
@@ -17509,6 +17654,13 @@
 			}
 		},
 		"hud": {
+			"clearAt": {
+				"eng": "Clear at ${count} corn cobs",
+				"trans": "${count}本のトウモロコシでクリア",
+				"vars": [
+					"count"
+				]
+			},
 			"corn": {
 				"eng": "${count} corn cobs",
 				"trans": "${count}本のとうもろこし",
@@ -17523,9 +17675,12 @@
 					"distance"
 				]
 			},
-			"endless": {
-				"eng": "Endless — tier capped at 5",
-				"trans": "エンドレス：ティア上限5"
+			"escapeAt": {
+				"eng": "Escape at ${count} corn cobs",
+				"trans": "${count}本のトウモロコシで脱出",
+				"vars": [
+					"count"
+				]
 			},
 			"heartsLeft": {
 				"eng": "${count} hearts",
@@ -17534,12 +17689,9 @@
 					"count"
 				]
 			},
-			"nextStage": {
-				"eng": "Next stage at ${count} corn cobs",
-				"trans": "コーンコブ${count}個で次ステージ",
-				"vars": [
-					"count"
-				]
+			"noTier": {
+				"eng": "No tier secured",
+				"trans": "ティア未確保"
 			},
 			"oneHitLeft": {
 				"eng": "One hit left",
@@ -17552,9 +17704,9 @@
 					"stage"
 				]
 			},
-			"tier": {
-				"eng": "Tier ${tier} of 5",
-				"trans": "全5ティア中の${tier}ティア",
+			"tierSecured": {
+				"eng": "Tier ${tier} secured",
+				"trans": "ティア${tier}確保",
 				"vars": [
 					"tier"
 				]
@@ -17565,112 +17717,13 @@
 				"eng": "Event closed",
 				"trans": "イベント終了"
 			},
-			"corn": {
-				"eng": "Collect golden corn.",
-				"trans": "黄金のコーンを収集せよ"
+			"getPasses": {
+				"eng": "Get passes",
+				"trans": "通行証を入手"
 			},
-			"cornDetail": {
-				"eng": "Corn cobs add up through the whole run and are never spent. Reaching a corn total opens the next stage with no pause: ${stages}. Short of corn, the current stage keeps going.",
-				"trans": "コーンはラン全体で累計され、消費されることはありません。コーンの合計が目標に達すると、無停止で次のステージへ：${stages}。コーン不足時は現在のステージが続きます。",
-				"vars": [
-					"stages"
-				]
-			},
-			"cost": {
-				"eng": "One pass is consumed when your result is submitted, even if you earn no reward tier. You can pause, but cannot exit during the chase.",
-				"trans": "結果を提出すると、報酬ティアを獲得しなくてもパス1枚が消費されます。追走中は一時停止できますが、離脱はできません。"
-			},
-			"dodge": {
-				"eng": "Dodge.",
-				"trans": "回避。"
-			},
-			"dodgeDetail": {
-				"eng": "Swipe left or right (or press the left/right arrow keys) to change lanes. Low crates need a swipe up or the up arrow key to jump; overhead beams need a swipe down or the down arrow key to slide; big freight blocks must be dodged.",
-				"trans": "左右にスワイプするか、左右の矢印キーでレーンを変更します。低い箱は上へスワイプするか上矢印キーでジャンプし、頭上の梁は下へスワイプするか下矢引キーでスライドし、大型貨物ブロックは必ず回避してください。"
-			},
-			"endless": {
-				"eng": "${count}+ endless",
-				"trans": "${count}+ エンドレス",
-				"vars": [
-					"count"
-				]
-			},
-			"hazards": {
-				"eng": "Watch the road.",
-				"trans": "道路に注意。"
-			},
-			"hazardsDetail": {
-				"eng": "From stage 2, scattered puddles lock controls for one second. Slipping does not cost a heart, but hitting traffic during the spin does. Stage 3 adds bombs, stage 4 crossing carts, and stage 5 warning-lit steam vents. Jump or change lanes to avoid them.",
-				"trans": "ステージ2から、散らばった水たまりが操作を1秒ロックする。滑ってもハートは減らないが、スピン中に車両に衝突すると減る。ステージ3で爆弾、ステージ4で横切りカート、ステージ5で警告灯付きの蒸気噴出口を追加。ジャンプまたは車線変更で回避せよ。"
-			},
-			"needPass": {
-				"eng": "Need a pass",
-				"trans": "パスが必要"
-			},
-			"passCount": {
-				"eng": "Passes: ${count}",
-				"trans": "通過回数: ${count}",
-				"vars": [
-					"count"
-				]
-			},
-			"powerUp": {
-				"eng": "Risk the 2× detour.",
-				"trans": "2倍の回り道に賭けろ"
-			},
-			"powerUpDetail": {
-				"eng": "Rare 2× power-ups appear from stage 3 off the main route. They double corn for 5 seconds; another pickup refreshes the timer without stacking.",
-				"trans": "レアな2倍パワーアップはステージ3からメインルート外に出現します。コーンを5秒間2倍にし、もう一度拾うと残り時間は更新されますが、効果は重複しません。"
-			},
-			"rewards": {
-				"eng": "Earn tiers.",
-				"trans": "ティアを獲得する"
-			},
-			"rewardsDetail": {
-				"eng": "Corn totals of ${tiers} unlock reward tiers 1–5, separately from stage entry. You can earn the top reward before reaching stage 5. The last stage runs endlessly until capture, but rewards never go past tier 5.",
-				"trans": "コーン合計が${tiers}に達すると、ステージ進行とは別に報酬ティア1-5を解放します。最高報酬はステージ5到達前に獲得可能です。最終ステージは捕獲まで無限に続きますが、報酬はティア5を超えません。",
-				"vars": [
-					"tiers"
-				]
-			},
-			"roofs": {
-				"eng": "Take the high route.",
-				"trans": "上を抜けろ"
-			},
-			"roofsDetail": {
-				"eng": "Expect jump, slide and lane-change combinations from the start. From stage 2, judge roof gaps yourself: corn does not mark where to jump. Stages 4 and 5 chain roof transfers with hazards on landing.",
-				"trans": "最初からジャンプ、スライド、レーンチェンジのコンボが発生します。ステージ2以降は屋根の隙間を自分で判断してください。コーンはジャンプ地点を示しません。ステージ4と5では、着地にハザードがある屋根移動が連続します。"
-			},
-			"stageEntry": {
-				"eng": "${count} corn cobs",
-				"trans": "${count}本のとうもろこし",
-				"vars": [
-					"count"
-				]
-			},
-			"stageRow": {
-				"eng": "Stage ${stage}: ${name}",
-				"trans": "ステージ${stage}：${name}",
-				"vars": [
-					"stage",
-					"name"
-				]
-			},
-			"start": {
-				"eng": "Start the run",
-				"trans": "ランを開始"
-			},
-			"summary": {
-				"eng": "Escape the chef from the freight outskirts to the city centre. Grab golden corn, dodge the traffic, and don't get caught.",
-				"trans": "貨物地区の外れから市中心部へ、シェフから逃げ切れ。黄金のコーンを集め、車列をよけ、捕まれないこと。"
-			},
-			"survive": {
-				"eng": "Avoid getting caught.",
-				"trans": "捕まえられるな"
-			},
-			"surviveDetail": {
-				"eng": "Start with three hearts and hold up to four. Each hit costs one heart and gives you a brief recovery window. More hearts keep the chef farther away; losing one brings him closer. Stages 3, 4 and 5 each contain one randomly placed recovery heart. Miss it and it is gone.",
-				"trans": "開始時はハート3つで、最大4つまで保持できます。被弾するとハートが1つ減り、短時間の回復タイミングが発生します。ハートが多いほどシェフとの距離が開き、1つ失うと近付かれます。ステージ3、4、5にはそれぞれランダムな場所に回復ハートが1つ配置されています。取り逃すと消えます。"
+			"play": {
+				"eng": "Play",
+				"trans": "プレイ"
 			}
 		},
 		"loadError": {
@@ -17701,16 +17754,20 @@
 		},
 		"results": {
 			"caught": {
-				"eng": "Caught by the butcher",
-				"trans": "屠夫に捕まった"
+				"eng": "Caught by the chef",
+				"trans": "シェフに捕まった"
+			},
+			"escaped": {
+				"eng": "You escaped!",
+				"trans": "脱出した！"
 			},
 			"inbox": {
 				"eng": "Your tier is secured. Rewards were sent to your item inbox.",
 				"trans": "あなたのティアが確定しました。報酬はアイテム受信箱に送付済みです。"
 			},
 			"noTier": {
-				"eng": "Fewer than ${count} corn cobs means no reward tier. One pass was used.",
-				"trans": "コーンが${count}本未満の場合、報酬ティアは獲得できません。パスを1回使用しました。",
+				"eng": "Clear stage 1 at ${count} corn cobs to secure a reward tier. One pass was used.",
+				"trans": "ステージ1を${count}本のトウモロコシでクリアすると、報酬ティアを獲得できます。パス1回を使用しました。",
 				"vars": [
 					"count"
 				]
@@ -17737,6 +17794,23 @@
 			"unconfirmedDetail": {
 				"eng": "The run could not be confirmed. Check your pass balance and item inbox before starting another run.",
 				"trans": "ランの確定に失敗しました。パス残量とアイテム受信箱を確認してから、次のランを開始してください。"
+			}
+		},
+		"splash": {
+			"passCost": {
+				"eng": "${name} · 1 per run",
+				"trans": "${name} 1回につき1個",
+				"vars": [
+					"name"
+				]
+			},
+			"titleBottom": {
+				"eng": "on the Run",
+				"trans": "逃走中"
+			},
+			"titleTop": {
+				"eng": "Turkey",
+				"trans": "Turkey"
 			}
 		},
 		"stage": {
@@ -18281,6 +18355,12 @@
 			}
 		},
 		"battle": {
+			"attackBar": {
+				"max": {
+					"eng": "MAX",
+					"trans": "MAX"
+				}
+			},
 			"attackButton": {
 				"primary": {
 					"title": {
@@ -20459,10 +20539,10 @@
 				"trans": "利用規約に同意したことになります"
 			}
 		},
-		"rewardActionConfirmModal": {
+		"rewardActionCaptchaModal": {
 			"title": {
-				"eng": "Drag all processes icons into to the box entirely to initiate the task",
-				"trans": "タスクを開始するには, すべてのプロセスアイコンをボックス内に完全にドラッグしてください"
+				"eng": "Complete the check to start the task",
+				"trans": "確認をクリアしてタスクを開始"
 			}
 		},
 		"richInput": {
@@ -20508,6 +20588,16 @@
 				"title": {
 					"eng": "Animated NPC Character",
 					"trans": "NPCアニメーションを有効にする"
+				}
+			},
+			"attackEffects": {
+				"description": {
+					"eng": "Hit effects on enemies and the timing bar. Turn off if combat lags",
+					"trans": "敵やタイミングバーのヒットエフェクト。戦闘がカクつく場合はオフにしてください。"
+				},
+				"title": {
+					"eng": "Attack Effects",
+					"trans": "攻撃エフェクト"
 				}
 			},
 			"backgroundMusicVolume": {
@@ -21309,63 +21399,27 @@
 	},
 	"welcome": {
 		"afk": {
+			"beat": {
+				"away": {
+					"eng": "Log off, it keeps running",
+					"trans": "ログオフ、稼働は続きます"
+				},
+				"theirSkip": {
+					"eng": "Someone skips, you jump ahead",
+					"trans": "誰かがスキップすると、先へ飛ぶ"
+				},
+				"yourSkip": {
+					"eng": "Your skip helps everyone",
+					"trans": "あなたのスキップで全員を助ける"
+				}
+			},
+			"body": {
+				"eng": "Tasks keep running while you're offline, and when someone skips, every player's task speeds up.",
+				"trans": "オフライン中もタスクは動き続け、誰かがスキップすると全員のタスクが加速します。"
+			},
 			"headline": {
 				"eng": "Progress While Offline",
 				"trans": "オフライン進捗"
-			},
-			"sentence": {
-				"eng": "Start a task before logging off to continue gathering resources and leveling up in the background.",
-				"trans": "ログアウト前にタスクを開始すると、バックグラウンドでリソースの収集やレベルアップが継続します。"
-			}
-		},
-		"animation": {
-			"asset": {
-				"eng": "Asset",
-				"trans": "アセット"
-			},
-			"autotask": {
-				"eng": "AUTOTASK",
-				"trans": "オートタスク"
-			},
-			"buy": {
-				"eng": "EXECUTE: BUY",
-				"trans": "購入を実行"
-			},
-			"chat1": {
-				"eng": "LFG Abandoned Factory, need healer.",
-				"trans": "廃工場、ヒーラー募集中"
-			},
-			"chat2": {
-				"eng": "Inv, I got medkits.",
-				"trans": "インブ、メディキットを持ってる。"
-			},
-			"chat3": {
-				"eng": "Global Buff Activated by Kael",
-				"trans": "ケイルがグローバルバフを発動"
-			},
-			"efficiency": {
-				"eng": "Efficiency",
-				"trans": "効率"
-			},
-			"price": {
-				"eng": "Lowest Price",
-				"trans": "最安価格"
-			},
-			"reverse_engineering": {
-				"eng": "REVERSE_ENGINEERING",
-				"trans": "逆解析"
-			},
-			"system": {
-				"eng": "System:",
-				"trans": "システム："
-			},
-			"waiting": {
-				"eng": "WAITING FOR ORDERS...",
-				"trans": "指令待機中..."
-			},
-			"yield_acquired": {
-				"eng": "YIELD ACQUIRED",
-				"trans": "収量確保済み"
 			}
 		},
 		"cta": {
@@ -21379,13 +21433,27 @@
 			}
 		},
 		"economy": {
+			"beat": {
+				"buy": {
+					"eng": "You buy one",
+					"trans": "1つを購入する"
+				},
+				"list": {
+					"eng": "Players craft & list",
+					"trans": "プレイヤーの制作と出品"
+				},
+				"pay": {
+					"eng": "Coins go to its maker",
+					"trans": "コインは制作者に送金されます"
+				}
+			},
+			"body": {
+				"eng": "Everything on the market is made and sold by players, so your coins go to them.",
+				"trans": "市場の商品はすべてプレイヤーが制作し販売しており、あなたが支払ったコインはそのままプレイヤーに渡ります。"
+			},
 			"headline": {
 				"eng": "Player-Driven Economy",
 				"trans": "プレイヤー主導型経済"
-			},
-			"sentence": {
-				"eng": "Every item in the market is crafted and traded by real players like you.",
-				"trans": "市場のすべてのアイテムは、あなたと同じく実際のプレイヤーによって作成され、取引されています。"
 			}
 		},
 		"error": {
@@ -21403,13 +21471,51 @@
 			}
 		},
 		"fairness": {
+			"beat": {
+				"deploy": {
+					"eng": "Someone deploys a buff",
+					"trans": "誰かがバフを展開する"
+				},
+				"share": {
+					"eng": "Every player gets it",
+					"trans": "全プレイヤーが入手できます"
+				},
+				"you": {
+					"eng": "You get it too",
+					"trans": "君も分かってるな"
+				}
+			},
+			"body": {
+				"eng": "When someone deploys a buff, every player on the server gets it, including you.",
+				"trans": "誰かがバフをデプロイすると、サーバー内の全プレイヤーに付与されます。あなたも同様です。"
+			},
 			"headline": {
 				"eng": "Zero Pay-To-Win",
 				"trans": "課金優遇ゼロ"
+			}
+		},
+		"gear": {
+			"beat": {
+				"calibrate": {
+					"eng": "Calibrate to push further",
+					"trans": "調整して限界突破"
+				},
+				"roll": {
+					"eng": "Every drop rolls",
+					"trans": "全ドロップでロール"
+				},
+				"unique": {
+					"eng": "One of a kind",
+					"trans": "唯一無二"
+				}
 			},
-			"sentence": {
-				"eng": "All premium buffs are shared globally across the server. When someone supports the game, the entire community benefits and progresses together.",
-				"trans": "すべてのプレミアムバフはサーバー内でグローバルに共有されています。誰かがゲームを支援すれば、コミュニティ全員がその恩恵を受け、共に成長していきます。"
+			"body": {
+				"eng": "Every drop rolls its own tier and stats, and calibration pushes it even further.",
+				"trans": "各ドロップが独自のティアとステータスをロールし、キャリブレーションによりさらに性能を高めます。"
+			},
+			"headline": {
+				"eng": "One-of-a-Kind Gear",
+				"trans": "唯一無二のギア"
 			}
 		},
 		"loading": {
@@ -21418,23 +21524,72 @@
 				"trans": "ウェルカム・シーケンスを初期化中"
 			}
 		},
+		"raid": {
+			"beat": {
+				"loot": {
+					"eng": "Loot for everyone",
+					"trans": "全員の戦利品"
+				},
+				"party": {
+					"eng": "Party up",
+					"trans": "パーティを組もう"
+				},
+				"raid": {
+					"eng": "Raid the boss",
+					"trans": "ボス討伐"
+				}
+			},
+			"body": {
+				"eng": "Team up in shared dungeons, and everyone who helps take down a boss gets their own loot.",
+				"trans": "共有ダンジョンで仲間と連携しボスの撃破に貢献した全員が自分の戦利品を獲得できます"
+			},
+			"headline": {
+				"eng": "Raid as a Squad",
+				"trans": "スクワッドでレイドへ"
+			}
+		},
+		"scene": {
+			"away": {
+				"eng": "${time} away",
+				"trans": "あと${time}",
+				"vars": [
+					"time"
+				]
+			},
+			"expBoost": {
+				"eng": "+80% EXP",
+				"trans": "+80% 経験値"
+			},
+			"finishNowDescription": {
+				"eng": "Skips for every player",
+				"trans": "全プレイヤーでスキップします"
+			},
+			"paid": {
+				"eng": "+1,200",
+				"trans": "+1,200"
+			},
+			"playersHelped": {
+				"eng": "${count} players helped",
+				"trans": "${count}人のプレイヤーを支援した",
+				"vars": [
+					"count"
+				]
+			},
+			"skipped": {
+				"eng": "+${time} skipped",
+				"trans": "+${time}スキップ",
+				"vars": [
+					"time"
+				]
+			},
+			"you": {
+				"eng": "You",
+				"trans": "あなた"
+			}
+		},
 		"skip": {
 			"eng": "Skip",
 			"trans": "スキップ"
-		},
-		"splash": {
-			"connection": {
-				"eng": "// Connection Established",
-				"trans": "// 接続確立"
-			},
-			"sys_init": {
-				"eng": "Sys.Init_Seq.01",
-				"trans": "システム初期化シーケンス01"
-			},
-			"welcome": {
-				"eng": "Welcome To",
-				"trans": "ようこそ"
-			}
 		}
 	}
 }
