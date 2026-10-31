@@ -19,15 +19,13 @@ Please send your feedback to my Discord or email me directly.
 ### 0.1903
 
 - **Thanksgiving (11/01 to 11/30)**:
-  - Added the `Turkey on the Run` event game. Play it at `Thanksgiving Depot` with a `Turkey Run Pass`, and collect corn across five stages to secure higher reward tiers.
-  - Find `Turkey Run Pass` from AFK bot farming and dungeon chests, and `Turkey Feather` from those plus scavenging. Trade `Turkey Feather` with `Depot Tender` for `Roasted Turkey` and supplies.
-  - Added the `Prismatic` donation frame, and `Vice Heat` returns with a refreshed look.
-- Added the new `Gyro Lock` minigame. Checks before starting a task now draw from all minigames.
+    - Added the `Turkey on the Run` event game. Play it at `Thanksgiving Depot` with a `Turkey Run Pass`, and collect corn across five stages to secure higher reward tiers.
+    - Find `Turkey Run Pass` from AFK bot farming and dungeon chests, and `Turkey Feather` from those plus scavenging. Trade `Turkey Feather` with `Depot Tender` for `Roasted Turkey` and supplies.
+    - Added the `Prismatic` donation frame, and `Vice Heat` returns with a refreshed look.
+- Added the new `Gyro Lock` minigame.
 - Upgraded battle visuals with hit effects and animated enemy entrances and defeats. Turn them off with the new `Attack Effects` setting if combat lags.
-- Rebuilt the first-login welcome intro, and new players now start in `Global Chat`.
+- Rebuilt the first-login welcome intro
 - Added `Shrimp` emblem.
-- Streamlined donation frame purchases: tap a frame to review its preview, benefits, and price in one confirmation.
-- Redesigned event benefit listings so rewards, drops, and discounts are easier to find.
 - Improved `Community Raffle` screens with clearer status, timing, and actions.
 - Improved chat performance and message ordering.
 - Improved dungeon enemy encounter reliability.
@@ -45,9 +43,9 @@ Please send your feedback to my Discord or email me directly.
 ### 0.1901
 
 - **Nightbloom Festival (09/01 to 09/30)**:
-  - Added the `Precision Tower` event game. Find `Nightbloom Access Shard` from AFK bot farming and dungeon chests to play.
-  - Collect `Nightbloom Petal` during the event and trade it with `Vesper` at the `Nightbloom Florist` for event rewards.
-  - Added `Nightbloom Infusion`, `Chat Lottery Skip Voucher`, event rewards, and the weekly `Epic Cache Fusion Bundle`.
+    - Added the `Precision Tower` event game. Find `Nightbloom Access Shard` from AFK bot farming and dungeon chests to play.
+    - Collect `Nightbloom Petal` during the event and trade it with `Vesper` at the `Nightbloom Florist` for event rewards.
+    - Added `Nightbloom Infusion`, `Chat Lottery Skip Voucher`, event rewards, and the weekly `Epic Cache Fusion Bundle`.
 - Redesigned the `Bank of Arasaka` with ATM deposit and withdrawal flows plus an `Item Vault` for bulk storage, retrieval, capacity tracking, and upgrades.
 - Added the `Nightbloom` donation frame with matching profile styling and player-banner presentation.
 - Improved mobile chat frame previews
@@ -78,27 +76,27 @@ Please send your feedback to my Discord or email me directly.
 ### 0.1897
 
 - **Community Raffles**:
-  - Missing `Community Raffle Kit` requirements now link to item sources.
-  - Player names and equipment attachments now open their matching details.
-  - Improved raffle announcements, entrant lists, timers, and reliability.
+    - Missing `Community Raffle Kit` requirements now link to item sources.
+    - Player names and equipment attachments now open their matching details.
+    - Improved raffle announcements, entrant lists, timers, and reliability.
 - Added clearer explanations for `Skip Points` and `Verified Mentorships` on player profiles.
 - Improved Handler selection warnings and made Handler milestone emblems visible in the emblem list.
 
 ### 0.1896
 
 - **Summer Nights**:
-  - Added `Neon Nights Grid` event game.
-  - Collect `Seashell` and `Neon Nights Pass` from AFK bot farming and dungeon chests, to exchange rewards from `Josie` at `Crystal Beach`.
-  - Top-ups receive bonus `Rare Synaptic Acceleration Transmitter` items during the event.
-  - Added the weekly `Summer Nights Fusion Bundle` with three `Equipment Exchange Access Token` items at 30% off during event period.
+    - Added `Neon Nights Grid` event game.
+    - Collect `Seashell` and `Neon Nights Pass` from AFK bot farming and dungeon chests, to exchange rewards from `Josie` at `Crystal Beach`.
+    - Top-ups receive bonus `Rare Synaptic Acceleration Transmitter` items during the event.
+    - Added the weekly `Summer Nights Fusion Bundle` with three `Equipment Exchange Access Token` items at 30% off during event period.
 - **Handler System**:
-  - Eligible new players can choose an experienced player as their Handler.
-  - Verified level 50 completions reward the Handler and count toward milestone emblems, helping new players can earn you free emblems.
+    - Eligible new players can choose an experienced player as their Handler.
+    - Verified level 50 completions reward the Handler and count toward milestone emblems, helping new players can earn you free emblems.
 - **Community Raffles**:
-  - Create and join public raffles from `Mobile Apps` or `Global Chat` header.
-  - Requires level 300+ and a `Community Raffle Kit` to create a raffle
-  - More information can be found in the tutorial page.
-  - `Community Raffle kit` can be obtained from redeeming `Low Reclamation Voucher` or `High Reclamation Voucher` from `Reclamation Depot` or purchased from Arasaka Unit Exchange.
+    - Create and join public raffles from `Mobile Apps` or `Global Chat` header.
+    - Requires level 300+ and a `Community Raffle Kit` to create a raffle
+    - More information can be found in the tutorial page.
+    - `Community Raffle kit` can be obtained from redeeming `Low Reclamation Voucher` or `High Reclamation Voucher` from `Reclamation Depot` or purchased from Arasaka Unit Exchange.
 - Added pinned profile emblems, you can now pin up to 5 emblems to your profile for other players to see.
 - Added ability to search in tutorial pages, supports searching in current language and English.
 - Added new `Order Sync` minigame
@@ -114,17 +112,17 @@ Please send your feedback to my Discord or email me directly.
 ### 0.1895
 
 - **Heatwave Festival (07/01 to 07/31)**:
-  - Added the level 15 `Solar Float Stack` event game.
-  - Collect `Seashell` and `Solar Float Pass` through event activities, then visit `Josie` at `Crystal Beach` to play and exchange rewards.
-  - Early contributors get a discount on party contributions, and top-ups receive bonus `Rare Synaptic Acceleration Transmitter` items.
+    - Added the level 15 `Solar Float Stack` event game.
+    - Collect `Seashell` and `Solar Float Pass` through event activities, then visit `Josie` at `Crystal Beach` to play and exchange rewards.
+    - Early contributors get a discount on party contributions, and top-ups receive bonus `Rare Synaptic Acceleration Transmitter` items.
 - Improved chat frame presentation and added another idle animation for `Josie`.
 
 ### 0.1894
 
 - **June Event Spectrum Jump**:
-  - Updated the June event presentation around `Spectrum Jump`, `Spectrum Prism`, and `Lightwalker` at `Spectrum Plaza`.
-  - Added a dedicated June promo screen with event benefits, rewards, and entry details.
-  - During the June event, skips have a rare chance to award the unobtainable `doge` emblem.
+    - Updated the June event presentation around `Spectrum Jump`, `Spectrum Prism`, and `Lightwalker` at `Spectrum Plaza`.
+    - Added a dedicated June promo screen with event benefits, rewards, and entry details.
+    - During the June event, skips have a rare chance to award the unobtainable `doge` emblem.
 - Added the new `Signal Splice` minigame.
 - Improved chat and mail attachment controls with cleaner previews and shared remove/action menus.
 - Improved mobile tabs with better accessibility behaviour.
@@ -143,8 +141,8 @@ Please send your feedback to my Discord or email me directly.
 ### 0.1892
 
 - **May Event & Missile Command**:
-  - Added the May event with the new `Missile Command` event game, event drops, exchange rewards, contribution discounts, top-up bonuses, and dedicated promo display.
-  - Open the in-game promo popup during the event for the full reward, drop, and benefit details.
+    - Added the May event with the new `Missile Command` event game, event drops, exchange rewards, contribution discounts, top-up bonuses, and dedicated promo display.
+    - Open the in-game promo popup during the event for the full reward, drop, and benefit details.
 - Improved mobile AFK visuals with smoother animations, more activity-specific scenes, and better fallback visuals.
 - Refined the mobile global skip flow with clearer feedback and cleaner discount details.
 - Mobile tips now load in your selected language for a more localized experience.
@@ -161,17 +159,17 @@ Please send your feedback to my Discord or email me directly.
 ### 0.1890
 
 - **Reclamation Depot**:
-  - Added `Reclamation Depot` at `Crystal Sands`, where you can donate surplus equipment into a shared community reward pool
-  - Donations has low chance of dropping `Low Reclamation Voucher` or `High Reclamation Voucher` depending on the equipment tier, and vouchers can be redeemed for random pooled rewards
-  - Reclamation Depot donations unlock at level 100, and voucher redemption unlocks at level 30
+    - Added `Reclamation Depot` at `Crystal Sands`, where you can donate surplus equipment into a shared community reward pool
+    - Donations has low chance of dropping `Low Reclamation Voucher` or `High Reclamation Voucher` depending on the equipment tier, and vouchers can be redeemed for random pooled rewards
+    - Reclamation Depot donations unlock at level 100, and voucher redemption unlocks at level 30
 - **Easter Event** (04/01 to 04/30):
-  - During the event, `Egg Shell Token` and `Easter Event Pass` can drop from AFK bot farming and dungeon chests
-  - Exchange `Egg Shell Token` with `Eggbert` for Easter event supplies
-  - Party contribution receives up to 10% discount for early contributors
-  - Skips receive a 5% discount during the event
-  - **Spring Pop Event Game**:
-    - Added new event game where you match eggs before time runs out across progressive stages
-    - Requires `Easter Event Pass` to play (obtainable from dungeon chests and AFK farming during the Easter event)
+    - During the event, `Egg Shell Token` and `Easter Event Pass` can drop from AFK bot farming and dungeon chests
+    - Exchange `Egg Shell Token` with `Eggbert` for Easter event supplies
+    - Party contribution receives up to 10% discount for early contributors
+    - Skips receive a 5% discount during the event
+    - **Spring Pop Event Game**:
+        - Added new event game where you match eggs before time runs out across progressive stages
+        - Requires `Easter Event Pass` to play (obtainable from dungeon chests and AFK farming during the Easter event)
 - Added a new first-login welcome flow after character creation
 - fixed marriage setting related problem
 - Added the `Bababoey cat` emblem
@@ -180,12 +178,12 @@ Please send your feedback to my Discord or email me directly.
 ### 0.1889
 
 - **Sakura Festival**:
-  - During the event, `Sakura Petal` can drop from AFK bot farming and dungeon chests
-  - Chat during the event for a chance to receive `Sakura Petal` rewards
-  - Calibration contribution receives up to 5% discount for early contributors
-  - Exchange `Sakura Petal` with `Mochi` at `Shiba Shrine` for various items including `Soda Pop`, `Pet Toy`, and `Skip Discount Ticket`
-  - Giving daily street cred now sends a small random item reward to your item inbox
-  - During the event, skips have a rare chance to award the unobtainable `doge` emblem
+    - During the event, `Sakura Petal` can drop from AFK bot farming and dungeon chests
+    - Chat during the event for a chance to receive `Sakura Petal` rewards
+    - Calibration contribution receives up to 5% discount for early contributors
+    - Exchange `Sakura Petal` with `Mochi` at `Shiba Shrine` for various items including `Soda Pop`, `Pet Toy`, and `Skip Discount Ticket`
+    - Giving daily street cred now sends a small random item reward to your item inbox
+    - During the event, skips have a rare chance to award the unobtainable `doge` emblem
 - Added `Cyberbloom` chat frame with matching profile styling, available during the Sakura Festival
 - Added profile preview to the chat frame gallery so you can preview how cosmetic tiers look on your profile before redeem
 - Updated the emblem list with clearer Owned, Limited, and unobtainable states
@@ -194,7 +192,7 @@ Please send your feedback to my Discord or email me directly.
 ### 0.1888
 
 - **Lucky Dice** updates:
-  - You can now choose between `6-Sided Dice` and `20-Sided Dice` when rolling
+    - You can now choose between `6-Sided Dice` and `20-Sided Dice` when rolling
 
 ### 0.1887
 
@@ -205,31 +203,31 @@ Please send your feedback to my Discord or email me directly.
 - During the event, top-ups will receive bonus `Rare Synaptic Acceleration Transmitter`
 - Added `Lunar Stallion` chat frame with animated effects, available during the Lunar New Year event
 - **Dumpling Master Event Game**:
-  - Added new event game where you assemble dumplings by selecting the correct ingredients across progressive stages
-  - Features combo streak indicators and stage transition animations with sound effects
-  - Each stage increases in difficulty with faster timing and more complex recipes
-  - Requires `Lunar Chef Pass` to play (obtainable from dungeon chests and AFK farming during the Lunar New Year event)
+    - Added new event game where you assemble dumplings by selecting the correct ingredients across progressive stages
+    - Features combo streak indicators and stage transition animations with sound effects
+    - Each stage increases in difficulty with faster timing and more complex recipes
+    - Requires `Lunar Chef Pass` to play (obtainable from dungeon chests and AFK farming during the Lunar New Year event)
 - **ALL** Event items will expire when event ends
 - **Search in inventory**: We have added search to inventory and some item listing, so you can type to find items faster
 - **Lucky Dice**:
-  - Added `Lucky Dice` item — roll it in chat to (for various community uses)
-  - `Lucky Dice` has a rare chance to drop from enemies and AFK farming
-  - Each roll consumes one dice and broadcasts the result to the chat channel
-  - `Lucky Dice` is a rare drop, not tradable and has a use rate limit to prevent spam or abuse.
+    - Added `Lucky Dice` item — roll it in chat to (for various community uses)
+    - `Lucky Dice` has a rare chance to drop from enemies and AFK farming
+    - Each roll consumes one dice and broadcasts the result to the chat channel
+    - `Lucky Dice` is a rare drop, not tradable and has a use rate limit to prevent spam or abuse.
 - Reworked chat server system to allow persistent chat history over server restarts.
 - Added new landing page for the game website
 - Updated login page UI
 - Enhanced top-up bonus banner with improved visual design
 - Improved chat rendering performance
 - **Item Renaming**:
-  - You can now give custom names to your equipments
-  - Rename costs 2048 Units
-  - Names are automatically moderated strictly for safety at the moment, this may be relaxed in the future based on feedback
-  - Rename history is tracked, viewable by clicking the rename history button on item details
-  - Renamed items display a pencil icon and "Custom Name" badge to help identify them
-  - Moderator can remove custom names if needed
+    - You can now give custom names to your equipments
+    - Rename costs 2048 Units
+    - Names are automatically moderated strictly for safety at the moment, this may be relaxed in the future based on feedback
+    - Rename history is tracked, viewable by clicking the rename history button on item details
+    - Renamed items display a pencil icon and "Custom Name" badge to help identify them
+    - Moderator can remove custom names if needed
 - **New Donator Benefit**
-  - player with donator frames(donator tier and above) can attach equipments to chat messages
+    - player with donator frames(donator tier and above) can attach equipments to chat messages
 
 ### 0.1886
 
@@ -240,11 +238,11 @@ Please send your feedback to my Discord or email me directly.
 - During the event, top-ups will receive bonus Rare Synaptic Acceleration Transmitter
 - Added Golden New Year chat frame
 - **New Year Fireworks Event Game**:
-  - Added new event game where you tap fireworks before they fizzle out across 5 progressive stages
-  - Each stage increases in difficulty with faster timing and more fireworks
-  - Complete all stages for maximum rewards
-  - Requires Fireworks Pass to play (obtainable from dungeon chests and AFK farming)
-  - Access the game from Fireworks Plaza at Market Street
+    - Added new event game where you tap fireworks before they fizzle out across 5 progressive stages
+    - Each stage increases in difficulty with faster timing and more fireworks
+    - Complete all stages for maximum rewards
+    - Requires Fireworks Pass to play (obtainable from dungeon chests and AFK farming)
+    - Access the game from Fireworks Plaza at Market Street
 - New Year Champagne gives +20% AFK EXP boost for 20 minutes
 - Party contribution receives up to 10% discount for early contributors
 - New Year Token is tradable
@@ -263,25 +261,25 @@ Please send your feedback to my Discord or email me directly.
 - During the event, top-ups will receive bonus items
 - Added new Christmas-themed chat frames and emblems
 - **Christmas Workshop Event Game**:
-  - Added new event game where you sort gifts to correct zones across 5 progressive stages
-  - Each stage increases in difficulty with more gifts and faster pace
-  - Complete all stages for maximum rewards
-  - Requires Santa's Workshop Pass to play (obtainable during Christmas event)
-  - Access the game from CyberSanta at Market Street
-  - Added Santa's Workshop Pass item
-  - FrostByte Shard is now tradable
-  - Added Skip Discount Ticket exchange option at CyberSanta
+    - Added new event game where you sort gifts to correct zones across 5 progressive stages
+    - Each stage increases in difficulty with more gifts and faster pace
+    - Complete all stages for maximum rewards
+    - Requires Santa's Workshop Pass to play (obtainable during Christmas event)
+    - Access the game from CyberSanta at Market Street
+    - Added Santa's Workshop Pass item
+    - FrostByte Shard is now tradable
+    - Added Skip Discount Ticket exchange option at CyberSanta
 - **Jukebox System**:
-  - Reworked personal jukebox player (Walkman mode) - select background music to play everywhere you go
-  - Added apartment jukebox (Home Speaker mode) - set background music that plays for visitors in your apartment
-  - Override mode allows your personal selection to override location-based music
-  - Access jukebox from apartment page or settings menu
+    - Reworked personal jukebox player (Walkman mode) - select background music to play everywhere you go
+    - Added apartment jukebox (Home Speaker mode) - set background music that plays for visitors in your apartment
+    - Override mode allows your personal selection to override location-based music
+    - Access jukebox from apartment page or settings menu
 - **Apartment Wall Feature**:
-  - Players can now post notes on other players' apartment walls
-  - Requires Friendship Sticker item to post notes, they can currently be obtained from dungeon
-  - Apartment owners can enable/disable wall feature in settings
-  - We only allow friendly notes to be posted to prevent abuse
-  - View recent notes posted by visitors on your apartment wall
+    - Players can now post notes on other players' apartment walls
+    - Requires Friendship Sticker item to post notes, they can currently be obtained from dungeon
+    - Apartment owners can enable/disable wall feature in settings
+    - We only allow friendly notes to be posted to prevent abuse
+    - View recent notes posted by visitors on your apartment wall
 
 - Added new Relay Grid minigame with drag and touch support
 - Added new Hex Buffer minigame - follow the sequence of hex codes by alternating between rows and columns
@@ -293,33 +291,33 @@ Please send your feedback to my Discord or email me directly.
 - Updated train station background image
 - Updated mail list UI
 - **Added some features from player suggestions**:
-  - Show player buffs to AFK start pages
-  - Made `Tech Scrap Cluster` shown as yellow in crafting option
-  - Added new icons for Event, furniture and consumable items
-  - Added filter by Event, Furniture and Consumable items in inventory page
+    - Show player buffs to AFK start pages
+    - Made `Tech Scrap Cluster` shown as yellow in crafting option
+    - Added new icons for Event, furniture and consumable items
+    - Added filter by Event, Furniture and Consumable items in inventory page
 
 ### 0.1884
 
 - **Furniture System** (Level 300+ required):
-  - Added late-game collectible furniture system that additionally provides minor stat bonuses to players when activated, **furniture stats stacks even in the same category**
-  - Craft furniture using progressive Assembly Kit system (Basic → Advanced → High-End)
-  - Trade Assembly Kits with `Miles` the Furniture Vendor NPC at `Crystal Sands` for specific furniture
-  - Activate furniture using `Energy Cells` obtained from AFK tasks
-  - Gather furniture materials from `Crystal Sands` AFK tasks (`Salvage Beached Tech Cargo` and `Salvage Power Units`)
-  - For detailed information, please refer to the furniture tutorial page
+    - Added late-game collectible furniture system that additionally provides minor stat bonuses to players when activated, **furniture stats stacks even in the same category**
+    - Craft furniture using progressive Assembly Kit system (Basic → Advanced → High-End)
+    - Trade Assembly Kits with `Miles` the Furniture Vendor NPC at `Crystal Sands` for specific furniture
+    - Activate furniture using `Energy Cells` obtained from AFK tasks
+    - Gather furniture materials from `Crystal Sands` AFK tasks (`Salvage Beached Tech Cargo` and `Salvage Power Units`)
+    - For detailed information, please refer to the furniture tutorial page
 
 **PLEASE NOTE: As this is a new feature, things may change in the future as we gather more feedback, Please feel free to provide your feedback to my Discord DM or email me directly at ching.huang.dexter@gmail.com.**
 
 - **Apartment Updates**:
-  - Reworked apartment UI for better user experience
-  - Added new apartment tier with more furniture slots
+    - Reworked apartment UI for better user experience
+    - Added new apartment tier with more furniture slots
 
 - **Thanksgiving Event**
-  - Scavenging and AFK bot farm will drop `Roasted Turkey` rarely
-  - Consuming `Roasted Turkey` gives +20% AFK EXP boost for 20 minutes
-  - Party contribution receives up to 10% discount for early contributors
-  - During the event, top-ups will receive bonus `Rare Synaptic Acceleration Transmitter`
-  - **ALL** Event items will expire when event ends
+    - Scavenging and AFK bot farm will drop `Roasted Turkey` rarely
+    - Consuming `Roasted Turkey` gives +20% AFK EXP boost for 20 minutes
+    - Party contribution receives up to 10% discount for early contributors
+    - During the event, top-ups will receive bonus `Rare Synaptic Acceleration Transmitter`
+    - **ALL** Event items will expire when event ends
 
 ### 0.1883
 
@@ -330,11 +328,11 @@ Please send your feedback to my Discord or email me directly.
 ### 0.1882
 
 - Halloween Event (10/01 to 10/31):
-  - Enemies and AFK bot farms will drop `Pumpkin Bro's Seed` which you can exchange for various rewards with `Pumpkin Bro` at the Alleyway in Market Street, event based item will expire when event ends
-  - `Pumpkin Bro's Seed` are tradable between players and can be exchanged for several items
-  - Added `Caramel Apple` provides a 10% boost to AFK EXP and BTC gains for 20 minutes, expires when event ends
-  - Added `Pumpkin Bro's Lollipop` provides a 20% damage boost for 10 minutes, expires when event ends
-  - Halloween-themed chat frames and emblems are available during the event
+    - Enemies and AFK bot farms will drop `Pumpkin Bro's Seed` which you can exchange for various rewards with `Pumpkin Bro` at the Alleyway in Market Street, event based item will expire when event ends
+    - `Pumpkin Bro's Seed` are tradable between players and can be exchanged for several items
+    - Added `Caramel Apple` provides a 10% boost to AFK EXP and BTC gains for 20 minutes, expires when event ends
+    - Added `Pumpkin Bro's Lollipop` provides a 20% damage boost for 10 minutes, expires when event ends
+    - Halloween-themed chat frames and emblems are available during the event
 
 - Added translation support to gang chat channels
 - **Note**: Due to expected higher usage of the translation service, plus we changed the serviced provider, it may be unstable. Please let me know at ching.huang.dexter@gmail.com if you experience any issues
@@ -342,15 +340,15 @@ Please send your feedback to my Discord or email me directly.
 - As suggested by the community, tutorial quest at the quest tab will now be hidden for player higher than level 100
 
 - **Display Shelf System**:
-  - Added display shelf functionality - players can now display up to 3 items on their profile for other players to see
-  - Display shelves are visible to all players and any player can customize their own display shelf
-  - Display shelf slots now unlock progressively based on level and BTC requirements
-  - This feature allows players to showcase their favorite equipment and inventory items
+    - Added display shelf functionality - players can now display up to 3 items on their profile for other players to see
+    - Display shelves are visible to all players and any player can customize their own display shelf
+    - Display shelf slots now unlock progressively based on level and BTC requirements
+    - This feature allows players to showcase their favorite equipment and inventory items
 
 - **Epic Equipment Exchange System Rework**:
-  - Instead of Extraction requiring buff activation, now we moved the buff requirement to Fragment Fusion instead. this way you can convert unwanted epic equipments into fragments at any time.
-  - This is great for inventory management - you can now easily convert unwanted epic equipments into fragments to save inventory slots without having to activate the buff
-  - Improved the Epic Cache Fragment drop rates from equipment extraction
+    - Instead of Extraction requiring buff activation, now we moved the buff requirement to Fragment Fusion instead. this way you can convert unwanted epic equipments into fragments at any time.
+    - This is great for inventory management - you can now easily convert unwanted epic equipments into fragments to save inventory slots without having to activate the buff
+    - Improved the Epic Cache Fragment drop rates from equipment extraction
 
 ### 0.1881
 
@@ -370,9 +368,9 @@ Please send your feedback to my Discord or email me directly.
 
 - Propose to other players using wedding rings (available for purchase in-game)
 - Create custom marriage banners with:
-  - Romantic symbols and heart emojis
-  - Custom background images (ultra-wide 2:1 ratio recommended)
-  - Personal vow phrases (up to 64 characters)
+    - Romantic symbols and heart emojis
+    - Custom background images (ultra-wide 2:1 ratio recommended)
+    - Personal vow phrases (up to 64 characters)
 - Marriage contracts with expiry dates that can be extended using Rose Bouquet gifts to your partner.
 - Marriage extensions trigger global chat announcements celebrating enduring love
 - Access marriage settings through player profiles for customisation
@@ -394,7 +392,7 @@ Please send your feedback to my Discord or email me directly.
 - Added new `Neon Elite` donation frame
 
 - September Event (09/01 to 09/30):
-  - During event top-ups will receive various bonus items
+    - During event top-ups will receive various bonus items
 
 ### 0.1877
 
@@ -438,10 +436,10 @@ Additionally, in the long term, this will:
 ![image](https://github.com/user-attachments/assets/16df503a-a0ec-431d-80b4-c15d84dd12fa)
 
 - Summer Event (July 1st to July 31st - May be extended depending on situation):
-  - During the event, `Sea Shells` will have a chance to drop from AFK Bot Farms, Scavenging activities, and Loot Crates. You can exchange `Sea Shells` with Josie at Crystal Beach for various items.
-  - `Sea Shells` are tradable between players, and are time-limited only during the event
-  - Calibration contributions will have up to a 5% discount for early contributors.
-  - A "Summer Bonus" is active for top-ups, granting bonus items.
+    - During the event, `Sea Shells` will have a chance to drop from AFK Bot Farms, Scavenging activities, and Loot Crates. You can exchange `Sea Shells` with Josie at Crystal Beach for various items.
+    - `Sea Shells` are tradable between players, and are time-limited only during the event
+    - Calibration contributions will have up to a 5% discount for early contributors.
+    - A "Summer Bonus" is active for top-ups, granting bonus items.
 - Fixed issue with sometimes when the event has ended, the event item still drops until server manual restart
 - Fixed issue with chat
 - Added new chat frame `NEON ELITE`
@@ -467,11 +465,11 @@ Additionally, in the long term, this will:
 ### 0.1870
 
 - Added auto-translation to Global Channel, now all messages sent to Global will be automatically translated to:
-  - English
-  - Chinese
-  - Japanese
-  - Korean
-  - Bahasa Indonesia
+    - English
+    - Chinese
+    - Japanese
+    - Korean
+    - Bahasa Indonesia
 
 If your UI language is listed above, you should see all messages translated to your language, for other languages you will see translated messages in English instead (if its not already in English)
 
@@ -506,9 +504,9 @@ To ensure a successful gifting process for high-value items, consider sending a 
 ### 0.1868
 
 - In this update we have added several player suggested features:
-  - Loadout presets - You can now save equipment loadout for quick switch between different loadouts saving you the hassle of manually swapping equipment every time you want to switch loadout, for more information please refer to the tutorial page
-  - Fixed issue with Epic Upgrade module display issue in item details page where it shows a slot for module but its impossible to have module slot for upgrade modules
-  - Attempt to fix issue with gang chat notification sending to player who has already left the gang,if you still face this issue please contact me or a moderator to notify me
+    - Loadout presets - You can now save equipment loadout for quick switch between different loadouts saving you the hassle of manually swapping equipment every time you want to switch loadout, for more information please refer to the tutorial page
+    - Fixed issue with Epic Upgrade module display issue in item details page where it shows a slot for module but its impossible to have module slot for upgrade modules
+    - Attempt to fix issue with gang chat notification sending to player who has already left the gang,if you still face this issue please contact me or a moderator to notify me
 - You can now see other player's donation frame and emblem list in their assets tab, if you do not wish to show yours, you can disable it in the settings menu
 
 ### 0.1867
@@ -518,8 +516,8 @@ To ensure a successful gifting process for high-value items, consider sending a 
 ### 0.1866
 
 - Sakura event: (2025/03/01 to 2025/03/31)
-  - Sakura frame and other emblems are now available during the event
-  - during event there will be discount on party and calibration contribution, the earlier contribution will get higher discount
+    - Sakura frame and other emblems are now available during the event
+    - during event there will be discount on party and calibration contribution, the earlier contribution will get higher discount
 - Added several minigames
 
 **NOTE: the frequency of the minigame showing up is NOT increase nor changed, the only thing changed is instead of getting the same minigame everytime, there will be other minigames. again, the chance/amount/frequency of minigame showing is NOT changed**
@@ -573,9 +571,9 @@ To ensure a successful gifting process for high-value items, consider sending a 
 - Fixed gang chat notification, previously it did not send notifications even when the setting was turned on, now it should work.
   for whom does not want to receive notifications for gang chat, you can disable it in the settings menu or simply click on the bell icon in gang chat:
 
-  ![image](https://github.com/user-attachments/assets/b5e62089-a92b-4df7-b84e-39f3641f8f02)
+    ![image](https://github.com/user-attachments/assets/b5e62089-a92b-4df7-b84e-39f3641f8f02)
 
-  ![image](https://github.com/user-attachments/assets/5812e87f-b4b8-40d0-9209-df673769d565)
+    ![image](https://github.com/user-attachments/assets/5812e87f-b4b8-40d0-9209-df673769d565)
 
 - Many UI improvements for certain devices, mainly China branded Android phone
 - Fixed incorrect random minigame interaction with certain AFK tasks, only affected Recycling and Print & Sell
@@ -583,8 +581,8 @@ To ensure a successful gifting process for high-value items, consider sending a 
 ### 0.1862
 
 - The Lunar New Year event starts today, and till the end of January. during this event:
-  - AFK bot farm and enemy will drop `Red Envelops`, and you can open them to receive `Gold Coins`, `Gold Coins` can be used to exchange for event specific items from `Luna` located at Market Street. event specific items will be automatically removed at the end of event so be sure to redeem and use the items. (`Gold Coins`, `Roasted Turkey`, `Sushi`, `Rice Cake`, `Dumplings` and `Red Envelops` from last year will be automatically update and merge to this year's version and can be used as normal before getting expired at the end of event period)
-  - During the event, top-up units will receive various bonus items
+    - AFK bot farm and enemy will drop `Red Envelops`, and you can open them to receive `Gold Coins`, `Gold Coins` can be used to exchange for event specific items from `Luna` located at Market Street. event specific items will be automatically removed at the end of event so be sure to redeem and use the items. (`Gold Coins`, `Roasted Turkey`, `Sushi`, `Rice Cake`, `Dumplings` and `Red Envelops` from last year will be automatically update and merge to this year's version and can be used as normal before getting expired at the end of event period)
+    - During the event, top-up units will receive various bonus items
 
 ### 0.1861
 
@@ -621,11 +619,11 @@ To ensure a successful gifting process for high-value items, consider sending a 
 ### 0.1855
 
 - Christmas Event:
-  - Dungeon chest and AFK Bot Farm will now drop `FrostByte Shard` which you can exchange various items with `CyberSanta`
-  - You can exchange `Jolly Gains Chest`, `Pure Whey Gainz` and `NanoNibble Ball` with `CyberSanta`
-  - The `Jolly Gains Chest` can be opened similarly to other containers, from the terminal or directly in the item details screen.
-  - When `Pure Whey Gainz` is used you will gain +20% AFK EXP
-  - The Christmas-themed donation frame is in rotation
+    - Dungeon chest and AFK Bot Farm will now drop `FrostByte Shard` which you can exchange various items with `CyberSanta`
+    - You can exchange `Jolly Gains Chest`, `Pure Whey Gainz` and `NanoNibble Ball` with `CyberSanta`
+    - The `Jolly Gains Chest` can be opened similarly to other containers, from the terminal or directly in the item details screen.
+    - When `Pure Whey Gainz` is used you will gain +20% AFK EXP
+    - The Christmas-themed donation frame is in rotation
 - Several bug fixes
 
 ### 0.1854
@@ -667,8 +665,8 @@ To ensure a successful gifting process for high-value items, consider sending a 
 ### 0.1847
 
 - Halloween Event (Will activate at 2024/10/01 00:00 UTC)
-  - Enemies and AFK bot farm will drop `Jack o Lantern` you can use it to redeem items from `Pumpkin Bro` in the Alleyway on Market Street, items that can be redeemed includes `Locked Legendary Container`, `Rare Equipment Crate`, `Pumpkin pie` and `Caramel Apple`
-  - Added `Caramel Apple` you can redeem it from `Pumpkin Bro`, and use to receive a 10% AFK exp and all Btc gained buff for 20 minutes
+    - Enemies and AFK bot farm will drop `Jack o Lantern` you can use it to redeem items from `Pumpkin Bro` in the Alleyway on Market Street, items that can be redeemed includes `Locked Legendary Container`, `Rare Equipment Crate`, `Pumpkin pie` and `Caramel Apple`
+    - Added `Caramel Apple` you can redeem it from `Pumpkin Bro`, and use to receive a 10% AFK exp and all Btc gained buff for 20 minutes
 
 ![image](https://github.com/user-attachments/assets/e122f006-fd01-4b58-b321-ef9720d30048)
 
@@ -743,9 +741,9 @@ Please notify me if there is any bug with the updates 🫡🫡
 ### 0.1840
 
 - Summer Event (August):
-  - Added `Coastal Area` and `Crystal Sands` Beach, where `Josie` is, this location will be hidden after the event ends, level required to enter this area is level 15
-  - scavenge, AFK farm bots and dungeon crates will have a chance to drop `Sea Shell`, you can exchange `Sea Shell` for various items in the with `Josie` at the newly added location
-  - During this even, all community contribution buffs (cali & party) will have up to 5% discount for early contributors, the discount is the follows from the first to the last contribution:
+    - Added `Coastal Area` and `Crystal Sands` Beach, where `Josie` is, this location will be hidden after the event ends, level required to enter this area is level 15
+    - scavenge, AFK farm bots and dungeon crates will have a chance to drop `Sea Shell`, you can exchange `Sea Shell` for various items in the with `Josie` at the newly added location
+    - During this even, all community contribution buffs (cali & party) will have up to 5% discount for early contributors, the discount is the follows from the first to the last contribution:
 
 1.  5%
 2.  5%
@@ -770,19 +768,19 @@ Please notify me if there is any bug with the updates 🫡🫡
 ### 0.1839
 
 - Calibration Rework/Code Re-write:
-  - A new line of community fundraising with different starting time of cali train will be added; there will be two fundraising options, one will start at 00:00 UTC and the other will start at 12:00 UTC, the two funds will be independent of each other. The intention is to give people more options to choose which fund to raise depending on their preferred schedule while providing a predictable timing. the current funding will carry on to the 00:00 UTC fund, and the 12:00 UTC fund will start from 0% when the update is live.
-    ![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/9736f045-d6b6-48d5-a0fe-649e8ee3100c)
+    - A new line of community fundraising with different starting time of cali train will be added; there will be two fundraising options, one will start at 00:00 UTC and the other will start at 12:00 UTC, the two funds will be independent of each other. The intention is to give people more options to choose which fund to raise depending on their preferred schedule while providing a predictable timing. the current funding will carry on to the 00:00 UTC fund, and the 12:00 UTC fund will start from 0% when the update is live.
+      ![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/9736f045-d6b6-48d5-a0fe-649e8ee3100c)
 
-    _Note the image says 8am and 8pm because my timezone is UTC+8, it will show up differently according to your device timezone_
+        _Note the image says 8am and 8pm because my timezone is UTC+8, it will show up differently according to your device timezone_
 
-  - **The System will allow normal calibration buffs to be deployed even when there is a pending train**, until a short time before the train starts, to prevent it from interfering with the event train
-  - 8 hours before any Cali Train starts, a banner will be shown on the chat screen, similar to Party Funds, to remind players of the upcoming train.
-  - With the new system deploying calibration buffs will no longer require using of an item, the functionality will be integrated directly into the Calibration NPC UI Page (Kamiko), hence all calibration-related items will be retired from the game; **All Calibration related items will remain usable as normal if you already have them in your inventory before the update**, and they will no longer be obtainable from any source after the update. This is to simplify the user experience, reduce the complexity of the system. You will still be able to activate calibration buffs similar to before (without contributing to the cali train fund), just that you do not need to use items to do so, you can simply click on the interface to deploy individual cali buffs.
+    - **The System will allow normal calibration buffs to be deployed even when there is a pending train**, until a short time before the train starts, to prevent it from interfering with the event train
+    - 8 hours before any Cali Train starts, a banner will be shown on the chat screen, similar to Party Funds, to remind players of the upcoming train.
+    - With the new system deploying calibration buffs will no longer require using of an item, the functionality will be integrated directly into the Calibration NPC UI Page (Kamiko), hence all calibration-related items will be retired from the game; **All Calibration related items will remain usable as normal if you already have them in your inventory before the update**, and they will no longer be obtainable from any source after the update. This is to simplify the user experience, reduce the complexity of the system. You will still be able to activate calibration buffs similar to before (without contributing to the cali train fund), just that you do not need to use items to do so, you can simply click on the interface to deploy individual cali buffs.
 
-    ![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/f20c21c4-012b-4a3a-a5a5-54c4212a88ba)
+        ![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/f20c21c4-012b-4a3a-a5a5-54c4212a88ba)
 
-  - Calibration UI update, mainly to streamline the process and make it more user-friendly and intuitive.
-  - Improving SLANC's notice when the train is fully funded, it will include specific timestamps for each tier of calibration, **However please keep in mind, the server MAY NOT deploy them at the exact time due to technical reason, it will try to, but may be delayed**
+    - Calibration UI update, mainly to streamline the process and make it more user-friendly and intuitive.
+    - Improving SLANC's notice when the train is fully funded, it will include specific timestamps for each tier of calibration, **However please keep in mind, the server MAY NOT deploy them at the exact time due to technical reason, it will try to, but may be delayed**
 
 - The Chat interface UI will receive an update mainly on reading old message indicator, reply indicator UI, and banner display
 
@@ -839,9 +837,9 @@ Please notify me if there is any bug with the updates 🫡🫡
 ### 0.1831
 
 - Added global party contribution feature, now you can go to `Partyline Pub` found in the market street, where a new NPC `Jieun` has been added, you can contribute 10% of global party with your unit, when the funding reaches 100%, global party buff will be activated immediately.
-  - When the funds are collected, the global party buff will be activated immediately, and the buff will last for 24 hours, the buff is the same as the existing global party buff
-  - If a global buff is already active when a player tries to contribute the last bit of the fund, the server will not allow contribution until the buff ends, however you can freely contribute the fund as long as its not the last bit of the fund.
-  - If a normal global buff (the activated by item) is used, it WILL NOT affect the global party contribution progress, the progress will continue as normal, the progress only resets when the last bit of the fund is contributed and the buff is activated by the community.
+    - When the funds are collected, the global party buff will be activated immediately, and the buff will last for 24 hours, the buff is the same as the existing global party buff
+    - If a global buff is already active when a player tries to contribute the last bit of the fund, the server will not allow contribution until the buff ends, however you can freely contribute the fund as long as its not the last bit of the fund.
+    - If a normal global buff (the activated by item) is used, it WILL NOT affect the global party contribution progress, the progress will continue as normal, the progress only resets when the last bit of the fund is contributed and the buff is activated by the community.
 
 ![image](https://github.com/DexterHuang/CyberCodeOnline/assets/18545294/f1a41a2c-73cc-414b-a4f8-64eee9bd3b7c)
 
@@ -893,8 +891,8 @@ Please notify me if there is any bug with the updates 🫡🫡
 - You will be able to check out other players' pets and you can tag your pet by mentioning them in chat to show it to other players, similar to how you mention other players. in the initial version of the pet system, you can play with other players' pets, but you cannot feed them or clean them, that will be the owner's responsibility.
 - Taking care of your pet: Pets will have a hunger, happiness and cleanness meter, and a hidden healthiness meter, when the pet is too hungry, unhappy or dirty, it will correspondingly affect their mood, if you continue to neglect your pet, it will get sick and eventually die, you can take care of your pet by feeding them, playing with them, cleaning them and giving them medicine when they are sick.
 - Obtaining pets: continuing the unique theme of CyberCode Online emphasis on no pay-to-win, the items required to redeem pets will be obtainable through `Pet Shelter Volunteer Shift AFK` activity and Global Buff similar to how Calibration currently works. by doing this task there will be a chance of receiving:
-  - `Paw Credit`, You can use it to redeem pet-related items from the pet shelter
-  - `Volunteer Service Medallion`, you combine 10 of these to get one `Sanctuary Adoption Pass` which you can use to adopt a pet when `Adoption Buff` is activated by any player.
+    - `Paw Credit`, You can use it to redeem pet-related items from the pet shelter
+    - `Volunteer Service Medallion`, you combine 10 of these to get one `Sanctuary Adoption Pass` which you can use to adopt a pet when `Adoption Buff` is activated by any player.
 - Pet types: it is planned to have two types of pets at the initial launch; cats and dogs, each type will have hundreds of different images based on breeds and colors, and the image of the pets will be determined randomly when you adopt the pet(more types of pets are expected to be added in the future, suggestions are welcomed). you can also randomly change the cosmetic image of your pet without changing the pet's data such as type, hunger, happiness, name and age by using Unit.
 - what happens if your pet dies: if unfortunately your pet dies, you can adopt a new pet or you can choose to activate `Revival Buff` Global Buff to revive your pet and anyone who chooses to revive their pet during the buff duration. there will be cooldowns for reviving pets to ensure that one revival buff can only revive one pet per player.
 - Apartments: You can rent apartments with BTC, and the rental fee is weekly based, if you don't have enough BTC in your account when the rental fee is due, you will be evicted from the apartment. there will be different tiers of apartments, each tier allows you to have bigger 'spaces' for your pet. currently apartment serves as a place that allows you to own pets (you must have an apartment to own a pet) and for future updates.
@@ -906,13 +904,13 @@ Please notify me if there is any bug with the updates 🫡🫡
 - improve on auto-translation system, should produce better initial translation results
 - Fixed display issue on emblems
 
-  0.1823
+    0.1823
 
 - Added Spring Cherry Blossom event; all skips get 5% off during the event period, and added an exclusive sakura chat frame and emblem
 - Minor UI updates
 - Performance optimization on the server side
 
-  0.1822
+    0.1822
 
 ### Lunar New Year Event:
 
@@ -924,12 +922,12 @@ Please notify me if there is any bug with the updates 🫡🫡
 - Updated Zero's(Bald dude in the black market) graphic
 - Updated market street background image
 
-  0.1821
+    0.1821
 
 - Fixed issue with being able to start bulk crafting while being idle
 - Fixed being able to tag, send gift or DM system placeholder account.
 
-  0.1820
+    0.1820
 
 - Fixed issue with Christmas event item still dropping after the event ended
 - Now auto-select feature on the selling to NPC page will not select locked items
@@ -956,7 +954,7 @@ Again, thank you for all the valuable feedback :)
 - Fixed EXP calculation on AFK exp boost, there was a bug where in some situations the bonus EXP was not calculated correctly
 - Slight adjustment on the system message UI
 
-  0.1818
+    0.1818
 
 - Christmas Event starts today, during December, enemies, scavenge and AFK farm bots will have a chance to drop `Frosty Container`` and `Christmas Pudding`
 - You can open Frosty Container to get various rewards, including the chance of EPIC Cache and Tech Scrap Cluster
@@ -968,14 +966,14 @@ Again, thank you for all the valuable feedback :)
 - Fixed issue with time desync on some devices, preventing AFK task time from showing correctly.
 - Fixed when client time is incorrect, chat message can be sent from the client can show in an incorrect place (stuck at the bottom or show up in the middle of message less instead of the bottom)
 
-  0.1817
+    0.1817
 
 - Updated rules to include examples for "no IRL trading", to better clarify that trading with virtual currencies such as Google Play Cards or other points from other services are examples of indirect trading IRL money. please see the actual rules for the details.
 - Optimized SLANC's backend logic
 - Now players who are muted or suspended cannot be tagged, to discourage the muted individuals motivated by attention from getting even more attention.
 - Other various chat server fixes and optimizations
 
-  0.1816
+    0.1816
 
 - Market place item, purchase item UI has been reworked to provide a more streamlined experience, no longer to fill up multiple popups and instead all in one page.
 
@@ -985,29 +983,29 @@ Again, thank you for all the valuable feedback :)
 - Rewrite of the captcha image generation system, now it is much more efficient faster, and more secure.
 - Fixed server-side issues
 
-  0.1815
+    0.1815
 
 - Updated leaderboard UI, making it clear which boards are game-play based which are contribution-based.
 - Optimized leaderboard loading for all boards, allowing us to show 32 players per board instead of 16 previously for all boards
 
-  0.1814
+    0.1814
 
 - Added skip point to the leaderboard
 - Optimized leaderboard loading time, and changed the leaderboard to refresh every hour, to increase efficiency and increase speed
 - Added translation support to leaderboard UI
 
-  0.1813
+    0.1813
 
 - With many discussions and feedback from the community, the skip count statistic will be a point system where:
-  - Every 15-minute skip is 1 point so that you can skip longer periods while still getting equivalent points.
-  - Above 150 minutes is fixed to 10 points to encourage multiple skips rather than one huge skip to maximize the benefit for most players
+    - Every 15-minute skip is 1 point so that you can skip longer periods while still getting equivalent points.
+    - Above 150 minutes is fixed to 10 points to encourage multiple skips rather than one huge skip to maximize the benefit for most players
 - Additionally added skip discount, during this event, all skip above 105 minutes will receive 5% off until the end of the event.\
 - UI update on AFK screen
 
-  0.1812
+    0.1812
 
 - Added Thanksgiving event, during the event period, Scavenging and AFK farm bot will drop `Roasted Turkey` rarely.
-  - Consuming Roasted Turkey gives your `AFK EXP Boost` effect for 20 minutes, during this status effect, AFK tasks completed will gain +20% EXP. Please note, the bonus EXP check is when you finish your AFK task not when the task started; so in order to receive the bonus EXP, please ensure that the buff is active when your AFK task finishes.
+    - Consuming Roasted Turkey gives your `AFK EXP Boost` effect for 20 minutes, during this status effect, AFK tasks completed will gain +20% EXP. Please note, the bonus EXP check is when you finish your AFK task not when the task started; so in order to receive the bonus EXP, please ensure that the buff is active when your AFK task finishes.
 - Added skip count statistic to player profile, you can now see your and others' total skip count. **Because this is a new statistic previously not tracked, everyone's count will start from this update**
 - Added skip-exclusive cosmetics, including emblems and chat frames, these can only be obtained by reaching specific skip counts.
 - Various bug fixes
